@@ -1,6 +1,5 @@
 ---
 title: "How to: Develop an Extension"
-author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 01/22/2018
 ms.reviewer: na

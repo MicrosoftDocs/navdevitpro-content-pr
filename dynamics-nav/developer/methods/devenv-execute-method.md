@@ -1,7 +1,5 @@
 ---
 title: "EXECUTE Method"
-author: edupont04
-redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-al-method-reference04
 ms.custom: na
 ms.date: 08/24/2016
 ms.reviewer: na

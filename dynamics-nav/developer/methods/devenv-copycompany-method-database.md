@@ -1,6 +1,5 @@
 ---
 title: "COPYCOMPANY Method (Database)"
-author: edupont04
 ms.custom: na
 ms.date: 07/04/2017
 ms.reviewer: na

@@ -3,7 +3,6 @@ title: "How to: Install Language Modules"
 
 ms.custom: na
 ms.date: 09/27/2018
-ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article

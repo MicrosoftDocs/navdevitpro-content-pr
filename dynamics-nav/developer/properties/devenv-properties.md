@@ -1,6 +1,5 @@
 ---
 title: "Properties"
-author: edupont04
 ms.custom: na
 ms.date: 02/01/2018
 ms.reviewer: na

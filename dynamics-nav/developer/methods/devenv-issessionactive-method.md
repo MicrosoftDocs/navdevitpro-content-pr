@@ -1,7 +1,6 @@
 ---
 title: "ISSESSIONACTIVE Method (Debugger)"
 author: edupont04
-redirect_url: /dynamics365/business-central/dev-itpro/developer/methods/devenv-al-method-reference04
 ms.custom: na
 ms.date: 07/13/2017
 ms.reviewer: na

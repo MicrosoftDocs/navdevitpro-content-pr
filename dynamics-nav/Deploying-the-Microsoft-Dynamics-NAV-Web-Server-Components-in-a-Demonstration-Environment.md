@@ -1,6 +1,5 @@
 ---
 title: "Deploying the Microsoft Dynamics NAV Web Server Components in a Demonstration Environment"
-author: edupont04
 ms.custom: na
 ms.date: 09/21/2017
 ms.reviewer: na
