@@ -8,7 +8,7 @@
 # Testing With Permission Sets
 You can write application tests in C/AL that use specific permission sets when the test is run. The permission sets define the access rights (such as read, write, and execute ) on tables, reports, functions, and other objects in the database. Without applying any permission sets, a test will run with full permissions, similar to the rights that are granted by the SUPER permission set.
 
-To test with permission sets, you modifying test codeunits or test functions and test runner codeunits.
+To test with permission sets, you modify test codeunits or test functions and test runner codeunits.
 
 -   Test codeunits and test functions
 

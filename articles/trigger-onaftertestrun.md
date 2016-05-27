@@ -33,12 +33,6 @@ The name of the test function that has run.
 
 **Note:**  This parameter is empty when the OnAfterTestRun trigger is called for the whole test codeunit.
 
-*Success*
-
-Type: Boolean
-
-**true** indicates that the test function run succeeded; otherwise, **false** indicates that the test function run failed.
-
 *TestPermissions*
 
 Type: TestPermissionse
@@ -49,6 +43,12 @@ The value of the **TestPermissions** property of the test function for determini
 *   **Restrictive**
 *   **NonRestrictive**
 *   **InheritFromTestCodunit** - Specifies that a test the function uses the **TestPermissions** property setting of the test codeunit to which it belongs.
+
+*Success*
+
+Type: Boolean
+
+**true** indicates that the test function run succeeded; otherwise, **false** indicates that the test function run failed.
 
 ## Applies to
 Test runner codeunits. Test runner codeunits have the **SubType** property set to **TestRunner**.
@@ -92,7 +92,8 @@ The GETLASTERRORTEXT function returns the text that was contained in the last er
 
 ## See Also  
 [TestPermissions Property](property-testpermissions.md)  
-[OnBeforeTestRun Trigger](trigger-onbeforetestrun.md)
+[OnBeforeTestRun Trigger](trigger-onbeforetestrun.md)  
+[Testing With Permission Sets](testing-permissionsets.md)  
 [Testing the Application](testing-testingapplication.md)  
 [How to: Create a Test Runner Codeunit](testing-howcreatetestrunnercodeunit)  
 [How to: Create Test Codeunits and Test Functions](testing-howcreatetestcodeunitsfunctions.md)  
