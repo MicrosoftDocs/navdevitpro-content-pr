@@ -1,30 +1,27 @@
 <properties
-                pageTitle="MESSAGE Function (Notification) | Project “Madeira”"
+                pageTitle="SEND Function (Notification) | Project “Madeira”"
                 description="Describes the MESSAGE function of the Notification data type for sending notifications"
                 services=""
                 documentationCenter="Madeira"
                 authors="jswymer"/>
 
-# MESSAGE Function (Notification)
+# SEND Function (Notification)
 Specifies the content of the notification.
 
 ```
-[CurrMESSAGE := ]MESSAGE([NewMESSAGE])
+[Ok := ]SEND
 ```
-
-## Parameters
-*NewMESSAGE*
-
-Type: Type: Code or text
-
-The text string that you want to display for the notification. The string can be a text constant that is enabled for multilanguage functionality.
-
 ## Return Value
-*CurrMESSAGE*
+*Ok*
 
-Type: Code ot text
+Type: Boolean
 
-The content of the current notification.
+**true** if the notification was sent; otherwise, **false**.
+
+If you omit this optional return value and if the notification cannot be sent, then a run-time error occurs that states that the notification cannot be sent. If you include a return value, then it is assumed that you will handle any errors and no run-time error occurs, even though the notification is not sent.
+
+
+
 
 ## Remarks
 
@@ -38,11 +35,6 @@ Notification.SEND;
 ```
 
 ## See Also  
-[TestPermissions Property](property-testpermissions.md)  
-[OnBeforeTestRun Trigger](trigger-onbeforetestrun.md)  
-[Testing With Permission Sets](testing-permissionsets.md)  
-[Testing the Application](testing-testingapplication.md)  
-[How to: Create a Test Runner Codeunit](testing-howcreatetestrunnercodeunit)  
-[How to: Create Test Codeunits and Test Functions](testing-howcreatetestcodeunitsfunctions.md)  
-[How to: Create Handler Functions](howcreatehandlerfunctions.md)  
-[Walkthrough: Testing Purchase Invoice Discounts](testing-walkthroughtestingpurchaseinvoice.md)  
+[MESSAGE Function (Notification)](function-notificationmessage.md)  
+[SCOPE Function(Notification)](function-notificationscope.md)  
+[Notifications](notifications-developing.md)
