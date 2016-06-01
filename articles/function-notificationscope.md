@@ -1,12 +1,12 @@
 <properties
-                pageTitle="MESSAGE Function (Notification) | Project “Madeira”"
-                description="Describes the MESSAGE function of the Notification data type for sending notifications"
+                pageTitle="SCOPE Function (Notification) | Project “Madeira”"
+                description="Describes the SCOPE function of the Notification data type for sending notifications"
                 services=""
                 documentationCenter="Madeira"
                 authors="jswymer"/>
 
-# MESSAGE Function (Notification)
-Specifies the content of the notification.
+# SCOPE Function (Notification)
+Specifies the scope in which the notification appears to users content of the notification.
 
 ```
 [CurrMESSAGE := ]MESSAGE([NewMESSAGE])
@@ -40,4 +40,5 @@ Notification.SEND;
 ## See Also  
 [SCOPE Function(Notification)](function-notificationscope.md)  
 [SEND Function (Notification)](function-notificationsend.md)  
-[Notifications](notifications-developing.md)
+[Notifications](notifications-developing.md)  
+[Multilanguage Development](multilanguage-development.md).

@@ -51,9 +51,7 @@ The first task is to back up the old database and then prepare to convert it.
 Next, you will convert the old database so that it can be used in Microsoft Dynamics NAV 2016.
 
 ## Prepare for the conversion
-1.  Before you start the following procedure, you can choose to uninstall the old version of Dynamics NAV. When you uninstall Dynamics NAV, the database is still attached to the instance of SQL Server, which you can verify using SQL Server Management Studio.
-
-2. If the old database includes test runner codeunits, you must change the signature of the OnBeforeTestRun and OnAfterTestRun triggers of the test runner codeunits to include the TestPermission paramter, as shown in the following examples:
+1. If the old database includes test runner codeunits, you must change the signature of the OnBeforeTestRun and OnAfterTestRun triggers of the test runner codeunits to include the TestPermission parameter, as shown in the following examples:
 
     ```
     OnBeforeTestRun(CodeunitID : Integer;CodeunitName : Text[30];FunctionName : Text[128]; TestPermissions : Text) Ok : Boolean)
@@ -63,6 +61,9 @@ Next, you will convert the old database so that it can be used in Microsoft Dyna
     OnAfterTestRun(CodeunitID : Integer;CodeunitName : Text[30];FunctionName : Text[128]; FunctionTestPermissions : TestPermissions; Success : Boolean)
     ```
     If you do not change the signature, you will get errors when you compile these objects.
+
+2.  Before you start the following procedure, you can choose to uninstall the old version of Dynamics NAV. When you uninstall Dynamics NAV, the database is still attached to the instance of SQL Server, which you can verify using SQL Server Management Studio.
+
 
 **Tip:** If you want to write a script that helps you convert databases, you can use the Invoke-NAVDatabaseConversion function in the Project “Madeira” Development Shell.
 
