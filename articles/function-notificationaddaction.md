@@ -39,7 +39,7 @@ Type: Code ot text
 The content of the current notification.
 
 ## Remarks
-An action enables you to provide the user with way to take action on the notification. The function that is called by the action will contain logic that you want to run for the action. 
+An action provides a way for you to add an interactive notification that enables users to respond to or take action on the notification. The function that is called by the action will contain logic that you want to run for the action. 
 ##  Example
 The following code creates a notification and sends it in the local scope.
 
