@@ -1,6 +1,6 @@
 <properties
-                pageTitle="GETDATA Function (Notification) | Project “Madeira”"
-                description="Describes the GETDATA function of the Notification data type for sending notifications"
+                pageTitle="SETDATA Function (Notification) | Project “Madeira”"
+                description="Describes the SETDATA function of the Notification data type for sending notifications"
                 services=""
                 documentationCenter="Madeira"
                 authors="jswymer"/>

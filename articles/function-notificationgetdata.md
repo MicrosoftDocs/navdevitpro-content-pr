@@ -17,7 +17,7 @@ Value := GETDATA(Name)
 
 Type: Type: Code or text
 
-The text string that to appear as the caption of the action in the notification UI. The string can be a text constant that is enabled for multilanguage functionality.
+The text string to The string can be a text constant that is enabled for multilanguage functionality.
 
 ## Return Value
 *Value*

@@ -6,7 +6,7 @@
                 authors="jswymer"/>
 
 # MESSAGE Function (Notification)
-Specifies an action that the user can take when a notification appears in the UI.
+Specifies an action in the notification UI that the user can select.
 
 ```
 ADDACTION(Caption, CodeunitID, FunctionName)
@@ -39,14 +39,17 @@ Type: Code ot text
 The content of the current notification.
 
 ## Remarks
-
+An action enables you to provide the user with way to take action on the notification. The function that is called by the action will contain logic that you want to run for the action. 
 ##  Example
 The following code creates a notification and sends it in the local scope.
 
-```
+````
 Notification.MESSAGE := 'The customer's current balance exceeds their credit limit.';
 Notification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
+Notification.ADDACTION('Click here.', 5001, MyAction);
+ActionData := Notification.GETDATA(myData);
 Notification.SEND;
+
 ```
 
 ## See Also  
