@@ -27,7 +27,7 @@ Type: Code ot text
 The content of the current notification.
 
 ## Remarks
-
+A local scope notification appears in the context of the current task in the UI, for example, on the page the user is working on.
 ##  Example
 The following code creates a notification and sends it in the local scope.
 

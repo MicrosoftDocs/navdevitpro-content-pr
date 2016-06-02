@@ -6,7 +6,7 @@
                 authors="jswymer"/>
 
 # SEND Function (Notification)
-Specifies the content of the notification.
+Sends the notification to UI.
 
 ```
 [Ok := ]SEND
