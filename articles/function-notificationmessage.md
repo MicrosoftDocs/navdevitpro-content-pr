@@ -22,7 +22,7 @@ The text string that you want to display for the notification. The string can be
 ## Return Value
 *CurrMESSAGE*
 
-Type: Code ot text
+Type: Code or text
 
 The content of the current notification.
 
