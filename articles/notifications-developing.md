@@ -1,4 +1,4 @@
-<properties
+ <properties
                 pageTitle="Notifications | Project “Madeira”"
                 description="Describes how you can develop notifications in the application using C/AL."
                 services=""

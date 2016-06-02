@@ -18,6 +18,7 @@ Optionally, you can export the captions before the upgrade. For more information
 If you upgrade a database using a different codepage, Project “Madeira” must remove incorrect metadata characters to complete the data upgrade. Then, you must open the database in the development environment on a computer with the relevant codepage and compile all objects. This adds the missing characters again.
 
 ## Prerequisites
+Before you convert the database, make sure that the following prerequisites are met:
 
 -   A FOB file that contains the upgraded application code and upgrade toolkit. The upgrade toolkit can also be in a separate FOB file.
 
@@ -66,6 +67,7 @@ For more information, see [Create a Full Database Backup (SQL Server)](http://ms
 By using the Dynamics NAV Development Environment that matches the old database, upload the Project “Madeira” license to the database. For more information, see Uploading a License File for a Specific Database.
 
 ## Task 3: Delete all objects from the old database
+<!-- Anca is investigating whether this task should be moved after Task 7 -->
 In the development environment version that matches the database, open the old database, open Object Designer, and then delete all objects.
 
 ## Task 4: Uninstall the old product and install the new product
@@ -85,7 +87,7 @@ In addition, you must add the service account that is used by the server instanc
 
 For more information, see [How to: Connect a Project “Madeira” Server Instance to a Database](upgrade-howconnectserverinstancedatabase.md) and [Giving the account necessary database privileges in SQL Server](deployment-provisioningserveraccount#giving-the-account-necessary-database-privileges-in SQL-Server).
 
-##Task 7: Run the schema synchronization to complete the database conversion
+## Task 7: Run the schema synchronization to complete the database conversion
 You can run the schema synchronization from the Project “Madeira”  Development Environment or Administration Shell.
 
 From the development environment:
