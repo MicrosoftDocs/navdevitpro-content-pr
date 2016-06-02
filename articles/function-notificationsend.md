@@ -12,16 +12,13 @@ Specifies the content of the notification.
 [Ok := ]SEND
 ```
 ## Return Value
-*Ok*
+*Value*
 
-Type: Boolean
+Type: Code ot text
 
 **true** if the notification was sent; otherwise, **false**.
 
 If you omit this optional return value and if the notification cannot be sent, then a run-time error occurs that states that the notification cannot be sent. If you include a return value, then it is assumed that you will handle any errors and no run-time error occurs, even though the notification is not sent.
-
-
-
 
 ## Remarks
 
@@ -31,6 +28,8 @@ The following code creates a notification and sends it in the local scope.
 ```
 Notification.MESSAGE := 'The customer's current balance exceeds their credit limit.';
 Notification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
+Notification.ADDACTION('Click here.', 5001, MyAction);
+ActionData := Notification.GETDATA(myData);
 Notification.SEND;
 ```
 
