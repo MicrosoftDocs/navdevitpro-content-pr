@@ -6,7 +6,7 @@
                 authors="jswymer"/>
 
 # Notifications
-Notifications provide a programmatic way to send non-intrusive information to the user interface (UI) in the Dynamics NAV Web client. Notifications differ from messages initiated by the MESSAGE function. With messages, users are typically required to address the message and take some form of corrective action before they continue working. Notifications give users information about a current situation, but do not require any immediate action or block users from continuing with their current task. For example, you could have a notification that a customer's credit limit is exceeded.
+Notifications provide a programmatic way to send non-intrusive information to the user interface (UI) in the Dynamics NAV Web client. Notifications differ from messages initiated by the MESSAGE function. Messages are modal, which means users are typically required to address the message and take some form of corrective action before they continue working. On the other hand, notifications are non-modal. Their purpose is to give users information about a current situation, but do not require any immediate action or block users from continuing with their current task. For example, you could have a notification that a customer's credit limit is exceeded.
 
 ## Notifications in the UI
 In the UI, notifications appear in the **Notification** bar, similar to validation errors, at the top of the page on which a user is currently working. The user can then choose to dismiss the notification, which clears it, or if actions are defined on notification, choose one of the actions. Any validation errors on the page will be shown first.
@@ -34,13 +34,40 @@ You implement notifications by using the MESSAGE and SEND functions. the MESSAGE
 The ADDACTION function provides you a way to create more interactive notifications. By default, users have the option to dismiss the notifications. However, there might be cases where you want to provide them with different actions, such as a simple task, which they can take to address the notification. You can have multiple actions on a single notification instance.
 
 ### Handling Data with Notifications
+You can use the SETDATA and GETDATA functions to handle data in a notification. The SETDATA function defines the data that you want to pass to the notification instance. The data is defined in a key-value pair as text. When the notification is sent to the client, the data is passed to the notification instance. With the GETDATA function, you can then retrieve the data, and add logic to handle it.
 
 ## Example
-This simple example will illustrate how notifications work and provide some insight into how you can use them.
+This simple example will illustrate how notifications work and provide some insight into how you can use them. The code compares a customer's balance with their credit limit. If the balance exceeds the credit limit, a notification is send to the client. The notification includes an action, with the **Change credit limit**, that enables the user to modify the customer data to increase the credit limit.
+
+
+|  Variable  |  Data Type  |  Subtype  |
+|------------|-------------|-----------|
+|Customer    |  Record     |  Customer |
+|CreditBalanceNotification|Notifiction||
+
+
 ```
-Notification.MESSAGE := 'The customer's current balance exceeds their credit limit.';
-Notification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
-Notification.SEND;
+IF Customer."Balance (LCY)" < customer."Credit Limit (LCY)" THEN
+    CreditBalanceNotification.MESSAGE := 'The customer's current balance exceeds their credit limit.';
+    CreditBalanceNotification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
+    CreditBalanceNotification.SETDATA(CustNumber, Customer."No.");
+    CreditBalanceNotification.ADDACTION('Change credit limit', 5001, OpenCustomer)
+    CreditBalanceNotification.SEND;
+```
+Codunit 5001 includes a global function with the name **OpenCustomer**. The **OpenCustomer** has the following code:
+
+
+|  Variable  |  Data Type  |  Subtype  |
+|------------|-------------|-----------|
+|CustomerNo    |  Text     |   |
+|CustRec|Record|Customer|
+|CustPage|Page|Customer Card|
+```
+CustomerNo := GETDATA(CustNumber);
+CustRec.GET(CustomerNo);
+CustPage.SETRECORD(CustRec)
+CustPage.RUN;
+
 ```
 
 ## See Also  

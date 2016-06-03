@@ -27,7 +27,7 @@ Type: Code or text
 The content of the current notification.
 
 ## Remarks
-
+The MESSAGE function defines the instance of the notification. You use the [SEND function](function-notificationsend.md) to pass the instance to the client for displaying the notification.
 ##  Example
 The following code creates a notification and sends it in the local scope.
 
