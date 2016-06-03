@@ -42,8 +42,8 @@ This simple example will illustrate how notifications work and provide some insi
 
 |  Variable  |  Data Type  |  Subtype  |
 |------------|-------------|-----------|
-|Customer    |  Record     |  Customer |
-|CreditBalanceNotification|Notifiction||
+|Customer    |  Record     |    Customer |
+|CreditBalanceNotification|  Notifiction  | N/A|
 
 
 ```
