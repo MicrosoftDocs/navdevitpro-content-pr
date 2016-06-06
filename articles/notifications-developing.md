@@ -102,6 +102,7 @@ Add the following code the OnOpenPage tigger of the page:
 
 ```
 IF Customer."Balance (LCY)" > customer."Credit Limit (LCY)" THEN
+BEGIN
     CreditBalanceNotification.MESSAGE := 'The customer's current balance exceeds their credit limit.';
     CreditBalanceNotification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
     CreditBalanceNotification.SETDATA(CustNumber, Customer."No.");
