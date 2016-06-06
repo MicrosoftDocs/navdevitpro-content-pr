@@ -28,13 +28,15 @@ The content of the current notification.
 
 ## Remarks
 The MESSAGE function defines the instance of the notification. You use the [SEND function](function-notificationsend.md) to pass the instance to the client for displaying the notification.
+
+For more information and a detailed example, see [Notifications](notifications-developing.md).
+
 ##  Example
 The following code creates a notification and sends it in the local scope.
-
 ```
-Notification.MESSAGE := 'The customer's current balance exceeds their credit limit.';
-Notification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
-Notification.SEND;
+MyNotification.MESSAGE := 'This is a notification';
+MyNotification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
+MyNotification.SEND
 ```
 
 ## See Also  

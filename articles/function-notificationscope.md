@@ -28,13 +28,15 @@ The content of the current notification.
 
 ## Remarks
 A local scope notification appears in the context of the current task in the UI, for example, on the page the user is working on.
+
+For more information and a detailed example, see [Notifications](notifications-developing.md).
+
 ##  Example
 The following code creates a notification and sends it in the local scope.
-
 ```
-Notification.MESSAGE := 'The customer's current balance exceeds their credit limit.';
-Notification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
-Notification.SEND;
+MyNotification.MESSAGE := 'This is a notification';
+MyNotification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
+MyNotification.SEND
 ```
 
 ## See Also  
