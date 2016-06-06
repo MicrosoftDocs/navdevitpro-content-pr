@@ -27,7 +27,7 @@ The parameter has the following values:
 **Note:**  GlobalScope is currently not supported.
 
 ## Return Value
-*CurrSCOPEE*
+*CurrSCOPE*
 
 Type: NotificationScope
 
@@ -42,7 +42,7 @@ The following code creates a notification and sends it in the local scope.
 ```
 MyNotification.MESSAGE := 'This is a notification';
 MyNotification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
-MyNotification.SEND
+MyNotification.SEND;
 ```
 
 ## See Also  
