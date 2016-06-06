@@ -31,28 +31,23 @@ Type: Type: Code or text
 
 The name of the function in the codeunit, which is specified by the *CodeunitID* parameter, that you want to run for the action.
 
-## Return Value
-*CurrMESSAGE*
-
-Type: Code ot text
-
-The content of the current notification.
-
 ## Remarks
-An action provides a way for you to add an interactive notification that enables users to respond to or take action on the notification. The function that is called by the action will contain logic that you want to run for the action. 
-##  Example
-The following code creates a notification and sends it in the local scope.
+An action provides a way for you to add an interactive notification that enables users to respond to or take action on the notification. The function that is called by the action will contain logic that you want to run for the action.
 
-````
-Notification.MESSAGE := 'The customer's current balance exceeds their credit limit.';
-Notification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
-Notification.ADDACTION('Click here.', 5001, MyAction);
-ActionData := Notification.GETDATA(myData);
-Notification.SEND;
+For more information and a detailed example, see [Notifications](notifications-developing.md).
+
+##  Example
+The following code creates two actions for a notification. The actions call the **RunAction1** and **RunAction** functions in codeunit 50002.
 
 ```
+MyNotification.MESSAGE := 'This is a notification';
+MyNotification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
+MyNotification.ADDACTION('Action 1',50002,'RunAction1');
+MyNotification.ADDACTION('Action 2',50002,'RunAction2');
+MyNotification.SEND;
+```
 
-## See Also  
+## See Also
 [SCOPE Function(Notification)](function-notificationscope.md)  
 [SEND Function (Notification)](function-notificationsend.md)  
 [Notifications](notifications-developing.md)

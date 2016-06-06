@@ -20,17 +20,26 @@ Type: Type: Code or text
 The name of the data item that is specified by the SETDATA function call.
 
 ## Remarks
+You can use the **GETDATA** function with the **SETDATA** and to handle data in a notification with respect to actions.
+
+For more information and a detailed example, see [Notifications](notifications-developing.md).
 
 ##  Example
-The following code creates a notification and sends it in the local scope.
+The following code sets the data for a notification:
+```
+MyNotification.MESSAGE := 'This is a notification';
+MyNotification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
+MyNotification.SETDATA('Created',FORMAT(CURRENTDATETIME,0,9));
+MyNotification.SETDATA('ID',FORMAT(CREATEGUID,0,9));
+MyNotification.ADDACTION('Action 1',50002,'RunAction1');
+MyNotification.ADDACTION('Action 2',50002,'RunAction2');
+MyNotification.SEND;
+```
+The following code gets the data for a notification:
 
 ```
-Notification.MESSAGE := 'The customer's current balance exceeds their credit limit.';
-Notification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
-Notification.ADDACTION('Click here.', 5001, MyAction);
-ActionData := Notification.GETDATA(myData);
-Notification.SEND;
-
+MyNotification.GETDATA('Created');
+MyNotification.GETDATA('ID');
 ```
 
 ## See Also  

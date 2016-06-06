@@ -37,15 +37,26 @@ The data that is specified by the SETDATA function can be retrieved by the [GETD
 
 You can use multiple SETDATA function calls to specify different data items. The data remains available for the life of the notification instance. The data is cleared once the notification instance has been dismissed.
 
+For more information and a detailed example, see [Notifications](notifications-developing.md).
+
 ##  Example
+The following code sets the data for a notification:
 ```
-Notification.MESSAGE := 'The customer's current balance exceeds their credit limit.';
-Notification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
-Notification.ADDACTION('Click here.', 5001, MyAction);
-ActionData := Notification.GETDATA(myData);
-Notification.SEND;
+MyNotification.MESSAGE := 'This is a notification';
+MyNotification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
+MyNotification.SETDATA('Created',FORMAT(CURRENTDATETIME,0,9));
+MyNotification.SETDATA('ID',FORMAT(CREATEGUID,0,9));
+MyNotification.ADDACTION('Action 1',50002,'RunAction1');
+MyNotification.ADDACTION('Action 2',50002,'RunAction2');
+MyNotification.SEND;
+```
+The following code gets the data for a notification:
 
 ```
+MyNotification.GETDATA('Created');
+MyNotification.GETDATA('ID');
+```
+
 ## See Also  
 [MESSAGE Function(Notification)](function-notificationmessage.md)  
 [SCOPE Function(Notification)](function-notificationscope.md)  

@@ -9,14 +9,14 @@
 Notifications provide a programmatic way to send non-intrusive information to the user interface (UI) in the Dynamics NAV Web client. Notifications differ from messages initiated by the MESSAGE function. Messages are modal, which means users are typically required to address the message and take some form of corrective action before they continue working. On the other hand, notifications are non-modal. Their purpose is to give users information about a current situation, but do not require any immediate action or block users from continuing with their current task. For example, you could have a notification that a customer's credit limit is exceeded.
 
 ## Notifications in the UI
-In the UI, notifications appear in the **Notification** bar, similar to validation errors, at the top of the page on which a user is currently working. The user can then choose to dismiss the notification, which clears it, or if actions are defined on notification, choose one of the actions. Any validation errors on the page will be shown first.
+In the UI, notifications appear in the **Notification** bar (similar to validation errors) at the top of the page on which a user is currently working. The user can then choose to dismiss the notification, which clears it. Or if actions are defined on notification, the user can choose one of the actions. Any validation errors on the page will be shown first.
 
-There can be multiple notification, where they appear one after the other, with the latest at the top.
+There can be multiple notifications. The notifications appear chronological order from top to bottom.
 
-Notification remain for duration of the page instance or until the user dismisses them or takes action on them.
+Notifications remain for duration of the page instance or until the user dismisses them or takes action on them.
 
 ## Developing Notifications
-By using the new Notification and NotificationScope data types and functions in C/AL, you can add code to send notifications to users for two different scopes: local and global. A local scope notification appears in context of what the user is currently doing, while global scope notifications are not directly related to the current task
+By using the **Notification** and **NotificationScope** data types and functions in C/AL, you can add code to send notifications to users.
 
 |  Function  |  Description  |
 |------------|---------------|
@@ -27,34 +27,87 @@ By using the new Notification and NotificationScope data types and functions in 
 |[SETDATA](function-notificationsetdata.md)  |Specifies data to be passed to the notification instance.|
 |[GETDATA](function-notificationgetdata.md)  |Retrieves data from a SETDATA function call.|
 
-### Creating and Sending Notifications
-You implement notifications by using the MESSAGE and SEND functions. the MESSAGE function define the content of the notification. When the MESSAGE function is called, it creates an instance of the notification on the Dynamics NAV Server. The SEND function passes the notification instance to the client at runtime.
+### Creating and sending notifications
+You implement notifications by using the **MESSAGE** and **SEND** functions. The **MESSAGE** function defines the content of the notification. When the MESSAGE function is called, it creates an instance of the notification on the Dynamics NAV Server. The **SEND** function passes the notification to the client at runtime.
+```
+MyNotification.MESSAGE := 'This is a notification';
+MyNotification.SEND
+```
 
-### Adding Actions on Notifications
-The ADDACTION function provides you a way to create more interactive notifications. By default, users have the option to dismiss the notifications. However, there might be cases where you want to provide them with different actions, such as a simple task, which they can take to address the notification. You can have multiple actions on a single notification instance.
+### Defining the notification scope
+The scope is realm in which a notification is broadcast in the client. There are two different scopes: local and global. A local scope notification appears in context of the user's current task, that is, on the page the user is currently working on. A global scope notifications are not directly related to the current task. These appear on the user's Role Center.
+```
+MyNotification.MESSAGE := 'This is a notification';
+MyNotification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
+MyNotification.SEND
+```
+**Note:** The *GlobalScope* is currently not supported. The default scope is *LocalScope*.
 
-### Handling Data with Notifications
-You can use the SETDATA and GETDATA functions to handle data in a notification. The SETDATA function defines the data that you want to pass to the notification instance. The data is defined in a key-value pair as text. When the notification is sent to the client, the data is passed to the notification instance. With the GETDATA function, you can then retrieve the data, and add logic to handle it.
+### Adding actions on notifications
+The ADDACTION function provides you a way to create more interactive notifications. By default, users have the option to dismiss the notifications. However, there might be cases where you want to provide them with different actions, such as a simple task, which they can take to address the notification.
 
-## Example
-This simple example will illustrate how notifications work and provide some insight into how you can use them. The code compares a customer's balance with their credit limit. If the balance exceeds the credit limit, a notification is send to the client. The notification includes an action, with the **Change credit limit**, that enables the user to modify the customer data to increase the credit limit.
+To implement an action, you create a codeunit that contans a global function where you add business logic for the action. You then include the **ADDACTION** function with the notification code to call the function.  You can have multiple actions on a single notification instance.
+```
+MyNotification.MESSAGE := 'This is a notification';
+MyNotification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
+MyNotification.ADDACTION('Action 1',50002,'RunAction1');
+MyNotification.ADDACTION('Action 2',50002,'RunAction2');
+MyNotification.SEND;
+```
 
+### Handling data with notifications
+You can use the **SETDATA** and **GETDATA** functions to handle data in a notification, typically with respect to actions. The **SETDATA** function defines the data that you want to transfer to the notification instance. The data is defined as text in a key-value pair. When the notification is sent to the client, the data is passed to the notification instance. With the **GETDATA** function, you can then retrieve the data, and add logic to handle it.
 
-|  Variable  |  Data Type  |  Subtype  |
-|------------|-------------|-----------|
-|Customer    |  Record     |    Customer |
-|CreditBalanceNotification|  Notifiction  | N/A|
-
+The following code sets the data for a notification:
+```
+MyNotification.MESSAGE := 'This is a notification';
+MyNotification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
+MyNotification.SETDATA('Created',FORMAT(CURRENTDATETIME,0,9));
+MyNotification.SETDATA('ID',FORMAT(CREATEGUID,0,9));
+MyNotification.ADDACTION('Action 1',50002,'RunAction1');
+MyNotification.ADDACTION('Action 2',50002,'RunAction2');
+MyNotification.SEND;
+```
+The following code gets the data for a notification:
 
 ```
-IF Customer."Balance (LCY)" < customer."Credit Limit (LCY)" THEN
+MyNotification.GETDATA('Created');
+MyNotification.GETDATA('ID');
+```
+## Example
+This simple example will illustrate how notifications work and provide some insight into how you can use them. This example uses page **42 Sales Order** of the CRONUS International Ltd. demonstration database.
+
+*   The code compares a customer's balance with their credit limit. If the balance exceeds the credit limit, a notification is send to the client.
+*   The notification includes an action, which has the caption **Change credit limit**, that opens page **21 Customer Card**. This enables the user to increase the credit limit.
+
+### Variables and text constants
+Create the following C/AL variables and text constants on page **21 Customer Card**.
+
+
+|  Variable Name |  Data Type  |  Subtype  |
+|----------------|-------------|-----------|
+|Customer    |  Record     |    Customer |
+|CreditBalanceNotification|  Notification  | (not applicable) |
+
+|  Text Constant Name |  ConstValue |
+|----------------------|------------|
+|Text003    |The customer's current balance exceeds their credit limit.|
+|Text004|  Change credit limit  |
+
+### Notification code
+Add the following code the OnOpenPage tigger of the page:I
+```
+IF Customer."Balance (LCY)" > customer."Credit Limit (LCY)" THEN
     CreditBalanceNotification.MESSAGE := 'The customer's current balance exceeds their credit limit.';
     CreditBalanceNotification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
     CreditBalanceNotification.SETDATA(CustNumber, Customer."No.");
     CreditBalanceNotification.ADDACTION('Change credit limit', 5001, OpenCustomer)
     CreditBalanceNotification.SEND;
 ```
-Codunit 5001 includes a global function with the name **OpenCustomer**. The **OpenCustomer** has the following code:
+### Data handling
+Create codunit 5001 that includes a global function with the name **OpenCustomer**.
+
+Add the following C/AL variables to the codeunit:
 
 
 |  Variable  |  Data Type  |  Subtype  |
@@ -62,6 +115,9 @@ Codunit 5001 includes a global function with the name **OpenCustomer**. The **Op
 |CustomerNo    |  Text     |   |
 |CustRec|Record|Customer|
 |CustPage|Page|Customer Card|
+
+Add the following code to **OpenCustomer** function:
+
 ```
 CustomerNo := GETDATA(CustNumber);
 CustRec.GET(CustomerNo);
