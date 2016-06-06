@@ -49,4 +49,4 @@ MyNotification.SEND
 [SCOPE Function(Notification)](function-notificationscope.md)  
 [SEND Function (Notification)](function-notificationsend.md)  
 [Notifications](notifications-developing.md)  
-[Multilanguage Development](multilanguage-development.md).
+[Multilanguage Development](multilanguage-development.md)
