@@ -21,6 +21,8 @@ Type: Code ot text
 If you omit this optional return value and if the notification cannot be sent, then a run-time error occurs that states that the notification cannot be sent. If you include a return value, then it is assumed that you will handle any errors and no run-time error occurs, even though the notification is not sent.
 
 ## Remarks
+The SEND function displays the content of the notification that is specified by the [MESSAGE function](function-notificationmessage.md).
+
 For more information and a detailed example, see [Notifications](notifications-developing.md).
 
 ##  Example
