@@ -46,7 +46,7 @@ MyNotification.SEND;
 ```
 **Note:** The *GlobalScope* is currently not supported. The default scope is *LocalScope*.
 
-### Adding actions on notifications
+## Adding actions on notifications
 The ADDACTION function provides you a way to create more interactive notifications. By default, users have the option to dismiss the notifications. However, there might be cases where you want to provide them with different actions, such as a simple task, which they can take to address the notification.
 
 To implement an action, you create a codeunit that contans a global function in which you add business logic for the action. You then include the **ADDACTION** function in the notification code to call the function.  You can have multiple actions on a single notification instance.
@@ -58,7 +58,7 @@ MyNotification.ADDACTION('Action 2',50002,'RunAction2');
 MyNotification.SEND;
 ```
 
-### Handling data with notifications
+## Handling data with notifications
 You can use the **SETDATA** and **GETDATA** functions to handle data in a notification, typically with respect to actions. The **SETDATA** function defines the data that you want to transfer to the notification instance. The data is defined as text in a key-value pair. When the notification is sent to the client, the data is passed to the notification instance. With the **GETDATA** function, you can then retrieve the data, and add logic to handle it.
 
 The following code sets the data for a notification:
