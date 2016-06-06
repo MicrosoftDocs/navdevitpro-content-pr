@@ -13,6 +13,7 @@ In the UI, notifications appear in the **Notification** bar (similar to validati
 
 * There can be multiple notifications. The notifications appear chronological order from top to bottom.
 * Notifications remain for duration of the page instance or until the user dismisses them or takes action on them.
+* Notifications taht are defined on sub-pages, for example in parts and FactBoxes, appear in the same **Notification** bar. 
 * Validation errors on the page will be shown first.
 
 ## Developing Notifications
