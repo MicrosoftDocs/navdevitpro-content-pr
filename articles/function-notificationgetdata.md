@@ -6,7 +6,7 @@
                 authors="jswymer"/>
 
 # GETDATA Function (Notification)
-Retrieves data that was passed to a notification instance by a [SETDATA function](function-notificationsetdata.md) call.
+Retrieves data that was passed to a notification instance as specified by a [SETDATA function](function-notificationsetdata.md) call.
 
 ```
 Value := GETDATA(Name)
@@ -20,7 +20,7 @@ Type: Type: Code or text
 The name of the data item that is specified by the SETDATA function call.
 
 ## Remarks
-You can use the **GETDATA** function with the **SETDATA** and to handle data in a notification with respect to actions.
+You can use the **GETDATA** function with the **SETDATA** and to handle data in a notification, typically with respect to actions.
 
 For more information and a detailed example, see [Notifications](notifications-developing.md).
 
