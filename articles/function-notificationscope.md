@@ -6,28 +6,34 @@
                 authors="jswymer"/>
 
 # SCOPE Function (Notification)
-Specifies the scope in which the notification appears to users content of the notification.
+Specifies the scope in which the notification appears to users in the client.
 
 ```
-[CurrMESSAGE := ]MESSAGE([NewMESSAGE])
+[CurrSCOPE := ]SCOPE([NewSCOPE])
 ```
 
 ## Parameters
-*NewMESSAGE*
+*NewSCOPE*
 
-Type: Type: Code or text
+Type: NotificationScope
 
-The text string that you want to display for the notification. The string can be a text constant that is enabled for multilanguage functionality.
+The parameter has the following values:
+
+|  Value  |  Description  |
+|---------|---------------|
+|LocalScope |The notification appears in context of the user's current task, on the page the user is currently working on. This is the default value.|
+|GlobaocalScope |The notifications are not directly related to the user's current task, and it appears on the user's Role Center|
+
+**Note:**  GlobalScope is currently not supported.
 
 ## Return Value
-*CurrMESSAGE*
+*CurrSCOPEE*
 
-Type: Code ot text
+Type: NotificationScope
 
-The content of the current notification.
+The scope of the current notification.
 
 ## Remarks
-A local scope notification appears in the context of the current task in the UI, for example, on the page the user is working on.
 
 For more information and a detailed example, see [Notifications](notifications-developing.md).
 
