@@ -16,7 +16,7 @@ In the UI, notifications appear in the **Notification** bar (similar to validati
 * Notifications that are defined on sub-pages, for example in parts and FactBoxes, appear in the same **Notification** bar. 
 * Validation errors on the page will be shown first.
 
-## Developing Notifications
+## Developing Notifications - Overview
 By using the **Notification** and **NotificationScope** data types and functions in C/AL, you can add code to send notifications to users.
 
 |  Function  |  Description  |
@@ -28,14 +28,16 @@ By using the **Notification** and **NotificationScope** data types and functions
 |[SETDATA](function-notificationsetdata.md)  |Specifies data to be transferred to the notification instance.|
 |[GETDATA](function-notificationgetdata.md)  |Retrieves data from a SETDATA function call.|
 
-### Creating and sending notifications
+The following sections describe the use of these functions in more detail.
+
+## Creating and sending notifications
 You implement notifications by using the **MESSAGE** and **SEND** functions. The **MESSAGE** function defines the content of the notification. When the MESSAGE function is called, it creates an instance of the notification on the Dynamics NAV Server. The **SEND** function passes the notification to the client at runtime.
 ```
 MyNotification.MESSAGE := 'This is a notification';
 MyNotification.SEND
 ```
 
-### Defining the notification scope
+## Defining the notification scope
 The scope is the realm in which a notification is broadcast in the client. There are two different scopes: local and global. A local scope notification appears in context of the user's current task, that is, on the page the user is currently working on. A global scope notifications are not directly related to the current task. These appear on the user's Role Center.
 ```
 MyNotification.MESSAGE := 'This is a notification';
