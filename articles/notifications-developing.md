@@ -35,7 +35,7 @@ MyNotification.SEND
 ```
 
 ### Defining the notification scope
-The scope is realm in which a notification is broadcast in the client. There are two different scopes: local and global. A local scope notification appears in context of the user's current task, that is, on the page the user is currently working on. A global scope notifications are not directly related to the current task. These appear on the user's Role Center.
+The scope is the realm in which a notification is broadcast in the client. There are two different scopes: local and global. A local scope notification appears in context of the user's current task, that is, on the page the user is currently working on. A global scope notifications are not directly related to the current task. These appear on the user's Role Center.
 ```
 MyNotification.MESSAGE := 'This is a notification';
 MyNotification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
