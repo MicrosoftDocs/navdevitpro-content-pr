@@ -5,7 +5,7 @@
                 documentationCenter="Madeira"
                 authors="jswymer"/>
 
-# MESSAGE Function (Notification)
+# ADDACTION Function (Notification)
 Specifies an action in the notification UI that the user can select.
 
 ```
@@ -23,7 +23,7 @@ The text string that to appear as the caption of the action in the notification 
 
 Type: Integer
 
-The ID of the codeunit to run when the action is initiated form the notification UI. The codeunit should contain at least one global function to be called by the notification action.
+The ID of the codeunit to run when the action is initiated from the notification UI. The codeunit should contain at least one global function to be called by the notification action.
 
 *FunctionName*
 
@@ -32,7 +32,7 @@ Type: Type: Code or text
 The name of the function in the codeunit, which is specified by the *CodeunitID* parameter, that you want to run for the action.
 
 ## Remarks
-An action provides a way for you to add an interactive notification that enables users to respond to or take action on the notification. The function that is called by the action will contain logic that you want to run for the action.
+An action provides a way for you to add an interactive notification that enables users to respond to or take action on the notification. The function that is called by the action contains logic that you want to run for the action.
 
 For more information and a detailed example, see [Notifications](notifications-developing.md).
 
