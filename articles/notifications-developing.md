@@ -120,7 +120,7 @@ Add the following C/AL variables to the codeunit:
 |CustRec|Record|Customer|
 |CustPage|Page|Customer Card|
 
-Add the following code to **OpenCustomer** function:
+Add the following code to the **OpenCustomer** function:
 
 ```
 CustomerNo := GETDATA(CustNumber);
