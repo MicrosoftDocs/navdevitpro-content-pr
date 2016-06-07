@@ -6,7 +6,7 @@
                 authors="jswymer"/>
 
 # ADDACTION Function (Notification)
-Specifies an action in the notification UI that the user can select.
+Specifies an action the notification.
 
 ```
 ADDACTION(Caption, CodeunitID, FunctionName)
@@ -23,7 +23,7 @@ The text string that to appear as the caption of the action in the notification 
 
 Type: Integer
 
-The ID of the codeunit to run when the action is initiated from the notification UI. The codeunit should contain at least one global function to be called by the notification action.
+The ID of the codeunit to run when the action is initiated from the notification UI. The codeunit should contain at least one global function to be called by the notification action. The global function must have a Notification data type parameter for accepting the notification object.
 
 *FunctionName*
 
@@ -37,13 +37,13 @@ An action provides a way for you to add an interactive notification that enables
 For more information and a detailed example, see [Notifications](notifications-developing.md).
 
 ##  Example
-The following code creates two actions for a notification. The actions call the **RunAction1** and **RunAction** functions in codeunit 50002.
+The following code creates two actions for a notification. The actions call the **RunAction1** and **RunAction** functions in the codeunit ** Action Handler**.
 
 ```
 MyNotification.MESSAGE := 'This is a notification';
 MyNotification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
-MyNotification.ADDACTION('Action 1',50002,'RunAction1');
-MyNotification.ADDACTION('Action 2',50002,'RunAction2');
+MyNotification.ADDACTION('Action 1',CODEUNIT::"Action Handler",'RunAction1');
+MyNotification.ADDACTION('Action 2',CODEUNIT::"Action Handler",'RunAction2');
 MyNotification.SEND;
 ```
 
