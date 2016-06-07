@@ -6,7 +6,7 @@
                 authors="jswymer"/>
 
 # SCOPE Function (Notification)
-Specifies the scope in which the notification appears to users in the client.
+Specifies the scope in which the notification appears in the client.
 
 ```
 [CurrSCOPE := ]SCOPE([NewSCOPE])
@@ -22,9 +22,7 @@ The parameter has the following values:
 |  Value  |  Description  |
 |---------|---------------|
 |LocalScope |The notification appears in context of the user's current task, on the page the user is currently working on. This is the default value.|
-|GlobaocalScope |The notifications are not directly related to the user's current task, and it appears on the user's Role Center|
-
-**Note:**  GlobalScope is currently not supported.
+|GlobaocalScope |The notifications are not directly related to the user's current task. **Note:**  GlobalScope is currently not supported, so do not use this value.|
 
 ## Return Value
 *CurrSCOPE*

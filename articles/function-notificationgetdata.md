@@ -20,7 +20,7 @@ Type: Type: Code or text
 The name of the data item that is specified by the SETDATA function call.
 
 ## Remarks
-You can use the **GETDATA** function with the **SETDATA** and to handle data in a notification, typically with respect to actions.
+You use the SETDATA and GETDATA function for transferring data in a notification. The functions are typically needed for handling actions on the notification. The SETDATA function is called from the source is the notification, while the GETDATA function is called from the action code.
 
 For more information and a detailed example, see [Notifications](notifications-developing.md).
 
@@ -31,8 +31,8 @@ MyNotification.MESSAGE := 'This is a notification';
 MyNotification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
 MyNotification.SETDATA('Created',FORMAT(CURRENTDATETIME,0,9));
 MyNotification.SETDATA('ID',FORMAT(CREATEGUID,0,9));
-MyNotification.ADDACTION('Action 1',50002,'RunAction1');
-MyNotification.ADDACTION('Action 2',50002,'RunAction2');
+MyNotification.ADDACTION('Action 1',CODEUNIT::"Action Handler",'RunAction1');
+MyNotification.ADDACTION('Action 2',CODEUNIT::"Action Handler",'RunAction2');
 MyNotification.SEND;
 ```
 The following code gets the data for a notification:
