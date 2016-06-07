@@ -16,7 +16,7 @@ In the UI, notifications appear in the **Notification** bar (similar to validati
 * Notifications that are defined on sub-pages, for example in parts and FactBoxes, appear in the same **Notification** bar.
 * Validation errors on the page will be shown first.
 
-## Developing notifications - overview
+## Developing notifications
 By using the **Notification** and **NotificationScope** data types and functions in C/AL, you can add code to send notifications to users.
 
 |  Function  |  Description  |
