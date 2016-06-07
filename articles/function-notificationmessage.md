@@ -27,7 +27,7 @@ Type: Code or text
 The content of the current notification.
 
 ## Remarks
-The MESSAGE function defines the instance of the notification. You use the [SEND function](function-notificationsend.md) to pass the instance to the client for displaying the notification.
+The MESSAGE function defines the notification. You use the [SEND function](function-notificationsend.md) to send the notification to the client, where it will be displayed.
 
 For more information and a detailed example, see [Notifications](notifications-developing.md).
 
