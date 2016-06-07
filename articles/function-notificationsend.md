@@ -1,48 +1,39 @@
 <properties
-                pageTitle="MESSAGE Function (Notification) | Project “Madeira”"
+                pageTitle="SEND Function (Notification) | Project “Madeira”"
                 description="Describes the MESSAGE function of the Notification data type for sending notifications"
                 services=""
                 documentationCenter="Madeira"
                 authors="jswymer"/>
 
-# MESSAGE Function (Notification)
-Specifies the content of the notification.
+# SEND Function (Notification)
+Sends the notification to UI.
 
 ```
-[CurrMESSAGE := ]MESSAGE([NewMESSAGE])
+[Ok := ]SEND
 ```
-
-## Parameters
-*NewMESSAGE*
-
-Type: Type: Code or text
-
-The text string that you want to display for the notification. The string can be a text constant that is enabled for multilanguage functionality.
-
 ## Return Value
-*CurrMESSAGE*
+*Value*
 
 Type: Code ot text
 
-The content of the current notification.
+**true** if the notification was sent; otherwise, **false**.
+
+If you omit this optional return value and if the notification cannot be sent, then a run-time error occurs that states that the notification cannot be sent. If you include a return value, then it is assumed that you will handle any errors and no run-time error occurs, even though the notification is not sent.
 
 ## Remarks
+The SEND function displays the content of the notification that is specified by the [MESSAGE function](function-notificationmessage.md).
+
+For more information and a detailed example, see [Notifications](notifications-developing.md).
 
 ##  Example
 The following code creates a notification and sends it in the local scope.
-
 ```
-Notification.MESSAGE := 'The customer's current balance exceeds their credit limit.';
-Notification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
-Notification.SEND;
+MyNotification.MESSAGE := 'This is a notification';
+MyNotification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
+MyNotification.SEND
 ```
 
 ## See Also  
-[TestPermissions Property](property-testpermissions.md)  
-[OnBeforeTestRun Trigger](trigger-onbeforetestrun.md)  
-[Testing With Permission Sets](testing-permissionsets.md)  
-[Testing the Application](testing-testingapplication.md)  
-[How to: Create a Test Runner Codeunit](testing-howcreatetestrunnercodeunit)  
-[How to: Create Test Codeunits and Test Functions](testing-howcreatetestcodeunitsfunctions.md)  
-[How to: Create Handler Functions](howcreatehandlerfunctions.md)  
-[Walkthrough: Testing Purchase Invoice Discounts](testing-walkthroughtestingpurchaseinvoice.md)  
+[MESSAGE Function (Notification)](function-notificationmessage.md)  
+[SCOPE Function(Notification)](function-notificationscope.md)  
+[Notifications](notifications-developing.md)

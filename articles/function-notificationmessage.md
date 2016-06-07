@@ -22,27 +22,24 @@ The text string that you want to display for the notification. The string can be
 ## Return Value
 *CurrMESSAGE*
 
-Type: Code ot text
+Type: Code or text
 
 The content of the current notification.
 
 ## Remarks
+The MESSAGE function defines the instance of the notification. You use the [SEND function](function-notificationsend.md) to pass the instance to the client for displaying the notification.
+
+For more information and a detailed example, see [Notifications](notifications-developing.md).
 
 ##  Example
 The following code creates a notification and sends it in the local scope.
-
 ```
-Notification.MESSAGE := 'The customer's current balance exceeds their credit limit.';
-Notification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
-Notification.SEND;
+MyNotification.MESSAGE := 'This is a notification';
+MyNotification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
+MyNotification.SEND
 ```
 
 ## See Also  
-[TestPermissions Property](property-testpermissions.md)  
-[OnBeforeTestRun Trigger](trigger-onbeforetestrun.md)  
-[Testing With Permission Sets](testing-permissionsets.md)  
-[Testing the Application](testing-testingapplication.md)  
-[How to: Create a Test Runner Codeunit](testing-howcreatetestrunnercodeunit)  
-[How to: Create Test Codeunits and Test Functions](testing-howcreatetestcodeunitsfunctions.md)  
-[How to: Create Handler Functions](howcreatehandlerfunctions.md)  
-[Walkthrough: Testing Purchase Invoice Discounts](testing-walkthroughtestingpurchaseinvoice.md)  
+[SCOPE Function(Notification)](function-notificationscope.md)  
+[SEND Function (Notification)](function-notificationsend.md)  
+[Notifications](notifications-developing.md)
