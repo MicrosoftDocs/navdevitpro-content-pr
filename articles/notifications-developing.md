@@ -17,7 +17,7 @@ In the UI, notifications appear in the **Notification** bar (similar to validati
 * Validation errors on the page will be shown first.
 
 ## Notifications in the development environment
-By using the **Notification** and **NotificationScope** data types and functions in C/AL, you can add code to send notifications to users. The following table provides an overview of the available functions. The sections that follow provide additionla information about how to create notifications.
+By using the **Notification** and **NotificationScope** data types and functions in C/AL, you can add code to send notifications to users. The following table provides an overview of the available functions. The sections that follow provide additional information about how to create notifications.
 
 |  Function  |  Description  |
 |------------|---------------|
