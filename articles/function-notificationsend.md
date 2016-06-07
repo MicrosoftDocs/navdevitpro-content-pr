@@ -6,7 +6,7 @@
                 authors="jswymer"/>
 
 # SEND Function (Notification)
-Sends the notification to UI.
+Sends the notification to the client, where is will appear in the UI.
 
 ```
 [Ok := ]SEND
@@ -26,7 +26,7 @@ The SEND function displays the content of the notification that is specified by 
 For more information and a detailed example, see [Notifications](notifications-developing.md).
 
 ##  Example
-The following code creates a notification and sends it in the local scope.
+The following code creates a notification and sends it to the client in the local scope.
 ```
 MyNotification.MESSAGE := 'This is a notification';
 MyNotification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
