@@ -17,7 +17,7 @@ In the UI, notifications appear in the **Notification** bar (similar to validati
 * Validation errors on the page will be shown first.
 
 ## Notifications in the Development Environment
-By using the **Notification** and **NotificationScope** data types and functions in C/AL, you can add code to send notifications to users.
+By using the **Notification** and **NotificationScope** data types and functions in C/AL, you can add code to send notifications to users. The following table provides an overview of the available functions. The sections that follow provide additionla information about how to create notifications.
 
 |  Function  |  Description  |
 |------------|---------------|
@@ -28,7 +28,6 @@ By using the **Notification** and **NotificationScope** data types and functions
 |[SETDATA](function-notificationsetdata.md)  |Sets a data property value for the notification|
 |[GETDATA](function-notificationgetdata.md)  |Gets a data property value from the notification.|
 
-The following sections describe the use of these functions in more detail.
 
 ## Creating and sending a notification
 You create a notification by using the **MESSAGE** and **SEND** functions. The **MESSAGE** function defines the message part of the notification. When the **SEND** function is called, the notification is sent to the client and content of the message is displayed.
