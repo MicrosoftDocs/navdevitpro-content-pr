@@ -31,8 +31,8 @@ MyNotification.MESSAGE := 'This is a notification';
 MyNotification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
 MyNotification.SETDATA('Created',FORMAT(CURRENTDATETIME,0,9));
 MyNotification.SETDATA('ID',FORMAT(CREATEGUID,0,9));
-MyNotification.ADDACTION('Action 1',50002,'RunAction1');
-MyNotification.ADDACTION('Action 2',50002,'RunAction2');
+MyNotification.ADDACTION('Action 1',CODEUNIT::"Action Handler",'RunAction1');
+MyNotification.ADDACTION('Action 2',CODEUNIT::"Action Handler",'RunAction2');
 MyNotification.SEND;
 ```
 The following code gets the data for a notification:
