@@ -20,7 +20,7 @@ Type: Type: Code or text
 The name of the data item that is specified by the SETDATA function call.
 
 ## Remarks
-You use the SETDATA and GETDATA function for transferring data in a notification. The functions are typically needed for handling actions on the notification. The SETDATA function is called from the source is the notification, while the GETDATA function is called from the action code.
+You use the SETDATA and GETDATA functions for transferring data in a notification. The functions are typically needed for handling actions on the notification. The SETDATA function is called from the source of the notification, while the GETDATA function is called from the action code.
 
 For more information and a detailed example, see [Notifications](notifications-developing.md).
 
