@@ -144,8 +144,8 @@ BEGIN
     CreditBalanceNotification.SEND;
 END
     ```
-3. Create a codeunit, called **Action Handler**, for handling the notification action.
-    *   Add a global function called **OpenCustomer** that has  **Notification** data type parameter called **CreditBalanceNotification** for taking the Notification object.
+3. Create a codeunit, called **Action Handler**, for handling the notification action as follows:
+    *   Add a global function called **OpenCustomer** that has a **Notification** data type parameter called **CreditBalanceNotification** for receiving the Notification object.
 
     *   Add the following C/AL variables to the codeunit:
     <table>
