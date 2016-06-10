@@ -133,15 +133,19 @@ To complete the example, follow these steps:
 Customer.GET("Sell-to Customer No.");
 IF Customer."Balance (LCY)" > Customer."Credit Limit (LCY)" THEN
 BEGIN
-    CreditBalanceNotification.MESSAGE := The customer's current balance exceeds their credit limit.';
+    //Create the notification
+    CreditBalanceNotification.MESSAGE(Text003);
     CreditBalanceNotification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
+    //Add a data property for the customer number
     CreditBalanceNotification.SETDATA('CustNumber', Customer."No.");
-    CreditBalanceNotification.ADDACTION('Change credit limit', CODEUNIT::"Action Handler", OpenCustomer);
+    //Add an action that calls the Action Handler codeunit, which you define in the next step.
+    CreditBalanceNotification.ADDACTION('Text004', CODEUNIT::"Action Handler", OpenCustomer);
+    //Send the notification to the client.
     CreditBalanceNotification.SEND;
 END
     ```
-3. Create a codeunit, called **Action Handler**, for handling the notification action.
-    *   Add a global function called **OpenCustomer** that has  **Notification** data type parameter called **CreditBalanceNotification** for taking the Notification object.
+3. Create a codeunit, called **Action Handler**, for handling the notification action as follows:
+    *   Add a global function called **OpenCustomer** that has a **Notification** data type parameter called **CreditBalanceNotification** for receiving the Notification object.
 
     *   Add the following C/AL variables to the codeunit:
     <table>
@@ -175,7 +179,9 @@ END
     *   Add the following code to the **OpenCustomer** function:
 
         ```
+        //Get the customer number data from the SETDATA call.
         CustNo := CreditBalanceNotification.GETDATA(CustNumber);
+        // Open the Customer Card page for the customer.
         IF CustRec.GET(CustNo) THEN BEGIN
          CustPage.SETRECORD(CustRec);
          CustPage.RUN;
