@@ -1,6 +1,6 @@
 <properties
                 pageTitle="System Requirements | Project “Madeira”"
-                description="System Requirements for Project "Madeira"."
+                description="System Requirements for Project “Madeira”."
                 services=""
                 documentationCenter="Madeira"
                 authors="SusanneWindfeldPedersen"/>
