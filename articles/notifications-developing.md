@@ -51,9 +51,10 @@ MyNotification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
 MyNotification.SEND;
 ```
 ## Adding actions on a notification
-The **ADDACTION** function provides a way to create interactive notifications. By default, users have the option to dismiss the notifications. However, there might be cases where you want to provide users with different actions that they can take to address the notification.
+You add actions on notifications by using the **ADDACTION** function. This function provides a way for you to create interactive notifications. By default, users have the option to dismiss the notifications. However, there might be cases where you want to provide users with different actions that they can take to address the notification, like opening an associated page for modifying data.
 
-To add an action, you create a global function in a codeunit that includes the business logic for the action. You then specify the codeunit and function in the **ADDACTION** function call. You can have multiple actions on a single notification instance.
+Conceptually, a notification action calls a function in a specified codeunit, passing the notification object in the call. The function includes the business logic for handling the action.
+
 ```
 MyNotification.MESSAGE := 'This is a notification';
 MyNotification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
@@ -61,6 +62,14 @@ MyNotification.ADDACTION('Action 1',CODEUNIT::"Action Handler",'RunAction1');
 MyNotification.ADDACTION('Action 2',CODEUNIT::"Action Handler",'RunAction2');
 MyNotification.SEND;
 ```
+
+The basic steps for adding an action are as follows:
+
+1. Create a global function in a new or existing codeunit. The function must have a **Notification** data type parameter for receiving the notification object.
+2. Add C/AL code to the function for handling the action.
+3. Specify the codeunit and function in the **ADDACTION** function call.
+
+Important: You can can have more than one action on a notification. A LocalScope notification, you can have up to 3 actions. A GlobalScope notification can have up to 2 actions.
 
 ## Sending data with a notification
 You use the **SETDATA** and **GETDATA** functions to add data to a notification, which is typically needed when actions are invoked. The **SETDATA** function sets, or adds, data to the notification. The data is defined as text in a key-value pair. With the **GETDATA** function, you can then retrieve the data again.
