@@ -12,9 +12,17 @@
 
  By default, this file is located in C:\Program Files\Microsoft Dynamics NAV\91\Service\Instances\<instancename>
 
+<!-- Change 2: In the "General Tab Settings" section, after the "Default Client" setting, add the following row for the "Diagnostic Trace Level" setting : -->
 
+|  Diagnostic Trace Level  |  Specifies the lowest severity level of telemetry events to be recorded in the event log for the Dynamics NAV Server. Telemetry events have IDs from  700-706. <BR /><BR />The setting has the following values, which correspond to the event severity levels (listed from highest to lowest level): **Critical**, **Error**, **Warning**, **Normal** (this corresponds to the **Information** level), and **Verbose**.<BR /><BR />You use this setting to filter out lower-level events from the log. For example, if you set this setting to **Error**, only **Error** and **Critical** events will be logged.<BR /><BR />**Note:** Events are recorded in the Microsoft Dynamics NAV Server channel logs, which you can see in Event Viewer, under **Applications and Services Logs**.|
 
-<!-- Change 2: Add the following sections after the "Management Services" tab. This covers Madeira deliverables-->
+<!-- Change 3: In the "General Tab Settings" section, after the "Enable Full C/AL Function Tracing" setting, add the following row for the "Encryption KEY Provider" setting: -->
+
+|  Encryption Key Provider  |  Specifies the lowest level ...   |
+
+<!-- Change 3: Move the "Max Data Rows Allowed to Send to Excel" row from the "Client Services" tab to the "General" tab, after the "Max Concurrent Calls" row.-->
+
+<!-- Change 4: Add the following sections after the "Management Services" tab. This covers Madeira deliverables-->
 
 ## Azure Key Vault Encryption Provider Tab Settings
 The following table describes fields on the **Azure Key Vault Encryption Provider** tab in the Dynamics NAV Server Administration tool.
@@ -61,5 +69,3 @@ The following table describes fields on the **Reports** tab in the Dynamics NAV 
 |  Enable Save as Word on Request Pages of RDLC-layout Reports  |  Specifies whether users can open or save a report as a Microsoft Word document if the report uses an RDLC layout.<BR /><BR /> If you clear this check box, the **Word** option is removed from the **Print** menu on the request page.<BR /><BR />Default: Enabled|
 |  Enable Save from Report Preview  |  Specifies whether users can save a report as a PDF, Microsoft Word, or Microsoft Excel document from the report preview window.<BR /><BR />If you clear this check box, the **Save As** icon is removed from the report preview window.<BR /><BR />Default: Enabled|
 | Report PDF Font Embedding  |  Specifies whether fonts are embedded in PDF files that are generated for reports when the report uses an RDLC report layout at runtime. This setting applies when reports are run and saved as PDF files on the Dynamics NAV client (from the report request page or print preview window) or on the Dynamics NAV Server instance (by the [SAVEAS function](function-reportsaveas.md) or [SAVEASPDF function](function-reportsaveaspdf.md) in C/AL code).<BR /><BR />**Note:** This setting does not apply when a report uses a Word report layout at runtime.<br/><br/>Embedding fonts in a PDF of a report makes sure that the PDF will use the same fonts as the original file, regardless of where the PDF is opened and which fonts are installed on the computer. However, embedding fonts can significantly increase the size of the PDF files. By disabling font embedding, you can decrease the size of the report PDF files.<BR /><BR />**Note:** This is a global setting for font embedding in report PDF files. You can override this setting on a report basis by the specifying the [PDFFontEmbedding property](property-reportpdffontembedding.md).<BR /><BR />Default: Enabled|
-
-<!-- Change 3: Move the "Max Data Rows Allowed to Send to Excel" row from the "Client Services" tab to the "General" tab, after the "Max Concurrent Calls" row.-->

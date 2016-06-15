@@ -35,3 +35,6 @@ Here are the topic to review in this round:
 [GETDATA Function (Notification)](function-notificationgetdata.md)
 
 [SETDATA Function (Notification)](function-notificationsetdata.md)
+
+## Server Settings
+[Configuring Dynamics NAV Server](navserver-configuring.md)
