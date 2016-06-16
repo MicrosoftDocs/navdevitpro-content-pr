@@ -37,4 +37,4 @@ Here are the topic to review in this round:
 [SETDATA Function (Notification)](articles/function-notificationsetdata.md)
 
 ## Server Settings
-[Configuring Dynamics NAV Server](articles/partial-navserver-configuring.md)
+[Configuring Dynamics NAV Server](articles/navserver-configuring-partial.md)
