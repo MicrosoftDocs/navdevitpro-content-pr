@@ -1,21 +1,29 @@
 <properties
-                pageTitle="Converting a Database | Project “Madeira”"
+                pageTitle="Converting a Database | Dynamics NAV"
                 description="Describes how perform a technical upgrade on a database."
                 services=""
-                documentationCenter="Madeira"
+                documentationCenter="NAV"
                 authors="jswymer"/>
+<tags
+    ms.service="dynamics-nav"
+    ms.topic="article"
+    ms.devlang="na"
+    ms.tgt_pltfrm="na"
+    ms.workload="NAV"
+    ms.date="06/16/2016"
+    ms.author="jswymer" />
 
 # Converting a Database
 
-If your current solution is based on Dynamics NAV 2013, Dynamics NAV 2013 R2,  Dynamics NAV 2015, or Dynamics NAV 2015, you must convert the database to the  Project “Madeira” technical requirements as part of the data upgrade process to Project “Madeira” and then upgrade the application and data later. In this topic, the versions of Dynamics NAV prior to Project “Madeira”  are referred to as the old database.
+If your current solution is based on Dynamics NAV 2013, Dynamics NAV 2013 R2,  Dynamics NAV 2015, or Dynamics NAV 2015, you must convert the database to the  Dynamics NAV 91 technical requirements as part of the data upgrade process to Dynamics NAV 91 and then upgrade the application and data later. In this topic, the versions of Dynamics NAV prior to Dynamics NAV 91  are referred to as the old database.
 
-Similarly, when you upgrade from one Project “Madeira” cumulative update to the next cumulative update, you can be required to convert the database as described in task 2. This occurs when the cumulative update introduces changes to system tables. This type of database conversion is less complicated than the converting and old database.
+Similarly, when you upgrade from one Dynamics NAV 91 cumulative update to the next cumulative update, you can be required to convert the database as described in task 2. This occurs when the cumulative update introduces changes to system tables. This type of database conversion is less complicated than the converting and old database.
 
-**Warning:** You can choose to convert the old database and not upgrade your application. However, we recommend that you upgrade the application objects as well so that your solution includes important application fixes and new functionality that is introduced in Project “Madeira”. Upgrading the application will also reduce the amount of merging required to upgrade to the next major version of Dynamics NAV, bringing you to the latest version of the product faster.
+**Warning:** You can choose to convert the old database and not upgrade your application. However, we recommend that you upgrade the application objects as well so that your solution includes important application fixes and new functionality that is introduced in Dynamics NAV 91. Upgrading the application will also reduce the amount of merging required to upgrade to the next major version of Dynamics NAV, bringing you to the latest version of the product faster.
 
 **Important:** Before you start, make sure that you have applied the changes that are described in KB 2804640 "Code corrections for some Microsoft Dynamics NAV 2013 reports to prevent compilation errors with Report Viewer 2012 when upgrading to later versions of Microsoft Dynamics NAV".
 
-To convert the old database to a Project “Madeira” database, complete tasks 1 and 2. To convert the database from one cumulative update of MProject “Madeira” to the next cumulative update, complete task 2.
+To convert the old database to a Dynamics NAV 91 database, complete tasks 1 and 2. To convert the database from one cumulative update of MDynamics NAV 91 to the next cumulative update, complete task 2.
 
 ## Task 1: Preparing the Old Database
 The first task is to back up the old database and then prepare to convert it.
@@ -65,14 +73,14 @@ Next, you will convert the old database so that it can be used in Microsoft Dyna
 2.  Before you start the following procedure, you can choose to uninstall the old version of Dynamics NAV. When you uninstall Dynamics NAV, the database is still attached to the instance of SQL Server, which you can verify using SQL Server Management Studio.
 
 
-**Tip:** If you want to write a script that helps you convert databases, you can use the Invoke-NAVDatabaseConversion function in the Project “Madeira” Development Shell.
+**Tip:** If you want to write a script that helps you convert databases, you can use the Invoke-NAVDatabaseConversion function in the Dynamics NAV 91 Development Shell.
 
 ### Convert the database
-1.  Install Project “Madeira”.
+1.  Install Dynamics NAV 91.
 
-    Run the Project “Madeira” Setup, and choose to install the **Developer** option.
+    Run the Dynamics NAV 91 Setup, and choose to install the **Developer** option.
 
-2.  Open the Project “Madeira” Development Environment, and then connect to the database that you prepared in the previous task.
+2.  Open the Dynamics NAV 91 Development Environment, and then connect to the database that you prepared in the previous task.
 
     For more information, see How to: Open Databases.
 
@@ -82,41 +90,41 @@ Next, you will convert the old database so that it can be used in Microsoft Dyna
 
 4.  When you are notified that the conversion was successful, choose the **OK** button.
 
-5.  Connect a Project “Madeira” Server instance to the converted database.
+5.  Connect a Dynamics NAV 91 Server instance to the converted database.
 
-    You use the Project “Madeira” Server Administration tool to connect a Project “Madeira” Server instance to the converted database.
+    You use the Dynamics NAV 91 Server Administration tool to connect a Dynamics NAV 91 Server instance to the converted database.
 
-    In addition, you must add the service account that is used by the server instance as a member of the db_owner role in the Project “Madeira” database on SQL Server.
+    In addition, you must add the service account that is used by the server instance as a member of the db_owner role in the Dynamics NAV 91 database on SQL Server.
 
-    For more information, see How to: Connect a Project “Madeira” Server Instance to a Database and Giving the account necessary database privileges in SQL Server.
+    For more information, see How to: Connect a Dynamics NAV 91 Server Instance to a Database and Giving the account necessary database privileges in SQL Server.
 
-6.  Run the development environment as an administrator, and then set the development environment to use the Project “Madeira” Server instance that connects to the database.
+6.  Run the development environment as an administrator, and then set the development environment to use the Dynamics NAV 91 Server instance that connects to the database.
 
-    For more information, see How to: Change the Project “Madeira” Server Instance or Database Information.
+    For more information, see How to: Change the Dynamics NAV 91 Server Instance or Database Information.
 
 7.  Run the schema synchronization to complete the database conversion.
 
-    You can run the schema synchronization from the Project “Madeira” Development Environment or Project “Madeira” Administration Shell.
+    You can run the schema synchronization from the Dynamics NAV 91 Development Environment or Dynamics NAV 91 Administration Shell.
 
     **From the development environment:**
 
     Open development environment as an administrator. On the **Tools** menu, choose **Sync. Schema For All Tables**, and then choose **With Validation** and follow the schema synchronization instructions.
 
-    **From the Project “Madeira” Administration Shell:**
+    **From the Dynamics NAV 91 Administration Shell:**
 
-    Open the Project “Madeira” Administration Shell as an administrator, and then run Sync-NavTenant cmdlet as follows:
+    Open the Dynamics NAV 91 Administration Shell as an administrator, and then run Sync-NavTenant cmdlet as follows:
 
     ```
     Sync-NavTenant -ServerInstance <ServerInstanceName>
     ```
 
-    Replace <ServerInstanceName> with the name of the Project “Madeira” Server instance that is connected to the database. For more information, see How to: Run the Sync-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database.
+    Replace <ServerInstanceName> with the name of the Dynamics NAV 91 Server instance that is connected to the database. For more information, see How to: Run the Sync-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database.
 
-8.  If the database references any assemblies (such as client control add-ins) that are not included on the Project “Madeira” installation media (DVD), then add the assemblies to the **Add-ins** folder on Project “Madeira” Server or Project “Madeira” Windows client computers.
+8.  If the database references any assemblies (such as client control add-ins) that are not included on the Dynamics NAV 91 installation media (DVD), then add the assemblies to the **Add-ins** folder on Dynamics NAV 91 Server or Dynamics NAV 91 Windows client computers.
 
-    For the Project “Madeira” Windows client, the default path is C:\Program Files (x86)\Project “Madeira”\90\RoleTailored Client\Add-ins folder.
+    For the Dynamics NAV 91 Windows client, the default path is C:\Program Files (x86)\Dynamics NAV 91\90\RoleTailored Client\Add-ins folder.
 
-    For Project “Madeira” Server, the default path is the C:\Program Files\Project “Madeira”\90\Service\Add-ins folder
+    For Dynamics NAV 91 Server, the default path is the C:\Program Files\Dynamics NAV 91\90\Service\Add-ins folder
 
 9.  In the development environment, on the **Tools** menu, choose **Build Server Application Objects**, and then, in the dialog box, choose the **Yes** button.
 
@@ -130,7 +138,7 @@ Next, you will convert the old database so that it can be used in Microsoft Dyna
 
     For more information, see Uploading a License File for a Specific Database.
 
-You have now completed the conversion of the Dynamics NAV 2013, Dynamics NAV 2013 R2, Dynamics NAV 2015, or Dynamics NAV 2016 database to be accessed from Project “Madeira”. To test the converted database, you can connect it to the Microsoft Dynamics NAV 2016 Server instance that by Microsoft Dynamics NAV clients, and then open a client.
+You have now completed the conversion of the Dynamics NAV 2013, Dynamics NAV 2013 R2, Dynamics NAV 2015, or Dynamics NAV 2016 database to be accessed from Dynamics NAV 91. To test the converted database, you can connect it to the Microsoft Dynamics NAV 2016 Server instance that by Microsoft Dynamics NAV clients, and then open a client.
 
 Next, upgrade the application code to Microsoft Dynamics NAV 2016.
 
@@ -138,4 +146,4 @@ Next, upgrade the application code to Microsoft Dynamics NAV 2016.
 Upgrading the Application Code  
 Upgrading the Data  
 Automating the Upgrade Process using Sample Windows PowerShell Scripts  
-Upgrading to Project “Madeira”  
+Upgrading to Dynamics NAV 91  

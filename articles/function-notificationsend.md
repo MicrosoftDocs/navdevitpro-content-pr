@@ -1,9 +1,18 @@
 <properties
-                pageTitle="SEND Function (Notification) | Project “Madeira”"
+                pageTitle="SEND Function (Notification) | Dynamics NAV"
                 description="Describes the MESSAGE function of the Notification data type for sending notifications"
                 services=""
-                documentationCenter="Madeira"
+                documentationCenter="NAV"
                 authors="jswymer"/>
+<tags
+    ms.service="dynamics-nav"
+    ms.topic="article"
+    ms.devlang="na"
+    ms.tgt_pltfrm="na"
+    ms.workload="NAV"
+    ms.date="06/16/2016"
+    ms.author="jswymer" />
+
 
 # SEND Function (Notification)
 Sends the notification to the client, where is will appear in the UI.
