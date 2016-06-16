@@ -1,9 +1,17 @@
 <properties
-                pageTitle="TestPermissions Property | Project “Madeira”"
-                description="Describes the TestPermissions property on codeunits in Project “Madeira”"
+                pageTitle="TestPermissions Property | Dynamics NAV"
+                description="Describes the TestPermissions property on codeunits in Dynamics NAV"
                 services=""
-                documentationCenter="Madeira"
+                documentationCenter="NAV"
                 authors="jswymer"/>
+<tags
+    ms.service="dynamics-nav"
+    ms.topic="article"
+    ms.devlang="na"
+    ms.tgt_pltfrm="na"
+    ms.workload="NAV"
+    ms.date="06/16/2016"
+    ms.author="jswymer" />
 
 # TestPermissions Property
 Specifies a value that can be used to determine which permission sets are used on tests that are run by test codunits or test functions.

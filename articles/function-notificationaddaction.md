@@ -1,10 +1,17 @@
 <properties
-                pageTitle="ADDACTION Function (Notification) | Project “Madeira”"
+                pageTitle="ADDACTION Function (Notification) | Dynamics NAV"
                 description="Describes the ADDACTION function of the Notification data type for sending notifications"
                 services=""
-                documentationCenter="Madeira"
+                documentationCenter="NAV"
                 authors="jswymer"/>
-
+<tags
+    ms.service="dynamics-nav"
+    ms.topic="article"
+    ms.devlang="na"
+    ms.tgt_pltfrm="na"
+    ms.workload="NAV"
+    ms.date="06/16/2016"
+    ms.author="jswymer" />
 # ADDACTION Function (Notification)
 Specifies an action for the notification.
 

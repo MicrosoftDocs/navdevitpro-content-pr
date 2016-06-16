@@ -1,13 +1,21 @@
 <properties
-                pageTitle="Notifications | Project “Madeira”"
+                pageTitle="Notifications | Dynamics NAV"
                 description="Describes how you can develop notifications in the application using C/AL."
                 services=""
-                documentationCenter="Madeira"
+                documentationCenter="NAV"
                 authors="jswymer"/>
+<tags
+    ms.service="dynamics-nav"
+    ms.topic="article"
+    ms.devlang="na"
+    ms.tgt_pltfrm="na"
+    ms.workload="NAV"
+    ms.date="06/16/2016"
+    ms.author="jswymer" />
 
-# Upgrading to Project “Madeira”
+# Upgrading to Dynamics NAV 91
 
-This section describes how to upgrade to Project “Madeira” from the following Dynamics NAV versions:
+This section describes how to upgrade to Dynamics NAV 91 from the following Dynamics NAV versions:
 
 -   Dynamics NAV 2013
 -   Dynamics NAV 2013 R2
@@ -16,11 +24,11 @@ This section describes how to upgrade to Project “Madeira” from the followin
 
 If you have an earlier version of Dynamics NAV, see [Upgrading versions earlier than Dynamics NAV 2013](#upgrading-versions-earlier-than-dynamics-nav-2013).
 
-## How to upgrade to Project “Madeira”
+## How to upgrade to Dynamics NAV 91
 The full upgrade process involves the following procedures:
 
 -   Upgrading the application code.
--   Converting the database to the Project “Madeira” technical requirements (technical upgrade)
+-   Converting the database to the Dynamics NAV 91 technical requirements (technical upgrade)
 -   Upgrading the data
 
 To complete the full upgrade process, follow these tasks in the specified order:
@@ -28,9 +36,9 @@ To complete the full upgrade process, follow these tasks in the specified order:
 1.  [Upgrade the application code](upgrade-upgradingapplicationcode.md)
 2.  [Upgrade the data](upgrade-upgradingdata.md)
 
-    This task also covers converting the database to the Project “Madeira” technical requirements.
+    This task also covers converting the database to the Dynamics NAV 91 technical requirements.
 
-You can also decide only to convert the database to the Project “Madeira” technical requirements, and then upgrade the application and data later. For more information, see [Converting a Microsoft Dynamics NAV 2013 Database](upgrade-convertingdatabase.md).
+You can also decide only to convert the database to the Dynamics NAV 91 technical requirements, and then upgrade the application and data later. For more information, see [Converting a Microsoft Dynamics NAV 2013 Database](upgrade-convertingdatabase.md).
 
 ### Additional information
 Before you start, we recommend that you read the following information:
@@ -39,7 +47,7 @@ Before you start, we recommend that you read the following information:
 -   [Automating the Upgrade Process using Sample Windows PowerShell Scripts](upgrade-automatingupgradeprocess.md)
 
 ## Upgrading versions earlier than Dynamics NAV 2013
-If you have a version that is earlier than Dynamics NAV 2013, then before you upgrade to Project “Madeira”, you must upgrade to either Dynamics NAV 2013 or Dynamics NAV 2015 as outlined in the following table. Then you can use the automated upgrade process to upgrade to Project “Madeira”.
+If you have a version that is earlier than Dynamics NAV 2013, then before you upgrade to Dynamics NAV 91, you must upgrade to either Dynamics NAV 2013 or Dynamics NAV 2015 as outlined in the following table. Then you can use the automated upgrade process to upgrade to Dynamics NAV 91.
 
 |  Version  |  Upgrade to  |
 |-----------|--------------|

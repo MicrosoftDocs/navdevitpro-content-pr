@@ -1,10 +1,17 @@
 <properties
-                pageTitle="Using the Development Environment from the Command Prompt" | Project “Madeira”"
+                pageTitle="Using the Development Environment from the Command Prompt" | Dynamics NAV"
                 description="Describes the how to use finsql.exe,"
                 services=""
-                documentationCenter="Madeira"
+                documentationCenter="NAV"
                 authors="jswymer"/>
-
+<tags
+    ms.service="dynamics-nav"
+    ms.topic="article"
+    ms.devlang="na"
+    ms.tgt_pltfrm="na"
+    ms.workload="NAV"
+    ms.date="06/16/2016"
+    ms.author="jswymer" />
 
 <!-- The content in this article supports Madeira task 169219, which adds a new parameter (showalldesignercolumns) to the finsql.exe. The content should be added to the Using the Development Environment from the Command Prompt article as described.-->
 
