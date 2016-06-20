@@ -9,19 +9,29 @@ Welcome to the repository for the preliminary devitpro content for on-prem &amp;
 2. Link it to your work account at https://opensourcehub.microsoft.com.
 
 ### Contributing
-You do not have write access to the master repo microsoft/navdevitpro-content-pr. This means that to make changes, you must commit the changes, and then create a pull request to include the changes. A writer (UA) will then review the request and pull the content into the master repo.
+You do not have write access to the master repo microsoft/navdevitpro-content-pr. Any changes that you make will go through UA first. This means that to make changes, you must commit the changes, and then create a pull request to include the changes. A writer (UA) will then review the pull request and pull the content into the master repo.
 
 There are a few ways to work with the repo:
 - You can edit directly in the Microsoft/navdevitpro-content-pr repo on GitHub.com. 
 - You can fork the repo and then work in the fork. When you are done in the fork you commit your changes and make a pull request to the master repo. UA will then pick up the changes as needed. 
 - Work locally by downloading the GitHub Desktop application from here: [https://desktop.github.com/](https://desktop.github.com/). This lets you clone the repo on your machine. You can then make changes, sync with the master repo on Github, and create a Pull Request.
 
-### How to contribute
-1.  Make changes to an existing file or add a new one.
-2.  Commit changes.
-3.  Create Pull Request
+### How to make contributions
+The general flow foris as follows
+1. Make changes to an existing file or add a new one.
+2. Commit proposed changes.
+3. Create Pull Request to have the changes included in the master repo.
+
+### How to modify an article
+1. Open the articcle
+2. Click the Edit button.
+3. Make changes.
+4. When don, choose Commit Propesed Changes button at the bottom.
+5. Choose Create Pull Request to send a request for your changes to be included in the master. UA will review the changes.
 
 ## Authoring in Markdown
+
+All articles are stored as markdown files (.md type). The content is styled using markdown syntax as described below.  
 ----------------------
 ### General info:
 [Getting started with writing and formatting on GitHub](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
