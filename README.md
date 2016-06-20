@@ -4,16 +4,20 @@ Welcome to the repository for the preliminary devitpro content for on-prem &amp;
 
 ======================================
 ## Getting started with GitHub
-Get a GitHub account and link it to your work account. 
+### Set up you account
+1. Get a GitHub account.
+2. Link it to your work account at [https://opensourcehub.microsoft.com/](https://opensourcehub.microsoft.com/].
+
+### Contributing
 You do not have write access to the master repo microsoft/navdevitpro-content-pr. This means that to make changes, you must commit the changes, and then create a pull request to include the changes. A writer (UA) will then review the request and pull the content into the master repo.
 
 There are a few ways to work with the repo:
 - You can edit directly in the repo on GitHub.com. 
 - You can fork the repo and then create a pull request to include your changes. UA will then pick up the changes as needed. 
-- Work locally by downloading the GitHub Desktop application from here: [https://desktop.github.com/](https://desktop.github.com/). This lets you clone the repo on your machine. You can then work locally, and then sync with the repo on Github and create a Pull Reuest.
+- Work locally by downloading the GitHub Desktop application from here: [https://desktop.github.com/](https://desktop.github.com/). This lets you clone the repo on your machine. You can then nake changes, sync with the master repo on Github, and create a Pull Reuest.
 
 ## How to contribute
-1.  Make changes to an existing file or add a new one..
+1.  Make changes to an existing file or add a new one.
 2.  Commit changes.
 3.  Create Pull Request
 
