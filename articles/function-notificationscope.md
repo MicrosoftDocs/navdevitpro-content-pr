@@ -14,7 +14,7 @@
     ms.author="jswymer" />
 
 # SCOPE Function (Notification)
-Specifies the scope in which the notification appears in the client.
+Specifies the test scope in which the notification appears in the client.
 
 ```
 [CurrSCOPE := ]SCOPE([NewSCOPE])
