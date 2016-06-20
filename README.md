@@ -12,9 +12,9 @@ Welcome to the repository for the preliminary devitpro content for on-prem &amp;
 You do not have write access to the master repo microsoft/navdevitpro-content-pr. This means that to make changes, you must commit the changes, and then create a pull request to include the changes. A writer (UA) will then review the request and pull the content into the master repo.
 
 There are a few ways to work with the repo:
-- You can edit directly in the repo on GitHub.com. 
-- You can fork the repo and then create a pull request to include your changes. UA will then pick up the changes as needed. 
-- Work locally by downloading the GitHub Desktop application from here: [https://desktop.github.com/](https://desktop.github.com/). This lets you clone the repo on your machine. You can then nake changes, sync with the master repo on Github, and create a Pull Reuest.
+- You can edit directly in the Microsoft/navdevitpro-content-pr repo on GitHub.com. 
+- You can fork the repo and then work in the fork. When you are done in the fork you commit your changes and make a pull request to the master repo. UA will then pick up the changes as needed. 
+- Work locally by downloading the GitHub Desktop application from here: [https://desktop.github.com/](https://desktop.github.com/). This lets you clone the repo on your machine. You can then make changes, sync with the master repo on Github, and create a Pull Request.
 
 ### How to contribute
 1.  Make changes to an existing file or add a new one.
