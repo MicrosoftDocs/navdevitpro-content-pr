@@ -1,6 +1,6 @@
 # navdevitpro-content-pr
 
-Welcome to the repository for the preliminary content for the devitpro release for on-prem &amp; PaaS.
+Welcome to the repository for the preliminary devitpro content for on-prem &amp; PaaS.
 
 ======================================
 ## Getting started with GitHub
