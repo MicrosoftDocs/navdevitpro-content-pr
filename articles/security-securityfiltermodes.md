@@ -59,11 +59,11 @@ The following table shows the default values of the **SecurityFiltering** proper
 
 **Important:** It is not supported to change the default **Filtered** value of the **SecurityFiltering** property on implicit records on pages.
 
-If you keep the default values after you upgrade from  Dynamics NAV 2009 to Project “Madeira”, then the behavior is the same in all cases except the following:
+If you keep the default values after you upgrade from  Dynamics NAV 2009 to Dynamics NAV 91, then the behavior is the same in all cases except the following:
 
 -   In earlier versions, the [COUNT Function (Record)](function-countrecord.md) ignored security filters and always returned the total number of records unless you called the [SETPERMISSIONFILTER function](function-setpermissionfilter.md) to get a filtered count. In Dynamics NAV 2016, the COUNT function adheres to the SecurityFiltering property.
 
--   In earlier versions, on a page, you could modify or insert a record outside of the range of your security filters but in Project “Madeira”, you cannot.
+-   In earlier versions, on a page, you could modify or insert a record outside of the range of your security filters but in Dynamics NAV 91, you cannot.
 
 **Note** For Query variables, the **Validated** value of the **SecurityFiltering** property is not allowed.
 

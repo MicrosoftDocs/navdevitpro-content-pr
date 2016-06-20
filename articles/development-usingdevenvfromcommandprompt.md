@@ -1,6 +1,6 @@
 <properties
                 pageTitle="Using the Development Environment from the Command Prompt" | Dynamics NAV"
-                description="Describes the how to use finsql.exe,"
+                description="Describes the how to use finsql.exe."
                 services=""
                 documentationCenter="NAV"
                 authors="jswymer"/>
