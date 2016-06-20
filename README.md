@@ -16,7 +16,7 @@ There are a few ways to work with the repo:
 - You can fork the repo and then work in the fork. When you are done in the fork you commit your changes and make a pull request to the master repo. UA will then pick up the changes as needed. 
 - Work locally by downloading the GitHub Desktop application from here: [https://desktop.github.com/](https://desktop.github.com/). This lets you clone the repo on your machine. You can then make changes, sync with the master repo on Github, and create a Pull Request.
 
-### How to make contributions
+### Contribution process
 The general flow foris as follows
 1. Make changes to an existing file or add a new one.
 2. Commit proposed changes.
