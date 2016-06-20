@@ -1,6 +1,6 @@
 <properties
                 pageTitle="OnAfterTestRun Trigger | Dynamics NAV"
-                description="Describes the OnAfterTestRun trigger on test runner codeunits in Project “Madeira”"
+                description="Describes the OnAfterTestRun trigger on test runner codeunits in Dynamics NAV 91"
                 services=""
                 documentationCenter="NAV"
                 authors="jswymer"/>

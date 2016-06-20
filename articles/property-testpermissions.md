@@ -2,7 +2,7 @@
                 pageTitle="TestPermissions Property | Dynamics NAV"
                 description="Describes the TestPermissions property on codeunits in Dynamics NAV"
                 services=""
-                documentationCenter="NAV"
+                documentationCenter=""
                 authors="jswymer"/>
 <tags
     ms.service="dynamics-nav"

@@ -1,6 +1,6 @@
 <properties
-                pageTitle="Configuring Microsoft Dynamics NAV Server" | Dynamics NAV"
-                description="Describes the how to configure a Dynamics NAV Server instance."
+                pageTitle="Understanding Session Timeouts" | Dynamics NAV"
+                description="Describes  use finsql.exe,"
                 services=""
                 documentationCenter="Madeira"
                 authors="jswymer"/>
@@ -10,7 +10,7 @@
 
 <!-- Change 1: In the section "Configuring Microsoft Dynamics NAV Server After Installation" section, in the last bullet, update the path CustomSetting.config file as follows:-->
 
-By default, this file is located in C:\Program Files\Microsoft Dynamics NAV\91\Service\Instances\<instancename>
+ By default, this file is located in C:\Program Files\Microsoft Dynamics NAV\91\Service\Instances\<instancename>
 
 <!-- Change 2: In the "General Tab Settings" section, after the "Default Client" setting, add the following row for the "Diagnostic Trace Level" setting : -->
 
@@ -20,14 +20,9 @@ By default, this file is located in C:\Program Files\Microsoft Dynamics NAV\91\S
 
 |  Encryption Key Provider  |  Specifies the lowest level ...   |
 
-<!-- Change 4: Move the "Max Data Rows Allowed to Send to Excel" row from the "Client Services" tab to the "General" tab, after the "Max Concurrent Calls" row.-->
+<!-- Change 3: Move the "Max Data Rows Allowed to Send to Excel" row from the "Client Services" tab to the "General" tab, after the "Max Concurrent Calls" row.-->
 
-<!-- Change 5: In the "Management Services" tab, after the "Idle Client Timeout" row, add the following row for the "Keep Alive Interval". Important: Remove the "ClientServicesKeepAliveInterval" setting from the "
-Configuring the Windows Client" topic.-->
-|  Keep Alive Interval  |  Specifies the time interval between keep-alive messages that are sent from the Dynamics NAV Windows client to the server instance. This setting is used to keep inactive sessions alive until the time that is specified by the **Idle Client Timeout** setting expires. You should use a time interval that is less than the **Idle Client Timeout** setting. For more information, see [Understanding Session Timeouts](administration-understanding-session-timeouts.md).<BR /><BR />
-Time interval format: [dd.]hh:mm:ss[.ff] <BR /><BR />Default: 120
-  |
-<!-- Change 6: Add the following sections after the "Management Services" tab.-->
+<!-- Change 4: Add the following sections after the "Management Services" tab. This covers Madeira deliverables-->
 
 ## Azure Key Vault Encryption Provider Tab Settings
 The following table describes fields on the **Azure Key Vault Encryption Provider** tab in the Dynamics NAV Server Administration tool.
