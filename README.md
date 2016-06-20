@@ -17,7 +17,8 @@ There are a few ways to work with the repo:
 - Work locally by downloading the GitHub Desktop application from here: [https://desktop.github.com/](https://desktop.github.com/). This lets you clone the repo on your machine. You can then make changes, sync with the master repo on Github, and create a Pull Request.
 
 ### Contribution process
-The general flow foris as follows
+The general flow is as follows:
+
 1. Make changes to an existing file or add a new one.
 2. Commit proposed changes.
 3. Create Pull Request to have the changes included in the master repo.
