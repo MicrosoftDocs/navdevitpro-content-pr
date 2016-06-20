@@ -165,6 +165,14 @@ In the editor, add two blank spaces at the end of the sentence and hit return. T
 ### Continue steps after a non-step para
 Enter four spaces in front of the non-step para. Otherwise, the non-step para will restart the step sequence.
 
+### Images
+1. Save the image as a png file to the /images folder.
+2. Add the image to the content by using the follwoing syntax:
+
+   ```
+    ![Descriptive name](http://../images/filename)
+   ```
+   
 ### TOC
 The TOC structure of the TOC file is as follows:
 
