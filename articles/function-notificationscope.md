@@ -1,9 +1,17 @@
 <properties
-                pageTitle="SCOPE Function (Notification) | Project “Madeira”"
+                pageTitle="SCOPE Function (Notification) | Dynamics NAV"
                 description="Describes the SCOPE function of the Notification data type for sending notifications"
                 services=""
-                documentationCenter="Madeira"
+                documentationCenter="NAV"
                 authors="jswymer"/>
+<tags
+    ms.service="dynamics-nav"
+    ms.topic="article"
+    ms.devlang="na"
+    ms.tgt_pltfrm="na"
+    ms.workload="NAV"
+    ms.date="06/16/2016"
+    ms.author="jswymer" />
 
 # SCOPE Function (Notification)
 Specifies the scope in which the notification appears in the client.

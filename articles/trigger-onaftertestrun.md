@@ -1,9 +1,17 @@
 <properties
-                pageTitle="OnAfterTestRun Trigger | Project “Madeira”"
-                description="Describes the OnAfterTestRun trigger on test runner codeunits in Project “Madeira”"
+                pageTitle="OnAfterTestRun Trigger | Dynamics NAV"
+                description="Describes the OnAfterTestRun trigger on test runner codeunits in Dynamics NAV 91"
                 services=""
-                documentationCenter="Madeira"
+                documentationCenter="NAV"
                 authors="jswymer"/>
+<tags
+    ms.service="dynamics-nav"
+    ms.topic="article"
+    ms.devlang="na"
+    ms.tgt_pltfrm="na"
+    ms.workload="NAV"
+    ms.date="06/16/2016"
+    ms.author="jswymer" />
 
 # OnAfterTestRun Trigger
 Executed after a test function of a test codeunit has been run.

@@ -1,9 +1,17 @@
 <properties
-                pageTitle="OnBeforeTestRun Trigger | Project “Madeira”"
-                description="Describes the OnBeforeTestRun trigger on test runner codeunits in Project “Madeira”"
+                pageTitle="OnBeforeTestRun Trigger | Dynamics NAV"
+                description="Describes the OnBeforeTestRun trigger on test runner codeunits"
                 services=""
-                documentationCenter="Madeira"
+                documentationCenter="NAV"
                 authors="jswymer"/>
+<tags
+    ms.service="dynamics-nav"
+    ms.topic="article"
+    ms.devlang="na"
+    ms.tgt_pltfrm="na"
+    ms.workload="NAV"
+    ms.date="06/16/2016"
+    ms.author="jswymer" />
 
 # OnBeforeTestRun Trigger
 Executed before a test function of a test codeunit is run.

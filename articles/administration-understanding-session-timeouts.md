@@ -1,6 +1,6 @@
 <properties
-                pageTitle="Using the Development Environment from the Command Prompt" | Project “Madeira”"
-                description="Describes the how to use finsql.exe,"
+                pageTitle="Understanding Session Timeouts" | Dynamics NAV"
+                description="Describes  use finsql.exe,"
                 services=""
                 documentationCenter="Madeira"
                 authors="jswymer"/>
