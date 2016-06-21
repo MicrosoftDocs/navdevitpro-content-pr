@@ -42,7 +42,7 @@ The general flow is as follows:
 ## Authoring in Markdown
 
 The content is styled using a markdown syntax as described below. You do have to worry too much about the markdown syntax, because it will go through UA.
-----------------------
+
 ### General info:
 [Getting started with writing and formatting on GitHub](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
 
