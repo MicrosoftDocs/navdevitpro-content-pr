@@ -1,6 +1,8 @@
 # navdevitpro-content-pr
 
-Welcome to the repository for the preliminary devitpro content for on-prem &amp; PaaS.
+Welcome to the repository for the preliminary devitpro content for on-prem &amp; PaaS. 
+
+All articles are stored as markdown files (.md type) in the **articles** folder.
 
 ======================================
 ## Getting started with GitHub
@@ -39,15 +41,15 @@ The general flow is as follows:
 
 ## Authoring in Markdown
 
-All articles are stored as markdown files (.md type). The content is styled using markdown syntax as described below.  
+The content is styled using a markdown syntax as described below. You do have to worry too much about the markdown syntax, because it will go through UA.
 ----------------------
 ### General info:
 [Getting started with writing and formatting on GitHub](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
 
 ### Authoting tools:
-You can edit on GitHub or use any text editor. Just save the file as a .md type. Here are a couple good tools that provide you with nice features.  
+If you want to work locally, you can edit using any text editor. Just save the file as a .md type. Here are a couple good tools that provide you with nice features, the main one being a Preview.  
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [Atom](https://atom.io/)
+- [Atom](https://atom.io/) (this has specll check and is good for managing many files)
 
 ### Headings
 Use ```#``` for headings.
