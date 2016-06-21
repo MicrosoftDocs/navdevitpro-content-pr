@@ -47,9 +47,9 @@ The content is styled using a markdown syntax as described below. You do have to
 [Getting started with writing and formatting on GitHub](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
 
 ### Authoting tools:
-If you want to work locally, you can edit using any text editor. Just save the file as a .md type. Here are a couple good tools that provide you with nice features, the main one being a Preview.  
+If you want to work locally, you can edit using any text editor. Just save the file as a .md type. Here are a couple good tools that provide you with some nice features, such as Preview.  
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [Atom](https://atom.io/) (this has specll check and is good for managing many files)
+- [Atom](https://atom.io/) (this has spell check and is good for managing many files)
 
 ### Headings
 Use ```#``` for headings.
