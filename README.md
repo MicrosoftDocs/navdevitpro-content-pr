@@ -12,9 +12,15 @@ Welcome to the repository for the preliminary devitpro content for on-prem &amp;
 You do not have write access to the master repo microsoft/navdevitpro-content-pr. Any changes that you make will go through UA first. This means that to make changes, you must commit the changes, and then create a pull request to include the changes. A writer (UA) will then review the pull request and pull the content into the master repo.
 
 There are a few ways to work with the repo:
-- You can edit directly in the Microsoft/navdevitpro-content-pr repo on GitHub.com. 
-- You can fork the repo and then work in the fork. When you are done in the fork you commit your changes and make a pull request to the master repo. UA will then pick up the changes as needed. 
-- Work locally by downloading the GitHub Desktop application from here: [https://desktop.github.com/](https://desktop.github.com/). This lets you clone the repo on your machine. You can then make changes, sync with the master repo on Github, and create a Pull Request.
+- You can edit directly in the Microsoft/navdevitpro-content-pr repo on GitHub.com.
+
+    This is the quickest way and is good for tech-review and small edits. 
+- You can fork the repo and then work in the fork.
+
+    When you are done in the fork you commit your changes and make a pull request to the master repo. UA will then pick up the changes as needed.This method is good for making changes to existing articles or creating new articles when you cannot get your changes done right away and you want to save them as a work in progress. 
+- Work locally by downloading the GitHub Desktop application from here: [https://desktop.github.com/](https://desktop.github.com/).
+
+    This lets you clone the repo on your machine. You can then make changes, sync with the master repo on Github, and create a Pull Request. This is useful for working on new content the stretches over a few sessions. This is how UA works
 
 ### Contribution process
 The general flow is as follows:
@@ -26,10 +32,10 @@ The general flow is as follows:
 ### How to modify an article directly in the repo on GitHub
 1. Open the **articles** folder.
 2. Double-click the .md file you want to review/edit.
-3. In the tool bar, choose the Edit button (.
-3. Make changes.
-4. When don, choose Commit Propesed Changes button at the bottom.
-5. Choose Create Pull Request to send a request for your changes to be included in the master. UA will review the changes.
+3. In the tool bar, choose the **Edit this file** (pencil) icon.
+3. Make changes. Note: If you want to add a comment, the use the syntax <!-- this is my comment -->
+4. When done, choose **Propose file changes** button at the bottom.
+5. Choose Create New Pull Request, and then Create Pull Request to send a request for your changes to be included in the master. UA will review the changes.
 
 ## Authoring in Markdown
 
