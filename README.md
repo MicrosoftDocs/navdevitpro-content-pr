@@ -23,9 +23,10 @@ The general flow is as follows:
 2. Commit proposed changes.
 3. Create Pull Request to have the changes included in the master repo.
 
-### How to modify an article
-1. Open the articcle
-2. Click the Edit button.
+### How to modify an article directly in the repo on GitHub
+1. Open the **articles** folder.
+2. Double-click the .md file you want to review/edit.
+3. In the tool bar, choose the Edit button (.
 3. Make changes.
 4. When don, choose Commit Propesed Changes button at the bottom.
 5. Choose Create Pull Request to send a request for your changes to be included in the master. UA will review the changes.
