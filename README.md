@@ -239,3 +239,6 @@ All fields in Project "Madeira" have tooltips. Therefore, do not document fields
 |How to: Work With GIFI Codes in Canada|ca-finance-work-GiFI-codes.md|
 
 Naming consists of the following elements: ```<country prefix>-<category prefix>-<topic title>.<extension>```
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
