@@ -18,7 +18,7 @@ By default, this file is located in C:\Program Files\Microsoft Dynamics NAV\91\S
 
 <!-- Change 3: In the "General Tab Settings" section, after the "Enable Full C/AL Function Tracing" setting, add the following row for the "Encryption KEY Provider" setting: -->
 
-|  Encryption Key Provider  |  Specifies the lowest level ...   |
+|  Encryption Key Provider  |  Specifies the encryption provider as either **LocalKeyFile** or **AzureKeyVault** values. If you use **AzureKeyVault**, see **Azure Key Vault Encryption Provider** tab settings. <BR /><BR />Default: LocalKeyFile |
 
 <!-- Change 4: Move the "Max Data Rows Allowed to Send to Excel" row from the "Client Services" tab to the "General" tab, after the "Max Concurrent Calls" row.-->
 
