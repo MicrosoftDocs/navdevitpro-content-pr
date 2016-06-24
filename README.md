@@ -2,7 +2,7 @@
 
 Welcome to the repository for the preliminary devitpro content for on-prem &amp; PaaS. 
 
-All articles are stored as markdown files (.md type) in the **articles** folder.
+All articles are stored as Markdown files (.md type) in the **articles** folder.
 
 ======================================
 ## Getting started with GitHub
@@ -41,7 +41,7 @@ The general flow is as follows:
 
 ## Authoring in Markdown
 
-The content is styled using a markdown syntax as described below. You do have to worry too much about the markdown syntax, because it will go through UA.
+The content is styled using a Markdown syntax as described below. You don't have to worry too much about the Markdown syntax, because it will go through UA.
 
 ### General info:
 [Getting started with writing and formatting on GitHub](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
@@ -89,7 +89,7 @@ Use numbers for ordered lists. No space between the lines, we'll let the templat
 Use ```**bold**``` and ```*italics*```
 
 ### Tables
-- For tables in the body, use the markdown syntax.
+- For tables in the body, use the Markdown syntax.
 
 ```
 | To   | See                       |
@@ -99,7 +99,7 @@ Use ```**bold**``` and ```*italics*```
 | | |
 ```
 
-- For nested tables in ordered and unordered lists use HTML-syntax. Markdown does not support tables very well. If you use the markdown syntax the list will be broken, the table will align left and list will be renumbered.
+- For nested tables in ordered and unordered lists use HTML-syntax. Markdown does not support tables very well. If you use the Markdown syntax the list will be broken, the table will align left and list will be renumbered.
 
 ### Comment syntax
 Useful for sections that are not ready and will not pass the build check.
@@ -177,7 +177,7 @@ For example, to link to the heading "How Autoscaling Works" in the article Autos
 Omit the brackets with the NAV version info. Markdown mistakes that bracket for its own link indication.
 Example:  
 MSDN URL: ```https://msdn.microsoft.com/en-us/library/hh173988(v=nav.80).aspx```  
-Entered in markdown: ```https://msdn.microsoft.com/en-us/library/hh173988.aspx```
+Entered in Markdown: ```https://msdn.microsoft.com/en-us/library/hh173988.aspx```
 
 ### Line breaks (soft return)
 In the editor, add two blank spaces at the end of the sentence and hit return. This is used in the See Also list. (See Also must be heading 2.)
@@ -217,7 +217,7 @@ All fields in Project "Madeira" have tooltips. Therefore, do not document fields
 - Use action verbs that are specific such as develop, buy, build, troubleshoot. No -ing words.
 - No small words - don't include a, and, the, in, or, etc.
 - Country-specific article file names are prefixed with the country code. Example: "ca-" for Canada.
-- All files must be in markdown and use the .md file extension.
+- All files must be in Markdown and use the .md file extension.
 
 #### Examples
 
