@@ -30,7 +30,7 @@ The parameter has the following values:
 |  Value  |  Description  |
 |---------|---------------|
 |LocalScope |The notification appears in context of the user's current task, on the page the user is currently working on. This is the default value.|
-|GlobaocalScope |The notifications are not directly related to the user's current task. **Note:**  GlobalScope is currently not supported, so do not use this value.|
+|GlobalScope |The notifications are not directly related to the user's current task. **Note:**  GlobalScope is currently not supported, so do not use this value.|
 
 ## Return Value
 *CurrSCOPE*
