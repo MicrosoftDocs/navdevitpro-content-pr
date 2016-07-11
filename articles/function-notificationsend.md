@@ -23,7 +23,7 @@ Sends the notification to the client, where is will appear in the UI.
 ## Return Value
 *Value*
 
-Type: Code ot text
+Type: Code or text
 
 **true** if the notification was sent; otherwise, **false**.
 
