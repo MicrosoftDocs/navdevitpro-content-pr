@@ -3,7 +3,15 @@
                 description="Describes the RECALL function of the Notification data type for recalling notifications"
                 services=""
                 documentationCenter="Madeira"
-                authors=""/>
+                authors="SusanneWindfeldPedersen"/>
+<tags
+    ms.service="dynamics-nav"
+    ms.topic="article"
+    ms.devlang="na"
+    ms.tgt_pltfrm="na"
+    ms.workload="NAV"
+    ms.date="07/12/2016"
+    ms.author="SusanneWindfeldPedersen" />
 
 # RECALL Function (Notification)
 Recall a sent notification.
@@ -15,12 +23,10 @@ Recall a sent notification.
 *Value*
 **true** if the notification was recalled; otherwise, **false**.
 
-If you omit this optional return value and if the notification cannot be recalled, then a run-time error occurs that states that the notification cannot be recalled. If you include a return value, then it is assumed that you will handle any errors and no run-time error occurs, even though the notification is not recalled.
-
-## Remarks
+If you omit this optional return value and if the notification cannot be recalled, then a run-time error occurs that states that the notification cannot be recalled. If you include a return value, then it is assumed that you will handle any errors and no run-time error occurs, even if the notification is not recalled.
 
 ##  Example
-The following code creates a notification and sends it if the NewBallance is greater than the credit limit. If it is lower it recalls the notification.
+The following code creates a notification and sends it if NewBallance is greater than the credit limit. If it is lower it recalls the notification.
 
 ```
 MyNotification.ID := '00000000-0000-0000-0000-000000000001';
@@ -35,7 +41,7 @@ END ELSE
 ```
 
 ## See Also  
-[SEND Function(Notification)](function-notificationsend.md)  
+[SEND Function (Notification)](function-notificationsend.md)  
 [MESSAGE Function (Notification)](function-notificationmessage.md)  
-[SCOPE Function(Notification)](function-notificationscope.md)  
+[SCOPE Function (Notification)](function-notificationscope.md)  
 [Notifications](notifications-developing.md)
