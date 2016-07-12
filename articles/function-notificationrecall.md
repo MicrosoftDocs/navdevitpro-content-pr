@@ -26,7 +26,7 @@ Recall a sent notification.
 If you omit this optional return value and if the notification cannot be recalled, then a run-time error occurs that states that the notification cannot be recalled. If you include a return value, then it is assumed that you will handle any errors and no run-time error occurs, even if the notification is not recalled.
 
 ##  Example
-The following code creates a notification and sends it if NewBallance is greater than the credit limit. If it is lower it recalls the notification.
+The following code creates a notification and sends it if NewBalance is greater than the credit limit. If it is lower it recalls the notification.
 
 ```
 MyNotification.ID := '00000000-0000-0000-0000-000000000001';
