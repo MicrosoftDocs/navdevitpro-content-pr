@@ -28,7 +28,7 @@ Specifies the identifier for a notification.
 If left unassigned the notification will be assigned an ID when the SEND method is called. For more information, see [SEND Function (Notification)](function-notificationsend.md).
 
 ##  Example
-The following code creates a notification and sends it if NewBallance is greater than the credit limit. If it is lower it recalls the notification.
+The following code creates a notification and sends it if NewBalance is greater than the credit limit. If it is lower it recalls the notification.
 The example uses a pre-defined ID so that the notification can be recalled.
 
 ```
