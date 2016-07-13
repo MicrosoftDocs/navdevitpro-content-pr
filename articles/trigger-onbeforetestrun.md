@@ -2,14 +2,14 @@
                 pageTitle="OnBeforeTestRun Trigger | Dynamics NAV"
                 description="Describes the OnBeforeTestRun trigger on test runner codeunits"
                 services=""
-                documentationCenter="NAV"
+                documentationCenter=""
                 authors="jswymer"/>
 <tags
-    ms.service="dynamics-nav"
+    ms.prod="dynamics-nav-2017"
     ms.topic="article"
     ms.devlang="na"
     ms.tgt_pltfrm="na"
-    ms.workload="NAV"
+    ms.workload="na"
     ms.date="06/16/2016"
     ms.author="jswymer" />
 

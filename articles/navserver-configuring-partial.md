@@ -2,7 +2,7 @@
                 pageTitle="Configuring Microsoft Dynamics NAV Server" | Dynamics NAV"
                 description="Describes the how to configure a Dynamics NAV Server instance."
                 services=""
-                documentationCenter="Madeira"
+                documentationCenter=""
                 authors="jswymer"/>
 
 

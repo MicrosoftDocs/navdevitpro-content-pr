@@ -1,15 +1,15 @@
 <properties
                 pageTitle="Understanding Session Timeouts | Dynamics NAV"
-                description="Describes use finsql.exe,"
+                description="Describes how to use finsql.exe."
                 services=""
-                documentationCenter="Madeira"
+                documentationCenter=""
                 authors="jswymer"/>
 <tags
-    ms.service="dynamics-nav"
+    ms.prod="dynamics-nav-2017"
     ms.topic="article"
     ms.devlang="na"
     ms.tgt_pltfrm="na"
-    ms.workload="NAV"
+    ms.workload="na"
     ms.date="06/16/2016"
     ms.author="jswymer" />
 

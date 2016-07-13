@@ -2,14 +2,14 @@
                 pageTitle="RECALL Function (Notification) | Project “Madeira”"
                 description="Describes the RECALL function of the Notification data type for recalling notifications"
                 services=""
-                documentationCenter="Madeira"
+                documentationCenter=""
                 authors="SusanneWindfeldPedersen"/>
 <tags
-    ms.service="dynamics-nav"
+    ms.prod="dynamics-nav-2017"
     ms.topic="article"
     ms.devlang="na"
     ms.tgt_pltfrm="na"
-    ms.workload="NAV"
+    ms.workload="na"
     ms.date="07/12/2016"
     ms.author="SusanneWindfeldPedersen" />
 
