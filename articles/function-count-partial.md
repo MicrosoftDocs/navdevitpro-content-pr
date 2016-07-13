@@ -18,6 +18,7 @@ Counts the number of records in a table.
 <!-- This topic represents changes to the topic for COUNT that is pending migration from CAPS -->
 ## Remarks
 <!-- Change 1: SE bug 171777 for the CRM SDK returning a maximum of 5000 records -->
-**IMPORTANT**:  If you use the COUNT function to return records from a CRM integration table, a maximum of 5000 records are returned. The software development kit for Dynamics CRM uses paging to handle large entity collections, and for performance reasons, Dynamics NAV gets the first page only.  
+
+**IMPORTANT**:  If you use the COUNT function to return the number of records in a CRM integration table, a maximum count of 5000 is returned. The software development kit for Dynamics CRM does not include support for counting large entity collections. As a result, if a CRM integration table contains thousands of records, COUNT returns a maximum count of 5000.  
 
 ## See Also  
