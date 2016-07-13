@@ -1,15 +1,15 @@
 <properties
                 pageTitle="OnAfterTestRun Trigger | Dynamics NAV"
-                description="Describes the OnAfterTestRun trigger on test runner codeunits in Dynamics NAV 91"
                 services=""
-                documentationCenter="NAV"
+                description="Describes the OnAfterTestRun trigger on test runner codeunits in Dynamics NAV"
+                documentationCenter=""
                 authors="jswymer"/>
 <tags
-    ms.service="dynamics-nav"
+    ms.prod="dynamics-nav-2017"
     ms.topic="article"
     ms.devlang="na"
     ms.tgt_pltfrm="na"
-    ms.workload="NAV"
+    ms.workload="na"
     ms.date="06/16/2016"
     ms.author="jswymer" />
 

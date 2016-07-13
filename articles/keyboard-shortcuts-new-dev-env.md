@@ -2,14 +2,14 @@
                 pageTitle="Keyboard Shortcuts for the New Development Environment | Dynamics NAV"
                 description="List of keyboard shortcuts for the new development environment"
                 services=""
-                documentationCenter="NAV"
+                documentationCenter=""
                 authors="SusanneWindfeldPedersen"/>
 <tags
-    ms.service="dynamics-nav"
+    ms.prod="dynamics-nav-2017"
     ms.topic="article"
     ms.devlang="na"
     ms.tgt_pltfrm="na"
-    ms.workload="NAV"
+    ms.workload="na"
     ms.date="07/07/2016"
     ms.author="SusanneWindfeldPedersen" />
 
@@ -32,4 +32,3 @@ The following table provides an overview of shortcut key combinations in the dev
 |Ctrl+Shift+Space|Method signature help|
 
 ## See Also
-

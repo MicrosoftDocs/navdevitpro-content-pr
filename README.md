@@ -1,6 +1,6 @@
 # navdevitpro-content-pr
 
-Welcome to the repository for the preliminary devitpro content for on-prem &amp; PaaS. 
+Welcome to the repository for the preliminary devitpro content for on-prem &amp; PaaS.
 
 All articles are stored as Markdown files (.md type) in the **articles** folder.
 
@@ -16,10 +16,10 @@ You do not have write access to the master repo microsoft/navdevitpro-content-pr
 There are a few ways to work with the repo:
 - You can edit directly in the Microsoft/navdevitpro-content-pr repo on GitHub.com.
 
-    This is the quickest way and is good for tech-review and small edits. 
+    This is the quickest way and is good for tech-review and small edits.
 - You can fork the repo and then work in the fork.
 
-    When you are done in the fork you commit your changes and make a pull request to the master repo. UA will then pick up the changes as needed.This method is good for making changes to existing articles or creating new articles when you cannot get your changes done right away and you want to save them as a work in progress. 
+    When you are done in the fork you commit your changes and make a pull request to the master repo. UA will then pick up the changes as needed.This method is good for making changes to existing articles or creating new articles when you cannot get your changes done right away and you want to save them as a work in progress.
 - Work locally by downloading the GitHub Desktop application from here: [https://desktop.github.com/](https://desktop.github.com/).
 
     This lets you clone the repo on your machine. You can then make changes, sync with the master repo on Github, and create a Pull Request. This is useful for working on new content the stretches over a few sessions. This is how UA works
@@ -46,10 +46,29 @@ The content is styled using a Markdown syntax as described below. You don't have
 ### General info:
 [Getting started with writing and formatting on GitHub](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
 
-### Authoting tools:
+### Authoring tools:
 If you want to work locally, you can edit using any text editor. Just save the file as a .md type. Here are a couple good tools that provide you with some nice features, such as Preview.  
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Atom](https://atom.io/) (this has spell check and is good for managing many files)
+
+### Properties
+Each topic must contain a properties element and a tags element at the top of the file with the following information:
+```
+<properties
+           pageTitle="My topic for Dynamics NAV| Dynamics NAV"
+           description="My topic talks about stuff"
+           services=" "
+           documentationCenter=""
+           authors="MyGitHubAccount"/>
+<tags
+    ms.prod="dynamics-nav-2017"
+    ms.topic="article"
+    ms.devlang="na"
+    ms.tgt_pltfrm="na"
+    ms.workload="na"
+    ms.date="06/01/2016"
+    ms.author="MyGitHubAccount" />
+```
 
 ### Headings
 Use ```#``` for headings.
@@ -192,7 +211,7 @@ Enter four spaces in front of the non-step para. Otherwise, the non-step para wi
    ```
     ![Descriptive name](http://../images/filename)
    ```
-   
+
 ### TOC
 The TOC structure of the TOC file is as follows:
 
@@ -205,7 +224,7 @@ The TOC structure of the TOC file is as follows:
 ```
 
 ### Standard Phrases
-All fields in Project "Madeira" have tooltips. Therefore, do not document fields in Help. To refer readers to the tooltips, use this standard phrase where relevant:    
+The UI has tooltips for getting unblocked. Therefore, do not document fields in Help. To refer readers to the tooltips, use this standard phrase where relevant:    
 "Choose a field to read a short description of the field or link to more information."
 
 ### File naming
@@ -241,4 +260,3 @@ All fields in Project "Madeira" have tooltips. Therefore, do not document fields
 Naming consists of the following elements: ```<country prefix>-<category prefix>-<topic title>.<extension>```
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-
