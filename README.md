@@ -6,7 +6,7 @@ All articles are stored as Markdown files (.md type) in the **articles** folder.
 
 ======================================
 ## Getting started with GitHub
-### Set up you account
+### Set up your account
 1. Get a GitHub account.
 2. Link it to your work account at https://opensourcehub.microsoft.com.
 
@@ -19,10 +19,10 @@ There are a few ways to work with the repo:
     This is the quickest way and is good for tech-review and small edits.
 - You can fork the repo and then work in the fork.
 
-    When you are done in the fork you commit your changes and make a pull request to the master repo. UA will then pick up the changes as needed.This method is good for making changes to existing articles or creating new articles when you cannot get your changes done right away and you want to save them as a work in progress.
+    When you are done in the fork you commit your changes and make a pull request to the master repo. UA will then pick up the changes as needed. This method is good for making changes to existing articles or creating new articles when you cannot get your changes done right away and you want to save them as a work in progress.
 - Work locally by downloading the GitHub Desktop application from here: [https://desktop.github.com/](https://desktop.github.com/).
 
-    This lets you clone the repo on your machine. You can then make changes, sync with the master repo on Github, and create a Pull Request. This is useful for working on new content the stretches over a few sessions. This is how UA works
+    This lets you clone the repo on your machine. You can then make changes, sync with the master repo on Github, and create a Pull Request. This is useful for working on new content that stretches over a few sessions. This is how UA works.
 
 ### Contribution process
 The general flow is as follows:
@@ -205,7 +205,7 @@ In the editor, add two blank spaces at the end of the sentence and hit return. T
 Enter four spaces in front of the non-step para. Otherwise, the non-step para will restart the step sequence.
 
 ### Images
-1. Save the image as a png file to the /images folder.
+1. Save the image as a .png file to the /images folder.
 2. Add the image to the content by using the follwoing syntax:
 
    ```
