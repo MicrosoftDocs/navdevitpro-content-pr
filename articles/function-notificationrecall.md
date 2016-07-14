@@ -1,5 +1,5 @@
 <properties
-                pageTitle="RECALL Function (Notification) | Project “Madeira”"
+                pageTitle="RECALL Function (Notification) | Dynamics NAV"
                 description="Describes the RECALL function of the Notification data type for recalling notifications"
                 services=""
                 documentationCenter=""
