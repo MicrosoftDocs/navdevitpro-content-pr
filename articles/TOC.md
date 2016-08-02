@@ -14,5 +14,5 @@
 ##[GETDATA Function (Notification)](function-notificationgetdata.md)
 ##[SETDATA Function (Notification)](function-notificationsetdata.md)
 
-
-
+# Draft content
+## [Microsoft Dynamics NAV Web Services Overview](webservices-overview-partial.md)
