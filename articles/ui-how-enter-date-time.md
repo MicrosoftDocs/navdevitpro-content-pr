@@ -14,183 +14,225 @@
     ms.author="edupont04" />
 
 # How to:Enter Dates and Time
-You can enter dates and times in all the fields that are specifically assigned to dates \(date fields\).  
+You can enter dates and times in all the fields that are specifically assigned to dates \(date fields, time fields and datetime fields\).
 
- How you enter dates depends on the settings that have been selected in the Regional and Language Options window in the Control Panel. You can enter dates with or without separators.  
+How you enter dates depends on the culture settings Dynamics NAV is operating under. In the Windows client, the culture settings are determined by the selection made in the Regional and Language Options window in the Control Panel. In the Web client, the culture settings are determined by the Locale ID selected in the User Personalization of the signed in user. For date patterns involving words, the culture of the Dynamics NAV server installation also plays a role, as this determines the language.
 
- The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.  
+The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
 
-## Entering Dates  
- In a date field you can enter two, four, six, or eight digits:  
+## Entering Dates
+In a date field you can enter a date using the standard format of the culture your client is using. It does not matter which date separators you use, but they must not contain spaces unless these are the culture's default date separators.
 
--   If you enter only two digits, this is interpreted as the day, and it will add the month and the year of the work date.  
+Alternatively, you can use any of the date formats defined by Dynamics NAV. These are described below.
 
--   If you enter four digits, this is interpreted as the day and the month, and it will add the year of the work date.  
+### Current workdate
+The word for 'workdate' in the language used by Dynamics NAV, will be evaluated to the currently set work date. Any part from the start of the word can be entered, such as 'w' or 'work'.
 
--   If the date you want to enter is in the range 01\/01\/1930 through 12\/31\/2029, you can enter the year with two digits; otherwise, enter the year with four digits.  
+To define the work date, On the **Application** menu, choose **Set Work Date**. If you do not define a work date, the system date will be used as the work date. You may want to use a work date if you have many transactions with a date other than today's date.
 
- You can also enter a date as a weekday followed by a week number and, optionally, a year \(for example, Mon25 or mon25 means Monday in week 25\).  
+### Today
+The word for 'today' in the language used by Dynamics NAV, will be evaluated to the current date on the client. Any part from the start of the word can be entered, such as 't' or 'tod', as long as it is not also the start of the word 'workdate'.
 
- Instead of entering a specific date, you can enter one of two codes.  
+### Day\-week\-year pattern
+You can enter a date as a weekday followed by a week number and, optionally, a year. For example, Mon25 or mon25 means Monday in week 25. If you do not enter a year, the year of the work date is used.
 
-|**Code**      |**Result**      |  
-|--------------|----------------|  
-|t|This is today's date \(the system date for the computer\).|  
-|w|This is the work date. To define the work date, On the **Application** menu, choose **Set Work Date**. If you do not define a work date, the system date will be used as the work date.|  
+Any part of the start of the word for a day of the week in the Dynamics NAV language can be used. In case of conflicts (such as 's' which could be Saturday or Sunday), the days are evaluated in the order of the client culture. The input is first evaluated against 'workdate' and 'today' as well, so keep this in mind when abbreviating. For example, 't' already means today, so it cannot mean Tuesday or Thursday.
 
- You may want to use a work date if you have many transactions with a date other than today's date.  
+The week number scheme is always ISO 8601, where week 1 is the week with 4 January in it, or the week with the first Thirsday of the year.
 
-## Closing Date  
- When you close a fiscal year, you can use closing dates to indicate that an entry is a closing entry. A closing date technically is between two dates, for example between Dec 31 and Jan 1.  
+### Digit patterns
+In a date field you can enter two, four, six, or eight digits:
 
- To specify that a date is a closing date, put C just before the date: C123101.  
+-   If you enter only two digits, this is interpreted as the day, and it will add the month and the year of the work date.
 
-## Entering Times  
- When you enter times, you can insert any separator sign that you want between the units, but it is not required.  
+-   If you enter four digits, this is interpreted as the day and the month, and it will add the year of the work date. The order of the day and month is determined by the client culture. Even if the client culture should have the year before the day and month, four digits are interpreted as the day and month.
 
- You do not have to write minutes, seconds, or AM\/PM.  
+-   If the date you want to enter is in the range 01\/01\/1930 through 12\/31\/2029, you can enter the year with two digits; otherwise, enter the year with four digits.
 
- The following table lists the various ways in which times can be entered and how they are interpreted.  
+### Closing Date
+When you close a fiscal year, you can use closing dates to indicate that an entry is a closing entry. A closing date technically is between two dates, for example between Dec 31 and Jan 1.
 
-|**Entry**      |**Interpretation**      |  
-|---------------|------------------------|  
-|5|05:00:00|  
-|5:30|05:30:00|  
-|0530|05:30:00|  
-|5:30:5|05:30:05|  
-|053005|05:30:05|  
-|5:30:5,50|05:30:05.5|  
-|053005050|05:30:05.05|  
+To specify that a date is a closing date, put C just before the date: C123101. This can be used in combination with all the date patterns.
 
- You must enter two digits for each unit of time if you do not enter a separator.  
+### Examples
+The following table contains examples of dates using all the formats. It assumes a culture which formats dates year.month.day., a week starting on Monday and English language.
 
-## Entering Datetimes  
- When you enter datetimes you must enter a space between the date and the time.  
+|**Entry**      |**Interpretation**      |
+|---------------|------------------------|
+|2002.12.31.|2002.12.31.|
+|021231|2002.12.31.|
+|2.12.31|2002.12.31.|
+|02.12.31.|2002.12.31.|
+|20021231|2002.12.31.|
+|02/12,31|2002.12.31.|
+|11|work date year.work date month.11.|
+|1112|work date year.11.12.|
+|t or today|today's date|
+|w or workdate|the working date|
+|m or Monday|Monday of the work date week|
+|tu or Tuesday|Tuesday of the work date week|
+|s or Saturday|Saturday of the work date week|
+|su or Sunday|Sunday of the work date week|
+|t23|Tuesday of week 23 of the work date year|
+|t 23|Tuesday of week 23 of the work date year|
+|t\-1|Tuesday of week 1 of the work date year|
 
- The following table lists the various ways in which you can enter datetimes and how they are interpreted.  
+## Entering Times
+When you enter times, you can insert any non space separators that you want between the units, but if you use double digits for each unit up to milliseconds, then it is not required.
 
-|**Entry**      |**Interpretation**      |  
-|---------------|------------------------|  
-|131202 132455|13\-12\-02 13:24:55|  
-|1\-12\-02 10|01\-12\-02 10:00:00|  
-|1.12.02 5|01\-12\-02 05:00:00|  
-|1.12.02|01\-12\-02 00:00:00|  
-|11 12|11\-current month\-current year 12:00:00|  
-|1112 12|11\-12\-current year 12:00:00|  
-|t or today|today's date 00:00:00|  
-|t time|today's date actual time|  
-|t 10:30|today's date 10:30:00|  
-|t 3:3:3|today's date 03:03:03|  
-|w or workdate|the working date 00:00:00|  
-|m or Monday|Monday of the current week 00:00:00|  
-|tu or Tuesday|Tuesday of the current week 00:00:00|  
-|we or Wednesday|Wednesday of the current week 00:00:00|  
-|th or Thursday|Thursday of the current week 00:00:00|  
-|f or Friday|Friday of the current week 00:00:00|  
-|s or Saturday|Saturday of the current week 00:00:00|  
-|su or Sunday|Sunday of the current week 00:00:00|  
-|tu 10:30|Tuesday of the current week 10:30:00|  
-|tu 3:3:3|Tuesday of the current week 03:03:03|  
+You only have to write the largest units you require; the rest will be set to zero. You can also leave out any AM\/PM indicator.
 
-## Entering Duration  
- You enter a duration as a number followed by its unit of measure.  
+The following table lists the various ways in which times can be entered and how they are interpreted. This table assumes a culture with AM and PM indicators 'AM' and 'PM', respectively.
 
- Here are some examples.  
+|**Entry**      |**Interpretation**      |
+|---------------|------------------------|
+|05:23:17|05:23:17|
+|5|05:00:00|
+|5AM|05:00:00|
+|5P|17:00:00|
+|12|12:00:00|
+|12A|00:00:00|
+|12P|12:00:00|
+|17|17:00:00|
+|5:30|05:30:00|
+|0530|05:30:00|
+|5:30:5|05:30:05|
+|053005|05:30:05|
+|5:30:5,50|05:30:05.5|
+|053005050|05:30:05.05|
 
-|**Duration**|**Unit of measure**|  
-|------------|-------------------|  
-|2h|2 hrs|  
-|6h 30 m|6 hrs 30 mins|  
-|6.5h|6 hrs 30 mins|  
-|90m|1 hr 30 mins|  
-|2d 6h 30m|2 days 6 hrs 30 mins|  
-|2d 6h 30m 56s 600ms|2 days 6 hrs 30 mins 56 secs 600 msecs|  
+Please note that milliseconds are interpreted as decimal notation: 3, 30 and 300 all mean 300 milliseconds, while 03 means 30 and 003 means 3 milliseconds.
 
- You can also enter a number and it is automatically converted to a duration. The number you enter is converted according to the default unit of measure that has been specified for the duration field.  
+You cannot use 24:00 to mean midnight, or any value higher than this.
 
- To see what unit of measure is being used in a duration field, enter a number and see which unit of measure it is converted to.  
+The word for 'time' in the language used by Dynamics NAV, will be evaluated to the current time on the client. Any part from the start of the word can be entered, such as 't' or 'TIM'.
 
- The number 5 is converted to 5 hrs, if the unit of measure is hours.  
+## Entering Datetimes
+When you enter datetimes you must enter a space between the date and the time. The date part can only contain spaces in the form of the official date separator of the client culture. The time can contain spaces around the AM\/PM indicator.
 
-##  <a name="BKMK_SettingDateRanges"></a> Setting Date Ranges  
- You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges.  
+It is also possible to enter only a date in a datetime field, but it is not possible to enter only a time.
 
-|**Meaning**|**Sample expression**|**Entries included**|  
-|-----------|---------------------|--------------------|  
-|**Equal to**|12 15 00|Only those posted on 12 15 00.|  
-|**Interval**|12 15 00..01 15 01<br /><br /> ..12 15 00|Those posted on dates between and including 12 15 00 and 01 15 01.<br /><br /> Those posted on 12 15 00 or earlier.|  
-|**Either\/or**|12 15 00&#124;12 16 00|Those posted on either 12 15 00 or 12 16 00. If there are entries posted on both days, they will all be displayed.|  
+The following table lists some examples of date\/time combinations. The example culture has dates in day\-month\-year order, AM\/PM designators, English language and the week starts on Sunday.
 
- You can also combine the various format types.  
+|**Entry**      |**Interpretation**      |
+|---------------|------------------------|
+|08\-01\-2016 05:48:12 PM|08\-01\-2016 05:48:12 PM|
+|131202 132455|13\-12\-2002 13:24:55|
+|1\-12\-02 10|01\-12\-2002 10:00:00|
+|1.12.02 5|01\-12\-2002 05:00:00|
+|1.12.02|01\-12\-2002 00:00:00|
+|11 12|11\-work date month\-work date year 12:00:00|
+|1112 12|11\-12\-work date year 12:00:00|
+|t or today|today's date 00:00:00|
+|t 10:30|today's date 10:30:00|
+|t 3:3:3|today's date 03:03:03|
+|w or workdate|the working date 00:00:00|
+|m or Monday|Monday of the work date week 00:00:00|
+|tu or Tuesday|Tuesday of the work date week 00:00:00|
+|sa or Saturday|Saturday of the work date week 00:00:00|
+|s or Sunday|Sunday of the work date week 00:00:00|
+|tu 10:30|Tuesday of the work date week 10:30:00|
+|tu 3:3:3|Tuesday of the work date week 03:03:03|
+|t23 t|Tuesday of week 23 of the work date year, current time of day|
+|t23|Tuesday of week 23 of the work date year|
+|t 23|Today 23:00:00|
+|t\-1|Tuesday of week 1 of the work date year|
 
-|**Sample expression**|**Entries included**|  
-|---------------------|--------------------|  
-|12 15 00&#124;12 01 00..12 10 00|Entries posted either on 12 15 00 or on dates between and including 12 01 00 and 12 10 00.|  
-|..12 14 00&#124;12 30 00..|Entries posted on 12 14 00 or earlier, or entries posted on 12 30 00 or later \- that is, all entries except those posted on dates between and including 12 15 00 and 12 29 00.|  
+## Entering Duration
+You enter a duration as a number followed by its unit of measure.
 
-## Using Date Formulas  
- A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.  
+Here are some examples.
 
-> [!NOTE]  
->  In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, if you enter 1W, for example, then the period is actually eight days because today is included. To specify a period of seven days \(one true week\) including the period starting date, then you must enter 6D or 1W\-1D.  
+|**Duration**|**Unit of measure**|
+|------------|-------------------|
+|2h|2 hrs|
+|6h 30 m|6 hrs 30 mins|
+|6.5h|6 hrs 30 mins|
+|90m|1 hr 30 mins|
+|2d 6h 30m|2 days 6 hrs 30 mins|
+|2d 6h 30m 56s 600ms|2 days 6 hrs 30 mins 56 secs 600 msecs|
 
- Here are some examples of how date formulas can be used:  
+You can also enter a number and it is automatically converted to a duration. The number you enter is converted according to the default unit of measure that has been specified for the duration field.
 
--   The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.  
+To see what unit of measure is being used in a duration field, enter a number and see which unit of measure it is converted to.
 
--   The date formula in the Grace Period field for a specified reminder level determines the period of time that must pass from the due date \(or from the date of the previous reminder\) before a reminder will be created.  
+The number 5 is converted to 5 hrs, if the unit of measure is hours.
 
--   The date formula in the Due Date Calculation field determines how to calculate the due date on the reminder.  
+##  <a name="BKMK_SettingDateRanges"></a> Setting Ranges
+You can set filters on dates, times and datetimes containing a start value and optionally an end value to display only the data contained in that range. The standard rules apply to the way you set date ranges.
 
- The date calculation formula can contain a maximum of 20 characters, both numbers and letters. You can use the following letters, which are abbreviations for time specifications.  
+|**Meaning**|**Sample expression (Date)**|**Entries included**|
+|-----------|---------------------|--------------------|
+|**Equal to**|12 15 00|Only those posted on 12 15 00.|
+|**Interval**|12 15 00..01 15 01<br /><br /> ..12 15 00|Those posted on dates between and including 12 15 00 and 01 15 01.<br /><br /> Those posted on 12 15 00 or earlier.|
+|**Either\/or**|12 15 00&#124;12 16 00|Those posted on either 12 15 00 or 12 16 00. If there are entries posted on both days, they will all be displayed.|
+|**Combination**12 15 00&#124;12 01 00..12 10 00<br /><br />..12 14 00&#124;12 30 00..|Entries posted either on 12 15 00 or on dates between and including 12 01 00 and 12 10 00.<br /><br />Entries posted on 12 14 00 or earlier, or entries posted on 12 30 00 or later \- that is, all entries except those posted on dates between and including 12 15 00 and 12 29 00.|
 
-| | |  
-|-|-|  
-|C|Current|  
-|D|Day\(s\)|  
-|W|Week\(s\)|  
-|M|Month\(s\)|  
-|Q|Quarter\(s\)|  
-|Y|Year\(s\)|  
+You can use any of the valid formats in date range filters. For example, 'mon14 3..t 4p' applied on a datetime field results in a filter from 3 AM on Monday in week 14 of the current work date year, inclusive, until today at 4PM, inclusive.
 
- You can construct a date formula in three ways.  
+## Using Date Formulas
+A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
- The following example shows how current plus a time unit.  
+> [!NOTE]
+>  In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, if you enter 1W, for example, then the period is actually eight days because today is included. To specify a period of seven days \(one true week\) including the period starting date, then you must enter 6D or 1W\-1D.
 
-| | |  
-|-|-|  
-|CW|Current week|  
-|CM|Current month|  
+Here are some examples of how date formulas can be used:
 
- The following example shows how a number and a time unit. A number cannot be larger than 9999.  
+-   The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.
 
-| | |  
-|-|-|  
-|10D|10 days from today|  
-|2W|2 weeks from today|  
+-   The date formula in the Grace Period field for a specified reminder level determines the period of time that must pass from the due date \(or from the date of the previous reminder\) before a reminder will be created.
 
- The following example shows how a time unit and a number.  
+-   The date formula in the Due Date Calculation field determines how to calculate the due date on the reminder.
 
-| | |  
-|-|-|  
-|D10|The next 10th day of a month|  
-|WD4|The next 4th day of a week \(Thursday\)|  
+The date calculation formula can contain a maximum of 20 characters, both numbers and letters. You can use the following letters, which are abbreviations for time specifications.
 
- The following example shows how you can combine these three forms as needed.  
+| | |
+|-|-|
+|C|Current|
+|D|Day\(s\)|
+|W|Week\(s\)|
+|M|Month\(s\)|
+|Q|Quarter\(s\)|
+|Y|Year\(s\)|
 
-| | |  
-|-|-|  
-|CM\+10D|Current month \+ 10 days|  
+You can construct a date formula in three ways.
 
- The following example shows how you can use a minus sign to indicate a date in the past.  
+The following example shows how current plus a time unit.
 
-| | |  
-|-|-|  
-|\-1Y|1 year ago from today|  
+| | |
+|-|-|
+|CW|Current week|
+|CM|Current month|
 
-> [!CAUTION]  
->  If the location uses a base calendar, then the date formula that you enter in, for example, the **\($ T\_36\_5792 Shipping Time $\)** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see [\($ N\_7600 Base Calendar Card $\)](../Topic/\($%20N_7600%20Base%20Calendar%20Card%20$\).md).  
+The following example shows how a number and a time unit. A number cannot be larger than 9999.
 
-## See Also  
-<!-- [Working with \($ P\_1 Product Name $\)](../Topic/Working%20with%20\($%20P_1%20Product%20Name%20$\).md)   
- [\($ T\_36\_5792 Shipping Time $\)](../Topic/\($%20T_36_5792%20Shipping%20Time%20$\).md) -->
+| | |
+|-|-|
+|10D|10 days from today|
+|2W|2 weeks from today|
+
+The following example shows how a time unit and a number.
+
+| | |
+|-|-|
+|D10|The next 10th day of a month|
+|WD4|The next 4th day of a week \(Thursday\)|
+
+The following example shows how you can combine these three forms as needed.
+
+| | |
+|-|-|
+|CM\+10D|Current month \+ 10 days|
+
+The following example shows how you can use a minus sign to indicate a date in the past.
+
+| | |
+|-|-|
+|\-1Y|1 year ago from today|
+
+> [!CAUTION]
+>  If the location uses a base calendar, then the date formula that you enter in, for example, the **\($ T\_36\_5792 Shipping Time $\)** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see [\($ N\_7600 Base Calendar Card $\)](../Topic/\($%20N_7600%20Base%20Calendar%20Card%20$\).md).
+
+## See Also
+<!-- [Working with \($ P\_1 Product Name $\)](../Topic/Working%20with%20\($%20P_1%20Product%20Name%20$\).md)
+[\($ T\_36\_5792 Shipping Time $\)](../Topic/\($%20T_36_5792%20Shipping%20Time%20$\).md) -->
