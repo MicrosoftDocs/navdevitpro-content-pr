@@ -41,7 +41,7 @@ END ELSE
 ```
 
 ## See Also  
-[ID Function (Notification)](function-notificationid.md)
+[ID Function (Notification)](function-notificationid.md)  
 [SEND Function (Notification)](function-notificationsend.md)  
 [MESSAGE Function (Notification)](function-notificationmessage.md)  
 [SCOPE Function (Notification)](function-notificationscope.md)  

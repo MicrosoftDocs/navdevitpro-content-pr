@@ -23,13 +23,13 @@ Value := SETDATA(Name, Value)
 ## Parameters
 *Name*
 
-Type: Type: Code or text
+Type: Code or text
 
 The text string to use as a unique identifier for the data item.
 
 *Value*
 
-Type: Type: Code or text
+Type: Code or text
 
 The text string that represents the data.
 
