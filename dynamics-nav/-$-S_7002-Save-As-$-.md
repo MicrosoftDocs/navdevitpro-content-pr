@@ -1,0 +1,25 @@
+---
+title: "($ S_7002 Save As $)"
+ms.custom: na
+ms.date: 06/05/2016
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: article
+ms.assetid: d7dc06fb-138d-4d9f-b651-e3b57439e070
+caps.latest.revision: 3
+---
+# ($ S_7002 Save As $)
+Creates a new [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] object by copying the selected object.  
+  
+ The following table describes the options on the **Save As** window.  
+  
+|[!INCLUDE[bp_tableoption](../dynamics-nav/includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|----------------------------------|---------------------------------------|  
+|**ID**|Specifies the ID to assign the object. This sets the object's [ID Property](../dynamics-nav/ID-Property.md).|  
+|**Name**|Specifies the name to assign the object. This sets the object's [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md).|  
+|**Compile**|Specifies whether to compile the object.<br /><br /> Compiling the table object will check for syntax errors and obsolete construct errors in C\/AL code.|  
+|**Synchronize Schema**|Specifies how to apply the table definition changes to the business data table in SQL Server. This option is only available when you compile a table.<br /><br /> Use the text on the **Save AS** window to help you select the desired option, or for more information, see [Synchronizing Table Schemas](../dynamics-nav/Synchronizing-Table-Schemas.md).|  
+  
+## See Also  
+ [Compiling Objects](../dynamics-nav/Compiling-Objects.md)

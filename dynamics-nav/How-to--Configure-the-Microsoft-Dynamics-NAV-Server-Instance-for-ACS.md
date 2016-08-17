@@ -1,0 +1,48 @@
+---
+title: "How to: Configure the Microsoft Dynamics NAV Server Instance for ACS"
+ms.custom: na
+ms.date: 06/05/2016
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: article
+ms.assetid: 33f5c0d7-5bf9-487c-b9a3-ef25e4c65216
+caps.latest.revision: 3
+manager: tsiggaar
+---
+# How to: Configure the Microsoft Dynamics NAV Server Instance for ACS
+You configure your [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance for Access Control Service \(ACS\) by using either the [!INCLUDE[nav_admin](../dynamics-nav/includes/nav_admin_md.md)] or the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] PowerShell API.  
+  
+ Before you begin this procedure, you must perform the steps to configure your deployment for ACS. For more information, see [Authenticating Users with Microsoft Azure Access Control Service](../dynamics-nav/Authenticating-Users-with-Microsoft-Azure-Access-Control-Service.md).  
+  
+### To configure the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance for ACS  
+  
+1.  Start either the [!INCLUDE[nav_admin](../dynamics-nav/includes/nav_admin_md.md)] or the [!INCLUDE[dyn_nav](../dynamics-nav/includes/dyn_nav_md.md)] PowerShell API.  
+  
+     For more information, see [Microsoft Dynamics NAV Server Administration Tool](../dynamics-nav/Microsoft-Dynamics-NAV-Server-Administration-Tool.md) or [Microsoft Dynamics NAV Windows PowerShell Cmdlets](../dynamics-nav/Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md).  
+  
+2.  Find the **ClientServicesCredentialType** parameter in the configuration for the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance.  
+  
+     In the [!INCLUDE[nav_admin](../dynamics-nav/includes/nav_admin_md.md)], the parameter is named **Credential Type** and is on the **General** tab.  
+  
+     For more information, see [Configuring Microsoft Dynamics NAV Server](../dynamics-nav/Configuring-Microsoft-Dynamics-NAV-Server.md).  
+  
+3.  Change the value to **AccessControlService**.  
+  
+    > [!IMPORTANT]  
+    >  If not already done, under the **Client Services** tab, you must set the **Certificate Thumbprint** parameter to the thumbprint of the security certificate that is used by [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)].  
+  
+4.  Find the **ClientServicesTokenSigningKey** parameter in the configuration for the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance.  
+  
+     In the [!INCLUDE[nav_admin](../dynamics-nav/includes/nav_admin_md.md)], the parameter is named **Token Signing Key** and is on the **Client Services** tab.  
+  
+     For more information, see [Configuring Microsoft Dynamics NAV Server](../dynamics-nav/Configuring-Microsoft-Dynamics-NAV-Server.md).  
+  
+5.  Replace the current value with the string of characters from the **Token signing key** field in the **Add Relying Party Application** page.  
+  
+6.  Restart the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance.  
+  
+ The next steps are to configure your clients for ACS. For more information, see [How to: Configure the Microsoft Dynamics NAV Windows Client for ACS](../Topic/How%20to:%20Configure%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client%20for%20ACS.md) and [How to: Configure the Microsoft Dynamics NAV Web Client for ACS](../Topic/How%20to:%20Configure%20the%20Microsoft%20Dynamics%20NAV%20Web%20Client%20for%20ACS.md).  
+  
+## See Also  
+ [Configure Microsoft Dynamics NAV Components for ACS](../dynamics-nav/Configure-Microsoft-Dynamics-NAV-Components-for-ACS.md)
