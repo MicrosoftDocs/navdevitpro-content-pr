@@ -1,4 +1,4 @@
----
+﻿---
 title: "What&#39;s New: Developer and IT Pro Changes for Microsoft Dynamics NAV"
 ms.custom: na
 ms.date: 07/20/2016
@@ -13,7 +13,7 @@ manager: terryaus
 # What&#39;s New: Developer and IT Pro Changes for Microsoft Dynamics NAV
 [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] is a complete enterprise resource planning \(ERP\) software solution for mid\-sized organizations that is fast to implement, easy to configure, and simple to use. Right from the start, simplicity has guided—and continues to guide—innovations in product design, development, implementation, and usability.  
   
- This document details new features and functionality that are available in [!INCLUDE[navcorfu](../dynamics-nav/includes/navcorfu_md.md)] and have been added to the product since [!INCLUDE[navcrete](../dynamics-nav/includes/navcrete_md.md)]. It also describes features that have been deprecated since [!INCLUDE[navcrete](../dynamics-nav/includes/navcrete_md.md)]. [!INCLUDE[startchm](../Token/startchm_md.md)]For information about [!INCLUDE[navcrete](../dynamics-nav/includes/navcrete_md.md)], see [What's New: Developer and IT Pro Changes for Microsoft Dynamics NAV 2015](http://msdn.microsoft.com/en-us/library/hh174007\(v=nav.80\).aspx) in the MSDN Library. [!INCLUDE[endchm]()][!INCLUDE[starthtm](../Token/starthtm_md.md)]For more information, see the "What's New: Developer and IT Pro Changes for Microsoft Dynamics NAV 2015" section in the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Help in the MSDN Library.[!INCLUDE[endhtm](../Token/endhtm_md.md)]  
+ This document details new features and functionality that are available in BROKEN-INCLUDE-navcorfu](../dynamics-nav/includes/navcorfu_md.md)] and have been added to the product since [!INCLUDE[navcrete](../dynamics-nav/includes/navcrete_md.md)]. It also describes features that have been deprecated since [!INCLUDE[navcrete](../dynamics-nav/includes/navcrete_md.md)]. [!INCLUDE[startchm](../Token/startchm_md.md)]For information about [!INCLUDE[navcrete](../dynamics-nav/includes/navcrete_md.md)], see [What's New: Developer and IT Pro Changes for Microsoft Dynamics NAV 2015](http://msdn.microsoft.com/en-us/library/hh174007\(v=nav.80\).aspx) in the MSDN Library. [!INCLUDE[endchmFor more information, see the "What's New: Developer and IT Pro Changes for Microsoft Dynamics NAV 2015" section in the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Help in the MSDN Library.  
   
 ## What's New for Developers, Administrators, and IT Pros in [!INCLUDE[navcorfu](../dynamics-nav/includes/navcorfu_md.md)]  
  [!INCLUDE[navcorfu](../dynamics-nav/includes/navcorfu_md.md)] introduces changes to the upgrade, development, deployment, and administration experiences compared to [!INCLUDE[navcrete](../dynamics-nav/includes/navcrete_md.md)].  
@@ -27,9 +27,9 @@ manager: terryaus
 ### Record Permissions and Apply Permissions Sets to User Groups  
  Administrators can record new permission sets in [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)]. Recording permissions is based on the code coverage functionality. You can access the various windows and activities in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] or the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] that you want users with this permission set to access. You must carry out the tasks that you want to record permissions for. Then, you can apply the new permission set to a group of users.  
   
- [!INCLUDE[startchm](../Token/startchm_md.md)] For more information, see [User Groups](../Topic/User%20Groups.md) and [How to: Create or Modify Permission Sets](../Topic/How%20to:%20Create%20or%20Modify%20Permission%20Sets.md).[!INCLUDE[endchm]()]  
+ BROKEN-INCLUDE-startchm](../Token/startchm_md.md)] For more information, see [User Groups](../Topic/User%20Groups.md) and [How to: Create or Modify Permission Sets](../Topic/How%20to:%20Create%20or%20Modify%20Permission%20Sets.md).[!INCLUDE[endchm  
   
- [!INCLUDE[starthtm](../Token/starthtm_md.md)] For more information, see the [User Groups](../Topic/User%20Groups.md) topic in the Application Help and the [How to: Create or Modify Permission Sets](../Topic/How%20to:%20Create%20or%20Modify%20Permission%20Sets.md) topic in the Developer and IT Pro Help.[!INCLUDE[endhtm](../Token/endhtm_md.md)]  
+ For more information, see the [User Groups](../Topic/User%20Groups.md) topic in the Application Help and the [How to: Create or Modify Permission Sets](../Topic/How%20to:%20Create%20or%20Modify%20Permission%20Sets.md) topic in the Developer and IT Pro Help.  
   
 ### Events in C\/AL  
  By implementing events in C\/AL code, you can design applications to react to specific actions or behavior that occur. Events enable you to separate customized functionality from the application business logic. By using events in the application where customizations are typically made, you can lower the cost of code modifications and upgrades to the original application.  
@@ -47,14 +47,14 @@ manager: terryaus
   
 -   You can use *FilterXpath* parameter of the Get\-WinEvent Windows PowerShell cmdlet to filter events for a specific [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance.  
   
- [!INCLUDE[startchm](../Token/startchm_md.md)]For more information, see [Monitoring Microsoft Dynamics NAV Server Events](../dynamics-nav/Monitoring-Microsoft-Dynamics-NAV-Server-Events.md).[!INCLUDE[endchm]()][!INCLUDE[starthtm](../Token/starthtm_md.md)]For more information, see the "Monitoring Microsoft Dynamics NAV Server Events" topic in the Developer and IT Pro Help.[!INCLUDE[endhtm](../Token/endhtm_md.md)]  
+ BROKEN-INCLUDE-startchm](../Token/startchm_md.md)]For more information, see [Monitoring Microsoft Dynamics NAV Server Events](../dynamics-nav/Monitoring-Microsoft-Dynamics-NAV-Server-Events.md).[!INCLUDE[endchmFor more information, see the "Monitoring Microsoft Dynamics NAV Server Events" topic in the Developer and IT Pro Help.  
   
 ### Multiple Namespaces on XMLports  
  You can define multiple namespaces on XMLports that import or export data as XML. This improves the ability to create XMLports that are compatible with the XML schemas that are used by the systems that consume or provide the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] data.  
   
  You define namespaces in the new [Namespaces Property](../dynamics-nav/Namespaces-Property.md) of the XMLport object. Each namespace is defined by a prefix and the namespace, which is typically a URI \(uniform Resource Identifier\). You then apply the prefix to specific elements of the XMLport by setting the new [NamespacePrefix Property](../dynamics-nav/NamespacePrefix-Property.md).  
   
- [!INCLUDE[startchm](../Token/startchm_md.md)]For more information, see [!INCLUDE[endchm]()][Using Namespaces with XMLports](../dynamics-nav/Using-Namespaces-with-XMLports.md).[!INCLUDE[starthtm](../Token/starthtm_md.md)]For more information, see the "Using Namespaces with XMLports" topic in the Developer and IT Pro Help.[!INCLUDE[endhtm](../Token/endhtm_md.md)]  
+ BROKEN-INCLUDE-startchm](../Token/startchm_md.md)]For more information, see [!INCLUDE[endchm[Using Namespaces with XMLports](../dynamics-nav/Using-Namespaces-with-XMLports.md).For more information, see the "Using Namespaces with XMLports" topic in the Developer and IT Pro Help.  
   
 ### Updating Custom Report Layouts by Using Upgrade Codeunits  
  You can update custom report layouts by creating upgrade codeunits to handle changes in report datasets that affect the report layouts. Upgrade codeunits enable you to programmatically update multiple custom report layouts in the database to changes in report datasets that cannot be resolved by users from the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] client. For more information, see [Updating Custom Report Layouts by Using Upgrade Codeunits](../dynamics-nav/Updating-Custom-Report-Layouts-by-Using-Upgrade-Codeunits.md).  
@@ -85,7 +85,7 @@ manager: terryaus
   
 -   **Table Metadata** virtual table  
   
- [!INCLUDE[startchm](../Token/startchm_md.md)]For more information, see [!INCLUDE[endchm]()][Virtual Tables](../dynamics-nav/Virtual-Tables.md)[!INCLUDE[starthtm](../Token/starthtm_md.md)]For more information, see the "Virtual Tables" topic in the Developer and IT Pro Help.[!INCLUDE[endhtm](../Token/endhtm_md.md)]  
+ BROKEN-INCLUDE-startchm](../Token/startchm_md.md)]For more information, see [!INCLUDE[endchm[Virtual Tables](../dynamics-nav/Virtual-Tables.md)For more information, see the "Virtual Tables" topic in the Developer and IT Pro Help.  
   
 ### New CLIENTTYPE Options Added  
  With[!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] the `CLIENTTYPE` function has been expanded to support [!INCLUDE[nav_tablet](../dynamics-nav/includes/nav_tablet_md.md)], [!INCLUDE[nav_phone](../dynamics-nav/includes/nav_phone_md.md)] and running the app in [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], which is Desktop mode. This allows showing, for example, pages differently depending on the display target. For more information, see [CURRENTCLIENTTYPE Function](../dynamics-nav/CURRENTCLIENTTYPE-Function.md) and [DEFAULTCLIENTTYPE Function](../dynamics-nav/DEFAULTCLIENTTYPE-Function.md).  
@@ -112,7 +112,7 @@ manager: terryaus
   
  [!INCLUDE[navcorfu](../dynamics-nav/includes/navcorfu_md.md)] includes a default integration setup that is supported by several objects, including tables, pages, and codeunits. You can customize these objects to extend the integration to other [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] entities and change processes like synchronization.  
   
- For more information, see [Integrating Microsoft Dynamics CRM in Microsoft Dynamics NAV](../Topic/Integrating%20Microsoft%20Dynamics%20CRM%20in%20Microsoft%20Dynamics%20NAV.md) .[!INCLUDE[endchm]()] and [Customizing Dynamics CRM and Dynamics NAV Integration](../dynamics-nav/Customizing-Dynamics-CRM-and-Dynamics-NAV-Integration.md).  
+ For more information, see [Integrating Microsoft Dynamics CRM in Microsoft Dynamics NAV](../Topic/Integrating%20Microsoft%20Dynamics%20CRM%20in%20Microsoft%20Dynamics%20NAV.md) .BROKEN-INCLUDE-endchm and [Customizing Dynamics CRM and Dynamics NAV Integration](../dynamics-nav/Customizing-Dynamics-CRM-and-Dynamics-NAV-Integration.md).  
   
 ### Additional Numeric Data Types Supported in Aggregations by Queries, FlowFields, and SIFT  
  In earlier versions of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], data aggregations \(such as sum and average\) on tables by Query objects, FlowFields, and SumIndexField Technology could only be done on **Decimal** data type fields. With [!INCLUDE[navcorfu](../dynamics-nav/includes/navcorfu_md.md)] you can use **Decimal**, **Integer**, **BigInteger**, and **Duration** data types in aggregations.  
@@ -168,7 +168,7 @@ manager: terryaus
  When you compile application objects, [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] stores the objects in Unicode encoding. If the application objects contain multilanguage captions, [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] uses the code pages that are relevant for the languages that you have specified. For more information, see [Developing Multilanguage\-Enabled Applications](../dynamics-nav/Developing-Multilanguage-Enabled-Applications.md).  
   
 ## Changes to C\/AL Functions, Data Types, Properties, and Triggers in [!INCLUDE[navcorfu](../dynamics-nav/includes/navcorfu_md.md)]  
- [!INCLUDE[startchm](../Token/startchm_md.md)]For a list of changes to C\/AL functions, data types, properties, and triggers, see [Changes in C\-AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV](../dynamics-nav/Changes-in-C-AL-Behavior-and-Support-from-Earlier-Versions-of-Microsoft-Dynamics-NAV.md). [!INCLUDE[endchm]()][!INCLUDE[starthtm](../Token/starthtm_md.md)]For a list of changes to C\/AL functions, data types, properties, and triggers, see the "Changes in C\/AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV" topic in the Developer and IT Pro Help.[!INCLUDE[endhtm](../Token/endhtm_md.md)]  
+ BROKEN-INCLUDE-startchm](../Token/startchm_md.md)]For a list of changes to C\/AL functions, data types, properties, and triggers, see [Changes in C\-AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV](../dynamics-nav/Changes-in-C-AL-Behavior-and-Support-from-Earlier-Versions-of-Microsoft-Dynamics-NAV.md). [!INCLUDE[endchmFor a list of changes to C\/AL functions, data types, properties, and triggers, see the "Changes in C\/AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV" topic in the Developer and IT Pro Help.  
   
 ## Changes to [!INCLUDE[nav_shell](../dynamics-nav/includes/nav_shell_md.md)] and [!INCLUDE[nav_dev_shell](../dynamics-nav/includes/nav_dev_shell_md.md)] cmdlets  
  For a list of new, changed, or removed Windows PowerShell cmdlets, see [Changes to Microsoft Dynamics NAV Cmdlets From Previous Release](../dynamics-nav/Changes-to-Microsoft-Dynamics-NAV-Cmdlets-From-Previous-Release.md).  

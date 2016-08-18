@@ -1,4 +1,4 @@
----
+﻿---
 title: "Walkthrough: Customizing Microsoft Dynamics CRM Integration in Dynamics NAV"
 ms.custom: na
 ms.date: 06/05/2016
@@ -77,7 +77,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](../
      You can compile the object by using the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)] or by using finsql.exe. For more information, see [Importing and Exporting Objects](../dynamics-nav/Importing-and-Exporting-Objects.md).  
   
 ## Creating a Page for Displaying Dynamics CRM Data  
- For scenarios where you want to view [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] data for a specific entity, you can create a page object that uses the integration table for the [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] entity as its source. For example, you might want to have a page that displays a list of the current records in a [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] entity. In this walkthrough, you will create a list page that uses table [!INCLUDE[50001 CRM Campaigns]()] as its source.  
+ For scenarios where you want to view BROKEN-INCLUDE-crm](../dynamics-nav/includes/crm_md.md)] data for a specific entity, you can create a page object that uses the integration table for the [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] entity as its source. For example, you might want to have a page that displays a list of the current records in a [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] entity. In this walkthrough, you will create a list page that uses table [!INCLUDE[50001 CRM Campaigns as its source.  
   
 #### To create a list page to display Dynamics CRM campaigns  
   

@@ -1,4 +1,4 @@
----
+﻿---
 title: "How to: Create an Extension Package"
 ms.custom: na
 ms.date: 06/05/2016
@@ -14,7 +14,7 @@ When you have developed a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.m
   
 ### To create the extension manifest  
   
--   The extension manifest describes characteristics about your extension. All characteristics have a parameter in the [!INCLUDE[wps_2](../dynamics-nav/includes/wps_2_md.md)] cmdlet that you use to create the manifest, [!INCLUDE[New-NAVAppManifest]()]. The following table describes the data in the manifest:  
+-   The extension manifest describes characteristics about your extension. All characteristics have a parameter in the BROKEN-INCLUDE-wps_2](../dynamics-nav/includes/wps_2_md.md)] cmdlet that you use to create the manifest, [!INCLUDE[New-NAVAppManifest. The following table describes the data in the manifest:  
   
     |Data|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
     |----------|---------------------------------------|  
@@ -35,13 +35,13 @@ When you have developed a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.m
     New-NAVAppManifest -Name "Proseware SmartStuff" -Publisher "Proseware, Inc." -Version "1.5.0.12"  
     ```  
   
-     You can either persist this object to a file and then check it in to source control by using `New-NAVAppManifestFile`, or you can pass it directly to [!INCLUDE[New-NAVAppPackage]()] as described in the next step.  
+     You can either persist this object to a file and then check it in to source control by using `New-NAVAppManifestFile`, or you can pass it directly to BROKEN-INCLUDE-New-NAVAppPackage as described in the next step.  
   
     ```  
     New-NAVAppManifest -Name "Proseware SmartStuff" -Publisher "Proseware, Inc." -Version "1.5.0.12" | New-NavAppManifestFile -Path proseware.xml  
     ```  
   
-     Related cmdlets are [!INCLUDE[Get-NAVAppManifest]()] and [!INCLUDE[Set-NAVAppManifest]()]. For more information, use the Get\-Help command in the [!INCLUDE[nav_dev_shell](../dynamics-nav/includes/nav_dev_shell_md.md)].  
+     Related cmdlets are BROKEN-INCLUDE-Get-NAVAppManifest and BROKEN-INCLUDE-Set-NAVAppManifest. For more information, use the Get\-Help command in the [!INCLUDE[nav_dev_shell](../dynamics-nav/includes/nav_dev_shell_md.md)].  
   
     > [!TIP]  
     >  For any [!INCLUDE[wps_2](../dynamics-nav/includes/wps_2_md.md)] cmdlet, you can get help and sample usages, such as the following command:  
@@ -52,7 +52,7 @@ When you have developed a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.m
   
 ### To retrieve permission sets for the extension  
   
--   Use the [!INCLUDE[Export-NAVAppPermissionSet]()] cmdlet to export any permission sets that you have created for the extension as shown in the following example.  
+-   Use the BROKEN-INCLUDE-Export-NAVAppPermissionSet cmdlet to export any permission sets that you have created for the extension as shown in the following example.  
   
     ```  
     Export-NAVAppPermissionSet -ServerInstance DynamicsNAVServer -Path ProsewarePerm.xml -PermissionSetId 12  
