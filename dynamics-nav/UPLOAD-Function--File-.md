@@ -1,12 +1,12 @@
 ---
-title:"UPLOAD Function (File)"
+title: "UPLOAD Function (File)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 0da8d4ad-82cd-4906-9faa-e49e360262b9
 caps.latest.revision: 24
 manager: edupont

@@ -1,12 +1,12 @@
 ---
-title:"Creating and Running Hyperlinks"
+title: "Creating and Running Hyperlinks"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 89785500-355e-4971-bd57-0410814d7417
 caps.latest.revision: 41
 manager: edupont

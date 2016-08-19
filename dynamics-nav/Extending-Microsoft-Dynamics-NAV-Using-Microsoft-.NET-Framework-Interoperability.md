@@ -1,12 +1,12 @@
 ---
-title:"Extending Microsoft Dynamics NAV Using Microsoft .NET Framework Interoperability"
+title: "Extending Microsoft Dynamics NAV Using Microsoft .NET Framework Interoperability"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: a50931c9-ec89-4ce9-aabf-285fec341c69
 caps.latest.revision: 11
 manager: edupont

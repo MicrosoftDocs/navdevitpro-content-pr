@@ -1,12 +1,12 @@
 ---
-title:"INVOKE Function (TestPage Action)"
+title: "INVOKE Function (TestPage Action)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 83dda5c6-a608-49ca-9eb1-19f49c91088e
 caps.latest.revision: 4
 manager: edupont

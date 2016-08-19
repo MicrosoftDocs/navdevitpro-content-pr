@@ -1,12 +1,12 @@
 ---
-title:"How to: Add New Transaction Log Files"
+title: "How to: Add New Transaction Log Files"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 9e64e3b8-6702-4594-8fc4-ae74963c09e1
 caps.latest.revision: 8
 manager: edupont

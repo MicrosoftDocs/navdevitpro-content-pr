@@ -1,12 +1,12 @@
 ---
-title:"VALIDATE Function (FieldRef)"
+title: "VALIDATE Function (FieldRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: cd589e34-0250-47e7-825f-1b0b56361f14
 caps.latest.revision: 16
 manager: edupont

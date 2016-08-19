@@ -1,12 +1,12 @@
 ---
-title:"Preserving Data When Working with a Statically Generated Proxy"
+title: "Preserving Data When Working with a Statically Generated Proxy"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 03afd382-51a5-46c5-ba74-80a4b6d0f54c
 caps.latest.revision: 6
 manager: edupont

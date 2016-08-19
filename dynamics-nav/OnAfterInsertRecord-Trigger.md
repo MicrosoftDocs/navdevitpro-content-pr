@@ -1,12 +1,12 @@
 ---
-title:"OnAfterInsertRecord Trigger"
+title: "OnAfterInsertRecord Trigger"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 2dd18e75-4bbe-4e88-8f22-a5b064708bfd
 caps.latest.revision: 6
 manager: edupont

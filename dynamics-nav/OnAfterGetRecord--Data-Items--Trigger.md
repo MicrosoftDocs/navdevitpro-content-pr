@@ -1,12 +1,12 @@
 ---
-title:"OnAfterGetRecord (Data Items) Trigger"
+title: "OnAfterGetRecord (Data Items) Trigger"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 8a9b07b0-a006-4d74-93e3-ca82574952c3
 caps.latest.revision: 6
 manager: edupont

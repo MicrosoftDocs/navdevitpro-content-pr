@@ -1,12 +1,12 @@
 ---
-title:"RecordSeparator Property"
+title: "RecordSeparator Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 88f67ba0-2aa4-42c3-a6fb-f5546b31b22d
 caps.latest.revision: 10
 ---

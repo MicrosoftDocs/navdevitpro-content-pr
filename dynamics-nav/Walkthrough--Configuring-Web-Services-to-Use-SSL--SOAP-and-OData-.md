@@ -1,12 +1,12 @@
 ---
-title:"Walkthrough: Configuring Web Services to Use SSL (SOAP and OData)"
+title: "Walkthrough: Configuring Web Services to Use SSL (SOAP and OData)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: f4e77ab1-7418-46c0-842f-e8b68d927106
 caps.latest.revision: 63
 manager: edupont

@@ -1,12 +1,12 @@
 ---
-title:"COUNT Function (FilterPageBuilder)"
+title: "COUNT Function (FilterPageBuilder)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: ae7d1b03-4a3b-4cc5-b76f-ef8875dfe5b5
 caps.latest.revision: 3
 manager: edupont

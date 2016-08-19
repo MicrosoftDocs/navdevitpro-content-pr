@@ -1,12 +1,12 @@
 ---
-title:"($ S_2610 Control Number $)"
+title: "($ S_2610 Control Number $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 7979b8e0-0c9a-4fad-a633-966494855ac4
 caps.latest.revision: 5
 manager: edupont

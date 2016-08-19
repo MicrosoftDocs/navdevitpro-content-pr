@@ -1,12 +1,12 @@
 ---
-title:"CAPTION Function (TestPage)"
+title: "CAPTION Function (TestPage)"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 61e73712-b23b-4d4a-a376-1217999162a9
 caps.latest.revision: 2
 manager: edupont

@@ -1,12 +1,12 @@
 ---
-title:"IncludeSender Property"
+title: "IncludeSender Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 83d2305f-6d7c-44b7-9e63-897ebb81c4b5
 caps.latest.revision: 6
 manager: edupont

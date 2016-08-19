@@ -1,12 +1,12 @@
 ---
-title:"Designing MenuSuites"
+title: "Designing MenuSuites"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: d447aa5e-e9a3-40d2-9880-e0353debde31
 caps.latest.revision: 24
 manager: edupont

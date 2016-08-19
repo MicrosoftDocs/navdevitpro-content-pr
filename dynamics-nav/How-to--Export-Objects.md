@@ -1,12 +1,12 @@
 ---
-title:"How to: Export Objects"
+title: "How to: Export Objects"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 899abeac-1f26-4544-8806-03128865677d
 caps.latest.revision: 10
 manager: edupont

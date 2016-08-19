@@ -1,12 +1,12 @@
 ---
-title:"Walkthrough: Creating a Query to Link Three Tables"
+title: "Walkthrough: Creating a Query to Link Three Tables"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: b8433081-ff30-40eb-81a2-9832fb4caf56
 caps.latest.revision: 22
 manager: edupont

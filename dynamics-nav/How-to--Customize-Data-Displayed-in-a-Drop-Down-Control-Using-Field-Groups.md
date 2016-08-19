@@ -1,12 +1,12 @@
 ---
-title:"How to: Customize Data Displayed in a Drop-Down Control Using Field Groups"
+title: "How to: Customize Data Displayed in a Drop-Down Control Using Field Groups"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 27e06f03-185e-49d2-8c81-841ecf53ef28
 caps.latest.revision: 16
 manager: edupont

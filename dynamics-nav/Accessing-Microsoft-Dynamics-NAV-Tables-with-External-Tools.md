@@ -1,12 +1,12 @@
 ---
-title:"Accessing Microsoft Dynamics NAV Tables with External Tools"
+title: "Accessing Microsoft Dynamics NAV Tables with External Tools"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 78e80b89-f560-4ff2-98be-bb57afc42b33
 caps.latest.revision: 7
 manager: edupont

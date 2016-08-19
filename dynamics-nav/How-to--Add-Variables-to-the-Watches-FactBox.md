@@ -1,12 +1,12 @@
 ---
-title:"How to: Add Variables to the Watches FactBox"
+title: "How to: Add Variables to the Watches FactBox"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: adb2feaa-d2ff-4112-a8ab-d14afeafcc62
 caps.latest.revision: 10
 manager: edupont

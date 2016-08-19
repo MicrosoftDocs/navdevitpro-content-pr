@@ -1,12 +1,12 @@
 ---
-title:"STRSUBSTNO Function (Code, Text)"
+title: "STRSUBSTNO Function (Code, Text)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 11f92b63-3130-468e-94f7-0e34c6a44a0f
 caps.latest.revision: 14
 manager: edupont

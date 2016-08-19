@@ -1,12 +1,12 @@
 ---
-title:"BigInteger Data Type"
+title: "BigInteger Data Type"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 227f707b-04f6-47c6-9feb-0fb9499d11e5
 caps.latest.revision: 9
 manager: edupont

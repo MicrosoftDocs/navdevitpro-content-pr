@@ -1,12 +1,12 @@
 ---
-title:"SETCURRENTKEY, SETRANGE, SETFILTER, GETRANGEMIN, and GETRANGEMAX Functions"
+title: "SETCURRENTKEY, SETRANGE, SETFILTER, GETRANGEMIN, and GETRANGEMAX Functions"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 236dee86-1860-4d99-87dd-b30a30ae616e
 caps.latest.revision: 10
 manager: edupont

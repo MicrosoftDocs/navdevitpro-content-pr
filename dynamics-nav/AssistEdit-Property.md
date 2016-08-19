@@ -1,12 +1,12 @@
 ---
-title:"AssistEdit Property"
+title: "AssistEdit Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: dd671414-a7c3-44bd-a860-a8bda61c7913
 caps.latest.revision: 15
 manager: edupont

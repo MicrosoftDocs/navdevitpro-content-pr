@@ -1,12 +1,12 @@
 ---
-title:"How to: Administer a Remote Microsoft Dynamics NAV Server Computer"
+title: "How to: Administer a Remote Microsoft Dynamics NAV Server Computer"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 11c18e22-79be-49d4-b068-c5d664665824
 caps.latest.revision: 10
 manager: edupont

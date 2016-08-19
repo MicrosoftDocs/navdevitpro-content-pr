@@ -1,12 +1,12 @@
 ---
-title:"Best Practices with Microsoft Dynamics NAV Events"
+title: "Best Practices with Microsoft Dynamics NAV Events"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 25f6e021-c8fd-4235-8f76-7de7798a20aa
 caps.latest.revision: 3
 manager: edupont

@@ -1,12 +1,12 @@
 ---
-title:"Adding Languages to Microsoft Dynamics NAV"
+title: "Adding Languages to Microsoft Dynamics NAV"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: c56b9a90-1ec8-43ea-aeef-1b37ec423740
 caps.latest.revision: 3
 ---

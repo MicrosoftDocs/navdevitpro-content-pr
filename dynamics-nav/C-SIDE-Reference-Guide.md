@@ -1,12 +1,12 @@
 ---
-title:"C-SIDE Reference Guide"
+title: "C-SIDE Reference Guide"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: d60655a7-3e9b-4577-a2e3-d12427a656c2
 caps.latest.revision: 16
 manager: edupont

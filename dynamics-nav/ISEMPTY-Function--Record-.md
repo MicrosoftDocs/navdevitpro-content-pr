@@ -1,12 +1,12 @@
 ---
-title:"ISEMPTY Function (Record)"
+title: "ISEMPTY Function (Record)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: cec48300-a0c5-4e44-8792-f07dc4dc7e37
 caps.latest.revision: 14
 ---

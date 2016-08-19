@@ -1,12 +1,12 @@
 ---
-title:"CLOSE Function (TestPage)"
+title: "CLOSE Function (TestPage)"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: dd7af6bb-ad6b-4611-bdc0-fb532cdc977a
 caps.latest.revision: 9
 manager: edupont

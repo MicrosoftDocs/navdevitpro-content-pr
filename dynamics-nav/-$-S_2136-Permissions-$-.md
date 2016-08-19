@@ -1,12 +1,12 @@
 ---
-title:"($ S_2136 Permissions $)"
+title: "($ S_2136 Permissions $)"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 96406b96-2bd2-4d43-a38e-878531fa5881
 caps.latest.revision: 6
 manager: edupont

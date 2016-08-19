@@ -1,12 +1,12 @@
 ---
-title:"How to: Use a Timestamp Field"
+title: "How to: Use a Timestamp Field"
 ms.custom: na
 ms.date: 07/20/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: d551118d-e8fd-40ab-bc08-c920b611ef8f
 caps.latest.revision: 4
 manager: edupont

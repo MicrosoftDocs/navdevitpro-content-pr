@@ -1,12 +1,12 @@
 ---
-title:"How to: Export and Import Companies and Other Data using Windows PowerShell Cmdlets"
+title: "How to: Export and Import Companies and Other Data using Windows PowerShell Cmdlets"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 0bfc949f-b334-4f06-8612-a611324ecd40
 caps.latest.revision: 8
 ---

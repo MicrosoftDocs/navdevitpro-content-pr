@@ -1,12 +1,12 @@
 ---
-title:"DT2DATE Function (DateTime)"
+title: "DT2DATE Function (DateTime)"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: c8e6bf9e-4098-4b51-96c7-d16e12a0cddf
 caps.latest.revision: 8
 manager: edupont

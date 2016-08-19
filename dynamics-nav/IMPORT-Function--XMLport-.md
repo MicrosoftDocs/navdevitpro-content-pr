@@ -1,12 +1,12 @@
 ---
-title:"IMPORT Function (XMLport)"
+title: "IMPORT Function (XMLport)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 61f13caf-681c-4ec0-8f03-021074e7c4dc
 caps.latest.revision: 12
 ---

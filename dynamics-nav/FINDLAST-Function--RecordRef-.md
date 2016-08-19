@@ -1,12 +1,12 @@
 ---
-title:"FINDLAST Function (RecordRef)"
+title: "FINDLAST Function (RecordRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 730062d7-0530-46a7-9cbf-cad9d7732bbd
 caps.latest.revision: 13
 manager: edupont

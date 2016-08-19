@@ -1,12 +1,12 @@
 ---
-title:"Web Service Walkthroughs"
+title: "Web Service Walkthroughs"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: b88e63f4-1988-413f-96fe-e76625108bf4
 caps.latest.revision: 15
 manager: edupont

@@ -1,12 +1,12 @@
 ---
-title:"How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client"
+title: "How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: bc2f7671-799c-489a-8901-3c1303eebf76
 caps.latest.revision: 6
 manager: edupont

@@ -1,12 +1,12 @@
 ---
-title:"Windows Language Virtual Table"
+title: "Windows Language Virtual Table"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 7e768229-1dd4-41b6-9acb-5857142f4d88
 caps.latest.revision: 9
 manager: edupont

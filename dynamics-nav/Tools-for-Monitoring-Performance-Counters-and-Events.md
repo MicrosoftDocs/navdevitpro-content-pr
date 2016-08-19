@@ -1,12 +1,12 @@
 ---
-title:"Tools for Monitoring Performance Counters and Events"
+title: "Tools for Monitoring Performance Counters and Events"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 9093c5f4-a594-4b70-90f3-2be0e1c13abd
 caps.latest.revision: 14
 ---

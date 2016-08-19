@@ -1,12 +1,12 @@
 ---
-title:"ERASE Function (File)"
+title: "ERASE Function (File)"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 29e195c8-557d-43a7-b416-37c2ec246cfc
 caps.latest.revision: 13
 ---

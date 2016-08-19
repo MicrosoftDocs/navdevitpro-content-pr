@@ -1,12 +1,12 @@
 ---
-title:"How to: Create an RDLC Report Layout"
+title: "How to: Create an RDLC Report Layout"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 0ccd332a-db93-454f-9d92-c3368d4c7010
 caps.latest.revision: 5
 manager: edupont

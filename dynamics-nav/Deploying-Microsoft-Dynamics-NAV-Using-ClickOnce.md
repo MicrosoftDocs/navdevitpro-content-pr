@@ -1,12 +1,12 @@
 ---
-title:"Deploying Microsoft Dynamics NAV Using ClickOnce"
+title: "Deploying Microsoft Dynamics NAV Using ClickOnce"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 0a6f16fb-07fe-4c2f-9986-5633d31d1c60
 caps.latest.revision: 42
 manager: edupont

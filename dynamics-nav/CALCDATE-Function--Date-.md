@@ -1,12 +1,12 @@
 ---
-title:"CALCDATE Function (Date)"
+title: "CALCDATE Function (Date)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: c5b62613-565d-47ed-b47b-1c734a599d65
 caps.latest.revision: 20
 manager: edupont

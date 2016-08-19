@@ -1,12 +1,12 @@
 ---
-title:"Progress Windows, MESSAGE, ERROR, and CONFIRM Functions"
+title: "Progress Windows, MESSAGE, ERROR, and CONFIRM Functions"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 5d2c7db2-fc8b-46e1-a1c3-2be06f806258
 caps.latest.revision: 17
 ---

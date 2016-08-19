@@ -1,12 +1,12 @@
 ---
-title:"Walkthrough: Creating a Worksheet Page"
+title: "Walkthrough: Creating a Worksheet Page"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: b5a9ec61-2a4a-446b-8c59-62fe477a7c31
 caps.latest.revision: 51
 manager: edupont

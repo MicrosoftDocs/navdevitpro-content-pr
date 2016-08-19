@@ -1,12 +1,12 @@
 ---
-title:"Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File"
+title: "Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: c567ece6-d745-4056-ba92-2d548cdc95d7
 caps.latest.revision: 41
 manager: edupont

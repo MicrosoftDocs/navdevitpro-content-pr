@@ -1,12 +1,12 @@
 ---
-title:"ADCS Overview"
+title: "ADCS Overview"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: db78a300-f506-4edf-9e6d-f8507969d6cb
 caps.latest.revision: 8
 manager: edupont

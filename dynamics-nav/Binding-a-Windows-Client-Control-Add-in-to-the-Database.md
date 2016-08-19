@@ -1,12 +1,12 @@
 ---
-title:"Binding a Windows Client Control Add-in to the Database"
+title: "Binding a Windows Client Control Add-in to the Database"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 6a587bf8-4eeb-40e9-809a-95643842e90f
 caps.latest.revision: 24
 manager: edupont

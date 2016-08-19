@@ -1,12 +1,12 @@
 ---
-title:"Understanding Codeunits"
+title: "Understanding Codeunits"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: ba64befb-057a-4236-98f1-64093d5ef1e0
 caps.latest.revision: 9
 manager: edupont

@@ -1,12 +1,12 @@
 ---
-title:"Integrating Microsoft Dynamics NAV in SharePoint Sites"
+title: "Integrating Microsoft Dynamics NAV in SharePoint Sites"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: bf55f101-a925-4b56-9968-c4607522f965
 caps.latest.revision: 24
 ---

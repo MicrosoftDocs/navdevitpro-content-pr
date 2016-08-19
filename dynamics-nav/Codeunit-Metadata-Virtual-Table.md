@@ -1,12 +1,12 @@
 ---
-title:"Codeunit Metadata Virtual Table"
+title: "Codeunit Metadata Virtual Table"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 6474c6f9-115a-42e3-944c-153b14d32e67
 caps.latest.revision: 4
 manager: edupont

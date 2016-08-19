@@ -1,12 +1,12 @@
 ---
-title:"How to: Create a Data Collector Set From the Microsoft Dynamics NAV Template"
+title: "How to: Create a Data Collector Set From the Microsoft Dynamics NAV Template"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: d1c5bdd0-a254-4cd9-8784-3590918398a3
 caps.latest.revision: 11
 ---

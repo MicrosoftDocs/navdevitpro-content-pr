@@ -1,12 +1,12 @@
 ---
-title:"How to: Use SystemService to Find Companies"
+title: "How to: Use SystemService to Find Companies"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 317e9a6d-581d-453a-b69b-70eba225df75
 caps.latest.revision: 30
 ---

@@ -1,12 +1,12 @@
 ---
-title:"How to: Lock an Object"
+title: "How to: Lock an Object"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: bc2d3bb2-9e29-4cec-8cc6-c12faa9c358e
 caps.latest.revision: 11
 manager: edupont

@@ -1,12 +1,12 @@
 ---
-title:"ShowMandatory Property"
+title: "ShowMandatory Property"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 1efce3ed-69c2-4655-b499-8e30b4d35ea9
 caps.latest.revision: 11
 manager: edupont

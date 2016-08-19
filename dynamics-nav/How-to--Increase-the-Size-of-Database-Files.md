@@ -1,12 +1,12 @@
 ---
-title:"How to: Increase the Size of Database Files"
+title: "How to: Increase the Size of Database Files"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: ddf5bdf8-cbb1-4d27-97af-4d6217597549
 caps.latest.revision: 6
 manager: edupont

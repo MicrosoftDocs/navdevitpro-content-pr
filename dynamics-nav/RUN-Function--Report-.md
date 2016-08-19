@@ -1,12 +1,12 @@
 ---
-title:"RUN Function (Report)"
+title: "RUN Function (Report)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: d707fe21-fedc-4593-8987-14ce3f14a5ba
 caps.latest.revision: 13
 manager: edupont

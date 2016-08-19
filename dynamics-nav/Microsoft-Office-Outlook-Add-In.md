@@ -1,12 +1,12 @@
 ---
-title:"Microsoft Office Outlook Add-In"
+title: "Microsoft Office Outlook Add-In"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: f6b7668b-f925-4349-8729-46ea29210a94
 caps.latest.revision: 13
 manager: edupont

@@ -1,12 +1,12 @@
 ---
-title:"Updating Report Layouts to Dataset Changes"
+title: "Updating Report Layouts to Dataset Changes"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: c0d73d5e-61dc-4a86-9976-56e7a3056f34
 caps.latest.revision: 10
 ---

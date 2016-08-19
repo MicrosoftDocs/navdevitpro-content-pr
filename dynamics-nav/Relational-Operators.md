@@ -1,12 +1,12 @@
 ---
-title:"Relational Operators"
+title: "Relational Operators"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 2cada4c5-4ded-4dc5-8e01-c936d4fe0961
 caps.latest.revision: 8
 manager: edupont

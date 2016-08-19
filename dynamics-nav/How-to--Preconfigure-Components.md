@@ -1,12 +1,12 @@
 ---
-title:"How to: Preconfigure Components"
+title: "How to: Preconfigure Components"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 511d8c03-364b-4595-a11e-4cfa6710d92c
 caps.latest.revision: 21
 manager: edupont

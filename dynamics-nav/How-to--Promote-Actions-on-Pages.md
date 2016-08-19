@@ -1,12 +1,12 @@
 ---
-title:"How to: Promote Actions on Pages"
+title: "How to: Promote Actions on Pages"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: dbea328b-8093-4ce6-ba89-71e79b647370
 caps.latest.revision: 23
 manager: edupont

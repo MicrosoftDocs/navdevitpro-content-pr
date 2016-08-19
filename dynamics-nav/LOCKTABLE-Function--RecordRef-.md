@@ -1,12 +1,12 @@
 ---
-title:"LOCKTABLE Function (RecordRef)"
+title: "LOCKTABLE Function (RecordRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 9aec85a8-3284-4819-bba0-7d0183c8e4e7
 caps.latest.revision: 11
 manager: edupont

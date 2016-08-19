@@ -1,12 +1,12 @@
 ---
-title:"Monitoring Microsoft Dynamics NAV Server Using Performance Counters"
+title: "Monitoring Microsoft Dynamics NAV Server Using Performance Counters"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: b6ca81a4-62f2-4806-b2d8-3c0a0e969a46
 caps.latest.revision: 6
 ---

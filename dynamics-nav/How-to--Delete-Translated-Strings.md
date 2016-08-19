@@ -1,12 +1,12 @@
 ---
-title:"How to: Delete Translated Strings"
+title: "How to: Delete Translated Strings"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 72a94bea-81df-41c9-b4e6-a7b0276aa65b
 caps.latest.revision: 16
 manager: edupont

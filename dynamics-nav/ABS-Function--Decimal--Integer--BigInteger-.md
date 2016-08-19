@@ -1,12 +1,12 @@
 ---
-title:"ABS Function (Decimal, Integer, BigInteger)"
+title: "ABS Function (Decimal, Integer, BigInteger)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 36cfc0e3-ee2b-45a9-a528-7ac6067fd146
 caps.latest.revision: 7
 ---

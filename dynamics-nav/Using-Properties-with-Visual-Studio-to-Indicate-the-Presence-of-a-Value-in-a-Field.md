@@ -1,12 +1,12 @@
 ---
-title:"Using Properties with Visual Studio to Indicate the Presence of a Value in a Field"
+title: "Using Properties with Visual Studio to Indicate the Presence of a Value in a Field"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 485de847-0e22-4fb6-a1f5-b82b7a38043b
 caps.latest.revision: 6
 manager: edupont

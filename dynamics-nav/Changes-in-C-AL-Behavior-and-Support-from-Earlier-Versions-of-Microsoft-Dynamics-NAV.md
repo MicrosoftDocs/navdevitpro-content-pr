@@ -1,12 +1,12 @@
 ---
-title:"Changes in C-AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV"
+title: "Changes in C-AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 786f53bd-ded3-4273-9b3a-b76ab9d1ce61
 caps.latest.revision: 89
 manager: edupont

@@ -1,12 +1,12 @@
 ---
-title:"Microsoft Dynamics NAV Server Administration Tool"
+title: "Microsoft Dynamics NAV Server Administration Tool"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 2d721218-fa9e-4140-bca3-c479438e8212
 caps.latest.revision: 30
 manager: edupont

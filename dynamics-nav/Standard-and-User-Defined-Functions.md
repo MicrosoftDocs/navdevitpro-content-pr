@@ -1,12 +1,12 @@
 ---
-title:"Standard and User-Defined Functions"
+title: "Standard and User-Defined Functions"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 6e2a93c7-e6a0-429f-8118-54cd100ea342
 caps.latest.revision: 17
 manager: edupont

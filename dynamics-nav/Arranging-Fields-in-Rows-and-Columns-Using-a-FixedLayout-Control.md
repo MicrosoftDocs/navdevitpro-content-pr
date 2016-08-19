@@ -1,12 +1,12 @@
 ---
-title:"Arranging Fields in Rows and Columns Using a FixedLayout Control"
+title: "Arranging Fields in Rows and Columns Using a FixedLayout Control"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 71cfa27c-b7c5-4d34-8ff2-618eae92dded
 caps.latest.revision: 13
 manager: edupont

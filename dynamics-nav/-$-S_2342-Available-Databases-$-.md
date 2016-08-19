@@ -1,12 +1,12 @@
 ---
-title:"($ S_2342 Available Databases $)"
+title: "($ S_2342 Available Databases $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 63035dba-0101-45f0-b502-ab4da8fc146a
 caps.latest.revision: 6
 manager: edupont

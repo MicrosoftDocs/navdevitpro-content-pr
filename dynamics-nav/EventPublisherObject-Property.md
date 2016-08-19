@@ -1,12 +1,12 @@
 ---
-title:"EventPublisherObject Property"
+title: "EventPublisherObject Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 52162969-4523-4998-813c-341c63f65992
 caps.latest.revision: 5
 manager: edupont

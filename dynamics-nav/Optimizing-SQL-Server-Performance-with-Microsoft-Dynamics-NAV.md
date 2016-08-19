@@ -1,12 +1,12 @@
 ---
-title:"Optimizing SQL Server Performance with Microsoft Dynamics NAV"
+title: "Optimizing SQL Server Performance with Microsoft Dynamics NAV"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: e4c70172-b5bb-4649-a5cb-27fe0afd988c
 caps.latest.revision: 3
 manager: edupont

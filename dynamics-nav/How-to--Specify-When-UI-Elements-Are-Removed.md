@@ -1,12 +1,12 @@
 ---
-title:"How to: Specify When UI Elements Are Removed"
+title: "How to: Specify When UI Elements Are Removed"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: ec7d45fc-8a19-4c48-a983-97ef7ad7a8df
 caps.latest.revision: 26
 ---

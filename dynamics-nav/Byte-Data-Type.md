@@ -1,12 +1,12 @@
 ---
-title:"Byte Data Type"
+title: "Byte Data Type"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 66cf2909-97b3-4cf5-a3c9-8b8c55db553d
 caps.latest.revision: 3
 manager: edupont

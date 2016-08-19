@@ -1,12 +1,12 @@
 ---
-title:"Exposing Methods and Properties in a Windows Client Control Add-in"
+title: "Exposing Methods and Properties in a Windows Client Control Add-in"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 9f1b5e9e-4167-4d57-bb0f-498587530ec7
 caps.latest.revision: 18
 manager: edupont

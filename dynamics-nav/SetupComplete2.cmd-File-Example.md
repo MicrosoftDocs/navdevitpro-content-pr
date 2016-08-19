@@ -1,12 +1,12 @@
 ---
-title:"SetupComplete2.cmd File Example"
+title: "SetupComplete2.cmd File Example"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: a6484034-a4cc-4d11-9222-7ea6727c8770
 caps.latest.revision: 7
 manager: tsiggaar

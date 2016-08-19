@@ -1,12 +1,12 @@
 ---
-title:"How to: Create or Load a Setup Configuration File"
+title: "How to: Create or Load a Setup Configuration File"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: e153944c-015b-49ea-9a82-a4b462c5a103
 caps.latest.revision: 15
 manager: edupont

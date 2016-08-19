@@ -1,12 +1,12 @@
 ---
-title:"Pages Overview"
+title: "Pages Overview"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 0ba68a20-d83a-4e4c-9938-dac7fa8f5461
 caps.latest.revision: 35
 manager: edupont

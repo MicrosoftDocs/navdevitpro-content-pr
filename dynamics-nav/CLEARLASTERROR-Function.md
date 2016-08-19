@@ -1,12 +1,12 @@
 ---
-title:"CLEARLASTERROR Function"
+title: "CLEARLASTERROR Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 808e5173-2e31-4f8c-8b13-38c948b3690c
 caps.latest.revision: 10
 ---

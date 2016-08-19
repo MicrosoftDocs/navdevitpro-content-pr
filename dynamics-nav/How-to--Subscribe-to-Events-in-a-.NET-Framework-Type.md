@@ -1,12 +1,12 @@
 ---
-title:"How to: Subscribe to Events in a .NET Framework Type"
+title: "How to: Subscribe to Events in a .NET Framework Type"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: f8bf546a-c619-4c88-b570-1a56a5c581e6
 caps.latest.revision: 14
 manager: edupont

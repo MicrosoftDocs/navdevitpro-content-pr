@@ -1,12 +1,12 @@
 ---
-title:"STEPINTO Function (Debugger)"
+title: "STEPINTO Function (Debugger)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 63acfb1d-c14e-42a5-87fe-7ed401324647
 caps.latest.revision: 4
 manager: edupont

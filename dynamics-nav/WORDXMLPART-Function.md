@@ -1,12 +1,12 @@
 ---
-title:"WORDXMLPART Function"
+title: "WORDXMLPART Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: dec4ab66-1811-490b-9fb2-c4504a39d4f8
 caps.latest.revision: 19
 manager: edupont

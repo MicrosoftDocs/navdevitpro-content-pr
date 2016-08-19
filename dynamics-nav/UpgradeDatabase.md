@@ -1,12 +1,12 @@
 ---
-title:"UpgradeDatabase"
+title: "UpgradeDatabase"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 5ccd436d-5938-4fe5-b35e-4f7a39f215e8
 caps.latest.revision: 7
 ---

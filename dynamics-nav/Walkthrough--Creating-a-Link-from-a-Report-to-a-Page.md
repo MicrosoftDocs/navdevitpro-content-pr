@@ -1,12 +1,12 @@
 ---
-title:"Walkthrough: Creating a Link from a Report to a Page"
+title: "Walkthrough: Creating a Link from a Report to a Page"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: baafbe33-37a8-41e7-a8d8-dd1f90475984
 caps.latest.revision: 29
 manager: edupont

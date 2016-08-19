@@ -1,12 +1,12 @@
 ---
-title:"IMPORTSTREAM Function (Media)"
+title: "IMPORTSTREAM Function (Media)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 1f7164b2-338b-4121-8a10-749a534c6188
 caps.latest.revision: 8
 manager: edupont

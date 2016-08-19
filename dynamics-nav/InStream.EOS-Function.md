@@ -1,12 +1,12 @@
 ---
-title:"InStream.EOS Function"
+title: "InStream.EOS Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 17798d4c-d894-4d3b-9bb2-99e6d1ec5fff
 caps.latest.revision: 16
 ---

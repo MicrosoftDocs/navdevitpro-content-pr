@@ -1,12 +1,12 @@
 ---
-title:"Walkthrough: Inserting Data from XML Documents to Multiple Tables"
+title: "Walkthrough: Inserting Data from XML Documents to Multiple Tables"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 25a6a189-fd8e-4324-9f29-88af759716db
 caps.latest.revision: 23
 manager: edupont

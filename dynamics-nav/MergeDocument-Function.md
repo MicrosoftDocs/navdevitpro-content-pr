@@ -1,12 +1,12 @@
 ---
-title:"MergeDocument Function"
+title: "MergeDocument Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 8f07e5a8-72ed-46ef-bc5a-04089315c90a
 caps.latest.revision: 5
 manager: edupont

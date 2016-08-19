@@ -1,12 +1,12 @@
 ---
-title:"OnQueryClosePage Trigger"
+title: "OnQueryClosePage Trigger"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 820616a5-daa7-4819-8bf8-02f376ef806e
 caps.latest.revision: 14
 manager: edupont

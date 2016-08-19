@@ -1,12 +1,12 @@
 ---
-title:"FIELDINDEX Function (KeyRef)"
+title: "FIELDINDEX Function (KeyRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 8f2e7e16-93ab-4924-9ed6-64c85d6177d5
 caps.latest.revision: 13
 ---

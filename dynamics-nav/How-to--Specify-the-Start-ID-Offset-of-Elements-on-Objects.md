@@ -1,12 +1,12 @@
 ---
-title:"How to: Specify the Start ID Offset of Elements on Objects"
+title: "How to: Specify the Start ID Offset of Elements on Objects"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 36384b42-b80e-4d78-9af7-735f47b0f7e2
 caps.latest.revision: 5
 manager: edupont

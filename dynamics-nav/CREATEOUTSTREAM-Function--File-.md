@@ -1,12 +1,12 @@
 ---
-title:"CREATEOUTSTREAM Function (File)"
+title: "CREATEOUTSTREAM Function (File)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: ec9c0df4-30e3-4481-8710-6756178b4b19
 caps.latest.revision: 14
 ---

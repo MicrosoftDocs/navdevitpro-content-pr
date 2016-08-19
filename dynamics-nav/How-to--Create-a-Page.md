@@ -1,12 +1,12 @@
 ---
-title:"How to: Create a Page"
+title: "How to: Create a Page"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: a7d37590-e781-4c4d-8c71-beb3b93c44d7
 caps.latest.revision: 35
 manager: edupont

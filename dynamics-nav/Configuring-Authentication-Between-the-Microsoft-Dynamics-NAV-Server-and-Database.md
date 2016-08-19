@@ -1,12 +1,12 @@
 ---
-title:"Configuring Authentication Between the Microsoft Dynamics NAV Server and Database"
+title: "Configuring Authentication Between the Microsoft Dynamics NAV Server and Database"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: cf4c6d28-051f-4fb7-892e-4a588e66624c
 caps.latest.revision: 9
 manager: edupont

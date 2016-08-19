@@ -1,12 +1,12 @@
 ---
-title:"Boolean (Logical) Operators"
+title: "Boolean (Logical) Operators"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 83a42323-985c-4988-9229-1172dd043335
 caps.latest.revision: 7
 manager: edupont

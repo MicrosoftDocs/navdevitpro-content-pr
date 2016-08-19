@@ -1,12 +1,12 @@
 ---
-title:"COUNT Function (RecordRef)"
+title: "COUNT Function (RecordRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 0c799170-86f6-4cba-8982-4c4af850bf94
 caps.latest.revision: 15
 manager: edupont

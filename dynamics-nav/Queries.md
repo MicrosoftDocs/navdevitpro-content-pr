@@ -1,12 +1,12 @@
 ---
-title:"Queries"
+title: "Queries"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 14d0b7d7-c9e4-47e5-8113-908c39f864c9
 caps.latest.revision: 18
 manager: edupont

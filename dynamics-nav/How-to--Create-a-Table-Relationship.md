@@ -1,12 +1,12 @@
 ---
-title:"How to: Create a Table Relationship"
+title: "How to: Create a Table Relationship"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 265af3c3-7160-413d-8620-00c194bb1a4b
 caps.latest.revision: 8
 manager: edupont

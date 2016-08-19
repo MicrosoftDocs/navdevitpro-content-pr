@@ -1,12 +1,12 @@
 ---
-title:"How to: Connect a Microsoft Dynamics NAV Server Instance to a Database"
+title: "How to: Connect a Microsoft Dynamics NAV Server Instance to a Database"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: f98926cc-7881-47cf-9ee3-4fd526d4c200
 caps.latest.revision: 7
 manager: edupont

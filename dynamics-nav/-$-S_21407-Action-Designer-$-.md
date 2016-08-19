@@ -1,12 +1,12 @@
 ---
-title:"($ S_21407 Action Designer $)"
+title: "($ S_21407 Action Designer $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 3eff186e-b54a-478a-8c55-f303c53e27f3
 caps.latest.revision: 9
 manager: edupont

@@ -1,12 +1,12 @@
 ---
-title:"How to: Change Which Layout is Currently Used on a Report"
+title: "How to: Change Which Layout is Currently Used on a Report"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 7bb42186-1105-4c43-bb7a-cf0e2f5bdc03
 caps.latest.revision: 6
 manager: edupont

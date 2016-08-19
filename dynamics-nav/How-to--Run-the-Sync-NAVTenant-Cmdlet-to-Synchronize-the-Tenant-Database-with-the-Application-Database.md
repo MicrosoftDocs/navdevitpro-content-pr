@@ -1,12 +1,12 @@
 ---
-title:"How to: Run the Sync-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database"
+title: "How to: Run the Sync-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: dad134e4-d110-4eba-97af-3173471d6d50
 caps.latest.revision: 5
 manager: edupont

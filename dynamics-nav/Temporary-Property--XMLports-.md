@@ -1,12 +1,12 @@
 ---
-title:"Temporary Property (XMLports)"
+title: "Temporary Property (XMLports)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 75932773-71ea-4203-a7ad-3d24d3b79e42
 caps.latest.revision: 12
 manager: edupont
