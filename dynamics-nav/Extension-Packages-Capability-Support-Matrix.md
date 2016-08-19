@@ -1,11 +1,12 @@
 ---
-title: "Extension Packages Capability Support Matrix"
+title:"Extension Packages Capability Support Matrix"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 83351319-ce8a-4a84-9831-f68ed9f14835
 caps.latest.revision: 3
 ---

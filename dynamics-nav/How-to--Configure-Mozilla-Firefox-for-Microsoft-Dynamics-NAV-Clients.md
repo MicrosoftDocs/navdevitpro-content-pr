@@ -1,14 +1,15 @@
 ---
-title: "How to: Configure Mozilla Firefox for Microsoft Dynamics NAV Clients"
+title:"How to: Configure Mozilla Firefox for Microsoft Dynamics NAV Clients"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 5e12c815-a749-45e1-8a5c-92a8ec5a7f85
 caps.latest.revision: 22
-manager: terryaus
+manager: edupont
 ---
 # How to: Configure Mozilla Firefox for Microsoft Dynamics NAV Clients
 This topic describes how to configure Mozilla Firefox web browser to work with the [!INCLUDE[nav_web](includes/nav_web_md.md)]. To open the client, Firefox must be configured to allow cookies and JavaScript. In addition, the address of the [!INCLUDE[nav_web](includes/nav_web_md.md)] must be configured as a trusted unified resource identifier \(URI\) in Firefox.  

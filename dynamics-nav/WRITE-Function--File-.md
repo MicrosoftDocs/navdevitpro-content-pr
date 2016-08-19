@@ -1,11 +1,12 @@
 ---
-title: "WRITE Function (File)"
+title:"WRITE Function (File)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 423def02-ce02-460b-babe-4608b264c64c
 caps.latest.revision: 13
 ---

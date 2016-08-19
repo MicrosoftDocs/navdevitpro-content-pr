@@ -1,14 +1,15 @@
 ---
-title: "Database-Level Security"
+title:"Database-Level Security"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: b527989d-679f-4638-af12-612275a9fb24
 caps.latest.revision: 14
-manager: pchapman
+manager: edupont
 ---
 # Database-Level Security
 The first layer of security when you open [!INCLUDE[navnow](includes/navnow_md.md)] is database security.  

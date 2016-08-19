@@ -1,11 +1,12 @@
 ---
-title: "IMPORTFILE Function (Media)"
+title:"IMPORTFILE Function (Media)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: aeffd2de-fe20-4900-9253-de23b58e7696
 caps.latest.revision: 6
 manager: edupont

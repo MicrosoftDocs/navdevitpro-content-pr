@@ -1,11 +1,12 @@
 ---
-title: "EXPORTFILE Function (Media)"
+title:"EXPORTFILE Function (Media)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 0f180552-fae1-40fc-a72f-87da1c9d3f36
 caps.latest.revision: 2
 manager: edupont

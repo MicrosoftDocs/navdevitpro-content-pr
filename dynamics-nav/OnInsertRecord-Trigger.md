@@ -1,14 +1,15 @@
 ---
-title: "OnInsertRecord Trigger"
+title:"OnInsertRecord Trigger"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: eb1d2913-5ab8-40db-8790-e5e6b80b6722
 caps.latest.revision: 15
-manager: terryaus
+manager: edupont
 ---
 # OnInsertRecord Trigger
 Executed before a new record is inserted into the table.  

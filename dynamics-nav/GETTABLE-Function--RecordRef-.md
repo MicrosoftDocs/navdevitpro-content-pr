@@ -1,11 +1,12 @@
 ---
-title: "GETTABLE Function (RecordRef)"
+title:"GETTABLE Function (RecordRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 02713004-d111-47b8-8a06-569ef84599f9
 caps.latest.revision: 8
 ---

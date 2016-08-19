@@ -1,14 +1,15 @@
 ---
-title: "Handling UI Interaction When Working with Web Services"
+title:"Handling UI Interaction When Working with Web Services"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 0673f763-2753-4b43-ab8c-cb8571e76a30
 caps.latest.revision: 25
-manager: pchapman
+manager: edupont
 ---
 # Handling UI Interaction When Working with Web Services
 Whether you are publishing or consuming web services, exceptions and dialog boxes that may be displayed while code runs must be handled correctly. Exceptions must be handled to prevent the system from ending the web service client execution. You can handle exceptions in the following ways:  

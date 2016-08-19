@@ -1,11 +1,12 @@
 ---
-title: "Upgrading the Application Code"
+title:"Upgrading the Application Code"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 0a76957e-38e0-4323-b167-6ba48340f58d
 caps.latest.revision: 12
 ---

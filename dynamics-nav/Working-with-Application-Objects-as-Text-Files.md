@@ -1,11 +1,12 @@
 ---
-title: "Working with Application Objects as Text Files"
+title:"Working with Application Objects as Text Files"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 17677da3-f68a-4899-a2d3-fa2964edd6fe
 caps.latest.revision: 5
 ---

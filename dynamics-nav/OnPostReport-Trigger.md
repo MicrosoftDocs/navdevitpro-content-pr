@@ -1,14 +1,15 @@
 ---
-title: "OnPostReport Trigger"
+title:"OnPostReport Trigger"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: bc317b67-0417-44c8-9e40-b8bdcf274c43
 caps.latest.revision: 7
-manager: pchapman
+manager: edupont
 ---
 # OnPostReport Trigger
 Executed after a report is run.  

@@ -1,14 +1,15 @@
 ---
-title: "Calculation Formulas and the CalcFormula Property"
+title:"Calculation Formulas and the CalcFormula Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: ae634c9a-855b-4c96-b591-9ded3fd9f25a
 caps.latest.revision: 7
-manager: pchapman
+manager: edupont
 ---
 # Calculation Formulas and the CalcFormula Property
 A FlowField is always associated with a calculation formula that determines how the FlowField is calculated. The following syntax is valid for the CalcFormula property.  

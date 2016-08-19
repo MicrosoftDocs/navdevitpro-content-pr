@@ -1,14 +1,15 @@
 ---
-title: "INIT Function (RecordRef)"
+title:"INIT Function (RecordRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: e3321633-2c2f-49ac-85e0-80bccdeb337e
 caps.latest.revision: 11
-manager: terryaus
+manager: edupont
 ---
 # INIT Function (RecordRef)
 Initializes a record in a table.  

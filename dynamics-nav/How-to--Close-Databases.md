@@ -1,14 +1,15 @@
 ---
-title: "How to: Close Databases"
+title:"How to: Close Databases"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 3377f692-c4e4-4b06-b10d-d8408a654132
 caps.latest.revision: 6
-manager: terryaus
+manager: edupont
 ---
 # How to: Close Databases
 You may need to close the database from time to time.  

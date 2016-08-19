@@ -1,14 +1,15 @@
 ---
-title: "Query Triggers"
+title:"Query Triggers"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 8577e3f5-1ddf-4171-bb89-9fee33d4fe8f
 caps.latest.revision: 5
-manager: terryaus
+manager: edupont
 ---
 # Query Triggers
 This topic describes the C\/AL triggers that are available for queries. Triggers are typically used to perform calculations and verification. Triggers let you control how data is selected and retrieved in a more complex and effective way than you can achieve by using properties.  

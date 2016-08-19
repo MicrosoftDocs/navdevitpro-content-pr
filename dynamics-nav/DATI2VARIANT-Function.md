@@ -1,14 +1,15 @@
 ---
-title: "DATI2VARIANT Function"
+title:"DATI2VARIANT Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: f07bd168-5e97-475d-aced-be6c0e942c90
 caps.latest.revision: 9
-manager: terryaus
+manager: edupont
 ---
 # DATI2VARIANT Function
 Creates a variant that contains an encapsulation of a COM VT\_DATE.  

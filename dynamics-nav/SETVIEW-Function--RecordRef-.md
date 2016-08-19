@@ -1,14 +1,15 @@
 ---
-title: "SETVIEW Function (RecordRef)"
+title:"SETVIEW Function (RecordRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 546dbac6-6660-4718-9bc1-32d2eec73d17
 caps.latest.revision: 12
-manager: terryaus
+manager: edupont
 ---
 # SETVIEW Function (RecordRef)
 Sets the current sort order, key, and filters on a table.  

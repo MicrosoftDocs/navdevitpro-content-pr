@@ -1,14 +1,15 @@
 ---
-title: "SumIndexFields Property"
+title:"SumIndexFields Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 0b03b2f5-e6b8-4aea-aceb-dedeb7b2be82
 caps.latest.revision: 9
-manager: pchapman
+manager: edupont
 ---
 # SumIndexFields Property
 Sets the [SumIndexField Technology \(SIFT\)](SumIndexField-Technology--SIFT-.md) for the key, if applicable.  

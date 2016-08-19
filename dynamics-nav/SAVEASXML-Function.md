@@ -1,14 +1,15 @@
 ---
-title: "SAVEASXML Function"
+title:"SAVEASXML Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: a6fb4865-6ed5-4111-a5e6-9a7671bfbbfa
 caps.latest.revision: 18
-manager: terryaus
+manager: edupont
 ---
 # SAVEASXML Function
 Saves the resulting dataset of a query as an .xml file.  

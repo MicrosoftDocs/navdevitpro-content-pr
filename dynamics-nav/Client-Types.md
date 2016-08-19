@@ -1,14 +1,15 @@
 ---
-title: "Client Types"
+title:"Client Types"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: b2ec4d43-d798-4a37-bc36-91f05fc53418
 caps.latest.revision: 24
-manager: terryaus
+manager: edupont
 ---
 # Client Types
 The following [!INCLUDE[navnow](includes/navnow_md.md)] clients interact with the [!INCLUDE[navnow](includes/navnow_md.md)] database through [!INCLUDE[nav_server](includes/nav_server_md.md)]:  

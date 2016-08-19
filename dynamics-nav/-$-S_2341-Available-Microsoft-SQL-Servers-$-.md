@@ -1,14 +1,15 @@
 ---
-title: "($ S_2341 Available Microsoft SQL Servers $)"
+title:"($ S_2341 Available Microsoft SQL Servers $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: ea5d28c1-1b35-45e8-a062-61f8045e9358
 caps.latest.revision: 8
-manager: terryaus
+manager: edupont
 ---
 # ($ S_2341 Available Microsoft SQL Servers $)
 Shows a list of the SQL Server instances that are currently available in the domain. The **Server Name** field contains the names of the SQL Server instances that are currently available.  

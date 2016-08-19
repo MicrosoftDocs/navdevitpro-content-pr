@@ -1,14 +1,15 @@
 ---
-title: "REPORT.RUNMODAL Function"
+title:"REPORT.RUNMODAL Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 0a1ffa1a-8b23-4ea4-9bd7-d7ea523b6e3a
 caps.latest.revision: 16
-manager: terryaus
+manager: edupont
 ---
 # REPORT.RUNMODAL Function
 Loads and runs the report that you specify. The report is run modally.  

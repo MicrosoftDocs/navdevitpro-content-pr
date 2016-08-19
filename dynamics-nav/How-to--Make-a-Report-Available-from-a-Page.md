@@ -1,11 +1,12 @@
 ---
-title: "How to: Make a Report Available from a Page"
+title:"How to: Make a Report Available from a Page"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 1b723ebd-fb79-4ea3-856f-059618a64e52
 caps.latest.revision: 27
 manager: edupont

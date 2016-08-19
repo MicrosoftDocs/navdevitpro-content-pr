@@ -1,14 +1,15 @@
 ---
-title: "Configuring Microsoft SQL Server"
+title:"Configuring Microsoft SQL Server"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: b49fb4e0-bdc4-4844-b9b4-96f1b07161ac
 caps.latest.revision: 33
-manager: terryaus
+manager: edupont
 ---
 # Configuring Microsoft SQL Server
 The topics in this section describe actions that you can take after installing [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] and SQL Server to integrate the two products:  

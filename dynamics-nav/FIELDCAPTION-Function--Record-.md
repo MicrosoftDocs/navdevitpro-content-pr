@@ -1,14 +1,15 @@
 ---
-title: "FIELDCAPTION Function (Record)"
+title:"FIELDCAPTION Function (Record)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 4b1bcb52-fea1-4981-9b12-c8299f1893b4
 caps.latest.revision: 15
-manager: terryaus
+manager: edupont
 ---
 # FIELDCAPTION Function (Record)
 Gets the current caption of the specified field as a string.  

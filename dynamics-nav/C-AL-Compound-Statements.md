@@ -1,14 +1,15 @@
 ---
-title: "C-AL Compound Statements"
+title:"C-AL Compound Statements"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: dd09d7e4-8664-4fee-874a-1791944659cc
 caps.latest.revision: 8
-manager: pchapman
+manager: edupont
 ---
 # C-AL Compound Statements
 A compound statement is one type of control structure in C\/AL.  

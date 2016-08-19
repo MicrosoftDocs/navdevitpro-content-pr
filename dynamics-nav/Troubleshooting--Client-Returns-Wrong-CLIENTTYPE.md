@@ -1,11 +1,12 @@
 ---
-title: "Troubleshooting: Client Returns Wrong CLIENTTYPE"
+title:"Troubleshooting: Client Returns Wrong CLIENTTYPE"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 703de4b4-115c-4d7e-ae80-57761a996fbf
 caps.latest.revision: 3
 ---

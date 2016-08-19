@@ -1,14 +1,15 @@
 ---
-title: "GETFILTERS Function (Record)"
+title:"GETFILTERS Function (Record)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 6891d81b-9f79-441f-becb-fb71c740a3d8
 caps.latest.revision: 11
-manager: terryaus
+manager: edupont
 ---
 # GETFILTERS Function (Record)
 Gets a string that contains a list of the filters within the current filter group for all fields in a record. In addition, this function also returns the state of the [MARKEDONLY Function \(Record\)](MARKEDONLY-Function--Record-.md).  

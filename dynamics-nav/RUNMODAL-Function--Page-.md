@@ -1,14 +1,15 @@
 ---
-title: "RUNMODAL Function (Page)"
+title:"RUNMODAL Function (Page)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 9188c6ec-bcd2-42cb-a7c9-2f2b36be1b0d
 caps.latest.revision: 19
-manager: terryaus
+manager: edupont
 ---
 # RUNMODAL Function (Page)
 Creates, opens, and closes a page that you specify. When a page is run modally, no input, such as a keyboard or mouse click, can occur except for objects on the modal page.  

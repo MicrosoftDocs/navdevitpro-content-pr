@@ -1,14 +1,15 @@
 ---
-title: "Permissions Property"
+title:"Permissions Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 99eb343f-7bff-4956-ad1b-605440b7858c
 caps.latest.revision: 9
-manager: terryaus
+manager: edupont
 ---
 # Permissions Property
 Sets whether an object has additional permission required to perform some operations on one or more tables. The operations can be to read, insert, modify, and delete data.  

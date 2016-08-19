@@ -1,11 +1,12 @@
 ---
-title: "Comparing and Merging Application Object Source Files"
+title:"Comparing and Merging Application Object Source Files"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 532fb62f-c29c-46b1-8b4d-aad30e1d0f74
 caps.latest.revision: 13
 ---

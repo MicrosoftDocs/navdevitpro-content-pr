@@ -1,14 +1,15 @@
 ---
-title: "SETPOSITION Function (RecordRef)"
+title:"SETPOSITION Function (RecordRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 4c480c65-1e5d-4472-b76e-a37de8fdffa6
 caps.latest.revision: 13
-manager: terryaus
+manager: edupont
 ---
 # SETPOSITION Function (RecordRef)
 Sets the fields in a primary key on a record to the values specified in the *String* parameter. The remaining fields are not changed.  

@@ -1,14 +1,15 @@
 ---
-title: "ENABLESQLTRACE Function (Debugger)"
+title:"ENABLESQLTRACE Function (Debugger)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 9bd5ad29-12d7-4f24-a7b2-3d4d16198010
 caps.latest.revision: 8
-manager: terryaus
+manager: edupont
 ---
 # ENABLESQLTRACE Function (Debugger)
 Enables or verifies SQL tracing. If you enable SQL tracing, then SQL Server events for selected sessions on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance are collected.  

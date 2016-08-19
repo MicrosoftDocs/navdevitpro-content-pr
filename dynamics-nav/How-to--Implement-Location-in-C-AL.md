@@ -1,11 +1,12 @@
 ---
-title: "How to: Implement Location in C-AL"
+title:"How to: Implement Location in C-AL"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: f3419eac-58f5-45f7-a679-5f0c6960953b
 caps.latest.revision: 13
 manager: edupont

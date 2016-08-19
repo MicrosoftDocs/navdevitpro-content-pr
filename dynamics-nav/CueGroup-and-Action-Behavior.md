@@ -1,11 +1,12 @@
 ---
-title: "CueGroup and Action Behavior"
+title:"CueGroup and Action Behavior"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 2a38a6ea-f96f-495c-86e4-cf4f7264e42f
 caps.latest.revision: 4
 manager: edupont

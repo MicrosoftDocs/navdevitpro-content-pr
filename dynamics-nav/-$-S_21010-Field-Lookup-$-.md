@@ -1,14 +1,15 @@
 ---
-title: "($ S_21010 Field Lookup $)"
+title:"($ S_21010 Field Lookup $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 4e70a2be-9f6c-4418-b730-f51ee70ef1f9
 caps.latest.revision: 6
-manager: terryaus
+manager: edupont
 ---
 # ($ S_21010 Field Lookup $)
 Creates a lookup for a field in an XMLport.  

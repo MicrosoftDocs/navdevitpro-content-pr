@@ -1,14 +1,15 @@
 ---
-title: "StyleExpr Property"
+title:"StyleExpr Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 6400d515-9f4e-4422-a89e-99100bf9110c
 caps.latest.revision: 18
-manager: terryaus
+manager: edupont
 ---
 # StyleExpr Property
 Sets whether the format that is specified in the [Style Property\-duplicate](Style-Property-duplicate.md) is applied to text in a field. For fields in a **CueGroup** control, this property is used to configure the color of the color indicator on the cue.  

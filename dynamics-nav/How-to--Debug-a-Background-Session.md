@@ -1,14 +1,15 @@
 ---
-title: "How to: Debug a Background Session"
+title:"How to: Debug a Background Session"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: f97b1d48-6ced-42ac-9e8a-7264f5fbfe77
 caps.latest.revision: 6
-manager: terryaus
+manager: edupont
 ---
 # How to: Debug a Background Session
 A background session that is started by using the [STARTSESSION Function \(Sessions\)](STARTSESSION-Function--Sessions-.md) can be difficult to debug because it is called by C\/AL code for which you often do not have dedicated control. Therefore, you cannot debug the calling code and step through it to access the background session. To debug a background session, you must first set a breakpoint in the codeunit that runs when the session is started.  

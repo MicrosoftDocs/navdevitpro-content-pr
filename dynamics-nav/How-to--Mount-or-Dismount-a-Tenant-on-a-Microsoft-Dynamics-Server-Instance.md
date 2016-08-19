@@ -1,11 +1,12 @@
 ---
-title: "How to: Mount or Dismount a Tenant on a Microsoft Dynamics Server Instance"
+title:"How to: Mount or Dismount a Tenant on a Microsoft Dynamics Server Instance"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 2d7c114d-381b-4270-9bed-9b1930627df4
 caps.latest.revision: 17
 ---

@@ -1,11 +1,12 @@
 ---
-title: "READ Function (BigText)"
+title:"READ Function (BigText)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 4c804577-36eb-4386-9894-abe270d5df6a
 caps.latest.revision: 11
 ---

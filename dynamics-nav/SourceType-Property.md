@@ -1,14 +1,15 @@
 ---
-title: "SourceType Property"
+title:"SourceType Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: ca16823e-82ce-4230-98b0-f4ac0f962466
 caps.latest.revision: 6
-manager: pchapman
+manager: edupont
 ---
 # SourceType Property
 Sets what a particular tag in the XMLport Designer corresponds to in the [!INCLUDE[navnow](includes/navnow_md.md)] database.  

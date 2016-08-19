@@ -1,11 +1,12 @@
 ---
-title: "Deploying Microsoft Dynamics NAV on Two Virtual Machines Using Example-2VM Script"
+title:"Deploying Microsoft Dynamics NAV on Two Virtual Machines Using Example-2VM Script"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: ec3a455b-ba0e-4a46-bef8-dc9f2ec791c6
 caps.latest.revision: 16
 ---

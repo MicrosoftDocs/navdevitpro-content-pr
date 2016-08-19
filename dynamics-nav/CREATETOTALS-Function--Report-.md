@@ -1,14 +1,15 @@
 ---
-title: "CREATETOTALS Function (Report)"
+title:"CREATETOTALS Function (Report)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: c1813dac-0e39-4538-8ca2-14431a529bbd
 caps.latest.revision: 8
-manager: pchapman
+manager: edupont
 ---
 # CREATETOTALS Function (Report)
 Maintains totals for a variable in C\/AL.  

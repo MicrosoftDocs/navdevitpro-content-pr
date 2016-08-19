@@ -1,11 +1,12 @@
 ---
-title: "How to: Implement the Camera in C-AL"
+title:"How to: Implement the Camera in C-AL"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 71993c75-c4b9-42f3-9458-7594f8684df2
 caps.latest.revision: 24
 manager: edupont

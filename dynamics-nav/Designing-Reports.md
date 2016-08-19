@@ -1,14 +1,15 @@
 ---
-title: "Designing Reports"
+title:"Designing Reports"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 71d52071-e2ab-4fe5-8ed3-23aac682578a
 caps.latest.revision: 42
-manager: terryaus
+manager: edupont
 ---
 # Designing Reports
 You design a report by first defining the dataset and then designing the visual layout. You design the dataset for reports in Report Dataset Designer of the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. When designing the layouts, there are two different types: RDLC report layouts and Word report layouts. You design RDLC report layouts in Visual Studio Report Designer. You design Word report layouts in Word. After you design a report's dataset and layout, you can make it available for running and printing in [!INCLUDE[navnow](includes/navnow_md.md)] client applications.  

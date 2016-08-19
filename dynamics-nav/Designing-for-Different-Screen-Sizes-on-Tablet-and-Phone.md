@@ -1,11 +1,12 @@
 ---
-title: "Designing for Different Screen Sizes on Tablet and Phone"
+title:"Designing for Different Screen Sizes on Tablet and Phone"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 5f31c236-4015-4fd4-9960-51819c997d9d
 caps.latest.revision: 25
 manager: edupont

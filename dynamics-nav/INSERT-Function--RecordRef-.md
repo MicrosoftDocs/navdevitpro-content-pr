@@ -1,11 +1,12 @@
 ---
-title: "INSERT Function (RecordRef)"
+title:"INSERT Function (RecordRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 47a1d40b-d9ea-4cd3-aca1-46cb8431d07b
 caps.latest.revision: 15
 ---

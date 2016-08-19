@@ -1,14 +1,15 @@
 ---
-title: "DataItemLink Property (Query)"
+title:"DataItemLink Property (Query)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 9a76b82f-c9fa-40a0-9f47-9bbb27deb809
 caps.latest.revision: 6
-manager: terryaus
+manager: edupont
 ---
 # DataItemLink Property (Query)
 Sets a reference between one or more fields of the data item table and data item or data items above it in Query Designer.  

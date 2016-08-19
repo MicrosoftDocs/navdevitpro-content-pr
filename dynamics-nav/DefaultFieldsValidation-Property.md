@@ -1,14 +1,15 @@
 ---
-title: "DefaultFieldsValidation Property"
+title:"DefaultFieldsValidation Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 7733c6fd-3cbd-42bc-9ff3-8f7a5850cff8
 caps.latest.revision: 6
-manager: pchapman
+manager: edupont
 ---
 # DefaultFieldsValidation Property
 Sets a value that indicates whether fields are validated.  

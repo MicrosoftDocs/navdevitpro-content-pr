@@ -1,14 +1,15 @@
 ---
-title: "How to: Arrange Page Fields in Rows and Columns Using a FixedLayout Control"
+title:"How to: Arrange Page Fields in Rows and Columns Using a FixedLayout Control"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: a1895add-b902-4fd6-b90e-27e251301aa6
 caps.latest.revision: 23
-manager: terryaus
+manager: edupont
 ---
 # How to: Arrange Page Fields in Rows and Columns Using a FixedLayout Control
 This topic describes how to use a FixedLayout group control on a page to arrange page fields in rows and columns, similar to a matrix. A FixedLayout group control is typically used to display statistical data. The following illustration shows an example of a page that uses a FixedLayout control to show sales totals for different time periods.  

@@ -1,14 +1,15 @@
 ---
-title: "How to: Set an Icon on an Action"
+title:"How to: Set an Icon on an Action"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: b734b64f-a935-4d10-8041-60b7be048147
 caps.latest.revision: 17
-manager: terryaus
+manager: edupont
 ---
 # How to: Set an Icon on an Action
 The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] includes images that you can use on actions in command bar menus and promoted actions on the ribbon.  

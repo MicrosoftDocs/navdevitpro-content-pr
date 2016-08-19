@@ -1,14 +1,15 @@
 ---
-title: "Ellipsis Property"
+title:"Ellipsis Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 557a3076-0c74-4c70-a63c-175d6fda0380
 caps.latest.revision: 7
-manager: pchapman
+manager: edupont
 ---
 # Ellipsis Property
 Sets a value that specifies whether an ellipsis \(...\) is appended to the caption on a command button or menu item. An ellipsis tells the user that other choices will appear if the command button or menu item are selected.  

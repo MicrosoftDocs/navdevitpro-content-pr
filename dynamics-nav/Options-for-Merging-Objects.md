@@ -1,14 +1,15 @@
 ---
-title: "Options for Merging Objects"
+title:"Options for Merging Objects"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 5b6834f0-204a-474a-a6c5-23229838630d
 caps.latest.revision: 5
-manager: terryaus
+manager: edupont
 ---
 # Options for Merging Objects
 The following sequence of events shows when objects are merged:  

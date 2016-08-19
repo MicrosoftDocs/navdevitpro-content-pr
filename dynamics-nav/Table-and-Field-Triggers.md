@@ -1,14 +1,15 @@
 ---
-title: "Table and Field Triggers"
+title:"Table and Field Triggers"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 1b65a764-c293-4153-9e3d-f30930789e71
 caps.latest.revision: 6
-manager: pchapman
+manager: edupont
 ---
 # Table and Field Triggers
 [!INCLUDE[navnow](includes/navnow_md.md)] recognizes certain actions that happen to a table when you use it, for example, that you insert or modify data. In response, you can set up [!INCLUDE[navnow](includes/navnow_md.md)] to execute C\/AL code defined in a trigger. Triggers are predefined functions that are executed when certain actions happen. The bodies of these functions are initially empty and must be defined by the developer. Defining C\/AL code in triggers allows you to change the default behavior of [!INCLUDE[navnow](includes/navnow_md.md)].  

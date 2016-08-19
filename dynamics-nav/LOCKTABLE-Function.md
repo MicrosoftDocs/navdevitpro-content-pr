@@ -1,14 +1,15 @@
 ---
-title: "LOCKTABLE Function"
+title:"LOCKTABLE Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: dd38a304-eb98-4100-8561-b04d8c0aa1f7
 caps.latest.revision: 9
-manager: terryaus
+manager: edupont
 ---
 # LOCKTABLE Function
 Ordinarily, when you are developing applications in [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], you do not want to consider transactions and table locking. However, there are some situations in which you must lock a table explicitly. To do this, use the [LOCKTABLE Function \(Record\)](LOCKTABLE-Function--Record-.md).  

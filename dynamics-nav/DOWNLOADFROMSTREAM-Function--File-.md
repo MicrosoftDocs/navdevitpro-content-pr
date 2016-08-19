@@ -1,14 +1,15 @@
 ---
-title: "DOWNLOADFROMSTREAM Function (File)"
+title:"DOWNLOADFROMSTREAM Function (File)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 0823a1e7-a870-41ef-813d-fdb25fbaf73b
 caps.latest.revision: 29
-manager: terryaus
+manager: edupont
 ---
 # DOWNLOADFROMSTREAM Function (File)
 Sends a file from [!INCLUDE[nav_server](includes/nav_server_md.md)] computer to the client computer. The client computer is the computer that is running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or the computer that is running the browser that accesses the [!INCLUDE[nav_web](includes/nav_web_md.md)].  

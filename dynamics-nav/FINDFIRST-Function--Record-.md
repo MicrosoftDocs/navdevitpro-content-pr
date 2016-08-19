@@ -1,14 +1,15 @@
 ---
-title: "FINDFIRST Function (Record)"
+title:"FINDFIRST Function (Record)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: a7109cd2-9035-44ba-99b1-b51f0b2e3b12
 caps.latest.revision: 12
-manager: pchapman
+manager: edupont
 ---
 # FINDFIRST Function (Record)
 Finds the first record in a table based on the current key and filter.  

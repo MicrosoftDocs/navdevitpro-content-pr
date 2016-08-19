@@ -1,14 +1,15 @@
 ---
-title: "Programming Best Practices"
+title:"Programming Best Practices"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 34e38249-0722-41f2-b325-bd59262aea00
 caps.latest.revision: 18
-manager: terryaus
+manager: edupont
 ---
 # Programming Best Practices
 This topic describes best practices for developing [!INCLUDE[navnow](includes/navnow_md.md)] applications.  

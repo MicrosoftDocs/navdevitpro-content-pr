@@ -1,11 +1,12 @@
 ---
-title: "How to: Add Page Number &quot;X&quot; of &quot;Y&quot; to a Report Page Header"
+title:"How to: Add Page Number &quot;X&quot; of &quot;Y&quot; to a Report Page Header"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: ede2ebf8-22ac-4ee4-a1d7-a4ed09d8026c
 caps.latest.revision: 11
 ---

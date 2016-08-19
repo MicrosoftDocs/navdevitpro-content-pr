@@ -1,14 +1,15 @@
 ---
-title: "LAST Function (TestPage)"
+title:"LAST Function (TestPage)"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 8ddbf594-1942-46fc-97a7-1f3c3353b568
 caps.latest.revision: 5
-manager: terryaus
+manager: edupont
 ---
 # LAST Function (TestPage)
 Sets the current row of the test page as the last row in the dataset.  

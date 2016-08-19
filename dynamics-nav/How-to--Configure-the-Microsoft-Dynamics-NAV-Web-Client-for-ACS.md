@@ -1,11 +1,12 @@
 ---
-title: "How to: Configure the Microsoft Dynamics NAV Web Client for ACS"
+title:"How to: Configure the Microsoft Dynamics NAV Web Client for ACS"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 88e2b4aa-d614-43e0-a684-69ac9636a5ca
 caps.latest.revision: 3
 manager: tsiggaar

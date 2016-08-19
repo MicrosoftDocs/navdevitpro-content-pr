@@ -1,14 +1,15 @@
 ---
-title: "Using Containments and Associations"
+title:"Using Containments and Associations"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 884e9de1-c83d-4c78-a6c4-ab0e18956a61
 caps.latest.revision: 17
-manager: terryaus
+manager: edupont
 ---
 # Using Containments and Associations
 Containments and associations are relationships between pages in [!INCLUDE[navnow](includes/navnow_md.md)]. OData web services in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] support navigation between pages using containments and associations.  

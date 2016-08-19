@@ -1,11 +1,12 @@
 ---
-title: "Upgrading to Microsoft Dynamics NAV 2016"
+title:"Upgrading to Microsoft Dynamics NAV 2016"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 015dd873-0887-4ac6-a5cd-809778286099
 caps.latest.revision: 16
 manager: edupont

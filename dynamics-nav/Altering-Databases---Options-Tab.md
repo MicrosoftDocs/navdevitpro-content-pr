@@ -1,14 +1,15 @@
 ---
-title: "Altering Databases - Options Tab"
+title:"Altering Databases - Options Tab"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: e27315be-5303-4314-9298-6a32648cd794
 caps.latest.revision: 10
-manager: terryaus
+manager: edupont
 ---
 # Altering Databases - Options Tab
 Specifies database options that you set when you created the database. For example, you must select the **Single User** option before you perform any database tests. You must clear this option when the tests are completed.  

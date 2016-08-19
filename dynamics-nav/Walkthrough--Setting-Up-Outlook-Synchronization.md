@@ -1,11 +1,12 @@
 ---
-title: "Walkthrough: Setting Up Outlook Synchronization"
+title:"Walkthrough: Setting Up Outlook Synchronization"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: ea74bd60-14a4-4ae0-bd56-9ee23fd32edd
 caps.latest.revision: 46
 ---

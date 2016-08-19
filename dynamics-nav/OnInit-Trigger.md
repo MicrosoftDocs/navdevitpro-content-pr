@@ -1,14 +1,15 @@
 ---
-title: "OnInit Trigger"
+title:"OnInit Trigger"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: ffb70449-fd7c-4726-9f8b-619445b8eaac
 caps.latest.revision: 11
-manager: terryaus
+manager: edupont
 ---
 # OnInit Trigger
 Initializes the user\-defined variables on the page.  

@@ -1,14 +1,15 @@
 ---
-title: "ROUND Function (Decimal)"
+title:"ROUND Function (Decimal)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: cd3bc15d-bcd1-467d-a3a8-a7c79b3121bf
 caps.latest.revision: 17
-manager: pchapman
+manager: edupont
 ---
 # ROUND Function (Decimal)
 Rounds the value of a numeric variable.  

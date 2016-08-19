@@ -1,14 +1,15 @@
 ---
-title: "HYPERLINK Function"
+title:"HYPERLINK Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: f5d64ccc-71b4-4820-9ba7-fb054092f4a4
 caps.latest.revision: 20
-manager: terryaus
+manager: edupont
 ---
 # HYPERLINK Function
 Passes a URL as an argument to an Internet browser, such as Windows Internet Explorer.  

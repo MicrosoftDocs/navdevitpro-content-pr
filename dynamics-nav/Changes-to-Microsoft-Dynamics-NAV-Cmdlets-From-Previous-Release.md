@@ -1,11 +1,12 @@
 ---
-title: "Changes to Microsoft Dynamics NAV Cmdlets From Previous Release"
+title:"Changes to Microsoft Dynamics NAV Cmdlets From Previous Release"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: ecb0a9de-3c20-48c7-93b5-601d7fc52ae8
 caps.latest.revision: 16
 manager: edupont

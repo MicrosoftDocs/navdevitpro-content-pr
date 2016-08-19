@@ -1,11 +1,12 @@
 ---
-title: "Printing Reports"
+title:"Printing Reports"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 82a210a7-f42a-4fc2-8d27-d9a8c89bd38c
 caps.latest.revision: 19
 manager: edupont

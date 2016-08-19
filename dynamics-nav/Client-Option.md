@@ -1,11 +1,12 @@
 ---
-title: "Client Option"
+title:"Client Option"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: dca2ad0b-d384-479b-8437-cb6de6bd5a10
 caps.latest.revision: 2
 ---

@@ -1,14 +1,15 @@
 ---
-title: "OPEN Function (RecordRef)"
+title:"OPEN Function (RecordRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: c7294ae4-3289-4ffc-b58a-c149b6849ce4
 caps.latest.revision: 10
-manager: terryaus
+manager: edupont
 ---
 # OPEN Function (RecordRef)
 Causes a RecordRef variable to refer to a table, which is identified by its number in a particular company.  

@@ -1,14 +1,15 @@
 ---
-title: "Creating Table Definitions from SQL Server Objects (Linked Objects)"
+title:"Creating Table Definitions from SQL Server Objects (Linked Objects)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: ec40f4cb-5106-4311-ae44-90886ef0fb3d
 caps.latest.revision: 6
-manager: terryaus
+manager: edupont
 ---
 # Creating Table Definitions from SQL Server Objects (Linked Objects)
 With [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)], you can create a table definition for a SQL Server object \(user table, system table, or view\) that already exists in the current database.  

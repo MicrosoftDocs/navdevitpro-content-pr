@@ -1,14 +1,15 @@
 ---
-title: "BLOB Data Type"
+title:"BLOB Data Type"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 09f7efd9-541f-4eae-b6e3-70576bfa0ca1
 caps.latest.revision: 15
-manager: terryaus
+manager: edupont
 ---
 # BLOB Data Type
 A binary large object \(BLOB\) is a complex data type. Variables of this data type differ from normal numeric and string variables in that BLOBs have a variable length.  

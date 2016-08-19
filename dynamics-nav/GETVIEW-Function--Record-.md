@@ -1,14 +1,15 @@
 ---
-title: "GETVIEW Function (Record)"
+title:"GETVIEW Function (Record)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: a124767f-1311-4fe8-9312-754f7dc95719
 caps.latest.revision: 16
-manager: terryaus
+manager: edupont
 ---
 # GETVIEW Function (Record)
 Gets a string that describes the current sort order, key, and filters on a table.  

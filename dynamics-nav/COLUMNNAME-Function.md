@@ -1,14 +1,15 @@
 ---
-title: "COLUMNNAME Function"
+title:"COLUMNNAME Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 8fb7efe1-b56e-4901-b21b-80d5fc501eef
 caps.latest.revision: 7
-manager: terryaus
+manager: edupont
 ---
 # COLUMNNAME Function
 Returns the name of a query column as a text string.  

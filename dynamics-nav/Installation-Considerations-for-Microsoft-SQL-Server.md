@@ -1,14 +1,15 @@
 ---
-title: "Installation Considerations for Microsoft SQL Server"
+title:"Installation Considerations for Microsoft SQL Server"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 0c1e0c2f-e8c1-412e-86a8-6a2ba944af24
 caps.latest.revision: 31
-manager: terryaus
+manager: edupont
 ---
 # Installation Considerations for Microsoft SQL Server
 This topic describes the requirements for installing and configuring Microsoft SQL Server to work with [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  

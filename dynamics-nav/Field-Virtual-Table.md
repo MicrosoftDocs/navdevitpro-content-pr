@@ -1,14 +1,15 @@
 ---
-title: "Field Virtual Table"
+title:"Field Virtual Table"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: c3cf5527-dec2-4c12-9f6f-a2a5f349bf0c
 caps.latest.revision: 11
-manager: terryaus
+manager: edupont
 ---
 # Field Virtual Table
 The **Field** virtual table contains information about fields in database tables. The **Field** virtual table contains the following fields.  

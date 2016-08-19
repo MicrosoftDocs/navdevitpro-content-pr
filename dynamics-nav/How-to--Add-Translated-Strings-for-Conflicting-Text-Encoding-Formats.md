@@ -1,11 +1,12 @@
 ---
-title: "How to: Add Translated Strings for Conflicting Text Encoding Formats"
+title:"How to: Add Translated Strings for Conflicting Text Encoding Formats"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: cf0de1f9-a072-4c94-9110-e31e3cfc6a04
 caps.latest.revision: 4
 ---

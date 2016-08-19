@@ -1,14 +1,15 @@
 ---
-title: "MARKEDONLY Function (Record)"
+title:"MARKEDONLY Function (Record)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 71047bed-4992-46f4-9f6c-07f512cad222
 caps.latest.revision: 12
-manager: pchapman
+manager: edupont
 ---
 # MARKEDONLY Function (Record)
 Activates a special filter. After you use this function, your view of the table includes only records marked by this function.  

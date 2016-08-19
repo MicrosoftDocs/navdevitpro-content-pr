@@ -1,14 +1,15 @@
 ---
-title: "InlineSchema Property"
+title:"InlineSchema Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: ef675ff7-3085-4678-8fb8-527f7b0af53a
 caps.latest.revision: 5
-manager: terryaus
+manager: edupont
 ---
 # InlineSchema Property
 Specifies whether an XML schema definition should be included inside an XML document.  

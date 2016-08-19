@@ -1,14 +1,15 @@
 ---
-title: "SETPOSITION Function (Record)"
+title:"SETPOSITION Function (Record)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 6bdd7e9c-0c48-4977-b0be-618f6118db25
 caps.latest.revision: 13
-manager: terryaus
+manager: edupont
 ---
 # SETPOSITION Function (Record)
 Sets the fields in a primary key on a record to the values specified in the supplied string. The remaining fields are not changed.  

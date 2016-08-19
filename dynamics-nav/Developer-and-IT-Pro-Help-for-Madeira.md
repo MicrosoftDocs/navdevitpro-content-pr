@@ -1,11 +1,12 @@
 ---
-title: "Developer and IT Pro Help for Madeira"
+title:"Developer and IT Pro Help for Madeira"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: db8b7247-55d4-4ae0-93af-b439f646394f
 caps.latest.revision: 3
 ---

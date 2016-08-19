@@ -1,14 +1,15 @@
 ---
-title: "ADDLINK Function (RecordRef)"
+title:"ADDLINK Function (RecordRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: fa6aa219-fa2b-4a51-9c7d-dd9dd6fcb63b
 caps.latest.revision: 14
-manager: terryaus
+manager: edupont
 ---
 # ADDLINK Function (RecordRef)
 Adds a link to a record in a table.  

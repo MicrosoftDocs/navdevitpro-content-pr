@@ -1,11 +1,12 @@
 ---
-title: "How to: Try Out the UI Elements Removal Feature Based on Demonstration Permission Sets"
+title:"How to: Try Out the UI Elements Removal Feature Based on Demonstration Permission Sets"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: c649c320-5c76-436d-8c91-317e4f81caa6
 caps.latest.revision: 8
 ---

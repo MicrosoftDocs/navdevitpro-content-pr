@@ -1,14 +1,15 @@
 ---
-title: "Using Queries Instead of Record Variables"
+title:"Using Queries Instead of Record Variables"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: af6d360a-242d-4274-9d3d-863dad6fdf48
 caps.latest.revision: 9
-manager: terryaus
+manager: edupont
 ---
 # Using Queries Instead of Record Variables
 In scenarios where you want to read records from multiple table, it can be a good idea to use a query instead of implementing code with record variables. Using a query can improve performance and also simplify the C\/AL code that is required to perform the operation.  

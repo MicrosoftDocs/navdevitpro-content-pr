@@ -1,14 +1,15 @@
 ---
-title: "($ S_2155 Chart List $)"
+title:"($ S_2155 Chart List $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 579861ff-fe4e-4e2a-9abe-c8335e304ccb
 caps.latest.revision: 5
-manager: terryaus
+manager: edupont
 ---
 # ($ S_2155 Chart List $)
 Contains a list of charts that can be added to a page. The name and ID of the chart is listed in this window. When you select a chart, a link is created to the selected chart.  

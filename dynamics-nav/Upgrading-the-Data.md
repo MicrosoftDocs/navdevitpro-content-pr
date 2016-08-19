@@ -1,11 +1,12 @@
 ---
-title: "Upgrading the Data"
+title:"Upgrading the Data"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 34c5521d-10ca-47f5-bbab-4b03aa762b3c
 caps.latest.revision: 43
 manager: edupont

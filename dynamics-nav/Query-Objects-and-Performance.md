@@ -1,14 +1,15 @@
 ---
-title: "Query Objects and Performance"
+title:"Query Objects and Performance"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 95e988c1-f113-4c6d-8d97-14bf971dbc62
 caps.latest.revision: 6
-manager: terryaus
+manager: edupont
 ---
 # Query Objects and Performance
 A *query* is a new object in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] that you use to specify a set of data that you want to read from the [!INCLUDE[navnow](includes/navnow_md.md)] database. You can query the database to retrieve one or more fields from a single table or multiple tables. You can specify how to join the tables in the query. You can specify totaling methods on fields, such as sums and averages. This topic describes how to design queries and table keys in the most efficient way.  

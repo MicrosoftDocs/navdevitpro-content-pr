@@ -1,14 +1,15 @@
 ---
-title: "ChartPartID Property"
+title:"ChartPartID Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 277abf60-998d-4196-b745-ffdcee0b568b
 caps.latest.revision: 10
-manager: terryaus
+manager: edupont
 ---
 # ChartPartID Property
 Sets the ID of the chart to add to the page.  

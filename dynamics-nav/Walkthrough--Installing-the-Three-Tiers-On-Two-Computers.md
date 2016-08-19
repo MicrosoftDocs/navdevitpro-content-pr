@@ -1,14 +1,15 @@
 ---
-title: "Walkthrough: Installing the Three Tiers On Two Computers"
+title:"Walkthrough: Installing the Three Tiers On Two Computers"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 501c0ec0-d7d6-4752-918a-9e5e87428422
 caps.latest.revision: 52
-manager: terryaus
+manager: edupont
 ---
 # Walkthrough: Installing the Three Tiers On Two Computers
 In this walkthrough, you install a new instance of [!INCLUDE[navnowlong](includes/navnowlong_md.md)] in a production environment with SQL Server and [!INCLUDE[nav_server](includes/nav_server_md.md)] together on one computer and the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] on a second computer.  

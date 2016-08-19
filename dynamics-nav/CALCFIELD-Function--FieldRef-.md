@@ -1,11 +1,12 @@
 ---
-title: "CALCFIELD Function (FieldRef)"
+title:"CALCFIELD Function (FieldRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: d226598c-f73c-41f1-baa9-17a642483c35
 caps.latest.revision: 25
 ---

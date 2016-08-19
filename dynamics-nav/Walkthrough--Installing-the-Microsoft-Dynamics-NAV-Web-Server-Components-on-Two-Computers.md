@@ -1,11 +1,12 @@
 ---
-title: "Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on Two Computers"
+title:"Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on Two Computers"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: f232c9e6-a09c-465b-83fe-7f591df96fcd
 caps.latest.revision: 27
 ---

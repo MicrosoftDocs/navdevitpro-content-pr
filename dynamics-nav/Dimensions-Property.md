@@ -1,14 +1,15 @@
 ---
-title: "Dimensions Property"
+title:"Dimensions Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 093a34d6-f9ff-4fcc-854d-04120ebca973
 caps.latest.revision: 5
-manager: pchapman
+manager: edupont
 ---
 # Dimensions Property
 Sets the dimensions of a variable that is to create a multi\-dimensional variable \(array\).  

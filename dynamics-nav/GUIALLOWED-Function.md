@@ -1,14 +1,15 @@
 ---
-title: "GUIALLOWED Function"
+title:"GUIALLOWED Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: fa6b2950-62ed-4a4f-9fa0-1e32d49682f5
 caps.latest.revision: 10
-manager: terryaus
+manager: edupont
 ---
 # GUIALLOWED Function
 Checks whether the C\/AL code can show any information on the screen.  

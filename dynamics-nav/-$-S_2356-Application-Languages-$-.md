@@ -1,14 +1,15 @@
 ---
-title: "($ S_2356 Application Languages $)"
+title:"($ S_2356 Application Languages $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: c5be1e67-a7f2-4190-b86a-33d19e12f4a5
 caps.latest.revision: 5
-manager: terryaus
+manager: edupont
 ---
 # ($ S_2356 Application Languages $)
 Lists the languages that are included in your license and installed on your computer.  

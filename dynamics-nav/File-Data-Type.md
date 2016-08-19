@@ -1,11 +1,12 @@
 ---
-title: "File Data Type"
+title:"File Data Type"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: e69359b6-5b74-46c2-88ac-2d98f48a9d38
 caps.latest.revision: 12
 ---

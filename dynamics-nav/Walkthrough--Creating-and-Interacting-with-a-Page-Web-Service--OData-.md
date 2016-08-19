@@ -1,11 +1,12 @@
 ---
-title: "Walkthrough: Creating and Interacting with a Page Web Service (OData)"
+title:"Walkthrough: Creating and Interacting with a Page Web Service (OData)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 72563698-e7ea-44d1-b351-6f2984b70409
 caps.latest.revision: 19
 manager: edupont

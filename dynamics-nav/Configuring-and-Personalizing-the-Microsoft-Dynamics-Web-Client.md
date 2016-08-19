@@ -1,11 +1,12 @@
 ---
-title: "Configuring and Personalizing the Microsoft Dynamics Web Client"
+title:"Configuring and Personalizing the Microsoft Dynamics Web Client"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: f32dc985-bb5e-4338-a66a-b32a0e75914c
 caps.latest.revision: 11
 ---

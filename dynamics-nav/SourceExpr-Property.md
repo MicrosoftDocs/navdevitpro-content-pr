@@ -1,14 +1,15 @@
 ---
-title: "SourceExpr Property"
+title:"SourceExpr Property"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 8871aba8-8619-4d2e-8a48-fbef6cf77039
 caps.latest.revision: 8
-manager: pchapman
+manager: edupont
 ---
 # SourceExpr Property
 Sets the source expression for this control.  

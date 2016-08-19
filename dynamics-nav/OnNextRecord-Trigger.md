@@ -1,14 +1,15 @@
 ---
-title: "OnNextRecord Trigger"
+title:"OnNextRecord Trigger"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 2e946369-2c8b-47f2-8f3e-0bd805f5c94a
 caps.latest.revision: 7
-manager: terryaus
+manager: edupont
 ---
 # OnNextRecord Trigger
 Determines the next record to be displayed.  

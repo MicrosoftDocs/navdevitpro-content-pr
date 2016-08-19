@@ -1,11 +1,12 @@
 ---
-title: "Migrating a Deployment to a New Microsoft Dynamics NAV Server Instance"
+title:"Migrating a Deployment to a New Microsoft Dynamics NAV Server Instance"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 6c08fcf3-1b8a-42ae-a033-2b708c803d3b
 caps.latest.revision: 2
 ---

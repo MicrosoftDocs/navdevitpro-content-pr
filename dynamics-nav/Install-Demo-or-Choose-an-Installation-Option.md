@@ -1,14 +1,15 @@
 ---
-title: "Install Demo or Choose an Installation Option"
+title:"Install Demo or Choose an Installation Option"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 1e736685-20f8-44d2-830a-7e4ebdbe4463
 caps.latest.revision: 13
-manager: terryaus
+manager: edupont
 ---
 # Install Demo or Choose an Installation Option
 After you accept the software license terms and choose **Next**, you come to the **Microsoft Dynamics NAV Setup** page. This page presents the following options:  

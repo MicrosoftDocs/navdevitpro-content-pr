@@ -1,14 +1,15 @@
 ---
-title: "GETFILTERS Function (RecordRef)"
+title:"GETFILTERS Function (RecordRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 59e65d40-c8e0-4a56-a737-b76f2cbe22ac
 caps.latest.revision: 10
-manager: terryaus
+manager: edupont
 ---
 # GETFILTERS Function (RecordRef)
 Determines which filters have been applied to the table referred to by the RecordRef.  

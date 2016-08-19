@@ -1,11 +1,12 @@
 ---
-title: "Merging an Application Database with a Tenant Database"
+title:"Merging an Application Database with a Tenant Database"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 39a81332-8db1-4e5d-acda-915bf9591880
 caps.latest.revision: 5
 ---

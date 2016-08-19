@@ -1,11 +1,12 @@
 ---
-title: "WORDLAYOUT Function"
+title:"WORDLAYOUT Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: d0dd11d6-a428-4cf4-b9fb-47959ab4868c
 caps.latest.revision: 4
 manager: edupont

@@ -1,14 +1,15 @@
 ---
-title: "PromotedCategory Property"
+title:"PromotedCategory Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: be638302-3a50-41a3-a231-c18da1977a9f
 caps.latest.revision: 10
-manager: pchapman
+manager: edupont
 ---
 # PromotedCategory Property
 Sets a category for a promoted action.  

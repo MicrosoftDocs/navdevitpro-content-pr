@@ -1,14 +1,15 @@
 ---
-title: "DATE2DMY Function (Date)"
+title:"DATE2DMY Function (Date)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: bd97816c-45ad-4846-990e-922ebed8508f
 caps.latest.revision: 12
-manager: terryaus
+manager: edupont
 ---
 # DATE2DMY Function (Date)
 Gets the day, month, or year of a [Date Data Type](Date-Data-Type.md).  

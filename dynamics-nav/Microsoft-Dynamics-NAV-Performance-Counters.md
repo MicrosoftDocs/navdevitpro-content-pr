@@ -1,14 +1,15 @@
 ---
-title: "Microsoft Dynamics NAV Performance Counters"
+title:"Microsoft Dynamics NAV Performance Counters"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 5c13ad00-234e-4307-8159-deef62da9b90
 caps.latest.revision: 28
-manager: terryaus
+manager: edupont
 ---
 # Microsoft Dynamics NAV Performance Counters
 The following table describes the performance counters that are available in [!INCLUDE[navnow](includes/navnow_md.md)] for monitoring [!INCLUDE[nav_server](includes/nav_server_md.md)] instances.  

@@ -1,14 +1,15 @@
 ---
-title: "APPLICATIONPATH Function"
+title:"APPLICATIONPATH Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 6fb5a2e1-5eb8-44c1-8247-33643182cf22
 caps.latest.revision: 6
-manager: pchapman
+manager: edupont
 ---
 # APPLICATIONPATH Function
 Returns the path of the directory where the executable file for [!INCLUDE[navnow](includes/navnow_md.md)] is installed.  

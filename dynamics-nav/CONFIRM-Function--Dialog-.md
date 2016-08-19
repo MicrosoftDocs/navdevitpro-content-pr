@@ -1,11 +1,12 @@
 ---
-title: "CONFIRM Function (Dialog)"
+title:"CONFIRM Function (Dialog)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: cb44f98b-c4e6-44f0-a6af-030e7594cc8f
 caps.latest.revision: 15
 ---

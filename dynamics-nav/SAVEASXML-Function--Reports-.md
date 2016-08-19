@@ -1,11 +1,12 @@
 ---
-title: "SAVEASXML Function (Reports)"
+title:"SAVEASXML Function (Reports)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 734be992-db50-4100-8c1d-2b09d3b67643
 caps.latest.revision: 3
 manager: edupont

@@ -1,14 +1,15 @@
 ---
-title: "GETFILTER Function (TestPage Filter)"
+title:"GETFILTER Function (TestPage Filter)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: f3137870-5c6b-46c1-9b0c-d126388b71fe
 caps.latest.revision: 4
-manager: terryaus
+manager: edupont
 ---
 # GETFILTER Function (TestPage Filter)
 Gets the filter that is applied to the specified field in a dataset that is displayed on a test page.  

@@ -1,14 +1,15 @@
 ---
-title: "Update Operation"
+title:"Update Operation"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 5651d25a-6fa9-4356-98e7-a02a8024ecad
 caps.latest.revision: 9
-manager: terryaus
+manager: edupont
 ---
 # Update Operation
 Updates a single record. The updated record is passed as a reference and is updated with the latest version.  

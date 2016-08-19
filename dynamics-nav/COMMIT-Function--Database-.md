@@ -1,14 +1,15 @@
 ---
-title: "COMMIT Function (Database)"
+title:"COMMIT Function (Database)"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: ea46e230-f8e7-4aeb-952f-ea02d30ea092
 caps.latest.revision: 7
-manager: pchapman
+manager: edupont
 ---
 # COMMIT Function (Database)
 Ends the current write transaction.  

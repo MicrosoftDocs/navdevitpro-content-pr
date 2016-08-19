@@ -1,14 +1,15 @@
 ---
-title: "DELSTR Function (Code, Text)"
+title:"DELSTR Function (Code, Text)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 5313ab16-42ff-4e5f-b76b-0310e04a76b4
 caps.latest.revision: 10
-manager: pchapman
+manager: edupont
 ---
 # DELSTR Function (Code, Text)
 Deletes a substring inside a string \(text or code\).  

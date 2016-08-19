@@ -1,11 +1,12 @@
 ---
-title: "Introducing Events"
+title:"Introducing Events"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 0985b7bc-3184-4d04-b917-ffb0f58625f3
 caps.latest.revision: 6
 manager: edupont

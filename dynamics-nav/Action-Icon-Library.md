@@ -1,14 +1,15 @@
 ---
-title: "Action Icon Library"
+title:"Action Icon Library"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 983dcbb6-3264-43fb-bb86-0547c726fb3e
 caps.latest.revision: 14
-manager: terryaus
+manager: edupont
 ---
 # Action Icon Library
 The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] includes images that you can use on actions that display in the ribbon and command bar menus. To add an image to an action, you must provide the name of the image. For more information, see [How to: Set an Icon on an Action](../Topic/How%20to:%20Set%20an%20Icon%20on%20an%20Action.md).  

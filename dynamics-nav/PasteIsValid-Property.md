@@ -1,14 +1,15 @@
 ---
-title: "PasteIsValid Property"
+title:"PasteIsValid Property"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 7f3e261c-65ba-4adc-9fba-344a6eca8146
 caps.latest.revision: 6
-manager: pchapman
+manager: edupont
 ---
 # PasteIsValid Property
 Sets whether inserting records into this table using the paste command is enabled.  

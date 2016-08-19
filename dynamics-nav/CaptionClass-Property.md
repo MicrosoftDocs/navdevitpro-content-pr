@@ -1,14 +1,15 @@
 ---
-title: "CaptionClass Property"
+title:"CaptionClass Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 52f27d7a-ecda-4da8-b139-9b2f0a6bf256
 caps.latest.revision: 13
-manager: terryaus
+manager: edupont
 ---
 # CaptionClass Property
 Controls the caption that is used in the label of a field in a database table or in the label of a control on a page.  

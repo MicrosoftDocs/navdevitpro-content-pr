@@ -1,14 +1,15 @@
 ---
-title: "Multilanguage Development"
+title:"Multilanguage Development"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 6e0ff568-9cad-4b0f-bd97-b8ac5690a470
 caps.latest.revision: 26
-manager: terryaus
+manager: edupont
 ---
 # Multilanguage Development
 [!INCLUDE[navnow](includes/navnow_md.md)] is multilanguage enabled, which means that you can display the user interface \(UI\) in different languages.  

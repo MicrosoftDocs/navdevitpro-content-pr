@@ -1,11 +1,12 @@
 ---
-title: "Deployment Scenarios for the Microsoft Dynamics NAV Web Server Components"
+title:"Deployment Scenarios for the Microsoft Dynamics NAV Web Server Components"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: ae4ef9f5-f1bd-4792-a232-f8cab454f3c5
 caps.latest.revision: 16
 ---

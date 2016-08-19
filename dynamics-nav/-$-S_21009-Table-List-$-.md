@@ -1,14 +1,15 @@
 ---
-title: "($ S_21009 Table List $)"
+title:"($ S_21009 Table List $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 638e5770-88e2-4732-8fdf-f8a8933074cc
 caps.latest.revision: 6
-manager: terryaus
+manager: edupont
 ---
 # ($ S_21009 Table List $)
 Lists the tables that the XML item in the XMLport should link to. This list is only available for XML items that have a table as their data source.  

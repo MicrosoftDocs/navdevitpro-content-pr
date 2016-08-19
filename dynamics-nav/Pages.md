@@ -1,14 +1,15 @@
 ---
-title: "Pages"
+title:"Pages"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: a07f67fd-b684-430d-b3fc-bb66e1e3d357
 caps.latest.revision: 16
-manager: terryaus
+manager: edupont
 ---
 # Pages
 The following sections provide an overview of how to locate [!INCLUDE[navnow](includes/navnow_md.md)] documentation about developing pages.  

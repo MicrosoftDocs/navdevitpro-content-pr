@@ -1,11 +1,12 @@
 ---
-title: "TENANTID Function (Database)"
+title:"TENANTID Function (Database)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 070737cc-4fda-4fa9-84c6-976473d7e2e0
 caps.latest.revision: 3
 ---

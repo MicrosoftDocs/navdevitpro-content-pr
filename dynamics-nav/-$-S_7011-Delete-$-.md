@@ -1,11 +1,12 @@
 ---
-title: "($ S_7011 Delete $)"
+title:"($ S_7011 Delete $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 1c74e812-8b39-4a94-9dd9-62bbfb0a53a2
 caps.latest.revision: 3
 manager: edupont

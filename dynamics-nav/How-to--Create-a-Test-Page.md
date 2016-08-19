@@ -1,14 +1,15 @@
 ---
-title: "How to: Create a Test Page"
+title:"How to: Create a Test Page"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 4d5d9eb3-00e4-4ffb-9819-f93aae75d51c
 caps.latest.revision: 6
-manager: terryaus
+manager: edupont
 ---
 # How to: Create a Test Page
 You can create and open a test page in the following ways:  

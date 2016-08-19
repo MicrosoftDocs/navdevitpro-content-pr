@@ -1,14 +1,15 @@
 ---
-title: "OnAfterAssignField Trigger"
+title:"OnAfterAssignField Trigger"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: feda29f9-b64a-4720-930b-b7cd96c73434
 caps.latest.revision: 3
-manager: pchapman
+manager: edupont
 ---
 # OnAfterAssignField Trigger
 Executed after a field has been assigned a value and before it is validated and imported.  

@@ -1,14 +1,15 @@
 ---
-title: "MenuItemType Property"
+title:"MenuItemType Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: ead172ab-f80a-4a5e-94dd-5539653d2cc6
 caps.latest.revision: 5
-manager: pchapman
+manager: edupont
 ---
 # MenuItemType Property
 Sets the value for the type of menu item.  

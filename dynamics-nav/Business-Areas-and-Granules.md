@@ -1,14 +1,15 @@
 ---
-title: "Business Areas and Granules"
+title:"Business Areas and Granules"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 17868265-734d-448c-bc02-5aa9047f1dee
 caps.latest.revision: 9
-manager: pchapman
+manager: edupont
 ---
 # Business Areas and Granules
 [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] contains business areas. You can control how the license file controls the access that you have to these business areas and the functionality that they contain.  

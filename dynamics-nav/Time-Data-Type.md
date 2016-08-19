@@ -1,14 +1,15 @@
 ---
-title: "Time Data Type"
+title:"Time Data Type"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 0b0cdfc3-6d6e-4580-9fa6-2e18d12bcec5
 caps.latest.revision: 11
-manager: terryaus
+manager: edupont
 ---
 # Time Data Type
 Denotes a time ranging from 00:00:00.000 to 23:59:59.999. An undefined or blank time is specified by 0T.  

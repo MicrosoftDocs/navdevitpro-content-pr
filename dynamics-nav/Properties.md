@@ -1,14 +1,15 @@
 ---
-title: "Properties"
+title:"Properties"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 0ff73303-b92d-4ce0-9a41-3952f8de7b7a
 caps.latest.revision: 13
-manager: terryaus
+manager: edupont
 ---
 # Properties
 View the table of contents to see the complete list of properties that are available in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  

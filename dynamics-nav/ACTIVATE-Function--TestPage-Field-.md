@@ -1,14 +1,15 @@
 ---
-title: "ACTIVATE Function (TestPage Field)"
+title:"ACTIVATE Function (TestPage Field)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: bddc2e9d-c86c-41bd-800e-372be22d4e3c
 caps.latest.revision: 4
-manager: terryaus
+manager: edupont
 ---
 # ACTIVATE Function (TestPage Field)
 Activates a field on a test page.  

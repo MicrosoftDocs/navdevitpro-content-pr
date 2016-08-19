@@ -1,14 +1,15 @@
 ---
-title: "How to: Define or Modify Table or Field Triggers"
+title:"How to: Define or Modify Table or Field Triggers"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: c300ddfe-2622-42b0-a836-89a0a473d55e
 caps.latest.revision: 5
-manager: pchapman
+manager: edupont
 ---
 # How to: Define or Modify Table or Field Triggers
 The following procedure describes how to set up a trigger.  

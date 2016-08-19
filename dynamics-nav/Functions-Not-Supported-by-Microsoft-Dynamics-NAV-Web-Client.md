@@ -1,14 +1,15 @@
 ---
-title: "Functions Not Supported by Microsoft Dynamics NAV Web Client"
+title:"Functions Not Supported by Microsoft Dynamics NAV Web Client"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 9261b412-a16b-4732-8e1e-c627e0d5b54a
 caps.latest.revision: 10
-manager: terryaus
+manager: edupont
 ---
 # Functions Not Supported by Microsoft Dynamics NAV Web Client
 This topic lists the C\/AL functions and data types that are not supported or partially supported by [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information about partially supported functions, see the function topic in the reference section.  

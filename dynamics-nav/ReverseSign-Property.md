@@ -1,14 +1,15 @@
 ---
-title: "ReverseSign Property"
+title:"ReverseSign Property"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 1a82a17a-7145-4cf9-a1d7-8ae71c9fb1b7
 caps.latest.revision: 6
-manager: terryaus
+manager: edupont
 ---
 # ReverseSign Property
 Changes negative values into positive values and positive values into negative values in a column of a resulting query dataset.  

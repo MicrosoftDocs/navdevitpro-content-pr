@@ -1,14 +1,15 @@
 ---
-title: "FILENAME Function (XMLport)"
+title:"FILENAME Function (XMLport)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 7aa05537-55ce-4d4a-b8f0-8e0a46908ac5
 caps.latest.revision: 12
-manager: terryaus
+manager: edupont
 ---
 # FILENAME Function (XMLport)
 Gets the current value of the [FileName Property](FileName-Property.md) of an XMLport and sets this property to a new value.  

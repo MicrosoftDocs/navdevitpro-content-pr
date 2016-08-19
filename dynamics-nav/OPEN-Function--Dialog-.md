@@ -1,11 +1,12 @@
 ---
-title: "OPEN Function (Dialog)"
+title:"OPEN Function (Dialog)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 21a9ac9a-31a7-4b86-b2f0-bb0ea924c5ee
 caps.latest.revision: 17
 ---

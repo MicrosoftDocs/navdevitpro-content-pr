@@ -1,11 +1,12 @@
 ---
-title: "Namespaces Property"
+title:"Namespaces Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: cd6bcd37-7b5d-4d06-a551-5569555160dc
 caps.latest.revision: 7
 manager: edupont

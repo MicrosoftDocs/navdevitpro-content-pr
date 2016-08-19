@@ -1,14 +1,15 @@
 ---
-title: "GOTOKEY Function (TestPage)"
+title:"GOTOKEY Function (TestPage)"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: e880f74c-c0a9-498f-8c91-bfcf207680bf
 caps.latest.revision: 3
-manager: terryaus
+manager: edupont
 ---
 # GOTOKEY Function (TestPage)
 Finds the row in a dataset on the test page that is identified by the specified values.  

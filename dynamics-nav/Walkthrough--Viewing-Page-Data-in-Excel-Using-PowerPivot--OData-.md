@@ -1,14 +1,15 @@
 ---
-title: "Walkthrough: Viewing Page Data in Excel Using PowerPivot (OData)"
+title:"Walkthrough: Viewing Page Data in Excel Using PowerPivot (OData)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 050d7047-d95d-424a-97c1-c115000c679e
 caps.latest.revision: 25
-manager: terryaus
+manager: edupont
 ---
 # Walkthrough: Viewing Page Data in Excel Using PowerPivot (OData)
 This walkthrough describes how you can use OData to expose a [!INCLUDE[navnowlong](includes/navnowlong_md.md)] page as a web service and then analyze the page data using Microsoft PowerPivot for Excel 2013. Similar steps also apply to PowerPivot for Excel 2010. For information about PowerPivot, see [Microsoft PowerPivot](http://go.microsoft.com/fwlink/?LinkID=199906).  

@@ -1,11 +1,12 @@
 ---
-title: "Indentation Property (XMLports)"
+title:"Indentation Property (XMLports)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 5c2d7eb6-0839-462c-9034-19777012c2aa
 caps.latest.revision: 5
 ---

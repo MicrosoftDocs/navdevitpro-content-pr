@@ -1,14 +1,15 @@
 ---
-title: "SERIALNUMBER Function (Database)"
+title:"SERIALNUMBER Function (Database)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 66cf96ca-4a19-495d-8927-078007debe13
 caps.latest.revision: 13
-manager: pchapman
+manager: edupont
 ---
 # SERIALNUMBER Function (Database)
 Gets a string that contains the serial number of the license file for your [!INCLUDE[navnow](includes/navnow_md.md)] system.  

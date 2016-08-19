@@ -1,11 +1,12 @@
 ---
-title: "Managing Permissions and Permission Sets"
+title:"Managing Permissions and Permission Sets"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 392ea3d8-e127-4a7a-8404-c558aa8fef50
 caps.latest.revision: 21
 ---

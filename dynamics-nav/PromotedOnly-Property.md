@@ -1,11 +1,12 @@
 ---
-title: "PromotedOnly Property"
+title:"PromotedOnly Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 516cecd6-1623-4c0a-9191-f88e626964d1
 caps.latest.revision: 3
 manager: edupont

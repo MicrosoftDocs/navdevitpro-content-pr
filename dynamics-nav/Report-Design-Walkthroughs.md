@@ -1,14 +1,15 @@
 ---
-title: "Report Design Walkthroughs"
+title:"Report Design Walkthroughs"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: e0b0d3e0-6471-4994-b75d-23173b6dd75f
 caps.latest.revision: 12
-manager: terryaus
+manager: edupont
 ---
 # Report Design Walkthroughs
 The following topics describe end\-to\-end processes that you can follow to design and modify reports.  

@@ -1,14 +1,15 @@
 ---
-title: "Walkthrough: Creating a Customer List in Page Designer"
+title:"Walkthrough: Creating a Customer List in Page Designer"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: ea8f5be6-3afd-42e3-badc-c956e369cc0b
 caps.latest.revision: 27
-manager: terryaus
+manager: edupont
 ---
 # Walkthrough: Creating a Customer List in Page Designer
 In this walkthrough, you will learn how to create a basic page that displays a list of customers.  

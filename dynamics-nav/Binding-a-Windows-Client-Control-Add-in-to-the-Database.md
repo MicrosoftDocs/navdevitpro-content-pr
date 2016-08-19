@@ -1,14 +1,15 @@
 ---
-title: "Binding a Windows Client Control Add-in to the Database"
+title:"Binding a Windows Client Control Add-in to the Database"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 6a587bf8-4eeb-40e9-809a-95643842e90f
 caps.latest.revision: 24
-manager: terryaus
+manager: edupont
 ---
 # Binding a Windows Client Control Add-in to the Database
 Similar to other field controls on a page, a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add\-in can bind with data in the [!INCLUDE[navnow](includes/navnow_md.md)] database. This lets you create control add\-ins that can display and update data in the database. Data binding is accomplished through [!INCLUDE[nav_server](includes/nav_server_md.md)] with the [SourceExpr Property](SourceExpr-Property.md) of the field control that is applied with the control add\-in, as shown in the following illustration.  

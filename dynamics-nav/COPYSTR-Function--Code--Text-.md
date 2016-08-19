@@ -1,14 +1,15 @@
 ---
-title: "COPYSTR Function (Code, Text)"
+title:"COPYSTR Function (Code, Text)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: e749fda4-e8fc-4b26-b7ad-13ccfd24bdd4
 caps.latest.revision: 10
-manager: pchapman
+manager: edupont
 ---
 # COPYSTR Function (Code, Text)
 Copies a substring of any length from a specific position in a string \(text or code\) to a new string.  

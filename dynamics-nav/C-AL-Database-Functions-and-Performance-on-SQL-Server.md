@@ -1,14 +1,15 @@
 ---
-title: "C-AL Database Functions and Performance on SQL Server"
+title:"C-AL Database Functions and Performance on SQL Server"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 59f99e81-9f9a-4d25-83c3-581f5c2bec26
 caps.latest.revision: 25
-manager: terryaus
+manager: edupont
 ---
 # C-AL Database Functions and Performance on SQL Server
 This topic describes the relationship between basic database functions in C\/AL and SQL statements.  

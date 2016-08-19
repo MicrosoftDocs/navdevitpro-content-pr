@@ -1,11 +1,12 @@
 ---
-title: "SETFILTER Function (FieldRef)"
+title:"SETFILTER Function (FieldRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: bb385c41-5247-442b-8d22-48ce09b16ee8
 caps.latest.revision: 18
 ---

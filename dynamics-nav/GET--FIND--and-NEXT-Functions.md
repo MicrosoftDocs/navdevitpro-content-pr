@@ -1,14 +1,15 @@
 ---
-title: "GET, FIND, and NEXT Functions"
+title:"GET, FIND, and NEXT Functions"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 800587f2-90cc-4492-8fd8-a94bc91d1fe1
 caps.latest.revision: 15
-manager: terryaus
+manager: edupont
 ---
 # GET, FIND, and NEXT Functions
 The following functions are used to search for records:  

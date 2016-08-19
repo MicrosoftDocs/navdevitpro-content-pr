@@ -1,14 +1,15 @@
 ---
-title: "Exposing Events and Calling Respective C-AL Triggers from a Windows Client Control Add-in"
+title:"Exposing Events and Calling Respective C-AL Triggers from a Windows Client Control Add-in"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 4baba7c1-69be-4b6a-a089-36eb2b8d436a
 caps.latest.revision: 20
-manager: terryaus
+manager: edupont
 ---
 # Exposing Events and Calling Respective C-AL Triggers from a Windows Client Control Add-in
 The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] pages include an all\-purpose [OnControlAddin Trigger](OnControlAddin-Trigger.md) on field controls that control add\-ins can invoke to run C\/AL code. No code is needed to introduce this event into C\/AL. To invoke the **OnControlAddIn** trigger, a control add\-in sends an event to [!INCLUDE[nav_server](includes/nav_server_md.md)], as shown in the following illustration.  

@@ -1,14 +1,15 @@
 ---
-title: "OnBeforePassField Trigger"
+title:"OnBeforePassField Trigger"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 955cfa9a-feca-49ad-b126-4eca6fd51df0
 caps.latest.revision: 3
-manager: pchapman
+manager: edupont
 ---
 # OnBeforePassField Trigger
 Executed before a field is passed to the XML document.  
