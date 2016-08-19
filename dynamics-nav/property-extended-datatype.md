@@ -33,6 +33,7 @@ Sets the extended data type of a control.
 -   Ratio \(to monitor the progress bar\)
 -   Masked \(displays the value as dots\)
 -   Person \(displays a media field value as a round picture\) 
+-   Resource \(The client will use the field content as a bitmap resource name from which it will load a brick icon\)
 
  This property affects the layout and behavior of controls on a page. Use it to e.g. add an icon next to an input field to indicate whether the field relates to a telephone number, email address, or URL. This property applies validation to the field.  
 
