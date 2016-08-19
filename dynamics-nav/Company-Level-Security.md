@@ -1,0 +1,27 @@
+---
+title: "Company-Level Security"
+ms.custom: na
+ms.date: 06/05/2016
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: article
+ms.assetid: d8c858df-9918-44be-b0ae-c3bfcdc29a77
+caps.latest.revision: 14
+manager: pchapman
+---
+# Company-Level Security
+After you have gained access to the database, you can open the company that you want to work with.  
+  
+## Opening a Company  
+ Use the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] to open a company. For more information, see [\($ S\_COMPANY How to: Select a Company $\)](../Topic/\($%20S_COMPANY%20How%20to:%20Select%20a%20Company%20$\).md). The **Select Company** window lists all of the companies that have been created in the current database and that you have been given permission to access. A [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database can contain several companies. Each company can use its own tables and can also share tables with other companies.  
+  
+ Select the company that you want to open, choose **OK**, and the company opens. If there are companies in the database that you have not been given permissions to access, you will not be able to see them in this window.  
+  
+## Managing User Access to Companies  
+ When you assign a permission set to a user, you can specify a company to restrict the user’s access for that permission set to that specific company. For more information, see [How to: Define Permissions for Users](../Topic/How%20to:%20Define%20Permissions%20for%20Users.md).  
+  
+## See Also  
+ [Data Security](../dynamics-nav/Data-Security.md)   
+ [Business Areas and Granules](../dynamics-nav/Business-Areas-and-Granules.md)   
+ [Object\-Level Security](../dynamics-nav/Object-Level-Security.md)

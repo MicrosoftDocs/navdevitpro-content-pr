@@ -1,0 +1,33 @@
+---
+title: "How to: Create a FlowField"
+ms.custom: na
+ms.date: 06/04/2016
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: article
+ms.assetid: 2f6560a1-33a5-4fee-beac-fa6a3100c85a
+caps.latest.revision: 11
+manager: pchapman
+---
+# How to: Create a FlowField
+The following procedure describes how to set up a FlowField.  
+  
+### To create a FlowField  
+  
+1.  On the **Tools** menu, choose **Object Designer**. Open the table that you want to add a FlowField to in the Table Designer.  
+  
+2.  Select the line for the field that you want to define as a FlowField, such as the **Amount** field.  
+  
+3.  On the **View** menu, choose **Properties**. The **Properties** window of the **Amount** field displays.  
+  
+4.  In the **FieldClass** property field, select **FlowField** from the drop\-down list.  
+  
+5.  In the **CalcFormula** property field, enter the calculation formula for the FlowField.  
+  
+     For more information, see [Calculation Formulas and the CalcFormula Property](../dynamics-nav/Calculation-Formulas-and-the-CalcFormula-Property.md).  
+  
+6.  \(optional\) In the **Editable** field, select **No**.  
+  
+## See Also  
+ [How to: Create, View, and Edit a Calculation Formula](../Topic/How%20to:%20Create,%20View,%20and%20Edit%20a%20Calculation%20Formula.md)

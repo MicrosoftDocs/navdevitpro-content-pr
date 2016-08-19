@@ -1,0 +1,33 @@
+---
+title: "Custom Option"
+ms.custom: na
+ms.date: 06/05/2016
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: article
+ms.assetid: ad0c2641-1896-48c5-bc9d-2af5cb695900
+caps.latest.revision: 21
+manager: terryaus
+---
+# Custom Option
+The Custom option is available on the **Choose an installation option** page in [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] Setup.  
+  
+## Installed Components  
+ The Custom option offers the full list of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] components from which you can select individual components to install. In this way, it differs from the other installation options that are available on the **Choose an installation option** page, which are subsets of available components for a particular type of user or configuration. For more information, see [How to: Choose Components to Install](../Topic/How%20to:%20Choose%20Components%20to%20Install.md). You can use this list to design your own installation option.  
+  
+|Component|Description|Additional options|  
+|---------------|-----------------|------------------------|  
+|Client|[!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]|-   [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)]<br />-   Microsoft Office Excel Add\-In|  
+|Administration Tool|[!INCLUDE[nav_admin](../dynamics-nav/includes/nav_admin_md.md)]|Not applicable|  
+|Server|[!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]|-   Microsoft Office Outlook Integration<br />-   Page Testability|  
+|SQL Server Database Components|Microsoft SQL Server|-   Demo Database|  
+|Microsoft Office Outlook Add\-in|Adds a toolbar to Microsoft Outlook to enable synchronization of contacts, appointments, and tasks.|Not applicable|  
+|Automated Data Capture System|Enables the tracking of movements within a warehouse.|Not applicable|  
+|Web Server Components|Enables web clients to connect to a web browser.|Not applicable|  
+|Help Server|Installs a website that hosts the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Help content.|Not applicable|  
+|ClickOnce Installer Tools|Installs tools to facilitate with ClickOnce deployments.|Not applicable|  
+  
+## See Also  
+ [How to: Preconfigure Components](../Topic/How%20to:%20Preconfigure%20Components.md)   
+ [How to: Create or Load a Setup Configuration File](../Topic/How%20to:%20Create%20or%20Load%20a%20Setup%20Configuration%20File.md)

@@ -1,0 +1,29 @@
+---
+title: "How to: Sign Up for a Microsoft Account"
+ms.custom: na
+ms.date: 06/05/2016
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: article
+ms.assetid: 1405f86c-5ec5-4262-99be-33ac790d7317
+caps.latest.revision: 9
+manager: tsiggaar
+---
+# How to: Sign Up for a Microsoft Account
+You use a Microsoft account to sign in to the Microsoft Azure Management Portal when you configure [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] for use of Azure Active Directory \(Azure AD\) as authentication mechanism, or if you deploy [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] on Azure.  
+  
+### To obtain a Microsoft account  
+  
+-   Visit the [sign\-up page](http://go.microsoft.com/fwlink/?LinkId=271493).  
+  
+     For more information about Microsoft accounts, see the [What is a Microsoft account?](http://go.microsoft.com/fwlink/?LinkId=271494).  
+  
+## See Also  
+ [Authenticating Users with Microsoft Azure Access Control Service](../dynamics-nav/Authenticating-Users-with-Microsoft-Azure-Access-Control-Service.md)   
+ [Authenticating Users with Azure Active Directory](../dynamics-nav/Authenticating-Users-with-Azure-Active-Directory.md)   
+ [Users and Credential Types](../dynamics-nav/Users-and-Credential-Types.md)   
+ [Integrating Microsoft Dynamics NAV in SharePoint Sites](../dynamics-nav/Integrating-Microsoft-Dynamics-NAV-in-SharePoint-Sites.md)   
+ [Preparing for Deploying Microsoft Dynamics NAV on Microsoft Azure](../dynamics-nav/Preparing-for-Deploying-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
+ [Deploying Microsoft Dynamics NAV Using the Example Scripts](../dynamics-nav/Deploying-Microsoft-Dynamics-NAV-Using-the-Example-Scripts.md)   
+ [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](../dynamics-nav/Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)

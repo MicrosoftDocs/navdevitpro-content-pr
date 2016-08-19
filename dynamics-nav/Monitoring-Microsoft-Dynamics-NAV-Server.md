@@ -1,0 +1,21 @@
+---
+title: "Monitoring Microsoft Dynamics NAV Server"
+ms.custom: na
+ms.date: 06/05/2016
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: article
+ms.assetid: 8c00ad4b-c6c1-4999-a077-ed20bad3366c
+caps.latest.revision: 5
+---
+# Monitoring Microsoft Dynamics NAV Server
+This section describes the [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] features for monitoring [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)].  
+  
+## In this section  
+  
+-   [Tools for Monitoring Performance Counters and Events](../dynamics-nav/Tools-for-Monitoring-Performance-Counters-and-Events.md)  
+  
+-   [Monitoring Microsoft Dynamics NAV Server Using Performance Counters](../dynamics-nav/Monitoring-Microsoft-Dynamics-NAV-Server-Using-Performance-Counters.md)  
+  
+-   [Monitoring Microsoft Dynamics NAV Server Events](../dynamics-nav/Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)
