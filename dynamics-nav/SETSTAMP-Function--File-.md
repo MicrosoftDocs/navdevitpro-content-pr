@@ -1,12 +1,12 @@
 ---
-title:"SETSTAMP Function (File)"
+title: "SETSTAMP Function (File)"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 4fed0863-e6a1-4bb6-9291-05c527cc652e
 caps.latest.revision: 13
 manager: edupont

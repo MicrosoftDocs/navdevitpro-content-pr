@@ -1,12 +1,12 @@
 ---
-title:"TestPage Data Type"
+title: "TestPage Data Type"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: c702a57a-726f-43ec-978f-cabd2131a0ea
 caps.latest.revision: 6
 manager: edupont

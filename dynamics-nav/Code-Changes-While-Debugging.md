@@ -1,12 +1,12 @@
 ---
-title:"Code Changes While Debugging"
+title: "Code Changes While Debugging"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 28076d19-b29f-4db2-96f8-4ab3900855ce
 caps.latest.revision: 3
 manager: edupont

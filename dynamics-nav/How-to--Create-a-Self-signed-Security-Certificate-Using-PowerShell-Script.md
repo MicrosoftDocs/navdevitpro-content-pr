@@ -1,12 +1,12 @@
 ---
-title:"How to: Create a Self-signed Security Certificate Using PowerShell Script"
+title: "How to: Create a Self-signed Security Certificate Using PowerShell Script"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 227a75d5-2eed-4a88-acea-1a280aaef027
 caps.latest.revision: 13
 manager: edupont

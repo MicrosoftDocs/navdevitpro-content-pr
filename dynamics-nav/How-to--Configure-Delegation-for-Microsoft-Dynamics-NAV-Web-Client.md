@@ -1,12 +1,12 @@
 ---
-title:"How to: Configure Delegation for Microsoft Dynamics NAV Web Client"
+title: "How to: Configure Delegation for Microsoft Dynamics NAV Web Client"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 186b2dcd-97d5-499d-928e-15c069bb18f1
 caps.latest.revision: 13
 manager: edupont

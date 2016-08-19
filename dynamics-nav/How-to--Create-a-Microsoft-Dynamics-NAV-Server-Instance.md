@@ -1,12 +1,12 @@
 ---
-title:"How to: Create a Microsoft Dynamics NAV Server Instance"
+title: "How to: Create a Microsoft Dynamics NAV Server Instance"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: cdd7aa24-38cd-4c42-99d0-7003cb9b49f4
 caps.latest.revision: 9
 manager: edupont

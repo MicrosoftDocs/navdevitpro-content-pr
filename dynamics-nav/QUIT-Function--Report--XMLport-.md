@@ -1,12 +1,12 @@
 ---
-title:"QUIT Function (Report, XMLport)"
+title: "QUIT Function (Report, XMLport)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 5ec8d038-e2b8-433a-9b33-8096ade4bae9
 caps.latest.revision: 7
 manager: edupont

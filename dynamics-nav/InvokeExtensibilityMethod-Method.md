@@ -1,12 +1,12 @@
 ---
-title:"InvokeExtensibilityMethod Method"
+title: "InvokeExtensibilityMethod Method"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 263b313f-935b-4eb9-b0d6-171f3b08f9c1
 caps.latest.revision: 8
 ---

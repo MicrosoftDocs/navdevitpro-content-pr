@@ -1,12 +1,12 @@
 ---
-title:"Configuring the Web Browser for the Microsoft Dynamics NAV Web Client"
+title: "Configuring the Web Browser for the Microsoft Dynamics NAV Web Client"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 017f2aa5-5d9a-4dde-819c-53ef702f2f62
 caps.latest.revision: 6
 manager: edupont

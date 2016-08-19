@@ -1,12 +1,12 @@
 ---
-title:"Walkthrough: Creating a Role Center"
+title: "Walkthrough: Creating a Role Center"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 3cf074ae-86a3-419f-ae85-ceddc8544002
 caps.latest.revision: 32
 manager: edupont

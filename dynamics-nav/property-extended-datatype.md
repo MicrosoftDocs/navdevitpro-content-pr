@@ -1,5 +1,5 @@
 <properties
-                title:"ExtendedDataType Property | Dynamics NAV"
+                title: "ExtendedDataType Property | Dynamics NAV"
                 description="Partial migration of topic for the ExtendedDataType property."
                 services=""
                 documentationCenter=""

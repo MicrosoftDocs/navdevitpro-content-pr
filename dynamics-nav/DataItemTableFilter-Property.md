@@ -1,12 +1,12 @@
 ---
-title:"DataItemTableFilter Property"
+title: "DataItemTableFilter Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 1ed10f7d-2c47-4b96-b064-d8f8479e6473
 caps.latest.revision: 8
 manager: edupont

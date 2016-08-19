@@ -1,12 +1,12 @@
 ---
-title:"Troubleshooting: Device Date is Causing Connection Issues"
+title: "Troubleshooting: Device Date is Causing Connection Issues"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: ebf1d36f-0b78-4026-9f5c-7b2a9b5ce9c1
 caps.latest.revision: 3
 manager: edupont

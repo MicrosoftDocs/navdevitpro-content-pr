@@ -1,12 +1,12 @@
 ---
-title:"OnAssistEdit Trigger"
+title: "OnAssistEdit Trigger"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 8b1ead83-80f1-42cc-b091-d0732efc156b
 caps.latest.revision: 11
 manager: edupont

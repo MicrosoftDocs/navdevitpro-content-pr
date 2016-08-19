@@ -1,12 +1,12 @@
 ---
-title:"IMPORTDATA Function (Database)"
+title: "IMPORTDATA Function (Database)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 1208c431-8d3d-4cc7-9696-98533d992ebb
 caps.latest.revision: 3
 ---

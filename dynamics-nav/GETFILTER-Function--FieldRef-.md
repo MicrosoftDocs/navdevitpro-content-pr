@@ -1,12 +1,12 @@
 ---
-title:"GETFILTER Function (FieldRef)"
+title: "GETFILTER Function (FieldRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 65221170-c9fb-4563-984b-386229e38410
 caps.latest.revision: 15
 ---

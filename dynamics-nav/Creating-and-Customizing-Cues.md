@@ -1,12 +1,12 @@
 ---
-title:"Creating and Customizing Cues"
+title: "Creating and Customizing Cues"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 3b95ce45-d4c5-45e4-8463-8fc2cbe668f8
 caps.latest.revision: 11
 manager: edupont

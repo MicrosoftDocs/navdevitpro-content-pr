@@ -1,12 +1,12 @@
 ---
-title:"How to: Create Microsoft Dynamics NAV Users"
+title: "How to: Create Microsoft Dynamics NAV Users"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 3ff41005-9430-4fb9-84e8-33b4c056f61d
 caps.latest.revision: 41
 manager: edupont

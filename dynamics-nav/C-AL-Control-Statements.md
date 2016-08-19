@@ -1,12 +1,12 @@
 ---
-title:"C-AL Control Statements"
+title: "C-AL Control Statements"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: cea1b445-58fe-4c4d-9843-7700e64bb46f
 caps.latest.revision: 8
 manager: edupont

@@ -1,12 +1,12 @@
 ---
-title:"How to: Modify Menu Items in a MenuSuite"
+title: "How to: Modify Menu Items in a MenuSuite"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 75036bbe-8bb0-455e-ac76-2ab3ed61b617
 caps.latest.revision: 26
 manager: edupont

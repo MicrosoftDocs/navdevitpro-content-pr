@@ -1,12 +1,12 @@
 ---
-title:"FileName Property"
+title: "FileName Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 3e0784ae-24f0-406b-814c-07e2d16839d8
 caps.latest.revision: 12
 ---

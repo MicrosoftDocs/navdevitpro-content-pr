@@ -1,12 +1,12 @@
 ---
-title:"How to: Copy the URL to Open a Page or Report"
+title: "How to: Copy the URL to Open a Page or Report"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 15a49abe-733c-43ba-9e3f-553ef31f009a
 caps.latest.revision: 2
 ---

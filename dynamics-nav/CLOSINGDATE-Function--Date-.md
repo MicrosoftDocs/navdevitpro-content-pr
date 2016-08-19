@@ -1,12 +1,12 @@
 ---
-title:"CLOSINGDATE Function (Date)"
+title: "CLOSINGDATE Function (Date)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: ff8ed675-00d3-4d11-af67-3ffc0621d3a7
 caps.latest.revision: 18
 ---

@@ -1,12 +1,12 @@
 ---
-title:"Walkthrough: Transferring a File from Microsoft Dynamics NAV Server to the Client"
+title: "Walkthrough: Transferring a File from Microsoft Dynamics NAV Server to the Client"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 93eb2594-bbb5-4f0a-b529-aa011029ad50
 caps.latest.revision: 17
 manager: edupont

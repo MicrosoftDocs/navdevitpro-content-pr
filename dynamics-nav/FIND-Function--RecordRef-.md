@@ -1,12 +1,12 @@
 ---
-title:"FIND Function (RecordRef)"
+title: "FIND Function (RecordRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 73ef42a1-f928-4093-b6f2-9144e822be2b
 caps.latest.revision: 17
 ---

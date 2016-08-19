@@ -1,12 +1,12 @@
 ---
-title:"OrderBy Property"
+title: "OrderBy Property"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 5e093f0e-7e9c-4bb0-af90-ec8dc9ea5595
 caps.latest.revision: 8
 manager: edupont

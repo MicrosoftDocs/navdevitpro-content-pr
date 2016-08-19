@@ -1,12 +1,12 @@
 ---
-title:"OnPreReport Trigger"
+title: "OnPreReport Trigger"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 069bf4ef-0cbd-4416-856f-a6eebf068e98
 caps.latest.revision: 6
 ---

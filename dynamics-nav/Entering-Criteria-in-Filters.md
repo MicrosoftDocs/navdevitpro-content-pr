@@ -1,12 +1,12 @@
 ---
-title:"Entering Criteria in Filters"
+title: "Entering Criteria in Filters"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 22979d5b-3f42-49e1-ad82-5a5b47fda4b1
 caps.latest.revision: 5
 manager: edupont

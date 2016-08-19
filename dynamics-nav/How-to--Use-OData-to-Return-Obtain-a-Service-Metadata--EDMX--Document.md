@@ -1,12 +1,12 @@
 ---
-title:"How to: Use OData to Return-Obtain a Service Metadata (EDMX) Document"
+title: "How to: Use OData to Return-Obtain a Service Metadata (EDMX) Document"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 7d77f649-ff15-4f78-a090-ec8499e5122c
 caps.latest.revision: 16
 manager: edupont

@@ -1,12 +1,12 @@
 ---
-title:"How to: Run Setup"
+title: "How to: Run Setup"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: e4bd0a48-9e21-44e3-8a5d-858f02af5206
 caps.latest.revision: 24
 ---

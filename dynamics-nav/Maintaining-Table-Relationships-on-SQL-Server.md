@@ -1,12 +1,12 @@
 ---
-title:"Maintaining Table Relationships on SQL Server"
+title: "Maintaining Table Relationships on SQL Server"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 8d05fd7b-5132-48a3-8089-67528185c4cb
 caps.latest.revision: 6
 manager: edupont

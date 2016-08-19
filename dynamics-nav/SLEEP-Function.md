@@ -1,12 +1,12 @@
 ---
-title:"SLEEP Function"
+title: "SLEEP Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: e4610f5e-a86b-4994-a6d6-05922716565d
 caps.latest.revision: 8
 manager: edupont

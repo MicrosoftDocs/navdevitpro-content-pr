@@ -1,12 +1,12 @@
 ---
-title:"How to: Add FastTabs to a Customer Card Page"
+title: "How to: Add FastTabs to a Customer Card Page"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: b7bbaee2-e83e-46d3-95e1-ddef7e317ae8
 caps.latest.revision: 20
 manager: edupont

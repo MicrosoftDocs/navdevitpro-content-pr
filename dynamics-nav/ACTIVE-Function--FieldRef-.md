@@ -1,12 +1,12 @@
 ---
-title:"ACTIVE Function (FieldRef)"
+title: "ACTIVE Function (FieldRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 8dbe2401-6f58-4e13-85f5-3fb5db9228d1
 caps.latest.revision: 18
 ---

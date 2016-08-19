@@ -1,12 +1,12 @@
 ---
-title:"RUN Function (Codeunit)"
+title: "RUN Function (Codeunit)"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 35b58153-17d6-4906-81e9-489a21ff6ffa
 caps.latest.revision: 10
 manager: edupont

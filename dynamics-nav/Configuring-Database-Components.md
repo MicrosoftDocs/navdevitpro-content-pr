@@ -1,12 +1,12 @@
 ---
-title:"Configuring Database Components"
+title: "Configuring Database Components"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 1b590d6f-c38e-40f1-8c9e-d1c8070e05a3
 caps.latest.revision: 19
 manager: edupont

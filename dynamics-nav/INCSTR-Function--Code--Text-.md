@@ -1,12 +1,12 @@
 ---
-title:"INCSTR Function (Code, Text)"
+title: "INCSTR Function (Code, Text)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: eb1af7a5-2630-4bb2-b3b4-49898582e90f
 caps.latest.revision: 12
 manager: edupont

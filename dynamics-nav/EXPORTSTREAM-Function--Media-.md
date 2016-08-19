@@ -1,12 +1,12 @@
 ---
-title:"EXPORTSTREAM Function (Media)"
+title: "EXPORTSTREAM Function (Media)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 4e4b21e5-d738-4db6-b78b-218a48b96e09
 caps.latest.revision: 2
 ---

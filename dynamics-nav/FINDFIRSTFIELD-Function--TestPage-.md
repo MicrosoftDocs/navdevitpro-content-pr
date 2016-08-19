@@ -1,12 +1,12 @@
 ---
-title:"FINDFIRSTFIELD Function (TestPage)"
+title: "FINDFIRSTFIELD Function (TestPage)"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 91c8fec5-7f57-431b-93d1-a238e9249e7b
 caps.latest.revision: 7
 manager: edupont

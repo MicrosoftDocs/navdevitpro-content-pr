@@ -1,12 +1,12 @@
 ---
-title:"Communicating with Microsoft Dynamics NAV Clients in Different Time Zones"
+title: "Communicating with Microsoft Dynamics NAV Clients in Different Time Zones"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 5bf685b9-0629-4b03-8d88-8b60151acd9b
 caps.latest.revision: 34
 manager: edupont

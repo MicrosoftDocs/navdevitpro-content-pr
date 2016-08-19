@@ -1,12 +1,12 @@
 ---
-title:"ValuesAllowed Property"
+title: "ValuesAllowed Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 38807291-9e71-4a10-8c5a-e4f011061f1e
 caps.latest.revision: 11
 manager: edupont

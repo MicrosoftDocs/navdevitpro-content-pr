@@ -1,12 +1,12 @@
 ---
-title:"How to: Delete Databases"
+title: "How to: Delete Databases"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: a3e15f0b-0de8-4f48-bd38-f39b5437a85b
 caps.latest.revision: 7
 manager: edupont

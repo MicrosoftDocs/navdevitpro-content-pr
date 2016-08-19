@@ -1,12 +1,12 @@
 ---
-title:"MEDIAID Function (Media)"
+title: "MEDIAID Function (Media)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 85a4d825-8fc7-4a79-988e-3b867283eefe
 caps.latest.revision: 4
 manager: edupont

@@ -1,12 +1,12 @@
 ---
-title:"DECRYPT"
+title: "DECRYPT"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 1421d883-09c9-498e-873a-8965941f3f75
 caps.latest.revision: 5
 ---

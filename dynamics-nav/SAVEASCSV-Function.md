@@ -1,12 +1,12 @@
 ---
-title:"SAVEASCSV Function"
+title: "SAVEASCSV Function"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 21a88c17-da4e-4e3a-9cb5-2f8c4cfe2131
 caps.latest.revision: 21
 manager: edupont

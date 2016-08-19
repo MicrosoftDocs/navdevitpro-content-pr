@@ -1,12 +1,12 @@
 ---
-title:"Troubleshooting: Icon Font Not Loaded"
+title: "Troubleshooting: Icon Font Not Loaded"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 6456c6c6-de06-4bbc-8a34-ed097dc76296
 caps.latest.revision: 7
 manager: edupont

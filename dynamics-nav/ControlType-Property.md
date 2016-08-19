@@ -1,12 +1,12 @@
 ---
-title:"ControlType Property"
+title: "ControlType Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: c886feae-07bd-4de4-b457-4e2bd9f7e5a9
 caps.latest.revision: 6
 manager: edupont

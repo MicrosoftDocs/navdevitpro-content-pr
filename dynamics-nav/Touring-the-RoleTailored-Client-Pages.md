@@ -1,12 +1,12 @@
 ---
-title:"Touring the RoleTailored Client Pages"
+title: "Touring the RoleTailored Client Pages"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: caed17af-e669-4d8f-9c7c-bddd9136106c
 caps.latest.revision: 44
 manager: edupont

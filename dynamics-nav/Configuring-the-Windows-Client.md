@@ -1,12 +1,12 @@
 ---
-title:"Configuring the Windows Client"
+title: "Configuring the Windows Client"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 05e8a8fc-bcbd-4cd6-b16c-e4f52b7d5491
 caps.latest.revision: 70
 manager: edupont

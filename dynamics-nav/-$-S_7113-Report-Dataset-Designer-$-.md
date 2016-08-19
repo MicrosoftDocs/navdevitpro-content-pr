@@ -1,12 +1,12 @@
 ---
-title:"($ S_7113 Report Dataset Designer $)"
+title: "($ S_7113 Report Dataset Designer $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 9387ce5d-5b68-4d1b-86ee-b88f15d8537b
 caps.latest.revision: 8
 manager: edupont

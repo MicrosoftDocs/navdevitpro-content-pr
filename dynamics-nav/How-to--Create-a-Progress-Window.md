@@ -1,12 +1,12 @@
 ---
-title:"How to: Create a Progress Window"
+title: "How to: Create a Progress Window"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 89d7a1a1-f0ac-4998-b1c4-e47fb118932f
 caps.latest.revision: 8
 ---

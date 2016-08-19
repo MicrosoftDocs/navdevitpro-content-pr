@@ -1,12 +1,12 @@
 ---
-title:"EnableHyperlinks Property"
+title: "EnableHyperlinks Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 19978a91-2af9-4e9e-9f73-64c7be28897f
 caps.latest.revision: 14
 manager: edupont

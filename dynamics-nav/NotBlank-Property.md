@@ -1,12 +1,12 @@
 ---
-title:"NotBlank Property"
+title: "NotBlank Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: c33fa0c5-761f-4aba-a0af-00b2145c9be7
 caps.latest.revision: 17
 manager: edupont

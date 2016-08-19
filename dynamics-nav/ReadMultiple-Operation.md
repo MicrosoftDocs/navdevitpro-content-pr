@@ -1,12 +1,12 @@
 ---
-title:"ReadMultiple Operation"
+title: "ReadMultiple Operation"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: d3d63384-570f-40ea-a00d-72cada0b4620
 caps.latest.revision: 10
 manager: edupont

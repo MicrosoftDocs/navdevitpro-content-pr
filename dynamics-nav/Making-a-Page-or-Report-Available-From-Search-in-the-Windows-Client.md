@@ -1,12 +1,12 @@
 ---
-title:"Making a Page or Report Available From Search in the Windows Client"
+title: "Making a Page or Report Available From Search in the Windows Client"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 11869f85-b502-4348-879e-11e482b574f8
 caps.latest.revision: 5
 manager: edupont

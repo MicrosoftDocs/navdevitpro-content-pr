@@ -1,12 +1,12 @@
 ---
-title:"Using About This Page and About This Report"
+title: "Using About This Page and About This Report"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 0b18ff07-ed4d-4924-83a1-6a2f3d74084d
 caps.latest.revision: 16
 manager: edupont

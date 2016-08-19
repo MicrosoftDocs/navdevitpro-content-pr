@@ -1,12 +1,12 @@
 ---
-title:"How to: Mount a Tenant"
+title: "How to: Mount a Tenant"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 81caea90-e090-412a-997a-25b9e78dab96
 caps.latest.revision: 4
 ---

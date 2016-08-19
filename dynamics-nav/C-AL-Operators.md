@@ -1,12 +1,12 @@
 ---
-title:"C-AL Operators"
+title: "C-AL Operators"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: f34d9ae5-8dbd-406a-82c9-bbf064d2e871
 caps.latest.revision: 11
 manager: edupont

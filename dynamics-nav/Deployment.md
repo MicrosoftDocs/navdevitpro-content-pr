@@ -1,12 +1,12 @@
 ---
-title:"Deployment"
+title: "Deployment"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 0b0afe27-af2f-4172-b971-b4dd076d187a
 caps.latest.revision: 31
 manager: edupont

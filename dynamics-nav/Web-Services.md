@@ -1,12 +1,12 @@
 ---
-title:"Web Services"
+title: "Web Services"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 35c974ac-f27f-4c60-86ee-85525ce06cd9
 caps.latest.revision: 29
 manager: edupont

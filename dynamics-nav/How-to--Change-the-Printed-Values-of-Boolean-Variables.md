@@ -1,12 +1,12 @@
 ---
-title:"How to: Change the Printed Values of Boolean Variables"
+title: "How to: Change the Printed Values of Boolean Variables"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: a4d7b9c6-17f6-4083-b0fe-3b238b4e2138
 caps.latest.revision: 16
 manager: edupont

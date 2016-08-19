@@ -1,12 +1,12 @@
 ---
-title:"PromotedIsBig Property"
+title: "PromotedIsBig Property"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: e83bfe80-9c0e-468e-80b6-c9d184e64afe
 caps.latest.revision: 10
 manager: edupont

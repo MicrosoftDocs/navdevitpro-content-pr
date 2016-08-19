@@ -1,12 +1,12 @@
 ---
-title:"Handling Merge Conflicts"
+title: "Handling Merge Conflicts"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 22cddb12-180f-4dbf-8351-120caa9a55f0
 caps.latest.revision: 3
 ---

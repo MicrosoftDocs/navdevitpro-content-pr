@@ -1,12 +1,12 @@
 ---
-title:"SETRECFILTER Function (RecordRef)"
+title: "SETRECFILTER Function (RecordRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 8c5d6a10-c8e9-492e-9f66-bbf07895d230
 caps.latest.revision: 12
 ---

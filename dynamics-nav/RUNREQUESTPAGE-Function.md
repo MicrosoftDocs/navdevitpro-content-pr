@@ -1,12 +1,12 @@
 ---
-title:"RUNREQUESTPAGE Function"
+title: "RUNREQUESTPAGE Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: f3930bd5-9734-4d1a-8f78-1c7b44a59b4c
 caps.latest.revision: 7
 manager: edupont

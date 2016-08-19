@@ -1,12 +1,12 @@
 ---
-title:"Using COM Technologies in Microsoft Dynamics NAV"
+title: "Using COM Technologies in Microsoft Dynamics NAV"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 032fac86-f68a-4871-a08f-3c87f193d2d4
 caps.latest.revision: 17
 manager: edupont

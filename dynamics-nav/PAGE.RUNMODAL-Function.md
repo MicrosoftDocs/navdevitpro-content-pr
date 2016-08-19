@@ -1,12 +1,12 @@
 ---
-title:"PAGE.RUNMODAL Function"
+title: "PAGE.RUNMODAL Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 4b7765a4-2d90-4d2f-8a92-6d94d3b30209
 caps.latest.revision: 29
 manager: edupont

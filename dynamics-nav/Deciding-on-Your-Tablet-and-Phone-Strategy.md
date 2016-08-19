@@ -1,12 +1,12 @@
 ---
-title:"Deciding on Your Tablet and Phone Strategy"
+title: "Deciding on Your Tablet and Phone Strategy"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 87c32712-d160-4ebc-90c1-726f09dfdcc5
 caps.latest.revision: 21
 manager: edupont

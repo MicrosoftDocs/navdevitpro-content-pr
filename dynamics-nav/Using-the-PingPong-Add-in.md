@@ -1,12 +1,12 @@
 ---
-title:"Using the PingPong Add-in"
+title: "Using the PingPong Add-in"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: ed66301c-cdff-4992-9ef1-60fd744097e5
 caps.latest.revision: 3
 manager: edupont

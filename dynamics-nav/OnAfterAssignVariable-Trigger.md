@@ -1,12 +1,12 @@
 ---
-title:"OnAfterAssignVariable Trigger"
+title: "OnAfterAssignVariable Trigger"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: ccb82e83-31c7-40f2-b99c-7797bb2d0f3d
 caps.latest.revision: 3
 manager: edupont

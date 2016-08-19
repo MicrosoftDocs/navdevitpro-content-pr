@@ -1,12 +1,12 @@
 ---
-title:"How to: Add Translated Strings By Using the Multilanguage Editor"
+title: "How to: Add Translated Strings By Using the Multilanguage Editor"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 17ece886-9d04-4841-9836-c3f8ecd99f29
 caps.latest.revision: 17
 manager: edupont

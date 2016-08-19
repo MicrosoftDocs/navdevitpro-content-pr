@@ -1,12 +1,12 @@
 ---
-title:"SAVEASHTML Function (Report)"
+title: "SAVEASHTML Function (Report)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 5a570de4-a310-42ea-80f1-dd26d8e2b1a3
 caps.latest.revision: 18
 manager: edupont

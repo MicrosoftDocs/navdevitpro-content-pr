@@ -1,12 +1,12 @@
 ---
-title:"ISDATE Function (Variant)"
+title: "ISDATE Function (Variant)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 95420b45-4c60-489b-b71e-f56e63a84cb3
 caps.latest.revision: 9
 ---

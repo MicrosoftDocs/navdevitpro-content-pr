@@ -1,12 +1,12 @@
 ---
-title:"VARIANT2TIME Function"
+title: "VARIANT2TIME Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 2fa5fb1e-998c-4469-bd90-2ed0f64190fe
 caps.latest.revision: 10
 manager: edupont

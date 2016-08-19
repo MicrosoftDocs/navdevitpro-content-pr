@@ -1,12 +1,12 @@
 ---
-title:"Format Property"
+title: "Format Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 020f6704-393a-4bed-9d6e-05fb96498b23
 caps.latest.revision: 30
 manager: edupont

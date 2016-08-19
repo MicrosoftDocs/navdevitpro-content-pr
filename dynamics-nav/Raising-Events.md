@@ -1,12 +1,12 @@
 ---
-title:"Raising Events"
+title: "Raising Events"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 98c53cfb-5eb8-441f-9b88-b6020fefa3cf
 caps.latest.revision: 5
 manager: edupont

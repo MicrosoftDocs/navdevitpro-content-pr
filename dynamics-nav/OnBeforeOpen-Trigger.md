@@ -1,12 +1,12 @@
 ---
-title:"OnBeforeOpen Trigger"
+title: "OnBeforeOpen Trigger"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: ea037a45-e5f6-4f6c-a4ed-31d0a85c1e56
 caps.latest.revision: 7
 manager: edupont

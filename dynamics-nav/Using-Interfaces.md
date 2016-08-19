@@ -1,12 +1,12 @@
 ---
-title:"Using Interfaces"
+title: "Using Interfaces"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 23577936-4d02-4e73-96d6-6fc2ee40637b
 caps.latest.revision: 3
 manager: edupont

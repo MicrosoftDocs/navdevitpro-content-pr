@@ -1,12 +1,12 @@
 ---
-title:"Development Environment (C-SIDE)"
+title: "Development Environment (C-SIDE)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 0c5bad27-00dc-4123-9e28-0ea07f8dfbbb
 caps.latest.revision: 20
 manager: edupont

@@ -1,12 +1,12 @@
 ---
-title:"Number Ranges for Text Constants"
+title: "Number Ranges for Text Constants"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 066aa86d-86d8-4757-857a-00d992cccffd
 caps.latest.revision: 11
 manager: edupont

@@ -1,12 +1,12 @@
 ---
-title:"EventType Property"
+title: "EventType Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 0d10d3d0-071f-4241-8f07-58a15a0ee1b4
 caps.latest.revision: 4
 manager: edupont

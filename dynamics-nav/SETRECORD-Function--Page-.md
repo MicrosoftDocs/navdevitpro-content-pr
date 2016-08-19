@@ -1,12 +1,12 @@
 ---
-title:"SETRECORD Function (Page)"
+title: "SETRECORD Function (Page)"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: c89a0e5b-d8c7-4b2e-ab7b-0f3b31b0480a
 caps.latest.revision: 9
 manager: edupont

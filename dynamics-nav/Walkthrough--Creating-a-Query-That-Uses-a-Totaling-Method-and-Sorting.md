@@ -1,12 +1,12 @@
 ---
-title:"Walkthrough: Creating a Query That Uses a Totaling Method and Sorting"
+title: "Walkthrough: Creating a Query That Uses a Totaling Method and Sorting"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 692b5780-53c7-4747-9c2d-9b97afefeb81
 caps.latest.revision: 21
 manager: edupont

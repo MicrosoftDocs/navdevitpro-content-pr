@@ -1,12 +1,12 @@
 ---
-title:"($ S_2460 Insert Items $)"
+title: "($ S_2460 Insert Items $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: a7e3cc5d-f399-46d2-8dcf-61ea4974db52
 caps.latest.revision: 9
 manager: edupont

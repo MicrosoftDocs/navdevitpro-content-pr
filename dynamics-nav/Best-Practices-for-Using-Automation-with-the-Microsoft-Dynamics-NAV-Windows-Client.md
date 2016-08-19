@@ -1,12 +1,12 @@
 ---
-title:"Best Practices for Using Automation with the Microsoft Dynamics NAV Windows Client"
+title: "Best Practices for Using Automation with the Microsoft Dynamics NAV Windows Client"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 7340ea80-58cb-4ded-8ab8-4540c07e0050
 caps.latest.revision: 20
 manager: edupont

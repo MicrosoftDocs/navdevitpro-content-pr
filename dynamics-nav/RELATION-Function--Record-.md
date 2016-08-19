@@ -1,12 +1,12 @@
 ---
-title:"RELATION Function (Record)"
+title: "RELATION Function (Record)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 7ffa1126-0203-4d68-9298-8d7871f100b6
 caps.latest.revision: 10
 manager: edupont

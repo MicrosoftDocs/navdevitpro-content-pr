@@ -1,12 +1,12 @@
 ---
-title:"C-AL Constants"
+title: "C-AL Constants"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: cfd2fdd0-9bc6-4d6d-80da-d8a62ddaee78
 caps.latest.revision: 8
 manager: edupont

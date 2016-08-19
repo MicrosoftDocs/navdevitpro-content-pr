@@ -1,12 +1,12 @@
 ---
-title:"Walkthrough: Adding a FactBox to the Customer List Page"
+title: "Walkthrough: Adding a FactBox to the Customer List Page"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 0f088e64-b1bb-4b17-8617-2b1b6ccfa000
 caps.latest.revision: 23
 manager: edupont

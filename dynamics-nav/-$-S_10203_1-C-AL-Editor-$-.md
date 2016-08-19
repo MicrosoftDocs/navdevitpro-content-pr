@@ -1,12 +1,12 @@
 ---
-title:"($ S_10203_1 C-AL Editor $)"
+title: "($ S_10203_1 C-AL Editor $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: a5f800a8-aa88-4c75-b6d8-9806f6cfb415
 caps.latest.revision: 7
 manager: edupont

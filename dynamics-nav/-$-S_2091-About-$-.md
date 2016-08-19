@@ -1,12 +1,12 @@
 ---
-title:"($ S_2091 About $)"
+title: "($ S_2091 About $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: d449de2d-95b8-44d0-9f52-b9c63ee40999
 caps.latest.revision: 4
 manager: edupont

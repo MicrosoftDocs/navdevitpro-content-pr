@@ -1,12 +1,12 @@
 ---
-title:"How to: Create XMLports"
+title: "How to: Create XMLports"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: db7e208e-9780-40e2-a2f6-aeee8b7c1923
 caps.latest.revision: 11
 manager: edupont

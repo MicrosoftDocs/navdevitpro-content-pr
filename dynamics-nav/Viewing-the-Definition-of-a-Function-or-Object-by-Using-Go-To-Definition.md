@@ -1,12 +1,12 @@
 ---
-title:"Viewing the Definition of a Function or Object by Using Go To Definition"
+title: "Viewing the Definition of a Function or Object by Using Go To Definition"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: e453930e-af9f-446e-aa45-8ed75a684836
 caps.latest.revision: 19
 manager: edupont

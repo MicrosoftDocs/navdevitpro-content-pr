@@ -1,12 +1,12 @@
 ---
-title:"($ S_2122 Field List $)"
+title: "($ S_2122 Field List $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 23b55a7b-f57e-4cb3-94ec-2cbdebdb8fe1
 caps.latest.revision: 7
 manager: edupont

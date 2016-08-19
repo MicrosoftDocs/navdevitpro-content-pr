@@ -1,12 +1,12 @@
 ---
-title:"ISFILE Function (Variant)"
+title: "ISFILE Function (Variant)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 080d8097-77b0-4da9-a660-1889b0987f4b
 caps.latest.revision: 7
 manager: edupont

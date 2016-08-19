@@ -1,12 +1,12 @@
 ---
-title:"How to: Add and Identify Hidden Fields"
+title: "How to: Add and Identify Hidden Fields"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: d93e829b-5fd3-4f9d-a767-4f5ee5b3b4f1
 caps.latest.revision: 16
 manager: edupont
