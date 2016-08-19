@@ -1,0 +1,24 @@
+---
+title: "Configuring Microsoft SQL Server"
+ms.custom: na
+ms.date: 06/05/2016
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: article
+ms.assetid: b49fb4e0-bdc4-4844-b9b4-96f1b07161ac
+caps.latest.revision: 33
+manager: terryaus
+---
+# Configuring Microsoft SQL Server
+The topics in this section describe actions that you can take after installing [!INCLUDE[nav_current_short](../dynamics-nav/includes/nav_current_short_md.md)] and SQL Server to integrate the two products:  
+  
+-   [Setting Database Owner and Security Administration Permissions](../dynamics-nav/Setting-Database-Owner-and-Security-Administration-Permissions.md)  
+  
+-   [How to: Start SQL Browser Service](../Topic/How%20to:%20Start%20SQL%20Browser%20Service.md)  
+  
+-   [Troubleshooting: SQL Server Connection Problems](../Topic/Troubleshooting:%20SQL%20Server%20Connection%20Problems.md)  
+  
+## See Also  
+ [Installation and Configuration Walkthroughs](../dynamics-nav/Installation-and-Configuration-Walkthroughs.md)   
+ [Installation Considerations for Microsoft SQL Server](../dynamics-nav/Installation-Considerations-for-Microsoft-SQL-Server.md)

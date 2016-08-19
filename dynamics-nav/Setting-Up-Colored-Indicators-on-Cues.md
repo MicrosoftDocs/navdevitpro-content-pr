@@ -1,0 +1,37 @@
+---
+title: "Setting Up Colored Indicators on Cues"
+ms.custom: na
+ms.date: 06/05/2016
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: article
+ms.assetid: c29658cf-c786-4d10-bc4d-e02bc53fd88c
+caps.latest.revision: 4
+manager: edupont
+---
+# Setting Up Colored Indicators on Cues
+You can set up Cues with an indicator that changes color based on the data values in the Cues. The indicator appears as a bar along the top border of the Cue tile. It provides a visual signal of the status of the Cue's activity, which can indicate various conditions such as favorable or unfavorable to prompt the user to take action.  
+  
+ ![Cues on the Order Processor Role Center](../dynamics-nav/media/NAV_Cues_OrderProcessor.png "NAV\_Cues\_OrderProcessor")  
+  
+ For example, if a Cue displays open sales quotes, you can set up the indicator to appear green \(favorable\) when total number of open sales quotes is below 10, and appears red \(unfavorable\) when the total is greater than 20.  
+  
+ There are two ways that you can set up indicators.  
+  
+-   Using the Style or StyleExpr property of the Field control that defines the Cue.  
+  
+     With this method, you set up predefined indicators on a Cue\-By\-Cue basis.  
+  
+     For more information, see [How to: Set Up Colored Indicators on Cues by Using the Style and StyleExpr Property](../Topic/How%20to:%20Set%20Up%20Colored%20Indicators%20on%20Cues%20by%20Using%20the%20Style%20and%20StyleExpr%20Property.md).  
+  
+-   Coding the GetCueStyle trigger in codeunit 1  
+  
+     With this method, you define the logic for the indicators for all Cues in one place. Using the GetCueStyle trigger also enables you to provide customization of the indicators from the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] clients.  
+  
+     For more information, see [Setting Up Colored Indicators on Cues by Using Codeunit 1](../dynamics-nav/Setting-Up-Colored-Indicators-on-Cues-by-Using-Codeunit-1.md).  
+  
+## See Also  
+ [Creating and Customizing Cues](../dynamics-nav/Creating-and-Customizing-Cues.md)   
+ [Walkthrough: Creating a Cue Based on a FlowField](../Topic/Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20FlowField.md)   
+ [Walkthrough: Creating a Cue Based on a Normal Field and a Query](../Topic/Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20Normal%20Field%20and%20a%20Query.md)
