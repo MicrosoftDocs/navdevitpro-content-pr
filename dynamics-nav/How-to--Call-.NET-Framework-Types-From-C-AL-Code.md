@@ -1,14 +1,15 @@
 ---
-title: "How to: Call .NET Framework Types From C-AL Code"
+title:"How to: Call .NET Framework Types From C-AL Code"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 5900cae9-c742-4c66-812c-ab9a82887eba
 caps.latest.revision: 19
-manager: terryaus
+manager: edupont
 ---
 # How to: Call .NET Framework Types From C-AL Code
 You can call .NET Framework type members, including methods, properties, and constructors, from C\/AL code. To call members, you define a DotNet type variable that references the .NET Framework assembly type that contains the member and then call the variable from C\/AL code of the [!INCLUDE[navnow](includes/navnow_md.md)] object. A .NET Framework interoperability example is included in this topic.  

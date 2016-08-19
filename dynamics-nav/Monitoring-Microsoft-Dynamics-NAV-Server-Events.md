@@ -1,11 +1,12 @@
 ---
-title: "Monitoring Microsoft Dynamics NAV Server Events"
+title:"Monitoring Microsoft Dynamics NAV Server Events"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: d7d57a32-f65e-4b02-bed8-86f1dfbf2fa8
 caps.latest.revision: 15
 ---

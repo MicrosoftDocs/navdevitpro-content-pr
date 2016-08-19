@@ -1,14 +1,15 @@
 ---
-title: "FINDNEXTFIELD Function (TestPage)"
+title:"FINDNEXTFIELD Function (TestPage)"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 1d759dae-b951-4441-bffb-8db2047f0872
 caps.latest.revision: 5
-manager: terryaus
+manager: edupont
 ---
 # FINDNEXTFIELD Function (TestPage)
 Finds the next field in the dataset that is displayed on a test page.  

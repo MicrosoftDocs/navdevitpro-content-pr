@@ -1,11 +1,12 @@
 ---
-title: "EventFunction Property"
+title:"EventFunction Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: ccfbe1a3-b0ac-4933-9036-ae499041ecd5
 caps.latest.revision: 4
 manager: edupont

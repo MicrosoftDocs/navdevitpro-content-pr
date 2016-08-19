@@ -1,14 +1,15 @@
 ---
-title: "AutoSplitKey Property"
+title:"AutoSplitKey Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: f4af0163-90aa-486c-a907-f04636499be3
 caps.latest.revision: 8
-manager: pchapman
+manager: edupont
 ---
 # AutoSplitKey Property
 Sets whether a key is automatically created for a new record placed between the current record and the previous record.  

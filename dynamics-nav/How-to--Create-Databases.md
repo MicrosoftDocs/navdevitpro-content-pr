@@ -1,14 +1,15 @@
 ---
-title: "How to: Create Databases"
+title:"How to: Create Databases"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 2263326d-f1b1-459f-9c82-a94be9eaef6a
 caps.latest.revision: 9
-manager: terryaus
+manager: edupont
 ---
 # How to: Create Databases
 You can create new [!INCLUDE[navnow](includes/navnow_md.md)] databases in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] and by using the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New\-NAVDatabase](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVDatabase)[!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlet.  

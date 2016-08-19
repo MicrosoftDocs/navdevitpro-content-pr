@@ -1,11 +1,12 @@
 ---
-title: "Debugging Events"
+title:"Debugging Events"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 93329fe8-f6f9-4af2-99da-590aab2cd84f
 caps.latest.revision: 4
 manager: edupont

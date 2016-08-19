@@ -1,14 +1,15 @@
 ---
-title: "($ S_2335 Open Database $)"
+title:"($ S_2335 Open Database $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 54444e73-bd9f-46c8-ae39-9a1d7c20e8a6
 caps.latest.revision: 7
-manager: terryaus
+manager: edupont
 ---
 # ($ S_2335 Open Database $)
 Specifies the database that you want to open.  

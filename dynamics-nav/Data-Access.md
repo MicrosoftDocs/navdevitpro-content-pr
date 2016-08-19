@@ -1,14 +1,15 @@
 ---
-title: "Data Access"
+title:"Data Access"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: fd5a62ed-50c7-49ad-9610-f299e1961725
 caps.latest.revision: 19
-manager: terryaus
+manager: edupont
 ---
 # Data Access
 The SQL Server interface from [!INCLUDE[nav_server](includes/nav_server_md.md)] uses ADO.NET instead of ODBC, which was used in [!INCLUDE[nav2009](includes/nav2009_md.md)] and earlier. The advantages of the new access layer are described in the following sections.  

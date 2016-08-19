@@ -1,14 +1,15 @@
 ---
-title: "Development Environment (C-SIDE)"
+title:"Development Environment (C-SIDE)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 0c5bad27-00dc-4123-9e28-0ea07f8dfbbb
 caps.latest.revision: 20
-manager: terryaus
+manager: edupont
 ---
 # Development Environment (C-SIDE)
 You use the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to develop [!INCLUDE[navnow](includes/navnow_md.md)] applications. In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], this component was also an end\-user client, but this changed in [!INCLUDE[nav7long](includes/nav7long_md.md)].  

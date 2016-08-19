@@ -1,14 +1,15 @@
 ---
-title: "Walkthrough: Creating a Role Center"
+title:"Walkthrough: Creating a Role Center"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 3cf074ae-86a3-419f-ae85-ceddc8544002
 caps.latest.revision: 32
-manager: terryaus
+manager: edupont
 ---
 # Walkthrough: Creating a Role Center
 In this walkthrough, you will learn how to create a new Role Center for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)]. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], a Role Center is a type of page on which you can place different parts. Each part is a container in which you can host other pages or predefined parts, such as an Outlook part or parts for adding tasks, notifications, or notes.  

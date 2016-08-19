@@ -1,11 +1,12 @@
 ---
-title: "RECORDID (Record)"
+title:"RECORDID (Record)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 045f886a-225c-4f78-b7ae-7100c3bb88ec
 caps.latest.revision: 4
 manager: edupont

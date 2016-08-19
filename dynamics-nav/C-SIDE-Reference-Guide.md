@@ -1,14 +1,15 @@
 ---
-title: "C-SIDE Reference Guide"
+title:"C-SIDE Reference Guide"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: d60655a7-3e9b-4577-a2e3-d12427a656c2
 caps.latest.revision: 16
-manager: terryaus
+manager: edupont
 ---
 # C-SIDE Reference Guide
 The topics in this section contain help on all functions, data types, properties, and triggers in [!INCLUDE[navnow](includes/navnow_md.md)]. They also provide general descriptions of some of the features and functionality that [!INCLUDE[navnow](includes/navnow_md.md)] supports.  

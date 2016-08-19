@@ -1,11 +1,12 @@
 ---
-title: "How to: Activate the Debugger from the Development Environment"
+title:"How to: Activate the Debugger from the Development Environment"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 2e73a3c1-af01-4b5c-b96d-c1e7e3985f73
 caps.latest.revision: 11
 manager: edupont

@@ -1,14 +1,15 @@
 ---
-title: "TOPNUMBEROFROWS Function"
+title:"TOPNUMBEROFROWS Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: b2e1b0cd-f053-43e4-a7ce-9c4d5be22d83
 caps.latest.revision: 14
-manager: terryaus
+manager: edupont
 ---
 # TOPNUMBEROFROWS Function
 Specifies the maximum number of rows to include in the resulting dataset of a query.  

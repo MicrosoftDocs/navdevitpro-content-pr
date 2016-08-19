@@ -1,14 +1,15 @@
 ---
-title: "RENAME Function (Record)"
+title:"RENAME Function (Record)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 66174b64-3c51-4c2e-a438-47bffbf114d5
 caps.latest.revision: 16
-manager: terryaus
+manager: edupont
 ---
 # RENAME Function (Record)
 Changes the value of a primary key in a table.  

@@ -1,14 +1,15 @@
 ---
-title: "LEN Function (File)"
+title:"LEN Function (File)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 155e83e1-8d2c-4f5a-b9c1-69ffc985cb49
 caps.latest.revision: 11
-manager: terryaus
+manager: edupont
 ---
 # LEN Function (File)
 Gets the length of an ASCII or binary file.  

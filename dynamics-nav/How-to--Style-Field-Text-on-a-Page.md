@@ -1,14 +1,15 @@
 ---
-title: "How to: Style Field Text on a Page"
+title:"How to: Style Field Text on a Page"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 6221826a-8c26-42c0-b1cb-affdf81dbfaa
 caps.latest.revision: 20
-manager: terryaus
+manager: edupont
 ---
 # How to: Style Field Text on a Page
 A page field control includes the [Style Property\-duplicate](Style-Property-duplicate.md) that you use to format the text that displays in a page field. The **Style** property has ten values that apply different formats to field text.  

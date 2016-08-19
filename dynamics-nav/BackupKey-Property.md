@@ -1,14 +1,15 @@
 ---
-title: "BackupKey Property"
+title:"BackupKey Property"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 7ad43e31-536a-41d8-a234-7972afd18037
 caps.latest.revision: 5
-manager: pchapman
+manager: edupont
 ---
 # BackupKey Property
 This property is used by the backup\/restore system. Under normal circumstances, you do not need to set this property.  

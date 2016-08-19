@@ -1,14 +1,15 @@
 ---
-title: "IsUpdated Operation"
+title:"IsUpdated Operation"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 4eed854e-ad9e-4c87-b492-6feefc048827
 caps.latest.revision: 11
-manager: pchapman
+manager: edupont
 ---
 # IsUpdated Operation
 Checks if an object has been updated since the key was obtained. This operation returns **true** if the object has been updated by any user; otherwise, **false**. Concurrency management prevents a record being changed if it has been subsequently updated. This check proactively prevents that failure.  

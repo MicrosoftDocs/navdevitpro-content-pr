@@ -1,14 +1,15 @@
 ---
-title: "($ S_2139 Table Filter $)"
+title:"($ S_2139 Table Filter $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 026914f6-d259-469e-881a-c94d9ad9498d
 caps.latest.revision: 6
-manager: terryaus
+manager: edupont
 ---
 # ($ S_2139 Table Filter $)
 Sets a filter on a field. The filter can be a constant expression, a filter, or a field.  

@@ -1,14 +1,15 @@
 ---
-title: "($ S_11170 Page Designer Wizard, FactBox $)"
+title:"($ S_11170 Page Designer Wizard, FactBox $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: ce9b26d4-32eb-4c2f-91e9-f80d8d5ab7f9
 caps.latest.revision: 8
-manager: terryaus
+manager: edupont
 ---
 # ($ S_11170 Page Designer Wizard, FactBox $)
 Adds a FactBox to a List page or Card page. A FactBox is an area on the page that allows you to display another page that displays targeted, related information about a selection on the main page. A FactBox can include only CardPart and ListPart page types.  

@@ -1,11 +1,12 @@
 ---
-title: "LocationOptions Overview"
+title:"LocationOptions Overview"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 197f03a2-ac34-4f5f-af82-bc297bf58de8
 caps.latest.revision: 4
 ---

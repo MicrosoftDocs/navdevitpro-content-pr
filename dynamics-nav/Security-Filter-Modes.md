@@ -1,14 +1,15 @@
 ---
-title: "Security Filter Modes"
+title:"Security Filter Modes"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 2dcf268b-fd53-4d4b-b1df-7f1928dd17de
 caps.latest.revision: 17
-manager: terryaus
+manager: edupont
 ---
 # Security Filter Modes
 Query objects and Record objects, including both explicit record variables and implicit records on pages, reports, or XMLports, have a property named **SecurityFiltering**, which describes how security filters are applied. The possible values of the **SecurityFiltering** property are:  

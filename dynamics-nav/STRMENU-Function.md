@@ -1,14 +1,15 @@
 ---
-title: "STRMENU Function"
+title:"STRMENU Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: f1d1b82e-058f-4462-a7ff-0686a3464b23
 caps.latest.revision: 7
-manager: pchapman
+manager: edupont
 ---
 # STRMENU Function
 STRMENU creates and displays a dialog box with an option group and returns the selection that the user makes.  

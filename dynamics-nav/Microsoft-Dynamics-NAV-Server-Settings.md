@@ -1,14 +1,15 @@
 ---
-title: "Microsoft Dynamics NAV Server Settings"
+title:"Microsoft Dynamics NAV Server Settings"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: c6728883-e7a0-4965-9d4d-c8f323335c9a
 caps.latest.revision: 13
-manager: terryaus
+manager: edupont
 ---
 # Microsoft Dynamics NAV Server Settings
 The center pane in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] shows settings for the currently selected [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. Settings are grouped into the following tabs, according to service category.  

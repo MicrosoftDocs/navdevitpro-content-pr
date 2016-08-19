@@ -1,14 +1,15 @@
 ---
-title: "SETSELECTIONFILTER Function"
+title:"SETSELECTIONFILTER Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 1fee3659-dec1-4ae9-b9cd-d6ae4bd89050
 caps.latest.revision: 7
-manager: terryaus
+manager: edupont
 ---
 # SETSELECTIONFILTER Function
 Notes the records that the user has selected on the page, marks those records in the table specified, and sets the filter to "marked only".  

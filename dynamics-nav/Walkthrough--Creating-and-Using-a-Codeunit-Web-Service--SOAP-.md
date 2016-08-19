@@ -1,11 +1,12 @@
 ---
-title: "Walkthrough: Creating and Using a Codeunit Web Service (SOAP)"
+title:"Walkthrough: Creating and Using a Codeunit Web Service (SOAP)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: efcf5eaf-b129-469d-b4f7-b8681574483e
 caps.latest.revision: 90
 manager: edupont

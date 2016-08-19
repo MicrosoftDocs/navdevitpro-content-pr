@@ -1,14 +1,15 @@
 ---
-title: "FILTERGROUP Function (Record)"
+title:"FILTERGROUP Function (Record)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: e3deefda-9561-45fb-abd6-f6ca0fa19602
 caps.latest.revision: 25
-manager: terryaus
+manager: edupont
 ---
 # FILTERGROUP Function (Record)
 Gets or sets the filter group that is applied to a table.  

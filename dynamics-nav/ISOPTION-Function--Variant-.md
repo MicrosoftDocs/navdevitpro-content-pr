@@ -1,14 +1,15 @@
 ---
-title: "ISOPTION Function (Variant)"
+title:"ISOPTION Function (Variant)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 18ad5058-8622-46c9-8fca-eb32b781ac9a
 caps.latest.revision: 6
-manager: pchapman
+manager: edupont
 ---
 # ISOPTION Function (Variant)
 Indicates whether a C\/AL variant contains an Option variable.  

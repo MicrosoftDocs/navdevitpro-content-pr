@@ -1,11 +1,12 @@
 ---
-title: "Managing Encryption Keys for SQL Server Authentication"
+title:"Managing Encryption Keys for SQL Server Authentication"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: a5fcce05-dd4a-45db-ac10-54b877af7057
 caps.latest.revision: 6
 manager: edupont

@@ -1,11 +1,12 @@
 ---
-title: "RUN Function (XMLport)"
+title:"RUN Function (XMLport)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 1a3b82b8-2f24-4fae-9a45-391cde2de600
 caps.latest.revision: 17
 ---

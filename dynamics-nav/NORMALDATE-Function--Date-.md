@@ -1,14 +1,15 @@
 ---
-title: "NORMALDATE Function (Date)"
+title:"NORMALDATE Function (Date)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: f3c48dbf-0f63-4384-881b-a849b004ca58
 caps.latest.revision: 13
-manager: terryaus
+manager: edupont
 ---
 # NORMALDATE Function (Date)
 Gets the regular date \(instead of the closing date\) for the argument Date.  

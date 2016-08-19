@@ -1,11 +1,12 @@
 ---
-title: "KeyRef Data Type"
+title:"KeyRef Data Type"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 33951a7d-2a60-4c6d-a33e-e3c818ca9427
 caps.latest.revision: 4
 ---

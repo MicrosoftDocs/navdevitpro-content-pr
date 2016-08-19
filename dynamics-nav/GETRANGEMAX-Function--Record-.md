@@ -1,14 +1,15 @@
 ---
-title: "GETRANGEMAX Function (Record)"
+title:"GETRANGEMAX Function (Record)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 80fdb0ad-7b4f-417c-9c88-be35b66c1b0d
 caps.latest.revision: 10
-manager: pchapman
+manager: edupont
 ---
 # GETRANGEMAX Function (Record)
 Gets the maximum value in a range for a field.  

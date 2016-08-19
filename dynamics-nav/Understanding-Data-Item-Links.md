@@ -1,14 +1,15 @@
 ---
-title: "Understanding Data Item Links"
+title:"Understanding Data Item Links"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 4f09f7f0-e353-4793-8cb6-679c0571711a
 caps.latest.revision: 34
-manager: terryaus
+manager: edupont
 ---
 # Understanding Data Item Links
 With [!INCLUDE[navnow](includes/navnow_md.md)] queries, you can retrieve records from one or more tables and combine the records into rows in a single dataset. In Query Designer, tables are specified by data items. You combine tables by linking the data items in Query Designer. In most cases, the tables are combined based on a relationship between certain fields in the tables. [!INCLUDE[navnow](includes/navnow_md.md)] includes different types of data item links that you can use to limit the records that are included in the resulting dataset by how the fields in data item tables are related to each other.  

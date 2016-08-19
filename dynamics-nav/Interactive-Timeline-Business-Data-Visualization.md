@@ -1,14 +1,15 @@
 ---
-title: "Interactive Timeline Business Data Visualization"
+title:"Interactive Timeline Business Data Visualization"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: c35c1956-3b7b-43cd-a5e4-34ab899cb981
 caps.latest.revision: 6
-manager: terryaus
+manager: edupont
 ---
 # Interactive Timeline Business Data Visualization
 The Interactive Timeline Business Data Visualization for [!INCLUDE[navnow](includes/navnow_md.md)] provides a unique view on business data with an interactive user interface \(UI\) to change the business data. It targets the class of business data that represents a series of changes that measures value over time, such as:  

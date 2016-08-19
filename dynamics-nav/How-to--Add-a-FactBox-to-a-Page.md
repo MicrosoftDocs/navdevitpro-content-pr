@@ -1,14 +1,15 @@
 ---
-title: "How to: Add a FactBox to a Page"
+title:"How to: Add a FactBox to a Page"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 276615ab-ab79-4f65-99e0-bf05cb3a86b0
 caps.latest.revision: 14
-manager: terryaus
+manager: edupont
 ---
 # How to: Add a FactBox to a Page
 A FactBox is an area on the right side of a page that can display additional pages, charts, or system parts. To add a FactBox to a page, you add the FactBox area, and then add parts that contain charts, system parts, or pages of the ChartPart type or ListPart type.  

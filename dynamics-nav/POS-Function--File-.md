@@ -1,11 +1,12 @@
 ---
-title: "POS Function (File)"
+title:"POS Function (File)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: eddb80ee-90a1-4657-a55f-b531bc363270
 caps.latest.revision: 7
 ---

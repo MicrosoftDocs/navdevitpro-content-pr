@@ -1,14 +1,15 @@
 ---
-title: "COPYARRAY Function"
+title:"COPYARRAY Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: d1c55795-ca34-4d88-bf09-713b8f47f755
 caps.latest.revision: 15
-manager: terryaus
+manager: edupont
 ---
 # COPYARRAY Function
 Copies one or more elements in an array to a new array.  

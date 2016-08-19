@@ -1,11 +1,12 @@
 ---
-title: "CREATE Function (File)"
+title:"CREATE Function (File)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: b37c1137-eab2-42f9-aedd-e3559b3b678d
 caps.latest.revision: 20
 ---

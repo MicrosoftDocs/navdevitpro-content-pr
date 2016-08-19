@@ -1,11 +1,12 @@
 ---
-title: "Application Design Overview"
+title:"Application Design Overview"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 5c51174e-fbbb-4a24-bf9a-2fe6ee7c3b1e
 caps.latest.revision: 10
 ---

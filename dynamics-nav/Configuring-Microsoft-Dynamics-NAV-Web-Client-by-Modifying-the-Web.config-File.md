@@ -1,14 +1,15 @@
 ---
-title: "Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File"
+title:"Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: c567ece6-d745-4056-ba92-2d548cdc95d7
 caps.latest.revision: 41
-manager: terryaus
+manager: edupont
 ---
 # Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File
 To install the [!INCLUDE[nav_web](includes/nav_web_md.md)], you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup. Setup installs a website with a web server instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)] on an Internet Information Services \(IIS\) server and configures the connection from the [!INCLUDE[nav_web](includes/nav_web_md.md)] to [!INCLUDE[nav_server](includes/nav_server_md.md)]. After the installation, you can use [!INCLUDE[nav_shell](includes/nav_shell_md.md)] to add additional web server instances for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. The connection information is saved in the web.config file of the web server instance. After installation, you can change the configuration by modifying the web.config file.  

@@ -1,11 +1,12 @@
 ---
-title: "HASTABLECONNECTION Function (Database)"
+title:"HASTABLECONNECTION Function (Database)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: f1bd40cf-c2ac-4843-b832-1454c6558da3
 caps.latest.revision: 3
 ---

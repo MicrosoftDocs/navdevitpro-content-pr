@@ -1,14 +1,15 @@
 ---
-title: "PartType Property"
+title:"PartType Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 349c9d29-18c7-4544-8560-f4eabba8f3fb
 caps.latest.revision: 11
-manager: terryaus
+manager: edupont
 ---
 # PartType Property
 Sets the content type that can display in a part FactBox.  

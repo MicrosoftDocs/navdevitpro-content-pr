@@ -1,14 +1,15 @@
 ---
-title: "ContainerType Property"
+title:"ContainerType Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 9765a761-62d2-4343-9e5c-73cb01b887b0
 caps.latest.revision: 8
-manager: terryaus
+manager: edupont
 ---
 # ContainerType Property
 Sets the container type in Page Designer when you want to add one of the following controls to a page:  

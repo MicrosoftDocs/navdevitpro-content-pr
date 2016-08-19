@@ -1,14 +1,15 @@
 ---
-title: "Indentation Property (Query)"
+title:"Indentation Property (Query)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 8e3622b9-5a43-4fc9-b179-8da0b4b830cd
 caps.latest.revision: 6
-manager: terryaus
+manager: edupont
 ---
 # Indentation Property (Query)
 Sets the indentation level of a data item, column, or filter row in a query in Query Designer.  

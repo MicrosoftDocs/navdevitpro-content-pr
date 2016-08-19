@@ -1,14 +1,15 @@
 ---
-title: "Mapping Between .NET Framework and C-AL Types"
+title:"Mapping Between .NET Framework and C-AL Types"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 1e5577ea-9730-46d2-b828-5e35135d9a52
 caps.latest.revision: 18
-manager: terryaus
+manager: edupont
 ---
 # Mapping Between .NET Framework and C-AL Types
 In C\/AL, some .NET Framework data types, such as strings, DateTime, integers, and decimals, are automatically converted to C\/AL types. Because the types are converted, the .NET Framework versions of these types are not supported in C\/AL. For example, instead of using a .NET Framework integer data type in your C\/AL code, you should use a C\/AL integer data type. When the C\/AL integer is sent back to a .NET Framework object, such as through a method call, then the C\/AL integer is automatically converted to a .NET Framework integer.  

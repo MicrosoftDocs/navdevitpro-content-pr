@@ -1,14 +1,15 @@
 ---
-title: "PrintOnlyIfDetail Property"
+title:"PrintOnlyIfDetail Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: c789cb47-8bd3-4764-8517-6f9390000313
 caps.latest.revision: 9
-manager: terryaus
+manager: edupont
 ---
 # PrintOnlyIfDetail Property
 Specifies whether to print data in a report for the parent data item when the child data item does not generate any output.  

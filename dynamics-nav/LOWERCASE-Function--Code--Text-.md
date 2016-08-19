@@ -1,14 +1,15 @@
 ---
-title: "LOWERCASE Function (Code, Text)"
+title:"LOWERCASE Function (Code, Text)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 0562ef74-b416-4800-86d0-712c18a0b1a2
 caps.latest.revision: 10
-manager: pchapman
+manager: edupont
 ---
 # LOWERCASE Function (Code, Text)
 Converts all letters in a string to lowercase.  

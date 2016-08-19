@@ -1,11 +1,12 @@
 ---
-title: "How to: Alter Databases"
+title:"How to: Alter Databases"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 0aa2c178-eea8-41bf-aecd-87d71552b4c6
 caps.latest.revision: 12
 manager: edupont

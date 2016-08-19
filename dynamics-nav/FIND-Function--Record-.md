@@ -1,14 +1,15 @@
 ---
-title: "FIND Function (Record)"
+title:"FIND Function (Record)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 07f5e141-a6f9-4ddd-b5c0-154268cf89f2
 caps.latest.revision: 18
-manager: terryaus
+manager: edupont
 ---
 # FIND Function (Record)
 Finds a record in a table that is based on the values stored in keys.  

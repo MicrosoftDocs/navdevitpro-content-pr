@@ -1,11 +1,12 @@
 ---
-title: "C-AL Editor Keyboard Shortcuts and Right-Click Actions"
+title:"C-AL Editor Keyboard Shortcuts and Right-Click Actions"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 68765735-01e1-4ecf-8bd7-26769c903618
 caps.latest.revision: 4
 manager: edupont

@@ -1,14 +1,15 @@
 ---
-title: "GETLASTERRORCODE Function"
+title:"GETLASTERRORCODE Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 7df300fa-21f6-4e5e-8a24-a27674e530c6
 caps.latest.revision: 8
-manager: terryaus
+manager: edupont
 ---
 # GETLASTERRORCODE Function
 Gets the classification of the last error that occurred.  

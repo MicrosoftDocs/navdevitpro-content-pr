@@ -1,14 +1,15 @@
 ---
-title: "DataLength Property"
+title:"DataLength Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 5aeb3c81-dca9-4df6-98dc-322153eca056
 caps.latest.revision: 6
-manager: pchapman
+manager: edupont
 ---
 # DataLength Property
 Sets the maximum length of data stored in this field.  

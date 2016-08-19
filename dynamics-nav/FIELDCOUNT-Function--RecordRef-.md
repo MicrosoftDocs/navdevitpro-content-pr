@@ -1,11 +1,12 @@
 ---
-title: "FIELDCOUNT Function (RecordRef)"
+title:"FIELDCOUNT Function (RecordRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 3d4fbd5d-52db-4acf-bb78-257e231874c6
 caps.latest.revision: 12
 ---

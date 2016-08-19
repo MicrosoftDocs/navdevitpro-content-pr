@@ -1,14 +1,15 @@
 ---
-title: "READ Function (File)"
+title:"READ Function (File)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 7e3a92ab-6042-484b-8243-055c2c76d984
 caps.latest.revision: 12
-manager: terryaus
+manager: edupont
 ---
 # READ Function (File)
 Reads from an MS\-DOS encoded file or binary file.  

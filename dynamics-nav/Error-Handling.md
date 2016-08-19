@@ -1,14 +1,15 @@
 ---
-title: "Error Handling"
+title:"Error Handling"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: ce4892ed-efa8-41a8-82db-07ef1d8c4477
 caps.latest.revision: 5
-manager: terryaus
+manager: edupont
 ---
 # Error Handling
 This section contains the following topics:  

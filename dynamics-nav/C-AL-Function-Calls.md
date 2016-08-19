@@ -1,14 +1,15 @@
 ---
-title: "C-AL Function Calls"
+title:"C-AL Function Calls"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 32f9ca49-8263-447f-986c-259c0e11a007
 caps.latest.revision: 11
-manager: pchapman
+manager: edupont
 ---
 # C-AL Function Calls
 C\/AL contains several functions that can be used for different purposes, such as string handling, text formatting, database handling, and so on. Some of these functions can use different parameters.  

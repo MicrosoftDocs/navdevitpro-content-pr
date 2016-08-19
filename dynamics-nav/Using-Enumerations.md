@@ -1,14 +1,15 @@
 ---
-title: "Using Enumerations"
+title:"Using Enumerations"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: c959e566-734a-4966-a668-a1f813ff3488
 caps.latest.revision: 12
-manager: terryaus
+manager: edupont
 ---
 # Using Enumerations
 In the .NET Framework, an enumeration typically represents constant values as symbolic or literal names. For example, if you have the type `Color`, then instead of using the values `0`, `1`, and `2`, you can use `Red`, `Green`, and `Blue`. The following is a C\# code example for the `Color` enumeration.  

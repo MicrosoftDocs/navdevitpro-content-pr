@@ -1,14 +1,15 @@
 ---
-title: "Walkthrough: Adding a FactBox to the Customer List Page"
+title:"Walkthrough: Adding a FactBox to the Customer List Page"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 0f088e64-b1bb-4b17-8617-2b1b6ccfa000
 caps.latest.revision: 23
-manager: terryaus
+manager: edupont
 ---
 # Walkthrough: Adding a FactBox to the Customer List Page
 In this walkthrough, you will learn how to add a FactBox to the customer list page and use it to display credit information about the selected customer. A FactBox is an area on the page that allows you to display another page that displays targeted, related information about a selection in the main page. A FactBox can only include CardPart and ListPart page types.  

@@ -1,14 +1,15 @@
 ---
-title: "UpdateMultiple Operation"
+title:"UpdateMultiple Operation"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 1465229d-d655-4cb3-b949-7583f41f1476
 caps.latest.revision: 10
-manager: pchapman
+manager: edupont
 ---
 # UpdateMultiple Operation
 Updates a set of records. The updated array of records is passed as a reference and is updated with the latest version.  

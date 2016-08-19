@@ -1,14 +1,15 @@
 ---
-title: "BitmapList Property"
+title:"BitmapList Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: b9882836-702c-42e3-834d-bcbc1a8f4738
 caps.latest.revision: 8
-manager: pchapman
+manager: edupont
 ---
 # BitmapList Property
 Sets a list of bitmaps from which the correct bitmap to display is selected.  

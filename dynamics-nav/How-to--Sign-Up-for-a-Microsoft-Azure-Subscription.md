@@ -1,11 +1,12 @@
 ---
-title: "How to: Sign Up for a Microsoft Azure Subscription"
+title:"How to: Sign Up for a Microsoft Azure Subscription"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 5533f7c8-364a-441c-8cbe-75864460ee39
 caps.latest.revision: 8
 manager: tsiggaar

@@ -1,14 +1,15 @@
 ---
-title: "DesignObject"
+title:"DesignObject"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 5701acd3-515e-4a03-8edd-be1b2a2b67d3
 caps.latest.revision: 11
-manager: terryaus
+manager: edupont
 ---
 # DesignObject
 Opens the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] and opens the specified object for design.  

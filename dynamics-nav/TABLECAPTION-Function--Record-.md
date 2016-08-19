@@ -1,14 +1,15 @@
 ---
-title: "TABLECAPTION Function (Record)"
+title:"TABLECAPTION Function (Record)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 44e55ff7-1287-45e1-93aa-a9c9232b7193
 caps.latest.revision: 12
-manager: pchapman
+manager: edupont
 ---
 # TABLECAPTION Function (Record)
 Gets the current caption of a table as a string.  

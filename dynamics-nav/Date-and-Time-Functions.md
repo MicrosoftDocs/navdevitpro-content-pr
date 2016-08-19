@@ -1,14 +1,15 @@
 ---
-title: "Date and Time Functions"
+title:"Date and Time Functions"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 1b4b0785-ef07-491b-9662-0da7a835a652
 caps.latest.revision: 3
-manager: pchapman
+manager: edupont
 ---
 # Date and Time Functions
 This section contains the following topics:  

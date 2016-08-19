@@ -1,14 +1,15 @@
 ---
-title: "Using Linked Objects"
+title:"Using Linked Objects"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: fc7527c2-8ede-4b6e-8e0e-e2ac6ad22521
 caps.latest.revision: 9
-manager: pchapman
+manager: edupont
 ---
 # Using Linked Objects
 When you are using a linked object, you should take the following into account:  

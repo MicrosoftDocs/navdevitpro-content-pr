@@ -1,14 +1,15 @@
 ---
-title: "How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client"
+title:"How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: bc2f7671-799c-489a-8901-3c1303eebf76
 caps.latest.revision: 6
-manager: terryaus
+manager: edupont
 ---
 # How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client
 This procedure describes how to modify Windows Firewall to allow inbound communication on the port that is used by the [!INCLUDE[nav_web](includes/nav_web_md.md)]. By default, the port is 8080. You use this procedure after you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on a computer that is running Windows 7 or if you change the [!INCLUDE[nav_web](includes/nav_web_md.md)] port to a port other than 8080.  

@@ -1,11 +1,12 @@
 ---
-title: "Microsoft Dynamics NAV Help Server"
+title:"Microsoft Dynamics NAV Help Server"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 168fade9-6f28-4e01-ae0e-20f4a8b546cd
 caps.latest.revision: 5
 ---

@@ -1,14 +1,15 @@
 ---
-title: "UseSystemPrinter Property"
+title:"UseSystemPrinter Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 1b00de44-adbd-4c8e-ad19-bee606f69f48
 caps.latest.revision: 5
-manager: pchapman
+manager: edupont
 ---
 # UseSystemPrinter Property
 Sets which printer is suggested when the report is run.  

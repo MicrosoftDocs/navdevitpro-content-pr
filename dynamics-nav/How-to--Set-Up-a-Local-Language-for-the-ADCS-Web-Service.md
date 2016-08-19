@@ -1,14 +1,15 @@
 ---
-title: "How to: Set Up a Local Language for the ADCS Web Service"
+title:"How to: Set Up a Local Language for the ADCS Web Service"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: a3b09603-96ac-409e-aafa-d676e19bab6e
 caps.latest.revision: 4
-manager: terryaus
+manager: edupont
 ---
 # How to: Set Up a Local Language for the ADCS Web Service
 To have messages, including errors, display in the language of the user, you have to modify the ADCS web service codeunit to account for the language setting.  

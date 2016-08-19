@@ -1,14 +1,15 @@
 ---
-title: "SIFT and SQL Server"
+title:"SIFT and SQL Server"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 6a0cc8fb-74eb-4636-a173-86b9adc3af73
 caps.latest.revision: 9
-manager: terryaus
+manager: edupont
 ---
 # SIFT and SQL Server
 A SumIndexField is always associated with a key and each key can have a maximum of 20 SumIndexFields associated with it. In this topic, a key that has at least one SumIndexField associated with it is a SIFT key.  

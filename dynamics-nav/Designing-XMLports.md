@@ -1,14 +1,15 @@
 ---
-title: "Designing XMLports"
+title:"Designing XMLports"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 21e38dde-b1d4-4759-90cc-31c955e6b197
 caps.latest.revision: 32
-manager: terryaus
+manager: edupont
 ---
 # Designing XMLports
 XMLports are used to export data from or import data to a [!INCLUDE[navnow](includes/navnow_md.md)] database. The import or export is between the database and an external file. XMLports enable seamless exchange of data between different computer systems. XMLports are used to import and export data to and from text files, CSV, and XML files. You can use XMLports to export or import data from multiple tables in the database. Although you can design an XMLport for both import and export, XMLports are typically designed for either import or export. To use an XMLport, you first design it in **XMLport Designer** and set properties for the XMLport. For more information about the **XMLport Designer** window, see [\($ S\_21001 XMLport Designer $\)](-$-S_21001-XMLport-Designer-$-.md). After the XMLport is designed, you create a codeunit to run the XMLport or run it from **Object Designer**.  

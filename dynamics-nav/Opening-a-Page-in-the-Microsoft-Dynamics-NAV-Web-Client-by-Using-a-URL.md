@@ -1,14 +1,15 @@
 ---
-title: "Opening a Page in the Microsoft Dynamics NAV Web Client by Using a URL"
+title:"Opening a Page in the Microsoft Dynamics NAV Web Client by Using a URL"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: d59e6e32-dc24-47ee-a541-0534f021074d
 caps.latest.revision: 29
-manager: terryaus
+manager: edupont
 ---
 # Opening a Page in the Microsoft Dynamics NAV Web Client by Using a URL
 You can open a specific page in the [!INCLUDE[nav_web](includes/nav_web_md.md)] by typing the page's URL in the address of a web browser. You can use the URL as a hyperlink to the page, which you can include in other sources, such as emails or Word documents, or you can it send to other users.  

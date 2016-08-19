@@ -1,14 +1,15 @@
 ---
-title: "Database Logins"
+title:"Database Logins"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 449018fc-6bcf-4726-ad1a-b521d0cf8d55
 caps.latest.revision: 12
-manager: pchapman
+manager: edupont
 ---
 # Database Logins
 Users are given a database login when they have their own user ID and password in [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)]. The user must enter the user ID and password to access the database.  

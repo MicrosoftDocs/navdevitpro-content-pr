@@ -1,14 +1,15 @@
 ---
-title: "How to: Create Companies"
+title:"How to: Create Companies"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 84546d7f-30b6-4de0-ab8d-2b01035dfbc9
 caps.latest.revision: 11
-manager: terryaus
+manager: edupont
 ---
 # How to: Create Companies
 You can create as many companies as you want in a database. You can create companies in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and the [!INCLUDE[nav_web](includes/nav_web_md.md)]. You can also create companies by using the **New\-NAVCompany** Windows PowerShell cmdlet.  

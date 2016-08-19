@@ -1,14 +1,15 @@
 ---
-title: "OptionCaption Property"
+title:"OptionCaption Property"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: e678b07f-3dbb-42e8-a1ac-58b6db53507e
 caps.latest.revision: 7
-manager: pchapman
+manager: edupont
 ---
 # OptionCaption Property
 Sets the text string options that are displayed to the user.  

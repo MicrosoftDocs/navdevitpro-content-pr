@@ -1,11 +1,12 @@
 ---
-title: "DecimalPlaces Property"
+title:"DecimalPlaces Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: a0cb9434-57f4-4f39-a8a2-66800a2a8822
 caps.latest.revision: 14
 ---

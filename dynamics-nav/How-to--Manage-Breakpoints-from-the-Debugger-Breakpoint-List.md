@@ -1,11 +1,12 @@
 ---
-title: "How to: Manage Breakpoints from the Debugger Breakpoint List"
+title:"How to: Manage Breakpoints from the Debugger Breakpoint List"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 41d743cb-9980-4985-a9b4-86e13232d3f8
 caps.latest.revision: 19
 ---

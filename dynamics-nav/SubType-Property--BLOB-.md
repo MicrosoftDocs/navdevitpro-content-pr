@@ -1,14 +1,15 @@
 ---
-title: "SubType Property (BLOB)"
+title:"SubType Property (BLOB)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 4fed4d3c-0a30-4296-a10e-9f9547821e99
 caps.latest.revision: 7
-manager: terryaus
+manager: edupont
 ---
 # SubType Property (BLOB)
 Sets additional information about what will be contained in the field.  

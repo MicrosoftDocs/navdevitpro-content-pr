@@ -1,14 +1,15 @@
 ---
-title: "($ S_2338 New Database $)"
+title:"($ S_2338 New Database $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 75985a49-ab9d-4baf-8033-0f68888bda3f
 caps.latest.revision: 8
-manager: terryaus
+manager: edupont
 ---
 # ($ S_2338 New Database $)
 Creates a database.  

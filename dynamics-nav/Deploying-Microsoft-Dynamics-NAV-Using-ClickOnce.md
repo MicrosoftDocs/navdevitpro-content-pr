@@ -1,14 +1,15 @@
 ---
-title: "Deploying Microsoft Dynamics NAV Using ClickOnce"
+title:"Deploying Microsoft Dynamics NAV Using ClickOnce"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 0a6f16fb-07fe-4c2f-9986-5633d31d1c60
 caps.latest.revision: 42
-manager: terryaus
+manager: edupont
 ---
 # Deploying Microsoft Dynamics NAV Using ClickOnce
 This document contains instructions for deploying the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] using the ClickOnce deployment technology. ClickOnce allows you to deploy web applications by choosing a link on a web page. ClickOnce is a component of the Microsoft .NET Framework.  

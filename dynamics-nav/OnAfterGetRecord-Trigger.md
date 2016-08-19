@@ -1,14 +1,15 @@
 ---
-title: "OnAfterGetRecord Trigger"
+title:"OnAfterGetRecord Trigger"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 07ceb5c1-253c-4336-b6ef-525e312e8650
 caps.latest.revision: 7
-manager: terryaus
+manager: edupont
 ---
 # OnAfterGetRecord Trigger
 Executed after a record is retrieved from a table but before it is displayed to the user.  

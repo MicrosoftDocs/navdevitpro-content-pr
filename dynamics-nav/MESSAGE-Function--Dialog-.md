@@ -1,14 +1,15 @@
 ---
-title: "MESSAGE Function (Dialog)"
+title:"MESSAGE Function (Dialog)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 68a78e4f-d6f2-4286-8e7b-d5ba27705f9e
 caps.latest.revision: 14
-manager: terryaus
+manager: edupont
 ---
 # MESSAGE Function (Dialog)
 Displays a text string in a message window.  

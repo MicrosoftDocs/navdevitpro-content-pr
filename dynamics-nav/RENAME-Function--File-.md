@@ -1,11 +1,12 @@
 ---
-title: "RENAME Function (File)"
+title:"RENAME Function (File)"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: db536d12-1c67-4db3-89dc-aa30d6794c30
 caps.latest.revision: 12
 ---

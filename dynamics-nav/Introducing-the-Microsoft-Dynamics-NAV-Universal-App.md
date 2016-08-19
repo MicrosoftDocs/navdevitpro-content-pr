@@ -1,11 +1,12 @@
 ---
-title: "Introducing the Microsoft Dynamics NAV Universal App"
+title:"Introducing the Microsoft Dynamics NAV Universal App"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 5d5197b1-5029-4632-b236-888b90df68db
 caps.latest.revision: 28
 ---

@@ -1,11 +1,12 @@
 ---
-title: "Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure"
+title:"Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: d1f1d74a-b8f1-4fa4-a4e9-5038a6f1d229
 caps.latest.revision: 15
 manager: tsiggaar

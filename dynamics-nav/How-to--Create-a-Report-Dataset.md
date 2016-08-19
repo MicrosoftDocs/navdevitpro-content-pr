@@ -1,11 +1,12 @@
 ---
-title: "How to: Create a Report Dataset"
+title:"How to: Create a Report Dataset"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 44c9f5c2-5bd2-4f26-85f5-7accb25c2112
 caps.latest.revision: 18
 manager: edupont

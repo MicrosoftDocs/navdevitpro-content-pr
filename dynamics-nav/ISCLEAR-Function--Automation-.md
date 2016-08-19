@@ -1,14 +1,15 @@
 ---
-title: "ISCLEAR Function (Automation)"
+title:"ISCLEAR Function (Automation)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 4efc480e-c2d1-451d-a7c4-6ee84360998d
 caps.latest.revision: 17
-manager: terryaus
+manager: edupont
 ---
 # ISCLEAR Function (Automation)
 Checks whether an Automation object has been created or cleared.  

@@ -1,14 +1,15 @@
 ---
-title: "OPTIONSTRING Function (FieldRef)"
+title:"OPTIONSTRING Function (FieldRef)"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: ec2d3585-1585-4b5a-a4f7-aee88e799ba0
 caps.latest.revision: 12
-manager: terryaus
+manager: edupont
 ---
 # OPTIONSTRING Function (FieldRef)
 Gets the list of options that are available in the field that is currently selected.  

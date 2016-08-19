@@ -1,14 +1,15 @@
 ---
-title: "($ S_2162 Error List $)"
+title:"($ S_2162 Error List $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: de65fafc-8cf8-437d-85b6-8fdf71c1a0e9
 caps.latest.revision: 10
-manager: terryaus
+manager: edupont
 ---
 # ($ S_2162 Error List $)
 Shows a list of errors and warnings, including obsolete constructs, that occur in your C\/AL code.  

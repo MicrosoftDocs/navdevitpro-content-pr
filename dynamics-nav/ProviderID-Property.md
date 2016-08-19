@@ -1,14 +1,15 @@
 ---
-title: "ProviderID Property"
+title:"ProviderID Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 830a7ad9-3712-4c6d-a724-59a351631502
 caps.latest.revision: 6
-manager: pchapman
+manager: edupont
 ---
 # ProviderID Property
 Sets the ProviderID for a FactBox.  

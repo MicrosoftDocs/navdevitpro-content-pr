@@ -1,14 +1,15 @@
 ---
-title: "IndentationControls Property"
+title:"IndentationControls Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: e2e75702-bc56-4c5b-a3b9-ac7d223808c4
 caps.latest.revision: 15
-manager: terryaus
+manager: edupont
 ---
 # IndentationControls Property
 Sets which columns \(controls\) are indented in a list.  

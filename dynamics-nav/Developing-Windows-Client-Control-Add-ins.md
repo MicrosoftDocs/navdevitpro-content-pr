@@ -1,14 +1,15 @@
 ---
-title: "Developing Windows Client Control Add-ins"
+title:"Developing Windows Client Control Add-ins"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 0eacbf83-dce2-496e-8ea7-c3c42bcdd9cf
 caps.latest.revision: 26
-manager: terryaus
+manager: edupont
 ---
 # Developing Windows Client Control Add-ins
 [!INCLUDE[navnowlong](includes/navnowlong_md.md)] includes the client extensibility API for creating [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add\-ins. The client extensibility API is provided in the Microsoft.Dynamics.Framework.UI.Extensibility.dll assembly, which is installed with the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. You develop control add\-ins using Microsoft Visual Studio and distribute them as Microsoft .NET Framework–based assemblies for deployment to computers that are running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  

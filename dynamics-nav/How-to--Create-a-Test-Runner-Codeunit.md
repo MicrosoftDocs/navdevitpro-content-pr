@@ -1,14 +1,15 @@
 ---
-title: "How to: Create a Test Runner Codeunit"
+title:"How to: Create a Test Runner Codeunit"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 97562b1d-e7ec-4a7b-9e0c-229905eb3e3f
 caps.latest.revision: 23
-manager: terryaus
+manager: edupont
 ---
 # How to: Create a Test Runner Codeunit
 You can create test runner codeunits to manage the execution of test codeunits and to integrate with test management or test reporting frameworks.  

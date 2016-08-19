@@ -1,14 +1,15 @@
 ---
-title: "OnModify Trigger"
+title:"OnModify Trigger"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 66f54530-7318-4e43-8aea-ca18c04c5d18
 caps.latest.revision: 8
-manager: pchapman
+manager: edupont
 ---
 # OnModify Trigger
 Executed when a user modifies an existing record in a table.  

@@ -1,11 +1,12 @@
 ---
-title: "NAME Function (File)"
+title:"NAME Function (File)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 0ca23c95-ae41-4a04-a90a-3f26b09355a9
 caps.latest.revision: 8
 ---

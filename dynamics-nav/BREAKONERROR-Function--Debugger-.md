@@ -1,14 +1,15 @@
 ---
-title: "BREAKONERROR Function (Debugger)"
+title:"BREAKONERROR Function (Debugger)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 06af4d30-28de-43e5-acee-5bdb1b3c2785
 caps.latest.revision: 5
-manager: terryaus
+manager: edupont
 ---
 # BREAKONERROR Function (Debugger)
 Sets whether the debugger breaks on errors.  

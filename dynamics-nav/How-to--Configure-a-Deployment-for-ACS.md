@@ -1,11 +1,12 @@
 ---
-title: "How to: Configure a Deployment for ACS"
+title:"How to: Configure a Deployment for ACS"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: e863d17a-0bab-48e9-bf64-f21b8b74f19e
 caps.latest.revision: 6
 manager: tsiggaar

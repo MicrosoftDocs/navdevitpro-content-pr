@@ -1,14 +1,15 @@
 ﻿---
-title: "Feature Limitations of the Microsoft Dynamics NAV Web Client"
+title:"Feature Limitations of the Microsoft Dynamics NAV Web Client"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: d1a3d947-ab5a-4c56-b5bf-36f0a13eda66
 caps.latest.revision: 65
-manager: terryaus
+manager: edupont
 ---
 # Feature Limitations of the Microsoft Dynamics NAV Web Client
 [!INCLUDE[nav_web](includes/nav_web_md.md)] supports most of the same [!INCLUDE[navnow](includes/navnow_md.md)] objects and features as [!INCLUDE[nav_windows](includes/nav_windows_md.md)], but there are some small differences. This topic lists the features that are not supported or are partially supported by [!INCLUDE[nav_web](includes/nav_web_md.md)]. These features are listed compared with the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. The topic is divided into the following sections:  

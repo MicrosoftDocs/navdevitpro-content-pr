@@ -1,11 +1,12 @@
 ---
-title: "Walkthrough: Running a Report Offline"
+title:"Walkthrough: Running a Report Offline"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 57aac5ec-f41c-4370-8436-6de141976f21
 caps.latest.revision: 16
 manager: edupont

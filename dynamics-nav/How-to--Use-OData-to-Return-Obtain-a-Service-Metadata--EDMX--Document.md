@@ -1,14 +1,15 @@
 ---
-title: "How to: Use OData to Return-Obtain a Service Metadata (EDMX) Document"
+title:"How to: Use OData to Return-Obtain a Service Metadata (EDMX) Document"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 7d77f649-ff15-4f78-a090-ec8499e5122c
 caps.latest.revision: 16
-manager: terryaus
+manager: edupont
 ---
 # How to: Use OData to Return-Obtain a Service Metadata (EDMX) Document
 The Entity Data Model \(**EDM**\) is a specification for defining the data that is used by applications that are built on the Entity Framework. **EDMX** is an XML\-based file format that is the packaging format for the service metadata of a data service. When you interact with an OData service that is published from [!INCLUDE[navnow](includes/navnow_md.md)], you can request EDM\-based proxies and then use tools such as LINQ to create data access logic. LINQ is a programming model that developers can use to query data from a variety of data sources, including OData. For more information, see [LINQ \(Language\-Integrated Query\)](http://go.microsoft.com/fwlink/?LinkId=230540)  

@@ -1,14 +1,15 @@
 ---
-title: "Debugger Keyboard Shortcuts"
+title:"Debugger Keyboard Shortcuts"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 17928084-4d9a-4865-a4cc-3fe35c5b5809
 caps.latest.revision: 5
-manager: terryaus
+manager: edupont
 ---
 # Debugger Keyboard Shortcuts
 The following table describes the keyboard shortcuts that are available from the **\($ N\_9500 Debugger $\)** window.  

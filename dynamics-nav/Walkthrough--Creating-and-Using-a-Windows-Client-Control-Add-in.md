@@ -1,14 +1,15 @@
 ---
-title: "Walkthrough: Creating and Using a Windows Client Control Add-in"
+title:"Walkthrough: Creating and Using a Windows Client Control Add-in"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 670a6589-05e7-4289-9bb4-a3c0015f2442
 caps.latest.revision: 51
-manager: terryaus
+manager: edupont
 ---
 # Walkthrough: Creating and Using a Windows Client Control Add-in
 The following walkthrough demonstrates how to develop a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] add\-in and use it on a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] page. Add\-ins are Microsoft .NET Framework assemblies that enable you to add custom functionality to the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. An API lets you develop add\-ins without having to access the [!INCLUDE[navnow](includes/navnow_md.md)] source code.  

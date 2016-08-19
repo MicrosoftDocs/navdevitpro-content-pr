@@ -1,14 +1,15 @@
 ---
-title: "Configuring Microsoft Dynamics NAV Server"
+title:"Configuring Microsoft Dynamics NAV Server"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 3ab77291-9515-4817-851e-48a4ffc7e38f
 caps.latest.revision: 132
-manager: terryaus
+manager: edupont
 ---
 # Configuring Microsoft Dynamics NAV Server
 When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install [!INCLUDE[nav_server](includes/nav_server_md.md)], you can provide configuration information that is then used as the configuration for the default [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  

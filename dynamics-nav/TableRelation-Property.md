@@ -1,14 +1,15 @@
 ---
-title: "TableRelation Property"
+title:"TableRelation Property"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 4890e233-6301-4d7e-888f-2021ea5946da
 caps.latest.revision: 5
-manager: pchapman
+manager: edupont
 ---
 # TableRelation Property
 Sets relationships \(links\) to other tables. For example, if you want to provide a lookup into another table, enter the name of that table in this property.  

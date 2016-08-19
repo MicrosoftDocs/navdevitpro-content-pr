@@ -1,14 +1,15 @@
 ---
-title: "FlowFilter Overview"
+title:"FlowFilter Overview"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 2e01ac2b-e6e4-4d93-8495-0fc7739d3173
 caps.latest.revision: 8
-manager: pchapman
+manager: edupont
 ---
 # FlowFilter Overview
 A user may want to limit calculations to include only those values in a column that have some specific properties. For example, a user may want to sum only the amounts of customer entries that are entered in April. This is possible if the application has been designed using FlowFilter fields in connection with the FlowFields.  

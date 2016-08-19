@@ -1,14 +1,15 @@
 ---
-title: "OnBeforeModifyRecord Trigger"
+title:"OnBeforeModifyRecord Trigger"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: a21e19e1-25c3-446c-a846-620061f31e99
 caps.latest.revision: 3
-manager: terryaus
+manager: edupont
 ---
 # OnBeforeModifyRecord Trigger
 Executed after a record is read from the input stream and before the existing record in the database is modified.  

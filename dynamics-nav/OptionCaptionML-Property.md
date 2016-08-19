@@ -1,14 +1,15 @@
 ---
-title: "OptionCaptionML Property"
+title:"OptionCaptionML Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: daacd18c-f0d0-4e21-9537-904960280778
 caps.latest.revision: 14
-manager: pchapman
+manager: edupont
 ---
 # OptionCaptionML Property
 Sets the strings that are displayed to the user for selecting an option. OptionCaptionML is only used if the field or variable has an [OptionString Property](OptionString-Property.md). The OptionString property contains the set of values that are acceptable choices, and it is one of these values that is saved in the database or used in C\/AL code.  

@@ -1,14 +1,15 @@
 ---
-title: "How to: Preview Pages and Identify Page and Action Controls"
+title:"How to: Preview Pages and Identify Page and Action Controls"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: c93aac5c-b8d7-4b47-a02b-8f7ecef5a84b
 caps.latest.revision: 19
-manager: terryaus
+manager: edupont
 ---
 # How to: Preview Pages and Identify Page and Action Controls
 In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], you can preview a page directly from Page Designer to see how the page will look in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. Unlike running a page from Object Designer, previewing a page does not start the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], which means that you can keep working in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. The **Page Preview** window includes the following features:  

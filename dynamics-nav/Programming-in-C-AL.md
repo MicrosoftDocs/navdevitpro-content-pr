@@ -1,14 +1,15 @@
 ---
-title: "Programming in C-AL"
+title:"Programming in C-AL"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 5ee737ae-3914-47e7-b61d-486309b7fa8f
 caps.latest.revision: 19
-manager: terryaus
+manager: edupont
 ---
 # Programming in C-AL
 This section describes where to write C\/AL code and how to reuse code.  

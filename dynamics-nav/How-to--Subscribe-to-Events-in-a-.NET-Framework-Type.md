@@ -1,14 +1,15 @@
 ---
-title: "How to: Subscribe to Events in a .NET Framework Type"
+title:"How to: Subscribe to Events in a .NET Framework Type"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: f8bf546a-c619-4c88-b570-1a56a5c581e6
 caps.latest.revision: 14
-manager: terryaus
+manager: edupont
 ---
 # How to: Subscribe to Events in a .NET Framework Type
 With .NET Framework interoperability in [!INCLUDE[navnow](includes/navnow_md.md)] objects, you can configure a DotNet variable to subscribe to events that are published by a .NET Framework type. Events are handled by triggers in the C\/AL code of the [!INCLUDE[navnow](includes/navnow_md.md)] object. To configure a DotNet variable to subscribe to events published by a .NET Framework class, you set the [WithEvents Property](WithEvents-Property.md) of the DotNet variable. A trigger is automatically added in the C\/AL code for each event that is exposed by the .NET Framework type. For more information about events in NET Framework Interoperability, see [Handling Events with Microsoft .NET Framework Interoperability](Handling-Events-with-Microsoft-.NET-Framework-Interoperability.md).  

@@ -1,14 +1,15 @@
 ---
-title: "Product and Architecture Overview"
+title:"Product and Architecture Overview"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 275aad2c-ea2c-4291-8381-82b0b92dc1a0
 caps.latest.revision: 29
-manager: terryaus
+manager: edupont
 ---
 # Product and Architecture Overview
 The [!INCLUDE[navnowlong](includes/navnowlong_md.md)] architecture comprises three core components as well as various additional tools and components. Use [!INCLUDE[navnow](includes/navnow_md.md)] Setup to install all components.  

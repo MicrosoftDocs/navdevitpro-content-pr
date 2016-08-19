@@ -1,14 +1,15 @@
 ---
-title: "Testing the Application"
+title:"Testing the Application"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 7f7961ce-7256-43e9-9dc5-7fd93e65ee3a
 caps.latest.revision: 32
-manager: terryaus
+manager: edupont
 ---
 # Testing the Application
 Before you release your [!INCLUDE[navnow](includes/navnow_md.md)] application, you must test its functionality. Testing is an iterative process. It is important to create repeatable tests, and it is helpful to create tests that can be automated. This topic describes the features in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] that help you test the business logic in your application and some best practices for testing your [!INCLUDE[navnow](includes/navnow_md.md)] application.  

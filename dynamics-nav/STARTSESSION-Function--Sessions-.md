@@ -1,14 +1,15 @@
 ---
-title: "STARTSESSION Function (Sessions)"
+title:"STARTSESSION Function (Sessions)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 5b45f707-c33c-4b93-8192-cf9f31a5f403
 caps.latest.revision: 13
-manager: terryaus
+manager: edupont
 ---
 # STARTSESSION Function (Sessions)
 Starts a [!INCLUDE[navnow](includes/navnow_md.md)] session without a UI and runs the specified codeunit.  

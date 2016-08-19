@@ -1,11 +1,12 @@
 ---
-title: "How to: Set up Performance Counters in Windows Performance Monitor"
+title:"How to: Set up Performance Counters in Windows Performance Monitor"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 73fa1a63-ca2f-4c50-a312-8297c18ca255
 caps.latest.revision: 9
 ---

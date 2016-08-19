@@ -1,11 +1,12 @@
 ---
-title: "ISTEXT Function (Variant)"
+title:"ISTEXT Function (Variant)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 4025dac3-569b-4e4c-983d-36e346079e79
 caps.latest.revision: 11
 ---

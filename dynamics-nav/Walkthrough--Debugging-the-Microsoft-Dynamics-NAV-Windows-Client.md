@@ -1,14 +1,15 @@
 ---
-title: "Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client"
+title:"Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 4b04afaa-d09e-46ea-82bb-f7524e703252
 caps.latest.revision: 23
-manager: terryaus
+manager: edupont
 ---
 # Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client
 This walkthrough demonstrates debugging an action in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] with the [!INCLUDE[navnow](includes/navnow_md.md)] Debugger. The purpose of this walkthrough is to familiarize you with what you can do with the debugger. It does not describe how to debug and fix a specific error.  

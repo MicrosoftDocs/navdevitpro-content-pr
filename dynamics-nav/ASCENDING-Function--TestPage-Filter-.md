@@ -1,14 +1,15 @@
 ---
-title: "ASCENDING Function (TestPage Filter)"
+title:"ASCENDING Function (TestPage Filter)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 8c86c2a5-9e4c-46e5-871b-da2e806725bd
 caps.latest.revision: 5
-manager: terryaus
+manager: edupont
 ---
 # ASCENDING Function (TestPage Filter)
 Gets or sets the order in which to search through a dataset on a test page.  

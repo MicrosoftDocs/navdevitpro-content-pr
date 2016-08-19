@@ -1,14 +1,15 @@
 ---
-title: "Page Properties"
+title:"Page Properties"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 5f4027ee-499a-4d18-a1a1-d289ecbad72e
 caps.latest.revision: 46
-manager: terryaus
+manager: edupont
 ---
 # Page Properties
 This topic lists properties that apply to the page object, controls, and actions on a page.  

@@ -1,14 +1,15 @@
 ---
-title: "NEXT Function (TestPage)"
+title:"NEXT Function (TestPage)"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 25e24fec-2c36-4f59-af74-518d4221b3f7
 caps.latest.revision: 10
-manager: terryaus
+manager: edupont
 ---
 # NEXT Function (TestPage)
 Sets the current row of the test page as the next row in the dataset.  

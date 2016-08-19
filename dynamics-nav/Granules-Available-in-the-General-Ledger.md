@@ -1,14 +1,15 @@
 ---
-title: "Granules Available in the General Ledger"
+title:"Granules Available in the General Ledger"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: e1c2256e-b3a8-4220-9fd3-b31e8286c520
 caps.latest.revision: 10
-manager: pchapman
+manager: edupont
 ---
 # Granules Available in the General Ledger
 This topic contains a list of granules that are available in the General Ledger. The information in the table below does not necessarily correspond with the granule definition that is currently enforced by [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)].  

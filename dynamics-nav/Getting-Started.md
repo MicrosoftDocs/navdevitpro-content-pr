@@ -1,14 +1,15 @@
 ---
-title: "Getting Started"
+title:"Getting Started"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 538ab316-6fd9-4412-97b8-b979bfebc882
 caps.latest.revision: 37
-manager: terryaus
+manager: edupont
 ---
 # Getting Started
 To get started developing in [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see the following topics.  

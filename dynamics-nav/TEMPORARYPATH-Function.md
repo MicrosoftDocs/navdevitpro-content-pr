@@ -1,14 +1,15 @@
 ---
-title: "TEMPORARYPATH Function"
+title:"TEMPORARYPATH Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: d770619b-4250-46d3-a602-5cef7334df6b
 caps.latest.revision: 6
-manager: pchapman
+manager: edupont
 ---
 # TEMPORARYPATH Function
 Gets the path of the directory where the temporary file for [!INCLUDE[navnow](includes/navnow_md.md)] is stored.  

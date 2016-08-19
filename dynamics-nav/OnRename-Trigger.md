@@ -1,14 +1,15 @@
 ---
-title: "OnRename Trigger"
+title:"OnRename Trigger"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: f3b559c5-98d1-4880-9c36-cbff899ff993
 caps.latest.revision: 3
-manager: pchapman
+manager: edupont
 ---
 # OnRename Trigger
 Executed when a user tries to rename a record.  

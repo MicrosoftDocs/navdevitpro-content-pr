@@ -1,11 +1,12 @@
 ---
-title: "How to: Run Automated ApplicationTests"
+title:"How to: Run Automated ApplicationTests"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 4209d5ac-3bf6-4e61-bb8c-8e3b221bd6ea
 caps.latest.revision: 3
 ---

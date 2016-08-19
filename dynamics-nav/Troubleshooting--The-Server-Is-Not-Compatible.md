@@ -1,11 +1,12 @@
 ---
-title: "Troubleshooting: The Server Is Not Compatible"
+title:"Troubleshooting: The Server Is Not Compatible"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 7d656074-1e17-4819-86e8-eee39fbafd10
 caps.latest.revision: 4
 ---

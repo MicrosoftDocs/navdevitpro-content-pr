@@ -1,14 +1,15 @@
 ---
-title: "PREVIEW Function (Report)"
+title:"PREVIEW Function (Report)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: caa2140e-f2f7-4933-95f4-0031516255f3
 caps.latest.revision: 19
-manager: terryaus
+manager: edupont
 ---
 # PREVIEW Function (Report)
 Indicates whether a report is being printed in preview mode.  

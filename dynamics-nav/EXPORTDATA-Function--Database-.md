@@ -1,11 +1,12 @@
 ---
-title: "EXPORTDATA Function (Database)"
+title:"EXPORTDATA Function (Database)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 90a14701-7468-4cc4-b01f-4859ae1be04b
 caps.latest.revision: 4
 ---

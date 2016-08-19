@@ -1,11 +1,12 @@
 ---
-title: "Troubleshooting: Server Error in &#39;-&#39; Application. Access Denied"
+title:"Troubleshooting: Server Error in &#39;-&#39; Application. Access Denied"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: beabce4e-95ad-4767-a8bd-781d8b83ebe5
 caps.latest.revision: 11
 ---

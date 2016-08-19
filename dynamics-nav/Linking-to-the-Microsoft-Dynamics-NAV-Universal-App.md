@@ -1,11 +1,12 @@
 ---
-title: "Linking to the Microsoft Dynamics NAV Universal App"
+title:"Linking to the Microsoft Dynamics NAV Universal App"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: d5d0499a-2770-4c7f-bbc8-ad2795656686
 caps.latest.revision: 17
 ---

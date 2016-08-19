@@ -1,11 +1,12 @@
 ---
-title: "How to: Download and Import Publish Settings and Subscription Information"
+title:"How to: Download and Import Publish Settings and Subscription Information"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 7a45d42f-a80b-47cf-b1e6-4fcf968ebe24
 caps.latest.revision: 8
 ---

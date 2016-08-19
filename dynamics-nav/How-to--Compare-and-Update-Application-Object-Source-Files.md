@@ -1,11 +1,12 @@
 ---
-title: "How to: Compare and Update Application Object Source Files"
+title:"How to: Compare and Update Application Object Source Files"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 464cf181-c272-42db-baa0-2c817aa66468
 caps.latest.revision: 3
 ---

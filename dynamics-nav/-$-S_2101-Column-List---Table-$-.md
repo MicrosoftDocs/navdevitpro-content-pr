@@ -1,14 +1,15 @@
 ---
-title: "($ S_2101 Column List - Table $)"
+title:"($ S_2101 Column List - Table $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: c4b7feaa-7a68-484f-a459-df19676ac6be
 caps.latest.revision: 5
-manager: terryaus
+manager: edupont
 ---
 # ($ S_2101 Column List - Table $)
 Selects the columns by which to sort the rows in a dataset in a query.  

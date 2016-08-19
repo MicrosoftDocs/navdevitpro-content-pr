@@ -1,14 +1,15 @@
 ---
-title: "Web Service Alternatives: SOAP and OData"
+title:"Web Service Alternatives: SOAP and OData"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: a84a800f-3ee8-43ba-8d84-47eaf9325f4f
 caps.latest.revision: 19
-manager: terryaus
+manager: edupont
 ---
 # Web Service Alternatives: SOAP and OData
 [!INCLUDE[navnow](includes/navnow_md.md)] supports OData web services in addition to the SOAP web services that have been available since [!INCLUDE[nav2009](includes/nav2009_md.md)]. Developers planning to create [!INCLUDE[dyn_nav](includes/dyn_nav_md.md)] web services may need to decide which type of web service is better suited to their needs. First, there are some absolute limitations:  

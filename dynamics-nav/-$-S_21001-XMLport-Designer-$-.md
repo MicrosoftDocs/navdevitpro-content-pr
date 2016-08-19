@@ -1,14 +1,15 @@
 ---
-title: "($ S_21001 XMLport Designer $)"
+title:"($ S_21001 XMLport Designer $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 20e88fa4-d0a7-4bf7-9949-034e1d18b0b2
 caps.latest.revision: 7
-manager: terryaus
+manager: edupont
 ---
 # ($ S_21001 XMLport Designer $)
 Provides functionality for designing XMLports.  

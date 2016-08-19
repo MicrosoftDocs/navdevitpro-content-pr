@@ -1,11 +1,12 @@
 ---
-title: "SKIP Function (Report, XMLport)"
+title:"SKIP Function (Report, XMLport)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: f5c7657b-aaa5-4b2c-974d-ac2cd2fc3c9c
 caps.latest.revision: 10
 ---

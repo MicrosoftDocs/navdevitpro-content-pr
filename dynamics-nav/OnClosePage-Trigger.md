@@ -1,14 +1,15 @@
 ---
-title: "OnClosePage Trigger"
+title:"OnClosePage Trigger"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: cc77a05c-f93d-4f5e-bbb5-21967cb95707
 caps.latest.revision: 14
-manager: terryaus
+manager: edupont
 ---
 # OnClosePage Trigger
 Executed as a page closes after the [OnQueryClosePage Trigger](OnQueryClosePage-Trigger.md) is executed.  

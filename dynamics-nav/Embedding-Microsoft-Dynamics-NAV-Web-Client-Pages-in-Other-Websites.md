@@ -1,11 +1,12 @@
 ---
-title: "Embedding Microsoft Dynamics NAV Web Client Pages in Other Websites"
+title:"Embedding Microsoft Dynamics NAV Web Client Pages in Other Websites"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: ba530099-5194-4f1b-8783-5921588cd469
 caps.latest.revision: 23
 ---

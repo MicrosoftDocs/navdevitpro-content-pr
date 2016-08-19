@@ -1,11 +1,12 @@
 ---
-title: "NEXT Function (RecordRef)"
+title:"NEXT Function (RecordRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 29d765c2-ce4e-4bff-b263-6f9e19e09a7f
 caps.latest.revision: 10
 ---

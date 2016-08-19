@@ -1,14 +1,15 @@
 ---
-title: "ISBINARY Function (Variant)"
+title:"ISBINARY Function (Variant)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 12cd8d7b-8e80-41aa-adfb-4f8c3f26bc05
 caps.latest.revision: 7
-manager: pchapman
+manager: edupont
 ---
 # ISBINARY Function (Variant)
 Indicates whether a C\/AL variant contains a Binary variable.  

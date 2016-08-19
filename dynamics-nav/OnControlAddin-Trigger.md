@@ -1,14 +1,15 @@
 ---
-title: "OnControlAddin Trigger"
+title:"OnControlAddin Trigger"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: c0de4666-35c8-4229-8356-f33c523fb16a
 caps.latest.revision: 17
-manager: terryaus
+manager: edupont
 ---
 # OnControlAddin Trigger
 Executed when a control add\-in on the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] page sends event information to the server\-side business logic. You add C\/AL code to process the data that is sent with the event.  

@@ -1,14 +1,15 @@
 ---
-title: "System Requirements for Microsoft Dynamics NAV 2016"
+title:"System Requirements for Microsoft Dynamics NAV 2016"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 014e3285-02be-459c-9a54-eae45ea71e04
 caps.latest.revision: 138
-manager: terryaus
+manager: edupont
 ---
 # System Requirements for Microsoft Dynamics NAV 2016
 The following sections list the minimum hardware and software requirements to install and run [!INCLUDE[navcorfu](includes/navcorfu_md.md)]. **Minimum** means that later versions \(such as SP1, SP2, or R2 versions\) of a required software product are also supported. For the latest version of the system requirements, see the [MSDN Library](http://go.microsoft.com/fwlink/?LinkId=317819).  

@@ -1,14 +1,15 @@
 ---
-title: "How to: Add Users for ADCS"
+title:"How to: Add Users for ADCS"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 4c5564b0-f01d-47af-b2f6-9f7587afd449
 caps.latest.revision: 9
-manager: terryaus
+manager: edupont
 translation.priority.ht: 
   - da-dk
   - de-at

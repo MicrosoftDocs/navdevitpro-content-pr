@@ -1,11 +1,12 @@
 ---
-title: "Custom XML Part Overview for Word Report Layouts"
+title:"Custom XML Part Overview for Word Report Layouts"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 8b29a095-5d4b-40de-8498-3f89994c9633
 caps.latest.revision: 14
 translation.priority.ht: 

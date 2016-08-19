@@ -1,14 +1,15 @@
 ---
-title: "Using the Development Environment from the Command Prompt"
+title:"Using the Development Environment from the Command Prompt"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: cab838ef-0247-4d36-ac42-5c2fd5d7ebbe
 caps.latest.revision: 29
-manager: terryaus
+manager: edupont
 ---
 # Using the Development Environment from the Command Prompt
 You can start the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] by running finsql.exe at the command prompt. You can also use the finsql.exe command to perform the following development tasks without using the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]:  

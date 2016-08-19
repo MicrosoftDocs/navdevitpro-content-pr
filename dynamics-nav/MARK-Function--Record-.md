@@ -1,14 +1,15 @@
 ---
-title: "MARK Function (Record)"
+title:"MARK Function (Record)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 6047c38f-de7e-4e4d-842c-528d63f36e64
 caps.latest.revision: 11
-manager: terryaus
+manager: edupont
 ---
 # MARK Function (Record)
 Marks a record. You can also use this function to determine whether a record is marked.  

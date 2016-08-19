@@ -1,14 +1,15 @@
 ---
-title: "Page Properties Not Supported by Microsoft Dynamics NAV Web Client"
+title:"Page Properties Not Supported by Microsoft Dynamics NAV Web Client"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 8453a88c-096d-43fd-9c63-4315ed1e2454
 caps.latest.revision: 16
-manager: terryaus
+manager: edupont
 ---
 # Page Properties Not Supported by Microsoft Dynamics NAV Web Client
 Most page properties that are supported in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] are also supported in the [!INCLUDE[nav_web](includes/nav_web_md.md)]. There are some properties that are not supported by [!INCLUDE[nav_web](includes/nav_web_md.md)] and other properties that are either partially supported or behave differently in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  

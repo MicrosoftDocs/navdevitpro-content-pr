@@ -1,14 +1,15 @@
 ---
-title: "DataItemLinkType Property"
+title:"DataItemLinkType Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 2805061c-ac39-4ff4-ae23-c4dc5e462636
 caps.latest.revision: 6
-manager: terryaus
+manager: edupont
 ---
 # DataItemLinkType Property
 Sets the data item link type between data items in a query to determine the records that are included in the resulting dataset.  

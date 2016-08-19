@@ -1,11 +1,12 @@
 ---
-title: "GETURL Function"
+title:"GETURL Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 507fd5c0-c6db-4ae0-b2b2-ff5039c6c9a6
 caps.latest.revision: 12
 ---

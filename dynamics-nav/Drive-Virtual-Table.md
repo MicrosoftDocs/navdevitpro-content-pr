@@ -1,14 +1,15 @@
 ---
-title: "Drive Virtual Table"
+title:"Drive Virtual Table"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 93d2b178-6675-4a16-accf-eb00798ee818
 caps.latest.revision: 8
-manager: pchapman
+manager: edupont
 ---
 # Drive Virtual Table
 The **Drive** virtual table gives you an overview of the logical drives on your computer. The **Drive** virtual table contains the following fields.  

@@ -1,11 +1,12 @@
 ---
-title: "How to: Add Fields from a Report Dataset to a Word Report Layout"
+title:"How to: Add Fields from a Report Dataset to a Word Report Layout"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 6ea719bd-b8d3-4bef-81d2-4d7784294a8d
 caps.latest.revision: 5
 manager: edupont

@@ -1,11 +1,12 @@
 ---
-title: "Walkthrough: Creating and Using a Client Control Add-in"
+title:"Walkthrough: Creating and Using a Client Control Add-in"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 758fd34e-e77d-4d35-bea9-7dcef8f7ea40
 caps.latest.revision: 27
 ---

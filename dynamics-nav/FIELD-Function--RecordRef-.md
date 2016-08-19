@@ -1,11 +1,12 @@
 ---
-title: "FIELD Function (RecordRef)"
+title:"FIELD Function (RecordRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 0cbf5999-d63e-49b1-91c3-ce22b194c497
 caps.latest.revision: 13
 ---

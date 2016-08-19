@@ -1,14 +1,15 @@
 ---
-title: "Microsoft Dynamics NAV Web Client"
+title:"Microsoft Dynamics NAV Web Client"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: d10fca47-106f-4f6d-be2e-37cbdae201ee
 caps.latest.revision: 10
-manager: terryaus
+manager: edupont
 ---
 # Microsoft Dynamics NAV Web Client
 The [!INCLUDE[nav_web](includes/nav_web_md.md)] gives users access to [!INCLUDE[navnow](includes/navnow_md.md)] data over a network, such as the Internet, by using a web browser. Users can view and modify data from a user\-friendly interface that resembles the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], where the starting point is the Role Center. The Role Center can be customized to users individual needs based on their role, company, and daily tasks.  

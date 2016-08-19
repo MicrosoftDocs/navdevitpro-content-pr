@@ -1,14 +1,15 @@
 ---
-title: "How to: Open the Microsoft Dynamics NAV Web Client"
+title:"How to: Open the Microsoft Dynamics NAV Web Client"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 41d64ea9-47da-4184-81b7-a7e98b05d530
 caps.latest.revision: 31
-manager: terryaus
+manager: edupont
 ---
 # How to: Open the Microsoft Dynamics NAV Web Client
 You open the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using a web browser from a device that has a network connection. To open the [!INCLUDE[nav_web](includes/nav_web_md.md)], you must know the name of the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] and the HTTP port that it is running on.  

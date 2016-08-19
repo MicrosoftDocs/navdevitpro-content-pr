@@ -1,14 +1,15 @@
 ---
-title: "PromotedActionCategoriesML Property"
+title:"PromotedActionCategoriesML Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 036a07c2-26b0-483b-96ae-4052fdfba6ad
 caps.latest.revision: 2
-manager: terryaus
+manager: edupont
 ---
 # PromotedActionCategoriesML Property
 Sets the caption of the group that you are promoting the action to.  

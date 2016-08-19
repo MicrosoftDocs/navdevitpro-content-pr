@@ -1,14 +1,15 @@
 ---
-title: "How to: Configure Internet Explorer for Microsoft Dynamics NAV Clients"
+title:"How to: Configure Internet Explorer for Microsoft Dynamics NAV Clients"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 0c43029c-6c85-41b4-9107-bbb4f384e357
 caps.latest.revision: 12
-manager: terryaus
+manager: edupont
 ---
 # How to: Configure Internet Explorer for Microsoft Dynamics NAV Clients
 To open the [!INCLUDE[nav_web](includes/nav_web_md.md)], Internet Explorer must be configured to allow *JavaScript* and *cookies*. JavaScript is a programming language for making web pages interactive. Cookies are small files that are stored on your computer. Cookies contain small amounts of data that is specific to a website, or in this case, the [!INCLUDE[nav_web](includes/nav_web_md.md)].  

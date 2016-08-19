@@ -1,14 +1,15 @@
 ---
-title: "($ S_2410 Create Item $)"
+title:"($ S_2410 Create Item $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: e786405f-5076-46b0-b978-8f30c1314344
 caps.latest.revision: 8
-manager: terryaus
+manager: edupont
 ---
 # ($ S_2410 Create Item $)
 Creates menu items in a department. In the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], menus items link to specific objects that you select from this window.  

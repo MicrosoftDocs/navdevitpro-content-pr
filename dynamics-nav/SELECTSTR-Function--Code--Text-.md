@@ -1,14 +1,15 @@
 ---
-title: "SELECTSTR Function (Code, Text)"
+title:"SELECTSTR Function (Code, Text)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: b665d6a5-c639-4483-8217-290600d3aa46
 caps.latest.revision: 13
-manager: pchapman
+manager: edupont
 ---
 # SELECTSTR Function (Code, Text)
 Retrieves a substring from a comma\-separated string.  

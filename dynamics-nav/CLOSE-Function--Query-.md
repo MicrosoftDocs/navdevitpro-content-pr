@@ -1,14 +1,15 @@
 ---
-title: "CLOSE Function (Query)"
+title:"CLOSE Function (Query)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: d4cf28df-1382-437a-9579-eb160dc94417
 caps.latest.revision: 14
-manager: terryaus
+manager: edupont
 ---
 # CLOSE Function (Query)
 Closes a query dataset and returns the query instance to the initialized state.  

@@ -1,14 +1,15 @@
 ---
-title: "How to: Enable Web Services for ADCS"
+title:"How to: Enable Web Services for ADCS"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 5f81cec5-34bc-4530-b1b3-6ae99b9d31ae
 caps.latest.revision: 14
-manager: terryaus
+manager: edupont
 ---
 # How to: Enable Web Services for ADCS
 To use Automated Data Capture System, you must enable the ADCS web service.  

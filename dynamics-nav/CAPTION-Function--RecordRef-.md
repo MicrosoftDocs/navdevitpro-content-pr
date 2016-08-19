@@ -1,14 +1,15 @@
 ---
-title: "CAPTION Function (RecordRef)"
+title:"CAPTION Function (RecordRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: fe9efbda-301d-4d38-9892-e527fa5d6e61
 caps.latest.revision: 13
-manager: terryaus
+manager: edupont
 ---
 # CAPTION Function (RecordRef)
 Gets the caption of the table that is currently selected. Returns an error if no table is selected.  

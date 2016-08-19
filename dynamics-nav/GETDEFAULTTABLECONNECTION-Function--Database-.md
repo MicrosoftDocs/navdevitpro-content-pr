@@ -1,11 +1,12 @@
 ---
-title: "GETDEFAULTTABLECONNECTION Function (Database)"
+title:"GETDEFAULTTABLECONNECTION Function (Database)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 28b41eb4-c57d-498f-afdb-460002850de9
 caps.latest.revision: 4
 ---

@@ -1,14 +1,15 @@
 ---
-title: "Troubleshooting: A server error occurred and the content cannot be displayed"
+title:"Troubleshooting: A server error occurred and the content cannot be displayed"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 7c70c85e-b8b5-413e-b32e-82f1f21c462b
 caps.latest.revision: 20
-manager: terryaus
+manager: edupont
 ---
 # Troubleshooting: A server error occurred and the content cannot be displayed
 When you try to open the [!INCLUDE[nav_web](includes/nav_web_md.md)], you get the following error:  
