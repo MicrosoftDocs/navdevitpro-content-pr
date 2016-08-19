@@ -20,10 +20,10 @@ Sets the ID of the page to use as a drill\-down.
 -   Tables  
   
 > [!IMPORTANT]  
->  This property is not supported on Repeater controls on pages when it is displayed in the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)].  
+>  This property is not supported on Repeater controls on pages when it is displayed in the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
 ## Remarks  
- Drill\-downs are a system\-wide feature of fields \(normal fields and [FlowFields](../dynamics-nav/FlowFields.md)\) that let you see the underlying transactions that make up the information shown in the field. For example, the DrillDownID property is typically used to create a link from a Cue to an underlying page.  
+ Drill\-downs are a system\-wide feature of fields \(normal fields and [FlowFields](FlowFields.md)\) that let you see the underlying transactions that make up the information shown in the field. For example, the DrillDownID property is typically used to create a link from a Cue to an underlying page.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

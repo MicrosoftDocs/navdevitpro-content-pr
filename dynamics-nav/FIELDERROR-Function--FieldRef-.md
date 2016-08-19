@@ -33,10 +33,10 @@ FieldRef.FIELDERROR([Text])
 ## Remarks  
  Similar to a run\-time error, this function causes any transaction to be aborted automatically.  
   
- This function is like the FIELDERROR Function for the Record data type. For examples, see [FIELDERROR Function \(Record\)](../dynamics-nav/FIELDERROR-Function--Record-.md).  
+ This function is like the FIELDERROR Function for the Record data type. For examples, see [FIELDERROR Function \(Record\)](FIELDERROR-Function--Record-.md).  
   
 ## Example  
- The following example opens table 18 \(Customer\) as a RecordRef variable that is named CustomerRecref. The CustomerName variable is initialized with a blank text. `CustomerRecref.FIELD` creates a FieldRef that is named MyFieldRef for field1 \(No.\) and selects record 30000. Field 2 \(Name\) is then selected for record 30000. If the CustomerName variable is a blank text, then `MyFieldRef.FIELDERROR` is executed and an error message is displayed. The text in Text000 text constant is inserted into the error message that is displayed by [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)]. This example uses the default error message. This example requires that you create the following variables and text constant in the **C\/AL Globals** windows.  
+ The following example opens table 18 \(Customer\) as a RecordRef variable that is named CustomerRecref. The CustomerName variable is initialized with a blank text. `CustomerRecref.FIELD` creates a FieldRef that is named MyFieldRef for field1 \(No.\) and selects record 30000. Field 2 \(Name\) is then selected for record 30000. If the CustomerName variable is a blank text, then `MyFieldRef.FIELDERROR` is executed and an error message is displayed. The text in Text000 text constant is inserted into the error message that is displayed by [!INCLUDE[navnow](includes/navnow_md.md)]. This example uses the default error message. This example requires that you create the following variables and text constant in the **C\/AL Globals** windows.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -77,7 +77,7 @@ ELSE
   
 -   Use a text constant for the *Text* parameter.  
   
- For more information, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Functions](../dynamics-nav/Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Functions.md).  
+ For more information, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Functions](Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Functions.md).  
   
 ## See Also  
- [FieldRef Data Type](../dynamics-nav/FieldRef-Data-Type.md)
+ [FieldRef Data Type](FieldRef-Data-Type.md)

@@ -12,7 +12,7 @@ caps.latest.revision: 9
 # Working with PowerShell
 Windows PowerShell is a Windows command\-line shell that is designed especially for system administrators.  
   
- To start a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] PowerShell session, on the **Start** menu, choose **All Programs**, and then choose **[!INCLUDE[nav_shell](../dynamics-nav/includes/nav_shell_md.md)]**. This opens a PowerShell prompt where the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] cmdlets are available.  
+ To start a [!INCLUDE[navnow](includes/navnow_md.md)] PowerShell session, on the **Start** menu, choose **All Programs**, and then choose **[!INCLUDE[nav_shell](includes/nav_shell_md.md)]**. This opens a PowerShell prompt where the [!INCLUDE[navnow](includes/navnow_md.md)] cmdlets are available.  
   
  If this is your first time working with Windows PowerShell, there are various online resources for learning, which include the following:  
   
@@ -29,7 +29,7 @@ Windows PowerShell is a Windows command\-line shell that is designed especially 
 |`-confirm`|Use this parameter with a cmdlet to make sure that you do not unintentionally overwrite files that you have already uploaded.|  
 |`-verbose`|Use this parameter to display messages that indicate how the action is processing.|  
   
- In addition, you can use the Get\-Help cmdlet in combination with any [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] cmdlets to view a cmdlets definition, information about parameters, and examples.  
+ In addition, you can use the Get\-Help cmdlet in combination with any [!INCLUDE[navnow](includes/navnow_md.md)] cmdlets to view a cmdlets definition, information about parameters, and examples.  
   
 ```  
 Get-Help <cmdlet name>  
@@ -42,7 +42,7 @@ Get-Help Get-Help
 ```  
   
 ## Windows PowerShell Scripts  
- Because the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] PowerShell cmdlets for Microsoft Azure require many parameters, it is easier and more efficient to use scripts instead of entering cmdlets directly at the prompt. By using scripts, you can easily debug your cmdlets, and save them for reuse.  
+ Because the [!INCLUDE[navnow](includes/navnow_md.md)] PowerShell cmdlets for Microsoft Azure require many parameters, it is easier and more efficient to use scripts instead of entering cmdlets directly at the prompt. By using scripts, you can easily debug your cmdlets, and save them for reuse.  
   
  Windows PowerShell scripts have a .ps1 file name extension. Before you can run a script, you must change the script execution policy to allow for scripts to run that originate on the local computer. To do this, run the following command at the PowerShell prompt.  
   
@@ -53,6 +53,6 @@ Set-ExecutionPolicy "RemoteSigned" -Scope Process
  For more information about PowerShell execution policy, see [About Execution Policies](http://go.microsoft.com/fwlink/?LinkID=254644).  
   
 ## See Also  
- [Preparing for Deploying Microsoft Dynamics NAV on Microsoft Azure](../dynamics-nav/Preparing-for-Deploying-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
- [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](../dynamics-nav/Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
- [Deploying Microsoft Dynamics NAV Using the Example Scripts](../dynamics-nav/Deploying-Microsoft-Dynamics-NAV-Using-the-Example-Scripts.md)
+ [Preparing for Deploying Microsoft Dynamics NAV on Microsoft Azure](Preparing-for-Deploying-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
+ [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
+ [Deploying Microsoft Dynamics NAV Using the Example Scripts](Deploying-Microsoft-Dynamics-NAV-Using-the-Example-Scripts.md)

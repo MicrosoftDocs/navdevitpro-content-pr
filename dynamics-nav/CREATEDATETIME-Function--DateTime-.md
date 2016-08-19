@@ -60,4 +60,4 @@ TestDateTime := CREATEDATETIME(010101D,0T);
 ```  
   
 ## See Also  
- [DateTime Functions](../dynamics-nav/DateTime-Functions.md)
+ [DateTime Functions](DateTime-Functions.md)

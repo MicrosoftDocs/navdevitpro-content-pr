@@ -18,7 +18,7 @@ You can expand a transaction log by creating a new transaction log file in the d
   
 ### To add a new transaction log file  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **Alter**. The **Alter Database** window opens.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **Alter**. The **Alter Database** window opens.  
   
 2.  Choose the **Transaction Log Files** tab.  
   
@@ -45,5 +45,5 @@ You can expand a transaction log by creating a new transaction log file in the d
   
 ## See Also  
  [How to: Alter Databases](../Topic/How%20to:%20Alter%20Databases.md)   
- [Altering Databases \- Transaction Log Files Tab](../dynamics-nav/Altering-Databases---Transaction-Log-Files-Tab.md)   
+ [Altering Databases \- Transaction Log Files Tab](Altering-Databases---Transaction-Log-Files-Tab.md)   
  [How to: Increase the Size of Transaction Log Files](../Topic/How%20to:%20Increase%20the%20Size%20of%20Transaction%20Log%20Files.md)

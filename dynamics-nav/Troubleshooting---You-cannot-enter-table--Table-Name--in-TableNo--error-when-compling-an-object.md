@@ -25,11 +25,11 @@ If C\/AL code references a table whose name starts with a number, followed by a 
   
      If the table in the previous example has an ID of 5000, then you could change the code to `MESSAGE(FORMAT(DATABASE::"5000"));`.  
   
-     The ID is specified by the table's [ID Property](../dynamics-nav/ID-Property.md).  
+     The ID is specified by the table's [ID Property](ID-Property.md).  
   
      This is the recommended resolution.  
   
--   Rename the table by either removing the number or the space between the number and the rest of the name. The name is specified by the table's [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md).  
+-   Rename the table by either removing the number or the space between the number and the rest of the name. The name is specified by the table's [Name Property\-duplicate](Name-Property-duplicate.md).  
   
 ## See Also  
  [How to: Create a Table](../Topic/How%20to:%20Create%20a%20Table.md)   

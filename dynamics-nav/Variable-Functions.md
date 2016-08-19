@@ -13,15 +13,15 @@ manager: terryaus
 # Variable Functions
 This section contains the following topics:  
   
--   [CANLOADTYPE Function](../dynamics-nav/CANLOADTYPE-Function.md)  
+-   [CANLOADTYPE Function](CANLOADTYPE-Function.md)  
   
--   [CLEAR Function](../dynamics-nav/CLEAR-Function.md)  
+-   [CLEAR Function](CLEAR-Function.md)  
   
--   [CLEARALL Function](../dynamics-nav/CLEARALL-Function.md)  
+-   [CLEARALL Function](CLEARALL-Function.md)  
   
--   [EVALUATE Function](../dynamics-nav/EVALUATE-Function.md)  
+-   [EVALUATE Function](EVALUATE-Function.md)  
   
 ## See Also  
- [System](../dynamics-nav/System.md)   
- [Technical Reference](../dynamics-nav/Technical-Reference.md)   
- [C\-SIDE Reference Guide](../dynamics-nav/C-SIDE-Reference-Guide.md)
+ [System](System.md)   
+ [Technical Reference](Technical-Reference.md)   
+ [C\-SIDE Reference Guide](C-SIDE-Reference-Guide.md)

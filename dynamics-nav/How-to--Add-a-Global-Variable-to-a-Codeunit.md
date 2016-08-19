@@ -27,11 +27,11 @@ To add a global variable to a codeunit, use the following procedure.
   
      If you select **OCX**, **Automation**, or **DotNet**, then you must add a subtype. For more information, see the following topics:  
   
-    -   [Extending Microsoft Dynamics NAV Using COM](../dynamics-nav/Extending-Microsoft-Dynamics-NAV-Using-COM.md)  
+    -   [Extending Microsoft Dynamics NAV Using COM](Extending-Microsoft-Dynamics-NAV-Using-COM.md)  
   
-    -   [Extending Microsoft Dynamics NAV Using Microsoft .NET Framework Interoperability](../dynamics-nav/Extending-Microsoft-Dynamics-NAV-Using-Microsoft-.NET-Framework-Interoperability.md)  
+    -   [Extending Microsoft Dynamics NAV Using Microsoft .NET Framework Interoperability](Extending-Microsoft-Dynamics-NAV-Using-Microsoft-.NET-Framework-Interoperability.md)  
   
      If you select text or code, you must define a length for the variable. The default length is 10 characters for code and 30 characters for text.  
   
 ## See Also  
- [Codeunits](../dynamics-nav/Codeunits.md)
+ [Codeunits](Codeunits.md)

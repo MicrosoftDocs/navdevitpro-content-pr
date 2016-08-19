@@ -40,10 +40,10 @@ IntegerVar := IntegerVar - 1;
 ```  
   
 ## See Also  
- [BigInteger Data Type](../dynamics-nav/BigInteger-Data-Type.md)   
- [Decimal Data Type](../dynamics-nav/Decimal-Data-Type.md)   
- [ABS Function \(Decimal, Integer, BigInteger\)](../dynamics-nav/ABS-Function--Decimal--Integer--BigInteger-.md)   
- [POWER Function \(Decimal, Integer, BigInteger\)](../dynamics-nav/POWER-Function--Decimal--Integer--BigInteger-.md)   
- [RANDOM Function \(Integer\)](../dynamics-nav/RANDOM-Function--Integer-.md)   
- [RANDOMIZE Function \(Integer\)](../dynamics-nav/RANDOMIZE-Function--Integer-.md)   
- [ROUND Function \(Decimal\)](../dynamics-nav/ROUND-Function--Decimal-.md)
+ [BigInteger Data Type](BigInteger-Data-Type.md)   
+ [Decimal Data Type](Decimal-Data-Type.md)   
+ [ABS Function \(Decimal, Integer, BigInteger\)](ABS-Function--Decimal--Integer--BigInteger-.md)   
+ [POWER Function \(Decimal, Integer, BigInteger\)](POWER-Function--Decimal--Integer--BigInteger-.md)   
+ [RANDOM Function \(Integer\)](RANDOM-Function--Integer-.md)   
+ [RANDOMIZE Function \(Integer\)](RANDOMIZE-Function--Integer-.md)   
+ [ROUND Function \(Decimal\)](ROUND-Function--Decimal-.md)

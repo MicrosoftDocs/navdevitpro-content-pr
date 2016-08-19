@@ -11,17 +11,17 @@ caps.latest.revision: 20
 manager: terryaus
 ---
 # Including Microsoft Dynamics Online Connect on Role Centers
-[!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] includes a control add\-in that you can use on Role Centers to display role\-based content from Microsoft Dynamics Online Connect. Connect is a Web service that distributes Microsoft Dynamics product and business information from sources such as [CustomerSource](http://go.microsoft.com/fwlink/?LinkID=153696) and the Microsoft Dynamics community. The information that Connect provides on a Role Center is based on the Role Center's profile or a profile that the Role Center user chooses. If the content is available in different languages, then content is displayed in the language that matches language that is defined for the Role Center user.  
+[!INCLUDE[navnowlong](includes/navnowlong_md.md)] includes a control add\-in that you can use on Role Centers to display role\-based content from Microsoft Dynamics Online Connect. Connect is a Web service that distributes Microsoft Dynamics product and business information from sources such as [CustomerSource](http://go.microsoft.com/fwlink/?LinkID=153696) and the Microsoft Dynamics community. The information that Connect provides on a Role Center is based on the Role Center's profile or a profile that the Role Center user chooses. If the content is available in different languages, then content is displayed in the language that matches language that is defined for the Role Center user.  
   
  To set up a Role Center with Connect, you create a card part page that contains the Connect control add\-in and then use the card part page on the Role Center. For more information, [How to: Include Microsoft Dynamics Online Connect on Role Centers](../Topic/How%20to:%20Include%20Microsoft%20Dynamics%20Online%20Connect%20on%20Role%20Centers.md).  
   
- If you have installed the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] demo database, then Connect is already added by default on several Role Centers.  
+ If you have installed the [!INCLUDE[navnow](includes/navnow_md.md)] demo database, then Connect is already added by default on several Role Centers.  
   
 ## Supported Profiles and Default Role Centers  
- The following table lists the Role Center profiles that are supported by Connect and the Role Centers that use the profiles by default when you install the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] demo database.  
+ The following table lists the Role Center profiles that are supported by Connect and the Role Centers that use the profiles by default when you install the [!INCLUDE[navnow](includes/navnow_md.md)] demo database.  
   
 > [!NOTE]  
->  Whether the Connect part is visible on a Role Center is specified by the [Visible Property\-duplicate](../dynamics-nav/Visible-Property-duplicate.md) of the Role Center page.  
+>  Whether the Connect part is visible on a Role Center is specified by the [Visible Property\-duplicate](Visible-Property-duplicate.md) of the Role Center page.  
   
 |Role Center ID|Profile ID|Visible by default|  
 |--------------------|----------------|------------------------|  
@@ -49,7 +49,7 @@ manager: terryaus
   
 -   Show or hide the page part that contains Connect.  
   
-     The user can do this by choosing the **Customize** button in the Role Center. For more information, see the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Help from the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+     The user can do this by choosing the **Customize** button in the Role Center. For more information, see the [!INCLUDE[navnow](includes/navnow_md.md)] Help from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
 -   Change the profile that is used by Connect.  
   
@@ -60,7 +60,7 @@ manager: terryaus
      When a user signs in to Windows Live, additional content is available that is based on the user's CustomerSource account.  
   
 ## Information Sent from the Role Center to Connect  
- When a Role Center opens, the Connect control add\-in sends the following information about the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] software over the Internet to Microsoft:  
+ When a Role Center opens, the Connect control add\-in sends the following information about the [!INCLUDE[navnow](includes/navnow_md.md)] software over the Internet to Microsoft:  
   
 -   Product name  
   
@@ -75,8 +75,8 @@ manager: terryaus
 -   Profile, which is based on the Role Center ID  
   
 ## Internet Access and Security  
- If you make Connect available to users, then they will require Internet access to use the service. If you have not previously offered Internet access to users, then you should consider the security implications before implementing Connect. For more information, see [Microsoft Dynamics Online Connect](../dynamics-nav/Microsoft-Dynamics-Online-Connect.md).  
+ If you make Connect available to users, then they will require Internet access to use the service. If you have not previously offered Internet access to users, then you should consider the security implications before implementing Connect. For more information, see [Microsoft Dynamics Online Connect](Microsoft-Dynamics-Online-Connect.md).  
   
 ## See Also  
  [How to: Include Microsoft Dynamics Online Connect on Role Centers](../Topic/How%20to:%20Include%20Microsoft%20Dynamics%20Online%20Connect%20on%20Role%20Centers.md)   
- [Installing and Configuring Windows Client Control Add\-ins on Pages](../dynamics-nav/Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)
+ [Installing and Configuring Windows Client Control Add\-ins on Pages](Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)

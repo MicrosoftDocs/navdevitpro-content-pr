@@ -11,7 +11,7 @@ caps.latest.revision: 12
 manager: terryaus
 ---
 # DATE2DMY Function (Date)
-Gets the day, month, or year of a [Date Data Type](../dynamics-nav/Date-Data-Type.md).  
+Gets the day, month, or year of a [Date Data Type](Date-Data-Type.md).  
   
 ## Syntax  
   
@@ -69,4 +69,4 @@ MESSAGE(Text000,Day,Month,Year);
  **Today is day 16 of month 2 of the year 2014.**  
   
 ## See Also  
- [Date and Time Functions](../dynamics-nav/Date-and-Time-Functions.md)
+ [Date and Time Functions](Date-and-Time-Functions.md)

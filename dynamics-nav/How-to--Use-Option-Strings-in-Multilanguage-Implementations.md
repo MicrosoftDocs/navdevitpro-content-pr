@@ -17,7 +17,7 @@ In a client report definition \(RDLC\) report layout, an option variable is hand
   
 ### To assign the option string to an integer variable  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **Report**, select the report that you want to modify, and then choose the **Design** button.  
   
@@ -56,4 +56,4 @@ In a client report definition \(RDLC\) report layout, an option variable is hand
      In report 111, the ShowTypeNo integer variable is used in expressions on the bar chart and the pie chart.  
   
 ## See Also  
- [Designing Reports](../dynamics-nav/Designing-Reports.md)
+ [Designing Reports](Designing-Reports.md)

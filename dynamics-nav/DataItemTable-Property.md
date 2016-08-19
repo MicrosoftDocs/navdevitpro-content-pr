@@ -11,7 +11,7 @@ caps.latest.revision: 6
 manager: terryaus
 ---
 # DataItemTable Property
-Sets the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database table that is associated with a data item.  
+Sets the [!INCLUDE[navnow](includes/navnow_md.md)] database table that is associated with a data item.  
   
 ## Applies To  
   
@@ -20,6 +20,6 @@ Sets the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database tabl
 -   Reports  
   
 ## Remarks  
- Queries and reports retrieve data from one or more tables. You specify tables in these objects by defining a data item. You can associate the same table with more than one data item. However, each data item must have a unique name in the object. If you have data items with the same name, you can change the names by setting the [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md) or **Name** column on the DataItem.  
+ Queries and reports retrieve data from one or more tables. You specify tables in these objects by defining a data item. You can associate the same table with more than one data item. However, each data item must have a unique name in the object. If you have data items with the same name, you can change the names by setting the [Name Property\-duplicate](Name-Property-duplicate.md) or **Name** column on the DataItem.  
   
  The DateItemTable property is set automatically when you use Query Designer or Report Dataset Designer to create data items.

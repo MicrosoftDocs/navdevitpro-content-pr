@@ -51,4 +51,4 @@ MESSAGE(Text000, RecordRef1.CAPTION, RecordRef2.CAPTION);
 ```  
   
 ## See Also  
- [RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md)
+ [RecordRef Data Type](RecordRef-Data-Type.md)

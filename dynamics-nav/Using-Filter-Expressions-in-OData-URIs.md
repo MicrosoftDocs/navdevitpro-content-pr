@@ -20,10 +20,10 @@ You can use filter expressions in OData URIs to limit the results that are retur
 http://localhost:7048/DynamicsNAV/OData/Company('CRONUS International Ltd.')/Customer?$filter=City eq 'Miami'  
 ```  
   
- The following table shows the filters that are supported in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] OData web services and the equivalent C\/AL filter expressions. All examples are based either on page 21, Customer \(published as **Customer**\), or on page 20, General Ledger Entry \(published as **GLEntry**\).  
+ The following table shows the filters that are supported in [!INCLUDE[navnow](includes/navnow_md.md)] OData web services and the equivalent C\/AL filter expressions. All examples are based either on page 21, Customer \(published as **Customer**\), or on page 20, General Ledger Entry \(published as **GLEntry**\).  
   
 > [!NOTE]  
->  Filters that do not have equivalent C\/AL expressions might take longer to process compared to filters that do have equivalent C\/AL expressions. The reason is that filters that do not have equivalent C\/AL expressions are processed on the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] tier, while filters that do have equivalent C\/AL expressions are processed on the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database tier.  
+>  Filters that do not have equivalent C\/AL expressions might take longer to process compared to filters that do have equivalent C\/AL expressions. The reason is that filters that do not have equivalent C\/AL expressions are processed on the [!INCLUDE[nav_server](includes/nav_server_md.md)] tier, while filters that do have equivalent C\/AL expressions are processed on the [!INCLUDE[navnow](includes/navnow_md.md)] database tier.  
   
 |Definition|Example and explanation|Equivalent C\/AL expression|  
 |----------------|-----------------------------|---------------------------------|  
@@ -68,4 +68,4 @@ http://localhost:7048/DynamicsNAV/OData/Company('CRONUS International Ltd.')/Cus
  For more information about data types and other information about conventions and standards for OData URIs, see [Atom Publishing Protocol: URI Conventions](http://go.microsoft.com/fwlink/?LinkId=214635). Conventions for data types are addressed in section 2.2.2, "Abstract Type System."  
   
 ## See Also  
- [OData Web Services](../dynamics-nav/OData-Web-Services.md)
+ [OData Web Services](OData-Web-Services.md)

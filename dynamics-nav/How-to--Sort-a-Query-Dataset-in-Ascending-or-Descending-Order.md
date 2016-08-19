@@ -11,7 +11,7 @@ caps.latest.revision: 7
 manager: terryaus
 ---
 # How to: Sort a Query Dataset in Ascending or Descending Order
-By default, the rows in the resulting dataset of query are not necessarily arranged in any specific order. You can sort the rows in the dataset in ascending or descending order by one or more selected columns in the query. For example, if the query retrieves the quantity of items in sales orders for each customer, then you could sort the results in alphabetical order by the customer name, or you could sort the results by the quantity of items from the highest value to the lowest value. To sort query results, you modify the [OrderBy Property](../dynamics-nav/OrderBy-Property.md) of the query object.  
+By default, the rows in the resulting dataset of query are not necessarily arranged in any specific order. You can sort the rows in the dataset in ascending or descending order by one or more selected columns in the query. For example, if the query retrieves the quantity of items in sales orders for each customer, then you could sort the results in alphabetical order by the customer name, or you could sort the results by the quantity of items from the highest value to the lowest value. To sort query results, you modify the [OrderBy Property](OrderBy-Property.md) of the query object.  
   
 > [!NOTE]  
 >  If you are familiar with SQL select statement syntax, the **OrderBy** property corresponds to the ORDERBY clause.  

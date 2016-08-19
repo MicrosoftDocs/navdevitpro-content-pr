@@ -20,4 +20,4 @@ Executed after the XMLPort is run.
  This trigger is executed after all data items are processed.  
   
 ## See Also  
- [Triggers](../dynamics-nav/Triggers.md)
+ [Triggers](Triggers.md)

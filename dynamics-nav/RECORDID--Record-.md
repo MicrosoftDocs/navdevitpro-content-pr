@@ -30,7 +30,7 @@ RecordID := Record.RECORDID
  Type: RecordID  
   
 ## Remarks  
- You can show strings that include RECORDID in the user interface by using the [FORMAT Function \(Code, Text\)](../dynamics-nav/FORMAT-Function--Code--Text-.md). In most cases, use the standard format value 1, which ensures that captions are shown in the current language. The following table illustrates the effect of the different standard formats when RECORDID is used in a FORMAT statement in a Danish locale.  
+ You can show strings that include RECORDID in the user interface by using the [FORMAT Function \(Code, Text\)](FORMAT-Function--Code--Text-.md). In most cases, use the standard format value 1, which ensures that captions are shown in the current language. The following table illustrates the effect of the different standard formats when RECORDID is used in a FORMAT statement in a Danish locale.  
   
 |Standard Format|Renders as|  
 |---------------------|----------------|  
@@ -38,10 +38,10 @@ RecordID := Record.RECORDID
 |FORMAT\(Customer.RECORDID,0,1\)|Kunde: 1212121|  
 |FORMAT\(Customer.RECORDID,0,9\)|Customer: 1212121|  
   
- When you use standard format 1, the caption of the record is returned. When you use other standard formats, the name of the record is returned, which is usually English \(US\). For more information, see [Format Property](../dynamics-nav/Format-Property.md).  
+ When you use standard format 1, the caption of the record is returned. When you use other standard formats, the name of the record is returned, which is usually English \(US\). For more information, see [Format Property](Format-Property.md).  
   
 ## Example  
- The following example opens table 18 \(Customer\) as a Record variable that is named MyRecord. The [FINDLAST Function \(Record\)](../dynamics-nav/FINDLAST-Function--Record-.md) finds the last record in the table. The record ID of the last record is retrieved, stored in the RecID variable displayed in message box. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example opens table 18 \(Customer\) as a Record variable that is named MyRecord. The [FINDLAST Function \(Record\)](FINDLAST-Function--Record-.md) finds the last record in the table. The record ID of the last record is retrieved, stored in the RecID variable displayed in message box. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -61,5 +61,5 @@ MESSAGE(MyTextConst, RecID);
 ```  
   
 ## See Also  
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)   
- [Format Property](../dynamics-nav/Format-Property.md)
+ [Record Data Type](Record-Data-Type.md)   
+ [Format Property](Format-Property.md)

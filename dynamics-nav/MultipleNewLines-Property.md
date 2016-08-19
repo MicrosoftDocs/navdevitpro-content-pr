@@ -21,4 +21,4 @@ Sets a value that determines whether users can add multiple new lines between re
  **Yes** if you want to allow users to add multiple new lines between records; otherwise, **No**. The default is **No**.  
   
 ## See Also  
- [AutoSplitKey Property](../dynamics-nav/AutoSplitKey-Property.md)
+ [AutoSplitKey Property](AutoSplitKey-Property.md)

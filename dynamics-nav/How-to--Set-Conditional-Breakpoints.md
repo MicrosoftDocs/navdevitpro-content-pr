@@ -63,4 +63,4 @@ SalesInvoiceHeader."No." = '103007'
 ```  
   
 ## See Also  
- [Breakpoints](../dynamics-nav/Breakpoints.md)
+ [Breakpoints](Breakpoints.md)

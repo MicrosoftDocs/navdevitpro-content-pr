@@ -27,4 +27,4 @@ Sets a value that specifies whether an attribute must occur in the data that is 
  This property is primarily used to ensure that the XML data that you are importing conforms to the data structure in Microsoft Dynamics NAV.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

@@ -43,13 +43,13 @@ Creates an Automation object.
   
  If the return value is not tested, then execution will end with a run\-time error.  
   
-## [!INCLUDE[bp_supcli_head](../dynamics-nav/includes/bp_supcli_head_md.md)]  
- [!INCLUDE[bp_supcli_rtc](../dynamics-nav/includes/bp_supcli_rtc_md.md)]  
+## [!INCLUDE[bp_supcli_head](includes/bp_supcli_head_md.md)]  
+ [!INCLUDE[bp_supcli_rtc](includes/bp_supcli_rtc_md.md)]  
   
 ## Remarks  
   
 > [!IMPORTANT]  
->  This function is not supported by the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)].  
+>  This function is not supported by the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
  The CREATE function instantiates, or creates, the Automation server that is referenced by the Automation variable. An OCX, or a custom control, is instantiated implicitly, but Automation variables must be created explicitly.  
   
@@ -57,7 +57,7 @@ Creates an Automation object.
   
  If you have an array of Automation servers, then you have to call the CREATE function on each element individually. The *NewServer* variable can be used independently on each element.  
   
- The Automation object that is created can be explicitly destroyed by the [CLEAR Function](../dynamics-nav/CLEAR-Function.md). The object is implicitly destroyed when the Automation variable goes out of scope.  
+ The Automation object that is created can be explicitly destroyed by the [CLEAR Function](CLEAR-Function.md). The object is implicitly destroyed when the Automation variable goes out of scope.  
   
  An Automation variable can only be created one time. You will get a run\-time error if you try to create an Automation variable again and do not call CLEAR first. You also get a run\-time error if you try to create an OCX variable.  
   
@@ -74,4 +74,4 @@ ReturnValue := CREATE(Document, FALSE, TRUE);
 ```  
   
 ## See Also  
- [Automation Data Type](../dynamics-nav/Automation-Data-Type.md)
+ [Automation Data Type](Automation-Data-Type.md)

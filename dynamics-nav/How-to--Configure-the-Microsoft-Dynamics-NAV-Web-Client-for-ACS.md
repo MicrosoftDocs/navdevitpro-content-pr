@@ -11,15 +11,15 @@ caps.latest.revision: 3
 manager: tsiggaar
 ---
 # How to: Configure the Microsoft Dynamics NAV Web Client for ACS
-You configure the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] for Access Control Service \(ACS\) by editing the web.config file. The web.config file is an .xml file that you can edit with a text editor, such as Notepad. By default, the web.config file is located in the [!INCLUDE[navnow_install](../dynamics-nav/includes/navnow_install_md.md)]\\Web Client\\ folder.  
+You configure the [!INCLUDE[nav_web](includes/nav_web_md.md)] for Access Control Service \(ACS\) by editing the web.config file. The web.config file is an .xml file that you can edit with a text editor, such as Notepad. By default, the web.config file is located in the [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Web Client\\ folder.  
   
- Before you begin this procedure, you must perform the steps to configure your deployment for ACS. For more information, see [Authenticating Users with Microsoft Azure Access Control Service](../dynamics-nav/Authenticating-Users-with-Microsoft-Azure-Access-Control-Service.md).  
+ Before you begin this procedure, you must perform the steps to configure your deployment for ACS. For more information, see [Authenticating Users with Microsoft Azure Access Control Service](Authenticating-Users-with-Microsoft-Azure-Access-Control-Service.md).  
   
-### To configure the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] for ACS  
+### To configure the [!INCLUDE[nav_web](includes/nav_web_md.md)] for ACS  
   
-1.  Edit the web server configuration file \(web.config\) for each instance of the [!INCLUDE[nav_web_server](../dynamics-nav/includes/nav_web_server_md.md)] that will be supporting users for ACS authentication.  
+1.  Edit the web server configuration file \(web.config\) for each instance of the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] that will be supporting users for ACS authentication.  
   
-     A separate instance of the web.config file is maintained for each server instance. The default location for this file is [!INCLUDE[navnow_install](../dynamics-nav/includes/navnow_install_md.md)]\\WebClient\\.  
+     A separate instance of the web.config file is maintained for each server instance. The default location for this file is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\WebClient\\.  
   
     > [!CAUTION]  
     >  To ensure that your edits to web.config are saved, first open Notepad as an Administrator and then, in Notepad, open the settings file. To open Notepad as an Administrator, from the **Start** menu, right\-click **Notepad**, and then choose **Run as Administrator**.  
@@ -34,4 +34,4 @@ You configure the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] fo
 3.  After updating the values, save ClientUserSettings.config.  
   
 ## See Also  
- [Configure Microsoft Dynamics NAV Components for ACS](../dynamics-nav/Configure-Microsoft-Dynamics-NAV-Components-for-ACS.md)
+ [Configure Microsoft Dynamics NAV Components for ACS](Configure-Microsoft-Dynamics-NAV-Components-for-ACS.md)

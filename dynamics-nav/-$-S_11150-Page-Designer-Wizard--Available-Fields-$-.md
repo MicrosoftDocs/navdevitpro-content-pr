@@ -18,12 +18,12 @@ Creates a List page and adds fields with the page wizard. List pages display mul
 ## List Page Wizard Window  
  The following table describes the contents of the first page of the List Page Wizard.  
   
-|[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
 |**Available Fields** list box|Contains a list of the fields from the table you want to display on the page.|  
 |**Field Order** list box|Contains the fields that you have selected to include on the page and the order they will appear.|  
   
-|Controls|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|Controls|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
 |**\>** button|Adds a field from the **Available Fields** list box.|  
 |**\>\>** button|Adds all the fields from the **Available Fields** list box.|  

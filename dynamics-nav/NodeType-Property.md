@@ -25,4 +25,4 @@ Sets the value to specify whether an XML object is an element or an attribute.
 |Attribute|An attribute could represent a field in the record. For example, the \<Record\>\<\/Record\> Element could contain two fields, as shown in the code example. An attribute cannot contain other elements.|  
   
 ## See Also  
- [NodeName Property](../dynamics-nav/NodeName-Property.md)
+ [NodeName Property](NodeName-Property.md)

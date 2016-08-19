@@ -16,12 +16,12 @@ Overrides the default drill\-down behavior defined in the table definition for t
  Fields on pages  
   
 > [!NOTE]  
->  The OnDrillDown trigger is not invoked on fields in a Repeater control in the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)].  
+>  The OnDrillDown trigger is not invoked on fields in a Repeater control in the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
 ## Remarks  
  If there is an error in the trigger code, the drilldown is canceled. You can use this trigger to write to the database.  
   
- This trigger overrides the [DrillDownPageID Property](../dynamics-nav/DrillDownPageID-Property.md) setting of the FlowField.  
+ This trigger overrides the [DrillDownPageID Property](DrillDownPageID-Property.md) setting of the FlowField.  
   
 ## See Also  
- [Triggers](../dynamics-nav/Triggers.md)
+ [Triggers](Triggers.md)

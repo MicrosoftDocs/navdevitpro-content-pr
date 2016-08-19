@@ -30,4 +30,4 @@ Ok := Variant.ISDATEFORMULA
  **true** if the C\/AL variant contains a DateFormula variable; otherwise, **false**.  
   
 ## See Also  
- [Variant Data Type](../dynamics-nav/Variant-Data-Type.md)
+ [Variant Data Type](Variant-Data-Type.md)

@@ -57,4 +57,4 @@ END;
 ```  
   
 ## See Also  
- [Extending Microsoft Dynamics NAV Using Microsoft .NET Framework Interoperability](../dynamics-nav/Extending-Microsoft-Dynamics-NAV-Using-Microsoft-.NET-Framework-Interoperability.md)
+ [Extending Microsoft Dynamics NAV Using Microsoft .NET Framework Interoperability](Extending-Microsoft-Dynamics-NAV-Using-Microsoft-.NET-Framework-Interoperability.md)

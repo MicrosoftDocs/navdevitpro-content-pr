@@ -29,7 +29,7 @@ Number := Query.COLUMNNO(Column)
  *Column*  
  Type: Text  
   
- Refers to the name of the query column. The name of a query column is specified by the [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md) of the column in Query Designer.  
+ Refers to the name of the query column. The name of a query column is specified by the [Name Property\-duplicate](Name-Property-duplicate.md) of the column in Query Designer.  
   
 ## Property Value\/Return Value  
  Type: Integer  
@@ -37,7 +37,7 @@ Number := Query.COLUMNNO(Column)
  The number that is assigned to the column.  
   
 ## Remarks  
- In Query Designer, each column of the query is assigned a number that is specified by the column's [ID Property](../dynamics-nav/ID-Property.md). The **COLUMNNO** function enables you to create actions based on the ID of a column.  
+ In Query Designer, each column of the query is assigned a number that is specified by the column's [ID Property](ID-Property.md). The **COLUMNNO** function enables you to create actions based on the ID of a column.  
   
 ## Example  
  The following example shows how to get the ID of a column of a query. The query is called **My Customer Query** and has a column with the name **Customer\_No**. This example requires that you create the following variables.  
@@ -56,5 +56,5 @@ Number := MyQuery.COLUMNNO("Customer_No");
 ## See Also  
  [How to: Create Queries](../Topic/How%20to:%20Create%20Queries.md)   
  [How to: Set Up Filter Rows in Query Designer](../Topic/How%20to:%20Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md)   
- [Queries](../dynamics-nav/Queries.md)   
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [Queries](Queries.md)   
+ [Record Data Type](Record-Data-Type.md)

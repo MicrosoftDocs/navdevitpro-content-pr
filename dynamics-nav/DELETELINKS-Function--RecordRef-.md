@@ -27,7 +27,7 @@ RecordRef.DELETELINKS
  The record in the table where the links should be deleted from.  
   
 ## Example  
- The following example deletes all links from a customer record in the Customer table. The code starts by opening table 18 \(Customer\) as a RecordRef variable that is named CustomerRecref. The [FIELD Function \(RecordRef\)](../dynamics-nav/FIELD-Function--RecordRef-.md) creates a FieldRef variable that is named MyFieldRef for the first field in the table \(No.\). `MyFieldRef.VALUE` selects record 01121212 from the No. field. This record is initialized in the CustomerNum variable. The [FIND Function \(RecordRef\)](../dynamics-nav/FIND-Function--RecordRef-.md) searches for record 01121212. If the record is found, the DELETELINKS function deletes all the links in the record. A message that states that the links are deleted is displayed in a message box. You can verify that the links are deleted in the **Links** FactBox on the Customer List or Customer Card pages. This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ The following example deletes all links from a customer record in the Customer table. The code starts by opening table 18 \(Customer\) as a RecordRef variable that is named CustomerRecref. The [FIELD Function \(RecordRef\)](FIELD-Function--RecordRef-.md) creates a FieldRef variable that is named MyFieldRef for the first field in the table \(No.\). `MyFieldRef.VALUE` selects record 01121212 from the No. field. This record is initialized in the CustomerNum variable. The [FIND Function \(RecordRef\)](FIND-Function--RecordRef-.md) searches for record 01121212. If the record is found, the DELETELINKS function deletes all the links in the record. A message that states that the links are deleted is displayed in a message box. You can verify that the links are deleted in the **Links** FactBox on the Customer List or Customer Card pages. This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -55,4 +55,4 @@ ELSE
 ```  
   
 ## See Also  
- [RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md)
+ [RecordRef Data Type](RecordRef-Data-Type.md)

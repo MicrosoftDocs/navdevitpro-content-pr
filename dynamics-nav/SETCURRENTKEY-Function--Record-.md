@@ -39,15 +39,15 @@ Selects a key for a table.
  If you omit this optional return value and if the key cannot be found, then a run\-time error occurs. If you include a return value, then you must handle any errors.  
   
 ## Remarks  
- **SETCURRENTKEY** is used to select a key for a record and set the sort order that is used for the table in question. This key becomes the current key and is used by the [FIND Function \(Record\)](../dynamics-nav/FIND-Function--Record-.md), the [NEXT Function \(Record\)](../dynamics-nav/NEXT-Function--Record-.md), and other functions until another key is selected. Until this function is called, the table's primary key is used as the current key.  
+ **SETCURRENTKEY** is used to select a key for a record and set the sort order that is used for the table in question. This key becomes the current key and is used by the [FIND Function \(Record\)](FIND-Function--Record-.md), the [NEXT Function \(Record\)](NEXT-Function--Record-.md), and other functions until another key is selected. Until this function is called, the table's primary key is used as the current key.  
   
- In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], the [CALCFIELDS Function \(Record\)](../dynamics-nav/CALCFIELDS-Function--Record-.md), [CALCSUMS Function \(Record\)](../dynamics-nav/CALCSUMS-Function--Record-.md), AND [CALCSUM Function \(FieldRef\)](../dynamics-nav/CALCSUM-Function--FieldRef-.md) do not require that a SIFT index is defined for the fields that are being calculated. Therefore, you do not need to define keys solely for SIFT indexes. Fewer SIFT indexes and fewer keys can improve performance. In earlier versions of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], if a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] key that started with the fields that you specified as parameters to **SETCURRENTKEY** did not exist, then you received an error when you called the **SETCURRENTKEY** function. This provided a degree of protection in earlier versions against accidentally requesting a sorting for which no index existed. In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], an index is not required to support a certain sorting, but sorting without an index could lead to bad performance if a search returns a large result set, which would then have to be sorted before the first row is returned.  
+ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], the [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md), [CALCSUMS Function \(Record\)](CALCSUMS-Function--Record-.md), AND [CALCSUM Function \(FieldRef\)](CALCSUM-Function--FieldRef-.md) do not require that a SIFT index is defined for the fields that are being calculated. Therefore, you do not need to define keys solely for SIFT indexes. Fewer SIFT indexes and fewer keys can improve performance. In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], if a [!INCLUDE[navnow](includes/navnow_md.md)] key that started with the fields that you specified as parameters to **SETCURRENTKEY** did not exist, then you received an error when you called the **SETCURRENTKEY** function. This provided a degree of protection in earlier versions against accidentally requesting a sorting for which no index existed. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], an index is not required to support a certain sorting, but sorting without an index could lead to bad performance if a search returns a large result set, which would then have to be sorted before the first row is returned.  
   
  Use the following guidelines when you use **SETCURRENTKEY**:  
   
 -   Inactive fields are ignored. Only active keys are scanned.  
   
--   When searching for a key, [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] selects the first occurrence of the specified field\(s\). This means the following:  
+-   When searching for a key, [!INCLUDE[navnow](includes/navnow_md.md)] selects the first occurrence of the specified field\(s\). This means the following:  
   
     -   If you specify only one field as a parameter when you call **SETCURRENTKEY**, then the key that is actually selected may consist of more than one field.  
   
@@ -102,4 +102,4 @@ ELSE
  By including a return value, you can avoid a run\-time error if a key cannot be found.  
   
 ## See Also  
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [Record Data Type](Record-Data-Type.md)

@@ -24,14 +24,14 @@ Finds a set of records in a table based on the current key and filter.
  *Record*  
  Type: Record  
   
- If the record is found, then the record is returned in this parameter and any [FlowFields](../dynamics-nav/FlowFields.md) in the record are set to zero. You must update the FlowFields by using the [CALCFIELDS Function \(Record\)](../dynamics-nav/CALCFIELDS-Function--Record-.md).  
+ If the record is found, then the record is returned in this parameter and any [FlowFields](FlowFields.md) in the record are set to zero. You must update the FlowFields by using the [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md).  
   
  *ForUpdate*  
  Type: Boolean  
   
  Set this parameter to **true** if you want to modify any records in the set; otherwise, set the parameter to **false**.  
   
- If you set this parameter to **true**, then the [LOCKTABLE Function \(Record\)](../dynamics-nav/LOCKTABLE-Function--Record-.md) is immediately run on the table before the records are read.  
+ If you set this parameter to **true**, then the [LOCKTABLE Function \(Record\)](LOCKTABLE-Function--Record-.md) is immediately run on the table before the records are read.  
   
  If you set this parameter to **false**, then you can still modify the records in the set, but these updates will not be performed optimally.  
   
@@ -119,7 +119,7 @@ END;
 ```  
   
 ## See Also  
- [FIND Function \(Record\)](../dynamics-nav/FIND-Function--Record-.md)   
- [FINDFIRST Function \(Record\)](../dynamics-nav/FINDFIRST-Function--Record-.md)   
- [FINDLAST Function \(Record\)](../dynamics-nav/FINDLAST-Function--Record-.md)   
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [FIND Function \(Record\)](FIND-Function--Record-.md)   
+ [FINDFIRST Function \(Record\)](FINDFIRST-Function--Record-.md)   
+ [FINDLAST Function \(Record\)](FINDLAST-Function--Record-.md)   
+ [Record Data Type](Record-Data-Type.md)

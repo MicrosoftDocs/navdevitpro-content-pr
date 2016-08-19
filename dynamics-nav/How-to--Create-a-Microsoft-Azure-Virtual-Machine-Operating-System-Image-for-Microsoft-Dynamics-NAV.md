@@ -11,7 +11,7 @@ caps.latest.revision: 11
 manager: tsiggaar
 ---
 # How to: Create a Microsoft Azure Virtual Machine Operating System Image for Microsoft Dynamics NAV
-This topic describes how to create custom images in Microsoft Azure Gallery that you can use to create virtual machines for deploying [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)]. Following this procedure ensures that [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] remains fully automated when using the scripts that are provided with the [!INCLUDE[nav_prov_long](../dynamics-nav/includes/nav_prov_long_md.md)].  
+This topic describes how to create custom images in Microsoft Azure Gallery that you can use to create virtual machines for deploying [!INCLUDE[navnow](includes/navnow_md.md)]. Following this procedure ensures that [!INCLUDE[navnow](includes/navnow_md.md)] remains fully automated when using the scripts that are provided with the [!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)].  
   
  To create a custom image and add it to the Azure Gallery, you must complete the following tasks.  
   
@@ -21,7 +21,7 @@ This topic describes how to create custom images in Microsoft Azure Gallery that
   
 -   [Install Microsoft SQL Server by Using SysPrep (NAV Database Image Only)](../Topic/How%20to:%20Create%20a%20Microsoft%20Azure%20Virtual%20Machine%20Operating%20System%20Image%20for%20Microsoft%20Dynamics%20NAV.md#InstallSQL)  
   
-     You only perform this task if the image will include SQL Server for hosting the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database.  
+     You only perform this task if the image will include SQL Server for hosting the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
 -   [Capture the Image and Add it to the Azure Image Gallery](../Topic/How%20to:%20Create%20a%20Microsoft%20Azure%20Virtual%20Machine%20Operating%20System%20Image%20for%20Microsoft%20Dynamics%20NAV.md#CaptureImage)  
   
@@ -39,7 +39,7 @@ This topic describes how to create custom images in Microsoft Azure Gallery that
      To connect from the Azure management portal, under **Virtual Machines**, select the virtual machine, and then choose **Connect**. For more information, see [How to Log on to a Virtual Machine Running Windows Server](http://go.microsoft.com/fwlink/?LinkID=298930).  
   
 ##  <a name="InstallNET35"></a> Install Microsoft .NET Framework 3.5  
- If Microsoft .NET Framework is not installed on the image, the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Setup will install it automatically during deployment. However, by installing Microsoft .NET Framework 3.5 manually, you can decrease the installation time and eliminate potential installation problems.  
+ If Microsoft .NET Framework is not installed on the image, the [!INCLUDE[navnow](includes/navnow_md.md)] Setup will install it automatically during deployment. However, by installing Microsoft .NET Framework 3.5 manually, you can decrease the installation time and eliminate potential installation problems.  
   
 #### To install Microsoft .NET Framework 3.5 on Windows Server 2012  
   
@@ -56,7 +56,7 @@ This topic describes how to create custom images in Microsoft Azure Gallery that
     ```  
   
 ##  <a name="InstallSQL"></a> Install Microsoft SQL Server by Using SysPrep \(NAV Database Image Only\)  
- If you are creating an image that will be used to host the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database, then the next task is to install Microsoft SQL Server on the virtual machine. If the image will be used to create virtual machines that will only host the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] and [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], not the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database, then you can skip this task.  
+ If you are creating an image that will be used to host the [!INCLUDE[navnow](includes/navnow_md.md)] database, then the next task is to install Microsoft SQL Server on the virtual machine. If the image will be used to create virtual machines that will only host the [!INCLUDE[nav_server](includes/nav_server_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)], not the [!INCLUDE[navnow](includes/navnow_md.md)] database, then you can skip this task.  
   
  You cannot complete the installation of SQL Server on the virtual machine before you capture it as an image in Azure. This is because when you use the captured image to create a new virtual machine, the virtual machine is configured to use a new administrator account that has a different security identifier \(SID\) than the administrator account on the image. Therefore, you will use SysPrep to run the first part of the SQL Server installation before you capture the operating system image, and then run the second part of the installation after the new virtual machine is created from the image and started for the first time.  
   
@@ -87,7 +87,7 @@ This topic describes how to create custom images in Microsoft Azure Gallery that
   
 5.  Create a SQL SysPrep configuration file for running the SQL Server setup.exe file.  
   
-     You can use the example file that is described in [SQL Server Sysprep Installation Configuration File Example](../dynamics-nav/SQL-Server-Sysprep-Installation-Configuration-File-Example.md) or follow the instructions at [Install SQL Server 2012 Using a Configuration File](http://msdn.microsoft.com/en-us/library/dd239405.aspx) to create your own file.  
+     You can use the example file that is described in [SQL Server Sysprep Installation Configuration File Example](SQL-Server-Sysprep-Installation-Configuration-File-Example.md) or follow the instructions at [Install SQL Server 2012 Using a Configuration File](http://msdn.microsoft.com/en-us/library/dd239405.aspx) to create your own file.  
   
      Name the file *ConfigurationFile.ini* and save it in the same location as the setup.exe file.  
   
@@ -115,11 +115,11 @@ This topic describes how to create custom images in Microsoft Azure Gallery that
          `VMAdmin` species the user name of the administrator account that is created on the virtual machine. If you want to specify a different user name, substitute `VMAdmin` with the name that you want to use. You cannot use `Administrator` as the user name.  
   
         > [!IMPORTANT]  
-        >  When you deploy [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] on Azure by using the example scripts \(Example\-1VM\-ps1 and Example\-2VM.ps1\), you must specify this user name for the administrator account on the virtual machine that will host the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database. You specify the user name in the Setting\-PartnerSettings.ps1 file or Set\-PartnerCustom.ps1 file that is used by the example script. If you are using the Example\-1VM\-ps1 script, then you specify the user name in the $NAV\_VMAdminUserName parameter. If you are using the Example\-2VM\-ps1 script, then you specify the user name in the $NAV\_SqlServerMachineAdminUserName parameter. For more information about how to run the example scripts, see [How to: Deploy Microsoft Dynamics NAV on Microsoft Azure by Using the Example Scripts](../Topic/How%20to:%20Deploy%20Microsoft%20Dynamics%20NAV%20on%20Microsoft%20Azure%20by%20Using%20the%20Example%20Scripts.md)  
+        >  When you deploy [!INCLUDE[navnow](includes/navnow_md.md)] on Azure by using the example scripts \(Example\-1VM\-ps1 and Example\-2VM.ps1\), you must specify this user name for the administrator account on the virtual machine that will host the [!INCLUDE[navnow](includes/navnow_md.md)] database. You specify the user name in the Setting\-PartnerSettings.ps1 file or Set\-PartnerCustom.ps1 file that is used by the example script. If you are using the Example\-1VM\-ps1 script, then you specify the user name in the $NAV\_VMAdminUserName parameter. If you are using the Example\-2VM\-ps1 script, then you specify the user name in the $NAV\_SqlServerMachineAdminUserName parameter. For more information about how to run the example scripts, see [How to: Deploy Microsoft Dynamics NAV on Microsoft Azure by Using the Example Scripts](../Topic/How%20to:%20Deploy%20Microsoft%20Dynamics%20NAV%20on%20Microsoft%20Azure%20by%20Using%20the%20Example%20Scripts.md)  
   
     3.  Save the file as *SetupComplete2.cmd* in the *C:\\Windows\\OEM\\* folder.  
   
-         For an example of the SetupComplete2.cmd, see [SetupComplete2.cmd File Example](../dynamics-nav/SetupComplete2.cmd-File-Example.md).  
+         For an example of the SetupComplete2.cmd, see [SetupComplete2.cmd File Example](SetupComplete2.cmd-File-Example.md).  
   
 ##  <a name="CaptureImage"></a> Capture the Image and Add it to the Azure Image Gallery  
  The last task for creating a custom operating system image is to capture the image and add it to the Azure Image Gallery. This operation is performed by using SysPrep.  

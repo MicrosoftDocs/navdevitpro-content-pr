@@ -21,4 +21,4 @@ Indicates whether the system displays zeros \(0\) and No.
  **Yes** if zeros and No are displayed; otherwise, **No**. The default is **No**.  
   
 ## See Also  
- [BlankNumbers Property](../dynamics-nav/BlankNumbers-Property.md)
+ [BlankNumbers Property](BlankNumbers-Property.md)

@@ -14,12 +14,12 @@ manager: pchapman
 Sets a value that specifies whether a BLOB is compressed.  
   
 ## Applies To  
- Fields of the [BLOB Data Type](../dynamics-nav/BLOB-Data-Type.md)  
+ Fields of the [BLOB Data Type](BLOB-Data-Type.md)  
   
 ## Remarks  
  If you want to access BLOB data with an external tool, for example to display a bitmap, you must set this property to **No**.  
   
- The [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)] can access BLOBs without using this property.  
+ The [!INCLUDE[rtc](includes/rtc_md.md)] can access BLOBs without using this property.  
   
 ## See Also  
- [BLOB Data Type](../dynamics-nav/BLOB-Data-Type.md)
+ [BLOB Data Type](BLOB-Data-Type.md)

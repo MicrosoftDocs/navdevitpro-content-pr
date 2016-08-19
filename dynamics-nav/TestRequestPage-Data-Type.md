@@ -17,4 +17,4 @@ This data type stores test request pages. A test request page part is a logical 
  You can use test request pages only within test codeunits.  
   
 ## See Also  
- [TestPage Data Type](../dynamics-nav/TestPage-Data-Type.md)
+ [TestPage Data Type](TestPage-Data-Type.md)

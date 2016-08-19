@@ -27,4 +27,4 @@ Sets the unit of measure that is used when you enter data into duration fields.
 >  Even if you change the value of this property, you must enter both the value and the units of measure in the duration field. For example, enter **3 minutes**.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

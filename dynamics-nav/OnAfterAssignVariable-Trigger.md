@@ -20,4 +20,4 @@ Executed after the value defined in the XML document is assigned to the text var
  This trigger is only used to import data and gives you access to the imported value in text format.  
   
 ## See Also  
- [Triggers](../dynamics-nav/Triggers.md)
+ [Triggers](Triggers.md)

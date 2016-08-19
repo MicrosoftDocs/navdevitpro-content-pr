@@ -16,4 +16,4 @@ Shows all keys that have been defined in the table that you selected in the Tabl
  To open this window, on the **Tools** menu, choose **Object Designer**, choose **Table**, and then on the **View** menu, choose **Keys**.  
   
 ## See Also  
- [Table Keys](../dynamics-nav/Table-Keys.md)
+ [Table Keys](Table-Keys.md)

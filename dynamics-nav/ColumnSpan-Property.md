@@ -21,14 +21,14 @@ Sets the number of columns that a field spans in a GridLayout control.
 ## Remarks  
  When you set a field to span several columns, the field occupies the cells to its right, and existing fields in the occupied cells are moved to the right. For example, the following figure illustrates a GridLayout control that consists of four fields arranged in two rows.  
   
- ![GridLayout of 4 fields in 2 rows and 2 columns](../dynamics-nav/media/NAVGridLayout2rX2c.png "NAVGridLayout2rX2c")  
+ ![GridLayout of 4 fields in 2 rows and 2 columns](media/NAVGridLayout2rX2c.png "NAVGridLayout2rX2c")  
   
  If you set Field 1 to span two columns, then the following layout is displayed:  
   
- ![GridLayout showing column span](../dynamics-nav/media/NAVGridLayoutColSpan.png "NAVGridLayoutColSpan")  
+ ![GridLayout showing column span](media/NAVGridLayoutColSpan.png "NAVGridLayoutColSpan")  
   
 > [!IMPORTANT]  
->  The ColumnSpan property is not supported by the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]. If the page displays in the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], the property is ignored and the field will not span any columns.  
+>  The ColumnSpan property is not supported by the [!INCLUDE[nav_web](includes/nav_web_md.md)]. If the page displays in the [!INCLUDE[nav_web](includes/nav_web_md.md)], the property is ignored and the field will not span any columns.  
   
 ## See Also  
  [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](../Topic/How%20to:%20Arrange%20Fields%20in%20Rows%20and%20Columns%20Using%20the%20GridLayout%20Control.md)

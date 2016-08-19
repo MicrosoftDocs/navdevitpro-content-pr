@@ -20,12 +20,12 @@ Sets whether data from the linked table is forcibly modified or inserted into a 
  **Yes** if you want to forcibly insert or modify data; otherwise, **No**. The default is **Yes**.  
   
 ## Remarks  
- This property works in combination with the [LinkFields Property](../dynamics-nav/LinkFields-Property.md) and the [LinkTable Property](../dynamics-nav/LinkTable-Property.md).  
+ This property works in combination with the [LinkFields Property](LinkFields-Property.md) and the [LinkTable Property](LinkTable-Property.md).  
   
- Setting this property to **Yes** will forcibly insert or modify data from the linked table and run the [OnAfterInitRecord Trigger](../dynamics-nav/OnAfterInitRecord-Trigger.md) on the main table.  
+ Setting this property to **Yes** will forcibly insert or modify data from the linked table and run the [OnAfterInitRecord Trigger](OnAfterInitRecord-Trigger.md) on the main table.  
   
  This feature is useful if you have a header to line relationship in your XML document. The table and the header information must be inserted before you can insert the line information. As a result, you can use this property to ensure that the header information is inserted before the XMLport starts reading the line information.  
   
 ## See Also  
- [LinkFields Property](../dynamics-nav/LinkFields-Property.md)   
- [LinkTable Property](../dynamics-nav/LinkTable-Property.md)
+ [LinkFields Property](LinkFields-Property.md)   
+ [LinkTable Property](LinkTable-Property.md)

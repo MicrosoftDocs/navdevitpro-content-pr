@@ -28,4 +28,4 @@ Sets the dimensions of a variable that is to create a multi\-dimensional variabl
  Indexes start at a value of 1 \(not 0 as in some programming languages\).  
   
 ## See Also  
- [Array Functions](../dynamics-nav/Array-Functions.md)
+ [Array Functions](Array-Functions.md)

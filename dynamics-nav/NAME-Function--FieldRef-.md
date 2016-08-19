@@ -29,12 +29,12 @@ Name := FieldRef.NAME
  The name of the field given as input.  
   
 ## Remarks  
- The [CAPTION Function \(FieldRef, TestPage Field\)](../dynamics-nav/CAPTION-Function--FieldRef--TestPage-Field-.md) function retrieves the [Caption Property\-duplicate](../dynamics-nav/Caption-Property-duplicate.md) of a field. To enable your application for multilanguage functionality, you must use the [FIELDCAPTION Function \(Record\)](../dynamics-nav/FIELDCAPTION-Function--Record-.md) instead.  
+ The [CAPTION Function \(FieldRef, TestPage Field\)](CAPTION-Function--FieldRef--TestPage-Field-.md) function retrieves the [Caption Property\-duplicate](Caption-Property-duplicate.md) of a field. To enable your application for multilanguage functionality, you must use the [FIELDCAPTION Function \(Record\)](FIELDCAPTION-Function--Record-.md) instead.  
   
- This function is similar to the [FIELDNAME Function \(Record\)](../dynamics-nav/FIELDNAME-Function--Record-.md) function.  
+ This function is similar to the [FIELDNAME Function \(Record\)](FIELDNAME-Function--Record-.md) function.  
   
 ## Example  
- The following example opens the Customer table as a RecordRef variable that is named CustomerRecref. The [FIELD Function \(RecordRef\)](../dynamics-nav/FIELD-Function--RecordRef-.md) creates a reference to the fields in the table and stores the FieldRef in the MyFieldRef variable. The code loops through field 1 through 5. For each field, the NAME function retrieves the name of the field and stores the value in the varName variable. The field number and the value in the varName variable are displayed in a message box. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example opens the Customer table as a RecordRef variable that is named CustomerRecref. The [FIELD Function \(RecordRef\)](FIELD-Function--RecordRef-.md) creates a reference to the fields in the table and stores the FieldRef in the MyFieldRef variable. The code loops through field 1 through 5. For each field, the NAME function retrieves the name of the field and stores the value in the varName variable. The field number and the value in the varName variable are displayed in a message box. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -60,5 +60,5 @@ END;
 ```  
   
 ## See Also  
- [FieldRef Data Type](../dynamics-nav/FieldRef-Data-Type.md)   
- [Multilanguage Development](../dynamics-nav/Multilanguage-Development.md)
+ [FieldRef Data Type](FieldRef-Data-Type.md)   
+ [Multilanguage Development](Multilanguage-Development.md)

@@ -25,7 +25,7 @@ Ratio := FirstNumber / SecondNumber;
 ## How to Avoid Run\-Time Errors  
  The following guidelines recommend ways to avoid run\-time errors. The conditions under which run\-time errors occur depend on the context of your application.  
   
- For example, if you use the [GET Function \(Record\)](../dynamics-nav/GET-Function--Record-.md) to locate a record, then we recommend that you handle the risk that a run\-time error occurs when no record is found. If you are sure that the specific context prevents this situation, then you can omit handling a possible run\-time error. For example, the context could be that you verify the existence of a record before you call the GET function.  
+ For example, if you use the [GET Function \(Record\)](GET-Function--Record-.md) to locate a record, then we recommend that you handle the risk that a run\-time error occurs when no record is found. If you are sure that the specific context prevents this situation, then you can omit handling a possible run\-time error. For example, the context could be that you verify the existence of a record before you call the GET function.  
   
  There are two categories of run\-time errors:  
   
@@ -58,7 +58,7 @@ ELSE
   
  The return value of the function is `Ok`, a Boolean. If a record is found, then the return value is **true**; otherwise, it is **false**. This return value is optional, as indicated by the square brackets. If you do not use the return value and the requested record cannot be found, then a run\-time error occurs and a system\-generated error message is displayed. However, if you use the return value, then it is assumed that you handle any errors.  
   
- The [C\-SIDE Reference Guide](../dynamics-nav/C-SIDE-Reference-Guide.md) provides information about how C\/AL functions handle errors. You can also use the syntax description in the Symbol Menu to verify whether a function returns a value called `Ok`  
+ The [C\-SIDE Reference Guide](C-SIDE-Reference-Guide.md) provides information about how C\/AL functions handle errors. You can also use the syntax description in the Symbol Menu to verify whether a function returns a value called `Ok`  
   
  If you use the return value in either of the following examples, then you shield the user from a run\-time error.  
   
@@ -89,7 +89,7 @@ END;
   
 -   What record caused the error.  
   
- If the error was caused by a calculation that failed to check whether a division by zero was about to be performed, then you can find the statement that led to the error. However, if the circumstances that led to the error are more complex and you cannot determine the exact location of the error, then you can use the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] debugger.  
+ If the error was caused by a calculation that failed to check whether a division by zero was about to be performed, then you can find the statement that led to the error. However, if the circumstances that led to the error are more complex and you cannot determine the exact location of the error, then you can use the [!INCLUDE[navnow](includes/navnow_md.md)] debugger.  
   
 ## See Also  
- [Debugging](../dynamics-nav/Debugging.md)
+ [Debugging](Debugging.md)

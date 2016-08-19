@@ -11,7 +11,7 @@ caps.latest.revision: 25
 manager: terryaus
 ---
 # Modifying, Uninstalling, or Repairing Microsoft Dynamics NAV
-If you run [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] Setup on a computer where any [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] components are already installed, you see the following options:  
+If you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup on a computer where any [!INCLUDE[navnowlong](includes/navnowlong_md.md)] components are already installed, you see the following options:  
   
 -   **Add or Remove Components**  
   
@@ -29,39 +29,39 @@ If you run [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] Set
   
 -   **Repair**  
   
-     Select this option to repair any [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] components on the local computer that have become corrupted.  
+     Select this option to repair any [!INCLUDE[navnow](includes/navnow_md.md)] components on the local computer that have become corrupted.  
   
     > [!IMPORTANT]  
-    >  If the [!INCLUDE[nav_web_server](../dynamics-nav/includes/nav_web_server_md.md)] are installed, see [Repairing Microsoft Dynamics NAV Web Server Components](../dynamics-nav/Modifying--Uninstalling--or-Repairing-Microsoft-Dynamics-NAV.md#RepairWebServer) before running **Repair**.  
+    >  If the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] are installed, see [Repairing Microsoft Dynamics NAV Web Server Components](Modifying--Uninstalling--or-Repairing-Microsoft-Dynamics-NAV.md#RepairWebServer) before running **Repair**.  
   
 -   **Uninstall**  
   
-     Select this option to remove [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] components from the local computer.  
+     Select this option to remove [!INCLUDE[navnowlong](includes/navnowlong_md.md)] components from the local computer.  
   
     > [!NOTE]  
-    >  After you choose **Repair** or **Uninstall**, Setup runs to completion with no further interaction. Your next option is to close [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] Setup.  
+    >  After you choose **Repair** or **Uninstall**, Setup runs to completion with no further interaction. Your next option is to close [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup.  
   
 ## Removing the Demo Database  
- Setup does not remove the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Demo database. After you use Setup to remove [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] software from your computer, you must manually remove the demo database.  
+ Setup does not remove the [!INCLUDE[navnow](includes/navnow_md.md)] Demo database. After you use Setup to remove [!INCLUDE[navnow](includes/navnow_md.md)] software from your computer, you must manually remove the demo database.  
   
 ### With SQL Server  
- Use SQL Server Management Studio to remove the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] demo database, which is called **Demo Database \(7\-1\)**. By default, the database is installed to the **NAVDEMO** SQL Server instance.  
+ Use SQL Server Management Studio to remove the [!INCLUDE[navnow](includes/navnow_md.md)] demo database, which is called **Demo Database \(7\-1\)**. By default, the database is installed to the **NAVDEMO** SQL Server instance.  
   
- If you have installed SQL Server with the guidelines in [Installation Considerations for Microsoft SQL Server](../dynamics-nav/Installation-Considerations-for-Microsoft-SQL-Server.md), then SQL Server Management Studio is already installed on your computer. Otherwise, update your SQL Server installation to include the **Management Tools \- Complete** option for SQL Server.  
+ If you have installed SQL Server with the guidelines in [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md), then SQL Server Management Studio is already installed on your computer. Otherwise, update your SQL Server installation to include the **Management Tools \- Complete** option for SQL Server.  
   
 ### With SQL Server Express  
- If you did not have SQL Server on your computer when you installed the demo database, then [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Setup installed SQL Server 2012 Express Edition to host the database. To remove the demo database, follow these steps:  
+ If you did not have SQL Server on your computer when you installed the demo database, then [!INCLUDE[navnow](includes/navnow_md.md)] Setup installed SQL Server 2012 Express Edition to host the database. To remove the demo database, follow these steps:  
   
 1.  From the Microsoft Download Center, download and install [Microsoft SQL Server 2012 Management Studio Express](http://go.microsoft.com/fwlink/?LinkId=140351).  
   
-2.  Use SQL Server Management Studio Express to remove the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] demo database, which is called **Demo Database \(7\-1\)**. By default, the database is installed to the **NAVDEMO** SQL Server instance.  
+2.  Use SQL Server Management Studio Express to remove the [!INCLUDE[navnow](includes/navnow_md.md)] demo database, which is called **Demo Database \(7\-1\)**. By default, the database is installed to the **NAVDEMO** SQL Server instance.  
   
 ##  <a name="RepairWebServer"></a> Repairing Microsoft Dynamics NAV Web Server Components  
- You can use [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Setup to install the [!INCLUDE[nav_web_server](../dynamics-nav/includes/nav_web_server_md.md)]. Setup installs a default web server instance on IIS for the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]. After the initial installation, you can add and configure additional web server instances by using the cmdlets that are provided in the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Administration Shell. If you run the **Repair** option in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Setup, then Setup re\-creates the initial default environment, which includes a default web server instance, and removes any web server instances that have been added.  
+ You can use [!INCLUDE[navnow](includes/navnow_md.md)] Setup to install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. Setup installs a default web server instance on IIS for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. After the initial installation, you can add and configure additional web server instances by using the cmdlets that are provided in the [!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell. If you run the **Repair** option in [!INCLUDE[navnow](includes/navnow_md.md)] Setup, then Setup re\-creates the initial default environment, which includes a default web server instance, and removes any web server instances that have been added.  
   
  To ensure that you can easily re\-create the web server instances after you run the **Repair** option, we recommend that you create Windows PowerShell scripts that add and configure the web server instances.  
   
 ## See Also  
  [How to: Choose Components to Install](../Topic/How%20to:%20Choose%20Components%20to%20Install.md)   
- [Working with Microsoft Dynamics NAV Setup](../dynamics-nav/Working-with-Microsoft-Dynamics-NAV-Setup.md)   
+ [Working with Microsoft Dynamics NAV Setup](Working-with-Microsoft-Dynamics-NAV-Setup.md)   
  [How to: Run Setup](../Topic/How%20to:%20Run%20Setup.md)

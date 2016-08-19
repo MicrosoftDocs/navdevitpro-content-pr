@@ -11,9 +11,9 @@ caps.latest.revision: 24
 manager: terryaus
 ---
 # Binding a Windows Client Control Add-in to the Database
-Similar to other field controls on a page, a [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] control add\-in can bind with data in the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database. This lets you create control add\-ins that can display and update data in the database. Data binding is accomplished through [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] with the [SourceExpr Property](../dynamics-nav/SourceExpr-Property.md) of the field control that is applied with the control add\-in, as shown in the following illustration.  
+Similar to other field controls on a page, a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add\-in can bind with data in the [!INCLUDE[navnow](includes/navnow_md.md)] database. This lets you create control add\-ins that can display and update data in the database. Data binding is accomplished through [!INCLUDE[nav_server](includes/nav_server_md.md)] with the [SourceExpr Property](SourceExpr-Property.md) of the field control that is applied with the control add\-in, as shown in the following illustration.  
   
- ![RoleTailored client control add&#45;in data binding](../dynamics-nav/media/NAVRTCContolAddinDataBinding.png "NAVRTCContolAddinDataBinding")  
+ ![RoleTailored client control add&#45;in data binding](media/NAVRTCContolAddinDataBinding.png "NAVRTCContolAddinDataBinding")  
   
  The control add\-in must implement the [Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition\<T\>](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1) interface that exposes the [IValueControlAddInDefinition\<T\>.Value](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1.Value) property as shown in the following example for a DateTime data type.  
   
@@ -29,7 +29,7 @@ public class MyControlAddIn : IValueControlAddInDefinition<DateTime>
  When a control add\-in is instantiated on a page, the **SourceExpr** property value is passed to the control add\-in [IValueControlAddInDefinition\<T\>.Value](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1.Value) property. The **SourceExpr** property can be a field or row in a database table or a C\/AL global variable.  
   
 > [!NOTE]  
->  The **SourceExpr** property value can be passed to the [IValueControlAddInDefinition\<T\>.Value](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1.Value) property multiple times as long as a page is open, depending on application code or state in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+>  The **SourceExpr** property value can be passed to the [IValueControlAddInDefinition\<T\>.Value](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1.Value) property multiple times as long as a page is open, depending on application code or state in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
  For more information about how to implement the [Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition\<T\>](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1) interface, see [How to: Create a Windows Client Control Add\-in](../Topic/How%20to:%20Create%20a%20Windows%20Client%20Control%20Add-in.md).  
   
@@ -60,7 +60,7 @@ public class MyControlAddIn : IValueControlAddInDefinition<DateTime>
 |Time|[DateTime](assetId:///T:System.DateTime)|  
   
 ## Data Mapping and Multiple Data Types  
- The mapping between the C\/AL data type of the page control and the .NET Framework data type occurs when the control add\-in is instantiated on a page in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. For example, if a page contains a control that uses a Date data type in C\/AL and the control add\-in implements the Boolean data type \(`IValueControlAddInDefinition<Boolean>`\), then an error occurs.  
+ The mapping between the C\/AL data type of the page control and the .NET Framework data type occurs when the control add\-in is instantiated on a page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For example, if a page contains a control that uses a Date data type in C\/AL and the control add\-in implements the Boolean data type \(`IValueControlAddInDefinition<Boolean>`\), then an error occurs.  
   
  A control add\-in can support multiple .NET Framework data types by implementing the [Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition\<T\>](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1) interface for each data type. For example, to support both a string and an integer data type, include the following code.  
   
@@ -70,9 +70,9 @@ public class MyControlAddIn : IValueControlAddInDefinition<String>, IValueContro
 ```  
   
 ## See Also  
- [Developing Windows Client Control Add\-ins](../dynamics-nav/Developing-Windows-Client-Control-Add-ins.md)   
- [Client Extensibility API Overview](../dynamics-nav/Client-Extensibility-API-Overview.md)   
+ [Developing Windows Client Control Add\-ins](Developing-Windows-Client-Control-Add-ins.md)   
+ [Client Extensibility API Overview](Client-Extensibility-API-Overview.md)   
  [How to: Create a Windows Client Control Add\-in](../Topic/How%20to:%20Create%20a%20Windows%20Client%20Control%20Add-in.md)   
- [Exposing Events and Calling Respective C\-AL Triggers from a Windows Client Control Add\-in](../dynamics-nav/Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md)   
- [Installing and Configuring Windows Client Control Add\-ins on Pages](../dynamics-nav/Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)   
- [Windows Client Control Add\-in Overview](../dynamics-nav/Windows-Client-Control-Add-in-Overview.md)
+ [Exposing Events and Calling Respective C\-AL Triggers from a Windows Client Control Add\-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md)   
+ [Installing and Configuring Windows Client Control Add\-ins on Pages](Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)   
+ [Windows Client Control Add\-in Overview](Windows-Client-Control-Add-in-Overview.md)

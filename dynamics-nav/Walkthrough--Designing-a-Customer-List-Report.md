@@ -11,36 +11,36 @@ caps.latest.revision: 47
 manager: edupont
 ---
 # Walkthrough: Designing a Customer List Report
-In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], creating new reports is divided into the following phases:  
+In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], creating new reports is divided into the following phases:  
   
 -   Defining the dataset on which the report is based.  
   
 -   Designing and editing the visual layout of the report by using Visual Studio Report Designer.  
   
 ## About This Walkthrough  
- This walkthrough provides an overview of how to create a report that is based on one table with [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] and design this report using Visual Studio Report Designer. This walkthrough illustrates the following tasks:  
+ This walkthrough provides an overview of how to create a report that is based on one table with [!INCLUDE[navnow](includes/navnow_md.md)] and design this report using Visual Studio Report Designer. This walkthrough illustrates the following tasks:  
   
--   Create a report in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+-   Create a report in [!INCLUDE[navnow](includes/navnow_md.md)].  
   
--   Apply sorting criteria and filters on the report in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+-   Apply sorting criteria and filters on the report in [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 -   Design the layout of the report in Visual Studio.  
   
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] with a developer license.  
+-   [!INCLUDE[navnow](includes/navnow_md.md)] with a developer license.  
   
 -   The CRONUS International Ltd. demo data company.  
   
--   Microsoft Visual Studio installed. For more information about which version of Microsoft Visual Studio you need, see [System Requirements for Microsoft Dynamics NAV 2016](../dynamics-nav/System-Requirements-for-Microsoft-Dynamics-NAV-2016.md). This walkthrough assumes that Microsoft Visual Studio 2012 or Microsoft Visual Studio 2013 is used.  
+-   Microsoft Visual Studio installed. For more information about which version of Microsoft Visual Studio you need, see [System Requirements for Microsoft Dynamics NAV 2016](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md). This walkthrough assumes that Microsoft Visual Studio 2012 or Microsoft Visual Studio 2013 is used.  
   
 ## Defining the Dataset  
- When you create a new report, you must define where the data that the report will display should come from. You define the dataset in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Report Dataset Designer.  
+ When you create a new report, you must define where the data that the report will display should come from. You define the dataset in [!INCLUDE[navnow](includes/navnow_md.md)] Report Dataset Designer.  
   
 #### To define the dataset  
   
-1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **Report**, and then choose the **New** button to open the **Report Dataset Designer**.  
   
@@ -75,7 +75,7 @@ In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], creating n
   
 4.  In the **Table View** window, fill in the fields as shown in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+    |[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Key**|Specify the field to sort the data items by, in this case the **No.** field.|  
     |**Order**|Specify the sort order, in this case **Ascending**.|  
@@ -169,11 +169,11 @@ In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], creating n
 16. Save the Report.rdlc file, and then close Visual Studio.  
   
 ## Loading the Design Changes from Visual Studio and Running the Report  
- Now you will load the changes that you made in Visual Studio to [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] to apply the changes to the Customer List report.  
+ Now you will load the changes that you made in Visual Studio to [!INCLUDE[navnow](includes/navnow_md.md)] to apply the changes to the Customer List report.  
   
 #### To load the design changes from Visual Studio and run the report  
   
-1.  In [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], close Report Dataset Designer. A message informs you that the .rdlc file for this report has changed and asks if you want to load the changes. Choose **Yes** to save the changes in the database.  
+1.  In [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], close Report Dataset Designer. A message informs you that the .rdlc file for this report has changed and asks if you want to load the changes. Choose **Yes** to save the changes in the database.  
   
 2.  In the **Save Changes** window, make sure **Compile** is selected, and then choose **Yes** to save the report.  
   
@@ -185,7 +185,7 @@ In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], creating n
   
 ## Next Step  
   
--   Now you have created a report that lists customers by customer number or country\/region code, and you have added changes to the report layout in Visual Studio. The next step is to add the customer list report to a page in the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)] from where it can be run. For more information, see [How to: Make a Report Available from a Page](../Topic/How%20to:%20Make%20a%20Report%20Available%20from%20a%20Page.md).  
+-   Now you have created a report that lists customers by customer number or country\/region code, and you have added changes to the report layout in Visual Studio. The next step is to add the customer list report to a page in the [!INCLUDE[rtc](includes/rtc_md.md)] from where it can be run. For more information, see [How to: Make a Report Available from a Page](../Topic/How%20to:%20Make%20a%20Report%20Available%20from%20a%20Page.md).  
   
 ## See Also  
  [How to: Make a Report Available from a Page](../Topic/How%20to:%20Make%20a%20Report%20Available%20from%20a%20Page.md)   

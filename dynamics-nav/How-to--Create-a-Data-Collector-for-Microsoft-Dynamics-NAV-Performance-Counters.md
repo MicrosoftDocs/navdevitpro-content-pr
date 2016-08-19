@@ -10,11 +10,11 @@ ms.assetid: 2b2c8383-8e5a-47ea-bfd0-8621021a697a
 caps.latest.revision: 9
 ---
 # How to: Create a Data Collector for Microsoft Dynamics NAV Performance Counters
-This topic describes how to create a Data Collector Set in Performance Monitor that contains [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] performance counters.  
+This topic describes how to create a Data Collector Set in Performance Monitor that contains [!INCLUDE[navnow](includes/navnow_md.md)] performance counters.  
   
-### To create a Data Collector Set for [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] performance counters  
+### To create a Data Collector Set for [!INCLUDE[navnow](includes/navnow_md.md)] performance counters  
   
-1.  On the computer that is running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)], start Performance Monitor.  
+1.  On the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)], start Performance Monitor.  
   
     -   Choose **Start**, in the **Search** box, type **perfmon**, and then choose the related link.  
   
@@ -24,11 +24,11 @@ This topic describes how to create a Data Collector Set in Performance Monitor t
   
 4.  On the **What type of data do you want to include** page, select the **Performance counter** check box, and then choose the **Next** button.  
   
-5.  In the **Add Counters** window, in the **Select counters from computer:** drop\-down list, choose the computer that is running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)].  
+5.  In the **Add Counters** window, in the **Select counters from computer:** drop\-down list, choose the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
-6.  In the **Available counters** list, expand **[!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)]**, and select one or more counters.  
+6.  In the **Available counters** list, expand **[!INCLUDE[navnow](includes/navnow_md.md)]**, and select one or more counters.  
   
-7.  In the **Instances of selected object** list, select **\<All instances\>** to collect data for all [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instances on the computer or individually select one or more instances from the list.  
+7.  In the **Instances of selected object** list, select **\<All instances\>** to collect data for all [!INCLUDE[nav_server](includes/nav_server_md.md)] instances on the computer or individually select one or more instances from the list.  
   
 8.  Choose the **Add** button, and then choose the **OK** button  
   
@@ -51,6 +51,6 @@ This topic describes how to create a Data Collector Set in Performance Monitor t
  For information about how to view the data that is collected by the Data Collector Set, see [How to: View Performance Counter Data for a Data Collector Set](../Topic/How%20to:%20View%20Performance%20Counter%20Data%20for%20a%20Data%20Collector%20Set.md).  
   
 ## See Also  
- [Working with Data Collector Sets](../dynamics-nav/Working-with-Data-Collector-Sets.md)   
+ [Working with Data Collector Sets](Working-with-Data-Collector-Sets.md)   
  [How to: Create a Data Collector Set From the Microsoft Dynamics NAV Template](../Topic/How%20to:%20Create%20a%20Data%20Collector%20Set%20From%20the%20Microsoft%20Dynamics%20NAV%20Template.md)   
- [Microsoft Dynamics NAV Performance Counters](../dynamics-nav/Microsoft-Dynamics-NAV-Performance-Counters.md)
+ [Microsoft Dynamics NAV Performance Counters](Microsoft-Dynamics-NAV-Performance-Counters.md)

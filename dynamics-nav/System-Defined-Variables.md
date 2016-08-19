@@ -11,9 +11,9 @@ caps.latest.revision: 17
 manager: terryaus
 ---
 # System-Defined Variables
-[!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] automatically declares and initializes several variables that you can use when you develop applications. The following table describes the system\-defined variables.  
+[!INCLUDE[navnow](includes/navnow_md.md)] automatically declares and initializes several variables that you can use when you develop applications. The following table describes the system\-defined variables.  
   
-|System\-defined variable|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|System\-defined variable|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |------------------------------|---------------------------------------|  
 |Rec|When a record is modified, this variable specifies the current record, including the changes that are made.|  
 |xRec|When a record is modified, this variable specifies the original values of the record, before the changes.|  
@@ -38,5 +38,5 @@ manager: terryaus
 -   If the order has shipped, compare the customer number fields in the Rec and xRec records. If they differ, reject the change.  
   
 ## See Also  
- [C\-AL Variables](../dynamics-nav/C-AL-Variables.md)   
- [Properties](../dynamics-nav/Properties.md)
+ [C\-AL Variables](C-AL-Variables.md)   
+ [Properties](Properties.md)

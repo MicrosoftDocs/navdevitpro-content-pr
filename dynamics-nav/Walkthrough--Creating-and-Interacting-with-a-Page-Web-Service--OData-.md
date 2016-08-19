@@ -11,12 +11,12 @@ caps.latest.revision: 19
 manager: edupont
 ---
 # Walkthrough: Creating and Interacting with a Page Web Service (OData)
-This walkthrough illustrates how you can publish a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] page as an OData web service, use it in a Visual Studio console application, and change data in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] through the web service.  
+This walkthrough illustrates how you can publish a [!INCLUDE[navnow](includes/navnow_md.md)] page as an OData web service, use it in a Visual Studio console application, and change data in [!INCLUDE[navnow](includes/navnow_md.md)] through the web service.  
   
 ## About This Walkthrough  
  This walkthrough provides an overview of how to expose a page as a web service and how to use the web service in a C\# console application. The walkthrough illustrates the following tasks:  
   
--   Publishing a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] page as a web service.  
+-   Publishing a [!INCLUDE[navnow](includes/navnow_md.md)] page as a web service.  
   
 -   Verifying web service availability from a browser.  
   
@@ -27,18 +27,18 @@ This walkthrough illustrates how you can publish a [!INCLUDE[navnow](../dynamics
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] with a developer license.  
   
--   [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+-   [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 -   Visual Studio 2012 or Visual Studio 2010. You can use any edition of Visual Studio that supports adding web references. In this walkthrough, you will use Visual Studio 2012. You also have the option to use service references instead of web references, or use the web service proxy generating tools svcutil.exe and wsdl.exe, which are included in the Microsoft .NET Framework SDK.  
   
 ## Publishing a Page as a Web Service  
- You publish a web service by using the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] or the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)].  
+ You publish a web service by using the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
 #### To register and publish a page as a web service  
   
-1.  Open the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)] and connect to the [!INCLUDE[demoname](../dynamics-nav/includes/demoname_md.md)] company.  
+1.  Open the [!INCLUDE[rtc](includes/rtc_md.md)] and connect to the [!INCLUDE[demoname](includes/demoname_md.md)] company.  
   
 2.  In the **Search** box, enter **Web services**, and then choose the related link.  
   
@@ -53,9 +53,9 @@ This walkthrough illustrates how you can publish a [!INCLUDE[navnow](../dynamics
 ## Verifying Web Service Availability  
   
 > [!NOTE]  
->  After publishing a web service, verify that the port that web service applications will use to connect to your web service is open. The default port for OData web services is 7048. You can configure this value by using the [Microsoft Dynamics NAV Server Administration Tool](../dynamics-nav/Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
+>  After publishing a web service, verify that the port that web service applications will use to connect to your web service is open. The default port for OData web services is 7048. You can configure this value by using the [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
   
-#### To verify availability of a [!INCLUDE[dyn_nav](../dynamics-nav/includes/dyn_nav_md.md)] web service  
+#### To verify availability of a [!INCLUDE[dyn_nav](includes/dyn_nav_md.md)] web service  
   
 1.  Start Internet Explorer.  
   
@@ -63,17 +63,17 @@ This walkthrough illustrates how you can publish a [!INCLUDE[navnow](../dynamics
   
      **http:\/\/localhost:7048\/DynamicsNAV\/OData**  
   
-    1.  **Server** is the name of the computer that is running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)].  
+    1.  **Server** is the name of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
     2.  **WebServicePort** is the port that OData is running on. The default port is 7048.  
   
-     **ServiceInstance** is the name of the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance for your solution. The default name is [!INCLUDE[nav_server_instance](../dynamics-nav/includes/nav_server_instance_md.md)].  
+     **ServiceInstance** is the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance for your solution. The default name is [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)].  
   
-     For example, if the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] is running on the computer that you are working on, then you can use: **http:\/\/localhost:7048\/DynamicsNAV\/OData\/**  
+     For example, if the [!INCLUDE[nav_server](includes/nav_server_md.md)] is running on the computer that you are working on, then you can use: **http:\/\/localhost:7048\/DynamicsNAV\/OData\/**  
   
      The browser should now show the web service that you have published, in the format of an AtomPub document.  
   
-     ![Basic AtomPub document for a page](../dynamics-nav/media/BasAtomPub.JPG "BasAtomPub")  
+     ![Basic AtomPub document for a page](media/BasAtomPub.JPG "BasAtomPub")  
   
 ##  <a name="BKMK_CreateConsoleApp"></a> Creating the Console Application  
  Next, you create a C\# console application in Visual Studio 2012.  
@@ -129,16 +129,16 @@ This walkthrough illustrates how you can publish a [!INCLUDE[navnow](../dynamics
   
     ```  
   
-     The `PrintCustomersCalledCust` method reads the OData web service that you created, Customer, and creates a list of customers where the customer name begins with the letters **Cust**. Next, you add code to the Main method that uses the web service to write to [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+     The `PrintCustomersCalledCust` method reads the OData web service that you created, Customer, and creates a list of customers where the customer name begins with the letters **Cust**. Next, you add code to the Main method that uses the web service to write to [!INCLUDE[navnow](includes/navnow_md.md)].  
   
-3.  In the `Main` method, add the following code to establish the connection to [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] through the web service:  
+3.  In the `Main` method, add the following code to establish the connection to [!INCLUDE[navnow](includes/navnow_md.md)] through the web service:  
   
     ```  
     NAV nav = new NAV(new Uri("http://localhost:7048/DynamicsNAV/OData/Company('CRONUS%20International%20Ltd.')"));  
     nav.Credentials = CredentialCache.DefaultNetworkCredentials;  
     ```  
   
-     In the example, the name of the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] company that you modify data for is [!INCLUDE[demoname](../dynamics-nav/includes/demoname_md.md)]. You must replace this with the name of the company that you have access to. To find the correct URI, you can paste the following URI into your browser and then see the exact URI that you must use: `http://localhost:7048/DynamicsNAV/OData/Company`.  
+     In the example, the name of the [!INCLUDE[navnow](includes/navnow_md.md)] company that you modify data for is [!INCLUDE[demoname](includes/demoname_md.md)]. You must replace this with the name of the company that you have access to. To find the correct URI, you can paste the following URI into your browser and then see the exact URI that you must use: `http://localhost:7048/DynamicsNAV/OData/Company`.  
   
 4.  Add the following code to the method:  
   
@@ -168,20 +168,20 @@ This walkthrough illustrates how you can publish a [!INCLUDE[navnow](../dynamics
   
 5.  Build and run the project.  
   
-#### To verify the inserted and modified data in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)]  
+#### To verify the inserted and modified data in [!INCLUDE[navnow](includes/navnow_md.md)]  
   
-1.  Open the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] or the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)].  
+1.  Open the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
 2.  Open the list of customers, filter for a customer with the name **Customer NameChanged**.  
   
      This is the customer that the console application created and modified.  
   
 ## Next Steps  
- You have built a console application that uses an OData web service to modify [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] data. You can use similar OData web services in other applications when you want to allow users to modify data outside [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+ You have built a console application that uses an OData web service to modify [!INCLUDE[navnow](includes/navnow_md.md)] data. You can use similar OData web services in other applications when you want to allow users to modify data outside [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 ## See Also  
- [Microsoft Dynamics NAV Web Services Overview](../dynamics-nav/Microsoft-Dynamics-NAV-Web-Services-Overview.md)   
- [Using OData Web Services to Modify Data](../dynamics-nav/Using-OData-Web-Services-to-Modify-Data.md)   
- [Web Service Walkthroughs](../dynamics-nav/Web-Service-Walkthroughs.md)   
+ [Microsoft Dynamics NAV Web Services Overview](Microsoft-Dynamics-NAV-Web-Services-Overview.md)   
+ [Using OData Web Services to Modify Data](Using-OData-Web-Services-to-Modify-Data.md)   
+ [Web Service Walkthroughs](Web-Service-Walkthroughs.md)   
  [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](../Topic/Walkthrough:%20Registering%20and%20Using%20a%20Page%20Web%20Service%20\(SOAP\).md)   
  [Web Service Alternatives: SOAP and OData](../Topic/Web%20Service%20Alternatives:%20SOAP%20and%20OData.md)

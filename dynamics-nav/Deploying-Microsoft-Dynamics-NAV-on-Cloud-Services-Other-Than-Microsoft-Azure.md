@@ -10,19 +10,19 @@ ms.assetid: 6470796c-510e-462e-9de5-6a7dfcb019a6
 caps.latest.revision: 8
 ---
 # Deploying Microsoft Dynamics NAV on Cloud Services Other Than Microsoft Azure
-The [!INCLUDE[nav_prov_long](../dynamics-nav/includes/nav_prov_long_md.md)] have been designed to provide an end\-to\-end scenario for deploying [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] on the Microsoft Azure. However, because the provisioning tools are implemented in Windows PowerShell scripts, you can adapt them to other cloud services or on\-premise installations.  
+The [!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)] have been designed to provide an end\-to\-end scenario for deploying [!INCLUDE[navnow](includes/navnow_md.md)] on the Microsoft Azure. However, because the provisioning tools are implemented in Windows PowerShell scripts, you can adapt them to other cloud services or on\-premise installations.  
   
- This topic provides an overview of the work that is required to modify the [!INCLUDE[nav_prov_short](../dynamics-nav/includes/nav_prov_short_md.md)] for deploying [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] on cloud services and virtual machines that are not on Azure.  
+ This topic provides an overview of the work that is required to modify the [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)] for deploying [!INCLUDE[navnow](includes/navnow_md.md)] on cloud services and virtual machines that are not on Azure.  
   
 ## Preparing the Virtual Machines  
  The virtual machines on the cloud service must meet the following requirements:  
   
--   Minimum system requirements for [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)]. For more information, see [System Requirements for Microsoft Dynamics NAV 2016](../dynamics-nav/System-Requirements-for-Microsoft-Dynamics-NAV-2016.md).  
+-   Minimum system requirements for [!INCLUDE[navnow](includes/navnow_md.md)]. For more information, see [System Requirements for Microsoft Dynamics NAV 2016](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md).  
   
 -   The Remote Desktop Protocol \(RDP\) and remote administration using PowerShell 3.0 must be enabled.  
   
 ## Modifying the Provisioning Tool Scripts  
- The [!INCLUDE[nav_prov_short](../dynamics-nav/includes/nav_prov_short_md.md)] are located in the **WindowsPowerShellScripts\\Cloud** folder on the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] installation media \(DVD\). The Cloud folder includes several subfolders where the different Windows PowerShell scripts are organized according to their function. Most of the scripts do not have any dependencies on Azure so that they can be reused in other environments without modification. You perform most of the modifications on the scripts in the **Cloud\\NAVRemoteAdministrationSamples** folder and **Cloud\\NAVRemoteAdministration\\Azure** folder of the provisioning tools.  
+ The [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)] are located in the **WindowsPowerShellScripts\\Cloud** folder on the [!INCLUDE[navnow](includes/navnow_md.md)] installation media \(DVD\). The Cloud folder includes several subfolders where the different Windows PowerShell scripts are organized according to their function. Most of the scripts do not have any dependencies on Azure so that they can be reused in other environments without modification. You perform most of the modifications on the scripts in the **Cloud\\NAVRemoteAdministrationSamples** folder and **Cloud\\NAVRemoteAdministration\\Azure** folder of the provisioning tools.  
   
  The **Cloud\\NAVRemoteAdministrationSamples** folder contains the following files that you must modify:  
   
@@ -70,7 +70,7 @@ The [!INCLUDE[nav_prov_long](../dynamics-nav/includes/nav_prov_long_md.md)] have
 >  The scripts in the **Cloud\\NAVRemoteAdministration\\Azure** folder are very specific to Azure. The API for your cloud service provider may require a different structure of the scripts. However, the high\-level concepts will be similar.  
   
 ## See Also  
- [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](../dynamics-nav/Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
- [Deploying Microsoft Dynamics NAV on Two Virtual Machines Using Example\-2VM Script](../dynamics-nav/Deploying-Microsoft-Dynamics-NAV-on-Two-Virtual-Machines-Using-Example-2VM-Script.md)   
- [Deploying Microsoft Dynamics NAV on One Virtual Machine Using Example\-1VM Script](../dynamics-nav/Deploying-Microsoft-Dynamics-NAV-on-One-Virtual-Machine-Using-Example-1VM-Script.md)   
+ [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
+ [Deploying Microsoft Dynamics NAV on Two Virtual Machines Using Example\-2VM Script](Deploying-Microsoft-Dynamics-NAV-on-Two-Virtual-Machines-Using-Example-2VM-Script.md)   
+ [Deploying Microsoft Dynamics NAV on One Virtual Machine Using Example\-1VM Script](Deploying-Microsoft-Dynamics-NAV-on-One-Virtual-Machine-Using-Example-1VM-Script.md)   
  [How to: Deploy Microsoft Dynamics NAV on Microsoft Azure by Using the Example Scripts](../Topic/How%20to:%20Deploy%20Microsoft%20Dynamics%20NAV%20on%20Microsoft%20Azure%20by%20Using%20the%20Example%20Scripts.md)

@@ -11,7 +11,7 @@ caps.latest.revision: 6
 manager: edupont
 ---
 # Keyboard Shortcuts in the Development Environment
-The following table provides an overview of shortcut key combinations in the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)].  
+The following table provides an overview of shortcut key combinations in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
   
 |**Keyboard Shortcut**|**Action**|  
 |---------------------------|----------------|  
@@ -41,4 +41,4 @@ The following table provides an overview of shortcut key combinations in the [!I
   
 ## See Also  
  [Keyboard Shortcuts](../Topic/Keyboard%20Shortcuts.md)   
- [C\-AL Editor Keyboard Shortcuts and Right\-Click Actions](../dynamics-nav/C-AL-Editor-Keyboard-Shortcuts-and-Right-Click-Actions.md)
+ [C\-AL Editor Keyboard Shortcuts and Right\-Click Actions](C-AL-Editor-Keyboard-Shortcuts-and-Right-Click-Actions.md)

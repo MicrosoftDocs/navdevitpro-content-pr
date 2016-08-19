@@ -22,9 +22,9 @@ Sets the XMLport to import, export, or import and export data in XML format.
 |---------------|---------------------|  
 |**Import**|The XMLPort only imports data.|  
 |**Export**|The XMLPort only exports data.|  
-|**Both \(default\)**|The XMLPort can import and export data.<br /><br /> If the XMLPort uses a request page, as specified by the [UseRequestPage Property](../dynamics-nav/UseRequestPage-Property.md), then an option appears on the request page that enables the users to choose to import or export data. Note: request pages show when the XMLport is run from Object Designer, and action page, or the Run function in C\/AL code. Dooes not show with Export Import finctions<br /><br /> If the XMLPort does not use a request, then XMLPort defaults to **Import**, unless you specify the direction by Import parameter of the run function.|  
+|**Both \(default\)**|The XMLPort can import and export data.<br /><br /> If the XMLPort uses a request page, as specified by the [UseRequestPage Property](UseRequestPage-Property.md), then an option appears on the request page that enables the users to choose to import or export data. Note: request pages show when the XMLport is run from Object Designer, and action page, or the Run function in C\/AL code. Dooes not show with Export Import finctions<br /><br /> If the XMLPort does not use a request, then XMLPort defaults to **Import**, unless you specify the direction by Import parameter of the run function.|  
   
 ## Remarks  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

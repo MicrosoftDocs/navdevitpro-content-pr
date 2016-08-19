@@ -34,10 +34,10 @@ Ok := RecordRef.HASFILTER
  If you omit this return value and if the record cannot be found, a run\-time error occurs. If you include the return value, it is assumed that you will handle any errors.  
   
 ## Remarks  
- This function works just like the [HASFILTER Function \(Record\)](../dynamics-nav/HASFILTER-Function--Record-.md).  
+ This function works just like the [HASFILTER Function \(Record\)](HASFILTER-Function--Record-.md).  
   
 ## Example  
- The following example opens the Customer table with a RecordRef variable that is named RecRef. The HASFILTER function determines whether a filter has been applied in the Customer table. The function returns **false** because no filters are applied. The return value is stored in the varHasFilters variable. The [SETRECFILTER Function \(RecordRef\)](../dynamics-nav/SETRECFILTER-Function--RecordRef-.md) is used to set a filter. The HASFILTER function now returns **true**. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example opens the Customer table with a RecordRef variable that is named RecRef. The HASFILTER function determines whether a filter has been applied in the Customer table. The function returns **false** because no filters are applied. The return value is stored in the varHasFilters variable. The [SETRECFILTER Function \(RecordRef\)](SETRECFILTER-Function--RecordRef-.md) is used to set a filter. The HASFILTER function now returns **true**. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -59,4 +59,4 @@ MESSAGE(Text000, VarHasFilters);
 ```  
   
 ## See Also  
- [RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md)
+ [RecordRef Data Type](RecordRef-Data-Type.md)

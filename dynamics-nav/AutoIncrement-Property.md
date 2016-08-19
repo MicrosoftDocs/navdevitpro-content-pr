@@ -14,7 +14,7 @@ manager: pchapman
 Sets whether the field value should be automatically incremented.  
   
 ## Applies To  
- Fields of [Integer Data Type](../dynamics-nav/Integer-Data-Type.md) and [BigInteger Data Type](../dynamics-nav/BigInteger-Data-Type.md)  
+ Fields of [Integer Data Type](Integer-Data-Type.md) and [BigInteger Data Type](BigInteger-Data-Type.md)  
   
 ## Property Value  
  **Yes** if the field value is automatically incremented; otherwise, **No**. The default value is **Yes**.  
@@ -33,7 +33,7 @@ Sets whether the field value should be automatically incremented.
   
  The AutoIncrement property is designed to always assign numbers automatically. If you want to insert a record, be sure that the value in this field is blank before you insert the record.  
   
- The AutoIncrement property does not work with [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] temporary tables.  
+ The AutoIncrement property does not work with [!INCLUDE[navnow](includes/navnow_md.md)] temporary tables.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

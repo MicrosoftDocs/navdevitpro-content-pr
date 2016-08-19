@@ -13,10 +13,10 @@ manager: pchapman
 # InStream
 This section contains the following topics:  
   
--   [COPYSTREAM Function](../dynamics-nav/COPYSTREAM-Function.md)  
+-   [COPYSTREAM Function](COPYSTREAM-Function.md)  
   
--   [InStream.EOS Function](../dynamics-nav/InStream.EOS-Function.md)  
+-   [InStream.EOS Function](InStream.EOS-Function.md)  
   
--   [InStream.READ Function](../dynamics-nav/InStream.READ-Function.md)  
+-   [InStream.READ Function](InStream.READ-Function.md)  
   
--   [InStream.READTEXT Function](../dynamics-nav/InStream.READTEXT-Function.md)
+-   [InStream.READTEXT Function](InStream.READTEXT-Function.md)

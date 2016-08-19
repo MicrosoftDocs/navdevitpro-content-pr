@@ -17,7 +17,7 @@ Sets either a date method for retrieving the year, month, or day from a date fie
  Query columns  
   
 ## Property Value  
- The values that are available for the **Method** property depend on whether the [MethodType Property](../dynamics-nav/MethodType-Property.md) is set to **Date** or **Totals**. The following table describes the values for each setting.  
+ The values that are available for the **Method** property depend on whether the [MethodType Property](MethodType-Property.md) is set to **Date** or **Totals**. The following table describes the values for each setting.  
   
 |**MethodType** property setting|Method property value|Description|  
 |-------------------------------------|---------------------------|-----------------|  
@@ -35,19 +35,19 @@ Sets either a date method for retrieving the year, month, or day from a date fie
   
  When you set up a totals method on another column in the query, rows in the resulting dataset are grouped by the day, month, or year, depending on the **Method** property setting.  
   
- For more information about date methods, see [Using the Date Method to Retrieve Day, Month, and Year Data](../dynamics-nav/Using-the-Date-Method-to-Retrieve-Day--Month--and-Year-Data.md).  
+ For more information about date methods, see [Using the Date Method to Retrieve Day, Month, and Year Data](Using-the-Date-Method-to-Retrieve-Day--Month--and-Year-Data.md).  
   
 ## Totals Methods and Groups  
  A totals method performs a calculation on fields in a column and returns a single value. When you set a totals method on a column, the retrieved records are automatically grouped by the other columns in the query, as indicated by a check mark in the **Group By** column in Query Designer. When grouped by a column, records that have similar values for the column are grouped together. The totals method is applied against the records in the group. A summary value is calculated for the group and returned in a single row for the group in the dataset. The **Method** property values correspond to the SQL aggregate functions SUM, AVG, MIN, MAX, and COUNT in SQL SELECT statements.  
   
  Except for the **Count** method, you can only use a totals method on a field that has a numeric data type of **Decimal**, **Integer**, **BigInteger**, or **Duration**. The totals method returns a decimal value that is calculated from values of all fields in a column.  
   
- **Count** is only associated with its parent **DataItem**, not a specific column. Therefore, when you set a column to **Count**, you leave the [DataSource Property](../dynamics-nav/DataSource-Property.md) of the column blank. The **Count** method returns an integer value that corresponds to the number of rows that are returned from the table that is specified by the data item associated with the column.  
+ **Count** is only associated with its parent **DataItem**, not a specific column. Therefore, when you set a column to **Count**, you leave the [DataSource Property](DataSource-Property.md) of the column blank. The **Count** method returns an integer value that corresponds to the number of rows that are returned from the table that is specified by the data item associated with the column.  
   
- For more information, see [Understanding Query Totals and Grouping](../dynamics-nav/Understanding-Query-Totals-and-Grouping.md).  
+ For more information, see [Understanding Query Totals and Grouping](Understanding-Query-Totals-and-Grouping.md).  
   
 ## See Also  
- [MethodType Property](../dynamics-nav/MethodType-Property.md)   
- [Using the Date Method to Retrieve Day, Month, and Year Data](../dynamics-nav/Using-the-Date-Method-to-Retrieve-Day--Month--and-Year-Data.md)   
- [Understanding Query Totals and Grouping](../dynamics-nav/Understanding-Query-Totals-and-Grouping.md)   
+ [MethodType Property](MethodType-Property.md)   
+ [Using the Date Method to Retrieve Day, Month, and Year Data](Using-the-Date-Method-to-Retrieve-Day--Month--and-Year-Data.md)   
+ [Understanding Query Totals and Grouping](Understanding-Query-Totals-and-Grouping.md)   
  [How to: Create Queries](../Topic/How%20to:%20Create%20Queries.md)

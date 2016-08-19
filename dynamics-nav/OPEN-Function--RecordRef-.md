@@ -40,10 +40,10 @@ RecordRef.OPEN(No[, Temp][, CompanyName])
 ## Remarks  
  When you use the RecordRef.OPEN function a new object is created. This object contains references to the open table, filters, and the record itself and all the fields it contains. You can open a table by using the table number or the name of the table that represents the table number. For example, you open the Customer table by using following syntax: `RecordRef.Open(18)` or `RecordRef.Open(DATABASE::Customer)`  
   
- If you use the *CompanyName* parameter, then this function works the same as the [CHANGECOMPANY Function \(Record\)](../dynamics-nav/CHANGECOMPANY-Function--Record-.md).  
+ If you use the *CompanyName* parameter, then this function works the same as the [CHANGECOMPANY Function \(Record\)](CHANGECOMPANY-Function--Record-.md).  
   
 ## Example  
- The following example uses the OPEN function to create a RecordRef variable that is named MyRecordRef for the Customer table. The parameters are omitted in this example because there is only one company in this example and the table will not be open as temporary table. The caption and number of records in the table are displayed in a message box. At the end of the display, the [CLOSE Function \(RecordRef\)](../dynamics-nav/CLOSE-Function--RecordRef-.md) closes the table. This example requires that you create the following variable and text constants in the **C\/AL Globals** window.  
+ The following example uses the OPEN function to create a RecordRef variable that is named MyRecordRef for the Customer table. The parameters are omitted in this example because there is only one company in this example and the table will not be open as temporary table. The caption and number of records in the table are displayed in a message box. At the end of the display, the [CLOSE Function \(RecordRef\)](CLOSE-Function--RecordRef-.md) closes the table. This example requires that you create the following variable and text constants in the **C\/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -84,6 +84,6 @@ ELSE
 ```  
   
 ## See Also  
- [GETTABLE Function \(RecordRef\)](../dynamics-nav/GETTABLE-Function--RecordRef-.md)   
- [CHANGECOMPANY Function \(Record\)](../dynamics-nav/CHANGECOMPANY-Function--Record-.md)   
- [RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md)
+ [GETTABLE Function \(RecordRef\)](GETTABLE-Function--RecordRef-.md)   
+ [CHANGECOMPANY Function \(Record\)](CHANGECOMPANY-Function--Record-.md)   
+ [RecordRef Data Type](RecordRef-Data-Type.md)

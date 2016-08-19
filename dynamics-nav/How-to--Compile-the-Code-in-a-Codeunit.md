@@ -19,4 +19,4 @@ To compile the code in a codeunit, use the following procedure.
 2.  If any errors are found in your code, you receive an error message. Correct the errors and compile the code again.  
   
 ## See Also  
- [Codeunits](../dynamics-nav/Codeunits.md)
+ [Codeunits](Codeunits.md)

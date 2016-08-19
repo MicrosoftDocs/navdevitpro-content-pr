@@ -46,6 +46,6 @@ MESSAGE(Text000, User);
  **The system was started by cronus\\simon.**  
   
 ## See Also  
- [USERSECURITYID Function](../dynamics-nav/USERSECURITYID-Function.md)   
- [SID Function \(Database\)](../dynamics-nav/SID-Function--Database-.md)   
- [Database](../dynamics-nav/Database.md)
+ [USERSECURITYID Function](USERSECURITYID-Function.md)   
+ [SID Function \(Database\)](SID-Function--Database-.md)   
+ [Database](Database.md)

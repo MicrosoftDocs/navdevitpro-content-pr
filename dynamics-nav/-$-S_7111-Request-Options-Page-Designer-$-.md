@@ -15,11 +15,11 @@ Designs the **Options** FastTab of a request page. Request pages let users speci
   
  To open this window, on the **Tools** menu, choose **Object Designer**, choose **Report**, choose the **Design** button, and then on the **View** menu, choose **Request Page**.  
   
- This window behaves similarly to Page Designer. For more information, see [\($ S\_21401 Page Designer $\)](../dynamics-nav/-$-S_21401-Page-Designer-$-.md).  
+ This window behaves similarly to Page Designer. For more information, see [\($ S\_21401 Page Designer $\)](-$-S_21401-Page-Designer-$-.md).  
   
  To show or hide a column, on the **View** menu, choose **Show Column** or **Hide Column**.  
   
 ## See Also  
- [Request Pages](../dynamics-nav/Request-Pages.md)   
- [Visible Property\-duplicate](../dynamics-nav/Visible-Property-duplicate.md)   
- [ApplicationArea Property](../dynamics-nav/ApplicationArea-Property.md)
+ [Request Pages](Request-Pages.md)   
+ [Visible Property\-duplicate](Visible-Property-duplicate.md)   
+ [ApplicationArea Property](ApplicationArea-Property.md)

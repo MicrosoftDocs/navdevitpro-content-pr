@@ -20,5 +20,5 @@ manager: terryaus
  In a RoleTailored client, a user starts from a single navigational window called the Role Center that displays information pertinent to his or her role in the company. From the Role Center, the user can navigate to additional information and open separate windows for performing tasks and viewing data. For each role that you support, you can create a Role Center that displays key information and tasks that are required by that role.  
   
 ## See Also  
- [Touring the RoleTailored Client Pages](../dynamics-nav/Touring-the-RoleTailored-Client-Pages.md)   
- [Touring the RoleTailored Client Windows](../dynamics-nav/Touring-the-RoleTailored-Client-Windows.md)
+ [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
+ [Touring the RoleTailored Client Windows](Touring-the-RoleTailored-Client-Windows.md)

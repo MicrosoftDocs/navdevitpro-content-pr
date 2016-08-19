@@ -54,6 +54,6 @@ You can view, set, enable, disable, or delete breakpoints on lines of code in th
 2.  On the **Tools** menu, point to **Debugger**, and then choose **Toggle Breakpoint**. The red unfilled circle disappears, and the breakpoint is immediately deleted.  
   
 ## See Also  
- [Breakpoints](../dynamics-nav/Breakpoints.md)   
+ [Breakpoints](Breakpoints.md)   
  [How to: Manage Breakpoints from the Debugger Code Viewer](../Topic/How%20to:%20Manage%20Breakpoints%20from%20the%20Debugger%20Code%20Viewer.md)   
  [How to: Manage Breakpoints from the Debugger Breakpoint List](../Topic/How%20to:%20Manage%20Breakpoints%20from%20the%20Debugger%20Breakpoint%20List.md)

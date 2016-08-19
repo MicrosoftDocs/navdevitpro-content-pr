@@ -16,227 +16,227 @@ This topic lists properties of the XMLport object, element, and attribute.
 ## XMLport Object Properties  
  The following properties apply to the **XMLport** object.  
   
--   [Caption Property\-duplicate](../dynamics-nav/Caption-Property-duplicate.md)  
+-   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
   
--   [CaptionML Property](../dynamics-nav/CaptionML-Property.md)  
+-   [CaptionML Property](CaptionML-Property.md)  
   
--   [CurrentPath Property](../dynamics-nav/CurrentPath-Property.md)  
+-   [CurrentPath Property](CurrentPath-Property.md)  
   
--   [DefaultFieldsValidation Property](../dynamics-nav/DefaultFieldsValidation-Property.md)  
+-   [DefaultFieldsValidation Property](DefaultFieldsValidation-Property.md)  
   
--   [DefaultNamespace Property](../dynamics-nav/DefaultNamespace-Property.md)  
+-   [DefaultNamespace Property](DefaultNamespace-Property.md)  
   
--   [Direction Property](../dynamics-nav/Direction-Property.md)  
+-   [Direction Property](Direction-Property.md)  
   
--   [Encoding Property](../dynamics-nav/Encoding-Property.md)  
+-   [Encoding Property](Encoding-Property.md)  
   
--   [FileName Property](../dynamics-nav/FileName-Property.md)  
+-   [FileName Property](FileName-Property.md)  
   
--   [Format Property](../dynamics-nav/Format-Property.md)  
+-   [Format Property](Format-Property.md)  
   
--   [Format\-Evaluate Property](../dynamics-nav/Format-Evaluate-Property.md)  
+-   [Format\-Evaluate Property](Format-Evaluate-Property.md)  
   
--   [ID Property](../dynamics-nav/ID-Property.md)  
+-   [ID Property](ID-Property.md)  
   
--   [InlineSchema Property](../dynamics-nav/InlineSchema-Property.md)  
+-   [InlineSchema Property](InlineSchema-Property.md)  
   
--   [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md)  
+-   [Name Property\-duplicate](Name-Property-duplicate.md)  
   
--   [NamespacePrefix Property](../dynamics-nav/NamespacePrefix-Property.md)  
+-   [NamespacePrefix Property](NamespacePrefix-Property.md)  
   
--   [Namespaces Property](../dynamics-nav/Namespaces-Property.md)  
+-   [Namespaces Property](Namespaces-Property.md)  
   
--   [Permissions Property](../dynamics-nav/Permissions-Property.md)  
+-   [Permissions Property](Permissions-Property.md)  
   
--   [PreserveWhiteSpace Property](../dynamics-nav/PreserveWhiteSpace-Property.md)  
+-   [PreserveWhiteSpace Property](PreserveWhiteSpace-Property.md)  
   
--   [TextEncoding Property \(XMLports\)](../dynamics-nav/TextEncoding-Property--XMLports-.md)  
+-   [TextEncoding Property \(XMLports\)](TextEncoding-Property--XMLports-.md)  
   
--   [TransactionType Property](../dynamics-nav/TransactionType-Property.md)  
+-   [TransactionType Property](TransactionType-Property.md)  
   
--   [UseDefaultNamespace Property](../dynamics-nav/UseDefaultNamespace-Property.md)  
+-   [UseDefaultNamespace Property](UseDefaultNamespace-Property.md)  
   
--   [UseLax Property](../dynamics-nav/UseLax-Property.md)  
+-   [UseLax Property](UseLax-Property.md)  
   
--   [UseRequestPage Property](../dynamics-nav/UseRequestPage-Property.md)  
+-   [UseRequestPage Property](UseRequestPage-Property.md)  
   
--   [XMLVersionNo Property](../dynamics-nav/XMLVersionNo-Property.md)  
+-   [XMLVersionNo Property](XMLVersionNo-Property.md)  
   
 ## Text Element Properties  
  The following properties apply to **Text**  elements of an XMLport object.  
   
--   [Indentation Property \(XMLports\)](../dynamics-nav/Indentation-Property--XMLports-.md)  
+-   [Indentation Property \(XMLports\)](Indentation-Property--XMLports-.md)  
   
--   [MaxOccurs Property](../dynamics-nav/MaxOccurs-Property.md)  
+-   [MaxOccurs Property](MaxOccurs-Property.md)  
   
--   [MinOccurs Property](../dynamics-nav/MinOccurs-Property.md)  
+-   [MinOccurs Property](MinOccurs-Property.md)  
   
--   [NodeName Property](../dynamics-nav/NodeName-Property.md)  
+-   [NodeName Property](NodeName-Property.md)  
   
--   [NodeType Property](../dynamics-nav/NodeType-Property.md)  
+-   [NodeType Property](NodeType-Property.md)  
   
--   [SourceType Property](../dynamics-nav/SourceType-Property.md)  
+-   [SourceType Property](SourceType-Property.md)  
   
--   [TextType Property](../dynamics-nav/TextType-Property.md)  
+-   [TextType Property](TextType-Property.md)  
   
--   [Unbound Property](../dynamics-nav/Unbound-Property.md)  
+-   [Unbound Property](Unbound-Property.md)  
   
--   [VariableName Properties](../dynamics-nav/VariableName-Properties.md)  
+-   [VariableName Properties](VariableName-Properties.md)  
   
--   [Width Property \(XMLport\)](../dynamics-nav/Width-Property--XMLport-.md)  
+-   [Width Property \(XMLport\)](Width-Property--XMLport-.md)  
   
 ## Table Element Properties  
  The following properties apply to **Table** elements of an XMLport object.  
   
--   [AutoReplace Property](../dynamics-nav/AutoReplace-Property.md)  
+-   [AutoReplace Property](AutoReplace-Property.md)  
   
--   [AutoSave Property](../dynamics-nav/AutoSave-Property.md)  
+-   [AutoSave Property](AutoSave-Property.md)  
   
--   [AutoUpdate Property](../dynamics-nav/AutoUpdate-Property.md)  
+-   [AutoUpdate Property](AutoUpdate-Property.md)  
   
--   [CalcFields Property](../dynamics-nav/CalcFields-Property.md)  
+-   [CalcFields Property](CalcFields-Property.md)  
   
--   [Indentation Property \(XMLports\)](../dynamics-nav/Indentation-Property--XMLports-.md)  
+-   [Indentation Property \(XMLports\)](Indentation-Property--XMLports-.md)  
   
--   [LinkFields Property](../dynamics-nav/LinkFields-Property.md)  
+-   [LinkFields Property](LinkFields-Property.md)  
   
--   [LinkTable Property](../dynamics-nav/LinkTable-Property.md)  
+-   [LinkTable Property](LinkTable-Property.md)  
   
--   [LinkTableForceInsert Property](../dynamics-nav/LinkTableForceInsert-Property.md)  
+-   [LinkTableForceInsert Property](LinkTableForceInsert-Property.md)  
   
--   [MaxOccurs Property](../dynamics-nav/MaxOccurs-Property.md)  
+-   [MaxOccurs Property](MaxOccurs-Property.md)  
   
--   [MinOccurs Property](../dynamics-nav/MinOccurs-Property.md)  
+-   [MinOccurs Property](MinOccurs-Property.md)  
   
--   [NodeName Property](../dynamics-nav/NodeName-Property.md)  
+-   [NodeName Property](NodeName-Property.md)  
   
--   [NodeType Property](../dynamics-nav/NodeType-Property.md)  
+-   [NodeType Property](NodeType-Property.md)  
   
--   [ReqFilterFields Property](../dynamics-nav/ReqFilterFields-Property.md)  
+-   [ReqFilterFields Property](ReqFilterFields-Property.md)  
   
--   [ReqFilterHeading Property](../dynamics-nav/ReqFilterHeading-Property.md)  
+-   [ReqFilterHeading Property](ReqFilterHeading-Property.md)  
   
--   [ReqFilterHeadingML Property](../dynamics-nav/ReqFilterHeadingML-Property.md)  
+-   [ReqFilterHeadingML Property](ReqFilterHeadingML-Property.md)  
   
--   [SourceTable Property \(XMLports\)](../dynamics-nav/SourceTable-Property--XMLports-.md)  
+-   [SourceTable Property \(XMLports\)](SourceTable-Property--XMLports-.md)  
   
--   [SourceTableView Property \(XMLports\)](../dynamics-nav/SourceTableView-Property--XMLports-.md)  
+-   [SourceTableView Property \(XMLports\)](SourceTableView-Property--XMLports-.md)  
   
--   [SourceType Property](../dynamics-nav/SourceType-Property.md)  
+-   [SourceType Property](SourceType-Property.md)  
   
--   [Temporary Property \(XMLports\)](../dynamics-nav/Temporary-Property--XMLports-.md)  
+-   [Temporary Property \(XMLports\)](Temporary-Property--XMLports-.md)  
   
--   [VariableName Properties](../dynamics-nav/VariableName-Properties.md)  
+-   [VariableName Properties](VariableName-Properties.md)  
   
--   [Width Property \(XMLport\)](../dynamics-nav/Width-Property--XMLport-.md)  
+-   [Width Property \(XMLport\)](Width-Property--XMLport-.md)  
   
 ## Field Element Properties  
  The following properties apply to **Field** elements of an XMLport Object.  
   
--   [AutoCalcField Property](../dynamics-nav/AutoCalcField-Property.md)  
+-   [AutoCalcField Property](AutoCalcField-Property.md)  
   
--   [FieldValidate Property](../dynamics-nav/FieldValidate-Property.md)  
+-   [FieldValidate Property](FieldValidate-Property.md)  
   
--   [Indentation Property \(XMLports\)](../dynamics-nav/Indentation-Property--XMLports-.md)  
+-   [Indentation Property \(XMLports\)](Indentation-Property--XMLports-.md)  
   
--   [MaxOccurs Property](../dynamics-nav/MaxOccurs-Property.md)  
+-   [MaxOccurs Property](MaxOccurs-Property.md)  
   
--   [MinOccurs Property](../dynamics-nav/MinOccurs-Property.md)  
+-   [MinOccurs Property](MinOccurs-Property.md)  
   
--   [NodeName Property](../dynamics-nav/NodeName-Property.md)  
+-   [NodeName Property](NodeName-Property.md)  
   
--   [NodeType Property](../dynamics-nav/NodeType-Property.md)  
+-   [NodeType Property](NodeType-Property.md)  
   
--   [SourceField Property](../dynamics-nav/SourceField-Property.md)  
+-   [SourceField Property](SourceField-Property.md)  
   
--   [SourceType Property](../dynamics-nav/SourceType-Property.md)  
+-   [SourceType Property](SourceType-Property.md)  
   
--   [Unbound Property](../dynamics-nav/Unbound-Property.md)  
+-   [Unbound Property](Unbound-Property.md)  
   
--   [Width Property \(XMLport\)](../dynamics-nav/Width-Property--XMLport-.md)  
+-   [Width Property \(XMLport\)](Width-Property--XMLport-.md)  
   
 ## Text Attribute Properties  
  The following properties apply to **Text** attributes of an XMLport object.  
   
--   [Indentation Property \(XMLports\)](../dynamics-nav/Indentation-Property--XMLports-.md)  
+-   [Indentation Property \(XMLports\)](Indentation-Property--XMLports-.md)  
   
--   [NodeName Property](../dynamics-nav/NodeName-Property.md)  
+-   [NodeName Property](NodeName-Property.md)  
   
--   [NodeType Property](../dynamics-nav/NodeType-Property.md)  
+-   [NodeType Property](NodeType-Property.md)  
   
--   [Occurrence Property](../dynamics-nav/Occurrence-Property.md)  
+-   [Occurrence Property](Occurrence-Property.md)  
   
--   [SourceType Property](../dynamics-nav/SourceType-Property.md)  
+-   [SourceType Property](SourceType-Property.md)  
   
--   [TextType Property](../dynamics-nav/TextType-Property.md)  
+-   [TextType Property](TextType-Property.md)  
   
--   [VariableName Properties](../dynamics-nav/VariableName-Properties.md)  
+-   [VariableName Properties](VariableName-Properties.md)  
   
--   [Width Property \(XMLport\)](../dynamics-nav/Width-Property--XMLport-.md)  
+-   [Width Property \(XMLport\)](Width-Property--XMLport-.md)  
   
 ## Table Attribute Properties  
  The following properties apply to **Table** attributes of an XMLport object.  
   
--   [AutoReplace Property](../dynamics-nav/AutoReplace-Property.md)  
+-   [AutoReplace Property](AutoReplace-Property.md)  
   
--   [AutoSave Property](../dynamics-nav/AutoSave-Property.md)  
+-   [AutoSave Property](AutoSave-Property.md)  
   
--   [AutoUpdate Property](../dynamics-nav/AutoUpdate-Property.md)  
+-   [AutoUpdate Property](AutoUpdate-Property.md)  
   
--   [CalcFields Property](../dynamics-nav/CalcFields-Property.md)  
+-   [CalcFields Property](CalcFields-Property.md)  
   
--   [Indentation Property \(XMLports\)](../dynamics-nav/Indentation-Property--XMLports-.md)  
+-   [Indentation Property \(XMLports\)](Indentation-Property--XMLports-.md)  
   
--   [LinkFields Property](../dynamics-nav/LinkFields-Property.md)  
+-   [LinkFields Property](LinkFields-Property.md)  
   
--   [LinkTable Property](../dynamics-nav/LinkTable-Property.md)  
+-   [LinkTable Property](LinkTable-Property.md)  
   
--   [LinkTableForceInsert Property](../dynamics-nav/LinkTableForceInsert-Property.md)  
+-   [LinkTableForceInsert Property](LinkTableForceInsert-Property.md)  
   
--   [NodeName Property](../dynamics-nav/NodeName-Property.md)  
+-   [NodeName Property](NodeName-Property.md)  
   
--   [NodeType Property](../dynamics-nav/NodeType-Property.md)  
+-   [NodeType Property](NodeType-Property.md)  
   
--   [Occurrence Property](../dynamics-nav/Occurrence-Property.md)  
+-   [Occurrence Property](Occurrence-Property.md)  
   
--   [ReqFilterFields Property](../dynamics-nav/ReqFilterFields-Property.md)  
+-   [ReqFilterFields Property](ReqFilterFields-Property.md)  
   
--   [ReqFilterHeading Property](../dynamics-nav/ReqFilterHeading-Property.md)  
+-   [ReqFilterHeading Property](ReqFilterHeading-Property.md)  
   
--   [ReqFilterHeadingML Property](../dynamics-nav/ReqFilterHeadingML-Property.md)  
+-   [ReqFilterHeadingML Property](ReqFilterHeadingML-Property.md)  
   
--   [SourceTable Property \(XMLports\)](../dynamics-nav/SourceTable-Property--XMLports-.md)  
+-   [SourceTable Property \(XMLports\)](SourceTable-Property--XMLports-.md)  
   
--   [SourceTableView Property \(XMLports\)](../dynamics-nav/SourceTableView-Property--XMLports-.md)  
+-   [SourceTableView Property \(XMLports\)](SourceTableView-Property--XMLports-.md)  
   
--   [SourceType Property](../dynamics-nav/SourceType-Property.md)  
+-   [SourceType Property](SourceType-Property.md)  
   
--   [Temporary Property \(XMLports\)](../dynamics-nav/Temporary-Property--XMLports-.md)  
+-   [Temporary Property \(XMLports\)](Temporary-Property--XMLports-.md)  
   
--   [VariableName Properties](../dynamics-nav/VariableName-Properties.md)  
+-   [VariableName Properties](VariableName-Properties.md)  
   
--   [Width Property \(XMLport\)](../dynamics-nav/Width-Property--XMLport-.md)  
+-   [Width Property \(XMLport\)](Width-Property--XMLport-.md)  
   
 ## Field Attribute Properties  
  The following properties apply to **Field** attributes of an XMLport object.  
   
--   [AutoCalcField Property](../dynamics-nav/AutoCalcField-Property.md)  
+-   [AutoCalcField Property](AutoCalcField-Property.md)  
   
--   [FieldValidate Property](../dynamics-nav/FieldValidate-Property.md)  
+-   [FieldValidate Property](FieldValidate-Property.md)  
   
--   [Indentation Property \(XMLports\)](../dynamics-nav/Indentation-Property--XMLports-.md)  
+-   [Indentation Property \(XMLports\)](Indentation-Property--XMLports-.md)  
   
--   [NodeName Property](../dynamics-nav/NodeName-Property.md)  
+-   [NodeName Property](NodeName-Property.md)  
   
--   [NodeType Property](../dynamics-nav/NodeType-Property.md)  
+-   [NodeType Property](NodeType-Property.md)  
   
--   [Occurrence Property](../dynamics-nav/Occurrence-Property.md)  
+-   [Occurrence Property](Occurrence-Property.md)  
   
--   [SourceField Property](../dynamics-nav/SourceField-Property.md)  
+-   [SourceField Property](SourceField-Property.md)  
   
--   [SourceType Property](../dynamics-nav/SourceType-Property.md)  
+-   [SourceType Property](SourceType-Property.md)  
   
--   [Width Property \(XMLport\)](../dynamics-nav/Width-Property--XMLport-.md)  
+-   [Width Property \(XMLport\)](Width-Property--XMLport-.md)  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

@@ -11,10 +11,10 @@ caps.latest.revision: 6
 manager: edupont
 ---
 # DELETEENCRYPTIONKEY
-Deletes the encryption key for the current [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] tenant.  
+Deletes the encryption key for the current [!INCLUDE[navnow](includes/navnow_md.md)] tenant.  
   
 > [!IMPORTANT]  
->  Use the System Restore permission set in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] to allow importing the encryption key.  
+>  Use the System Restore permission set in [!INCLUDE[navnow](includes/navnow_md.md)] to allow importing the encryption key.  
   
 ## Syntax  
   
@@ -23,7 +23,7 @@ DELETEENCRYPTIONKEY()
 ```  
   
 ## Example  
- This code example checks if encryption is configured for the tenant using the [ENCRYPTIONENABLED](../dynamics-nav/ENCRYPTIONENABLED.md) function and if so, it performs the deletion of the encryption key.  
+ This code example checks if encryption is configured for the tenant using the [ENCRYPTIONENABLED](ENCRYPTIONENABLED.md) function and if so, it performs the deletion of the encryption key.  
   
 ```  
 IF NOT ENCRYPTIONENABLED THEN  
@@ -33,6 +33,6 @@ IF NOT ENCRYPTIONENABLED THEN
 ```  
   
 ## See Also  
- [System](../dynamics-nav/System.md)   
- [Technical Reference](../dynamics-nav/Technical-Reference.md)   
- [C\-SIDE Reference Guide](../dynamics-nav/C-SIDE-Reference-Guide.md)
+ [System](System.md)   
+ [Technical Reference](Technical-Reference.md)   
+ [C\-SIDE Reference Guide](C-SIDE-Reference-Guide.md)

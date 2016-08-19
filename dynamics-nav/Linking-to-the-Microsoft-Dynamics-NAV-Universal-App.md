@@ -10,22 +10,22 @@ ms.assetid: d5d0499a-2770-4c7f-bbc8-ad2795656686
 caps.latest.revision: 17
 ---
 # Linking to the Microsoft Dynamics NAV Universal App
-The protocol handler for the [!INCLUDE[nav_uni_app](../dynamics-nav/includes/nav_uni_app_md.md)] lets you construct a URL for starting the [!INCLUDE[nav_uni_app](../dynamics-nav/includes/nav_uni_app_md.md)] on a device. You can then distribute this URL by e\-mail or from a Web page to the users.  
+The protocol handler for the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] lets you construct a URL for starting the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] on a device. You can then distribute this URL by e\-mail or from a Web page to the users.  
   
  The *ms\-dynamicsnav* scheme is registered automatically when the app is installed. From this point onward, invoking a URL based on this URI scheme will start the app with the provided parameters.  
   
 ## Constructing the URL  
- To enable starting the [!INCLUDE[nav_uni_app](../dynamics-nav/includes/nav_uni_app_md.md)] from a link, construct a URL with the *ms\-dynamicsnav* scheme pointing to your [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Web server.  
+ To enable starting the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] from a link, construct a URL with the *ms\-dynamicsnav* scheme pointing to your [!INCLUDE[navnow](includes/navnow_md.md)] Web server.  
   
- The structure of a [!INCLUDE[nav_uni_app](../dynamics-nav/includes/nav_uni_app_md.md)] link is very similar to links for the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] and resembles this:  
+ The structure of a [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] link is very similar to links for the [!INCLUDE[nav_web](includes/nav_web_md.md)] and resembles this:  
   
  `ms-dynamicsnav://<Server>:<Port>/<Instance>/[?tenant=<Tenant>&company=<Company>]/?profile=/?page=`  
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|Server|Optional. The public address for your [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] server.|  
-|Port|Optional. The port number for your [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] server. If not provided, the standard SSL port \(443\) is used.|  
-|Instance|Optional. The [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] instance that you want to connect to.|  
+|Server|Optional. The public address for your [!INCLUDE[nav_web](includes/nav_web_md.md)] server.|  
+|Port|Optional. The port number for your [!INCLUDE[nav_web](includes/nav_web_md.md)] server. If not provided, the standard SSL port \(443\) is used.|  
+|Instance|Optional. The [!INCLUDE[nav_web](includes/nav_web_md.md)] instance that you want to connect to.|  
 |Tenant|Optional. The tenant that you want to connect to. If not provided, the default tenant is used.|  
 |Company|Optional. The company that you want to connect to. If not provided, the default company is used.|  
 |Profile|Optional. The profile that you want to connect with. If not provided, the default profile is used.|  
@@ -49,7 +49,7 @@ The protocol handler for the [!INCLUDE[nav_uni_app](../dynamics-nav/includes/nav
 -   *ms\-dynamicsnav:\/\/myserver\/myinstance\/?tenant\=myTenant2&company\=MyCompany2*  
   
 > [!IMPORTANT]  
->  The *ms\-dynamicsnav* scheme only translates to a secure server connection. Therefore the [!INCLUDE[nav_tablet](../dynamics-nav/includes/nav_tablet_md.md)] and [!INCLUDE[nav_phone](../dynamics-nav/includes/nav_phone_md.md)] must be exposed through an https connection. For more information, see [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](../Topic/How%20to:%20Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
+>  The *ms\-dynamicsnav* scheme only translates to a secure server connection. Therefore the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLUDE[nav_phone](includes/nav_phone_md.md)] must be exposed through an https connection. For more information, see [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](../Topic/How%20to:%20Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
   
 ### Adding Username to the URL  
  The *ms\-dynamicsnav* scheme also supports sending the user name in the URL for prefilling the user name. The password must be entered by the user. To send the user name, you must URL encode the value and prefix the server address by using *\<encoded username\>@*. Examples are as follows:  
@@ -62,5 +62,5 @@ The protocol handler for the [!INCLUDE[nav_uni_app](../dynamics-nav/includes/nav
 >  We recommend that you do not share a user name in the URL. This technique should only be used in demonstration scenarios and other instances where the accidental sharing of a URL will not compromise the system.  
   
 ## See Also  
- [Developing for the Microsoft Dynamics NAV Universal App](../dynamics-nav/Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)   
+ [Developing for the Microsoft Dynamics NAV Universal App](Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)   
  [How to: Open the Microsoft Dynamics NAV Tablet or Phone Client from a Browser](../Topic/How%20to:%20Open%20the%20Microsoft%20Dynamics%20NAV%20Tablet%20or%20Phone%20Client%20from%20a%20Browser.md)

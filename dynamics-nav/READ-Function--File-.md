@@ -35,7 +35,7 @@ Reads from an MS\-DOS encoded file or binary file.
   
  **Invalid data encountered in stream, unable to read text.**  
   
- In earlier versions of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], the *Variable* parameter did not have to be as long as the text in the file. The **READ** function could read partial data. In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], it is not supported to read fewer than the bytes in the file.  
+ In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], the *Variable* parameter did not have to be as long as the text in the file. The **READ** function could read partial data. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], it is not supported to read fewer than the bytes in the file.  
   
  If you do not define the length of the *Variable* parameter, then you get the following runtime error:  
   
@@ -51,11 +51,11 @@ Reads from an MS\-DOS encoded file or binary file.
 ## Remarks  
  To read from a file that is larger than 1024 bytes, use streams instead of the **File.READ** function. For more information, see [How to: Use Streams to Read from Text Files](../Topic/How%20to:%20Use%20Streams%20to%20Read%20from%20Text%20Files.md).  
   
- MS\-DOS encoding, which is also referred to as OEM encoding, is an older format than UTF\-8 and UTF\-16, but it is still widely supported. MS\-DOS encoding was the only format that was supported by earlier versions of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+ MS\-DOS encoding, which is also referred to as OEM encoding, is an older format than UTF\-8 and UTF\-16, but it is still widely supported. MS\-DOS encoding was the only format that was supported by earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)].  
   
- MS\-DOS encoding requires a different character set for each language. MS\-DOS text is encoded to the internal Unicode data type by using the system locale language of the computer that is running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]. If you read a file that uses MS\-DOS encoding, then you must set the system locale language of the computer that is running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] to match the language of the data in the file that is being read. For example, if the file contains text in Danish, then you must set the system locale language of the computer that is running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] to Danish before you call the **READ** function \(FILE\) or [WRITE Function \(File\)](../dynamics-nav/WRITE-Function--File-.md).  
+ MS\-DOS encoding requires a different character set for each language. MS\-DOS text is encoded to the internal Unicode data type by using the system locale language of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)]. If you read a file that uses MS\-DOS encoding, then you must set the system locale language of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] to match the language of the data in the file that is being read. For example, if the file contains text in Danish, then you must set the system locale language of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] to Danish before you call the **READ** function \(FILE\) or [WRITE Function \(File\)](WRITE-Function--File-.md).  
   
- We recommend that you use the File data type for files that were created in earlier versions of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+ We recommend that you use the File data type for files that were created in earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)].  
   
  To read or write files in Unicode or in other formats, we recommend that you use .NET Framework interoperability and use the [System.IO Namespace](http://go.microsoft.com/fwlink/?LinkId=262250).  
   
@@ -75,4 +75,4 @@ MESSAGE('The text "%1" is %2 bytes.', String, varSize);
 ```  
   
 ## See Also  
- [File Data Type](../dynamics-nav/File-Data-Type.md)
+ [File Data Type](File-Data-Type.md)

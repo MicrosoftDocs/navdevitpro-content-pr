@@ -10,19 +10,19 @@ ms.assetid: 758fd34e-e77d-4d35-bea9-7dcef8f7ea40
 caps.latest.revision: 27
 ---
 # Walkthrough: Creating and Using a Client Control Add-in
-This walkthrough demonstrates how to create a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] control add\-in and use it on a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] page. A client control add\-in enables you to add custom functionality to the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] and the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] by creating a control add\-in that can run on both client platforms.  
+This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_md.md)] control add\-in and use it on a [!INCLUDE[navnow](includes/navnow_md.md)] page. A client control add\-in enables you to add custom functionality to the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and the [!INCLUDE[nav_web](includes/nav_web_md.md)] by creating a control add\-in that can run on both client platforms.  
   
 > [!IMPORTANT]  
->  This walkthrough addresses the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] implementation of extensibility. This makes it possible to write control add\-ins for all display targets. For information about how to write control add\-ins specifically for [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], see [Extending the Windows Client Using Control Add\-ins](../dynamics-nav/Extending-the-Windows-Client-Using-Control-Add-ins.md).  
+>  This walkthrough addresses the [!INCLUDE[navnow](includes/navnow_md.md)] implementation of extensibility. This makes it possible to write control add\-ins for all display targets. For information about how to write control add\-ins specifically for [!INCLUDE[nav_windows](includes/nav_windows_md.md)], see [Extending the Windows Client Using Control Add\-ins](Extending-the-Windows-Client-Using-Control-Add-ins.md).  
   
- In a typical business scenario, developers create control add\-ins using Microsoft Visual Studio Express, or Visual Studio 2013. Implementers of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] solutions then use the control add\-ins on [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] client pages, such as the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], or the [!INCLUDE[nav_tablet](../dynamics-nav/includes/nav_tablet_md.md)].  
+ In a typical business scenario, developers create control add\-ins using Microsoft Visual Studio Express, or Visual Studio 2013. Implementers of [!INCLUDE[navnow](includes/navnow_md.md)] solutions then use the control add\-ins on [!INCLUDE[navnow](includes/navnow_md.md)] client pages, such as the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the [!INCLUDE[nav_web](includes/nav_web_md.md)], or the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)].  
   
 ## Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] with a developer license. For more information, see [System Requirements for Microsoft Dynamics NAV 2016](../dynamics-nav/System-Requirements-for-Microsoft-Dynamics-NAV-2016.md).  
+-   [!INCLUDE[navnow](includes/navnow_md.md)] with a developer license. For more information, see [System Requirements for Microsoft Dynamics NAV 2016](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md).  
   
--   [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+-   [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 -   Microsoft Visual Studio Express or Microsoft Visual Studio 2013.  
   
@@ -31,10 +31,10 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](../dynamics-nav/
 -   Experience using Visual Studio.  
   
 ## Story  
- Simon is a software developer working for [!INCLUDE[demoname](../dynamics-nav/includes/demoname_md.md)] He has been told that the users of the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] want to see Bing Maps displayed on the Web client. He wants to use the client extensibility framework to test how to do this on a separate page first.  
+ Simon is a software developer working for [!INCLUDE[demoname](includes/demoname_md.md)] He has been told that the users of the [!INCLUDE[nav_web](includes/nav_web_md.md)] want to see Bing Maps displayed on the Web client. He wants to use the client extensibility framework to test how to do this on a separate page first.  
   
 ## Creating a Control Add\-in With Visual Studio  
- [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] includes the Microsoft.Dynamics.Framework.UI.Extensibility.dll assembly that defines the model for creating [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] control add\-ins. The [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] API provides the binding mechanism between the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] control add\-in and the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] framework.  
+ [!INCLUDE[navnow](includes/navnow_md.md)] includes the Microsoft.Dynamics.Framework.UI.Extensibility.dll assembly that defines the model for creating [!INCLUDE[navnow](includes/navnow_md.md)] control add\-ins. The [!INCLUDE[navnow](includes/navnow_md.md)] API provides the binding mechanism between the [!INCLUDE[navnow](includes/navnow_md.md)] control add\-in and the [!INCLUDE[navnow](includes/navnow_md.md)] framework.  
   
 ### To create the control add\-in  
   
@@ -48,7 +48,7 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](../dynamics-nav/
   
 5.  In Solution Explorer, right\-click your project, and then choose **Add Reference**.  
   
-6.  In the **Add Reference** window, on the **Browse** tab, navigate to the location of the Microsoft.Dynamics.Framework.UI.Extensibility.dll assembly on your computer, and then choose the **OK** button. By default, the path of the assembly is [!INCLUDE[navnow_x86install](../dynamics-nav/includes/navnow_x86install_md.md)]\\RoleTailored Client.  
+6.  In the **Add Reference** window, on the **Browse** tab, navigate to the location of the Microsoft.Dynamics.Framework.UI.Extensibility.dll assembly on your computer, and then choose the **OK** button. By default, the path of the assembly is [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client.  
   
 7.  Open the Class1.cs file and add the following **using** directive.  
   
@@ -83,9 +83,9 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](../dynamics-nav/
   
     ```  
   
-9. You will use the name `BingMapsControl` later in the walkthrough when you register the control add\-in in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+9. You will use the name `BingMapsControl` later in the walkthrough when you register the control add\-in in [!INCLUDE[navnow](includes/navnow_md.md)].  
   
- The assembly must now be signed to be used with [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)]. The next steps will discuss how to sign the assembly.  
+ The assembly must now be signed to be used with [!INCLUDE[navnow](includes/navnow_md.md)]. The next steps will discuss how to sign the assembly.  
   
 ### To sign the assembly  
   
@@ -103,21 +103,21 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](../dynamics-nav/
   
 7.  On the **Build** menu, choose **Build \<Your Solution\>** to build the project. Verify that the build succeeds.  
   
-## Copying the Control Add\-in Assembly to the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)]  
- After you build the control add\-in, you copy the output assembly file to the computer that is running the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)].  
+## Copying the Control Add\-in Assembly to the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]  
+ After you build the control add\-in, you copy the output assembly file to the computer that is running the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].  
   
-#### To copy the control add\-in assembly to the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)]  
+#### To copy the control add\-in assembly to the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]  
   
 1.  On the computer, locate and copy the control add\-in assembly file \(.dll\) file in the control add\-in project’s output folder.  
   
 2.  By default, this folder is C:\\Documents\\MyDocuments\\Visual Studio\\Projects\\\[Your Addin Project\]\\\[Your Class Library\]\\bin\\Debug.  
   
-3.  On the computer that is running the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], paste the assembly in the Add\-ins folder.  
+3.  On the computer that is running the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], paste the assembly in the Add\-ins folder.  
   
-     By default, this folder is [!INCLUDE[navnow_x86install](../dynamics-nav/includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add\-ins.  
+     By default, this folder is [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add\-ins.  
   
 ## Creating the Manifest File  
- After you create an interface in Visual Studio that exposes a number of properties for the BingMapsControlAddIn, you must create a manifest file. A manifest file is written in XML and contains information such as where to look for resource files, references to external JavaScripts, and the size of the control add\-in. For more information, see [Manifest Overview](../dynamics-nav/Manifest-Overview.md). In the next steps, you will create a manifest file that loads a BingMaps control and you will register this manifest in the **Client Add\-in** page.  
+ After you create an interface in Visual Studio that exposes a number of properties for the BingMapsControlAddIn, you must create a manifest file. A manifest file is written in XML and contains information such as where to look for resource files, references to external JavaScripts, and the size of the control add\-in. For more information, see [Manifest Overview](Manifest-Overview.md). In the next steps, you will create a manifest file that loads a BingMaps control and you will register this manifest in the **Client Add\-in** page.  
   
 #### To create the manifest file  
   
@@ -152,10 +152,10 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](../dynamics-nav/
   
      Name the manifest **Manifest** and make sure to add the .xml extension to the file, so that the file name will now be **Manifest.xml**.  
   
- The next step is to create a JavaScript file containing code that calls C\/AL in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+ The next step is to create a JavaScript file containing code that calls C\/AL in [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 ## Creating a JavaScript File  
- Now you must create a JavaScript file to hold all of the code that calls C\/AL in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+ Now you must create a JavaScript file to hold all of the code that calls C\/AL in [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 #### To create the JavaScript file  
   
@@ -209,10 +209,10 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](../dynamics-nav/
   
 2.  Save and name the script **Script** and make sure to add the .js extension to the file, so that the file name will now be **Script.js**.  
   
- The next step is to create a .zip file containing the manifest and resource files and register this file with the control add\-in in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+ The next step is to create a .zip file containing the manifest and resource files and register this file with the control add\-in in [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 ## Creating a Resource .Zip File  
- Before registering the control add\-in in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], you must create one single file containing the manifest and any resource files. This single file is a .zip file and it will be registered in the **Client Add\-in** page. The .zip file must contain a certain structure for it to be recognized by the **Client Add\-in** page. In the next steps, you will create the right structure and a .zip file.  
+ Before registering the control add\-in in [!INCLUDE[navnow](includes/navnow_md.md)], you must create one single file containing the manifest and any resource files. This single file is a .zip file and it will be registered in the **Client Add\-in** page. The .zip file must contain a certain structure for it to be recognized by the **Client Add\-in** page. In the next steps, you will create the right structure and a .zip file.  
   
 #### To create a resource .zip file  
   
@@ -220,7 +220,7 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](../dynamics-nav/
   
 2.  Locate the **Manifest.xml** file that you created in the previous steps, and copy this to the same folder structure. Then locate the **Script.js** file that you created in the previous steps, and copy this to the **Script** folder. Your folder should now look like this:  
   
-     ![Folder structure before creating the .zip file](../dynamics-nav/media/ControlAddInSingleFileFolderStructure.png "ControlAddInSingleFileFolderStructure")  
+     ![Folder structure before creating the .zip file](media/ControlAddInSingleFileFolderStructure.png "ControlAddInSingleFileFolderStructure")  
   
 3.  Place images, scripts, and stylesheets in the right folders, but in this walkthrough we will leave the rest of these folders empty.  
   
@@ -228,8 +228,8 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](../dynamics-nav/
   
 5.  Name the .zip file **BingMapsControlAddIn**.  
   
-## Registering the Control Add\-in in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)]  
- To register a control add\-in, you include it in the **Control Add\-in** page in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)]. To include a control add\-in in the page, you must provide the following information:  
+## Registering the Control Add\-in in [!INCLUDE[navnow](includes/navnow_md.md)]  
+ To register a control add\-in, you include it in the **Control Add\-in** page in [!INCLUDE[navnow](includes/navnow_md.md)]. To include a control add\-in in the page, you must provide the following information:  
   
 -   Control Add\-in name.  
   
@@ -241,15 +241,15 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](../dynamics-nav/
   
 -   Resource.  
   
-     On the **Control Add\-in** page, the **Resource** field is a BLOB data type and the content of the field cannot be viewed from the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)].  
+     On the **Control Add\-in** page, the **Resource** field is a BLOB data type and the content of the field cannot be viewed from the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].  
   
-     When this field is filled in, [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] identifies the registered control add\-in as a type of control add\-in that works on all display targets.  
+     When this field is filled in, [!INCLUDE[navnow](includes/navnow_md.md)] identifies the registered control add\-in as a type of control add\-in that works on all display targets.  
   
 #### To determine the public key token for the control add\-in  
   
 1.  On the Windows taskbar, choose **Start**, choose **All Programs**, choose **Microsoft Visual Studio 2013**, choose **Visual Studio Tools**, and then choose **Developer Command Prompt for VS2013** to open the command prompt.  
   
-2.  At a command prompt, change to the directory that contains the assembly that you copied. For example, [!INCLUDE[navnow_x86install](../dynamics-nav/includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add\-ins.  
+2.  At a command prompt, change to the directory that contains the assembly that you copied. For example, [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add\-ins.  
   
 3.  Type the following command: `sn –T <assembly>`  
   
@@ -259,7 +259,7 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](../dynamics-nav/
   
 #### To include the control add\-in in the Control Add\-in page  
   
-1.  Open [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+1.  Open [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 2.  In the **Search** box, enter **Control Add\-ins** and then choose the related link.  
   
@@ -286,7 +286,7 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](../dynamics-nav/
   
 #### To create the Bing Maps page  
   
-1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], in Object Designer, choose **Page**, and then choose **New**.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], in Object Designer, choose **Page**, and then choose **New**.  
   
 2.  In the **New Page** dialog, choose **Create blank page** and then choose the **OK** button.  
   
@@ -304,7 +304,7 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](../dynamics-nav/
   
      Your page design should now look like this.  
   
-     ![The page design for the Bing Maps control](../dynamics-nav/media/ControlAddInPageDesignForBingMapsControl.png "ControlAddInPageDesignForBingMapsControl")  
+     ![The page design for the Bing Maps control](media/ControlAddInPageDesignForBingMapsControl.png "ControlAddInPageDesignForBingMapsControl")  
   
 9. Save and compile the page. Name the page **Bing Maps**.  
   
@@ -312,7 +312,7 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](../dynamics-nav/
   
 ###### To add variables and properties  
   
-1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], in Object Designer, choose **Page**, and then choose the **Bing Maps** page.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], in Object Designer, choose **Page**, and then choose the **Bing Maps** page.  
   
 2.  On the **Tools** menu, choose **View**, and then **C\/AL Globals**.  
   
@@ -359,11 +359,11 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](../dynamics-nav/
   
 5.  Save and compile the Bing Maps page.  
   
- After you have saved and compiled the **Bing Maps** page, you can run the page directly from the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)] to verify that it works on the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]. For more information, see [Opening a Page in the Microsoft Dynamics NAV Web Client by Using a URL](../dynamics-nav/Opening-a-Page-in-the-Microsoft-Dynamics-NAV-Web-Client-by-Using-a-URL.md).  
+ After you have saved and compiled the **Bing Maps** page, you can run the page directly from the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to verify that it works on the [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [Opening a Page in the Microsoft Dynamics NAV Web Client by Using a URL](Opening-a-Page-in-the-Microsoft-Dynamics-NAV-Web-Client-by-Using-a-URL.md).  
   
 ## Next Steps  
- Now you have created a Client Control Add\-in that runs on the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], and the [!INCLUDE[nav_tablet](../dynamics-nav/includes/nav_tablet_md.md)]. A next step could be to implement a control add\-in on an existing page or on the Role Center to display a Bing Map of where customers are located.  
+ Now you have created a Client Control Add\-in that runs on the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the [!INCLUDE[nav_web](includes/nav_web_md.md)], and the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)]. A next step could be to implement a control add\-in on an existing page or on the Role Center to display a Bing Map of where customers are located.  
   
 ## See Also  
- [Extending Microsoft Dynamics NAV Using Control Add\-ins](../dynamics-nav/Extending-Microsoft-Dynamics-NAV-Using-Control-Add-ins.md)   
- [Extending Any Microsoft Dynamics NAV Client Using Control Add\-ins](../dynamics-nav/Extending-Any-Microsoft-Dynamics-NAV-Client-Using-Control-Add-ins.md)
+ [Extending Microsoft Dynamics NAV Using Control Add\-ins](Extending-Microsoft-Dynamics-NAV-Using-Control-Add-ins.md)   
+ [Extending Any Microsoft Dynamics NAV Client Using Control Add\-ins](Extending-Any-Microsoft-Dynamics-NAV-Client-Using-Control-Add-ins.md)

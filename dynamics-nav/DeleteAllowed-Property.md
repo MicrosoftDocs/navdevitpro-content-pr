@@ -21,4 +21,4 @@ Sets a value that specifies whether users can delete records while using the  pa
  **Yes** if the user can delete records; otherwise, **No**. The default value is **Yes**.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

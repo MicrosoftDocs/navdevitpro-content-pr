@@ -61,4 +61,4 @@ END;
  When you use the function to put in one or more amounts whose total equals \+$100, the Balance variable then equals zero and the table is marked as consistent. This means that if an attempt is made to put in an amount and end the write transaction \(commit the change\) without withdrawing a corresponding amount, an error occurs and the write transaction is canceled.  
   
 ## See Also  
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [Record Data Type](Record-Data-Type.md)

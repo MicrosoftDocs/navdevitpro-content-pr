@@ -32,13 +32,13 @@ namespace Microsoft.Dynamics.Nav.EnumSample
  .NET Framework interoperability supports symbolic names in enumerations. In C\/AL code, enumerations are handled like static fields on the .NET Framework type.  
   
 ## Creating and Calling DotNet Variables for Enumerations in C\/AL  
- You create DotNet variables for enumerations similar to other .NET Framework types. When you create a DotNet variable for an enumeration in the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], the enumeration name in the **.NET Type List** is preceded by a plus sign. The following illustration shows the **.NET Type List** for the enumeration in the previous code example.  
+ You create DotNet variables for enumerations similar to other .NET Framework types. When you create a DotNet variable for an enumeration in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], the enumeration name in the **.NET Type List** is preceded by a plus sign. The following illustration shows the **.NET Type List** for the enumeration in the previous code example.  
   
- ![.NET Type List showing enumeration](../dynamics-nav/media/NAV_DotNet_Enum_Setup.png "NAV\_DotNet\_Enum\_Setup")  
+ ![.NET Type List showing enumeration](media/NAV_DotNet_Enum_Setup.png "NAV\_DotNet\_Enum\_Setup")  
   
  To call an enumeration from C\/AL code, you can use the **C\/AL Symbol Menu**, which displays all the values for the enumeration. The following illustration shows an example in the **C\/AL Symbol Menu**.  
   
- ![C&#47;AL Symbol Menu showing enumeration values](../dynamics-nav/media/NAV_Dotnet_Enum_Symbol.png "NAV\_Dotnet\_Enum\_Symbol")  
+ ![C&#47;AL Symbol Menu showing enumeration values](media/NAV_Dotnet_Enum_Symbol.png "NAV\_Dotnet\_Enum\_Symbol")  
   
  The following C\/AL code assigns the `Red` value to the `Color` enumeration.  
   
@@ -60,5 +60,5 @@ EnumTarget.MyMethod(0); // Assumes that the enumeration value Red has the numeri
  The common language runtime automatically maps the value `0` to the correct enumeration value of `Red`.  
   
 ## See Also  
- [Calling .NET Framework Members from C\-AL](../dynamics-nav/Calling-.NET-Framework-Members-from-C-AL.md)   
- [Extending Microsoft Dynamics NAV Using Microsoft .NET Framework Interoperability](../dynamics-nav/Extending-Microsoft-Dynamics-NAV-Using-Microsoft-.NET-Framework-Interoperability.md)
+ [Calling .NET Framework Members from C\-AL](Calling-.NET-Framework-Members-from-C-AL.md)   
+ [Extending Microsoft Dynamics NAV Using Microsoft .NET Framework Interoperability](Extending-Microsoft-Dynamics-NAV-Using-Microsoft-.NET-Framework-Interoperability.md)

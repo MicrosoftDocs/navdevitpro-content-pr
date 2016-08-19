@@ -11,13 +11,13 @@ caps.latest.revision: 6
 manager: edupont
 ---
 # How to: Modify a Word Report Layout
-This procedure describes how to modify a Word report layout on report from the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)]. A Word report layout determines the content and format of a report when it is viewed and printed from the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] client. When you modify a Word report layout, you specify the fields of the report dataset to include on report and how the fields are arranged. You also define the general format of the report, such as text font and size, margins, and background images. You will typically arrange the content of the report by adding tables to the layout.  
+This procedure describes how to modify a Word report layout on report from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. A Word report layout determines the content and format of a report when it is viewed and printed from the [!INCLUDE[navnow](includes/navnow_md.md)] client. When you modify a Word report layout, you specify the fields of the report dataset to include on report and how the fields are arranged. You also define the general format of the report, such as text font and size, margins, and background images. You will typically arrange the content of the report by adding tables to the layout.  
   
- You insert dataset fields in the layout by using a custom XML part that is automatically generated for the report when you create the Word report layout. For more information about custom XML parts, see [Custom XML Part Overview for Word Report Layouts](../dynamics-nav/Custom-XML-Part-Overview-for-Word-Report-Layouts.md).  
+ You insert dataset fields in the layout by using a custom XML part that is automatically generated for the report when you create the Word report layout. For more information about custom XML parts, see [Custom XML Part Overview for Word Report Layouts](Custom-XML-Part-Overview-for-Word-Report-Layouts.md).  
   
 ### To modify the Word report layout  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], export the Word report layout as a Word document file to your computer or network.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], export the Word report layout as a Word document file to your computer or network.  
   
      For more information see [To export a Word report layout from a report to a file](../Topic/How%20to:%20Import%20and%20Export%20a%20Word%20Report%20Layout.md#ExportLayout).  
   
@@ -39,7 +39,7 @@ This procedure describes how to modify a Word report layout on report from the [
 ##  <a name="RemoveField"></a> Removing Label and Data Fields  
  Label and data fields of a report are contained in content controls in Word. The following figure illustrates a content control when it is selected in the Word document.  
   
- ![Content control for field in Word report layout](../dynamics-nav/media/NAV_WordReportLayouts_ContentControl.png "NAV\_WordReportLayouts\_ContentControl")  
+ ![Content control for field in Word report layout](media/NAV_WordReportLayouts_ContentControl.png "NAV\_WordReportLayouts\_ContentControl")  
   
  The name of the label or data field name displays in the content control. In the example, the field name is CompanyAddr1.  
   
@@ -52,6 +52,6 @@ This procedure describes how to modify a Word report layout on report from the [
 2.  Delete the remaining text as needed.  
   
 ## See Also  
- [Designing Word Report Layouts](../dynamics-nav/Designing-Word-Report-Layouts.md)   
- [Defining the Report Dataset](../dynamics-nav/Defining-the-Report-Dataset.md)   
- [Designing RDLC Report Layouts](../dynamics-nav/Designing-RDLC-Report-Layouts.md)
+ [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)   
+ [Defining the Report Dataset](Defining-the-Report-Dataset.md)   
+ [Designing RDLC Report Layouts](Designing-RDLC-Report-Layouts.md)

@@ -21,4 +21,4 @@ The **Server** table contains the following fields.
  You must create a tabular\-type page to access the **Server** virtual table. For more information, see [How to: Create a Page to View a Virtual Table](../Topic/How%20to:%20Create%20a%20Page%20to%20View%20a%20Virtual%20Table.md).  
   
 ## See Also  
- [Virtual Tables](../dynamics-nav/Virtual-Tables.md)
+ [Virtual Tables](Virtual-Tables.md)

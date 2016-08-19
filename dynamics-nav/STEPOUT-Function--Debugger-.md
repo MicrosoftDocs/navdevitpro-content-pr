@@ -27,6 +27,6 @@ Enables debugging to return to the calling function after it steps into a functi
  If you omit this optional return value and if the break is not set successfully, then a run\-time error occurs. If you include the return value, then you must handle any errors.  
   
 ## See Also  
- [Breakpoints](../dynamics-nav/Breakpoints.md)   
- [STEPOVER Function \(Debugger\)](../dynamics-nav/STEPOVER-Function--Debugger-.md)   
- [STEPINTO Function \(Debugger\)](../dynamics-nav/STEPINTO-Function--Debugger-.md)
+ [Breakpoints](Breakpoints.md)   
+ [STEPOVER Function \(Debugger\)](STEPOVER-Function--Debugger-.md)   
+ [STEPINTO Function \(Debugger\)](STEPINTO-Function--Debugger-.md)

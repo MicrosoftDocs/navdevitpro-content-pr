@@ -14,7 +14,7 @@ manager: edupont
 Checks if the tenant is configured to allow encryption.  
   
 > [!NOTE]  
->  This does not mean that an encryption key is present on the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)], only that the system is expecting to use one. This situation can arise if multiple servers are in use but the encryption key has not yet been deployed to each of them.  
+>  This does not mean that an encryption key is present on the [!INCLUDE[nav_server](includes/nav_server_md.md)], only that the system is expecting to use one. This situation can arise if multiple servers are in use but the encryption key has not yet been deployed to each of them.  
   
 ## Syntax  
   
@@ -38,6 +38,6 @@ IF ENCRYPTIONENABLED THEN
 ```  
   
 ## See Also  
- [System](../dynamics-nav/System.md)   
- [Technical Reference](../dynamics-nav/Technical-Reference.md)   
- [C\-SIDE Reference Guide](../dynamics-nav/C-SIDE-Reference-Guide.md)
+ [System](System.md)   
+ [Technical Reference](Technical-Reference.md)   
+ [C\-SIDE Reference Guide](C-SIDE-Reference-Guide.md)

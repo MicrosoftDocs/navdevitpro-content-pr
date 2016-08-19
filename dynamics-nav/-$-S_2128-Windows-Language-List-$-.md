@@ -11,9 +11,9 @@ caps.latest.revision: 6
 manager: terryaus
 ---
 # ($ S_2128 Windows Language List $)
-Lists all Windows languages. You can add string translations for UI elements in a standard country\/region\-specific version of [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)]. To enable multilanguage support, you install a language module so that end users can view UI elements in a different language.  
+Lists all Windows languages. You can add string translations for UI elements in a standard country\/region\-specific version of [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. To enable multilanguage support, you install a language module so that end users can view UI elements in a different language.  
   
 > [!NOTE]  
 >  If you have customized objects in the application, then you must also add translations for those objects.  
   
- To open this window, in the **Multilanguage Editor** window, choose the **Up Arrow** button in the **Language** field. For more information about how to open the Multilanguage Editor window, see [\($ S\_2141 Multilanguage Editor $\)](../dynamics-nav/-$-S_2141-Multilanguage-Editor-$-.md).
+ To open this window, in the **Multilanguage Editor** window, choose the **Up Arrow** button in the **Language** field. For more information about how to open the Multilanguage Editor window, see [\($ S\_2141 Multilanguage Editor $\)](-$-S_2141-Multilanguage-Editor-$-.md).

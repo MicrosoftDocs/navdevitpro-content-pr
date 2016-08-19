@@ -17,7 +17,7 @@ You can use test pages to mimic actual pages so that you can test the code the p
   
 -   TestRequestPage  
   
- You use the [TestPage Functions](../dynamics-nav/TestPage-Functions.md) to:  
+ You use the [TestPage Functions](TestPage-Functions.md) to:  
   
 -   Open and close test pages.  
   
@@ -33,7 +33,7 @@ You can use test pages to mimic actual pages so that you can test the code the p
   
 -   Get validation errors and error counts.  
   
- You use the [TestPage Field Functions](../dynamics-nav/TestPage-Field-Functions.md) to:  
+ You use the [TestPage Field Functions](TestPage-Field-Functions.md) to:  
   
 -   Set the focus on a specific field.  
   
@@ -43,10 +43,10 @@ You can use test pages to mimic actual pages so that you can test the code the p
   
 -   Simulate the drop\-down arrow, drill\-down, and lookup buttons on a field.  
   
- You use the [TestPage Filter Functions](../dynamics-nav/TestPage-Filter-Functions.md) to set filter parameters, such as current key, and direction to display the results, such as ascending or descending.  
+ You use the [TestPage Filter Functions](TestPage-Filter-Functions.md) to set filter parameters, such as current key, and direction to display the results, such as ascending or descending.  
   
- You use the [TestPage Action Functions](../dynamics-nav/TestPage-Action-Functions.md) to invoke an action on a page. This includes both actions that you define in Page Designer and built\-in actions, such as Yes, No, OK, and Cancel.  
+ You use the [TestPage Action Functions](TestPage-Action-Functions.md) to invoke an action on a page. This includes both actions that you define in Page Designer and built\-in actions, such as Yes, No, OK, and Cancel.  
   
 ## See Also  
- [TestPage Data Type](../dynamics-nav/TestPage-Data-Type.md)   
- [TestRequestPage Data Type](../dynamics-nav/TestRequestPage-Data-Type.md)
+ [TestPage Data Type](TestPage-Data-Type.md)   
+ [TestRequestPage Data Type](TestRequestPage-Data-Type.md)

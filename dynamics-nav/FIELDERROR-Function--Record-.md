@@ -50,7 +50,7 @@ Record.FIELDERROR(Field, [Text])
   
 -   Use a text constant for the *Text* parameter.  
   
- For more information, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Functions](../dynamics-nav/Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Functions.md).  
+ For more information, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Functions](Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Functions.md).  
   
 ## Example  
  In the first example, there is no *Text* parameter and the field does not have a value. This example requires that you create a Record variable for the **Customer** table named CustomerRec.  
@@ -97,4 +97,4 @@ CustomerRec.FIELDERROR("No.", Text001);
  **No. is not valid in Customer No.\='NEW 3500'.**  
   
 ## See Also  
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [Record Data Type](Record-Data-Type.md)

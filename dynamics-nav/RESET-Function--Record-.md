@@ -27,7 +27,7 @@ Record.RESET
  The record that you want to reset.  
   
 ## Remarks  
- **RESET** does not reset filters in filter group 1. For more information about filter groups, see [FILTERGROUP Function \(Record\)](../dynamics-nav/FILTERGROUP-Function--Record-.md).  
+ **RESET** does not reset filters in filter group 1. For more information about filter groups, see [FILTERGROUP Function \(Record\)](FILTERGROUP-Function--Record-.md).  
   
 ## Example  
  This example requires that you create the following variables and text constants in the C\/AL Globals window.  
@@ -62,4 +62,4 @@ MESSAGE(Text000 + Text001, Count1, Count2);
  The example shows that **RESET** removed all filters.  
   
 ## See Also  
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [Record Data Type](Record-Data-Type.md)

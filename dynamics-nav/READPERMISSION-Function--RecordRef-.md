@@ -41,7 +41,7 @@ Ok := RecordRef.READPERMISSION
   
  If you do not have permission to read from a table and you attempt to read, a run\-time error occurs. This function lets you determine in advance if you have read permission. When the permissions are checked, the combination of the permissions in the license file and the user's permissions in the Permission table is considered.  
   
- This function works the same as the [READPERMISSION Function \(Record\)](../dynamics-nav/READPERMISSION-Function--Record-.md).  
+ This function works the same as the [READPERMISSION Function \(Record\)](READPERMISSION-Function--Record-.md).  
   
 ## Example  
  The following example opens table 18 \(Customer\) and creates a RecordRef variable that is named MyRecordRef for the table. The READPERMISSION function determines whether the table has read permission and stores the return value in the varHasReadPerm variable. The Customer table has read permission, so the message displays **Yes**. You can initialize the varTableNo variable with any table number. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
@@ -65,4 +65,4 @@ MESSAGE(Text000, MyRecordRef.NAME, varHasReadPerm);
 ```  
   
 ## See Also  
- [RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md)
+ [RecordRef Data Type](RecordRef-Data-Type.md)

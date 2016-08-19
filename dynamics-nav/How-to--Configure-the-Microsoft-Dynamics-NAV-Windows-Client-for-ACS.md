@@ -11,15 +11,15 @@ caps.latest.revision: 5
 manager: tsiggaar
 ---
 # How to: Configure the Microsoft Dynamics NAV Windows Client for ACS
-You configure the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] for Access Control Service \(ACS\) by editing the client configuration file \(ClientUserSettings.config\).  
+You configure the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] for Access Control Service \(ACS\) by editing the client configuration file \(ClientUserSettings.config\).  
   
- Before you begin this procedure, you must perform the steps to configure your deployment for ACS. For more information, see [Authenticating Users with Microsoft Azure Access Control Service](../dynamics-nav/Authenticating-Users-with-Microsoft-Azure-Access-Control-Service.md).  
+ Before you begin this procedure, you must perform the steps to configure your deployment for ACS. For more information, see [Authenticating Users with Microsoft Azure Access Control Service](Authenticating-Users-with-Microsoft-Azure-Access-Control-Service.md).  
   
-### To configure the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] for ACS  
+### To configure the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] for ACS  
   
-1.  Edit the client configuration file \(ClientUserSettings.config\) for each copy of the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] that will be supporting users for ACS authentication.  
+1.  Edit the client configuration file \(ClientUserSettings.config\) for each copy of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] that will be supporting users for ACS authentication.  
   
-     A separate instance of the ClientUserSettings.config file is maintained for each client user. The default location for this file is C:\\Users\\*\<username\>*\\AppData\\Roaming\\Microsoft\\[!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)]\\90, where \<username\> is the name of the user. By default, this folder and file are hidden. Change your folder options in Windows Explorer to view hidden files before you modify the ClientUserSettings.config file.  
+     A separate instance of the ClientUserSettings.config file is maintained for each client user. The default location for this file is C:\\Users\\*\<username\>*\\AppData\\Roaming\\Microsoft\\[!INCLUDE[navnow](includes/navnow_md.md)]\\90, where \<username\> is the name of the user. By default, this folder and file are hidden. Change your folder options in Windows Explorer to view hidden files before you modify the ClientUserSettings.config file.  
   
     > [!CAUTION]  
     >  To ensure that your edits to ClientUserSettings.config are saved, first open Notepad as an Administrator and then, in Notepad, open the settings file. To open Notepad as an Administrator, from the **Start** menu, right\-click **Notepad**, and then choose **Run as Administrator**.  
@@ -34,4 +34,4 @@ You configure the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md
 3.  After updating the values, save ClientUserSettings.config.  
   
 ## See Also  
- [Configure Microsoft Dynamics NAV Components for ACS](../dynamics-nav/Configure-Microsoft-Dynamics-NAV-Components-for-ACS.md)
+ [Configure Microsoft Dynamics NAV Components for ACS](Configure-Microsoft-Dynamics-NAV-Components-for-ACS.md)

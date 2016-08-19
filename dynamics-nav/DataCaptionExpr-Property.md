@@ -21,4 +21,4 @@ Sets a C\/AL expression that is evaluated and displayed to the left of the page 
  The expression is evaluated each time the user switches from one record to another or when one of the fields in the record changes.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

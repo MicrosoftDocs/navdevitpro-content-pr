@@ -11,13 +11,13 @@ caps.latest.revision: 3
 manager: edupont
 ---
 # OnMissingPermission Property
-Specifies what happens to the subscriber function call when the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] user account that is running the current session does not have permission to the codeunit that contains the subscriber function. The permissions are defined by the permission sets on the user account.  
+Specifies what happens to the subscriber function call when the [!INCLUDE[navnow](includes/navnow_md.md)] user account that is running the current session does not have permission to the codeunit that contains the subscriber function. The permissions are defined by the permission sets on the user account.  
   
 ## Applies to  
   
 -   C\/AL functions in codeunits.  
   
-     This property is only available when the [Event Property](../dynamics-nav/Event-Property.md) is set to **Subscriber**.  
+     This property is only available when the [Event Property](Event-Property.md) is set to **Subscriber**.  
   
 ## Property Value  
   
@@ -29,10 +29,10 @@ Specifies what happens to the subscriber function call when the [!INCLUDE[navnow
 ## Remarks  
  Before the permissions of the user account are evaluated, the user's license is evaluated to make sure that it includes the codeunit. If the license is not valid for the codeunit, the call to the subscriber is stopped and this property is irrelevant.  
   
- For more information about events, see [Events in Microsoft Dynamics NAV](../dynamics-nav/Events-in-Microsoft-Dynamics-NAV.md).  
+ For more information about events, see [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md).  
   
 ## See Also  
- [Publishing Events](../dynamics-nav/Publishing-Events.md)   
- [Raising Events](../dynamics-nav/Raising-Events.md)   
- [Subscribing to Events](../dynamics-nav/Subscribing-to-Events.md)   
- [C\-AL Function Statements](../dynamics-nav/C-AL-Function-Statements.md)
+ [Publishing Events](Publishing-Events.md)   
+ [Raising Events](Raising-Events.md)   
+ [Subscribing to Events](Subscribing-to-Events.md)   
+ [C\-AL Function Statements](C-AL-Function-Statements.md)

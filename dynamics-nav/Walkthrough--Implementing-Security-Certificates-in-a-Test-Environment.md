@@ -11,7 +11,7 @@ caps.latest.revision: 39
 manager: terryaus
 ---
 # Walkthrough: Implementing Security Certificates in a Test Environment
-In this walkthrough, you set up an environment to test integrating certificates into a configuration for connecting computers running the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] or [!INCLUDE[nav_web_server](../dynamics-nav/includes/nav_web_server_md.md)] to [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instances over a wide area network \(WAN\) with the chain trust configuration.  
+In this walkthrough, you set up an environment to test integrating certificates into a configuration for connecting computers running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] to [!INCLUDE[nav_server](includes/nav_server_md.md)] instances over a wide area network \(WAN\) with the chain trust configuration.  
   
 ## Prerequisites  
  To complete this walkthrough, you will need:  
@@ -28,12 +28,12 @@ In this walkthrough, you set up an environment to test integrating certificates 
   
      The makecert.exe utility is installed with Microsoft Visual Studio and Microsoft Windows SDK. For more information, see [Certificate Creation Tool \(Makecert.exe\)](http://go.microsoft.com/fwlink/?LinkId=202833) in the MSDN Library.  
   
-## Configuring [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]  
- You create and install a root certification authority \(CA\) and a server certificate on the computer running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)].  
+## Configuring [!INCLUDE[nav_server](includes/nav_server_md.md)]  
+ You create and install a root certification authority \(CA\) and a server certificate on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
 #### To create a root CA and a private key file by using the makecert.exe utility  
   
-1.  On the computer running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)], create a temporary folder to use when you work with certificates.  
+1.  On the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)], create a temporary folder to use when you work with certificates.  
   
 2.  Open the command prompt as follows:  
   
@@ -55,9 +55,9 @@ In this walkthrough, you set up an environment to test integrating certificates 
   
 6.  The RootNavServiceCA.cer certificate file and the RootNavServiceCA.pvk private key are saved in your temporary folder.  
   
-#### To use the Certificates snap\-in to install the root CA on the computer running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]  
+#### To use the Certificates snap\-in to install the root CA on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)]  
   
-1.  Start the Certificates snap\-in for MMC on the computer running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)], and then add the Certificates snap\-in.  
+1.  Start the Certificates snap\-in for MMC on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)], and then add the Certificates snap\-in.  
   
 2.  In the **Certificates snap\-in** dialog box, choose **Computer account**, and then choose **Next**.  
   
@@ -83,7 +83,7 @@ In this walkthrough, you set up an environment to test integrating certificates 
   
  The RootNavServiceCA certificate is now visible in the list of trusted root CAs.  
   
- You now create a certificate revocation list for the root certification authority and then install the certificate revocation list on the computer running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]. A certificate revocation list is required because WCF applications check the revocation list when validating certificates.  
+ You now create a certificate revocation list for the root certification authority and then install the certificate revocation list on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)]. A certificate revocation list is required because WCF applications check the revocation list when validating certificates.  
   
 #### To create a certificate revocation list for the root certification authority  
   
@@ -95,7 +95,7 @@ In this walkthrough, you set up an environment to test integrating certificates 
   
 2.  When you are prompted, enter the password that you used to create the root CA.  
   
-#### To install the certificate revocation list on the computer running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]  
+#### To install the certificate revocation list on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)]  
   
 1.  In the Certificates snap\-in, in the left pane of MMC, expand the **Certificates \(Local Computer\)** node.  
   
@@ -119,7 +119,7 @@ In this walkthrough, you set up an environment to test integrating certificates 
   
      A Certificate Revocation List folder that contains the RootNavServiceCA.crl file has been created.  
   
-#### To create and install a test certificate for the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] computer  
+#### To create and install a test certificate for the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer  
   
 1.  At the command prompt, type the following command:  
   
@@ -128,7 +128,7 @@ In this walkthrough, you set up an environment to test integrating certificates 
     ```  
   
     > [!NOTE]  
-    >  This command specifies the subject’s certificate name as **NavServiceCert**. You need this certificate name when you configure the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] or [!INCLUDE[nav_web_server](../dynamics-nav/includes/nav_web_server_md.md)].  
+    >  This command specifies the subject’s certificate name as **NavServiceCert**. You need this certificate name when you configure the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  
   
 2.  When you are prompted, enter the password that you used to create the root CA.  
   
@@ -136,7 +136,7 @@ In this walkthrough, you set up an environment to test integrating certificates 
   
  You now have the NavServiceCert.cer certificate file in your temporary folder. The certificate is installed under the Personal node in the Certificates Snap\-in.  
   
-#### To grant access to the certificate’s private key to the service account for [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]  
+#### To grant access to the certificate’s private key to the service account for [!INCLUDE[nav_server](includes/nav_server_md.md)]  
   
 1.  In the left pane of MMC, expand the **Certificates \(Local Computer\)** node, expand the **Personal** node, and then select the **Certificates** subfolder.  
   
@@ -144,10 +144,10 @@ In this walkthrough, you set up an environment to test integrating certificates 
   
 3.  In the **Permissions for NavServiceCert private keys** dialog box, choose **Add**.  
   
-4.  In the **Select Users, Computers, Service Accounts, or Groups** dialog box, enter the name of the service account that is used by [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] By default, the service account is **NETWORK SERVICE**. Choose **OK** when done.  
+4.  In the **Select Users, Computers, Service Accounts, or Groups** dialog box, enter the name of the service account that is used by [!INCLUDE[nav_server](includes/nav_server_md.md)] By default, the service account is **NETWORK SERVICE**. Choose **OK** when done.  
   
     > [!IMPORTANT]  
-    >  In a production environment, you run [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] under a dedicated domain user account instead of the less secure NETWORK SERVICE account. Because this is a test implementation, the NETWORK SERVICE account is acceptable.  
+    >  In a production environment, you run [!INCLUDE[nav_server](includes/nav_server_md.md)] under a dedicated domain user account instead of the less secure NETWORK SERVICE account. Because this is a test implementation, the NETWORK SERVICE account is acceptable.  
   
 5.  In the **Permissions for NavServiceCert private keys** dialog box, select the account, and then select the **Allow** check box next to **Full Control**. Choose **OK** when done.  
   
@@ -157,38 +157,38 @@ In this walkthrough, you set up an environment to test integrating certificates 
   
 8.  Copy or note the value of the **Thumbprint** field.  
   
-#### To modify the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] configuration file to support login over a WAN  
+#### To modify the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration file to support login over a WAN  
   
-1.  Start the [!INCLUDE[nav_admin](../dynamics-nav/includes/nav_admin_md.md)]. For more information, see [Microsoft Dynamics NAV Server Administration Tool](../dynamics-nav/Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
+1.  Start the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. For more information, see [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
   
-2.  Stop the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance. For more information, see [Managing Microsoft Dynamics NAV Server Instances](../dynamics-nav/Managing-Microsoft-Dynamics-NAV-Server-Instances.md).  
+2.  Stop the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. For more information, see [Managing Microsoft Dynamics NAV Server Instances](Managing-Microsoft-Dynamics-NAV-Server-Instances.md).  
   
-3.  Modify the following settings for the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance. For more information, see [Configuring Microsoft Dynamics NAV Server](../dynamics-nav/Configuring-Microsoft-Dynamics-NAV-Server.md).  
+3.  Modify the following settings for the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. For more information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).  
   
-4.  Modify the following settings in the [!INCLUDE[nav_admin](../dynamics-nav/includes/nav_admin_md.md)].  
+4.  Modify the following settings in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)].  
   
     |Key|New value|Description|  
     |---------|---------------|-----------------|  
-    |ClientServicesCredentialType<br /><br /> \(General tab\)|NavUserPassword or Username|This parameter is on the General tab in the [!INCLUDE[nav_admin](../dynamics-nav/includes/nav_admin_md.md)]. The default value is Windows. When you change it to NavUserPassword or Username, client users who connect to the server are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], see [Users and Credential Types](../dynamics-nav/Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](../Topic/How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
+    |ClientServicesCredentialType<br /><br /> \(General tab\)|NavUserPassword or Username|This parameter is on the General tab in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. The default value is Windows. When you change it to NavUserPassword or Username, client users who connect to the server are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see [Users and Credential Types](Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](../Topic/How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
     |CertificateThumbprint<br /><br /> \(Client Services tab\)|Value of the **Thumbprint** field in the previous procedure|The default value is \<key\>. Remove any leading or trailing spaces in the thumbprint.|  
   
 5.  Choose **Save**.  
   
-6.  Restart the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance.  
+6.  Restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
   
      If there is a problem, see Windows Event Viewer.  
   
  If you get an error, see the Windows Event Viewer.  
   
-## Configuring the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] or [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]  
- With the chain trust configuration, only the root CA and the certificate revocation list must be installed for the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] or [!INCLUDE[nav_web_server](../dynamics-nav/includes/nav_web_server_md.md)]. To do this, complete these procedures on the computer running the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] or [!INCLUDE[nav_web_server](../dynamics-nav/includes/nav_web_server_md.md)].  
+## Configuring the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)]  
+ With the chain trust configuration, only the root CA and the certificate revocation list must be installed for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. To do this, complete these procedures on the computer running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  
   
 #### To install the root CA  
   
-1.  Start the Certificates snap\-in for MMC on the computer running the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] or [!INCLUDE[nav_web_server](../dynamics-nav/includes/nav_web_server_md.md)], and then add the Certificates snap\-in.  
+1.  Start the Certificates snap\-in for MMC on the computer running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], and then add the Certificates snap\-in.  
   
     > [!NOTE]  
-    >  This procedure is identical to the one that you followed for installing the root CA on the computer running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)].  
+    >  This procedure is identical to the one that you followed for installing the root CA on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
 2.  In the **Certificates snap\-in** dialog box, choose **Computer account**, and then choose **Next**.  
   
@@ -214,7 +214,7 @@ In this walkthrough, you set up an environment to test integrating certificates 
   
 #### To install the certificate revocation list  
   
-1.  Start the Certificates snap\-in for MMC on the computer running the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] or [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], and then add the Certificates snap\-in.  
+1.  Start the Certificates snap\-in for MMC on the computer running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)], and then add the Certificates snap\-in.  
   
 2.  In the **Certificates snap\-in** dialog box, choose **Computer account**, and then choose **Next**.  
   
@@ -240,11 +240,11 @@ In this walkthrough, you set up an environment to test integrating certificates 
   
 13. On the **Completing the Certificate Import Wizard** page, choose **Finish**.  
   
-#### To modify the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] configuration file to add certificate information  
+#### To modify the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] configuration file to add certificate information  
   
 1.  Open the ClientUserSettings.config configuration file.  
   
-     The location of this file is Users\\\<*username*\>\\AppData\\Roaming\\Microsoft\\[!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+     The location of this file is Users\\\<*username*\>\\AppData\\Roaming\\Microsoft\\[!INCLUDE[navnow](includes/navnow_md.md)].  
   
      By default, this file is hidden. Therefore, you may have to change your folder options in Windows Explorer to view hidden files.  
   
@@ -252,16 +252,16 @@ In this walkthrough, you set up an environment to test integrating certificates 
   
     |Key|New value|Description|  
     |---------|---------------|-----------------|  
-    |ClientServicesCredentialType|NavUserPassword or Username|The default value is Windows. When you change it to NavUserPassword or Username, client users who connect to the server are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], see [Users and Credential Types](../dynamics-nav/Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](../Topic/How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
+    |ClientServicesCredentialType|NavUserPassword or Username|The default value is Windows. When you change it to NavUserPassword or Username, client users who connect to the server are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see [Users and Credential Types](Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](../Topic/How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
     |DnsIdentity|The subject name of the service certificate|The default value is \<identity\>.<br /><br /> For this walkthrough, set the key to **NavServiceCert**.|  
   
 3.  Save and close the ClientUserSettings.config file.  
   
  When you start the client, you are prompted for a valid user name and password for the server domain.  
   
-#### To modify the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] configuration file to add certificate information  
+#### To modify the [!INCLUDE[nav_web](includes/nav_web_md.md)] configuration file to add certificate information  
   
-1.  On the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] web server instance, open the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] folder. By default, the folder is C:\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance](../dynamics-nav/includes/nav_server_instance_md.md)].  
+1.  On the [!INCLUDE[navnow](includes/navnow_md.md)] web server instance, open the [!INCLUDE[nav_web](includes/nav_web_md.md)] folder. By default, the folder is C:\\inetpub\\wwwroot\\[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)].  
   
 2.  Open the web.config file in a text editor, such as Notepad.  
   
@@ -269,9 +269,9 @@ In this walkthrough, you set up an environment to test integrating certificates 
   
     |Key|New value|Description|  
     |---------|---------------|-----------------|  
-    |ClientServicesCredentialType|NavUserPassword or Username|The default value is Windows. When you change it to NavUserPassword or Username, client users who connect to the server are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], see [Users and Credential Types](../dynamics-nav/Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](../Topic/How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
+    |ClientServicesCredentialType|NavUserPassword or Username|The default value is Windows. When you change it to NavUserPassword or Username, client users who connect to the server are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see [Users and Credential Types](Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](../Topic/How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
     |DnsIdentity|The subject name of the service certificate|For this walkthrough, set the key to **NavServiceCert**.|  
   
 4.  Save the web.config file.  
   
-     For more information about configuring the credential type for the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], see [How to: Configure Authentication of Microsoft Dynamics NAV Web Client Users](../Topic/How%20to:%20Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md).
+     For more information about configuring the credential type for the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [How to: Configure Authentication of Microsoft Dynamics NAV Web Client Users](../Topic/How%20to:%20Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md).

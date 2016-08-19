@@ -21,11 +21,11 @@ If the table data region in a report layout spans more than one page, then you m
   
 -   Add code for the **GetData** function, which retrieves the data, and which you call from the text box in the header section where you want to display the data.  
   
- An example of a report that has multiple table data regions and uses functions to save and get header data is report 206, **Sales \- Invoice**, in the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+ An example of a report that has multiple table data regions and uses functions to save and get header data is report 206, **Sales \- Invoice**, in the [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 ### To print report header information on multiple pages  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In **Object Designer**, choose **Report**, select a report that you want to modify, and then choose the **Design** button.  
   
@@ -39,7 +39,7 @@ If the table data region in a report layout spans more than one page, then you m
     >  This example groups the data into four groups. You can modify the code if you need a different number of groups.  
   
     > [!NOTE]  
-    >  To view this code in a report in the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)], see report 206, **Sales \- Invoice**.  
+    >  To view this code in a report in the [!INCLUDE[demolong](includes/demolong_md.md)], see report 206, **Sales \- Invoice**.  
   
     ```vb  
     Shared Data1 as Object  
@@ -113,4 +113,4 @@ If the table data region in a report layout spans more than one page, then you m
 9. Save and compile the report.  
   
 ## See Also  
- [Designing Reports](../dynamics-nav/Designing-Reports.md)
+ [Designing Reports](Designing-Reports.md)

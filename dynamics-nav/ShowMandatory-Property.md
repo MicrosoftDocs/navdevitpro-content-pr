@@ -11,7 +11,7 @@ caps.latest.revision: 11
 manager: edupont
 ---
 # ShowMandatory Property
-Sets a value that specifies whether users must enter a value in the selected field or text box. The field is marked on the page with a red asterisk and does not enforce any validation. Once the field is filled, the red asterisk disappears. The **ShowMandatory** property only controls the UI and overrides any asterisk marking of the [NotBlank Property](../dynamics-nav/NotBlank-Property.md).  
+Sets a value that specifies whether users must enter a value in the selected field or text box. The field is marked on the page with a red asterisk and does not enforce any validation. Once the field is filled, the red asterisk disappears. The **ShowMandatory** property only controls the UI and overrides any asterisk marking of the [NotBlank Property](NotBlank-Property.md).  
   
  The **ShowMandatory** property can be specified as **true**, **false**, or as an expression.  
   
@@ -27,9 +27,9 @@ Sets a value that specifies whether users must enter a value in the selected fie
 -   Page fields  
   
 ## Remarks  
- The **ShowMandatory** property controls marking the page field with a red asterisk independently of the [NotBlank Property](../dynamics-nav/NotBlank-Property.md). The **ShowMandatory** property can be used to mark all page fields, but does not enforce any validation of the field. This means that the user will be able to close a page without entering data.  
+ The **ShowMandatory** property controls marking the page field with a red asterisk independently of the [NotBlank Property](NotBlank-Property.md). The **ShowMandatory** property can be used to mark all page fields, but does not enforce any validation of the field. This means that the user will be able to close a page without entering data.  
   
- The **NotBlank** property can be used to mark the UI on primary key fields with a red asterisk and to enforce a validation error. For more information, see [NotBlank Property](../dynamics-nav/NotBlank-Property.md).  
+ The **NotBlank** property can be used to mark the UI on primary key fields with a red asterisk and to enforce a validation error. For more information, see [NotBlank Property](NotBlank-Property.md).  
   
 ## See Also  
- [NotBlank Property](../dynamics-nav/NotBlank-Property.md)
+ [NotBlank Property](NotBlank-Property.md)

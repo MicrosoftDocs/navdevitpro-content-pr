@@ -10,12 +10,12 @@ ms.assetid: c649c320-5c76-436d-8c91-317e4f81caa6
 caps.latest.revision: 8
 ---
 # How to: Try Out the UI Elements Removal Feature Based on Demonstration Permission Sets
-Depending on the setting in the **UI Elements Removal** field in the [!INCLUDE[nav_admin](../dynamics-nav/includes/nav_admin_md.md)], only UI elements on objects in the license or on objects that the user has permissions for will appear in the user interface. For more information, see [How to: Specify When UI Elements Are Removed](../Topic/How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md).  
+Depending on the setting in the **UI Elements Removal** field in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], only UI elements on objects in the license or on objects that the user has permissions for will appear in the user interface. For more information, see [How to: Specify When UI Elements Are Removed](../Topic/How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md).  
   
 > [!IMPORTANT]  
->  The majority of the permission sets that are provided with the [!INCLUDE[demo](../dynamics-nav/includes/demo_md.md)] demonstration database cannot be combined with the FOUNDATION permission set to fully use the UI Elements Removal feature. You must first create or edit the relevant permission sets to avoid that the user is blocked from performing the involved tasks. For more information, see [How to: Create or Modify Permission Sets](../Topic/How%20to:%20Create%20or%20Modify%20Permission%20Sets.md).  
+>  The majority of the permission sets that are provided with the [!INCLUDE[demo](includes/demo_md.md)] demonstration database cannot be combined with the FOUNDATION permission set to fully use the UI Elements Removal feature. You must first create or edit the relevant permission sets to avoid that the user is blocked from performing the involved tasks. For more information, see [How to: Create or Modify Permission Sets](../Topic/How%20to:%20Create%20or%20Modify%20Permission%20Sets.md).  
   
- To try out or demonstrate the effect of the feature to remove UI elements according to user permissions, you can quickly prepare a test UI based on two permission sets \(S&R\-Customer and S&R\-Customer, EDIT\) in [!INCLUDE[demo](../dynamics-nav/includes/demo_md.md)] that are ready to support the FOUNDATION permission set for this purpose.  
+ To try out or demonstrate the effect of the feature to remove UI elements according to user permissions, you can quickly prepare a test UI based on two permission sets \(S&R\-Customer and S&R\-Customer, EDIT\) in [!INCLUDE[demo](includes/demo_md.md)] that are ready to support the FOUNDATION permission set for this purpose.  
   
 ### Prepare a permissions\-based ORDER PROCESSOR UI that only shows UI elements for creating and editing a customer  
   
@@ -39,6 +39,6 @@ Depending on the setting in the **UI Elements Removal** field in the [!INCLUDE[n
   
 ## See Also  
  [How to: Specify When UI Elements Are Removed](../Topic/How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md)   
- [Special Permission Sets](../dynamics-nav/Special-Permission-Sets.md)   
+ [Special Permission Sets](Special-Permission-Sets.md)   
  [How to: Create or Modify Permission Sets](../Topic/How%20to:%20Create%20or%20Modify%20Permission%20Sets.md)   
- [Managing Permissions and Permission Sets](../dynamics-nav/Managing-Permissions-and-Permission-Sets.md)
+ [Managing Permissions and Permission Sets](Managing-Permissions-and-Permission-Sets.md)

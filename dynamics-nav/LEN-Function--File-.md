@@ -32,10 +32,10 @@ Length := File.LEN
  The length of the file in bytes.  
   
 ## Remarks  
- This function is often used with [POS Function \(File\)](../dynamics-nav/POS-Function--File-.md) and [SEEK Function \(File\)](../dynamics-nav/SEEK-Function--File-.md).  
+ This function is often used with [POS Function \(File\)](POS-Function--File-.md) and [SEEK Function \(File\)](SEEK-Function--File-.md).  
   
 ## Example  
- The following example opens a text file that is named 'C:\\TestFolder\\TestFile.txt' and contains the text ‘Hello World’. The [SEEK Function \(File\)](../dynamics-nav/SEEK-Function--File-.md) sets a pointer to position 6 in the file. The [READ Function \(File\)](../dynamics-nav/READ-Function--File-.md) reads the file and stores the retrieved contents in the varString variable. The LEN function retrieves the length of the file and stores it the varLength variable. The text that is read starts from the position of the pointer, so the text ‘World’ and the length of 12 are displayed in the message box. The length of the file is not affected by the [SEEK Function \(File\)](../dynamics-nav/SEEK-Function--File-.md). This example assumes that you have created the text file that is named C:\\TestFolder\\TestFile.txt and contains the text ‘Hello World’. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ The following example opens a text file that is named 'C:\\TestFolder\\TestFile.txt' and contains the text ‘Hello World’. The [SEEK Function \(File\)](SEEK-Function--File-.md) sets a pointer to position 6 in the file. The [READ Function \(File\)](READ-Function--File-.md) reads the file and stores the retrieved contents in the varString variable. The LEN function retrieves the length of the file and stores it the varLength variable. The text that is read starts from the position of the pointer, so the text ‘World’ and the length of 12 are displayed in the message box. The length of the file is not affected by the [SEEK Function \(File\)](SEEK-Function--File-.md). This example assumes that you have created the text file that is named C:\\TestFolder\\TestFile.txt and contains the text ‘Hello World’. This example requires that you create the following variables in the **C\/AL Globals** window.  
   
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  
@@ -52,4 +52,4 @@ MESSAGE('The text is: %1. The length of the file is: %2', varString, varLength);
 ```  
   
 ## See Also  
- [File Data Type](../dynamics-nav/File-Data-Type.md)
+ [File Data Type](File-Data-Type.md)

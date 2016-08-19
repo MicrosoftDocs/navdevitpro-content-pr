@@ -51,10 +51,10 @@ IF GUIALLOWED THEN
  If the code runs on Microsoft Dynamics NAV Application Server, then the message will not be displayed.  
   
 > [!NOTE]  
->  If the [MESSAGE Function \(Dialog\)](../dynamics-nav/MESSAGE-Function--Dialog-.md) or the [ERROR Function \(Dialog\)](../dynamics-nav/ERROR-Function--Dialog-.md) is called when the code is running on Microsoft Dynamics NAV Application Server, then the message is written to the event log of the operating system.  
+>  If the [MESSAGE Function \(Dialog\)](MESSAGE-Function--Dialog-.md) or the [ERROR Function \(Dialog\)](ERROR-Function--Dialog-.md) is called when the code is running on Microsoft Dynamics NAV Application Server, then the message is written to the event log of the operating system.  
   
 ## See Also  
- [APPLICATIONPATH Function](../dynamics-nav/APPLICATIONPATH-Function.md)   
- [HYPERLINK Function](../dynamics-nav/HYPERLINK-Function.md)   
- [SLEEP Function](../dynamics-nav/SLEEP-Function.md)   
- [TEMPORARYPATH Function](../dynamics-nav/TEMPORARYPATH-Function.md)
+ [APPLICATIONPATH Function](APPLICATIONPATH-Function.md)   
+ [HYPERLINK Function](HYPERLINK-Function.md)   
+ [SLEEP Function](SLEEP-Function.md)   
+ [TEMPORARYPATH Function](TEMPORARYPATH-Function.md)

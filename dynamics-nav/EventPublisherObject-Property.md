@@ -17,7 +17,7 @@ Specifies the object that contains the event publisher function that the event s
   
 -   C\/AL functions.  
   
-     This property is only available when the [Event Property](../dynamics-nav/Event-Property.md) is set to **Subscriber**.  
+     This property is only available when the [Event Property](Event-Property.md) is set to **Subscriber**.  
   
 ## Property Value  
  Application object.  
@@ -29,12 +29,12 @@ Specifies the object that contains the event publisher function that the event s
   
 -   Trigger events are system events that are declared in tables. To subscribe to a trigger event, you specify the table.  
   
- After you set this property, you set the [EventFunction Property](../dynamics-nav/EventFunction-Property.md) to specify the event publisher function that you want the event subscriber to subscribe to.  
+ After you set this property, you set the [EventFunction Property](EventFunction-Property.md) to specify the event publisher function that you want the event subscriber to subscribe to.  
   
- For more information about events, see [Event Types](../dynamics-nav/Event-Types.md) and [Subscribing to Events](../dynamics-nav/Subscribing-to-Events.md).  
+ For more information about events, see [Event Types](Event-Types.md) and [Subscribing to Events](Subscribing-to-Events.md).  
   
 ## See Also  
- [Publishing Events](../dynamics-nav/Publishing-Events.md)   
- [Raising Events](../dynamics-nav/Raising-Events.md)   
- [Events in Microsoft Dynamics NAV](../dynamics-nav/Events-in-Microsoft-Dynamics-NAV.md)   
- [C\-AL Function Statements](../dynamics-nav/C-AL-Function-Statements.md)
+ [Publishing Events](Publishing-Events.md)   
+ [Raising Events](Raising-Events.md)   
+ [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)   
+ [C\-AL Function Statements](C-AL-Function-Statements.md)

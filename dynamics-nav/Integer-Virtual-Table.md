@@ -20,4 +20,4 @@ The **Integer** virtual table includes integers in the range –1,000,000,000 to
  By applying a filter to the **Integer** virtual table, you can easily get a subset or range of numbers that can be used to control looping in reports.  
   
 ## See Also  
- [Virtual Tables](../dynamics-nav/Virtual-Tables.md)
+ [Virtual Tables](Virtual-Tables.md)

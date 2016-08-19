@@ -21,21 +21,21 @@ A binary large object \(BLOB\) is a complex data type. Variables of this data ty
 > [!NOTE]  
 >  You cannot view text that is stored in BLOBs from the development environment.  
   
- You can read from and write to BLOBs by creating input and output streams, respectively. To do so, use [CREATEINSTREAM Function \(BLOB\)](../dynamics-nav/CREATEINSTREAM-Function--BLOB-.md) and [CREATEOUTSTREAM Function \(BLOB\)](../dynamics-nav/CREATEOUTSTREAM-Function--BLOB-.md).  
+ You can read from and write to BLOBs by creating input and output streams, respectively. To do so, use [CREATEINSTREAM Function \(BLOB\)](CREATEINSTREAM-Function--BLOB-.md) and [CREATEOUTSTREAM Function \(BLOB\)](CREATEOUTSTREAM-Function--BLOB-.md).  
   
- For more information, see [InStream and OutStream Data Types](../dynamics-nav/InStream-and-OutStream-Data-Types.md).  
+ For more information, see [InStream and OutStream Data Types](InStream-and-OutStream-Data-Types.md).  
   
- To optimize performance, when you access a record that has a BLOB field, the data in the BLOB is not always read into memory. You must call the [CALCFIELDS Function \(Record\)](../dynamics-nav/CALCFIELDS-Function--Record-.md) to read the BLOB into memory and calculate it. Then you can use the BLOB in C\/AL code or display it in the application.  
+ To optimize performance, when you access a record that has a BLOB field, the data in the BLOB is not always read into memory. You must call the [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md) to read the BLOB into memory and calculate it. Then you can use the BLOB in C\/AL code or display it in the application.  
   
  It is not supported to insert a BLOB field into a Variant.  
   
  It is not supported for a page to access a BLOB field from a table other than the SourceTable of the page.  
   
-## Differences Between [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] and Previous Versions  
- In previous versions of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], if you wrote to a BLOB OutStream but did not insert or modify the record in the database, and then called the CALCFIELDS function on the BLOB field, you would get the value of the BLOB based on what you wrote to the OutStream, not based on what was currently in the database. In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] in the same scenario, you get the value of the BLOB that is in the database. Similarly, in [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] if you call the CALCFIELDS Function on a new record that has not been inserted into the database, then you clear the BLOB field from the record.  
+## Differences Between [!INCLUDE[navnowlong](includes/navnowlong_md.md)] and Previous Versions  
+ In previous versions of [!INCLUDE[navnow](includes/navnow_md.md)], if you wrote to a BLOB OutStream but did not insert or modify the record in the database, and then called the CALCFIELDS function on the BLOB field, you would get the value of the BLOB based on what you wrote to the OutStream, not based on what was currently in the database. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)] in the same scenario, you get the value of the BLOB that is in the database. Similarly, in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] if you call the CALCFIELDS Function on a new record that has not been inserted into the database, then you clear the BLOB field from the record.  
   
 ## See Also  
- [CREATEINSTREAM Function \(BLOB\)](../dynamics-nav/CREATEINSTREAM-Function--BLOB-.md)   
- [CREATEOUTSTREAM Function \(BLOB\)](../dynamics-nav/CREATEOUTSTREAM-Function--BLOB-.md)   
- [HASVALUE Function \(BLOB\)](../dynamics-nav/HASVALUE-Function--BLOB-.md)   
- [Variant Data Type](../dynamics-nav/Variant-Data-Type.md)
+ [CREATEINSTREAM Function \(BLOB\)](CREATEINSTREAM-Function--BLOB-.md)   
+ [CREATEOUTSTREAM Function \(BLOB\)](CREATEOUTSTREAM-Function--BLOB-.md)   
+ [HASVALUE Function \(BLOB\)](HASVALUE-Function--BLOB-.md)   
+ [Variant Data Type](Variant-Data-Type.md)

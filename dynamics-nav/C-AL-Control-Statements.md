@@ -15,8 +15,8 @@ All the C\/AL programs that you create consist of one or more statements, which 
   
  The control structures in C\/AL are divided into the following main groups:  
   
--   [C\-AL Compound Statements](../dynamics-nav/C-AL-Compound-Statements.md)  
+-   [C\-AL Compound Statements](C-AL-Compound-Statements.md)  
   
--   [C\-AL Conditional Statements](../dynamics-nav/C-AL-Conditional-Statements.md)  
+-   [C\-AL Conditional Statements](C-AL-Conditional-Statements.md)  
   
--   [C\-AL Repetitive Statements](../dynamics-nav/C-AL-Repetitive-Statements.md)
+-   [C\-AL Repetitive Statements](C-AL-Repetitive-Statements.md)

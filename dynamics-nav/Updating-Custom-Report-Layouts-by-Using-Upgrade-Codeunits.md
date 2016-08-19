@@ -11,14 +11,14 @@ caps.latest.revision: 12
 manager: edupont
 ---
 # Updating Custom Report Layouts by Using Upgrade Codeunits
-You can update custom report layouts by creating upgrade codeunits to handle changes in report datasets that affect the report layouts. Upgrade codeunits enable you to programmatically update multiple custom report layouts in the database to changes in report datasets. Although report layout updates can be done from the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] client, there are certain changes to the dataset that require the user to manually modify report layouts before they can be used. These types of changes include, for example, deleted fields or field name conflicts as a result of renaming. Upgrade codeunits enable you handle these breaking changes to report datasets and layouts without requiring end\-user interaction.  
+You can update custom report layouts by creating upgrade codeunits to handle changes in report datasets that affect the report layouts. Upgrade codeunits enable you to programmatically update multiple custom report layouts in the database to changes in report datasets. Although report layout updates can be done from the [!INCLUDE[navnow](includes/navnow_md.md)] client, there are certain changes to the dataset that require the user to manually modify report layouts before they can be used. These types of changes include, for example, deleted fields or field name conflicts as a result of renaming. Upgrade codeunits enable you handle these breaking changes to report datasets and layouts without requiring end\-user interaction.  
   
- To design the report upgrade logic in an upgrade codeunit, you add C\/AL code that implements the report upgrade API \(through .NET Framework interoperability\) and a set of functions that are available in codeunit 9651**Document Report Mgt.**. In the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] application, codeunit 9651**Document Report Mgt.** is the main component for running and maintaining customized report layouts.  
+ To design the report upgrade logic in an upgrade codeunit, you add C\/AL code that implements the report upgrade API \(through .NET Framework interoperability\) and a set of functions that are available in codeunit 9651**Document Report Mgt.**. In the [!INCLUDE[navnow](includes/navnow_md.md)] application, codeunit 9651**Document Report Mgt.** is the main component for running and maintaining customized report layouts.  
   
- For general information about upgrade codeunits, see [Upgrade Codeunits](../dynamics-nav/Upgrade-Codeunits.md).  
+ For general information about upgrade codeunits, see [Upgrade Codeunits](Upgrade-Codeunits.md).  
   
 ## Report Upgrade API Overview  
- The upgrade and maintenance of report layouts in the databases is controlled by the following .NET Framework assemblies on the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]:  
+ The upgrade and maintenance of report layouts in the databases is controlled by the following .NET Framework assemblies on the [!INCLUDE[nav_server](includes/nav_server_md.md)]:  
   
 -   Microsoft.Dynamics.Nav.DocumentReport.dll  
   
@@ -102,11 +102,11 @@ You can update custom report layouts by creating upgrade codeunits to handle cha
 |Renamed the **VariantCode\_AssemblyLine** column to **VariantCode\_NewAssemblyLine**.|Rename the **VariantCode\_AssemblyLine** field to **VariantCode\_NewAssemblyLine**.|  
   
 > [!TIP]  
->  This example is based on the codeunit 104060 Report Layout Upgrades that is available in the Upgrade800800.fob file of the [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] upgrade toolkit.  
+>  This example is based on the codeunit 104060 Report Layout Upgrades that is available in the Upgrade800800.fob file of the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] upgrade toolkit.  
   
 #### To create the upgrade codeunit  
   
-1.  Create a codeunit and set the [SubType Property \(Codeunit\)](../dynamics-nav/SubType-Property--Codeunit-.md) to **Upgrade**.  
+1.  Create a codeunit and set the [SubType Property \(Codeunit\)](SubType-Property--Codeunit-.md) to **Upgrade**.  
   
 2.  Create a new local function called **UpgradeReportLayout**, and then do the following:  
   
@@ -166,7 +166,7 @@ You can update custom report layouts by creating upgrade codeunits to handle cha
   
      Finally, the *DocumentReportMgt.ApplyUpgradeToReports* method applies all the updates to report layouts in the current database. If the *TestMode* parameter is **True**, the layout changes are only tested and will not be committed to the database.  
   
-4.  Add a function called **TestLaypoutUpgrade** and set the [FunctionType Property \(Upgrade Codeunits\)](../dynamics-nav/FunctionType-Property--Upgrade-Codeunits-.md) to **CheckPrecondition**. Add the following code:  
+4.  Add a function called **TestLaypoutUpgrade** and set the [FunctionType Property \(Upgrade Codeunits\)](FunctionType-Property--Upgrade-Codeunits-.md) to **CheckPrecondition**. Add the following code:  
   
     ```  
     UpgradeReportLayout(FALSE);  
@@ -174,7 +174,7 @@ You can update custom report layouts by creating upgrade codeunits to handle cha
   
      The defines a CheckPrecondition function type, which is the first function that is executed when the codeunit is run. This function will test the report layout changes before they are applied to the layouts in the database. If an error occurs when this function is run, then the changes are not applied.  
   
-5.  Add a function called RunLayoutUpgrade and set the [FunctionType Property \(Upgrade Codeunits\)](../dynamics-nav/FunctionType-Property--Upgrade-Codeunits-.md) to **UpgradePerDatabase**. Add the following code:  
+5.  Add a function called RunLayoutUpgrade and set the [FunctionType Property \(Upgrade Codeunits\)](FunctionType-Property--Upgrade-Codeunits-.md) to **UpgradePerDatabase**. Add the following code:  
   
     ```  
     UpgradeReportLayout(TRUE);  
@@ -186,12 +186,12 @@ You can update custom report layouts by creating upgrade codeunits to handle cha
   
 7.  Perform a data upgrade to run the upgrade codunit.  
   
-     Open [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)] as an administrator. On the **Tools** menu, choose **Data Upgrade**, and then choose **Start** and follow the instructions.  
+     Open [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] as an administrator. On the **Tools** menu, choose **Data Upgrade**, and then choose **Start** and follow the instructions.  
   
     > [!NOTE]  
-    >  You can also perform the data upgrade by running the [Start\-NavDataUpgrade cmdlet](http://go.microsoft.com/fwlink/?LinkID=401404) from the [!INCLUDE[nav_shell](../dynamics-nav/includes/nav_shell_md.md)].  
+    >  You can also perform the data upgrade by running the [Start\-NavDataUpgrade cmdlet](http://go.microsoft.com/fwlink/?LinkID=401404) from the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
   
 ## See Also  
- [Updating Report Layouts to Dataset Changes](../dynamics-nav/Updating-Report-Layouts-to-Dataset-Changes.md)   
- [Designing Word Report Layouts](../dynamics-nav/Designing-Word-Report-Layouts.md)   
- [Designing RDLC Report Layouts](../dynamics-nav/Designing-RDLC-Report-Layouts.md)
+ [Updating Report Layouts to Dataset Changes](Updating-Report-Layouts-to-Dataset-Changes.md)   
+ [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)   
+ [Designing RDLC Report Layouts](Designing-RDLC-Report-Layouts.md)

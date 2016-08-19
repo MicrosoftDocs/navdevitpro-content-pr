@@ -10,7 +10,7 @@ ms.assetid: 4f0f85c5-ca77-4dc9-bf83-67ab2669dbc9
 caps.latest.revision: 4
 ---
 # UNREGISTERTABLECONNECTION Function (Database)
-Unregisters a table connection between [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] and an external database.  
+Unregisters a table connection between [!INCLUDE[navnow](includes/navnow_md.md)] and an external database.  
   
 ## Syntax  
   
@@ -30,6 +30,6 @@ UNREGISTERTABLECONNECTION(Type, Name)
  Specifies the name of the connection in your code, or the name of the primary key field on the table.  
   
 ## See Also  
- [External Tables](../dynamics-nav/External-Tables.md)   
- [TableConnectionType Data Type](../dynamics-nav/TableConnectionType-Data-Type.md)   
- [REGISTERTABLECONNECTION Function \(Database\)](../dynamics-nav/REGISTERTABLECONNECTION-Function--Database-.md)
+ [External Tables](External-Tables.md)   
+ [TableConnectionType Data Type](TableConnectionType-Data-Type.md)   
+ [REGISTERTABLECONNECTION Function \(Database\)](REGISTERTABLECONNECTION-Function--Database-.md)

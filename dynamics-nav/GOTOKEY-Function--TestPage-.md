@@ -36,4 +36,4 @@ Finds the row in a dataset on the test page that is identified by the specified 
  **true** if the specified row is found; otherwise, **false**. The return value is optional.  
   
 ## See Also  
- [TestPage Functions](../dynamics-nav/TestPage-Functions.md)
+ [TestPage Functions](TestPage-Functions.md)

@@ -26,7 +26,7 @@ An *array* is a data structure that contains several variables of the same type.
 |SetValue|Sets a value in an array element.|  
 |GetValue|Gets a value from an array element|  
   
- Many .NET Framework classes implement these methods. Therefore, they are available for you to use in C\/AL code. If you are writing your own .NET Framework code and want to use it in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], then you must implement these methods yourself.  
+ Many .NET Framework classes implement these methods. Therefore, they are available for you to use in C\/AL code. If you are writing your own .NET Framework code and want to use it in [!INCLUDE[navnow](includes/navnow_md.md)], then you must implement these methods yourself.  
   
  In C\/AL, some .NET Framework data types, such as strings, integers, and decimals, are automatically converted to C\/AL types. If a .NET Framework array contains these data types, then you create an assembly that contains methods that return the information about the data types and then reference the assembly in the C\/AL code. This concept is illustrated in the following examples.  
   
@@ -50,9 +50,9 @@ An *array* is a data structure that contains several variables of the same type.
   
     ```  
   
-2.  Build the project, and then copy the assembly to the Add\-ins folder of the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] installation folder. By default, the path of the installation folder is [!INCLUDE[navnow_install](../dynamics-nav/includes/navnow_install_md.md)]\\RoleTailored Client or [!INCLUDE[navnow_x86install](../dynamics-nav/includes/navnow_x86install_md.md)]\\RoleTailored Client.  
+2.  Build the project, and then copy the assembly to the Add\-ins folder of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] installation folder. By default, the path of the installation folder is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\RoleTailored Client or [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client.  
   
-3.  In the development environment, open a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] object, open the C\/AL code, and then create the following C\/AL variables.  
+3.  In the development environment, open a [!INCLUDE[navnow](includes/navnow_md.md)] object, open the C\/AL code, and then create the following C\/AL variables.  
   
     |Variable name|DataType|SubType|  
     |-------------------|--------------|-------------|  
@@ -62,7 +62,7 @@ An *array* is a data structure that contains several variables of the same type.
     |i|Integer||  
     |alData|Integer||  
   
-4.  On a trigger of the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] object, add the following C\/AL code to create, fill, and implement the array.  
+4.  On a trigger of the [!INCLUDE[navnow](includes/navnow_md.md)] object, add the following C\/AL code to create, fill, and implement the array.  
   
     ```  
     // Sets the number of elements in the .NET Framework array.  
@@ -110,9 +110,9 @@ An *array* is a data structure that contains several variables of the same type.
   
     ```  
   
-2.  Build the project, and then copy the assembly to the Add\-ins folder of the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] installation folder. By default, the path of the installation folder is [!INCLUDE[navnow_install](../dynamics-nav/includes/navnow_install_md.md)] RoleTailored Client or [!INCLUDE[navnow_x86install](../dynamics-nav/includes/navnow_x86install_md.md)] RoleTailored Client.  
+2.  Build the project, and then copy the assembly to the Add\-ins folder of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] installation folder. By default, the path of the installation folder is [!INCLUDE[navnow_install](includes/navnow_install_md.md)] RoleTailored Client or [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)] RoleTailored Client.  
   
-3.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], open a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] object, open the C\/AL code, and then create the following C\/AL variables.  
+3.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], open a [!INCLUDE[navnow](includes/navnow_md.md)] object, open the C\/AL code, and then create the following C\/AL variables.  
   
     |Variable name|DataType|SubType|  
     |-------------------|--------------|-------------|  
@@ -122,7 +122,7 @@ An *array* is a data structure that contains several variables of the same type.
     |i|Integer||  
     |alData|Integer||  
   
-4.  On a trigger of the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] object, add the following C\/AL code to create, fill, and implement the array.  
+4.  On a trigger of the [!INCLUDE[navnow](includes/navnow_md.md)] object, add the following C\/AL code to create, fill, and implement the array.  
   
     ```  
     // Sets the number of elements in the .NET Framework array.  
@@ -157,4 +157,4 @@ An *array* is a data structure that contains several variables of the same type.
     ```  
   
 ## See Also  
- [Extending Microsoft Dynamics NAV Using Microsoft .NET Framework Interoperability](../dynamics-nav/Extending-Microsoft-Dynamics-NAV-Using-Microsoft-.NET-Framework-Interoperability.md)
+ [Extending Microsoft Dynamics NAV Using Microsoft .NET Framework Interoperability](Extending-Microsoft-Dynamics-NAV-Using-Microsoft-.NET-Framework-Interoperability.md)

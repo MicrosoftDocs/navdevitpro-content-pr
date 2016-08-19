@@ -11,7 +11,7 @@ caps.latest.revision: 12
 manager: terryaus
 ---
 # Configuring User Permissions to Queries
-You can control which users have permission to run a query object and access its resulting dataset. Similar to other [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] objects, you grant permission to a query in a permission set that you assign to the user's Windows account.  
+You can control which users have permission to run a query object and access its resulting dataset. Similar to other [!INCLUDE[navnow](includes/navnow_md.md)] objects, you grant permission to a query in a permission set that you assign to the user's Windows account.  
   
  The following permissions are required as a minimum:  
   
@@ -22,11 +22,11 @@ You can control which users have permission to run a query object and access its
 -   Read permission on any objects that are called from the query's ONBEFOREOPEN trigger.  
   
 ## Granting Users Permission to a Query  
- To grant a user permission to query, you can either change an existing permission set or create a new permission set and then assign it to the user. You create and modify a permission set using the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)].  
+ To grant a user permission to query, you can either change an existing permission set or create a new permission set and then assign it to the user. You create and modify a permission set using the [!INCLUDE[rtc](includes/rtc_md.md)].  
   
 #### To grant users permission to a query  
   
-1.  Start the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)].  
+1.  Start the [!INCLUDE[rtc](includes/rtc_md.md)].  
   
 2.  In the **Search** box, enter **Permission Sets**, and then choose the related link.  
   
@@ -42,7 +42,7 @@ You can control which users have permission to run a query object and access its
   
     -   For each data item in the query, include a **Table Data** object type permission that specifies the underlying table of the data item, and set the **Read Permission** to **Yes** or **Indirect**.  
   
-         If you choose **Indirect**, you must also set the Permissions property of the query object to specify the table with at least **Read** permission. For more information, see [Permissions Property](../dynamics-nav/Permissions-Property.md).  
+         If you choose **Indirect**, you must also set the Permissions property of the query object to specify the table with at least **Read** permission. For more information, see [Permissions Property](Permissions-Property.md).  
   
          Set additional permissions are needed.  
   
@@ -73,7 +73,7 @@ You can control which users have permission to run a query object and access its
 >  For step\-by\-step instructions about how to create the query discussed in this example, see [Walkthrough: Creating a Query to Link Two Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
   
 ## See Also  
- [Managing Permissions and Permission Sets](../dynamics-nav/Managing-Permissions-and-Permission-Sets.md)   
+ [Managing Permissions and Permission Sets](Managing-Permissions-and-Permission-Sets.md)   
  [How to: Create or Modify Permission Sets](../Topic/How%20to:%20Create%20or%20Modify%20Permission%20Sets.md)   
  [How to: Create Queries](../Topic/How%20to:%20Create%20Queries.md)   
- [Permissions Property](../dynamics-nav/Permissions-Property.md)
+ [Permissions Property](Permissions-Property.md)

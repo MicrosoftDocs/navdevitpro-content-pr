@@ -17,7 +17,7 @@ Shows a list of errors and warnings, including obsolete constructs, that occur i
   
 ## Fields  
   
-|[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
 |**Error No.**|The number that identifies the error that occurred.|  
 |**Object Type**|The type of object that caused the error.|  
@@ -29,4 +29,4 @@ Shows a list of errors and warnings, including obsolete constructs, that occur i
 |**Description**|The description of the error.|  
   
 ## See Also  
- [Error Handling](../dynamics-nav/Error-Handling.md)
+ [Error Handling](Error-Handling.md)

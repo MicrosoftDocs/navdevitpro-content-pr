@@ -10,16 +10,16 @@ ms.assetid: b6ca81a4-62f2-4806-b2d8-3c0a0e969a46
 caps.latest.revision: 6
 ---
 # Monitoring Microsoft Dynamics NAV Server Using Performance Counters
-Performance counters provide information about how well [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] is operating. By using monitoring tools such as Windows Performance Monitor and System Center Operations Manager, you can use the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] performance counters to collect data on [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instances, and then use the data to identify conditions that are affecting performance and make adjustments.  
+Performance counters provide information about how well [!INCLUDE[nav_server](includes/nav_server_md.md)] is operating. By using monitoring tools such as Windows Performance Monitor and System Center Operations Manager, you can use the [!INCLUDE[navnow](includes/navnow_md.md)] performance counters to collect data on [!INCLUDE[nav_server](includes/nav_server_md.md)] instances, and then use the data to identify conditions that are affecting performance and make adjustments.  
   
- [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] also provides a Data Collector Set template that you can use to easily create Data Collector Sets that contain all the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] performance counters.  
+ [!INCLUDE[navnow](includes/navnow_md.md)] also provides a Data Collector Set template that you can use to easily create Data Collector Sets that contain all the [!INCLUDE[navnow](includes/navnow_md.md)] performance counters.  
   
 ## In This Section  
   
--   [Microsoft Dynamics NAV Performance Counters](../dynamics-nav/Microsoft-Dynamics-NAV-Performance-Counters.md)  
+-   [Microsoft Dynamics NAV Performance Counters](Microsoft-Dynamics-NAV-Performance-Counters.md)  
   
 -   [How to: Set up Performance Counters in Windows Performance Monitor](../Topic/How%20to:%20Set%20up%20Performance%20Counters%20in%20Windows%20Performance%20Monitor.md)  
   
--   [Working with Data Collector Sets](../dynamics-nav/Working-with-Data-Collector-Sets.md)  
+-   [Working with Data Collector Sets](Working-with-Data-Collector-Sets.md)  
   
  For information about System Center Operations Manager, see [Microsoft Dynamics NAV  Management Pack for System Center Operations Manager](http://go.microsoft.com/fwlink/?LinkID=722863).

@@ -21,4 +21,4 @@ Sets the multilanguage value of the InstructionalText of the object. Use this pr
 2.  Group control  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

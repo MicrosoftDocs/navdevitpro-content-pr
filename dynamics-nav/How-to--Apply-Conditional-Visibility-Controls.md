@@ -15,7 +15,7 @@ Some reports have data that is printed conditionally. For example, if the reques
   
 ### To specify conditional visibility controls  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In **Object Designer**, choose **Report**, select the report that you want to modify, and then choose **Design**.  
   
@@ -31,10 +31,10 @@ Some reports have data that is printed conditionally. For example, if the reques
   
 8.  In the  **Expression** window, enter the conditional statement for when the control or row is hidden, and then choose the **OK** button.  
   
-     The following illustration shows an example of a conditional visibility expression on report 116, Statement, in the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+     The following illustration shows an example of a conditional visibility expression on report 116, Statement, in the [!INCLUDE[demolong](includes/demolong_md.md)].  
   
-     ![Conditional visibility](../dynamics-nav/media/NAV_PLAT_Report2_ConditionalVisibility.PNG "NAV\_PLAT\_Report2\_ConditionalVisibility")  
+     ![Conditional visibility](media/NAV_PLAT_Report2_ConditionalVisibility.PNG "NAV\_PLAT\_Report2\_ConditionalVisibility")  
   
 ## See Also  
- [Designing Reports](../dynamics-nav/Designing-Reports.md)   
+ [Designing Reports](Designing-Reports.md)   
  [How to: Conditionally Display Filter Headers](../Topic/How%20to:%20Conditionally%20Display%20Filter%20Headers.md)

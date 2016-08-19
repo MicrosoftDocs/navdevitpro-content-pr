@@ -14,7 +14,7 @@ manager: terryaus
 In this walkthrough, you will learn how to add a new item to an **Action** tab and then display that item as an icon on the ribbon. The ribbon is located at the top of most pages and is used to provide users with easy access to common or important actions. Action tab items are referred to as *actions*. Actions that are displayed on the ribbon are referred to as *promoted actions*.  
   
 ## About this Walkthrough  
- This walkthrough provides an overview of how to create and run a simple list page in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], and demonstrates how to:  
+ This walkthrough provides an overview of how to create and run a simple list page in [!INCLUDE[navnow](includes/navnow_md.md)], and demonstrates how to:  
   
 -   Add an action to the customer list page to create a new sales order.  
   
@@ -35,7 +35,7 @@ In this walkthrough, you will learn how to add a new item to an **Action** tab a
   
 #### To add an action to the customer list page  
   
-1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], choose **Tools**, and then choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], choose **Tools**, and then choose **Object Designer**.  
   
 2.  In Object Designer, choose **Page**, select page 5000 **Kevin's Customer List**, and then choose **Design**.  
   
@@ -63,7 +63,7 @@ In this walkthrough, you will learn how to add a new item to an **Action** tab a
   
     -   ActivityButtons  
   
-     For more information about the different types of actions, see [Actions Overview](../dynamics-nav/Actions-Overview.md).  
+     For more information about the different types of actions, see [Actions Overview](Actions-Overview.md).  
   
 6.  Set the **SubType** column to **ActionItems**.  
   
@@ -110,7 +110,7 @@ In this walkthrough, you will learn how to add a new item to an **Action** tab a
   
      The Sales Order command is now displayed in the ribbon, as shown in the following screen shot.  
   
-     ![Kevin's Customer List page](../dynamics-nav/media/MicrosoftDynamicsNAVKevinsCustomerList.jpg "MicrosoftDynamicsNAVKevinsCustomerList")  
+     ![Kevin's Customer List page](media/MicrosoftDynamicsNAVKevinsCustomerList.jpg "MicrosoftDynamicsNAVKevinsCustomerList")  
   
 ## Linking an Action with a Specific Item in a List  
  Simon verifies that the Sales Order action now displays in the ribbon. However, when he selects the Sales Order action, the Sales Order card opens and displays the first sales order in the database. Simon remembers that Kevin asked him to have the Sales Order action open a new sales order for the currently selected customer, instead. Simon opens the customer list page and starts making this change.  

@@ -45,4 +45,4 @@ If you have an application that performs some processing which can take a long t
      The `SLEEP(1000);` function is necessary only to slow the processing so that you can see the progress window.  
   
 ## See Also  
- [Progress Windows, MESSAGE, ERROR, and CONFIRM Functions](../dynamics-nav/Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Functions.md)
+ [Progress Windows, MESSAGE, ERROR, and CONFIRM Functions](Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Functions.md)

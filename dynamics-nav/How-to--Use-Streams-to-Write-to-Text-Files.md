@@ -11,7 +11,7 @@ caps.latest.revision: 7
 manager: terryaus
 ---
 # How to: Use Streams to Write to Text Files
-The [InStream](../dynamics-nav/InStream.md) \(input stream\) and [OutStream](../dynamics-nav/OutStream.md) \(output stream\) data types are generic stream objects that you can use to read from or write to files. This topic shows you how to use the [OutStream](../dynamics-nav/OutStream.md) object to write to a text file. You create a codeunit to accomplish this task. For information about how to use streams to read text files, see [How to: Use Streams to Read from Text Files](../Topic/How%20to:%20Use%20Streams%20to%20Read%20from%20Text%20Files.md).  
+The [InStream](InStream.md) \(input stream\) and [OutStream](OutStream.md) \(output stream\) data types are generic stream objects that you can use to read from or write to files. This topic shows you how to use the [OutStream](OutStream.md) object to write to a text file. You create a codeunit to accomplish this task. For information about how to use streams to read text files, see [How to: Use Streams to Read from Text Files](../Topic/How%20to:%20Use%20Streams%20to%20Read%20from%20Text%20Files.md).  
   
 ### To use a stream to write to a text file  
   
@@ -29,11 +29,11 @@ The [InStream](../dynamics-nav/InStream.md) \(input stream\) and [OutStream](../
   
 5.  From the **View** menu, choose **C\/AL Code** to open the **C\/AL Editor**.  
   
-6.  In the **C\/AL Editor**, in the OnRun\(\) trigger, add code that uses the [CREATE Function \(File\)](../dynamics-nav/CREATE-Function--File-.md) to create the file that you want to write to. The code will resemble following code snippet: `MyFile.CREATE('c:\MyNewFolder\MyWriteText.txt');`.  
+6.  In the **C\/AL Editor**, in the OnRun\(\) trigger, add code that uses the [CREATE Function \(File\)](CREATE-Function--File-.md) to create the file that you want to write to. The code will resemble following code snippet: `MyFile.CREATE('c:\MyNewFolder\MyWriteText.txt');`.  
   
-7.  Use the [CREATEOUTSTREAM Function \(File\)](../dynamics-nav/CREATEOUTSTREAM-Function--File-.md) to create the output stream. The code will resemble the following code snippet: `MyFile.CREATEOUTSTREAM(MyOutStream);`.  
+7.  Use the [CREATEOUTSTREAM Function \(File\)](CREATEOUTSTREAM-Function--File-.md) to create the output stream. The code will resemble the following code snippet: `MyFile.CREATEOUTSTREAM(MyOutStream);`.  
   
-8.  Use the [OutStream.WRITETEXT Function](../dynamics-nav/OutStream.WRITETEXT-Function.md) to write the data from the output stream to the file. The code will resemble the following code snippet: `MyOutStream.WRITETEXT(‘Hello world’);`.  
+8.  Use the [OutStream.WRITETEXT Function](OutStream.WRITETEXT-Function.md) to write the data from the output stream to the file. The code will resemble the following code snippet: `MyOutStream.WRITETEXT(‘Hello world’);`.  
   
 9. From the **File** menu, choose **Save AS**.  
   
@@ -61,5 +61,5 @@ MESSAGE('%1 characters were written to the file.', NumberOfChars);
 ```  
   
 ## See Also  
- [File Handling](../dynamics-nav/File-Handling.md)   
+ [File Handling](File-Handling.md)   
  [How to: Use Streams to Read from Text Files](../Topic/How%20to:%20Use%20Streams%20to%20Read%20from%20Text%20Files.md)

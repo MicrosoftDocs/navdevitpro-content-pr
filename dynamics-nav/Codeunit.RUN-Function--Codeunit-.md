@@ -10,7 +10,7 @@ ms.assetid: 1af95284-90c8-4e79-9037-1ca9e4327ac7
 caps.latest.revision: 15
 ---
 # Codeunit.RUN Function (Codeunit)
-Loads and executes the unit of C\/AL code that you specify. See also [RUN Function \(Codeunit\)](../dynamics-nav/RUN-Function--Codeunit-.md).  
+Loads and executes the unit of C\/AL code that you specify. See also [RUN Function \(Codeunit\)](RUN-Function--Codeunit-.md).  
   
 ## Syntax  
   
@@ -31,7 +31,7 @@ Loads and executes the unit of C\/AL code that you specify. See also [RUN Functi
   
  If the codeunit that you specify does not exist, then a run\-time error occurs.  
   
- If you run the codeunit with a record from a table other than the one it is associated with in the [TableNo Property](../dynamics-nav/TableNo-Property.md) of the codeunit, then a run\-time error occurs.  
+ If you run the codeunit with a record from a table other than the one it is associated with in the [TableNo Property](TableNo-Property.md) of the codeunit, then a run\-time error occurs.  
   
  *Record*  
  Type: Record  
@@ -70,4 +70,4 @@ CODEUNIT.RUN(CODEUNIT::"Gen. Jnl.-Show Card",GenJournalLine);
 ```  
   
 ## See Also  
- [Codeunit Data Type](../dynamics-nav/Codeunit-Data-Type.md)
+ [Codeunit Data Type](Codeunit-Data-Type.md)

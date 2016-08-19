@@ -17,9 +17,9 @@ Shows the name of the currently opened database and the name of the SQL Server i
   
 ## See Also  
  [How to: Alter Databases](../Topic/How%20to:%20Alter%20Databases.md)   
- [Altering Databases \- Database Files Tab](../dynamics-nav/Altering-Databases---Database-Files-Tab.md)   
- [Altering Databases \- Transaction Log Files Tab](../dynamics-nav/Altering-Databases---Transaction-Log-Files-Tab.md)   
- [Altering Databases \- Collation Tab](../dynamics-nav/Altering-Databases---Collation-Tab.md)   
- [Altering Databases \- Options Tab](../dynamics-nav/Altering-Databases---Options-Tab.md)   
- [Altering Databases \- Integration Tab](../dynamics-nav/Altering-Databases---Integration-Tab.md)   
- [Altering Databases \- Advanced Tab](../dynamics-nav/Altering-Databases---Advanced-Tab.md)
+ [Altering Databases \- Database Files Tab](Altering-Databases---Database-Files-Tab.md)   
+ [Altering Databases \- Transaction Log Files Tab](Altering-Databases---Transaction-Log-Files-Tab.md)   
+ [Altering Databases \- Collation Tab](Altering-Databases---Collation-Tab.md)   
+ [Altering Databases \- Options Tab](Altering-Databases---Options-Tab.md)   
+ [Altering Databases \- Integration Tab](Altering-Databases---Integration-Tab.md)   
+ [Altering Databases \- Advanced Tab](Altering-Databases---Advanced-Tab.md)

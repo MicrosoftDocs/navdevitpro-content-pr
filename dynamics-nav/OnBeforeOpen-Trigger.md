@@ -35,6 +35,6 @@ currQuery.SETFILTER(Quantity, '>50');
 ```  
   
 ## See Also  
- [Queries](../dynamics-nav/Queries.md)   
- [Working with Queries in C\-AL](../dynamics-nav/Working-with-Queries-in-C-AL.md)   
- [Queries](../dynamics-nav/Queries.md)
+ [Queries](Queries.md)   
+ [Working with Queries in C\-AL](Working-with-Queries-in-C-AL.md)   
+ [Queries](Queries.md)

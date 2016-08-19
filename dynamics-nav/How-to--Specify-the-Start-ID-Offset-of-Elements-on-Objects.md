@@ -14,7 +14,7 @@ manager: terryaus
 You can specify a start ID for new objects so that elements on these new objects have IDs that are offset by the number that you specified. For example, you can specify a start ID of 1000 and then create a new page. The first element that you create on the page, for example, a Container control, has ID 1000. The next element that you create on the page, for example, a Group control, has ID 1001. The ID of each element on the page is incremented by 1, starting with the offset that you specified. If you create variables or text constants on the page, then the first variable or text constant has ID 1000. The ID of each variable or text constant that you create is incremented by 1, starting with the offset that you specified. If you create functions on the page, then they start with ID 1000. Parameters, return value, local variables, and local text constants of a function start with ID 1000.  
   
 > [!NOTE]  
->  In earlier versions of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], you specified the start ID offset by using the **GetUidOffset** function in codeunit 1.  
+>  In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], you specified the start ID offset by using the **GetUidOffset** function in codeunit 1.  
   
  You can use the start ID to identify a set of elements in your application, for example, to identify the elements in a country\/region\-specific version. When you merge changes from different country\/region\-specific versions, having different start IDs lets you easily identify the country\/region\-specific version for each element.  
   
@@ -22,7 +22,7 @@ You can specify a start ID for new objects so that elements on these new objects
   
 ### To specify the start ID  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **Alter**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **Alter**.  
   
 2.  In the **Alter Database** window, select the **Advanced** tab.  
   
@@ -37,4 +37,4 @@ You can specify a start ID for new objects so that elements on these new objects
     >  To view the ID of an element, select the element in the designer, and then on the **View** menu, choose **Properties**.  
   
 ## See Also  
- [Altering Databases \- Advanced Tab](../dynamics-nav/Altering-Databases---Advanced-Tab.md)
+ [Altering Databases \- Advanced Tab](Altering-Databases---Advanced-Tab.md)

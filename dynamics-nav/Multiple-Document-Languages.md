@@ -14,7 +14,7 @@ manager: terryaus
 With a multlanguage\-enabled database you can automatically  get the languages needed for multiple document language functionality.  
   
 ## Running Multiple Document Languages  
- If you have documents that you want to print in the language of the recipient rather than in your own working language, you can add a single line of code in the document to handle this. This functionality is already enabled for most reports in the standard [!INCLUDE[nav_current_short](../dynamics-nav/includes/nav_current_short_md.md)] database. The document is printed in the language that is specified in the **Language Code** field in the **Customer Card** window.  
+ If you have documents that you want to print in the language of the recipient rather than in your own working language, you can add a single line of code in the document to handle this. This functionality is already enabled for most reports in the standard [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] database. The document is printed in the language that is specified in the **Language Code** field in the **Customer Card** window.  
   
  In reports that need the multiple document languages functionality, you must insert the following C\/AL code as the first line in the **OnAfterGet Record\(\)** trigger:  
   
@@ -23,6 +23,6 @@ With a multlanguage\-enabled database you can automatically  get the languages n
  For each of these reports, you must create a new variable, `Language`, with the data type `Record` pointing to the **Language** table \(table 8\). When you have compiled the object, it will no longer print in the user’s working application language if another language has been specified in the **Customer Card** window.  
   
 ## See Also  
- [Multilanguage Development](../dynamics-nav/Multilanguage-Development.md)   
+ [Multilanguage Development](Multilanguage-Development.md)   
  [How to: Add Translated Strings By Using the Multilanguage Editor](../Topic/How%20to:%20Add%20Translated%20Strings%20By%20Using%20the%20Multilanguage%20Editor.md)   
  [How to: Delete Translated Strings](../Topic/How%20to:%20Delete%20Translated%20Strings.md)

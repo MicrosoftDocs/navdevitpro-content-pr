@@ -26,10 +26,10 @@ File.TRUNC
  Use this variable to refer to the file.  
   
 ## Remarks  
- Typically, you use this function together with [SEEK Function \(File\)](../dynamics-nav/SEEK-Function--File-.md). Use File.SEEK to position the pointer in the file and then use File.TRUNC to truncate the file at that point.  
+ Typically, you use this function together with [SEEK Function \(File\)](SEEK-Function--File-.md). Use File.SEEK to position the pointer in the file and then use File.TRUNC to truncate the file at that point.  
   
 ## Example  
- The following example sets a pointer at position 20 in a file and truncates the file at the pointer position. The [WRITEMODE Function \(File\)](../dynamics-nav/WRITEMODE-Function--File-.md) allows the file that is named C:\\TestFolder\\TestFile.txt to open in write mode. The SEEK function sets a pointer at position 20 in the file and then the [TRUNC Function \(FILE\)](../dynamics-nav/TRUNC-Function--File-.md) truncates the contents at the pointer position. This example assumes that you have created a text file named C:\\TestFolder\\TestFile.txt. The file is then saved a truncated file. This example requires that you create the following variable in the **C\/AL Globals** window.  
+ The following example sets a pointer at position 20 in a file and truncates the file at the pointer position. The [WRITEMODE Function \(File\)](WRITEMODE-Function--File-.md) allows the file that is named C:\\TestFolder\\TestFile.txt to open in write mode. The SEEK function sets a pointer at position 20 in the file and then the [TRUNC Function \(FILE\)](TRUNC-Function--File-.md) truncates the contents at the pointer position. This example assumes that you have created a text file named C:\\TestFolder\\TestFile.txt. The file is then saved a truncated file. This example requires that you create the following variable in the **C\/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -45,4 +45,4 @@ TestFile.TRUNC;
 ```  
   
 ## See Also  
- [File Data Type](../dynamics-nav/File-Data-Type.md)
+ [File Data Type](File-Data-Type.md)

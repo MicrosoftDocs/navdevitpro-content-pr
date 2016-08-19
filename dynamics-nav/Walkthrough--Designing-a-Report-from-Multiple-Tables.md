@@ -11,7 +11,7 @@ caps.latest.revision: 21
 manager: edupont
 ---
 # Walkthrough: Designing a Report from Multiple Tables
-A report object is composed of a report dataset and a visual layout. You design a report by first defining the dataset and then designing the visual layout. You design the dataset for reports in Microsoft Dynamics NAV Report Dataset Designer and design the layout in Visual Studio Report Designer. After you design a report, you can make it available to applications that are running on the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. A report can be designed from one table or multiple tables. This walkthrough demonstrates how to design a report from multiple tables.  
+A report object is composed of a report dataset and a visual layout. You design a report by first defining the dataset and then designing the visual layout. You design the dataset for reports in Microsoft Dynamics NAV Report Dataset Designer and design the layout in Visual Studio Report Designer. After you design a report, you can make it available to applications that are running on the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. A report can be designed from one table or multiple tables. This walkthrough demonstrates how to design a report from multiple tables.  
   
 ## About This Walkthrough  
  This walkthrough shows you how to design a report by using Report Dataset Designer and Visual Studio Report Designer.  
@@ -35,14 +35,14 @@ A report object is composed of a report dataset and a visual layout. You design 
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] installed with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installed with a developer license.  
   
--   The [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)] installed.  
+-   The [!INCLUDE[demolong](includes/demolong_md.md)] installed.  
   
--   Microsoft Visual Studio installed. For more information about which version of Microsoft Visual Studio you need, see [System Requirements for Microsoft Dynamics NAV 2016](../dynamics-nav/System-Requirements-for-Microsoft-Dynamics-NAV-2016.md). This walkthrough assumes that Microsoft Visual Studio 2012 or Microsoft Visual Studio 2013 is used.  
+-   Microsoft Visual Studio installed. For more information about which version of Microsoft Visual Studio you need, see [System Requirements for Microsoft Dynamics NAV 2016](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md). This walkthrough assumes that Microsoft Visual Studio 2012 or Microsoft Visual Studio 2013 is used.  
   
 ## Story  
- Viktor is a developer who is working for [!INCLUDE[demoname](../dynamics-nav/includes/demoname_md.md)] Viktor has been asked by his manager to create a report that shows data from the Customer \(18\), Cust. Ledger Entry \(21\), Detailed Cust. Ledger Entry \(379\), and the Sales Header \(36\) tables. The report should meet the following requirements:  
+ Viktor is a developer who is working for [!INCLUDE[demoname](includes/demoname_md.md)] Viktor has been asked by his manager to create a report that shows data from the Customer \(18\), Cust. Ledger Entry \(21\), Detailed Cust. Ledger Entry \(379\), and the Sales Header \(36\) tables. The report should meet the following requirements:  
   
 -   The report should display customer information at the top of the report.  
   
@@ -64,14 +64,14 @@ A report object is composed of a report dataset and a visual layout. You design 
   
      The following illustration shows an example of the second page of the report.  
   
-     ![Completed report](../dynamics-nav/media/MicrosoftDynamicsNAV_MultiDataSetReport.jpg "MicrosoftDynamicsNAV\_MultiDataSetReport")  
+     ![Completed report](media/MicrosoftDynamicsNAV_MultiDataSetReport.jpg "MicrosoftDynamicsNAV\_MultiDataSetReport")  
   
 ## Defining the Dataset  
  In this task, Viktor will create the dataset that will display customers and their transaction details. The datasets for the data model will come from four tables. Viktor will create a data item for each for table.  
   
 #### To define the dataset  
   
-1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], on the main menu, choose **Tools**, and then choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the main menu, choose **Tools**, and then choose **Object Designer**.  
   
 2.  In Object Designer, choose **Report**, and then choose **New** to open Report Dataset Designer.  
   
@@ -87,7 +87,7 @@ A report object is composed of a report dataset and a visual layout. You design 
   
      The following illustration shows an example of the Report Dataset Designer after you have added the data items.  
   
-     ![The DataItems in Object Designer](../dynamics-nav/media/MicrosoftDynamicsNAV_DataItems.jpg "MicrosoftDynamicsNAV\_DataItems")  
+     ![The DataItems in Object Designer](media/MicrosoftDynamicsNAV_DataItems.jpg "MicrosoftDynamicsNAV\_DataItems")  
   
 ## Defining Properties for the Data Items  
  Now that the data set is defined, Viktor will define the properties of data items.  
@@ -96,27 +96,27 @@ A report object is composed of a report dataset and a visual layout. You design 
   
 1.  Select the **Customer** data item, and then on the **View** menu, choose **Properties**.  
   
-2.  In the **Properties** window, locate the [DataItemTableView Property](../dynamics-nav/DataItemTableView-Property.md), and then choose the **AssistEdit** button in the **Value** field to open the **Table View** window.  
+2.  In the **Properties** window, locate the [DataItemTableView Property](DataItemTableView-Property.md), and then choose the **AssistEdit** button in the **Value** field to open the **Table View** window.  
   
 3.  In the **Key** field, choose the up arrow, select **No.** from the **Customer\-Key List** window, choose the **OK** button, and then in the **Table View** window, choose the **OK** button.  
   
-4.  Locate the [ReqFilterFields Property](../dynamics-nav/ReqFilterFields-Property.md), choose the **AssistEdit** from the **Value** field to open the **Fields List** window.  
+4.  Locate the [ReqFilterFields Property](ReqFilterFields-Property.md), choose the **AssistEdit** from the **Value** field to open the **Fields List** window.  
   
 5.  In the **Field List** window, choose the up arrow, choose **No.** from the **Customer \- Fields List** window, choose the **OK** button, and then choose the **OK** button in the **Field List** window.  
   
-6.  Locate the [PrintOnlyIfDetail Property](../dynamics-nav/PrintOnlyIfDetail-Property.md) and set the **Value** field to **Yes**.  
+6.  Locate the [PrintOnlyIfDetail Property](PrintOnlyIfDetail-Property.md) and set the **Value** field to **Yes**.  
   
      The following illustration shows the properties window for the **Customer** data item.  
   
-     ![Customer Data Item properties](../dynamics-nav/media/MicrosoftDynamicsNAV_CustomerProperties.jpg "MicrosoftDynamicsNAV\_CustomerProperties")  
+     ![Customer Data Item properties](media/MicrosoftDynamicsNAV_CustomerProperties.jpg "MicrosoftDynamicsNAV\_CustomerProperties")  
   
 7.  In Report Dataset Designer, select the **Cust. Ledger Entry** data item.  
   
-8.  In the **Properties** window, locate the [DataItemTableView Property](../dynamics-nav/DataItemTableView-Property.md), and then choose the **AssistEdit** button in the **Value** field to open the **Table View** window.  
+8.  In the **Properties** window, locate the [DataItemTableView Property](DataItemTableView-Property.md), and then choose the **AssistEdit** button in the **Value** field to open the **Table View** window.  
   
 9. In the **Key** field, choose the up arrow, select **Entry No.** from the **Cust. Ledger Entry Key List** window, choose the **OK** button, and then in the **Table View** window, choose the **OK** button.  
   
-10. Locate the [DataItemLink Property \(Reports\)](../dynamics-nav/DataItemLink-Property--Reports-.md) and choose the **AssistEdit** button to open the **DataItem Link** window.  
+10. Locate the [DataItemLink Property \(Reports\)](DataItemLink-Property--Reports-.md) and choose the **AssistEdit** button to open the **DataItem Link** window.  
   
 11. In the first row, in the **Field** column, choose the up arrow. In the **Cust. Ledger Entry\-Field List** window, select **Customer No.**, and then choose the **OK** button.  
   
@@ -124,15 +124,15 @@ A report object is composed of a report dataset and a visual layout. You design 
   
      The following illustration shows the **Properties** window for the **Cust. Ledger Entry** data item.  
   
-     ![Cust.Ledger Entry Properties](../dynamics-nav/media/MicrosoftDynamicsNAV_CustLEntryProperties.jpg "MicrosoftDynamicsNAV\_CustLEntryProperties")  
+     ![Cust.Ledger Entry Properties](media/MicrosoftDynamicsNAV_CustLEntryProperties.jpg "MicrosoftDynamicsNAV\_CustLEntryProperties")  
   
 13. Select the **Detailed Cust. Ledg. Entry** data item.  
   
-14. In the **Properties** window, locate the [DataItemTableView Property](../dynamics-nav/DataItemTableView-Property.md), choose the **AssistEdit** button in the **Value** field to open the **Table View** window.  
+14. In the **Properties** window, locate the [DataItemTableView Property](DataItemTableView-Property.md), choose the **AssistEdit** button in the **Value** field to open the **Table View** window.  
   
 15. In the **Key** field, choose the up arrow, select **Entry No.** from the **Detailed Cust. Ledger Entry Key List** window, and then choose the **OK** button. In the **Table View** window, choose the **OK** button.  
   
-16. Locate the [DataItemLink Property \(Reports\)](../dynamics-nav/DataItemLink-Property--Reports-.md) and choose the **AssistEdit** button to open the **DataItem Link** window.  
+16. Locate the [DataItemLink Property \(Reports\)](DataItemLink-Property--Reports-.md) and choose the **AssistEdit** button to open the **DataItem Link** window.  
   
 17. In the **Field** column, choose the up arrow. In the **Detailed Cust. Ledg. Entry\-Field List** window, select **Cust. Ledger Entry No.**, and then choose the **OK** button.  
   
@@ -144,15 +144,15 @@ A report object is composed of a report dataset and a visual layout. You design 
   
      The following illustration shows the **Properties** window for the **Detailed Cust. Ledg. Entry** data item.  
   
-     ![Detailed Cust. Ledger Entry Properties](../dynamics-nav/media/MicrosoftDynamicsNAV_DetailedLedger.jpg "MicrosoftDynamicsNAV\_DetailedLedger")  
+     ![Detailed Cust. Ledger Entry Properties](media/MicrosoftDynamicsNAV_DetailedLedger.jpg "MicrosoftDynamicsNAV\_DetailedLedger")  
   
 21. Select the **Sales Header** data item.  
   
-22. Locate the [DataItemTableView Property](../dynamics-nav/DataItemTableView-Property.md) and choose the **AssistEdit** button to open the **Table View** window.  
+22. Locate the [DataItemTableView Property](DataItemTableView-Property.md) and choose the **AssistEdit** button to open the **Table View** window.  
   
 23. In the **Key** field, choose the up arrow, select **Document Type,No.** from the **Sale Header \- Key List** window, and then choose the **OK** button. In the **Table View** window, choose the **OK** button.  
   
-24. Locate the [DataItemLink Property \(Reports\)](../dynamics-nav/DataItemLink-Property--Reports-.md), choose the **AssistEdit** button to open the **DataItem Link** window.  
+24. Locate the [DataItemLink Property \(Reports\)](DataItemLink-Property--Reports-.md), choose the **AssistEdit** button to open the **DataItem Link** window.  
   
 25. In the **Field** column, select the up arrow. In the **Sales Header\-Field List** window, select **Sell\-to\-Customer No.**, and then choose the **OK** button.  
   
@@ -160,7 +160,7 @@ A report object is composed of a report dataset and a visual layout. You design 
   
      The following illustration shows the **Properties** window for the **Sales Header** data item.  
   
-     ![Sales Header Properties window](../dynamics-nav/media/MicrosoftDynamicsNAV_SalesHeaderProperties.jpg "MicrosoftDynamicsNAV\_SalesHeaderProperties")  
+     ![Sales Header Properties window](media/MicrosoftDynamicsNAV_SalesHeaderProperties.jpg "MicrosoftDynamicsNAV\_SalesHeaderProperties")  
   
 27. Close the **Properties** window.  
   
@@ -188,7 +188,7 @@ A report object is composed of a report dataset and a visual layout. You design 
   
      The following illustration shows the **Customer** data item with its fields in Object Designer.  
   
-     ![Object Designer with customer fields](../dynamics-nav/media/MicrosoftDynamicsNAV_CustomerFields.jpg "MicrosoftDynamicsNAV\_CustomerFields")  
+     ![Object Designer with customer fields](media/MicrosoftDynamicsNAV_CustomerFields.jpg "MicrosoftDynamicsNAV\_CustomerFields")  
   
 4.  Select the **Cust. Ledger Entry** data item and repeat steps 1 through 3 to add the fields. The following table shows the fields in Report Dataset Designer.  
   
@@ -230,9 +230,9 @@ A report object is composed of a report dataset and a visual layout. You design 
     |Prices Including VAT|PricesIncludingVAT\_SalesHeader|  
     |Amount|Amount\_SalesHeader|  
   
-7.  Select the first field under the **Customer** data item. On the **View** menu, choose **Properties** and then set the [IncludeCaption Property](../dynamics-nav/IncludeCaption-Property.md) of each field to **Yes**.  
+7.  Select the first field under the **Customer** data item. On the **View** menu, choose **Properties** and then set the [IncludeCaption Property](IncludeCaption-Property.md) of each field to **Yes**.  
   
-8.  Repeat step 7 to set the [IncludeCaption Property](../dynamics-nav/IncludeCaption-Property.md) of each field under each **DataItem** to **Yes**. Alternatively, you select the **Include Caption** check box for all the fields. This check box is located in the right corner in Report Dataset Designer.  
+8.  Repeat step 7 to set the [IncludeCaption Property](IncludeCaption-Property.md) of each field under each **DataItem** to **Yes**. Alternatively, you select the **Include Caption** check box for all the fields. This check box is located in the right corner in Report Dataset Designer.  
   
 ## Adding Labels to the Report  
  Viktor will now add labels to the report. The label in Report Dataset Designer stores the label values for the report data set.  
@@ -257,7 +257,7 @@ A report object is composed of a report dataset and a visual layout. You design 
   
      The following illustration shows an example of the request page that is displayed when the report is run.  
   
-     ![Request page](../dynamics-nav/media/MicrosoftDynamicsNAV_RequestPage.jpg "MicrosoftDynamicsNAV\_RequestPage")  
+     ![Request page](media/MicrosoftDynamicsNAV_RequestPage.jpg "MicrosoftDynamicsNAV\_RequestPage")  
   
      If you choose the **Preview** button on the request page, the report will display a blank page because a layout for the report is not designed yet.  
   
@@ -307,7 +307,7 @@ A report object is composed of a report dataset and a visual layout. You design 
   
      The following illustration shows the list control and the table.  
   
-     ![The list control on the report](../dynamics-nav/media/MicrosoftDynamicsNAV_ListControl.jpg "MicrosoftDynamicsNAV\_ListControl")  
+     ![The list control on the report](media/MicrosoftDynamicsNAV_ListControl.jpg "MicrosoftDynamicsNAV\_ListControl")  
   
      Note that the table contains two table rows, a header row \(first row\), and a data row \(second row\). The three parallel lines in the left border of the second row identify the data row.  
   
@@ -360,7 +360,7 @@ A report object is composed of a report dataset and a visual layout. You design 
   
      The layout that Viktor has designed to this point resembles the following illustration.  
   
-     ![The layout containing the customer data](../dynamics-nav/media/MicrosoftDynamicsNAV_CustomerData.jpg "MicrosoftDynamicsNAV\_CustomerData")  
+     ![The layout containing the customer data](media/MicrosoftDynamicsNAV_CustomerData.jpg "MicrosoftDynamicsNAV\_CustomerData")  
   
 16. On the **Build** menu, choose **Build Web site** to build the project. Inspect the **Output** pane and make sure that there are no build errors. Close Visual Studio.  
   
@@ -369,7 +369,7 @@ A report object is composed of a report dataset and a visual layout. You design 
   
      Viktor will run the report and preview what he has done to this point.  
   
-17. In [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], in Report Dataset Designer, select a data item. In the dialog box that appears that indicates that the layout of the report is changed by another application, choose the **Yes** button.  
+17. In [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], in Report Dataset Designer, select a data item. In the dialog box that appears that indicates that the layout of the report is changed by another application, choose the **Yes** button.  
   
 18. On the **File** menu, choose **Save**. In the **Save** window, verify that **Compile** is selected, and then choose the **OK** button.  
   
@@ -466,7 +466,7 @@ A report object is composed of a report dataset and a visual layout. You design 
   
      The following illustration shows EntryNo and the EntryType cells directly under the CustomerNo cell  
   
-     ![Merged cells](../dynamics-nav/media/MicrosoftDynamicsNAV_MergedCells.jpg "MicrosoftDynamicsNAV\_MergedCells")  
+     ![Merged cells](media/MicrosoftDynamicsNAV_MergedCells.jpg "MicrosoftDynamicsNAV\_MergedCells")  
   
 28. Repeat steps through 27 to put the **Transaction No.** and **Journal Batch Name** captions and fields under the Description data. This creates a blank cell under the CurrencyCode field.  
   
@@ -585,7 +585,7 @@ A report object is composed of a report dataset and a visual layout. You design 
   
 1.  In the main menu, choose **Build**, and then choose **Build Web Site** to build the project. Inspect the **Output** pane and make sure that there are no build errors and then close Visual Studio.  
   
-2.  In [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], in Report Dataset Designer, select a data item, and then in the dialog box that appears that indicates that the layout of the report is changed by another application, choose the **Yes** button.  
+2.  In [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], in Report Dataset Designer, select a data item, and then in the dialog box that appears that indicates that the layout of the report is changed by another application, choose the **Yes** button.  
   
 3.  On the **File** menu, choose **Save**. In the **Save** window, make sure that **Compile** is selected, and then choose the **OK** button.  
   
@@ -600,4 +600,4 @@ A report object is composed of a report dataset and a visual layout. You design 
   
 ## See Also  
  [Walkthrough: Adding Company Information, Custom Filters, and Formatting to a Report](../Topic/Walkthrough:%20Adding%20Company%20Information,%20Custom%20Filters,%20and%20Formatting%20to%20a%20Report.md)   
- [Report Design Walkthroughs](../dynamics-nav/Report-Design-Walkthroughs.md)
+ [Report Design Walkthroughs](Report-Design-Walkthroughs.md)

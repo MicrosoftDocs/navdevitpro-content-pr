@@ -27,7 +27,7 @@ TestPage.TRAP
  The test page variable that you use to refer to the test page.  
   
 ## Remarks  
- You can trap only nonmodal pages with the TRAP function. To trap modal pages that you invoke with the [RUNMODAL Function \(Page\)](../dynamics-nav/RUNMODAL-Function--Page-.md) or the [PAGE.RUNMODAL Function](../dynamics-nav/PAGE.RUNMODAL-Function.md), you must use the **ModalFormHandler** function. For more information, see [How to: Create Handler Functions](../Topic/How%20to:%20Create%20Handler%20Functions.md).  
+ You can trap only nonmodal pages with the TRAP function. To trap modal pages that you invoke with the [RUNMODAL Function \(Page\)](RUNMODAL-Function--Page-.md) or the [PAGE.RUNMODAL Function](PAGE.RUNMODAL-Function.md), you must use the **ModalFormHandler** function. For more information, see [How to: Create Handler Functions](../Topic/How%20to:%20Create%20Handler%20Functions.md).  
   
 ## Example  
  This example shows how to use the **TRAP** function to trap a call to open a test page so that the opened page is assigned to a variable.  

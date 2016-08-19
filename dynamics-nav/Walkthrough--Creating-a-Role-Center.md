@@ -11,7 +11,7 @@ caps.latest.revision: 32
 manager: terryaus
 ---
 # Walkthrough: Creating a Role Center
-In this walkthrough, you will learn how to create a new Role Center for the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] or [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]. In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], a Role Center is a type of page on which you can place different parts. Each part is a container in which you can host other pages or predefined parts, such as an Outlook part or parts for adding tasks, notifications, or notes.  
+In this walkthrough, you will learn how to create a new Role Center for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)]. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], a Role Center is a type of page on which you can place different parts. Each part is a container in which you can host other pages or predefined parts, such as an Outlook part or parts for adding tasks, notifications, or notes.  
   
 > [!IMPORTANT]  
 >  Only system parts, card parts, and list parts are supported page types for the Role Center.  
@@ -35,9 +35,9 @@ In this walkthrough, you will learn how to create a new Role Center for the [!IN
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] installed with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installed with a developer license.  
   
--   [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+-   [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 ## Story  
  Simon is a partner working for CRONUS International Ltd. Susan, the Order Processor at CRONUS, has contacted Simon and asked him to create her a new Role Center that will show her work queue, give her easy access to common actions like creating a new sales order, and will also display a list of current notifications.  
@@ -47,7 +47,7 @@ In this walkthrough, you will learn how to create a new Role Center for the [!IN
   
 #### To create a Role Center page  
   
-1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **Page**, and then choose **New**. The **New Page** window opens.  
   
@@ -139,7 +139,7 @@ In this walkthrough, you will learn how to create a new Role Center for the [!IN
   
 22. In Object Designer, select the page, and then choose **Run.**  
   
-     The [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)] opens and displays the new page.  
+     The [!INCLUDE[rtc](includes/rtc_md.md)] opens and displays the new page.  
   
 ## Adding Actions to the Sales Order Queue Page  
  Simon now needs to add actions to the **Sales Order Processor Queue** page. He knows that the **CardPart** page type is special in that he can include actions on individual groups within the page. These actions will then be displayed immediately adjacent to the queues on the page. He also adds code to the OnOpenPage\(\) method to ensure that the work queues update to reflect Susan's current work when the Role Center opens.  
@@ -281,7 +281,7 @@ In this walkthrough, you will learn how to create a new Role Center for the [!IN
  Simon's next steps are to add the **My Customers** and **My Items** parts to the page. For more information, see [How to: Create a CardPart Page For Displaying Customer Data in a FactBox](../Topic/How%20to:%20Create%20a%20CardPart%20Page%20For%20Displaying%20Customer%20Data%20in%20a%20FactBox.md).  
   
 ## See Also  
- [Page Designer Walkthroughs](../dynamics-nav/Page-Designer-Walkthroughs.md)   
+ [Page Designer Walkthroughs](Page-Designer-Walkthroughs.md)   
  [How to: Create a Page](../Topic/How%20to:%20Create%20a%20Page.md)   
- [Touring the RoleTailored Client Pages](../dynamics-nav/Touring-the-RoleTailored-Client-Pages.md)   
+ [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
  [How to: Run a Page](../Topic/How%20to:%20Run%20a%20Page.md)

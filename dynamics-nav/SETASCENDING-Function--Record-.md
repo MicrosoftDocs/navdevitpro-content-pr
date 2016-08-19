@@ -72,5 +72,5 @@ ATown
 ```  
   
 ## See Also  
- [SETCURRENTKEY Function \(Record\)](../dynamics-nav/SETCURRENTKEY-Function--Record-.md)   
- [OData Web Services](../dynamics-nav/OData-Web-Services.md)
+ [SETCURRENTKEY Function \(Record\)](SETCURRENTKEY-Function--Record-.md)   
+ [OData Web Services](OData-Web-Services.md)

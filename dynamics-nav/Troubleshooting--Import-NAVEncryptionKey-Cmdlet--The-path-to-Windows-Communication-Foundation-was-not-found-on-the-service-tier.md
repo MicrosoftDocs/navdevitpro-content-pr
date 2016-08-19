@@ -11,7 +11,7 @@ caps.latest.revision: 3
 manager: edupont
 ---
 # Troubleshooting: Import-NAVEncryptionKey Cmdlet: The path to Windows Communication Foundation was not found on the service tier
-If the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance is on an Azure virtual machine that is running Windows Server 2012 R2, you get the following error when you run the Import\-NAVEncryptionkey cmdlet:  
+If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is on an Azure virtual machine that is running Windows Server 2012 R2, you get the following error when you run the Import\-NAVEncryptionkey cmdlet:  
   
  **Import\-NAVEncryptionKey : The path to Windows Communication Foundation was not found on the service tier. It was expected to be in folder 'C:\\Windows\\Microsoft.NET\\Framework64\\v3.0\\Windows Communication Foundation'.Have you installed the .NET Framework 3.0?**  
   
@@ -30,5 +30,5 @@ If the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instanc
      For more information, see [Install or Uninstall Roles, Role Services, or Features](http://go.microsoft.com/fwlink/?LinkID=623826).  
   
 ## See Also  
- [Managing Encryption Keys for SQL Server Authentication](../dynamics-nav/Managing-Encryption-Keys-for-SQL-Server-Authentication.md)   
- [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](../dynamics-nav/Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)
+ [Managing Encryption Keys for SQL Server Authentication](Managing-Encryption-Keys-for-SQL-Server-Authentication.md)   
+ [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)

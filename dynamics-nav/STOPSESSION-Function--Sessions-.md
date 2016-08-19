@@ -11,7 +11,7 @@ caps.latest.revision: 11
 manager: terryaus
 ---
 # STOPSESSION Function (Sessions)
-Stops a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] session.  
+Stops a [!INCLUDE[navnow](includes/navnow_md.md)] session.  
   
 ## Syntax  
   
@@ -27,9 +27,9 @@ Stops a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] session.
   
  The session can be any of the following:  
   
--   [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] session  
+-   [!INCLUDE[nav_windows](includes/nav_windows_md.md)] session  
   
--   [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] session  
+-   [!INCLUDE[nav_web](includes/nav_web_md.md)] session  
   
 -   NAS services session  
   
@@ -52,7 +52,7 @@ Stops a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] session.
  If you omit this optional return value and the session is not stopped successfully, then a run\-time error occurs. If you include the return value, then you must handle any errors.  
   
 ## Remarks  
- The session that you want to stop and the session that calls STOPSESSION must be running on the same instance of [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]. The session is stopped before the next C\/AL statement executes. Open transactions are rolled back.  
+ The session that you want to stop and the session that calls STOPSESSION must be running on the same instance of [!INCLUDE[nav_server](includes/nav_server_md.md)]. The session is stopped before the next C\/AL statement executes. Open transactions are rolled back.  
   
 > [!NOTE]  
 >  If the current executing statement is the **SLEEP** function, then the session is stopped immediately.  

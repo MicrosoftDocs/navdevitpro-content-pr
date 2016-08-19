@@ -42,9 +42,9 @@ Imports a binary large object \(BLOB\).
  *CommonDialog*  
  Type: Boolean  
   
- Specifies whether you want to display an import dialog box before the BLOB is imported. This dialog box lets you select the file that you want to import. Based on the [SubType Property \(BLOB\)](../dynamics-nav/SubType-Property--BLOB-.md), only the relevant file types are listed, such as bitmap files \(\*.bmp\), memo files \(\*.txt\), or all files \(\*.\*\).  
+ Specifies whether you want to display an import dialog box before the BLOB is imported. This dialog box lets you select the file that you want to import. Based on the [SubType Property \(BLOB\)](SubType-Property--BLOB-.md), only the relevant file types are listed, such as bitmap files \(\*.bmp\), memo files \(\*.txt\), or all files \(\*.\*\).  
   
- If the *CommonDialog* parameter is **true**, then [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] displays the import dialog box. If the *CommonDialog* parameter is **false** \(default\), then [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] does not display the import dialog box.  
+ If the *CommonDialog* parameter is **true**, then [!INCLUDE[navnow](includes/navnow_md.md)] displays the import dialog box. If the *CommonDialog* parameter is **false** \(default\), then [!INCLUDE[navnow](includes/navnow_md.md)] does not display the import dialog box.  
   
 ## Property Value\/Return Value  
  Type: text  
@@ -56,4 +56,4 @@ Imports a binary large object \(BLOB\).
  If the return value is an empty string, then the BLOB was not imported.  
   
 ## See Also  
- [BLOB Data Type](../dynamics-nav/BLOB-Data-Type.md)
+ [BLOB Data Type](BLOB-Data-Type.md)

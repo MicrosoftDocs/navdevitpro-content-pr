@@ -11,7 +11,7 @@ caps.latest.revision: 11
 manager: terryaus
 ---
 # Microsoft Software License Terms
-The **Microsoft Software License Terms** page in [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] Setup defines the legal conditions under which you can use the [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] software. To continue with the installation, choose **I accept** after reading the terms.  
+The **Microsoft Software License Terms** page in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup defines the legal conditions under which you can use the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] software. To continue with the installation, choose **I accept** after reading the terms.  
   
  To print the software license terms, choose **Print**.  
   

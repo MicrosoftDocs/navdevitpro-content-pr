@@ -15,15 +15,15 @@ After designing an XMLport, you can either create a codeunit to run the XMLport 
   
 ### To run an XMLport from Object Designer  
   
-1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
-2.  In Object Designer, choose **XMLport**, choose the XMLport you want to run, and then choose the **Run** button. The **Edit\-\<XMLport Name\>** request page opens in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+2.  In Object Designer, choose **XMLport**, choose the XMLport you want to run, and then choose the **Run** button. The **Edit\-\<XMLport Name\>** request page opens in [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 3.  If the XMLport you want to run is designed to both import and export data, then do the following:  
   
     1.  On the **Edit\-\<XMLport Name\>** request page, in the **Direction** drop\-down list, select the direction you want and then choose the **OK** button. The direction drop\-down list box is located at the bottom of the page. You can specify how you want to sort the data and the filtering criteria on the **Edit\-\<XMLport Name\>** request page.  
   
-         For information about the XMLport request page, see [Request Pages \(XMLPorts\)](../dynamics-nav/Request-Pages--XMLPorts-.md).  
+         For information about the XMLport request page, see [Request Pages \(XMLPorts\)](Request-Pages--XMLPorts-.md).  
   
     2.  If you select **Export**, then do the following:  
   
@@ -36,7 +36,7 @@ After designing an XMLport, you can either create a codeunit to run the XMLport 
         4.  In the **Save as type** drop\-down list box, choose the file format you want, and then choose the **Save** button to export the data from the database. Instead of saving the file, you can choose the **Open** button from the **Export File** dialog box to view the file.  
   
             > [!NOTE]  
-            >  If you save the file and you do not specify a name, the file will be saved in the format that is specified in the [Format Property \(XMLports\)](../dynamics-nav/Format-Property--XMLports-.md).  
+            >  If you save the file and you do not specify a name, the file will be saved in the format that is specified in the [Format Property \(XMLports\)](Format-Property--XMLports-.md).  
   
     3.  If you select **Import**, then do the following:  
   
@@ -60,7 +60,7 @@ After designing an XMLport, you can either create a codeunit to run the XMLport 
     5.  In the **Save as type** drop\-down list box, choose the file format you want, and then choose the **Save** button to export the data from the database. Instead of saving the file, you can choose the **Open** button from the **Export File** dialog box to view the file.  
   
         > [!NOTE]  
-        >  If you save the file and you do not specify a name, the file will be saved in the format that is specified in the [Format Property \(XMLports\)](../dynamics-nav/Format-Property--XMLports-.md).  
+        >  If you save the file and you do not specify a name, the file will be saved in the format that is specified in the [Format Property \(XMLports\)](Format-Property--XMLports-.md).  
   
 5.  If the XMLport only imports data, do the following:  
   
@@ -71,5 +71,5 @@ After designing an XMLport, you can either create a codeunit to run the XMLport 
     3.  Choose the file and then choose the **Open** button to import the file to the database.  
   
 ## See Also  
- [Designing XMLports](../dynamics-nav/Designing-XMLports.md)   
- [XMLport Walkthroughs](../dynamics-nav/XMLport-Walkthroughs.md)
+ [Designing XMLports](Designing-XMLports.md)   
+ [XMLport Walkthroughs](XMLport-Walkthroughs.md)

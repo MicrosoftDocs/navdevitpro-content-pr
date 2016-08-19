@@ -227,5 +227,5 @@ MESSAGE(Text001, String,NewString);
  The function removes any spaces from the start of *String*.  
   
 ## See Also  
- [Code Data Type](../dynamics-nav/Code-Data-Type.md)   
- [Text Data Type](../dynamics-nav/Text-Data-Type.md)
+ [Code Data Type](Code-Data-Type.md)   
+ [Text Data Type](Text-Data-Type.md)

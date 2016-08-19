@@ -15,10 +15,10 @@ A maximum of 20 distinct fields can be used to define a primary key. The number 
   
  This means that if your primary key includes four distinct fields, your secondary keys can include these four fields, and at most 16 other fields. Correspondingly, if your primary key consists of 20 distinct fields, then your secondary keys must consist only of combinations of these fields.  
   
- When you create a table in Table Designer, by default [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] uses the field with the lowest field number as the primary key. Use the following procedure to define a different primary key.  
+ When you create a table in Table Designer, by default [!INCLUDE[navnow](includes/navnow_md.md)] uses the field with the lowest field number as the primary key. Use the following procedure to define a different primary key.  
   
 > [!NOTE]  
->  The maximum record size in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] is 8000 bytes. Adding a primary key to a table when the record size limit is close to this limit will prevent the table from compiling.  
+>  The maximum record size in [!INCLUDE[navnow](includes/navnow_md.md)] is 8000 bytes. Adding a primary key to a table when the record size limit is close to this limit will prevent the table from compiling.  
   
 ### To define a primary key  
   
@@ -52,5 +52,5 @@ A maximum of 20 distinct fields can be used to define a primary key. The number 
 5.  The first line shows the primary key. Enter the secondary keys on the following lines as comma\-separated lists; for example: Name, Address.  
   
 ## See Also  
- [Table Keys](../dynamics-nav/Table-Keys.md)   
+ [Table Keys](Table-Keys.md)   
  [How to: View or Modify Properties on a Key](../Topic/How%20to:%20View%20or%20Modify%20Properties%20on%20a%20Key.md)

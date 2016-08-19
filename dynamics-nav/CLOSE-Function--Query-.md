@@ -31,14 +31,14 @@ Query.CLOSE
   
 -   When the **OPEN** function is called on a dataset that is currently open.  
   
--   When the [SETFILTER Function \(Query\)](../dynamics-nav/SETFILTER-Function--Query-.md) or [SETRANGE Function \(Query\)](../dynamics-nav/SETRANGE-Function--Query-.md) are called on a dataset that is currently open.  
+-   When the [SETFILTER Function \(Query\)](SETFILTER-Function--Query-.md) or [SETRANGE Function \(Query\)](SETRANGE-Function--Query-.md) are called on a dataset that is currently open.  
   
 ## Example  
  The following example demonstrates how to use the **CLOSE** function on a query. The example code sets filters on the query, opens the query, and then reads the dataset. For each row in the dataset, a message box is displayed that contains the values of the columns in the row.  
   
  This example requires that you do the following:  
   
--   Create a query called **Customer\_SalesQuantity** that is links table **18 Customer** with table  **37 Sales Lines** from the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)]. Include columns for the **Name** and **No.** fields from the Customer table and the **Quantity** field from Sales Lines table.  
+-   Create a query called **Customer\_SalesQuantity** that is links table **18 Customer** with table  **37 Sales Lines** from the [!INCLUDE[demolong](includes/demolong_md.md)]. Include columns for the **Name** and **No.** fields from the Customer table and the **Quantity** field from Sales Lines table.  
   
      For step\-by\-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
   
@@ -70,5 +70,5 @@ MyQuery.CLOSE;
   
 ## See Also  
  [How to: Create Queries](../Topic/How%20to:%20Create%20Queries.md)   
- [Working with Queries in C\-AL](../dynamics-nav/Working-with-Queries-in-C-AL.md)   
- [Queries](../dynamics-nav/Queries.md)
+ [Working with Queries in C\-AL](Working-with-Queries-in-C-AL.md)   
+ [Queries](Queries.md)

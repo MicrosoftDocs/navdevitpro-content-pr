@@ -18,7 +18,7 @@ You can expand your transaction log by increasing the size of one or more of its
   
 ### To increase the size of a transaction log file  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **Alter**. The **Alter Database** window opens.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **Alter**. The **Alter Database** window opens.  
   
 2.  Choose the **Transaction Log Files** tab.  
   
@@ -32,5 +32,5 @@ You can expand your transaction log by increasing the size of one or more of its
 5.  \(optional\) To increase the maximum size of a data file, in the **Maximum Size \(MB\)** field, enter the new maximum size.  
   
 ## See Also  
- [Altering Databases \- Transaction Log Files Tab](../dynamics-nav/Altering-Databases---Transaction-Log-Files-Tab.md)   
+ [Altering Databases \- Transaction Log Files Tab](Altering-Databases---Transaction-Log-Files-Tab.md)   
  [How to: Add New Transaction Log Files](../Topic/How%20to:%20Add%20New%20Transaction%20Log%20Files.md)

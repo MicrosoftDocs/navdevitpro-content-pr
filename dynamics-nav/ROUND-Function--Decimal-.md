@@ -97,7 +97,7 @@ MESSAGE(Text000, Format(DecimalToRound,0,1), Precision, Direction, Result);
  When you round up \('\>'\) a negative number, such as \-1234.56789, it is rounded up to \-1234.568. However, \-1234.568 is a mathematically smaller value than \-1234.56789.  
   
 ## See Also  
- [ABS Function \(Decimal, Integer, BigInteger\)](../dynamics-nav/ABS-Function--Decimal--Integer--BigInteger-.md)   
- [POWER Function \(Decimal, Integer, BigInteger\)](../dynamics-nav/POWER-Function--Decimal--Integer--BigInteger-.md)   
- [RANDOM Function \(Integer\)](../dynamics-nav/RANDOM-Function--Integer-.md)   
- [RANDOMIZE Function \(Integer\)](../dynamics-nav/RANDOMIZE-Function--Integer-.md)
+ [ABS Function \(Decimal, Integer, BigInteger\)](ABS-Function--Decimal--Integer--BigInteger-.md)   
+ [POWER Function \(Decimal, Integer, BigInteger\)](POWER-Function--Decimal--Integer--BigInteger-.md)   
+ [RANDOM Function \(Integer\)](RANDOM-Function--Integer-.md)   
+ [RANDOMIZE Function \(Integer\)](RANDOMIZE-Function--Integer-.md)

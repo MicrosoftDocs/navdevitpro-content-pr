@@ -29,12 +29,12 @@ Activates the debugger and attaches the debugger to the next session that is sta
 ## Remarks  
  The **ACTIVATE** function behaves like the **Debug Next** action on the **Sessions** page.  
   
- You can call either the **ACTIVATE** function or the [ATTACH Function \(Debugger\)](../dynamics-nav/ATTACH-Function--Debugger-.md) to activate the debugger.  
+ You can call either the **ACTIVATE** function or the [ATTACH Function \(Debugger\)](ATTACH-Function--Debugger-.md) to activate the debugger.  
   
- The **ACTIVATE** function is not supported by the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]. If the **ACTIVATE** function is called from a page in the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], you receive a runtime error with a message that is similar to the following:  
+ The **ACTIVATE** function is not supported by the [!INCLUDE[nav_web](includes/nav_web_md.md)]. If the **ACTIVATE** function is called from a page in the [!INCLUDE[nav_web](includes/nav_web_md.md)], you receive a runtime error with a message that is similar to the following:  
   
  **The Ribbon Tab with id: "MBSCC.1A7.1A7" has not been made available for this page or does not exist. Use Ribbon.MakeTabAvailable\(\).**  
   
 ## See Also  
- [Activating the Debugger](../dynamics-nav/Activating-the-Debugger.md)   
- [DEACTIVATE Function \(Debugger\)](../dynamics-nav/DEACTIVATE-Function--Debugger-.md)
+ [Activating the Debugger](Activating-the-Debugger.md)   
+ [DEACTIVATE Function \(Debugger\)](DEACTIVATE-Function--Debugger-.md)

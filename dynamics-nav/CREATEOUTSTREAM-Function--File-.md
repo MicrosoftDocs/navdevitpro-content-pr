@@ -10,7 +10,7 @@ ms.assetid: ec9c0df4-30e3-4481-8710-6756178b4b19
 caps.latest.revision: 14
 ---
 # CREATEOUTSTREAM Function (File)
-Creates an [OutStream](../dynamics-nav/OutStream.md) object for a file. This enables you to export or write data to the file.  
+Creates an [OutStream](OutStream.md) object for a file. This enables you to export or write data to the file.  
   
 ## Syntax  
   
@@ -31,7 +31,7 @@ File.CreateOutStream(Stream)
  For more information, see [How to: Use Streams to Write to Text Files](../Topic/How%20to:%20Use%20Streams%20to%20Write%20to%20Text%20Files.md).  
   
 ## Example  
- The following example uses the CREATEOUTSTREAM function to export data from a table to an XML document. The code uses the [CREATE Function \(File\)](../dynamics-nav/CREATE-Function--File-.md) to create an XML file that is named CustXmlFile.xml in a folder that is named xmlData on drive C. The [CREATEOUTSTREAM Function \(FILE\)](../dynamics-nav/CREATEOUTSTREAM-Function--File-.md) opens a data stream to output the data from the table to the XML file. The [EXPORT Function \(XMLport\)](../dynamics-nav/EXPORT-Function--XMLport-.md) then exports the data and saves it at the specified location. The [CLOSE Function \(File\)](../dynamics-nav/CLOSE-Function--File-.md) closes the data stream. This example assumes that you have created a folder named xmlData on drive C. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ The following example uses the CREATEOUTSTREAM function to export data from a table to an XML document. The code uses the [CREATE Function \(File\)](CREATE-Function--File-.md) to create an XML file that is named CustXmlFile.xml in a folder that is named xmlData on drive C. The [CREATEOUTSTREAM Function \(FILE\)](CREATEOUTSTREAM-Function--File-.md) opens a data stream to output the data from the table to the XML file. The [EXPORT Function \(XMLport\)](EXPORT-Function--XMLport-.md) then exports the data and saves it at the specified location. The [CLOSE Function \(File\)](CLOSE-Function--File-.md) closes the data stream. This example assumes that you have created a folder named xmlData on drive C. This example requires that you create the following variables in the **C\/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
@@ -49,4 +49,4 @@ CustXmlFile.CLOSE;
 ```  
   
 ## See Also  
- [File Data Type](../dynamics-nav/File-Data-Type.md)
+ [File Data Type](File-Data-Type.md)

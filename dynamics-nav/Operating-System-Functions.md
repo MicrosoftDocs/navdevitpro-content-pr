@@ -13,12 +13,12 @@ manager: pchapman
 # Operating System Functions
 This section contains the following topics:  
   
--   [APPLICATIONPATH Function](../dynamics-nav/APPLICATIONPATH-Function.md)  
+-   [APPLICATIONPATH Function](APPLICATIONPATH-Function.md)  
   
--   [GUIALLOWED Function](../dynamics-nav/GUIALLOWED-Function.md)  
+-   [GUIALLOWED Function](GUIALLOWED-Function.md)  
   
--   [HYPERLINK Function](../dynamics-nav/HYPERLINK-Function.md)  
+-   [HYPERLINK Function](HYPERLINK-Function.md)  
   
--   [SLEEP Function](../dynamics-nav/SLEEP-Function.md)  
+-   [SLEEP Function](SLEEP-Function.md)  
   
--   [TEMPORARYPATH Function](../dynamics-nav/TEMPORARYPATH-Function.md)
+-   [TEMPORARYPATH Function](TEMPORARYPATH-Function.md)

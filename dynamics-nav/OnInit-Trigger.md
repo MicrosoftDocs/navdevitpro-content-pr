@@ -19,10 +19,10 @@ Initializes the user\-defined variables on the page.
 ## Remarks  
  The C\/AL code in this trigger is executed immediately after the variables are cleared and the page is loaded. This trigger cannot be used to access the controls on the page. You can change properties that are dynamic, including those properties that can only be changed when the page is opened.  
   
- After this trigger is executed, the [OnOpenPage Trigger](../dynamics-nav/OnOpenPage-Trigger.md) for pages is called. If an error occurs in the trigger code, then the page is closed.  
+ After this trigger is executed, the [OnOpenPage Trigger](OnOpenPage-Trigger.md) for pages is called. If an error occurs in the trigger code, then the page is closed.  
   
 > [!NOTE]  
->  The OnInit trigger does not support calls to control add\-in methods and properties because the trigger is invoked before the page is instantiated. For more information see, [Exposing Methods and Properties in a Windows Client Control Add\-in](../dynamics-nav/Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md).  
+>  The OnInit trigger does not support calls to control add\-in methods and properties because the trigger is invoked before the page is instantiated. For more information see, [Exposing Methods and Properties in a Windows Client Control Add\-in](Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md).  
   
 ## See Also  
- [Triggers](../dynamics-nav/Triggers.md)
+ [Triggers](Triggers.md)

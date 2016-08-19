@@ -11,7 +11,7 @@ caps.latest.revision: 6
 manager: pchapman
 ---
 # Table and Field Triggers
-[!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] recognizes certain actions that happen to a table when you use it, for example, that you insert or modify data. In response, you can set up [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] to execute C\/AL code defined in a trigger. Triggers are predefined functions that are executed when certain actions happen. The bodies of these functions are initially empty and must be defined by the developer. Defining C\/AL code in triggers allows you to change the default behavior of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+[!INCLUDE[navnow](includes/navnow_md.md)] recognizes certain actions that happen to a table when you use it, for example, that you insert or modify data. In response, you can set up [!INCLUDE[navnow](includes/navnow_md.md)] to execute C\/AL code defined in a trigger. Triggers are predefined functions that are executed when certain actions happen. The bodies of these functions are initially empty and must be defined by the developer. Defining C\/AL code in triggers allows you to change the default behavior of [!INCLUDE[navnow](includes/navnow_md.md)].  
   
  The triggers in a table can be divided into two categories:  
   
@@ -23,17 +23,17 @@ manager: pchapman
   
 |Table trigger|Executes when|  
 |-------------------|-------------------|  
-|[OnInsert Trigger](../dynamics-nav/OnInsert-Trigger.md)|A new record is inserted into the table.|  
-|[OnModify Trigger](../dynamics-nav/OnModify-Trigger.md)|A record in the table is modified.|  
-|[OnDelete Trigger](../dynamics-nav/OnDelete-Trigger.md)|A record in the table is deleted.|  
-|[OnRename Trigger](../dynamics-nav/OnRename-Trigger.md)|A record is modified in a primary key field.|  
+|[OnInsert Trigger](OnInsert-Trigger.md)|A new record is inserted into the table.|  
+|[OnModify Trigger](OnModify-Trigger.md)|A record in the table is modified.|  
+|[OnDelete Trigger](OnDelete-Trigger.md)|A record in the table is deleted.|  
+|[OnRename Trigger](OnRename-Trigger.md)|A record is modified in a primary key field.|  
   
  Fields have the following triggers.  
   
 |Field trigger|Executes when|  
 |-------------------|-------------------|  
-|[OnValidate \(Fields\) Trigger](../dynamics-nav/OnValidate--Fields--Trigger.md)|Data is entered in a field or when the [VALIDATE Function \(Record\)](../dynamics-nav/VALIDATE-Function--Record-.md) is executed.|  
-|[OnLookup \(Fields\) Trigger](../dynamics-nav/OnLookup--Fields--Trigger.md)|Lookup is activated.|  
+|[OnValidate \(Fields\) Trigger](OnValidate--Fields--Trigger.md)|Data is entered in a field or when the [VALIDATE Function \(Record\)](VALIDATE-Function--Record-.md) is executed.|  
+|[OnLookup \(Fields\) Trigger](OnLookup--Fields--Trigger.md)|Lookup is activated.|  
   
 ## See Also  
  [How to: Define or Modify Table or Field Triggers](../Topic/How%20to:%20Define%20or%20Modify%20Table%20or%20Field%20Triggers.md)

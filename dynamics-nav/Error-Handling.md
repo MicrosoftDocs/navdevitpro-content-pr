@@ -13,15 +13,15 @@ manager: terryaus
 # Error Handling
 This section contains the following topics:  
   
--   [CLEARLASTERROR Function](../dynamics-nav/CLEARLASTERROR-Function.md)  
+-   [CLEARLASTERROR Function](CLEARLASTERROR-Function.md)  
   
--   [GETLASTERRORCALLSTACK Function](../dynamics-nav/GETLASTERRORCALLSTACK-Function.md)  
+-   [GETLASTERRORCALLSTACK Function](GETLASTERRORCALLSTACK-Function.md)  
   
--   [GETLASTERRORCODE Function](../dynamics-nav/GETLASTERRORCODE-Function.md)  
+-   [GETLASTERRORCODE Function](GETLASTERRORCODE-Function.md)  
   
--   [GETLASTERROROBJECT Function](../dynamics-nav/GETLASTERROROBJECT-Function.md)  
+-   [GETLASTERROROBJECT Function](GETLASTERROROBJECT-Function.md)  
   
--   [GETLASTERRORTEXT Function](../dynamics-nav/GETLASTERRORTEXT-Function.md)  
+-   [GETLASTERRORTEXT Function](GETLASTERRORTEXT-Function.md)  
   
 ## See Also  
- [ERROR Function \(Dialog\)](../dynamics-nav/ERROR-Function--Dialog-.md)
+ [ERROR Function \(Dialog\)](ERROR-Function--Dialog-.md)

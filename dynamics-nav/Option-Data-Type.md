@@ -14,9 +14,9 @@ manager: pchapman
 This simple data type denotes an option value.  
   
 ## Remarks  
- In the [OptionString Property](../dynamics-nav/OptionString-Property.md) of the field or variable, you can enter the option values as a comma\-separated list. The Option type is a zero\-based enumerator type, which means that the option values are assigned to sequential numbers, starting with 0. You can convert option data types to integers.  
+ In the [OptionString Property](OptionString-Property.md) of the field or variable, you can enter the option values as a comma\-separated list. The Option type is a zero\-based enumerator type, which means that the option values are assigned to sequential numbers, starting with 0. You can convert option data types to integers.  
   
- For more information about option variables in multilanguage\-enabled applications, see [Developing Multilanguage\-Enabled Applications](../dynamics-nav/Developing-Multilanguage-Enabled-Applications.md).  
+ For more information about option variables in multilanguage\-enabled applications, see [Developing Multilanguage\-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  
   
 ## Example  
  In the Purchase Header table, the Status field is an Option data type. In the following example, the option value is converted into an integer. This example requires that you create the following variables.  

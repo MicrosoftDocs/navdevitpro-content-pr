@@ -20,4 +20,4 @@ Executed after a record is retrieved from a table and before it is exported to t
  This trigger is only used to export data. It is typically used to manipulate the fields that are being exported from the table and to calculate the variables that depend on the record.  
   
 ## See Also  
- [Triggers](../dynamics-nav/Triggers.md)
+ [Triggers](Triggers.md)

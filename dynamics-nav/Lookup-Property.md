@@ -24,4 +24,4 @@ Use this property to provide a lookup window for a text box.
  By default, a lookup provides a list of records in the table. Using this list, users can select a record and retrieve information from it into this control.  
   
 ## See Also  
- [LookupPageID Property](../dynamics-nav/LookupPageID-Property.md)
+ [LookupPageID Property](LookupPageID-Property.md)

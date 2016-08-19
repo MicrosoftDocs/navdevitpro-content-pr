@@ -23,4 +23,4 @@ Sets whether user\-specific control values are saved for this page.
  This information is saved in the Page Data Personalization table.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

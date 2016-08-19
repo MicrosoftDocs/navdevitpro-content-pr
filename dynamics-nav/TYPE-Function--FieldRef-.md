@@ -53,4 +53,4 @@ END;
 ```  
   
 ## See Also  
- [FieldRef Data Type](../dynamics-nav/FieldRef-Data-Type.md)
+ [FieldRef Data Type](FieldRef-Data-Type.md)

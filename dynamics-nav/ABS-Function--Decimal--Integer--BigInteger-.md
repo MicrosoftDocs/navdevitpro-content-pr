@@ -56,7 +56,7 @@ MESSAGE(Text000, x, y);
  **x \= \-10.235, y \= 10.235**  
   
 ## See Also  
- [POWER Function \(Decimal, Integer, BigInteger\)](../dynamics-nav/POWER-Function--Decimal--Integer--BigInteger-.md)   
- [RANDOM Function \(Integer\)](../dynamics-nav/RANDOM-Function--Integer-.md)   
- [RANDOMIZE Function \(Integer\)](../dynamics-nav/RANDOMIZE-Function--Integer-.md)   
- [ROUND Function \(Decimal\)](../dynamics-nav/ROUND-Function--Decimal-.md)
+ [POWER Function \(Decimal, Integer, BigInteger\)](POWER-Function--Decimal--Integer--BigInteger-.md)   
+ [RANDOM Function \(Integer\)](RANDOM-Function--Integer-.md)   
+ [RANDOMIZE Function \(Integer\)](RANDOMIZE-Function--Integer-.md)   
+ [ROUND Function \(Decimal\)](ROUND-Function--Decimal-.md)

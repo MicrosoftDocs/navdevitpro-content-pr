@@ -11,7 +11,7 @@ caps.latest.revision: 9
 manager: terryaus
 ---
 # RUN Function (Page)
-Creates and launches a page that you specify. You can use [CLEAR Function](../dynamics-nav/CLEAR-Function.md) to remove the page.  
+Creates and launches a page that you specify. You can use [CLEAR Function](CLEAR-Function.md) to remove the page.  
   
 ## Syntax  
   
@@ -41,11 +41,11 @@ Page.RUN
  If the page you specify does not exist, you receive a compile error.  
   
 ## Remarks  
- If, at design time, you know the specific page that you want to run, then you can create a Page variable, set the Subtype of the variable to a specific page, and then use this function or the [RUNMODAL Function \(Page\)](../dynamics-nav/RUNMODAL-Function--Page-.md) on the Page variable.  
+ If, at design time, you know the specific page that you want to run, then you can create a Page variable, set the Subtype of the variable to a specific page, and then use this function or the [RUNMODAL Function \(Page\)](RUNMODAL-Function--Page-.md) on the Page variable.  
   
- If you do not know the page that you want to run, then use the [PAGE.RUN Function](../dynamics-nav/PAGE.RUN-Function.md) or the [PAGE.RUNMODAL Function](../dynamics-nav/PAGE.RUNMODAL-Function.md) and specify the page in the *Number* parameter.  
+ If you do not know the page that you want to run, then use the [PAGE.RUN Function](PAGE.RUN-Function.md) or the [PAGE.RUNMODAL Function](PAGE.RUNMODAL-Function.md) and specify the page in the *Number* parameter.  
   
- After you define the page variable, you can use it before you run the page. If you use the [RUNMODAL Function \(Page\)](../dynamics-nav/RUNMODAL-Function--Page-.md), you can use the variable before and after you run the page.  
+ After you define the page variable, you can use it before you run the page. If you use the [RUNMODAL Function \(Page\)](RUNMODAL-Function--Page-.md), you can use the variable before and after you run the page.  
   
 ## Example  
  This example shows how to use the **RUN** function. Assume the variable MyPage has been defined as Page 1.  
@@ -58,4 +58,4 @@ MyPage.RUN;
 ```  
   
 ## See Also  
- [Page Data Type](../dynamics-nav/Page-Data-Type.md)
+ [Page Data Type](Page-Data-Type.md)

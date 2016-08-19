@@ -93,8 +93,8 @@ MESSAGE('Now Filtergroup 0 filters, No. field: ' + Item.GETFILTER("No."));
  **Now Filtergroup 0 filters, No. field: 70000..79999**  
   
 ## See Also  
- [GETFILTERS Function \(Record\)](../dynamics-nav/GETFILTERS-Function--Record-.md)   
- [SETFILTER Function \(Record\)](../dynamics-nav/SETFILTER-Function--Record-.md)   
- [SETRANGE Function \(Record\)](../dynamics-nav/SETRANGE-Function--Record-.md)   
- [FILTERGROUP Function \(Record\)](../dynamics-nav/FILTERGROUP-Function--Record-.md)   
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [GETFILTERS Function \(Record\)](GETFILTERS-Function--Record-.md)   
+ [SETFILTER Function \(Record\)](SETFILTER-Function--Record-.md)   
+ [SETRANGE Function \(Record\)](SETRANGE-Function--Record-.md)   
+ [FILTERGROUP Function \(Record\)](FILTERGROUP-Function--Record-.md)   
+ [Record Data Type](Record-Data-Type.md)

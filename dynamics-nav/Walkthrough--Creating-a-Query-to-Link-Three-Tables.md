@@ -29,12 +29,12 @@ This walkthrough demonstrates how to create a query that links three tables. It 
 ## Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] with a developer license.  
   
--   [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+-   [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 ## Story  
- Viktor is a Microsoft Certified Partner working for [!INCLUDE[demoname](../dynamics-nav/includes/demoname_md.md)] He has been asked to create a query that displays the total number of items in each sales order for each salesperson. Viktor knows how to do this in SQL, but he wants to create a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] query.  
+ Viktor is a Microsoft Certified Partner working for [!INCLUDE[demoname](includes/demoname_md.md)] He has been asked to create a query that displays the total number of items in each sales order for each salesperson. Viktor knows how to do this in SQL, but he wants to create a [!INCLUDE[navnow](includes/navnow_md.md)] query.  
   
  The SQL query for this dataset that Viktor wants is the following:  
   
@@ -95,7 +95,7 @@ GROUP BY SP.Name
   
  The following figure shows the Query Designer for this example.  
   
- ![Query joins three tables](../dynamics-nav/media/Query_WalkthroughThreeTables.png "Query\_WalkthroughThreeTables")  
+ ![Query joins three tables](media/Query_WalkthroughThreeTables.png "Query\_WalkthroughThreeTables")  
   
 ## Specifying the Data Item Links  
  Viktor has added the data items and columns to the query, but he must specify how to link the data items to display the information he wants and eliminate unwanted records. For this query, Viktor wants the following:  
@@ -138,7 +138,7 @@ GROUP BY SP.Name
   
      The following figure shows the **SH Properties** window and Query Designer.  
   
-     ![Query that joins three tables](../dynamics-nav/media/Query_WalkthroughThreeTables_SH.png "Query\_WalkthroughThreeTables\_SH")  
+     ![Query that joins three tables](media/Query_WalkthroughThreeTables_SH.png "Query\_WalkthroughThreeTables\_SH")  
   
 12. Close the **SH Properties** window, and then link the **Sales Line** table and the **Sales Header** table.  
   
@@ -196,12 +196,12 @@ GROUP BY SP.Name
     > [!TIP]  
     >  Specifying a filter in the **DataItemTableFilter** property is equivalent to using a WHERE clause in an SQL statement.  
   
-     ![Query that joins three tables](../dynamics-nav/media/Query_WalkthroughThreeTables_SL.png "Query\_WalkthroughThreeTables\_SL")  
+     ![Query that joins three tables](media/Query_WalkthroughThreeTables_SL.png "Query\_WalkthroughThreeTables\_SL")  
   
 9. Close the **Sales\_Line – Properties** window,  
   
 ## Saving and Running the Query  
- Viktor has finished designing his query. He saves the query and then runs it to verify that the resulting dataset is what he wants. He runs the query from Object Designer. The call to run the query runs on [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] and opens a view of the dataset in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+ Viktor has finished designing his query. He saves the query and then runs it to verify that the resulting dataset is what he wants. He runs the query from Object Designer. The call to run the query runs on [!INCLUDE[nav_server](includes/nav_server_md.md)] and opens a view of the dataset in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
 #### To save and run the query  
   
@@ -211,10 +211,10 @@ GROUP BY SP.Name
   
 3.  In Object Designer, select query 50003, and then choose the **Run** button. When you run a query, you can see the data in the dataset.  
   
-     ![Result of query that joins three tables](../dynamics-nav/media/Query_WalkthroughThreeTables_Run.png "Query\_WalkthroughThreeTables\_Run")  
+     ![Result of query that joins three tables](media/Query_WalkthroughThreeTables_Run.png "Query\_WalkthroughThreeTables\_Run")  
   
 ## See Also  
- [Queries](../dynamics-nav/Queries.md)   
- [Understanding Data Item Links](../dynamics-nav/Understanding-Data-Item-Links.md)   
- [Understanding Query Filters](../dynamics-nav/Understanding-Query-Filters.md)   
- [Understanding Query Totals and Grouping](../dynamics-nav/Understanding-Query-Totals-and-Grouping.md)
+ [Queries](Queries.md)   
+ [Understanding Data Item Links](Understanding-Data-Item-Links.md)   
+ [Understanding Query Filters](Understanding-Query-Filters.md)   
+ [Understanding Query Totals and Grouping](Understanding-Query-Totals-and-Grouping.md)

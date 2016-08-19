@@ -23,4 +23,4 @@ Use this property when you select a control type in Page Designer.
 -   Field  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

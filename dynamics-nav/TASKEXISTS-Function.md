@@ -33,10 +33,10 @@ Exists := TASKEXISTS(Task)
 ## Remarks  
  Scheduled tasks are recorded in table **2000000175 Scheduled Task**. To see an example of CANCELTASK in use, refer to C\/AL code of table **472 Job Queue Entry**.  
   
- For more information about tasks and TASKSCEDULER data type functions, see managing tasks [Task Scheduler](../dynamics-nav/Task-Scheduler.md).  
+ For more information about tasks and TASKSCEDULER data type functions, see managing tasks [Task Scheduler](Task-Scheduler.md).  
   
 ## See Also  
- [TaskScheduler Data Type](../dynamics-nav/TaskScheduler-Data-Type.md)   
- [CREATETASK Function](../dynamics-nav/CREATETASK-Function.md)   
- [CANCELTASK Function](../dynamics-nav/CANCELTASK-Function.md)   
- [SETTASKASREADY Function](../dynamics-nav/SETTASKASREADY-Function.md)
+ [TaskScheduler Data Type](TaskScheduler-Data-Type.md)   
+ [CREATETASK Function](CREATETASK-Function.md)   
+ [CANCELTASK Function](CANCELTASK-Function.md)   
+ [SETTASKASREADY Function](SETTASKASREADY-Function.md)

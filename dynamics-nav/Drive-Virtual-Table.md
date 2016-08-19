@@ -26,4 +26,4 @@ The **Drive** virtual table gives you an overview of the logical drives on your 
 >  If there is no disk in your disk drive, the **SizeInKilobyte** and **FreeInKilobyte** fields will contain the value \-1.  
   
 ## See Also  
- [Virtual Tables](../dynamics-nav/Virtual-Tables.md)
+ [Virtual Tables](Virtual-Tables.md)

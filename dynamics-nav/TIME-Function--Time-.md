@@ -44,5 +44,5 @@ MESSAGE(Text000, TIME);
  **The current system time is 11:15:46 AM.**  
   
 ## See Also  
- [Time Data Type](../dynamics-nav/Time-Data-Type.md)   
- [Date and Time Functions](../dynamics-nav/Date-and-Time-Functions.md)
+ [Time Data Type](Time-Data-Type.md)   
+ [Date and Time Functions](Date-and-Time-Functions.md)

@@ -11,7 +11,7 @@ caps.latest.revision: 7
 manager: terryaus
 ---
 # Troubleshooting: Could not load type &#39;System.ServiceModel.Activation.HttpModule&#39; from assembly &#39;System.ServiceModel...&#39;
-When you try to access the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], you get the following error.  
+When you try to access the [!INCLUDE[nav_web](includes/nav_web_md.md)], you get the following error.  
   
  **Could not load type 'System.ServiceModel.Activation.HttpModule' from assembly 'System.ServiceModel, Version\=3.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089**  
   
@@ -22,7 +22,7 @@ When you try to access the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_m
   
 #### To register the correct version of ASP.NET  
   
-1.  On the computer that is running [!INCLUDE[nav_web_server](../dynamics-nav/includes/nav_web_server_md.md)], open a command prompt as an administrator as follows:  
+1.  On the computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], open a command prompt as an administrator as follows:  
   
     1.  From the **Start** menu, choose **All Programs**, and then choose **Accessories**.  
   
@@ -47,5 +47,5 @@ When you try to access the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_m
     ```  
   
 ## See Also  
- [Deploying the Microsoft Dynamics NAV Web Server Components](../dynamics-nav/Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
+ [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
  [How to: Install the Web Server Components](../Topic/How%20to:%20Install%20the%20Web%20Server%20Components.md)

@@ -27,4 +27,4 @@ Sets the value for the type of menu item.
  Specify the menu item properties using the menu item editor, which is available by selecting the **Menu Items** option on the **View** menu.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

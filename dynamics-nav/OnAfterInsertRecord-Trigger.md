@@ -19,7 +19,7 @@ Executed after a record has been inserted into a database table.
 ## Remarks  
  This trigger is only used to import data and can be used to move data from temporary tables to real tables.  
   
- If the [AutoSave Property](../dynamics-nav/AutoSave-Property.md) is **No**, then although the record is not inserted automatically, the OnAfterInsertRecord trigger is still called after the insertion would have occurred.  
+ If the [AutoSave Property](AutoSave-Property.md) is **No**, then although the record is not inserted automatically, the OnAfterInsertRecord trigger is still called after the insertion would have occurred.  
   
 ## See Also  
- [Triggers](../dynamics-nav/Triggers.md)
+ [Triggers](Triggers.md)

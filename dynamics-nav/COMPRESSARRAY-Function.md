@@ -40,7 +40,7 @@ Moves all non\-empty strings \(text\) in an array to the beginning of the array.
   
  For example, "Redmond", "Copenhagen", "", "Fargo", "Paris" is changed to "Redmond", "Copenhagen", "Fargo", "Paris", "".  
   
- In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], it is not supported to use the **COMPRESSARRAY** function on multidimensional arrays. In earlier versions, **COMPRESSARRAY** works for arrays of arrays.  
+ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], it is not supported to use the **COMPRESSARRAY** function on multidimensional arrays. In earlier versions, **COMPRESSARRAY** works for arrays of arrays.  
   
 ## Example  
  This example shows how to use the **COMPRESSARRAY** function. The input array has the following values.  
@@ -111,5 +111,5 @@ MESSAGE('After compression the address is: \%1\%2\%3\%4\%5\%6', CustomerData[1],
 >  Empty lines are not printed if they occur on the first or last line in a message window.  
   
 ## See Also  
- [ARRAYLEN Function](../dynamics-nav/ARRAYLEN-Function.md)   
- [COPYARRAY Function](../dynamics-nav/COPYARRAY-Function.md)
+ [ARRAYLEN Function](ARRAYLEN-Function.md)   
+ [COPYARRAY Function](COPYARRAY-Function.md)

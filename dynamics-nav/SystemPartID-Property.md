@@ -21,6 +21,6 @@ Sets pre\-defined system parts.
  The available options are: Outlook, Notes, MyNotes, RecordLinks, or None.  
   
 ## See Also  
- [PartType Property](../dynamics-nav/PartType-Property.md)   
- [PagePartID Property](../dynamics-nav/PagePartID-Property.md)   
- [ChartPartID Property](../dynamics-nav/ChartPartID-Property.md)
+ [PartType Property](PartType-Property.md)   
+ [PagePartID Property](PagePartID-Property.md)   
+ [ChartPartID Property](ChartPartID-Property.md)

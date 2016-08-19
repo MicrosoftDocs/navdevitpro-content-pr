@@ -13,27 +13,27 @@ manager: terryaus
 # Cash Flow Chart Example
 This code example demonstrates how to use the Business Data Chart control add\-in to create a chart that displays a cash flow forecast as shown in the following figure:  
   
- ![Shows a cash flow chart](../dynamics-nav/media/NAV_RTC_CashFlowChart.PNG "NAV\_RTC\_CashFlowChart")  
+ ![Shows a cash flow chart](media/NAV_RTC_CashFlowChart.PNG "NAV\_RTC\_CashFlowChart")  
   
  The cash flow forecast chart combines the current bank balances with the outstanding receivables and payables, and displays the data for the next six days, including the current day. The chart displays data for four measures: Accounts Receivable, Accounts Payable, Forecasted Balance, and Credit Limit in Banks. The data for the measures is displayed using the following chart types: stacked column, line, and step line.  
   
  The chart is interactive. When you choose a data point, a list appears that shows overdue customer ledger entries, vendor ledger entries, or bank accounts.  
   
 ## Cash Flow Chart Design  
- The chart is designed around enhanced performance, testability, and code reuse. The chart design separates the business logic and data handling from the chart rendition on the page. This improves performance because you can run the business logic on the computer running the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instead of the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] and limit the data calls between the client and server. The cash flow chart uses Microsoft .NET Interoperability to call Microsoft .NET Framework types from [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] objects to build the chart and populate it with data.  
+ The chart is designed around enhanced performance, testability, and code reuse. The chart design separates the business logic and data handling from the chart rendition on the page. This improves performance because you can run the business logic on the computer running the [!INCLUDE[nav_server](includes/nav_server_md.md)] instead of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and limit the data calls between the client and server. The cash flow chart uses Microsoft .NET Interoperability to call Microsoft .NET Framework types from [!INCLUDE[navnow](includes/navnow_md.md)] objects to build the chart and populate it with data.  
   
- The following figure illustrates the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] objects that are used to create the cash flow chart.  
+ The following figure illustrates the [!INCLUDE[navnow](includes/navnow_md.md)] objects that are used to create the cash flow chart.  
   
- ![Cash Flow chart design](../dynamics-nav/media/NAV_CSIDE_ClientServerCashFlowChart.png "NAV\_CSIDE\_ClientServerCashFlowChart")  
+ ![Cash Flow chart design](media/NAV_CSIDE_ClientServerCashFlowChart.png "NAV\_CSIDE\_ClientServerCashFlowChart")  
   
- *Page 50000 Demo Cash Flow Chart* contains the Business Data Chart control add\-in that renders the chart user\-interface on the page. The Business Data control add\-in is defined by the Microsoft.Dynamics.Nav.Client.BusinessChart assembly that is available by default in the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] installation.  
+ *Page 50000 Demo Cash Flow Chart* contains the Business Data Chart control add\-in that renders the chart user\-interface on the page. The Business Data control add\-in is defined by the Microsoft.Dynamics.Nav.Client.BusinessChart assembly that is available by default in the [!INCLUDE[navnow](includes/navnow_md.md)] installation.  
   
- *Table 485 Business Chart Buffer* temporarily holds the data for building the cash flow chart, such as the chart type, measures, and labels. The data is retrieved by page 50000 and passed to the Business Data Chart control add\-in. Table 485 is a default table that is available with the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] demo database. The table uses Microsoft .NET Framework interoperability to reference types in the System.Data assembly for building a data table that contains the chart data. You can use this table with other charts that are built on the Business Data control add\-in.  
+ *Table 485 Business Chart Buffer* temporarily holds the data for building the cash flow chart, such as the chart type, measures, and labels. The data is retrieved by page 50000 and passed to the Business Data Chart control add\-in. Table 485 is a default table that is available with the [!INCLUDE[navnow](includes/navnow_md.md)] demo database. The table uses Microsoft .NET Framework interoperability to reference types in the System.Data assembly for building a data table that contains the chart data. You can use this table with other charts that are built on the Business Data control add\-in.  
   
  *Codeunit 50000 Demo Cash Flow Chart Mgt.* contains the business logic for the cash flow chart and generates the data that is displayed in the chart.  
   
 ## Creating the Page for Displaying the Chart  
- The following code creates a CardPart type page that includes the Business Data Chart control add\-in and the C\/AL for displaying data. To create the page, copy the code to a text file, and then, in the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] development environment, import the text file. After you create the page, you can use it in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. For example, you can add it in a part on the Role Center page.  
+ The following code creates a CardPart type page that includes the Business Data Chart control add\-in and the C\/AL for displaying data. To create the page, copy the code to a text file, and then, in the [!INCLUDE[navnow](includes/navnow_md.md)] development environment, import the text file. After you create the page, you can use it in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For example, you can add it in a part on the Role Center page.  
   
 ```  
 OBJECT Page 50000 Demo Cash Flow Chart  
@@ -97,16 +97,16 @@ ControlAddIn=[Microsoft.Dynamics.Nav.Client.BusinessChart;PublicKeyToken=31bf385
 ### Understanding the Page Code  
  The following list explains some of the page’s C\/AL code:  
   
--   The page includes a single field that has its [ControlAddin Property](../dynamics-nav/ControlAddin-Property.md) set to the Microsoft.Dynamics.Nav.Client.BusinessChart assembly, which defines the Business Data Chart control add\-in.  
+-   The page includes a single field that has its [ControlAddin Property](ControlAddin-Property.md) set to the Microsoft.Dynamics.Nav.Client.BusinessChart assembly, which defines the Business Data Chart control add\-in.  
   
 -   The `Update` function populates the chart with data from the Business Chart Buffer table. The `Chart – AddinReady` trigger calls the `Update` function when the Business Chart control add\-in is loaded and ready on the page. Depending on your scenario, you could also call the `Update` function on the OnAfterGetRecord trigger, OnFind trigger, or on an action.  
   
--   The business logic has been isolated in codeunit  **50000 Demo Cash Flow Chart Mgt**. The page includes the **Business Chart Buffer** record variable that references table  **485 Business Chart Buffer**. The **Business Chart Buffer** record variable holds the chart data and updates the control add\-in when it is passed into the function Update. Note that we pass on CurrPage.Chart, for example, the chart add\-in to the function. The Microsoft.Dynamics.Nav.Client.BusinessChartData object is defined by a DotNet variable. The DotNet variable for the BusinessChartData object is configured to instantiate on the computer running the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]. This populates the object with data and properties without having the server calling the client. After the chart data has been generated, it is delivered to the Business Data chart control add\-in in a single call. The data that is transferred between the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] and the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] is automatically serialized. For more information, see [Serializing .NET Framework Types](../dynamics-nav/Serializing-.NET-Framework-Types.md).  
+-   The business logic has been isolated in codeunit  **50000 Demo Cash Flow Chart Mgt**. The page includes the **Business Chart Buffer** record variable that references table  **485 Business Chart Buffer**. The **Business Chart Buffer** record variable holds the chart data and updates the control add\-in when it is passed into the function Update. Note that we pass on CurrPage.Chart, for example, the chart add\-in to the function. The Microsoft.Dynamics.Nav.Client.BusinessChartData object is defined by a DotNet variable. The DotNet variable for the BusinessChartData object is configured to instantiate on the computer running the [!INCLUDE[nav_server](includes/nav_server_md.md)]. This populates the object with data and properties without having the server calling the client. After the chart data has been generated, it is delivered to the Business Data chart control add\-in in a single call. The data that is transferred between the [!INCLUDE[nav_server](includes/nav_server_md.md)] and the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is automatically serialized. For more information, see [Serializing .NET Framework Types](Serializing-.NET-Framework-Types.md).  
   
 -   The **OnDataPointClicked** trigger is called when you choose a data point or column in the cash flow chart. Depending on the data point or column that you choose, a list page appears that shows overdue customer ledger entries, vendor ledger entries or bank accounts. To improve code testability, the drill\-down logic for the **OnDataPointClicked** trigger is called from codeunit **50000 Demo Cash Flow Chart Mgt**. This construction allows you to test the data generation and drill\-down from code by calling functions on the codeunit.  
   
 ## Creating the Codeunit for Handling Data  
- The following code creates codeunit **50000 Demo Cash Flow Chart Mgt**. To create the codeunit, copy the code to a text file, and then, in the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], import the text file.  
+ The following code creates codeunit **50000 Demo Cash Flow Chart Mgt**. To create the codeunit, copy the code to a text file, and then, in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], import the text file.  
   
 ```  
 OBJECT Codeunit 50000 Demo Cash Flow Chart Mgt.  
@@ -272,7 +272,7 @@ OBJECT Codeunit 50000 Demo Cash Flow Chart Mgt.
 ### Understanding the GenerateData Function  
  Codeunit **50000** accesses data in the Cust. Ledger Entry table, the Vender Ledger Entry table, and the Bank Account table. The **GenerateData** function generates the data for the cash flow chart. The following figure shows the C\/AL code for the **GenerateData** function and how it maps to the cash flow chart user interface.  
   
- ![Shows the C&#47;AL for the Flow Chart codeunit](../dynamics-nav/media/NAV_CSIDE_ChartControlAddin_Codeunit.png "NAV\_CSIDE\_ChartControlAddin\_Codeunit")  
+ ![Shows the C&#47;AL for the Flow Chart codeunit](media/NAV_CSIDE_ChartControlAddin_Codeunit.png "NAV\_CSIDE\_ChartControlAddin\_Codeunit")  
   
  The C\/AL code sets the characteristics of the cash flow chart, including measure labels, chart types, and more. The functions that are called in **GenerateData** function are defined in table **485 Business Chart Buffer**. The following table describes the functions of the Business Chart Buffer table that you can use for defining the chart.  
   
@@ -287,11 +287,11 @@ OBJECT Codeunit 50000 Demo Cash Flow Chart Mgt.
 ### Understanding the Drill\-down Logic of the OnDataPointClicked Function  
  When you choose a data point or column in the cash flow chart, a list page appears that shows due customer ledger entries, vendor ledger entries, or bank accounts. To accomplish this, the **OnDataPointClicked** event trigger on page **50000 Demo Cash Flow Chart** is passed to the point object as a parameter. The point can then be passed on to the **SetDrillDownIndexes\(point\)** function that updates the **Drill\-Down X Index** and **Drill\-Down Measure Index** fields on the record. You use the **Drill\-Down X Index** and **Drill\-Down Measure Index** fields to retrieve the x\-axis value and measure value for filtering the list that you want to display. The following figure shows the C\/AL code on the **OnDataPointClicked** function.  
   
- ![Shows the C&#47;AL code on OnDataPointClicked function](../dynamics-nav/media/NAV_CSIDE_.png "NAV\_CSIDE\_")  
+ ![Shows the C&#47;AL code on OnDataPointClicked function](media/NAV_CSIDE_.png "NAV\_CSIDE\_")  
   
  The **OnDataPointClicked** function calls the **DrillDownCust** function, **DrillDownVend** function, and **DrillDownBank** function, which are shown in the following figure.  
   
- ![Shows the drill&#45;down functions used by chart](../dynamics-nav/media/NAV_CSIDE_CashFlowChart_DrillDownFunctions.png "NAV\_CSIDE\_CashFlowChart\_DrillDownFunctions")  
+ ![Shows the drill&#45;down functions used by chart](media/NAV_CSIDE_CashFlowChart_DrillDownFunctions.png "NAV\_CSIDE\_CashFlowChart\_DrillDownFunctions")  
   
 ## See Also  
- [Displaying Charts Using the Chart Control Add\-in](../dynamics-nav/Displaying-Charts-Using-the-Chart-Control-Add-in.md)
+ [Displaying Charts Using the Chart Control Add\-in](Displaying-Charts-Using-the-Chart-Control-Add-in.md)

@@ -67,5 +67,5 @@ MESSAGE('Array2, Total number of elements: %1', ARRAYLEN(Array2));
  **Array2, Total number of elements: 12**  
   
 ## See Also  
- [COMPRESSARRAY Function](../dynamics-nav/COMPRESSARRAY-Function.md)   
- [COPYARRAY Function](../dynamics-nav/COPYARRAY-Function.md)
+ [COMPRESSARRAY Function](COMPRESSARRAY-Function.md)   
+ [COPYARRAY Function](COPYARRAY-Function.md)

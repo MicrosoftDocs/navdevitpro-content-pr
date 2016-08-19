@@ -33,9 +33,9 @@ Unbinds the event subscriber functions from in the codeunit instance. This essen
  If you omit this optional return value and the operation is not successful, then a run\-time error occurs. If you include the return value, then you must handle any errors.  
   
 ## Remarks  
- You can only call this function on codeunits that have the [EventSubscriberInstance Property](../dynamics-nav/EventSubscriberInstance-Property.md) set to **Manual**.  
+ You can only call this function on codeunits that have the [EventSubscriberInstance Property](EventSubscriberInstance-Property.md) set to **Manual**.  
   
- Calling this function on a codeunit that has not been bound \(by the [BINDSUBSCRIPTION Function](../dynamics-nav/BINDSUBSCRIPTION-Function.md)\) will result in an error. If the call to this function is successfull, all bindings are removed.  
+ Calling this function on a codeunit that has not been bound \(by the [BINDSUBSCRIPTION Function](BINDSUBSCRIPTION-Function.md)\) will result in an error. If the call to this function is successfull, all bindings are removed.  
   
  The codeunit instance that is unbound will be the same instance that previously was bound.  
   
@@ -61,8 +61,8 @@ END;
 ```  
   
 ## See Also  
- [BINDSUBSCRIPTION Function](../dynamics-nav/BINDSUBSCRIPTION-Function.md)   
- [Events in Microsoft Dynamics NAV](../dynamics-nav/Events-in-Microsoft-Dynamics-NAV.md)   
- [Subscribing to Events](../dynamics-nav/Subscribing-to-Events.md)   
- [Raising Events](../dynamics-nav/Raising-Events.md)   
- [Publishing Events](../dynamics-nav/Publishing-Events.md)
+ [BINDSUBSCRIPTION Function](BINDSUBSCRIPTION-Function.md)   
+ [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)   
+ [Subscribing to Events](Subscribing-to-Events.md)   
+ [Raising Events](Raising-Events.md)   
+ [Publishing Events](Publishing-Events.md)

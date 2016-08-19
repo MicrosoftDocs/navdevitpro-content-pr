@@ -31,7 +31,7 @@ String := Record.GETPOSITION([UseNames])
 ## Property Value\/Return Value  
  Type: Text or code  
   
- The primary key of the current record. The string has the same format as the [SourceTable Property](../dynamics-nav/SourceTable-Property.md) on a page.  
+ The primary key of the current record. The string has the same format as the [SourceTable Property](SourceTable-Property.md) on a page.  
   
 ## Remarks  
  The *UseNames* parameter is optional. If it is set to **true** \(default value\) or if it is empty, then the returned string contains references to field names in the table with which the record is associated. If the parameter is set to **false**, then field numbers are used instead.  
@@ -50,4 +50,4 @@ MESSAGE(varPrimaryKey);
 ```  
   
 ## See Also  
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [Record Data Type](Record-Data-Type.md)

@@ -46,4 +46,4 @@ TestPage.Part.Fiter.SETFILTER(Field, String);
  The filter to apply to the specified field.  
   
 ## See Also  
- [TestPage Filter Functions](../dynamics-nav/TestPage-Filter-Functions.md)
+ [TestPage Filter Functions](TestPage-Filter-Functions.md)

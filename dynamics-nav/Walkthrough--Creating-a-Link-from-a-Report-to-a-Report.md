@@ -29,18 +29,18 @@ This walkthrough illustrates how to set up a report to include a link from the *
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] with a developer license.  
   
--   The [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+-   The [!INCLUDE[demolong](includes/demolong_md.md)].  
   
--   Microsoft Visual Studio installed. For more information about which version of Microsoft Visual Studio you need, see [System Requirements for Microsoft Dynamics NAV 2016](../dynamics-nav/System-Requirements-for-Microsoft-Dynamics-NAV-2016.md). This walkthrough assumes that Microsoft Visual Studio 2012 or Microsoft Visual Studio 2013 is used.  
+-   Microsoft Visual Studio installed. For more information about which version of Microsoft Visual Studio you need, see [System Requirements for Microsoft Dynamics NAV 2016](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md). This walkthrough assumes that Microsoft Visual Studio 2012 or Microsoft Visual Studio 2013 is used.  
   
 ## Enabling Hyperlinks on a Report  
- Before you can add a link from a report to another report, you must enable hyperlinks on the report. For more information, see [EnableHyperlinks Property](../dynamics-nav/EnableHyperlinks-Property.md).  
+ Before you can add a link from a report to another report, you must enable hyperlinks on the report. For more information, see [EnableHyperlinks Property](EnableHyperlinks-Property.md).  
   
 #### To enable hyperlinks on a report  
   
-1.  In the [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] Development Environment, on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Development Environment, on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **Report**, select report 111, the **Customer \- Top 10 List** report, and then choose **Design**. The Report Dataset Designer window opens.  
   
@@ -63,7 +63,7 @@ This walkthrough illustrates how to set up a report to include a link from the *
   
 2.  On the **View** menu, choose **Layout**. Visual Studio opens.  
   
-     If you are opening Visual Studio from [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] for the first time you will choose your development environment. Otherwise, skip the next step.  
+     If you are opening Visual Studio from [!INCLUDE[navnow](includes/navnow_md.md)] for the first time you will choose your development environment. Otherwise, skip the next step.  
   
 3.  In the **Choose Your Development Default Environment** window, select **General Settings** and choose **Start Visual Studio**.  
   
@@ -128,7 +128,7 @@ This walkthrough illustrates how to set up a report to include a link from the *
   
 2.  In the **Save** window, verify that the **Compiled** check box is selected, and then choose **OK**.  
   
-3.  In the development environment , select the **Customer \- Top 10 List** report and choose **Run**. The **Edit\-Customer\- Top 10 List** page for report 111 opens in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+3.  In the development environment , select the **Customer \- Top 10 List** report and choose **Run**. The **Edit\-Customer\- Top 10 List** page for report 111 opens in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
 4.  Under **Options**, in the **Show** drop\-down list box, select **Balance \(LCY\)** and in the **Chart Type** drop\-down list box, select **Pie chart**.  
   
@@ -146,4 +146,4 @@ This walkthrough illustrates how to set up a report to include a link from the *
   
 ## See Also  
  [Walkthrough: Creating a Link from a Report to a Page](../Topic/Walkthrough:%20Creating%20a%20Link%20from%20a%20Report%20to%20a%20Page.md)   
- [Report Design Walkthroughs](../dynamics-nav/Report-Design-Walkthroughs.md)
+ [Report Design Walkthroughs](Report-Design-Walkthroughs.md)

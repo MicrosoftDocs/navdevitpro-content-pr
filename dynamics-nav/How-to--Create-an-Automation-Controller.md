@@ -11,7 +11,7 @@ caps.latest.revision: 18
 manager: terryaus
 ---
 # How to: Create an Automation Controller
-To implement Automation in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], create an Automation controller in C\/AL code of the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] object. By using variables that have an Automation data type, an Automation controller implements and runs Automation objects from an Automation server. This topic outlines the procedure for creating an Automation controller.  
+To implement Automation in [!INCLUDE[navnow](includes/navnow_md.md)], create an Automation controller in C\/AL code of the [!INCLUDE[navnow](includes/navnow_md.md)] object. By using variables that have an Automation data type, an Automation controller implements and runs Automation objects from an Automation server. This topic outlines the procedure for creating an Automation controller.  
   
 ### To create an Automation controller that uses an Automation server  
   
@@ -25,12 +25,12 @@ To implement Automation in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.
     CREATE(AutomationVariable [,True|False] ,True)  
     ```  
   
-     The last parameter must be set to **True** so that the automation controller targets the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+     The last parameter must be set to **True** so that the automation controller targets the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
     > [!NOTE]  
     >  You can also use define a Boolean type variable instead of setting the parameter to **True**. The variable must evaluate to **True** for the controller to be created at run time. If variable evaluates to **False**, then you will see an error at run time.  
   
-     For more information, see [CREATE Function \(Automation\)](../dynamics-nav/CREATE-Function--Automation-.md).  
+     For more information, see [CREATE Function \(Automation\)](CREATE-Function--Automation-.md).  
   
 4.  Use the methods and properties of the Automation server in your C\/AL code.  
   
@@ -41,7 +41,7 @@ To implement Automation in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.
  For examples of creating an Automation controller, see [Walkthrough: Using Automation to Write a Letter in Microsoft Office Word](../Topic/Walkthrough:%20Using%20Automation%20to%20Write%20a%20Letter%20in%20Microsoft%20Office%20Word.md) and [Walkthrough: Using Automation to Create a Graph in Microsoft Excel](../Topic/Walkthrough:%20Using%20Automation%20to%20Create%20a%20Graph%20in%20Microsoft%20Excel.md).  
   
 ## See Also  
- [Extending Microsoft Dynamics NAV Using COM](../dynamics-nav/Extending-Microsoft-Dynamics-NAV-Using-COM.md)   
- [Using COM Technologies in Microsoft Dynamics NAV](../dynamics-nav/Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md)   
- [COM Overview](../dynamics-nav/COM-Overview.md)   
- [Best Practices for Using Automation with the Microsoft Dynamics NAV Windows Client](../dynamics-nav/Best-Practices-for-Using-Automation-with-the-Microsoft-Dynamics-NAV-Windows-Client.md)
+ [Extending Microsoft Dynamics NAV Using COM](Extending-Microsoft-Dynamics-NAV-Using-COM.md)   
+ [Using COM Technologies in Microsoft Dynamics NAV](Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md)   
+ [COM Overview](COM-Overview.md)   
+ [Best Practices for Using Automation with the Microsoft Dynamics NAV Windows Client](Best-Practices-for-Using-Automation-with-the-Microsoft-Dynamics-NAV-Windows-Client.md)

@@ -29,7 +29,7 @@ SETTABLEVIEW(Record)
 ## Remarks  
  The table view is the view of the table that you present to the user. You determine what records that the user can see by setting filters, determining the sorting order, and selecting the keys.  
   
- This function only narrows the view of the table that was set through the [SourceTableView Property](../dynamics-nav/SourceTableView-Property.md) of the page or through the [DataItemTableView Property](../dynamics-nav/DataItemTableView-Property.md) of the data item.  
+ This function only narrows the view of the table that was set through the [SourceTableView Property](SourceTableView-Property.md) of the page or through the [DataItemTableView Property](DataItemTableView-Property.md) of the data item.  
   
 > [!IMPORTANT]  
 >  SETTABLEVIEW is not supported for setting views on subpages from code on table headers. For example, you cannot set a table view on the SalesOrder subpage from the SalesHeader.  
@@ -49,8 +49,8 @@ SomePage.SETTABLEVIEW(SalesHeader); // Only view sales orders.
 SomePage.RUN  
 ```  
   
- The page that is reference by the SomePage variable can be any page object that has Sales Header as the value of the [SourceTable Property](../dynamics-nav/SourceTable-Property.md).  
+ The page that is reference by the SomePage variable can be any page object that has Sales Header as the value of the [SourceTable Property](SourceTable-Property.md).  
   
 ## See Also  
- [Report Data Type](../dynamics-nav/Report-Data-Type.md)   
- [XMLport Data Type](../dynamics-nav/XMLport-Data-Type.md)
+ [Report Data Type](Report-Data-Type.md)   
+ [XMLport Data Type](XMLport-Data-Type.md)

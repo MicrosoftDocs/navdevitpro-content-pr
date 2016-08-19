@@ -22,10 +22,10 @@ Sets the object you want to run immediately when the action is activated.
   
  Use the following properties to set parameters for the object you want to run:  
   
--   [RunPageView Property](../dynamics-nav/RunPageView-Property.md)  
+-   [RunPageView Property](RunPageView-Property.md)  
   
--   [RunPageLink Property](../dynamics-nav/RunPageLink-Property.md)  
+-   [RunPageLink Property](RunPageLink-Property.md)  
   
 ## See Also  
- [RunPageView Property](../dynamics-nav/RunPageView-Property.md)   
- [RunPageLink Property](../dynamics-nav/RunPageLink-Property.md)
+ [RunPageView Property](RunPageView-Property.md)   
+ [RunPageLink Property](RunPageLink-Property.md)

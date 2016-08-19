@@ -22,4 +22,4 @@ Sets the menu level for a control. Levels are indicated by indentation.
  The number you enter indicates the relative level of the option. The default value is zero \(0\).  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

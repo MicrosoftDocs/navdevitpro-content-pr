@@ -22,7 +22,7 @@ Sets a value for a table field or UI element that determines the permission mask
 -   Page parts, such as **Lines** FastTabs  
   
 > [!NOTE]  
->  To use this property, the **UI Elements Removal** field in the [!INCLUDE[nav_admin](../dynamics-nav/includes/nav_admin_md.md)] must be set to **LicenseFile** or **LicenseFileAndUserPermissions**. For more information, see [How to: Specify When UI Elements Are Removed](../Topic/How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md).  
+>  To use this property, the **UI Elements Removal** field in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] must be set to **LicenseFile** or **LicenseFileAndUserPermissions**. For more information, see [How to: Specify When UI Elements Are Removed](../Topic/How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md).  
   
 ## Applies To  
   
@@ -39,7 +39,7 @@ Sets a value for a table field or UI element that determines the permission mask
 ## Property Value  
  When you choose the **AssistEdit** button, the **\($ S\_2180 Access By Permission $\)** window opens. Fill the fields as described in the following table.  
   
-|[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
 |**Object Type**|Specify the type of object to which permission is required to display the UI element.|  
 |**Object ID**|Specify the object to which permission is required to display the UI element.|  
@@ -62,7 +62,7 @@ Sets a value for a table field or UI element that determines the permission mask
   
 4.  In the **\($ S\_2180 Access By Permission $\)** window, fill the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+    |[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Object Type**|TableData|  
     |**Object ID**|Sales Price|  
@@ -80,18 +80,18 @@ Sets a value for a table field or UI element that determines the permission mask
 >  If you defined the property for a table field, then all instances of the field on pages are removed. To override the property on an individual page field, delete the permission value after the **\=** sign in the **Value** field. Do NOT delete the whole string as that will be replicated on the property of the table field.  
   
 > [!NOTE]  
->  To use the **LicenseFileAndUserPermissions** option in the **UI Elements Removal** field, you must assign the special FOUNDATION permission set to the user along with the relevant application permission sets that define which application objects the user will access. Unlike the BASIC permission set, the FOUNDATION permission set only grants access to application setup and system tables and requires that other assigned permission sets define which specific application objects can be accessed. For more information, see [Special Permission Sets](../dynamics-nav/Special-Permission-Sets.md).  
+>  To use the **LicenseFileAndUserPermissions** option in the **UI Elements Removal** field, you must assign the special FOUNDATION permission set to the user along with the relevant application permission sets that define which application objects the user will access. Unlike the BASIC permission set, the FOUNDATION permission set only grants access to application setup and system tables and requires that other assigned permission sets define which specific application objects can be accessed. For more information, see [Special Permission Sets](Special-Permission-Sets.md).  
 >   
->  Not all of the 167 default permission sets that are provided with [!INCLUDE[dyn_nav](../dynamics-nav/includes/dyn_nav_md.md)] are ready to support the FOUNDATION permission set to remove UI elements according to user permissions. You must therefore edit the relevant permission sets as explained in the following procedures.  
+>  Not all of the 167 default permission sets that are provided with [!INCLUDE[dyn_nav](includes/dyn_nav_md.md)] are ready to support the FOUNDATION permission set to remove UI elements according to user permissions. You must therefore edit the relevant permission sets as explained in the following procedures.  
 >   
->  To experience how UI elements are removed for a user performing the task to create and edit a new customer, you can create a sample user interface based on default permission sets provided with [!INCLUDE[dyn_nav](../dynamics-nav/includes/dyn_nav_md.md)]. For more information, see [How to: Try Out the UI Elements Removal Feature Based on Demonstration Permission Sets](../Topic/How%20to:%20Try%20Out%20the%20UI%20Elements%20Removal%20Feature%20Based%20on%20Demonstration%20Permission%20Sets.md).  
+>  To experience how UI elements are removed for a user performing the task to create and edit a new customer, you can create a sample user interface based on default permission sets provided with [!INCLUDE[dyn_nav](includes/dyn_nav_md.md)]. For more information, see [How to: Try Out the UI Elements Removal Feature Based on Demonstration Permission Sets](../Topic/How%20to:%20Try%20Out%20the%20UI%20Elements%20Removal%20Feature%20Based%20on%20Demonstration%20Permission%20Sets.md).  
   
 ## See Also  
  [How to: Remove UI Elements Using the AccessByPermission Property](../Topic/How%20to:%20Remove%20UI%20Elements%20Using%20the%20AccessByPermission%20Property.md)   
  [How to: Specify When UI Elements Are Removed](../Topic/How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md)   
- [\($ S\_2180 Access By Permission $\)](../dynamics-nav/-$-S_2180-Access-By-Permission-$-.md)   
+ [\($ S\_2180 Access By Permission $\)](-$-S_2180-Access-By-Permission-$-.md)   
  [How to: Try Out the UI Elements Removal Feature Based on Demonstration Permission Sets](../Topic/How%20to:%20Try%20Out%20the%20UI%20Elements%20Removal%20Feature%20Based%20on%20Demonstration%20Permission%20Sets.md)   
- [Removing Elements from the User Interface According to Permissions](../dynamics-nav/Removing-Elements-from-the-User-Interface-According-to-Permissions.md)   
- [Properties](../dynamics-nav/Properties.md)   
+ [Removing Elements from the User Interface According to Permissions](Removing-Elements-from-the-User-Interface-According-to-Permissions.md)   
+ [Properties](Properties.md)   
  [How to: Define Permissions for Users](../Topic/How%20to:%20Define%20Permissions%20for%20Users.md)   
- [Managing Permissions and Permission Sets](../dynamics-nav/Managing-Permissions-and-Permission-Sets.md)
+ [Managing Permissions and Permission Sets](Managing-Permissions-and-Permission-Sets.md)

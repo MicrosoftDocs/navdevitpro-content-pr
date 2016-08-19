@@ -20,12 +20,12 @@ BREAK;
  You typically use the BREAK statement in the repeating statements such as FOR, FOREACH, WHILE, or REPEAT to stop an iteration or loop when certain conditions are met.  
   
 > [!NOTE]  
->  The BREAK statement is different than the [BREAK Function \(Report, XMLport\)](../dynamics-nav/BREAK-Function--Report--XMLport-.md). Although both stop an iteration or loop, the BREAK function will also terminate the trigger is which it is run.  
+>  The BREAK statement is different than the [BREAK Function \(Report, XMLport\)](BREAK-Function--Report--XMLport-.md). Although both stop an iteration or loop, the BREAK function will also terminate the trigger is which it is run.  
   
 ## Example  
  The following code example loops through a .NET Framework collection that contains a generic list of elements and returns each element as text in a message. However, the BREAK statement terminates the iteration when the text equivalent of the element is *Item 2*.  
   
- Create the following local variables in a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] object, such as a codeunit.  
+ Create the following local variables in a [!INCLUDE[navnow](includes/navnow_md.md)] object, such as a codeunit.  
   
 |Variable|DataType|Subtype|  
 |--------------|--------------|-------------|  
@@ -53,7 +53,7 @@ FOREACH element IN mylist DO
   END;  
 ```  
   
- Compile and run the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] object.  
+ Compile and run the [!INCLUDE[navnow](includes/navnow_md.md)] object.  
   
 ## See Also  
- [C\-AL Repetitive Statements](../dynamics-nav/C-AL-Repetitive-Statements.md)
+ [C\-AL Repetitive Statements](C-AL-Repetitive-Statements.md)

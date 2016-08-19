@@ -11,7 +11,7 @@ caps.latest.revision: 20
 manager: terryaus
 ---
 # How to: Style Field Text on a Page
-A page field control includes the [Style Property\-duplicate](../dynamics-nav/Style-Property-duplicate.md) that you use to format the text that displays in a page field. The **Style** property has ten values that apply different formats to field text.  
+A page field control includes the [Style Property\-duplicate](Style-Property-duplicate.md) that you use to format the text that displays in a page field. The **Style** property has ten values that apply different formats to field text.  
   
  The following table describes the values and the corresponding format.  
   
@@ -28,7 +28,7 @@ A page field control includes the [Style Property\-duplicate](../dynamics-nav/St
 |**Ambiguous**|Yellow|  
 |**Subordinate**|Grey|  
   
- By using the field's [StyleExpr Property](../dynamics-nav/StyleExpr-Property.md), you can specify whether formatting is applied to the field based on the field’s data.  
+ By using the field's [StyleExpr Property](StyleExpr-Property.md), you can specify whether formatting is applied to the field based on the field’s data.  
   
 ## Always Applying a Format to Text in a Page Field  
  Use the following procedure to apply formatting to field text on a page at all times.  
@@ -59,7 +59,7 @@ A page field control includes the [Style Property\-duplicate](../dynamics-nav/St
 4.  On the **View** menu, choose **Properties** to open the variable's properties, and then set the **IncludeInDataSet** to **Yes**.  
   
     > [!NOTE]  
-    >  If the [IncludeInDataSet Property](../dynamics-nav/IncludeInDataSet-Property.md) is not set to **Yes**, then when you run the page, you will receive an error that states that the identifier variable could not be found.  
+    >  If the [IncludeInDataSet Property](IncludeInDataSet-Property.md) is not set to **Yes**, then when you run the page, you will receive an error that states that the identifier variable could not be found.  
   
 5.  On the **View** menu, choose **C\/AL Code**, and then add C\/AL code that sets the variable.  
   
@@ -75,6 +75,6 @@ A page field control includes the [Style Property\-duplicate](../dynamics-nav/St
 3.  Set the **StyleExpr** property value to the variable that you defined in the previous procedure.  
   
 ## See Also  
- [Style Property\-duplicate](../dynamics-nav/Style-Property-duplicate.md)   
- [StyleExpr Property](../dynamics-nav/StyleExpr-Property.md)   
- [IncludeInDataSet Property](../dynamics-nav/IncludeInDataSet-Property.md)
+ [Style Property\-duplicate](Style-Property-duplicate.md)   
+ [StyleExpr Property](StyleExpr-Property.md)   
+ [IncludeInDataSet Property](IncludeInDataSet-Property.md)

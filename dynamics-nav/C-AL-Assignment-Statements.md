@@ -30,7 +30,7 @@ Amount := 2 * Price;
 ```  
   
 ## Example  
- The following example assigns the return value of the [OPEN Function \(File\)](../dynamics-nav/OPEN-Function--File-.md) to a Boolean variable that you have defined.  
+ The following example assigns the return value of the [OPEN Function \(File\)](OPEN-Function--File-.md) to a Boolean variable that you have defined.  
   
 ```  
 OK := TestFile.OPEN('C:\temp\simple.xml');  
@@ -52,4 +52,4 @@ ELSE
 ```  
   
 ## See Also  
- [C\-AL Simple Statements](../dynamics-nav/C-AL-Simple-Statements.md)
+ [C\-AL Simple Statements](C-AL-Simple-Statements.md)

@@ -29,49 +29,49 @@ C\/AL uses variables to store data of various types. By declaring variables of t
 |Data type|Fundamental or complex|Other categories|  
 |---------------|----------------------------|----------------------|  
 |Action Data Type|Fundamental|Numeric|  
-|[BigInteger Data Type](../dynamics-nav/BigInteger-Data-Type.md)|Fundamental|Numeric|  
-|[Byte Data Type](../dynamics-nav/Byte-Data-Type.md)|Fundamental|Numeric|  
-|[Char Data Type](../dynamics-nav/Char-Data-Type.md)|Fundamental|Numeric|  
-|[Decimal Data Type](../dynamics-nav/Decimal-Data-Type.md)|Fundamental|Numeric|  
-|[Duration Data Type](../dynamics-nav/Duration-Data-Type.md)|Fundamental|Numeric|  
+|[BigInteger Data Type](BigInteger-Data-Type.md)|Fundamental|Numeric|  
+|[Byte Data Type](Byte-Data-Type.md)|Fundamental|Numeric|  
+|[Char Data Type](Char-Data-Type.md)|Fundamental|Numeric|  
+|[Decimal Data Type](Decimal-Data-Type.md)|Fundamental|Numeric|  
+|[Duration Data Type](Duration-Data-Type.md)|Fundamental|Numeric|  
 |EXECUTIONMODE Data Type|Fundamental|Numeric|  
 |FILTERPAGEBUILDER Data Type|Complex||  
-|[Integer Data Type](../dynamics-nav/Integer-Data-Type.md)|Fundamental|Numeric|  
-|[Option Data Type](../dynamics-nav/Option-Data-Type.md)|Fundamental|Numeric|  
-|[Code Data Type](../dynamics-nav/Code-Data-Type.md)|Fundamental|String|  
-|[Text Data Type](../dynamics-nav/Text-Data-Type.md)|Fundamental|String|  
-|[Boolean Data Type](../dynamics-nav/Boolean-Data-Type.md)|Fundamental||  
-|[Date Data Type](../dynamics-nav/Date-Data-Type.md)|Fundamental||  
-|[DateTime Data Type](../dynamics-nav/DateTime-Data-Type.md)|Fundamental||  
-|[Time Data Type](../dynamics-nav/Time-Data-Type.md)|Fundamental||  
-|[Automation Data Type](../dynamics-nav/Automation-Data-Type.md)|Complex||  
-|[BigText Data Type](../dynamics-nav/BigText-Data-Type.md)|Complex||  
-|[BLOB Data Type](../dynamics-nav/BLOB-Data-Type.md)|Complex||  
-|[Codeunit Data Type](../dynamics-nav/Codeunit-Data-Type.md)|Complex||  
-|[DateFormula Data Type](../dynamics-nav/DateFormula-Data-Type.md)|Complex||  
-|[Dialog Data Type](../dynamics-nav/Dialog-Data-Type.md)|Complex||  
+|[Integer Data Type](Integer-Data-Type.md)|Fundamental|Numeric|  
+|[Option Data Type](Option-Data-Type.md)|Fundamental|Numeric|  
+|[Code Data Type](Code-Data-Type.md)|Fundamental|String|  
+|[Text Data Type](Text-Data-Type.md)|Fundamental|String|  
+|[Boolean Data Type](Boolean-Data-Type.md)|Fundamental||  
+|[Date Data Type](Date-Data-Type.md)|Fundamental||  
+|[DateTime Data Type](DateTime-Data-Type.md)|Fundamental||  
+|[Time Data Type](Time-Data-Type.md)|Fundamental||  
+|[Automation Data Type](Automation-Data-Type.md)|Complex||  
+|[BigText Data Type](BigText-Data-Type.md)|Complex||  
+|[BLOB Data Type](BLOB-Data-Type.md)|Complex||  
+|[Codeunit Data Type](Codeunit-Data-Type.md)|Complex||  
+|[DateFormula Data Type](DateFormula-Data-Type.md)|Complex||  
+|[Dialog Data Type](Dialog-Data-Type.md)|Complex||  
 |DotNet Data Type|Complex||  
-|[File Data Type](../dynamics-nav/File-Data-Type.md)|Complex||  
-|[FieldRef Data Type](../dynamics-nav/FieldRef-Data-Type.md)|Complex||  
-|[GUID Data Type](../dynamics-nav/GUID-Data-Type.md)|Complex||  
-|[InStream and OutStream Data Types](../dynamics-nav/InStream-and-OutStream-Data-Types.md)|Complex||  
-|[KeyRef Data Type](../dynamics-nav/KeyRef-Data-Type.md)|Complex||  
-|[OCX Data Type](../dynamics-nav/OCX-Data-Type.md)|Complex||  
-|[Page Data Type](../dynamics-nav/Page-Data-Type.md)|Complex||  
-|[Query Data Type](../dynamics-nav/Query-Data-Type.md)|Complex||  
-|[Record Data Type](../dynamics-nav/Record-Data-Type.md)|Complex||  
-|[RecordID Data Type](../dynamics-nav/RecordID-Data-Type.md)|Complex||  
-|[RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md)|Complex||  
-|[Report Data Type](../dynamics-nav/Report-Data-Type.md)|Complex||  
-|[System](../dynamics-nav/System.md)|Complex||  
-|[TableFilter Data Type](../dynamics-nav/TableFilter-Data-Type.md)|Complex||  
-|[Variant Data Type](../dynamics-nav/Variant-Data-Type.md)|Complex||  
+|[File Data Type](File-Data-Type.md)|Complex||  
+|[FieldRef Data Type](FieldRef-Data-Type.md)|Complex||  
+|[GUID Data Type](GUID-Data-Type.md)|Complex||  
+|[InStream and OutStream Data Types](InStream-and-OutStream-Data-Types.md)|Complex||  
+|[KeyRef Data Type](KeyRef-Data-Type.md)|Complex||  
+|[OCX Data Type](OCX-Data-Type.md)|Complex||  
+|[Page Data Type](Page-Data-Type.md)|Complex||  
+|[Query Data Type](Query-Data-Type.md)|Complex||  
+|[Record Data Type](Record-Data-Type.md)|Complex||  
+|[RecordID Data Type](RecordID-Data-Type.md)|Complex||  
+|[RecordRef Data Type](RecordRef-Data-Type.md)|Complex||  
+|[Report Data Type](Report-Data-Type.md)|Complex||  
+|[System](System.md)|Complex||  
+|[TableFilter Data Type](TableFilter-Data-Type.md)|Complex||  
+|[Variant Data Type](Variant-Data-Type.md)|Complex||  
   
 ### Fundamental Data Types  
  Fundamental data types are designed to store Boolean values, numbers, text, time, and dates.  
   
 #### Action Data Type  
- The Action data type specifies what action a user performs on a page. The [PAGE.RUNMODAL Function](../dynamics-nav/PAGE.RUNMODAL-Function.md) and the [RUNMODAL Function \(Page\)](../dynamics-nav/RUNMODAL-Function--Page-.md) return an Action data type value. The possible values are the following:  
+ The Action data type specifies what action a user performs on a page. The [PAGE.RUNMODAL Function](PAGE.RUNMODAL-Function.md) and the [RUNMODAL Function \(Page\)](RUNMODAL-Function--Page-.md) return an Action data type value. The possible values are the following:  
   
 -   OK  
   
@@ -117,7 +117,7 @@ C := 65;
  The Char data type stores a single character. This data type can be converted between a number and a character. This means that you can use the same mathematical operators as you can with a variable of a numeric data type.  
   
 #### Decimal Data Type  
- In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], the Decimal data type represents decimal numbers ranging from \-10\+E63 to \+10\+E63. The exponent ranges from \-63 to \+63. Decimal numbers are held in memory with 18 significant digits. Although you can store decimal numbers ranging from \-10\+E63 to \+10\+E63, you cannot specify a number outside the range \+\/\- 999,999,999,999,999.99 in the UI or in code.  
+ In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], the Decimal data type represents decimal numbers ranging from \-10\+E63 to \+10\+E63. The exponent ranges from \-63 to \+63. Decimal numbers are held in memory with 18 significant digits. Although you can store decimal numbers ranging from \-10\+E63 to \+10\+E63, you cannot specify a number outside the range \+\/\- 999,999,999,999,999.99 in the UI or in code.  
   
  In SQL Server, you can store a decimal number with up to 18 digits and 20 decimal place digits. However, if a number is more than 15 digits, then you cannot enter it in SQL Server or view it in the UI.  
   
@@ -148,7 +148,7 @@ MESSAGE(FORMAT(Duration));
  **124 days 4 hours 30 minutes 1 second**  
   
 #### ExecutionMode Data Type  
- The ExecutionMode data type specifies the mode in which a session is running. The [CURRENTEXECUTIONMODE Function \(Sessions\)](../dynamics-nav/CURRENTEXECUTIONMODE-Function--Sessions-.md) returns an ExecutionMode data type value.  
+ The ExecutionMode data type specifies the mode in which a session is running. The [CURRENTEXECUTIONMODE Function \(Sessions\)](CURRENTEXECUTIONMODE-Function--Sessions-.md) returns an ExecutionMode data type value.  
   
  The execution mode is one of the following:  
   
@@ -195,7 +195,7 @@ Number := "Purchase Header".Type;
 |t :\= 'AbC'|The variable t now contains "AbC"|  
 |t :\= '123456abx';|Gives a run\-time error because the length \(9\) exceeds the maximum length \(6\)|  
   
- When you use the Text and Code data types, make sure that you distinguish between the maximum length of the string and the actual length of the string. The maximum length is the upper limit for the number of characters in the string. The actual length describes the number of characters that are used in the string. The [STRLEN Function \(Code, Text\)](../dynamics-nav/STRLEN-Function--Code--Text-.md) and the [MAXSTRLEN Function \(Code, Text\)](../dynamics-nav/MAXSTRLEN-Function--Code--Text-.md) illustrate this.  
+ When you use the Text and Code data types, make sure that you distinguish between the maximum length of the string and the actual length of the string. The maximum length is the upper limit for the number of characters in the string. The actual length describes the number of characters that are used in the string. The [STRLEN Function \(Code, Text\)](STRLEN-Function--Code--Text-.md) and the [MAXSTRLEN Function \(Code, Text\)](MAXSTRLEN-Function--Code--Text-.md) illustrate this.  
   
 ```  
 t := 'AbC';  
@@ -215,7 +215,7 @@ MAXSTRLEN(t); // Returns 6.
  All dates have a corresponding closing date. The closing date for a given date is regarded as a period following the given date but before the next regular date. A closing date is therefore sorted immediately after the corresponding regular date but before the next regular date.  
   
 #### DateTime Data Type  
- The DateTime data type represents a date and the time of day. The DateTime is stored in the database as Coordinated Universal Time \(UTC\). UTC is the international time standard \(formerly Greenwich Mean Time, or GMT\). Zero hours UTC is midnight at 0 degrees longitude. The DateTime is always displayed as local time in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)]. Local time is determined by the time zone regional settings that are used by your computer. You must always enter DateTimes as local time. When you enter a DateTime as local time, it is converted to UTC using the current settings for the time zone and daylight saving time.  
+ The DateTime data type represents a date and the time of day. The DateTime is stored in the database as Coordinated Universal Time \(UTC\). UTC is the international time standard \(formerly Greenwich Mean Time, or GMT\). Zero hours UTC is midnight at 0 degrees longitude. The DateTime is always displayed as local time in [!INCLUDE[navnow](includes/navnow_md.md)]. Local time is determined by the time zone regional settings that are used by your computer. You must always enter DateTimes as local time. When you enter a DateTime as local time, it is converted to UTC using the current settings for the time zone and daylight saving time.  
   
  There is only one constant available when you use this data type: undefined datetime, which is expressed as 0DT.  
   
@@ -225,7 +225,7 @@ MAXSTRLEN(t); // Returns 6.
   
  Any DateTimes that are not within this range and that you try to enter or construct by, for example, adding a DateTime to a Duration, are regarded as undefined DateTimes and give an error message.  
   
- Undefined dates in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] are stored as January 1, 1753, 00:00:00.000, which is the earliest permitted DateTime in SQL Server.  
+ Undefined dates in [!INCLUDE[navnow](includes/navnow_md.md)] are stored as January 1, 1753, 00:00:00.000, which is the earliest permitted DateTime in SQL Server.  
   
 #### Time Data Type  
  The Time data type represents a time ranging from 00:00:00 to 23:59:59.999. An undefined time is expressed as 0T.  
@@ -260,22 +260,22 @@ MAXSTRLEN(t); // Returns 6.
  You cannot create any other objects.  
   
 #### Automation Data Type  
- For more information about the Automation data type, see [Extending Microsoft Dynamics NAV Using COM](../dynamics-nav/Extending-Microsoft-Dynamics-NAV-Using-COM.md).  
+ For more information about the Automation data type, see [Extending Microsoft Dynamics NAV Using COM](Extending-Microsoft-Dynamics-NAV-Using-COM.md).  
   
 #### BigText Data Type  
  The BigText data type contains large text documents. Data of the BigText data type cannot be displayed in the debugger or in a message window. However, you can use the BigText functions to extract part of a big text and place it in a typical text string that can be displayed. The BigText functions are as follows:  
   
--   [ADDTEXT Function \(BigText\)](../dynamics-nav/ADDTEXT-Function--BigText-.md)  
+-   [ADDTEXT Function \(BigText\)](ADDTEXT-Function--BigText-.md)  
   
--   [GETSUBTEXT Function \(BigText\)](../dynamics-nav/GETSUBTEXT-Function--BigText-.md)  
+-   [GETSUBTEXT Function \(BigText\)](GETSUBTEXT-Function--BigText-.md)  
   
--   [LENGTH Function \(BigText\)](../dynamics-nav/LENGTH-Function--BigText-.md)  
+-   [LENGTH Function \(BigText\)](LENGTH-Function--BigText-.md)  
   
--   [READ Function \(BigText\)](../dynamics-nav/READ-Function--BigText-.md)  
+-   [READ Function \(BigText\)](READ-Function--BigText-.md)  
   
--   [TEXTPOS Function \(BigText\)](../dynamics-nav/TEXTPOS-Function--BigText-.md)  
+-   [TEXTPOS Function \(BigText\)](TEXTPOS-Function--BigText-.md)  
   
--   [WRITE Function \(BigText\)](../dynamics-nav/WRITE-Function--BigText-.md)  
+-   [WRITE Function \(BigText\)](WRITE-Function--BigText-.md)  
   
  The maximum length of a BigText variable is 2147483647 characters. This is the equivalent of 2 gigabytes \(GB\).  
   
@@ -286,13 +286,13 @@ MAXSTRLEN(t); // Returns 6.
  The Codeunit data type stores codeunits. A codeunit can contain several user\-defined functions.  
   
 #### DateFormula Data Type  
- The DateFormula data type contains a date formula that has the same capabilities as an ordinary input string for the [CALCDATE Function \(Date\)](../dynamics-nav/CALCDATE-Function--Date-.md). The DateFormula data type is used to provide multilanguage capabilities to the CALCDATE function.  
+ The DateFormula data type contains a date formula that has the same capabilities as an ordinary input string for the [CALCDATE Function \(Date\)](CALCDATE-Function--Date-.md). The DateFormula data type is used to provide multilanguage capabilities to the CALCDATE function.  
   
 #### Dialog Data Type  
  The Dialog data type stores dialog windows. A number of functions are available for manipulating dialogs.  
   
 #### DotNet Data Type  
- For more information about the DotNet data type, see [Calling .NET Framework Members from C\-AL](../dynamics-nav/Calling-.NET-Framework-Members-from-C-AL.md).  
+ For more information about the DotNet data type, see [Calling .NET Framework Members from C\-AL](Calling-.NET-Framework-Members-from-C-AL.md).  
   
 #### File Data Type  
  The File data type provides access to operating system files.  
@@ -314,7 +314,7 @@ MAXSTRLEN(t); // Returns 6.
  The KeyRef data type identifies a key in a table and the fields in this key. This gives you access to the key and the fields it contains. The KeyRef object can refer to any key in any table in the database.  
   
 #### OCX Data Type  
- For more information about the OCX data type, see [Extending Microsoft Dynamics NAV Using COM](../dynamics-nav/Extending-Microsoft-Dynamics-NAV-Using-COM.md).  
+ For more information about the OCX data type, see [Extending Microsoft Dynamics NAV Using COM](Extending-Microsoft-Dynamics-NAV-Using-COM.md).  
   
 #### Page Data Type  
  The Page data type stores pages that can contain several simpler elements called controls.  
@@ -387,4 +387,4 @@ MAXSTRLEN(t); // Returns 6.
   
  As another example, assume that SampleArrayVariable2 is an array variable of data type Date with the dimensions 2x3x4. SampleArrayVariable2 has 24 elements. To index the first element, use SampleArrayVariable2\[1,1,1\]. To index the last element, use SampleArrayVariable2\[2,3,4\].  
   
- To declare a variable as an array, open the **Properties** window for the variable and then set the **Dimensions** property. For more information, see [Dimensions Property](../dynamics-nav/Dimensions-Property.md).
+ To declare a variable as an array, open the **Properties** window for the variable and then set the **Dimensions** property. For more information, see [Dimensions Property](Dimensions-Property.md).

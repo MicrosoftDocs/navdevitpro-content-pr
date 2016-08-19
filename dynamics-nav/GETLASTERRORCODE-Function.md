@@ -28,7 +28,7 @@ String := GETLASTERRORCODE
  If no error has occurred, then the function returns an empty string.  
   
 ## Remarks  
- You use the GETLASTERRORCODE function to identify the type of the last error that occurred. You use the [GETLASTERRORTEXT Function](../dynamics-nav/GETLASTERRORTEXT-Function.md) to get the details of the last error.  
+ You use the GETLASTERRORCODE function to identify the type of the last error that occurred. You use the [GETLASTERRORTEXT Function](GETLASTERRORTEXT-Function.md) to get the details of the last error.  
   
  The result of the GETLASTERRORCODE function is not translated into the local language. The result of the GETLASTERRORTEXT function is translated into the local language.  
   
@@ -59,4 +59,4 @@ IF ErrorCode <> ExpectedErrorCode THEN
 ```  
   
 ## See Also  
- [Error Handling](../dynamics-nav/Error-Handling.md)
+ [Error Handling](Error-Handling.md)

@@ -15,4 +15,4 @@ Lists all OCX controls that are registered on the client computer.
   
  To open this window, on the **Tools** menu, choose **Custom Controls**.  
   
- For more information, see the [COM Overview](../dynamics-nav/COM-Overview.md).
+ For more information, see the [COM Overview](COM-Overview.md).

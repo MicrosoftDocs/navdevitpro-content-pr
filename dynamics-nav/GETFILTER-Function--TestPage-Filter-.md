@@ -46,4 +46,4 @@ String := TestPage.Part.Fiter.GETFILTER(Field);
  The filter that is applied to the specified field.  
   
 ## See Also  
- [TestPage Filter Functions](../dynamics-nav/TestPage-Filter-Functions.md)
+ [TestPage Filter Functions](TestPage-Filter-Functions.md)

@@ -11,7 +11,7 @@ caps.latest.revision: 11
 manager: edupont
 ---
 # How to: Activate the Debugger from the Development Environment
-You can activate the debugger from the development environment. After you activate the debugger and attach it to a session, program flow in that session continues normally until a breakpoint is hit. For more information, see [Breakpoints](../dynamics-nav/Breakpoints.md).  
+You can activate the debugger from the development environment. After you activate the debugger and attach it to a session, program flow in that session continues normally until a breakpoint is hit. For more information, see [Breakpoints](Breakpoints.md).  
   
 ### To activate the debugger from the development environment  
   
@@ -30,8 +30,8 @@ You can activate the debugger from the development environment. After you activa
   
     -   Select a session, and then choose **Debug**. The debugger is now active and attached to the selected session.  
   
- In the **View – Debugger** window, you can enable and disable breakpoints, step through lines of code, and view variable and call stack information. Additionally, you can manage breakpoints on lines of code in the C\/AL Editor in the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)]. For more information, see [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](../Topic/Walkthrough:%20Debugging%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client.md).  
+ In the **View – Debugger** window, you can enable and disable breakpoints, step through lines of code, and view variable and call stack information. Additionally, you can manage breakpoints on lines of code in the C\/AL Editor in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. For more information, see [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](../Topic/Walkthrough:%20Debugging%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client.md).  
   
 ## See Also  
- [Activating the Debugger](../dynamics-nav/Activating-the-Debugger.md)   
- [Debugging](../dynamics-nav/Debugging.md)
+ [Activating the Debugger](Activating-the-Debugger.md)   
+ [Debugging](Debugging.md)

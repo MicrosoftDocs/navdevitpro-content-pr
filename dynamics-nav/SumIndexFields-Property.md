@@ -11,7 +11,7 @@ caps.latest.revision: 9
 manager: pchapman
 ---
 # SumIndexFields Property
-Sets the [SumIndexField Technology \(SIFT\)](../dynamics-nav/SumIndexField-Technology--SIFT-.md) for the key, if applicable.  
+Sets the [SumIndexField Technology \(SIFT\)](SumIndexField-Technology--SIFT-.md) for the key, if applicable.  
   
 ## Applies To  
  Keys  
@@ -24,4 +24,4 @@ Sets the [SumIndexField Technology \(SIFT\)](../dynamics-nav/SumIndexField-Techn
  Changing existing keys may affect the behavior of the application since other parts of your application may depend on the existence of certain keys.  
   
 ## See Also  
- [SumIndexField Technology \(SIFT\)](../dynamics-nav/SumIndexField-Technology--SIFT-.md)
+ [SumIndexField Technology \(SIFT\)](SumIndexField-Technology--SIFT-.md)

@@ -17,7 +17,7 @@ Sets the ID of the table to which you want to apply a table filter.
  Fields  
   
 ## Remarks  
- The field must be of the [TableFilter Data Type](../dynamics-nav/TableFilter-Data-Type.md). The Table ID expression must be of the [Integer Data Type](../dynamics-nav/Integer-Data-Type.md) and is typically the Object ID of the table. To understand how this property is applied, see the Permission table.  
+ The field must be of the [TableFilter Data Type](TableFilter-Data-Type.md). The Table ID expression must be of the [Integer Data Type](Integer-Data-Type.md) and is typically the Object ID of the table. To understand how this property is applied, see the Permission table.  
   
 ## See Also  
- [TableFilter Data Type](../dynamics-nav/TableFilter-Data-Type.md)
+ [TableFilter Data Type](TableFilter-Data-Type.md)

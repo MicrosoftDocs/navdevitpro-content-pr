@@ -11,7 +11,7 @@ caps.latest.revision: 11
 manager: edupont
 ---
 # How to: Add Totals in Visual Studio
-Totals are an important element of creating useful reports. By totaling data, your report can help the user analyze data that is not otherwise readily available. For example, totals provide a useful overview of the total sales for a given month. Reports can be created with [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] and later designed using Visual Studio. This topic describes how to add totals to a report in Visual Studio.  
+Totals are an important element of creating useful reports. By totaling data, your report can help the user analyze data that is not otherwise readily available. For example, totals provide a useful overview of the total sales for a given month. Reports can be created with [!INCLUDE[navnowlong](includes/navnowlong_md.md)] and later designed using Visual Studio. This topic describes how to add totals to a report in Visual Studio.  
   
 ### To add totals in Visual Studio  
   
@@ -22,7 +22,7 @@ Totals are an important element of creating useful reports. By totaling data, yo
   
 3.  Save the report in Visual Studio.  
   
-4.  Compile and save the report in [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)]. A message informs you that the .rdlc file for this report has changed and asks if you want to load the changes. Choose **Yes** to save the changes in the database.  
+4.  Compile and save the report in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. A message informs you that the .rdlc file for this report has changed and asks if you want to load the changes. Choose **Yes** to save the changes in the database.  
   
 ## See Also  
  [Walkthrough: Designing a Report with Images, Interactive Sorting, and Visibility Toggle](../Topic/Walkthrough:%20Designing%20a%20Report%20with%20Images,%20Interactive%20Sorting,%20and%20Visibility%20Toggle.md)   

@@ -50,4 +50,4 @@ IF FileName = ' ' THEN
  In the C\/AL Editor, when you move the cursor into the new text constant, you see its contents in the status bar.  
   
 ## See Also  
- [Codeunits](../dynamics-nav/Codeunits.md)
+ [Codeunits](Codeunits.md)

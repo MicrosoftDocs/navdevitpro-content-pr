@@ -35,4 +35,4 @@ The **TableRelation** property and SQL Server relationships are automatically sy
      If an error occurs during the synchronization process, you receive an error message informing you that a particular table has an invalid relationship. To correct this error, you must modify the **TableRelation** property of the table in question in the Table Designer and then manually synchronize the relationships again.  
   
 ## See Also  
- [Setting Relationships Between Tables](../dynamics-nav/Setting-Relationships-Between-Tables.md)
+ [Setting Relationships Between Tables](Setting-Relationships-Between-Tables.md)

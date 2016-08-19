@@ -21,4 +21,4 @@ Sets the indentation of rows on a List Page to Tree View. If you enable this pro
  **Yes** if a tree view is required; otherwise, **No**. The default is **No**.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

@@ -17,7 +17,7 @@ Shows variables, functions, and objects that are defined in the **\($ S\_10204 C
   
 ## Elements  
   
-|Elements|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|Elements|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
 |Left column|List of objects and variables that are available.|  
 |Middle column|List of subcategories for the selected object or variable in the left column.|  
@@ -26,10 +26,10 @@ Shows variables, functions, and objects that are defined in the **\($ S\_10204 C
 |**Apply** button|If selected, inserts the selected function, property, or object from the right column into the C\/AL Editor. Does not close the **\($ S\_10209 C\/AL Symbol Menu $\)** window after the insertion.|  
 |**Paste Arguments** check box|If selected, inserts arguments of functions into the C\/AL Editor.|  
 |Syntax|Displays syntax, description, and field information when it is available.|  
-|![Right arrow](../dynamics-nav/media/MicrosoftDynamicsNAV_RightArrow.jpg "MicrosoftDynamicsNAV\_RightArrow")|If selected, displays the next three columns that are to the right of the current columns that are displayed.|  
-|![Left arrow](../dynamics-nav/media/MicrosoftDynamicsNAV_LetfArrow.jpg "MicrosoftDynamicsNAV\_LetfArrow")|If selected, displays the previous three columns that are to the left of the current columns that are displayed.|  
+|![Right arrow](media/MicrosoftDynamicsNAV_RightArrow.jpg "MicrosoftDynamicsNAV\_RightArrow")|If selected, displays the next three columns that are to the right of the current columns that are displayed.|  
+|![Left arrow](media/MicrosoftDynamicsNAV_LetfArrow.jpg "MicrosoftDynamicsNAV\_LetfArrow")|If selected, displays the previous three columns that are to the left of the current columns that are displayed.|  
   
  For example, if you select **DATABASE** in the left column, then the middle column displays **Functions** and **Tables** as subcategories. If you select **Functions** in the middle column, then all database functions are displayed. If you select **Tables** in the middle column, then all tables in the database are displayed.  
   
 ## See Also  
- [\($ S\_10203\_1 C\-AL Editor $\)](../dynamics-nav/-$-S_10203_1-C-AL-Editor-$-.md)
+ [\($ S\_10203\_1 C\-AL Editor $\)](-$-S_10203_1-C-AL-Editor-$-.md)

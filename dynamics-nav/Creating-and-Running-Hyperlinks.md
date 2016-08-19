@@ -11,16 +11,16 @@ caps.latest.revision: 41
 manager: terryaus
 ---
 # Creating and Running Hyperlinks
-Hyperlinks enable users to send or save quick links to specific pages in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)]. For example, you can create a hyperlink to a specific list page, such as Customers. You can also use hyperlinks to specify parameters, such as server name, server service, or company. You can enter hyperlinks in the Command Prompt window, in a browser window, or directly in the **Run**window. You can also generate hyperlinks programmatically as part of your [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] functionality.  
+Hyperlinks enable users to send or save quick links to specific pages in [!INCLUDE[navnow](includes/navnow_md.md)]. For example, you can create a hyperlink to a specific list page, such as Customers. You can also use hyperlinks to specify parameters, such as server name, server service, or company. You can enter hyperlinks in the Command Prompt window, in a browser window, or directly in the **Run**window. You can also generate hyperlinks programmatically as part of your [!INCLUDE[navnow](includes/navnow_md.md)] functionality.  
   
 ## Creating Hyperlinks  
- You can use hyperlinks as URLs or at a command prompt as arguments to the command to start the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. At the command prompt, type the name of the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] executable and then, in quotation marks, type the hyperlink. For example:  
+ You can use hyperlinks as URLs or at a command prompt as arguments to the command to start the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. At the command prompt, type the name of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] executable and then, in quotation marks, type the hyperlink. For example:  
   
 ```  
 Microsoft.Dynamics.Nav.Client.exe "DynamicsNAV://MyServer/nav_server_instance/CRONUS International Ltd./RunPage?Page=22"  
 ```  
   
- This example specifies a server name, service, company, and page ID. If entered correctly, it opens the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] on page 22, the customer list page.  
+ This example specifies a server name, service, company, and page ID. If entered correctly, it opens the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] on page 22, the customer list page.  
   
  An equivalent URL that you could type in a browser’s address bar is:  
   
@@ -31,10 +31,10 @@ DynamicsNAV://MyServer/nav_server_instance/CRONUS%20International%20Ltd./RunPage
  Note that in a URL, you must use encoding for special characters.  
   
 > [!TIP]  
->  You can also use the GETURL function to automatically generate URLs when your code runs. For example, if you want to automatically open a specific page when a trigger is called, you can implement this programmatically by using the GETURL function. The URLs are then generated automatically and the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance is automatically inserted. You can generate URLs using this method that will work in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], and in SOAP and OData web services. For more information, see [GETURL Function](../dynamics-nav/GETURL-Function.md).  
+>  You can also use the GETURL function to automatically generate URLs when your code runs. For example, if you want to automatically open a specific page when a trigger is called, you can implement this programmatically by using the GETURL function. The URLs are then generated automatically and the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is automatically inserted. You can generate URLs using this method that will work in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], [!INCLUDE[nav_web](includes/nav_web_md.md)], and in SOAP and OData web services. For more information, see [GETURL Function](GETURL-Function.md).  
   
 ### Building a URL  
- When you build a hyperlink URL, you can specify a page, report, query, XMLport, codeunit, table, or node. The following examples illustrate URLs that open objects in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], but you can also generate URLs that open objects in the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]:  
+ When you build a hyperlink URL, you can specify a page, report, query, XMLport, codeunit, table, or node. The following examples illustrate URLs that open objects in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], but you can also generate URLs that open objects in the [!INCLUDE[nav_web](includes/nav_web_md.md)]:  
   
 -   `DynamicsNAV://server/instance/company/runpage?page=22&bookmark=0ABA0700235752C7D1`  
   
@@ -50,7 +50,7 @@ DynamicsNAV://MyServer/nav_server_instance/CRONUS%20International%20Ltd./RunPage
   
 -   `DynamicsNAV://server/instance/company/RunTable?Table=18`  
   
- The first three parameters that open a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] client URL are reserved for *server*, *service*, and *company*. You can omit certain parameters, in which case default values are assumed, but you must leave the correct number of forward slashes to indicate which parameters you have omitted. If you omit just one of these parameters, then it must be *company*. If you omit two parameters, then they must be *company* and *instance*. You can also omit all three parameters. For example, the following URL assumes the default instance and company on the MyServer server:  
+ The first three parameters that open a [!INCLUDE[navnow](includes/navnow_md.md)] client URL are reserved for *server*, *service*, and *company*. You can omit certain parameters, in which case default values are assumed, but you must leave the correct number of forward slashes to indicate which parameters you have omitted. If you omit just one of these parameters, then it must be *company*. If you omit two parameters, then they must be *company* and *instance*. You can also omit all three parameters. For example, the following URL assumes the default instance and company on the MyServer server:  
   
 ```  
 DynamicsNAV://MyServer///RunPage?Page=22  
@@ -71,7 +71,7 @@ DynamicsNAV://///navigate?node=Home/Items
 ### Specifying Additional Parameters  
  You can also specify the following additional parameters in a URL.  
   
-|Parameter|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|Example|  
+|Parameter|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|Example|  
 |---------------|---------------------------------------|-------------|  
 |Personalization ID|Specifies the unique identification that is used in personalization to store settings in the **User Metadata** table. If a personalization ID is not found, the page is opened without personalization.|`DynamicsNAV://localhost/DynamicsNAV90/CRONUS%20International%20Ltd./runpage?page=22&personalization=0000232e-0000-001a-0008-0000836bd2d2`|  
 |Bookmark|Positions the cursor on a single record in a table.<br /><br /> Only automatically generated bookmarks should be used. If you enter an incorrect bookmark, you will get an error message.|`DynamicsNAV://localhost/DynamicsNAV90/CRONUS%20International%20Ltd./runpage?page=22&bookmark=120000000089083237343`|  
@@ -81,7 +81,7 @@ DynamicsNAV://///navigate?node=Home/Items
 ## Understanding Syntax for Creating Hyperlinks  
  The following table shows some examples of hyperlinks and provides information about how to specify parameters.  
   
-|Parameters|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|Syntax|Example|  
+|Parameters|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|Syntax|Example|  
 |----------------|---------------------------------------|------------|-------------|  
 |Company name|Enables you to switch a company \(case\- sensitive\).|**DynamicsNAV:\/\/\/\/\<CompanyName\>\/RunPage?Page\=\<pageid\>**|`DynamicsNAV:////CRONUS%20International%20Ltd./RunPage?Page=22`|  
 |Navigate|Enables users to send or save quick links to specific pages.|**DynamicsNAV:\/\/\/\/\/navigate?node\=\<service\>**|`DynamicsNAV://///navigate?node=Home/Items`|  
@@ -109,14 +109,14 @@ DynamicsNAV://///navigate?node=Home/Items
 |------------|------------------------|  
 |Run window|Choose **Start**, and then choose **Run**. Enter the hyperlink in the **Run** window. Choose the **OK** button.|  
 |Command prompt window|At the command prompt, type the hyperlink directly.|  
-|Shortcut|Create a shortcut for the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] executable on your desktop.<br /><br /> On the shortcut menu, choose **Properties**, and then enter the hyperlink URL in the **Target** field of the shortcut. Choose the **OK** button, and then start [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].|  
-|Browser window|Use a browser such as Internet Explorer and type the hyperlink URL directly in the address bar. To type hyperlinks in a browser, you must have [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] installed on your computer.|  
-|Web reference for a web service|For more information, see [SOAP Web Services](../dynamics-nav/SOAP-Web-Services.md) and [OData Web Services](../dynamics-nav/OData-Web-Services.md).|  
-|Programmatically|Use the GETURL function to generate a URL that opens objects in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], or a SOAP or OData web service and automatically inserts the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] configuration. For more information, see [GETURL Function](../dynamics-nav/GETURL-Function.md).|  
+|Shortcut|Create a shortcut for the [!INCLUDE[navnow](includes/navnow_md.md)] executable on your desktop.<br /><br /> On the shortcut menu, choose **Properties**, and then enter the hyperlink URL in the **Target** field of the shortcut. Choose the **OK** button, and then start [!INCLUDE[navnow](includes/navnow_md.md)].|  
+|Browser window|Use a browser such as Internet Explorer and type the hyperlink URL directly in the address bar. To type hyperlinks in a browser, you must have [!INCLUDE[navnow](includes/navnow_md.md)] installed on your computer.|  
+|Web reference for a web service|For more information, see [SOAP Web Services](SOAP-Web-Services.md) and [OData Web Services](OData-Web-Services.md).|  
+|Programmatically|Use the GETURL function to generate a URL that opens objects in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], [!INCLUDE[nav_web](includes/nav_web_md.md)], or a SOAP or OData web service and automatically inserts the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration. For more information, see [GETURL Function](GETURL-Function.md).|  
   
 ## See Also  
  [Starting the Windows Client at the Command Prompt](../Topic/Starting%20the%20Windows%20Client%20at%20the%20Command%20Prompt.md)   
  [How to: Run Reports](../Topic/How%20to:%20Run%20Reports.md)   
- [GETURL Function](../dynamics-nav/GETURL-Function.md)   
- [SOAP Web Services](../dynamics-nav/SOAP-Web-Services.md)   
- [OData Web Services](../dynamics-nav/OData-Web-Services.md)
+ [GETURL Function](GETURL-Function.md)   
+ [SOAP Web Services](SOAP-Web-Services.md)   
+ [OData Web Services](OData-Web-Services.md)

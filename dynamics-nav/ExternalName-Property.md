@@ -13,7 +13,7 @@ manager: edupont
 # ExternalName Property
 Specifies the name of the original table in the external database.  
   
- Specify this property if the original name is different from the name that you specify in the **Name** property. This means that you can use a different name for the table in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+ Specify this property if the original name is different from the name that you specify in the **Name** property. This means that you can use a different name for the table in [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 ## Applies To  
   
@@ -23,13 +23,13 @@ Specifies the name of the original table in the external database.
  The name of the table in the external database.  
   
 ## Remarks  
- This property appears when you specify **CRM** or **ExternalSQL** in the **TableType** property. These tables use a different SQL Server connection than the normal tables in the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database.  
+ This property appears when you specify **CRM** or **ExternalSQL** in the **TableType** property. These tables use a different SQL Server connection than the normal tables in the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
 ## See Also  
- [TableType Property](../dynamics-nav/TableType-Property.md)   
- [ExternalSchema Property](../dynamics-nav/ExternalSchema-Property.md)   
- [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md)   
- [Properties](../dynamics-nav/Properties.md)   
- [\($ S\_2102 Table Designer $\)](../dynamics-nav/-$-S_2102-Table-Designer-$-.md)   
- [External Tables](../dynamics-nav/External-Tables.md)   
+ [TableType Property](TableType-Property.md)   
+ [ExternalSchema Property](ExternalSchema-Property.md)   
+ [Name Property\-duplicate](Name-Property-duplicate.md)   
+ [Properties](Properties.md)   
+ [\($ S\_2102 Table Designer $\)](-$-S_2102-Table-Designer-$-.md)   
+ [External Tables](External-Tables.md)   
  [Integrating Microsoft Dynamics CRM in Microsoft Dynamics NAV](../Topic/Integrating%20Microsoft%20Dynamics%20CRM%20in%20Microsoft%20Dynamics%20NAV.md)

@@ -29,7 +29,7 @@ Sets the fields that appear to the left of the caption on pages that display the
   
 -   A data caption is only displayed if a filter containing the fields defined in the DataCaptionFields property for the page evaluate to one value. In this case, two situations are possible:  
   
-    -   There is a table relation \(as defined by the [TableRelation Property](../dynamics-nav/TableRelation-Property.md)\) on one or more of the fields. In this case, the DataCaptionFields from the underlying table are used. If this table does not have a value for the DataCaptionFields property, the primary key for that table is used.  
+    -   There is a table relation \(as defined by the [TableRelation Property](TableRelation-Property.md)\) on one or more of the fields. In this case, the DataCaptionFields from the underlying table are used. If this table does not have a value for the DataCaptionFields property, the primary key for that table is used.  
   
     -   There is no table relation. In this case, the \(single\) value that results from evaluating the filter is used directly.  
   
@@ -43,4 +43,4 @@ Sets the fields that appear to the left of the caption on pages that display the
  The important point is that the DataCaptionFields property on a page does not directly put any caption on the page, but only works when used with appropriate settings of DataCaptionFields at the table level.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

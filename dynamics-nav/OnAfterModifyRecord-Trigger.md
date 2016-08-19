@@ -19,12 +19,12 @@ Executed after a record has been modified.
 ## Remarks  
  This trigger is used when you import data from an XMLport and then update an existing record in a table with the data from the XMLport.  
   
- If the [AutoSave Property](../dynamics-nav/AutoSave-Property.md) is **No**, then although the record is not modified automatically, the OnAfterModifyRecord trigger is still called after the modification would have occurred.  
+ If the [AutoSave Property](AutoSave-Property.md) is **No**, then although the record is not modified automatically, the OnAfterModifyRecord trigger is still called after the modification would have occurred.  
   
 ## See Also  
- [OnAfterInsertRecord Trigger](../dynamics-nav/OnAfterInsertRecord-Trigger.md)   
- [OnBeforeModifyRecord Trigger](../dynamics-nav/OnBeforeModifyRecord-Trigger.md)   
- [OnBeforeInsertRecord Trigger](../dynamics-nav/OnBeforeInsertRecord-Trigger.md)   
- [AutoReplace Property](../dynamics-nav/AutoReplace-Property.md)   
- [AutoSave Property](../dynamics-nav/AutoSave-Property.md)   
- [AutoUpdate Property](../dynamics-nav/AutoUpdate-Property.md)
+ [OnAfterInsertRecord Trigger](OnAfterInsertRecord-Trigger.md)   
+ [OnBeforeModifyRecord Trigger](OnBeforeModifyRecord-Trigger.md)   
+ [OnBeforeInsertRecord Trigger](OnBeforeInsertRecord-Trigger.md)   
+ [AutoReplace Property](AutoReplace-Property.md)   
+ [AutoSave Property](AutoSave-Property.md)   
+ [AutoUpdate Property](AutoUpdate-Property.md)

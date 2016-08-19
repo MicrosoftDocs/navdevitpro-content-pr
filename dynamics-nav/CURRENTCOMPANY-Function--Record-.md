@@ -49,5 +49,5 @@ MESSAGE(Text000, CurrentCompany);
 ```  
   
 ## See Also  
- [CHANGECOMPANY Function \(Record\)](../dynamics-nav/CHANGECOMPANY-Function--Record-.md)   
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [CHANGECOMPANY Function \(Record\)](CHANGECOMPANY-Function--Record-.md)   
+ [Record Data Type](Record-Data-Type.md)

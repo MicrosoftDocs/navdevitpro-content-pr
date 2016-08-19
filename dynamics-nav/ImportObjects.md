@@ -33,7 +33,7 @@ finsql.exe command=importobjects, file=<importfile>, [servername=<server>,] [dat
 > [!NOTE]  
 >  When you first specify a database server and database to open, either from a command at a command prompt or from a client, the database server and database are stored in the fin.zup file. By default, the fin.zup file is located at C:\\users\\\<*user name*\>\\AppData\\Roaming\\.  
   
- If you do not specify the *servername* parameter but you do specify the *database* parameter, then the [\($ S\_2335 Open Database $\)](../dynamics-nav/-$-S_2335-Open-Database-$-.md) window opens so that you can specify the database server name.  
+ If you do not specify the *servername* parameter but you do specify the *database* parameter, then the [\($ S\_2335 Open Database $\)](-$-S_2335-Open-Database-$-.md) window opens so that you can specify the database server name.  
   
 > [!TIP]  
 >  To view the name of the server on which the current database is stored, on the **File** menu, choose **Database**, and then choose **Information**. Use the value of the **Database Server** field for the *servername* parameter.  
@@ -47,7 +47,7 @@ finsql.exe command=importobjects, file=<importfile>, [servername=<server>,] [dat
 > [!NOTE]  
 >  When you first specify a database server and database to open, either from a command at a command prompt or from a client, the database server and database are stored in the fin.zup file. By default, the fin.zup file is located at C:\\users\\\<*user name*\>\\AppData\\Roaming\\.  
   
- If you do not specify the *database* parameter but you do specify the *servername* parameter, then the [\($ S\_2335 Open Database $\)](../dynamics-nav/-$-S_2335-Open-Database-$-.md) window opens so that you can specify the database name.  
+ If you do not specify the *database* parameter but you do specify the *servername* parameter, then the [\($ S\_2335 Open Database $\)](-$-S_2335-Open-Database-$-.md) window opens so that you can specify the database name.  
   
 > [!TIP]  
 >  To view the name of the current database, on the **File** menu, choose **Database**, and then choose **Information**. Use the value of the **Database Name** field for the *database* parameter.  
@@ -90,7 +90,7 @@ finsql.exe command=importobjects, file=<importfile>, [servername=<server>,] [dat
   
  If you specify the **username** parameter, then you must also specify the **password** parameter and the **ntauthentication** parameter must be **no** or **0**.  
   
- For more information about database users and permissions, see [Setting Database Owner and Security Administration Permissions](../dynamics-nav/Setting-Database-Owner-and-Security-Administration-Permissions.md).  
+ For more information about database users and permissions, see [Setting Database Owner and Security Administration Permissions](Setting-Database-Owner-and-Security-Administration-Permissions.md).  
   
  *password*  
   
@@ -104,39 +104,39 @@ finsql.exe command=importobjects, file=<importfile>, [servername=<server>,] [dat
   
  Specifies how to synchronize table definition changes in the business \(tenant\) database in SQL Server. The following table describes the available options.  
   
-|[!INCLUDE[bp_tableoption](../dynamics-nav/includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|[!INCLUDE[bp_tableoption](includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |----------------------------------|---------------------------------------|  
-|**yes**|Before applying changes to the business data table, [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] validates the changed table definition to check for destructive changes to the table. This includes changes that require that data is deleted in the fields of the business data table which are affected by the changes before the changes can be applied.<br /><br /> -   If there are no destructive changes to the table, then the schema changes are applied to the business data table immediately.<br />-   If there are destructive changes, [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] checks that there are table synchronization instructions in an upgrade codeunit. If there are instructions, then the schema changes are applied to the business database table according to the instructions. If there are no instructions, then an error message appears. The table definition changes are not saved and the schema changes are not applied.|  
-|**no**|Table definition changes are saved and compiled in the application but the changes are not validated or applied to the business data table. You synchronize the table schema later by doing one of the following:<br /><br /> -   Save or compile the table from Object Designer in [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)] and choose either the **Now \- with validation** or **Force** synchronization option.<br />-   Use the **Sync. Schema for All Tables** option on the **Tools** menu.<br />-   Run the Sync\-NAVTenant cmdlet from the [!INCLUDE[nav_shell](../dynamics-nav/includes/nav_shell_md.md)].|  
+|**yes**|Before applying changes to the business data table, [!INCLUDE[nav_server](includes/nav_server_md.md)] validates the changed table definition to check for destructive changes to the table. This includes changes that require that data is deleted in the fields of the business data table which are affected by the changes before the changes can be applied.<br /><br /> -   If there are no destructive changes to the table, then the schema changes are applied to the business data table immediately.<br />-   If there are destructive changes, [!INCLUDE[nav_server](includes/nav_server_md.md)] checks that there are table synchronization instructions in an upgrade codeunit. If there are instructions, then the schema changes are applied to the business database table according to the instructions. If there are no instructions, then an error message appears. The table definition changes are not saved and the schema changes are not applied.|  
+|**no**|Table definition changes are saved and compiled in the application but the changes are not validated or applied to the business data table. You synchronize the table schema later by doing one of the following:<br /><br /> -   Save or compile the table from Object Designer in [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] and choose either the **Now \- with validation** or **Force** synchronization option.<br />-   Use the **Sync. Schema for All Tables** option on the **Tools** menu.<br />-   Run the Sync\-NAVTenant cmdlet from the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].|  
 |force|Table definition changes are applied to the business data table schema without validation. For destructive changes, data in columns of the business data table that are affected by changes will be deleted.<br /><br /> This option ignores any table synchronization instructions for the table in upgrade codeunits.|  
   
- For more information about table schema synchronization, see [Synchronizing Table Schemas](../dynamics-nav/Synchronizing-Table-Schemas.md).  
+ For more information about table schema synchronization, see [Synchronizing Table Schemas](Synchronizing-Table-Schemas.md).  
   
  *navservername*  
   
- Specifies the name of the server that hosts the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance, such as **MyServer**.  
+ Specifies the name of the server that hosts the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, such as **MyServer**.  
   
  *navserverinstance*  
   
- Specifies the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance that is being used, such as [!INCLUDE[nav_server_instance](../dynamics-nav/includes/nav_server_instance_md.md)].  
+ Specifies the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that is being used, such as [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)].  
   
  *navservermanagementport*  
   
- Specifies the port on the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] server that the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Windows PowerShell cmdlets access, such as **7045**.  
+ Specifies the port on the [!INCLUDE[nav_server](includes/nav_server_md.md)] server that the [!INCLUDE[navnow](includes/navnow_md.md)] Windows PowerShell cmdlets access, such as **7045**.  
   
  *tenant*  
   
  Specifies the ID of the tenant that is accessed when you run objects from the development environment. If your solution is not set up to deploy in a multitenant deployment architecture, leave the parameter empty.  
   
 ## Remarks  
- You use the **ImportObjects** command with the finsql.exe from a command prompt. Finsql.exe is the executable file that runs the development environment. By default, finsql.exe is located at [!INCLUDE[navnow_x86install](../dynamics-nav/includes/navnow_x86install_md.md)]\\RoleTailored Client\\.  
+ You use the **ImportObjects** command with the finsql.exe from a command prompt. Finsql.exe is the executable file that runs the development environment. By default, finsql.exe is located at [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\.  
   
  To import objects from a .txt file, you must have a developer license. To import objects from a .fob file, you can have either an end\-user license or a developer license.  
   
  You can specify parameters in any order.  
   
 ## Example  
- This example shows how to run a command to import the objects from a .fob file into [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)]. If any of the objects to import already exist in the database, then overwrite them with the objects from the import file.  
+ This example shows how to run a command to import the objects from a .fob file into [!INCLUDE[navnow](includes/navnow_md.md)]. If any of the objects to import already exist in the database, then overwrite them with the objects from the import file.  
   
 ```  
 finsql.exe command=importobjects, file=C:\NewObjects.fob, servername=TestComputer01, database="Demo Database NAV (9-0)", ImportAction=overwrite  
@@ -144,17 +144,17 @@ finsql.exe command=importobjects, file=C:\NewObjects.fob, servername=TestCompute
   
 ## See Also  
  [How to: Import Objects](../Topic/How%20to:%20Import%20Objects.md)   
- [BuildVirtualMetadata](../dynamics-nav/BuildVirtualMetadata.md)   
- [CreateDatabase](../dynamics-nav/CreateDatabase.md)   
- [UpgradeDatabase](../dynamics-nav/UpgradeDatabase.md)   
- [CreateLanguage](../dynamics-nav/CreateLanguage.md)   
- [CompileObjects](../dynamics-nav/CompileObjects.md)   
- [DeleteObjects](../dynamics-nav/DeleteObjects.md)   
- [DesignObject](../dynamics-nav/DesignObject.md)   
- [ExportObjects](../dynamics-nav/ExportObjects.md)   
- [ImportObjects](../dynamics-nav/ImportObjects.md)   
- [ExportLangModule](../dynamics-nav/ExportLangModule.md)   
- [ImportLangModule](../dynamics-nav/ImportLangModule.md)   
- [ExportTranslate](../dynamics-nav/ExportTranslate.md)   
- [ImportTranslate](../dynamics-nav/ImportTranslate.md)   
- [Using the Development Environment from the Command Prompt](../dynamics-nav/Using-the-Development-Environment-from-the-Command-Prompt.md)
+ [BuildVirtualMetadata](BuildVirtualMetadata.md)   
+ [CreateDatabase](CreateDatabase.md)   
+ [UpgradeDatabase](UpgradeDatabase.md)   
+ [CreateLanguage](CreateLanguage.md)   
+ [CompileObjects](CompileObjects.md)   
+ [DeleteObjects](DeleteObjects.md)   
+ [DesignObject](DesignObject.md)   
+ [ExportObjects](ExportObjects.md)   
+ [ImportObjects](ImportObjects.md)   
+ [ExportLangModule](ExportLangModule.md)   
+ [ImportLangModule](ImportLangModule.md)   
+ [ExportTranslate](ExportTranslate.md)   
+ [ImportTranslate](ImportTranslate.md)   
+ [Using the Development Environment from the Command Prompt](Using-the-Development-Environment-from-the-Command-Prompt.md)

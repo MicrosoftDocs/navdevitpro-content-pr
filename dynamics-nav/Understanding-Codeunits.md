@@ -16,7 +16,7 @@ A codeunit is a container for C\/AL code that you can use in many application ob
 ## What You Can Define in Codeunits  
  In codeunits, you can define the following.  
   
-|Codeunits|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|Codeunits|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------|---------------------------------------|  
 |**Functions**|A function is a sequence of C\/AL statements that you define to create new functionality.|  
 |**Local Variables**|Within each function, you can define variables with scope that is limited to the function in which they are defined. These are known as local variables.|  

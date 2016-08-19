@@ -34,7 +34,7 @@ Sid := SID(UserAccount);
 ## Remarks  
  If you create a page for adding Windows logins, then you must use the SID function to retrieve the SID for the user account so that you can enter the new login into the Windows Login table.  
   
- This function runs only on the computer that is running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]. If you call this function from the client computer, then no action occurs.  
+ This function runs only on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)]. If you call this function from the client computer, then no action occurs.  
   
 ## Example  
  This example assigns the SID for Simon's Windows user account to a variable. This example requires that you create the following variables.  

@@ -13,15 +13,15 @@ manager: edupont
 # CueGroup and Action Behavior
 Cues are used on the UI to visually provide a way to show the number of entities in a table and view the entities in a filtered list. For example, the Cue can show the total number of open invoices, sales orders, or credit memos.  
   
- In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)] Cue fields can be grouped inside a CueGroup and appear on, for example, a CardPart page.  
+ In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] Cue fields can be grouped inside a CueGroup and appear on, for example, a CardPart page.  
   
 > [!NOTE]  
 >  It is a best practice to place Actions in the ribbon. If you, however, decide to place Actions on a CardPart page, be aware of the differences in behavior on the display targets as stated in the table below.  
   
 |Display target|CueGroup behavior|  
 |--------------------|-----------------------|  
-|[!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]|-   CueGroup fields are always shown as Cue tiles.<br />-   Actions are always shown as hyperlinked text.|  
-|[!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]|-   CueGroup fields are always shown as Cue tiles.<br />-   Actions are only shown if there are no Cue fields and then they are shown as Action tiles.|  
+|[!INCLUDE[nav_windows](includes/nav_windows_md.md)]|-   CueGroup fields are always shown as Cue tiles.<br />-   Actions are always shown as hyperlinked text.|  
+|[!INCLUDE[nav_web](includes/nav_web_md.md)]|-   CueGroup fields are always shown as Cue tiles.<br />-   Actions are only shown if there are no Cue fields and then they are shown as Action tiles.|  
   
 ## See Also  
  [Adding the Cue CardPart Page on the Role Center Page](../Topic/Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20FlowField.md#AddingCuePartToRoleCenter)   

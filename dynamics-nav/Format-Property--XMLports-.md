@@ -26,4 +26,4 @@ Determines the import and export format of the XMLPort.
 -   Fixed Text  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

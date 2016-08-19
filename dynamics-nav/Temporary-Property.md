@@ -20,4 +20,4 @@ Sets whether a temporary table is created.
  Changes made to a temporary table are not stored to a database.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

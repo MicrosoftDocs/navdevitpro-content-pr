@@ -11,11 +11,11 @@ caps.latest.revision: 4
 manager: edupont
 ---
 # How to: Import and Export a Word Report Layout
-From the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], you can import and export built\-in Word report layouts of report objects as Word document files \(.docx file type\). This enables you to modify a built\-in Word report layout on a report. For example, you can export a built\-in Word report layout to a file on your computer or network. Then, you open the file in Word and modify the report layout. Finally, you import the file back to the report object. The existing built\-in Word report layout on the report is overwritten by the content in the imported file.  
+From the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], you can import and export built\-in Word report layouts of report objects as Word document files \(.docx file type\). This enables you to modify a built\-in Word report layout on a report. For example, you can export a built\-in Word report layout to a file on your computer or network. Then, you open the file in Word and modify the report layout. Finally, you import the file back to the report object. The existing built\-in Word report layout on the report is overwritten by the content in the imported file.  
   
 ##  <a name="ExportLayout"></a> To export a Word report layout from a report to a file  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], open the report in Report Dataset Designer as follows.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], open the report in Report Dataset Designer as follows.  
   
     1.  On the **Tools** menu, choose **Object Designer**.  
   
@@ -27,7 +27,7 @@ From the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], 
   
 ##  <a name="ImportLayout"></a> To import a Word report layout from a file into report  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], open the report in Report Dataset Designer as follows.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], open the report in Report Dataset Designer as follows.  
   
     1.  On the **Tools** menu, choose **Object Designer**.  
   
@@ -38,7 +38,7 @@ From the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], 
 3.  Locate the file that you want to import, and then choose the **Open** button.  
   
 ## See Also  
- [Built-in and Custom Report Layouts](../dynamics-nav/Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md#BuilinCustomLayouts)   
- [Designing Word Report Layouts](../dynamics-nav/Designing-Word-Report-Layouts.md)   
+ [Built-in and Custom Report Layouts](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md#BuilinCustomLayouts)   
+ [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)   
  [How to: Modify a Word Report Layout](../Topic/How%20to:%20Modify%20a%20Word%20Report%20Layout.md)   
  [How to: Create a Word Report Layout for a Report](../Topic/How%20to:%20Create%20a%20Word%20Report%20Layout%20for%20a%20Report.md)

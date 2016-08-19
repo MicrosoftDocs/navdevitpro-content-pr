@@ -11,14 +11,14 @@ caps.latest.revision: 24
 manager: terryaus
 ---
 # How to: Run a Page
-When you are developing pages, you may want to see how the pages look in the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)]. You can run and view a page from Object Designer, or you can use command\-line arguments at the command prompt, in the **Run** window, or in a browser. For each method, the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)] starts and opens the selected page. For command\-line arguments, you have various options for opening the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)] and its pages in different modes. For example, you can specify a specific server or specific language, or you can create hyperlinks to specific pages in [!INCLUDE[nav_current_short](../dynamics-nav/includes/nav_current_short_md.md)]. For more information, see [Starting the Windows Client at the Command Prompt](../Topic/Starting%20the%20Windows%20Client%20at%20the%20Command%20Prompt.md) and [Creating and Running Hyperlinks](../dynamics-nav/Creating-and-Running-Hyperlinks.md).  
+When you are developing pages, you may want to see how the pages look in the [!INCLUDE[rtc](includes/rtc_md.md)]. You can run and view a page from Object Designer, or you can use command\-line arguments at the command prompt, in the **Run** window, or in a browser. For each method, the [!INCLUDE[rtc](includes/rtc_md.md)] starts and opens the selected page. For command\-line arguments, you have various options for opening the [!INCLUDE[rtc](includes/rtc_md.md)] and its pages in different modes. For example, you can specify a specific server or specific language, or you can create hyperlinks to specific pages in [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)]. For more information, see [Starting the Windows Client at the Command Prompt](../Topic/Starting%20the%20Windows%20Client%20at%20the%20Command%20Prompt.md) and [Creating and Running Hyperlinks](Creating-and-Running-Hyperlinks.md).  
   
 > [!NOTE]  
->  ConfirmationDialog pages cannot be run and previewed by using the methods described in this topic. You can only view ConfirmationDialog pages by invoking them in the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)].  
+>  ConfirmationDialog pages cannot be run and previewed by using the methods described in this topic. You can only view ConfirmationDialog pages by invoking them in the [!INCLUDE[rtc](includes/rtc_md.md)].  
   
 ### To run a page from Object Designer  
   
-1.  Open the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)].  
+1.  Open the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
   
 2.  On the **Tools** menu, choose **Object Designer**, and then choose **Page**.  
   
@@ -78,4 +78,4 @@ When you are developing pages, you may want to see how the pages look in the [!I
   
 ## See Also  
  [Starting the Windows Client at the Command Prompt](../Topic/Starting%20the%20Windows%20Client%20at%20the%20Command%20Prompt.md)   
- [Creating and Running Hyperlinks](../dynamics-nav/Creating-and-Running-Hyperlinks.md)
+ [Creating and Running Hyperlinks](Creating-and-Running-Hyperlinks.md)

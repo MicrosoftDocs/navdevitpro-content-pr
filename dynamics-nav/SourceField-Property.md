@@ -17,9 +17,9 @@ Sets the field that you want to map XML data to.
  XMLports  
   
 ## Remarks  
- This property is only available if you have selected Field in the [SourceType Property](../dynamics-nav/SourceType-Property.md).  
+ This property is only available if you have selected Field in the [SourceType Property](SourceType-Property.md).  
   
- You need to select Table as the SourceType of the parent tag and specify the table in the [SourceTable Property](../dynamics-nav/SourceTable-Property.md).  
+ You need to select Table as the SourceType of the parent tag and specify the table in the [SourceTable Property](SourceTable-Property.md).  
   
  The SourceField property is related to the DataSource field in XMLport Designer.  
   
@@ -34,5 +34,5 @@ tablevariablename::fieldname
 ```  
   
 ## See Also  
- [SourceType Property](../dynamics-nav/SourceType-Property.md)   
- [SourceTable Property](../dynamics-nav/SourceTable-Property.md)
+ [SourceType Property](SourceType-Property.md)   
+ [SourceTable Property](SourceTable-Property.md)

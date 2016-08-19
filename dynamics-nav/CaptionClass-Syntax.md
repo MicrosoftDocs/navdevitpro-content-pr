@@ -35,12 +35,12 @@ This topic describes the syntax of the CaptionClass functionality.
  Two parameters `LANGUAGE` and `CAPTIONEXPR` are passed to this function.  
   
 ### LANGUAGE  
- The `LANGUAGE` parameter is automatically mentioned as is the Windows Language ID of the active language in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+ The `LANGUAGE` parameter is automatically mentioned as is the Windows Language ID of the active language in [!INCLUDE[navnow](includes/navnow_md.md)].  
   
- For example, if the active language in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] is English \(United States\), `LANGUAGE` will hold the value `1033`.  
+ For example, if the active language in [!INCLUDE[navnow](includes/navnow_md.md)] is English \(United States\), `LANGUAGE` will hold the value `1033`.  
   
 ### CAPTIONEXPR  
- The `CAPTIONEXPR` parameter contains the value of the **CaptionClass** property of the field or control. An example is in table 13 Salesperson\/Purchaser, the **Global Dimension 1 Code** field \(Field No. 5050\) has the string `'1,1,1'` as its **CaptionClass**. You can use the debugger to view the value of the `CAPTIONEXPR` parameter. Set a breakpoint on the `CaptionClassTranslate` function in codeunit 1, activate the debugger, and then run page 14, Salespeople\/Purchasers. The debugger breaks in the CaptionClassTranslate function. In the debugger, choose **Variables**. In the **Debugger Variable List**, you can see that the `CAPTIONEXPR` parameter holds the string `'1,1,1'`. For more information about the debugger, see [Debugging](../dynamics-nav/Debugging.md).  
+ The `CAPTIONEXPR` parameter contains the value of the **CaptionClass** property of the field or control. An example is in table 13 Salesperson\/Purchaser, the **Global Dimension 1 Code** field \(Field No. 5050\) has the string `'1,1,1'` as its **CaptionClass**. You can use the debugger to view the value of the `CAPTIONEXPR` parameter. Set a breakpoint on the `CaptionClassTranslate` function in codeunit 1, activate the debugger, and then run page 14, Salespeople\/Purchasers. The debugger breaks in the CaptionClassTranslate function. In the debugger, choose **Variables**. In the **Debugger Variable List**, you can see that the `CAPTIONEXPR` parameter holds the string `'1,1,1'`. For more information about the debugger, see [Debugging](Debugging.md).  
   
 > [!NOTE]  
 >  In the **About This Page** window, you will not find the Global Dimension 1 Code field. Instead you find the Department Code field, which represents the **CaptionClass** property and the `CaptionClassTranslate` function trigger.  
@@ -48,7 +48,7 @@ This topic describes the syntax of the CaptionClass functionality.
 ## Function Code  
  The function trigger `CaptionClassTranslate` with ID 15 resembles a system trigger. A programmer can intervene here every time that the **CaptionClass** property \(if it is defined\) is evaluated.  
   
- The following example shows the trigger in the [!INCLUDE[demoname](../dynamics-nav/includes/demoname_md.md)] database.  
+ The following example shows the trigger in the [!INCLUDE[demoname](includes/demoname_md.md)] database.  
   
  `CaptionClassTranslate(Language : Integer;CaptionExpr : Text[80] : Text[1024])`  
   
@@ -119,7 +119,7 @@ This topic describes the syntax of the CaptionClass functionality.
  Depending on the value of the `CAPTIONAREA`, `CAPTIONREF` can consist of one \(`VATCAPTIONTYPE`\) or two references \(`VATCAPTIONTYPE,VATCAPTIONREF` or `DIMCAPTIONTYPE,DIMCAPTIONREF`.  
   
 > [!NOTE]  
->  This is how the standard functionality in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] deals with the **CaptionClass** property. Every field or control with a defined **CaptionClass** has a string in this property that uses the syntax described earlier. For new functionality, a programmer could define other syntax and add code to the function trigger `CaptionClassTranslate` with ID 15 to handle this syntax.  
+>  This is how the standard functionality in [!INCLUDE[navnow](includes/navnow_md.md)] deals with the **CaptionClass** property. Every field or control with a defined **CaptionClass** has a string in this property that uses the syntax described earlier. For new functionality, a programmer could define other syntax and add code to the function trigger `CaptionClassTranslate` with ID 15 to handle this syntax.  
   
 ### Syntax for CAPTIONREF  
  As described earlier, the `CAPTIONREF` part of the `CAPTIONEXPR` parameter can have the following syntax. If `CAPTIONAREA` equals 1:  
@@ -249,5 +249,5 @@ This topic describes the syntax of the CaptionClass functionality.
  `<DataValue> := field caption`  
   
 ## See Also  
- [CaptionClass Functionality](../dynamics-nav/CaptionClass-Functionality.md)   
- [CaptionClass Property](../dynamics-nav/CaptionClass-Property.md)
+ [CaptionClass Functionality](CaptionClass-Functionality.md)   
+ [CaptionClass Property](CaptionClass-Property.md)

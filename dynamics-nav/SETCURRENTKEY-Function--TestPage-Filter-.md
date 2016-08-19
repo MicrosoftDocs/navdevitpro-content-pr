@@ -54,4 +54,4 @@ Sets the specified fields in a dataset on a test page as the current key.
  You can select additional fields to be included as the current key.  
   
 ## See Also  
- [TestPage Filter Functions](../dynamics-nav/TestPage-Filter-Functions.md)
+ [TestPage Filter Functions](TestPage-Filter-Functions.md)

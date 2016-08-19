@@ -128,7 +128,7 @@ Customer.DELETE;
   
 3.  If step 2 indicated that you should delete the record, then delete it.  
   
- This can cause problems in a multi\-user environment. Another user can modify or delete the same record between your performing steps 2 and 3. If the record is modified, then perhaps the new contents of the record would have changed your decision to delete it. If it has been deleted by the other user, you can get a run\-time error if you have just verified that the record existed \(in step 1\). If the design of your application indicates that you can encounter this problem, you should consider using the LOCKTABLE function. LOCKTABLE should be used sparingly because this function degrades performance. For more information about the LOCKTABLE function, see [LOCKTABLE Function](../dynamics-nav/LOCKTABLE-Function.md).  
+ This can cause problems in a multi\-user environment. Another user can modify or delete the same record between your performing steps 2 and 3. If the record is modified, then perhaps the new contents of the record would have changed your decision to delete it. If it has been deleted by the other user, you can get a run\-time error if you have just verified that the record existed \(in step 1\). If the design of your application indicates that you can encounter this problem, you should consider using the LOCKTABLE function. LOCKTABLE should be used sparingly because this function degrades performance. For more information about the LOCKTABLE function, see [LOCKTABLE Function](LOCKTABLE-Function.md).  
   
 ## DELETEALL Function  
  DELETEALL deletes all the records that are specified by the filter settings. If no filters are applied, it deletes all the records in the table.  
@@ -151,4 +151,4 @@ Customer.DELETEALL;
 ```  
   
 > [!NOTE]  
->  When you use DELETEALL\(TRUE\), [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] creates a copy of the C\/AL variable with its initial values. This means that when you use DELETEALL\(TRUE\) to run the OnDelete trigger, all the changes that were made to the variables in the function or codeunit that is making the call cannot be seen in the OnDelete trigger. If you want to see the changes that you made to the variables, you must use DELETE\(TRUE\) in a loop. There is no difference in performance between using DELETEALL\(TRUE\) and using DELETE\(TRUE\) in a loop.
+>  When you use DELETEALL\(TRUE\), [!INCLUDE[navnow](includes/navnow_md.md)] creates a copy of the C\/AL variable with its initial values. This means that when you use DELETEALL\(TRUE\) to run the OnDelete trigger, all the changes that were made to the variables in the function or codeunit that is making the call cannot be seen in the OnDelete trigger. If you want to see the changes that you made to the variables, you must use DELETE\(TRUE\) in a loop. There is no difference in performance between using DELETEALL\(TRUE\) and using DELETE\(TRUE\) in a loop.

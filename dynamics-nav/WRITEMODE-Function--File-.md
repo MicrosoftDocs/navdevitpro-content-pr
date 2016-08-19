@@ -10,7 +10,7 @@ ms.assetid: 92eee96d-882c-43ab-8ba3-bc9e3905505e
 caps.latest.revision: 11
 ---
 # WRITEMODE Function (File)
-Use this function before you use [OPEN Function \(File\)](../dynamics-nav/OPEN-Function--File-.md) to set or test whether you can write to a file in later calls.  
+Use this function before you use [OPEN Function \(File\)](OPEN-Function--File-.md) to set or test whether you can write to a file in later calls.  
   
 ## Syntax  
   
@@ -40,10 +40,10 @@ Use this function before you use [OPEN Function \(File\)](../dynamics-nav/OPEN-F
  **true** if you can read from and write to the file; otherwise, **false** if you can only read from the file.  
   
 ## Remarks  
- This function should be used before [OPEN Function \(File\)](../dynamics-nav/OPEN-Function--File-.md) is used to open the file.  
+ This function should be used before [OPEN Function \(File\)](OPEN-Function--File-.md) is used to open the file.  
   
 ## Example  
- The following example opens a file in write mode and writes text to the file. The [WRITEMODE Function \(FILE\)](../dynamics-nav/WRITEMODE-Function--File-.md) allows the text file that is named C:\/TestFolder\/TestFile.txt for to be written to by setting *SetWritemode* parameter to **true**. The [WRITE Function \(File\)](../dynamics-nav/WRITE-Function--File-.md) writes the text ‘Hello World’ to the text file. The [CLOSE Function \(File\)](../dynamics-nav/CLOSE-Function--File-.md) closes the file after the file is written to. This example assumes that you have created a text file that is named C:\/TestFolder\/TestFile.txt. This example requires that you create the following variable in the **C\/AL Globals** window.  
+ The following example opens a file in write mode and writes text to the file. The [WRITEMODE Function \(FILE\)](WRITEMODE-Function--File-.md) allows the text file that is named C:\/TestFolder\/TestFile.txt for to be written to by setting *SetWritemode* parameter to **true**. The [WRITE Function \(File\)](WRITE-Function--File-.md) writes the text ‘Hello World’ to the text file. The [CLOSE Function \(File\)](CLOSE-Function--File-.md) closes the file after the file is written to. This example assumes that you have created a text file that is named C:\/TestFolder\/TestFile.txt. This example requires that you create the following variable in the **C\/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -58,4 +58,4 @@ TestFile.CLOSE;
 ```  
   
 ## See Also  
- [File Data Type](../dynamics-nav/File-Data-Type.md)
+ [File Data Type](File-Data-Type.md)

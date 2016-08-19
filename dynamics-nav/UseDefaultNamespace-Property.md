@@ -21,4 +21,4 @@ Specifies whether the value in default namespace should be used for both output 
  **true** if the default namespace should be used; otherwise, **false**. The default is **false**.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

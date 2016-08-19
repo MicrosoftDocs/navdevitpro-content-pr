@@ -27,7 +27,7 @@ Builds and runs the filter page that includes the filter controls that are store
 ## Remarks  
  The page is run modally and includes an **OK** and **Cancel** button for closing to modal popup.  
   
- You can call the [GETVIEW function \(FilterPageBuilder\)](../dynamics-nav/GETVIEW-function--FilterPageBuilder-.md) function to retrieve the current filter view that is configured on the filter control and apply to the record.  
+ You can call the [GETVIEW function \(FilterPageBuilder\)](GETVIEW-function--FilterPageBuilder-.md) function to retrieve the current filter view that is configured on the filter control and apply to the record.  
   
 ## Example  
  The following example initializes a filter page object that includes a filter control for the **Date** system table. The filter control has the caption of **Date record**. The example adds two filter fields to the filter control on the filter page as the result of applying a default view. The GETVIEW function is used to capture that filter view from the FilterPageBuilder object, and then apply it to the record.  
@@ -54,12 +54,12 @@ IF varFilterPageBuilder.RUNMODAL = TRUE THEN
 ```  
   
 ## See Also  
- [ADDFIELD Function](../dynamics-nav/ADDFIELD-Function.md)   
- [ADDFIELDNO Function](../dynamics-nav/ADDFIELDNO-Function.md)   
- [ADDRECORD Function](../dynamics-nav/ADDRECORD-Function.md)   
- [ADDRECORDREF Function](../dynamics-nav/ADDRECORDREF-Function.md)   
- [ADDTABLE Function](../dynamics-nav/ADDTABLE-Function.md)   
- [GETVIEW function \(FilterPageBuilder\)](../dynamics-nav/GETVIEW-function--FilterPageBuilder-.md)   
- [SETVIEW Function](../dynamics-nav/SETVIEW-Function.md)   
- [COUNT Function \(FilterPageBuilder\)](../dynamics-nav/COUNT-Function--FilterPageBuilder-.md)   
- [NAME Function \(FilterPageBuilder\)](../dynamics-nav/NAME-Function--FilterPageBuilder-.md)
+ [ADDFIELD Function](ADDFIELD-Function.md)   
+ [ADDFIELDNO Function](ADDFIELDNO-Function.md)   
+ [ADDRECORD Function](ADDRECORD-Function.md)   
+ [ADDRECORDREF Function](ADDRECORDREF-Function.md)   
+ [ADDTABLE Function](ADDTABLE-Function.md)   
+ [GETVIEW function \(FilterPageBuilder\)](GETVIEW-function--FilterPageBuilder-.md)   
+ [SETVIEW Function](SETVIEW-Function.md)   
+ [COUNT Function \(FilterPageBuilder\)](COUNT-Function--FilterPageBuilder-.md)   
+ [NAME Function \(FilterPageBuilder\)](NAME-Function--FilterPageBuilder-.md)

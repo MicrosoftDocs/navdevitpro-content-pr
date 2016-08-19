@@ -30,4 +30,4 @@ Sets whether the element can be repeated an unknown number of times at runtime b
  For example, your XMLport can export data in two different file formats. One format contains 5 columns, and the other contains 10 columns. Instead of duplicating the maximum number of columns and writing code that skips any redundant columns, you can set up a single column, make it unbound, and then specify in code when to break to the next element.  
   
 ## See Also  
- [BREAKUNBOUND Function \(XMLport\)](../dynamics-nav/BREAKUNBOUND-Function--XMLport-.md)
+ [BREAKUNBOUND Function \(XMLport\)](BREAKUNBOUND-Function--XMLport-.md)

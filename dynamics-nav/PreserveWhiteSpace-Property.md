@@ -12,7 +12,7 @@ caps.latest.revision: 8
 # PreserveWhiteSpace Property
 Determines whether white space should be preserved in documents that are imported through an XMLport.  
   
- By default, [!INCLUDE[nav_current_short](../dynamics-nav/includes/nav_current_short_md.md)] supports the XML standard by normalizing white space in attribute names and values that are imported through an XMLport. It converts tabs, carriage returns, and spaces to single spaces. It also eliminates leading and trailing white space.  
+ By default, [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] supports the XML standard by normalizing white space in attribute names and values that are imported through an XMLport. It converts tabs, carriage returns, and spaces to single spaces. It also eliminates leading and trailing white space.  
   
  When this property is set to **Yes**, no normalizations are performed.  
   
@@ -23,4 +23,4 @@ Determines whether white space should be preserved in documents that are importe
  **No** to normalize white space; otherwise, **Yes** to not normalize white space. The default is **No**.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

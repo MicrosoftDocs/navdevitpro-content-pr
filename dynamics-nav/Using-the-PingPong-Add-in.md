@@ -11,7 +11,7 @@ caps.latest.revision: 3
 manager: terryaus
 ---
 # Using the PingPong Add-in
-The [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] PingPong add\-in can be invoked to request a callback after a specified timeout. The PingPong add\-in does one callback on request. The callback is requested from C\/AL code by specifying the time to wait in milliseconds.  
+The [!INCLUDE[navnow](includes/navnow_md.md)] PingPong add\-in can be invoked to request a callback after a specified timeout. The PingPong add\-in does one callback on request. The callback is requested from C\/AL code by specifying the time to wait in milliseconds.  
   
 > [!NOTE]  
 >  Using the PingPong add\-in instead of a timer is recommended, because you can run all of the C\/AL code on the trigger. If you use a server timer, you cannot trigger events on the client.  

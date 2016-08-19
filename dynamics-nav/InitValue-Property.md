@@ -17,9 +17,9 @@ Sets the initial value of this field when a user creates a new record.
  Fields  
   
 ## Remarks  
- This attribute is only important if you create the record in a window or by using the C\/AL functions [InitValue](../dynamics-nav/InitValue-Property.md), [CLEAR Function](../dynamics-nav/CLEAR-Function.md), or [CLEARALL Function](../dynamics-nav/CLEARALL-Function.md). For example, this attribute is commonly used in Boolean fields when you want either **Yes** or **No** to be the default.  
+ This attribute is only important if you create the record in a window or by using the C\/AL functions [InitValue](InitValue-Property.md), [CLEAR Function](CLEAR-Function.md), or [CLEARALL Function](CLEARALL-Function.md). For example, this attribute is commonly used in Boolean fields when you want either **Yes** or **No** to be the default.  
   
 ## See Also  
- [InitValue](../dynamics-nav/InitValue-Property.md)   
- [CLEAR Function](../dynamics-nav/CLEAR-Function.md)   
- [CLEARALL Function](../dynamics-nav/CLEARALL-Function.md)
+ [InitValue](InitValue-Property.md)   
+ [CLEAR Function](CLEAR-Function.md)   
+ [CLEARALL Function](CLEARALL-Function.md)

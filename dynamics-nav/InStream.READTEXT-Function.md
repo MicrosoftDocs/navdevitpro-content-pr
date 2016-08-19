@@ -67,6 +67,6 @@ FileTest.CLOSE();
 ```  
   
 ## See Also  
- [InStream and OutStream Data Types](../dynamics-nav/InStream-and-OutStream-Data-Types.md)   
- [InStream.READ Function](../dynamics-nav/InStream.READ-Function.md)   
- [InStream.EOS Function](../dynamics-nav/InStream.EOS-Function.md)
+ [InStream and OutStream Data Types](InStream-and-OutStream-Data-Types.md)   
+ [InStream.READ Function](InStream.READ-Function.md)   
+ [InStream.EOS Function](InStream.EOS-Function.md)

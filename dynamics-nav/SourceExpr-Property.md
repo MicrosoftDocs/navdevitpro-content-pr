@@ -21,4 +21,4 @@ Sets the source expression for this control.
  A source expression is a C\/AL expression that defines where to find the value of a control. The source expression is evaluated when updates are performed. A source expression can be as simple as the name of a table field; it can also be a complex C\/AL expression.  
   
 ## See Also  
- [BitmapList Property](../dynamics-nav/BitmapList-Property.md)
+ [BitmapList Property](BitmapList-Property.md)

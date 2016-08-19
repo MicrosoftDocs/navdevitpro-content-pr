@@ -20,4 +20,4 @@ Executed when user input is validated.
  This trigger is executed after the default validation behavior. An error message displays if an error occurs in the trigger code. In case of an error, the user entry is not written to the database.  
   
 ## See Also  
- [Triggers](../dynamics-nav/Triggers.md)
+ [Triggers](Triggers.md)

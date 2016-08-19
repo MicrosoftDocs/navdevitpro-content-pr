@@ -11,7 +11,7 @@ caps.latest.revision: 10
 manager: terryaus
 ---
 # Accessibility Features of Microsoft Dynamics NAV Web Client
-This topic provides information about the features of the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] that make [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] content readily available to people with disabilities. The [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] supports the following accessibility features:  
+This topic provides information about the features of the [!INCLUDE[nav_web](includes/nav_web_md.md)] that make [!INCLUDE[navnow](includes/navnow_md.md)] content readily available to people with disabilities. The [!INCLUDE[nav_web](includes/nav_web_md.md)] supports the following accessibility features:  
   
 -   Keyboard Shortcuts  
   
@@ -24,7 +24,7 @@ This topic provides information about the features of the [!INCLUDE[nav_web](../
 -   Assistive Technologies  
   
 ##  <a name="Keyboard"></a> Keyboard Shortcuts  
- [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] supports the keyboard shortcuts that are supported by most web browsers.  
+ [!INCLUDE[nav_web](includes/nav_web_md.md)] supports the keyboard shortcuts that are supported by most web browsers.  
   
 |To do this|Press|  
 |----------------|-----------|  
@@ -35,23 +35,23 @@ This topic provides information about the features of the [!INCLUDE[nav_web](../
 |To open a drop\-down list or look up a value for a field.|Alt\+Down Arrow|  
   
 ##  <a name="Navigation"></a> Navigation  
- You can navigate between the tabs and actions in the ribbon, elements in the navigation pane, and other controls on [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] pages and reports using the keyboard. To move the focus from one tab, action, or control to another, press the Tab key to move forward. Press Shift\+Tab to move backward.  
+ You can navigate between the tabs and actions in the ribbon, elements in the navigation pane, and other controls on [!INCLUDE[navnow](includes/navnow_md.md)] pages and reports using the keyboard. To move the focus from one tab, action, or control to another, press the Tab key to move forward. Press Shift\+Tab to move backward.  
   
  By using the tab order, you can also switch between the main browser window and dialog boxes that request confirmation, for example, or the login window.  
   
 ##  <a name="Headings"></a> Headings  
- The HTML source for [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] content uses tags to help users of assistive technology to understand the structure and content of the page. For example, on list pages, the columns are defined in TH tags and the column headings are set with TITLE attribute inside the tag. Captions for elements, such as FastTabs, FactBoxes, and fields are included in heading tags \(H1, H2, H3, and H4\).  
+ The HTML source for [!INCLUDE[navnow](includes/navnow_md.md)] content uses tags to help users of assistive technology to understand the structure and content of the page. For example, on list pages, the columns are defined in TH tags and the column headings are set with TITLE attribute inside the tag. Captions for elements, such as FastTabs, FactBoxes, and fields are included in heading tags \(H1, H2, H3, and H4\).  
   
 ##  <a name="Images"></a> Image and Links  
  A descriptive text for images is set with the ALT attribute inside the IMG tag. A descriptive text for hyperlinks is set with the title attribute inside the A tag.  
   
 ##  <a name="AssistiveTech"></a> Assistive Technologies  
- The [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] supports various assistive technologies, such as high contrast, screen readers, and voice recognition software. Some assistive technologies may not work well with certain elements on [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] content.  
+ The [!INCLUDE[nav_web](includes/nav_web_md.md)] supports various assistive technologies, such as high contrast, screen readers, and voice recognition software. Some assistive technologies may not work well with certain elements on [!INCLUDE[navnow](includes/navnow_md.md)] content.  
   
 ## Additional Accessibility Information  
  For additional information about accessibility with Microsoft products and assistive technologies, see the [Microsoft Accessibility web site](http://go.microsoft.com/fwlink/?LinkID=251222).  
   
 ## See Also  
- [Microsoft Dynamics NAV Web Client](../dynamics-nav/Microsoft-Dynamics-NAV-Web-Client.md)   
- [Deploying the Microsoft Dynamics NAV Web Server Components](../dynamics-nav/Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
+ [Microsoft Dynamics NAV Web Client](Microsoft-Dynamics-NAV-Web-Client.md)   
+ [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
  [How to: Install the Web Server Components](../Topic/How%20to:%20Install%20the%20Web%20Server%20Components.md)

@@ -23,7 +23,7 @@ When you import objects from a binary file \(.fob\), if there are conflicts with
 ## The Import Worksheet  
  Each line in the Import Worksheet displays information about one object. You decide how to handle the conflict by choosing an action in the **Action** column. The following table shows the information that is displayed about each object in the import file.  
   
-|Object|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|Object|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |------------|---------------------------------------|  
 |Type|The type of this object. The type is one of the following:<br /><br /> \*  TableData<br /><br /> \*  Table<br /><br /> \*  Report<br /><br /> \*  Codeunit<br /><br /> \*  XMLport<br /><br /> \*  MenuSuite<br /><br /> \*  Page<br /><br /> \*  Query<br /><br /> \*  System<br /><br /> \*  FieldNumber|  
 |No.|The ID of the object.|  
@@ -52,5 +52,5 @@ When you import objects from a binary file \(.fob\), if there are conflicts with
 |Help|Display the Help topic.|  
   
 ## See Also  
- [Importing and Exporting Objects](../dynamics-nav/Importing-and-Exporting-Objects.md)   
- [Options for Merging Objects](../dynamics-nav/Options-for-Merging-Objects.md)
+ [Importing and Exporting Objects](Importing-and-Exporting-Objects.md)   
+ [Options for Merging Objects](Options-for-Merging-Objects.md)

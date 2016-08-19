@@ -35,12 +35,12 @@ Empty := RecordRef.ISEMPTY
   
  The number of filters that you have applied to the records affects the speed of the ISEMPTY function. The fewer the number of filters, the faster the operation is performed.  
   
- When you are using SQL Server, this function is faster than using the [COUNT Function \(Record\)](../dynamics-nav/COUNT-Function--Record-.md) and then testing the result for zero.  
+ When you are using SQL Server, this function is faster than using the [COUNT Function \(Record\)](COUNT-Function--Record-.md) and then testing the result for zero.  
   
- This function works the same as the [ISEMPTY Function \(Record\)](../dynamics-nav/ISEMPTY-Function--Record-.md).  
+ This function works the same as the [ISEMPTY Function \(Record\)](ISEMPTY-Function--Record-.md).  
   
 ## Example  
- The following example opens table 18, the customer table as a RecordRef variable that is named. CustomerRecref. The [ISEMPTY Function \(RECORDREF\)](../dynamics-nav/ISEMPTY-Function--RecordRef-.md) determines whether the table is empty. The message box displays **No** because the Customer table is not empty. **No** represents **false**. This example requires that you create the following variable text constant in the **C\/AL Global** window.  
+ The following example opens table 18, the customer table as a RecordRef variable that is named. CustomerRecref. The [ISEMPTY Function \(RECORDREF\)](ISEMPTY-Function--RecordRef-.md) determines whether the table is empty. The message box displays **No** because the Customer table is not empty. **No** represents **false**. This example requires that you create the following variable text constant in the **C\/AL Global** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -60,4 +60,4 @@ MESSAGE(Text000, IsEmpty);
  If you open table 78 \(Printer Selection\), the message will display **Yes** because the table is empty.  
   
 ## See Also  
- [RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md)
+ [RecordRef Data Type](RecordRef-Data-Type.md)

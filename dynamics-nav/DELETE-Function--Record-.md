@@ -11,7 +11,7 @@ caps.latest.revision: 16
 manager: terryaus
 ---
 # DELETE Function (Record)
-Deletes a record in a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] table.  
+Deletes a record in a [!INCLUDE[navnow](includes/navnow_md.md)] table.  
   
 ## Syntax  
   
@@ -32,7 +32,7 @@ Deletes a record in a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] 
  *RunTrigger*  
  Type: Boolean  
   
- Specifies whether to run the C\/AL code in the [OnDelete Trigger](../dynamics-nav/OnDelete-Trigger.md).  
+ Specifies whether to run the C\/AL code in the [OnDelete Trigger](OnDelete-Trigger.md).  
   
  If this parameter is **true**, then the code in the **OnDelete** trigger is executed. If this parameter is **false**, then the code in the **OnDelete** trigger is not executed.  
   
@@ -56,11 +56,11 @@ Deletes a record in a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] 
   
  **Enter your changes again in the updated window, or start the interrupted activity again.**  
   
- In earlier versions of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], certain situations allowed code that an end\-user runs to modify a record after a newer version of the record was written and committed to the database. This would overwrite the newer changes. However, in [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], we have restricted the [MODIFY Function \(Record\)](../dynamics-nav/MODIFY-Function--Record-.md), [RENAME Function \(Record\)](../dynamics-nav/RENAME-Function--Record-.md), and **DELETE** Function \(Record\) so that the end\-user receives the following run\-time error in these certain situations:  
+ In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], certain situations allowed code that an end\-user runs to modify a record after a newer version of the record was written and committed to the database. This would overwrite the newer changes. However, in [!INCLUDE[navnowlong](includes/navnowlong_md.md)], we have restricted the [MODIFY Function \(Record\)](MODIFY-Function--Record-.md), [RENAME Function \(Record\)](RENAME-Function--Record-.md), and **DELETE** Function \(Record\) so that the end\-user receives the following run\-time error in these certain situations:  
   
  **Unable to change an earlier version of the \<Table Name\> record. The record should be read from the database again. This is a programming error.**  
   
- You must design your application so that you use the most up\-to\-date version of the record for modifications to the database. You use the [GET Function \(Record\)](../dynamics-nav/GET-Function--Record-.md) to refresh the record with the latest version. The second example illustrates this situation.  
+ You must design your application so that you use the most up\-to\-date version of the record for modifications to the database. You use the [GET Function \(Record\)](GET-Function--Record-.md) to refresh the record with the latest version. The second example illustrates this situation.  
   
 ## Example  
  The first two lines of code in this example do not use the return value from the **DELETE** function. This means that a run\-time error occurs if the record to be deleted cannot be found.  
@@ -98,7 +98,7 @@ ELSE
 |CustomerRec1|Record|Customer|  
 |CustomerRec2|Record|Customer|  
   
- In this example, you get a copy of a record from the **Customer** table and put it into the CustomerRec1 variable, then you modify the record. Next, you get a copy of the same record from the **Customer** table and put it into the CustomerRec2 variable. You modify the record and commit the changes to the database. Now the CustomerRec1 variable is out\-of\-date with the value in the database. If you were allowed to modify the database using the CustomerRec1 record, then the changes that you made with CustomerRec2 would be overwritten by the values in the CustomerRec1 variable. [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] does not allow you to delete a record using an old version of the record.  
+ In this example, you get a copy of a record from the **Customer** table and put it into the CustomerRec1 variable, then you modify the record. Next, you get a copy of the same record from the **Customer** table and put it into the CustomerRec2 variable. You modify the record and commit the changes to the database. Now the CustomerRec1 variable is out\-of\-date with the value in the database. If you were allowed to modify the database using the CustomerRec1 record, then the changes that you made with CustomerRec2 would be overwritten by the values in the CustomerRec1 variable. [!INCLUDE[navnowlong](includes/navnowlong_md.md)] does not allow you to delete a record using an old version of the record.  
   
 > [!NOTE]  
 >  If you do not call the **COMMIT** function in this example, then you do not receive an error.  
@@ -127,8 +127,8 @@ CustomerRec1.DELETE;
  **No.\='10000'**  
   
 ## See Also  
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)   
- [DELETEALL Function \(Record\)](../dynamics-nav/DELETEALL-Function--Record-.md)   
- [DELETE Function \(RecordRef\)](../dynamics-nav/DELETE-Function--RecordRef-.md)   
- [COMMIT Function \(Database\)](../dynamics-nav/COMMIT-Function--Database-.md)   
- [LOCKTABLE Function \(Record\)](../dynamics-nav/LOCKTABLE-Function--Record-.md)
+ [Record Data Type](Record-Data-Type.md)   
+ [DELETEALL Function \(Record\)](DELETEALL-Function--Record-.md)   
+ [DELETE Function \(RecordRef\)](DELETE-Function--RecordRef-.md)   
+ [COMMIT Function \(Database\)](COMMIT-Function--Database-.md)   
+ [LOCKTABLE Function \(Record\)](LOCKTABLE-Function--Record-.md)

@@ -11,14 +11,14 @@ caps.latest.revision: 15
 manager: terryaus
 ---
 # Troubleshooting: SQL Server Connection Problems
-After installing and configuring [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] software, you may not be able to connect the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)] to [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]. In this case you see an error message like the following when you attempt to start the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)].  
+After installing and configuring [!INCLUDE[navnow](includes/navnow_md.md)] software, you may not be able to connect the [!INCLUDE[rtc](includes/rtc_md.md)] to [!INCLUDE[nav_server](includes/nav_server_md.md)]. In this case you see an error message like the following when you attempt to start the [!INCLUDE[rtc](includes/rtc_md.md)].  
   
  **The program could not create a connection to the server. Do you want to try again?**  
   
  This topic describes configuration changes that you can try to resolve SQL Server connection problems.  
   
 ## Enable Protocols in SQL Server Configuration Manager  
- SQL Server Configuration Manager is a tool for managing SQL Server services and network connectivity. You can use SQL Server Configuration Manager to enable and disable network protocols. For [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] to work correctly, the Named Pipes and TCP\/IP protocols must be enabled for SQL Server.  
+ SQL Server Configuration Manager is a tool for managing SQL Server services and network connectivity. You can use SQL Server Configuration Manager to enable and disable network protocols. For [!INCLUDE[navnow](includes/navnow_md.md)] to work correctly, the Named Pipes and TCP\/IP protocols must be enabled for SQL Server.  
   
  Follow these steps to verify that these protocols are enabled or to enable them if they are currently disabled.  
   
@@ -32,10 +32,10 @@ After installing and configuring [!INCLUDE[navnow](../dynamics-nav/includes/navn
   
 4.  If either protocol is not enabled, right\-click the protocol, and then choose **Enable**.  
   
- After exiting SQL Server Configuration Manager, start the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)] again to see if the connection problem has been resolved.  
+ After exiting SQL Server Configuration Manager, start the [!INCLUDE[rtc](includes/rtc_md.md)] again to see if the connection problem has been resolved.  
   
 ## Allowing SQL Server with Windows Firewall  
- If Windows Firewall is running on the computer running SQL Server, then you must explicitly specify the SQL Server executable file as an allowed exception before you can connect to the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database.  
+ If Windows Firewall is running on the computer running SQL Server, then you must explicitly specify the SQL Server executable file as an allowed exception before you can connect to the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
 #### To allow SQL Server with Windows Firewall  
   
@@ -53,12 +53,12 @@ After installing and configuring [!INCLUDE[navnow](../dynamics-nav/includes/navn
   
 5.  Choose **OK** to close **Windows Firewall**.  
   
- After exiting SQL Server Configuration Manager, start the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)] again to see if the connection problem has been resolved.  
+ After exiting SQL Server Configuration Manager, start the [!INCLUDE[rtc](includes/rtc_md.md)] again to see if the connection problem has been resolved.  
   
 ## Starting SQL Browser Service  
- When using a named database instance for [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], and [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] and the SQL server are on separate computers, then SQL Browser Service must be running on the SQL Server. For more information, see [How to: Start SQL Browser Service](../Topic/How%20to:%20Start%20SQL%20Browser%20Service.md).  
+ When using a named database instance for [!INCLUDE[navnow](includes/navnow_md.md)], and [!INCLUDE[nav_server](includes/nav_server_md.md)] and the SQL server are on separate computers, then SQL Browser Service must be running on the SQL Server. For more information, see [How to: Start SQL Browser Service](../Topic/How%20to:%20Start%20SQL%20Browser%20Service.md).  
   
 ## See Also  
- [Configuring Microsoft SQL Server](../dynamics-nav/Configuring-Microsoft-SQL-Server.md)   
+ [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)   
  [Walkthrough: Installing the Three Tiers on Three Computers](../Topic/Walkthrough:%20Installing%20the%20Three%20Tiers%20on%20Three%20Computers.md)   
- [Installation Considerations for Microsoft SQL Server](../dynamics-nav/Installation-Considerations-for-Microsoft-SQL-Server.md)
+ [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md)

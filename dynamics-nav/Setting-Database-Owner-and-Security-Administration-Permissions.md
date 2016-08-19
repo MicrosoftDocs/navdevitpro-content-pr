@@ -11,17 +11,17 @@ caps.latest.revision: 29
 manager: terryaus
 ---
 # Setting Database Owner and Security Administration Permissions
-Permissions are required in SQL Server to create and manage [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] databases. Use SQL Server Management Studio to grant these permissions to [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] administrators.  
+Permissions are required in SQL Server to create and manage [!INCLUDE[navnow](includes/navnow_md.md)] databases. Use SQL Server Management Studio to grant these permissions to [!INCLUDE[navnow](includes/navnow_md.md)] administrators.  
   
- If you have installed SQL Server with the guidelines in [Installation Considerations for Microsoft SQL Server](../dynamics-nav/Installation-Considerations-for-Microsoft-SQL-Server.md), then SQL Server Management Studio is already installed on your computer. Otherwise, update your SQL Server installation to include the **Management Tools \- Complete option for SQL Server**.  
+ If you have installed SQL Server with the guidelines in [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md), then SQL Server Management Studio is already installed on your computer. Otherwise, update your SQL Server installation to include the **Management Tools \- Complete option for SQL Server**.  
   
 ## Permissions for Using and Creating Databases  
- The administrator who installs [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] automatically has access to the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database in the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)]. To grant another user permission to create new databases in [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], grant that user the sysadmin Server Role for the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] SQL Server instance in SQL Server Management Studio.  
+ The administrator who installs [!INCLUDE[navnowlong](includes/navnowlong_md.md)] automatically has access to the [!INCLUDE[navnow](includes/navnow_md.md)] database in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. To grant another user permission to create new databases in [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], grant that user the sysadmin Server Role for the [!INCLUDE[navnow](includes/navnow_md.md)] SQL Server instance in SQL Server Management Studio.  
   
 > [!NOTE]  
->  The administrator must also have a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] developer’s license to use the development environment, and be assigned the SUPER permission set.  
+>  The administrator must also have a [!INCLUDE[navnow](includes/navnow_md.md)] developer’s license to use the development environment, and be assigned the SUPER permission set.  
   
- In the Object Explorer pane in SQL Server Management Studio, follow these steps after connecting to the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] SQL Server instance:  
+ In the Object Explorer pane in SQL Server Management Studio, follow these steps after connecting to the [!INCLUDE[navnow](includes/navnow_md.md)] SQL Server instance:  
   
 1.  Expand the **Security** node, right\-click **Logins**, and choose **New Login**.  
   
@@ -35,18 +35,18 @@ Permissions are required in SQL Server to create and manage [!INCLUDE[navnow](..
   
 5.  Choose the **OK** button to close the **Login – New** dialog box.  
   
- When administrators create [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] databases in the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] development environment, the account running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] is automatically granted the db\_owner database role for these databases.  
+ When administrators create [!INCLUDE[navnow](includes/navnow_md.md)] databases in the [!INCLUDE[navnow](includes/navnow_md.md)] development environment, the account running [!INCLUDE[nav_server](includes/nav_server_md.md)] is automatically granted the db\_owner database role for these databases.  
   
 ## Permissions for Managing Companies, Objects, and Licenses  
- Administrators who create [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] databases automatically have permission to manage companies, objects, and licenses in that database.  
+ Administrators who create [!INCLUDE[navnow](includes/navnow_md.md)] databases automatically have permission to manage companies, objects, and licenses in that database.  
   
- To grant permission to manage companies, objects, and licenses in [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)] to additional administrators, assign those administrators the db\_owner database role for all relevant [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] databases.  
+ To grant permission to manage companies, objects, and licenses in [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to additional administrators, assign those administrators the db\_owner database role for all relevant [!INCLUDE[navnow](includes/navnow_md.md)] databases.  
   
- To grant the db\_owner role on a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database in SQL Server Management Studio, follow these steps:  
+ To grant the db\_owner role on a [!INCLUDE[navnow](includes/navnow_md.md)] database in SQL Server Management Studio, follow these steps:  
   
 1.  If the administrator is not already a SQL Server login, add the administrator as a login by following the first three steps in the procedure above.  
   
-2.  Select the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database, then **Security**, then right\-click **Users** and choose **New User**.  
+2.  Select the [!INCLUDE[navnow](includes/navnow_md.md)] database, then **Security**, then right\-click **Users** and choose **New User**.  
   
      Choose the button at the right of the **Login Name** field to open the **Select Login** dialog box.  
   
@@ -65,4 +65,4 @@ Permissions are required in SQL Server to create and manage [!INCLUDE[navnow](..
 8.  Choose the **OK** button to exit the **Database User – New** dialog box.  
   
 ## See Also  
- [Installation Considerations for Microsoft SQL Server](../dynamics-nav/Installation-Considerations-for-Microsoft-SQL-Server.md)
+ [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md)

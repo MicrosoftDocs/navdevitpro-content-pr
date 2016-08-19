@@ -12,7 +12,7 @@ caps.latest.revision: 11
 # Delete Operation
 Deletes a single record.  
   
- Executing the Delete operation in a web service first executes the [OnDeleteRecord Trigger](../dynamics-nav/OnDeleteRecord-Trigger.md) on the designated page. If application code in the OnDeleteRecord trigger for the page returns **true**, then the [OnDelete Trigger](../dynamics-nav/OnDelete-Trigger.md) for the corresponding table is executed. If no fault occurs, then the record is deleted from the database.  
+ Executing the Delete operation in a web service first executes the [OnDeleteRecord Trigger](OnDeleteRecord-Trigger.md) on the designated page. If application code in the OnDeleteRecord trigger for the page returns **true**, then the [OnDelete Trigger](OnDelete-Trigger.md) for the corresponding table is executed. If no fault occurs, then the record is deleted from the database.  
   
  If the application code in the trigger returns **false**, then the OnDelete trigger is not executed. This does not necessarily mean that the record has not been deleted because it may have been deleted explicitly by the application code for the page's OnDeleteRecord trigger.  
   
@@ -75,4 +75,4 @@ namespace ConsoleApplication
 ```  
   
 ## See Also  
- [Basic Page Operations](../dynamics-nav/Basic-Page-Operations.md)
+ [Basic Page Operations](Basic-Page-Operations.md)

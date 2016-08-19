@@ -13,10 +13,10 @@ manager: terryaus
 # Walkthrough: Creating a Customer List in Page Designer
 In this walkthrough, you will learn how to create a basic page that displays a list of customers.  
   
- Pages are used in [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] the same way that forms are used in earlier versions. Unlike forms, pages can be displayed on multiple clients, including the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. This flexibility lets you display the same information in different clients. Pages cannot be viewed in the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)].  
+ Pages are used in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] the same way that forms are used in earlier versions. Unlike forms, pages can be displayed on multiple clients, including the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. This flexibility lets you display the same information in different clients. Pages cannot be viewed in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
   
 ## About this Walkthrough  
- This walkthrough provides an overview of how to create and run a simple list page in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], and demonstrates how to:  
+ This walkthrough provides an overview of how to create and run a simple list page in [!INCLUDE[navnow](includes/navnow_md.md)], and demonstrates how to:  
   
 -   Create a list page.  
   
@@ -24,14 +24,14 @@ In this walkthrough, you will learn how to create a basic page that displays a l
   
 -   Save the page.  
   
--   Run the page in the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)].  
+-   Run the page in the [!INCLUDE[rtc](includes/rtc_md.md)].  
   
 ### Prerequisites  
  The following prerequisites are required for this walkthrough:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] installed with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installed with a developer license.  
   
--   [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)]  
+-   [!INCLUDE[demolong](includes/demolong_md.md)]  
   
 ## Story  
  Simon is a partner working for CRONUS International Ltd. Kevin, the Sales Manager at CRONUS, has contacted Simon and asked him to create a customer list.  
@@ -44,7 +44,7 @@ In this walkthrough, you will learn how to create a basic page that displays a l
   
 #### To create a List page  
   
-1.  Open the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], and then on the **Tools** menu, choose **Object Designer**.  
+1.  Open the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], and then on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **Page**, and then choose **New**. The **New Page** window opens.  
   
@@ -103,10 +103,10 @@ In this walkthrough, you will learn how to create a basic page that displays a l
   
      The following illustration shows the Page Designer window.  
   
-     ![Page Designer window](../dynamics-nav/media/RTCPage_Customerlist.gif "RTCPage\_Customerlist")  
+     ![Page Designer window](media/RTCPage_Customerlist.gif "RTCPage\_Customerlist")  
   
 ## Saving and Running the Page  
- Now that Simon's page is complete, he wants to see how it looks. Eventually, he will add an action to another page so Kevin can access the page. But while he is still working on it, Simon can save the page and then quickly run it in the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)] using the following procedure.  
+ Now that Simon's page is complete, he wants to see how it looks. Eventually, he will add an action to another page so Kevin can access the page. But while he is still working on it, Simon can save the page and then quickly run it in the [!INCLUDE[rtc](includes/rtc_md.md)] using the following procedure.  
   
 #### To save and run the page  
   
@@ -124,9 +124,9 @@ In this walkthrough, you will learn how to create a basic page that displays a l
   
 5.  In Object Designer, select the page **50000 Kevin's Customer List**, and then choose **Run** to view the page.  
   
-     The [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)] opens and displays the customer list page. The following illustration shows a customer list page.  
+     The [!INCLUDE[rtc](includes/rtc_md.md)] opens and displays the customer list page. The following illustration shows a customer list page.  
   
-     ![Customer List page](../dynamics-nav/media/NAV_CustomerListWalk_ss2.png "NAV\_CustomerListWalk\_ss2")  
+     ![Customer List page](media/NAV_CustomerListWalk_ss2.png "NAV\_CustomerListWalk\_ss2")  
   
 ## Next Steps  
  Next, Simon needs to add actions to the customer list page. He decides that he wants to add a Sales Order action. When selected, this action will create a new sales order.  
@@ -135,5 +135,5 @@ In this walkthrough, you will learn how to create a basic page that displays a l
  [Walkthrough: Adding Actions to a Customer List Page](../Topic/Walkthrough:%20Adding%20Actions%20to%20a%20Customer%20List%20Page.md)   
  [Walkthrough: Adding a FactBox to the Customer List Page](../Topic/Walkthrough:%20Adding%20a%20FactBox%20to%20the%20Customer%20List%20Page.md)   
  [How to: Create a Page](../Topic/How%20to:%20Create%20a%20Page.md)   
- [Touring the RoleTailored Client Pages](../dynamics-nav/Touring-the-RoleTailored-Client-Pages.md)   
+ [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
  [How to: Run a Page](../Topic/How%20to:%20Run%20a%20Page.md)

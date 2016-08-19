@@ -27,5 +27,5 @@ Stops execution as if the code hits an error.
  If you omit this optional return value and if the break is not set successfully, then a run\-time error occurs. If you include the return value, then you must handle any errors.  
   
 ## See Also  
- [Debugger](../dynamics-nav/Debugger.md)   
+ [Debugger](Debugger.md)   
  [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](../Topic/Walkthrough:%20Debugging%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client.md)

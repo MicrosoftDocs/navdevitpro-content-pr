@@ -55,4 +55,4 @@ When you enter criteria, you can use all the numbers and letters that you can no
 >  It is important that you enter only meaningful filters. For example, it is possible to specify an interval that does not exist, and the program cannot check this for you. In order to enter meaningful filters, you must know the sorting rules followed by this program.  
   
 ## See Also  
- [Understanding Query Filters](../dynamics-nav/Understanding-Query-Filters.md)
+ [Understanding Query Filters](Understanding-Query-Filters.md)

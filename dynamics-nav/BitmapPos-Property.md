@@ -35,5 +35,5 @@ Sets the position of a bitmap.
 |**Center**|In the center|  
   
 ## See Also  
- [Bitmap Property](../dynamics-nav/Bitmap-Property.md)   
- [BitmapList Property](../dynamics-nav/BitmapList-Property.md)
+ [Bitmap Property](Bitmap-Property.md)   
+ [BitmapList Property](BitmapList-Property.md)

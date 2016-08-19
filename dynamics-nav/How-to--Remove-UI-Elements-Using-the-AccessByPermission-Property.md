@@ -14,24 +14,24 @@ UI elements that are directly related to an object through the **TableRelation**
   
  For UI elements that are not directly related to an object, you can use the **AccessByPermission** property to remove an element according to the user’s permission to a related object.  
   
- The **AccessByPermission** property sets a value for a table field or UI element that determines the permission mask for an object that a user must have to see and access the related page fields or UI element in the client. The UI element will be removed at runtime if the user does not have permissions to a certain object as specified in the **\($ S\_2180 Access By Permission $\)** window. For more information, see [AccessByPermission Property](../dynamics-nav/AccessByPermission-Property.md).  
+ The **AccessByPermission** property sets a value for a table field or UI element that determines the permission mask for an object that a user must have to see and access the related page fields or UI element in the client. The UI element will be removed at runtime if the user does not have permissions to a certain object as specified in the **\($ S\_2180 Access By Permission $\)** window. For more information, see [AccessByPermission Property](AccessByPermission-Property.md).  
   
  To make full use of the **LicenseFileAndUserPermissions** option in the **UI Elements Removal** field, it is recommended that you assign the special permission set, FOUNDATION, along with the relevant permission sets that define which application objects the user will access.  
   
 > [!IMPORTANT]  
->  The majority of the permission sets that are provided with the [!INCLUDE[demo](../dynamics-nav/includes/demo_md.md)] demonstration database cannot be combined with the FOUNDATION permission set to fully use the UI Elements Removal feature. You must first create or edit the relevant permission sets to avoid that the user is blocked from performing the involved tasks. For more information, see [How to: Create or Modify Permission Sets](../Topic/How%20to:%20Create%20or%20Modify%20Permission%20Sets.md).  
+>  The majority of the permission sets that are provided with the [!INCLUDE[demo](includes/demo_md.md)] demonstration database cannot be combined with the FOUNDATION permission set to fully use the UI Elements Removal feature. You must first create or edit the relevant permission sets to avoid that the user is blocked from performing the involved tasks. For more information, see [How to: Create or Modify Permission Sets](../Topic/How%20to:%20Create%20or%20Modify%20Permission%20Sets.md).  
 >   
 >  If you only use the **LicenseFile** option in the **UI Elements Removal** field, then you do not have to edit any permission sets as they will not affect which UI elements are removed.  
   
 ### To remove UI elements by using the AccessByPermission property  
   
-1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], view the properties of a table field for which you want to remove its page control\(s\) or view the properties of a field, action, or part on a page object. For more information, see [How to: View or Modify Properties on a Table or Field](../Topic/How%20to:%20View%20or%20Modify%20Properties%20on%20a%20Table%20or%20Field.md).  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], view the properties of a table field for which you want to remove its page control\(s\) or view the properties of a field, action, or part on a page object. For more information, see [How to: View or Modify Properties on a Table or Field](../Topic/How%20to:%20View%20or%20Modify%20Properties%20on%20a%20Table%20or%20Field.md).  
   
 2.  For the **AccessByPermission** property, choose the **AssistEdit** button.  
   
 3.  In the **\($ S\_2180 Access By Permission $\)** window, fill the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+    |[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Object Type**|Specify the type of object to which permission is required for the UI element to be visible.|  
     |**Object ID**|Specify the object to which permission is required for the UI element to be visible.|  
@@ -52,9 +52,9 @@ UI elements that are directly related to an object through the **TableRelation**
 >  If you defined the property for a table field, then all instances of the field on pages are removed from the user’s view. To override the property on an individual page field, delete the permission value after the **\=** sign in the **Value** field. Do not delete the whole string as that will be replicated on the property of the table field.  
   
 > [!TIP]  
->  When you configure user interfaces in [!INCLUDE[dyn_nav](../dynamics-nav/includes/dyn_nav_md.md)], you should make sure that the **UI Elements Removal** field is set to its default, **LicenseFileAndUserPermissions**, so that you only see the relevant UI elements in the **Customize** window. For more information, see [Configure the User Interface](../Topic/Configure%20the%20User%20Interface.md).  
+>  When you configure user interfaces in [!INCLUDE[dyn_nav](includes/dyn_nav_md.md)], you should make sure that the **UI Elements Removal** field is set to its default, **LicenseFileAndUserPermissions**, so that you only see the relevant UI elements in the **Customize** window. For more information, see [Configure the User Interface](../Topic/Configure%20the%20User%20Interface.md).  
 >   
->  When you develop in [!INCLUDE[dyn_nav](../dynamics-nav/includes/dyn_nav_md.md)], you should make sure that the **UI Elements Removal** field is set to its default, **None**, to make sure that all UI elements are visible when you review your development in the UI.  
+>  When you develop in [!INCLUDE[dyn_nav](includes/dyn_nav_md.md)], you should make sure that the **UI Elements Removal** field is set to its default, **None**, to make sure that all UI elements are visible when you review your development in the UI.  
   
 ### Example: Remove the Unit Price field if the user does not have permission to the Sales Price table  
   
@@ -66,7 +66,7 @@ UI elements that are directly related to an object through the **TableRelation**
   
 4.  In the **\($ S\_2180 Access By Permission $\)** window, fill the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+    |[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Object Type**|TableData|  
     |**Object ID**|Sales Price|  
@@ -85,13 +85,13 @@ UI elements that are directly related to an object through the **TableRelation**
   
 ## See Also  
  [How to: Specify When UI Elements Are Removed](../Topic/How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md)   
- [AccessByPermission Property](../dynamics-nav/AccessByPermission-Property.md)   
- [\($ S\_2180 Access By Permission $\)](../dynamics-nav/-$-S_2180-Access-By-Permission-$-.md)   
- [Removing Elements from the User Interface According to Permissions](../dynamics-nav/Removing-Elements-from-the-User-Interface-According-to-Permissions.md)   
+ [AccessByPermission Property](AccessByPermission-Property.md)   
+ [\($ S\_2180 Access By Permission $\)](-$-S_2180-Access-By-Permission-$-.md)   
+ [Removing Elements from the User Interface According to Permissions](Removing-Elements-from-the-User-Interface-According-to-Permissions.md)   
  [How to: Try Out the UI Elements Removal Feature Based on Demonstration Permission Sets](../Topic/How%20to:%20Try%20Out%20the%20UI%20Elements%20Removal%20Feature%20Based%20on%20Demonstration%20Permission%20Sets.md)   
- [Configuring Microsoft Dynamics NAV Server](../dynamics-nav/Configuring-Microsoft-Dynamics-NAV-Server.md)   
+ [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)   
  [How to: Create or Modify Permission Sets](../Topic/How%20to:%20Create%20or%20Modify%20Permission%20Sets.md)   
- [Special Permission Sets](../dynamics-nav/Special-Permission-Sets.md)   
+ [Special Permission Sets](Special-Permission-Sets.md)   
  [How to: Define Permissions for Users](../Topic/How%20to:%20Define%20Permissions%20for%20Users.md)   
  [How to: View or Modify Properties on a Table or Field](../Topic/How%20to:%20View%20or%20Modify%20Properties%20on%20a%20Table%20or%20Field.md)   
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

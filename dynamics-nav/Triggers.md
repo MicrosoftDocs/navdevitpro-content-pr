@@ -11,21 +11,21 @@ caps.latest.revision: 12
 manager: pchapman
 ---
 # Triggers
-Triggers are available for the different objects in [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] as described in the following sections:  
+Triggers are available for the different objects in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] as described in the following sections:  
   
--   [Report and Data Item Triggers](../dynamics-nav/Report-and-Data-Item-Triggers.md)  
+-   [Report and Data Item Triggers](Report-and-Data-Item-Triggers.md)  
   
--   [Table and Field Triggers](../dynamics-nav/Table-and-Field-Triggers.md)  
+-   [Table and Field Triggers](Table-and-Field-Triggers.md)  
   
--   [XMLport Triggers](../dynamics-nav/XMLport-Triggers.md)  
+-   [XMLport Triggers](XMLport-Triggers.md)  
   
--   [Page and Action Triggers](../dynamics-nav/Page-and-Action-Triggers.md)  
+-   [Page and Action Triggers](Page-and-Action-Triggers.md)  
   
--   [Codeunit Triggers](../dynamics-nav/Codeunit-Triggers.md)  
+-   [Codeunit Triggers](Codeunit-Triggers.md)  
   
--   [Query Triggers](../dynamics-nav/Query-Triggers.md)  
+-   [Query Triggers](Query-Triggers.md)  
   
 ## See Also  
- [C\-AL Functions](../dynamics-nav/C-AL-Functions.md)   
- [Properties](../dynamics-nav/Properties.md)   
- [Triggers Overview](../dynamics-nav/Triggers-Overview.md)
+ [C\-AL Functions](C-AL-Functions.md)   
+ [Properties](Properties.md)   
+ [Triggers Overview](Triggers-Overview.md)

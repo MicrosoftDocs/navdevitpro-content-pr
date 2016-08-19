@@ -26,5 +26,5 @@ SELECTLATESTVERSION
 >  Clearing the cache and reading data directly from the database adversely affects performance.  
   
 ## See Also  
- [Database](../dynamics-nav/Database.md)   
- [CaptionClass Functionality](../dynamics-nav/CaptionClass-Functionality.md)
+ [Database](Database.md)   
+ [CaptionClass Functionality](CaptionClass-Functionality.md)

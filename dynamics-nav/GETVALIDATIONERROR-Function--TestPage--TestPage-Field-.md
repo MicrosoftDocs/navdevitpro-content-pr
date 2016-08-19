@@ -36,4 +36,4 @@ OemText := TestPage.GETVALIDATIONERROR(index);
  The validation error that occurred on the test page.  
   
 ## See Also  
- [TestPage Functions](../dynamics-nav/TestPage-Functions.md)
+ [TestPage Functions](TestPage-Functions.md)

@@ -29,7 +29,7 @@ You can develop your application so that certain user interface elements do not 
   
 4.  **Items** control in a MenuSuites.  
   
- You use the property to assign one or more application areas to the controls. For more information, see [ApplicationArea Property](../dynamics-nav/ApplicationArea-Property.md).  
+ You use the property to assign one or more application areas to the controls. For more information, see [ApplicationArea Property](ApplicationArea-Property.md).  
   
 ## Application Area Activation  
  To activate the application areas, you use a call to the APPLICATIONAREA function. The function specifies which application areas to active for the current session. I

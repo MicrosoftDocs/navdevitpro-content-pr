@@ -11,17 +11,17 @@ caps.latest.revision: 26
 manager: terryaus
 ---
 # Developing Windows Client Control Add-ins
-[!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] includes the client extensibility API for creating [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] control add\-ins. The client extensibility API is provided in the Microsoft.Dynamics.Framework.UI.Extensibility.dll assembly, which is installed with the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. You develop control add\-ins using Microsoft Visual Studio and distribute them as Microsoft .NET Framework–based assemblies for deployment to computers that are running the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+[!INCLUDE[navnowlong](includes/navnowlong_md.md)] includes the client extensibility API for creating [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add\-ins. The client extensibility API is provided in the Microsoft.Dynamics.Framework.UI.Extensibility.dll assembly, which is installed with the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. You develop control add\-ins using Microsoft Visual Studio and distribute them as Microsoft .NET Framework–based assemblies for deployment to computers that are running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
 ## Design Considerations When Developing Control Add\-ins  
  This section includes things to consider when you develop control add\-ins.  
   
 ### Using a Control Add\-in on Pages  
   
--   You apply control add\-ins on field controls of [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] pages.  
+-   You apply control add\-ins on field controls of [!INCLUDE[nav_windows](includes/nav_windows_md.md)] pages.  
   
     > [!IMPORTANT]  
-    >  To develop control add\-ins that supported both by the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] and [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], see [Extending Any Microsoft Dynamics NAV Client Using Control Add\-ins](../dynamics-nav/Extending-Any-Microsoft-Dynamics-NAV-Client-Using-Control-Add-ins.md).  
+    >  To develop control add\-ins that supported both by the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)], see [Extending Any Microsoft Dynamics NAV Client Using Control Add\-ins](Extending-Any-Microsoft-Dynamics-NAV-Client-Using-Control-Add-ins.md).  
   
 -   You can apply control add\-ins on more than one field control on a page.  
   
@@ -45,18 +45,18 @@ manager: terryaus
     -   Filter pane  
   
 ### Binding a Control Add\-in to the Database to Display Data  
- A control add\-in can bind with data in the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database, which lets you create control add\-ins that can display and update data in the database. For more information, see [Binding a Windows Client Control Add\-in to the Database](../dynamics-nav/Binding-a-Windows-Client-Control-Add-in-to-the-Database.md).  
+ A control add\-in can bind with data in the [!INCLUDE[navnow](includes/navnow_md.md)] database, which lets you create control add\-ins that can display and update data in the database. For more information, see [Binding a Windows Client Control Add\-in to the Database](Binding-a-Windows-Client-Control-Add-in-to-the-Database.md).  
   
 ### Exposing Events and Calling Respective C\/AL Triggers on a Page  
- By firing exposed events, a control add\-in can call the **OnControlAddin** trigger or other triggers that correspond to those events on a page for a field that is equipped with the control add\-in. For more information, see [Exposing Events and Calling Respective C\-AL Triggers from a Windows Client Control Add\-in](../dynamics-nav/Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md).  
+ By firing exposed events, a control add\-in can call the **OnControlAddin** trigger or other triggers that correspond to those events on a page for a field that is equipped with the control add\-in. For more information, see [Exposing Events and Calling Respective C\-AL Triggers from a Windows Client Control Add\-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md).  
   
 ### Exposing Methods and Properties to C\/AL code  
- To extend UI controls on a page, you can expose methods and properties in a control add\-in assembly so that they can be called by C\/AL code on most any page code. For more information, see [Exposing Methods and Properties in a Windows Client Control Add\-in](../dynamics-nav/Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md).  
+ To extend UI controls on a page, you can expose methods and properties in a control add\-in assembly so that they can be called by C\/AL code on most any page code. For more information, see [Exposing Methods and Properties in a Windows Client Control Add\-in](Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md).  
   
 ## See Also  
- [Client Extensibility API Overview](../dynamics-nav/Client-Extensibility-API-Overview.md)   
+ [Client Extensibility API Overview](Client-Extensibility-API-Overview.md)   
  [How to: Create a Windows Client Control Add\-in](../Topic/How%20to:%20Create%20a%20Windows%20Client%20Control%20Add-in.md)   
- [Binding a Windows Client Control Add\-in to the Database](../dynamics-nav/Binding-a-Windows-Client-Control-Add-in-to-the-Database.md)   
- [Exposing Events and Calling Respective C\-AL Triggers from a Windows Client Control Add\-in](../dynamics-nav/Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md)   
- [Installing and Configuring Windows Client Control Add\-ins on Pages](../dynamics-nav/Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)   
- [Windows Client Control Add\-in Overview](../dynamics-nav/Windows-Client-Control-Add-in-Overview.md)
+ [Binding a Windows Client Control Add\-in to the Database](Binding-a-Windows-Client-Control-Add-in-to-the-Database.md)   
+ [Exposing Events and Calling Respective C\-AL Triggers from a Windows Client Control Add\-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md)   
+ [Installing and Configuring Windows Client Control Add\-ins on Pages](Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)   
+ [Windows Client Control Add\-in Overview](Windows-Client-Control-Add-in-Overview.md)

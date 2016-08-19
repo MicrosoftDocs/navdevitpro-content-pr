@@ -35,4 +35,4 @@ Time := DT2TIME(Datetime)
  If *Datetime* is undefined, then this function returns an undefined time.  
   
 ## See Also  
- [DateTime Functions](../dynamics-nav/DateTime-Functions.md)
+ [DateTime Functions](DateTime-Functions.md)

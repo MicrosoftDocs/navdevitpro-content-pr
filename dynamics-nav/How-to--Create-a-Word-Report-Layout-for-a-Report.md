@@ -11,11 +11,11 @@ caps.latest.revision: 7
 manager: edupont
 ---
 # How to: Create a Word Report Layout for a Report
-After you design a dataset for a report, you can create a Word report layout that can be used when you view and print a report from the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] client. This topic describes how to create blank a Word report layout on a report from the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)]. After you create the layout, you can modify the layout to include dataset fields and define the general format.  
+After you design a dataset for a report, you can create a Word report layout that can be used when you view and print a report from the [!INCLUDE[navnow](includes/navnow_md.md)] client. This topic describes how to create blank a Word report layout on a report from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. After you create the layout, you can modify the layout to include dataset fields and define the general format.  
   
 ### To create a Word report layout for a report  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], open the report in Report Dataset Designer as follows.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], open the report in Report Dataset Designer as follows.  
   
     1.  On the **Tools** menu, choose **Object Designer**.  
   
@@ -31,4 +31,4 @@ After you design a dataset for a report, you can create a Word report layout tha
  A blank Word report layout is created on the report object. The report layout includes a custom XML part for the current report dataset. You can now design the layout in Word. For more information, see [How to: Modify a Word Report Layout](../Topic/How%20to:%20Modify%20a%20Word%20Report%20Layout.md).  
   
 ## See Also  
- [Designing Word Report Layouts](../dynamics-nav/Designing-Word-Report-Layouts.md)
+ [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)

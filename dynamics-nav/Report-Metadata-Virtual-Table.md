@@ -13,7 +13,7 @@ manager: edupont
 # Report Metadata Virtual Table
 The **Report Metadata** virtual table \(ID 2000000139\) contains data about the pages in database. The following table describes the fields in the **Report Metadata** virtual table.  
   
-|[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
 |**ID**|The ID for the report object.<br /><br /> Data type: Integer|  
 |**Name**|Specifies the name of the report object.<br /><br /> Data type: String|  
@@ -34,9 +34,9 @@ The **Report Metadata** virtual table \(ID 2000000139\) contains data about the 
 |**WordMergeDataItem**|Specifies the name of the root\-level **DataItem** that is used for generating separate reports for multiple records.<br /><br /> Data type: String|  
 |**FirstDataItemTableId**|Specifies the ID of the table that is associated with the first **DataItem** that is defined for the report in Report Designer. If there is not table, then this field is **0**.<br /><br /> Data type: Integer|  
   
- The fields in the virtual table correspond to C\/AL properties on the page objects. For more information, see [Report Properties](../dynamics-nav/Report-Properties.md).  
+ The fields in the virtual table correspond to C\/AL properties on the page objects. For more information, see [Report Properties](Report-Properties.md).  
   
  To access and view the **Report Metadata** virtual table, you must create a tabular\-type page. For more information, see [How to: Create a Page to View a Virtual Table](../Topic/How%20to:%20Create%20a%20Page%20to%20View%20a%20Virtual%20Table.md)  
   
 ## See Also  
- [Virtual Tables](../dynamics-nav/Virtual-Tables.md)
+ [Virtual Tables](Virtual-Tables.md)

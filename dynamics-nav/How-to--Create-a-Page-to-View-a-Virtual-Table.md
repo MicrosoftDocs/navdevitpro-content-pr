@@ -43,4 +43,4 @@ Virtual tables are not stored in the database, therefore you cannot view them di
 12. To view the data that is stored in the table, in Object Designer, select the page that you created and then choose the **Run** button.  
   
 ## See Also  
- [Virtual Tables](../dynamics-nav/Virtual-Tables.md)
+ [Virtual Tables](Virtual-Tables.md)

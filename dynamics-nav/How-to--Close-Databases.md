@@ -15,7 +15,7 @@ You may need to close the database from time to time.
   
 ### To close a database  
   
--   In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **Close**.  
+-   In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **Close**.  
   
  You can use this function to close an open database, for example, before opening another database. However, it is not necessary to use it because all the data is saved and everything is closed correctly when you choose to open another database or exit the program.  
   

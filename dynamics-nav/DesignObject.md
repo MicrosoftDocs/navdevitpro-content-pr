@@ -11,7 +11,7 @@ caps.latest.revision: 11
 manager: terryaus
 ---
 # DesignObject
-Opens the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)] and opens the specified object for design.  
+Opens the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] and opens the specified object for design.  
   
 ## Syntax  
   
@@ -29,10 +29,10 @@ Finsql.exe [servername=<server>,] [database=<database>,] designobject=<object ty
 > [!NOTE]  
 >  When you first specify a database server and database to open, either from a command at a command prompt or from a client, the database server and database are stored in the fin.zup file. By default, the fin.zup file is located at C:\\users\\\<*user name*\>\\AppData\\Roaming\\.  
   
- If you do not specify the *servername* parameter but you do specify the *database* parameter, then the [\($ S\_2335 Open Database $\)](../dynamics-nav/-$-S_2335-Open-Database-$-.md) window opens so that you can specify the database server name.  
+ If you do not specify the *servername* parameter but you do specify the *database* parameter, then the [\($ S\_2335 Open Database $\)](-$-S_2335-Open-Database-$-.md) window opens so that you can specify the database server name.  
   
 > [!TIP]  
->  To view the name of the server on which the current database is stored, in the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **Information**. Use the value of the **Database Server** field for the *servername* parameter.  
+>  To view the name of the server on which the current database is stored, in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **Information**. Use the value of the **Database Server** field for the *servername* parameter.  
   
  *database*  
   
@@ -43,10 +43,10 @@ Finsql.exe [servername=<server>,] [database=<database>,] designobject=<object ty
 > [!NOTE]  
 >  When you first specify a database server and database to open, either from a command at a command prompt or from a client, the database server and database are stored in the fin.zup file. By default, the fin.zup file is located at C:\\users\\\<*user name*\>\\AppData\\Roaming\\.  
   
- If you do not specify the *database* parameter but you do specify the *servername* parameter, then the [\($ S\_2335 Open Database $\)](../dynamics-nav/-$-S_2335-Open-Database-$-.md) window opens so that you can specify the database name.  
+ If you do not specify the *database* parameter but you do specify the *servername* parameter, then the [\($ S\_2335 Open Database $\)](-$-S_2335-Open-Database-$-.md) window opens so that you can specify the database name.  
   
 > [!TIP]  
->  To view the name of the current database, in the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **Information**. Use the value of the **Database Name** field for the *database* parameter.  
+>  To view the name of the current database, in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **Information**. Use the value of the **Database Name** field for the *database* parameter.  
   
  *designobject*  
   
@@ -75,7 +75,7 @@ Finsql.exe [servername=<server>,] [database=<database>,] designobject=<object ty
   
  If you specify the *username* parameter, then you must also specify the *password* parameter and the *ntauthentication* parameter must be **no**.  
   
- For more information about database users and permissions, see [Setting Database Owner and Security Administration Permissions](../dynamics-nav/Setting-Database-Owner-and-Security-Administration-Permissions.md).  
+ For more information about database users and permissions, see [Setting Database Owner and Security Administration Permissions](Setting-Database-Owner-and-Security-Administration-Permissions.md).  
   
  *password*  
   
@@ -86,30 +86,30 @@ Finsql.exe [servername=<server>,] [database=<database>,] designobject=<object ty
  Specifies if you want to use NT authentication. The possible values are **yes**, **no**, **1**, or **0**. If you specify the *username* and *password* parameters, then you must specify **ntauthentication\=no** or **ntauthentication\=0**.  
   
 ## Remarks  
- You use the **DesignObject** parameter together with the finsql.exe executable. Finsql.exe is the executable file that runs the development environment. By default, finsql.exe is located at [!INCLUDE[navnow_x86install](../dynamics-nav/includes/navnow_x86install_md.md)]\\RoleTailored Client\\.  
+ You use the **DesignObject** parameter together with the finsql.exe executable. Finsql.exe is the executable file that runs the development environment. By default, finsql.exe is located at [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\.  
   
  To design objects, you must have a developer license.  
   
 ## Example  
- This example shows how to run a command to open the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)] and open Page Designer to design page 21, **Customer Card**.  
+ This example shows how to run a command to open the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] and open Page Designer to design page 21, **Customer Card**.  
   
 ```  
 finsql.exe servername=TestComputer01\NAVDEMO, database="Demo Database NAV (9-0)", designobject=Page 21  
 ```  
   
 ## See Also  
- [Objects](../dynamics-nav/Objects.md)   
- [Compiling Objects](../dynamics-nav/Compiling-Objects.md)   
- [BuildVirtualMetadata](../dynamics-nav/BuildVirtualMetadata.md)   
- [CreateDatabase](../dynamics-nav/CreateDatabase.md)   
- [UpgradeDatabase](../dynamics-nav/UpgradeDatabase.md)   
- [CreateLanguage](../dynamics-nav/CreateLanguage.md)   
- [CreateLanguage](../dynamics-nav/CreateLanguage.md)   
- [DesignObject](../dynamics-nav/DesignObject.md)   
- [ExportObjects](../dynamics-nav/ExportObjects.md)   
- [ImportObjects](../dynamics-nav/ImportObjects.md)   
- [ExportLangModule](../dynamics-nav/ExportLangModule.md)   
- [ImportLangModule](../dynamics-nav/ImportLangModule.md)   
- [ExportTranslate](../dynamics-nav/ExportTranslate.md)   
- [ImportTranslate](../dynamics-nav/ImportTranslate.md)   
- [Using the Development Environment from the Command Prompt](../dynamics-nav/Using-the-Development-Environment-from-the-Command-Prompt.md)
+ [Objects](Objects.md)   
+ [Compiling Objects](Compiling-Objects.md)   
+ [BuildVirtualMetadata](BuildVirtualMetadata.md)   
+ [CreateDatabase](CreateDatabase.md)   
+ [UpgradeDatabase](UpgradeDatabase.md)   
+ [CreateLanguage](CreateLanguage.md)   
+ [CreateLanguage](CreateLanguage.md)   
+ [DesignObject](DesignObject.md)   
+ [ExportObjects](ExportObjects.md)   
+ [ImportObjects](ImportObjects.md)   
+ [ExportLangModule](ExportLangModule.md)   
+ [ImportLangModule](ImportLangModule.md)   
+ [ExportTranslate](ExportTranslate.md)   
+ [ImportTranslate](ImportTranslate.md)   
+ [Using the Development Environment from the Command Prompt](Using-the-Development-Environment-from-the-Command-Prompt.md)

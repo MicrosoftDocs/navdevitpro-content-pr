@@ -20,8 +20,8 @@ Sets the same record on the page you launch from this control as is already disp
  **Yes** if the current record on the page that you will launch from this control is displayed; otherwise, **No**. The default is **No**.  
   
 ## Remarks  
- For example, suppose the current page is the sales order and you are providing a way to see the sales statistics for the current customer. You would select RunObject in the PushAction property and use the [RunObject Property](../dynamics-nav/RunObject-Property.md) to run the sales statistics page. In this property you could select Yes to display the same record on both pages.  
+ For example, suppose the current page is the sales order and you are providing a way to see the sales statistics for the current customer. You would select RunObject in the PushAction property and use the [RunObject Property](RunObject-Property.md) to run the sales statistics page. In this property you could select Yes to display the same record on both pages.  
   
 ## See Also  
- [RunPageView Property](../dynamics-nav/RunPageView-Property.md)   
- [RunPageLink Property](../dynamics-nav/RunPageLink-Property.md)
+ [RunPageView Property](RunPageView-Property.md)   
+ [RunPageLink Property](RunPageLink-Property.md)

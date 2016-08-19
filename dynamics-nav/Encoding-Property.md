@@ -20,4 +20,4 @@ Sets a value that specifies which system is applied to the XMLport for character
  The two options available for this property are UTF8 and UTF16. UTF8 is the default setting. Information about the encoding system used is inserted into the header of the XML document. For example, .  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

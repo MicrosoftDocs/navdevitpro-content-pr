@@ -26,5 +26,5 @@ SessionID := DEBUGGINGSESSIONID
  The session ID that the debugger is currently attached to.  
   
 ## See Also  
- [Debugging](../dynamics-nav/Debugging.md)   
- [DEBUGGEDSESSIONID Function \(Debugger\)](../dynamics-nav/DEBUGGEDSESSIONID-Function--Debugger-.md)
+ [Debugging](Debugging.md)   
+ [DEBUGGEDSESSIONID Function \(Debugger\)](DEBUGGEDSESSIONID-Function--Debugger-.md)

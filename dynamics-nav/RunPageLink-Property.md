@@ -17,9 +17,9 @@ Sets up a link to the page you are launching.
 -   Page Actions  
   
 ## Remarks  
- For example, if the current page is the customer card and you need to provide a way to see the outstanding sales orders for the current customer, you would select RunObject in the PushAction property and use the [RunObject Property](../dynamics-nav/RunObject-Property.md) to run the customer sales orders page. In this property you would select the Customer No. field as the link between the two pages.  
+ For example, if the current page is the customer card and you need to provide a way to see the outstanding sales orders for the current customer, you would select RunObject in the PushAction property and use the [RunObject Property](RunObject-Property.md) to run the customer sales orders page. In this property you would select the Customer No. field as the link between the two pages.  
   
  For an example of how to use RunPageLink to launch a page from an action in the RoleTailored client, see [Walkthrough: Adding Actions to a Customer List Page](../Topic/Walkthrough:%20Adding%20Actions%20to%20a%20Customer%20List%20Page.md).  
   
 ## See Also  
- [RunPageView Property](../dynamics-nav/RunPageView-Property.md)
+ [RunPageView Property](RunPageView-Property.md)

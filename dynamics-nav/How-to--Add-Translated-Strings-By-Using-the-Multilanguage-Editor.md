@@ -11,9 +11,9 @@ caps.latest.revision: 17
 manager: terryaus
 ---
 # How to: Add Translated Strings By Using the Multilanguage Editor
-To add string translations for UI elements in a standard country\/region\-specific version of [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], you install a language module so that end users can view the UI elements in a different language. If you have customized objects in the application, then you must also add translations for those objects. You can translate strings in the following ways:  
+To add string translations for UI elements in a standard country\/region\-specific version of [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you install a language module so that end users can view the UI elements in a different language. If you have customized objects in the application, then you must also add translations for those objects. You can translate strings in the following ways:  
   
--   By using the Translate tool in the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)] to import and export multilanguage files that contain translated strings for multiple objects  
+-   By using the Translate tool in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to import and export multilanguage files that contain translated strings for multiple objects  
   
 -   By using the Multilanguage Editor and editing the CaptionML property of individual objects  
   
@@ -21,7 +21,7 @@ To add string translations for UI elements in a standard country\/region\-specif
   
 ### To add a translation in Multilanguage Editor  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, select the object for which you want to add a translation, and then choose **Design**.  
   
@@ -42,5 +42,5 @@ To add string translations for UI elements in a standard country\/region\-specif
 -   The license file must contain the correct granule.  
   
 ## See Also  
- [Multilanguage Development](../dynamics-nav/Multilanguage-Development.md)   
+ [Multilanguage Development](Multilanguage-Development.md)   
  [How to: Delete Translated Strings](../Topic/How%20to:%20Delete%20Translated%20Strings.md)

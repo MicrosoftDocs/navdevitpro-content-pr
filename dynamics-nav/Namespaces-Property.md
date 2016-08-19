@@ -15,7 +15,7 @@ Specifies namespaces on the XMLport.
   
 ## Applies To  
   
--   XMLports that have the [Format Property \(XMLports\)](../dynamics-nav/Format-Property--XMLports-.md) set to **Xml**.  
+-   XMLports that have the [Format Property \(XMLports\)](Format-Property--XMLports-.md) set to **Xml**.  
   
 ## Remarks  
  You can use this property to declare one or more namespaces on the XMLport. To add a namespace, you can choose the **AssistEdit** button or enter the namespaces directly in the field.  
@@ -26,10 +26,10 @@ Specifies namespaces on the XMLport.
   
  `<Root xmlns:mynavprefix="mynavnamespace" xmlns="urn:nav:schema:all">`  
   
- To specify a default namespace, leave the **Prefix** field blank. You can also specify the default namespace by specifying the namespace in the [DefaultNamespace Property](../dynamics-nav/DefaultNamespace-Property.md) and setting the [UseDefaultNamespace Property](../dynamics-nav/UseDefaultNamespace-Property.md) to **Yes**. However, there can only be one default namespace. So if you want to specify a default namespace in the **Namespace** property, you must set the **UseDefaultNamespace** Property to **No**.  
+ To specify a default namespace, leave the **Prefix** field blank. You can also specify the default namespace by specifying the namespace in the [DefaultNamespace Property](DefaultNamespace-Property.md) and setting the [UseDefaultNamespace Property](UseDefaultNamespace-Property.md) to **Yes**. However, there can only be one default namespace. So if you want to specify a default namespace in the **Namespace** property, you must set the **UseDefaultNamespace** Property to **No**.  
   
- For more information about namespaces with XMLports, see see [Using Namespaces with XMLports](../dynamics-nav/Using-Namespaces-with-XMLports.md).  
+ For more information about namespaces with XMLports, see see [Using Namespaces with XMLports](Using-Namespaces-with-XMLports.md).  
   
 ## See Also  
- [Designing XMLports](../dynamics-nav/Designing-XMLports.md)   
+ [Designing XMLports](Designing-XMLports.md)   
  [How to: Create XMLports](../Topic/How%20to:%20Create%20XMLports.md)

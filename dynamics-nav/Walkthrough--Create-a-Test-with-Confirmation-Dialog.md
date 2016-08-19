@@ -20,19 +20,19 @@ Most tests run automatically without a dependency on the user interface. However
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] with a developer license.  
   
 -   The CRONUS International Ltd. demo data company.  
   
 ## Story  
- Isaac is a business application developer working for CRONUS International Ltd. Earlier, he started using thee application test libraries to help him test codeunit 70, Purch\-Calc.Discount, which is a codeunit in the [!INCLUDE[demoname](../dynamics-nav/includes/demoname_md.md)] database. Now, he wants to extend his test coverage to include testing that the VAT amount remains the same when the user chooses the **Price Including VAT** field.  
+ Isaac is a business application developer working for CRONUS International Ltd. Earlier, he started using thee application test libraries to help him test codeunit 70, Purch\-Calc.Discount, which is a codeunit in the [!INCLUDE[demoname](includes/demoname_md.md)] database. Now, he wants to extend his test coverage to include testing that the VAT amount remains the same when the user chooses the **Price Including VAT** field.  
   
 ## Creating a Test Codeunit and Test Handler Function  
  Isaac creates a new codeunit and specifies that it is a test codeunit. He defines the scenario that he wants to verify, adds a test handler function to test the VAT functionality.  
   
 #### To create the test codeunit and test handler function  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], in **Object Designer**, create a new codeunit.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], in **Object Designer**, create a new codeunit.  
   
 2.  In the **Properties** window, in the **Subtype** field, select **Test** to specify that this is a test codeunit.  
   
@@ -83,13 +83,13 @@ Most tests run automatically without a dependency on the user interface. However
   
      Isaac first defines the test scenario \[SCENARIO\], then details it with the GIVEN\-THEN\-WHEN notation. Finally, he adds the C\/AL code. The code in this test function prepares the test data by creating a sales document with a random quantity of items in a sales line. Then, emulates that a user has chosen the Prices Including VAT field, and then validates that the VAT Base Amount is the same as before, more or less. The test raises an error if the results are not as expected.  
   
-     Isaac has created the test function. Next, he runs the test in the CAL Test Tool window in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+     Isaac has created the test function. Next, he runs the test in the CAL Test Tool window in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
 8.  Compile and save the codeunit.  
   
 #### Running the Test  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], in Object Designer, select page ID 130401, and then choose **Run**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], in Object Designer, select page ID 130401, and then choose **Run**.  
   
 2.  On the Home tab, choose **Get Test Codeunits**, and then choose **Select Test Codeunits**.  
   
@@ -144,6 +144,6 @@ Most tests run automatically without a dependency on the user interface. However
  [How to: Create Handler Functions](../Topic/How%20to:%20Create%20Handler%20Functions.md)   
  [How to: Run Automated ApplicationTests](../Topic/How%20to:%20Run%20Automated%20ApplicationTests.md)   
  [Walkthrough: Testing Purchase Invoice Discounts](../Topic/Walkthrough:%20Testing%20Purchase%20Invoice%20Discounts.md)   
- [Testing the Application](../dynamics-nav/Testing-the-Application.md)   
- [Application Test Automation](../dynamics-nav/Application-Test-Automation.md)   
- [\($ N\_9990 Code Coverage $\)](../dynamics-nav/-$-N_9990-Code-Coverage-$-.md)
+ [Testing the Application](Testing-the-Application.md)   
+ [Application Test Automation](Application-Test-Automation.md)   
+ [\($ N\_9990 Code Coverage $\)](-$-N_9990-Code-Coverage-$-.md)

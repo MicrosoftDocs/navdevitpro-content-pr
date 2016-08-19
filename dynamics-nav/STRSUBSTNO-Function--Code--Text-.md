@@ -79,7 +79,7 @@ NewString := STRSUBSTNO(String [,Value1, …])
   
  If one of the values is null, then it is treated as an empty string.  
   
- For more information about the STRSUBSTNO function in a multilanguage\-enabled application, see [Developing Multilanguage\-Enabled Applications](../dynamics-nav/Developing-Multilanguage-Enabled-Applications.md).  
+ For more information about the STRSUBSTNO function in a multilanguage\-enabled application, see [Developing Multilanguage\-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  
   
 ## Example  
  The following example shows how to use the STRSUBSTNO function.  
@@ -123,5 +123,5 @@ MESSAGE(Text002, Str);
 >  This example is run on a computer that has the regional format set to English \(United States\).  
   
 ## See Also  
- [Code Data Type](../dynamics-nav/Code-Data-Type.md)   
- [Text Data Type](../dynamics-nav/Text-Data-Type.md)
+ [Code Data Type](Code-Data-Type.md)   
+ [Text Data Type](Text-Data-Type.md)

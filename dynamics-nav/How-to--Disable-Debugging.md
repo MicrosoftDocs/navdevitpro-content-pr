@@ -11,17 +11,17 @@ caps.latest.revision: 9
 manager: terryaus
 ---
 # How to: Disable Debugging
-You can disable debugging for an instance of [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]. If you disable debugging, then you get an error if you choose **Debug Next** or **Debug** on the **Session List** page.  
+You can disable debugging for an instance of [!INCLUDE[nav_server](includes/nav_server_md.md)]. If you disable debugging, then you get an error if you choose **Debug Next** or **Debug** on the **Session List** page.  
   
 ### To disable debugging  
   
-1.  Configure [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] by doing one of the following:  
+1.  Configure [!INCLUDE[nav_server](includes/nav_server_md.md)] by doing one of the following:  
   
-    -   Use the [!INCLUDE[nav_admin](../dynamics-nav/includes/nav_admin_md.md)]. For more information, see [Microsoft Dynamics NAV Server Administration Tool](../dynamics-nav/Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
+    -   Use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. For more information, see [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
   
-    -   Edit the CustomSettings.config file. For more information, see [Configuring Microsoft Dynamics NAV Server](../dynamics-nav/Configuring-Microsoft-Dynamics-NAV-Server.md).  
+    -   Edit the CustomSettings.config file. For more information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).  
   
 2.  Set the **DebuggingAllowed** key to **false**.  
   
 ## See Also  
- [Debugging](../dynamics-nav/Debugging.md)
+ [Debugging](Debugging.md)

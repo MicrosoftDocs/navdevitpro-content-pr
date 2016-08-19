@@ -11,13 +11,13 @@ caps.latest.revision: 15
 manager: terryaus
 ---
 # How to: Create Test Codeunits and Test Functions
-In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], you can create test codeunits and create test functions in the test codeunits.  
+In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can create test codeunits and create test functions in the test codeunits.  
   
  When you create a new function in a test codeunit, the **FunctionType** property is set to **Test** by default.  
   
 ### To create a test codeunit and test functions  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **Codeunit**, and then choose **New**.  
   
@@ -31,7 +31,7 @@ In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], you can cr
   
 7.  For each test function, select the function, choose **View**, choose **Properties**, and then verify that the **FunctionType** property is set to **Test**.  
   
-8.  In the **Properties** window, choose how you want to commit changes to the database during the test by setting the [TransactionModel Property](../dynamics-nav/TransactionModel-Property.md).  
+8.  In the **Properties** window, choose how you want to commit changes to the database during the test by setting the [TransactionModel Property](TransactionModel-Property.md).  
   
 9. If any test functions need UI handlers, then enter the names of the handler functions in the **C\/AL Globals** window. For more information, see [How to: Create Handler Functions](../Topic/How%20to:%20Create%20Handler%20Functions.md).  
   
@@ -43,6 +43,6 @@ In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], you can cr
 11. On the **File** menu, choose **Save**. In the **Save** window, verify that the **Compiled** check box is selected, and then choose the **OK** button to save and compile the test codeunit.  
   
 ## See Also  
- [Testing the Application](../dynamics-nav/Testing-the-Application.md)   
+ [Testing the Application](Testing-the-Application.md)   
  [How to: Create a Test Runner Codeunit](../Topic/How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md)   
  [How to: Create Handler Functions](../Topic/How%20to:%20Create%20Handler%20Functions.md)

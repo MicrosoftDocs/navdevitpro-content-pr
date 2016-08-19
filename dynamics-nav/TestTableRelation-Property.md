@@ -27,5 +27,5 @@ Sets whether to include this field when evaluating field relations between prima
  If you set the ValidateTableRelation property to **No**, then you should also set the TestTableRelation property to **No**. Otherwise, a database test on the field relations in a database may fail.  
   
 ## See Also  
- [TestTableRelation](../dynamics-nav/TestTableRelation-Property.md)   
- [ValidateTableRelation Property](../dynamics-nav/ValidateTableRelation-Property.md)
+ [TestTableRelation](TestTableRelation-Property.md)   
+ [ValidateTableRelation Property](ValidateTableRelation-Property.md)

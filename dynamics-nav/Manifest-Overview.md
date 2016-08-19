@@ -15,7 +15,7 @@ For a control add\-in to work on all display targets there has to be a manifest.
 ## Example of a Manifest  
  The syntax of a manifest file is illustrated in the following example. All tags inside the `<manifest>` tag are optional. Inside the `<Manifest>` tag, the `<ScriptUrls>` tag references other JavaScripts from the manifest. In this case the `<ScriptUrls>` tag points to online map controls. Inside the `<Resources>` tag, all of the resources such as the script, style sheet, and images that are required to display the Bing Maps control add\-in are listed.  
   
- The \<Script\> tag contains the actual initialization code for the control add\-in. The code must be written inside a `<![CDATA[]]>` tag to be parsed as code. The `Microsoft.Dynamics.NAV.InvokeExtensibilityMethod` is described in more detail in the reference documentation. For more information, see [InvokeExtensibilityMethod Method](../dynamics-nav/InvokeExtensibilityMethod-Method.md).  
+ The \<Script\> tag contains the actual initialization code for the control add\-in. The code must be written inside a `<![CDATA[]]>` tag to be parsed as code. The `Microsoft.Dynamics.NAV.InvokeExtensibilityMethod` is described in more detail in the reference documentation. For more information, see [InvokeExtensibilityMethod Method](InvokeExtensibilityMethod-Method.md).  
   
  Inside the \<Manifest\> tag, at the end of the script, the `<RequestedHeight>` and the `<RequestedWidth>` tags are set to definite sizes. It is recommended to apply some size to the add\-in using these tags. The properties `<VerticalStretch>` and `<HorizontalStretch>` determine how the control add\-in behaves in the client when the window it is displayed in is resized. The default value is **false** which means that the control add\-in is not resized vertically, or horizontally. The value **true** means that the control add\-in is resized vertically, or horizontally. The values in `<RequestedHeight>` and `<RequestedWidth>` determine the minimum resize value of the control add\-in.  
   
@@ -191,7 +191,7 @@ int RequestedWidth()
 ```  
   
 ### Resource Files  
- The resource files can be described in the manifest file with or without a relative path; [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] supports both.  
+ The resource files can be described in the manifest file with or without a relative path; [!INCLUDE[navnow](includes/navnow_md.md)] supports both.  
   
  In the following example the files are described by using their file name only:  
   
@@ -232,7 +232,7 @@ int RequestedWidth()
 |Style sheet file|StyleSheets\/StyleSheet.css|StyleSheets\/StyleSheet.css|  
   
 ## See Also  
- [Extending Microsoft Dynamics NAV Using Control Add\-ins](../dynamics-nav/Extending-Microsoft-Dynamics-NAV-Using-Control-Add-ins.md)   
- [Extending the Windows Client Using Control Add\-ins](../dynamics-nav/Extending-the-Windows-Client-Using-Control-Add-ins.md)   
- [Extending Any Microsoft Dynamics NAV Client Using Control Add\-ins](../dynamics-nav/Extending-Any-Microsoft-Dynamics-NAV-Client-Using-Control-Add-ins.md)   
+ [Extending Microsoft Dynamics NAV Using Control Add\-ins](Extending-Microsoft-Dynamics-NAV-Using-Control-Add-ins.md)   
+ [Extending the Windows Client Using Control Add\-ins](Extending-the-Windows-Client-Using-Control-Add-ins.md)   
+ [Extending Any Microsoft Dynamics NAV Client Using Control Add\-ins](Extending-Any-Microsoft-Dynamics-NAV-Client-Using-Control-Add-ins.md)   
  [Walkthrough: Creating and Using a Client Control Add\-in](../Topic/Walkthrough:%20Creating%20and%20Using%20a%20Client%20Control%20Add-in.md)

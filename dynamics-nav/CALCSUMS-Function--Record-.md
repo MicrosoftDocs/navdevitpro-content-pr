@@ -29,7 +29,7 @@ Calculates the total of a column in a table. You specify which fields to calcula
  *Field1*, *Field2*, …  
  Type: Decimal, Integer, BigInteger, or Duration  
   
- The fields that you want to calculate. Each field must be defined as a SumIndexField, in the current key. The field class of the field must be **Normal**. For more information about field class, see [FieldClass Property](../dynamics-nav/FieldClass-Property.md).  
+ The fields that you want to calculate. Each field must be defined as a SumIndexField, in the current key. The field class of the field must be **Normal**. For more information about field class, see [FieldClass Property](FieldClass-Property.md).  
   
 ## Property Value\/Return Value  
  Type: Boolean  
@@ -41,18 +41,18 @@ Calculates the total of a column in a table. You specify which fields to calcula
   
  If possible, the **CALCSUMS** function uses SumIndexField Technology \(SIFT\). SIFT is used only if the following conditions are true:  
   
--   The [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] key contains the fields that are used in the filters that are defined for the FlowField.  
+-   The [!INCLUDE[navnow](includes/navnow_md.md)] key contains the fields that are used in the filters that are defined for the FlowField.  
   
--   The SumIndexFields on the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] key contain the fields that are provided as parameters for calculation.  
+-   The SumIndexFields on the [!INCLUDE[navnow](includes/navnow_md.md)] key contain the fields that are provided as parameters for calculation.  
   
--   The [MaintainSIFTIndex Property](../dynamics-nav/MaintainSIFTIndex-Property.md) is set to **Yes**.  
+-   The [MaintainSIFTIndex Property](MaintainSIFTIndex-Property.md) is set to **Yes**.  
   
     > [!NOTE]  
     >  By default this property is set to **Yes** for all keys.  
   
- For [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], **CALCSUMS** execution is decoupled from [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] SIFT index definitions. This means that if any of the conditions for using SIFT indexes are not true, then [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] traverses all records in the base table to perform the calculation instead of using SIFT. This can reduce the number of required SIFT indexes, which can improve performance. In earlier versions of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], if the conditions for using SIFT indexes were not true and the **MaintainSIFTIndex** property was enabled, then you received an error when you called the **CALCSUMS** function. This provided a degree of protection in earlier versions against accidentally requesting a sorting for which no index existed. In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], an index is not required to support a certain sorting, but sorting without an index could lead to bad performance if a search returns a large result set, which would then have to be sorted before the first row is returned.  
+ For [!INCLUDE[navnowlong](includes/navnowlong_md.md)], **CALCSUMS** execution is decoupled from [!INCLUDE[navnow](includes/navnow_md.md)] SIFT index definitions. This means that if any of the conditions for using SIFT indexes are not true, then [!INCLUDE[navnow](includes/navnow_md.md)] traverses all records in the base table to perform the calculation instead of using SIFT. This can reduce the number of required SIFT indexes, which can improve performance. In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], if the conditions for using SIFT indexes were not true and the **MaintainSIFTIndex** property was enabled, then you received an error when you called the **CALCSUMS** function. This provided a degree of protection in earlier versions against accidentally requesting a sorting for which no index existed. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], an index is not required to support a certain sorting, but sorting without an index could lead to bad performance if a search returns a large result set, which would then have to be sorted before the first row is returned.  
   
- The **CALCSUMS** function adheres to the [SecurityFiltering Property](../dynamics-nav/SecurityFiltering-Property.md). For more information about security filters, see [Record\-Level Security](../dynamics-nav/Record-Level-Security.md).  
+ The **CALCSUMS** function adheres to the [SecurityFiltering Property](SecurityFiltering-Property.md). For more information about security filters, see [Record\-Level Security](Record-Level-Security.md).  
   
 ## Example  
  This example shows how to use the **CALCSUMS** function. It requires that you create a Record variable named WhseEntry for the **Warehouse Entry** table.  
@@ -67,5 +67,5 @@ WhseEntry.CALCSUMS("Qty. (Base)");
  The first three lines set filters on fields in the Warehouse Entry record so the total that is calculated in the last line of code uses records only in the specified range.  
   
 ## See Also  
- [SumIndexField Technology \(SIFT\)](../dynamics-nav/SumIndexField-Technology--SIFT-.md)   
- [SumIndexFields Property](../dynamics-nav/SumIndexFields-Property.md)
+ [SumIndexField Technology \(SIFT\)](SumIndexField-Technology--SIFT-.md)   
+ [SumIndexFields Property](SumIndexFields-Property.md)

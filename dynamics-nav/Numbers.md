@@ -13,10 +13,10 @@ manager: pchapman
 # Numbers
 This section contains the following topics:  
   
--   [BigInteger Data Type](../dynamics-nav/BigInteger-Data-Type.md)  
+-   [BigInteger Data Type](BigInteger-Data-Type.md)  
   
--   [Decimal Data Type](../dynamics-nav/Decimal-Data-Type.md)  
+-   [Decimal Data Type](Decimal-Data-Type.md)  
   
--   [Integer Data Type](../dynamics-nav/Integer-Data-Type.md)  
+-   [Integer Data Type](Integer-Data-Type.md)  
   
--   [Numeric Functions](../dynamics-nav/Numeric-Functions.md)
+-   [Numeric Functions](Numeric-Functions.md)

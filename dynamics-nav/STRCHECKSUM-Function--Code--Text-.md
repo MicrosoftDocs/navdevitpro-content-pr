@@ -45,7 +45,7 @@ CheckNumber :=STRCHECKSUM(String[, WeightString][, Modulus])
   
  The checksum, which is calculated using this formula:  
   
- ![STRCHECKSUM formula](../dynamics-nav/media/NAV_STRCHECKSUM_Formula.gif "NAV\_STRCHECKSUM\_Formula")  
+ ![STRCHECKSUM formula](media/NAV_STRCHECKSUM_Formula.gif "NAV\_STRCHECKSUM\_Formula")  
   
 ## Example  
  This example shows how to use the STRCHECKSUM function to calculate a checksum.  
@@ -125,5 +125,5 @@ MESSAGE(Text000 + Text001, StrNumber, CheckSum);
  **has the checksum: 3**  
   
 ## See Also  
- [Code Data Type](../dynamics-nav/Code-Data-Type.md)   
- [Text Data Type](../dynamics-nav/Text-Data-Type.md)
+ [Code Data Type](Code-Data-Type.md)   
+ [Text Data Type](Text-Data-Type.md)

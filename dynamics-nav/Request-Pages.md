@@ -17,11 +17,11 @@ A request page is a page that is run before the report starts to execute. Reques
   
  You design the filters on request pages by using the following report properties:  
   
-|Property|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|Property|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
-|[ReqFilterHeading Property](../dynamics-nav/ReqFilterHeading-Property.md)|Sets a caption for the request page tab that is related to this data item.|  
-|[ReqFilterHeadingML Property](../dynamics-nav/ReqFilterHeadingML-Property.md)|Sets the text used as a ReqFilterHeading Property for a request page tab.|  
-|[ReqFilterFields Property](../dynamics-nav/ReqFilterFields-Property.md)|Sets which fields are automatically included on the tab of the request page that is related to this data item. The user can set filters on these fields.|  
+|[ReqFilterHeading Property](ReqFilterHeading-Property.md)|Sets a caption for the request page tab that is related to this data item.|  
+|[ReqFilterHeadingML Property](ReqFilterHeadingML-Property.md)|Sets the text used as a ReqFilterHeading Property for a request page tab.|  
+|[ReqFilterFields Property](ReqFilterFields-Property.md)|Sets which fields are automatically included on the tab of the request page that is related to this data item. The user can set filters on these fields.|  
   
  In addition to specifying options and filters, users can choose from the following actions on a request page:  
   
@@ -48,5 +48,5 @@ A request page is a page that is run before the report starts to execute. Reques
  In a complex report that uses data from several tables, the functionality may depend on a specific key and sort order. Design your reports so that end users cannot change the sort order in a way that affects the functionality of the report.  
   
 ## See Also  
- [Reports\-duplicate 20](../dynamics-nav/Reports-duplicate-20.md)   
- [Report Design Overview](../dynamics-nav/Report-Design-Overview.md)
+ [Reports\-duplicate 20](Reports-duplicate-20.md)   
+ [Report Design Overview](Report-Design-Overview.md)

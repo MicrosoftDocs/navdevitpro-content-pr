@@ -20,4 +20,4 @@ Executed after the source expression has been formatted into a text variable and
  This trigger is only used to export data and is typically used to manipulate the text variable.  
   
 ## See Also  
- [Triggers](../dynamics-nav/Triggers.md)
+ [Triggers](Triggers.md)

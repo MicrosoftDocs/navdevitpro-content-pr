@@ -13,12 +13,12 @@ manager: terryaus
 # How to: Create or Load a Setup Configuration File
 You can customize the list of components to install or configure settings for individual components. For more information, see [How to: Choose Components to Install](../Topic/How%20to:%20Choose%20Components%20to%20Install.md) and [How to: Preconfigure Components](../Topic/How%20to:%20Preconfigure%20Components.md).  
   
- After you finished customization and configuration, you can save this information to a Setup configuration file. You can use this file with Setup, either when you or another user runs Setup or when you run a silent installation. For more information about silent installation, see [Running Setup on the Command Line](../dynamics-nav/Running-Setup-on-the-Command-Line.md).  
+ After you finished customization and configuration, you can save this information to a Setup configuration file. You can use this file with Setup, either when you or another user runs Setup or when you run a silent installation. For more information about silent installation, see [Running Setup on the Command Line](Running-Setup-on-the-Command-Line.md).  
   
  In these procedures, you save and load a configuration file.  
   
 ## Saving Setup Configuration Files  
- You can create a new setup configuration file or save a modified setup configuration file on the **Specify parameters** page in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Setup. This page is available when you run Setup unless you select **Install Demo**, which skips all other Setup pages.  
+ You can create a new setup configuration file or save a modified setup configuration file on the **Specify parameters** page in [!INCLUDE[navnow](includes/navnow_md.md)] Setup. This page is available when you run Setup unless you select **Install Demo**, which skips all other Setup pages.  
   
 #### To save a setup configuration file  
   
@@ -31,7 +31,7 @@ You can customize the list of components to install or configure settings for in
      You now return to the **Specify parameters** page, where you can continue with installing software. You can also close Setup if you only have to create a Setup configuration file.  
   
 ## Loading a Setup Configuration File  
- The option to load a Setup configuration file is on the **Choose an installation option** page in [!INCLUDE[nav_current_short](../dynamics-nav/includes/nav_current_short_md.md)] Setup. This option is also available with a command\-line install. For more information, see [Running Setup on the Command Line](../dynamics-nav/Running-Setup-on-the-Command-Line.md).  
+ The option to load a Setup configuration file is on the **Choose an installation option** page in [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] Setup. This option is also available with a command\-line install. For more information, see [Running Setup on the Command Line](Running-Setup-on-the-Command-Line.md).  
   
 > [!IMPORTANT]  
 >  A Setup configuration file contains information about which components to install and which settings to apply to each component. Therefore, you should not customize the list of components or configure components in Setup before you load a Setup configuration file because loading the configuration overwrites all prior customization and configuration.  
@@ -51,4 +51,4 @@ You can customize the list of components to install or configure settings for in
 4.  Configure these settings or choose **Apply** to accept these values and continue.  
   
 ## See Also  
- [Editing a Setup Configuration File](../dynamics-nav/Editing-a-Setup-Configuration-File.md)
+ [Editing a Setup Configuration File](Editing-a-Setup-Configuration-File.md)

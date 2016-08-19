@@ -11,7 +11,7 @@ caps.latest.revision: 9
 manager: pchapman
 ---
 # COPYFILTERS Function (Record)
-Copies all the filters set by the [SETFILTER Function \(Record\)](../dynamics-nav/SETFILTER-Function--Record-.md) or the [SETRANGE Function \(Record\)](../dynamics-nav/SETRANGE-Function--Record-.md) from one record to another.  
+Copies all the filters set by the [SETFILTER Function \(Record\)](SETFILTER-Function--Record-.md) or the [SETRANGE Function \(Record\)](SETRANGE-Function--Record-.md) from one record to another.  
   
 ## Syntax  
   
@@ -53,8 +53,8 @@ Customer2.COPYFILTERS(Customer1);
 Count := Customer2.COUNT;  
 ```  
   
- The filters defined for Customer1 are copied and applied to Customer2. This affects the result returned by the [COUNT Function \(Record\)](../dynamics-nav/COUNT-Function--Record-.md).  
+ The filters defined for Customer1 are copied and applied to Customer2. This affects the result returned by the [COUNT Function \(Record\)](COUNT-Function--Record-.md).  
   
 ## See Also  
- [COPYFILTER Function \(Record\)](../dynamics-nav/COPYFILTER-Function--Record-.md)   
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [COPYFILTER Function \(Record\)](COPYFILTER-Function--Record-.md)   
+ [Record Data Type](Record-Data-Type.md)

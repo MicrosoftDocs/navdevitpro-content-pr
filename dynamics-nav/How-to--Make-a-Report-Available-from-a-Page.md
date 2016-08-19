@@ -19,7 +19,7 @@ After you have created and designed a report, you can add the report to the inte
   
 ### To make a report available from a page  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], open **Object Designer**, and then choose **Page**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], open **Object Designer**, and then choose **Page**.  
   
 2.  Select the page to display the report, such as **Page 22**, **Customer List**.  
   
@@ -43,12 +43,12 @@ After you have created and designed a report, you can add the report to the inte
   
 12. Compile and save the page.  
   
-13. Open the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], in the **Search** box, enter **Customers** and then choose the related link to open the **Customers** page.  
+13. Open the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], in the **Search** box, enter **Customers** and then choose the related link to open the **Customers** page.  
   
      The report is added to the list of promoted actions on the **Customers** page.  
   
 14. Choose the action to run the report.  
   
 ## See Also  
- [Designing Reports](../dynamics-nav/Designing-Reports.md)   
+ [Designing Reports](Designing-Reports.md)   
  [Walkthrough: Designing a Customer List Report](../Topic/Walkthrough:%20Designing%20a%20Customer%20List%20Report.md)

@@ -21,4 +21,4 @@ Sets the value that indicates whether a field can display multiple lines of text
  **Yes** if you want to display multiple lines; otherwise, **No**. The default is **No**.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

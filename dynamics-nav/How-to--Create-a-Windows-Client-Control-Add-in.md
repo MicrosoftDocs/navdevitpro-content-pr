@@ -11,7 +11,7 @@ caps.latest.revision: 40
 manager: terryaus
 ---
 # How to: Create a Windows Client Control Add-in
-You develop [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] control add\-ins using the API that is defined in the Microsoft.Dynamics.Framework.UI.Extensibility assembly. A control add\-in is defined as a class in a Visual C\# solution. You can include more than one control add\-in a single solution. When you have finished developing a control add\-in, you build and sign an assembly before you install it on the computer that is running the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+You develop [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add\-ins using the API that is defined in the Microsoft.Dynamics.Framework.UI.Extensibility assembly. A control add\-in is defined as a class in a Visual C\# solution. You can include more than one control add\-in a single solution. When you have finished developing a control add\-in, you build and sign an assembly before you install it on the computer that is running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
  To create a control add\-in, you need the following prerequisites:  
   
@@ -19,11 +19,11 @@ You develop [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] 
   
 -   Microsoft.Dynamics.Framework.UI.Extensibility.dll assembly.  
   
-     The assembly is installed with the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. By default, the path of the assembly is [!INCLUDE[navnow_install](../dynamics-nav/includes/navnow_install_md.md)]\\RoleTailored Client. For more information, see [Deployment](../dynamics-nav/Deployment.md).  
+     The assembly is installed with the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. By default, the path of the assembly is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\RoleTailored Client. For more information, see [Deployment](Deployment.md).  
   
 -   Windows Forms library \(System.Windows.Forms.dll\).  
   
-### To create the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] control add\-in  
+### To create the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add\-in  
   
 1.  In Visual Studio, create a Visual C\# project type by using the **Class Library** template.  
   
@@ -31,7 +31,7 @@ You develop [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] 
   
     -   Microsoft.Dynamics.Framework.UI.Extensibility.dll assembly  
   
-         By default, the path of the assembly is [!INCLUDE[navnow_install](../dynamics-nav/includes/navnow_install_md.md)]\\RoleTailored Client. This reference is required for all control add\-ins.  
+         By default, the path of the assembly is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\RoleTailored Client. This reference is required for all control add\-ins.  
   
     -   [System.Windows.Forms](http://go.microsoft.com/fwlink/?LinkID=152505)  
   
@@ -61,12 +61,12 @@ You develop [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] 
     public class MyFieldPopupAddin : StringControlAddInBase  
     ```  
   
-     For information about the base classes and interfaces, see [Client Extensibility API Overview](../dynamics-nav/Client-Extensibility-API-Overview.md).  
+     For information about the base classes and interfaces, see [Client Extensibility API Overview](Client-Extensibility-API-Overview.md).  
   
-     The [Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute) attribute declares the class in the assembly to be a control add\-in that is identified by its [ControlAddInExportAttribute.Name](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute.Name) property, which in this case is `MyCompany.MyProduct.MyAddin` in C\#. Because an assembly can contain more than one control add\-in, the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] uses the [Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute) attribute to differentiate each control add\-in that is found in an assembly. The [ControlAddInExportAttribute.Name](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute.Name) is used to register the control add\-in in [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)].  
+     The [Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute) attribute declares the class in the assembly to be a control add\-in that is identified by its [ControlAddInExportAttribute.Name](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute.Name) property, which in this case is `MyCompany.MyProduct.MyAddin` in C\#. Because an assembly can contain more than one control add\-in, the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] uses the [Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute) attribute to differentiate each control add\-in that is found in an assembly. The [ControlAddInExportAttribute.Name](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute.Name) is used to register the control add\-in in [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
     > [!TIP]  
-    >  If you give the control add\-in the same name as the assembly, then you do not have to install the assembly on the client computer. In this case, you only install the assembly on the computer that is running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]. When a client requests the control add\-in, [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] will automatically deploy the assembly to the client.  
+    >  If you give the control add\-in the same name as the assembly, then you do not have to install the assembly on the client computer. In this case, you only install the assembly on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)]. When a client requests the control add\-in, [!INCLUDE[nav_server](includes/nav_server_md.md)] will automatically deploy the assembly to the client.  
   
      For more information, see [How to: Register a Windows Client Control Add\-in](../Topic/How%20to:%20Register%20a%20Windows%20Client%20Control%20Add-in.md).  
   
@@ -81,7 +81,7 @@ You develop [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] 
   
 6.  Add code to override additional base class members as required for your control add\-in.  
   
-     For example, a field control on a [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] can have a caption. If you do not want a caption, then override the [WinFormsControlAddInBase.AllowCaptionControl](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.WinFormsControlAddInBase.AllowCaptionControl) property and return `false` \(the default value is `true`\).  
+     For example, a field control on a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] can have a caption. If you do not want a caption, then override the [WinFormsControlAddInBase.AllowCaptionControl](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.WinFormsControlAddInBase.AllowCaptionControl) property and return `false` \(the default value is `true`\).  
   
     ```c#  
     public override bool AllowCaptionControl  
@@ -94,7 +94,7 @@ You develop [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] 
   
      The caption will span the caption column and the data column of the page.  
   
-7.  To bind the control add\-in to data in the [!INCLUDE[nav_current_short](../dynamics-nav/includes/nav_current_short_md.md)] database, add the following code that gets or sets the [IValueControlAddInDefinition\<T\>.Value](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1.Value) property.  
+7.  To bind the control add\-in to data in the [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] database, add the following code that gets or sets the [IValueControlAddInDefinition\<T\>.Value](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1.Value) property.  
   
     ```c#  
     /// Gets a value indicating whether the Value property has  
@@ -119,9 +119,9 @@ You develop [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] 
     ```  
   
     > [!NOTE]  
-    >  The [Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.StringControlAddInBase](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.StringControlAddInBase) class already overrides the [IValueControlAddInDefinition\<T\>.Value](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1.Value) property to transfer data between the control add\-in and the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database.  
+    >  The [Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.StringControlAddInBase](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.StringControlAddInBase) class already overrides the [IValueControlAddInDefinition\<T\>.Value](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1.Value) property to transfer data between the control add\-in and the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
-     For more information, see [Binding a Windows Client Control Add\-in to the Database](../dynamics-nav/Binding-a-Windows-Client-Control-Add-in-to-the-Database.md).  
+     For more information, see [Binding a Windows Client Control Add\-in to the Database](Binding-a-Windows-Client-Control-Add-in-to-the-Database.md).  
   
 8.  To define events that call the OnControlAddin C\/AL trigger of a page field control, add the following C\# code to declare an event handler.  
   
@@ -131,9 +131,9 @@ You develop [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] 
   
      Add code to raise the event where appropriate.  
   
-     For more information, see [Exposing Events and Calling Respective C\-AL Triggers from a Windows Client Control Add\-in](../dynamics-nav/Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md).  
+     For more information, see [Exposing Events and Calling Respective C\-AL Triggers from a Windows Client Control Add\-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md).  
   
-9. To add an event that will be represented by a new trigger in C\/AL code of a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] page object, use the managed attribute [ApplicationVisibleAttribute](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.ApplicationVisibleAttribute) and add code for C\# methods and properties.  
+9. To add an event that will be represented by a new trigger in C\/AL code of a [!INCLUDE[navnow](includes/navnow_md.md)] page object, use the managed attribute [ApplicationVisibleAttribute](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.ApplicationVisibleAttribute) and add code for C\# methods and properties.  
   
     ```c#  
     [ApplicationVisible]  
@@ -150,9 +150,9 @@ You develop [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] 
   
     ```  
   
-     The methods and properties must be public. For more information, see [Exposing Methods and Properties in a Windows Client Control Add\-in](../dynamics-nav/Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md).  
+     The methods and properties must be public. For more information, see [Exposing Methods and Properties in a Windows Client Control Add\-in](Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md).  
   
-10. To add a method or property that can be called from the C\/AL code of a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] page object, use the managed attribute [ApplicationVisibleAttribute](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.ApplicationVisibleAttribute) and add code for C\# methods and properties.  
+10. To add a method or property that can be called from the C\/AL code of a [!INCLUDE[navnow](includes/navnow_md.md)] page object, use the managed attribute [ApplicationVisibleAttribute](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.ApplicationVisibleAttribute) and add code for C\# methods and properties.  
   
     ```c#  
     /// <summary>  
@@ -164,16 +164,16 @@ You develop [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] 
   
     ```  
   
-     The methods and properties must be public. For more information, see [Exposing Methods and Properties in a Windows Client Control Add\-in](../dynamics-nav/Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md).  
+     The methods and properties must be public. For more information, see [Exposing Methods and Properties in a Windows Client Control Add\-in](Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md).  
   
 11. Build and sign the solution.  
   
 ## Signing an Assembly That Contains a Control Add\-in  
- To use an assembly that contains a control add\-in with the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], it must be signed. Signing gives the assembly a *public token key*, which is a unique identity that is used to make sure that the control add\-in runs code from a trusted assembly. When you register a control add\-in in [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)], you provide the public token key. At run time, the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] uses the public token key to load the appropriate control add\-in.  
+ To use an assembly that contains a control add\-in with the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], it must be signed. Signing gives the assembly a *public token key*, which is a unique identity that is used to make sure that the control add\-in runs code from a trusted assembly. When you register a control add\-in in [!INCLUDE[nav_server](includes/nav_server_md.md)], you provide the public token key. At run time, the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] uses the public token key to load the appropriate control add\-in.  
   
  Assemblies are signed with a key file that contains the public key token and an optional password. You can sign an assembly that contains a control add\-in by creating a new key file or using an existing one. For more information about how to sign assemblies, see [How to: Sign Assemblies](http://go.microsoft.com/fwlink/?LinkID=151835&clcid=0x409) and [Strong\-Name Signing for Managed Applications](http://go.microsoft.com/fwlink/?LinkID=150201&clcid=0x409).  
   
-#### To sign the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] add\-in assembly  
+#### To sign the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] add\-in assembly  
   
 1.  Open the project's properties.  
   
@@ -188,7 +188,7 @@ You develop [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] 
  For information about how to determine the public token key, see [How to: Determine the Public Key Token of the Windows Client Control Add\-in and .NET Framework Assembly](../Topic/How%20to:%20Determine%20the%20Public%20Key%20Token%20of%20the%20Windows%20Client%20Control%20Add-in%20and%20.NET%20Framework%20Assembly.md).  
   
 ## Example  
- The following code illustrates a control add\-in that implements the Microsoft digital ink control on a [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] page field. For example, you could use this control add\-in on a sales order page to allow customers to sign their sales orders with a tablet PC. The control add\-in is designed to bind with a table field in the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database to store and retrieve signatures. Because the signatures are transferred as binary data, the example implements the [Microsoft.Dynamics.Framework.UI.Extensibility.IObjectControlAddInDefinition](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.IObjectControlAddInDefinition) interface.  
+ The following code illustrates a control add\-in that implements the Microsoft digital ink control on a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] page field. For example, you could use this control add\-in on a sales order page to allow customers to sign their sales orders with a tablet PC. The control add\-in is designed to bind with a table field in the [!INCLUDE[navnow](includes/navnow_md.md)] database to store and retrieve signatures. Because the signatures are transferred as binary data, the example implements the [Microsoft.Dynamics.Framework.UI.Extensibility.IObjectControlAddInDefinition](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.IObjectControlAddInDefinition) interface.  
   
 ```c#  
 using System;  
@@ -257,10 +257,10 @@ namespace NavInkControl
 ```  
   
 ## See Also  
- [Developing Windows Client Control Add\-ins](../dynamics-nav/Developing-Windows-Client-Control-Add-ins.md)   
- [Client Extensibility API Overview](../dynamics-nav/Client-Extensibility-API-Overview.md)   
- [Binding a Windows Client Control Add\-in to the Database](../dynamics-nav/Binding-a-Windows-Client-Control-Add-in-to-the-Database.md)   
- [Exposing Events and Calling Respective C\-AL Triggers from a Windows Client Control Add\-in](../dynamics-nav/Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md)   
- [Installing and Configuring Windows Client Control Add\-ins on Pages](../dynamics-nav/Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)   
- [Windows Client Control Add\-in Overview](../dynamics-nav/Windows-Client-Control-Add-in-Overview.md)   
+ [Developing Windows Client Control Add\-ins](Developing-Windows-Client-Control-Add-ins.md)   
+ [Client Extensibility API Overview](Client-Extensibility-API-Overview.md)   
+ [Binding a Windows Client Control Add\-in to the Database](Binding-a-Windows-Client-Control-Add-in-to-the-Database.md)   
+ [Exposing Events and Calling Respective C\-AL Triggers from a Windows Client Control Add\-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md)   
+ [Installing and Configuring Windows Client Control Add\-ins on Pages](Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)   
+ [Windows Client Control Add\-in Overview](Windows-Client-Control-Add-in-Overview.md)   
  [Walkthrough: Creating and Using a Windows Client Control Add\-in](../Topic/Walkthrough:%20Creating%20and%20Using%20a%20Windows%20Client%20Control%20Add-in.md)

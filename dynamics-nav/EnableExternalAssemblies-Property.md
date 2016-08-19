@@ -24,8 +24,8 @@ Sets whether external Microsoft .NET assemblies can be used on a report.
  For more information about referencing assemblies, see [Adding Custom Code to a Report \(Visual Studio Report Designer\)](http://go.microsoft.com/fwlink/?LinkID=184561&clcid=0x409).  
   
 ## Security Considerations  
- [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] cannot verify assemblies and protect against malicious sources that may be harmful to your computer. You should set the EnableExternalAssemblies property to **Yes** only if you can ensure that assemblies on the report come from a trusted source.  
+ [!INCLUDE[navnow](includes/navnow_md.md)] cannot verify assemblies and protect against malicious sources that may be harmful to your computer. You should set the EnableExternalAssemblies property to **Yes** only if you can ensure that assemblies on the report come from a trusted source.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)   
- [Designing Reports](../dynamics-nav/Designing-Reports.md)
+ [Properties](Properties.md)   
+ [Designing Reports](Designing-Reports.md)

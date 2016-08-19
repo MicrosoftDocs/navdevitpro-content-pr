@@ -11,7 +11,7 @@ caps.latest.revision: 5
 manager: terryaus
 ---
 # How to: Start SQL Browser Service
-When using a named database instance for [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], and the SQL Server is not on the same computer as [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)], then the SQL Server Browser Service must be running on the SQL Server. If it is not, [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] cannot connect to the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database and an error occurs when you try to open a [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)]. A database instanced named **NAVDEMO** is used when you install the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)] by using [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] Setup.  
+When using a named database instance for [!INCLUDE[navnow](includes/navnow_md.md)], and the SQL Server is not on the same computer as [!INCLUDE[nav_server](includes/nav_server_md.md)], then the SQL Server Browser Service must be running on the SQL Server. If it is not, [!INCLUDE[nav_server](includes/nav_server_md.md)] cannot connect to the [!INCLUDE[navnow](includes/navnow_md.md)] database and an error occurs when you try to open a [!INCLUDE[rtc](includes/rtc_md.md)]. A database instanced named **NAVDEMO** is used when you install the [!INCLUDE[demolong](includes/demolong_md.md)] by using [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup.  
   
  You enable and start the SQL Server Browser Service by using the SQL Server Configuration Manager that is installed with Microsoft SQL Server 2008.  
   
@@ -32,6 +32,6 @@ When using a named database instance for [!INCLUDE[navnow](../dynamics-nav/inclu
 6.  Right\-click **SQL Server Browser** again, and then choose **Start**.  
   
 ## See Also  
- [Installation Considerations for Microsoft SQL Server](../dynamics-nav/Installation-Considerations-for-Microsoft-SQL-Server.md)   
- [Configuring Microsoft Dynamics NAV Server](../dynamics-nav/Configuring-Microsoft-Dynamics-NAV-Server.md)   
+ [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md)   
+ [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)   
  [Troubleshooting: SQL Server Connection Problems](../Topic/Troubleshooting:%20SQL%20Server%20Connection%20Problems.md)

@@ -11,17 +11,17 @@ caps.latest.revision: 12
 manager: edupont
 ---
 # Event Types
-[!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] supports different types of events for different purposes. This topic describes the following event types:  
+[!INCLUDE[navnow](includes/navnow_md.md)] supports different types of events for different purposes. This topic describes the following event types:  
   
--   [Business Events](../dynamics-nav/Event-Types.md#BusinessEvents)  
+-   [Business Events](Event-Types.md#BusinessEvents)  
   
--   [Integration Events](../dynamics-nav/Event-Types.md#IntegrationEvents)  
+-   [Integration Events](Event-Types.md#IntegrationEvents)  
   
--   [Global Events](../dynamics-nav/Event-Types.md#SystemEvents)  
+-   [Global Events](Event-Types.md#SystemEvents)  
   
--   [Database Trigger Events](../dynamics-nav/Event-Types.md#DatabaseEvents)  
+-   [Database Trigger Events](Event-Types.md#DatabaseEvents)  
   
--   [Page Trigger Events](../dynamics-nav/Event-Types.md#PageEvents)  
+-   [Page Trigger Events](Event-Types.md#PageEvents)  
   
 ##  <a name="BusinessEvents"></a> Business Events  
  A business event is a custom event that is raised by C\/AL code. It defines a formal contract that carries an implicit promise not to change in future releases. It is the expectation that business events are published by solution ISVs, including Microsoft.  
@@ -37,7 +37,7 @@ manager: edupont
 ##  <a name="IntegrationEvents"></a> Integration Events  
  An integration event is also a custom event that is raised by C\/AL code, like a business event, except that it does not carry the same promise of not changing, nor does it have the restriction not to expose implementation details.  
   
- The main purpose of integration events is to enable the integration of other solutions with [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] without having to perform traditional code modifications.  
+ The main purpose of integration events is to enable the integration of other solutions with [!INCLUDE[navnow](includes/navnow_md.md)] without having to perform traditional code modifications.  
   
  **Development considerations**  
   
@@ -50,7 +50,7 @@ manager: edupont
  Unlike business and integration events which must be programmed, trigger events are predefined events. Trigger events are published by the runtime and they cannot be raised programmatically. There are two types of trigger events as described in this section: database trigger events and page trigger events.  
   
 > [!NOTE]  
->  Trigger events do not appear as functions in C\/AL Editor for a table or page object in the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)].  
+>  Trigger events do not appear as functions in C\/AL Editor for a table or page object in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
   
 ###  <a name="DatabaseEvents"></a> Database Trigger Events  
  Trigger events are automatically raised by the system when it performs database operations on a table object, such as deleting, inserting, modifying, and renaming a record, as defined in  a table . Trigger events are closely associated with the table triggers for database operations: OnDelete, OnInsert, OnModify, OnRename, and OnValidate \(for fields\). For each database operation, there is a "before" and "after" trigger event with a fixed signature.  
@@ -102,19 +102,19 @@ manager: edupont
   
 |Trigger event with signature|Description|  
 |----------------------------------|-----------------|  
-|`OnBeforeActionEvent(VAR Rec : Record)`|Executed before the [OnAction Trigger](../dynamics-nav/OnAction-Trigger.md), which is called when a user selects an action on the page.|  
-|`OnAfterActionEvent(VAR Rec : Record)`|Executed after the [OnAction Trigger](../dynamics-nav/OnAction-Trigger.md), which is called when a user selects an action on the page.|  
-|`OnAfterGetCurrRecordEvent(VAR Rec : Record)`|Executed after the [OnAfterGetCurrRecord Trigger](../dynamics-nav/OnAfterGetCurrRecord-Trigger.md), which is called after the current record is retrieved from the table.|  
-|`OnAfterGetRecordEvent(VAR Rec : Record)`|Executed after the [OnAfterGetCurrRecord Trigger](../dynamics-nav/OnAfterGetCurrRecord-Trigger.md), which is called after the record is retrieved from the table but before it is displayed to the user.|  
-|`OnBeforeValidateEvent(VAR Rec : Record, VAR xRec : Record)`|Executed before the [OnValidate \(Page fields\) Trigger](../dynamics-nav/OnValidate--Page-fields--Trigger.md), which is called when a field loses focus after its value has been changed.|  
-|`OnAfterValidate(VAR Rec : Record, VAR xRec : Record)`|Executed after the [OnValidate \(Page fields\) Trigger](../dynamics-nav/OnValidate--Page-fields--Trigger.md), which is called when a field loses focus after its value has been changed.|  
-|`OnClosePageEvent(VAR Rec : Record)`|Executed after the [OnClosePage Trigger](../dynamics-nav/OnClosePage-Trigger.md), which is called when page closes after the OnQueryClosePage trigger is executed.|  
-|`OnDeleteRecordEvent(VAR Rec : Record, VAR AllowDelete : Boolean)`|Executed after the [OnDeleteRecord Trigger](../dynamics-nav/OnDeleteRecord-Trigger.md), which is called before a record is deleted from a table.|  
-|`OnInsertRecordEvent(VAR Rec : Record, BelowxRec : Boolean, VAR xRec : Record, VAR AllowInsert : Boolean)`|Executed after the [OnInsertRecord Trigger](../dynamics-nav/OnInsertRecord-Trigger.md), which is called before a record is inserted in a table.|  
-|`OnModifyRecordEvent(VAR Rec : Record, VAR xRec : Record, VAR AllowModify : Boolean)`|Executed after the [OnModifyRecord Trigger](../dynamics-nav/OnModifyRecord-Trigger.md), which is called before a record is modified in a table.|  
-|`OnNewRecordEvent(VAR Rec: Record, BelowxRec : Boolean, VAR xRec : Record)`|Executed after the [OnNewRecord Trigger](../dynamics-nav/OnNewRecord-Trigger.md), which is called before a new record is initialized.|  
-|`OnOpenPageEvent(VAR Rec : Record)`|Executed after the [OnOpenPage Trigger](../dynamics-nav/OnOpenPage-Trigger.md), which is called after a page is initialized and run.|  
-|`OnQueryClosePageEvent(VAR Rec : Record, VAR AllowClose : Boolean)`|Executed after the [OnQueryClosePage Trigger](../dynamics-nav/OnQueryClosePage-Trigger.md), which is called as a page closes and before the OnClosePage Trigger executes.|  
+|`OnBeforeActionEvent(VAR Rec : Record)`|Executed before the [OnAction Trigger](OnAction-Trigger.md), which is called when a user selects an action on the page.|  
+|`OnAfterActionEvent(VAR Rec : Record)`|Executed after the [OnAction Trigger](OnAction-Trigger.md), which is called when a user selects an action on the page.|  
+|`OnAfterGetCurrRecordEvent(VAR Rec : Record)`|Executed after the [OnAfterGetCurrRecord Trigger](OnAfterGetCurrRecord-Trigger.md), which is called after the current record is retrieved from the table.|  
+|`OnAfterGetRecordEvent(VAR Rec : Record)`|Executed after the [OnAfterGetCurrRecord Trigger](OnAfterGetCurrRecord-Trigger.md), which is called after the record is retrieved from the table but before it is displayed to the user.|  
+|`OnBeforeValidateEvent(VAR Rec : Record, VAR xRec : Record)`|Executed before the [OnValidate \(Page fields\) Trigger](OnValidate--Page-fields--Trigger.md), which is called when a field loses focus after its value has been changed.|  
+|`OnAfterValidate(VAR Rec : Record, VAR xRec : Record)`|Executed after the [OnValidate \(Page fields\) Trigger](OnValidate--Page-fields--Trigger.md), which is called when a field loses focus after its value has been changed.|  
+|`OnClosePageEvent(VAR Rec : Record)`|Executed after the [OnClosePage Trigger](OnClosePage-Trigger.md), which is called when page closes after the OnQueryClosePage trigger is executed.|  
+|`OnDeleteRecordEvent(VAR Rec : Record, VAR AllowDelete : Boolean)`|Executed after the [OnDeleteRecord Trigger](OnDeleteRecord-Trigger.md), which is called before a record is deleted from a table.|  
+|`OnInsertRecordEvent(VAR Rec : Record, BelowxRec : Boolean, VAR xRec : Record, VAR AllowInsert : Boolean)`|Executed after the [OnInsertRecord Trigger](OnInsertRecord-Trigger.md), which is called before a record is inserted in a table.|  
+|`OnModifyRecordEvent(VAR Rec : Record, VAR xRec : Record, VAR AllowModify : Boolean)`|Executed after the [OnModifyRecord Trigger](OnModifyRecord-Trigger.md), which is called before a record is modified in a table.|  
+|`OnNewRecordEvent(VAR Rec: Record, BelowxRec : Boolean, VAR xRec : Record)`|Executed after the [OnNewRecord Trigger](OnNewRecord-Trigger.md), which is called before a new record is initialized.|  
+|`OnOpenPageEvent(VAR Rec : Record)`|Executed after the [OnOpenPage Trigger](OnOpenPage-Trigger.md), which is called after a page is initialized and run.|  
+|`OnQueryClosePageEvent(VAR Rec : Record, VAR AllowClose : Boolean)`|Executed after the [OnQueryClosePage Trigger](OnQueryClosePage-Trigger.md), which is called as a page closes and before the OnClosePage Trigger executes.|  
   
  The following table describes the parameters of the trigger events:  
   
@@ -128,7 +128,7 @@ manager: edupont
 |*AllowClose*|Boolean|Specifies whether to the page can close. If this parameter is true, the code will be executed. If this parameter is false, then the code is not executed.|  
   
 ## See Also  
- [Events in Microsoft Dynamics NAV](../dynamics-nav/Events-in-Microsoft-Dynamics-NAV.md)   
- [Publishing Events](../dynamics-nav/Publishing-Events.md)   
- [Raising Events](../dynamics-nav/Raising-Events.md)   
- [Subscribing to Events](../dynamics-nav/Subscribing-to-Events.md)
+ [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)   
+ [Publishing Events](Publishing-Events.md)   
+ [Raising Events](Raising-Events.md)   
+ [Subscribing to Events](Subscribing-to-Events.md)

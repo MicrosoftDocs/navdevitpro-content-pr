@@ -15,7 +15,7 @@ You can modify a **MenuSuite** by inserting existing items. If an item already e
   
 ### To insert a menu item  
   
-1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], choose **Tools**, and then choose **Object Designer** to open the Object Designer window.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], choose **Tools**, and then choose **Object Designer** to open the Object Designer window.  
   
 2.  In Object Designer, choose **MenuSuite**.  
   

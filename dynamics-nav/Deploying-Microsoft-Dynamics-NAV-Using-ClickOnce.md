@@ -11,37 +11,37 @@ caps.latest.revision: 42
 manager: terryaus
 ---
 # Deploying Microsoft Dynamics NAV Using ClickOnce
-This document contains instructions for deploying the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] using the ClickOnce deployment technology. ClickOnce allows you to deploy web applications by choosing a link on a web page. ClickOnce is a component of the Microsoft .NET Framework.  
+This document contains instructions for deploying the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] using the ClickOnce deployment technology. ClickOnce allows you to deploy web applications by choosing a link on a web page. ClickOnce is a component of the Microsoft .NET Framework.  
   
 ## ClickOnce Installation  
- This section covers the end user experience of installing [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] deployed with ClickOnce. The end user will choose the link to the application to install [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)]. The link may point to a file share or a website. The ClickOnce runtime opens with a confirmation dialog box, which asks whether you want to install the application and includes an **Install** and **Don't Install** button.  
+ This section covers the end user experience of installing [!INCLUDE[navnow](includes/navnow_md.md)] deployed with ClickOnce. The end user will choose the link to the application to install [!INCLUDE[navnow](includes/navnow_md.md)]. The link may point to a file share or a website. The ClickOnce runtime opens with a confirmation dialog box, which asks whether you want to install the application and includes an **Install** and **Don't Install** button.  
   
  If you choose the **Install** button, ClickOnce downloads all the necessary files to a local folder on your computer.  
   
- When the download is complete, ClickOnce starts the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], and also installs a program shortcut on the **Start** menu of the computer.  
+ When the download is complete, ClickOnce starts the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], and also installs a program shortcut on the **Start** menu of the computer.  
   
- The next time that you want to run the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], you can either select the link again, or you select the shortcut on the **Start** menu. In either case, ClickOnce will check if there is a newer version available, which you will have the option to install.  
+ The next time that you want to run the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], you can either select the link again, or you select the shortcut on the **Start** menu. In either case, ClickOnce will check if there is a newer version available, which you will have the option to install.  
   
  No configuration of the ClientUserSettings.config file is needed during install or after install as this is set up as part of the ClickOnce deployment.  
   
-### Benefits of a ClickOnce Deployment of the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Windows Client  
+### Benefits of a ClickOnce Deployment of the [!INCLUDE[navnow](includes/navnow_md.md)] Windows Client  
  ClickOnce includes the following benefits:  
   
--   Allows for a centralized configuration. The ClientUserSettings.config configuration file that is installed with the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] contains several settings that must be adjusted for the specific installation, such as the server address and the authentication type to use. By using ClickOnce, you can control the ClientUserSettings.config centrally and push it out to the client computers. Configuration is not required on the individual client computer. If you make a mistake, or if the settings have to change, such as if you want to move the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance to a different computer, then you can create an updated configuration file by using the upgrade capability.  
+-   Allows for a centralized configuration. The ClientUserSettings.config configuration file that is installed with the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] contains several settings that must be adjusted for the specific installation, such as the server address and the authentication type to use. By using ClickOnce, you can control the ClientUserSettings.config centrally and push it out to the client computers. Configuration is not required on the individual client computer. If you make a mistake, or if the settings have to change, such as if you want to move the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to a different computer, then you can create an updated configuration file by using the upgrade capability.  
   
 -   Allows for bundled add\-ins. By using ClickOnce, you can easily deploy your own assemblies and third\-party add\-in assemblies. You do not have to copy add\-in files after the installation.  
   
--   You can have side\-by\-side installations. You cannot have two MSI\-based [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]s on the same computer. A ClickOnce\-deployed [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] does not interfere with other ClickOnce\-deployed [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]s. This makes it easy to run against different servers from the same computer. For example, you could have two [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] installations, one for a production server and one for a test server. This also means that you can run different versions of the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] side\-by\-side, which is not possible with MSI.  
+-   You can have side\-by\-side installations. You cannot have two MSI\-based [!INCLUDE[nav_windows](includes/nav_windows_md.md)]s on the same computer. A ClickOnce\-deployed [!INCLUDE[nav_windows](includes/nav_windows_md.md)] does not interfere with other ClickOnce\-deployed [!INCLUDE[nav_windows](includes/nav_windows_md.md)]s. This makes it easy to run against different servers from the same computer. For example, you could have two [!INCLUDE[nav_windows](includes/nav_windows_md.md)] installations, one for a production server and one for a test server. This also means that you can run different versions of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] side\-by\-side, which is not possible with MSI.  
   
 -   Multiple languages can be included in the same installer. By using ClickOnce, you can decide which files, such as language resource files and Help files, that you want to include in the deployment. End users will not be aware of the difference between installing an EN\-US\-only version and a version with several additional languages.  
   
--   Administrator permissions are not required. By using ClickOnce, a typical Windows user can install the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. The prerequisites for installation require administrator permissions. These prerequisites have to be installed one time on the computer, after which any user can install and upgrade the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+-   Administrator permissions are not required. By using ClickOnce, a typical Windows user can install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. The prerequisites for installation require administrator permissions. These prerequisites have to be installed one time on the computer, after which any user can install and upgrade the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
--   ClickOnce supports a seamless upgrade. End users will hardly notice when the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] is upgraded.  
+-   ClickOnce supports a seamless upgrade. End users will hardly notice when the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is upgraded.  
   
- The result should be that end users can install the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] without relying on partners or super users to do it for them.  
+ The result should be that end users can install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] without relying on partners or super users to do it for them.  
   
- There are some limitations of a ClickOnce\-installed [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. For more information, see [Limitations of ClickOnce Installed on the Microsoft Dynamics NAV Windows Client](../dynamics-nav/Deploying-Microsoft-Dynamics-NAV-Using-ClickOnce.md#Limitations).  
+ There are some limitations of a ClickOnce\-installed [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information, see [Limitations of ClickOnce Installed on the Microsoft Dynamics NAV Windows Client](Deploying-Microsoft-Dynamics-NAV-Using-ClickOnce.md#Limitations).  
   
 ### Technical Overview of ClickOnce  
  ClickOnce is a standard .NET technology that has existed since .NET Framework 2.0. The instructions in this document are meant to help you start working with ClickOnce deployment, however ClickOnce has additional features that are not described in this document.  
@@ -57,16 +57,16 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](../
  When a user installs the application, he runs the deployment manifest, and then ClickOnce will automatically install the application.  
   
 ### Installing Prerequisites  
- The [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] has three prerequisites: Microsoft Report Viewer 2015, Microsoft System CLR Types for SQL Server 2014, and .NET Framework 4.5. These are linked from the sample web page.  
+ The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] has three prerequisites: Microsoft Report Viewer 2015, Microsoft System CLR Types for SQL Server 2014, and .NET Framework 4.5. These are linked from the sample web page.  
   
 -   The install experience can be improved for the end user by providing a solution that packages the Microsoft Report Viewer with the ClickOnce installation. Microsoft Report Viewer requires Microsoft System CLR Types for SQL Server 2014. Microsoft Certified Partners may download and redistribute the Microsoft Report Viewer 2015 Redistributable Package and Microsoft System CLR Types for SQL Server 2014 from the Microsoft Download Center. You can download Microsoft Report Viewer at [Microsoft Report Viewer 2015 RUNTIME](http://go.microsoft.com/fwlink/?LinkID=536665). Microsoft System CLR Types for SQL Server 2014 is available as part of the Microsoft SQL Server 2014 Feature Pack, which you can download at [Microsoft SQL Server 2014 Feature Pack](http://go.microsoft.com/fwlink/?LinkID=536666).  
   
     > [!NOTE]  
-    >  The Microsoft Report Viewer is an optional component. If it is not installed, the end user will get an error message when trying to print or preview reports in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. All other functionality in the client will not be affected.  
+    >  The Microsoft Report Viewer is an optional component. If it is not installed, the end user will get an error message when trying to print or preview reports in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. All other functionality in the client will not be affected.  
   
 -   The .NET Framework 4.5 is pre\-installed on Windows 8 and Windows Server 2012 computers and no action has to be taken. For more information about how to install .NET 4.5 Framework on earlier versions of Windows, see [Installing .NET 4.5 Framework](http://go.microsoft.com/fwlink/?LinkId=272382).  
   
- Installing these prerequisites requires administrative rights on the computer. If the end users are not already administrators on their computers, then an administrator or a super user must first install the prerequisite on the computer. After that is complete, any user on the computer can install, uninstall, and upgrade the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. Administrative rights are not needed for the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+ Installing these prerequisites requires administrative rights on the computer. If the end users are not already administrators on their computers, then an administrator or a super user must first install the prerequisite on the computer. After that is complete, any user on the computer can install, uninstall, and upgrade the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. Administrative rights are not needed for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
  Microsoft Windows operating systems are subject to compliance with the Supplemental Redist License located at [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkID=262161&clcid=0x409).  
   
@@ -92,13 +92,13 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](../
   
     2.  You can also create a test certificate and use it for testing. For more information, see [How to: Create Your Own Test Certificate](http://msdn.microsoft.com/en-us/library/ff699202.aspx).  
   
-    3.  For information about when it is acceptable to skip this step, see [Security Considerations](../dynamics-nav/Deploying-Microsoft-Dynamics-NAV-Using-ClickOnce.md#Security).  
+    3.  For information about when it is acceptable to skip this step, see [Security Considerations](Deploying-Microsoft-Dynamics-NAV-Using-ClickOnce.md#Security).  
   
-3.  Install the ClickOnce Installer Tools. Run setup.exe and install the ClickOnce Installer Tools. The files will be installed in [!INCLUDE[navnow_x86install](../dynamics-nav/includes/navnow_x86install_md.md)]\\ClickOnce Installer Tools.  
+3.  Install the ClickOnce Installer Tools. Run setup.exe and install the ClickOnce Installer Tools. The files will be installed in [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\ClickOnce Installer Tools.  
   
-4.  Perform a typical installation of the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] by doing the following:  
+4.  Perform a typical installation of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] by doing the following:  
   
-    1.  Run setup.exe to install the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. Do not install unnecessary client components, such as the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)] and the Excel add\-in. These add to the download size, and contain special file types that can create problems for a ClickOnce deployment. For example, the Web.config file installed with the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)] can create problems when it is hosted on a web server.  
+    1.  Run setup.exe to install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. Do not install unnecessary client components, such as the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] and the Excel add\-in. These add to the download size, and contain special file types that can create problems for a ClickOnce deployment. For example, the Web.config file installed with the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] can create problems when it is hosted on a web server.  
   
     2.  Install relevant language packs.  
   
@@ -112,7 +112,7 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](../
   
     1.  Create a folder, such as *\\\\fileshare\\clickonce\\Deployment\\ApplicationFiles*.  
   
-    2.  Copy all the files from [!INCLUDE[navnow_x86install](../dynamics-nav/includes/navnow_x86install_md.md)]\\RoleTailored Client to this new folder.  
+    2.  Copy all the files from [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client to this new folder.  
   
         > [!IMPORTANT]  
         >  Microsoft.Dynamics.Nav.Client.exe and Microsoft.Dynamics.Nav.Client.x86.exe have the same assembly identity name, so you must copy only one of these executables. You can choose either file.  
@@ -123,9 +123,9 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](../
   
 6.  Copy the template files. The ClickOnce Installer Tools installation contains template files that will be useful starting points.  
   
-    1.  Copy the files in [!INCLUDE[navnow_x86install](../dynamics-nav/includes/navnow_x86install_md.md)]\\ClickOnce Installer Tools\\TemplateFiles to *\\\\fileshare\\clickonce*.  
+    1.  Copy the files in [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\ClickOnce Installer Tools\\TemplateFiles to *\\\\fileshare\\clickonce*.  
   
-7.  The [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] Windows client requires Microsoft Report Viewer 2015 for viewing and printing a report, along with and Microsoft System CLR Types for SQL Server 2014. Therefore, these are a prerequisite installation in the ClickOnce scenario.  
+7.  The [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Windows client requires Microsoft Report Viewer 2015 for viewing and printing a report, along with and Microsoft System CLR Types for SQL Server 2014. Therefore, these are a prerequisite installation in the ClickOnce scenario.  
   
      Both are available on the Microsoft Download Center. You can download Microsoft Report Viewer at [Microsoft Report Viewer 2015 RUNTIME](http://go.microsoft.com/fwlink/?LinkID=536665). Microsoft System CLR Types for SQL Server 2014 is available as part of the Microsoft SQL Server 2014 Feature Pack, which you can download at [Microsoft SQL Server 2014 Feature Pack](http://go.microsoft.com/fwlink/?LinkID=536666).  
   
@@ -156,7 +156,7 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](../
   
      `mage.exe -sign Microsoft.Dynamics.Nav.Client.exe.manifest -certfile PartnerPersonalInformationExchange.pfx`  
   
-     Now the application manifest is signed. If you modify it, you will have to sign it again. For information about when it is acceptable to skip this step, see [Security Considerations](../dynamics-nav/Deploying-Microsoft-Dynamics-NAV-Using-ClickOnce.md#Security).  
+     Now the application manifest is signed. If you modify it, you will have to sign it again. For information about when it is acceptable to skip this step, see [Security Considerations](Deploying-Microsoft-Dynamics-NAV-Using-ClickOnce.md#Security).  
   
 11. Update the deployment manifest.  
   
@@ -168,9 +168,9 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](../
   
     3.  Open Microsoft.Dynamics.Nav.Client.application in Notepad, and do the following:  
   
-        1.  Adjust the `assembly.assemblyIdentity.name` so that it is unique. For example, you could add the customer’s name to the name, and if you deploy a test and a production server for the customer, then you could add **production** or **test** to the name. You should never change this value after end users have used it to install the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] client. The value will not be shown to end users.  
+        1.  Adjust the `assembly.assemblyIdentity.name` so that it is unique. For example, you could add the customer’s name to the name, and if you deploy a test and a production server for the customer, then you could add **production** or **test** to the name. You should never change this value after end users have used it to install the [!INCLUDE[navnow](includes/navnow_md.md)] client. The value will not be shown to end users.  
   
-        2.  Adjust the description contents as appropriate. For example, you could change the publisher to be "Microsoft Corporation and \<your company name\>", and change the product to be "[!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] for \<customer name\>". These are the names that the end user will see.  
+        2.  Adjust the description contents as appropriate. For example, you could change the publisher to be "Microsoft Corporation and \<your company name\>", and change the product to be "[!INCLUDE[navnowlong](includes/navnowlong_md.md)] for \<customer name\>". These are the names that the end user will see.  
   
         3.  Change the link in `deploymentProvider` to *\\\\fileshare\\clickonce\\Deployment\\Microsoft.Dynamics.Nav.Client.application*. As you can see, it is now pointing to itself so that it is possible to check for updates.  
   
@@ -178,7 +178,7 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](../
   
      `mage.exe -sign Microsoft.Dynamics.Nav.Client.application -certfile PartnerPersonalInformationExchange.pfx.`  
   
-     After the deployment manifest is signed, if you modify it, you will have to sign it again. For information about when it is acceptable to skip this step, see [Security Considerations](../dynamics-nav/Deploying-Microsoft-Dynamics-NAV-Using-ClickOnce.md#Security).  
+     After the deployment manifest is signed, if you modify it, you will have to sign it again. For information about when it is acceptable to skip this step, see [Security Considerations](Deploying-Microsoft-Dynamics-NAV-Using-ClickOnce.md#Security).  
   
 13. Now you should be done with your ClickOnce deployment, so you can test the ClickOnce deployment. Run the deployment manifest by choosing *\\\\fileshare\\clickonce\\Deployment\\Microsoft.Dynamics.Nav.Client.application*.  
   
@@ -231,20 +231,20 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](../
  You should start with an empty .config file, and then use trial\-and\-error to add the necessary rules, until ClickOnce can download all the files. If ClickOnce cannot download the files, a report will show which file and which extension is the problem.  
   
 ### Requiring End Users to Read and Accept Software License Terms  
- End users who install the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] are required to accept the Microsoft software license terms. By using the traditional [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] installer, this occurs as part of the installation process. However, by using ClickOnce deployment, this cannot occur as part of the installation process, and it must therefore occur before the ClickOnce process is started.  
+ End users who install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] are required to accept the Microsoft software license terms. By using the traditional [!INCLUDE[nav_windows](includes/nav_windows_md.md)] installer, this occurs as part of the installation process. However, by using ClickOnce deployment, this cannot occur as part of the installation process, and it must therefore occur before the ClickOnce process is started.  
   
- If you decide to deploy the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] using ClickOnce, then it is your responsibility that end users accept the Microsoft software license terms before the installation. We recommend that you also require end user acceptance of your software license terms and any third\-party software license terms that are part of the ClickOnce deployment.  
+ If you decide to deploy the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] using ClickOnce, then it is your responsibility that end users accept the Microsoft software license terms before the installation. We recommend that you also require end user acceptance of your software license terms and any third\-party software license terms that are part of the ClickOnce deployment.  
   
- To help you with this process, you can use the **NAVClientInstallation.html** template web page that was installed as part of the ClickOnce Installer Tools. When you try to open that file, you must select the **Accept** check boxes before you can install the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. You can design your own web page, as long as the process for the end user is the same. The end user cannot install the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] until he has accepted the software license terms.  
+ To help you with this process, you can use the **NAVClientInstallation.html** template web page that was installed as part of the ClickOnce Installer Tools. When you try to open that file, you must select the **Accept** check boxes before you can install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. You can design your own web page, as long as the process for the end user is the same. The end user cannot install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] until he has accepted the software license terms.  
   
-### Upgrading to a New Version of the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Client  
- If you want to push a new version of the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] out to end users, you must do the following:  
+### Upgrading to a New Version of the [!INCLUDE[navnow](includes/navnow_md.md)] Client  
+ If you want to push a new version of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] out to end users, you must do the following:  
   
 -   Produce a new ApplicationFiles folder. Follow the process that you used to create the first version, but assign a larger version number to the application manifest. You can replace the old application files in *\\\\fileshare\\clickonce\\Deployment\\ApplicationFiles*, or you can put the new files in a new directory, such as *\\\\fileshare\\clickonce\\Deployment\\ApplicationFiles2*. Make sure to run `mage.exe -update` to update the application manifest's file list and hash values. Run `mage.exe -sign` to sign the application manifest.  
   
 -   Run `mage.exe -update` to update the deployment manifest's reference to the application manifest as well as its hash value. Update the deployment manifest's version number. Run `mage.exe -sign` to sign the deployment manifest.  
   
- The upgrade check is based on the deployment manifest’s `version`. This is the version of the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] that will be installed if a user installs [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] for the first time. The deployment manifest also contains a `minimumRequiredVersion`. If a previously installed [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] has a version that is less than `minimumRequiredVersion`, then the user is forced to upgrade the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. This will appear similar to the following.  
+ The upgrade check is based on the deployment manifest’s `version`. This is the version of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] that will be installed if a user installs [!INCLUDE[navnow](includes/navnow_md.md)] for the first time. The deployment manifest also contains a `minimumRequiredVersion`. If a previously installed [!INCLUDE[nav_windows](includes/nav_windows_md.md)] has a version that is less than `minimumRequiredVersion`, then the user is forced to upgrade the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. This will appear similar to the following.  
   
 ```  
 <assemblyIdentity name="Microsoft Dynamics NAV" version="7.0.0.0" … />  
@@ -256,7 +256,7 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](../
     </subscription>  
 ```  
   
- The `<update>` tag determines when the upgrade check is performed. In the example earlier in this section, `beforeApplicationStartup`was specified, which means the upgrade check will be performed before the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] starts and the user will experience a short delay every time that the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] is started. If you want the upgrade check to be performed in the background every time that the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] is started, then use the following setting.  
+ The `<update>` tag determines when the upgrade check is performed. In the example earlier in this section, `beforeApplicationStartup`was specified, which means the upgrade check will be performed before the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] starts and the user will experience a short delay every time that the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is started. If you want the upgrade check to be performed in the background every time that the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is started, then use the following setting.  
   
 ```  
 <update>  
@@ -265,21 +265,21 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](../
   
 ```  
   
- With this setting, the user will be able to run the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] without any delay. In the background, ClickOnce will check if the current version is too low. ClickOnce will enforce the upgrade the next time that the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] starts. If you want to check for updates, such as every 14 days, then add `maximumAge=”14”`.  
+ With this setting, the user will be able to run the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] without any delay. In the background, ClickOnce will check if the current version is too low. ClickOnce will enforce the upgrade the next time that the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] starts. If you want to check for updates, such as every 14 days, then add `maximumAge=”14”`.  
   
- The application manifest version number can be changed independently of the deployment manifest version number. If you change the version number in the deployment manifest, but keep referring to the same version of the application manifest, then the user will experience that the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] is upgraded, but nothing will occur because the new version of the deployment manifest will still point to the same application version. For example, this can be useful if you want to change the frequency of the upgrade checks or change the text in the **Start** menu.  
+ The application manifest version number can be changed independently of the deployment manifest version number. If you change the version number in the deployment manifest, but keep referring to the same version of the application manifest, then the user will experience that the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is upgraded, but nothing will occur because the new version of the deployment manifest will still point to the same application version. For example, this can be useful if you want to change the frequency of the upgrade checks or change the text in the **Start** menu.  
   
 ###  <a name="Security"></a> Security Considerations  
- Installing any application on the local computer requires that you consider whether it is safe to do this. For a ClickOnce deployment of the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], here are some recommended security measures that you should consider:  
+ Installing any application on the local computer requires that you consider whether it is safe to do this. For a ClickOnce deployment of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], here are some recommended security measures that you should consider:  
   
 -   **Internal deployment** \- If you host the ClickOnce deployment on an internal file share or website, we recommend that you sign the ClickOnce deployment so that end users will not see an **Unknown publisher** message during installation. However, it is also acceptable not to sign the ClickOnce deployment.  
   
 -   **Public deployment** \- If you host the ClickOnce deployment in a public location, we recommend that you sign the ClickOnce deployment and host it on a secure website \(*https:\/\/*\). Taking these precautions will reduce the risk of end users installing applications from bad sources and locations.  
   
 ###  <a name="Limitations"></a> Limitations of ClickOnce Installed on the Microsoft Dynamics NAV Windows Client  
- The following are limitations of ClickOnce installed on the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+ The following are limitations of ClickOnce installed on the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
- **Command\-line arguments** \- ClickOnce installed on the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] client cannot be run with custom command\-line arguments. For example, this affects the following scenarios:  
+ **Command\-line arguments** \- ClickOnce installed on the [!INCLUDE[navnow](includes/navnow_md.md)] client cannot be run with custom command\-line arguments. For example, this affects the following scenarios:  
   
 -   An end user cannot specify the Home page.  
   
@@ -293,7 +293,7 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](../
   
 -   An end user cannot disable the navigation pane.  
   
- **Hyperlinks** \- The protocol handler *dynamicsnav:\/\/* is not registered during ClickOnce installation, which means that the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] client cannot be activated by choosing a hyperlink. This could impact the following scenarios:  
+ **Hyperlinks** \- The protocol handler *dynamicsnav:\/\/* is not registered during ClickOnce installation, which means that the [!INCLUDE[navnow](includes/navnow_md.md)] client cannot be activated by choosing a hyperlink. This could impact the following scenarios:  
   
 -   End users cannot send each other links to specific pages.  
   
@@ -303,13 +303,13 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](../
   
 -   The debugger cannot be started.  
   
- **External components calling the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]** \- A ClickOnce\-installed [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] will be installed in a randomly generated folder, and when it is upgraded to a new version, it will be installed a new randomly generated folder. This means that external components will not be able to detect where the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] executable is located. This could impact the following scenarios:  
+ **External components calling the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]** \- A ClickOnce\-installed [!INCLUDE[nav_windows](includes/nav_windows_md.md)] will be installed in a randomly generated folder, and when it is upgraded to a new version, it will be installed a new randomly generated folder. This means that external components will not be able to detect where the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] executable is located. This could impact the following scenarios:  
   
 -   An end user can send a list page to Excel, but cannot refresh data from the Excel application.  
   
--   Third\-party applications cannot start the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+-   Third\-party applications cannot start the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
 ## See Also  
- [Deployment](../dynamics-nav/Deployment.md)   
- [Configuring Microsoft Dynamics NAV](../dynamics-nav/Configuring-Microsoft-Dynamics-NAV.md)   
- [Installation Options](../dynamics-nav/Installation-Options.md)
+ [Deployment](Deployment.md)   
+ [Configuring Microsoft Dynamics NAV](Configuring-Microsoft-Dynamics-NAV.md)   
+ [Installation Options](Installation-Options.md)

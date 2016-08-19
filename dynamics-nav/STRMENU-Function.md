@@ -45,5 +45,5 @@ Selection := Dialog.STRMENU('Save,Close,Cancel',3);
  In this example, the Cancel option is the default because the *DefaultNumber* parameter was set to 3. We recommend that you set the default to a harmless action, such as cancel, because this option can be selected by pressing Enter. If the user accidentally presses Enter, nothing catastrophic occurs, as might be the case if the default option was "Delete all."  
   
 ## See Also  
- [STRMENU Function \(Dialog\)](../dynamics-nav/STRMENU-Function--Dialog-.md)   
- [Progress Windows, MESSAGE, ERROR, and CONFIRM Functions](../dynamics-nav/Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Functions.md)
+ [STRMENU Function \(Dialog\)](STRMENU-Function--Dialog-.md)   
+ [Progress Windows, MESSAGE, ERROR, and CONFIRM Functions](Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Functions.md)

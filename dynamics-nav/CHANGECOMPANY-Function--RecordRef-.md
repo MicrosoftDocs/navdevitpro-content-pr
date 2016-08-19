@@ -40,7 +40,7 @@ Redirects references to table data from one company to another.
 ## Remarks  
  When executing this function, the user's access rights are respected. For example, a user cannot access data in *CompanyName* unless he already has the necessary access rights.  
   
- The **CHANGECOMPANY** function is not affected by the [RESET Function \(RecordRef\)](../dynamics-nav/RESET-Function--RecordRef-.md). You can deselect a company by making a new call to **CHANGECOMPANY** or by using the [CLEAR Function](../dynamics-nav/CLEAR-Function.md).  
+ The **CHANGECOMPANY** function is not affected by the [RESET Function \(RecordRef\)](RESET-Function--RecordRef-.md). You can deselect a company by making a new call to **CHANGECOMPANY** or by using the [CLEAR Function](CLEAR-Function.md).  
   
  Global filters always belong to a specific company. If you use the following code to select the company named NewCompany, any filters assigned to *RecordRef* will be transferred to *RecordRef* in the new company.  
   
@@ -74,4 +74,4 @@ MyRecordRef.DELETE;
 ```  
   
 ## See Also  
- [RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md)
+ [RecordRef Data Type](RecordRef-Data-Type.md)

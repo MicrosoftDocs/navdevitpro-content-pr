@@ -13,23 +13,23 @@ manager: edupont
 # Encryption Functions
 This section contains the following topics:  
   
--   [ENCRYPT](../dynamics-nav/ENCRYPT.md)  
+-   [ENCRYPT](ENCRYPT.md)  
   
--   [DECRYPT](../dynamics-nav/DECRYPT.md)  
+-   [DECRYPT](DECRYPT.md)  
   
--   [IMPORTENCRYPTIONKEY](../dynamics-nav/IMPORTENCRYPTIONKEY.md)  
+-   [IMPORTENCRYPTIONKEY](IMPORTENCRYPTIONKEY.md)  
   
--   [EXPORTENCRYPTIONKEY](../dynamics-nav/EXPORTENCRYPTIONKEY.md)  
+-   [EXPORTENCRYPTIONKEY](EXPORTENCRYPTIONKEY.md)  
   
--   [CREATEENCRYPTIONKEY](../dynamics-nav/CREATEENCRYPTIONKEY.md)  
+-   [CREATEENCRYPTIONKEY](CREATEENCRYPTIONKEY.md)  
   
--   [DELETEENCRYPTIONKEY](../dynamics-nav/DELETEENCRYPTIONKEY.md)  
+-   [DELETEENCRYPTIONKEY](DELETEENCRYPTIONKEY.md)  
   
--   [ENCRYPTIONKEYEXISTS](../dynamics-nav/ENCRYPTIONKEYEXISTS.md)  
+-   [ENCRYPTIONKEYEXISTS](ENCRYPTIONKEYEXISTS.md)  
   
--   [ENCRYPTIONENABLED](../dynamics-nav/ENCRYPTIONENABLED.md)  
+-   [ENCRYPTIONENABLED](ENCRYPTIONENABLED.md)  
   
 ## See Also  
- [System](../dynamics-nav/System.md)   
- [Technical Reference](../dynamics-nav/Technical-Reference.md)   
- [C\-SIDE Reference Guide](../dynamics-nav/C-SIDE-Reference-Guide.md)
+ [System](System.md)   
+ [Technical Reference](Technical-Reference.md)   
+ [C\-SIDE Reference Guide](C-SIDE-Reference-Guide.md)

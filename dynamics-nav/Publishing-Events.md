@@ -24,7 +24,7 @@ The first phase of implementing an event is publishing the event. Publishing an 
   
 -   An event publisher function cannot have a return value, variables, or text constants.  
   
- The following procedure provides an outline of the tasks that are involved in creating an event publisher function for declaring an event. The tasks are performed from the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)]. For detailed step\-by\-step instructions for the tasks, see [Walkthrough: Publishing, Raising, and Subcribing to an Event in Microsoft Dynamics NAV](../Topic/Walkthrough:%20Publishing,%20Raising,%20and%20Subcribing%20to%20an%20Event%20in%20Microsoft%20Dynamics%20NAV.md).  
+ The following procedure provides an outline of the tasks that are involved in creating an event publisher function for declaring an event. The tasks are performed from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. For detailed step\-by\-step instructions for the tasks, see [Walkthrough: Publishing, Raising, and Subcribing to an Event in Microsoft Dynamics NAV](../Topic/Walkthrough:%20Publishing,%20Raising,%20and%20Subcribing%20to%20an%20Event%20in%20Microsoft%20Dynamics%20NAV.md).  
   
 #### To create an event publisher function  
   
@@ -36,15 +36,15 @@ The first phase of implementing an event is publishing the event. Publishing an 
   
      We recommend that you give the function a name that has the format *On\[Event\]*, where *\[Event\]* is text that indicates what occurred, such as OnCancelCustomerApprovalRequest.  
   
-3.  Set the function [Event Property](../dynamics-nav/Event-Property.md) to **Publisher** and the [EventType Property](../dynamics-nav/EventType-Property.md) to either **Business** or **Integration**.  
+3.  Set the function [Event Property](Event-Property.md) to **Publisher** and the [EventType Property](EventType-Property.md) to either **Business** or **Integration**.  
   
-4.  Set the function [EventType Property](../dynamics-nav/EventType-Property.md) to **Business** or **Integration**.  
+4.  Set the function [EventType Property](EventType-Property.md) to **Business** or **Integration**.  
   
-     For more information, see [Event Types](../dynamics-nav/Event-Types.md).  
+     For more information, see [Event Types](Event-Types.md).  
   
-5.  If you want to make the event available to event subscribers that are defined in the other objects than publisher function object, set the [Local Property](../dynamics-nav/Local-Property.md) to **No**.  
+5.  If you want to make the event available to event subscribers that are defined in the other objects than publisher function object, set the [Local Property](Local-Property.md) to **No**.  
   
-6.  If you want to make global functions in the object available to event subscribers, set the [IncludeSender Property](../dynamics-nav/IncludeSender-Property.md) to **Yes**.  
+6.  If you want to make global functions in the object available to event subscribers, set the [IncludeSender Property](IncludeSender-Property.md) to **Yes**.  
   
 7.  Add parameters to the function as needed.  
   
@@ -55,6 +55,6 @@ The first phase of implementing an event is publishing the event. Publishing an 
  You can now add code to the application that raises the event by calling the publisher function. You can also create subscriber functions that handle the event when it is raised.  
   
 ## See Also  
- [Raising Events](../dynamics-nav/Raising-Events.md)   
- [Subscribing to Events](../dynamics-nav/Subscribing-to-Events.md)   
- [Events in Microsoft Dynamics NAV](../dynamics-nav/Events-in-Microsoft-Dynamics-NAV.md)
+ [Raising Events](Raising-Events.md)   
+ [Subscribing to Events](Subscribing-to-Events.md)   
+ [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)

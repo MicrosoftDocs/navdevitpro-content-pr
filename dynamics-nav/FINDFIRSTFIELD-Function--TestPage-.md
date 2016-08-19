@@ -41,4 +41,4 @@ Finds the first field in the dataset that is displayed on a test page.
  **true** if the first field is found; otherwise, **false**. The return value is optional.  
   
 ## See Also  
- [TestPage Functions](../dynamics-nav/TestPage-Functions.md)
+ [TestPage Functions](TestPage-Functions.md)

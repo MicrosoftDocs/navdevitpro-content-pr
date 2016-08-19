@@ -28,4 +28,4 @@ Sets the key on which to sort, the sort order, and the filters for the data item
 -   Setting a sort order, a filter, or both in the **Table View** window does not prevent end users from selecting a sort field on the request page. The default sort field that is displayed in the request page is the primary key. The list of fields on which you can sort includes all keys for the data item. To add fields to the list, you must add keys to the table.  
   
 ## See Also  
- [Request Pages](../dynamics-nav/Request-Pages.md)
+ [Request Pages](Request-Pages.md)

@@ -31,4 +31,4 @@ TestPage.Field.ASSISTEDIT
  The field that you want to add assist\-edit functionality to.  
   
 ## See Also  
- [TestPage Field Functions](../dynamics-nav/TestPage-Field-Functions.md)
+ [TestPage Field Functions](TestPage-Field-Functions.md)

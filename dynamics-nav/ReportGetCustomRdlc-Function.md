@@ -24,12 +24,12 @@ ReportGetCustomRdlc(ReportID : Integer) : Text
  *ObjectType*  
  Type: Option  
   
- The [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] object type that is running. Currently only the **Report** value is supported.  
+ The [!INCLUDE[navnow](includes/navnow_md.md)] object type that is running. Currently only the **Report** value is supported.  
   
  *ReportID*  
  Type: Integer  
   
- The ID of the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] report object that is run.  
+ The ID of the [!INCLUDE[navnow](includes/navnow_md.md)] report object that is run.  
   
 ## Return Value  
  Type: Text  
@@ -40,7 +40,7 @@ ReportGetCustomRdlc(ReportID : Integer) : Text
  Report layout implementation in codeunit 1 **ApplicationManagement**.  
   
 ## Remarks  
- At report run time, this function is called if the [HasCustomLayout Function](../dynamics-nav/HasCustomLayout-Function.md) determines that the report is currently set up to use a custom RDLC layout. The ReportGetCustomRdlc function is called after the [OnPreReport Trigger](../dynamics-nav/OnPreReport-Trigger.md) is invoked.  
+ At report run time, this function is called if the [HasCustomLayout Function](HasCustomLayout-Function.md) determines that the report is currently set up to use a custom RDLC layout. The ReportGetCustomRdlc function is called after the [OnPreReport Trigger](OnPreReport-Trigger.md) is invoked.  
   
 ## Example  
  The following example shows the default implementation on the function in codeunit 1. This example uses a variable **ReportLayout** that has the data type **Record** and subtype **Report Layout**.  
@@ -50,8 +50,8 @@ EXIT(ReportLayout.GetCustomRdlc(ReportId));
 ```  
   
 ## See Also  
- [Customizing Report Layout Implementation in Codeunit 1](../dynamics-nav/Customizing-Report-Layout-Implementation-in-Codeunit-1.md)   
- [REPORT.RUN Function](../dynamics-nav/REPORT.RUN-Function.md)   
- [SAVEASWORD Function \(REPORT\)](../dynamics-nav/SAVEASWORD-Function--REPORT-.md)   
- [SAVEASPDF Function \(Report\)](../dynamics-nav/SAVEASPDF-Function--Report-.md)   
- [SAVEASEXCEL Function \(Report\)](../dynamics-nav/SAVEASEXCEL-Function--Report-.md)
+ [Customizing Report Layout Implementation in Codeunit 1](Customizing-Report-Layout-Implementation-in-Codeunit-1.md)   
+ [REPORT.RUN Function](REPORT.RUN-Function.md)   
+ [SAVEASWORD Function \(REPORT\)](SAVEASWORD-Function--REPORT-.md)   
+ [SAVEASPDF Function \(Report\)](SAVEASPDF-Function--Report-.md)   
+ [SAVEASEXCEL Function \(Report\)](SAVEASEXCEL-Function--Report-.md)

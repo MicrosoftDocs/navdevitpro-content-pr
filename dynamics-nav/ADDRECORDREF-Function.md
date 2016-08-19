@@ -41,7 +41,7 @@ Adds filter control for a table to a filter page. The table is specified by a re
  The name assigned to the item or an empty string if an error occurred. An error message will be shown if the return value is not used.  
   
 ## Remarks  
- In the filter page that is rendered in the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] client, the ADDRECORDREF function defines a filter control for the specified table where the user can add and set the filters on the table.  
+ In the filter page that is rendered in the [!INCLUDE[navnow](includes/navnow_md.md)] client, the ADDRECORDREF function defines a filter control for the specified table where the user can add and set the filters on the table.  
   
  Fields in the table that already have filters are automatically included in the filter control. Filters in the record reference passed to the function will not be modified by any function in the FilterPageBuilder object.  
   
@@ -66,12 +66,12 @@ varFilterPageBuilder.ADDRECORDREF(varDateItem,varDateRecordRef);
 ```  
   
 ## See Also  
- [ADDFIELD Function](../dynamics-nav/ADDFIELD-Function.md)   
- [ADDFIELDNO Function](../dynamics-nav/ADDFIELDNO-Function.md)   
- [ADDRECORD Function](../dynamics-nav/ADDRECORD-Function.md)   
- [ADDTABLE Function](../dynamics-nav/ADDTABLE-Function.md)   
- [GETVIEW function \(FilterPageBuilder\)](../dynamics-nav/GETVIEW-function--FilterPageBuilder-.md)   
- [SETVIEW Function](../dynamics-nav/SETVIEW-Function.md)   
- [COUNT Function \(FilterPageBuilder\)](../dynamics-nav/COUNT-Function--FilterPageBuilder-.md)   
- [NAME Function \(FilterPageBuilder\)](../dynamics-nav/NAME-Function--FilterPageBuilder-.md)   
- [RUNMODAL Function \(FilterPageBuilder\)](../dynamics-nav/RUNMODAL-Function--FilterPageBuilder-.md)
+ [ADDFIELD Function](ADDFIELD-Function.md)   
+ [ADDFIELDNO Function](ADDFIELDNO-Function.md)   
+ [ADDRECORD Function](ADDRECORD-Function.md)   
+ [ADDTABLE Function](ADDTABLE-Function.md)   
+ [GETVIEW function \(FilterPageBuilder\)](GETVIEW-function--FilterPageBuilder-.md)   
+ [SETVIEW Function](SETVIEW-Function.md)   
+ [COUNT Function \(FilterPageBuilder\)](COUNT-Function--FilterPageBuilder-.md)   
+ [NAME Function \(FilterPageBuilder\)](NAME-Function--FilterPageBuilder-.md)   
+ [RUNMODAL Function \(FilterPageBuilder\)](RUNMODAL-Function--FilterPageBuilder-.md)

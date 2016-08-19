@@ -24,4 +24,4 @@ Logical operators can only be used with arguments that can be evaluated to Boole
 |XOR|Exclusive logical or|bool XOR bool|bool|  
   
 ## See Also  
- [Type Conversion](../dynamics-nav/Type-Conversion.md)
+ [Type Conversion](Type-Conversion.md)

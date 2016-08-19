@@ -31,12 +31,12 @@ String := FieldRef.GETFILTER
  This string contains the filter that is applied to the field in the record.  
   
 ## Remarks  
- See also [GETFILTERS Function \(RecordRef\)](../dynamics-nav/GETFILTERS-Function--RecordRef-.md), [SETFILTER Function \(FieldRef\)](../dynamics-nav/SETFILTER-Function--FieldRef-.md), and [SETRANGE Function \(FieldRef\)](../dynamics-nav/SETRANGE-Function--FieldRef-.md).  
+ See also [GETFILTERS Function \(RecordRef\)](GETFILTERS-Function--RecordRef-.md), [SETFILTER Function \(FieldRef\)](SETFILTER-Function--FieldRef-.md), and [SETRANGE Function \(FieldRef\)](SETRANGE-Function--FieldRef-.md).  
   
- This function is like the [GETFILTER Function \(Record\)](../dynamics-nav/GETFILTER-Function--Record-.md)function.  
+ This function is like the [GETFILTER Function \(Record\)](GETFILTER-Function--Record-.md)function.  
   
 ## Example  
- The following example opens the Customer table as a RecordRef variable that is named CustomerRecref. The [FIELD Function \(RecordRef\)](../dynamics-nav/FIELD-Function--RecordRef-.md) creates a FieldRef for the first field \(No.\) and stores the reference in the MyFieldRef variable. The GETFILTER function retrieves the filters that are set on the No. field and stores the value in the Filters1 variable. The value of any filter that is set is displayed in a message box. The [SETFILTER Function \(FieldRef\)](../dynamics-nav/SETFILTER-Function--FieldRef-.md) sets the filter that selects records from 10000 to 40000 in the No. field. The GETFILTER function retrieves and stores the filter in the Filter2 variable and displays it in a message. The value in the Filter1 variable is blank because no filter is set. The value in Filter2 is 10000..40000 because of the filter that is set by the [SETFILTER Function \(FieldRef\)](../dynamics-nav/SETFILTER-Function--FieldRef-.md). This example requires that you create the following variables and text constants in the **C\/AL Globals** windows.  
+ The following example opens the Customer table as a RecordRef variable that is named CustomerRecref. The [FIELD Function \(RecordRef\)](FIELD-Function--RecordRef-.md) creates a FieldRef for the first field \(No.\) and stores the reference in the MyFieldRef variable. The GETFILTER function retrieves the filters that are set on the No. field and stores the value in the Filters1 variable. The value of any filter that is set is displayed in a message box. The [SETFILTER Function \(FieldRef\)](SETFILTER-Function--FieldRef-.md) sets the filter that selects records from 10000 to 40000 in the No. field. The GETFILTER function retrieves and stores the filter in the Filter2 variable and displays it in a message. The value in the Filter1 variable is blank because no filter is set. The value in Filter2 is 10000..40000 because of the filter that is set by the [SETFILTER Function \(FieldRef\)](SETFILTER-Function--FieldRef-.md). This example requires that you create the following variables and text constants in the **C\/AL Globals** windows.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -63,4 +63,4 @@ MESSAGE(Text001, Filters2);
 ```  
   
 ## See Also  
- [FieldRef Data Type](../dynamics-nav/FieldRef-Data-Type.md)
+ [FieldRef Data Type](FieldRef-Data-Type.md)

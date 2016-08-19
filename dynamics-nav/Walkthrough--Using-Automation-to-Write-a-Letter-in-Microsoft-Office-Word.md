@@ -11,15 +11,15 @@ caps.latest.revision: 30
 manager: terryaus
 ---
 # Walkthrough: Using Automation to Write a Letter in Microsoft Office Word
-Automation lets you use the capabilities and features of Microsoft Office products, such as Microsoft Word or Microsoft Excel, in your [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] application. In this walkthrough, you will implement Word Automation from a customer card in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. You will set up the customer card so that if the customer has bought goods for more than LCY 2,500 during the past year, then the user can choose a menu item or action to automatically create a letter in Word that offers the customer 3% discount. The letter will include information about the customer, such as the customer's name and the address, and the name of the contact to whom you will address the letter.  
+Automation lets you use the capabilities and features of Microsoft Office products, such as Microsoft Word or Microsoft Excel, in your [!INCLUDE[navnow](includes/navnow_md.md)] application. In this walkthrough, you will implement Word Automation from a customer card in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. You will set up the customer card so that if the customer has bought goods for more than LCY 2,500 during the past year, then the user can choose a menu item or action to automatically create a letter in Word that offers the customer 3% discount. The letter will include information about the customer, such as the customer's name and the address, and the name of the contact to whom you will address the letter.  
   
 > [!NOTE]  
->  The [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] does not support automation.  
+>  The [!INCLUDE[nav_web](includes/nav_web_md.md)] does not support automation.  
   
 ## About This Walkthrough  
  This walkthrough illustrates the following tasks:  
   
--   Creating a template in Word that will be used for Word documents that are created from the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] with Automation.  
+-   Creating a template in Word that will be used for Word documents that are created from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] with Automation.  
   
 -   Creating a codeunit and declaring the Automation variables that are required for using Microsoft Office Word Automation.  
   
@@ -32,9 +32,9 @@ Automation lets you use the capabilities and features of Microsoft Office produc
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] with a developer license.  
   
--   The [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+-   The [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 -   Microsoft Word 2013 or Microsoft Word 2010.  
   
@@ -64,13 +64,13 @@ Automation lets you use the capabilities and features of Microsoft Office produc
  In addition, while you can name the **Customer** or **Address** fields, you must reference them by indexing into the Fields collection of the document. This can make the C\/AL code harder to understand.  
   
 ##  <a name="CreateTemplate"></a> Creating the Word Template for Use by Automation  
- First, you create a Word template that you will use to create letters to customers that qualify for a discount. To create the template, you add mail merge fields for displaying data that is extracted from [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] that you want included in the customer letter, such as the customer's name, contact, and total sales.  
+ First, you create a Word template that you will use to create letters to customers that qualify for a discount. To create the template, you add mail merge fields for displaying data that is extracted from [!INCLUDE[navnow](includes/navnow_md.md)] that you want included in the customer letter, such as the customer's name, contact, and total sales.  
   
- You will create and save the template on the computer running the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], because you will configure the automation object to run on the client.  
+ You will create and save the template on the computer running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], because you will configure the automation object to run on the client.  
   
 #### To create the template  
   
-1.  On the computer running [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], open Word and create a new document.  
+1.  On the computer running [!INCLUDE[nav_windows](includes/nav_windows_md.md)], open Word and create a new document.  
   
 2.  Choose where you want to insert the fields. Then, on the **Insert** tab, in the **Text** group, choose **Quick Parts**, and then choose **Field**.  
   
@@ -164,9 +164,9 @@ Automation lets you use the capabilities and features of Microsoft Office produc
   
     -   The first Boolean parameter in the statement \(`FALSE`\) tells the `CREATE` function to try to reuse an already running instance of the Automation server that is referenced by Automation before creating a new instance. If you change this to `TRUE`, then the `CREATE` function always creates a new instance of the Automation server.  
   
-    -   The second Boolean parameter in the statement creates the Automation object on the client. This is necessary to use this codeunit on a page in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+    -   The second Boolean parameter in the statement creates the Automation object on the client. This is necessary to use this codeunit on a page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
-     For more information, see [CREATE Function \(Automation\)](../dynamics-nav/CREATE-Function--Automation-.md).  
+     For more information, see [CREATE Function \(Automation\)](CREATE-Function--Automation-.md).  
   
 3.  Enter the following lines of code to add a new document to Word that uses the template that you designed earlier. If required, replace `C:\Documents and Settings\All Users\Templates` with the correct folder path to the template that you defined in the procedure [Creating the Word Template for Use by Automation](#CreateTemplate).  
   
@@ -229,7 +229,7 @@ Automation lets you use the capabilities and features of Microsoft Office produc
     wdRange.Bold := 0;  
     ```  
   
-     For more information about the `FORMAT` function, see [FORMAT Function \(Code, Text\)](../dynamics-nav/FORMAT-Function--Code--Text-.md).  
+     For more information about the `FORMAT` function, see [FORMAT Function \(Code, Text\)](FORMAT-Function--Code--Text-.md).  
   
 3.  To transfer the information from the **Company Information** table, add the following code.  
   
@@ -259,9 +259,9 @@ Automation lets you use the capabilities and features of Microsoft Office produc
 -   The user should get a message if the customer does not qualify for the discount. In the example, the codeunit closes without any message.  
   
 ## Calling the Codeunit from the Customer Card  
- The final task is to ensure that you can call the codeunit from the **Customer Card** page in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+ The final task is to ensure that you can call the codeunit from the **Customer Card** page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
-#### To call the codeunit from the Customer card page in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]  
+#### To call the codeunit from the Customer card page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]  
   
 1.  Open Object Designer, and then choose **Page**.  
   
@@ -303,5 +303,5 @@ Automation lets you use the capabilities and features of Microsoft Office produc
   
 ## See Also  
  [How to: Create an Automation Controller](../Topic/How%20to:%20Create%20an%20Automation%20Controller.md)   
- [Using COM Technologies in Microsoft Dynamics NAV](../dynamics-nav/Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md)   
- [COM Overview](../dynamics-nav/COM-Overview.md)
+ [Using COM Technologies in Microsoft Dynamics NAV](Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md)   
+ [COM Overview](COM-Overview.md)

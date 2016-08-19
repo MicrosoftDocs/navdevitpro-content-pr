@@ -48,4 +48,4 @@ CurrPage.SETSELECTIONFILTER(Record)
 -   Marks the selected records and sets the "marked only" filter  
   
 ## See Also  
- [Page Data Type](../dynamics-nav/Page-Data-Type.md)
+ [Page Data Type](Page-Data-Type.md)

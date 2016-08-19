@@ -25,4 +25,4 @@ Sets the value that indicates whether a report produces printed output or only p
  If **ProcessingOnly** is **Yes**, then the **Print** and **Preview** options on the request page are replaced by an **OK** button.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

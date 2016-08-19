@@ -11,13 +11,13 @@ caps.latest.revision: 5
 manager: terryaus
 ---
 # How to: Change the Microsoft Dynamics NAV Server Instance
-In some cases, you may want to change the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance that is being used. For example:  
+In some cases, you may want to change the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that is being used. For example:  
   
--   When you select an object in Object Designer and then choose the **Run** button, you may want the selected object to run on a different [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance that the one that is currently specified.  
+-   When you select an object in Object Designer and then choose the **Run** button, you may want the selected object to run on a different [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that the one that is currently specified.  
   
--   You may want to debug a session that is connected to a different [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] than the one that is currently specified.  
+-   You may want to debug a session that is connected to a different [!INCLUDE[nav_server](includes/nav_server_md.md)] than the one that is currently specified.  
   
-### To change the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance by selecting from a list  
+### To change the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance by selecting from a list  
   
 1.  In the development environment, on the **File** menu, choose **Database**, and then choose **Information**.  
   
@@ -29,18 +29,18 @@ In some cases, you may want to change the [!INCLUDE[nav_server](../dynamics-nav/
 3.  Select a server instance, and then choose the **OK** button.  
   
     > [!NOTE]  
-    >  The instance that you select is also displayed in the [\($ S\_2355 Options $\)](../dynamics-nav/-$-S_2355-Options-$-.md) window.  
+    >  The instance that you select is also displayed in the [\($ S\_2355 Options $\)](-$-S_2355-Options-$-.md) window.  
   
-### To change the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance by specifying the field in the Database Options window  
+### To change the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance by specifying the field in the Database Options window  
   
 1.  In the development environment, on the **Tools** menu, choose **Options**.  
   
-2.  In the **Options** window, in the **Server Instance** field, enter the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance. The format is \<*servername*\>:\<*port*\>\/\<*ServerInstance*\>.  
+2.  In the **Options** window, in the **Server Instance** field, enter the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The format is \<*servername*\>:\<*port*\>\/\<*ServerInstance*\>.  
   
     > [!NOTE]  
-    >  The value that you set is also displayed in the [\($ S\_2349 Database Information $\)](../dynamics-nav/-$-S_2349-Database-Information-$-.md) window.  
+    >  The value that you set is also displayed in the [\($ S\_2349 Database Information $\)](-$-S_2349-Database-Information-$-.md) window.  
   
 ## See Also  
- [Running Objects from the Development Environment](../dynamics-nav/Running-Objects-from-the-Development-Environment.md)   
- [Debugging](../dynamics-nav/Debugging.md)   
- [Managing Microsoft Dynamics NAV Server Instances](../dynamics-nav/Managing-Microsoft-Dynamics-NAV-Server-Instances.md)
+ [Running Objects from the Development Environment](Running-Objects-from-the-Development-Environment.md)   
+ [Debugging](Debugging.md)   
+ [Managing Microsoft Dynamics NAV Server Instances](Managing-Microsoft-Dynamics-NAV-Server-Instances.md)

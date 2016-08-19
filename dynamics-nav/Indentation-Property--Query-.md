@@ -27,5 +27,5 @@ Sets the indentation level of a data item, column, or filter row in a query in Q
   
 ## See Also  
  [How to: Set Up Filter Rows in Query Designer](../Topic/How%20to:%20Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md)   
- [Understanding Query Filters](../dynamics-nav/Understanding-Query-Filters.md)   
- [Queries](../dynamics-nav/Queries.md)
+ [Understanding Query Filters](Understanding-Query-Filters.md)   
+ [Queries](Queries.md)

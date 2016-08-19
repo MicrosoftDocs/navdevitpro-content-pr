@@ -11,13 +11,13 @@ caps.latest.revision: 18
 manager: edupont
 ---
 # How to: Create a Report Dataset
-A dataset determines the data that displays on a generated report. You build the report dataset from data items and columns, where a data item is a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] table and a column can be a field in the table, a variable, an expression, or a text constant.  
+A dataset determines the data that displays on a generated report. You build the report dataset from data items and columns, where a data item is a [!INCLUDE[navnow](includes/navnow_md.md)] table and a column can be a field in the table, a variable, an expression, or a text constant.  
   
  After you create the dataset, you can design the report layout.  
   
 ### To create a blank report and add items to the dataset  
   
-1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **Report**, and then choose **New**.  
   
@@ -63,4 +63,4 @@ A dataset determines the data that displays on a generated report. You build the
 14. In the **Save As** dialog box, in the **ID** field, enter an ID for the report object. The ID must be in a valid range for your solution. In the **Name** field, enter a name for the report. Select the **Compiled** check box, and then choose **OK**.  
   
 ## See Also  
- [Designing Reports](../dynamics-nav/Designing-Reports.md)
+ [Designing Reports](Designing-Reports.md)

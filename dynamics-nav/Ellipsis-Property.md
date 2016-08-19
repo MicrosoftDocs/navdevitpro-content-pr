@@ -25,4 +25,4 @@ Sets a value that specifies whether an ellipsis \(...\) is appended to the capti
  **Yes** if the ellipsis is appended; otherwise, **No**. The default value is **No**.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

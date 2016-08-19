@@ -13,12 +13,12 @@ manager: pchapman
 # Numeric Functions
 This section contains the following topics:  
   
--   [ABS Function \(Decimal, Integer, BigInteger\)](../dynamics-nav/ABS-Function--Decimal--Integer--BigInteger-.md)  
+-   [ABS Function \(Decimal, Integer, BigInteger\)](ABS-Function--Decimal--Integer--BigInteger-.md)  
   
--   [POWER Function \(Decimal, Integer, BigInteger\)](../dynamics-nav/POWER-Function--Decimal--Integer--BigInteger-.md)  
+-   [POWER Function \(Decimal, Integer, BigInteger\)](POWER-Function--Decimal--Integer--BigInteger-.md)  
   
--   [RANDOM Function \(Integer\)](../dynamics-nav/RANDOM-Function--Integer-.md)  
+-   [RANDOM Function \(Integer\)](RANDOM-Function--Integer-.md)  
   
--   [RANDOMIZE Function \(Integer\)](../dynamics-nav/RANDOMIZE-Function--Integer-.md)  
+-   [RANDOMIZE Function \(Integer\)](RANDOMIZE-Function--Integer-.md)  
   
--   [ROUND Function \(Decimal\)](../dynamics-nav/ROUND-Function--Decimal-.md)
+-   [ROUND Function \(Decimal\)](ROUND-Function--Decimal-.md)

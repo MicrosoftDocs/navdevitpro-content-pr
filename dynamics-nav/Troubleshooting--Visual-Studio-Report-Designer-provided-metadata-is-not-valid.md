@@ -21,7 +21,7 @@ You cannot open Visual Studio Report Designer and get the following error:
   
 -   The executable file that runs the Visual Studio development environment \(devenv.exe\) is set to run as an administrator.  
   
--   The executable file that runs the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)] \(finsql.exe\) is not set to run as an administrator.  
+-   The executable file that runs the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] \(finsql.exe\) is not set to run as an administrator.  
   
  To resolve this issue, set both finsql.exe and devenv.exe to run as an administrator.  
   

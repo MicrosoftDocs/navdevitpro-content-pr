@@ -11,7 +11,7 @@ caps.latest.revision: 8
 manager: pchapman
 ---
 # CLOSE Function (Dialog)
-Closes a dialog window that has been opened by [OPEN Function \(Dialog\)](../dynamics-nav/OPEN-Function--Dialog-.md).  
+Closes a dialog window that has been opened by [OPEN Function \(Dialog\)](OPEN-Function--Dialog-.md).  
   
 ## Syntax  
   
@@ -32,4 +32,4 @@ Dialog.CLOSE
  The dialog windows of an object are automatically closed when the object terminates.  
   
 ## See Also  
- [Dialog Data Type](../dynamics-nav/Dialog-Data-Type.md)
+ [Dialog Data Type](Dialog-Data-Type.md)

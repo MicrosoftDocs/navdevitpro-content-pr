@@ -21,5 +21,5 @@ Sets a value that indicates whether the promoted action is displayed on the ribb
  Available options are Yes\/No \(Boolean\).  
   
 ## See Also  
- [Promoted Property](../dynamics-nav/Promoted-Property.md)   
+ [Promoted Property](Promoted-Property.md)   
  [How to: Promote Actions on Pages](../Topic/How%20to:%20Promote%20Actions%20on%20Pages.md)

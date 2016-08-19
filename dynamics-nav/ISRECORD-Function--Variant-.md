@@ -29,7 +29,7 @@ Ok := Variant.ISRECORD
  **true** if the C\/AL variant contains a Record variable; otherwise, **false**.  
   
 ## Example  
- The following example determines whether a C\/AL variant contains a record variable. The GET function gets customer number 10000 from the **Customer** table. The record is stored in the MyRecord variable. The MyRecord variable is assigned to the variant variable that is named MyVariant. The **ISRECORD** function determines whether the variant contains a Record variable and stores the return value in the varResult variable. In this case, the variant contains a Record variable so **Yes** is returned and displayed in a message box. The [ISCODE Function \(Variant\)](../dynamics-nav/ISCODE-Function--Variant-.md)determines whether the variant contains a code variable. The return value is **No** because the variant does not contain a code. This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ The following example determines whether a C\/AL variant contains a record variable. The GET function gets customer number 10000 from the **Customer** table. The record is stored in the MyRecord variable. The MyRecord variable is assigned to the variant variable that is named MyVariant. The **ISRECORD** function determines whether the variant contains a Record variable and stores the return value in the varResult variable. In this case, the variant contains a Record variable so **Yes** is returned and displayed in a message box. The [ISCODE Function \(Variant\)](ISCODE-Function--Variant-.md)determines whether the variant contains a code variable. The return value is **No** because the variant does not contain a code. This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
@@ -52,4 +52,4 @@ MESSAGE(Text001,MyVariant,varResult);
 ```  
   
 ## See Also  
- [Variant Data Type](../dynamics-nav/Variant-Data-Type.md)
+ [Variant Data Type](Variant-Data-Type.md)

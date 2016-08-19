@@ -11,7 +11,7 @@ caps.latest.revision: 6
 manager: terryaus
 ---
 # ($ S_2342 Available Databases $)
-Shows a list of the SQL Server databases that you can access from [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] and that are currently available on this SQL Server instance. This window displays the following information:  
+Shows a list of the SQL Server databases that you can access from [!INCLUDE[navnow](includes/navnow_md.md)] and that are currently available on this SQL Server instance. This window displays the following information:  
   
 -   Name of the database.  
   
@@ -23,9 +23,9 @@ Shows a list of the SQL Server databases that you can access from [!INCLUDE[navn
   
 -   The type of replication that is being used.  
   
- [!INCLUDE[bp_windownoneditable](../dynamics-nav/includes/bp_windownoneditable_md.md)]  
+ [!INCLUDE[bp_windownoneditable](includes/bp_windownoneditable_md.md)]  
   
- To open this window, open the **Open Database** window, and then on the **General** tab, choose the **Up Arrow** button in the **Database Name** field. For information about how to open the **Open Database** window, see [\($ S\_2335 Open Database $\)](../dynamics-nav/-$-S_2335-Open-Database-$-.md).  
+ To open this window, open the **Open Database** window, and then on the **General** tab, choose the **Up Arrow** button in the **Database Name** field. For information about how to open the **Open Database** window, see [\($ S\_2335 Open Database $\)](-$-S_2335-Open-Database-$-.md).  
   
 > [!NOTE]  
 >  You must select a SQL Server instance before you can select a database.  

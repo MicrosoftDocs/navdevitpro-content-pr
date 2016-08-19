@@ -21,7 +21,7 @@ Specifies which paper source to use when printing the last page of the report.
   
  If the printer that is used for this report does not support the specified paper source, then the printer uses the default tray that is specified by the printer driver.  
   
- If you do not specify a value for the **PaperSourceLastPage** property, then the printer uses the tray that is specified in the [PaperSourceDefaultPage Property](../dynamics-nav/PaperSourceDefaultPage-Property.md).  
+ If you do not specify a value for the **PaperSourceLastPage** property, then the printer uses the tray that is specified in the [PaperSourceDefaultPage Property](PaperSourceDefaultPage-Property.md).  
   
  If you do not specify a value for either the **PapersourceLastPage** property or the PaperSourceDefaultPage property, then the printer uses the default printer tray that is defined for the operating system.  
   
@@ -32,6 +32,6 @@ Specifies which paper source to use when printing the last page of the report.
  You can use the **GetPaperTrayForReport** function in codeunit 1, **Application Management**, to set the paper tray from C\/AL code. This gives you runtime control over paper tray selection for first, last, and default pages in a report.  
   
 ## See Also  
- [PaperSourceDefaultPage Property](../dynamics-nav/PaperSourceDefaultPage-Property.md)   
- [PaperSourceFirstPage Property](../dynamics-nav/PaperSourceFirstPage-Property.md)   
+ [PaperSourceDefaultPage Property](PaperSourceDefaultPage-Property.md)   
+ [PaperSourceFirstPage Property](PaperSourceFirstPage-Property.md)   
  [How to: Add GetPaperTrayForReport Procedure in Codeunit 1](../Topic/How%20to:%20Add%20GetPaperTrayForReport%20Procedure%20in%20Codeunit%201.md)

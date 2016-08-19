@@ -27,5 +27,5 @@ Specifies the image to display on a Cue.
   
 ## See Also  
  [How to: Set Up an Image on a Cue](../Topic/How%20to:%20Set%20Up%20an%20Image%20on%20a%20Cue.md)   
- [Properties](../dynamics-nav/Properties.md)   
+ [Properties](Properties.md)   
  [Walkthrough: Creating a Cue Based on a FlowField](../Topic/Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20FlowField.md)

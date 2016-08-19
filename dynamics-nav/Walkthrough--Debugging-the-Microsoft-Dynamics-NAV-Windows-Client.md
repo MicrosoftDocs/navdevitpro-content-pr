@@ -11,14 +11,14 @@ caps.latest.revision: 23
 manager: terryaus
 ---
 # Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client
-This walkthrough demonstrates debugging an action in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] with the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Debugger. The purpose of this walkthrough is to familiarize you with what you can do with the debugger. It does not describe how to debug and fix a specific error.  
+This walkthrough demonstrates debugging an action in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] with the [!INCLUDE[navnow](includes/navnow_md.md)] Debugger. The purpose of this walkthrough is to familiarize you with what you can do with the debugger. It does not describe how to debug and fix a specific error.  
   
 ## About This Walkthrough  
  This walkthrough illustrates the following tasks:  
   
 -   Setting a breakpoint on codeunit 80, Sales\-Post, in the development environment.  
   
--   Activating the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Debugger.  
+-   Activating the [!INCLUDE[navnow](includes/navnow_md.md)] Debugger.  
   
 -   Posting a sales order so that the debugger breaks in codeunit 80, Sales\-Post.  
   
@@ -37,23 +37,23 @@ This walkthrough demonstrates debugging an action in the [!INCLUDE[nav_windows](
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] with a developer license.  
   
--   [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+-   [!INCLUDE[demolong](includes/demolong_md.md)].  
   
--   To verify that no other users are connected to the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance. If other users are connected, then you might debug a session other than the one you want.  
+-   To verify that no other users are connected to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. If other users are connected, then you might debug a session other than the one you want.  
   
--   To verify that the user account that you use meets the requirements for setting breakpoints. For more information, see [Development Environment \(C\-SIDE\)](../dynamics-nav/Development-Environment--C-SIDE-.md).  
+-   To verify that the user account that you use meets the requirements for setting breakpoints. For more information, see [Development Environment \(C\-SIDE\)](Development-Environment--C-SIDE-.md).  
   
 ## Story  
- Isaac is a business application developer working for CRONUS International Ltd. He has determined that there is an error in his code that posts sales orders. He wants to debug the scenario of posting a sales order. Isaac is not familiar with the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Debugger and wants to try all the functionality that the debugger offers.  
+ Isaac is a business application developer working for CRONUS International Ltd. He has determined that there is an error in his code that posts sales orders. He wants to debug the scenario of posting a sales order. Isaac is not familiar with the [!INCLUDE[navnow](includes/navnow_md.md)] Debugger and wants to try all the functionality that the debugger offers.  
   
 ## Debugging the Post Action on a Sales Order  
  Isaac starts by setting a breakpoint at the first line of code in the Sales\-Post codeunit. Next, he activates the debugger, runs the code so that it breaks at his breakpoint, and then steps through lines of code in this codeunit and other codeunits and examines variables to try to find the error.  
   
 #### To set a breakpoint in the development environment  
   
-1.  Open the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)]. In Object Designer, choose **Codeunit**.  
+1.  Open the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. In Object Designer, choose **Codeunit**.  
   
 2.  Select codeunit 80, Sales\-Post, and then choose **Design**.  
   
@@ -61,7 +61,7 @@ This walkthrough demonstrates debugging an action in the [!INCLUDE[nav_windows](
   
 4.  On the **Tools** menu, choose **Debugger**, and then choose **Toggle Breakpoint** to add a breakpoint to the selected line of code.  
   
-     ![C&#47;AL Editor with a breakpoint set](../dynamics-nav/media/Debugger_CSIDEBreakpoint.png "Debugger\_CSIDEBreakpoint")  
+     ![C&#47;AL Editor with a breakpoint set](media/Debugger_CSIDEBreakpoint.png "Debugger\_CSIDEBreakpoint")  
   
 #### To activate the debugger  
   
@@ -75,9 +75,9 @@ This walkthrough demonstrates debugging an action in the [!INCLUDE[nav_windows](
   
 #### To post a sales order and break in codeunit 80  
   
-1.  Open a new [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] session.  
+1.  Open a new [!INCLUDE[nav_windows](includes/nav_windows_md.md)] session.  
   
-2.  In the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], in the **Search** field, enter **Sales Orders**, and choose the related link.  
+2.  In the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], in the **Search** field, enter **Sales Orders**, and choose the related link.  
   
 3.  In the **Sales Orders** list, select any sales order for which you want to debug the Post action, such as sales order 101016, and then, on the **Actions** tab, in the **Posting** group, choose **Post**.  
   
@@ -91,15 +91,15 @@ This walkthrough demonstrates debugging an action in the [!INCLUDE[nav_windows](
   
     -   In the code viewer, the current line is identified by a yellow arrow in the margin. Breakpoints are identified by a red dot in the margin.  
   
-         ![Code Part on Debugger page](../dynamics-nav/media/Debugger_Code.png "Debugger\_Code")  
+         ![Code Part on Debugger page](media/Debugger_Code.png "Debugger\_Code")  
   
     -   In the code viewer, you can point to a variable, field, or text constant to inspect the value.  
   
-         ![Code viewer, inspect PostingDateExists variable](../dynamics-nav/media/Debugger_InspectVariable.png "Debugger\_InspectVariable")  
+         ![Code viewer, inspect PostingDateExists variable](media/Debugger_InspectVariable.png "Debugger\_InspectVariable")  
   
     -   In the **Call Stack** FactBox, you can view the function calls that led to the current line of code, starting with the Post action on page 9305.  
   
-         ![Call Stack Part on Debugger page](../dynamics-nav/media/Debugger_CallStack.png "Debugger\_CallStack")  
+         ![Call Stack Part on Debugger page](media/Debugger_CallStack.png "Debugger\_CallStack")  
   
 2.  On the **Home** tab, choose **Variables**.  
   
@@ -109,7 +109,7 @@ This walkthrough demonstrates debugging an action in the [!INCLUDE[nav_windows](
   
      The *Posting Date* variable is added to the **Watches** FactBox on the **View \- Debugger** window. This is especially useful if there is a long list of variables in the **Debugger Variables List** window or if you want to view the value of a field in a record variable while you step through the code. Additionally, if you want to watch how the value of a variable changes, such as if you are in a loop, then it is useful to add the variable to the **Watches** FactBox.  
   
-     ![Watches Part on Debugger page](../dynamics-nav/media/Debugger_Watches.png "Debugger\_Watches")  
+     ![Watches Part on Debugger page](media/Debugger_Watches.png "Debugger\_Watches")  
   
     > [!NOTE]  
     >  When adding watches from the **Debugger Variables List** window, the watches do not appear in the **Watches** FactBox on the **View \- Debugger** window until you choose the **Close** button.  
@@ -168,4 +168,4 @@ This walkthrough demonstrates debugging an action in the [!INCLUDE[nav_windows](
  Isaac can also keep the breakpoints and watches in his breakpoint list so that he can use them in a future debugging session.  
   
 ## See Also  
- [Debugging](../dynamics-nav/Debugging.md)
+ [Debugging](Debugging.md)

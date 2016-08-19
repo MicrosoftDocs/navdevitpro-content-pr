@@ -17,19 +17,19 @@ In reports, triggers are typically used to perform calculations and verification
   
 |Trigger|Executed|  
 |-------------|--------------|  
-|[OnInitReport Trigger](../dynamics-nav/OnInitReport-Trigger.md)|When the report is loaded.|  
-|[OnPreReport Trigger](../dynamics-nav/OnPreReport-Trigger.md)|Before the report is run, but after the **RequestPage** has been run.|  
-|[OnPostReport Trigger](../dynamics-nav/OnPostReport-Trigger.md)|After the report has run, but not if the report was stopped manually or by the [QUIT Function \(Report, XMLport\)](../dynamics-nav/QUIT-Function--Report--XMLport-.md).|  
+|[OnInitReport Trigger](OnInitReport-Trigger.md)|When the report is loaded.|  
+|[OnPreReport Trigger](OnPreReport-Trigger.md)|Before the report is run, but after the **RequestPage** has been run.|  
+|[OnPostReport Trigger](OnPostReport-Trigger.md)|After the report has run, but not if the report was stopped manually or by the [QUIT Function \(Report, XMLport\)](QUIT-Function--Report--XMLport-.md).|  
   
 ## Data Item Triggers  
  The following table lists triggers that apply to each data item on the report.  
   
 |Trigger|Executed|  
 |-------------|--------------|  
-|[OnPreDataItem Trigger](../dynamics-nav/OnPreDataItem-Trigger.md)|Before the data item is processed, but after the associated variable has been initialized.|  
-|[OnAfterGetRecord \(Data Items\) Trigger](../dynamics-nav/OnAfterGetRecord--Data-Items--Trigger.md)|When a record has been retrieved from the table.|  
-|[OnPostDataItem Trigger](../dynamics-nav/OnPostDataItem-Trigger.md)|When the data item has been iterated for the last time.|  
+|[OnPreDataItem Trigger](OnPreDataItem-Trigger.md)|Before the data item is processed, but after the associated variable has been initialized.|  
+|[OnAfterGetRecord \(Data Items\) Trigger](OnAfterGetRecord--Data-Items--Trigger.md)|When a record has been retrieved from the table.|  
+|[OnPostDataItem Trigger](OnPostDataItem-Trigger.md)|When the data item has been iterated for the last time.|  
   
 ## See Also  
- [Report Triggers](../dynamics-nav/Report-Triggers.md)   
- [Triggers](../dynamics-nav/Triggers.md)
+ [Report Triggers](Report-Triggers.md)   
+ [Triggers](Triggers.md)

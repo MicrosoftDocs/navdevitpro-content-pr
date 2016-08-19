@@ -11,7 +11,7 @@ caps.latest.revision: 4
 manager: terryaus
 ---
 # DefaultNamespace Property
-Specifies the default namespace for both the [IMPORT Function \(XMLport\)](../dynamics-nav/IMPORT-Function--XMLport-.md) and [EXPORT Function \(XMLport\)](../dynamics-nav/EXPORT-Function--XMLport-.md) functions.  
+Specifies the default namespace for both the [IMPORT Function \(XMLport\)](IMPORT-Function--XMLport-.md) and [EXPORT Function \(XMLport\)](EXPORT-Function--XMLport-.md) functions.  
   
 ## Applies To  
   
@@ -21,4 +21,4 @@ Specifies the default namespace for both the [IMPORT Function \(XMLport\)](../dy
  This property specifies the default namespace for both import and export. The default value is unique for different XMLports. For example, the following string specifies a namespace: urn:microsoft\-dynamics\-nav\/xmlports\/x100, where 100 is the ID of the XMLport.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

@@ -15,11 +15,11 @@ You can modify date values in Report Dataset Designer to specify how they are fo
   
 ### To format date values  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In **Object Designer**, choose **Report**, select a report that you want to modify, and then choose **Design**.  
   
-3.  In Report Dataset Designer, in the **Data Source** field of a Column that contains a date, use the [FORMAT Function \(Code, Text\)](../dynamics-nav/FORMAT-Function--Code--Text-.md) with the date. For example, instead of entering **TODAY** in the **Data Source** field, enter **FORMAT\(TODAY,0,4\)**.  
+3.  In Report Dataset Designer, in the **Data Source** field of a Column that contains a date, use the [FORMAT Function \(Code, Text\)](FORMAT-Function--Code--Text-.md) with the date. For example, instead of entering **TODAY** in the **Data Source** field, enter **FORMAT\(TODAY,0,4\)**.  
   
      Use the parameters of the **FORMAT** function to specify the length and the exact format that you want for the date.  
   
@@ -28,4 +28,4 @@ You can modify date values in Report Dataset Designer to specify how they are fo
 5.  In the **Save** window, select the **Compiled** check box, and then choose the **OK** button.  
   
 ## See Also  
- [Designing Reports](../dynamics-nav/Designing-Reports.md)
+ [Designing Reports](Designing-Reports.md)

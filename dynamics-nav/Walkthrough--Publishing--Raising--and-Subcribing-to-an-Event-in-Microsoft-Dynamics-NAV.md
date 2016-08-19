@@ -27,22 +27,22 @@ This walkthrough uses a simple example scenario to demonstrate how to program ev
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] with a developer license.  
   
--   [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+-   [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 ## Story  
  When users change the address of a customer, you want to check that the address does not include invalid characters, which in this walkthrough is a plus sign \(\+\). To accomplish this, you will publish an event that is raised when the **Address** field on page **21 Customer Card** is changed. To handle the event when it is raised, you will add an event subscriber function that includes logic that checks the address value and returns a message to the user if it contains a plus sign.  
   
 > [!NOTE]  
->  Most of the tasks are performed from the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)].  
+>  Most of the tasks are performed from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
   
 ## Publishing the Event  
  To publish an event, you create a C\/AL function that is set up to be an event publisher. An event publisher function can be added in any object, such as a codeunit, page, or table. This procedure will add the event publisher function to a new codeunit, in which you can potentially add more event publisher functions for other events later. Because you might want to change this event implementation in the future, you decide to create an integration event type. The event publisher requires a single text parameter for handling the address of the customer.  
   
 ###  <a name="CreateCU"></a> To create a new codeunit  
   
-1.  Open the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], and then connect to the [!INCLUDE[demoname](../dynamics-nav/includes/demoname_md.md)] company.  
+1.  Open the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], and then connect to the [!INCLUDE[demoname](includes/demoname_md.md)] company.  
   
      For more information, see [How to: Open Databases](../Topic/How%20to:%20Open%20Databases.md).  
   
@@ -70,15 +70,15 @@ This walkthrough uses a simple example scenario to demonstrate how to program ev
   
     1.  Set the **Local** property to **No**.  
   
-         Setting this property makes the function available to be called from the other objects. For more information about this property, see [Local Property](../dynamics-nav/Local-Property.md).  
+         Setting this property makes the function available to be called from the other objects. For more information about this property, see [Local Property](Local-Property.md).  
   
     2.  Set the **Event** property to **Publisher**. This makes the function an event publisher.  
   
-         For more information, see [Event Property](../dynamics-nav/Event-Property.md).  
+         For more information, see [Event Property](Event-Property.md).  
   
     3.  Set the **EventType** property to **Integration**.  
   
-         For more information, see [EventType Property](../dynamics-nav/EventType-Property.md).  
+         For more information, see [EventType Property](EventType-Property.md).  
   
     4.  Close the **Properties** window.  
   
@@ -112,7 +112,7 @@ This walkthrough uses a simple example scenario to demonstrate how to program ev
   
 #### To raise the event  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], open page **21 Customer Card** as follows:  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], open page **21 Customer Card** as follows:  
   
     1.  On the **Tools** menu, choose **Object Designer**, and then choose **Page**.  
   
@@ -149,7 +149,7 @@ This walkthrough uses a simple example scenario to demonstrate how to program ev
   
 #### To create a new codeunit  
   
--   In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], create a new codeunit that has the ID **50001** and the name **My Subscribers**.  
+-   In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], create a new codeunit that has the ID **50001** and the name **My Subscribers**.  
   
      For more information, see [To create a new codeunit](../Topic/Walkthrough:%20Publishing,%20Raising,%20and%20Subcribing%20to%20an%20Event%20in%20Microsoft%20Dynamics%20NAV.md#CreateCU).  
   
@@ -201,22 +201,22 @@ This walkthrough uses a simple example scenario to demonstrate how to program ev
      This code checks the value of the **Address** field on page **21 Customer Card** when is has been changed and returns a message if the value contains a plus sign.  
   
 ## Viewing the New Event Subscription  
- After you create an event subscriber, you can view information about it in page **9510 Event Subscriptions**. This page provides information about all the current event subscriptions in the application. You can open this page directly from the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)] or from a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] client.  
+ After you create an event subscriber, you can view information about it in page **9510 Event Subscriptions**. This page provides information about all the current event subscriptions in the application. You can open this page directly from the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or from a [!INCLUDE[navnow](includes/navnow_md.md)] client.  
   
-#### To view the event subscription from the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)]  
+#### To view the event subscription from the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]  
   
 -   On the **Tools** menu, choose **Debugger**, and then choose **Event Subscriptions**.  
   
-#### To view the event subscription from a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] client  
+#### To view the event subscription from a [!INCLUDE[navnow](includes/navnow_md.md)] client  
   
-1.  Start the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] client.  
+1.  Start the [!INCLUDE[navnow](includes/navnow_md.md)] client.  
   
 2.  In the **Search** box, enter **Sessions**, and then choose the related link.  
   
 3.  On the **Home** tab, in the **Events** group, choose **Subscriptions**.  
   
 ## Testing the Event  
- To test the event implementation, you can run page **21 Customer Card** from the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)].  
+ To test the event implementation, you can run page **21 Customer Card** from the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].  
   
 #### To test the event  
   
@@ -224,7 +224,7 @@ This walkthrough uses a simple example scenario to demonstrate how to program ev
   
 2.  Select page **21 Customer Card**, and then choose the **Run** button.  
   
-     A customer card opens in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+     A customer card opens in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
 3.  On the **Home** tab, in the **Manage** group, choose **Edit**.  
   
@@ -237,9 +237,9 @@ This walkthrough uses a simple example scenario to demonstrate how to program ev
      \[\] contains the value of the **Address** field.  
   
 ## See Also  
- [Events in Microsoft Dynamics NAV](../dynamics-nav/Events-in-Microsoft-Dynamics-NAV.md)   
- [Introducing Events](../dynamics-nav/Introducing-Events.md)   
- [Publishing Events](../dynamics-nav/Publishing-Events.md)   
- [Raising Events](../dynamics-nav/Raising-Events.md)   
- [Subscribing to Events](../dynamics-nav/Subscribing-to-Events.md)   
- [Debugging Events](../dynamics-nav/Debugging-Events.md)
+ [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)   
+ [Introducing Events](Introducing-Events.md)   
+ [Publishing Events](Publishing-Events.md)   
+ [Raising Events](Raising-Events.md)   
+ [Subscribing to Events](Subscribing-to-Events.md)   
+ [Debugging Events](Debugging-Events.md)

@@ -15,11 +15,11 @@ In order to work in the application, you must always open a database and a compa
   
 ### To open a database  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **Open**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **Open**.  
   
 2.  In the **Server Name** field, enter the name of the SQL Server instance. You can choose the up arrow to select the server from a list of available Microsoft SQL Servers, or you can enter the server name manually.  
   
-     To connect to a database on Azure SQL Database, specify the name in the format *SQLDatabaseServerName.database.windows.net*, where *SQLDatabaseServerName* is the name of Azure SQL Database server. You can only connect to a database on Azure SQL Database if the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)] is installed on a the same virtual machine in Azure as the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)].  
+     To connect to a database on Azure SQL Database, specify the name in the format *SQLDatabaseServerName.database.windows.net*, where *SQLDatabaseServerName* is the name of Azure SQL Database server. You can only connect to a database on Azure SQL Database if the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] is installed on a the same virtual machine in Azure as the [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
 3.  In the **Database Name** field, enter the name of the database. Choose the up arrow to select from the list of databases that are available on the selected server.  
   
@@ -43,7 +43,7 @@ In order to work in the application, you must always open a database and a compa
 >  \($ P\_1 Product Name $\) will automatically open the database and company that you were last working on when you reopen the program.  
   
 ## See Also  
- [\($ S\_2341 Available Microsoft SQL Servers $\)](../dynamics-nav/-$-S_2341-Available-Microsoft-SQL-Servers-$-.md)   
+ [\($ S\_2341 Available Microsoft SQL Servers $\)](-$-S_2341-Available-Microsoft-SQL-Servers-$-.md)   
  [How to: Create Databases](../Topic/How%20to:%20Create%20Databases.md)   
  [How to: Create Companies](../Topic/How%20to:%20Create%20Companies.md)   
  [\($ S\_COMPANY How to: Select a Company $\)](../Topic/\($%20S_COMPANY%20How%20to:%20Select%20a%20Company%20$\).md)   

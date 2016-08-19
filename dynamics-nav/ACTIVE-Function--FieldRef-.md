@@ -35,10 +35,10 @@ Ok := FieldRef.ACTIVE
   
  You cannot use a disabled field because disabled fields cannot contain data.  
   
- This function is like the [FIELDACTIVE Function \(Record\)](../dynamics-nav/FIELDACTIVE-Function--Record-.md) function.  
+ This function is like the [FIELDACTIVE Function \(Record\)](FIELDACTIVE-Function--Record-.md) function.  
   
 ## Example  
- The following example opens table 18 \(Customer\) as a RecordRef variable that is named Recref. The [FIELD Function \(RecordRef\)](../dynamics-nav/FIELD-Function--RecordRef-.md) uses Recref to create a FieldRef variable that is named MyFieldRef. MyFieldRef sets a reference to the first field \(field 1\) in the table. The [SETRANGE Function \(FieldRef\)](../dynamics-nav/SETRANGE-Function--FieldRef-.md) sets a filter that selects record 30000. The [FIND Function \(RecordRef\)](../dynamics-nav/FIND-Function--RecordRef-.md) selects the record and then loops through fields1 through 6. For each field, the ACTIVE function determines whether the field is enabled. If the field is enabled, a message that states that the field is enabled is displayed. Otherwise, a message that states that the field is not enabled is displayed.  
+ The following example opens table 18 \(Customer\) as a RecordRef variable that is named Recref. The [FIELD Function \(RecordRef\)](FIELD-Function--RecordRef-.md) uses Recref to create a FieldRef variable that is named MyFieldRef. MyFieldRef sets a reference to the first field \(field 1\) in the table. The [SETRANGE Function \(FieldRef\)](SETRANGE-Function--FieldRef-.md) sets a filter that selects record 30000. The [FIND Function \(RecordRef\)](FIND-Function--RecordRef-.md) selects the record and then loops through fields1 through 6. For each field, the ACTIVE function determines whether the field is enabled. If the field is enabled, a message that states that the field is enabled is displayed. Otherwise, a message that states that the field is not enabled is displayed.  
   
 > [!NOTE]  
 >  You can use the name of the table instead of the table number to open the table by using the following syntax: Recref.OPEN\(DATABASE::Customer\).  
@@ -74,4 +74,4 @@ END;
 ```  
   
 ## See Also  
- [FieldRef Data Type](../dynamics-nav/FieldRef-Data-Type.md)
+ [FieldRef Data Type](FieldRef-Data-Type.md)

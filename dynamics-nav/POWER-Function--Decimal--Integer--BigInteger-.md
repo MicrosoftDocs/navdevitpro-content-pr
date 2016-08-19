@@ -147,7 +147,7 @@ MESSAGE(Text001, P, R, N, FORMAT(A,0,FormatString));
  **The amount after 20 years \= $14889.04.**  
   
 ## See Also  
- [ABS Function \(Decimal, Integer, BigInteger\)](../dynamics-nav/ABS-Function--Decimal--Integer--BigInteger-.md)   
- [RANDOM Function \(Integer\)](../dynamics-nav/RANDOM-Function--Integer-.md)   
- [RANDOMIZE Function \(Integer\)](../dynamics-nav/RANDOMIZE-Function--Integer-.md)   
- [ROUND Function \(Decimal\)](../dynamics-nav/ROUND-Function--Decimal-.md)
+ [ABS Function \(Decimal, Integer, BigInteger\)](ABS-Function--Decimal--Integer--BigInteger-.md)   
+ [RANDOM Function \(Integer\)](RANDOM-Function--Integer-.md)   
+ [RANDOMIZE Function \(Integer\)](RANDOMIZE-Function--Integer-.md)   
+ [ROUND Function \(Decimal\)](ROUND-Function--Decimal-.md)

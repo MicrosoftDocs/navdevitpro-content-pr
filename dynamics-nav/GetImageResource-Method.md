@@ -39,4 +39,4 @@ var map = new VEMap('controlAddIn');
 ```  
   
 ## See Also  
- [InvokeExtensibilityMethod Method](../dynamics-nav/InvokeExtensibilityMethod-Method.md)
+ [InvokeExtensibilityMethod Method](InvokeExtensibilityMethod-Method.md)

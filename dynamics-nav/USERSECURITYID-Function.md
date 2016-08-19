@@ -46,6 +46,6 @@ MESSAGE(Text000, User);
  **The client was started by a user with the ID 1049f495\-27ba\-46a5\-acca\-ecf92324fbf8.**  
   
 ## See Also  
- [USERID Function \(Sessions\)](../dynamics-nav/USERID-Function--Sessions-.md)   
- [SID Function \(Database\)](../dynamics-nav/SID-Function--Database-.md)   
- [Database](../dynamics-nav/Database.md)
+ [USERID Function \(Sessions\)](USERID-Function--Sessions-.md)   
+ [SID Function \(Database\)](SID-Function--Database-.md)   
+ [Database](Database.md)

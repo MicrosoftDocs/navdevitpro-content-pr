@@ -11,7 +11,7 @@ caps.latest.revision: 35
 manager: terryaus
 ---
 # How to: Create a Page
-Pages are objects for viewing and editing data in the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)]. When you create a new page, consider the page's business purpose, including which user uses it and what tasks the user must have. There are ten page types from which you can choose, including:  
+Pages are objects for viewing and editing data in the [!INCLUDE[rtc](includes/rtc_md.md)]. When you create a new page, consider the page's business purpose, including which user uses it and what tasks the user must have. There are ten page types from which you can choose, including:  
   
 -   Role Center pages, which are home pages for a specific user role such as account manager or sales order processor.  
   
@@ -19,11 +19,11 @@ Pages are objects for viewing and editing data in the [!INCLUDE[rtc](../dynamics
   
 -   Card pages, which are used to modify individual customer or item records.  
   
- The page type determines which controls, parts, and properties are valid for the page. For example, FactBoxes are not allowed on all page types. For more information about page types, see [Touring the RoleTailored Client Pages](../dynamics-nav/Touring-the-RoleTailored-Client-Pages.md).  
+ The page type determines which controls, parts, and properties are valid for the page. For example, FactBoxes are not allowed on all page types. For more information about page types, see [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md).  
   
 ### To create a blank page  
   
-1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose the **Page** button, and then choose the **New** button. The **New Page** dialog box appears.  
   
@@ -34,18 +34,18 @@ Pages are objects for viewing and editing data in the [!INCLUDE[rtc](../dynamics
      The new page appears in Page Designer.  
   
     > [!NOTE]  
-    >  If you are running [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], you can select **Create blank page of type**, select the page type, and then continue to step 9.  
+    >  If you are running [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can select **Create blank page of type**, select the page type, and then continue to step 9.  
   
 5.  In the **Caption** field of the first row, which has the type **Container** and the subtype **ContentArea**, type some descriptive text, such as **contentcontainer**.  
   
     > [!NOTE]  
-    >  This text is used internally for identification purposes and does not appear in the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)].  
+    >  This text is used internally for identification purposes and does not appear in the [!INCLUDE[rtc](includes/rtc_md.md)].  
   
 6.  Choose another row to automatically complete the **Name** field.  
   
 7.  By default, the page is a Card page type. To change to another page type, select a blank row, and on the **View** menu, choose **Properties**.  
   
-8.  Locate the **PageType** property, and then set the **Value** field to the page type you want. For more information about the different page types, see [Touring the RoleTailored Client Pages](../dynamics-nav/Touring-the-RoleTailored-Client-Pages.md).  
+8.  Locate the **PageType** property, and then set the **Value** field to the page type you want. For more information about the different page types, see [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md).  
   
 9. Save your page. On the **File** menu, choose **Save As**. The **Save As** dialog box appears.  
   
@@ -57,16 +57,16 @@ Pages are objects for viewing and editing data in the [!INCLUDE[rtc](../dynamics
   
 13. Complete the page design by adding additional controls, parts, and actions as necessary. For more information, see the following topics:  
   
-    -   [Page Designer Walkthroughs](../dynamics-nav/Page-Designer-Walkthroughs.md)  
+    -   [Page Designer Walkthroughs](Page-Designer-Walkthroughs.md)  
   
-    -   [Adding Actions to Pages](../dynamics-nav/Adding-Actions-to-Pages.md)  
+    -   [Adding Actions to Pages](Adding-Actions-to-Pages.md)  
   
-    -   [Creating Activity Buttons for the Navigation Pane](../dynamics-nav/Creating-Activity-Buttons-for-the-Navigation-Pane.md)  
+    -   [Creating Activity Buttons for the Navigation Pane](Creating-Activity-Buttons-for-the-Navigation-Pane.md)  
   
     -   [How to: Run a Page](../Topic/How%20to:%20Run%20a%20Page.md)  
   
 ##  <a name="Wizard"></a> Creating a Page Using the Wizard  
- The [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)] includes a wizard that you can use to create specific page types. In the page wizard, you choose a page type, and the page wizard automatically adds some content and controls to the page for you, such as fields, FastTabs, and FactBoxes. The page wizard is designed to help you learn about how to create a page by adding the basic content and controls. The wizard has limitations and may not add all content that you want on a page. For example, you cannot use the wizard to add navigation or actions on your page. Depending on the page's type and complexity, you should manually change a page after you use the wizard.  
+ The [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] includes a wizard that you can use to create specific page types. In the page wizard, you choose a page type, and the page wizard automatically adds some content and controls to the page for you, such as fields, FastTabs, and FactBoxes. The page wizard is designed to help you learn about how to create a page by adding the basic content and controls. The wizard has limitations and may not add all content that you want on a page. For example, you cannot use the wizard to add navigation or actions on your page. Depending on the page's type and complexity, you should manually change a page after you use the wizard.  
   
  The following table outlines what the wizard can do for each page type.  
   
@@ -80,7 +80,7 @@ Pages are objects for viewing and editing data in the [!INCLUDE[rtc](../dynamics
   
 #### To create a page using the wizard  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose the **Page** button, and then choose the **New** button. The **New Page** dialog box appears.  
   
@@ -105,17 +105,17 @@ Pages are objects for viewing and editing data in the [!INCLUDE[rtc](../dynamics
   
 10. Complete the page design by adding additional controls, parts, and actions as necessary. For more information, see the following topics:  
   
-    -   [Page Designer Walkthroughs](../dynamics-nav/Page-Designer-Walkthroughs.md)  
+    -   [Page Designer Walkthroughs](Page-Designer-Walkthroughs.md)  
   
-    -   [Adding Actions to Pages](../dynamics-nav/Adding-Actions-to-Pages.md)  
+    -   [Adding Actions to Pages](Adding-Actions-to-Pages.md)  
   
-    -   [Creating Activity Buttons for the Navigation Pane](../dynamics-nav/Creating-Activity-Buttons-for-the-Navigation-Pane.md)  
+    -   [Creating Activity Buttons for the Navigation Pane](Creating-Activity-Buttons-for-the-Navigation-Pane.md)  
   
     -   [How to: Run a Page](../Topic/How%20to:%20Run%20a%20Page.md)  
   
 ## See Also  
- [Pages](../dynamics-nav/Pages.md)   
- [Pages Overview](../dynamics-nav/Pages-Overview.md)   
+ [Pages](Pages.md)   
+ [Pages Overview](Pages-Overview.md)   
  [How to: Add FastTabs to a Customer Card Page](../Topic/How%20to:%20Add%20FastTabs%20to%20a%20Customer%20Card%20Page.md)   
- [Adding a FactBox to Page](../dynamics-nav/Adding-a-FactBox-to-Page.md)   
- [Making a Page or Report Available From Search in the Windows Client](../dynamics-nav/Making-a-Page-or-Report-Available-From-Search-in-the-Windows-Client.md)
+ [Adding a FactBox to Page](Adding-a-FactBox-to-Page.md)   
+ [Making a Page or Report Available From Search in the Windows Client](Making-a-Page-or-Report-Available-From-Search-in-the-Windows-Client.md)

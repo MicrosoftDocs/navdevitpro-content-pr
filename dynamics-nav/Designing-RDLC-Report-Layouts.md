@@ -11,7 +11,7 @@ caps.latest.revision: 21
 manager: edupont
 ---
 # Designing RDLC Report Layouts
-To create an RDLC layout, you use Visual Studio Report Designer or Microsoft SQL Server Reporting Services Report Builder from the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)]. With RDLC layouts, you can add useful features to your report layouts, such as:  
+To create an RDLC layout, you use Visual Studio Report Designer or Microsoft SQL Server Reporting Services Report Builder from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. With RDLC layouts, you can add useful features to your report layouts, such as:  
   
 -   Links from a field on a report to either a page or another report.  
   
@@ -28,20 +28,20 @@ To create an RDLC layout, you use Visual Studio Report Designer or Microsoft SQL
  For general information about SQL Server Report Builder, see [Report Design View \(Report Builder\)](http://go.microsoft.com/fwlink/?LinkId=317717).  
   
 ## Working with SQL Server Report Builder or Visual Studio Report Designer  
- By default, Visual Studio Report Designer is used when you work with RDLC layouts if it is installed on the computer that is running the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)]. Otherwise, SQL Server Report Builder is used. SQL Server Report Builder is installed with the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)].  
+ By default, Visual Studio Report Designer is used when you work with RDLC layouts if it is installed on the computer that is running the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. Otherwise, SQL Server Report Builder is used. SQL Server Report Builder is installed with the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].  
   
- If your computer is running both Visual Studio Report Designer and SQL Server Report Builder, you can configure the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)] to use SQL Server Report Builder when you design layouts instead of Visual Studio Report Designer.  
+ If your computer is running both Visual Studio Report Designer and SQL Server Report Builder, you can configure the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to use SQL Server Report Builder when you design layouts instead of Visual Studio Report Designer.  
   
-#### To configure the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)] to use SQL Server Report Builder  
+#### To configure the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to use SQL Server Report Builder  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Options**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Options**.  
   
 2.  Set the **Use Report Builder** field to **Yes**.  
   
 3.  Choose the **OK** button.  
   
 ## See Also  
- [Understanding Headers and Footers](../dynamics-nav/Understanding-Headers-and-Footers.md)   
+ [Understanding Headers and Footers](Understanding-Headers-and-Footers.md)   
  [How to: Add and Identify Hidden Fields](../Topic/How%20to:%20Add%20and%20Identify%20Hidden%20Fields.md)   
  [How to: Add Totals in Visual Studio](../Topic/How%20to:%20Add%20Totals%20in%20Visual%20Studio.md)   
  [How to: Apply Conditional Visibility Controls](../Topic/How%20to:%20Apply%20Conditional%20Visibility%20Controls.md)   

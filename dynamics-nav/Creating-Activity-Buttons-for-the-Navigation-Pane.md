@@ -15,7 +15,7 @@ An *activity button* is a navigation pane button that displays links to addition
   
  The following illustration shows a navigation pane that has the default activity buttons and two additional activity buttons: **Posted Documents** and **Bank**. The **Posted Documents** button is selected and shows actions that link to pages that are associated with posted documents.  
   
- ![Navigation pane clip that shows Activity buttons](../dynamics-nav/media/NAV_ADG_NavigationPane_ActivityButtons.jpg "NAV\_ADG\_NavigationPane\_ActivityButtons")  
+ ![Navigation pane clip that shows Activity buttons](media/NAV_ADG_NavigationPane_ActivityButtons.jpg "NAV\_ADG\_NavigationPane\_ActivityButtons")  
   
  When you create an activity button, you can apply one of the default images that are available for activity buttons. For more information, see [How to: Set an Icon on an Activity Button](../Topic/How%20to:%20Set%20an%20Icon%20on%20an%20Activity%20Button.md).  
   
@@ -25,7 +25,7 @@ An *activity button* is a navigation pane button that displays links to addition
 ## Setting up Activity Buttons and Page Links in the Navigation Pane  
  You use Action Designer to set up activity buttons on Role Center pages. The following illustration shows the Action Designer setup for the **Posted Documents** button.  
   
- ![Action Designer that shows Activity Button setup](../dynamics-nav/media/NAV_ADG_Classic_ActionDesigner_Activity.png "NAV\_ADG\_Classic\_ActionDesigner\_Activity")  
+ ![Action Designer that shows Activity Button setup](media/NAV_ADG_Classic_ActionDesigner_Activity.png "NAV\_ADG\_Classic\_ActionDesigner\_Activity")  
   
  The following guidelines apply when working with activity buttons:  
   
@@ -40,5 +40,5 @@ An *activity button* is a navigation pane button that displays links to addition
 ## See Also  
  [How to: Create an Activity Button and Page Links in the Navigation Pane](../Topic/How%20to:%20Create%20an%20Activity%20Button%20and%20Page%20Links%20in%20the%20Navigation%20Pane.md)   
  [How to: Set an Icon on an Activity Button](../Topic/How%20to:%20Set%20an%20Icon%20on%20an%20Activity%20Button.md)   
- [Setting Up the Home Button and Home Items](../dynamics-nav/Setting-Up-the-Home-Button-and-Home-Items.md)   
+ [Setting Up the Home Button and Home Items](Setting-Up-the-Home-Button-and-Home-Items.md)   
  [Walkthrough: Creating a Role Center](../Topic/Walkthrough:%20Creating%20a%20Role%20Center.md)

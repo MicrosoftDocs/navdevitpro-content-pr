@@ -10,13 +10,13 @@ ms.assetid: c20c0f86-3eb9-4b29-ac43-c569614162c8
 caps.latest.revision: 6
 ---
 # ConstValueML Property
-Sets the values of a C\/AL text constant for the different languages that are available in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+Sets the values of a C\/AL text constant for the different languages that are available in [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 ## Applies To  
  **Local** and **global** text constants in the C\/AL code of objects.  
   
 ## Remarks  
- The **ConstValue** property is enabled for multiple languages. It contains a list of text values for the languages that are available in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)]. The value that is used in the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)] is selected according to the user's language settings. For more information, see [Multilanguage Development](../dynamics-nav/Multilanguage-Development.md).  
+ The **ConstValue** property is enabled for multiple languages. It contains a list of text values for the languages that are available in [!INCLUDE[navnow](includes/navnow_md.md)]. The value that is used in the [!INCLUDE[rtc](includes/rtc_md.md)] is selected according to the user's language settings. For more information, see [Multilanguage Development](Multilanguage-Development.md).  
   
  The **ConstValueML** property has the following format.  
   
@@ -46,4 +46,4 @@ Sets the values of a C\/AL text constant for the different languages that are av
   
 ## See Also  
  [How to: Change the Language in the User Interface](../Topic/How%20to:%20Change%20the%20Language%20in%20the%20User%20Interface.md)   
- [Multilanguage Development](../dynamics-nav/Multilanguage-Development.md)
+ [Multilanguage Development](Multilanguage-Development.md)

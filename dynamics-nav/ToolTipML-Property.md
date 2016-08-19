@@ -24,15 +24,15 @@ Sets the text used for the tooltip of an action, a field, a factbox, or an activ
 -   Activity buttons  
   
     > [!NOTE]  
-    >  Activity button tooltips are only shown on the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)].  
+    >  Activity button tooltips are only shown on the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
 -   ActionContainers  
   
     > [!WARNING]  
-    >  ActionContainers tooltips are only shown on the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] for the subtype **HomeItems**.  
+    >  ActionContainers tooltips are only shown on the [!INCLUDE[nav_web](includes/nav_web_md.md)] for the subtype **HomeItems**.  
   
 ## Remarks  
- ToolTipML is multilanguage enabled. This means that it can contain a list of strings for use by different languages. The text that is used is selected according to the user's current language setting. For more information, see [Multilanguage Development](../dynamics-nav/Multilanguage-Development.md).  
+ ToolTipML is multilanguage enabled. This means that it can contain a list of strings for use by different languages. The text that is used is selected according to the user's current language setting. For more information, see [Multilanguage Development](Multilanguage-Development.md).  
   
  The ToolTipML property value has the following format.  
   
@@ -51,9 +51,9 @@ DAN=Dette felt indeholder kundens navn;ENG=This field contains the customer name
 ## How to Enter ToolTipML Values  
  You can enter values for the ToolTipML property in two ways.  
   
--   Enter a [ToolTip Property](../dynamics-nav/ToolTip-Property.md) value. This value is inserted in ToolTipML as the value for the language that is currently selected. If the language is set to Danish when a value is entered in ToolTip, ToolTipML is updated with a DAN\=\<value\> string. You have to use the abbreviated language name \(for example, DAN for Danish\).  
+-   Enter a [ToolTip Property](ToolTip-Property.md) value. This value is inserted in ToolTipML as the value for the language that is currently selected. If the language is set to Danish when a value is entered in ToolTip, ToolTipML is updated with a DAN\=\<value\> string. You have to use the abbreviated language name \(for example, DAN for Danish\).  
   
 -   Choose the **AssistEdit** button in the ToolTipML Value field to open the **Multilanguage** editor. This is a page with two columns: Language and Value. The Language column is populated with all languages defined by Windows. Enter tooltip text in the Value field for the appropriate language and then choose the **OK** button to close the editor. If you press the Esc key to close the editor, the ToolTipML field is not updated.  
   
 ## See Also  
- [ToolTip Property](../dynamics-nav/ToolTip-Property.md)
+ [ToolTip Property](ToolTip-Property.md)

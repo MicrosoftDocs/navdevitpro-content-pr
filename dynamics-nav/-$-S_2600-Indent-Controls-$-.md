@@ -13,14 +13,14 @@ manager: terryaus
 # ($ S_2600 Indent Controls $)
 Specifies whether a column or columns \(controls\) are indented in a Repeater subtype control on a page.  
   
- To open this window, open Page Designer, select a control, and then on the **View** menu, choose **Properties**. Locate the **IndentationControls** property, and then choose the **AssistEdit** button in the **Value** field. For more information about how to open Page Designer, see [\($ S\_21401 Page Designer $\)](../dynamics-nav/-$-S_21401-Page-Designer-$-.md).  
+ To open this window, open Page Designer, select a control, and then on the **View** menu, choose **Properties**. Locate the **IndentationControls** property, and then choose the **AssistEdit** button in the **Value** field. For more information about how to open Page Designer, see [\($ S\_21401 Page Designer $\)](-$-S_21401-Page-Designer-$-.md).  
   
 > [!IMPORTANT]  
 >  When indentation is specified, it is no longer possible to use sorting on the columns in the repeater control.  
   
 ## Fields  
   
-|[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
 |**Indentation**|Specifies whether a field should be indented. When this field is selected then that field is indented.|  
 |**Name**|Specifies the name of the field to indent.|  

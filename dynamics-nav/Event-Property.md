@@ -22,12 +22,12 @@ Specifies whether the function is used to publish or subscribe to an event.
 |Value|Description|  
 |-----------|-----------------|  
 |**No**|The function is a normal function that does not publish or subscribe to an event.|  
-|**Publisher**|The function is an event publisher, which is used to declare and raise a business or integration event in the application.<br /><br /> For more information, see [Publishing Events](../dynamics-nav/Publishing-Events.md).|  
-|**Subscriber**|The function is an event subscriber, which is used to handle a published event.<br /><br /> For more information, see [Subscribing to Events](../dynamics-nav/Subscribing-to-Events.md).|  
+|**Publisher**|The function is an event publisher, which is used to declare and raise a business or integration event in the application.<br /><br /> For more information, see [Publishing Events](Publishing-Events.md).|  
+|**Subscriber**|The function is an event subscriber, which is used to handle a published event.<br /><br /> For more information, see [Subscribing to Events](Subscribing-to-Events.md).|  
   
 ## Remarks  
- For more information about events, see [Events in Microsoft Dynamics NAV](../dynamics-nav/Events-in-Microsoft-Dynamics-NAV.md).  
+ For more information about events, see [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md).  
   
 ## See Also  
- [Raising Events](../dynamics-nav/Raising-Events.md)   
- [C\-AL Function Statements](../dynamics-nav/C-AL-Function-Statements.md)
+ [Raising Events](Raising-Events.md)   
+ [C\-AL Function Statements](C-AL-Function-Statements.md)

@@ -26,7 +26,7 @@ Ok := Record.FIND([Which])
   
  On input, *Record* identifies the record that you want to find. On output, the following possibilities exist:  
   
--   If the record was found, then the record is returned in the *Record* parameter and any [FlowFields](../dynamics-nav/FlowFields.md) in the record are set to zero. You must update the FlowFields using the [CALCFIELDS Function \(Record\)](../dynamics-nav/CALCFIELDS-Function--Record-.md).  
+-   If the record was found, then the record is returned in the *Record* parameter and any [FlowFields](FlowFields.md) in the record are set to zero. You must update the FlowFields using the [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md).  
   
 -   If the record was not found and if you omitted the return value, a run\-time error occurs.  
   
@@ -97,5 +97,5 @@ ELSE
 ```  
   
 ## See Also  
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)   
- [GET, FIND, and NEXT Functions](../dynamics-nav/GET--FIND--and-NEXT-Functions.md)
+ [Record Data Type](Record-Data-Type.md)   
+ [GET, FIND, and NEXT Functions](GET--FIND--and-NEXT-Functions.md)

@@ -83,4 +83,4 @@ MESSAGE(Text001, InputDate, OutputDate);
  **The normal date for C04\/04\/14 is 04\/04\/14.**  
   
 ## See Also  
- [Date and Time Functions](../dynamics-nav/Date-and-Time-Functions.md)
+ [Date and Time Functions](Date-and-Time-Functions.md)

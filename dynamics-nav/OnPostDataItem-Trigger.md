@@ -17,7 +17,7 @@ Executed after a data item is processed.
  Data items  
   
 ## Remarks  
- This trigger executes after the last record in the data item is processed but before the [OnPostReport Trigger](../dynamics-nav/OnPostReport-Trigger.md) or the [OnPostXMLport Trigger](../dynamics-nav/OnPostXMLport-Trigger.md) is executed, if it is the last data item of the report or XMLport.  
+ This trigger executes after the last record in the data item is processed but before the [OnPostReport Trigger](OnPostReport-Trigger.md) or the [OnPostXMLport Trigger](OnPostXMLport-Trigger.md) is executed, if it is the last data item of the report or XMLport.  
   
  Use this trigger to perform any cleanup or post processing needed after a data item is processed. For example, if you create a non\-printing report where records are updated, you can update all the records with the modification date like this.  
   
@@ -26,4 +26,4 @@ MODIFYALL("Modification Date",TODAY);
 ```  
   
 ## See Also  
- [OnPostReport Trigger](../dynamics-nav/OnPostReport-Trigger.md)
+ [OnPostReport Trigger](OnPostReport-Trigger.md)

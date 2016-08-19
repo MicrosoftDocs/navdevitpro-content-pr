@@ -11,7 +11,7 @@ caps.latest.revision: 11
 manager: terryaus
 ---
 # Using Certificates to Secure a Remote Client Connection
-You can use service certificates to help secure [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)] connections over a wide area network \(WAN\). The certificate is a file that [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] uses to prove its identity and establish a trusted connection with the client that is trying to connect. [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] can support the following configurations:  
+You can use service certificates to help secure [!INCLUDE[rtc](includes/rtc_md.md)] connections over a wide area network \(WAN\). The certificate is a file that [!INCLUDE[nav_server](includes/nav_server_md.md)] uses to prove its identity and establish a trusted connection with the client that is trying to connect. [!INCLUDE[navnowlong](includes/navnowlong_md.md)] can support the following configurations:  
   
 -   *Chain trust*, which specifies that each certificate must belong to a hierarchy of certificates that ends in a root authority at the top of the chain.  
   
@@ -26,12 +26,12 @@ You can use service certificates to help secure [!INCLUDE[rtc](../dynamics-nav/i
  In a production environment, you should obtain an certificate from a certification authority or trusted provider. Some large organizations may have their own certification authorities, and other organizations can request a certificate from a third\-party organization. In a test environment, if you do not have certificate, then you can create your own self\-signed certificate. For information about using self\-signed certificates in a text environment, see [Walkthrough: Implementing Security Certificates in a Test Environment](../Topic/Walkthrough:%20Implementing%20Security%20Certificates%20in%20a%20Test%20Environment.md).  
   
 ###  <a name="AboutProdCerts"></a> About Certificates for Production Environment  
- In a production environment, you implement chain trust by obtaining X.509 service certificates from a trusted provider. These certificates and their root certification authority \(CA\) certificates must be installed in the certificates store on the computer that is running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]. The CA certificate must also be installed in the certificate store on computers that are running the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)] so that clients can validate the server.  
+ In a production environment, you implement chain trust by obtaining X.509 service certificates from a trusted provider. These certificates and their root certification authority \(CA\) certificates must be installed in the certificates store on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)]. The CA certificate must also be installed in the certificate store on computers that are running the [!INCLUDE[rtc](includes/rtc_md.md)] so that clients can validate the server.  
   
- Most enterprises and hosting providers have their own infrastructure for issuing and managing certificates. You can also use these certificate infrastructures. The only requirement is that the service certificates must be set up for key exchange and therefore must contain both private and public keys. Additionally, the service certificates that are installed on [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instances must have the Service Authentication and Client Authentication certificate purposes enabled.  
+ Most enterprises and hosting providers have their own infrastructure for issuing and managing certificates. You can also use these certificate infrastructures. The only requirement is that the service certificates must be set up for key exchange and therefore must contain both private and public keys. Additionally, the service certificates that are installed on [!INCLUDE[nav_server](includes/nav_server_md.md)] instances must have the Service Authentication and Client Authentication certificate purposes enabled.  
   
  For more information, see [How to: Implement Security Certificates in a Production Environment](../Topic/How%20to:%20Implement%20Security%20Certificates%20in%20a%20Production%20Environment.md).  
   
 ## See Also  
- [Connecting the Microsoft Dynamics NAV Clients over a Wide Area Network](../dynamics-nav/Connecting-the-Microsoft-Dynamics-NAV-Clients-over-a-Wide-Area-Network.md)   
+ [Connecting the Microsoft Dynamics NAV Clients over a Wide Area Network](Connecting-the-Microsoft-Dynamics-NAV-Clients-over-a-Wide-Area-Network.md)   
  [Walkthrough: Implementing Security Certificates in a Test Environment](../Topic/Walkthrough:%20Implementing%20Security%20Certificates%20in%20a%20Test%20Environment.md)

@@ -38,4 +38,4 @@ Sets the string that is to be used to separate records.
  You can set the record separator in C\/AL code so that the XMLport can import and export records with different separators. For example, if your XMLport must import from a file or stream where one record uses **NewLine** and another uses **TAB**, you can change the record separator at run time.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

@@ -50,4 +50,4 @@ service.CreateMultiple(ref custArray);
 ```  
   
 ## See Also  
- [Basic Page Operations](../dynamics-nav/Basic-Page-Operations.md)
+ [Basic Page Operations](Basic-Page-Operations.md)

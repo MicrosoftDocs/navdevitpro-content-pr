@@ -11,19 +11,19 @@ caps.latest.revision: 8
 manager: terryaus
 ---
 # Dialog Data Type
-Variables of this complex data type store dialog windows. These variables also give you access to a number of dialog functions, such as [OPEN Function \(Dialog\)](../dynamics-nav/OPEN-Function--Dialog-.md), [CLOSE Function \(Dialog\)](../dynamics-nav/CLOSE-Function--Dialog-.md), and so on.  
+Variables of this complex data type store dialog windows. These variables also give you access to a number of dialog functions, such as [OPEN Function \(Dialog\)](OPEN-Function--Dialog-.md), [CLOSE Function \(Dialog\)](CLOSE-Function--Dialog-.md), and so on.  
   
 ## Dialog Functions  
- [CLOSE Function \(Dialog\)](../dynamics-nav/CLOSE-Function--Dialog-.md)  
+ [CLOSE Function \(Dialog\)](CLOSE-Function--Dialog-.md)  
   
- [CONFIRM Function \(Dialog\)](../dynamics-nav/CONFIRM-Function--Dialog-.md)  
+ [CONFIRM Function \(Dialog\)](CONFIRM-Function--Dialog-.md)  
   
- [ERROR Function \(Dialog\)](../dynamics-nav/ERROR-Function--Dialog-.md)  
+ [ERROR Function \(Dialog\)](ERROR-Function--Dialog-.md)  
   
- [MESSAGE Function \(Dialog\)](../dynamics-nav/MESSAGE-Function--Dialog-.md)  
+ [MESSAGE Function \(Dialog\)](MESSAGE-Function--Dialog-.md)  
   
- [OPEN Function \(Dialog\)](../dynamics-nav/OPEN-Function--Dialog-.md)  
+ [OPEN Function \(Dialog\)](OPEN-Function--Dialog-.md)  
   
- [STRMENU Function \(Dialog\)](../dynamics-nav/STRMENU-Function--Dialog-.md)  
+ [STRMENU Function \(Dialog\)](STRMENU-Function--Dialog-.md)  
   
- [UPDATE Function \(Dialog\)](../dynamics-nav/UPDATE-Function--Dialog-.md)
+ [UPDATE Function \(Dialog\)](UPDATE-Function--Dialog-.md)

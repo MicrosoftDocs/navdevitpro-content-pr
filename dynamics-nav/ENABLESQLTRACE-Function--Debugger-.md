@@ -11,7 +11,7 @@ caps.latest.revision: 8
 manager: terryaus
 ---
 # ENABLESQLTRACE Function (Debugger)
-Enables or verifies SQL tracing. If you enable SQL tracing, then SQL Server events for selected sessions on the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance are collected.  
+Enables or verifies SQL tracing. If you enable SQL tracing, then SQL Server events for selected sessions on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance are collected.  
   
 ## Syntax  
   
@@ -25,7 +25,7 @@ Enables or verifies SQL tracing. If you enable SQL tracing, then SQL Server even
   
  The ID of the session for which you want to enable the SQL trace, or for which you want to verify if tracing is enabled.  
   
- If you specify 0 and you specify the *NewIsEnabled* parameter, then tracing is enabled for all existing sessions and all new sessions on the current [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance. If you specify 0 and you omit the *NewIsEnabled* parameter, then the function returns **true** if tracing is enabled for new sessions on the current [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance.  
+ If you specify 0 and you specify the *NewIsEnabled* parameter, then tracing is enabled for all existing sessions and all new sessions on the current [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. If you specify 0 and you omit the *NewIsEnabled* parameter, then the function returns **true** if tracing is enabled for new sessions on the current [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
   
  If the session ID that you specify does not exist and you specify the *NewIsEnabled* parameter, then a run\-time error occurs. If the session ID that you specify does not exist and you do not specify the *NewIsEnabled* parameter, then the function returns **false**.  
   
@@ -45,4 +45,4 @@ Enables or verifies SQL tracing. If you enable SQL tracing, then SQL Server even
  You can also enable and disable SQL tracing by using the **Start Full SQL Tracing** and **Stop Full SQL Tracing** buttons on the **Session List** page.  
   
 ## See Also  
- [Debugging](../dynamics-nav/Debugging.md)
+ [Debugging](Debugging.md)

@@ -11,12 +11,12 @@ caps.latest.revision: 23
 manager: terryaus
 ---
 # Walkthrough: Exporting Data from Tables to XML Documents
-XMLports are used to export data from a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database to XML format or import data from an XML file to [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database. Exporting data from your [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database into XML format enables seamless exchange of information between different computer systems. You only need a basic knowledge of XML to design and work with XMLports.  
+XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)] database to XML format or import data from an XML file to [!INCLUDE[navnow](includes/navnow_md.md)] database. Exporting data from your [!INCLUDE[navnow](includes/navnow_md.md)] database into XML format enables seamless exchange of information between different computer systems. You only need a basic knowledge of XML to design and work with XMLports.  
   
  XMLports are called and run from codeunits or run from Object Designer. In this walkthrough, you will call the XMLport from a codeunit. You define the output stream that will export the data and location where the XML document should be saved in the codeunit.  
   
 ## About This Walkthrough  
- This walkthrough shows you how to export data from a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] table into an XML document. This walkthrough illustrates the following tasks:  
+ This walkthrough shows you how to export data from a [!INCLUDE[navnow](includes/navnow_md.md)] table into an XML document. This walkthrough illustrates the following tasks:  
   
 -   Creating an XMLport.  
   
@@ -29,27 +29,27 @@ XMLports are used to export data from a [!INCLUDE[navnow](../dynamics-nav/includ
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] installed with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installed with a developer license.  
   
--   The [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+-   The [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 ## Story  
- Simon is a Microsoft Certified Partner working for [!INCLUDE[demoname](../dynamics-nav/includes/demoname_md.md)] He has been asked to export records from the **Customer** table to an XML document. The records will include only the **No.**, **Name**, **Address**, **City**, and **Contacts** fields. The information will be shared with another colleague who works on a different computer system. Simon knows that he can use XMLports to convert the records in the table to XML format that can easily be shared with the colleague.  
+ Simon is a Microsoft Certified Partner working for [!INCLUDE[demoname](includes/demoname_md.md)] He has been asked to export records from the **Customer** table to an XML document. The records will include only the **No.**, **Name**, **Address**, **City**, and **Contacts** fields. The information will be shared with another colleague who works on a different computer system. Simon knows that he can use XMLports to convert the records in the table to XML format that can easily be shared with the colleague.  
   
 ## Creating the XMLport  
  You create the XMLport by designing it in XMLport Designer and setting the properties for the XMLport. You define the table and fields that you want to export in XMLport Designer. You then compile and save the XMLport.  
   
 #### To create the XMLport  
   
-1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **XMLport**, and then choose **New** to open XMLport Designer.  
   
 3.  Select an empty row in the designer. On the **View** menu, choose **Properties** to open the **XMLport\-Properties** window.  
   
-4.  In the **XMLport\-Properties** window, locate the [Direction Property](../dynamics-nav/Direction-Property.md), choose the drop\-down arrow in the **Value** column and then set it to **Export**.  
+4.  In the **XMLport\-Properties** window, locate the [Direction Property](Direction-Property.md), choose the drop\-down arrow in the **Value** column and then set it to **Export**.  
   
-5.  In the **XMLport\-Properties** window, locate the [Format Property \(XMLports\)](../dynamics-nav/Format-Property--XMLports-.md), verify that the **Value** column is set to **XML** and then close the **XMLport\-Properties** window.  
+5.  In the **XMLport\-Properties** window, locate the [Format Property \(XMLports\)](Format-Property--XMLports-.md), verify that the **Value** column is set to **XML** and then close the **XMLport\-Properties** window.  
   
 6.  In **XMLport Designer**, in the first row, in the **Node Name** column, enter **Root**.  
   
@@ -107,7 +107,7 @@ XMLports are used to export data from a [!INCLUDE[navnow](../dynamics-nav/includ
   
 1.  In Object Designer, select **Codeunit**, and then choose **New** to open the **C\/AL Editor**.  
   
-     You will declare variables that you will use in the code. You will create variables for the XML file, the output stream that exports the data, and the return value for the [EXPORT Function \(XMLport\)](../dynamics-nav/EXPORT-Function--XMLport-.md). You will also create variables for the file that will be downloaded from the server and the file that will be saved on the client.  
+     You will declare variables that you will use in the code. You will create variables for the XML file, the output stream that exports the data, and the return value for the [EXPORT Function \(XMLport\)](EXPORT-Function--XMLport-.md). You will also create variables for the file that will be downloaded from the server and the file that will be saved on the client.  
   
 2.  In the C\/AL Editor, place the cursor in the OnRun function, and then, on the **View** menu, choose **C\/AL Locals** to open the **C\/AL Locals** window.  
   
@@ -162,7 +162,7 @@ XMLports are used to export data from a [!INCLUDE[navnow](../dynamics-nav/includ
       MESSAGE(Text001);  
     ```  
   
-     The code uses the [CREATE Function \(File\)](../dynamics-nav/CREATE-Function--File-.md) to create an XML file that is named CustXmlFile in a temporary folder on the server.  The [TEMPORARYPATH Function](../dynamics-nav/TEMPORARYPATH-Function.md) gets the path of the temporary folder. The [CREATEOUTSTREAM Function \(File\)](../dynamics-nav/CREATEOUTSTREAM-Function--File-.md) opens a data stream to output the data from the table to the XML file. The [EXPORT Function \(XMLport\)](../dynamics-nav/EXPORT-Function--XMLport-.md) uses the XMLport and the stream to export the data. If the export succeeds, the [DOWNLOAD Function \(File\)](../dynamics-nav/DOWNLOAD-Function--File-.md) downloads the file from the temporary folder on the computer that is running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] to the client. The default path of the file on the client computer is set to ‘C:\\Temp’ but you can change it in the download dialog box. A message is displayed at the end of the export to indicate that the export is completed. Otherwise, an error message is displayed. This message is not required but it lets the user know that something actually occurred. The temporary file is deleted after the download is completed.  
+     The code uses the [CREATE Function \(File\)](CREATE-Function--File-.md) to create an XML file that is named CustXmlFile in a temporary folder on the server.  The [TEMPORARYPATH Function](TEMPORARYPATH-Function.md) gets the path of the temporary folder. The [CREATEOUTSTREAM Function \(File\)](CREATEOUTSTREAM-Function--File-.md) opens a data stream to output the data from the table to the XML file. The [EXPORT Function \(XMLport\)](EXPORT-Function--XMLport-.md) uses the XMLport and the stream to export the data. If the export succeeds, the [DOWNLOAD Function \(File\)](DOWNLOAD-Function--File-.md) downloads the file from the temporary folder on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] to the client. The default path of the file on the client computer is set to ‘C:\\Temp’ but you can change it in the download dialog box. A message is displayed at the end of the export to indicate that the export is completed. Otherwise, an error message is displayed. This message is not required but it lets the user know that something actually occurred. The temporary file is deleted after the download is completed.  
   
 13. Close the **C\/AL Editor** and choose the **Yes** button at the prompt.  
   
@@ -177,7 +177,7 @@ XMLports are used to export data from a [!INCLUDE[navnow](../dynamics-nav/includ
   
 #### To run the XMLport  
   
-1.  In Object Designer, select the **ExportCode** codeunit \(50000\), and then choose the **Run** button. The [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] opens and the **Export File** dialog box is displayed. You can choose the **Open** button to open and view the file or choose the **SAVE** button to save it. In this walkthrough, you will save the file.  
+1.  In Object Designer, select the **ExportCode** codeunit \(50000\), and then choose the **Run** button. The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] opens and the **Export File** dialog box is displayed. You can choose the **Open** button to open and view the file or choose the **SAVE** button to save it. In this walkthrough, you will save the file.  
   
 2.  Choose the **SAVE** button to open the download window.  
   
@@ -187,14 +187,14 @@ XMLports are used to export data from a [!INCLUDE[navnow](../dynamics-nav/includ
   
      The XML file that is exported resembles the XML file in the following illustration. The XML file contains data for only the first four customers.  
   
-     ![Exported XML file](../dynamics-nav/media/MicrosoftDynamicsNAV_XLMExported.jpg "MicrosoftDynamicsNAV\_XLMExported")  
+     ![Exported XML file](media/MicrosoftDynamicsNAV_XLMExported.jpg "MicrosoftDynamicsNAV\_XLMExported")  
   
      **XML file that was exported from the Customer table**  
   
 ## Next Steps  
- You can also use XMLport to import data from an XML document to a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database. For more information, see [Walkthrough: Inserting Data from XML Documents to Multiple Tables](../Topic/Walkthrough:%20Inserting%20Data%20from%20XML%20Documents%20to%20Multiple%20Tables.md).  
+ You can also use XMLport to import data from an XML document to a [!INCLUDE[navnow](includes/navnow_md.md)] database. For more information, see [Walkthrough: Inserting Data from XML Documents to Multiple Tables](../Topic/Walkthrough:%20Inserting%20Data%20from%20XML%20Documents%20to%20Multiple%20Tables.md).  
   
 ## See Also  
- [Designing XMLports](../dynamics-nav/Designing-XMLports.md)   
- [XMLport Walkthroughs](../dynamics-nav/XMLport-Walkthroughs.md)   
+ [Designing XMLports](Designing-XMLports.md)   
+ [XMLport Walkthroughs](XMLport-Walkthroughs.md)   
  [Walkthrough: Importing Data from Text Files to Tables](../Topic/Walkthrough:%20Importing%20Data%20from%20Text%20Files%20to%20Tables.md)

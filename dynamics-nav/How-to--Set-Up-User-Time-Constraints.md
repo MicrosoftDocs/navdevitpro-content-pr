@@ -10,7 +10,7 @@ ms.assetid: ac4e9a2c-3d74-4d99-b3b3-23a50068ea09
 caps.latest.revision: 17
 ---
 # How to: Set Up User Time Constraints
-Administrators can define periods of time during which specified users are able to post, and also specify whether [!INCLUDE[nav_current_short](../dynamics-nav/includes/nav_current_short_md.md)] records the amount of time during which specified user are logged on. Administrators can also assign responsibility centers to users.  
+Administrators can define periods of time during which specified users are able to post, and also specify whether [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] records the amount of time during which specified user are logged on. Administrators can also assign responsibility centers to users.  
   
 ## Setting Up User Time Constraints  
   
@@ -20,7 +20,7 @@ Administrators can define periods of time during which specified users are able 
   
 2.  On the **Home** tab, in the **New** group, choose **New**. The **New – User Setup** window opens.  
   
-3.  In the **User ID** field, enter the ID of a user, or choose the field to see all current Windows users for the current [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database.  
+3.  In the **User ID** field, enter the ID of a user, or choose the field to see all current Windows users for the current [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
 4.  Enter time constraint data for the user by filling the fields as described in the following table.  
   

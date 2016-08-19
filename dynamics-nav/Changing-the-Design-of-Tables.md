@@ -18,7 +18,7 @@ When you design the tables in your database, you determine which fields they con
 |Modification|Rule|  
 |------------------|----------|  
 |Change a field name|You can always change the name of a field.|  
-|Change a field number|You can always change the number of a field. This causes [!INCLUDE[nav_2009_short](../dynamics-nav/includes/nav_2009_short_md.md)] to run through all the application objects in order to update all the references to this field. This can be a time consuming process.|  
+|Change a field number|You can always change the number of a field. This causes [!INCLUDE[nav_2009_short](includes/nav_2009_short_md.md)] to run through all the application objects in order to update all the references to this field. This can be a time consuming process.|  
 |Change a field data type|You can change the data type for a field only if there is no data in this field for any of the records in the table. There is one exception to this rule—you can change the data type of a field from **Code** to **Text** even if the field contains data for some records.|  
 |Add a field to a table|You can always add a field to a table.|  
 |Delete a field|To delete a field, you must delete all data from the field in all records in the table. You must also remove all references to the field from other tables, pages, and reports.|  

@@ -31,4 +31,4 @@ MyTestPage.EXPAND(Expand);
  The rows that you want to expand on the test page.  
   
 ## See Also  
- [TestPage Functions](../dynamics-nav/TestPage-Functions.md)
+ [TestPage Functions](TestPage-Functions.md)

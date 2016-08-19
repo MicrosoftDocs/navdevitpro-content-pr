@@ -17,13 +17,13 @@ Designs the dataset of a report.
   
 ## Fields  
   
-|[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
 |**Expanded**|Expands and collapses all indented hierarchy. This includes child data items and columns.|  
 |**Data Type**|Specifies either **DataItem** or **Column**. A data item is a table. A column can be:<br /><br /> -   A field in a table.<br />-   A variable.<br />-   An expression.<br />-   A TextConstant that could represent a caption that is not related to a specific table.|  
-|**Data Source**|Specifies the source of the DataItem or Column. For example, specify the table for a DataItem, or specify a field, variable, expression, or text for a Column. On a DataItem row, either enter the table name or table number or use the up arrow to select a table from the [\($ S\_2120 Object List $\)](../dynamics-nav/-$-S_2120-Object-List-$-.md) window. On a Column row, either enter a value or choose the **AssistEdit** button or use the **Field Menu** to select a field, variable, or text constant from the **\($ S\_10209 C\/AL Symbol Menu $\)**.|  
+|**Data Source**|Specifies the source of the DataItem or Column. For example, specify the table for a DataItem, or specify a field, variable, expression, or text for a Column. On a DataItem row, either enter the table name or table number or use the up arrow to select a table from the [\($ S\_2120 Object List $\)](-$-S_2120-Object-List-$-.md) window. On a Column row, either enter a value or choose the **AssistEdit** button or use the **Field Menu** to select a field, variable, or text constant from the **\($ S\_10209 C\/AL Symbol Menu $\)**.|  
 |**Name**|Specifies a name that complies with the Common Language Specification \(CLS\). For more information, see the "Naming" section in [Common Language Specification](http://go.microsoft.com/fwlink/?LinkId=193144) in the MSDN Library.|  
-|**Include Caption**|Includes the caption of a field in the dataset when the check box of a Column data type is selected. For more information about how to include captions, see [IncludeCaption Property](../dynamics-nav/IncludeCaption-Property.md).|  
+|**Include Caption**|Includes the caption of a field in the dataset when the check box of a Column data type is selected. For more information about how to include captions, see [IncludeCaption Property](IncludeCaption-Property.md).|  
   
 ## See Also  
- [Reports\-duplicate 20](../dynamics-nav/Reports-duplicate-20.md)
+ [Reports\-duplicate 20](Reports-duplicate-20.md)

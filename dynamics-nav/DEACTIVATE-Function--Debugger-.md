@@ -27,5 +27,5 @@ Deactivates the debugger.
  If you omit this optional return value and if the break is not set successfully, then a run\-time error occurs. If you include the return value, then you must handle any errors.  
   
 ## See Also  
- [Activating the Debugger](../dynamics-nav/Activating-the-Debugger.md)   
- [ACTIVATE Function \(Debugger\)](../dynamics-nav/ACTIVATE-Function--Debugger-.md)
+ [Activating the Debugger](Activating-the-Debugger.md)   
+ [ACTIVATE Function \(Debugger\)](ACTIVATE-Function--Debugger-.md)

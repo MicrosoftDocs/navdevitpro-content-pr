@@ -68,5 +68,5 @@ MESSAGE(Text000, Day, Month, Year, OutputDate);
  **Day number 17, month number 2, and year number 2014 corresponds to the date 02\/17\/14.**  
   
 ## See Also  
- [Date and Time Functions](../dynamics-nav/Date-and-Time-Functions.md)   
- [Date Data Type](../dynamics-nav/Date-Data-Type.md)
+ [Date and Time Functions](Date-and-Time-Functions.md)   
+ [Date Data Type](Date-Data-Type.md)

@@ -10,7 +10,7 @@ ms.assetid: 97ff7045-1350-4c96-8dd8-e9a6e1f9de7d
 caps.latest.revision: 4
 ---
 # REGISTERTABLECONNECTION Function (Database)
-Registers a table connection between [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] and an external database.  
+Registers a table connection between [!INCLUDE[navnow](includes/navnow_md.md)] and an external database.  
   
 ## Syntax  
   
@@ -35,6 +35,6 @@ REGISTERTABLECONNECTION(Type, Name, Connection)
  Specifies the connection to the external database, such as `'Data Source=ProdServer1;Initial Catalog=ProdDb1;User ID=sqladmin;Password=p@ssword')`. Alternatively, define the connection in a separate function.  
   
 ## See Also  
- [External Tables](../dynamics-nav/External-Tables.md)   
- [TableConnectionType Data Type](../dynamics-nav/TableConnectionType-Data-Type.md)   
- [UNREGISTERTABLECONNECTION Function \(Database\)](../dynamics-nav/UNREGISTERTABLECONNECTION-Function--Database-.md)
+ [External Tables](External-Tables.md)   
+ [TableConnectionType Data Type](TableConnectionType-Data-Type.md)   
+ [UNREGISTERTABLECONNECTION Function \(Database\)](UNREGISTERTABLECONNECTION-Function--Database-.md)

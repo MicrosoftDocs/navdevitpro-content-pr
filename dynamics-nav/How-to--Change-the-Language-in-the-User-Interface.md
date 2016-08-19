@@ -11,34 +11,34 @@ caps.latest.revision: 10
 manager: terryaus
 ---
 # How to: Change the Language in the User Interface
-You can change the language that is used for captions in windows, on command buttons, and in other UI elements from both the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)] and the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+You can change the language that is used for captions in windows, on command buttons, and in other UI elements from both the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] and the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
-### To change the language from the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)]  
+### To change the language from the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Language**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Language**.  
   
 2.  In the **Application Languages** window, select the language, and then choose the **OK** button.  
   
-### To change the language from the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]  
+### To change the language from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]  
   
-1.  In the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], in the app menu choose **Select Language**.  
+1.  In the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], in the app menu choose **Select Language**.  
   
 2.  In the **Select Language** page, select the language, and then choose the **OK** button.  
   
     > [!NOTE]  
     >  If you personalize a component such as a FactBox and then select a different language, then the personalized element is displayed in the original language. To view the elements in the new language, restore the default settings and reapply the personalization settings.  
   
-### To change the language from the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]  
+### To change the language from the [!INCLUDE[nav_web](includes/nav_web_md.md)]  
   
-1.  In the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], in the app bar upper right corner, choose the user name, and then choose **My Settings**.  
+1.  In the [!INCLUDE[nav_web](includes/nav_web_md.md)], in the app bar upper right corner, choose the user name, and then choose **My Settings**.  
   
 2.  In the **My Settings** page, select the language, and then choose the **OK** button.  
   
     > [!NOTE]  
-    >  This applies to the [!INCLUDE[nav_tablet](../dynamics-nav/includes/nav_tablet_md.md)] and [!INCLUDE[nav_phone](../dynamics-nav/includes/nav_phone_md.md)] also.  
+    >  This applies to the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLUDE[nav_phone](includes/nav_phone_md.md)] also.  
     >   
     >  Regional settings follow the selected language.  
   
 ## See Also  
- [Viewing the Application in Different Languages](../dynamics-nav/Viewing-the-Application-in-Different-Languages.md)   
- [Multilanguage Development](../dynamics-nav/Multilanguage-Development.md)
+ [Viewing the Application in Different Languages](Viewing-the-Application-in-Different-Languages.md)   
+ [Multilanguage Development](Multilanguage-Development.md)

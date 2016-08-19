@@ -25,17 +25,17 @@ When you publish a page as a SOAP web service, it has a set of default operation
   
 |Operation|Description and signature|  
 |---------------|-------------------------------|  
-|[Create Operation](../dynamics-nav/Create-Operation.md)|Creates a single record.<br /><br /> `void Create(ref Entity entity)`|  
-|[CreateMultiple Operation](../dynamics-nav/CreateMultiple-Operation.md)|Creates a set of records.<br /><br /> `void CreateMultiple(ref Entity[] entity)`|  
-|[Delete Operation](../dynamics-nav/Delete-Operation.md)|Deletes a single record.<br /><br /> `bool Delete(string key)`|  
+|[Create Operation](Create-Operation.md)|Creates a single record.<br /><br /> `void Create(ref Entity entity)`|  
+|[CreateMultiple Operation](CreateMultiple-Operation.md)|Creates a set of records.<br /><br /> `void CreateMultiple(ref Entity[] entity)`|  
+|[Delete Operation](Delete-Operation.md)|Deletes a single record.<br /><br /> `bool Delete(string key)`|  
 |[Delete\_\<part\> Operation](../Topic/Delete_%3Cpart%3E%20Operation.md)|Deletes a subpage of the current page.<br /><br /> `bool Delete_<part>(string key)`|  
-|[GetRecIdFromKey](../dynamics-nav/GetRecIdFromKey.md)|Converts a key, which is always part of the page result, to a record ID.<br /><br /> `string GetRecIdFromKey(string key)`|  
-|[IsUpdated Operation](../dynamics-nav/IsUpdated-Operation.md)|Checks if an object has been updated since the key was obtained.<br /><br /> `bool IsUpdated(string key)`|  
-|[Read Operation](../dynamics-nav/Read-Operation.md)|Reads a single record.<br /><br /> `Entity Read(string no)`|  
-|[ReadByRecId Operation](../dynamics-nav/ReadByRecId-Operation.md)|Reads the record that is identified by RecId. You can use GetRecIdFromKey to obtain a record ID. If the record is not found, then the operation returns null.<br /><br /> `Entity ReadByRecId(string formattedRecId)`|  
-|[ReadMultiple Operation](../dynamics-nav/ReadMultiple-Operation.md)|Reads a filtered set of records, paged.<br /><br /> `Entity [] ReadMultiple(Entity_Filter[] filterArray, string bookmarkKey, int setSize)`|  
-|[Update Operation](../dynamics-nav/Update-Operation.md)|Updates a single record.<br /><br /> `void Update(ref Entity entity)`|  
-|[UpdateMultiple Operation](../dynamics-nav/UpdateMultiple-Operation.md)|Updates a set of records.<br /><br /> `void UpdateMultiple(ref Entity[] entity)`|  
+|[GetRecIdFromKey](GetRecIdFromKey.md)|Converts a key, which is always part of the page result, to a record ID.<br /><br /> `string GetRecIdFromKey(string key)`|  
+|[IsUpdated Operation](IsUpdated-Operation.md)|Checks if an object has been updated since the key was obtained.<br /><br /> `bool IsUpdated(string key)`|  
+|[Read Operation](Read-Operation.md)|Reads a single record.<br /><br /> `Entity Read(string no)`|  
+|[ReadByRecId Operation](ReadByRecId-Operation.md)|Reads the record that is identified by RecId. You can use GetRecIdFromKey to obtain a record ID. If the record is not found, then the operation returns null.<br /><br /> `Entity ReadByRecId(string formattedRecId)`|  
+|[ReadMultiple Operation](ReadMultiple-Operation.md)|Reads a filtered set of records, paged.<br /><br /> `Entity [] ReadMultiple(Entity_Filter[] filterArray, string bookmarkKey, int setSize)`|  
+|[Update Operation](Update-Operation.md)|Updates a single record.<br /><br /> `void Update(ref Entity entity)`|  
+|[UpdateMultiple Operation](UpdateMultiple-Operation.md)|Updates a set of records.<br /><br /> `void UpdateMultiple(ref Entity[] entity)`|  
   
 ## See Also  
  [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](../Topic/Walkthrough:%20Registering%20and%20Using%20a%20Page%20Web%20Service%20\(SOAP\).md)   

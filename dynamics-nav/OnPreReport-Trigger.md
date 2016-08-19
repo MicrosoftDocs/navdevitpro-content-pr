@@ -25,4 +25,4 @@ ReportFilter := SomeRecord.GETFILTERS;
  Use the ReportFilter text string as the source expression for a control in a section of the report.  
   
 ## See Also  
- [GETFILTERS Function \(Record\)](../dynamics-nav/GETFILTERS-Function--Record-.md)
+ [GETFILTERS Function \(Record\)](GETFILTERS-Function--Record-.md)

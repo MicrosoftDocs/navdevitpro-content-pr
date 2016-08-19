@@ -11,7 +11,7 @@ caps.latest.revision: 10
 manager: terryaus
 ---
 # Troubleshooting the Microsoft Dynamics NAV Web Client Installation
-This section contains information to help you resolve problems with [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] installation.  
+This section contains information to help you resolve problems with [!INCLUDE[nav_web](includes/nav_web_md.md)] installation.  
   
 ## Troubleshooting Topics  
  You can find help about the following problems:  
@@ -37,6 +37,6 @@ This section contains information to help you resolve problems with [!INCLUDE[na
 -   [Troubleshooting: Reports that are saved as Excel or Word files are blank](../Topic/Troubleshooting:%20Reports%20that%20are%20saved%20as%20Excel%20or%20Word%20files%20are%20blank.md)  
   
 ## See Also  
- [Microsoft Dynamics NAV Web Client](../dynamics-nav/Microsoft-Dynamics-NAV-Web-Client.md)   
- [Deploying the Microsoft Dynamics NAV Web Server Components](../dynamics-nav/Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
+ [Microsoft Dynamics NAV Web Client](Microsoft-Dynamics-NAV-Web-Client.md)   
+ [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
  [How to: Install the Web Server Components](../Topic/How%20to:%20Install%20the%20Web%20Server%20Components.md)

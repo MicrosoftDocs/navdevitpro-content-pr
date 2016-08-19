@@ -37,7 +37,7 @@ Caption := Record.FIELDCAPTION(Field)
  The caption is a string.  
   
 ## Remarks  
- The **FIELDCAPTION** function returns the caption of a specified field. **FIELDCAPTION** searches for a [CaptionML Property](../dynamics-nav/CaptionML-Property.md). If none is found, the [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md) is used. This means that **FIELDCAPTION** has multilanguage functionality.  
+ The **FIELDCAPTION** function returns the caption of a specified field. **FIELDCAPTION** searches for a [CaptionML Property](CaptionML-Property.md). If none is found, the [Name Property\-duplicate](Name-Property-duplicate.md) is used. This means that **FIELDCAPTION** has multilanguage functionality.  
   
 ## Example  
  The following example uses the **FIELDCAPTION** function to retrieve the caption of the Address 2 field in the **Customer** table. The function stores the retrieved caption in the varFieldCaption variable and displays it in a message box. In this **Customer** table, the field name is the same as the caption so the value Address 2 is displayed for the caption. If you change the caption for Address 2 in the Address 2 property window, then the new caption will be displayed. This example requires that you create the following variables in the **C\/AL Globals** window.  
@@ -53,6 +53,6 @@ MESSAGE(varFieldCaption);
 ```  
   
 ## See Also  
- [TABLECAPTION Function \(Record\)](../dynamics-nav/TABLECAPTION-Function--Record-.md)   
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)   
- [Multilanguage Development](../dynamics-nav/Multilanguage-Development.md)
+ [TABLECAPTION Function \(Record\)](TABLECAPTION-Function--Record-.md)   
+ [Record Data Type](Record-Data-Type.md)   
+ [Multilanguage Development](Multilanguage-Development.md)

@@ -15,7 +15,7 @@ To use Automated Data Capture System, you must enable the ADCS web service.
   
 ### To enable and publish the ADCS web service  
   
-1.  Start the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)].  
+1.  Start the [!INCLUDE[rtc](includes/rtc_md.md)].  
   
 2.  In the **Search** box, enter **Web Services**, and then choose the related link.  
   
@@ -23,7 +23,7 @@ To use Automated Data Capture System, you must enable the ADCS web service.
   
 4.  In the **\($ N\_810 Web Services $\)** window, enter the following information on a new line:  
   
-    |[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|Value|  
+    |[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|Value|  
     |---------------------------------|-----------|  
     |**Object Type**|Codeunit|  
     |**Object ID**|7714|  
@@ -56,7 +56,7 @@ To use Automated Data Capture System, you must enable the ADCS web service.
      Information about the ADCS web service is displayed.  
   
 ## See Also  
- [Configuring Automated Data Capture System](../dynamics-nav/Configuring-Automated-Data-Capture-System.md)   
+ [Configuring Automated Data Capture System](Configuring-Automated-Data-Capture-System.md)   
  [\($ N\_7703 Miniforms $\)](../Topic/\($%20N_7703%20Miniforms%20$\).md)   
  [How to: Configure ADCS Options](../Topic/How%20to:%20Configure%20ADCS%20Options.md)   
- [SOAP Web Services](../dynamics-nav/SOAP-Web-Services.md)
+ [SOAP Web Services](SOAP-Web-Services.md)

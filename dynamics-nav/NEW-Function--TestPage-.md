@@ -26,4 +26,4 @@ TestPage.NEW
  The test page that contains the dataset.  
   
 ## See Also  
- [TestPage Functions](../dynamics-nav/TestPage-Functions.md)
+ [TestPage Functions](TestPage-Functions.md)

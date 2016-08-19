@@ -31,13 +31,13 @@ Ok := RecordRef.WRITEPERMISSION
   
  Specifies if you have permission to write to the table using any of the following RecordRef functions:  
   
--   [INSERT Function \(RecordRef\)](../dynamics-nav/INSERT-Function--RecordRef-.md)  
+-   [INSERT Function \(RecordRef\)](INSERT-Function--RecordRef-.md)  
   
--   [DELETE Function \(RecordRef\)](../dynamics-nav/DELETE-Function--RecordRef-.md)  
+-   [DELETE Function \(RecordRef\)](DELETE-Function--RecordRef-.md)  
   
--   [MODIFY Function \(RecordRef\)](../dynamics-nav/MODIFY-Function--RecordRef-.md)  
+-   [MODIFY Function \(RecordRef\)](MODIFY-Function--RecordRef-.md)  
   
--   [DELETEALL Function \(RecordRef\)](../dynamics-nav/DELETEALL-Function--RecordRef-.md)  
+-   [DELETEALL Function \(RecordRef\)](DELETEALL-Function--RecordRef-.md)  
   
  **true** if you can write to some or all of the table; otherwise, **false**.  
   
@@ -50,7 +50,7 @@ Ok := RecordRef.WRITEPERMISSION
   
  If you do not have permission to write to a table and you attempt to write, a run\-time error occurs. This function lets you determine in advance if you have write permission. When the permissions are checked, the combination of permissions in the license file and the user's permissions in the Permission table is considered.  
   
- This function works the same as the [WRITEPERMISSION Function \(Record\)](../dynamics-nav/WRITEPERMISSION-Function--Record-.md).  
+ This function works the same as the [WRITEPERMISSION Function \(Record\)](WRITEPERMISSION-Function--Record-.md).  
   
 ## Example  
  The following example opens table 18 \(Customer\) and creates a RecordRef variable that is named MyRecordRef for the table. The WRITEPERMISSION function determines whether the table has write permission and stores the return value in the varHasWritePerm variable. The Customer table has write permission, so the message displays **Yes**. You can initialize the varTableNo variable with any table number. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
@@ -74,4 +74,4 @@ MESSAGE(Text000, MyRecordRef.NAME, varHasWritePerm);
 ```  
   
 ## See Also  
- [RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md)
+ [RecordRef Data Type](RecordRef-Data-Type.md)

@@ -13,4 +13,4 @@ manager: terryaus
 # ($ S_2170 Image List $)
 Shows images that you can associate with an action. You can only choose from the images that are available in this window.  
   
- To open this window, open Action Designer, and then select an action. On the **View** menu, choose **Properties** and then locate the **Image** property. In the **Value** field, choose the **Up Arrow** button. For more information about how to open Action Designer, see [\($ S\_21407 Action Designer $\)](../dynamics-nav/-$-S_21407-Action-Designer-$-.md).
+ To open this window, open Action Designer, and then select an action. On the **View** menu, choose **Properties** and then locate the **Image** property. In the **Value** field, choose the **Up Arrow** button. For more information about how to open Action Designer, see [\($ S\_21407 Action Designer $\)](-$-S_21407-Action-Designer-$-.md).

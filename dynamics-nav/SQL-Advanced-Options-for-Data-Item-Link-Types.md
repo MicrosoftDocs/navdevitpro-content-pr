@@ -11,7 +11,7 @@ caps.latest.revision: 14
 manager: terryaus
 ---
 # SQL Advanced Options for Data Item Link Types
-With queries, you can link data items together to combine records from two or more tables into a single dataset. In Query Designer, tables are defined by data items. To create a link between data items, you set the [DataItemLinkType Property](../dynamics-nav/DataItemLinkType-Property.md) of a data item in Query Designer. The DataItemLinkType property controls which records to include or exclude from resulting dataset based on the conditions of the [DataItemLink Property \(Reports\)](../dynamics-nav/DataItemLink-Property--Reports-.md). The DataItemLinkType property includes the **SQL Advanced Options** value that you can use create links that correspond to joins in SQL select statements. For more general information about linking data items, see [Understanding Data Item Links](../dynamics-nav/Understanding-Data-Item-Links.md).  
+With queries, you can link data items together to combine records from two or more tables into a single dataset. In Query Designer, tables are defined by data items. To create a link between data items, you set the [DataItemLinkType Property](DataItemLinkType-Property.md) of a data item in Query Designer. The DataItemLinkType property controls which records to include or exclude from resulting dataset based on the conditions of the [DataItemLink Property \(Reports\)](DataItemLink-Property--Reports-.md). The DataItemLinkType property includes the **SQL Advanced Options** value that you can use create links that correspond to joins in SQL select statements. For more general information about linking data items, see [Understanding Data Item Links](Understanding-Data-Item-Links.md).  
   
 ## Left and Right Table Designation  
  In SQL join statements, tables are designated as either left or right. In Query Designer, data items are arranged vertically, starting from the top. When linking data items in Query Designer, the left table in SQL corresponds to the first or upper data item in Query Designer and the right table in SQL corresponds to the second or lower table in Query Designer.  
@@ -19,15 +19,15 @@ With queries, you can link data items together to combine records from two or mo
 ## Accessing the SQL Advanced Options  
  When setting up a data item link between two data items, you always set up the link on the lower data item in Query Designer. To access the SQL advanced options, you open the properties of a data item, and then set the DataItemLinkType Property to **SQL Advanced Options**. The SQLJoinType property appears in the **Properties** window for the data item. The SQLJoinType property has the following values:  
   
--   [Inner Join](../dynamics-nav/SQL-Advanced-Options-for-Data-Item-Link-Types.md#InnerJoin)  
+-   [Inner Join](SQL-Advanced-Options-for-Data-Item-Link-Types.md#InnerJoin)  
   
--   [Left Outer Join](../dynamics-nav/SQL-Advanced-Options-for-Data-Item-Link-Types.md#LeftOuterJoin)  
+-   [Left Outer Join](SQL-Advanced-Options-for-Data-Item-Link-Types.md#LeftOuterJoin)  
   
--   [Right Outer Join](../dynamics-nav/SQL-Advanced-Options-for-Data-Item-Link-Types.md#RightOuterJoin)  
+-   [Right Outer Join](SQL-Advanced-Options-for-Data-Item-Link-Types.md#RightOuterJoin)  
   
--   [Full Outer Join](../dynamics-nav/SQL-Advanced-Options-for-Data-Item-Link-Types.md#FullOuterJoin)  
+-   [Full Outer Join](SQL-Advanced-Options-for-Data-Item-Link-Types.md#FullOuterJoin)  
   
--   [Cross Join](../dynamics-nav/SQL-Advanced-Options-for-Data-Item-Link-Types.md#CrossJoin)  
+-   [Cross Join](SQL-Advanced-Options-for-Data-Item-Link-Types.md#CrossJoin)  
   
 ## Sample Tables and Query  
  This topic uses the following sample tables and query to demonstrate the SQL Advanced Options for data item links.  
@@ -55,7 +55,7 @@ With queries, you can link data items together to combine records from two or mo
 ### Sample Query  
  The following illustration shows the Query Designer for a query that links the Sale Header table with the Salesperson\/Purchaser table on the **Salesperson\_code** and **Code** columns, as specified by the DataItemLink property. In the illustration, the SQL Advanced Options property is set to **Inner Join**. For each of the data item links types discussed in the following sections, you change the SQL Advanced Options property to the appropriate type.  
   
- ![Query Designer for an SQL Inner link type](../dynamics-nav/media/NAV_Query_Designer_SQL_Inner_Join.png "NAV\_Query\_Designer\_SQL\_Inner\_Join")  
+ ![Query Designer for an SQL Inner link type](media/NAV_Query_Designer_SQL_Inner_Join.png "NAV\_Query\_Designer\_SQL\_Inner\_Join")  
   
 ##  <a name="InnerJoin"></a> Inner Join  
  *Inner Join* creates a dataset by combining records from data item tables where a match is found between the columns that are linked by the DataItemLink property of the lower data item. **Inner Join** uses an "equal to" comparison operator to match rows from the lower data item table with rows from the upper data item table that is based on the values of the linked columns.  
@@ -66,7 +66,7 @@ With queries, you can link data items together to combine records from two or mo
   
  The following illustration shows an **Inner Join** type between tables A and B. The shaded area indicates the records that are included in the resulting dataset.  
   
- ![Visualization of SQL inner join between two tables](../dynamics-nav/media/NAV_Query_SQL_Inner_Join.png "NAV\_Query\_SQL\_Inner\_Join")  
+ ![Visualization of SQL inner join between two tables](media/NAV_Query_SQL_Inner_Join.png "NAV\_Query\_SQL\_Inner\_Join")  
   
 ### Dataset Example  
  The following table shows the resulting dataset for an Inner Join between the Sales Header table and Salesperson\/Purchaser table in sample query.  
@@ -109,7 +109,7 @@ WHERE "Salesperson/Purchaser".Code = "Sales Header"."Salesperson Code"
   
  The following illustration shows a **Left Outer Join** type between tables A and B. The shaded area indicates the records that are included in the resulting dataset. In the sample query, the Salesperson\/Purchaser table is considered the left table.  
   
- ![Visualization of SQL left outer join](../dynamics-nav/media/NAV_Query_SQL_Left_Outer_Join.png "NAV\_Query\_SQL\_Left\_Outer\_Join")  
+ ![Visualization of SQL left outer join](media/NAV_Query_SQL_Left_Outer_Join.png "NAV\_Query\_SQL\_Left\_Outer\_Join")  
   
 ### Dataset Example  
  The following table shows the resulting dataset for a Left Outer Join between the Sales Header table and Salesperson\/Purchaser table in sample query.  
@@ -143,7 +143,7 @@ FROM "Salesperson/Purchaser" LEFT OUTER JOIN "Sales Header"
   
  The following illustration shows a **Right Outer Join** type between tables A and B. The shaded area indicates the records that are included in the resulting dataset.  
   
- ![Visualization of SQL right outer join](../dynamics-nav/media/NAV_Query_SQL_Right_Outer_Join.png "NAV\_Query\_SQL\_Right\_Outer\_Join")  
+ ![Visualization of SQL right outer join](media/NAV_Query_SQL_Right_Outer_Join.png "NAV\_Query\_SQL\_Right\_Outer\_Join")  
   
 ### Dataset Example  
  The following table shows the resulting dataset for a Right Outer Join between the Salesperson\/Purchaser table and Sales Header table in the sample query. The Sales Header table is considered the right table.  
@@ -179,7 +179,7 @@ FROM "Salesperson/Purchaser" RIGHT OUTER JOIN "Sales Header"
   
  The following illustration shows a **Full Outer Join** type between tables A and B. The shaded area indicates the records that are included in the resulting dataset.  
   
- ![Visualization of an SQL full outer join](../dynamics-nav/media/NAV_Query_SQL_Full_Outer_Join.png "NAV\_Query\_SQL\_Full\_Outer\_Join")  
+ ![Visualization of an SQL full outer join](media/NAV_Query_SQL_Full_Outer_Join.png "NAV\_Query\_SQL\_Full\_Outer\_Join")  
   
 ### Dataset Example  
  The following table shows the resulting dataset for a Full Outer Join between the Sales Header table and Salesperson\/Purchaser table in sample query.  

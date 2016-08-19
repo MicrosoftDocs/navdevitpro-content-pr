@@ -17,4 +17,4 @@ Executed after the table views and filters are set and before the XMLport is run
  XMLports  
   
 ## See Also  
- [Triggers](../dynamics-nav/Triggers.md)
+ [Triggers](Triggers.md)

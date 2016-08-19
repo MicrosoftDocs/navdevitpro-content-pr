@@ -11,22 +11,22 @@ caps.latest.revision: 7
 manager: edupont
 ---
 # Events in Microsoft Dynamics NAV
-This section describes how you can use events in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)]. The use of events is a proven and established programming concept that can ease application upgrade and limit or even eliminate the need for code modifications in customized applications because of application platform changes.  
+This section describes how you can use events in [!INCLUDE[navnow](includes/navnow_md.md)]. The use of events is a proven and established programming concept that can ease application upgrade and limit or even eliminate the need for code modifications in customized applications because of application platform changes.  
   
 ## In This Section  
  This section contains the following topics about events.  
   
--   [Introducing Events](../dynamics-nav/Introducing-Events.md)  
+-   [Introducing Events](Introducing-Events.md)  
   
--   [Publishing Events](../dynamics-nav/Publishing-Events.md)  
+-   [Publishing Events](Publishing-Events.md)  
   
--   [Raising Events](../dynamics-nav/Raising-Events.md)  
+-   [Raising Events](Raising-Events.md)  
   
--   [Subscribing to Events](../dynamics-nav/Subscribing-to-Events.md)  
+-   [Subscribing to Events](Subscribing-to-Events.md)  
   
--   [Debugging Events](../dynamics-nav/Debugging-Events.md)  
+-   [Debugging Events](Debugging-Events.md)  
   
--   [Best Practices with Microsoft Dynamics NAV Events](../dynamics-nav/Best-Practices-with-Microsoft-Dynamics-NAV-Events.md)  
+-   [Best Practices with Microsoft Dynamics NAV Events](Best-Practices-with-Microsoft-Dynamics-NAV-Events.md)  
   
 -   [Walkthrough: Publishing, Raising, and Subcribing to an Event in Microsoft Dynamics NAV](../Topic/Walkthrough:%20Publishing,%20Raising,%20and%20Subcribing%20to%20an%20Event%20in%20Microsoft%20Dynamics%20NAV.md)  
   

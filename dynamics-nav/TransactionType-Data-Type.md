@@ -13,6 +13,6 @@ manager: terryaus
 # TransactionType Data Type
 Use variables of this complex data type to store the current transaction type. You can then use the value to set the transaction type. You can only change the transaction type when there is no current transaction \(immediately after a commit\).  
   
- For more information about transaction types, see [TransactionType Property](../dynamics-nav/TransactionType-Property.md).  
+ For more information about transaction types, see [TransactionType Property](TransactionType-Property.md).  
   
- For more information about the rules governing transaction types, see [CURRENTTRANSACTIONTYPE Function \(Database\)](../dynamics-nav/CURRENTTRANSACTIONTYPE-Function--Database-.md).
+ For more information about the rules governing transaction types, see [CURRENTTRANSACTIONTYPE Function \(Database\)](CURRENTTRANSACTIONTYPE-Function--Database-.md).

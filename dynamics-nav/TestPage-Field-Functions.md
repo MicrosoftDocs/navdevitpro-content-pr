@@ -14,4 +14,4 @@ manager: terryaus
 The field functions enable you to view or change the value of a field on a test page.  
   
 ## See Also  
- [Testing Pages](../dynamics-nav/Testing-Pages.md)
+ [Testing Pages](Testing-Pages.md)

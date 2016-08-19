@@ -13,7 +13,7 @@ manager: terryaus
 # How to: Export Objects
 You can export one or more application objects to one of the following formats:  
   
--   [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Object format \(.fob\)  
+-   [!INCLUDE[navnow](includes/navnow_md.md)] Object format \(.fob\)  
   
 -   Text format \(.txt\)  
   
@@ -24,7 +24,7 @@ You can export one or more application objects to one of the following formats:
   
 ### To export objects by using the development environment UI  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, select the object type that you want to export, or select **All** if you want to export different types of objects to the same file.  
   
@@ -36,7 +36,7 @@ You can export one or more application objects to one of the following formats:
   
 ### To export objects by running finsql.exe with the ExportObjects command  
   
-1.  At a command prompt, move to the location of finsql.exe. By default, finsql.exe is located at [!INCLUDE[navnow_x86install](../dynamics-nav/includes/navnow_x86install_md.md)]\\[!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)]\\.  
+1.  At a command prompt, move to the location of finsql.exe. By default, finsql.exe is located at [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\[!INCLUDE[rtc](includes/rtc_md.md)]\\.  
   
 2.  Run finsql.exe with the parameter "command\=exportobjects". You must specify the following parameters:  
   
@@ -48,7 +48,7 @@ You can export one or more application objects to one of the following formats:
   
      All other parameters are optional.  
   
-     For more information about the ExportObjects command, see [ExportObjects](../dynamics-nav/ExportObjects.md).  
+     For more information about the ExportObjects command, see [ExportObjects](ExportObjects.md).  
   
 ## See Also  
- [Importing and Exporting Objects](../dynamics-nav/Importing-and-Exporting-Objects.md)
+ [Importing and Exporting Objects](Importing-and-Exporting-Objects.md)

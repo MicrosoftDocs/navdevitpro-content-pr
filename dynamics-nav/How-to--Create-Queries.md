@@ -11,7 +11,7 @@ caps.latest.revision: 21
 manager: terryaus
 ---
 # How to: Create Queries
-A query describes a dataset of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] data. Queries retrieve records from one or more tables and combine the records into rows and columns in a single dataset. You create queries in the development environment using Query Designer. To create a query, you define *data items* and *columns*. A data item specifies the table to retrieve records from. A column specifies a field of the table to include in the resulting dataset of a query. After you have added the data items and columns, you create links between the data items. A data item link determines which records to include in the dataset based on a common field between two data items. For more information, see [Understanding Data Item Links](../dynamics-nav/Understanding-Data-Item-Links.md).  
+A query describes a dataset of [!INCLUDE[navnow](includes/navnow_md.md)] data. Queries retrieve records from one or more tables and combine the records into rows and columns in a single dataset. You create queries in the development environment using Query Designer. To create a query, you define *data items* and *columns*. A data item specifies the table to retrieve records from. A column specifies a field of the table to include in the resulting dataset of a query. After you have added the data items and columns, you create links between the data items. A data item link determines which records to include in the dataset based on a common field between two data items. For more information, see [Understanding Data Item Links](Understanding-Data-Item-Links.md).  
   
 ### To create a query and add data items and columns  
   
@@ -42,10 +42,10 @@ A query describes a dataset of [!INCLUDE[navnow](../dynamics-nav/includes/navnow
   
 8.  In the **Name** column, enter a CLS\-compliant name for the field.  
   
-9. In the user interface for the query results, such as in a chart, the name of the underlying table field is displayed for the query column. If you want to display a different name for the column, then change the [Caption Property\-duplicate](../dynamics-nav/Caption-Property-duplicate.md) or [CaptionML Property](../dynamics-nav/CaptionML-Property.md).  
+9. In the user interface for the query results, such as in a chart, the name of the underlying table field is displayed for the query column. If you want to display a different name for the column, then change the [Caption Property\-duplicate](Caption-Property-duplicate.md) or [CaptionML Property](CaptionML-Property.md).  
   
     > [!NOTE]  
-    >  When you run the query from Object Designer, the **About This Query** window that opens in the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)] displays the name that is defined by the **Name** property of the column, not the **Caption** property or **CaptionML** property.  
+    >  When you run the query from Object Designer, the **About This Query** window that opens in the [!INCLUDE[rtc](includes/rtc_md.md)] displays the name that is defined by the **Name** property of the column, not the **Caption** property or **CaptionML** property.  
   
 10. Continue to enter DataItems and Columns in Query Designer until it contains all fields from all tables that you want to include in the query.  
   
@@ -86,7 +86,7 @@ A query describes a dataset of [!INCLUDE[navnow](../dynamics-nav/includes/navnow
     |**Exclude Row If No Match**|The resulting dataset will include only records from data item tables that have matching values for the fields that are linked by the **DataItemLink** property.|  
     |**SQL Advanced Options**|Provides alternatives to **Use Default Values If No Match** and **Exclude Row If No Match** for generating a dataset that corresponds to joins in SQL SELECT statements. When you set the property to **SQL Advanced Options**, the **SQLJoinType** property appears so that you can select the SQL join type.|  
   
-10. If you set the **DataItemLinkType** property to **SQL Advanced Options**, then set the **SQLJoinType** property. For more information, see [SQL Advanced Options for Data Item Link Types](../dynamics-nav/SQL-Advanced-Options-for-Data-Item-Link-Types.md).  
+10. If you set the **DataItemLinkType** property to **SQL Advanced Options**, then set the **SQLJoinType** property. For more information, see [SQL Advanced Options for Data Item Link Types](SQL-Advanced-Options-for-Data-Item-Link-Types.md).  
   
 11. Close the **Properties** window.  
   
@@ -98,6 +98,6 @@ A query describes a dataset of [!INCLUDE[navnow](../dynamics-nav/includes/navnow
   
 ## See Also  
  [Walkthrough: Creating a Query to Link Two Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md)   
- [SQLJoinType Property](../dynamics-nav/SQLJoinType-Property.md)   
+ [SQLJoinType Property](SQLJoinType-Property.md)   
  [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](../Topic/Walkthrough:%20Creating%20a%20Query%20That%20Uses%20a%20Totaling%20Method%20and%20Sorting.md)   
- [Understanding Data Item Links](../dynamics-nav/Understanding-Data-Item-Links.md)
+ [Understanding Data Item Links](Understanding-Data-Item-Links.md)

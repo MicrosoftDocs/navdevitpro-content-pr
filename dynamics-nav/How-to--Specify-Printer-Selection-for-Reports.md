@@ -36,7 +36,7 @@ translation.priority.ht:
   - sv-se
 ---
 # How to: Specify Printer Selection for Reports
-You can set up reports so that they must be printed on a specific printer from the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. The following are some uses of printer selection:  
+You can set up reports so that they must be printed on a specific printer from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. The following are some uses of printer selection:  
   
 -   You can print reports on special company letterhead.  
   
@@ -44,7 +44,7 @@ You can set up reports so that they must be printed on a specific printer from t
   
 -   You can print reports on the default printer of a specified employee.  
   
--   When you start a session by using the [STARTSESSION Function \(Sessions\)](../dynamics-nav/STARTSESSION-Function--Sessions-.md), which does not have a UI, you can print reports from the server.  
+-   When you start a session by using the [STARTSESSION Function \(Sessions\)](STARTSESSION-Function--Sessions-.md), which does not have a UI, you can print reports from the server.  
   
  You can set different values to obtain different output. If you set a specific printer selection, then it takes precedence over a more general printer selection. For example, you can set a printer selection that has values in the **User ID**, **Report ID**, and **Printer Name** fields. This printer selection takes precedence over a printer selection that has blank entries in the **User ID** or **Report ID** fields.  
   
@@ -60,7 +60,7 @@ You can set up reports so that they must be printed on a specific printer from t
   
 ### To set up printer selections for a report  
   
-1.  In the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], in the navigation pane, choose **Departments**, choose **Administration**, choose **IT Administration**, choose **General**, and then choose **Printer Selections**.  
+1.  In the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], in the navigation pane, choose **Departments**, choose **Administration**, choose **IT Administration**, choose **General**, and then choose **Printer Selections**.  
   
 2.  On the **Home** tab, in the **New** group, choose **New** to add a printer selection for a specific report.  
   
@@ -75,4 +75,4 @@ You can set up reports so that they must be printed on a specific printer from t
  The specified report is now set up to print to the selected printer. You can always change the printer selection in the **Print** dialog box.  
   
 ## See Also  
- [Printing Reports](../dynamics-nav/Printing-Reports.md)
+ [Printing Reports](Printing-Reports.md)

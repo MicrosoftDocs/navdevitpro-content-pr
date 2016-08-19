@@ -49,7 +49,7 @@ Reads a filtered set of records. This operation returns an array of entities. Th
   
 -   Field contains the name of the field that the filter is applied to. This name comes from the Entity\_Fields enum.  
   
--   Criteria is of type string and can contain any valid [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] style filter that is specified in a standard [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] filter format.  
+-   Criteria is of type string and can contain any valid [!INCLUDE[navnow](includes/navnow_md.md)] style filter that is specified in a standard [!INCLUDE[navnow](includes/navnow_md.md)] filter format.  
   
 ## Usage Examples  
  The following example returns the first 100 customer names that start with an S. For a detailed code example, see [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](../Topic/Walkthrough:%20Registering%20and%20Using%20a%20Page%20Web%20Service%20\(SOAP\).md).  
@@ -90,4 +90,4 @@ foreach (Customer customer in customerList)
 ```  
   
 ## See Also  
- [Basic Page Operations](../dynamics-nav/Basic-Page-Operations.md)
+ [Basic Page Operations](Basic-Page-Operations.md)

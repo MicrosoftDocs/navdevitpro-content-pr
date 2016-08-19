@@ -75,4 +75,4 @@ RequestPage.SAVEASXML(LabelsFilename,DatasetFilename);
 ```  
   
 ## See Also  
- [TestRequestPage Data Type](../dynamics-nav/TestRequestPage-Data-Type.md)
+ [TestRequestPage Data Type](TestRequestPage-Data-Type.md)

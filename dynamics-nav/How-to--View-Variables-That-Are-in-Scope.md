@@ -18,7 +18,7 @@ On the **Debugger** page, if the debugger has broken code execution, then you ca
 -   In the **Debugger** window, on the **Home** tab, in the **Show** group, choose **Variables**. The **Debugger Variable List** opens.  
   
 ## See Also  
- [Debugging](../dynamics-nav/Debugging.md)   
+ [Debugging](Debugging.md)   
  [How to: Add Variables to the Watches FactBox](../Topic/How%20to:%20Add%20Variables%20to%20the%20Watches%20FactBox.md)   
  [How to: Remove Variables from the Watches FactBox](../Topic/How%20to:%20Remove%20Variables%20from%20the%20Watches%20FactBox.md)   
  [How to: Show the Last Error When Debugging Code](../Topic/How%20to:%20Show%20the%20Last%20Error%20When%20Debugging%20Code.md)

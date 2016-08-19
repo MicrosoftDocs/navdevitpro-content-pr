@@ -15,10 +15,10 @@ You use function statements to execute either built\-in system functions or user
   
  If you assign the return value of a function call to a variable, then you use the function statement as part of an assignment statement.  
   
- Triggers are C\/AL elements that consist of an event and a function. Triggers execute a function when a certain event occurs. For more information, see [Triggers Overview](../dynamics-nav/Triggers-Overview.md) and [Triggers](../dynamics-nav/Triggers.md).  
+ Triggers are C\/AL elements that consist of an event and a function. Triggers execute a function when a certain event occurs. For more information, see [Triggers Overview](Triggers-Overview.md) and [Triggers](Triggers.md).  
   
 ## Example  
- The following example calls the [INIT Function \(Record\)](../dynamics-nav/INIT-Function--Record-.md) on a record variable. This example requires that you create the following variable.  
+ The following example calls the [INIT Function \(Record\)](INIT-Function--Record-.md) on a record variable. This example requires that you create the following variable.  
   
 |Name|DataType|Subtype|  
 |----------|--------------|-------------|  
@@ -29,7 +29,7 @@ CustomerRecord.INIT;
 ```  
   
 ## Example  
- The following example calls the [CALCDATE Function \(Date\)](../dynamics-nav/CALCDATE-Function--Date-.md) and assigns the return value to a variable. The CALCDATE function has two parameters. This example uses the DateExpression and ReferenceDate variables in the function call. The values of the variables are passed to the CALCDATE function.  
+ The following example calls the [CALCDATE Function \(Date\)](CALCDATE-Function--Date-.md) and assigns the return value to a variable. The CALCDATE function has two parameters. This example uses the DateExpression and ReferenceDate variables in the function call. The values of the variables are passed to the CALCDATE function.  
   
  This example requires that you create the following variables.  
   
@@ -48,6 +48,6 @@ NewDate := CALCDATE(DateExpression, ReferenceDate);
  After you run the code in this example, the NewDate variable represents the date November 18, 2009.  
   
 ## See Also  
- [C\-AL Functions](../dynamics-nav/C-AL-Functions.md)   
- [Triggers](../dynamics-nav/Triggers.md)   
- [C\-AL Simple Statements](../dynamics-nav/C-AL-Simple-Statements.md)
+ [C\-AL Functions](C-AL-Functions.md)   
+ [Triggers](Triggers.md)   
+ [C\-AL Simple Statements](C-AL-Simple-Statements.md)

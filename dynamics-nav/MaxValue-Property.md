@@ -30,6 +30,6 @@ Sets the maximum numeric value for a field.
  The field setting is checked during validation. Validation occurs only if the field or control value is updated through the UI, for example, if a value is updated on a page or if a field is updated in a table directly. If a field is updated through application code, then the **MaxValue** is not validated.  
   
 ## See Also  
- [MinValue Property](../dynamics-nav/MinValue-Property.md)   
- [NotBlank Property](../dynamics-nav/NotBlank-Property.md)   
- [Numeric Property](../dynamics-nav/Numeric-Property.md)
+ [MinValue Property](MinValue-Property.md)   
+ [NotBlank Property](NotBlank-Property.md)   
+ [Numeric Property](Numeric-Property.md)

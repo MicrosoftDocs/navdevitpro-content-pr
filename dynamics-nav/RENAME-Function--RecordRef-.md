@@ -60,11 +60,11 @@ Changes the value of a primary key in a table.
   
  **Enter your changes again in the updated window, or start the interrupted activity again.**  
   
- In earlier versions of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], certain situations allowed code that an end\-user runs to modify a record after a newer version of the record was written and committed to the database. This would overwrite the newer changes. However, in [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], we have restricted the [MODIFY Function \(RecordRef\)](../dynamics-nav/MODIFY-Function--RecordRef-.md), **RENAME** Function \(RecordRef\), and [DELETE Function \(RecordRef\)](../dynamics-nav/DELETE-Function--RecordRef-.md) so that the end\-user receives the following run\-time error in these certain situations:  
+ In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], certain situations allowed code that an end\-user runs to modify a record after a newer version of the record was written and committed to the database. This would overwrite the newer changes. However, in [!INCLUDE[navnowlong](includes/navnowlong_md.md)], we have restricted the [MODIFY Function \(RecordRef\)](MODIFY-Function--RecordRef-.md), **RENAME** Function \(RecordRef\), and [DELETE Function \(RecordRef\)](DELETE-Function--RecordRef-.md) so that the end\-user receives the following run\-time error in these certain situations:  
   
  **Unable to change an earlier version of the \<Table Name\> record. The record should be read from the database again. This is a programming error.**  
   
- You must design your application so that you use the most up\-to\-date version of the record for modifications to the database. You use the [GET Function \(RecordRef\)](../dynamics-nav/GET-Function--RecordRef-.md) to refresh the record with the latest version.  
+ You must design your application so that you use the most up\-to\-date version of the record for modifications to the database. You use the [GET Function \(RecordRef\)](GET-Function--RecordRef-.md) to refresh the record with the latest version.  
   
 ## Example  
  This example shows how to change the value of the primary key of a Record variable, and how to change the value of the primary key of a RecordRef variable. This example requires that you create the following variables in the **C\/AL Globals** window.  
@@ -105,4 +105,4 @@ END ELSE
  **After rename 2 \- Customer name: Spotsmeyer’s Furnishings; Customer number: 8888888**  
   
 ## See Also  
- [RENAME Function \(Record\)](../dynamics-nav/RENAME-Function--Record-.md)
+ [RENAME Function \(Record\)](RENAME-Function--Record-.md)

@@ -33,7 +33,7 @@ String := DECRYPT(Str)
  If encryption is not enabled or the encryption key does not exist, the following error will be displayed: **An encryption key is required to complete the request**. If decryption failed because input data could not be decrypted, the following error will be displayed: **Unable to decrypt data. The data was encrypted using a different key**.  
   
 ## Example  
- This code example checks whether the tenant is configured to allow encryption using the [ENCRYPTIONENABLED](../dynamics-nav/ENCRYPTIONENABLED.md) function, and then it decrypts an encrypted text string.  
+ This code example checks whether the tenant is configured to allow encryption using the [ENCRYPTIONENABLED](ENCRYPTIONENABLED.md) function, and then it decrypts an encrypted text string.  
   
  This example requires that you create the following text constants: EncryptedText and PlainText.  
   
@@ -45,6 +45,6 @@ IF NOT ENCRYPTIONENABLED THEN
 ```  
   
 ## See Also  
- [System](../dynamics-nav/System.md)   
- [Technical Reference](../dynamics-nav/Technical-Reference.md)   
- [C\-SIDE Reference Guide](../dynamics-nav/C-SIDE-Reference-Guide.md)
+ [System](System.md)   
+ [Technical Reference](Technical-Reference.md)   
+ [C\-SIDE Reference Guide](C-SIDE-Reference-Guide.md)

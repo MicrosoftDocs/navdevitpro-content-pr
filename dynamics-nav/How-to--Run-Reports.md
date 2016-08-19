@@ -13,9 +13,9 @@ manager: edupont
 # How to: Run Reports
 You can run reports:  
   
--   From the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+-   From the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
--   From the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)].  
+-   From the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
 -   From Object Designer.  
   
@@ -25,28 +25,28 @@ You can run reports:
   
 -   From a web browser window with command\-line arguments.  
   
-### To run a report from the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]  
+### To run a report from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]  
   
 -   Add an action for running the report to a page. For more information, see [How to: Make a Report Available from a Page](../Topic/How%20to:%20Make%20a%20Report%20Available%20from%20a%20Page.md).  
   
-### To run a report from the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]  
+### To run a report from the [!INCLUDE[nav_web](includes/nav_web_md.md)]  
   
 -   Do one of the following:  
   
-    -   Open a report directly by using its Internet address. For more information, see [Opening a Report in the Microsoft Dynamics NAV Web Client by Using a URL](../dynamics-nav/Opening-a-Report-in-the-Microsoft-Dynamics-NAV-Web-Client-by-Using-a-URL.md)  
+    -   Open a report directly by using its Internet address. For more information, see [Opening a Report in the Microsoft Dynamics NAV Web Client by Using a URL](Opening-a-Report-in-the-Microsoft-Dynamics-NAV-Web-Client-by-Using-a-URL.md)  
   
     -   Add an action for running the report to a page. For more information, see [How to: Make a Report Available from a Page](../Topic/How%20to:%20Make%20a%20Report%20Available%20from%20a%20Page.md).  
   
 ### To run a report from Object Designer  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **Report**.  
   
 3.  Select the report that you want to run, and then choose **Run**.  
   
 ## Running Reports Using Command\-Line Arguments  
- To run a report using command\-line arguments, you must know the ID of the report. By using command\-line arguments, you have various options for opening the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)] and pages and reports in different modes. For example, you can specify a specific server or specific language, or you can create hyperlinks to specific reports. For more information, see [Starting the Windows Client at the Command Prompt](../Topic/Starting%20the%20Windows%20Client%20at%20the%20Command%20Prompt.md) and [Creating and Running Hyperlinks](../dynamics-nav/Creating-and-Running-Hyperlinks.md).  
+ To run a report using command\-line arguments, you must know the ID of the report. By using command\-line arguments, you have various options for opening the [!INCLUDE[rtc](includes/rtc_md.md)] and pages and reports in different modes. For example, you can specify a specific server or specific language, or you can create hyperlinks to specific reports. For more information, see [Starting the Windows Client at the Command Prompt](../Topic/Starting%20the%20Windows%20Client%20at%20the%20Command%20Prompt.md) and [Creating and Running Hyperlinks](Creating-and-Running-Hyperlinks.md).  
   
  When you run a report using command\-line arguments, you can filter the data in the report by adding a filter string to the command. The filter string has the following format:  
   
@@ -82,9 +82,9 @@ DynamicsNAV:////runreport?report=101&filter=Customer.City:G*&filter=Customer.Nam
   
 #### To run a report at the command prompt  
   
-1.  At the command prompt, change to the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)] directory with the following cd command:  
+1.  At the command prompt, change to the [!INCLUDE[rtc](includes/rtc_md.md)] directory with the following cd command:  
   
-     cd "[!INCLUDE[navnow_install](../dynamics-nav/includes/navnow_install_md.md)]\\RoleTailored Client"  
+     cd "[!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\RoleTailored Client"  
   
 2.  Type the following command:  
   
@@ -111,4 +111,4 @@ DynamicsNAV:////runreport?report=101&filter=Customer.City:G*&filter=Customer.Nam
      Replace *\<ReportID\>* with the report ID that you want to run. If you want to filter the data, then replace *\<table\>*, *\<field\>*, and *\<value\>* with the appropriate values.  
   
 ## See Also  
- [Designing Reports](../dynamics-nav/Designing-Reports.md)
+ [Designing Reports](Designing-Reports.md)

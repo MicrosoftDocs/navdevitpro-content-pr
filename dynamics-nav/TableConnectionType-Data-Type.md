@@ -12,15 +12,15 @@ caps.latest.revision: 2
 # TableConnectionType Data Type
 Use variables of this data type to specify the type of connection to an external database.  
   
- You can specify tables as external by setting the TableType property. For more information, see [External Tables](../dynamics-nav/External-Tables.md).  
+ You can specify tables as external by setting the TableType property. For more information, see [External Tables](External-Tables.md).  
   
 ## Syntax  
   
 ## See Also  
- [TableType Property](../dynamics-nav/TableType-Property.md)   
- [External Tables](../dynamics-nav/External-Tables.md)   
- [REGISTERTABLECONNECTION Function \(Database\)](../dynamics-nav/REGISTERTABLECONNECTION-Function--Database-.md)   
- [UNREGISTERTABLECONNECTION Function \(Database\)](../dynamics-nav/UNREGISTERTABLECONNECTION-Function--Database-.md)   
- [SETDEFAULTTABLECONNECTION Function \(Database\)](../dynamics-nav/SETDEFAULTTABLECONNECTION-Function--Database-.md)   
- [GETDEFAULTTABLECONNECTION Function \(Database\)](../dynamics-nav/GETDEFAULTTABLECONNECTION-Function--Database-.md)   
- [HASTABLECONNECTION Function \(Database\)](../dynamics-nav/HASTABLECONNECTION-Function--Database-.md)
+ [TableType Property](TableType-Property.md)   
+ [External Tables](External-Tables.md)   
+ [REGISTERTABLECONNECTION Function \(Database\)](REGISTERTABLECONNECTION-Function--Database-.md)   
+ [UNREGISTERTABLECONNECTION Function \(Database\)](UNREGISTERTABLECONNECTION-Function--Database-.md)   
+ [SETDEFAULTTABLECONNECTION Function \(Database\)](SETDEFAULTTABLECONNECTION-Function--Database-.md)   
+ [GETDEFAULTTABLECONNECTION Function \(Database\)](GETDEFAULTTABLECONNECTION-Function--Database-.md)   
+ [HASTABLECONNECTION Function \(Database\)](HASTABLECONNECTION-Function--Database-.md)

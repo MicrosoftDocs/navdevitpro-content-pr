@@ -11,7 +11,7 @@ caps.latest.revision: 17
 manager: terryaus
 ---
 # Walkthrough: Transferring a File from Microsoft Dynamics NAV Server to the Client
-This walkthrough demonstrates how to develop a codeunit that creates a file on [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)], opens the file, writes some data to it, and then downloads that file to a RoleTailored client.  
+This walkthrough demonstrates how to develop a codeunit that creates a file on [!INCLUDE[nav_server](includes/nav_server_md.md)], opens the file, writes some data to it, and then downloads that file to a RoleTailored client.  
   
 ## About This Walkthrough  
  This walkthrough illustrates the following tasks:  
@@ -23,7 +23,7 @@ This walkthrough demonstrates how to develop a codeunit that creates a file on [
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] installed with a developer license  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installed with a developer license  
   
 ## Creating the Codeunit  
  The first step is to create the codeunit. In the codeunit, the `toFile` variable is initially assigned a value of **samplefile.txt**. If the user specifies another file name, then this new value and the file path are returned in `toFile`.  

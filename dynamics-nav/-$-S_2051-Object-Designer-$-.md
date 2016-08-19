@@ -11,7 +11,7 @@ caps.latest.revision: 6
 manager: terryaus
 ---
 # ($ S_2051 Object Designer $)
-Lists objects in the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] application and gives you access to designers that you use to create and modify objects. The following objects and designers are available from Object Designer.  
+Lists objects in the [!INCLUDE[navnow](includes/navnow_md.md)] application and gives you access to designers that you use to create and modify objects. The following objects and designers are available from Object Designer.  
   
  To open this window, on the **Tools** menu, choose **Object Designer**.  
   
@@ -28,4 +28,4 @@ Lists objects in the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] a
 |MenuSuite|Navigation Pane Designer|  
   
 ## See Also  
- [Designing Application Objects](../dynamics-nav/Designing-Application-Objects.md)
+ [Designing Application Objects](Designing-Application-Objects.md)

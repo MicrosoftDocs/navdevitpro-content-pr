@@ -11,7 +11,7 @@ caps.latest.revision: 6
 manager: pchapman
 ---
 # FieldValidate Property
-Sets a value that specifies whether the values in the source field are validated by the [OnValidate \(Fields\) Trigger](../dynamics-nav/OnValidate--Fields--Trigger.md) trigger for the field.  
+Sets a value that specifies whether the values in the source field are validated by the [OnValidate \(Fields\) Trigger](OnValidate--Fields--Trigger.md) trigger for the field.  
   
 ## Applies To  
  XMLports  
@@ -20,12 +20,12 @@ Sets a value that specifies whether the values in the source field are validated
  **Yes** if the fields are validated; otherwise, **No**. The default value is **Undefined**.  
   
 ## Remarks  
- This property only applies to fields and works in combination with the [DefaultFieldsValidation Property](../dynamics-nav/DefaultFieldsValidation-Property.md) XMLport property.  
+ This property only applies to fields and works in combination with the [DefaultFieldsValidation Property](DefaultFieldsValidation-Property.md) XMLport property.  
   
  The DefaultFieldsValidation property sets the value for the FieldValidate XMLport field property. Therefore, if you change the setting of the DefaultFieldsValidation property, the change is implemented for all fields. However, if the FieldValidate property of a field is set to **Yes** or **No**, no change will be made to this field.  
   
  If you change the value of the FieldValidate property, the change does not affect the value of the DefaultFieldsValidation property. This means that FieldValidate can override DefaultFieldsValidation, but that it can also inherit the default value of DefaultFieldsValidation.  
   
 ## See Also  
- [DefaultFieldsValidation Property](../dynamics-nav/DefaultFieldsValidation-Property.md)   
- [OnValidate \(Fields\) Trigger](../dynamics-nav/OnValidate--Fields--Trigger.md)
+ [DefaultFieldsValidation Property](DefaultFieldsValidation-Property.md)   
+ [OnValidate \(Fields\) Trigger](OnValidate--Fields--Trigger.md)

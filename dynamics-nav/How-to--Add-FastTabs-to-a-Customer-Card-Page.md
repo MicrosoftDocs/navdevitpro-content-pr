@@ -45,7 +45,7 @@ In this topic you learn how to add a FastTab control to a customer card page. Fa
   
      When you have completed this procedure, these fields will be displayed in your FastTab control.  
   
-     If the **OK** and **Cancel** buttons are unavailable, see [Page Designer Troubleshooting](../dynamics-nav/Page-Designer-Troubleshooting.md) for more information.  
+     If the **OK** and **Cancel** buttons are unavailable, see [Page Designer Troubleshooting](Page-Designer-Troubleshooting.md) for more information.  
   
     > [!NOTE]  
     >  You can only select fields from the Field Menu if your page has a source table. Remember to select a source table in the **New Page** dialog when you create your page.  
@@ -60,4 +60,4 @@ In this topic you learn how to add a FastTab control to a customer card page. Fa
   
 ## See Also  
  [Walkthrough: Creating a Customer Card Page in Page Designer](../Topic/Walkthrough:%20Creating%20a%20Customer%20Card%20Page%20in%20Page%20Designer.md)   
- [Page Designer Troubleshooting](../dynamics-nav/Page-Designer-Troubleshooting.md)
+ [Page Designer Troubleshooting](Page-Designer-Troubleshooting.md)

@@ -11,7 +11,7 @@ caps.latest.revision: 14
 manager: terryaus
 ---
 # Action Icon Library
-The [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] includes images that you can use on actions that display in the ribbon and command bar menus. To add an image to an action, you must provide the name of the image. For more information, see [How to: Set an Icon on an Action](../Topic/How%20to:%20Set%20an%20Icon%20on%20an%20Action.md).  
+The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] includes images that you can use on actions that display in the ribbon and command bar menus. To add an image to an action, you must provide the name of the image. For more information, see [How to: Set an Icon on an Action](../Topic/How%20to:%20Set%20an%20Icon%20on%20an%20Action.md).  
   
 ## Action Images  
  By default, an image’s size is 16 pixels high by 16 pixels wide. For promoted actions, the image size is 32 pixels high and 32 pixels wide.  
@@ -20,4 +20,4 @@ The [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] includes
   
 ## See Also  
  [How to: Set an Icon on an Action](../Topic/How%20to:%20Set%20an%20Icon%20on%20an%20Action.md)   
- [Adding Actions to Pages](../dynamics-nav/Adding-Actions-to-Pages.md)
+ [Adding Actions to Pages](Adding-Actions-to-Pages.md)

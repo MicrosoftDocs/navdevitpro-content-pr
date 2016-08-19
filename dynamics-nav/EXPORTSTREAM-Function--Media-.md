@@ -47,7 +47,7 @@ Export the current media type \(such as jpeg image\) that is used on record to a
 ## Example  
  This example uses the EXPORTSTREAM to iterate over the **Items** table and export any media that is used on records to an OutStream that is created on a file object.  
   
- This example assumes that **Item** table contains a **Media** data type field that is named **itemPicture**, and that you have imported some image files on records. For information about importing media, see [IMPORTFILE Function \(Media\)](../dynamics-nav/IMPORTFILE-Function--Media-.md).  
+ This example assumes that **Item** table contains a **Media** data type field that is named **itemPicture**, and that you have imported some image files on records. For information about importing media, see [IMPORTFILE Function \(Media\)](IMPORTFILE-Function--Media-.md).  
   
  The example code requires that you create the following variables:  
   
@@ -73,9 +73,9 @@ END;
 ```  
   
 ## See Also  
- [Working With Media on Records](../dynamics-nav/Working-With-Media-on-Records.md)   
- [IMPORTSTREAM Function \(Media\)](../dynamics-nav/IMPORTSTREAM-Function--Media-.md)   
- [IMPORTFILE Function \(MediaSet\)](../dynamics-nav/IMPORTFILE-Function--MediaSet-.md)   
- [IMPORTSTREAM Function \(MediaSet\)](../dynamics-nav/IMPORTSTREAM-Function--MediaSet-.md)   
- [MediaSet Data Type](../dynamics-nav/MediaSet-Data-Type.md)   
- [EXPORTFILE Function \(Media\)](../dynamics-nav/EXPORTFILE-Function--Media-.md)
+ [Working With Media on Records](Working-With-Media-on-Records.md)   
+ [IMPORTSTREAM Function \(Media\)](IMPORTSTREAM-Function--Media-.md)   
+ [IMPORTFILE Function \(MediaSet\)](IMPORTFILE-Function--MediaSet-.md)   
+ [IMPORTSTREAM Function \(MediaSet\)](IMPORTSTREAM-Function--MediaSet-.md)   
+ [MediaSet Data Type](MediaSet-Data-Type.md)   
+ [EXPORTFILE Function \(Media\)](EXPORTFILE-Function--Media-.md)

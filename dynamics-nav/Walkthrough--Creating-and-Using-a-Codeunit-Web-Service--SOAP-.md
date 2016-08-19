@@ -11,12 +11,12 @@ caps.latest.revision: 90
 manager: edupont
 ---
 # Walkthrough: Creating and Using a Codeunit Web Service (SOAP)
-Web services provide easy communication and data exchange in a secured environment. In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], you can create, publish, and use web services. For example, you can publish a web service that lists all your customers and have that web service be immediately available for authorized requests over the network.  
+Web services provide easy communication and data exchange in a secured environment. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can create, publish, and use web services. For example, you can publish a web service that lists all your customers and have that web service be immediately available for authorized requests over the network.  
   
 ## About This Walkthrough  
  This walkthrough provides an overview of how to create and use a simple SOAP web service. The walkthrough illustrates to the following tasks:  
   
--   Creating a codeunit in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+-   Creating a codeunit in [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 -   Publishing the codeunit as a web service.  
   
@@ -30,9 +30,9 @@ Web services provide easy communication and data exchange in a secured environme
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] with a developer license.  
   
--   [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+-   [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 -   Visual Studio 2012 or Visual Studio 2010. You can use any edition of Visual Studio that supports adding web references. In this walkthrough, you will use Visual Studio 2012. You also have the option of using service references instead of web references, or of using the web service proxy generating tools svcutil.exe and wsdl.exe, which are included in the Microsoft .NET Framework SDK.  
   
@@ -41,7 +41,7 @@ Web services provide easy communication and data exchange in a secured environme
   
 #### To create a codeunit  
   
-1.  Open the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] development environment and then connect to the [!INCLUDE[demoname](../dynamics-nav/includes/demoname_md.md)] company.  
+1.  Open the [!INCLUDE[navnow](includes/navnow_md.md)] development environment and then connect to the [!INCLUDE[demoname](includes/demoname_md.md)] company.  
   
      Object Designer opens automatically in the development environment.  
   
@@ -55,7 +55,7 @@ Web services provide easy communication and data exchange in a secured environme
   
 5.  Select the **Capitalize** function, in the **View** menu, choose **Properties**, and then set the **Local** property to **No**.  
   
-     Setting this property makes the function accessible from the other objects. For more information about this property, see [Local Property](../dynamics-nav/Local-Property.md).  
+     Setting this property makes the function accessible from the other objects. For more information about this property, see [Local Property](Local-Property.md).  
   
 6.  In the **C\/AL Globals** window, choose the **Locals** button.  
   
@@ -76,11 +76,11 @@ Web services provide easy communication and data exchange in a secured environme
 12. When you are prompted, enter **50000** for the codeunit ID, then enter **Letters** for the name, make sure the compile check box is checked, and then choose **OK**.  
   
 ## Publishing the Web Service  
- After the codeunit is created and saved, you publish it using the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)].  
+ After the codeunit is created and saved, you publish it using the [!INCLUDE[rtc](includes/rtc_md.md)].  
   
 #### To publish the web service  
   
-1.  Open the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)], and then connect to the [!INCLUDE[demoname](../dynamics-nav/includes/demoname_md.md)] company.  
+1.  Open the [!INCLUDE[rtc](includes/rtc_md.md)], and then connect to the [!INCLUDE[demoname](includes/demoname_md.md)] company.  
   
 2.  In the **Search** box, enter **Web Services**, and then press Return.  
   
@@ -93,7 +93,7 @@ Web services provide easy communication and data exchange in a secured environme
 ## Verifying Web Service Availability  
   
 > [!NOTE]  
->  After publishing a web service, verify that the port that web service applications will use to connect to your web service is open. The default port for SOAP\-based web services is set to 7047. You can configure this value by using the [Microsoft Dynamics NAV Server Administration Tool](../dynamics-nav/Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
+>  After publishing a web service, verify that the port that web service applications will use to connect to your web service is open. The default port for SOAP\-based web services is set to 7047. You can configure this value by using the [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
   
 #### To verify availability of the web service  
   
@@ -175,12 +175,12 @@ Web services provide easy communication and data exchange in a secured environme
 10. Press Enter to close the application.  
   
 ## Next Steps  
- This walkthrough illustrated how you can publish a codeunit as a web service from [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] and write a program that uses the web service. The next step is to expose a page as a web service and then interact with data from that page. For details, see [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](../Topic/Walkthrough:%20Registering%20and%20Using%20a%20Page%20Web%20Service%20\(SOAP\).md).  
+ This walkthrough illustrated how you can publish a codeunit as a web service from [!INCLUDE[navnow](includes/navnow_md.md)] and write a program that uses the web service. The next step is to expose a page as a web service and then interact with data from that page. For details, see [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](../Topic/Walkthrough:%20Registering%20and%20Using%20a%20Page%20Web%20Service%20\(SOAP\).md).  
   
 ## See Also  
- [Web Services](../dynamics-nav/Web-Services.md)   
- [SOAP Web Services](../dynamics-nav/SOAP-Web-Services.md)   
- [Microsoft Dynamics NAV Web Services Overview](../dynamics-nav/Microsoft-Dynamics-NAV-Web-Services-Overview.md)   
+ [Web Services](Web-Services.md)   
+ [SOAP Web Services](SOAP-Web-Services.md)   
+ [Microsoft Dynamics NAV Web Services Overview](Microsoft-Dynamics-NAV-Web-Services-Overview.md)   
  [How to: Publish a Web Service](../Topic/How%20to:%20Publish%20a%20Web%20Service.md)   
  [Walkthrough: Configuring Web Services to Use SSL \(SOAP and OData\)](../Topic/Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md)   
  [Web Service Alternatives: SOAP and OData](../Topic/Web%20Service%20Alternatives:%20SOAP%20and%20OData.md)

@@ -11,7 +11,7 @@ caps.latest.revision: 9
 manager: edupont
 ---
 # ImportLangModule
-Imports a language module from a file to the specified [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database.  
+Imports a language module from a file to the specified [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
 ## Syntax  
   
@@ -28,28 +28,28 @@ finsql.exe command=importlangmodule, file=<importfile>, [servername=<server>,] [
   
  *servername*  
   
- The name of the database server that hosts the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database in which to import the language module. The format of this parameter is \<*computername*\>\\\<*database server instance*\>.  
+ The name of the database server that hosts the [!INCLUDE[navnow](includes/navnow_md.md)] database in which to import the language module. The format of this parameter is \<*computername*\>\\\<*database server instance*\>.  
   
  If you do not specify both the *servername* and the *database* parameter, then the database server and database that are stored in the fin.zup file are used.  
   
 > [!NOTE]  
 >  When you first specify a database server and database to open, either from a command at a command prompt or from a client, the database server and database are stored in the fin.zup file. By default, the fin.zup file is located at C:\\users\\\<*user name*\>\\AppData\\Roaming\\.  
   
- If you do not specify the *servername* parameter but you do specify the *database* parameter, then the [\($ S\_2335 Open Database $\)](../dynamics-nav/-$-S_2335-Open-Database-$-.md) window opens so that you can specify the database server name.  
+ If you do not specify the *servername* parameter but you do specify the *database* parameter, then the [\($ S\_2335 Open Database $\)](-$-S_2335-Open-Database-$-.md) window opens so that you can specify the database server name.  
   
 > [!TIP]  
 >  To view the name of the server on which the current database is stored, on the **File** menu, choose **Database**, and then choose **Information**. Use the value of the **Database Server** field for the *servername* parameter.  
   
  *database*  
   
- The name of the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database in which to import the language module.  
+ The name of the [!INCLUDE[navnow](includes/navnow_md.md)] database in which to import the language module.  
   
  If you do not specify both the *servername* and the *database* parameter, then the database server and database that are stored in the fin.zup file are used.  
   
 > [!NOTE]  
 >  When you first specify a database server and database to open, either from a command at a command prompt or from a client, the database server and database are stored in the fin.zup file. By default, the fin.zup file is located at C:\\users\\\<*user name*\>\\AppData\\Roaming\\.  
   
- If you do not specify the *database* parameter but you do specify the *servername* parameter, then the [\($ S\_2335 Open Database $\)](../dynamics-nav/-$-S_2335-Open-Database-$-.md) window opens so that you can specify the database name.  
+ If you do not specify the *database* parameter but you do specify the *servername* parameter, then the [\($ S\_2335 Open Database $\)](-$-S_2335-Open-Database-$-.md) window opens so that you can specify the database name.  
   
 > [!TIP]  
 >  To view the name of the current database, on the **File** menu, choose **Database**, and then choose **Information**. Use the value of the **Database Name** field for the *database* parameter.  
@@ -96,7 +96,7 @@ finsql.exe command=importlangmodule, file=<importfile>, [servername=<server>,] [
   
  If you specify the *username* parameter, then you must also specify the *password* parameter and the *ntauthentication* parameter must be **no**.  
   
- For more information about database users and permissions, see [Setting Database Owner and Security Administration Permissions](../dynamics-nav/Setting-Database-Owner-and-Security-Administration-Permissions.md).  
+ For more information about database users and permissions, see [Setting Database Owner and Security Administration Permissions](Setting-Database-Owner-and-Security-Administration-Permissions.md).  
   
  *password*  
   
@@ -117,17 +117,17 @@ finsql.exe command=importlangmodule, file=C:\DANlanguagemodule.flm, servername=T
 ```  
   
 ## See Also  
- [BuildVirtualMetadata](../dynamics-nav/BuildVirtualMetadata.md)   
- [CreateDatabase](../dynamics-nav/CreateDatabase.md)   
- [UpgradeDatabase](../dynamics-nav/UpgradeDatabase.md)   
- [CreateLanguage](../dynamics-nav/CreateLanguage.md)   
- [CompileObjects](../dynamics-nav/CompileObjects.md)   
- [Compiling Objects](../dynamics-nav/Compiling-Objects.md)   
- [DeleteObjects](../dynamics-nav/DeleteObjects.md)   
- [DesignObject](../dynamics-nav/DesignObject.md)   
- [ExportObjects](../dynamics-nav/ExportObjects.md)   
- [ImportObjects](../dynamics-nav/ImportObjects.md)   
- [ExportLangModule](../dynamics-nav/ExportLangModule.md)   
- [ExportTranslate](../dynamics-nav/ExportTranslate.md)   
- [ImportTranslate](../dynamics-nav/ImportTranslate.md)   
- [Using the Development Environment from the Command Prompt](../dynamics-nav/Using-the-Development-Environment-from-the-Command-Prompt.md)
+ [BuildVirtualMetadata](BuildVirtualMetadata.md)   
+ [CreateDatabase](CreateDatabase.md)   
+ [UpgradeDatabase](UpgradeDatabase.md)   
+ [CreateLanguage](CreateLanguage.md)   
+ [CompileObjects](CompileObjects.md)   
+ [Compiling Objects](Compiling-Objects.md)   
+ [DeleteObjects](DeleteObjects.md)   
+ [DesignObject](DesignObject.md)   
+ [ExportObjects](ExportObjects.md)   
+ [ImportObjects](ImportObjects.md)   
+ [ExportLangModule](ExportLangModule.md)   
+ [ExportTranslate](ExportTranslate.md)   
+ [ImportTranslate](ImportTranslate.md)   
+ [Using the Development Environment from the Command Prompt](Using-the-Development-Environment-from-the-Command-Prompt.md)

@@ -10,19 +10,19 @@ ms.assetid: 54287f24-da52-4e74-97f5-06b934a53728
 caps.latest.revision: 6
 ---
 # Application Test Automation
-You can write application tests in C\/AL and run them individually or collectively. The [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] product media includes a folder with application objects that form a library of application tests, helper functions, and test runners so you can automate your application tests. For example, use the application test libraries to verify your application after upgrading to the latest release of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+You can write application tests in C\/AL and run them individually or collectively. The [!INCLUDE[navnow](includes/navnow_md.md)] product media includes a folder with application objects that form a library of application tests, helper functions, and test runners so you can automate your application tests. For example, use the application test libraries to verify your application after upgrading to the latest release of [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 ## Application Test Toolkit  
- The **TestToolkit** folder on the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] product media includes three .fob files:  
+ The **TestToolkit** folder on the [!INCLUDE[navnow](includes/navnow_md.md)] product media includes three .fob files:  
   
-|Name|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|Name|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |----------|---------------------------------------|  
 |CALTestCodeunits.W1.fob|Contains codeunits with test functions to test various application areas.<br /><br /> The tests in this .fob file depend on the test libraries in the CALTestLibraries.W1.fob file. You must import the objects from all three files in order to use the application tests.|  
 |CALTestLibraries.W1.fob|Contains codeunits with generic and application\-specific functions to reduce duplication of test code.|  
 |CALTestRunner.fob|Contains application objects for running application tests, include the CAL Test Tool page and other objects that support the application tests.|  
   
 > [!NOTE]  
->  The file names in the table are for the default version of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)]. The product media for the country\-\/region specific versions of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] contain files that are relevant for that country\/region.  
+>  The file names in the table are for the default version of [!INCLUDE[navnow](includes/navnow_md.md)]. The product media for the country\-\/region specific versions of [!INCLUDE[navnow](includes/navnow_md.md)] contain files that are relevant for that country\/region.  
   
 ### Describing Your Tests  
  To help you design the relevant tests for your functionality, you can write scenarios that outline what you want to test, and you can write test criteria in the GIVEN\-WHEN\-THEN format. By adding comments based on feature, scenario, and GIVEN\-WHEN\-THEN, you add structure to your test code and make tests readable.  
@@ -64,7 +64,7 @@ You can write application tests in C\/AL and run them individually or collective
 #### GIVEN\-WHEN\-THEN Tags  
  The GIVEN\-WHEN\-THEN tags provide a framework for the specific test criteria.  
   
-|Tag|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|Tag|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------|---------------------------------------|  
 |GIVEN|Describes one step in setting up the test. If you feel a need to add an AND, you should probably add a separate GIVEN.<br /><br /> In most of cases, in order to run an action under test, you must prepare the database. Tests can be complex, so you can add more than one GIVEN. They can come in one block or comment particular lines of code. Do not try to repeat code and comment each line. Instead, add information of a higher level that would be valuable when reading without the test code.|  
 |WHEN|Describes the action under test.<br /><br /> A test is to test one thing. There should be only one WHEN in a test. It is the line of code that changes state of something that we are going to verify. If you feel a need to add more than one WHEN followed by different verification, you should split this test in two or more tests.|  
@@ -80,11 +80,11 @@ You can write application tests in C\/AL and run them individually or collective
 ```  
   
 #### Putting It All Together  
- For an example of how you can use the \[FEATURE\], \[SCENARIO\], and GIVEN\-WHEN\-THEN tags, see [Walkthrough: Testing Purchase Invoice Discounts](../Topic/Walkthrough:%20Testing%20Purchase%20Invoice%20Discounts.md). You can also search for \[FEATURE\] or \[SCENARIO\] in the test codeunits that are available on [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] product media.  
+ For an example of how you can use the \[FEATURE\], \[SCENARIO\], and GIVEN\-WHEN\-THEN tags, see [Walkthrough: Testing Purchase Invoice Discounts](../Topic/Walkthrough:%20Testing%20Purchase%20Invoice%20Discounts.md). You can also search for \[FEATURE\] or \[SCENARIO\] in the test codeunits that are available on [!INCLUDE[navnowlong](includes/navnowlong_md.md)] product media.  
   
 ## See Also  
  [How to: Create a Test Runner Codeunit](../Topic/How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md)   
  [Walkthrough: Testing Purchase Invoice Discounts](../Topic/Walkthrough:%20Testing%20Purchase%20Invoice%20Discounts.md)   
- [Random Test Data](../dynamics-nav/Random-Test-Data.md)   
- [Testing the Application](../dynamics-nav/Testing-the-Application.md)   
- [\($ N\_9990 Code Coverage $\)](../dynamics-nav/-$-N_9990-Code-Coverage-$-.md)
+ [Random Test Data](Random-Test-Data.md)   
+ [Testing the Application](Testing-the-Application.md)   
+ [\($ N\_9990 Code Coverage $\)](-$-N_9990-Code-Coverage-$-.md)

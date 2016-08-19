@@ -15,7 +15,7 @@ When you create a client report definition \(RDLC\) layout for a report, a forma
   
 ### To format decimal values  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In **Object Designer**, choose **Report**, select a report that you want to modify, and then choose **Design**.  
   
@@ -30,4 +30,4 @@ When you create a client report definition \(RDLC\) layout for a report, a forma
 7.  In the Expression window, select **Fields \(DataSet\_Result\)**, select the format variable from the list, and then choose **OK**. For example, if the **Value** field on the **General** tab is **\=Fields\!Customer\_\_Sales\_\_LCY\_\_.Value**, then the expressions for the format on the **Number** tab should be **\=Fields\!Customer\_\_Sales\_\_LCY\_\_Format.Value**.  
   
 ## See Also  
- [Designing Reports](../dynamics-nav/Designing-Reports.md)
+ [Designing Reports](Designing-Reports.md)

@@ -20,4 +20,4 @@ Set which version of XML the XML document conforms to. Two options are available
  The XML version number is inserted into the XML document as the XML declaration, for example, .  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

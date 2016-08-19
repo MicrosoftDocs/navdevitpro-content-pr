@@ -40,7 +40,7 @@ Sets a value that determines how text in a field on a page is formatted. For fie
 > [!NOTE]  
 >  This information in this topic mainly pertains to formatting the text on page fields. For information about how to use the **Style** property for configuring Cues, see [How to: Set Up Colored Indicators on Cues by Using the Style and StyleExpr Property](../Topic/How%20to:%20Set%20Up%20Colored%20Indicators%20on%20Cues%20by%20Using%20the%20Style%20and%20StyleExpr%20Property.md).  
   
- The **Style** property works together with the [StyleExpr Property](../dynamics-nav/StyleExpr-Property.md) value to determine whether the field is formatted. If the [StyleExpr Property](../dynamics-nav/StyleExpr-Property.md) evaluates to **true**, then the value of the field is formatted as specified by the **Style** property.  
+ The **Style** property works together with the [StyleExpr Property](StyleExpr-Property.md) value to determine whether the field is formatted. If the [StyleExpr Property](StyleExpr-Property.md) evaluates to **true**, then the value of the field is formatted as specified by the **Style** property.  
   
  By default, the **Style** property is not set.  
   
@@ -79,4 +79,4 @@ Sets a value that determines how text in a field on a page is formatted. For fie
   
 ## See Also  
  [How to: Style Field Text on a Page](../Topic/How%20to:%20Style%20Field%20Text%20on%20a%20Page.md)   
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

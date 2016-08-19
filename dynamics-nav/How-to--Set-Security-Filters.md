@@ -11,7 +11,7 @@ caps.latest.revision: 9
 manager: terryaus
 ---
 # How to: Set Security Filters
-You set security filters to limit the access that a user has to data in a table. You set security filters on permission sets, which you assign to users. For more information, see [Managing Permissions and Permission Sets](../dynamics-nav/Managing-Permissions-and-Permission-Sets.md).  
+You set security filters to limit the access that a user has to data in a table. You set security filters on permission sets, which you assign to users. For more information, see [Managing Permissions and Permission Sets](Managing-Permissions-and-Permission-Sets.md).  
   
 ### To set a security filter  
   
@@ -39,5 +39,5 @@ You set security filters to limit the access that a user has to data in a table.
     >  When multiple permission sets that refer to the same table data are assigned to a user, they are combined so that the least restrictive filter is used. You should not repeat a table in multiple permission sets if you plan to combine those permissions sets for one user.  
   
 ## See Also  
- [Record\-Level Security](../dynamics-nav/Record-Level-Security.md)   
- [Security Filter Modes](../dynamics-nav/Security-Filter-Modes.md)
+ [Record\-Level Security](Record-Level-Security.md)   
+ [Security Filter Modes](Security-Filter-Modes.md)

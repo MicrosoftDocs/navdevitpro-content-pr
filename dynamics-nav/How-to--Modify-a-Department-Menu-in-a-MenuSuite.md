@@ -11,11 +11,11 @@ caps.latest.revision: 10
 manager: terryaus
 ---
 # How to: Modify a Department Menu in a MenuSuite
-[!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] provides a basic MenuSuite that you can modify, or you can create a new MenuSuite from the basic MenuSuite. You modify an existing MenuSuite by designing it in Navigation Pane Designer. You can modify the shortcut menus, which typically represent a department area. You can modify the department menu either directly from the shortcut menu or in the **Menu Properties** window. This procedure describes how to modify a department menu in a MenuSuite. For more information about how to modify a menu item, see [How to: Modify Menu Items in a MenuSuite](../Topic/How%20to:%20Modify%20Menu%20Items%20in%20a%20MenuSuite.md). For information about how to create a new MenuSuite, see [Walkthrough: Creating MenuSuites for the Microsoft Dynamics NAV Windows Client](../Topic/Walkthrough:%20Creating%20MenuSuites%20for%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client.md).  
+[!INCLUDE[navnowlong](includes/navnowlong_md.md)] provides a basic MenuSuite that you can modify, or you can create a new MenuSuite from the basic MenuSuite. You modify an existing MenuSuite by designing it in Navigation Pane Designer. You can modify the shortcut menus, which typically represent a department area. You can modify the department menu either directly from the shortcut menu or in the **Menu Properties** window. This procedure describes how to modify a department menu in a MenuSuite. For more information about how to modify a menu item, see [How to: Modify Menu Items in a MenuSuite](../Topic/How%20to:%20Modify%20Menu%20Items%20in%20a%20MenuSuite.md). For information about how to create a new MenuSuite, see [Walkthrough: Creating MenuSuites for the Microsoft Dynamics NAV Windows Client](../Topic/Walkthrough:%20Creating%20MenuSuites%20for%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client.md).  
   
 ### To modify a department menu in a MenuSuite  
   
-1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], choose **Tools** and then choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], choose **Tools** and then choose **Object Designer**.  
   
 2.  In Object Designer, choose **MenuSuite**.  
   
@@ -41,7 +41,7 @@ manager: terryaus
 ## See Also  
  [Walkthrough: Creating MenuSuites for the Microsoft Dynamics NAV Windows Client](../Topic/Walkthrough:%20Creating%20MenuSuites%20for%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client.md)   
  [How to: Modify Menu Items in a MenuSuite](../Topic/How%20to:%20Modify%20Menu%20Items%20in%20a%20MenuSuite.md)   
- [Designing MenuSuites](../dynamics-nav/Designing-MenuSuites.md)   
+ [Designing MenuSuites](Designing-MenuSuites.md)   
  [How to: Change Department Icons in the Windows Client](../Topic/How%20to:%20Change%20Department%20Icons%20in%20the%20Windows%20Client.md)   
- [Bitmap Property](../dynamics-nav/Bitmap-Property.md)   
- [\($ S\_2490 Menu Properties $\)](../dynamics-nav/-$-S_2490-Menu-Properties-$-.md)
+ [Bitmap Property](Bitmap-Property.md)   
+ [\($ S\_2490 Menu Properties $\)](-$-S_2490-Menu-Properties-$-.md)

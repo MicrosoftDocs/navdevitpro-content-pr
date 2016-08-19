@@ -19,8 +19,8 @@ Executed when a user inserts a new record into the table.
 ## Remarks  
  This trigger is executed before default insert behavior occurs. The new record is not inserted if an error occurs in the trigger code.  
   
- In tables where records are entered in pages that have the [DelayedInsert Property](../dynamics-nav/DelayedInsert-Property.md) set to **Yes**, we recommend that you write any code that is in an OnInsert trigger so that it will always succeed. For example, this applies to journal lines.  
+ In tables where records are entered in pages that have the [DelayedInsert Property](DelayedInsert-Property.md) set to **Yes**, we recommend that you write any code that is in an OnInsert trigger so that it will always succeed. For example, this applies to journal lines.  
   
 ## See Also  
- [Triggers](../dynamics-nav/Triggers.md)   
- [PasteIsValid Property](../dynamics-nav/PasteIsValid-Property.md)
+ [Triggers](Triggers.md)   
+ [PasteIsValid Property](PasteIsValid-Property.md)

@@ -13,18 +13,18 @@ manager: terryaus
 # ($ S_11170 Page Designer Wizard, FactBox $)
 Adds a FactBox to a List page or Card page. A FactBox is an area on the page that allows you to display another page that displays targeted, related information about a selection on the main page. A FactBox can include only CardPart and ListPart page types.  
   
- To open this window, open the **List Page Wizard** window, select the fields that you want on the page, and then choose the **Next** button. For more information about how to open List Page Designer, see [\($ S\_11150 Page Designer Wizard, Available Fields $\)](../dynamics-nav/-$-S_11150-Page-Designer-Wizard--Available-Fields-$-.md).  
+ To open this window, open the **List Page Wizard** window, select the fields that you want on the page, and then choose the **Next** button. For more information about how to open List Page Designer, see [\($ S\_11150 Page Designer Wizard, Available Fields $\)](-$-S_11150-Page-Designer-Wizard--Available-Fields-$-.md).  
   
 ## List Page Wizard, FactBoxes  
   
-|[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
 |**Page** tab|Lists page FactBox parts that are available for Card and List pages.|  
 |**System** tab|Lists system FactBox parts that are available for Card and List pages.|  
 |**Chart** tab|Lists chart parts that are available for Card and List pages.|  
 |**Part Order**|Lists parts that have been added to the page and the order the parts were added.|  
   
-|Controls|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|Controls|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
 |**\>** button|Adds a FactBox from the available parts list.|  
 |**\>\>** button|Adds all the FactBoxes from the available parts list.|  

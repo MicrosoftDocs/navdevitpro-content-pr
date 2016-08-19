@@ -13,14 +13,14 @@ manager: terryaus
 # ($ S_2148 Column Filter $)
 Sets a filter on the Column row of a query.  
   
- To open this window, open Query Designer, and then select a column in the designer. On the **View** menu, choose **Properties**, locate the **ColumnFilter** property, and then choose the **AssistEdit** button in the **Value** field. For more information about how to open Query Designer, see [\($ S\_22401 Query Designer $\)](../dynamics-nav/-$-S_22401-Query-Designer-$-.md).  
+ To open this window, open Query Designer, and then select a column in the designer. On the **View** menu, choose **Properties**, locate the **ColumnFilter** property, and then choose the **AssistEdit** button in the **Value** field. For more information about how to open Query Designer, see [\($ S\_22401 Query Designer $\)](-$-S_22401-Query-Designer-$-.md).  
   
 > [!NOTE]  
->  The filter on a Column row is similar to a filter on a data item except that the filter of a Column row can be programmatically overwritten by calling the [SETFILTER Function \(Query\)](../dynamics-nav/SETFILTER-Function--Query-.md) and [SETRANGE Function \(Query\)](../dynamics-nav/SETRANGE-Function--Query-.md) from C\/AL code.  
+>  The filter on a Column row is similar to a filter on a data item except that the filter of a Column row can be programmatically overwritten by calling the [SETFILTER Function \(Query\)](SETFILTER-Function--Query-.md) and [SETRANGE Function \(Query\)](SETRANGE-Function--Query-.md) from C\/AL code.  
   
 ## Fields  
   
-|[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
 |**Column**|The column on which to set the filter.|  
 |**Type**|The type of filter that you want to set. Set this field to **CONST** if you want to filter on constant value. Set the field to **FILTER** if you want to set a filter that is based on an expression.|  

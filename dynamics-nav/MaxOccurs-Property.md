@@ -25,9 +25,9 @@ Sets a value that indicates the maximum number of times an element can occur.
 |**Field**|Once|  
   
 ## Remarks  
- The default value of the **MaxOccurs** property varies depending on what you have selected as the [SourceType Property](../dynamics-nav/SourceType-Property.md) of this element.  
+ The default value of the **MaxOccurs** property varies depending on what you have selected as the [SourceType Property](SourceType-Property.md) of this element.  
   
- The minimum number of times an element can appear is determined by the value of the [MinOccurs Property](../dynamics-nav/MinOccurs-Property.md).  
+ The minimum number of times an element can appear is determined by the value of the [MinOccurs Property](MinOccurs-Property.md).  
   
  The **MinOccurs** and **MaxOccurs** properties conform to the standard occurrence constraints that are used when defining XML schemas.  
   
@@ -36,4 +36,4 @@ Sets a value that indicates the maximum number of times an element can occur.
  The maximum number can be either 1 or infinite.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

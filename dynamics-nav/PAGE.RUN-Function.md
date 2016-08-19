@@ -41,9 +41,9 @@ PAGE.RUN(Number[, Record] [, Field])
  Use this optional parameter to select a specific field on which focus will be placed.  
   
 ## Remarks  
- If, at design time, you do not know the specific page you want to run, then use this function or the [PAGE.RUNMODAL Function](../dynamics-nav/PAGE.RUNMODAL-Function.md) and specify the page in the *Number* parameter.  
+ If, at design time, you do not know the specific page you want to run, then use this function or the [PAGE.RUNMODAL Function](PAGE.RUNMODAL-Function.md) and specify the page in the *Number* parameter.  
   
- If you do know which page you want to run, then you can create a Page variable, set the subtype of the variable to a specific page, and then use the [RUN Function \(Page\)](../dynamics-nav/RUN-Function--Page-.md) or [RUNMODAL Function \(Page\)](../dynamics-nav/RUNMODAL-Function--Page-.md) on the Page variable.  
+ If you do know which page you want to run, then you can create a Page variable, set the subtype of the variable to a specific page, and then use the [RUN Function \(Page\)](RUN-Function--Page-.md) or [RUNMODAL Function \(Page\)](RUNMODAL-Function--Page-.md) on the Page variable.  
   
  When you want to close the page, use CurrPage.CLOSE. CurrPage is a predefined system variable.  
   
@@ -54,4 +54,4 @@ Page.RUN(4711)
 ```  
   
 ## See Also  
- [Page Data Type](../dynamics-nav/Page-Data-Type.md)
+ [Page Data Type](Page-Data-Type.md)

@@ -63,13 +63,13 @@ Changes the value of a primary key in a table.
   
      **Enter your changes again in the updated window, or start the interrupted activity again.**  
   
-     In earlier versions of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], certain situations allowed code that an end\-user runs to modify a record after a newer version of the record was written and committed to the database. This would overwrite the newer changes. However, in [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], we have restricted the [MODIFY Function \(Record\)](../dynamics-nav/MODIFY-Function--Record-.md), **RENAME** Function \(Record\), and [DELETE Function \(Record\)](../dynamics-nav/DELETE-Function--Record-.md) so that the end\-user retrieves the following run\-time error in these certain situations:  
+     In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], certain situations allowed code that an end\-user runs to modify a record after a newer version of the record was written and committed to the database. This would overwrite the newer changes. However, in [!INCLUDE[navnowlong](includes/navnowlong_md.md)], we have restricted the [MODIFY Function \(Record\)](MODIFY-Function--Record-.md), **RENAME** Function \(Record\), and [DELETE Function \(Record\)](DELETE-Function--Record-.md) so that the end\-user retrieves the following run\-time error in these certain situations:  
   
      **Unable to change an earlier version of the \<Table Name\> record. The record should be read from the database again. This is a programming error.**  
   
-     You must design your application so that you use the most up\-to\-date version of the record for modifications to the database. You use the [GET Function \(Record\)](../dynamics-nav/GET-Function--Record-.md) to refresh the record with the latest version. The second example illustrates this situation.  
+     You must design your application so that you use the most up\-to\-date version of the record for modifications to the database. You use the [GET Function \(Record\)](GET-Function--Record-.md) to refresh the record with the latest version. The second example illustrates this situation.  
   
- When a record is renamed, the change is written and committed to the database without calling the [OnModify Trigger](../dynamics-nav/OnModify-Trigger.md). This is done because renaming a record changes the primary key and updates the primary key value in all related tables. Therefore, you should use the Rename function and Modify function on a record separately.  
+ When a record is renamed, the change is written and committed to the database without calling the [OnModify Trigger](OnModify-Trigger.md). This is done because renaming a record changes the primary key and updates the primary key value in all related tables. Therefore, you should use the Rename function and Modify function on a record separately.  
   
 ## Example  
  This example requires that you create the following variable in the **C\/AL Globals** window.  
@@ -91,7 +91,7 @@ ItemRec.RENAME(‘1105’);
 |CustomerRec1|Record|Customer|  
 |CustomerRec2|Record|Customer|  
   
- In this example, you get a copy of a record from the **Customer** table and put it into the CustomerRec1 variable, then you modify the record. Next, you get a copy of the same record from the **Customer** table and put it into the CustomerRec2 variable. You modify the record and commit the changes to the database. Now the CustomerRec1 variable is out of date with the value in the database. If you were allowed to modify the record using the CustomerRec1 record, then the changes that you made with CustomerRec2 would be overwritten by the values in the CustomerRec1 variable. [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] does not allow you to rename a record with the old version of the record.  
+ In this example, you get a copy of a record from the **Customer** table and put it into the CustomerRec1 variable, then you modify the record. Next, you get a copy of the same record from the **Customer** table and put it into the CustomerRec2 variable. You modify the record and commit the changes to the database. Now the CustomerRec1 variable is out of date with the value in the database. If you were allowed to modify the record using the CustomerRec1 record, then the changes that you made with CustomerRec2 would be overwritten by the values in the CustomerRec1 variable. [!INCLUDE[navnowlong](includes/navnowlong_md.md)] does not allow you to rename a record with the old version of the record.  
   
 > [!NOTE]  
 >  If you do not call the **COMMIT** function in this example, then you do not receive an error.  
@@ -121,7 +121,7 @@ CustomerRec1.RENAME('10001');
  **No.\='10000'**  
   
 ## See Also  
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)   
- [RENAME Function \(RecordRef\)](../dynamics-nav/RENAME-Function--RecordRef-.md)   
- [COMMIT Function \(Database\)](../dynamics-nav/COMMIT-Function--Database-.md)   
- [LOCKTABLE Function \(Record\)](../dynamics-nav/LOCKTABLE-Function--Record-.md)
+ [Record Data Type](Record-Data-Type.md)   
+ [RENAME Function \(RecordRef\)](RENAME-Function--RecordRef-.md)   
+ [COMMIT Function \(Database\)](COMMIT-Function--Database-.md)   
+ [LOCKTABLE Function \(Record\)](LOCKTABLE-Function--Record-.md)

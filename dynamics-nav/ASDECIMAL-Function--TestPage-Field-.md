@@ -36,4 +36,4 @@ Decimal := TestPage.Field.ASDECIMAL
  The converted value.  
   
 ## See Also  
- [TestPage Field Functions](../dynamics-nav/TestPage-Field-Functions.md)
+ [TestPage Field Functions](TestPage-Field-Functions.md)

@@ -11,10 +11,10 @@ caps.latest.revision: 32
 manager: terryaus
 ---
 # Testing the Application
-Before you release your [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] application, you must test its functionality. Testing is an iterative process. It is important to create repeatable tests, and it is helpful to create tests that can be automated. This topic describes the features in [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] that help you test the business logic in your application and some best practices for testing your [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] application.  
+Before you release your [!INCLUDE[navnow](includes/navnow_md.md)] application, you must test its functionality. Testing is an iterative process. It is important to create repeatable tests, and it is helpful to create tests that can be automated. This topic describes the features in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] that help you test the business logic in your application and some best practices for testing your [!INCLUDE[navnow](includes/navnow_md.md)] application.  
   
 ## Test Features  
- [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] includes the following features to help you test your application:  
+ [!INCLUDE[navnowlong](includes/navnowlong_md.md)] includes the following features to help you test your application:  
   
 -   Test codeunits.  
   
@@ -27,7 +27,7 @@ Before you release your [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)
 -   ASSERTERROR statement.  
   
 ### Test Codeunits  
- You write test functions as C\/AL code in the test codeunits. When a test codeunit runs, it executes the OnRun function, and then executes each test function in the codeunit. By default, each test function runs in a separate database transaction, but you can use the [TransactionModel Property](../dynamics-nav/TransactionModel-Property.md) on test functions and the [TestIsolation Property](../dynamics-nav/TestIsolation-Property.md) on test runner codeunits to control the transactional behavior. By default, the results of a test codeunit are displayed in a message window, but you can use the [OnAfterTestRun Trigger](../dynamics-nav/OnAfterTestRun-Trigger.md) on a test runner codeunit to capture the results. The outcome of a test function is either SUCCESS or FAILURE. If any error is raised by either the code that is being tested or the test code, then the outcome is FAILURE and the error is included in the results log file.  
+ You write test functions as C\/AL code in the test codeunits. When a test codeunit runs, it executes the OnRun function, and then executes each test function in the codeunit. By default, each test function runs in a separate database transaction, but you can use the [TransactionModel Property](TransactionModel-Property.md) on test functions and the [TestIsolation Property](TestIsolation-Property.md) on test runner codeunits to control the transactional behavior. By default, the results of a test codeunit are displayed in a message window, but you can use the [OnAfterTestRun Trigger](OnAfterTestRun-Trigger.md) on a test runner codeunit to capture the results. The outcome of a test function is either SUCCESS or FAILURE. If any error is raised by either the code that is being tested or the test code, then the outcome is FAILURE and the error is included in the results log file.  
   
  Even if the outcome of one test function is FAILURE, the next test functions are still executed.  
   
@@ -46,9 +46,9 @@ Before you release your [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)
   
  Test runner codeunits include the following triggers:  
   
--   [OnBeforeTestRun Trigger](../dynamics-nav/OnBeforeTestRun-Trigger.md)  
+-   [OnBeforeTestRun Trigger](OnBeforeTestRun-Trigger.md)  
   
--   [OnAfterTestRun Trigger](../dynamics-nav/OnAfterTestRun-Trigger.md)  
+-   [OnAfterTestRun Trigger](OnAfterTestRun-Trigger.md)  
   
  You can use these triggers to perform preprocessing and postprocessing, such as initialization or logging test results. If you implement the **OnBeforeTestRun** trigger, then it executes before each test function executes. If you implement the **OnAfterTestRun** trigger, then it executes after each test function executes and also suppresses the automatic display of the results message.  
   
@@ -56,7 +56,7 @@ Before you release your [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)
 >  The **OnBeforeTestRun** and **OnAfterTestRun** triggers are optional. By default, they are not available on a test runner codeunit. To implement these triggers, you must manually add them as functions and you must specify the correct signature.  
   
 > [!WARNING]  
->  The **OnBeforeTestRun** and **OnAfterTestRun** triggers always run in their own transactions, regardless of the value of the [TestIsolation Property](../dynamics-nav/TestIsolation-Property.md), the value of the [TransactionModel Property](../dynamics-nav/TransactionModel-Property.md), or the outcome of a test function.  
+>  The **OnBeforeTestRun** and **OnAfterTestRun** triggers always run in their own transactions, regardless of the value of the [TestIsolation Property](TestIsolation-Property.md), the value of the [TransactionModel Property](TransactionModel-Property.md), or the outcome of a test function.  
   
  For more information, see [How to: Create a Test Runner Codeunit](../Topic/How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md).  
   
@@ -69,7 +69,7 @@ Before you release your [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)
   
 -   TestRequestPage, which represents the request page on a report.  
   
- You can access the fields on a page and the properties of a page or a field by using the dot notation. You can open and close test pages, perform actions on the test page, and navigate around the test page by using C\/AL functions. For more information, see [Testing Pages](../dynamics-nav/Testing-Pages.md).  
+ You can access the fields on a page and the properties of a page or a field by using the dot notation. You can open and close test pages, perform actions on the test page, and navigate around the test page by using C\/AL functions. For more information, see [Testing Pages](Testing-Pages.md).  
   
 ### UI Handlers  
  To create tests that can be automated, you must handle cases when user interaction is requested by code that is being tested. UI handlers run instead of the requested UI. UI handlers provide the same exit state as the UI. For example, a test function that has a FunctionType of ConfirmHandler handles CONFIRM function calls. If code that is being tested calls the CONFIRM function, then the ConfirmHandler function is called instead of the CONFIRM function. You write code in the ConfirmHandler function to verify that the expected question is displayed by the CONFIRM function and you write C\/AL code to return the relevant reply.  
@@ -95,7 +95,7 @@ Before you release your [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)
 ### ASSERTERROR Keyword  
  When you test your application, you should test that your code performs as expected under both successful and failing conditions. These are called positive and negative tests. To test how your application performs under failing conditions, you can use the ASSERTERROR keyword. The ASSERTERROR keyword specifies that an error is expected at run time in the statement that follows the ASSERTERROR keyword. If a simple or compound statement that follows the ASSERTERROR keyword causes an error, then execution successfully continues to the next statement in the test function. If a statement that follows the ASSERTERROR keyword does not cause an error, then the ASSERTERROR statement itself fails with an error, and the test function that is running produces a FAILURE result.  
   
- For more information, see [C\-AL ASSERTERROR Statements](../dynamics-nav/C-AL-ASSERTERROR-Statements.md).  
+ For more information, see [C\-AL ASSERTERROR Statements](C-AL-ASSERTERROR-Statements.md).  
   
 ## Testing Best Practices  
  We recommend the following best practices for designing your application tests:  
@@ -122,14 +122,14 @@ Before you release your [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)
   
     3.  Validate that the business logic performed as expected.  
   
--   Only use hardcoded values in tests when you really need it. For all other data, consider using random data. For example, you want to test the [\($ T\_312\_8 Ext. Doc. No. Mandatory $\)](../Topic/\($%20T_312_8%20Ext.%20Doc.%20No.%20Mandatory%20$\).md) field in the **\($ T\_312 Purchases &amp; Payables Setup $\)** table. To do this you need to create and post typical purchase invoice. The typical purchase invoice line specifies an amount. For most tests, it does not matter exactly what amount. For inspiration, see the use of the `GenerateRandomCode` function in the tests that are included in the **TestToolkit** folder on the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] product media. For more information, see [Random Test Data](../dynamics-nav/Random-Test-Data.md).  
+-   Only use hardcoded values in tests when you really need it. For all other data, consider using random data. For example, you want to test the [\($ T\_312\_8 Ext. Doc. No. Mandatory $\)](../Topic/\($%20T_312_8%20Ext.%20Doc.%20No.%20Mandatory%20$\).md) field in the **\($ T\_312 Purchases &amp; Payables Setup $\)** table. To do this you need to create and post typical purchase invoice. The typical purchase invoice line specifies an amount. For most tests, it does not matter exactly what amount. For inspiration, see the use of the `GenerateRandomCode` function in the tests that are included in the **TestToolkit** folder on the [!INCLUDE[navnow](includes/navnow_md.md)] product media. For more information, see [Random Test Data](Random-Test-Data.md).  
   
--   Monitor code coverage. For more information, see [\($ N\_9990 Code Coverage $\)](../dynamics-nav/-$-N_9990-Code-Coverage-$-.md).  
+-   Monitor code coverage. For more information, see [\($ N\_9990 Code Coverage $\)](-$-N_9990-Code-Coverage-$-.md).  
   
 ## See Also  
- [Application Test Automation](../dynamics-nav/Application-Test-Automation.md)   
- [Testing Pages](../dynamics-nav/Testing-Pages.md)   
+ [Application Test Automation](Application-Test-Automation.md)   
+ [Testing Pages](Testing-Pages.md)   
  [How to: Run Automated ApplicationTests](../Topic/How%20to:%20Run%20Automated%20ApplicationTests.md)   
  [Walkthrough: Testing Purchase Invoice Discounts](../Topic/Walkthrough:%20Testing%20Purchase%20Invoice%20Discounts.md)   
  [Walkthrough: Create a Test with Confirmation Dialog](../Topic/Walkthrough:%20Create%20a%20Test%20with%20Confirmation%20Dialog.md)   
- [Random Test Data](../dynamics-nav/Random-Test-Data.md)
+ [Random Test Data](Random-Test-Data.md)

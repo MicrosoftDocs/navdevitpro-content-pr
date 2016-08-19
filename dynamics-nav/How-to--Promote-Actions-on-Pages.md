@@ -24,7 +24,7 @@ Actions that appear in the **Home** tab of the ribbon are called *promoted actio
  If there are no promoted actions, then the **Home** tab is hidden.  
   
 > [!IMPORTANT]  
->  In the Dynamics NAV Universal App, only promoted actions are displayed. For more information, see [Differences and Limitations When Developing Pages for the Microsoft Dynamics NAV Universal App](../dynamics-nav/Differences-and-Limitations-When-Developing-Pages-for-the-Microsoft-Dynamics-NAV-Universal-App.md).  
+>  In the Dynamics NAV Universal App, only promoted actions are displayed. For more information, see [Differences and Limitations When Developing Pages for the Microsoft Dynamics NAV Universal App](Differences-and-Limitations-When-Developing-Pages-for-the-Microsoft-Dynamics-NAV-Universal-App.md).  
   
 ## Adding a Promoted Action to a Page  
   
@@ -48,7 +48,7 @@ Actions that appear in the **Home** tab of the ribbon are called *promoted actio
   
      Unless you define your own caption, the category name that you select will be used as the category's captions on the page. For more information, see [How to: Define Promoted Action Categories Captions for the Ribbon](../Topic/How%20to:%20Define%20Promoted%20Action%20Categories%20Captions%20for%20the%20Ribbon.md).  
   
-9. To assign an image to the action, set the **Image** property to the name of the image. For a list of images, see [Action Icon Library](../dynamics-nav/Action-Icon-Library.md).  
+9. To assign an image to the action, set the **Image** property to the name of the image. For a list of images, see [Action Icon Library](Action-Icon-Library.md).  
   
     > [!NOTE]  
     >  To associate a larger icon with your action, set the **PromotedIsBig** property.  
@@ -66,6 +66,6 @@ Actions that appear in the **Home** tab of the ribbon are called *promoted actio
  When customizing the ribbon from the **Customize Ribbon** window, some actions may not have the sizing button labeled **Default Icon Size** available. The **Default Icon Size** button has the options of displaying an action icon as default size, small, or large. The label of the button changes when small or large is selected. In some cases the action can be a promoted action with the property **PromotedIsBig** set to **Yes** in the Development Environment. If you set an action to **PromotedIsBig**, this overrules the choices in the **Customize Ribbon** window.  
   
 ## See Also  
- [Actions Overview](../dynamics-nav/Actions-Overview.md)   
+ [Actions Overview](Actions-Overview.md)   
  [How to: Add Actions to a Page](../Topic/How%20to:%20Add%20Actions%20to%20a%20Page.md)   
  [How to: Define Promoted Action Categories Captions for the Ribbon](../Topic/How%20to:%20Define%20Promoted%20Action%20Categories%20Captions%20for%20the%20Ribbon.md)

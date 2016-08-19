@@ -11,7 +11,7 @@ caps.latest.revision: 24
 manager: terryaus
 ---
 # UPLOAD Function (File)
-Sends a file from the client computer to the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] computer. The client computer is the computer that is running the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] or the computer that is running a browser that accesses the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)].  
+Sends a file from the client computer to the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer. The client computer is the computer that is running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or the computer that is running a browser that accesses the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
 ## Syntax  
   
@@ -27,7 +27,7 @@ Sends a file from the client computer to the [!INCLUDE[nav_server](../dynamics-n
  The title that you want to display in the dialog box for uploading the file.  
   
 > [!NOTE]  
->  This parameter is not supported by the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]. The title is determined by the end\-user's browser.  
+>  This parameter is not supported by the [!INCLUDE[nav_web](includes/nav_web_md.md)]. The title is determined by the end\-user's browser.  
   
  *FromFolder*  
  Type: Text  
@@ -35,33 +35,33 @@ Sends a file from the client computer to the [!INCLUDE[nav_server](../dynamics-n
  The name of the folder that is displayed in the dialog box. This is the default value, and the user can change it.  
   
 > [!NOTE]  
->  This parameter is not supported by the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]. The browser uses the folder that was last accessed.  
+>  This parameter is not supported by the [!INCLUDE[nav_web](includes/nav_web_md.md)]. The browser uses the folder that was last accessed.  
   
  *FromFilter*  
  Type: Text  
   
- The type of file that can be uploaded to [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)].  
+ The type of file that can be uploaded to [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
- In the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], the type is displayed in the upload dialog box, so that the user can only select files of the specified type. For the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], a user can try to upload any file type but an error occurs if the file is not the specified type.  
+ In the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the type is displayed in the upload dialog box, so that the user can only select files of the specified type. For the [!INCLUDE[nav_web](includes/nav_web_md.md)], a user can try to upload any file type but an error occurs if the file is not the specified type.  
   
  *FromFile*  
  Type: Text  
   
- The default file that you want to upload to the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] service. The name displays in the dialog box for uploading the file. The user can change the file.  
+ The default file that you want to upload to the [!INCLUDE[navnow](includes/navnow_md.md)] service. The name displays in the dialog box for uploading the file. The user can change the file.  
   
 > [!NOTE]  
->  This parameter is not supported by the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)].  
+>  This parameter is not supported by the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
  *ToFile*  
  Type: Variant  
   
  The path and file name to give the uploaded file.  
   
- If you do not provide a path, or you upload the file that uses [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], then the file is uploaded to the following folder on the computing that is running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]:  
+ If you do not provide a path, or you upload the file that uses [!INCLUDE[nav_web](includes/nav_web_md.md)], then the file is uploaded to the following folder on the computing that is running [!INCLUDE[nav_server](includes/nav_server_md.md)]:  
   
- \\ProgramData\\Microsoft\\Microsoft Dynamics NAV\\90\\Server\\MicrosoftDynamicsNAVServer$[!INCLUDE[nav_server_instance](../dynamics-nav/includes/nav_server_instance_md.md)]\\users\\*ServiceAccount*  
+ \\ProgramData\\Microsoft\\Microsoft Dynamics NAV\\90\\Server\\MicrosoftDynamicsNAVServer$[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\\users\\*ServiceAccount*  
   
- *ServiceAccount* is the folder for the account for [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)].  
+ *ServiceAccount* is the folder for the account for [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
 ## Property Value\/Return Value  
  Type: Boolean  
@@ -73,13 +73,13 @@ Sends a file from the client computer to the [!INCLUDE[nav_server](../dynamics-n
 ## Remarks  
   
 > [!NOTE]  
->  This function is not supported by the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] on devices that run Apple iOS, such as iPad. The dialog box for uploading a file displays in the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], but it is disabled and the user cannot select a file.  
+>  This function is not supported by the [!INCLUDE[nav_web](includes/nav_web_md.md)] on devices that run Apple iOS, such as iPad. The dialog box for uploading a file displays in the [!INCLUDE[nav_web](includes/nav_web_md.md)], but it is disabled and the user cannot select a file.  
   
- In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], the business logic is run on the computer that is running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] and not on the client. Files are created on the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] service and not locally on the client computer.  
+ In [!INCLUDE[navnow](includes/navnow_md.md)], the business logic is run on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] and not on the client. Files are created on the [!INCLUDE[navnow](includes/navnow_md.md)] service and not locally on the client computer.  
   
- [UPLOAD Function \(FILE\)](../dynamics-nav/UPLOAD-Function--File-.md) and [UPLOADINTOSTREAM Function \(File\)](../dynamics-nav/UPLOADINTOSTREAM-Function--File-.md) are used to send a file from the client to a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] service.  
+ [UPLOAD Function \(FILE\)](UPLOAD-Function--File-.md) and [UPLOADINTOSTREAM Function \(File\)](UPLOADINTOSTREAM-Function--File-.md) are used to send a file from the client to a [!INCLUDE[navnow](includes/navnow_md.md)] service.  
   
- [DOWNLOAD Function \(File\)](../dynamics-nav/DOWNLOAD-Function--File-.md) and [DOWNLOADFROMSTREAM Function \(File\)](../dynamics-nav/DOWNLOADFROMSTREAM-Function--File-.md) are used to send a file from a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] service to the client.  
+ [DOWNLOAD Function \(File\)](DOWNLOAD-Function--File-.md) and [DOWNLOADFROMSTREAM Function \(File\)](DOWNLOADFROMSTREAM-Function--File-.md) are used to send a file from a [!INCLUDE[navnow](includes/navnow_md.md)] service to the client.  
   
  We recommend that you use the functions in codeunit 419, File Management, to upload and download files.  
   
@@ -90,4 +90,4 @@ UPLOAD('Upload file','C:\','Text file(*.txt)|*.txt','Test.txt',varTest)
 ```  
   
 ## See Also  
- [File Data Type](../dynamics-nav/File-Data-Type.md)
+ [File Data Type](File-Data-Type.md)

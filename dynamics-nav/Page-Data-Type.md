@@ -17,12 +17,12 @@ This complex data type stores pages.
  Pages contain a number of simpler elements called controls. Controls are used to display information to the user or receive information from the user.  
   
 ## See Also  
- [OBJECTID Function \(Page\)](../dynamics-nav/OBJECTID-Function--Page-.md)   
- [PAGE.RUN Function](../dynamics-nav/PAGE.RUN-Function.md)   
- [PAGE.RUNMODAL Function](../dynamics-nav/PAGE.RUNMODAL-Function.md)   
- [RUN Function \(Page\)](../dynamics-nav/RUN-Function--Page-.md)   
- [RUNMODAL Function \(Page\)](../dynamics-nav/RUNMODAL-Function--Page-.md)   
- [SETRECORD Function \(Page\)](../dynamics-nav/SETRECORD-Function--Page-.md)   
- [SETSELECTIONFILTER Function](../dynamics-nav/SETSELECTIONFILTER-Function.md)   
- [SETTABLEVIEW Function \(Page, Report, XMLport\)](../dynamics-nav/SETTABLEVIEW-Function--Page--Report--XMLport-.md)   
- [UPDATE](../dynamics-nav/UPDATE.md)
+ [OBJECTID Function \(Page\)](OBJECTID-Function--Page-.md)   
+ [PAGE.RUN Function](PAGE.RUN-Function.md)   
+ [PAGE.RUNMODAL Function](PAGE.RUNMODAL-Function.md)   
+ [RUN Function \(Page\)](RUN-Function--Page-.md)   
+ [RUNMODAL Function \(Page\)](RUNMODAL-Function--Page-.md)   
+ [SETRECORD Function \(Page\)](SETRECORD-Function--Page-.md)   
+ [SETSELECTIONFILTER Function](SETSELECTIONFILTER-Function.md)   
+ [SETTABLEVIEW Function \(Page, Report, XMLport\)](SETTABLEVIEW-Function--Page--Report--XMLport-.md)   
+ [UPDATE](UPDATE.md)

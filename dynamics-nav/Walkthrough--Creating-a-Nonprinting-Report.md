@@ -11,7 +11,7 @@ caps.latest.revision: 18
 manager: edupont
 ---
 # Walkthrough: Creating a Nonprinting Report
-In this walkthrough, you will create a non\-printing report. A non\-printing report is a report that only does processing without actually outputting or printing a report. This type of processing is usually achieved by using codeunits. You use the [ProcessingOnly Property](../dynamics-nav/ProcessingOnly-Property.md) of the report to make the report non\-printing without much programming. This functionality also gives you access to the request page and enables the user to filter the data before you run the report. Instead of writing C\/AL code to open tables and retrieve records, you only have to define a data item.  
+In this walkthrough, you will create a non\-printing report. A non\-printing report is a report that only does processing without actually outputting or printing a report. This type of processing is usually achieved by using codeunits. You use the [ProcessingOnly Property](ProcessingOnly-Property.md) of the report to make the report non\-printing without much programming. This functionality also gives you access to the request page and enables the user to filter the data before you run the report. Instead of writing C\/AL code to open tables and retrieve records, you only have to define a data item.  
   
 ## About this Walkthrough  
  This walkthrough shows you how to create a non\-printing report that enable a user to adjust the prices in the item table. The user enters the factor by which to adjust the prices on the request page. The user can use the filters on the request page to filter the data and apply the adjustment to only the filtered data.   
@@ -30,16 +30,16 @@ This walkthrough illustrates the following tasks:
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] installed with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installed with a developer license.  
   
--   The [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+-   The [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 ## Defining the Data Model  
- When you create a new report, you must define where the data that the report will display should come from. You define the dataset in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Report Dataset Designer.This report has one data item that is based on the **Item** table \(table 27\).  
+ When you create a new report, you must define where the data that the report will display should come from. You define the dataset in [!INCLUDE[navnow](includes/navnow_md.md)] Report Dataset Designer.This report has one data item that is based on the **Item** table \(table 27\).  
   
 #### To define the data model  
   
-1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **Report**, and then choose the **New** to open the Report Dataset Designer.  
   
@@ -164,4 +164,4 @@ This walkthrough illustrates the following tasks:
  You might consider designing a report that has a layout and can be printed. For more information, see [Walkthrough: Designing a Customer List Report](../Topic/Walkthrough:%20Designing%20a%20Customer%20List%20Report.md).  
   
 ## See Also  
- [Report Design Walkthroughs](../dynamics-nav/Report-Design-Walkthroughs.md)
+ [Report Design Walkthroughs](Report-Design-Walkthroughs.md)

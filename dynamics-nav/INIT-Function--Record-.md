@@ -51,7 +51,7 @@ Record.INIT
   
  Primary key and timestamp fields are not initialized.  
   
- After the function executes, you can change the values in any of the fields before you call the [INSERT Function \(Record\)](../dynamics-nav/INSERT-Function--Record-.md) to enter the record in the table. Be sure that the fields that make up the primary key contain values that make the total primary key unique. If the primary key is not unique \(such as the record already exists\), then the record is rejected.  
+ After the function executes, you can change the values in any of the fields before you call the [INSERT Function \(Record\)](INSERT-Function--Record-.md) to enter the record in the table. Be sure that the fields that make up the primary key contain values that make the total primary key unique. If the primary key is not unique \(such as the record already exists\), then the record is rejected.  
   
 ## Example  
  In this example, assume that the primary key includes the "No." field. This example requires that you create a Record variable named CustomerRec for the **Customer** table.  
@@ -70,4 +70,4 @@ CustomerRec.INSERT;
  Since **INIT** does not initialize the primary key fields, the order of the statements in this example is not important. Scenario 1 causes the same result as scenario 2.  
   
 ## See Also  
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [Record Data Type](Record-Data-Type.md)

@@ -39,7 +39,7 @@ finsql.exe command=exportobjects, file=<exportfile>, [servername=<server>,] [dat
 > [!NOTE]  
 >  When you first specify a database server and database to open, either from a command at a command prompt or from a client, the database server and database are stored in the fin.zup file. By default, the fin.zup file is located at C:\\users\\\<*user name*\>\\AppData\\Roaming\\.  
   
- If you do not specify the *servername* parameter but you do specify the *database* parameter, then the [\($ S\_2335 Open Database $\)](../dynamics-nav/-$-S_2335-Open-Database-$-.md) window opens so that you can specify the database server name.  
+ If you do not specify the *servername* parameter but you do specify the *database* parameter, then the [\($ S\_2335 Open Database $\)](-$-S_2335-Open-Database-$-.md) window opens so that you can specify the database server name.  
   
 > [!TIP]  
 >  To view the name of the server on which the current database is stored, on the **File** menu, choose **Database**, and then choose **Information**. Use the value of the **Database Server** field for the *servername* parameter.  
@@ -53,7 +53,7 @@ finsql.exe command=exportobjects, file=<exportfile>, [servername=<server>,] [dat
 > [!NOTE]  
 >  When you first specify a database server and database to open, either from a command at a command prompt or from a client, the database server and database are stored in the fin.zup file. By default, the fin.zup file is located at C:\\users\\\<*user name*\>\\AppData\\Roaming\\.  
   
- If you do not specify the *database* parameter but you do specify the *servername* parameter, then the [\($ S\_2335 Open Database $\)](../dynamics-nav/-$-S_2335-Open-Database-$-.md) window opens so that you can specify the database name.  
+ If you do not specify the *database* parameter but you do specify the *servername* parameter, then the [\($ S\_2335 Open Database $\)](-$-S_2335-Open-Database-$-.md) window opens so that you can specify the database name.  
   
 > [!TIP]  
 >  To view the name of the current database, on the **File** menu, choose **Database**, and then choose **Information**. Use the value of the **Database Name** field for the *database* parameter.  
@@ -100,7 +100,7 @@ finsql.exe command=exportobjects, file=<exportfile>, [servername=<server>,] [dat
   
  If you specify the *username* parameter, then you must also specify the *password* parameter and the *ntauthentication* parameter must be **no**.  
   
- For more information about database users and permissions, see [Setting Database Owner and Security Administration Permissions](../dynamics-nav/Setting-Database-Owner-and-Security-Administration-Permissions.md).  
+ For more information about database users and permissions, see [Setting Database Owner and Security Administration Permissions](Setting-Database-Owner-and-Security-Administration-Permissions.md).  
   
  *password*  
   
@@ -111,7 +111,7 @@ finsql.exe command=exportobjects, file=<exportfile>, [servername=<server>,] [dat
  Specifies whether to use NT authentication. The possible values are **yes**, **no**, **1**, or **0**. If you specify the *username* and *password* parameters, then you must specify **ntauthentication\=no** or **ntauthentication\=0**.  
   
 ## Remarks  
- You use the **ExportObjects** command with the finsql.exe from a command prompt. Finsql.exe is the executable file that runs the development environment. By default, finsql.exe is located at [!INCLUDE[navnow_x86install](../dynamics-nav/includes/navnow_x86install_md.md)]\\RoleTailored Client\\.  
+ You use the **ExportObjects** command with the finsql.exe from a command prompt. Finsql.exe is the executable file that runs the development environment. By default, finsql.exe is located at [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\.  
   
  To export objects to a .txt file, you must have a developer license. To export objects to a .fob file, you can have either an end\-user license or a developer license.  
   
@@ -125,18 +125,18 @@ finsql.exe command=exportobjects, file=C:\QueryExport.txt, servername=TestComput
 ```  
   
 ## See Also  
- [BuildVirtualMetadata](../dynamics-nav/BuildVirtualMetadata.md)   
- [CreateDatabase](../dynamics-nav/CreateDatabase.md)   
- [UpgradeDatabase](../dynamics-nav/UpgradeDatabase.md)   
- [CreateLanguage](../dynamics-nav/CreateLanguage.md)   
- [Compiling Objects](../dynamics-nav/Compiling-Objects.md)   
- [CreateLanguage](../dynamics-nav/CreateLanguage.md)   
- [DesignObject](../dynamics-nav/DesignObject.md)   
- [ExportObjects](../dynamics-nav/ExportObjects.md)   
- [ImportObjects](../dynamics-nav/ImportObjects.md)   
- [ExportLangModule](../dynamics-nav/ExportLangModule.md)   
- [ImportLangModule](../dynamics-nav/ImportLangModule.md)   
- [ExportTranslate](../dynamics-nav/ExportTranslate.md)   
- [ImportTranslate](../dynamics-nav/ImportTranslate.md)   
- [Using the Development Environment from the Command Prompt](../dynamics-nav/Using-the-Development-Environment-from-the-Command-Prompt.md)   
+ [BuildVirtualMetadata](BuildVirtualMetadata.md)   
+ [CreateDatabase](CreateDatabase.md)   
+ [UpgradeDatabase](UpgradeDatabase.md)   
+ [CreateLanguage](CreateLanguage.md)   
+ [Compiling Objects](Compiling-Objects.md)   
+ [CreateLanguage](CreateLanguage.md)   
+ [DesignObject](DesignObject.md)   
+ [ExportObjects](ExportObjects.md)   
+ [ImportObjects](ImportObjects.md)   
+ [ExportLangModule](ExportLangModule.md)   
+ [ImportLangModule](ImportLangModule.md)   
+ [ExportTranslate](ExportTranslate.md)   
+ [ImportTranslate](ImportTranslate.md)   
+ [Using the Development Environment from the Command Prompt](Using-the-Development-Environment-from-the-Command-Prompt.md)   
  [How to: Export Objects](../Topic/How%20to:%20Export%20Objects.md)

@@ -11,12 +11,12 @@ caps.latest.revision: 10
 manager: terryaus
 ---
 # How to: Administer a Remote Microsoft Dynamics NAV Server Computer
-You can use the [!INCLUDE[nav_admin](../dynamics-nav/includes/nav_admin_md.md)] to connect to other computers on your network where [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] is installed and manage [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instances on those computers.  
+You can use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] to connect to other computers on your network where [!INCLUDE[navnowlong](includes/navnowlong_md.md)] is installed and manage [!INCLUDE[nav_server](includes/nav_server_md.md)] instances on those computers.  
   
 > [!NOTE]  
->  In this procedure, you only administer one [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] computer at a time. To administer multiple [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] computers from a single instance of [!INCLUDE[nav_admin](../dynamics-nav/includes/nav_admin_md.md)], see [How to: Administer Multiple Microsoft Dynamics NAV Server Computers](../Topic/How%20to:%20Administer%20Multiple%20Microsoft%20Dynamics%20NAV%20Server%20Computers.md).  
+>  In this procedure, you only administer one [!INCLUDE[nav_server](includes/nav_server_md.md)] computer at a time. To administer multiple [!INCLUDE[nav_server](includes/nav_server_md.md)] computers from a single instance of [!INCLUDE[nav_admin](includes/nav_admin_md.md)], see [How to: Administer Multiple Microsoft Dynamics NAV Server Computers](../Topic/How%20to:%20Administer%20Multiple%20Microsoft%20Dynamics%20NAV%20Server%20Computers.md).  
   
-### To connect to a remote [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] computer  
+### To connect to a remote [!INCLUDE[nav_server](includes/nav_server_md.md)] computer  
   
 1.  Verify that the administrator who will be connecting to the remote computer is a member of that computer’s Administrators group.  
   
@@ -28,15 +28,15 @@ You can use the [!INCLUDE[nav_admin](../dynamics-nav/includes/nav_admin_md.md)] 
   
 4.  Close the Windows PowerShell command prompt window.  
   
-5.  Start the [!INCLUDE[nav_admin](../dynamics-nav/includes/nav_admin_md.md)].  
+5.  Start the [!INCLUDE[nav_admin](includes/nav_admin_md.md)].  
   
-     For detailed instructions on starting [!INCLUDE[nav_admin](../dynamics-nav/includes/nav_admin_md.md)], see "Running the [!INCLUDE[nav_admin](../dynamics-nav/includes/nav_admin_md.md)]" in [Microsoft Dynamics NAV Server Administration Tool](../dynamics-nav/Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
+     For detailed instructions on starting [!INCLUDE[nav_admin](includes/nav_admin_md.md)], see "Running the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]" in [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
   
-6.  In the tree view pane, choose a [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] computer, and then choose **Connect to Another Computer** in the right pane.  
+6.  In the tree view pane, choose a [!INCLUDE[nav_server](includes/nav_server_md.md)] computer, and then choose **Connect to Another Computer** in the right pane.  
   
     > [!IMPORTANT]  
-    >  The **Connect to Another Computer** command is only available when a computer instead of a [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance is selected in the tree view pane.  
+    >  The **Connect to Another Computer** command is only available when a computer instead of a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is selected in the tree view pane.  
   
 7.  In the **Connect to another computer** dialog box, type the name of the remote computer in the **Server Name** box, and then choose **OK**.  
   
-     The tree view changes to show [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instances on the remote computer.
+     The tree view changes to show [!INCLUDE[nav_server](includes/nav_server_md.md)] instances on the remote computer.

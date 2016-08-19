@@ -97,7 +97,7 @@ A FactBox is an area on the right side of a page that can display additional pag
  Charts provide a way to display data graphically. You can add any existing chart that is included in table **2000000078 Chart**.  
   
 > [!NOTE]  
->  Charts are not supported in the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]. If the page is displayed in this display target, then the chart part is ignored.  
+>  Charts are not supported in the [!INCLUDE[nav_web](includes/nav_web_md.md)]. If the page is displayed in this display target, then the chart part is ignored.  
   
 #### To add a chart to the FactBox  
   
@@ -114,12 +114,12 @@ A FactBox is an area on the right side of a page that can display additional pag
 6.  Close the **Properties** window. The selected chart now appears in the **Name** and **Caption** columns of the Page Designer for the **Chart** row.  
   
 ## Adding a System Part the FactBox  
- You can add any of the following system parts to a FactBox on a page in the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)]: Microsoft Outlook, Notes, MyNotes, or RecordLinks.  
+ You can add any of the following system parts to a FactBox on a page in the [!INCLUDE[rtc](includes/rtc_md.md)]: Microsoft Outlook, Notes, MyNotes, or RecordLinks.  
   
 > [!NOTE]  
->  System parts are not supported in the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]. If the page is displayed in this display target, then the system part is ignored.  
+>  System parts are not supported in the [!INCLUDE[nav_web](includes/nav_web_md.md)]. If the page is displayed in this display target, then the system part is ignored.  
   
- For more information about system parts, see [Touring the RoleTailored Client Pages](../dynamics-nav/Touring-the-RoleTailored-Client-Pages.md).  
+ For more information about system parts, see [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md).  
   
 #### To add a system part to the FactBox  
   
@@ -134,6 +134,6 @@ A FactBox is an area on the right side of a page that can display additional pag
 5.  Close the window. The selected system part now appears in the **Name** and **Caption** columns of the Page Designer for the **System** row.  
   
 ## See Also  
- [Adding a FactBox to Page](../dynamics-nav/Adding-a-FactBox-to-Page.md)   
+ [Adding a FactBox to Page](Adding-a-FactBox-to-Page.md)   
  [Walkthrough: Adding a FactBox to the Customer List Page](../Topic/Walkthrough:%20Adding%20a%20FactBox%20to%20the%20Customer%20List%20Page.md)   
  [How to: Create a Page](../Topic/How%20to:%20Create%20a%20Page.md)

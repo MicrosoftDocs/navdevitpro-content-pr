@@ -11,7 +11,7 @@ caps.latest.revision: 4
 manager: edupont
 ---
 # Compilation Errors When Converting a Microsoft Dynamics NAV 2013 Database
-If you converted a [!INCLUDE[nav7long](../dynamics-nav/includes/nav7long_md.md)] database, then after the database conversion has completed, you will receive compilation errors in several standard [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] objects. The following table provides guidance to help you resolve these errors.  
+If you converted a [!INCLUDE[nav7long](includes/nav7long_md.md)] database, then after the database conversion has completed, you will receive compilation errors in several standard [!INCLUDE[navnow](includes/navnow_md.md)] objects. The following table provides guidance to help you resolve these errors.  
   
 |Object Type|Object ID|Object Name|Compilation Status|Solution|  
 |-----------------|---------------|-----------------|------------------------|--------------|  
@@ -19,8 +19,8 @@ If you converted a [!INCLUDE[nav7long](../dynamics-nav/includes/nav7long_md.md)]
 |Table|5541|Timeline Event Change|Error|Update the **Subtype** property of the variables that reference the **DataVisualization** add\-in with references to the new version of the add\-in.|  
 |Codeunit|9180|Generic Chart Mgt.|Error|Remove the code line that refers to the **Company** field. This field is obsolete.|  
 |Codeunit|9500|Debugger Management|Error|Remove the code lines that refer to the **User SID** field. This field is obsolete.|  
-|Page|692|Import Style Sheet|Error|Rename the `ObjectType` global variable to `ObjType`. In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], `ObjectType` is a reserved word in C\/AL.|  
-|Page|693|Program Selection|Error|Rename the `ObjectType` global variable to `ObjType`. In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], `ObjectType` is a reserved word in C\/AL.|  
+|Page|692|Import Style Sheet|Error|Rename the `ObjectType` global variable to `ObjType`. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], `ObjectType` is a reserved word in C\/AL.|  
+|Page|693|Program Selection|Error|Rename the `ObjectType` global variable to `ObjType`. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], `ObjectType` is a reserved word in C\/AL.|  
 |Page|5540|Item Availability by Timeline|Error|Update the **Subtype** property of the variables that refer to the **DataVisualization** add\-in with references to the new version of the add\-in.|  
 |Page|9170|Profile Card|Error|Remove the **Owner ID** column from the page. This field is obsolete.|  
 |Page|9171|Profile List|Error|Remove the **Owner ID** column from the page. This field is obsolete.|  
@@ -28,7 +28,7 @@ If you converted a [!INCLUDE[nav7long](../dynamics-nav/includes/nav7long_md.md)]
 |Page|9183|Generic Chart Setup|Error|Remove the **Company** column from the page. This field is obsolete.|  
 |Page|9500|Debugger|Error|Remove the code lines that refer to the **User SID** field. This field is obsolete.|  
 |Page|9503|Debugger Watch Value FactBox|Error|Remove the code lines that refer to the **User SID** field. This field is obsolete.|  
-|Page|9504|Debugger Code Viewer|Error|Remove the code lines that refer to the **User SID** field. This field is obsolete.<br /><br /> Rename the `ObjectType` global variable to `ObjType`. In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], `ObjectType` is a reserved word in C\/AL.|  
+|Page|9504|Debugger Code Viewer|Error|Remove the code lines that refer to the **User SID** field. This field is obsolete.<br /><br /> Rename the `ObjectType` global variable to `ObjType`. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], `ObjectType` is a reserved word in C\/AL.|  
 |Page|9505|Debugger Breakpoint List|Error|Remove the **User SID** field from the expression in the **SourceTableView** property. Remove the code lines that refer to the **User SID** field. This field is obsolete.|  
 |Table|79|Company Information|Warning|Several warnings. See the solution in the following section.|  
 |Codeunit|40|LogInManagement|Warning|See the solution in the following section.|  
@@ -100,4 +100,4 @@ END;
 |After|`Language.SETRANGE("Localization Exist",TRUE);`|  
   
 ## See Also  
- [Converting a Database](../dynamics-nav/Converting-a-Database.md)
+ [Converting a Database](Converting-a-Database.md)

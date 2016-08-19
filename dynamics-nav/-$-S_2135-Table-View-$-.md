@@ -17,11 +17,11 @@ Specifies the sorting and filtering for the data item.
   
 ## Fields  
   
-|[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
-|**Key**|Specifies a table key on which you want to sort the data in the report or choose the **Up Arrow** button to select a key from the [\($ S\_2123 Key List $\)](../dynamics-nav/-$-S_2123-Key-List-$-.md) window. If you specify a key, then this data item does not have a FastTab on the request page, and end users cannot select a key for sorting, sort order, or filters for the data item.|  
+|**Key**|Specifies a table key on which you want to sort the data in the report or choose the **Up Arrow** button to select a key from the [\($ S\_2123 Key List $\)](-$-S_2123-Key-List-$-.md) window. If you specify a key, then this data item does not have a FastTab on the request page, and end users cannot select a key for sorting, sort order, or filters for the data item.|  
 |**Order**|Specifies the sort order by choosing either **Ascending** or **Descending** from the drop\-down list. If you specify a sort order, then this sort order is used for the report regardless of the sort order that the end user selects on the request page.|  
-|**Table Filter**|Specifies a filter expression to use to filter the data in the report or choose the **AssistEdit** button to enter a filter in the [\($ S\_2131 Table Filter $\)](../dynamics-nav/-$-S_2131-Table-Filter-$-.md) window. If you specify a filter, then this filter is not displayed on the request page, but it is used along with any filters that the end user specifies on the request page.|  
+|**Table Filter**|Specifies a filter expression to use to filter the data in the report or choose the **AssistEdit** button to enter a filter in the [\($ S\_2131 Table Filter $\)](-$-S_2131-Table-Filter-$-.md) window. If you specify a filter, then this filter is not displayed on the request page, but it is used along with any filters that the end user specifies on the request page.|  
   
 ## See Also  
- [DataItemTableView Property](../dynamics-nav/DataItemTableView-Property.md)
+ [DataItemTableView Property](DataItemTableView-Property.md)

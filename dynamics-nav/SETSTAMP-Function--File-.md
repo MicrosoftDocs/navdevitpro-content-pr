@@ -72,4 +72,4 @@ MESSAGE(Text000, varDate, varTime);
 ```  
   
 ## See Also  
- [File Data Type](../dynamics-nav/File-Data-Type.md)
+ [File Data Type](File-Data-Type.md)

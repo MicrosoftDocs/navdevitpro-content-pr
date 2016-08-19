@@ -31,17 +31,17 @@ Ok := Record.WRITEPERMISSION
   
  Specifies whether you have permission to write to the table using any of the following record functions:  
   
--   [INSERT Function \(Record\)](../dynamics-nav/INSERT-Function--Record-.md)  
+-   [INSERT Function \(Record\)](INSERT-Function--Record-.md)  
   
--   [DELETE Function \(Record\)](../dynamics-nav/DELETE-Function--Record-.md)  
+-   [DELETE Function \(Record\)](DELETE-Function--Record-.md)  
   
--   [MODIFY Function \(Record\)](../dynamics-nav/MODIFY-Function--Record-.md)  
+-   [MODIFY Function \(Record\)](MODIFY-Function--Record-.md)  
   
--   [RENAME Function \(Record\)](../dynamics-nav/RENAME-Function--Record-.md)  
+-   [RENAME Function \(Record\)](RENAME-Function--Record-.md)  
   
--   [DELETEALL Function \(Record\)](../dynamics-nav/DELETEALL-Function--Record-.md)  
+-   [DELETEALL Function \(Record\)](DELETEALL-Function--Record-.md)  
   
--   [MODIFYALL Function \(Record\)](../dynamics-nav/MODIFYALL-Function--Record-.md)  
+-   [MODIFYALL Function \(Record\)](MODIFYALL-Function--Record-.md)  
   
  **true** if you can write to some or all of the table. **false** if you cannot write to the table.  
   
@@ -68,4 +68,4 @@ MESSAGE('Table has Write permission? %1', varHasWrite);
 ```  
   
 ## See Also  
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [Record Data Type](Record-Data-Type.md)

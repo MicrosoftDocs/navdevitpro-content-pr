@@ -10,7 +10,7 @@ ms.assetid: 5523466a-5f72-4138-ad36-3b678c36724b
 caps.latest.revision: 3
 ---
 # How to: Use PerfView to View Event Trace Data
-This topic describes how to use PerfView to view [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] event trace data that is stored in an event trace log \(.etl\) file.  
+This topic describes how to use PerfView to view [!INCLUDE[nav_server](includes/nav_server_md.md)] event trace data that is stored in an event trace log \(.etl\) file.  
   
 ### To install PerfView  
   
@@ -37,5 +37,5 @@ This topic describes how to use PerfView to view [!INCLUDE[nav_server](../dynami
 ## See Also  
  [How to: Use PerfView to Collect Event Trace Data](../Topic/How%20to:%20Use%20PerfView%20to%20Collect%20Event%20Trace%20Data.md)   
  [How to: Use Performance Monitor to Collect Event Trace Data](../Topic/How%20to:%20Use%20Performance%20Monitor%20to%20Collect%20Event%20Trace%20Data.md)   
- [Monitoring Microsoft Dynamics NAV Server Event Traces](../dynamics-nav/Monitoring-Microsoft-Dynamics-NAV-Server-Event-Traces.md)   
- [Microsoft Dynamics NAV Server Trace Events](../dynamics-nav/Microsoft-Dynamics-NAV-Server-Trace-Events.md)
+ [Monitoring Microsoft Dynamics NAV Server Event Traces](Monitoring-Microsoft-Dynamics-NAV-Server-Event-Traces.md)   
+ [Microsoft Dynamics NAV Server Trace Events](Microsoft-Dynamics-NAV-Server-Trace-Events.md)

@@ -65,7 +65,7 @@ MESSAGE(Text000, numChars, varChars);
 ```  
   
 ## See Also  
- [InStream.EOS Function](../dynamics-nav/InStream.EOS-Function.md)   
- [InStream.READTEXT Function](../dynamics-nav/InStream.READTEXT-Function.md)   
- [OutStream.WRITE Function](../dynamics-nav/OutStream.WRITE-Function.md)   
- [InStream and OutStream Data Types](../dynamics-nav/InStream-and-OutStream-Data-Types.md)
+ [InStream.EOS Function](InStream.EOS-Function.md)   
+ [InStream.READTEXT Function](InStream.READTEXT-Function.md)   
+ [OutStream.WRITE Function](OutStream.WRITE-Function.md)   
+ [InStream and OutStream Data Types](InStream-and-OutStream-Data-Types.md)

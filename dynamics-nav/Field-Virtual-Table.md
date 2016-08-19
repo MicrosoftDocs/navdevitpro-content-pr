@@ -32,7 +32,7 @@ The **Field** virtual table contains information about fields in database tables
  You must create a tabular\-type page to access the **Field** table. For more information, see [How to: Create a Page to View a Virtual Table](../Topic/How%20to:%20Create%20a%20Page%20to%20View%20a%20Virtual%20Table.md).  
   
 > [!NOTE]  
->  For performance reasons, in pages that use the **Field** virtual table, the **RelationFieldNo** field is blank for fields with complex table relations. To parse all fields that have any table relationships is time consuming. Accordingly, data such as complex table relations is not available in windows such as the [!INCLUDE[rim](../dynamics-nav/includes/rim_md.md)] configuration worksheet.  
+>  For performance reasons, in pages that use the **Field** virtual table, the **RelationFieldNo** field is blank for fields with complex table relations. To parse all fields that have any table relationships is time consuming. Accordingly, data such as complex table relations is not available in windows such as the [!INCLUDE[rim](includes/rim_md.md)] configuration worksheet.  
   
 ## See Also  
- [Virtual Tables](../dynamics-nav/Virtual-Tables.md)
+ [Virtual Tables](Virtual-Tables.md)

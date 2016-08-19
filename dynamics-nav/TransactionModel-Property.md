@@ -14,7 +14,7 @@ manager: terryaus
 Specifies whether data is committed to the database during execution of a test function and whether transactions are rolled back at the end of a test function.  
   
 ## Applies To  
- C\/AL test functions on test codeunits. A test codeunit is a codeunit that has the [SubType Property \(Codeunit\)](../dynamics-nav/SubType-Property--Codeunit-.md) set to **Test**.  
+ C\/AL test functions on test codeunits. A test codeunit is a codeunit that has the [SubType Property \(Codeunit\)](SubType-Property--Codeunit-.md) set to **Test**.  
   
  The TransactionModel property applies to both test functions that use TestPages and test functions that do not use TestPages.  
   
@@ -22,7 +22,7 @@ Specifies whether data is committed to the database during execution of a test f
   
 |Value|Description|  
 |-----------|-----------------|  
-|AutoCommit|A commit is issued at the end of the test function. If an error occurs during the test function, then the transaction is rolled back. If an error occurs and you catch it with an **ASSERTERROR** statement, then the transaction is rolled back. If the code that is being tested calls the [COMMIT Function \(Database\)](../dynamics-nav/COMMIT-Function--Database-.md) before an error occurs, then the transaction is rolled back only to the point at which the **COMMIT** was called.<br /><br /> **AutoCommit** is the default value.|  
+|AutoCommit|A commit is issued at the end of the test function. If an error occurs during the test function, then the transaction is rolled back. If an error occurs and you catch it with an **ASSERTERROR** statement, then the transaction is rolled back. If the code that is being tested calls the [COMMIT Function \(Database\)](COMMIT-Function--Database-.md) before an error occurs, then the transaction is rolled back only to the point at which the **COMMIT** was called.<br /><br /> **AutoCommit** is the default value.|  
 |AutoRollback|The transaction is rolled back after test execution. Calls to the **COMMIT** function during a test that is set to **AutoRollback** fail with an error.|  
 |None|Used primarily with TestPages. The test function does not have an open write transaction; therefore, it cannot write to the database. Each interaction with the database occurs through TestPage triggers, which open their own write transactions. At the end of each trigger, if no errors occurred, then any changes are committed to the database. If an error occurred, then changes are rolled back at the end of the transaction.|  
   
@@ -55,7 +55,7 @@ Specifies whether data is committed to the database during execution of a test f
   
     5.  The test function reads the values of fields on the test page or reads from the database to validate the test.  
   
-    6.  After the test function is completed, changes are committed to the database. To return the database to its initial state, either you must manually revert the changes by deleting, updating, or inserting records, or you must use the [TestIsolation Property](../dynamics-nav/TestIsolation-Property.md) on the test runner codeunit to roll back changes.  
+    6.  After the test function is completed, changes are committed to the database. To return the database to its initial state, either you must manually revert the changes by deleting, updating, or inserting records, or you must use the [TestIsolation Property](TestIsolation-Property.md) on the test runner codeunit to roll back changes.  
   
 -   Set the **TransactionModel** property on the test function to **None** to simulate the behavior of an actual user. The test function does not start a transaction and cannot write to the database. However, a new transaction is started every time that a field on the page is updated and C\/AL code is triggered. At the end of each trigger, changes are automatically committed to the database. You can use this option if your test does not write to the database and you do not have to initialize data in the database before the test starts. For example, use this option for tests that validate calculation formulas or tests that read from the database. The test proceeds as follows:  
   
@@ -63,13 +63,13 @@ Specifies whether data is committed to the database during execution of a test f
   
     2.  The test function validates the test.  
   
-    3.  After the test is completed, no transactions are rolled back. To return the database to its initial state, either you must manually revert the changes by deleting, updating, or inserting records, or you must use the [TestIsolation Property](../dynamics-nav/TestIsolation-Property.md) on the test runner codeunit to roll back changes.  
+    3.  After the test is completed, no transactions are rolled back. To return the database to its initial state, either you must manually revert the changes by deleting, updating, or inserting records, or you must use the [TestIsolation Property](TestIsolation-Property.md) on the test runner codeunit to roll back changes.  
   
  With **AutoCommit** and **AutoRollback**, the test function starts a write transaction. Triggers that are invoked by the test code inherit this open transaction instead of running in their own separate transactions. By using the **AutoCommit** and **AutoRollback** settings, if several page interactions are invoked from test code, then they share the same transaction. By using the **None** setting, each page interaction runs in a separate transaction.  
   
 ## See Also  
- [TestIsolation Property](../dynamics-nav/TestIsolation-Property.md)   
- [Testing the Application](../dynamics-nav/Testing-the-Application.md)   
- [Testing Pages](../dynamics-nav/Testing-Pages.md)   
+ [TestIsolation Property](TestIsolation-Property.md)   
+ [Testing the Application](Testing-the-Application.md)   
+ [Testing Pages](Testing-Pages.md)   
  [How to: Create Test Codeunits and Test Functions](../Topic/How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md)   
- [C\-AL ASSERTERROR Statements](../dynamics-nav/C-AL-ASSERTERROR-Statements.md)
+ [C\-AL ASSERTERROR Statements](C-AL-ASSERTERROR-Statements.md)

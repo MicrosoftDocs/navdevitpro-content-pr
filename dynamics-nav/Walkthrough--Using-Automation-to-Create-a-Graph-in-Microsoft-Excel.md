@@ -13,7 +13,7 @@ manager: terryaus
 # Walkthrough: Using Automation to Create a Graph in Microsoft Excel
 In this walkthrough, you will transfer data from the **G\/L Entry** table to Microsoft Excel and create a graph. This example shows how to handle enumerations by creating a graph in Excel that shows the distribution of personnel expenses by departments. In the chart of accounts, you can see that Total Personnel Expenses is the total of accounts 8700 to 8790. In the **Dimension Value** table, you can see that there are three departments: ADM, PROD, and SALES. You will create a codeunit that retrieves this data from the **G\/L Entry** table, transfers it to Excel, and creates a graph that is similar to the one that is shown in the following figure:  
   
- ![Excel graph](../dynamics-nav/media/NAVAutomationExcelGraph.PNG "NAVAutomationExcelGraph")  
+ ![Excel graph](media/NAVAutomationExcelGraph.PNG "NAVAutomationExcelGraph")  
   
  You will run the codeunit directly from Object Designer. In a real application, you would call it from an appropriate place, such as from a menu in the chart of accounts window.  
   
@@ -31,7 +31,7 @@ In this walkthrough, you will transfer data from the **G\/L Entry** table to Mic
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] with a developer license.  
   
 -   The CRONUS International Ltd. demo data company.  
   
@@ -108,7 +108,7 @@ In this walkthrough, you will transfer data from the **G\/L Entry** table to Mic
   
  For more information, see Workbooks.Add Method \(Excel\), [http:\/\/go.microsoft.com\/fwlink\/?LinkId\=404331](http://go.microsoft.com/fwlink/?LinkId=404331).  
   
- Instead of passing xlWBATWorkSheet as the **Template** argument, you are passing the number \-4167. In this case, the **Template** argument, which is of type VARIANT, is an enumeration. Enumerations are either USERDEF types or not. This is not a USERDEF type, so it looks like a VARIANT in the C\/AL Symbol Menu. You have to look in the Microsoft Excel Visual Basic Help to figure out that it is actually an enumeration. Arguments can be constants with names like xl\* in Excel, wd\* in Word, and ol\* in Outlook. In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], you cannot use the symbolic name xlWBATWorkSheet. You have to use the enumerator \-4167. The following procedure describes how you can find an enumerator value if you need to.  
+ Instead of passing xlWBATWorkSheet as the **Template** argument, you are passing the number \-4167. In this case, the **Template** argument, which is of type VARIANT, is an enumeration. Enumerations are either USERDEF types or not. This is not a USERDEF type, so it looks like a VARIANT in the C\/AL Symbol Menu. You have to look in the Microsoft Excel Visual Basic Help to figure out that it is actually an enumeration. Arguments can be constants with names like xl\* in Excel, wd\* in Word, and ol\* in Outlook. In [!INCLUDE[navnow](includes/navnow_md.md)], you cannot use the symbolic name xlWBATWorkSheet. You have to use the enumerator \-4167. The following procedure describes how you can find an enumerator value if you need to.  
   
 ##### To find an enumerator value  
   

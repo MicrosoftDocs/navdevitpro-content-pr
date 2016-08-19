@@ -11,7 +11,7 @@ caps.latest.revision: 17
 manager: terryaus
 ---
 # Serializing .NET Framework Types
-In Microsoft .NET Framework, *serialization* is the process of converting an object into a format that can transmitted across a network connection. Microsoft Dynamics NAV .NET Framework interoperability uses serialization for communication between client\-side .NET Framework objects and server\-side .NET Framework objects. When you configure DotNet variables in a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] object, you can specify .NET Framework objects to target either the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] or [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]. In some cases, a client\-side object and a server\-side object must communicate and share data, such as return values and parameters. The serialization occurs when the following conditions are true:  
+In Microsoft .NET Framework, *serialization* is the process of converting an object into a format that can transmitted across a network connection. Microsoft Dynamics NAV .NET Framework interoperability uses serialization for communication between client\-side .NET Framework objects and server\-side .NET Framework objects. When you configure DotNet variables in a [!INCLUDE[navnow](includes/navnow_md.md)] object, you can specify .NET Framework objects to target either the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_server](includes/nav_server_md.md)]. In some cases, a client\-side object and a server\-side object must communicate and share data, such as return values and parameters. The serialization occurs when the following conditions are true:  
   
 -   When a server\-side object is assigned to a client\-side object, and vice\-versa.  
   
@@ -20,7 +20,7 @@ In Microsoft .NET Framework, *serialization* is the process of converting an obj
  Serialization requires that the .NET Framework types that are used by the DotNet variables are serializable. Many types in the Microsoft .NET Framework class library are already serializable. If you are using a .NET Framework type that cannot be serialized, then you must modify the type to make it serializable.  
   
 > [!IMPORTANT]  
->  For the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], you cannot implement Microsoft .NET Framework interoperability objects that target the client.  
+>  For the [!INCLUDE[nav_web](includes/nav_web_md.md)], you cannot implement Microsoft .NET Framework interoperability objects that target the client.  
   
 ## Making a Type Serializable  
  There are two ways that you can make a .NET Framework type serializable. You can implement basic serialization by applying the [System.SerializableAttribute](http://go.microsoft.com/fwlink/?LinkID=262177) attribute to the type or you can implement custom serialization by using [System.Runtime.Serialization.ISerializable](http://go.microsoft.com/fwlink/?LinkID=262178) interface.  
@@ -52,7 +52,7 @@ public class MyObject
  The common language runtime calls the constructor during deserialization to construct a replica of the source object. The constructor takes two parameters, a **SerializationInfo** type and a [System.Runtime.Serialization.StreamingContext](http://go.microsoft.com/fwlink/?LinkID=262182) type. The **StreamingContext** parameter describes the source and destination of a given serialized stream.  
   
 ### Custom Serialization Example  
- The following code example demonstrates a custom serialization object that implements the basic functionality that is required for compliance with the **ISerializable** interface. In the first procedure of this example, you create a .NET Framework assembly that includes a serializable type. In the second procedure, in the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] development environment, you create a codeunit that includes two DotNet variables for the serializable type. You set one variable to target the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] and the other to target the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]. In C\/AL code, you add code that transfers the value for the DotNet variable on the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] to the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. You will also add code that verifies that the data transfer is successful.  
+ The following code example demonstrates a custom serialization object that implements the basic functionality that is required for compliance with the **ISerializable** interface. In the first procedure of this example, you create a .NET Framework assembly that includes a serializable type. In the second procedure, in the [!INCLUDE[navnow](includes/navnow_md.md)] development environment, you create a codeunit that includes two DotNet variables for the serializable type. You set one variable to target the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and the other to target the [!INCLUDE[nav_server](includes/nav_server_md.md)]. In C\/AL code, you add code that transfers the value for the DotNet variable on the [!INCLUDE[nav_server](includes/nav_server_md.md)] to the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. You will also add code that verifies that the data transfer is successful.  
   
 ##### To create the custom serialization object  
   
@@ -118,22 +118,22 @@ public class MyObject
   
 3.  Build the project.  
   
-4.  Copy the SerializationSample.dll to the **Add\-ins** folder of the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] and [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] installation folders.  
+4.  Copy the SerializationSample.dll to the **Add\-ins** folder of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)] installation folders.  
   
-     By default, the path of the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] installation folder is [!INCLUDE[navnow_x86install](../dynamics-nav/includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add\-ins.  
+     By default, the path of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] installation folder is [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add\-ins.  
   
-     By default, the path of the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] installation folder is [!INCLUDE[navnow_install](../dynamics-nav/includes/navnow_install_md.md)]\\Service\\Add\-ins.  
+     By default, the path of the [!INCLUDE[nav_server](includes/nav_server_md.md)] installation folder is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service\\Add\-ins.  
   
 ##### To test the serialization object  
   
-1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], create a codeunit called **SerializationSample**.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], create a codeunit called **SerializationSample**.  
   
 2.  For the **OnRun** function, add the following local variables.  
   
     |Variable name|DataType|SubType|Comments|  
     |-------------------|--------------|-------------|--------------|  
-    |ServerObject|DotNet|SerializationSample.SerializeWithInterface|The DotNet variable should target [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]. Set the variable [RunOnClient Property](../dynamics-nav/RunOnClient-Property.md) to **No**.|  
-    |ClientObject|DotNet|SerializationSample|The DotNet variable should target the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. Set the variable [RunOnClient Property](../dynamics-nav/RunOnClient-Property.md) to **Yes**.|  
+    |ServerObject|DotNet|SerializationSample.SerializeWithInterface|The DotNet variable should target [!INCLUDE[nav_server](includes/nav_server_md.md)]. Set the variable [RunOnClient Property](RunOnClient-Property.md) to **No**.|  
+    |ClientObject|DotNet|SerializationSample|The DotNet variable should target the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. Set the variable [RunOnClient Property](RunOnClient-Property.md) to **Yes**.|  
   
 3.  Add the following code to the **OnRun** function.  
   
@@ -163,5 +163,5 @@ public class MyObject
      The line that contains assignment of the **ServerObject** to the **ClientObject** causes the serialization process to run. When completed, the message **Server data has been serialized to the client object** appears, which verifies that the server object has been transferred to the client object.  
   
 ## See Also  
- [Calling .NET Framework Members from C\-AL](../dynamics-nav/Calling-.NET-Framework-Members-from-C-AL.md)   
+ [Calling .NET Framework Members from C\-AL](Calling-.NET-Framework-Members-from-C-AL.md)   
  [How to: Call .NET Framework Types From C\-AL Code](../Topic/How%20to:%20Call%20.NET%20Framework%20Types%20From%20C-AL%20Code.md)

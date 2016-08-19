@@ -13,13 +13,13 @@ manager: edupont
 # IMPORTENCRYPTIONKEY
 Points to a password protected file that contains the key on the current server.  
   
- When encrypting or decrypting data in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], an encryption key is used. [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] uses a single key per tenant and every tenant will have a different key. Keys can be created or imported if one exists already, as may be the case if upgrading or migrating a system from one set of hardware to another. The **IMPORTENCRYPTIONKEY** function allows an administrator to specify a file \(password protected\) which contains a key and imports it to the current [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)].  
+ When encrypting or decrypting data in [!INCLUDE[navnow](includes/navnow_md.md)], an encryption key is used. [!INCLUDE[navnow](includes/navnow_md.md)] uses a single key per tenant and every tenant will have a different key. Keys can be created or imported if one exists already, as may be the case if upgrading or migrating a system from one set of hardware to another. The **IMPORTENCRYPTIONKEY** function allows an administrator to specify a file \(password protected\) which contains a key and imports it to the current [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
 > [!NOTE]  
->  In systems with multiple [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instances, you must run the **IMPORTENCRYPTIONKEY** function for each instance.  
+>  In systems with multiple [!INCLUDE[nav_server](includes/nav_server_md.md)] instances, you must run the **IMPORTENCRYPTIONKEY** function for each instance.  
   
 > [!IMPORTANT]  
->  Use the System Restore permission set in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] to allow importing the encryption key.  
+>  Use the System Restore permission set in [!INCLUDE[navnow](includes/navnow_md.md)] to allow importing the encryption key.  
   
 ## Syntax  
   
@@ -49,7 +49,7 @@ IMPORTENCRYPTIONKEY(filename, pwd)
  If the import key file cannot be imported, the following error will be displayed: **Import Failed. The provided encryption key file contains invalid data and could not be imported**.  
   
 ## Example  
- This code example uses the [ENCRYPTIONENABLED](../dynamics-nav/ENCRYPTIONENABLED.md) and [ENCRYPTIONKEYEXISTS](../dynamics-nav/ENCRYPTIONKEYEXISTS.md) functions to do a check before importing the encryption key.  
+ This code example uses the [ENCRYPTIONENABLED](ENCRYPTIONENABLED.md) and [ENCRYPTIONKEYEXISTS](ENCRYPTIONKEYEXISTS.md) functions to do a check before importing the encryption key.  
   
  This example requires that you create a text constant ServerFileName.  
   
@@ -73,6 +73,6 @@ IF ENCRYPTIONENABLED THEN
 ```  
   
 ## See Also  
- [Encryption Key Management](../dynamics-nav/Encryption-Key-Management.md)   
- [EXPORTENCRYPTIONKEY](../dynamics-nav/EXPORTENCRYPTIONKEY.md)   
- [Encryption Functions](../dynamics-nav/Encryption-Functions.md)
+ [Encryption Key Management](Encryption-Key-Management.md)   
+ [EXPORTENCRYPTIONKEY](EXPORTENCRYPTIONKEY.md)   
+ [Encryption Functions](Encryption-Functions.md)

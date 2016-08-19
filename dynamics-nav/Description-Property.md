@@ -26,4 +26,4 @@ Sets the description of the table, field, page, report, or control. This descrip
 -   Labels  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

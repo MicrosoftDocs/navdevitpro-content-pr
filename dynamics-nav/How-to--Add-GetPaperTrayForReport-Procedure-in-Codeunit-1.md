@@ -15,7 +15,7 @@ You can print a report that uses different paper trays to print different letter
   
 ### To add the GetPaperTrayForReport procedure in codeunit 1  
   
-1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In **Object Designer**, choose **Codeunit**, and then choose codeunit 1 **Application Management**.  
   
@@ -34,7 +34,7 @@ You can print a report that uses different paper trays to print different letter
   
 4.  The following table describes the procedure parameters.  
   
-    |Parameter|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+    |Parameter|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
     |---------------|---------------------------------------|  
     |**ReportID**|The ID of the report that is currently running.|  
     |**FirstPage**|A reference value that returns the integer value of the paper tray used on the first page. If the value returns 0, then the printer uses the paper tray that is defined in the printer settings.|  
@@ -44,6 +44,6 @@ You can print a report that uses different paper trays to print different letter
 5.  Save and compile codeunit 1.  
   
 ## See Also  
- [PaperSourceDefaultPage Property](../dynamics-nav/PaperSourceDefaultPage-Property.md)   
- [PaperSourceFirstPage Property](../dynamics-nav/PaperSourceFirstPage-Property.md)   
- [PaperSourceLastPage Property](../dynamics-nav/PaperSourceLastPage-Property.md)
+ [PaperSourceDefaultPage Property](PaperSourceDefaultPage-Property.md)   
+ [PaperSourceFirstPage Property](PaperSourceFirstPage-Property.md)   
+ [PaperSourceLastPage Property](PaperSourceLastPage-Property.md)

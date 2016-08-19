@@ -22,4 +22,4 @@ Executed after the current record is retrieved from the table.
  If there is an error in the trigger code, then the page is closed.  
   
 ## See Also  
- [Triggers](../dynamics-nav/Triggers.md)
+ [Triggers](Triggers.md)

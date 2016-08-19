@@ -31,8 +31,8 @@ When you run a Data Collector Set, the data that is collected for performance co
 6.  Choose the **OK** button.  
   
 ## See Also  
- [Microsoft Dynamics NAV Performance Counters](../dynamics-nav/Microsoft-Dynamics-NAV-Performance-Counters.md)   
- [Working with Data Collector Sets](../dynamics-nav/Working-with-Data-Collector-Sets.md)   
+ [Microsoft Dynamics NAV Performance Counters](Microsoft-Dynamics-NAV-Performance-Counters.md)   
+ [Working with Data Collector Sets](Working-with-Data-Collector-Sets.md)   
  [How to: Create a Data Collector for Microsoft Dynamics NAV Performance Counters](../Topic/How%20to:%20Create%20a%20Data%20Collector%20for%20Microsoft%20Dynamics%20NAV%20Performance%20Counters.md)   
  [How to: Create a Data Collector Set From the Microsoft Dynamics NAV Template](../Topic/How%20to:%20Create%20a%20Data%20Collector%20Set%20From%20the%20Microsoft%20Dynamics%20NAV%20Template.md)   
- [Microsoft Dynamics NAV Performance Counters](../dynamics-nav/Microsoft-Dynamics-NAV-Performance-Counters.md)
+ [Microsoft Dynamics NAV Performance Counters](Microsoft-Dynamics-NAV-Performance-Counters.md)

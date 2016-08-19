@@ -10,7 +10,7 @@ ms.assetid: ff8ed675-00d3-4d11-af67-3ffc0621d3a7
 caps.latest.revision: 18
 ---
 # CLOSINGDATE Function (Date)
-Gets the closing date for a [Date Data Type](../dynamics-nav/Date-Data-Type.md).  
+Gets the closing date for a [Date Data Type](Date-Data-Type.md).  
   
 ## Syntax  
   
@@ -99,4 +99,4 @@ MESSAGE(Text001, CloDate1, CloDate2);
  **The closing date for C04\/04\/14 is C04\/04\/14.**  
   
 ## See Also  
- [Date and Time Functions](../dynamics-nav/Date-and-Time-Functions.md)
+ [Date and Time Functions](Date-and-Time-Functions.md)

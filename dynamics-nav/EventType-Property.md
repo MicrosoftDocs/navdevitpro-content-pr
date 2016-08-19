@@ -17,22 +17,22 @@ Specifies the type of event that is published by the event publisher function.
   
 -   C\/AL functions.  
   
-     This property is only available when the [Event Property](../dynamics-nav/Event-Property.md) of a function is set to **Publisher**.  
+     This property is only available when the [Event Property](Event-Property.md) of a function is set to **Publisher**.  
   
 ## Property Value  
   
 |Value|Description|  
 |-----------|-----------------|  
-|**Business**|The event is a business event type. A business event has an implied promise or contract that it will not to change in future [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] releases. Business events are typically implemented by ISVs and Microsoft.|  
-|**Integration**|The event is an integration event type. An integration event is like a business event except that is does not have the same promise or contract of not changing. Therefore, it less restrictive. Integration events are typically for integrating [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] with other solutions, such as [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)].|  
+|**Business**|The event is a business event type. A business event has an implied promise or contract that it will not to change in future [!INCLUDE[navnow](includes/navnow_md.md)] releases. Business events are typically implemented by ISVs and Microsoft.|  
+|**Integration**|The event is an integration event type. An integration event is like a business event except that is does not have the same promise or contract of not changing. Therefore, it less restrictive. Integration events are typically for integrating [!INCLUDE[navnow](includes/navnow_md.md)] with other solutions, such as [!INCLUDE[crm](includes/crm_md.md)].|  
   
- For more information about the different event types, see [Event Types](../dynamics-nav/Event-Types.md)  
+ For more information about the different event types, see [Event Types](Event-Types.md)  
   
 ## Remarks  
- For more information about events, see [Events in Microsoft Dynamics NAV](../dynamics-nav/Events-in-Microsoft-Dynamics-NAV.md).  
+ For more information about events, see [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md).  
   
 ## See Also  
- [Publishing Events](../dynamics-nav/Publishing-Events.md)   
- [Raising Events](../dynamics-nav/Raising-Events.md)   
- [Subscribing to Events](../dynamics-nav/Subscribing-to-Events.md)   
- [C\-AL Function Statements](../dynamics-nav/C-AL-Function-Statements.md)
+ [Publishing Events](Publishing-Events.md)   
+ [Raising Events](Raising-Events.md)   
+ [Subscribing to Events](Subscribing-to-Events.md)   
+ [C\-AL Function Statements](C-AL-Function-Statements.md)

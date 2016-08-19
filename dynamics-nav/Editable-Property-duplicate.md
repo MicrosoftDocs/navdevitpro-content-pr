@@ -55,5 +55,5 @@ Sets a value that indicates whether a field, page, or control can be edited thro
  Now, when a user selects the **Allow Line Disc.** check box on a customer card, the **Credit Limit \(LCY\)** field is editable. Otherwise, the field is non\-editable.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)   
- [Page Properties](../dynamics-nav/Page-Properties.md)
+ [Properties](Properties.md)   
+ [Page Properties](Page-Properties.md)

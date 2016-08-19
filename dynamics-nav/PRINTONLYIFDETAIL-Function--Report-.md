@@ -11,7 +11,7 @@ caps.latest.revision: 9
 manager: terryaus
 ---
 # PRINTONLYIFDETAIL Function (Report)
-Gets or sets the current settings of the [PrintOnlyIfDetail Property](../dynamics-nav/PrintOnlyIfDetail-Property.md).  
+Gets or sets the current settings of the [PrintOnlyIfDetail Property](PrintOnlyIfDetail-Property.md).  
   
 ## Syntax  
   
@@ -24,12 +24,12 @@ Gets or sets the current settings of the [PrintOnlyIfDetail Property](../dynamic
  *SetPrintOnlyIfDetail*  
  Type: Boolean  
   
- The new setting of [PrintOnlyIfDetail Property](../dynamics-nav/PrintOnlyIfDetail-Property.md).  
+ The new setting of [PrintOnlyIfDetail Property](PrintOnlyIfDetail-Property.md).  
   
 ## Property Value\/Return Value  
  Type: Boolean  
   
- **true** if the [PrintOnlyIfDetail Property](../dynamics-nav/PrintOnlyIfDetail-Property.md) is set to true; otherwise, **false**.  
+ **true** if the [PrintOnlyIfDetail Property](PrintOnlyIfDetail-Property.md) is set to true; otherwise, **false**.  
   
 ## Example  
  The following example is from the OnAfterGetRecord trigger of a report. If the PrintOnlyIfDetail property is true and if a GLEntryPage record exists, given the current filters, then the PageGroupNo is incremented. This example requires that you create the following variables.  
@@ -45,12 +45,12 @@ IF CurrReport.PRINTONLYIFDETAIL AND GLEntryPage.FIND('-') THEN
 ```  
   
 ## Example  
- The following example sets the value of the [PrintOnlyIfDetail Property](../dynamics-nav/PrintOnlyIfDetail-Property.md) to true. It requires that you create a Report variable named Report111. The Subtype of the variable is report 111, Customer \- Top 10 List.  
+ The following example sets the value of the [PrintOnlyIfDetail Property](PrintOnlyIfDetail-Property.md) to true. It requires that you create a Report variable named Report111. The Subtype of the variable is report 111, Customer \- Top 10 List.  
   
 ```  
 IsPrintOnlyIfDetail := Report111.PRINTONLYIFDETAIL(true);  
 ```  
   
 ## See Also  
- [PrintOnlyIfDetail Property](../dynamics-nav/PrintOnlyIfDetail-Property.md)   
- [Report Data Type](../dynamics-nav/Report-Data-Type.md)
+ [PrintOnlyIfDetail Property](PrintOnlyIfDetail-Property.md)   
+ [Report Data Type](Report-Data-Type.md)

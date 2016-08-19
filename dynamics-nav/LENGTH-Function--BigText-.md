@@ -25,7 +25,7 @@ Length := BigText.LENGTH
  The length of the BigText variable.  
   
 ## Remarks  
- To delete the content in a BigText variable use the [CLEAR Function](../dynamics-nav/CLEAR-Function.md). The syntax for the CLEAR function is shown in the following code snippet: `CLEAR(BigText)`.  
+ To delete the content in a BigText variable use the [CLEAR Function](CLEAR-Function.md). The syntax for the CLEAR function is shown in the following code snippet: `CLEAR(BigText)`.  
   
 ## Example  
  The following example demonstrates how to retrieve the length of a BigText variable. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
@@ -49,4 +49,4 @@ MESSAGE(Text000, VarLength);
 ```  
   
 ## See Also  
- [BigText Data Type](../dynamics-nav/BigText-Data-Type.md)
+ [BigText Data Type](BigText-Data-Type.md)

@@ -11,7 +11,7 @@ caps.latest.revision: 14
 manager: terryaus
 ---
 # SumIndexField Technology (SIFT)
-SumIndexField Technology \(SIFT\) lets you quickly calculate the sums of numeric data type \(Decimal, Integer, BigInteger, and Duration\) columns in tables, even in tables with thousands of records. SIFT is used to optimize the performance of FlowFields and query results in a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] application. SIFT involves performing a series of database calls and calculations before arriving at a result. The topics in this section describes how SIFT is implemented in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+SumIndexField Technology \(SIFT\) lets you quickly calculate the sums of numeric data type \(Decimal, Integer, BigInteger, and Duration\) columns in tables, even in tables with thousands of records. SIFT is used to optimize the performance of FlowFields and query results in a [!INCLUDE[navnow](includes/navnow_md.md)] application. SIFT involves performing a series of database calls and calculations before arriving at a result. The topics in this section describes how SIFT is implemented in [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 ## See Also  
- [FlowFields](../dynamics-nav/FlowFields.md)
+ [FlowFields](FlowFields.md)

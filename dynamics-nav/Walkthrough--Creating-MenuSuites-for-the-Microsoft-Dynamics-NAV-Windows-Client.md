@@ -11,9 +11,9 @@ caps.latest.revision: 14
 manager: terryaus
 ---
 # Walkthrough: Creating MenuSuites for the Microsoft Dynamics NAV Windows Client
-MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. MenuSuites contain links that enable you to browse application or objects, and make the applications or objects easier to access in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. A MenuSuite contains a set of menus that enable you to access reports, pages, codeunits, and so on, from the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. MenuSuites contain links that enable you to browse application or objects, and make the applications or objects easier to access in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. A MenuSuite contains a set of menus that enable you to access reports, pages, codeunits, and so on, from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
- [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] provides a basic MenuSuite that you can modify, or you can create new MenuSuites from the basic MenuSuite. You create MenuSuites in Object Designer and modify them in Navigation Pane Designer. This walkthrough demonstrates how to create a MenuSuite from the basic Menusuite for the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. For information about how to modify MenuSuites, see [How to: Modify Menu Items in a MenuSuite](../Topic/How%20to:%20Modify%20Menu%20Items%20in%20a%20MenuSuite.md).  
+ [!INCLUDE[navnowlong](includes/navnowlong_md.md)] provides a basic MenuSuite that you can modify, or you can create new MenuSuites from the basic MenuSuite. You create MenuSuites in Object Designer and modify them in Navigation Pane Designer. This walkthrough demonstrates how to create a MenuSuite from the basic Menusuite for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For information about how to modify MenuSuites, see [How to: Modify Menu Items in a MenuSuite](../Topic/How%20to:%20Modify%20Menu%20Items%20in%20a%20MenuSuite.md).  
   
 ## About This Walkthrough  
  This walkthrough shows you how to create a MenuSuite and modify department menus and menu items. This walkthrough illustrates the following tasks:  
@@ -29,12 +29,12 @@ MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](.
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] installed with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installed with a developer license.  
   
--   The [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+-   The [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 ## Story  
- Simon is a Microsoft Certified Partner working for [!INCLUDE[demoname](../dynamics-nav/includes/demoname_md.md)] The company has recently reorganized. The Financial Management department has been converted to Accounting department and some of the menu items in the department will no longer be needed in the new Accounting department. The Human Resources department is no longer needed because the functions of that department have been contracted out to an agency. The functions of the Services department have been suspended because the department will closed until further notice. A new Customer Support department has been created at [!INCLUDE[demoname](../dynamics-nav/includes/demoname_md.md)]. This new department will contain customer and vendor support information, including pages and reports.  
+ Simon is a Microsoft Certified Partner working for [!INCLUDE[demoname](includes/demoname_md.md)] The company has recently reorganized. The Financial Management department has been converted to Accounting department and some of the menu items in the department will no longer be needed in the new Accounting department. The Human Resources department is no longer needed because the functions of that department have been contracted out to an agency. The functions of the Services department have been suspended because the department will closed until further notice. A new Customer Support department has been created at [!INCLUDE[demoname](includes/demoname_md.md)]. This new department will contain customer and vendor support information, including pages and reports.  
   
  Simon has been asked to perform the following tasks and create a MenuSuite that meets the following requirements:  
   
@@ -44,22 +44,22 @@ MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](.
   
 -   Remove departments and menu items that are no longer needed.  
   
--   Modify the MenuSuite to reflect all the changes at have been made at [!INCLUDE[demoname](../dynamics-nav/includes/demoname_md.md)]  
+-   Modify the MenuSuite to reflect all the changes at have been made at [!INCLUDE[demoname](includes/demoname_md.md)]  
   
  Simon knows that he can create a MenuSuite in Object Designer and make the changes in Navigation Pane Designer to accomplish his task.  
   
 ## Creating the MenuSuite  
- You create MenuSuites from the basic MenuSuite that is provided in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] and design it in Navigation Pane Designer. To create a new MenuSuite, choose a design level that your license allows. For this walkthrough, you will design the MenuSuite at the Dept–Partner design level. For more information about design permission levels, see [Designing MenuSuites](../dynamics-nav/Designing-MenuSuites.md).  
+ You create MenuSuites from the basic MenuSuite that is provided in [!INCLUDE[navnow](includes/navnow_md.md)] and design it in Navigation Pane Designer. To create a new MenuSuite, choose a design level that your license allows. For this walkthrough, you will design the MenuSuite at the Dept–Partner design level. For more information about design permission levels, see [Designing MenuSuites](Designing-MenuSuites.md).  
   
 #### To create the MenuSuite  
   
-1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], choose **Tools** and then choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], choose **Tools** and then choose **Object Designer**.  
   
 2.  In Object Designer, choose **MenuSuite** and then choose **New**. The **Design Level** window is displayed.  
   
-     The following image shows the MenuSuite design levels that are available in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+     The following image shows the MenuSuite design levels that are available in [!INCLUDE[navnow](includes/navnow_md.md)].  
   
-     ![Microsoft Dynamics NAV MenuSuite Design Level](../dynamics-nav/media/MicrosoftDynamicsNAVMenuSuiteDesignLevel.png "MicrosoftDynamicsNAVMenuSuiteDesignLevel")  
+     ![Microsoft Dynamics NAV MenuSuite Design Level](media/MicrosoftDynamicsNAVMenuSuiteDesignLevel.png "MicrosoftDynamicsNAVMenuSuiteDesignLevel")  
   
 3.  In the **Design Level**  window, choose **Dept \- Partner** and then choose **OK** to open **Navigation Pane Designer**.  
   
@@ -89,7 +89,7 @@ MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](.
   
 5.  In the **Multilanguage Editor** window, verify that **Language** is set to **English \(United States\)** and **Value** is set to **Customer Support**, and then choose the **OK** button. You can change the language in the **Windows Language List** window by choosing the up arrow in the **Language** column.  
   
-6.  In the **Bitmap** text box, enter **10** and then choose **OK**. The Customer Support department menu is added to the MenuSuite. Valid bitmap numbers are 0\-15. This is the bitmap that is displayed on the department menu in Navigation pane. However, the icons that are displayed on the departments on the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] are different.  
+6.  In the **Bitmap** text box, enter **10** and then choose **OK**. The Customer Support department menu is added to the MenuSuite. Valid bitmap numbers are 0\-15. This is the bitmap that is displayed on the department menu in Navigation pane. However, the icons that are displayed on the departments on the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] are different.  
   
 ## Modifying the Department Menus  
  Next, you will make the changes that were requested in the department menus. First, you will change the **Financial Management** menu to **Accounting**. You will also make changes to the menu items in the departments. You will delete the **Human Resources** department and hide the **Services** department. Simon knows that he may need the **Services** department in the future so he will hide it for now.  
@@ -117,7 +117,7 @@ MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](.
   
 2.  Select the **Periodic Activities** group folder. From the shortcut menu, choose **Properties** to open the **Group Properties** window.  
   
-3.  Clear the **Department Page** check box and then choose **OK**. This removes the **Periodic Activities** group folder from the department page in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+3.  Clear the **Department Page** check box and then choose **OK**. This removes the **Periodic Activities** group folder from the department page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
 4.  Select the **Cash Management** group folder. From the shortcut menu, choose **Delete**. This removes the folder and all menu items that are in it.  
   
@@ -193,32 +193,32 @@ MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](.
   
      The following image shows the departments and menu items in the **Customer Support** department in Navigation Pane Designer. The MenuSuite you have created in Navigation Pane Designer is similar to this image.  
   
-     ![MenuSuite Navigation Pane Designer](../dynamics-nav/media/MicrosoftDynamicsNAVMenuSuiteCustSupport.jpg "MicrosoftDynamicsNAVMenuSuiteCustSupport")  
+     ![MenuSuite Navigation Pane Designer](media/MicrosoftDynamicsNAVMenuSuiteCustSupport.jpg "MicrosoftDynamicsNAVMenuSuiteCustSupport")  
   
-22. Right\-click the Navigation Pane Designer header and choose **Close Navigation Pane Designer** to save the MenuSuite. Notice the ID and the name of the MenuSuite you are saving. The ID and the name are given by [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+22. Right\-click the Navigation Pane Designer header and choose **Close Navigation Pane Designer** to save the MenuSuite. Notice the ID and the name of the MenuSuite you are saving. The ID and the name are given by [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 23. In the **Save Changes** dialog box, verify that **Compile** is selected and then choose the **OK** button.  
   
 ## Running and Testing the MenuSuite  
- MenuSuites cannot be run directly in the development environment. You run MenuSuites in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. In the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], menus are located under **Departments** and the submenus under the departments. Menus can be selected by department or by category.  
+ MenuSuites cannot be run directly in the development environment. You run MenuSuites in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. In the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], menus are located under **Departments** and the submenus under the departments. Menus can be selected by department or by category.  
   
 #### To run and test the MenuSuite  
   
-1.  Open the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+1.  Open the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
     > [!NOTE]  
-    >  If the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] is already open, you must close it and reopen it. Otherwise, the MenuSuite that you created will be displayed.  
+    >  If the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is already open, you must close it and reopen it. Otherwise, the MenuSuite that you created will be displayed.  
   
 2.  In the leftmost pane, choose **Departments**.  
   
-3.  Verify that the **Customer Support** department and all the changes that you made appear in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+3.  Verify that the **Customer Support** department and all the changes that you made appear in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
 ## Next Steps  
  You might want to create another MenuSuite at the Dept \- Company level. This MenuSuite will inherit from the MenuSuite that you just created in this walkthrough.  
   
 ## See Also  
- [MenuSuites](../dynamics-nav/MenuSuites.md)   
- [Designing MenuSuites](../dynamics-nav/Designing-MenuSuites.md)   
+ [MenuSuites](MenuSuites.md)   
+ [Designing MenuSuites](Designing-MenuSuites.md)   
  [How to: Modify a Department Menu in a MenuSuite](../Topic/How%20to:%20Modify%20a%20Department%20Menu%20in%20a%20MenuSuite.md)   
- [Bitmap Property](../dynamics-nav/Bitmap-Property.md)   
- [\($ S\_2490 Menu Properties $\)](../dynamics-nav/-$-S_2490-Menu-Properties-$-.md)
+ [Bitmap Property](Bitmap-Property.md)   
+ [\($ S\_2490 Menu Properties $\)](-$-S_2490-Menu-Properties-$-.md)

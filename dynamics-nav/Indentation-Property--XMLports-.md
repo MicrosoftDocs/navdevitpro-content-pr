@@ -31,4 +31,4 @@ Sets the indentation level of an element or an attribute in **XMLport Designer**
 -   The indentation level that you set in the **Properties** window corresponds directly to the indentation level you can set in **XMLport Designer**. You can also use the buttons in **XMLport Designer** to change the indentation level of an element or an attribute.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

@@ -35,9 +35,9 @@ SETDEFAULTCONNECTIONTYPE(Type, Name, Scope)
  If **true**, when the function ends where you have used SETDEFAULTTABLECONNECTION, the default table connection returns to the value it had before. Use the *Scope* parameter when you want to use a specific table connection for a specific task and then return to the normal configuration.  
   
 ## See Also  
- [TableType Property](../dynamics-nav/TableType-Property.md)   
- [TableConnectionType Data Type](../dynamics-nav/TableConnectionType-Data-Type.md)   
- [GETDEFAULTTABLECONNECTION Function \(Database\)](../dynamics-nav/GETDEFAULTTABLECONNECTION-Function--Database-.md)   
- [REGISTERTABLECONNECTION Function \(Database\)](../dynamics-nav/REGISTERTABLECONNECTION-Function--Database-.md)   
- [UNREGISTERTABLECONNECTION Function \(Database\)](../dynamics-nav/UNREGISTERTABLECONNECTION-Function--Database-.md)   
- [External Tables](../dynamics-nav/External-Tables.md)
+ [TableType Property](TableType-Property.md)   
+ [TableConnectionType Data Type](TableConnectionType-Data-Type.md)   
+ [GETDEFAULTTABLECONNECTION Function \(Database\)](GETDEFAULTTABLECONNECTION-Function--Database-.md)   
+ [REGISTERTABLECONNECTION Function \(Database\)](REGISTERTABLECONNECTION-Function--Database-.md)   
+ [UNREGISTERTABLECONNECTION Function \(Database\)](UNREGISTERTABLECONNECTION-Function--Database-.md)   
+ [External Tables](External-Tables.md)

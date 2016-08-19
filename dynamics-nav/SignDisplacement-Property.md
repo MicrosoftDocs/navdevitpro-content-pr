@@ -29,4 +29,4 @@ Sets a value to shift negative values to the right for display purposes only. Yo
  \(\+\)987654321  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

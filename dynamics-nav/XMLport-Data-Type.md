@@ -12,19 +12,19 @@ caps.latest.revision: 12
 # XMLport Data Type
 You use XMLports to import and export data in .xml, .csv, or .txt format. XMLports make the process of exchanging data in XML between systems more simple and streamlined. You only need a basic knowledge of XML and you do not have to create XML documents using external products.  
   
- XMLports support multiple languages with the [CaptionML Property](../dynamics-nav/CaptionML-Property.md).  
+ XMLports support multiple languages with the [CaptionML Property](CaptionML-Property.md).  
   
  XMLports support UTF\-8, UTF\-16, and ISO\-8859\-2 formats for XML.  
   
 ## Remarks  
- For more information about how to design XMLports, see [XMLports](../dynamics-nav/XMLports.md).  
+ For more information about how to design XMLports, see [XMLports](XMLports.md).  
   
 ## See Also  
- [BREAK Function \(Report, XMLport\)](../dynamics-nav/BREAK-Function--Report--XMLport-.md)   
- [EXPORT Function \(XMLport\)](../dynamics-nav/EXPORT-Function--XMLport-.md)   
- [FILENAME Function \(XMLport\)](../dynamics-nav/FILENAME-Function--XMLport-.md)   
- [IMPORT Function \(XMLport\)](../dynamics-nav/IMPORT-Function--XMLport-.md)   
- [QUIT Function \(Report, XMLport\)](../dynamics-nav/QUIT-Function--Report--XMLport-.md)   
- [RUN Function \(XMLport\)](../dynamics-nav/RUN-Function--XMLport-.md)   
- [SETTABLEVIEW Function \(Page, Report, XMLport\)](../dynamics-nav/SETTABLEVIEW-Function--Page--Report--XMLport-.md)   
- [SKIP Function \(Report, XMLport\)](../dynamics-nav/SKIP-Function--Report--XMLport-.md)
+ [BREAK Function \(Report, XMLport\)](BREAK-Function--Report--XMLport-.md)   
+ [EXPORT Function \(XMLport\)](EXPORT-Function--XMLport-.md)   
+ [FILENAME Function \(XMLport\)](FILENAME-Function--XMLport-.md)   
+ [IMPORT Function \(XMLport\)](IMPORT-Function--XMLport-.md)   
+ [QUIT Function \(Report, XMLport\)](QUIT-Function--Report--XMLport-.md)   
+ [RUN Function \(XMLport\)](RUN-Function--XMLport-.md)   
+ [SETTABLEVIEW Function \(Page, Report, XMLport\)](SETTABLEVIEW-Function--Page--Report--XMLport-.md)   
+ [SKIP Function \(Report, XMLport\)](SKIP-Function--Report--XMLport-.md)

@@ -51,4 +51,4 @@ EndWriteTransaction // (5)
  If a data update depends on a prior read operation and there is a long time between the read operation and the write operation, then you may not want to lock the table as you usually would during a transaction. This enables you to avoid preventing other users from updating the table until your transaction is committed.  
   
 ## See Also  
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [Record Data Type](Record-Data-Type.md)

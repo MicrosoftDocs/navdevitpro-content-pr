@@ -11,20 +11,20 @@ caps.latest.revision: 12
 manager: terryaus
 ---
 # Key Properties
-The keys associated with a table have properties that describe their behavior, just as tables and fields do. When you create a key, [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] automatically suggests a number of default values for these properties. Depending on the purpose of the key, you will sometimes want to change these default values.  
+The keys associated with a table have properties that describe their behavior, just as tables and fields do. When you create a key, [!INCLUDE[navnow](includes/navnow_md.md)] automatically suggests a number of default values for these properties. Depending on the purpose of the key, you will sometimes want to change these default values.  
   
- [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] contains the following properties for keys.  
+ [!INCLUDE[navnow](includes/navnow_md.md)] contains the following properties for keys.  
   
 |Property Name|Use|  
 |-------------------|---------|  
-|[Enabled Property\-duplicate](../dynamics-nav/Enabled-Property-duplicate.md)|Determines whether the system will maintain an index for the key. You cannot use a key unless it is enabled.|  
-|[Key Property](../dynamics-nav/Key-Property.md)|Defines the key.|  
-|[SumIndexFields Property](../dynamics-nav/SumIndexFields-Property.md)|Determines the fields for which the system will maintain a SumIndex.|  
-|[MaintainSQLIndex Property](../dynamics-nav/MaintainSQLIndex-Property.md)|Determines whether a SQL Server index corresponding to the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] key should be created.|  
-|[MaintainSIFTIndex Property](../dynamics-nav/MaintainSIFTIndex-Property.md)|Determines whether SIFT structures should be created in SQL Server to support the corresponding SumIndexFields for the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] key.|  
-|[Clustered Property](../dynamics-nav/Clustered-Property.md)|Sets a value that indicates whether the index is clustered.|  
-|[SQLIndex Property](../dynamics-nav/SQLIndex-Property.md)|Sets the actual fields that are used in the corresponding index on SQL Server.|  
+|[Enabled Property\-duplicate](Enabled-Property-duplicate.md)|Determines whether the system will maintain an index for the key. You cannot use a key unless it is enabled.|  
+|[Key Property](Key-Property.md)|Defines the key.|  
+|[SumIndexFields Property](SumIndexFields-Property.md)|Determines the fields for which the system will maintain a SumIndex.|  
+|[MaintainSQLIndex Property](MaintainSQLIndex-Property.md)|Determines whether a SQL Server index corresponding to the [!INCLUDE[navnow](includes/navnow_md.md)] key should be created.|  
+|[MaintainSIFTIndex Property](MaintainSIFTIndex-Property.md)|Determines whether SIFT structures should be created in SQL Server to support the corresponding SumIndexFields for the [!INCLUDE[navnow](includes/navnow_md.md)] key.|  
+|[Clustered Property](Clustered-Property.md)|Sets a value that indicates whether the index is clustered.|  
+|[SQLIndex Property](SQLIndex-Property.md)|Sets the actual fields that are used in the corresponding index on SQL Server.|  
   
 ## See Also  
  [How to: View or Modify Properties on a Key](../Topic/How%20to:%20View%20or%20Modify%20Properties%20on%20a%20Key.md)   
- [Table Keys](../dynamics-nav/Table-Keys.md)
+ [Table Keys](Table-Keys.md)

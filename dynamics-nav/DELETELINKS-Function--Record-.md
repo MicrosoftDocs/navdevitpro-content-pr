@@ -41,5 +41,5 @@ MyRecord.DELETELINKS;
 ```  
   
 ## See Also  
- [DELETELINKS Function \(RecordRef\)](../dynamics-nav/DELETELINKS-Function--RecordRef-.md)   
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [DELETELINKS Function \(RecordRef\)](DELETELINKS-Function--RecordRef-.md)   
+ [Record Data Type](Record-Data-Type.md)

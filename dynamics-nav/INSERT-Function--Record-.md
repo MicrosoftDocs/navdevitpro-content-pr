@@ -32,7 +32,7 @@ Inserts a record into a table.
  *RunTrigger*  
  Type: Boolean  
   
- If this parameter is **true**, the code in the [OnInsert Trigger](../dynamics-nav/OnInsert-Trigger.md) is executed. If this parameter is **false**, the code in the **OnInsert** trigger is not executed. The default value is **false**.  
+ If this parameter is **true**, the code in the [OnInsert Trigger](OnInsert-Trigger.md) is executed. If this parameter is **false**, the code in the **OnInsert** trigger is not executed. The default value is **false**.  
   
 ## Property Value\/Return Value  
  Type: Boolean  
@@ -83,4 +83,4 @@ ELSE
  No run\-time error occurs if customer 1120 already exists.  
   
 ## See Also  
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [Record Data Type](Record-Data-Type.md)

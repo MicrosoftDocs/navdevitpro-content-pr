@@ -11,7 +11,7 @@ caps.latest.revision: 13
 manager: terryaus
 ---
 # Types of Reports
-This topic describes the types of reports that are available in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+This topic describes the types of reports that are available in [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 ## List Reports  
  A *list report* contains a single data item that corresponds to the table that is listed. The table can be either a master table or a supplemental table. Each column contains a field from the table. The data is printed from that table, instead of from other tables or calculated from other tables. The name of the report is usually the name of the table followed by the word "List". The following are examples of list reports:  
@@ -53,7 +53,7 @@ This topic describes the types of reports that are available in [!INCLUDE[navnow
 -   Purchase \- Invoice  
   
 ## Processing\-Only Reports  
- *Processing\-only reports* only do processing. They do not output or print a report. You use the [ProcessingOnly Property](../dynamics-nav/ProcessingOnly-Property.md) of the report to make the report a non\-printing report. You can use the request page and let the user filter data before you run the report and begin the processing.  
+ *Processing\-only reports* only do processing. They do not output or print a report. You use the [ProcessingOnly Property](ProcessingOnly-Property.md) of the report to make the report a non\-printing report. You can use the request page and let the user filter data before you run the report and begin the processing.  
   
 ## Other Reports  
  Reports are more loosely defined than other application objects because they are often customized for a particular client. However, most reports consist of a tabular list that has records listed horizontally and each field displaying in its own column. There is often a group heading or total to split the lines among various categories and subtotal the lines according to the categories. The following are examples of other reports:  
@@ -63,4 +63,4 @@ This topic describes the types of reports that are available in [!INCLUDE[navnow
 -   Customer\/Item Sales  
   
 ## See Also  
- [Reports\-duplicate 20](../dynamics-nav/Reports-duplicate-20.md)
+ [Reports\-duplicate 20](Reports-duplicate-20.md)

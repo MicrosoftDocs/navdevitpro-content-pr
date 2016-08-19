@@ -29,7 +29,7 @@ Query.SETRANGE(Column[, FromValue][, ToValue])
  *Column*  
  Type: Text  
   
- The name of the column in the query that you want to filter. The name is defined by the column's [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md) in Query Designer.  
+ The name of the column in the query that you want to filter. The name is defined by the column's [Name Property\-duplicate](Name-Property-duplicate.md) in Query Designer.  
   
  *FromValue*  
  Type: Any  
@@ -49,7 +49,7 @@ Query.SETRANGE(Column[, FromValue][, ToValue])
 ## Remarks  
  SETRANGE is a quick way to set a simple filter on a field. The SETRANGE function is functionally equivalent to calling *Query*.SetFilter\(ColumnName, ‘FromValue..ToValue’\).  
   
- To apply filters to a dataset, the **SETRANGE** function must be called before the **OPEN**, **SAVEASXML**, and **SAVEASCSV** functions, as shown in the following example. To remove filters, you call the [CLEAR Function](../dynamics-nav/CLEAR-Function.md) or **SETRANGE** without values for the *FromValue* and *ToValue* parameters.  
+ To apply filters to a dataset, the **SETRANGE** function must be called before the **OPEN**, **SAVEASXML**, and **SAVEASCSV** functions, as shown in the following example. To remove filters, you call the [CLEAR Function](CLEAR-Function.md) or **SETRANGE** without values for the *FromValue* and *ToValue* parameters.  
   
 ```  
 Query.SETRANGE(Column1, FromValue, ToValue);  
@@ -67,7 +67,7 @@ Query.SETRANGE(Column1, FromValue, ToValue);
 Query.READ;  
 ```  
   
- In addition to the **SETRANGE** function, you can apply filters to a query using the **SETFILTER** function and the [DataItemTableFilter Property](../dynamics-nav/DataItemTableFilter-Property.md) and [ColumnFilter Property](../dynamics-nav/ColumnFilter-Property.md) in Query Designer.  
+ In addition to the **SETRANGE** function, you can apply filters to a query using the **SETFILTER** function and the [DataItemTableFilter Property](DataItemTableFilter-Property.md) and [ColumnFilter Property](ColumnFilter-Property.md) in Query Designer.  
   
 |If the **SETRANGE** function...|then...|  
 |-------------------------------------|-------------|  
@@ -84,7 +84,7 @@ Query.READ;
   
  `Query.setRange(Quantity, 1, 15)` will result in a filter that is equivalent to: 1 \< Quantity \<15, except for 10.  
   
- For more information about how to set filters in Query Designer, see [Understanding Query Filters](../dynamics-nav/Understanding-Query-Filters.md).  
+ For more information about how to set filters in Query Designer, see [Understanding Query Filters](Understanding-Query-Filters.md).  
   
 ## Example  
  The following C\/AL code example demonstrates how to use the **SETRANGE** function on a query. The example code sets a filter on a query column and saves the resulting dataset as a CSV file. A message also displays when the query is run that indicates the filter on the column.  
@@ -93,7 +93,7 @@ Query.READ;
   
 1.  Create a query called **Customer\_SalesQuantity** that has the following characteristics:  
   
-    -   Links table **18 Customer** with table **37 Sales Lines** from the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+    -   Links table **18 Customer** with table **37 Sales Lines** from the [!INCLUDE[demolong](includes/demolong_md.md)].  
   
     -   Includes columns for the **Name** and **No.** fields from the Customer table and the **Quantity** field from Sales Lines table.  
   

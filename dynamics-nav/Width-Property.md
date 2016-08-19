@@ -22,6 +22,6 @@ Sets the width of the control. Width is set as a number of characters and must b
 ## Remarks  
  For controls, the width specifies the width of the column. Static controls in the heading inherit the width from the column control.  
   
- For example, use the **Width** property in the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)] to set decimals so that they do not take up too much space in a grid.  
+ For example, use the **Width** property in the [!INCLUDE[rtc](includes/rtc_md.md)] to set decimals so that they do not take up too much space in a grid.  
   
- For controls on the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)] you always have the option of resizing column width in the UI, but when running the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] the **Width** property can be set to a fixed number to increase readability.
+ For controls on the [!INCLUDE[rtc](includes/rtc_md.md)] you always have the option of resizing column width in the UI, but when running the [!INCLUDE[nav_web](includes/nav_web_md.md)] the **Width** property can be set to a fixed number to increase readability.

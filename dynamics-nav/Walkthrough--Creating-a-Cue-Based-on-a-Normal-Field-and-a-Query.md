@@ -11,9 +11,9 @@ caps.latest.revision: 10
 manager: edupont
 ---
 # Walkthrough: Creating a Cue Based on a Normal Field and a Query
-This walkthrough demonstrates how to create a Cue that is based on a normal field that derives data from a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] query object. The following figure illustrates the Sales This Month Cue that is added by this walkthrough.  
+This walkthrough demonstrates how to create a Cue that is based on a normal field that derives data from a [!INCLUDE[navnow](includes/navnow_md.md)] query object. The following figure illustrates the Sales This Month Cue that is added by this walkthrough.  
   
- ![Example of a Cue showing sales this month](../dynamics-nav/media/NAV_Cues_SalesThisMonth_Example.png "NAV\_Cues\_SalesThisMonth\_Example")  
+ ![Example of a Cue showing sales this month](media/NAV_Cues_SalesThisMonth_Example.png "NAV\_Cues\_SalesThisMonth\_Example")  
   
 > [!NOTE]  
 >  This walkthrough is a continuation of [Walkthrough: Creating a Cue Based on a FlowField](../Topic/Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20FlowField.md).  
@@ -25,7 +25,7 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
   
 -   Adding a field for a new Cue in an existing table, and adding C\/AL code to the field to get the data from the query object.  
   
--   Adding a new Cue to an existing page for displaying the Cue in the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] client.  
+-   Adding a new Cue to an existing page for displaying the Cue in the [!INCLUDE[navnow](includes/navnow_md.md)] client.  
   
 -   Formatting the data in the Cue.  
   
@@ -34,7 +34,7 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
   
 -   Microsoft .NET developer  
   
--   [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] developer and IT professional  
+-   [!INCLUDE[navnow](includes/navnow_md.md)] developer and IT professional  
   
 ### Prerequisites  
  To complete this walkthrough, you need:  
@@ -43,23 +43,23 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
   
      This walkthrough uses these objects which you can create by using the instructions in the Walkthrough: Creating a Cue on a Role Center topic. The actual IDs and names of these objects might be different.  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] with a developer license.  
   
--   The [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)]. This walkthrough uses the following objects:  
+-   The [!INCLUDE[demolong](includes/demolong_md.md)]. This walkthrough uses the following objects:  
   
     -   Table 21, Cust. Ledger Entry  
   
     -   Page 25, Customer Ledger Entries  
   
 ## Story  
- Viktor is a software developer who is working for [!INCLUDE[demoname](../dynamics-nav/includes/demoname_md.md)] He has been asked to add a Cue to the Role Centers of sales order processors that shows the total sales for the month. To accomplish this, Viktor will create a Cue that is based on a query object that extracts the total sales for the month from table **21 Cust. Ledger Entry**. The company already has a table \(**50001 Sales Invoice Cue**\) and page \(**50001 Sales Invoice Cue**\) that are used to display open sales invoices on the **Order Processor** Role Center. Viktor will add the new Cue to these objects.  
+ Viktor is a software developer who is working for [!INCLUDE[demoname](includes/demoname_md.md)] He has been asked to add a Cue to the Role Centers of sales order processors that shows the total sales for the month. To accomplish this, Viktor will create a Cue that is based on a query object that extracts the total sales for the month from table **21 Cust. Ledger Entry**. The company already has a table \(**50001 Sales Invoice Cue**\) and page \(**50001 Sales Invoice Cue**\) that are used to display open sales invoices on the **Order Processor** Role Center. Viktor will add the new Cue to these objects.  
   
 ## Creating a Query for Calculating the Cue Data  
  First, Viktor creates a query object to calculate the number of open sales invoices from table 21 **Cust. Ledger Entry**.  
   
 #### To create a query for calculating the Cue data  
   
-1.  In the [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] Development Environment, on the **Tools** menu, choose **Object Designer**, choose **Query**, and then choose **New**.  
+1.  In the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Development Environment, on the **Tools** menu, choose **Object Designer**, choose **Query**, and then choose **New**.  
   
 2.  In Query Designer, on the first line, set **Type** column to **DataItem**, and then set the **Data Source** column to **Cust. Ledger Entry** \(table ID 21\).  
   
@@ -87,14 +87,14 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
   
 #### To add a field for the Cue data  
   
-1.  In the [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] Development Environment, open table **50001 Sales Invoice Cue** from Object Designer.  
+1.  In the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Development Environment, open table **50001 Sales Invoice Cue** from Object Designer.  
   
 2.  Add a new field for the Cue. In the **Field Name**, enter **Sales This Month** and set the **Data type** to **Decimal**.  
   
      This defines the **Cue** data field.  
   
     > [!NOTE]  
-    >  By default, fields are normal fields as defined by the field's [FieldClass Property](../dynamics-nav/FieldClass-Property.md).  
+    >  By default, fields are normal fields as defined by the field's [FieldClass Property](FieldClass-Property.md).  
   
 #### To add C\/AL code to the table calculate the Cue data  
   
@@ -106,7 +106,7 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
   
     2.  On the **Functions** tab, in the **Name** column, enter **CalcSalesThisMonthAmount**.  
   
-         By default, all functions are set to local functions as specified by the [Local Property](../dynamics-nav/Local-Property.md), so you must change the function to be global as described in the following steps.  
+         By default, all functions are set to local functions as specified by the [Local Property](Local-Property.md), so you must change the function to be global as described in the following steps.  
   
     3.  Select the new function, and then in the **Tools** menu, select **Properties**.  
   
@@ -166,9 +166,9 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
   
          Page Designer should look similar to the following illustration.  
   
-         ![Page Designer showing cues](../dynamics-nav/media/NAV_PageDesigner_SalesThisMonthCue_Clip.png "NAV\_PageDesigner\_SalesThisMonthCue\_Clip")  
+         ![Page Designer showing cues](media/NAV_PageDesigner_SalesThisMonthCue_Clip.png "NAV\_PageDesigner\_SalesThisMonthCue\_Clip")  
   
-3.  Open the C\/AL code for the page, and then add the following code to the [OnAfterGetRecord Trigger](../dynamics-nav/OnAfterGetRecord-Trigger.md) to assign the **Sales This month** field to the *CalcSalesThisMonthAmount* function of table **50001 Sales Invoice Cue**:  
+3.  Open the C\/AL code for the page, and then add the following code to the [OnAfterGetRecord Trigger](OnAfterGetRecord-Trigger.md) to assign the **Sales This month** field to the *CalcSalesThisMonthAmount* function of table **50001 Sales Invoice Cue**:  
   
     ```  
     "Sales This Month" := CalcSalesThisMonthAmount;  
@@ -187,7 +187,7 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
  The Cue is now available on the page. To view the page, in Object Designer, select the page 50001 Sales Invoice Cue, and the choose **Run**.  
   
 ### Formatting the Cue Data  
- Viktor wants to display the amount in the Cue so that it is preceded with "kr", which indicates Danish Krone is the currency. Additionally, he does not want to display any decimal places. To achieve this, he sets the [AutoFormatType Property](../dynamics-nav/AutoFormatType-Property.md) and [AutoFormatExpr Property](../dynamics-nav/AutoFormatExpr-Property.md) of the Cue field on the page.  
+ Viktor wants to display the amount in the Cue so that it is preceded with "kr", which indicates Danish Krone is the currency. Additionally, he does not want to display any decimal places. To achieve this, he sets the [AutoFormatType Property](AutoFormatType-Property.md) and [AutoFormatExpr Property](AutoFormatExpr-Property.md) of the Cue field on the page.  
   
 ##### To change the data format  
   
@@ -207,15 +207,15 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
   
      `<standard format,0>` specifies to format the data according to standard format 0.  
   
-     For more information about the precision and standard formats, see [Formatting the Data in a Field](../dynamics-nav/Formatting-the-Data-in-a-Field.md)  
+     For more information about the precision and standard formats, see [Formatting the Data in a Field](Formatting-the-Data-in-a-Field.md)  
   
 4.  Close the **Properties** windows, and then save and compile the page.  
   
 ## See Also  
- [Creating and Customizing Cues](../dynamics-nav/Creating-and-Customizing-Cues.md)   
- [Setting Up Colored Indicators on Cues](../dynamics-nav/Setting-Up-Colored-Indicators-on-Cues.md)   
- [Touring the RoleTailored Client Pages](../dynamics-nav/Touring-the-RoleTailored-Client-Pages.md)   
- [Pages Overview](../dynamics-nav/Pages-Overview.md)   
- [Tables\-duplicate 20](../dynamics-nav/Tables-duplicate-20.md)   
+ [Creating and Customizing Cues](Creating-and-Customizing-Cues.md)   
+ [Setting Up Colored Indicators on Cues](Setting-Up-Colored-Indicators-on-Cues.md)   
+ [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
+ [Pages Overview](Pages-Overview.md)   
+ [Tables\-duplicate 20](Tables-duplicate-20.md)   
  [Walkthrough: Creating a Role Center](../Topic/Walkthrough:%20Creating%20a%20Role%20Center.md)   
- [Queries](../dynamics-nav/Queries.md)
+ [Queries](Queries.md)

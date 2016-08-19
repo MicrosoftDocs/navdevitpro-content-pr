@@ -21,7 +21,7 @@ When you create a client report definition \(RDLC\) report layout in Visual Stud
   
 2.  Open the report layout in Visual Studio as follows.  
   
-    1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
+    1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
     2.  In Object Designer, choose **Report**, select the report for which you want to modify, and then choose the **Design** button.  
   
@@ -36,8 +36,8 @@ When you create a client report definition \(RDLC\) report layout in Visual Stud
   
      The actual text that appears for the label in the report is the value of the **Caption** property for either a field in the data item table, if the label is related to column in the report dataset, or a label in the Report Label Designer, if the label is not related to a column in the dataset.  
   
-     The language of the label that is displayed when you run the report depends on the language setting of the report object. For more information, see [Multiple Document Languages](../dynamics-nav/Multiple-Document-Languages.md) and [Viewing the Application in Different Languages](../dynamics-nav/Viewing-the-Application-in-Different-Languages.md).  
+     The language of the label that is displayed when you run the report depends on the language setting of the report object. For more information, see [Multiple Document Languages](Multiple-Document-Languages.md) and [Viewing the Application in Different Languages](Viewing-the-Application-in-Different-Languages.md).  
   
 ## See Also  
- [Designing Word Report Layouts](../dynamics-nav/Designing-Word-Report-Layouts.md)   
- [Designing RDLC Report Layouts](../dynamics-nav/Designing-RDLC-Report-Layouts.md)
+ [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)   
+ [Designing RDLC Report Layouts](Designing-RDLC-Report-Layouts.md)

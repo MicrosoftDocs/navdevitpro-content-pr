@@ -11,17 +11,17 @@ caps.latest.revision: 7
 manager: tsiggaar
 ---
 # How to: Export Your Solution to a Database Backup File
-If you are deploying your own [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] application on Microsoft Azure instead of [!INCLUDE[demoname](../dynamics-nav/includes/demoname_md.md)], then you must create a backup of your application database before you start to deploy [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+If you are deploying your own [!INCLUDE[navnow](includes/navnow_md.md)] application on Microsoft Azure instead of [!INCLUDE[demoname](includes/demoname_md.md)], then you must create a backup of your application database before you start to deploy [!INCLUDE[navnow](includes/navnow_md.md)].  
   
-### To create a backup of the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database  
+### To create a backup of the [!INCLUDE[navnow](includes/navnow_md.md)] database  
   
-1.  Create a backup of the SQL database for the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] application.  
+1.  Create a backup of the SQL database for the [!INCLUDE[navnow](includes/navnow_md.md)] application.  
   
      For more information, see [Create a Full Database Backup \(SQL Server\)](http://go.microsoft.com/fwlink/?LinkID=296465).  
   
-2.  Copy the backup file to the computer that you will use to provision [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] on Azure.  
+2.  Copy the backup file to the computer that you will use to provision [!INCLUDE[navnow](includes/navnow_md.md)] on Azure.  
   
 ## See Also  
- [Preparing for Deploying Microsoft Dynamics NAV on Microsoft Azure](../dynamics-nav/Preparing-for-Deploying-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
- [Deploying Microsoft Dynamics NAV Using the Example Scripts](../dynamics-nav/Deploying-Microsoft-Dynamics-NAV-Using-the-Example-Scripts.md)   
- [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](../dynamics-nav/Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)
+ [Preparing for Deploying Microsoft Dynamics NAV on Microsoft Azure](Preparing-for-Deploying-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
+ [Deploying Microsoft Dynamics NAV Using the Example Scripts](Deploying-Microsoft-Dynamics-NAV-Using-the-Example-Scripts.md)   
+ [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)

@@ -18,12 +18,12 @@ Sets the ID of the chart to add to the page.
 -   Part control on a page  
   
 > [!IMPORTANT]  
->  This property is not supported by [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]. When the page displays in [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], the property is ignored and the chart does not appear.  
+>  This property is not supported by [!INCLUDE[nav_web](includes/nav_web_md.md)]. When the page displays in [!INCLUDE[nav_web](includes/nav_web_md.md)], the property is ignored and the chart does not appear.  
   
 ## Remarks  
- To set this property, you need to first set the value of the [PartType Property](../dynamics-nav/PartType-Property.md) to **Chart**. The ChartPartID property creates a link to the selected chart in the Chart table.  
+ To set this property, you need to first set the value of the [PartType Property](PartType-Property.md) to **Chart**. The ChartPartID property creates a link to the selected chart in the Chart table.  
   
 ## See Also  
- [PartType Property](../dynamics-nav/PartType-Property.md)   
- [PagePartID Property](../dynamics-nav/PagePartID-Property.md)   
- [SystemPartID Property](../dynamics-nav/SystemPartID-Property.md)
+ [PartType Property](PartType-Property.md)   
+ [PagePartID Property](PagePartID-Property.md)   
+ [SystemPartID Property](SystemPartID-Property.md)

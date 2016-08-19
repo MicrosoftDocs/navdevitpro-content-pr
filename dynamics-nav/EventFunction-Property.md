@@ -17,20 +17,20 @@ Specifies the event publisher function that the event subscriber function subscr
   
 -   C\/AL functions.  
   
-     This property is only available when the [Event Property](../dynamics-nav/Event-Property.md) is set to **Subscriber**.  
+     This property is only available when the [Event Property](Event-Property.md) is set to **Subscriber**.  
   
 ## Property Value  
- An event publisher function in the object that is specified in the [EventPublisherObject Property](../dynamics-nav/EventPublisherObject-Property.md).  
+ An event publisher function in the object that is specified in the [EventPublisherObject Property](EventPublisherObject-Property.md).  
   
 ## Remarks  
  You use this property to set up an event subscriber function to respond to the event that is declared by the event publisher function. When the event is raised in the application, the event subscriber function is called.  
   
  You add C\/AL code to this function that defines the logic to handle the event when it is called.  
   
- For more information about events, see [Subscribing to Events](../dynamics-nav/Subscribing-to-Events.md)..  
+ For more information about events, see [Subscribing to Events](Subscribing-to-Events.md)..  
   
 ## See Also  
- [Events in Microsoft Dynamics NAV](../dynamics-nav/Events-in-Microsoft-Dynamics-NAV.md)   
- [Publishing Events](../dynamics-nav/Publishing-Events.md)   
- [Raising Events](../dynamics-nav/Raising-Events.md)   
- [C\-AL Function Statements](../dynamics-nav/C-AL-Function-Statements.md)
+ [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)   
+ [Publishing Events](Publishing-Events.md)   
+ [Raising Events](Raising-Events.md)   
+ [C\-AL Function Statements](C-AL-Function-Statements.md)

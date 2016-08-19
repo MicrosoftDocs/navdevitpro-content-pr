@@ -11,7 +11,7 @@ caps.latest.revision: 14
 manager: terryaus
 ---
 # OnClosePage Trigger
-Executed as a page closes after the [OnQueryClosePage Trigger](../dynamics-nav/OnQueryClosePage-Trigger.md) is executed.  
+Executed as a page closes after the [OnQueryClosePage Trigger](OnQueryClosePage-Trigger.md) is executed.  
   
 ## Syntax  
   
@@ -25,7 +25,7 @@ OnClosePage()
 -   Pages  
   
 > [!IMPORTANT]  
->  The OnClosePage trigger is not fully supported by the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]. When the page displays in the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], the trigger is only invoked when the page is hosted in a modal popup window \(MPO\).  
+>  The OnClosePage trigger is not fully supported by the [!INCLUDE[nav_web](includes/nav_web_md.md)]. When the page displays in the [!INCLUDE[nav_web](includes/nav_web_md.md)], the trigger is only invoked when the page is hosted in a modal popup window \(MPO\).  
   
 ## Remarks  
  This trigger is initiated by a user action, such as when the user chooses the **Close** button, or by the CurrPage.CLOSE function being called.  

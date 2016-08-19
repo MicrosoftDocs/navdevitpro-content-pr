@@ -11,9 +11,9 @@ caps.latest.revision: 19
 manager: terryaus
 ---
 # How to: Set an Icon on an Activity Button
-The [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] includes images that you can use on activity buttons in the navigation pane. Images are displayed on the left side of activity buttons, as shown in the following navigation pane example.  
+The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] includes images that you can use on activity buttons in the navigation pane. Images are displayed on the left side of activity buttons, as shown in the following navigation pane example.  
   
- ![Navigation pane clip that shows Activity buttons](../dynamics-nav/media/NAV_ADG_NavigationPane_ActivityButtons.jpg "NAV\_ADG\_NavigationPane\_ActivityButtons")  
+ ![Navigation pane clip that shows Activity buttons](media/NAV_ADG_NavigationPane_ActivityButtons.jpg "NAV\_ADG\_NavigationPane\_ActivityButtons")  
   
 > [!NOTE]  
 >  You cannot set up an image on the page links of an activity button. All page links in the navigation pane use a default image that cannot be changed.  
@@ -22,7 +22,7 @@ The [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] includes
   
 ### To set up image on an activity button  
   
-1.  To open Object Designer, in the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  To open Object Designer, in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  To open Page Designer, in Object Designer, choose **Page**, select the Role Center page, and then choose the **Design** button.  
   
@@ -43,7 +43,7 @@ The [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] includes
 9. Close the Properties window, and save the page.  
   
 > [!NOTE]  
->  If the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] is currently open, you will not see your changes until you close and restart.  
+>  If the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is currently open, you will not see your changes until you close and restart.  
   
 ## See Also  
  [How to: Create an Activity Button and Page Links in the Navigation Pane](../Topic/How%20to:%20Create%20an%20Activity%20Button%20and%20Page%20Links%20in%20the%20Navigation%20Pane.md)

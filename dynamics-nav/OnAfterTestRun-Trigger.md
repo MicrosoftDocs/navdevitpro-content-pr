@@ -45,7 +45,7 @@ OnAfterTestRun(CodeunitID : Integer;CodeunitName : Text[30];FunctionName : Text[
  **true** indicates that the test function run succeeded; otherwise, **false** indicates that the test function run failed.  
   
 ## Applies To  
- Test runner codeunits. Test runner codeunits have the [SubType Property \(Codeunit\)](../dynamics-nav/SubType-Property--Codeunit-.md) set to **TestRunner**.  
+ Test runner codeunits. Test runner codeunits have the [SubType Property \(Codeunit\)](SubType-Property--Codeunit-.md) set to **TestRunner**.  
   
 > [!NOTE]  
 >  This trigger is optional and not available on a test runner codeunit by default. To implement this trigger, you must manually add it as a function.  
@@ -56,13 +56,13 @@ OnAfterTestRun(CodeunitID : Integer;CodeunitName : Text[30];FunctionName : Text[
  The **OnAfterTestRun** trigger suppresses the automatic display of the results message after the test codeunit runs.  
   
 > [!NOTE]  
->  To return the error message for a failed test function run, use the [GETLASTERRORTEXT Function](../dynamics-nav/GETLASTERRORTEXT-Function.md).  
+>  To return the error message for a failed test function run, use the [GETLASTERRORTEXT Function](GETLASTERRORTEXT-Function.md).  
   
  You can use the **OnAfterTestRun** trigger to perform post\-processing, such as logging, or to automate tests by integrating the test runner codeunit with a test management framework.  
   
  The **OnAfterTestRun** trigger is run in its own database transaction.  
   
- For more information, see [Testing the Application](../dynamics-nav/Testing-the-Application.md) and [How to: Create a Test Runner Codeunit](../Topic/How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md).  
+ For more information, see [Testing the Application](Testing-the-Application.md) and [How to: Create a Test Runner Codeunit](../Topic/How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md).  
   
 ## Example  
  The following **OnAfterTestRun** trigger code logs test results to a test reporting system. This example requires that you create a record variable named *log*.  
@@ -87,9 +87,9 @@ log.INSERT(true);
  The GETLASTERRORTEXT function returns the text that was contained in the last error message.  
   
 ## See Also  
- [Testing the Application](../dynamics-nav/Testing-the-Application.md)   
+ [Testing the Application](Testing-the-Application.md)   
  [How to: Create a Test Runner Codeunit](../Topic/How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md)   
  [How to: Create Test Codeunits and Test Functions](../Topic/How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md)   
  [How to: Create Handler Functions](../Topic/How%20to:%20Create%20Handler%20Functions.md)   
  [Walkthrough: Testing Purchase Invoice Discounts](../Topic/Walkthrough:%20Testing%20Purchase%20Invoice%20Discounts.md)   
- [OnBeforeTestRun Trigger](../dynamics-nav/OnBeforeTestRun-Trigger.md)
+ [OnBeforeTestRun Trigger](OnBeforeTestRun-Trigger.md)
