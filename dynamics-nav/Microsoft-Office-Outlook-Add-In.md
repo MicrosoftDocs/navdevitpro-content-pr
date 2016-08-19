@@ -1,14 +1,15 @@
 ---
-title: "Microsoft Office Outlook Add-In"
+title:"Microsoft Office Outlook Add-In"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: f6b7668b-f925-4349-8729-46ea29210a94
 caps.latest.revision: 13
-manager: terryaus
+manager: edupont
 ---
 # Microsoft Office Outlook Add-In
 Use the Microsoft Office Outlook Add\-In component to synchronize data, such as to\-dos, contacts, and tasks, between [!INCLUDE[navnow](includes/navnow_md.md)] and Outlook. The Microsoft Office Outlook Add\-In uses [!INCLUDE[navnow](includes/navnow_md.md)] web services.  

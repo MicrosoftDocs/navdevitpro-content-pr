@@ -1,14 +1,15 @@
 ---
-title: "SAVEASPDF Function (Report)"
+title:"SAVEASPDF Function (Report)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 1207d441-176f-4f16-9547-43402e5d5043
 caps.latest.revision: 21
-manager: terryaus
+manager: edupont
 ---
 # SAVEASPDF Function (Report)
 Saves a report as a .pdf file.  

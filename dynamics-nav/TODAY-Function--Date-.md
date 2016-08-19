@@ -1,14 +1,15 @@
 ---
-title: "TODAY Function (Date)"
+title:"TODAY Function (Date)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: c2042afd-b4c1-4753-9fba-cf069857fb08
 caps.latest.revision: 7
-manager: pchapman
+manager: edupont
 ---
 # TODAY Function (Date)
 Gets the current date set in the operating system.  

@@ -1,14 +1,15 @@
 ---
-title: "Bitmap Property"
+title:"Bitmap Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 3c78cce8-d9a4-4b25-a576-1b6837a1460f
 caps.latest.revision: 16
-manager: terryaus
+manager: edupont
 ---
 # Bitmap Property
 Sets a bitmap icon to be shown with a department on the Department page of the [!INCLUDE[rtc](includes/rtc_md.md)].  

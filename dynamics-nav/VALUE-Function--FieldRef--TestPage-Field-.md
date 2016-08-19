@@ -1,11 +1,12 @@
 ---
-title: "VALUE Function (FieldRef, TestPage Field)"
+title:"VALUE Function (FieldRef, TestPage Field)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 20c42c77-b5e4-4c8c-bdf1-9d6c42d9f36b
 caps.latest.revision: 15
 ---

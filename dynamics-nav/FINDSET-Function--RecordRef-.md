@@ -1,14 +1,15 @@
 ---
-title: "FINDSET Function (RecordRef)"
+title:"FINDSET Function (RecordRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 73e1cf73-5ced-435d-b6c5-0898bee1d49d
 caps.latest.revision: 11
-manager: terryaus
+manager: edupont
 ---
 # FINDSET Function (RecordRef)
 Finds a set of records in a table based on the current key and filter. FINDSET can only retrieve records in ascending order.  

@@ -1,14 +1,15 @@
 ---
-title: "Request Pages (XMLPorts)"
+title:"Request Pages (XMLPorts)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: a412f52a-b5c8-496c-ac02-f6f1bf85df3d
 caps.latest.revision: 8
-manager: terryaus
+manager: edupont
 ---
 # Request Pages (XMLPorts)
 A request page is a dialog box that appears when an XMLport is run from Object Designer. It enables the user to set a filter on the data, sort the data, and choose whether the XMLport imports or exports the data. For more information about how to run XMLports from Object Designer, see [How to: Run an XMLport from Object Designer](../Topic/How%20to:%20Run%20an%20XMLport%20from%20Object%20Designer.md).  

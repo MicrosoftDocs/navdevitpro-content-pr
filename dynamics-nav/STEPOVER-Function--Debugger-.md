@@ -1,14 +1,15 @@
 ---
-title: "STEPOVER Function (Debugger)"
+title:"STEPOVER Function (Debugger)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 06c982d7-04f9-420b-9cc2-a92e8f1d76a5
 caps.latest.revision: 4
-manager: terryaus
+manager: edupont
 ---
 # STEPOVER Function (Debugger)
 Executes a function call and then stops at the first line outside the function call.  

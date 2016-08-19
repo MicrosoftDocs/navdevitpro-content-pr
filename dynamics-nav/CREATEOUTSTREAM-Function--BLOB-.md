@@ -1,14 +1,15 @@
 ---
-title: "CREATEOUTSTREAM Function (BLOB)"
+title:"CREATEOUTSTREAM Function (BLOB)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: d643906e-0dc6-4e44-a33f-79beaf6c8b94
 caps.latest.revision: 16
-manager: terryaus
+manager: edupont
 ---
 # CREATEOUTSTREAM Function (BLOB)
 Creates an OutStream object for a binary large object \(BLOB\). This enables you to write data to the BLOB.  

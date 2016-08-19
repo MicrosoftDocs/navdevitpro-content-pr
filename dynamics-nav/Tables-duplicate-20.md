@@ -1,14 +1,15 @@
 ---
-title: "Tables-duplicate 20"
+title:"Tables-duplicate 20"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 8d5a55e2-1089-4eac-ace1-6a3cdf07b218
 caps.latest.revision: 7
-manager: terryaus
+manager: edupont
 ---
 # Tables-duplicate 20
 Tables are the fundamental objects in any database. They are the objects in which you store and manipulate data. This is true no matter what kind of data you need to manage. When you create a new database, you begin by building the tables. Later, you create pages and reports in order to access and view the data in the tables.  

@@ -1,11 +1,12 @@
 ---
-title: "OnBeforeTestRun Trigger"
+title:"OnBeforeTestRun Trigger"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: be024339-53bf-4458-a67f-d0c0abeef80b
 caps.latest.revision: 12
 ---

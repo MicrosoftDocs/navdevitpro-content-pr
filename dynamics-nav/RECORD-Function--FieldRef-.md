@@ -1,11 +1,12 @@
 ---
-title: "RECORD Function (FieldRef)"
+title:"RECORD Function (FieldRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: f3232aae-2395-4afe-b1f0-c4e4f16d71d5
 caps.latest.revision: 11
 ---

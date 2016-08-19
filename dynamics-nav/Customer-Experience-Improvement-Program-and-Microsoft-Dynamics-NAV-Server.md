@@ -1,14 +1,15 @@
 ---
-title: "Customer Experience Improvement Program and Microsoft Dynamics NAV Server"
+title:"Customer Experience Improvement Program and Microsoft Dynamics NAV Server"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 3f97bafc-0349-49b5-9e5a-90b6a7599ad1
 caps.latest.revision: 11
-manager: terryaus
+manager: edupont
 ---
 # Customer Experience Improvement Program and Microsoft Dynamics NAV Server
 [!INCLUDE[nav_server](includes/nav_server_md.md)] supports the Customer Experience Improvement Program \(CEIP\), a tool that sends information to Microsoft about [!INCLUDE[nav_server](includes/nav_server_md.md)] usage and about the capacities of the computers where [!INCLUDE[nav_server](includes/nav_server_md.md)] is installed.  

@@ -1,14 +1,15 @@
 ---
-title: "COMPRESSARRAY Function"
+title:"COMPRESSARRAY Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: ce2474f7-3682-47fa-a7bb-29c3204c6c5b
 caps.latest.revision: 10
-manager: terryaus
+manager: edupont
 ---
 # COMPRESSARRAY Function
 Moves all non\-empty strings \(text\) in an array to the beginning of the array. The resulting StringArray has the same number of elements as the input array, but empty entries appear at the end of the array.  

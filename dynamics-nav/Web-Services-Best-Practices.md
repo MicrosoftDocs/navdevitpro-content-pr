@@ -1,14 +1,15 @@
 ---
-title: "Web Services Best Practices"
+title:"Web Services Best Practices"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 4eedbc85-81a6-4a16-bdb5-0c975c3bb7a7
 caps.latest.revision: 8
-manager: terryaus
+manager: edupont
 ---
 # Web Services Best Practices
 This topic provides recommendations that you can implement to make your web services applications easier to understand and maintain.  

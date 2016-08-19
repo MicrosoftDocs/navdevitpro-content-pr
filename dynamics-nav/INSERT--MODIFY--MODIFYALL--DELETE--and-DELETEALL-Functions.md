@@ -1,14 +1,15 @@
 ---
-title: "INSERT, MODIFY, MODIFYALL, DELETE, and DELETEALL Functions"
+title:"INSERT, MODIFY, MODIFYALL, DELETE, and DELETEALL Functions"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 73d7bcd0-9b00-4be2-bf4e-010bcc69ab33
 caps.latest.revision: 10
-manager: terryaus
+manager: edupont
 ---
 # INSERT, MODIFY, MODIFYALL, DELETE, and DELETEALL Functions
 The following functions maintain the database by adding, modifying, and removing records:  

@@ -1,14 +1,15 @@
 ---
-title: "OnValidate (Page fields) Trigger"
+title:"OnValidate (Page fields) Trigger"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: c9a4c961-c9c2-4afb-8493-fbeefdad27ca
 caps.latest.revision: 9
-manager: terryaus
+manager: edupont
 ---
 # OnValidate (Page fields) Trigger
 Executed when a field loses focus after its value has been changed.  

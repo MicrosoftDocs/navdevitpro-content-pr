@@ -1,14 +1,15 @@
 ---
-title: "FieldClass Property"
+title:"FieldClass Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: a9a813ea-3543-42ee-9fdc-6e3700c604ac
 caps.latest.revision: 8
-manager: pchapman
+manager: edupont
 ---
 # FieldClass Property
 Sets the class of the field.  

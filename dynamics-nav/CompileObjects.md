@@ -1,14 +1,15 @@
 ---
-title: "CompileObjects"
+title:"CompileObjects"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: bf71a267-45d8-43cf-b881-f0b3976e81e5
 caps.latest.revision: 28
-manager: terryaus
+manager: edupont
 ---
 # CompileObjects
 Compiles objects from the specified database.  

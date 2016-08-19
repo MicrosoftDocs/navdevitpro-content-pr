@@ -1,14 +1,15 @@
 ---
-title: "How to: Administer a Remote Microsoft Dynamics NAV Server Computer"
+title:"How to: Administer a Remote Microsoft Dynamics NAV Server Computer"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 11c18e22-79be-49d4-b068-c5d664665824
 caps.latest.revision: 10
-manager: terryaus
+manager: edupont
 ---
 # How to: Administer a Remote Microsoft Dynamics NAV Server Computer
 You can use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] to connect to other computers on your network where [!INCLUDE[navnowlong](includes/navnowlong_md.md)] is installed and manage [!INCLUDE[nav_server](includes/nav_server_md.md)] instances on those computers.  

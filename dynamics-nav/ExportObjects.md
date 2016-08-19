@@ -1,14 +1,15 @@
 ---
-title: "ExportObjects"
+title:"ExportObjects"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 3aa7629a-ced2-461d-8322-59347ec5d4f4
 caps.latest.revision: 19
-manager: terryaus
+manager: edupont
 ---
 # ExportObjects
 Exports objects from the specified database.  

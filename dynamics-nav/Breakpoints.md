@@ -1,14 +1,15 @@
 ---
-title: "Breakpoints"
+title:"Breakpoints"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 52eb9384-166a-4425-94e7-a75cbcec1c90
 caps.latest.revision: 33
-manager: terryaus
+manager: edupont
 ---
 # Breakpoints
 You can break code execution of the session that you are debugging by:  

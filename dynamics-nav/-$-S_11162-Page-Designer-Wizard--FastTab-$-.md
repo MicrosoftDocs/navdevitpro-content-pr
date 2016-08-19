@@ -1,14 +1,15 @@
 ---
-title: "($ S_11162 Page Designer Wizard, FastTab $)"
+title:"($ S_11162 Page Designer Wizard, FastTab $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: c0df329e-201f-4f8c-9f29-111490a6195f
 caps.latest.revision: 10
-manager: terryaus
+manager: edupont
 ---
 # ($ S_11162 Page Designer Wizard, FastTab $)
 Creates a FastTab control on a **Card** page.  

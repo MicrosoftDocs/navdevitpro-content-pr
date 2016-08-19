@@ -1,14 +1,15 @@
 ---
-title: "How to: Uninstall Language Modules"
+title:"How to: Uninstall Language Modules"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 25734b06-5c44-47b1-ad76-b286fb0418c0
 caps.latest.revision: 11
-manager: terryaus
+manager: edupont
 ---
 # How to: Uninstall Language Modules
 To uninstall a language module, you must delete the language from the database and uninstall each component of the language module that you installed.  

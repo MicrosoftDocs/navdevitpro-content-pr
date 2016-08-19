@@ -1,14 +1,15 @@
 ---
-title: "IncludeInDataSet Property"
+title:"IncludeInDataSet Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 1f39b1b8-1eef-455a-878f-47f29d4ffe91
 caps.latest.revision: 4
-manager: pchapman
+manager: edupont
 ---
 # IncludeInDataSet Property
 Sets whether the C\/AL variable's value is included in the dataset of the RoleTailored client.  

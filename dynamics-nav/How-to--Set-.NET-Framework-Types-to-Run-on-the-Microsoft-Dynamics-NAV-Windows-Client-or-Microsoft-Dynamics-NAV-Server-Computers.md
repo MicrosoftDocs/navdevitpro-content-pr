@@ -1,14 +1,15 @@
 ---
-title: "How to: Set .NET Framework Types to Run on the Microsoft Dynamics NAV Windows Client or Microsoft Dynamics NAV Server Computers"
+title:"How to: Set .NET Framework Types to Run on the Microsoft Dynamics NAV Windows Client or Microsoft Dynamics NAV Server Computers"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 3c0380ea-8c21-4977-a939-0b58c1d793eb
 caps.latest.revision: 23
-manager: terryaus
+manager: edupont
 ---
 # How to: Set .NET Framework Types to Run on the Microsoft Dynamics NAV Windows Client or Microsoft Dynamics NAV Server Computers
 This topic describes how to set .NET Framework objects that are instantiated by DotNet variables to target either the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_server](includes/nav_server_md.md)]. By default, a type is set to target [!INCLUDE[nav_server](includes/nav_server_md.md)]. However, you can set the type to target the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  

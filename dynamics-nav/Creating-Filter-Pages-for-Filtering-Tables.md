@@ -1,11 +1,12 @@
 ---
-title: "Creating Filter Pages for Filtering Tables"
+title:"Creating Filter Pages for Filtering Tables"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: aac4a7a4-ef28-46a7-a629-be7032ffc865
 caps.latest.revision: 5
 manager: edupont

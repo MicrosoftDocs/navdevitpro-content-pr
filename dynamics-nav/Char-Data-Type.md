@@ -1,14 +1,15 @@
 ---
-title: "Char Data Type"
+title:"Char Data Type"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 93ea32a8-8019-4b75-be2c-fae30d9e9d21
 caps.latest.revision: 18
-manager: terryaus
+manager: edupont
 ---
 # Char Data Type
 Use this simple data type to store a single, 16\-bit character as a value in the range 0 to 65535. You can convert this data type from a number to a character and vice versa. This means you can use mathematical operators on Char variables.  

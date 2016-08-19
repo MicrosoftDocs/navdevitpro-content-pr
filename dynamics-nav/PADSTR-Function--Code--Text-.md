@@ -1,14 +1,15 @@
 ---
-title: "PADSTR Function (Code, Text)"
+title:"PADSTR Function (Code, Text)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 08467a3c-872d-4b3d-9470-2bda101e8b56
 caps.latest.revision: 10
-manager: pchapman
+manager: edupont
 ---
 # PADSTR Function (Code, Text)
 Changes the length of a string to a length that you define.  

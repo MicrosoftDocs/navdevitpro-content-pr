@@ -1,11 +1,12 @@
 ---
-title: "GETVIEW function (FilterPageBuilder)"
+title:"GETVIEW function (FilterPageBuilder)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: e0011034-f0e8-4439-8d76-05761696f284
 caps.latest.revision: 5
 manager: edupont

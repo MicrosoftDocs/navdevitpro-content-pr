@@ -1,14 +1,15 @@
 ---
-title: "VariableName Properties"
+title:"VariableName Properties"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: a706d220-a1d8-4ff1-81d6-ee81be6f3323
 caps.latest.revision: 7
-manager: pchapman
+manager: edupont
 ---
 # VariableName Properties
 Sets a variable name for the table that you have specified in the [SourceTable Property](SourceTable-Property.md). It is also used to specify a variable name for a text that you have specified in the [SourceType Property](SourceType-Property.md).  

@@ -1,11 +1,12 @@
 ---
-title: "SAVEASEXCEL Function (Report)"
+title:"SAVEASEXCEL Function (Report)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 536c0682-bf9e-4214-98b2-3db528aeeab1
 caps.latest.revision: 20
 ---

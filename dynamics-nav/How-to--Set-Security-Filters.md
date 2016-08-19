@@ -1,14 +1,15 @@
 ---
-title: "How to: Set Security Filters"
+title:"How to: Set Security Filters"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 662b1b7c-5ace-4d47-bbd7-f8873b4249de
 caps.latest.revision: 9
-manager: terryaus
+manager: edupont
 ---
 # How to: Set Security Filters
 You set security filters to limit the access that a user has to data in a table. You set security filters on permission sets, which you assign to users. For more information, see [Managing Permissions and Permission Sets](Managing-Permissions-and-Permission-Sets.md).  

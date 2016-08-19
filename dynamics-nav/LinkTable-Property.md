@@ -1,14 +1,15 @@
 ---
-title: "LinkTable Property"
+title:"LinkTable Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 4a0ae945-1a46-46b3-b025-8bd3707128fd
 caps.latest.revision: 8
-manager: pchapman
+manager: edupont
 ---
 # LinkTable Property
 Sets the table that this XML item should be linked to. This property is only available for XML items that have a table as their data source.  

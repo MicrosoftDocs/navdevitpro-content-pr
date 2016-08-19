@@ -1,14 +1,15 @@
 ---
-title: "CONTINUE Function (Debugger)"
+title:"CONTINUE Function (Debugger)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 586b4a42-f4dc-4bd8-87fb-535477ac58ba
 caps.latest.revision: 4
-manager: terryaus
+manager: edupont
 ---
 # CONTINUE Function (Debugger)
 Executes code until the next breakpoint or until execution ends.  

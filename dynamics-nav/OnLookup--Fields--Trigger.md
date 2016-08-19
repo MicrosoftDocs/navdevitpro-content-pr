@@ -1,11 +1,12 @@
 ---
-title: "OnLookup (Fields) Trigger"
+title:"OnLookup (Fields) Trigger"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: b81542a2-308f-4ed4-b5c4-9484df43285c
 caps.latest.revision: 9
 ---

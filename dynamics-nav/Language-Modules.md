@@ -1,14 +1,15 @@
 ---
-title: "Language Modules"
+title:"Language Modules"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: ee2cc124-6d85-4e2a-bee0-8c084c9f81dc
 caps.latest.revision: 12
-manager: terryaus
+manager: edupont
 ---
 # Language Modules
 To view [!INCLUDE[navnow](includes/navnow_md.md)] in multiple languages, you install one or more language modules. The topic describes language modules in [!INCLUDE[navnow](includes/navnow_md.md)]. For more information about how to install language modules in the original version of [!INCLUDE[navnow](includes/navnow_md.md)], see [Language Modules for Microsoft Dynamics NAV](http://go.microsoft.com/fwlink/?LinkId=157364) \(requires PartnerSource login\).  

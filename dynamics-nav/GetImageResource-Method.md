@@ -1,11 +1,12 @@
 ---
-title: "GetImageResource Method"
+title:"GetImageResource Method"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 1f2b2168-cf53-4859-98ec-99d170f05625
 caps.latest.revision: 8
 ---

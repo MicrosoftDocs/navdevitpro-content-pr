@@ -1,14 +1,15 @@
 ---
-title: "ACTIVATE Function (Debugger)"
+title:"ACTIVATE Function (Debugger)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 620f0e32-eadc-43e9-8f6e-8fc0b12c3aaf
 caps.latest.revision: 9
-manager: terryaus
+manager: edupont
 ---
 # ACTIVATE Function (Debugger)
 Activates the debugger and attaches the debugger to the next session that is started.  

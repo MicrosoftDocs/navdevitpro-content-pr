@@ -1,14 +1,15 @@
 ---
-title: "TYPE Function (FieldRef)"
+title:"TYPE Function (FieldRef)"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 51a69e42-c585-43aa-a85d-81d52a887432
 caps.latest.revision: 12
-manager: terryaus
+manager: edupont
 ---
 # TYPE Function (FieldRef)
 Gets the data type of the field that is currently selected.  

@@ -1,11 +1,12 @@
 ---
-title: "Setting up Hyperlinks in Word Report Layouts"
+title:"Setting up Hyperlinks in Word Report Layouts"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 6e38c751-e2bc-4db9-adb3-6cddc63c8266
 caps.latest.revision: 3
 manager: edupont

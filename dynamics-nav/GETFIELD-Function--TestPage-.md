@@ -1,14 +1,15 @@
 ---
-title: "GETFIELD Function (TestPage)"
+title:"GETFIELD Function (TestPage)"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: a9ba69dd-81a2-4e88-b67f-d7370362eae3
 caps.latest.revision: 10
-manager: terryaus
+manager: edupont
 ---
 # GETFIELD Function (TestPage)
 Gets a field on a test page.  

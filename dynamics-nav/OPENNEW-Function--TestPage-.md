@@ -1,14 +1,15 @@
 ---
-title: "OPENNEW Function (TestPage)"
+title:"OPENNEW Function (TestPage)"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: c484da23-ec11-4545-b52c-dab493291720
 caps.latest.revision: 8
-manager: terryaus
+manager: edupont
 ---
 # OPENNEW Function (TestPage)
 Opens a blank test page in edit mode.  

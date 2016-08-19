@@ -1,14 +1,15 @@
 ---
-title: "Troubleshooting: SQL Server Connection Problems"
+title:"Troubleshooting: SQL Server Connection Problems"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: e28202de-a9d4-44db-b5b1-a9be8674a53d
 caps.latest.revision: 15
-manager: terryaus
+manager: edupont
 ---
 # Troubleshooting: SQL Server Connection Problems
 After installing and configuring [!INCLUDE[navnow](includes/navnow_md.md)] software, you may not be able to connect the [!INCLUDE[rtc](includes/rtc_md.md)] to [!INCLUDE[nav_server](includes/nav_server_md.md)]. In this case you see an error message like the following when you attempt to start the [!INCLUDE[rtc](includes/rtc_md.md)].  

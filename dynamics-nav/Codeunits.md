@@ -1,14 +1,15 @@
 ---
-title: "Codeunits"
+title:"Codeunits"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 7a3d091f-4352-4c29-9ee8-80b9c3398c54
 caps.latest.revision: 8
-manager: terryaus
+manager: edupont
 ---
 # Codeunits
 A codeunit is a container for C\/AL code that you can use in many application objects. This section describes codeunits and explains how to create one. It also shows you how to use the functions in a codeunit from other application objects.  

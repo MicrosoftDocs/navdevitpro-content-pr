@@ -1,11 +1,12 @@
 ---
-title: "Deploying the Microsoft Dynamics NAV Web Server Components in a Single Computer Environment"
+title:"Deploying the Microsoft Dynamics NAV Web Server Components in a Single Computer Environment"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 587d1c76-f77f-4763-9eaa-291b2d331264
 caps.latest.revision: 27
 ---

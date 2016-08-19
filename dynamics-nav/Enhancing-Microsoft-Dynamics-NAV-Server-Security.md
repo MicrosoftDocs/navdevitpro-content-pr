@@ -1,14 +1,15 @@
 ---
-title: "Enhancing Microsoft Dynamics NAV Server Security"
+title:"Enhancing Microsoft Dynamics NAV Server Security"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: c85fa3e9-db59-4e52-8b00-aa4b4378e147
 caps.latest.revision: 9
-manager: pchapman
+manager: edupont
 ---
 # Enhancing Microsoft Dynamics NAV Server Security
 [!INCLUDE[nav_server](includes/nav_server_md.md)] is a .NET\-based Windows Service application that works exclusively with SQL Server databases. [!INCLUDE[nav_server](includes/nav_server_md.md)] provides an additional layer of security between clients and the database. It leverages the authentication features of the Windows Communications Framework to provide another layer of user authentication and uses impersonation to ensure that business logic is executed in a process that has been instantiated by the user who submitted the request. This means that authorization and logging of user requests are performed on a per\-user basis.  

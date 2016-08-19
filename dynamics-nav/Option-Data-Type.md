@@ -1,14 +1,15 @@
 ---
-title: "Option Data Type"
+title:"Option Data Type"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 4ce38f7b-bae2-427d-9db8-3e5014a48c6a
 caps.latest.revision: 11
-manager: pchapman
+manager: edupont
 ---
 # Option Data Type
 This simple data type denotes an option value.  

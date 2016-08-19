@@ -1,11 +1,12 @@
 ---
-title: "Defining the Report Dataset"
+title:"Defining the Report Dataset"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 1c928d15-a4d6-4b64-a2a1-99ac57b95cdd
 caps.latest.revision: 3
 manager: edupont

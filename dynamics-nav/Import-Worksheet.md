@@ -1,14 +1,15 @@
 ---
-title: "Import Worksheet"
+title:"Import Worksheet"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 823b5ae0-a87d-4b5b-9ea7-f57be064c598
 caps.latest.revision: 12
-manager: terryaus
+manager: edupont
 ---
 # Import Worksheet
 When you import objects from a binary file \(.fob\), if there are conflicts with objects that exist in the database with the same ID, then you use the Import Worksheet to resolve the conflicts. If the import file contains only objects that are new, then the objects are imported.  

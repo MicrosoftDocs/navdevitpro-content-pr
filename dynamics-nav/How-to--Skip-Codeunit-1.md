@@ -1,14 +1,15 @@
 ---
-title: "How to: Skip Codeunit 1"
+title:"How to: Skip Codeunit 1"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 3b5317c7-b7b1-4604-95c1-67800c544ca7
 caps.latest.revision: 8
-manager: terryaus
+manager: edupont
 ---
 # How to: Skip Codeunit 1
 Many of the triggers in codeunit 1, Application Management, are not important for debugging a business scenario. Because they are seldom important for debugging and because codeunit 1 triggers are called very often in the application, you can specify that the debugger skips all code in codeunit 1. If you skip codeunit 1, then when you break on the next statement, the debugger does not break on code in codeunit 1. It continues until the first line of code after codeunit 1. In addition, when you step through lines of code, the debugger does not step into code in codeunit 1.  

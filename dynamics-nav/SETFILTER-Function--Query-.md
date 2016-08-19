@@ -1,14 +1,15 @@
 ---
-title: "SETFILTER Function (Query)"
+title:"SETFILTER Function (Query)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 12b3f553-ca5a-4726-a9d4-3f19daac83d1
 caps.latest.revision: 19
-manager: terryaus
+manager: edupont
 ---
 # SETFILTER Function (Query)
 Sets a filter on a column of a query to limit the records in the resulting dataset of a query.  

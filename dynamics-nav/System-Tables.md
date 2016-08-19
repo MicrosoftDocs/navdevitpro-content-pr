@@ -1,11 +1,12 @@
 ---
-title: "System Tables"
+title:"System Tables"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 6e9be5ec-3b61-4054-97fe-56cc24299c16
 caps.latest.revision: 12
 ---

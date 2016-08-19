@@ -1,14 +1,15 @@
 ---
-title: "UPLOAD Function (File)"
+title:"UPLOAD Function (File)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 0da8d4ad-82cd-4906-9faa-e49e360262b9
 caps.latest.revision: 24
-manager: terryaus
+manager: edupont
 ---
 # UPLOAD Function (File)
 Sends a file from the client computer to the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer. The client computer is the computer that is running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or the computer that is running a browser that accesses the [!INCLUDE[nav_web](includes/nav_web_md.md)].  

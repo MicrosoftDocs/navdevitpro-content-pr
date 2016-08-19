@@ -1,14 +1,15 @@
 ---
-title: "($ S_2354 License Information $)"
+title:"($ S_2354 License Information $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: ee25a540-338d-483a-9a54-cf9e2dc32db9
 caps.latest.revision: 12
-manager: terryaus
+manager: edupont
 ---
 # ($ S_2354 License Information $)
 Shows the contents of the current license file. The information includes the license number, the name of the license owner, which application granules are included, and when the license expires. Typically, your serial number and the name of your company appear in the window. If your license file is not is shown in the window, then you must upload your own file by choosing the **Upload** button.  

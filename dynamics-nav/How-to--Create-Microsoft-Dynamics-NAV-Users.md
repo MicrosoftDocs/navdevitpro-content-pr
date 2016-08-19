@@ -1,14 +1,15 @@
 ---
-title: "How to: Create Microsoft Dynamics NAV Users"
+title:"How to: Create Microsoft Dynamics NAV Users"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 3ff41005-9430-4fb9-84e8-33b4c056f61d
 caps.latest.revision: 41
-manager: terryaus
+manager: edupont
 ---
 # How to: Create Microsoft Dynamics NAV Users
 Before a user can access [!INCLUDE[navnow](includes/navnow_md.md)], you must have created them as users in [!INCLUDE[navnow](includes/navnow_md.md)]. To create and modify users, you can use the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], [!INCLUDE[nav_web](includes/nav_web_md.md)], or the [!INCLUDE[navnow](includes/navnow_md.md)] Windows PowerShell cmdlets.  

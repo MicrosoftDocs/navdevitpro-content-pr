@@ -1,14 +1,15 @@
 ---
-title: "($ S_2510 Group Properties $)"
+title:"($ S_2510 Group Properties $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 31b59891-43d8-4a58-901d-dcba43a79004
 caps.latest.revision: 11
-manager: terryaus
+manager: edupont
 ---
 # ($ S_2510 Group Properties $)
 Groups menu items in a department. A group is a folder that you use to group related menu items. You group menu items to make them easier to access in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. A group folder is displayed on the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] as a submenu in the department. You can create a group folder inside another group folder. The group folder that is inside another group folder is a submenu.  

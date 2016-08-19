@@ -1,14 +1,15 @@
 ---
-title: "($ S_2138 DataItem Link $)"
+title:"($ S_2138 DataItem Link $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: e8bd0777-f127-4b2b-9564-c804172a9507
 caps.latest.revision: 10
-manager: terryaus
+manager: edupont
 ---
 # ($ S_2138 DataItem Link $)
 Specifies the relationship between fields in the current data item and reference fields on a parent data item. The parent data item is specified in the [DataItemLinkReference Property](DataItemLinkReference-Property.md).  

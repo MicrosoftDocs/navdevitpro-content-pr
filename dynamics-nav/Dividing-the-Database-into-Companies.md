@@ -1,11 +1,12 @@
 ---
-title: "Dividing the Database into Companies"
+title:"Dividing the Database into Companies"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 3c1180c1-60fd-4e2c-8a9b-b0a1dc53b8e9
 caps.latest.revision: 11
 ---

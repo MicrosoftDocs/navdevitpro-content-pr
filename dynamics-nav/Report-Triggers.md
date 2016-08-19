@@ -1,14 +1,15 @@
 ---
-title: "Report Triggers"
+title:"Report Triggers"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 06d26262-85ed-4f85-80b1-b8291b6155f7
 caps.latest.revision: 9
-manager: terryaus
+manager: edupont
 ---
 # Report Triggers
 When you run a report, the report triggers are called in a specific order.  

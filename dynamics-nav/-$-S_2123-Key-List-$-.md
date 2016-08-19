@@ -1,14 +1,15 @@
 ---
-title: "($ S_2123 Key List $)"
+title:"($ S_2123 Key List $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: f7ca6522-dc24-4e38-a3ec-6f0380c6bd9c
 caps.latest.revision: 5
-manager: terryaus
+manager: edupont
 ---
 # ($ S_2123 Key List $)
 Sets the key field or fields on which to sort the data. The window lists the fields in the selected table.  

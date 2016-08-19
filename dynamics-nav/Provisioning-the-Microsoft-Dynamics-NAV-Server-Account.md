@@ -1,14 +1,15 @@
 ---
-title: "Provisioning the Microsoft Dynamics NAV Server Account"
+title:"Provisioning the Microsoft Dynamics NAV Server Account"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 4278fd98-688d-403d-a89a-453981452957
 caps.latest.revision: 12
-manager: terryaus
+manager: edupont
 ---
 # Provisioning the Microsoft Dynamics NAV Server Account
 The [!INCLUDE[nav_server](includes/nav_server_md.md)] account is used by [!INCLUDE[navnow](includes/navnow_md.md)] clients to log on to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The [!INCLUDE[nav_server](includes/nav_server_md.md)] then uses the service account to log on to the [!INCLUDE[navnow](includes/navnow_md.md)] database. When you install [!INCLUDE[nav_server](includes/nav_server_md.md)], you identify an Active Directory account to provide credentials for the server. By default, Setup runs [!INCLUDE[nav_server](includes/nav_server_md.md)] under the Network Service account, a predefined local account used by the service control manager. This account has minimum privileges on the local computer and acts as the computer on the network.  

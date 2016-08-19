@@ -1,14 +1,15 @@
 ---
-title: "COPYFILTERS Function (Record)"
+title:"COPYFILTERS Function (Record)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 4b2e584c-31fc-44f4-94d8-590c53c859f2
 caps.latest.revision: 9
-manager: pchapman
+manager: edupont
 ---
 # COPYFILTERS Function (Record)
 Copies all the filters set by the [SETFILTER Function \(Record\)](SETFILTER-Function--Record-.md) or the [SETRANGE Function \(Record\)](SETRANGE-Function--Record-.md) from one record to another.  

@@ -1,14 +1,15 @@
 ---
-title: "How to: Change the Language in the User Interface"
+title:"How to: Change the Language in the User Interface"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 74eabc9d-1fe8-42c0-ac1c-2491d075ad73
 caps.latest.revision: 10
-manager: terryaus
+manager: edupont
 ---
 # How to: Change the Language in the User Interface
 You can change the language that is used for captions in windows, on command buttons, and in other UI elements from both the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] and the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  

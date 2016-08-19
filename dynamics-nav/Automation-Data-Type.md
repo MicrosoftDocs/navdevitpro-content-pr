@@ -1,14 +1,15 @@
 ---
-title: "Automation Data Type"
+title:"Automation Data Type"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 3d37ff31-161a-4181-898f-fbb2b56234b9
 caps.latest.revision: 22
-manager: terryaus
+manager: edupont
 ---
 # Automation Data Type
 Use the Automation data type to reference an automation server.  

@@ -1,14 +1,15 @@
 ---
-title: "Microsoft Dynamics NAV Web Services Overview"
+title:"Microsoft Dynamics NAV Web Services Overview"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 78068a59-b1a0-4a14-8f77-575bcbb557c8
 caps.latest.revision: 48
-manager: terryaus
+manager: edupont
 ---
 # Microsoft Dynamics NAV Web Services Overview
 Web services are a lightweight, industry\-standard way to make application functionality available to a variety of external systems and users. [!INCLUDE[navnowlong](includes/navnowlong_md.md)] supports creation and publishing of [!INCLUDE[navnow](includes/navnow_md.md)] functionality as web services. You can expose pages, codeunits, or queries as web services, and even enhance a page web service by using an extension codeunit. When you publish [!INCLUDE[navnow](includes/navnow_md.md)] objects as web services, they are immediately available on the network.  

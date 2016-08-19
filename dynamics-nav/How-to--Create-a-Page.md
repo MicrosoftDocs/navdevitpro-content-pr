@@ -1,14 +1,15 @@
 ---
-title: "How to: Create a Page"
+title:"How to: Create a Page"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: a7d37590-e781-4c4d-8c71-beb3b93c44d7
 caps.latest.revision: 35
-manager: terryaus
+manager: edupont
 ---
 # How to: Create a Page
 Pages are objects for viewing and editing data in the [!INCLUDE[rtc](includes/rtc_md.md)]. When you create a new page, consider the page's business purpose, including which user uses it and what tasks the user must have. There are ten page types from which you can choose, including:  

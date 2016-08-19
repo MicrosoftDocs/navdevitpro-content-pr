@@ -1,14 +1,15 @@
 ---
-title: "($ S_11002 Replace $)"
+title:"($ S_11002 Replace $)"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: b644e98c-880f-4a83-b2f9-308ecd447cda
 caps.latest.revision: 7
-manager: terryaus
+manager: edupont
 ---
 # ($ S_11002 Replace $)
 Replaces text that you find with other text. You can only replace information that can be changed. If you try to replace an entry that you cannot change, then you receive an error message.  

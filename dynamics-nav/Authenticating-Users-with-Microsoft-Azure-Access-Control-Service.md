@@ -1,11 +1,12 @@
 ---
-title: "Authenticating Users with Microsoft Azure Access Control Service"
+title:"Authenticating Users with Microsoft Azure Access Control Service"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 9a8ee01c-12cf-4d38-a8b3-922f6de23f20
 caps.latest.revision: 10
 ---

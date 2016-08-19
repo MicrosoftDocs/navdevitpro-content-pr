@@ -1,14 +1,15 @@
 ---
-title: "DateFormula Property"
+title:"DateFormula Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: d6bda43c-b5b4-4243-ac85-4b55cd2fe202
 caps.latest.revision: 9
-manager: terryaus
+manager: edupont
 ---
 # DateFormula Property
 Sets a date formula used to verify that the date the user enters is correct.  

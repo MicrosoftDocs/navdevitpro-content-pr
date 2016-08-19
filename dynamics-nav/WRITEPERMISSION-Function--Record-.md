@@ -1,14 +1,15 @@
 ---
-title: "WRITEPERMISSION Function (Record)"
+title:"WRITEPERMISSION Function (Record)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 89baebc9-7d28-42b9-b8ad-cb3ca760fad2
 caps.latest.revision: 11
-manager: terryaus
+manager: edupont
 ---
 # WRITEPERMISSION Function (Record)
 Determines whether a user can write to a table. This function can test for both full write permission and partial write permission that has been granted with a security filter. A write permission consists of Insert, Delete, and Modify permissions.  

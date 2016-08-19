@@ -1,14 +1,15 @@
 ---
-title: "How to: Install Language Modules"
+title:"How to: Install Language Modules"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 0207827c-4269-4a71-8a1b-e08bd2925cd6
 caps.latest.revision: 29
-manager: terryaus
+manager: edupont
 ---
 # How to: Install Language Modules
 To install language modules in [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you must first download the language module from [Language Modules for Microsoft Dynamics NAV 2016](http://go.microsoft.com/fwlink/?LinkID=784928) \(requires PartnerSource login\), and then you install the following different components separately:  

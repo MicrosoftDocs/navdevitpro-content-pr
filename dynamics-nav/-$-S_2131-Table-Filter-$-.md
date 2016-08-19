@@ -1,14 +1,15 @@
 ---
-title: "($ S_2131 Table Filter $)"
+title:"($ S_2131 Table Filter $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: add4e082-4657-4457-ba0e-77d48c77913f
 caps.latest.revision: 5
-manager: terryaus
+manager: edupont
 ---
 # ($ S_2131 Table Filter $)
 Sets a filter on a DataItem. The filter can be a constant expression or a filter expression. The filter that you set is not displayed on the request page, but it is used with filters that the end user specifies on the request page.  

@@ -1,14 +1,15 @@
 ﻿---
-title: "What&#39;s New: Developer and IT Pro Changes for Microsoft Dynamics NAV"
+title:"What&#39;s New: Developer and IT Pro Changes for Microsoft Dynamics NAV"
 ms.custom: na
 ms.date: 07/20/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 823f9666-1de0-49f7-a630-01d0b82e6918
 caps.latest.revision: 282
-manager: terryaus
+manager: edupont
 ---
 # What&#39;s New: Developer and IT Pro Changes for Microsoft Dynamics NAV
 [!INCLUDE[navnow](includes/navnow_md.md)] is a complete enterprise resource planning \(ERP\) software solution for mid\-sized organizations that is fast to implement, easy to configure, and simple to use. Right from the start, simplicity has guided—and continues to guide—innovations in product design, development, implementation, and usability.  

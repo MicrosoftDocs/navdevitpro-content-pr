@@ -1,11 +1,12 @@
 ---
-title: "Microsoft Dynamics NAV Server Events"
+title:"Microsoft Dynamics NAV Server Events"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: e56172b8-dc6a-4b33-b24e-097bd9226e4a
 caps.latest.revision: 3
 ---

@@ -1,14 +1,15 @@
 ---
-title: "How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client"
+title:"How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 8079f309-e5ca-4d23-a6b9-412892a565ad
 caps.latest.revision: 23
-manager: terryaus
+manager: edupont
 ---
 # How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client
 We recommend that you secure [!INCLUDE[navnow](includes/navnow_md.md)] data that is transmitted over the Internet by enabling Secure Sockets Layer \(SSL\) on the connection to [!INCLUDE[nav_web](includes/nav_web_md.md)].  

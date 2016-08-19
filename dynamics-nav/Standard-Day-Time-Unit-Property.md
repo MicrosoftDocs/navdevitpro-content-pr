@@ -1,14 +1,15 @@
 ---
-title: "Standard Day-Time Unit Property"
+title:"Standard Day-Time Unit Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: d8f29b3d-868c-41a5-af46-2fd484c7a0ce
 caps.latest.revision: 6
-manager: terryaus
+manager: edupont
 ---
 # Standard Day-Time Unit Property
 Sets the unit of measure that is used when you enter data into duration fields.  

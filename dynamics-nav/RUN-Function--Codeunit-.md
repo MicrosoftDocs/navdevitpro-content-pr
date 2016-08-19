@@ -1,14 +1,15 @@
 ---
-title: "RUN Function (Codeunit)"
+title:"RUN Function (Codeunit)"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 35b58153-17d6-4906-81e9-489a21ff6ffa
 caps.latest.revision: 10
-manager: terryaus
+manager: edupont
 ---
 # RUN Function (Codeunit)
 Loads and executes the unit of C\/AL code you specify. To use this function, you can specify a table associated with the codeunit when you defined the codeunit properties. This allows you to pass a variable with the function. The transaction that the codeunit contains is always committed due to the Boolean return value.  

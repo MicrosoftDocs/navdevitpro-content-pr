@@ -1,14 +1,15 @@
 ---
-title: "InitValue Property"
+title:"InitValue Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 5bb96b7d-18d0-4fd5-bd64-a8f9b84fd8d1
 caps.latest.revision: 5
-manager: pchapman
+manager: edupont
 ---
 # InitValue Property
 Sets the initial value of this field when a user creates a new record.  

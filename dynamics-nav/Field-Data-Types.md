@@ -1,11 +1,12 @@
 ---
-title: "Field Data Types"
+title:"Field Data Types"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: c365bf5b-559a-48dc-83da-159d046a784a
 caps.latest.revision: 22
 ---

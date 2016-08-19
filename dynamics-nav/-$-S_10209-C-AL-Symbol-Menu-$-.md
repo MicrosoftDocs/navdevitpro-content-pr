@@ -1,14 +1,15 @@
 ---
-title: "($ S_10209 C-AL Symbol Menu $)"
+title:"($ S_10209 C-AL Symbol Menu $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: cc6315d2-4719-4230-8ba8-adfc2e230b08
 caps.latest.revision: 14
-manager: terryaus
+manager: edupont
 ---
 # ($ S_10209 C-AL Symbol Menu $)
 Shows variables, functions, and objects that are defined in the **\($ S\_10204 C\/AL Globals $\)** window and provides information about the syntax and description of the variables, functions, and objects.  

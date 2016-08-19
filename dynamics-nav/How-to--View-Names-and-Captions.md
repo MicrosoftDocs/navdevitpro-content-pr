@@ -1,14 +1,15 @@
 ---
-title: "How to: View Names and Captions"
+title:"How to: View Names and Captions"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 10ccff06-ebf2-4eb5-b52a-8fc601cf156a
 caps.latest.revision: 11
-manager: terryaus
+manager: edupont
 ---
 # How to: View Names and Captions
 If you have a multilanguage application, then you need to know how to find the values of both the [Name Property\-duplicate](Name-Property-duplicate.md) of an object, which is in English \(United States\), and the [Caption Property\-duplicate](Caption-Property-duplicate.md) of an object, which is in the local application language.  

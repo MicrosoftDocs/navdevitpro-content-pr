@@ -1,14 +1,15 @@
 ---
-title: "($ S_2420 Create Menu $)"
+title:"($ S_2420 Create Menu $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 87789673-dd42-44cb-ae00-35357240bfa1
 caps.latest.revision: 9
-manager: terryaus
+manager: edupont
 ---
 # ($ S_2420 Create Menu $)
 Creates a new menu for a department. This menu represents a department in a company.  

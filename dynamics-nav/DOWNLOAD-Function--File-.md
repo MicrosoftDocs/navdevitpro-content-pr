@@ -1,14 +1,15 @@
 ---
-title: "DOWNLOAD Function (File)"
+title:"DOWNLOAD Function (File)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 177ea399-06d4-4a49-b287-a6fe4a3b8f8f
 caps.latest.revision: 28
-manager: terryaus
+manager: edupont
 ---
 # DOWNLOAD Function (File)
 Sends a file from a [!INCLUDE[nav_server](includes/nav_server_md.md)] computer to the client computer.  The client computer is the computer that is running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or the computer that is running a browser that accesses the [!INCLUDE[nav_web](includes/nav_web_md.md)].  

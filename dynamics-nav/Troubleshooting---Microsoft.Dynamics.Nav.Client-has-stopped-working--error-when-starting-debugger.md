@@ -1,11 +1,12 @@
 ---
-title: "Troubleshooting: &quot;Microsoft.Dynamics.Nav.Client has stopped working&quot; error when starting debugger"
+title:"Troubleshooting: &quot;Microsoft.Dynamics.Nav.Client has stopped working&quot; error when starting debugger"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: fd529da0-fd56-4b8f-9c1c-345a9a2dd9ab
 caps.latest.revision: 2
 ---

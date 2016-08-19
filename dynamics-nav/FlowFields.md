@@ -1,14 +1,15 @@
 ---
-title: "FlowFields"
+title:"FlowFields"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 990a4cbc-d545-4568-aff8-30e7833edd59
 caps.latest.revision: 13
-manager: terryaus
+manager: edupont
 ---
 # FlowFields
 FlowFields display the result of the calculation described in the [CalcFormula Property](CalcFormula-Property.md). For example, the Account Balance field in the General Ledger Account table shows the balance of the account and is calculated as the sum of the NetAmount fields for all General Journal entries in the account.  

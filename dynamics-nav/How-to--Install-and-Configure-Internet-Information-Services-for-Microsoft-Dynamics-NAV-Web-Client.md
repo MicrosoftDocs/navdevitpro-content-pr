@@ -1,14 +1,15 @@
 ---
-title: "How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client"
+title:"How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 890e4a5b-2f43-4cb8-bc7a-18261eaf8139
 caps.latest.revision: 19
-manager: terryaus
+manager: edupont
 ---
 # How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client
 This topic describes how to install and configure Internet Information Service \(IIS\) for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)], you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on a computer that running IIS 7.0 or IIS 8.0. A website for [!INCLUDE[nav_web](includes/nav_web_md.md)] is installed on the IIS.  

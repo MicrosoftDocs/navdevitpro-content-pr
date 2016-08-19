@@ -1,14 +1,15 @@
 ---
-title: "Testing Pages"
+title:"Testing Pages"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 006974e4-4cfb-4c92-9683-10e160ef057c
 caps.latest.revision: 13
-manager: terryaus
+manager: edupont
 ---
 # Testing Pages
 You use test page objects to simulate user interactions with the application. You can:  

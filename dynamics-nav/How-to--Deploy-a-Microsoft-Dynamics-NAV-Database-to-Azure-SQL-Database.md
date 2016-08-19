@@ -1,11 +1,12 @@
 ---
-title: "How to: Deploy a Microsoft Dynamics NAV Database to Azure SQL Database"
+title:"How to: Deploy a Microsoft Dynamics NAV Database to Azure SQL Database"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 9d10def7-b641-497e-9e03-192d174674c8
 caps.latest.revision: 7
 manager: edupont

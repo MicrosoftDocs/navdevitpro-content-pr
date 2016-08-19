@@ -1,14 +1,15 @@
 ---
-title: "DUPLICATE Function (RecordRef)"
+title:"DUPLICATE Function (RecordRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 9c57c8c0-5b99-4f9b-aecc-e6895e2da1e2
 caps.latest.revision: 11
-manager: terryaus
+manager: edupont
 ---
 # DUPLICATE Function (RecordRef)
 Duplicates the table that contains the RecordRef.  

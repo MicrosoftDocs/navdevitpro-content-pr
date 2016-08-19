@@ -1,11 +1,12 @@
 ---
-title: "FunctionType Property (Upgrade Codeunits)"
+title:"FunctionType Property (Upgrade Codeunits)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 7a3eb65f-c670-4a2e-8c89-0df3c29aa37b
 caps.latest.revision: 6
 ---

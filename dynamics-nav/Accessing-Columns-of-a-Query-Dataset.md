@@ -1,14 +1,15 @@
 ---
-title: "Accessing Columns of a Query Dataset"
+title:"Accessing Columns of a Query Dataset"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 261c896a-4b7b-4b46-b874-2c032e7096be
 caps.latest.revision: 9
-manager: terryaus
+manager: edupont
 ---
 # Accessing Columns of a Query Dataset
 If the query is in the reading state, you can retrieve the value of columns in the current active row of the dataset by using the following syntax in C\/AL.  

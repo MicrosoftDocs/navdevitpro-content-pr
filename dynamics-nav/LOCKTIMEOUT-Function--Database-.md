@@ -1,14 +1,15 @@
 ---
-title: "LOCKTIMEOUT Function (Database)"
+title:"LOCKTIMEOUT Function (Database)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: a11adeb8-faf1-41bc-9742-5039c3621335
 caps.latest.revision: 7
-manager: pchapman
+manager: edupont
 ---
 # LOCKTIMEOUT Function (Database)
 Determines whether the lock time\-out setting is set to **On**. You can also use this function to override the default setting.  

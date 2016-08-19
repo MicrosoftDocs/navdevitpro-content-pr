@@ -1,14 +1,15 @@
 ---
-title: "C-AL Simple Statements"
+title:"C-AL Simple Statements"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 471299b6-82cd-41cc-b529-8b60ece530a5
 caps.latest.revision: 5
-manager: pchapman
+manager: edupont
 ---
 # C-AL Simple Statements
 C\/AL simple statements are single\-line statements that are executed sequentially and do not alter the flow of execution of code. The following are the types of simple statements in C\/AL:  

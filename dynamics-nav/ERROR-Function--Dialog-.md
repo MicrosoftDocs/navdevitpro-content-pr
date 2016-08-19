@@ -1,14 +1,15 @@
 ---
-title: "ERROR Function (Dialog)"
+title:"ERROR Function (Dialog)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 651bb14b-8e07-44db-bcfd-7e743604bb0b
 caps.latest.revision: 18
-manager: terryaus
+manager: edupont
 ---
 # ERROR Function (Dialog)
 Displays an error message and ends the execution of C\/AL code.  

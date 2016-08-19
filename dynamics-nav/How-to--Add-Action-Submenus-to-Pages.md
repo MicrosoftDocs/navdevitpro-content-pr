@@ -1,14 +1,15 @@
 ---
-title: "How to: Add Action Submenus to Pages"
+title:"How to: Add Action Submenus to Pages"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: e757a8ef-8299-4229-aa44-059341100e0d
 caps.latest.revision: 19
-manager: terryaus
+manager: edupont
 ---
 # How to: Add Action Submenus to Pages
 Action submenus can be placed on pages in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], under any of the three main action tabs:  

@@ -1,14 +1,15 @@
 ---
-title: "How to: View and Export the Dataset for a Report"
+title:"How to: View and Export the Dataset for a Report"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 88eb2f13-580e-4be7-8094-fead853f99c5
 caps.latest.revision: 14
-manager: terryaus
+manager: edupont
 ---
 # How to: View and Export the Dataset for a Report
 You use the About This Report feature to view the dataset on which the report is based. Before viewing the dataset for the first time, you must activate the About This Report feature. To deactivate the feature, restart the client.  

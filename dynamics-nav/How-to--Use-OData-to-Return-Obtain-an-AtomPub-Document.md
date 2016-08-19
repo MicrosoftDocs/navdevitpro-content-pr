@@ -1,14 +1,15 @@
 ---
-title: "How to: Use OData to Return-Obtain an AtomPub Document"
+title:"How to: Use OData to Return-Obtain an AtomPub Document"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 291c3d3e-1140-48b5-81f6-96a84f3885cb
 caps.latest.revision: 21
-manager: terryaus
+manager: edupont
 ---
 # How to: Use OData to Return-Obtain an AtomPub Document
 When you register an OData web service, you expose an OData service that can be accessed from a uniform resource identifier \(URI\) by using a web browser or any other HTTP client. OData clients can use Atom Publishing Protocol \(AtomPub\) documents to interact with [!INCLUDE[navnow](includes/navnow_md.md)] data. AtomPub is a simple HTTP\-based protocol for creating and updating web resources. It is related to the Atom Syndication Format, which is XML for web feeds. In these procedures, you obtain different kinds of AtomPub documents or feeds from a [!INCLUDE[navnow](includes/navnow_md.md)] OData web service. AtomPub documents and feeds are XML.  

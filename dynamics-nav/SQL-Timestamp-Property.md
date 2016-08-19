@@ -1,11 +1,12 @@
 ---
-title: "SQL Timestamp Property"
+title:"SQL Timestamp Property"
 ms.custom: na
 ms.date: 07/20/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 615d15ba-5d0e-4071-bfa2-c262c1dccbf4
 caps.latest.revision: 3
 manager: edupont

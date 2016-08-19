@@ -1,14 +1,15 @@
 ---
-title: "SETCURRENTKEY Function (Record)"
+title:"SETCURRENTKEY Function (Record)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 216cdb5a-36a1-48dd-90d0-f9f360feccee
 caps.latest.revision: 21
-manager: terryaus
+manager: edupont
 ---
 # SETCURRENTKEY Function (Record)
 Selects a key for a table.  

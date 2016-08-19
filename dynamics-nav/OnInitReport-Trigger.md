@@ -1,11 +1,12 @@
 ---
-title: "OnInitReport Trigger"
+title:"OnInitReport Trigger"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: fe2eeec0-f1fc-43b1-a8bf-318bba692315
 caps.latest.revision: 8
 ---

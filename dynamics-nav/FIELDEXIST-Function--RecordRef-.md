@@ -1,11 +1,12 @@
 ---
-title: "FIELDEXIST Function (RecordRef)"
+title:"FIELDEXIST Function (RecordRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 75e3d634-83fa-4f7f-b506-e18c675dac4f
 caps.latest.revision: 12
 ---

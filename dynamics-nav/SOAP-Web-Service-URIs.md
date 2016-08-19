@@ -1,14 +1,15 @@
 ---
-title: "SOAP Web Service URIs"
+title:"SOAP Web Service URIs"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 4a2d24b4-adef-4d7a-be37-e9d1022eb758
 caps.latest.revision: 8
-manager: terryaus
+manager: edupont
 ---
 # SOAP Web Service URIs
 Web service users can discover published web services by pointing a browser or a tool such as the Web Services Discovery Tool at the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)] and getting a list of available services. For SOAP web services, you typically enter a URI in a browser to view a list of available [!INCLUDE[navnow](includes/navnow_md.md)] web services or to view a schema for a particular web service.  

@@ -1,14 +1,15 @@
 ---
-title: "Tuning and Tracing"
+title:"Tuning and Tracing"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 0d777470-19c0-4bc5-817f-87adc06f3d43
 caps.latest.revision: 9
-manager: terryaus
+manager: edupont
 ---
 # Tuning and Tracing
 As a result of using indexed views, SIFT keys are exposed to SQL Server tracing and tuning tools. For example, the SQL Server profiler can display information about which indexed views are maintained for a specific table. This makes it easy for you to assess the cost of maintaining SIFT keys and allows you to make informed decisions about any adjustments that might be required.  

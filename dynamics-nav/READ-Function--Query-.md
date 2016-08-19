@@ -1,14 +1,15 @@
 ---
-title: "READ Function (Query)"
+title:"READ Function (Query)"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 79cd4af3-5881-47b6-aa3f-a522635d634f
 caps.latest.revision: 15
-manager: terryaus
+manager: edupont
 ---
 # READ Function (Query)
 Reads data from a row in the resulting dataset of a query.  

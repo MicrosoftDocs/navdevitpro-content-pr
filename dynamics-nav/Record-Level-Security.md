@@ -1,14 +1,15 @@
 ---
-title: "Record-Level Security"
+title:"Record-Level Security"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: bb86bc9d-f259-452d-97cf-4f08c169a85b
 caps.latest.revision: 19
-manager: terryaus
+manager: edupont
 ---
 # Record-Level Security
 Record\-level security lets you limit the access that a user has to the data in a table.  

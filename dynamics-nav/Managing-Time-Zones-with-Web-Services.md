@@ -1,14 +1,15 @@
 ---
-title: "Managing Time Zones with Web Services"
+title:"Managing Time Zones with Web Services"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: ebe86441-9836-4b91-9b45-1725d5385b35
 caps.latest.revision: 8
-manager: terryaus
+manager: edupont
 ---
 # Managing Time Zones with Web Services
 [!INCLUDE[nav_server](includes/nav_server_md.md)] provides a **Services Default Time Zone** setting for defining the time zone in which web service calls run. This setting affects both SOAP and OData web services, in addition to NAS Services.  

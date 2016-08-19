@@ -1,14 +1,15 @@
 ---
-title: "Working with Queries in C-AL"
+title:"Working with Queries in C-AL"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: ef0e4aae-c086-41c4-8acf-65a48ad5b2dc
 caps.latest.revision: 10
-manager: terryaus
+manager: edupont
 ---
 # Working with Queries in C-AL
 After you create a query, you can use C\/AL code to run the query and retrieve data from the resulting dataset. There are several functions that you can call on the query to filter the dataset, read rows, access columns, and save the dataset to a file in XML or CSV format.  

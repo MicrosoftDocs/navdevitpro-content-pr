@@ -1,14 +1,15 @@
 ---
-title: "XMLports"
+title:"XMLports"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: aa8d94aa-1cea-4602-8f8f-9fd49ffb54f1
 caps.latest.revision: 26
-manager: terryaus
+manager: edupont
 ---
 # XMLports
 XMLports are used to export or import data between an external source and a [!INCLUDE[navnow](includes/navnow_md.md)] database. Sharing data between different computer systems is seamless when it is shared in XML format. Working with XML files can be tedious so the details of how the XML file is handled are encapsulated in XMLports.  

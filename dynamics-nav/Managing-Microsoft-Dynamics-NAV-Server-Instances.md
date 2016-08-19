@@ -1,11 +1,12 @@
 ---
-title: "Managing Microsoft Dynamics NAV Server Instances"
+title:"Managing Microsoft Dynamics NAV Server Instances"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 490ff91d-fc9e-4c80-bfc7-00e5ae87d24f
 caps.latest.revision: 28
 ---

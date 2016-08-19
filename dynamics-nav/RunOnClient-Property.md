@@ -1,14 +1,15 @@
 ---
-title: "RunOnClient Property"
+title:"RunOnClient Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: c75899f7-b01d-407a-9961-44648116a2c8
 caps.latest.revision: 6
-manager: terryaus
+manager: edupont
 ---
 # RunOnClient Property
 Sets whether a .NET object that is defined by a variable is run on the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_server](includes/nav_server_md.md)].  

@@ -1,14 +1,15 @@
 ---
-title: "CHANGECOMPANY Function (Record)"
+title:"CHANGECOMPANY Function (Record)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: e50d0b45-9556-42a0-9efa-e23c88f1b152
 caps.latest.revision: 9
-manager: pchapman
+manager: edupont
 ---
 # CHANGECOMPANY Function (Record)
 Redirects references to table data from one company to another.  

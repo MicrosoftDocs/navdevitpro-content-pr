@@ -1,14 +1,15 @@
 ---
-title: "Opening a Report in the Microsoft Dynamics NAV Web Client by Using a URL"
+title:"Opening a Report in the Microsoft Dynamics NAV Web Client by Using a URL"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 2c2b3120-69ce-4c40-bf22-8e385fefd64f
 caps.latest.revision: 16
-manager: terryaus
+manager: edupont
 ---
 # Opening a Report in the Microsoft Dynamics NAV Web Client by Using a URL
 You can open a specific report in the [!INCLUDE[nav_web](includes/nav_web_md.md)] by typing the report's URL in the address of a web browser. After you have the URL of a report, you can use it as a hyperlink to the report, which you can include in other sources, such as emails or Word documents, or send to other users.  

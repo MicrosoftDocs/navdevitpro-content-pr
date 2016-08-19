@@ -1,14 +1,15 @@
 ---
-title: "Understanding Query Filters"
+title:"Understanding Query Filters"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: e1f48251-4acd-4a4f-b017-8c6579eae7b8
 caps.latest.revision: 32
-manager: terryaus
+manager: edupont
 ---
 # Understanding Query Filters
 You can specify filters in a query to restrict the data in the resulting dataset. A filter applies conditions on fields in a table that is associated with the query. For a field to be included in the resulting dataset, a field must meet the conditions of the filter.  

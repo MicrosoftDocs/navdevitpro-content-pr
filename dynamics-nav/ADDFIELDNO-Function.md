@@ -1,11 +1,12 @@
 ---
-title: "ADDFIELDNO Function"
+title:"ADDFIELDNO Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 6ba0a312-b6a5-429d-b8b9-c4d1b4830a82
 caps.latest.revision: 4
 manager: edupont

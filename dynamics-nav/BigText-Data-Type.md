@@ -1,14 +1,15 @@
 ---
-title: "BigText Data Type"
+title:"BigText Data Type"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 908a9650-99d8-41a4-a4e0-2eb0f718176a
 caps.latest.revision: 4
-manager: pchapman
+manager: edupont
 ---
 # BigText Data Type
 This complex data type handles large text documents.  

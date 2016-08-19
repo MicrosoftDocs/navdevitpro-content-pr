@@ -1,11 +1,12 @@
 ---
-title: "NUMBER Function (FieldRef)"
+title:"NUMBER Function (FieldRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 4ec37d7b-bcef-4668-8349-9ff1bc00a966
 caps.latest.revision: 10
 ---

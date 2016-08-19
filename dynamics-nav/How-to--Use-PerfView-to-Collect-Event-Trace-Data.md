@@ -1,11 +1,12 @@
 ---
-title: "How to: Use PerfView to Collect Event Trace Data"
+title:"How to: Use PerfView to Collect Event Trace Data"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 0a53dde8-c139-46d0-a13c-56391eed7f95
 caps.latest.revision: 14
 ---

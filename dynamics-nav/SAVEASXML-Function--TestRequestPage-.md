@@ -1,14 +1,15 @@
 ---
-title: "SAVEASXML Function (TestRequestPage)"
+title:"SAVEASXML Function (TestRequestPage)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: f8f9e22e-e496-4c67-8dfd-b13680c28146
 caps.latest.revision: 5
-manager: terryaus
+manager: edupont
 ---
 # SAVEASXML Function (TestRequestPage)
 Saves a report dataset and the labels on a report as two XML \(.xml\) files.  

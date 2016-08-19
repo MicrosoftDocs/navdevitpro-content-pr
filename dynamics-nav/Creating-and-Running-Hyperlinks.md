@@ -1,14 +1,15 @@
 ---
-title: "Creating and Running Hyperlinks"
+title:"Creating and Running Hyperlinks"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 89785500-355e-4971-bd57-0410814d7417
 caps.latest.revision: 41
-manager: terryaus
+manager: edupont
 ---
 # Creating and Running Hyperlinks
 Hyperlinks enable users to send or save quick links to specific pages in [!INCLUDE[navnow](includes/navnow_md.md)]. For example, you can create a hyperlink to a specific list page, such as Customers. You can also use hyperlinks to specify parameters, such as server name, server service, or company. You can enter hyperlinks in the Command Prompt window, in a browser window, or directly in the **Run**window. You can also generate hyperlinks programmatically as part of your [!INCLUDE[navnow](includes/navnow_md.md)] functionality.  

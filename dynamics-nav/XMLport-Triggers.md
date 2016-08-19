@@ -1,14 +1,15 @@
 ---
-title: "XMLport Triggers"
+title:"XMLport Triggers"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: bc6beaeb-07bb-4a5e-b84a-3c48b17f3c54
 caps.latest.revision: 5
-manager: pchapman
+manager: edupont
 ---
 # XMLport Triggers
 The following triggers apply to XMLports.  

@@ -1,11 +1,12 @@
 ---
-title: "How to: Open the Microsoft Dynamics NAV Tablet or Phone Client from a Browser"
+title:"How to: Open the Microsoft Dynamics NAV Tablet or Phone Client from a Browser"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 1675e815-0674-41b5-93b2-2ed8912f1575
 caps.latest.revision: 16
 manager: edupont

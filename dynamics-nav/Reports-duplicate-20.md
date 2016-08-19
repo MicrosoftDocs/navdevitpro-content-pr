@@ -1,14 +1,15 @@
 ---
-title: "Reports-duplicate 20"
+title:"Reports-duplicate 20"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 8c0412c2-3750-4681-b8b0-fa00d2a9fea2
 caps.latest.revision: 36
-manager: terryaus
+manager: edupont
 ---
 # Reports-duplicate 20
 You can use reports to print or display information from a database. You can use a report to structure and summarize information and to print documents, such as invoices. For example, you can create a report that lists all customers and all orders that have been added by each customer. You can also create a report that is automatically filled with the relevant information for an invoice.  

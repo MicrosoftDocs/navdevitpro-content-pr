@@ -1,11 +1,12 @@
 ---
-title: "Exporting and Importing Companies and Other Data"
+title:"Exporting and Importing Companies and Other Data"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 5e56d72d-3b98-4f9c-b8ac-1617ed363d3e
 caps.latest.revision: 13
 ---

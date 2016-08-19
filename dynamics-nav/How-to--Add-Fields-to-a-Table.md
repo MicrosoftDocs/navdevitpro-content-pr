@@ -1,14 +1,15 @@
 ---
-title: "How to: Add Fields to a Table"
+title:"How to: Add Fields to a Table"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: ea8bab6f-06c7-492a-8717-ea981486c8fd
 caps.latest.revision: 8
-manager: pchapman
+manager: edupont
 ---
 # How to: Add Fields to a Table
 Designing a field means assigning a number of characteristics to it. These characteristics depend on what you intend to use the field for. After you have added fields to a table in Table Designer, you must save the table before you can add any records. After you have saved a table, it appears in the list of tables in Object Designer.  

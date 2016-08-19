@@ -1,14 +1,15 @@
 ---
-title: "TestPage Functions"
+title:"TestPage Functions"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: f6497b07-5e15-4c52-b460-fd80f9bef502
 caps.latest.revision: 3
-manager: terryaus
+manager: edupont
 ---
 # TestPage Functions
 You can use the TestPage functions for the following purposes.  

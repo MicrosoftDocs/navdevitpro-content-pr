@@ -1,14 +1,15 @@
 ---
-title: "File Virtual Table"
+title:"File Virtual Table"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 80425fe1-fd65-45db-83fc-5801bf9e7dec
 caps.latest.revision: 11
-manager: pchapman
+manager: edupont
 ---
 # File Virtual Table
 The **File** virtual table gives you an overview of the files in a directory on your disk. The **File** virtual table contains the following fields.  

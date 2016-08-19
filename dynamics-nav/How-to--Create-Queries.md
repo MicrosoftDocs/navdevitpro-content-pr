@@ -1,14 +1,15 @@
 ---
-title: "How to: Create Queries"
+title:"How to: Create Queries"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: c9c64bd7-d950-4a5d-bfd3-f25f97adb5fb
 caps.latest.revision: 21
-manager: terryaus
+manager: edupont
 ---
 # How to: Create Queries
 A query describes a dataset of [!INCLUDE[navnow](includes/navnow_md.md)] data. Queries retrieve records from one or more tables and combine the records into rows and columns in a single dataset. You create queries in the development environment using Query Designer. To create a query, you define *data items* and *columns*. A data item specifies the table to retrieve records from. A column specifies a field of the table to include in the resulting dataset of a query. After you have added the data items and columns, you create links between the data items. A data item link determines which records to include in the dataset based on a common field between two data items. For more information, see [Understanding Data Item Links](Understanding-Data-Item-Links.md).  

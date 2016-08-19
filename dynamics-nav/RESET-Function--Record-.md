@@ -1,14 +1,15 @@
 ---
-title: "RESET Function (Record)"
+title:"RESET Function (Record)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 19ad65e2-f7df-452f-8565-88ca537625da
 caps.latest.revision: 11
-manager: pchapman
+manager: edupont
 ---
 # RESET Function (Record)
 Removes all filters, including any special filters set by **MARKEDONLY**, and changes the current key to the primary key. Also removes any marks on the record and clears any C\/AL variables on the record.  

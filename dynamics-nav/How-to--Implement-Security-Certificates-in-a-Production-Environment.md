@@ -1,14 +1,15 @@
 ---
-title: "How to: Implement Security Certificates in a Production Environment"
+title:"How to: Implement Security Certificates in a Production Environment"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 2a8f08ba-1555-4656-be65-7ce9dc9e5311
 caps.latest.revision: 23
-manager: terryaus
+manager: edupont
 ---
 # How to: Implement Security Certificates in a Production Environment
 This topic describes how to implement security certificates on the [!INCLUDE[nav_server](includes/nav_server_md.md)], [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], and clients after you have obtained a service certificate and a root certification authority \(CA\) from a trusted provider.  

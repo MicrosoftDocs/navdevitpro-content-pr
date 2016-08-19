@@ -1,14 +1,15 @@
 ---
-title: "InStream.READTEXT Function"
+title:"InStream.READTEXT Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 50e1d666-6a94-458e-bb76-298c73559c37
 caps.latest.revision: 10
-manager: terryaus
+manager: edupont
 ---
 # InStream.READTEXT Function
 Reads text from an InStream object.  

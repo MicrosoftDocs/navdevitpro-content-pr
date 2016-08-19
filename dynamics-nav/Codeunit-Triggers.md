@@ -1,11 +1,12 @@
 ---
-title: "Codeunit Triggers"
+title:"Codeunit Triggers"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 4f9e9ada-b39f-4f84-a535-21473b847495
 caps.latest.revision: 8
 ---

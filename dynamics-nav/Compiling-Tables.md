@@ -1,11 +1,12 @@
 ---
-title: "Compiling Tables"
+title:"Compiling Tables"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 238f8e66-249f-479b-8e8a-f07454318308
 caps.latest.revision: 4
 manager: edupont

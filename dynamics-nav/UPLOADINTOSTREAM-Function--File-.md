@@ -1,14 +1,15 @@
 ---
-title: "UPLOADINTOSTREAM Function (File)"
+title:"UPLOADINTOSTREAM Function (File)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 3c7fcef9-b1be-4e16-8872-8ae74750da42
 caps.latest.revision: 24
-manager: terryaus
+manager: edupont
 ---
 # UPLOADINTOSTREAM Function (File)
 Sends a file from the client computer to the corresponding [!INCLUDE[nav_server](includes/nav_server_md.md)]. The client computer is the computer that is running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or the computer that is running a browser that accesses the [!INCLUDE[nav_web](includes/nav_web_md.md)].  

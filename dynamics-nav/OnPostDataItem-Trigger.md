@@ -1,14 +1,15 @@
 ---
-title: "OnPostDataItem Trigger"
+title:"OnPostDataItem Trigger"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 6f6f0242-f97d-4062-bf00-4ba88ca1ebb2
 caps.latest.revision: 8
-manager: terryaus
+manager: edupont
 ---
 # OnPostDataItem Trigger
 Executed after a data item is processed.  

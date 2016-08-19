@@ -1,14 +1,15 @@
 ---
-title: "Walkthrough: Testing Purchase Invoice Discounts"
+title:"Walkthrough: Testing Purchase Invoice Discounts"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 7e8b10a5-5769-437c-ac27-a3d5400f3199
 caps.latest.revision: 20
-manager: terryaus
+manager: edupont
 ---
 # Walkthrough: Testing Purchase Invoice Discounts
 Before you release a customized [!INCLUDE[navnowlong](includes/navnowlong_md.md)] application to a production environment, you must test the application. This walkthrough demonstrates how to use the test codeunits and test libraries to test an application.  

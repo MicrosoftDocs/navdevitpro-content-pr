@@ -1,14 +1,15 @@
 ---
-title: "DELETELINKS Function (RecordRef)"
+title:"DELETELINKS Function (RecordRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: 8caf7298-009d-47b6-ae43-3268a47f1ce2
 caps.latest.revision: 10
-manager: terryaus
+manager: edupont
 ---
 # DELETELINKS Function (RecordRef)
 Deletes all of the links that have been added to a record.  

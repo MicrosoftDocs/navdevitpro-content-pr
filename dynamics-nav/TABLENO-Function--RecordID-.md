@@ -1,14 +1,15 @@
 ---
-title: "TABLENO Function (RecordID)"
+title:"TABLENO Function (RecordID)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: e4b07b76-3a0b-4483-acb7-71d291a20ac8
 caps.latest.revision: 15
-manager: terryaus
+manager: edupont
 ---
 # TABLENO Function (RecordID)
 Gets the table number of the table that is identified by RecordID. This function returns an error if the record is blank.  

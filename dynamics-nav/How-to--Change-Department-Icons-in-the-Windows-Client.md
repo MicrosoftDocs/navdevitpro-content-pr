@@ -1,14 +1,15 @@
 ---
-title: "How to: Change Department Icons in the Windows Client"
+title:"How to: Change Department Icons in the Windows Client"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms-prod:"dynamics-nav-2017"
 ms.assetid: bfd8ea82-13d1-48fb-8b94-52bf72f6d9f1
 caps.latest.revision: 18
-manager: terryaus
+manager: edupont
 ---
 # How to: Change Department Icons in the Windows Client
 To change an icon that is displayed with a department on the Departments page of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], you use the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to configure the MenuSuite object that is used by the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. Each button in the MenuSuite corresponds to a department in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and each button includes a [Bitmap Property](Bitmap-Property.md) that you use to specify its icon. To display an icon with a department in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], you enter a bitmap ID. The bitmap ID corresponds to an icon that is displayed with the department in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
