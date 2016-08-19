@@ -19,7 +19,7 @@ If you apply a filter to the data in a report, then we recommend that you create
   
 ### To hide non\-filtered headers  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **Report**, select the report that you want to modify, and then choose **Design**.  
   
@@ -66,4 +66,4 @@ If you apply a filter to the data in a report, then we recommend that you create
 16. Save and compile the report. For more information, see [How to: Integrate Report Dataset Designer and Visual Studio Report Designer](../Topic/How%20to:%20Integrate%20Report%20Dataset%20Designer%20and%20Visual%20Studio%20Report%20Designer.md).  
   
 ## See Also  
- [Designing Reports](../dynamics-nav/Designing-Reports.md)
+ [Designing Reports](Designing-Reports.md)

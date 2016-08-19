@@ -11,22 +11,22 @@ caps.latest.revision: 19
 manager: terryaus
 ---
 # How to: Add Translated Strings By Importing and Exporting Multilanguage Files
-To add string translations for UI elements in a standard country\/region\-specific version of [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], you install a language module so that end users can view the UI elements in a different language. If you have customized objects in the application, then you must also add translations for those objects. You can translate strings in the following ways:  
+To add string translations for UI elements in a standard country\/region\-specific version of [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you install a language module so that end users can view the UI elements in a different language. If you have customized objects in the application, then you must also add translations for those objects. You can translate strings in the following ways:  
   
--   By importing and exporting text files that contain translated strings for multiple objects in the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)].  
+-   By importing and exporting text files that contain translated strings for multiple objects in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
   
 -   By using the Multilanguage Editor and editing the CaptionML property of individual objects.  
   
--   By running [!INCLUDE[wps_2](../dynamics-nav/includes/wps_2_md.md)] cmdlets to update CaptionML properties.  
+-   By running [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets to update CaptionML properties.  
   
- This topic describes how to import and export multilanguage files. For more information about how to use the Multilanguage Editor, see [How to: Add Translated Strings By Using the Multilanguage Editor](../Topic/How%20to:%20Add%20Translated%20Strings%20By%20Using%20the%20Multilanguage%20Editor.md). For more information about how to run [!INCLUDE[wps_2](../dynamics-nav/includes/wps_2_md.md)] cmdlets to export and import languages, see [Working with Application Objects as Text Files](../dynamics-nav/Working-with-Application-Objects-as-Text-Files.md).  
+ This topic describes how to import and export multilanguage files. For more information about how to use the Multilanguage Editor, see [How to: Add Translated Strings By Using the Multilanguage Editor](../Topic/How%20to:%20Add%20Translated%20Strings%20By%20Using%20the%20Multilanguage%20Editor.md). For more information about how to run [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets to export and import languages, see [Working with Application Objects as Text Files](Working-with-Application-Objects-as-Text-Files.md).  
   
 ## Exporting Multilanguage Files  
  To translate strings for multiple objects, you must first export all text strings.  
   
 #### To export a multilanguage file  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], in Object Designer, select the objects that you want to export strings for.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], in Object Designer, select the objects that you want to export strings for.  
   
 2.  On the **Tools** menu, point to **Translate**, and then choose **Export**.  
   
@@ -53,14 +53,14 @@ To add string translations for UI elements in a standard country\/region\-specif
   
      The following illustration uses \#\#\#\# to represent the language code of the language to which you translate the string.  
   
-     ![Translated Strings file in Excel](../dynamics-nav/media/NAV_PLAT_TranslatingStrings.png "NAV\_PLAT\_TranslatingStrings")  
+     ![Translated Strings file in Excel](media/NAV_PLAT_TranslatingStrings.png "NAV\_PLAT\_TranslatingStrings")  
   
 ## Importing Multilanguage Files  
  After you add translated strings to the multilanguage file, you must import the file into the application.  
   
 #### To import a multilanguage file  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], in Object Designer, select the objects that you want to import strings for.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], in Object Designer, select the objects that you want to import strings for.  
   
      If you do not know which objects are included in the multilanguage file, select all objects.  
   
@@ -71,5 +71,5 @@ To add string translations for UI elements in a standard country\/region\-specif
 4.  Select the file, and then choose **Open**.  
   
 ## See Also  
- [Multilanguage Development](../dynamics-nav/Multilanguage-Development.md)   
- [Working with Application Objects as Text Files](../dynamics-nav/Working-with-Application-Objects-as-Text-Files.md)
+ [Multilanguage Development](Multilanguage-Development.md)   
+ [Working with Application Objects as Text Files](Working-with-Application-Objects-as-Text-Files.md)

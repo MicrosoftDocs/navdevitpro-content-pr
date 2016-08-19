@@ -40,12 +40,12 @@ MESSAGE(FORMAT(MyTime));
  **3:00:00 AM**  
   
 ## SQL Server  
- Microsoft SQL Server stores information about both date and time in columns of the DATETIME type. [!INCLUDE[nav_current_short](../dynamics-nav/includes/nav_current_short_md.md)] uses only the time part and inserts a constant value for the date: 01\-01\-1754.  
+ Microsoft SQL Server stores information about both date and time in columns of the DATETIME type. [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] uses only the time part and inserts a constant value for the date: 01\-01\-1754.  
   
- The [!INCLUDE[nav_current_short](../dynamics-nav/includes/nav_current_short_md.md)] undefined time is represented by the same value as an undefined date. The undefined date is represented by the earliest valid DATETIME in SQL Server, which is 01\-01\-1753 00:00:00:000.  
+ The [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] undefined time is represented by the same value as an undefined date. The undefined date is represented by the earliest valid DATETIME in SQL Server, which is 01\-01\-1753 00:00:00:000.  
   
 ## See Also  
- [TIME Function \(Time\)](../dynamics-nav/TIME-Function--Time-.md)   
- [VARIANT2TIME Function](../dynamics-nav/VARIANT2TIME-Function.md)   
- [CREATEDATETIME Function \(DateTime\)](../dynamics-nav/CREATEDATETIME-Function--DateTime-.md)   
- [DT2TIME Function \(DateTime\)](../dynamics-nav/DT2TIME-Function--DateTime-.md)
+ [TIME Function \(Time\)](TIME-Function--Time-.md)   
+ [VARIANT2TIME Function](VARIANT2TIME-Function.md)   
+ [CREATEDATETIME Function \(DateTime\)](CREATEDATETIME-Function--DateTime-.md)   
+ [DT2TIME Function \(DateTime\)](DT2TIME-Function--DateTime-.md)

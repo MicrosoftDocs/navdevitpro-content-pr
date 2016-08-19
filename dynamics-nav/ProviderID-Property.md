@@ -21,4 +21,4 @@ Sets the ProviderID for a FactBox.
  This property enables you to create a link from a Repeater or any other type of control to a Factbox. It could also be used to link two FactBoxes. For example, the Sales Order page \(42\), uses this property to update the Sales Line FactBox by creating a ProviderID link to the SalesLines FastTab.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

@@ -11,7 +11,7 @@ caps.latest.revision: 13
 manager: pchapman
 ---
 # SERIALNUMBER Function (Database)
-Gets a string that contains the serial number of the license file for your [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] system.  
+Gets a string that contains the serial number of the license file for your [!INCLUDE[navnow](includes/navnow_md.md)] system.  
   
 ## Syntax  
   
@@ -48,4 +48,4 @@ MESSAGE(Text000, SN);
  **W1\-ZA\-002\-6R75A\-7**  
   
 > [!NOTE]  
->  The serial number depends on your licensed version of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)]. The serial number shown here is an example.
+>  The serial number depends on your licensed version of [!INCLUDE[navnow](includes/navnow_md.md)]. The serial number shown here is an example.

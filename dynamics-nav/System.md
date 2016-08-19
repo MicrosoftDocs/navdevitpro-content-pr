@@ -13,18 +13,18 @@ manager: pchapman
 # System
 This section contains the following topics:  
   
--   [Array Functions](../dynamics-nav/Array-Functions.md)  
+-   [Array Functions](Array-Functions.md)  
   
--   [Error Handling](../dynamics-nav/Error-Handling.md)  
+-   [Error Handling](Error-Handling.md)  
   
--   [Language Functions](../dynamics-nav/Language-Functions.md)  
+-   [Language Functions](Language-Functions.md)  
   
--   [Operating System Functions](../dynamics-nav/Operating-System-Functions.md)  
+-   [Operating System Functions](Operating-System-Functions.md)  
   
--   [Variable Functions](../dynamics-nav/Variable-Functions.md)  
+-   [Variable Functions](Variable-Functions.md)  
   
--   [Encryption Functions](../dynamics-nav/Encryption-Functions.md)  
+-   [Encryption Functions](Encryption-Functions.md)  
   
 ## See Also  
- [C\-AL Functions](../dynamics-nav/C-AL-Functions.md)   
- [Technical Reference](../dynamics-nav/Technical-Reference.md)
+ [C\-AL Functions](C-AL-Functions.md)   
+ [Technical Reference](Technical-Reference.md)

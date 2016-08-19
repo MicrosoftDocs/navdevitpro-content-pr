@@ -13,8 +13,8 @@ manager: pchapman
 # OutStream
 This section contains the following topics:  
   
--   [COPYSTREAM Function](../dynamics-nav/COPYSTREAM-Function.md)  
+-   [COPYSTREAM Function](COPYSTREAM-Function.md)  
   
--   [OutStream.WRITE Function](../dynamics-nav/OutStream.WRITE-Function.md)  
+-   [OutStream.WRITE Function](OutStream.WRITE-Function.md)  
   
--   [OutStream.WRITETEXT Function](../dynamics-nav/OutStream.WRITETEXT-Function.md)
+-   [OutStream.WRITETEXT Function](OutStream.WRITETEXT-Function.md)

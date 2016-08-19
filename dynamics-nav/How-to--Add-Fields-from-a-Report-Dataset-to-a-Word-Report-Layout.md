@@ -11,7 +11,7 @@ caps.latest.revision: 5
 manager: edupont
 ---
 # How to: Add Fields from a Report Dataset to a Word Report Layout
-A report dataset can consist of fields that display labels, data, and images. This topic describes procedure for adding fields of a report dataset to an existing Word layout of a report. You add fields by using the Word custom XML part for the report and adding content controls that map to the fields of the report dataset. For more information about custom XML parts, see [Custom XML Part Overview for Word Report Layouts](../dynamics-nav/Custom-XML-Part-Overview-for-Word-Report-Layouts.md).  
+A report dataset can consist of fields that display labels, data, and images. This topic describes procedure for adding fields of a report dataset to an existing Word layout of a report. You add fields by using the Word custom XML part for the report and adding content controls that map to the fields of the report dataset. For more information about custom XML parts, see [Custom XML Part Overview for Word Report Layouts](Custom-XML-Part-Overview-for-Word-Report-Layouts.md).  
   
 ##  <a name="OpenXMLPart"></a> To display the Custom XML part for the Report in Word  
   
@@ -23,11 +23,11 @@ A report dataset can consist of fields that display labels, data, and images. Th
   
 3.  On the **Developer** tab, choose **XML Mapping Pane**.  
   
-4.  In the **XML Mapping** pane, in **the Custom XML Part** list, choose the XML part for [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] report. The name of the XML part has the following format:  
+4.  In the **XML Mapping** pane, in **the Custom XML Part** list, choose the XML part for [!INCLUDE[navnow](includes/navnow_md.md)] report. The name of the XML part has the following format:  
   
      urn:microsoft\-dynamics\-nav\/reports\/*report\_name*\/*ID*  
   
-     *report\_name* is the name that is assigned to the report as specified by the report's [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md).  
+     *report\_name* is the name that is assigned to the report as specified by the report's [Name Property\-duplicate](Name-Property-duplicate.md).  
   
      *ID* is the identification number of the report.  
   
@@ -71,7 +71,7 @@ A report dataset can consist of fields that display labels, data, and images. Th
  Images align in the top\-left corner of the content control and resize automatically in proportion to fit the boundary of the content control.  
   
 > [!IMPORTANT]  
->  You can only add images that have a format \(such as .bmp, .jpeg, and .png file types\), which that is supported by Word. If you add an image that has a format that is not supported by Word, you will get an error when you run the report from the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] client.  
+>  You can only add images that have a format \(such as .bmp, .jpeg, and .png file types\), which that is supported by Word. If you add an image that has a format that is not supported by Word, you will get an error when you run the report from the [!INCLUDE[navnow](includes/navnow_md.md)] client.  
   
 #### To add an image  
   
@@ -82,6 +82,6 @@ A report dataset can consist of fields that display labels, data, and images. Th
 3.  To increase or decrease the image size, drag a sizing handle away from or towards the center of the content control.  
   
 ## See Also  
- [Designing Word Report Layouts](../dynamics-nav/Designing-Word-Report-Layouts.md)   
+ [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)   
  [How to: Modify a Word Report Layout](../Topic/How%20to:%20Modify%20a%20Word%20Report%20Layout.md)   
  [How to: Create a Word Report Layout for a Report](../Topic/How%20to:%20Create%20a%20Word%20Report%20Layout%20for%20a%20Report.md)

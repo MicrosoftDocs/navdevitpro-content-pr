@@ -10,7 +10,7 @@ ms.assetid: 317e9a6d-581d-453a-b69b-70eba225df75
 caps.latest.revision: 30
 ---
 # How to: Use SystemService to Find Companies
-You can use the SystemService service in a SOAP web service application to retrieve a list of companies available in a specific database. A company name is typically part of the URI when you access a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] web service, and the system service lets you retrieve names of available companies. If you do not specify a company name in a URI, then the default company is used.  
+You can use the SystemService service in a SOAP web service application to retrieve a list of companies available in a specific database. A company name is typically part of the URI when you access a [!INCLUDE[navnow](includes/navnow_md.md)] web service, and the system service lets you retrieve names of available companies. If you do not specify a company name in a URI, then the default company is used.  
   
  In this procedure, you use the SystemService service to retrieve and print a list of companies. You must use Visual Studio 2012 or Visual Studio 2010.  
   
@@ -81,4 +81,4 @@ You can use the SystemService service in a SOAP web service application to retri
  [Walkthrough: Creating a Web Service using Extension Codeunits \(SOAP\)](../Topic/Walkthrough:%20Creating%20a%20Web%20Service%20using%20Extension%20Codeunits%20\(SOAP\).md)   
  [Walkthrough: Creating and Using a Codeunit Web Service \(SOAP\)](../Topic/Walkthrough:%20Creating%20and%20Using%20a%20Codeunit%20Web%20Service%20\(SOAP\).md)   
  [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](../Topic/Walkthrough:%20Registering%20and%20Using%20a%20Page%20Web%20Service%20\(SOAP\).md)   
- [SOAP Web Services](../dynamics-nav/SOAP-Web-Services.md)
+ [SOAP Web Services](SOAP-Web-Services.md)

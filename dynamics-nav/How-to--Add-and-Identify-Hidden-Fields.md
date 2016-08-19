@@ -15,7 +15,7 @@ If you have hidden fields on a report, we recommend that you mark them so that t
   
 ### To add and identify a hidden field  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In **Object Designer**, choose **Report**, select the report to which you want to add a hidden field, and then choose the **Design** button.  
   
@@ -39,5 +39,5 @@ If you have hidden fields on a report, we recommend that you mark them so that t
 9. On the **File** menu, choose **Save Report.rdlc**.  
   
 ## See Also  
- [Understanding Headers and Footers](../dynamics-nav/Understanding-Headers-and-Footers.md)   
- [Designing Reports](../dynamics-nav/Designing-Reports.md)
+ [Understanding Headers and Footers](Understanding-Headers-and-Footers.md)   
+ [Designing Reports](Designing-Reports.md)

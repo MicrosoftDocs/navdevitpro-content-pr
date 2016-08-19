@@ -11,7 +11,7 @@ caps.latest.revision: 14
 manager: terryaus
 ---
 # OnQueryClosePage Trigger
-Executed as a page closes and before the [OnClosePage Trigger](../dynamics-nav/OnClosePage-Trigger.md) executes.  
+Executed as a page closes and before the [OnClosePage Trigger](OnClosePage-Trigger.md) executes.  
   
 ## Syntax  
   
@@ -36,10 +36,10 @@ Executed as a page closes and before the [OnClosePage Trigger](../dynamics-nav/O
 -   Pages  
   
 > [!IMPORTANT]  
->  The OnQueryClosePage trigger is not fully supported by the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]. When the page displays in the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], the trigger is only invoked when the page is hosted in a modal popup window \(MPO\).  
+>  The OnQueryClosePage trigger is not fully supported by the [!INCLUDE[nav_web](includes/nav_web_md.md)]. When the page displays in the [!INCLUDE[nav_web](includes/nav_web_md.md)], the trigger is only invoked when the page is hosted in a modal popup window \(MPO\).  
   
 ## Remarks  
- If the page that is closing and all its child pages return **true** in the OnQueryClosePage trigger, then the [OnClosePage Trigger](../dynamics-nav/OnClosePage-Trigger.md) is called for all child pages and then for the parent page.  
+ If the page that is closing and all its child pages return **true** in the OnQueryClosePage trigger, then the [OnClosePage Trigger](OnClosePage-Trigger.md) is called for all child pages and then for the parent page.  
   
  If an error occurs in the OnQueryClosePage trigger or it returns **false**, then the page is not closed.  
   

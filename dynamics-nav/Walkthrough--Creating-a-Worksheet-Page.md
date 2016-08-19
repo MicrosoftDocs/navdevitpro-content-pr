@@ -11,7 +11,7 @@ caps.latest.revision: 51
 manager: terryaus
 ---
 # Walkthrough: Creating a Worksheet Page
-In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], you can use a worksheet page type to create two types of pages:  
+In [!INCLUDE[navnow](includes/navnow_md.md)], you can use a worksheet page type to create two types of pages:  
   
 -   Worksheet pages – Used to present data in a list and offer a choice of actions to the user. For example, page 5841, Standard Cost worksheet, in Object Designer is a worksheet page.  
   
@@ -19,7 +19,7 @@ In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], you can use a work
   
      The following illustration shows an Item Journal page.  
   
-     ![](../dynamics-nav/media/NAV_ItemJournalPageNew.jpg "NAV\_ItemJournalPageNew")  
+     ![](media/NAV_ItemJournalPageNew.jpg "NAV\_ItemJournalPageNew")  
   
  Worksheet pages always open in edit mode and can display lists of data in a grid control and in lines. Lines can be filled in by a user or by running a batch job. You can add other controls such as a filter or FactBox to a worksheet page but you cannot add a chart pane. As part of user personalization options, these controls can be added or removed by the user. Actions can be added to the navigation of a worksheet page, and may be promoted by the user to the ribbon.  
   
@@ -45,9 +45,9 @@ In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], you can use a work
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] installed with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installed with a developer license.  
   
--   The [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+-   The [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 ## Story  
  Simon is a partner working for CRONUS International Ltd. Susan, the order processor asks Simon to create an Item Journal worksheet page for her, which she can use to keep her item inventory up to date. Susan often uses the posting action on the Item Journal page to adjust her inventory in relation to purchases and sales.  
@@ -59,7 +59,7 @@ In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], you can use a work
   
 #### To create a worksheet page  
   
-1.  In [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **Page**, and then choose **New**. The **New Page** window opens.  
   
@@ -210,16 +210,16 @@ In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], you can use a work
   
 18. The following illustration shows the indentation of elements on the worksheet page after adding FactBoxes.  
   
-     ![](../dynamics-nav/media/NAV_FixedLayoutElementsNew.png "NAV\_FixedLayoutElementsNew")  
+     ![](media/NAV_FixedLayoutElementsNew.png "NAV\_FixedLayoutElementsNew")  
   
 ## Running the Page  
- You will now test your new worksheet page in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+ You will now test your new worksheet page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
 #### To run the page  
   
 1.  In Object Designer, select the page Susan’s Item Journal, page 50007, and then choose **Run**.  
   
-     The [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] opens and displays the new worksheet page. Notice that no FactBoxes are displayed.  
+     The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] opens and displays the new worksheet page. Notice that no FactBoxes are displayed.  
   
 2.  From the main menu, select **Customize**, then choose **Choose FactBoxes**. The **Customize Action Tab** window opens.  
   
@@ -228,14 +228,14 @@ In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], you can use a work
 4.  Use the same procedure to add the **RecordLinks** and **Notes** FactBoxes. Choose the **OK** button, and then run the page again. Notice that the hidden FactBoxes you added are now displayed on the page.  
   
 ## Next Steps  
- Simon has now created a basic worksheet page. He must remember to add the variables, constants, and functions necessary to make the worksheet page function correctly. He knows that he add variables, constants and functions in the C\/AL Globals or C\/AL Locals window. For information about C\/AL Globals window, see [\($ S\_10204 C\-AL Globals $\)](../dynamics-nav/-$-S_10204-C-AL-Globals-$-.md). For information about C\/AL functions, see [C\-AL Functions](../dynamics-nav/C-AL-Functions.md).  
+ Simon has now created a basic worksheet page. He must remember to add the variables, constants, and functions necessary to make the worksheet page function correctly. He knows that he add variables, constants and functions in the C\/AL Globals or C\/AL Locals window. For information about C\/AL Globals window, see [\($ S\_10204 C\-AL Globals $\)](-$-S_10204-C-AL-Globals-$-.md). For information about C\/AL functions, see [C\-AL Functions](C-AL-Functions.md).  
   
- For more information about adding variables, constants, and functions, see [Codeunits](../dynamics-nav/Codeunits.md).  
+ For more information about adding variables, constants, and functions, see [Codeunits](Codeunits.md).  
   
 ## See Also  
  [How to: Add Actions to a Page](../Topic/How%20to:%20Add%20Actions%20to%20a%20Page.md)   
  [How to: Promote Actions on Pages](../Topic/How%20to:%20Promote%20Actions%20on%20Pages.md)   
- [Page Designer Troubleshooting](../dynamics-nav/Page-Designer-Troubleshooting.md)   
+ [Page Designer Troubleshooting](Page-Designer-Troubleshooting.md)   
  [How to: Create a Page](../Topic/How%20to:%20Create%20a%20Page.md)   
- [Touring the RoleTailored Client Pages](../dynamics-nav/Touring-the-RoleTailored-Client-Pages.md)   
+ [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
  [How to: Run a Page](../Topic/How%20to:%20Run%20a%20Page.md)

@@ -35,7 +35,7 @@ Guid := Record.MediaSet.MEDIAID
  The GUID of MediaSet of the record.  
   
 ## Remarks  
- When a media file is imported into the record of a table by the [IMPORTFILE Function \(MediaSet\)](../dynamics-nav/IMPORTFILE-Function--MediaSet-.md), media is assigned to a MediaSet GUID as defined system table **2000000183 Tenant Media Set** of the application database. You can use this function to retrieve the MediaSet GUID. The media file is also assigned a GUID. To get the media file's GUID, you use the [MEDIAID Function \(Media\)](../dynamics-nav/MEDIAID-Function--Media-.md).  
+ When a media file is imported into the record of a table by the [IMPORTFILE Function \(MediaSet\)](IMPORTFILE-Function--MediaSet-.md), media is assigned to a MediaSet GUID as defined system table **2000000183 Tenant Media Set** of the application database. You can use this function to retrieve the MediaSet GUID. The media file is also assigned a GUID. To get the media file's GUID, you use the [MEDIAID Function \(Media\)](MEDIAID-Function--Media-.md).  
   
 ## Example  
  This example is gets the GUID of the MediaSet that is used on item No. 1000 in the **Item** table. The field in the **Item** table that is used for the MediaSet data type is **MediaSetField**.  
@@ -60,6 +60,6 @@ item.GET('1000');
 ```  
   
 ## See Also  
- [IMPORTFILE Function \(MediaSet\)](../dynamics-nav/IMPORTFILE-Function--MediaSet-.md)   
- [IMPORTSTREAM Function \(MediaSet\)](../dynamics-nav/IMPORTSTREAM-Function--MediaSet-.md)   
- [MediaSet Data Type](../dynamics-nav/MediaSet-Data-Type.md)
+ [IMPORTFILE Function \(MediaSet\)](IMPORTFILE-Function--MediaSet-.md)   
+ [IMPORTSTREAM Function \(MediaSet\)](IMPORTSTREAM-Function--MediaSet-.md)   
+ [MediaSet Data Type](MediaSet-Data-Type.md)

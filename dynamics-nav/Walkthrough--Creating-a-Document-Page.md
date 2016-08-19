@@ -11,7 +11,7 @@ caps.latest.revision: 45
 manager: terryaus
 ---
 # Walkthrough: Creating a Document Page
-In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], a document page consists of two separate pages, with one page nested inside the other page.  
+In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], a document page consists of two separate pages, with one page nested inside the other page.  
   
  You can create a document page if you have two tables that are linked. For example, page 42, **Sales Order**, has two source tables: **Sales Header** and **Sales Lines**. These two tables are linked in a one\-to\-many relationship and are source tables for the **Sales Order** page.  
   
@@ -19,7 +19,7 @@ In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], a document
   
  The following illustration shows a document page.  
   
- ![Sales order](../dynamics-nav/media/NAV_SalesOrderPage.jpg "NAV\_SalesOrderPage")  
+ ![Sales order](media/NAV_SalesOrderPage.jpg "NAV\_SalesOrderPage")  
   
  In this walkthrough, you will create a sales order document page. This page will contain useful secondary information, such as customer statistics, in FactBoxes to the right of the main content area. The FactBox is updated every time that you select a line.  
   
@@ -39,22 +39,22 @@ In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], a document
 -   Running the page.  
   
 ## Story  
- Simon is a partner working for [!INCLUDE[demoname](../dynamics-nav/includes/demoname_md.md)]. Susan, the order processor, asks Simon to create a sales order page that can display each of her orders and any associated lines. This page is essential to Susan’s daily work, because she uses sales orders to create and track all her customer orders from the creation of the first quote to when the order is shipped. Simon knows that this page must be based on two related source tables and that he must create a page by using the document page type.  
+ Simon is a partner working for [!INCLUDE[demoname](includes/demoname_md.md)]. Susan, the order processor, asks Simon to create a sales order page that can display each of her orders and any associated lines. This page is essential to Susan’s daily work, because she uses sales orders to create and track all her customer orders from the creation of the first quote to when the order is shipped. Simon knows that this page must be based on two related source tables and that he must create a page by using the document page type.  
   
 ### Prerequisites  
  The following prerequisites are required for this walkthrough:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] installed with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installed with a developer license.  
   
 ## Creating a Document Page  
  First, Simon creates a new document page that is based on table 36, **Sales Header**.  
   
 > [!NOTE]  
->  In this walkthrough, you learn about the properties and controls of a document page, and you will create document page from a blank page. If you are using [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], Object Designer includes a wizard that you can use to create a document page that will set up many properties and controls for you. For more information about the wizard, see [How to: Create a Page](../Topic/How%20to:%20Create%20a%20Page.md).  
+>  In this walkthrough, you learn about the properties and controls of a document page, and you will create document page from a blank page. If you are using [!INCLUDE[navnowlong](includes/navnowlong_md.md)], Object Designer includes a wizard that you can use to create a document page that will set up many properties and controls for you. For more information about the wizard, see [How to: Create a Page](../Topic/How%20to:%20Create%20a%20Page.md).  
   
 #### To create a document page  
   
-1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In **Object Designer**, choose **Page**, and then choose the **New** button. The **New Page** dialog box appears.  
   
@@ -79,7 +79,7 @@ In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], a document
 11. On the **File** menu, choose **Save**. Name your new page **Susan's Sales Order Page**. Set the **ID** field to **50006** and choose the **OK** button.  
   
 ## Adding a Control to Display Fields from the Sales Header Table  
- Simon now wants to add fields to his document page. He creates a group named **General** and adds fields from the **Sales Header** table. He knows that the main content area on a document page displays fields as FastTabs in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+ Simon now wants to add fields to his document page. He creates a group named **General** and adds fields from the **Sales Header** table. He knows that the main content area on a document page displays fields as FastTabs in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
 #### To add a control to display fields from the Sales Header table  
   
@@ -106,7 +106,7 @@ In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], a document
 4.  Choose the **OK** button, and then choose **Yes** in the dialog box to add the fields to your page.  
   
     > [!NOTE]  
-    >  If the **OK** and **Cancel** buttons are unavailable, see [Page Designer Troubleshooting](../dynamics-nav/Page-Designer-Troubleshooting.md) for more information.  
+    >  If the **OK** and **Cancel** buttons are unavailable, see [Page Designer Troubleshooting](Page-Designer-Troubleshooting.md) for more information.  
   
 5.  On the **File** menu, choose **Save**.  
   
@@ -179,12 +179,12 @@ In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], a document
   
      The illustration shows a Page Designer.  
   
-     ![](../dynamics-nav/media/NAV_DocumentPageElements.png "NAV\_DocumentPageElements")  
+     ![](media/NAV_DocumentPageElements.png "NAV\_DocumentPageElements")  
   
 11. Close Page Designer, and then choose **Yes** to save your page.  
   
 ## Running the Page  
- Test your new document page in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+ Test your new document page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
 #### To run the page  
   
@@ -196,15 +196,15 @@ In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], a document
   
      **DynamicsNav:\/\/\/\/runpage?page\=\<pageid\>**. In this case **pageid** is 50006  
   
-     The [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] opens and displays the new document page.  
+     The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] opens and displays the new document page.  
   
 ## Next Steps  
  Simon now wants to add actions to Susan's document page and promote some of these actions to the ribbon. For more information, see [How to: Promote Actions on Pages](../Topic/How%20to:%20Promote%20Actions%20on%20Pages.md).  
   
 ## See Also  
- [Pages Overview](../dynamics-nav/Pages-Overview.md)   
+ [Pages Overview](Pages-Overview.md)   
  [How to: Add Actions to a Page](../Topic/How%20to:%20Add%20Actions%20to%20a%20Page.md)   
  [How to: Promote Actions on Pages](../Topic/How%20to:%20Promote%20Actions%20on%20Pages.md)   
  [How to: Create a Page](../Topic/How%20to:%20Create%20a%20Page.md)   
- [Touring the RoleTailored Client Pages](../dynamics-nav/Touring-the-RoleTailored-Client-Pages.md)   
+ [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
  [How to: Run a Page](../Topic/How%20to:%20Run%20a%20Page.md)

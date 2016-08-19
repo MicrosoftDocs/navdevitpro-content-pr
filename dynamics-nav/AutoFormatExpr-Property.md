@@ -22,10 +22,10 @@ Sets a C\/AL expression that specifies how to format data.
 -   Reports  
   
 ## Remarks  
- The C\/AL expression is evaluated when the expression performs updates. Together with the [AutoFormatType Property](../dynamics-nav/AutoFormatType-Property.md), this property determines how data is formatted. These two properties are only used to format decimal data types, such as amounts that can be stated in a foreign currency or ratios.  
+ The C\/AL expression is evaluated when the expression performs updates. Together with the [AutoFormatType Property](AutoFormatType-Property.md), this property determines how data is formatted. These two properties are only used to format decimal data types, such as amounts that can be stated in a foreign currency or ratios.  
   
- For more information, see [Formatting the Data in a Field](../dynamics-nav/Formatting-the-Data-in-a-Field.md).  
+ For more information, see [Formatting the Data in a Field](Formatting-the-Data-in-a-Field.md).  
   
 ## See Also  
- [AutoFormatType Property](../dynamics-nav/AutoFormatType-Property.md)   
- [DecimalPlaces Property](../dynamics-nav/DecimalPlaces-Property.md)
+ [AutoFormatType Property](AutoFormatType-Property.md)   
+ [DecimalPlaces Property](DecimalPlaces-Property.md)

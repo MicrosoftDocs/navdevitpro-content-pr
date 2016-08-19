@@ -14,7 +14,7 @@ manager: terryaus
 In this walkthrough, you learn how to create a card page to display customer details. A card page is used to display more detailed information than is available on a list page. You can link a list page to a card page so that when you select a customer in the list, you open a specific customer card page.  
   
 ## About This Walkthrough  
- This walkthrough provides an overview of how to create a card page in Page Designer, how to add controls, and how to preview the page in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+ This walkthrough provides an overview of how to create a card page in Page Designer, how to add controls, and how to preview the page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
  This walkthrough illustrates the following tasks:  
   
@@ -31,22 +31,22 @@ In this walkthrough, you learn how to create a card page to display customer det
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] installed with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installed with a developer license.  
   
--   [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+-   [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 ## Story  
  Simon is a partner working for CRONUS International Ltd. Kevin, the Sales Manager, has asked Simon to create a card page to store customer information. He wants to be able to view the details of each customer in a card page when he chooses a customer in the customer list.  
   
 ## Creating a Card Page  
- To create a customer card page to run on the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], Simon knows that he must use the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)] Object Designer.  
+ To create a customer card page to run on the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], Simon knows that he must use the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] Object Designer.  
   
 > [!NOTE]  
 >  In this walkthrough, to learn about the properties and controls of a card page you will create a card page from a blank page. Object Designer also includes a wizard that you can use to create a card page that sets up many properties and controls for you. For more information about the wizard, see [How to: Create a Page](../Topic/How%20to:%20Create%20a%20Page.md).  
   
 #### To create a card page  
   
-1.  In [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **Page**, and then choose **New**. The **New Page** window opens.  
   
@@ -99,11 +99,11 @@ In this walkthrough, you learn how to create a card page to display customer det
   
 4.  Choose the **OK** button. A message box appears with the following message: "Do you want to add the fields that are selected in the field menu?" Choose **Yes**.  
   
-     If the **OK** and **Cancel** buttons are unavailable, see [Page Designer Troubleshooting](../dynamics-nav/Page-Designer-Troubleshooting.md) for more information.  
+     If the **OK** and **Cancel** buttons are unavailable, see [Page Designer Troubleshooting](Page-Designer-Troubleshooting.md) for more information.  
   
      In Page Designer, your card page should now look something like the following illustration.  
   
-     ![Customer Card page in Page Designer](../dynamics-nav/media/NAV_CardPageElements.png "NAV\_CardPageElements")  
+     ![Customer Card page in Page Designer](media/NAV_CardPageElements.png "NAV\_CardPageElements")  
   
 5.  Select the next available blank row on your page, below **Phone No.**, and on the **View** menu, choose **Properties**.  
   
@@ -153,7 +153,7 @@ In this walkthrough, you learn how to create a card page to display customer det
   
 1.  In Object Designer, select page 50002, **Kevin's Customer Card**, and then choose **Run**.  
   
-     The [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] opens and displays the new card page with all the fields you selected.  
+     The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] opens and displays the new card page with all the fields you selected.  
   
 2.  Collapse the **General** FastTab on your card page and notice that the contact field you selected is displayed.  
   
@@ -164,7 +164,7 @@ In this walkthrough, you learn how to create a card page to display customer det
  [Walkthrough: Creating a Customer List in Page Designer](../Topic/Walkthrough:%20Creating%20a%20Customer%20List%20in%20Page%20Designer.md)   
  [How to: Create a CardPart Page For Displaying Customer Data in a FactBox](../Topic/How%20to:%20Create%20a%20CardPart%20Page%20For%20Displaying%20Customer%20Data%20in%20a%20FactBox.md)   
  [How to: Add FastTabs to a Customer Card Page](../Topic/How%20to:%20Add%20FastTabs%20to%20a%20Customer%20Card%20Page.md)   
- [Page Designer Troubleshooting](../dynamics-nav/Page-Designer-Troubleshooting.md)   
+ [Page Designer Troubleshooting](Page-Designer-Troubleshooting.md)   
  [How to: Create a Page](../Topic/How%20to:%20Create%20a%20Page.md)   
- [Touring the RoleTailored Client Pages](../dynamics-nav/Touring-the-RoleTailored-Client-Pages.md)   
+ [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
  [How to: Run a Page](../Topic/How%20to:%20Run%20a%20Page.md)

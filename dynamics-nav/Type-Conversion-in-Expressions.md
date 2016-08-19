@@ -24,7 +24,7 @@ Sum := CharVar + integerVar;
   
  The last statement involves one or two type conversions. The rightmost statement involves the evaluation of the expression CharVar \+ integerVar \(char \+ integer\). In order to evaluate this expression, the first operand \(CharVar\) will have to be converted from char to integer. The addition operator will then return an integer result.  
   
- If the type of the leftmost variable has been declared as, for example, decimal, the result must be converted from integer to decimal before its value can be assigned to Sum. For more information, see the “Assignment and Type Conversion” section in [C\-AL Variables](../dynamics-nav/C-AL-Variables.md).  
+ If the type of the leftmost variable has been declared as, for example, decimal, the result must be converted from integer to decimal before its value can be assigned to Sum. For more information, see the “Assignment and Type Conversion” section in [C\-AL Variables](C-AL-Variables.md).  
   
  The following examples illustrate the type conversions which can occur when expressions are evaluated. The following guidelines are used:  
   
@@ -32,7 +32,7 @@ Sum := CharVar + integerVar;
   
 -   The data types in the two main groups, numbers and strings, can be ranked from "most general" to "least general."  
   
-     ![Data types, grouped from most to least general](../dynamics-nav/media/NAV_ADG_25_Diag_22.png "NAV\_ADG\_25\_Diag\_22")  
+     ![Data types, grouped from most to least general](media/NAV_ADG_25_Diag_22.png "NAV\_ADG\_25\_Diag\_22")  
   
 -   The most general data types include all the possible values from the less general data types: a decimal is more general than an integer, which is more general than a char.  
   
@@ -79,4 +79,4 @@ text + text = text
 ```  
   
 ## See Also  
- [Type Conversion](../dynamics-nav/Type-Conversion.md)
+ [Type Conversion](Type-Conversion.md)

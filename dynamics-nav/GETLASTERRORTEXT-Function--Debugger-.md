@@ -26,5 +26,5 @@ String := GETLASTERRORTEXT
  A text that represents the last error that occurred.  
   
 ## See Also  
- [Debugging](../dynamics-nav/Debugging.md)   
- [BREAKONERROR Function \(Debugger\)](../dynamics-nav/BREAKONERROR-Function--Debugger-.md)
+ [Debugging](Debugging.md)   
+ [BREAKONERROR Function \(Debugger\)](BREAKONERROR-Function--Debugger-.md)

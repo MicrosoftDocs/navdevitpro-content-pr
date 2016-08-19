@@ -21,4 +21,4 @@ Sets the ID of the table from which this page will display records.
  Use the up arrow to select the table you want.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

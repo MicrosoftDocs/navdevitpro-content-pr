@@ -19,7 +19,7 @@ Executed after a record has been loaded and before it is inserted into a databas
 ## Remarks  
  This trigger is only used to import data. It is typically used for evaluation or calculations before the record is inserted into the database table.  
   
- If the [AutoSave Property](../dynamics-nav/AutoSave-Property.md) is **No**, then although the record is not inserted automatically, the OnBeforeInsertRecord trigger is still called before the insertion would have occurred.  
+ If the [AutoSave Property](AutoSave-Property.md) is **No**, then although the record is not inserted automatically, the OnBeforeInsertRecord trigger is still called before the insertion would have occurred.  
   
 ## See Also  
- [Triggers](../dynamics-nav/Triggers.md)
+ [Triggers](Triggers.md)

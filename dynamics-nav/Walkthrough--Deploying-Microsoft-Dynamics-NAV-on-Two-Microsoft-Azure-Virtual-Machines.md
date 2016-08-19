@@ -10,11 +10,11 @@ ms.assetid: f9e96066-e260-4f41-a42e-0e9e8ce2994a
 caps.latest.revision: 17
 ---
 # Walkthrough: Deploying Microsoft Dynamics NAV on Two Microsoft Azure Virtual Machines
-The following walkthrough demonstrates how to use the Example\-2VM.ps1 script of the [!INCLUDE[nav_prov_long](../dynamics-nav/includes/nav_prov_long_md.md)] to deploy [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] on Microsoft Azure. The walkthrough deploys the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] components, including the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)], on two virtual machines as illustrated in the following figure.  
+The following walkthrough demonstrates how to use the Example\-2VM.ps1 script of the [!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)] to deploy [!INCLUDE[navnow](includes/navnow_md.md)] on Microsoft Azure. The walkthrough deploys the [!INCLUDE[navnow](includes/navnow_md.md)] components, including the [!INCLUDE[demolong](includes/demolong_md.md)], on two virtual machines as illustrated in the following figure.  
   
- ![Network topology for Example&#45;2VM.ps1](../dynamics-nav/media/NAV_Azure_Example-2VM.png "NAV\_Azure\_Example\-2VM")  
+ ![Network topology for Example&#45;2VM.ps1](media/NAV_Azure_Example-2VM.png "NAV\_Azure\_Example\-2VM")  
   
- When completed, you will have a new virtual machine on Azure with a fully functional [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] environment that gives users access to [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] data from the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] and [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]. Additionally, the virtual machine will have full development and administration capabilities including [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], [!INCLUDE[nav_admin](../dynamics-nav/includes/nav_admin_md.md)], and [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Windows PowerShell cmdlets.  
+ When completed, you will have a new virtual machine on Azure with a fully functional [!INCLUDE[navnow](includes/navnow_md.md)] environment that gives users access to [!INCLUDE[navnow](includes/navnow_md.md)] data from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)]. Additionally, the virtual machine will have full development and administration capabilities including [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], [!INCLUDE[nav_admin](includes/nav_admin_md.md)], and [!INCLUDE[navnow](includes/navnow_md.md)] Windows PowerShell cmdlets.  
   
 ## About This Walkthrough  
  This walkthrough illustrates the following tasks:  
@@ -27,13 +27,13 @@ The following walkthrough demonstrates how to use the Example\-2VM.ps1 script of
   
 4.  [Opening the Microsoft Dynamics NAV Clients](../Topic/Walkthrough:%20Deploying%20Microsoft%20Dynamics%20NAV%20on%20a%20Microsoft%20Azure%20Virtual%20Machine.md#OpenRTCs)  
   
- This walkthrough sets up a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] environment on Azure that has the following characteristics.  
+ This walkthrough sets up a [!INCLUDE[navnow](includes/navnow_md.md)] environment on Azure that has the following characteristics.  
   
 |Item|Value|  
 |----------|-----------|  
-|Name of Azure virtual machine running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]|MyNavServerVM|  
+|Name of Azure virtual machine running [!INCLUDE[nav_server](includes/nav_server_md.md)]|MyNavServerVM|  
 |Domain name|.cloudapp.net<br /><br /> This value is combined with the Azure virtual machine name so that the fully qualified domain name of the virtual machine becomes *MyNavServerVM.cloudapp.net*.|  
-|Administrator account on Azure virtual running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]|User name: NavVmAdmin<br /><br /> Password: This walkthrough uses an automatically generated password.|  
+|Administrator account on Azure virtual running [!INCLUDE[nav_server](includes/nav_server_md.md)]|User name: NavVmAdmin<br /><br /> Password: This walkthrough uses an automatically generated password.|  
 |Name of Azure virtual machine running SQL Server|MyNavSQLVM|  
 |Administrator account on Azure virtual running SQL Server|User name: NavSqlAdmin<br /><br /> Password: This walkthrough uses an automatically generated password. **Important:**  If you are using a custom image to create the virtual machine, then the user name must match the administrator account user name that was specified when the custom image was created. For more information, see [How to: Create a Microsoft Azure Virtual Machine Operating System Image for Microsoft Dynamics NAV](../Topic/How%20to:%20Create%20a%20Microsoft%20Azure%20Virtual%20Machine%20Operating%20System%20Image%20for%20Microsoft%20Dynamics%20NAV.md).|  
 |Azure region|North Europe|  
@@ -41,18 +41,18 @@ The following walkthrough demonstrates how to use the Example\-2VM.ps1 script of
 |Azure virtual network|MyNavVirtualNetwork|  
 |Azure affinity group|MyNavAffinity|  
 |User authentication credential type|NavUserPassword|  
-|[!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] Service account|User name: NSTService<br /><br /> Password: This walkthrough uses an automatically generated password.|  
-|[!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] user with SUPER permissions|User name: navuser<br /><br /> Password: This walkthrough uses an automatically generated password.|  
+|[!INCLUDE[nav_server](includes/nav_server_md.md)] Service account|User name: NSTService<br /><br /> Password: This walkthrough uses an automatically generated password.|  
+|[!INCLUDE[navnow](includes/navnow_md.md)] user with SUPER permissions|User name: navuser<br /><br /> Password: This walkthrough uses an automatically generated password.|  
 |Client services port|9001|  
 |SOAP services port|9002|  
 |OData services port|9003|  
 |ClickOnce website port|9004|  
-|[!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] company name|MyCompany<br /><br /> This walkthrough restores data for the **CRONUS International Ltd.** company from a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database backup file, and then renames the company to *MyCompany*.|  
-|Language setting on the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Web Server|en\-US|  
-|Region format setting on the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Web Server|en\-US|  
+|[!INCLUDE[navnow](includes/navnow_md.md)] company name|MyCompany<br /><br /> This walkthrough restores data for the **CRONUS International Ltd.** company from a [!INCLUDE[navnow](includes/navnow_md.md)] database backup file, and then renames the company to *MyCompany*.|  
+|Language setting on the [!INCLUDE[navnow](includes/navnow_md.md)] Web Server|en\-US|  
+|Region format setting on the [!INCLUDE[navnow](includes/navnow_md.md)] Web Server|en\-US|  
   
 ## Prerequisites  
- Install the prerequisites that are described in [Preparing for Deploying Microsoft Dynamics NAV on Microsoft Azure](../dynamics-nav/Preparing-for-Deploying-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md).  
+ Install the prerequisites that are described in [Preparing for Deploying Microsoft Dynamics NAV on Microsoft Azure](Preparing-for-Deploying-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md).  
   
  The following table includes information about the prerequisites that are used to complete this walkthrough.  
   
@@ -63,12 +63,12 @@ The following walkthrough demonstrates how to use the Example\-2VM.ps1 script of
 |Azure storage account|MyAzureStorage|  
 |Image for **NAV Server** virtual machine|This walkthrough will use the latest version of a supported image from the Azure Image Gallery. You do not have to do anything to meet this prerequisite.|  
 |Image for **SQL Server** virtual machine|This walkthrough will use the latest version of a supported image from the Azure Image Gallery. You do not have to do anything to meet this prerequisite. **Note:**  This is the default image that is set in the Set\-PartnerSettings.ps1 file.|  
-|[!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] installation media \(DVD\) location|D:\\NAVDVD|  
-|[!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database backup file location|D:\\NAVDVD\\SQLDemoDatabase\\CommonAppData\\Microsoft\\Microsoft Dynamics NAV\\72\\Database\\Demo Database NAV \(7\-2\).bak|  
-|[!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] license|D:\\NAVDVD\\SQLDemoDatabase\\CommonAppData\\Microsoft\\Microsoft Dynamics NAV\\72\\Database\\Cronus.flf|  
-|[!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] provisioning tools location|C:\\Cloud<br /><br /> The [!INCLUDE[nav_prov_long](../dynamics-nav/includes/nav_prov_long_md.md)] are included in the WindowsPowerShellScripts\\Cloud folder on [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] installation media. For this walkthrough, you copy the Cloud folder and its content to the C: drive. The Example\-2VM.ps1 script and Set\-PartnerSettings file that are used in the walkthrough are in the Cloud\\HowTo folder.|  
-|Security certificate PFX file location and password for [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] services|Folder: C:\\Cloud\\HowTo\\MyAzureVM.pfx<br /><br /> Password: pfxpassword|  
-|Security certificate PFX file and password for the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]|This walkthrough uses the security certificate that is automatically generated by the [!INCLUDE[nav_prov_short](../dynamics-nav/includes/nav_prov_short_md.md)]. No action is required for this prerequisite.|  
+|[!INCLUDE[navnow](includes/navnow_md.md)] installation media \(DVD\) location|D:\\NAVDVD|  
+|[!INCLUDE[navnow](includes/navnow_md.md)] database backup file location|D:\\NAVDVD\\SQLDemoDatabase\\CommonAppData\\Microsoft\\Microsoft Dynamics NAV\\72\\Database\\Demo Database NAV \(7\-2\).bak|  
+|[!INCLUDE[navnow](includes/navnow_md.md)] license|D:\\NAVDVD\\SQLDemoDatabase\\CommonAppData\\Microsoft\\Microsoft Dynamics NAV\\72\\Database\\Cronus.flf|  
+|[!INCLUDE[navnow](includes/navnow_md.md)] provisioning tools location|C:\\Cloud<br /><br /> The [!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)] are included in the WindowsPowerShellScripts\\Cloud folder on [!INCLUDE[navnow](includes/navnow_md.md)] installation media. For this walkthrough, you copy the Cloud folder and its content to the C: drive. The Example\-2VM.ps1 script and Set\-PartnerSettings file that are used in the walkthrough are in the Cloud\\HowTo folder.|  
+|Security certificate PFX file location and password for [!INCLUDE[navnow](includes/navnow_md.md)] services|Folder: C:\\Cloud\\HowTo\\MyAzureVM.pfx<br /><br /> Password: pfxpassword|  
+|Security certificate PFX file and password for the [!INCLUDE[nav_web](includes/nav_web_md.md)]|This walkthrough uses the security certificate that is automatically generated by the [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)]. No action is required for this prerequisite.|  
 |Security certificate PFX file location and password for ClickOnce|Folder: C:\\Cloud\\HowTo\\ClickOnceSignature.pfx<br /><br /> Password: clickoncesignaturepassword|  
 |Azure Libraries location|C:\\ProgramFiles\(x86\)\\Microsoft SDKs\\Microsoft Azure\\PowerShell\\Azure\\Azure.psd1|  
 |Microsoft Windows HTTP Services Certificate Configuration Tool|C:\\ProgramFiles\(x86\)\\Windows Resource Kits\\Tools\\winhttpcertcfg.exe|  
@@ -76,7 +76,7 @@ The following walkthrough demonstrates how to use the Example\-2VM.ps1 script of
 |makecert.exe|C:\\ProgramFiles\(x86\)\\Windows Kits\\8.0\\bin\\x86\\makecert.exe'|  
   
 ##  <a name="StartPowerShell"></a> Start Windows PowerShell ISE  
- To deploy [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], you will run Windows PowerShell scripts. The procedures in this section use Windows PowerShell Integrated Scripting Environment \(ISE\) because it enables you to run commands, and write and debug scripts in a single graphical user interface.  
+ To deploy [!INCLUDE[navnow](includes/navnow_md.md)], you will run Windows PowerShell scripts. The procedures in this section use Windows PowerShell Integrated Scripting Environment \(ISE\) because it enables you to run commands, and write and debug scripts in a single graphical user interface.  
   
 > [!IMPORTANT]  
 >  You must run Windows PowerShell ISE as an Administrator; otherwise the scripts will not run without errors.  
@@ -96,7 +96,7 @@ The following walkthrough demonstrates how to use the Example\-2VM.ps1 script of
     ```  
   
 ##  <a name="ModSetPartnerSettings"></a> Modifying the Set\-PartnerSettings File  
- The [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] provisioning tools include the Set\-PartnerSettings.ps1 script. The Set\-PartnerSettings.ps1 script contains parameters that are used by the Example\-2VM.ps1 file to configure the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] deployment. In this procedure, you will create a copy of the Set\-PartnerSettings.ps1 file, and then modify the copy to include the settings for your installation. You can modify Set\-PartnerSetting.ps1 directly, but using a copy enables you to test different parameter values without having to change the Set\-PartnerSettings.ps1 every time.  
+ The [!INCLUDE[navnow](includes/navnow_md.md)] provisioning tools include the Set\-PartnerSettings.ps1 script. The Set\-PartnerSettings.ps1 script contains parameters that are used by the Example\-2VM.ps1 file to configure the [!INCLUDE[navnow](includes/navnow_md.md)] deployment. In this procedure, you will create a copy of the Set\-PartnerSettings.ps1 file, and then modify the copy to include the settings for your installation. You can modify Set\-PartnerSetting.ps1 directly, but using a copy enables you to test different parameter values without having to change the Set\-PartnerSettings.ps1 every time.  
   
 #### To make a copy of the Set\-PartnerSettings.ps1 file  
   
@@ -162,7 +162,7 @@ The following walkthrough demonstrates how to use the Example\-2VM.ps1 script of
   
      Because you do not provide a value for the *$NAV\_OSImageWithSqlServer* and *$NAV\_OSImageWithoutSqlServer* settings, the script will use the latest version of a supported image from the Azure Gallery.  
   
-5.  Go to the **2\-Box NAV Deployment settings** section to specify parameters that configure the virtual machine that will run SQL Server and the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database. Set the parameters as follows:  
+5.  Go to the **2\-Box NAV Deployment settings** section to specify parameters that configure the virtual machine that will run SQL Server and the [!INCLUDE[navnow](includes/navnow_md.md)] database. Set the parameters as follows:  
   
     ```  
     $NAV_SqlServerMachine = 'MyNavSQLVM'  
@@ -175,7 +175,7 @@ The following walkthrough demonstrates how to use the Example\-2VM.ps1 script of
   
      Because you do not provide a value for the *$NAV\_SqlServerMachineAdminPassword* setting, the script will generate a password automatically. You will see the password in the message that appears when the script has completed.  
   
-6.  Go to the **Microsoft Dynamics NAV installation settings** section to specify parameters that install [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] on the virtual machine. Set the parameters as follows:  
+6.  Go to the **Microsoft Dynamics NAV installation settings** section to specify parameters that install [!INCLUDE[navnow](includes/navnow_md.md)] on the virtual machine. Set the parameters as follows:  
   
     ```  
     $NAV_DvdLocation = 'D:\NAVDVD'   
@@ -186,7 +186,7 @@ The following walkthrough demonstrates how to use the Example\-2VM.ps1 script of
     $NAV_RemoteDatabaseBackupFile = 'C:\REMOTE\navdvd\SQLDemoDatabase\CommonAppData\Microsoft\Microsoft Dynamics NAV\72\Database\Demo Database NAV (7-2).bak'  
     ```  
   
-7.  Go to the **Microsoft Dynamics NAV Instance settings** section to specify parameters for that configure [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]. Set the parameters as follows:  
+7.  Go to the **Microsoft Dynamics NAV Instance settings** section to specify parameters for that configure [!INCLUDE[nav_server](includes/nav_server_md.md)]. Set the parameters as follows:  
   
     ```  
     $NAV_InstanceName = 'DynamicsNAV72_Instance1'  
@@ -209,7 +209,7 @@ The following walkthrough demonstrates how to use the Example\-2VM.ps1 script of
   
      Because you do not provide a values for the *$NAV\_WindowsServiceAccountPassword* and *$NAV\_NAVAdminPassword* settings, the script will generate passwords automatically. You will see the passwords in the message that appears when the script has completed.  
   
-8.  Go to the **Security Certificates for NAV Client Services settings** section to specify parameters that configure security certificates for the clients and ClickOnce installation of the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. Set the parameters as follows:  
+8.  Go to the **Security Certificates for NAV Client Services settings** section to specify parameters that configure security certificates for the clients and ClickOnce installation of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. Set the parameters as follows:  
   
     ```  
     $NAV_ClientServicesPfxFile = 'C:\Cloud\HowTo\MyAzureVM.pfx'  
@@ -235,7 +235,7 @@ The following walkthrough demonstrates how to use the Example\-2VM.ps1 script of
      You are ready to run the script.  
   
 ##  <a name="RunExampleScript"></a> Running the Example\_2VM script  
- After you have set the parameters in the Set\-PartnerSettings\-Custom.ps1 file, you can run the script to create the virtual machine on Azure and deploy [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+ After you have set the parameters in the Set\-PartnerSettings\-Custom.ps1 file, you can run the script to create the virtual machine on Azure and deploy [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 #### To run the example script  
   
@@ -266,9 +266,9 @@ The following walkthrough demonstrates how to use the Example\-2VM.ps1 script of
      Two new virtual machines are added on Azure. To see the new virtual machine, sign in to the [Microsoft Azure Management Portal](http://manage.windowsazure.com/), and then choose **VIRTUAL MACHINES**.  
   
 ##  <a name="OpenRTCs"></a> Opening the RoleTailored Clients  
- When the script has completed with no errors, you can then access the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)]s.  
+ When the script has completed with no errors, you can then access the [!INCLUDE[rtc](includes/rtc_md.md)]s.  
   
-#### To open the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]  
+#### To open the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]  
   
 1.  Open an internet browser.  
   
@@ -276,9 +276,9 @@ The following walkthrough demonstrates how to use the Example\-2VM.ps1 script of
   
      **http:\/\/MyNavVm.cloudapp.net:9004**  
   
-3.  Follow the instructions on the webpage to install the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+3.  Follow the instructions on the webpage to install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
-#### To open the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]  
+#### To open the [!INCLUDE[nav_web](includes/nav_web_md.md)]  
   
 1.  Open an internet browser.  
   
@@ -287,12 +287,12 @@ The following walkthrough demonstrates how to use the Example\-2VM.ps1 script of
      **http:\/\/MyNavVm.cloudapp.net\/DynamicsNAV72\_Instance1**  
   
 ## Next Steps  
- [Scaling the Microsoft Dynamics NAV Network Topology](../dynamics-nav/Scaling-the-Microsoft-Dynamics-NAV-Network-Topology.md)  
+ [Scaling the Microsoft Dynamics NAV Network Topology](Scaling-the-Microsoft-Dynamics-NAV-Network-Topology.md)  
   
- [Security and Protection for Microsoft Dynamics NAV on Microsoft Azure](../dynamics-nav/Security-and-Protection-for-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)  
+ [Security and Protection for Microsoft Dynamics NAV on Microsoft Azure](Security-and-Protection-for-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)  
   
 ## See Also  
- [Planning and Preparing](../dynamics-nav/Planning-and-Preparing.md)   
- [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](../dynamics-nav/Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
- [Deploying Microsoft Dynamics NAV on Two Virtual Machines Using Example\-2VM Script](../dynamics-nav/Deploying-Microsoft-Dynamics-NAV-on-Two-Virtual-Machines-Using-Example-2VM-Script.md)   
+ [Planning and Preparing](Planning-and-Preparing.md)   
+ [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
+ [Deploying Microsoft Dynamics NAV on Two Virtual Machines Using Example\-2VM Script](Deploying-Microsoft-Dynamics-NAV-on-Two-Virtual-Machines-Using-Example-2VM-Script.md)   
  [Walkthrough: Deploying Microsoft Dynamics NAV on a Microsoft Azure Virtual Machine](../Topic/Walkthrough:%20Deploying%20Microsoft%20Dynamics%20NAV%20on%20a%20Microsoft%20Azure%20Virtual%20Machine.md)

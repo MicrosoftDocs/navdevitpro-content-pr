@@ -24,7 +24,7 @@ Finds the last record in a table based on the current key and filter.
  *Record*  
  Type: Record  
   
- If the record was found, it is returned in this parameter and any [FlowFields](../dynamics-nav/FlowFields.md) in the record are set to zero. You must update the FlowFields by using the [CALCFIELDS Function \(Record\)](../dynamics-nav/CALCFIELDS-Function--Record-.md).  
+ If the record was found, it is returned in this parameter and any [FlowFields](FlowFields.md) in the record are set to zero. You must update the FlowFields by using the [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md).  
   
  If the record was not found and if you omitted the return value, a run\-time error occurs.  
   
@@ -50,7 +50,7 @@ IF GLEntryRec.FINDLAST THEN
 ```  
   
 ## See Also  
- [FIND Function \(Record\)](../dynamics-nav/FIND-Function--Record-.md)   
- [FINDFIRST Function \(Record\)](../dynamics-nav/FINDFIRST-Function--Record-.md)   
- [FINDSET Function \(Record\)](../dynamics-nav/FINDSET-Function--Record-.md)   
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [FIND Function \(Record\)](FIND-Function--Record-.md)   
+ [FINDFIRST Function \(Record\)](FINDFIRST-Function--Record-.md)   
+ [FINDSET Function \(Record\)](FINDSET-Function--Record-.md)   
+ [Record Data Type](Record-Data-Type.md)

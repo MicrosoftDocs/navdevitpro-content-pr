@@ -10,9 +10,9 @@ ms.assetid: 731a41c4-85c7-42c6-8dc6-00a7dcd090b2
 caps.latest.revision: 3
 ---
 # DATAFILEINFORMATION Function (Database)
-Specifies data from a file that has been exported from a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database.  
+Specifies data from a file that has been exported from a [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
- For an example of how to use this function, see page 9900, **\($ N\_9900 Import Data $\)**, in the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+ For an example of how to use this function, see page 9900, **\($ N\_9900 Import Data $\)**, in the [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 ## Syntax  
   
@@ -29,7 +29,7 @@ Specifies data from a file that has been exported from a [!INCLUDE[navnow](../dy
  *FileName*  
  Type: Text  
   
- Specifies the name and location of the file that you want to read information from. The file must have been exported from a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database.  
+ Specifies the name and location of the file that you want to read information from. The file must have been exported from a [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
  *HasApplication*  
  Type: Variable  
@@ -72,4 +72,4 @@ Specifies data from a file that has been exported from a [!INCLUDE[navnow](../dy
  Specifies the company or companies in the file.  
   
 ## See Also  
- [Exporting and Importing Companies and Other Data](../dynamics-nav/Exporting-and-Importing-Companies-and-Other-Data.md)
+ [Exporting and Importing Companies and Other Data](Exporting-and-Importing-Companies-and-Other-Data.md)

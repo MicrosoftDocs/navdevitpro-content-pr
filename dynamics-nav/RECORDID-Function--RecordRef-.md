@@ -29,7 +29,7 @@ RecordID := RecordRef.RECORDID
  Type: RecordID  
   
 ## Example  
- The following example opens table 18 \(Customer\) as a RecordRef variable that is named MyRecordRef. The [FINDLAST Function \(RecordRef\)](../dynamics-nav/FINDLAST-Function--RecordRef-.md) finds the last record in the table. The record id of the last record is retrieved, stored in the RecID variable displayed in message box. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example opens table 18 \(Customer\) as a RecordRef variable that is named MyRecordRef. The [FINDLAST Function \(RecordRef\)](FINDLAST-Function--RecordRef-.md) finds the last record in the table. The record id of the last record is retrieved, stored in the RecID variable displayed in message box. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -49,4 +49,4 @@ MESSAGE(Text000, RecID);
 ```  
   
 ## See Also  
- [RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md)
+ [RecordRef Data Type](RecordRef-Data-Type.md)

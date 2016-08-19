@@ -67,14 +67,14 @@ Runs a query object and generates a dataset that can be read.
         Query.READ;  
         ```  
   
--   You are required to call the **OPEN** function before the [SAVEASXML Function](../dynamics-nav/SAVEASXML-Function.md) or [SAVEASCSV Function](../dynamics-nav/SAVEASCSV-Function.md). The **SAVEASXML** and **SAVEASCSV** functions automatically close the current query dataset and initialize a new instance of the query.  
+-   You are required to call the **OPEN** function before the [SAVEASXML Function](SAVEASXML-Function.md) or [SAVEASCSV Function](SAVEASCSV-Function.md). The **SAVEASXML** and **SAVEASCSV** functions automatically close the current query dataset and initialize a new instance of the query.  
   
 ## Example  
  The following example demonstrates how to use the **OPEN** function on a query. The example code sets filters on the query, opens the query, and then reads the dataset. For each row in the dataset, a message box is displayed that contains the values of the columns in the row.  
   
  This example requires that you do the following:  
   
-1.  Create a query called **Customer\_SalesQuantity** that links table **18 Customer** with table  **37 Sales Lines** from the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)]. Include columns for the **Name** and **No.** fields from the Customer table and the **Quantity** field from Sales Lines table.  
+1.  Create a query called **Customer\_SalesQuantity** that links table **18 Customer** with table  **37 Sales Lines** from the [!INCLUDE[demolong](includes/demolong_md.md)]. Include columns for the **Name** and **No.** fields from the Customer table and the **Quantity** field from Sales Lines table.  
   
      For step\-by\-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
   
@@ -110,5 +110,5 @@ MyQuery.CLOSE;
   
 ## See Also  
  [How to: Create Queries](../Topic/How%20to:%20Create%20Queries.md)   
- [Working with Queries in C\-AL](../dynamics-nav/Working-with-Queries-in-C-AL.md)   
- [Queries](../dynamics-nav/Queries.md)
+ [Working with Queries in C\-AL](Working-with-Queries-in-C-AL.md)   
+ [Queries](Queries.md)

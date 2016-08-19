@@ -105,6 +105,6 @@ MESSAGE(Text000 + Text001 + Text002 + Text003, VarInteger, Ok1, VarDate, Ok2, Va
  You can include decimal values in the string that you evaluate as a duration. Decimal values for milliseconds are ignored; only the whole number is evaluated.  
   
 ## See Also  
- [CLEAR Function](../dynamics-nav/CLEAR-Function.md)   
- [CLEARALL Function](../dynamics-nav/CLEARALL-Function.md)   
- [COPYSTREAM Function](../dynamics-nav/COPYSTREAM-Function.md)
+ [CLEAR Function](CLEAR-Function.md)   
+ [CLEARALL Function](CLEARALL-Function.md)   
+ [COPYSTREAM Function](COPYSTREAM-Function.md)

@@ -32,7 +32,7 @@ Record.SETPOSITION(String)
  The string that is used to set the primary key. This string contains the primary key value to set.  
   
 ## Example  
- The following example changes the value in the primary key, the No. field, in table 23, the **Vendor** table. Other fields are not changed. The code starts by opening table 23 as a record variable that is named MyRecord. The [SETRANGE Function \(Record\)](../dynamics-nav/SETRANGE-Function--Record-.md) sets a filter that selects records from 10000 to 20000 in the No. field. The [FINDLAST Function \(RecordRef\)](../dynamics-nav/FINDLAST-Function--RecordRef-.md) finds and retrieves the last record in the record set. The **SETPOSITION** function uses the value stored in the InputString parameter to change the value in the No. field from 20000 to 20001. The record No. and the name of the record are displayed before and displayed again after the primary key value is changed.  The string that contains the new primary key is initialized in the InputString variable. This example requires that you create the following variables and text constants in the **C\/AL Globals** window  
+ The following example changes the value in the primary key, the No. field, in table 23, the **Vendor** table. Other fields are not changed. The code starts by opening table 23 as a record variable that is named MyRecord. The [SETRANGE Function \(Record\)](SETRANGE-Function--Record-.md) sets a filter that selects records from 10000 to 20000 in the No. field. The [FINDLAST Function \(RecordRef\)](FINDLAST-Function--RecordRef-.md) finds and retrieves the last record in the record set. The **SETPOSITION** function uses the value stored in the InputString parameter to change the value in the No. field from 20000 to 20001. The record No. and the name of the record are displayed before and displayed again after the primary key value is changed.  The string that contains the new primary key is initialized in the InputString variable. This example requires that you create the following variables and text constants in the **C\/AL Globals** window  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
@@ -66,4 +66,4 @@ MESSAGE(Text001, MyRecord."No.", MyRecord.Name);
  **The vendor name after the primary key was changed is AR Day property Management.**  
   
 ## See Also  
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [Record Data Type](Record-Data-Type.md)

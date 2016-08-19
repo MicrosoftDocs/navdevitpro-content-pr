@@ -23,9 +23,9 @@ This complex data type handles large text documents.
  The normal string functions cannot be used with a BigText variable.  
   
 ## See Also  
- [ADDTEXT Function \(BigText\)](../dynamics-nav/ADDTEXT-Function--BigText-.md)   
- [GETSUBTEXT Function \(BigText\)](../dynamics-nav/GETSUBTEXT-Function--BigText-.md)   
- [LENGTH Function \(BigText\)](../dynamics-nav/LENGTH-Function--BigText-.md)   
- [READ Function \(BigText\)](../dynamics-nav/READ-Function--BigText-.md)   
- [TEXTPOS Function \(BigText\)](../dynamics-nav/TEXTPOS-Function--BigText-.md)   
- [WRITE Function \(BigText\)](../dynamics-nav/WRITE-Function--BigText-.md)
+ [ADDTEXT Function \(BigText\)](ADDTEXT-Function--BigText-.md)   
+ [GETSUBTEXT Function \(BigText\)](GETSUBTEXT-Function--BigText-.md)   
+ [LENGTH Function \(BigText\)](LENGTH-Function--BigText-.md)   
+ [READ Function \(BigText\)](READ-Function--BigText-.md)   
+ [TEXTPOS Function \(BigText\)](TEXTPOS-Function--BigText-.md)   
+ [WRITE Function \(BigText\)](WRITE-Function--BigText-.md)

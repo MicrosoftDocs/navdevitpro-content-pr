@@ -29,7 +29,7 @@ Name := Query.COLUMNNAME(Column)
  *Column*  
  Type: Text  
   
- Refers to the name of the query column. The name of a query column is specified by the [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md) of the column in Query Designer.  
+ Refers to the name of the query column. The name of a query column is specified by the [Name Property\-duplicate](Name-Property-duplicate.md) of the column in Query Designer.  
   
 ## Property Value\/Return Value  
  Type: Text  
@@ -37,7 +37,7 @@ Name := Query.COLUMNNAME(Column)
  The name of the specified column.  
   
 ## Remarks  
- The **COLUMNNAME** function retrieves the name of the column as specified by its **Name** property and enables you to create actions based on the column name. If you want to retrieve the query column's caption, which displays in the user interface of the query, then call the [COLUMNCAPTION Function](../dynamics-nav/COLUMNCAPTION-Function.md) instead.  
+ The **COLUMNNAME** function retrieves the name of the column as specified by its **Name** property and enables you to create actions based on the column name. If you want to retrieve the query column's caption, which displays in the user interface of the query, then call the [COLUMNCAPTION Function](COLUMNCAPTION-Function.md) instead.  
   
 ## Example  
  The following example shows how to get the name for a column of a query. The query is called **My Customer Query** and has a column with the name **Customer\_No**. This example requires that you create the following variables.  
@@ -58,6 +58,6 @@ NameOfColumn := MyQuery.COLUMNNAME("Customer_No");
 ## See Also  
  [How to: Create Queries](../Topic/How%20to:%20Create%20Queries.md)   
  [How to: Set Up Filter Rows in Query Designer](../Topic/How%20to:%20Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md)   
- [Queries](../dynamics-nav/Queries.md)   
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)   
- [Multilanguage Development](../dynamics-nav/Multilanguage-Development.md)
+ [Queries](Queries.md)   
+ [Record Data Type](Record-Data-Type.md)   
+ [Multilanguage Development](Multilanguage-Development.md)

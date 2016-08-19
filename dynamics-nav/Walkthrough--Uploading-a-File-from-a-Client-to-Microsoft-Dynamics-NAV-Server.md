@@ -11,14 +11,14 @@ caps.latest.revision: 19
 manager: pchapman
 ---
 # Walkthrough: Uploading a File from a Client to Microsoft Dynamics NAV Server
-This walkthrough demonstrates how to use file functions to send a file from a client to the server, use stream functions to read the file, and use an XMLport to load values into the database. Business logic in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] runs on [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instead of on the client. As a result, any business logic that reads data from a file needs to first move a copy of that file from the client to the server.  
+This walkthrough demonstrates how to use file functions to send a file from a client to the server, use stream functions to read the file, and use an XMLport to load values into the database. Business logic in [!INCLUDE[navnow](includes/navnow_md.md)] runs on [!INCLUDE[nav_server](includes/nav_server_md.md)] instead of on the client. As a result, any business logic that reads data from a file needs to first move a copy of that file from the client to the server.  
   
 ## About This Walkthrough  
  This walkthrough illustrates the following tasks:  
   
 -   Creating an XML file that contains two elements with values.  
   
--   Creating a table in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] to hold the data from the XML file.  
+-   Creating a table in [!INCLUDE[navnow](includes/navnow_md.md)] to hold the data from the XML file.  
   
 -   Creating a codeunit that does the following:  
   
@@ -37,7 +37,7 @@ This walkthrough demonstrates how to use file functions to send a file from a cl
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] installed with a developer license  
+-   [!INCLUDE[navnow](includes/navnow_md.md)] installed with a developer license  
   
 ## Creating an XML File  
  The first step is to create a simple XML file that contains the data that the codeunit will read into the table. This represents the file on a client computer.  
@@ -162,12 +162,12 @@ This walkthrough demonstrates how to use file functions to send a file from a cl
   
 3.  Choose **OK**.  
   
-4.  Open the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)].  
+4.  Open the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].  
   
 5.  In Object Designer, choose **Table**, choose **50010 Test Table**, and then choose **Run**.  
   
      The **TestTable\-Table** window opens with the values of 10 and 11 in the IntA and IntB columns, respectively.  
   
 ## See Also  
- [UPLOADINTOSTREAM Function \(File\)](../dynamics-nav/UPLOADINTOSTREAM-Function--File-.md)   
+ [UPLOADINTOSTREAM Function \(File\)](UPLOADINTOSTREAM-Function--File-.md)   
  [Walkthrough: Transferring a File from Microsoft Dynamics NAV Server to the Client](../Topic/Walkthrough:%20Transferring%20a%20File%20from%20Microsoft%20Dynamics%20NAV%20Server%20to%20the%20Client.md)

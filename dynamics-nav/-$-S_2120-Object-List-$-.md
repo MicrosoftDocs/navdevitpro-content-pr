@@ -15,11 +15,11 @@ Lists the objects that can be selected. This list can contain any kind of object
   
  To open this window, in Navigation Pane Designer, right\-click a folder, and then choose **Create Item**. In the **Object Type** field, select an object, and then choose the **Up Arrow** button in the **Object ID** field.  
   
- For more information about how to open Navigation Pane Designer, see [\($ S\_2401 Navigation Pane Designer $\)](../dynamics-nav/-$-S_2401-Navigation-Pane-Designer-$-.md).  
+ For more information about how to open Navigation Pane Designer, see [\($ S\_2401 Navigation Pane Designer $\)](-$-S_2401-Navigation-Pane-Designer-$-.md).  
   
  The following table describes the \<object\> list windows.  
   
-|\<Object\> List|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|\<Object\> List|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------------|---------------------------------------|  
 |**Table List**|List the tables that are available.|  
 |**Page List**|List the pages that are available.|  
@@ -29,4 +29,4 @@ Lists the objects that can be selected. This list can contain any kind of object
 |**XMLport List**|List the XMLports that are available.|  
   
 ## See Also  
- [Window Overviews](../dynamics-nav/Window-Overviews.md)
+ [Window Overviews](Window-Overviews.md)

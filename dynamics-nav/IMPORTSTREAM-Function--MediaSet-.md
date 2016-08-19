@@ -44,19 +44,19 @@ Adds a media file, such as a jpeg image, from an InStream object to the MediaSet
 ## Property Value\/Return Value  
  Type: GUID  
   
- The unique ID assigned to the MediaSet of the record. ID can be retrieved by using the [MEDIAID Function \(MediaSet\)](../dynamics-nav/MEDIAID-Function--MediaSet-.md).  
+ The unique ID assigned to the MediaSet of the record. ID can be retrieved by using the [MEDIAID Function \(MediaSet\)](MEDIAID-Function--MediaSet-.md).  
   
 ## Remarks  
- You can use this function to upload a media file, which you want to associate with a record, to the database. For example, you can upload an image of all items in table **27 Item**. The function is similar to the [IMPORTSTREAM Function \(Media\)](../dynamics-nav/IMPORTSTREAM-Function--Media-.md) except that this function enables you to import multiple media files for the same record.  
+ You can use this function to upload a media file, which you want to associate with a record, to the database. For example, you can upload an image of all items in table **27 Item**. The function is similar to the [IMPORTSTREAM Function \(Media\)](IMPORTSTREAM-Function--Media-.md) except that this function enables you to import multiple media files for the same record.  
   
  When a media file is imported, it is assigned a unique identifier \(GUID\) and stored in the system table **2000000181 Tenant Media** of the application database. In addition, the media file is assigned to a MediaSet GUID. This GUID is included in the **MediaSet** data type field as a reference to the media files. The MediaSet GUID is created with the first file that you import. Additional media files for the record are then associated with the same MediaSet GUID. This information is stored in table **2000000183 Tenant Media Set**.  
   
  If you import a media object into a record that already has a media object, and the modify operation is performed, the previous media object will be permanently deleted, unless there are other references to the media object in the same table field.  
   
 ## Example  
- This example uses the IMPORTSTREAM function to add images to records in table **27 Item** of the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)]. To support the example code that follows, you also have to complete these tasks:  
+ This example uses the IMPORTSTREAM function to add images to records in table **27 Item** of the [!INCLUDE[demolong](includes/demolong_md.md)]. To support the example code that follows, you also have to complete these tasks:  
   
--   Add item image files for records of table **27 Item** to a folder on the computer that is running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance  
+-   Add item image files for records of table **27 Item** to a folder on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] instance  
   
      Save the images as .jpg type, and give them names that correspond to item numbers \(as specified by the **No.** field\), such as, 1000\-v1.jpg, 1000\-v2.jpg, 1001\-v1.jpg, 1001\-v2.jpg and so on. For this example, save the files in the folder *C:\\images*.  
   
@@ -94,5 +94,5 @@ END;
 ```  
   
 ## See Also  
- [IMPORTFILE Function \(MediaSet\)](../dynamics-nav/IMPORTFILE-Function--MediaSet-.md)   
- [MediaSet Data Type](../dynamics-nav/MediaSet-Data-Type.md)
+ [IMPORTFILE Function \(MediaSet\)](IMPORTFILE-Function--MediaSet-.md)   
+ [MediaSet Data Type](MediaSet-Data-Type.md)

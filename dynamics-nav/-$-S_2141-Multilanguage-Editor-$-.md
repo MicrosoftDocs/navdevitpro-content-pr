@@ -17,7 +17,7 @@ Specifies text in multiple languages.
   
 ## Fields  
   
-|[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
 |**Language**|Specifies the language to support.|  
 |**Value**|Specifies the text string to display in the selected language.|

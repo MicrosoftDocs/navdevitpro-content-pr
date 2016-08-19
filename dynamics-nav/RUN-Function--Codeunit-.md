@@ -60,4 +60,4 @@ IF NOT AppMgmtInstance.RUN THEN
 ```  
   
 ## See Also  
- [Codeunit Data Type](../dynamics-nav/Codeunit-Data-Type.md)
+ [Codeunit Data Type](Codeunit-Data-Type.md)

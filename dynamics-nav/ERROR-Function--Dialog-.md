@@ -24,7 +24,7 @@ ERROR(String [, Value1, …])
  *String*  
  Type: Text constant or code  
   
- This string contains the text of the error message you want to display to the user. Use percent signs \(%\) or number signs \(\#\) to insert variable values into the string. Place the percent or number signs where you want to substitute the variable value. The string can be a text constant that is enabled for multilanguage functionality. For more information, see [Multilanguage Development](../dynamics-nav/Multilanguage-Development.md).  
+ This string contains the text of the error message you want to display to the user. Use percent signs \(%\) or number signs \(\#\) to insert variable values into the string. Place the percent or number signs where you want to substitute the variable value. The string can be a text constant that is enabled for multilanguage functionality. For more information, see [Multilanguage Development](Multilanguage-Development.md).  
   
  *Value1, …*  
  Type: Any  
@@ -47,7 +47,7 @@ ERROR(String [, Value1, …])
   
 -   Use a text constant for the text of the message.  
   
- For more information, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Functions](../dynamics-nav/Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Functions.md).  
+ For more information, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Functions](Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Functions.md).  
   
 ## Example  
  This example shows how to use the ERROR function. The code example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
@@ -76,7 +76,7 @@ MESSAGE(Text001); // This line is not executed.
  The ERROR function causes execution of C\/AL code to stop. The MESSAGE function is never executed.  
   
 ## See Also  
- [Dialog Data Type](../dynamics-nav/Dialog-Data-Type.md)   
- [MESSAGE Function \(Dialog\)](../dynamics-nav/MESSAGE-Function--Dialog-.md)   
- [Progress Windows, MESSAGE, ERROR, and CONFIRM Functions](../dynamics-nav/Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Functions.md)   
- [Error Handling](../dynamics-nav/Error-Handling.md)
+ [Dialog Data Type](Dialog-Data-Type.md)   
+ [MESSAGE Function \(Dialog\)](MESSAGE-Function--Dialog-.md)   
+ [Progress Windows, MESSAGE, ERROR, and CONFIRM Functions](Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Functions.md)   
+ [Error Handling](Error-Handling.md)

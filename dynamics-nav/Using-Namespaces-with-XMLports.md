@@ -11,7 +11,7 @@ caps.latest.revision: 4
 manager: edupont
 ---
 # Using Namespaces with XMLports
-When using the XMLport to import or export an XML document, you can set up multiple namespaces on the XMLport to make it compatible with the XML schema that is used system that provides or consumes [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] data. Namespaces are used to avoid XML element name conflicts. You can define multiple namespaces.  
+When using the XMLport to import or export an XML document, you can set up multiple namespaces on the XMLport to make it compatible with the XML schema that is used system that provides or consumes [!INCLUDE[navnow](includes/navnow_md.md)] data. Namespaces are used to avoid XML element name conflicts. You can define multiple namespaces.  
   
  For example, the following code is a portion of a simple XML document for transferring sales order information. The XML includes namespaces for mapping fields from the Sales Header table.  
   
@@ -45,13 +45,13 @@ When using the XMLport to import or export an XML document, you can set up multi
   
 1.  Define the namespaces in the **Namespaces** property of the XMLport.  
   
-     For each namespace, you specify a prefix and a namespace name. For more information, see [Namespaces Property](../dynamics-nav/Namespaces-Property.md).  
+     For each namespace, you specify a prefix and a namespace name. For more information, see [Namespaces Property](Namespaces-Property.md).  
   
 2.  Apply the prefixes to the XMLport elements of by setting the **NamespacePrefix** property.  
   
      You can only apply a prefix on **Element** node types, not **Attribute** node types.  
   
-     For more information, see [NamespacePrefix Property](../dynamics-nav/NamespacePrefix-Property.md).  
+     For more information, see [NamespacePrefix Property](NamespacePrefix-Property.md).  
   
  For detailed steps about how to set these properties, see [How to: Create XMLports](../Topic/How%20to:%20Create%20XMLports.md).  
   
@@ -62,13 +62,13 @@ When using the XMLport to import or export an XML document, you can set up multi
   
 -   Specify the namespace in the **DefaultNamespace** property, and set the **UseDefaultNamespace** property to **Yes**.  
   
-     For more information, see [DefaultNamespace Property](../dynamics-nav/DefaultNamespace-Property.md) and [UseDefaultNamespace Property](../dynamics-nav/UseDefaultNamespace-Property.md).  
+     For more information, see [DefaultNamespace Property](DefaultNamespace-Property.md) and [UseDefaultNamespace Property](UseDefaultNamespace-Property.md).  
   
 > [!NOTE]  
 >  There can only be on default namespace. Therefore, if you specify the default namespace in the **Namespace** property, you must set the **UseDefaultNamespace** property to **No**. If you want to use the default namespace that is defined in the **DefaultNamespace** property, you cannot define a default namespace in the **Namespace** property.  
   
 ## XMLport Example  
- The following example creates an XMLport that supports the XML document example in the introduction of this topic. Copy the code into a text editor, such as Notepad, save the file as .txt type file, and then import the file in the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)].  
+ The following example creates an XMLport that supports the XML document example in the introduction of this topic. Copy the code into a text editor, such as Notepad, save the file as .txt type file, and then import the file in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
   
 ```  
 OBJECT XMLport 90010 Sales Document Sample  
@@ -147,4 +147,4 @@ OBJECT XMLport 90010 Sales Document Sample
 ```  
   
 ## See Also  
- [Designing XMLports](../dynamics-nav/Designing-XMLports.md)
+ [Designing XMLports](Designing-XMLports.md)

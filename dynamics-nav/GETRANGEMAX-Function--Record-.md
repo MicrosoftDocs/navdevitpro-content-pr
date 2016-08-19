@@ -121,5 +121,5 @@ MESSAGE(Text000, Val);
  This example causes a run\-time error to occur.  
   
 ## See Also  
- [GETRANGEMIN Function \(Record\)](../dynamics-nav/GETRANGEMIN-Function--Record-.md)   
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [GETRANGEMIN Function \(Record\)](GETRANGEMIN-Function--Record-.md)   
+ [Record Data Type](Record-Data-Type.md)

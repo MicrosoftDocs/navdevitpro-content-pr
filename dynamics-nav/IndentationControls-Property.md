@@ -26,7 +26,7 @@ Sets which columns \(controls\) are indented in a list.
 >  When indentation is specified, it is no longer possible to use sorting on the columns in the repeater control.  
   
 > [!NOTE]  
->  [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] supports indentation on one column only. If you specify more than one column in the IndentationControls property, only the first column is used when the page is displayed in [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)].  
+>  [!INCLUDE[nav_web](includes/nav_web_md.md)] supports indentation on one column only. If you specify more than one column in the IndentationControls property, only the first column is used when the page is displayed in [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
 ## See Also  
- [IndentationColumnName Property](../dynamics-nav/IndentationColumnName-Property.md)
+ [IndentationColumnName Property](IndentationColumnName-Property.md)

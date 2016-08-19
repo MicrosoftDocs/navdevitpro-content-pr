@@ -19,7 +19,7 @@ Many of the triggers in codeunit 1, Application Management, are not important fo
   
  By default, the debugger is set to skip codeunit 1.  
   
- For more information about how to open the **Debugger** window, see [Activating the Debugger](../dynamics-nav/Activating-the-Debugger.md).  
+ For more information about how to open the **Debugger** window, see [Activating the Debugger](Activating-the-Debugger.md).  
   
 ### To skip codeunit 1  
   
@@ -28,6 +28,6 @@ Many of the triggers in codeunit 1, Application Management, are not important fo
 2.  In the **Debugger Break Rules** window, select the **Skip Codeunit 1** check box, and then choose the **OK** button.  
   
 ## See Also  
- [Breakpoints](../dynamics-nav/Breakpoints.md)   
+ [Breakpoints](Breakpoints.md)   
  [How to: Break on Errors](../Topic/How%20to:%20Break%20on%20Errors.md)   
  [How to: Break on Record Changes](../Topic/How%20to:%20Break%20on%20Record%20Changes.md)

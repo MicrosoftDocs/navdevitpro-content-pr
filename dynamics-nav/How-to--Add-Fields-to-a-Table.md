@@ -34,5 +34,5 @@ Designing a field means assigning a number of characteristics to it. These chara
 3.  In the first empty row, enter a **Field Name** and a **Field No**. Enter a **Data type** and appropriate **Length**. **Description** is optional.  
   
 ## See Also  
- [Page Properties](../dynamics-nav/Page-Properties.md)   
- [Field Data Types](../dynamics-nav/Field-Data-Types.md)
+ [Page Properties](Page-Properties.md)   
+ [Field Data Types](Field-Data-Types.md)

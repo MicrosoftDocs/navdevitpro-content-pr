@@ -11,11 +11,11 @@ caps.latest.revision: 13
 manager: terryaus
 ---
 # FlowFields
-FlowFields display the result of the calculation described in the [CalcFormula Property](../dynamics-nav/CalcFormula-Property.md). For example, the Account Balance field in the General Ledger Account table shows the balance of the account and is calculated as the sum of the NetAmount fields for all General Journal entries in the account.  
+FlowFields display the result of the calculation described in the [CalcFormula Property](CalcFormula-Property.md). For example, the Account Balance field in the General Ledger Account table shows the balance of the account and is calculated as the sum of the NetAmount fields for all General Journal entries in the account.  
   
  FlowFields increase performance in activities such as calculating the balance of your customers. In traditional database systems, this involves a series of accesses and calculations before a result is available. By using FlowFields, the result is immediately available.  
   
- FlowFields are not physical fields that are stored in the database. They are a description of a calculation and a location for the result to be displayed. Because the information in FlowFields exists only at run time, values in FlowFields are automatically initialized to 0 \(zero\). To update a FlowField, use the [CALCFIELDS Function \(Record\)](../dynamics-nav/CALCFIELDS-Function--Record-.md). If a FlowField is the direct source expression of a control on a page, then the FlowField is automatically calculated when the page is displayed.  
+ FlowFields are not physical fields that are stored in the database. They are a description of a calculation and a location for the result to be displayed. Because the information in FlowFields exists only at run time, values in FlowFields are automatically initialized to 0 \(zero\). To update a FlowField, use the [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md). If a FlowField is the direct source expression of a control on a page, then the FlowField is automatically calculated when the page is displayed.  
   
 ## FlowField Types  
  There are seven types of FlowFields. Each is described in the following table.  
@@ -33,7 +33,7 @@ FlowFields display the result of the calculation described in the [CalcFormula P
 ### Example  
  Consider the Customer table in the following illustration. This table contains two FlowFields. The field named Any Entries is a FlowField of the Exist type, and the Balance field is a FlowField of the Sum type.  
   
- ![Table that has two FlowFields](../dynamics-nav/media/NAV_ADG_Diag_3.png "NAV\_ADG\_Diag\_3")  
+ ![Table that has two FlowFields](media/NAV_ADG_Diag_3.png "NAV\_ADG\_Diag\_3")  
   
  The figure shows that the value in the Balance FlowField for customer number 10000 \(Windy City Solutions\) is retrieved from the Amount column in the Customer Entry table. The value is the sum of the amount fields for the entries that have the customer number 10000.  
   
@@ -57,6 +57,6 @@ Exist("Customer Entries" WHERE(CustNo=FIELD(CustNo)))
   
 ## See Also  
  [How to: Create a FlowField](../Topic/How%20to:%20Create%20a%20FlowField.md)   
- [SumIndexField Technology \(SIFT\)](../dynamics-nav/SumIndexField-Technology--SIFT-.md)   
- [FieldClass Property](../dynamics-nav/FieldClass-Property.md)   
- [CALCFIELDS Function \(Record\)](../dynamics-nav/CALCFIELDS-Function--Record-.md)
+ [SumIndexField Technology \(SIFT\)](SumIndexField-Technology--SIFT-.md)   
+ [FieldClass Property](FieldClass-Property.md)   
+ [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md)

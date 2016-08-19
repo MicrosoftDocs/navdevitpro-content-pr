@@ -18,19 +18,19 @@ Converts a key to a record ID. The key is always part of the page result.
   
 ## Parameters  
   
-|Parameter|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|Parameter|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------|---------------------------------------|  
 |*key*|Type: String<br /><br /> The bookmark of the record that includes both primary key and concurrency information.|  
   
 ## Results  
   
-|Result name|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|Result name|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-----------------|---------------------------------------|  
 |*String*|Type: String<br /><br /> The record ID that was obtained from the key.|  
   
 ## Faults  
   
-|SOAP fault message|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|SOAP fault message|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |------------------------|---------------------------------------|  
 |\[*record name*\] \[*field*\] \[*value*\] does not exist.|Indicates that the record has been deleted by another user or process after it has been retrieved for this operation.|  
   
@@ -46,4 +46,4 @@ cust = service.ReadByRecId(id.ToUpper());
 ```  
   
 ## See Also  
- [Basic Page Operations](../dynamics-nav/Basic-Page-Operations.md)
+ [Basic Page Operations](Basic-Page-Operations.md)

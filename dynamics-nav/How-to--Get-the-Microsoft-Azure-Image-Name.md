@@ -10,7 +10,7 @@ ms.assetid: 81172ef7-24b4-44f0-8fa2-5a00ed960fb9
 caps.latest.revision: 4
 ---
 # How to: Get the Microsoft Azure Image Name
-This topic describes how to get the name of the Microsoft Azure Marketplace image. When you use the [!INCLUDE[nav_prov_short](../dynamics-nav/includes/nav_prov_short_md.md)] to deploy [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] on Azure, you must provide the image name in the Set\-PartnerSetting file or Set\-PartnerSettings\-Custom file.  
+This topic describes how to get the name of the Microsoft Azure Marketplace image. When you use the [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)] to deploy [!INCLUDE[navnow](includes/navnow_md.md)] on Azure, you must provide the image name in the Set\-PartnerSetting file or Set\-PartnerSettings\-Custom file.  
   
 > [!NOTE]  
 >  The name that appears for an image in the Azure Marketplace is a user\-friendly label and not necessarily the same as the image name that is required in the Set\-PartnerSetting file or Set\-PartnerSettings\-Custom file.  
@@ -54,5 +54,5 @@ This topic describes how to get the name of the Microsoft Azure Marketplace imag
   
 ## See Also  
  [Modifying the Parameter Settings](../Topic/How%20to:%20Deploy%20Microsoft%20Dynamics%20NAV%20on%20Microsoft%20Azure%20by%20Using%20the%20Example%20Scripts.md#SetSettings)   
- [Deploying Microsoft Dynamics NAV Using the Example Scripts](../dynamics-nav/Deploying-Microsoft-Dynamics-NAV-Using-the-Example-Scripts.md)   
- [Preparing a Microsoft Azure Virtual Machine Image for Microsoft Dynamics NAV](../dynamics-nav/Preparing-a-Microsoft-Azure-Virtual-Machine-Image-for-Microsoft-Dynamics-NAV.md)
+ [Deploying Microsoft Dynamics NAV Using the Example Scripts](Deploying-Microsoft-Dynamics-NAV-Using-the-Example-Scripts.md)   
+ [Preparing a Microsoft Azure Virtual Machine Image for Microsoft Dynamics NAV](Preparing-a-Microsoft-Azure-Virtual-Machine-Image-for-Microsoft-Dynamics-NAV.md)

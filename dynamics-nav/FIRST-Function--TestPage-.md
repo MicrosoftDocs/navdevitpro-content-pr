@@ -43,4 +43,4 @@ MESSAGE(CustomerList.Name.Value);
 ```  
   
 ## See Also  
- [TestPage Functions](../dynamics-nav/TestPage-Functions.md)
+ [TestPage Functions](TestPage-Functions.md)

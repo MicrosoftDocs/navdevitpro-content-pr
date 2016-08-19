@@ -17,9 +17,9 @@ A codeunit is a container for C\/AL code that you can use in many application ob
   
 |To|See|  
 |--------|---------|  
-|Learn the purpose and function of codeunits.|[Understanding Codeunits](../dynamics-nav/Understanding-Codeunits.md)|  
-|Learn how to use the C\/AL Editor.|[Creating and Modifying Codeunits](../dynamics-nav/Creating-and-Modifying-Codeunits.md)|  
-|Learn how to access codeunits and limitations of codeunits.|[Using Codeunits](../dynamics-nav/Using-Codeunits.md)|  
+|Learn the purpose and function of codeunits.|[Understanding Codeunits](Understanding-Codeunits.md)|  
+|Learn how to use the C\/AL Editor.|[Creating and Modifying Codeunits](Creating-and-Modifying-Codeunits.md)|  
+|Learn how to access codeunits and limitations of codeunits.|[Using Codeunits](Using-Codeunits.md)|  
 |Follow step\-by\-step procedures that show how to use codeunits.|[Walkthrough: Using Codeunits](../Topic/Walkthrough:%20Using%20Codeunits.md)|  
   
 ## Developing Codeunits  

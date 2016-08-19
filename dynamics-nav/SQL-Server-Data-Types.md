@@ -11,7 +11,7 @@ caps.latest.revision: 10
 manager: terryaus
 ---
 # SQL Server Data Types
-Every available [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] data type is mapped to an appropriate SQL Server data type. The following table shows which SQL Server data type is used for the corresponding Microsoft Dynamics NAV data type.  
+Every available [!INCLUDE[navnow](includes/navnow_md.md)] data type is mapped to an appropriate SQL Server data type. The following table shows which SQL Server data type is used for the corresponding Microsoft Dynamics NAV data type.  
   
 |Microsoft Dynamics NAV Data Type|SQL Server Data Type|  
 |--------------------------------------|--------------------------|  

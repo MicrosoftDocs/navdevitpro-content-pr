@@ -14,11 +14,11 @@ manager: terryaus
 Specifies which changes to the database to roll back after the tests in the test runner codeunit execute.  
   
 ## Applies To  
- Test runner codeunits. A test runner codeunit has the [SubType Property \(Codeunit\)](../dynamics-nav/SubType-Property--Codeunit-.md) set to **TestRunner**.  
+ Test runner codeunits. A test runner codeunit has the [SubType Property \(Codeunit\)](SubType-Property--Codeunit-.md) set to **TestRunner**.  
   
 ## Property Value  
   
-|Value|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|Value|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-----------|---------------------------------------|  
 |Disabled|Do not roll back any changes to the database. Tests are not isolated from each other.<br /><br /> This is the default value.|  
 |Codeunit|Roll back all changes to the database after each test codeunit executes.|  
@@ -32,4 +32,4 @@ Specifies which changes to the database to roll back after the tests in the test
   
 ## See Also  
  [How to: Create a Test Runner Codeunit](../Topic/How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md)   
- [Testing the Application](../dynamics-nav/Testing-the-Application.md)
+ [Testing the Application](Testing-the-Application.md)

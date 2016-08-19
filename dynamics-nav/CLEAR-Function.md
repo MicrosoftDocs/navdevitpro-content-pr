@@ -37,15 +37,15 @@ CLEAR(Variable)
 -   A Boolean variable is set to FALSE  
   
 ## Remarks  
- Use the [CLEARALL Function](../dynamics-nav/CLEARALL-Function.md) to clear all internal variables, keys, and filters in the object and in any associated objects such as reports, pages, and codeunits that contain C\/AL code. Note, however, that **CLEARALL** does not affect or change values for variables in single instance codeunits.  
+ Use the [CLEARALL Function](CLEARALL-Function.md) to clear all internal variables, keys, and filters in the object and in any associated objects such as reports, pages, and codeunits that contain C\/AL code. Note, however, that **CLEARALL** does not affect or change values for variables in single instance codeunits.  
   
- For a composite data type, such as a record or an array, all elements are cleared. Furthermore, all fields in a record will be initialized with the [InitValue Property](../dynamics-nav/InitValue-Property.md) of the field.  
+ For a composite data type, such as a record or an array, all elements are cleared. Furthermore, all fields in a record will be initialized with the [InitValue Property](InitValue-Property.md) of the field.  
   
- **CLEAR** can also be used on the [GUID Data Type](../dynamics-nav/GUID-Data-Type.md). It converts the GUID to zeros. Use the [CREATEGUID Function \(GUID\)](../dynamics-nav/CREATEGUID-Function--GUID-.md) to create a new unique GUID.  
+ **CLEAR** can also be used on the [GUID Data Type](GUID-Data-Type.md). It converts the GUID to zeros. Use the [CREATEGUID Function \(GUID\)](CREATEGUID-Function--GUID-.md) to create a new unique GUID.  
   
- **CLEAR** can also be used to deselect a company. For more information, see [CHANGECOMPANY Function \(Record\)](../dynamics-nav/CHANGECOMPANY-Function--Record-.md).  
+ **CLEAR** can also be used to deselect a company. For more information, see [CHANGECOMPANY Function \(Record\)](CHANGECOMPANY-Function--Record-.md).  
   
- For an Automation object, **CLEAR** releases the Automation object and decreases the reference count. The Automation server determines if this should cause a shutdown. After **CLEAR**, you can use the [CREATE Function \(Automation\)](../dynamics-nav/CREATE-Function--Automation-.md) on the Automation variable to create a new instance of the object.  
+ For an Automation object, **CLEAR** releases the Automation object and decreases the reference count. The Automation server determines if this should cause a shutdown. After **CLEAR**, you can use the [CREATE Function \(Automation\)](CREATE-Function--Automation-.md) on the Automation variable to create a new instance of the object.  
   
  If you use **CLEAR** on a codeunit, only the reference to the codeunit is deleted and not the codeunit itself, as with Automation objects. This means that the content of the codeunit stays intact.  
   
@@ -136,6 +136,6 @@ MESSAGE(Text005,MyTextVar,GuidVar);
  **Using CLEARALL results in an empty "MyTextVar" \>\< and an undefined "GuidVar"**  
   
 ## See Also  
- [CLEARALL Function](../dynamics-nav/CLEARALL-Function.md)   
- [COPYSTREAM Function](../dynamics-nav/COPYSTREAM-Function.md)   
- [EVALUATE Function](../dynamics-nav/EVALUATE-Function.md)
+ [CLEARALL Function](CLEARALL-Function.md)   
+ [COPYSTREAM Function](COPYSTREAM-Function.md)   
+ [EVALUATE Function](EVALUATE-Function.md)

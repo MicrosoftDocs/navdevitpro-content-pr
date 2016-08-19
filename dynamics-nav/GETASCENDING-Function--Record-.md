@@ -38,5 +38,5 @@ OK:= Record.GETASCENDING(Field)
  **true**, if the specified filed is sorted in ascending order; otherwise **false**.  
   
 ## See Also  
- [SETASCENDING Function \(Record\)](../dynamics-nav/SETASCENDING-Function--Record-.md)   
- [OData Web Services](../dynamics-nav/OData-Web-Services.md)
+ [SETASCENDING Function \(Record\)](SETASCENDING-Function--Record-.md)   
+ [OData Web Services](OData-Web-Services.md)

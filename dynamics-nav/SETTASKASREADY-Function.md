@@ -41,7 +41,7 @@ Sets a task that runs a codeunit to the ready state. The task will not run unles
  **true** if a task has been set to ready; otherwise, **false**.  
   
 ## Remarks  
- For more information about tasks and **TASKSCEDULER** data type functions, see managing tasks [Task Scheduler](../dynamics-nav/Task-Scheduler.md).  
+ For more information about tasks and **TASKSCEDULER** data type functions, see managing tasks [Task Scheduler](Task-Scheduler.md).  
   
 ## Example  
  The following example creates a task, and then uses the SETTASKASREADY function to set the task to ready.  
@@ -58,7 +58,7 @@ TASKSCHEDULER.SETTASKASREADY(taskID);
 ```  
   
 ## See Also  
- [TaskScheduler Data Type](../dynamics-nav/TaskScheduler-Data-Type.md)   
- [CREATETASK Function](../dynamics-nav/CREATETASK-Function.md)   
- [CANCELTASK Function](../dynamics-nav/CANCELTASK-Function.md)   
- [TASKEXISTS Function](../dynamics-nav/TASKEXISTS-Function.md)
+ [TaskScheduler Data Type](TaskScheduler-Data-Type.md)   
+ [CREATETASK Function](CREATETASK-Function.md)   
+ [CANCELTASK Function](CANCELTASK-Function.md)   
+ [TASKEXISTS Function](TASKEXISTS-Function.md)

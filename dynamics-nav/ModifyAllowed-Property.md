@@ -21,4 +21,4 @@ Sets the value to determine whether users can modify records while using this pa
  **Yes** if you want to allow the users to modify records; otherwise, **No**. The default is **Yes**.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

@@ -21,4 +21,4 @@ Sets a value that specifies whether a user must leave a record before it is inse
  **Yes** if the record is inserted when the user leaves the record; otherwise, **No** if the record is inserted when the user leaves the control that shows the primary key. The default value is **No**.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

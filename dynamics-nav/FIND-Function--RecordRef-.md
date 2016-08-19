@@ -55,7 +55,7 @@ Finds a record in a table based on the values stored in the key fields.
  FIND retrieves the first record that meets the conditions set by the *Which* parameter and the filters associated with the record. The search path reflects the sort order defined by the current key. If the current key is not the primary key, there is a chance that several records might have the same values in current key fields. If this occurs, the sort order defined by the primary key is used as the search path.  
   
 ## Example  
- The following example opens table 18 \(Customer\) as a RecordRef variable named CustomerRecref. The value for the field 1 \(No.\) is set to a specified record. In this example, the field is set to record 40000. The code uses the FIND function to find the record that matches. 40000 in the table. If the record is found, the number, name, address and city of the customer are displayed in message boxes. The values in the fields are retrieved by using the [FIELD Function \(RecordRef\)](../dynamics-nav/FIELD-Function--RecordRef-.md). This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ The following example opens table 18 \(Customer\) as a RecordRef variable named CustomerRecref. The value for the field 1 \(No.\) is set to a specified record. In this example, the field is set to record 40000. The code uses the FIND function to find the record that matches. 40000 in the table. If the record is found, the number, name, address and city of the customer are displayed in message boxes. The values in the fields are retrieved by using the [FIELD Function \(RecordRef\)](FIELD-Function--RecordRef-.md). This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
   
 |Name|DataType|  
 |----------|--------------|  
@@ -84,4 +84,4 @@ ELSE
 ```  
   
 ## See Also  
- [RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md)
+ [RecordRef Data Type](RecordRef-Data-Type.md)

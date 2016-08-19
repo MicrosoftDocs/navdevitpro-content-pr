@@ -31,4 +31,4 @@ Ok := TestPage.ISEXPANDED;
  **true** if the rows are expanded; otherwise, **false**.  
   
 ## See Also  
- [TestPage Functions](../dynamics-nav/TestPage-Functions.md)
+ [TestPage Functions](TestPage-Functions.md)

@@ -11,9 +11,9 @@ caps.latest.revision: 21
 manager: terryaus
 ---
 # Developing Multilanguage-Enabled Applications
-[!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] is enabled for multilanguage development by default. If you make sure that the names of objects are in English and all objects have values in the CaptionML property, your solution can be translated to other languages if you deploy your solution to other markets. Even if you do not have customers outside your own country\/region, it is easier for you to upgrade to a new version of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] if your code follows the same multilanguage\-enabled structure as the standard version of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+[!INCLUDE[navnow](includes/navnow_md.md)] is enabled for multilanguage development by default. If you make sure that the names of objects are in English and all objects have values in the CaptionML property, your solution can be translated to other languages if you deploy your solution to other markets. Even if you do not have customers outside your own country\/region, it is easier for you to upgrade to a new version of [!INCLUDE[navnow](includes/navnow_md.md)] if your code follows the same multilanguage\-enabled structure as the standard version of [!INCLUDE[navnow](includes/navnow_md.md)].  
   
- When you compile application objects that include multilanguage captions, [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] converts each CaptionML value into Unicode based on the specified language. For example, a text constant has the following CaptionML values: `DAN=Danish text;ENU=English text`. The Danish caption is converted based on code page 865, and the English \(United States\) caption is converted based on code page 437. If you have text that is not stored as a multilanguage caption, the text will be converted using the code page for the language that is specified for non\-Unicode programs in the regional settings on the computer. Similarly, because [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] assumes that object names are English \(United States\), if you specify names in other languages, they may not display correctly after you compile the object.  
+ When you compile application objects that include multilanguage captions, [!INCLUDE[navnow](includes/navnow_md.md)] converts each CaptionML value into Unicode based on the specified language. For example, a text constant has the following CaptionML values: `DAN=Danish text;ENU=English text`. The Danish caption is converted based on code page 865, and the English \(United States\) caption is converted based on code page 437. If you have text that is not stored as a multilanguage caption, the text will be converted using the code page for the language that is specified for non\-Unicode programs in the regional settings on the computer. Similarly, because [!INCLUDE[navnow](includes/navnow_md.md)] assumes that object names are English \(United States\), if you specify names in other languages, they may not display correctly after you compile the object.  
   
  When you are developing in a multilanguage\-enabled environment, we recommend that you:  
   
@@ -28,10 +28,10 @@ manager: terryaus
 -   [Use the DateFormula data type instead of Text or Code for date formulas](#Date)  
   
 ##  <a name="App"></a> Setting the Language to English \(United States\)  
- Before you start working in a multilanguage\-enabled database, you should set the language to English \(United States\). In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Language**, choose **English \(United States\)**, and then choose **OK**.  
+ Before you start working in a multilanguage\-enabled database, you should set the language to English \(United States\). In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Language**, choose **English \(United States\)**, and then choose **OK**.  
   
 ##  <a name="Name"></a> Name Property  
- In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], the code base is in English \(United States\). This means that the [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md) of objects must always be in English \(United States\).  
+ In [!INCLUDE[navnow](includes/navnow_md.md)], the code base is in English \(United States\). This means that the [Name Property\-duplicate](Name-Property-duplicate.md) of objects must always be in English \(United States\).  
   
  The code base in English \(United States\) includes the following:  
   
@@ -52,22 +52,22 @@ manager: terryaus
   
  The most common use of text constants is to define the strings that are used as parameters in the following functions:  
   
--   [ERROR Function \(Dialog\)](../dynamics-nav/ERROR-Function--Dialog-.md)  
+-   [ERROR Function \(Dialog\)](ERROR-Function--Dialog-.md)  
   
--   [MESSAGE Function \(Dialog\)](../dynamics-nav/MESSAGE-Function--Dialog-.md)  
+-   [MESSAGE Function \(Dialog\)](MESSAGE-Function--Dialog-.md)  
   
--   [CONFIRM Function \(Dialog\)](../dynamics-nav/CONFIRM-Function--Dialog-.md)  
+-   [CONFIRM Function \(Dialog\)](CONFIRM-Function--Dialog-.md)  
   
--   [STRMENU Function \(Dialog\)](../dynamics-nav/STRMENU-Function--Dialog-.md)  
+-   [STRMENU Function \(Dialog\)](STRMENU-Function--Dialog-.md)  
   
  You define text constants in the **C\/AL Globals** or **C\/AL Locals** window. When you enter a string in the **ConstValue** field, this value is automatically entered as the **ConstValueML** value for the currently selected language. You can enter a string for other languages by choosing the **AssistEdit** button in the **ConstValue** field. This opens the Multilanguage Editor. For more information, see [How to: Enter Text in the Multilanguage Editor](../Topic/How%20to:%20Enter%20Text%20in%20the%20Multilanguage%20Editor.md).  
   
- Text constants are automatically assigned unique IDs according to the number ranges listed in [Number Ranges for Text Constants](../dynamics-nav/Number-Ranges-for-Text-Constants.md). To see the ID for a text constant, open the **C\/AL Globals** or **C\/AL Locals** window where the text constant is defined, and select the text constant. On the **View** menu, choose **Properties**.  
+ Text constants are automatically assigned unique IDs according to the number ranges listed in [Number Ranges for Text Constants](Number-Ranges-for-Text-Constants.md). To see the ID for a text constant, open the **C\/AL Globals** or **C\/AL Locals** window where the text constant is defined, and select the text constant. On the **View** menu, choose **Properties**.  
   
  When you are working in the C\/AL Editor, if you place the cursor on a text constant, then the value of the text constant in the current language is shown in the message line in the language that you have selected as the language.  
   
 ##  <a name="Caption"></a> Caption and CaptionML Properties  
- Everything that is displayed to the user must have a [Caption Property\-duplicate](../dynamics-nav/Caption-Property-duplicate.md). The **Name** property must always be English \(United States\), but you use the **Caption** property to show the name in the language of the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)]. The **Caption** property copies the value for the language that you have specified for the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)] from the [CaptionML Property](../dynamics-nav/CaptionML-Property.md).  
+ Everything that is displayed to the user must have a [Caption Property\-duplicate](Caption-Property-duplicate.md). The **Name** property must always be English \(United States\), but you use the **Caption** property to show the name in the language of the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. The **Caption** property copies the value for the language that you have specified for the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] from the [CaptionML Property](CaptionML-Property.md).  
   
  The **CaptionML** property allows you to add captions in multiple languages. An example is table 37, field 1, which has the following **CaptionML** values:  
   
@@ -75,7 +75,7 @@ manager: terryaus
   
  These correspond to values for English \(United States\), Spanish \(Mexico\), French \(Canada\), and English \(Canada\).  
   
- If the language in the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)] is English \(United States\), then the value of the **Caption** property is `Document Type`. If the language is Spanish \(Mexico\), then the value of the **Caption** field is `Tipo documento`.  
+ If the language in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] is English \(United States\), then the value of the **Caption** property is `Document Type`. If the language is Spanish \(Mexico\), then the value of the **Caption** field is `Tipo documento`.  
   
  To add captions in different languages, you can either enter values directly in the **Value** field of the **CaptionML** property, or you can choose the **AssistEdit** button to open the Multilanguage Editor. For more information, see [How to: Enter Text in the Multilanguage Editor](../Topic/How%20to:%20Enter%20Text%20in%20the%20Multilanguage%20Editor.md).  
   
@@ -136,13 +136,13 @@ NewStr := STRSUBSTNO(Text000, SelStr);
 ```  
   
 ##  <a name="Date"></a> Date Formulas  
- In a multilanguage application, if a table contains a date formula field, then you should verify that the field is of the [DateFormula Data Type](../dynamics-nav/DateFormula-Data-Type.md) and not the [Text Data Type](../dynamics-nav/Text-Data-Type.md) or [Code Data Type](../dynamics-nav/Code-Data-Type.md). A date formula that is stored as a DateFormula data type is converted to a non\-language\-dependent format.  
+ In a multilanguage application, if a table contains a date formula field, then you should verify that the field is of the [DateFormula Data Type](DateFormula-Data-Type.md) and not the [Text Data Type](Text-Data-Type.md) or [Code Data Type](Code-Data-Type.md). A date formula that is stored as a DateFormula data type is converted to a non\-language\-dependent format.  
   
- Similarly, in a multilanguage application, if you use the [CALCDATE Function \(Date\)](../dynamics-nav/CALCDATE-Function--Date-.md) and if you use a variable for the *DateExpression* parameter, then you should verify that the variable is of the DateFormula data type so that it is stored in a non\-language\-dependent format. If you specify a string for the *DateExpression* parameter, then you should use angle brackets \(\< \>\) around the date formula so that date formula is stored in a non\-language dependent format. In this way, the calculation will be the same regardless of which application language the user has selected.  
+ Similarly, in a multilanguage application, if you use the [CALCDATE Function \(Date\)](CALCDATE-Function--Date-.md) and if you use a variable for the *DateExpression* parameter, then you should verify that the variable is of the DateFormula data type so that it is stored in a non\-language\-dependent format. If you specify a string for the *DateExpression* parameter, then you should use angle brackets \(\< \>\) around the date formula so that date formula is stored in a non\-language dependent format. In this way, the calculation will be the same regardless of which application language the user has selected.  
   
  For example, if a user who has the application language set to English \(United States\) enters a date formula '1W\+1D' into a field that is of the DateFormula data type, then to a different user who has the application language set to French \(France\), that field is displayed as '1S\+1J'.  
   
 ## See Also  
- [Multilanguage Development](../dynamics-nav/Multilanguage-Development.md)   
+ [Multilanguage Development](Multilanguage-Development.md)   
  [How to: View Names and Captions](../Topic/How%20to:%20View%20Names%20and%20Captions.md)   
- [Multiple Document Languages](../dynamics-nav/Multiple-Document-Languages.md)
+ [Multiple Document Languages](Multiple-Document-Languages.md)

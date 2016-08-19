@@ -21,15 +21,15 @@ CLEARALL
 ```  
   
 ## Remarks  
- CLEARALL works by calling the [CLEAR Function](../dynamics-nav/CLEAR-Function.md) repeatedly on each variable. However, this is not the case with codeunits, where the CLEARALL function works by calling CLEARALL inside the codeunit. It deletes the contents of the codeunit, whereas CLEAR only deletes the reference to the codeunit.  
+ CLEARALL works by calling the [CLEAR Function](CLEAR-Function.md) repeatedly on each variable. However, this is not the case with codeunits, where the CLEARALL function works by calling CLEARALL inside the codeunit. It deletes the contents of the codeunit, whereas CLEAR only deletes the reference to the codeunit.  
   
  CLEARALL does not affect or change values for variables in single instance codeunits.  
   
  When a function is called repeatedly in the same transaction, the system retains all values for variables and filters in memory between calls. For example, this is used to assign numbers to entry numbers when posting. When you do not want to retain the values in memory, use the CLEARALL function to clear them.  
   
- For information about the initial values of cleared variables, see the [CLEAR Function](../dynamics-nav/CLEAR-Function.md). Take into consideration that fields in a record will be initialized with the [InitValue Property](../dynamics-nav/InitValue-Property.md) of the field.  
+ For information about the initial values of cleared variables, see the [CLEAR Function](CLEAR-Function.md). Take into consideration that fields in a record will be initialized with the [InitValue Property](InitValue-Property.md) of the field.  
   
 ## See Also  
- [CLEAR Function](../dynamics-nav/CLEAR-Function.md)   
- [COPYSTREAM Function](../dynamics-nav/COPYSTREAM-Function.md)   
- [EVALUATE Function](../dynamics-nav/EVALUATE-Function.md)
+ [CLEAR Function](CLEAR-Function.md)   
+ [COPYSTREAM Function](COPYSTREAM-Function.md)   
+ [EVALUATE Function](EVALUATE-Function.md)

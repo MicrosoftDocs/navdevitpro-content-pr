@@ -21,5 +21,5 @@ This topic describes the C\/AL triggers that are available for queries. Triggers
 |OnBeforeOpen|Before the query object is run and the dataset is generated. For example, you can use the **OnBeforeOpen** trigger to apply filters using the **SETFILTER** function.|  
   
 ## See Also  
- [Queries](../dynamics-nav/Queries.md)   
- [SETFILTER Function \(Query\)](../dynamics-nav/SETFILTER-Function--Query-.md)
+ [Queries](Queries.md)   
+ [SETFILTER Function \(Query\)](SETFILTER-Function--Query-.md)

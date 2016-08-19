@@ -31,7 +31,7 @@ No := KeyRef.FIELDCOUNT
  The number of fields that have been defined in the key.  
   
 ## Example  
- The following example retrieves the number of fields that are defined in a key in record. The table with ID 18 \(the Customer table\) is open with a reference to table 18. The [KEYINDEX Function \(RecordRef\)](../dynamics-nav/KEYINDEX-Function--RecordRef-.md) function retrieves the second key in the record and store the *KeyRef* in the varKeyRef variable. The [FIELDCOUNT Function \(KEYREF\)](../dynamics-nav/FIELDCOUNT-Function--KeyRef-.md) is then used to return the number of fields defined in the key and displayed in a message box. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ The following example retrieves the number of fields that are defined in a key in record. The table with ID 18 \(the Customer table\) is open with a reference to table 18. The [KEYINDEX Function \(RecordRef\)](KEYINDEX-Function--RecordRef-.md) function retrieves the second key in the record and store the *KeyRef* in the varKeyRef variable. The [FIELDCOUNT Function \(KEYREF\)](FIELDCOUNT-Function--KeyRef-.md) is then used to return the number of fields defined in the key and displayed in a message box. This example requires that you create the following variables in the **C\/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -48,4 +48,4 @@ MESSAGE('The number of fields defined in the key is: %1', VarCount);
 ```  
   
 ## See Also  
- [KeyRef Data Type](../dynamics-nav/KeyRef-Data-Type.md)
+ [KeyRef Data Type](KeyRef-Data-Type.md)

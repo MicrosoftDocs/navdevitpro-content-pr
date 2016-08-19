@@ -29,7 +29,7 @@ Ok := Variant.ISTIME
  **true** if the C\/AL variant contains a Time variable; otherwise, **false**.  
   
 ## Example  
- The following example determines whether a C\/AL variant contains a time variable. The code initializes the MyTime variable with a Time value. The MyTime variable is assigned to the variant variable that is named MyVariant. The **ISTIME** function determines whether the variant contains a Time variable and stores the return value in the varResult variable. In this case, the variant contains a Time variable so **Yes** is returned and displayed in a message box. The [ISCODE Function \(Variant\)](../dynamics-nav/ISCODE-Function--Variant-.md) determines whether the variant contains a Code variable. The return value is **No** because the variant does not contain a code. This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ The following example determines whether a C\/AL variant contains a time variable. The code initializes the MyTime variable with a Time value. The MyTime variable is assigned to the variant variable that is named MyVariant. The **ISTIME** function determines whether the variant contains a Time variable and stores the return value in the varResult variable. In this case, the variant contains a Time variable so **Yes** is returned and displayed in a message box. The [ISCODE Function \(Variant\)](ISCODE-Function--Variant-.md) determines whether the variant contains a Code variable. The return value is **No** because the variant does not contain a code. This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -52,4 +52,4 @@ MESSAGE(Text001,MyVariant,varResult);
 ```  
   
 ## See Also  
- [Variant Data Type](../dynamics-nav/Variant-Data-Type.md)
+ [Variant Data Type](Variant-Data-Type.md)

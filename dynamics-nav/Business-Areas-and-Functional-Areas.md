@@ -11,7 +11,7 @@ caps.latest.revision: 9
 manager: pchapman
 ---
 # Business Areas and Functional Areas
-[!INCLUDE[nav_current_short](../dynamics-nav/includes/nav_current_short_md.md)] is divided into several business areas. Each business area consists of a number of functional areas.  
+[!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] is divided into several business areas. Each business area consists of a number of functional areas.  
   
 ## Business Areas and Functional Areas  
  The following table shows all of the business areas and functional areas. Each functional area represents an important field of activity.  
@@ -30,4 +30,4 @@ manager: pchapman
 |IT Administrator|Application Setup<br /><br /> IT Administration|  
   
 ## See Also  
- [Granules Available in the General Ledger](../dynamics-nav/Granules-Available-in-the-General-Ledger.md)
+ [Granules Available in the General Ledger](Granules-Available-in-the-General-Ledger.md)

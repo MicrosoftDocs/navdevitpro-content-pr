@@ -24,8 +24,8 @@ Sets whether a record in the database with the same primary key as the record in
  Set **AutoUpdate** to **Yes** when you import a file with partial information. For example, you can use this property if you create new prices for an item list in an external file where this file only contains item numbers and prices. In this case, you would want to update the price field, while retaining the information in the other fields.  
   
 > [!WARNING]  
->  If this property is set to **Yes**, then the [AutoReplace Property](../dynamics-nav/AutoReplace-Property.md) has no effect.  
+>  If this property is set to **Yes**, then the [AutoReplace Property](AutoReplace-Property.md) has no effect.  
   
 ## See Also  
- [AutoReplace Property](../dynamics-nav/AutoReplace-Property.md)   
- [AutoSave Property](../dynamics-nav/AutoSave-Property.md)
+ [AutoReplace Property](AutoReplace-Property.md)   
+ [AutoSave Property](AutoSave-Property.md)

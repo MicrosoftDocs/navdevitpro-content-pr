@@ -15,11 +15,11 @@ This section describes all possible type conversions in C\/AL expressions.
   
 |To|See|  
 |--------|---------|  
-|Learn about using expressions to convert types.|[Type Conversion in Expressions](../dynamics-nav/Type-Conversion-in-Expressions.md)|  
-|Learn about relation operators.|[Relational Operators](../dynamics-nav/Relational-Operators.md)|  
-|Learn about Boolean operators.|[Boolean \(Logical\) Operators](../dynamics-nav/Boolean--Logical--Operators.md)|  
-|Learn about arithmetic operators.|[Arithmetic Operators](../dynamics-nav/Arithmetic-Operators.md)|  
-|Gain an overview of type conversion rules for the arithmetic operators.|[Type Conversion Rules for Arithmetic Operators](../dynamics-nav/Type-Conversion-Rules-for-Arithmetic-Operators.md)|  
+|Learn about using expressions to convert types.|[Type Conversion in Expressions](Type-Conversion-in-Expressions.md)|  
+|Learn about relation operators.|[Relational Operators](Relational-Operators.md)|  
+|Learn about Boolean operators.|[Boolean \(Logical\) Operators](Boolean--Logical--Operators.md)|  
+|Learn about arithmetic operators.|[Arithmetic Operators](Arithmetic-Operators.md)|  
+|Gain an overview of type conversion rules for the arithmetic operators.|[Type Conversion Rules for Arithmetic Operators](Type-Conversion-Rules-for-Arithmetic-Operators.md)|  
   
 ## See Also  
- [Development](../dynamics-nav/Development.md)
+ [Development](Development.md)

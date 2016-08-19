@@ -11,16 +11,16 @@ caps.latest.revision: 24
 manager: edupont
 ---
 # How to: Implement the Camera in C-AL
-This example illustrates how you can add access to camera to a specific page from the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)]. Adding a camera option to the Item card, for example, lets you take a picture of a specific item and store it with the item. The example implements three actions; **Take Picture**, **Take Picture High Quality**, and **Take Picture Low Quality** on the Customer Card page, but does not include code that saves the picture to the database. For a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] implementation of this, see **Incoming Documents**, for example on the Accounting Manager profile, when you use the Dynamics NAV app on a phone.  
+This example illustrates how you can add access to camera to a specific page from the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. Adding a camera option to the Item card, for example, lets you take a picture of a specific item and store it with the item. The example implements three actions; **Take Picture**, **Take Picture High Quality**, and **Take Picture Low Quality** on the Customer Card page, but does not include code that saves the picture to the database. For a [!INCLUDE[navnow](includes/navnow_md.md)] implementation of this, see **Incoming Documents**, for example on the Accounting Manager profile, when you use the Dynamics NAV app on a phone.  
   
 > [!IMPORTANT]  
->  The camera access is only available on devices that run the [!INCLUDE[nav_uni_app](../dynamics-nav/includes/nav_uni_app_md.md)] and have a camera. This means that camera access is not available from the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] or from a browser.  
+>  The camera access is only available on devices that run the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] and have a camera. This means that camera access is not available from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or from a browser.  
   
  With the following steps, you will create two variables; the `CameraAvailable` variable is a Boolean that checks whether the current device has a camera. The `Camera` variable is a DotNet type that gets instantiated by adding code to the `OnOpenPage` trigger. Then, you will add actions to the Customer Card page that lets the user start the camera and write the code that is run on these actions. And finally, you will add a new trigger `Camera::PictureAvailable` to handle the incoming picture.  
   
 ### To implement the camera in C\/AL  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer** to open the Object Designer window.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer** to open the Object Designer window.  
   
 2.  In **Object Designer**, choose **Pages**, select the **Customer Card** \(page 21\) and choose the **Design** button.  
   
@@ -90,7 +90,7 @@ This example illustrates how you can add access to camera to a specific page fro
     |-------------------|--------------|-------------|  
     |CameraOptions|DotNet|Microsoft.Dynamics.Nav.Client.Capabilities.CameraOptions<br /><br /> **Important:** Choose the Microsoft.Dynamics.Nav.ClientExtensions dll on the **Server** tab, and then choose Microsoft.Dynamics.Nav.Client.Capabilities.CameraOptions.|  
   
-14. You must now add code to handle the picture for when the camera has captured the picture and the picture has been uploaded to the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]. In the C\/AL Editor, on the `PictureAvailable` trigger, add code so that the `PictureAvailable` trigger looks like this.  
+14. You must now add code to handle the picture for when the camera has captured the picture and the picture has been uploaded to the [!INCLUDE[nav_server](includes/nav_server_md.md)]. In the C\/AL Editor, on the `PictureAvailable` trigger, add code so that the `PictureAvailable` trigger looks like this.  
   
     ```  
     Camera::PictureAvailable(PictureName : Text;PictureFilePath : Text)  
@@ -115,8 +115,8 @@ This example illustrates how you can add access to camera to a specific page fro
   
 17. Close the C\/AL Editor, and then save and compile the page.  
   
- You can now test the modified **Customer Card** page in the [!INCLUDE[nav_uni_app](../dynamics-nav/includes/nav_uni_app_md.md)] from either a tablet or a phone with a camera. To read more about different options that can be set for the camera, see [CameraOptions Overview](../dynamics-nav/CameraOptions-Overview.md).  
+ You can now test the modified **Customer Card** page in the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] from either a tablet or a phone with a camera. To read more about different options that can be set for the camera, see [CameraOptions Overview](CameraOptions-Overview.md).  
   
 ## See Also  
- [Developing for the Microsoft Dynamics NAV Universal App](../dynamics-nav/Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)   
- [Differences and Limitations When Developing Pages for the Microsoft Dynamics NAV Universal App](../dynamics-nav/Differences-and-Limitations-When-Developing-Pages-for-the-Microsoft-Dynamics-NAV-Universal-App.md)
+ [Developing for the Microsoft Dynamics NAV Universal App](Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)   
+ [Differences and Limitations When Developing Pages for the Microsoft Dynamics NAV Universal App](Differences-and-Limitations-When-Developing-Pages-for-the-Microsoft-Dynamics-NAV-Universal-App.md)

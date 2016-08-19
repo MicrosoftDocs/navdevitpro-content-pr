@@ -17,12 +17,12 @@ Gets and sets data from linked server data sources, such as Microsoft Office Exc
  Tables  
   
 ## Remarks  
- This property is available when the [LinkedObject Property](../dynamics-nav/LinkedObject-Property.md) is set to **Yes**.  
+ This property is available when the [LinkedObject Property](LinkedObject-Property.md) is set to **Yes**.  
   
- Set the **LinkedInTransaction** property to **No** when the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] table description refers to an object outside the current database or on a linked server.  
+ Set the **LinkedInTransaction** property to **No** when the [!INCLUDE[navnow](includes/navnow_md.md)] table description refers to an object outside the current database or on a linked server.  
   
- The access to linked server data sources is not under [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] transaction control. This means that if a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] transaction is aborted, then any changes that were made to a linked object that is outside the current database or on a linked server during this transaction will remain in effect.  
+ The access to linked server data sources is not under [!INCLUDE[navnow](includes/navnow_md.md)] transaction control. This means that if a [!INCLUDE[navnow](includes/navnow_md.md)] transaction is aborted, then any changes that were made to a linked object that is outside the current database or on a linked server during this transaction will remain in effect.  
   
 ## See Also  
- [Creating Table Definitions from SQL Server Objects \(Linked Objects\)](../dynamics-nav/Creating-Table-Definitions-from-SQL-Server-Objects--Linked-Objects-.md)   
- [LinkedObject Property](../dynamics-nav/LinkedObject-Property.md)
+ [Creating Table Definitions from SQL Server Objects \(Linked Objects\)](Creating-Table-Definitions-from-SQL-Server-Objects--Linked-Objects-.md)   
+ [LinkedObject Property](LinkedObject-Property.md)

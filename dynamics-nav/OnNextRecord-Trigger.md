@@ -40,4 +40,4 @@ Determines the next record to be displayed.
  If an error occurs in the trigger code, the page is closed.  
   
 ## See Also  
- [Triggers](../dynamics-nav/Triggers.md)
+ [Triggers](Triggers.md)

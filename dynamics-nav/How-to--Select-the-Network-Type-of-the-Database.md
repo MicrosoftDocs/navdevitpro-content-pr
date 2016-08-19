@@ -15,7 +15,7 @@ The default setting allows \($ P\_1 Product Name $\) to connect to a server usin
   
 ### To specify the network type  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **Open**. The **Open Database** window opens.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **Open**. The **Open Database** window opens.  
   
 2.  Choose the **Advanced** tab.  
   
@@ -24,5 +24,5 @@ The default setting allows \($ P\_1 Product Name $\) to connect to a server usin
 4.  Choose the **OK** button to save your selection and close the window.  
   
 ## See Also  
- [\($ S\_2335 Open Database $\)](../dynamics-nav/-$-S_2335-Open-Database-$-.md)   
+ [\($ S\_2335 Open Database $\)](-$-S_2335-Open-Database-$-.md)   
  [Troubleshooting: SQL Server Connection Problems](../Topic/Troubleshooting:%20SQL%20Server%20Connection%20Problems.md)

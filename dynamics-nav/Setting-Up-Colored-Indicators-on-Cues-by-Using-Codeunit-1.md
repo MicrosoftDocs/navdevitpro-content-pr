@@ -13,7 +13,7 @@ manager: edupont
 # Setting Up Colored Indicators on Cues by Using Codeunit 1
 Codeunit 1 Application Management includes the **GetCueStyle** trigger that enables you to set up Cues with indicators that change color based on the value in the Cue.  
   
- The **GetCueStyle** trigger provides a more dynamic way of setting up colored indicators than using the Style and StyleExpr field properties. For example, the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)] uses the **GetCueStyle** trigger, together with various pages, tables and codeunits, to give end\-users the capability to set up colored indicators directly from the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] client.  
+ The **GetCueStyle** trigger provides a more dynamic way of setting up colored indicators than using the Style and StyleExpr field properties. For example, the [!INCLUDE[demolong](includes/demolong_md.md)] uses the **GetCueStyle** trigger, together with various pages, tables and codeunits, to give end\-users the capability to set up colored indicators directly from the [!INCLUDE[navnow](includes/navnow_md.md)] client.  
   
 ## GetCueStyle Trigger Overview  
  By default, **GetCueStyle** trigger has the following definition in codeunit **1 Application Management**.  
@@ -28,10 +28,10 @@ Codeunit 1 Application Management includes the **GetCueStyle** trigger that enab
 ### Parameters  
  The following table describes the parameters of the **GetCueStyle** trigger.  
   
-|Parameter|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|Parameter|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------|---------------------------------------|  
 |TableId|The ID of the table object that contains the field that holds the Cue value.|  
-|FieldNo|The number that is assigned to the table field. This is specified by the field's [Field No. Property](../dynamics-nav/Field-No.-Property.md).|  
+|FieldNo|The number that is assigned to the table field. This is specified by the field's [Field No. Property](Field-No.-Property.md).|  
 |CueValue|The calculated value in the Cue that is stored in the table field at runtime.|  
   
 ### Return Value  
@@ -54,7 +54,7 @@ Codeunit 1 Application Management includes the **GetCueStyle** trigger that enab
   
 -   Red when open sales quotes is greater than 20  
   
- To do this, in [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], you modify the **GetCueValue** trigger in codeunit **1 Application Management**. First, you assign the return value the name **Color**, and then you add the following code to the trigger.  
+ To do this, in [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], you modify the **GetCueValue** trigger in codeunit **1 Application Management**. First, you assign the return value the name **Color**, and then you add the following code to the trigger.  
   
 ```  
 IF (CueValue <= 10) THEN  
@@ -70,16 +70,16 @@ ELSE
 > [!NOTE]  
 >  This is a simple example to illustrate how to use the **GetCueSetup** trigger to configure colored indicators on a Cues. This example sets up the colored indicators to behave the same for Cues on all Role Centers. In a production environment, you will typically add logic that sets the colored indicators differently for each Cue.  
   
-### Example from [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)]  
- [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)] includes the following objects that enable the customization of indicators from the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] client. You can use this implementation for your solution as\-is or modify it as required.  
+### Example from [!INCLUDE[demolong](includes/demolong_md.md)]  
+ [!INCLUDE[demolong](includes/demolong_md.md)] includes the following objects that enable the customization of indicators from the [!INCLUDE[navnow](includes/navnow_md.md)] client. You can use this implementation for your solution as\-is or modify it as required.  
   
-|[!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] object|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|[!INCLUDE[navnow](includes/navnow_md.md)] object|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
 |Codeunit **9701 Cue Setup**|This codeunit is called from the **GetCueStyle** trigger in codeunit **1 Application Management** and sets the color of the Cue indicators at runtime.|  
-|Page **9701 Cue Setup Administration**|This page is used to set up indicators on Cues that are available in the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database. From this page you can set up an indicator for the entire company or for specific users only. This page is typically used by an administrator to specify default settings for the indicators. If the page that contains the Cues is set up with the an action that accesses that opens page **9702 Cue Setup End User**, then a user can change or personalize the indicator on a Cue.|  
-|Page **9702 Cue Setup End User**|This page is used by the end user to personalize the indicators that appear on a page of the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] client, such as the Role Center.|  
+|Page **9701 Cue Setup Administration**|This page is used to set up indicators on Cues that are available in the [!INCLUDE[navnow](includes/navnow_md.md)] database. From this page you can set up an indicator for the entire company or for specific users only. This page is typically used by an administrator to specify default settings for the indicators. If the page that contains the Cues is set up with the an action that accesses that opens page **9702 Cue Setup End User**, then a user can change or personalize the indicator on a Cue.|  
+|Page **9702 Cue Setup End User**|This page is used by the end user to personalize the indicators that appear on a page of the [!INCLUDE[navnow](includes/navnow_md.md)] client, such as the Role Center.|  
 |Table **9701 Cue Setup**|This table stores the customization settings for the individual Cues.|  
   
 ## See Also  
- [Creating and Customizing Cues](../dynamics-nav/Creating-and-Customizing-Cues.md)   
- [Setting Up Colored Indicators on Cues](../dynamics-nav/Setting-Up-Colored-Indicators-on-Cues.md)
+ [Creating and Customizing Cues](Creating-and-Customizing-Cues.md)   
+ [Setting Up Colored Indicators on Cues](Setting-Up-Colored-Indicators-on-Cues.md)

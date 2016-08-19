@@ -15,13 +15,13 @@ Specifies the namespace prefix on an XMLport element.
   
 ## Applies To  
   
--   XMLports that have the [Format Property \(XMLports\)](../dynamics-nav/Format-Property--XMLports-.md) set to **Xml**. The property applies only to **Element** node types. It is not supported on **Attribute** node types.  
+-   XMLports that have the [Format Property \(XMLports\)](Format-Property--XMLports-.md) set to **Xml**. The property applies only to **Element** node types. It is not supported on **Attribute** node types.  
   
 ## Remarks  
- You can only set the property to a prefix that is declared in the [Namespaces Property](../dynamics-nav/Namespaces-Property.md) of the XMLport.  
+ You can only set the property to a prefix that is declared in the [Namespaces Property](Namespaces-Property.md) of the XMLport.  
   
- For more information about namespaces with XMLports, see [Using Namespaces with XMLports](../dynamics-nav/Using-Namespaces-with-XMLports.md).  
+ For more information about namespaces with XMLports, see [Using Namespaces with XMLports](Using-Namespaces-with-XMLports.md).  
   
 ## See Also  
- [Designing XMLports](../dynamics-nav/Designing-XMLports.md)   
+ [Designing XMLports](Designing-XMLports.md)   
  [How to: Create XMLports](../Topic/How%20to:%20Create%20XMLports.md)

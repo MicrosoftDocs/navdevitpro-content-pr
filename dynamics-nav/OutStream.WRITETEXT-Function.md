@@ -61,5 +61,5 @@ FileMyHTML.CLOSE;
 ```  
   
 ## See Also  
- [InStream and OutStream Data Types](../dynamics-nav/InStream-and-OutStream-Data-Types.md)   
- [OutStream.WRITE Function](../dynamics-nav/OutStream.WRITE-Function.md)
+ [InStream and OutStream Data Types](InStream-and-OutStream-Data-Types.md)   
+ [OutStream.WRITE Function](OutStream.WRITE-Function.md)

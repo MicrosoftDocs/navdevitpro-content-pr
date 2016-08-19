@@ -27,6 +27,6 @@ Executes a function call and then stops at the first line of code inside the fun
  If you omit this optional return value and if the break is not set successfully, then a run\-time error occurs. If you include the return value, then you must handle any errors.  
   
 ## See Also  
- [STEPOVER Function \(Debugger\)](../dynamics-nav/STEPOVER-Function--Debugger-.md)   
- [STEPOUT Function \(Debugger\)](../dynamics-nav/STEPOUT-Function--Debugger-.md)   
- [Breakpoints](../dynamics-nav/Breakpoints.md)
+ [STEPOVER Function \(Debugger\)](STEPOVER-Function--Debugger-.md)   
+ [STEPOUT Function \(Debugger\)](STEPOUT-Function--Debugger-.md)   
+ [Breakpoints](Breakpoints.md)

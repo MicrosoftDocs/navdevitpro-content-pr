@@ -11,4 +11,4 @@ caps.latest.revision: 2
 manager: terryaus
 ---
 # Window Overviews
-[!INCLUDE[bn_windows](../dynamics-nav/includes/bn_windows_md.md)]
+[!INCLUDE[bn_windows](includes/bn_windows_md.md)]

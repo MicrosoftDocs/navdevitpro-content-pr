@@ -11,14 +11,14 @@ caps.latest.revision: 24
 manager: terryaus
 ---
 # How to: Configure ADCS Options
-Before you can work with Automated Data Capture Systems \(ADCS\), you have to configure [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] by modifying the VT100Plugin configuration file.  
+Before you can work with Automated Data Capture Systems \(ADCS\), you have to configure [!INCLUDE[navnow](includes/navnow_md.md)] by modifying the VT100Plugin configuration file.  
   
 > [!IMPORTANT]  
 >  Modification of the configuration file should only be performed by a system administrator.  
   
 ### To modify and update the ADCS configuration file for the terminal listener  
   
-1.  Locate and open the NavisionVT100Plugin.exe.config configuration file. It is typically located in the following location: [!INCLUDE[navnow_x86install](../dynamics-nav/includes/navnow_x86install_md.md)]\\Automated Data Capture System.  
+1.  Locate and open the NavisionVT100Plugin.exe.config configuration file. It is typically located in the following location: [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\Automated Data Capture System.  
   
      The following example shows the XML that is contained in the configuration file by default.  
   
@@ -40,7 +40,7 @@ Before you can work with Automated Data Capture Systems \(ADCS\), you have to co
   
 2.  For the **Terminal** element, update the attributes in the configuration file using attributes as described in the following table. You specify the attribute values in quotation marks.  
   
-    |Attribute|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+    |Attribute|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
     |---------------|---------------------------------------|  
     |*listenIP*|Required. IP address that specifies where to listen for terminal connections.|  
     |*listenPort*|Required. Positive integer that specifies the port number to listen for terminal connections.|  
@@ -53,7 +53,7 @@ Before you can work with Automated Data Capture Systems \(ADCS\), you have to co
   
 3.  For the **Endpoints** element, update the attributes in the configuration file and modify an endpoint to support your processes. You can also add more endpoints. The following table provides some options.  
   
-    |Attribute|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+    |Attribute|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
     |---------------|---------------------------------------|  
     |*defaultType*|Optional. *defaultType* is an attribute of the **Endpoints** element. It specifies what type of endpoint to use when no type is specified, if you want to customize it. The default is the **NavEndpoint** type.|  
     |*name*|Required. Endpoint name. The name must be unique.|  
@@ -61,7 +61,7 @@ Before you can work with Automated Data Capture Systems \(ADCS\), you have to co
     |*type*|Optional. Fully qualified name of a non\-default endpoint.|  
     |*clientEndpointName*|Optional. Windows Communications Foundation client endpoint configuration name. If specified, a WCF configuration with the specified name must exist. For more information, see [Client Configuration](http://go.microsoft.com/fwlink/?LinkId=260871) in the MSDN Library.|  
   
- The following example describes the XML for a **Terminal** element and the **Endpoints** element. It adds one endpoint for [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+ The following example describes the XML for a **Terminal** element and the **Endpoints** element. It adds one endpoint for [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 ```  
 <configuration>  
@@ -81,11 +81,11 @@ Before you can work with Automated Data Capture Systems \(ADCS\), you have to co
 ```  
   
 ## .NET Framework Security  
- By default, the **NavEndpoint** uses the security settings that you have specified for web services generally. You can configure additional security by changing the configuration of [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] and matching that configuration in the VT100Plugin configuration service.  
+ By default, the **NavEndpoint** uses the security settings that you have specified for web services generally. You can configure additional security by changing the configuration of [!INCLUDE[nav_server](includes/nav_server_md.md)] and matching that configuration in the VT100Plugin configuration service.  
   
- For more information, see [Configuring Microsoft Dynamics NAV Server](../dynamics-nav/Configuring-Microsoft-Dynamics-NAV-Server.md).  
+ For more information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).  
   
 ## See Also  
- [Configuring Microsoft Dynamics NAV Server](../dynamics-nav/Configuring-Microsoft-Dynamics-NAV-Server.md)   
+ [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)   
  [How to: Create a Microsoft Dynamics NAV Server Instance](../Topic/How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)   
  [How to: Enable Web Services for ADCS](../Topic/How%20to:%20Enable%20Web%20Services%20for%20ADCS.md)

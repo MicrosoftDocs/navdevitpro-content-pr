@@ -20,4 +20,4 @@ Sets a value that indicates whether the table data applies to all companies in t
  **Yes** if data is available only to this company; otherwise, **No**. The default value is **Yes**.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

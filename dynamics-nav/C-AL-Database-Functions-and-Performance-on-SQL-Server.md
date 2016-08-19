@@ -16,7 +16,7 @@ This topic describes the relationship between basic database functions in C\/AL 
 ## C\/AL and SQL Statements  
   
 ### GET, FIND, and NEXT  
- The C\/AL language offers several methods to retrieve record data. In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], records are retrieved using multiple active result sets \(MARS\). Generally, retrieving records with MARS is faster than with server\-side cursors. Additionally, each function is optimized for a specific purpose. To achieve optimal performance you must use the method that is best suited for a given purpose.  
+ The C\/AL language offers several methods to retrieve record data. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], records are retrieved using multiple active result sets \(MARS\). Generally, retrieving records with MARS is faster than with server\-side cursors. Additionally, each function is optimized for a specific purpose. To achieve optimal performance you must use the method that is best suited for a given purpose.  
   
 -   **Record.GET** is optimized for getting a single record based on primary key values.  
   
@@ -30,16 +30,16 @@ This topic describes the relationship between basic database functions in C\/AL 
   
     -   If you want to fulfill multiple outstanding orders from a recent purchase but you do not know how many orders are covered by the purchase.  
   
--   **Record.FINDSET\(ForUpdate, UpdateKey\)** is optimized for reading the complete set of records in the specified filter and range. The *UpdateKey* parameter does not influence the efficiency of this method in [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], such as it did in [!INCLUDE[nav2009](../dynamics-nav/includes/nav2009_md.md)].  
+-   **Record.FINDSET\(ForUpdate, UpdateKey\)** is optimized for reading the complete set of records in the specified filter and range. The *UpdateKey* parameter does not influence the efficiency of this method in [!INCLUDE[navnowlong](includes/navnowlong_md.md)], such as it did in [!INCLUDE[nav2009](includes/nav2009_md.md)].  
   
      FINDSET is not implemented by issuing a TOP X call.  
   
 -   **Record.FINDFIRST** and **Record.FINDLAST** are optimized for finding the single first or last record in the specified filter and range.  
   
--   **Record.NEXT** can be called at any time. However, if **Record.NEXT** is not called as part of retrieving a continuous result set, then [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] calls a separate SQL statement in order to find the next record.  
+-   **Record.NEXT** can be called at any time. However, if **Record.NEXT** is not called as part of retrieving a continuous result set, then [!INCLUDE[navnow](includes/navnow_md.md)] calls a separate SQL statement in order to find the next record.  
   
 ### Dynamic Result Sets  
- Any result set that is returned from a call to the find methods discussed in the previous section is dynamic. That means that the result set is guaranteed to contain any changes that you make further ahead in the result set. However this feature comes at a cost. If any modifications are made to a table which is being traversed, then [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] might have to issue an extra SQL statement to guarantee that the result set is dynamic.  
+ Any result set that is returned from a call to the find methods discussed in the previous section is dynamic. That means that the result set is guaranteed to contain any changes that you make further ahead in the result set. However this feature comes at a cost. If any modifications are made to a table which is being traversed, then [!INCLUDE[navnow](includes/navnow_md.md)] might have to issue an extra SQL statement to guarantee that the result set is dynamic.  
   
  The following code shows how records are most efficiently retrieved. **FINDSET** is the most efficient method to use because this example reads all records.  
   
@@ -61,7 +61,7 @@ IF FINDSET THEN
   
  If neither of these requirements is fulfilled, then the sum will be calculated directly from the base table.  
   
- In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], SIFT indexes can be used to count records in a filter provided that a SIFT index exists that contains all filtered fields in the key fields that are defined for the SIFT index.  
+ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], SIFT indexes can be used to count records in a filter provided that a SIFT index exists that contains all filtered fields in the key fields that are defined for the SIFT index.  
   
 ### SETAUTOCALCFIELDS  
  It is a common task to retrieve data and request calculation of associated FlowFields. The following example traverses customer records, calculates the balance, and marks the customer as blocked if the customer exceeds the maximum credit limit. Note the Customer record and associated fields are imaginary.  
@@ -81,7 +81,7 @@ UNTIL Customer.NEXT = 0;
   
 ```  
   
- In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], you can do this much faster. First, we set a filter on the customer. This could also be done in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] 2009, but behind the scenes the same code as mentioned earlier would be executed. In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], setting a filter on a record is translated into a single SQL statement.  
+ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can do this much faster. First, we set a filter on the customer. This could also be done in [!INCLUDE[navnow](includes/navnow_md.md)] 2009, but behind the scenes the same code as mentioned earlier would be executed. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], setting a filter on a record is translated into a single SQL statement.  
   
 ```  
 Customer.SETFILTER(Customer.Balance,’>%1’, LargeCredit);   
@@ -98,7 +98,7 @@ IF Customer.FINDSET() THEN REPEAT
 UNTIL Customer.NEXT = 0;   
 ```  
   
- In the previous example, an extra call to CALCFIELDS still must be issued for the code to be able to check the value of Customer.Balance. In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], you can optimize this further by using the new **SETAUTOCALCFIELDS** function.  
+ In the previous example, an extra call to CALCFIELDS still must be issued for the code to be able to check the value of Customer.Balance. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can optimize this further by using the new **SETAUTOCALCFIELDS** function.  
   
 ```  
 Customer.SETFILTER(Customer.Balance,’>%1’, LargeCredit);   
@@ -122,20 +122,20 @@ UNTIL Customer.NEXT = 0;
  The **LOCKTABLE** function does not require any separate SQL statements. It only causes any subsequent reading from the table to lock the table or parts of it.  
   
 ## See Also  
- [Table Keys and Performance](../dynamics-nav/Table-Keys-and-Performance.md)   
- [Bulk Inserts](../dynamics-nav/Bulk-Inserts.md)   
- [GET Function \(Record\)](../dynamics-nav/GET-Function--Record-.md)   
- [FIND Function \(Record\)](../dynamics-nav/FIND-Function--Record-.md)   
- [NEXT Function \(Record\)](../dynamics-nav/NEXT-Function--Record-.md)   
- [FINDSET Function \(Record\)](../dynamics-nav/FINDSET-Function--Record-.md)   
- [FINDFIRST Function \(Record\)](../dynamics-nav/FINDFIRST-Function--Record-.md)   
- [FINDLAST Function \(Record\)](../dynamics-nav/FINDLAST-Function--Record-.md)   
- [CALCFIELDS Function \(Record\)](../dynamics-nav/CALCFIELDS-Function--Record-.md)   
- [CALCFIELD Function \(FieldRef\)](../dynamics-nav/CALCFIELD-Function--FieldRef-.md)   
- [CALCSUMS Function \(Record\)](../dynamics-nav/CALCSUMS-Function--Record-.md)   
- [CALCSUM Function \(FieldRef\)](../dynamics-nav/CALCSUM-Function--FieldRef-.md)   
- [SETAUTOCALCFIELDS Function \(Record\)](../dynamics-nav/SETAUTOCALCFIELDS-Function--Record-.md)   
- [INSERT Function \(Record\)](../dynamics-nav/INSERT-Function--Record-.md)   
- [MODIFY Function \(Record\)](../dynamics-nav/MODIFY-Function--Record-.md)   
- [DELETE Function \(Record\)](../dynamics-nav/DELETE-Function--Record-.md)   
- [LOCKTABLE Function \(Record\)](../dynamics-nav/LOCKTABLE-Function--Record-.md)
+ [Table Keys and Performance](Table-Keys-and-Performance.md)   
+ [Bulk Inserts](Bulk-Inserts.md)   
+ [GET Function \(Record\)](GET-Function--Record-.md)   
+ [FIND Function \(Record\)](FIND-Function--Record-.md)   
+ [NEXT Function \(Record\)](NEXT-Function--Record-.md)   
+ [FINDSET Function \(Record\)](FINDSET-Function--Record-.md)   
+ [FINDFIRST Function \(Record\)](FINDFIRST-Function--Record-.md)   
+ [FINDLAST Function \(Record\)](FINDLAST-Function--Record-.md)   
+ [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md)   
+ [CALCFIELD Function \(FieldRef\)](CALCFIELD-Function--FieldRef-.md)   
+ [CALCSUMS Function \(Record\)](CALCSUMS-Function--Record-.md)   
+ [CALCSUM Function \(FieldRef\)](CALCSUM-Function--FieldRef-.md)   
+ [SETAUTOCALCFIELDS Function \(Record\)](SETAUTOCALCFIELDS-Function--Record-.md)   
+ [INSERT Function \(Record\)](INSERT-Function--Record-.md)   
+ [MODIFY Function \(Record\)](MODIFY-Function--Record-.md)   
+ [DELETE Function \(Record\)](DELETE-Function--Record-.md)   
+ [LOCKTABLE Function \(Record\)](LOCKTABLE-Function--Record-.md)

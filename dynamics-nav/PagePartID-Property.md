@@ -18,6 +18,6 @@ Sets a link to another page.
 -   Part controls on pages  
   
 ## See Also  
- [PartType Property](../dynamics-nav/PartType-Property.md)   
- [SystemPartID Property](../dynamics-nav/SystemPartID-Property.md)   
- [ChartPartID Property](../dynamics-nav/ChartPartID-Property.md)
+ [PartType Property](PartType-Property.md)   
+ [SystemPartID Property](SystemPartID-Property.md)   
+ [ChartPartID Property](ChartPartID-Property.md)

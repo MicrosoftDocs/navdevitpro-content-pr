@@ -24,12 +24,12 @@ HasCustomLayout(ObjectType : 'Report'; ObjectID : Integer) : Integer
  *ObjectType*  
  Type: Option  
   
- The [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] object type that is run. Currently only the **Report** value is supported.  
+ The [!INCLUDE[navnow](includes/navnow_md.md)] object type that is run. Currently only the **Report** value is supported.  
   
  *ObjectID*  
  Type: Integer  
   
- The ID of the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] report object.  
+ The ID of the [!INCLUDE[navnow](includes/navnow_md.md)] report object.  
   
 ## Return Value  
  Type: Integer  
@@ -46,7 +46,7 @@ HasCustomLayout(ObjectType : 'Report'; ObjectID : Integer) : Integer
  Report layout implementation in codeunit 1 **ApplicationManagement**.  
   
 ## Remarks  
- This function is executed when a report is run from the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] client or by a call to the Run, SaveAsWord, SaveAsPdf, and SaveAsExcel functions. The HasCustomLayout function is executed at run time before the [OnPreReport Trigger](../dynamics-nav/OnPreReport-Trigger.md).  
+ This function is executed when a report is run from the [!INCLUDE[navnow](includes/navnow_md.md)] client or by a call to the Run, SaveAsWord, SaveAsPdf, and SaveAsExcel functions. The HasCustomLayout function is executed at run time before the [OnPreReport Trigger](OnPreReport-Trigger.md).  
   
 ## Example  
  The following example shows the default implementation on the function in codeunit 1. This example uses a variable **ReportLayout** that has the data type **Record** and subtype **Report Layout**.  
@@ -63,8 +63,8 @@ EXIT(0);
 ```  
   
 ## See Also  
- [Customizing Report Layout Implementation in Codeunit 1](../dynamics-nav/Customizing-Report-Layout-Implementation-in-Codeunit-1.md)   
- [REPORT.RUN Function](../dynamics-nav/REPORT.RUN-Function.md)   
- [SAVEASWORD Function \(REPORT\)](../dynamics-nav/SAVEASWORD-Function--REPORT-.md)   
- [SAVEASPDF Function \(Report\)](../dynamics-nav/SAVEASPDF-Function--Report-.md)   
- [SAVEASEXCEL Function \(Report\)](../dynamics-nav/SAVEASEXCEL-Function--Report-.md)
+ [Customizing Report Layout Implementation in Codeunit 1](Customizing-Report-Layout-Implementation-in-Codeunit-1.md)   
+ [REPORT.RUN Function](REPORT.RUN-Function.md)   
+ [SAVEASWORD Function \(REPORT\)](SAVEASWORD-Function--REPORT-.md)   
+ [SAVEASPDF Function \(Report\)](SAVEASPDF-Function--Report-.md)   
+ [SAVEASEXCEL Function \(Report\)](SAVEASEXCEL-Function--Report-.md)

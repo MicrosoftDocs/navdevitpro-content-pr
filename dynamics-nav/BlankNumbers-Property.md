@@ -29,4 +29,4 @@ Indicates whether the system will clear a range of numbers as it formats them.
 |**BlankPos**|Clear positive numbers|  
   
 ## See Also  
- [BlankZero Property](../dynamics-nav/BlankZero-Property.md)
+ [BlankZero Property](BlankZero-Property.md)

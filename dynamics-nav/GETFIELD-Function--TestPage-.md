@@ -62,4 +62,4 @@ IF AddressField <> Text001 THEN
 ```  
   
 ## See Also  
- [TestPage Functions](../dynamics-nav/TestPage-Functions.md)
+ [TestPage Functions](TestPage-Functions.md)

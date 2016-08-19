@@ -31,4 +31,4 @@ Count := TestPage.VALIDATIONERRORCOUNT
  The number of validation errors that occurred on the test page.  
   
 ## See Also  
- [TestPage Functions](../dynamics-nav/TestPage-Functions.md)
+ [TestPage Functions](TestPage-Functions.md)

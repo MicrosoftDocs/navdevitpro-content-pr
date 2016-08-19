@@ -27,5 +27,5 @@ When you first create a table, it does not contain any data. Nevertheless, when 
   
 ## See Also  
  [How to: Add Fields to a Table](../Topic/How%20to:%20Add%20Fields%20to%20a%20Table.md)   
- [Field Data Types](../dynamics-nav/Field-Data-Types.md)   
- [Table Properties](../dynamics-nav/Table-Properties.md)
+ [Field Data Types](Field-Data-Types.md)   
+ [Table Properties](Table-Properties.md)

@@ -32,7 +32,7 @@ Caption := Record.TABLECAPTION
  The caption of the table.  
   
 ## Remarks  
- **TABLECAPTION** returns the caption of a table. **TABLECAPTION** first looks for a [CaptionML Property](../dynamics-nav/CaptionML-Property.md). If it does not find one, it uses the [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md). This means that **TABLECAPTION** has multilanguage functionality.  
+ **TABLECAPTION** returns the caption of a table. **TABLECAPTION** first looks for a [CaptionML Property](CaptionML-Property.md). If it does not find one, it uses the [Name Property\-duplicate](Name-Property-duplicate.md). This means that **TABLECAPTION** has multilanguage functionality.  
   
 ## Example  
  The following example retrieves the caption of the **Customer** table by using the CustomerRec variable, a record from the **Customer** table. The value of the **Customer** table caption is stored in the TableCaption variable and displayed in a message box. The value that is displayed is Customer. This example requires that you create the following variables in the **C\/AL Globals** window.  
@@ -48,6 +48,6 @@ MESSAGE('The caption for the customer table is: %1', TableCaption);
 ```  
   
 ## See Also  
- [FIELDCAPTION Function \(Record\)](../dynamics-nav/FIELDCAPTION-Function--Record-.md)   
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)   
- [Multilanguage Development](../dynamics-nav/Multilanguage-Development.md)
+ [FIELDCAPTION Function \(Record\)](FIELDCAPTION-Function--Record-.md)   
+ [Record Data Type](Record-Data-Type.md)   
+ [Multilanguage Development](Multilanguage-Development.md)

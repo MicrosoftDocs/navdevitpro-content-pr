@@ -32,5 +32,5 @@ Specifies whether an XML schema definition should be included inside an XML docu
 -   When there is so much diversity in the XML document and the schema. The document is easier to process if the schema is inside the XML document.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)   
- [XMLport Data Type](../dynamics-nav/XMLport-Data-Type.md)
+ [Properties](Properties.md)   
+ [XMLport Data Type](XMLport-Data-Type.md)

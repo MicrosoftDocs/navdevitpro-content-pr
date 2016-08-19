@@ -26,7 +26,7 @@ This walkthrough demonstrates how to modify an existing query, which links two t
  This walkthrough builds on the steps that are described in [Walkthrough: Creating a Query to Link Two Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
   
 ## Story  
- Viktor is a Microsoft Certified Partner working for [!INCLUDE[demoname](../dynamics-nav/includes/demoname_md.md)] He wants to create a dataset that contains the total number of items in open sales orders for each customer. Viktor has already created a query that contains the quantity of items of every open sales order for each customer. He can modify that query so that it displays the sum of quantity of items for each customer.  
+ Viktor is a Microsoft Certified Partner working for [!INCLUDE[demoname](includes/demoname_md.md)] He wants to create a dataset that contains the total number of items in open sales orders for each customer. Viktor has already created a query that contains the quantity of items of every open sales order for each customer. He can modify that query so that it displays the sum of quantity of items for each customer.  
   
  The SQL query for this dataset that Viktor wants is the following:  
   
@@ -40,7 +40,7 @@ ORDER BY Quantity
 ```  
   
 ## Adding a Totaling Method to a Query  
- Viktor examines the query that he created earlier. To calculate the total number of items in open sales orders for each customer, he adds the **Quantity** column from the **Sales Line** table to the query, and then implements a sum method on the column by changing the [Method Property](../dynamics-nav/Method-Property.md).  
+ Viktor examines the query that he created earlier. To calculate the total number of items in open sales orders for each customer, he adds the **Quantity** column from the **Sales Line** table to the query, and then implements a sum method on the column by changing the [Method Property](Method-Property.md).  
   
 #### To add a totaling method to a query  
   
@@ -55,17 +55,17 @@ ORDER BY Quantity
 5.  In the **Method**  column, choose **Sum** from the drop\-down list box.  
   
     > [!NOTE]  
-    >  The query is automatically set to group the dataset by the **No.** and **Name** fields as indicated by the check marks in the **Group By** column. This creates a single row for each customer in the dataset that shows the total quantity of sales for the customer. For more information about grouping, see [Understanding Query Totals and Grouping](../dynamics-nav/Understanding-Query-Totals-and-Grouping.md).  
+    >  The query is automatically set to group the dataset by the **No.** and **Name** fields as indicated by the check marks in the **Group By** column. This creates a single row for each customer in the dataset that shows the total quantity of sales for the customer. For more information about grouping, see [Understanding Query Totals and Grouping](Understanding-Query-Totals-and-Grouping.md).  
   
      The following figure shows the Query Designer for this query.  
   
-     ![Query with Sum column](../dynamics-nav/media/Query_WalkthroughTotals.png "Query\_WalkthroughTotals")  
+     ![Query with Sum column](media/Query_WalkthroughTotals.png "Query\_WalkthroughTotals")  
   
     > [!NOTE]  
-    >  When you set the **Method** column to **Totals**, the name of the column is automatically changed from **Quantity** to **\<Sum\_Quantity\>**. The column name is specified by its [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md). The **OrderBy** property identifies a column by the **Name** property.  
+    >  When you set the **Method** column to **Totals**, the name of the column is automatically changed from **Quantity** to **\<Sum\_Quantity\>**. The column name is specified by its [Name Property\-duplicate](Name-Property-duplicate.md). The **OrderBy** property identifies a column by the **Name** property.  
   
 ## Sorting the Query Results  
- Viktor wants the resulting dataset to display records according to the item quantity in descending order from highest value to lowest value. To achieve this, he will set the [OrderBy Property](../dynamics-nav/OrderBy-Property.md) on the query object.  
+ Viktor wants the resulting dataset to display records according to the item quantity in descending order from highest value to lowest value. To achieve this, he will set the [OrderBy Property](OrderBy-Property.md) on the query object.  
   
 #### To sort query results by item quantity  
   
@@ -88,7 +88,7 @@ ORDER BY Quantity
 7.  Choose the **OK** button, close the **Query – Properties** window, and return to Query Designer.  
   
 ## Saving and Running the Query  
- Viktor wants to verify that the resulting dataset what he wants. He saves the query and then runs it from Object Designer. The call to run the query runs on [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] and opens a view of the dataset in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+ Viktor wants to verify that the resulting dataset what he wants. He saves the query and then runs it from Object Designer. The call to run the query runs on [!INCLUDE[nav_server](includes/nav_server_md.md)] and opens a view of the dataset in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
 #### To save and run a query  
   
@@ -98,10 +98,10 @@ ORDER BY Quantity
   
 3.  In Object Designer, select query 50002, and then choose the **Run** button. When you run a query, you can see the data in the dataset.  
   
-     ![The result of running Customer&#95;SumQuantity query](../dynamics-nav/media/Query_WalkthroughTotals_Run.png "Query\_WalkthroughTotals\_Run")  
+     ![The result of running Customer&#95;SumQuantity query](media/Query_WalkthroughTotals_Run.png "Query\_WalkthroughTotals\_Run")  
   
 ## Next Steps  
  Viktor’s next step is to create a more complex query. For more information, see [Walkthrough: Creating a Query to Link Three Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Three%20Tables.md).  
   
 ## See Also  
- [Understanding Query Totals and Grouping](../dynamics-nav/Understanding-Query-Totals-and-Grouping.md)
+ [Understanding Query Totals and Grouping](Understanding-Query-Totals-and-Grouping.md)

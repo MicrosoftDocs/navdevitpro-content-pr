@@ -21,10 +21,10 @@ Sets whether imported records are automatically written to the table.
 ## Remarks  
  This property applies to new records that are inserted into the table and existing records that are modified.  
   
- If AutoSave is set to **No**, then an imported record is not automatically written to the appropriate table. To insert or modify records manually, add code to the [OnBeforeInsertRecord Trigger](../dynamics-nav/OnBeforeInsertRecord-Trigger.md) and the [OnBeforeModifyRecord Trigger](../dynamics-nav/OnBeforeModifyRecord-Trigger.md). For example, set the AutoSave property to **No**, create a new function that evaluates the records, does some calculations, or retrieves additional data, and then call your new function from the OnBeforeInsertRecord and OnBeforeModifyRecord triggers. Use the OnAfterInitRecord trigger if you must evaluate the records before inserting or modifying them, or if you want to calculate or retrieve additional data before inserting or modifying the record.  
+ If AutoSave is set to **No**, then an imported record is not automatically written to the appropriate table. To insert or modify records manually, add code to the [OnBeforeInsertRecord Trigger](OnBeforeInsertRecord-Trigger.md) and the [OnBeforeModifyRecord Trigger](OnBeforeModifyRecord-Trigger.md). For example, set the AutoSave property to **No**, create a new function that evaluates the records, does some calculations, or retrieves additional data, and then call your new function from the OnBeforeInsertRecord and OnBeforeModifyRecord triggers. Use the OnAfterInitRecord trigger if you must evaluate the records before inserting or modifying them, or if you want to calculate or retrieve additional data before inserting or modifying the record.  
   
- If a record already exists and AutoSave is set to **Yes**, then the values of the [AutoReplace Property](../dynamics-nav/AutoReplace-Property.md) and the [AutoUpdate Property](../dynamics-nav/AutoUpdate-Property.md) determine whether the imported record overwrites or updates the existing record. If the record already exists and the values of the AutoReplace property and the AutoUpdate property are both **No**, then an error occurs.  
+ If a record already exists and AutoSave is set to **Yes**, then the values of the [AutoReplace Property](AutoReplace-Property.md) and the [AutoUpdate Property](AutoUpdate-Property.md) determine whether the imported record overwrites or updates the existing record. If the record already exists and the values of the AutoReplace property and the AutoUpdate property are both **No**, then an error occurs.  
   
 ## See Also  
- [AutoReplace Property](../dynamics-nav/AutoReplace-Property.md)   
- [AutoUpdate Property](../dynamics-nav/AutoUpdate-Property.md)
+ [AutoReplace Property](AutoReplace-Property.md)   
+ [AutoUpdate Property](AutoUpdate-Property.md)

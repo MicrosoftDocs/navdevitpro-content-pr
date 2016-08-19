@@ -20,7 +20,7 @@ After an event has been published by an event publisher function, you can modify
  If there are no subscribers to the published event, then the line of code that calls the event publisher function is ignored and not executed.  
   
 ## Example  
- You want to raise an event when a user changes the **Address** field on the page **21 Customer Card**. The event is published by the event publisher function **OnAddressedLineChanged** in the codeunit **My Publishers**. The event publisher function **OnAddressedLineChanged** accepts a single text parameter. To raise the event this, you complete the following steps in the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)]:  
+ You want to raise an event when a user changes the **Address** field on the page **21 Customer Card**. The event is published by the event publisher function **OnAddressedLineChanged** in the codeunit **My Publishers**. The event publisher function **OnAddressedLineChanged** accepts a single text parameter. To raise the event this, you complete the following steps in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]:  
   
 1.  Add the following C\/AL variable to page 21 Customer Card.  
   
@@ -38,7 +38,7 @@ After an event has been published by an event publisher function, you can modify
  For step\-by\-step instructions for this example, see [Walkthrough: Publishing, Raising, and Subcribing to an Event in Microsoft Dynamics NAV](../Topic/Walkthrough:%20Publishing,%20Raising,%20and%20Subcribing%20to%20an%20Event%20in%20Microsoft%20Dynamics%20NAV.md).  
   
 ## See Also  
- [Publishing Events](../dynamics-nav/Publishing-Events.md)   
- [Subscribing to Events](../dynamics-nav/Subscribing-to-Events.md)   
- [Events in Microsoft Dynamics NAV](../dynamics-nav/Events-in-Microsoft-Dynamics-NAV.md)   
- [Introducing Events](../dynamics-nav/Introducing-Events.md)
+ [Publishing Events](Publishing-Events.md)   
+ [Subscribing to Events](Subscribing-to-Events.md)   
+ [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)   
+ [Introducing Events](Introducing-Events.md)

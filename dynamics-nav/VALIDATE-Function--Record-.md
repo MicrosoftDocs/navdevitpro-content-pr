@@ -37,7 +37,7 @@ Record.VALIDATE(Field [, NewValue])
  The value to insert into *Field*.  
   
 ## Remarks  
- **VALIDATE** first checks any [TableRelation Property](../dynamics-nav/TableRelation-Property.md) and then executes the [OnValidate \(Fields\) Trigger](../dynamics-nav/OnValidate--Fields--Trigger.md) of the field.  
+ **VALIDATE** first checks any [TableRelation Property](TableRelation-Property.md) and then executes the [OnValidate \(Fields\) Trigger](OnValidate--Fields--Trigger.md) of the field.  
   
  If you omit *NewValue*, then the function validates the current value.  
   
@@ -68,4 +68,4 @@ GeneralLedgerEntry.VALIDATE("G/L AccountNo");
  You should avoid entering the calculation formula in the **OnValidate** triggers of each field. This can create errors if the calculation formula has to be changed later and you have to update the code in all the triggers. Instead, you should enter the calculation formula in the **OnValidate** trigger of only one of the fields and call this trigger code from the **OnValidate** triggers of the other fields.  
   
 ## See Also  
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [Record Data Type](Record-Data-Type.md)

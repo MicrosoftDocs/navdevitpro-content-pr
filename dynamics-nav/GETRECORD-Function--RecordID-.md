@@ -34,7 +34,7 @@ RecordRef := RecordID.GETRECORD
  No data is read from the database when you run this function and therefore, no other fields in the record are set. Furthermore, no filters are set on the record.  
   
 ## Example  
- The following example opens table number 18 \(Customer table\) and sets a reference to the table. The [FINDLAST Function \(RecordRef\)](../dynamics-nav/FINDLAST-Function--RecordRef-.md) selects the last record in the table. The [RECORDID Function \(RecordRef\)](../dynamics-nav/RECORDID-Function--RecordRef-.md) retrieves the ID of the currently selected record. In this case, it is the last record in the table. The [GETRECORD Function \(RECORDID\)](../dynamics-nav/GETRECORD-Function--RecordID-.md) uses the retrieved record ID to determine the RecordRef of the selected record \(the last record\). This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example opens table number 18 \(Customer table\) and sets a reference to the table. The [FINDLAST Function \(RecordRef\)](FINDLAST-Function--RecordRef-.md) selects the last record in the table. The [RECORDID Function \(RecordRef\)](RECORDID-Function--RecordRef-.md) retrieves the ID of the currently selected record. In this case, it is the last record in the table. The [GETRECORD Function \(RECORDID\)](GETRECORD-Function--RecordID-.md) uses the retrieved record ID to determine the RecordRef of the selected record \(the last record\). This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -50,4 +50,4 @@ RecRef := RecID.GETRECORD;
 ```  
   
 ## See Also  
- [RecordID Data Type](../dynamics-nav/RecordID-Data-Type.md)
+ [RecordID Data Type](RecordID-Data-Type.md)

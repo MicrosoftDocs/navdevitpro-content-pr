@@ -13,14 +13,14 @@ manager: pchapman
 # Dates and Times
 This section contains the following topics:  
   
--   [Date Data Type](../dynamics-nav/Date-Data-Type.md)  
+-   [Date Data Type](Date-Data-Type.md)  
   
--   [DateTime Data Type](../dynamics-nav/DateTime-Data-Type.md)  
+-   [DateTime Data Type](DateTime-Data-Type.md)  
   
--   [Duration Data Type](../dynamics-nav/Duration-Data-Type.md)  
+-   [Duration Data Type](Duration-Data-Type.md)  
   
--   [Time Data Type](../dynamics-nav/Time-Data-Type.md)  
+-   [Time Data Type](Time-Data-Type.md)  
   
--   [Date and Time Functions](../dynamics-nav/Date-and-Time-Functions.md)  
+-   [Date and Time Functions](Date-and-Time-Functions.md)  
   
--   [DateTime Functions](../dynamics-nav/DateTime-Functions.md)
+-   [DateTime Functions](DateTime-Functions.md)

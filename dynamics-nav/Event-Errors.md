@@ -17,18 +17,18 @@ When the runtime detects raised publisher events, it tries to identify subscribe
   
 |Error code|Cause|  
 |----------------|-----------|  
-|ErrorOriginalApplicationObjectNotFound|The event publisher object, which contains the publisher function to subscribe to, is not available. The event publisher object is specified by the [EventPublisherObject Property](../dynamics-nav/EventPublisherObject-Property.md) of the event subscriber function.|  
-|ErrorOriginalMethodNotFound|The event publisher function that the event subscriber function subscribes to is not available. The event publisher function is specified by the [EventFunction Property](../dynamics-nav/EventFunction-Property.md) of the event subscriber function.|  
+|ErrorOriginalApplicationObjectNotFound|The event publisher object, which contains the publisher function to subscribe to, is not available. The event publisher object is specified by the [EventPublisherObject Property](EventPublisherObject-Property.md) of the event subscriber function.|  
+|ErrorOriginalMethodNotFound|The event publisher function that the event subscriber function subscribes to is not available. The event publisher function is specified by the [EventFunction Property](EventFunction-Property.md) of the event subscriber function.|  
 |ErrorParameterMismatch|The parameters in the event subscriber function's signature do not match the parameters in the publisher function.|  
-|ErrorGlobalVariableNotFound|A global variable that is referenced in the event subscriber function signature is not available in the object that contains the event publisher function \(specified by the [EventPublisherObject Property](../dynamics-nav/EventPublisherObject-Property.md) of the event subscriber function\).|  
-|ErrorFieldNotFound|The table field that is specified by the [EventPublisherElement Property](../dynamics-nav/EventPublisherElement-Property.md) of the event subscriber function is not available. This error pertains to **OnBeforeValidateEvent** or **OnAfterValidateEvent** trigger events on a table.|  
-|ErrorOriginalApplicationObjectTypeNotSupported|The application object that contains the event publisher function that the subscriber function subscribes to is not supported. The application object is specified by the [EventPublisherObject Property](../dynamics-nav/EventPublisherObject-Property.md) of the event subscriber function.|  
-|ErrorGlobalVariableAccessNotAllowed|A global variable that is referenced in the event subscriber function signature is not accessible. Verify that the [GlobalVarAccess Property](../dynamics-nav/GlobalVarAccess-Property.md) of the event publisher function that the event subscriber function subscribes to is set to **Yes**.|  
-|ErrorIncludeSenderNotAllowed|The event subscriber function signature includes a *Sender* parameter for accessing the object that contains the event publisher function to which the event subscriber subscribes. However, the event publisher function does not allow sender access as specified by the [IncludeSender Property](../dynamics-nav/IncludeSender-Property.md).|  
+|ErrorGlobalVariableNotFound|A global variable that is referenced in the event subscriber function signature is not available in the object that contains the event publisher function \(specified by the [EventPublisherObject Property](EventPublisherObject-Property.md) of the event subscriber function\).|  
+|ErrorFieldNotFound|The table field that is specified by the [EventPublisherElement Property](EventPublisherElement-Property.md) of the event subscriber function is not available. This error pertains to **OnBeforeValidateEvent** or **OnAfterValidateEvent** trigger events on a table.|  
+|ErrorOriginalApplicationObjectTypeNotSupported|The application object that contains the event publisher function that the subscriber function subscribes to is not supported. The application object is specified by the [EventPublisherObject Property](EventPublisherObject-Property.md) of the event subscriber function.|  
+|ErrorGlobalVariableAccessNotAllowed|A global variable that is referenced in the event subscriber function signature is not accessible. Verify that the [GlobalVarAccess Property](GlobalVarAccess-Property.md) of the event publisher function that the event subscriber function subscribes to is set to **Yes**.|  
+|ErrorIncludeSenderNotAllowed|The event subscriber function signature includes a *Sender* parameter for accessing the object that contains the event publisher function to which the event subscriber subscribes. However, the event publisher function does not allow sender access as specified by the [IncludeSender Property](IncludeSender-Property.md).|  
 |ErrorSenderParameterIsWrongType|The *Sender* parameter that is declared in the event subscriber function has a subtype value that does not match the event publisher object that raises the event.|  
   
 ## See Also  
- [Events in Microsoft Dynamics NAV](../dynamics-nav/Events-in-Microsoft-Dynamics-NAV.md)   
- [Publishing Events](../dynamics-nav/Publishing-Events.md)   
- [Raising Events](../dynamics-nav/Raising-Events.md)   
- [Subscribing to Events](../dynamics-nav/Subscribing-to-Events.md)
+ [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)   
+ [Publishing Events](Publishing-Events.md)   
+ [Raising Events](Raising-Events.md)   
+ [Subscribing to Events](Subscribing-to-Events.md)

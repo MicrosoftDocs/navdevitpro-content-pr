@@ -17,7 +17,7 @@ Specifies whether global functions in the object that contains the event publish
   
 -   C\/AL functions.  
   
-     This property is only available when the [Event Property](../dynamics-nav/Event-Property.md) is set to **Publisher**.  
+     This property is only available when the [Event Property](Event-Property.md) is set to **Publisher**.  
   
 ## Property Value  
  **Yes** to expose the global functions in the object that contains the event publisher function to event subscriber functions; otherwise, **No**. The default value is **No**.  
@@ -29,11 +29,11 @@ Specifies whether global functions in the object that contains the event publish
   
  `LOCAL [EventSubscriber] CheckAddressLine(VAR Sender : Codeunit "My Publisher Object")`  
   
- For more information about events, see [Events in Microsoft Dynamics NAV](../dynamics-nav/Events-in-Microsoft-Dynamics-NAV.md).  
+ For more information about events, see [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md).  
   
 ## See Also  
- [Publishing Events](../dynamics-nav/Publishing-Events.md)   
- [Raising Events](../dynamics-nav/Raising-Events.md)   
- [Subscribing to Events](../dynamics-nav/Subscribing-to-Events.md)   
- [GlobalVarAccess Property](../dynamics-nav/GlobalVarAccess-Property.md)   
- [C\-AL Function Statements](../dynamics-nav/C-AL-Function-Statements.md)
+ [Publishing Events](Publishing-Events.md)   
+ [Raising Events](Raising-Events.md)   
+ [Subscribing to Events](Subscribing-to-Events.md)   
+ [GlobalVarAccess Property](GlobalVarAccess-Property.md)   
+ [C\-AL Function Statements](C-AL-Function-Statements.md)

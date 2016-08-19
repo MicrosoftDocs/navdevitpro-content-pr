@@ -40,4 +40,4 @@ Specifies if the page control should have input focus. The default value of the 
  Now, when a user selects the **Allow Invoice Disc.** check box on a customer card, the **Credit Limit \(LCY\)** field receives focus when the user presses Enter to move focus to the field. Otherwise, focus skips over the field when the user presses Enter to move across the customer card.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

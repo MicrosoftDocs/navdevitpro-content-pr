@@ -32,10 +32,10 @@ No := RecordID.TABLENO
  The number of the table.  
   
 ## Remarks  
- In previous versions of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], if a RecordID referred to a temporary table, then the table number value of the RecordID was the run\-time generated sequence ID, which is from the base value of 2000100000. You could use the table number to determine if a RecordID referred to a temporary table. In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], the table number value of a RecordID always contains the ID of the originating physical table and not the run\-time generated sequence ID. If you previously used the [TABLENO Function \(RECORDID\)](../dynamics-nav/TABLENO-Function--RecordID-.md) to test for the sequence number and determine if the RecordID was temporary, then you use the [ISTEMPORARY Function \(RecordRef\)](../dynamics-nav/ISTEMPORARY-Function--RecordRef-.md) in [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] instead.  
+ In previous versions of [!INCLUDE[navnow](includes/navnow_md.md)], if a RecordID referred to a temporary table, then the table number value of the RecordID was the run\-time generated sequence ID, which is from the base value of 2000100000. You could use the table number to determine if a RecordID referred to a temporary table. In [!INCLUDE[navnow](includes/navnow_md.md)], the table number value of a RecordID always contains the ID of the originating physical table and not the run\-time generated sequence ID. If you previously used the [TABLENO Function \(RECORDID\)](TABLENO-Function--RecordID-.md) to test for the sequence number and determine if the RecordID was temporary, then you use the [ISTEMPORARY Function \(RecordRef\)](ISTEMPORARY-Function--RecordRef-.md) in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] instead.  
   
 ## Example  
- The following example opens the Customer table with the record reference variable named RecRef and finds the first record in the Customers table. If a record is found, the [RECORDID Function \(RecordRef\)](../dynamics-nav/RECORDID-Function--RecordRef-.md) gets the ID of the first record in the table. The TABLENO function then uses the RecID variable to retrieve the number of the table that contains the record. The table number is then displayed in a message box. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ The following example opens the Customer table with the record reference variable named RecRef and finds the first record in the Customers table. If a record is found, the [RECORDID Function \(RecordRef\)](RECORDID-Function--RecordRef-.md) gets the ID of the first record in the table. The TABLENO function then uses the RecID variable to retrieve the number of the table that contains the record. The table number is then displayed in a message box. This example requires that you create the following variables in the **C\/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -57,4 +57,4 @@ END;
 ```  
   
 ## See Also  
- [RecordID Data Type](../dynamics-nav/RecordID-Data-Type.md)
+ [RecordID Data Type](RecordID-Data-Type.md)

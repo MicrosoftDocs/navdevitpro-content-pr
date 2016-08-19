@@ -22,7 +22,7 @@ The following functions are used to search for records:
  These functions are some of the most frequently used C\/AL functions. When you search for records, you must know the difference between GET and FIND and to know how to use FIND and NEXT in conjunction.  
   
 ## GET Function  
- The [GET Function \(Record\)](../dynamics-nav/GET-Function--Record-.md) retrieves one record based on values of the primary key fields.  
+ The [GET Function \(Record\)](GET-Function--Record-.md) retrieves one record based on values of the primary key fields.  
   
  GET has the following syntax.  
   
@@ -50,7 +50,7 @@ ELSE
  GET searches for the records, regardless of the current filters, and it does not change any filters. GET always searches through all the records in a table.  
   
 ## FIND Function  
- The [FIND Function \(Record\)](../dynamics-nav/FIND-Function--Record-.md) locates a record in a table that is based on the values stored in the keys.  
+ The [FIND Function \(Record\)](FIND-Function--Record-.md) locates a record in a table that is based on the values stored in the keys.  
   
  FIND has the following syntax.  
   
@@ -80,10 +80,10 @@ IF SalesOrderLine.FIND('-') THEN
 ERROR(Text001,TABLECAPTION,"No.",SalesOrderLine."Document Type");  
 ```  
   
- If you want to find the first record in a table or set, then use the [FINDFIRST Function \(Record\)](../dynamics-nav/FINDFIRST-Function--Record-.md). If you want to find the last record in a table or set, then use the [FINDLAST Function \(Record\)](../dynamics-nav/FINDLAST-Function--Record-.md).  
+ If you want to find the first record in a table or set, then use the [FINDFIRST Function \(Record\)](FINDFIRST-Function--Record-.md). If you want to find the last record in a table or set, then use the [FINDLAST Function \(Record\)](FINDLAST-Function--Record-.md).  
   
 ## NEXT Function  
- The [NEXT Function \(Record\)](../dynamics-nav/NEXT-Function--Record-.md) is often used with FIND to step through the records of a table.  
+ The [NEXT Function \(Record\)](NEXT-Function--Record-.md) is often used with FIND to step through the records of a table.  
   
  NEXT has the following syntax.  
   

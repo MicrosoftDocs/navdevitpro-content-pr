@@ -32,7 +32,7 @@ Modifies a record in a table.
  *RunTrigger*  
  Type: Boolean  
   
- Specifies whether to run the C\/AL code in the [OnModify Trigger](../dynamics-nav/OnModify-Trigger.md).  
+ Specifies whether to run the C\/AL code in the [OnModify Trigger](OnModify-Trigger.md).  
   
  If this parameter is **true**, then the code in the **OnModify** trigger is executed. If this parameter is **false** \(default\), then the code in the **OnModify** trigger is not executed.  
   
@@ -50,11 +50,11 @@ Modifies a record in a table.
   
  **Enter your changes again in the updated window, or start the interrupted activity again.**  
   
- In earlier versions of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], certain situations allowed code that an end\-user runs to modify a record after a newer version of the record was written and committed to the database. This would overwrite the newer changes. However, in [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], we have restricted the **MODIFY** Function \(Record\), [RENAME Function \(Record\)](../dynamics-nav/RENAME-Function--Record-.md), and [DELETE Function \(Record\)](../dynamics-nav/DELETE-Function--Record-.md) so that the end\-user receives the following run\-time error in these certain situations:  
+ In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], certain situations allowed code that an end\-user runs to modify a record after a newer version of the record was written and committed to the database. This would overwrite the newer changes. However, in [!INCLUDE[navnowlong](includes/navnowlong_md.md)], we have restricted the **MODIFY** Function \(Record\), [RENAME Function \(Record\)](RENAME-Function--Record-.md), and [DELETE Function \(Record\)](DELETE-Function--Record-.md) so that the end\-user receives the following run\-time error in these certain situations:  
   
  **Unable to change an earlier version of the \<Table Name\> record. The record should be read from the database again. This is a programming error.**  
   
- You must design your application so that you use the most up\-to\-date version of the record for modifications to the database. You use the [GET Function \(Record\)](../dynamics-nav/GET-Function--Record-.md) to refresh the record with the latest version. The second example that is shown here illustrates this situation.  
+ You must design your application so that you use the most up\-to\-date version of the record for modifications to the database. You use the [GET Function \(Record\)](GET-Function--Record-.md) to refresh the record with the latest version. The second example that is shown here illustrates this situation.  
   
 ## Example  
  This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
@@ -100,7 +100,7 @@ MESSAGE(Text001 + '%2', CustomerRec."No.", CustomerRec.Name);
 |CustomerRec1|Record|Customer|  
 |CustomerRec2|Record|Customer|  
   
- In this example, you get a copy of a record from the Customer table and put it into the CustomerRec1 variable, then you modify the record. Next, you get a copy of the same record from the Customer table and put it into the CustomerRec2 variable. You modify the record and commit the changes to the database. Now the CustomerRec1 variable is out of date with the value in the database. If you were allowed to modify the database with the CustomerRec1 record, then the Phone No. field that you modified with CustomerRec2 would be overwritten by the old value of the Phone No. field that is in the CustomerRec1 variable. [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] does not allow you to modify the database with the old version of the record.  
+ In this example, you get a copy of a record from the Customer table and put it into the CustomerRec1 variable, then you modify the record. Next, you get a copy of the same record from the Customer table and put it into the CustomerRec2 variable. You modify the record and commit the changes to the database. Now the CustomerRec1 variable is out of date with the value in the database. If you were allowed to modify the database with the CustomerRec1 record, then the Phone No. field that you modified with CustomerRec2 would be overwritten by the old value of the Phone No. field that is in the CustomerRec1 variable. [!INCLUDE[navnowlong](includes/navnowlong_md.md)] does not allow you to modify the database with the old version of the record.  
   
 > [!NOTE]  
 >  If you do not call the COMMIT function in this example, then you do not receive an error.  
@@ -130,8 +130,8 @@ CustomerRec1.MODIFY;
  **No.\='10000'**  
   
 ## See Also  
- [MODIFYALL Function \(Record\)](../dynamics-nav/MODIFYALL-Function--Record-.md)   
- [MODIFY Function \(RecordRef\)](../dynamics-nav/MODIFY-Function--RecordRef-.md)   
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)   
- [COMMIT Function \(Database\)](../dynamics-nav/COMMIT-Function--Database-.md)   
- [LOCKTABLE Function \(Record\)](../dynamics-nav/LOCKTABLE-Function--Record-.md)
+ [MODIFYALL Function \(Record\)](MODIFYALL-Function--Record-.md)   
+ [MODIFY Function \(RecordRef\)](MODIFY-Function--RecordRef-.md)   
+ [Record Data Type](Record-Data-Type.md)   
+ [COMMIT Function \(Database\)](COMMIT-Function--Database-.md)   
+ [LOCKTABLE Function \(Record\)](LOCKTABLE-Function--Record-.md)

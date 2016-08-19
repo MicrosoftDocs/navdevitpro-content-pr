@@ -11,11 +11,11 @@ caps.latest.revision: 10
 manager: terryaus
 ---
 # How to: Create a Menu for a Department in a MenuSuite
-[!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] provides a basic MenuSuite that you can modify, or you can create a new MenuSuite from the basic MenuSuite. You modify a MenuSuite by designing it in Navigation Pane Designer. In Navigation Pane Designer, you can modify an existing menu for a department or create a new menu. Creating a new menu creates a new department in the MenuSuite. This procedure describes how to create a menu for a department in a MenuSuite. For more information about how to modify a department menu, see [How to: Modify a Department Menu in a MenuSuite](../Topic/How%20to:%20Modify%20a%20Department%20Menu%20in%20a%20MenuSuite.md). For information about how to modify a menu item in a MenuSuite, see [How to: Modify Menu Items in a MenuSuite](../Topic/How%20to:%20Modify%20Menu%20Items%20in%20a%20MenuSuite.md).  
+[!INCLUDE[navnowlong](includes/navnowlong_md.md)] provides a basic MenuSuite that you can modify, or you can create a new MenuSuite from the basic MenuSuite. You modify a MenuSuite by designing it in Navigation Pane Designer. In Navigation Pane Designer, you can modify an existing menu for a department or create a new menu. Creating a new menu creates a new department in the MenuSuite. This procedure describes how to create a menu for a department in a MenuSuite. For more information about how to modify a department menu, see [How to: Modify a Department Menu in a MenuSuite](../Topic/How%20to:%20Modify%20a%20Department%20Menu%20in%20a%20MenuSuite.md). For information about how to modify a menu item in a MenuSuite, see [How to: Modify Menu Items in a MenuSuite](../Topic/How%20to:%20Modify%20Menu%20Items%20in%20a%20MenuSuite.md).  
   
 ### To create a Menu for a department  
   
-1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], choose **Tools** and then choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], choose **Tools** and then choose **Object Designer**.  
   
 2.  In Object Designer, choose **MenuSuite**.  
   
@@ -39,5 +39,5 @@ manager: terryaus
      After you have created a menu for a new department, add menu items to make the department menu functional. For information about how to add menu items to the department menu, see [How to: Modify Menu Items in a MenuSuite](../Topic/How%20to:%20Modify%20Menu%20Items%20in%20a%20MenuSuite.md).  
   
 ## See Also  
- [Designing MenuSuites](../dynamics-nav/Designing-MenuSuites.md)   
- [MenuSuites](../dynamics-nav/MenuSuites.md)
+ [Designing MenuSuites](Designing-MenuSuites.md)   
+ [MenuSuites](MenuSuites.md)

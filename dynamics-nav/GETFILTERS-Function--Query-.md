@@ -28,10 +28,10 @@ Filter := Query.GETFILTERS
  A text string that lists the filters that are set on all columns of the query. If there are no applicable filters, then an empty string is returned.  
   
 ## Remarks  
- The **GETFILTERS** function returns the filters that are currently set for all data columns and filter rows by the [SETFILTER Function \(Query\)](../dynamics-nav/SETFILTER-Function--Query-.md) function, [SETRANGE Function \(Query\)](../dynamics-nav/SETRANGE-Function--Query-.md) function, and the [ColumnFilter Property](../dynamics-nav/ColumnFilter-Property.md) in Query Designer. The **GETFILTER** function does not return filters that are set on a column's source field by the [DataItemTableFilter Property](../dynamics-nav/DataItemTableFilter-Property.md) in Query Designer or global filters that are set by the **FILTERGROUP** function.  
+ The **GETFILTERS** function returns the filters that are currently set for all data columns and filter rows by the [SETFILTER Function \(Query\)](SETFILTER-Function--Query-.md) function, [SETRANGE Function \(Query\)](SETRANGE-Function--Query-.md) function, and the [ColumnFilter Property](ColumnFilter-Property.md) in Query Designer. The **GETFILTER** function does not return filters that are set on a column's source field by the [DataItemTableFilter Property](DataItemTableFilter-Property.md) in Query Designer or global filters that are set by the **FILTERGROUP** function.  
   
 > [!NOTE]  
->  A filter row is row in Query Designer that is used to filter on a field that is not included in the resulting dataset. For more information, see [Understanding Query Filters](../dynamics-nav/Understanding-Query-Filters.md) and [How to: Set Up Filter Rows in Query Designer](../Topic/How%20to:%20Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md).  
+>  A filter row is row in Query Designer that is used to filter on a field that is not included in the resulting dataset. For more information, see [Understanding Query Filters](Understanding-Query-Filters.md) and [How to: Set Up Filter Rows in Query Designer](../Topic/How%20to:%20Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md).  
   
  You can call the **GETFILTERS** function multiple times and at any point in the code. If you call the **GETFILTERS** function before the first **SETFILTER** or **SETRANGE** function call, then the **GETFILTERS** function returns only filters that are set by the **ColumnFilter** property of the columns.  
   
@@ -58,7 +58,7 @@ Query.READ;
   
 1.  Create a query called **Customer\_SalesQuantity** that has the following characteristics:  
   
-    -   Links table **18 Customer** with table **37 Sales Lines** from the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+    -   Links table **18 Customer** with table **37 Sales Lines** from the [!INCLUDE[demolong](includes/demolong_md.md)].  
   
     -   Includes columns for the **Name** and **No.** fields from the **Customer** table and the **Quantity** field from **Sales Lines** table.  
   
@@ -97,4 +97,4 @@ MESSAGE(Text000, MyFilters);
   
 ## See Also  
  [How to: Set Up Filter Rows in Query Designer](../Topic/How%20to:%20Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md)   
- [Understanding Query Filters](../dynamics-nav/Understanding-Query-Filters.md)
+ [Understanding Query Filters](Understanding-Query-Filters.md)

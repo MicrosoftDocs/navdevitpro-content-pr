@@ -50,17 +50,17 @@ Adds a media file, such as a jpeg image, to the **MediaSet** data type field of 
 ## Property Value\/Return Value  
  Type: GUID  
   
- The unique ID assigned to the MediaSet of the record. This ID can be retrieved by using the [MEDIAID Function \(MediaSet\)](../dynamics-nav/MEDIAID-Function--MediaSet-.md).  
+ The unique ID assigned to the MediaSet of the record. This ID can be retrieved by using the [MEDIAID Function \(MediaSet\)](MEDIAID-Function--MediaSet-.md).  
   
 ## Remarks  
- You can use this function to upload a media file as part of a collection of media files that you want to associate with a record. For example, you can upload images of items in table **27 Item**. The function is similar to the [IMPORTFILE Function \(Media\)](../dynamics-nav/IMPORTFILE-Function--Media-.md) except that this function enables you to import multiple media files for the same record.  
+ You can use this function to upload a media file as part of a collection of media files that you want to associate with a record. For example, you can upload images of items in table **27 Item**. The function is similar to the [IMPORTFILE Function \(Media\)](IMPORTFILE-Function--Media-.md) except that this function enables you to import multiple media files for the same record.  
   
  When a media file is imported, it is assigned a unique identifier \(GUID\) and stored in the system table **2000000181 Tenant Media** of the application database. In addition, the media file is assigned to a MediaSet GUID. This GUID is included in the MediaSet data type field as a reference to the media files. The MediaSet GUID is created with the first file that you import. All additional media files for the record are then associated with the same MediaSet GUID. This information is stored in table **2000000183 Tenant Media Set**.  
   
 ## Example  
- This example uses the IMPORTFILE function to add images to records in table **27 Item** of the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)]. To support the example code that follows, you also have to complete these tasks:  
+ This example uses the IMPORTFILE function to add images to records in table **27 Item** of the [!INCLUDE[demolong](includes/demolong_md.md)]. To support the example code that follows, you also have to complete these tasks:  
   
--   Add item image files for records of table 27 Item.to the and save them on the computer that is running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance  
+-   Add item image files for records of table 27 Item.to the and save them on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] instance  
   
      Save the images as .jpg type, and give them names that correspond to item numbers \(as specified by the **No.** field\), such as, 1000\-v1.jpg, 1000\-v2.jpg, 1001\-v1.jpg, 1001\-v2.jpg and so on. For this example, save the files in the folder *C:\\images*.  
   
@@ -94,5 +94,5 @@ END;
 ```  
   
 ## See Also  
- [IMPORTSTREAM Function \(MediaSet\)](../dynamics-nav/IMPORTSTREAM-Function--MediaSet-.md)   
- [MediaSet Data Type](../dynamics-nav/MediaSet-Data-Type.md)
+ [IMPORTSTREAM Function \(MediaSet\)](IMPORTSTREAM-Function--MediaSet-.md)   
+ [MediaSet Data Type](MediaSet-Data-Type.md)

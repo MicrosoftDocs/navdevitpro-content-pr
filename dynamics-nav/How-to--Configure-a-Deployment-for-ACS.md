@@ -11,7 +11,7 @@ caps.latest.revision: 6
 manager: tsiggaar
 ---
 # How to: Configure a Deployment for ACS
-To configure your [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] deployment to use Microsoft Azure Access Control service \(ACS\) authentication requires the following series of configuration procedures in the Azure management portal:  
+To configure your [!INCLUDE[navnow](includes/navnow_md.md)] deployment to use Microsoft Azure Access Control service \(ACS\) authentication requires the following series of configuration procedures in the Azure management portal:  
   
 -   Create a namespace.  
   
@@ -31,7 +31,7 @@ To configure your [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] depl
   
 3.  Fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+    |[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Namespace**|Enter a name for the namespace. The name can be any text. For example, you can enter the name of your company for the namespace name.<br /><br /> A green checkmark appears if the namespace is available. The value that you specify because a prefix for the fully qualified namespace, such as *mynamespace*.accesscontrol.windows.net.|  
     |**Region**|Choose the Azure region that you want to host your namespace in.<br /><br /> Choose the region that most closely matches your country\/region. For example, if you and your customers are located in Denmark, choose North Europe, unless another region suits your needs better.|  
@@ -54,7 +54,7 @@ To configure your [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] depl
   
 3.  Select the identity providers that you want to make available to the users. You can choose as few as one, such as just Windows Live ID, or as many as all five identity providers.  
   
-     Next, you specify relying party applications. Relying party applications are the websites, applications, and services for which you want to use ACS to implement Shared Services authentication. In this case, the relying party applications are [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] clients.  
+     Next, you specify relying party applications. Relying party applications are the websites, applications, and services for which you want to use ACS to implement Shared Services authentication. In this case, the relying party applications are [!INCLUDE[navnow](includes/navnow_md.md)] clients.  
   
 ### To specify relying party applications  
   
@@ -62,13 +62,13 @@ To configure your [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] depl
   
 2.  In the **Add Relying Party Application** page, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+    |[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Name**|Specify a name for the application.<br /><br /> A typical value would be the name of the organization for which the deployment was created.|  
     |**Mode**|Choose **Enter settings manually**.|  
-    |**Realm**|Enter the DNS name of the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance, such as *https:\/\/MyCompany.com* or https:\/\/localhost.<br /><br /> The DNS name must be the same that is specified in the Server parameter in the clientUserSettings.config file for [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] client and the web.config file for [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] clients.|  
-    |**Return URL**|Enter the fully qualified URL for the [!INCLUDE[nav_web_server](../dynamics-nav/includes/nav_web_server_md.md)], such as https:\/\/MyCompany.com or https:\/\/MyServer\/WebClient.<br /><br /> The URL is case\-sensitive.<br /><br /> If you do not deploy the [!INCLUDE[nav_web_server](../dynamics-nav/includes/nav_web_server_md.md)], you can specify any address since the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] does not use this setting.|  
-    |**Token format**|Select **SWT**. Other token types are not supported in this version of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].<br /><br /> This adds a **Token Signing Settings** section to the page.|  
+    |**Realm**|Enter the DNS name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, such as *https:\/\/MyCompany.com* or https:\/\/localhost.<br /><br /> The DNS name must be the same that is specified in the Server parameter in the clientUserSettings.config file for [!INCLUDE[nav_windows](includes/nav_windows_md.md)] client and the web.config file for [!INCLUDE[nav_web](includes/nav_web_md.md)] clients.|  
+    |**Return URL**|Enter the fully qualified URL for the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], such as https:\/\/MyCompany.com or https:\/\/MyServer\/WebClient.<br /><br /> The URL is case\-sensitive.<br /><br /> If you do not deploy the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], you can specify any address since the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] does not use this setting.|  
+    |**Token format**|Select **SWT**. Other token types are not supported in this version of [!INCLUDE[navnow](includes/navnow_md.md)].<br /><br /> This adds a **Token Signing Settings** section to the page.|  
   
 3.  In the **Token Signing Settings** section, in the **Token signing key** field, choose the **Generate** button.  
   
@@ -119,8 +119,8 @@ To configure your [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] depl
   
     -   The URI for your relying party application from the **Application Integration** section.  
   
-     You will need these values for the next stage in the ACS configuration process, which is configuring your [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] components for ACS.  
+     You will need these values for the next stage in the ACS configuration process, which is configuring your [!INCLUDE[navnow](includes/navnow_md.md)] components for ACS.  
   
 ## See Also  
- [Configure Microsoft Dynamics NAV Components for ACS](../dynamics-nav/Configure-Microsoft-Dynamics-NAV-Components-for-ACS.md)   
+ [Configure Microsoft Dynamics NAV Components for ACS](Configure-Microsoft-Dynamics-NAV-Components-for-ACS.md)   
  [How to: Set up Microsoft Dynamics NAV for Single Sign\-on With Office 365 using Windows PowerShell](../Topic/How%20to:%20Set%20up%20Microsoft%20Dynamics%20NAV%20for%20Single%20Sign-on%20With%20Office%20365%20using%20Windows%20PowerShell.md)

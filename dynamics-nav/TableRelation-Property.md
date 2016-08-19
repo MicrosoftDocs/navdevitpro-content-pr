@@ -27,5 +27,5 @@ Sets relationships \(links\) to other tables. For example, if you want to provid
  In addition, when you choose the option to test the relationships between primary and secondary indexes, this property defines what to test. This option is one of the **Database** options on the **File** menu.  
   
 ## See Also  
- [ValidateTableRelation Property](../dynamics-nav/ValidateTableRelation-Property.md)   
- [TestTableRelation Property](../dynamics-nav/TestTableRelation-Property.md)
+ [ValidateTableRelation Property](ValidateTableRelation-Property.md)   
+ [TestTableRelation Property](TestTableRelation-Property.md)

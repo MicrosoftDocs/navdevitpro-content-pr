@@ -26,9 +26,9 @@ Sets which fields are automatically included on the tab of the request page that
   
  If you do not want users to add filters on fields, then use one of the following methods:  
   
--   Do not specify any filters in the **ReqFilterFields** property and specify a key field on which to sort in the [DataItemTableView Property](../dynamics-nav/DataItemTableView-Property.md).  
+-   Do not specify any filters in the **ReqFilterFields** property and specify a key field on which to sort in the [DataItemTableView Property](DataItemTableView-Property.md).  
   
--   Remove the request page by using the [UseRequestPage Property](../dynamics-nav/UseRequestPage-Property.md) of the report.  
+-   Remove the request page by using the [UseRequestPage Property](UseRequestPage-Property.md) of the report.  
   
 ## See Also  
- [Request Pages](../dynamics-nav/Request-Pages.md)
+ [Request Pages](Request-Pages.md)

@@ -13,7 +13,7 @@ manager: pchapman
 # C-AL ASSERTERROR Statements
 You use ASSERTERROR statements in test functions to test how your application behaves under failing conditions. The ASSERTERROR keyword specifies that an error is expected at run time in the statement that follows the ASSERTERROR keyword.  
   
- If a simple or compound statement that follows the ASSERTERROR keyword causes an error, then execution successfully continues to the next statement in the test function. You can get the error text of the statement by using the [GETLASTERRORTEXT Function](../dynamics-nav/GETLASTERRORTEXT-Function.md).  
+ If a simple or compound statement that follows the ASSERTERROR keyword causes an error, then execution successfully continues to the next statement in the test function. You can get the error text of the statement by using the [GETLASTERRORTEXT Function](GETLASTERRORTEXT-Function.md).  
   
  If a statement that follows the ASSERTERROR keyword does not cause an error, then the ASSERTERROR statement causes the following error and the test function that is running produces a FAILURE result:  
   
@@ -42,6 +42,6 @@ IF GETLASTERRORTEXT <> InvalidDateErrorMessage THEN
 ```  
   
 ## See Also  
- [Testing the Application](../dynamics-nav/Testing-the-Application.md)   
+ [Testing the Application](Testing-the-Application.md)   
  [How to: Create Test Codeunits and Test Functions](../Topic/How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md)   
- [C\-AL Reserved Words](../dynamics-nav/C-AL-Reserved-Words.md)
+ [C\-AL Reserved Words](C-AL-Reserved-Words.md)

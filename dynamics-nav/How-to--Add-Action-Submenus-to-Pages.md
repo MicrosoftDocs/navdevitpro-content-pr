@@ -11,7 +11,7 @@ caps.latest.revision: 19
 manager: terryaus
 ---
 # How to: Add Action Submenus to Pages
-Action submenus can be placed on pages in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], under any of the three main action tabs:  
+Action submenus can be placed on pages in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], under any of the three main action tabs:  
   
 -   Actions  
   
@@ -37,7 +37,7 @@ Action submenus can be placed on pages in the [!INCLUDE[nav_windows](../dynamics
   
 #### To create an action submenu  
   
-1.  Open the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], choose **Tools**, and then choose **Object Designer**.  
+1.  Open the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], choose **Tools**, and then choose **Object Designer**.  
   
 2.  In **Object Designer**, select a page, and then choose **Design** to open **Page Designer**. For example, select page **22**, the **Customers** list page. You can create a submenu on a new or existing page.  
   
@@ -62,5 +62,5 @@ Action submenus can be placed on pages in the [!INCLUDE[nav_windows](../dynamics
 10. To preview your action submenu, in Page Designer, choose the **Preview** button.  
   
 ## See Also  
- [Actions Overview](../dynamics-nav/Actions-Overview.md)   
+ [Actions Overview](Actions-Overview.md)   
  [How to: Add Actions to a Page](../Topic/How%20to:%20Add%20Actions%20to%20a%20Page.md)

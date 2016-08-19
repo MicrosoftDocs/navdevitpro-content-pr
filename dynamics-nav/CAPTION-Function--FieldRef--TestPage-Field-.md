@@ -39,14 +39,14 @@ Caption := TestPageField.CAPTION
  **CaptionML** or **Name** property as Text or Code.  
   
 ## Remarks  
- CAPTION returns the caption of a field. CAPTION first looks for a [CaptionML Property](../dynamics-nav/CaptionML-Property.md).  
+ CAPTION returns the caption of a field. CAPTION first looks for a [CaptionML Property](CaptionML-Property.md).  
   
- If it does not find one, it will use the [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md). This means that CAPTION is enabled for multilanguage functionality.  
+ If it does not find one, it will use the [Name Property\-duplicate](Name-Property-duplicate.md). This means that CAPTION is enabled for multilanguage functionality.  
   
- This function is similar to the [FIELDCAPTION Function \(Record\)](../dynamics-nav/FIELDCAPTION-Function--Record-.md) function.  
+ This function is similar to the [FIELDCAPTION Function \(Record\)](FIELDCAPTION-Function--Record-.md) function.  
   
 ## Example  
- The following example opens table 18 \(Customer\) as a RecordRef variable that is named CustomerRecref. The code uses the [FIELD Function \(RecordRef\)](../dynamics-nav/FIELD-Function--RecordRef-.md) to loop through field 1 through 9 and creates a FieldRef variable that is named MyFieldRef. For each field, the CAPTION function retrieves the caption of the field, stores it in the varCaption variable and displays it in a message box. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example opens table 18 \(Customer\) as a RecordRef variable that is named CustomerRecref. The code uses the [FIELD Function \(RecordRef\)](FIELD-Function--RecordRef-.md) to loop through field 1 through 9 and creates a FieldRef variable that is named MyFieldRef. For each field, the CAPTION function retrieves the caption of the field, stores it in the varCaption variable and displays it in a message box. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -71,5 +71,5 @@ CustomerRecref.CLOSE;
 ```  
   
 ## See Also  
- [FieldRef Data Type](../dynamics-nav/FieldRef-Data-Type.md)   
- [Multilanguage Development](../dynamics-nav/Multilanguage-Development.md)
+ [FieldRef Data Type](FieldRef-Data-Type.md)   
+ [Multilanguage Development](Multilanguage-Development.md)

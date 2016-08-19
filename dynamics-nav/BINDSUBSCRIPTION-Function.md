@@ -33,7 +33,7 @@ Binds the event subscriber functions in the codeunit to the current codeunit ins
  If you omit this optional return value and the binding is not successful, then a run\-time error occurs. If you include the return value, then you must handle any errors.  
   
 ## Remarks  
- You can only call this function on codeunits that have the [EventSubscriberInstance Property](../dynamics-nav/EventSubscriberInstance-Property.md) set to **Manual**.  
+ You can only call this function on codeunits that have the [EventSubscriberInstance Property](EventSubscriberInstance-Property.md) set to **Manual**.  
   
  The codeunit instance to which event subscribers bind will be this exact instance and events will be raised on this instance. You cannot bind the same instance more than once, but you can bind multiple instances of the same codeunit. This will result in an event subscriber call on each bound instance when a given event is raised.  
   
@@ -57,8 +57,8 @@ END; // Notice, that when SubScriberCodeunit888 goes out of scope, all bindings 
 ```  
   
 ## See Also  
- [UNBINDSUBSCRIPTION Function](../dynamics-nav/UNBINDSUBSCRIPTION-Function.md)   
- [Events in Microsoft Dynamics NAV](../dynamics-nav/Events-in-Microsoft-Dynamics-NAV.md)   
- [Subscribing to Events](../dynamics-nav/Subscribing-to-Events.md)   
- [Raising Events](../dynamics-nav/Raising-Events.md)   
- [Publishing Events](../dynamics-nav/Publishing-Events.md)
+ [UNBINDSUBSCRIPTION Function](UNBINDSUBSCRIPTION-Function.md)   
+ [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)   
+ [Subscribing to Events](Subscribing-to-Events.md)   
+ [Raising Events](Raising-Events.md)   
+ [Publishing Events](Publishing-Events.md)

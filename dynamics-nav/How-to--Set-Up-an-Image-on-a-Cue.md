@@ -13,11 +13,11 @@ manager: edupont
 # How to: Set Up an Image on a Cue
 When a field that defines the data in a cue has an integer data type, you can set up the cue to include an image. There are several images from which to choose. For example, if the cue shows the total count of an item such as open sales orders, then you can set the cue to include the stack image, which depicts that total count as a stack of paper. This is the default image. You can also set up the cue so that it does not to include an image.  
   
- To set up an image on the cue, you set the [Image Property \(Fields\)](../dynamics-nav/Image-Property--Fields-.md) of the field that defines the cue as described in the following procedure.  
+ To set up an image on the cue, you set the [Image Property \(Fields\)](Image-Property--Fields-.md) of the field that defines the cue as described in the following procedure.  
   
 ### To set up an image on a cue  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], open the page that contains the cue as follows:  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], open the page that contains the cue as follows:  
   
     1.  On the **Tools** menu, choose **Object Designer**.  
   

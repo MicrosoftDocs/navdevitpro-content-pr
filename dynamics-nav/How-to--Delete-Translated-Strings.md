@@ -15,7 +15,7 @@ After you add translated strings into a database, there is only one way to delet
   
 ### To delete a language layer  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, select the object for which you want to delete the translated strings.  
   
@@ -30,7 +30,7 @@ After you add translated strings into a database, there is only one way to delet
 7.  In the **Language Module Export** window, select the **Delete language** field, and then choose the **OK** button.  
   
 ## See Also  
- [Multilanguage Development](../dynamics-nav/Multilanguage-Development.md)   
+ [Multilanguage Development](Multilanguage-Development.md)   
  [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](../Topic/How%20to:%20Add%20Translated%20Strings%20By%20Importing%20and%20Exporting%20Multilanguage%20Files.md)   
  [How to: Add Translated Strings By Using the Multilanguage Editor](../Topic/How%20to:%20Add%20Translated%20Strings%20By%20Using%20the%20Multilanguage%20Editor.md)   
  [How to: Uninstall Language Modules](../Topic/How%20to:%20Uninstall%20Language%20Modules.md)

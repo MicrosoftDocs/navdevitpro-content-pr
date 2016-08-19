@@ -51,12 +51,12 @@ RecordRef.INIT
   
  Primary key and timestamp fields are not initialized.  
   
- After the function executes, you can change the values in any or all of the fields before you call the [INSERT Function \(RecordRef\)](../dynamics-nav/INSERT-Function--RecordRef-.md) to enter the record in the table. Be sure that the fields that make up the primary key contain values that make the total primary key unique. If the primary key is not unique \(such as the record already exists\), then the record is rejected.  
+ After the function executes, you can change the values in any or all of the fields before you call the [INSERT Function \(RecordRef\)](INSERT-Function--RecordRef-.md) to enter the record in the table. Be sure that the fields that make up the primary key contain values that make the total primary key unique. If the primary key is not unique \(such as the record already exists\), then the record is rejected.  
   
- The function works the same as the [INIT Function \(Record\)](../dynamics-nav/INIT-Function--Record-.md).  
+ The function works the same as the [INIT Function \(Record\)](INIT-Function--Record-.md).  
   
 ## Example  
- The following example opens a table 18 \(Customer\) with a RecordRef variable that is named CustomerRecref. The [FIELD Function \(RecordRef\)](../dynamics-nav/FIELD-Function--RecordRef-.md) creates a FieldRef variable that is named MyFieldRef for the field. The INIT function initializes the values in the fields by using default values and then uses the [INSERT Function \(RecordRef\)](../dynamics-nav/INSERT-Function--RecordRef-.md) to insert a new record. The new record is 1120. This is the primary key for the new record.  
+ The following example opens a table 18 \(Customer\) with a RecordRef variable that is named CustomerRecref. The [FIELD Function \(RecordRef\)](FIELD-Function--RecordRef-.md) creates a FieldRef variable that is named MyFieldRef for the field. The INIT function initializes the values in the fields by using default values and then uses the [INSERT Function \(RecordRef\)](INSERT-Function--RecordRef-.md) to insert a new record. The new record is 1120. This is the primary key for the new record.  
   
 > [!NOTE]  
 >  In this example, the INIT function is called before the primary key is assigned a value. The INIT function does not initialize primary key fields. Therefore calling the INIT function before or after you assign values to the primary key field does not make any difference.  
@@ -86,4 +86,4 @@ MESSAGE(‘%1’, MyFieldRef.VALUE);
 ```  
   
 ## See Also  
- [RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md)
+ [RecordRef Data Type](RecordRef-Data-Type.md)

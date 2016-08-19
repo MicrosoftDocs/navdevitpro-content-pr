@@ -41,11 +41,11 @@ Parameters := REPORT.RUNREQUESTPAGE(Number[, Parameters])
 ## Remarks  
  This function opens the request page for the specified report, where the user can provide parameters for the report. When the user closes the request page by choosing the **OK** button, a string that contains the parameter values that were set by the user is returned. When the user chooses the **Cancel** button, an empty string will be returned. The returned parameter string can be picked up by calling one of the following functions:  
   
--   [EXECUTE Function](../dynamics-nav/EXECUTE-Function.md)  
+-   [EXECUTE Function](EXECUTE-Function.md)  
   
--   [PRINT Function](../dynamics-nav/PRINT-Function.md)  
+-   [PRINT Function](PRINT-Function.md)  
   
--   [SAVEAS Function](../dynamics-nav/SAVEAS-Function.md)  
+-   [SAVEAS Function](SAVEAS-Function.md)  
   
 > [!NOTE]  
 >  You can use these functions to schedule reports in the job queue.  
@@ -124,5 +124,5 @@ REPORT.PRINT(206,XmlParameters);
 ```  
   
 ## See Also  
- [Reports\-duplicate 20](../dynamics-nav/Reports-duplicate-20.md)   
- [Request Pages](../dynamics-nav/Request-Pages.md)
+ [Reports\-duplicate 20](Reports-duplicate-20.md)   
+ [Request Pages](Request-Pages.md)

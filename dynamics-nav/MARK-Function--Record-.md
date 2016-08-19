@@ -116,5 +116,5 @@ MESSAGE(Text001 + Text002, No1, No2);
  **Number of records after MARKEDONLY: 1**  
   
 ## See Also  
- [MARKEDONLY Function \(Record\)](../dynamics-nav/MARKEDONLY-Function--Record-.md)   
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [MARKEDONLY Function \(Record\)](MARKEDONLY-Function--Record-.md)   
+ [Record Data Type](Record-Data-Type.md)

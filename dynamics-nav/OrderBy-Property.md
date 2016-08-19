@@ -19,7 +19,7 @@ Sorts rows in the resulting dataset of a query in ascending or descending order 
 ## Property Value  
  *Column*\=**Ascending**&#124;**Descending**  
   
--   *Column* is the name of the query column as specified by its [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md).  
+-   *Column* is the name of the query column as specified by its [Name Property\-duplicate](Name-Property-duplicate.md).  
   
 -   **Ascending** sorts the column from lowest value to the highest value \(A to Z, 0 to 9\).  
   

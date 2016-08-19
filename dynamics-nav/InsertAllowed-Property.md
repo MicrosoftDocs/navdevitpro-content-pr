@@ -21,4 +21,4 @@ Sets a value to specify whether users can add records while using a page.
  **Yes** if you want to allow users to add records; otherwise, **No**. The default value is **Yes**.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

@@ -13,15 +13,15 @@ manager: terryaus
 # ($ S_2102 Table Designer $)
 Provides functionality for designing tables.  
   
- Table Designer is part of Object Designer. You use Object Designer to access the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)]. You use the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)] to modify the application or to create new application areas.  
+ Table Designer is part of Object Designer. You use Object Designer to access the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. You use the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to modify the application or to create new application areas.  
   
  To open this window, on the **Tools** menu, choose **Object Designer**, choose **Table**, and then choose the **Design** button. You can choose the **New** button instead of the **Design** button to design a new table.  
   
- For more information, see [Tables\-duplicate 20](../dynamics-nav/Tables-duplicate-20.md).  
+ For more information, see [Tables\-duplicate 20](Tables-duplicate-20.md).  
   
 ## Fields  
   
-|[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
 |**Enabled**|Specifies whether a field is enabled.|  
 |**Field No.**|Specifies the field number.|  
@@ -30,4 +30,4 @@ Provides functionality for designing tables.
 |**Description**|Specifies the description of the field.|  
   
 ## See Also  
- [\($ S\_2051 Object Designer $\)](../dynamics-nav/-$-S_2051-Object-Designer-$-.md)
+ [\($ S\_2051 Object Designer $\)](-$-S_2051-Object-Designer-$-.md)

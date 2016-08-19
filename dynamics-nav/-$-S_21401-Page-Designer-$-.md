@@ -13,14 +13,14 @@ manager: terryaus
 # ($ S_21401 Page Designer $)
 Provides functionality for designing pages.  
   
- Page Designer is part of Object Designer. Object Designer gives you access to the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)]. You use the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)] to modify the application or to create new application areas.  
+ Page Designer is part of Object Designer. Object Designer gives you access to the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. You use the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to modify the application or to create new application areas.  
   
  To open this window, on the **Tools** menu, choose **Object Designer**, choose **Page**, and then choose the **Design** button. Choose the **New** button instead of the **Design** button to design a new page.  
   
 ## Columns  
  The following table describes the columns of Page Designer. To show or hide a column, on the **View** menu, choose **Show Column** or **Hide Column**.  
   
-|Column|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|Column|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |------------|---------------------------------------|  
 |**Expanded**|Expands or collapses the element and child elements in Page Designer.|  
 |**Type**|Specifies the type of the control to display on the page. You can choose from the following control types:<br /><br /> -   **Container**<br />-   **Group**<br />-   **Field**<br />-   **Part**|  
@@ -28,8 +28,8 @@ Provides functionality for designing pages.
 |**SourceExpr**|Specifies an expression that defines where to find the value of the control.|  
 |**Name**|Specifies the name of the control or field to display on the page. The name cannot contain spaces.|  
 |**Caption**|Specifies the caption of the control or field.|  
-|**Visible**|Sets whether to display the page or control. For more information, see  [Visible Property\-duplicate](../dynamics-nav/Visible-Property-duplicate.md).|  
-|**ApplicationArea**|Sets the application areas that apply to the control. For more information, see [ApplicationArea Property](../dynamics-nav/ApplicationArea-Property.md).|  
+|**Visible**|Sets whether to display the page or control. For more information, see  [Visible Property\-duplicate](Visible-Property-duplicate.md).|  
+|**ApplicationArea**|Sets the application areas that apply to the control. For more information, see [ApplicationArea Property](ApplicationArea-Property.md).|  
   
 ## See Also  
  [How to: Create a Page](../Topic/How%20to:%20Create%20a%20Page.md)

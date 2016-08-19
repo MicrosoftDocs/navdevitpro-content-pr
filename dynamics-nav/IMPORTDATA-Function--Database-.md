@@ -10,9 +10,9 @@ ms.assetid: 1208c431-8d3d-4cc7-9696-98533d992ebb
 caps.latest.revision: 3
 ---
 # IMPORTDATA Function (Database)
-Imports data from a file that has been exported from a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database.  
+Imports data from a file that has been exported from a [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
- For an example of how to use this function, see page 9900, **\($ N\_9900 Import Data $\)**, in the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+ For an example of how to use this function, see page 9900, **\($ N\_9900 Import Data $\)**, in the [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 ## Syntax  
   
@@ -29,7 +29,7 @@ Imports data from a file that has been exported from a [!INCLUDE[navnow](../dyna
  *FileName*  
  Type: Text  
   
- Specifies the name and location of the file that must be imported. The file must have been exported from a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database.  
+ Specifies the name and location of the file that must be imported. The file must have been exported from a [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
  *IncludeApplicationData*  
  Type: Variable  
@@ -39,7 +39,7 @@ Imports data from a file that has been exported from a [!INCLUDE[navnow](../dyna
  Create a variable of type Boolean to specify this parameter.  
   
 > [!IMPORTANT]  
->  To import application objects, you must use the **Import\-NAVData** Windows PowerShell cmdlet. For more information, see [Exporting and Importing Companies and Other Data](../dynamics-nav/Exporting-and-Importing-Companies-and-Other-Data.md).  
+>  To import application objects, you must use the **Import\-NAVData** Windows PowerShell cmdlet. For more information, see [Exporting and Importing Companies and Other Data](Exporting-and-Importing-Companies-and-Other-Data.md).  
   
  *IncludeGlobalData*  
  Type: Variable  
@@ -54,4 +54,4 @@ Imports data from a file that has been exported from a [!INCLUDE[navnow](../dyna
  Specifies the company or companies that must be imported.  
   
 ## See Also  
- [Exporting and Importing Companies and Other Data](../dynamics-nav/Exporting-and-Importing-Companies-and-Other-Data.md)
+ [Exporting and Importing Companies and Other Data](Exporting-and-Importing-Companies-and-Other-Data.md)

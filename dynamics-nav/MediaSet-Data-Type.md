@@ -15,8 +15,8 @@ A complex type that encapsulates media files, such as images, in application dat
  The **MediaSet** data type enables you to import media files to the database as part of a collection and then reference them from records, which then makes it possible to display the media in the client user interface.  
   
 ## See Also  
- [COUNT Function \(MediaSet\)](../dynamics-nav/COUNT-Function--MediaSet-.md)   
- [IMPORTFILE Function \(MediaSet\)](../dynamics-nav/IMPORTFILE-Function--MediaSet-.md)   
- [IMPORTSTREAM Function \(MediaSet\)](../dynamics-nav/IMPORTSTREAM-Function--MediaSet-.md)   
- [MEDIAID Function \(MediaSet\)](../dynamics-nav/MEDIAID-Function--MediaSet-.md)   
- [EXPORTFILE Function](../dynamics-nav/EXPORTFILE-Function.md)
+ [COUNT Function \(MediaSet\)](COUNT-Function--MediaSet-.md)   
+ [IMPORTFILE Function \(MediaSet\)](IMPORTFILE-Function--MediaSet-.md)   
+ [IMPORTSTREAM Function \(MediaSet\)](IMPORTSTREAM-Function--MediaSet-.md)   
+ [MEDIAID Function \(MediaSet\)](MEDIAID-Function--MediaSet-.md)   
+ [EXPORTFILE Function](EXPORTFILE-Function.md)

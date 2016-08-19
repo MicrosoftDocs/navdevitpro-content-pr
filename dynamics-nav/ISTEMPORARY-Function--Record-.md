@@ -32,5 +32,5 @@ Temp := Record.ISTEMPORARY
  **true** if the record refers to a temporary table; otherwise, **false**.  
   
 ## See Also  
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)   
- [ISTEMPORARY Function \(RecordRef\)](../dynamics-nav/ISTEMPORARY-Function--RecordRef-.md)
+ [Record Data Type](Record-Data-Type.md)   
+ [ISTEMPORARY Function \(RecordRef\)](ISTEMPORARY-Function--RecordRef-.md)

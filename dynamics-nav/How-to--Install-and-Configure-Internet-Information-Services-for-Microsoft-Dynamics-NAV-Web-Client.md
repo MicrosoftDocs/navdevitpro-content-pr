@@ -11,7 +11,7 @@ caps.latest.revision: 19
 manager: terryaus
 ---
 # How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client
-This topic describes how to install and configure Internet Information Service \(IIS\) for the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]. To deploy the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], you install the [!INCLUDE[nav_web_server](../dynamics-nav/includes/nav_web_server_md.md)] on a computer that running IIS 7.0 or IIS 8.0. A website for [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] is installed on the IIS.  
+This topic describes how to install and configure Internet Information Service \(IIS\) for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)], you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on a computer that running IIS 7.0 or IIS 8.0. A website for [!INCLUDE[nav_web](includes/nav_web_md.md)] is installed on the IIS.  
   
  IIS must have the following features enabled:  
   
@@ -42,10 +42,10 @@ This topic describes how to install and configure Internet Information Service \
 -   [Installing IIS Features on Windows Server 2012](../Topic/How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#WS2012)  
   
 > [!NOTE]  
->  Instead of manually installing IIS, you can use the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Setup wizard to install and enable the IIS features. For more information, see [Using Microsoft Dynamics NAV Setup to Install IIS Features](../dynamics-nav/Using-Microsoft-Dynamics-NAV-Setup-to-Install-IIS-Features.md).  
+>  Instead of manually installing IIS, you can use the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard to install and enable the IIS features. For more information, see [Using Microsoft Dynamics NAV Setup to Install IIS Features](Using-Microsoft-Dynamics-NAV-Setup-to-Install-IIS-Features.md).  
   
 ##  <a name="Win7"></a> Installing IIS Features on Windows 7  
- The following procedure describes how to install IIS and the required features for the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], including HTTP activation, on Windows 7.  
+ The following procedure describes how to install IIS and the required features for the [!INCLUDE[nav_web](includes/nav_web_md.md)], including HTTP activation, on Windows 7.  
   
 #### To install IIS features on Windows 7  
   
@@ -89,7 +89,7 @@ This topic describes how to install and configure Internet Information Service \
     >  To open Internet Information Services \(IIS\) Manager, on the **Start** menu, in the **Search Programs and Files** box, type **inetmgr**, and then press Enter.  
   
 ##  <a name="ws2008"></a> Installing IIS Features on Windows Server 2008 and Windows Server 2008 R2  
- The following procedure describes how to install IIS and the required features for the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] on Windows Server 2008 and Windows Server 2008 R2.  
+ The following procedure describes how to install IIS and the required features for the [!INCLUDE[nav_web](includes/nav_web_md.md)] on Windows Server 2008 and Windows Server 2008 R2.  
   
 #### To install IIS features on Windows Server 2008 and Windows Server 2008 R2  
   
@@ -155,7 +155,7 @@ This topic describes how to install and configure Internet Information Service \
 5.  When the installation is complete, choose the **Close** button.  
   
 ##  <a name="Win8"></a> Installing IIS Features on Windows 8 and Windows 10  
- The following procedure describes how to install IIS and the required features for the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] on Windows 8 and Windows 10.  
+ The following procedure describes how to install IIS and the required features for the [!INCLUDE[nav_web](includes/nav_web_md.md)] on Windows 8 and Windows 10.  
   
 #### To install IIS features on Windows 8 and Windows 10  
   
@@ -211,7 +211,7 @@ This topic describes how to install and configure Internet Information Service \
      The default web site opens and should display an IIS 8 image.  
   
 ##  <a name="WS2012"></a> Installing IIS Features on Windows Server 2012  
- The following procedure describes how to install IIS and the required features for the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] on Windows Server 2012.  
+ The following procedure describes how to install IIS and the required features for the [!INCLUDE[nav_web](includes/nav_web_md.md)] on Windows Server 2012.  
   
 #### To install IIS features on Windows Server 2012  
   
@@ -310,5 +310,5 @@ This topic describes how to install and configure Internet Information Service \
      The default website opens and should display an IIS 8 image.  
   
 ## See Also  
- [Deploying the Microsoft Dynamics NAV Web Server Components](../dynamics-nav/Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
+ [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
  [How to: Install the Web Server Components](../Topic/How%20to:%20Install%20the%20Web%20Server%20Components.md)

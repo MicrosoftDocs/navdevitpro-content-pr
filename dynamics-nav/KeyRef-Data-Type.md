@@ -18,7 +18,7 @@ Identifies a key in a table and the fields in this key.
  The KeyRef object can refer to any key in any table in the database.  
   
 ## See Also  
- [ACTIVE Function \(KeyRef\)](../dynamics-nav/ACTIVE-Function--KeyRef-.md)   
- [FIELDCOUNT Function \(KeyRef\)](../dynamics-nav/FIELDCOUNT-Function--KeyRef-.md)   
- [FIELDINDEX Function \(KeyRef\)](../dynamics-nav/FIELDINDEX-Function--KeyRef-.md)   
- [RECORD Function \(KeyRef\)](../dynamics-nav/RECORD-Function--KeyRef-.md)
+ [ACTIVE Function \(KeyRef\)](ACTIVE-Function--KeyRef-.md)   
+ [FIELDCOUNT Function \(KeyRef\)](FIELDCOUNT-Function--KeyRef-.md)   
+ [FIELDINDEX Function \(KeyRef\)](FIELDINDEX-Function--KeyRef-.md)   
+ [RECORD Function \(KeyRef\)](RECORD-Function--KeyRef-.md)

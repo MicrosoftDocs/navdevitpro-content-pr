@@ -27,6 +27,6 @@ ID := TENANTID
  The ID of the tenant that has started the current session.  
   
 ## See Also  
- [Multitenant Deployment Architecture](../dynamics-nav/Multitenant-Deployment-Architecture.md)   
- [COMPANYNAME Function \(Database\)](../dynamics-nav/COMPANYNAME-Function--Database-.md)   
- [Database](../dynamics-nav/Database.md)
+ [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md)   
+ [COMPANYNAME Function \(Database\)](COMPANYNAME-Function--Database-.md)   
+ [Database](Database.md)

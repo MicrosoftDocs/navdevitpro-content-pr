@@ -11,10 +11,10 @@ caps.latest.revision: 10
 manager: terryaus
 ---
 # How to: Set Up Filter Rows in Query Designer
-You use a Filter row in Query Designer when you want to filter the query on a field, but you do not want to include the field in the dataset. For example, you might want to filter a date field on a specific date, but you do not want to include the date in the dataset. To specify the filter for the Filter row, you set its [ColumnFilter Property](../dynamics-nav/ColumnFilter-Property.md).  
+You use a Filter row in Query Designer when you want to filter the query on a field, but you do not want to include the field in the dataset. For example, you might want to filter a date field on a specific date, but you do not want to include the date in the dataset. To specify the filter for the Filter row, you set its [ColumnFilter Property](ColumnFilter-Property.md).  
   
 > [!NOTE]  
->  The filter on a Filter row is similar to a filter on a data item, except that the filter of a Filter row can be programmatically overwritten by calling the **SETFILTER** and **SETRANGE** functions from C\/AL code. For more information, see [Understanding Query Filters](../dynamics-nav/Understanding-Query-Filters.md).  
+>  The filter on a Filter row is similar to a filter on a data item, except that the filter of a Filter row can be programmatically overwritten by calling the **SETFILTER** and **SETRANGE** functions from C\/AL code. For more information, see [Understanding Query Filters](Understanding-Query-Filters.md).  
   
 ### To add a Filter row in a query  
   
@@ -40,13 +40,13 @@ You use a Filter row in Query Designer when you want to filter the query on a fi
   
     1.  If you set the **Type** column to **CONST**, then enter the value that you want to filter on.  
   
-    2.  If you set the **Type** column to **FILTER**, then enter the filter expression. For more information, see [Entering Criteria in Filters](../dynamics-nav/Entering-Criteria-in-Filters.md).  
+    2.  If you set the **Type** column to **FILTER**, then enter the filter expression. For more information, see [Entering Criteria in Filters](Entering-Criteria-in-Filters.md).  
   
 6.  Choose the **OK** button to return to the **Properties** window.  
   
 7.  Close the **Properties** window and save the query.  
   
 ## See Also  
- [Understanding Query Filters](../dynamics-nav/Understanding-Query-Filters.md)   
- [ColumnFilter Property](../dynamics-nav/ColumnFilter-Property.md)   
+ [Understanding Query Filters](Understanding-Query-Filters.md)   
+ [ColumnFilter Property](ColumnFilter-Property.md)   
  [How to: Create Queries](../Topic/How%20to:%20Create%20Queries.md)

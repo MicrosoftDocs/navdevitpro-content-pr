@@ -11,13 +11,13 @@ caps.latest.revision: 8
 manager: terryaus
 ---
 # ($ S_2082 Language Module Export $)
-Exports a language module. [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] is multilanguage enabled, which means that you can display the user interface \(UI\) in different languages. To view [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] content in multiple languages, you must install the module for the languages. You can uninstall a language if it is no longer supported. For more information, see [How to: Uninstall Language Modules](../Topic/How%20to:%20Uninstall%20Language%20Modules.md).  
+Exports a language module. [!INCLUDE[navnowlong](includes/navnowlong_md.md)] is multilanguage enabled, which means that you can display the user interface \(UI\) in different languages. To view [!INCLUDE[navnow](includes/navnow_md.md)] content in multiple languages, you must install the module for the languages. You can uninstall a language if it is no longer supported. For more information, see [How to: Uninstall Language Modules](../Topic/How%20to:%20Uninstall%20Language%20Modules.md).  
   
  To open this window, on the **Tools** menu, choose **Language Module**, and then choose **Export**.  
   
 ## Fields  
   
-|[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
 |**File Name**|Specifies the path and file name of the file that will contain the exported language module.|  
 |**Language**|Specifies the language that you want to export.|  

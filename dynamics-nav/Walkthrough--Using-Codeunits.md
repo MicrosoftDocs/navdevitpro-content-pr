@@ -24,19 +24,19 @@ You can treat codeunits as objects. One codeunit variable can be assigned to ano
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] installed with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installed with a developer license.  
   
 -   The CRONUS International Ltd. demo data company.  
   
 ## Story  
- Viktor is a Microsoft Certified Partner working for [!INCLUDE[demoname](../dynamics-nav/includes/demoname_md.md)]. To learn about codeunits in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], he plans to create a codeunit that includes **Set** and **Get** functions, create a codeunit that calls two instances of the Set\_Get codeunit, and finally convert the codeunit to a single instance codeunit.  
+ Viktor is a Microsoft Certified Partner working for [!INCLUDE[demoname](includes/demoname_md.md)]. To learn about codeunits in [!INCLUDE[navnow](includes/navnow_md.md)], he plans to create a codeunit that includes **Set** and **Get** functions, create a codeunit that calls two instances of the Set\_Get codeunit, and finally convert the codeunit to a single instance codeunit.  
   
 ## Creating the First Codeunit  
  First, you must create a codeunit that includes the **Set** and **Get** functions. You must also write the code for these two functions.  
   
 #### To create the first codeunit  
   
-1.  Open [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)].  
+1.  Open [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
   
 2.  In the development environment, on the **Tools** menu, choose **Object Designer**.  
   
@@ -52,7 +52,7 @@ You can treat codeunits as objects. One codeunit variable can be assigned to ano
   
 8.  Select the **Set** function, in the **View** menu, choose **Properties**, and then set the **Local** property to **No**.  
   
-     Setting this property makes the function accessible from the other codeunit that you will create. For more information about this property, see [Local Property](../dynamics-nav/Local-Property.md).  
+     Setting this property makes the function accessible from the other codeunit that you will create. For more information about this property, see [Local Property](Local-Property.md).  
   
 9. Select the **Set** function and then choose **Locals**.  
   
@@ -217,4 +217,4 @@ You can treat codeunits as objects. One codeunit variable can be assigned to ano
      Since codeunit 70002 is no longer a single instance codeunit, the CUInstance2 instance of codeunit 70002 is not able to access the value of the InternalInt variable that was set by the CUInstance1 instance of codeunit 70002.  
   
 ## See Also  
- [Using Codeunits](../dynamics-nav/Using-Codeunits.md)
+ [Using Codeunits](Using-Codeunits.md)

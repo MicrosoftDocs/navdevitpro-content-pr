@@ -70,7 +70,7 @@ MESSAGE(Text001 + Text002 + Text003, FldRef1.CAPTION, FldRef2.CAPTION, FldRef3.C
   
  The following illustration shows the first fields in table 112, Sales Invoice Header, when you design the table in Object Designer, and shows the keys for table 112. The order of the fields in the index differs from the order of the fields in the table. The index lists the field in the primary key first.  
   
- ![Table 112 designer and keys](../dynamics-nav/media/DesignTable112.png "DesignTable112")  
+ ![Table 112 designer and keys](media/DesignTable112.png "DesignTable112")  
   
 ## See Also  
- [RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md)
+ [RecordRef Data Type](RecordRef-Data-Type.md)

@@ -26,4 +26,4 @@ To save a codeunit, use the following procedure.
     >  If you are working on a large and complicated codeunit, you may want to save your work at regular intervals, even though it is not yet finished and cannot yet be compiled. In this case, you must clear the **Compiled** check box before you save the codeunit.  
   
 ## See Also  
- [Codeunits](../dynamics-nav/Codeunits.md)
+ [Codeunits](Codeunits.md)

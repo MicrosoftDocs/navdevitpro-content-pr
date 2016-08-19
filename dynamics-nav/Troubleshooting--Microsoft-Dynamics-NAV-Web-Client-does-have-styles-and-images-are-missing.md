@@ -11,7 +11,7 @@ caps.latest.revision: 4
 manager: terryaus
 ---
 # Troubleshooting: Microsoft Dynamics NAV Web Client does have styles and images are missing
-The [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] does not render properly. Text displays with no style or formatting, and images are missing.  
+The [!INCLUDE[nav_web](includes/nav_web_md.md)] does not render properly. Text displays with no style or formatting, and images are missing.  
   
 ## Resolution  
  This error can occur if Internet Information Services \(IIS\) is not configured for static content. To resolve this issue, configure the static content feature in IIS. For information about configuring IIS, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](../Topic/How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).

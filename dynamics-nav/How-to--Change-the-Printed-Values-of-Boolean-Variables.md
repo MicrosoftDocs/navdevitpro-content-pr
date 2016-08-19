@@ -17,7 +17,7 @@ In a client report definition \(RDLC\) report layout, when a Boolean value appea
   
 ### To change the printed value of a Boolean field  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In **Object Designer**, choose **Report**, select the report for which you want to change the printed values of Boolean variables or fields, and then choose the **Design** button.  
   
@@ -30,4 +30,4 @@ In a client report definition \(RDLC\) report layout, when a Boolean value appea
 6.  In the **Save** window, select the **Compiled** check box, and then choose the **OK** button.  
   
 ## See Also  
- [Designing Reports](../dynamics-nav/Designing-Reports.md)
+ [Designing Reports](Designing-Reports.md)

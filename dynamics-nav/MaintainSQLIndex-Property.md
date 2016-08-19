@@ -28,4 +28,4 @@ Sets a value that indicates whether a SQL Server index that corresponds to the M
 >  You cannot disable this property on the primary key of a table. This key is always created in SQL Server.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

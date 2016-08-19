@@ -20,4 +20,4 @@ Sets the key used to sort data in the source table for the XML item.
  The **AssistButton** in the Value field for this property opens the **Table View** window that allows you to specify sort order and the key that is used to sort the table data. You can also place a filter on the table.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

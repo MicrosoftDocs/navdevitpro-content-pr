@@ -11,7 +11,7 @@ caps.latest.revision: 21
 manager: terryaus
 ---
 # Bulk Inserts
-By default, [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] automatically buffers inserts in order to send them to Microsoft SQL Server at one time.  
+By default, [!INCLUDE[navnow](includes/navnow_md.md)] automatically buffers inserts in order to send them to Microsoft SQL Server at one time.  
   
  By using bulk inserts, the number of server calls is reduced, thereby improving performance.  
   
@@ -78,10 +78,10 @@ COMMIT;
 ```  
   
 ## Disabling Bulk Inserts  
- Disabling bulk inserts can be helpful when you are troubleshooting failures that occur when inserting records. To disable bulk inserts, you set the *BufferedInsertEnabled* parameter in the CustomSettings.config file of the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] to **FALSE**. For more information, see [Configuring Microsoft Dynamics NAV Server](../dynamics-nav/Configuring-Microsoft-Dynamics-NAV-Server.md).  
+ Disabling bulk inserts can be helpful when you are troubleshooting failures that occur when inserting records. To disable bulk inserts, you set the *BufferedInsertEnabled* parameter in the CustomSettings.config file of the [!INCLUDE[nav_server](includes/nav_server_md.md)] to **FALSE**. For more information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).  
   
 ## See Also  
- [Data Access](../dynamics-nav/Data-Access.md)   
- [Table Keys and Performance](../dynamics-nav/Table-Keys-and-Performance.md)   
- [C\-AL Database Functions and Performance on SQL Server](../dynamics-nav/C-AL-Database-Functions-and-Performance-on-SQL-Server.md)   
- [Query Objects and Performance](../dynamics-nav/Query-Objects-and-Performance.md)
+ [Data Access](Data-Access.md)   
+ [Table Keys and Performance](Table-Keys-and-Performance.md)   
+ [C\-AL Database Functions and Performance on SQL Server](C-AL-Database-Functions-and-Performance-on-SQL-Server.md)   
+ [Query Objects and Performance](Query-Objects-and-Performance.md)

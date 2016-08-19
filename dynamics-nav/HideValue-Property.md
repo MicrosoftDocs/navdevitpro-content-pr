@@ -20,4 +20,4 @@ Sets whether to show or hide a value for the user based on an expression.
  **True** if the value is hidden; otherwise, **False**. The default is **False**.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

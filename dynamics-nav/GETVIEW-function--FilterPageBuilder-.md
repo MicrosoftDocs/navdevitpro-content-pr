@@ -70,12 +70,12 @@ IF varFilterPageBuilder.RUNMODAL = TRUE THEN
 ```  
   
 ## See Also  
- [ADDFIELD Function](../dynamics-nav/ADDFIELD-Function.md)   
- [ADDFIELDNO Function](../dynamics-nav/ADDFIELDNO-Function.md)   
- [ADDRECORD Function](../dynamics-nav/ADDRECORD-Function.md)   
- [ADDRECORDREF Function](../dynamics-nav/ADDRECORDREF-Function.md)   
- [ADDTABLE Function](../dynamics-nav/ADDTABLE-Function.md)   
- [SETVIEW Function](../dynamics-nav/SETVIEW-Function.md)   
- [COUNT Function \(FilterPageBuilder\)](../dynamics-nav/COUNT-Function--FilterPageBuilder-.md)   
- [NAME Function \(FilterPageBuilder\)](../dynamics-nav/NAME-Function--FilterPageBuilder-.md)   
- [RUNMODAL Function \(FilterPageBuilder\)](../dynamics-nav/RUNMODAL-Function--FilterPageBuilder-.md)
+ [ADDFIELD Function](ADDFIELD-Function.md)   
+ [ADDFIELDNO Function](ADDFIELDNO-Function.md)   
+ [ADDRECORD Function](ADDRECORD-Function.md)   
+ [ADDRECORDREF Function](ADDRECORDREF-Function.md)   
+ [ADDTABLE Function](ADDTABLE-Function.md)   
+ [SETVIEW Function](SETVIEW-Function.md)   
+ [COUNT Function \(FilterPageBuilder\)](COUNT-Function--FilterPageBuilder-.md)   
+ [NAME Function \(FilterPageBuilder\)](NAME-Function--FilterPageBuilder-.md)   
+ [RUNMODAL Function \(FilterPageBuilder\)](RUNMODAL-Function--FilterPageBuilder-.md)

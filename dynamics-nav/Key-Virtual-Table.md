@@ -22,7 +22,7 @@ The **Key** virtual table contains information about the keys that are defined i
 |**TableName**|The name of the table.|  
 |**Key**|The fields that make up the key.|  
 |**SumIndexField**|The SumIndexFields that are defined for this key.|  
-|**SQLIndex**|The actual fields that have been defined in [!INCLUDE[nav_current_short](../dynamics-nav/includes/nav_current_short_md.md)] and are used in the corresponding index on SQL Server instead of those defined in the key.|  
+|**SQLIndex**|The actual fields that have been defined in [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] and are used in the corresponding index on SQL Server instead of those defined in the key.|  
 |**Enabled**|Whether the index is enabled. This field can be modified.|  
 |**MaintainSQLIndex**|Whether the MaintainSQLIndex property has been activated. This field can be modified.|  
 |**MaintainSIFTIndex**|Whether the MaintainSIFTIndex property has been activated. This field can be modified.|  
@@ -31,4 +31,4 @@ The **Key** virtual table contains information about the keys that are defined i
  You must create a tabular\-type page to access the **Key** virtual table. For more information, see [How to: Create a Page to View a Virtual Table](../Topic/How%20to:%20Create%20a%20Page%20to%20View%20a%20Virtual%20Table.md).  
   
 ## See Also  
- [Virtual Tables](../dynamics-nav/Virtual-Tables.md)
+ [Virtual Tables](Virtual-Tables.md)

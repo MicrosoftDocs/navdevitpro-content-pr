@@ -11,26 +11,26 @@ caps.latest.revision: 14
 manager: terryaus
 ---
 # Object Numbering Conventions
-Each object and field in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] is identified by a number that is stored in its [ID Property](../dynamics-nav/ID-Property.md). This topic describes the numbering scheme for the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)]. Numbering conventions that are used in the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)] and guidelines for objects and fields that are outside the demo range are described.  
+Each object and field in [!INCLUDE[navnow](includes/navnow_md.md)] is identified by a number that is stored in its [ID Property](ID-Property.md). This topic describes the numbering scheme for the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. Numbering conventions that are used in the [!INCLUDE[demolong](includes/demolong_md.md)] and guidelines for objects and fields that are outside the demo range are described.  
   
 ## The Numbering System  
- The objects ranges in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] are described in the following table.  
+ The objects ranges in [!INCLUDE[navnow](includes/navnow_md.md)] are described in the following table.  
   
 |Object number interval|Description|  
 |----------------------------|-----------------|  
-|1 \- 9,999|[!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)] design area|  
+|1 \- 9,999|[!INCLUDE[demolong](includes/demolong_md.md)] design area|  
 |10,000 \- 49,999|Country\/region design area|  
 |50,000 \- 99,999|Customer design area|  
 |100,000 \- 999,999,999|Microsoft Certified Partner design area|  
   
 > [!NOTE]  
->  Do not use the object numbers 99,000 \- 99,999 for objects that you create, even though they are in the customer design area. The training material for [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] uses these numbers.  
+>  Do not use the object numbers 99,000 \- 99,999 for objects that you create, even though they are in the customer design area. The training material for [!INCLUDE[navnow](includes/navnow_md.md)] uses these numbers.  
   
- The fields in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] are grouped as indicated in the following table.  
+ The fields in [!INCLUDE[navnow](includes/navnow_md.md)] are grouped as indicated in the following table.  
   
 |Table number|Field numbers|Description|  
 |------------------|-------------------|-----------------|  
-|1 \- 9,999|1 \- 9999|[!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)] design area|  
+|1 \- 9,999|1 \- 9999|[!INCLUDE[demolong](includes/demolong_md.md)] design area|  
 |1 \- 9,999|10,000 \- 49,000|Country\/region design area|  
 |1 \- 9,999|50,0000 \- 99,999|Customer design area|  
 |1 \- 9,999|100,000 \- 999,999,999|Microsoft Certified Partner design area|  
@@ -44,7 +44,7 @@ Each object and field in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md
 |100,000 \- 99,999,999|100,000 \- 999,999,999|Microsoft Certified Partner design area|  
   
 > [!NOTE]  
->  Do not use the field numbers 99,000–99,999 in tables numbered between 1 and 49,999 for fields that you create, even though they lie in the customer design area. The training material for [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] uses these numbers.  
+>  Do not use the field numbers 99,000–99,999 in tables numbered between 1 and 49,999 for fields that you create, even though they lie in the customer design area. The training material for [!INCLUDE[navnow](includes/navnow_md.md)] uses these numbers.  
   
  When a Microsoft Certified Partner buys the insert permissions for a table number interval, such as 200,000–200,099, the partner also gets insert permissions for the same number interval \(200,000–200,099\) for fields in all other tables. If you create a table in the range for which you have insert permissions, then you can create fields in all field number intervals in the table. However, we recommend that you use only the field numbers that are in the same number interval as the table number interval so that fields in solutions from different partners do not interfere with each other.  
   
@@ -60,13 +60,13 @@ Each object and field in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md
 -   Codeunits  
   
 ### Tables  
- Table object numbers are not divided into intervals in the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)]. Use the first available object number when you create a table. Try to group related tables together.  
+ Table object numbers are not divided into intervals in the [!INCLUDE[demolong](includes/demolong_md.md)]. Use the first available object number when you create a table. Try to group related tables together.  
   
 ### Pages  
- Page object numbers are not divided into intervals in the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)]. Use the first available object number when you create a page. Try to group related pages together.  
+ Page object numbers are not divided into intervals in the [!INCLUDE[demolong](includes/demolong_md.md)]. Use the first available object number when you create a page. Try to group related pages together.  
   
 ### Reports  
- Report objects are numbered in intervals in the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)]. The following table displays the interval for each application area.  
+ Report objects are numbered in intervals in the [!INCLUDE[demolong](includes/demolong_md.md)]. The following table displays the interval for each application area.  
   
 |Report number interval|Application areas|  
 |----------------------------|-----------------------|  
@@ -91,10 +91,10 @@ Each object and field in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md
   
  If a report object can be printed, then it is called a report. Otherwise, it is called a batch job. Reports are numbered starting at the lower end of the interval. Batch jobs are numbered starting at the higher end of the interval with decreasing numbers.  
   
- We recommend that you number reports that are almost identical in the application areas with the same two final digits even if the report name is different. For example, the **Sales Invoice** report in the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)] is number 206 and the **Purchase Invoice** report is number 406. Other examples are the date compression batch jobs for ledger entry tables, which always end with 98, and date compressions for budget entries, which always end with 97. This practice may cause gaps in the numbering sequence, but it helps the developer when adjustments to similar reports in the application are needed.  
+ We recommend that you number reports that are almost identical in the application areas with the same two final digits even if the report name is different. For example, the **Sales Invoice** report in the [!INCLUDE[demolong](includes/demolong_md.md)] is number 206 and the **Purchase Invoice** report is number 406. Other examples are the date compression batch jobs for ledger entry tables, which always end with 98, and date compressions for budget entries, which always end with 97. This practice may cause gaps in the numbering sequence, but it helps the developer when adjustments to similar reports in the application are needed.  
   
 ### Codeunits  
- Codeunit object numbers are not divided into intervals in the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)]. Use the first available object number when you create a codeunit. Try to group related codeunits together.  
+ Codeunit object numbers are not divided into intervals in the [!INCLUDE[demolong](includes/demolong_md.md)]. Use the first available object number when you create a codeunit. Try to group related codeunits together.  
   
  The journal posting codeunits follow a pattern that makes it easier to understand a new journal after you are familiar with one group of journal posting codeunits.  
   
@@ -149,5 +149,5 @@ Each object and field in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md
  When you create a new independent table, do not leave gaps in the field numbers.  
   
 ## See Also  
- [Naming Conventions](../dynamics-nav/Naming-Conventions.md)   
- [Number Ranges for Text Constants](../dynamics-nav/Number-Ranges-for-Text-Constants.md)
+ [Naming Conventions](Naming-Conventions.md)   
+ [Number Ranges for Text Constants](Number-Ranges-for-Text-Constants.md)

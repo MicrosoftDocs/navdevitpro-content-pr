@@ -53,4 +53,4 @@ FOR i := 3 TO 5 DO BEGIN
 ```  
   
 ## See Also  
- [RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md)
+ [RecordRef Data Type](RecordRef-Data-Type.md)

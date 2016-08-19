@@ -14,11 +14,11 @@ manager: edupont
 This example illustrates how you can retrieve location information. The example implements a **GetLocation** action on the Customer Card \(page 21\) that returns the GPS coordinates of the current customers address. It does not save this information to the database. Scenarios in which this functionality could be useful would be displaying a map that shows where your customer is located based on the GPS coordinates. Or, functionality to plan the next round of customer visits based on the addresses of your customers.  
   
 > [!IMPORTANT]  
->  The location information is only available on devices that run the [!INCLUDE[nav_uni_app](../dynamics-nav/includes/nav_uni_app_md.md)] and have GPS capabilities. This means that location information is not available from the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] or from a browser.  
+>  The location information is only available on devices that run the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] and have GPS capabilities. This means that location information is not available from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or from a browser.  
   
 ### To implement location in C\/AL  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer** to open the Object Designer window.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer** to open the Object Designer window.  
   
 2.  In **Object Designer**, choose **Pages**, select the **Customer Card** \(page 21\) and then choose the **Design** button.  
   
@@ -78,10 +78,10 @@ This example illustrates how you can retrieve location information. The example 
   
 11. Close the C\/AL Editor, and then save and compile the page.  
   
-12. You can now test the modified Customer Card page in the [!INCLUDE[nav_uni_app](../dynamics-nav/includes/nav_uni_app_md.md)] from either a tablet or a phone with GPS capabilities.  
+12. You can now test the modified Customer Card page in the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] from either a tablet or a phone with GPS capabilities.  
   
 ## See Also  
- [LocationOptions Overview](../dynamics-nav/LocationOptions-Overview.md)   
+ [LocationOptions Overview](LocationOptions-Overview.md)   
  [How to: Implement the Camera in C\-AL](../Topic/How%20to:%20Implement%20the%20Camera%20in%20C-AL.md)   
- [Developing for the Microsoft Dynamics NAV Universal App](../dynamics-nav/Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)   
- [Differences and Limitations When Developing Pages for the Microsoft Dynamics NAV Universal App](../dynamics-nav/Differences-and-Limitations-When-Developing-Pages-for-the-Microsoft-Dynamics-NAV-Universal-App.md)
+ [Developing for the Microsoft Dynamics NAV Universal App](Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)   
+ [Differences and Limitations When Developing Pages for the Microsoft Dynamics NAV Universal App](Differences-and-Limitations-When-Developing-Pages-for-the-Microsoft-Dynamics-NAV-Universal-App.md)

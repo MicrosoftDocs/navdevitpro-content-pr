@@ -17,7 +17,7 @@ Adds labels to reports. You add labels that are not related to a data item in th
   
 ## Fields  
   
-|[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
 |**Name**|The name of the label. The name must be a Common Language Specification \(CLS\)\-compliant name.|  
 |**Caption**|The caption of the label. The captions are available in the **Parameters** section in the Report Data pane in Visual Studio.|  

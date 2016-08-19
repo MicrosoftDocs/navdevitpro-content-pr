@@ -11,7 +11,7 @@ caps.latest.revision: 19
 manager: terryaus
 ---
 # Naming Conventions
-Precise and consistent terminology helps the end user work with the application. Rules for naming and abbreviating objects also help developers to understand the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)] and develop new features faster. This topic contains guidelines for naming objects, table fields, and variables. These guidelines describe naming conventions in English \(United States\).  
+Precise and consistent terminology helps the end user work with the application. Rules for naming and abbreviating objects also help developers to understand the [!INCLUDE[demolong](includes/demolong_md.md)] and develop new features faster. This topic contains guidelines for naming objects, table fields, and variables. These guidelines describe naming conventions in English \(United States\).  
   
  The following general guidelines apply throughout your application:  
   
@@ -19,14 +19,14 @@ Precise and consistent terminology helps the end user work with the application.
   
 -   Name everything in a set of objects in the same language.  
   
--   When you review the terminology in a set of objects, use the **Translate Export** and **Translate Import** items on the **Tools** menu in the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)]. Export the text strings to a text file to review them, and then import the text file back into the application.  
+-   When you review the terminology in a set of objects, use the **Translate Export** and **Translate Import** items on the **Tools** menu in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. Export the text strings to a text file to review them, and then import the text file back into the application.  
   
--   Most names in a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] application have a limit of 128 characters. This limit applies to the names of objects, functions, variables, properties, COM methods, and text constants. Table field names have a limit of 30 characters.  
+-   Most names in a [!INCLUDE[navnow](includes/navnow_md.md)] application have a limit of 128 characters. This limit applies to the names of objects, functions, variables, properties, COM methods, and text constants. Table field names have a limit of 30 characters.  
   
 ## Visible Named Items  
  This section describes naming all visible items in an application, such as table fields. This includes all items that are presented to an end user.  
   
--   When you develop your application, set the application language to English \(United States\) so that the [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md) is the same as the caption in English \(United States\). This will make it easier to upgrade and reuse modifications. The end user sees the value of the [Caption Property\-duplicate](../dynamics-nav/Caption-Property-duplicate.md) but not the **Name** property.  
+-   When you develop your application, set the application language to English \(United States\) so that the [Name Property\-duplicate](Name-Property-duplicate.md) is the same as the caption in English \(United States\). This will make it easier to upgrade and reuse modifications. The end user sees the value of the [Caption Property\-duplicate](Caption-Property-duplicate.md) but not the **Name** property.  
   
 -   You must follow the naming convention both for the name in English \(United States\) and for the caption in your local language.  
   
@@ -65,7 +65,7 @@ Precise and consistent terminology helps the end user work with the application.
 |Distinguish between amount and cost or price. Cost and price are typically used when naming an amount per unit, while amount is cost or price multiplied by quantity.|-   **Unit Cost** field<br />-   **Unit List Price** field<br />-   **Line Amount** field|  
 |Omit **Amount** when you include the following words in the caption:<br /><br /> -   **Adj. \(LCY\)**<br />-   **Balance**<br />-   **Base**<br />-   **Charge**<br />-   **COGS**<br />-   **Discounts**<br />-   **Fee**<br />-   **Net Charge**<br />-   **Payments**<br />-   **Profit**<br />-   **Purchases**<br />-   **Sales**<br />-   **Usage**|-   **Balance at Date** field<br />-   **Additional Fee \(LCY\)** field<br />-   **Additional\-Currency Net Change** field|  
 |Use **Amounts** instead of **Amount** in FlowFields.|**Invoice Amounts** field|  
-|Name fields in local currency with the ISO currency code for the country\/region in parentheses at the end. If a country\/region currency has a symbol, use the symbol instead. **Note:**  In the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)], the abbreviation LCY, which means *local currency*, is used.|-   **Sales \(DKK\)** field<br />-   **Sales \(LCY\)** field in the **Cust. Ledger Entry** table<br />-   **Sales \($\)** field|  
+|Name fields in local currency with the ISO currency code for the country\/region in parentheses at the end. If a country\/region currency has a symbol, use the symbol instead. **Note:**  In the [!INCLUDE[demolong](includes/demolong_md.md)], the abbreviation LCY, which means *local currency*, is used.|-   **Sales \(DKK\)** field<br />-   **Sales \(LCY\)** field in the **Cust. Ledger Entry** table<br />-   **Sales \($\)** field|  
 |If a field contains parentheses, then put a space before the opening parenthesis.|**Usage \(Price\)** field|  
 |Formulate names for Boolean fields as positive questions or statements.|**Cost is Adjusted** field|  
 |If the primary key of a table is a code, then use **Code** as the name of the field that contains the code.<br /><br /> When the end user typically uses numeric values as keys, the field is called **No.** even though the field type is code. The following tables are exceptions where the primary key field is **No.**:<br /><br /> -   **G\/L Account**<br />-   **Customer**<br />-   **Vendor**<br />-   **Item**<br />-   **Item Group**<br />-   **Resource**<br />-   **Resource Group**<br />-   **Job**<br />-   **Purchase Header**<br />-   **Sales Header**|**Code** field in the **Location** table|  
@@ -128,4 +128,4 @@ Precise and consistent terminology helps the end user work with the application.
  Do not give a page control a name unless you want to refer to it in your C\/AL code. If you name a page control, then add a prefix to the name with the abbreviated name of the associated table or page.  
   
 ## See Also  
- [Object Numbering Conventions](../dynamics-nav/Object-Numbering-Conventions.md)
+ [Object Numbering Conventions](Object-Numbering-Conventions.md)

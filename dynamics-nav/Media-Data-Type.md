@@ -16,10 +16,10 @@ A complex type that encapsulates media files, such as image .jpg and .png files,
  The Media data type enables you to import a media file to the database and reference the file from records, making it possible to display the media file in the client user interface.  
   
 ## See Also  
- [EXPORTFILE Function \(Media\)](../dynamics-nav/EXPORTFILE-Function--Media-.md)   
- [EXPORTSTREAM Function \(Media\)](../dynamics-nav/EXPORTSTREAM-Function--Media-.md)   
- [EXPORTSTREAM Function \(Media\)](../dynamics-nav/EXPORTSTREAM-Function--Media-.md)   
- [IMPORTFILE Function \(Media\)](../dynamics-nav/IMPORTFILE-Function--Media-.md)   
- [IMPORTSTREAM Function \(Media\)](../dynamics-nav/IMPORTSTREAM-Function--Media-.md)   
- [MEDIAID Function \(Media\)](../dynamics-nav/MEDIAID-Function--Media-.md)   
- [MEDIAID Function \(Media\)](../dynamics-nav/MEDIAID-Function--Media-.md)
+ [EXPORTFILE Function \(Media\)](EXPORTFILE-Function--Media-.md)   
+ [EXPORTSTREAM Function \(Media\)](EXPORTSTREAM-Function--Media-.md)   
+ [EXPORTSTREAM Function \(Media\)](EXPORTSTREAM-Function--Media-.md)   
+ [IMPORTFILE Function \(Media\)](IMPORTFILE-Function--Media-.md)   
+ [IMPORTSTREAM Function \(Media\)](IMPORTSTREAM-Function--Media-.md)   
+ [MEDIAID Function \(Media\)](MEDIAID-Function--Media-.md)   
+ [MEDIAID Function \(Media\)](MEDIAID-Function--Media-.md)

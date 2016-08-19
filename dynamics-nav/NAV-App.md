@@ -12,9 +12,9 @@ caps.latest.revision: 2
 # NAV App
 This section contains the following topics:  
   
--   [GETARCHIVERECORDREF Function](../dynamics-nav/GETARCHIVERECORDREF-Function.md)  
+-   [GETARCHIVERECORDREF Function](GETARCHIVERECORDREF-Function.md)  
   
--   [GETARCHIVEVERSION Function](../dynamics-nav/GETARCHIVEVERSION-Function.md)  
+-   [GETARCHIVEVERSION Function](GETARCHIVEVERSION-Function.md)  
   
 ## See Also  
- [Extending Microsoft Dynamics NAV Using Extension Packages](../dynamics-nav/Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)
+ [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)

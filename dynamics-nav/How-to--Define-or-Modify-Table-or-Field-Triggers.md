@@ -30,5 +30,5 @@ The following procedure describes how to set up a trigger.
 4.  Enter or modify the appropriate triggers.  
   
 ## See Also  
- [Table and Field Triggers](../dynamics-nav/Table-and-Field-Triggers.md)   
- [Triggers](../dynamics-nav/Triggers.md)
+ [Table and Field Triggers](Table-and-Field-Triggers.md)   
+ [Triggers](Triggers.md)

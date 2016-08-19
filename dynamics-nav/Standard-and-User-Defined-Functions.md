@@ -11,9 +11,9 @@ caps.latest.revision: 17
 manager: edupont
 ---
 # Standard and User-Defined Functions
-To create an application in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], you must make database objects work together. You can use C\/AL code to bind all the database objects together to form a unified whole.  
+To create an application in [!INCLUDE[navnow](includes/navnow_md.md)], you must make database objects work together. You can use C\/AL code to bind all the database objects together to form a unified whole.  
   
- When you design professional applications, you often need specialized functions. C\/AL lets you create functions that extend the functionality of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)]. You can create special functions for use anywhere in the database.  
+ When you design professional applications, you often need specialized functions. C\/AL lets you create functions that extend the functionality of [!INCLUDE[navnow](includes/navnow_md.md)]. You can create special functions for use anywhere in the database.  
   
  C\/AL enables you to do the following:  
   
@@ -26,7 +26,7 @@ To create an application in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md
 -   Read, write, and modify data.  
   
 ## Designing Your Own Functions  
- Although [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] has many built\-in functions, you may want to create your own functions. For example, you will have to develop your own functions when the application that you develop repeatedly uses the same nontrivial processing.  
+ Although [!INCLUDE[navnow](includes/navnow_md.md)] has many built\-in functions, you may want to create your own functions. For example, you will have to develop your own functions when the application that you develop repeatedly uses the same nontrivial processing.  
   
  We recommend the following guidelines when you want to create new functions and when you want to create parameters and local variables for a function:  
   
@@ -36,7 +36,7 @@ To create an application in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md
   
 -   Use additional local variables just like you would use them in other development languages and environments.  
   
--   When you create a user\-defined function, we recommend that you set the [Local Property](../dynamics-nav/Local-Property.md) to **Yes** unless you want to access the function from outside the object. This makes the code easier to understand because it is clear that the function is not referenced from other objects.  
+-   When you create a user\-defined function, we recommend that you set the [Local Property](Local-Property.md) to **Yes** unless you want to access the function from outside the object. This makes the code easier to understand because it is clear that the function is not referenced from other objects.  
   
     > [!NOTE]  
     >  When you add a function, the Local property is set to **Yes** by default.  
@@ -45,5 +45,5 @@ To create an application in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md
 >  When you define your own functions, you can give two functions the same name. However, if one function is defined in a report or a page and the other is defined in a table that is referenced by the report or page, you cannot directly invoke the function defined in the report or page. By default, a call to the function invokes the function that is defined in the table. This behavior occurs when the function is called from a source expression or a trigger.  
   
 ## See Also  
- [Essential C\-AL Functions](../dynamics-nav/Essential-C-AL-Functions.md)   
- [C\-AL Functions](../dynamics-nav/C-AL-Functions.md)
+ [Essential C\-AL Functions](Essential-C-AL-Functions.md)   
+ [C\-AL Functions](C-AL-Functions.md)

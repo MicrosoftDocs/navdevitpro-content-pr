@@ -36,9 +36,9 @@ Ok := HASCONNECTIONTYPE(ConnectionType, Name)
  **true** if a table connection of the specified name exists; otherwise **false**.  
   
 ## See Also  
- [TableType Property](../dynamics-nav/TableType-Property.md)   
- [TableConnectionType Data Type](../dynamics-nav/TableConnectionType-Data-Type.md)   
- [GETDEFAULTTABLECONNECTION Function \(Database\)](../dynamics-nav/GETDEFAULTTABLECONNECTION-Function--Database-.md)   
- [REGISTERTABLECONNECTION Function \(Database\)](../dynamics-nav/REGISTERTABLECONNECTION-Function--Database-.md)   
- [UNREGISTERTABLECONNECTION Function \(Database\)](../dynamics-nav/UNREGISTERTABLECONNECTION-Function--Database-.md)   
- [External Tables](../dynamics-nav/External-Tables.md)
+ [TableType Property](TableType-Property.md)   
+ [TableConnectionType Data Type](TableConnectionType-Data-Type.md)   
+ [GETDEFAULTTABLECONNECTION Function \(Database\)](GETDEFAULTTABLECONNECTION-Function--Database-.md)   
+ [REGISTERTABLECONNECTION Function \(Database\)](REGISTERTABLECONNECTION-Function--Database-.md)   
+ [UNREGISTERTABLECONNECTION Function \(Database\)](UNREGISTERTABLECONNECTION-Function--Database-.md)   
+ [External Tables](External-Tables.md)

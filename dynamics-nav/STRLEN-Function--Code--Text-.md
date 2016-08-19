@@ -31,9 +31,9 @@ Length := STRLEN(String)
  The length of *String*.  
   
 ## Remarks  
- The difference between the STRLEN function and the [MAXSTRLEN Function \(Code, Text\)](../dynamics-nav/MAXSTRLEN-Function--Code--Text-.md) is that the STRLEN returns the actual number of characters in the input string, whereas MAXSTRLEN returns the maximum defined length of the input string.  
+ The difference between the STRLEN function and the [MAXSTRLEN Function \(Code, Text\)](MAXSTRLEN-Function--Code--Text-.md) is that the STRLEN returns the actual number of characters in the input string, whereas MAXSTRLEN returns the maximum defined length of the input string.  
   
- In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], if you call STRLEN on a Variant, then you get an error that the contents of the parameter are not valid. In earlier versions of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], if you call STRLEN on a Variant, then 0 is returned.  
+ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], if you call STRLEN on a Variant, then you get an error that the contents of the parameter are not valid. In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], if you call STRLEN on a Variant, then 0 is returned.  
   
 ## Example  
  This example shows the difference between the STRLEN and the MAXSTRLEN functions.  
@@ -68,5 +68,5 @@ MESSAGE(Text001 + Text002, MaxLength, Length);
  This shows that the MAXLENGTH function returns the maximum possible length according to the definition of the string variable, whereas STRLEN returns the actual length of the text.  
   
 ## See Also  
- [Code Data Type](../dynamics-nav/Code-Data-Type.md)   
- [Text Data Type](../dynamics-nav/Text-Data-Type.md)
+ [Code Data Type](Code-Data-Type.md)   
+ [Text Data Type](Text-Data-Type.md)

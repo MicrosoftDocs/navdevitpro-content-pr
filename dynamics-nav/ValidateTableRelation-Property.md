@@ -21,11 +21,11 @@ Sets whether to validate a table relationship.
  **Yes** if you want to validate the table relationship; otherwise, **No**. The default is **Yes**.  
   
 ## Remarks  
- For fields, use this property to determine whether to validate the user's entry based on the information already in the table set up through the [TableRelation Property](../dynamics-nav/TableRelation-Property.md) property.  
+ For fields, use this property to determine whether to validate the user's entry based on the information already in the table set up through the [TableRelation Property](TableRelation-Property.md) property.  
   
  If you want to let users enter any value without validating the entry, then choose **No**. For example, on the item card, you can specify the vendor that you typically purchase the item from. Set this property to **No** to allow users to select a vendor that may not already be in the **Vendor** table.  
   
  If you set the ValidateTableRelation property to **No**, then you should also set the TestTableRelation property to **No**. Otherwise, a database test on the field relations in a database may fail.  
   
 ## See Also  
- [TestTableRelation Property](../dynamics-nav/TestTableRelation-Property.md)
+ [TestTableRelation Property](TestTableRelation-Property.md)

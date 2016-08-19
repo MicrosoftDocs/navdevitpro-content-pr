@@ -30,7 +30,7 @@ static void Main(string[] args)
 }  
 ```  
   
- When you run the application, you will see the following output \(assuming the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)]\):  
+ When you run the application, you will see the following output \(assuming the [!INCLUDE[demolong](includes/demolong_md.md)]\):  
   
 ```  
 Spotsmeyer's Furnishings  
@@ -41,4 +41,4 @@ Spotsmeyer's Furnishings
  Finally, switch back to the console application without updating the web reference and run the code. Instead of getting an error message that indicates that the web request does not match the web service description, you do not get an error message, and `Console.WriteLine` shows an empty line.  
   
 ## See Also  
- [Microsoft Dynamics NAV Web Services Overview](../dynamics-nav/Microsoft-Dynamics-NAV-Web-Services-Overview.md)
+ [Microsoft Dynamics NAV Web Services Overview](Microsoft-Dynamics-NAV-Web-Services-Overview.md)

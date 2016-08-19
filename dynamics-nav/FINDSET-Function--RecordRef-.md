@@ -26,7 +26,7 @@ Finds a set of records in a table based on the current key and filter. FINDSET c
   
  The RecordRef that refers to the table in which you want to find the set of records.  
   
- If the record is found, it is returned in *RecordRef* and any [FlowFields](../dynamics-nav/FlowFields.md) in the record are set to zero. You must update any FlowFields using [CALCFIELDS Function \(Record\)](../dynamics-nav/CALCFIELDS-Function--Record-.md).  
+ If the record is found, it is returned in *RecordRef* and any [FlowFields](FlowFields.md) in the record are set to zero. You must update any FlowFields using [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md).  
   
  If the record is not found and if you omitted the return value, a run\-time error occurs.  
   
@@ -35,7 +35,7 @@ Finds a set of records in a table based on the current key and filter. FINDSET c
   
  Set this parameter to **false** if you do not want to modify any records in the set. Set this parameter to **true** if you want to modify records in the set.  
   
- If you set this parameter to **true**, the [LOCKTABLE Function \(RecordRef\)](../dynamics-nav/LOCKTABLE-Function--RecordRef-.md) is immediately performed on the table before the records are read.  
+ If you set this parameter to **true**, the [LOCKTABLE Function \(RecordRef\)](LOCKTABLE-Function--RecordRef-.md) is immediately performed on the table before the records are read.  
   
  *UpdateKey*  
  Type: Boolean  
@@ -66,10 +66,10 @@ Finds a set of records in a table based on the current key and filter. FINDSET c
   
  This function is designed to optimize finding and updating sets. If you set any or both of the parameters to **false**, you can still modify the records in the set but these updates will not be performed optimally.  
   
- This function works the same way as the [FINDSET Function \(Record\)](../dynamics-nav/FINDSET-Function--Record-.md).  
+ This function works the same way as the [FINDSET Function \(Record\)](FINDSET-Function--Record-.md).  
   
 ## Example  
- The following example opens table 18 \(Customer\) as a RecordRef variable that is named MyRecordRef. The [FIELD Function \(RecordRef\)](../dynamics-nav/FIELD-Function--RecordRef-.md) creates a FieldRef variable that is named MyFieldRef with the first field \(No.\). The [SETFILTER Function \(FieldRef\)](../dynamics-nav/SETFILTER-Function--FieldRef-.md) uses the MyFieldRef variable to set a filter that selects records from 30000 to 32000. `MyRecordRef.FIELD(2)` creates a FieldRef for the second field \(Name\). The FINDSET function finds the set of records based on the key and the filters that have been set. The *ForUpdate* parameters and *UpdateKeys* are both set to **FALSE**. This makes the records in the set read\-only. The record ID and name of each customer in the record set is displayed in a message box until no records are left in the record set. The following example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example opens table 18 \(Customer\) as a RecordRef variable that is named MyRecordRef. The [FIELD Function \(RecordRef\)](FIELD-Function--RecordRef-.md) creates a FieldRef variable that is named MyFieldRef with the first field \(No.\). The [SETFILTER Function \(FieldRef\)](SETFILTER-Function--FieldRef-.md) uses the MyFieldRef variable to set a filter that selects records from 30000 to 32000. `MyRecordRef.FIELD(2)` creates a FieldRef for the second field \(Name\). The FINDSET function finds the set of records based on the key and the filters that have been set. The *ForUpdate* parameters and *UpdateKeys* are both set to **FALSE**. This makes the records in the set read\-only. The record ID and name of each customer in the record set is displayed in a message box until no records are left in the record set. The following example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -94,7 +94,7 @@ END;
 ```  
   
 ## See Also  
- [RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md)   
- [FIND Function \(RecordRef\)](../dynamics-nav/FIND-Function--RecordRef-.md)   
- [FINDFIRST Function \(RecordRef\)](../dynamics-nav/FINDFIRST-Function--RecordRef-.md)   
- [FINDLAST Function \(RecordRef\)](../dynamics-nav/FINDLAST-Function--RecordRef-.md)
+ [RecordRef Data Type](RecordRef-Data-Type.md)   
+ [FIND Function \(RecordRef\)](FIND-Function--RecordRef-.md)   
+ [FINDFIRST Function \(RecordRef\)](FINDFIRST-Function--RecordRef-.md)   
+ [FINDLAST Function \(RecordRef\)](FINDLAST-Function--RecordRef-.md)

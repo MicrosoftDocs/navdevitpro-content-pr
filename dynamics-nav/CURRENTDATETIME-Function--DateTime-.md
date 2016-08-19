@@ -36,4 +36,4 @@ MESSAGE(Format(TestDateTime));
  The message window displays the current date and time.  
   
 ## See Also  
- [DateTime Functions](../dynamics-nav/DateTime-Functions.md)
+ [DateTime Functions](DateTime-Functions.md)

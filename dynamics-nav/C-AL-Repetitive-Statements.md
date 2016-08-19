@@ -13,7 +13,7 @@ manager: edupont
 # C-AL Repetitive Statements
 A repetitive statement is also known as a loop. The following table shows the looping mechanisms in C\/AL.  
   
-|Looping mechanism|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|Looping mechanism|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-----------------------|---------------------------------------|  
 |FOR|Repeats the inner statement until a counter variable equals the maximum or minimum value specified.|  
 |FOREACH|Repeats the inner statement for each element in a .NET Framework collection.|  
@@ -102,7 +102,7 @@ FOREACH <Element> IN <List> DO
 ### Example 1  
  The following code example iterates through a .NET Framework collection that contains a generic list of elements and returns each element as text in a message.  
   
- Create the following local variables in a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] object, such as a codeunit.  
+ Create the following local variables in a [!INCLUDE[navnow](includes/navnow_md.md)] object, such as a codeunit.  
   
 |Variable|DataType|Subtype|  
 |--------------|--------------|-------------|  
@@ -133,7 +133,7 @@ FOREACH element IN mylist DO
 ### Example 2  
  The following code example is similar to example 1, except this example iterates on the text string of each element in the .NET Framework collection.  
   
- Create the following local variables in a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] object, such as a codeunit.  
+ Create the following local variables in a [!INCLUDE[navnow](includes/navnow_md.md)] object, such as a codeunit.  
   
 |Variable|DataType|Subtype|  
 |--------------|--------------|-------------|  
@@ -159,12 +159,12 @@ FOREACH txt IN mylist DO
   END;  
 ```  
   
- Compile and run the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] object.  
+ Compile and run the [!INCLUDE[navnow](includes/navnow_md.md)] object.  
   
 ### Example 3  
  The following code example iterates through a .NET Framework collection for a dictionary of keys and values and returns each key\/value pair as text in a message.  
   
- Create the following local variables in a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] object, such as a codeunit.  
+ Create the following local variables in a [!INCLUDE[navnow](includes/navnow_md.md)] object, such as a codeunit.  
   
 |Variable|DataType|Subtype|  
 |--------------|--------------|-------------|  
@@ -192,12 +192,12 @@ FOREACH element IN mydictionary DO
   
 ```  
   
- Compile and run the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] object.  
+ Compile and run the [!INCLUDE[navnow](includes/navnow_md.md)] object.  
   
 ### Example 4  
  The following code example iterates through a .NET Framework array that contains a list of file names from a local directory and returns each file name in a message.  
   
- Create the following local variables in a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] object, such as a codeunit.  
+ Create the following local variables in a [!INCLUDE[navnow](includes/navnow_md.md)] object, such as a codeunit.  
   
 |Variable|DataType|Subtype|  
 |--------------|--------------|-------------|  
@@ -215,7 +215,7 @@ FOREACH txt IN strarray DO
   END;  
 ```  
   
- Compile and run the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] object.  
+ Compile and run the [!INCLUDE[navnow](includes/navnow_md.md)] object.  
   
 ## WHILE\-DO Control Structure  
  The following syntax shows the WHILE\-DO statement.  
@@ -352,7 +352,7 @@ END;
 ```  
   
 ## See Also  
- [C\-AL Compound Statements](../dynamics-nav/C-AL-Compound-Statements.md)   
- [C\-AL Conditional Statements](../dynamics-nav/C-AL-Conditional-Statements.md)   
- [C\-AL WITH Statements](../dynamics-nav/C-AL-WITH-Statements.md)   
- [C\-AL BREAK Statement](../dynamics-nav/C-AL-BREAK-Statement.md)
+ [C\-AL Compound Statements](C-AL-Compound-Statements.md)   
+ [C\-AL Conditional Statements](C-AL-Conditional-Statements.md)   
+ [C\-AL WITH Statements](C-AL-WITH-Statements.md)   
+ [C\-AL BREAK Statement](C-AL-BREAK-Statement.md)

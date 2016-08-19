@@ -11,11 +11,11 @@ caps.latest.revision: 26
 manager: terryaus
 ---
 # How to: Modify Menu Items in a MenuSuite
-[!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] provides a basic MenuSuite that you can modify, or you can create a new MenuSuite from the basic MenuSuite. You modify an existing MenuSuite by designing it in Navigation Pane Designer. You can modify the shortcut menus, which typically represent a department area or the menu items that are in the department menus. This procedure describes how to modify menu items in a MenuSuite. For more information about how to modify a department menu, see [How to: Modify a Department Menu in a MenuSuite](../Topic/How%20to:%20Modify%20a%20Department%20Menu%20in%20a%20MenuSuite.md). For information about how to create a new MenuSuite, see [Walkthrough: Creating MenuSuites for the Microsoft Dynamics NAV Windows Client](../Topic/Walkthrough:%20Creating%20MenuSuites%20for%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client.md).  
+[!INCLUDE[navnowlong](includes/navnowlong_md.md)] provides a basic MenuSuite that you can modify, or you can create a new MenuSuite from the basic MenuSuite. You modify an existing MenuSuite by designing it in Navigation Pane Designer. You can modify the shortcut menus, which typically represent a department area or the menu items that are in the department menus. This procedure describes how to modify menu items in a MenuSuite. For more information about how to modify a department menu, see [How to: Modify a Department Menu in a MenuSuite](../Topic/How%20to:%20Modify%20a%20Department%20Menu%20in%20a%20MenuSuite.md). For information about how to create a new MenuSuite, see [Walkthrough: Creating MenuSuites for the Microsoft Dynamics NAV Windows Client](../Topic/Walkthrough:%20Creating%20MenuSuites%20for%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client.md).  
   
 ### To modify menu items in a MenuSuite  
   
-1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], choose **Tools** and then choose **Object Designer** to open the Object Designer window.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], choose **Tools** and then choose **Object Designer** to open the Object Designer window.  
   
 2.  In Object Designer, choose **MenuSuite**.  
   
@@ -42,11 +42,11 @@ manager: terryaus
   
     4.  In the **Caption** text box, enter a caption for the menu item, and then accept the default for **CaptionML**.  
   
-    5.  In the **Department** list box, select the sub menu in the department where you want the menu item to appear in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] and then choose **OK**.  
+    5.  In the **Department** list box, select the sub menu in the department where you want the menu item to appear in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and then choose **OK**.  
   
 7.  Right\-click **Navigation Pane Designer**, and then choose **Close Navigation Pane Designer**.  
   
 8.  In the **Save Changes** dialog box, make sure **Compile** is selected and then choose **Yes** to save the MenuSuite.  
   
 ## See Also  
- [Designing MenuSuites](../dynamics-nav/Designing-MenuSuites.md)
+ [Designing MenuSuites](Designing-MenuSuites.md)

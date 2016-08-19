@@ -10,9 +10,9 @@ ms.assetid: 90a14701-7468-4cc4-b01f-4859ae1be04b
 caps.latest.revision: 4
 ---
 # EXPORTDATA Function (Database)
-Exports data from the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database to a file. The data is not deleted from the database.  
+Exports data from the [!INCLUDE[navnow](includes/navnow_md.md)] database to a file. The data is not deleted from the database.  
   
- For an example of how to use this function, see page 9901, **\($ N\_9901 Export Data $\)**, in the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+ For an example of how to use this function, see page 9901, **\($ N\_9901 Export Data $\)**, in the [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 ## Syntax  
   
@@ -63,5 +63,5 @@ Exports data from the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] 
  Specifies the company or companies that must be imported.  
   
 ## See Also  
- [Exporting and Importing Companies and Other Data](../dynamics-nav/Exporting-and-Importing-Companies-and-Other-Data.md)   
- [IMPORTDATA Function \(Database\)](../dynamics-nav/IMPORTDATA-Function--Database-.md)
+ [Exporting and Importing Companies and Other Data](Exporting-and-Importing-Companies-and-Other-Data.md)   
+ [IMPORTDATA Function \(Database\)](IMPORTDATA-Function--Database-.md)

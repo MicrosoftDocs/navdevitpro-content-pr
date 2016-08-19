@@ -17,12 +17,12 @@ Sets the formats of the source expression for various data types.
  All data types in C\/AL.  
   
 ## Remarks  
- You can set the Format property to a predefined format, or you can build your own format. For more information, see [FORMAT Function \(Code, Text\)](../dynamics-nav/FORMAT-Function--Code--Text-.md).  
+ You can set the Format property to a predefined format, or you can build your own format. For more information, see [FORMAT Function \(Code, Text\)](FORMAT-Function--Code--Text-.md).  
   
 ## Basic Settings  
  To choose a predefined format, use the syntax: \<Standard Format,*X*\>, where *X* is one of the entries in the Value column of the following table.  
   
-|Value|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|Value|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-----------|---------------------------------------|  
 |0|Standard Display Format \(the default for all data types\)|  
 |1|Standard Display Format 2 \(edit\)|  
@@ -89,7 +89,7 @@ Sets the formats of the source expression for various data types.
   
 -   Using a standard format with an attribute.  
   
-     \<Precision,2:3\>\<Standard Format,0\> will use Standard Format 0 and will format the data with a minimum of 2 and a maximum of 3 decimal places. For more information, see [DecimalPlaces Property](../dynamics-nav/DecimalPlaces-Property.md). If you do not specify a precision, then the page uses the precision that is specified in the [DecimalPlaces Property](../dynamics-nav/DecimalPlaces-Property.md) of the corresponding field in the table.  
+     \<Precision,2:3\>\<Standard Format,0\> will use Standard Format 0 and will format the data with a minimum of 2 and a maximum of 3 decimal places. For more information, see [DecimalPlaces Property](DecimalPlaces-Property.md). If you do not specify a precision, then the page uses the precision that is specified in the [DecimalPlaces Property](DecimalPlaces-Property.md) of the corresponding field in the table.  
   
 -   Building a format.  
   
@@ -221,4 +221,4 @@ Sets the formats of the source expression for various data types.
  For Text and Code, all formats should resemble the following: \<Text\>.  
   
 ## See Also  
- [DecimalPlaces Property](../dynamics-nav/DecimalPlaces-Property.md)
+ [DecimalPlaces Property](DecimalPlaces-Property.md)

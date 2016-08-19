@@ -48,7 +48,7 @@ NewDate := CALCDATE(DateExpression [, Date])
   
 -   CW \(current week; corresponds to \<Prefix\>\<Unit\>\)  
   
- The internal calendar of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] starts on Monday and ends on Sunday. This means that Monday is weekday 1 and Sunday is weekday 7.  
+ The internal calendar of [!INCLUDE[navnow](includes/navnow_md.md)] starts on Monday and ends on Sunday. This means that Monday is weekday 1 and Sunday is weekday 7.  
   
  A run\-time error occurs if the syntax of DateExpression is incorrect.  
   
@@ -65,7 +65,7 @@ NewDate := CALCDATE(DateExpression [, Date])
  The date that is computed from the reference date and the date expression.  
   
 ## Remarks  
- DateExpression can be a field or variable of type Text or Code, and it can be a field or variable of type [DATEFORMULA](../dynamics-nav/DateFormula-Data-Type.md). The benefit of using a DateFormula field or variable is that the date formula becomes language independent.  
+ DateExpression can be a field or variable of type Text or Code, and it can be a field or variable of type [DATEFORMULA](DateFormula-Data-Type.md). The benefit of using a DateFormula field or variable is that the date formula becomes language independent.  
   
  The user can enter formulas in the currently selected language. The formula is stored in a generic format in a field or variable. When the formula must be displayed, the actual string that is displayed is converted to the currently selected language.  
   
@@ -73,7 +73,7 @@ NewDate := CALCDATE(DateExpression [, Date])
   
  If a date formula is entered with \< \> delimiters surrounding it, then the date formula is stored in a generic, nonlanguage\-dependent format. This makes it possible to develop date formulas that are not dependent on the currently selected language.  
   
- For more information about how to calculate the duration between two DateTimes, see [Duration Data Type](../dynamics-nav/Duration-Data-Type.md).  
+ For more information about how to calculate the duration between two DateTimes, see [Duration Data Type](Duration-Data-Type.md).  
   
 ## Example  
  This code example shows how to use the production rules that were previously described.  
@@ -89,7 +89,7 @@ NewDate := CALCDATE(DateExpression [, Date])
  \<Prefix\>\<Unit\>\<Sign\>\<Number\>\<Unit\>\<Sign\>\<Number\>\<Unit\>  
   
 > [!NOTE]  
->  The angle brackets \(\< \>\) specify that the expression is not translated, regardless of the application language. For more information about multilanguage capabilities with date formulas, see [Developing Multilanguage\-Enabled Applications](../dynamics-nav/Developing-Multilanguage-Enabled-Applications.md).  
+>  The angle brackets \(\< \>\) specify that the expression is not translated, regardless of the application language. For more information about multilanguage capabilities with date formulas, see [Developing Multilanguage\-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  
   
 ## Example  
  This example shows how to use the CALCDATE function.  
@@ -136,5 +136,5 @@ MESSAGE(Text000 + Text001 + Text002 + Text003,
  **The expression: CM\+30D returns 06\/30\/96**  
   
 ## See Also  
- [Date and Time Functions](../dynamics-nav/Date-and-Time-Functions.md)   
- [Developing Multilanguage\-Enabled Applications](../dynamics-nav/Developing-Multilanguage-Enabled-Applications.md)
+ [Date and Time Functions](Date-and-Time-Functions.md)   
+ [Developing Multilanguage\-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md)

@@ -30,10 +30,10 @@ It is common to distinguish among the following types of relationships between t
 -   Propagate changes automatically from one table to other tables.  
   
 > [!NOTE]  
->  For performance reasons, in pages that use the Field virtual table, the **RelationFieldNo** field is blank for fields with complex table relations. To parse all fields that have any table relationships in the **Field** virtual table is time consuming. Accordingly, data such as complex table relations is not available in windows such as the [!INCLUDE[rim](../dynamics-nav/includes/rim_md.md)] configuration worksheet. For more information, see [Field Virtual Table](../dynamics-nav/Field-Virtual-Table.md).  
+>  For performance reasons, in pages that use the Field virtual table, the **RelationFieldNo** field is blank for fields with complex table relations. To parse all fields that have any table relationships in the **Field** virtual table is time consuming. Accordingly, data such as complex table relations is not available in windows such as the [!INCLUDE[rim](includes/rim_md.md)] configuration worksheet. For more information, see [Field Virtual Table](Field-Virtual-Table.md).  
   
 ## Table Relationships and the TableRelation Property  
- Table relationships are defined in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] with the **TableRelation** property. This property allows you to define both simple and advanced table relations.  
+ Table relationships are defined in [!INCLUDE[navnow](includes/navnow_md.md)] with the **TableRelation** property. This property allows you to define both simple and advanced table relations.  
   
 > [!NOTE]  
 >  You can define a relationship only to a field that is a member of the primary key group.  
@@ -69,7 +69,7 @@ It is common to distinguish among the following types of relationships between t
 ## Examples of Table Relationships  
  For example, you have an **Orders** table that stores orders and a **Salesperson** table that stores the names of all salespeople in your company. In the **Orders** table, you can include a **Salesperson** field that identifies the salesperson. By setting up a relationship between these two tables, you can check whether the **Salesperson** field in the **Orders** table contains a valid code.  
   
- ![](../dynamics-nav/media/NAV_ADG_7_Diag_7.gif "NAV\_ADG\_7\_Diag\_7")  
+ ![](media/NAV_ADG_7_Diag_7.gif "NAV\_ADG\_7\_Diag\_7")  
   
  For example, you have a **Vendors** table with all your vendors and a **Currency Code** table. You can create a relationship between a **Currency Code** field in the **Vendors** table and the **Currency Code** table. This will allow users to look up information about valid currency codes.  
   
@@ -77,6 +77,6 @@ It is common to distinguish among the following types of relationships between t
   
 ## See Also  
  [How to: Create a Table Relationship](../Topic/How%20to:%20Create%20a%20Table%20Relationship.md)   
- [Maintaining Table Relationships on SQL Server](../dynamics-nav/Maintaining-Table-Relationships-on-SQL-Server.md)   
+ [Maintaining Table Relationships on SQL Server](Maintaining-Table-Relationships-on-SQL-Server.md)   
  [How to: Synchronize Table and SQL Server Relationships](../Topic/How%20to:%20Synchronize%20Table%20and%20SQL%20Server%20Relationships.md)   
- [Overview of Tables](../dynamics-nav/Overview-of-Tables.md)
+ [Overview of Tables](Overview-of-Tables.md)

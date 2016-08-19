@@ -28,7 +28,7 @@ IsEOS := InStream.EOS
  If you are reading data from an external component, EOS can return **FALSE** even though no more data is available. This may occur if you have not called READ first.  
   
 ## Example  
- The following example opens the text file in a folder that is named MyFolder. The data in the text file is read into and input stream variable named StreamInTest. The [InStream.EOS Function](../dynamics-nav/InStream.EOS-Function.md) is used to determine whether the input stream has reached the end. If the stream has not reached the end, the stream is read into a text buffer, which indicates that the stream has not reached the end until the stream reaches the end. This example requires that you create the following variables in the **C\/AL Globals** window. You must also create the following file 'c:\\MyFolder\\MyText.txt'.  
+ The following example opens the text file in a folder that is named MyFolder. The data in the text file is read into and input stream variable named StreamInTest. The [InStream.EOS Function](InStream.EOS-Function.md) is used to determine whether the input stream has reached the end. If the stream has not reached the end, the stream is read into a text buffer, which indicates that the stream has not reached the end until the stream reaches the end. This example requires that you create the following variables in the **C\/AL Globals** window. You must also create the following file 'c:\\MyFolder\\MyText.txt'.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -49,6 +49,6 @@ MESSAGE('End of Stream');
 ```  
   
 ## See Also  
- [InStream.READ Function](../dynamics-nav/InStream.READ-Function.md)   
- [InStream.READTEXT Function](../dynamics-nav/InStream.READTEXT-Function.md)   
- [InStream and OutStream Data Types](../dynamics-nav/InStream-and-OutStream-Data-Types.md)
+ [InStream.READ Function](InStream.READ-Function.md)   
+ [InStream.READTEXT Function](InStream.READTEXT-Function.md)   
+ [InStream and OutStream Data Types](InStream-and-OutStream-Data-Types.md)

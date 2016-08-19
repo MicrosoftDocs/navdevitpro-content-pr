@@ -36,10 +36,10 @@ FieldRef := RecordRef.FIELD(FieldNo)
 ## Remarks  
  This function returns an error if the record is not opened and if the field is not found.  
   
- You might obtain better performance by using the [FIELDINDEX Function \(RecordRef\)](../dynamics-nav/FIELDINDEX-Function--RecordRef-.md).  
+ You might obtain better performance by using the [FIELDINDEX Function \(RecordRef\)](FIELDINDEX-Function--RecordRef-.md).  
   
 ## Example  
- The following example opens table 18 \(Customer\) as a RecordRef variable that is named MyRecordRef. MyRecordRef uses the FIELD function to create a reference to the No. field \(field 1\). The value in the No. field is then set to a specified record No. In this example, the record is set to 30000. The [FIND Function \(RecordRef\)](../dynamics-nav/FIND-Function--RecordRef-.md) function searches the records for record 30000. If record is found, the FIELD function retrieves the value in the Name field \(field 2\), stores it in the varOldName variable and displays it in a message box. The [VALUE Function \(FieldRef, TestPage Field\)](../dynamics-nav/VALUE-Function--FieldRef--TestPage-Field-.md) changes the value in the Name field to a new name. In this example, the new name is ‘Contoso’. The table is then modified to reflect this change and the new value in the Name field is retrieved and displayed in a message box. You can specify any record in the table and change the value in the Name field. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ The following example opens table 18 \(Customer\) as a RecordRef variable that is named MyRecordRef. MyRecordRef uses the FIELD function to create a reference to the No. field \(field 1\). The value in the No. field is then set to a specified record No. In this example, the record is set to 30000. The [FIND Function \(RecordRef\)](FIND-Function--RecordRef-.md) function searches the records for record 30000. If record is found, the FIELD function retrieves the value in the Name field \(field 2\), stores it in the varOldName variable and displays it in a message box. The [VALUE Function \(FieldRef, TestPage Field\)](VALUE-Function--FieldRef--TestPage-Field-.md) changes the value in the Name field to a new name. In this example, the new name is ‘Contoso’. The table is then modified to reflect this change and the new value in the Name field is retrieved and displayed in a message box. You can specify any record in the table and change the value in the Name field. This example requires that you create the following variables in the **C\/AL Globals** window.  
   
 |||  
 |-|-|  
@@ -68,4 +68,4 @@ END;
 ```  
   
 ## See Also  
- [RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md)
+ [RecordRef Data Type](RecordRef-Data-Type.md)

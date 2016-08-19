@@ -11,9 +11,9 @@ caps.latest.revision: 4
 manager: terryaus
 ---
 # ($ S_2091 About $)
-Shows version, license, and copyright information about [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+Shows version, license, and copyright information about [!INCLUDE[navnow](includes/navnow_md.md)].  
   
  To open this window, on the **Help** menu, choose **About Microsoft Dynamics NAV Development Environment**.  
   
 ## See Also  
- [\($ S\_2354 License Information $\)](../dynamics-nav/-$-S_2354-License-Information-$-.md)
+ [\($ S\_2354 License Information $\)](-$-S_2354-License-Information-$-.md)

@@ -51,4 +51,4 @@ Gets or sets the order in which to search through a dataset on a test page.
  **true** if the search is performed in ascending order; otherwise, **false**.  
   
 ## See Also  
- [TestPage Filter Functions](../dynamics-nav/TestPage-Filter-Functions.md)
+ [TestPage Filter Functions](TestPage-Filter-Functions.md)

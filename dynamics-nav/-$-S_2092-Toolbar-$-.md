@@ -11,13 +11,13 @@ caps.latest.revision: 6
 manager: terryaus
 ---
 # ($ S_2092 Toolbar $)
-Specifies whether the toolbar is displayed in the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)]. If the toolbar is displayed, then you can specify options for how it is displayed.  
+Specifies whether the toolbar is displayed in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. If the toolbar is displayed, then you can specify options for how it is displayed.  
   
  To open this window, on the **View** menu, choose **Toolbar**.  
   
 ## Options  
   
-|[!INCLUDE[bp_tableoption](../dynamics-nav/includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|[!INCLUDE[bp_tableoption](includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |----------------------------------|---------------------------------------|  
 |**Toolbar**|Specifies if the toolbar is displayed|  
 |**Large Buttons**|If the toolbar is displayed, then this option specifies if large or small buttons are displayed.|  

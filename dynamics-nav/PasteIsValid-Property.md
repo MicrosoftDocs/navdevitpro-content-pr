@@ -22,7 +22,7 @@ Sets whether inserting records into this table using the paste command is enable
 ## Remarks  
  If records are usually inserted in the table through an external code unit function, set the PasteIsValid property equal to **No**.  
   
- The [OnInsert Trigger](../dynamics-nav/OnInsert-Trigger.md) of the table is executed when a record is inserted by pasting.  
+ The [OnInsert Trigger](OnInsert-Trigger.md) of the table is executed when a record is inserted by pasting.  
   
 ## See Also  
- [OnInsert Trigger](../dynamics-nav/OnInsert-Trigger.md)
+ [OnInsert Trigger](OnInsert-Trigger.md)

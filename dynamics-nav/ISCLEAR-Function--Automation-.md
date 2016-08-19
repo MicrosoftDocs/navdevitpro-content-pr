@@ -31,14 +31,14 @@ Ok := ISCLEAR(Automation)
   
  **true** if any of the following is true; otherwise, **false**:  
   
--   The Automation variable has not been created. See [CREATE Function \(Automation\)](../dynamics-nav/CREATE-Function--Automation-.md).  
+-   The Automation variable has not been created. See [CREATE Function \(Automation\)](CREATE-Function--Automation-.md).  
   
--   The Automation variable has been cleared. See [CLEAR Function](../dynamics-nav/CLEAR-Function.md).  
+-   The Automation variable has been cleared. See [CLEAR Function](CLEAR-Function.md).  
   
 -   The Automation variable has been assigned NULL by an Automation server.  
   
 ## Remarks  
- This function is not supported in the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)].  
+ This function is not supported in the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
 ## Example  
  The following example shows how you can use the ISCLEAR function. This example requires that you create the following variables.  
@@ -60,4 +60,4 @@ ReturnValue := ISCLEAR(Document);
 ```  
   
 ## See Also  
- [Automation Data Type](../dynamics-nav/Automation-Data-Type.md)
+ [Automation Data Type](Automation-Data-Type.md)

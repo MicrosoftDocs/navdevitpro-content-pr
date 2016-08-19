@@ -36,7 +36,7 @@ Specifies the maximum number of rows to include in the resulting dataset of a qu
 ## Remarks  
  You use the **TOPNUMBEROFROWS** property to limit the resulting dataset to the first set of rows that are generated for the query. For example, you can include only the first 10 or first 100 rows in the resulting dataset. The **TOPNUMBEROFROWS** property is useful for key performance indicators such as the top number of customers or sales.  
   
- You can also specify the number of rows to include in the dataset by setting the [TopNumberOfRows Property](../dynamics-nav/TopNumberOfRows-Property.md) in Query Designer. The **TOPNUMBEROFROWS** function will overwrite the **TopNumberOfRows** property setting.  
+ You can also specify the number of rows to include in the dataset by setting the [TopNumberOfRows Property](TopNumberOfRows-Property.md) in Query Designer. The **TOPNUMBEROFROWS** function will overwrite the **TopNumberOfRows** property setting.  
   
 ## Example  
  The following C\/AL code example demonstrates how to use the **TOPNUMBEROFROWS** function on a query to return the top 10 customer sales orders based on the quantity of items.  
@@ -45,15 +45,15 @@ Specifies the maximum number of rows to include in the resulting dataset of a qu
   
 1.  Create a query called **Customer\_SalesQuantity** that has the following characteristics:  
   
-    -   Links table **18, Customer** with table **37, Sales Lines** from the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+    -   Links table **18, Customer** with table **37, Sales Lines** from the [!INCLUDE[demolong](includes/demolong_md.md)].  
   
     -   Includes columns for the **Name** and **No.** fields from the **Customer** table and the **Quantity** field from **Sales Lines** table.  
   
          For step\-by\-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
   
-    -   The [TopNumberOfRows Property](../dynamics-nav/TopNumberOfRows-Property.md) is set to include only the first 5 rows in the resulting dataset. This setting will be overwritten by the TOPNUMBEROFROWS function.  
+    -   The [TopNumberOfRows Property](TopNumberOfRows-Property.md) is set to include only the first 5 rows in the resulting dataset. This setting will be overwritten by the TOPNUMBEROFROWS function.  
   
-    -   The [OrderBy Property](../dynamics-nav/OrderBy-Property.md) is set on the Quantity column to sort results in descending order.  
+    -   The [OrderBy Property](OrderBy-Property.md) is set on the Quantity column to sort results in descending order.  
   
 2.  Create the following C\/AL variables in the object that will run the query.  
   

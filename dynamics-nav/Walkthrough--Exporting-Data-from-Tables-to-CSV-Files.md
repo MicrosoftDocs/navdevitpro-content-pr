@@ -11,12 +11,12 @@ caps.latest.revision: 10
 manager: terryaus
 ---
 # Walkthrough: Exporting Data from Tables to CSV Files
-XMLports are used to export data from a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database to a file or import data from a file to a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database. The file format can be an XML file, text file, or a comma separated value \(CSV\) file. Exporting data from your [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database into one of these file formats enables seamless exchange of information between different computer systems. In this walkthrough, you will export data from a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database to a CSV file. For information about how to export data to XML file format, see [Walkthrough: Exporting Data from Tables to XML Documents](../Topic/Walkthrough:%20Exporting%20Data%20from%20Tables%20to%20XML%20Documents.md).  
+XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)] database to a file or import data from a file to a [!INCLUDE[navnow](includes/navnow_md.md)] database. The file format can be an XML file, text file, or a comma separated value \(CSV\) file. Exporting data from your [!INCLUDE[navnow](includes/navnow_md.md)] database into one of these file formats enables seamless exchange of information between different computer systems. In this walkthrough, you will export data from a [!INCLUDE[navnow](includes/navnow_md.md)] database to a CSV file. For information about how to export data to XML file format, see [Walkthrough: Exporting Data from Tables to XML Documents](../Topic/Walkthrough:%20Exporting%20Data%20from%20Tables%20to%20XML%20Documents.md).  
   
  XMLports can be called and run from codeunits or run from Object Designer. In this walkthrough, you will run the XMLport in Object Designer. For information about how to run XMLports from codeunit, see [Walkthrough: Exporting Data from Tables to XML Documents](../Topic/Walkthrough:%20Exporting%20Data%20from%20Tables%20to%20XML%20Documents.md).  
   
 ## About This Walkthrough  
- This walkthrough shows you how to export data from a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] table to a CSV file. This walkthrough illustrates the following tasks:  
+ This walkthrough shows you how to export data from a [!INCLUDE[navnow](includes/navnow_md.md)] table to a CSV file. This walkthrough illustrates the following tasks:  
   
 -   Designing an XMLport that exports data from a database to a CSV file.  
   
@@ -27,19 +27,19 @@ XMLports are used to export data from a [!INCLUDE[navnow](../dynamics-nav/includ
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] installed with a developer license.  
+-   [!INCLUDE[navnow](includes/navnow_md.md)] installed with a developer license.  
   
--   The [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)] installed.  
+-   The [!INCLUDE[demolong](includes/demolong_md.md)] installed.  
   
 ## Story  
- Viktor is a Microsoft Certified Partner working for [!INCLUDE[demoname](../dynamics-nav/includes/demoname_md.md)]. He has been asked to export records from the **Item** table to a CSV file. The records will include only the **No.**, **Description**, **Shelf Number**, and **Unit price** fields. The information will be shared with other colleagues who work on a different computer system. The CSV file can be used by any computer system in the company. Viktor knows that he can use XMLports to convert the records in the table to a CSV file format that can easily be shared with colleagues.  
+ Viktor is a Microsoft Certified Partner working for [!INCLUDE[demoname](includes/demoname_md.md)]. He has been asked to export records from the **Item** table to a CSV file. The records will include only the **No.**, **Description**, **Shelf Number**, and **Unit price** fields. The information will be shared with other colleagues who work on a different computer system. The CSV file can be used by any computer system in the company. Viktor knows that he can use XMLports to convert the records in the table to a CSV file format that can easily be shared with colleagues.  
   
 ## Designing the XMLport  
  You create an XMLport by designing it in XMLport Designer and setting the properties. You define the table and fields that you want to export in XMLport Designer. You then compile and save the XMLport.  
   
 #### To create the XMLport  
   
-1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **XMLport**, and then choose **New** to open a new XMLport Designer.  
   
@@ -47,18 +47,18 @@ XMLports are used to export data from a [!INCLUDE[navnow](../dynamics-nav/includ
   
 4.  On the **View** menu, choose **Properties** to open the **XMLport\-Properties** window.  
   
-5.  In the **XMLport\-Properties** window, locate the [Direction Property](../dynamics-nav/Direction-Property.md), choose the arrow in the value column, and then set the **Value** column to **Export**.  
+5.  In the **XMLport\-Properties** window, locate the [Direction Property](Direction-Property.md), choose the arrow in the value column, and then set the **Value** column to **Export**.  
   
-6.  In the **XMLport\-Properties** window, locate the [Format Property \(XMLports\)](../dynamics-nav/Format-Property--XMLports-.md) property, and then set the **Value** column to **Variable Text**.  
+6.  In the **XMLport\-Properties** window, locate the [Format Property \(XMLports\)](Format-Property--XMLports-.md) property, and then set the **Value** column to **Variable Text**.  
   
     > [!WARNING]  
     >  When you export variable text files, the text in the fields will use as much space as needed to hold the all of the text.  
   
-7.  Verify that the [FieldDelimiter Property](../dynamics-nav/FieldDelimiter-Property.md) is set to a quotation mark \(“\). This character marks the start and the end of each field. This is the default field delimiter.  
+7.  Verify that the [FieldDelimiter Property](FieldDelimiter-Property.md) is set to a quotation mark \(“\). This character marks the start and the end of each field. This is the default field delimiter.  
   
-8.  Verify that the [FieldSeparator Property](../dynamics-nav/FieldSeparator-Property.md) is set to a comma \(,\). This is the default field separator.  
+8.  Verify that the [FieldSeparator Property](FieldSeparator-Property.md) is set to a comma \(,\). This is the default field separator.  
   
-9. Accept the default value for the [RecordSeparator Property](../dynamics-nav/RecordSeparator-Property.md). The default is a new line separator.  
+9. Accept the default value for the [RecordSeparator Property](RecordSeparator-Property.md). The default is a new line separator.  
   
      You can change the default values of the properties that you have just set to any character. However, for this walkthrough accept the default values.  
   
@@ -132,7 +132,7 @@ XMLports are used to export data from a [!INCLUDE[navnow](../dynamics-nav/includ
     > [!NOTE]  
     >  On the **Edit\-ItemsXMLport** request page, you can set filters to select specific records that you want to export.  
   
-7.  After the export is complete, browse to the location where you saved the file and open it. Note that all the records in the table are separated by a new line and each field in the record is delimited by using quotation marks \( “\) and separated by a comma \(,\). Depending on the regional setting of the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)], the data in the unit price field may contain a comma. If you delimit the data in the fields, the data is easier to identify and read. You can change the field separator.  
+7.  After the export is complete, browse to the location where you saved the file and open it. Note that all the records in the table are separated by a new line and each field in the record is delimited by using quotation marks \( “\) and separated by a comma \(,\). Depending on the regional setting of the [!INCLUDE[nav_server](includes/nav_server_md.md)], the data in the unit price field may contain a comma. If you delimit the data in the fields, the data is easier to identify and read. You can change the field separator.  
   
      The following CSV file shows and example of the file that is exported from the **Item** table.  
   
@@ -157,4 +157,4 @@ XMLports are used to export data from a [!INCLUDE[navnow](../dynamics-nav/includ
  You might want to try importing a CSV file into the **Item** table. For information about how to import data into a database, see [Walkthrough: Inserting Data from XML Documents to Multiple Tables](../Topic/Walkthrough:%20Inserting%20Data%20from%20XML%20Documents%20to%20Multiple%20Tables.md).  
   
 ## See Also  
- [XMLport Walkthroughs](../dynamics-nav/XMLport-Walkthroughs.md)
+ [XMLport Walkthroughs](XMLport-Walkthroughs.md)

@@ -16,11 +16,11 @@ Typically, you take as many precautions as possible to avoid deleting a database
  You will need this function only in very special circumstances, because when you delete a database, all of the companies, reports, and so on, that are stored in it are deleted as well. If you do choose the function unintentionally, you will get a chance to cancel it before any damage is done, because the database will not be deleted until you have confirmed that you really want to delete it.  
   
 > [!NOTE]  
->  You cannot alter a database by using the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)] if it the database deployed on Azure SQL Database.  
+>  You cannot alter a database by using the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] if it the database deployed on Azure SQL Database.  
   
 ### To delete the current database  
   
--   In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **Delete**.  
+-   In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **Delete**.  
   
 ## See Also  
  [How to: Open Databases](../Topic/How%20to:%20Open%20Databases.md)   

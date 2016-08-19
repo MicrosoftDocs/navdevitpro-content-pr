@@ -23,5 +23,5 @@ Sets a list of FlowFields to automatically calculate.
  Use the **AssistEdit** button to select the FlowFields.  
   
 ## See Also  
- [FlowFields](../dynamics-nav/FlowFields.md)   
- [Properties](../dynamics-nav/Properties.md)
+ [FlowFields](FlowFields.md)   
+ [Properties](Properties.md)

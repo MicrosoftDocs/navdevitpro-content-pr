@@ -19,11 +19,11 @@ Sets whether imported records automatically replace existing records with the sa
  **Yes** if the records are replaced; otherwise, **No**. The default value is **No**.  
   
 ## Remarks  
- If a record with the same primary key is found in the database, then the record is initialized with the initial value for each field and then populated with the values in the imported record. Any field in the record that is not present in the imported record retains its initial value. For more information about initial values, see [InitValue Property](../dynamics-nav/InitValue-Property.md).  
+ If a record with the same primary key is found in the database, then the record is initialized with the initial value for each field and then populated with the values in the imported record. Any field in the record that is not present in the imported record retains its initial value. For more information about initial values, see [InitValue Property](InitValue-Property.md).  
   
 > [!WARNING]  
->  If this property is set to **Yes**, then the [AutoUpdate Property](../dynamics-nav/AutoUpdate-Property.md) has no effect.  
+>  If this property is set to **Yes**, then the [AutoUpdate Property](AutoUpdate-Property.md) has no effect.  
   
 ## See Also  
- [AutoUpdate Property](../dynamics-nav/AutoUpdate-Property.md)   
- [AutoSave Property](../dynamics-nav/AutoSave-Property.md)
+ [AutoUpdate Property](AutoUpdate-Property.md)   
+ [AutoSave Property](AutoSave-Property.md)

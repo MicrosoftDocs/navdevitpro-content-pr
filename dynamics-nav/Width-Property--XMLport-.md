@@ -17,9 +17,9 @@ Sets the width of a data item of an XMLport.
  Fields \(in XMLports\)  
   
 ## Remarks  
- This property is used only if the [Format Property \(XMLports\)](../dynamics-nav/Format-Property--XMLports-.md) is **Fixed Text**.  
+ This property is used only if the [Format Property \(XMLports\)](Format-Property--XMLports-.md) is **Fixed Text**.  
   
  The value is an integer that defines the number of characters in the field.  
   
 ## See Also  
- [XMLport Properties](../dynamics-nav/XMLport-Properties.md)
+ [XMLport Properties](XMLport-Properties.md)

@@ -11,7 +11,7 @@ caps.latest.revision: 16
 manager: terryaus
 ---
 # Bitmap Property
-Sets a bitmap icon to be shown with a department on the Department page of the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)].  
+Sets a bitmap icon to be shown with a department on the Department page of the [!INCLUDE[rtc](includes/rtc_md.md)].  
   
 ## Applies To  
   
@@ -23,5 +23,5 @@ Sets a bitmap icon to be shown with a department on the Department page of the [
 ## See Also  
  [How to: Change Department Icons in the Windows Client](../Topic/How%20to:%20Change%20Department%20Icons%20in%20the%20Windows%20Client.md)   
  [How to: Modify a Department Menu in a MenuSuite](../Topic/How%20to:%20Modify%20a%20Department%20Menu%20in%20a%20MenuSuite.md)   
- [\($ S\_2490 Menu Properties $\)](../dynamics-nav/-$-S_2490-Menu-Properties-$-.md)   
- [\($ S\_2420 Create Menu $\)](../dynamics-nav/-$-S_2420-Create-Menu-$-.md)
+ [\($ S\_2490 Menu Properties $\)](-$-S_2490-Menu-Properties-$-.md)   
+ [\($ S\_2420 Create Menu $\)](-$-S_2420-Create-Menu-$-.md)

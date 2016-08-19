@@ -39,11 +39,11 @@ String := REPORT.WORDXMLPART(Number[, ExtendedFormat])
   
 -   `ElementId="ID"`  
   
-     Specifies the ID that is assigned to the element by its [ID Property](../dynamics-nav/ID-Property.md).  
+     Specifies the ID that is assigned to the element by its [ID Property](ID-Property.md).  
   
 -   `DataType="Type"`  
   
-     Specifies the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] data type of the element.  
+     Specifies the [!INCLUDE[navnow](includes/navnow_md.md)] data type of the element.  
   
  If you omit this parameter or set it to **false**, then the element attributes are not included in the XML. This is the recommended setting when you will use the Word XML part in Word for modifying the report layout because the XML is simpler.  
   
@@ -73,13 +73,13 @@ String := REPORT.WORDXMLPART(Number[, ExtendedFormat])
 |XML|Description|  
 |---------|-----------------|  
 |`<?xml version="1.0" encoding="utf-16"?>`|Header|  
-|`<NavWordReportXmlPart xmlns="urn:microsoft-dynamics-nav/report/<reportname>/<id>/"`|XML namespace specification. `<reportname>` is the name assigned to the report object in [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)]. `<id>` is the ID that is assigned to the report.|  
-|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Contains all the labels for the report. Labels are listed in alphabetical. The element includes labels that are related to columns that have the [IncludeCaption Property](../dynamics-nav/IncludeCaption-Property.md) set to **Yes** and labels that are defined in Report Label Designer.<br /><br /> -   Label elements that are related to columns have the format `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`, where `ColumnName` is determined by the column's [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md).<br />-   Label elements from Report Label Designer have the format `<LabelName>LabelCaption</LableName`, where `LabelName` is determined by the label's [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md) and `LabelCaption` is determined by the label's [Caption Property\-duplicate](../dynamics-nav/Caption-Property-duplicate.md).|  
+|`<NavWordReportXmlPart xmlns="urn:microsoft-dynamics-nav/report/<reportname>/<id>/"`|XML namespace specification. `<reportname>` is the name assigned to the report object in [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. `<id>` is the ID that is assigned to the report.|  
+|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Contains all the labels for the report. Labels are listed in alphabetical. The element includes labels that are related to columns that have the [IncludeCaption Property](IncludeCaption-Property.md) set to **Yes** and labels that are defined in Report Label Designer.<br /><br /> -   Label elements that are related to columns have the format `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`, where `ColumnName` is determined by the column's [Name Property\-duplicate](Name-Property-duplicate.md).<br />-   Label elements from Report Label Designer have the format `<LabelName>LabelCaption</LableName`, where `LabelName` is determined by the label's [Name Property\-duplicate](Name-Property-duplicate.md) and `LabelCaption` is determined by the label's [Caption Property\-duplicate](Caption-Property-duplicate.md).|  
 |`..<DataItem1>`<br /><br /> `....<DataItem1Column1>DataItem1Column1</DataItem1Column1>`|Top\-level data item and columns. Columns are listed in alphabetical order.<br /><br /> The element names and values are determined by the Name property of the data item or column.|  
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Data items and columns that are nested in the top\-level data item. Columns are listed in alphabetical order under the respective data item.|  
 |`..</DataItem1>`<br /><br /> `</NavWordReportXmlPart>`|Closing elements.|  
   
- Word custom XML parts enable you to integrate business data into Word documents. For example, the WORDXMLPART function is used internally by [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] when you are creating report layouts in Word. You can use this function to create a custom XML part, and then, together with the [SAVEASXML Function \(Reports\)](../dynamics-nav/SAVEASXML-Function--Reports-.md) function and additional data merging tools, you can implement your own functionality for mapping and laying out report data in Word documents. To create a custom XML part, you can save the return value to an .xml file that is encoded in UTF\-16 \(16\-bit Unicode Transformation Format\). The resultant file can be added to Word documents as a custom XML part to map the report data set as XML data.  
+ Word custom XML parts enable you to integrate business data into Word documents. For example, the WORDXMLPART function is used internally by [!INCLUDE[navnow](includes/navnow_md.md)] when you are creating report layouts in Word. You can use this function to create a custom XML part, and then, together with the [SAVEASXML Function \(Reports\)](SAVEASXML-Function--Reports-.md) function and additional data merging tools, you can implement your own functionality for mapping and laying out report data in Word documents. To create a custom XML part, you can save the return value to an .xml file that is encoded in UTF\-16 \(16\-bit Unicode Transformation Format\). The resultant file can be added to Word documents as a custom XML part to map the report data set as XML data.  
   
 ## Example  
  The following example uses the WORDXMLPART function to save the data structure of Report 112 Sales Statistics in an XML file in a predefined folder *C:\\Report Documents*. The resultant file can be used in Word as a custom XML part. To complete the example, you must also create the following variables in the **C\/AL Globals** window.  
@@ -101,4 +101,4 @@ SalesStatsReport.CLOSE;
  The code generates the report structure as XML, and then writes the XML to the file *C:\\Report Documents\\SalesStatsReport.xml*.  
   
 ## See Also  
- [Designing Word Report Layouts](../dynamics-nav/Designing-Word-Report-Layouts.md)
+ [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)

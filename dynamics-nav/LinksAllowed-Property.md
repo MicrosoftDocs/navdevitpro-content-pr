@@ -26,4 +26,4 @@ Sets whether links are allowed.
  On a page, the links and notes are displayed in FactBoxes. If LinksAllowed is **Yes**, then the Actions menu has a Notes item and a Links item. You use these to create and modify notes and links.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

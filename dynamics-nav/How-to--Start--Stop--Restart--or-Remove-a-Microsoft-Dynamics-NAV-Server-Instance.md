@@ -11,11 +11,11 @@ caps.latest.revision: 4
 manager: terryaus
 ---
 # How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance
-You can start, stop, restart, or remove a [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance by using the [!INCLUDE[nav_admin](../dynamics-nav/includes/nav_admin_md.md)]. When you select a [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] computer in the left pane of [!INCLUDE[nav_admin](../dynamics-nav/includes/nav_admin_md.md)], it shows all server instances on that computer in the center pane.  
+You can start, stop, restart, or remove a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance by using the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. When you select a [!INCLUDE[nav_server](includes/nav_server_md.md)] computer in the left pane of [!INCLUDE[nav_admin](includes/nav_admin_md.md)], it shows all server instances on that computer in the center pane.  
   
-### To start, stop, restart, or remove a [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance  
+### To start, stop, restart, or remove a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance  
   
-1.  In the left pane of [!INCLUDE[nav_admin](../dynamics-nav/includes/nav_admin_md.md)], choose a [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] computer.  
+1.  In the left pane of [!INCLUDE[nav_admin](includes/nav_admin_md.md)], choose a [!INCLUDE[nav_server](includes/nav_server_md.md)] computer.  
   
      Unless you are administering a remote computer, this is **Microsoft Dynamics NAV \(local\)**.  
   
@@ -26,7 +26,7 @@ You can start, stop, restart, or remove a [!INCLUDE[nav_server](../dynamics-nav/
      Choose **Remove** to remove a server instance.  
   
 ## See Also  
- [Managing Microsoft Dynamics NAV Server Instances](../dynamics-nav/Managing-Microsoft-Dynamics-NAV-Server-Instances.md)   
+ [Managing Microsoft Dynamics NAV Server Instances](Managing-Microsoft-Dynamics-NAV-Server-Instances.md)   
  [How to: Configure a Microsoft Dynamics NAV Server Instance](../Topic/How%20to:%20Configure%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)   
  [How to: Create a Microsoft Dynamics NAV Server Instance](../Topic/How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)   
- [Microsoft Dynamics NAV Server Administration Tool](../dynamics-nav/Microsoft-Dynamics-NAV-Server-Administration-Tool.md)
+ [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)

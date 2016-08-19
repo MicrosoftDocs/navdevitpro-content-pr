@@ -24,7 +24,7 @@ Finds the first record in a table based on the current key and filter.
  *Record*  
  Type: Record  
   
- If the record is found, then it is returned in this parameter and any [FlowFields](../dynamics-nav/FlowFields.md) in the record are set to zero. You must update the FlowFields by using the [CALCFIELDS Function \(Record\)](../dynamics-nav/CALCFIELDS-Function--Record-.md).  
+ If the record is found, then it is returned in this parameter and any [FlowFields](FlowFields.md) in the record are set to zero. You must update the FlowFields by using the [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md).  
   
  If the record is not found and if you omit the return value, then a run\-time error occurs.  
   
@@ -57,7 +57,7 @@ END;
 ```  
   
 ## See Also  
- [FIND Function \(Record\)](../dynamics-nav/FIND-Function--Record-.md)   
- [FINDLAST Function \(Record\)](../dynamics-nav/FINDLAST-Function--Record-.md)   
- [FINDSET Function \(Record\)](../dynamics-nav/FINDSET-Function--Record-.md)   
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [FIND Function \(Record\)](FIND-Function--Record-.md)   
+ [FINDLAST Function \(Record\)](FINDLAST-Function--Record-.md)   
+ [FINDSET Function \(Record\)](FINDSET-Function--Record-.md)   
+ [Record Data Type](Record-Data-Type.md)

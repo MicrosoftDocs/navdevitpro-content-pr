@@ -20,11 +20,11 @@ Sets the option values for a field, text box, or variable. OptionString is multi
 -   Variables  
   
 ## Remarks  
- If the [OptionCaptionML Property](../dynamics-nav/OptionCaptionML-Property.md) is set, then users see the OptionCaptionML values as the option values. However, the value that is used in C\/AL code or that is stored in the database will be the corresponding value from the OptionString property.  
+ If the [OptionCaptionML Property](OptionCaptionML-Property.md) is set, then users see the OptionCaptionML values as the option values. However, the value that is used in C\/AL code or that is stored in the database will be the corresponding value from the OptionString property.  
   
- This allows you to present strings to users in different languages. The strings that are displayed to users are selected according to the user's current language setting. For more information, see [Multilanguage Development](../dynamics-nav/Multilanguage-Development.md). If the [OptionCaptionML Property](../dynamics-nav/OptionCaptionML-Property.md) is not set, then users will see the values from OptionString.  
+ This allows you to present strings to users in different languages. The strings that are displayed to users are selected according to the user's current language setting. For more information, see [Multilanguage Development](Multilanguage-Development.md). If the [OptionCaptionML Property](OptionCaptionML-Property.md) is not set, then users will see the values from OptionString.  
   
- For other multilanguage enabled properties \([Caption Property\-duplicate](../dynamics-nav/Caption-Property-duplicate.md), [ToolTip Property](../dynamics-nav/ToolTip-Property.md), and [ReqFilterHeading Property](../dynamics-nav/ReqFilterHeading-Property.md)\), there is a relationship between the property itself and the multilanguage counterpart. The only connection between the OptionString and OptionCaptionML properties is that if the OptionCaptionML property is not set, then the strings displayed are taken from the OptionString property.  
+ For other multilanguage enabled properties \([Caption Property\-duplicate](Caption-Property-duplicate.md), [ToolTip Property](ToolTip-Property.md), and [ReqFilterHeading Property](ReqFilterHeading-Property.md)\), there is a relationship between the property itself and the multilanguage counterpart. The only connection between the OptionString and OptionCaptionML properties is that if the OptionCaptionML property is not set, then the strings displayed are taken from the OptionString property.  
   
  For Option fields and variables, use this property to list the options you want to be accepted \(and displayed, if OptionCaptionML is not set\). You can enter a maximum of 250 characters. Separate the options with a comma. For example: option1,option2,option3.  
   
@@ -33,4 +33,4 @@ Sets the option values for a field, text box, or variable. OptionString is multi
  This property setting is checked recursively during validation.  
   
 ## See Also  
- [OptionCaptionML Property](../dynamics-nav/OptionCaptionML-Property.md)
+ [OptionCaptionML Property](OptionCaptionML-Property.md)

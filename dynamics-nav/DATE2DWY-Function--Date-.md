@@ -11,7 +11,7 @@ caps.latest.revision: 13
 manager: pchapman
 ---
 # DATE2DWY Function (Date)
-Gets the day of the week, week number, or year of a [Date Data Type](../dynamics-nav/Date-Data-Type.md).  
+Gets the day of the week, week number, or year of a [Date Data Type](Date-Data-Type.md).  
   
 ## Syntax  
   
@@ -83,4 +83,4 @@ MESSAGE(Text000 + Text001 + Text002 + Text003, InputDate, DayOfWeek, WeekNumber,
  This example shows that the date 01\/01\/14 is regarded as day number 4 \(Thursday\) in week number 1 in the year 2014.  
   
 ## See Also  
- [Date and Time Functions](../dynamics-nav/Date-and-Time-Functions.md)
+ [Date and Time Functions](Date-and-Time-Functions.md)

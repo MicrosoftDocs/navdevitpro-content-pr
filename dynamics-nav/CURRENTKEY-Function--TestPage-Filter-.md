@@ -42,4 +42,4 @@ CurrentKey := TestPage.Part.Filter.CURRENTKEY
  Returns a string that contains the current key.  
   
 ## See Also  
- [TestPage Filter Functions](../dynamics-nav/TestPage-Filter-Functions.md)
+ [TestPage Filter Functions](TestPage-Filter-Functions.md)

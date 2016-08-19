@@ -23,11 +23,11 @@ The following procedure describes the steps to take to create and revise a calcu
   
 4.  Find the **CalcFormula** property.  
   
-     ![](../dynamics-nav/media/NAV_ADG_6_Table_15.gif "NAV\_ADG\_6\_Table\_15")  
+     ![](media/NAV_ADG_6_Table_15.gif "NAV\_ADG\_6\_Table\_15")  
   
 5.  Enter the calculation formula directly or choose the **AssistEdit** button. When you choose the **AssistEdit** button, the following dialog box is displayed.  
   
-     ![Calculation Forumla window](../dynamics-nav/media/NAV_ADG_6_Table_17.gif "NAV\_ADG\_6\_Table\_17")  
+     ![Calculation Forumla window](media/NAV_ADG_6_Table_17.gif "NAV\_ADG\_6\_Table\_17")  
   
 6.  Choose the drop\-down button to select the appropriate calculation method.  
   
@@ -37,17 +37,17 @@ The following procedure describes the steps to take to create and revise a calcu
   
 9. If necessary, you can add a table filter to specify a limited set of records. Choose the **AssistEdit** button to the right of the **Table Filter** field and the **Table Filter** window opens.  
   
-     ![](../dynamics-nav/media/NAV_ADG_6_Table_52.gif "NAV\_ADG\_6\_Table\_52")  
+     ![](media/NAV_ADG_6_Table_52.gif "NAV\_ADG\_6\_Table\_52")  
   
 10. On each line in this window, you can define a field filter. For each field filter, specify a field, a type, and a value. You can also set the **OnlyMaxLimit** and the **ValueIsFilter** options.  
   
  The following example illustrates where the information in the **Table Filter** window comes from. The **Balance at Date** field in the **G\/L Account** table is a decimal type **FlowField**. This field is calculated from values in the **Amount Column** in the **G\/L Entry** table.  
   
- ![](../dynamics-nav/media/NAV_ADG_6_Diag_4.gif "NAV\_ADG\_6\_Diag\_4")  
+ ![](media/NAV_ADG_6_Diag_4.gif "NAV\_ADG\_6\_Diag\_4")  
   
  Some of the fields in the **G\/L Account** table are **FlowFilter** fields. By entering filter expressions into these fields, the user can affect the calculation of **FlowFields** field, such as **Balance at Date**, at run time. The user can enter filter values on a **FlowFilter** page.  
   
- ![G&#47;L Account FlowFilter window](../dynamics-nav/media/NAV_ADG_6_Table_22.gif "NAV\_ADG\_6\_Table\_22")  
+ ![G&#47;L Account FlowFilter window](media/NAV_ADG_6_Table_22.gif "NAV\_ADG\_6\_Table\_22")  
   
  If the user enters a date filter expression in the **Date Filter** field, it is transferred via the table filter and used in the **Date** column in the **G\/L Entry** table.  
   
@@ -56,5 +56,5 @@ The following procedure describes the steps to take to create and revise a calcu
  The **ValueIsFilter** option determines how the system interprets the contents of the field referred to in the **Value** column in the **Table Filter** window. For example, if the field contains the value **1000..2000**, setting the **ValueIsFilter** option will cause this value to be interpreted as a filter rather than as a specific value.  
   
 ## See Also  
- [FlowFields](../dynamics-nav/FlowFields.md)   
- [FlowFilter Overview](../dynamics-nav/FlowFilter-Overview.md)
+ [FlowFields](FlowFields.md)   
+ [FlowFilter Overview](FlowFilter-Overview.md)

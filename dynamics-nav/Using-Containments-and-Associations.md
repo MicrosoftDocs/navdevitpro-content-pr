@@ -11,9 +11,9 @@ caps.latest.revision: 17
 manager: terryaus
 ---
 # Using Containments and Associations
-Containments and associations are relationships between pages in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)]. OData web services in [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] support navigation between pages using containments and associations.  
+Containments and associations are relationships between pages in [!INCLUDE[navnow](includes/navnow_md.md)]. OData web services in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] support navigation between pages using containments and associations.  
   
--   **Containments**: Some pages in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] contain subpages. When you publish such a page, the subpages are automatically available in the web service as containments.  
+-   **Containments**: Some pages in [!INCLUDE[navnow](includes/navnow_md.md)] contain subpages. When you publish such a page, the subpages are automatically available in the web service as containments.  
   
 -   **Associations**: When a field on a page has a **TableRelation** property, the specified table has a **LookupPageId** property that points to a different page. When you publish a page containing such a field as a web service, you must also publish the page that is pointed to by **LookupPageId** property. You can then link from the first page to the second page in a single URI.  
   
@@ -130,4 +130,4 @@ http://localhost:7048/nav_server_instance/OData/CustomerList('30000')
 ```  
   
 ## See Also  
- [OData Web Services](../dynamics-nav/OData-Web-Services.md)
+ [OData Web Services](OData-Web-Services.md)

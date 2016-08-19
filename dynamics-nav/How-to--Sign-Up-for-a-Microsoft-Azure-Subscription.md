@@ -11,9 +11,9 @@ caps.latest.revision: 8
 manager: tsiggaar
 ---
 # How to: Sign Up for a Microsoft Azure Subscription
-To gain access to the Microsoft Azure management portal, you must have an Azure subscription and a Microsoft account associated with that subscription. You use the Azure management portal when you configure [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] for use of Azure Active Directory \(Azure AD\) as authentication mechanism, or if you deploy [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] on Azure.  
+To gain access to the Microsoft Azure management portal, you must have an Azure subscription and a Microsoft account associated with that subscription. You use the Azure management portal when you configure [!INCLUDE[navnow](includes/navnow_md.md)] for use of Azure Active Directory \(Azure AD\) as authentication mechanism, or if you deploy [!INCLUDE[navnow](includes/navnow_md.md)] on Azure.  
   
- You will create one or more subscriptions for the Azure account. A subscription is a grouping of Azure services and applications, including the virtual machines. The subscription provides a way to control the access to and the use of the Azure subscribed service. In a situation where you will have multiple [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] deployments, you may decide to use a separate subscription for each deployment in order to track expenses related to each deployment. All of the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] components for a single deployment must be deployed to the same subscription however. You can set up different administrators for each subscription as required. For more information, see [Overview of Subscription Management](http://go.microsoft.com/fwlink/?LinkID=317945).  
+ You will create one or more subscriptions for the Azure account. A subscription is a grouping of Azure services and applications, including the virtual machines. The subscription provides a way to control the access to and the use of the Azure subscribed service. In a situation where you will have multiple [!INCLUDE[navnow](includes/navnow_md.md)] deployments, you may decide to use a separate subscription for each deployment in order to track expenses related to each deployment. All of the [!INCLUDE[navnow](includes/navnow_md.md)] components for a single deployment must be deployed to the same subscription however. You can set up different administrators for each subscription as required. For more information, see [Overview of Subscription Management](http://go.microsoft.com/fwlink/?LinkID=317945).  
   
 ### To sign up for an Azure subscription  
   
@@ -37,10 +37,10 @@ To gain access to the Microsoft Azure management portal, you must have an Azure 
   
 ## See Also  
  [How to: Sign Up for a Microsoft Account](../Topic/How%20to:%20Sign%20Up%20for%20a%20Microsoft%20Account.md)   
- [Authenticating Users with Microsoft Azure Access Control Service](../dynamics-nav/Authenticating-Users-with-Microsoft-Azure-Access-Control-Service.md)   
- [Authenticating Users with Azure Active Directory](../dynamics-nav/Authenticating-Users-with-Azure-Active-Directory.md)   
- [Users and Credential Types](../dynamics-nav/Users-and-Credential-Types.md)   
- [Integrating Microsoft Dynamics NAV in SharePoint Sites](../dynamics-nav/Integrating-Microsoft-Dynamics-NAV-in-SharePoint-Sites.md)   
- [Preparing for Deploying Microsoft Dynamics NAV on Microsoft Azure](../dynamics-nav/Preparing-for-Deploying-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
- [Deploying Microsoft Dynamics NAV Using the Example Scripts](../dynamics-nav/Deploying-Microsoft-Dynamics-NAV-Using-the-Example-Scripts.md)   
- [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](../dynamics-nav/Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)
+ [Authenticating Users with Microsoft Azure Access Control Service](Authenticating-Users-with-Microsoft-Azure-Access-Control-Service.md)   
+ [Authenticating Users with Azure Active Directory](Authenticating-Users-with-Azure-Active-Directory.md)   
+ [Users and Credential Types](Users-and-Credential-Types.md)   
+ [Integrating Microsoft Dynamics NAV in SharePoint Sites](Integrating-Microsoft-Dynamics-NAV-in-SharePoint-Sites.md)   
+ [Preparing for Deploying Microsoft Dynamics NAV on Microsoft Azure](Preparing-for-Deploying-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
+ [Deploying Microsoft Dynamics NAV Using the Example Scripts](Deploying-Microsoft-Dynamics-NAV-Using-the-Example-Scripts.md)   
+ [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)

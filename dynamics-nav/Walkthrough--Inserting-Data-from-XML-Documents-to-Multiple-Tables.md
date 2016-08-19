@@ -11,12 +11,12 @@ caps.latest.revision: 23
 manager: terryaus
 ---
 # Walkthrough: Inserting Data from XML Documents to Multiple Tables
-XMLports are used to export data from a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database to an XML document or import data from an XML document to a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database. The data can be exported from or imported to multiple tables in the database. Exporting data from a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database into XML format enables seamless exchange of information between different computer systems. You only need a basic knowledge of XML to design and work with XMLports.  
+XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)] database to an XML document or import data from an XML document to a [!INCLUDE[navnow](includes/navnow_md.md)] database. The data can be exported from or imported to multiple tables in the database. Exporting data from a [!INCLUDE[navnow](includes/navnow_md.md)] database into XML format enables seamless exchange of information between different computer systems. You only need a basic knowledge of XML to design and work with XMLports.  
   
  XMLports can be called and run from codeunits or run from Object Designer. In this walkthrough, you will create a codeunit to call and run the XMLport. When you create a codeunit, you define the **InStream** object that will import the data and the location where the XML document should be saved.  
   
 ## About this Walkthrough  
- This walkthrough shows you how to import data from a Sales Order XML document to a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database. The Sales Order XML document contains data that belongs in two different tables in the database because the tables have a header\-line relationship. The data is inserted into the appropriate tables. This walkthrough illustrates the following tasks:  
+ This walkthrough shows you how to import data from a Sales Order XML document to a [!INCLUDE[navnow](includes/navnow_md.md)] database. The Sales Order XML document contains data that belongs in two different tables in the database because the tables have a header\-line relationship. The data is inserted into the appropriate tables. This walkthrough illustrates the following tasks:  
   
 -   Creating an XMLport.  
   
@@ -27,12 +27,12 @@ XMLports are used to export data from a [!INCLUDE[navnow](../dynamics-nav/includ
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] installed with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installed with a developer license.  
   
--   The [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+-   The [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 ## Story  
- Simon is a Microsoft Certified Partner working for [!INCLUDE[demoname](../dynamics-nav/includes/demoname_md.md)] A colleague in the Sales Department has shared Sales Order records with Simon. Simon has been asked to import the Sales Order records from an XML document into the appropriate tables in the database. When Simon examined the data in the XML document, he realized that the data in the Sales Order document belongs in two different tables, the Sale Header table and the Sales Line table. The tables have a header\-lines relationship. Simon’s task is to insert the Sales Header records from the XML document into the Sales Header table and insert the Line records into the Sales Line table. Simon knows that he can create an XMLport to import the data into the database and he also knows that he can design the XMLport to insert the Header data into the Sales Header table and the Line data into data into the Sales Line table.  
+ Simon is a Microsoft Certified Partner working for [!INCLUDE[demoname](includes/demoname_md.md)] A colleague in the Sales Department has shared Sales Order records with Simon. Simon has been asked to import the Sales Order records from an XML document into the appropriate tables in the database. When Simon examined the data in the XML document, he realized that the data in the Sales Order document belongs in two different tables, the Sale Header table and the Sales Line table. The tables have a header\-lines relationship. Simon’s task is to insert the Sales Header records from the XML document into the Sales Header table and insert the Line records into the Sales Line table. Simon knows that he can create an XMLport to import the data into the database and he also knows that he can design the XMLport to insert the Header data into the Sales Header table and the Line data into data into the Sales Line table.  
   
 ## Setting Up the Sample Data  
  In this walkthrough, you import an XML document and insert it into the database. The document contains Sales Order information, which is made up of sales header and sales lines information. The customer named “The Cannon Group PLC” has new sales order information in the sales order document. The sales header information is in the `<Header></Header>` element and the sales line information is in the `<Line></Line>` elements. You create an XMLport that inserts the header data into the Sales Header table and the sales line data into the Sales Line table.  
@@ -76,15 +76,15 @@ XMLports are used to export data from a [!INCLUDE[navnow](../dynamics-nav/includ
   
 #### To create the XMLport  
   
-1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **XMLport**, and then choose **New**.  
   
 3.  In XMLport Designer, choose an empty row in the designer, and on the **View** menu, choose **Properties**.  
   
-4.  In the **XMLport\-Properties** window, locate the [Direction Property](../dynamics-nav/Direction-Property.md), choose the drop\-down arrow in the **Value** column, and then set it to **Import**.  
+4.  In the **XMLport\-Properties** window, locate the [Direction Property](Direction-Property.md), choose the drop\-down arrow in the **Value** column, and then set it to **Import**.  
   
-5.  In the **XMLport\-Properties** window, locate the [Format Property \(XMLports\)](../dynamics-nav/Format-Property--XMLports-.md), verify that the **Value** column is set to **Xml**, and then close the **XMLport\-Properties** window.  
+5.  In the **XMLport\-Properties** window, locate the [Format Property \(XMLports\)](Format-Property--XMLports-.md), verify that the **Value** column is set to **Xml**, and then close the **XMLport\-Properties** window.  
   
 6.  In **XMLport Designer**, in the first row, in the **Node Name** column, enter **Root**. In the **Node Type** column, verify that **Element** is selected. In the **Source Type** column, verify that **Text** is selected. This node represents the beginning of the XML document.  
   
@@ -155,11 +155,11 @@ XMLports are used to export data from a [!INCLUDE[navnow](../dynamics-nav/includ
   
 22. From XMLport Designer, choose the **Line** row, and from the **View** menu, choose **Properties**.  
   
-23. In the **Line\-Properties** window, locate the [LinkTableForceInsert Property](../dynamics-nav/LinkTableForceInsert-Property.md) and set its value to **Yes**.  
+23. In the **Line\-Properties** window, locate the [LinkTableForceInsert Property](LinkTableForceInsert-Property.md) and set its value to **Yes**.  
   
-24. Locate the [LinkTable Property](../dynamics-nav/LinkTable-Property.md), in the **Value** column choose the up arrow to open the **Table List** window, and then choose **Sales Header**.  
+24. Locate the [LinkTable Property](LinkTable-Property.md), in the **Value** column choose the up arrow to open the **Table List** window, and then choose **Sales Header**.  
   
-25. Locate the [LinkFields Property](../dynamics-nav/LinkFields-Property.md) and choose the **AssistEdit** button in the **Value** column to open the **DataItem Link** window.  
+25. Locate the [LinkFields Property](LinkFields-Property.md) and choose the **AssistEdit** button in the **Value** column to open the **DataItem Link** window.  
   
 26. In the **DataItem Link** window, in the **Field** column, choose the up arrow to open the **Sales Line – Field List** window, choose **Document No.**, and then choose the **OK** button.  
   
@@ -202,7 +202,7 @@ XMLports are used to export data from a [!INCLUDE[navnow](../dynamics-nav/includ
   
     ```  
   
-     The code uses the [UPLOADINTOSTREAM Function \(File\)](../dynamics-nav/UPLOADINTOSTREAM-Function--File-.md) to send a file from the client to the server. The file is an XML file named NewSalesOrder.xml, which is located in a folder named Multiple on the C: drive. The [IMPORT Function \(XMLport\)](../dynamics-nav/IMPORT-Function--XMLport-.md) imports the data by using the specified XMLport. A message is displayed at the end of the export to indicate that the import is complete. If the import fails, then an error message is displayed. This message is not required but it lets the user know that something actually happened.  
+     The code uses the [UPLOADINTOSTREAM Function \(File\)](UPLOADINTOSTREAM-Function--File-.md) to send a file from the client to the server. The file is an XML file named NewSalesOrder.xml, which is located in a folder named Multiple on the C: drive. The [IMPORT Function \(XMLport\)](IMPORT-Function--XMLport-.md) imports the data by using the specified XMLport. A message is displayed at the end of the export to indicate that the import is complete. If the import fails, then an error message is displayed. This message is not required but it lets the user know that something actually happened.  
   
 7.  Close the **C\/AL Editor** and choose **Yes** at the prompt. In the **Save AS** dialog box, in the ID text box, enter **50003**, in the name text box enter **ImportMultiple**, make sure **Compile** is selected, and then choose the **OK** button.  
   
@@ -218,4 +218,4 @@ XMLports are used to export data from a [!INCLUDE[navnow](../dynamics-nav/includ
 3.  Similarly, run the **Sales Line** table and verify that the new record is included in the table.  
   
 ## See Also  
- [XMLport Walkthroughs](../dynamics-nav/XMLport-Walkthroughs.md)
+ [XMLport Walkthroughs](XMLport-Walkthroughs.md)

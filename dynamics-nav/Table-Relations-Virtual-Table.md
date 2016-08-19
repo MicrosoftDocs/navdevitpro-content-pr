@@ -11,11 +11,11 @@ caps.latest.revision: 2
 manager: edupont
 ---
 # Table Relations Virtual Table
-The **Table Relations** virtual table \(ID 2000000141\) contains information about table relations for all fields in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] non\-system tables.  
+The **Table Relations** virtual table \(ID 2000000141\) contains information about table relations for all fields in [!INCLUDE[navnow](includes/navnow_md.md)] non\-system tables.  
   
  The following table describes the fields in the **Table Relations** virtual table.  
   
-|[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
 |**TableId**|ID of table that contains the field with the relation.|  
 |**FieldNo**|Specifies the field number of the field with the relation.|  
@@ -30,4 +30,4 @@ The **Table Relations** virtual table \(ID 2000000141\) contains information abo
 |V**alidateTableRelation**|Specifies whether to validate the relation.|  
   
 ## See Also  
- [Virtual Tables](../dynamics-nav/Virtual-Tables.md)
+ [Virtual Tables](Virtual-Tables.md)

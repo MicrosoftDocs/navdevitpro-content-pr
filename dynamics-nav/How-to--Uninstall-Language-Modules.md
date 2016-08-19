@@ -19,7 +19,7 @@ To uninstall a language module, you must delete the language from the database a
   
 ### To uninstall a language module  
   
-1.  If you have imported translated profile resources, you must first go to the computer running the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+1.  If you have imported translated profile resources, you must first go to the computer running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
 2.  In the **Search** box, enter **Profiles**, and then choose the related link.  
   
@@ -27,7 +27,7 @@ To uninstall a language module, you must delete the language from the database a
   
 4.  Select the language that you want to delete and for which to remove the profile translations, and then choose the **OK** button.  
   
-5.  Now in the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
+5.  Now in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 6.  In Object Designer, select all objects.  
   

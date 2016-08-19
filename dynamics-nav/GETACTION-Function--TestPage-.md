@@ -36,4 +36,4 @@ Gets the action that the test page invokes.
  The action that the test page invokes. This return value is optional.  
   
 ## See Also  
- [TestPage Functions](../dynamics-nav/TestPage-Functions.md)
+ [TestPage Functions](TestPage-Functions.md)

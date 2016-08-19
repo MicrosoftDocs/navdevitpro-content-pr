@@ -11,7 +11,7 @@ caps.latest.revision: 6
 manager: terryaus
 ---
 # Interactive Timeline Business Data Visualization
-The Interactive Timeline Business Data Visualization for [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] provides a unique view on business data with an interactive user interface \(UI\) to change the business data. It targets the class of business data that represents a series of changes that measures value over time, such as:  
+The Interactive Timeline Business Data Visualization for [!INCLUDE[navnow](includes/navnow_md.md)] provides a unique view on business data with an interactive user interface \(UI\) to change the business data. It targets the class of business data that represents a series of changes that measures value over time, such as:  
   
 -   The future inventory level of an item from known and expected supply and demand events.  
   
@@ -19,7 +19,7 @@ The Interactive Timeline Business Data Visualization for [!INCLUDE[navnow](../dy
   
  The visualization helps identify periods of time during which the value falls under zero. You can add multiple horizontal target lines to the visualization for additional visual comparison with target levels. You can also visually mark special dates, such as today, or a work date.  
   
- ![Chart of the projected inventory for item bicycle](../dynamics-nav/media/TimeLine_Viz_ProjectedInventoryBicyle.png "TimeLine\_Viz\_ProjectedInventoryBicyle")  
+ ![Chart of the projected inventory for item bicycle](media/TimeLine_Viz_ProjectedInventoryBicyle.png "TimeLine\_Viz\_ProjectedInventoryBicyle")  
   
  Visualization lets you compare multiple what\-if scenarios, for example, by taking a certain forecast into consideration.  
   
@@ -41,5 +41,5 @@ The Interactive Timeline Business Data Visualization for [!INCLUDE[navnow](../dy
 |Understand consequences \(visualizes consequences before acting\)|Visualizations help users to understand the effect of actions before they are committed. Visualizers can explain dependencies, predict the outcome of actions, and provide visualizations to users.|  
   
 ## See Also  
- [Interactive Timeline Business Data Visualization Overview](../dynamics-nav/Interactive-Timeline-Business-Data-Visualization-Overview.md)   
- [Extending the Windows Client Using Control Add\-ins](../dynamics-nav/Extending-the-Windows-Client-Using-Control-Add-ins.md)
+ [Interactive Timeline Business Data Visualization Overview](Interactive-Timeline-Business-Data-Visualization-Overview.md)   
+ [Extending the Windows Client Using Control Add\-ins](Extending-the-Windows-Client-Using-Control-Add-ins.md)

@@ -27,9 +27,9 @@ Activates the debugger and attaches it to the specified session.
   
  The session can be any of the following:  
   
--   [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]  
+-   [!INCLUDE[nav_windows](includes/nav_windows_md.md)]  
   
--   [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]  
+-   [!INCLUDE[nav_web](includes/nav_web_md.md)]  
   
 -   NAS services session  
   
@@ -49,7 +49,7 @@ Activates the debugger and attaches it to the specified session.
 ## Remarks  
  The **ATTACH** function behaves like the **Debug** action on the **Sessions** page.  
   
- You can call either the **ATTACH** function or the [ACTIVATE Function \(Debugger\)](../dynamics-nav/ACTIVATE-Function--Debugger-.md) to activate the debugger.  
+ You can call either the **ATTACH** function or the [ACTIVATE Function \(Debugger\)](ACTIVATE-Function--Debugger-.md) to activate the debugger.  
   
 ## See Also  
- [Activating the Debugger](../dynamics-nav/Activating-the-Debugger.md)
+ [Activating the Debugger](Activating-the-Debugger.md)

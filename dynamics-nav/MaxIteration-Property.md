@@ -20,4 +20,4 @@ Sets a limit on the number of times that a data item will be iterated when the r
  Valid settings of this property are integers between 0 and the maximum value of an integer \(2,147,483,647\).  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

@@ -19,4 +19,4 @@ Replaces text that you find with other text. You can only replace information th
 >  If you have replaced the contents of a field, then you cannot undo the replacement by choosing **Undo** on the **Edit** menu.  
   
 ## See Also  
- [\($ S\_11001 Find $\)](../dynamics-nav/-$-S_11001-Find-$-.md)
+ [\($ S\_11001 Find $\)](-$-S_11001-Find-$-.md)

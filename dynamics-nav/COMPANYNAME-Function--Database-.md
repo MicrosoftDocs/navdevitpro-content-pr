@@ -42,4 +42,4 @@ MESSAGE(Text000, CompName);
 ```  
   
 ## See Also  
- [Database](../dynamics-nav/Database.md)
+ [Database](Database.md)

@@ -11,11 +11,11 @@ caps.latest.revision: 18
 manager: edupont
 ---
 # Adding Help to the Microsoft Dynamics NAV Universal App
-To complete designing your [!INCLUDE[nav_uni_app](../dynamics-nav/includes/nav_uni_app_md.md)] solution, you have to offer users Help. Although tablets and phones have a simpler interface than both the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] and the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], there can be times where the user needs help understanding the purpose of a page or a workflow.  
+To complete designing your [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] solution, you have to offer users Help. Although tablets and phones have a simpler interface than both the [!INCLUDE[nav_web](includes/nav_web_md.md)] and the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], there can be times where the user needs help understanding the purpose of a page or a workflow.  
   
- Adding Help to a [!INCLUDE[nav_uni_app](../dynamics-nav/includes/nav_uni_app_md.md)] solution is not different from adding Help to [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] in general.  
+ Adding Help to a [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] solution is not different from adding Help to [!INCLUDE[navnow](includes/navnow_md.md)] in general.  
   
- Help is linked to the [!INCLUDE[nav_uni_app](../dynamics-nav/includes/nav_uni_app_md.md)] using the same technology as for the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] and [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]. Help is invoked on the [!INCLUDE[nav_uni_app](../dynamics-nav/includes/nav_uni_app_md.md)] through an action on each page. The Help action is always the last action on the list. Because the same underlying technology applies to all clients, Help can be reused on all clients. The only difference is that field Help cannot be called directly from the [!INCLUDE[nav_uni_app](../dynamics-nav/includes/nav_uni_app_md.md)]. Instead, users will be lead to the page Help and this should therefore be designed to guide users to relevant field topics.  
+ Help is linked to the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] using the same technology as for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)]. Help is invoked on the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] through an action on each page. The Help action is always the last action on the list. Because the same underlying technology applies to all clients, Help can be reused on all clients. The only difference is that field Help cannot be called directly from the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)]. Instead, users will be lead to the page Help and this should therefore be designed to guide users to relevant field topics.  
   
 ## Adding Help  
  Add Help to your solution by adding new HTML files, or modifying existing HTML files on your Help Server. Context\-sensitivity is decided by topic names alone. Therefore naming is very important to get the Help call to work. Also, always make sure to work on an offline copy of a Help topic on the Help Server and then upload the topic\(s\) when you are finished.  
@@ -26,5 +26,5 @@ To complete designing your [!INCLUDE[nav_uni_app](../dynamics-nav/includes/nav_u
 >  The N\_50006.htm file must adhere to the classic.css style sheet, which you can find on the Help Server.  
   
 ## See Also  
- [Developing for the Microsoft Dynamics NAV Universal App](../dynamics-nav/Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)   
- [Getting Started Developing for the Microsoft Dynamics NAV Universal App](../dynamics-nav/Getting-Started-Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)
+ [Developing for the Microsoft Dynamics NAV Universal App](Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)   
+ [Getting Started Developing for the Microsoft Dynamics NAV Universal App](Getting-Started-Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)

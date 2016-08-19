@@ -49,9 +49,9 @@ Sets the data that is being imported or exported as XML data types or as the sta
   
  This is an XMLport property and therefore applies to all the data that is being streamed. It cannot be applied only to specific fields.  
   
- For more information about formatting C\/SIDE data types, see [Format Property](../dynamics-nav/Format-Property.md). For more information about evaluating variables, see [EVALUATE Function](../dynamics-nav/EVALUATE-Function.md). For more information about using temporary tables, see [Temporary Property \(XMLports\)](../dynamics-nav/Temporary-Property--XMLports-.md).  
+ For more information about formatting C\/SIDE data types, see [Format Property](Format-Property.md). For more information about evaluating variables, see [EVALUATE Function](EVALUATE-Function.md). For more information about using temporary tables, see [Temporary Property \(XMLports\)](Temporary-Property--XMLports-.md).  
   
 ## See Also  
- [Format Property \(XMLports\)](../dynamics-nav/Format-Property--XMLports-.md)   
- [EVALUATE Function](../dynamics-nav/EVALUATE-Function.md)   
- [Temporary Property \(XMLports\)](../dynamics-nav/Temporary-Property--XMLports-.md)
+ [Format Property \(XMLports\)](Format-Property--XMLports-.md)   
+ [EVALUATE Function](EVALUATE-Function.md)   
+ [Temporary Property \(XMLports\)](Temporary-Property--XMLports-.md)

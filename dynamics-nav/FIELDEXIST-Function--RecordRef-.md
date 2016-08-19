@@ -64,4 +64,4 @@ FOR i := 1 TO 12 DO BEGIN
 ```  
   
 ## See Also  
- [RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md)
+ [RecordRef Data Type](RecordRef-Data-Type.md)

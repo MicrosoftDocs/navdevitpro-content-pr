@@ -22,8 +22,8 @@ Sets the text string options that are displayed to the user.
 -   Variables  
   
 ## Remarks  
- OptionCaption sets the text used to show the option values available for a variable or a field on a page or report. The [OptionString Property](../dynamics-nav/OptionString-Property.md) contains the set of values that are acceptable choices. If you have set the [OptionCaptionML Property](../dynamics-nav/OptionCaptionML-Property.md), this overrides the OptionCaption setting.  
+ OptionCaption sets the text used to show the option values available for a variable or a field on a page or report. The [OptionString Property](OptionString-Property.md) contains the set of values that are acceptable choices. If you have set the [OptionCaptionML Property](OptionCaptionML-Property.md), this overrides the OptionCaption setting.  
   
 ## See Also  
- [OptionString Property](../dynamics-nav/OptionString-Property.md)   
- [OptionCaptionML Property](../dynamics-nav/OptionCaptionML-Property.md)
+ [OptionString Property](OptionString-Property.md)   
+ [OptionCaptionML Property](OptionCaptionML-Property.md)

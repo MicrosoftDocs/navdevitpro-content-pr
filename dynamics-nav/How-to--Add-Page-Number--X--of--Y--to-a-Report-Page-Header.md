@@ -19,7 +19,7 @@ In Microsoft Visual Studio 2012 and Microsoft Visual Studio 2013, page breaks on
   
 ### To change the page numbering caption  
   
-1.  Start the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)].  
+1.  Start the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
   
 2.  On the **Tools** menu, choose **Object Designer**.  
   
@@ -80,7 +80,7 @@ In Microsoft Visual Studio 2012 and Microsoft Visual Studio 2013, page breaks on
   
 10. Save your changes and close Visual Studio.  
   
-11. Return to the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], then save and compile the report.  
+11. Return to the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], then save and compile the report.  
   
 ## See Also  
- [Designing Reports](../dynamics-nav/Designing-Reports.md)
+ [Designing Reports](Designing-Reports.md)

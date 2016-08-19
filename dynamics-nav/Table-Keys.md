@@ -85,4 +85,4 @@ The database management system, which is SQL Server, keeps track of each field b
   
 ## See Also  
  [How to: Define Primary and Secondary Keys](../Topic/How%20to:%20Define%20Primary%20and%20Secondary%20Keys.md)   
- [Table Keys and Performance](../dynamics-nav/Table-Keys-and-Performance.md)
+ [Table Keys and Performance](Table-Keys-and-Performance.md)

@@ -36,4 +36,4 @@ TestPage.Field.ASSERTEQUALS(value)
  Specifies the value that the field should equal.  
   
 ## See Also  
- [TestPage Field Functions](../dynamics-nav/TestPage-Field-Functions.md)
+ [TestPage Field Functions](TestPage-Field-Functions.md)

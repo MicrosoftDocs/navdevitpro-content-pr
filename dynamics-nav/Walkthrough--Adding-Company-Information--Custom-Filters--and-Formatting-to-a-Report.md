@@ -37,11 +37,11 @@ When you create a report, you can add features such as formatting, custom filter
   
 -   To create a report by using [Walkthrough: Designing a Report from Multiple Tables](../Topic/Walkthrough:%20Designing%20a%20Report%20from%20Multiple%20Tables.md). If you have not created this report, you must create it before you start this walkthrough.  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] installed with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installed with a developer license.  
   
--   The [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)] installed.  
+-   The [!INCLUDE[demolong](includes/demolong_md.md)] installed.  
   
--   Microsoft Visual Studio installed. For more information about which version of Microsoft Visual Studio you need, see [System Requirements for Microsoft Dynamics NAV 2016](../dynamics-nav/System-Requirements-for-Microsoft-Dynamics-NAV-2016.md). This walkthrough assumes that Microsoft Visual Studio 2012 or Microsoft Visual Studio 2013 is used.  
+-   Microsoft Visual Studio installed. For more information about which version of Microsoft Visual Studio you need, see [System Requirements for Microsoft Dynamics NAV 2016](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md). This walkthrough assumes that Microsoft Visual Studio 2012 or Microsoft Visual Studio 2013 is used.  
   
 ## Story  
  Viktor has created the report that was assigned to him in [Walkthrough: Designing a Report from Multiple Tables](../Topic/Walkthrough:%20Designing%20a%20Report%20from%20Multiple%20Tables.md). Viktor wants to improve the visual presentation of the report by adding the company name and company logo to the report. He will format the data and the layout of the report. The company name and the logo must be displayed on every page. On the request page, Viktor wants to enable users to filter the data by customer number and provide the option to hide or show detailed customer information.  
@@ -51,7 +51,7 @@ When you create a report, you can add features such as formatting, custom filter
   
 #### To declare the variables  
   
-1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], in Object Designer, select the report that you created by using [Walkthrough: Designing a Report from Multiple Tables](../Topic/Walkthrough:%20Designing%20a%20Report%20from%20Multiple%20Tables.md) \(Report for Multiple Tables \(50001\). Choose **Design** to open Report Dataset Designer.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], in Object Designer, select the report that you created by using [Walkthrough: Designing a Report from Multiple Tables](../Topic/Walkthrough:%20Designing%20a%20Report%20from%20Multiple%20Tables.md) \(Report for Multiple Tables \(50001\). Choose **Design** to open Report Dataset Designer.  
   
 2.  On the **View** menu, choose **C\/AL Globals** to open the **C\/AL Globals** window.  
   
@@ -139,7 +139,7 @@ When you create a report, you can add features such as formatting, custom filter
   
 6.  On the **View** menu, choose **C\/AL Code**.  
   
-7.  In the **C\/AL Editor**, in the [OnInitReport Trigger](../dynamics-nav/OnInitReport-Trigger.md), enter the following code.  
+7.  In the **C\/AL Editor**, in the [OnInitReport Trigger](OnInitReport-Trigger.md), enter the following code.  
   
     ```  
     CompanyInfo.GET;  
@@ -196,7 +196,7 @@ When you create a report, you can add features such as formatting, custom filter
   
      The following illustration shows the selected cells.  
   
-     ![Customer Details cells](../dynamics-nav/media/MicrosoftDynamicsNAV_CustDetailCells.jpg "MicrosoftDynamicsNAV\_CustDetailCells")  
+     ![Customer Details cells](media/MicrosoftDynamicsNAV_CustDetailCells.jpg "MicrosoftDynamicsNAV\_CustDetailCells")  
   
 12. In the **Properties** pane, locate the **Hidden** property, choose the drop\-down list, choose **Expression**, and then enter the following conditional expression in the **Set expression for: Hidden** box: `=iif(Fields!ShowCustomerDetails.Value,false,true)`. This expression replaces any expression in the box. Choose the **OK** button. This expression hides the customer details information unless the **Show Customer Details** option is selected on the request page.  
   
@@ -213,7 +213,7 @@ When you create a report, you can add features such as formatting, custom filter
   
      The following illustration shows the Edit Report for Multiple Tables Request Page with the show details filter.  
   
-     ![Request Page with show details filter](../dynamics-nav/media/MicrosoftDynamicsNAV_ShowDetails.jpg "MicrosoftDynamicsNAV\_ShowDetails")  
+     ![Request Page with show details filter](media/MicrosoftDynamicsNAV_ShowDetails.jpg "MicrosoftDynamicsNAV\_ShowDetails")  
   
 17. In the **Where No. is** filter, enter **01445544**. Select the **Show Customer Details** option, and then choose the **Preview** button. Note that the company name and the company logo are displayed on the report and all customer information is displayed.  
   
@@ -222,7 +222,7 @@ When you create a report, you can add features such as formatting, custom filter
   
      The following illustration shows an example of the report with customer details.  
   
-     ![Report with logo and company name](../dynamics-nav/media/MicrosoftDynamicsNAV_Logo_Company.jpg "MicrosoftDynamicsNAV\_Logo\_Company")  
+     ![Report with logo and company name](media/MicrosoftDynamicsNAV_Logo_Company.jpg "MicrosoftDynamicsNAV\_Logo\_Company")  
   
 18. Run the report again. This time, on the Request Page, do not select the **Show Customer Details** option. Note that only the customer ID and the customer name are displayed on the report.  
   
@@ -231,7 +231,7 @@ When you create a report, you can add features such as formatting, custom filter
   
 #### To format dates value  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], select Report Dataset Designer, choose **View**, and then choose **Layout**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], select Report Dataset Designer, choose **View**, and then choose **Layout**.  
   
 2.  In the Visual Studio RDCL layout designer, select the posting date cell from the Cust Ledger Entry item, in the **Properties** window, locate the **Format** property, and then set the value to **d**.  
   
@@ -239,11 +239,11 @@ When you create a report, you can add features such as formatting, custom filter
   
 #### To format a Boolean value  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], in Report Dataset Designer, select a DataItem, and then choose **Yes** in the dialog box that appears.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], in Report Dataset Designer, select a DataItem, and then choose **Yes** in the dialog box that appears.  
   
 2.  In the last empty row at the bottom of the Sales Header DataItem, in the **Data Source** field, enter the following expression: `FORMAT("Sales Header"."Prices Including VAT")`. In the **Name** field, enter **F\_Prices\_Including\_VAT**.  
   
-3.  Select the **Prices Including VAT** row, choose **View**, choose **Properties**, and then verify that the [IncludeCaption Property](../dynamics-nav/IncludeCaption-Property.md) is set to **No**. Save and compile the report.  
+3.  Select the **Prices Including VAT** row, choose **View**, choose **Properties**, and then verify that the [IncludeCaption Property](IncludeCaption-Property.md) is set to **No**. Save and compile the report.  
   
 4.  On the **View** menu, choose **Layout**.  
   
@@ -357,7 +357,7 @@ When you create a report, you can add features such as formatting, custom filter
   
 1.  On the **Build** menu, choose **Build Web Site** to build the project. Review the **Output** pane, make sure that there are no build errors, and then close Visual Studio.  
   
-2.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], in Report Dataset Designer, select a DataItem. In.the dialog box that appears that states that the layout of the report is changed by another application, choose the **Yes** button.  
+2.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], in Report Dataset Designer, select a DataItem. In.the dialog box that appears that states that the layout of the report is changed by another application, choose the **Yes** button.  
   
 3.  On the **File** menu, choose **Save** and in the **Save** window, make sure that **Compile** is selected. Choose the **OK** button.  
   
@@ -367,8 +367,8 @@ When you create a report, you can add features such as formatting, custom filter
   
      The following illustration shows an example of the completed and formatted report.  
   
-     ![Formatted report](../dynamics-nav/media/MicrosoftDynamicsNAV_FormatedReport.jpg "MicrosoftDynamicsNAV\_FormatedReport")  
+     ![Formatted report](media/MicrosoftDynamicsNAV_FormatedReport.jpg "MicrosoftDynamicsNAV\_FormatedReport")  
   
 ## See Also  
  [Walkthrough: Designing a Report from Multiple Tables](../Topic/Walkthrough:%20Designing%20a%20Report%20from%20Multiple%20Tables.md)   
- [Report Design Walkthroughs](../dynamics-nav/Report-Design-Walkthroughs.md)
+ [Report Design Walkthroughs](Report-Design-Walkthroughs.md)

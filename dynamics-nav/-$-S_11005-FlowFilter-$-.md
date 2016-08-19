@@ -16,5 +16,5 @@ Sets a FlowFilter.
  To open this window, on the **Tools** menu, choose **Object Designer**, and then on the **View** menu, choose **FlowFilter**.  
   
 ## See Also  
- [FlowFilter Overview](../dynamics-nav/FlowFilter-Overview.md)   
+ [FlowFilter Overview](FlowFilter-Overview.md)   
  [FlowFilters](../Topic/FlowFilters.md)

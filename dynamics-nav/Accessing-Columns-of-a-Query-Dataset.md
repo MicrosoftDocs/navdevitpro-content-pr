@@ -21,10 +21,10 @@ ColumnValue := QueryVariable.ColumnName
   
 -   *QueryVariable* is a variable of the Query data type that specifies the query object.  
   
--   *ColumnName* is the name of the column in the query as specified by the [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md) of the column.  
+-   *ColumnName* is the name of the column in the query as specified by the [Name Property\-duplicate](Name-Property-duplicate.md) of the column.  
   
 ## Return Value  
- Type: The data type of the field that is used by the column, unless the column applies a totaling method as specified by the [Method Property](../dynamics-nav/Method-Property.md). If the column applies a totaling method, then data type is an integer for the Count method and a decimal for all other totaling methods  
+ Type: The data type of the field that is used by the column, unless the column applies a totaling method as specified by the [Method Property](Method-Property.md). If the column applies a totaling method, then data type is an integer for the Count method and a decimal for all other totaling methods  
   
  Returns the value of the column in the current active row.  
   
@@ -36,7 +36,7 @@ ColumnValue := QueryVariable.ColumnName
   
  This example requires that you do the following:  
   
--   Create a query called **Customer\_SalesQuantity** that links table **18 Customer** with table **37 Sales Lines** from the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)]. Include columns for the **Name** and **No.** fields from the Customer table and the **Quantity** field from Sales Lines table.  
+-   Create a query called **Customer\_SalesQuantity** that links table **18 Customer** with table **37 Sales Lines** from the [!INCLUDE[demolong](includes/demolong_md.md)]. Include columns for the **Name** and **No.** fields from the Customer table and the **Quantity** field from Sales Lines table.  
   
      For step\-by\-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
   

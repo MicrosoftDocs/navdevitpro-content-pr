@@ -11,10 +11,10 @@ caps.latest.revision: 24
 manager: terryaus
 ---
 # How to: Choose Components to Install
-When you run [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] Setup, you can install a predefined component package. These packages are called [Installation Options](../dynamics-nav/Installation-Options.md). If you have to modify the set of components that are included in an existing installation option, then you can choose **Customize** under any installation option. If you want to install components that are not all available in a predefined installation option, then you can choose **Custom Components**.  
+When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup, you can install a predefined component package. These packages are called [Installation Options](Installation-Options.md). If you have to modify the set of components that are included in an existing installation option, then you can choose **Customize** under any installation option. If you want to install components that are not all available in a predefined installation option, then you can choose **Custom Components**.  
   
 > [!IMPORTANT]  
->  You can customize the component list for the Client, Server, or Developer installation options. However, only with the Developer Option can you choose from the complete set of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] components. The range of available components for the other two installation options is limited to components that are relevant for that option.  
+>  You can customize the component list for the Client, Server, or Developer installation options. However, only with the Developer Option can you choose from the complete set of [!INCLUDE[navnow](includes/navnow_md.md)] components. The range of available components for the other two installation options is limited to components that are relevant for that option.  
   
 ## Choosing Components to Install  
  In this procedure, you use the **Component Selection** page to select what to install.  
@@ -28,7 +28,7 @@ When you run [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] S
      You can also choose **Custom Components** on the **Choose an installation option** pane. This opens the **Customize the installation** pane without preselected components.  
   
     > [!NOTE]  
-    >  To install [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] to a location other than the default location, on the **Customize the installation** page, choose **Destination folder**.  
+    >  To install [!INCLUDE[navnow](includes/navnow_md.md)] to a location other than the default location, on the **Customize the installation** page, choose **Destination folder**.  
   
 2.  Select the components that you want to install on the **Customize the installation** page.  
   
@@ -44,9 +44,9 @@ When you run [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] S
   
     |Component node|Description|  
     |--------------------|-----------------|  
-    |![White Node](../dynamics-nav/media/install_WhiteNode.gif "install\_WhiteNode")|The component and all its subcomponents are selected for installation.|  
-    |![Gray node](../dynamics-nav/media/install_GrayNode.gif "install\_GrayNode")|The component is selected for installation. Some or none but not all of the subcomponents are also selected. Only items on the top or second level can be gray because only these nodes can have subcomponents.|  
-    |![Red node](../dynamics-nav/media/install_RedNode.gif "install\_RedNode")|Neither the component nor any of its subcomponents is selected for installation.|  
+    |![White Node](media/install_WhiteNode.gif "install\_WhiteNode")|The component and all its subcomponents are selected for installation.|  
+    |![Gray node](media/install_GrayNode.gif "install\_GrayNode")|The component is selected for installation. Some or none but not all of the subcomponents are also selected. Only items on the top or second level can be gray because only these nodes can have subcomponents.|  
+    |![Red node](media/install_RedNode.gif "install\_RedNode")|Neither the component nor any of its subcomponents is selected for installation.|  
   
 3.  Choose a component to open a menu of options for that component. You must click in the box. The following options are available.  
   
@@ -62,7 +62,7 @@ When you run [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] S
   
 ## See Also  
  [How to: Run Setup](../Topic/How%20to:%20Run%20Setup.md)   
- [Custom Option](../dynamics-nav/Custom-Option.md)   
- [Installation and Configuration Walkthroughs](../dynamics-nav/Installation-and-Configuration-Walkthroughs.md)   
- [Configuring Microsoft Dynamics NAV Server](../dynamics-nav/Configuring-Microsoft-Dynamics-NAV-Server.md)   
- [Configuring Microsoft Dynamics NAV Help Server](../dynamics-nav/Configuring-Microsoft-Dynamics-NAV-Help-Server.md)
+ [Custom Option](Custom-Option.md)   
+ [Installation and Configuration Walkthroughs](Installation-and-Configuration-Walkthroughs.md)   
+ [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)   
+ [Configuring Microsoft Dynamics NAV Help Server](Configuring-Microsoft-Dynamics-NAV-Help-Server.md)

@@ -19,7 +19,7 @@ Usually, you use a page to view the data in a table, but you can also view the d
   
 2.  Choose **Run**.  
   
-     The table data is displayed in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+     The table data is displayed in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
 ## Changing Table Sort Order  
  Table data is displayed in the sort order defined by the current key. If more than one key is defined for the table, you can switch between keys to change the sort order.  
@@ -28,11 +28,11 @@ Usually, you use a page to view the data in a table, but you can also view the d
   
 1.  Open Object Designer, choose **Table** and then select the table that you want to view.  
   
-2.  Choose **Run** to open the table in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+2.  Choose **Run** to open the table in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
 3.  In the drop\-down list next to **Sorting**, select the key by which you want to sort. By default, the current key is selected.  
   
 4.  Choose the sort order arrow and select **Sort ascending** or **Sort descending** to select a sort order.  
   
 ## See Also  
- [Tables\-duplicate 20](../dynamics-nav/Tables-duplicate-20.md)
+ [Tables\-duplicate 20](Tables-duplicate-20.md)

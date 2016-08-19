@@ -26,7 +26,7 @@ String := FORMAT(Value[, Length][, FormatStr/FormatNumber])
   
  This is a C\/AL variable \(expression\) of any simple data type, such as Option, Integer, BigInteger, Decimal, Char, Text, Code, Date, Time, DateTime, Boolean, or GUID.  
   
- If, when the system formats *Value*, the result is a value larger than the maximum length [MAXSTRLEN Function \(Code, Text\)](../dynamics-nav/MAXSTRLEN-Function--Code--Text-.md) of *String*, a run\-time error occurs.  
+ If, when the system formats *Value*, the result is a value larger than the maximum length [MAXSTRLEN Function \(Code, Text\)](MAXSTRLEN-Function--Code--Text-.md) of *String*, a run\-time error occurs.  
   
  *Length*  
  Type: Integer  
@@ -50,7 +50,7 @@ String := FORMAT(Value[, Length][, FormatStr/FormatNumber])
  *FormatStr*  
  Type: String  
   
- A literal string that defines a format as in the [Format Property](../dynamics-nav/Format-Property.md).  
+ A literal string that defines a format as in the [Format Property](Format-Property.md).  
   
  *FormatNumber*  
  Type: Integer  
@@ -76,7 +76,7 @@ String := FORMAT(Value[, Length][, FormatStr/FormatNumber])
  The formatted output string.  
   
 ## Remarks  
- For more information about the formats that are used by the various data types, see [Format Property](../dynamics-nav/Format-Property.md). This topic describes the various predefined formats in detail, and how to create customized formats.  
+ For more information about the formats that are used by the various data types, see [Format Property](Format-Property.md). This topic describes the various predefined formats in detail, and how to create customized formats.  
   
  Format 9 is designed to be used when importing data with an XMLport and converts data from XML format to the corresponding C\/SIDE formats.  
   
@@ -128,7 +128,7 @@ MESSAGE(Text000, FORMAT(TODAY,0,'<Month Text> <Day>'));
  **Today is April 15.**  
   
 ## See Also  
- [Format Property](../dynamics-nav/Format-Property.md)   
- [EVALUATE Function](../dynamics-nav/EVALUATE-Function.md)   
- [Code Data Type](../dynamics-nav/Code-Data-Type.md)   
- [Text Data Type](../dynamics-nav/Text-Data-Type.md)
+ [Format Property](Format-Property.md)   
+ [EVALUATE Function](EVALUATE-Function.md)   
+ [Code Data Type](Code-Data-Type.md)   
+ [Text Data Type](Text-Data-Type.md)

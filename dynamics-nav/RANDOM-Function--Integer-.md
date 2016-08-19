@@ -36,7 +36,7 @@ Number := RANDOM(MaxNumber)
   
  If *MaxNumber* is zero, this function always returns 1.  
   
- A number is always chosen from the same set of numbers. Use [RANDOMIZE Function \(Integer\)](../dynamics-nav/RANDOMIZE-Function--Integer-.md) to generate a new set of numbers.  
+ A number is always chosen from the same set of numbers. Use [RANDOMIZE Function \(Integer\)](RANDOMIZE-Function--Integer-.md) to generate a new set of numbers.  
   
 ## Example  
  This example shows how to generate a pseudo\-random number. This example requires that you create the following variables and text constant in the **C\/AL Globals** window. The value of the variable Number2 is positive though the value of *MaxNumber* is negative and the value of the variable Number3 is always 1 because *MaxNumber* is 0.  
@@ -66,7 +66,7 @@ MESSAGE(Text000, Number1, Number2, Number3);
 ```  
   
 ## See Also  
- [ABS Function \(Decimal, Integer, BigInteger\)](../dynamics-nav/ABS-Function--Decimal--Integer--BigInteger-.md)   
- [POWER Function \(Decimal, Integer, BigInteger\)](../dynamics-nav/POWER-Function--Decimal--Integer--BigInteger-.md)   
- [RANDOMIZE Function \(Integer\)](../dynamics-nav/RANDOMIZE-Function--Integer-.md)   
- [ROUND Function \(Decimal\)](../dynamics-nav/ROUND-Function--Decimal-.md)
+ [ABS Function \(Decimal, Integer, BigInteger\)](ABS-Function--Decimal--Integer--BigInteger-.md)   
+ [POWER Function \(Decimal, Integer, BigInteger\)](POWER-Function--Decimal--Integer--BigInteger-.md)   
+ [RANDOMIZE Function \(Integer\)](RANDOMIZE-Function--Integer-.md)   
+ [ROUND Function \(Decimal\)](ROUND-Function--Decimal-.md)

@@ -17,7 +17,7 @@ Changes the collation that is used by the database.
   
  Before you change the collation, you have to select the **Single user** option on the **Options** tab.  
   
-##  <a name="ChangeCollation"></a> Changing the Collation of a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Database  
+##  <a name="ChangeCollation"></a> Changing the Collation of a [!INCLUDE[navnow](includes/navnow_md.md)] Database  
  If you change the database collation, then the collation of objects in the database is changed except for tables that have the **LinkedObject** property set to **Yes**. You must manually re\-create these objects. For example, you can script them in SQL Server Management Studio.  
   
  If you change the collation from a case\-sensitive to a case\-insensitive collation or from an accent\-sensitive to an accent\-insensitive collation, then duplicates can occur in the primary keys of the tables. Duplicates can be caused by the values of the character data stored in the primary keys. If duplicates occur, then you receive an error message and the database collation change is stopped. We recommend that you do not change these attributes of a collation.  
@@ -25,7 +25,7 @@ Changes the collation that is used by the database.
 > [!NOTE]  
 >  Changing the collation can be a lengthy process that depends on the size of the database and the number of companies in the database. The system tables and all user table indexes that contain character data must be rebuilt.  
   
- The **Language** drop\-down list displays the friendly name of the language, not the full Windows collation name. For some languages, there are multiple collations that sort characters differently. For example, the Windows collation languages include multiple Scandinavian languages, some of which sort Aa after Z, Æ, Ø, and some of which sort Aa after A and before B. If you upgrade from [!INCLUDE[nav2009](../dynamics-nav/includes/nav2009_md.md)] to [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], you upgrade the database to the Windows collations. If you used SQL collation in earlier versions of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], then after you upgrade, verify that the Windows collation sorts characters in the way that you expect.  
+ The **Language** drop\-down list displays the friendly name of the language, not the full Windows collation name. For some languages, there are multiple collations that sort characters differently. For example, the Windows collation languages include multiple Scandinavian languages, some of which sort Aa after Z, Æ, Ø, and some of which sort Aa after A and before B. If you upgrade from [!INCLUDE[nav2009](includes/nav2009_md.md)] to [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you upgrade the database to the Windows collations. If you used SQL collation in earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], then after you upgrade, verify that the Windows collation sorts characters in the way that you expect.  
   
  If you set the **Validate Collation** check box, then collation languages that run with a different non\-Unicode code page from your system non\-Unicode code page are filtered out of the **Language** drop\-down list. An example scenario of when you might want to choose a collation language that has a different code page from your system code page is if you want to prepare a Japanese database on a Danish computer.  
   
@@ -34,9 +34,9 @@ Changes the collation that is used by the database.
 ## See Also  
  [How to: Alter Databases](../Topic/How%20to:%20Alter%20Databases.md)   
  [How to: Alter Databases](../Topic/How%20to:%20Alter%20Databases.md)   
- [Altering Databases \- General Tab](../dynamics-nav/Altering-Databases---General-Tab.md)   
- [Altering Databases \- Database Files Tab](../dynamics-nav/Altering-Databases---Database-Files-Tab.md)   
- [Altering Databases \- Transaction Log Files Tab](../dynamics-nav/Altering-Databases---Transaction-Log-Files-Tab.md)   
- [Altering Databases \- Options Tab](../dynamics-nav/Altering-Databases---Options-Tab.md)   
- [Altering Databases \- Integration Tab](../dynamics-nav/Altering-Databases---Integration-Tab.md)   
- [Altering Databases \- Advanced Tab](../dynamics-nav/Altering-Databases---Advanced-Tab.md)
+ [Altering Databases \- General Tab](Altering-Databases---General-Tab.md)   
+ [Altering Databases \- Database Files Tab](Altering-Databases---Database-Files-Tab.md)   
+ [Altering Databases \- Transaction Log Files Tab](Altering-Databases---Transaction-Log-Files-Tab.md)   
+ [Altering Databases \- Options Tab](Altering-Databases---Options-Tab.md)   
+ [Altering Databases \- Integration Tab](Altering-Databases---Integration-Tab.md)   
+ [Altering Databases \- Advanced Tab](Altering-Databases---Advanced-Tab.md)

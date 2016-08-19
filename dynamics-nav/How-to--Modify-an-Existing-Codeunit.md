@@ -24,4 +24,4 @@ To modify an existing codeunit, use the following procedure.
 4.  In the **C\/AL Editor**, modify the codeunit by changing the existing functions or by adding new functions.  
   
 ## See Also  
- [Codeunits](../dynamics-nav/Codeunits.md)
+ [Codeunits](Codeunits.md)

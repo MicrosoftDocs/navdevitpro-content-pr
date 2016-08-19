@@ -85,5 +85,5 @@ Pos4 := StrPos("abc","x"); // Returns 0.
 ```  
   
 ## See Also  
- [Code Data Type](../dynamics-nav/Code-Data-Type.md)   
- [Text Data Type](../dynamics-nav/Text-Data-Type.md)
+ [Code Data Type](Code-Data-Type.md)   
+ [Text Data Type](Text-Data-Type.md)

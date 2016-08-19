@@ -17,4 +17,4 @@ Sets the data type of a table field.
  Table Fields  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

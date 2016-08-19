@@ -49,4 +49,4 @@ MESSAGE(Text000,varResult);
 ```  
   
 ## See Also  
- [Variant Data Type](../dynamics-nav/Variant-Data-Type.md)
+ [Variant Data Type](Variant-Data-Type.md)

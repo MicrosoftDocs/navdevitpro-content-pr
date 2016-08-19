@@ -56,4 +56,4 @@ F2.CLOSE();
 ```  
   
 ## See Also  
- [InStream and OutStream Data Types](../dynamics-nav/InStream-and-OutStream-Data-Types.md)
+ [InStream and OutStream Data Types](InStream-and-OutStream-Data-Types.md)

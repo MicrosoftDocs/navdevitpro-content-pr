@@ -33,4 +33,4 @@ The virtual, read\-only Windows Language table displays the languages that Windo
 |Help File|If selected, indicates that an \*.hlp or a \*.chm file is installed for the language in question.|  
   
 ## See Also  
- [Multilanguage Development](../dynamics-nav/Multilanguage-Development.md)
+ [Multilanguage Development](Multilanguage-Development.md)

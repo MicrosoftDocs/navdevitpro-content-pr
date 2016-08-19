@@ -11,14 +11,14 @@ caps.latest.revision: 6
 manager: terryaus
 ---
 # How to: Increase the Size of Database Files
-You can expand your [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] SQL Server database by increasing the size of one or more of its constituent database files.  
+You can expand your [!INCLUDE[navnow](includes/navnow_md.md)] SQL Server database by increasing the size of one or more of its constituent database files.  
   
 > [!WARNING]  
 >  You must always make a backup of your database before expanding it. For more information, see [Create a Full Database Backup \(SQL Server\)](http://go.microsoft.com/fwlink/?LinkID=296465).  
   
 ### To increase the size of a database file  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **Alter**. The **Alter Database** window opens.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **Alter**. The **Alter Database** window opens.  
   
 2.  Choose the **Database Files** tab.  
   
@@ -34,4 +34,4 @@ You can expand your [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] SQ
  You can also delete existing data files that are empty. The first data file that is listed is the primary file, and cannot be deleted.  
   
 ## See Also  
- [Altering Databases \- Database Files Tab](../dynamics-nav/Altering-Databases---Database-Files-Tab.md)
+ [Altering Databases \- Database Files Tab](Altering-Databases---Database-Files-Tab.md)

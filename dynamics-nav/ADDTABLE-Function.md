@@ -25,7 +25,7 @@ Adds filter control for a table to a filter page.
   
  Assigns a name to the filter control for the table.  
   
- The text displays as the caption for the filter control on the rendered filter page in the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] client.  
+ The text displays as the caption for the filter control on the rendered filter page in the [!INCLUDE[navnow](includes/navnow_md.md)] client.  
   
 > [!NOTE]  
 >  Within the collection of filter controls on the filter page, you cannot assign the same **ItemName** to different table IDs; otherwise a runtime an error occurs.  
@@ -33,7 +33,7 @@ Adds filter control for a table to a filter page.
  *TableNo*  
  Type: Integer  
   
- The ID of the table object that you want to filter. The ID is specified by the table's [ID Property](../dynamics-nav/ID-Property.md).  
+ The ID of the table object that you want to filter. The ID is specified by the table's [ID Property](ID-Property.md).  
   
 ## Return Value  
  Type: Text  
@@ -43,7 +43,7 @@ Adds filter control for a table to a filter page.
  If an error occurs at runtime, an empty text string is returned. An error message will be shown if the return value is not used.  
   
 ## Remarks  
- In the filter page that is rendered in the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] client, the ADDTABLE function defines a filter control for the specified table where the user can set filters on specific fields in the table.  
+ In the filter page that is rendered in the [!INCLUDE[navnow](includes/navnow_md.md)] client, the ADDTABLE function defines a filter control for the specified table where the user can set filters on specific fields in the table.  
   
  You can use the ADDFIELD or ADDFIELDNO function to add field of the table to the filter control.  
   
@@ -64,12 +64,12 @@ FilterPageBuilder.ADDTABLE(varDateItem, DATABASE::Date);
 ```  
   
 ## See Also  
- [ADDFIELD Function](../dynamics-nav/ADDFIELD-Function.md)   
- [ADDFIELDNO Function](../dynamics-nav/ADDFIELDNO-Function.md)   
- [ADDRECORD Function](../dynamics-nav/ADDRECORD-Function.md)   
- [ADDRECORDREF Function](../dynamics-nav/ADDRECORDREF-Function.md)   
- [GETVIEW function \(FilterPageBuilder\)](../dynamics-nav/GETVIEW-function--FilterPageBuilder-.md)   
- [SETVIEW Function](../dynamics-nav/SETVIEW-Function.md)   
- [COUNT Function \(FilterPageBuilder\)](../dynamics-nav/COUNT-Function--FilterPageBuilder-.md)   
- [NAME Function \(FilterPageBuilder\)](../dynamics-nav/NAME-Function--FilterPageBuilder-.md)   
- [RUNMODAL Function \(FilterPageBuilder\)](../dynamics-nav/RUNMODAL-Function--FilterPageBuilder-.md)
+ [ADDFIELD Function](ADDFIELD-Function.md)   
+ [ADDFIELDNO Function](ADDFIELDNO-Function.md)   
+ [ADDRECORD Function](ADDRECORD-Function.md)   
+ [ADDRECORDREF Function](ADDRECORDREF-Function.md)   
+ [GETVIEW function \(FilterPageBuilder\)](GETVIEW-function--FilterPageBuilder-.md)   
+ [SETVIEW Function](SETVIEW-Function.md)   
+ [COUNT Function \(FilterPageBuilder\)](COUNT-Function--FilterPageBuilder-.md)   
+ [NAME Function \(FilterPageBuilder\)](NAME-Function--FilterPageBuilder-.md)   
+ [RUNMODAL Function \(FilterPageBuilder\)](RUNMODAL-Function--FilterPageBuilder-.md)

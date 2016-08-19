@@ -14,5 +14,5 @@ manager: pchapman
 Use this complex data type to store units of C\/AL code. Codeunits contain a number of user\-defined functions.  
   
 ## See Also  
- [Codeunit.RUN Function \(Codeunit\)](../dynamics-nav/Codeunit.RUN-Function--Codeunit-.md)   
- [RUN Function \(Codeunit\)](../dynamics-nav/RUN-Function--Codeunit-.md)
+ [Codeunit.RUN Function \(Codeunit\)](Codeunit.RUN-Function--Codeunit-.md)   
+ [RUN Function \(Codeunit\)](RUN-Function--Codeunit-.md)

@@ -11,11 +11,11 @@ caps.latest.revision: 9
 manager: terryaus
 ---
 # Page Designer Walkthroughs
-The walkthroughs in this section provide step\-by\-step instructions on how to create pages for the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)]. Each walkthrough presents a different scenario intended to help you understand how different page types can be used to build a selection of page objects.  
+The walkthroughs in this section provide step\-by\-step instructions on how to create pages for the [!INCLUDE[rtc](includes/rtc_md.md)]. Each walkthrough presents a different scenario intended to help you understand how different page types can be used to build a selection of page objects.  
   
  Pages are XML based and require less design considerations and more understanding of how XML elements work together. In these walkthroughs you will see how page parts and controls can be arranged in the Page Designer window to create a hierarchy of XML elements that result in pages.  
   
- Page controls contain properties, triggers, functions, and codeunits in just the same way as forms but for the purposes of these walkthroughs, creating the basic structure of the page is the focus, not how to add codeunits or triggers. For more detailed information about these issues, see the appropriate section in the [Getting Started](../dynamics-nav/Getting-Started.md).  
+ Page controls contain properties, triggers, functions, and codeunits in just the same way as forms but for the purposes of these walkthroughs, creating the basic structure of the page is the focus, not how to add codeunits or triggers. For more detailed information about these issues, see the appropriate section in the [Getting Started](Getting-Started.md).  
   
 ## In This Section  
  [Walkthrough: Creating a Customer Card Page in Page Designer](../Topic/Walkthrough:%20Creating%20a%20Customer%20Card%20Page%20in%20Page%20Designer.md)  
@@ -37,5 +37,5 @@ The walkthroughs in this section provide step\-by\-step instructions on how to c
  [Walkthrough: Creating a Cue Based on a FlowField](../Topic/Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20FlowField.md)  
   
 ## See Also  
- [Pages Overview](../dynamics-nav/Pages-Overview.md)   
- [Adding Actions to Pages](../dynamics-nav/Adding-Actions-to-Pages.md)
+ [Pages Overview](Pages-Overview.md)   
+ [Adding Actions to Pages](Adding-Actions-to-Pages.md)

@@ -13,4 +13,4 @@ manager: terryaus
 # ($ S_21009 Table List $)
 Lists the tables that the XML item in the XMLport should link to. This list is only available for XML items that have a table as their data source.  
   
- To open this window, open XMLport Designer, select a table item, and then on the **View** menu, choose **Properties**. In the **Properties** window, locate the **LinkTable** property, and then choose the **Up Arrow** button in the **Value** field. For more information about how to open XMLport Designer, see [\($ S\_21001 XMLport Designer $\)](../dynamics-nav/-$-S_21001-XMLport-Designer-$-.md)
+ To open this window, open XMLport Designer, select a table item, and then on the **View** menu, choose **Properties**. In the **Properties** window, locate the **LinkTable** property, and then choose the **Up Arrow** button in the **Value** field. For more information about how to open XMLport Designer, see [\($ S\_21001 XMLport Designer $\)](-$-S_21001-XMLport-Designer-$-.md)

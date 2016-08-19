@@ -27,4 +27,4 @@ Sets the amount of information that is visible in a window or dialog box.
  You can set the **Importance** property if you are an administrator or as a user personalization option.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

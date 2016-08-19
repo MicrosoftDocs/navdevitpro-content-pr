@@ -25,11 +25,11 @@ You can view the definition of a function or object by selecting the item in the
   
 |Starting location|Result|  
 |-----------------------|------------|  
-|[User-Defined Function from the C/AL Globals Window](../dynamics-nav/Viewing-the-Definition-of-a-Function-or-Object-by-Using-Go-To-Definition.md#BKMK_UserdefinedFunctionFromTheCALGlobalsWindow)|The C\/AL Editor goes to the C\/AL code that defines the selected function.|  
-|[User-Defined Function from the C/AL Editor](../dynamics-nav/Viewing-the-Definition-of-a-Function-or-Object-by-Using-Go-To-Definition.md#BKMK_UserdefinedFunctionFromTheCALEditor)|The C\/AL Editor goes to the C\/AL code that defines the selected function.|  
-|[User-Defined Function from the C/AL Editor for an Object Variable](../dynamics-nav/Viewing-the-Definition-of-a-Function-or-Object-by-Using-Go-To-Definition.md#BKMK_UserdefinedFunctionFromTheCALEditorForAnObjectVariable)|-   The object is opened in the corresponding designer.<br />-   A new C\/AL Editor window opens to the C\/AL code that defines the selected function.|  
-|[System Function from the C/AL Editor](../dynamics-nav/Viewing-the-Definition-of-a-Function-or-Object-by-Using-Go-To-Definition.md#BKMK_SystemFunctionFromTheCALEditor)|If the system function is called on an object variable, such as a record, codeunit, or report, then the object is opened in the corresponding designer. If the system function is not called on an object variable, then nothing occurs.|  
-|[Object Variable from the C/AL Editor](../dynamics-nav/Viewing-the-Definition-of-a-Function-or-Object-by-Using-Go-To-Definition.md#BKMK_VariableFromTheCALEditor):<br /><br /> -   Record<br />-   Page<br />-   Report<br />-   Codeunit<br />-   XMLport<br />-   Query|The object is opened in the corresponding designer or editor:<br /><br /> -   Table Designer<br />-   Page Designer<br />-   Report Dataset Designer<br />-   C\/AL Editor<br />-   XMLport Designer<br />-   Query Designer **Note:**  If you select a variable that is a fundamental data type, such as Integer or Decimal, then information about the variable is displayed in the status bar.|  
+|[User-Defined Function from the C/AL Globals Window](Viewing-the-Definition-of-a-Function-or-Object-by-Using-Go-To-Definition.md#BKMK_UserdefinedFunctionFromTheCALGlobalsWindow)|The C\/AL Editor goes to the C\/AL code that defines the selected function.|  
+|[User-Defined Function from the C/AL Editor](Viewing-the-Definition-of-a-Function-or-Object-by-Using-Go-To-Definition.md#BKMK_UserdefinedFunctionFromTheCALEditor)|The C\/AL Editor goes to the C\/AL code that defines the selected function.|  
+|[User-Defined Function from the C/AL Editor for an Object Variable](Viewing-the-Definition-of-a-Function-or-Object-by-Using-Go-To-Definition.md#BKMK_UserdefinedFunctionFromTheCALEditorForAnObjectVariable)|-   The object is opened in the corresponding designer.<br />-   A new C\/AL Editor window opens to the C\/AL code that defines the selected function.|  
+|[System Function from the C/AL Editor](Viewing-the-Definition-of-a-Function-or-Object-by-Using-Go-To-Definition.md#BKMK_SystemFunctionFromTheCALEditor)|If the system function is called on an object variable, such as a record, codeunit, or report, then the object is opened in the corresponding designer. If the system function is not called on an object variable, then nothing occurs.|  
+|[Object Variable from the C/AL Editor](Viewing-the-Definition-of-a-Function-or-Object-by-Using-Go-To-Definition.md#BKMK_VariableFromTheCALEditor):<br /><br /> -   Record<br />-   Page<br />-   Report<br />-   Codeunit<br />-   XMLport<br />-   Query|The object is opened in the corresponding designer or editor:<br /><br /> -   Table Designer<br />-   Page Designer<br />-   Report Dataset Designer<br />-   C\/AL Editor<br />-   XMLport Designer<br />-   Query Designer **Note:**  If you select a variable that is a fundamental data type, such as Integer or Decimal, then information about the variable is displayed in the status bar.|  
   
 ## Examples  
  This section shows examples of using the Go To Definition shortcut menu item.  
@@ -37,42 +37,42 @@ You can view the definition of a function or object by selecting the item in the
 ###  <a name="BKMK_UserdefinedFunctionFromTheCALGlobalsWindow"></a> User\-Defined Function from the C\/AL Globals Window  
  From the **C\/AL Globals** window, right\-click a user\-defined function, and then choose **Go To Definition**.  
   
- ![Go To Definition of a user&#45;defined function](../dynamics-nav/media/GoToDef_.jpg "GoToDef\_")  
+ ![Go To Definition of a user&#45;defined function](media/GoToDef_.jpg "GoToDef\_")  
   
  The result is that the C\/AL Editor jumps to the C\/AL code that defines the selected function.  
   
- ![Go To Definition of a user&#45;defined function](../dynamics-nav/media/GoToDef_FromCALGlobals_CALEditor.jpg "GoToDef\_FromCALGlobals\_CALEditor")  
+ ![Go To Definition of a user&#45;defined function](media/GoToDef_FromCALGlobals_CALEditor.jpg "GoToDef\_FromCALGlobals\_CALEditor")  
   
 ###  <a name="BKMK_UserdefinedFunctionFromTheCALEditor"></a> User\-Defined Function from the C\/AL Editor  
  From the C\/AL Editor, right\-click a user\-defined function, and then choose **Go To Definition**.  
   
- ![Go To Definition from user function in C&#47;AL Editor](../dynamics-nav/media/GotoDef_FromCALEditor_UserFunc.jpg "GotoDef\_FromCALEditor\_UserFunc")  
+ ![Go To Definition from user function in C&#47;AL Editor](media/GotoDef_FromCALEditor_UserFunc.jpg "GotoDef\_FromCALEditor\_UserFunc")  
   
  The result is that the C\/AL Editor jumps to the C\/AL code that defines the selected function.  
   
- ![Go To Definition from user function in C&#47;AL Editor](../dynamics-nav/media/GoToDef_FromCALEditor_UserFunc_Result.jpg "GoToDef\_FromCALEditor\_UserFunc\_Result")  
+ ![Go To Definition from user function in C&#47;AL Editor](media/GoToDef_FromCALEditor_UserFunc_Result.jpg "GoToDef\_FromCALEditor\_UserFunc\_Result")  
   
 ###  <a name="BKMK_UserdefinedFunctionFromTheCALEditorForAnObjectVariable"></a> User\-Defined Function from the C\/AL Editor for an Object Variable  
  From the C\/AL Editor, right\-click a user\-defined function that is called on an object variable, and then choose **Go To Definition**.  
   
- ![Go To Definition from user function in C&#47;AL Editor](../dynamics-nav/media/GotoDef_FromCALEditor_UserFunc_Object.jpg "GotoDef\_FromCALEditor\_UserFunc\_Object")  
+ ![Go To Definition from user function in C&#47;AL Editor](media/GotoDef_FromCALEditor_UserFunc_Object.jpg "GotoDef\_FromCALEditor\_UserFunc\_Object")  
   
  The result is that the object on which the function is called is opened in the corresponding designer and a new C\/AL Editor window opens to the C\/AL code that defines the selected function.  
   
- ![Go To Definition from user function in C&#47;AL Editor](../dynamics-nav/media/GotoDef_FromCALEditor_UserFunc_Object_Result.jpg "GotoDef\_FromCALEditor\_UserFunc\_Object\_Result")  
+ ![Go To Definition from user function in C&#47;AL Editor](media/GotoDef_FromCALEditor_UserFunc_Object_Result.jpg "GotoDef\_FromCALEditor\_UserFunc\_Object\_Result")  
   
 ###  <a name="BKMK_SystemFunctionFromTheCALEditor"></a> System Function from the C\/AL Editor  
  From the C\/AL Editor, right\-click a system function that is called on an object variable, and then choose **Go To Definition**.  
   
- ![Go To Definition from a system function](../dynamics-nav/media/GotoDef_FromCALEditor_.jpg "GotoDef\_FromCALEditor\_")  
+ ![Go To Definition from a system function](media/GotoDef_FromCALEditor_.jpg "GotoDef\_FromCALEditor\_")  
   
  If the system function is called on a record variable, then the table that the record is from is opened in Table Designer.  
   
- ![Go To Definition from system function](../dynamics-nav/media/GoToDef_FromCALEditor_System_RecResult.jpg "GoToDef\_FromCALEditor\_System\_RecResult")  
+ ![Go To Definition from system function](media/GoToDef_FromCALEditor_System_RecResult.jpg "GoToDef\_FromCALEditor\_System\_RecResult")  
   
  If the system function is the \<*codeunit*\>.RUN function, then the codeunit is opened in a new C\/AL Editor window.  
   
- ![Go To Definition from codeunit.RUN function](../dynamics-nav/media/GoToDef_FromCALEditor_System_CodeunitResult.jpg "GoToDef\_FromCALEditor\_System\_CodeunitResult")  
+ ![Go To Definition from codeunit.RUN function](media/GoToDef_FromCALEditor_System_CodeunitResult.jpg "GoToDef\_FromCALEditor\_System\_CodeunitResult")  
   
  If the system function is called on any other object type variable, then the object is opened in the corresponding designer. For any other system function that is not called on an object variable, nothing occurs.  
   
@@ -91,7 +91,7 @@ You can view the definition of a function or object by selecting the item in the
   
 -   Query  
   
- ![Go To Definition from Record variable](../dynamics-nav/media/GoToDef_FromCALEditor_Var.jpg "GoToDef\_FromCALEditor\_Var")  
+ ![Go To Definition from Record variable](media/GoToDef_FromCALEditor_Var.jpg "GoToDef\_FromCALEditor\_Var")  
   
  The object is opened in the corresponding designer:  
   
@@ -107,7 +107,7 @@ You can view the definition of a function or object by selecting the item in the
   
 -   Query Designer  
   
- ![Go To Definition from Record variable](../dynamics-nav/media/GoToDef_FromCALEditor_VarResult.jpg "GoToDef\_FromCALEditor\_VarResult")  
+ ![Go To Definition from Record variable](media/GoToDef_FromCALEditor_VarResult.jpg "GoToDef\_FromCALEditor\_VarResult")  
   
 ## Permissions  
  To go to a definition, you must have the correct permissions. If you do not have permission to view the definition of an object by selecting the object in Object Designer and then choosing **Design**, then you cannot view it with the **Go To Definition** option.

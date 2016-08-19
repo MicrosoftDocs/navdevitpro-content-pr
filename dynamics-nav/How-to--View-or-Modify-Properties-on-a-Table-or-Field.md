@@ -38,4 +38,4 @@ Use the following procedure to view or modify properties for a table or a field.
 6.  To modify a property value, enter the new value in the **Properties** window. After entering the new value, update the property by pressing ENTER or by choosing outside of the property.  
   
 ## See Also  
- [Table Properties](../dynamics-nav/Table-Properties.md)
+ [Table Properties](Table-Properties.md)

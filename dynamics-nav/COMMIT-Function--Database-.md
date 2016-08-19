@@ -37,4 +37,4 @@ EndWriteTransactions
 ```  
   
 ## See Also  
- [Database](../dynamics-nav/Database.md)
+ [Database](Database.md)

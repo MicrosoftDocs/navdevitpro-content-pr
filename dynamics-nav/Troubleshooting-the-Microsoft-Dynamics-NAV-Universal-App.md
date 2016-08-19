@@ -11,7 +11,7 @@ caps.latest.revision: 12
 manager: edupont
 ---
 # Troubleshooting the Microsoft Dynamics NAV Universal App
-This section contains information to help you resolve problems using the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], the [!INCLUDE[nav_tablet](../dynamics-nav/includes/nav_tablet_md.md)], and the [!INCLUDE[nav_phone](../dynamics-nav/includes/nav_phone_md.md)].  
+This section contains information to help you resolve problems using the [!INCLUDE[nav_web](includes/nav_web_md.md)], the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)], and the [!INCLUDE[nav_phone](includes/nav_phone_md.md)].  
   
 ## Troubleshooting Topics  
  [Troubleshooting: Compression Option in IIS](../Topic/Troubleshooting:%20Compression%20Option%20in%20IIS.md)  

@@ -13,4 +13,4 @@ manager: terryaus
 # Closing the Debugger
 When you close the **Debugger** window, the debugger detaches from the session. The session continues running without the debugger attached.  
   
- After you close the **Debugger** window, you can select a different session to debug. For more information, see [Activating the Debugger](../dynamics-nav/Activating-the-Debugger.md).
+ After you close the **Debugger** window, you can select a different session to debug. For more information, see [Activating the Debugger](Activating-the-Debugger.md).

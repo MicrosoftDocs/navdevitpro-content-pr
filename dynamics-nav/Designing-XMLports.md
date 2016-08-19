@@ -11,10 +11,10 @@ caps.latest.revision: 32
 manager: terryaus
 ---
 # Designing XMLports
-XMLports are used to export data from or import data to a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database. The import or export is between the database and an external file. XMLports enable seamless exchange of data between different computer systems. XMLports are used to import and export data to and from text files, CSV, and XML files. You can use XMLports to export or import data from multiple tables in the database. Although you can design an XMLport for both import and export, XMLports are typically designed for either import or export. To use an XMLport, you first design it in **XMLport Designer** and set properties for the XMLport. For more information about the **XMLport Designer** window, see [\($ S\_21001 XMLport Designer $\)](../dynamics-nav/-$-S_21001-XMLport-Designer-$-.md). After the XMLport is designed, you create a codeunit to run the XMLport or run it from **Object Designer**.  
+XMLports are used to export data from or import data to a [!INCLUDE[navnow](includes/navnow_md.md)] database. The import or export is between the database and an external file. XMLports enable seamless exchange of data between different computer systems. XMLports are used to import and export data to and from text files, CSV, and XML files. You can use XMLports to export or import data from multiple tables in the database. Although you can design an XMLport for both import and export, XMLports are typically designed for either import or export. To use an XMLport, you first design it in **XMLport Designer** and set properties for the XMLport. For more information about the **XMLport Designer** window, see [\($ S\_21001 XMLport Designer $\)](-$-S_21001-XMLport-Designer-$-.md). After the XMLport is designed, you create a codeunit to run the XMLport or run it from **Object Designer**.  
   
 ## Designing an XMLport  
- To create an XMLport that exports or imports data, you first specify the root of the file that you want to import or export and then specify the data items and the fields. For example, to create an XMLport that exports data from a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database to an XML document, you first specify the root of the XML document by using the `<Root></Root>` element, specify all the XML node names, and then choose the type for each node to indicate whether it represents an element or an attribute. You then map these node names to corresponding data structures, such as tables, text, or fields. For more information, see [How to: Create XMLports](../Topic/How%20to:%20Create%20XMLports.md).  
+ To create an XMLport that exports or imports data, you first specify the root of the file that you want to import or export and then specify the data items and the fields. For example, to create an XMLport that exports data from a [!INCLUDE[navnow](includes/navnow_md.md)] database to an XML document, you first specify the root of the XML document by using the `<Root></Root>` element, specify all the XML node names, and then choose the type for each node to indicate whether it represents an element or an attribute. You then map these node names to corresponding data structures, such as tables, text, or fields. For more information, see [How to: Create XMLports](../Topic/How%20to:%20Create%20XMLports.md).  
   
  At run time, when an XMLport object is called from a codeunit to import or export an XML document, the XMLport first reads the XML document into a data stream before the import or export. For example, when you design an XMLport for export and use codeunit to call the XMLport at run time, the XMLport object reads the specified data from the database, adds the necessary XML nodes to form the XML document, and then writes the document to a data stream. The data stream saves the XML file in to a location that you specify in the codeunit. For more information, see [How to: Create Codeunits to Run XMLports](../Topic/How%20to:%20Create%20Codeunits%20to%20Run%20XMLports.md).  
   
@@ -23,7 +23,7 @@ XMLports are used to export data from or import data to a [!INCLUDE[navnow](../d
 >   
 >  Spaces are not allowed in the names of the XML nodes that you enter in the **Node Name** column of the XMLport Designer.  
 >   
->  You must set the [Direction Property](../dynamics-nav/Direction-Property.md) for the XMLport to indicate whether the XMLport is used to import, export, or both. You must also set the [Format Property \(XMLports\)](../dynamics-nav/Format-Property--XMLports-.md) to indicate the type of file format that you want to work with.  
+>  You must set the [Direction Property](Direction-Property.md) for the XMLport to indicate whether the XMLport is used to import, export, or both. You must also set the [Format Property \(XMLports\)](Format-Property--XMLports-.md) to indicate the type of file format that you want to work with.  
   
 > [!NOTE]  
 >  Although XMLports can be designed for both export and import, we recommend designing for either export or import.  
@@ -40,17 +40,17 @@ XMLports are used to export data from or import data to a [!INCLUDE[navnow](../d
 >  Do not use a semicolon in a quoted argument as a field value when you import a file through an XMLport. Even in a quoted argument, the semicolon is interpreted as a record separator.  
   
 ###  <a name="Namespaces"></a> Namespaces With XMLports  
- The external system that provides or consumes [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] data as XML might require that the XML documents include namespaces. Namespaces are used to avoid element name conflicts. In these cases, you must add namespaces on the XMLport to make it compatible with the XML schema that is used by the external system. For more information, see [Using Namespaces with XMLports](../dynamics-nav/Using-Namespaces-with-XMLports.md).  
+ The external system that provides or consumes [!INCLUDE[navnow](includes/navnow_md.md)] data as XML might require that the XML documents include namespaces. Namespaces are used to avoid element name conflicts. In these cases, you must add namespaces on the XMLport to make it compatible with the XML schema that is used by the external system. For more information, see [Using Namespaces with XMLports](Using-Namespaces-with-XMLports.md).  
   
-### Request Pages are not Supported by [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]  
- [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] does not support request pages with XMLports. A request page is a dialog box that appears when an XMLport is run that enables the user to set a filter on the transferred data and choose whether the XMLPort imports or exports the data.  
+### Request Pages are not Supported by [!INCLUDE[nav_web](includes/nav_web_md.md)]  
+ [!INCLUDE[nav_web](includes/nav_web_md.md)] does not support request pages with XMLports. A request page is a dialog box that appears when an XMLport is run that enables the user to set a filter on the transferred data and choose whether the XMLPort imports or exports the data.  
   
- If the XMLport will be displayed in the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], you should not set up the XMLport to use a request page because an error will occur when the XMLport is run. By default, XMLports are set up to use a request page. To specify not to use a request page, you can either change the [UseRequestPage Property](../dynamics-nav/UseRequestPage-Property.md) in XMLPort Designer or if the XMLPort is run from C\/AL code by calling the [RUN Function \(XMLport\)](../dynamics-nav/RUN-Function--XMLport-.md), you can set the *ReqWindow* parameter of the Run function.  
+ If the XMLport will be displayed in the [!INCLUDE[nav_web](includes/nav_web_md.md)], you should not set up the XMLport to use a request page because an error will occur when the XMLport is run. By default, XMLports are set up to use a request page. To specify not to use a request page, you can either change the [UseRequestPage Property](UseRequestPage-Property.md) in XMLPort Designer or if the XMLPort is run from C\/AL code by calling the [RUN Function \(XMLport\)](RUN-Function--XMLport-.md), you can set the *ReqWindow* parameter of the Run function.  
   
 ## Running XMLports  
  After you have designed and saved the XMLport, you can create a code unit that uses the XMLport to perform the import or export. You can run the XMLport from Object Designer. For information about how to run XMLports from Object Designer, see [How to: Run an XMLport from Object Designer](../Topic/How%20to:%20Run%20an%20XMLport%20from%20Object%20Designer.md). To create a codeunit to run the XMLport, first you define the location of the document you want to import from or export to. Whether the XMLport is importing or exporting, the data is read into a data stream and the XMLport uses the stream to insert the data into the table or export it into the file. For more information about how to create the condeunit, see [How to: Create Codeunits to Run XMLports](../Topic/How%20to:%20Create%20Codeunits%20to%20Run%20XMLports.md).  
   
- For information about how to design XMLports, see [How to: Create XMLports](../Topic/How%20to:%20Create%20XMLports.md). For information about how to export data from a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database, see [Walkthrough: Exporting Data from Tables to XML Documents](../Topic/Walkthrough:%20Exporting%20Data%20from%20Tables%20to%20XML%20Documents.md).  
+ For information about how to design XMLports, see [How to: Create XMLports](../Topic/How%20to:%20Create%20XMLports.md). For information about how to export data from a [!INCLUDE[navnow](includes/navnow_md.md)] database, see [Walkthrough: Exporting Data from Tables to XML Documents](../Topic/Walkthrough:%20Exporting%20Data%20from%20Tables%20to%20XML%20Documents.md).  
   
 ## Handling XML Documents That Use Data in Different Scopes  
  XML documents have a tree structure that can include many levels. A database table, however, can only store data in a flat structure, which is the field level. An XML document can contain data in different scopes, although the data belongs in the same scope in the database. For example, the `<BillTo>` node of an XML sales order document could contain a `<PaymentTerms>` child element. The value of the `<PaymentTerms>` node sometimes must be assigned to all sales items, and sometimes to only one of them. If you declare the `<PaymentTerms>` value node as the Element node type and the Text source type, the XMLport can store the value and therefore when it starts to process the sales item information, you can specify which records the value is to be assigned to.  
@@ -91,9 +91,9 @@ XMLports are used to export data from or import data to a [!INCLUDE[navnow](../d
  `L.Document Type := Type;`  
   
 ## XMLport Functions and Properties  
- XMLport objects include functions and properties that can be used to work with the object. For more information, see [XMLport Data Type](../dynamics-nav/XMLport-Data-Type.md).  
+ XMLport objects include functions and properties that can be used to work with the object. For more information, see [XMLport Data Type](XMLport-Data-Type.md).  
   
 ## See Also  
- [XMLport Walkthroughs](../dynamics-nav/XMLport-Walkthroughs.md)   
- [\($ S\_21001 XMLport Designer $\)](../dynamics-nav/-$-S_21001-XMLport-Designer-$-.md)   
- [XMLports](../dynamics-nav/XMLports.md)
+ [XMLport Walkthroughs](XMLport-Walkthroughs.md)   
+ [\($ S\_21001 XMLport Designer $\)](-$-S_21001-XMLport-Designer-$-.md)   
+ [XMLports](XMLports.md)

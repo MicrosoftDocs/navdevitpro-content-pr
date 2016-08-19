@@ -15,7 +15,7 @@ To have messages, including errors, display in the language of the user, you hav
   
 ### To specify the local language of ADCS messages  
   
-1.  Start the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], and on the **Tools** menu, choose **Object Designer**.  
+1.  Start the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], and on the **Tools** menu, choose **Object Designer**.  
   
 2.  Choose **CodeUnit**, and from the list, select codeunit 7714. Choose the **Design** button. The C\/AL Editor opens.  
   
@@ -32,4 +32,4 @@ To have messages, including errors, display in the language of the user, you hav
     ```  
   
 ## See Also  
- [Configuring Automated Data Capture System](../dynamics-nav/Configuring-Automated-Data-Capture-System.md)
+ [Configuring Automated Data Capture System](Configuring-Automated-Data-Capture-System.md)

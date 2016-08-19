@@ -17,7 +17,7 @@ To create an RDLC report layout, you use Visual Studio Report Designer.
   
 1.  Open the report for which you want to create the layout as follows.  
   
-    1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
+    1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
     2.  In Object Designer, choose **Report**, select the report, and then choose the **Design** button.  
   
@@ -46,7 +46,7 @@ To create an RDLC report layout, you use Visual Studio Report Designer.
 9. To run the new report, in Object Designer, select the report and then choose **Run**.  
   
 ## See Also  
- [Designing Reports](../dynamics-nav/Designing-Reports.md)   
- [How to. Specify the Default Built\-in Report Layout](../dynamics-nav/How-to.-Specify-the-Default-Built-in-Report-Layout.md)   
- [Designing Word Report Layouts](../dynamics-nav/Designing-Word-Report-Layouts.md)   
- [Defining the Report Dataset](../dynamics-nav/Defining-the-Report-Dataset.md)
+ [Designing Reports](Designing-Reports.md)   
+ [How to. Specify the Default Built\-in Report Layout](How-to.-Specify-the-Default-Built-in-Report-Layout.md)   
+ [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)   
+ [Defining the Report Dataset](Defining-the-Report-Dataset.md)

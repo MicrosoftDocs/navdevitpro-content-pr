@@ -11,11 +11,11 @@ caps.latest.revision: 8
 manager: terryaus
 ---
 # Troubleshooting: Reports that are saved as Excel or Word files are blank
-While you are viewing a report in **Print Preview** in the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], you save the report as a Microsoft Excel or Microsoft Word file. When you open the saved file, it is empty.  
+While you are viewing a report in **Print Preview** in the [!INCLUDE[nav_web](includes/nav_web_md.md)], you save the report as a Microsoft Excel or Microsoft Word file. When you open the saved file, it is empty.  
   
 ## Resolution  
- On the computer that is running [!INCLUDE[nav_web_server](../dynamics-nav/includes/nav_web_server_md.md)], you must give users read, write, and modify permission to the Temp folder of the user account that is used by the web site of the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]. The default user account is ApplicationPoolIdentity and the folder is C:\\Users\\Web Client Application Pool\\AppData\\Local\\Temp\\.  
+ On the computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], you must give users read, write, and modify permission to the Temp folder of the user account that is used by the web site of the [!INCLUDE[nav_web](includes/nav_web_md.md)]. The default user account is ApplicationPoolIdentity and the folder is C:\\Users\\Web Client Application Pool\\AppData\\Local\\Temp\\.  
   
 ## See Also  
  [How to: Configure Microsoft Report Viewer for the Microsoft Dynamics NAV Web Client](../Topic/How%20to:%20Configure%20Microsoft%20Report%20Viewer%20for%20the%20Microsoft%20Dynamics%20NAV%20Web%20Client.md)   
- [Troubleshooting the Microsoft Dynamics NAV Web Client Installation](../dynamics-nav/Troubleshooting-the-Microsoft-Dynamics-NAV-Web-Client-Installation.md)
+ [Troubleshooting the Microsoft Dynamics NAV Web Client Installation](Troubleshooting-the-Microsoft-Dynamics-NAV-Web-Client-Installation.md)

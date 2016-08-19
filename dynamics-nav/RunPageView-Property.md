@@ -22,5 +22,5 @@ Sets a specific table view for the page that you launch from this control.
  You can use this property to indicate how information should be sorted.  
   
 ## See Also  
- [RunObject Property](../dynamics-nav/RunObject-Property.md)   
- [RunPageLink Property](../dynamics-nav/RunPageLink-Property.md)
+ [RunObject Property](RunObject-Property.md)   
+ [RunPageLink Property](RunPageLink-Property.md)

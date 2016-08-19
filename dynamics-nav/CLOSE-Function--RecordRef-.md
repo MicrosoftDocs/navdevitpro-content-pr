@@ -30,7 +30,7 @@ RecordRef.CLOSE
  You must use this function if you have several recordrefs defined as variables because these will be maintained until the variable gets out of scope.  
   
 ## Example  
- The following example opens tables 3 through 10 as a Recordref variable that is named MyRecordRef. For each table that is open, the [CAPTION Function \(RecordRef\)](../dynamics-nav/CAPTION-Function--RecordRef-.md) retrieves the caption of the table and displays the table number and the caption in a messages box. After each caption is displayed, the CLOSE function closes the table before the next table is open. This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ The following example opens tables 3 through 10 as a Recordref variable that is named MyRecordRef. For each table that is open, the [CAPTION Function \(RecordRef\)](CAPTION-Function--RecordRef-.md) retrieves the caption of the table and displays the table number and the caption in a messages box. After each caption is displayed, the CLOSE function closes the table before the next table is open. This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -52,4 +52,4 @@ END;
 ```  
   
 ## See Also  
- [RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md)
+ [RecordRef Data Type](RecordRef-Data-Type.md)

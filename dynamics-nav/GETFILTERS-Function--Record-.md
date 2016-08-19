@@ -11,7 +11,7 @@ caps.latest.revision: 11
 manager: terryaus
 ---
 # GETFILTERS Function (Record)
-Gets a string that contains a list of the filters within the current filter group for all fields in a record. In addition, this function also returns the state of the [MARKEDONLY Function \(Record\)](../dynamics-nav/MARKEDONLY-Function--Record-.md).  
+Gets a string that contains a list of the filters within the current filter group for all fields in a record. In addition, this function also returns the state of the [MARKEDONLY Function \(Record\)](MARKEDONLY-Function--Record-.md).  
   
 ## Syntax  
   
@@ -88,8 +88,8 @@ MESSAGE('Now Filtergroup 0 filters: ' + Item.GETFILTERS);
  **Now Filtergroup 0 filters: No.: 70000..79999**  
   
 ## See Also  
- [GETFILTER Function \(Record\)](../dynamics-nav/GETFILTER-Function--Record-.md)   
- [SETFILTER Function \(Record\)](../dynamics-nav/SETFILTER-Function--Record-.md)   
- [SETRANGE Function \(Record\)](../dynamics-nav/SETRANGE-Function--Record-.md)   
- [FILTERGROUP Function \(Record\)](../dynamics-nav/FILTERGROUP-Function--Record-.md)   
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [GETFILTER Function \(Record\)](GETFILTER-Function--Record-.md)   
+ [SETFILTER Function \(Record\)](SETFILTER-Function--Record-.md)   
+ [SETRANGE Function \(Record\)](SETRANGE-Function--Record-.md)   
+ [FILTERGROUP Function \(Record\)](FILTERGROUP-Function--Record-.md)   
+ [Record Data Type](Record-Data-Type.md)

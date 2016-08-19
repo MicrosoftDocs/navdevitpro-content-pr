@@ -18,5 +18,5 @@ On the **Debugger** page, if code execution has paused and an error has occurred
 -   In the **Debugger** window, on the **Home** tab, in the **Show** group, choose **Last Error**. The last error message is displayed.  
   
 ## See Also  
- [Debugging](../dynamics-nav/Debugging.md)   
+ [Debugging](Debugging.md)   
  [How to: View Variables That Are in Scope](../Topic/How%20to:%20View%20Variables%20That%20Are%20in%20Scope.md)

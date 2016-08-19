@@ -10,7 +10,7 @@ ms.assetid: beabce4e-95ad-4767-a8bd-781d8b83ebe5
 caps.latest.revision: 11
 ---
 # Troubleshooting: Server Error in &#39;-&#39; Application. Access Denied
-When you try to access the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], you get an error that is similar to the following:  
+When you try to access the [!INCLUDE[nav_web](includes/nav_web_md.md)], you get an error that is similar to the following:  
   
  **Server Error in '\/' Application.**  
   
@@ -21,28 +21,28 @@ When you try to access the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_m
  **Error message 401.2.: Unauthorized: Logon failed due to server configuration.**  
   
 ## Resolution  
- This error can occur when the authentication method that is configured in the web.config file for the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] is not enabled in Internet Information Services \(IIS\). The [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] can be configured to use either Windows authentication or forms authentication. By default, the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] uses Windows authentication.  
+ This error can occur when the authentication method that is configured in the web.config file for the [!INCLUDE[nav_web](includes/nav_web_md.md)] is not enabled in Internet Information Services \(IIS\). The [!INCLUDE[nav_web](includes/nav_web_md.md)] can be configured to use either Windows authentication or forms authentication. By default, the [!INCLUDE[nav_web](includes/nav_web_md.md)] uses Windows authentication.  
   
--   When you use Windows authentication, the Windows authentication feature must be turned on in IIS and enabled on the website for the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)].  
+-   When you use Windows authentication, the Windows authentication feature must be turned on in IIS and enabled on the website for the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
--   When you use forms authentication, both forms authentication and anonymous authentication must be enabled on the website for [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)].  
+-   When you use forms authentication, both forms authentication and anonymous authentication must be enabled on the website for [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
 > [!NOTE]  
->  For more information about authentication with the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], see [How to: Configure Authentication of Microsoft Dynamics NAV Web Client Users](../Topic/How%20to:%20Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md).  
+>  For more information about authentication with the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [How to: Configure Authentication of Microsoft Dynamics NAV Web Client Users](../Topic/How%20to:%20Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md).  
   
 #### To turn on the Windows Authentication feature in IIS  
   
 -   Use Internet Information Services \(IIS\) Manager to turn on Windows authentication on IIS. For more information, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](../Topic/How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md)  
   
-#### To enable an authentication method on the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] website  
+#### To enable an authentication method on the [!INCLUDE[nav_web](includes/nav_web_md.md)] website  
   
-1.  On the computer that is running [!INCLUDE[nav_web_server](../dynamics-nav/includes/nav_web_server_md.md)], to open Internet Information Services \(IIS\) Manager and do one of the following:  
+1.  On the computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], to open Internet Information Services \(IIS\) Manager and do one of the following:  
   
     1.  In Windows 7, on the **Start** menu, in the **Search Programs and Files** box, type **inetmgr**, and then press Enter.  
   
     2.  In Windows Server 2008 R2, on the **Start** menu, choose **All Programs**, choose **Administrative Tools**, and then choose **Internet Information Service \(IIS\) Manager**.  
   
-2.  In the **Connections** pane, under **Sites**, choose **[!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] Web Client**.  
+2.  In the **Connections** pane, under **Sites**, choose **[!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client**.  
   
 3.  Under **IIS**, double\-click **Authentication**.  
   
@@ -55,4 +55,4 @@ When you try to access the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_m
 -   In the **Connections** pane of Internet Information Services \(IIS\) Manager, choose the root node for your computer, and then in the **Actions** pane, choose **Restart**.  
   
 ## See Also  
- [Deploying the Microsoft Dynamics NAV Web Server Components](../dynamics-nav/Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)
+ [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)

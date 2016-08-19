@@ -34,7 +34,7 @@ Dialog.OPEN(String [, Variable1],...)
   
  The number of \# or @ characters in the string indicates the length of the field or progress indicator.  
   
- You can update the fields using the [UPDATE Function \(Dialog\)](../dynamics-nav/UPDATE-Function--Dialog-.md) or by letting the user edit the values.  
+ You can update the fields using the [UPDATE Function \(Dialog\)](UPDATE-Function--Dialog-.md) or by letting the user edit the values.  
   
  *Variable1*  
  Type: Any  
@@ -115,7 +115,7 @@ MyDialog.CLOSE()
   
  The dialog window opens and displays the progress indicator and percentage.  
   
- ![Dialog window progress indicator](../dynamics-nav/media/DialogOPENFunction.png "DialogOPENFunction")  
+ ![Dialog window progress indicator](media/DialogOPENFunction.png "DialogOPENFunction")  
   
 ## See Also  
- [Dialog Data Type](../dynamics-nav/Dialog-Data-Type.md)
+ [Dialog Data Type](Dialog-Data-Type.md)

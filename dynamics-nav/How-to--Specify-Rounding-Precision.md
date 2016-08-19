@@ -19,11 +19,11 @@ In Visual Studio Report Designer, you can use the **ROUND** function to round a 
   
 -   Add code to functions that call the **ROUND** function.  
   
- An example of a report in the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)] that uses the **ROUND** function and specifies a degree of precision is report 111, Customer \- Top 10 List.  
+ An example of a report in the [!INCLUDE[demolong](includes/demolong_md.md)] that uses the **ROUND** function and specifies a degree of precision is report 111, Customer \- Top 10 List.  
   
 ### To use an expression to specify rounding precision  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **Report**, select a report that contains a number that you want to round with precision greater than the nearest integer, and then choose **Design**.  
   
@@ -45,7 +45,7 @@ In Visual Studio Report Designer, you can use the **ROUND** function to round a 
   
 ### To add code to specify rounding precision  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **Report**, select a report that contains a number that you want to round with precision greater than the nearest integer, and then choose **Design**.  
   
@@ -87,4 +87,4 @@ End Function
 ```  
   
 ## See Also  
- [Designing Reports](../dynamics-nav/Designing-Reports.md)
+ [Designing Reports](Designing-Reports.md)

@@ -13,10 +13,10 @@ manager: terryaus
 # TestPage Data Type
 Stores test pages. A test page is a logical representation of a page that does not display a user interface \(UI\). The subtype of a test page is the page that it is used to test.  
   
- A test page can be any page type. For more information about types of pages, see [Pages Overview](../dynamics-nav/Pages-Overview.md).  
+ A test page can be any page type. For more information about types of pages, see [Pages Overview](Pages-Overview.md).  
   
 ## Remarks  
  You can use test pages only within test codeunits.  
   
 ## See Also  
- [TestRequestPage Data Type](../dynamics-nav/TestRequestPage-Data-Type.md)
+ [TestRequestPage Data Type](TestRequestPage-Data-Type.md)

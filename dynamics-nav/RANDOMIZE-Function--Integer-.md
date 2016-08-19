@@ -11,7 +11,7 @@ caps.latest.revision: 15
 manager: terryaus
 ---
 # RANDOMIZE Function (Integer)
-Generates a set of random numbers from which the [RANDOM Function \(Integer\)](../dynamics-nav/RANDOM-Function--Integer-.md) will select a random number.  
+Generates a set of random numbers from which the [RANDOM Function \(Integer\)](RANDOM-Function--Integer-.md) will select a random number.  
   
 ## Syntax  
   
@@ -50,7 +50,7 @@ MESSAGE(Text000, x);
 ```  
   
 ## See Also  
- [ABS Function \(Decimal, Integer, BigInteger\)](../dynamics-nav/ABS-Function--Decimal--Integer--BigInteger-.md)   
- [POWER Function \(Decimal, Integer, BigInteger\)](../dynamics-nav/POWER-Function--Decimal--Integer--BigInteger-.md)   
- [RANDOM Function \(Integer\)](../dynamics-nav/RANDOM-Function--Integer-.md)   
- [ROUND Function \(Decimal\)](../dynamics-nav/ROUND-Function--Decimal-.md)
+ [ABS Function \(Decimal, Integer, BigInteger\)](ABS-Function--Decimal--Integer--BigInteger-.md)   
+ [POWER Function \(Decimal, Integer, BigInteger\)](POWER-Function--Decimal--Integer--BigInteger-.md)   
+ [RANDOM Function \(Integer\)](RANDOM-Function--Integer-.md)   
+ [ROUND Function \(Decimal\)](ROUND-Function--Decimal-.md)

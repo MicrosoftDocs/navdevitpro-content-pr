@@ -46,7 +46,7 @@ After creating an XMLport, you can create a codeunit to run the XMLport or run i
   
     ```  
   
-     The [CREATE Function \(File\)](../dynamics-nav/CREATE-Function--File-.md) creates the XML file that will contain the exported data. The [CREATEOUTSTREAM Function \(File\)](../dynamics-nav/CREATEOUTSTREAM-Function--File-.md) creates the output stream for the XML file. The [EXPORT Function \(XMLport\)](../dynamics-nav/EXPORT-Function--XMLport-.md) uses the output stream and the name of the specified XMLport to export the data to the XML file.  
+     The [CREATE Function \(File\)](CREATE-Function--File-.md) creates the XML file that will contain the exported data. The [CREATEOUTSTREAM Function \(File\)](CREATEOUTSTREAM-Function--File-.md) creates the output stream for the XML file. The [EXPORT Function \(XMLport\)](EXPORT-Function--XMLport-.md) uses the output stream and the name of the specified XMLport to export the data to the XML file.  
   
      If the XMLport is designed for importing data, add the following lines of code.  
   
@@ -58,11 +58,11 @@ After creating an XMLport, you can create a codeunit to run the XMLport or run i
   
     ```  
   
-     The [OPEN Function \(File\)](../dynamics-nav/OPEN-Function--File-.md) opens the XML file that contains the data that you want to import. The [CREATEINSTREAM Function \(File\)](../dynamics-nav/CREATEINSTREAM-Function--File-.md) creates the input stream for the XML file. The [IMPORT Function \(XMLport\)](../dynamics-nav/IMPORT-Function--XMLport-.md) uses the input stream and the name of the specified XMLport to import the data from the XML file to the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database.  
+     The [OPEN Function \(File\)](OPEN-Function--File-.md) opens the XML file that contains the data that you want to import. The [CREATEINSTREAM Function \(File\)](CREATEINSTREAM-Function--File-.md) creates the input stream for the XML file. The [IMPORT Function \(XMLport\)](IMPORT-Function--XMLport-.md) uses the input stream and the name of the specified XMLport to import the data from the XML file to the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
      The following table shows the variables that are used in the code.  
   
-    |Variable|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+    |Variable|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
     |--------------|---------------------------------------|  
     |varXmlFile|Represents the XML file to create for export or open for import.|  
     |MyXmlfile|The name of the XML file that the exported data will be saved as or the name of the XML file to open for export.|  

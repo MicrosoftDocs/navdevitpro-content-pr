@@ -50,4 +50,4 @@ Sets a value that indicates whether a field or key is enabled or disabled, or wh
  Now, when a user selects the **Allow Line Disc.** check box on a customer card, the **Credit Limit \(LCY\)** field is enabled. Otherwise, the field is disabled.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

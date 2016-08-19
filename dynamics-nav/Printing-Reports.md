@@ -19,13 +19,13 @@ You can specify page settings and page orientation for a printed report from the
   
 -   The **Print** dialog box that is displayed immediately before you print.  
   
--   The **Page Setup** dialog box from the **Print Preview** page in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+-   The **Page Setup** dialog box from the **Print Preview** page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
  The page settings that are used for the printed report depend on the mode in which you print the report.  
   
  You can use the following modes to print a report:  
   
--   Run a report that has the [UseRequestPage Property](../dynamics-nav/UseRequestPage-Property.md) set to **No**, and therefore, does not display a request page.  
+-   Run a report that has the [UseRequestPage Property](UseRequestPage-Property.md) set to **No**, and therefore, does not display a request page.  
   
 -   Print a report from the request page without previewing the report.  
   
@@ -34,7 +34,7 @@ You can specify page settings and page orientation for a printed report from the
     > [!NOTE]  
     >  The printer that you use determines what to do if the actual paper size in the printer differs from the page size that is specified.  
   
- With [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], from the print preview, you can only print to a local printer. To print from the print preview, you must the install a client\-side component. For more information, see [Printing Reports from ReportViewer](http://go.microsoft.com/fwlink/?LinkId=225474).  
+ With [!INCLUDE[nav_web](includes/nav_web_md.md)], from the print preview, you can only print to a local printer. To print from the print preview, you must the install a client\-side component. For more information, see [Printing Reports from ReportViewer](http://go.microsoft.com/fwlink/?LinkId=225474).  
   
 ## Specifying Page Settings and Orientation  
  The following table describes how you access each of the dialog boxes in which you can specify page settings and orientation.  
@@ -81,4 +81,4 @@ You can specify page settings and page orientation for a printed report from the
 ## See Also  
  [How to: Specify Printer Selection for Reports](../Topic/How%20to:%20Specify%20Printer%20Selection%20for%20Reports.md)   
  [How to: Verify the Paper Size](../Topic/How%20to:%20Verify%20the%20Paper%20Size.md)   
- [Printing Reports from a Background Session](../dynamics-nav/Printing-Reports-from-a-Background-Session.md)
+ [Printing Reports from a Background Session](Printing-Reports-from-a-Background-Session.md)

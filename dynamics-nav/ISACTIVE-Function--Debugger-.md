@@ -33,5 +33,5 @@ Ok := ISACTIVE
 -   Waiting to attach to a session.  
   
 ## See Also  
- [Activating the Debugger](../dynamics-nav/Activating-the-Debugger.md)   
+ [Activating the Debugger](Activating-the-Debugger.md)   
  [How to: Activate the Debugger from the Development Environment](../Topic/How%20to:%20Activate%20the%20Debugger%20from%20the%20Development%20Environment.md)

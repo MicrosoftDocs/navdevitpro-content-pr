@@ -27,7 +27,7 @@ A C\/AL statement is a code instruction that when it is executed, causes operati
   
 -   Keywords  
   
- For more information about constants, variables, operators, functions, and keywords, see [Elements of C\-AL Expressions](../dynamics-nav/Elements-of-C-AL-Expressions.md).  
+ For more information about constants, variables, operators, functions, and keywords, see [Elements of C\-AL Expressions](Elements-of-C-AL-Expressions.md).  
   
 ## Example 1  
  For this example, consider the following C\/AL code.  
@@ -38,7 +38,7 @@ Amount := 34 + Total;
   
  This line of code is also called a statement. The following table illustrates how the statement can be broken into smaller elements.  
   
-|Element|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|Element|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-------------|---------------------------------------|  
 |34 \+ Total|An expression.<br /><br /> This expression consists of an arithmetic operator \(\+\) and two arguments \(34 and Total\), which could also be called sub\-expressions.<br /><br /> Every valid C\/AL expression can be evaluated to a specific value.|  
 |:\=|The assignment operator.<br /><br /> When the expression on the right side has been evaluated, this operator is used to assign or store the value in the variable on the left side.|  
@@ -56,7 +56,7 @@ Date := DMY2DATE(31, 12, 2001);
 ## Typical Expressions  
  Depending on the elements in the expression, the evaluation gives you a value with a C\/AL data type. The following table shows some typical expressions.  
   
-|Expression|Evaluates to|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|Expression|Evaluates to|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |----------------|------------------|---------------------------------------|  
 |'Welcome to Hawaii'|The string 'Welcome to Hawaii'|Evaluates to itself.|  
 |'Welcome ' \+ 'to Hawaii'|The string 'Welcome to Hawaii'|Evaluates to a concatenation of the two strings.|  
@@ -64,4 +64,4 @@ Date := DMY2DATE(31, 12, 2001);
 |ABS\(\-7234\)|The number 7234|A function that evaluates to a number.|  
 |len1 \< 618|TRUE or FALSE, depending on the value of len1|A comparison between a variable and a numeric constant, which evaluates to a Boolean value.|  
   
- These examples show that when C\/AL expressions are evaluated, the results have a specific data type. For more information about data types, see [C\-AL Data Types](../dynamics-nav/C-AL-Data-Types.md).
+ These examples show that when C\/AL expressions are evaluated, the results have a specific data type. For more information about data types, see [C\-AL Data Types](C-AL-Data-Types.md).

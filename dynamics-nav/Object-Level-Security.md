@@ -11,13 +11,13 @@ caps.latest.revision: 17
 manager: pchapman
 ---
 # Object-Level Security
-When you open a company in [!INCLUDE[nav_current_short](../dynamics-nav/includes/nav_current_short_md.md)], your ability to access information is determined by the security system.  
+When you open a company in [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)], your ability to access information is determined by the security system.  
   
 ## Object\-Level Security  
- Object\-level security is the set of permissions on [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] objects that constitute a permission set. Permission sets determine the access that users have and the tasks that users can perform on objects in the database.  
+ Object\-level security is the set of permissions on [!INCLUDE[navnow](includes/navnow_md.md)] objects that constitute a permission set. Permission sets determine the access that users have and the tasks that users can perform on objects in the database.  
   
 ### Security System Database Objects  
- You can define permissions for all types of objects in a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database.  
+ You can define permissions for all types of objects in a [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
 |Object Type|Description|  
 |-----------------|-----------------|  
@@ -31,9 +31,9 @@ When you open a company in [!INCLUDE[nav_current_short](../dynamics-nav/includes
 |Query|The object that you use to specify a dataset from the database.|  
 |System|The system tables in the database that allow the user to make backups, change license files, and so on.|  
   
- The various permission sets that exist in [!INCLUDE[nav_current_short](../dynamics-nav/includes/nav_current_short_md.md)] determine the actions that you can perform on these objects. For more information about permissions, see [Permissions on Database Objects](../dynamics-nav/Permissions-on-Database-Objects.md).  
+ The various permission sets that exist in [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] determine the actions that you can perform on these objects. For more information about permissions, see [Permissions on Database Objects](Permissions-on-Database-Objects.md).  
   
 ## See Also  
- [Data Security](../dynamics-nav/Data-Security.md)   
- [Business Areas and Granules](../dynamics-nav/Business-Areas-and-Granules.md)   
- [Permissions on Database Objects](../dynamics-nav/Permissions-on-Database-Objects.md)
+ [Data Security](Data-Security.md)   
+ [Business Areas and Granules](Business-Areas-and-Granules.md)   
+ [Permissions on Database Objects](Permissions-on-Database-Objects.md)

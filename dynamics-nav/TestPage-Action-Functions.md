@@ -11,7 +11,7 @@ caps.latest.revision: 4
 manager: terryaus
 ---
 # TestPage Action Functions
-Access page actions by using the dot notation and the [INVOKE Function \(TestPage Action\)](../dynamics-nav/INVOKE-Function--TestPage-Action-.md).  
+Access page actions by using the dot notation and the [INVOKE Function \(TestPage Action\)](INVOKE-Function--TestPage-Action-.md).  
   
 ## See Also  
- [Test Pages](../dynamics-nav/Test-Pages.md)
+ [Test Pages](Test-Pages.md)

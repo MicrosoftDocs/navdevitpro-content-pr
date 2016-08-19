@@ -11,7 +11,7 @@ caps.latest.revision: 18
 manager: edupont
 ---
 # SAVEASHTML Function (Report)
-Saves a report as an HTML file. The file is saved on the computer where the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance is running, and then downloaded to the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] client when ready.  
+Saves a report as an HTML file. The file is saved on the computer where the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is running, and then downloaded to the [!INCLUDE[navnow](includes/navnow_md.md)] client when ready.  
   
 > [!IMPORTANT]  
 >  This function is only supported when a report uses a Word report layout when it is run.  
@@ -35,7 +35,7 @@ Saves a report as an HTML file. The file is saved on the computer where the [!IN
   
  The folder path and name of the file that you want to save the report as.  
   
- The path must already exist and the service \(login\) account that is used by the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance must have permission to write to the target folder. Otherwise, you will get errors.  
+ The path must already exist and the service \(login\) account that is used by the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must have permission to write to the target folder. Otherwise, you will get errors.  
   
  *Record*  
  Type: Record  
@@ -68,4 +68,4 @@ Saves a report as an HTML file. The file is saved on the computer where the [!IN
  Reports that use an RDLC layout when run cannot be saved in the HTML format. A runtime error will occur if SAVEASHTML is used on an RDLC report.  
   
 ## See Also  
- [Report Data Type](../dynamics-nav/Report-Data-Type.md)
+ [Report Data Type](Report-Data-Type.md)

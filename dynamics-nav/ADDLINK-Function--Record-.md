@@ -39,7 +39,7 @@ Adds a link to a record.
 ## Remarks  
  When you add a link to a page or a table, an entry is created in the **Record Link** system table. Each entry is given an ID.  
   
- The URL can be a link to a website, a file stored on the local computer or on a remote computer, or a link to a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] page.  
+ The URL can be a link to a website, a file stored on the local computer or on a remote computer, or a link to a [!INCLUDE[navnow](includes/navnow_md.md)] page.  
   
 ## Example  
  In this example, you get the customer record that has a primary key number of 15000 and then add the specified URL to the **Record Link** table for that customer. You can then view the link in the **Links** FactBox on the Customer list or Customer card pages. This example requires that you create the following variables.  
@@ -55,4 +55,4 @@ ID := Customer.ADDLINK('www.northwindtraders.com','Northwind Traders');
 ```  
   
 ## See Also  
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [Record Data Type](Record-Data-Type.md)

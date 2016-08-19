@@ -33,4 +33,4 @@ Enables the debugger to skip code that is inside system triggers.
  If you omit this optional return value and if the break is not set successfully, then a run\-time error occurs. If you include the return value, then you must handle any errors.  
   
 ## See Also  
- [Debugger](../dynamics-nav/Debugger.md)
+ [Debugger](Debugger.md)

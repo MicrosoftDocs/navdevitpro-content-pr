@@ -32,10 +32,10 @@ Caption := RecordRef.CAPTION
  The caption of the table.  
   
 ## Remarks  
- This function works just like the [TABLECAPTION Function \(Record\)](../dynamics-nav/TABLECAPTION-Function--Record-.md).  
+ This function works just like the [TABLECAPTION Function \(Record\)](TABLECAPTION-Function--Record-.md).  
   
 ## Example  
- The following example selects tables 3 through 5 and opens each table as a RecordRef variable that is named MyRecordRef. The CAPTION function uses the RecorRef variable to retrieve the caption for each of the tables and displays the table number and the caption in a message box. The [CLOSE Function \(RecordRef\)](../dynamics-nav/CLOSE-Function--RecordRef-.md) closes the table. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example selects tables 3 through 5 and opens each table as a RecordRef variable that is named MyRecordRef. The CAPTION function uses the RecorRef variable to retrieve the caption for each of the tables and displays the table number and the caption in a message box. The [CLOSE Function \(RecordRef\)](CLOSE-Function--RecordRef-.md) closes the table. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -65,4 +65,4 @@ END;
  **Table No: 5   Caption: Finance Charge Terms**  
   
 ## See Also  
- [RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md)
+ [RecordRef Data Type](RecordRef-Data-Type.md)

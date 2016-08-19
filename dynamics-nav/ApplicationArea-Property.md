@@ -39,4 +39,4 @@ Sets the application areas that apply to the control.
 >  Currently, this property is intended for the application areas that are defined in **table 9178 Application Ares Setup**. You can define your own application areas but the implementation might change in future release.  
   
 ## See Also  
- [APPLICATIONAREA Function](../dynamics-nav/APPLICATIONAREA-Function.md)
+ [APPLICATIONAREA Function](APPLICATIONAREA-Function.md)

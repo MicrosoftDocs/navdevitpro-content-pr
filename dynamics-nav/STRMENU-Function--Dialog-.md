@@ -24,7 +24,7 @@ OptionNumber := Dialog.STRMENU(OptionString [, DefaultNumber] [, Instruction])
  *OptionString*  
  Type: Code or text constant  
   
- A comma\-separated string. Each substring in *OptionString* specifies an option on the menu. The string can be a text constant that is enabled for multilanguage functionality. For more information, see [Multilanguage Development](../dynamics-nav/Multilanguage-Development.md).  
+ A comma\-separated string. Each substring in *OptionString* specifies an option on the menu. The string can be a text constant that is enabled for multilanguage functionality. For more information, see [Multilanguage Development](Multilanguage-Development.md).  
   
  *DefaultNumber*  
  Type: Integer  
@@ -83,4 +83,4 @@ MESSAGE(Text001, Selected);
  **You selected option 3.**  
   
 ## See Also  
- [Dialog Data Type](../dynamics-nav/Dialog-Data-Type.md)
+ [Dialog Data Type](Dialog-Data-Type.md)

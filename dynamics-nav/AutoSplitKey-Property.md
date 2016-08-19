@@ -25,7 +25,7 @@ Sets whether a key is automatically created for a new record placed between the 
   
 -   The current key must be the primary key.  
   
--   The last field in the primary field must be an [Integer Data Type](../dynamics-nav/Integer-Data-Type.md), [BigInteger Data Type](../dynamics-nav/BigInteger-Data-Type.md), [GUID Data Type](../dynamics-nav/GUID-Data-Type.md), or [Decimal Data Type](../dynamics-nav/Decimal-Data-Type.md) field.  
+-   The last field in the primary field must be an [Integer Data Type](Integer-Data-Type.md), [BigInteger Data Type](BigInteger-Data-Type.md), [GUID Data Type](GUID-Data-Type.md), or [Decimal Data Type](Decimal-Data-Type.md) field.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

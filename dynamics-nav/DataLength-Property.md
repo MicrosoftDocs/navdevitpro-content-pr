@@ -17,10 +17,10 @@ Sets the maximum length of data stored in this field.
  Fields  
   
 ## Remarks  
- For [Text Data Type](../dynamics-nav/Text-Data-Type.md) and [Code Data Type](../dynamics-nav/Code-Data-Type.md) fields, enter the maximum length of the field. The database only stores the actual content of the field—not the maximum length you specify.  
+ For [Text Data Type](Text-Data-Type.md) and [Code Data Type](Code-Data-Type.md) fields, enter the maximum length of the field. The database only stores the actual content of the field—not the maximum length you specify.  
   
  This field does not apply to the other data types because they have fixed lengths.  
   
 ## See Also  
- [Text Data Type](../dynamics-nav/Text-Data-Type.md)   
- [Code Data Type](../dynamics-nav/Code-Data-Type.md)
+ [Text Data Type](Text-Data-Type.md)   
+ [Code Data Type](Code-Data-Type.md)

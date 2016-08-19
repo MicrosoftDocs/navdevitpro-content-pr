@@ -27,6 +27,6 @@ Executes a function call and then stops at the first line outside the function c
  If you omit this optional return value and if the break is not set successfully, then a run\-time error occurs. If you include the return value, then you must handle any errors.  
   
 ## See Also  
- [Breakpoints](../dynamics-nav/Breakpoints.md)   
- [STEPINTO Function \(Debugger\)](../dynamics-nav/STEPINTO-Function--Debugger-.md)   
- [STEPOUT Function \(Debugger\)](../dynamics-nav/STEPOUT-Function--Debugger-.md)
+ [Breakpoints](Breakpoints.md)   
+ [STEPINTO Function \(Debugger\)](STEPINTO-Function--Debugger-.md)   
+ [STEPOUT Function \(Debugger\)](STEPOUT-Function--Debugger-.md)

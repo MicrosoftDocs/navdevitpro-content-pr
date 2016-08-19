@@ -13,13 +13,13 @@ manager: terryaus
 # How to: Create an Activity Button and Page Links in the Navigation Pane
 An activity button in the navigation pane displays a menu of links to additional pages in the RoleTailored client. The following illustration shows activity buttons in the navigation pane.  
   
- ![Navigation pane clip that shows Activity buttons](../dynamics-nav/media/NAV_ADG_NavigationPane_ActivityButtons.jpg "NAV\_ADG\_NavigationPane\_ActivityButtons")  
+ ![Navigation pane clip that shows Activity buttons](media/NAV_ADG_NavigationPane_ActivityButtons.jpg "NAV\_ADG\_NavigationPane\_ActivityButtons")  
   
- You create activity buttons and page links for the navigation pane by adding actions on the page that defines the Role Center. For more information, see [Creating Activity Buttons for the Navigation Pane](../dynamics-nav/Creating-Activity-Buttons-for-the-Navigation-Pane.md).  
+ You create activity buttons and page links for the navigation pane by adding actions on the page that defines the Role Center. For more information, see [Creating Activity Buttons for the Navigation Pane](Creating-Activity-Buttons-for-the-Navigation-Pane.md).  
   
 ### To create an activity button for the navigation pane  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **Page**, select the Role Center page, and then choose **Design** to open Page Designer.  
   
@@ -71,7 +71,7 @@ An activity button in the navigation pane displays a menu of links to additional
 >  If the RoleTailored client is currently open, you will not see your changes until you close and restart.  
   
 ## See Also  
- [Creating Activity Buttons for the Navigation Pane](../dynamics-nav/Creating-Activity-Buttons-for-the-Navigation-Pane.md)   
- [Adding Actions to Pages](../dynamics-nav/Adding-Actions-to-Pages.md)   
+ [Creating Activity Buttons for the Navigation Pane](Creating-Activity-Buttons-for-the-Navigation-Pane.md)   
+ [Adding Actions to Pages](Adding-Actions-to-Pages.md)   
  [Walkthrough: Creating a Role Center](../Topic/Walkthrough:%20Creating%20a%20Role%20Center.md)   
- [Pages](../dynamics-nav/Pages.md)
+ [Pages](Pages.md)

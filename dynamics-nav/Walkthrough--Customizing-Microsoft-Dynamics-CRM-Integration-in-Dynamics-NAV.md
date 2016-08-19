@@ -11,77 +11,77 @@ caps.latest.revision: 12
 manager: edupont
 ---
 # Walkthrough: Customizing Microsoft Dynamics CRM Integration in Dynamics NAV
-This walkthrough introduces customizing the integration of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] and [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)]. The walkthrough will guide you through setting up integration of campaigns in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] and campaigns in [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)].  
+This walkthrough introduces customizing the integration of [!INCLUDE[navnow](includes/navnow_md.md)] and [!INCLUDE[crm](includes/crm_md.md)]. The walkthrough will guide you through setting up integration of campaigns in [!INCLUDE[navnow](includes/navnow_md.md)] and campaigns in [!INCLUDE[crm](includes/crm_md.md)].  
   
- The customization in this walkthrough is done entirely in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], and does not describe how to modify your [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] solution, such as adding or modify entities and forms.  
+ The customization in this walkthrough is done entirely in [!INCLUDE[navnow](includes/navnow_md.md)], and does not describe how to modify your [!INCLUDE[crm](includes/crm_md.md)] solution, such as adding or modify entities and forms.  
   
 ## Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)], including the following:  
+-   [!INCLUDE[crm](includes/crm_md.md)], including the following:  
   
     -   Campaign entity.  
   
-    -   URL of the [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] Server.  
+    -   URL of the [!INCLUDE[crm](includes/crm_md.md)] Server.  
   
     -   User name and password of a user account that has full permissions to add and modify entities.  
   
--   [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], including the following:  
+-   [!INCLUDE[navnow](includes/navnow_md.md)], including the following:  
   
-    -   [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+    -   [!INCLUDE[demolong](includes/demolong_md.md)].  
   
-    -   [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] integration enabled, including the default synchronization setup and a working connection from [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] to [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)].  
+    -   [!INCLUDE[crm](includes/crm_md.md)] integration enabled, including the default synchronization setup and a working connection from [!INCLUDE[navnow](includes/navnow_md.md)] to [!INCLUDE[crm](includes/crm_md.md)].  
   
          For more information, see [How to: Set Up a Microsoft Dynamics CRM Connection](../Topic/How%20to:%20Set%20Up%20a%20Microsoft%20Dynamics%20CRM%20Connection.md).  
   
-    -   [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)].  
+    -   [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
   
-    -   [!INCLUDE[nav_dev_shell](../dynamics-nav/includes/nav_dev_shell_md.md)].  
+    -   [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)].  
   
 ## About This Walkthrough  
  This walkthrough illustrates the following tasks:  
   
--   Creating an integration table object in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] for mapping a [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] entity to a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] record type \(table\).  
+-   Creating an integration table object in [!INCLUDE[navnow](includes/navnow_md.md)] for mapping a [!INCLUDE[crm](includes/crm_md.md)] entity to a [!INCLUDE[navnow](includes/navnow_md.md)] record type \(table\).  
   
--   Using a [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] integration table as source of a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] page to display [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] entity records.  
+-   Using a [!INCLUDE[crm](includes/crm_md.md)] integration table as source of a [!INCLUDE[navnow](includes/navnow_md.md)] page to display [!INCLUDE[crm](includes/crm_md.md)] entity records.  
   
--   Creating a page for coupling [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] entity records to [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] table records.  
+-   Creating a page for coupling [!INCLUDE[crm](includes/crm_md.md)] entity records to [!INCLUDE[navnow](includes/navnow_md.md)] table records.  
   
--   Creating an integration table and field mappings between a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] table and an integration table for [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] entity.  
+-   Creating an integration table and field mappings between a [!INCLUDE[navnow](includes/navnow_md.md)] table and an integration table for [!INCLUDE[crm](includes/crm_md.md)] entity.  
   
--   Using events to develop custom code to transform data when synchronizing between [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] and [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)].  
+-   Using events to develop custom code to transform data when synchronizing between [!INCLUDE[navnow](includes/navnow_md.md)] and [!INCLUDE[crm](includes/crm_md.md)].  
   
 ## Creating an Integration Table in Dynamics NAV for the Dynamics CRM Entity  
- To integrate data from [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] entity into [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], you must create a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] table object that is based on the [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] entity, and then import the new table into the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database. For this walkthrough, you will create a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] table object for the [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)]**Campaign** entity. This table describes the schema of the [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] entity in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database. The table can contain all or some of the fields from the [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] entity. However, if you intend to write back to [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)], you should include all fields in the table.  
+ To integrate data from [!INCLUDE[crm](includes/crm_md.md)] entity into [!INCLUDE[navnow](includes/navnow_md.md)], you must create a [!INCLUDE[navnow](includes/navnow_md.md)] table object that is based on the [!INCLUDE[crm](includes/crm_md.md)] entity, and then import the new table into the [!INCLUDE[navnow](includes/navnow_md.md)] database. For this walkthrough, you will create a [!INCLUDE[navnow](includes/navnow_md.md)] table object for the [!INCLUDE[crm](includes/crm_md.md)]**Campaign** entity. This table describes the schema of the [!INCLUDE[crm](includes/crm_md.md)] entity in [!INCLUDE[navnow](includes/navnow_md.md)] database. The table can contain all or some of the fields from the [!INCLUDE[crm](includes/crm_md.md)] entity. However, if you intend to write back to [!INCLUDE[crm](includes/crm_md.md)], you should include all fields in the table.  
   
- Apart from creating a table object for the entity, you must also create a table object for any relationships that the entity has. For example, the **Campaign** entity has a relationship to the **ModifiedOn** and **CreatedBy** fields of the **Systemuser** entity. Therefore, you will also have to create a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] table for this entity as well. However, the default [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] integration in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] already includes the integration table **5340 CRM Systemuser** for the **Systemuser** entity. Therefore, you will only have to create the table object for the **Systemuser** entity to establish the relationships; you do not have to import this table into the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database.  
+ Apart from creating a table object for the entity, you must also create a table object for any relationships that the entity has. For example, the **Campaign** entity has a relationship to the **ModifiedOn** and **CreatedBy** fields of the **Systemuser** entity. Therefore, you will also have to create a [!INCLUDE[navnow](includes/navnow_md.md)] table for this entity as well. However, the default [!INCLUDE[crm](includes/crm_md.md)] integration in [!INCLUDE[navnow](includes/navnow_md.md)] already includes the integration table **5340 CRM Systemuser** for the **Systemuser** entity. Therefore, you will only have to create the table object for the **Systemuser** entity to establish the relationships; you do not have to import this table into the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
-#### To create the integration table for the [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] Campaign entity  
+#### To create the integration table for the [!INCLUDE[crm](includes/crm_md.md)] Campaign entity  
   
-1.  Open the [!INCLUDE[nav_dev_shell](../dynamics-nav/includes/nav_dev_shell_md.md)].  
+1.  Open the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)].  
   
-2.  At the command prompt, run the New\-NAVCrmTable cmdlet as shown in the following example. Include parameters that specify the [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] Server URL, the logical names of the [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)]**Systemuser** and **Campaign** entities, the ID and name of the corresponding business data table objects in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], and the path in which to store the generated text files for the table objects.  
+2.  At the command prompt, run the New\-NAVCrmTable cmdlet as shown in the following example. Include parameters that specify the [!INCLUDE[crm](includes/crm_md.md)] Server URL, the logical names of the [!INCLUDE[crm](includes/crm_md.md)]**Systemuser** and **Campaign** entities, the ID and name of the corresponding business data table objects in [!INCLUDE[navnow](includes/navnow_md.md)], and the path in which to store the generated text files for the table objects.  
   
     ```  
     New-NAVCRMTable – CRMServer MyOrg.Crm4.Dynamics.Com –EntityLogicalName systemuser,campaign –ObjectId 5340,50001 –Name “CRM Systemuser”,“CRM Campaign” –OutputPath c:\CRMObjects  
     ```  
   
-     Replace *CRMServerMyOrg.Crm4.Dynamics.Com* with the URL to your [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] Server. Replace *c:\\CRMObjects* with the path on your computer or network where you want to save the .txt files for the created tables.  
+     Replace *CRMServerMyOrg.Crm4.Dynamics.Com* with the URL to your [!INCLUDE[crm](includes/crm_md.md)] Server. Replace *c:\\CRMObjects* with the path on your computer or network where you want to save the .txt files for the created tables.  
   
-3.  When prompted, enter credentials of the [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] user account.  
+3.  When prompted, enter credentials of the [!INCLUDE[crm](includes/crm_md.md)] user account.  
   
-     The process for creating the tables starts. When the process is completed, the output path contains the files TAB5342.txt and TAB50001.txt. The TAB50001.txt contains the description of the integration table **50001 CRM Campaign**. These tables are set to the type **CRM**, as specified by the [TableType Property](../dynamics-nav/TableType-Property.md).  
+     The process for creating the tables starts. When the process is completed, the output path contains the files TAB5342.txt and TAB50001.txt. The TAB50001.txt contains the description of the integration table **50001 CRM Campaign**. These tables are set to the type **CRM**, as specified by the [TableType Property](TableType-Property.md).  
   
-4.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], import the TAB50001.txt into the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database to add the integration table **50001 CRM Campaign**, and then compile the new object.  
+4.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], import the TAB50001.txt into the [!INCLUDE[navnow](includes/navnow_md.md)] database to add the integration table **50001 CRM Campaign**, and then compile the new object.  
   
-     You can compile the object by using the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)] or by using finsql.exe. For more information, see [Importing and Exporting Objects](../dynamics-nav/Importing-and-Exporting-Objects.md).  
+     You can compile the object by using the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or by using finsql.exe. For more information, see [Importing and Exporting Objects](Importing-and-Exporting-Objects.md).  
   
 ## Creating a Page for Displaying Dynamics CRM Data  
- For scenarios where you want to view BROKEN-INCLUDE-crm](../dynamics-nav/includes/crm_md.md)] data for a specific entity, you can create a page object that uses the integration table for the [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] entity as its source. For example, you might want to have a page that displays a list of the current records in a [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] entity. In this walkthrough, you will create a list page that uses table [!INCLUDE[50001 CRM Campaigns as its source.  
+ For scenarios where you want to view BROKEN-INCLUDE-crm](includes/crm_md.md)] data for a specific entity, you can create a page object that uses the integration table for the [!INCLUDE[crm](includes/crm_md.md)] entity as its source. For example, you might want to have a page that displays a list of the current records in a [!INCLUDE[crm](includes/crm_md.md)] entity. In this walkthrough, you will create a list page that uses table [!INCLUDE[50001 CRM Campaigns as its source.  
   
 #### To create a list page to display Dynamics CRM campaigns  
   
-1.  In [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], add a new List page.  
+1.  In [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], add a new List page.  
   
 2.  Set the source table to the integration table **50001 CRM Campaign**.  
   
@@ -89,18 +89,18 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](../
   
 4.  Save and compile the page. For purposes of this walkthrough, give the page the name **CRM Campaign List** and ID **50001**.  
   
-5.  Run the page to view the [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] campaign list.  
+5.  Run the page to view the [!INCLUDE[crm](includes/crm_md.md)] campaign list.  
   
 ## Enabling Coupling between Dynamics CRM Campaigns and Dynamics NAV Campaigns  
  To establish a relationship between a Dynamics NAV table record and a Dynamics CRM entity record, you create a coupling. A coupling consists of the primary ID \(typically a GUID\) from Dynamics CRM record and the Integration ID \(GUID\) from Dynamics NAV.  
   
- To enable users to create couplings between records in the two systems, you implement a coupling page in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] for the [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] entity. The coupling page provides the user interface that users can use to couple a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] record to a [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] record. The default [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] integration includes several coupling pages. To create a coupling page for [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] Campaigns, you will use page **5241 CRM Coupling Customer** and adapt it the campaign integration. The coupling page that you set up will use the integration table **50001 CRM Campaign** to retrieve campaign data from [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)]. It will use page **50001 CRM Campaign List** that you created previously to display a list of the campaigns from which to choose.  
+ To enable users to create couplings between records in the two systems, you implement a coupling page in [!INCLUDE[navnow](includes/navnow_md.md)] for the [!INCLUDE[crm](includes/crm_md.md)] entity. The coupling page provides the user interface that users can use to couple a [!INCLUDE[navnow](includes/navnow_md.md)] record to a [!INCLUDE[crm](includes/crm_md.md)] record. The default [!INCLUDE[crm](includes/crm_md.md)] integration includes several coupling pages. To create a coupling page for [!INCLUDE[crm](includes/crm_md.md)] Campaigns, you will use page **5241 CRM Coupling Customer** and adapt it the campaign integration. The coupling page that you set up will use the integration table **50001 CRM Campaign** to retrieve campaign data from [!INCLUDE[crm](includes/crm_md.md)]. It will use page **50001 CRM Campaign List** that you created previously to display a list of the campaigns from which to choose.  
   
- Before you create the coupling page, you must enable integration records for [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] table that will be used for integration with [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)], in this case, table **5071 Campaign**. After you create the coupling page, you will add actions on the campaign card and list pages that open the coupling page. You will also have to modify codeunit **5331 CRM Coupling Management**.  
+ Before you create the coupling page, you must enable integration records for [!INCLUDE[navnow](includes/navnow_md.md)] table that will be used for integration with [!INCLUDE[crm](includes/crm_md.md)], in this case, table **5071 Campaign**. After you create the coupling page, you will add actions on the campaign card and list pages that open the coupling page. You will also have to modify codeunit **5331 CRM Coupling Management**.  
   
 #### To enable integration records on the Dynamics NAV Campaign table  
   
-1.  In [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], open codeunit **5150 Integration Management**.  
+1.  In [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], open codeunit **5150 Integration Management**.  
   
 2.  In the **IsIntegrationRecord** trigger, add the code `DATABASE::Campaign` to the database list as illustrated in the following code example:  
   
@@ -120,15 +120,15 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](../
     InitializeIntegrationRecords(DATABASE::Campaign);  
     ```  
   
-4.  Restart the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance.  
+4.  Restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
   
      For more information, see [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](../Topic/How%20to:%20Start,%20Stop,%20Restart,%20or%20Remove%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).  
   
- When changes occur in the table **5071 Campaign**, an integration record will be created or updated with a timestamp. You can now use the table to create a page for coupling [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] records with [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] records.  
+ When changes occur in the table **5071 Campaign**, an integration record will be created or updated with a timestamp. You can now use the table to create a page for coupling [!INCLUDE[navnow](includes/navnow_md.md)] records with [!INCLUDE[crm](includes/crm_md.md)] records.  
   
 #### To create coupling page for campaigns  
   
-1.  In [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], open the page **5241 CRM Coupling Customer** in Page Designer.  
+1.  In [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], open the page **5241 CRM Coupling Customer** in Page Designer.  
   
      Because the coupling pages contain a lot of logic in C\/AL code, you will use a copy of this page as a starting point for creating the coupling page for campaigns.  
   
@@ -136,7 +136,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](../
   
 3.  Change the page's source table to table **5071 Campaign**.  
   
-4.  Open the [\($ S\_10204 C\-AL Globals $\)](../dynamics-nav/-$-S_10204-C-AL-Globals-$-.md) window and change all variables, text constants, and functions that reference *CRM Account* to reference *CRM Campaign* instead. For record type variables, this means changing the name and setting the subtype to point to the integration table **50001 CRM Campaign**. The following table includes the required changes.  
+4.  Open the [\($ S\_10204 C\-AL Globals $\)](-$-S_10204-C-AL-Globals-$-.md) window and change all variables, text constants, and functions that reference *CRM Account* to reference *CRM Campaign* instead. For record type variables, this means changing the name and setting the subtype to point to the integration table **50001 CRM Campaign**. The following table includes the required changes.  
   
     ||Current setting|New setting|  
     |-|---------------------|-----------------|  
@@ -144,7 +144,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](../
     ||Name: OriginalCRMAccount<br /><br /> Subtype: CRM Account|Name: OriginalCRMCampaign<br /><br /> Subtype: CRM Campaign|  
     ||Name: OriginalCRMAccount<br /><br /> Subtype: CRM Account|Name: OriginalCRMCampaign<br /><br /> Subtype: CRM Campaign|  
     ||Name: SavedCRMAccount<br /><br /> Subtype: CRM Account|Name: SavedCRMCampaign<br /><br /> Subtype: CRM Campaign|  
-    |Text Constants|Name: NoSuchCRMRecordErr<br /><br /> ConstValue: Account with name %1 does not exist in [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)].|Name: NoSuchCRMRecordErr<br /><br /> ConstValue: Campaign with name %1 does not exist in [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)].|  
+    |Text Constants|Name: NoSuchCRMRecordErr<br /><br /> ConstValue: Account with name %1 does not exist in [!INCLUDE[crm](includes/crm_md.md)].|Name: NoSuchCRMRecordErr<br /><br /> ConstValue: Campaign with name %1 does not exist in [!INCLUDE[crm](includes/crm_md.md)].|  
     |Functions|Name: HandleNewCRMAccount|Name: HandleNewCRMCampaign|  
   
 5.  In Page Designer, follow these steps:  
@@ -153,11 +153,11 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](../
   
     2.  In the **Dynamics CRM** group, change the field that has the SourceExpr **CRMAccount.Name** to have the SourceExpr **CRMCampaign.Name**, and change its caption from **Account** to **Campaign**.  
   
-    3.  Rename the **Dynamics NAV Customer** group to **Dynamics NAV Campaign** and replace the fields in the group with fields from the Campaign table \(ID 5071\). These fields will help users compare the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] record and the [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] record.  
+    3.  Rename the **Dynamics NAV Customer** group to **Dynamics NAV Campaign** and replace the fields in the group with fields from the Campaign table \(ID 5071\). These fields will help users compare the [!INCLUDE[navnow](includes/navnow_md.md)] record and the [!INCLUDE[crm](includes/crm_md.md)] record.  
   
     4.  Rename the **Dynamics CRM Account** group to **Dynamics CRM Campaign** and replace the fields in the group with fields from the **CRMCampaign** variable that match fields in the **Dynamics NAV Campaign** group.  
   
-6.  Open the C\/AL code, and follow these steps to change all references to [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] accounts with references to [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] campaigns:  
+6.  Open the C\/AL code, and follow these steps to change all references to [!INCLUDE[crm](includes/crm_md.md)] accounts with references to [!INCLUDE[crm](includes/crm_md.md)] campaigns:  
   
     1.  Change the local variables on the following triggers. For record type variables, you change the name and set the subtype to point to the integration table **50001 CRM Campaign**.  
   
@@ -171,7 +171,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](../
   
     2.  Remove calls to **SetCurrentlyCoupledCRMAccount**.  
   
-         This function call is originally used for color\-coding the [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] Account list, but you will not implement color coding in this example.  
+         This function call is originally used for color\-coding the [!INCLUDE[crm](includes/crm_md.md)] Account list, but you will not implement color coding in this example.  
   
     3.  Replace all references to *CRMAccount* with references to *CRMCampaign*.  
   
@@ -179,7 +179,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](../
   
 7.  Save and compile the page.  
   
- The coupling page can now be used to create a link between a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] campaign record and a [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] campaign record. To give users access to this page, the next step is to add actions that open the coupling page from the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] campaign card page.  
+ The coupling page can now be used to create a link between a [!INCLUDE[navnow](includes/navnow_md.md)] campaign record and a [!INCLUDE[crm](includes/crm_md.md)] campaign record. To give users access to this page, the next step is to add actions that open the coupling page from the [!INCLUDE[navnow](includes/navnow_md.md)] campaign card page.  
   
 #### To create actions on the campaign page for managing the coupling  
   
@@ -241,9 +241,9 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](../
   
 4.  Save and compile the codeunit.  
   
- The coupling between [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Campaigns and [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] Campaigns is complete, and users can configure the coupling by using the new actions and coupling page.  
+ The coupling between [!INCLUDE[navnow](includes/navnow_md.md)] Campaigns and [!INCLUDE[crm](includes/crm_md.md)] Campaigns is complete, and users can configure the coupling by using the new actions and coupling page.  
   
- To enable users to open the [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] Campaign record from the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Campaign, the next step is to add an additional action to the Campaign Card page.  
+ To enable users to open the [!INCLUDE[crm](includes/crm_md.md)] Campaign record from the [!INCLUDE[navnow](includes/navnow_md.md)] Campaign, the next step is to add an additional action to the Campaign Card page.  
   
 #### To add actions to open the Dynamics CRM campaign record  
   
@@ -272,14 +272,14 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](../
   
 7.  Save and compile the codeunit.  
   
- The coupling and links between [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] Campaign records and [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Campaign records are now completed. Users can easily open the coupled [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] record directly from [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+ The coupling and links between [!INCLUDE[crm](includes/crm_md.md)] Campaign records and [!INCLUDE[navnow](includes/navnow_md.md)] Campaign records are now completed. Users can easily open the coupled [!INCLUDE[crm](includes/crm_md.md)] record directly from [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 ## Creating an Integration Table Mapping for Synchronizing Dynamics CRM Campaigns and Dynamics NAV Campaigns  
- For synchronization of data between [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] and [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] to work, mappings must exist to associate the table ID and fields of the integration table \(in this case table **50001 CRM Campaign**\) with the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] business data table \(in this case table **5081 Campaign**\). To accomplish this, you must create to types of mappings: *integration table mapping* and *integration field mapping*.  
+ For synchronization of data between [!INCLUDE[navnow](includes/navnow_md.md)] and [!INCLUDE[crm](includes/crm_md.md)] to work, mappings must exist to associate the table ID and fields of the integration table \(in this case table **50001 CRM Campaign**\) with the [!INCLUDE[navnow](includes/navnow_md.md)] business data table \(in this case table **5081 Campaign**\). To accomplish this, you must create to types of mappings: *integration table mapping* and *integration field mapping*.  
   
--   An integration table mapping links the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] business data table to the integration table for the [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] entity.  
+-   An integration table mapping links the [!INCLUDE[navnow](includes/navnow_md.md)] business data table to the integration table for the [!INCLUDE[crm](includes/crm_md.md)] entity.  
   
--   A field mapping associates a field in a [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] entity record with a field in a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] record. It basically determines which field in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] corresponds to which field in [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)]. You will typically have multiple field mappings for an entity.  
+-   A field mapping associates a field in a [!INCLUDE[crm](includes/crm_md.md)] entity record with a field in a [!INCLUDE[navnow](includes/navnow_md.md)] record. It basically determines which field in [!INCLUDE[navnow](includes/navnow_md.md)] corresponds to which field in [!INCLUDE[crm](includes/crm_md.md)]. You will typically have multiple field mappings for an entity.  
   
  You can create the integration table mapping directly in table **5335 Integration Table Mapping** and integration field mappings directly in table **5336 Integration Field Mappings** or you can add the mappings by modifying codeunit **5334 CRM Setup Defaults**. For a repeatable solution, we recommend that you integrate your changes in codeunit **5334 CRM Setup Defaults**.  
   
@@ -289,7 +289,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](../
   
     1.  Open the integration table **50001 CRM Campaign** in Table Designer, and then make a note the field numbers of the **CampaignId** and **ModifiedOn** fields. You will use these numbers later in this procedure.  
   
-    2.  From Object Designer in the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], run table **5335 Integration Table Mapping** to open it in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+    2.  From Object Designer in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], run table **5335 Integration Table Mapping** to open it in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
     3.  Add a new record and fill in the following fields:  
   
@@ -301,7 +301,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](../
         |Synch. Codeunit ID|5340 \(CRM Integration Table Synch.\)|  
         |Integration Table UID Fld. No.|\[The field number of the primary key field **CampaignId** in table **CRM Campaign**\)|  
         |Int. Tbl. Modified On Fld. No.|\[The field number of the **ModifiedOn** field in the integration table **CRM Campaign**\]|  
-        |Direction|Bidirectional \(synchronizes from [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] to [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] and from [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] to [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)]\).|  
+        |Direction|Bidirectional \(synchronizes from [!INCLUDE[navnow](includes/navnow_md.md)] to [!INCLUDE[crm](includes/crm_md.md)] and from [!INCLUDE[crm](includes/crm_md.md)] to [!INCLUDE[navnow](includes/navnow_md.md)]\).|  
   
 -   To add an integration table mapping in codeunit **5334 CRM Setup Defaults**, follow these steps:  
   
@@ -335,13 +335,13 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](../
   
         ```  
   
- For each integration table mapping entry, there must be integration field mapping entries to map the individual fields of the records in the business table and integration table. The next step is to add integration field mappings for each field in the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Campaign table that you want to map to the [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] Campaign entity.  
+ For each integration table mapping entry, there must be integration field mapping entries to map the individual fields of the records in the business table and integration table. The next step is to add integration field mappings for each field in the [!INCLUDE[navnow](includes/navnow_md.md)] Campaign table that you want to map to the [!INCLUDE[crm](includes/crm_md.md)] Campaign entity.  
   
 #### To create Integration Fields Mappings  
   
 -   To create an integration field mapping directly in table **5336 Integration Field Mapping**, follow these steps:  
   
-    1.  From Object Designer, run table **5336 Integration Field Mapping** to open it in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+    1.  From Object Designer, run table **5336 Integration Field Mapping** to open it in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
     2.  Add a new record and fill in the following fields:  
   
@@ -376,9 +376,9 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](../
   
          Repeat this step for all fields that you want to map.  
   
-    3.  After you make the changes to the CRM Setup Defaults, you can update the mappings by running the **[!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] Connection Setup** page and choosing **Use Default Synchronization Setup**.  
+    3.  After you make the changes to the CRM Setup Defaults, you can update the mappings by running the **[!INCLUDE[crm](includes/crm_md.md)] Connection Setup** page and choosing **Use Default Synchronization Setup**.  
   
- The next step is to add an action on page **5086  Campaign Card** that lets users to manually synchronize data between coupled campaign records in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] and [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)].  
+ The next step is to add an action on page **5086  Campaign Card** that lets users to manually synchronize data between coupled campaign records in [!INCLUDE[navnow](includes/navnow_md.md)] and [!INCLUDE[crm](includes/crm_md.md)].  
   
 #### To add an action for manual synchronization  
   
@@ -394,10 +394,10 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](../
   
 4.  Save and compile the page.  
   
- Users can now manually synchronize [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Campaign records with [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] Campaign entity records from the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] client.  
+ Users can now manually synchronize [!INCLUDE[navnow](includes/navnow_md.md)] Campaign records with [!INCLUDE[crm](includes/crm_md.md)] Campaign entity records from the [!INCLUDE[navnow](includes/navnow_md.md)] client.  
   
 > [!TIP]  
->  If you want to learn how to schedule the synchronization by using a job queue entry, examine the code on the **RecreateJobQueueEntry** function in codeunit **5330 CRM Integration Management** and see how it is called by the integration code for other [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] entities in the codeunit.  
+>  If you want to learn how to schedule the synchronization by using a job queue entry, examine the code on the **RecreateJobQueueEntry** function in codeunit **5330 CRM Integration Management** and see how it is called by the integration code for other [!INCLUDE[crm](includes/crm_md.md)] entities in the codeunit.  
   
 ## Customizing Synchronization  
  When synchronizing data, some entities may require custom code to successfully synchronize data. Other entities might require the initialization of fields, the validation of relationships, or the transformation of data.  
@@ -406,7 +406,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](../
   
 |Event|Description|  
 |-----------|-----------------|  
-|OnFindUnCoupledDestinationRecord|Occurs when the process tries to synchronize an uncoupled record \(new record\). Use this event to implement custom resolution algorithms for automatic mapping between records. For example, you can use this event to automatically map records by fields. You can see an example in codeunit **5341 CRM Int. Table. Subscriber**, which includes the event subscriber function **CRMTransactionCurrencyFindUncoupledDestinationRecord**. The event is used to resolve [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] currency codes with ISO currency codes in [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)].|  
+|OnFindUnCoupledDestinationRecord|Occurs when the process tries to synchronize an uncoupled record \(new record\). Use this event to implement custom resolution algorithms for automatic mapping between records. For example, you can use this event to automatically map records by fields. You can see an example in codeunit **5341 CRM Int. Table. Subscriber**, which includes the event subscriber function **CRMTransactionCurrencyFindUncoupledDestinationRecord**. The event is used to resolve [!INCLUDE[navnow](includes/navnow_md.md)] currency codes with ISO currency codes in [!INCLUDE[crm](includes/crm_md.md)].|  
 |OnBeforeApplyRecordTemplate|Occurs before applying configuration templates to new records, and can be used to implement algorithms for determining what configuration template to use.|  
 |OnAfterApplyRecordTemplate|Occurs after configuration templates are applied to new records, and can be used to change data after configuration templates have been applied.|  
 |OnBeforeTransferRecordFields|Occurs before transferring data in modified fields \(which are defined in the Integration Field Mapping table\) from the source table to the destination table. It can be used to validate the source or destination before the data is moved.|  
@@ -416,13 +416,13 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](../
 |OnBeforeModifyRecord|Occurs before modifying an existing destination record, and can be used to validate\/change data before modification.|  
 |OnAfterModifyRecord|Occurs after an existing destination record is modified, and can be used to perform post\-modify operations such as updating related data.|  
   
- For the synchronization of campaigns, you will use an event to create a custom rule that sets the **Comment** field in a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] campaign to **TRUE** if the **Message** field in a [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] campaign has data. You do this by subscribing to the **OnAfterTransferRecordFields** event that is published by codeunit **5335 Integration Table Synch**.  
+ For the synchronization of campaigns, you will use an event to create a custom rule that sets the **Comment** field in a [!INCLUDE[navnow](includes/navnow_md.md)] campaign to **TRUE** if the **Message** field in a [!INCLUDE[crm](includes/crm_md.md)] campaign has data. You do this by subscribing to the **OnAfterTransferRecordFields** event that is published by codeunit **5335 Integration Table Synch**.  
   
- For more general information about how to subscribe to events, see [Subscribing to Events](../dynamics-nav/Subscribing-to-Events.md).  
+ For more general information about how to subscribe to events, see [Subscribing to Events](Subscribing-to-Events.md).  
   
 #### To subscribe to the Integration Table Synch. OnAfterTransferRecordFields event  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], create a new codeunit that has the ID **50001** and the name **Campaign Event Subscriptions**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], create a new codeunit that has the ID **50001** and the name **Campaign Event Subscriptions**.  
   
 2.  Add a new function that is called **UpdateCampaignOnAfterTransferRecordFields**.  
   
@@ -430,9 +430,9 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](../
   
     |Property|Value|  
     |--------------|-----------|  
-    |[Event Property](../dynamics-nav/Event-Property.md)|Subscriber|  
-    |[EventPublisherObject Property](../dynamics-nav/EventPublisherObject-Property.md)|Codeunit Int. Table. Synch. \(ID 5335\)|  
-    |[EventFunction Property](../dynamics-nav/EventFunction-Property.md)|OnAfterTransferRecordFields|  
+    |[Event Property](Event-Property.md)|Subscriber|  
+    |[EventPublisherObject Property](EventPublisherObject-Property.md)|Codeunit Int. Table. Synch. \(ID 5335\)|  
+    |[EventFunction Property](EventFunction-Property.md)|OnAfterTransferRecordFields|  
   
      When prompted about overwriting the functions signature, choose the **Yes** button.  
   
@@ -476,8 +476,8 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](../
   
 7.  Save and compile the codeunit.  
   
- When you choose **Synchronize Now** on the **Campaign** page, and then choose to synchronize from [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] to [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], the **Comment** field should be updated to indicate whether the **Message** field in the [!INCLUDE[crm](../dynamics-nav/includes/crm_md.md)] campaign has a value.  
+ When you choose **Synchronize Now** on the **Campaign** page, and then choose to synchronize from [!INCLUDE[crm](includes/crm_md.md)] to [!INCLUDE[navnow](includes/navnow_md.md)], the **Comment** field should be updated to indicate whether the **Message** field in the [!INCLUDE[crm](includes/crm_md.md)] campaign has a value.  
   
 ## See Also  
- [Customizing Dynamics CRM and Dynamics NAV Integration](../dynamics-nav/Customizing-Dynamics-CRM-and-Dynamics-NAV-Integration.md)   
- [Introduction to Dynamics CRM Integration Customization in Dynamics NAV](../dynamics-nav/Introduction-to-Dynamics-CRM-Integration-Customization-in-Dynamics-NAV.md)
+ [Customizing Dynamics CRM and Dynamics NAV Integration](Customizing-Dynamics-CRM-and-Dynamics-NAV-Integration.md)   
+ [Introduction to Dynamics CRM Integration Customization in Dynamics NAV](Introduction-to-Dynamics-CRM-Integration-Customization-in-Dynamics-NAV.md)

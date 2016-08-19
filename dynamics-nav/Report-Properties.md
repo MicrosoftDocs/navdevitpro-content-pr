@@ -16,114 +16,114 @@ This topic lists properties of the report object.
 ## Report Object Properties  
  The following properties apply to the report object.  
   
--   [Caption Property\-duplicate](../dynamics-nav/Caption-Property-duplicate.md)  
+-   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
   
--   [CaptionML Property](../dynamics-nav/CaptionML-Property.md)  
+-   [CaptionML Property](CaptionML-Property.md)  
   
--   [Description Property](../dynamics-nav/Description-Property.md)  
+-   [Description Property](Description-Property.md)  
   
--   [EnableExternalAssemblies Property](../dynamics-nav/EnableExternalAssemblies-Property.md)  
+-   [EnableExternalAssemblies Property](EnableExternalAssemblies-Property.md)  
   
--   [EnableExternalImages Property](../dynamics-nav/EnableExternalImages-Property.md)  
+-   [EnableExternalImages Property](EnableExternalImages-Property.md)  
   
--   [EnableHyperlinks Property](../dynamics-nav/EnableHyperlinks-Property.md)  
+-   [EnableHyperlinks Property](EnableHyperlinks-Property.md)  
   
--   [ID Property](../dynamics-nav/ID-Property.md)  
+-   [ID Property](ID-Property.md)  
   
--   [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md)  
+-   [Name Property\-duplicate](Name-Property-duplicate.md)  
   
--   [PaperSourceDefaultPage Property](../dynamics-nav/PaperSourceDefaultPage-Property.md)  
+-   [PaperSourceDefaultPage Property](PaperSourceDefaultPage-Property.md)  
   
--   [PaperSourceFirstPage Property](../dynamics-nav/PaperSourceFirstPage-Property.md)  
+-   [PaperSourceFirstPage Property](PaperSourceFirstPage-Property.md)  
   
--   [PaperSourceLastPage Property](../dynamics-nav/PaperSourceLastPage-Property.md)  
+-   [PaperSourceLastPage Property](PaperSourceLastPage-Property.md)  
   
--   [Permissions Property](../dynamics-nav/Permissions-Property.md)  
+-   [Permissions Property](Permissions-Property.md)  
   
--   [ProcessingOnly Property](../dynamics-nav/ProcessingOnly-Property.md)  
+-   [ProcessingOnly Property](ProcessingOnly-Property.md)  
   
--   [ShowPrintStatus Property](../dynamics-nav/ShowPrintStatus-Property.md)  
+-   [ShowPrintStatus Property](ShowPrintStatus-Property.md)  
   
--   [TransactionType Property](../dynamics-nav/TransactionType-Property.md)  
+-   [TransactionType Property](TransactionType-Property.md)  
   
--   [UseRequestPage Property](../dynamics-nav/UseRequestPage-Property.md)  
+-   [UseRequestPage Property](UseRequestPage-Property.md)  
   
--   [UseSystemPrinter Property](../dynamics-nav/UseSystemPrinter-Property.md)  
+-   [UseSystemPrinter Property](UseSystemPrinter-Property.md)  
   
--   [PDFFontEmbedding Property](../dynamics-nav/PDFFontEmbedding-Property.md)  
+-   [PDFFontEmbedding Property](PDFFontEmbedding-Property.md)  
   
 ## DataItem Properties  
  The following properties apply to **DataItem** controls of a report object.  
   
--   [CalcFields Property](../dynamics-nav/CalcFields-Property.md)  
+-   [CalcFields Property](CalcFields-Property.md)  
   
--   [DataItemLink Property \(Reports\)](../dynamics-nav/DataItemLink-Property--Reports-.md)  
+-   [DataItemLink Property \(Reports\)](DataItemLink-Property--Reports-.md)  
   
--   [DataItemLinkReference Property](../dynamics-nav/DataItemLinkReference-Property.md)  
+-   [DataItemLinkReference Property](DataItemLinkReference-Property.md)  
   
--   [DataItemTable Property](../dynamics-nav/DataItemTable-Property.md)  
+-   [DataItemTable Property](DataItemTable-Property.md)  
   
--   [DataItemTableView Property](../dynamics-nav/DataItemTableView-Property.md)  
+-   [DataItemTableView Property](DataItemTableView-Property.md)  
   
--   [ID Property](../dynamics-nav/ID-Property.md)  
+-   [ID Property](ID-Property.md)  
   
--   [Indentation Property \(Reports\)](../dynamics-nav/Indentation-Property--Reports-.md)  
+-   [Indentation Property \(Reports\)](Indentation-Property--Reports-.md)  
   
--   [MaxIteration Property](../dynamics-nav/MaxIteration-Property.md)  
+-   [MaxIteration Property](MaxIteration-Property.md)  
   
--   [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md)  
+-   [Name Property\-duplicate](Name-Property-duplicate.md)  
   
--   [PrintOnlyIfDetail Property](../dynamics-nav/PrintOnlyIfDetail-Property.md)  
+-   [PrintOnlyIfDetail Property](PrintOnlyIfDetail-Property.md)  
   
--   [ReqFilterFields Property](../dynamics-nav/ReqFilterFields-Property.md)  
+-   [ReqFilterFields Property](ReqFilterFields-Property.md)  
   
--   [ReqFilterHeading Property](../dynamics-nav/ReqFilterHeading-Property.md)  
+-   [ReqFilterHeading Property](ReqFilterHeading-Property.md)  
   
--   [ReqFilterHeadingML Property](../dynamics-nav/ReqFilterHeadingML-Property.md)  
+-   [ReqFilterHeadingML Property](ReqFilterHeadingML-Property.md)  
   
--   [Temporary Property \(Reports\)](../dynamics-nav/Temporary-Property--Reports-.md)  
+-   [Temporary Property \(Reports\)](Temporary-Property--Reports-.md)  
   
 ## Column Properties  
  The following properties apply to **Column** controls of a report object.  
   
--   [AutoCalcField Property](../dynamics-nav/AutoCalcField-Property.md)  
+-   [AutoCalcField Property](AutoCalcField-Property.md)  
   
--   [AutoFormatExpr Property](../dynamics-nav/AutoFormatExpr-Property.md)  
+-   [AutoFormatExpr Property](AutoFormatExpr-Property.md)  
   
--   [AutoFormatType Property](../dynamics-nav/AutoFormatType-Property.md)  
+-   [AutoFormatType Property](AutoFormatType-Property.md)  
   
--   [DecimalPlaces Property](../dynamics-nav/DecimalPlaces-Property.md)  
+-   [DecimalPlaces Property](DecimalPlaces-Property.md)  
   
--   [Description Property](../dynamics-nav/Description-Property.md)  
+-   [Description Property](Description-Property.md)  
   
--   [ID Property](../dynamics-nav/ID-Property.md)  
+-   [ID Property](ID-Property.md)  
   
--   [IncludeCaption Property](../dynamics-nav/IncludeCaption-Property.md)  
+-   [IncludeCaption Property](IncludeCaption-Property.md)  
   
--   [Indentation Property \(Reports\)](../dynamics-nav/Indentation-Property--Reports-.md)  
+-   [Indentation Property \(Reports\)](Indentation-Property--Reports-.md)  
   
--   [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md)  
+-   [Name Property\-duplicate](Name-Property-duplicate.md)  
   
--   [OptionCaption Property](../dynamics-nav/OptionCaption-Property.md)  
+-   [OptionCaption Property](OptionCaption-Property.md)  
   
--   [OptionCaptionML Property](../dynamics-nav/OptionCaptionML-Property.md)  
+-   [OptionCaptionML Property](OptionCaptionML-Property.md)  
   
--   [OptionString Property](../dynamics-nav/OptionString-Property.md)  
+-   [OptionString Property](OptionString-Property.md)  
   
--   [SourceExpr Property](../dynamics-nav/SourceExpr-Property.md)  
+-   [SourceExpr Property](SourceExpr-Property.md)  
   
 ## Report Label Properties  
  The following properties apply to **Report Labels** of a report object.  
   
--   [Caption Property\-duplicate](../dynamics-nav/Caption-Property-duplicate.md)  
+-   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
   
--   [CaptionML Property](../dynamics-nav/CaptionML-Property.md)  
+-   [CaptionML Property](CaptionML-Property.md)  
   
--   [Description Property](../dynamics-nav/Description-Property.md)  
+-   [Description Property](Description-Property.md)  
   
--   [ID Property](../dynamics-nav/ID-Property.md)  
+-   [ID Property](ID-Property.md)  
   
--   [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md)  
+-   [Name Property\-duplicate](Name-Property-duplicate.md)  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

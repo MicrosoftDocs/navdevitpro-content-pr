@@ -13,14 +13,14 @@ manager: terryaus
 # ($ S_2149 Order By $)
 Sorts rows in a dataset from a query in ascending or descending order by a column or columns.  
   
- To open this window, open Query Designer, and then select an empty row in the designer. On the **View** menu, choose **Properties**, locate the **OrderBy** property, and then choose the **AssistEdit** button in the **Value** field. For more information about how to open Query Designer, see [\($ S\_22401 Query Designer $\)](../dynamics-nav/-$-S_22401-Query-Designer-$-.md).  
+ To open this window, open Query Designer, and then select an empty row in the designer. On the **View** menu, choose **Properties**, locate the **OrderBy** property, and then choose the **AssistEdit** button in the **Value** field. For more information about how to open Query Designer, see [\($ S\_22401 Query Designer $\)](-$-S_22401-Query-Designer-$-.md).  
   
 > [!NOTE]  
 >  You cannot sort on the same column more than once.  
   
 ## Fields  
   
-|[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
-|**Column**|The name of the query column as specified by its [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md).|  
+|**Column**|The name of the query column as specified by its [Name Property\-duplicate](Name-Property-duplicate.md).|  
 |**Direction**|The direction of the sort. You can choose **Ascending** or **Descending**.|

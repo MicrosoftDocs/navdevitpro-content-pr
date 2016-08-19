@@ -18,7 +18,7 @@ Sets whether the fields in Group controls are arranged horizontally in a row or 
   
 ## Property Values  
   
-|Value|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|Value|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-----------|---------------------------------------|  
 |**Rows**|Arranges fields within Group controls in rows.|  
 |**Columns**|Arranges fields within Group controls in columns. This is the default setting.|  

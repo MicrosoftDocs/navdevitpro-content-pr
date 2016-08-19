@@ -13,7 +13,7 @@ manager: terryaus
 # How to: Manage Breakpoints from the Debugger Code Viewer
 You can view, set, enable, disable, or delete breakpoints directly in the **Code** part of the **Debugger** window.  
   
- For more information about how to open the **Debugger** window, see [Activating the Debugger](../dynamics-nav/Activating-the-Debugger.md).  
+ For more information about how to open the **Debugger** window, see [Activating the Debugger](Activating-the-Debugger.md).  
   
 > [!NOTE]  
 >  If you set a breakpoint from the debugger, then it is not displayed in the C\/AL Editor. If you enable, disable, or delete a breakpoint from the debugger, that change is not displayed in the C\/AL Editor until you open the editor again.  
@@ -63,4 +63,4 @@ You can view, set, enable, disable, or delete breakpoints directly in the **Code
  [How to: Manage Breakpoints from the Debugger Breakpoint List](../Topic/How%20to:%20Manage%20Breakpoints%20from%20the%20Debugger%20Breakpoint%20List.md)   
  [How to: Break on the Next Statement](../Topic/How%20to:%20Break%20on%20the%20Next%20Statement.md)   
  [How to: Break on Errors](../Topic/How%20to:%20Break%20on%20Errors.md)   
- [Breakpoints](../dynamics-nav/Breakpoints.md)
+ [Breakpoints](Breakpoints.md)

@@ -34,7 +34,7 @@ translation.priority.ht:
   - sv-se
 ---
 # ($ N_9990 Code Coverage $)
-Specifies the extent to which the application code is covered by tests. You use the **\($ N\_9990 Code Coverage $\)** window to track code coverage after you have run one or more test suites in the **CAL Test Tool** window. You can run both pages from the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], or from the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] or the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)].  
+Specifies the extent to which the application code is covered by tests. You use the **\($ N\_9990 Code Coverage $\)** window to track code coverage after you have run one or more test suites in the **CAL Test Tool** window. You can run both pages from the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], or from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
  In the **\($ N\_9990 Code Coverage $\)** window, you can start, refresh, and stop the code coverage recorder.  
   
@@ -42,7 +42,7 @@ Specifies the extent to which the application code is covered by tests. You use 
 >  Code coverage is recorded globally for all sessions, so make sure that you run the tool in a controlled environment so you do not have any activity from unaccounted sessions.  
   
 ## Monitoring Code Coverage  
- Code coverage is the means of being able to track which part of the application code has been exercised during test activity. In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], code coverage is recorded by C\/AL code line and specifies if a code line was exercised by test and the number of times the line of code was recorded.  
+ Code coverage is the means of being able to track which part of the application code has been exercised during test activity. In [!INCLUDE[navnow](includes/navnow_md.md)], code coverage is recorded by C\/AL code line and specifies if a code line was exercised by test and the number of times the line of code was recorded.  
   
  To start monitoring code coverage, choose **Start**. This starts the code coverage engine, and code coverage is captured. However, you will not be able to see any updated information until you choose **Refresh** or **Stop**. The information contains coverage of objects, triggers and functions, and individual lines of code or empty lines as determined by the column **Line Type**. Only lines of type **Code** can have coverage. Lines of type **Trigger\/Function** show the average coverage of all code lines in the trigger or function. Lines of type **Object** show the average coverage of all code lines inside the object. The following table illustrates the result of a code coverage run:  
   
@@ -59,5 +59,5 @@ Specifies the extent to which the application code is covered by tests. You use 
  Only objects that are touched by the activity are recorded. This means that if an object is not shown in this window, the coverage of the object is implied to be zero. If you want to force the code coverage recorder to include specific objects even if they are not covered, choose the **Load objects** action, and then specify the relevant objects. This forces the code coverage engine to load these objects and provide information on even when no lines are covered.  
   
 ## See Also  
- [Code Coverage Virtual Table](../dynamics-nav/Code-Coverage-Virtual-Table.md)   
- [Application Test Automation](../dynamics-nav/Application-Test-Automation.md)
+ [Code Coverage Virtual Table](Code-Coverage-Virtual-Table.md)   
+ [Application Test Automation](Application-Test-Automation.md)

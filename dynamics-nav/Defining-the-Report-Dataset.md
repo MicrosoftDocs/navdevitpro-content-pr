@@ -11,7 +11,7 @@ caps.latest.revision: 3
 manager: edupont
 ---
 # Defining the Report Dataset
-You use Report Dataset Designer in the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)] to define the data model, or dataset, of a report. The dataset determines the data that is extracted or calculated from the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database tables that can be used in a report.  
+You use Report Dataset Designer in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to define the data model, or dataset, of a report. The dataset determines the data that is extracted or calculated from the [!INCLUDE[navnow](includes/navnow_md.md)] database tables that can be used in a report.  
   
  You build the report dataset from data items and columns. A data item is a table. A column can be:  
   
@@ -39,4 +39,4 @@ You use Report Dataset Designer in the [!INCLUDE[nav_dev_long](../dynamics-nav/i
  For more information about how to create a dataset, see [How to: Create a Report Dataset](../Topic/How%20to:%20Create%20a%20Report%20Dataset.md).  
   
 ## See Also  
- [Designing Report Layouts from the Microsoft Dynamics NAV Development Environment](../dynamics-nav/Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md)
+ [Designing Report Layouts from the Microsoft Dynamics NAV Development Environment](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md)

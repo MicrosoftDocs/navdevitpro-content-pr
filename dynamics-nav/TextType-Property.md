@@ -20,4 +20,4 @@ Sets the type of text this element or attribute contains.
  **BigText** if you want to display large text ; otherwise, **Text**. The default is **Text**.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

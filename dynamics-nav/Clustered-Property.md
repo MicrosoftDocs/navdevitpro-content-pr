@@ -17,4 +17,4 @@ Sets a value that indicates whether the index is clustered.
  Keys  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

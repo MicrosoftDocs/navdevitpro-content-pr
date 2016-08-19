@@ -11,7 +11,7 @@ caps.latest.revision: 5
 manager: terryaus
 ---
 # How to: Build Server Application Objects
-If you import a .fob file that contains objects that were exported from a native [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database, then those objects do not contain the C\# and metadata information that is required for [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]. Additionally, if you import a .fob file that contains the C\# and metadata information but the information is from an earlier version of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], then the information may be in an incompatible format. In these cases, you must build the server application objects. If you do not build the server application objects, then these objects cannot be run. Building the server application objects does the following:  
+If you import a .fob file that contains objects that were exported from a native [!INCLUDE[navnow](includes/navnow_md.md)] database, then those objects do not contain the C\# and metadata information that is required for [!INCLUDE[nav_server](includes/nav_server_md.md)]. Additionally, if you import a .fob file that contains the C\# and metadata information but the information is from an earlier version of [!INCLUDE[navnow](includes/navnow_md.md)], then the information may be in an incompatible format. In these cases, you must build the server application objects. If you do not build the server application objects, then these objects cannot be run. Building the server application objects does the following:  
   
 -   Recompiles the objects.  
   
@@ -20,15 +20,15 @@ If you import a .fob file that contains objects that were exported from a native
 -   Updates the record in the **Object Metadata** table for each object.  
   
 > [!NOTE]  
->  In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] 2009, you used the **Enable for [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]** option to specify that when you compiled objects, you also wanted to regenerate the C\# and metadata information. In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], the **Enable for [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]** option has been removed from the **Options** tab in the **Alter Database** window.  
+>  In [!INCLUDE[navnow](includes/navnow_md.md)] 2009, you used the **Enable for [!INCLUDE[nav_server](includes/nav_server_md.md)]** option to specify that when you compiled objects, you also wanted to regenerate the C\# and metadata information. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], the **Enable for [!INCLUDE[nav_server](includes/nav_server_md.md)]** option has been removed from the **Options** tab in the **Alter Database** window.  
   
 ### To build server application objects  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Build Server Application Objects**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Build Server Application Objects**.  
   
 2.  In the dialog box, choose the **Yes** button.  
   
      If errors occurred, then the **Error List** window opens.  
   
 ## See Also  
- [Importing and Exporting Objects](../dynamics-nav/Importing-and-Exporting-Objects.md)
+ [Importing and Exporting Objects](Importing-and-Exporting-Objects.md)

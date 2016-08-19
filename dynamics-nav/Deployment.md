@@ -11,14 +11,14 @@ caps.latest.revision: 31
 manager: terryaus
 ---
 # Deployment
-The topics in the Deployment node are intended to help an administrator install and configure [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] software.  
+The topics in the Deployment node are intended to help an administrator install and configure [!INCLUDE[navnowlong](includes/navnowlong_md.md)] software.  
   
 ## Key Features of Setup  
- With [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] Setup, you can:  
+ With [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup, you can:  
   
 -   Install different components on different computers.  
   
--   Choose from a selection of predefined [Installation Options](../dynamics-nav/Installation-Options.md) or create your own custom list of components and options to install. For more information, see [How to: Choose Components to Install](../Topic/How%20to:%20Choose%20Components%20to%20Install.md).  
+-   Choose from a selection of predefined [Installation Options](Installation-Options.md) or create your own custom list of components and options to install. For more information, see [How to: Choose Components to Install](../Topic/How%20to:%20Choose%20Components%20to%20Install.md).  
   
 -   Preconfigure components before installation. For more information, see [How to: Preconfigure Components](../Topic/How%20to:%20Preconfigure%20Components.md).  
   
@@ -28,15 +28,15 @@ The topics in the Deployment node are intended to help an administrator install 
   
 ## Installation Notes  
   
--   Before installing [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] components on a computer, you must remove \(uninstall\) any previous versions.  
+-   Before installing [!INCLUDE[navnowlong](includes/navnowlong_md.md)] components on a computer, you must remove \(uninstall\) any previous versions.  
   
--   All RoleTailored components must be from the same version and build of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] for the software to run correctly.  
+-   All RoleTailored components must be from the same version and build of [!INCLUDE[navnow](includes/navnow_md.md)] for the software to run correctly.  
   
--   If you have either SQL Server 2000 or Microsoft SQL Server Desktop Engine \(MSDE\) installed on a computer where you want to install [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], then you must remove it before you begin installing. The presence of either of these database products causes a Setup error.  
+-   If you have either SQL Server 2000 or Microsoft SQL Server Desktop Engine \(MSDE\) installed on a computer where you want to install [!INCLUDE[navnow](includes/navnow_md.md)], then you must remove it before you begin installing. The presence of either of these database products causes a Setup error.  
   
 ## See Also  
- [Product and Architecture Overview](../dynamics-nav/Product-and-Architecture-Overview.md)   
- [Installation Options](../dynamics-nav/Installation-Options.md)   
- [System Requirements for Microsoft Dynamics NAV 2016](../dynamics-nav/System-Requirements-for-Microsoft-Dynamics-NAV-2016.md)   
- [Working with Microsoft Dynamics NAV Setup](../dynamics-nav/Working-with-Microsoft-Dynamics-NAV-Setup.md)   
- [Configuring Microsoft Dynamics NAV](../dynamics-nav/Configuring-Microsoft-Dynamics-NAV.md)
+ [Product and Architecture Overview](Product-and-Architecture-Overview.md)   
+ [Installation Options](Installation-Options.md)   
+ [System Requirements for Microsoft Dynamics NAV 2016](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md)   
+ [Working with Microsoft Dynamics NAV Setup](Working-with-Microsoft-Dynamics-NAV-Setup.md)   
+ [Configuring Microsoft Dynamics NAV](Configuring-Microsoft-Dynamics-NAV.md)

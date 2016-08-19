@@ -13,45 +13,45 @@ manager: edupont
 # How to: Alter Databases
 You can change the database property settings that you selected when you created the database.  
   
- The **Alter Database** window gives you access to the same settings as the [\($ S\_2338 New Database $\)](../dynamics-nav/-$-S_2338-New-Database-$-.md) window.  
+ The **Alter Database** window gives you access to the same settings as the [\($ S\_2338 New Database $\)](-$-S_2338-New-Database-$-.md) window.  
   
 > [!NOTE]  
->  You cannot alter a database by using the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)] if the database is deployed on Azure SQL Database.  
+>  You cannot alter a database by using the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] if the database is deployed on Azure SQL Database.  
   
 ### To alter a database  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **Alter**. The **Alter Database** window opens. In the **Alter Database** window you can change database settings.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **Alter**. The **Alter Database** window opens. In the **Alter Database** window you can change database settings.  
   
      The **Alter Database** window contains the following tabs:  
   
-    -   [Altering Databases \- General Tab](../dynamics-nav/Altering-Databases---General-Tab.md)  
+    -   [Altering Databases \- General Tab](Altering-Databases---General-Tab.md)  
   
-    -   [Altering Databases \- Database Files Tab](../dynamics-nav/Altering-Databases---Database-Files-Tab.md)  
+    -   [Altering Databases \- Database Files Tab](Altering-Databases---Database-Files-Tab.md)  
   
-    -   [Altering Databases \- Transaction Log Files Tab](../dynamics-nav/Altering-Databases---Transaction-Log-Files-Tab.md)  
+    -   [Altering Databases \- Transaction Log Files Tab](Altering-Databases---Transaction-Log-Files-Tab.md)  
   
-    -   [Altering Databases \- Collation Tab](../dynamics-nav/Altering-Databases---Collation-Tab.md)  
+    -   [Altering Databases \- Collation Tab](Altering-Databases---Collation-Tab.md)  
   
-    -   [Altering Databases \- Options Tab](../dynamics-nav/Altering-Databases---Options-Tab.md)  
+    -   [Altering Databases \- Options Tab](Altering-Databases---Options-Tab.md)  
   
-    -   [Altering Databases \- Integration Tab](../dynamics-nav/Altering-Databases---Integration-Tab.md)  
+    -   [Altering Databases \- Integration Tab](Altering-Databases---Integration-Tab.md)  
   
-    -   [Altering Databases \- Advanced Tab](../dynamics-nav/Altering-Databases---Advanced-Tab.md)  
+    -   [Altering Databases \- Advanced Tab](Altering-Databases---Advanced-Tab.md)  
   
-2.  Restart the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance.  
+2.  Restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
   
-     The changes will not take effect until you restart the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance. For more information, see [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](../Topic/How%20to:%20Start,%20Stop,%20Restart,%20or%20Remove%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).  
+     The changes will not take effect until you restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. For more information, see [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](../Topic/How%20to:%20Start,%20Stop,%20Restart,%20or%20Remove%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).  
   
 ## Changing Database Collation  
- You cannot change the collation directly in the current database. To change the collation, you must create a new database that uses the correct collation, and then export the data from the old database and import it to the new database. You can do this by using SQL Server Management Studio and the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Administration Shell as outlined in the following procedure.  
+ You cannot change the collation directly in the current database. To change the collation, you must create a new database that uses the correct collation, and then export the data from the old database and import it to the new database. You can do this by using SQL Server Management Studio and the [!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell as outlined in the following procedure.  
   
-#### To change the collation of a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database  
+#### To change the collation of a [!INCLUDE[navnow](includes/navnow_md.md)] database  
   
 1.  In SQL Server Management Studio, create a new database that uses the desired collation.  
   
-     Make sure that the service account of the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance that will connect to the database has proper permission to the database. The service account must be a member of the db\_owner role of the database. For more information see [Provisioning the Microsoft Dynamics NAV Server Account](../dynamics-nav/Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md).  
+     Make sure that the service account of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that will connect to the database has proper permission to the database. The service account must be a member of the db\_owner role of the database. For more information see [Provisioning the Microsoft Dynamics NAV Server Account](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md).  
   
-2.  To export the data from the old database to the new database, open the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Administration Shell, and run the Export\-NAVData cmdlet as shown in the following example.  
+2.  To export the data from the old database to the new database, open the [!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell, and run the Export\-NAVData cmdlet as shown in the following example.  
   
     ```  
     Export-NAVData -DatabaseServer DatabaseServerName -DatabaseName OldDatabaseName -IncludeApplication -IncludeApplicationData -IncludeGlobalData -AllCompanies -FilePath c:\Files\MyNavDB.navdata  
@@ -68,19 +68,19 @@ You can change the database property settings that you selected when you created
   
      For more information, see [Import\-NAVData cmdlet](http://go.microsoft.com/fwlink/?LinkID=401402)  
   
-4.  Connect the new database to the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance.  
+4.  Connect the new database to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
   
      For more information, see [How to: Connect a Microsoft Dynamics NAV Server Instance to a Database](../Topic/How%20to:%20Connect%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance%20to%20a%20Database.md).  
   
-5.  Synchronize the table schemas in the database. You can do this from the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)] or [!INCLUDE[nav_shell](../dynamics-nav/includes/nav_shell_md.md)].  
+5.  Synchronize the table schemas in the database. You can do this from the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
   
-    -   From the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Sync. Schema For All Tables**, and then choose **With Validation** and follow the schema synchronization instructions.  
+    -   From the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Sync. Schema For All Tables**, and then choose **With Validation** and follow the schema synchronization instructions.  
   
-    -   From the [!INCLUDE[nav_shell](../dynamics-nav/includes/nav_shell_md.md)], open the [!INCLUDE[nav_shell](../dynamics-nav/includes/nav_shell_md.md)] as an administrator, and then run the [Sync\-NavTenant cmdlet](http://go.microsoft.com/fwlink/?LinkID=401399). For more information, see [How to: Run the Sync\-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database](../Topic/How%20to:%20Run%20the%20Sync-NAVTenant%20Cmdlet%20to%20Synchronize%20the%20Tenant%20Database%20with%20the%20Application%20Database.md).  
+    -   From the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], open the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] as an administrator, and then run the [Sync\-NavTenant cmdlet](http://go.microsoft.com/fwlink/?LinkID=401399). For more information, see [How to: Run the Sync\-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database](../Topic/How%20to:%20Run%20the%20Sync-NAVTenant%20Cmdlet%20to%20Synchronize%20the%20Tenant%20Database%20with%20the%20Application%20Database.md).  
   
-6.  Restart the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance.  
+6.  Restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
   
      For more information, see [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](../Topic/How%20to:%20Start,%20Stop,%20Restart,%20or%20Remove%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).  
   
 ## See Also  
- [\($ S\_2339 Alter Database $\)](../dynamics-nav/-$-S_2339-Alter-Database-$-.md)
+ [\($ S\_2339 Alter Database $\)](-$-S_2339-Alter-Database-$-.md)

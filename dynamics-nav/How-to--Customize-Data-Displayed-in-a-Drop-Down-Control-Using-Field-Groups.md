@@ -11,7 +11,7 @@ caps.latest.revision: 16
 manager: terryaus
 ---
 # How to: Customize Data Displayed in a Drop-Down Control Using Field Groups
-In the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], some fields are enabled with filter\-as\-you\-type functionality. When you type text into these fields, a drop\-down control appears that displays data from a source table. For example, in the sell\-to\-customer\-no field on the Sales Orders page, records from the Customer table are displayed when you use this control.  
+In the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], some fields are enabled with filter\-as\-you\-type functionality. When you type text into these fields, a drop\-down control appears that displays data from a source table. For example, in the sell\-to\-customer\-no field on the Sales Orders page, records from the Customer table are displayed when you use this control.  
   
  If you do not define any field groups for the drop\-down control, by default you only see data from two fields in the source table; the primary key and description fields, as these are indexed automatically.  
   
@@ -22,7 +22,7 @@ In the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], some
   
 #### To add fields to the field groups table  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer** to open the **Object Designer** window.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer** to open the **Object Designer** window.  
   
 2.  In **Object Designer**, choose **Tables**, select a table, and then choose the **Design** button to open **Table Designer**. For example, select table **18**, the **Customer** table.  
   
@@ -36,7 +36,7 @@ In the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], some
   
 7.  Close the **Field List** table, and the **Field Groups** table. Choose **Save** and **Compile**.  
   
-8.  Run the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] to view your changes.  
+8.  Run the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] to view your changes.  
   
      For example, open the **Edit Sales Order** card page **1003**, and then choose **Sell\-to Customer No**. The fields that you added to the **Customer** table, using field groups, are now displayed in the drop\-down control for that field.  
   

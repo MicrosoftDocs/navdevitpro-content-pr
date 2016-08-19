@@ -23,4 +23,4 @@ To create a new codeunit by using Object Designer, use the following procedure.
 4.  In the **C\/AL Editor**, add functions.  
   
 ## See Also  
- [Codeunits](../dynamics-nav/Codeunits.md)
+ [Codeunits](Codeunits.md)

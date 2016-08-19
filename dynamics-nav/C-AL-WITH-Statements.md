@@ -92,6 +92,6 @@ END;
 ```  
   
 ## See Also  
- [C\-AL Compound Statements](../dynamics-nav/C-AL-Compound-Statements.md)   
- [C\-AL Conditional Statements](../dynamics-nav/C-AL-Conditional-Statements.md)   
- [C\-AL Repetitive Statements](../dynamics-nav/C-AL-Repetitive-Statements.md)
+ [C\-AL Compound Statements](C-AL-Compound-Statements.md)   
+ [C\-AL Conditional Statements](C-AL-Conditional-Statements.md)   
+ [C\-AL Repetitive Statements](C-AL-Repetitive-Statements.md)

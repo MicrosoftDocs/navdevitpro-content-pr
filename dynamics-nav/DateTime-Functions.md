@@ -13,12 +13,12 @@ manager: pchapman
 # DateTime Functions
 This section contains the following topics:  
   
--   [CREATEDATETIME Function \(DateTime\)](../dynamics-nav/CREATEDATETIME-Function--DateTime-.md)  
+-   [CREATEDATETIME Function \(DateTime\)](CREATEDATETIME-Function--DateTime-.md)  
   
--   [CURRENTDATETIME Function \(DateTime\)](../dynamics-nav/CURRENTDATETIME-Function--DateTime-.md)  
+-   [CURRENTDATETIME Function \(DateTime\)](CURRENTDATETIME-Function--DateTime-.md)  
   
--   [DT2DATE Function \(DateTime\)](../dynamics-nav/DT2DATE-Function--DateTime-.md)  
+-   [DT2DATE Function \(DateTime\)](DT2DATE-Function--DateTime-.md)  
   
--   [DT2TIME Function \(DateTime\)](../dynamics-nav/DT2TIME-Function--DateTime-.md)  
+-   [DT2TIME Function \(DateTime\)](DT2TIME-Function--DateTime-.md)  
   
--   [ROUNDDATETIME Function \(DateTime\)](../dynamics-nav/ROUNDDATETIME-Function--DateTime-.md)
+-   [ROUNDDATETIME Function \(DateTime\)](ROUNDDATETIME-Function--DateTime-.md)

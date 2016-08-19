@@ -19,7 +19,7 @@ C\/AL has the following types of variables:
   
  User\-defined variables are variables that you define when you create new C\/AL code. You can define variables that are global and apply to all functions in an object, such as a codeunit, or you can define variables that are local and apply to a single function in an object. Both types of user\-defined variables are local to the object in which they are defined. These variables can be used to store information at run time, and the values can be changed as desired.  
   
- System\-defined variables are provided by [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)]. These variables are automatically maintained by the system. Some system\-defined variables are Rec, xRec, CurrPage, and CurrReport.  
+ System\-defined variables are provided by [!INCLUDE[navnow](includes/navnow_md.md)]. These variables are automatically maintained by the system. Some system\-defined variables are Rec, xRec, CurrPage, and CurrReport.  
   
  At run time, code is executed in functions and triggers, such as in entry\-processing code for a table. Before the code is executed, values are automatically assigned to the associated system\-defined variables, and the values of these variables can be used in triggers and local functions.  
   
@@ -51,7 +51,7 @@ C\/AL has the following types of variables:
 >  We do not recommend that you use characters that are outside the ASCII characters set, 0\-127, because they may display differently on different computers.  
   
 > [!NOTE]  
->  [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] runs on the .NET Framework. Therefore, we recommend that you use variables names that are Common Language Specification \(CLS\)\-compliant. For more information, see [Common Language Specification](http://go.microsoft.com/fwlink/?LinkId=193144) in the MSDN Library.  
+>  [!INCLUDE[navnow](includes/navnow_md.md)] runs on the .NET Framework. Therefore, we recommend that you use variables names that are Common Language Specification \(CLS\)\-compliant. For more information, see [Common Language Specification](http://go.microsoft.com/fwlink/?LinkId=193144) in the MSDN Library.  
   
  When you name a variable, you cannot use special characters unless you enclose the variable name in quotation marks, as in "Customer No.". If you do not use double quotation marks, then the following rules apply:  
   
@@ -115,7 +115,7 @@ C\/AL has the following types of variables:
   
 -   By using the assignment operator ":\=", such as Variable :\= Expression. The data type that results from the evaluation of the right side expression must be the same data type as the variable \(left operand\) or have a data type that can be converted automatically to the data type of the left operand.  
   
--   As parameter assignment, such as FUNCTION\(Expression\). The data type that results from the evaluation of the expression must correspond to a specific data type or have a data type that can be converted automatically to the correct data type. For more information about evaluation and type conversion in expressions, see [Type Conversion in Expressions](../dynamics-nav/Type-Conversion-in-Expressions.md).  
+-   As parameter assignment, such as FUNCTION\(Expression\). The data type that results from the evaluation of the expression must correspond to a specific data type or have a data type that can be converted automatically to the correct data type. For more information about evaluation and type conversion in expressions, see [Type Conversion in Expressions](Type-Conversion-in-Expressions.md).  
   
  Automatic type conversion in assignments occurs when the following events occur:  
   
@@ -191,4 +191,4 @@ Result := Amount + Total;
 |**BigText variable**|Valid but overflow may occur|Valid but overflow may occur|Valid but overflow may occur|  
   
 > [!NOTE]  
->  You can assign the BigText variable with the BigText functions. For more information, see [BigText Data Type](../dynamics-nav/BigText-Data-Type.md).
+>  You can assign the BigText variable with the BigText functions. For more information, see [BigText Data Type](BigText-Data-Type.md).

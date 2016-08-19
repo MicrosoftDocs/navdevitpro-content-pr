@@ -11,9 +11,9 @@ caps.latest.revision: 32
 manager: terryaus
 ---
 # Walkthrough: Creating a Cue Based on a FlowField
-This walkthrough demonstrates how to add a Cue on the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)]. A Cue provides a way to graphically show the number of entities in a table and view the entities in a filtered list. For example, the Cue can show the total number of open invoices, sales orders, or credit memos. As shown in the following illustration, a Cue is an icon that depicts a stack of papers on the page, where the height of the stack indicates the approximate number of entities in an underlying table. A number value on each Cue gives the precise number of entities. The Cue provides a shortcut link to a filtered list page for displaying the entities. You can add actions to a Cue to open related tasks that a user of the Role Center will typically perform.  
+This walkthrough demonstrates how to add a Cue on the [!INCLUDE[rtc](includes/rtc_md.md)]. A Cue provides a way to graphically show the number of entities in a table and view the entities in a filtered list. For example, the Cue can show the total number of open invoices, sales orders, or credit memos. As shown in the following illustration, a Cue is an icon that depicts a stack of papers on the page, where the height of the stack indicates the approximate number of entities in an underlying table. A number value on each Cue gives the precise number of entities. The Cue provides a shortcut link to a filtered list page for displaying the entities. You can add actions to a Cue to open related tasks that a user of the Role Center will typically perform.  
   
- ![Shows a Cue in the RoleTailored client](../dynamics-nav/media/NAVRTCCueExample.png "NAVRTCCueExample")  
+ ![Shows a Cue in the RoleTailored client](media/NAVRTCCueExample.png "NAVRTCCueExample")  
   
 ## About This Walkthrough  
  This walkthrough illustrates the following tasks:  
@@ -31,16 +31,16 @@ This walkthrough demonstrates how to add a Cue on the [!INCLUDE[rtc](../dynamics
   
 -   Microsoft .NET developer  
   
--   [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] developer and IT professional  
+-   [!INCLUDE[navnow](includes/navnow_md.md)] developer and IT professional  
   
 ### Prerequisites  
  To complete this walkthrough, you need:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] with a developer license.  
   
--   All [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] requirements met. For more information, see [System Requirements for Microsoft Dynamics NAV 2016](../dynamics-nav/System-Requirements-for-Microsoft-Dynamics-NAV-2016.md).  
+-   All [!INCLUDE[navnowlong](includes/navnowlong_md.md)] requirements met. For more information, see [System Requirements for Microsoft Dynamics NAV 2016](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md).  
   
--   The [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)]. The walkthrough uses the following objects:  
+-   The [!INCLUDE[demolong](includes/demolong_md.md)]. The walkthrough uses the following objects:  
   
     -   Table 36, Sales Header  
   
@@ -51,14 +51,14 @@ This walkthrough demonstrates how to add a Cue on the [!INCLUDE[rtc](../dynamics
     -   Page 43, Sales Invoice  
   
 ## Story  
- Viktor is a software developer who is working for [!INCLUDE[demoname](../dynamics-nav/includes/demoname_md.md)] He has been asked to add a Cue to the Role Centers of sales order processors. The Cue will show how many open sales invoices they have. To accomplish this, Viktor will create a Cue that extracts the number of open sales invoices from the **Sales Header** table. He will place the Cue in a part on the **Order Processor Role Center** page. He will also add an action that allows users to create a new sales invoice from a link on the Cue. The Cue will look similar to the illustration earlier in this document.  
+ Viktor is a software developer who is working for [!INCLUDE[demoname](includes/demoname_md.md)] He has been asked to add a Cue to the Role Centers of sales order processors. The Cue will show how many open sales invoices they have. To accomplish this, Viktor will create a Cue that extracts the number of open sales invoices from the **Sales Header** table. He will place the Cue in a part on the **Order Processor Role Center** page. He will also add an action that allows users to create a new sales invoice from a link on the Cue. The Cue will look similar to the illustration earlier in this document.  
   
 ##  <a name="CreateTableFieldForCue"></a> Creating the Table Field for Cue Data  
- To calculate the number of open sales invoices, Viktor creates a table that includes a **FlowField** that extracts data from the **Sales Header** table and calculates how many opens sales invoices exist. Because a table must have at least one data field, and a **FlowField** is based on a calculation and not considered an actual data field, Viktor adds a dummy primary key field that does not yield any data. For more information about **FlowFields**, see [FlowFields](../dynamics-nav/FlowFields.md).  
+ To calculate the number of open sales invoices, Viktor creates a table that includes a **FlowField** that extracts data from the **Sales Header** table and calculates how many opens sales invoices exist. Because a table must have at least one data field, and a **FlowField** is based on a calculation and not considered an actual data field, Viktor adds a dummy primary key field that does not yield any data. For more information about **FlowFields**, see [FlowFields](FlowFields.md).  
   
 #### To create a table for the Cue data field and set the primary key  
   
-1.  In the [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] Development Environment, on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Development Environment, on the **Tools** menu, choose **Object Designer**.  
   
 2.  Choose **Table**, and then choose **New**.  
   
@@ -104,10 +104,10 @@ This walkthrough demonstrates how to add a Cue on the [!INCLUDE[rtc](../dynamics
   
      The **Table Filters** window will look similar to the following illustration.  
   
-     ![Shows the table filter setup for a Cue](../dynamics-nav/media/NAVRTCCueTableFilterExample.PNG "NAVRTCCueTableFilterExample")  
+     ![Shows the table filter setup for a Cue](media/NAVRTCCueTableFilterExample.PNG "NAVRTCCueTableFilterExample")  
   
     > [!IMPORTANT]  
-    >  You cannot define a table filter that filters explicitly on a date because you will get an error when you try to open the Cue group in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. For example, you cannot define a field that has the **Type** set to **CONST** or **FILTER** and the **Value** set to 21\/03\/2011. If you do, when you try to open the Cue group from the page in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], you get an error that states that ‘2011\-03\-21’ is not a valid date.  
+    >  You cannot define a table filter that filters explicitly on a date because you will get an error when you try to open the Cue group in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For example, you cannot define a field that has the **Type** set to **CONST** or **FILTER** and the **Value** set to 21\/03\/2011. If you do, when you try to open the Cue group from the page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], you get an error that states that ‘2011\-03\-21’ is not a valid date.  
   
 13. Choose the **OK** button until you return to the **Properties** window, and then close the **Properties** window to return to Table Designer.  
   
@@ -137,7 +137,7 @@ This walkthrough demonstrates how to add a Cue on the [!INCLUDE[rtc](../dynamics
   
 #### To create the CardPart page for the Sales Invoice Cue  
   
-1.  In the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] development environment, on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[navnow](includes/navnow_md.md)] development environment, on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **Page**, and then choose **New**. The **New Page** window opens.  
   
@@ -175,7 +175,7 @@ This walkthrough demonstrates how to add a Cue on the [!INCLUDE[rtc](../dynamics
   
      Page Designer should look similar to the following illustration.  
   
-     ![Shows Page Designer setup for a Cue](../dynamics-nav/media/NAVRTCCuePageDesignerExample.png "NAVRTCCuePageDesignerExample")  
+     ![Shows Page Designer setup for a Cue](media/NAVRTCCuePageDesignerExample.png "NAVRTCCuePageDesignerExample")  
   
 5.  To create a link from the Cue to the **Sales Invoice List** page for displaying the open invoices, select the **Sales Invoices \- Open** field row, and then on the **View** menu, choose **Properties**.  
   
@@ -214,7 +214,7 @@ This walkthrough demonstrates how to add a Cue on the [!INCLUDE[rtc](../dynamics
   
 6.  In Object Designer, select the page 50001, **Sales Cue**, and choose **Run** to view the page.  
   
-7.  The [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] opens and displays the new page.  
+7.  The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] opens and displays the new page.  
   
 ##  <a name="AddingActionToCue"></a> Adding an Action to the Cue  
  Viktor wants to add a link on the Cue that allows the user to create a new sales invoice. To accomplish this, he creates an action on the **CueGroup** control that targets the **Sales Invoice** page.  
@@ -271,7 +271,7 @@ This walkthrough demonstrates how to add a Cue on the [!INCLUDE[rtc](../dynamics
 11. In Object Designer, with the **Order Processor Role Center** page selected, choose **Run**. Notice that the **Sales Invoice Cue** part is displayed in the **Role Center \- Order Processor Role Center** column and above the **Connect Online** part.  
   
 ## See Also  
- [Touring the RoleTailored Client Pages](../dynamics-nav/Touring-the-RoleTailored-Client-Pages.md)   
- [Pages Overview](../dynamics-nav/Pages-Overview.md)   
- [Tables\-duplicate 20](../dynamics-nav/Tables-duplicate-20.md)   
+ [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
+ [Pages Overview](Pages-Overview.md)   
+ [Tables\-duplicate 20](Tables-duplicate-20.md)   
  [Walkthrough: Creating a Role Center](../Topic/Walkthrough:%20Creating%20a%20Role%20Center.md)

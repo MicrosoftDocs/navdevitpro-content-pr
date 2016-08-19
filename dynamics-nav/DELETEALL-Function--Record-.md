@@ -29,7 +29,7 @@ Record.DELETEALL([RunTrigger])
  *RunTrigger*  
  Type: Boolean  
   
- Specifies whether to run the C\/AL code in the [OnDelete Trigger](../dynamics-nav/OnDelete-Trigger.md).  
+ Specifies whether to run the C\/AL code in the [OnDelete Trigger](OnDelete-Trigger.md).  
   
  If this parameter is **true**, then the code in the **OnDelete** trigger will be executed. If this parameter is **false**, then the code in the **OnDelete** trigger will not be executed.  
   
@@ -49,5 +49,5 @@ CustomerRec.DELETEALL;
  When *RunTrigger* is **false** \(the default\), the **DELETEALL** function in this example is much faster than the **DELETE** function because it requires only one call to the server, while the first method requires multiple calls. If *RunTrigger* is **true**, then there will not be any gain in performance because each record needs to be loaded to the client anyway in order to execute the **OnDelete** trigger.  
   
 ## See Also  
- [DELETE Function \(Record\)](../dynamics-nav/DELETE-Function--Record-.md)   
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [DELETE Function \(Record\)](DELETE-Function--Record-.md)   
+ [Record Data Type](Record-Data-Type.md)

@@ -41,7 +41,7 @@ Redirects references to table data from one company to another.
 ## Remarks  
  When executing this function, the user's access rights are respected. For example, a user cannot access data in *CompanyName* unless he already has the necessary access rights.  
   
- The **CHANGECOMPANY** function is not affected by the [RESET Function \(Record\)](../dynamics-nav/RESET-Function--Record-.md). You can deselect a company by making a new call to **CHANGECOMPANY** or by using the [CLEAR Function](../dynamics-nav/CLEAR-Function.md).  
+ The **CHANGECOMPANY** function is not affected by the [RESET Function \(Record\)](RESET-Function--Record-.md). You can deselect a company by making a new call to **CHANGECOMPANY** or by using the [CLEAR Function](CLEAR-Function.md).  
   
  Global filters always belong to a specific company. If you use the following code to select the company named NewCompany, any filters assigned to *Record* will be transferred to *Record* in the new company.  
   
@@ -86,4 +86,4 @@ Rec.MODIFY(TRUE);
  If you run the code in this example from Company A, it will modify Rec in Company B, but it will run the OnModify trigger in Company A.  
   
 ## See Also  
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [Record Data Type](Record-Data-Type.md)

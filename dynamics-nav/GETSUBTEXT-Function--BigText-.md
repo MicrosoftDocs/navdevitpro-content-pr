@@ -43,7 +43,7 @@ Gets part of a BigText variable.
 ## Remarks  
  The first character in a BigText variable is position 1.  
   
- To delete the content in a BigText variable use the [CLEAR Function](../dynamics-nav/CLEAR-Function.md). The following code snippet shows the syntax for the clear function. `CLEAR(BigText)`.  
+ To delete the content in a BigText variable use the [CLEAR Function](CLEAR-Function.md). The following code snippet shows the syntax for the clear function. `CLEAR(BigText)`.  
   
 ## Example  
  The following examples demonstrate how to use the GETSUBTEXT function. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
@@ -110,5 +110,5 @@ MESSAGE(Text000, VarSubText);
 ```  
   
 ## See Also  
- [BigText Data Type](../dynamics-nav/BigText-Data-Type.md)   
- [BigText Functions](../dynamics-nav/BigText-Functions.md)
+ [BigText Data Type](BigText-Data-Type.md)   
+ [BigText Functions](BigText-Functions.md)

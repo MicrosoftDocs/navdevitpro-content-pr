@@ -10,12 +10,12 @@ ms.assetid: bd97535e-09d7-4268-945a-fbef30d0ddb5
 caps.latest.revision: 4
 ---
 # How to: Export and Import Companies and Other Data in Clients
-You can export data such as a company or an application from a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] and the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]. You can also import data into a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database.  
+You can export data such as a company or an application from a [!INCLUDE[navnow](includes/navnow_md.md)] database in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and the [!INCLUDE[nav_web](includes/nav_web_md.md)]. You can also import data into a [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
 > [!IMPORTANT]  
->  To export or import data from a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database, you must be a user in the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database, and your user account must have a permission set that enables you to export or import data, such as the SUPER permission set. We recommend that you define a specific permission set such as DATA\-EXPORTIMPORT and add system permissions 5410, Export Data to Data File, and 5420, Import Data from Data file. Optionally, add other permissions, and then assign the permission set to the users that you want to be able to export and import data.  
+>  To export or import data from a [!INCLUDE[navnow](includes/navnow_md.md)] database, you must be a user in the [!INCLUDE[navnow](includes/navnow_md.md)] database, and your user account must have a permission set that enables you to export or import data, such as the SUPER permission set. We recommend that you define a specific permission set such as DATA\-EXPORTIMPORT and add system permissions 5410, Export Data to Data File, and 5420, Import Data from Data file. Optionally, add other permissions, and then assign the permission set to the users that you want to be able to export and import data.  
   
- When you export data from the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] or the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], data is exported from the database that your current company uses. Similarly, when you import data, data is imported into your current database.  
+ When you export data from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or the [!INCLUDE[nav_web](includes/nav_web_md.md)], data is exported from the database that your current company uses. Similarly, when you import data, data is imported into your current database.  
   
  The following procedures assume that you have the relevant permissions as described above.  
   
@@ -25,7 +25,7 @@ You can export data such as a company or an application from a [!INCLUDE[navnow]
   
 2.  In the **\($ N\_9901 Export to Data File $\)** window, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+    |[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Description**|Optionally, specifies a description of the data that you want to export, such as **Company A data**.<br /><br /> The text that you specify is used as a suggested file name when you start the export.|  
     |**All Companies**|Specifies if you want to export all companies in the current database.<br /><br /> If you do not choose this field, and you want to export one or more companies, you must you must select the relevant companies from the list of available companies.|  
@@ -39,7 +39,7 @@ You can export data such as a company or an application from a [!INCLUDE[navnow]
   
      The data is exported to a file with the extension **.navdata**.  
   
- You have exported data from a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database into a file. Now, you can import the data into another [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database.  
+ You have exported data from a [!INCLUDE[navnow](includes/navnow_md.md)] database into a file. Now, you can import the data into another [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
  Before you import data from a navdata file, you can choose to use the **Get\-NAVDataFile** Windows PowerShell cmdlet to see what the file contains. For more information, see [How to: Export and Import Companies and Other Data using Windows PowerShell Cmdlets](../Topic/How%20to:%20Export%20and%20Import%20Companies%20and%20Other%20Data%20using%20Windows%20PowerShell%20Cmdlets.md).  
   
@@ -49,7 +49,7 @@ You can export data such as a company or an application from a [!INCLUDE[navnow]
   
 2.  In the **\($ N\_9900 Import from Data File $\)** window, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+    |[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**File Name**|Specifies the name and location of the .navdata file that you want to import data from.|  
     |**All Companies**|Specifies if you want to import all companies in the current database.<br /><br /> If you do not choose this field, and you want to import one or more companies, you must select the relevant companies from the list of available companies.|  
@@ -67,5 +67,5 @@ You can export data such as a company or an application from a [!INCLUDE[navnow]
 5.  The data that you specified is now imported into your current database.  
   
 ## See Also  
- [Exporting and Importing Companies and Other Data](../dynamics-nav/Exporting-and-Importing-Companies-and-Other-Data.md)   
+ [Exporting and Importing Companies and Other Data](Exporting-and-Importing-Companies-and-Other-Data.md)   
  [How to: Export and Import Companies and Other Data using Windows PowerShell Cmdlets](../Topic/How%20to:%20Export%20and%20Import%20Companies%20and%20Other%20Data%20using%20Windows%20PowerShell%20Cmdlets.md)

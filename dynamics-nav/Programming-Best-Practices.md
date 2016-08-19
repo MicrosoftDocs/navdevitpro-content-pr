@@ -11,21 +11,21 @@ caps.latest.revision: 18
 manager: terryaus
 ---
 # Programming Best Practices
-This topic describes best practices for developing [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] applications.  
+This topic describes best practices for developing [!INCLUDE[navnow](includes/navnow_md.md)] applications.  
   
 ## Ensuring Simplicity  
- When you write a solution in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], keep it simple. This applies to everything that becomes visible either to other programmers or to any users. The following are a few examples.  
+ When you write a solution in [!INCLUDE[navnow](includes/navnow_md.md)], keep it simple. This applies to everything that becomes visible either to other programmers or to any users. The following are a few examples.  
   
 -   If the default value for a property is appropriate for a specific purpose, then do not make the default value explicit.  
   
--   If a variable can be reset with a statement such as `a := 0;` then do not use a special C\/AL function, such as the [CLEAR Function](../dynamics-nav/CLEAR-Function.md), to reset the variable.  
+-   If a variable can be reset with a statement such as `a := 0;` then do not use a special C\/AL function, such as the [CLEAR Function](CLEAR-Function.md), to reset the variable.  
   
--   If the contents of a record can be copied with a statement such as `MyRec := MyRec2;` then do not use a special C\/AL function, such as the [TRANSFERFIELDS Function \(Record\)](../dynamics-nav/TRANSFERFIELDS-Function--Record-.md), to copy the contents.  
+-   If the contents of a record can be copied with a statement such as `MyRec := MyRec2;` then do not use a special C\/AL function, such as the [TRANSFERFIELDS Function \(Record\)](TRANSFERFIELDS-Function--Record-.md), to copy the contents.  
   
 -   The Rec global variable references the source table of a page. When you refer to fields or functions of that table, you do not need to qualify them with Rec.\< *field*\> or Rec.\< *function*\>. You use \<*field*\> or \<*function*\>  
   
 ## Activating Objects  
- If you want to use the value of a field to find a record in a table or if you want to activate an object identified by the field, then ensure that the field contains a value. To do this, use the [TESTFIELD Function \(Record\)](../dynamics-nav/TESTFIELD-Function--Record-.md), as shown in the following example. This produces more informative error messages if the value is zero or blank.  
+ If you want to use the value of a field to find a record in a table or if you want to activate an object identified by the field, then ensure that the field contains a value. To do this, use the [TESTFIELD Function \(Record\)](TESTFIELD-Function--Record-.md), as shown in the following example. This produces more informative error messages if the value is zero or blank.  
   
 ```  
 GLEntry.TESTFIELD("Department Code");  
@@ -66,9 +66,9 @@ WITH Cust DO BEGIN
 END;  
 ```  
   
- To make Lookup work on a field that has a table relation to a system table, you must always explicitly set the [LookupPageID Property](../dynamics-nav/LookupPageID-Property.md) on controls that show the field.  
+ To make Lookup work on a field that has a table relation to a system table, you must always explicitly set the [LookupPageID Property](LookupPageID-Property.md) on controls that show the field.  
   
- Set the [LookupPageID Property](../dynamics-nav/LookupPageID-Property.md) and [DrillDownPageID Property](../dynamics-nav/DrillDownPageID-Property.md) on most tables. You cannot anticipate when a user must activate a Lookup or DrillDown button. For example, if a user creates a report with a filter tab on the table, then the Lookup button on the filter tab will not appear unless the LookupPageID property is set on the table.  
+ Set the [LookupPageID Property](LookupPageID-Property.md) and [DrillDownPageID Property](DrillDownPageID-Property.md) on most tables. You cannot anticipate when a user must activate a Lookup or DrillDown button. For example, if a user creates a report with a filter tab on the table, then the Lookup button on the filter tab will not appear unless the LookupPageID property is set on the table.  
   
 ## Designing Journal Pages  
  The default order of fields in journals is:  
@@ -183,4 +183,4 @@ END;
 |**Audit Information**|-   **User ID**<br />-   **Source Code**<br />-   **Reason Code**<br />-   **Entry No.**|  
   
 ## See Also  
- [Programming in C\-AL](../dynamics-nav/Programming-in-C-AL.md)
+ [Programming in C\-AL](Programming-in-C-AL.md)

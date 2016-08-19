@@ -11,7 +11,7 @@ caps.latest.revision: 9
 manager: tsiggaar
 ---
 # How to: Sign Up for a Microsoft Account
-You use a Microsoft account to sign in to the Microsoft Azure Management Portal when you configure [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] for use of Azure Active Directory \(Azure AD\) as authentication mechanism, or if you deploy [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] on Azure.  
+You use a Microsoft account to sign in to the Microsoft Azure Management Portal when you configure [!INCLUDE[navnow](includes/navnow_md.md)] for use of Azure Active Directory \(Azure AD\) as authentication mechanism, or if you deploy [!INCLUDE[navnow](includes/navnow_md.md)] on Azure.  
   
 ### To obtain a Microsoft account  
   
@@ -20,10 +20,10 @@ You use a Microsoft account to sign in to the Microsoft Azure Management Portal 
      For more information about Microsoft accounts, see the [What is a Microsoft account?](http://go.microsoft.com/fwlink/?LinkId=271494).  
   
 ## See Also  
- [Authenticating Users with Microsoft Azure Access Control Service](../dynamics-nav/Authenticating-Users-with-Microsoft-Azure-Access-Control-Service.md)   
- [Authenticating Users with Azure Active Directory](../dynamics-nav/Authenticating-Users-with-Azure-Active-Directory.md)   
- [Users and Credential Types](../dynamics-nav/Users-and-Credential-Types.md)   
- [Integrating Microsoft Dynamics NAV in SharePoint Sites](../dynamics-nav/Integrating-Microsoft-Dynamics-NAV-in-SharePoint-Sites.md)   
- [Preparing for Deploying Microsoft Dynamics NAV on Microsoft Azure](../dynamics-nav/Preparing-for-Deploying-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
- [Deploying Microsoft Dynamics NAV Using the Example Scripts](../dynamics-nav/Deploying-Microsoft-Dynamics-NAV-Using-the-Example-Scripts.md)   
- [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](../dynamics-nav/Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)
+ [Authenticating Users with Microsoft Azure Access Control Service](Authenticating-Users-with-Microsoft-Azure-Access-Control-Service.md)   
+ [Authenticating Users with Azure Active Directory](Authenticating-Users-with-Azure-Active-Directory.md)   
+ [Users and Credential Types](Users-and-Credential-Types.md)   
+ [Integrating Microsoft Dynamics NAV in SharePoint Sites](Integrating-Microsoft-Dynamics-NAV-in-SharePoint-Sites.md)   
+ [Preparing for Deploying Microsoft Dynamics NAV on Microsoft Azure](Preparing-for-Deploying-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
+ [Deploying Microsoft Dynamics NAV Using the Example Scripts](Deploying-Microsoft-Dynamics-NAV-Using-the-Example-Scripts.md)   
+ [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)

@@ -50,8 +50,8 @@ Customer.COPYFILTER("No.", Vendor."No.");
 Count := Vendor.COUNT;  
 ```  
   
- The filter set for Customer."No." is copied and applied to Vendor."No.". This affects the result of the [COUNT Function \(Record\)](../dynamics-nav/COUNT-Function--Record-.md), which counts how many vendors have a number less than 1000.  
+ The filter set for Customer."No." is copied and applied to Vendor."No.". This affects the result of the [COUNT Function \(Record\)](COUNT-Function--Record-.md), which counts how many vendors have a number less than 1000.  
   
 ## See Also  
- [COPYFILTERS Function \(Record\)](../dynamics-nav/COPYFILTERS-Function--Record-.md)   
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [COPYFILTERS Function \(Record\)](COPYFILTERS-Function--Record-.md)   
+ [Record Data Type](Record-Data-Type.md)

@@ -16,341 +16,341 @@ This topic lists properties that apply to the page object, controls, and actions
 ## Page Object Properties  
  The following properties apply to a **Page** object.  
   
--   [AutoSplitKey Property](../dynamics-nav/AutoSplitKey-Property.md)  
+-   [AutoSplitKey Property](AutoSplitKey-Property.md)  
   
--   [Caption Property\-duplicate](../dynamics-nav/Caption-Property-duplicate.md)  
+-   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
   
--   [CaptionML Property](../dynamics-nav/CaptionML-Property.md)  
+-   [CaptionML Property](CaptionML-Property.md)  
   
--   [CardPageID Property](../dynamics-nav/CardPageID-Property.md)  
+-   [CardPageID Property](CardPageID-Property.md)  
   
--   [DataCaptionExpr Property](../dynamics-nav/DataCaptionExpr-Property.md)  
+-   [DataCaptionExpr Property](DataCaptionExpr-Property.md)  
   
--   [DataCaptionFields Property](../dynamics-nav/DataCaptionFields-Property.md)  
+-   [DataCaptionFields Property](DataCaptionFields-Property.md)  
   
--   [DelayedInsert Property](../dynamics-nav/DelayedInsert-Property.md)  
+-   [DelayedInsert Property](DelayedInsert-Property.md)  
   
--   [DeleteAllowed Property](../dynamics-nav/DeleteAllowed-Property.md)  
+-   [DeleteAllowed Property](DeleteAllowed-Property.md)  
   
--   [Description Property](../dynamics-nav/Description-Property.md)  
+-   [Description Property](Description-Property.md)  
   
--   [Editable Property\-duplicate](../dynamics-nav/Editable-Property-duplicate.md)  
+-   [Editable Property\-duplicate](Editable-Property-duplicate.md)  
   
--   [InsertAllowed Property](../dynamics-nav/InsertAllowed-Property.md)  
+-   [InsertAllowed Property](InsertAllowed-Property.md)  
   
--   [ID Property](../dynamics-nav/ID-Property.md)  
+-   [ID Property](ID-Property.md)  
   
--   [InstructionalTextML Property](../dynamics-nav/InstructionalTextML-Property.md)  
+-   [InstructionalTextML Property](InstructionalTextML-Property.md)  
   
--   [LinksAllowed Property](../dynamics-nav/LinksAllowed-Property.md)  
+-   [LinksAllowed Property](LinksAllowed-Property.md)  
   
--   [ModifyAllowed Property](../dynamics-nav/ModifyAllowed-Property.md)  
+-   [ModifyAllowed Property](ModifyAllowed-Property.md)  
   
--   [MultipleNewLines Property](../dynamics-nav/MultipleNewLines-Property.md)  
+-   [MultipleNewLines Property](MultipleNewLines-Property.md)  
   
--   [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md)  
+-   [Name Property\-duplicate](Name-Property-duplicate.md)  
   
--   [PageType Property](../dynamics-nav/PageType-Property.md)  
+-   [PageType Property](PageType-Property.md)  
   
--   [Permissions Property](../dynamics-nav/Permissions-Property.md)  
+-   [Permissions Property](Permissions-Property.md)  
   
--   [PopulateAllFields Property](../dynamics-nav/PopulateAllFields-Property.md)  
+-   [PopulateAllFields Property](PopulateAllFields-Property.md)  
   
--   [PromotedActionCategoriesML Property](../dynamics-nav/PromotedActionCategoriesML-Property.md)  
+-   [PromotedActionCategoriesML Property](PromotedActionCategoriesML-Property.md)  
   
 -   RefreshOnActivate  
   
--   [SaveValues Property](../dynamics-nav/SaveValues-Property.md)  
+-   [SaveValues Property](SaveValues-Property.md)  
   
--   [ShowFilter Property](../dynamics-nav/ShowFilter-Property.md)  
+-   [ShowFilter Property](ShowFilter-Property.md)  
   
--   [SourceTable Property](../dynamics-nav/SourceTable-Property.md)  
+-   [SourceTable Property](SourceTable-Property.md)  
   
--   [SourceTableTemporary Property](../dynamics-nav/SourceTableTemporary-Property.md)  
+-   [SourceTableTemporary Property](SourceTableTemporary-Property.md)  
   
--   [SourceTableView Property](../dynamics-nav/SourceTableView-Property.md)  
+-   [SourceTableView Property](SourceTableView-Property.md)  
   
 ## Container Control Properties  
  The following properties apply to **Container** controls on a page.  
   
--   [Caption Property\-duplicate](../dynamics-nav/Caption-Property-duplicate.md)  
+-   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
   
--   [CaptionML Property](../dynamics-nav/CaptionML-Property.md)  
+-   [CaptionML Property](CaptionML-Property.md)  
   
--   [ContainerType Property](../dynamics-nav/ContainerType-Property.md)  
+-   [ContainerType Property](ContainerType-Property.md)  
   
--   [Description Property](../dynamics-nav/Description-Property.md)  
+-   [Description Property](Description-Property.md)  
   
--   [ID Property](../dynamics-nav/ID-Property.md)  
+-   [ID Property](ID-Property.md)  
   
--   [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md)  
+-   [Name Property\-duplicate](Name-Property-duplicate.md)  
   
 ## Group Control Properties  
  The following properties apply to **Group** controls on a page.  
   
--   [Caption Property\-duplicate](../dynamics-nav/Caption-Property-duplicate.md)  
+-   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
   
--   [CaptionML Property](../dynamics-nav/CaptionML-Property.md)  
+-   [CaptionML Property](CaptionML-Property.md)  
   
--   [Description Property](../dynamics-nav/Description-Property.md)  
+-   [Description Property](Description-Property.md)  
   
--   [Editable Property\-duplicate](../dynamics-nav/Editable-Property-duplicate.md)  
+-   [Editable Property\-duplicate](Editable-Property-duplicate.md)  
   
--   [Enabled Property\-duplicate](../dynamics-nav/Enabled-Property-duplicate.md)  
+-   [Enabled Property\-duplicate](Enabled-Property-duplicate.md)  
   
--   [FreezeColumnID Property](../dynamics-nav/FreezeColumnID-Property.md)  
+-   [FreezeColumnID Property](FreezeColumnID-Property.md)  
   
--   [GroupType Property](../dynamics-nav/GroupType-Property.md)  
+-   [GroupType Property](GroupType-Property.md)  
   
--   [ID Property](../dynamics-nav/ID-Property.md)  
+-   [ID Property](ID-Property.md)  
   
--   [IndentationColumnName Property](../dynamics-nav/IndentationColumnName-Property.md)  
+-   [IndentationColumnName Property](IndentationColumnName-Property.md)  
   
--   [IndentationControls Property](../dynamics-nav/IndentationControls-Property.md)  
+-   [IndentationControls Property](IndentationControls-Property.md)  
   
--   [InstructionalTextML Property](../dynamics-nav/InstructionalTextML-Property.md)  
+-   [InstructionalTextML Property](InstructionalTextML-Property.md)  
   
--   [Layout Property](../dynamics-nav/Layout-Property.md)  
+-   [Layout Property](Layout-Property.md)  
   
--   [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md)  
+-   [Name Property\-duplicate](Name-Property-duplicate.md)  
   
--   [ShowAsTree Property](../dynamics-nav/ShowAsTree-Property.md)  
+-   [ShowAsTree Property](ShowAsTree-Property.md)  
   
--   [Visible Property\-duplicate](../dynamics-nav/Visible-Property-duplicate.md)  
+-   [Visible Property\-duplicate](Visible-Property-duplicate.md)  
   
 ## Field Control Properties  
  The following properties apply to **Field** controls on a page.  
   
--   [AccessByPermission Property](../dynamics-nav/AccessByPermission-Property.md)  
+-   [AccessByPermission Property](AccessByPermission-Property.md)  
   
--   [AssistEdit Property](../dynamics-nav/AssistEdit-Property.md)  
+-   [AssistEdit Property](AssistEdit-Property.md)  
   
--   [AutoFormatExpr Property](../dynamics-nav/AutoFormatExpr-Property.md)  
+-   [AutoFormatExpr Property](AutoFormatExpr-Property.md)  
   
--   [AutoFormatType Property](../dynamics-nav/AutoFormatType-Property.md)  
+-   [AutoFormatType Property](AutoFormatType-Property.md)  
   
--   [BlankNumbers Property](../dynamics-nav/BlankNumbers-Property.md)  
+-   [BlankNumbers Property](BlankNumbers-Property.md)  
   
--   [BlankZero Property](../dynamics-nav/BlankZero-Property.md)  
+-   [BlankZero Property](BlankZero-Property.md)  
   
--   [Caption Property\-duplicate](../dynamics-nav/Caption-Property-duplicate.md)  
+-   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
   
--   [CaptionClass Property](../dynamics-nav/CaptionClass-Property.md)  
+-   [CaptionClass Property](CaptionClass-Property.md)  
   
--   [CaptionML Property](../dynamics-nav/CaptionML-Property.md)  
+-   [CaptionML Property](CaptionML-Property.md)  
   
--   [CharAllowed Property](../dynamics-nav/CharAllowed-Property.md)  
+-   [CharAllowed Property](CharAllowed-Property.md)  
   
--   [ClosingDates Property](../dynamics-nav/ClosingDates-Property.md)  
+-   [ClosingDates Property](ClosingDates-Property.md)  
   
--   [ColumnSpan Property](../dynamics-nav/ColumnSpan-Property.md)  
+-   [ColumnSpan Property](ColumnSpan-Property.md)  
   
--   [ControlAddin Property](../dynamics-nav/ControlAddin-Property.md)  
+-   [ControlAddin Property](ControlAddin-Property.md)  
   
--   [DateFormula Property](../dynamics-nav/DateFormula-Property.md)  
+-   [DateFormula Property](DateFormula-Property.md)  
   
--   [DecimalPlaces Property](../dynamics-nav/DecimalPlaces-Property.md)  
+-   [DecimalPlaces Property](DecimalPlaces-Property.md)  
   
--   [Description Property](../dynamics-nav/Description-Property.md)  
+-   [Description Property](Description-Property.md)  
   
--   [DrillDown Property](../dynamics-nav/DrillDown-Property.md)  
+-   [DrillDown Property](DrillDown-Property.md)  
   
--   [DrillDownPageID Property](../dynamics-nav/DrillDownPageID-Property.md)  
+-   [DrillDownPageID Property](DrillDownPageID-Property.md)  
   
--   [Editable Property\-duplicate](../dynamics-nav/Editable-Property-duplicate.md)  
+-   [Editable Property\-duplicate](Editable-Property-duplicate.md)  
   
--   [Enabled Property\-duplicate](../dynamics-nav/Enabled-Property-duplicate.md)  
+-   [Enabled Property\-duplicate](Enabled-Property-duplicate.md)  
   
--   [ExtendedDataType Property](../dynamics-nav/ExtendedDataType-Property.md)  
+-   [ExtendedDataType Property](ExtendedDataType-Property.md)  
   
--   [HideValue Property](../dynamics-nav/HideValue-Property.md)  
+-   [HideValue Property](HideValue-Property.md)  
   
--   [ID Property](../dynamics-nav/ID-Property.md)  
+-   [ID Property](ID-Property.md)  
   
--   [Importance Property](../dynamics-nav/Importance-Property.md)  
+-   [Importance Property](Importance-Property.md)  
   
--   [Lookup Property](../dynamics-nav/Lookup-Property.md)  
+-   [Lookup Property](Lookup-Property.md)  
   
--   [LookupPageID Property](../dynamics-nav/LookupPageID-Property.md)  
+-   [LookupPageID Property](LookupPageID-Property.md)  
   
--   [MaxValue Property](../dynamics-nav/MaxValue-Property.md)  
+-   [MaxValue Property](MaxValue-Property.md)  
   
--   [MinValue Property](../dynamics-nav/MinValue-Property.md)  
+-   [MinValue Property](MinValue-Property.md)  
   
--   [MultiLine Property](../dynamics-nav/MultiLine-Property.md)  
+-   [MultiLine Property](MultiLine-Property.md)  
   
--   [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md)  
+-   [Name Property\-duplicate](Name-Property-duplicate.md)  
   
--   [NotBlank Property](../dynamics-nav/NotBlank-Property.md)  
+-   [NotBlank Property](NotBlank-Property.md)  
   
--   [Numeric Property](../dynamics-nav/Numeric-Property.md)  
+-   [Numeric Property](Numeric-Property.md)  
   
--   [OptionCaption Property](../dynamics-nav/OptionCaption-Property.md)  
+-   [OptionCaption Property](OptionCaption-Property.md)  
   
--   [OptionCaptionML Property](../dynamics-nav/OptionCaptionML-Property.md)  
+-   [OptionCaptionML Property](OptionCaptionML-Property.md)  
   
--   [QuickEntry Property](../dynamics-nav/QuickEntry-Property.md)  
+-   [QuickEntry Property](QuickEntry-Property.md)  
   
--   [RowSpan Property](../dynamics-nav/RowSpan-Property.md)  
+-   [RowSpan Property](RowSpan-Property.md)  
   
--   [ShowCaption Property](../dynamics-nav/ShowCaption-Property.md)  
+-   [ShowCaption Property](ShowCaption-Property.md)  
   
--   [ShowMandatory Property](../dynamics-nav/ShowMandatory-Property.md)  
+-   [ShowMandatory Property](ShowMandatory-Property.md)  
   
--   [SourceExpr Property](../dynamics-nav/SourceExpr-Property.md)  
+-   [SourceExpr Property](SourceExpr-Property.md)  
   
--   [Style Property\-duplicate](../dynamics-nav/Style-Property-duplicate.md)  
+-   [Style Property\-duplicate](Style-Property-duplicate.md)  
   
--   [StyleExpr Property](../dynamics-nav/StyleExpr-Property.md)  
+-   [StyleExpr Property](StyleExpr-Property.md)  
   
--   [TableRelation Property](../dynamics-nav/TableRelation-Property.md)  
+-   [TableRelation Property](TableRelation-Property.md)  
   
--   [ToolTip Property](../dynamics-nav/ToolTip-Property.md)  
+-   [ToolTip Property](ToolTip-Property.md)  
   
--   [ToolTipML Property](../dynamics-nav/ToolTipML-Property.md)  
+-   [ToolTipML Property](ToolTipML-Property.md)  
   
--   [ValuesAllowed Property](../dynamics-nav/ValuesAllowed-Property.md)  
+-   [ValuesAllowed Property](ValuesAllowed-Property.md)  
   
--   [Visible Property\-duplicate](../dynamics-nav/Visible-Property-duplicate.md)  
+-   [Visible Property\-duplicate](Visible-Property-duplicate.md)  
   
--   [Width Property](../dynamics-nav/Width-Property.md)  
+-   [Width Property](Width-Property.md)  
   
 ## Part Control Properties  
  The following properties apply to **Part** controls on a page.  
   
--   [AccessByPermission Property](../dynamics-nav/AccessByPermission-Property.md)  
+-   [AccessByPermission Property](AccessByPermission-Property.md)  
   
--   [Caption Property\-duplicate](../dynamics-nav/Caption-Property-duplicate.md)  
+-   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
   
--   [CaptionML Property](../dynamics-nav/CaptionML-Property.md)  
+-   [CaptionML Property](CaptionML-Property.md)  
   
--   [ChartPartID Property](../dynamics-nav/ChartPartID-Property.md)  
+-   [ChartPartID Property](ChartPartID-Property.md)  
   
--   [Description Property](../dynamics-nav/Description-Property.md)  
+-   [Description Property](Description-Property.md)  
   
--   [Editable Property\-duplicate](../dynamics-nav/Editable-Property-duplicate.md)  
+-   [Editable Property\-duplicate](Editable-Property-duplicate.md)  
   
--   [Enabled Property\-duplicate](../dynamics-nav/Enabled-Property-duplicate.md)  
+-   [Enabled Property\-duplicate](Enabled-Property-duplicate.md)  
   
--   [ID Property](../dynamics-nav/ID-Property.md)  
+-   [ID Property](ID-Property.md)  
   
--   [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md)  
+-   [Name Property\-duplicate](Name-Property-duplicate.md)  
   
--   [PagePartID Property](../dynamics-nav/PagePartID-Property.md)  
+-   [PagePartID Property](PagePartID-Property.md)  
   
--   [PartType Property](../dynamics-nav/PartType-Property.md)  
+-   [PartType Property](PartType-Property.md)  
   
--   [ProviderID Property](../dynamics-nav/ProviderID-Property.md)  
+-   [ProviderID Property](ProviderID-Property.md)  
   
--   [ShowFilter Property](../dynamics-nav/ShowFilter-Property.md)  
+-   [ShowFilter Property](ShowFilter-Property.md)  
   
--   [SubPageLink Property](../dynamics-nav/SubPageLink-Property.md)  
+-   [SubPageLink Property](SubPageLink-Property.md)  
   
--   [SubPageView Property](../dynamics-nav/SubPageView-Property.md)  
+-   [SubPageView Property](SubPageView-Property.md)  
   
--   [SystemPartID Property](../dynamics-nav/SystemPartID-Property.md)  
+-   [SystemPartID Property](SystemPartID-Property.md)  
   
--   [ToolTip Property](../dynamics-nav/ToolTip-Property.md)  
+-   [ToolTip Property](ToolTip-Property.md)  
   
--   [ToolTipML Property](../dynamics-nav/ToolTipML-Property.md)  
+-   [ToolTipML Property](ToolTipML-Property.md)  
   
--   [UpdatePropagation Property](../dynamics-nav/UpdatePropagation-Property.md)  
+-   [UpdatePropagation Property](UpdatePropagation-Property.md)  
   
--   [Visible Property\-duplicate](../dynamics-nav/Visible-Property-duplicate.md)  
+-   [Visible Property\-duplicate](Visible-Property-duplicate.md)  
   
 ## ActionContainer Properties  
  The following properties apply to **ActionContainer** on a page.  
   
--   [Caption Property\-duplicate](../dynamics-nav/Caption-Property-duplicate.md)  
+-   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
   
--   [CaptionML Property](../dynamics-nav/CaptionML-Property.md)  
+-   [CaptionML Property](CaptionML-Property.md)  
   
--   [Description Property](../dynamics-nav/Description-Property.md)  
+-   [Description Property](Description-Property.md)  
   
--   [ID Property](../dynamics-nav/ID-Property.md)  
+-   [ID Property](ID-Property.md)  
   
--   [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md)  
+-   [Name Property\-duplicate](Name-Property-duplicate.md)  
   
 ## ActionGroup Properties  
  The following properties apply to **ActionGroups**.  
   
--   [Caption Property\-duplicate](../dynamics-nav/Caption-Property-duplicate.md)  
+-   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
   
--   [CaptionML Property](../dynamics-nav/CaptionML-Property.md)  
+-   [CaptionML Property](CaptionML-Property.md)  
   
--   [Description Property](../dynamics-nav/Description-Property.md)  
+-   [Description Property](Description-Property.md)  
   
--   [Enabled Property\-duplicate](../dynamics-nav/Enabled-Property-duplicate.md)  
+-   [Enabled Property\-duplicate](Enabled-Property-duplicate.md)  
   
--   [ID Property](../dynamics-nav/ID-Property.md)  
+-   [ID Property](ID-Property.md)  
   
--   [Image Property](../dynamics-nav/Image-Property.md)  
+-   [Image Property](Image-Property.md)  
   
--   [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md)  
+-   [Name Property\-duplicate](Name-Property-duplicate.md)  
   
--   [Visible Property\-duplicate](../dynamics-nav/Visible-Property-duplicate.md)  
+-   [Visible Property\-duplicate](Visible-Property-duplicate.md)  
   
 ## Action Properties  
  The following properties apply to **Actions**.  
   
--   [AccessByPermission Property](../dynamics-nav/AccessByPermission-Property.md)  
+-   [AccessByPermission Property](AccessByPermission-Property.md)  
   
--   [Caption Property\-duplicate](../dynamics-nav/Caption-Property-duplicate.md)  
+-   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
   
--   [CaptionML Property](../dynamics-nav/CaptionML-Property.md)  
+-   [CaptionML Property](CaptionML-Property.md)  
   
--   [Description Property](../dynamics-nav/Description-Property.md)  
+-   [Description Property](Description-Property.md)  
   
--   [Ellipsis Property](../dynamics-nav/Ellipsis-Property.md)  
+-   [Ellipsis Property](Ellipsis-Property.md)  
   
--   [Enabled Property\-duplicate](../dynamics-nav/Enabled-Property-duplicate.md)  
+-   [Enabled Property\-duplicate](Enabled-Property-duplicate.md)  
   
--   [ID Property](../dynamics-nav/ID-Property.md)  
+-   [ID Property](ID-Property.md)  
   
--   [Image Property](../dynamics-nav/Image-Property.md)  
+-   [Image Property](Image-Property.md)  
   
--   [InFooterBar Property](../dynamics-nav/InFooterBar-Property.md)  
+-   [InFooterBar Property](InFooterBar-Property.md)  
   
--   [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md)  
+-   [Name Property\-duplicate](Name-Property-duplicate.md)  
   
--   [Promoted Property](../dynamics-nav/Promoted-Property.md)  
+-   [Promoted Property](Promoted-Property.md)  
   
--   [PromotedCategory Property](../dynamics-nav/PromotedCategory-Property.md)  
+-   [PromotedCategory Property](PromotedCategory-Property.md)  
   
--   [PromotedIsBig Property](../dynamics-nav/PromotedIsBig-Property.md)  
+-   [PromotedIsBig Property](PromotedIsBig-Property.md)  
   
--   [PromotedOnly Property](../dynamics-nav/PromotedOnly-Property.md)  
+-   [PromotedOnly Property](PromotedOnly-Property.md)  
   
--   [RunPageLink Property](../dynamics-nav/RunPageLink-Property.md)  
+-   [RunPageLink Property](RunPageLink-Property.md)  
   
--   [RunPageMode Property](../dynamics-nav/RunPageMode-Property.md)  
+-   [RunPageMode Property](RunPageMode-Property.md)  
   
--   [RunPageOnRec Property](../dynamics-nav/RunPageOnRec-Property.md)  
+-   [RunPageOnRec Property](RunPageOnRec-Property.md)  
   
--   [RunPageView Property](../dynamics-nav/RunPageView-Property.md)  
+-   [RunPageView Property](RunPageView-Property.md)  
   
--   [RunObject Property](../dynamics-nav/RunObject-Property.md)  
+-   [RunObject Property](RunObject-Property.md)  
   
--   [Scope Property](../dynamics-nav/Scope-Property.md)  
+-   [Scope Property](Scope-Property.md)  
   
--   [ShortCutKey Property](../dynamics-nav/ShortCutKey-Property.md)  
+-   [ShortCutKey Property](ShortCutKey-Property.md)  
   
--   [ToolTip Property](../dynamics-nav/ToolTip-Property.md)  
+-   [ToolTip Property](ToolTip-Property.md)  
   
--   [ToolTipML Property](../dynamics-nav/ToolTipML-Property.md)  
+-   [ToolTipML Property](ToolTipML-Property.md)  
   
--   [Visible Property\-duplicate](../dynamics-nav/Visible-Property-duplicate.md)  
+-   [Visible Property\-duplicate](Visible-Property-duplicate.md)  
   
 ## Separator Properties  
  The following properties apply to **Separators**.  
   
--   [Caption Property\-duplicate](../dynamics-nav/Caption-Property-duplicate.md)  
+-   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
   
--   [CaptionML Property](../dynamics-nav/CaptionML-Property.md)  
+-   [CaptionML Property](CaptionML-Property.md)  
   
--   [ID Property](../dynamics-nav/ID-Property.md)  
+-   [ID Property](ID-Property.md)  
   
 -   IsHeader  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

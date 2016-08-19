@@ -23,4 +23,4 @@ The **Table Information** virtual table contains information about database tabl
 |**Size \(KB\)**|How much space the table occupies in the database \(in kilobytes\).|  
   
 ## See Also  
- [Virtual Tables](../dynamics-nav/Virtual-Tables.md)
+ [Virtual Tables](Virtual-Tables.md)

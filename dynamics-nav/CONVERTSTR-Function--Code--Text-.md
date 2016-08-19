@@ -92,5 +92,5 @@ MESSAGE(Text004, NewString);
  **Do you Want to Leave Without Saving?**  
   
 ## See Also  
- [Code Data Type](../dynamics-nav/Code-Data-Type.md)   
- [Text Data Type](../dynamics-nav/Text-Data-Type.md)
+ [Code Data Type](Code-Data-Type.md)   
+ [Text Data Type](Text-Data-Type.md)

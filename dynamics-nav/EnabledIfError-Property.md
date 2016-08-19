@@ -23,5 +23,5 @@ Sets a value that specifies whether an action is enabled or disabled if it enter
  **Yes**\/**No**  
   
 ## See Also  
- [EnabledIfInsertion Property](../dynamics-nav/EnabledIfInsertion-Property.md)   
- [EnabledIfSelection Property](../dynamics-nav/EnabledIfSelection-Property.md)
+ [EnabledIfInsertion Property](EnabledIfInsertion-Property.md)   
+ [EnabledIfSelection Property](EnabledIfSelection-Property.md)

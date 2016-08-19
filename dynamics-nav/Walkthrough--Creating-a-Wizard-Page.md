@@ -11,12 +11,12 @@ caps.latest.revision: 47
 manager: terryaus
 ---
 # Walkthrough: Creating a Wizard Page
-In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], you can use the NavigatePage page type to create a wizard page. A wizard page consists of a number of user input screens or steps linked together, enabling users to carry out infrequently performed tasks, such as configuration or specific business tasks. Examples of wizard pages in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] are Assisted Company Setup Wizard, page 1803 and Create Opportunity, page 5126.  
+In [!INCLUDE[navnow](includes/navnow_md.md)], you can use the NavigatePage page type to create a wizard page. A wizard page consists of a number of user input screens or steps linked together, enabling users to carry out infrequently performed tasks, such as configuration or specific business tasks. Examples of wizard pages in [!INCLUDE[navnow](includes/navnow_md.md)] are Assisted Company Setup Wizard, page 1803 and Create Opportunity, page 5126.  
   
  In this walkthrough we will use and refer to the NavigatePage type as a wizard, but the NavigatePage type can also be used for other types of pages, for example, page 344, Navigate.  
   
 > [!IMPORTANT]  
->  When you design NavigatePage pages, there are a few things to be aware of. The ribbon is not displayed when it is run on [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], [!INCLUDE[nav_tablet](../dynamics-nav/includes/nav_tablet_md.md)], or [!INCLUDE[nav_phone](../dynamics-nav/includes/nav_phone_md.md)].  
+>  When you design NavigatePage pages, there are a few things to be aware of. The ribbon is not displayed when it is run on [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)], or [!INCLUDE[nav_phone](includes/nav_phone_md.md)].  
 >   
 >  To get the right styling for the Back, Next, and Finish buttons, you must use specific images and set the **InFooterBar** property to **Yes**. Additionally,  
 >   
@@ -44,9 +44,9 @@ In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], you can use the Na
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] installed with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installed with a developer license.  
   
--   The [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+-   The [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 ## Story  
  Simon is a partner working for CRONUS International Ltd. Benjamin, the marketing manager at CRONUS, wants Simon to create a page that will enable him to create To\-dos for his team of salespeople. Simon must create a wizard page that makes it easy to link a To\-do with a sales campaign or sales opportunity. Simon knows that he can do this successfully if he uses the NavigatePage page type to create a To\-do wizard.  
@@ -59,7 +59,7 @@ In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], you can use the Na
   
 #### To create a wizard page  
   
-1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **Page**, and then choose **New**. The **New Page** window opens.  
   
@@ -138,7 +138,7 @@ In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], you can use the Na
   
 8.  When you have added all the necessary steps, close the Page Designer, and save your page.  
   
-     In the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], each step is displayed like a tab control until you add **Back**, **Next**, and **Finish** buttons to the lower part of the page. You will read about this in Adding Wizard Buttons.  
+     In the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], each step is displayed like a tab control until you add **Back**, **Next**, and **Finish** buttons to the lower part of the page. You will read about this in Adding Wizard Buttons.  
   
 ## Adding the Attendee Subform  
  When Ben opens his new wizard page for the first time, he wants to be able to choose a salesperson to create a To\-do for. Simon must add a control to Step 1 of the wizard, which allows him to select attendees from table 5080, Attendees.  
@@ -153,11 +153,11 @@ In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], you can use the Na
   
 4.  On the **View** menu, choose **Properties**. Set the **PagePartID** property to **Attendee Wizard Subform** \(5198\). This will ensure that Ben can select attendees for his To\-dos in the first step of the wizard.  
   
-5.  Close the **Properties** window, save your page, and in Page Designer, choose **Preview** to view your changes in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] and then close the **Preview** window.  
+5.  Close the **Properties** window, save your page, and in Page Designer, choose **Preview** to view your changes in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and then close the **Preview** window.  
   
      The following illustration shows the indentation of elements on the wizard page after adding steps and the attendee subform.  
   
-     ![Wizard page in Object Designer](../dynamics-nav/media/RTCPageWizard.png "RTCPageWizard")  
+     ![Wizard page in Object Designer](media/RTCPageWizard.png "RTCPageWizard")  
   
 ## Adding Wizard Buttons  
  Simon has now successfully created a basic wizard page. To make his page appear more like a wizard he must add **Next**, **Back**, and **Finish** buttons. To do this, Simon must add a new set of actions to his wizard page using the Action Designer.  
@@ -261,22 +261,22 @@ In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], you can use the Na
 9. Save and compile the page.  
   
 ## Running the Page  
- Test your new wizard page in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+ Test your new wizard page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
 #### To run the page  
   
 1.  In Object Designer, select page Ben's To\-dos, and then choose **Run**.  
   
-     The [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] opens and displays the new wizard page.  
+     The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] opens and displays the new wizard page.  
   
 ## Next Steps  
  Simon has now created a basic wizard page.  
   
- For more information about adding variables, constants, and functions, see [Codeunits](../dynamics-nav/Codeunits.md).  
+ For more information about adding variables, constants, and functions, see [Codeunits](Codeunits.md).  
   
 ## See Also  
  [How to: Add Actions to a Page](../Topic/How%20to:%20Add%20Actions%20to%20a%20Page.md)   
  [How to: Promote Actions on Pages](../Topic/How%20to:%20Promote%20Actions%20on%20Pages.md)   
  [How to: Create a Page](../Topic/How%20to:%20Create%20a%20Page.md)   
- [Touring the RoleTailored Client Pages](../dynamics-nav/Touring-the-RoleTailored-Client-Pages.md)   
+ [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
  [How to: Run a Page](../Topic/How%20to:%20Run%20a%20Page.md)

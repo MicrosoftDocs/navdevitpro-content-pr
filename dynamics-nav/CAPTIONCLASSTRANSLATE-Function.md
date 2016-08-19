@@ -32,7 +32,7 @@ String := CAPTIONCLASSTRANSLATE(CaptionClassText)
  The caption string in the current local language of the client.  
   
 ## Remarks  
- You can use the [SELECTLATESTVERSION Function \(Database\)](../dynamics-nav/SELECTLATESTVERSION-Function--Database-.md) to clear the current session's cache for the CaptionClassTranslate strings. The strings will then be reevaluated by the **CaptionClassTranslate** function trigger \(ID 15\) in codeunit 1.  
+ You can use the [SELECTLATESTVERSION Function \(Database\)](SELECTLATESTVERSION-Function--Database-.md) to clear the current session's cache for the CaptionClassTranslate strings. The strings will then be reevaluated by the **CaptionClassTranslate** function trigger \(ID 15\) in codeunit 1.  
   
 ## See Also  
- [CaptionClass Functionality](../dynamics-nav/CaptionClass-Functionality.md)
+ [CaptionClass Functionality](CaptionClass-Functionality.md)

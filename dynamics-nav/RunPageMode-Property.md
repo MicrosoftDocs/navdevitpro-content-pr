@@ -14,4 +14,4 @@ manager: terryaus
 Sets the mode in which the page is run. Choose between View, Edit, or Create.  
   
 ## See Also  
- [RunObject Property](../dynamics-nav/RunObject-Property.md)
+ [RunObject Property](RunObject-Property.md)

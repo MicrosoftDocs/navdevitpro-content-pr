@@ -11,7 +11,7 @@ caps.latest.revision: 13
 manager: terryaus
 ---
 # How to: Assign Permission to Use About This Page
-The supplemental permission sets that are provided for the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)] do not include permissions to run About This Report and do not include permissions to view all information for About This Page. To add permissions to run About This Report and to view all information for About This Page, you add the Zoom permission to a permission set and assign users to that permission set.  
+The supplemental permission sets that are provided for the [!INCLUDE[rtc](includes/rtc_md.md)] do not include permissions to run About This Report and do not include permissions to view all information for About This Page. To add permissions to run About This Report and to view all information for About This Page, you add the Zoom permission to a permission set and assign users to that permission set.  
   
 ## Adding the Zoom Permission  
   
@@ -35,5 +35,5 @@ The supplemental permission sets that are provided for the [!INCLUDE[rtc](../dyn
  After you add the Zoom permission to a permission set, you must assign users to that permission set. For more information, see [How to: Define Permissions for Users](../Topic/How%20to:%20Define%20Permissions%20for%20Users.md).  
   
 ## See Also  
- [Managing Users](../dynamics-nav/Managing-Users.md)   
- [Managing Permissions and Permission Sets](../dynamics-nav/Managing-Permissions-and-Permission-Sets.md)
+ [Managing Users](Managing-Users.md)   
+ [Managing Permissions and Permission Sets](Managing-Permissions-and-Permission-Sets.md)

@@ -11,7 +11,7 @@ caps.latest.revision: 67
 manager: edupont
 ---
 # Walkthrough: Creating a Web Service using Extension Codeunits (SOAP)
-This walkthrough shows how to publish and consume a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] page as a web service and how you can extend the [Basic Page Operations](../dynamics-nav/Basic-Page-Operations.md).  
+This walkthrough shows how to publish and consume a [!INCLUDE[navnow](includes/navnow_md.md)] page as a web service and how you can extend the [Basic Page Operations](Basic-Page-Operations.md).  
   
 ## About This Walkthrough  
  This walkthrough illustrates the following tasks:  
@@ -29,18 +29,18 @@ This walkthrough shows how to publish and consume a [!INCLUDE[navnow](../dynamic
 ### Prerequisites  
  To complete this walkthrough, you need:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] with a developer license.  
   
--   [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+-   [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 -   Visual Studio 2012 or Visual Studio 2010. You can use any edition of Visual Studio that supports adding web references. In this walkthrough, you will use Visual Studio 2012. You also have the option of using service references instead of web references, or of using the web service proxy generating tools svcutil.exe and wsdl.exe, which are included in the Microsoft .NET Framework SDK.  
   
 ## Publishing a Page as a Web Service  
- You publish a web service using the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)].  
+ You publish a web service using the [!INCLUDE[rtc](includes/rtc_md.md)].  
   
 #### To register and publish a page as a web service  
   
-1.  Open the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)], and then connect to the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+1.  Open the [!INCLUDE[rtc](includes/rtc_md.md)], and then connect to the [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 2.  In the **Search** box, enter **Web Services**, and then press Return.  
   
@@ -52,14 +52,14 @@ This walkthrough shows how to publish and consume a [!INCLUDE[navnow](../dynamic
   
 6.  Choose **OK** to close the **New \- Web Services** page.  
   
-     Do not close the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)] or navigate away from the **Web Services** page.  
+     Do not close the [!INCLUDE[rtc](includes/rtc_md.md)] or navigate away from the **Web Services** page.  
   
 ## Creating an Extension Codeunit  
  After you publish the page, you create a codeunit that extends its functionality. Follow the steps in this procedure to create a codeunit called **CapitalizeName**, which takes a customer name as input and outputs the same customer name capitalized. The codeunit must take the record type of the page as the first parameter.  
   
 #### To create an extension codeunit  
   
-1.  Open the [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] development environment, and then connect to the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+1.  Open the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] development environment, and then connect to the [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 2.  On the **Tools** menu, choose **Object Designer**.  
   
@@ -71,7 +71,7 @@ This walkthrough shows how to publish and consume a [!INCLUDE[navnow](../dynamic
   
 6.  Select the **CapitalizeName** function, in the **View** menu, choose **Properties**, and then set the **Local** property to **No**.  
   
-     Setting this property makes the function accessible from the other objects. For more information about this property, see [Local Property](../dynamics-nav/Local-Property.md).  
+     Setting this property makes the function accessible from the other objects. For more information about this property, see [Local Property](Local-Property.md).  
   
 7.  In the **C\/AL Globals** window, choose the **Locals** button.  
   
@@ -99,7 +99,7 @@ This walkthrough shows how to publish and consume a [!INCLUDE[navnow](../dynamic
   
 #### To connect the codeunit to the exposed page  
   
-1.  Navigate to the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)] again, and on the **Web Services** page, choose **New**.  
+1.  Navigate to the [!INCLUDE[rtc](includes/rtc_md.md)] again, and on the **Web Services** page, choose **New**.  
   
 2.  In the **Object Type** field, select **Codeunit**, and then select object ID **50012**. In the **Service Name** field, enter **PageWithCapitalization**, which is the same name that you gave the page web service.  
   
@@ -110,7 +110,7 @@ This walkthrough shows how to publish and consume a [!INCLUDE[navnow](../dynamic
 ## Verifying Web Services Availability  
   
 > [!NOTE]  
->  When exposing a web service, you must open the port for other consumers of your web service to access it. You can have your system administrator add the port through Windows Firewall on the computer running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]. The default port for SOAP web services is 7047. Use the [Microsoft Dynamics NAV Server Administration Tool](../dynamics-nav/Microsoft-Dynamics-NAV-Server-Administration-Tool.md) to configure the port for the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance; the option is on the SOAP Web Services tab.  
+>  When exposing a web service, you must open the port for other consumers of your web service to access it. You can have your system administrator add the port through Windows Firewall on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)]. The default port for SOAP web services is 7047. Use the [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md) to configure the port for the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance; the option is on the SOAP Web Services tab.  
   
 #### To verify availability of the web service  
   
@@ -198,4 +198,4 @@ This walkthrough shows how to publish and consume a [!INCLUDE[navnow](../dynamic
 10. On the **Build** menu, select **Build Solution** to build your project and then, from the Debug menu, choose **Start Debugging** to run the application in debug mode. You should now see a console window that creates a new customer using a default page operation and then capitalizes the customer name using the extension codeunit.  
   
 ## See Also  
- [Microsoft Dynamics NAV Web Services Overview](../dynamics-nav/Microsoft-Dynamics-NAV-Web-Services-Overview.md)
+ [Microsoft Dynamics NAV Web Services Overview](Microsoft-Dynamics-NAV-Web-Services-Overview.md)

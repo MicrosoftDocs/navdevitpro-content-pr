@@ -45,7 +45,7 @@ OnBeforeTestRun(CodeunitID : Integer;CodeunitName : Text[30];FunctionName : Text
  **true** to run the test function; otherwise, **false**. This value is checked after each function call.  
   
 ## Applies To  
- Test runner codeunits. Test runner codeunits have the [SubType Property \(Codeunit\)](../dynamics-nav/SubType-Property--Codeunit-.md) set to **TestRunner**.  
+ Test runner codeunits. Test runner codeunits have the [SubType Property \(Codeunit\)](SubType-Property--Codeunit-.md) set to **TestRunner**.  
   
 > [!NOTE]  
 >  This trigger is optional and not available on a test runner codeunit by default. To implement this trigger, you must manually add it as a function.  
@@ -57,7 +57,7 @@ OnBeforeTestRun(CodeunitID : Integer;CodeunitName : Text[30];FunctionName : Text
   
  You can use the **OnBeforeTestRun** triggers to perform preprocessing, such as general initialization and logging, or to automate tests by integrating the test runner codeunit with a test management framework.  
   
- For more information, see [Testing the Application](../dynamics-nav/Testing-the-Application.md) and [How to: Create a Test Runner Codeunit](../Topic/How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md).  
+ For more information, see [Testing the Application](Testing-the-Application.md) and [How to: Create a Test Runner Codeunit](../Topic/How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md).  
   
 ## Example  
  The following **OnBeforeTestRun** trigger code initializes a logging variable and returns **true** to indicate that the test function should execute. This example requires that you create the following global variable.  
@@ -72,9 +72,9 @@ EXIT(true);
 ```  
   
 ## See Also  
- [Testing the Application](../dynamics-nav/Testing-the-Application.md)   
+ [Testing the Application](Testing-the-Application.md)   
  [How to: Create a Test Runner Codeunit](../Topic/How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md)   
  [How to: Create Test Codeunits and Test Functions](../Topic/How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md)   
  [How to: Create Handler Functions](../Topic/How%20to:%20Create%20Handler%20Functions.md)   
  [Walkthrough: Testing Purchase Invoice Discounts](../Topic/Walkthrough:%20Testing%20Purchase%20Invoice%20Discounts.md)   
- [OnAfterTestRun Trigger](../dynamics-nav/OnAfterTestRun-Trigger.md)
+ [OnAfterTestRun Trigger](OnAfterTestRun-Trigger.md)

@@ -17,18 +17,18 @@ Specifies namespaces for the XMLport that imports or exports data as XML.
   
 ## Fields  
   
-|[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
-|**Prefix**|Specifies the namespace prefix.<br /><br /> You apply namespaces to XMLport elements by setting the [NamespacePrefix Property](../dynamics-nav/NamespacePrefix-Property.md) of the element.|  
+|**Prefix**|Specifies the namespace prefix.<br /><br /> You apply namespaces to XMLport elements by setting the [NamespacePrefix Property](NamespacePrefix-Property.md) of the element.|  
 |**Namespace**|Specifies the namespace, which is typically in the form of a URL string.|  
   
  To specify the default namespace, leave the **Prefix** field blank.  
   
 > [!NOTE]  
->  You can only define one default namespace. You can also define a space by specifying the namespace in the [DefaultNamespace Property](../dynamics-nav/DefaultNamespace-Property.md) and setting the [UseDefaultNamespace Property](../dynamics-nav/UseDefaultNamespace-Property.md) to **Yes**. If you want to specify the default namespace in this window, then you must set the **UseDefaultNamespace** Property to **No**.  
+>  You can only define one default namespace. You can also define a space by specifying the namespace in the [DefaultNamespace Property](DefaultNamespace-Property.md) and setting the [UseDefaultNamespace Property](UseDefaultNamespace-Property.md) to **Yes**. If you want to specify the default namespace in this window, then you must set the **UseDefaultNamespace** Property to **No**.  
   
- For more information about namespaces with XMLports, see [Using Namespaces with XMLports](../dynamics-nav/Using-Namespaces-with-XMLports.md).  
+ For more information about namespaces with XMLports, see [Using Namespaces with XMLports](Using-Namespaces-with-XMLports.md).  
   
 ## See Also  
- [Designing XMLports](../dynamics-nav/Designing-XMLports.md)   
+ [Designing XMLports](Designing-XMLports.md)   
  [How to: Create XMLports](../Topic/How%20to:%20Create%20XMLports.md)

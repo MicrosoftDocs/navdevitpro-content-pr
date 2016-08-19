@@ -30,4 +30,4 @@ Ok := Variant.ISINSTREAM
  **true** if the C\/AL variant contains an InStream variable; otherwise, **false**.  
   
 ## See Also  
- [Variant Data Type](../dynamics-nav/Variant-Data-Type.md)
+ [Variant Data Type](Variant-Data-Type.md)

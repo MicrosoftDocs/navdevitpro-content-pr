@@ -26,4 +26,4 @@ CurrPage.UPDATE[(SaveRecord)]
  Set this parameter to **true** if you want to save the current record. Set this parameter to **false** if you want to update without saving the current record. The default value is **true**.  
   
 ## See Also  
- [Page Data Type](../dynamics-nav/Page-Data-Type.md)
+ [Page Data Type](Page-Data-Type.md)

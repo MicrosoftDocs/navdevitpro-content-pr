@@ -16,9 +16,9 @@ Sets the type of page that is created.
  Pages  
   
 ## Remarks  
- You typically set this property when you are create new pages, but you can change it at any time. The value for the **PageType** property specifies the Page layout in [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] and [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)].  
+ You typically set this property when you are create new pages, but you can change it at any time. The value for the **PageType** property specifies the Page layout in [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
 ## See Also  
- [Pages](../dynamics-nav/Pages.md)   
+ [Pages](Pages.md)   
  [How to: Create a Page](../Topic/How%20to:%20Create%20a%20Page.md)   
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

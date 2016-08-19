@@ -35,9 +35,9 @@ Number := Record.COUNT
  This function returns the number of records that meet the conditions of any filters associated with the records. If no filters are set, then the function shows the total number of records in the table.  
   
 > [!NOTE]  
->  The **COUNT** function does not lock the table before retrieving the number of records in the table. This means that the function reads both uncommitted and committed data, which could cause the number of records that are returned to be inaccurate. To ensure that the count is accurate, use the [LOCKTABLE Function \(Record\)](../dynamics-nav/LOCKTABLE-Function--Record-.md) before you use the **COUNT** function.  
+>  The **COUNT** function does not lock the table before retrieving the number of records in the table. This means that the function reads both uncommitted and committed data, which could cause the number of records that are returned to be inaccurate. To ensure that the count is accurate, use the [LOCKTABLE Function \(Record\)](LOCKTABLE-Function--Record-.md) before you use the **COUNT** function.  
   
- In previous versions of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], the **COUNT** function ignored security filters and always returned the total number of records unless you called the **SETPERMISSIONFILTER** function to get a filtered count. In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], the **COUNT** function adheres to the [SecurityFiltering Property](../dynamics-nav/SecurityFiltering-Property.md). For more information, see [Security Filter Modes](../dynamics-nav/Security-Filter-Modes.md).  
+ In previous versions of [!INCLUDE[navnow](includes/navnow_md.md)], the **COUNT** function ignored security filters and always returned the total number of records unless you called the **SETPERMISSIONFILTER** function to get a filtered count. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], the **COUNT** function adheres to the [SecurityFiltering Property](SecurityFiltering-Property.md). For more information, see [Security Filter Modes](Security-Filter-Modes.md).  
   
 ## Example  
  This example requires that you create the following variables.  
@@ -61,4 +61,4 @@ IF CustomerRec.FIND('-') THEN
  Retrieving the count by using the first statement in the example is much faster because only one command to the Database Management System \(DBMS\) is needed.  
   
 ## See Also  
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [Record Data Type](Record-Data-Type.md)

@@ -11,7 +11,7 @@ caps.latest.revision: 7
 manager: tsiggaar
 ---
 # SQL Server Sysprep Installation Configuration File Example
-The following code is an example of a configuration file that you can use for installing SQL Server 2012 with SysPrep. You can use this code when you create a custom image for installing [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] on Microsoft Azure.  
+The following code is an example of a configuration file that you can use for installing SQL Server 2012 with SysPrep. You can use this code when you create a custom image for installing [!INCLUDE[navnow](includes/navnow_md.md)] on Microsoft Azure.  
   
  To use the code, copy the code into a text editor, such as Notepad, and then save the file that has the name ConfigurationFile.ini. For more information about how to use the ConfigurationFile.ini file, see [How to: Create a Microsoft Azure Virtual Machine Operating System Image for Microsoft Dynamics NAV](../Topic/How%20to:%20Create%20a%20Microsoft%20Azure%20Virtual%20Machine%20Operating%20System%20Image%20for%20Microsoft%20Dynamics%20NAV.md).  
   
@@ -81,6 +81,6 @@ INSTANCEDIR="C:\Program Files\Microsoft SQL Server"
 ```  
   
 ## See Also  
- [Preparing for Deploying Microsoft Dynamics NAV on Microsoft Azure](../dynamics-nav/Preparing-for-Deploying-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
- [Deploying Microsoft Dynamics NAV Using the Example Scripts](../dynamics-nav/Deploying-Microsoft-Dynamics-NAV-Using-the-Example-Scripts.md)   
- [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](../dynamics-nav/Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)
+ [Preparing for Deploying Microsoft Dynamics NAV on Microsoft Azure](Preparing-for-Deploying-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
+ [Deploying Microsoft Dynamics NAV Using the Example Scripts](Deploying-Microsoft-Dynamics-NAV-Using-the-Example-Scripts.md)   
+ [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)

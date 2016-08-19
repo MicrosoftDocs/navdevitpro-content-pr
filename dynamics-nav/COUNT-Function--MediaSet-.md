@@ -58,7 +58,7 @@ Item.GET('1000');
 ```  
   
 ## See Also  
- [MediaSet Data Type](../dynamics-nav/MediaSet-Data-Type.md)   
- [MEDIAID Function \(MediaSet\)](../dynamics-nav/MEDIAID-Function--MediaSet-.md)   
- [IMPORTFILE Function \(MediaSet\)](../dynamics-nav/IMPORTFILE-Function--MediaSet-.md)   
- [IMPORTSTREAM Function \(MediaSet\)](../dynamics-nav/IMPORTSTREAM-Function--MediaSet-.md)
+ [MediaSet Data Type](MediaSet-Data-Type.md)   
+ [MEDIAID Function \(MediaSet\)](MEDIAID-Function--MediaSet-.md)   
+ [IMPORTFILE Function \(MediaSet\)](IMPORTFILE-Function--MediaSet-.md)   
+ [IMPORTSTREAM Function \(MediaSet\)](IMPORTSTREAM-Function--MediaSet-.md)

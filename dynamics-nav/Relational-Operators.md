@@ -49,4 +49,4 @@ The relational operators are used to compare expressions.
 |code||||||||Boolean|Boolean|  
   
 ## See Also  
- [Type Conversion](../dynamics-nav/Type-Conversion.md)
+ [Type Conversion](Type-Conversion.md)

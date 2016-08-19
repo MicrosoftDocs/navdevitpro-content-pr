@@ -23,7 +23,7 @@ If a business scenario requires a workflow event or a workflow response that is 
 >  This topic refers to two types of events:  
 >   
 >  -   *Workflow Event*: An occurrence in the application that users can select from the **\($ N\_1501 Workflow $\)** window to define workflow steps. For more information, see [Workflow](../Topic/Workflow.md) in Application Help.  
-> -   *Event*: The declaration of the occurrence or change in the application. Workflow events typically subscribe to events. For more information, see [Events in Microsoft Dynamics NAV](../dynamics-nav/Events-in-Microsoft-Dynamics-NAV.md).  
+> -   *Event*: The declaration of the occurrence or change in the application. Workflow events typically subscribe to events. For more information, see [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md).  
   
  The development work involved in creating a new workflow event and a related workflow response consists of the following tasks, as a minimum:  
   
@@ -73,7 +73,7 @@ If a business scenario requires a workflow event or a workflow response that is 
   
 2.  Create a global function in the codeunit. Name the function to reflect that it is used to identify the workflow event, such as MyWorkflowEventCode. For more information, see [How to: Add a Function to a Codeunit](../Topic/How%20to:%20Add%20a%20Function%20to%20a%20Codeunit.md).  
   
-3.  Open the **C\/AL Locals** window to add a local return value. For more information, see [\($ S\_10205 C\-AL Locals $\)](../dynamics-nav/-$-S_10205-C-AL-Locals-$-.md).  
+3.  Open the **C\/AL Locals** window to add a local return value. For more information, see [\($ S\_10205 C\-AL Locals $\)](-$-S_10205-C-AL-Locals-$-.md).  
   
 4.  On the **Return Value** tab, fill the fields as described in the following table.  
   
@@ -116,7 +116,7 @@ If a business scenario requires a workflow event or a workflow response that is 
     |Property|Value|  
     |--------------|-----------|  
     |Event|Publisher|  
-    |EventType|Select the event type that is relevant for the workflow event, such as Integration. For more information, see [Event Types](../dynamics-nav/Event-Types.md).|  
+    |EventType|Select the event type that is relevant for the workflow event, such as Integration. For more information, see [Event Types](Event-Types.md).|  
   
 3.  Open the **C\/AL Locals** window to add a local parameter.  
   
@@ -126,7 +126,7 @@ If a business scenario requires a workflow event or a workflow response that is 
     |----------|--------------|-------------|  
     |Purchase Header|Record|Purchase Header|  
   
- For more information, see [Publishing Events](../dynamics-nav/Publishing-Events.md).  
+ For more information, see [Publishing Events](Publishing-Events.md).  
   
 ### To raise the event  
   
@@ -138,7 +138,7 @@ If a business scenario requires a workflow event or a workflow response that is 
     OnAfterPostPurchaseHeader(PurchaseHeader);  
     ```  
   
- For more information, see [Raising Events](../dynamics-nav/Raising-Events.md).  
+ For more information, see [Raising Events](Raising-Events.md).  
   
 ### To subscribe to the event and implement the workflow event  
   
@@ -170,7 +170,7 @@ If a business scenario requires a workflow event or a workflow response that is 
   
  Another task that you can perform at this point is to specify which filter fields appear in the **\($ N\_1526 Workflow Event Conditions $\)** window. For more information, see [\($ T\_1515 Dynamic Request Page Entity $\)](../Topic/\($%20T_1515%20Dynamic%20Request%20Page%20Entity%20$\).md).  
   
- For more information, see [Subscribing to Events](../dynamics-nav/Subscribing-to-Events.md).  
+ For more information, see [Subscribing to Events](Subscribing-to-Events.md).  
   
  You have now created a new workflow event. Proceed to create a new workflow response that relates to the workflow event.  
   
@@ -466,5 +466,5 @@ If a business scenario requires a workflow event or a workflow response that is 
  [\($ T\_1521 Workflow Response $\)](../Topic/\($%20T_1521%20Workflow%20Response%20$\).md)   
  [How to: Create Workflows](../Topic/How%20to:%20Create%20Workflows.md)   
  [Workflow](../Topic/Workflow.md)   
- [Events in Microsoft Dynamics NAV](../dynamics-nav/Events-in-Microsoft-Dynamics-NAV.md)   
- [Developer and IT Pro Help for Madeira](../dynamics-nav/Developer-and-IT-Pro-Help-for-Madeira.md)
+ [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)   
+ [Developer and IT Pro Help for Madeira](Developer-and-IT-Pro-Help-for-Madeira.md)

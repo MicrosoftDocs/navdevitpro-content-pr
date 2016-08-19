@@ -31,4 +31,4 @@ Caption := TestPage.CAPTION
  The caption of the test page.  
   
 ## See Also  
- [TestPage Functions](../dynamics-nav/TestPage-Functions.md)
+ [TestPage Functions](TestPage-Functions.md)

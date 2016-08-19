@@ -14,7 +14,7 @@ You can add beep sounds to your ADCS solution. To do this, you add the keyword *
   
 ### To add a beep sound to an ADCS string  
   
-1.  Start [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], and on the **Tools** menu, choose **Object Designer**.  
+1.  Start [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], and on the **Tools** menu, choose **Object Designer**.  
   
 2.  Choose **CodeUnit**, and from the list, select a codeunit for ADCS miniforms, for example, codeunit 7705.  
   
@@ -45,4 +45,4 @@ You can add beep sounds to your ADCS solution. To do this, you add the keyword *
      Recompile the codeunit.  
   
 ## See Also  
- [ADCS Overview](../dynamics-nav/ADCS-Overview.md)
+ [ADCS Overview](ADCS-Overview.md)

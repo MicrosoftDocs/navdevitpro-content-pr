@@ -37,7 +37,7 @@ Name := Record.FIELDNAME(Field)
  The name of the field specified.  
   
 ## Remarks  
- The [FIELDCAPTION Function \(Record\)](../dynamics-nav/FIELDCAPTION-Function--Record-.md) retrieves the [Caption Property\-duplicate](../dynamics-nav/Caption-Property-duplicate.md) of a field. If you want to enable your application for multilanguage functionality now or in the future, you must use the **FIELDCAPTION** function instead of the **FIELDNAME** function.  
+ The [FIELDCAPTION Function \(Record\)](FIELDCAPTION-Function--Record-.md) retrieves the [Caption Property\-duplicate](Caption-Property-duplicate.md) of a field. If you want to enable your application for multilanguage functionality now or in the future, you must use the **FIELDCAPTION** function instead of the **FIELDNAME** function.  
   
 ## Example  
  This example requires that you create the following variables.  
@@ -56,5 +56,5 @@ NameOfField := CustomerRec.FIELDNAME("No.");
  The advantage of using this statement instead of `Name := 'No.';` is that using the **FIELDNAME** function dynamically adapts to any change to the field name made in the development system. The statement `Name := 'No.';` performs a static assignment.  
   
 ## See Also  
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)   
- [Multilanguage Development](../dynamics-nav/Multilanguage-Development.md)
+ [Record Data Type](Record-Data-Type.md)   
+ [Multilanguage Development](Multilanguage-Development.md)

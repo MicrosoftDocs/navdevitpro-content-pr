@@ -23,4 +23,4 @@ Sets whether FlowFields should be automatically calculated.
  **Yes** if the FlowField is automatically calculated; otherwise, **No**. The default is **Yes**.  
   
 ## See Also  
- [FlowFields](../dynamics-nav/FlowFields.md)
+ [FlowFields](FlowFields.md)

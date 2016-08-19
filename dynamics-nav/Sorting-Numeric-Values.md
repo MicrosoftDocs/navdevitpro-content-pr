@@ -10,7 +10,7 @@ ms.assetid: 5b206aa1-9538-4349-a192-8e30a4ede9f4
 caps.latest.revision: 14
 ---
 # Sorting Numeric Values
-This topic explains how items, such as documents, are numbered in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+This topic explains how items, such as documents, are numbered in [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 ## Number Sorting  
  Code fields in tables can contain both numeric values and text strings. By default, code fields are stored in Microsoft SQL Server using the nvarchar SQL data type. Nvarchar data types are sorted as if they are text strings. The following table illustrates the differences that occur in sorting as numeric values and sorting as text.  
@@ -24,7 +24,7 @@ This topic explains how items, such as documents, are numbered in [!INCLUDE[navn
 |10|3|  
 |100|4|  
   
- You can change the **SQL Data Type** property to specify that a code field is stored as an Integer, BigInteger, or Variant instead of a Varchar. Storing a code field as an Integer, BigInteger, or Variant introduces additional constraints on the data in the field. For more information about these constraints, see [SQL Data Type Property](../dynamics-nav/SQL-Data-Type-Property.md).  
+ You can change the **SQL Data Type** property to specify that a code field is stored as an Integer, BigInteger, or Variant instead of a Varchar. Storing a code field as an Integer, BigInteger, or Variant introduces additional constraints on the data in the field. For more information about these constraints, see [SQL Data Type Property](SQL-Data-Type-Property.md).  
   
  To avoid sorting problems with code fields, we recommend that you use a numeric series that has a fixed length. You can do this in the following ways:  
   

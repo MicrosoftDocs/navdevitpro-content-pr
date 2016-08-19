@@ -17,7 +17,7 @@ Use this property to link to SQL Server objects.
  Tables  
   
 ## Remarks  
- When you set the LinkedObject property to **Yes**, the [LinkedInTransaction Property](../dynamics-nav/LinkedInTransaction-Property.md) becomes available.  
+ When you set the LinkedObject property to **Yes**, the [LinkedInTransaction Property](LinkedInTransaction-Property.md) becomes available.  
   
 ## See Also  
- [Table Properties](../dynamics-nav/Table-Properties.md)
+ [Table Properties](Table-Properties.md)

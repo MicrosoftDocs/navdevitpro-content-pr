@@ -39,4 +39,4 @@ Gets or sets the application areas for the current session.
 >  Currently, this functionality is intended for the application areas that are defined in **table 9178 Application Ares Setup**. You can define your own application areas but the implementation might change in future release.  
   
 ## See Also  
- [ApplicationArea Property](../dynamics-nav/ApplicationArea-Property.md)
+ [ApplicationArea Property](ApplicationArea-Property.md)

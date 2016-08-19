@@ -11,20 +11,20 @@ caps.latest.revision: 19
 manager: terryaus
 ---
 # How to: Preview Pages and Identify Page and Action Controls
-In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], you can preview a page directly from Page Designer to see how the page will look in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. Unlike running a page from Object Designer, previewing a page does not start the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], which means that you can keep working in the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)]. The **Page Preview** window includes the following features:  
+In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], you can preview a page directly from Page Designer to see how the page will look in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. Unlike running a page from Object Designer, previewing a page does not start the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], which means that you can keep working in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. The **Page Preview** window includes the following features:  
   
 -   The **Page Preview** window is automatically updated as you make changes in Page Designer and Action Designer. When you design a page, you can have the page preview open beside Page Designer so that you can see changes as you make them.  
   
 -   The **Page Preview** window is interactive. You can use page preview to identify and learn which controls in Page Designer and Action Designer correspond to the different elements on the rendered page, such as FastTabs, FactBoxes, fields, and actions.  
   
--   The **Page Preview** window does not require you to save the page before seeing how changes that you make to a page will look in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+-   The **Page Preview** window does not require you to save the page before seeing how changes that you make to a page will look in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
 > [!NOTE]  
->  The preview is not an active page in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], which means that you do not have all functionality in a page preview as you do when you run a page. For example, you cannot edit fields, and you cannot choose actions to open targets because actions are static. To enable this functionality, run the page in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. For more information, see [How to: Run a Page](../Topic/How%20to:%20Run%20a%20Page.md).  
+>  The preview is not an active page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], which means that you do not have all functionality in a page preview as you do when you run a page. For example, you cannot edit fields, and you cannot choose actions to open targets because actions are static. To enable this functionality, run the page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information, see [How to: Run a Page](../Topic/How%20to:%20Run%20a%20Page.md).  
   
 ### To preview a page  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, select a page, and then choose the **Design** button.  
   
@@ -44,7 +44,7 @@ In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], 
   
  The following figure shows an example for the **Document Date** field on page 42, Sales Order.  
   
- ![Page designer and preview with marked field](../dynamics-nav/media/NAV_PagePreview_PageControls.png "NAV\_PagePreview\_PageControls")  
+ ![Page designer and preview with marked field](media/NAV_PagePreview_PageControls.png "NAV\_PagePreview\_PageControls")  
   
 > [!NOTE]  
 >  If you select a part control that contains a subpage, such as a FastTab or FactBox, then the page preview displays the area as gray. To open Page Designer for the subpage, on the shortcut menu of the part, choose **Go To Definition**.  
@@ -57,7 +57,7 @@ In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], 
   
  The following figure shows an example for the **Shipments** action on page 42, Sales Order.  
   
- ![Action designer and preview with selected action](../dynamics-nav/media/NAV_PagePreview_ActionControl.png "NAV\_PagePreview\_ActionControl")  
+ ![Action designer and preview with selected action](media/NAV_PagePreview_ActionControl.png "NAV\_PagePreview\_ActionControl")  
   
 > [!NOTE]  
 >  In the **Page Preview** window, you cannot choose actions that are generated automatically on a page, such as **New**, **Edit**, and **Post**, or actions that are contained in a group that is defined by an **ActionGroup** control.  

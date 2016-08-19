@@ -35,6 +35,6 @@ MyText[5] := 'e';
 ```  
   
 ## See Also  
- [Text Data Type](../dynamics-nav/Text-Data-Type.md)   
- [Code Data Type](../dynamics-nav/Code-Data-Type.md)   
- [Byte Data Type](../dynamics-nav/Byte-Data-Type.md)
+ [Text Data Type](Text-Data-Type.md)   
+ [Code Data Type](Code-Data-Type.md)   
+ [Byte Data Type](Byte-Data-Type.md)

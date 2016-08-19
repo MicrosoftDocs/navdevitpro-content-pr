@@ -33,7 +33,7 @@ SLEEP(Duration)
 >  The period may be longer than *Duration* milliseconds, depending on what the operating system is doing at the time that control is to return to the caller.  
   
 ## See Also  
- [APPLICATIONPATH Function](../dynamics-nav/APPLICATIONPATH-Function.md)   
- [GUIALLOWED Function](../dynamics-nav/GUIALLOWED-Function.md)   
- [HYPERLINK Function](../dynamics-nav/HYPERLINK-Function.md)   
- [TEMPORARYPATH Function](../dynamics-nav/TEMPORARYPATH-Function.md)
+ [APPLICATIONPATH Function](APPLICATIONPATH-Function.md)   
+ [GUIALLOWED Function](GUIALLOWED-Function.md)   
+ [HYPERLINK Function](HYPERLINK-Function.md)   
+ [TEMPORARYPATH Function](TEMPORARYPATH-Function.md)

@@ -34,7 +34,7 @@ This topic describes the specifications and limitations for the database and app
 |Maximum number of fields in a record|500|  
 |Range for field numbers|1 – 999,999,999|  
 |Maximum number of keys for a table|40|  
-|Maximum size of a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] key|900 bytes|  
+|Maximum size of a [!INCLUDE[navnow](includes/navnow_md.md)] key|900 bytes|  
 |Maximum number of distinct fields per key|16|  
 |Maximum size of an index|900 bytes|  
 |Maximum number of SumIndexFields per key|20|  
@@ -64,6 +64,6 @@ This topic describes the specifications and limitations for the database and app
  <sup>1</sup>All application objects are identified by an ID number. There are restrictions, however, on the numbers you can use when you create your own application objects. Review your Partner License Agreement for more information.  
   
 ## See Also  
- [Objects](../dynamics-nav/Objects.md)   
- [Field Data Types](../dynamics-nav/Field-Data-Types.md)   
+ [Objects](Objects.md)   
+ [Field Data Types](Field-Data-Types.md)   
  [Maximum Capacity Specifications for SQL Server](http://go.microsoft.com/fwlink/?LinkId=302003)

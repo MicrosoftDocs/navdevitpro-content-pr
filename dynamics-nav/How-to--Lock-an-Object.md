@@ -15,7 +15,7 @@ You can lock objects so that other developers cannot save changes to the objects
   
 ### To manually lock an object  
   
-1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, select one or more objects that are not already locked, and then do one of the following steps:  
   
@@ -27,7 +27,7 @@ You can lock objects so that other developers cannot save changes to the objects
   
 ### To automatically lock all objects that you open for design  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Options**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Options**.  
   
 2.  In the **Options** window, in the **Auto\-Lock on Design** field, enter **Yes**, and then choose **OK**.  
   
@@ -35,8 +35,8 @@ You can lock objects so that other developers cannot save changes to the objects
     >  You cannot automatically unlock objects that you have locked. However, you can filter for locked objects, select all objects that you have locked, and then unlock these objects. For more information, see [How to: Unlock an Object](../Topic/How%20to:%20Unlock%20an%20Object.md).  
   
     > [!NOTE]  
-    >  If you go to the definition of an object, then the object is opened in design mode. Therefore, if you set the **Auto\-Lock on Design** field and then go to the definition of an object, then the object is locked. For more information, see [Viewing the Definition of a Function or Object by Using Go To Definition](../dynamics-nav/Viewing-the-Definition-of-a-Function-or-Object-by-Using-Go-To-Definition.md).  
+    >  If you go to the definition of an object, then the object is opened in design mode. Therefore, if you set the **Auto\-Lock on Design** field and then go to the definition of an object, then the object is locked. For more information, see [Viewing the Definition of a Function or Object by Using Go To Definition](Viewing-the-Definition-of-a-Function-or-Object-by-Using-Go-To-Definition.md).  
   
 ## See Also  
  [How to: Unlock an Object](../Topic/How%20to:%20Unlock%20an%20Object.md)   
- [Locking and Unlocking Objects](../dynamics-nav/Locking-and-Unlocking-Objects.md)
+ [Locking and Unlocking Objects](Locking-and-Unlocking-Objects.md)

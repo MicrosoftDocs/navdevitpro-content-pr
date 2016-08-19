@@ -73,5 +73,5 @@ MESSAGE(Text000 + Text001, No1, No2);
  **Number of records after MARKEDONLY: 1.**  
   
 ## See Also  
- [MARK Function \(Record\)](../dynamics-nav/MARK-Function--Record-.md)   
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [MARK Function \(Record\)](MARK-Function--Record-.md)   
+ [Record Data Type](Record-Data-Type.md)

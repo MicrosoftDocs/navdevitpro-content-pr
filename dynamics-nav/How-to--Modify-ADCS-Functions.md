@@ -16,7 +16,7 @@ To implement or change the functionality of a miniform function, you must create
   
  Each codeunit must contain the following functions.  
   
-|Function|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|Function|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
 |**OnRun**|Required. Every miniform\-specific codeunit must receive a Miniform Header record as a parameter, passed by variance. If this is the first call to the codeunit, the codeunit sends the XML document. If the user has entered some data, the function runs the **ProcessInput** function to process the user's data.|  
 |**ProcessInput**|Must appear in all Card\-type miniform\-specific codeunits. This function processes the user's input. For example, in codeunit 7705, this function reacts to the entry of a User ID, a Password, or the **ESC** function. Since this is a Card\-type miniform, the function also reacts when the user enters data in the last field in the form.|  
@@ -43,6 +43,6 @@ To implement or change the functionality of a miniform function, you must create
   
     ```  
   
-2.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], open table 7702, and add a code representing the new key. This example creates a key called F6.  
+2.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], open table 7702, and add a code representing the new key. This example creates a key called F6.  
   
 3.  Add C\/AL code to the relevant function of the miniform\-specific codeunit to handle the function key.

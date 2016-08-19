@@ -58,7 +58,7 @@ IF Item.FINDSET THEN
          This corresponds to the `ItemLedgerEntry` record variable in the record variable example.  
   
         > [!NOTE]  
-        >  The field of a filter row is not included in the resulting dataset. For more information, see [Understanding Query Filters](../dynamics-nav/Understanding-Query-Filters.md) and [How to: Set Up Filter Rows in Query Designer](../Topic/How%20to:%20Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md).  
+        >  The field of a filter row is not included in the resulting dataset. For more information, see [Understanding Query Filters](Understanding-Query-Filters.md) and [How to: Set Up Filter Rows in Query Designer](../Topic/How%20to:%20Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md).  
   
     -   Link the data items on the **No.** field of table 27 Item and **Item No.** field of table 32 ItemLedgerEntry by setting DataItemLink property. Set the DataItemLinkType property to **Exclude If No Matches**.  
   
@@ -70,7 +70,7 @@ IF Item.FINDSET THEN
   
      The following illustration shows the query in Query Designer.  
   
-     ![Query that links Item and Item Legder Entry tables](../dynamics-nav/media/NAV_Query_Example_InsteadOfRecords.png "NAV\_Query\_Example\_InsteadOfRecords")  
+     ![Query that links Item and Item Legder Entry tables](media/NAV_Query_Example_InsteadOfRecords.png "NAV\_Query\_Example\_InsteadOfRecords")  
   
 2.  Add the following code to a codeunit that will run the query.  
   
@@ -88,10 +88,10 @@ WHILE ItemMovements.READ DO
  The `OutputData` function performs the same operations as the OutputData function in the record variable example.  
   
 ## See Also  
- [Queries](../dynamics-nav/Queries.md)   
+ [Queries](Queries.md)   
  [How to: Create Queries](../Topic/How%20to:%20Create%20Queries.md)   
- [Working with Queries in C\-AL](../dynamics-nav/Working-with-Queries-in-C-AL.md)   
- [Understanding Query Filters](../dynamics-nav/Understanding-Query-Filters.md)   
- [SETRANGE Function \(Query\)](../dynamics-nav/SETRANGE-Function--Query-.md)   
- [OPEN Function \(Query\)](../dynamics-nav/OPEN-Function--Query-.md)   
- [TOPNUMBEROFROWS Function](../dynamics-nav/TOPNUMBEROFROWS-Function.md)
+ [Working with Queries in C\-AL](Working-with-Queries-in-C-AL.md)   
+ [Understanding Query Filters](Understanding-Query-Filters.md)   
+ [SETRANGE Function \(Query\)](SETRANGE-Function--Query-.md)   
+ [OPEN Function \(Query\)](OPEN-Function--Query-.md)   
+ [TOPNUMBEROFROWS Function](TOPNUMBEROFROWS-Function.md)

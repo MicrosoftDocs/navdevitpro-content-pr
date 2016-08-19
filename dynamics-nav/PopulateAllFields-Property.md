@@ -24,4 +24,4 @@ Sets whether fields are filled out automatically with a single filter value when
  Values are inserted in those fields where a currently active filter expression evaluates to exactly one value. Key fields are always populated.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

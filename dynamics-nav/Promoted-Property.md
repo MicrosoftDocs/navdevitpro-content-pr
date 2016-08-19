@@ -22,8 +22,8 @@ Sets the value that indicates whether the selected action is promoted, which mea
   
  Available options are Yes\/No \(Boolean\).  
   
- On [!INCLUDE[nav_tablet](../dynamics-nav/includes/nav_tablet_md.md)] and [!INCLUDE[nav_phone](../dynamics-nav/includes/nav_phone_md.md)] only promoted actions are displayed.  
+ On [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLUDE[nav_phone](includes/nav_phone_md.md)] only promoted actions are displayed.  
   
 ## See Also  
- [PromotedIsBig Property](../dynamics-nav/PromotedIsBig-Property.md)   
+ [PromotedIsBig Property](PromotedIsBig-Property.md)   
  [How to: Promote Actions on Pages](../Topic/How%20to:%20Promote%20Actions%20on%20Pages.md)

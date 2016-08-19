@@ -12,15 +12,15 @@ caps.latest.revision: 9
 # Strings
 This section contains the following topics:  
   
--   [BigText Data Type](../dynamics-nav/BigText-Data-Type.md)  
+-   [BigText Data Type](BigText-Data-Type.md)  
   
--   [Code Data Type](../dynamics-nav/Code-Data-Type.md)  
+-   [Code Data Type](Code-Data-Type.md)  
   
--   [Text Data Type](../dynamics-nav/Text-Data-Type.md)  
+-   [Text Data Type](Text-Data-Type.md)  
   
--   [BigText Functions](../dynamics-nav/BigText-Functions.md)  
+-   [BigText Functions](BigText-Functions.md)  
   
--   [String Functions](../dynamics-nav/String-Functions.md)  
+-   [String Functions](String-Functions.md)  
   
  We recommend the following guidelines for using the BigText, Code, and Text data types:  
   
@@ -34,4 +34,4 @@ This section contains the following topics:
   
 -   For all other text fields, use the Text data type.  
   
- In addition to the system functions that are available for string data types, you can also use C\/AL operators on strings. For example, to concatenate two strings, use the \+ operator. For more information, see [C\-AL Operators](../dynamics-nav/C-AL-Operators.md).
+ In addition to the system functions that are available for string data types, you can also use C\/AL operators on strings. For example, to concatenate two strings, use the \+ operator. For more information, see [C\-AL Operators](C-AL-Operators.md).

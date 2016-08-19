@@ -22,7 +22,7 @@ Sets a date formula used to verify that the date the user enters is correct.
 ## Remarks  
  The following table shows the syntax that is used to create the date formula.  
   
-|Syntax|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|Syntax|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |------------|---------------------------------------|  
 |**30D**|30 days|  
 |**2W**|2 weeks|  
@@ -32,14 +32,14 @@ Sets a date formula used to verify that the date the user enters is correct.
 |**CW\+1W**|Current week plus one week|  
 |**D15**|On the 15th of each month|  
   
- In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], weeks begin on Monday and end on Sunday.  
+ In [!INCLUDE[navnow](includes/navnow_md.md)], weeks begin on Monday and end on Sunday.  
   
  For fields, this property only applies to text and code fields.  
   
  The field settings are checked during validation.  
   
 > [!NOTE]  
->  We do not recommend that you use this property, but use the [DateFormula Data Type](../dynamics-nav/DateFormula-Data-Type.md) instead.  
+>  We do not recommend that you use this property, but use the [DateFormula Data Type](DateFormula-Data-Type.md) instead.  
   
 ## See Also  
- [DateFormula Data Type](../dynamics-nav/DateFormula-Data-Type.md)
+ [DateFormula Data Type](DateFormula-Data-Type.md)

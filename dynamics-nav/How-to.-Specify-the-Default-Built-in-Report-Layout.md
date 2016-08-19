@@ -15,7 +15,7 @@ You can specify whether a report uses a built\-in RDLC or Word report layout as 
   
 ### To specify the default report layout  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **Report**, select the report that you want to modify, and then choose **Design**.  
   
@@ -26,5 +26,5 @@ You can specify whether a report uses a built\-in RDLC or Word report layout as 
 5.  Save and compile the report.  
   
 ## See Also  
- [Designing RDLC Report Layouts](../dynamics-nav/Designing-RDLC-Report-Layouts.md)   
- [Designing Word Report Layouts](../dynamics-nav/Designing-Word-Report-Layouts.md)
+ [Designing RDLC Report Layouts](Designing-RDLC-Report-Layouts.md)   
+ [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)

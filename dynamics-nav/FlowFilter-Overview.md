@@ -17,7 +17,7 @@ A user may want to limit calculations to include only those values in a column t
   
  The following illustration shows the relationship between various types of database fields and the calculation formula.  
   
- ![](../dynamics-nav/media/NAV_ADG_6_Diag_5.gif "NAV\_ADG\_6\_Diag\_5")  
+ ![](media/NAV_ADG_6_Diag_5.gif "NAV\_ADG\_6\_Diag\_5")  
   
  The filters defined in the calculation formula can consist of constants, values from ordinary fields, and filters given as parameters in FlowFilter fields. In FlowFilter fields, a user can enter a filter value via the user interface in an application that will affect the calculation of a FlowField.  
   
@@ -25,7 +25,7 @@ A user may want to limit calculations to include only those values in a column t
   
  You cannot have a FlowFilter field as the **SourceExpr** value for a control on a page. If you do, then the control on the page is not editable, and you cannot select a value and filter the data that is displayed in the page.  
   
- To enable filtering data on a page, you can add a Filter pane to the page and use limit totals. For more information, see the Page Controls and Parts section of [Touring the RoleTailored Client Pages](../dynamics-nav/Touring-the-RoleTailored-Client-Pages.md).  
+ To enable filtering data on a page, you can add a Filter pane to the page and use limit totals. For more information, see the Page Controls and Parts section of [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md).  
   
 ## See Also  
- [FlowFields](../dynamics-nav/FlowFields.md)
+ [FlowFields](FlowFields.md)

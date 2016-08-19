@@ -13,11 +13,11 @@ manager: terryaus
 # ($ S_2139 Table Filter $)
 Sets a filter on a field. The filter can be a constant expression, a filter, or a field.  
   
- For more information about how to open this window, see [\($ S\_2139 Table Filter $\)](../dynamics-nav/-$-S_2139-Table-Filter-$-.md).  
+ For more information about how to open this window, see [\($ S\_2139 Table Filter $\)](-$-S_2139-Table-Filter-$-.md).  
   
 ## Fields  
   
-|[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
 |**Field**|The field to filter on.|  
 |**Type**|The type of filter to set. This can be a constant expression, a filter, or a field.|  

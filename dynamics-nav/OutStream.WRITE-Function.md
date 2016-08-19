@@ -53,5 +53,5 @@ recBinaries.MODIFY();
 ```  
   
 ## See Also  
- [InStream and OutStream Data Types](../dynamics-nav/InStream-and-OutStream-Data-Types.md)   
- [OutStream.WRITETEXT Function](../dynamics-nav/OutStream.WRITETEXT-Function.md)
+ [InStream and OutStream Data Types](InStream-and-OutStream-Data-Types.md)   
+ [OutStream.WRITETEXT Function](OutStream.WRITETEXT-Function.md)

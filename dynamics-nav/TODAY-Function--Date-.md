@@ -44,4 +44,4 @@ MESSAGE(Text000, TODAY);
  **The current date is: 05\/27\/08**  
   
 ## See Also  
- [Date and Time Functions](../dynamics-nav/Date-and-Time-Functions.md)
+ [Date and Time Functions](Date-and-Time-Functions.md)

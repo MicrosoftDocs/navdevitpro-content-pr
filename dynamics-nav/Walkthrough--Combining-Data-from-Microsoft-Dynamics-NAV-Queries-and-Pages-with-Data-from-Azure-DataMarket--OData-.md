@@ -11,12 +11,12 @@ caps.latest.revision: 28
 manager: edupont
 ---
 # Walkthrough: Combining Data from Microsoft Dynamics NAV Queries and Pages with Data from Azure DataMarket (OData)
-This walkthrough describes how you can use OData to combine data from [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] with data from Microsoft Azure Markeplace.  
+This walkthrough describes how you can use OData to combine data from [!INCLUDE[navnowlong](includes/navnowlong_md.md)] with data from Microsoft Azure Markeplace.  
   
 ## About This Walkthrough  
  This walkthrough illustrates the following tasks:  
   
--   Creating a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] query.  
+-   Creating a [!INCLUDE[navnow](includes/navnow_md.md)] query.  
   
 -   Publishing your query as a web service.  
   
@@ -24,31 +24,31 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
 -   Verifying the availability of the web services that use a browser.  
   
--   Using the PowerPivot add\-in for Excel to import data from your [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] web services as new worksheets.  
+-   Using the PowerPivot add\-in for Excel to import data from your [!INCLUDE[navnow](includes/navnow_md.md)] web services as new worksheets.  
   
 -   Connecting to demographic data available from Azure Marketplace.  
   
--   Creating a pivot table in Excel that combines [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] data with data from Azure Marketplace.  
+-   Creating a pivot table in Excel that combines [!INCLUDE[navnow](includes/navnow_md.md)] data with data from Azure Marketplace.  
   
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] with a developer license.  
   
--   [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+-   [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 -   Microsoft Excel 2013 with Microsoft PowerPivot enabled, or Microsoft Excel 2010 with the PowerPivot add\-in for Excel 2010 installed. For more information, see [PowerPivot Download Page](http://go.microsoft.com/fwlink/?LinkId=200002).  
   
 -   A Microsoft account for accessing data from Azure Marketplace. For more information about Microsoft account, see the [What is a Microsoft account?](http://go.microsoft.com/fwlink/?LinkId=271494). To obtain a Microsoft account, go to the [sign\-up page](http://go.microsoft.com/fwlink/?LinkId=271493).  
   
 ## Story  
- Victor, the business system developer at [!INCLUDE[demoname](../dynamics-nav/includes/demoname_md.md)], has been asked by his manager Tim to create a data visualization that will show total sales to customers in different countries\/regions, and how those countries\/regions align with Key Development Indicators, which are a measure of national\/regional affluence. Tim tells Victor that he can find information about Key Development Indicators on zure Marketplace. Victor assesses the assignment and decides that he can use OData web services to bring [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] data to Excel, where he can merge it with economic data from Azure Marketplace.  
+ Victor, the business system developer at [!INCLUDE[demoname](includes/demoname_md.md)], has been asked by his manager Tim to create a data visualization that will show total sales to customers in different countries\/regions, and how those countries\/regions align with Key Development Indicators, which are a measure of national\/regional affluence. Tim tells Victor that he can find information about Key Development Indicators on zure Marketplace. Victor assesses the assignment and decides that he can use OData web services to bring [!INCLUDE[navnow](includes/navnow_md.md)] data to Excel, where he can merge it with economic data from Azure Marketplace.  
   
-## Creating a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Query  
+## Creating a [!INCLUDE[navnow](includes/navnow_md.md)] Query  
  You create a query to capture data about sales to individual customers.  
   
 > [!NOTE]  
->  For more information about how to create more advanced queries that combine data from multiple [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] pages, see [Walkthrough: Creating a Query to Link Two Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md), [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](../Topic/Walkthrough:%20Creating%20a%20Query%20That%20Uses%20a%20Totaling%20Method%20and%20Sorting.md), or [Walkthrough: Creating a Query to Link Three Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Three%20Tables.md).  
+>  For more information about how to create more advanced queries that combine data from multiple [!INCLUDE[navnow](includes/navnow_md.md)] pages, see [Walkthrough: Creating a Query to Link Two Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md), [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](../Topic/Walkthrough:%20Creating%20a%20Query%20That%20Uses%20a%20Totaling%20Method%20and%20Sorting.md), or [Walkthrough: Creating a Query to Link Three Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Three%20Tables.md).  
   
 #### To create a query to capture data about sales to customers  
   
@@ -80,7 +80,7 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
      You should see the following in Query Designer.  
   
-     ![SalesOrderInfo query definition](../dynamics-nav/media/SalesOrderInfoQuery.JPG "SalesOrderInfoQuery")  
+     ![SalesOrderInfo query definition](media/SalesOrderInfoQuery.JPG "SalesOrderInfoQuery")  
   
 8.  On the **File** menu, choose **Save**.  
   
@@ -91,14 +91,14 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
 10. In Object Designer, choose query 50005, and then choose **Run**. When you run a query, you can view the data in the dataset.  
   
-     ![SalesOrderInfo query result](../dynamics-nav/media/SalesOrderInfoWithData.JPG "SalesOrderInfoWithData")  
+     ![SalesOrderInfo query result](media/SalesOrderInfoWithData.JPG "SalesOrderInfoWithData")  
   
 11. Close Query Designer and the development environment.  
   
 ## Publishing a Query and a Page as Web Services  
- You register and publish a web service by using the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+ You register and publish a web service by using the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
-1.  In the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] in the **Search** box, enter **Web services**, and then choose **Web Services**.  
+1.  In the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] in the **Search** box, enter **Web services**, and then choose **Web Services**.  
   
      The **Web Services** page opens.  
   
@@ -119,7 +119,7 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
 8.  Choose the **OK** button to exit the **New – Web Services** page.  
   
 ## Verifying Web Service Availability  
- You should verify that the web services that you just created are available over the Internet. When exposing a web service, you must open the port for consumers of your web service to access it. If necessary, have your system administrator add the port through Windows Firewall on the computer that is running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]. The default port for OData web services is 7048 and can be configured by using [!INCLUDE[nav_admin](../dynamics-nav/includes/nav_admin_md.md)]. For more information, see [Microsoft Dynamics NAV Server Administration Tool](../dynamics-nav/Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
+ You should verify that the web services that you just created are available over the Internet. When exposing a web service, you must open the port for consumers of your web service to access it. If necessary, have your system administrator add the port through Windows Firewall on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)]. The default port for OData web services is 7048 and can be configured by using [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. For more information, see [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
   
 #### To verify web service availability  
   
@@ -131,15 +131,15 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
      The browser should now show the web services that you have published, in the format of an AtomPub document.  
   
-     ![Two web services](../dynamics-nav/media/TwoWebServices.JPG "TwoWebServices")  
+     ![Two web services](media/TwoWebServices.JPG "TwoWebServices")  
   
     > [!IMPORTANT]  
     >  You may want to modify your Internet Explorer settings to display the actual XML for a feed instead of the feed content that has changed. Choose **Internet Options**, choose **Content**, choose **Feeds and Web Slices**, and then clear the **Turn on feed reading view** check box. Restart Internet Explorer to enable the new setting.  
   
-## Importing [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Data into Excel  
- In this procedure, you import [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] web service data into Excel.  
+## Importing [!INCLUDE[navnow](includes/navnow_md.md)] Data into Excel  
+ In this procedure, you import [!INCLUDE[navnow](includes/navnow_md.md)] web service data into Excel.  
   
-#### To import [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] data into Excel  
+#### To import [!INCLUDE[navnow](includes/navnow_md.md)] data into Excel  
   
 1.  Start Microsoft Excel. In Excel, on the **PowerPivot** tab, in the **Data Model** group, choose **Manage** to open the **PowerPivot Window**.  
   
@@ -153,10 +153,10 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
  You should now see data from the Customer page and the SalesOrderInfo query displayed as Excel workbooks. You can switch between pages using the tabs at the bottom of the Excel window.  
   
-## Enhancing the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Data by Adding a Column  
+## Enhancing the [!INCLUDE[navnow](includes/navnow_md.md)] Data by Adding a Column  
  Examine the SalesOrderInfo workbook in Excel. Notice that it has a Quantity column and an Amount column. In your final output you may want to show total sales per company, this is the Quantity multiplied by Amount. An easy way to achieve that is to add a column to the workbook that calculates that product.  
   
-#### To enhance [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] data by adding a column  
+#### To enhance [!INCLUDE[navnow](includes/navnow_md.md)] data by adding a column  
   
 1.  In the SalesOrderInfo workbook, choose **Add Column**, which is on the right side of the last data column.  
   
@@ -222,7 +222,7 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
 7.  Choose the **Run Query** button.  
   
-     You now see a view of the table data. Notice that the table contains two\-letter country\/region codes, country\/region names, and additional data about the countries\/regions listed. This data has enough in common with your [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] data to support a link between the two.  
+     You now see a view of the table data. Notice that the table contains two\-letter country\/region codes, country\/region names, and additional data about the countries\/regions listed. This data has enough in common with your [!INCLUDE[navnow](includes/navnow_md.md)] data to support a link between the two.  
   
 8.  Choose **Export** from the narrow column on the right side of the page. Choose **Excel PowerPivot**, and then choose **Download**.  
   
@@ -230,7 +230,7 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
 9. In Excel, a dialog box prompts that you select a workbook to import the atom feed to.  
   
-     ![Small PowerPivot dialog box](../dynamics-nav/media/SmallPowerPivotdialogbox.JPG "SmallPowerPivotdialogbox")  
+     ![Small PowerPivot dialog box](media/SmallPowerPivotdialogbox.JPG "SmallPowerPivotdialogbox")  
   
      Choose the **OK** button.  
   
@@ -250,9 +250,9 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
  You now have three workbooks in PowerPivot:  
   
--   **Customer**, which has data from a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] page.  
+-   **Customer**, which has data from a [!INCLUDE[navnow](includes/navnow_md.md)] page.  
   
--   **SalesOrderInfo**, which has data from a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] query.  
+-   **SalesOrderInfo**, which has data from a [!INCLUDE[navnow](includes/navnow_md.md)] query.  
   
 -   **World Development Indicators**, which has data from Azure Marketplace.  
   
@@ -261,7 +261,7 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
 ## Creating Relationships Between Data Sources  
  By creating relationships between your data sources in Excel, you make it possible to display data from multiple sources in the same pivot table.  
   
- Start by creating a relationship between the two [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] data sources: the **Customer** page and the **SalesOrderInfo** query. Both sources have a column that identifies the customer number, so this link is straightforward.  
+ Start by creating a relationship between the two [!INCLUDE[navnow](includes/navnow_md.md)] data sources: the **Customer** page and the **SalesOrderInfo** query. Both sources have a column that identifies the customer number, so this link is straightforward.  
   
  Then create a relationship between the respective columns on the **Customer** tab and on the **World Development Indicators** tab that use two\-letter abbreviations to identify countries\/regions.  
   
@@ -269,7 +269,7 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
 1.  Go to the **SalesOrderInfo** tab in PowerPivot for Excel, right\-click the header row for the **Sell\_to\_Customer\_No** column, and then from the list of commands, select **Create Relationship**.  
   
-     ![Creating a relationship between two data sources](../dynamics-nav/media/SellToWithRelationship.JPG "SellToWithRelationship")  
+     ![Creating a relationship between two data sources](media/SellToWithRelationship.JPG "SellToWithRelationship")  
   
 2.  In the **Create Relationship** dialog box, in the **Related Lookup Table** field, choose **Customer**.  
   
@@ -292,7 +292,7 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
 1.  In the PowerPivot ribbon, choose **PivotTable** and then, in the list of commands, choose **PivotTable** again.  
   
-     ![PivotTable from the PivotTable menu](../dynamics-nav/media/Pivot2.JPG "Pivot2")  
+     ![PivotTable from the PivotTable menu](media/Pivot2.JPG "Pivot2")  
   
 2.  In the **Create Pivot Table** dialog box, choose the **OK** button to accept the default, **New Worksheet**.  
   
@@ -309,13 +309,13 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
      PowerPivot automatically assigns these values to categories in the pivot table. **Country\_Region\_Code** and **No** are categorized as row labels, and **QuantityByAmount** as a sum.  
   
-     ![Adding fields to the PivotTable](../dynamics-nav/media/PivotFields1.JPG "PivotFields1")  
+     ![Adding fields to the PivotTable](media/PivotFields1.JPG "PivotFields1")  
   
      You can design a pivot table by moving values from one to list to another, configuring items in a list, or moving items up or down in a list.  
   
      Here is what the pivot table looks like at this point. Customers are arranged by country\/region, with total sales amounts.  
   
-     ![PivotTable, first look](../dynamics-nav/media/PivotTable1.JPG "PivotTable1")  
+     ![PivotTable, first look](media/PivotTable1.JPG "PivotTable1")  
   
 6.  One enhancement is to replace the **Country\_Region\_Code** with the actual name of the country\/region, which is available as a field in the **World Development Indicators** field.  
   
@@ -325,7 +325,7 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
 8.  Move **Name** up to the top of the **Row Labels** list.  
   
-     ![Move Name up](../dynamics-nav/media/MoveName.JPG "MoveName")  
+     ![Move Name up](media/MoveName.JPG "MoveName")  
   
 9. Choose **RegionName** from the **World Development Indicators** field, and then move it to the top of the **Row Labels** list.  
   
@@ -333,16 +333,16 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
      This completes the list of fields. The final list looks like this.  
   
-     ![Final pivot field list](../dynamics-nav/media/FinalPivotListing.JPG "FinalPivotListing")  
+     ![Final pivot field list](media/FinalPivotListing.JPG "FinalPivotListing")  
   
      The actual pivot table looks like this.  
   
-     ![Final pivot table](../dynamics-nav/media/FinalPivotTabl.JPG "FinalPivotTabl")  
+     ![Final pivot table](media/FinalPivotTabl.JPG "FinalPivotTabl")  
   
 11. Save the pivot table as **Customers by Economic Region.xlsx**.  
   
 ## Next Steps  
- Viktor’s results show that all customers are in countries\/regions that are categorized as “High income.” For a different result, open page 22 Customer List in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] and reassign some companies to countries\/regions that are in other income level categories. Then do the following:  
+ Viktor’s results show that all customers are in countries\/regions that are categorized as “High income.” For a different result, open page 22 Customer List in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and reassign some companies to countries\/regions that are in other income level categories. Then do the following:  
   
 1.  Go the Customer workbook in PowerPivot, choose **Refresh**, and then choose **Refresh All**.  
   
@@ -350,9 +350,9 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
  Now the final pivot table has a different result, as shown in the following example.  
   
- ![Final pivot table after modification](../dynamics-nav/media/FinalPivotDoctor.JPG "FinalPivotDoctor")  
+ ![Final pivot table after modification](media/FinalPivotDoctor.JPG "FinalPivotDoctor")  
   
 ## See Also  
- [OData Web Services](../dynamics-nav/OData-Web-Services.md)   
- [Web Services Best Practices](../dynamics-nav/Web-Services-Best-Practices.md)   
- [Web Services](../dynamics-nav/Web-Services.md)
+ [OData Web Services](OData-Web-Services.md)   
+ [Web Services Best Practices](Web-Services-Best-Practices.md)   
+ [Web Services](Web-Services.md)

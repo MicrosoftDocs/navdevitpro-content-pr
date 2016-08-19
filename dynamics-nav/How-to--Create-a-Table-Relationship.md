@@ -11,7 +11,7 @@ caps.latest.revision: 8
 manager: pchapman
 ---
 # How to: Create a Table Relationship
-Table relationships are defined using the [TableRelation Property](../dynamics-nav/TableRelation-Property.md). This property allows you to define both simple and advanced table relationships. A typical simple table relationship consists of a table name and an optional field name. An advanced table relationship might additionally contain conditions and filters.  
+Table relationships are defined using the [TableRelation Property](TableRelation-Property.md). This property allows you to define both simple and advanced table relationships. A typical simple table relationship consists of a table name and an optional field name. An advanced table relationship might additionally contain conditions and filters.  
   
 ### To create a table relationship  
   
@@ -38,4 +38,4 @@ Table relationships are defined using the [TableRelation Property](../dynamics-n
     5.  Choose **OK**.  
   
 ## See Also  
- [Setting Relationships Between Tables](../dynamics-nav/Setting-Relationships-Between-Tables.md)
+ [Setting Relationships Between Tables](Setting-Relationships-Between-Tables.md)

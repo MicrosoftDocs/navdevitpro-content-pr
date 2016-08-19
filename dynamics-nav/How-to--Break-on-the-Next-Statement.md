@@ -13,7 +13,7 @@ manager: terryaus
 # How to: Break on the Next Statement
 If the debugger is attached to a session, then you can specify that the debugger breaks before the next C\/AL statement is run in that session.  
   
- For more information about how to open the **Debugger** window, see [Activating the Debugger](../dynamics-nav/Activating-the-Debugger.md).  
+ For more information about how to open the **Debugger** window, see [Activating the Debugger](Activating-the-Debugger.md).  
   
 ### To specify a break on the next C\/AL statement  
   
@@ -24,4 +24,4 @@ If the debugger is attached to a session, then you can specify that the debugger
  [How to: Manage Breakpoints from the Development Environment](../Topic/How%20to:%20Manage%20Breakpoints%20from%20the%20Development%20Environment.md)   
  [How to: Break on Errors](../Topic/How%20to:%20Break%20on%20Errors.md)   
  [How to: Set Conditional Breakpoints](../Topic/How%20to:%20Set%20Conditional%20Breakpoints.md)   
- [Breakpoints](../dynamics-nav/Breakpoints.md)
+ [Breakpoints](Breakpoints.md)

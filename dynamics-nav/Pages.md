@@ -11,18 +11,18 @@ caps.latest.revision: 16
 manager: terryaus
 ---
 # Pages
-The following sections provide an overview of how to locate [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] documentation about developing pages.  
+The following sections provide an overview of how to locate [!INCLUDE[navnow](includes/navnow_md.md)] documentation about developing pages.  
   
- In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], pages provide the main way to interact with the RoleTailored client user interface. Pages are XML\-based and can be displayed on multiple display targets. They are also role based to the needs of individual users.  
+ In [!INCLUDE[navnow](includes/navnow_md.md)], pages provide the main way to interact with the RoleTailored client user interface. Pages are XML\-based and can be displayed on multiple display targets. They are also role based to the needs of individual users.  
   
 ## Page Development Documentation  
- This documentation is intended for [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] developers. It is intended that this topic will help you to quickly find the information that you need.  
+ This documentation is intended for [!INCLUDE[navnow](includes/navnow_md.md)] developers. It is intended that this topic will help you to quickly find the information that you need.  
   
 |To|See|  
 |--------|---------|  
-|Get a general introduction to the page object|[Pages Overview](../dynamics-nav/Pages-Overview.md)|  
-|Find out what page types are available and to understand how to choose the right one|[Touring the RoleTailored Client Pages](../dynamics-nav/Touring-the-RoleTailored-Client-Pages.md)|  
-|Learn about new and changed properties that are available in Page Designer|[Page Properties](../dynamics-nav/Page-Properties.md)|  
+|Get a general introduction to the page object|[Pages Overview](Pages-Overview.md)|  
+|Find out what page types are available and to understand how to choose the right one|[Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)|  
+|Learn about new and changed properties that are available in Page Designer|[Page Properties](Page-Properties.md)|  
   
 ## Creating Pages  
   
@@ -46,8 +46,8 @@ The following sections provide an overview of how to locate [!INCLUDE[navnow](..
   
 |To|See|  
 |--------|---------|  
-|Find the appropriate actions topic|[Adding Actions to Pages](../dynamics-nav/Adding-Actions-to-Pages.md)|  
-|Understand how actions are intended to be used in the RoleTailored client|[Actions Overview](../dynamics-nav/Actions-Overview.md)|  
+|Find the appropriate actions topic|[Adding Actions to Pages](Adding-Actions-to-Pages.md)|  
+|Understand how actions are intended to be used in the RoleTailored client|[Actions Overview](Actions-Overview.md)|  
 |Learn how to add actions to a page|[How to: Add Actions to a Page](../Topic/How%20to:%20Add%20Actions%20to%20a%20Page.md)|  
 |Learn how to promote actions to the ribbon|[How to: Promote Actions on Pages](../Topic/How%20to:%20Promote%20Actions%20on%20Pages.md)|  
 |Learn how to create action submenus|[How to: Add Action Submenus to Pages](../Topic/How%20to:%20Add%20Action%20Submenus%20to%20Pages.md)|  
@@ -59,5 +59,5 @@ The following sections provide an overview of how to locate [!INCLUDE[navnow](..
 |Preview a page in the RoleTailored client|[How to: Run a Page](../Topic/How%20to:%20Run%20a%20Page.md)|  
   
 ## See Also  
- [Page Designer Troubleshooting](../dynamics-nav/Page-Designer-Troubleshooting.md)   
- [Development](../dynamics-nav/Development.md)
+ [Page Designer Troubleshooting](Page-Designer-Troubleshooting.md)   
+ [Development](Development.md)

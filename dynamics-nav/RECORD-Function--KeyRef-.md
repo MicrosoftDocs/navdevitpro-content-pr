@@ -31,7 +31,7 @@ RecordRef := KeyRef.RECORD
  The RecordRef of the record that is currently selected referenced by the key. If a key is not selected, an error is returned.  
   
 ## Example  
- The table with ID 18 \(the Customer table\) is open with a reference. The [KeyRef Data Type](../dynamics-nav/KeyRef-Data-Type.md) for the record is retrieved by using the [KEYINDEX Function \(RecordRef\)](../dynamics-nav/KEYINDEX-Function--RecordRef-.md). The function retrieves the key that has an index of 1 in the record and stores the value in the varKeyRef variable. The varKeyRef variable is then used to return the [RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md). This example requires that you create the following variables in the **C\/AL Globals** window.  
+ The table with ID 18 \(the Customer table\) is open with a reference. The [KeyRef Data Type](KeyRef-Data-Type.md) for the record is retrieved by using the [KEYINDEX Function \(RecordRef\)](KEYINDEX-Function--RecordRef-.md). The function retrieves the key that has an index of 1 in the record and stores the value in the varKeyRef variable. The varKeyRef variable is then used to return the [RecordRef Data Type](RecordRef-Data-Type.md). This example requires that you create the following variables in the **C\/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -46,5 +46,5 @@ RecRef := varKeyRef.RECORD;
 ```  
   
 ## See Also  
- [KeyRef Data Type](../dynamics-nav/KeyRef-Data-Type.md)   
- [RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md)
+ [KeyRef Data Type](KeyRef-Data-Type.md)   
+ [RecordRef Data Type](RecordRef-Data-Type.md)

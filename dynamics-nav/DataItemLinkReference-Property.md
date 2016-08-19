@@ -11,7 +11,7 @@ caps.latest.revision: 6
 manager: pchapman
 ---
 # DataItemLinkReference Property
-Sets the parent data item to which a child \(indented\) data item is linked. After you specify the **DataItemLinkReference** value, use the [DataItemLink Property \(Reports\)](../dynamics-nav/DataItemLink-Property--Reports-.md) to specify a field from each data item on which to base the link.  
+Sets the parent data item to which a child \(indented\) data item is linked. After you specify the **DataItemLinkReference** value, use the [DataItemLink Property \(Reports\)](DataItemLink-Property--Reports-.md) to specify a field from each data item on which to base the link.  
   
 ## Applies To  
   

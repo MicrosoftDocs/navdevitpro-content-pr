@@ -32,7 +32,7 @@ Sets whether to display the page or control.
 > [!NOTE]  
 >  The dynamic options are only possible for group and part controls.  
   
- Using a variable for field and action controls requires that the variable be resolved by the [OnInit Trigger](../dynamics-nav/OnInit-Trigger.md) or [OnOpenPage Trigger](../dynamics-nav/OnOpenPage-Trigger.md).  
+ Using a variable for field and action controls requires that the variable be resolved by the [OnInit Trigger](OnInit-Trigger.md) or [OnOpenPage Trigger](OnOpenPage-Trigger.md).  
   
 ## Example: Dynamic Property Change Using a Boolean Field  
  To hide all payment fields on a customer card when line discounts are allowed, follow these steps:  
@@ -50,4 +50,4 @@ Sets whether to display the page or control.
  Now, when a user selects the **Allow Line Disc.** check box on a customer card, the **Payments** FastTab is not visible. Otherwise, the FastTab is visible.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

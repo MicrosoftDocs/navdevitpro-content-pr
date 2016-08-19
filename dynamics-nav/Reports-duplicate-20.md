@@ -21,23 +21,23 @@ You can use reports to print or display information from a database. You can use
   
 -   Data modeling, which is available when you design reports.  
   
- Creating a report involves two primary tasks. First you design the data model, or dataset, by using Report Dataset Designer. The dataset determines the data that is extracted or calculated from the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database tables that can be used in a report. After the dataset has been designed, you design the visual layout of the report. There are two types of report layouts that you can create: client report definition \(RDLC\) report layouts and Word report layouts. You create RDLC report layouts by using Visual Studio Report Designer or SQL Server Report Builder. You create Word report layouts by using Microsoft Word 2013.  
+ Creating a report involves two primary tasks. First you design the data model, or dataset, by using Report Dataset Designer. The dataset determines the data that is extracted or calculated from the [!INCLUDE[navnow](includes/navnow_md.md)] database tables that can be used in a report. After the dataset has been designed, you design the visual layout of the report. There are two types of report layouts that you can create: client report definition \(RDLC\) report layouts and Word report layouts. You create RDLC report layouts by using Visual Studio Report Designer or SQL Server Report Builder. You create Word report layouts by using Microsoft Word 2013.  
   
  The following table includes links to information to help you get started designing reports.  
   
 |To|See|  
 |--------|---------|  
-|Understand the difference between designing a data model for a report and designing the layout for a report.|[Report Design Overview](../dynamics-nav/Report-Design-Overview.md)|  
-|Understand the different types of reports.|[Types of Reports](../dynamics-nav/Types-of-Reports.md)|  
-|Learn how to design reports.|[Designing Reports](../dynamics-nav/Designing-Reports.md)|  
-|Learn the system requirements for [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] reports.|[System Requirements for Microsoft Dynamics NAV 2016](../dynamics-nav/System-Requirements-for-Microsoft-Dynamics-NAV-2016.md)|  
-|Upgrade a [!INCLUDE[nav2009](../dynamics-nav/includes/nav2009_md.md)] report to a [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] report.|[Upgrading Reports from Earlier Versions](../dynamics-nav/Upgrading-Reports-from-Earlier-Versions.md)|  
-|Add a report to the ribbon in the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)].|[How to: Make a Report Available from a Page](../Topic/How%20to:%20Make%20a%20Report%20Available%20from%20a%20Page.md)|  
-|Learn about the different ways to run a specific report.|[How to: Run Reports](../Topic/How%20to:%20Run%20Reports.md)<br /><br /> [Printing Reports](../dynamics-nav/Printing-Reports.md)|  
-|Learn about report triggers and when they are called during report processing.|[Report Triggers](../dynamics-nav/Report-Triggers.md)|  
-|Learn about how to design request pages for reports.|[Request Pages](../dynamics-nav/Request-Pages.md)|  
-|Step through detailed examples of creating reports|[Report Design Walkthroughs](../dynamics-nav/Report-Design-Walkthroughs.md)|  
+|Understand the difference between designing a data model for a report and designing the layout for a report.|[Report Design Overview](Report-Design-Overview.md)|  
+|Understand the different types of reports.|[Types of Reports](Types-of-Reports.md)|  
+|Learn how to design reports.|[Designing Reports](Designing-Reports.md)|  
+|Learn the system requirements for [!INCLUDE[navnowlong](includes/navnowlong_md.md)] reports.|[System Requirements for Microsoft Dynamics NAV 2016](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md)|  
+|Upgrade a [!INCLUDE[nav2009](includes/nav2009_md.md)] report to a [!INCLUDE[navnowlong](includes/navnowlong_md.md)] report.|[Upgrading Reports from Earlier Versions](Upgrading-Reports-from-Earlier-Versions.md)|  
+|Add a report to the ribbon in the [!INCLUDE[rtc](includes/rtc_md.md)].|[How to: Make a Report Available from a Page](../Topic/How%20to:%20Make%20a%20Report%20Available%20from%20a%20Page.md)|  
+|Learn about the different ways to run a specific report.|[How to: Run Reports](../Topic/How%20to:%20Run%20Reports.md)<br /><br /> [Printing Reports](Printing-Reports.md)|  
+|Learn about report triggers and when they are called during report processing.|[Report Triggers](Report-Triggers.md)|  
+|Learn about how to design request pages for reports.|[Request Pages](Request-Pages.md)|  
+|Step through detailed examples of creating reports|[Report Design Walkthroughs](Report-Design-Walkthroughs.md)|  
 |Use Visual Studio Report Designer to design the layouts of reports|[Report Designer](http://go.microsoft.com/fwlink/?LinkId=128245)|  
   
 ## See Also  
- [Objects](../dynamics-nav/Objects.md)
+ [Objects](Objects.md)

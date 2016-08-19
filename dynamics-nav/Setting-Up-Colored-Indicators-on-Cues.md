@@ -13,7 +13,7 @@ manager: edupont
 # Setting Up Colored Indicators on Cues
 You can set up Cues with an indicator that changes color based on the data values in the Cues. The indicator appears as a bar along the top border of the Cue tile. It provides a visual signal of the status of the Cue's activity, which can indicate various conditions such as favorable or unfavorable to prompt the user to take action.  
   
- ![Cues on the Order Processor Role Center](../dynamics-nav/media/NAV_Cues_OrderProcessor.png "NAV\_Cues\_OrderProcessor")  
+ ![Cues on the Order Processor Role Center](media/NAV_Cues_OrderProcessor.png "NAV\_Cues\_OrderProcessor")  
   
  For example, if a Cue displays open sales quotes, you can set up the indicator to appear green \(favorable\) when total number of open sales quotes is below 10, and appears red \(unfavorable\) when the total is greater than 20.  
   
@@ -27,11 +27,11 @@ You can set up Cues with an indicator that changes color based on the data value
   
 -   Coding the GetCueStyle trigger in codeunit 1  
   
-     With this method, you define the logic for the indicators for all Cues in one place. Using the GetCueStyle trigger also enables you to provide customization of the indicators from the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] clients.  
+     With this method, you define the logic for the indicators for all Cues in one place. Using the GetCueStyle trigger also enables you to provide customization of the indicators from the [!INCLUDE[navnow](includes/navnow_md.md)] clients.  
   
-     For more information, see [Setting Up Colored Indicators on Cues by Using Codeunit 1](../dynamics-nav/Setting-Up-Colored-Indicators-on-Cues-by-Using-Codeunit-1.md).  
+     For more information, see [Setting Up Colored Indicators on Cues by Using Codeunit 1](Setting-Up-Colored-Indicators-on-Cues-by-Using-Codeunit-1.md).  
   
 ## See Also  
- [Creating and Customizing Cues](../dynamics-nav/Creating-and-Customizing-Cues.md)   
+ [Creating and Customizing Cues](Creating-and-Customizing-Cues.md)   
  [Walkthrough: Creating a Cue Based on a FlowField](../Topic/Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20FlowField.md)   
  [Walkthrough: Creating a Cue Based on a Normal Field and a Query](../Topic/Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20Normal%20Field%20and%20a%20Query.md)

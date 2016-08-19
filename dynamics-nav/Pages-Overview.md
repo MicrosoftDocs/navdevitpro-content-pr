@@ -11,10 +11,10 @@ caps.latest.revision: 35
 manager: terryaus
 ---
 # Pages Overview
-In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], pages are the main way to display and organize data. Pages display in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] and [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], which offer users a visual experience closely aligned to Microsoft Office and Windows. [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] and [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] are [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)]s where every user has a Role Center page, tailored to their individual needs and tasks they perform. Other types of pages, such as List pages might display lists of customers or sales orders, while others such as Document pages, focus on user tasks. Each page has its own set of controls that should only be used with that page type. For example, Cues are only used on Role Center pages, FastTabs are used on Card and Document pages, and Fixed Layout controls are used on Worksheet pages.  
+In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display and organize data. Pages display in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)], which offer users a visual experience closely aligned to Microsoft Office and Windows. [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)] are [!INCLUDE[rtc](includes/rtc_md.md)]s where every user has a Role Center page, tailored to their individual needs and tasks they perform. Other types of pages, such as List pages might display lists of customers or sales orders, while others such as Document pages, focus on user tasks. Each page has its own set of controls that should only be used with that page type. For example, Cues are only used on Role Center pages, FastTabs are used on Card and Document pages, and Fixed Layout controls are used on Worksheet pages.  
   
 ## The Page Object  
- In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], a page is basically an XML object composed of controls, properties, actions, triggers, and code. You create page objects in Page Designer and save them in Object Designer in the same way as you save other [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] objects.  
+ In [!INCLUDE[navnow](includes/navnow_md.md)], a page is basically an XML object composed of controls, properties, actions, triggers, and code. You create page objects in Page Designer and save them in Object Designer in the same way as you save other [!INCLUDE[navnow](includes/navnow_md.md)] objects.  
   
  In Page Designer, you can start by creating a blank page or choose from over 10 page types. Pages can be linked to a source table, unless you want to create a Role Center or a blank page not based on a page type data from a table.  
   
@@ -31,7 +31,7 @@ In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], pages are the main
   
  When you add controls, each row is automatically indented, although every time you add a row you can adjust indentation manually with right and left indentation controls. If you indent an element in your page incorrectly, you will get an error message when you try to save and compile the page.  
   
- Use the Properties window to set your properties on a page. Properties work in the same way for pages as they do for other [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] objects, although there are several new and changed properties in pages. For more information, see [Page Properties](../dynamics-nav/Page-Properties.md).  
+ Use the Properties window to set your properties on a page. Properties work in the same way for pages as they do for other [!INCLUDE[navnow](includes/navnow_md.md)] objects, although there are several new and changed properties in pages. For more information, see [Page Properties](Page-Properties.md).  
   
  Use C\/AL Globals in Object Designer to define C\/AL triggers and functions on a page.  
   
@@ -60,10 +60,10 @@ In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], pages are the main
   
 -   Standard Dialog  
   
- For more information about page types, see [Touring the RoleTailored Client Pages](../dynamics-nav/Touring-the-RoleTailored-Client-Pages.md).  
+ For more information about page types, see [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md).  
   
 ## Designing Pages  
- In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], when you design and create pages you use the Page Designer, which is part of the Object Designer in.  
+ In [!INCLUDE[navnow](includes/navnow_md.md)], when you design and create pages you use the Page Designer, which is part of the Object Designer in.  
   
  When you design new pages you should start by looking at the wide variety of roles, tasks, and activities in your organization. These tasks and activities should be reflected in the pages that you create, and the navigation that you add to a page. There are several different page types which you can use to help you in this process. Each page type behaves like a container or template on which you can add controls and navigation elements called actions.  
   
@@ -96,12 +96,12 @@ In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], pages are the main
   
 -   Filter Pane  
   
- For more information about controls, see [Touring the RoleTailored Client Pages](../dynamics-nav/Touring-the-RoleTailored-Client-Pages.md).  
+ For more information about controls, see [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md).  
   
 ## Adding Navigation to Pages  
  All pages contain menu items and navigation controls called Actions.  
   
- In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] there are three categories of Actions:  
+ In [!INCLUDE[navnow](includes/navnow_md.md)] there are three categories of Actions:  
   
 -   Action Items  
   
@@ -117,7 +117,7 @@ In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], pages are the main
   
  You can access Action Designer from Page Designer. When you want to add actions to a page, open Page Designer, choose the last available row at the bottom of the page, choose View, and then choose Actions to open Action Designer. You use the Action Designer in the same way as you use Page Designer. You add new actions as rows in the Action Designer window, and set Action Types and SubTypes using the drop\-down menus. Each action also has its own set of properties available in the Properties window.  
   
- For more information about actions, see [Actions Overview](../dynamics-nav/Actions-Overview.md).  
+ For more information about actions, see [Actions Overview](Actions-Overview.md).  
   
 ## Best Practices for Designing Pages  
  We recommend that you simplify the user experience by reducing what users see by default. You can promote the information that the users most frequently need to see and hide the less important information. For example:  
@@ -129,5 +129,5 @@ In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], pages are the main
 -   Use one to three FactBoxes on a page to provide supplementary information and a place for adding notes.  
   
 ## See Also  
- [Touring the RoleTailored Client Pages](../dynamics-nav/Touring-the-RoleTailored-Client-Pages.md)   
- [Actions Overview](../dynamics-nav/Actions-Overview.md)
+ [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
+ [Actions Overview](Actions-Overview.md)

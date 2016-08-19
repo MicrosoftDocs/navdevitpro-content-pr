@@ -53,5 +53,5 @@ RecRef.SETTABLE(ProdOrderComp);
 ```  
   
 ## See Also  
- [GETTABLE Function \(RecordRef\)](../dynamics-nav/GETTABLE-Function--RecordRef-.md)   
- [RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md)
+ [GETTABLE Function \(RecordRef\)](GETTABLE-Function--RecordRef-.md)   
+ [RecordRef Data Type](RecordRef-Data-Type.md)

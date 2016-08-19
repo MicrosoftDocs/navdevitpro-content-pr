@@ -12,8 +12,8 @@ caps.latest.revision: 3
 # Code Coverage Virtual Table
 The Code Coverage virtual table \(ID 2000000049\) contains data about automated test execution and the extent to which application code is covered by test.  
   
- Code coverage is the means of being able to track which part of the application code has been exercised during test activity. In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], code coverage is recorded by C\/AL code line and specifies if a code line was exercised by test and the number of times the line of code was recorded.  
+ Code coverage is the means of being able to track which part of the application code has been exercised during test activity. In [!INCLUDE[navnow](includes/navnow_md.md)], code coverage is recorded by C\/AL code line and specifies if a code line was exercised by test and the number of times the line of code was recorded.  
   
 ## See Also  
- [Application Test Automation](../dynamics-nav/Application-Test-Automation.md)   
- [\($ N\_9990 Code Coverage $\)](../dynamics-nav/-$-N_9990-Code-Coverage-$-.md)
+ [Application Test Automation](Application-Test-Automation.md)   
+ [\($ N\_9990 Code Coverage $\)](-$-N_9990-Code-Coverage-$-.md)

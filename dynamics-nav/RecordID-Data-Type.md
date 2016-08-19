@@ -13,5 +13,5 @@ caps.latest.revision: 4
 This data type contains the table number and the primary key of a table. You can store a RecordID in the database but you cannot set filters on a RecordID.  
   
 ## See Also  
- [GETRECORD Function \(RecordID\)](../dynamics-nav/GETRECORD-Function--RecordID-.md)   
- [TABLENO Function \(RecordID\)](../dynamics-nav/TABLENO-Function--RecordID-.md)
+ [GETRECORD Function \(RecordID\)](GETRECORD-Function--RecordID-.md)   
+ [TABLENO Function \(RecordID\)](TABLENO-Function--RecordID-.md)

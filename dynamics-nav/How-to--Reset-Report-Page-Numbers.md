@@ -11,11 +11,11 @@ caps.latest.revision: 17
 manager: edupont
 ---
 # How to: Reset Report Page Numbers
-On some reports, you may want to group sets of data together and reset the page number after each group. For example, in the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)], report 206, Sales Invoice, displays sales invoices that are grouped by sales invoice number. To reset the page number to 1 for each group of data, you must modify code on the client report definition \(RDLC\) report layout.  
+On some reports, you may want to group sets of data together and reset the page number after each group. For example, in the [!INCLUDE[demolong](includes/demolong_md.md)], report 206, Sales Invoice, displays sales invoices that are grouped by sales invoice number. To reset the page number to 1 for each group of data, you must modify code on the client report definition \(RDLC\) report layout.  
   
 ### To reset page numbers  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **Report**, select a report that you want to modify, and then choose the **Design** button.  
   
@@ -101,4 +101,4 @@ On some reports, you may want to group sets of data together and reset the page 
 14. In the **Expression** window, choose the **OK** button.  
   
 ## See Also  
- [Designing Reports](../dynamics-nav/Designing-Reports.md)
+ [Designing Reports](Designing-Reports.md)

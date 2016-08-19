@@ -34,5 +34,5 @@ TestPage.Action.INVOKE
  All actions that are available on the page are also available on the test page.  
   
 ## See Also  
- [Test Pages](../dynamics-nav/Test-Pages.md)   
- [TestPage Functions](../dynamics-nav/TestPage-Functions.md)
+ [Test Pages](Test-Pages.md)   
+ [TestPage Functions](TestPage-Functions.md)

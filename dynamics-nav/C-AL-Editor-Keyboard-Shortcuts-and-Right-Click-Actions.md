@@ -29,7 +29,7 @@ This topic describes the keyboard shortcuts and right\-click actions in the C\/A
 |Ctrl\+Shift\+U|Make the selected code uppercase.|  
 |Ctrl\+Shift\+N|Expand all collapsed code.|  
 |Ctrl\+K\+I|Display information about C\/AL symbol \(such as variable, functions, and parameter\) in which the cursor is positioned. This displays the same text as when you point to the element.|  
-|Ctrl\+F12|Go to a definition of function or object. For more information, see [Viewing the Definition of a Function or Object by Using Go To Definition](../dynamics-nav/Viewing-the-Definition-of-a-Function-or-Object-by-Using-Go-To-Definition.md).|  
+|Ctrl\+F12|Go to a definition of function or object. For more information, see [Viewing the Definition of a Function or Object by Using Go To Definition](Viewing-the-Definition-of-a-Function-or-Object-by-Using-Go-To-Definition.md).|  
   
 ## Right\-Click Actions  
  The following table describes the actions that you can perform by right\-clicking code in the **\($ S\_10203\_1 C\/AL Editor $\)** window.  
@@ -37,13 +37,13 @@ This topic describes the keyboard shortcuts and right\-click actions in the C\/A
 |Keystroke|Action|  
 |---------------|------------|  
 |Go to line|Go to specific line of code by specifying the line number. **Note:**  At the time of this writing, this functionality was not yet supported.|  
-|Go to definition|Go to a definition of function or object. For more information, see [Viewing the Definition of a Function or Object by Using Go To Definition](../dynamics-nav/Viewing-the-Definition-of-a-Function-or-Object-by-Using-Go-To-Definition.md).|  
+|Go to definition|Go to a definition of function or object. For more information, see [Viewing the Definition of a Function or Object by Using Go To Definition](Viewing-the-Definition-of-a-Function-or-Object-by-Using-Go-To-Definition.md).|  
 |Copy|Copy the line of code where the cursor is or copy the selected lines of code. You can then use **Paste** to copy the lines where you want them.|  
 |Cut|Remove the line of code where the cursor is or remove the selected lines of code. You can then use **Paste** to copy the lines where you want them.|  
 |Paste|Place lines of copied or cut code where the cursor is located.|  
   
 ## See Also  
- [Programming in C\-AL](../dynamics-nav/Programming-in-C-AL.md)   
- [\($ S\_10203\_1 C\-AL Editor $\)](../dynamics-nav/-$-S_10203_1-C-AL-Editor-$-.md)   
- [\($ S\_10204 C\-AL Globals $\)](../dynamics-nav/-$-S_10204-C-AL-Globals-$-.md)   
- [\($ S\_10205 C\-AL Locals $\)](../dynamics-nav/-$-S_10205-C-AL-Locals-$-.md)
+ [Programming in C\-AL](Programming-in-C-AL.md)   
+ [\($ S\_10203\_1 C\-AL Editor $\)](-$-S_10203_1-C-AL-Editor-$-.md)   
+ [\($ S\_10204 C\-AL Globals $\)](-$-S_10204-C-AL-Globals-$-.md)   
+ [\($ S\_10205 C\-AL Locals $\)](-$-S_10205-C-AL-Locals-$-.md)

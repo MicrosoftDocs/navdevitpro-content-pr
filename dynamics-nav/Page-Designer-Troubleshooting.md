@@ -21,4 +21,4 @@ This topic contains information about known troubleshooting issues in Page Desig
 2.  You can open the **Field Menu** window, select the fields that you want to add, and then select the row in the page where you want to insert fields. If you choose this method, the **OK** and **Cancel** buttons are unavailable in the **Field Menu** window. If you click anywhere in the **Page Designer** window, you will see a message box asking, “Do you want to add the fields that are selected in the field menu?”  
   
 ## See Also  
- [Pages](../dynamics-nav/Pages.md)
+ [Pages](Pages.md)

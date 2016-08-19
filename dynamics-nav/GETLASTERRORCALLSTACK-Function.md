@@ -29,7 +29,7 @@ String := GETLASTERRORCALLSTACK
   
  \<*codeunit name*\>\(Codeunit \<*number*\>\).\<*function name*\> line \<*line number*\>\\\[\<*calling codeunit name*\>\(Codeunit \<*number*\>\).\<*calling function name*\> line \<*line number*\>\\...\]  
   
- The string cannot exceed the maximum string length that is specified in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], which is 1,024 characters.  
+ The string cannot exceed the maximum string length that is specified in [!INCLUDE[navnow](includes/navnow_md.md)], which is 1,024 characters.  
   
  If no error has occurred, then the function returns an empty string.  
   
@@ -61,4 +61,4 @@ IF NOT Codeunit.RUN(50001) THEN
  **TestErrors2\(CodeUnit 50002\).OnRun\(Trigger\) line 2**  
   
 ## See Also  
- [Error Handling](../dynamics-nav/Error-Handling.md)
+ [Error Handling](Error-Handling.md)

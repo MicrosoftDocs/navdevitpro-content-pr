@@ -11,7 +11,7 @@ caps.latest.revision: 3
 manager: edupont
 ---
 # SAVEASXML Function (Reports)
-Saves a report as an .xml file on the computer that is running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)].  
+Saves a report as an .xml file on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
 ## Syntax  
   
@@ -32,10 +32,10 @@ Saves a report as an .xml file on the computer that is running [!INCLUDE[nav_ser
  *FileName*  
  Type: Text  
   
- The path and the name of the file that you want to save the report as. The path must exist, the file must not be being used, and the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] must have permission to write to the file. Otherwise, you will get errors.  
+ The path and the name of the file that you want to save the report as. The path must exist, the file must not be being used, and the [!INCLUDE[nav_server](includes/nav_server_md.md)] must have permission to write to the file. Otherwise, you will get errors.  
   
 > [!TIP]  
->  If you call this function from a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] client, such as from an action on a page, then you can use the [DOWNLOAD Function \(File\)](../dynamics-nav/DOWNLOAD-Function--File-.md) to send the .xml file from the computer that is running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] to the computer that is running the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] client.  
+>  If you call this function from a [!INCLUDE[navnow](includes/navnow_md.md)] client, such as from an action on a page, then you can use the [DOWNLOAD Function \(File\)](DOWNLOAD-Function--File-.md) to send the .xml file from the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] to the computer that is running the [!INCLUDE[navnow](includes/navnow_md.md)] client.  
   
  *Record*  
  Type: Record  
@@ -65,14 +65,14 @@ Saves a report as an .xml file on the computer that is running [!INCLUDE[nav_ser
   
  **An I\/O exception occurred during the operation.**  
   
- If the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] does not have permission to write to the file that you specify in *FileName*, then you get the following error:  
+ If the [!INCLUDE[nav_server](includes/nav_server_md.md)] does not have permission to write to the file that you specify in *FileName*, then you get the following error:  
   
  **Either the caller does not have the required permission or the specified path is read\-only.**  
   
- To resolve this issue, verify that the service account that is running the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance has write permissions on the path.  
+ To resolve this issue, verify that the service account that is running the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance has write permissions on the path.  
   
 ## Example  
- This example shows how to use the SAVEASXML function to save a report as an .xml file on the computer that is running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] and then download the file to a different computer that is running the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. This example requires that you create the following variables.  
+ This example shows how to use the SAVEASXML function to save a report as an .xml file on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] and then download the file to a different computer that is running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. This example requires that you create the following variables.  
   
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  
@@ -115,4 +115,4 @@ TempFile.CLOSE();
  You can create an action on a page and set the action to run this code. When you run the action, the **Export File** dialog box opens. Choose **Save** to save the file to the client.  
   
 ## See Also  
- [Report Data Type](../dynamics-nav/Report-Data-Type.md)
+ [Report Data Type](Report-Data-Type.md)

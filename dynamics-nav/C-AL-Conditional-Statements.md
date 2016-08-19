@@ -156,7 +156,7 @@ END;
 > [!NOTE]  
 >  This type conversion can cause an overflow at run time if the resulting data type cannot hold the values of the datasets.  
   
- For more information about Code variables, see [Code Data Type](../dynamics-nav/Code-Data-Type.md).  
+ For more information about Code variables, see [Code Data Type](Code-Data-Type.md).  
   
 ### Programming Conventions  
  When you use a CASE statement, indent the value sets by two character spaces. If you have two or more value sets on the same line, then separate them by commas without spaces. The last value set on a line is immediately followed by a colon without a preceding space. The action starts on the line after the value set and is further indented by two character spaces. If there is a BEGIN, then it should be put on a separate line unless it follows ELSE. If a BEGIN follows an ELSE, then it should be on the same line as ELSE.  
@@ -218,6 +218,6 @@ ELSE
  The value set 'abc' is not converted because the evaluated expression MyCode is a Code variable.  
   
 ## See Also  
- [C\-AL Compound Statements](../dynamics-nav/C-AL-Compound-Statements.md)   
- [C\-AL Repetitive Statements](../dynamics-nav/C-AL-Repetitive-Statements.md)   
- [C\-AL WITH Statements](../dynamics-nav/C-AL-WITH-Statements.md)
+ [C\-AL Compound Statements](C-AL-Compound-Statements.md)   
+ [C\-AL Repetitive Statements](C-AL-Repetitive-Statements.md)   
+ [C\-AL WITH Statements](C-AL-WITH-Statements.md)

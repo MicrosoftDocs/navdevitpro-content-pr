@@ -11,7 +11,7 @@ caps.latest.revision: 31
 manager: edupont
 ---
 # How to: Integrate Report Dataset Designer and Visual Studio Report Designer
-To create and modify client report definition \(RDLC\) report layouts, you must use Visual Studio. When you create an RDLC layout for a report, you may have to perform some steps in Report Dataset Designer in the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] development environment to modify the dataset, and some steps in Visual Studio Report Designer to modify the layout. To work with both Report Dataset Designer and Visual Studio Report Designer, you must know when and where to save your work and how to switch between them efficiently.  
+To create and modify client report definition \(RDLC\) report layouts, you must use Visual Studio. When you create an RDLC layout for a report, you may have to perform some steps in Report Dataset Designer in the [!INCLUDE[navnow](includes/navnow_md.md)] development environment to modify the dataset, and some steps in Visual Studio Report Designer to modify the layout. To work with both Report Dataset Designer and Visual Studio Report Designer, you must know when and where to save your work and how to switch between them efficiently.  
   
  You can save changes to the RDLC report layout of the report in Visual Studio multiple times and then return to Report Dataset Designer and load the changes that you made to the layout into the report. You can save and compile changes to the report dataset in Report Dataset Designer multiple times and then return to Visual Studio Report Designer and reload the dataset into the report layout.  
   
@@ -47,19 +47,19 @@ To create and modify client report definition \(RDLC\) report layouts, you must 
   
 6.  Choose **Yes** to load the changes that you made to the RDLC layout into the report.  
   
-7.  In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] development environment, on the **File** menu, choose **Save**.  
+7.  In [!INCLUDE[navnow](includes/navnow_md.md)] development environment, on the **File** menu, choose **Save**.  
   
 8.  In the **Save** dialog box, select **Compiled**, and then choose **OK**.  
   
     > [!NOTE]  
-    >  If you try to close the report in the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] development environment, then you see the following error:  “You must close the Visual Studio Designer window before closing the report object.”  
+    >  If you try to close the report in the [!INCLUDE[navnow](includes/navnow_md.md)] development environment, then you see the following error:  “You must close the Visual Studio Designer window before closing the report object.”  
   
     > [!NOTE]  
     >  If you try to view the layout when the report layout is already open, then you see the following error:  “The report layout is already open in Visual Studio.”  
   
 9. In Report Dataset Designer, make some additional changes to the report dataset.  
   
-10. In the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] development environment, on the **File** menu, choose **Save**.  
+10. In the [!INCLUDE[navnow](includes/navnow_md.md)] development environment, on the **File** menu, choose **Save**.  
   
 11. In the **Save** dialog box, select **Compiled**, and then choose **OK**.  
   
@@ -68,6 +68,6 @@ To create and modify client report definition \(RDLC\) report layouts, you must 
   
 12. Go to the Visual Studio Report Designer. You see the following message:  “This file has been modified outside of the source editor. Do you want to reload it?” Choose **Yes** or **Yes to All** to reload the changes from Report Dataset Designer into the RDLC report layout.  
   
-13. In Visual Studio, on the **View** menu, choose **Report Data**. In the **Report Data** pane, expand **DataSets**, right\-click **DataSet\_Result**, and then choose **Refresh**. The additional items that you added to the dataset in Report Dataset Designer in the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] development environment are displayed in the Visual Studio dataset.  
+13. In Visual Studio, on the **View** menu, choose **Report Data**. In the **Report Data** pane, expand **DataSets**, right\-click **DataSet\_Result**, and then choose **Refresh**. The additional items that you added to the dataset in Report Dataset Designer in the [!INCLUDE[navnow](includes/navnow_md.md)] development environment are displayed in the Visual Studio dataset.  
   
 14. You can continue making changes in either Visual Studio Report Designer or Report Dataset Designer without having to close either designer. You must save and compile the report object after you make changes and load the changes into the report object or the RDLC report layout when you are prompted.

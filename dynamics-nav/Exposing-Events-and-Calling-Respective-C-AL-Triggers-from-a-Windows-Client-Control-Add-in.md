@@ -11,11 +11,11 @@ caps.latest.revision: 20
 manager: terryaus
 ---
 # Exposing Events and Calling Respective C-AL Triggers from a Windows Client Control Add-in
-The [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] pages include an all\-purpose [OnControlAddin Trigger](../dynamics-nav/OnControlAddin-Trigger.md) on field controls that control add\-ins can invoke to run C\/AL code. No code is needed to introduce this event into C\/AL. To invoke the **OnControlAddIn** trigger, a control add\-in sends an event to [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)], as shown in the following illustration.  
+The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] pages include an all\-purpose [OnControlAddin Trigger](OnControlAddin-Trigger.md) on field controls that control add\-ins can invoke to run C\/AL code. No code is needed to introduce this event into C\/AL. To invoke the **OnControlAddIn** trigger, a control add\-in sends an event to [!INCLUDE[nav_server](includes/nav_server_md.md)], as shown in the following illustration.  
   
- ![RoleTailored client control add&#45;in events](../dynamics-nav/media/NAVRTCControlAddinEvents.png "NAVRTCControlAddinEvents")  
+ ![RoleTailored client control add&#45;in events](media/NAVRTCControlAddinEvents.png "NAVRTCControlAddinEvents")  
   
- Events allow the control add\-in to react to user interaction in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. An example of an event is when a user clicks a button in the control add\-in display on the page. To program events in a control add\-in, you implement the [Microsoft.Dynamics.Framework.UI.Extensibility.IEventControlAddInDefinition](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.IEventControlAddInDefinition) interface, as shown in the following example.  
+ Events allow the control add\-in to react to user interaction in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. An example of an event is when a user clicks a button in the control add\-in display on the page. To program events in a control add\-in, you implement the [Microsoft.Dynamics.Framework.UI.Extensibility.IEventControlAddInDefinition](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.IEventControlAddInDefinition) interface, as shown in the following example.  
   
 ```c#  
 [ControlAddInExport("MyControlAddIn")]  
@@ -26,7 +26,7 @@ public class MyControlAddIn : IEventControlAddInDefinition
   
 ```  
   
- By firing the ControlAddIn event declared in the base interface, the add\-in sends data to [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] in two attributes: **Index** and **Data**. The **Index** attribute value is an integer data type. The **Data** attribute value is a text string data type. You add C\/AL code to the **OnControlAddIn** trigger to process the data.  
+ By firing the ControlAddIn event declared in the base interface, the add\-in sends data to [!INCLUDE[nav_server](includes/nav_server_md.md)] in two attributes: **Index** and **Data**. The **Index** attribute value is an integer data type. The **Data** attribute value is a text string data type. You add C\/AL code to the **OnControlAddIn** trigger to process the data.  
   
 ```  
 if (this.ControlAddIn != null)  
@@ -36,7 +36,7 @@ if (this.ControlAddIn != null)
 ```  
   
 > [!NOTE]  
->  The **Data** attribute on the **OnControlAddIn** trigger supports both **Text** and **BigText** data types from [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]. The data type is determined by the **SourceExpr** property of the field control that is applied with the control add\-in. If the **SourceExpr** property value is **BigText**, then the **Data** attribute is **BigText**. Otherwise, the **Data** attribute is **Text\[1024\]**. For more information about data types, see [C\-AL Functions](../dynamics-nav/C-AL-Functions.md).  
+>  The **Data** attribute on the **OnControlAddIn** trigger supports both **Text** and **BigText** data types from [!INCLUDE[nav_server](includes/nav_server_md.md)]. The data type is determined by the **SourceExpr** property of the field control that is applied with the control add\-in. If the **SourceExpr** property value is **BigText**, then the **Data** attribute is **BigText**. Otherwise, the **Data** attribute is **Text\[1024\]**. For more information about data types, see [C\-AL Functions](C-AL-Functions.md).  
   
  For more information about how to create events in a control add\-in, see [How to: Create a Windows Client Control Add\-in](../Topic/How%20to:%20Create%20a%20Windows%20Client%20Control%20Add-in.md).  
   
@@ -65,8 +65,8 @@ public class MyControlAddIn : WinFormsControlAddInBase, ...
   
 ## See Also  
  [How to: Create a Windows Client Control Add\-in](../Topic/How%20to:%20Create%20a%20Windows%20Client%20Control%20Add-in.md)   
- [Developing Windows Client Control Add\-ins](../dynamics-nav/Developing-Windows-Client-Control-Add-ins.md)   
- [Client Extensibility API Overview](../dynamics-nav/Client-Extensibility-API-Overview.md)   
- [Binding a Windows Client Control Add\-in to the Database](../dynamics-nav/Binding-a-Windows-Client-Control-Add-in-to-the-Database.md)   
- [Installing and Configuring Windows Client Control Add\-ins on Pages](../dynamics-nav/Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)   
- [Windows Client Control Add\-in Overview](../dynamics-nav/Windows-Client-Control-Add-in-Overview.md)
+ [Developing Windows Client Control Add\-ins](Developing-Windows-Client-Control-Add-ins.md)   
+ [Client Extensibility API Overview](Client-Extensibility-API-Overview.md)   
+ [Binding a Windows Client Control Add\-in to the Database](Binding-a-Windows-Client-Control-Add-in-to-the-Database.md)   
+ [Installing and Configuring Windows Client Control Add\-ins on Pages](Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)   
+ [Windows Client Control Add\-in Overview](Windows-Client-Control-Add-in-Overview.md)

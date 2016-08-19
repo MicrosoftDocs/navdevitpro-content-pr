@@ -10,9 +10,9 @@ ms.assetid: 9b8a593c-0a96-4e09-97c6-00cb4311dbe6
 caps.latest.revision: 2
 ---
 # CANLOADTYPE Function
-Tests if the specified .NET Framework type can be loaded by [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+Tests if the specified .NET Framework type can be loaded by [!INCLUDE[navnow](includes/navnow_md.md)].  
   
- You can use the CANLOADTYPE function to test the availability of assemblies that are expected to be present on the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] client computer or on the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] computer.  
+ You can use the CANLOADTYPE function to test the availability of assemblies that are expected to be present on the [!INCLUDE[navnow](includes/navnow_md.md)] client computer or on the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer.  
   
 ## Syntax  
   
@@ -26,10 +26,10 @@ Ok := CANLOADTYPE(DotNet)
  Type: A variable of the DotNet data type to represent the .NET Framework type.  
   
 ## Property Value\/Return Value  
- Returns **true** if the specified type can be accessed by [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)]; otherwise **false**.  
+ Returns **true** if the specified type can be accessed by [!INCLUDE[navnow](includes/navnow_md.md)]; otherwise **false**.  
   
 ## Example  
- The following code example is based on codeunit 5300 in the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)]. This example requires that you create the following variable and text constant in the C\/AL Globals window.  
+ The following code example is based on codeunit 5300 in the [!INCLUDE[demolong](includes/demolong_md.md)]. This example requires that you create the following variable and text constant in the C\/AL Globals window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
@@ -45,4 +45,4 @@ IF NOT CANLOADTYPE(OObjLibrary) THEN
 ```  
   
 ## See Also  
- [Calling .NET Framework Members from C\-AL](../dynamics-nav/Calling-.NET-Framework-Members-from-C-AL.md)
+ [Calling .NET Framework Members from C\-AL](Calling-.NET-Framework-Members-from-C-AL.md)

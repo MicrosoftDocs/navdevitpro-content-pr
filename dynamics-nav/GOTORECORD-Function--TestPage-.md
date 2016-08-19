@@ -36,4 +36,4 @@ Finds the specified record in a dataset on a test page.
  **true** if the specified record is found; otherwise, **false**. The return value is optional.  
   
 ## See Also  
- [TestPage Functions](../dynamics-nav/TestPage-Functions.md)
+ [TestPage Functions](TestPage-Functions.md)

@@ -10,9 +10,9 @@ ms.assetid: f7a66201-dc01-4221-8aa4-6ba1e7a4ef6a
 caps.latest.revision: 2
 ---
 # Microsoft Dynamics NAV Extention Packages
-You deploy your [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] extensions as packages.  
+You deploy your [!INCLUDE[navnow](includes/navnow_md.md)] extensions as packages.  
   
- A package file can contain a number of different artifacts that are needed for the extension, such as DELTA files and full application object .TXT files. The package also contains a manifest with metadata such as name, version, publisher and, most importantly, a globally unique identifier, the extension ID. [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] uses the extension ID to uniquely identify the extension. This ID must be maintained consistently across versions of an extension in order to upgrade properly. The [!INCLUDE[wps_2](../dynamics-nav/includes/wps_2_md.md)] cmdlets that you use to create the manifest generate an ID for you, but you can also specify an ID.  
+ A package file can contain a number of different artifacts that are needed for the extension, such as DELTA files and full application object .TXT files. The package also contains a manifest with metadata such as name, version, publisher and, most importantly, a globally unique identifier, the extension ID. [!INCLUDE[navnow](includes/navnow_md.md)] uses the extension ID to uniquely identify the extension. This ID must be maintained consistently across versions of an extension in order to upgrade properly. The [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets that you use to create the manifest generate an ID for you, but you can also specify an ID.  
   
 ## Extension Manifests  
   
@@ -59,7 +59,7 @@ CompatibilityId="1.0.0.0" />
 ### App  
  The `App` element describes your extension to the system and users. The element has the following attributes.  
   
-|Attribute|Required|Type|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|Attribute|Required|Type|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------|--------------|----------|---------------------------------------|  
 |Id|Yes|GUID|An identifier that uniquely identifies the extension. This value should remain constant for the life of the application.|  
 |Name|Yes|String|The name of the extension. String length of 250 characters.|  
@@ -69,12 +69,12 @@ CompatibilityId="1.0.0.0" />
 |CompatibilityId|Yes|String|Version string in the format of Major.Minor.Build.Revision. This value defines the compatibility ID of the extension.|  
   
 ### Capabilities  
- The `Capabilities` element contains a collection of `Capability` elements that describe what the extension impacts in terms of the hosting [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] deployment. The `Capability` element can be used to determine if an extension is allowed to be installed.  
+ The `Capabilities` element contains a collection of `Capability` elements that describe what the extension impacts in terms of the hosting [!INCLUDE[navnow](includes/navnow_md.md)] deployment. The `Capability` element can be used to determine if an extension is allowed to be installed.  
   
 > [!NOTE]  
->  Capabilities cannot be set manually as they are added by the packaging process. [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] does not provide any functionality for analyzing or otherwise reacting to capabilities. Capabilities are reserved for future use.  
+>  Capabilities cannot be set manually as they are added by the packaging process. [!INCLUDE[navnowlong](includes/navnowlong_md.md)] does not provide any functionality for analyzing or otherwise reacting to capabilities. Capabilities are reserved for future use.  
   
-|Capability|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|Capability|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |----------------|---------------------------------------|  
 |uiChanges|Existing UI objects have been modified,|  
 |uiAdds|New UI objects are added,|  
@@ -84,9 +84,9 @@ CompatibilityId="1.0.0.0" />
 |permissionSets|New permission sets are added.|  
   
 ### Prerequisites  
- The `Prerequisites` element contains a collection of `Object` elements that define what must be presently available in the hosting [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] deployment in order for this extension to function. It uses specific identifiable object IDs that must be available in the system. If a prerequisite is not found, the extension cannot install.  
+ The `Prerequisites` element contains a collection of `Object` elements that define what must be presently available in the hosting [!INCLUDE[navnow](includes/navnow_md.md)] deployment in order for this extension to function. It uses specific identifiable object IDs that must be available in the system. If a prerequisite is not found, the extension cannot install.  
   
-|Attribute|Required|Type|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|Attribute|Required|Type|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------|--------------|----------|---------------------------------------|  
 |Type|Yes|Type|The type of the object. The following objects are available:<br /><br /> -   TableData<br />-   Table<br />-   Report<br />-   CodeUnit<br />-   XmlPort<br />-   MenuSuite<br />-   Page<br />-   Query|  
 |Id|Yes|Int32|The object ID.|  
@@ -94,7 +94,7 @@ CompatibilityId="1.0.0.0" />
 ### Dependencies  
  The `Dependencies` element contains a collection of `Dependency` elements that define identifies other extensions that this extension has a specific dependency on. Dependencies are added to the manifest when you provide a path to a .navx file in the –Dependencies parameter of the New\-NAVAppManifest cmdlet.  
   
-|Attribute|Required|Type|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|Attribute|Required|Type|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------|--------------|----------|---------------------------------------|  
 |Id|Yes|GUID|The unique identifier of the extension that this extension depends on.|  
 |Name|Yes|String|The name of the extension.|  
@@ -103,5 +103,5 @@ CompatibilityId="1.0.0.0" />
 |CompatibilityId|Yes|String|Version string in the format of Major.Minor.Build.Revision. This value defines the compatibility ID of the extension.|  
   
 ## See Also  
- [Extending Microsoft Dynamics NAV Using Extension Packages](../dynamics-nav/Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)   
- [Microsoft Dynamics NAV Windows PowerShell Cmdlets](../dynamics-nav/Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)
+ [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)   
+ [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)

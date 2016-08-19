@@ -11,12 +11,12 @@ caps.latest.revision: 41
 manager: terryaus
 ---
 # How to: Create Microsoft Dynamics NAV Users
-Before a user can access [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], you must have created them as users in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)]. To create and modify users, you can use the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)], [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], or the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Windows PowerShell cmdlets.  
+Before a user can access [!INCLUDE[navnow](includes/navnow_md.md)], you must have created them as users in [!INCLUDE[navnow](includes/navnow_md.md)]. To create and modify users, you can use the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], [!INCLUDE[nav_web](includes/nav_web_md.md)], or the [!INCLUDE[navnow](includes/navnow_md.md)] Windows PowerShell cmdlets.  
   
 > [!IMPORTANT]  
->  You do not create user logins for [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] user in SQL Server before or after you create [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] users.  
+>  You do not create user logins for [!INCLUDE[navnow](includes/navnow_md.md)] user in SQL Server before or after you create [!INCLUDE[navnow](includes/navnow_md.md)] users.  
   
- [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] supports the following credential authorization mechanisms for [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] users:  
+ [!INCLUDE[navnowlong](includes/navnowlong_md.md)] supports the following credential authorization mechanisms for [!INCLUDE[navnow](includes/navnow_md.md)] users:  
   
 -   **Windows**  
   
@@ -28,13 +28,13 @@ Before a user can access [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md
   
 -   **Office 365 Authentication**  
   
- This topic contains separate procedures for creating users for each credential authentication mechanism. For information about how to configure [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)]s and the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance for a specific authentication scheme, see [Users and Credential Types](../dynamics-nav/Users-and-Credential-Types.md).  
+ This topic contains separate procedures for creating users for each credential authentication mechanism. For information about how to configure [!INCLUDE[rtc](includes/rtc_md.md)]s and the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance for a specific authentication scheme, see [Users and Credential Types](Users-and-Credential-Types.md).  
   
 > [!NOTE]  
 >  The following procedures describe how to create users for a single credential type, but you can create users that are valid for multiple credential types, as long as you configure the appropriate settings for each credential type in the **New User** page. For example, you could create a user who would automatically be logged on without having to present credentials when the credential type is **Windows**, but would be prompted for a username \(the value of the **User Name** field\) and a password when the credential type is **UserName**.  
   
 ## Creating a New User  
- The following procedures describe how to configure users in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. Similar steps apply for creating users in the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]. For information about how to create users using the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Windows PowerShell cmdlets, see [Microsoft Dynamics NAV Windows PowerShell Cmdlets](../dynamics-nav/Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md). A [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance can either support users with Windows authentication or users with other credentials.  
+ The following procedures describe how to configure users in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. Similar steps apply for creating users in the [!INCLUDE[nav_web](includes/nav_web_md.md)]. For information about how to create users using the [!INCLUDE[navnow](includes/navnow_md.md)] Windows PowerShell cmdlets, see [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md). A [!INCLUDE[nav_server](includes/nav_server_md.md)] instance can either support users with Windows authentication or users with other credentials.  
   
 #### To create a new user  
   
@@ -44,11 +44,11 @@ Before a user can access [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md
   
 3.  In the **User Card** window, on the General FastTab, fill in the fields as described in the following table.  
   
-    |[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+    |[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**User Name**|Specify a unique, short name to identify the user.|  
     |**Full Name**|Specify the user’s full name.|  
-    |**License Type**|Choose one of the available license types. For more information, see [License Types](../dynamics-nav/License-Types.md).|  
+    |**License Type**|Choose one of the available license types. For more information, see [License Types](License-Types.md).|  
     |**State**|Specify if the user’s access is enabled or disabled.|  
     |**Expiry Date**|Optionally, to set a time limit on the user’s access, choose a date.|  
   
@@ -67,7 +67,7 @@ Before a user can access [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md
 6.  To set up a user for AccessControlService authentication, follow these steps:  
   
     > [!NOTE]  
-    >  The following steps apply to [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] solutions that are deployed on Azure. For more information, see [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](../dynamics-nav/Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md).  
+    >  The following steps apply to [!INCLUDE[navnow](includes/navnow_md.md)] solutions that are deployed on Azure. For more information, see [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md).  
   
     1.  On the **Access Control Service Authentication** FastTab, next to **ACS Access Status**, choose the word **Disabled**.  
   
@@ -77,7 +77,7 @@ Before a user can access [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md
   
          A string value is automatically inserted into the **Authentication Key** field.  
   
-    3.  Save the **Authentication Key** value to a secure location such as a text file, where you can find it later. After you configure your deployment for ACS, and configure your [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] components for ACS, send this authentication key, and the **User Name** value, to the actual user and instruct the user to provide these values when they log on to a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] client.  
+    3.  Save the **Authentication Key** value to a secure location such as a text file, where you can find it later. After you configure your deployment for ACS, and configure your [!INCLUDE[navnow](includes/navnow_md.md)] components for ACS, send this authentication key, and the **User Name** value, to the actual user and instruct the user to provide these values when they log on to a [!INCLUDE[navnow](includes/navnow_md.md)] client.  
   
     4.  Choose the **OK** button. The **ACS Access Status** changes to **Pending**. It will change to **Active** after the user successfully logs in.  
   
@@ -85,7 +85,7 @@ Before a user can access [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md
   
     -   On the **Office 365 Authentication** FastTab, in the **Authentication Email** field, specify the Microsoft account that this user uses to access Office 365 and SharePoint. The authentication email address must be the organizational email account that the users log in to Office 365 with, such as an account from Azure Active Directory \(Azure AD\).  
   
-         The [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance must be configured to accept the relevant credential types that support integration with Office 365, such as Azure AD. For more information, see [Users and Credential Types](../dynamics-nav/Users-and-Credential-Types.md).  
+         The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configured to accept the relevant credential types that support integration with Office 365, such as Azure AD. For more information, see [Users and Credential Types](Users-and-Credential-Types.md).  
   
          When you specify an email address, the **Authentication Status** field changes to **Inactive**. When the user logs in to Office 365, the authentication status changes to **Active**. For more information, see [\($ T\_2000000120\_11 Authentication Email $\)](../Topic/\($%20T_2000000120_11%20Authentication%20Email%20$\).md).  
   
@@ -100,5 +100,5 @@ Before a user can access [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md
 ## See Also  
  [How to: Create a Profile](../Topic/How%20to:%20Create%20a%20Profile.md)   
  [How to: Define Permissions for Users](../Topic/How%20to:%20Define%20Permissions%20for%20Users.md)   
- [Users and Credential Types](../dynamics-nav/Users-and-Credential-Types.md)   
- [License Types](../dynamics-nav/License-Types.md)
+ [Users and Credential Types](Users-and-Credential-Types.md)   
+ [License Types](License-Types.md)

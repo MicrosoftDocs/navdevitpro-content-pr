@@ -49,7 +49,7 @@ Exports the media objects in the current media set of a record to individual fil
  The number of media files that were generated and stored in the output file path.  
   
 ## Remarks  
- The exported media files will be of the same media file type as when they were imported, such as .jpg or .gif. For more information about the media types, see [Supported Media Types](../dynamics-nav/Working-With-Media-on-Records.md#SupportedMediaTypes). The function has the following behavior:  
+ The exported media files will be of the same media file type as when they were imported, such as .jpg or .gif. For more information about the media types, see [Supported Media Types](Working-With-Media-on-Records.md#SupportedMediaTypes). The function has the following behavior:  
   
 -   If a file that has the same name as the exported file already is located in the target folder and the current session has write access on the file, the existing file will be automatically replaced by the new file.  
   
@@ -91,10 +91,10 @@ Message('Exported %1 files', MediaCount);
  The folder *C:\\images\\export* will contain these files: FirstItemGallery\-1.jpg, FirstItemGallery\-2.jpg, and FirstItemGallery\-3.jpg.  
   
 ## See Also  
- [Working With Media on Records](../dynamics-nav/Working-With-Media-on-Records.md)   
- [IMPORTSTREAM Function \(Media\)](../dynamics-nav/IMPORTSTREAM-Function--Media-.md)   
- [IMPORTFILE Function \(MediaSet\)](../dynamics-nav/IMPORTFILE-Function--MediaSet-.md)   
- [IMPORTSTREAM Function \(MediaSet\)](../dynamics-nav/IMPORTSTREAM-Function--MediaSet-.md)   
- [MediaSet Data Type](../dynamics-nav/MediaSet-Data-Type.md)   
- [EXPORTSTREAM Function \(Media\)](../dynamics-nav/EXPORTSTREAM-Function--Media-.md)   
- [EXPORTFILE Function \(Media\)](../dynamics-nav/EXPORTFILE-Function--Media-.md)
+ [Working With Media on Records](Working-With-Media-on-Records.md)   
+ [IMPORTSTREAM Function \(Media\)](IMPORTSTREAM-Function--Media-.md)   
+ [IMPORTFILE Function \(MediaSet\)](IMPORTFILE-Function--MediaSet-.md)   
+ [IMPORTSTREAM Function \(MediaSet\)](IMPORTSTREAM-Function--MediaSet-.md)   
+ [MediaSet Data Type](MediaSet-Data-Type.md)   
+ [EXPORTSTREAM Function \(Media\)](EXPORTSTREAM-Function--Media-.md)   
+ [EXPORTFILE Function \(Media\)](EXPORTFILE-Function--Media-.md)

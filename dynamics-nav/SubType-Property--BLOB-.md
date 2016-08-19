@@ -25,4 +25,4 @@ Sets additional information about what will be contained in the field.
 |**User\-Defined \(default\)**|For user defined information|  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

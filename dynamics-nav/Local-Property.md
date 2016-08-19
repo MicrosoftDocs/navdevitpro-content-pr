@@ -21,10 +21,10 @@ Specifies if a function is local to the object on which the function is defined.
 ## Remarks  
  When the property is set to **Yes**, the function definition in C\/AL code includes the word **Local**.  
   
- If the property is set to **No**, then the function is considered to be global, which means that is can be called and accessed from other [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] objects.  
+ If the property is set to **No**, then the function is considered to be global, which means that is can be called and accessed from other [!INCLUDE[navnow](includes/navnow_md.md)] objects.  
   
 > [!NOTE]  
->  This property is not set to **Yes** when the function is in a test codeunit. Instead, the [FunctionType Property \(Test Codeunits\)](../dynamics-nav/FunctionType-Property--Test-Codeunits-.md) is set to **Test**. Functions in test codeunits are automatically global. For more information, see [How to: Create Test Codeunits and Test Functions](../Topic/How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md).  
+>  This property is not set to **Yes** when the function is in a test codeunit. Instead, the [FunctionType Property \(Test Codeunits\)](FunctionType-Property--Test-Codeunits-.md) is set to **Test**. Functions in test codeunits are automatically global. For more information, see [How to: Create Test Codeunits and Test Functions](../Topic/How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md).  
   
 ## See Also  
- [Standard and User\-Defined Functions](../dynamics-nav/Standard-and-User-Defined-Functions.md)
+ [Standard and User\-Defined Functions](Standard-and-User-Defined-Functions.md)

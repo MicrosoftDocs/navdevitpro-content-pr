@@ -12,8 +12,8 @@ caps.latest.revision: 3
 # Array Functions
 This section contains the following topics:  
   
--   [ARRAYLEN Function](../dynamics-nav/ARRAYLEN-Function.md)  
+-   [ARRAYLEN Function](ARRAYLEN-Function.md)  
   
--   [COMPRESSARRAY Function](../dynamics-nav/COMPRESSARRAY-Function.md)  
+-   [COMPRESSARRAY Function](COMPRESSARRAY-Function.md)  
   
--   [COPYARRAY Function](../dynamics-nav/COPYARRAY-Function.md)
+-   [COPYARRAY Function](COPYARRAY-Function.md)

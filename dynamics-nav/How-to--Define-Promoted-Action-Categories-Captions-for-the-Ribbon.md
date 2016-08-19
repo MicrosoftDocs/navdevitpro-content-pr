@@ -11,7 +11,7 @@ caps.latest.revision: 18
 manager: terryaus
 ---
 # How to: Define Promoted Action Categories Captions for the Ribbon
-*Promoted actions* are actions that are displayed in the ribbon of the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)]. You can organize promoted actions into different categories, where each category is indicated by a caption in the ribbon. You define up to 10 categories for a page. The following figure illustrates a page that has promoted actions under the following categories:  
+*Promoted actions* are actions that are displayed in the ribbon of the [!INCLUDE[rtc](includes/rtc_md.md)]. You can organize promoted actions into different categories, where each category is indicated by a caption in the ribbon. You define up to 10 categories for a page. The following figure illustrates a page that has promoted actions under the following categories:  
   
 -   **New**  
   
@@ -23,7 +23,7 @@ manager: terryaus
   
  The following illustration shows the Ribbon with promoted actions under categories.  
   
- ![Action Pane with four categories](../dynamics-nav/media/NAV_RTC_ActionPane_CustomCategories.png "NAV\_RTC\_ActionPane\_CustomCategories")  
+ ![Action Pane with four categories](media/NAV_RTC_ActionPane_CustomCategories.png "NAV\_RTC\_ActionPane\_CustomCategories")  
   
  You assign a promoted action to a category by setting the **PromotedCategory** property of the action. You can choose among the following categories:  
   
@@ -47,13 +47,13 @@ manager: terryaus
   
 -   Category10  
   
- By default, these category names correspond to the captions that are displayed for the category on the page in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]. You will typically want to change these captions, especially the Category4 through Category10 captions.  
+ By default, these category names correspond to the captions that are displayed for the category on the page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. You will typically want to change these captions, especially the Category4 through Category10 captions.  
   
- You change category captions on a page\-by\-page basis and for each [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] language.  
+ You change category captions on a page\-by\-page basis and for each [!INCLUDE[nav_windows](includes/nav_windows_md.md)] language.  
   
 ### To define promoted action category captions  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **Page**, select the page, and then choose **Design**.  
   
@@ -95,6 +95,6 @@ manager: terryaus
   
 ## See Also  
  [How to: Promote Actions on Pages](../Topic/How%20to:%20Promote%20Actions%20on%20Pages.md)   
- [Actions Overview](../dynamics-nav/Actions-Overview.md)   
+ [Actions Overview](Actions-Overview.md)   
  [How to: Add Actions to a Page](../Topic/How%20to:%20Add%20Actions%20to%20a%20Page.md)   
  [How to: Set an Icon on an Action](../Topic/How%20to:%20Set%20an%20Icon%20on%20an%20Action.md)

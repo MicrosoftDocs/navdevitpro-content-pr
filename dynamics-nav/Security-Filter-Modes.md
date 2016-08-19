@@ -31,9 +31,9 @@ Query objects and Record objects, including both explicit record variables and i
   
  An example scenario in which you use the **Validated** value is that one parts purchaser in a warehouse is responsible for only one location and can view and create purchase orders for only that location. However, some purchase orders have lines for multiple locations. Only a parts purchaser who has access to all locations should be allowed to post these purchase orders that have lines for multiple locations. All other purchasers receive an error.  
   
- If security filters have been set, then the **Validated** value decreases performance. For more information, see [Performance Impact of Security Filtering Mode](../dynamics-nav/Security-Filter-Modes.md#PerformanceImpact).  
+ If security filters have been set, then the **Validated** value decreases performance. For more information, see [Performance Impact of Security Filtering Mode](Security-Filter-Modes.md#PerformanceImpact).  
   
- The **Validated** value is used mainly for compatibility with the security model in earlier versions of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)]. We recommend that you use the other modes when you implement your security model.  
+ The **Validated** value is used mainly for compatibility with the security model in earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)]. We recommend that you use the other modes when you implement your security model.  
   
 ## Ignored  
  If a record is set to **Ignored**, then any security filters that have been set are ignored for this instance of the record.  
@@ -58,17 +58,17 @@ Query objects and Record objects, including both explicit record variables and i
 > [!IMPORTANT]  
 >  It is not supported to change the default **Filtered** value of the **SecurityFiltering** property on implicit records on pages.  
   
- If you keep the default values after you upgrade from [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] 2009 to [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], then the behavior is the same in all cases except the following:  
+ If you keep the default values after you upgrade from [!INCLUDE[navnow](includes/navnow_md.md)] 2009 to [!INCLUDE[navnowlong](includes/navnowlong_md.md)], then the behavior is the same in all cases except the following:  
   
--   In earlier versions, the [COUNT Function \(Record\)](../dynamics-nav/COUNT-Function--Record-.md) ignored security filters and always returned the total number of records unless you called the SETPERMISSIONFILTER function to get a filtered count. In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], the COUNT function adheres to the **SecurityFiltering** property.  
+-   In earlier versions, the [COUNT Function \(Record\)](COUNT-Function--Record-.md) ignored security filters and always returned the total number of records unless you called the SETPERMISSIONFILTER function to get a filtered count. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], the COUNT function adheres to the **SecurityFiltering** property.  
   
--   In earlier versions, on a page, you could modify or insert a record outside of the range of your security filters but in [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], you cannot.  
+-   In earlier versions, on a page, you could modify or insert a record outside of the range of your security filters but in [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you cannot.  
   
 > [!NOTE]  
 >  For Query variables, the **Validated** value of the **SecurityFiltering** property is not allowed.  
   
 ## Security Filters and FlowFields  
- If you set a security filter on a table that is used in a FlowField calculation, then the calculated value of the FlowField is filtered, based on the security filter and the security filter mode of the record variable for the record in the table. For example, if you set a security filter so that a user can only view sales with a specific salesperson code, and if the security filter mode is **Filtered**, then when the user views a FlowField that calculates total sales, the user can see the total of only those sales that have the specific salesperson code. In earlier versions of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], the security filter mode value was **Validated** and in this example, the user received an error.  
+ If you set a security filter on a table that is used in a FlowField calculation, then the calculated value of the FlowField is filtered, based on the security filter and the security filter mode of the record variable for the record in the table. For example, if you set a security filter so that a user can only view sales with a specific salesperson code, and if the security filter mode is **Filtered**, then when the user views a FlowField that calculates total sales, the user can see the total of only those sales that have the specific salesperson code. In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], the security filter mode value was **Validated** and in this example, the user received an error.  
   
 ## Programming Examples  
  For these examples, you have a table that has 100 records. Each record has an ID field that is the primary key of the table. The values of the ID field that are currently in the database range from 1 to 100. In this example, you set a security filter on the table data for ID\=1..50. Then, in a codeunit you create a record variable for the table.  
@@ -81,7 +81,7 @@ Query objects and Record objects, including both explicit record variables and i
 |Disallowed|If you set the **SecurityFiltering** property on the record variable to **Disallowed**, then as long as a security filter is set on the record, any code that uses the record variable causes an error.|  
   
 ##  <a name="PerformanceImpact"></a> Performance Impact of Security Filtering Mode  
- If security filters are set on a table, then setting the **SecurityFiltering** property to **Validated** on a record instance of that table causes a decrease in performance. The [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] must go through every record in the table to validate the record instead of adding the filters to the query that is sent to SQL Server.  
+ If security filters are set on a table, then setting the **SecurityFiltering** property to **Validated** on a record instance of that table causes a decrease in performance. The [!INCLUDE[nav_server](includes/nav_server_md.md)] must go through every record in the table to validate the record instead of adding the filters to the query that is sent to SQL Server.  
   
  If security filters are not set, then setting the **SecurityFiltering** property to **Validated** has no performance impact.  
   
@@ -89,6 +89,6 @@ Query objects and Record objects, including both explicit record variables and i
 >  We recommend that you change commonly used record variables from the default value of **Validated** to either **Filtered** or **Ignored** to improve performance.  
   
 ## See Also  
- [Record\-Level Security](../dynamics-nav/Record-Level-Security.md)   
+ [Record\-Level Security](Record-Level-Security.md)   
  [How to: Set Security Filters](../Topic/How%20to:%20Set%20Security%20Filters.md)   
- [SecurityFiltering Property](../dynamics-nav/SecurityFiltering-Property.md)
+ [SecurityFiltering Property](SecurityFiltering-Property.md)

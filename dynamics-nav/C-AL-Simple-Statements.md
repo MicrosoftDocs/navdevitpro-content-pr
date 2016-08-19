@@ -13,10 +13,10 @@ manager: pchapman
 # C-AL Simple Statements
 C\/AL simple statements are single\-line statements that are executed sequentially and do not alter the flow of execution of code. The following are the types of simple statements in C\/AL:  
   
--   [C\-AL Assignment Statements](../dynamics-nav/C-AL-Assignment-Statements.md)  
+-   [C\-AL Assignment Statements](C-AL-Assignment-Statements.md)  
   
--   [C\-AL Function Statements](../dynamics-nav/C-AL-Function-Statements.md)  
+-   [C\-AL Function Statements](C-AL-Function-Statements.md)  
   
--   [C\-AL ASSERTERROR Statements](../dynamics-nav/C-AL-ASSERTERROR-Statements.md)  
+-   [C\-AL ASSERTERROR Statements](C-AL-ASSERTERROR-Statements.md)  
   
--   [C\-AL WITH Statements](../dynamics-nav/C-AL-WITH-Statements.md)
+-   [C\-AL WITH Statements](C-AL-WITH-Statements.md)

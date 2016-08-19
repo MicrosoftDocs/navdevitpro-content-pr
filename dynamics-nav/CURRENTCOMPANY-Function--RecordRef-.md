@@ -32,5 +32,5 @@ CurrentCompany := RecordRef.CURRENTCOMPANY
  The name of the current company of *Record*.  
   
 ## See Also  
- [RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md)   
- [CURRENTCOMPANY Function \(Record\)](../dynamics-nav/CURRENTCOMPANY-Function--Record-.md)
+ [RecordRef Data Type](RecordRef-Data-Type.md)   
+ [CURRENTCOMPANY Function \(Record\)](CURRENTCOMPANY-Function--Record-.md)

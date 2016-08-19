@@ -14,4 +14,4 @@ manager: terryaus
 The filter functions enable you to filter data that can be accessed on a test page. You use the **Filter** property in combination with the filter functions to perform filter operations.  
   
 ## See Also  
- [Test Pages](../dynamics-nav/Test-Pages.md)
+ [Test Pages](Test-Pages.md)

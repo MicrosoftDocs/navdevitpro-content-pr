@@ -35,10 +35,10 @@ Cancels and deletes a scheduled task that runs a specific codeunit.
   
  CANCELTASK can only cancel pending tasks. It cannot cancel a task that is in process. To see an example of CANCELTASK in use, refer to C\/AL code of table **472 Job Queue Entry**.  
   
- For more information about tasks and TASKSCEDULER data type functions, see managing tasks [Task Scheduler](../dynamics-nav/Task-Scheduler.md).  
+ For more information about tasks and TASKSCEDULER data type functions, see managing tasks [Task Scheduler](Task-Scheduler.md).  
   
 ## See Also  
- [TaskScheduler Data Type](../dynamics-nav/TaskScheduler-Data-Type.md)   
- [CREATETASK Function](../dynamics-nav/CREATETASK-Function.md)   
- [TASKEXISTS Function](../dynamics-nav/TASKEXISTS-Function.md)   
- [SETTASKASREADY Function](../dynamics-nav/SETTASKASREADY-Function.md)
+ [TaskScheduler Data Type](TaskScheduler-Data-Type.md)   
+ [CREATETASK Function](CREATETASK-Function.md)   
+ [TASKEXISTS Function](TASKEXISTS-Function.md)   
+ [SETTASKASREADY Function](SETTASKASREADY-Function.md)

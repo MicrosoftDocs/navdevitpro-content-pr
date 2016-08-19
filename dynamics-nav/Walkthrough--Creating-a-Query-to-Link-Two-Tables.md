@@ -23,12 +23,12 @@ This walkthrough demonstrates how to create a query that links two tables.
 ## Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] with a developer license.  
   
--   [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+-   [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 ## Story  
- Viktor is a Microsoft Certified Partner working for [!INCLUDE[demoname](../dynamics-nav/includes/demoname_md.md)] He has been asked to create a query that will get the quantity of items in every sales order for each customer. Viktor knows how to do this in SQL, but he wants to use a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] query.  
+ Viktor is a Microsoft Certified Partner working for [!INCLUDE[demoname](includes/demoname_md.md)] He has been asked to create a query that will get the quantity of items in every sales order for each customer. Viktor knows how to do this in SQL, but he wants to use a [!INCLUDE[navnow](includes/navnow_md.md)] query.  
   
  The SQL query for the dataset that Viktor wants is the following:  
   
@@ -47,7 +47,7 @@ SELECT C.Name, C.'No.' SL.AmountFROM Customer AS C, 'Sales Line' AS SL WHERE C.'
   
      To generate a dataset from the **Customer** table and **Sales Line** table, Viktor must *link* the two tables. A link specifies a condition between two fields of the tables that must be met for a record to be included in the dataset. To link the two tables, Viktor must first identify a field that is common in both tables. He determines that the **No.** field in the **Customer** table is the same as the **Sell\-to Customer No.** field in the **Sales Line** table. For a record to be included in the resulting dataset, the value of the **No.** field in the **Customer** table must equal the **Sell\-to Customer No.** field in the **Sales Line** table.  
   
- To create this dataset in a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] query, Viktor creates a query in Object Designer.  
+ To create this dataset in a [!INCLUDE[navnow](includes/navnow_md.md)] query, Viktor creates a query in Object Designer.  
   
 #### To create a query that includes columns from the Customer table and the Sales Line table  
   
@@ -107,10 +107,10 @@ SELECT C.Name, C.'No.' SL.AmountFROM Customer AS C, 'Sales Line' AS SL WHERE C.'
   
  The following figure shows Query Designer and **Properties** window.  
   
- ![Query Join SalespersonPurchaser and SalesHeader](../dynamics-nav/media/Query_WalkthroughJoin.png "Query\_WalkthroughJoin")  
+ ![Query Join SalespersonPurchaser and SalesHeader](media/Query_WalkthroughJoin.png "Query\_WalkthroughJoin")  
   
 ## Saving and Running the Query  
- Viktor wants to verify that the query describes the dataset that he wants. He saves the query, and then runs it from Object Designer. The call to run the query runs on [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] and opens a view of the dataset in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+ Viktor wants to verify that the query describes the dataset that he wants. He saves the query, and then runs it from Object Designer. The call to run the query runs on [!INCLUDE[nav_server](includes/nav_server_md.md)] and opens a view of the dataset in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
 #### To save and run a query  
   
@@ -123,10 +123,10 @@ SELECT C.Name, C.'No.' SL.AmountFROM Customer AS C, 'Sales Line' AS SL WHERE C.'
   
 3.  In Object Designer, select query 50001, and then choose the **Run** button. When you run a query, you can view the data in the dataset.  
   
-     ![The result of running Customer&#95;SalesQuantity query](../dynamics-nav/media/Query_WalkthroughJoin_Run.png "Query\_WalkthroughJoin\_Run")  
+     ![The result of running Customer&#95;SalesQuantity query](media/Query_WalkthroughJoin_Run.png "Query\_WalkthroughJoin\_Run")  
   
 ## Next Steps  
  Viktor’s next steps are to create more complex queries. For more information, see  [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](../Topic/Walkthrough:%20Creating%20a%20Query%20That%20Uses%20a%20Totaling%20Method%20and%20Sorting.md) and [Walkthrough: Creating a Query to Link Three Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Three%20Tables.md).  
   
 ## See Also  
- [Queries](../dynamics-nav/Queries.md)
+ [Queries](Queries.md)

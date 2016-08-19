@@ -12,10 +12,10 @@ manager: terryaus
 ---
 # WithEvents Property
 > [!IMPORTANT]  
->  This property is not supported in [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)]. The property must be set to **No**, otherwise you will receive an error at runtime.  
+>  This property is not supported in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. The property must be set to **No**, otherwise you will receive an error at runtime.  
   
 ## Applies To  
- Global variables of the [Automation Data Type](../dynamics-nav/Automation-Data-Type.md).  
+ Global variables of the [Automation Data Type](Automation-Data-Type.md).  
   
 ## See Also  
- [Automation Data Type](../dynamics-nav/Automation-Data-Type.md)
+ [Automation Data Type](Automation-Data-Type.md)

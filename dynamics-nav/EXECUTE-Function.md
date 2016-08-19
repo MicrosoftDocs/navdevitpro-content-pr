@@ -11,7 +11,7 @@ caps.latest.revision: 6
 manager: edupont
 ---
 # EXECUTE Function
-Runs a report in preview or processing only mode without running the request page. The function gets the request page parameter values as an input parameter string from a [RUNREQUESTPAGE Function](../dynamics-nav/RUNREQUESTPAGE-Function.md) call.  
+Runs a report in preview or processing only mode without running the request page. The function gets the request page parameter values as an input parameter string from a [RUNREQUESTPAGE Function](RUNREQUESTPAGE-Function.md) call.  
   
 ## Syntax  
   
@@ -30,7 +30,7 @@ REPORT.EXECUTE (Number, Parameters[,RecordRef])
  *Parameters*  
  Type: Text or Code  
   
- A string of request page parameters as XML to use to run the report. The parameter string is typically retrieved from the return value a [RUNREQUESTPAGE Function](../dynamics-nav/RUNREQUESTPAGE-Function.md) function call.  
+ A string of request page parameters as XML to use to run the report. The parameter string is typically retrieved from the return value a [RUNREQUESTPAGE Function](RUNREQUESTPAGE-Function.md) function call.  
   
  *RecordRef*  
  Type: RecordRef  
@@ -38,12 +38,12 @@ REPORT.EXECUTE (Number, Parameters[,RecordRef])
  The RecordRef that refers to a record in a table.  
   
 ## Remarks  
- You typically use this function together with the [RUNREQUESTPAGE Function](../dynamics-nav/RUNREQUESTPAGE-Function.md) function. The RUNREQUESTPAGE function runs a report request page without actually running the report, but instead, returns the parameters that are set on the request page as a string. You can then call the EXECUTE function to get the parameter string and run the report.  
+ You typically use this function together with the [RUNREQUESTPAGE Function](RUNREQUESTPAGE-Function.md) function. The RUNREQUESTPAGE function runs a report request page without actually running the report, but instead, returns the parameters that are set on the request page as a string. You can then call the EXECUTE function to get the parameter string and run the report.  
   
- For a simple example that illustrates how to use the EXECUTE function, see example in the [RUNREQUESTPAGE Function](../dynamics-nav/RUNREQUESTPAGE-Function.md) function topic.  
+ For a simple example that illustrates how to use the EXECUTE function, see example in the [RUNREQUESTPAGE Function](RUNREQUESTPAGE-Function.md) function topic.  
   
 ## See Also  
- [Reports\-duplicate 20](../dynamics-nav/Reports-duplicate-20.md)   
- [Request Pages](../dynamics-nav/Request-Pages.md)   
- [SAVEAS Function](../dynamics-nav/SAVEAS-Function.md)   
- [PRINT Function](../dynamics-nav/PRINT-Function.md)
+ [Reports\-duplicate 20](Reports-duplicate-20.md)   
+ [Request Pages](Request-Pages.md)   
+ [SAVEAS Function](SAVEAS-Function.md)   
+ [PRINT Function](PRINT-Function.md)

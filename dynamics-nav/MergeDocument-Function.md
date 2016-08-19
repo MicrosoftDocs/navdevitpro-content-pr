@@ -24,12 +24,12 @@ MergeDocument(ObjectType : 'Report'; ObjectID : Integer;ReportAction : 'SaveAsPd
  *ObjectType*  
  Type: Option  
   
- The [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] object type that is run. Currently only Report is supported.  
+ The [!INCLUDE[navnow](includes/navnow_md.md)] object type that is run. Currently only Report is supported.  
   
  *ObjectID*  
  Type: Integer  
   
- The ID of the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] object.  
+ The ID of the [!INCLUDE[navnow](includes/navnow_md.md)] object.  
   
  *ReportAction*  
  Type: Option  
@@ -42,7 +42,7 @@ MergeDocument(ObjectType : 'Report'; ObjectID : Integer;ReportAction : 'SaveAsPd
  The report data as structured XML.  
   
 > [!NOTE]  
->  The delivered XML is in the same format as the XML that is produced by calling the [SAVEASXML Function \(Reports\)](../dynamics-nav/SAVEASXML-Function--Reports-.md).  
+>  The delivered XML is in the same format as the XML that is produced by calling the [SAVEASXML Function \(Reports\)](SAVEASXML-Function--Reports-.md).  
   
  *FileName*  
  Type: Text  
@@ -53,7 +53,7 @@ MergeDocument(ObjectType : 'Report'; ObjectID : Integer;ReportAction : 'SaveAsPd
  Report layout implementation in codeunit 1 **ApplicationManagement**.  
   
 ## Remarks  
- At report run time, this function is called if the [HasCustomLayout Function](../dynamics-nav/HasCustomLayout-Function.md) determines that the report is currently set up to use a custom Word layout. The MergerDocument function is called after the [OnPostReport Trigger](../dynamics-nav/OnPostReport-Trigger.md) is invoked.  
+ At report run time, this function is called if the [HasCustomLayout Function](HasCustomLayout-Function.md) determines that the report is currently set up to use a custom Word layout. The MergerDocument function is called after the [OnPostReport Trigger](OnPostReport-Trigger.md) is invoked.  
   
 ## Example  
  The following example shows the default implementation on the function in codeunit 1. This example uses a variable **DocumentReportMgt** that has the data type **Codeunit** and subtype **Document Report Mgt.**.  
@@ -67,8 +67,8 @@ DocumentReportMgt.MergeWordLayout(ObjectID,ReportAction,XmlData,FileName);
 ```  
   
 ## See Also  
- [Customizing Report Layout Implementation in Codeunit 1](../dynamics-nav/Customizing-Report-Layout-Implementation-in-Codeunit-1.md)   
- [REPORT.RUN Function](../dynamics-nav/REPORT.RUN-Function.md)   
- [SAVEASWORD Function \(REPORT\)](../dynamics-nav/SAVEASWORD-Function--REPORT-.md)   
- [SAVEASPDF Function \(Report\)](../dynamics-nav/SAVEASPDF-Function--Report-.md)   
- [SAVEASEXCEL Function \(Report\)](../dynamics-nav/SAVEASEXCEL-Function--Report-.md)
+ [Customizing Report Layout Implementation in Codeunit 1](Customizing-Report-Layout-Implementation-in-Codeunit-1.md)   
+ [REPORT.RUN Function](REPORT.RUN-Function.md)   
+ [SAVEASWORD Function \(REPORT\)](SAVEASWORD-Function--REPORT-.md)   
+ [SAVEASPDF Function \(Report\)](SAVEASPDF-Function--Report-.md)   
+ [SAVEASEXCEL Function \(Report\)](SAVEASEXCEL-Function--Report-.md)

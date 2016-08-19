@@ -34,16 +34,16 @@ Dialog.UPDATE([Number] [, Value1])
  *Value*  
  Type: Any  
   
- This value or expression can be any simple C\/AL data type such as Boolean, Option, Integer, Decimal, Date, Time, Text, and Code. If you omit this value, then the value from the variable in the [OPEN Function \(Dialog\)](../dynamics-nav/OPEN-Function--Dialog-.md) call is used.  
+ This value or expression can be any simple C\/AL data type such as Boolean, Option, Integer, Decimal, Date, Time, Text, and Code. If you omit this value, then the value from the variable in the [OPEN Function \(Dialog\)](OPEN-Function--Dialog-.md) call is used.  
   
 ## Remarks  
- This function is not supported by [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)].  
+ This function is not supported by [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
  When you have a function that contains Dialog.UPDATE\(Number,Value\) and the value is a variant, you must format the text constant to make sure that the variant type can consume the text constant.  
   
- In [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], the text constant is read as type AL\_TEXTCONST, which cannot be interpreted by the variant.  
+ In [!INCLUDE[navnow](includes/navnow_md.md)], the text constant is read as type AL\_TEXTCONST, which cannot be interpreted by the variant.  
   
- You can use the [FORMAT Function \(Code, Text\)](../dynamics-nav/FORMAT-Function--Code--Text-.md) to convert the text constant to a string type, which can be interpreted and displayed by the variant.  
+ You can use the [FORMAT Function \(Code, Text\)](FORMAT-Function--Code--Text-.md) to convert the text constant to a string type, which can be interpreted and displayed by the variant.  
   
 ## Example  
  The following example shows how to update '\#' fields in a window.  
@@ -82,5 +82,5 @@ SLEEP(5000);
  After the first SLEEP call, the value of the *AccountNo* variable is inserted. After the second SLEEP call, the value of the *TotalSum* variable is inserted.  
   
 ## See Also  
- [Dialog Data Type](../dynamics-nav/Dialog-Data-Type.md)   
- [OPEN Function \(Dialog\)](../dynamics-nav/OPEN-Function--Dialog-.md)
+ [Dialog Data Type](Dialog-Data-Type.md)   
+ [OPEN Function \(Dialog\)](OPEN-Function--Dialog-.md)

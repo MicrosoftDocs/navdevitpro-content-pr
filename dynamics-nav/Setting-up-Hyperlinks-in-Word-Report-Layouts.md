@@ -69,5 +69,5 @@ In a report that is based on a Word report layout, you can set up hyperlinks on 
 ## See Also  
  [How to: Modify a Word Report Layout](../Topic/How%20to:%20Modify%20a%20Word%20Report%20Layout.md)   
  [How to: Add Fields from a Report Dataset to a Word Report Layout](../Topic/How%20to:%20Add%20Fields%20from%20a%20Report%20Dataset%20to%20a%20Word%20Report%20Layout.md)   
- [Designing Word Report Layouts](../dynamics-nav/Designing-Word-Report-Layouts.md)   
- [Defining the Report Dataset](../dynamics-nav/Defining-the-Report-Dataset.md)
+ [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)   
+ [Defining the Report Dataset](Defining-the-Report-Dataset.md)

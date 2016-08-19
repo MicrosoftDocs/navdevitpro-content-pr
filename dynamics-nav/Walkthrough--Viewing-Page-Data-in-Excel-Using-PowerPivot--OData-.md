@@ -11,12 +11,12 @@ caps.latest.revision: 25
 manager: terryaus
 ---
 # Walkthrough: Viewing Page Data in Excel Using PowerPivot (OData)
-This walkthrough describes how you can use OData to expose a [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] page as a web service and then analyze the page data using Microsoft PowerPivot for Excel 2013. Similar steps also apply to PowerPivot for Excel 2010. For information about PowerPivot, see [Microsoft PowerPivot](http://go.microsoft.com/fwlink/?LinkID=199906).  
+This walkthrough describes how you can use OData to expose a [!INCLUDE[navnowlong](includes/navnowlong_md.md)] page as a web service and then analyze the page data using Microsoft PowerPivot for Excel 2013. Similar steps also apply to PowerPivot for Excel 2010. For information about PowerPivot, see [Microsoft PowerPivot](http://go.microsoft.com/fwlink/?LinkID=199906).  
   
 ## About This Walkthrough  
  With OData and PowerPivot, you gain access to a powerful set of tools and technologies for data exchange and analysis. This walkthrough illustrates the following tasks:  
   
--   Publishing a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] page as a web service.  
+-   Publishing a [!INCLUDE[navnow](includes/navnow_md.md)] page as a web service.  
   
 -   Verifying web service availability from a browser.  
   
@@ -29,26 +29,26 @@ This walkthrough describes how you can use OData to expose a [!INCLUDE[navnowlon
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] with a developer license.  
   
--   [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+-   [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 -   Excel 2013 with the PowerPivot add\-in enabled. For more information, see [Download PowerPivot page](http://go.microsoft.com/fwlink/?LinkId=200002).  
   
--   Optionally, if you want to use a web service access key to authenticate access to the web service, [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] must meet the following requirements:  
+-   Optionally, if you want to use a web service access key to authenticate access to the web service, [!INCLUDE[navnow](includes/navnow_md.md)] must meet the following requirements:  
   
-    -   The [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] is configured to authenticate users by using the NavUserPassword credential type.  
+    -   The [!INCLUDE[nav_server](includes/nav_server_md.md)] is configured to authenticate users by using the NavUserPassword credential type.  
   
-    -   There is a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] user account that has a web service access key. In this walkthrough, the user account has the user name NavTest.  
+    -   There is a [!INCLUDE[navnow](includes/navnow_md.md)] user account that has a web service access key. In this walkthrough, the user account has the user name NavTest.  
   
-     For more information, see [Users and Credential Types](../dynamics-nav/Users-and-Credential-Types.md).  
+     For more information, see [Users and Credential Types](Users-and-Credential-Types.md).  
   
 ## Publishing a Page as a Web Service  
- You can publish a web service by using the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] or the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+ You can publish a web service by using the [!INCLUDE[nav_web](includes/nav_web_md.md)] or the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
 #### To register and publish a page as a web service  
   
-1.  Open the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)] and connect to the [!INCLUDE[demoname](../dynamics-nav/includes/demoname_md.md)] company.  
+1.  Open the [!INCLUDE[rtc](includes/rtc_md.md)] and connect to the [!INCLUDE[demoname](includes/demoname_md.md)] company.  
   
 2.  In the **Search** box, enter **Web Services**, and then choose the related link.  
   
@@ -65,33 +65,33 @@ This walkthrough describes how you can use OData to expose a [!INCLUDE[navnowlon
 ## Verifying the Web Service’s Availability  
   
 > [!IMPORTANT]  
->  After publishing a web service, verify that the port that web service applications will use to connect to your web service is open. The default port for OData web services is 7048. You can configure this value by using the [Microsoft Dynamics NAV Server Administration Tool](../dynamics-nav/Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
+>  After publishing a web service, verify that the port that web service applications will use to connect to your web service is open. The default port for OData web services is 7048. You can configure this value by using the [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
   
-#### To verify availability of a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] web service  
+#### To verify availability of a [!INCLUDE[navnow](includes/navnow_md.md)] web service  
   
 1.  Start Windows Internet Explorer.  
   
 2.  In the **Address** field, enter a URI using the following format: **http:\/\/\<Server\>:\<WebServicePort\>\/\<ServerInstance\>\/OData\/**  
   
-    -   **Server** is the name of the computer that is running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)].  
+    -   **Server** is the name of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
     -   **WebServicePort** is the port that OData is running on. The default port is 7048.  
   
-    -   **ServiceInstance** is the name of the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance for your solution. The default name is [!INCLUDE[nav_server_instance](../dynamics-nav/includes/nav_server_instance_md.md)].  
+    -   **ServiceInstance** is the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance for your solution. The default name is [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)].  
   
-     For example, if the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] is running on the computer that you are working on, you can use: **http:\/\/localhost:7048\/DynamicsNAV90\/OData\/**  
+     For example, if the [!INCLUDE[nav_server](includes/nav_server_md.md)] is running on the computer that you are working on, you can use: **http:\/\/localhost:7048\/DynamicsNAV90\/OData\/**  
   
      The browser should now show the web service that you have published, as shown in the following illustration.  
   
-     ![OData services listed in a browser](../dynamics-nav/media/ODataservicesinbrowser.JPG "ODataservicesinbrowser")  
+     ![OData services listed in a browser](media/ODataservicesinbrowser.JPG "ODataservicesinbrowser")  
   
 > [!NOTE]  
->  If the browser cannot find the web service, it may indicate that the specified [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance is not running. For more information, see [Managing Microsoft Dynamics NAV Server Instances](../dynamics-nav/Managing-Microsoft-Dynamics-NAV-Server-Instances.md).  
+>  If the browser cannot find the web service, it may indicate that the specified [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is not running. For more information, see [Managing Microsoft Dynamics NAV Server Instances](Managing-Microsoft-Dynamics-NAV-Server-Instances.md).  
   
-## Importing [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Data into Excel  
- In the following procedures, you use PowerPivot to import [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] data into Excel. If you will be using a web service access key for authentication, only perform the second procedure; otherwise, only perform the first procedure.  
+## Importing [!INCLUDE[navnow](includes/navnow_md.md)] Data into Excel  
+ In the following procedures, you use PowerPivot to import [!INCLUDE[navnow](includes/navnow_md.md)] data into Excel. If you will be using a web service access key for authentication, only perform the second procedure; otherwise, only perform the first procedure.  
   
-#### To import [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] data into Excel  
+#### To import [!INCLUDE[navnow](includes/navnow_md.md)] data into Excel  
   
 1.  Start Microsoft Excel.  
   
@@ -101,7 +101,7 @@ This walkthrough describes how you can use OData to expose a [!INCLUDE[navnowlon
   
      The **Table Import Wizard** opens.  
   
-4.  If your [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] implementation requires that you use a web service access key, you must specify the NavUserPassword credentials as described in the following steps:  
+4.  If your [!INCLUDE[navnow](includes/navnow_md.md)] implementation requires that you use a web service access key, you must specify the NavUserPassword credentials as described in the following steps:  
   
     1.  In the **Advanced** dialog box, in the **Security** section, set the **Integrated Security** field to **Basic**.  
   
@@ -109,7 +109,7 @@ This walkthrough describes how you can use OData to expose a [!INCLUDE[navnowlon
   
     2.  In the **Password** field, type the web service access key.  
   
-    3.  In the **UserID** field, type the user name for the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] user account. For this walkthrough, use **NavTest**.  
+    3.  In the **UserID** field, type the user name for the [!INCLUDE[navnow](includes/navnow_md.md)] user account. For this walkthrough, use **NavTest**.  
   
     4.  In the **Source** section, in the **Service Document URL** field, type the URL for the OData web service that you verified in the previous procedure,  for example, **http:\/\/localhost:7048\/DynamicsNAV90\/OData\/**.  
   
@@ -128,7 +128,7 @@ This walkthrough describes how you can use OData to expose a [!INCLUDE[navnowlon
   
  The data from the **Customer** OData web service displays, and you can use the data to build pivot\-based views in the Excel workbook.  
   
-## Creating a PivotTable Containing Key [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Data  
+## Creating a PivotTable Containing Key [!INCLUDE[navnow](includes/navnow_md.md)] Data  
  In this procedure, you use the Excel workbook with data from the **Customer** web service to create a PivotTable from the worksheet. You select relevant fields and then organize and format the data to highlight strategic data. Building a pivot table is a way to select and arrange data so as to highlight and focus on key elements.  
   
 #### To create a PivotTable  
@@ -156,7 +156,7 @@ This walkthrough describes how you can use OData to expose a [!INCLUDE[navnowlon
   
      You can now see the data in the body of the worksheet, as shown in the following illustration.  
   
-     ![PivotTable after selecting fields](../dynamics-nav/media/PivotDataRaw.JPG "PivotDataRaw")  
+     ![PivotTable after selecting fields](media/PivotDataRaw.JPG "PivotDataRaw")  
   
      The PivotTable shows customers by location and individual customer balances, and also adds the balances by location. To make the information more readable, you can update the headings on the PivotTable.  
   
@@ -168,7 +168,7 @@ This walkthrough describes how you can use OData to expose a [!INCLUDE[navnowlon
   
  The following illustration shows how the worksheet looks after you make these changes.  
   
- ![PivotTable during setup](../dynamics-nav/media/PivotDataClean.JPG "PivotDataClean")  
+ ![PivotTable during setup](media/PivotDataClean.JPG "PivotDataClean")  
   
 ## Next Steps  
  Now that you have created your PivotTable, you can continue to enhance the data to make it more useful and readable. You can:  
@@ -177,10 +177,10 @@ This walkthrough describes how you can use OData to expose a [!INCLUDE[navnowlon
   
 -   Enhance data presentation with a graph.  
   
--   Post the data in a Microsoft SharePoint environment with live data from [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)].  
+-   Post the data in a Microsoft SharePoint environment with live data from [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
   
- For more information about how to use [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] data with PowerPivot information, see [Walkthrough: Combining Data from Microsoft Dynamics NAV Queries and Pages with Data from Azure DataMarket \(OData\)](../Topic/Walkthrough:%20Combining%20Data%20from%20Microsoft%20Dynamics%20NAV%20Queries%20and%20Pages%20with%20Data%20from%20Azure%20DataMarket%20\(OData\).md).  
+ For more information about how to use [!INCLUDE[navnow](includes/navnow_md.md)] data with PowerPivot information, see [Walkthrough: Combining Data from Microsoft Dynamics NAV Queries and Pages with Data from Azure DataMarket \(OData\)](../Topic/Walkthrough:%20Combining%20Data%20from%20Microsoft%20Dynamics%20NAV%20Queries%20and%20Pages%20with%20Data%20from%20Azure%20DataMarket%20\(OData\).md).  
   
 ## See Also  
- [Web Service Walkthroughs](../dynamics-nav/Web-Service-Walkthroughs.md)   
- [OData Web Services](../dynamics-nav/OData-Web-Services.md)
+ [Web Service Walkthroughs](Web-Service-Walkthroughs.md)   
+ [OData Web Services](OData-Web-Services.md)

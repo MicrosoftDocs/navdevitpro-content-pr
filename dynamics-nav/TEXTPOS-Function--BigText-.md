@@ -77,5 +77,5 @@ MESSAGE(Text000, VarPosition);
 ```  
   
 ## See Also  
- [BigText Data Type](../dynamics-nav/BigText-Data-Type.md)   
- [BigText Functions](../dynamics-nav/BigText-Functions.md)
+ [BigText Data Type](BigText-Data-Type.md)   
+ [BigText Functions](BigText-Functions.md)

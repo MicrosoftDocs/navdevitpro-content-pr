@@ -29,7 +29,7 @@ Specifies how the report opens when you preview it.
   
 ## See Also  
  [\($ S\_7109 Print Preview $\)](../Topic/\($%20S_7109%20Print%20Preview%20$\).md)   
- [Report Design Overview](../dynamics-nav/Report-Design-Overview.md)   
- [Designing Reports](../dynamics-nav/Designing-Reports.md)   
- [Printing Reports](../dynamics-nav/Printing-Reports.md)   
- [PREVIEW Function \(Report\)](../dynamics-nav/PREVIEW-Function--Report-.md)
+ [Report Design Overview](Report-Design-Overview.md)   
+ [Designing Reports](Designing-Reports.md)   
+ [Printing Reports](Printing-Reports.md)   
+ [PREVIEW Function \(Report\)](PREVIEW-Function--Report-.md)

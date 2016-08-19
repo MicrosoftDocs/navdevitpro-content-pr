@@ -69,6 +69,6 @@ RequestPage.SAVEASEXCEL(Filename);
 ```  
   
 ## See Also  
- [Testing the Application](../dynamics-nav/Testing-the-Application.md)   
- [SAVEASPDF Function \(TestRequestPage\)](../dynamics-nav/SAVEASPDF-Function--TestRequestPage-.md)   
- [SAVEASWORD Function \(TestRequestPage\)](../dynamics-nav/SAVEASWORD-Function--TestRequestPage-.md)
+ [Testing the Application](Testing-the-Application.md)   
+ [SAVEASPDF Function \(TestRequestPage\)](SAVEASPDF-Function--TestRequestPage-.md)   
+ [SAVEASWORD Function \(TestRequestPage\)](SAVEASWORD-Function--TestRequestPage-.md)

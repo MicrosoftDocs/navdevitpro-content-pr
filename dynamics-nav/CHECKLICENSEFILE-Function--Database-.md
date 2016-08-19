@@ -32,4 +32,4 @@ CHECKLICENSEFILE(KeyNumber)
  If you omit this function, the user will have the ability to continue regardless of whether the appropriate license file is open.  
   
 ## See Also  
- [Database](../dynamics-nav/Database.md)
+ [Database](Database.md)

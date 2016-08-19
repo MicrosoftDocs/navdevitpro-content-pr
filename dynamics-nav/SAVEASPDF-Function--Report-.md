@@ -52,13 +52,13 @@ Saves a report as a .pdf file.
   
  When you call **SAVEASPDF**, the report is generated and saved to "*FileName*." A **Saving to PDF** window shows the status of the process. Note that the request page will not be shown.  
   
- The *FileName* parameter specifies a location on the computer that is running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]. If you call this function from a client, such as from an action on a page, then use the [DOWNLOAD Function \(File\)](../dynamics-nav/DOWNLOAD-Function--File-.md) to download the .pdf file from the computer that is running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] to the computer that is running the client.  
+ The *FileName* parameter specifies a location on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)]. If you call this function from a client, such as from an action on a page, then use the [DOWNLOAD Function \(File\)](DOWNLOAD-Function--File-.md) to download the .pdf file from the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] to the computer that is running the client.  
   
 > [!NOTE]  
->  By default, when a report uses an RDLC report layout at runtime, fonts are embedded in the generated PDF. You can specify whether fonts are embedded in the PDF for RDLC reports by changing the **Report PDF Font Embedding** setting in the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance configuration or changing the **PDFFontEmbedding** property in report objects. For more information, see [Configuring Microsoft Dynamics NAV Server](../dynamics-nav/Configuring-Microsoft-Dynamics-NAV-Server.md) and [PDFFontEmbedding Property](../dynamics-nav/PDFFontEmbedding-Property.md).  
+>  By default, when a report uses an RDLC report layout at runtime, fonts are embedded in the generated PDF. You can specify whether fonts are embedded in the PDF for RDLC reports by changing the **Report PDF Font Embedding** setting in the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance configuration or changing the **PDFFontEmbedding** property in report objects. For more information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md) and [PDFFontEmbedding Property](PDFFontEmbedding-Property.md).  
   
 ## Example  
- This example shows how to use the **SAVEASPDF** function to save a specific report as a PDF file on the computer that is running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)]. It requires that you create the following variables.  
+ This example shows how to use the **SAVEASPDF** function to save a specific report as a PDF file on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)]. It requires that you create the following variables.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
@@ -72,4 +72,4 @@ ReturnValue := Report206.SAVEASPDF(Filename);
 ```  
   
 ## See Also  
- [Report Data Type](../dynamics-nav/Report-Data-Type.md)
+ [Report Data Type](Report-Data-Type.md)

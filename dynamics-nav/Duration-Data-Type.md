@@ -44,4 +44,4 @@ MESSAGE(FORMAT(Duration));
  **124 days 4 hours 30 minutes 1 second**  
   
 ## See Also  
- [DateTime Data Type](../dynamics-nav/DateTime-Data-Type.md)
+ [DateTime Data Type](DateTime-Data-Type.md)

@@ -25,7 +25,7 @@ You use Object Designer to create a new codeunit, and you use the C\/AL Editor t
   
  You can also use the following keyboard shortcuts.  
   
-|Keyboard shortcut|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|Keyboard shortcut|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-----------------------|---------------------------------------|  
 |Ctrl\+Z|Cancels the last edit.|  
 |Ctrl\+X|Deletes the selected text and puts it in the Clipboard.|  
@@ -71,12 +71,12 @@ You use Object Designer to create a new codeunit, and you use the C\/AL Editor t
   
  In the **C\/AL Symbol Menu** window, choose the **OK** button or the **Apply** button to paste the syntax description into the C\/AL Editor. If you choose the **OK** button, then the **C\/AL Symbol Menu** window is closed automatically. If you choose the **Apply** button, then the window stays open.  
   
- For more information, see [C\-AL Functions](../dynamics-nav/C-AL-Functions.md).  
+ For more information, see [C\-AL Functions](C-AL-Functions.md).  
   
 ## Compiling and Saving Codeunits  
  Before you can run the functions in a codeunit, you must save and compile the code. When you compile the code, the syntax of the statements are checked. If the compiler finds any errors in the code it displays an error message. For more information about how to compile the code in a codeunit, see [How to: Compile the Code in a Codeunit](../Topic/How%20to:%20Compile%20the%20Code%20in%20a%20Codeunit.md). For more information about how to save a codeunit, see [How to: Save a Codeunit](../Topic/How%20to:%20Save%20a%20Codeunit.md).  
   
 ## See Also  
- [Understanding Codeunits](../dynamics-nav/Understanding-Codeunits.md)   
- [Using Codeunits](../dynamics-nav/Using-Codeunits.md)   
+ [Understanding Codeunits](Understanding-Codeunits.md)   
+ [Using Codeunits](Using-Codeunits.md)   
  [Walkthrough: Using Codeunits](../Topic/Walkthrough:%20Using%20Codeunits.md)

@@ -10,7 +10,7 @@ ms.assetid: 83351319-ce8a-4a84-9831-f68ed9f14835
 caps.latest.revision: 3
 ---
 # Extension Packages Capability Support Matrix
-An extension package can contain both new and modified objects. In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], the following object types can be added and included in an extension:  
+An extension package can contain both new and modified objects. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], the following object types can be added and included in an extension:  
   
 -   Pages  
   
@@ -37,7 +37,7 @@ An extension package can contain both new and modified objects. In [!INCLUDE[nav
  There are restrictions on certain property changes for modified objects. The following sections list the properties you cannot change. The cmdlets that create and install packages will halt with errors if any of these properties are changed in your extension.  
   
 ### Restricted Properties on Existing Page Modifications  
- You cannot change the values for the following properties for existing [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] pages in an extension.  
+ You cannot change the values for the following properties for existing [!INCLUDE[navnow](includes/navnow_md.md)] pages in an extension.  
   
 -   AccessByPermission  
   
@@ -133,7 +133,7 @@ An extension package can contain both new and modified objects. In [!INCLUDE[nav
   
 -   ValuesAllowed  
   
- Most of these are typically not properties changed through customization as they can have a negative effect on the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] deployment.  
+ Most of these are typically not properties changed through customization as they can have a negative effect on the [!INCLUDE[navnow](includes/navnow_md.md)] deployment.  
   
 ### Restricted Properties on Existing Table Modifications  
  You cannot change the values for the following properties for existing tables and fields in an extension.  
@@ -147,6 +147,6 @@ An extension package can contain both new and modified objects. In [!INCLUDE[nav
  You can add fields to a table group, but you cannot remove fields or groups.  
   
 ## See Also  
- [Extending Microsoft Dynamics NAV Using Extension Packages](../dynamics-nav/Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)   
- [Comparing and Merging Application Object Source Files](../dynamics-nav/Comparing-and-Merging-Application-Object-Source-Files.md)   
- [Microsoft Dynamics NAV Windows PowerShell Cmdlets](../dynamics-nav/Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)
+ [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)   
+ [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)   
+ [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)

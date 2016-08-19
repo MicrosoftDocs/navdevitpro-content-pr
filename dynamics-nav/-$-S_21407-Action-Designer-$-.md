@@ -13,22 +13,22 @@ manager: terryaus
 # ($ S_21407 Action Designer $)
 Adds actions to the menu bar of a page.  
   
- To open this window, open Page Designer, and then on the **View** menu, choose **Page Actions**. For more information about how to open Page Designer, see [\($ S\_21401 Page Designer $\)](../dynamics-nav/-$-S_21401-Page-Designer-$-.md).  
+ To open this window, open Page Designer, and then on the **View** menu, choose **Page Actions**. For more information about how to open Page Designer, see [\($ S\_21401 Page Designer $\)](-$-S_21401-Page-Designer-$-.md).  
   
- In the [!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)] for [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], menu items are called *actions*.  
+ In the [!INCLUDE[rtc](includes/rtc_md.md)] for [!INCLUDE[navnow](includes/navnow_md.md)], menu items are called *actions*.  
   
 > [!NOTE]  
 >  Actions can only be linked to a page or to a group control that has a subtype of **CueGroup**. Actions cannot be linked to fields, containers, or parts on a page. For more information about adding actions to a **CueGroup** control, see [Adding an Action to the Cue](../Topic/Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20FlowField.md#AddingActionToCue).  
   
 ## Fields and Controls  
   
-|[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
 |**Name**|The name of the action.|  
 |**Caption**|The caption of the action.|  
-|**Type**|The type of the action you want to create. You can select one of the following action types.<br /><br /> -   **ActionContainer**<br />-   **Separator**<br />-   **ActionGroup**<br />-   **Action**<br /><br /> For example, to create a container for your actions, select **ActionContainer**. For more information, see [Actions Overview](../dynamics-nav/Actions-Overview.md).|  
-|**Subtype**|The subtype of the action you want to create. You can select one of the following subtypes:<br /><br /> -   NewDocumentItems<br />     Actions that are included under this control are displayed in the **New Document** group on the **Actions** tab.<br />-   ActionItems<br />     Actions that are included under this control are displayed on the **Actions** tab.<br />-   RelatedInformation<br />     Actions that are included under this control are displayed on the **Navigate** tab.<br />-   Reports<br />     Actions that are included under this control are displayed on the **Reports** tab.<br />-   HomeItems<br />     Actions that are included under this control appear in the navigation pane under the **Home** button. This can only be used on **RoleCenter** page types. For more information, see [Setting Up the Home Button and Home Items](../dynamics-nav/Setting-Up-the-Home-Button-and-Home-Items.md).<br />-   ActivityButtons<br />     This control defines an item in the navigation pane. This can only be used on **RoleCenter** page types. For more information, see [Creating Activity Buttons for the Navigation Pane](../dynamics-nav/Creating-Activity-Buttons-for-the-Navigation-Pane.md).<br /><br /> For example, to put your action in the **Actions** tab, select **ActionItems**.For more information, see [Actions Overview](../dynamics-nav/Actions-Overview.md).|  
+|**Type**|The type of the action you want to create. You can select one of the following action types.<br /><br /> -   **ActionContainer**<br />-   **Separator**<br />-   **ActionGroup**<br />-   **Action**<br /><br /> For example, to create a container for your actions, select **ActionContainer**. For more information, see [Actions Overview](Actions-Overview.md).|  
+|**Subtype**|The subtype of the action you want to create. You can select one of the following subtypes:<br /><br /> -   NewDocumentItems<br />     Actions that are included under this control are displayed in the **New Document** group on the **Actions** tab.<br />-   ActionItems<br />     Actions that are included under this control are displayed on the **Actions** tab.<br />-   RelatedInformation<br />     Actions that are included under this control are displayed on the **Navigate** tab.<br />-   Reports<br />     Actions that are included under this control are displayed on the **Reports** tab.<br />-   HomeItems<br />     Actions that are included under this control appear in the navigation pane under the **Home** button. This can only be used on **RoleCenter** page types. For more information, see [Setting Up the Home Button and Home Items](Setting-Up-the-Home-Button-and-Home-Items.md).<br />-   ActivityButtons<br />     This control defines an item in the navigation pane. This can only be used on **RoleCenter** page types. For more information, see [Creating Activity Buttons for the Navigation Pane](Creating-Activity-Buttons-for-the-Navigation-Pane.md).<br /><br /> For example, to put your action in the **Actions** tab, select **ActionItems**.For more information, see [Actions Overview](Actions-Overview.md).|  
   
-|Control|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|Control|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-------------|---------------------------------------|  
 |**Separator** button|Inserts a separator between actions.|

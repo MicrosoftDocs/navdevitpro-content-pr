@@ -16,20 +16,20 @@ This topic lists properties that apply to the MenuSuite object.
 ## Menu Properties  
  The following properties apply to menus on a MenuSuite object.  
   
--   [Bitmap Property](../dynamics-nav/Bitmap-Property.md)  
+-   [Bitmap Property](Bitmap-Property.md)  
   
--   [Caption Property\-duplicate](../dynamics-nav/Caption-Property-duplicate.md)  
+-   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
   
--   [CaptionML Property](../dynamics-nav/CaptionML-Property.md)  
+-   [CaptionML Property](CaptionML-Property.md)  
   
 ## Menu Item Properties  
   
-1.  [AccessByPermission Property](../dynamics-nav/AccessByPermission-Property.md)  
+1.  [AccessByPermission Property](AccessByPermission-Property.md)  
   
-2.  [Caption Property\-duplicate](../dynamics-nav/Caption-Property-duplicate.md)  
+2.  [Caption Property\-duplicate](Caption-Property-duplicate.md)  
   
-3.  [CaptionML Property](../dynamics-nav/CaptionML-Property.md)  
+3.  [CaptionML Property](CaptionML-Property.md)  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)   
- [MenuSuites](../dynamics-nav/MenuSuites.md)
+ [Properties](Properties.md)   
+ [MenuSuites](MenuSuites.md)

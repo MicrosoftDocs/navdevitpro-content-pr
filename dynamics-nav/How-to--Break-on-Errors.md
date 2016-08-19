@@ -15,7 +15,7 @@ You can specify if the debugger breaks on the next error. If the debugger is set
   
  When the debugger breaks on an error, you can inspect variables and parameters. You can also review the error message in the **Debugger** window, on the **Home** tab, in the **Show** group, by choosing **Last Error**.  
   
- For more information about how to open the **Debugger** window, see [Activating the Debugger](../dynamics-nav/Activating-the-Debugger.md).  
+ For more information about how to open the **Debugger** window, see [Activating the Debugger](Activating-the-Debugger.md).  
   
 ### To break on errors  
   
@@ -31,4 +31,4 @@ You can specify if the debugger breaks on the next error. If the debugger is set
  [How to: Break on the Next Statement](../Topic/How%20to:%20Break%20on%20the%20Next%20Statement.md)   
  [How to: Break on Record Changes](../Topic/How%20to:%20Break%20on%20Record%20Changes.md)   
  [How to: Set Conditional Breakpoints](../Topic/How%20to:%20Set%20Conditional%20Breakpoints.md)   
- [Breakpoints](../dynamics-nav/Breakpoints.md)
+ [Breakpoints](Breakpoints.md)

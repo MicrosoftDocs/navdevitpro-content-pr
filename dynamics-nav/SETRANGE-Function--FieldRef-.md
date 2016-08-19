@@ -44,10 +44,10 @@ FieldRef.SETRANGE([FromValue] [, ToValue])
   
  The SETRANGE function fails if no field is selected.  
   
- This function is like the [SETRANGE Function \(Record\)](../dynamics-nav/SETRANGE-Function--Record-.md) function.  
+ This function is like the [SETRANGE Function \(Record\)](SETRANGE-Function--Record-.md) function.  
   
 ## Example  
- The following example opens the Customer table as a RecordRef object, creates a reference to the first \(No.\) field, and stores the reference in the MyFieldRef variable. The SETRANGE function sets a filter that selects all records from 10000 to 40000 in the No. field. The [FIND Function \(RecordRef\)](../dynamics-nav/FIND-Function--RecordRef-.md) searches and selects the first record in the filter and counts the number of records that are found. The number of records is stored in the Count variable. The process is repeated by looping through all the records in the filter until no more records are found. The number of records that are found in the range is stored in the Count variable and displayed in a message box. This example requires that you create the following variables in the **C\/AL Globals** windows.  
+ The following example opens the Customer table as a RecordRef object, creates a reference to the first \(No.\) field, and stores the reference in the MyFieldRef variable. The SETRANGE function sets a filter that selects all records from 10000 to 40000 in the No. field. The [FIND Function \(RecordRef\)](FIND-Function--RecordRef-.md) searches and selects the first record in the filter and counts the number of records that are found. The number of records is stored in the Count variable. The process is repeated by looping through all the records in the filter until no more records are found. The number of records that are found in the range is stored in the Count variable and displayed in a message box. This example requires that you create the following variables in the **C\/AL Globals** windows.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -73,4 +73,4 @@ MESSAGE(Text000 , Count);
 ```  
   
 ## See Also  
- [FieldRef Data Type](../dynamics-nav/FieldRef-Data-Type.md)
+ [FieldRef Data Type](FieldRef-Data-Type.md)

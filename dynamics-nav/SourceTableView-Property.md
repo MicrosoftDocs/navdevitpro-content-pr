@@ -21,4 +21,4 @@ Sets the key, sort order, and filter you want to use to determine the view of th
  Use the **AssistEdit** button to help you select the key, sort order, and filter. This property setting is checked when the page is opened.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

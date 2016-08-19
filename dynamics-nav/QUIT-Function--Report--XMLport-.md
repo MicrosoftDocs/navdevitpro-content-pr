@@ -21,7 +21,7 @@ QUIT
 ```  
   
 ## Remarks  
- When you use the QUIT function, the report or XMLport is exited without committing any changes that were made to the database during the execution. The [OnPostReport Trigger](../dynamics-nav/OnPostReport-Trigger.md) or [OnPostXMLport Trigger](../dynamics-nav/OnPostXMLport-Trigger.md) trigger will not be called.  
+ When you use the QUIT function, the report or XMLport is exited without committing any changes that were made to the database during the execution. The [OnPostReport Trigger](OnPostReport-Trigger.md) or [OnPostXMLport Trigger](OnPostXMLport-Trigger.md) trigger will not be called.  
   
 ## Example  
  The following example shows how to use the QUIT function to abort an execution without committing any changes that were made during the processing.  
@@ -34,5 +34,5 @@ CurrReport.QUIT;
 ```  
   
 ## See Also  
- [Report Data Type](../dynamics-nav/Report-Data-Type.md)   
- [XMLport Data Type](../dynamics-nav/XMLport-Data-Type.md)
+ [Report Data Type](Report-Data-Type.md)   
+ [XMLport Data Type](XMLport-Data-Type.md)

@@ -11,11 +11,11 @@ caps.latest.revision: 4
 manager: terryaus
 ---
 # Accessibility
-This section contains information about the available accessibility features in [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)]. For more information, see the following topics:  
+This section contains information about the available accessibility features in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. For more information, see the following topics:  
   
- [Accessibility Features of Microsoft Dynamics NAV Windows Client](../dynamics-nav/Accessibility-Features-of-Microsoft-Dynamics-NAV-Windows-Client.md)  
+ [Accessibility Features of Microsoft Dynamics NAV Windows Client](Accessibility-Features-of-Microsoft-Dynamics-NAV-Windows-Client.md)  
   
- [Accessibility Features of Microsoft Dynamics NAV Web Client](../dynamics-nav/Accessibility-Features-of-Microsoft-Dynamics-NAV-Web-Client.md)  
+ [Accessibility Features of Microsoft Dynamics NAV Web Client](Accessibility-Features-of-Microsoft-Dynamics-NAV-Web-Client.md)  
   
 ## See Also  
- [Development](../dynamics-nav/Development.md)
+ [Development](Development.md)

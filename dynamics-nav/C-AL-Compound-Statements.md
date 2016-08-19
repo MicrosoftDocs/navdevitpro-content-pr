@@ -57,6 +57,6 @@ END;
 ```  
   
 ## See Also  
- [C\-AL Conditional Statements](../dynamics-nav/C-AL-Conditional-Statements.md)   
- [C\-AL Repetitive Statements](../dynamics-nav/C-AL-Repetitive-Statements.md)   
- [C\-AL WITH Statements](../dynamics-nav/C-AL-WITH-Statements.md)
+ [C\-AL Conditional Statements](C-AL-Conditional-Statements.md)   
+ [C\-AL Repetitive Statements](C-AL-Repetitive-Statements.md)   
+ [C\-AL WITH Statements](C-AL-WITH-Statements.md)

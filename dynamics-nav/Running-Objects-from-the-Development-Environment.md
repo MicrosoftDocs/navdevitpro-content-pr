@@ -11,16 +11,16 @@ caps.latest.revision: 8
 manager: terryaus
 ---
 # Running Objects from the Development Environment
-In Object Designer in the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], you can run any object. The object is run on the computer that is running [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)], not on a client computer.  
+In Object Designer in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], you can run any object. The object is run on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)], not on a client computer.  
   
  To run an object from Object Designer, you must first open a company. If you do not have a company open, then you are prompted to open a company or to create a company if no companies exist.  
   
- You can also run objects from hyperlinks. For more information, see [Creating and Running Hyperlinks](../dynamics-nav/Creating-and-Running-Hyperlinks.md).  
+ You can also run objects from hyperlinks. For more information, see [Creating and Running Hyperlinks](Creating-and-Running-Hyperlinks.md).  
   
- The instance of [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] on which the object is run is specified in the **Database Information** window and in the **Options** window. For more information about how to change the server instance, see [How to: Change the Microsoft Dynamics NAV Server Instance](../Topic/How%20to:%20Change%20the%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).  
+ The instance of [!INCLUDE[nav_server](includes/nav_server_md.md)] on which the object is run is specified in the **Database Information** window and in the **Options** window. For more information about how to change the server instance, see [How to: Change the Microsoft Dynamics NAV Server Instance](../Topic/How%20to:%20Change%20the%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).  
   
- If there is only one [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance configured for the currently open database, then this instance is automatically used to run the object.  
+ If there is only one [!INCLUDE[nav_server](includes/nav_server_md.md)] instance configured for the currently open database, then this instance is automatically used to run the object.  
   
 ## See Also  
- [Objects](../dynamics-nav/Objects.md)   
- [Compiling Objects](../dynamics-nav/Compiling-Objects.md)
+ [Objects](Objects.md)   
+ [Compiling Objects](Compiling-Objects.md)

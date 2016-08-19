@@ -11,7 +11,7 @@ caps.latest.revision: 12
 manager: terryaus
 ---
 # FILENAME Function (XMLport)
-Gets the current value of the [FileName Property](../dynamics-nav/FileName-Property.md) of an XMLport and sets this property to a new value.  
+Gets the current value of the [FileName Property](FileName-Property.md) of an XMLport and sets this property to a new value.  
   
 ## Syntax  
   
@@ -32,4 +32,4 @@ Gets the current value of the [FileName Property](../dynamics-nav/FileName-Prope
  The current value of the **FileName** property.  
   
 ## See Also  
- [XMLport Data Type](../dynamics-nav/XMLport-Data-Type.md)
+ [XMLport Data Type](XMLport-Data-Type.md)

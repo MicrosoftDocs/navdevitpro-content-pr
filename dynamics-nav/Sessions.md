@@ -11,16 +11,16 @@ caps.latest.revision: 6
 manager: terryaus
 ---
 # Sessions
-Use the session functions to manage [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] sessions.  
+Use the session functions to manage [!INCLUDE[navnow](includes/navnow_md.md)] sessions.  
   
 ## See Also  
- [APPLICATIONAREA Function](../dynamics-nav/APPLICATIONAREA-Function.md)   
- [BINDSUBSCRIPTION Function](../dynamics-nav/BINDSUBSCRIPTION-Function.md)   
- [CURRENTCLIENTTYPE Function](../dynamics-nav/CURRENTCLIENTTYPE-Function.md)   
- [CURRENTEXECUTIONMODE Function \(Sessions\)](../dynamics-nav/CURRENTEXECUTIONMODE-Function--Sessions-.md)   
- [DEFAULTCLIENTTYPE Function](../dynamics-nav/DEFAULTCLIENTTYPE-Function.md)   
- [STARTSESSION Function \(Sessions\)](../dynamics-nav/STARTSESSION-Function--Sessions-.md)   
- [STOPSESSION Function \(Sessions\)](../dynamics-nav/STOPSESSION-Function--Sessions-.md)   
- [UNBINDSUBSCRIPTION Function](../dynamics-nav/UNBINDSUBSCRIPTION-Function.md)   
- [USERID Function \(Sessions\)](../dynamics-nav/USERID-Function--Sessions-.md)   
- [USERSECURITYID Function](../dynamics-nav/USERSECURITYID-Function.md)
+ [APPLICATIONAREA Function](APPLICATIONAREA-Function.md)   
+ [BINDSUBSCRIPTION Function](BINDSUBSCRIPTION-Function.md)   
+ [CURRENTCLIENTTYPE Function](CURRENTCLIENTTYPE-Function.md)   
+ [CURRENTEXECUTIONMODE Function \(Sessions\)](CURRENTEXECUTIONMODE-Function--Sessions-.md)   
+ [DEFAULTCLIENTTYPE Function](DEFAULTCLIENTTYPE-Function.md)   
+ [STARTSESSION Function \(Sessions\)](STARTSESSION-Function--Sessions-.md)   
+ [STOPSESSION Function \(Sessions\)](STOPSESSION-Function--Sessions-.md)   
+ [UNBINDSUBSCRIPTION Function](UNBINDSUBSCRIPTION-Function.md)   
+ [USERID Function \(Sessions\)](USERID-Function--Sessions-.md)   
+ [USERSECURITYID Function](USERSECURITYID-Function.md)

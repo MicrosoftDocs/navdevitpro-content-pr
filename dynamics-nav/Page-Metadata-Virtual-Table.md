@@ -13,7 +13,7 @@ manager: edupont
 # Page Metadata Virtual Table
 The **Page Metadata** virtual table \(ID 2000000138\) contains data about the pages in database. The following table describes the fields in the **Page Metadata** virtual table.  
   
-|[!INCLUDE[bp_tablefield](../dynamics-nav/includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
 |**ID**|The ID for the page object.|  
 |**Name**|Specifies the name of the page object.|  
@@ -38,9 +38,9 @@ The **Page Metadata** virtual table \(ID 2000000138\) contains data about the pa
 |**LinksAllowed**|Specifies whether links or notes are allowed on the page.|  
 |**PopulateAllFields**|Specifies whether fields are filled out automatically with a single filter value when a new record is inserted in a table.|  
   
- The fields in the virtual table correspond to C\/AL properties on the page objects. For more information, see [Page Properties](../dynamics-nav/Page-Properties.md).  
+ The fields in the virtual table correspond to C\/AL properties on the page objects. For more information, see [Page Properties](Page-Properties.md).  
   
  To access and view the **Page Metadata** virtual table, you must create a tabular\-type page. For more information, see [How to: Create a Page to View a Virtual Table](../Topic/How%20to:%20Create%20a%20Page%20to%20View%20a%20Virtual%20Table.md)  
   
 ## See Also  
- [Virtual Tables](../dynamics-nav/Virtual-Tables.md)
+ [Virtual Tables](Virtual-Tables.md)

@@ -11,7 +11,7 @@ caps.latest.revision: 29
 manager: edupont
 ---
 # Walkthrough: Creating a Link from a Report to a Page
-You can create reports that provide dynamic data with Visual Studio Report Designer and [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)]. Your reports can include images, graphics, toggles on data columns, interactive sorting, and links to other data in the system. This walkthrough illustrates how to set up a report to include a link to the Customer Card page. When the report is run in preview mode, you can look up any existing customer directly from the report. By including this functionality, you now have a report that is a dynamic list that you can use to drill down into data instead of a report that is a static, printed list.  
+You can create reports that provide dynamic data with Visual Studio Report Designer and [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. Your reports can include images, graphics, toggles on data columns, interactive sorting, and links to other data in the system. This walkthrough illustrates how to set up a report to include a link to the Customer Card page. When the report is run in preview mode, you can look up any existing customer directly from the report. By including this functionality, you now have a report that is a dynamic list that you can use to drill down into data instead of a report that is a static, printed list.  
   
 ## About This Walkthrough  
  The walkthrough provides an overview of how to modify the **Customer – Order Summary** report to include a link to the **Customer** card. This walkthrough illustrates the following tasks:  
@@ -25,18 +25,18 @@ You can create reports that provide dynamic data with Visual Studio Report Desig
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] with a developer license.  
   
--   The [!INCLUDE[demoname](../dynamics-nav/includes/demoname_md.md)] demo data company.  
+-   The [!INCLUDE[demoname](includes/demoname_md.md)] demo data company.  
   
--   Microsoft Visual Studio installed. For more information about which version of Microsoft Visual Studio you need, see [System Requirements for Microsoft Dynamics NAV 2016](../dynamics-nav/System-Requirements-for-Microsoft-Dynamics-NAV-2016.md). This walkthrough assumes that Microsoft Visual Studio 2012 or Microsoft Visual Studio 2013 is used.  
+-   Microsoft Visual Studio installed. For more information about which version of Microsoft Visual Studio you need, see [System Requirements for Microsoft Dynamics NAV 2016](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md). This walkthrough assumes that Microsoft Visual Studio 2012 or Microsoft Visual Studio 2013 is used.  
   
 ## Enabling Hyperlinks on a Report  
- Before you can add a link from a report to a page, you must enable hyperlinks on the report. For more information, see [EnableHyperlinks Property](../dynamics-nav/EnableHyperlinks-Property.md).  
+ Before you can add a link from a report to a page, you must enable hyperlinks on the report. For more information, see [EnableHyperlinks Property](EnableHyperlinks-Property.md).  
   
 #### To enable hyperlinks on a report  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **Report**, select report 107, the **Customer – Order Summary** report, and then choose the **Design** button.  
   
@@ -53,7 +53,7 @@ You can create reports that provide dynamic data with Visual Studio Report Desig
   
 #### To add a link to customer name in Visual Studio  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], with the **Customer – Order Summary** report open in Report Dataset Designer, on the **View** menu, choose **Layout**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], with the **Customer – Order Summary** report open in Report Dataset Designer, on the **View** menu, choose **Layout**.  
   
 2.  In Visual Studio, in the **Body** section of the report, locate the **First\(Name\_Cust\)** text box. The expression for the text box is `=First(Fields!Name_Cust.Value)`.  
   
@@ -77,17 +77,17 @@ You can create reports that provide dynamic data with Visual Studio Report Desig
 9. Save the Report.rdlc file, and then close Visual Studio.  
   
 ## Running the Modified Report  
- In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], you must now save the modified report and compile it you run it to see the changes.  
+ In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], you must now save the modified report and compile it you run it to see the changes.  
   
 #### To run the modified report  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], save the **Customer – Order Summary** report. A message informs you that the .rdlc file for this report has changed and asks if you want to load the changes. Choose **Yes** to save the changes in the database.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], save the **Customer – Order Summary** report. A message informs you that the .rdlc file for this report has changed and asks if you want to load the changes. Choose **Yes** to save the changes in the database.  
   
 2.  Save and compile the report.  
   
 3.  On the Windows taskbar, choose **Start**, and then choose **Run**.  
   
-4.  In the **Run** window, enter the following text: **dynamicsnav:\/\/\/\/runreport?report\=107**, and then choose **OK**. For more information about the syntax for running a report from the **Run** window, see [Creating and Running Hyperlinks](../dynamics-nav/Creating-and-Running-Hyperlinks.md).  
+4.  In the **Run** window, enter the following text: **dynamicsnav:\/\/\/\/runreport?report\=107**, and then choose **OK**. For more information about the syntax for running a report from the **Run** window, see [Creating and Running Hyperlinks](Creating-and-Running-Hyperlinks.md).  
   
 5.  Choose **Preview** to view the report. The report shows the order detail \(the quantity not yet shipped\) for each customer in three periods of 30 days each, starting from a selected date. If you select the customer name, then the specific Customer card opens. This makes it possible to drill down into the customer's data.  
   

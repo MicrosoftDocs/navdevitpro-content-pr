@@ -15,7 +15,7 @@ You can create test runner codeunits to manage the execution of test codeunits a
   
 ### To create a test runner codeunit  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], in **Object Designer**, create a new codeunit.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], in **Object Designer**, create a new codeunit.  
   
 2.  In the **Properties** window for the new codeunit, in the **Subtype** field, select **TestRunner** to specify that this is a test runner codeunit.  
   
@@ -27,10 +27,10 @@ You can create test runner codeunits to manage the execution of test codeunits a
   
     -   Function  
   
-     For more information, see [TestIsolation Property](../dynamics-nav/TestIsolation-Property.md).  
+     For more information, see [TestIsolation Property](TestIsolation-Property.md).  
   
     > [!TIP]  
-    >  In the test runners in the automated application test libraries on the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] product media, test isolation is set to **Codeunit**.  
+    >  In the test runners in the automated application test libraries on the [!INCLUDE[navnow](includes/navnow_md.md)] product media, test isolation is set to **Codeunit**.  
   
 4.  In the C\/AL Editor, in the **OnRun** function, enter code to run the test codeunits. For example, the following code in the **OnRun** function of a test runner codeunit runs three test codeunits in the automated application test libraries.  
   
@@ -166,7 +166,7 @@ You can create test runner codeunits to manage the execution of test codeunits a
 10. In the **Save As** window, in the **ID** field, enter an ID and in the **Name** field, enter a name for the codeunit. Verify that the **Compiled** check box is selected, and then choose **OK**.  
   
 ## See Also  
- [Testing the Application](../dynamics-nav/Testing-the-Application.md)   
+ [Testing the Application](Testing-the-Application.md)   
  [How to: Create Test Codeunits and Test Functions](../Topic/How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md)   
  [How to: Create Handler Functions](../Topic/How%20to:%20Create%20Handler%20Functions.md)   
- [Application Test Automation](../dynamics-nav/Application-Test-Automation.md)
+ [Application Test Automation](Application-Test-Automation.md)

@@ -13,7 +13,7 @@ manager: terryaus
 # How to: Import Objects
 You can import application objects into the database from a file. The file must be one of the following formats:  
   
--   [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Object format \(.fob\)  
+-   [!INCLUDE[navnow](includes/navnow_md.md)] Object format \(.fob\)  
   
 -   Text format \(.txt\)  
   
@@ -32,11 +32,11 @@ You can import application objects into the database from a file. The file must 
   
      If you import objects from a .txt file, then the objects in the file overwrite any objects that are already in the database. If you import objects from a .fob file and one or more objects in the file has the same ID as an object that are already in the database, then you receive a warning. You can choose to either cancel the import or open the Import Worksheet to resolve the conflicts.  
   
-4.  Use the Import Worksheet to specify how to resolve conflicts between objects in the import file and objects in the database. For more information, see [Import Worksheet](../dynamics-nav/Import-Worksheet.md).  
+4.  Use the Import Worksheet to specify how to resolve conflicts between objects in the import file and objects in the database. For more information, see [Import Worksheet](Import-Worksheet.md).  
   
 ### To import objects by running finsql.exe with the ImportObjects command  
   
-1.  At a command prompt, move to the location of finsql.exe. By default, finsql.exe is located at [!INCLUDE[navnow_x86install](../dynamics-nav/includes/navnow_x86install_md.md)]\\[!INCLUDE[rtc](../dynamics-nav/includes/rtc_md.md)]\\.  
+1.  At a command prompt, move to the location of finsql.exe. By default, finsql.exe is located at [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\[!INCLUDE[rtc](includes/rtc_md.md)]\\.  
   
 2.  Run finsql.exe with the parameter "command\=importobjects". You must specify the following parameters:  
   
@@ -48,7 +48,7 @@ You can import application objects into the database from a file. The file must 
   
      All other parameters are optional.  
   
-     For more information about the ImportObjects command, see [ImportObjects](../dynamics-nav/ImportObjects.md).  
+     For more information about the ImportObjects command, see [ImportObjects](ImportObjects.md).  
   
 ## See Also  
- [Importing and Exporting Objects](../dynamics-nav/Importing-and-Exporting-Objects.md)
+ [Importing and Exporting Objects](Importing-and-Exporting-Objects.md)

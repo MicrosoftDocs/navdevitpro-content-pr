@@ -52,7 +52,7 @@ This procedure describes how to change the layout that is used by a report. A re
   
 3.  To change the layout that is used by a report, in the row for the report in the list, set the **\($ N\_9652\_2 Selected Layout $\)** field to one of the following options:  
   
-    |[!INCLUDE[bp_tableoption](../dynamics-nav/includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+    |[!INCLUDE[bp_tableoption](includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
     |----------------------------------|---------------------------------------|  
     |**RDLC \(built\-in\)**|Uses the built\-in RDLC report layout on the report.|  
     |**Word \(built\-in\)**|Uses the built\-in Word report layout on the report.|  
@@ -73,6 +73,6 @@ This procedure describes how to change the layout that is used by a report. A re
   
 ## See Also  
  [Managing Report Layouts From the Microsoft Dynamics NAV Clients](../Topic/Managing%20Report%20Layouts%20From%20the%20Microsoft%20Dynamics%20NAV%20Clients.md)   
- [Designing Report Layouts from the Microsoft Dynamics NAV Development Environment](../dynamics-nav/Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md)   
+ [Designing Report Layouts from the Microsoft Dynamics NAV Development Environment](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md)   
  [How to: Modify a Custom Report Layout](../Topic/How%20to:%20Modify%20a%20Custom%20Report%20Layout.md)   
  [How to: Create a Custom Report Layout](../Topic/How%20to:%20Create%20a%20Custom%20Report%20Layout.md)

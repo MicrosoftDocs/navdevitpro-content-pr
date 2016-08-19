@@ -23,7 +23,7 @@ Ok := Dialog.CONFIRM(String [, Default] [, Value1] ,...)
  *String*  
  Type: Code or text constant  
   
- Specifies the string that is displayed in the dialog box. Use a backslash \(\\\) to indicate a new line. The string can be a text constant that is enabled for multilanguage functionality. For more information, see [Multilanguage Development](../dynamics-nav/Multilanguage-Development.md).  
+ Specifies the string that is displayed in the dialog box. Use a backslash \(\\\) to indicate a new line. The string can be a text constant that is enabled for multilanguage functionality. For more information, see [Multilanguage Development](Multilanguage-Development.md).  
   
  *Default*  
  Type: Boolean  
@@ -45,7 +45,7 @@ Ok := Dialog.CONFIRM(String [, Default] [, Value1] ,...)
 ## Remarks  
  The message window is automatically sized. The height of the window corresponds to the number of lines and the width corresponds to the length of the longest line.  
   
- We recommend that you always end CONFIRM messages with a question mark. For more information about best practices for end\-user messages, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Functions](../dynamics-nav/Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Functions.md).  
+ We recommend that you always end CONFIRM messages with a question mark. For more information about best practices for end\-user messages, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Functions](Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Functions.md).  
   
 ## Example  
  In the following example, the Dialog.CONFIRM function prompts the user for a **Yes** or **No** answer. This code example requires that you create the following variables.  
@@ -79,4 +79,4 @@ MESSAGE(Text001, Answer);
  **You selected Yes.**  
   
 ## See Also  
- [Dialog Data Type](../dynamics-nav/Dialog-Data-Type.md)
+ [Dialog Data Type](Dialog-Data-Type.md)

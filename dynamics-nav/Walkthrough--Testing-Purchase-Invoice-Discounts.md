@@ -11,7 +11,7 @@ caps.latest.revision: 20
 manager: terryaus
 ---
 # Walkthrough: Testing Purchase Invoice Discounts
-Before you release a customized [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] application to a production environment, you must test the application. This walkthrough demonstrates how to use the test codeunits and test libraries to test an application.  
+Before you release a customized [!INCLUDE[navnowlong](includes/navnowlong_md.md)] application to a production environment, you must test the application. This walkthrough demonstrates how to use the test codeunits and test libraries to test an application.  
   
 ## About This Walkthrough  
  This walkthrough illustrates the following tasks:  
@@ -21,19 +21,19 @@ Before you release a customized [!INCLUDE[navnowlong](../dynamics-nav/includes/n
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] with a developer license.  
+-   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] with a developer license.  
   
 -   The CRONUS International Ltd. demo data company.  
   
 ## Story  
- Isaac is a business application developer working for CRONUS International Ltd. He has modified codeunit 70, Purch\-Calc.Discount, which is a codeunit in the [!INCLUDE[demoname](../dynamics-nav/includes/demoname_md.md)] database. Isaac wants to test the functionality of his customized codeunit before he offers the customized application for sale. He creates a new test codeunit with new test functions to test the Purch\-Calc.Discount codeunit. During development, Isaac uses the application test libraries to help him write a test with fewer lines of code.  
+ Isaac is a business application developer working for CRONUS International Ltd. He has modified codeunit 70, Purch\-Calc.Discount, which is a codeunit in the [!INCLUDE[demoname](includes/demoname_md.md)] database. Isaac wants to test the functionality of his customized codeunit before he offers the customized application for sale. He creates a new test codeunit with new test functions to test the Purch\-Calc.Discount codeunit. During development, Isaac uses the application test libraries to help him write a test with fewer lines of code.  
   
 ## Creating a Test Codeunit and Test Function  
  Isaac creates a new codeunit and specifies that it is a test codeunit. He defines the scenario that he wants to verify, adds a test function to tests the Purch\-Calc.Discount functionality, and adds a helper function that can be reused if he decides to extend test coverage.  
   
 #### To create the test codeunit and test function  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], in **Object Designer**, create a new codeunit.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], in **Object Designer**, create a new codeunit.  
   
 2.  In the **Properties** window, in the **Subtype** field, select **Test** to specify that this is a test codeunit.  
   
@@ -164,4 +164,4 @@ Before you release a customized [!INCLUDE[navnowlong](../dynamics-nav/includes/n
 -   Run the test codeunit in the **Test Tool** page.  
   
 ## See Also  
- [Testing the Application](../dynamics-nav/Testing-the-Application.md)
+ [Testing the Application](Testing-the-Application.md)

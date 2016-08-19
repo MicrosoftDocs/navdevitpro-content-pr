@@ -11,7 +11,7 @@ caps.latest.revision: 15
 manager: pchapman
 ---
 # ToolTip Property
-Sets whether tooltips are provided for the given object. The tooltip value is taken from the [ToolTipML Property](../dynamics-nav/ToolTipML-Property.md) if this property is set.  
+Sets whether tooltips are provided for the given object. The tooltip value is taken from the [ToolTipML Property](ToolTipML-Property.md) if this property is set.  
   
 ## Applies To  
   
@@ -24,16 +24,16 @@ Sets whether tooltips are provided for the given object. The tooltip value is ta
 -   Activity buttons  
   
     > [!NOTE]  
-    >  Activity button tooltips are only shown on the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)].  
+    >  Activity button tooltips are only shown on the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
 -   ActionContainers  
   
     > [!WARNING]  
-    >  ActionContainers tooltips are only shown on the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] for the subtype **HomeItems**.  
+    >  ActionContainers tooltips are only shown on the [!INCLUDE[nav_web](includes/nav_web_md.md)] for the subtype **HomeItems**.  
   
 ## Remarks  
  The default is an empty string, which means there will be no tooltip.  
   
 ## See Also  
- [ToolTipML Property](../dynamics-nav/ToolTipML-Property.md)   
- [Multilanguage Development](../dynamics-nav/Multilanguage-Development.md)
+ [ToolTipML Property](ToolTipML-Property.md)   
+ [Multilanguage Development](Multilanguage-Development.md)

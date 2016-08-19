@@ -11,11 +11,11 @@ caps.latest.revision: 19
 manager: edupont
 ---
 # How to: Conditionally Change a Row to Bold Font
-In some reports, you may want to format rows as bold based on the value of a field in the row. For example, in the [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)], on report 1, Chart of Accounts, you could conditionally specify that rows whose account type is **Posting** are bold and rows whose account type is anything other than **Posting** are not bold.  
+In some reports, you may want to format rows as bold based on the value of a field in the row. For example, in the [!INCLUDE[demolong](includes/demolong_md.md)], on report 1, Chart of Accounts, you could conditionally specify that rows whose account type is **Posting** are bold and rows whose account type is anything other than **Posting** are not bold.  
   
 ### To conditionally change rows to bold font  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **Report**, select the report that you are modifying, and then choose **Design**.  
   
@@ -36,4 +36,4 @@ In some reports, you may want to format rows as bold based on the value of a fie
 9. On the **File** menu, choose **Save Report.rdlc**.  
   
 ## See Also  
- [Designing Reports](../dynamics-nav/Designing-Reports.md)
+ [Designing Reports](Designing-Reports.md)

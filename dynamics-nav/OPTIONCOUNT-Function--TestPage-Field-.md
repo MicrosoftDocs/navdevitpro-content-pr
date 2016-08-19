@@ -36,4 +36,4 @@ Integer := TestPage.Field.OPTIONCOUNT
  The number of options in a field.  
   
 ## See Also  
- [TestPage Field Functions](../dynamics-nav/TestPage-Field-Functions.md)
+ [TestPage Field Functions](TestPage-Field-Functions.md)

@@ -26,7 +26,7 @@ To enable customized translation of profiles, the **\($ N\_9171 Profile List $\)
   
 4.  A dialog will appear when the export is completed.  
   
-     The [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] only supports exporting and importing .zip files, and if you are exporting profile resource files from the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], you will be prompted for where to save the .zip file after step 4.  
+     The [!INCLUDE[nav_web](includes/nav_web_md.md)] only supports exporting and importing .zip files, and if you are exporting profile resource files from the [!INCLUDE[nav_web](includes/nav_web_md.md)], you will be prompted for where to save the .zip file after step 4.  
   
 ### To edit a profile resource file  
   
@@ -47,10 +47,10 @@ To enable customized translation of profiles, the **\($ N\_9171 Profile List $\)
   
      When you import from a folder, select the folder that contains the individual language folders.  
   
-     When you import from a .zip file, the .zip file must contain the same structure as is generated when exporting to a .zip file. You can try this by exporting the profile resource file from the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)].  
+     When you import from a .zip file, the .zip file must contain the same structure as is generated when exporting to a .zip file. You can try this by exporting the profile resource file from the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
     > [!NOTE]  
-    >  In the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], you only have the **Import Translated Profile Resources From Zip** option.  
+    >  In the [!INCLUDE[nav_web](includes/nav_web_md.md)], you only have the **Import Translated Profile Resources From Zip** option.  
   
 3.  In the **Browse For Folder** dialog, select the folder to import the translated resource file from, and then choose the **OK** button.  
   

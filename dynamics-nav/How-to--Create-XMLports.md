@@ -15,15 +15,15 @@ You design XMLports to export data from Microsoft Dynamics NAV tables or import 
   
 ### To design an XMLport  
   
-1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **XMLport**, and then choose the **New** button to open **XMLport Designer**.  
   
 3.  On the **View** menu, choose **Properties** to open the **XMLport\-Properties** window.  
   
-4.  In the **XML\-Properties** window, set the [Direction Property](../dynamics-nav/Direction-Property.md). If you want to export data, set the property to **Export**. If you want to import data, set the property to **Import**.  
+4.  In the **XML\-Properties** window, set the [Direction Property](Direction-Property.md). If you want to export data, set the property to **Export**. If you want to import data, set the property to **Import**.  
   
-5.  Set the [Format Property \(XMLports\)](../dynamics-nav/Format-Property--XMLports-.md) to the format of the document you want to import or export. You can set the format property to **Xml**, **Variable Text** or **Fixed Text**. By default the format property is set to **Xml**.  
+5.  Set the [Format Property \(XMLports\)](Format-Property--XMLports-.md) to the format of the document you want to import or export. You can set the format property to **Xml**, **Variable Text** or **Fixed Text**. By default the format property is set to **Xml**.  
   
 6.  If you set the format property to variable text, then do the following:  
   
@@ -31,11 +31,11 @@ You design XMLports to export data from Microsoft Dynamics NAV tables or import 
   
         |Property|Value|  
         |--------------|-----------|  
-        |[TextEncoding Property \(XMLports\)](../dynamics-nav/TextEncoding-Property--XMLports-.md)|\<MSDOS\>|  
-        |[FieldDelimiter Property](../dynamics-nav/FieldDelimiter-Property.md)|“|  
-        |[FieldSeparator Property](../dynamics-nav/FieldSeparator-Property.md)|,|  
-        |[RecordSeparator Property](../dynamics-nav/RecordSeparator-Property.md)|\<NewLine\>|  
-        |[TableSeparator Property](../dynamics-nav/TableSeparator-Property.md)|\<NewLine\>\<NewLine\>|  
+        |[TextEncoding Property \(XMLports\)](TextEncoding-Property--XMLports-.md)|\<MSDOS\>|  
+        |[FieldDelimiter Property](FieldDelimiter-Property.md)|“|  
+        |[FieldSeparator Property](FieldSeparator-Property.md)|,|  
+        |[RecordSeparator Property](RecordSeparator-Property.md)|\<NewLine\>|  
+        |[TableSeparator Property](TableSeparator-Property.md)|\<NewLine\>\<NewLine\>|  
   
     > [!NOTE]  
     >  If you are importing a text file, you must examine the text file to determine the appropriate values for these properties.  
@@ -46,22 +46,22 @@ You design XMLports to export data from Microsoft Dynamics NAV tables or import 
   
         |Property|Value|  
         |--------------|-----------|  
-        |[TextEncoding Property \(XMLports\)](../dynamics-nav/TextEncoding-Property--XMLports-.md)|\<MSDOS\>|  
-        |[RecordSeparator Property](../dynamics-nav/RecordSeparator-Property.md)|\<NewLine\>|  
-        |[TableSeparator Property](../dynamics-nav/TableSeparator-Property.md)|\<NewLine\>\<NewLine\>|  
+        |[TextEncoding Property \(XMLports\)](TextEncoding-Property--XMLports-.md)|\<MSDOS\>|  
+        |[RecordSeparator Property](RecordSeparator-Property.md)|\<NewLine\>|  
+        |[TableSeparator Property](TableSeparator-Property.md)|\<NewLine\>\<NewLine\>|  
   
     > [!NOTE]  
     >  If you are importing a text file, you must examine the text file to determine the appropriate values for these properties.  
   
 8.  If you set the file format to XML, then you can set up namespaces by setting the following properties as required:  
   
-    -   [Namespaces Property](../dynamics-nav/Namespaces-Property.md)  
+    -   [Namespaces Property](Namespaces-Property.md)  
   
-    -   [DefaultNamespace Property](../dynamics-nav/DefaultNamespace-Property.md)  
+    -   [DefaultNamespace Property](DefaultNamespace-Property.md)  
   
-    -   [UseDefaultNamespace Property](../dynamics-nav/UseDefaultNamespace-Property.md)  
+    -   [UseDefaultNamespace Property](UseDefaultNamespace-Property.md)  
   
-     For more information, see [Using Namespaces with XMLports](../dynamics-nav/Using-Namespaces-with-XMLports.md).  
+     For more information, see [Using Namespaces with XMLports](Using-Namespaces-with-XMLports.md).  
   
 9. In **XMLport Designer**, in the first row, in the **Node Name** column, enter a name  
   
@@ -122,6 +122,6 @@ You design XMLports to export data from Microsoft Dynamics NAV tables or import 
 29. In the **Save As** window, enter an ID and a name for the XMLport, and verify that **Compile** is selected, and then choose the **OK** button to save the XMLport.  
   
 ## See Also  
- [Designing XMLports](../dynamics-nav/Designing-XMLports.md)   
- [XMLport Walkthroughs](../dynamics-nav/XMLport-Walkthroughs.md)   
- [Using Namespaces with XMLports](../dynamics-nav/Using-Namespaces-with-XMLports.md)
+ [Designing XMLports](Designing-XMLports.md)   
+ [XMLport Walkthroughs](XMLport-Walkthroughs.md)   
+ [Using Namespaces with XMLports](Using-Namespaces-with-XMLports.md)

@@ -31,10 +31,10 @@ Name := File.NAME
  This string contains the name of the file, including its path.  
   
 ## Remarks  
- You must use the [OPEN Function \(File\)](../dynamics-nav/OPEN-Function--File-.md) to open the file before you can use this function.  
+ You must use the [OPEN Function \(File\)](OPEN-Function--File-.md) to open the file before you can use this function.  
   
 ## Example  
- The following example opens a text file that is named C:\\TestFolder\\TestFile.txt. The [NAME Function \(FILE\)](../dynamics-nav/NAME-Function--File-.md) retrieves the name and path of the text file and stores it in the varName variable. The value in the variable is displayed in a message box. This example assumes that you have created a text file named C:\\TestFolder\\TestFile.txt. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ The following example opens a text file that is named C:\\TestFolder\\TestFile.txt. The [NAME Function \(FILE\)](NAME-Function--File-.md) retrieves the name and path of the text file and stores it in the varName variable. The value in the variable is displayed in a message box. This example assumes that you have created a text file named C:\\TestFolder\\TestFile.txt. This example requires that you create the following variables in the **C\/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -49,4 +49,4 @@ MESSAGE('The name of the file is: %1',varName);
 ```  
   
 ## See Also  
- [File Data Type](../dynamics-nav/File-Data-Type.md)
+ [File Data Type](File-Data-Type.md)

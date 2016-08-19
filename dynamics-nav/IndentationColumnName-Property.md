@@ -18,7 +18,7 @@ Sets the name of the hidden column that controls row indentation in a List page.
 -   Pages \(Type \= Group, Subtype \= Repeater\)  
   
 ## Remarks  
- This property can be set to a field or variable of [Integer Data Type](../dynamics-nav/Integer-Data-Type.md). For an example of row indentation, see the page 16 Chart of Accounts.  
+ This property can be set to a field or variable of [Integer Data Type](Integer-Data-Type.md). For an example of row indentation, see the page 16 Chart of Accounts.  
   
 ## See Also  
- [IndentationControls Property](../dynamics-nav/IndentationControls-Property.md)
+ [IndentationControls Property](IndentationControls-Property.md)

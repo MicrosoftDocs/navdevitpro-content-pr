@@ -15,15 +15,15 @@ You can create and open a test page in the following ways:
   
 -   Declare a test page variable and then write C\/AL code to open the test page by using one of the following functions:  
   
-    -   [OPENNEW Function \(TestPage\)](../dynamics-nav/OPENNEW-Function--TestPage-.md)  
+    -   [OPENNEW Function \(TestPage\)](OPENNEW-Function--TestPage-.md)  
   
-    -   [OPENEDIT Function \(TestPage\)](../dynamics-nav/OPENEDIT-Function--TestPage-.md)  
+    -   [OPENEDIT Function \(TestPage\)](OPENEDIT-Function--TestPage-.md)  
   
-    -   [OPENVIEW Function \(TestPage\)](../dynamics-nav/OPENVIEW-Function--TestPage-.md)  
+    -   [OPENVIEW Function \(TestPage\)](OPENVIEW-Function--TestPage-.md)  
   
 -   Create a PageHandler or ModalPageHandler function that has a test page parameter. For more information, see [How to: Create Handler Functions](../Topic/How%20to:%20Create%20Handler%20Functions.md).  
   
--   Write C\/AL code to trap a call to open a test page by using the [TRAP Function \(TestPage\)](../dynamics-nav/TRAP-Function--TestPage-.md).  
+-   Write C\/AL code to trap a call to open a test page by using the [TRAP Function \(TestPage\)](TRAP-Function--TestPage-.md).  
   
  The following procedure describes how to declare test page variables. The following code example shows how to use the test page variables to write code to open test pages.  
   
@@ -82,4 +82,4 @@ CustomerCard."Page Ship-to Address List".INVOKE; // Invoke an action from the Cu
  **FAILURE**  
   
 ## See Also  
- [Testing the Application](../dynamics-nav/Testing-the-Application.md)
+ [Testing the Application](Testing-the-Application.md)

@@ -11,7 +11,7 @@ caps.latest.revision: 20
 manager: terryaus
 ---
 # How to: Determine the Public Key Token of the Windows Client Control Add-in and .NET Framework Assembly
-To use a [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] control add\-in on a [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] page, you must register the assembly that contains the control add\-in on the **Control Add\-ins** page of the [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] database. To register an assembly, you provide the assembly's *public key token*. The public key token is a unique 16\-character key that is given to the assembly when it is built and signed in Microsoft Visual Studio. To determine the public token key, you can run the Strong Name tool \(sn.exe\) on the assembly. The sn.exe is available with the Microsoft .NET Framework SDK. For more information about how to sign assemblies, see [Strong Name Signing \(sn.exe\)](http://go.microsoft.com/fwlink/?LinkID=150113&clcid=0x409) or [How to: Create a Windows Client Control Add\-in](../Topic/How%20to:%20Create%20a%20Windows%20Client%20Control%20Add-in.md).  
+To use a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add\-in on a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] page, you must register the assembly that contains the control add\-in on the **Control Add\-ins** page of the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] database. To register an assembly, you provide the assembly's *public key token*. The public key token is a unique 16\-character key that is given to the assembly when it is built and signed in Microsoft Visual Studio. To determine the public token key, you can run the Strong Name tool \(sn.exe\) on the assembly. The sn.exe is available with the Microsoft .NET Framework SDK. For more information about how to sign assemblies, see [Strong Name Signing \(sn.exe\)](http://go.microsoft.com/fwlink/?LinkID=150113&clcid=0x409) or [How to: Create a Windows Client Control Add\-in](../Topic/How%20to:%20Create%20a%20Windows%20Client%20Control%20Add-in.md).  
   
 ### To determine the public key token  
   
@@ -27,13 +27,13 @@ To use a [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] con
     sn.exe -T <assembly>  
     ```  
   
-     Replace `<assembly>` with the add\-in assembly's path and file name, such as [!INCLUDE[navnow_x86install](../dynamics-nav/includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add\-ins\\MyCompany.MyProduct.RtcAddins.dll.  
+     Replace `<assembly>` with the add\-in assembly's path and file name, such as [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add\-ins\\MyCompany.MyProduct.RtcAddins.dll.  
   
 4.  Press Enter and note the public token key that is displayed.  
   
 ## See Also  
- [Windows Client Control Add\-in Overview](../dynamics-nav/Windows-Client-Control-Add-in-Overview.md)   
- [Developing Windows Client Control Add\-ins](../dynamics-nav/Developing-Windows-Client-Control-Add-ins.md)   
+ [Windows Client Control Add\-in Overview](Windows-Client-Control-Add-in-Overview.md)   
+ [Developing Windows Client Control Add\-ins](Developing-Windows-Client-Control-Add-ins.md)   
  [How to: Create a Windows Client Control Add\-in](../Topic/How%20to:%20Create%20a%20Windows%20Client%20Control%20Add-in.md)   
- [Installing and Configuring Windows Client Control Add\-ins on Pages](../dynamics-nav/Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)   
+ [Installing and Configuring Windows Client Control Add\-ins on Pages](Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)   
  [How to: Install a Windows Client Control Add\-in Assembly](../Topic/How%20to:%20Install%20a%20Windows%20Client%20Control%20Add-in%20Assembly.md)

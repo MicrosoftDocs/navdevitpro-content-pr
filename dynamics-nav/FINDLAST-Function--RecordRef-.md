@@ -26,7 +26,7 @@ Finds the last record in a table based on the current key and filter.
   
  The RecordRef that refers to the table in which you want to find the last record.  
   
- If the record is found, it is returned in *RecordRef* and any [FlowFields](../dynamics-nav/FlowFields.md) in the record are set to zero. You must update any FlowFields using [CALCFIELDS Function \(Record\)](../dynamics-nav/CALCFIELDS-Function--Record-.md).  
+ If the record is found, it is returned in *RecordRef* and any [FlowFields](FlowFields.md) in the record are set to zero. You must update any FlowFields using [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md).  
   
  If the record is not found and if you omitted the return value, a run\-time error occurs.  
   
@@ -65,7 +65,7 @@ ELSE
 ```  
   
 ## See Also  
- [RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md)   
- [FIND Function \(RecordRef\)](../dynamics-nav/FIND-Function--RecordRef-.md)   
- [FINDFIRST Function \(RecordRef\)](../dynamics-nav/FINDFIRST-Function--RecordRef-.md)   
- [FINDSET Function \(RecordRef\)](../dynamics-nav/FINDSET-Function--RecordRef-.md)
+ [RecordRef Data Type](RecordRef-Data-Type.md)   
+ [FIND Function \(RecordRef\)](FIND-Function--RecordRef-.md)   
+ [FINDFIRST Function \(RecordRef\)](FINDFIRST-Function--RecordRef-.md)   
+ [FINDSET Function \(RecordRef\)](FINDSET-Function--RecordRef-.md)

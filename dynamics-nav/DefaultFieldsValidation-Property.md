@@ -20,9 +20,9 @@ Sets a value that indicates whether fields are validated.
  **Yes** if fields are validated; otherwise, **No**. The default value is **Yes**.  
   
 ## Remarks  
- This property sets the default value of the [FieldValidate Property](../dynamics-nav/FieldValidate-Property.md). Therefore, if you change the setting of the DefaultFieldsValidation property, the change is implemented for all fields. However, for fields for which the FieldValidate property has been set to **Yes** or **No**, no change is made.  
+ This property sets the default value of the [FieldValidate Property](FieldValidate-Property.md). Therefore, if you change the setting of the DefaultFieldsValidation property, the change is implemented for all fields. However, for fields for which the FieldValidate property has been set to **Yes** or **No**, no change is made.  
   
  If you change the value of the FieldValidate property, the change does not affect the value of the DefaultFieldsValidation property. This means that FieldValidate can override DefaultFieldsValidation, but that it can also inherit the default value of DefaultFieldsValidation.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

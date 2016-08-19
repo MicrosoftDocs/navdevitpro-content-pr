@@ -30,7 +30,7 @@ Gets and sets the current global language setting.
 ## Remarks  
  The LanguageID is a standard Windows language ID. The Windows Language virtual table contains a list of these IDs and the corresponding names and short names.  
   
- For more information, see [Multilanguage Development](../dynamics-nav/Multilanguage-Development.md).  
+ For more information, see [Multilanguage Development](Multilanguage-Development.md).  
   
 ## See Also  
- [WINDOWSLANGUAGE Function](../dynamics-nav/WINDOWSLANGUAGE-Function.md)
+ [WINDOWSLANGUAGE Function](WINDOWSLANGUAGE-Function.md)

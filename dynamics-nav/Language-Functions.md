@@ -13,6 +13,6 @@ manager: terryaus
 # Language Functions
 This section contains the following topics:  
   
--   [GLOBALLANGUAGE Function](../dynamics-nav/GLOBALLANGUAGE-Function.md)  
+-   [GLOBALLANGUAGE Function](GLOBALLANGUAGE-Function.md)  
   
--   [WINDOWSLANGUAGE Function](../dynamics-nav/WINDOWSLANGUAGE-Function.md)
+-   [WINDOWSLANGUAGE Function](WINDOWSLANGUAGE-Function.md)

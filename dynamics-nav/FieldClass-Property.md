@@ -25,8 +25,8 @@ Sets the class of the field.
 |**FlowField**|A calculated field|  
   
 ## Remarks  
- There are three classes of fields: Normal, FlowFields, and FlowFilters. For more information, see [FlowFields](../dynamics-nav/FlowFields.md) and [FlowFilter Overview](../dynamics-nav/FlowFilter-Overview.md).  
+ There are three classes of fields: Normal, FlowFields, and FlowFilters. For more information, see [FlowFields](FlowFields.md) and [FlowFilter Overview](FlowFilter-Overview.md).  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)   
+ [Properties](Properties.md)   
  [How to: Create a FlowField](../Topic/How%20to:%20Create%20a%20FlowField.md)

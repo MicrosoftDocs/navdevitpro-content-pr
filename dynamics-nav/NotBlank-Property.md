@@ -20,7 +20,7 @@ Sets a value that specifies whether users must enter a value in the selected fie
 -   Page Fields  
   
 ## Remarks  
- You can use this property together with the [InitValue Property](../dynamics-nav/InitValue-Property.md) to make sure that an entry is made in this field. This setting is evaluated for controls and fields during validation. Validation occurs only if the field or control value is updated through the UI, for example, if a value is updated on a page or if a field is updated in a table directly. If a field is updated through application code, then the **NotBlank** property is not validated.  
+ You can use this property together with the [InitValue Property](InitValue-Property.md) to make sure that an entry is made in this field. This setting is evaluated for controls and fields during validation. Validation occurs only if the field or control value is updated through the UI, for example, if a value is updated on a page or if a field is updated in a table directly. If a field is updated through application code, then the **NotBlank** property is not validated.  
   
  You can set the **NotBlank** property to **Yes** on primary fields in a table. Setting the **NotBlank** property to **Yes** on other fields in a table does not cause a red star marking on the UI.  
   
@@ -31,6 +31,6 @@ Sets a value that specifies whether users must enter a value in the selected fie
 -   If the field has been entered, and the user tries to enter a blank value, a validation error occurs.  
   
 ## See Also  
- [MinValue Property](../dynamics-nav/MinValue-Property.md)   
- [MaxValue Property](../dynamics-nav/MaxValue-Property.md)   
- [Numeric Property](../dynamics-nav/Numeric-Property.md)
+ [MinValue Property](MinValue-Property.md)   
+ [MaxValue Property](MaxValue-Property.md)   
+ [Numeric Property](Numeric-Property.md)

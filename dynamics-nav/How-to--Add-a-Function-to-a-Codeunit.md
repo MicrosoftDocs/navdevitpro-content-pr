@@ -41,4 +41,4 @@ To add a function to a codeunit, use the following procedure.
 8.  In the **C\/AL Locals** window, choose the **Text Constants** tab and define text constants for the function.  
   
 ## See Also  
- [Codeunits](../dynamics-nav/Codeunits.md)
+ [Codeunits](Codeunits.md)

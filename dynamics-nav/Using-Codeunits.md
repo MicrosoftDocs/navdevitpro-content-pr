@@ -14,7 +14,7 @@ manager: edupont
 By using codeunits, you eliminate the need to duplicate code and you make the code easier to maintain. For example, if you use the same code repeatedly in your objects, then you should create a global function for the code in a codeunit. After you create a codeunit and a global function in that codeunit, you can access the function from another codeunit by declaring a variable of type Codeunit and specifying the name of the codeunit as the subtype of the variable. You can then access the function by using *\<CodeunitVariableName\>*.*\<FunctionName\>*.  
   
 > [!NOTE]  
->  Unlike a local function, a global function can be accessed from outside the codeunit. To make a global function, you set [Local Property](../dynamics-nav/Local-Property.md) of the function to **No**.  
+>  Unlike a local function, a global function can be accessed from outside the codeunit. To make a global function, you set [Local Property](Local-Property.md) of the function to **No**.  
   
 ## Example  
  For this example, assume that you have created a codeunit that contains two statistical global functions named F and G. The following example shows you how to access these functions from a page.  
@@ -54,7 +54,7 @@ Result := StatVariable.F(3425)+StatVariable.G(346);
   
  You can access codeunits through codeunit variables either by explicitly declaring a variable with the data type codeunit or by setting the RunObject property on pages to a codeunit. A codeunit variable does not contain a codeunit, but only a reference to a codeunit. More than one codeunit variable can refer to the same codeunit, as shown in the following illustration.  
   
- ![Codeunit variables](../dynamics-nav/media/NAVCodeunitVariables.png "NAVCodeunitVariables")  
+ ![Codeunit variables](media/NAVCodeunitVariables.png "NAVCodeunitVariables")  
 Codeunit Variables  
   
  Codeunits contain internal variables that are defined as global variables. These variables cannot be accessed directly from code outside the codeunit, but they can be accessed through user\-defined functions on the codeunit. When a codeunit variable is used for the first time, a new instance of the codeunit is created, that is, a new set of internal variables is initialized so that different codeunit variables use different sets of internal variables.  
@@ -64,7 +64,7 @@ Codeunit Variables
   
  To delete an instance of a codeunit, you must clear all the references to the codeunit with the CLEAR function. To clear the internal variables in a codeunit, you must call the CLEARALL function from a user\-defined function in the codeunit. A local codeunit variable is automatically cleared when it goes out of scope and is no longer used by the codeunit.  
   
- For more information, see [CLEAR Function](../dynamics-nav/CLEAR-Function.md) and [CLEARALL Function](../dynamics-nav/CLEARALL-Function.md).  
+ For more information, see [CLEAR Function](CLEAR-Function.md) and [CLEARALL Function](CLEARALL-Function.md).  
   
 ## Single Instance Codeunit  
  In some cases, only one instance of a codeunit needs to exist. This means that all the codeunit variables of a particular codeunit use the same set of variables. When you set the SingleInstance property of the codeunit to Yes, all the codeunit variables of that codeunit use the same instance. This lets you create global variables.  
@@ -82,5 +82,5 @@ Codeunit Variables
  Every C\/AL function can be used in a codeunit. However, you cannot create a function that has the same name as a pre\-defined function. Also, two or more user\-defined functions cannot have the same name, unless they are part of different application objects.  
   
 ## See Also  
- [Understanding Codeunits](../dynamics-nav/Understanding-Codeunits.md)   
- [Creating and Modifying Codeunits](../dynamics-nav/Creating-and-Modifying-Codeunits.md)
+ [Understanding Codeunits](Understanding-Codeunits.md)   
+ [Creating and Modifying Codeunits](Creating-and-Modifying-Codeunits.md)

@@ -56,7 +56,7 @@ AutoSplitKey
   
  A NULL GUID is valid but is not useful in a table. Therefore, the **AutoSplitKey** property is implemented for the GUID data type when it is used in a page. When GUID is selected as a primary key, **AutoSplitKey** is enabled for the page, and the GUID value remains NULL. When you create a new record, a valid GUID is created and assigned automatically.  
   
- The [CREATEGUID Function \(GUID\)](../dynamics-nav/CREATEGUID-Function--GUID-.md) and [ISNULLGUID Function \(GUID\)](../dynamics-nav/ISNULLGUID-Function--GUID-.md) functions are available in the C\/AL Symbol Menu under SYSTEM, Variables.  
+ The [CREATEGUID Function \(GUID\)](CREATEGUID-Function--GUID-.md) and [ISNULLGUID Function \(GUID\)](ISNULLGUID-Function--GUID-.md) functions are available in the C\/AL Symbol Menu under SYSTEM, Variables.  
   
  CREATEGUID takes no arguments and returns a valid 16\-byte GUID value. If the result is assigned to a TEXT variable or field, the value is converted to a string and follows the syntax explained earlier. The algorithm that generates the new GUID value uses Microsoft's CoCreateGuid function.  
   
@@ -72,5 +72,5 @@ AutoSplitKey
  **Invalid Format of GUID string. The correct format of the GUID string is {CDEF7890\-ABCD\-1234\-ABCD\-1234567890AB} where 0\-9, A\-F symbolizes hexadecimal digits.**  
   
 ## See Also  
- [CREATEGUID Function \(GUID\)](../dynamics-nav/CREATEGUID-Function--GUID-.md)   
- [ISNULLGUID Function \(GUID\)](../dynamics-nav/ISNULLGUID-Function--GUID-.md)
+ [CREATEGUID Function \(GUID\)](CREATEGUID-Function--GUID-.md)   
+ [ISNULLGUID Function \(GUID\)](ISNULLGUID-Function--GUID-.md)

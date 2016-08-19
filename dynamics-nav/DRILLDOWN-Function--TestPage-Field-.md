@@ -31,4 +31,4 @@ TestPage.Field.DRILLDOWN
  The field that you want to apply the drill\-down to.  
   
 ## See Also  
- [TestPage Field Functions](../dynamics-nav/TestPage-Field-Functions.md)
+ [TestPage Field Functions](TestPage-Field-Functions.md)

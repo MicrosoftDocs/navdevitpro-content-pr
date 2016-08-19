@@ -11,7 +11,7 @@ caps.latest.revision: 25
 manager: edupont
 ---
 # Walkthrough: Developing a Sales Rep Role Center for the Microsoft Dynamics NAV Tablet Client
-In this walkthrough, you will learn how to create a new Role Center for the [!INCLUDE[nav_tablet](../dynamics-nav/includes/nav_tablet_md.md)]. Developing for the [!INCLUDE[nav_tablet](../dynamics-nav/includes/nav_tablet_md.md)] occurs in the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)] and is not much different from developing for one of the other [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] clients. This walkthrough will concentrate on how to build a Role Center for a sales representative, which links to already existing page objects, but combined in a way so that it works well on the tablet.  
+In this walkthrough, you will learn how to create a new Role Center for the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)]. Developing for the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] occurs in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] and is not much different from developing for one of the other [!INCLUDE[navnow](includes/navnow_md.md)] clients. This walkthrough will concentrate on how to build a Role Center for a sales representative, which links to already existing page objects, but combined in a way so that it works well on the tablet.  
   
 ## About This Walkthrough  
  This walkthrough illustrates the following tasks:  
@@ -27,13 +27,13 @@ In this walkthrough, you will learn how to create a new Role Center for the [!IN
 ## Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] installed with a developer license.  
+-   [!INCLUDE[navnow](includes/navnow_md.md)] installed with a developer license.  
   
--   [!INCLUDE[nav_web_server](../dynamics-nav/includes/nav_web_server_md.md)].  
+-   [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  
   
--   [!INCLUDE[demolong](../dynamics-nav/includes/demolong_md.md)].  
+-   [!INCLUDE[demolong](includes/demolong_md.md)].  
   
--   A supported browser. For more information, see [System Requirements for Microsoft Dynamics NAV 2016](../dynamics-nav/System-Requirements-for-Microsoft-Dynamics-NAV-2016.md).  
+-   A supported browser. For more information, see [System Requirements for Microsoft Dynamics NAV 2016](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md).  
   
 ## Story  
  Simon is a partner developer working for CRONUS International Ltd. Nancy is a Sales Representative at Contoso Consulting. Simon has to build a new Role Center to support Nancy in her job. When at work, Nancy spends part of her time on the road with only her tablet available on customer visits. Nancy needs access to KPIs on the front page. She needs easy access to filter for the customers who she will visit. When at the customer site, she creates sales quotes. Simon wants to build a Role Center that can be used on a tablet and he wants to reuse as much code and as many page objects as possible.  
@@ -43,7 +43,7 @@ In this walkthrough, you will learn how to create a new Role Center for the [!IN
   
 ### To create a Role Center Page  
   
-1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In **Object Designer**, choose **Page**, and then choose **New**. The **New Page** window opens.  
   
@@ -58,7 +58,7 @@ In this walkthrough, you will learn how to create a new Role Center for the [!IN
   
 #### To add pages to the role center  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], choose **Object Designer**, and then choose the Role Center you created in the previous steps.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], choose **Object Designer**, and then choose the Role Center you created in the previous steps.  
   
 2.  In **Page Designer**, on the first empty line, set the **Type** field to **Group**.  
   
@@ -81,11 +81,11 @@ In this walkthrough, you will learn how to create a new Role Center for the [!IN
 11. Close **Page Designer**, and choose **Yes** to save and compile the **Sales Rep Role Center** page.  
   
 ## Adding Actions to the Role Center  
- With the pages in place on the content area of the Role Center, Simon now adds actions that link to other pages, which Nancy uses in her daily work on the tablet. He adds the Sales Quote as an action item available from the action pane in the **New** group, the Customer and Item lists as Home items, which, on [!INCLUDE[nav_tablet](../dynamics-nav/includes/nav_tablet_md.md)] will display in the navigation pane.  
+ With the pages in place on the content area of the Role Center, Simon now adds actions that link to other pages, which Nancy uses in her daily work on the tablet. He adds the Sales Quote as an action item available from the action pane in the **New** group, the Customer and Item lists as Home items, which, on [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] will display in the navigation pane.  
   
 #### To add actions to the role center  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], choose **Object Designer**, and then choose the Role Center you created in the previous steps.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], choose **Object Designer**, and then choose the Role Center you created in the previous steps.  
   
 2.  On the **View** menu, choose **Page Actions**.  
   
@@ -128,6 +128,6 @@ In this walkthrough, you will learn how to create a new Role Center for the [!IN
  Nancy now has a Role Center that gives her access to most of the information that she needs when she is on the road. The next step for Simon is to refine the Sales Rep Role Center by adding more functionality, for example, the ability to retrieve more lists or making sure that Nancy can smoothly continue to work when she is back at the office on her desktop computer.  
   
 ## See Also  
- [Developing for the Microsoft Dynamics NAV Universal App](../dynamics-nav/Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)   
- [Designing for Different Screen Sizes on Tablet and Phone](../dynamics-nav/Designing-for-Different-Screen-Sizes-on-Tablet-and-Phone.md)   
- [Differences and Limitations When Developing Pages for the Microsoft Dynamics NAV Universal App](../dynamics-nav/Differences-and-Limitations-When-Developing-Pages-for-the-Microsoft-Dynamics-NAV-Universal-App.md)
+ [Developing for the Microsoft Dynamics NAV Universal App](Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)   
+ [Designing for Different Screen Sizes on Tablet and Phone](Designing-for-Different-Screen-Sizes-on-Tablet-and-Phone.md)   
+ [Differences and Limitations When Developing Pages for the Microsoft Dynamics NAV Universal App](Differences-and-Limitations-When-Developing-Pages-for-the-Microsoft-Dynamics-NAV-Universal-App.md)

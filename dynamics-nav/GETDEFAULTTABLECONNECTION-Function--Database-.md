@@ -25,8 +25,8 @@ Name:= GETDEFAULTCONNECTIONTYPE(Type)
  The type of table connection as defined in the **TableType** property.  
   
 ## See Also  
- [TableType Property](../dynamics-nav/TableType-Property.md)   
- [TableConnectionType Data Type](../dynamics-nav/TableConnectionType-Data-Type.md)   
- [REGISTERTABLECONNECTION Function \(Database\)](../dynamics-nav/REGISTERTABLECONNECTION-Function--Database-.md)   
- [SETDEFAULTTABLECONNECTION Function \(Database\)](../dynamics-nav/SETDEFAULTTABLECONNECTION-Function--Database-.md)   
- [External Tables](../dynamics-nav/External-Tables.md)
+ [TableType Property](TableType-Property.md)   
+ [TableConnectionType Data Type](TableConnectionType-Data-Type.md)   
+ [REGISTERTABLECONNECTION Function \(Database\)](REGISTERTABLECONNECTION-Function--Database-.md)   
+ [SETDEFAULTTABLECONNECTION Function \(Database\)](SETDEFAULTTABLECONNECTION-Function--Database-.md)   
+ [External Tables](External-Tables.md)

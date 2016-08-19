@@ -11,16 +11,16 @@ caps.latest.revision: 4
 manager: edupont
 ---
 # Task Scheduler
-The task scheduler enables you to control when certain operations or processes \(in other words *tasks*\) are run. Basically, a task is codeunit that is scheduled to run at a specific data and time. Tasks run in a background session between the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance and database. Behind the scenes, the task scheduler is used by the job queue to process job queue entries that are created and managed from the clients.  
+The task scheduler enables you to control when certain operations or processes \(in other words *tasks*\) are run. Basically, a task is codeunit that is scheduled to run at a specific data and time. Tasks run in a background session between the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and database. Behind the scenes, the task scheduler is used by the job queue to process job queue entries that are created and managed from the clients.  
   
  In C\/AL code, you create and manage tasks by using the C\/AL functions that are available for the **TASKSCHEDULER** data type.  
   
 |Function|Description|For more information, see|  
 |--------------|-----------------|-------------------------------|  
-|CREATETASK|Adds a task to run a codeunit at a specified data and time.|[CREATETASK Function](../dynamics-nav/CREATETASK-Function.md)|  
-|SETTASKASREADY|Sets a task to the **Ready** state. A task cannot run until it is **Ready**.|[SETTASKASREADY Function](../dynamics-nav/SETTASKASREADY-Function.md)|  
-|TASKEXISTS|Checks whether a specific task exists.|[TASKEXISTS Function](../dynamics-nav/TASKEXISTS-Function.md)|  
-|CANCELTASK|Cancels a scheduled task.|[CANCELTASK Function](../dynamics-nav/CANCELTASK-Function.md)|  
+|CREATETASK|Adds a task to run a codeunit at a specified data and time.|[CREATETASK Function](CREATETASK-Function.md)|  
+|SETTASKASREADY|Sets a task to the **Ready** state. A task cannot run until it is **Ready**.|[SETTASKASREADY Function](SETTASKASREADY-Function.md)|  
+|TASKEXISTS|Checks whether a specific task exists.|[TASKEXISTS Function](TASKEXISTS-Function.md)|  
+|CANCELTASK|Cancels a scheduled task.|[CANCELTASK Function](CANCELTASK-Function.md)|  
   
 ## How Task Scheduler Works  
  To set up a task, you create at the codeunit that contains the logic that you want to run at a scheduled time. Optionally, you can create a second codeunit that contains the logic to handle the task if an error occurs for any reason. This coduenit is referred to as a *failure codeunit*. Once you have the codeunits, you can add C\/AL code to the application that calls the CREATETASK function to schedule a task to run the codeunits. The CREATETASK function can also specify the earliest data to run the task, and whether the task is in the ready state.  
@@ -49,11 +49,11 @@ The task scheduler enables you to control when certain operations or processes \
   
 -   An SQL connection or transient error occurred with the database.  
   
--   The [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance restarted while the task was being run.  
+-   The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance restarted while the task was being run.  
   
- You can view these errors in the event log of the computer that is running the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance. For more information, see [Monitoring Microsoft Dynamics NAV Server Events in the Windows Event Log](../dynamics-nav/Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log.md).  
+ You can view these errors in the event log of the computer that is running the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. For more information, see [Monitoring Microsoft Dynamics NAV Server Events in the Windows Event Log](Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log.md).  
   
- When an error occurs, unless the task is interrupted by the failure codeunit, the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance will rerun the task according to the following flow:  
+ When an error occurs, unless the task is interrupted by the failure codeunit, the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance will rerun the task according to the following flow:  
   
 1.  Two minutes after the first failure  
   
@@ -62,6 +62,6 @@ The task scheduler enables you to control when certain operations or processes \
 3.  Fifteen minutes after the third failure and subsequent failures.  
   
 ## About Task Sessions and Permissions  
- The task runs in a background session, which means that there is no user interface. The behavior is similar to that of the STARTSESSION function, where any dialog boxes that would normally appear are suppressed. For more information about specific dialog boxes, see [STARTSESSION Function \(Sessions\)](../dynamics-nav/STARTSESSION-Function--Sessions-.md).  
+ The task runs in a background session, which means that there is no user interface. The behavior is similar to that of the STARTSESSION function, where any dialog boxes that would normally appear are suppressed. For more information about specific dialog boxes, see [STARTSESSION Function \(Sessions\)](STARTSESSION-Function--Sessions-.md).  
   
  The session runs by using the same user\/credentials as the calling C\/AL code. The user must have appropriate permissions to the codeunit and any other objects associated with the operation of the codeunit.

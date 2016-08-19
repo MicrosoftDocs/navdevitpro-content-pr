@@ -29,10 +29,10 @@ RecordRef.LOCKTABLE
 ## Remarks  
  Because all write operations automatically lock the table that is being used, LOCKTABLE would appear unnecessary. However, you could have a transaction in which an application wants to inspect data before possibly changing it, with a guarantee that the data being changed has not been modified by other applications since the read operation. The solution is to explicitly lock the table before the read operation. This makes sure that no other application makes changes between the read operation and the possible write operation.  
   
- This function works the same as the [LOCKTABLE Function \(Record\)](../dynamics-nav/LOCKTABLE-Function--Record-.md).  
+ This function works the same as the [LOCKTABLE Function \(Record\)](LOCKTABLE-Function--Record-.md).  
   
 ## Example  
- The following example opens table number 18 \(Customer\) as a RecordRef that is named MyRecordRef. The LOCKTABLE function locks the table. This is ensures that no records are inserted or deleted during the counting process. The [COUNT Function \(RecordRef\)](../dynamics-nav/COUNT-Function--RecordRef-.md) then retrieves the number of records in the table. The number of records is stored in the Count variable. The name of the table and the number of records in the table is displayed in a message box. The varTableNo variable can be used to open any table and get the number of records in that table by changing the value of the varTableNo variable. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example opens table number 18 \(Customer\) as a RecordRef that is named MyRecordRef. The LOCKTABLE function locks the table. This is ensures that no records are inserted or deleted during the counting process. The [COUNT Function \(RecordRef\)](COUNT-Function--RecordRef-.md) then retrieves the number of records in the table. The number of records is stored in the Count variable. The name of the table and the number of records in the table is displayed in a message box. The varTableNo variable can be used to open any table and get the number of records in that table by changing the value of the varTableNo variable. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -73,4 +73,4 @@ EndWriteTransaction // (5)
  If a data update depends on a prior read operation and there is a long time between the read operation and the write operation, you may not want to lock the table as you usually would during a transaction. This enables you to prevent other users from updating the table until your transaction is committed.  
   
 ## See Also  
- [RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md)
+ [RecordRef Data Type](RecordRef-Data-Type.md)

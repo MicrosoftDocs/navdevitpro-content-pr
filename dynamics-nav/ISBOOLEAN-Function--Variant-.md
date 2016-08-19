@@ -30,7 +30,7 @@ Ok := Variant.ISBOOLEAN
  **true** if the C\/AL variant contains a Boolean variable; otherwise, **false**.  
   
 ## Example  
- The following example determines whether a C\/AL variant contains a Boolean variable. The code initializes the MyBoolean variable with a Boolean value. The MyBoolean variable is assigned to the variant variable that is named MyVariant. The **ISBOOLEAN** function determines whether the variant contains a Boolean variable and stores the return value in the varResult variable. In this case, the variant contains a Boolean variable so **Yes** is returned and displayed in a message box. The Boolean value is obtained from the **Critical** field in the **Item** table. The [ISCODE Function \(Variant\)](../dynamics-nav/ISCODE-Function--Variant-.md) determines whether the variant contains a code variable. The return value is **No** because the variant does not contain a code. This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ The following example determines whether a C\/AL variant contains a Boolean variable. The code initializes the MyBoolean variable with a Boolean value. The MyBoolean variable is assigned to the variant variable that is named MyVariant. The **ISBOOLEAN** function determines whether the variant contains a Boolean variable and stores the return value in the varResult variable. In this case, the variant contains a Boolean variable so **Yes** is returned and displayed in a message box. The Boolean value is obtained from the **Critical** field in the **Item** table. The [ISCODE Function \(Variant\)](ISCODE-Function--Variant-.md) determines whether the variant contains a code variable. The return value is **No** because the variant does not contain a code. This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
@@ -54,4 +54,4 @@ MESSAGE(Text001,MyVariant,varResult);
 ```  
   
 ## See Also  
- [Variant Data Type](../dynamics-nav/Variant-Data-Type.md)
+ [Variant Data Type](Variant-Data-Type.md)

@@ -37,12 +37,12 @@ String := RecordRef.GETVIEW([UseNames])
 ## Property Value\/Return Value  
  Type: Text or code  
   
- The string format is the same as the [SourceTableView Property](../dynamics-nav/SourceTableView-Property.md) on pages.  
+ The string format is the same as the [SourceTableView Property](SourceTableView-Property.md) on pages.  
   
 ## Remarks  
- If the [SETVIEW Function \(RecordRef\)](../dynamics-nav/SETVIEW-Function--RecordRef-.md) has been executed, the *String* parameter will return the value set by SETVIEW.  
+ If the [SETVIEW Function \(RecordRef\)](SETVIEW-Function--RecordRef-.md) has been executed, the *String* parameter will return the value set by SETVIEW.  
   
- This function works the same way as the [GETVIEW Function \(Record\)](../dynamics-nav/GETVIEW-Function--Record-.md).  
+ This function works the same way as the [GETVIEW Function \(Record\)](GETVIEW-Function--Record-.md).  
   
 ## Example  
  The following example opens the Customer table as a RecordRef variable that is named RecRef. The RecRef variable uses the GETVIEW function to retrieve the field that the table is sorted on and stores the value in the varView variable. The Customer table does not have any filters and keys set so no filters or keys are displayed. The *UseNames* parameter is set to **true** so the name of the field is displayed. If you set the *UseNames* to **false**, the field number will be displayed. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
@@ -64,4 +64,4 @@ MESSAGE(Text000, varView);
 ```  
   
 ## See Also  
- [RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md)
+ [RecordRef Data Type](RecordRef-Data-Type.md)

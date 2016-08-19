@@ -31,7 +31,7 @@ Temp := RecordRef.ISTEMPORARY
  **true** if the RecordRef refers to a temporary table; otherwise, **false**.  
   
 ## Remarks  
- In versions of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] earlier than [!INCLUDE[nav7long](../dynamics-nav/includes/nav7long_md.md)], if a RecordID or a RecordRef referred to a temporary table, then the table number value of the RecordID or RecordRef was the run\-time generated sequence ID, which is from the base value of 2000100000. You could use the table number to determine if a RecordID or a RecordRef referred to a temporary table. In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], the table number value of a RecordID or a RecordRef always contains the ID of the originating physical table and not the run\-time generated sequence ID. If you previously used the [TABLENO Function \(RecordID\)](../dynamics-nav/TABLENO-Function--RecordID-.md) or the [NUMBER Function \(RecordRef\)](../dynamics-nav/NUMBER-Function--RecordRef-.md) to test for the sequence number and determine if the RecordID or RecordRef was temporary, then you must use the ISTEMPORARY function in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] instead.  
+ In versions of [!INCLUDE[navnow](includes/navnow_md.md)] earlier than [!INCLUDE[nav7long](includes/nav7long_md.md)], if a RecordID or a RecordRef referred to a temporary table, then the table number value of the RecordID or RecordRef was the run\-time generated sequence ID, which is from the base value of 2000100000. You could use the table number to determine if a RecordID or a RecordRef referred to a temporary table. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], the table number value of a RecordID or a RecordRef always contains the ID of the originating physical table and not the run\-time generated sequence ID. If you previously used the [TABLENO Function \(RecordID\)](TABLENO-Function--RecordID-.md) or the [NUMBER Function \(RecordRef\)](NUMBER-Function--RecordRef-.md) to test for the sequence number and determine if the RecordID or RecordRef was temporary, then you must use the ISTEMPORARY function in [!INCLUDE[navnow](includes/navnow_md.md)] instead.  
   
 ## Example  
  This example shows that you can replace code that you used previously to determine if a RecordRef referred to a temporary table. This example requires that you create a RecordRef variable named RecordRefVar.  
@@ -49,4 +49,4 @@ END;
 ```  
   
 ## See Also  
- [RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md)
+ [RecordRef Data Type](RecordRef-Data-Type.md)

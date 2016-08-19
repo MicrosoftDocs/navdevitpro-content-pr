@@ -11,25 +11,25 @@ caps.latest.revision: 11
 manager: edupont
 ---
 # Creating and Customizing Cues
-This topic provides an overview of Cues and the tasks involved in creating and customizing a Cue for displaying on a page the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] clients.  
+This topic provides an overview of Cues and the tasks involved in creating and customizing a Cue for displaying on a page the [!INCLUDE[navnow](includes/navnow_md.md)] clients.  
   
  This topic contains the following sections:  
   
--   [Cue Design Overview](../dynamics-nav/Creating-and-Customizing-Cues.md#CueDesign)  
+-   [Cue Design Overview](Creating-and-Customizing-Cues.md#CueDesign)  
   
--   [Creating a Table for Cue Data](../dynamics-nav/Creating-and-Customizing-Cues.md#CreateTable)  
+-   [Creating a Table for Cue Data](Creating-and-Customizing-Cues.md#CreateTable)  
   
--   [Creating a Page for the Cues](../dynamics-nav/Creating-and-Customizing-Cues.md#CreatePage)  
+-   [Creating a Page for the Cues](Creating-and-Customizing-Cues.md#CreatePage)  
   
--   [Specifying an Image on the Cue](../dynamics-nav/Creating-and-Customizing-Cues.md#SpecifyImage)  
+-   [Specifying an Image on the Cue](Creating-and-Customizing-Cues.md#SpecifyImage)  
   
--   [Setting up a Drill Down Page on the Cue](../dynamics-nav/Creating-and-Customizing-Cues.md#DrillDown)  
+-   [Setting up a Drill Down Page on the Cue](Creating-and-Customizing-Cues.md#DrillDown)  
   
--   [Formatting the Data in the Cue](../dynamics-nav/Creating-and-Customizing-Cues.md#FormatData)  
+-   [Formatting the Data in the Cue](Creating-and-Customizing-Cues.md#FormatData)  
   
--   [Adding an Action to the Cue](../dynamics-nav/Creating-and-Customizing-Cues.md#AddAction)  
+-   [Adding an Action to the Cue](Creating-and-Customizing-Cues.md#AddAction)  
   
--   [Setting up Colored Indicators on Cues](../dynamics-nav/Creating-and-Customizing-Cues.md#SetupIndicator)  
+-   [Setting up Colored Indicators on Cues](Creating-and-Customizing-Cues.md#SetupIndicator)  
   
 > [!NOTE]  
 >  For step\-by\-step instructions on many of the tasks discussed in this topic, see [Walkthrough: Creating a Cue Based on a FlowField](../Topic/Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20FlowField.md) and [Walkthrough: Creating a Cue Based on a Normal Field and a Query](../Topic/Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20Normal%20Field%20and%20a%20Query.md).  
@@ -39,17 +39,17 @@ This topic provides an overview of Cues and the tasks involved in creating and c
   
 -   A table object with a field that holds the data that is contained in the Cue at runtime.  
   
--   A page object that contains the table field and displays the Cue in the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] client.  
+-   A page object that contains the table field and displays the Cue in the [!INCLUDE[navnow](includes/navnow_md.md)] client.  
   
 -   Logic that calculates the data to display in the Cue at runtime.  
   
-     The logic can consist of a combination of C\/AL and [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] objects, such as tables, queries, and codeunits. How and where you implement the logic will depend on whether the Cue is based on a FlowField or Normal field and what you want to achieve.  
+     The logic can consist of a combination of C\/AL and [!INCLUDE[navnow](includes/navnow_md.md)] objects, such as tables, queries, and codeunits. How and where you implement the logic will depend on whether the Cue is based on a FlowField or Normal field and what you want to achieve.  
   
 ### Supported Data Types  
  You can only base Cues on integer and decimal data types. Other data types are not supported and will not display in a Cue.  
   
 ### FlowFields versus Normal Fields  
- A Cue can be based on a FlowField or Normal field. If you base the Cue on a FlowField, then you add the logic that calculates the data for the Cue to the [CalcFormula Property](../dynamics-nav/CalcFormula-Property.md) of the FlowField. If you use a Normal field, then you will typically add the logic that calculates the Cue data to a C\/AL trigger or function. Unlike a FlowField, where data is extracted from tables, a Normal field enables you to extract data from other objects such as queries.  
+ A Cue can be based on a FlowField or Normal field. If you base the Cue on a FlowField, then you add the logic that calculates the data for the Cue to the [CalcFormula Property](CalcFormula-Property.md) of the FlowField. If you use a Normal field, then you will typically add the logic that calculates the Cue data to a C\/AL trigger or function. Unlike a FlowField, where data is extracted from tables, a Normal field enables you to extract data from other objects such as queries.  
   
 ##  <a name="CreateTable"></a> Creating a Table for Cue Data  
  The first thing that you must do is to create a table that contains fields that will hold the calculated data to display in the Cues at runtime.  
@@ -60,11 +60,11 @@ This topic provides an overview of Cues and the tasks involved in creating and c
 ### Adding a Field for the Cue Data  
  For each Cue that you want to display on the page, you must add a **Field** control in the table. When you add the **Field** control, specify the following properties.  
   
-1.  Set the [Data Type Property](../dynamics-nav/Data-Type-Property.md) to **Decimal**, **Integer**, or **Text**, depending on the type of data the Cue will display.  
+1.  Set the [Data Type Property](Data-Type-Property.md) to **Decimal**, **Integer**, or **Text**, depending on the type of data the Cue will display.  
   
-2.  Set the [FieldClass Property](../dynamics-nav/FieldClass-Property.md) to **FlowField** or **Normal**.  
+2.  Set the [FieldClass Property](FieldClass-Property.md) to **FlowField** or **Normal**.  
   
-     If field is a FlowField, then set the [CalcFormula Property](../dynamics-nav/CalcFormula-Property.md) to calculate the Cue data. For more information, see and [How to: Create, View, and Edit a Calculation Formula](../Topic/How%20to:%20Create,%20View,%20and%20Edit%20a%20Calculation%20Formula.md).  
+     If field is a FlowField, then set the [CalcFormula Property](CalcFormula-Property.md) to calculate the Cue data. For more information, see and [How to: Create, View, and Edit a Calculation Formula](../Topic/How%20to:%20Create,%20View,%20and%20Edit%20a%20Calculation%20Formula.md).  
   
 ### Adding a Primary Key Field for FlowFields  
  A table must have at least one data field. Because a **FlowField** is based on a calculation, it not considered an actual data field. Therefore, if the Cue table only includes FlowFields, you must add "dummy" primary key field that does not yield any data.  
@@ -77,10 +77,10 @@ This topic provides an overview of Cues and the tasks involved in creating and c
 ### Adding the Cue Fields  
  To setup the Cues on a page, you add a **CueGroup** control, and then for each Cue that you want to display, you add a **Field** control. The following figure illustrates the Page Designer for a page that contains two Cues.  
   
- ![Page Designer showing cues](../dynamics-nav/media/NAV_PageDesigner_SalesThisMonthCue_Clip.png "NAV\_PageDesigner\_SalesThisMonthCue\_Clip")  
+ ![Page Designer showing cues](media/NAV_PageDesigner_SalesThisMonthCue_Clip.png "NAV\_PageDesigner\_SalesThisMonthCue\_Clip")  
   
 ### Initializing the Cue Fields  
- You must initialize the Cue fields on the page. To do this, for example, you can add the following C\/AL code to the [OnOpenPage Trigger](../dynamics-nav/OnOpenPage-Trigger.md).  
+ You must initialize the Cue fields on the page. To do this, for example, you can add the following C\/AL code to the [OnOpenPage Trigger](OnOpenPage-Trigger.md).  
   
 ```  
 RESET;  
@@ -103,9 +103,9 @@ END;
   
  To set up a drill down page, you can do one of the following:  
   
--   Set the [DrillDown Property](../dynamics-nav/DrillDown-Property.md) of the Cue field on the page to the ID of the page that you want to open from the Cue.  
+-   Set the [DrillDown Property](DrillDown-Property.md) of the Cue field on the page to the ID of the page that you want to open from the Cue.  
   
--   You can add code to the [OnDrillDown Trigger](../dynamics-nav/OnDrillDown-Trigger.md) of the Cue field on the page that contains the Cue.  
+-   You can add code to the [OnDrillDown Trigger](OnDrillDown-Trigger.md) of the Cue field on the page that contains the Cue.  
   
      The OnDrillDown trigger takes precedent over the DrillDown property.  
   
@@ -115,21 +115,21 @@ END;
 ###  <a name="FormatData"></a> Formatting the Data in the Cue  
  If the data type on the Cue is a decimal, then you can change how the data is displayed, including converting amounts and unit amounts to another currency, specifying the number of decimal places and thousand separator, and adding characters before or after the value.  
   
- For more information, see the [Formatting the Data in a Field](../dynamics-nav/Formatting-the-Data-in-a-Field.md).  
+ For more information, see the [Formatting the Data in a Field](Formatting-the-Data-in-a-Field.md).  
   
 ###  <a name="AddAction"></a> Adding an Action to the Cue  
- When the Cue is displayed in the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] client, you can add an action next to the Cue that opens a related task. For example, if the Cue displays the open sales orders, then you can add an action the opens the Sale Order card page for creating a new sales order.  
+ When the Cue is displayed in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] client, you can add an action next to the Cue that opens a related task. For example, if the Cue displays the open sales orders, then you can add an action the opens the Sale Order card page for creating a new sales order.  
   
- To set up an action, open the page that contains the Cue in the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], and then add a **Control** action on the **CueGroup** control that contains the Cue field. Set the [RunObject Property](../dynamics-nav/RunObject-Property.md) of the action to the object, such as a page, that you want to target.  
+ To set up an action, open the page that contains the Cue in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], and then add a **Control** action on the **CueGroup** control that contains the Cue field. Set the [RunObject Property](RunObject-Property.md) of the action to the object, such as a page, that you want to target.  
   
 > [!NOTE]  
->  This is not supported in the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] or [!INCLUDE[nav_tablet](../dynamics-nav/includes/nav_tablet_md.md)].  
+>  This is not supported in the [!INCLUDE[nav_web](includes/nav_web_md.md)] or [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)].  
   
 ###  <a name="SetupIndicator"></a> Setting up Colored Indicators on Cues  
  You can set up Cues to include a colored bar along the top border, which changes color based on the data in the Cue.  
   
- For more information, see [Setting Up Colored Indicators on Cues](../dynamics-nav/Setting-Up-Colored-Indicators-on-Cues.md).  
+ For more information, see [Setting Up Colored Indicators on Cues](Setting-Up-Colored-Indicators-on-Cues.md).  
   
 ## See Also  
- [Setting Up Cues](../dynamics-nav/Setting-Up-Cues.md)   
- [FlowFields](../dynamics-nav/FlowFields.md)
+ [Setting Up Cues](Setting-Up-Cues.md)   
+ [FlowFields](FlowFields.md)

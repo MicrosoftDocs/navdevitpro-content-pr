@@ -11,7 +11,7 @@ caps.latest.revision: 7
 manager: edupont
 ---
 # CREATEENCRYPTIONKEY
-Creates an encryption key for the current [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] tenant.  
+Creates an encryption key for the current [!INCLUDE[navnow](includes/navnow_md.md)] tenant.  
   
 ## Syntax  
   
@@ -30,7 +30,7 @@ CREATEENCRYPTIONKEY()
  If a key already exists, the following error will be displayed: **Unable to create a new encryption key. An encryption key already exists**.  
   
 ## Example  
- This code example creates an encryption key for the current tenant. It uses the [ENCRYPTIONENABLED](../dynamics-nav/ENCRYPTIONENABLED.md) function to perform a check.  
+ This code example creates an encryption key for the current tenant. It uses the [ENCRYPTIONENABLED](ENCRYPTIONENABLED.md) function to perform a check.  
   
 ```  
 IF NOT ENCRYPTIONENABLED THEN  
@@ -38,6 +38,6 @@ IF NOT ENCRYPTIONENABLED THEN
 ```  
   
 ## See Also  
- [System](../dynamics-nav/System.md)   
- [Technical Reference](../dynamics-nav/Technical-Reference.md)   
- [C\-SIDE Reference Guide](../dynamics-nav/C-SIDE-Reference-Guide.md)
+ [System](System.md)   
+ [Technical Reference](Technical-Reference.md)   
+ [C\-SIDE Reference Guide](C-SIDE-Reference-Guide.md)

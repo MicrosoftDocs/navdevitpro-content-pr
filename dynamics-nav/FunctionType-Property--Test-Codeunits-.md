@@ -14,7 +14,7 @@ manager: terryaus
 Sets the type of function in a test codeunit.  
   
 ## Applies To  
- C\/AL functions on test codeunits. A test codeunit is codeunit that has the [SubType Property \(Codeunit\)](../dynamics-nav/SubType-Property--Codeunit-.md) set to **Test**.  
+ C\/AL functions on test codeunits. A test codeunit is codeunit that has the [SubType Property \(Codeunit\)](SubType-Property--Codeunit-.md) set to **Test**.  
   
 ## Property Value  
   
@@ -29,7 +29,7 @@ Sets the type of function in a test codeunit.
 |**ModalPageHandler**|Handles specific pages that are run modally.|  
 |**ReportHandler**|Handles specific reports.|  
 |**RequestPageHandler**|Handles specific report request pages.|  
-|**FilterPageHandler**|Handles specific filter pages for filtering tables.<br /><br /> For more information, see [Creating Filter Pages for Filtering Tables](../dynamics-nav/Creating-Filter-Pages-for-Filtering-Tables.md)|  
+|**FilterPageHandler**|Handles specific filter pages for filtering tables.<br /><br /> For more information, see [Creating Filter Pages for Filtering Tables](Creating-Filter-Pages-for-Filtering-Tables.md)|  
 |**HyperlinkHandler**|Handles specific hyperlinks.|  
   
 ## Remarks  
@@ -42,14 +42,14 @@ Sets the type of function in a test codeunit.
     > [!NOTE]  
     >  The parameters of the functions that are being handled are passed as parameters to the handler functions. The value of the parameter can be changed by the handler function.  
   
-     To set up handler function for use by a test function, you assign the handler function to the [HandlerFunctions Property](../dynamics-nav/HandlerFunctions-Property.md) of the test function.  
+     To set up handler function for use by a test function, you assign the handler function to the [HandlerFunctions Property](HandlerFunctions-Property.md) of the test function.  
   
      For more information, see [How to: Create Handler Functions](../Topic/How%20to:%20Create%20Handler%20Functions.md).  
   
 -   You use normal functions to structure the test code by using the same design practices and principles as functions in other codeunits of the application.  
   
 ## See Also  
- [Testing the Application](../dynamics-nav/Testing-the-Application.md)   
+ [Testing the Application](Testing-the-Application.md)   
  [How to: Create Test Codeunits and Test Functions](../Topic/How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md)   
  [How to: Create Handler Functions](../Topic/How%20to:%20Create%20Handler%20Functions.md)   
  [Walkthrough: Testing Purchase Invoice Discounts](../Topic/Walkthrough:%20Testing%20Purchase%20Invoice%20Discounts.md)

@@ -37,10 +37,10 @@ Changes or checks the order in which a search through the table that is referred
  Specifies the order in which a search will be performed.  
   
 ## Remarks  
- This function works just like the [ASCENDING Function \(Record\)](../dynamics-nav/ASCENDING-Function--Record-.md).  
+ This function works just like the [ASCENDING Function \(Record\)](ASCENDING-Function--Record-.md).  
   
 ## Example  
- The following example opens table 18 \(Customer\) as a RecordRef variable that is named CustomerRecref. The [SETVIEW Function \(RecordRef\)](../dynamics-nav/SETVIEW-Function--RecordRef-.md) sets a filter that includes sorting the data in ascending order. The ASCENDING function then checks whether the sort order is ascending, stores the return value in the IsAscending variable and displays **Yes** in a message box. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example opens table 18 \(Customer\) as a RecordRef variable that is named CustomerRecref. The [SETVIEW Function \(RecordRef\)](SETVIEW-Function--RecordRef-.md) sets a filter that includes sorting the data in ascending order. The ASCENDING function then checks whether the sort order is ascending, stores the return value in the IsAscending variable and displays **Yes** in a message box. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -59,7 +59,7 @@ MESSAGE(Text000, IsAscending);
 ```  
   
 ## Example  
- The following example opens table 18 \(Customer\) as a RecordRef variable that is named CustomerRecref. The [SETVIEW Function \(RecordRef\)](../dynamics-nav/SETVIEW-Function--RecordRef-.md) sets a filter that includes sorting the data in descending order. The ASCENDING function then checks whether the sort order is ascending, stores the return value in the IsAscending variable and displays **No** in a message box because the sort order is descending. The ASCENDING function changes the sort order to ascending by setting the *SetAscending* parameter to **true**. The ASCENDING function checks the sort order again. This time **Yes** is displayed.  
+ The following example opens table 18 \(Customer\) as a RecordRef variable that is named CustomerRecref. The [SETVIEW Function \(RecordRef\)](SETVIEW-Function--RecordRef-.md) sets a filter that includes sorting the data in descending order. The ASCENDING function then checks whether the sort order is ascending, stores the return value in the IsAscending variable and displays **No** in a message box because the sort order is descending. The ASCENDING function changes the sort order to ascending by setting the *SetAscending* parameter to **true**. The ASCENDING function checks the sort order again. This time **Yes** is displayed.  
   
 ```  
 CustomerRecref.OPEN(18);  
@@ -71,4 +71,4 @@ MESSAGE(Text000, IsAscending);
 ```  
   
 ## See Also  
- [RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md)
+ [RecordRef Data Type](RecordRef-Data-Type.md)

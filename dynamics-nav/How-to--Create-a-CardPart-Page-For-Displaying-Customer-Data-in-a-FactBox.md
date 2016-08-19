@@ -47,7 +47,7 @@ A FactBox displays additional information to the user in a pane located on the r
   
 #### To create a FactBox to display outstanding customer orders  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **Page**, and then choose the **New** button. The **New Page** dialog box appears.  
   
@@ -75,8 +75,8 @@ A FactBox displays additional information to the user in a pane located on the r
   
 11. Choose the **OK** button. Your page is saved.  
   
-12. To run your page, in Object Designer, select the page, and then choose the **Run** button. The [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] opens and displays your new FactBox page.  
+12. To run your page, in Object Designer, select the page, and then choose the **Run** button. The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] opens and displays your new FactBox page.  
   
 ## See Also  
  [Walkthrough: Adding a FactBox to the Customer List Page](../Topic/Walkthrough:%20Adding%20a%20FactBox%20to%20the%20Customer%20List%20Page.md)   
- [Page Designer Troubleshooting](../dynamics-nav/Page-Designer-Troubleshooting.md)
+ [Page Designer Troubleshooting](Page-Designer-Troubleshooting.md)

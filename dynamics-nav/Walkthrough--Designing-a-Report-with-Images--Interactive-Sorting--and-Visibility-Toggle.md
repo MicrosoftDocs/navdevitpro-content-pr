@@ -11,7 +11,7 @@ caps.latest.revision: 36
 manager: terryaus
 ---
 # Walkthrough: Designing a Report with Images, Interactive Sorting, and Visibility Toggle
-In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], creating new reports is divided into the following phases:  
+In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], creating new reports is divided into the following phases:  
   
 -   Defining the data model on which the report is based.  
   
@@ -19,38 +19,38 @@ In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], creating n
   
 -   Designing the visual layout of the report.  
   
- With [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], you can use Visual Studio Report Designer to design and modify the visual layout of a report.  
+ With [!INCLUDE[navnow](includes/navnow_md.md)], you can use Visual Studio Report Designer to design and modify the visual layout of a report.  
   
 ## About This Walkthrough  
  This walkthrough provides an overview of how to create a report that displays images, allows interactive sorting, and provides visibility toggling. This walkthrough illustrates the following tasks:  
   
--   Defining the data model in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+-   Defining the data model in [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 -   Designing the report layout and adding an image using Visual Studio Report Designer.  
   
--   Synchronizing the report layout with [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] and running the report.  
+-   Synchronizing the report layout with [!INCLUDE[navnow](includes/navnow_md.md)] and running the report.  
   
 -   Applying interactive sorting to the report layout using Visual Studio Report Designer.  
   
--   Resynchronizing the report layout with [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] and running the report.  
+-   Resynchronizing the report layout with [!INCLUDE[navnow](includes/navnow_md.md)] and running the report.  
   
  For more information about how to design the layout of a report by using Visual Studio, see [Defining a Report Layout \(Visual Studio Report Designer\)](http://go.microsoft.com/fwlink/?LinkID=133192).  
   
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] with a developer license.  
+-   [!INCLUDE[navnow](includes/navnow_md.md)] with a developer license.  
   
 -   The CRONUS International Ltd. demo data company.  
   
--   Microsoft Visual Studio installed. For more information about which version of Microsoft Visual Studio you need, see [System Requirements for Microsoft Dynamics NAV 2016](../dynamics-nav/System-Requirements-for-Microsoft-Dynamics-NAV-2016.md). This walkthrough assumes that Microsoft Visual Studio 2012 or Microsoft Visual Studio 2013 is used.  
+-   Microsoft Visual Studio installed. For more information about which version of Microsoft Visual Studio you need, see [System Requirements for Microsoft Dynamics NAV 2016](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md). This walkthrough assumes that Microsoft Visual Studio 2012 or Microsoft Visual Studio 2013 is used.  
   
 ## Defining the Data Model  
- When you create a new report, you must define where the data that the report will display should come from. You define the data model in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)].  
+ When you create a new report, you must define where the data that the report will display should come from. You define the data model in [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 #### To define the data model  
   
-1.  In the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **Report**, and then choose **New** to open the **Report Dataset Designer** window.  
   
@@ -73,7 +73,7 @@ In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], creating n
 10. Make sure **Compile** is selected, and then choose the **OK** button.  
   
 ## Designing the Report Layout and Adding an Image  
- Now that you have defined the data model for the report in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], you can design and refine the layout in Visual Studio.  
+ Now that you have defined the data model for the report in [!INCLUDE[navnow](includes/navnow_md.md)], you can design and refine the layout in Visual Studio.  
   
 #### To design the report layout and add an image in Visual Studio  
   
@@ -116,11 +116,11 @@ In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], creating n
 13. In the **File** menu, choose **Save Report.rdlc**, and then close Visual Studio.  
   
 ## Synchronizing and Running the Report  
- Now you will load the changes that you made in Visual Studio to [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] to synchronize the two versions of the ItemReport.  
+ Now you will load the changes that you made in Visual Studio to [!INCLUDE[navnow](includes/navnow_md.md)] to synchronize the two versions of the ItemReport.  
   
 #### To synchronize and run the report  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], close **ItemReport** in Report Dataset Designer. A message informs you that the .rdlc file for this report has changed and asks if you want to load the changes. Choose **Yes** to save the changes in the database.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], close **ItemReport** in Report Dataset Designer. A message informs you that the .rdlc file for this report has changed and asks if you want to load the changes. Choose **Yes** to save the changes in the database.  
   
 2.  In the **Save Changes** window, make sure **Compile** is selected and then choose **Yes** to save the report.  
   
@@ -141,7 +141,7 @@ In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], creating n
   
 #### To set up interactive sorting and visibility toggle  
   
-1.  In the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)], in Object Designer, select the **ItemReport** report and then choose **Design** to open it in Report Dataset Designer.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], in Object Designer, select the **ItemReport** report and then choose **Design** to open it in Report Dataset Designer.  
   
 2.  On the **View** menu, choose **Layout**. The report opens in Visual Studio.  
   
@@ -174,11 +174,11 @@ In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], creating n
 16. On the **File** menu, choose **Save Report.rdlc** and close Visual Studio.  
   
 ## Resynchronizing and Running the Report  
- After you have applied the latest changes to the report in Visual Studio, you will load the changes that you made in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] to synchronize the two versions of the **ItemReport**. After the changes have been loaded, you can run the report to see the interactive sorting functionality.  
+ After you have applied the latest changes to the report in Visual Studio, you will load the changes that you made in [!INCLUDE[navnow](includes/navnow_md.md)] to synchronize the two versions of the **ItemReport**. After the changes have been loaded, you can run the report to see the interactive sorting functionality.  
   
 #### To resynchronize and run the report  
   
-1.  Switch to the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)].  
+1.  Switch to the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].  
   
 2.  If the **ItemReport** report is open in Report Dataset Designer, then close it. A message informs you that the .rdlc file for this report has changed and asks if you want to load the changes. Choose **Yes** to save the changes in the database.  
   
@@ -191,4 +191,4 @@ In [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], creating n
 5.  Choose **Preview** to view the report. You can use interactive sorting for the **No Item** and **Description Item** columns. You can also collapse each item to hide the picture.  
   
 ## See Also  
- [Report Design Walkthroughs](../dynamics-nav/Report-Design-Walkthroughs.md)
+ [Report Design Walkthroughs](Report-Design-Walkthroughs.md)

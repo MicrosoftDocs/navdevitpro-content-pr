@@ -14,9 +14,9 @@ The following triggers apply to codeunits.
   
 |Codeunit trigger name|Executed|  
 |---------------------------|--------------|  
-|[OnBeforeTestRun Trigger](../dynamics-nav/OnBeforeTestRun-Trigger.md)|Before a test function of a test codeunit is run.|  
-|[OnAfterTestRun Trigger](../dynamics-nav/OnAfterTestRun-Trigger.md)|After a test function of a test codeunit is run.|  
+|[OnBeforeTestRun Trigger](OnBeforeTestRun-Trigger.md)|Before a test function of a test codeunit is run.|  
+|[OnAfterTestRun Trigger](OnAfterTestRun-Trigger.md)|After a test function of a test codeunit is run.|  
   
 ## See Also  
- [Testing the Application](../dynamics-nav/Testing-the-Application.md)   
+ [Testing the Application](Testing-the-Application.md)   
  [How to: Create Test Codeunits and Test Functions](../Topic/How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md)

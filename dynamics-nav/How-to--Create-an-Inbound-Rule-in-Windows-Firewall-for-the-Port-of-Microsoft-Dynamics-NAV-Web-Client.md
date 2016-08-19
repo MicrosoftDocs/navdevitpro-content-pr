@@ -11,11 +11,11 @@ caps.latest.revision: 6
 manager: terryaus
 ---
 # How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client
-This procedure describes how to modify Windows Firewall to allow inbound communication on the port that is used by the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]. By default, the port is 8080. You use this procedure after you install the [!INCLUDE[nav_web_server](../dynamics-nav/includes/nav_web_server_md.md)] on a computer that is running Windows 7 or if you change the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] port to a port other than 8080.  
+This procedure describes how to modify Windows Firewall to allow inbound communication on the port that is used by the [!INCLUDE[nav_web](includes/nav_web_md.md)]. By default, the port is 8080. You use this procedure after you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on a computer that is running Windows 7 or if you change the [!INCLUDE[nav_web](includes/nav_web_md.md)] port to a port other than 8080.  
   
 ### To create an inbound rule  
   
-1.  On the computer that is running the [!INCLUDE[nav_web_server](../dynamics-nav/includes/nav_web_server_md.md)], on the **Start** menu, choose **Control Panel**, choose **System and Security**, and then choose **Windows Firewall**.  
+1.  On the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], on the **Start** menu, choose **Control Panel**, choose **System and Security**, and then choose **Windows Firewall**.  
   
 2.  In the navigation pane, choose **Advanced settings**.  
   
@@ -23,7 +23,7 @@ This procedure describes how to modify Windows Firewall to allow inbound communi
   
 4.  On the **Rule Type** page, choose **Port**, and then choose the **Next** button.  
   
-5.  On the **Protocol and Ports** page, choose **Specific local ports**, and then enter the port number. For example, enter 8080 for the default port of the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)].  
+5.  On the **Protocol and Ports** page, choose **Specific local ports**, and then enter the port number. For example, enter 8080 for the default port of the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
 6.  Choose the **Next** button.  
   
@@ -34,5 +34,5 @@ This procedure describes how to modify Windows Firewall to allow inbound communi
 9. On the **Name** page, type a name for the rule, and then choose the **Finish** button.  
   
 ## See Also  
- [Deploying the Microsoft Dynamics NAV Web Server Components](../dynamics-nav/Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
+ [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
  [How to: Install the Web Server Components](../Topic/How%20to:%20Install%20the%20Web%20Server%20Components.md)

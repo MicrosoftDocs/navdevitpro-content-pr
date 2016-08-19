@@ -34,15 +34,15 @@ Blob.CreateInStream(Stream[,TextEncoding.value])
  *TextEncoding*  
  Value: **MsDos**, **UTF8**, **UTF16**, or **Windows**  
   
- Optionally, you can specify the encoding on the stream. By specifying the text encoding, you ensure that all the language\-specific characters are represented correctly in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] when you read data and write data. The following example illustrates how you can set the encoding to Windows when you create a stream for a BLOB field.  
+ Optionally, you can specify the encoding on the stream. By specifying the text encoding, you ensure that all the language\-specific characters are represented correctly in [!INCLUDE[navnow](includes/navnow_md.md)] when you read data and write data. The following example illustrates how you can set the encoding to Windows when you create a stream for a BLOB field.  
   
 ```  
 MyTable.MyBLOBfield.CREATEINSTREAM(MyStream, TextEncoding.WINDOWS)  
 ```  
   
- For more information, see [Text Encoding](../dynamics-nav/Text-Encoding.md).  
+ For more information, see [Text Encoding](Text-Encoding.md).  
   
 ## See Also  
- [BLOB Data Type](../dynamics-nav/BLOB-Data-Type.md)   
- [InStream and OutStream Data Types](../dynamics-nav/InStream-and-OutStream-Data-Types.md)   
- [Text Encoding](../dynamics-nav/Text-Encoding.md)
+ [BLOB Data Type](BLOB-Data-Type.md)   
+ [InStream and OutStream Data Types](InStream-and-OutStream-Data-Types.md)   
+ [Text Encoding](Text-Encoding.md)

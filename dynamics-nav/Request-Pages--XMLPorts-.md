@@ -13,23 +13,23 @@ manager: terryaus
 # Request Pages (XMLPorts)
 A request page is a dialog box that appears when an XMLport is run from Object Designer. It enables the user to set a filter on the data, sort the data, and choose whether the XMLport imports or exports the data. For more information about how to run XMLports from Object Designer, see [How to: Run an XMLport from Object Designer](../Topic/How%20to:%20Run%20an%20XMLport%20from%20Object%20Designer.md).  
   
- The filters are located on the **Options** FastTab. You design the **Options** FastTab of a request page by using Request Options Page Designer in the [!INCLUDE[nav_dev_short](../dynamics-nav/includes/nav_dev_short_md.md)]. To access Request Options Page Designer, open XMLport Designer, choose **View**, and then choose **Request Page**.  
+ The filters are located on the **Options** FastTab. You design the **Options** FastTab of a request page by using Request Options Page Designer in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. To access Request Options Page Designer, open XMLport Designer, choose **View**, and then choose **Request Page**.  
   
  You design the filters on request pages by using the following properties:  
   
--   [ReqFilterHeading Property](../dynamics-nav/ReqFilterHeading-Property.md)  
+-   [ReqFilterHeading Property](ReqFilterHeading-Property.md)  
   
--   [ReqFilterHeadingML Property](../dynamics-nav/ReqFilterHeadingML-Property.md)  
+-   [ReqFilterHeadingML Property](ReqFilterHeadingML-Property.md)  
   
--   [ReqFilterFields Property](../dynamics-nav/ReqFilterFields-Property.md)  
+-   [ReqFilterFields Property](ReqFilterFields-Property.md)  
   
--   [Direction Property](../dynamics-nav/Direction-Property.md)  
+-   [Direction Property](Direction-Property.md)  
   
--   [UseRequestPage Property](../dynamics-nav/UseRequestPage-Property.md)  
+-   [UseRequestPage Property](UseRequestPage-Property.md)  
   
  The following illustration shows the request page for an XMLport that imports and exports from the **Customer** table. The **No.** and **Name** fields have been set as filters.  
   
- ![XMLport Request page](../dynamics-nav/media/MicrosoftDynamicsNAV_RequestPageXMLport.jpg "MicrosoftDynamicsNAV\_RequestPageXMLport")  
+ ![XMLport Request page](media/MicrosoftDynamicsNAV_RequestPageXMLport.jpg "MicrosoftDynamicsNAV\_RequestPageXMLport")  
   
 ## Filtering on Request Pages  
  The fields that you define as **ReqFilterFields** are shown on the request page. In addition, a user can add more fields on which to filter.  
@@ -44,11 +44,11 @@ A request page is a dialog box that appears when an XMLport is run from Object D
  In a complex XMLport that uses data from several tables, the functionality may depend on a specific key and sort order. Design your XMLports so that users cannot change the sort order in a way that affects the functionality of the XMLport.  
   
 ## Exporting and Importing Data  
- If the [Format Property \(XMLports\)](../dynamics-nav/Format-Property--XMLports-.md) of the XMLport is set to **Both**, the XMLport can be used to import or export data. In that case, from the request page, users can choose whether to import or export the data from the **Direction** list. By default, **Import** is selected. If **Import** is selected and you choose the **OK** button, the **Import** window, where you can select the file to import opens. If you select **Export** and you choose the **OK** button, the **Export File** dialog box is displayed. On the dialog box, you can open the file or save it to your computer.  
+ If the [Format Property \(XMLports\)](Format-Property--XMLports-.md) of the XMLport is set to **Both**, the XMLport can be used to import or export data. In that case, from the request page, users can choose whether to import or export the data from the **Direction** list. By default, **Import** is selected. If **Import** is selected and you choose the **OK** button, the **Import** window, where you can select the file to import opens. If you select **Export** and you choose the **OK** button, the **Export File** dialog box is displayed. On the dialog box, you can open the file or save it to your computer.  
   
- If the [Format Property \(XMLports\)](../dynamics-nav/Format-Property--XMLports-.md) is set to either **Import** or **Export**, then the **Direction** list box is not displayed on the request page.  
+ If the [Format Property \(XMLports\)](Format-Property--XMLports-.md) is set to either **Import** or **Export**, then the **Direction** list box is not displayed on the request page.  
   
 ## See Also  
- [Designing XMLports](../dynamics-nav/Designing-XMLports.md)   
- [XMLport Walkthroughs](../dynamics-nav/XMLport-Walkthroughs.md)   
+ [Designing XMLports](Designing-XMLports.md)   
+ [XMLport Walkthroughs](XMLport-Walkthroughs.md)   
  [How to: Run an XMLport from Object Designer](../Topic/How%20to:%20Run%20an%20XMLport%20from%20Object%20Designer.md)

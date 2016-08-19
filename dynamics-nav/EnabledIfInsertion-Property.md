@@ -23,5 +23,5 @@ Sets a value that indicates whether the action should be enabled or disabled if 
  **Yes**\/**No**  
   
 ## See Also  
- [EnabledIfError Property](../dynamics-nav/EnabledIfError-Property.md)   
- [EnabledIfSelection Property](../dynamics-nav/EnabledIfSelection-Property.md)
+ [EnabledIfError Property](EnabledIfError-Property.md)   
+ [EnabledIfSelection Property](EnabledIfSelection-Property.md)

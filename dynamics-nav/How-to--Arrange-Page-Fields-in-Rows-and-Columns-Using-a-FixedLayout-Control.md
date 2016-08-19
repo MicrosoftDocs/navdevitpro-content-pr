@@ -13,12 +13,12 @@ manager: terryaus
 # How to: Arrange Page Fields in Rows and Columns Using a FixedLayout Control
 This topic describes how to use a FixedLayout group control on a page to arrange page fields in rows and columns, similar to a matrix. A FixedLayout group control is typically used to display statistical data. The following illustration shows an example of a page that uses a FixedLayout control to show sales totals for different time periods.  
   
- ![Screenshot of a FixedLayout example](../dynamics-nav/media/NAVRTCFixedLayoutExample.jpg "NAVRTCFixedLayoutExample")  
+ ![Screenshot of a FixedLayout example](media/NAVRTCFixedLayoutExample.jpg "NAVRTCFixedLayoutExample")  
   
- Fields in a FixedLayout group control are displayed in a FastTab with a heading for each row and column. For more information about the FixedLayout group control, see [Arranging Fields in Rows and Columns Using a FixedLayout Control](../dynamics-nav/Arranging-Fields-in-Rows-and-Columns-Using-a-FixedLayout-Control.md).  
+ Fields in a FixedLayout group control are displayed in a FastTab with a heading for each row and column. For more information about the FixedLayout group control, see [Arranging Fields in Rows and Columns Using a FixedLayout Control](Arranging-Fields-in-Rows-and-Columns-Using-a-FixedLayout-Control.md).  
   
 > [!IMPORTANT]  
->  Previous versions of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] supported having a FixedLayout control directly under a ContentArea. In [!INCLUDE[nav7long](../dynamics-nav/includes/nav7long_md.md)] and later versions of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], you must make sure that the FixedLayout control is nested in a Group control. For more information, see [Recommended Usage of GridLayout and FixedLayout](../dynamics-nav/Recommended-Usage-of-GridLayout-and-FixedLayout.md).  
+>  Previous versions of [!INCLUDE[navnow](includes/navnow_md.md)] supported having a FixedLayout control directly under a ContentArea. In [!INCLUDE[nav7long](includes/nav7long_md.md)] and later versions of [!INCLUDE[navnow](includes/navnow_md.md)], you must make sure that the FixedLayout control is nested in a Group control. For more information, see [Recommended Usage of GridLayout and FixedLayout](Recommended-Usage-of-GridLayout-and-FixedLayout.md).  
   
 ### To arrange page fields in rows and columns  
   
@@ -44,7 +44,7 @@ This topic describes how to use a FixedLayout group control on a page to arrange
   
      The following illustration shows a Page Designer example that has four fields.  
   
-     ![FixedLayout group example in Page Designer](../dynamics-nav/media/NAVRTCFixedLayoutPageDesignerGroup.PNG "NAVRTCFixedLayoutPageDesignerGroup")  
+     ![FixedLayout group example in Page Designer](media/NAVRTCFixedLayoutPageDesignerGroup.PNG "NAVRTCFixedLayoutPageDesignerGroup")  
   
 9. Repeat steps 5 through 8 to add group controls that define the remaining columns.  
   
@@ -52,5 +52,5 @@ This topic describes how to use a FixedLayout group control on a page to arrange
     >  You do not need to specify captions for these fields. Only the captions of fields in the first column define the row headings.  
   
 ## See Also  
- [Arranging Fields in Rows and Columns](../dynamics-nav/Arranging-Fields-in-Rows-and-Columns.md)   
+ [Arranging Fields in Rows and Columns](Arranging-Fields-in-Rows-and-Columns.md)   
  [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](../Topic/How%20to:%20Arrange%20Fields%20in%20Rows%20and%20Columns%20Using%20the%20GridLayout%20Control.md)

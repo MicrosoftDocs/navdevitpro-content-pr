@@ -13,7 +13,7 @@ manager: terryaus
 # Automation Data Type
 Use the Automation data type to reference an automation server.  
   
-### To use an automation server in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)]  
+### To use an automation server in [!INCLUDE[navnow](includes/navnow_md.md)]  
   
 1.  Define a variable of type Automation and give it a name.  
   
@@ -31,9 +31,9 @@ Use the Automation data type to reference an automation server.
 'Microsoft Excel X.0 Object Library'.Application  
 ```  
   
- When you have defined an automation server as a variable, you must use [CREATE Function \(Automation\)](../dynamics-nav/CREATE-Function--Automation-.md) to create an instance of the server. After that, you can use the server through the variable. You can browse its methods and properties in the **Symbol** menu.  
+ When you have defined an automation server as a variable, you must use [CREATE Function \(Automation\)](CREATE-Function--Automation-.md) to create an instance of the server. After that, you can use the server through the variable. You can browse its methods and properties in the **Symbol** menu.  
   
- When you are using a server, you should know that there is not a one\-to\-one relationship between C\/AL data types and COM data types. For an overview of the data type mapping, see [Using COM Technologies in Microsoft Dynamics NAV](../dynamics-nav/Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md).  
+ When you are using a server, you should know that there is not a one\-to\-one relationship between C\/AL data types and COM data types. For an overview of the data type mapping, see [Using COM Technologies in Microsoft Dynamics NAV](Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md).  
   
  If you use a variable of type Automation to automate Microsoft Excel and you run an English \(United States\) version of Excel but the regional settings for the computer are configured for a non\-English language, then you will receive the following error:  
   
@@ -46,11 +46,11 @@ Description: Old Format or Invalid Type Library
   
 ## Limitations  
   
--   Automation is not supported by [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)].  
+-   Automation is not supported by [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
--   Automation objects cannot run on [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)].  
+-   Automation objects cannot run on [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
 ## See Also  
- [CREATE Function \(Automation\)](../dynamics-nav/CREATE-Function--Automation-.md)   
- [ISCLEAR Function \(Automation\)](../dynamics-nav/ISCLEAR-Function--Automation-.md)   
- [Variant Data Type](../dynamics-nav/Variant-Data-Type.md)
+ [CREATE Function \(Automation\)](CREATE-Function--Automation-.md)   
+ [ISCLEAR Function \(Automation\)](ISCLEAR-Function--Automation-.md)   
+ [Variant Data Type](Variant-Data-Type.md)

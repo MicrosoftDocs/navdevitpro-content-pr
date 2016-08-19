@@ -11,7 +11,7 @@ caps.latest.revision: 8
 manager: tsiggaar
 ---
 # How to: Open Microsoft Dynamics NAV Clients that Connect to Microsoft Dynamics NAV on Microsoft Azure
-This topic describes how to open the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] and [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] for a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] deployment on Microsoft Azure. When you complete the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] deployment by using one of the example scripts that are available with the [!INCLUDE[nav_prov_long](../dynamics-nav/includes/nav_prov_long_md.md)], you receive a message in Windows PowerShell ISE that resembles the following:  
+This topic describes how to open the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)] for a [!INCLUDE[navnow](includes/navnow_md.md)] deployment on Microsoft Azure. When you complete the [!INCLUDE[navnow](includes/navnow_md.md)] deployment by using one of the example scripts that are available with the [!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)], you receive a message in Windows PowerShell ISE that resembles the following:  
   
 ```  
 The NAV Server machine is: MyNavVm.cloudapp.net  
@@ -25,9 +25,9 @@ A user has been added to the database with the following credentials:
   password=N@Vpw312  
 ```  
   
- The [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)] is available from a ClickOnce web site, which lets you install the client from a web page. The [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] is available from any supported browser.  
+ The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is available from a ClickOnce web site, which lets you install the client from a web page. The [!INCLUDE[nav_web](includes/nav_web_md.md)] is available from any supported browser.  
   
-### To open the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)]  
+### To open the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]  
   
 1.  Open an Internet browser.  
   
@@ -35,13 +35,13 @@ A user has been added to the database with the following credentials:
   
      **http:\/\/virtualmachine.cloudapp.net: port**  
   
-     Substitute *virtualmachine* with the name of the virtual machine that in running the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)].  
+     Substitute *virtualmachine* with the name of the virtual machine that in running the [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
      Substitute *port* with the TCP port on which ClickOnce website is running. In the Set\-PartnerSettings.ps1 file, this is defined by the $NAV\_ClickOnceWebSitePort parameter. The default port is 9004  
   
-3.  Follow the instructions on the webpage to install the [!INCLUDE[nav_windows](../dynamics-nav/includes/nav_windows_md.md)].  
+3.  Follow the instructions on the webpage to install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
-### To open the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]  
+### To open the [!INCLUDE[nav_web](includes/nav_web_md.md)]  
   
 1.  Open an Internet browser.  
   
@@ -49,10 +49,10 @@ A user has been added to the database with the following credentials:
   
      **https:\/\/virtualmachine.cloudapp.net\/DynamicsNAV90\_Instance1**  
   
-     Substitute *virtualmachine* with the name of the virtual machine that in running the [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)].  
+     Substitute *virtualmachine* with the name of the virtual machine that in running the [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
 ## See Also  
- [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](../dynamics-nav/Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
- [Deploying Microsoft Dynamics NAV on Two Virtual Machines Using Example\-2VM Script](../dynamics-nav/Deploying-Microsoft-Dynamics-NAV-on-Two-Virtual-Machines-Using-Example-2VM-Script.md)   
- [Deploying Microsoft Dynamics NAV on One Virtual Machine Using Example\-1VM Script](../dynamics-nav/Deploying-Microsoft-Dynamics-NAV-on-One-Virtual-Machine-Using-Example-1VM-Script.md)   
- [Scaling the Microsoft Dynamics NAV Network Topology](../dynamics-nav/Scaling-the-Microsoft-Dynamics-NAV-Network-Topology.md)
+ [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
+ [Deploying Microsoft Dynamics NAV on Two Virtual Machines Using Example\-2VM Script](Deploying-Microsoft-Dynamics-NAV-on-Two-Virtual-Machines-Using-Example-2VM-Script.md)   
+ [Deploying Microsoft Dynamics NAV on One Virtual Machine Using Example\-1VM Script](Deploying-Microsoft-Dynamics-NAV-on-One-Virtual-Machine-Using-Example-1VM-Script.md)   
+ [Scaling the Microsoft Dynamics NAV Network Topology](Scaling-the-Microsoft-Dynamics-NAV-Network-Topology.md)

@@ -35,10 +35,10 @@ TableNumber := FieldRef.RELATION
 ## Remarks  
  You can use this function for several purposes such as to determine lookups or to check to see if you have permission to read from a table.  
   
- This function is similar to the [RELATION Function \(Record\)](../dynamics-nav/RELATION-Function--Record-.md) function.  
+ This function is similar to the [RELATION Function \(Record\)](RELATION-Function--Record-.md) function.  
   
 ## Example  
- The following example opens table 37, the Sales Line table, as a RecordRef variable and creates a reference to field 2 \(Sell\-to Customer No.\). The [FieldRef Data Type](../dynamics-nav/FieldRef-Data-Type.md) of field 2 is stored in the MyFieldRef variable. The RELATION function retrieves the number of the table that has a relation with the Sell\-To\-Customer field \(field 2\). The table number is stored the varRelation variable and displayed in the message box. This example requires that you create the following variables and text constant in the **C\/AL Globals** windows.  
+ The following example opens table 37, the Sales Line table, as a RecordRef variable and creates a reference to field 2 \(Sell\-to Customer No.\). The [FieldRef Data Type](FieldRef-Data-Type.md) of field 2 is stored in the MyFieldRef variable. The RELATION function retrieves the number of the table that has a relation with the Sell\-To\-Customer field \(field 2\). The table number is stored the varRelation variable and displayed in the message box. This example requires that you create the following variables and text constant in the **C\/AL Globals** windows.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -59,4 +59,4 @@ MESSAGE(Text000, varRelation);
 ```  
   
 ## See Also  
- [FieldRef Data Type](../dynamics-nav/FieldRef-Data-Type.md)
+ [FieldRef Data Type](FieldRef-Data-Type.md)

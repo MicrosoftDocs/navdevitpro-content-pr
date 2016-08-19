@@ -54,14 +54,14 @@ Deletes a record in a table.
   
  **Enter your changes again in the updated window, or start the interrupted activity again.**  
   
- In earlier versions of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)], certain situations allowed code that an end\-user runs to modify a record after a newer version of the record was written and committed to the database. This would overwrite the newer changes. However, in [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)], we have restricted the [MODIFY Function \(RecordRef\)](../dynamics-nav/MODIFY-Function--RecordRef-.md), [RENAME Function \(RecordRef\)](../dynamics-nav/RENAME-Function--RecordRef-.md), and **DELETE** Function \(RECORDREF\) so that the end\-user receives the following run\-time error in these certain situations:  
+ In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], certain situations allowed code that an end\-user runs to modify a record after a newer version of the record was written and committed to the database. This would overwrite the newer changes. However, in [!INCLUDE[navnowlong](includes/navnowlong_md.md)], we have restricted the [MODIFY Function \(RecordRef\)](MODIFY-Function--RecordRef-.md), [RENAME Function \(RecordRef\)](RENAME-Function--RecordRef-.md), and **DELETE** Function \(RECORDREF\) so that the end\-user receives the following run\-time error in these certain situations:  
   
  **Unable to change an earlier version of the \<Table Name\> record. The record should be read from the database again. This is a programming error.**  
   
- You must design your application so that you use the most up\-to\-date version of the record for modifications to the database. You use the [GET Function \(RecordRef\)](../dynamics-nav/GET-Function--RecordRef-.md) to refresh the record with the latest version.  
+ You must design your application so that you use the most up\-to\-date version of the record for modifications to the database. You use the [GET Function \(RecordRef\)](GET-Function--RecordRef-.md) to refresh the record with the latest version.  
   
 ## Example  
- The following example deletes a record from the Customer table. The code starts by opening the **Customer** table \(18\) as a RecordRef variable that is named MyRecordRef. The [FIELD Function \(RecordRef\)](../dynamics-nav/FIELD-Function--RecordRef-.md) creates a FieldRef that is named MyFieldRef for field 1, which is the primary key of the **Customer** table. The [VALUE Function \(FieldRef, TestPage Field\)](../dynamics-nav/VALUE-Function--FieldRef--TestPage-Field-.md) assigns the value 10000 to the field that the MyFieldRef variable refers to. The [FIND Function \(RecordRef\)](../dynamics-nav/FIND-Function--RecordRef-.md) searches the table for a record with field 1 \= 10000. If the record is found, then it is deleted, the table is modified, and a message is displayed. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example deletes a record from the Customer table. The code starts by opening the **Customer** table \(18\) as a RecordRef variable that is named MyRecordRef. The [FIELD Function \(RecordRef\)](FIELD-Function--RecordRef-.md) creates a FieldRef that is named MyFieldRef for field 1, which is the primary key of the **Customer** table. The [VALUE Function \(FieldRef, TestPage Field\)](VALUE-Function--FieldRef--TestPage-Field-.md) assigns the value 10000 to the field that the MyFieldRef variable refers to. The [FIND Function \(RecordRef\)](FIND-Function--RecordRef-.md) searches the table for a record with field 1 \= 10000. If the record is found, then it is deleted, the table is modified, and a message is displayed. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -88,5 +88,5 @@ END;
 ```  
   
 ## See Also  
- [RecordRef Data Type](../dynamics-nav/RecordRef-Data-Type.md)   
- [OnDelete Trigger](../dynamics-nav/OnDelete-Trigger.md)
+ [RecordRef Data Type](RecordRef-Data-Type.md)   
+ [OnDelete Trigger](OnDelete-Trigger.md)

@@ -36,7 +36,7 @@ Guid := Record.Media.MEDIAID
  The GUID of media in the database.  
   
 ## Remarks  
- When a media file is imported into the record of a table by the [IMPORTFILE Function \(Media\)](../dynamics-nav/IMPORTFILE-Function--Media-.md), the media is given a GUID and stored in the system table **2000000184 Tenant Media** of the application database. The GUID is then included in the **Media** data type field as a reference to the media in the database.  
+ When a media file is imported into the record of a table by the [IMPORTFILE Function \(Media\)](IMPORTFILE-Function--Media-.md), the media is given a GUID and stored in the system table **2000000184 Tenant Media** of the application database. The GUID is then included in the **Media** data type field as a reference to the media in the database.  
   
 ## Example  
  This example uses the MEDIAID function to get the GUID of a media that is used on item **No. 1000** in the table **27 Item**.  
@@ -61,6 +61,6 @@ item.GET('1000');
 ```  
   
 ## See Also  
- [IMPORTFILE Function \(Media\)](../dynamics-nav/IMPORTFILE-Function--Media-.md)   
- [IMPORTSTREAM Function \(Media\)](../dynamics-nav/IMPORTSTREAM-Function--Media-.md)   
- [Media Data Type](../dynamics-nav/Media-Data-Type.md)
+ [IMPORTFILE Function \(Media\)](IMPORTFILE-Function--Media-.md)   
+ [IMPORTSTREAM Function \(Media\)](IMPORTSTREAM-Function--Media-.md)   
+ [Media Data Type](Media-Data-Type.md)

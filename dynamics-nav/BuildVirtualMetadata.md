@@ -11,7 +11,7 @@ caps.latest.revision: 8
 manager: edupont
 ---
 # BuildVirtualMetadata
-Regenerates C\# and metadata information in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] virtual tables for a specified language.  
+Regenerates C\# and metadata information in [!INCLUDE[navnow](includes/navnow_md.md)] virtual tables for a specified language.  
   
 ## Syntax  
   
@@ -26,21 +26,21 @@ finsql.exe command=buildvirtualmetadata, langid=<langid>, [servername=<server>,]
   
  *servername*  
   
- The name of the database server that hosts the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database and objects that you want to modify. The format of this parameter is \<*computername*\>\\\<*database server instance*\>.  
+ The name of the database server that hosts the [!INCLUDE[navnow](includes/navnow_md.md)] database and objects that you want to modify. The format of this parameter is \<*computername*\>\\\<*database server instance*\>.  
   
  If you do not specify both the *servername* parameter and the *database* parameter, then the database server and database that are stored in the fin.zup file are used.  
   
 > [!NOTE]  
 >  When you first specify a database server and database to open, either from a command at a command prompt or from a client, the database server and database are stored in the fin.zup file. By default, the fin.zup file is located at C:\\users\\\<*user name*\>\\AppData\\Roaming\\.  
   
- If you do not specify the *servername* parameter but you do specify the *database* parameter, then the [\($ S\_2335 Open Database $\)](../dynamics-nav/-$-S_2335-Open-Database-$-.md) window opens so that you can specify the database server name.  
+ If you do not specify the *servername* parameter but you do specify the *database* parameter, then the [\($ S\_2335 Open Database $\)](-$-S_2335-Open-Database-$-.md) window opens so that you can specify the database server name.  
   
 > [!TIP]  
 >  To view the name of the server on which the current database is stored, on the **File** menu, choose **Database**, and then choose **Information**. Use the value of the **Database Server** field for the *servername* parameter.  
   
  *database*  
   
- The name of the [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database that contains the objects that you want to modify.  
+ The name of the [!INCLUDE[navnow](includes/navnow_md.md)] database that contains the objects that you want to modify.  
   
 > [!TIP]  
 >  To view the name of the current database, on the **File** menu, choose **Database**, and then choose **Information**. Use the value of the **Database Name** field for the *database* parameter.  
@@ -67,7 +67,7 @@ finsql.exe command=buildvirtualmetadata, langid=<langid>, [servername=<server>,]
   
  If you specify the *username* parameter, then you must also specify the *password* parameter and the *ntauthentication* parameter must be **no**.  
   
- For more information about database users and permissions, see [Setting Database Owner and Security Administration Permissions](../dynamics-nav/Setting-Database-Owner-and-Security-Administration-Permissions.md).  
+ For more information about database users and permissions, see [Setting Database Owner and Security Administration Permissions](Setting-Database-Owner-and-Security-Administration-Permissions.md).  
   
  *password*  
   
@@ -85,15 +85,15 @@ finsql.exe command=buildvirtualmetadata, servername=TestComputer01\NAVDEMO, data
 ```  
   
 ## See Also  
- [CreateDatabase](../dynamics-nav/CreateDatabase.md)   
- [UpgradeDatabase](../dynamics-nav/UpgradeDatabase.md)   
- [Compiling Objects](../dynamics-nav/Compiling-Objects.md)   
- [DeleteObjects](../dynamics-nav/DeleteObjects.md)   
- [DesignObject](../dynamics-nav/DesignObject.md)   
- [ExportObjects](../dynamics-nav/ExportObjects.md)   
- [ImportObjects](../dynamics-nav/ImportObjects.md)   
- [ExportLangModule](../dynamics-nav/ExportLangModule.md)   
- [ImportLangModule](../dynamics-nav/ImportLangModule.md)   
- [ExportTranslate](../dynamics-nav/ExportTranslate.md)   
- [ImportTranslate](../dynamics-nav/ImportTranslate.md)   
- [Using the Development Environment from the Command Prompt](../dynamics-nav/Using-the-Development-Environment-from-the-Command-Prompt.md)
+ [CreateDatabase](CreateDatabase.md)   
+ [UpgradeDatabase](UpgradeDatabase.md)   
+ [Compiling Objects](Compiling-Objects.md)   
+ [DeleteObjects](DeleteObjects.md)   
+ [DesignObject](DesignObject.md)   
+ [ExportObjects](ExportObjects.md)   
+ [ImportObjects](ImportObjects.md)   
+ [ExportLangModule](ExportLangModule.md)   
+ [ImportLangModule](ImportLangModule.md)   
+ [ExportTranslate](ExportTranslate.md)   
+ [ImportTranslate](ImportTranslate.md)   
+ [Using the Development Environment from the Command Prompt](Using-the-Development-Environment-from-the-Command-Prompt.md)

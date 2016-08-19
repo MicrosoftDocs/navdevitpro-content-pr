@@ -32,7 +32,7 @@ Sets the current filter view, which defines the sort order, key, and filters, fo
  *View*  
  Type: Text  
   
- The filter view to apply. This can be the output of the [GETVIEW Function \(Record\)](../dynamics-nav/GETVIEW-Function--Record-.md) or[GETVIEW Function \(RecordRef\)](../dynamics-nav/GETVIEW-Function--RecordRef-.md) .  
+ The filter view to apply. This can be the output of the [GETVIEW Function \(Record\)](GETVIEW-Function--Record-.md) or[GETVIEW Function \(RecordRef\)](GETVIEW-Function--RecordRef-.md) .  
   
 ## Return Value  
  Type: Boolean  
@@ -66,12 +66,12 @@ varFilterPageBuilder.SETVIEW(varDateItem, varDefaultView);
 ```  
   
 ## See Also  
- [ADDFIELD Function](../dynamics-nav/ADDFIELD-Function.md)   
- [ADDFIELDNO Function](../dynamics-nav/ADDFIELDNO-Function.md)   
- [ADDRECORD Function](../dynamics-nav/ADDRECORD-Function.md)   
- [ADDRECORDREF Function](../dynamics-nav/ADDRECORDREF-Function.md)   
- [ADDTABLE Function](../dynamics-nav/ADDTABLE-Function.md)   
- [GETVIEW function \(FilterPageBuilder\)](../dynamics-nav/GETVIEW-function--FilterPageBuilder-.md)   
- [COUNT Function \(FilterPageBuilder\)](../dynamics-nav/COUNT-Function--FilterPageBuilder-.md)   
- [NAME Function \(FilterPageBuilder\)](../dynamics-nav/NAME-Function--FilterPageBuilder-.md)   
- [RUNMODAL Function \(FilterPageBuilder\)](../dynamics-nav/RUNMODAL-Function--FilterPageBuilder-.md)
+ [ADDFIELD Function](ADDFIELD-Function.md)   
+ [ADDFIELDNO Function](ADDFIELDNO-Function.md)   
+ [ADDRECORD Function](ADDRECORD-Function.md)   
+ [ADDRECORDREF Function](ADDRECORDREF-Function.md)   
+ [ADDTABLE Function](ADDTABLE-Function.md)   
+ [GETVIEW function \(FilterPageBuilder\)](GETVIEW-function--FilterPageBuilder-.md)   
+ [COUNT Function \(FilterPageBuilder\)](COUNT-Function--FilterPageBuilder-.md)   
+ [NAME Function \(FilterPageBuilder\)](NAME-Function--FilterPageBuilder-.md)   
+ [RUNMODAL Function \(FilterPageBuilder\)](RUNMODAL-Function--FilterPageBuilder-.md)

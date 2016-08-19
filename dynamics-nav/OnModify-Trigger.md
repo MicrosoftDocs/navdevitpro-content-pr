@@ -22,4 +22,4 @@ Executed when a user modifies an existing record in a table.
  We recommend that you do not include code that can stop the user from recording a change in the OnModify trigger on a table. For example, do not include code for displaying error messages. If a user has previously changed the contents of some fields in a record, then these changes must always be accepted by the system.  
   
 ## See Also  
- [Triggers](../dynamics-nav/Triggers.md)
+ [Triggers](Triggers.md)

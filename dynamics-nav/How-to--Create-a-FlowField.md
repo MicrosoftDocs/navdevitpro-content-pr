@@ -25,7 +25,7 @@ The following procedure describes how to set up a FlowField.
   
 5.  In the **CalcFormula** property field, enter the calculation formula for the FlowField.  
   
-     For more information, see [Calculation Formulas and the CalcFormula Property](../dynamics-nav/Calculation-Formulas-and-the-CalcFormula-Property.md).  
+     For more information, see [Calculation Formulas and the CalcFormula Property](Calculation-Formulas-and-the-CalcFormula-Property.md).  
   
 6.  \(optional\) In the **Editable** field, select **No**.  
   

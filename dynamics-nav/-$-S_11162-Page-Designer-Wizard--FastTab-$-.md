@@ -19,7 +19,7 @@ Creates a FastTab control on a **Card** page.
   
 ## Page Designer Wizard Window, FastTab  
   
-|Controls|[!INCLUDE[bp_tabledescription](../dynamics-nav/includes/bp_tabledescription_md.md)]|  
+|Controls|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
 |**FastTab Name** list box|Specifies the FastTab control to create.|  
 |**Next** button|Moves to the next page. From the next page, you select the fields that you want on the FastTab.|  
@@ -27,4 +27,4 @@ Creates a FastTab control on a **Card** page.
   
 ## See Also  
  [How to: Add FastTabs to a Customer Card Page](../Topic/How%20to:%20Add%20FastTabs%20to%20a%20Customer%20Card%20Page.md)   
- [\($ S\_11150 Page Designer Wizard, Available Fields $\)](../dynamics-nav/-$-S_11150-Page-Designer-Wizard--Available-Fields-$-.md)
+ [\($ S\_11150 Page Designer Wizard, Available Fields $\)](-$-S_11150-Page-Designer-Wizard--Available-Fields-$-.md)

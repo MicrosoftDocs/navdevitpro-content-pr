@@ -11,13 +11,13 @@ caps.latest.revision: 15
 manager: terryaus
 ---
 # How to: Include Microsoft Dynamics Online Connect on Role Centers
-The RoleTailored client installation includes a control add\-in that you can use on Role Centers to connect to and display information from Microsoft Dynamics Online Connect. The information from Connect is based on the Role Center's profile. The Connect control add\-in is provided in the Microsoft.Dynamics.NAV.Client.DynamicsOnlineConnect.dll assembly file. By default, the assembly is installed on the computer running the RoleTailored client in the [!INCLUDE[navnow_install](../dynamics-nav/includes/navnow_install_md.md)]\\RoleTailored Client\\Add\-ins\\Connect folder. Setting up the control add\-in for Connect is similar to other control add\-ins. For more information, see [Installing and Configuring Windows Client Control Add\-ins on Pages](../dynamics-nav/Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md) and [Including Microsoft Dynamics Online Connect on Role Centers](../dynamics-nav/Including-Microsoft-Dynamics-Online-Connect-on-Role-Centers.md).  
+The RoleTailored client installation includes a control add\-in that you can use on Role Centers to connect to and display information from Microsoft Dynamics Online Connect. The information from Connect is based on the Role Center's profile. The Connect control add\-in is provided in the Microsoft.Dynamics.NAV.Client.DynamicsOnlineConnect.dll assembly file. By default, the assembly is installed on the computer running the RoleTailored client in the [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\RoleTailored Client\\Add\-ins\\Connect folder. Setting up the control add\-in for Connect is similar to other control add\-ins. For more information, see [Installing and Configuring Windows Client Control Add\-ins on Pages](Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md) and [Including Microsoft Dynamics Online Connect on Role Centers](Including-Microsoft-Dynamics-Online-Connect-on-Role-Centers.md).  
   
 > [!NOTE]  
->  If you make Connect available to users, then they will require Internet access to use the service. If you have not previously offered Internet access to users, then you should consider the security implications before implementing Connect. For more information, see [Microsoft Dynamics Online Connect](../dynamics-nav/Microsoft-Dynamics-Online-Connect.md).  
+>  If you make Connect available to users, then they will require Internet access to use the service. If you have not previously offered Internet access to users, then you should consider the security implications before implementing Connect. For more information, see [Microsoft Dynamics Online Connect](Microsoft-Dynamics-Online-Connect.md).  
   
 ## Setting up Connect with the Demo Database Installed  
- If you installed the [!INCLUDE[nav_current_short](../dynamics-nav/includes/nav_current_short_md.md)] demo database, then the Connect control add\-in is set up by default on several Role Centers that use the profiles that are supported by Connect. To see a list of the profiles and the associated Role Centers, see [Including Microsoft Dynamics Online Connect on Role Centers](../dynamics-nav/Including-Microsoft-Dynamics-Online-Connect-on-Role-Centers.md).  
+ If you installed the [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] demo database, then the Connect control add\-in is set up by default on several Role Centers that use the profiles that are supported by Connect. To see a list of the profiles and the associated Role Centers, see [Including Microsoft Dynamics Online Connect on Role Centers](Including-Microsoft-Dynamics-Online-Connect-on-Role-Centers.md).  
   
  The demo database contains the page **9175 Connect**, which hosts the Connect control add\-in. You use this page to set up Connect on your own Role Centers as described in the following procedure.  
   
@@ -37,7 +37,7 @@ The RoleTailored client installation includes a control add\-in that you can use
   
 #### To set up Connect on a Role Center without the demo database installed  
   
-1.  Register the Connect control add\-in in the Client add\-in table of the [!INCLUDE[nav_current_short](../dynamics-nav/includes/nav_current_short_md.md)] database. You must provide the following information:  
+1.  Register the Connect control add\-in in the Client add\-in table of the [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] database. You must provide the following information:  
   
     -   Control add\-in name \- Microsoft.Dynamics.NAV.MicrosoftDynamicsOnlineConnectControl  
   
@@ -61,5 +61,5 @@ The RoleTailored client installation includes a control add\-in that you can use
     >  You can also use a profile that is not supported by Connect. In this case, when the Role Center opens, the user is prompted to choose a supported profile.  
   
 ## See Also  
- [Including Microsoft Dynamics Online Connect on Role Centers](../dynamics-nav/Including-Microsoft-Dynamics-Online-Connect-on-Role-Centers.md)   
- [Installing and Configuring Windows Client Control Add\-ins on Pages](../dynamics-nav/Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)
+ [Including Microsoft Dynamics Online Connect on Role Centers](Including-Microsoft-Dynamics-Online-Connect-on-Role-Centers.md)   
+ [Installing and Configuring Windows Client Control Add\-ins on Pages](Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)

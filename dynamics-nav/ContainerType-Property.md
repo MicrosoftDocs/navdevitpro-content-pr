@@ -37,4 +37,4 @@ Sets the container type in Page Designer when you want to add one of the followi
  You can change **ContainerType** property in the **Properties** window for the Container control or from the **SubType** column in Page Designer.  
   
 ## See Also  
- [Properties](../dynamics-nav/Properties.md)
+ [Properties](Properties.md)

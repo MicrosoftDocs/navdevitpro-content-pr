@@ -29,15 +29,15 @@ Caption := Query.COLUMNCAPTION(Column)
  *Column*  
  Type: Text  
   
- Refers to the name of the query column. The name of a query column is specified by the [Name Property\-duplicate](../dynamics-nav/Name-Property-duplicate.md) of the column in Query Designer.  
+ Refers to the name of the query column. The name of a query column is specified by the [Name Property\-duplicate](Name-Property-duplicate.md) of the column in Query Designer.  
   
 ## Property Value\/Return Value  
  Type: Text  
   
- The current value of [CaptionML Property](../dynamics-nav/CaptionML-Property.md) for the query column.  
+ The current value of [CaptionML Property](CaptionML-Property.md) for the query column.  
   
 ## Remarks  
- The **CaptionML** property is multi\-language enabled, so it can contain a list of text strings in different languages. The string that is used is selected according to the user's language settings. For more information, see [Multilanguage Development](../dynamics-nav/Multilanguage-Development.md).  
+ The **CaptionML** property is multi\-language enabled, so it can contain a list of text strings in different languages. The string that is used is selected according to the user's language settings. For more information, see [Multilanguage Development](Multilanguage-Development.md).  
   
 ## Example  
  The following example shows how to get the caption for a column of a query. The query is called **My Customer Query** and has a column with the name **Customer\_No**.  

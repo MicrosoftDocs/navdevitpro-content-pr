@@ -10,7 +10,7 @@ ms.assetid: 5ccd436d-5938-4fe5-b35e-4f7a39f215e8
 caps.latest.revision: 7
 ---
 # UpgradeDatabase
-Upgrades an existing [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] database.  
+Upgrades an existing [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
 ## Syntax  
   
@@ -55,7 +55,7 @@ finsql.exe command=upgradedatabase, servername=<server>, database=<database>[, l
   
  If you specify the *username* parameter, then you must also specify the *password* parameter and the *ntauthentication* parameter must be **no**.  
   
- For more information about database users and permissions, see [Setting Database Owner and Security Administration Permissions](../dynamics-nav/Setting-Database-Owner-and-Security-Administration-Permissions.md).  
+ For more information about database users and permissions, see [Setting Database Owner and Security Administration Permissions](Setting-Database-Owner-and-Security-Administration-Permissions.md).  
   
  *password*  
   
@@ -66,10 +66,10 @@ finsql.exe command=upgradedatabase, servername=<server>, database=<database>[, l
  Specifies if you want to use NT authentication. The possible values are **yes**, **no**, **1**, or **0**. If you specify the *username* and *password* parameters, then you must specify **ntauthentication\=no** or **ntauthentication\=0**.  
   
 ## Remarks  
- You use the **UpgradeDatabase** command together with the finsql.exe executable when you want to convert a database from an earlier version of [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] to the new version. For example, if you are upgrading several databases, you can create scripts that help you repeat the steps. Finsql.exe is the executable file that runs the [!INCLUDE[nav_dev_long](../dynamics-nav/includes/nav_dev_long_md.md)]. By default, finsql.exe is located at [!INCLUDE[navnow_x86install](../dynamics-nav/includes/navnow_x86install_md.md)]RoleTailored Client\\.  
+ You use the **UpgradeDatabase** command together with the finsql.exe executable when you want to convert a database from an earlier version of [!INCLUDE[navnow](includes/navnow_md.md)] to the new version. For example, if you are upgrading several databases, you can create scripts that help you repeat the steps. Finsql.exe is the executable file that runs the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. By default, finsql.exe is located at [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]RoleTailored Client\\.  
   
 > [!IMPORTANT]  
->  The upgrade is not completed when you have run this command. You must compile all objects, and you must connect to a [!INCLUDE[nav_server](../dynamics-nav/includes/nav_server_md.md)] instance. For more information, see [Converting a Database](../dynamics-nav/Converting-a-Database.md).  
+>  The upgrade is not completed when you have run this command. You must compile all objects, and you must connect to a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. For more information, see [Converting a Database](Converting-a-Database.md).  
   
 ## Example  
  This example upgrades the *NAV Danish Database* database on the *TestComputer01\\NAVDEMO* SQL Server instance.  
@@ -79,19 +79,19 @@ finsql.exe command=upgradedatabase, servername=TestComputer01\NAVDEMO, database=
 ```  
   
 ## See Also  
- [Using the Development Environment from the Command Prompt](../dynamics-nav/Using-the-Development-Environment-from-the-Command-Prompt.md)   
- [Converting a Database](../dynamics-nav/Converting-a-Database.md)   
- [Microsoft Dynamics NAV Windows PowerShell Cmdlets](../dynamics-nav/Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   
- [Compiling Objects](../dynamics-nav/Compiling-Objects.md)   
- [BuildVirtualMetadata](../dynamics-nav/BuildVirtualMetadata.md)   
- [CreateDatabase](../dynamics-nav/CreateDatabase.md)   
- [UpgradeDatabase](../dynamics-nav/UpgradeDatabase.md)   
- [CreateLanguage](../dynamics-nav/CreateLanguage.md)   
- [CreateLanguage](../dynamics-nav/CreateLanguage.md)   
- [DesignObject](../dynamics-nav/DesignObject.md)   
- [ExportObjects](../dynamics-nav/ExportObjects.md)   
- [ImportObjects](../dynamics-nav/ImportObjects.md)   
- [ExportLangModule](../dynamics-nav/ExportLangModule.md)   
- [ImportLangModule](../dynamics-nav/ImportLangModule.md)   
- [ExportTranslate](../dynamics-nav/ExportTranslate.md)   
- [ImportTranslate](../dynamics-nav/ImportTranslate.md)
+ [Using the Development Environment from the Command Prompt](Using-the-Development-Environment-from-the-Command-Prompt.md)   
+ [Converting a Database](Converting-a-Database.md)   
+ [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   
+ [Compiling Objects](Compiling-Objects.md)   
+ [BuildVirtualMetadata](BuildVirtualMetadata.md)   
+ [CreateDatabase](CreateDatabase.md)   
+ [UpgradeDatabase](UpgradeDatabase.md)   
+ [CreateLanguage](CreateLanguage.md)   
+ [CreateLanguage](CreateLanguage.md)   
+ [DesignObject](DesignObject.md)   
+ [ExportObjects](ExportObjects.md)   
+ [ImportObjects](ImportObjects.md)   
+ [ExportLangModule](ExportLangModule.md)   
+ [ImportLangModule](ImportLangModule.md)   
+ [ExportTranslate](ExportTranslate.md)   
+ [ImportTranslate](ImportTranslate.md)

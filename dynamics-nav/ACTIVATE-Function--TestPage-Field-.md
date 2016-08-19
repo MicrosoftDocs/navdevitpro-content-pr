@@ -26,4 +26,4 @@ TestPage.ACTIVATE
  The test page variable that you use to refer to the test page.  
   
 ## See Also  
- [TestPage Field Functions](../dynamics-nav/TestPage-Field-Functions.md)
+ [TestPage Field Functions](TestPage-Field-Functions.md)

@@ -29,36 +29,36 @@ Page triggers allow you to use C\/AL code to control the behavior of the system 
   
 |Page trigger name|Executed|  
 |-----------------------|--------------|  
-|[OnInit Trigger](../dynamics-nav/OnInit-Trigger.md)|When the page is loaded, but before the controls are available.|  
-|[OnOpenPage Trigger](../dynamics-nav/OnOpenPage-Trigger.md)|When the page is initialized and the controls are available.|  
-|[OnClosePage Trigger](../dynamics-nav/OnClosePage-Trigger.md)|When the page about to close and after [OnQueryClosePage Trigger](../dynamics-nav/OnQueryClosePage-Trigger.md) trigger.|  
-|[OnFindRecord Trigger](../dynamics-nav/OnFindRecord-Trigger.md)|When the page is opened and a record is retrieved from a table.|  
-|[OnNextRecord Trigger](../dynamics-nav/OnNextRecord-Trigger.md)|When the page changes from displaying one record to another record in a table. For example, on a Customer card page, this happens when a user selects **Next** \(Ctrl\+Page Down\) or **Previous** \(Ctrl\+Page Up\).|  
-|[OnAfterGetCurrRecord Trigger](../dynamics-nav/OnAfterGetCurrRecord-Trigger.md)|After the current record is retrieved from the table.|  
-|[OnAfterGetRecord Trigger](../dynamics-nav/OnAfterGetRecord-Trigger.md)|When a record has been retrieved but not yet displayed.|  
-|[OnNewRecord Trigger](../dynamics-nav/OnNewRecord-Trigger.md)|When a new record has been initialized but not yet displayed.|  
-|[OnInsertRecord Trigger](../dynamics-nav/OnInsertRecord-Trigger.md)|When a new record is about to be inserted in the table.|  
-|[OnModifyRecord Trigger](../dynamics-nav/OnModifyRecord-Trigger.md)|When a record is about to be modified in the table.|  
-|[OnDeleteRecord Trigger](../dynamics-nav/OnDeleteRecord-Trigger.md)|When a record is about to be deleted from the table.|  
-|[OnQueryClosePage Trigger](../dynamics-nav/OnQueryClosePage-Trigger.md)|When the page is about to close, but before the [OnClosePage Trigger](../dynamics-nav/OnClosePage-Trigger.md).|  
+|[OnInit Trigger](OnInit-Trigger.md)|When the page is loaded, but before the controls are available.|  
+|[OnOpenPage Trigger](OnOpenPage-Trigger.md)|When the page is initialized and the controls are available.|  
+|[OnClosePage Trigger](OnClosePage-Trigger.md)|When the page about to close and after [OnQueryClosePage Trigger](OnQueryClosePage-Trigger.md) trigger.|  
+|[OnFindRecord Trigger](OnFindRecord-Trigger.md)|When the page is opened and a record is retrieved from a table.|  
+|[OnNextRecord Trigger](OnNextRecord-Trigger.md)|When the page changes from displaying one record to another record in a table. For example, on a Customer card page, this happens when a user selects **Next** \(Ctrl\+Page Down\) or **Previous** \(Ctrl\+Page Up\).|  
+|[OnAfterGetCurrRecord Trigger](OnAfterGetCurrRecord-Trigger.md)|After the current record is retrieved from the table.|  
+|[OnAfterGetRecord Trigger](OnAfterGetRecord-Trigger.md)|When a record has been retrieved but not yet displayed.|  
+|[OnNewRecord Trigger](OnNewRecord-Trigger.md)|When a new record has been initialized but not yet displayed.|  
+|[OnInsertRecord Trigger](OnInsertRecord-Trigger.md)|When a new record is about to be inserted in the table.|  
+|[OnModifyRecord Trigger](OnModifyRecord-Trigger.md)|When a record is about to be modified in the table.|  
+|[OnDeleteRecord Trigger](OnDeleteRecord-Trigger.md)|When a record is about to be deleted from the table.|  
+|[OnQueryClosePage Trigger](OnQueryClosePage-Trigger.md)|When the page is about to close, but before the [OnClosePage Trigger](OnClosePage-Trigger.md).|  
   
 ## Field Triggers  
  The following table describes the triggers that are available on field controls.  
   
 |Control trigger|Executed|  
 |---------------------|--------------|  
-|[OnValidate \(Page fields\) Trigger](../dynamics-nav/OnValidate--Page-fields--Trigger.md)|When the user changes the value in a field and then selects away from the field so that the field loses focus.|  
-|[OnLookup \(Page fields\) Trigger](../dynamics-nav/OnLookup--Page-fields--Trigger.md)|When the user requests a lookup by clicking a field's lookup button or pressing F4.|  
-|[OnDrillDown Trigger](../dynamics-nav/OnDrillDown-Trigger.md)|When the user requests a drill\-down by choosing the field's drill\-down button or pressing Shift\+F8.|  
-|[OnAssistEdit Trigger](../dynamics-nav/OnAssistEdit-Trigger.md)|When the user requests assist\-edit by choosing an AssistEdit button or by pressing Shift\+F4.|  
-|[OnControlAddin Trigger](../dynamics-nav/OnControlAddin-Trigger.md)|When a control add\-in is initiated on a page.|  
+|[OnValidate \(Page fields\) Trigger](OnValidate--Page-fields--Trigger.md)|When the user changes the value in a field and then selects away from the field so that the field loses focus.|  
+|[OnLookup \(Page fields\) Trigger](OnLookup--Page-fields--Trigger.md)|When the user requests a lookup by clicking a field's lookup button or pressing F4.|  
+|[OnDrillDown Trigger](OnDrillDown-Trigger.md)|When the user requests a drill\-down by choosing the field's drill\-down button or pressing Shift\+F8.|  
+|[OnAssistEdit Trigger](OnAssistEdit-Trigger.md)|When the user requests assist\-edit by choosing an AssistEdit button or by pressing Shift\+F4.|  
+|[OnControlAddin Trigger](OnControlAddin-Trigger.md)|When a control add\-in is initiated on a page.|  
   
 ## Action Triggers  
  The following table lists triggers that apply to actions on a page.  
   
 |Triggers|Executed|  
 |--------------|--------------|  
-|[OnAction Trigger](../dynamics-nav/OnAction-Trigger.md)|When an action is initiated on a page.|  
+|[OnAction Trigger](OnAction-Trigger.md)|When an action is initiated on a page.|  
   
 ## See Also  
- [Triggers](../dynamics-nav/Triggers.md)
+ [Triggers](Triggers.md)

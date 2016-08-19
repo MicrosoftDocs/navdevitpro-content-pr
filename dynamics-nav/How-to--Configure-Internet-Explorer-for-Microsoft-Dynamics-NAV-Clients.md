@@ -11,12 +11,12 @@ caps.latest.revision: 12
 manager: terryaus
 ---
 # How to: Configure Internet Explorer for Microsoft Dynamics NAV Clients
-To open the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], Internet Explorer must be configured to allow *JavaScript* and *cookies*. JavaScript is a programming language for making web pages interactive. Cookies are small files that are stored on your computer. Cookies contain small amounts of data that is specific to a website, or in this case, the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)].  
+To open the [!INCLUDE[nav_web](includes/nav_web_md.md)], Internet Explorer must be configured to allow *JavaScript* and *cookies*. JavaScript is a programming language for making web pages interactive. Cookies are small files that are stored on your computer. Cookies contain small amounts of data that is specific to a website, or in this case, the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
  This topic describes how to enable JavaScript and cookies in Internet Explorer. For other browsers, refer to the instructions provided by the manufacturer.  
   
 > [!NOTE]  
->  For a complete list of supported versions of Internet Explorer and other browsers, see [System Requirements for Microsoft Dynamics NAV 2016](../dynamics-nav/System-Requirements-for-Microsoft-Dynamics-NAV-2016.md).  
+>  For a complete list of supported versions of Internet Explorer and other browsers, see [System Requirements for Microsoft Dynamics NAV 2016](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md).  
   
 ### To enable JavaScript in Internet Explorer  
   
@@ -28,9 +28,9 @@ To open the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], Interne
   
 4.  In the **Select a zone to view or change security settings** box, choose **Internet** or **Local intranet**.  
   
-    -   Choose **Internet** if you are accessing [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] over the public Internet.  
+    -   Choose **Internet** if you are accessing [!INCLUDE[navnow](includes/navnow_md.md)] over the public Internet.  
   
-    -   Choose **Local intranet** if you are accessing [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] over a private network such as a business or corporate network.  
+    -   Choose **Local intranet** if you are accessing [!INCLUDE[navnow](includes/navnow_md.md)] over a private network such as a business or corporate network.  
   
 5.  Choose the **Custom Level** button.  
   
@@ -60,18 +60,18 @@ To open the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)], Interne
   
 6.  Under **First\-party Cookies**, choose **Accept**.  
   
-     This saves cookies from [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] on your computer.  
+     This saves cookies from [!INCLUDE[nav_web](includes/nav_web_md.md)] on your computer.  
   
-7.  Under **Third\-party Cookies**, choose one of the options. The [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] will operate correctly even if you choose **Block**. You should select the option that meets your security requirements.  
+7.  Under **Third\-party Cookies**, choose one of the options. The [!INCLUDE[nav_web](includes/nav_web_md.md)] will operate correctly even if you choose **Block**. You should select the option that meets your security requirements.  
   
     > [!NOTE]  
-    >  Third\-party cookies are cookies from websites other than [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)] sites.  
+    >  Third\-party cookies are cookies from websites other than [!INCLUDE[nav_web](includes/nav_web_md.md)] sites.  
   
 8.  Choose the **OK** button.  
   
 9. Refresh the browser.  
   
 ## See Also  
- [System Requirements for Microsoft Dynamics NAV 2016](../dynamics-nav/System-Requirements-for-Microsoft-Dynamics-NAV-2016.md)   
- [Microsoft Dynamics NAV Web Client](../dynamics-nav/Microsoft-Dynamics-NAV-Web-Client.md)   
+ [System Requirements for Microsoft Dynamics NAV 2016](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md)   
+ [Microsoft Dynamics NAV Web Client](Microsoft-Dynamics-NAV-Web-Client.md)   
  [How to: Configure Mozilla Firefox for Microsoft Dynamics NAV Clients](../Topic/How%20to:%20Configure%20Mozilla%20Firefox%20for%20Microsoft%20Dynamics%20NAV%20Clients.md)

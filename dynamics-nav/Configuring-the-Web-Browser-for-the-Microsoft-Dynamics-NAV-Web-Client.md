@@ -11,7 +11,7 @@ caps.latest.revision: 6
 manager: terryaus
 ---
 # Configuring the Web Browser for the Microsoft Dynamics NAV Web Client
-There are several different web browsers that you can use to open the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]. No matter which browser you use, it must be enabled with *cookies* and *JavaScript*. Cookies are small files that are stored on your computer and contain information about the [!INCLUDE[nav_web](../dynamics-nav/includes/nav_web_md.md)]. JavaScript is a programming language for making web pages interactive.  
+There are several different web browsers that you can use to open the [!INCLUDE[nav_web](includes/nav_web_md.md)]. No matter which browser you use, it must be enabled with *cookies* and *JavaScript*. Cookies are small files that are stored on your computer and contain information about the [!INCLUDE[nav_web](includes/nav_web_md.md)]. JavaScript is a programming language for making web pages interactive.  
   
  For information about how to enable cookies and JavaScript on your browser, see the following table.  
   
@@ -22,4 +22,4 @@ There are several different web browsers that you can use to open the [!INCLUDE[
 |Google Chrome|[Managing cookies](http://go.microsoft.com/fwlink/?LinkID=262171)<br /><br /> [Adjust JavaScript](http://go.microsoft.com/fwlink/?LinkID=262172)|  
 |Safari|[Manage cookies](http://go.microsoft.com/fwlink/?LinkID=262173)<br /><br /> [Enabling JavaScript](http://go.microsoft.com/fwlink/?LinkID=262174)|  
   
- For a complete list of supported web browsers and versions, see [System Requirements for Microsoft Dynamics NAV 2016](../dynamics-nav/System-Requirements-for-Microsoft-Dynamics-NAV-2016.md).
+ For a complete list of supported web browsers and versions, see [System Requirements for Microsoft Dynamics NAV 2016](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md).

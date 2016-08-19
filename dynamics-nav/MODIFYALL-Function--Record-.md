@@ -39,12 +39,12 @@ Record.MODIFYALL(Field, NewValue [, RunTrigger])
  *RunTrigger*  
  Type: Boolean  
   
- If this parameter is **true**, the code in the [OnModify Trigger](../dynamics-nav/OnModify-Trigger.md) is executed. If this parameter is **false** \(default\), the code in the **OnModify** trigger is not executed.  
+ If this parameter is **true**, the code in the [OnModify Trigger](OnModify-Trigger.md) is executed. If this parameter is **false** \(default\), the code in the **OnModify** trigger is not executed.  
   
 ## Remarks  
  If no filter is set, the field is modified in all records in the table. If a filter is set, the fields are modified only in the records which fall within the range specified by the filter.  
   
- The [OnValidate \(Fields\) Trigger](../dynamics-nav/OnValidate--Fields--Trigger.md) is never executed when MODIFYALL is used.  
+ The [OnValidate \(Fields\) Trigger](OnValidate--Fields--Trigger.md) is never executed when MODIFYALL is used.  
   
 ## Example  
  This example requires that you create the following variable in the C\/AL Globals window.  
@@ -65,5 +65,5 @@ IF CustomerRec.FIND('-') THEN
 ```  
   
 ## See Also  
- [MODIFY Function \(Record\)](../dynamics-nav/MODIFY-Function--Record-.md)   
- [Record Data Type](../dynamics-nav/Record-Data-Type.md)
+ [MODIFY Function \(Record\)](MODIFY-Function--Record-.md)   
+ [Record Data Type](Record-Data-Type.md)

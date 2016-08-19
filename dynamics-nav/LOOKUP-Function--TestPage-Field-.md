@@ -31,4 +31,4 @@ TestPage.Field.LOOKUP
  The field that you want to provide a lookup window for.  
   
 ## See Also  
- [TestPage Field Functions](../dynamics-nav/TestPage-Field-Functions.md)
+ [TestPage Field Functions](TestPage-Field-Functions.md)

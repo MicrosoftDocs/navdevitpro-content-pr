@@ -12,8 +12,8 @@ caps.latest.revision: 10
 # Application Design Overview
 Carefully planning the details of your database application will help to ensure that your database has the best possible design. An application that has been correctly designed is easier to build and maintain. This section contains guidelines for creating applications by using the methods of analysis, design, and implementation.  
   
-## Steps in Designing a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] Application  
- Designing a [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] application usually includes the following steps:  
+## Steps in Designing a [!INCLUDE[navnow](includes/navnow_md.md)] Application  
+ Designing a [!INCLUDE[navnow](includes/navnow_md.md)] application usually includes the following steps:  
   
 1.  Understanding the problem.  
   
@@ -45,16 +45,16 @@ Carefully planning the details of your database application will help to ensure 
   
 -   [Data Integrity \(SQL Server\)](http://go.microsoft.com/fwlink/?LinkId=240057)  
   
--   [Table Keys](../dynamics-nav/Table-Keys.md)  
+-   [Table Keys](Table-Keys.md)  
   
--   [Field Data Types](../dynamics-nav/Field-Data-Types.md)  
+-   [Field Data Types](Field-Data-Types.md)  
   
--   [Triggers Overview](../dynamics-nav/Triggers-Overview.md)  
+-   [Triggers Overview](Triggers-Overview.md)  
   
 ### Designing the Application  
  After you have a design for your database, you can begin to design the application itself. Designing the application involves:  
   
--   Creating table objects in [!INCLUDE[navnow](../dynamics-nav/includes/navnow_md.md)] to implement the design of your database.  
+-   Creating table objects in [!INCLUDE[navnow](includes/navnow_md.md)] to implement the design of your database.  
   
 -   Designing pages for entering and retrieving data, and reports for viewing and presenting data.  
   
@@ -64,15 +64,15 @@ Carefully planning the details of your database application will help to ensure 
   
  For more information about how to design your application, see the following topics:  
   
--   [Designing Application Objects](../dynamics-nav/Designing-Application-Objects.md)  
+-   [Designing Application Objects](Designing-Application-Objects.md)  
   
--   [Programming in C\-AL](../dynamics-nav/Programming-in-C-AL.md)  
+-   [Programming in C\-AL](Programming-in-C-AL.md)  
   
--   [Objects](../dynamics-nav/Objects.md)  
+-   [Objects](Objects.md)  
   
--   [Web Services](../dynamics-nav/Web-Services.md)  
+-   [Web Services](Web-Services.md)  
   
--   [Extending Microsoft Dynamics NAV](../dynamics-nav/Extending-Microsoft-Dynamics-NAV.md)  
+-   [Extending Microsoft Dynamics NAV](Extending-Microsoft-Dynamics-NAV.md)  
   
 ## See Also  
- [Development](../dynamics-nav/Development.md)
+ [Development](Development.md)

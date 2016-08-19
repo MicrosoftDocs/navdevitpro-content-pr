@@ -11,10 +11,10 @@ caps.latest.revision: 16
 manager: terryaus
 ---
 # Installation and Configuration Walkthroughs
-The walkthrough topics in this section present the various procedures that administrators or Microsoft Certified Partners would have to perform to successfully install the three tiers in the [!INCLUDE[navnowlong](../dynamics-nav/includes/navnowlong_md.md)] Product Architecture.  
+The walkthrough topics in this section present the various procedures that administrators or Microsoft Certified Partners would have to perform to successfully install the three tiers in the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Product Architecture.  
   
 > [!NOTE]  
->  For assistance with setting up companies after installing and configuring [!INCLUDE[nav_current_short](../dynamics-nav/includes/nav_current_short_md.md)] software, see [Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](../Topic/Set%20Up%20a%20Company%20With%20RapidStart%20Services%20for%20Microsoft%20Dynamics%20NAV.md).  
+>  For assistance with setting up companies after installing and configuring [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] software, see [Set Up a Company With RapidStart Services for Microsoft Dynamics NAV](../Topic/Set%20Up%20a%20Company%20With%20RapidStart%20Services%20for%20Microsoft%20Dynamics%20NAV.md).  
   
 ## In This Section  
  [Walkthrough: Installing the Demo Version](../Topic/Walkthrough:%20Installing%20the%20Demo%20Version.md)  
@@ -36,7 +36,7 @@ The walkthrough topics in this section present the various procedures that admin
  [Walkthrough: Setting Up Outlook Synchronization](../Topic/Walkthrough:%20Setting%20Up%20Outlook%20Synchronization.md)  
   
 ## See Also  
- [Product and Architecture Overview](../dynamics-nav/Product-and-Architecture-Overview.md)   
+ [Product and Architecture Overview](Product-and-Architecture-Overview.md)   
  [How to: Run Setup](../Topic/How%20to:%20Run%20Setup.md)   
  [How to: Choose Components to Install](../Topic/How%20to:%20Choose%20Components%20to%20Install.md)   
  [How to: Preconfigure Components](../Topic/How%20to:%20Preconfigure%20Components.md)

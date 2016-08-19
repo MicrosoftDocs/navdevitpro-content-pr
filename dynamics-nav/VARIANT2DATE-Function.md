@@ -45,6 +45,6 @@ TestDate := VARIANT2DATE(variant1);
 ```  
   
 ## See Also  
- [Variant Data Type](../dynamics-nav/Variant-Data-Type.md)   
- [Date and Time Functions](../dynamics-nav/Date-and-Time-Functions.md)   
- [Using COM Technologies in Microsoft Dynamics NAV](../dynamics-nav/Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md)
+ [Variant Data Type](Variant-Data-Type.md)   
+ [Date and Time Functions](Date-and-Time-Functions.md)   
+ [Using COM Technologies in Microsoft Dynamics NAV](Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md)
