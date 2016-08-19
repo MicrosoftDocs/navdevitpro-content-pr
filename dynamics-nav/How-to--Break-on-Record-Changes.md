@@ -1,0 +1,38 @@
+---
+title: "How to: Break on Record Changes"
+ms.custom: na
+ms.date: 06/05/2016
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: article
+ms.assetid: 4a443cec-f31c-4c74-a9e5-5be8d6ca9cc0
+caps.latest.revision: 7
+manager: terryaus
+---
+# How to: Break on Record Changes
+You can specify if the debugger breaks on record changes. If the debugger is set to break on record changes, then it breaks before creating, modifying, or deleting a record. The following table shows each record change and the C\/AL functions that cause each change.  
+  
+|Record change|C\/AL functions|  
+|-------------------|---------------------|  
+|Create a new record|[INSERT Function \(Record\)](INSERT-Function--Record-.md)|  
+|Update an existing record|[MODIFY Function \(Record\)](MODIFY-Function--Record-.md), [MODIFYALL Function \(Record\)](MODIFYALL-Function--Record-.md), [RENAME Function \(Record\)](RENAME-Function--Record-.md)|  
+|Delete an existing record|[DELETE Function \(Record\)](DELETE-Function--Record-.md), [DELETEALL Function \(Record\)](DELETEALL-Function--Record-.md)|  
+  
+ By default, the debugger is not set to break on record changes.  
+  
+ For more information about how to open the **Debugger** window, see [Activating the Debugger](Activating-the-Debugger.md).  
+  
+### To break on record changes  
+  
+1.  In the **Debugger** window, on the **Home** tab, in the **Breakpoints** group, choose **Break Rules**.  
+  
+2.  In the **Debugger Break Rules** window, select the **Break On Record Changes** check box, and then choose the **OK** button.  
+  
+## See Also  
+ [How to: Manage Breakpoints from the Development Environment](../Topic/How%20to:%20Manage%20Breakpoints%20from%20the%20Development%20Environment.md)   
+ [How to: Manage Breakpoints from the Debugger Breakpoint List](../Topic/How%20to:%20Manage%20Breakpoints%20from%20the%20Debugger%20Breakpoint%20List.md)   
+ [How to: Break on the Next Statement](../Topic/How%20to:%20Break%20on%20the%20Next%20Statement.md)   
+ [How to: Break on Errors](../Topic/How%20to:%20Break%20on%20Errors.md)   
+ [How to: Set Conditional Breakpoints](../Topic/How%20to:%20Set%20Conditional%20Breakpoints.md)   
+ [Breakpoints](Breakpoints.md)

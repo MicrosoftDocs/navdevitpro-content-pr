@@ -1,0 +1,27 @@
+---
+translation.priority.ht: 
+  - da-dk
+  - de-at
+  - de-ch
+  - de-de
+  - en-au
+  - en-ca
+  - en-gb
+  - en-nz
+  - es-es
+  - es-mx
+  - fi-fi
+  - fr-be
+  - fr-ca
+  - fr-ch
+  - fr-fr
+  - is-is
+  - it-ch
+  - it-it
+  - nb-no
+  - nl-be
+  - nl-nl
+  - ru-ru
+  - sv-se
+---
+Microsoft Dynamics CRM
