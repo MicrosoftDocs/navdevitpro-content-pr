@@ -1,8 +1,8 @@
 # navdevitpro-content-pr
 
-Welcome to the repository for the preliminary devitpro content for on-prem &amp; PaaS.
+Welcome to the repository for the developer and itpro content for on-prem &amp; PaaS.
 
-All articles are stored as Markdown files (.md type) in the **articles** folder.
+All articles are stored as Markdown files (.md type) in the **dynamics-nav** folder. they publish to MSDN staging here: https://msdnstage.redmond.corp.microsoft.com/en-us/dynamics-nav/how-to--publish-and-install-an-extension?branch=master. 
 
 ======================================
 ## Getting started with GitHub
@@ -52,22 +52,21 @@ If you want to work locally, you can edit using any text editor. Just save the f
 - [Atom](https://atom.io/) (this has spell check and is good for managing many files)
 
 ### Properties
-Each topic must contain a properties element and a tags element at the top of the file with the following information:
+Each topic must contain YAML section at the top of the file with the following information:
 ```
-<properties
-           pageTitle="My topic for Dynamics NAV| Dynamics NAV"
-           description="My topic talks about stuff"
-           services=" "
-           documentationCenter=""
-           authors="MyGitHubAccount"/>
-<tags
-    ms.prod="dynamics-nav-2017"
-    ms.topic="article"
-    ms.devlang="na"
-    ms.tgt_pltfrm="na"
-    ms.workload="na"
-    ms.date="06/01/2016"
-    ms.author="MyGitHubAccount" />
+---
+title: "A Topic"
+ms.custom: na
+ms.date: 08/19/2016
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: article
+ms-prod: "dynamics-nav-2017"
+ms.assetid: 143a477f-63a9-4a95-b6b0-b4b4dfec5a61
+caps.latest.revision: 9
+manager: edupont
+---
 ```
 
 ### Headings
