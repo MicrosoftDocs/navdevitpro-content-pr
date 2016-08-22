@@ -1,12 +1,12 @@
 ---
-title:"CreateLanguage"
+title: "CreateLanguage"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 24e1ba11-dc05-4aab-8609-8bb3f963a471
 caps.latest.revision: 5
 manager: edupont

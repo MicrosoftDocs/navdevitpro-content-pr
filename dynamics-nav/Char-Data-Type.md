@@ -1,12 +1,12 @@
 ---
-title:"Char Data Type"
+title: "Char Data Type"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 93ea32a8-8019-4b75-be2c-fae30d9e9d21
 caps.latest.revision: 18
 manager: edupont

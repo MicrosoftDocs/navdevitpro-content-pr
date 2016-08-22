@@ -1,12 +1,12 @@
 ---
-title:"How to: Configure ADCS Options"
+title: "How to: Configure ADCS Options"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 8e1e399e-a538-4438-bca4-06c5b7090e38
 caps.latest.revision: 24
 manager: edupont

@@ -1,12 +1,12 @@
 ---
-title:"ShowFilter Property"
+title: "ShowFilter Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 09cc7138-fbdf-45fe-9cef-3d2e0c95311b
 caps.latest.revision: 7
 manager: edupont

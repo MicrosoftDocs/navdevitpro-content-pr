@@ -1,12 +1,12 @@
 ---
-title:"How to: Set Up a Windows Client Control Add-in on a Page"
+title: "How to: Set Up a Windows Client Control Add-in on a Page"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 8113aa5f-6d1c-4a14-a486-f6691c6f6c36
 caps.latest.revision: 21
 manager: edupont

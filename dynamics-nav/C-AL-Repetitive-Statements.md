@@ -1,12 +1,12 @@
 ---
-title:"C-AL Repetitive Statements"
+title: "C-AL Repetitive Statements"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 3e3378be-bfe7-4371-9468-d6a028d5eded
 caps.latest.revision: 16
 manager: edupont

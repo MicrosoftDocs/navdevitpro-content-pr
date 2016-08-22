@@ -1,12 +1,12 @@
 ---
-title:"Altering Databases - Integration Tab"
+title: "Altering Databases - Integration Tab"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 97f21877-f8b1-4d61-ac6c-89be487cb489
 caps.latest.revision: 10
 manager: edupont

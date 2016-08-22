@@ -1,12 +1,12 @@
 ﻿---
-title:"What&#39;s New: Developer and IT Pro Changes for Microsoft Dynamics NAV"
+title: "What&#39;s New: Developer and IT Pro Changes for Microsoft Dynamics NAV"
 ms.custom: na
 ms.date: 07/20/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 823f9666-1de0-49f7-a630-01d0b82e6918
 caps.latest.revision: 282
 manager: edupont

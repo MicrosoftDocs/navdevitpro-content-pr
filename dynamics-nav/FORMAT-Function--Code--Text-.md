@@ -1,12 +1,12 @@
 ---
-title:"FORMAT Function (Code, Text)"
+title: "FORMAT Function (Code, Text)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: c5a1cb50-f089-43c9-808f-4a8653d32a14
 caps.latest.revision: 14
 manager: edupont

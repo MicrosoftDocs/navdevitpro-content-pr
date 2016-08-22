@@ -1,12 +1,12 @@
 ---
-title:"How to: Use OData to Return-Obtain an AtomPub Document"
+title: "How to: Use OData to Return-Obtain an AtomPub Document"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 291c3d3e-1140-48b5-81f6-96a84f3885cb
 caps.latest.revision: 21
 manager: edupont

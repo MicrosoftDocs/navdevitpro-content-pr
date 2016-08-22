@@ -1,12 +1,12 @@
 ---
-title:"How to: Export Your Solution to a Database Backup File"
+title: "How to: Export Your Solution to a Database Backup File"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 114102cd-157c-40a6-81ec-230ddea38210
 caps.latest.revision: 7
 manager: tsiggaar

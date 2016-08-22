@@ -1,12 +1,12 @@
 ---
-title:"How to: Implement Security Certificates in a Production Environment"
+title: "How to: Implement Security Certificates in a Production Environment"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 2a8f08ba-1555-4656-be65-7ce9dc9e5311
 caps.latest.revision: 23
 manager: edupont

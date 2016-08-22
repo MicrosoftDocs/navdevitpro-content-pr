@@ -1,12 +1,12 @@
 ---
-title:"($ S_2151 Namespaces $)"
+title: "($ S_2151 Namespaces $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: f18c2b4f-cb15-4ca6-b6af-ba91f71fb47a
 caps.latest.revision: 6
 manager: edupont

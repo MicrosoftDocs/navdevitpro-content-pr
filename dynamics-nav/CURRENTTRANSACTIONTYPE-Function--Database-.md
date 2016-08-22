@@ -1,12 +1,12 @@
 ---
-title:"CURRENTTRANSACTIONTYPE Function (Database)"
+title: "CURRENTTRANSACTIONTYPE Function (Database)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 40835671-b653-4865-8bcc-75090a4fd535
 caps.latest.revision: 8
 manager: edupont

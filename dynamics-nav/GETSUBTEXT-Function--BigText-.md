@@ -1,12 +1,12 @@
 ---
-title:"GETSUBTEXT Function (BigText)"
+title: "GETSUBTEXT Function (BigText)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 4859d1f5-694a-400b-8831-29b38eb1ed20
 caps.latest.revision: 23
 ---

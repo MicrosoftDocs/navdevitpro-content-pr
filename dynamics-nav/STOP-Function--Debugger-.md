@@ -1,12 +1,12 @@
 ---
-title:"STOP Function (Debugger)"
+title: "STOP Function (Debugger)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 1e7dad68-bd57-4952-a36d-ed6eabec093b
 caps.latest.revision: 4
 manager: edupont

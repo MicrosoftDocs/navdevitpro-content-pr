@@ -1,12 +1,12 @@
 ---
-title:"Editable Property-duplicate"
+title: "Editable Property-duplicate"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 10e8a6db-079f-4ac1-b589-245b1ad43196
 caps.latest.revision: 18
 manager: edupont

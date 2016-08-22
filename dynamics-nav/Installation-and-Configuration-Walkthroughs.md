@@ -1,12 +1,12 @@
 ---
-title:"Installation and Configuration Walkthroughs"
+title: "Installation and Configuration Walkthroughs"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 176e0f8c-5346-44d5-a0cf-bf3f8cf62e04
 caps.latest.revision: 16
 manager: edupont

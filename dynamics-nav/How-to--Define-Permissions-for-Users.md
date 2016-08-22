@@ -1,12 +1,12 @@
 ---
-title:"How to: Define Permissions for Users"
+title: "How to: Define Permissions for Users"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: a8018367-db1d-45fd-b086-0b8fe714b709
 caps.latest.revision: 22
 ---

@@ -1,12 +1,12 @@
 ---
-title:"Window Overviews"
+title: "Window Overviews"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: eff9fd95-59dc-463e-b4f5-51be7055013c
 caps.latest.revision: 2
 manager: edupont

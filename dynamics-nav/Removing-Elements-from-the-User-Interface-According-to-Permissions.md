@@ -1,12 +1,12 @@
 ---
-title:"Removing Elements from the User Interface According to Permissions"
+title: "Removing Elements from the User Interface According to Permissions"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 1104b836-a557-47ee-a6c6-4c19d3469fcc
 caps.latest.revision: 11
 ---

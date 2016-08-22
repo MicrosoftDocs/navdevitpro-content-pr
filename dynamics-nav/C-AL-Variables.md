@@ -1,12 +1,12 @@
 ---
-title:"C-AL Variables"
+title: "C-AL Variables"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: ccfdc996-006b-464b-a5e2-db14dd9dad5c
 caps.latest.revision: 22
 manager: edupont

@@ -1,12 +1,12 @@
 ---
-title:"Upgrading Reports from Earlier Versions"
+title: "Upgrading Reports from Earlier Versions"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 79a0cbce-3147-4992-a062-18a98e0257f7
 caps.latest.revision: 32
 manager: edupont

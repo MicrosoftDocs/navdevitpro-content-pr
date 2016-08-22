@@ -1,12 +1,12 @@
 ---
-title:"How to: Delete Companies"
+title: "How to: Delete Companies"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: a5292b5b-7eb4-4f98-9f0e-7dd6a0492ad1
 caps.latest.revision: 9
 manager: edupont

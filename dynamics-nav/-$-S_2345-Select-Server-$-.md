@@ -1,12 +1,12 @@
 ---
-title:"($ S_2345 Select Server $)"
+title: "($ S_2345 Select Server $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: da71ebfa-156a-437d-948f-44d6a05a5104
 caps.latest.revision: 6
 manager: edupont

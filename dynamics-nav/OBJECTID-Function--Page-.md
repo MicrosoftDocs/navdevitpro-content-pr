@@ -1,12 +1,12 @@
 ---
-title:"OBJECTID Function (Page)"
+title: "OBJECTID Function (Page)"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: d4505771-1e2f-4190-8980-2cebb173b2fc
 caps.latest.revision: 6
 manager: edupont

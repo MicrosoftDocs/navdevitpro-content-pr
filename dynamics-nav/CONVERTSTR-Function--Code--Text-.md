@@ -1,12 +1,12 @@
 ---
-title:"CONVERTSTR Function (Code, Text)"
+title: "CONVERTSTR Function (Code, Text)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 1d69a7d9-d448-4ed5-b8b6-a844305bfca4
 caps.latest.revision: 10
 manager: edupont

@@ -1,12 +1,12 @@
 ---
-title:"FlowFields"
+title: "FlowFields"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 990a4cbc-d545-4568-aff8-30e7833edd59
 caps.latest.revision: 13
 manager: edupont

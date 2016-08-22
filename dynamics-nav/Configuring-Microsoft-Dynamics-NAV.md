@@ -1,12 +1,12 @@
 ---
-title:"Configuring Microsoft Dynamics NAV"
+title: "Configuring Microsoft Dynamics NAV"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 2d14319c-56df-436d-af71-33bb914950c1
 caps.latest.revision: 29
 manager: edupont

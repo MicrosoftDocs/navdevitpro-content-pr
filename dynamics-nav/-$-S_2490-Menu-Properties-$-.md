@@ -1,12 +1,12 @@
 ---
-title:"($ S_2490 Menu Properties $)"
+title: "($ S_2490 Menu Properties $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 5e0d5fb4-d559-4cfe-86da-a4d34067349a
 caps.latest.revision: 9
 manager: edupont

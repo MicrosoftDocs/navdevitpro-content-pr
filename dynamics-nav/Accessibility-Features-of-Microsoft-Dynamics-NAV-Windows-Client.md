@@ -1,12 +1,12 @@
 ---
-title:"Accessibility Features of Microsoft Dynamics NAV Windows Client"
+title: "Accessibility Features of Microsoft Dynamics NAV Windows Client"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 6458a4a7-c713-4c76-b33e-06160e8bb73d
 caps.latest.revision: 6
 manager: edupont

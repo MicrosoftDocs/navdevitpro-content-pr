@@ -1,12 +1,12 @@
 ---
-title:"CANLOADTYPE Function"
+title: "CANLOADTYPE Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 9b8a593c-0a96-4e09-97c6-00cb4311dbe6
 caps.latest.revision: 2
 ---

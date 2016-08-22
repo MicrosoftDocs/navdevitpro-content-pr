@@ -1,12 +1,12 @@
 ---
-title:"SAVEASEXCEL Function (TestRequestPage)"
+title: "SAVEASEXCEL Function (TestRequestPage)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 817a0e1e-8b69-4bd8-894a-2a26f11d28aa
 caps.latest.revision: 10
 manager: edupont

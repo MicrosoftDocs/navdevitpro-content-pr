@@ -1,12 +1,12 @@
 ---
-title:"Test Pages"
+title: "Test Pages"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 171287a7-a5e4-46f1-93a6-e0383fbc770e
 caps.latest.revision: 3
 manager: edupont

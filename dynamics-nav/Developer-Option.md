@@ -1,12 +1,12 @@
 ---
-title:"Developer Option"
+title: "Developer Option"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 05cf46d7-5fe6-4cb6-929b-72f0a32db1f2
 caps.latest.revision: 21
 ---

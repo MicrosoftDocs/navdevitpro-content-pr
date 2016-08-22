@@ -1,12 +1,12 @@
 ---
-title:"ISBOOLEAN Function (Variant)"
+title: "ISBOOLEAN Function (Variant)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 62258e4d-504d-436e-88c3-d9fe4a788b03
 caps.latest.revision: 9
 manager: edupont

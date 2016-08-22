@@ -1,12 +1,12 @@
 ---
-title:"RENAME Function (RecordRef)"
+title: "RENAME Function (RecordRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 783136a0-01d1-4750-848b-593b1c34e71e
 caps.latest.revision: 7
 manager: edupont

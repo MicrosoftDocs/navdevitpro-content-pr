@@ -1,12 +1,12 @@
 ---
-title:"How to: Arrange Fields in Rows and Columns Using the GridLayout Control"
+title: "How to: Arrange Fields in Rows and Columns Using the GridLayout Control"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: b094eaa8-73a7-43f1-aaa2-a2735f1ddd09
 caps.latest.revision: 35
 manager: edupont

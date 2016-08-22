@@ -1,12 +1,12 @@
 ---
-title:"Handling Events with Microsoft .NET Framework Interoperability"
+title: "Handling Events with Microsoft .NET Framework Interoperability"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 3e1a62d7-124f-4acc-9c31-f48fe333c6e0
 caps.latest.revision: 11
 manager: edupont

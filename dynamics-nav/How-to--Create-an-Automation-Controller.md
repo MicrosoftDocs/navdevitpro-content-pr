@@ -1,12 +1,12 @@
 ---
-title:"How to: Create an Automation Controller"
+title: "How to: Create an Automation Controller"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: cc53dd13-0c5d-4cea-8b1a-4e32c3188648
 caps.latest.revision: 18
 manager: edupont

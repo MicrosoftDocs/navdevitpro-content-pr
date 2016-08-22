@@ -1,12 +1,12 @@
 ---
-title:"Objects"
+title: "Objects"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: ca02d0e9-cce8-4f3a-8eba-0ea38a5dee52
 caps.latest.revision: 13
 ---

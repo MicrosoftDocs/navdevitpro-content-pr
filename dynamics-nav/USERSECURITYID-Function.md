@@ -1,12 +1,12 @@
 ---
-title:"USERSECURITYID Function"
+title: "USERSECURITYID Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 563f1dd2-17b5-476d-aa96-24a949594d3c
 caps.latest.revision: 2
 manager: edupont

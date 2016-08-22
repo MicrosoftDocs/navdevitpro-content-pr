@@ -1,12 +1,12 @@
 ---
-title:"OptionString Property"
+title: "OptionString Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: c77a75d8-8bff-42fd-8b1a-4eaf745be70f
 caps.latest.revision: 10
 manager: edupont

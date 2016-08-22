@@ -1,12 +1,12 @@
 ---
-title:"Preparing for Deploying Microsoft Dynamics NAV on Microsoft Azure"
+title: "Preparing for Deploying Microsoft Dynamics NAV on Microsoft Azure"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 71c910f8-2b3c-4dca-961a-832a5a8b60a3
 caps.latest.revision: 28
 manager: tsiggaar

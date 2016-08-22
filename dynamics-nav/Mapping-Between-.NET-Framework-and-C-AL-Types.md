@@ -1,12 +1,12 @@
 ---
-title:"Mapping Between .NET Framework and C-AL Types"
+title: "Mapping Between .NET Framework and C-AL Types"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 1e5577ea-9730-46d2-b828-5e35135d9a52
 caps.latest.revision: 18
 manager: edupont

@@ -1,12 +1,12 @@
 ---
-title:"How to: Create Queries"
+title: "How to: Create Queries"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: c9c64bd7-d950-4a5d-bfd3-f25f97adb5fb
 caps.latest.revision: 21
 manager: edupont

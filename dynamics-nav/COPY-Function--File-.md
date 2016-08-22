@@ -1,12 +1,12 @@
 ---
-title:"COPY Function (File)"
+title: "COPY Function (File)"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 8116f838-de15-44f0-a1e7-9292c6a7c4f6
 caps.latest.revision: 15
 manager: edupont

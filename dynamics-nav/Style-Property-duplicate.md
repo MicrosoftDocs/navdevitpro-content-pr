@@ -1,12 +1,12 @@
 ---
-title:"Style Property-duplicate"
+title: "Style Property-duplicate"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 3ac73e26-7723-46b1-aa15-fd578aa4b56f
 caps.latest.revision: 26
 manager: edupont

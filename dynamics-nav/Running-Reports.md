@@ -1,12 +1,12 @@
 ---
-title:"Running Reports"
+title: "Running Reports"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: c12c52a8-d4a8-4749-beb2-00229f98adfb
 caps.latest.revision: 4
 manager: edupont

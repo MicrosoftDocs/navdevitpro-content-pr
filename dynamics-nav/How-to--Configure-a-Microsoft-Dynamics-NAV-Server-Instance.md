@@ -1,12 +1,12 @@
 ---
-title:"How to: Configure a Microsoft Dynamics NAV Server Instance"
+title: "How to: Configure a Microsoft Dynamics NAV Server Instance"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: d123749a-9ff0-4963-b88e-39fd37466142
 caps.latest.revision: 4
 manager: edupont

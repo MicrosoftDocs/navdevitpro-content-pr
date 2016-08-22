@@ -1,12 +1,12 @@
 ---
-title:"($ S_2354 License Information $)"
+title: "($ S_2354 License Information $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: ee25a540-338d-483a-9a54-cf9e2dc32db9
 caps.latest.revision: 12
 manager: edupont

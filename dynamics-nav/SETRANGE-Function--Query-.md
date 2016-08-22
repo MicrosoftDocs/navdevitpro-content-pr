@@ -1,12 +1,12 @@
 ---
-title:"SETRANGE Function (Query)"
+title: "SETRANGE Function (Query)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 5699fdbe-9216-436b-ae2d-0628f788a48e
 caps.latest.revision: 12
 manager: edupont

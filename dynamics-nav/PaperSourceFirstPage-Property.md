@@ -1,12 +1,12 @@
 ---
-title:"PaperSourceFirstPage Property"
+title: "PaperSourceFirstPage Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: c927f9e3-e6ef-4046-b0d8-7d38e67a50be
 caps.latest.revision: 13
 manager: edupont

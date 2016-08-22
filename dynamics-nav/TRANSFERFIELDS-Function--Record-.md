@@ -1,12 +1,12 @@
 ---
-title:"TRANSFERFIELDS Function (Record)"
+title: "TRANSFERFIELDS Function (Record)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: cf8ea256-0b4a-4b1a-9570-3c8a47ee9ef4
 caps.latest.revision: 9
 manager: edupont

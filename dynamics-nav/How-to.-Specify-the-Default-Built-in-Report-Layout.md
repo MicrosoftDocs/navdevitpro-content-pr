@@ -1,12 +1,12 @@
 ---
-title:"How to. Specify the Default Built-in Report Layout"
+title: "How to. Specify the Default Built-in Report Layout"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 6cad9163-edd9-45e2-84ea-b59e33fdb481
 caps.latest.revision: 2
 manager: edupont

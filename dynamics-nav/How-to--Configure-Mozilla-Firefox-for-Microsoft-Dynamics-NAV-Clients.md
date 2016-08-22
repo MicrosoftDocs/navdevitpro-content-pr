@@ -1,12 +1,12 @@
 ---
-title:"How to: Configure Mozilla Firefox for Microsoft Dynamics NAV Clients"
+title: "How to: Configure Mozilla Firefox for Microsoft Dynamics NAV Clients"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 5e12c815-a749-45e1-8a5c-92a8ec5a7f85
 caps.latest.revision: 22
 manager: edupont

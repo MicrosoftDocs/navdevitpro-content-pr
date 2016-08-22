@@ -1,12 +1,12 @@
 ---
-title:"GUID Data Type"
+title: "GUID Data Type"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 1f61afd5-7017-408b-83d7-3277ddccf384
 caps.latest.revision: 11
 ---

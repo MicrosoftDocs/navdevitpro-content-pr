@@ -1,12 +1,12 @@
 ---
-title:"CURRENTKEYINDEX Function (RecordRef)"
+title: "CURRENTKEYINDEX Function (RecordRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: f971359f-6bc8-46ad-9184-334f6e8e5b8e
 caps.latest.revision: 11
 manager: edupont

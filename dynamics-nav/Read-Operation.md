@@ -1,12 +1,12 @@
 ---
-title:"Read Operation"
+title: "Read Operation"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 778a4a74-7751-4af4-8c02-b82171f46aea
 caps.latest.revision: 11
 ---

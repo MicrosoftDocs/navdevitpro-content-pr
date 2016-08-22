@@ -1,12 +1,12 @@
 ---
-title:"CaptionClass Functionality"
+title: "CaptionClass Functionality"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: f02c5f29-0efd-4e6d-8d9e-02f8e31b5c9c
 caps.latest.revision: 9
 manager: edupont

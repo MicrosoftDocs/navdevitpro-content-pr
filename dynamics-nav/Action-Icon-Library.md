@@ -1,12 +1,12 @@
 ---
-title:"Action Icon Library"
+title: "Action Icon Library"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 983dcbb6-3264-43fb-bb86-0547c726fb3e
 caps.latest.revision: 14
 manager: edupont

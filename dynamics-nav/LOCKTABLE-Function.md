@@ -1,12 +1,12 @@
 ---
-title:"LOCKTABLE Function"
+title: "LOCKTABLE Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: dd38a304-eb98-4100-8561-b04d8c0aa1f7
 caps.latest.revision: 9
 manager: edupont

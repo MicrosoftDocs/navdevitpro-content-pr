@@ -1,12 +1,12 @@
 ---
-title:"Events in Microsoft Dynamics NAV"
+title: "Events in Microsoft Dynamics NAV"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: e800bc78-feb2-4f19-b79a-3fd70e06320f
 caps.latest.revision: 7
 manager: edupont

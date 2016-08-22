@@ -1,12 +1,12 @@
 ---
-title:"How to: Use Performance Monitor to Collect Event Trace Data"
+title: "How to: Use Performance Monitor to Collect Event Trace Data"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 9981a5d5-10f1-4939-bfd8-050d4d667835
 caps.latest.revision: 14
 ---

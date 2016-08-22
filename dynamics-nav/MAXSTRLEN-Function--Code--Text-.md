@@ -1,12 +1,12 @@
 ---
-title:"MAXSTRLEN Function (Code, Text)"
+title: "MAXSTRLEN Function (Code, Text)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 9fadefd8-7add-4dbf-84e8-2eee07ffd1ab
 caps.latest.revision: 12
 ---

@@ -1,12 +1,12 @@
 ---
-title:"LOOKUP Function (TestPage Field)"
+title: "LOOKUP Function (TestPage Field)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: b2b00294-3f93-470c-998b-808162b7401b
 caps.latest.revision: 4
 manager: edupont

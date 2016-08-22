@@ -1,12 +1,12 @@
 ---
-title:"WRITE Function (BigText)"
+title: "WRITE Function (BigText)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 41504b4f-3023-4be1-a180-04bc01b56c05
 caps.latest.revision: 11
 manager: edupont

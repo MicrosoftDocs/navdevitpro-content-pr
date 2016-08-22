@@ -1,12 +1,12 @@
 ---
-title:"Customizing Security"
+title: "Customizing Security"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: b928abe2-e462-40e9-9d03-863c10f03e67
 caps.latest.revision: 13
 manager: edupont

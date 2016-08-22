@@ -1,12 +1,12 @@
 ---
-title:"How to: Create a Table"
+title: "How to: Create a Table"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 33ba7a28-9f72-4950-9c6e-2ab687161c17
 caps.latest.revision: 7
 manager: edupont

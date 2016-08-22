@@ -1,12 +1,12 @@
 ---
-title:"($ S_2092 Toolbar $)"
+title: "($ S_2092 Toolbar $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: d39aaf69-82d7-42be-88a5-ef6ffd9ff7a2
 caps.latest.revision: 6
 manager: edupont

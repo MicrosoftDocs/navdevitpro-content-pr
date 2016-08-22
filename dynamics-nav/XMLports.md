@@ -1,12 +1,12 @@
 ---
-title:"XMLports"
+title: "XMLports"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: aa8d94aa-1cea-4602-8f8f-9fd49ffb54f1
 caps.latest.revision: 26
 manager: edupont

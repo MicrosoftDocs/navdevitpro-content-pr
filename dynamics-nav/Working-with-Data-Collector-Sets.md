@@ -1,12 +1,12 @@
 ---
-title:"Working with Data Collector Sets"
+title: "Working with Data Collector Sets"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: e4a306a8-3a68-4e1f-a31a-bb01663e82c2
 caps.latest.revision: 10
 ---

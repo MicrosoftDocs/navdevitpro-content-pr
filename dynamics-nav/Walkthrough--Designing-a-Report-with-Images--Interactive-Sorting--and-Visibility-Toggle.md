@@ -1,12 +1,12 @@
 ---
-title:"Walkthrough: Designing a Report with Images, Interactive Sorting, and Visibility Toggle"
+title: "Walkthrough: Designing a Report with Images, Interactive Sorting, and Visibility Toggle"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: c39cb1dd-2c05-4831-af09-765ce9d078a0
 caps.latest.revision: 36
 manager: edupont

@@ -1,12 +1,12 @@
 ---
-title:"Accessing Objects in Other Databases or on Linked Servers"
+title: "Accessing Objects in Other Databases or on Linked Servers"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 3f9989fc-78ed-4f39-8251-caf6c672f01b
 caps.latest.revision: 10
 manager: edupont

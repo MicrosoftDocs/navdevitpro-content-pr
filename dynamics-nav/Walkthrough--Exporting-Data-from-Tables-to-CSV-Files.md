@@ -1,12 +1,12 @@
 ---
-title:"Walkthrough: Exporting Data from Tables to CSV Files"
+title: "Walkthrough: Exporting Data from Tables to CSV Files"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 8f4088b4-2834-45be-ad55-ce31d0e52db7
 caps.latest.revision: 10
 manager: edupont

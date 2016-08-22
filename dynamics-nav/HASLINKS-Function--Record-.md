@@ -1,12 +1,12 @@
 ---
-title:"HASLINKS Function (Record)"
+title: "HASLINKS Function (Record)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: b787ab16-9988-40f9-b799-81e07f047bf6
 caps.latest.revision: 10
 manager: edupont

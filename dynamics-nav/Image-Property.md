@@ -1,12 +1,12 @@
 ---
-title:"Image Property"
+title: "Image Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 33bb844b-f09c-4286-951f-d1c7efa96b6e
 caps.latest.revision: 13
 manager: edupont

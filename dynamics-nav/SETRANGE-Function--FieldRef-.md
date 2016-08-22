@@ -1,12 +1,12 @@
 ---
-title:"SETRANGE Function (FieldRef)"
+title: "SETRANGE Function (FieldRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: dad61b4c-6b02-480b-85be-1cd64fe96318
 caps.latest.revision: 14
 ---

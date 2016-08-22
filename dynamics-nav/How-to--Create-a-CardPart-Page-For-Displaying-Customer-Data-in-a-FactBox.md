@@ -1,12 +1,12 @@
 ---
-title:"How to: Create a CardPart Page For Displaying Customer Data in a FactBox"
+title: "How to: Create a CardPart Page For Displaying Customer Data in a FactBox"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 3b6588d1-c1ea-4239-a002-8acba0dfa12b
 caps.latest.revision: 19
 manager: edupont

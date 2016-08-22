@@ -1,12 +1,12 @@
 ---
-title:"How to: Configure the Microsoft Dynamics NAV Web client to Accept Host Names for Tenants"
+title: "How to: Configure the Microsoft Dynamics NAV Web client to Accept Host Names for Tenants"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: eb87ee8c-be21-4fed-a5f7-2229c4101c61
 caps.latest.revision: 6
 ---

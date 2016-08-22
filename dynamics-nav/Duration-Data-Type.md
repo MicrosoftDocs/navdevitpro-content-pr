@@ -1,12 +1,12 @@
 ---
-title:"Duration Data Type"
+title: "Duration Data Type"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 4925b06d-1f96-4221-98b8-5bdd33b20b9e
 caps.latest.revision: 12
 manager: edupont

@@ -1,12 +1,12 @@
 ---
-title:"Testing the Application"
+title: "Testing the Application"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 7f7961ce-7256-43e9-9dc5-7fd93e65ee3a
 caps.latest.revision: 32
 manager: edupont

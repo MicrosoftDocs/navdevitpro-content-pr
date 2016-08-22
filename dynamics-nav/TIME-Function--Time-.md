@@ -1,12 +1,12 @@
 ---
-title:"TIME Function (Time)"
+title: "TIME Function (Time)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: d670fe72-94d5-43b8-bb4b-4b48805b16c9
 caps.latest.revision: 9
 manager: edupont

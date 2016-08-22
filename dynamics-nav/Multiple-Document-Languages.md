@@ -1,12 +1,12 @@
 ---
-title:"Multiple Document Languages"
+title: "Multiple Document Languages"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 5c929ff4-72c2-4d81-999b-e7bb013f0efc
 caps.latest.revision: 7
 manager: edupont

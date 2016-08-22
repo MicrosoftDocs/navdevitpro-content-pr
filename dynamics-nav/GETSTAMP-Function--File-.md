@@ -1,12 +1,12 @@
 ---
-title:"GETSTAMP Function (File)"
+title: "GETSTAMP Function (File)"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: ea6f66fd-e3f2-47b2-b6bb-0cf084968c22
 caps.latest.revision: 14
 manager: edupont

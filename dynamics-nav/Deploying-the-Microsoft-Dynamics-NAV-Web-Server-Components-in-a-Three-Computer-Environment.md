@@ -1,12 +1,12 @@
 ---
-title:"Deploying the Microsoft Dynamics NAV Web Server Components in a Three Computer Environment"
+title: "Deploying the Microsoft Dynamics NAV Web Server Components in a Three Computer Environment"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 33f1ecdc-07d8-4150-8c06-9b99ee81cc9a
 caps.latest.revision: 18
 ---

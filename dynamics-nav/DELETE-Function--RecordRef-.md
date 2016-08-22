@@ -1,12 +1,12 @@
 ---
-title:"DELETE Function (RecordRef)"
+title: "DELETE Function (RecordRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 365091c9-fe6c-464c-9917-02c7cf13a72f
 caps.latest.revision: 15
 manager: edupont

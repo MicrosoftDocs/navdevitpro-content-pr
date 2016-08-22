@@ -1,12 +1,12 @@
 ---
-title:"DrillDown Property"
+title: "DrillDown Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: de4f0602-ddd3-43b1-9f3d-8e62368c08de
 caps.latest.revision: 15
 manager: edupont

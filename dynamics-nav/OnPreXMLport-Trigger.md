@@ -1,12 +1,12 @@
 ---
-title:"OnPreXMLport Trigger"
+title: "OnPreXMLport Trigger"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 15284319-9d6e-428b-bc2a-5c8579d888a2
 caps.latest.revision: 3
 manager: edupont

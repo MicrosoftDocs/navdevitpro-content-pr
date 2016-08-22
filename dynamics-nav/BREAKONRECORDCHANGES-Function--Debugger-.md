@@ -1,12 +1,12 @@
 ---
-title:"BREAKONRECORDCHANGES Function (Debugger)"
+title: "BREAKONRECORDCHANGES Function (Debugger)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 5f0cd768-4b6f-4c11-a10a-c67972521916
 caps.latest.revision: 4
 manager: edupont

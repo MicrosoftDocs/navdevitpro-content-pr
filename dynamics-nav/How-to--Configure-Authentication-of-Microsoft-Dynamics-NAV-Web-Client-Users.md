@@ -1,12 +1,12 @@
 ---
-title:"How to: Configure Authentication of Microsoft Dynamics NAV Web Client Users"
+title: "How to: Configure Authentication of Microsoft Dynamics NAV Web Client Users"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: c9e0dd2b-1f7f-417d-a9ca-a08ef2f22d26
 caps.latest.revision: 37
 manager: edupont

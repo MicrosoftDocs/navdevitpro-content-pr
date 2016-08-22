@@ -1,12 +1,12 @@
 ---
-title:"How to: Use an Access Key for SOAP and OData Web Service Authentication"
+title: "How to: Use an Access Key for SOAP and OData Web Service Authentication"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: c88c539c-d615-4cb2-b9c6-e7e976583bc2
 caps.latest.revision: 7
 ---

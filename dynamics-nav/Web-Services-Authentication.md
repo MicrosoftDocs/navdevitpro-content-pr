@@ -1,12 +1,12 @@
 ---
-title:"Web Services Authentication"
+title: "Web Services Authentication"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 25774773-f5ce-44f5-9bf3-07827d5996a7
 caps.latest.revision: 14
 ---

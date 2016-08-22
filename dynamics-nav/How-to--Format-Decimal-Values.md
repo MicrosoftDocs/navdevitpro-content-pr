@@ -1,12 +1,12 @@
 ---
-title:"How to: Format Decimal Values"
+title: "How to: Format Decimal Values"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: e5b86d34-289a-4301-8ede-4dd326071a83
 caps.latest.revision: 10
 manager: edupont

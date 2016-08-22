@@ -1,12 +1,12 @@
 ---
-title:"($ S_2600 Indent Controls $)"
+title: "($ S_2600 Indent Controls $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: a5faa5f1-59b1-42e9-8741-9f490aeab00f
 caps.latest.revision: 8
 manager: edupont

@@ -1,12 +1,12 @@
 ---
-title:"FIELDERROR Function (FieldRef)"
+title: "FIELDERROR Function (FieldRef)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 7df700bf-2e1f-4b64-b37d-fe2da74b3479
 caps.latest.revision: 16
 ---

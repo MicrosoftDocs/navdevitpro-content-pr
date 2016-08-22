@@ -1,12 +1,12 @@
 ---
-title:"Interactive Timeline Business Data Visualization Overview"
+title: "Interactive Timeline Business Data Visualization Overview"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: d764e6f2-42ae-46ab-a866-cfc30276d3db
 caps.latest.revision: 9
 manager: edupont

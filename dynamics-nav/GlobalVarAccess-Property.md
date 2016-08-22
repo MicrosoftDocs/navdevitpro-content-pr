@@ -1,12 +1,12 @@
 ---
-title:"GlobalVarAccess Property"
+title: "GlobalVarAccess Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: f8792ef2-9a9e-4be6-a6d1-d5fa8b5a5705
 caps.latest.revision: 3
 manager: edupont

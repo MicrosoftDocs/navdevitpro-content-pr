@@ -1,12 +1,12 @@
 ---
-title:"TestTableRelation Property"
+title: "TestTableRelation Property"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: d4b37c19-bcb3-49d2-868d-126be1d383be
 caps.latest.revision: 8
 manager: edupont

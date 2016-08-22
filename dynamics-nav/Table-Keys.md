@@ -1,12 +1,12 @@
 ---
-title:"Table Keys"
+title: "Table Keys"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 973de351-209a-44b7-b8f6-7218a1fa69e6
 caps.latest.revision: 20
 manager: edupont

@@ -1,12 +1,12 @@
 ---
-title:"Extending Microsoft Dynamics NAV"
+title: "Extending Microsoft Dynamics NAV"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: f81f6fbf-f5ae-498f-9b7b-4f9aa4f369d4
 caps.latest.revision: 9
 manager: edupont

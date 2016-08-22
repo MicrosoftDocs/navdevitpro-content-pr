@@ -1,12 +1,12 @@
 ---
-title:"Walkthrough: Installing the Demo Version"
+title: "Walkthrough: Installing the Demo Version"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 1ad0b37b-6d38-4c92-9ca6-14888864fb6b
 caps.latest.revision: 29
 manager: edupont

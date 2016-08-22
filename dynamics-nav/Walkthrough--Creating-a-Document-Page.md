@@ -1,12 +1,12 @@
 ---
-title:"Walkthrough: Creating a Document Page"
+title: "Walkthrough: Creating a Document Page"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 7c4bade0-53f7-4612-b76f-53f5d73d26d1
 caps.latest.revision: 45
 manager: edupont

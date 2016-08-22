@@ -1,12 +1,12 @@
 ---
-title:"Server-Driven Paging in OData Web Services"
+title: "Server-Driven Paging in OData Web Services"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: af503894-315a-4155-a6d3-ddc30925c5ed
 caps.latest.revision: 17
 manager: edupont

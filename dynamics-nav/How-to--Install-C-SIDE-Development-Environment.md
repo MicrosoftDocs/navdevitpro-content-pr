@@ -1,12 +1,12 @@
 ---
-title:"How to: Install C-SIDE Development Environment"
+title: "How to: Install C-SIDE Development Environment"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 2e4a3efe-3257-4b57-8e00-c023783749eb
 caps.latest.revision: 23
 manager: edupont

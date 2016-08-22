@@ -1,12 +1,12 @@
 ---
-title:"SID Function (Database)"
+title: "SID Function (Database)"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 406a026b-f9bf-46e4-95bc-1d7df8a13a8d
 caps.latest.revision: 13
 manager: edupont

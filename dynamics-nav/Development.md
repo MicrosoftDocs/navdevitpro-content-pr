@@ -1,12 +1,12 @@
 ---
-title:"Development"
+title: "Development"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 98866f17-c121-45a2-8fd0-62e213a43606
 caps.latest.revision: 25
 manager: edupont

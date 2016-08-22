@@ -1,12 +1,12 @@
 ---
-title:"Touring the RoleTailored Client Windows"
+title: "Touring the RoleTailored Client Windows"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod:"dynamics-nav-2017"
+ms-prod: "dynamics-nav-2017"
 ms.assetid: 9f1af3e4-4301-4534-8ba1-589d44545ca4
 caps.latest.revision: 19
 manager: edupont
