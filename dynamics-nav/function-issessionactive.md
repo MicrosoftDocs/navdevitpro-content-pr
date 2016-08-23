@@ -10,23 +10,30 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms-prod: "dynamics-nav-2017"
 ---
-# ISSESSIONACTIVE Function (Debugger)
-Tests if a web service session is active on the [!INCLUDE[nav_server](includes/nav_server_md.md)].  
+# ISSESSIONACTIVE Function (Session)
+Tests if the specified SessionID is active on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance where it was started.  
 
 ## Syntax  
 
 ```  
-Ok := ISSESSIONACTIVE   
+Ok := ISSESSIONACTIVE(SessionID)   
 ```  
 
-## Property Value\/Return Value  
+## Parameters
+*SessionID*
+    Type: Integer
+    The ID of the session that you want to test if it is still active.
+## Property Value/Return Value  
 Type: Boolean  
 
 **true** if a session with a specified ID is active on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance; otherwise, **false**.  
 
-Use this function to test if a session has completed or is still active, for example if you want to enable full SQL tracing but want to make sure that there are no active web service sessions.  
+## Remarks
+Use this function to test if a session has completed or is still active, for example if you want to check that a session started with STARTSESSION is still running.  
+
+>   [!NOTE]  
+>    The function looks for sessions on the local machine.
+
 
 ## See Also  
-[Debugging](Debugging.md)
-[Debugger](Debugger.md)
-[Web Services](Web-Services.md)
+[STARTSESSION](STARTSESSION-Function--Sessions-.md)  
