@@ -21,7 +21,7 @@ To create a new codeunit by using Object Designer, use the following procedure.
   
 3.  Choose the **New** button to create a new codeunit.  
   
-4.  In the **C\/AL Editor**, add functions.  
+4.  In the **C/AL Editor**, add functions.  
   
 ## See Also  
  [Codeunits](Codeunits.md)

@@ -14,7 +14,7 @@ manager: edupont
 # How to: Create a Test Page
 You can create and open a test page in the following ways:  
   
--   Declare a test page variable and then write C\/AL code to open the test page by using one of the following functions:  
+-   Declare a test page variable and then write C/AL code to open the test page by using one of the following functions:  
   
     -   [OPENNEW Function \(TestPage\)](OPENNEW-Function--TestPage-.md)  
   
@@ -24,7 +24,7 @@ You can create and open a test page in the following ways:
   
 -   Create a PageHandler or ModalPageHandler function that has a test page parameter. For more information, see [How to: Create Handler Functions](How%20to:%20Create%20Handler%20Functions.md).  
   
--   Write C\/AL code to trap a call to open a test page by using the [TRAP Function \(TestPage\)](TRAP-Function--TestPage-.md).  
+-   Write C/AL code to trap a call to open a test page by using the [TRAP Function \(TestPage\)](TRAP-Function--TestPage-.md).  
   
  The following procedure describes how to declare test page variables. The following code example shows how to use the test page variables to write code to open test pages.  
   
@@ -32,9 +32,9 @@ You can create and open a test page in the following ways:
   
 1.  Create a test codeunit. For more information, see [How to: Create Test Codeunits and Test Functions](How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md).  
   
-2.  In Object Designer, on the **View** menu, choose **C\/AL Globals**.  
+2.  In Object Designer, on the **View** menu, choose **C/AL Globals**.  
   
-3.  In the **C\/AL Globals** window, on the **Variables** tab, enter the following:  
+3.  In the **C/AL Globals** window, on the **Variables** tab, enter the following:  
   
     1.  In the **Name** column, enter a name for the test page variable.  
   

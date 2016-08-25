@@ -32,9 +32,9 @@ Specifies how security filters are applied to the record.
 |Validated|All security filters are applied to this instance of the record and if any code tries to access a record that is outside the range of the security filters, then an error occurs.|  
   
 ## Remarks  
- To change the **SecurityFiltering** property on a record variable, either select the value in the **Properties** window of the variable, or specify the value in C\/AL code. To change the **SecurityFiltering** property on an implicit record on a page, report, or XMLport, you must specify the value in C\/AL code.  
+ To change the **SecurityFiltering** property on a record variable, either select the value in the **Properties** window of the variable, or specify the value in C/AL code. To change the **SecurityFiltering** property on an implicit record on a page, report, or XMLport, you must specify the value in C/AL code.  
   
- To specify the **SecurityFiltering** property in C\/AL code, use the following syntax.  
+ To specify the **SecurityFiltering** property in C/AL code, use the following syntax.  
   
 ```  
 RecordVar.SecurityFiltering := SecurityFilter::<Disallowed|Filtered|Ignored|Validated>  

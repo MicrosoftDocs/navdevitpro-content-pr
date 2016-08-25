@@ -45,7 +45,7 @@ Sets whether a file should be opened as an ASCII file or a binary file. Gets the
  This function should be used before File.OPEN is used to open the file. If you use this function on a file that is already open, then an error occurs.  
   
 ## Example  
- The following example sets the TEXTMODE to **true** when the file is open for writing. This means the file contents will be written to a text file that is named 'C:\\TestFolder\\TestFile.txt' by using ASCII characters. The [WRITEMODE Function \(File\)](WRITEMODE-Function--File-.md) and the [OPEN Function \(File\)](OPEN-Function--File-.md) open the file for writing and the text ‘Hello World’ is written. The [CLOSE Function \(File\)](CLOSE-Function--File-.md) closes the file after the file is written to. This example requires that you create the following variable in the **C\/AL Globals** window. This example assumes that you have created a text file that is named C:\\TestFolder\\TestFile.txt.  
+ The following example sets the TEXTMODE to **true** when the file is open for writing. This means the file contents will be written to a text file that is named 'C:\\TestFolder\\TestFile.txt' by using ASCII characters. The [WRITEMODE Function \(File\)](WRITEMODE-Function--File-.md) and the [OPEN Function \(File\)](OPEN-Function--File-.md) open the file for writing and the text ‘Hello World’ is written. The [CLOSE Function \(File\)](CLOSE-Function--File-.md) closes the file after the file is written to. This example requires that you create the following variable in the **C/AL Globals** window. This example assumes that you have created a text file that is named C:\\TestFolder\\TestFile.txt.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

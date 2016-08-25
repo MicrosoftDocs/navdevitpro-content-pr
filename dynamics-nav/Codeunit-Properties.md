@@ -31,8 +31,8 @@ This topic lists properties that apply to the Codeunit object, variables, text c
   
 -   [TestIsolation Property](TestIsolation-Property.md)  
   
-## C\/AL Globals Variables Properties  
- The following properties apply to **Variables** in the **C\/AL Globals** window of codeunit objects.  
+## C/AL Globals Variables Properties  
+ The following properties apply to **Variables** in the **C/AL Globals** window of codeunit objects.  
   
 -   [Dimensions Property](Dimensions-Property.md)  
   
@@ -44,8 +44,8 @@ This topic lists properties that apply to the Codeunit object, variables, text c
   
 -   [WithEvents Property](WithEvents-Property.md)  
   
-## C\/AL Globals Text Constants Properties  
- The following properties apply to **Text Constants** in the **C\/AL Globals** window of codeunit objects.  
+## C/AL Globals Text Constants Properties  
+ The following properties apply to **Text Constants** in the **C/AL Globals** window of codeunit objects.  
   
 -   [ConstValue Property](ConstValue-Property.md)  
   
@@ -53,8 +53,8 @@ This topic lists properties that apply to the Codeunit object, variables, text c
   
 -   [ID Property](ID-Property.md)  
   
-## C\/AL Globals Functions Properties  
- The following properties apply to **Functions** in the **C\/AL Globals** window of codeunit objects.  
+## C/AL Globals Functions Properties  
+ The following properties apply to **Functions** in the **C/AL Globals** window of codeunit objects.  
   
 -   [ID Property](ID-Property.md)  
   
@@ -84,8 +84,8 @@ This topic lists properties that apply to the Codeunit object, variables, text c
   
 -   [EventPublisherElement Property](EventPublisherElement-Property.md)  
   
-## C\/AL Locals Variables Properties  
- The following properties apply to **Variables** in the **C\/AL Locals** window of codeunit objects.  
+## C/AL Locals Variables Properties  
+ The following properties apply to **Variables** in the **C/AL Locals** window of codeunit objects.  
   
 -   [Dimensions Property](Dimensions-Property.md)  
   
@@ -99,8 +99,8 @@ This topic lists properties that apply to the Codeunit object, variables, text c
   
 -   [Temporary Property](Temporary-Property.md)  
   
-## C\/AL Locals Text Constants Properties  
- The following properties apply to **Text Constants** in the **C\/AL Locals** window of codeunit objects.  
+## C/AL Locals Text Constants Properties  
+ The following properties apply to **Text Constants** in the **C/AL Locals** window of codeunit objects.  
   
 -   [ConstValue Property](ConstValue-Property.md)  
   
@@ -108,15 +108,15 @@ This topic lists properties that apply to the Codeunit object, variables, text c
   
 -   [ID Property](ID-Property.md)  
   
-## C\/AL Locals Parameters Properties  
- The following properties apply to **Parameters** in the **C\/AL Locals** window of codeunit objects.  
+## C/AL Locals Parameters Properties  
+ The following properties apply to **Parameters** in the **C/AL Locals** window of codeunit objects.  
   
 -   [Dimensions Property](Dimensions-Property.md)  
   
 -   [ID Property](ID-Property.md)  
   
-## C\/AL Locals Return Values Properties  
- The following properties apply to **Return Values** in the **C\/AL Locals** window of codeunit objects.  
+## C/AL Locals Return Values Properties  
+ The following properties apply to **Return Values** in the **C/AL Locals** window of codeunit objects.  
   
 -   [Dimensions Property](Dimensions-Property.md)  
   

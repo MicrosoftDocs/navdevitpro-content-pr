@@ -35,7 +35,7 @@ Length := FieldRef.LENGTH
  For Text and Code fields this function returns the defined length. For other types of fields, it returns the fixed byte size, for example, Integer fields returns 4.  
   
 ## Example  
- The following example opens the Customer table as a RecordRef variable. The [FIELD Function \(RecordRef\)](FIELD-Function--RecordRef-.md) creates a FieldRef for any specified field and stores the reference in the MyFieldRef variable. The LENGTH function retrieves the maximum size of the field and stores the value in the varLength variable. The value that is stored in the varLength is displayed in a message box. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example opens the Customer table as a RecordRef variable. The [FIELD Function \(RecordRef\)](FIELD-Function--RecordRef-.md) creates a FieldRef for any specified field and stores the reference in the MyFieldRef variable. The LENGTH function retrieves the maximum size of the field and stores the value in the varLength variable. The value that is stored in the varLength is displayed in a message box. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

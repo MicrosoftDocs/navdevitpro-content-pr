@@ -36,7 +36,7 @@ Codeunit 1 Application Management includes the **GetCueStyle** trigger that enab
 |CueValue|The calculated value in the Cue that is stored in the table field at runtime.|  
   
 ### Return Value  
- The **GetCueStyle** trigger returns a value that has the data type **Text**. To set the colored indicator, you add C\/AL code that sets the return value to one of the following values.  
+ The **GetCueStyle** trigger returns a value that has the data type **Text**. To set the colored indicator, you add C/AL code that sets the return value to one of the following values.  
   
 |Value|Color|  
 |-----------|-----------|  

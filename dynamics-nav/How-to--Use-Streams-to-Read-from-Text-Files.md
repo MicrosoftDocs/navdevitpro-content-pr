@@ -16,9 +16,9 @@ The [InStream](InStream.md) \(input stream\) and [OutStream](OutStream.md) \(out
   
 ### To use a stream to read from a text file  
   
-1.  In Object Designer, choose **Codeunit**, and then choose the **New** button to open the **C\/AL Editor**.  
+1.  In Object Designer, choose **Codeunit**, and then choose the **New** button to open the **C/AL Editor**.  
   
-2.  On the **View** menu, choose **C\/AL Globals**.  
+2.  On the **View** menu, choose **C/AL Globals**.  
   
 3.  On the **Variables** tab, in the **Name** column, declare a variable that represents the text file, and then set **DataType** to **File**.  
   
@@ -26,7 +26,7 @@ The [InStream](InStream.md) \(input stream\) and [OutStream](OutStream.md) \(out
   
 5.  Declare a third variable that receives the data that is read and set the **DataType**.  
   
-6.  In the **C\/AL Editor**, in the **OnRun** trigger, add code that uses the [OPEN Function \(File\)](OPEN-Function--File-.md) to open the file that you want to read from. The code will resemble the following code snippet.  
+6.  In the **C/AL Editor**, in the **OnRun** trigger, add code that uses the [OPEN Function \(File\)](OPEN-Function--File-.md) to open the file that you want to read from. The code will resemble the following code snippet.  
   
      `MyFile.OPEN('c:\MyFolder\MyText.txt');`  
   
@@ -51,7 +51,7 @@ The [InStream](InStream.md) \(input stream\) and [OutStream](OutStream.md) \(out
 12. Verify that the **Compile** field is selected and then choose the **Yes** button.  
   
 ## Example  
- The following example reads a file that is named MyText.txt into a buffer and displays the contents of the buffer in a message. The file is read until the end of the file is reached. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ The following example reads a file that is named MyText.txt into a buffer and displays the contents of the buffer in a message. The file is read until the end of the file is reached. This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

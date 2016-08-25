@@ -46,7 +46,7 @@ TestRequestPage.SAVEASPDF(Filename)
   
 -   A handler function of type RequestPageHandler called ReqPageHandler. This handler function has one parameter called RequestPage of Type TestRequestPage and Subtype Customer – Top 10 List. The RequestPage parameter is specified as VAR and is passed by reference to the handler function. For more information, see [How to: Create Handler Functions](How%20to:%20Create%20Handler%20Functions.md).  
   
- This example also requires that you create the following variable in the **C\/AL Globals** window of the SaveAsPDF codeunit.  
+ This example also requires that you create the following variable in the **C/AL Globals** window of the SaveAsPDF codeunit.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

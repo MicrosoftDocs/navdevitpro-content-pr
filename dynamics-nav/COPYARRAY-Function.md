@@ -50,7 +50,7 @@ COPYARRAY(NewArray, Array, Position[, Length])
  You cannot copy an array if the data type of the array is a complex data type. For more information about complex data types, see [C\-AL Data Types](C-AL-Data-Types.md).  
   
 ## Example  
- The following example assigns values to Array1 and copies values from Array1 to Array2. Array1 is an integer array with the [Dimensions Property](Dimensions-Property.md) set to 10. It contains integers from 1 to 10. The example code copies the numbers 6, 7, 8, 9, and 10 to Array2, an integer array with the **Dimensions** property set to 5. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ The following example assigns values to Array1 and copies values from Array1 to Array2. Array1 is an integer array with the [Dimensions Property](Dimensions-Property.md) set to 10. It contains integers from 1 to 10. The example code copies the numbers 6, 7, 8, 9, and 10 to Array2, an integer array with the **Dimensions** property set to 5. This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|Dimension|  
 |-------------------|--------------|---------------|  

@@ -12,7 +12,7 @@ caps.latest.revision: 6
 manager: edupont
 ---
 # How to: Debug a Background Session
-A background session that is started by using the [STARTSESSION Function \(Sessions\)](STARTSESSION-Function--Sessions-.md) can be difficult to debug because it is called by C\/AL code for which you often do not have dedicated control. Therefore, you cannot debug the calling code and step through it to access the background session. To debug a background session, you must first set a breakpoint in the codeunit that runs when the session is started.  
+A background session that is started by using the [STARTSESSION Function \(Sessions\)](STARTSESSION-Function--Sessions-.md) can be difficult to debug because it is called by C/AL code for which you often do not have dedicated control. Therefore, you cannot debug the calling code and step through it to access the background session. To debug a background session, you must first set a breakpoint in the codeunit that runs when the session is started.  
   
  Before you begin, you must verify that no breakpoints are currently enabled in the calling code. For more information about how to view and disable breakpoints, see [How to: Manage Breakpoints from the Debugger Breakpoint List](How%20to:%20Manage%20Breakpoints%20from%20the%20Debugger%20Breakpoint%20List.md).  
   
@@ -22,7 +22,7 @@ A background session that is started by using the [STARTSESSION Function \(Sessi
   
 2.  In Object Designer, choose the **Codeunit** button, select the codeunit that is run when you start the background session, and then choose the **Design** button. The ID of this codeunit is the value that you pass to the **STARTSESSION** function in the *CodeunitID* parameter.  
   
-3.  In the C\/AL Editor, place the cursor on the first line of the **OnRun** trigger.  
+3.  In the C/AL Editor, place the cursor on the first line of the **OnRun** trigger.  
   
 4.  On the **Tools** menu, choose **Debugger**, and then choose **Toggle Breakpoint**. A red dot is displayed in the margin, and the breakpoint is immediately enabled.  
   

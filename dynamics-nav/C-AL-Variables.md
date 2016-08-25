@@ -12,19 +12,19 @@ caps.latest.revision: 22
 manager: edupont
 ---
 # C-AL Variables
-C\/AL has the following types of variables:  
+C/AL has the following types of variables:  
   
 -   User\-defined variables  
   
 -   System\-defined variables  
   
- User\-defined variables are variables that you define when you create new C\/AL code. You can define variables that are global and apply to all functions in an object, such as a codeunit, or you can define variables that are local and apply to a single function in an object. Both types of user\-defined variables are local to the object in which they are defined. These variables can be used to store information at run time, and the values can be changed as desired.  
+ User\-defined variables are variables that you define when you create new C/AL code. You can define variables that are global and apply to all functions in an object, such as a codeunit, or you can define variables that are local and apply to a single function in an object. Both types of user\-defined variables are local to the object in which they are defined. These variables can be used to store information at run time, and the values can be changed as desired.  
   
  System\-defined variables are provided by [!INCLUDE[navnow](includes/navnow_md.md)]. These variables are automatically maintained by the system. Some system\-defined variables are Rec, xRec, CurrPage, and CurrReport.  
   
  At run time, code is executed in functions and triggers, such as in entry\-processing code for a table. Before the code is executed, values are automatically assigned to the associated system\-defined variables, and the values of these variables can be used in triggers and local functions.  
   
- The values of system\-defined variables are not updated when the C\/AL code is being executed. Instead, the values are updated before the function or trigger is executed.  
+ The values of system\-defined variables are not updated when the C/AL code is being executed. Instead, the values are updated before the function or trigger is executed.  
   
 > [!NOTE]  
 >  The value in a system\-defined variable does not propagate backward. A user cannot use a system\-defined variable to modify the state of the system.  
@@ -36,11 +36,11 @@ C\/AL has the following types of variables:
   
 -   Uppercase and lowercase letters are not distinct. For example, Smith and SMITH refer to the same variable.  
   
--   In C\/AL, you can use special characters such as spaces in the name of a variable \(an identifier\).  
+-   In C/AL, you can use special characters such as spaces in the name of a variable \(an identifier\).  
   
 -   The maximum length of a variable name is 128 characters.  
   
--   A variable cannot have the same name as a C\/AL function or a reserved word. This applies to both uppercase and lowercase spellings. For example, you cannot use BEGIN or begin as a valid variable name.  
+-   A variable cannot have the same name as a C/AL function or a reserved word. This applies to both uppercase and lowercase spellings. For example, you cannot use BEGIN or begin as a valid variable name.  
   
  All characters in your current ANSI character set are valid in variable names except for the following characters:  
   
@@ -70,7 +70,7 @@ C\/AL has the following types of variables:
   
     -   A digits in the range 0…9 \(ASCII 48\-57\)  
   
- You can include one or more special characters in a variable name in C\/AL. If you include special characters, then the variable name must be enclosed in quotation marks. In this case, the name can contain any mix of letters, digits, and special characters.  
+ You can include one or more special characters in a variable name in C/AL. If you include special characters, then the variable name must be enclosed in quotation marks. In this case, the name can contain any mix of letters, digits, and special characters.  
   
 > [!NOTE]  
 >  The quotation marks are not part of the variable name but are required to successfully compile the codeunit.  
@@ -107,7 +107,7 @@ C\/AL has the following types of variables:
 -   END  
   
 ## Initialization  
- Variables are automatically initialized before C\/AL code is executed. A Boolean variable is set to **false**. Numeric variables are set to the default value zero. Strings \(text and code\) are initialized to the value '' \(an empty string\). Date and time variables are set to the undefined time 0T and the undefined date 0D, respectively. Variables of complex data types are also initialized. If a complex data type has multiple components, then each component is initialized to the value that corresponds to the data type for the component.  
+ Variables are automatically initialized before C/AL code is executed. A Boolean variable is set to **false**. Numeric variables are set to the default value zero. Strings \(text and code\) are initialized to the value '' \(an empty string\). Date and time variables are set to the undefined time 0T and the undefined date 0D, respectively. Variables of complex data types are also initialized. If a complex data type has multiple components, then each component is initialized to the value that corresponds to the data type for the component.  
   
  System\-defined variables are automatically handled and initialized. No actions are required by the user before system\-defined variables can be used.  
   
@@ -145,7 +145,7 @@ C\/AL has the following types of variables:
   
  Text can be automatically converted to BigText, but a BigText variable must be split into smaller parts before it can be converted to text.  
   
- The same assignment rules apply for arrays in C\/AL. Furthermore, if the left operand in an assignment \(the variable\) is an array, the dimension or dimensions of the right side expression must correspond to the dimension or dimensions of the variable.  
+ The same assignment rules apply for arrays in C/AL. Furthermore, if the left operand in an assignment \(the variable\) is an array, the dimension or dimensions of the right side expression must correspond to the dimension or dimensions of the variable.  
   
 > [!NOTE]  
 >  The type conversion that occurs in assignments can cause run\-time errors even though the data types are convertible. A run\-time error can occur in an assignment if the converted value is outside the valid range for the left side variable. Also, a run\-time error can occur if the converted value is outside the valid range for a parameter in a function call.  

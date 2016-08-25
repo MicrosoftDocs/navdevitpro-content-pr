@@ -59,7 +59,7 @@ String := REPORT.WORDXMLPART(Number[, ExtendedFormat])
  *Number*  
  Type: Integer  
   
- The ID of the report that you want to run. From the C\/AL Editor, on the **View** menu, choose **C\/AL Symbol Menu** to select the report from a list.  
+ The ID of the report that you want to run. From the C/AL Editor, on the **View** menu, choose **C/AL Symbol Menu** to select the report from a list.  
   
  If the report you specify does not exist, then a run\-time error occurs.  
   
@@ -83,7 +83,7 @@ String := REPORT.WORDXMLPART(Number[, ExtendedFormat])
  Word custom XML parts enable you to integrate business data into Word documents. For example, the WORDXMLPART function is used internally by [!INCLUDE[navnow](includes/navnow_md.md)] when you are creating report layouts in Word. You can use this function to create a custom XML part, and then, together with the [SAVEASXML Function \(Reports\)](SAVEASXML-Function--Reports-.md) function and additional data merging tools, you can implement your own functionality for mapping and laying out report data in Word documents. To create a custom XML part, you can save the return value to an .xml file that is encoded in UTF\-16 \(16\-bit Unicode Transformation Format\). The resultant file can be added to Word documents as a custom XML part to map the report data set as XML data.  
   
 ## Example  
- The following example uses the WORDXMLPART function to save the data structure of Report 112 Sales Statistics in an XML file in a predefined folder *C:\\Report Documents*. The resultant file can be used in Word as a custom XML part. To complete the example, you must also create the following variables in the **C\/AL Globals** window.  
+ The following example uses the WORDXMLPART function to save the data structure of Report 112 Sales Statistics in an XML file in a predefined folder *C:\\Report Documents*. The resultant file can be used in Word as a custom XML part. To complete the example, you must also create the following variables in the **C/AL Globals** window.  
   
 |Variable|DataType|  
 |--------------|--------------|  

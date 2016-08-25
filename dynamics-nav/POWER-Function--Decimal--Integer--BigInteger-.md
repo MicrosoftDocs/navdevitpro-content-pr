@@ -38,7 +38,7 @@ NewNumber := POWER(Number, Power)
  The result of raising *Number* by *Power*.  
   
 ## Example  
- This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -96,7 +96,7 @@ MESSAGE(Text000, Number1, Power1, Result1)
   
  A \= LCY 500\[\(\(1 \+ 0.04\)<sup>20</sup> \- 1\)\/0.04 \= LCY 14,889.04  
   
- This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

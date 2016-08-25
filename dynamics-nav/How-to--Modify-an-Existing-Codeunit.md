@@ -22,7 +22,7 @@ To modify an existing codeunit, use the following procedure.
   
 3.  Select the codeunit that you want to modify, and then choose **Design**.  
   
-4.  In the **C\/AL Editor**, modify the codeunit by changing the existing functions or by adding new functions.  
+4.  In the **C/AL Editor**, modify the codeunit by changing the existing functions or by adding new functions.  
   
 ## See Also  
  [Codeunits](Codeunits.md)

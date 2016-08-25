@@ -14,9 +14,9 @@ manager: eliotgra
 # ($ S_10205 C-AL Locals $)
 Declares local variables and text constants in [!INCLUDE[navnow](../includes/navnow_md.md)]. Local variables can only exist in the scope of triggers or functions. For more information about variables, see [C\-AL Variables](../C-AL-Variables.md).  
 
- To open this window, on the **Tools** menu, choose **Object Designer**, choose **Codeunit**, and then on the **View** menu, choose **C\/AL Locals**.  
+ To open this window, on the **Tools** menu, choose **Object Designer**, choose **Codeunit**, and then on the **View** menu, choose **C/AL Locals**.  
 
- You can also open the **C\/AL Globals** window, choose the **Functions** tab, and then choose the **Locals** button. For more information about how to open the **C\/AL Globals** windows, see [\($ S\_10204 C\-AL Globals $\)](-$-S_10204-C-AL-Globals-$-.md).  
+ You can also open the **C/AL Globals** window, choose the **Functions** tab, and then choose the **Locals** button. For more information about how to open the **C/AL Globals** windows, see [\($ S\_10204 C\-AL Globals $\)](-$-S_10204-C-AL-Globals-$-.md).  
 
 ## Parameters Tab  
 

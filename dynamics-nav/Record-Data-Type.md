@@ -15,4 +15,4 @@ manager: edupont
 This complex data type corresponds to a row in a table. Each record consist of fields that form the columns of the table. A record is typically used to hold information about a fixed number of properties.  
   
 ## Remarks  
- To access a field in a table in your C\/AL code, use the following syntax: TableName.FieldName
+ To access a field in a table in your C/AL code, use the following syntax: TableName.FieldName

@@ -47,7 +47,7 @@ You can control which users have permission to run a query object and access its
   
          Set additional permissions are needed.  
   
-    -   If the query will be executed from the C\/AL code of another object, such as a codeunit, then for each data item add a **Table** object type permission that specifies the underlying table. Set the **Read Permission** to **Yes**. Set additional permissions as needed.  
+    -   If the query will be executed from the C/AL code of another object, such as a codeunit, then for each data item add a **Table** object type permission that specifies the underlying table. Set the **Read Permission** to **Yes**. Set additional permissions as needed.  
   
     -   If there are any objects that are called from the query's ONBEFOREOPEN trigger, then include a permission entry for each object, and set the **Read Permission** set to **Yes**. Set additional permissions as required.  
   
@@ -58,7 +58,7 @@ You can control which users have permission to run a query object and access its
      For more information, see [How to: Define Permissions for Users](How%20to:%20Define%20Permissions%20for%20Users.md).  
   
 ## Query Permissions Example  
- The following table illustrates a permission set for query 50001 Customer\_SalesQuantity that retrieves data from table 18 Customer and table 37 Sales Lines. The query will be executed from the C\/AL code of codeunit. The user only requires access to the Sales Line table through the query, so you grant indirect access to this table, which you set up in the permission set and query's Permission property. This permission set configures the minimum permissions that are required for a user to run the query and access the resulting dataset.  
+ The following table illustrates a permission set for query 50001 Customer\_SalesQuantity that retrieves data from table 18 Customer and table 37 Sales Lines. The query will be executed from the C/AL code of codeunit. The user only requires access to the Sales Line table through the query, so you grant indirect access to this table, which you set up in the permission set and query's Permission property. This permission set configures the minimum permissions that are required for a user to run the query and access the resulting dataset.  
   
 |Object type|Object ID|Object name|Read permission|Insert permission|Modify permission|Delete permission|Execute permission|Security Filter|  
 |-----------------|---------------|-----------------|---------------------|-----------------------|-----------------------|-----------------------|------------------------|---------------------|  

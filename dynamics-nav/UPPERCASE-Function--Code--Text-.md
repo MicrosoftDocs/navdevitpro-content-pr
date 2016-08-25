@@ -35,7 +35,7 @@ NewString := UPPERCASE(String)
 ## Example  
  The following example shows how to use the **UPPERCASE** function.  
   
- This example requires that you create the following text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following text constants in the **C/AL Globals** window.  
   
 |Text constant|ConstValue|  
 |-------------------|----------------|  

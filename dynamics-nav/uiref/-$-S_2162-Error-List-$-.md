@@ -12,7 +12,7 @@ caps.latest.revision: 10
 manager: edupont
 ---
 # ($ S_2162 Error List $)
-Shows a list of errors and warnings, including obsolete constructs, that occur in your C\/AL code.  
+Shows a list of errors and warnings, including obsolete constructs, that occur in your C/AL code.  
 
  To open this window, on the **Tools** menu, choose **Error List**.  
 

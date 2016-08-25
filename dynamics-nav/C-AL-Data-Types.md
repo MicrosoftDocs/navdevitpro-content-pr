@@ -12,7 +12,7 @@ caps.latest.revision: 44
 manager: edupont
 ---
 # C-AL Data Types
-C\/AL uses variables to store data of various types. By declaring variables of the correct type, you do the following:  
+C/AL uses variables to store data of various types. By declaring variables of the correct type, you do the following:  
   
 -   Create faster code.  
   
@@ -24,8 +24,8 @@ C\/AL uses variables to store data of various types. By declaring variables of t
   
  For example, if you know that a variable will always contain a number between 0 and 700, then you should use an integer variable instead of a decimal variable. Any calculations that are performed will be faster because four bytes per integer operation are used instead of twelve bytes per decimal operation. However, you must use a data type that can hold every possible value that is needed in your calculations. For example, if you try to store the value 1233.3456 in an integer variable, then the result will be an error.  
   
-## C\/AL Data Types  
- The following table shows the C\/AL data types. All C\/AL data types are either fundamental or complex. Some data types can also be divided into other categories.  
+## C/AL Data Types  
+ The following table shows the C/AL data types. All C/AL data types are either fundamental or complex. Some data types can also be divided into other categories.  
   
 |Data type|Fundamental or complex|Other categories|  
 |---------------|----------------------------|----------------------|  
@@ -232,7 +232,7 @@ MAXSTRLEN(t); // Returns 6.
  The Time data type represents a time ranging from 00:00:00 to 23:59:59.999. An undefined time is expressed as 0T.  
   
 ### Descriptive Data Types  
- The following table shows the relationship between the descriptive data types and the simple C\/AL data types.  
+ The following table shows the relationship between the descriptive data types and the simple C/AL data types.  
   
 |Descriptive data type|Included system data types|  
 |---------------------------|--------------------------------|  
@@ -240,9 +240,9 @@ MAXSTRLEN(t); // Returns 6.
 |String|-   Text<br />-   Code|  
   
 ### Complex Data Types  
- Complex data types are used when you want to work with, for example, records in tables, pictures \(bitmaps\), or disk files. C\/AL is object\-based so each complex data type can include both member variables and member functions.  
+ Complex data types are used when you want to work with, for example, records in tables, pictures \(bitmaps\), or disk files. C/AL is object\-based so each complex data type can include both member variables and member functions.  
   
- C\/AL is not object\-oriented but object\-based. This is an important difference. In an object\-oriented language or environment, you can create new types of objects that are based on the ones already in the system. In C\/AL, you have the following application objects:  
+ C/AL is not object\-oriented but object\-based. This is an important difference. In an object\-oriented language or environment, you can create new types of objects that are based on the ones already in the system. In C/AL, you have the following application objects:  
   
 -   Tables  
   
@@ -341,7 +341,7 @@ MAXSTRLEN(t); // Returns 6.
  The TableFilter data type applies a filter to another table. This data type can only be used when you are setting security filters from the Permission table.  
   
 #### Variant Data Type  
- The Variant data type can contain the following C\/AL data types:  
+ The Variant data type can contain the following C/AL data types:  
   
 -   Record  
   

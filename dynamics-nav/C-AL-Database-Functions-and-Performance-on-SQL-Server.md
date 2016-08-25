@@ -12,12 +12,12 @@ caps.latest.revision: 25
 manager: edupont
 ---
 # C-AL Database Functions and Performance on SQL Server
-This topic describes the relationship between basic database functions in C\/AL and SQL statements.  
+This topic describes the relationship between basic database functions in C/AL and SQL statements.  
   
-## C\/AL and SQL Statements  
+## C/AL and SQL Statements  
   
 ### GET, FIND, and NEXT  
- The C\/AL language offers several methods to retrieve record data. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], records are retrieved using multiple active result sets \(MARS\). Generally, retrieving records with MARS is faster than with server\-side cursors. Additionally, each function is optimized for a specific purpose. To achieve optimal performance you must use the method that is best suited for a given purpose.  
+ The C/AL language offers several methods to retrieve record data. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], records are retrieved using multiple active result sets \(MARS\). Generally, retrieving records with MARS is faster than with server\-side cursors. Additionally, each function is optimized for a specific purpose. To achieve optimal performance you must use the method that is best suited for a given purpose.  
   
 -   **Record.GET** is optimized for getting a single record based on primary key values.  
   

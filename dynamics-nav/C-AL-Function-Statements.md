@@ -16,7 +16,7 @@ You use function statements to execute either built\-in system functions or user
   
  If you assign the return value of a function call to a variable, then you use the function statement as part of an assignment statement.  
   
- Triggers are C\/AL elements that consist of an event and a function. Triggers execute a function when a certain event occurs. For more information, see [Triggers Overview](Triggers-Overview.md) and [Triggers](Triggers.md).  
+ Triggers are C/AL elements that consist of an event and a function. Triggers execute a function when a certain event occurs. For more information, see [Triggers Overview](Triggers-Overview.md) and [Triggers](Triggers.md).  
   
 ## Example  
  The following example calls the [INIT Function \(Record\)](INIT-Function--Record-.md) on a record variable. This example requires that you create the following variable.  

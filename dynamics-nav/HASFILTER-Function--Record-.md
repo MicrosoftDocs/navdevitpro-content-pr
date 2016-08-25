@@ -32,7 +32,7 @@ Ok := Record.HASFILTER
  **true** if there is a filter; otherwise, **false**.  
   
 ## Example  
- The following example uses the **HASFILTER** function to determine whether the **Customer** table that contains the MyRecord record has a filter. The function returns **No** because the MyRecord record has no filters. The return value is displayed in a message box. The [SETFILTER Function \(Record\)](SETFILTER-Function--Record-.md) is then used to set a filter for the table. This time, the return value is **Yes** because the table now has a filter. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ The following example uses the **HASFILTER** function to determine whether the **Customer** table that contains the MyRecord record has a filter. The function returns **No** because the MyRecord record has no filters. The return value is displayed in a message box. The [SETFILTER Function \(Record\)](SETFILTER-Function--Record-.md) is then used to set a filter for the table. This time, the return value is **Yes** because the table now has a filter. This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

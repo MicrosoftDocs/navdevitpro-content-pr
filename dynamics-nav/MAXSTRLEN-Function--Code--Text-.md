@@ -35,7 +35,7 @@ MaxLength := MAXSTRLEN(String)
  If you call this function on a Variant, it returns an error.  
   
 ## Example  
- This example requires that you create the following variables and text constants in the C\/AL Globals window.  
+ This example requires that you create the following variables and text constants in the C/AL Globals window.  
   
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  

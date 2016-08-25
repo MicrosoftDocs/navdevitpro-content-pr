@@ -24,7 +24,7 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
   
 -   Creating a query object for calculating Cue data.  
   
--   Adding a field for a new Cue in an existing table, and adding C\/AL code to the field to get the data from the query object.  
+-   Adding a field for a new Cue in an existing table, and adding C/AL code to the field to get the data from the query object.  
   
 -   Adding a new Cue to an existing page for displaying the Cue in the [!INCLUDE[navnow](includes/navnow_md.md)] client.  
   
@@ -97,13 +97,13 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
     > [!NOTE]  
     >  By default, fields are normal fields as defined by the field's [FieldClass Property](FieldClass-Property.md).  
   
-#### To add C\/AL code to the table calculate the Cue data  
+#### To add C/AL code to the table calculate the Cue data  
   
-1.  On the **View** menu, choose **C\/AL code** to open the C\/AL code for the table.  
+1.  On the **View** menu, choose **C/AL code** to open the C/AL code for the table.  
   
 2.  Add a global function that is called **CalcSalesThisMonthAmount** as follows:  
   
-    1.  On the **View** menu, choose **C\/AL Globals**.  
+    1.  On the **View** menu, choose **C/AL Globals**.  
   
     2.  On the **Functions** tab, in the **Name** column, enter **CalcSalesThisMonthAmount**.  
   
@@ -113,9 +113,9 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
   
     4.  Set the **Local** property to **No**.  
   
-3.  In the **C\/AL Globals** window, select the new function, and then choose **Locals**.  
+3.  In the **C/AL Globals** window, select the new function, and then choose **Locals**.  
   
-     The C\/AL Locals window appears. From her you will add a return value and variables.  
+     The C/AL Locals window appears. From her you will add a return value and variables.  
   
 4.  On the **Return Value** tab, set **Name** field to **Amount** and the **Return Type** field to **Decimal**.  
   
@@ -126,7 +126,7 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
     |CustLedgerEntry|Record|Cust. Ledger Entry|  
     |CustLedgEntrySales|Query|Cust. Ledg. Entry Sales|  
   
-6.  In C\/AL code, add the following code on the **CalcSalesThisMonthAmount** function:  
+6.  In C/AL code, add the following code on the **CalcSalesThisMonthAmount** function:  
   
     ```  
   
@@ -169,7 +169,7 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
   
          ![Page Designer showing cues](media/NAV_PageDesigner_SalesThisMonthCue_Clip.png "NAV\_PageDesigner\_SalesThisMonthCue\_Clip")  
   
-3.  Open the C\/AL code for the page, and then add the following code to the [OnAfterGetRecord Trigger](OnAfterGetRecord-Trigger.md) to assign the **Sales This month** field to the *CalcSalesThisMonthAmount* function of table **50001 Sales Invoice Cue**:  
+3.  Open the C/AL code for the page, and then add the following code to the [OnAfterGetRecord Trigger](OnAfterGetRecord-Trigger.md) to assign the **Sales This month** field to the *CalcSalesThisMonthAmount* function of table **50001 Sales Invoice Cue**:  
   
     ```  
     "Sales This Month" := CalcSalesThisMonthAmount;  

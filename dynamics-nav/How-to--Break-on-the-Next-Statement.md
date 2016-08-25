@@ -12,11 +12,11 @@ caps.latest.revision: 9
 manager: edupont
 ---
 # How to: Break on the Next Statement
-If the debugger is attached to a session, then you can specify that the debugger breaks before the next C\/AL statement is run in that session.  
+If the debugger is attached to a session, then you can specify that the debugger breaks before the next C/AL statement is run in that session.  
   
  For more information about how to open the **Debugger** window, see [Activating the Debugger](Activating-the-Debugger.md).  
   
-### To specify a break on the next C\/AL statement  
+### To specify a break on the next C/AL statement  
   
 -   In the **Debugger** window, on the **Home** tab, in the **Running Code** group, choose **Break**.  
   

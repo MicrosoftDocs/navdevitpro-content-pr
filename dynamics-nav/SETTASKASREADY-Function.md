@@ -47,7 +47,7 @@ Sets a task that runs a codeunit to the ready state. The task will not run unles
 ## Example  
  The following example creates a task, and then uses the SETTASKASREADY function to set the task to ready.  
   
- The code requires that you create the following C\/AL variable.  
+ The code requires that you create the following C/AL variable.  
   
 |Variable|DataType|  
 |--------------|--------------|  

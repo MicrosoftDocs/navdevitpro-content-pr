@@ -45,7 +45,7 @@ Gets a record based on values stored in primary key fields.
  This function ignores any call to the [SETAUTOCALCFIELDS Function \(Record\)](SETAUTOCALCFIELDS-Function--Record-.md). Therefore, a **GET** call on a record after a **SETAUTOCALCFIELDS** call does not automatically calculate FlowFields in the record.  
   
 ## Example  
- This example requires that you create the following variable and text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following variable and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

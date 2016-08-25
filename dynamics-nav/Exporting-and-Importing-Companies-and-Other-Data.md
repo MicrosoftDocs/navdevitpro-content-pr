@@ -69,8 +69,8 @@ You can export a company from a [!INCLUDE[navnow](includes/navnow_md.md)] databa
   
  In multitenant deployments of [!INCLUDE[navnow](includes/navnow_md.md)], if you export or import business data, you must specify the ID of the tenant database. If you export or import applications, you must specify the application database and database server. You can only import application data if the specified tenant is mounted with the *–AllowAppDatabaseWrite* parameter.  
   
-### C\/AL Functions  
- You can use the following C\/AL functions to handle export and import of data programmatically:  
+### C/AL Functions  
+ You can use the following C/AL functions to handle export and import of data programmatically:  
   
 -   [EXPORTDATA Function \(Database\)](EXPORTDATA-Function--Database-.md)  
   

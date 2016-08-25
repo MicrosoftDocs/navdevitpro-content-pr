@@ -12,7 +12,7 @@ caps.latest.revision: 10
 manager: edupont
 ---
 # General C-AL Programming Format
-To make it easy to maintain an application, you should follow a few strict guidelines when you write C\/AL code. This section describes the general rules for:  
+To make it easy to maintain an application, you should follow a few strict guidelines when you write C/AL code. This section describes the general rules for:  
   
 -   Spacing and indentation  
   
@@ -28,7 +28,7 @@ To make it easy to maintain an application, you should follow a few strict guide
   
 -   Order of variables  
   
- In addition, we recommend that you enter all C\/AL code as English \(United States\). If all code is in the same language, then it is easier to maintain the application.  
+ In addition, we recommend that you enter all C/AL code as English \(United States\). If all code is in the same language, then it is easier to maintain the application.  
   
 ## Spacing and Indentation  
  The following examples show how to use spacing and indentation.  
@@ -74,7 +74,7 @@ IF a <> '' THEN
 ```  
   
 ### Example  
- When you split a C\/AL statement into two or more lines, do not align the continuation lines according to user\-defined or system\-defined variables, functions, field names, object names, and other elements. Instead, indent the continuation lines by two characters. Aligning by variable, function, field name, or object name may look clearer in your program, but the alignment will not hold if the variable name is changed to something shorter or longer. Although the system\-defined variable and function names are not likely to change, the rule also applies when you use them.  
+ When you split a C/AL statement into two or more lines, do not align the continuation lines according to user\-defined or system\-defined variables, functions, field names, object names, and other elements. Instead, indent the continuation lines by two characters. Aligning by variable, function, field name, or object name may look clearer in your program, but the alignment will not hold if the variable name is changed to something shorter or longer. Although the system\-defined variable and function names are not likely to change, the rule also applies when you use them.  
   
 ```  
 MyVariable :=   
@@ -152,7 +152,7 @@ x := x * 2;
 ```  
   
 ### Example  
- If the comment is on the same line as the C\/AL code, then add one space character before the comment sign.  
+ If the comment is on the same line as the C/AL code, then add one space character before the comment sign.  
   
 ```  
 x := '....'; // Comment  

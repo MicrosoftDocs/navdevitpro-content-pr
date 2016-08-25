@@ -16,7 +16,7 @@ Sets the transaction type.
   
 ## Applies To  
   
--   Database transactions for all C\/AL code  
+-   Database transactions for all C/AL code  
   
 ## Remarks  
  There are four basic transaction types: **Browse**, **Snapshot**, **UpdateNoLocks**, and **Update**. Additionally, there is a **Report** type that maps to the **Browse** transaction type. Each transaction type defines the behavior of a transaction in [!INCLUDE[navnow](includes/navnow_md.md)] and takes effect from the start of a transaction. A transaction starts at the start of the outermost code or immediately after the [COMMIT Function \(Database\)](COMMIT-Function--Database-.md) is called. A transaction ends at the end of the outermost code or when the COMMIT function is called. For example, if a function in a codeunit calls another codeunit, then a new transaction is not started at the start of the second codeunit.  

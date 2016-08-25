@@ -12,7 +12,7 @@ caps.latest.revision: 10
 manager: edupont
 ---
 # Functions Not Supported by Microsoft Dynamics NAV Web Client
-This topic lists the C\/AL functions and data types that are not supported or partially supported by [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information about partially supported functions, see the function topic in the reference section.  
+This topic lists the C/AL functions and data types that are not supported or partially supported by [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information about partially supported functions, see the function topic in the reference section.  
   
 ## Unsupported Functions  
  This section lists the functions that are not supported by the [!INCLUDE[nav_web](includes/nav_web_md.md)]. If you use a function that is not supported, an error occurs at runtime.  

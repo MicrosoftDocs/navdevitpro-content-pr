@@ -61,7 +61,7 @@ Reads from an MS\-DOS encoded file or binary file.
  To read or write files in Unicode or in other formats, we recommend that you use .NET Framework interoperability and use the [System.IO Namespace](http://go.microsoft.com/fwlink/?LinkId=262250).  
   
 ## Example  
- The following example opens a text file that is named C:\\TestFolder\\TestFile.txt. The READ function read the contents of the file and stores it in the String variable. The function returns the size of the text that was read, stores it in the varSize variable, and displays it in a message box. This example assumes that you have created a text file named C:\\TestFolder\\TestFile.txt that contains less than 500 bytes. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ The following example opens a text file that is named C:\\TestFolder\\TestFile.txt. The READ function read the contents of the file and stores it in the String variable. The function returns the size of the text that was read, stores it in the varSize variable, and displays it in a message box. This example assumes that you have created a text file named C:\\TestFolder\\TestFile.txt that contains less than 500 bytes. This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  

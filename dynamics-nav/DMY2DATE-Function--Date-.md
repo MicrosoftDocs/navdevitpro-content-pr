@@ -43,7 +43,7 @@ Date := DMY2DATE(Day [, Month] [, Year])
  The resulting date.  
   
 ## Example  
- This code example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This code example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

@@ -44,7 +44,7 @@ RecordRef.OPEN(No[, Temp][, CompanyName])
  If you use the *CompanyName* parameter, then this function works the same as the [CHANGECOMPANY Function \(Record\)](CHANGECOMPANY-Function--Record-.md).  
   
 ## Example  
- The following example uses the OPEN function to create a RecordRef variable that is named MyRecordRef for the Customer table. The parameters are omitted in this example because there is only one company in this example and the table will not be open as temporary table. The caption and number of records in the table are displayed in a message box. At the end of the display, the [CLOSE Function \(RecordRef\)](CLOSE-Function--RecordRef-.md) closes the table. This example requires that you create the following variable and text constants in the **C\/AL Globals** window.  
+ The following example uses the OPEN function to create a RecordRef variable that is named MyRecordRef for the Customer table. The parameters are omitted in this example because there is only one company in this example and the table will not be open as temporary table. The caption and number of records in the table are displayed in a message box. At the end of the display, the [CLOSE Function \(RecordRef\)](CLOSE-Function--RecordRef-.md) closes the table. This example requires that you create the following variable and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -62,7 +62,7 @@ MyRecordRef.CLOSE;
 ```  
   
 ## Example  
- This example shows how to use the OPEN function. In this example, "MyRecordRef" opens table 27 and then "FIND\('\-'\)" finds the first record in the table. "TempMyRecordRef" opens a temporary table which is empty and therefore the "FIND\('\-'\)" returns false. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ This example shows how to use the OPEN function. In this example, "MyRecordRef" opens table 27 and then "FIND\('\-'\)" finds the first record in the table. "TempMyRecordRef" opens a temporary table which is empty and therefore the "FIND\('\-'\)" returns false. This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

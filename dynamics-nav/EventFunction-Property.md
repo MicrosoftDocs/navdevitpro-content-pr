@@ -16,7 +16,7 @@ Specifies the event publisher function that the event subscriber function subscr
   
 ## Applies to  
   
--   C\/AL functions.  
+-   C/AL functions.  
   
      This property is only available when the [Event Property](Event-Property.md) is set to **Subscriber**.  
   
@@ -26,7 +26,7 @@ Specifies the event publisher function that the event subscriber function subscr
 ## Remarks  
  You use this property to set up an event subscriber function to respond to the event that is declared by the event publisher function. When the event is raised in the application, the event subscriber function is called.  
   
- You add C\/AL code to this function that defines the logic to handle the event when it is called.  
+ You add C/AL code to this function that defines the logic to handle the event when it is called.  
   
  For more information about events, see [Subscribing to Events](Subscribing-to-Events.md)..  
   

@@ -12,14 +12,14 @@ caps.latest.revision: 8
 manager: edupont
 ---
 # Using Arrays
-An *array* is a data structure that contains several variables of the same type. The variables are treated as a single collection. Although you can already create arrays in C\/AL, you can now use arrays from the .NET Framework. Choosing whether to use a C\/AL array or a .NET Framework array depends on how you intend to use the data.  
+An *array* is a data structure that contains several variables of the same type. The variables are treated as a single collection. Although you can already create arrays in C/AL, you can now use arrays from the .NET Framework. Choosing whether to use a C/AL array or a .NET Framework array depends on how you intend to use the data.  
   
 |For this scenario|Use this array type|  
 |-----------------------|-------------------------|  
-|Your C\/AL code uses .NET Framework interoperability extensively, and you must share the array among many methods.|.NET Framework array|  
-|Your C\/AL code mostly uses basic C\/AL types and does not interoperate with the .NET Framework.|C\/AL array|  
+|Your C/AL code uses .NET Framework interoperability extensively, and you must share the array among many methods.|.NET Framework array|  
+|Your C/AL code mostly uses basic C/AL types and does not interoperate with the .NET Framework.|C/AL array|  
   
- To use a .NET Framework array in C\/AL, you must use the [System.Array](http://go.microsoft.com/fwlink/?LinkID=203944&clcid=0x409) class in the .NET Framework class library, which is the class from which all arrays inherit. When interfacing with an array in C\/AL, you must use the following methods of the `System.Array` class to create and access elements in the array.  
+ To use a .NET Framework array in C/AL, you must use the [System.Array](http://go.microsoft.com/fwlink/?LinkID=203944&clcid=0x409) class in the .NET Framework class library, which is the class from which all arrays inherit. When interfacing with an array in C/AL, you must use the following methods of the `System.Array` class to create and access elements in the array.  
   
 |Method|Description|  
 |------------|-----------------|  
@@ -27,11 +27,11 @@ An *array* is a data structure that contains several variables of the same type.
 |SetValue|Sets a value in an array element.|  
 |GetValue|Gets a value from an array element|  
   
- Many .NET Framework classes implement these methods. Therefore, they are available for you to use in C\/AL code. If you are writing your own .NET Framework code and want to use it in [!INCLUDE[navnow](includes/navnow_md.md)], then you must implement these methods yourself.  
+ Many .NET Framework classes implement these methods. Therefore, they are available for you to use in C/AL code. If you are writing your own .NET Framework code and want to use it in [!INCLUDE[navnow](includes/navnow_md.md)], then you must implement these methods yourself.  
   
- In C\/AL, some .NET Framework data types, such as strings, integers, and decimals, are automatically converted to C\/AL types. If a .NET Framework array contains these data types, then you create an assembly that contains methods that return the information about the data types and then reference the assembly in the C\/AL code. This concept is illustrated in the following examples.  
+ In C/AL, some .NET Framework data types, such as strings, integers, and decimals, are automatically converted to C/AL types. If a .NET Framework array contains these data types, then you create an assembly that contains methods that return the information about the data types and then reference the assembly in the C/AL code. This concept is illustrated in the following examples.  
   
-## Example: Using Native C\/AL Data Types in a .NET Framework Array  
+## Example: Using Native C/AL Data Types in a .NET Framework Array  
  The following example shows how you can use a .NET Framework array for an integer data type.  
   
 1.  In Visual Studio, create a C\# class library project called *NavInteropHelper* that contains a method that returns the information about the integer type as follows:  
@@ -53,7 +53,7 @@ An *array* is a data structure that contains several variables of the same type.
   
 2.  Build the project, and then copy the assembly to the Add\-ins folder of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] installation folder. By default, the path of the installation folder is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\RoleTailored Client or [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client.  
   
-3.  In the development environment, open a [!INCLUDE[navnow](includes/navnow_md.md)] object, open the C\/AL code, and then create the following C\/AL variables.  
+3.  In the development environment, open a [!INCLUDE[navnow](includes/navnow_md.md)] object, open the C/AL code, and then create the following C/AL variables.  
   
     |Variable name|DataType|SubType|  
     |-------------------|--------------|-------------|  
@@ -63,7 +63,7 @@ An *array* is a data structure that contains several variables of the same type.
     |i|Integer||  
     |alData|Integer||  
   
-4.  On a trigger of the [!INCLUDE[navnow](includes/navnow_md.md)] object, add the following C\/AL code to create, fill, and implement the array.  
+4.  On a trigger of the [!INCLUDE[navnow](includes/navnow_md.md)] object, add the following C/AL code to create, fill, and implement the array.  
   
     ```  
     // Sets the number of elements in the .NET Framework array.  
@@ -113,7 +113,7 @@ An *array* is a data structure that contains several variables of the same type.
   
 2.  Build the project, and then copy the assembly to the Add\-ins folder of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] installation folder. By default, the path of the installation folder is [!INCLUDE[navnow_install](includes/navnow_install_md.md)] RoleTailored Client or [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)] RoleTailored Client.  
   
-3.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], open a [!INCLUDE[navnow](includes/navnow_md.md)] object, open the C\/AL code, and then create the following C\/AL variables.  
+3.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], open a [!INCLUDE[navnow](includes/navnow_md.md)] object, open the C/AL code, and then create the following C/AL variables.  
   
     |Variable name|DataType|SubType|  
     |-------------------|--------------|-------------|  
@@ -123,7 +123,7 @@ An *array* is a data structure that contains several variables of the same type.
     |i|Integer||  
     |alData|Integer||  
   
-4.  On a trigger of the [!INCLUDE[navnow](includes/navnow_md.md)] object, add the following C\/AL code to create, fill, and implement the array.  
+4.  On a trigger of the [!INCLUDE[navnow](includes/navnow_md.md)] object, add the following C/AL code to create, fill, and implement the array.  
   
     ```  
     // Sets the number of elements in the .NET Framework array.  

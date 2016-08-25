@@ -88,7 +88,7 @@ Query.READ;
  For more information about how to set filters in Query Designer, see [Understanding Query Filters](Understanding-Query-Filters.md).  
   
 ## Example  
- The following C\/AL code example demonstrates how to use the **SETRANGE** function on a query. The example code sets a filter on a query column and saves the resulting dataset as a CSV file. A message also displays when the query is run that indicates the filter on the column.  
+ The following C/AL code example demonstrates how to use the **SETRANGE** function on a query. The example code sets a filter on a query column and saves the resulting dataset as a CSV file. A message also displays when the query is run that indicates the filter on the column.  
   
  This example requires that you do the following:  
   
@@ -100,7 +100,7 @@ Query.READ;
   
          For step\-by\-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
   
-2.  Create the following C\/AL variables and text constant in the object that will run the query, such as a codeunit.  
+2.  Create the following C/AL variables and text constant in the object that will run the query, such as a codeunit.  
   
     |Variable name|DataType|Subtype|  
     |-------------------|--------------|-------------|  
@@ -110,7 +110,7 @@ Query.READ;
     |------------------------|---------------|  
     |Text000|Customer name \= %1, Quantity \= %2|  
   
- The following C\/AL code uses the **SETRANGE** function to filter a query dataset over a range of values on the **Quantity** column. You can add the code to a codeunit, and then run the codeunit to see the results.  
+ The following C/AL code uses the **SETRANGE** function to filter a query dataset over a range of values on the **Quantity** column. You can add the code to a codeunit, and then run the codeunit to see the results.  
   
 ```  
 // Sets a filter to display only sales quantities greater than 10.  

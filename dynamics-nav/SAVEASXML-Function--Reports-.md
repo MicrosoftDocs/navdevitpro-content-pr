@@ -26,7 +26,7 @@ Saves a report as an .xml file on the computer that is running [!INCLUDE[nav_ser
  *Number*  
  Type: Integer  
   
- The ID of the report that you want to run. From the C\/AL Editor, on the **View** menu, choose **C\/AL Symbol Menu** to select the report from a list.  
+ The ID of the report that you want to run. From the C/AL Editor, on the **View** menu, choose **C/AL Symbol Menu** to select the report from a list.  
   
  If the report you specify does not exist, then a run\-time error occurs.  
   

@@ -61,7 +61,7 @@ For a control add\-in to work on all display targets there has to be a manifest.
 ```  
   
 ## Script Code in a Separate File  
- Code that is called from C\/AL code must be put in a separate file under the *\\Script* folder. The code below is called from the manifest file and initializes and loads the map.  
+ Code that is called from C/AL code must be put in a separate file under the *\\Script* folder. The code below is called from the manifest file and initializes and loads the map.  
   
 ```  
 var map = null;  

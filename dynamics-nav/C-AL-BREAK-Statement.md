@@ -33,7 +33,7 @@ BREAK;
 |mylist|DotNet|System.Collections.Generic.List\`1.'mscorlib, Version\=4.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089'|  
 |element|DotNet|System.Object.'mscorlib, Version\=4.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089'|  
   
- Add the following C\/AL code \(for example, on the OnRun trigger of the codeunit\).  
+ Add the following C/AL code \(for example, on the OnRun trigger of the codeunit\).  
   
 ```  
 // Instantiate the .NET Framework collection object  

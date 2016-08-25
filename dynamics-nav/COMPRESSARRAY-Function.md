@@ -68,7 +68,7 @@ Moves all non\-empty strings \(text\) in an array to the beginning of the array.
   
  All non\-empty entries have been moved to the beginning of the array.  
   
- This example requires that you create the following variable in the **C\/AL Globals** window.  
+ This example requires that you create the following variable in the **C/AL Globals** window.  
   
 |Variable|DataType|Dimension|  
 |--------------|--------------|---------------|  

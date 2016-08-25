@@ -16,7 +16,7 @@ With [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you use [!INCLUDE[navnow
   
  ![Control add&#45;in example of a gauge control](media/NAV_ControlAddin_Gauge_Example.png "NAV\_ControlAddin\_Gauge\_Example")  
   
- Control add\-ins can exchange data with the [!INCLUDE[nav_server](includes/nav_server_md.md)] on various data types and can respond to user interaction to raise events in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] that execute additional C\/AL code.  
+ Control add\-ins can exchange data with the [!INCLUDE[nav_server](includes/nav_server_md.md)] on various data types and can respond to user interaction to raise events in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] that execute additional C/AL code.  
   
  Control add\-ins for [!INCLUDE[navnow](includes/navnow_md.md)] are built with the Microsoft .NET Framework–based assemblies that you install on computers that are running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
@@ -35,9 +35,9 @@ With [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you use [!INCLUDE[navnow
   
  ![RoleTailored client control add&#45;in model](media/NAVRTCControlAddinArchitecture.png "NAVRTCControlAddinArchitecture")  
   
- You install control add\-in assemblies on the computer that is running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], not the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)]. Unlike pages that are instantiated by C\/AL code, control add\-ins are instantiated by using metadata that is in the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
+ You install control add\-in assemblies on the computer that is running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], not the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)]. Unlike pages that are instantiated by C/AL code, control add\-ins are instantiated by using metadata that is in the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
- If the assembly that contains the add\-in also contains other .NET objects that are used in C\/AL code on the server, it might be necessary to have the assembly on the server, too. As a best practice, those cases should be extracted into a separate assembly to store the code for the client add\-in only on the client computer.  
+ If the assembly that contains the add\-in also contains other .NET objects that are used in C/AL code on the server, it might be necessary to have the assembly on the server, too. As a best practice, those cases should be extracted into a separate assembly to store the code for the client add\-in only on the client computer.  
   
 ### Interfaces Overview  
  The following table describes the interfaces that you can implement in a control add\-in.  
@@ -45,8 +45,8 @@ With [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you use [!INCLUDE[navnow
 |Interface|Description|See|  
 |---------------|-----------------|---------|  
 |Data Binding interface|Displays data from the [!INCLUDE[navnow](includes/navnow_md.md)] database.|[Binding a Windows Client Control Add\-in to the Database](Binding-a-Windows-Client-Control-Add-in-to-the-Database.md)|  
-|Event Interface|Selected public events in a control add\-in that convert into C\/AL triggers on a page that sends data back to the [!INCLUDE[nav_server](includes/nav_server_md.md)].|[Exposing Events and Calling Respective C\-AL Triggers from a Windows Client Control Add\-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md)|  
-|Methods and Properties|Selected public methods and properties in a control add\-in that can be called from C\/AL triggers on a page.|[Exposing Methods and Properties in a Windows Client Control Add\-in](Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md)|  
+|Event Interface|Selected public events in a control add\-in that convert into C/AL triggers on a page that sends data back to the [!INCLUDE[nav_server](includes/nav_server_md.md)].|[Exposing Events and Calling Respective C\-AL Triggers from a Windows Client Control Add\-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md)|  
+|Methods and Properties|Selected public methods and properties in a control add\-in that can be called from C/AL triggers on a page.|[Exposing Methods and Properties in a Windows Client Control Add\-in](Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md)|  
 |Site Interface|Provides information about a control add\-in and allows the control add\-in to call functionality inside the [!INCLUDE[navnow](includes/navnow_md.md)] framework, such as retrieving metadata \(visible, caption, and so on\). This interface is implemented by the default definition interfaces and base classes of the client extensibility API.|[Client Extensibility API Overview](Client-Extensibility-API-Overview.md)<br /><br /> [IControlAddInSite](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.IControlAddInSite)|  
   
 ## Control Add\-ins That Are Not Supported  

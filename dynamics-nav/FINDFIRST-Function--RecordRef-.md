@@ -42,7 +42,7 @@ Finds the first record in a table based on the current key and filter.
  You should use this function only when you explicitly want to find the first record in a table or set. Do not use this function in combination with REPEAT..UNTIL.  
   
 ## Example  
- The following example opens the Item table \(27\) as a RecordRef variable that is named ItemRecref. The FINDFIRST function searches for the first record in the table. If the record is found, the description and unit price of the item in the record are displayed in a message box. Otherwise, a message that indicates that the first item was not found is displayed. This example requires that you create the following variable and text constant in the **C\/AL Globals** window.  
+ The following example opens the Item table \(27\) as a RecordRef variable that is named ItemRecref. The FINDFIRST function searches for the first record in the table. If the record is found, the description and unit price of the item in the record are displayed in a message box. Otherwise, a message that indicates that the first item was not found is displayed. This example requires that you create the following variable and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

@@ -14,7 +14,7 @@ caps.latest.revision: 6
 Sets the type of function in an upgrade codeunit.  
   
 ## Applies To  
- C\/AL functions on upgrade codeunits. An upgrade codeunit is codeunit that has the [SubType Property \(Codeunit\)](SubType-Property--Codeunit-.md) set to **Upgrade**.  
+ C/AL functions on upgrade codeunits. An upgrade codeunit is codeunit that has the [SubType Property \(Codeunit\)](SubType-Property--Codeunit-.md) set to **Upgrade**.  
   
 ## Property Value  
   

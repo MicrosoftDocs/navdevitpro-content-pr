@@ -33,7 +33,7 @@ Deletes a record in a [!INCLUDE[navnow](includes/navnow_md.md)] table.
  *RunTrigger*  
  Type: Boolean  
   
- Specifies whether to run the C\/AL code in the [OnDelete Trigger](OnDelete-Trigger.md).  
+ Specifies whether to run the C/AL code in the [OnDelete Trigger](OnDelete-Trigger.md).  
   
  If this parameter is **true**, then the code in the **OnDelete** trigger is executed. If this parameter is **false**, then the code in the **OnDelete** trigger is not executed.  
   
@@ -44,7 +44,7 @@ Deletes a record in a [!INCLUDE[navnow](includes/navnow_md.md)] table.
 ## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the record was deleted; otherwise **false**. If the C\/AL code terminates, then **false** is returned.  
+ **true** if the record was deleted; otherwise **false**. If the C/AL code terminates, then **false** is returned.  
   
  If you omit this optional return value and if the record is not deleted, then a run\-time error occurs. If you include the return value, then you must handle any errors.  
   
@@ -68,7 +68,7 @@ Deletes a record in a [!INCLUDE[navnow](includes/navnow_md.md)] table.
   
  The next lines of code show how you can handle errors using the return value.  
   
- This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
@@ -92,7 +92,7 @@ ELSE
 ```  
   
 ## Example  
- This example shows that you get an error if you attempt to delete a record after a newer version of the record has been written and committed to the database. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ This example shows that you get an error if you attempt to delete a record after a newer version of the record has been written and committed to the database. This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

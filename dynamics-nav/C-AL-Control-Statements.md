@@ -12,9 +12,9 @@ caps.latest.revision: 8
 manager: edupont
 ---
 # C-AL Control Statements
-All the C\/AL programs that you create consist of one or more statements, which are executed sequentially in top\-down order. However, you will often need to control the direct top\-down flow of the execution. One or more statements may have to be repeated more than once, or you may have to make the execution of a certain statement conditional. To do this, you use control structures.  
+All the C/AL programs that you create consist of one or more statements, which are executed sequentially in top\-down order. However, you will often need to control the direct top\-down flow of the execution. One or more statements may have to be repeated more than once, or you may have to make the execution of a certain statement conditional. To do this, you use control structures.  
   
- The control structures in C\/AL are divided into the following main groups:  
+ The control structures in C/AL are divided into the following main groups:  
   
 -   [C\-AL Compound Statements](C-AL-Compound-Statements.md)  
   

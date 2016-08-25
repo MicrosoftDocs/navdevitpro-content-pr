@@ -40,7 +40,7 @@ Number := RANDOM(MaxNumber)
  A number is always chosen from the same set of numbers. Use [RANDOMIZE Function \(Integer\)](RANDOMIZE-Function--Integer-.md) to generate a new set of numbers.  
   
 ## Example  
- This example shows how to generate a pseudo\-random number. This example requires that you create the following variables and text constant in the **C\/AL Globals** window. The value of the variable Number2 is positive though the value of *MaxNumber* is negative and the value of the variable Number3 is always 1 because *MaxNumber* is 0.  
+ This example shows how to generate a pseudo\-random number. This example requires that you create the following variables and text constant in the **C/AL Globals** window. The value of the variable Number2 is positive though the value of *MaxNumber* is negative and the value of the variable Number3 is always 1 because *MaxNumber* is 0.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

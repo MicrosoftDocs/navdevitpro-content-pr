@@ -15,12 +15,12 @@ To add a global variable to a codeunit, use the following procedure.
   
 ### To add a global variable  
   
-1.  Open the **C\/AL Editor**, choose **View**, and then choose **C\/AL Globals**.  
+1.  Open the **C/AL Editor**, choose **View**, and then choose **C/AL Globals**.  
   
     > [!NOTE]  
-    >  For more information about how to open the C\/AL Editor, see [How to: Modify an Existing Codeunit](How%20to:%20Modify%20an%20Existing%20Codeunit.md).  
+    >  For more information about how to open the C/AL Editor, see [How to: Modify an Existing Codeunit](How%20to:%20Modify%20an%20Existing%20Codeunit.md).  
   
-2.  In the **C\/AL Globals** window, choose the **Variables** tab.  
+2.  In the **C/AL Globals** window, choose the **Variables** tab.  
   
 3.  Enter a name and select a data type.  
   

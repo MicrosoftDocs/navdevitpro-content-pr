@@ -95,7 +95,7 @@ NewDate := CALCDATE(DateExpression [, Date])
 ## Example  
  This example shows how to use the CALCDATE function.  
   
- This code example requires that you create the following variables and text constants in the C\/AL Globals window.  
+ This code example requires that you create the following variables and text constants in the C/AL Globals window.  
   
 |Variable Name|DataType|Length|  
 |-------------------|--------------|------------|  

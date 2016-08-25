@@ -12,7 +12,7 @@ caps.latest.revision: 7
 manager: edupont
 ---
 # ISINTEGER Function (Variant)
-Indicates whether a C\/AL variant contains an Integer.  
+Indicates whether a C/AL variant contains an Integer.  
   
 ## Syntax  
   
@@ -28,7 +28,7 @@ Ok := Variant.ISINTEGER
 ## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the C\/AL variant contains an Integer; otherwise, **false**.  
+ **true** if the C/AL variant contains an Integer; otherwise, **false**.  
   
 ## See Also  
  [Variant Data Type](Variant-Data-Type.md)

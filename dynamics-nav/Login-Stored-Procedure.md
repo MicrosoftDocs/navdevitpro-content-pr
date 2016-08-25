@@ -14,7 +14,7 @@ manager: edupont
 # Login Stored Procedure
 A login stored procedure is a stored procedure that you can use to perform predefined functions after a user logs on to the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. A typical function would be to generate a message that informs the user that the database is currently in single\-user mode so that an administrator can perform database maintenance tasks and is therefore inaccessible.  
   
- The login stored procedure is run immediately after the user has logged on to SQL Server and opened a database, and before [!INCLUDE[navnow](includes/navnow_md.md)] performs any tasks including executing C\/AL triggers.  
+ The login stored procedure is run immediately after the user has logged on to SQL Server and opened a database, and before [!INCLUDE[navnow](includes/navnow_md.md)] performs any tasks including executing C/AL triggers.  
   
 > [!NOTE]  
 >  In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance does not call login stored procedures. The [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] does call login stored procedures.  

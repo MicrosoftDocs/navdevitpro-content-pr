@@ -185,7 +185,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use the NavigatePage page 
     |**RunPageMode**|**Edit**|  
     |**InFooterBar**|**Yes**|  
   
-7.  On the **View** menu, choose **C\/AL Globals**, and on the **Variables** tab, declare the following variables:  
+7.  On the **View** menu, choose **C/AL Globals**, and on the **Variables** tab, declare the following variables:  
   
     |Variable|DataType|  
     |--------------|--------------|  
@@ -193,13 +193,13 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use the NavigatePage page 
     |NextEnable|Boolean|  
     |FinishEnable|Boolean|  
   
-8.  To make sure the controls are visible on the page, from the **Action Designer** window, open the **C\/AL Code** window.  
+8.  To make sure the controls are visible on the page, from the **Action Designer** window, open the **C/AL Code** window.  
   
 9. In the OnAction\(\) trigger for Back, enter the following line of code `CurrPage.UPDATE(TRUE);`  
   
 10. Repeat this for the OnAction\(\) triggers for Next and Finish.  
   
-11. Close the **C\/AL Code** window.  
+11. Close the **C/AL Code** window.  
   
 12. Save and compile your page.  
   
@@ -207,13 +207,13 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use the NavigatePage page 
   
 1.  In Page Designer, select your Ben’s To\-dos wizard page, 50015, and choose **Design** to open it.  
   
-2.  On the **View** menu, choose **C\/AL Globals**, and on the **Functions** tab, create a new function named **DoStep**.  
+2.  On the **View** menu, choose **C/AL Globals**, and on the **Functions** tab, create a new function named **DoStep**.  
   
 3.  Choose the **Locals** button, and then, on the **Parameters** tab, enter **step** in the Name field, and choose **Integer** in the DataType field.  
   
-4.  Close the **C\/AL Locals** window and the **C\/AL Globals** window.  
+4.  Close the **C/AL Locals** window and the **C/AL Globals** window.  
   
-5.  On the **View** menu, choose **C\/AL Code**, and scroll down until you locate the **DoStep** function.  
+5.  On the **View** menu, choose **C/AL Code**, and scroll down until you locate the **DoStep** function.  
   
 6.  In the **DoStep** function, insert the following lines of code:  
   
@@ -257,7 +257,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use the NavigatePage page 
     END;  
     ```  
   
-8.  Close the C\/AL Code window.  
+8.  Close the C/AL Code window.  
   
 9. Save and compile the page.  
   

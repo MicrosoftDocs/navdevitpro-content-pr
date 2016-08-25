@@ -12,10 +12,10 @@ caps.latest.revision: 9
 manager: edupont
 ---
 # Using Queries Instead of Record Variables
-In scenarios where you want to read records from multiple table, it can be a good idea to use a query instead of implementing code with record variables. Using a query can improve performance and also simplify the C\/AL code that is required to perform the operation.  
+In scenarios where you want to read records from multiple table, it can be a good idea to use a query instead of implementing code with record variables. Using a query can improve performance and also simplify the C/AL code that is required to perform the operation.  
   
 ## Code Example Using Record Variables  
- The following C\/AL code shows an example of using record variables to retrieve and handle records from two tables. You could potentially use this code to track item movement. The code uses two record variables, `Item` and `ItemLedgerEntry`, to retrieve the first five records from table 27 Item and table 32 Item Ledger Entry where the **Entry Type** field equals **Sale**. The retrieved records are passed to and handled by the `OutputData` function.  
+ The following C/AL code shows an example of using record variables to retrieve and handle records from two tables. You could potentially use this code to track item movement. The code uses two record variables, `Item` and `ItemLedgerEntry`, to retrieve the first five records from table 27 Item and table 32 Item Ledger Entry where the **Entry Type** field equals **Sale**. The retrieved records are passed to and handled by the `OutputData` function.  
   
 ```  
 count := 0;  
@@ -46,7 +46,7 @@ IF Item.FINDSET THEN
 ```  
   
 ## Corresponding Query Implementation  
- To get the same results with a query instead of record variables, you create a query and add C\/AL code to an object to run the query as follows:  
+ To get the same results with a query instead of record variables, you create a query and add C/AL code to an object to run the query as follows:  
   
 1.  In Query Designer, create a query that has the following characteristics:  
   

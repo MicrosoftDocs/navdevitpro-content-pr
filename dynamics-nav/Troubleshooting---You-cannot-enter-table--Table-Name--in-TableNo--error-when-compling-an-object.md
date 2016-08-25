@@ -11,11 +11,11 @@ ms.assetid: 286df8aa-d122-4e80-bd2f-3efdb84c7781
 caps.latest.revision: 6
 ---
 # Troubleshooting: &quot;You cannot enter table &#39;Table Name&#39; in TableNo&quot; error when compling an object
-If C\/AL code references a table whose name starts with a number, followed by a space and then text, you will get the following error when you compile the object:  
+If C/AL code references a table whose name starts with a number, followed by a space and then text, you will get the following error when you compile the object:  
   
  **You cannot enter table '\[Number\]\[ \]\[Text\]' in TableNo.**  
   
- For example, if a table has the name **340 Declaration Line**, then the C\/AL code `MESSAGE(FORMAT(DATABASE::"340 Declaration Line"));` would result in the following error when the object is compiled:  
+ For example, if a table has the name **340 Declaration Line**, then the C/AL code `MESSAGE(FORMAT(DATABASE::"340 Declaration Line"));` would result in the following error when the object is compiled:  
   
  **You cannot enter table '304 Declaration Line' in TableNo.**  
   

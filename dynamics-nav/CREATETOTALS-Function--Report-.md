@@ -12,7 +12,7 @@ caps.latest.revision: 8
 manager: edupont
 ---
 # CREATETOTALS Function (Report)
-Maintains totals for a variable in C\/AL.  
+Maintains totals for a variable in C/AL.  
   
 ## Syntax  
   

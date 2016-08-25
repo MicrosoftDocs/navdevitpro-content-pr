@@ -15,10 +15,10 @@ manager: edupont
 Specifies the handler functions that are used by the test function.  
   
 ## Applies To  
- C\/AL test functions on test codeunits. A test function is a function that has the [FunctionType Property \(Test Codeunits\)](FunctionType-Property--Test-Codeunits-.md) set to **Test**.  
+ C/AL test functions on test codeunits. A test function is a function that has the [FunctionType Property \(Test Codeunits\)](FunctionType-Property--Test-Codeunits-.md) set to **Test**.  
   
 ## Property Value  
- The handler function name as specified on the **Functions** tab of **the C\/AL Global** window for the test codeunit.  
+ The handler function name as specified on the **Functions** tab of **the C/AL Global** window for the test codeunit.  
   
 > [!NOTE]  
 >  If the test function uses more than one handler function, then you should separate the handler function names by a comma.  

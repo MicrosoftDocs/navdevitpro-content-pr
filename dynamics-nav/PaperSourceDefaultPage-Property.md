@@ -30,7 +30,7 @@ Specifies the default paper source to use when printing the report.
   
  The settings in the **Print** and **Page Setup** dialog boxes override the value that is specified for the **PaperSourceDefaultPage** property.  
   
- You can use the **GetPaperTrayForReport** function in codeunit 1, **Application Management**, to set the paper tray from C\/AL code. This gives you runtime control over paper tray selection for first, last, and default pages in a report.  
+ You can use the **GetPaperTrayForReport** function in codeunit 1, **Application Management**, to set the paper tray from C/AL code. This gives you runtime control over paper tray selection for first, last, and default pages in a report.  
   
 ## See Also  
  [PaperSourceFirstPage Property](PaperSourceFirstPage-Property.md)   

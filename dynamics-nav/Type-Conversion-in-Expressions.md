@@ -12,9 +12,9 @@ caps.latest.revision: 8
 manager: edupont
 ---
 # Type Conversion in Expressions
-This topic describes type conversions in C\/AL expressions.  
+This topic describes type conversions in C/AL expressions.  
   
-## C\/AL Expression Statements and Type Conversion  
+## C/AL Expression Statements and Type Conversion  
  Consider the following statements.  
   
 ```  

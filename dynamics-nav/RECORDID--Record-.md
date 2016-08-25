@@ -42,7 +42,7 @@ RecordID := Record.RECORDID
  When you use standard format 1, the caption of the record is returned. When you use other standard formats, the name of the record is returned, which is usually English \(US\). For more information, see [Format Property](Format-Property.md).  
   
 ## Example  
- The following example opens table 18 \(Customer\) as a Record variable that is named MyRecord. The [FINDLAST Function \(Record\)](FINDLAST-Function--Record-.md) finds the last record in the table. The record ID of the last record is retrieved, stored in the RecID variable displayed in message box. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example opens table 18 \(Customer\) as a Record variable that is named MyRecord. The [FINDLAST Function \(Record\)](FINDLAST-Function--Record-.md) finds the last record in the table. The record ID of the last record is retrieved, stored in the RecID variable displayed in message box. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

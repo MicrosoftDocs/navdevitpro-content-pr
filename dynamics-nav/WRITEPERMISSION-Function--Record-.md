@@ -54,7 +54,7 @@ Ok := Record.WRITEPERMISSION
  If you do not have permission to write to a table and you attempt to write, a run\-time error occurs. This function allows you to determine in advance if you have write permission. When the permissions are checked, the combination of permissions in the license file and the user's permissions in the Permission table is considered.  
   
 ## Example  
- The following example uses a record from the Vendor table to check whether the user is granted write permission to the Vendor table. The return value from the WRITEPERMISSION function is stored in the varHasWrite variable and displayed in a message box. The value, **Yes** is displayed because the user can write to the Vendor table. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ The following example uses a record from the Vendor table to check whether the user is granted write permission to the Vendor table. The return value from the WRITEPERMISSION function is stored in the varHasWrite variable and displayed in a message box. The value, **Yes** is displayed because the user can write to the Vendor table. This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

@@ -39,7 +39,7 @@ String := ENCRYPT(Str)
 ## Remarks  
   
 ## Example  
- The code example requires that you create the following text constant in the **C\/AL Globals** window.  
+ The code example requires that you create the following text constant in the **C/AL Globals** window.  
   
  **Text** Text000  
   

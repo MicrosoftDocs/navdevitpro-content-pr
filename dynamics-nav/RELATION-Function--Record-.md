@@ -41,7 +41,7 @@ TableNumber := Record.RELATION(Field)
  You can use this function for several purposes, such as to determine lookups or to check if you have permission to read from a table.  
   
 ## Example  
- The following example displays the number of the table that has a relation with the City field in the **Customer** table. In this example, table number 225, the **Post Code** table, is displayed because a table relation exists in the City field. If a relation does not exist, then an error message is displayed. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ The following example displays the number of the table that has a relation with the City field in the **Customer** table. In this example, table number 225, the **Post Code** table, is displayed because a table relation exists in the City field. If a relation does not exist, then an error message is displayed. This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

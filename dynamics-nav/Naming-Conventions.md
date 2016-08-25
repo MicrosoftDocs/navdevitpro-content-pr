@@ -126,7 +126,7 @@ Precise and consistent terminology helps the end user work with the application.
 -   If something is selected, then use “Check” as a prefix.  
   
 ### Page Controls  
- Do not give a page control a name unless you want to refer to it in your C\/AL code. If you name a page control, then add a prefix to the name with the abbreviated name of the associated table or page.  
+ Do not give a page control a name unless you want to refer to it in your C/AL code. If you name a page control, then add a prefix to the name with the abbreviated name of the associated table or page.  
   
 ## See Also  
  [Object Numbering Conventions](Object-Numbering-Conventions.md)

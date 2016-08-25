@@ -38,7 +38,7 @@ DestRecord.COPYLINKS(FromRecord)
  The link can be a link to a website, a file stored on the local or on a remote computer, or a link to a page.  
   
 ## Example  
- The following example copies all the links from a record named SourceRecord to the record named DestRecord. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ The following example copies all the links from a record named SourceRecord to the record named DestRecord. This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

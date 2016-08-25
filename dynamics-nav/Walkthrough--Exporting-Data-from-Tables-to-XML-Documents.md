@@ -106,11 +106,11 @@ XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)
   
 #### To create the codeunit  
   
-1.  In Object Designer, select **Codeunit**, and then choose **New** to open the **C\/AL Editor**.  
+1.  In Object Designer, select **Codeunit**, and then choose **New** to open the **C/AL Editor**.  
   
      You will declare variables that you will use in the code. You will create variables for the XML file, the output stream that exports the data, and the return value for the [EXPORT Function \(XMLport\)](EXPORT-Function--XMLport-.md). You will also create variables for the file that will be downloaded from the server and the file that will be saved on the client.  
   
-2.  In the C\/AL Editor, place the cursor in the OnRun function, and then, on the **View** menu, choose **C\/AL Locals** to open the **C\/AL Locals** window.  
+2.  In the C/AL Editor, place the cursor in the OnRun function, and then, on the **View** menu, choose **C/AL Locals** to open the **C/AL Locals** window.  
   
 3.  On the **Variables** tab, in the **Name** column, enter **CustXmlFile**.  
   
@@ -128,7 +128,7 @@ XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)
   
 6.  You will create the text constants that will store messages that are displayed in the message boxes.  
   
-     In the **C\/AL Locals** window, choose the **Text Constants** tab.  
+     In the **C/AL Locals** window, choose the **Text Constants** tab.  
   
 7.  In the **Name** field, enter **Text000** and then in the **ConstValue** field, choose the **EditAssist** button to open the **Multilanguage Editor**.  
   
@@ -141,9 +141,9 @@ XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)
     > [!NOTE]  
     >  The text constants are optional. However they enable messages to be translated into different languages.  
   
-11. Close the **C\/AL Locals** window.  
+11. Close the **C/AL Locals** window.  
   
-12. In the **C\/AL Editor**, in the OnRun trigger, add the following code.  
+12. In the **C/AL Editor**, in the OnRun trigger, add the following code.  
   
     ```  
   
@@ -165,7 +165,7 @@ XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)
   
      The code uses the [CREATE Function \(File\)](CREATE-Function--File-.md) to create an XML file that is named CustXmlFile in a temporary folder on the server.  The [TEMPORARYPATH Function](TEMPORARYPATH-Function.md) gets the path of the temporary folder. The [CREATEOUTSTREAM Function \(File\)](CREATEOUTSTREAM-Function--File-.md) opens a data stream to output the data from the table to the XML file. The [EXPORT Function \(XMLport\)](EXPORT-Function--XMLport-.md) uses the XMLport and the stream to export the data. If the export succeeds, the [DOWNLOAD Function \(File\)](DOWNLOAD-Function--File-.md) downloads the file from the temporary folder on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] to the client. The default path of the file on the client computer is set to ‘C:\\Temp’ but you can change it in the download dialog box. A message is displayed at the end of the export to indicate that the export is completed. Otherwise, an error message is displayed. This message is not required but it lets the user know that something actually occurred. The temporary file is deleted after the download is completed.  
   
-13. Close the **C\/AL Editor** and choose the **Yes** button at the prompt.  
+13. Close the **C/AL Editor** and choose the **Yes** button at the prompt.  
   
 14. In the **Save As** dialog box, in the **ID** text box, enter **50000**.  
   

@@ -12,11 +12,11 @@ caps.latest.revision: 17
 manager: edupont
 ---
 # Standard and User-Defined Functions
-To create an application in [!INCLUDE[navnow](includes/navnow_md.md)], you must make database objects work together. You can use C\/AL code to bind all the database objects together to form a unified whole.  
+To create an application in [!INCLUDE[navnow](includes/navnow_md.md)], you must make database objects work together. You can use C/AL code to bind all the database objects together to form a unified whole.  
   
- When you design professional applications, you often need specialized functions. C\/AL lets you create functions that extend the functionality of [!INCLUDE[navnow](includes/navnow_md.md)]. You can create special functions for use anywhere in the database.  
+ When you design professional applications, you often need specialized functions. C/AL lets you create functions that extend the functionality of [!INCLUDE[navnow](includes/navnow_md.md)]. You can create special functions for use anywhere in the database.  
   
- C\/AL enables you to do the following:  
+ C/AL enables you to do the following:  
   
 -   Design your own functions.  
   

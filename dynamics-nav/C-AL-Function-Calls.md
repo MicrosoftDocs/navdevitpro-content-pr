@@ -12,7 +12,7 @@ caps.latest.revision: 11
 manager: edupont
 ---
 # C-AL Function Calls
-C\/AL contains several functions that can be used for different purposes, such as string handling, text formatting, database handling, and so on. Some of these functions can use different parameters.  
+C/AL contains several functions that can be used for different purposes, such as string handling, text formatting, database handling, and so on. Some of these functions can use different parameters.  
   
 ## Parameters  
  In a function call, the parameters are separated by commas, and the optional parameters may be omitted starting from the right. For example, this means that if a function has three optional parameters, then you cannot omit the second parameter without omitting the third parameter.  
@@ -45,7 +45,7 @@ FUNCTION(, Optional2, Optional3)
 ```  
   
 ### Example 2  
- ABS is an example of a C\/AL function that has a fixed number of parameters \(1\).  
+ ABS is an example of a C/AL function that has a fixed number of parameters \(1\).  
   
 ```  
 Value := -1033; //A negative integer value  

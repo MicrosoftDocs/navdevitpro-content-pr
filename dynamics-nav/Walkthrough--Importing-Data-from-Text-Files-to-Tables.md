@@ -160,7 +160,7 @@ LS-10PC     59.59
 5.  Verify that the **Unit Price** fields in the records have been updated.  
   
     > [!NOTE]  
-    >  You can write code in the [OnBeforeModifyRecord Trigger](OnBeforeModifyRecord-Trigger.md) in the C\/AL code editor to indicate that the records have been updated.  
+    >  You can write code in the [OnBeforeModifyRecord Trigger](OnBeforeModifyRecord-Trigger.md) in the C/AL code editor to indicate that the records have been updated.  
   
 ## Next Steps  
  You might want to try importing a CSV file or exporting a fixed width text file. For information about how to import CSV files, see [Walkthrough: Exporting Data from Tables to CSV Files](Walkthrough:%20Exporting%20Data%20from%20Tables%20to%20CSV%20Files.md).  

@@ -12,7 +12,7 @@ caps.latest.revision: 11
 manager: edupont
 ---
 # RESET Function (Record)
-Removes all filters, including any special filters set by **MARKEDONLY**, and changes the current key to the primary key. Also removes any marks on the record and clears any C\/AL variables on the record.  
+Removes all filters, including any special filters set by **MARKEDONLY**, and changes the current key to the primary key. Also removes any marks on the record and clears any C/AL variables on the record.  
   
 ## Syntax  
   
@@ -31,7 +31,7 @@ Record.RESET
  **RESET** does not reset filters in filter group 1. For more information about filter groups, see [FILTERGROUP Function \(Record\)](FILTERGROUP-Function--Record-.md).  
   
 ## Example  
- This example requires that you create the following variables and text constants in the C\/AL Globals window.  
+ This example requires that you create the following variables and text constants in the C/AL Globals window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

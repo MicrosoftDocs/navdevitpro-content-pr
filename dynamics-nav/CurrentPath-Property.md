@@ -19,7 +19,7 @@ Returns the path of the current node as a text string.
 -   XMLports  
   
 ## Remarks  
- You set the **CurrentPath** property in C\/AL code on a function or trigger. For example, you can write code such as the following:  
+ You set the **CurrentPath** property in C/AL code on a function or trigger. For example, you can write code such as the following:  
   
  `currXMLport.CURRENTPATH`  
   

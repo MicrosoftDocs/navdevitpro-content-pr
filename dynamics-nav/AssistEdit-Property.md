@@ -22,7 +22,7 @@ Sets assist\-edit capabilities for a text box.
  **Yes** if assist\-edit capabilities and an AssistEdit button are provided; otherwise, **No**. The default value is **No**.  
   
 ## Remarks  
- You can add C\/AL code in the [OnAssistEdit Trigger](OnAssistEdit-Trigger.md) to change the default assist\-edit behavior.  
+ You can add C/AL code in the [OnAssistEdit Trigger](OnAssistEdit-Trigger.md) to change the default assist\-edit behavior.  
   
  In the [!INCLUDE[nav_web](includes/nav_web_md.md)], the AssistEdit button does not appear on the field when the page is in the view mode or if the field has the data type of Option.  
   

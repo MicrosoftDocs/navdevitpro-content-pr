@@ -21,7 +21,7 @@ OnBeforeOpen()
 ```  
   
 ## Remarks  
- The C\/AL code of a query object includes the OnBeforeOpen trigger that you can use to change the data that will be included in the resulting dataset. For example, you can use the OnBeforeOpen trigger to apply filters to a column.  
+ The C/AL code of a query object includes the OnBeforeOpen trigger that you can use to change the data that will be included in the resulting dataset. For example, you can use the OnBeforeOpen trigger to apply filters to a column.  
   
  The OnBeforeOpen trigger only supports local variables; global variables are not supported.  
   

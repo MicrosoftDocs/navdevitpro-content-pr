@@ -14,7 +14,7 @@ manager: edupont
 # ($ S_7007 Compile $)
 Compiles the [!INCLUDE[navnow](../includes/navnow_md.md)] table object.  
 
- Compiling the table object will check for syntax errors and obsolete construct errors in C\/AL code.  
+ Compiling the table object will check for syntax errors and obsolete construct errors in C/AL code.  
 
  To compile that table, you must set the **Synchronize Schema** field to specify how to apply the table definition changes to the business data table in SQL Server. Use the text on the **Compile** window to help you select the desired option, or for more information, see [Synchronizing Table Schemas](../Synchronizing-Table-Schemas.md).  
 

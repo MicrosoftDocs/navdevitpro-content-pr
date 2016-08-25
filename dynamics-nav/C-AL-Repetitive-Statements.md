@@ -12,7 +12,7 @@ caps.latest.revision: 16
 manager: edupont
 ---
 # C-AL Repetitive Statements
-A repetitive statement is also known as a loop. The following table shows the looping mechanisms in C\/AL.  
+A repetitive statement is also known as a loop. The following table shows the looping mechanisms in C/AL.  
   
 |Looping mechanism|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-----------------------|---------------------------------------|  
@@ -110,7 +110,7 @@ FOREACH <Element> IN <List> DO
 |mylist|DotNet|System.Collections.Generic.List\`1.'mscorlib, Version\=4.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089'|  
 |element|DotNet|System.Object.'mscorlib, Version\=4.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089'|  
   
- Add the following C\/AL code \(for example, on the OnRun trigger of the codeunit\).  
+ Add the following C/AL code \(for example, on the OnRun trigger of the codeunit\).  
   
 ```  
 // Instantiate the .NET Framework collection object  
@@ -141,7 +141,7 @@ FOREACH element IN mylist DO
 |mylist|DotNet|System.Collections.Generic.List\`1.'mscorlib, Version\=4.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089'|  
 |txt|Text||  
   
- Add the following C\/AL code to objects \(for example, on the OnRun trigger of the codeunit\).  
+ Add the following C/AL code to objects \(for example, on the OnRun trigger of the codeunit\).  
   
 ```  
 // Instantiate the .NET Framework collection object  
@@ -172,7 +172,7 @@ FOREACH txt IN mylist DO
 |mydictionary|DotNet|System.Collections.Generic.Dictionary\`2.'mscorlib, Version\=2.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089'|  
 |element|DotNet|System.Object.'mscorlib, Version\=4.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089'|  
   
- Add the following C\/AL code \(for example, on the OnRun trigger of the codeunit\).  
+ Add the following C/AL code \(for example, on the OnRun trigger of the codeunit\).  
   
 ```  
 // Instantiate the .NET Framework collection object  
@@ -205,7 +205,7 @@ FOREACH element IN mydictionary DO
 |strarray|DotNet|System.Array.'mscorlib, Version\=4.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089'|  
 |txt|Text||  
   
- Add the following C\/AL code \(for example, on the OnRun trigger of the codeunit\).  
+ Add the following C/AL code \(for example, on the OnRun trigger of the codeunit\).  
   
 ```  
 strarray := Dir.GetFileSystemEntries('C:\\myfiles\');  
@@ -270,7 +270,7 @@ END;
 |--------------|---------------|  
 |I|Integer|  
   
- The following C\/AL code increases the variable I until it equals 1000 and displays a message when it is finished.  
+ The following C/AL code increases the variable I until it equals 1000 and displays a message when it is finished.  
   
 ```  
 WHILE I < 1000 DO  
@@ -331,9 +331,9 @@ Message(’The Customer table contains %1 records.’,Count);
 EXIT([<Value>])  
 ```  
   
- An EXIT statement is used to interrupt the execution of a C\/AL trigger. The interruption occurs even when the code is executed inside a loop or a similar structure. The EXIT statement is also used when a local function should return a value.  
+ An EXIT statement is used to interrupt the execution of a C/AL trigger. The interruption occurs even when the code is executed inside a loop or a similar structure. The EXIT statement is also used when a local function should return a value.  
   
- Using EXIT without a parameter in a local function corresponds to using the parameter value 0. The C\/AL function will return the value 0 or '' \(empty string\).  
+ Using EXIT without a parameter in a local function corresponds to using the parameter value 0. The C/AL function will return the value 0 or '' \(empty string\).  
   
  A compile\-time error occurs if EXIT is called by using a return parameter from either of the following:  
   

@@ -31,7 +31,7 @@ OnAction()
  You typically use the [RunObject Property](RunObject-Property.md) to run objects such as pages, reports, and codeunits from an action. You can use the OnAction trigger when you require more processing than the [RunObject Property](RunObject-Property.md) can support, such as filtering data before a page is displayed or writing to the database.  
   
 > [!NOTE]  
->  The OnAction trigger is not used on Role Center pages. If you add C\/AL code to the trigger, the Role Center page will compile, but the C\/AL code will be ignored at runtime.  
+>  The OnAction trigger is not used on Role Center pages. If you add C/AL code to the trigger, the Role Center page will compile, but the C/AL code will be ignored at runtime.  
   
 ## See Also  
  [Page and Action Triggers](Page-and-Action-Triggers.md)

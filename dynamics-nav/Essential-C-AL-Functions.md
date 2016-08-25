@@ -12,9 +12,9 @@ caps.latest.revision: 6
 manager: edupont
 ---
 # Essential C-AL Functions
-Although there are more than 100 functions in C\/AL, there are several functions that you will use more often than the others. This does not mean that the rest of the functions are obsolete or that you will never use them. However, it does mean that if you are very familiar with this small set of essential functions, you will be able to accomplish many tasks when you are programming in C\/AL. When you want to add more specialized functionality to your applications, you can learn about more of the functions.  
+Although there are more than 100 functions in C/AL, there are several functions that you will use more often than the others. This does not mean that the rest of the functions are obsolete or that you will never use them. However, it does mean that if you are very familiar with this small set of essential functions, you will be able to accomplish many tasks when you are programming in C/AL. When you want to add more specialized functionality to your applications, you can learn about more of the functions.  
   
- The topics in this section describe the most common C\/AL functions. For more details about all of the C\/AL functions, see [C\-AL Functions](C-AL-Functions.md).  
+ The topics in this section describe the most common C/AL functions. For more details about all of the C/AL functions, see [C\-AL Functions](C-AL-Functions.md).  
   
 ## See Also  
  [GET, FIND, and NEXT Functions](GET--FIND--and-NEXT-Functions.md)   

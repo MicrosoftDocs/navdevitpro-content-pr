@@ -12,7 +12,7 @@ caps.latest.revision: 5
 manager: edupont
 ---
 # C-AL Simple Statements
-C\/AL simple statements are single\-line statements that are executed sequentially and do not alter the flow of execution of code. The following are the types of simple statements in C\/AL:  
+C/AL simple statements are single\-line statements that are executed sequentially and do not alter the flow of execution of code. The following are the types of simple statements in C/AL:  
   
 -   [C\-AL Assignment Statements](C-AL-Assignment-Statements.md)  
   

@@ -35,7 +35,7 @@ Name := File.NAME
  You must use the [OPEN Function \(File\)](OPEN-Function--File-.md) to open the file before you can use this function.  
   
 ## Example  
- The following example opens a text file that is named C:\\TestFolder\\TestFile.txt. The [NAME Function \(FILE\)](NAME-Function--File-.md) retrieves the name and path of the text file and stores it in the varName variable. The value in the variable is displayed in a message box. This example assumes that you have created a text file named C:\\TestFolder\\TestFile.txt. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ The following example opens a text file that is named C:\\TestFolder\\TestFile.txt. The [NAME Function \(FILE\)](NAME-Function--File-.md) retrieves the name and path of the text file and stores it in the varName variable. The value in the variable is displayed in a message box. This example assumes that you have created a text file named C:\\TestFolder\\TestFile.txt. This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

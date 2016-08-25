@@ -35,4 +35,4 @@ This section contains the following topics:
   
 -   For all other text fields, use the Text data type.  
   
- In addition to the system functions that are available for string data types, you can also use C\/AL operators on strings. For example, to concatenate two strings, use the \+ operator. For more information, see [C\-AL Operators](C-AL-Operators.md).
+ In addition to the system functions that are available for string data types, you can also use C/AL operators on strings. For example, to concatenate two strings, use the \+ operator. For more information, see [C\-AL Operators](C-AL-Operators.md).

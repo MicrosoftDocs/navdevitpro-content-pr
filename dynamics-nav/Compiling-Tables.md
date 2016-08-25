@@ -21,7 +21,7 @@ This topic describes requirements and restrictions for compiling a table object 
  If you cannot meet the conditions for compiling tables with validation, then you have the option to compile the table object without validation.  
   
 > [!NOTE]  
->  The information in this topic does not apply to C\/AL code changes made to a table object. With code changes, you can compile the table object like any other object.  
+>  The information in this topic does not apply to C/AL code changes made to a table object. With code changes, you can compile the table object like any other object.  
   
 ## Conditions for Compiling Tables with Validation  
  To compile a table after making schema changes, your environment must meet the following conditions:  

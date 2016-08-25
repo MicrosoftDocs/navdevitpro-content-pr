@@ -36,7 +36,7 @@ RecordRef := FieldRef.RECORD
  See also [RecordRef Data Type](RecordRef-Data-Type.md).  
   
 ## Example  
- The following example opens the Item table as a RecordRef variable that is named ItemRecref, creates a reference to field 1 \(No.\), and stores the value in the variable named MyFieldRef. The RECORD function uses the MyFieldRef variable to return the RecordRef of field 1 and stores the reference in a variable named MyRecRef. `MyRecRef.NUMBER` returns the table that the selected field belongs to. This example requires that you create the following variables and text constant in the **C\/AL Globals** windows.  
+ The following example opens the Item table as a RecordRef variable that is named ItemRecref, creates a reference to field 1 \(No.\), and stores the value in the variable named MyFieldRef. The RECORD function uses the MyFieldRef variable to return the RecordRef of field 1 and stores the reference in a variable named MyRecRef. `MyRecRef.NUMBER` returns the table that the selected field belongs to. This example requires that you create the following variables and text constant in the **C/AL Globals** windows.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

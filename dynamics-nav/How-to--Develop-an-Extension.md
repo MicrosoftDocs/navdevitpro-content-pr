@@ -35,7 +35,7 @@ You can build extension packages that add functionality to a [!INCLUDE[navnow](i
   
     1.  Use the development environment as usual to create new objects or modify ones to the extent your license allows you. Keep in mind the following rules:  
   
-        -   DO NOT make C\/AL code modifications  
+        -   DO NOT make C/AL code modifications  
   
         -   DO use subscribing to events to execute code.  
   

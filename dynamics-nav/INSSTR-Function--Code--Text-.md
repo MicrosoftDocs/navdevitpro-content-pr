@@ -52,7 +52,7 @@ NewString := INSSTR(String, SubString, Position)
  If *Position* is greater than the length of *String*, *SubString* is added at the end of *String*. For example, `INSSTR("Thomas","AAA",999)` returns 'ThomasAAA'.  
   
 ## Example  
- This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

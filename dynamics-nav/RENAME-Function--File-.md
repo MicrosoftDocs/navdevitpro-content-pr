@@ -54,7 +54,7 @@ Renames an ASCII or binary file.
  Typically the return value is **false** if the file does not exist, or if the file is a system or hidden file.  
   
 ## Example  
- The following example changes the name of a text file that is named Testfile.txt to NewTestFile.txt. The path of the file that is renamed is C:\\TestFolder\\Testfile.txt. The name and path are stored in the varOldFile variable. The new name and path of the file are stored the varNewfile variable. The RENAME function uses the variables to change the name of the file. This example assumes that you have created the following file on your computer: C:\\TestFolder\\Testfile.txt. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ The following example changes the name of a text file that is named Testfile.txt to NewTestFile.txt. The path of the file that is renamed is C:\\TestFolder\\Testfile.txt. The name and path are stored in the varOldFile variable. The new name and path of the file are stored the varNewfile variable. The RENAME function uses the variables to change the name of the file. This example assumes that you have created the following file on your computer: C:\\TestFolder\\Testfile.txt. This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

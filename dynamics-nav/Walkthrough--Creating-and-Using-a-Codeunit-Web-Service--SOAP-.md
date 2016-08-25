@@ -48,25 +48,25 @@ Web services provide easy communication and data exchange in a secured environme
   
 2.  In Object Designer, choose **Codeunit**, and then choose **New**  
   
-     The **C\/AL Editor** opens.  
+     The **C/AL Editor** opens.  
   
-3.  On the **View** menu, choose **C\/AL Globals**.  
+3.  On the **View** menu, choose **C/AL Globals**.  
   
-4.  In the **C\/AL Globals** window, choose the **Functions** tab, and then enter **Capitalize** as the function name.  
+4.  In the **C/AL Globals** window, choose the **Functions** tab, and then enter **Capitalize** as the function name.  
   
 5.  Select the **Capitalize** function, in the **View** menu, choose **Properties**, and then set the **Local** property to **No**.  
   
      Setting this property makes the function accessible from the other objects. For more information about this property, see [Local Property](Local-Property.md).  
   
-6.  In the **C\/AL Globals** window, choose the **Locals** button.  
+6.  In the **C/AL Globals** window, choose the **Locals** button.  
   
 7.  On the **Parameters** tab, type **inputstring** in the **Name** field, and then select **Text** in the **DataType** field. Set the length to **250**.  
   
 8.  On the **Return Value** tab, enter **outputstring** in the **Name** field, and then select **Text** in the **Return Type** field. Set the length to **250**.  
   
-9. Close the **C\/AL Locals** window, and then close the **C\/AL Globals** window.  
+9. Close the **C/AL Locals** window, and then close the **C/AL Globals** window.  
   
-10. In the **C\/AL Editor**, under `Capitalize`, add the following line of code:  
+10. In the **C/AL Editor**, under `Capitalize`, add the following line of code:  
   
     ```  
     outputstring := UPPERCASE(inputstring);  

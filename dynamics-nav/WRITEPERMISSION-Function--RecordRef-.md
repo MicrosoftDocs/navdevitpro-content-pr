@@ -54,7 +54,7 @@ Ok := RecordRef.WRITEPERMISSION
  This function works the same as the [WRITEPERMISSION Function \(Record\)](WRITEPERMISSION-Function--Record-.md).  
   
 ## Example  
- The following example opens table 18 \(Customer\) and creates a RecordRef variable that is named MyRecordRef for the table. The WRITEPERMISSION function determines whether the table has write permission and stores the return value in the varHasWritePerm variable. The Customer table has write permission, so the message displays **Yes**. You can initialize the varTableNo variable with any table number. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example opens table 18 \(Customer\) and creates a RecordRef variable that is named MyRecordRef for the table. The WRITEPERMISSION function determines whether the table has write permission and stores the return value in the varHasWritePerm variable. The Customer table has write permission, so the message displays **Yes**. You can initialize the varTableNo variable with any table number. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

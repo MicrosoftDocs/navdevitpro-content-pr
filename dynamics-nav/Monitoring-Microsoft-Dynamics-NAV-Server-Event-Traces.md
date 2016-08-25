@@ -19,7 +19,7 @@ Event tracing provides detailed information about what is occurring on the [!INC
   
 -   Execution of SQL statements by [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
--   Execution of C\/AL functions.  
+-   Execution of C/AL functions.  
   
 -   Windows event log events.  
   

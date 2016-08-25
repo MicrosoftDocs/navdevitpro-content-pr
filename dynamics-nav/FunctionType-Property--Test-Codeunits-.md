@@ -15,7 +15,7 @@ manager: edupont
 Sets the type of function in a test codeunit.  
   
 ## Applies To  
- C\/AL functions on test codeunits. A test codeunit is codeunit that has the [SubType Property \(Codeunit\)](SubType-Property--Codeunit-.md) set to **Test**.  
+ C/AL functions on test codeunits. A test codeunit is codeunit that has the [SubType Property \(Codeunit\)](SubType-Property--Codeunit-.md) set to **Test**.  
   
 ## Property Value  
   
@@ -36,7 +36,7 @@ Sets the type of function in a test codeunit.
 ## Remarks  
  You create test codeunits to test your application. A test codeunit can consist of one or more test functions, handler functions, and normal functions.  
   
--   You use test functions that include C\/AL code that performs a test on an area of the application. For more information, see [How to: Create Test Codeunits and Test Functions](How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md).  
+-   You use test functions that include C/AL code that performs a test on an area of the application. For more information, see [How to: Create Test Codeunits and Test Functions](How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md).  
   
 -   You use handler functions to automate tests by handling instances when user interaction is required by the code that is being tested by the test function. In these instances, the handler function is run instead of the requested user interface. The handler function should simulate the user interaction for the test case, such as validating messages, making selections, or entering values. For example, a test function that has a **FunctionType** of MessageHandler handles MESSAGE function calls. If the code that is being tested calls the MESSAGE function, then the MessageHandler function that is declared for that test function is called instead of the MESSAGE function. You write code in the MessageHandler function to verify that the expected message is displayed by the MESSAGE function.  
   

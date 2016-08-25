@@ -12,7 +12,7 @@ caps.latest.revision: 20
 manager: edupont
 ---
 # Exposing Events and Calling Respective C-AL Triggers from a Windows Client Control Add-in
-The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] pages include an all\-purpose [OnControlAddin Trigger](OnControlAddin-Trigger.md) on field controls that control add\-ins can invoke to run C\/AL code. No code is needed to introduce this event into C\/AL. To invoke the **OnControlAddIn** trigger, a control add\-in sends an event to [!INCLUDE[nav_server](includes/nav_server_md.md)], as shown in the following illustration.  
+The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] pages include an all\-purpose [OnControlAddin Trigger](OnControlAddin-Trigger.md) on field controls that control add\-ins can invoke to run C/AL code. No code is needed to introduce this event into C/AL. To invoke the **OnControlAddIn** trigger, a control add\-in sends an event to [!INCLUDE[nav_server](includes/nav_server_md.md)], as shown in the following illustration.  
   
  ![RoleTailored client control add&#45;in events](media/NAVRTCControlAddinEvents.png "NAVRTCControlAddinEvents")  
   
@@ -27,7 +27,7 @@ public class MyControlAddIn : IEventControlAddInDefinition
   
 ```  
   
- By firing the ControlAddIn event declared in the base interface, the add\-in sends data to [!INCLUDE[nav_server](includes/nav_server_md.md)] in two attributes: **Index** and **Data**. The **Index** attribute value is an integer data type. The **Data** attribute value is a text string data type. You add C\/AL code to the **OnControlAddIn** trigger to process the data.  
+ By firing the ControlAddIn event declared in the base interface, the add\-in sends data to [!INCLUDE[nav_server](includes/nav_server_md.md)] in two attributes: **Index** and **Data**. The **Index** attribute value is an integer data type. The **Data** attribute value is a text string data type. You add C/AL code to the **OnControlAddIn** trigger to process the data.  
   
 ```  
 if (this.ControlAddIn != null)  
@@ -62,7 +62,7 @@ public class MyControlAddIn : WinFormsControlAddInBase, ...
     ...  
 ```  
   
- In the example a trigger called **OnTransationChanged** will be created in the page for the respective field as soon as the add\-in is assigned to the field. You can write C\/AL code in the trigger, which will be run on the server when the add\-in on the client fires the event.  
+ In the example a trigger called **OnTransationChanged** will be created in the page for the respective field as soon as the add\-in is assigned to the field. You can write C/AL code in the trigger, which will be run on the server when the add\-in on the client fires the event.  
   
 ## See Also  
  [How to: Create a Windows Client Control Add\-in](How%20to:%20Create%20a%20Windows%20Client%20Control%20Add-in.md)   

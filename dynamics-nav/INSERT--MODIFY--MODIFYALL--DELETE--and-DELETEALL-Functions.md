@@ -24,7 +24,7 @@ The following functions maintain the database by adding, modifying, and removing
   
 -   DELETEALL  
   
- These functions are some of the most frequently used C\/AL functions.  
+ These functions are some of the most frequently used C/AL functions.  
   
  Some of these functions return an optional Boolean value that indicates whether the function succeeded. If you do not handle the return value in your code, a run\-time error occurs when a function returns FALSE. If you handle the return value by testing its value in an IF statement, no error will occur, and you must take corrective action in the code.  
   
@@ -152,4 +152,4 @@ Customer.DELETEALL;
 ```  
   
 > [!NOTE]  
->  When you use DELETEALL\(TRUE\), [!INCLUDE[navnow](includes/navnow_md.md)] creates a copy of the C\/AL variable with its initial values. This means that when you use DELETEALL\(TRUE\) to run the OnDelete trigger, all the changes that were made to the variables in the function or codeunit that is making the call cannot be seen in the OnDelete trigger. If you want to see the changes that you made to the variables, you must use DELETE\(TRUE\) in a loop. There is no difference in performance between using DELETEALL\(TRUE\) and using DELETE\(TRUE\) in a loop.
+>  When you use DELETEALL\(TRUE\), [!INCLUDE[navnow](includes/navnow_md.md)] creates a copy of the C/AL variable with its initial values. This means that when you use DELETEALL\(TRUE\) to run the OnDelete trigger, all the changes that were made to the variables in the function or codeunit that is making the call cannot be seen in the OnDelete trigger. If you want to see the changes that you made to the variables, you must use DELETE\(TRUE\) in a loop. There is no difference in performance between using DELETEALL\(TRUE\) and using DELETE\(TRUE\) in a loop.

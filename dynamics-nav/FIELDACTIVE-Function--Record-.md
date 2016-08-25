@@ -41,7 +41,7 @@ Ok := Record.FIELDACTIVE(Field)
  Each field in a record can be set as enabled or disabled in the table description. You cannot use a disabled field because disabled fields cannot contain data.  
   
 ## Example  
- This example requires that you create the following variable and text constants in the C\/AL Globals window.  
+ This example requires that you create the following variable and text constants in the C/AL Globals window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

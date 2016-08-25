@@ -32,7 +32,7 @@ DotNet := GETLASTERROROBJECT
  You use this function to retrieve and handle the last exception that occurred in the application. The System.Exception object exposes several members that enable you to get detailed information about the exception, such Exception.InnerException and Exception.Message.  
   
 ## Example  
- This example uses the GETLASTERROROBJECT function to get an exception object that occurs. In this example, the Microsoft .NET Framework objects are executed by MyCodeunit. The C\/AL code uses the InnerException property of the System.Exception object to identify whether the inner exception has the type WebException and returns an exception message accordingly.  
+ This example uses the GETLASTERROROBJECT function to get an exception object that occurs. In this example, the Microsoft .NET Framework objects are executed by MyCodeunit. The C/AL code uses the InnerException property of the System.Exception object to identify whether the inner exception has the type WebException and returns an exception message accordingly.  
   
  This example requires that you create the following variables.  
   

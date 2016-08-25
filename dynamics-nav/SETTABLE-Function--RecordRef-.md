@@ -37,7 +37,7 @@ RecordRefVar.SETTABLE(RecordVar)
 ## Example  
  This example shows that if you have a RecordID data type, you can get a RecordRef for the table that the RecordID refers to. Then you can use the RecordRef to set the table to which a Record variable refers.  
   
- This example requires that you create the following variables in the **C\/AL Globals** or **C\/AL Locals** window.  
+ This example requires that you create the following variables in the **C/AL Globals** or **C/AL Locals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

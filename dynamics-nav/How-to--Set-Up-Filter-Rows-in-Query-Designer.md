@@ -15,7 +15,7 @@ manager: edupont
 You use a Filter row in Query Designer when you want to filter the query on a field, but you do not want to include the field in the dataset. For example, you might want to filter a date field on a specific date, but you do not want to include the date in the dataset. To specify the filter for the Filter row, you set its [ColumnFilter Property](ColumnFilter-Property.md).  
   
 > [!NOTE]  
->  The filter on a Filter row is similar to a filter on a data item, except that the filter of a Filter row can be programmatically overwritten by calling the **SETFILTER** and **SETRANGE** functions from C\/AL code. For more information, see [Understanding Query Filters](Understanding-Query-Filters.md).  
+>  The filter on a Filter row is similar to a filter on a data item, except that the filter of a Filter row can be programmatically overwritten by calling the **SETFILTER** and **SETRANGE** functions from C/AL code. For more information, see [Understanding Query Filters](Understanding-Query-Filters.md).  
   
 ### To add a Filter row in a query  
   

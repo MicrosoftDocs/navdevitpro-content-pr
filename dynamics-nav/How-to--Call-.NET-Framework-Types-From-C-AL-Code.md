@@ -12,7 +12,7 @@ caps.latest.revision: 19
 manager: edupont
 ---
 # How to: Call .NET Framework Types From C-AL Code
-You can call .NET Framework type members, including methods, properties, and constructors, from C\/AL code. To call members, you define a DotNet type variable that references the .NET Framework assembly type that contains the member and then call the variable from C\/AL code of the [!INCLUDE[navnow](includes/navnow_md.md)] object. A .NET Framework interoperability example is included in this topic.  
+You can call .NET Framework type members, including methods, properties, and constructors, from C/AL code. To call members, you define a DotNet type variable that references the .NET Framework assembly type that contains the member and then call the variable from C/AL code of the [!INCLUDE[navnow](includes/navnow_md.md)] object. A .NET Framework interoperability example is included in this topic.  
   
 ### To create a variable for a .NET Framework class in an assembly  
   
@@ -27,16 +27,16 @@ You can call .NET Framework type members, including methods, properties, and con
   
 2.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], open Object Designer, and then open the object that will use .NET Framework interoperability, such as the page or codeunit.  
   
-3.  To open the C\/AL code for the object, on the **View** menu, choose **C\/AL Code**.  
+3.  To open the C/AL code for the object, on the **View** menu, choose **C/AL Code**.  
   
 4.  To create the variable for .NET Framework interoperability, do one of the following steps:  
   
-    -   To create a global variable, on the **View** menu, choose **C\/AL Globals**.  
+    -   To create a global variable, on the **View** menu, choose **C/AL Globals**.  
   
-    -   To create a local variable, on the **View** menu, choose **C\/AL Locals**.  
+    -   To create a local variable, on the **View** menu, choose **C/AL Locals**.  
   
         > [!IMPORTANT]  
-        >  A local DotNet variable, including any resources that it references, is disposed after its C\/AL function is run.  
+        >  A local DotNet variable, including any resources that it references, is disposed after its C/AL function is run.  
   
 5.  On the **Variables** tab, in the **Name** field, type a name for the variable.  
   
@@ -60,13 +60,13 @@ You can call .NET Framework type members, including methods, properties, and con
   
 ### To call methods and properties in a .NET Framework class  
   
-1.  Open the C\/AL code for the object.  
+1.  Open the C/AL code for the object.  
   
-2.  On the **View** menu, choose **C\/AL Symbol Menu**.  
+2.  On the **View** menu, choose **C/AL Symbol Menu**.  
   
-     You use the **C\/AL Symbol Menu** window to help you call members and properties of the .NET Framework class.  
+     You use the **C/AL Symbol Menu** window to help you call members and properties of the .NET Framework class.  
   
-3.  In your C\/AL code, add the following code to call the constructor that creates a new instance of the type. If you are calling a static method, then a constructor is not required, and you can skip this step.  
+3.  In your C/AL code, add the following code to call the constructor that creates a new instance of the type. If you are calling a static method, then a constructor is not required, and you can skip this step.  
   
     ```  
     MyVariableName.ConstructorName(arguments);  
@@ -87,10 +87,10 @@ You can call .NET Framework type members, including methods, properties, and con
      `MethodPropertyName` represents the name of the method or property that you want to call, and `arguments` represents any arguments of the method or property.  
   
     > [!IMPORTANT]  
-    >  Some types in the [System](http://go.microsoft.com/fwlink/?LinkID=216777&clcid=0x409) namespace of the .NET Framework class library are automatically converted to C\/AL types. You cannot assign values to .NET Framework variables for these types. For more information, see [Mapping Between .NET Framework and C\-AL Types](Mapping-Between-.NET-Framework-and-C-AL-Types.md).  
+    >  Some types in the [System](http://go.microsoft.com/fwlink/?LinkID=216777&clcid=0x409) namespace of the .NET Framework class library are automatically converted to C/AL types. You cannot assign values to .NET Framework variables for these types. For more information, see [Mapping Between .NET Framework and C\-AL Types](Mapping-Between-.NET-Framework-and-C-AL-Types.md).  
   
     > [!TIP]  
-    >  Methods can be overloaded. Therefore see the description at the bottom of the **C\/AL Symbol Menu**, which shows the parameter and return types for each method. Also, method and property names that are longer than 128 characters will be truncated, and you cannot compile the [!INCLUDE[navnow](includes/navnow_md.md)] object. For more information, see [Calling .NET Framework Members from C\-AL](Calling-.NET-Framework-Members-from-C-AL.md).  
+    >  Methods can be overloaded. Therefore see the description at the bottom of the **C/AL Symbol Menu**, which shows the parameter and return types for each method. Also, method and property names that are longer than 128 characters will be truncated, and you cannot compile the [!INCLUDE[navnow](includes/navnow_md.md)] object. For more information, see [Calling .NET Framework Members from C\-AL](Calling-.NET-Framework-Members-from-C-AL.md).  
   
 ## Example  
  The following code example uses .NET Framework interoperability to display headlines from the RSS feed http:\/\/blogs.msdn.com\/inside\_office\_online\/rss.xml. This example accesses classes in the **System.XML** assembly that is found in Global Assembly Cache. To implement this example, create a codeunit that has the following local variables:  

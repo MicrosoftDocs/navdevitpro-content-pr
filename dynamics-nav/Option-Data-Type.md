@@ -32,7 +32,7 @@ Number := PurchHeaderRec."Document Type";
 ```  
   
 ## Example  
- This example shows how you can use the value of an option field as a constant in your C\/AL code.  
+ This example shows how you can use the value of an option field as a constant in your C/AL code.  
   
 ```  
 PurchHeaderRec."Document Type" := PurchHeaderRec."Document Type"::Invoice;   

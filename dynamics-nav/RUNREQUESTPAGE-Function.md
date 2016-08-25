@@ -64,7 +64,7 @@ Parameters := REPORT.RUNREQUESTPAGE(Number[, Parameters])
 |UserId|Code|100|  
 |Parameters|BLOB||  
   
- Create a codeunit and add the following variables in the **C\/AL Globals** window.  
+ Create a codeunit and add the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|Length|  
 |-------------------|--------------|-------------|------------|  

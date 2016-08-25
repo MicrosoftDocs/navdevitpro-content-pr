@@ -18,7 +18,7 @@ Sets a variable name for the table that you have specified in the [SourceTable P
  XMLports  
   
 ## Remarks  
- The text or table variables that you define here act the same way as variables that are defined in the C\/AL Globals window. However, these variables are only visible in the C\/AL Symbol Menu.  
+ The text or table variables that you define here act the same way as variables that are defined in the C/AL Globals window. However, these variables are only visible in the C/AL Symbol Menu.  
   
  The values of the VariableName and [SourceTable Property](SourceTable-Property.md) correspond to the contents of the DataSource field in XMLport Designer. The values that you enter in these properties in the **Properties** window are shown in the DataSource field in XMLport Designer.  
   

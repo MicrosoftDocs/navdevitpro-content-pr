@@ -61,11 +61,11 @@ manager: edupont
   
 -   [STRMENU Function \(Dialog\)](STRMENU-Function--Dialog-.md)  
   
- You define text constants in the **C\/AL Globals** or **C\/AL Locals** window. When you enter a string in the **ConstValue** field, this value is automatically entered as the **ConstValueML** value for the currently selected language. You can enter a string for other languages by choosing the **AssistEdit** button in the **ConstValue** field. This opens the Multilanguage Editor. For more information, see [How to: Enter Text in the Multilanguage Editor](How%20to:%20Enter%20Text%20in%20the%20Multilanguage%20Editor.md).  
+ You define text constants in the **C/AL Globals** or **C/AL Locals** window. When you enter a string in the **ConstValue** field, this value is automatically entered as the **ConstValueML** value for the currently selected language. You can enter a string for other languages by choosing the **AssistEdit** button in the **ConstValue** field. This opens the Multilanguage Editor. For more information, see [How to: Enter Text in the Multilanguage Editor](How%20to:%20Enter%20Text%20in%20the%20Multilanguage%20Editor.md).  
   
- Text constants are automatically assigned unique IDs according to the number ranges listed in [Number Ranges for Text Constants](Number-Ranges-for-Text-Constants.md). To see the ID for a text constant, open the **C\/AL Globals** or **C\/AL Locals** window where the text constant is defined, and select the text constant. On the **View** menu, choose **Properties**.  
+ Text constants are automatically assigned unique IDs according to the number ranges listed in [Number Ranges for Text Constants](Number-Ranges-for-Text-Constants.md). To see the ID for a text constant, open the **C/AL Globals** or **C/AL Locals** window where the text constant is defined, and select the text constant. On the **View** menu, choose **Properties**.  
   
- When you are working in the C\/AL Editor, if you place the cursor on a text constant, then the value of the text constant in the current language is shown in the message line in the language that you have selected as the language.  
+ When you are working in the C/AL Editor, if you place the cursor on a text constant, then the value of the text constant in the current language is shown in the message line in the language that you have selected as the language.  
   
 ##  <a name="Caption"></a> Caption and CaptionML Properties  
  Everything that is displayed to the user must have a [Caption Property\-duplicate](Caption-Property-duplicate.md). The **Name** property must always be English \(United States\), but you use the **Caption** property to show the name in the language of the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. The **Caption** property copies the value for the language that you have specified for the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] from the [CaptionML Property](CaptionML-Property.md).  

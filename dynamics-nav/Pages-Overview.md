@@ -34,7 +34,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display 
   
  Use the Properties window to set your properties on a page. Properties work in the same way for pages as they do for other [!INCLUDE[navnow](includes/navnow_md.md)] objects, although there are several new and changed properties in pages. For more information, see [Page Properties](Page-Properties.md).  
   
- Use C\/AL Globals in Object Designer to define C\/AL triggers and functions on a page.  
+ Use C/AL Globals in Object Designer to define C/AL triggers and functions on a page.  
   
 ## Types of Pages  
  The following page types are available:  
@@ -72,7 +72,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display 
   
  Pages are metadata driven making them very flexible. They can be delivered on a wider variety of display targets which makes them more scalable. Pages have been designed to optimize performance and new enhanced controls mean that there are fewer triggers on pages than there were on forms.  
   
- You can change the behavior of pages by making changes to the properties sheet, just as you did with forms. For example you save and compile pages just like forms. You can access Properties, C\/AL code, the C\/AL Symbol Menu, C\/AL Globals, and the Field Menu by using the same shortcuts or by using the View menu, as you did in forms.  
+ You can change the behavior of pages by making changes to the properties sheet, just as you did with forms. For example you save and compile pages just like forms. You can access Properties, C/AL code, the C/AL Symbol Menu, C/AL Globals, and the Field Menu by using the same shortcuts or by using the View menu, as you did in forms.  
   
  In Object Designer, all existing page objects, and any new ones that you create are listed under the Pages button. To create a new page, you must first open the New Page dialog box and then select a page type. We recommend that you always select a page type instead of creating a blank page when you design a page.  
   

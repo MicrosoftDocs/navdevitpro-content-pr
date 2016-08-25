@@ -60,7 +60,7 @@ Adds a task to run a codeunit at a specific time.
  Scheduled tasks are recorded in table **2000000175 Scheduled Task**.  For more information about tasks and task scheduler, see managing tasks [Task Scheduler](Task-Scheduler.md).  
   
 ## Example  
- The following example schedules a task to run the **Job Queue Dispatcher** and uses codeunit **Job Queue Error Handler** as the failure codeunit. The code requires that you create the following C\/AL variable.  
+ The following example schedules a task to run the **Job Queue Dispatcher** and uses codeunit **Job Queue Error Handler** as the failure codeunit. The code requires that you create the following C/AL variable.  
   
 |Variable|DataType|SubType|  
 |--------------|--------------|-------------|  
@@ -70,7 +70,7 @@ Adds a task to run a codeunit at a specific time.
 TASKSCHEDULER.CREATETASK(CODEUNIT::"Job Queue Dispatcher", CODEUNIT::"Job Queue Error Handler", TRUE, COMPANYNAME, CURRENTDATETIME + 1000 + RANDOM(3000), JobQueueEntry.RECORDID);  
 ```  
   
- To see this code in use, you can look at the C\/AL code in codeunit **448 Job Queue Dispatcher** in the [!INCLUDE[demolong](includes/demolong_md.md)].  
+ To see this code in use, you can look at the C/AL code in codeunit **448 Job Queue Dispatcher** in the [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 ## See Also  
  [TaskScheduler Data Type](TaskScheduler-Data-Type.md)   

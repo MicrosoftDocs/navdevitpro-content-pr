@@ -51,7 +51,7 @@ Adds filter control for a table to a filter page.
 ## Example  
  The following example initializes a filter page object that includes a filter control that uses the Date system table. The filter control has the caption of **Date record**.  
   
- This example requires that you create the following variables in the **C\/AL Globals** window.  
+ This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|SubType|  
 |-------------------|--------------|-------------|  

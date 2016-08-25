@@ -21,7 +21,7 @@ Sets a value that specifies whether users must enter a value in the selected fie
 > [!IMPORTANT]  
 >  Using expressions has the limitation that number fields with default values, will be interpreted as having a value, and will not be marked with a red asterisk. For example, on the **Customer** page, on the **Credit Limit \(LCY\)** field, using an expression like **Credit Limit \(LCY\) \< 5000** will not result in a red asterisk, even if the value is below 5000, because the field already has a default value.  
 >   
->  Also, be aware that while it is possible to use an expression for the **ShowMandatory** property, the property cannot validate a C\/AL function.  
+>  Also, be aware that while it is possible to use an expression for the **ShowMandatory** property, the property cannot validate a C/AL function.  
   
 ## Applies to  
   

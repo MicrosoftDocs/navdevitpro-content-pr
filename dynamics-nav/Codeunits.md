@@ -12,14 +12,14 @@ caps.latest.revision: 8
 manager: edupont
 ---
 # Codeunits
-A codeunit is a container for C\/AL code that you can use in many application objects. This section describes codeunits and explains how to create one. It also shows you how to use the functions in a codeunit from other application objects.  
+A codeunit is a container for C/AL code that you can use in many application objects. This section describes codeunits and explains how to create one. It also shows you how to use the functions in a codeunit from other application objects.  
   
 ## Understanding Codeunits  
   
 |To|See|  
 |--------|---------|  
 |Learn the purpose and function of codeunits.|[Understanding Codeunits](Understanding-Codeunits.md)|  
-|Learn how to use the C\/AL Editor.|[Creating and Modifying Codeunits](Creating-and-Modifying-Codeunits.md)|  
+|Learn how to use the C/AL Editor.|[Creating and Modifying Codeunits](Creating-and-Modifying-Codeunits.md)|  
 |Learn how to access codeunits and limitations of codeunits.|[Using Codeunits](Using-Codeunits.md)|  
 |Follow step\-by\-step procedures that show how to use codeunits.|[Walkthrough: Using Codeunits](Walkthrough:%20Using%20Codeunits.md)|  
   

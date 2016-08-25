@@ -12,10 +12,10 @@ caps.latest.revision: 8
 manager: edupont
 ---
 # C-AL Constants
-A constant is the simplest type of operand used in C\/AL. The value of a constant cannot be changed during the execution of the code. Constants can be defined for each of the simple data types in C\/AL.  
+A constant is the simplest type of operand used in C/AL. The value of a constant cannot be changed during the execution of the code. Constants can be defined for each of the simple data types in C/AL.  
   
 > [!NOTE]  
->  Numbers such as 2,147,483,647 and 999,999,999,999,999.99 cannot be entered in the C\/AL editor in this form that uses commas. The commas are only used to increase the legibility when describing large numbers. If you use commas when you enter numbers in the C\/AL editor, a compilation error occurs.  
+>  Numbers such as 2,147,483,647 and 999,999,999,999,999.99 cannot be entered in the C/AL editor in this form that uses commas. The commas are only used to increase the legibility when describing large numbers. If you use commas when you enter numbers in the C/AL editor, a compilation error occurs.  
   
 ## Boolean Constant  
  A Boolean constant can have either the value TRUE or FALSE.  
@@ -36,7 +36,7 @@ A constant is the simplest type of operand used in C\/AL. The value of a constan
  A text constant is a character string. Unique IDs are assigned to text constants so that an ID number represents a specific text constant. Examples of text constants are error messages, messages, and warnings.  
   
 ## Examples  
- The following table shows examples of different types of C\/AL constants.  
+ The following table shows examples of different types of C/AL constants.  
   
 > [!NOTE]  
 >  The format depends on the regional format that is set on your computer. The examples in the table correspond to a computer that has the regional format set to English \(United States\).  

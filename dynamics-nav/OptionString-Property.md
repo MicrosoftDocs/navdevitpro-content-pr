@@ -21,7 +21,7 @@ Sets the option values for a field, text box, or variable. OptionString is multi
 -   Variables  
   
 ## Remarks  
- If the [OptionCaptionML Property](OptionCaptionML-Property.md) is set, then users see the OptionCaptionML values as the option values. However, the value that is used in C\/AL code or that is stored in the database will be the corresponding value from the OptionString property.  
+ If the [OptionCaptionML Property](OptionCaptionML-Property.md) is set, then users see the OptionCaptionML values as the option values. However, the value that is used in C/AL code or that is stored in the database will be the corresponding value from the OptionString property.  
   
  This allows you to present strings to users in different languages. The strings that are displayed to users are selected according to the user's current language setting. For more information, see [Multilanguage Development](Multilanguage-Development.md). If the [OptionCaptionML Property](OptionCaptionML-Property.md) is not set, then users will see the values from OptionString.  
   

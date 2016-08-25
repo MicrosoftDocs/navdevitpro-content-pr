@@ -47,13 +47,13 @@ This topic describes how to set .NET Framework objects that are instantiated by 
   
 #### To set the .NET Framework type to target the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]  
   
-1.  In Object Designer, open the C\/AL code of the [!INCLUDE[navnow](includes/navnow_md.md)] object that uses .NET Framework interoperability.  
+1.  In Object Designer, open the C/AL code of the [!INCLUDE[navnow](includes/navnow_md.md)] object that uses .NET Framework interoperability.  
   
 2.  Do one of the following steps:  
   
-    -   For a global variable, on the **View** menu, choose **C\/AL Globals**.  
+    -   For a global variable, on the **View** menu, choose **C/AL Globals**.  
   
-    -   For a local variable, select the trigger that uses the variable, and then on the **View** menu, choose **C\/AL Locals**.  
+    -   For a local variable, select the trigger that uses the variable, and then on the **View** menu, choose **C/AL Locals**.  
   
 3.  On the **Variables** tab, select the DotNet variable, and then on the **View** menu, choose **Properties**.  
   
@@ -84,9 +84,9 @@ This topic describes how to set .NET Framework objects that are instantiated by 
   
 2.  Do one of the following steps:  
   
-    -   For a global variable, on the **View** menu, choose **C\/AL Globals**.  
+    -   For a global variable, on the **View** menu, choose **C/AL Globals**.  
   
-    -   For a local variable, in the C\/AL Editor, select the trigger that uses the DotNet variable, and then on the **View** menu, choose **C\/AL Locals**.  
+    -   For a local variable, in the C/AL Editor, select the trigger that uses the DotNet variable, and then on the **View** menu, choose **C/AL Locals**.  
   
 3.  On the **Variables** tab, select the **NET Framework variable** type, and then on the **View** menu, choose **Properties**.  
   

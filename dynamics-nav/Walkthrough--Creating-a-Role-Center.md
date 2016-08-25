@@ -223,7 +223,7 @@ In this walkthrough, you will learn how to create a new Role Center for the [!IN
   
 24. Close the **Properties** window.  
   
-25. In Page Designer, select the first empty line, and on the **View** menu, choose **C\/AL code**.  
+25. In Page Designer, select the first empty line, and on the **View** menu, choose **C/AL code**.  
   
 26. Enter the following code in the OnOpenPage\(\) method:  
   
@@ -240,7 +240,7 @@ In this walkthrough, you will learn how to create a new Role Center for the [!IN
   
 27. Save the page.  
   
-28. Close the **C\/AL Editor** and then close Page Designer.  
+28. Close the **C/AL Editor** and then close Page Designer.  
   
 29. In Object Designer, choose **Run** to view the page.  
   

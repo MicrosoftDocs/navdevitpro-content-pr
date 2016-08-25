@@ -22,11 +22,11 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can display the user interface
   
      For more information, see [Developing Multilanguage\-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  
   
--   Text messages that are defined in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], such as text constants and error messages that are defined in the [\($ S\_10204 C\-AL Globals $\)](-$-S_10204-C-AL-Globals-$-.md) window or the **C\/AL Locals** window.  
+-   Text messages that are defined in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], such as text constants and error messages that are defined in the [\($ S\_10204 C\-AL Globals $\)](-$-S_10204-C-AL-Globals-$-.md) window or the **C/AL Locals** window.  
   
 -   Text messages and strings that are defined in [!INCLUDE[nav_server](includes/nav_server_md.md)] and [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
- If you are a developer or an administrator, you can add languages to the captions for application objects and to the text messages that are defined in the **C\/AL Globals** window or the **C\/AL Locals** window. To add a language to the text messages that are defined in the resource files for [!INCLUDE[nav_server](includes/nav_server_md.md)] and [!INCLUDE[nav_windows](includes/nav_windows_md.md)], special tools are required.  
+ If you are a developer or an administrator, you can add languages to the captions for application objects and to the text messages that are defined in the **C/AL Globals** window or the **C/AL Locals** window. To add a language to the text messages that are defined in the resource files for [!INCLUDE[nav_server](includes/nav_server_md.md)] and [!INCLUDE[nav_windows](includes/nav_windows_md.md)], special tools are required.  
   
 ### Language Modules and Translated Text Files  
  You can install language modules so that you can view text in the user interface in different languages. Once you have installed a language module, you change the language of the user interface in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and for users of the [!INCLUDE[nav_web](includes/nav_web_md.md)]. When you change a language in the UI, you change the language of all text that is displayed in the UI in captions for text boxes, on command buttons, in menus, and so on. For more information, see [Language Modules](Language-Modules.md).  

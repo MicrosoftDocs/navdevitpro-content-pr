@@ -19,9 +19,9 @@ You can add beep sounds to your ADCS solution. To do this, you add the keyword *
   
 2.  Choose **CodeUnit**, and from the list, select a codeunit for ADCS miniforms, for example, codeunit 7705.  
   
-3.  Choose the **Design** button. The C\/AL Editor opens.  
+3.  Choose the **Design** button. The C/AL Editor opens.  
   
-4.  On the **View** menu, choose **C\/AL Globals**.  
+4.  On the **View** menu, choose **C/AL Globals**.  
   
 5.  Choose the **Text Constants** tab.  
   

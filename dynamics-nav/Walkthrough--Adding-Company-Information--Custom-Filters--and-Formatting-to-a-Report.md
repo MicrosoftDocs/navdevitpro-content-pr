@@ -54,7 +54,7 @@ When you create a report, you can add features such as formatting, custom filter
   
 1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], in Object Designer, select the report that you created by using [Walkthrough: Designing a Report from Multiple Tables](Walkthrough:%20Designing%20a%20Report%20from%20Multiple%20Tables.md) \(Report for Multiple Tables \(50001\). Choose **Design** to open Report Dataset Designer.  
   
-2.  On the **View** menu, choose **C\/AL Globals** to open the **C\/AL Globals** window.  
+2.  On the **View** menu, choose **C/AL Globals** to open the **C/AL Globals** window.  
   
 3.  On the **Variable** tab, in the first row, in the **Name** field, enter **ReportFilters**. In the **DataType** field, choose the drop\-down arrow, select **Text**, and then in the **Length** field enter **250**.  
   
@@ -62,16 +62,16 @@ When you create a report, you can add features such as formatting, custom filter
   
 5.  In the third row, in the **Name** field, enter **ShowCustomerDetails**. In the **DataType** field, choose the drop\-down arrow, and then select **Boolean**.  
   
-6.  Close the **C\/AL Globals** window.  
+6.  Close the **C/AL Globals** window.  
   
 ## Adding a Custom Filter to the Request Page  
  Viktor will add an option control to the request page. The option control will enable users to show or hide detailed information for a customer. If the detailed information is hidden, only the customer’s number and name will be displayed on the report.  
   
 #### To add a custom filter  
   
-1.  In Report Dataset Designer, on the **View** menu, choose **C\/AL code** to open the C\/AL Editor.  
+1.  In Report Dataset Designer, on the **View** menu, choose **C/AL code** to open the C/AL Editor.  
   
-2.  In the OnPreReport trigger, add the following code: `ReportFilters := Customer.GETFILTERS;`. Close the C\/AL Editor.  
+2.  In the OnPreReport trigger, add the following code: `ReportFilters := Customer.GETFILTERS;`. Close the C/AL Editor.  
   
 3.  In Report Dataset Designer, right\-click the Cust. Ledger Entry DataItem, and then choose **New** to create a new row at the bottom of the Customer DataItem.  
   
@@ -79,7 +79,7 @@ When you create a report, you can add features such as formatting, custom filter
   
 5.  Repeat step 3 to create a new row at the bottom of the Customer DataItem.  
   
-6.  In the new empty row, in the **Data Source** field, choose the AssistEdit button to open the **C\/AL Symbol Menu** window. In the leftmost window, select **ReportFilters**, and then choose the **OK** button. In the **Name** field, enter **ReportFilters**.  
+6.  In the new empty row, in the **Data Source** field, choose the AssistEdit button to open the **C/AL Symbol Menu** window. In the leftmost window, select **ReportFilters**, and then choose the **OK** button. In the **Name** field, enter **ReportFilters**.  
   
 7.  On the **File** menu, choose **Save** to save the report.  
   
@@ -112,7 +112,7 @@ When you create a report, you can add features such as formatting, custom filter
   
 2.  In Report Dataset Designer, right\-click the Cust. Ledger Entry DataItem, and then choose **New** to create a new row at the bottom of the Customer DataItem.  
   
-3.  In the new row, in the **Data Source** field, choose the AssistEdit button to open the **C\/AL Symbol Menu** window.  
+3.  In the new row, in the **Data Source** field, choose the AssistEdit button to open the **C/AL Symbol Menu** window.  
   
 4.  In the leftmost box, select **DATABASE**. In the middle box, select **Functions**. In the rightmost box, select **COMPANYNAME**. Choose the **OK** button.  
   
@@ -132,15 +132,15 @@ When you create a report, you can add features such as formatting, custom filter
   
 2.  In Report Dataset Designer, right\-click the Cust. Ledger Entry DataItem, and then choose **New** to create a new row at the bottom of the Customer DataItem.  
   
-3.  In the new row, in the **Data Source** field, choose the AssistEdit button to open the **C\/AL Symbol Menu** window.  
+3.  In the new row, in the **Data Source** field, choose the AssistEdit button to open the **C/AL Symbol Menu** window.  
   
 4.  In the leftmost box, select **CompanyInfo**. In the middle box, select **FieldName**. In the rightmost box, select **Picture**. Choose the **OK** button.  
   
 5.  In the **Name** field, enter **Picture**.  
   
-6.  On the **View** menu, choose **C\/AL Code**.  
+6.  On the **View** menu, choose **C/AL Code**.  
   
-7.  In the **C\/AL Editor**, in the [OnInitReport Trigger](OnInitReport-Trigger.md), enter the following code.  
+7.  In the **C/AL Editor**, in the [OnInitReport Trigger](OnInitReport-Trigger.md), enter the following code.  
   
     ```  
     CompanyInfo.GET;  
@@ -148,7 +148,7 @@ When you create a report, you can add features such as formatting, custom filter
   
     ```  
   
-8.  Close the **C\/AL Editor**, save the report, and then compile the report.  
+8.  Close the **C/AL Editor**, save the report, and then compile the report.  
   
 9. On the **View** menu, choose **Layout**.  
   
@@ -185,7 +185,7 @@ When you create a report, you can add features such as formatting, custom filter
   
 6.  In the **SourceExpr** field, choose the AssistEdit button, choose **ShowCustomerDetails** from the first box, choose the **OK** button, and then close the **Request Options Page Designer** window.  
   
-7.  In Report Dataset Designer, create a new row at the bottom of the Customer DataItem. In the new row, in the **Data Source** field, choose the AssistEdit button to open the **C\/AL Symbol Menu** window.  
+7.  In Report Dataset Designer, create a new row at the bottom of the Customer DataItem. In the new row, in the **Data Source** field, choose the AssistEdit button to open the **C/AL Symbol Menu** window.  
   
 8.  In the leftmost box, select **ShowCustomerDetails**. Choose the **OK** button. In the **Name** field, enter **ShowCustomerDetails**.  
   

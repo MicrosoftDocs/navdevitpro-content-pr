@@ -46,7 +46,7 @@ NewString := COPYSTR(String, Position[, Length])
  If *Position* combined with *Length* exceeds the length of the string, all the characters from *Position* to the end of the string are returned.  
   
 ## Example  
- This example requires that you create the following variables and text constants in the C\/AL Globals window.  
+ This example requires that you create the following variables and text constants in the C/AL Globals window.  
   
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  

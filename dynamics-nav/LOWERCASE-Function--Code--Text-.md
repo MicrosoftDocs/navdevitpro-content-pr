@@ -33,7 +33,7 @@ NewString := LOWERCASE(String)
  The resulting string after it has been converted to lowercase.  
   
 ## Example  
- This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  

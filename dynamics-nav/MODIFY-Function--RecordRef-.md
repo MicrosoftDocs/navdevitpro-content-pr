@@ -33,7 +33,7 @@ Modifies a record in a table.
  *RunTrigger*  
  Type: Boolean  
   
- Specifies whether to run the C\/AL code in the [OnModify Trigger](OnModify-Trigger.md).  
+ Specifies whether to run the C/AL code in the [OnModify Trigger](OnModify-Trigger.md).  
   
  If this parameter is **true**, then the code in the **OnModify** trigger is executed. If this parameter is **false** \(default\), then the code is not executed.  
   

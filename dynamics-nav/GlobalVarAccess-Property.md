@@ -15,7 +15,7 @@ manager: edupont
 Specifies whether global variables in the object that contains the event publisher function are accessible to event subscriber functions that subscribe to the published event.  
   
 ## Applies to  
- C\/AL functions.  
+ C/AL functions.  
   
  This property is only available when the [Event Property](Event-Property.md) is set to **Publisher** and the [EventType Property](EventType-Property.md) is set to **Integration**.  
   

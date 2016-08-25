@@ -12,9 +12,9 @@ caps.latest.revision: 14
 manager: edupont
 ---
 # ($ S_10209 C-AL Symbol Menu $)
-Shows variables, functions, and objects that are defined in the **\($ S\_10204 C\/AL Globals $\)** window and provides information about the syntax and description of the variables, functions, and objects.  
+Shows variables, functions, and objects that are defined in the **\($ S\_10204 C/AL Globals $\)** window and provides information about the syntax and description of the variables, functions, and objects.  
   
- To open this window, on the **Tools** menu, choose **Object Designer**. In Object Designer, choose **Table**, **Page**, **Report**, **Codeunit**, **Query** or **XMLport**, choose the **Design** button, and then on the **View** menu, choose **C\/AL Symbol Menu**.  
+ To open this window, on the **Tools** menu, choose **Object Designer**. In Object Designer, choose **Table**, **Page**, **Report**, **Codeunit**, **Query** or **XMLport**, choose the **Design** button, and then on the **View** menu, choose **C/AL Symbol Menu**.  
   
 ## Elements  
   
@@ -23,9 +23,9 @@ Shows variables, functions, and objects that are defined in the **\($ S\_10204 C
 |Left column|List of objects and variables that are available.|  
 |Middle column|List of subcategories for the selected object or variable in the left column.|  
 |Right column|List of functions, properties, and objects that are associated with the subcategory that is selected in the middle column.|  
-|**OK** button|If selected, inserts the selected function, property, or object from the right column into the C\/AL Editor. Closes the **\($ S\_10209 C\/AL Symbol Menu $\)** window after the insertion.|  
-|**Apply** button|If selected, inserts the selected function, property, or object from the right column into the C\/AL Editor. Does not close the **\($ S\_10209 C\/AL Symbol Menu $\)** window after the insertion.|  
-|**Paste Arguments** check box|If selected, inserts arguments of functions into the C\/AL Editor.|  
+|**OK** button|If selected, inserts the selected function, property, or object from the right column into the C/AL Editor. Closes the **\($ S\_10209 C/AL Symbol Menu $\)** window after the insertion.|  
+|**Apply** button|If selected, inserts the selected function, property, or object from the right column into the C/AL Editor. Does not close the **\($ S\_10209 C/AL Symbol Menu $\)** window after the insertion.|  
+|**Paste Arguments** check box|If selected, inserts arguments of functions into the C/AL Editor.|  
 |Syntax|Displays syntax, description, and field information when it is available.|  
 |![Right arrow](media/MicrosoftDynamicsNAV_RightArrow.jpg "MicrosoftDynamicsNAV\_RightArrow")|If selected, displays the next three columns that are to the right of the current columns that are displayed.|  
 |![Left arrow](media/MicrosoftDynamicsNAV_LetfArrow.jpg "MicrosoftDynamicsNAV\_LetfArrow")|If selected, displays the previous three columns that are to the left of the current columns that are displayed.|  

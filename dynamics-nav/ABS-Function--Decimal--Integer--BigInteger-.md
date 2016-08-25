@@ -35,7 +35,7 @@ NewNumber := ABS(Number)
  The system automatically converts all of the numeric data types for you.  
   
 ## Example  
- This example shows how to remove the sign from a negative numeric value. This example requires that you create the following variables and text constant in the C\/AL Globals window.  
+ This example shows how to remove the sign from a negative numeric value. This example requires that you create the following variables and text constant in the C/AL Globals window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

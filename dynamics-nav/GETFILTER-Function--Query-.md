@@ -59,7 +59,7 @@ Query.READ;
 ```  
   
 ## Example  
- The following C\/AL code example demonstrates how to use the **GETFILTER** function on a query. The example code sets a filter on a query column, and then displays a message when the query is run that indicates the filter on the column.  
+ The following C/AL code example demonstrates how to use the **GETFILTER** function on a query. The example code sets a filter on a query column, and then displays a message when the query is run that indicates the filter on the column.  
   
  This example requires that you do the following:  
   
@@ -73,7 +73,7 @@ Query.READ;
   
     -   The ColumnFilter property of the **Quantity** column is set to include values greater than 5.  
   
-2.  Create the following C\/AL variables and text constant in the object that will run the query, such as a codeunit.  
+2.  Create the following C/AL variables and text constant in the object that will run the query, such as a codeunit.  
   
     |Variable name|DataType|Subtype|  
     |-------------------|--------------|-------------|  
@@ -84,7 +84,7 @@ Query.READ;
     |------------------------|---------------|  
     |Text000|The filter is: %1|  
   
- The following C\/AL code runs the query and displays a message that contains the filter that is set on a query column. You can add the code to a codeunit, and then run the codeunit to see the results.  
+ The following C/AL code runs the query and displays a message that contains the filter that is set on a query column. You can add the code to a codeunit, and then run the codeunit to see the results.  
   
 ```  
 // Sets a filter to display only sales quantities greater than 10. This overwrites the ColumnFilter property.  

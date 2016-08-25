@@ -27,7 +27,7 @@ USID := USERSECURITYID
  The ID that is assigned to the user by the application. This is the value of the **User Security ID** field in table 2000000120, the **User** table, for the current user.  
   
 ## Example  
- This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

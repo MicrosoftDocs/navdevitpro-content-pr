@@ -20,7 +20,7 @@ Specifies if a function is local to the object on which the function is defined.
  When you add a function, the property is set to **Yes** by default. If the value is blank, then it defaults to **No**.  
   
 ## Remarks  
- When the property is set to **Yes**, the function definition in C\/AL code includes the word **Local**.  
+ When the property is set to **Yes**, the function definition in C/AL code includes the word **Local**.  
   
  If the property is set to **No**, then the function is considered to be global, which means that is can be called and accessed from other [!INCLUDE[navnow](includes/navnow_md.md)] objects.  
   

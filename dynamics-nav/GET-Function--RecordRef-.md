@@ -43,7 +43,7 @@ Gets a record based on the ID of the record.
  This function always uses the primary key for the table. It ignores any filters that are set, except security filters. Security filters are applied or ignored based on the Security Filter Mode. The current key and filters are not changed after you call this function. For more information, see [Security Filter Modes](Security-Filter-Modes.md).  
   
 ## Example  
- The following example opens the Customer table with the RecordRef variable, RecRef. The code assigns the first field in the table, which is the No. field, to MyFieldRef variable. The variable is assigned a value of 30000 by using the [FIELD Function \(RecordRef\)](FIELD-Function--RecordRef-.md). The [RECORDID Function \(RecordRef\)](RECORDID-Function--RecordRef-.md) retrieves the record ID of the record that has a value of 30000 in the No. field. The GET function then uses the RecID variable then to retrieves the record. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ The following example opens the Customer table with the RecordRef variable, RecRef. The code assigns the first field in the table, which is the No. field, to MyFieldRef variable. The variable is assigned a value of 30000 by using the [FIELD Function \(RecordRef\)](FIELD-Function--RecordRef-.md). The [RECORDID Function \(RecordRef\)](RECORDID-Function--RecordRef-.md) retrieves the record ID of the record that has a value of 30000 in the No. field. The GET function then uses the RecID variable then to retrieves the record. This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

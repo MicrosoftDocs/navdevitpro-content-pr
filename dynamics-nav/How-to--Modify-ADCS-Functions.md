@@ -46,4 +46,4 @@ To implement or change the functionality of a miniform function, you must create
   
 2.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], open table 7702, and add a code representing the new key. This example creates a key called F6.  
   
-3.  Add C\/AL code to the relevant function of the miniform\-specific codeunit to handle the function key.
+3.  Add C/AL code to the relevant function of the miniform\-specific codeunit to handle the function key.

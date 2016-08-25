@@ -41,7 +41,7 @@ Specifies the fields that are linked between two tables using the [LinkTable Pro
   
  Setting the [LinkTable Property](LinkTable-Property.md) of the second XML item to point to the Customer table and setting the Linkfields property of the first XML item to point to the Sell\-to Customer No. field places a filter on the records in the Customer table. This means that only those records in the Sales Header table that refer to the current customer are selected.  
   
- The same result can be obtained by placing this C\/AL statement in the [OnPreXMLItem Trigger](OnPreXMLItem-Trigger.md) of the child data item.  
+ The same result can be obtained by placing this C/AL statement in the [OnPreXMLItem Trigger](OnPreXMLItem-Trigger.md) of the child data item.  
   
 ```  
 SETRANGE("Sell-to Customer No.",Customer."No.");  

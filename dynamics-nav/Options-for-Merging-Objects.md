@@ -35,7 +35,7 @@ The following sequence of events shows when objects are merged:
   
 -   Table properties.  
   
--   Local C\/AL functions on the table, including local variables.  
+-   Local C/AL functions on the table, including local variables.  
   
 -   Global variables.  
   
@@ -66,7 +66,7 @@ The following sequence of events shows when objects are merged:
   
 -   Table properties.  
   
--   Local C\/AL functions on the table, including local variables.  
+-   Local C/AL functions on the table, including local variables.  
   
 -   Global variables.  
   

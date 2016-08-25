@@ -44,7 +44,7 @@ String := RecordRef.GETPOSITION([UseNames])
  This function works just like the [GETPOSITION Function \(Record\)](GETPOSITION-Function--Record-.md).  
   
 ## Example  
- The following example opens the Customer table as a RecodRef that is named RecRef. The RecordRef variable uses the GETPOSITION function to retrieve the position of the primary key. The *UseNames* parameter is set to **true** so the name of the field that contains the primary key is returned. If you set *UseNames* to **false**, the number of the field is returned. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ The following example opens the Customer table as a RecodRef that is named RecRef. The RecordRef variable uses the GETPOSITION function to retrieve the position of the primary key. The *UseNames* parameter is set to **true** so the name of the field that contains the primary key is returned. If you set *UseNames* to **false**, the number of the field is returned. This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

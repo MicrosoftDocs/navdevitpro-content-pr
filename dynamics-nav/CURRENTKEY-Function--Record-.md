@@ -33,7 +33,7 @@ CurrentKey := Record.CURRENTKEY
  The name of the current key of *Record*.  
   
 ## Example  
- The following example returns the current key that is used in the **Customer** table and displays it in a message box. The MyRecord record is from the **Customer** table. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example returns the current key that is used in the **Customer** table and displays it in a message box. The MyRecord record is from the **Customer** table. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

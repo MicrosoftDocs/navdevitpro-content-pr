@@ -29,7 +29,7 @@ This topic describes how you can use Component Object Model \(COM\) technologies
 ## Custom Controls  
  Custom controls are OLE Control Extensions \(OCX\) or ActiveX controls, which are specific types of Automation objects. OCX and ActiveX controls are generally small programs or application objects that you can start from your [!INCLUDE[navnow](includes/navnow_md.md)] application to perform a specific function or task. You can use custom controls for various types of tasks. By default, there are several custom controls available in [!INCLUDE[navnow](includes/navnow_md.md)] from the **Tools** menu in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. To develop custom controls, you can use tools such as Microsoft Visual C\+\+ or Microsoft Visual Basic. Both products use wizards to make it easy to develop COM objects. You can also develop functional controls without understanding the complex details of COM.  
   
- If you will use existing custom controls from the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], then you do not have to know anything about COM. Using the functionality provided by a COM object is no different from using any C\/AL function.  
+ If you will use existing custom controls from the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], then you do not have to know anything about COM. Using the functionality provided by a COM object is no different from using any C/AL function.  
   
 ## See Also  
  [Extending Microsoft Dynamics NAV Using COM](Extending-Microsoft-Dynamics-NAV-Using-COM.md)   

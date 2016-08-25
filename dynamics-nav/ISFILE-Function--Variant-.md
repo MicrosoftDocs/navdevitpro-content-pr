@@ -12,7 +12,7 @@ caps.latest.revision: 7
 manager: edupont
 ---
 # ISFILE Function (Variant)
-Indicates whether a C\/AL variant contains a File variable.  
+Indicates whether a C/AL variant contains a File variable.  
   
 ## Syntax  
   
@@ -28,7 +28,7 @@ Ok := Variant.ISFILE
 ## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the C\/AL variant contains a File variable; otherwise, **false**.  
+ **true** if the C/AL variant contains a File variable; otherwise, **false**.  
   
 ## See Also  
  [Variant Data Type](Variant-Data-Type.md)

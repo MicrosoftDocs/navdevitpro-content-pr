@@ -64,7 +64,7 @@ caps.latest.revision: 16
   
 -   Creating reports for viewing and presenting data.  
   
--   Writing C\/AL code on object triggers to perform runtime operations.  
+-   Writing C/AL code on object triggers to perform runtime operations.  
   
  As you develop [!INCLUDE[nav_web](includes/nav_web_md.md)] applications, you should consider the following factors.  
   

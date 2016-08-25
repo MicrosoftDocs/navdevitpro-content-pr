@@ -73,7 +73,7 @@ Changes the value of a primary key in a table.
  When a record is renamed, the change is written and committed to the database without calling the [OnModify Trigger](OnModify-Trigger.md). This is done because renaming a record changes the primary key and updates the primary key value in all related tables. Therefore, you should use the Rename function and Modify function on a record separately.  
   
 ## Example  
- This example requires that you create the following variable in the **C\/AL Globals** window.  
+ This example requires that you create the following variable in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
@@ -85,7 +85,7 @@ ItemRec.RENAME(‘1105’);
 ```  
   
 ## Example  
- This example shows that you get an error if you attempt to rename a record after a newer version of the record has been written and committed to the database. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ This example shows that you get an error if you attempt to rename a record after a newer version of the record has been written and committed to the database. This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

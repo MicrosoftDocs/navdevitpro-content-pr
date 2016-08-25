@@ -30,7 +30,7 @@ Record.DELETEALL([RunTrigger])
  *RunTrigger*  
  Type: Boolean  
   
- Specifies whether to run the C\/AL code in the [OnDelete Trigger](OnDelete-Trigger.md).  
+ Specifies whether to run the C/AL code in the [OnDelete Trigger](OnDelete-Trigger.md).  
   
  If this parameter is **true**, then the code in the **OnDelete** trigger will be executed. If this parameter is **false**, then the code in the **OnDelete** trigger will not be executed.  
   

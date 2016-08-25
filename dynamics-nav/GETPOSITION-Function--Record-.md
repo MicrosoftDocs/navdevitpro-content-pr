@@ -38,7 +38,7 @@ String := Record.GETPOSITION([UseNames])
  The *UseNames* parameter is optional. If it is set to **true** \(default value\) or if it is empty, then the returned string contains references to field names in the table with which the record is associated. If the parameter is set to **false**, then field numbers are used instead.  
   
 ## Example  
- The following example uses the **GETPOSITION** function to retrieve the primary key of the current record \(MyRecord\) from the **Customer** table. The primary key is stored in the varPrimaryKey variable and displayed in a message box. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ The following example uses the **GETPOSITION** function to retrieve the primary key of the current record \(MyRecord\) from the **Customer** table. The primary key is stored in the varPrimaryKey variable and displayed in a message box. This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

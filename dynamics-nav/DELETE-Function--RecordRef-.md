@@ -42,7 +42,7 @@ Deletes a record in a table.
 ## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the record was deleted. **false** if the record was not deleted because it could not be found in the table, because the user did not have the correct permissions, or because the C\/AL code terminated.  
+ **true** if the record was deleted. **false** if the record was not deleted because it could not be found in the table, because the user did not have the correct permissions, or because the C/AL code terminated.  
   
  If the record is not deleted and you do not include a return value, then a run\-time error occurs. If you include the return value, then you must handle any errors.  
   
@@ -62,7 +62,7 @@ Deletes a record in a table.
  You must design your application so that you use the most up\-to\-date version of the record for modifications to the database. You use the [GET Function \(RecordRef\)](GET-Function--RecordRef-.md) to refresh the record with the latest version.  
   
 ## Example  
- The following example deletes a record from the Customer table. The code starts by opening the **Customer** table \(18\) as a RecordRef variable that is named MyRecordRef. The [FIELD Function \(RecordRef\)](FIELD-Function--RecordRef-.md) creates a FieldRef that is named MyFieldRef for field 1, which is the primary key of the **Customer** table. The [VALUE Function \(FieldRef, TestPage Field\)](VALUE-Function--FieldRef--TestPage-Field-.md) assigns the value 10000 to the field that the MyFieldRef variable refers to. The [FIND Function \(RecordRef\)](FIND-Function--RecordRef-.md) searches the table for a record with field 1 \= 10000. If the record is found, then it is deleted, the table is modified, and a message is displayed. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example deletes a record from the Customer table. The code starts by opening the **Customer** table \(18\) as a RecordRef variable that is named MyRecordRef. The [FIELD Function \(RecordRef\)](FIELD-Function--RecordRef-.md) creates a FieldRef that is named MyFieldRef for field 1, which is the primary key of the **Customer** table. The [VALUE Function \(FieldRef, TestPage Field\)](VALUE-Function--FieldRef--TestPage-Field-.md) assigns the value 10000 to the field that the MyFieldRef variable refers to. The [FIND Function \(RecordRef\)](FIND-Function--RecordRef-.md) searches the table for a record with field 1 \= 10000. If the record is found, then it is deleted, the table is modified, and a message is displayed. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

@@ -38,7 +38,7 @@ RecordRef.DELETEALL([RunTrigger])
  This function works the same way as the [DELETEALL Function \(Record\)](DELETEALL-Function--Record-.md).  
   
 ## Example  
- The following example opens table 18 \(Customer\) as a RecordRef variable that is named CustomerRecRef. The [FIELD Function \(RecordRef\)](FIELD-Function--RecordRef-.md) creates a FieldRef variable that is named MyFieldRef for field 1 \(No.\). From the No. field, the [SETRANGE Function \(FieldRef\)](SETRANGE-Function--FieldRef-.md) selects records in the range from 10000 to 20000. The number of records in the range is displayed in a message box. The DELETEALL function deletes all records in that range. The number of records is displayed again. This time, 0 is displayed because all the records in the range are deleted. This example requires that you create the following variable and text constant in the **C\/AL Globals** window.  
+ The following example opens table 18 \(Customer\) as a RecordRef variable that is named CustomerRecRef. The [FIELD Function \(RecordRef\)](FIELD-Function--RecordRef-.md) creates a FieldRef variable that is named MyFieldRef for field 1 \(No.\). From the No. field, the [SETRANGE Function \(FieldRef\)](SETRANGE-Function--FieldRef-.md) selects records in the range from 10000 to 20000. The number of records in the range is displayed in a message box. The DELETEALL function deletes all records in that range. The number of records is displayed again. This time, 0 is displayed because all the records in the range are deleted. This example requires that you create the following variable and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

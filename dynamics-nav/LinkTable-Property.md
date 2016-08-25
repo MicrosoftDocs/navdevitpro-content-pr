@@ -31,7 +31,7 @@ Sets the table that this XML item should be linked to. This property is only ava
   
  Set the **LinkTable** property of the Sales Header XML item to point to the Customer table and set the [LinkFields Property](LinkFields-Property.md) of the Sales Header XML item so that the Sell\-to Customer No. field is equal to the No. field in the Customer table. This places a filter on the records in the Customer table and ensures that only those records in the Sales Header table that refer to the customers you specified are selected and exported by the XMLport.  
   
- This corresponds to placing the following C\/AL code in the [OnPreXMLItem Trigger](OnPreXMLItem-Trigger.md) of the indented data item.  
+ This corresponds to placing the following C/AL code in the [OnPreXMLItem Trigger](OnPreXMLItem-Trigger.md) of the indented data item.  
   
 ```  
 SETRANGE("Sell-to Customer No.",Customer."No.");  

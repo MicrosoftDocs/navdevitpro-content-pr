@@ -51,7 +51,7 @@ CheckNumber :=STRCHECKSUM(String[, WeightString][, Modulus])
 ## Example  
  This example shows how to use the STRCHECKSUM function to calculate a checksum.  
   
- This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  
@@ -99,7 +99,7 @@ MESSAGE(Text000 + Text001, StrNumber, CheckSum);
   
 5.  The modulus 10 checksum is then \(10 \- Total MOD 10\) MOD 10.  
   
- This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  

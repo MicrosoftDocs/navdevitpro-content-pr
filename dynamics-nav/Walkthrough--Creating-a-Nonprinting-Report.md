@@ -12,7 +12,7 @@ caps.latest.revision: 18
 manager: edupont
 ---
 # Walkthrough: Creating a Nonprinting Report
-In this walkthrough, you will create a non\-printing report. A non\-printing report is a report that only does processing without actually outputting or printing a report. This type of processing is usually achieved by using codeunits. You use the [ProcessingOnly Property](ProcessingOnly-Property.md) of the report to make the report non\-printing without much programming. This functionality also gives you access to the request page and enables the user to filter the data before you run the report. Instead of writing C\/AL code to open tables and retrieve records, you only have to define a data item.  
+In this walkthrough, you will create a non\-printing report. A non\-printing report is a report that only does processing without actually outputting or printing a report. This type of processing is usually achieved by using codeunits. You use the [ProcessingOnly Property](ProcessingOnly-Property.md) of the report to make the report non\-printing without much programming. This functionality also gives you access to the request page and enables the user to filter the data before you run the report. Instead of writing C/AL code to open tables and retrieve records, you only have to define a data item.  
   
 ## About this Walkthrough  
  This walkthrough shows you how to create a non\-printing report that enable a user to adjust the prices in the item table. The user enters the factor by which to adjust the prices on the request page. The user can use the filters on the request page to filter the data and apply the adjustment to only the filtered data.   
@@ -89,7 +89,7 @@ This walkthrough illustrates the following tasks:
   
 #### To declare variables  
   
-1.  On the **View** menu, choose **C\/AL Globals** and declare the following variables. You will enter the variable name and the data type in the **C\/AL Globals** window. The subtype and length are not applicable.  
+1.  On the **View** menu, choose **C/AL Globals** and declare the following variables. You will enter the variable name and the data type in the **C/AL Globals** window. The subtype and length are not applicable.  
   
     |Variable name|DataType|  
     |-------------------|--------------|  
@@ -106,20 +106,20 @@ This walkthrough illustrates the following tasks:
   
 2.  In the Request Options Page Designer, on the first row, in the **Name** column, enter a name, then in the **Type** column, select **Container**, and then in the **Subtype** column, select **ContentArea**. For example, you can name the container **AdjustmentContainer**.  
   
-3.  On the second row, in the **Caption** column, enter **Enter the adjustment factor**, and in the **Type** column, select **Field**. In the **Source Expr** column, choose the **AssistEdit** button to open the **C\/AL Symbol Menu** window.  
+3.  On the second row, in the **Caption** column, enter **Enter the adjustment factor**, and in the **Type** column, select **Field**. In the **Source Expr** column, choose the **AssistEdit** button to open the **C/AL Symbol Menu** window.  
   
-4.  In the **C\/AL Symbol Menu** window, select **Adjustment**, the variable you created earlier, and choose the **OK** button. This value will be used as the factor by which the unit price will be adjusted.  
+4.  In the **C/AL Symbol Menu** window, select **Adjustment**, the variable you created earlier, and choose the **OK** button. This value will be used as the factor by which the unit price will be adjusted.  
   
 5.  Verify that the second row is indented one unit to the right and then close the Request Options Page Designer.  
   
 ## Using Triggers to Execute Code  
- Now that you have defined the data model and designed the request page, you will add C\/AL code to the triggers of the **Item** data item to calculate the actual price adjustment.  
+ Now that you have defined the data model and designed the request page, you will add C/AL code to the triggers of the **Item** data item to calculate the actual price adjustment.  
   
 #### To use the triggers to execute code  
   
 1.  In Report Dataset Designer, select the **DataItem** row.  
   
-2.  On the **View** menu, choose **C\/AL Code** to open the **C\/AL Editor**.  
+2.  On the **View** menu, choose **C/AL Code** to open the **C/AL Editor**.  
   
 3.  In the OnPreDataItem\(\) trigger, enter the following lines of code:  
   
@@ -148,7 +148,7 @@ This walkthrough illustrates the following tasks:
   
      The first statement in the `OnAfterGetRecord` trigger enters the item number in the window when a new record is retrieved. The second statement uses the value stored in the adjustment variable to adjust the unit price of the items and assigns the adjusted price to the *NewPrice* variable. The `VALIDATE` function of the Unit Price field is used to update the price of the items. Any special processing \(for example, updating of related fields\) in the `OnValidate` trigger of the table field is performed. Finally, the `MODIFY` function is used to write the change.  
   
-5.  Close the **C\/AL Editor** window and save the report.  
+5.  Close the **C/AL Editor** window and save the report.  
   
 ## Testing the Report  
  You can now test the report.  

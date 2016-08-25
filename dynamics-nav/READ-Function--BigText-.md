@@ -61,7 +61,7 @@ EmployeeRec.Picture.CREATEINSTREAM(Istream);
 Bstr.READ(Istream);  
 ```  
   
- Use the [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md) to calculate the BlobField. A BlobField is a binary large object \(maximum size 2 GB\) and must be calculated if you want to use it in C\/AL or display it in the application.  
+ Use the [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md) to calculate the BlobField. A BlobField is a binary large object \(maximum size 2 GB\) and must be calculated if you want to use it in C/AL or display it in the application.  
   
 ## See Also  
  [BigText Data Type](BigText-Data-Type.md)

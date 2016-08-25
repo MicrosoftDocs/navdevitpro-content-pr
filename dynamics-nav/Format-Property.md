@@ -15,7 +15,7 @@ manager: edupont
 Sets the formats of the source expression for various data types.  
   
 ## Applies To  
- All data types in C\/AL.  
+ All data types in C/AL.  
   
 ## Remarks  
  You can set the Format property to a predefined format, or you can build your own format. For more information, see [FORMAT Function \(Code, Text\)](FORMAT-Function--Code--Text-.md).  
@@ -27,7 +27,7 @@ Sets the formats of the source expression for various data types.
 |-----------|---------------------------------------|  
 |0|Standard Display Format \(the default for all data types\)|  
 |1|Standard Display Format 2 \(edit\)|  
-|2|C\/AL Code Constant Format|  
+|2|C/AL Code Constant Format|  
   
 > [!NOTE]  
 >  You must enter the \< and \> angle brackets, such as \<Standard Format,2\>.  

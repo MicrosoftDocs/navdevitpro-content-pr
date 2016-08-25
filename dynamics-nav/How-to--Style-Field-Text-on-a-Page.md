@@ -47,13 +47,13 @@ A page field control includes the [Style Property\-duplicate](Style-Property-dup
 ## Applying Conditional Formatting to Text in a Page Field Control  
  By using a page field's **StyleExpr** property, you can apply the format that is specified by the **Style** property to a field based on the field's data. For example, you can display text in red if the value of the field is a negative number, italic red if an item is low in stock, or bold green to indicate a favorable value, such as a high credit limit.  
   
- To set up this formatting, you define a Boolean variable and add C\/AL code to the page that evaluates the field's data. The C\/AL code should return the Boolean variable as **True** when the data meets the conditions for which you want to apply the formatting. You then set the variable on the field's **StyleExpr** property.  
+ To set up this formatting, you define a Boolean variable and add C/AL code to the page that evaluates the field's data. The C/AL code should return the Boolean variable as **True** when the data meets the conditions for which you want to apply the formatting. You then set the variable on the field's **StyleExpr** property.  
   
 #### To define a variable to use to format field text  
   
 1.  Open the page in Page Designer.  
   
-2.  On the **View** menu, choose **C\/AL Globals**.  
+2.  On the **View** menu, choose **C/AL Globals**.  
   
 3.  Define the variable, and then set the **DataType** to **Boolean**.  
   
@@ -62,7 +62,7 @@ A page field control includes the [Style Property\-duplicate](Style-Property-dup
     > [!NOTE]  
     >  If the [IncludeInDataSet Property](IncludeInDataSet-Property.md) is not set to **Yes**, then when you run the page, you will receive an error that states that the identifier variable could not be found.  
   
-5.  On the **View** menu, choose **C\/AL Code**, and then add C\/AL code that sets the variable.  
+5.  On the **View** menu, choose **C/AL Code**, and then add C/AL code that sets the variable.  
   
     > [!NOTE]  
     >  The variable must evaluate to **True**.  

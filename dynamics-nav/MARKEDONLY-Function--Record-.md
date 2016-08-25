@@ -42,7 +42,7 @@ Activates a special filter. After you use this function, your view of the table 
 ## Example  
  This example shows how to use MARK and MARKEDONLY. Assume that at first no records are marked.  
   
- This example requires that you create the following variables and text constants in the C\/AL Globals window.  
+ This example requires that you create the following variables and text constants in the C/AL Globals window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

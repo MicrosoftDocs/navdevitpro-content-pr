@@ -27,17 +27,17 @@ After creating an XMLport, you can create a codeunit to run the XMLport or run i
   
 ### To create a codeunit to run XMLports  
   
-1.  In Object Designer, select **Codeunit**, and then choose the **New** button to open the **C\/AL Editor**.  
+1.  In Object Designer, select **Codeunit**, and then choose the **New** button to open the **C/AL Editor**.  
   
      You declare variables to represent the XML document that you want to work with, which is the data file that XMLport will use.  
   
-2.  Open the **C\/AL Globals** window and declare a variable that represents the XML document. Set the **DataType** to **File**.  
+2.  Open the **C/AL Globals** window and declare a variable that represents the XML document. Set the **DataType** to **File**.  
   
 3.  Declare a second variable that represents the data stream that will be exported or imported.  
   
 4.  If the data stream is for exporting data, set the **DataType** to **OutStream**, otherwise set it to **InStream**.  
   
-5.  In the **C\/AL Editor**, in the **OnRun** trigger, add the following lines of code if the XMLport is for exporting data.  
+5.  In the **C/AL Editor**, in the **OnRun** trigger, add the following lines of code if the XMLport is for exporting data.  
   
     ```  
     varXmlFile.CREATE(“FilePath\myXmlfile.xml”);  
@@ -72,7 +72,7 @@ After creating an XMLport, you can create a codeunit to run the XMLport or run i
     |varInputStream|The input stream that the XMLport uses when importing data.|  
     |XMLportName|The name of the XMLport to use.|  
   
-6.  Close the **C\/AL Editor**. In the **Save As** dialog box, in the **ID** textbox, enter an ID for the codeunit. In the **Name** text box, enter a name for the codeunit. Verify that the **Compile** check box is selected and then choose the **OK** button.  
+6.  Close the **C/AL Editor**. In the **Save As** dialog box, in the **ID** textbox, enter an ID for the codeunit. In the **Name** text box, enter a name for the codeunit. Verify that the **Compile** check box is selected and then choose the **OK** button.  
   
 ## See Also  
  [How to: Create XMLports](How%20to:%20Create%20XMLports.md)   

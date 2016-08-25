@@ -34,7 +34,7 @@ This code example demonstrates how to use the Business Data Chart control add\-i
  *Codeunit 50000 Demo Cash Flow Chart Mgt.* contains the business logic for the cash flow chart and generates the data that is displayed in the chart.  
   
 ## Creating the Page for Displaying the Chart  
- The following code creates a CardPart type page that includes the Business Data Chart control add\-in and the C\/AL for displaying data. To create the page, copy the code to a text file, and then, in the [!INCLUDE[navnow](includes/navnow_md.md)] development environment, import the text file. After you create the page, you can use it in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For example, you can add it in a part on the Role Center page.  
+ The following code creates a CardPart type page that includes the Business Data Chart control add\-in and the C/AL for displaying data. To create the page, copy the code to a text file, and then, in the [!INCLUDE[navnow](includes/navnow_md.md)] development environment, import the text file. After you create the page, you can use it in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For example, you can add it in a part on the Role Center page.  
   
 ```  
 OBJECT Page 50000 Demo Cash Flow Chart  
@@ -96,7 +96,7 @@ ControlAddIn=[Microsoft.Dynamics.Nav.Client.BusinessChart;PublicKeyToken=31bf385
 ```  
   
 ### Understanding the Page Code  
- The following list explains some of the page’s C\/AL code:  
+ The following list explains some of the page’s C/AL code:  
   
 -   The page includes a single field that has its [ControlAddin Property](ControlAddin-Property.md) set to the Microsoft.Dynamics.Nav.Client.BusinessChart assembly, which defines the Business Data Chart control add\-in.  
   
@@ -271,11 +271,11 @@ OBJECT Codeunit 50000 Demo Cash Flow Chart Mgt.
 ```  
   
 ### Understanding the GenerateData Function  
- Codeunit **50000** accesses data in the Cust. Ledger Entry table, the Vender Ledger Entry table, and the Bank Account table. The **GenerateData** function generates the data for the cash flow chart. The following figure shows the C\/AL code for the **GenerateData** function and how it maps to the cash flow chart user interface.  
+ Codeunit **50000** accesses data in the Cust. Ledger Entry table, the Vender Ledger Entry table, and the Bank Account table. The **GenerateData** function generates the data for the cash flow chart. The following figure shows the C/AL code for the **GenerateData** function and how it maps to the cash flow chart user interface.  
   
  ![Shows the C&#47;AL for the Flow Chart codeunit](media/NAV_CSIDE_ChartControlAddin_Codeunit.png "NAV\_CSIDE\_ChartControlAddin\_Codeunit")  
   
- The C\/AL code sets the characteristics of the cash flow chart, including measure labels, chart types, and more. The functions that are called in **GenerateData** function are defined in table **485 Business Chart Buffer**. The following table describes the functions of the Business Chart Buffer table that you can use for defining the chart.  
+ The C/AL code sets the characteristics of the cash flow chart, including measure labels, chart types, and more. The functions that are called in **GenerateData** function are defined in table **485 Business Chart Buffer**. The following table describes the functions of the Business Chart Buffer table that you can use for defining the chart.  
   
 |Function|Description|Example|  
 |--------------|-----------------|-------------|  
@@ -286,7 +286,7 @@ OBJECT Codeunit 50000 Demo Cash Flow Chart Mgt.
 |SetDrillDownIndexes\(point\)|DataPointClicked|SetDrillDownIndexes\(point\);|  
   
 ### Understanding the Drill\-down Logic of the OnDataPointClicked Function  
- When you choose a data point or column in the cash flow chart, a list page appears that shows due customer ledger entries, vendor ledger entries, or bank accounts. To accomplish this, the **OnDataPointClicked** event trigger on page **50000 Demo Cash Flow Chart** is passed to the point object as a parameter. The point can then be passed on to the **SetDrillDownIndexes\(point\)** function that updates the **Drill\-Down X Index** and **Drill\-Down Measure Index** fields on the record. You use the **Drill\-Down X Index** and **Drill\-Down Measure Index** fields to retrieve the x\-axis value and measure value for filtering the list that you want to display. The following figure shows the C\/AL code on the **OnDataPointClicked** function.  
+ When you choose a data point or column in the cash flow chart, a list page appears that shows due customer ledger entries, vendor ledger entries, or bank accounts. To accomplish this, the **OnDataPointClicked** event trigger on page **50000 Demo Cash Flow Chart** is passed to the point object as a parameter. The point can then be passed on to the **SetDrillDownIndexes\(point\)** function that updates the **Drill\-Down X Index** and **Drill\-Down Measure Index** fields on the record. You use the **Drill\-Down X Index** and **Drill\-Down Measure Index** fields to retrieve the x\-axis value and measure value for filtering the list that you want to display. The following figure shows the C/AL code on the **OnDataPointClicked** function.  
   
  ![Shows the C&#47;AL code on OnDataPointClicked function](media/NAV_CSIDE_.png "NAV\_CSIDE\_")  
   

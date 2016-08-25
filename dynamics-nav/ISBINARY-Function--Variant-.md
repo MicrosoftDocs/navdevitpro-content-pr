@@ -12,7 +12,7 @@ caps.latest.revision: 7
 manager: edupont
 ---
 # ISBINARY Function (Variant)
-Indicates whether a C\/AL variant contains a Binary variable.  
+Indicates whether a C/AL variant contains a Binary variable.  
   
 ## Syntax  
   
@@ -28,7 +28,7 @@ Ok := Variant.ISBINARY
 ## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the C\/AL variant contains a Binary variable; otherwise, **false**.  
+ **true** if the C/AL variant contains a Binary variable; otherwise, **false**.  
   
 ## See Also  
  [Variant Data Type](Variant-Data-Type.md)

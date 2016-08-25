@@ -34,7 +34,7 @@ You can use several specialized functions to display messages and gather input. 
   
 -   Try to write all messages on only one line. If you want to use more than one line, then start each new line after a period instead of in the middle of a sentence.  
   
--   Do not enter the text directly in the C\/AL code. Instead, enter it as a text constant so that the message can be translated.  
+-   Do not enter the text directly in the C/AL code. Instead, enter it as a text constant so that the message can be translated.  
   
 ## Creating a Window to Indicate Progress  
  If you have an application that performs some processing that can take a long time to complete, then you should consider displaying a window that informs the user of the progress that is being made. It is always a good idea to inform the user that processes are still running.  

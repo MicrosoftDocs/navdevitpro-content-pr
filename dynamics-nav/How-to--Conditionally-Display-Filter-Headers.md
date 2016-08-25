@@ -24,13 +24,13 @@ If you apply a filter to the data in a report, then we recommend that you create
   
 2.  In Object Designer, choose **Report**, select the report that you want to modify, and then choose **Design**.  
   
-3.  On the **View** menu, choose **C\/AL Globals**.  
+3.  On the **View** menu, choose **C/AL Globals**.  
   
-4.  In the **C\/AL Globals** window, on the **Variables** tab, add a new variable for the filter. The **DataType** of the variable is Text.  
+4.  In the **C/AL Globals** window, on the **Variables** tab, add a new variable for the filter. The **DataType** of the variable is Text.  
   
-5.  On the **View** menu, choose **C\/AL Code**.  
+5.  On the **View** menu, choose **C/AL Code**.  
   
-6.  In the **C\/AL Editor**, in the **OnPreReport** trigger, add code to get the filters. For example, if you have a filter on the Customer table and the filter variable that you created is named CustFilter, then add the following code.  
+6.  In the **C/AL Editor**, in the **OnPreReport** trigger, add code to get the filters. For example, if you have a filter on the Customer table and the filter variable that you created is named CustFilter, then add the following code.  
   
     ```  
     CustFilter := Customer.GETFILTERS;  

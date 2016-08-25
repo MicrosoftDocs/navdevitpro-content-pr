@@ -38,7 +38,7 @@ Saves the resulting dataset of a query as a comma separated values \(CSV\) file.
  The ID of the query object.  
   
 > [!TIP]  
->  On the **View** menu, choose **C\/AL Symbol Menu**, choose **Query**, and then select the query from a list.  
+>  On the **View** menu, choose **C/AL Symbol Menu**, choose **Query**, and then select the query from a list.  
   
  If the query that you specify does not exist, then a run\-time error occurs.  
   

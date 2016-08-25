@@ -26,7 +26,7 @@ Record.SKIP
  A typical situation in which you will use SKIP is when you want to retrieve records from a related table by using values in the current record for forming a filter. If the values in the current record already indicate that no records from the related table will be retrieved, there is no need to perform this processing and you can use SKIP to avoid the processing.  
   
 ## Example  
- The following example shows how to use the [SKIP Function \(Report, XMLport\)](SKIP-Function--Report--XMLport-.md) to skip processing the current record if the balance field of the record is zero. Processing of records will continue until a record that has a balance of 0 is encountered. This example requires that you create the following variable in the **C\/AL Globals** window.  
+ The following example shows how to use the [SKIP Function \(Report, XMLport\)](SKIP-Function--Report--XMLport-.md) to skip processing the current record if the balance field of the record is zero. Processing of records will continue until a record that has a balance of 0 is encountered. This example requires that you create the following variable in the **C/AL Globals** window.  
   
 |Variable|DataType|  
 |--------------|--------------|  

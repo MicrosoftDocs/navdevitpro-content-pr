@@ -11,7 +11,7 @@ ms.assetid: 197f03a2-ac34-4f5f-af82-bc297bf58de8
 caps.latest.revision: 4
 ---
 # LocationOptions Overview
-When implementing location from C\/AL, there are some options that you can optionally pass to `LocationProvider.RequestLocationAsync(options)`. The options can be accessed by using `Microsoft.Dynamics.Nav.Client.Capabilities.LocationOptions` found in the `Microsoft.Dynamics.Nav.ClientExtensions` dll.  
+When implementing location from C/AL, there are some options that you can optionally pass to `LocationProvider.RequestLocationAsync(options)`. The options can be accessed by using `Microsoft.Dynamics.Nav.Client.Capabilities.LocationOptions` found in the `Microsoft.Dynamics.Nav.ClientExtensions` dll.  
   
  For most scenarios it is not necessary to specify options.  
   

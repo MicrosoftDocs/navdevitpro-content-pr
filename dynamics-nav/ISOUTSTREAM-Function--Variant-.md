@@ -12,7 +12,7 @@ caps.latest.revision: 7
 manager: edupont
 ---
 # ISOUTSTREAM Function (Variant)
-Indicates whether a C\/AL variant contains an OutStream variable.  
+Indicates whether a C/AL variant contains an OutStream variable.  
   
 ## Syntax  
   
@@ -28,7 +28,7 @@ Ok := Variant.ISOUTSTREAM
 ## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the C\/AL variant contains an OutStream variable; otherwise, **false**.  
+ **true** if the C/AL variant contains an OutStream variable; otherwise, **false**.  
   
 ## See Also  
  [Variant Data Type](Variant-Data-Type.md)

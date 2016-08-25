@@ -89,9 +89,9 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use a worksheet page type 
   
 3.  Set the **LookUp** property to **Yes**.  
   
-4.  On the **View** menu, choose **C\/AL Globals**.  
+4.  On the **View** menu, choose **C/AL Globals**.  
   
-5.  In the **Name** field, enter **CurrentJnlBatchName**, then in the **DataType** field, choose **Text**, and then close the **C\/AL Globals** window.  
+5.  In the **Name** field, enter **CurrentJnlBatchName**, then in the **DataType** field, choose **Text**, and then close the **C/AL Globals** window.  
   
 6.  Save your new page and name it **Susan's Item Journal**. Set the page **ID** to **50007** or another value in the 50000 range.  
   
@@ -148,7 +148,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use a worksheet page type 
 6.  Save and preview your page. You can now see that **Item Description** is displayed at the bottom of your worksheet page.  
   
     > [!NOTE]  
-    >  To link Item Description to Batch Lines you must add the variable **Item Description** to C\/AL Globals in Object Designer.  
+    >  To link Item Description to Batch Lines you must add the variable **Item Description** to C/AL Globals in Object Designer.  
   
 ## Adding FactBoxes  
  Simon has decided to add three FactBoxes to Susan's worksheet page:  
@@ -229,7 +229,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use a worksheet page type 
 4.  Use the same procedure to add the **RecordLinks** and **Notes** FactBoxes. Choose the **OK** button, and then run the page again. Notice that the hidden FactBoxes you added are now displayed on the page.  
   
 ## Next Steps  
- Simon has now created a basic worksheet page. He must remember to add the variables, constants, and functions necessary to make the worksheet page function correctly. He knows that he add variables, constants and functions in the C\/AL Globals or C\/AL Locals window. For information about C\/AL Globals window, see [\($ S\_10204 C\-AL Globals $\)](-$-S_10204-C-AL-Globals-$-.md). For information about C\/AL functions, see [C\-AL Functions](C-AL-Functions.md).  
+ Simon has now created a basic worksheet page. He must remember to add the variables, constants, and functions necessary to make the worksheet page function correctly. He knows that he add variables, constants and functions in the C/AL Globals or C/AL Locals window. For information about C/AL Globals window, see [\($ S\_10204 C\-AL Globals $\)](-$-S_10204-C-AL-Globals-$-.md). For information about C/AL functions, see [C\-AL Functions](C-AL-Functions.md).  
   
  For more information about adding variables, constants, and functions, see [Codeunits](Codeunits.md).  
   

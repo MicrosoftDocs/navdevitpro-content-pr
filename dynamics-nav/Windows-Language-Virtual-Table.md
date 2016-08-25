@@ -19,7 +19,7 @@ The virtual, read\-only Windows Language table displays the languages that Windo
   
 |Field name|Description|  
 |----------------|-----------------|  
-|Language ID|This field is the primary key. It displays the standard Windows language ID for a specific language.<br /><br /> C\/AL supports the setting of language using the **GLOBALLANGUAGE**, **WINDOWSLANGUAGE**, and object **LANGUAGE** properties. The values of these properties are taken from this field.|  
+|Language ID|This field is the primary key. It displays the standard Windows language ID for a specific language.<br /><br /> C/AL supports the setting of language using the **GLOBALLANGUAGE**, **WINDOWSLANGUAGE**, and object **LANGUAGE** properties. The values of these properties are taken from this field.|  
 |Primary Language ID|Windows languages are grouped. A group consists of a primary language and zero or more secondary languages. The **Primary Language ID** field contains the **Windows Language ID** of the primary language.|  
 |Name|This field contains the standard Windows name for the language|  
 |Abbreviated Name|This field is a secondary key. It contains the standard Windows three\-letter code for the language|  

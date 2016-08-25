@@ -89,7 +89,7 @@ Runs a query object and generates a dataset that can be read.
     |------------------------|---------------|  
     |Text000|Customer name \= %1, Quantity \= %2|  
   
- The following C\/AL code opens the query, reads each row of the dataset, and then displays a message that uses the content of the row. You can add the code to a codeunit, and then run the codeunit to see the results.  
+ The following C/AL code opens the query, reads each row of the dataset, and then displays a message that uses the content of the row. You can add the code to a codeunit, and then run the codeunit to see the results.  
   
 ```  
 // Sets a filter to display only sales quantities greater than 20.  

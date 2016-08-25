@@ -15,7 +15,7 @@ manager: edupont
 Specifies whether data is committed to the database during execution of a test function and whether transactions are rolled back at the end of a test function.  
   
 ## Applies To  
- C\/AL test functions on test codeunits. A test codeunit is a codeunit that has the [SubType Property \(Codeunit\)](SubType-Property--Codeunit-.md) set to **Test**.  
+ C/AL test functions on test codeunits. A test codeunit is a codeunit that has the [SubType Property \(Codeunit\)](SubType-Property--Codeunit-.md) set to **Test**.  
   
  The TransactionModel property applies to both test functions that use TestPages and test functions that do not use TestPages.  
   
@@ -28,11 +28,11 @@ Specifies whether data is committed to the database during execution of a test f
 |None|Used primarily with TestPages. The test function does not have an open write transaction; therefore, it cannot write to the database. Each interaction with the database occurs through TestPage triggers, which open their own write transactions. At the end of each trigger, if no errors occurred, then any changes are committed to the database. If an error occurred, then changes are rolled back at the end of the transaction.|  
   
 ## Remarks  
- To create meaningful tests, you must first understand how transactions run. In a typical user scenario, a user who is logged on to a client enters data into one field of a page. Then the user enters some data in another field on the page. The user also checks the value of a third field. Finally, the user saves and closes the page. Every time a user enters data into a field, C\/AL code may be triggered and a new transaction is automatically started. The trigger code runs within this new transaction. Field data is sent to the server where it is processed and often updated in the database. When the C\/AL code in the trigger is finished, the transaction is automatically committed to the database and the page is refreshed with updated data.  
+ To create meaningful tests, you must first understand how transactions run. In a typical user scenario, a user who is logged on to a client enters data into one field of a page. Then the user enters some data in another field on the page. The user also checks the value of a third field. Finally, the user saves and closes the page. Every time a user enters data into a field, C/AL code may be triggered and a new transaction is automatically started. The trigger code runs within this new transaction. Field data is sent to the server where it is processed and often updated in the database. When the C/AL code in the trigger is finished, the transaction is automatically committed to the database and the page is refreshed with updated data.  
   
  When you create test functions that exercise pages that interact with the database, you have the following options for simulating user scenarios and then returning the database to its initial, well\-known state:  
   
--   Set the **TransactionModel** property on the test function to **AutoRollback**. This assumes that the code that you test does not include calls to the **COMMIT** function. Any calls to the **COMMIT** function give you an error. Most business logic does not call the **COMMIT** function, but relies on implicit commits at the end of the outermost C\/AL trigger. The test proceeds as follows:  
+-   Set the **TransactionModel** property on the test function to **AutoRollback**. This assumes that the code that you test does not include calls to the **COMMIT** function. Any calls to the **COMMIT** function give you an error. Most business logic does not call the **COMMIT** function, but relies on implicit commits at the end of the outermost C/AL trigger. The test proceeds as follows:  
   
     1.  The test function starts a transaction.  
   
@@ -58,9 +58,9 @@ Specifies whether data is committed to the database during execution of a test f
   
     6.  After the test function is completed, changes are committed to the database. To return the database to its initial state, either you must manually revert the changes by deleting, updating, or inserting records, or you must use the [TestIsolation Property](TestIsolation-Property.md) on the test runner codeunit to roll back changes.  
   
--   Set the **TransactionModel** property on the test function to **None** to simulate the behavior of an actual user. The test function does not start a transaction and cannot write to the database. However, a new transaction is started every time that a field on the page is updated and C\/AL code is triggered. At the end of each trigger, changes are automatically committed to the database. You can use this option if your test does not write to the database and you do not have to initialize data in the database before the test starts. For example, use this option for tests that validate calculation formulas or tests that read from the database. The test proceeds as follows:  
+-   Set the **TransactionModel** property on the test function to **None** to simulate the behavior of an actual user. The test function does not start a transaction and cannot write to the database. However, a new transaction is started every time that a field on the page is updated and C/AL code is triggered. At the end of each trigger, changes are automatically committed to the database. You can use this option if your test does not write to the database and you do not have to initialize data in the database before the test starts. For example, use this option for tests that validate calculation formulas or tests that read from the database. The test proceeds as follows:  
   
-    1.  If a field on the test page is set or updated and C\/AL code is triggered, then the test page starts a transaction. At the end of the trigger, changes are committed to the database.  
+    1.  If a field on the test page is set or updated and C/AL code is triggered, then the test page starts a transaction. At the end of the trigger, changes are committed to the database.  
   
     2.  The test function validates the test.  
   
