@@ -41,7 +41,7 @@ NewString := PADSTR(String, Length[, FillCharacter])
   
  This is a string of length 1. This character is used to fill empty spaces at the end of the output string. If not specified, spaces are used as default. If the length of *FillCharacter* is not 1, an error is returned.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text constant or code  
   
  The output string. The length of the return value is *Length* characters. If the maximum \(defined\) length of *NewString* is less than *Length*, a run\-time error occurs.  

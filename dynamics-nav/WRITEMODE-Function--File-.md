@@ -33,7 +33,7 @@ Use this function before you use [OPEN Function \(File\)](OPEN-Function--File-.m
   
  **true** if the file is open for reading and writing; otherwise, **false**, if the file is open only for reading.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  The current setting of this option for the file.  

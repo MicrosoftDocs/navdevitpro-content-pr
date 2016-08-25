@@ -21,7 +21,7 @@ Indicates whether the debugger is active.
 Ok := ISACTIVE   
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the debugger is active; otherwise, **false**.  

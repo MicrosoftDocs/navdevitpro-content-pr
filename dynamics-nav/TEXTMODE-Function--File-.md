@@ -34,7 +34,7 @@ Sets whether a file should be opened as an ASCII file or a binary file. Gets the
   
  If *SetTextmode* is **true**, the file will be opened as an ASCII file. If *SetTextmode* is **false**, the file will be opened as a binary file.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  The current setting of this option for the file.  

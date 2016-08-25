@@ -24,7 +24,7 @@ Ok := Variant.ISDATE
  *Variant*  
  Type: Variant  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the C\/AL variant contains a Date variable; otherwise, **false**.  

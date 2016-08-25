@@ -31,7 +31,7 @@ Guid := Record.Media.MEDIAID
   
  Specifies the field that contains the media. This field has the **Media** data type.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: GUID  
   
  The GUID of media in the database.  

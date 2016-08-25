@@ -24,7 +24,7 @@ Name := FieldRef.NAME
  *FieldRef*  
  The FieldRef of the field in the record.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text Constant or Code  
   
  The name of the field given as input.  

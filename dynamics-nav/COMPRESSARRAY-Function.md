@@ -27,7 +27,7 @@ Moves all non\-empty strings \(text\) in an array to the beginning of the array.
   
  The string array that you want to compress.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of non\-empty strings that were compressed.  

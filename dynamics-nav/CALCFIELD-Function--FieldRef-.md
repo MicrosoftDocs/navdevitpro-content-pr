@@ -26,7 +26,7 @@ Updates FlowFields in a record.
   
  The FieldRef of the FlowField that you want to update.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if FlowField has been calculated; otherwise, **false**.  

@@ -71,7 +71,7 @@ String := FORMAT(Value[, Length][, FormatStr/FormatNumber])
 > [!NOTE]  
 >  You cannot use both *FormatNumber* and *FormatStr* at the same time.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text or code  
   
  The formatted output string.  

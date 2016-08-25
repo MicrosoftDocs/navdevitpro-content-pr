@@ -31,7 +31,7 @@ HasValue := Record.Media.Media.HASVALUE
   
  Specifies the **MediaSet** data type field of the record that includes the media.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the **Media** data type field has media data; otherwise, **false**.  

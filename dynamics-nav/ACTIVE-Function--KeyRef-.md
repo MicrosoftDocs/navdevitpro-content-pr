@@ -27,7 +27,7 @@ Ok := KeyRef.ACTIVE
   
  The keyref that refers to a key.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the key is enabled; otherwise, **false**.  

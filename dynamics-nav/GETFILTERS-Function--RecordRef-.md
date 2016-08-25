@@ -30,7 +30,7 @@ String := RecordRef.GETFILTERS
 ## Remarks  
  This function works just like the [GETFILTERS Function \(Record\)](GETFILTERS-Function--Record-.md).  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Filters that have been applied to the table that is referred to by the *RecordRef* parameter.  
   
 ## Example  

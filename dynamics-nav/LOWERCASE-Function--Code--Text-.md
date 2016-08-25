@@ -27,7 +27,7 @@ NewString := LOWERCASE(String)
   
  The string that you want to convert to lowercase. Only letters in the range A to Z and, if applicable, special language characters are converted.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text constant or code  
   
  The resulting string after it has been converted to lowercase.  

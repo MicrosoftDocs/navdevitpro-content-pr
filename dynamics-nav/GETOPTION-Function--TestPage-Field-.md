@@ -36,7 +36,7 @@ Text := TestPage.Field.GETOPTION([Index]);
   
  The index of the field that you want to get the options from. This parameter is optional.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text  
   
  The options in the field.

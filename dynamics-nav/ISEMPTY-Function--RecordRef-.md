@@ -26,7 +26,7 @@ Empty := RecordRef.ISEMPTY
   
  The RecordRef of a record that refers to a table \(possibly with filters\).  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the record or table is empty; otherwise, **false**.  

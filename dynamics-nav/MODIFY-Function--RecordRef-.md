@@ -37,7 +37,7 @@ Modifies a record in a table.
   
  If this parameter is **true**, then the code in the **OnModify** trigger is executed. If this parameter is **false** \(default\), then the code is not executed.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the record was modified; otherwise, **false**.  

@@ -20,7 +20,7 @@ Determines whether a record contains any links.
 OK := HASLINKS  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the record contains at least one link; otherwise, **false**.  

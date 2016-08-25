@@ -27,7 +27,7 @@ Name := RecordRef.NAME
   
  The RecordRef that identifies the table in which you are interested.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text \(30\)  
   
  The name of the table.  

@@ -26,7 +26,7 @@ Binds the event subscriber functions in the codeunit to the current codeunit ins
   
  The codeunit that contains the event subscribers.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the event subscriber functions bind successfully to the codeunit instance and no errors occurred; otherwise **false**.  

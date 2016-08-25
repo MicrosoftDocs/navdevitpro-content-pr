@@ -34,7 +34,7 @@ NewString := SELECTSTR(Number, CommaString)
   
  A string that contains substrings separated by commas. The maximum length of this string is 391 characters.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Option  
   
  The substring that is retrieved from *CommaString*.  

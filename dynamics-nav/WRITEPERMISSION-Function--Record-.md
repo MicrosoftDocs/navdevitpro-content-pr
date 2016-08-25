@@ -27,7 +27,7 @@ Ok := Record.WRITEPERMISSION
   
  A record in the table from which you want to determine if you have write permission.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  Specifies whether you have permission to write to the table using any of the following record functions:  

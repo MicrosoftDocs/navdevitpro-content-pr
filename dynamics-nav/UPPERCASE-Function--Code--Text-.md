@@ -27,7 +27,7 @@ NewString := UPPERCASE(String)
   
  The string that you want to convert to uppercase.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text constant or code  
   
  The resulting string after it has been converted to uppercase.  

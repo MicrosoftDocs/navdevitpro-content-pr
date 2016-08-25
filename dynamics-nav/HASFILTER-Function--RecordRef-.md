@@ -27,7 +27,7 @@ Ok := RecordRef.HASFILTER
   
  The RecordRef that is used to identify the table.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the table referred to by *RecordRef* has a filter; otherwise, **false**.  

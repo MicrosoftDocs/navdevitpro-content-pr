@@ -21,7 +21,7 @@ Gets the current transaction type and sets a new type to be assigned.
 [TransactionType :=] CURRENTTRANSACTIONTYPE([TransactionType])  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: TransactionType  
   
  The type of transaction to be set or retrieved for the next transaction.  

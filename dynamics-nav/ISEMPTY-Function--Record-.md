@@ -26,7 +26,7 @@ Empty := Record.ISEMPTY
   
  The filtered set of records that you want to check.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
 ## Remarks  

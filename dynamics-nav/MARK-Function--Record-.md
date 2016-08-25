@@ -34,7 +34,7 @@ Marks a record. You can also use this function to determine whether a record is 
   
  If this parameter is **false**, the function will remove any mark.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the record is marked; otherwise, **false**.  

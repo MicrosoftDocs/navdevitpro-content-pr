@@ -39,7 +39,7 @@ Deletes a record in a table.
   
  This parameter is optional.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the record was deleted. **false** if the record was not deleted because it could not be found in the table, because the user did not have the correct permissions, or because the C\/AL code terminated.  

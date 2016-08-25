@@ -21,7 +21,7 @@ Gets the unique identifier of the user that is logged on to the current session.
 USID := USERSECURITYID  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text or Code  
   
  The ID that is assigned to the user by the application. This is the value of the **User Security ID** field in table 2000000120, the **User** table, for the current user.  

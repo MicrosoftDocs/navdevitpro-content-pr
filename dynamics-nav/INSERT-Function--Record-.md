@@ -35,7 +35,7 @@ Inserts a record into a table.
   
  If this parameter is **true**, the code in the [OnInsert Trigger](OnInsert-Trigger.md) is executed. If this parameter is **false**, the code in the **OnInsert** trigger is not executed. The default value is **false**.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the record was inserted; otherwise, **false**.  

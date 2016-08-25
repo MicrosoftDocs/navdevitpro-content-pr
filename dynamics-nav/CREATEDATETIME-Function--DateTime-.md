@@ -36,7 +36,7 @@ DateTime := CREATEDATETIME(Date, Time)
   
  You cannot use an undefined time to create a DateTime.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: DateTime  
   
  The concatenated DateTime.  

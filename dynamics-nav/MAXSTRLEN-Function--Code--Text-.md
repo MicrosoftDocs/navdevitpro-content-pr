@@ -26,7 +26,7 @@ MaxLength := MAXSTRLEN(String)
   
  The string variable for which you want to find the maximum length.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The maximum length of the string variable.  

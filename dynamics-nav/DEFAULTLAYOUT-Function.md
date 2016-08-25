@@ -28,7 +28,7 @@ DefaultLayout := REPORT.DEFAULTLAYOUT(Number)
   
  If the report that you specify does not exist, then a run\-time error occurs.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Option  
   
  The default layout type. The value can be either **None**, **RDLC**, or **Word**.  

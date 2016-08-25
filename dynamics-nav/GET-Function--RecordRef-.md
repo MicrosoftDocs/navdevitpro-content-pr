@@ -32,7 +32,7 @@ Gets a record based on the ID of the record.
   
  The RecordID that contains the table number and the primary key of the table and is used to identify the record that you want to get.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the record was found; otherwise, **false**.  

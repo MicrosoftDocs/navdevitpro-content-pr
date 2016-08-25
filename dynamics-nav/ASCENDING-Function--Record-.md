@@ -35,7 +35,7 @@ Gets or sets the order in which the system searches through a table.
  **true** if the search is to be done in ascending order; otherwise, **false** if the search is to be done in descending order.   
 If you do not use this parameter, the function returns the current search order.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  The order in which a search will be done.  

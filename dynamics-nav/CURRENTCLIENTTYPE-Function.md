@@ -20,7 +20,7 @@ Gets the [!INCLUDE[navnow](includes/navnow_md.md)] client type that is running i
 [ClientType :=] CURRENTCLIENTTYPE  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: ClientType  
   
  The [!INCLUDE[navnow](includes/navnow_md.md)] client type for the current session, which can be one of the following values:  

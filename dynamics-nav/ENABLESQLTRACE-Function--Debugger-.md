@@ -35,7 +35,7 @@ Enables or verifies SQL tracing. If you enable SQL tracing, then SQL Server even
   
  If you specify the optional *NewIsEnabled* parameter, then the function sets whether tracing is enabled. **true** if you want to enable tracing for the specified session; **false** if you want to disable tracing. If you omit the *NewIsEnabled* parameter, then the function verifies if tracing is enabled.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if SQL tracing is enabled; otherwise, **false**.  

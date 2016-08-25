@@ -34,7 +34,7 @@ Position := STRPOS(String, SubString)
   
  The STRPOS function is case\-sensitive.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The position of *SubString* in *String*.  

@@ -27,7 +27,7 @@ Gets the current value of the [FileName Property](FileName-Property.md) of an XM
   
  The new value of the **FileName** property.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text  
   
  The current value of the **FileName** property.  

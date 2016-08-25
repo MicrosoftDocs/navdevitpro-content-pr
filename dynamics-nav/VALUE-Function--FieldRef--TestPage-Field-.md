@@ -33,7 +33,7 @@ Sets or gets the value of the field that is currently selected.
   
  The new value that you want to set for the field.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Variant  
   
  The current value of the field.  

@@ -26,7 +26,7 @@ Ok := TestPage.ISEXPANDED;
   
  The test page that contains the dataset.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the rows are expanded; otherwise, **false**.  

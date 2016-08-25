@@ -32,7 +32,7 @@ Value := Record.GETRANGEMIN(Field)
   
  The field for which you want to find the minimum value.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Depends on *Field*  
   
  Contains the minimum value of the range set for *Field*. The type of the return value must match the type of *Field*.  

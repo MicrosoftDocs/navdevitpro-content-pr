@@ -25,7 +25,7 @@ String := DECRYPT(Str)
   
  The input string that will be decrypted.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Value: Text or Code  
   
  The output string that is decrypted.  

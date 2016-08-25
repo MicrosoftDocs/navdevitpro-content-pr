@@ -34,7 +34,7 @@ Activates a special filter. After you use this function, your view of the table 
   
  If this parameter if **true**, only marked records are included. If this parameter is **false**, all records are included.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the special filter is being used; otherwise, **false**.  

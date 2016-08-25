@@ -32,7 +32,7 @@ Reads a specified number of bytes from an InStream object. Data is read in binar
   
  Describes the number of characters to be read. If you do not specify *Length*, the size of the variable is used. In the case of data types other than string, code, and binary, if you specify a length that differs from the size of the variable, you receive an error message.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The return value is the number of characters that were read.  

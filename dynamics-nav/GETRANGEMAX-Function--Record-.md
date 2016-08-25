@@ -32,7 +32,7 @@ Value := Record.GETRANGEMAX(Field)
   
  The field for which you want to find the maximum value. The current filter on *Field* must be a single range filter; otherwise, a run\-time error occurs.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Depends on *Field*  
   
  Contains the maximum value of the range set for *Field*. The type of the return value must match the type of *Field*.  

@@ -23,7 +23,7 @@ Checks if the tenant is configured to allow encryption.
 Bool ENCRYPTIONENABLED()  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Value: Boolean  
   
  Returns **true** if the tenant is configured to allow encryption, otherwise **false**.  

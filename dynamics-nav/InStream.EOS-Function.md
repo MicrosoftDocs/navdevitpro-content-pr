@@ -20,7 +20,7 @@ Indicates whether an input stream has reached End of Stream \(EOS\).
 IsEOS := InStream.EOS  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **Yes** if the stream has reached End of Stream; otherwise, **No**.  

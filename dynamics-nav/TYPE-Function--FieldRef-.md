@@ -27,7 +27,7 @@ Type := FieldRef.TYPE
   
  Refers to the current field.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: The data type of the field.  
   
 ## Example  

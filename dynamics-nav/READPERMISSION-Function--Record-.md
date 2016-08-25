@@ -26,7 +26,7 @@ Ok := Record.READPERMISSION
   
  The record in the table for which you want to check for read access.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  Specifies whether the user is granted read access to the table.  

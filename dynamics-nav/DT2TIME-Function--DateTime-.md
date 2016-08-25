@@ -27,7 +27,7 @@ Time := DT2TIME(Datetime)
   
  The DateTime of which to return the time part.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Time  
   
  The time part of the DateTime object.  

@@ -36,7 +36,7 @@ Sets a task that runs a codeunit to the ready state. The task will not run unles
   
  Specifies the recordID of the record that you want to run the task on.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if a task has been set to ready; otherwise, **false**.  

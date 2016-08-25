@@ -27,7 +27,7 @@ No := RecordID.TABLENO
   
  The RecordID of the record whose number you want returned.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of the table.  

@@ -27,7 +27,7 @@ Number := Record.COUNT
   
  Refers to the table to be counted.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of records in the table.  

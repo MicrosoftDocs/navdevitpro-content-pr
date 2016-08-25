@@ -34,7 +34,7 @@ Loads and executes the unit of C\/AL code you specify. To use this function, you
   
  This parameter is a record data type.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  If you do not include the optional return value and an error occurs while the codeunit is running, then the C\/AL code that called this codeunit will terminate.  

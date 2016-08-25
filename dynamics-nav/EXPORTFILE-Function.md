@@ -44,7 +44,7 @@ Exports the media objects in the current media set of a record to individual fil
   
 -   *type* is the media type extension.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of media files that were generated and stored in the output file path.  

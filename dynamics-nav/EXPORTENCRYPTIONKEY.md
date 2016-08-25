@@ -31,7 +31,7 @@ TempFile EXPORTENCRYPTIONKEY(pwd)
   
  Specifies the password for the encryption key file.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Value: Text  
   
  A temporary filepath to where the key is exported.  

@@ -26,7 +26,7 @@ Count := RecordRef.KEYCOUNT
   
  The RecordRef that identifies the record and the table in which you are interested.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of keys that have been identified in the table.  

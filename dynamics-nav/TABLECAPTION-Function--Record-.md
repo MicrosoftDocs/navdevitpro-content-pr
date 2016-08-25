@@ -27,7 +27,7 @@ Caption := Record.TABLECAPTION
   
  The record in the table for which to retrieve the table caption.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text or code  
   
  The caption of the table.  

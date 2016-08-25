@@ -39,7 +39,7 @@ OptionNumber := Dialog.STRMENU(OptionString [, DefaultNumber] [, Instruction])
   
  Use this optional parameter to add a description to the option values.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of the menu option that the user selected. If the user presses the Esc key to exit the menu, zero \(0\) is returned.  

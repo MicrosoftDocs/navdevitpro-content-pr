@@ -29,7 +29,7 @@ Changes the filter group that is being applied to the table. You can also use th
  *NewGroup*  
  Type: Integer  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
 ## Remarks  

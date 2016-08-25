@@ -20,7 +20,7 @@ Executes a function call and then stops at the first line of code inside the fun
 [Ok :=] STEPINTO   
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the debugger executes a function call; otherwise, **false**.  

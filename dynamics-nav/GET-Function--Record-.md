@@ -32,7 +32,7 @@ Gets a record based on values stored in primary key fields.
   
  Values in primary key fields. The data type of this parameter must match the data type of the corresponding primary key field. For example, if you enter an integer, the data type of the corresponding primary key field must also be an integer. The value 0 \(zero\) or an empty string is assigned to unspecified fields.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the record was found; otherwise, **false**.  

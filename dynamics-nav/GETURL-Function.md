@@ -69,7 +69,7 @@ Generates a URL for the specified client target that is based on the configurati
   
  Specifies whether to include filters that are defined on the object as a text string in the URL.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: String  
   
 ## Remarks  

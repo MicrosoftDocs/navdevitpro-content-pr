@@ -48,7 +48,7 @@ Ok := Record.FIND([Which])
   
  If this parameter contains '\=', '\>' or '\<', then you must assign value to all fields of the current and primary keys before you call FIND.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the record was found; otherwise, **false**.  

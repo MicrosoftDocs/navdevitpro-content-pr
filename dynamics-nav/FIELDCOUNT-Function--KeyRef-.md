@@ -26,7 +26,7 @@ No := KeyRef.FIELDCOUNT
   
  The keyref that refers to the key.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of fields that have been defined in the key.  

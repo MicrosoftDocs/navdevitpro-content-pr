@@ -41,7 +41,7 @@ NewString := CONVERTSTR(String, FromCharacters, ToCharacters)
   
  Each character in *FromCharacters* is replaced with the corresponding character in *ToCharacters*.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text constant or code  
   
  The converted string.  

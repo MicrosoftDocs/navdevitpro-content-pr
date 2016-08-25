@@ -45,7 +45,7 @@ NewDateTime := ROUNDDATETIME(Datetime [, Precision][, Direction])
   
 -   '\<' rounds down  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: DateTime  
   
  The rounded result.  

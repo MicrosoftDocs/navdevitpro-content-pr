@@ -42,7 +42,7 @@ Reads from an MS\-DOS encoded file or binary file.
   
  **READ is not supported for Text without a maximum length.**  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of bytes read.  

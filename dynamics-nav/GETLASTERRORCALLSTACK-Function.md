@@ -21,7 +21,7 @@ Gets the call stack from where the last error occurred.
 String := GETLASTERRORCALLSTACK  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text  
   
  A text string that contains the call stack from where the error occurred.  

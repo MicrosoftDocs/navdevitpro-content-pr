@@ -56,7 +56,7 @@ Sends a file from a [!INCLUDE[nav_server](includes/nav_server_md.md)] computer t
   
  The name to give the downloaded file. This is the default file name that is shown in the dialog box for downloading the file. This value can be changed by the user.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  If you omit this optional return value, then a run\-time error occurs if the file cannot be found. If you include a return value, then it is assumed that you will handle any errors.  

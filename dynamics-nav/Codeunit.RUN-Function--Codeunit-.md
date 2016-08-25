@@ -39,7 +39,7 @@ Loads and executes the unit of C\/AL code that you specify. See also [RUN Functi
   
  Specifies a record from the table that is associated with the codeunit in the **TableNo** property.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  If you do not include the optional return value and an error occurs when the codeunit is running, then the C\/AL code that called this codeunit will end.  

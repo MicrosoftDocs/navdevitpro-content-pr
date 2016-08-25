@@ -26,7 +26,7 @@ Ok := Record.HASFILTER
   
  The record within the current filter group to check for a filter.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if there is a filter; otherwise, **false**.  

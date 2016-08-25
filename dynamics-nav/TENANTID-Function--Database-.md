@@ -22,7 +22,7 @@ Gets the ID of the tenant that has started the current session.
 ID := TENANTID  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text  
   
  The ID of the tenant that has started the current session.  

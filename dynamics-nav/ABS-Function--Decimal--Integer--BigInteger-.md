@@ -26,7 +26,7 @@ NewNumber := ABS(Number)
   
  The input value.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The return value is greater than or equal to 0 \(zero\).  

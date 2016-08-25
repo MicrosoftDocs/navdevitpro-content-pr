@@ -48,7 +48,7 @@ Adds a media file, such as a jpeg image, to the **MediaSet** data type field of 
   
  If this parameter is not specified, the IMPORTFILE function will deduct the MIME type from the file extension. For example the MIME type for a .jpg file is image\/jpeg.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: GUID  
   
  The unique ID assigned to the MediaSet of the record. This ID can be retrieved by using the [MEDIAID Function \(MediaSet\)](MEDIAID-Function--MediaSet-.md).  

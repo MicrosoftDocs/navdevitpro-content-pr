@@ -26,7 +26,7 @@ RecordRef := KeyRef.RECORD
   
  The keyref that refers to the key that is currently selected.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: RecordRef  
   
  The RecordRef of the record that is currently selected referenced by the key. If a key is not selected, an error is returned.  

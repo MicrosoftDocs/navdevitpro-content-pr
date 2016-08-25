@@ -30,7 +30,7 @@ Guid := Record.MediaSet.MEDIAID
   
  Specifies the field that includes the media. This field has the **MediaSet** data type.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: GUID  
   
  The GUID of MediaSet of the record.  

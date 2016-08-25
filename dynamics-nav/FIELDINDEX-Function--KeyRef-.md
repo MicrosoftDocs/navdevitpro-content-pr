@@ -31,7 +31,7 @@ FieldRef := KeyRef.FIELDINDEX(Index)
   
  The input index.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: FieldRef  
   
  The FieldRef that refers to the field with this index in the key.  

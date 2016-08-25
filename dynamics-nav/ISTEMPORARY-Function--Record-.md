@@ -27,7 +27,7 @@ Temp := Record.ISTEMPORARY
   
  A record that refers to a table.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the record refers to a temporary table; otherwise, **false**.  

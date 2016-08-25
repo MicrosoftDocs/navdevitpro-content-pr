@@ -33,7 +33,7 @@ Sets the FlowFields that you specify to be automatically calculated when the rec
   
  To remove the automatic calculation setting on a field that you previously set with the **SETAUTOCALCFIELDS** function, you must call **SETAUTOCALCFIELDS** without parameters.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the record was set successfully; otherwise, **false**. If you omit this optional return value and if the record cannot be set to automatically calculate, then a run\-time error occurs. If you include a return value, then you must handle any errors.  

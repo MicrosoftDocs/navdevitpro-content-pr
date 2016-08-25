@@ -21,7 +21,7 @@ Gets the current DateTime.
 DateTime := CURRENTDATETIME  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: DateTime  
   
  The current DateTime.  

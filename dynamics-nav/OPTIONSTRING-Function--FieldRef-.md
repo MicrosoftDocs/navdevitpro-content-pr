@@ -27,7 +27,7 @@ OptionString := FieldRef.OPTIONSTRING
   
  Refers to the current field.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text  
   
  The list of options that is available in the field.  

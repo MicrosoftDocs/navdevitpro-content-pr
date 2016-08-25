@@ -20,7 +20,7 @@ Deactivates the debugger.
 [Ok :=] DEACTIVATE  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the debugger is deactivated successfully; otherwise, **false**.  

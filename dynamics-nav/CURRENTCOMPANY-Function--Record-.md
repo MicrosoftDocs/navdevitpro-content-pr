@@ -27,7 +27,7 @@ CurrentCompany := Record.CURRENTCOMPANY
   
  A record that refers to the table for which you want to find the company that is currently in use.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text or code  
   
  The name of the current company of *Record*.  

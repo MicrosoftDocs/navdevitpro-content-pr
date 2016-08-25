@@ -29,7 +29,7 @@ Finds the first record in a table based on the current key and filter.
   
  If the record is not found and if you omit the return value, then a run\-time error occurs.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the record was found; otherwise, **false**.  

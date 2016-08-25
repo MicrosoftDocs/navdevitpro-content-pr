@@ -27,7 +27,7 @@ Name := Record.TABLENAME
   
  The record in the table for which you want to find the table name.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text or code  
   
  The name of the table.  

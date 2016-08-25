@@ -37,7 +37,7 @@ Date := DMY2DATE(Day [, Month] [, Year])
   
  The four\-digit number of the year. If you omit this optional parameter, the current year is used as the default.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Date  
   
  The resulting date.  

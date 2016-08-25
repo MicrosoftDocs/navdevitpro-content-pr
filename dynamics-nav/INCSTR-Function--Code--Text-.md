@@ -27,7 +27,7 @@ NewString := INCSTR(String)
   
  The string that you want to increase or decrease.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text constant or code  
   
  The result after increasing or decreasing *String*.  

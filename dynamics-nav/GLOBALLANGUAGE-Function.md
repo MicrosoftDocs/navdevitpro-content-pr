@@ -25,7 +25,7 @@ Gets and sets the current global language setting.
  *NewLanguageID*  
  Type: Integer  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
 ## Remarks  

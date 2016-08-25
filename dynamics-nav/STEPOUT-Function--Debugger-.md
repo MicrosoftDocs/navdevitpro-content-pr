@@ -20,7 +20,7 @@ Enables debugging to return to the calling function after it steps into a functi
 [Ok :=] STEPOUT   
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the debugger returns to the calling function; otherwise, **false**.  

@@ -33,7 +33,7 @@ Gets or sets the current key of the table referred to by the *RecordRef*. The cu
   
  The number of the new key.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of the current key.  

@@ -36,7 +36,7 @@ Gets part of a BigText variable.
   
  The length of the subtext that should be retrieved. This parameter is optional. If this parameter is omitted the function retrieves a subtext that starts at *Position* and runs to the end of the BigText variable. If this parameter is less than 0, then a run\-time error occurs. If the value of the *Position* parameter plus the value of this parameter is greater than the length of the BigText variable, then the remainder of the BigText variable from the position specified by this parameter is returned.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The length of the string that is retrieved from the variable.  

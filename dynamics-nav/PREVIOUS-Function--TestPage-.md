@@ -27,7 +27,7 @@ OK := TestPage.PREVIOUS
   
  The test page variable that you use to refer to the test page.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the current row was set to the previous row in the dataset successfully; otherwise, **false**.  

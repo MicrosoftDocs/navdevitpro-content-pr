@@ -27,7 +27,7 @@ Calculates the total of all values of a SumIndexField in a table.
   
  Refers to the SumIndexField for which you want to calculate a sum.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  If you omit this optional return value and if the field is not [SumIndexField Technology \(SIFT\)](SumIndexField-Technology--SIFT-.md), then a run\-time error occurs. If you include a return value, you must handle any errors.  

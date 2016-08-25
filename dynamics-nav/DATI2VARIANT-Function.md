@@ -32,7 +32,7 @@ Variant := DATI2VARIANT(Date, Time)
   
  The input time.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Variant  
   
 ## Example  

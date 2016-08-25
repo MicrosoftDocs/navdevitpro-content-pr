@@ -42,7 +42,7 @@ Saves a report on the computer that is running [!INCLUDE[nav_server](includes/na
  *ReportVariable*  
  The report that you want to run.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the report was saved; otherwise, **false**.  

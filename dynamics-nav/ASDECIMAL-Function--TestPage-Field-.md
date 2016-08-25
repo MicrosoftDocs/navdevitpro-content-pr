@@ -31,7 +31,7 @@ Decimal := TestPage.Field.ASDECIMAL
   
  The field that contains the value that you want to convert.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Decimal  
   
  The converted value.  

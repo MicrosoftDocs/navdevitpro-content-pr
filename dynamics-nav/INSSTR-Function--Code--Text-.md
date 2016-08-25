@@ -39,7 +39,7 @@ NewString := INSSTR(String, SubString, Position)
   
  If *Position* is greater than the length of *String*, then the result is concatenated and copied to *NewString*.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text constant or code  
   
  The result after *SubString* is inserted into *String*.  

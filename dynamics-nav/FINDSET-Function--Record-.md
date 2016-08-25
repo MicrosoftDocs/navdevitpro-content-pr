@@ -49,7 +49,7 @@ Finds a set of records in a table based on the current key and filter.
   
  The default value is **false**.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the record set was found; otherwise, **false**.  

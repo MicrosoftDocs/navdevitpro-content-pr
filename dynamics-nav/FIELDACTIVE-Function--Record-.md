@@ -32,7 +32,7 @@ Ok := Record.FIELDACTIVE(Field)
   
  The field that you want to check.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the field is enabled; otherwise, **false**.  

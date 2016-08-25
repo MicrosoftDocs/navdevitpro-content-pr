@@ -38,7 +38,7 @@ Opens an ASCII or binary file. This function does not create the file if it does
   
  For more information, see [Text Encoding](Text-Encoding.md).  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  Specifies whether the file was opened. If you omit this optional return value and if the file cannot be found, then a run\-time error occurs.  

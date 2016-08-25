@@ -36,7 +36,7 @@ Exports the current media type \(such as jpeg image\) that is used on record to 
   
  Specifies the full path and name of the file to create for the exported media.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the media was successfully exported; otherwise, **false**.  

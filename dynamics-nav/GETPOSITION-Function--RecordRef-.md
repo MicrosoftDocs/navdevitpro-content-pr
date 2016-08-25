@@ -35,7 +35,7 @@ String := RecordRef.GETPOSITION([UseNames])
   
  This parameter is optional.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text or code  
   
  The name or number of the field that contains the primary key.  

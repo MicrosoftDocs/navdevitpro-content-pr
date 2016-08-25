@@ -32,7 +32,7 @@ TableNumber := Record.RELATION(Field)
   
  The field for which you want to find the table relationship.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of the table that has a relationship with *Field*. This relationship is set up through the properties.  

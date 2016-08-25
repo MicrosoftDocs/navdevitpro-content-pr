@@ -32,7 +32,7 @@ Selects a key for a table.
   
  One or more fields that identify the key that you want to select.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the key was selected; otherwise, **false**.  

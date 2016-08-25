@@ -21,7 +21,7 @@ Gets the current Windows language setting.
 LanguageID := WINDOWSLANGUAGE  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
 ## Remarks  

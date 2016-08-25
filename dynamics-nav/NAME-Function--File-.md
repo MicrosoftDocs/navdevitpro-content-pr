@@ -26,7 +26,7 @@ Name := File.NAME
   
  Use this variable to refer the file.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text or Code  
   
  This string contains the name of the file, including its path.  

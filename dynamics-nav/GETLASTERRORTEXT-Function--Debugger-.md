@@ -21,7 +21,7 @@ Gets the last error that occurred in the debugger.
 String := GETLASTERRORTEXT  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text  
   
  A text that represents the last error that occurred.  

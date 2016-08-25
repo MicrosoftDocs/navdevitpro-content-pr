@@ -26,7 +26,7 @@ Count := TestPage.VALIDATIONERRORCOUNT
   
  The test page variable that you use to refer to the test page.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of validation errors that occurred on the test page.  

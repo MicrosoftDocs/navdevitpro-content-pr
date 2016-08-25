@@ -31,7 +31,7 @@ Writes text to an OutStream object.
   
  The number of characters to be written.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of characters that were written.  

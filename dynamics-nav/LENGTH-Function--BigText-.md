@@ -20,7 +20,7 @@ Retrieves the length of a BigText variable.
 Length := BigText.LENGTH  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The length of the BigText variable.  

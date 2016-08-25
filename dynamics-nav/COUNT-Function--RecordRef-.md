@@ -27,7 +27,7 @@ Number := RecordRef.COUNT
   
  The RecordRef that refers to the table.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of records in the table.  

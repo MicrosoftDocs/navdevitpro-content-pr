@@ -31,7 +31,7 @@ Number := Record.MediaSet.COUNT
   
  Specifies the MediaSet data type field for the record.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of media files that are associated with the MediaSet of the record.  

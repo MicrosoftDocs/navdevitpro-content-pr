@@ -36,7 +36,7 @@ NewString := STRSUBSTNO(String [,Value1, …])
   
  One or more values \(expressions\) that you want to insert into *String*. You can specify up to 10 values.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text constant or Code  
   
  The resulting string, after the corresponding values have been substituted into the '\#' and '%' fields.  

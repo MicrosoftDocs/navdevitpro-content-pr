@@ -26,7 +26,7 @@ TableNumber := FieldRef.RELATION
   
  The FieldRef that refers to the field for which you want to find the table relationship.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of the table that has a relationship with the field referred to by *FieldRef*.  

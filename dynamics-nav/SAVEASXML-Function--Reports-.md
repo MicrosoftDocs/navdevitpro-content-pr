@@ -46,7 +46,7 @@ Saves a report as an .xml file on the computer that is running [!INCLUDE[nav_ser
  *ReportVariable*  
  The report that you want to run.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  If you omit this optional return value, then run\-time errors can occur. If you include a return value, then it is assumed that you will handle any errors.  

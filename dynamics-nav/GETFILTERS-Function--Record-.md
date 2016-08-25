@@ -27,7 +27,7 @@ String := Record.GETFILTERS
   
  The record from which you want a list of filters.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text or code  
   
  This string contains a list of the filters for all fields in *Record*.  

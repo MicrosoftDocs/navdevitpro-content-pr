@@ -58,7 +58,7 @@ Sends a file from the client computer to the corresponding [!INCLUDE[nav_server]
   
  The InStream that is used to send the file.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  If you omit this optional return value, then a run\-time error occurs if the record cannot be found. If you include a return value, then you must handle any errors.  

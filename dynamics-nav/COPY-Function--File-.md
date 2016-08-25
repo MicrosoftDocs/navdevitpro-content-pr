@@ -44,7 +44,7 @@ Use this function to copy a file.
   
 -   You can enter only the subdirectory name if the file is located in a subdirectory of the current directory.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  This optional return parameter shows you whether the file was copied.  

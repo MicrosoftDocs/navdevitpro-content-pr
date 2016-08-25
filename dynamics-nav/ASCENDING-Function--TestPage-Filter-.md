@@ -46,7 +46,7 @@ Gets or sets the order in which to search through a dataset on a test page.
   
  The sort order of the dataset.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the search is performed in ascending order; otherwise, **false**.  

@@ -37,7 +37,7 @@ Date := DWY2DATE(WeekDay [, Week] [, Year]))
   
  The four\-digit number of the year. If you omit this optional parameter, the year of the current week is used as the default.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Date  
   
  The resulting date.  
