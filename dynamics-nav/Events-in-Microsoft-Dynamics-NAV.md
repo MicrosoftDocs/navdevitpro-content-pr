@@ -29,6 +29,6 @@ This section describes how you can use events in [!INCLUDE[navnow](includes/navn
   
 -   [Best Practices with Microsoft Dynamics NAV Events](Best-Practices-with-Microsoft-Dynamics-NAV-Events.md)  
   
--   [Walkthrough: Publishing, Raising, and Subcribing to an Event in Microsoft Dynamics NAV](../Topic/Walkthrough:%20Publishing,%20Raising,%20and%20Subcribing%20to%20an%20Event%20in%20Microsoft%20Dynamics%20NAV.md)  
+-   [Walkthrough: Publishing, Raising, and Subcribing to an Event in Microsoft Dynamics NAV](Walkthrough:%20Publishing,%20Raising,%20and%20Subcribing%20to%20an%20Event%20in%20Microsoft%20Dynamics%20NAV.md)  
   
--   [Walkthrough: Implementing New Workflow Events and Responses](../Topic/Walkthrough:%20Implementing%20New%20Workflow%20Events%20and%20Responses.md)
+-   [Walkthrough: Implementing New Workflow Events and Responses](Walkthrough:%20Implementing%20New%20Workflow%20Events%20and%20Responses.md)

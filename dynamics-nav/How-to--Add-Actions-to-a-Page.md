@@ -36,7 +36,7 @@ This topic shows how to create new actions, how to add actions to a page, and ho
 3.  To open **Action Designer**, in the **View** menu, choose **Page Actions**.  
   
     > [!NOTE]  
-    >  Actions can only be linked to a page, or to a group control that has a subtype of CueGroup. Actions cannot be linked to fields, containers, or parts on a page. For information about adding actions to a CueGroup control, see [Walkthrough: Creating a Cue Based on a FlowField](../Topic/Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20FlowField.md).  
+    >  Actions can only be linked to a page, or to a group control that has a subtype of CueGroup. Actions cannot be linked to fields, containers, or parts on a page. For information about adding actions to a CueGroup control, see [Walkthrough: Creating a Cue Based on a FlowField](Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20FlowField.md).  
   
 4.  In **Action Designer**, select the first blank row, type a **Name**, and then type a **Caption** for your action.  
   
@@ -98,7 +98,7 @@ This topic shows how to create new actions, how to add actions to a page, and ho
   
 10. Save and compile the page.  
   
-11. To preview an action in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], in Object Designer, select the page and choose **Run**. For more information about running a page, see [How to: Run a Page](../Topic/How%20to:%20Run%20a%20Page.md).  
+11. To preview an action in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], in Object Designer, select the page and choose **Run**. For more information about running a page, see [How to: Run a Page](How%20to:%20Run%20a%20Page.md).  
   
 > [!NOTE]  
 >  If the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is already open, you will not see changes to HomeItems or ActivityButtons until to you close and restart it.  
@@ -107,5 +107,5 @@ This topic shows how to create new actions, how to add actions to a page, and ho
 >  If you change an object, for example, an action to an action container, you must also change the ID of the action. The ID serves as a reference, and must reflect the object.  
   
 ## See Also  
- [Walkthrough: Adding Actions to a Customer List Page](../Topic/Walkthrough:%20Adding%20Actions%20to%20a%20Customer%20List%20Page.md)   
+ [Walkthrough: Adding Actions to a Customer List Page](Walkthrough:%20Adding%20Actions%20to%20a%20Customer%20List%20Page.md)   
  [Actions Overview](Actions-Overview.md)

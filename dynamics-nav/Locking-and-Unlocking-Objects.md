@@ -35,5 +35,5 @@ You can lock an object in Object Designer so that other developers cannot save d
 -   A developer locks an object. A second developer opens the locked object in read\-only mode, and then the first developer unlocks the object. The second developer still cannot save design changes to the object even though the object is now unlocked because it is open in read\-only mode.  
   
 ## See Also  
- [How to: Lock an Object](../Topic/How%20to:%20Lock%20an%20Object.md)   
- [How to: Unlock an Object](../Topic/How%20to:%20Unlock%20an%20Object.md)
+ [How to: Lock an Object](How%20to:%20Lock%20an%20Object.md)   
+ [How to: Unlock an Object](How%20to:%20Unlock%20an%20Object.md)

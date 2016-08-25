@@ -12,7 +12,7 @@ caps.latest.revision: 7
 manager: edupont
 ---
 # How to: Use Streams to Write to Text Files
-The [InStream](InStream.md) \(input stream\) and [OutStream](OutStream.md) \(output stream\) data types are generic stream objects that you can use to read from or write to files. This topic shows you how to use the [OutStream](OutStream.md) object to write to a text file. You create a codeunit to accomplish this task. For information about how to use streams to read text files, see [How to: Use Streams to Read from Text Files](../Topic/How%20to:%20Use%20Streams%20to%20Read%20from%20Text%20Files.md).  
+The [InStream](InStream.md) \(input stream\) and [OutStream](OutStream.md) \(output stream\) data types are generic stream objects that you can use to read from or write to files. This topic shows you how to use the [OutStream](OutStream.md) object to write to a text file. You create a codeunit to accomplish this task. For information about how to use streams to read text files, see [How to: Use Streams to Read from Text Files](How%20to:%20Use%20Streams%20to%20Read%20from%20Text%20Files.md).  
   
 ### To use a stream to write to a text file  
   
@@ -63,4 +63,4 @@ MESSAGE('%1 characters were written to the file.', NumberOfChars);
   
 ## See Also  
  [File Handling](File-Handling.md)   
- [How to: Use Streams to Read from Text Files](../Topic/How%20to:%20Use%20Streams%20to%20Read%20from%20Text%20Files.md)
+ [How to: Use Streams to Read from Text Files](How%20to:%20Use%20Streams%20to%20Read%20from%20Text%20Files.md)

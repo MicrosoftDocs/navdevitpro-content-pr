@@ -171,4 +171,4 @@ This walkthrough demonstrates how to use file functions to send a file from a cl
   
 ## See Also  
  [UPLOADINTOSTREAM Function \(File\)](UPLOADINTOSTREAM-Function--File-.md)   
- [Walkthrough: Transferring a File from Microsoft Dynamics NAV Server to the Client](../Topic/Walkthrough:%20Transferring%20a%20File%20from%20Microsoft%20Dynamics%20NAV%20Server%20to%20the%20Client.md)
+ [Walkthrough: Transferring a File from Microsoft Dynamics NAV Server to the Client](Walkthrough:%20Transferring%20a%20File%20from%20Microsoft%20Dynamics%20NAV%20Server%20to%20the%20Client.md)

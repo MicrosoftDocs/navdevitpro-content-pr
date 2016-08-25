@@ -48,4 +48,4 @@ When using SQL Server authentication between the [!INCLUDE[nav_server](includes/
     ```  
   
 ## See Also  
- [How to: Configure SQL Server Authentication in Microsoft Dynamics NAV](../Topic/How%20to:%20Configure%20SQL%20Server%20Authentication%20in%20Microsoft%20Dynamics%20NAV.md)
+ [How to: Configure SQL Server Authentication in Microsoft Dynamics NAV](How%20to:%20Configure%20SQL%20Server%20Authentication%20in%20Microsoft%20Dynamics%20NAV.md)

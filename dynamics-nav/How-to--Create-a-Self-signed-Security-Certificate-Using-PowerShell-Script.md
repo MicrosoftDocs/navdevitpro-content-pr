@@ -48,4 +48,4 @@ With the `New-NavSelfSignedCertificate` PowerShell cmdlet, you can create a self
   
 ## See Also  
  [Using Certificates to Secure a Remote Client Connection](Using-Certificates-to-Secure-a-Remote-Client-Connection.md)   
- [Walkthrough: Implementing Security Certificates in a Test Environment](../Topic/Walkthrough:%20Implementing%20Security%20Certificates%20in%20a%20Test%20Environment.md)
+ [Walkthrough: Implementing Security Certificates in a Test Environment](Walkthrough:%20Implementing%20Security%20Certificates%20in%20a%20Test%20Environment.md)

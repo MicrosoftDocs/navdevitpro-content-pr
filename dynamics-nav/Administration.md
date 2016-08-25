@@ -18,7 +18,7 @@ manager: edupont
 |--------|---------|  
 |Learn about the [!INCLUDE[nav_server](includes/nav_server_md.md)] Administration Tool, a Microsoft Management Console snap\-in that you use to create and manage [!INCLUDE[nav_server](includes/nav_server_md.md)] instances.|[Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)|  
 |Perform administration tasks with the [!INCLUDE[navnow](includes/navnow_md.md)] Windows PowerShell cmdlets.|[Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)|  
-|Use the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or the [!INCLUDE[nav_web](includes/nav_web_md.md)] to manage users, permission sets, and profiles.|[Administration in the Clients](../Topic/Administration%20in%20the%20Clients.md)|  
+|Use the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or the [!INCLUDE[nav_web](includes/nav_web_md.md)] to manage users, permission sets, and profiles.|[Administration in the Clients](Administration%20in%20the%20Clients.md)|  
 |Use the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to manage licenses, databases, and companies.|[Administration in the Development Environment](Administration-in-the-Development-Environment.md)|  
 |Optimize performance when accessing [!INCLUDE[navnow](includes/navnow_md.md)] data from SQL Server.|[Optimizing SQL Server Performance with Microsoft Dynamics NAV](Optimizing-SQL-Server-Performance-with-Microsoft-Dynamics-NAV.md)|  
 |Monitor your [!INCLUDE[nav_server](includes/nav_server_md.md)] instances.|[Monitoring Microsoft Dynamics NAV Server](Monitoring-Microsoft-Dynamics-NAV-Server.md)|  

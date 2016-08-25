@@ -35,4 +35,4 @@ Specifies the default paper source to use when printing the report.
 ## See Also  
  [PaperSourceFirstPage Property](PaperSourceFirstPage-Property.md)   
  [PaperSourceLastPage Property](PaperSourceLastPage-Property.md)   
- [How to: Add GetPaperTrayForReport Procedure in Codeunit 1](../Topic/How%20to:%20Add%20GetPaperTrayForReport%20Procedure%20in%20Codeunit%201.md)
+ [How to: Add GetPaperTrayForReport Procedure in Codeunit 1](How%20to:%20Add%20GetPaperTrayForReport%20Procedure%20in%20Codeunit%201.md)

@@ -91,5 +91,5 @@ Query objects and Record objects, including both explicit record variables and i
   
 ## See Also  
  [Record\-Level Security](Record-Level-Security.md)   
- [How to: Set Security Filters](../Topic/How%20to:%20Set%20Security%20Filters.md)   
+ [How to: Set Security Filters](How%20to:%20Set%20Security%20Filters.md)   
  [SecurityFiltering Property](SecurityFiltering-Property.md)

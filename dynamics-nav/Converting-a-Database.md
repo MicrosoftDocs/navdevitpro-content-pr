@@ -39,7 +39,7 @@ If your current solution is based on [!INCLUDE[nav7long](includes/nav7long_md.md
   
 3.  Open the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] that matches the [!INCLUDE[navnow](includes/navnow_md.md)] version of the old database, and then connect to the old database.  
   
-     For more information, see [How to: Open Databases](../Topic/How%20to:%20Open%20Databases.md).  
+     For more information, see [How to: Open Databases](How%20to:%20Open%20Databases.md).  
   
 4.  In Object Designer, verify that no objects are locked.  
   
@@ -54,14 +54,14 @@ If your current solution is based on [!INCLUDE[nav7long](includes/nav7long_md.md
   
 7.  Upload the [!INCLUDE[navcorfu](includes/navcorfu_md.md)] Partner license to the database  
   
-     For more information, see [Uploading a License File for a Specific Database](../Topic/How%20to:%20Upload%20the%20License%20File.md#UploadtoDatabase).  
+     For more information, see [Uploading a License File for a Specific Database](How%20to:%20Upload%20the%20License%20File.md#UploadtoDatabase).  
   
     > [!IMPORTANT]  
     >  The license that you upload must be a developer license. During the conversion, the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] will convert the report objects that are stored in the old database to the RDL 2012 format.  
   
 8.  If you are converting a [!INCLUDE[navsicily](includes/navsicily_md.md)] or [!INCLUDE[navcrete](includes/navcrete_md.md)] database, then run the Sync\-NavTenant cmdlet from the [!INCLUDE[navsicily](includes/navsicily_md.md)] or [!INCLUDE[navcrete](includes/navcrete_md.md)] Administration Shell to synchronize the database schema changes.  
   
-     For more information, see [How to: Run the Sync\-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database](../Topic/How%20to:%20Run%20the%20Sync-NAVTenant%20Cmdlet%20to%20Synchronize%20the%20Tenant%20Database%20with%20the%20Application%20Database.md).  
+     For more information, see [How to: Run the Sync\-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database](How%20to:%20Run%20the%20Sync-NAVTenant%20Cmdlet%20to%20Synchronize%20the%20Tenant%20Database%20with%20the%20Application%20Database.md).  
   
 ## Task 2: Converting the Old Database  
  Next, you will convert the old database so that it can be used in [!INCLUDE[navcorfu](includes/navcorfu_md.md)].  
@@ -79,7 +79,7 @@ If your current solution is based on [!INCLUDE[nav7long](includes/nav7long_md.md
   
 2.  Open the [!INCLUDE[navcorfu](includes/navcorfu_md.md)] development environment, and then connect to the database that you prepared in the previous task.  
   
-     For more information, see [How to: Open Databases](../Topic/How%20to:%20Open%20Databases.md).  
+     For more information, see [How to: Open Databases](How%20to:%20Open%20Databases.md).  
   
 3.  In the dialog box that appears, read the instructions carefully because this action cannot be reversed. When you are ready, choose the **OK** button, and then choose the **OK** button to confirm that you want to convert the database.  
   
@@ -93,11 +93,11 @@ If your current solution is based on [!INCLUDE[nav7long](includes/nav7long_md.md
   
      In addition, you must add the service account that is used by the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance as a member of the **db\_owner** role in the [!INCLUDE[navnow](includes/navnow_md.md)] database on SQL Server.  
   
-     For more information, see [How to: Connect a Microsoft Dynamics NAV Server Instance to a Database](../Topic/How%20to:%20Connect%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance%20to%20a%20Database.md) and [Giving the account necessary database privileges in SQL Server](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md#dbo).  
+     For more information, see [How to: Connect a Microsoft Dynamics NAV Server Instance to a Database](How%20to:%20Connect%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance%20to%20a%20Database.md) and [Giving the account necessary database privileges in SQL Server](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md#dbo).  
   
 6.  Run the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] as an administrator, and then set the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to use the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that connects to the database.  
   
-     For more information, see [How to: Change the Microsoft Dynamics NAV Server Instance](../Topic/How%20to:%20Change%20the%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md) or [\($ S\_2349 Database Information $\)](-$-S_2349-Database-Information-$-.md).  
+     For more information, see [How to: Change the Microsoft Dynamics NAV Server Instance](How%20to:%20Change%20the%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md) or [\($ S\_2349 Database Information $\)](-$-S_2349-Database-Information-$-.md).  
   
 7.  Run the schema synchronization to complete the database conversion.  
   
@@ -115,7 +115,7 @@ If your current solution is based on [!INCLUDE[nav7long](includes/nav7long_md.md
     Sync-NavTenant –ServerInstance <ServerInstanceName>  
     ```  
   
-     Replace `<ServerInstanceName>` with the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that is connected to the database. For more information, see [How to: Run the Sync\-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database](../Topic/How%20to:%20Run%20the%20Sync-NAVTenant%20Cmdlet%20to%20Synchronize%20the%20Tenant%20Database%20with%20the%20Application%20Database.md).  
+     Replace `<ServerInstanceName>` with the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that is connected to the database. For more information, see [How to: Run the Sync\-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database](How%20to:%20Run%20the%20Sync-NAVTenant%20Cmdlet%20to%20Synchronize%20the%20Tenant%20Database%20with%20the%20Application%20Database.md).  
   
 8.  If the database references any assemblies \(such as client control add\-ins\) that are not included on the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installation media \(DVD\), then add the assemblies to the Add\-ins folder on [!INCLUDE[nav_server](includes/nav_server_md.md)] or [!INCLUDE[nav_windows](includes/nav_windows_md.md)] computers.  
   
@@ -133,7 +133,7 @@ If your current solution is based on [!INCLUDE[nav7long](includes/nav7long_md.md
   
 11. Upload the customer license to the converted database.  
   
-     For more information, see [Uploading a License File for a Specific Database](../Topic/How%20to:%20Upload%20the%20License%20File.md#UploadtoDatabase).  
+     For more information, see [Uploading a License File for a Specific Database](How%20to:%20Upload%20the%20License%20File.md#UploadtoDatabase).  
   
  You have now completed the conversion of the [!INCLUDE[nav7long](includes/nav7long_md.md)], [!INCLUDE[navsicily](includes/navsicily_md.md)], or [!INCLUDE[navcrete](includes/navcrete_md.md)] database to be accessed from [!INCLUDE[navcorfu](includes/navcorfu_md.md)]. To test the converted database, you can connect it to the [!INCLUDE[navcorfu](includes/navcorfu_md.md)] Server instance that by [!INCLUDE[navnow](includes/navnow_md.md)] clients, and then open a client.  
   

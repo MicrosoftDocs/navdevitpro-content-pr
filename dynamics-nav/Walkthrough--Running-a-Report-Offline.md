@@ -51,7 +51,7 @@ You can view a report and view the dataset and layout on a computer that does no
   
 2.  In the **Search** box, enter **Customer – Top 10 List**, and then choose the related link.  
   
-3.  On the request page for the Customer – Top 10 List report, on the **Application** menu ![Application Menu button in menu bar](media/ApplicationMenuIcon.png "ApplicationMenuIcon"), choose **Help**, and then choose **About This Page** to activate the About This Report feature. For more information, see [How to: View and Export the Dataset for a Report](../Topic/How%20to:%20View%20and%20Export%20the%20Dataset%20for%20a%20Report.md).  
+3.  On the request page for the Customer – Top 10 List report, on the **Application** menu ![Application Menu button in menu bar](media/ApplicationMenuIcon.png "ApplicationMenuIcon"), choose **Help**, and then choose **About This Page** to activate the About This Report feature. For more information, see [How to: View and Export the Dataset for a Report](How%20to:%20View%20and%20Export%20the%20Dataset%20for%20a%20Report.md).  
   
 4.  Close the **About This Page** page.  
   
@@ -142,7 +142,7 @@ You can view a report and view the dataset and layout on a computer that does no
     >  If your report includes external images, then in the **Properties** window of the report viewer control, you must set the **EnableExternalImages** property to **True**.  
   
     > [!NOTE]  
-    >  If your report includes hyperlinks, then in the **Properties** window of the report viewer control, you must set the **EnableHyperlinks** property to **True**. For examples of creating reports that include hyperlinks, see [Walkthrough: Creating a Link from a Report to a Report](../Topic/Walkthrough:%20Creating%20a%20Link%20from%20a%20Report%20to%20a%20Report.md) and [Walkthrough: Creating a Link from a Report to a Page](../Topic/Walkthrough:%20Creating%20a%20Link%20from%20a%20Report%20to%20a%20Page.md).  
+    >  If your report includes hyperlinks, then in the **Properties** window of the report viewer control, you must set the **EnableHyperlinks** property to **True**. For examples of creating reports that include hyperlinks, see [Walkthrough: Creating a Link from a Report to a Report](Walkthrough:%20Creating%20a%20Link%20from%20a%20Report%20to%20a%20Report.md) and [Walkthrough: Creating a Link from a Report to a Page](Walkthrough:%20Creating%20a%20Link%20from%20a%20Report%20to%20a%20Page.md).  
   
 11. In Solution Explorer, select the OfflineReport project, and on the shortcut menu, choose **Add**, and then choose **Class**.  
   

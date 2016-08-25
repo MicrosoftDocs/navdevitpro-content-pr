@@ -41,7 +41,7 @@ caps.latest.revision: 16
   
      You use the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to create objects, such as tables, pages and reports, and implement the business logic for your application.  
   
-     For more information, see [How to: Install C\-SIDE Development Environment](../Topic/How%20to:%20Install%20C-SIDE%20Development%20Environment.md).  
+     For more information, see [How to: Install C\-SIDE Development Environment](How%20to:%20Install%20C-SIDE%20Development%20Environment.md).  
   
 -   [!INCLUDE[nav_windows](includes/nav_windows_md.md)] \(optional\)  
   
@@ -89,7 +89,7 @@ caps.latest.revision: 16
 ##  <a name="Profiles"></a> Create Profiles and Assign Users  
  Profiles are collections of [!INCLUDE[navnow](includes/navnow_md.md)] users who share the same Role Center. You create a profile and then assign users to the profile. The profile is applied to the user in all clients.  
   
- For more information, see [Profiles and Role Centers](../Topic/Profiles%20and%20Role%20Centers.md).  
+ For more information, see [Profiles and Role Centers](Profiles%20and%20Role%20Centers.md).  
   
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   

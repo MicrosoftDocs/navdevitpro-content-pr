@@ -12,9 +12,9 @@ caps.latest.revision: 10
 manager: edupont
 ---
 # Walkthrough: Exporting Data from Tables to CSV Files
-XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)] database to a file or import data from a file to a [!INCLUDE[navnow](includes/navnow_md.md)] database. The file format can be an XML file, text file, or a comma separated value \(CSV\) file. Exporting data from your [!INCLUDE[navnow](includes/navnow_md.md)] database into one of these file formats enables seamless exchange of information between different computer systems. In this walkthrough, you will export data from a [!INCLUDE[navnow](includes/navnow_md.md)] database to a CSV file. For information about how to export data to XML file format, see [Walkthrough: Exporting Data from Tables to XML Documents](../Topic/Walkthrough:%20Exporting%20Data%20from%20Tables%20to%20XML%20Documents.md).  
+XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)] database to a file or import data from a file to a [!INCLUDE[navnow](includes/navnow_md.md)] database. The file format can be an XML file, text file, or a comma separated value \(CSV\) file. Exporting data from your [!INCLUDE[navnow](includes/navnow_md.md)] database into one of these file formats enables seamless exchange of information between different computer systems. In this walkthrough, you will export data from a [!INCLUDE[navnow](includes/navnow_md.md)] database to a CSV file. For information about how to export data to XML file format, see [Walkthrough: Exporting Data from Tables to XML Documents](Walkthrough:%20Exporting%20Data%20from%20Tables%20to%20XML%20Documents.md).  
   
- XMLports can be called and run from codeunits or run from Object Designer. In this walkthrough, you will run the XMLport in Object Designer. For information about how to run XMLports from codeunit, see [Walkthrough: Exporting Data from Tables to XML Documents](../Topic/Walkthrough:%20Exporting%20Data%20from%20Tables%20to%20XML%20Documents.md).  
+ XMLports can be called and run from codeunits or run from Object Designer. In this walkthrough, you will run the XMLport in Object Designer. For information about how to run XMLports from codeunit, see [Walkthrough: Exporting Data from Tables to XML Documents](Walkthrough:%20Exporting%20Data%20from%20Tables%20to%20XML%20Documents.md).  
   
 ## About This Walkthrough  
  This walkthrough shows you how to export data from a [!INCLUDE[navnow](includes/navnow_md.md)] table to a CSV file. This walkthrough illustrates the following tasks:  
@@ -155,7 +155,7 @@ XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)
     ```  
   
 ## Next Steps  
- You might want to try importing a CSV file into the **Item** table. For information about how to import data into a database, see [Walkthrough: Inserting Data from XML Documents to Multiple Tables](../Topic/Walkthrough:%20Inserting%20Data%20from%20XML%20Documents%20to%20Multiple%20Tables.md).  
+ You might want to try importing a CSV file into the **Item** table. For information about how to import data into a database, see [Walkthrough: Inserting Data from XML Documents to Multiple Tables](Walkthrough:%20Inserting%20Data%20from%20XML%20Documents%20to%20Multiple%20Tables.md).  
   
 ## See Also  
  [XMLport Walkthroughs](XMLport-Walkthroughs.md)

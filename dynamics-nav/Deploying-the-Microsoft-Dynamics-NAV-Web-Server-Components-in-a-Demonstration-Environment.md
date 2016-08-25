@@ -73,7 +73,7 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
   
 3.  Install Internet Information Services 7.0 or Internet Information Services 8.0.  
   
-     For more information, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](../Topic/How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
+     For more information, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
   
     > [!NOTE]  
     >  Instead of installing and configuring Internet Information Services \(IIS\) manually, you can use [!INCLUDE[navnow](includes/navnow_md.md)] Setup to install IIS and enable the required features. If IIS is already installed, then Setup will enable any required features that are not currently enabled.  
@@ -84,7 +84,7 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
   
     -   If your computer is running Windows 7 or Windows 8, then you have to create an inbound rule that allows communication on the port.  
   
-         For information about how to create an inbound rule, see [How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client](../Topic/How%20to:%20Create%20an%20Inbound%20Rule%20in%20Windows%20Firewall%20for%20the%20Port%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
+         For information about how to create an inbound rule, see [How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client](How%20to:%20Create%20an%20Inbound%20Rule%20in%20Windows%20Firewall%20for%20the%20Port%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
   
     -   If your computer is running Windows Server 2012, then an inbound rule is already created and no action is required.  
   
@@ -154,4 +154,4 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
   
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
- [How to: Install the Web Server Components](../Topic/How%20to:%20Install%20the%20Web%20Server%20Components.md)
+ [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md)

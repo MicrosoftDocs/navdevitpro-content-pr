@@ -142,9 +142,9 @@ Most tests run automatically without a dependency on the user interface. However
  When you run the test again, the new confirmation handler handles the confirmation dialog, and the test passes successfully.  
   
 ## See Also  
- [How to: Create Handler Functions](../Topic/How%20to:%20Create%20Handler%20Functions.md)   
- [How to: Run Automated ApplicationTests](../Topic/How%20to:%20Run%20Automated%20ApplicationTests.md)   
- [Walkthrough: Testing Purchase Invoice Discounts](../Topic/Walkthrough:%20Testing%20Purchase%20Invoice%20Discounts.md)   
+ [How to: Create Handler Functions](How%20to:%20Create%20Handler%20Functions.md)   
+ [How to: Run Automated ApplicationTests](How%20to:%20Run%20Automated%20ApplicationTests.md)   
+ [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough:%20Testing%20Purchase%20Invoice%20Discounts.md)   
  [Testing the Application](Testing-the-Application.md)   
  [Application Test Automation](Application-Test-Automation.md)   
  [\($ N\_9990 Code Coverage $\)](-$-N_9990-Code-Coverage-$-.md)

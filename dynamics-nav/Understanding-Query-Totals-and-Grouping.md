@@ -67,7 +67,7 @@ In a query, you use a totals method to perform a calculation on the fields of a 
 |30000|Blanemark Hifi|500|  
 |40000|Deerfield Graphics|250|  
   
- For step\-by\-step instructions about how to create this query, see [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](../Topic/Walkthrough:%20Creating%20a%20Query%20That%20Uses%20a%20Totaling%20Method%20and%20Sorting.md).  
+ For step\-by\-step instructions about how to create this query, see [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](Walkthrough:%20Creating%20a%20Query%20That%20Uses%20a%20Totaling%20Method%20and%20Sorting.md).  
   
 ##  <a name="Average"></a> Average  
  The Average method calculates the average value of the fields in the column within a group. To set up an Average method on the **Quantity** column of the sample query, set the MethodType property to **Totals** and the Method property to **Sum**. The name of the **Quantity** column automatically changes to **Ave\_Quantity** and the query is automatically grouped by the **No.** and **Name** columns.  
@@ -139,5 +139,5 @@ GROUP BY Customer."No.", Customer.Name
 ```  
   
 ## See Also  
- [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](../Topic/Walkthrough:%20Creating%20a%20Query%20That%20Uses%20a%20Totaling%20Method%20and%20Sorting.md)   
+ [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](Walkthrough:%20Creating%20a%20Query%20That%20Uses%20a%20Totaling%20Method%20and%20Sorting.md)   
  [Method Property](Method-Property.md)

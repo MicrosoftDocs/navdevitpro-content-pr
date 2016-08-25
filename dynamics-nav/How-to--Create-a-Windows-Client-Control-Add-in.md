@@ -69,7 +69,7 @@ You develop [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add\-ins
     > [!TIP]  
     >  If you give the control add\-in the same name as the assembly, then you do not have to install the assembly on the client computer. In this case, you only install the assembly on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)]. When a client requests the control add\-in, [!INCLUDE[nav_server](includes/nav_server_md.md)] will automatically deploy the assembly to the client.  
   
-     For more information, see [How to: Register a Windows Client Control Add\-in](../Topic/How%20to:%20Register%20a%20Windows%20Client%20Control%20Add-in.md).  
+     For more information, see [How to: Register a Windows Client Control Add\-in](How%20to:%20Register%20a%20Windows%20Client%20Control%20Add-in.md).  
   
 5.  Implement the abstract base method [WinFormsControlAddInBase.CreateControl](assetId:///M:Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.WinFormsControlAddInBase.CreateControl) and add code that defines the control add\-in.  
   
@@ -186,7 +186,7 @@ You develop [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add\-ins
   
 5.  Choose the **OK** button.  
   
- For information about how to determine the public token key, see [How to: Determine the Public Key Token of the Windows Client Control Add\-in and .NET Framework Assembly](../Topic/How%20to:%20Determine%20the%20Public%20Key%20Token%20of%20the%20Windows%20Client%20Control%20Add-in%20and%20.NET%20Framework%20Assembly.md).  
+ For information about how to determine the public token key, see [How to: Determine the Public Key Token of the Windows Client Control Add\-in and .NET Framework Assembly](How%20to:%20Determine%20the%20Public%20Key%20Token%20of%20the%20Windows%20Client%20Control%20Add-in%20and%20.NET%20Framework%20Assembly.md).  
   
 ## Example  
  The following code illustrates a control add\-in that implements the Microsoft digital ink control on a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] page field. For example, you could use this control add\-in on a sales order page to allow customers to sign their sales orders with a tablet PC. The control add\-in is designed to bind with a table field in the [!INCLUDE[navnow](includes/navnow_md.md)] database to store and retrieve signatures. Because the signatures are transferred as binary data, the example implements the [Microsoft.Dynamics.Framework.UI.Extensibility.IObjectControlAddInDefinition](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.IObjectControlAddInDefinition) interface.  
@@ -264,4 +264,4 @@ namespace NavInkControl
  [Exposing Events and Calling Respective C\-AL Triggers from a Windows Client Control Add\-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md)   
  [Installing and Configuring Windows Client Control Add\-ins on Pages](Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)   
  [Windows Client Control Add\-in Overview](Windows-Client-Control-Add-in-Overview.md)   
- [Walkthrough: Creating and Using a Windows Client Control Add\-in](../Topic/Walkthrough:%20Creating%20and%20Using%20a%20Windows%20Client%20Control%20Add-in.md)
+ [Walkthrough: Creating and Using a Windows Client Control Add\-in](Walkthrough:%20Creating%20and%20Using%20a%20Windows%20Client%20Control%20Add-in.md)

@@ -38,8 +38,8 @@ caps.latest.revision: 22
 6.  Choose the **OK** button to exit the **Edit – User Card** page.  
   
 ## See Also  
- [How to: Create Microsoft Dynamics NAV Users](../Topic/How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md)   
- [How to: Assign a User to a Profile](../Topic/How%20to:%20Assign%20a%20User%20to%20a%20Profile.md)   
+ [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md)   
+ [How to: Assign a User to a Profile](How%20to:%20Assign%20a%20User%20to%20a%20Profile.md)   
  [Managing Permissions and Permission Sets](Managing-Permissions-and-Permission-Sets.md)   
- [Customize the User Interface](../Topic/Customize%20the%20User%20Interface.md)   
+ [Customize the User Interface](Customize%20the%20User%20Interface.md)   
  [Removing Elements from the User Interface According to Permissions](Removing-Elements-from-the-User-Interface-According-to-Permissions.md)

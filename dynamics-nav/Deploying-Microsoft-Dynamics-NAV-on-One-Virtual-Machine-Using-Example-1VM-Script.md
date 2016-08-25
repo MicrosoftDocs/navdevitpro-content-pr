@@ -13,7 +13,7 @@ caps.latest.revision: 16
 # Deploying Microsoft Dynamics NAV on One Virtual Machine Using Example-1VM Script
 This topic describes the Example\-1VM.ps1 script of the [!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)]. The script is located in the \\WindowsPowerShellScripts\\Cloud\\HowTo folder on the [!INCLUDE[navnow](includes/navnow_md.md)] installation media \(DVD\). The Example\-1VM.ps1 script deploys [!INCLUDE[navnow](includes/navnow_md.md)] on a single Microsoft Azure virtual machine. After the script is run, you will have a fully functional environment that enables you to access [!INCLUDE[navnow](includes/navnow_md.md)] data from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
- For information about how to use the script, see [How to: Deploy Microsoft Dynamics NAV on Microsoft Azure by Using the Example Scripts](../Topic/How%20to:%20Deploy%20Microsoft%20Dynamics%20NAV%20on%20Microsoft%20Azure%20by%20Using%20the%20Example%20Scripts.md) or [Walkthrough: Deploying Microsoft Dynamics NAV on a Microsoft Azure Virtual Machine](../Topic/Walkthrough:%20Deploying%20Microsoft%20Dynamics%20NAV%20on%20a%20Microsoft%20Azure%20Virtual%20Machine.md) for a step\-by\-step example.  
+ For information about how to use the script, see [How to: Deploy Microsoft Dynamics NAV on Microsoft Azure by Using the Example Scripts](How%20to:%20Deploy%20Microsoft%20Dynamics%20NAV%20on%20Microsoft%20Azure%20by%20Using%20the%20Example%20Scripts.md) or [Walkthrough: Deploying Microsoft Dynamics NAV on a Microsoft Azure Virtual Machine](Walkthrough:%20Deploying%20Microsoft%20Dynamics%20NAV%20on%20a%20Microsoft%20Azure%20Virtual%20Machine.md) for a step\-by\-step example.  
   
 ## Deployment Overview  
  The Example\-1VM.ps1 script creates a virtual machine on Azure, which is based on an image that you specify, and then installs and configures [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], [!INCLUDE[nav_server](includes/nav_server_md.md)], and [!INCLUDE[navnow](includes/navnow_md.md)] database components for SQL Server.  
@@ -49,7 +49,7 @@ This topic describes the Example\-1VM.ps1 script of the [!INCLUDE[nav_prov_long]
  The following table provides a description of each phase in the process and the Windows PowerShell script that is executed.  
   
 > [!NOTE]  
->  The scripts are located in the *Cloud\\NAVRemoteAdministrationSamples* folder of the [!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)]. For more information, see [How to: Install the Microsoft Dynamics NAV Provisioning Tools for Microsoft Azure](../Topic/How%20to:%20Install%20the%20Microsoft%20Dynamics%20NAV%20Provisioning%20Tools%20for%20Microsoft%20Azure.md).  
+>  The scripts are located in the *Cloud\\NAVRemoteAdministrationSamples* folder of the [!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)]. For more information, see [How to: Install the Microsoft Dynamics NAV Provisioning Tools for Microsoft Azure](How%20to:%20Install%20the%20Microsoft%20Dynamics%20NAV%20Provisioning%20Tools%20for%20Microsoft%20Azure.md).  
   
 |Phase|Script|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-----------|------------|---------------------------------------|  
@@ -61,9 +61,9 @@ This topic describes the Example\-1VM.ps1 script of the [!INCLUDE[nav_prov_long]
 |**Add server instance**|HowTo\-AddNAVInstance|Establishes a PowerShell session, and then does the following:<br /><br /> -   Installs a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.<br />-   Installs a [!INCLUDE[navnow](includes/navnow_md.md)] web server instance on IIS for [!INCLUDE[nav_web](includes/nav_web_md.md)].<br />-   Creates a ClickOnce website for [!INCLUDE[nav_windows](includes/nav_windows_md.md)] deployment.<br />-   Restores the [!INCLUDE[navnow](includes/navnow_md.md)] database from the .bak file.<br />-   Adds [!INCLUDE[navnow](includes/navnow_md.md)] user.<br />-   Imports the [!INCLUDE[navnow](includes/navnow_md.md)] license.<br />-   Adds Azure endpoints.<br />-   Configures Windows Firewall.|  
   
 ## See Also  
- [How to: Deploy Microsoft Dynamics NAV on Microsoft Azure by Using the Example Scripts](../Topic/How%20to:%20Deploy%20Microsoft%20Dynamics%20NAV%20on%20Microsoft%20Azure%20by%20Using%20the%20Example%20Scripts.md)   
+ [How to: Deploy Microsoft Dynamics NAV on Microsoft Azure by Using the Example Scripts](How%20to:%20Deploy%20Microsoft%20Dynamics%20NAV%20on%20Microsoft%20Azure%20by%20Using%20the%20Example%20Scripts.md)   
  [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
  [Planning and Preparing](Planning-and-Preparing.md)   
  [Network Topologies for Microsoft Dynamics NAV on Azure](Network-Topologies-for-Microsoft-Dynamics-NAV-on-Azure.md)   
  [Deploying Microsoft Dynamics NAV on Two Virtual Machines Using Example\-2VM Script](Deploying-Microsoft-Dynamics-NAV-on-Two-Virtual-Machines-Using-Example-2VM-Script.md)   
- [Walkthrough: Deploying Microsoft Dynamics NAV on a Microsoft Azure Virtual Machine](../Topic/Walkthrough:%20Deploying%20Microsoft%20Dynamics%20NAV%20on%20a%20Microsoft%20Azure%20Virtual%20Machine.md)
+ [Walkthrough: Deploying Microsoft Dynamics NAV on a Microsoft Azure Virtual Machine](Walkthrough:%20Deploying%20Microsoft%20Dynamics%20NAV%20on%20a%20Microsoft%20Azure%20Virtual%20Machine.md)

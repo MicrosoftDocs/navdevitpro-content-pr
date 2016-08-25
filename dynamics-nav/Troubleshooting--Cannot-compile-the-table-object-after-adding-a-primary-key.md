@@ -17,4 +17,4 @@ After adding a primary key to a table, you cannot compile the table object.
  This error can occur when the record size is close to the maximum value. The maximum record size in [!INCLUDE[navnow](includes/navnow_md.md)] is 8000 bytes. To resolve this issue, limit the number of primary keys.  
   
 ## See Also  
- [How to: Define Primary and Secondary Keys](../Topic/How%20to:%20Define%20Primary%20and%20Secondary%20Keys.md)
+ [How to: Define Primary and Secondary Keys](How%20to:%20Define%20Primary%20and%20Secondary%20Keys.md)

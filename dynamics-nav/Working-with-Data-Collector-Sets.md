@@ -15,11 +15,11 @@ A *Data Collector Set* organizes data collection points, such as performance cou
   
  For more information about how to use Data Collector Sets to monitor [!INCLUDE[nav_server](includes/nav_server_md.md)], see the following topics:  
   
- [How to: Create a Data Collector for Microsoft Dynamics NAV Performance Counters](../Topic/How%20to:%20Create%20a%20Data%20Collector%20for%20Microsoft%20Dynamics%20NAV%20Performance%20Counters.md)  
+ [How to: Create a Data Collector for Microsoft Dynamics NAV Performance Counters](How%20to:%20Create%20a%20Data%20Collector%20for%20Microsoft%20Dynamics%20NAV%20Performance%20Counters.md)  
   
- [How to: Create a Data Collector Set From the Microsoft Dynamics NAV Template](../Topic/How%20to:%20Create%20a%20Data%20Collector%20Set%20From%20the%20Microsoft%20Dynamics%20NAV%20Template.md)  
+ [How to: Create a Data Collector Set From the Microsoft Dynamics NAV Template](How%20to:%20Create%20a%20Data%20Collector%20Set%20From%20the%20Microsoft%20Dynamics%20NAV%20Template.md)  
   
- [How to: View Performance Counter Data for a Data Collector Set](../Topic/How%20to:%20View%20Performance%20Counter%20Data%20for%20a%20Data%20Collector%20Set.md)  
+ [How to: View Performance Counter Data for a Data Collector Set](How%20to:%20View%20Performance%20Counter%20Data%20for%20a%20Data%20Collector%20Set.md)  
   
  For general information about Data Collector Sets, see [Creating Data Collector Sets](http://technet.microsoft.com/en-us/library/cc749337.aspx).  
   

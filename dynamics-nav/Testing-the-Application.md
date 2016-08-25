@@ -40,7 +40,7 @@ Before you release your [!INCLUDE[navnow](includes/navnow_md.md)] application, y
   
 -   Normal function.  
   
- For more information, see [How to: Create Test Codeunits and Test Functions](../Topic/How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md).  
+ For more information, see [How to: Create Test Codeunits and Test Functions](How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md).  
   
 ### Test Runner Codeunits  
  You use test runner codeunits to manage the execution of test codeunits and to integrate with other test management, execution, and reporting frameworks. By integrating with a test management framework, you can automate your tests and enable them to run unattended.  
@@ -59,7 +59,7 @@ Before you release your [!INCLUDE[navnow](includes/navnow_md.md)] application, y
 > [!WARNING]  
 >  The **OnBeforeTestRun** and **OnAfterTestRun** triggers always run in their own transactions, regardless of the value of the [TestIsolation Property](TestIsolation-Property.md), the value of the [TransactionModel Property](TransactionModel-Property.md), or the outcome of a test function.  
   
- For more information, see [How to: Create a Test Runner Codeunit](../Topic/How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md).  
+ For more information, see [How to: Create a Test Runner Codeunit](How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md).  
   
 ### Test Pages  
  Test pages mimic actual pages but do not present any UI on a client computer. Test pages let you test the code on a page by using C\/AL to simulate user interaction with the page.  
@@ -91,7 +91,7 @@ Before you release your [!INCLUDE[navnow](includes/navnow_md.md)] application, y
   
  If you run a test codeunit from a test runner codeunit, then any unhandled UI in the test functions of the test codeunit causes a failure of the test. If you do not run the test codeunit from a test runner codeunit, then any unhandled UI is displayed as it typically would.  
   
- For more information, see [How to: Create Handler Functions](../Topic/How%20to:%20Create%20Handler%20Functions.md).  
+ For more information, see [How to: Create Handler Functions](How%20to:%20Create%20Handler%20Functions.md).  
   
 ### ASSERTERROR Keyword  
  When you test your application, you should test that your code performs as expected under both successful and failing conditions. These are called positive and negative tests. To test how your application performs under failing conditions, you can use the ASSERTERROR keyword. The ASSERTERROR keyword specifies that an error is expected at run time in the statement that follows the ASSERTERROR keyword. If a simple or compound statement that follows the ASSERTERROR keyword causes an error, then execution successfully continues to the next statement in the test function. If a statement that follows the ASSERTERROR keyword does not cause an error, then the ASSERTERROR statement itself fails with an error, and the test function that is running produces a FAILURE result.  
@@ -123,14 +123,14 @@ Before you release your [!INCLUDE[navnow](includes/navnow_md.md)] application, y
   
     3.  Validate that the business logic performed as expected.  
   
--   Only use hardcoded values in tests when you really need it. For all other data, consider using random data. For example, you want to test the [\($ T\_312\_8 Ext. Doc. No. Mandatory $\)](../Topic/\($%20T_312_8%20Ext.%20Doc.%20No.%20Mandatory%20$\).md) field in the **\($ T\_312 Purchases &amp; Payables Setup $\)** table. To do this you need to create and post typical purchase invoice. The typical purchase invoice line specifies an amount. For most tests, it does not matter exactly what amount. For inspiration, see the use of the `GenerateRandomCode` function in the tests that are included in the **TestToolkit** folder on the [!INCLUDE[navnow](includes/navnow_md.md)] product media. For more information, see [Random Test Data](Random-Test-Data.md).  
+-   Only use hardcoded values in tests when you really need it. For all other data, consider using random data. For example, you want to test the [\($ T\_312\_8 Ext. Doc. No. Mandatory $\)](\($%20T_312_8%20Ext.%20Doc.%20No.%20Mandatory%20$\).md) field in the **\($ T\_312 Purchases &amp; Payables Setup $\)** table. To do this you need to create and post typical purchase invoice. The typical purchase invoice line specifies an amount. For most tests, it does not matter exactly what amount. For inspiration, see the use of the `GenerateRandomCode` function in the tests that are included in the **TestToolkit** folder on the [!INCLUDE[navnow](includes/navnow_md.md)] product media. For more information, see [Random Test Data](Random-Test-Data.md).  
   
 -   Monitor code coverage. For more information, see [\($ N\_9990 Code Coverage $\)](-$-N_9990-Code-Coverage-$-.md).  
   
 ## See Also  
  [Application Test Automation](Application-Test-Automation.md)   
  [Testing Pages](Testing-Pages.md)   
- [How to: Run Automated ApplicationTests](../Topic/How%20to:%20Run%20Automated%20ApplicationTests.md)   
- [Walkthrough: Testing Purchase Invoice Discounts](../Topic/Walkthrough:%20Testing%20Purchase%20Invoice%20Discounts.md)   
- [Walkthrough: Create a Test with Confirmation Dialog](../Topic/Walkthrough:%20Create%20a%20Test%20with%20Confirmation%20Dialog.md)   
+ [How to: Run Automated ApplicationTests](How%20to:%20Run%20Automated%20ApplicationTests.md)   
+ [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough:%20Testing%20Purchase%20Invoice%20Discounts.md)   
+ [Walkthrough: Create a Test with Confirmation Dialog](Walkthrough:%20Create%20a%20Test%20with%20Confirmation%20Dialog.md)   
  [Random Test Data](Random-Test-Data.md)

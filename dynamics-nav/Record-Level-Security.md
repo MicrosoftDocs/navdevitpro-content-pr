@@ -14,7 +14,7 @@ manager: edupont
 # Record-Level Security
 Record\-level security lets you limit the access that a user has to the data in a table.  
   
- You implement record\-level security in [!INCLUDE[navnow](includes/navnow_md.md)] by creating security filters on table data. A security filter describes a set of records in a table that a user has permission to access. You can specify, for example, that a user can only read the records that contain information about a particular customer. This means that the user cannot access the records that contain information about other customers. For more information, see [How to: Set Security Filters](../Topic/How%20to:%20Set%20Security%20Filters.md).  
+ You implement record\-level security in [!INCLUDE[navnow](includes/navnow_md.md)] by creating security filters on table data. A security filter describes a set of records in a table that a user has permission to access. You can specify, for example, that a user can only read the records that contain information about a particular customer. This means that the user cannot access the records that contain information about other customers. For more information, see [How to: Set Security Filters](How%20to:%20Set%20Security%20Filters.md).  
   
 ## Setting Security Filtering Modes  
  When you create security filters, you limit a user's access to data in a table. Therefore, code that requires access to all data in a table fails and the user receives an error message.  

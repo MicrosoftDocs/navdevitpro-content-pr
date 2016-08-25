@@ -25,7 +25,7 @@ In this walkthrough, you will install [!INCLUDE[navnowlong](includes/navnowlong_
   
  The key characteristic of this walkthrough is that the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], [!INCLUDE[nav_server](includes/nav_server_md.md)], and SQL Server are installed on separate computers. In a production environment, you may have multiple computers running SQL Server, multiple computers running [!INCLUDE[nav_server](includes/nav_server_md.md)], and multiple computers running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. When any client user is accessing [!INCLUDE[nav_server](includes/nav_server_md.md)] on a remote computer and SQL Server on a different remote computer, the procedures and issues presented in this walkthrough apply.  
   
- For information about how to configure deployments where [!INCLUDE[nav_server](includes/nav_server_md.md)] and SQL Server are installed on a single computer, see [Walkthrough: Installing the Three Tiers On Two Computers](../Topic/Walkthrough:%20Installing%20the%20Three%20Tiers%20On%20Two%20Computers.md).  
+ For information about how to configure deployments where [!INCLUDE[nav_server](includes/nav_server_md.md)] and SQL Server are installed on a single computer, see [Walkthrough: Installing the Three Tiers On Two Computers](Walkthrough:%20Installing%20the%20Three%20Tiers%20On%20Two%20Computers.md).  
   
 ## Domain User Account vs. Network Service  
  In this walkthrough, the SQL Server service and [!INCLUDE[nav_server](includes/nav_server_md.md)] share a domain user account. No other application or service uses this account.  
@@ -203,16 +203,16 @@ In this walkthrough, you will install [!INCLUDE[navnowlong](includes/navnowlong_
 ## Establishing a Connection  
  The configuration is now complete. You should be able to start the RoleTailored client and connect to the [!INCLUDE[demolong](includes/demolong_md.md)].  
   
- If you cannot connect the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] to [!INCLUDE[nav_server](includes/nav_server_md.md)] after completing this procedure, then the problem may be that [!INCLUDE[nav_server](includes/nav_server_md.md)] is not able to establish a connection to SQL Server. For more information, see [Troubleshooting: SQL Server Connection Problems](../Topic/Troubleshooting:%20SQL%20Server%20Connection%20Problems.md).  
+ If you cannot connect the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] to [!INCLUDE[nav_server](includes/nav_server_md.md)] after completing this procedure, then the problem may be that [!INCLUDE[nav_server](includes/nav_server_md.md)] is not able to establish a connection to SQL Server. For more information, see [Troubleshooting: SQL Server Connection Problems](Troubleshooting:%20SQL%20Server%20Connection%20Problems.md).  
   
 ## Next Steps  
  You have now installed all [!INCLUDE[navnow](includes/navnow_md.md)] components. When you start the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], it connects to [!INCLUDE[nav_server](includes/nav_server_md.md)] and to [!INCLUDE[demoname](includes/demoname_md.md)], which is the demonstration company that is associated with the demonstration database.  
   
- The next steps are to upload your license, create users, and integrate them into the [!INCLUDE[navnow](includes/navnow_md.md)] security system. For more information, see [How to: Upload the License File](../Topic/How%20to:%20Upload%20the%20License%20File.md), [How to: Create Microsoft Dynamics NAV Users](../Topic/How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md), and [Managing Users](Managing-Users.md).  
+ The next steps are to upload your license, create users, and integrate them into the [!INCLUDE[navnow](includes/navnow_md.md)] security system. For more information, see [How to: Upload the License File](How%20to:%20Upload%20the%20License%20File.md), [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md), and [Managing Users](Managing-Users.md).  
   
 ## See Also  
  [Product and Architecture Overview](Product-and-Architecture-Overview.md)   
  [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)   
  [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)   
  [Configuring the Windows Client](Configuring-the-Windows-Client.md)   
- [How to: Upload the License File](../Topic/How%20to:%20Upload%20the%20License%20File.md)
+ [How to: Upload the License File](How%20to:%20Upload%20the%20License%20File.md)

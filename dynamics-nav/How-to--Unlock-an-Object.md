@@ -64,5 +64,5 @@ You can lock and unlock objects to prevent other developers from making changes 
     -   Press Ctrl\+Alt\+U.  
   
 ## See Also  
- [How to: Lock an Object](../Topic/How%20to:%20Lock%20an%20Object.md)   
+ [How to: Lock an Object](How%20to:%20Lock%20an%20Object.md)   
  [Locking and Unlocking Objects](Locking-and-Unlocking-Objects.md)

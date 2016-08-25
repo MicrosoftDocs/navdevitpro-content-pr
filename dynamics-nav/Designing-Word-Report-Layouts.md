@@ -16,11 +16,11 @@ A Word report layout is a based on Word document \(.docx file type\) that acts a
   
  From the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], you can create and modify built\-in Word report layouts on reports. The layouts that you create on reports in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] become part of the report objects in the database.  
   
- From the [!INCLUDE[navnow](includes/navnow_md.md)] clients, [!INCLUDE[navnow](includes/navnow_md.md)] users you can manage the Word report layouts that are used on reports. This includes adding a built\-in Word report layout, creating custom Word report layouts on a report, and changing which report layout is currently active on a report. For more information about how to manage Word report layouts from the [!INCLUDE[navnow](includes/navnow_md.md)] clients, see [Managing Report Layouts From the Microsoft Dynamics NAV Clients](../Topic/Managing%20Report%20Layouts%20From%20the%20Microsoft%20Dynamics%20NAV%20Clients.md) in the Application Help for [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
+ From the [!INCLUDE[navnow](includes/navnow_md.md)] clients, [!INCLUDE[navnow](includes/navnow_md.md)] users you can manage the Word report layouts that are used on reports. This includes adding a built\-in Word report layout, creating custom Word report layouts on a report, and changing which report layout is currently active on a report. For more information about how to manage Word report layouts from the [!INCLUDE[navnow](includes/navnow_md.md)] clients, see [Managing Report Layouts From the Microsoft Dynamics NAV Clients](Managing%20Report%20Layouts%20From%20the%20Microsoft%20Dynamics%20NAV%20Clients.md) in the Application Help for [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
   
 ## See Also  
  [Built-in and Custom Report Layouts](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md#BuilinCustomLayouts)   
- [How to: Create a Word Report Layout for a Report](../Topic/How%20to:%20Create%20a%20Word%20Report%20Layout%20for%20a%20Report.md)   
- [How to: Modify a Word Report Layout](../Topic/How%20to:%20Modify%20a%20Word%20Report%20Layout.md)   
- [How to: Add Fields from a Report Dataset to a Word Report Layout](../Topic/How%20to:%20Add%20Fields%20from%20a%20Report%20Dataset%20to%20a%20Word%20Report%20Layout.md)   
- [How to: Import and Export a Word Report Layout](../Topic/How%20to:%20Import%20and%20Export%20a%20Word%20Report%20Layout.md)
+ [How to: Create a Word Report Layout for a Report](How%20to:%20Create%20a%20Word%20Report%20Layout%20for%20a%20Report.md)   
+ [How to: Modify a Word Report Layout](How%20to:%20Modify%20a%20Word%20Report%20Layout.md)   
+ [How to: Add Fields from a Report Dataset to a Word Report Layout](How%20to:%20Add%20Fields%20from%20a%20Report%20Dataset%20to%20a%20Word%20Report%20Layout.md)   
+ [How to: Import and Export a Word Report Layout](How%20to:%20Import%20and%20Export%20a%20Word%20Report%20Layout.md)

@@ -54,6 +54,6 @@ This topic describes how to get the name of the Microsoft Azure Marketplace imag
      This specifies the image name that you must provide in the Set\-PartnerSetting file or Set\-PartnerSettings\-Custom file.  
   
 ## See Also  
- [Modifying the Parameter Settings](../Topic/How%20to:%20Deploy%20Microsoft%20Dynamics%20NAV%20on%20Microsoft%20Azure%20by%20Using%20the%20Example%20Scripts.md#SetSettings)   
+ [Modifying the Parameter Settings](How%20to:%20Deploy%20Microsoft%20Dynamics%20NAV%20on%20Microsoft%20Azure%20by%20Using%20the%20Example%20Scripts.md#SetSettings)   
  [Deploying Microsoft Dynamics NAV Using the Example Scripts](Deploying-Microsoft-Dynamics-NAV-Using-the-Example-Scripts.md)   
  [Preparing a Microsoft Azure Virtual Machine Image for Microsoft Dynamics NAV](Preparing-a-Microsoft-Azure-Virtual-Machine-Image-for-Microsoft-Dynamics-NAV.md)

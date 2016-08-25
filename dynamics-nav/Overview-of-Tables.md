@@ -29,7 +29,7 @@ The records in the database are stored in tables. A table can be visualized as a
  The table description contains some properties that are related to the table, others that are related to the fields in the table, and other properties related to keys. You can also see that triggers are defined both for the table and for the fields in the table.  
   
 ## See Also  
- [How to: Create a Table](../Topic/How%20to:%20Create%20a%20Table.md)   
+ [How to: Create a Table](How%20to:%20Create%20a%20Table.md)   
  [Table Keys](Table-Keys.md)   
  [Special Tables](Special-Tables.md)   
  [Table and Field Triggers](Table-and-Field-Triggers.md)

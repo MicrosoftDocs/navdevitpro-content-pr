@@ -25,7 +25,7 @@ You can use [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets to compare different
   
  The steps in the following procedures compare the ORIGINAL version to the MODIFIED solution and apply the relevant changes to your TARGET solution. As a result, you have an application that contains your solution with the updates from the MODIFIED application. Alternatively, the MODIFIED solution can be your solution and the TARGET solution can be the new release from Microsoft. The actual versions that you use to set each cmdlet parameter depend on your concrete scenario. However, we recommend that MODIFIED contains the solution with the fewest changes compared to ORIGINAL. The [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Compare\-NAVApplicationObject](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Compare-NAVApplicationObject) cmdlet compares two sets of application objects and stores the differences in DELTA files in the specified folder.  
   
- The following procedure assumes that you have exported the relevant application objects to text files. For an example of how to do that, see the **To prepare the application object files** section in the [How to: Merge Application Changes](../Topic/How%20to:%20Merge%20Application%20Changes.md) topic.  
+ The following procedure assumes that you have exported the relevant application objects to text files. For an example of how to do that, see the **To prepare the application object files** section in the [How to: Merge Application Changes](How%20to:%20Merge%20Application%20Changes.md) topic.  
   
 ### To compare two sets of application objects  
   
@@ -94,10 +94,10 @@ You can use [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets to compare different
   
      This merges the difference between ORIGINAL and MODIFIED with the target solution and puts the resulting solution in the RESULT folder.  
   
- You can now import the merged objects into a [!INCLUDE[navnow](includes/navnow_md.md)] database. For more information, see [How to: Merge Application Changes](../Topic/How%20to:%20Merge%20Application%20Changes.md).  
+ You can now import the merged objects into a [!INCLUDE[navnow](includes/navnow_md.md)] database. For more information, see [How to: Merge Application Changes](How%20to:%20Merge%20Application%20Changes.md).  
   
 ## See Also  
- [How to: Merge Application Changes](../Topic/How%20to:%20Merge%20Application%20Changes.md)   
+ [How to: Merge Application Changes](How%20to:%20Merge%20Application%20Changes.md)   
  [Handling Merge Conflicts](Handling-Merge-Conflicts.md)   
  [Merging Application Objects using the Example Scripts](Merging-Application-Objects-using-the-Example-Scripts.md)   
  [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)   

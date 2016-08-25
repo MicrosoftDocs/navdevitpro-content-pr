@@ -95,4 +95,4 @@ CustomerCard.OK.INVOKE;
   
 ## See Also  
  [Testing the Application](Testing-the-Application.md)   
- [How to: Create a Test Page](../Topic/How%20to:%20Create%20a%20Test%20Page.md)
+ [How to: Create a Test Page](How%20to:%20Create%20a%20Test%20Page.md)

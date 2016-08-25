@@ -23,7 +23,7 @@ Specifies a field to be a timestamp field.
 ## Remarks  
  Each table in [!INCLUDE[navnow](includes/navnow_md.md)] includes a hidden timestamp field. The timestamp field contains row version numbers for records as maintained in SQL Server. This property exposes the timestamp field in the table object, and enables you to write code against it.  
   
- For more information, see [How to: Use a Timestamp Field](../Topic/How%20to:%20Use%20a%20Timestamp%20Field.md).  
+ For more information, see [How to: Use a Timestamp Field](How%20to:%20Use%20a%20Timestamp%20Field.md).  
   
 ## See Also  
  [Tables\-duplicate 20](Tables-duplicate-20.md)

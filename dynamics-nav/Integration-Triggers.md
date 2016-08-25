@@ -31,4 +31,4 @@ The following triggers have been added to support integration with Microsoft Dyn
  These triggers are called whenever a record changes through code or user interaction.  
   
 ## See Also  
- [\($ T\_5151\_3  Record ID $\)](../Topic/\($%20T_5151_3%20%20Record%20ID%20$\).md)
+ [\($ T\_5151\_3  Record ID $\)](\($%20T_5151_3%20%20Record%20ID%20$\).md)

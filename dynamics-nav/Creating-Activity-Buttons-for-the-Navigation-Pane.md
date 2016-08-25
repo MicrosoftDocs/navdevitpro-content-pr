@@ -18,7 +18,7 @@ An *activity button* is a navigation pane button that displays links to addition
   
  ![Navigation pane clip that shows Activity buttons](media/NAV_ADG_NavigationPane_ActivityButtons.jpg "NAV\_ADG\_NavigationPane\_ActivityButtons")  
   
- When you create an activity button, you can apply one of the default images that are available for activity buttons. For more information, see [How to: Set an Icon on an Activity Button](../Topic/How%20to:%20Set%20an%20Icon%20on%20an%20Activity%20Button.md).  
+ When you create an activity button, you can apply one of the default images that are available for activity buttons. For more information, see [How to: Set an Icon on an Activity Button](How%20to:%20Set%20an%20Icon%20on%20an%20Activity%20Button.md).  
   
 > [!NOTE]  
 >  You cannot set up an image on the page links of an activity button. All page links in the navigation pane use a default image that cannot be changed.  
@@ -30,7 +30,7 @@ An *activity button* is a navigation pane button that displays links to addition
   
  The following guidelines apply when working with activity buttons:  
   
--   Activity buttons are only valid on pages that have the type **RoleCenter**. For more information, see [Walkthrough: Creating a Role Center](../Topic/Walkthrough:%20Creating%20a%20Role%20Center.md).  
+-   Activity buttons are only valid on pages that have the type **RoleCenter**. For more information, see [Walkthrough: Creating a Role Center](Walkthrough:%20Creating%20a%20Role%20Center.md).  
   
 -   All activity buttons are set up under a single action of the type **ActionContainer** and the subtype **ActivityButtons**. The container's location with respect to other action containers is not significant. Activity buttons are always displayed after the **Home** button in the navigation pane.  
   
@@ -39,7 +39,7 @@ An *activity button* is a navigation pane button that displays links to addition
 -   Links to individual pages are defined by actions of the type **Action** that are indented once from the **ActionGroup** row. The order of the actions in the Action Designer determines the default order in the navigation pane.  
   
 ## See Also  
- [How to: Create an Activity Button and Page Links in the Navigation Pane](../Topic/How%20to:%20Create%20an%20Activity%20Button%20and%20Page%20Links%20in%20the%20Navigation%20Pane.md)   
- [How to: Set an Icon on an Activity Button](../Topic/How%20to:%20Set%20an%20Icon%20on%20an%20Activity%20Button.md)   
+ [How to: Create an Activity Button and Page Links in the Navigation Pane](How%20to:%20Create%20an%20Activity%20Button%20and%20Page%20Links%20in%20the%20Navigation%20Pane.md)   
+ [How to: Set an Icon on an Activity Button](How%20to:%20Set%20an%20Icon%20on%20an%20Activity%20Button.md)   
  [Setting Up the Home Button and Home Items](Setting-Up-the-Home-Button-and-Home-Items.md)   
- [Walkthrough: Creating a Role Center](../Topic/Walkthrough:%20Creating%20a%20Role%20Center.md)
+ [Walkthrough: Creating a Role Center](Walkthrough:%20Creating%20a%20Role%20Center.md)

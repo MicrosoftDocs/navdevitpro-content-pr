@@ -25,5 +25,5 @@ With a multlanguage\-enabled database you can automatically  get the languages n
   
 ## See Also  
  [Multilanguage Development](Multilanguage-Development.md)   
- [How to: Add Translated Strings By Using the Multilanguage Editor](../Topic/How%20to:%20Add%20Translated%20Strings%20By%20Using%20the%20Multilanguage%20Editor.md)   
- [How to: Delete Translated Strings](../Topic/How%20to:%20Delete%20Translated%20Strings.md)
+ [How to: Add Translated Strings By Using the Multilanguage Editor](How%20to:%20Add%20Translated%20Strings%20By%20Using%20the%20Multilanguage%20Editor.md)   
+ [How to: Delete Translated Strings](How%20to:%20Delete%20Translated%20Strings.md)

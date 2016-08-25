@@ -28,6 +28,6 @@ You create or load Setup configuration files using [!INCLUDE[navnowlong](include
 > -   You can load it into Setup, make the desired modifications, and then save it. You do not need to install any software during this process.  
   
 ## See Also  
- [How to: Choose Components to Install](../Topic/How%20to:%20Choose%20Components%20to%20Install.md)   
- [How to: Preconfigure Components](../Topic/How%20to:%20Preconfigure%20Components.md)   
- [How to: Create or Load a Setup Configuration File](../Topic/How%20to:%20Create%20or%20Load%20a%20Setup%20Configuration%20File.md)
+ [How to: Choose Components to Install](How%20to:%20Choose%20Components%20to%20Install.md)   
+ [How to: Preconfigure Components](How%20to:%20Preconfigure%20Components.md)   
+ [How to: Create or Load a Setup Configuration File](How%20to:%20Create%20or%20Load%20a%20Setup%20Configuration%20File.md)

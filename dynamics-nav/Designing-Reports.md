@@ -18,9 +18,9 @@ You design a report by first defining the dataset and then designing the visual 
   
 |To|See|  
 |--------|---------|  
-|Learn about how to create a report dataset|[How to: Create a Report Dataset](../Topic/How%20to:%20Create%20a%20Report%20Dataset.md)<br /><br /> [How to: Create Labels for a Report](../Topic/How%20to:%20Create%20Labels%20for%20a%20Report.md)|  
+|Learn about how to create a report dataset|[How to: Create a Report Dataset](How%20to:%20Create%20a%20Report%20Dataset.md)<br /><br /> [How to: Create Labels for a Report](How%20to:%20Create%20Labels%20for%20a%20Report.md)|  
 |Learn general information about report layouts|[Designing Report Layouts from the Microsoft Dynamics NAV Development Environment](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md)|  
-|Learn about how to design a RDLC report layout|[Designing RDLC Report Layouts](Designing-RDLC-Report-Layouts.md)<br /><br /> [How to: Create an RDLC Report Layout](../Topic/How%20to:%20Create%20an%20RDLC%20Report%20Layout.md)<br /><br /> [How to: Integrate Report Dataset Designer and Visual Studio Report Designer](../Topic/How%20to:%20Integrate%20Report%20Dataset%20Designer%20and%20Visual%20Studio%20Report%20Designer.md)|  
+|Learn about how to design a RDLC report layout|[Designing RDLC Report Layouts](Designing-RDLC-Report-Layouts.md)<br /><br /> [How to: Create an RDLC Report Layout](How%20to:%20Create%20an%20RDLC%20Report%20Layout.md)<br /><br /> [How to: Integrate Report Dataset Designer and Visual Studio Report Designer](How%20to:%20Integrate%20Report%20Dataset%20Designer%20and%20Visual%20Studio%20Report%20Designer.md)|  
 |Learn about how to design a Word report layout|[Designing Word Report Layouts](Designing-Word-Report-Layouts.md)|  
 |Walk through examples of designing reports that use the [!INCLUDE[demolong](includes/demolong_md.md)]|[Report Design Walkthroughs](Report-Design-Walkthroughs.md)|  
   

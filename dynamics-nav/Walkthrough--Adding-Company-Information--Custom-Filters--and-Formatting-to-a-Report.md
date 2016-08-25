@@ -12,7 +12,7 @@ caps.latest.revision: 15
 manager: edupont
 ---
 # Walkthrough: Adding Company Information, Custom Filters, and Formatting to a Report
-When you create a report, you can add features such as formatting, custom filters, company logo, and company name to the report. Adding these features make the report readable and improves the visual presentation of the report. You will add these features to the report that you created in [Walkthrough: Designing a Report from Multiple Tables](../Topic/Walkthrough:%20Designing%20a%20Report%20from%20Multiple%20Tables.md).  
+When you create a report, you can add features such as formatting, custom filters, company logo, and company name to the report. Adding these features make the report readable and improves the visual presentation of the report. You will add these features to the report that you created in [Walkthrough: Designing a Report from Multiple Tables](Walkthrough:%20Designing%20a%20Report%20from%20Multiple%20Tables.md).  
   
 ## About This Walkthrough  
  This walkthrough shows you how to add custom filters, add company information, and format a report.  
@@ -36,7 +36,7 @@ When you create a report, you can add features such as formatting, custom filter
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   To create a report by using [Walkthrough: Designing a Report from Multiple Tables](../Topic/Walkthrough:%20Designing%20a%20Report%20from%20Multiple%20Tables.md). If you have not created this report, you must create it before you start this walkthrough.  
+-   To create a report by using [Walkthrough: Designing a Report from Multiple Tables](Walkthrough:%20Designing%20a%20Report%20from%20Multiple%20Tables.md). If you have not created this report, you must create it before you start this walkthrough.  
   
 -   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installed with a developer license.  
   
@@ -45,14 +45,14 @@ When you create a report, you can add features such as formatting, custom filter
 -   Microsoft Visual Studio installed. For more information about which version of Microsoft Visual Studio you need, see [System Requirements for Microsoft Dynamics NAV 2016](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md). This walkthrough assumes that Microsoft Visual Studio 2012 or Microsoft Visual Studio 2013 is used.  
   
 ## Story  
- Viktor has created the report that was assigned to him in [Walkthrough: Designing a Report from Multiple Tables](../Topic/Walkthrough:%20Designing%20a%20Report%20from%20Multiple%20Tables.md). Viktor wants to improve the visual presentation of the report by adding the company name and company logo to the report. He will format the data and the layout of the report. The company name and the logo must be displayed on every page. On the request page, Viktor wants to enable users to filter the data by customer number and provide the option to hide or show detailed customer information.  
+ Viktor has created the report that was assigned to him in [Walkthrough: Designing a Report from Multiple Tables](Walkthrough:%20Designing%20a%20Report%20from%20Multiple%20Tables.md). Viktor wants to improve the visual presentation of the report by adding the company name and company logo to the report. He will format the data and the layout of the report. The company name and the logo must be displayed on every page. On the request page, Viktor wants to enable users to filter the data by customer number and provide the option to hide or show detailed customer information.  
   
 ## Declaring the Required Variables  
  First, Viktor will declare the variables that are that are required to create the custom filter and add the company name and logo to the report.  
   
 #### To declare the variables  
   
-1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], in Object Designer, select the report that you created by using [Walkthrough: Designing a Report from Multiple Tables](../Topic/Walkthrough:%20Designing%20a%20Report%20from%20Multiple%20Tables.md) \(Report for Multiple Tables \(50001\). Choose **Design** to open Report Dataset Designer.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], in Object Designer, select the report that you created by using [Walkthrough: Designing a Report from Multiple Tables](Walkthrough:%20Designing%20a%20Report%20from%20Multiple%20Tables.md) \(Report for Multiple Tables \(50001\). Choose **Design** to open Report Dataset Designer.  
   
 2.  On the **View** menu, choose **C\/AL Globals** to open the **C\/AL Globals** window.  
   
@@ -371,5 +371,5 @@ When you create a report, you can add features such as formatting, custom filter
      ![Formatted report](media/MicrosoftDynamicsNAV_FormatedReport.jpg "MicrosoftDynamicsNAV\_FormatedReport")  
   
 ## See Also  
- [Walkthrough: Designing a Report from Multiple Tables](../Topic/Walkthrough:%20Designing%20a%20Report%20from%20Multiple%20Tables.md)   
+ [Walkthrough: Designing a Report from Multiple Tables](Walkthrough:%20Designing%20a%20Report%20from%20Multiple%20Tables.md)   
  [Report Design Walkthroughs](Report-Design-Walkthroughs.md)

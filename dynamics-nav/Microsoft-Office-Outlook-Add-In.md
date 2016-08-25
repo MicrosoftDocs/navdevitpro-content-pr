@@ -17,7 +17,7 @@ Use the Microsoft Office Outlook Add\-In component to synchronize data, such as 
 ## Installing Microsoft Office Outlook Add\-In  
  You must install the Microsoft Office Outlook Add\-In and other components before you set up Microsoft Office Outlook Integration. The following lists show which components and subcomponents you must select in [!INCLUDE[navnow](includes/navnow_md.md)] Setup.  
   
- These components are not all available with any of the pre\-configured [Installation Options](Installation-Options.md). To install the add\-in, choose **Custom**  on the **Choose an Installation Option** pane in Setup and then select components. See [How to: Choose Components to Install](../Topic/How%20to:%20Choose%20Components%20to%20Install.md).  
+ These components are not all available with any of the pre\-configured [Installation Options](Installation-Options.md). To install the add\-in, choose **Custom**  on the **Choose an Installation Option** pane in Setup and then select components. See [How to: Choose Components to Install](How%20to:%20Choose%20Components%20to%20Install.md).  
   
  It is not necessary to install all listed components on a single computer. But if you install different [!INCLUDE[navnow](includes/navnow_md.md)] components on different computers, then you must configure the components so that they can communicate. For more information, see [Installation and Configuration Walkthroughs](Installation-and-Configuration-Walkthroughs.md). The following table lists the components that need to be installed and configured.  
   
@@ -29,7 +29,7 @@ Use the Microsoft Office Outlook Add\-In component to synchronize data, such as 
 |Microsoft Office Outlook Add\-In|Not applicable|  
   
 ## See Also  
- [Walkthrough: Setting Up Outlook Synchronization](../Topic/Walkthrough:%20Setting%20Up%20Outlook%20Synchronization.md)   
+ [Walkthrough: Setting Up Outlook Synchronization](Walkthrough:%20Setting%20Up%20Outlook%20Synchronization.md)   
  [Web Services](Web-Services.md)   
  [Installation and Configuration Walkthroughs](Installation-and-Configuration-Walkthroughs.md)   
  [Installation Options](Installation-Options.md)

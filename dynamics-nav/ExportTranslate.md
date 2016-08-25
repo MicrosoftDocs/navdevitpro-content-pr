@@ -106,7 +106,7 @@ finsql.exe command=exporttranslate, file=<exportfile>, [servername=<server>,] [d
  Specifies whether to use NT authentication. The possible values are **yes**, **no**, **1**, or **0**. If you specify the *username* and *password* parameters, then you must specify **ntauthentication\=no** or **ntauthentication\=0**.  
   
 ## Remarks  
- You can use this command for translating text strings in multilanguage setup of [!INCLUDE[navnow](includes/navnow_md.md)]. This command exports all text strings that are associated with objects, which includes text strings that are defined by for properties of the objects in all languages. For more information, see [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](../Topic/How%20to:%20Add%20Translated%20Strings%20By%20Importing%20and%20Exporting%20Multilanguage%20Files.md) and [Multilanguage Development](Multilanguage-Development.md).  
+ You can use this command for translating text strings in multilanguage setup of [!INCLUDE[navnow](includes/navnow_md.md)]. This command exports all text strings that are associated with objects, which includes text strings that are defined by for properties of the objects in all languages. For more information, see [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How%20to:%20Add%20Translated%20Strings%20By%20Importing%20and%20Exporting%20Multilanguage%20Files.md) and [Multilanguage Development](Multilanguage-Development.md).  
   
 ## Example  
  This example shows how to run the ExportTranslate command to export text strings from the *Demo Database NAV \(9\-0\)* database to a .txt type file that has the path and file name *C:\\navtextstrings.txt*.  

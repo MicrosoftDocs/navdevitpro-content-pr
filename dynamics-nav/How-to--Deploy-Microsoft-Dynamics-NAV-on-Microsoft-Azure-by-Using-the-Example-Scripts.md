@@ -15,9 +15,9 @@ This topic describes how to deploy [!INCLUDE[navnow](includes/navnow_md.md)] by 
   
  To deploy [!INCLUDE[navnow](includes/navnow_md.md)] by using the scripts, you must follow the steps as described in this topic:  
   
- [Modifying the Parameter Settings](../Topic/How%20to:%20Deploy%20Microsoft%20Dynamics%20NAV%20on%20Microsoft%20Azure%20by%20Using%20the%20Example%20Scripts.md#SetSettings)  
+ [Modifying the Parameter Settings](How%20to:%20Deploy%20Microsoft%20Dynamics%20NAV%20on%20Microsoft%20Azure%20by%20Using%20the%20Example%20Scripts.md#SetSettings)  
   
- [Running the Example Scripts](../Topic/How%20to:%20Deploy%20Microsoft%20Dynamics%20NAV%20on%20Microsoft%20Azure%20by%20Using%20the%20Example%20Scripts.md#RunScripts)  
+ [Running the Example Scripts](How%20to:%20Deploy%20Microsoft%20Dynamics%20NAV%20on%20Microsoft%20Azure%20by%20Using%20the%20Example%20Scripts.md#RunScripts)  
   
 ##  <a name="SetSettings"></a> Modifying the Parameter Settings  
  The [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)] include the Set\-PartnerSettings.ps1 script, which by default is located in the WindowsPowerShellScripts\\Cloud\\HowTo folder on the [!INCLUDE[navnow](includes/navnow_md.md)] installation media \(DVD\). The Set\-PartnerSettings.ps1 script contains parameters that are used by the \-1VM.ps1 and Example\-2VM.ps1 scripts to configure the [!INCLUDE[navnow](includes/navnow_md.md)] deployment. For example, the Set\-PartnerSettings.ps1 file contains parameters that specify the Microsoft Azure subscription, [!INCLUDE[navnow](includes/navnow_md.md)] DVD location, security certificates, and more. Before you run the Example\-1VM.ps1 or Example\-2VM.ps1 script, you must modify Set\-PartnerSettings.ps1 to provide values for all the parameters.  
@@ -108,12 +108,12 @@ This topic describes how to deploy [!INCLUDE[navnow](includes/navnow_md.md)] by 
       password=N@Vpw312  
     ```  
   
-     New virtual machines appear in the Azure management portal under Virtual Machines, and you can access [!INCLUDE[navnow](includes/navnow_md.md)] from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [How to: Open Microsoft Dynamics NAV Clients that Connect to Microsoft Dynamics NAV on Microsoft Azure](../Topic/How%20to:%20Open%20Microsoft%20Dynamics%20NAV%20Clients%20that%20Connect%20to%20Microsoft%20Dynamics%20NAV%20on%20Microsoft%20Azure.md).  
+     New virtual machines appear in the Azure management portal under Virtual Machines, and you can access [!INCLUDE[navnow](includes/navnow_md.md)] from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [How to: Open Microsoft Dynamics NAV Clients that Connect to Microsoft Dynamics NAV on Microsoft Azure](How%20to:%20Open%20Microsoft%20Dynamics%20NAV%20Clients%20that%20Connect%20to%20Microsoft%20Dynamics%20NAV%20on%20Microsoft%20Azure.md).  
   
 ## See Also  
- [How to: Install the Microsoft Dynamics NAV Provisioning Tools for Microsoft Azure](../Topic/How%20to:%20Install%20the%20Microsoft%20Dynamics%20NAV%20Provisioning%20Tools%20for%20Microsoft%20Azure.md)   
+ [How to: Install the Microsoft Dynamics NAV Provisioning Tools for Microsoft Azure](How%20to:%20Install%20the%20Microsoft%20Dynamics%20NAV%20Provisioning%20Tools%20for%20Microsoft%20Azure.md)   
  [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
  [Deploying Microsoft Dynamics NAV on Two Virtual Machines Using Example\-2VM Script](Deploying-Microsoft-Dynamics-NAV-on-Two-Virtual-Machines-Using-Example-2VM-Script.md)   
  [Deploying Microsoft Dynamics NAV on One Virtual Machine Using Example\-1VM Script](Deploying-Microsoft-Dynamics-NAV-on-One-Virtual-Machine-Using-Example-1VM-Script.md)   
  [Scaling the Microsoft Dynamics NAV Network Topology](Scaling-the-Microsoft-Dynamics-NAV-Network-Topology.md)   
- [How to: Get the Microsoft Azure Image Name](../Topic/How%20to:%20Get%20the%20Microsoft%20Azure%20Image%20Name.md)
+ [How to: Get the Microsoft Azure Image Name](How%20to:%20Get%20the%20Microsoft%20Azure%20Image%20Name.md)

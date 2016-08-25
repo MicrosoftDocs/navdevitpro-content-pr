@@ -16,7 +16,7 @@ Running, for example, the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and 
  If you have implemented code that checks for the `CURRENTCLIENTTYPE`, you must run each of the different clients in separate browser windows to make sure that the correct client type is returned for each of the clients.  
   
 ## See Also  
- [Troubleshooting: Client Returns Wrong CLIENTTYPE](../Topic/Troubleshooting:%20Client%20Returns%20Wrong%20CLIENTTYPE.md)   
+ [Troubleshooting: Client Returns Wrong CLIENTTYPE](Troubleshooting:%20Client%20Returns%20Wrong%20CLIENTTYPE.md)   
  [Designing for Different Screen Sizes on Tablet and Phone](Designing-for-Different-Screen-Sizes-on-Tablet-and-Phone.md)   
  [CURRENTCLIENTTYPE Function](CURRENTCLIENTTYPE-Function.md)   
  [DEFAULTCLIENTTYPE Function](DEFAULTCLIENTTYPE-Function.md)

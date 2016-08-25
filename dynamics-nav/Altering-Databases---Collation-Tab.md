@@ -30,11 +30,11 @@ Changes the collation that is used by the database.
   
  If you set the **Validate Collation** check box, then collation languages that run with a different non\-Unicode code page from your system non\-Unicode code page are filtered out of the **Language** drop\-down list. An example scenario of when you might want to choose a collation language that has a different code page from your system code page is if you want to prepare a Japanese database on a Danish computer.  
   
- You cannot change the collation directly in the current database. To change the collation, you must create a new database that uses the correct collation, and then export the data from the old database and import it to the new database. For more information, see [How to: Alter Databases](../Topic/How%20to:%20Alter%20Databases.md)  
+ You cannot change the collation directly in the current database. To change the collation, you must create a new database that uses the correct collation, and then export the data from the old database and import it to the new database. For more information, see [How to: Alter Databases](How%20to:%20Alter%20Databases.md)  
   
 ## See Also  
- [How to: Alter Databases](../Topic/How%20to:%20Alter%20Databases.md)   
- [How to: Alter Databases](../Topic/How%20to:%20Alter%20Databases.md)   
+ [How to: Alter Databases](How%20to:%20Alter%20Databases.md)   
+ [How to: Alter Databases](How%20to:%20Alter%20Databases.md)   
  [Altering Databases \- General Tab](Altering-Databases---General-Tab.md)   
  [Altering Databases \- Database Files Tab](Altering-Databases---Database-Files-Tab.md)   
  [Altering Databases \- Transaction Log Files Tab](Altering-Databases---Transaction-Log-Files-Tab.md)   

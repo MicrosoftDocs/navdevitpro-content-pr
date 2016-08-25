@@ -37,4 +37,4 @@ manager: edupont
 |[OnLookup \(Fields\) Trigger](OnLookup--Fields--Trigger.md)|Lookup is activated.|  
   
 ## See Also  
- [How to: Define or Modify Table or Field Triggers](../Topic/How%20to:%20Define%20or%20Modify%20Table%20or%20Field%20Triggers.md)
+ [How to: Define or Modify Table or Field Triggers](How%20to:%20Define%20or%20Modify%20Table%20or%20Field%20Triggers.md)

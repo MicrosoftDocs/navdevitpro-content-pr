@@ -48,8 +48,8 @@ To make your extension available to users, the package must be published to a sp
   
 ## See Also  
  [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)   
- [How to: Develop an Extension](../Topic/How%20to:%20Develop%20an%20Extension.md)   
- [How to: Create an Extension Package](../Topic/How%20to:%20Create%20an%20Extension%20Package.md)   
+ [How to: Develop an Extension](How%20to:%20Develop%20an%20Extension.md)   
+ [How to: Create an Extension Package](How%20to:%20Create%20an%20Extension%20Package.md)   
  [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)   
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   
  [Administration Cmdlets for Microsoft Dynamics NAV](http://go.microsoft.com/fwlink/?LinkID=510540)

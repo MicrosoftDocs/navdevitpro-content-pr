@@ -26,6 +26,6 @@ Headers and footers in client report definition \(RDLC\) report layouts have the
   
  The following topic describes modifications that require creating a new hidden text box so that the data can be used in a header or footer:  
   
--   [How to: Print Report Header Information on Multiple Pages](../Topic/How%20to:%20Print%20Report%20Header%20Information%20on%20Multiple%20Pages.md)  
+-   [How to: Print Report Header Information on Multiple Pages](How%20to:%20Print%20Report%20Header%20Information%20on%20Multiple%20Pages.md)  
   
  For more information about Visual Studio report layouts, see [Defining a Report Layout](http://go.microsoft.com/fwlink/?linkid=126035).

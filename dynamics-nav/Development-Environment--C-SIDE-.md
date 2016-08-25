@@ -31,7 +31,7 @@ You use the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to develop [!I
 ## Debugging with the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]  
  If you use the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] for debugging and want to be able to set breakpoints, the following must be true:  
   
--   You must be a [!INCLUDE[navnow](includes/navnow_md.md)] user. See [How to: Create Microsoft Dynamics NAV Users](../Topic/How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).  
+-   You must be a [!INCLUDE[navnow](includes/navnow_md.md)] user. See [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).  
   
 -   You must have a Login for the [!INCLUDE[navnow](includes/navnow_md.md)] database. You must also assign that Login the db\_owner database role. Use SQL Server Management Studio to create logins and assign roles. See [Setting Database Owner and Security Administration Permissions](Setting-Database-Owner-and-Security-Administration-Permissions.md) for detailed information.  
   
@@ -52,4 +52,4 @@ You use the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to develop [!I
  [Setting Database Owner and Security Administration Permissions](Setting-Database-Owner-and-Security-Administration-Permissions.md)   
  [License Types](License-Types.md)   
  [Breakpoints](Breakpoints.md)   
- [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](../Topic/Walkthrough:%20Debugging%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client.md)
+ [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough:%20Debugging%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client.md)

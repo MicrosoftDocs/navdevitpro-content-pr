@@ -37,7 +37,7 @@ The **Report Metadata** virtual table \(ID 2000000139\) contains data about the 
   
  The fields in the virtual table correspond to C\/AL properties on the page objects. For more information, see [Report Properties](Report-Properties.md).  
   
- To access and view the **Report Metadata** virtual table, you must create a tabular\-type page. For more information, see [How to: Create a Page to View a Virtual Table](../Topic/How%20to:%20Create%20a%20Page%20to%20View%20a%20Virtual%20Table.md)  
+ To access and view the **Report Metadata** virtual table, you must create a tabular\-type page. For more information, see [How to: Create a Page to View a Virtual Table](How%20to:%20Create%20a%20Page%20to%20View%20a%20Virtual%20Table.md)  
   
 ## See Also  
  [Virtual Tables](Virtual-Tables.md)

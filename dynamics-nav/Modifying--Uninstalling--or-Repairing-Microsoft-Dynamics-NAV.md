@@ -26,7 +26,7 @@ If you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup on a computer
     |Run all from My Computer|Adds this component and all subcomponents to the current installation.|  
     |Not Available|Removes this component and all subcomponents from the current installation.|  
   
-     After you finish selecting components, choose **Next** to proceed to the **Specify parameters** pane. See [How to: Preconfigure Components](../Topic/How%20to:%20Preconfigure%20Components.md) for details.  
+     After you finish selecting components, choose **Next** to proceed to the **Specify parameters** pane. See [How to: Preconfigure Components](How%20to:%20Preconfigure%20Components.md) for details.  
   
 -   **Repair**  
   
@@ -63,6 +63,6 @@ If you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup on a computer
  To ensure that you can easily re\-create the web server instances after you run the **Repair** option, we recommend that you create Windows PowerShell scripts that add and configure the web server instances.  
   
 ## See Also  
- [How to: Choose Components to Install](../Topic/How%20to:%20Choose%20Components%20to%20Install.md)   
+ [How to: Choose Components to Install](How%20to:%20Choose%20Components%20to%20Install.md)   
  [Working with Microsoft Dynamics NAV Setup](Working-with-Microsoft-Dynamics-NAV-Setup.md)   
- [How to: Run Setup](../Topic/How%20to:%20Run%20Setup.md)
+ [How to: Run Setup](How%20to:%20Run%20Setup.md)

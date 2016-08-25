@@ -20,7 +20,7 @@ Sets a link to a Factbox from a page.
 ## Remarks  
  The link is updated when the current record changes.  
   
- For an example of how to use SubPageLink to update the content of a FactBox in the RoleTailored client as different items are selected in a list page, see [Walkthrough: Adding a FactBox to the Customer List Page](../Topic/Walkthrough:%20Adding%20a%20FactBox%20to%20the%20Customer%20List%20Page.md).  
+ For an example of how to use SubPageLink to update the content of a FactBox in the RoleTailored client as different items are selected in a list page, see [Walkthrough: Adding a FactBox to the Customer List Page](Walkthrough:%20Adding%20a%20FactBox%20to%20the%20Customer%20List%20Page.md).  
   
 ## See Also  
  [Properties](Properties.md)

@@ -168,6 +168,6 @@ You can create test runner codeunits to manage the execution of test codeunits a
   
 ## See Also  
  [Testing the Application](Testing-the-Application.md)   
- [How to: Create Test Codeunits and Test Functions](../Topic/How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md)   
- [How to: Create Handler Functions](../Topic/How%20to:%20Create%20Handler%20Functions.md)   
+ [How to: Create Test Codeunits and Test Functions](How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md)   
+ [How to: Create Handler Functions](How%20to:%20Create%20Handler%20Functions.md)   
  [Application Test Automation](Application-Test-Automation.md)

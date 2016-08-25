@@ -140,4 +140,4 @@ finsql.exe command=exportobjects, file=C:\QueryExport.txt, servername=TestComput
  [ExportTranslate](ExportTranslate.md)   
  [ImportTranslate](ImportTranslate.md)   
  [Using the Development Environment from the Command Prompt](Using-the-Development-Environment-from-the-Command-Prompt.md)   
- [How to: Export Objects](../Topic/How%20to:%20Export%20Objects.md)
+ [How to: Export Objects](How%20to:%20Export%20Objects.md)

@@ -56,5 +56,5 @@ You can view, set, enable, disable, or delete breakpoints on lines of code in th
   
 ## See Also  
  [Breakpoints](Breakpoints.md)   
- [How to: Manage Breakpoints from the Debugger Code Viewer](../Topic/How%20to:%20Manage%20Breakpoints%20from%20the%20Debugger%20Code%20Viewer.md)   
- [How to: Manage Breakpoints from the Debugger Breakpoint List](../Topic/How%20to:%20Manage%20Breakpoints%20from%20the%20Debugger%20Breakpoint%20List.md)
+ [How to: Manage Breakpoints from the Debugger Code Viewer](How%20to:%20Manage%20Breakpoints%20from%20the%20Debugger%20Code%20Viewer.md)   
+ [How to: Manage Breakpoints from the Debugger Breakpoint List](How%20to:%20Manage%20Breakpoints%20from%20the%20Debugger%20Breakpoint%20List.md)

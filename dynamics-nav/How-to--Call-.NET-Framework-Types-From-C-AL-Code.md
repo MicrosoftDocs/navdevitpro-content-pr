@@ -56,7 +56,7 @@ You can call .NET Framework type members, including methods, properties, and con
   
      The **.NET Type List** window displays all available types, including classes, enumerations, structs, and interfaces, which are available in the selected assembly.  
   
-     By default, variables are set to run the assembly instance on [!INCLUDE[nav_server](includes/nav_server_md.md)]. If you want to run the assembly instance on the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], see [How to: Set .NET Framework Types to Run on the Microsoft Dynamics NAV Windows Client or Microsoft Dynamics NAV Server Computers](../Topic/How%20to:%20Set%20.NET%20Framework%20Types%20to%20Run%20on%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client%20or%20Microsoft%20Dynamics%20NAV%20Server%20Computers.md).  
+     By default, variables are set to run the assembly instance on [!INCLUDE[nav_server](includes/nav_server_md.md)]. If you want to run the assembly instance on the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], see [How to: Set .NET Framework Types to Run on the Microsoft Dynamics NAV Windows Client or Microsoft Dynamics NAV Server Computers](How%20to:%20Set%20.NET%20Framework%20Types%20to%20Run%20on%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client%20or%20Microsoft%20Dynamics%20NAV%20Server%20Computers.md).  
   
 ### To call methods and properties in a .NET Framework class  
   

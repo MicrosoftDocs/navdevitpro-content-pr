@@ -35,11 +35,11 @@ When you try to open the [!INCLUDE[nav_web](includes/nav_web_md.md)], you get th
   
      For more information, see [Provisioning the Microsoft Dynamics NAV Server Account](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md).  
   
--   If you are using Mozilla Firefox as your browser, then you must enable cookies in the browser. Additionally, configure the address of the [!INCLUDE[nav_web](includes/nav_web_md.md)] as a trusted URI in Firefox. For more information, see [How to: Configure Mozilla Firefox for Microsoft Dynamics NAV Clients](../Topic/How%20to:%20Configure%20Mozilla%20Firefox%20for%20Microsoft%20Dynamics%20NAV%20Clients.md).  
+-   If you are using Mozilla Firefox as your browser, then you must enable cookies in the browser. Additionally, configure the address of the [!INCLUDE[nav_web](includes/nav_web_md.md)] as a trusted URI in Firefox. For more information, see [How to: Configure Mozilla Firefox for Microsoft Dynamics NAV Clients](How%20to:%20Configure%20Mozilla%20Firefox%20for%20Microsoft%20Dynamics%20NAV%20Clients.md).  
   
 -   If IIS and the [!INCLUDE[nav_server](includes/nav_server_md.md)] are on separate computers, verify the following conditions:  
   
-    -   If the [!INCLUDE[nav_web](includes/nav_web_md.md)] is using Windows authentication, then the **Negotiate** provider must be included at the top of the providers list in the Windows authentication setup in IIS. For more information, see [Configuring the Credential Type on the Microsoft Dynamics NAV Web Client Web Site](../Topic/How%20to:%20Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md#WebClient).  
+    -   If the [!INCLUDE[nav_web](includes/nav_web_md.md)] is using Windows authentication, then the **Negotiate** provider must be included at the top of the providers list in the Windows authentication setup in IIS. For more information, see [Configuring the Credential Type on the Microsoft Dynamics NAV Web Client Web Site](How%20to:%20Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md#WebClient).  
   
     -   Delegation is configured from the computer that is running IIS to the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
@@ -56,10 +56,10 @@ When you try to open the [!INCLUDE[nav_web](includes/nav_web_md.md)], you get th
         > [!NOTE]  
         >  If you still get this error after verifying the setup, then disable the **Use Kerberos Only** option in the delegation setup and try again. The **Use Kerberos Only** option does not work on some network configurations with [!INCLUDE[navnow](includes/navnow_md.md)].  
   
-         For more information about delegation, see [How to: Configure Delegation for Microsoft Dynamics NAV Web Client](../Topic/How%20to:%20Configure%20Delegation%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
+         For more information about delegation, see [How to: Configure Delegation for Microsoft Dynamics NAV Web Client](How%20to:%20Configure%20Delegation%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
   
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
  [Troubleshooting the Microsoft Dynamics NAV Web Client Installation](Troubleshooting-the-Microsoft-Dynamics-NAV-Web-Client-Installation.md)   
- [How to: Install the Web Server Components](../Topic/How%20to:%20Install%20the%20Web%20Server%20Components.md)   
- [Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on Three Computers](../Topic/Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Three%20Computers.md)
+ [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md)   
+ [Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on Three Computers](Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Three%20Computers.md)

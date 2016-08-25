@@ -46,5 +46,5 @@ Sets the values of a C\/AL text constant for the different languages that are av
 3.  To save the changes, choose the **OK** button.  
   
 ## See Also  
- [How to: Change the Language in the User Interface](../Topic/How%20to:%20Change%20the%20Language%20in%20the%20User%20Interface.md)   
+ [How to: Change the Language in the User Interface](How%20to:%20Change%20the%20Language%20in%20the%20User%20Interface.md)   
  [Multilanguage Development](Multilanguage-Development.md)

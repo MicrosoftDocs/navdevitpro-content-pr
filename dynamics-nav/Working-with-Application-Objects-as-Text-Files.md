@@ -64,5 +64,5 @@ T50080-F1-P8629-A1030-L999:
   
 ## See Also  
  [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)   
- [How to: Export Objects](../Topic/How%20to:%20Export%20Objects.md)   
+ [How to: Export Objects](How%20to:%20Export%20Objects.md)   
  [Importing and Exporting Objects](Importing-and-Exporting-Objects.md)

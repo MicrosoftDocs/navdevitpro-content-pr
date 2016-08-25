@@ -14,7 +14,7 @@ manager: edupont
 # Creating and Modifying Codeunits
 You use Object Designer to create a new codeunit, and you use the C\/AL Editor to modify an existing codeunit.  
   
- For more information about how to create a codeunit, see [How to: Create a Codeunit](../Topic/How%20to:%20Create%20a%20Codeunit.md). For more information about how to modify a codeunit, see [How to: Modify an Existing Codeunit](../Topic/How%20to:%20Modify%20an%20Existing%20Codeunit.md).  
+ For more information about how to create a codeunit, see [How to: Create a Codeunit](How%20to:%20Create%20a%20Codeunit.md). For more information about how to modify a codeunit, see [How to: Modify an Existing Codeunit](How%20to:%20Modify%20an%20Existing%20Codeunit.md).  
   
 ## Working in the C\/AL Editor  
  When you work in the C\/AL Editor, you can use the **C\/AL Symbol Menu** window, which helps you use C\/AL functions that are available. From the **C\/AL Symbol Menu** window, you can get Help about all C\/AL functions. To view Help for a function, select the C\/AL function name in the rightmost column, and then press F1.  
@@ -43,11 +43,11 @@ You use Object Designer to create a new codeunit, and you use the C\/AL Editor t
 ## Defining Variables, Text Constants, and Functions  
  After you create a new codeunit, then you must define the global variables, text constants, and functions that you need in the codeunit. To define these elements, in the C\/AL Editor, on the **View** menu, choose **C\/AL Globals**. In the **C\/AL Globals** window, you must choose whether to add a global variable, a text constant, or a function. For more information, see the following topics:  
   
--   [How to: Add a Global Variable to a Codeunit](../Topic/How%20to:%20Add%20a%20Global%20Variable%20to%20a%20Codeunit.md)  
+-   [How to: Add a Global Variable to a Codeunit](How%20to:%20Add%20a%20Global%20Variable%20to%20a%20Codeunit.md)  
   
--   [How to: Add a Text Constant to a Codeunit](../Topic/How%20to:%20Add%20a%20Text%20Constant%20to%20a%20Codeunit.md)  
+-   [How to: Add a Text Constant to a Codeunit](How%20to:%20Add%20a%20Text%20Constant%20to%20a%20Codeunit.md)  
   
--   [How to: Add a Function to a Codeunit](../Topic/How%20to:%20Add%20a%20Function%20to%20a%20Codeunit.md)  
+-   [How to: Add a Function to a Codeunit](How%20to:%20Add%20a%20Function%20to%20a%20Codeunit.md)  
   
 ## Using the C\/AL Symbol Menu Window  
  When you write C\/AL code in the C\/AL Editor, you can use the **C\/AL Symbol Menu** window to get an overview of the following:  
@@ -75,9 +75,9 @@ You use Object Designer to create a new codeunit, and you use the C\/AL Editor t
  For more information, see [C\-AL Functions](C-AL-Functions.md).  
   
 ## Compiling and Saving Codeunits  
- Before you can run the functions in a codeunit, you must save and compile the code. When you compile the code, the syntax of the statements are checked. If the compiler finds any errors in the code it displays an error message. For more information about how to compile the code in a codeunit, see [How to: Compile the Code in a Codeunit](../Topic/How%20to:%20Compile%20the%20Code%20in%20a%20Codeunit.md). For more information about how to save a codeunit, see [How to: Save a Codeunit](../Topic/How%20to:%20Save%20a%20Codeunit.md).  
+ Before you can run the functions in a codeunit, you must save and compile the code. When you compile the code, the syntax of the statements are checked. If the compiler finds any errors in the code it displays an error message. For more information about how to compile the code in a codeunit, see [How to: Compile the Code in a Codeunit](How%20to:%20Compile%20the%20Code%20in%20a%20Codeunit.md). For more information about how to save a codeunit, see [How to: Save a Codeunit](How%20to:%20Save%20a%20Codeunit.md).  
   
 ## See Also  
  [Understanding Codeunits](Understanding-Codeunits.md)   
  [Using Codeunits](Using-Codeunits.md)   
- [Walkthrough: Using Codeunits](../Topic/Walkthrough:%20Using%20Codeunits.md)
+ [Walkthrough: Using Codeunits](Walkthrough:%20Using%20Codeunits.md)

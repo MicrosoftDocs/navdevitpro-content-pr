@@ -78,8 +78,8 @@ This topic describes how to use Windows Performance Monitor to collect event tra
   
  For information about how to schedule a time to start and stop collecting data, see [Schedule Data Collection in Windows Performance Monitor](http://technet.microsoft.com/en-us/library/cc722312.aspx).  
   
- The collected event trace data is stored in an event trace log \(.etl\) file in the location that you specified. You can view the data in the log file by using various industry\-standard tools, such as PerfView. For information about how to use PerfView to view the event trace data, see [How to: Use PerfView to View Event Trace Data](../Topic/How%20to:%20Use%20PerfView%20to%20View%20Event%20Trace%20Data.md).  
+ The collected event trace data is stored in an event trace log \(.etl\) file in the location that you specified. You can view the data in the log file by using various industry\-standard tools, such as PerfView. For information about how to use PerfView to view the event trace data, see [How to: Use PerfView to View Event Trace Data](How%20to:%20Use%20PerfView%20to%20View%20Event%20Trace%20Data.md).  
   
 ## See Also  
  [Monitoring Microsoft Dynamics NAV Server Event Traces](Monitoring-Microsoft-Dynamics-NAV-Server-Event-Traces.md)   
- [How to: Use PerfView to View Event Trace Data](../Topic/How%20to:%20Use%20PerfView%20to%20View%20Event%20Trace%20Data.md)
+ [How to: Use PerfView to View Event Trace Data](How%20to:%20Use%20PerfView%20to%20View%20Event%20Trace%20Data.md)

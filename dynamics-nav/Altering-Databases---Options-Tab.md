@@ -33,7 +33,7 @@ Specifies database options that you set when you created the database. For examp
 |**Auto shrink**|Specifies whether SQL Server can periodically shrink data files and transaction log files.|  
   
 ## See Also  
- [How to: Alter Databases](../Topic/How%20to:%20Alter%20Databases.md)   
+ [How to: Alter Databases](How%20to:%20Alter%20Databases.md)   
  [Altering Databases \- General Tab](Altering-Databases---General-Tab.md)   
  [Altering Databases \- Database Files Tab](Altering-Databases---Database-Files-Tab.md)   
  [Altering Databases \- Transaction Log Files Tab](Altering-Databases---Transaction-Log-Files-Tab.md)   

@@ -15,7 +15,7 @@ An enterprise business solution must have a built\-in security system that helps
   
  [!INCLUDE[navnowlong](includes/navnowlong_md.md)] provides a security system that allows administrators to manage user access to the objects and data in the [!INCLUDE[navnow](includes/navnow_md.md)] database. Because the [!INCLUDE[navnow](includes/navnow_md.md)] database is on SQL Server, the [!INCLUDE[navnow](includes/navnow_md.md)] security system and SQL Server security system work together to help ensure that only authorized users can gain access to the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
- Much additional information relating to security can be found in the [Administration in the Clients](../Topic/Administration%20in%20the%20Clients.md) node under Administration. See in particular:  
+ Much additional information relating to security can be found in the [Administration in the Clients](Administration%20in%20the%20Clients.md) node under Administration. See in particular:  
   
 -   [Managing Users](Managing-Users.md)  
   
@@ -23,7 +23,7 @@ An enterprise business solution must have a built\-in security system that helps
   
 -   [Managing Permissions and Permission Sets](Managing-Permissions-and-Permission-Sets.md)  
   
--   [Profiles and Role Centers](../Topic/Profiles%20and%20Role%20Centers.md)  
+-   [Profiles and Role Centers](Profiles%20and%20Role%20Centers.md)  
   
 ## In This Section  
  [Security Overview](Security-Overview.md)  

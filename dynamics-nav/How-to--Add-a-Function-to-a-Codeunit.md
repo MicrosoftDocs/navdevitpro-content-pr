@@ -19,7 +19,7 @@ To add a function to a codeunit, use the following procedure.
 1.  Select the C\/AL Editor, choose **View**, and then choose **C\/AL Globals**.  
   
     > [!NOTE]  
-    >  For more information about how to open the C\/AL Editor, see [How to: Modify an Existing Codeunit](../Topic/How%20to:%20Modify%20an%20Existing%20Codeunit.md).  
+    >  For more information about how to open the C\/AL Editor, see [How to: Modify an Existing Codeunit](How%20to:%20Modify%20an%20Existing%20Codeunit.md).  
   
 2.  In the **C\/AL Globals** window, choose the **Functions** tab.  
   

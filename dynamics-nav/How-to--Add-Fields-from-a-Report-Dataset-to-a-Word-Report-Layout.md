@@ -84,5 +84,5 @@ A report dataset can consist of fields that display labels, data, and images. Th
   
 ## See Also  
  [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)   
- [How to: Modify a Word Report Layout](../Topic/How%20to:%20Modify%20a%20Word%20Report%20Layout.md)   
- [How to: Create a Word Report Layout for a Report](../Topic/How%20to:%20Create%20a%20Word%20Report%20Layout%20for%20a%20Report.md)
+ [How to: Modify a Word Report Layout](How%20to:%20Modify%20a%20Word%20Report%20Layout.md)   
+ [How to: Create a Word Report Layout for a Report](How%20to:%20Create%20a%20Word%20Report%20Layout%20for%20a%20Report.md)

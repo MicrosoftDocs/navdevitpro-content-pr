@@ -19,7 +19,7 @@ Performance counters provide information about how well [!INCLUDE[nav_server](in
   
 -   [Microsoft Dynamics NAV Performance Counters](Microsoft-Dynamics-NAV-Performance-Counters.md)  
   
--   [How to: Set up Performance Counters in Windows Performance Monitor](../Topic/How%20to:%20Set%20up%20Performance%20Counters%20in%20Windows%20Performance%20Monitor.md)  
+-   [How to: Set up Performance Counters in Windows Performance Monitor](How%20to:%20Set%20up%20Performance%20Counters%20in%20Windows%20Performance%20Monitor.md)  
   
 -   [Working with Data Collector Sets](Working-with-Data-Collector-Sets.md)  
   

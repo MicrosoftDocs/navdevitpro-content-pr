@@ -25,16 +25,16 @@ You can configure the [!INCLUDE[navnow](includes/navnow_md.md)] installation to 
   
  To set up user authentication, you change configuration settings on the [!INCLUDE[nav_server](includes/nav_server_md.md)] and the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on IIS. The [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] make up the web site for the [!INCLUDE[nav_web](includes/nav_web_md.md)] on IIS. Complete the following tasks:  
   
--   [Implementing Security Certificates](../Topic/How%20to:%20Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md#Certs)  
+-   [Implementing Security Certificates](How%20to:%20Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md#Certs)  
   
      Implement security certificates on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] and the computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  
   
     > [!NOTE]  
     >  This step is not required when you use the Windows credential type.  
   
--   [Configuring the Credential Type for Microsoft Dynamics NAV Server](../Topic/How%20to:%20Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md#NavServer)  
+-   [Configuring the Credential Type for Microsoft Dynamics NAV Server](How%20to:%20Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md#NavServer)  
   
--   [Configuring the Credential Type on the Microsoft Dynamics NAV Web Client Web Site](../Topic/How%20to:%20Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md#WebClient)  
+-   [Configuring the Credential Type on the Microsoft Dynamics NAV Web Client Web Site](How%20to:%20Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md#WebClient)  
   
 ##  <a name="Certs"></a> Implementing Security Certificates  
  When using the UserName, NavUserPassword, or AccessControlService credential type, you must implement security certificates on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] and the web server computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. Security certificates protect the passing of credentials between the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)]. A certificate is a file that the web server uses to prove its identity and establish a trusted connection with [!INCLUDE[nav_server](includes/nav_server_md.md)].  
@@ -44,11 +44,11 @@ You can configure the [!INCLUDE[navnow](includes/navnow_md.md)] installation to 
   
 #### To implement security certificates  
   
--   To create your own certificates and implement them in a test environment for the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [Walkthrough: Implementing Security Certificates in a Test Environment](../Topic/Walkthrough:%20Implementing%20Security%20Certificates%20in%20a%20Test%20Environment.md).  
+-   To create your own certificates and implement them in a test environment for the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [Walkthrough: Implementing Security Certificates in a Test Environment](Walkthrough:%20Implementing%20Security%20Certificates%20in%20a%20Test%20Environment.md).  
   
      In this scenario, you create your own self\-signed certificates, and then install them on the computers that are running [!INCLUDE[nav_server](includes/nav_server_md.md)] and the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  
   
--   To implement certificates in a production environment for [!INCLUDE[nav_web](includes/nav_web_md.md)], see [How to: Implement Security Certificates in a Production Environment](../Topic/How%20to:%20Implement%20Security%20Certificates%20in%20a%20Production%20Environment.md).  
+-   To implement certificates in a production environment for [!INCLUDE[nav_web](includes/nav_web_md.md)], see [How to: Implement Security Certificates in a Production Environment](How%20to:%20Implement%20Security%20Certificates%20in%20a%20Production%20Environment.md).  
   
      In this scenario, you obtain certificates from a certification authority. Some large organizations may have their own certification authorities, and other organizations can request a certificate from a third\-party organization. After you obtain the certificates, you install them on the computers that are running [!INCLUDE[nav_server](includes/nav_server_md.md)] and the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  
   
@@ -116,7 +116,7 @@ You can configure the [!INCLUDE[navnow](includes/navnow_md.md)] installation to 
      Replace `subjectName` with the subject name or common name \(CN\) of the certificate that is used on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
     > [!NOTE]  
-    >  You can find the subject name by opening the certificate in the Certificates snap\-in for Microsoft Management Console \(MMC\) on the computer that is running [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)]. For more information, see [Walkthrough: Implementing Security Certificates in a Test Environment](../Topic/Walkthrough:%20Implementing%20Security%20Certificates%20in%20a%20Test%20Environment.md) or [How to: Implement Security Certificates in a Production Environment](../Topic/How%20to:%20Implement%20Security%20Certificates%20in%20a%20Production%20Environment.md).  
+    >  You can find the subject name by opening the certificate in the Certificates snap\-in for Microsoft Management Console \(MMC\) on the computer that is running [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)]. For more information, see [Walkthrough: Implementing Security Certificates in a Test Environment](Walkthrough:%20Implementing%20Security%20Certificates%20in%20a%20Test%20Environment.md) or [How to: Implement Security Certificates in a Production Environment](How%20to:%20Implement%20Security%20Certificates%20in%20a%20Production%20Environment.md).  
   
 6.  If you are configuring AccessControlService authentication, then find the `<add key="ACSUri" value=""/>` element, and set the `value` to the URI of the ACS or AAD authentication page.  
   
@@ -164,6 +164,6 @@ You can configure the [!INCLUDE[navnow](includes/navnow_md.md)] installation to 
   
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
- [How to: Install the Web Server Components](../Topic/How%20to:%20Install%20the%20Web%20Server%20Components.md)   
+ [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md)   
  [Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md)   
- [How to: Specify When UI Elements Are Removed](../Topic/How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md)
+ [How to: Specify When UI Elements Are Removed](How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md)
