@@ -98,7 +98,7 @@ A query describes a dataset of [!INCLUDE[navnow](includes/navnow_md.md)] data. Q
 2.  In the **Save As** window, in the **ID** field, enter an ID for the query object. The ID must be in a valid range for your solution. In the **Name** field, enter a name for the query, verify that the **Compiled** check box is selected, and then choose the **OK** button.  
   
 ## See Also  
- [Walkthrough: Creating a Query to Link Two Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md)   
+ [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md)   
  [SQLJoinType Property](SQLJoinType-Property.md)   
- [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](../Topic/Walkthrough:%20Creating%20a%20Query%20That%20Uses%20a%20Totaling%20Method%20and%20Sorting.md)   
+ [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](Walkthrough:%20Creating%20a%20Query%20That%20Uses%20a%20Totaling%20Method%20and%20Sorting.md)   
  [Understanding Data Item Links](Understanding-Data-Item-Links.md)

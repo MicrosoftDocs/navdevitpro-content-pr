@@ -28,7 +28,7 @@ netsh firewall set portopening protocol=TCP port=7046 scope=subnet addresses=Loc
 ```  
   
 ## See Also  
- [Walkthrough: Installing the Three Tiers on Three Computers](../Topic/Walkthrough:%20Installing%20the%20Three%20Tiers%20on%20Three%20Computers.md)   
+ [Walkthrough: Installing the Three Tiers on Three Computers](Walkthrough:%20Installing%20the%20Three%20Tiers%20on%20Three%20Computers.md)   
  [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)   
  [Security Overview](Security-Overview.md)   
  [How to Use the Netsh.exe Tool and Command\-Line Switches](http://go.microsoft.com/fwlink/?LinkId=166310)

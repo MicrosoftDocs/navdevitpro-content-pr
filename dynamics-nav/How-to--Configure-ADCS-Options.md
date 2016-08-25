@@ -88,5 +88,5 @@ Before you can work with Automated Data Capture Systems \(ADCS\), you have to co
   
 ## See Also  
  [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)   
- [How to: Create a Microsoft Dynamics NAV Server Instance](../Topic/How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)   
- [How to: Enable Web Services for ADCS](../Topic/How%20to:%20Enable%20Web%20Services%20for%20ADCS.md)
+ [How to: Create a Microsoft Dynamics NAV Server Instance](How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)   
+ [How to: Enable Web Services for ADCS](How%20to:%20Enable%20Web%20Services%20for%20ADCS.md)

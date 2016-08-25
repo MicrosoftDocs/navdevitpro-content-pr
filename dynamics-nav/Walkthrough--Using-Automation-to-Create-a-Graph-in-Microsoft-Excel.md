@@ -228,5 +228,5 @@ In this walkthrough, you will transfer data from the **G\/L Entry** table to Mic
     >  If you get an error states **Old format or invalid type library**, then make sure that the language in the regional settings of your computer matches the language version of Microsoft Excel. For more information, see [Bug: "Old Format or invalid type library"](http://go.microsoft.com/fwlink/?LinkID=250990).  
   
 ## See Also  
- [How to: Create an Automation Controller](../Topic/How%20to:%20Create%20an%20Automation%20Controller.md)   
- [Walkthrough: Using Automation to Write a Letter in Microsoft Office Word](../Topic/Walkthrough:%20Using%20Automation%20to%20Write%20a%20Letter%20in%20Microsoft%20Office%20Word.md)
+ [How to: Create an Automation Controller](How%20to:%20Create%20an%20Automation%20Controller.md)   
+ [Walkthrough: Using Automation to Write a Letter in Microsoft Office Word](Walkthrough:%20Using%20Automation%20to%20Write%20a%20Letter%20in%20Microsoft%20Office%20Word.md)

@@ -20,21 +20,21 @@ Secure Sockets Layer \(SSL\) is a cryptographic protocol that helps provide secu
 ## About This Walkthrough  
  This walkthrough illustrates the following tasks:  
   
--   [Configuring Microsoft Dynamics NAV Web Services to Use SSL](../Topic/Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md#ConfigureSSL)  
+-   [Configuring Microsoft Dynamics NAV Web Services to Use SSL](Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md#ConfigureSSL)  
   
--   [Obtaining an SSL Certificate](../Topic/Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md#ObtainCert)  
+-   [Obtaining an SSL Certificate](Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md#ObtainCert)  
   
--   [Importing the SSL Certificate into the Local Computer Store of the Microsoft Dynamics NAV Server computer](../Topic/Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md#Importing)  
+-   [Importing the SSL Certificate into the Local Computer Store of the Microsoft Dynamics NAV Server computer](Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md#Importing)  
   
--   [Granting Permissions to the Certificate's Private Key to Microsoft Dynamics NAV Server](../Topic/Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md#GrantingAccess)  
+-   [Granting Permissions to the Certificate's Private Key to Microsoft Dynamics NAV Server](Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md#GrantingAccess)  
   
--   [Obtaining the Certificate's Thumbprint](../Topic/Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md#Thumbprint)  
+-   [Obtaining the Certificate's Thumbprint](Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md#Thumbprint)  
   
--   [Configuring the Access Control List and the Web Services Ports for SSL](../Topic/Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md#ACL)  
+-   [Configuring the Access Control List and the Web Services Ports for SSL](Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md#ACL)  
   
--   [Verifying the Configuration](../Topic/Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md#Verify)  
+-   [Verifying the Configuration](Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md#Verify)  
   
--   [Restart the Microsoft Dynamics NAV Server Instance](../Topic/Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md#Restart)  
+-   [Restart the Microsoft Dynamics NAV Server Instance](Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md#Restart)  
   
 ### Prerequisites  
  To complete this walkthrough, you will need:  
@@ -92,7 +92,7 @@ Secure Sockets Layer \(SSL\) is a cryptographic protocol that helps provide secu
  In the following procedure, you use the makecert.exe tool to create a test certificate file \(.cer\) with a private key file \(.pvk\), and then generate a personal information file \(.pfx\) from the two files. You will use the .pxf in the next procedure for importing the certificate on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
 > [!NOTE]  
->  If you have a certificate, then you can skip this procedure and continue to [Importing the SSL Certificate into the Local Computer Store of the Microsoft Dynamics NAV Server computer](../Topic/Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md#Importing).  
+>  If you have a certificate, then you can skip this procedure and continue to [Importing the SSL Certificate into the Local Computer Store of the Microsoft Dynamics NAV Server computer](Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md#Importing).  
   
 #### To create a test SSL certificate using the makecert.exe tool  
   

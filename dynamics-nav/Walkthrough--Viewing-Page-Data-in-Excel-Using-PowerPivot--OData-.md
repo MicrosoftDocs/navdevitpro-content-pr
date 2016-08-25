@@ -180,7 +180,7 @@ This walkthrough describes how you can use OData to expose a [!INCLUDE[navnowlon
   
 -   Post the data in a Microsoft SharePoint environment with live data from [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
   
- For more information about how to use [!INCLUDE[navnow](includes/navnow_md.md)] data with PowerPivot information, see [Walkthrough: Combining Data from Microsoft Dynamics NAV Queries and Pages with Data from Azure DataMarket \(OData\)](../Topic/Walkthrough:%20Combining%20Data%20from%20Microsoft%20Dynamics%20NAV%20Queries%20and%20Pages%20with%20Data%20from%20Azure%20DataMarket%20\(OData\).md).  
+ For more information about how to use [!INCLUDE[navnow](includes/navnow_md.md)] data with PowerPivot information, see [Walkthrough: Combining Data from Microsoft Dynamics NAV Queries and Pages with Data from Azure DataMarket \(OData\)](Walkthrough:%20Combining%20Data%20from%20Microsoft%20Dynamics%20NAV%20Queries%20and%20Pages%20with%20Data%20from%20Azure%20DataMarket%20\(OData\).md).  
   
 ## See Also  
  [Web Service Walkthroughs](Web-Service-Walkthroughs.md)   

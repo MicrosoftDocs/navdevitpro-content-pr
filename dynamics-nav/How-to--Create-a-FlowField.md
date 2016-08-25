@@ -31,4 +31,4 @@ The following procedure describes how to set up a FlowField.
 6.  \(optional\) In the **Editable** field, select **No**.  
   
 ## See Also  
- [How to: Create, View, and Edit a Calculation Formula](../Topic/How%20to:%20Create,%20View,%20and%20Edit%20a%20Calculation%20Formula.md)
+ [How to: Create, View, and Edit a Calculation Formula](How%20to:%20Create,%20View,%20and%20Edit%20a%20Calculation%20Formula.md)

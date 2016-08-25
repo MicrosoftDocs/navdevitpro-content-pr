@@ -93,5 +93,5 @@ You can create reports that provide dynamic data with Visual Studio Report Desig
 5.  Choose **Preview** to view the report. The report shows the order detail \(the quantity not yet shipped\) for each customer in three periods of 30 days each, starting from a selected date. If you select the customer name, then the specific Customer card opens. This makes it possible to drill down into the customer's data.  
   
 ## See Also  
- [Walkthrough: Designing a Report with Images, Interactive Sorting, and Visibility Toggle](../Topic/Walkthrough:%20Designing%20a%20Report%20with%20Images,%20Interactive%20Sorting,%20and%20Visibility%20Toggle.md)   
- [Walkthrough: Designing a Customer List Report](../Topic/Walkthrough:%20Designing%20a%20Customer%20List%20Report.md)
+ [Walkthrough: Designing a Report with Images, Interactive Sorting, and Visibility Toggle](Walkthrough:%20Designing%20a%20Report%20with%20Images,%20Interactive%20Sorting,%20and%20Visibility%20Toggle.md)   
+ [Walkthrough: Designing a Customer List Report](Walkthrough:%20Designing%20a%20Customer%20List%20Report.md)

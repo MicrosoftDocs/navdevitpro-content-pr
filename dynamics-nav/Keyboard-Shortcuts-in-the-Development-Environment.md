@@ -41,5 +41,5 @@ The following table provides an overview of shortcut key combinations in the [!I
 |Alt\+F4|Close window or close program|  
   
 ## See Also  
- [Keyboard Shortcuts](../Topic/Keyboard%20Shortcuts.md)   
+ [Keyboard Shortcuts](Keyboard%20Shortcuts.md)   
  [C\-AL Editor Keyboard Shortcuts and Right\-Click Actions](C-AL-Editor-Keyboard-Shortcuts-and-Right-Click-Actions.md)

@@ -33,4 +33,4 @@ Specifies the name of the original table in the external database.
  [Properties](Properties.md)   
  [\($ S\_2102 Table Designer $\)](-$-S_2102-Table-Designer-$-.md)   
  [External Tables](External-Tables.md)   
- [Integrating Microsoft Dynamics CRM in Microsoft Dynamics NAV](../Topic/Integrating%20Microsoft%20Dynamics%20CRM%20in%20Microsoft%20Dynamics%20NAV.md)
+ [Integrating Microsoft Dynamics CRM in Microsoft Dynamics NAV](Integrating%20Microsoft%20Dynamics%20CRM%20in%20Microsoft%20Dynamics%20NAV.md)

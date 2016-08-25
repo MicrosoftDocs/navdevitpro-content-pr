@@ -17,4 +17,4 @@ This section describes how you can extend the [!INCLUDE[nav_windows](includes/na
 ## See Also  
  [COM Overview](COM-Overview.md)   
  [Using COM Technologies in Microsoft Dynamics NAV](Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md)   
- [How to: Create an Automation Controller](../Topic/How%20to:%20Create%20an%20Automation%20Controller.md)
+ [How to: Create an Automation Controller](How%20to:%20Create%20an%20Automation%20Controller.md)

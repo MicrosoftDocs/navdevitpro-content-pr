@@ -59,4 +59,4 @@ this.ApplySize(DisplaySize.Default, new DisplaySize(10, 20, 200));
   
 ## See Also  
  [Extending the Windows Client Using Control Add\-ins](Extending-the-Windows-Client-Using-Control-Add-ins.md)   
- [How to: Create a Windows Client Control Add\-in](../Topic/How%20to:%20Create%20a%20Windows%20Client%20Control%20Add-in.md)
+ [How to: Create a Windows Client Control Add\-in](How%20to:%20Create%20a%20Windows%20Client%20Control%20Add-in.md)

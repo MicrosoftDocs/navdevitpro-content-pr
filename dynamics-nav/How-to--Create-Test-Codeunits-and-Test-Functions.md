@@ -34,7 +34,7 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can create test codeun
   
 8.  In the **Properties** window, choose how you want to commit changes to the database during the test by setting the [TransactionModel Property](TransactionModel-Property.md).  
   
-9. If any test functions need UI handlers, then enter the names of the handler functions in the **C\/AL Globals** window. For more information, see [How to: Create Handler Functions](../Topic/How%20to:%20Create%20Handler%20Functions.md).  
+9. If any test functions need UI handlers, then enter the names of the handler functions in the **C\/AL Globals** window. For more information, see [How to: Create Handler Functions](How%20to:%20Create%20Handler%20Functions.md).  
   
 10. In the **C\/AL Editor**, enter code for each test function and handler function that you defined. You can also enter code in the **OnRun** function. The **OnRun** function runs when you execute the codeunit and before the test functions run.  
   
@@ -45,5 +45,5 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can create test codeun
   
 ## See Also  
  [Testing the Application](Testing-the-Application.md)   
- [How to: Create a Test Runner Codeunit](../Topic/How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md)   
- [How to: Create Handler Functions](../Topic/How%20to:%20Create%20Handler%20Functions.md)
+ [How to: Create a Test Runner Codeunit](How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md)   
+ [How to: Create Handler Functions](How%20to:%20Create%20Handler%20Functions.md)

@@ -193,9 +193,9 @@ XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)
      **XML file that was exported from the Customer table**  
   
 ## Next Steps  
- You can also use XMLport to import data from an XML document to a [!INCLUDE[navnow](includes/navnow_md.md)] database. For more information, see [Walkthrough: Inserting Data from XML Documents to Multiple Tables](../Topic/Walkthrough:%20Inserting%20Data%20from%20XML%20Documents%20to%20Multiple%20Tables.md).  
+ You can also use XMLport to import data from an XML document to a [!INCLUDE[navnow](includes/navnow_md.md)] database. For more information, see [Walkthrough: Inserting Data from XML Documents to Multiple Tables](Walkthrough:%20Inserting%20Data%20from%20XML%20Documents%20to%20Multiple%20Tables.md).  
   
 ## See Also  
  [Designing XMLports](Designing-XMLports.md)   
  [XMLport Walkthroughs](XMLport-Walkthroughs.md)   
- [Walkthrough: Importing Data from Text Files to Tables](../Topic/Walkthrough:%20Importing%20Data%20from%20Text%20Files%20to%20Tables.md)
+ [Walkthrough: Importing Data from Text Files to Tables](Walkthrough:%20Importing%20Data%20from%20Text%20Files%20to%20Tables.md)

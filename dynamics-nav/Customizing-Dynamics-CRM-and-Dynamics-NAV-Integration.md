@@ -20,9 +20,9 @@ If you have a customer relationship solution that is based on [!INCLUDE[crm](inc
   
 |**To**|**See**|  
 |------------|-------------|  
-|Learn about which [!INCLUDE[crm](includes/crm_md.md)] entities are integrated with [!INCLUDE[navnow](includes/navnow_md.md)] by default, and get an overview of the integration features.|[Integrating Microsoft Dynamics CRM in Microsoft Dynamics NAV](../Topic/Integrating%20Microsoft%20Dynamics%20CRM%20in%20Microsoft%20Dynamics%20NAV.md)|  
-|Get an overview of the basic concepts behind [!INCLUDE[crm](includes/crm_md.md)].|[Integration Concepts and Terminology](../Topic/Integration%20Concepts%20and%20Terminology.md)|  
-|Install and enable the default [!INCLUDE[crm](includes/crm_md.md)] integration.|[Setting Up Dynamics CRM Integration in Dynamics NAV](../Topic/Setting%20Up%20Dynamics%20CRM%20Integration%20in%20Dynamics%20NAV.md)|  
-|Understand what features and tasks are available to end\-users.|[Working with Dynamics CRM Data in Microsoft Dynamics NAV](../Topic/Working%20with%20Dynamics%20CRM%20Data%20in%20Microsoft%20Dynamics%20NAV.md)|  
+|Learn about which [!INCLUDE[crm](includes/crm_md.md)] entities are integrated with [!INCLUDE[navnow](includes/navnow_md.md)] by default, and get an overview of the integration features.|[Integrating Microsoft Dynamics CRM in Microsoft Dynamics NAV](Integrating%20Microsoft%20Dynamics%20CRM%20in%20Microsoft%20Dynamics%20NAV.md)|  
+|Get an overview of the basic concepts behind [!INCLUDE[crm](includes/crm_md.md)].|[Integration Concepts and Terminology](Integration%20Concepts%20and%20Terminology.md)|  
+|Install and enable the default [!INCLUDE[crm](includes/crm_md.md)] integration.|[Setting Up Dynamics CRM Integration in Dynamics NAV](Setting%20Up%20Dynamics%20CRM%20Integration%20in%20Dynamics%20NAV.md)|  
+|Understand what features and tasks are available to end\-users.|[Working with Dynamics CRM Data in Microsoft Dynamics NAV](Working%20with%20Dynamics%20CRM%20Data%20in%20Microsoft%20Dynamics%20NAV.md)|  
 |Get an overview of customizing [!INCLUDE[crm](includes/crm_md.md)] integration to include additional [!INCLUDE[crm](includes/crm_md.md)] entities.|[Introduction to Dynamics CRM Integration Customization in Dynamics NAV](Introduction-to-Dynamics-CRM-Integration-Customization-in-Dynamics-NAV.md)|  
-|Follow a step\-by\-step example that illustrates how to customize integration.|[Walkthrough: Customizing Microsoft Dynamics CRM Integration in Dynamics NAV](../Topic/Walkthrough:%20Customizing%20Microsoft%20Dynamics%20CRM%20Integration%20in%20Dynamics%20NAV.md)|
+|Follow a step\-by\-step example that illustrates how to customize integration.|[Walkthrough: Customizing Microsoft Dynamics CRM Integration in Dynamics NAV](Walkthrough:%20Customizing%20Microsoft%20Dynamics%20CRM%20Integration%20in%20Dynamics%20NAV.md)|

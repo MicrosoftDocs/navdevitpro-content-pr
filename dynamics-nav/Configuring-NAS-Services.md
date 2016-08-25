@@ -17,7 +17,7 @@ NAS services are a middle\-tier server component that executes business logic wi
  NAS stands for NAV Application Server, which was a component in earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)]. NAS services replace the NAS component, and this requires you to modify any use of server\-side COM. For more information, see [Extending Microsoft Dynamics NAV Using Microsoft .NET Framework Interoperability](Extending-Microsoft-Dynamics-NAV-Using-Microsoft-.NET-Framework-Interoperability.md).  
   
 ## Run NAS Services Applications in Dedicated Server Instances  
- It is recommended that you create a separate [!INCLUDE[nav_server](includes/nav_server_md.md)] instance for each NAS services application. See [How to: Create a Microsoft Dynamics NAV Server Instance](../Topic/How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).  
+ It is recommended that you create a separate [!INCLUDE[nav_server](includes/nav_server_md.md)] instance for each NAS services application. See [How to: Create a Microsoft Dynamics NAV Server Instance](How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).  
   
  There are multiple reasons for running NAS services sessions in dedicated [!INCLUDE[nav_server](includes/nav_server_md.md)] instances:  
   
@@ -57,13 +57,13 @@ NAS services are a middle\-tier server component that executes business logic wi
   
 3.  If the [!INCLUDE[nav_server](includes/nav_server_md.md)] is a configured as a multitenant server, mount the tenant to configure the NAS services settings for the tenant.  
   
-     For more information, see [How to: Mount or Dismount a Tenant on a Microsoft Dynamics Server Instance](../Topic/How%20to:%20Mount%20or%20Dismount%20a%20Tenant%20on%20a%20Microsoft%20Dynamics%20Server%20Instance.md).  
+     For more information, see [How to: Mount or Dismount a Tenant on a Microsoft Dynamics Server Instance](How%20to:%20Mount%20or%20Dismount%20a%20Tenant%20on%20a%20Microsoft%20Dynamics%20Server%20Instance.md).  
   
 4.  Save the changes and restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
   
 5.  If you chose not to run NAS services with admin rights, add the service account for the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to be a user in [!INCLUDE[navnow](includes/navnow_md.md)].  
   
-     For more information, [How to: Create Microsoft Dynamics NAV Users](../Topic/How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).  
+     For more information, [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).  
   
 ## NAS Services and Languages  
  In multilanguage deployments of [!INCLUDE[navnow](includes/navnow_md.md)], the language preferences and regional settings for the user account that NAS services settings runs as determine the formatting of the data. Language preferences for a user account can be set in Windows or in [!INCLUDE[navnow](includes/navnow_md.md)]. For example, in [!INCLUDE[navnow](includes/navnow_md.md)], in the **User Personalization Card** window, you can specify a language for the user. But you can also set up a default language for the [!INCLUDE[navnow](includes/navnow_md.md)] deployment by creating an empty row in the **User Personalization List** window. If you create an entry where you specify a language but not a user ID, then NAS services will use that language unless the session runs with a user account where you have specified another language.  

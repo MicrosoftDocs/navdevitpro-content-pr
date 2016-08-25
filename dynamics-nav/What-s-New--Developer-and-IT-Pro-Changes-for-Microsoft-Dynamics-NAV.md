@@ -28,9 +28,9 @@ manager: edupont
 ### Record Permissions and Apply Permissions Sets to User Groups  
  Administrators can record new permission sets in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. Recording permissions is based on the code coverage functionality. You can access the various windows and activities in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or the [!INCLUDE[nav_web](includes/nav_web_md.md)] that you want users with this permission set to access. You must carry out the tasks that you want to record permissions for. Then, you can apply the new permission set to a group of users.  
   
- BROKEN-INCLUDE-startchm](../Token/startchm_md.md)] For more information, see [User Groups](../Topic/User%20Groups.md) and [How to: Create or Modify Permission Sets](../Topic/How%20to:%20Create%20or%20Modify%20Permission%20Sets.md).[!INCLUDE[endchm  
+ BROKEN-INCLUDE-startchm](../Token/startchm_md.md)] For more information, see [User Groups](User%20Groups.md) and [How to: Create or Modify Permission Sets](How%20to:%20Create%20or%20Modify%20Permission%20Sets.md).[!INCLUDE[endchm  
   
- For more information, see the [User Groups](../Topic/User%20Groups.md) topic in the Application Help and the [How to: Create or Modify Permission Sets](../Topic/How%20to:%20Create%20or%20Modify%20Permission%20Sets.md) topic in the Developer and IT Pro Help.  
+ For more information, see the [User Groups](User%20Groups.md) topic in the Application Help and the [How to: Create or Modify Permission Sets](How%20to:%20Create%20or%20Modify%20Permission%20Sets.md) topic in the Developer and IT Pro Help.  
   
 ### Events in C\/AL  
  By implementing events in C\/AL code, you can design applications to react to specific actions or behavior that occur. Events enable you to separate customized functionality from the application business logic. By using events in the application where customizations are typically made, you can lower the cost of code modifications and upgrades to the original application.  
@@ -73,7 +73,7 @@ manager: edupont
 ### HyperlinkHandler Function Type in Test Codeunits  
  You can write HyperlinkHandler functions in test codeunits to test hyperlink URLs that are passed to the HYPERLINK function. This is similar to other handler function types for handling UI interactions in application testing.  
   
- For more information, see [How to: Create Handler Functions](../Topic/How%20to:%20Create%20Handler%20Functions.md).  
+ For more information, see [How to: Create Handler Functions](How%20to:%20Create%20Handler%20Functions.md).  
   
 ### Object Metadata Virtual Tables  
  [!INCLUDE[navnowlong](includes/navnowlong_md.md)] includes the following virtual tables that contain metadata about [!INCLUDE[navnow](includes/navnow_md.md)] objects.  
@@ -97,7 +97,7 @@ manager: edupont
  When building Role Centers it is recommended to avoid using the **Group** type to group the parts that make up the Role Center, and instead create all parts directly underneath the **Container** type. This will optimize the layout to be more dynamic and thereby fit more display targets.  
   
 ### Camera and Location  
- With [!INCLUDE[navnow](includes/navnow_md.md)]an API for integrating to a camera and getting GPS coordinates is available. The camera option is implemented in the application as functionality available when using Incoming Documents on, which you can see on, for example, the Accounting Manager profile. For a code example of how to integrate with the camera option, see [How to: Implement the Camera in C\-AL](../Topic/How%20to:%20Implement%20the%20Camera%20in%20C-AL.md). For a code example of how to get GPS coordinates, see [How to: Implement Location in C\-AL](../Topic/How%20to:%20Implement%20Location%20in%20C-AL.md).  
+ With [!INCLUDE[navnow](includes/navnow_md.md)]an API for integrating to a camera and getting GPS coordinates is available. The camera option is implemented in the application as functionality available when using Incoming Documents on, which you can see on, for example, the Accounting Manager profile. For a code example of how to integrate with the camera option, see [How to: Implement the Camera in C\-AL](How%20to:%20Implement%20the%20Camera%20in%20C-AL.md). For a code example of how to get GPS coordinates, see [How to: Implement Location in C\-AL](How%20to:%20Implement%20Location%20in%20C-AL.md).  
   
 ### Sizing Settings for Control Add\-ins  
  To control that the sizing of the control add\-ins is always optimal on all display targets a number of new settings are available to you when writing the manifest code. For more information, see [Manifest Overview](Manifest-Overview.md).  
@@ -113,7 +113,7 @@ manager: edupont
   
  [!INCLUDE[navcorfu](includes/navcorfu_md.md)] includes a default integration setup that is supported by several objects, including tables, pages, and codeunits. You can customize these objects to extend the integration to other [!INCLUDE[crm](includes/crm_md.md)] entities and change processes like synchronization.  
   
- For more information, see [Integrating Microsoft Dynamics CRM in Microsoft Dynamics NAV](../Topic/Integrating%20Microsoft%20Dynamics%20CRM%20in%20Microsoft%20Dynamics%20NAV.md) .BROKEN-INCLUDE-endchm and [Customizing Dynamics CRM and Dynamics NAV Integration](Customizing-Dynamics-CRM-and-Dynamics-NAV-Integration.md).  
+ For more information, see [Integrating Microsoft Dynamics CRM in Microsoft Dynamics NAV](Integrating%20Microsoft%20Dynamics%20CRM%20in%20Microsoft%20Dynamics%20NAV.md) .BROKEN-INCLUDE-endchm and [Customizing Dynamics CRM and Dynamics NAV Integration](Customizing-Dynamics-CRM-and-Dynamics-NAV-Integration.md).  
   
 ### Additional Numeric Data Types Supported in Aggregations by Queries, FlowFields, and SIFT  
  In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], data aggregations \(such as sum and average\) on tables by Query objects, FlowFields, and SumIndexField Technology could only be done on **Decimal** data type fields. With [!INCLUDE[navcorfu](includes/navcorfu_md.md)] you can use **Decimal**, **Integer**, **BigInteger**, and **Duration** data types in aggregations.  
@@ -123,22 +123,22 @@ manager: edupont
 ### Timestamp Field Available in Tables  
  Each table in [!INCLUDE[navnow](includes/navnow_md.md)] includes a hidden timestamp field. The timestamp field contains row version numbers for records as maintained in SQL Server. In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], the timestamp field could not be used in tables. In [!INCLUDE[navcorfu](includes/navcorfu_md.md)], you can expose the timestamp field in tables, write code against it, add filters, and so on, similar to any other field in a table.  
   
- For more information, see [How to: Use a Timestamp Field](../Topic/How%20to:%20Use%20a%20Timestamp%20Field.md).  
+ For more information, see [How to: Use a Timestamp Field](How%20to:%20Use%20a%20Timestamp%20Field.md).  
   
 ### SQL Server Authentication  
  [!INCLUDE[navcorfu](includes/navcorfu_md.md)] supports SQL Server authentication between the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and the [!INCLUDE[navnow](includes/navnow_md.md)] database in SQL Server. Previously only Windows authentication was supported.  
   
- For more information, see [How to: Configure SQL Server Authentication in Microsoft Dynamics NAV](../Topic/How%20to:%20Configure%20SQL%20Server%20Authentication%20in%20Microsoft%20Dynamics%20NAV.md).  
+ For more information, see [How to: Configure SQL Server Authentication in Microsoft Dynamics NAV](How%20to:%20Configure%20SQL%20Server%20Authentication%20in%20Microsoft%20Dynamics%20NAV.md).  
   
 ### Microsoft Azure SQL Database Support  
  You can deploy a [!INCLUDE[navnow](includes/navnow_md.md)] database to Azure SQL Database. Azure SQL Database is a cloud service for data storage that is a part of the Azure Services Platform.  
   
- For more information, see [How to: Deploy a Microsoft Dynamics NAV Database to Azure SQL Database](../Topic/How%20to:%20Deploy%20a%20Microsoft%20Dynamics%20NAV%20Database%20to%20Azure%20SQL%20Database.md).  
+ For more information, see [How to: Deploy a Microsoft Dynamics NAV Database to Azure SQL Database](How%20to:%20Deploy%20a%20Microsoft%20Dynamics%20NAV%20Database%20to%20Azure%20SQL%20Database.md).  
   
 ### Automatic Deployment of Add\-ins From the Database  
  [!INCLUDE[navcrete](includes/navcrete_md.md)] introduced the automatic deployment of Microsoft .NET Framework Interoperability and control add\-in assemblies from the [!INCLUDE[nav_server](includes/nav_server_md.md)] to the [!INCLUDE[navnow](includes/navnow_md.md)] clients. [!INCLUDE[navcorfu](includes/navcorfu_md.md)] now makes it possible to automatically deploy add\-in assemblies \(including client control add\-ins, .NET Framework interoperability, and language resources\) directly from [!INCLUDE[navnow](includes/navnow_md.md)] database to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance or client as required. To accomplish this, you import the add\-in files as a compressed \(.zip\) file into the database. You perform this by using page **9820 Control Add\-ins** or using the [New\-NAVAddin cmdlet](http://go.microsoft.com/fwlink/?LinkID=521781), [Set\-NAVAddin cmdlet](http://go.microsoft.com/fwlink/?LinkID=521784), [Get\-NAVAddin](http://go.microsoft.com/fwlink/?LinkID=521782), or [Remove\-NAVAddin](http://go.microsoft.com/fwlink/?LinkID=521783) cmdlets from the [!INCLUDE[nav_shell](includes/nav_shell_md.md)]. The add\-ins are then stored in system table **2000000069 Add\-ins**.  
   
- For more information, see [How to: Install a Windows Client Control Add\-in Assembly](../Topic/How%20to:%20Install%20a%20Windows%20Client%20Control%20Add-in%20Assembly.md) and [How to: Set .NET Framework Types to Run on the Microsoft Dynamics NAV Windows Client or Microsoft Dynamics NAV Server Computers](../Topic/How%20to:%20Set%20.NET%20Framework%20Types%20to%20Run%20on%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client%20or%20Microsoft%20Dynamics%20NAV%20Server%20Computers.md).  
+ For more information, see [How to: Install a Windows Client Control Add\-in Assembly](How%20to:%20Install%20a%20Windows%20Client%20Control%20Add-in%20Assembly.md) and [How to: Set .NET Framework Types to Run on the Microsoft Dynamics NAV Windows Client or Microsoft Dynamics NAV Server Computers](How%20to:%20Set%20.NET%20Framework%20Types%20to%20Run%20on%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client%20or%20Microsoft%20Dynamics%20NAV%20Server%20Computers.md).  
   
 ### Running NAS Services with Administrator Rights  
  In earlier [!INCLUDE[navnow](includes/navnow_md.md)] versions, to run NAS services, the [!INCLUDE[nav_server](includes/nav_server_md.md)] service account had to be added as a user in [!INCLUDE[navnow](includes/navnow_md.md)] and assigned the required permissions to perform the operations. In [!INCLUDE[navcorfu](includes/navcorfu_md.md)], you can set up NAS services to run with administrator rights, which grants the NAS service the same permissions as the SUPER permission set without having to add the [!INCLUDE[nav_server](includes/nav_server_md.md)] service account as a user in [!INCLUDE[navnow](includes/navnow_md.md)]. This feature is supported for NAS services in a single tenant \(non\-multitenant\) and multitenant [!INCLUDE[nav_server](includes/nav_server_md.md)] deployment.  
@@ -175,4 +175,4 @@ manager: edupont
  For a list of new, changed, or removed Windows PowerShell cmdlets, see [Changes to Microsoft Dynamics NAV Cmdlets From Previous Release](Changes-to-Microsoft-Dynamics-NAV-Cmdlets-From-Previous-Release.md).  
   
 ## See Also  
- [What’s New: Application Changes for Microsoft Dynamics NAV](../Topic/What%E2%80%99s%20New:%20Application%20Changes%20for%20Microsoft%20Dynamics%20NAV.md)
+ [What’s New: Application Changes for Microsoft Dynamics NAV](What%E2%80%99s%20New:%20Application%20Changes%20for%20Microsoft%20Dynamics%20NAV.md)

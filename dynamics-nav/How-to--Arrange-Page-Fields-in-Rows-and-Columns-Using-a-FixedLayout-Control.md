@@ -54,4 +54,4 @@ This topic describes how to use a FixedLayout group control on a page to arrange
   
 ## See Also  
  [Arranging Fields in Rows and Columns](Arranging-Fields-in-Rows-and-Columns.md)   
- [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](../Topic/How%20to:%20Arrange%20Fields%20in%20Rows%20and%20Columns%20Using%20the%20GridLayout%20Control.md)
+ [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](How%20to:%20Arrange%20Fields%20in%20Rows%20and%20Columns%20Using%20the%20GridLayout%20Control.md)

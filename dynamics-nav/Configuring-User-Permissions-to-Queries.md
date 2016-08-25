@@ -35,7 +35,7 @@ You can control which users have permission to run a query object and access its
   
 3.  Open an existing permission set for editing or create a new permission set.  
   
-     For more information about how to create and editing permissions sets, see [How to: Create or Modify Permission Sets](../Topic/How%20to:%20Create%20or%20Modify%20Permission%20Sets.md).  
+     For more information about how to create and editing permissions sets, see [How to: Create or Modify Permission Sets](How%20to:%20Create%20or%20Modify%20Permission%20Sets.md).  
   
 4.  Add the following permissions to the permission set:  
   
@@ -55,7 +55,7 @@ You can control which users have permission to run a query object and access its
   
 6.  Assign the permission set to users who require access to the query.  
   
-     For more information, see [How to: Define Permissions for Users](../Topic/How%20to:%20Define%20Permissions%20for%20Users.md).  
+     For more information, see [How to: Define Permissions for Users](How%20to:%20Define%20Permissions%20for%20Users.md).  
   
 ## Query Permissions Example  
  The following table illustrates a permission set for query 50001 Customer\_SalesQuantity that retrieves data from table 18 Customer and table 37 Sales Lines. The query will be executed from the C\/AL code of codeunit. The user only requires access to the Sales Line table through the query, so you grant indirect access to this table, which you set up in the permission set and query's Permission property. This permission set configures the minimum permissions that are required for a user to run the query and access the resulting dataset.  
@@ -71,10 +71,10 @@ You can control which users have permission to run a query object and access its
  **TableData Sales Line\=r**  
   
 > [!NOTE]  
->  For step\-by\-step instructions about how to create the query discussed in this example, see [Walkthrough: Creating a Query to Link Two Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
+>  For step\-by\-step instructions about how to create the query discussed in this example, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
   
 ## See Also  
  [Managing Permissions and Permission Sets](Managing-Permissions-and-Permission-Sets.md)   
- [How to: Create or Modify Permission Sets](../Topic/How%20to:%20Create%20or%20Modify%20Permission%20Sets.md)   
- [How to: Create Queries](../Topic/How%20to:%20Create%20Queries.md)   
+ [How to: Create or Modify Permission Sets](How%20to:%20Create%20or%20Modify%20Permission%20Sets.md)   
+ [How to: Create Queries](How%20to:%20Create%20Queries.md)   
  [Permissions Property](Permissions-Property.md)

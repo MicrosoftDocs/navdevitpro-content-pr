@@ -60,5 +60,5 @@ The following [!INCLUDE[navnow](includes/navnow_md.md)] clients interact with th
 ## See Also  
  [Product and Architecture Overview](Product-and-Architecture-Overview.md)   
  [Installation Options](Installation-Options.md)   
- [Web Service Alternatives: SOAP and OData](../Topic/Web%20Service%20Alternatives:%20SOAP%20and%20OData.md)   
+ [Web Service Alternatives: SOAP and OData](Web%20Service%20Alternatives:%20SOAP%20and%20OData.md)   
  [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)

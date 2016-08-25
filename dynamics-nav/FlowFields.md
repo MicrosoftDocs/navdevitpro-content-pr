@@ -57,7 +57,7 @@ Exist("Customer Entries" WHERE(CustNo=FIELD(CustNo)))
 ```  
   
 ## See Also  
- [How to: Create a FlowField](../Topic/How%20to:%20Create%20a%20FlowField.md)   
+ [How to: Create a FlowField](How%20to:%20Create%20a%20FlowField.md)   
  [SumIndexField Technology \(SIFT\)](SumIndexField-Technology--SIFT-.md)   
  [FieldClass Property](FieldClass-Property.md)   
  [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md)

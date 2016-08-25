@@ -24,4 +24,4 @@ When implementing location from C\/AL, there are some options that you can optio
 |`int MaximumAge`<br /><br /> The maximum length of time \(milliseconds\) of a cached location.|  
   
 ## See Also  
- [How to: Implement Location in C\-AL](../Topic/How%20to:%20Implement%20Location%20in%20C-AL.md)
+ [How to: Implement Location in C\-AL](How%20to:%20Implement%20Location%20in%20C-AL.md)

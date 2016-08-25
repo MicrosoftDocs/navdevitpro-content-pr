@@ -21,5 +21,5 @@ Sets the type of page that is created.
   
 ## See Also  
  [Pages](Pages.md)   
- [How to: Create a Page](../Topic/How%20to:%20Create%20a%20Page.md)   
+ [How to: Create a Page](How%20to:%20Create%20a%20Page.md)   
  [Properties](Properties.md)

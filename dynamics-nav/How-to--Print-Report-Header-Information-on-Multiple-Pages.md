@@ -95,7 +95,7 @@ If the table data region in a report layout spans more than one page, then you m
     > [!NOTE]  
     >  Chr\(177\) is used in this example to separate the data. When you call the **GetData** function, it splits the data by using Chr\(177\) as a separator.  
   
-     For more information about how to create hidden fields, see [How to: Add and Identify Hidden Fields](../Topic/How%20to:%20Add%20and%20Identify%20Hidden%20Fields.md).  
+     For more information about how to create hidden fields, see [How to: Add and Identify Hidden Fields](How%20to:%20Add%20and%20Identify%20Hidden%20Fields.md).  
   
 7.  In the header of the report.rdlc file, create one or more text boxes to save the data from the hidden text box in the body section. For example, in report 206, a blank text box is in the header section. It has the following expression as the value of its **Hidden** property:  
   

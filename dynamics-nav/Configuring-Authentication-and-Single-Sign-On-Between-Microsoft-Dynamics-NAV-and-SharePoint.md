@@ -35,7 +35,7 @@ This topic provides an overview of how to configure user authentication with Sha
 |[!INCLUDE[nav_windows](includes/nav_windows_md.md)]|AccessControlService|Azure AD added to an Access Control service \(ACS\) namespace.|  
   
 > [!IMPORTANT]  
->  If you use Azure AD as the authentication mechanism, your app for SharePoint must open the [!INCLUDE[nav_web](includes/nav_web_md.md)] in full screen mode in SharePoint on\-premises deployments. For more information, see [Troubleshooting: Microsoft Dynamics NAV and SharePoint](../Topic/Troubleshooting:%20Microsoft%20Dynamics%20NAV%20and%20SharePoint.md).  
+>  If you use Azure AD as the authentication mechanism, your app for SharePoint must open the [!INCLUDE[nav_web](includes/nav_web_md.md)] in full screen mode in SharePoint on\-premises deployments. For more information, see [Troubleshooting: Microsoft Dynamics NAV and SharePoint](Troubleshooting:%20Microsoft%20Dynamics%20NAV%20and%20SharePoint.md).  
   
  For SharePoint on\-premises that must be accessible from an intranet so that SharePoint and [!INCLUDE[navnow](includes/navnow_md.md)] are accessed only on\-premises, the following [!INCLUDE[navnow](includes/navnow_md.md)] configurations are available:  
   
@@ -45,7 +45,7 @@ This topic provides an overview of how to configure user authentication with Sha
 |[!INCLUDE[nav_windows](includes/nav_windows_md.md)]|Windows|Windows authentication|  
   
 > [!NOTE]  
->  The security zones that the security mechanisms in Internet Explorer rely on can lead to unexpected behavior when users access the [!INCLUDE[nav_web](includes/nav_web_md.md)] from SharePoint. For more information, see [Troubleshooting: Microsoft Dynamics NAV and SharePoint](../Topic/Troubleshooting:%20Microsoft%20Dynamics%20NAV%20and%20SharePoint.md).  
+>  The security zones that the security mechanisms in Internet Explorer rely on can lead to unexpected behavior when users access the [!INCLUDE[nav_web](includes/nav_web_md.md)] from SharePoint. For more information, see [Troubleshooting: Microsoft Dynamics NAV and SharePoint](Troubleshooting:%20Microsoft%20Dynamics%20NAV%20and%20SharePoint.md).  
   
 ### Configuring Single Sign\-on  
  As part of a SharePoint Online subscription, you also get an Azure AD tenant. The Azure AD tenant handles user authentication when users sign in to SharePoint Online. To enable a seamless integration between SharePoint Online and [!INCLUDE[navnow](includes/navnow_md.md)], you must configure [!INCLUDE[navnow](includes/navnow_md.md)] to authenticate users against the same Azure AD tenant. This will enable single sign\-on between the two applications, so that users will only have to sign in once. Also, [!INCLUDE[navnow](includes/navnow_md.md)] web parts that are embedded on SharePoint pages will work. You can work with Azure AD management in the Azure management portal, or you can use Azure AD Module for Windows PowerShell cmdlets. For more information, see [Authenticating Users with Azure Active Directory](Authenticating-Users-with-Azure-Active-Directory.md).  
@@ -56,4 +56,4 @@ This topic provides an overview of how to configure user authentication with Sha
  [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md)   
  [Developing and Installing a Microsoft Dynamics NAV Apps for SharePoint](Developing-and-Installing-a-Microsoft-Dynamics-NAV-Apps-for-SharePoint.md)   
  [Authenticating Users with Azure Active Directory](Authenticating-Users-with-Azure-Active-Directory.md)   
- [Troubleshooting: Microsoft Dynamics NAV and SharePoint](../Topic/Troubleshooting:%20Microsoft%20Dynamics%20NAV%20and%20SharePoint.md)
+ [Troubleshooting: Microsoft Dynamics NAV and SharePoint](Troubleshooting:%20Microsoft%20Dynamics%20NAV%20and%20SharePoint.md)

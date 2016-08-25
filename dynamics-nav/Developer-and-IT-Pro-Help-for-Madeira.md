@@ -36,6 +36,6 @@ caps.latest.revision: 3
 -   [Windows PowerShell Cmdlets for Microsoft Dynamics NAV](Windows-PowerShell-Cmdlets-for-Microsoft-Dynamics-NAV.md)  
   
 ## See Also  
- [Microsoft Dynamics NAV "Madeira"](../Topic/Microsoft%20Dynamics%20NAV%20%22Madeira%22.md)   
- [Application Help for Madeira](../Topic/Application%20Help%20for%20Madeira.md)   
- [Technical Articles for Microsoft Dynamics NAV](../Topic/Technical%20Articles%20for%20Microsoft%20Dynamics%20NAV.md)
+ [Microsoft Dynamics NAV "Madeira"](Microsoft%20Dynamics%20NAV%20%22Madeira%22.md)   
+ [Application Help for Madeira](Application%20Help%20for%20Madeira.md)   
+ [Technical Articles for Microsoft Dynamics NAV](Technical%20Articles%20for%20Microsoft%20Dynamics%20NAV.md)

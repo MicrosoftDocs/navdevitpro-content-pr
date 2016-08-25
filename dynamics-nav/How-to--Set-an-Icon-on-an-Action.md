@@ -19,7 +19,7 @@ The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] includes images that you
  By default, the size of images is 16 pixels high by 16 pixels wide. For promoted actions, you can choose to display larger images that are 32 pixels high and 32 pixels wide.  
   
 > [!NOTE]  
->  For information on using images on activity buttons in the navigation pane of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], see [How to: Set an Icon on an Activity Button](../Topic/How%20to:%20Set%20an%20Icon%20on%20an%20Activity%20Button.md).  
+>  For information on using images on activity buttons in the navigation pane of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], see [How to: Set an Icon on an Activity Button](How%20to:%20Set%20an%20Icon%20on%20an%20Activity%20Button.md).  
   
 ### To add an image on an action  
   
@@ -46,5 +46,5 @@ The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] includes images that you
 ## See Also  
  [Action Icon Library](Action-Icon-Library.md)   
  [Adding Actions to Pages](Adding-Actions-to-Pages.md)   
- [How to: Add Actions to a Page](../Topic/How%20to:%20Add%20Actions%20to%20a%20Page.md)   
- [How to: Promote Actions on Pages](../Topic/How%20to:%20Promote%20Actions%20on%20Pages.md)
+ [How to: Add Actions to a Page](How%20to:%20Add%20Actions%20to%20a%20Page.md)   
+ [How to: Promote Actions on Pages](How%20to:%20Promote%20Actions%20on%20Pages.md)

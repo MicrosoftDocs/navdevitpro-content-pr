@@ -15,13 +15,13 @@ Microsoft Azure Access Control service \(ACS\) is a cloud service that provides 
   
  For [!INCLUDE[navnowlong](includes/navnowlong_md.md)], use the following sequence of tasks to configure software and users to use ACS:  
   
--   [How to: Sign Up for a Microsoft Account](../Topic/How%20to:%20Sign%20Up%20for%20a%20Microsoft%20Account.md)  
+-   [How to: Sign Up for a Microsoft Account](How%20to:%20Sign%20Up%20for%20a%20Microsoft%20Account.md)  
   
--   [How to: Sign Up for a Microsoft Azure Subscription](../Topic/How%20to:%20Sign%20Up%20for%20a%20Microsoft%20Azure%20Subscription.md)  
+-   [How to: Sign Up for a Microsoft Azure Subscription](How%20to:%20Sign%20Up%20for%20a%20Microsoft%20Azure%20Subscription.md)  
   
 -   [Create Microsoft Azure Access Control Service Users](Create-Microsoft-Azure-Access-Control-Service-Users.md)  
   
--   [How to: Configure a Deployment for ACS](../Topic/How%20to:%20Configure%20a%20Deployment%20for%20ACS.md)  
+-   [How to: Configure a Deployment for ACS](How%20to:%20Configure%20a%20Deployment%20for%20ACS.md)  
   
 -   [Configure Microsoft Dynamics NAV Components for ACS](Configure-Microsoft-Dynamics-NAV-Components-for-ACS.md)  
   

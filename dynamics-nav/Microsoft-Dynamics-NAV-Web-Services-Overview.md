@@ -31,14 +31,14 @@ Web services are a lightweight, industry\-standard way to make application funct
 |Codeunits|Yes|No|  
 |Queries|No|Yes: Read\-only|  
   
- For more information about the difference between these protocols, see [Web Service Alternatives: SOAP and OData](../Topic/Web%20Service%20Alternatives:%20SOAP%20and%20OData.md).  
+ For more information about the difference between these protocols, see [Web Service Alternatives: SOAP and OData](Web%20Service%20Alternatives:%20SOAP%20and%20OData.md).  
   
 ### Page Web Services  
  When you expose a page as an OData web service, you can query that data to return a service metadata \(EDMX\) document, an AtomPub document, or a JavaScript Object Notation \(JSON\) document. You can also write back to the database if the exposed page is writable. For more information, see [OData Web Services](OData-Web-Services.md).  
   
  When you expose a page as a SOAP web service, you expose a default set of operations that you can use to manage common operations such as Create, Read, Update, and Delete. Page\-based web services offer built\-in optimistic concurrency management. Each operation call in a page\-based web service is managed as a single transaction.  
   
- For SOAP services, you can also use extension codeunits to extend the default set of operations that are available on a page. Adding an extension codeunit to a page is useful if you want to perform operations other than the standard Create, Read, Update, and Delete operations. The benefit of adding an extension codeunit to a page is that you can make the web service complete by adding operations that are logical to that service. Those operations can use the same object identification principle as the basic page operations. For an example of how to implement an extension codeunit, see [Walkthrough: Creating a Web Service using Extension Codeunits \(SOAP\)](../Topic/Walkthrough:%20Creating%20a%20Web%20Service%20using%20Extension%20Codeunits%20\(SOAP\).md).  
+ For SOAP services, you can also use extension codeunits to extend the default set of operations that are available on a page. Adding an extension codeunit to a page is useful if you want to perform operations other than the standard Create, Read, Update, and Delete operations. The benefit of adding an extension codeunit to a page is that you can make the web service complete by adding operations that are logical to that service. Those operations can use the same object identification principle as the basic page operations. For an example of how to implement an extension codeunit, see [Walkthrough: Creating a Web Service using Extension Codeunits \(SOAP\)](Walkthrough:%20Creating%20a%20Web%20Service%20using%20Extension%20Codeunits%20\(SOAP\).md).  
   
 ### Codeunit Web Services  
  For SOAP services only, codeunit web services provide you with the most control and flexibility. When a codeunit is exposed as a web service, all functions defined in the codeunit are exposed as operations.  
@@ -57,7 +57,7 @@ Web services are a lightweight, industry\-standard way to make application funct
 <add key="ServicesCultureDefaultUserPersonalization" value="true"/>  
 ```  
   
- If you set this key to true, web services override the **Services Language** setting and look up the [\($ T\_2000000073\_12 Language ID $\)](../Topic/\($%20T_2000000073_12%20Language%20ID%20$\).md) for the current user in the **\($ T\_2000000073 User Personalization $\)** table.  
+ If you set this key to true, web services override the **Services Language** setting and look up the [\($ T\_2000000073\_12 Language ID $\)](\($%20T_2000000073_12%20Language%20ID%20$\).md) for the current user in the **\($ T\_2000000073 User Personalization $\)** table.  
   
 ## Web Services in Multitenant Deployments  
  If your [!INCLUDE[navnow](includes/navnow_md.md)] solution is used in a multitenant deployment architecture, you must make sure that any code that generates or consumes a web service specifies the relevant tenant. Web services are set up in the application, but typically you want to consume company\-specific and tenant\-specific data.  
@@ -75,10 +75,10 @@ http://localhost:7048/DynamicsNAV/OData/Company('CRONUS%20International%20Ltd.')
  For more information, see [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md).  
   
 ## See Also  
- [How to: Publish a Web Service](../Topic/How%20to:%20Publish%20a%20Web%20Service.md)   
- [Web Service Alternatives: SOAP and OData](../Topic/Web%20Service%20Alternatives:%20SOAP%20and%20OData.md)   
+ [How to: Publish a Web Service](How%20to:%20Publish%20a%20Web%20Service.md)   
+ [Web Service Alternatives: SOAP and OData](Web%20Service%20Alternatives:%20SOAP%20and%20OData.md)   
  [SOAP Web Service URIs](SOAP-Web-Service-URIs.md)   
- [How to: Use SystemService to Find Companies](../Topic/How%20to:%20Use%20SystemService%20to%20Find%20Companies.md)   
+ [How to: Use SystemService to Find Companies](How%20to:%20Use%20SystemService%20to%20Find%20Companies.md)   
  [Basic Page Operations](Basic-Page-Operations.md)   
  [Web Services Best Practices](Web-Services-Best-Practices.md)   
  [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)

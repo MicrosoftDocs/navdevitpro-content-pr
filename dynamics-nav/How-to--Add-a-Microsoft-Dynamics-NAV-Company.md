@@ -14,7 +14,7 @@ caps.latest.revision: 13
 This topic describes how to add a new company to a [!INCLUDE[navnow](includes/navnow_md.md)] database on a computer or virtual machine. To add a [!INCLUDE[navnow](includes/navnow_md.md)] company, you use the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New\-NAVCompany](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVCompany) cmdlet of the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
   
 > [!TIP]  
->  You can also create a company from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [How to: Create Companies](../Topic/How%20to:%20Create%20Companies.md).  
+>  You can also create a company from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [How to: Create Companies](How%20to:%20Create%20Companies.md).  
   
 ### To add a [!INCLUDE[navnow](includes/navnow_md.md)] company  
   
@@ -54,6 +54,6 @@ This topic describes how to add a new company to a [!INCLUDE[navnow](includes/na
 ## See Also  
  [Scaling the Microsoft Dynamics NAV Network Topology](Scaling-the-Microsoft-Dynamics-NAV-Network-Topology.md)   
  [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
- [How to: Add a Microsoft Dynamics NAV Web Server Instance](../Topic/How%20to:%20Add%20a%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Instance.md)   
- [How to: Add a Microsoft Dynamics NAV Database](../Topic/How%20to:%20Add%20a%20Microsoft%20Dynamics%20NAV%20Database.md)   
- [How to: Add a Microsoft Dynamics NAV Server Instance](../Topic/How%20to:%20Add%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)
+ [How to: Add a Microsoft Dynamics NAV Web Server Instance](How%20to:%20Add%20a%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Instance.md)   
+ [How to: Add a Microsoft Dynamics NAV Database](How%20to:%20Add%20a%20Microsoft%20Dynamics%20NAV%20Database.md)   
+ [How to: Add a Microsoft Dynamics NAV Server Instance](How%20to:%20Add%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)

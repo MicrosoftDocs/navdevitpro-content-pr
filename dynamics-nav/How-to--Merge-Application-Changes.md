@@ -71,7 +71,7 @@ caps.latest.revision: 7
   
  Depending on the number of objects that you are merging and the number of differences found, this can take a few seconds, a few minutes, or longer. When the process completes, the result is shown. If no conflicts are found, the application merge is complete and you can import the text files from the RESULT folder into the [!INCLUDE[navnow](includes/navnow_md.md)] development environment and compile them. If any conflicts are found, you must resolve them.  
   
- Alternatively, you can use the [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Compare\-NAVApplicationObject](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Compare-NAVApplicationObject) cmdlet and [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Update\-NAVApplicationObject](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Update-NAVApplicationObject) cmdlet to first compare and the apply the difference. [How to: Compare and Update Application Object Source Files](../Topic/How%20to:%20Compare%20and%20Update%20Application%20Object%20Source%20Files.md)  
+ Alternatively, you can use the [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Compare\-NAVApplicationObject](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Compare-NAVApplicationObject) cmdlet and [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Update\-NAVApplicationObject](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Update-NAVApplicationObject) cmdlet to first compare and the apply the difference. [How to: Compare and Update Application Object Source Files](How%20to:%20Compare%20and%20Update%20Application%20Object%20Source%20Files.md)  
   
 ## Managing Conflicts  
  At the end of the previous procedure, the RESULT folder contains text files with merged application objects and zero or more CONFLICT files. Since the CONFLICT files describe the conflicts, you can import the merged text files into the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] and resolve the conflicts there. Alternatively, you can use an external three\-way merge tool to further analyze the conflicts. For more information, see [Handling Merge Conflicts](Handling-Merge-Conflicts.md).  
@@ -107,7 +107,7 @@ caps.latest.revision: 7
 ## See Also  
  [Handling Merge Conflicts](Handling-Merge-Conflicts.md)   
  [Merging Application Objects using the Example Scripts](Merging-Application-Objects-using-the-Example-Scripts.md)   
- [How to: Compare and Update Application Object Source Files](../Topic/How%20to:%20Compare%20and%20Update%20Application%20Object%20Source%20Files.md)   
+ [How to: Compare and Update Application Object Source Files](How%20to:%20Compare%20and%20Update%20Application%20Object%20Source%20Files.md)   
  [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)   
  [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)   
  [ExportObjects](ExportObjects.md)   

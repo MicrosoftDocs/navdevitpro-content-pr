@@ -56,7 +56,7 @@ You can synchronize data, such as to\-dos, contacts, and tasks, between [!INCLUD
   
 -   Microsoft Office Outlook Add\-in, installed with the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
- For more information, see [How to: Choose Components to Install](../Topic/How%20to:%20Choose%20Components%20to%20Install.md) and [System Requirements for Microsoft Dynamics NAV 2016](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md).  
+ For more information, see [How to: Choose Components to Install](How%20to:%20Choose%20Components%20to%20Install.md) and [System Requirements for Microsoft Dynamics NAV 2016](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md).  
   
 ## Setting Up Synchronization for a Single User on a Single Computer  
  This walkthrough describes how to set up and use the Outlook add\-in for a single user on a single computer. You can also set up and use the Outlook add\-in for multiple users on a single computer, using tools such as Terminal Services. You should follow these steps before you use the Outlook add\-in in this environment.  
@@ -102,7 +102,7 @@ You can synchronize data, such as to\-dos, contacts, and tasks, between [!INCLUD
 ## Mapping Microsoft Dynamics NAV Entities to Outlook Items  
  You start synchronization setup by identifying the [!INCLUDE[navnow](includes/navnow_md.md)] objects to synchronize. When you open the **\($ N\_5302 Outlook Synch. Entities $\)** window for the first time, you may receive a message that asks for permission to connect to a .dll file that is installed with the Outlook add\-in. You should choose the option that lets you connect: Allow for this session.  
   
- For this walkthrough, you can use the synchronization entities that come with [!INCLUDE[navnow](includes/navnow_md.md)] by default. But you can also customize and add entities. For more information, see [How to: Set Up Outlook Synchronization Entities](../Topic/How%20to:%20Set%20Up%20Outlook%20Synchronization%20Entities.md) and [Define Synchronization with Outlook Items](../Topic/Define%20Synchronization%20with%20Outlook%20Items.md).  
+ For this walkthrough, you can use the synchronization entities that come with [!INCLUDE[navnow](includes/navnow_md.md)] by default. But you can also customize and add entities. For more information, see [How to: Set Up Outlook Synchronization Entities](How%20to:%20Set%20Up%20Outlook%20Synchronization%20Entities.md) and [Define Synchronization with Outlook Items](Define%20Synchronization%20with%20Outlook%20Items.md).  
   
 #### To set up default synchronization entities  
   
@@ -337,9 +337,9 @@ You can synchronize data, such as to\-dos, contacts, and tasks, between [!INCLUD
      The **Synchronization Progress** message is displayed. When synchronization is complete, you can view the details for the synchronization.  
   
 ## Next Steps  
- You have completed the required setup for synchronizing information between [!INCLUDE[navnow](includes/navnow_md.md)] and Outlook. To test your setup, see [Walkthrough: Synchronizing Information Between Outlook and Microsoft Dynamics NAV](../Topic/Walkthrough:%20Synchronizing%20Information%20Between%20Outlook%20and%20Microsoft%20Dynamics%20NAV.md).  
+ You have completed the required setup for synchronizing information between [!INCLUDE[navnow](includes/navnow_md.md)] and Outlook. To test your setup, see [Walkthrough: Synchronizing Information Between Outlook and Microsoft Dynamics NAV](Walkthrough:%20Synchronizing%20Information%20Between%20Outlook%20and%20Microsoft%20Dynamics%20NAV.md).  
   
 ## See Also  
  [Configuring Microsoft Dynamics NAV](Configuring-Microsoft-Dynamics-NAV.md)   
  [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)   
- [Troubleshooting: Microsoft Office Outlook Integration and Synchronization](../Topic/Troubleshooting:%20Microsoft%20Office%20Outlook%20Integration%20and%20Synchronization.md)
+ [Troubleshooting: Microsoft Office Outlook Integration and Synchronization](Troubleshooting:%20Microsoft%20Office%20Outlook%20Integration%20and%20Synchronization.md)

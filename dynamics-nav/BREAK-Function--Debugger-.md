@@ -29,5 +29,5 @@ Breaks code execution of a debugging session.
   
 ## See Also  
  [Breakpoints](Breakpoints.md)   
- [How to: Break on the Next Statement](../Topic/How%20to:%20Break%20on%20the%20Next%20Statement.md)   
- [How to: Manage Breakpoints from the Development Environment](../Topic/How%20to:%20Manage%20Breakpoints%20from%20the%20Development%20Environment.md)
+ [How to: Break on the Next Statement](How%20to:%20Break%20on%20the%20Next%20Statement.md)   
+ [How to: Manage Breakpoints from the Development Environment](How%20to:%20Manage%20Breakpoints%20from%20the%20Development%20Environment.md)

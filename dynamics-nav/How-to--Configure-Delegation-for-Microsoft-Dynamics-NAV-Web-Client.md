@@ -14,13 +14,13 @@ manager: edupont
 # How to: Configure Delegation for Microsoft Dynamics NAV Web Client
 When the client device, [!INCLUDE[nav_web](includes/nav_web_md.md)], and [!INCLUDE[nav_server](includes/nav_server_md.md)] are on separate computers, the client device interacts with [!INCLUDE[nav_server](includes/nav_server_md.md)] through the computer that is running [!INCLUDE[nav_web](includes/nav_web_md.md)]. [!INCLUDE[nav_web](includes/nav_web_md.md)] is performing actions on the client device's behalf. This process is known as *impersonation*. Impersonation cannot be used across multiple computers, so you must set up delegation from [!INCLUDE[nav_web](includes/nav_web_md.md)] to [!INCLUDE[nav_server](includes/nav_server_md.md)]. Delegation occurs when [!INCLUDE[nav_web](includes/nav_web_md.md)] forwards a request from a device request to the [!INCLUDE[nav_server](includes/nav_server_md.md)] service so that the [!INCLUDE[nav_server](includes/nav_server_md.md)] service can impersonate the device.  
   
--   [Delegating Access from the Web Server to Microsoft Dynamics NAV Server](../Topic/How%20to:%20Configure%20Delegation%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#Delegate)  
+-   [Delegating Access from the Web Server to Microsoft Dynamics NAV Server](How%20to:%20Configure%20Delegation%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#Delegate)  
   
--   [Registering Service Principal Names for Microsoft Dynamics NAV Server](../Topic/How%20to:%20Configure%20Delegation%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#RegisterSPN)  
+-   [Registering Service Principal Names for Microsoft Dynamics NAV Server](How%20to:%20Configure%20Delegation%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#RegisterSPN)  
   
      This task is only required if the service account for [!INCLUDE[nav_server](includes/nav_server_md.md)] is not configured to register SPNs automatically.  
   
--   [Configuring Kernel Mode Authentication on the Microsoft Dynamics NAV Web Client Website](../Topic/How%20to:%20Configure%20Delegation%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#Kernel)  
+-   [Configuring Kernel Mode Authentication on the Microsoft Dynamics NAV Web Client Website](How%20to:%20Configure%20Delegation%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#Kernel)  
   
 ##  <a name="Delegate"></a> Delegating Access from the Web Server to  [!INCLUDE[nav_server](includes/nav_server_md.md)]  
  Configuring delegation means explicitly configuring the computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] to delegate its access to the [!INCLUDE[nav_server](includes/nav_server_md.md)] on behalf of the device that is trying to connect to [!INCLUDE[navnow](includes/navnow_md.md)]. To make the access more secure, you specify delegation to a specific service on a specific server. This is known as *constrained delegation*.  
@@ -43,7 +43,7 @@ When the client device, [!INCLUDE[nav_web](includes/nav_web_md.md)], and [!INCLU
 5.  On the **Delegation** tab, choose **Trust this user for delegation to specified services only**, and then choose **Use Kerberos only**.  
   
     > [!NOTE]  
-    >  The **Use Kerberos Only** option does not work for some network configurations with [!INCLUDE[navnow](includes/navnow_md.md)]. If you get a server error when you try open the [!INCLUDE[nav_web](includes/nav_web_md.md)], then disable the **Use Kerberos Only** option and see whether this fixes the error. For more information about this error, see [Troubleshooting: A server error occurred and the content cannot be displayed](../Topic/Troubleshooting:%20A%20server%20error%20occurred%20and%20the%20content%20cannot%20be%20displayed.md).  
+    >  The **Use Kerberos Only** option does not work for some network configurations with [!INCLUDE[navnow](includes/navnow_md.md)]. If you get a server error when you try open the [!INCLUDE[nav_web](includes/nav_web_md.md)], then disable the **Use Kerberos Only** option and see whether this fixes the error. For more information about this error, see [Troubleshooting: A server error occurred and the content cannot be displayed](Troubleshooting:%20A%20server%20error%20occurred%20and%20the%20content%20cannot%20be%20displayed.md).  
   
 6.  You must add the following service entries for the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)], where **NAVSERVER** indicates the name of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   

@@ -35,14 +35,14 @@ This topic lists some common problems that can occur when you use Automated Data
   
  To resolve this error, check that you have specified the correct code page in your configuration file. You may want to update the **codePage** attribute.  
   
- For more information, see [How to: Configure ADCS Options](../Topic/How%20to:%20Configure%20ADCS%20Options.md). For a list of code pages, see [Code Page Identifiers](http://go.microsoft.com/fwlink/?LinkId=262203).  
+ For more information, see [How to: Configure ADCS Options](How%20to:%20Configure%20ADCS%20Options.md). For a list of code pages, see [Code Page Identifiers](http://go.microsoft.com/fwlink/?LinkId=262203).  
   
 ## Performance considerations  
  Depending on the load on your system, you may encounter performance issues.  
   
  To resolve this problem, you can configure multiple endpoints, instead of just one, for your plug\-in. It is possible for one plug\-in to connect to several servers on one or more distributed computers. The plug\-in and servers, a pool of endpoints, can be on the same computer or divided among any number of computers, as long as they are all available via TCP. This can improve performance in busy scenarios, as calculations can be performed on different processes at the same time.  
   
- For more information, see [How to: Configure ADCS Options](../Topic/How%20to:%20Configure%20ADCS%20Options.md).  
+ For more information, see [How to: Configure ADCS Options](How%20to:%20Configure%20ADCS%20Options.md).  
   
 ## See Also  
  [Handling UI Interaction When Working with Web Services](Handling-UI-Interaction-When-Working-with-Web-Services.md)

@@ -14,7 +14,7 @@ manager: edupont
 # Microsoft Dynamics NAV Server Administration Tool
 The [!INCLUDE[nav_admin](includes/nav_admin_md.md)] is a Microsoft Management Console \(MMC\) snap\-in for creating and managing [!INCLUDE[nav_server](includes/nav_server_md.md)] instances. When you install the [Server Option](Server-Option.md) on a computer, the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] is one of the default features. The [!INCLUDE[nav_admin](includes/nav_admin_md.md)] is also an option when you install the [Client Option](Client-Option.md), although it is not one of the default components.  
   
- You typically run the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] by choosing **Microsoft Dynamics NAV Administration** from the Start menu. For some scenarios, however, you may need to open the MMC first and then add the [!INCLUDE[navnow](includes/navnow_md.md)] snap\-in. For example, see [How to: Administer Multiple Microsoft Dynamics NAV Server Computers](../Topic/How%20to:%20Administer%20Multiple%20Microsoft%20Dynamics%20NAV%20Server%20Computers.md). In this case, choose **Run** from the Start menu and then specify the Microsoft Management Console:  
+ You typically run the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] by choosing **Microsoft Dynamics NAV Administration** from the Start menu. For some scenarios, however, you may need to open the MMC first and then add the [!INCLUDE[navnow](includes/navnow_md.md)] snap\-in. For example, see [How to: Administer Multiple Microsoft Dynamics NAV Server Computers](How%20to:%20Administer%20Multiple%20Microsoft%20Dynamics%20NAV%20Server%20Computers.md). In this case, choose **Run** from the Start menu and then specify the Microsoft Management Console:  
   
 ```  
 mmc  
@@ -31,10 +31,10 @@ mmc
 |To|See|  
 |--------|---------|  
 |Learn about the different tools and options for administering [!INCLUDE[navnowlong](includes/navnowlong_md.md)].|[Administration](Administration.md)|  
-|Administer a remote [!INCLUDE[nav_server](includes/nav_server_md.md)] computer.|[How to: Administer a Remote Microsoft Dynamics NAV Server Computer](../Topic/How%20to:%20Administer%20a%20Remote%20Microsoft%20Dynamics%20NAV%20Server%20Computer.md)|  
-|Administer multiple [!INCLUDE[nav_server](includes/nav_server_md.md)] computers from a single administrative console.|[How to: Administer Multiple Microsoft Dynamics NAV Server Computers](../Topic/How%20to:%20Administer%20Multiple%20Microsoft%20Dynamics%20NAV%20Server%20Computers.md)|  
-|Create a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.|[How to: Create a Microsoft Dynamics NAV Server Instance](../Topic/How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)|  
-|Mount a tenant on a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that is configured for multitenancy.|[How to: Mount or Dismount a Tenant on a Microsoft Dynamics Server Instance](../Topic/How%20to:%20Mount%20or%20Dismount%20a%20Tenant%20on%20a%20Microsoft%20Dynamics%20Server%20Instance.md)|  
+|Administer a remote [!INCLUDE[nav_server](includes/nav_server_md.md)] computer.|[How to: Administer a Remote Microsoft Dynamics NAV Server Computer](How%20to:%20Administer%20a%20Remote%20Microsoft%20Dynamics%20NAV%20Server%20Computer.md)|  
+|Administer multiple [!INCLUDE[nav_server](includes/nav_server_md.md)] computers from a single administrative console.|[How to: Administer Multiple Microsoft Dynamics NAV Server Computers](How%20to:%20Administer%20Multiple%20Microsoft%20Dynamics%20NAV%20Server%20Computers.md)|  
+|Create a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.|[How to: Create a Microsoft Dynamics NAV Server Instance](How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)|  
+|Mount a tenant on a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that is configured for multitenancy.|[How to: Mount or Dismount a Tenant on a Microsoft Dynamics Server Instance](How%20to:%20Mount%20or%20Dismount%20a%20Tenant%20on%20a%20Microsoft%20Dynamics%20Server%20Instance.md)|  
 |Manage [!INCLUDE[nav_server](includes/nav_server_md.md)] instances.|[Managing Microsoft Dynamics NAV Server Instances](Managing-Microsoft-Dynamics-NAV-Server-Instances.md)|  
 |Manage settings for a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.|[Microsoft Dynamics NAV Server Settings](Microsoft-Dynamics-NAV-Server-Settings.md)|  
 |Configure [!INCLUDE[nav_server](includes/nav_server_md.md)] settings.|[Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)|  

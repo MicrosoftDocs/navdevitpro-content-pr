@@ -18,14 +18,14 @@ We recommend that you secure [!INCLUDE[navnow](includes/navnow_md.md)] data that
   
  To configure SSL, you must follow these steps.  
   
--   [Obtaining an SSL Certificate](../Topic/How%20to:%20Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#Cert)  
+-   [Obtaining an SSL Certificate](How%20to:%20Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#Cert)  
   
--   [Adding an HTTPS Binding That Uses the Certificate on the Microsoft Dynamics NAV Web Client Site](../Topic/How%20to:%20Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#Binding)  
+-   [Adding an HTTPS Binding That Uses the Certificate on the Microsoft Dynamics NAV Web Client Site](How%20to:%20Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#Binding)  
   
--   [Redirecting HTTP to HTTPS (Optional)](../Topic/How%20to:%20Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#Redirect)  
+-   [Redirecting HTTP to HTTPS (Optional)](How%20to:%20Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#Redirect)  
   
 > [!NOTE]  
->  You can configure SSL for the [!INCLUDE[nav_web](includes/nav_web_md.md)] when you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. For more information, see [How to: Install the Web Server Components](../Topic/How%20to:%20Install%20the%20Web%20Server%20Components.md).  
+>  You can configure SSL for the [!INCLUDE[nav_web](includes/nav_web_md.md)] when you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. For more information, see [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md).  
   
 ##  <a name="Cert"></a> Obtaining an SSL Certificate  
  In a production environment, you should obtain an SSL certificate from a certification authority. Some large organizations may have their own certification authorities, and other organizations can request a certificate from a third\-party organization. In a test environment or development environment, you can create your own self\-signed certificate.  
@@ -106,4 +106,4 @@ We recommend that you secure [!INCLUDE[navnow](includes/navnow_md.md)] data that
 ## See Also  
  [Microsoft Dynamics NAV Web Client](Microsoft-Dynamics-NAV-Web-Client.md)   
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
- [How to: Install the Web Server Components](../Topic/How%20to:%20Install%20the%20Web%20Server%20Components.md)
+ [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md)

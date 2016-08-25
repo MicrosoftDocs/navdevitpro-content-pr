@@ -21,6 +21,6 @@ The following illustration shows the four tiers of the network architecture in t
 |Tier|Description|  
 |----------|-----------------|  
 |Device|A computer or device that has access to the Internet with a browser. For a list of supported browsers, see [System Requirements for Microsoft Dynamics NAV 2016](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md).|  
-|Web server|A computer that is running Internet Information Services \(IIS\) at a minimum. [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] are installed on a website on IIS. For more information, see [How to: Install the Web Server Components](../Topic/How%20to:%20Install%20the%20Web%20Server%20Components.md).|  
+|Web server|A computer that is running Internet Information Services \(IIS\) at a minimum. [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] are installed on a website on IIS. For more information, see [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md).|  
 |[!INCLUDE[nav_server](includes/nav_server_md.md)]|A Microsoft .NET Framework–based Windows Service that manages communications and provides a security layer between clients and [!INCLUDE[navnow](includes/navnow_md.md)] databases in SQL Server. For more information, see [Microsoft Dynamics NAV Server](Microsoft-Dynamics-NAV-Server.md).|  
 |Database|A SQL Server database that contains [!INCLUDE[navnow](includes/navnow_md.md)] data. For more information, see [SQL Server Database Components](SQL-Server-Database-Components.md).|

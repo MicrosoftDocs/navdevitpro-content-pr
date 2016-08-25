@@ -25,7 +25,7 @@ The first phase of implementing an event is publishing the event. Publishing an 
   
 -   An event publisher function cannot have a return value, variables, or text constants.  
   
- The following procedure provides an outline of the tasks that are involved in creating an event publisher function for declaring an event. The tasks are performed from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. For detailed step\-by\-step instructions for the tasks, see [Walkthrough: Publishing, Raising, and Subcribing to an Event in Microsoft Dynamics NAV](../Topic/Walkthrough:%20Publishing,%20Raising,%20and%20Subcribing%20to%20an%20Event%20in%20Microsoft%20Dynamics%20NAV.md).  
+ The following procedure provides an outline of the tasks that are involved in creating an event publisher function for declaring an event. The tasks are performed from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. For detailed step\-by\-step instructions for the tasks, see [Walkthrough: Publishing, Raising, and Subcribing to an Event in Microsoft Dynamics NAV](Walkthrough:%20Publishing,%20Raising,%20and%20Subcribing%20to%20an%20Event%20in%20Microsoft%20Dynamics%20NAV.md).  
   
 #### To create an event publisher function  
   

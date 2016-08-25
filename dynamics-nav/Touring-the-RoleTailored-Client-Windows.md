@@ -25,7 +25,7 @@ The RoleTailored clients use several windows to display information. Two of the 
   
 |To|See|  
 |--------|---------|  
-|Learn how to create a Role Center page|[Walkthrough: Creating a Role Center](../Topic/Walkthrough:%20Creating%20a%20Role%20Center.md)|  
+|Learn how to create a Role Center page|[Walkthrough: Creating a Role Center](Walkthrough:%20Creating%20a%20Role%20Center.md)|  
 |Get an overview of the parts on a Role Center page|[Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)|  
 |Get an overview of the navigation window layout and its parts|[Navigation Window](#NavigationWindow)|  
   
@@ -40,7 +40,7 @@ The RoleTailored clients use several windows to display information. Two of the 
   
 |To|See|  
 |--------|---------|  
-|See an example of how to create a List page Role Center page|[Walkthrough: Creating a Customer List in Page Designer](../Topic/Walkthrough:%20Creating%20a%20Customer%20List%20in%20Page%20Designer.md)|  
+|See an example of how to create a List page Role Center page|[Walkthrough: Creating a Customer List in Page Designer](Walkthrough:%20Creating%20a%20Customer%20List%20in%20Page%20Designer.md)|  
 |Learn about List pages and parts, including FactBoxes|[Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)|  
 |Get an overview of the navigation window layout and its parts|[Navigation Window](#NavigationWindow)|  
   
@@ -70,7 +70,7 @@ The RoleTailored clients use several windows to display information. Two of the 
   
 |To|See|  
 |--------|---------|  
-|Learn how to create a page|[How to: Create a Page](../Topic/How%20to:%20Create%20a%20Page.md)|  
+|Learn how to create a page|[How to: Create a Page](How%20to:%20Create%20a%20Page.md)|  
 |Get an overview of the pages|[Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)|  
   
 ###  <a name="NavigationPane"></a> Navigation Pane  
@@ -83,8 +83,8 @@ The RoleTailored clients use several windows to display information. Two of the 
 |To|See|  
 |--------|---------|  
 |See an overview of actions|[Actions Overview](Actions-Overview.md)|  
-|Learn how to add actions to a page|[How to: Add Actions to a Page](../Topic/How%20to:%20Add%20Actions%20to%20a%20Page.md)|  
-|See an example of how to add an action to the navigation pane|[Walkthrough: Creating a Role Center](../Topic/Walkthrough:%20Creating%20a%20Role%20Center.md)|  
+|Learn how to add actions to a page|[How to: Add Actions to a Page](How%20to:%20Add%20Actions%20to%20a%20Page.md)|  
+|See an example of how to add an action to the navigation pane|[Walkthrough: Creating a Role Center](Walkthrough:%20Creating%20a%20Role%20Center.md)|  
   
 ### Address Bar  
  The address bar displays the location of the current page in the navigation hierarchy of the application. The Address bar updates when the user moves to a different page.  
@@ -113,7 +113,7 @@ The RoleTailored clients use several windows to display information. Two of the 
   
 |To|See|  
 |--------|---------|  
-|Learn how to create a page|[How to: Create a Page](../Topic/How%20to:%20Create%20a%20Page.md)|  
+|Learn how to create a page|[How to: Create a Page](How%20to:%20Create%20a%20Page.md)|  
 |Get an overview of the pages|[Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)|  
   
 ## See Also  

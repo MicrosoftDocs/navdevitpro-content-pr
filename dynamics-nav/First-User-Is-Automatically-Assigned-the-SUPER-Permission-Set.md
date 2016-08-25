@@ -32,6 +32,6 @@ When a user creates a [!INCLUDE[navnow](includes/navnow_md.md)] database, that u
  Users who have a SECURITY permission set can create new users and assign them the same permission sets. If you create a SECURITY permission set, users who have this permission set cannot assign themselves or anyone else the SUPER permission set. Also, a user who has the SECURITY permission set for a specific company cannot assign permission sets to users in other companies.  
   
 ## See Also  
- [How to: Create Microsoft Dynamics NAV Users](../Topic/How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md)   
- [How to: Define Permissions for Users](../Topic/How%20to:%20Define%20Permissions%20for%20Users.md)   
+ [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md)   
+ [How to: Define Permissions for Users](How%20to:%20Define%20Permissions%20for%20Users.md)   
  [Setting Database Owner and Security Administration Permissions](Setting-Database-Owner-and-Security-Administration-Permissions.md)

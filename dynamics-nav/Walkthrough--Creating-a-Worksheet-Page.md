@@ -56,7 +56,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use a worksheet page type 
 ## Creating a Worksheet Page  
   
 > [!NOTE]  
->  In this walkthrough, you will create a worksheet page from a blank page and learn about the properties and controls of a worksheet page. Object Designer includes a wizard that you can use to create a worksheet page that sets up many properties and controls for you. For more information about the wizard, see [How to: Create a Page](../Topic/How%20to:%20Create%20a%20Page.md).  
+>  In this walkthrough, you will create a worksheet page from a blank page and learn about the properties and controls of a worksheet page. Object Designer includes a wizard that you can use to create a worksheet page that sets up many properties and controls for you. For more information about the wizard, see [How to: Create a Page](How%20to:%20Create%20a%20Page.md).  
   
 #### To create a worksheet page  
   
@@ -234,9 +234,9 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use a worksheet page type 
  For more information about adding variables, constants, and functions, see [Codeunits](Codeunits.md).  
   
 ## See Also  
- [How to: Add Actions to a Page](../Topic/How%20to:%20Add%20Actions%20to%20a%20Page.md)   
- [How to: Promote Actions on Pages](../Topic/How%20to:%20Promote%20Actions%20on%20Pages.md)   
+ [How to: Add Actions to a Page](How%20to:%20Add%20Actions%20to%20a%20Page.md)   
+ [How to: Promote Actions on Pages](How%20to:%20Promote%20Actions%20on%20Pages.md)   
  [Page Designer Troubleshooting](Page-Designer-Troubleshooting.md)   
- [How to: Create a Page](../Topic/How%20to:%20Create%20a%20Page.md)   
+ [How to: Create a Page](How%20to:%20Create%20a%20Page.md)   
  [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
- [How to: Run a Page](../Topic/How%20to:%20Run%20a%20Page.md)
+ [How to: Run a Page](How%20to:%20Run%20a%20Page.md)

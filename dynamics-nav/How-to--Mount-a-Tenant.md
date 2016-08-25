@@ -14,7 +14,7 @@ caps.latest.revision: 4
 This topic describes how to mount a tenant database on a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance in a multitenant [!INCLUDE[navnow](includes/navnow_md.md)] deployment. To mount a tenant database, you use the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.Mount\-NAVTenant](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.Mount-NAVTenant) cmdlet of the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
   
 > [!TIP]  
->  You can also mount a tenant by using the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. For more information, see [How to: Mount or Dismount a Tenant on a Microsoft Dynamics Server Instance](../Topic/How%20to:%20Mount%20or%20Dismount%20a%20Tenant%20on%20a%20Microsoft%20Dynamics%20Server%20Instance.md).  
+>  You can also mount a tenant by using the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. For more information, see [How to: Mount or Dismount a Tenant on a Microsoft Dynamics Server Instance](How%20to:%20Mount%20or%20Dismount%20a%20Tenant%20on%20a%20Microsoft%20Dynamics%20Server%20Instance.md).  
   
 ### To mount a tenant database on a [!INCLUDE[nav_server](includes/nav_server_md.md)] instances  
   
@@ -50,6 +50,6 @@ This topic describes how to mount a tenant database on a [!INCLUDE[nav_server](i
  [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md)   
  [Migrating to Multitenancy](Migrating-to-Multitenancy.md)   
  [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
- [How to: Add a Microsoft Dynamics NAV Web Server Instance](../Topic/How%20to:%20Add%20a%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Instance.md)   
- [How to: Add a Microsoft Dynamics NAV Database](../Topic/How%20to:%20Add%20a%20Microsoft%20Dynamics%20NAV%20Database.md)   
- [How to: Add a Microsoft Dynamics NAV Server Instance](../Topic/How%20to:%20Add%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)
+ [How to: Add a Microsoft Dynamics NAV Web Server Instance](How%20to:%20Add%20a%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Instance.md)   
+ [How to: Add a Microsoft Dynamics NAV Database](How%20to:%20Add%20a%20Microsoft%20Dynamics%20NAV%20Database.md)   
+ [How to: Add a Microsoft Dynamics NAV Server Instance](How%20to:%20Add%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)

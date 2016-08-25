@@ -16,9 +16,9 @@ Actions that appear in the **Home** tab of the ribbon are called *promoted actio
   
  When promoting actions, you have the following options:  
   
--   Organize promoted actions under different categories. For example, the categories can be **New**, **Tasks**, **Reports**, and **Discounts**. The order of actions under a category is determined by its order in the Action Designer.  You define the caption for each category. For more information on defining the promoted categories, see [How to: Define Promoted Action Categories Captions for the Ribbon](../Topic/How%20to:%20Define%20Promoted%20Action%20Categories%20Captions%20for%20the%20Ribbon.md).  
+-   Organize promoted actions under different categories. For example, the categories can be **New**, **Tasks**, **Reports**, and **Discounts**. The order of actions under a category is determined by its order in the Action Designer.  You define the caption for each category. For more information on defining the promoted categories, see [How to: Define Promoted Action Categories Captions for the Ribbon](How%20to:%20Define%20Promoted%20Action%20Categories%20Captions%20for%20the%20Ribbon.md).  
   
--   Set up an image that displays with the action. If you do not set up an image yourself, then a default image is used. For more information about promoted action images, see [How to: Set an Icon on an Action](../Topic/How%20to:%20Set%20an%20Icon%20on%20an%20Action.md).  
+-   Set up an image that displays with the action. If you do not set up an image yourself, then a default image is used. For more information about promoted action images, see [How to: Set an Icon on an Action](How%20to:%20Set%20an%20Icon%20on%20an%20Action.md).  
   
 -   Specify that the promoted action only appears on the **Home** tab, not on the tab where it is defined.  
   
@@ -47,7 +47,7 @@ Actions that appear in the **Home** tab of the ribbon are called *promoted actio
   
 8.  Set the **PromotedCategory** property to the category under which you want the promoted action to appear.  
   
-     Unless you define your own caption, the category name that you select will be used as the category's captions on the page. For more information, see [How to: Define Promoted Action Categories Captions for the Ribbon](../Topic/How%20to:%20Define%20Promoted%20Action%20Categories%20Captions%20for%20the%20Ribbon.md).  
+     Unless you define your own caption, the category name that you select will be used as the category's captions on the page. For more information, see [How to: Define Promoted Action Categories Captions for the Ribbon](How%20to:%20Define%20Promoted%20Action%20Categories%20Captions%20for%20the%20Ribbon.md).  
   
 9. To assign an image to the action, set the **Image** property to the name of the image. For a list of images, see [Action Icon Library](Action-Icon-Library.md).  
   
@@ -68,5 +68,5 @@ Actions that appear in the **Home** tab of the ribbon are called *promoted actio
   
 ## See Also  
  [Actions Overview](Actions-Overview.md)   
- [How to: Add Actions to a Page](../Topic/How%20to:%20Add%20Actions%20to%20a%20Page.md)   
- [How to: Define Promoted Action Categories Captions for the Ribbon](../Topic/How%20to:%20Define%20Promoted%20Action%20Categories%20Captions%20for%20the%20Ribbon.md)
+ [How to: Add Actions to a Page](How%20to:%20Add%20Actions%20to%20a%20Page.md)   
+ [How to: Define Promoted Action Categories Captions for the Ribbon](How%20to:%20Define%20Promoted%20Action%20Categories%20Captions%20for%20the%20Ribbon.md)

@@ -20,11 +20,11 @@ When users send a request for a web service, they are authenticated according to
 |To|See|  
 |--------|---------|  
 |Learn about how to create users and configure the credential type for [!INCLUDE[nav_server](includes/nav_server_md.md)].|[Users and Credential Types](Users-and-Credential-Types.md)|  
-|Learn about how to use a web access key to authenticate SOAP and OData web services.|[How to: Use an Access Key for SOAP and OData Web Service Authentication](../Topic/How%20to:%20Use%20an%20Access%20Key%20for%20SOAP%20and%20OData%20Web%20Service%20Authentication.md)|  
+|Learn about how to use a web access key to authenticate SOAP and OData web services.|[How to: Use an Access Key for SOAP and OData Web Service Authentication](How%20to:%20Use%20an%20Access%20Key%20for%20SOAP%20and%20OData%20Web%20Service%20Authentication.md)|  
 |Learn about OAuth authentication on [!INCLUDE[navnow](includes/navnow_md.md)] web services.|[Using OAuth to Authenticate Microsoft Dynamics NAV Web Services \(Odata and SOAP\)](http://go.microsoft.com/fwlink/?LinkID=510894)|  
   
 > [!IMPORTANT]  
->  If the [!INCLUDE[nav_server](includes/nav_server_md.md)] is configured to use NavUserPassword or AccessControlService authentication, then the username, password, and access key can be exposed if the SOAP or OData data traffic is intercepted and the connection string is decoded. To avoid this condition, configure SOAP and OData web services to use Secure Socket Layer \(SSL\). For more information, see [Walkthrough: Configuring Web Services to Use SSL \(SOAP and OData\)](../Topic/Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md)  
+>  If the [!INCLUDE[nav_server](includes/nav_server_md.md)] is configured to use NavUserPassword or AccessControlService authentication, then the username, password, and access key can be exposed if the SOAP or OData data traffic is intercepted and the connection string is decoded. To avoid this condition, configure SOAP and OData web services to use Secure Socket Layer \(SSL\). For more information, see [Walkthrough: Configuring Web Services to Use SSL \(SOAP and OData\)](Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md)  
   
  When [!INCLUDE[navnow](includes/navnow_md.md)] data is consumed by a web service, users cannot be authenticated if their user name or password contains Unicode characters. This is a limitation in the basic authentication mechanism that is defined in the HTTP\/1.1 specification.  
   

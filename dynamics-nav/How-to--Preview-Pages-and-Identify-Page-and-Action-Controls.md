@@ -21,7 +21,7 @@ In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], you can preview 
 -   The **Page Preview** window does not require you to save the page before seeing how changes that you make to a page will look in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
 > [!NOTE]  
->  The preview is not an active page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], which means that you do not have all functionality in a page preview as you do when you run a page. For example, you cannot edit fields, and you cannot choose actions to open targets because actions are static. To enable this functionality, run the page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information, see [How to: Run a Page](../Topic/How%20to:%20Run%20a%20Page.md).  
+>  The preview is not an active page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], which means that you do not have all functionality in a page preview as you do when you run a page. For example, you cannot edit fields, and you cannot choose actions to open targets because actions are static. To enable this functionality, run the page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information, see [How to: Run a Page](How%20to:%20Run%20a%20Page.md).  
   
 ### To preview a page  
   
@@ -78,4 +78,4 @@ In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], you can preview 
 -   In the **Page Preview** window, on the shortcut menu of the part, choose **Go To Definition**.  
   
 ## See Also  
- [How to: Run a Page](../Topic/How%20to:%20Run%20a%20Page.md)
+ [How to: Run a Page](How%20to:%20Run%20a%20Page.md)

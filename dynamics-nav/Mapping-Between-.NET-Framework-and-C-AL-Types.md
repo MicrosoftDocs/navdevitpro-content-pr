@@ -82,4 +82,4 @@ if dotNetVariable.ToString() <> alVariable then
   
 ## See Also  
  [Extending Microsoft Dynamics NAV Using Microsoft .NET Framework Interoperability](Extending-Microsoft-Dynamics-NAV-Using-Microsoft-.NET-Framework-Interoperability.md)   
- [How to: Call .NET Framework Types From C\-AL Code](../Topic/How%20to:%20Call%20.NET%20Framework%20Types%20From%20C-AL%20Code.md)
+ [How to: Call .NET Framework Types From C\-AL Code](How%20to:%20Call%20.NET%20Framework%20Types%20From%20C-AL%20Code.md)

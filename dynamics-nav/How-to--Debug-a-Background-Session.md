@@ -14,7 +14,7 @@ manager: edupont
 # How to: Debug a Background Session
 A background session that is started by using the [STARTSESSION Function \(Sessions\)](STARTSESSION-Function--Sessions-.md) can be difficult to debug because it is called by C\/AL code for which you often do not have dedicated control. Therefore, you cannot debug the calling code and step through it to access the background session. To debug a background session, you must first set a breakpoint in the codeunit that runs when the session is started.  
   
- Before you begin, you must verify that no breakpoints are currently enabled in the calling code. For more information about how to view and disable breakpoints, see [How to: Manage Breakpoints from the Debugger Breakpoint List](../Topic/How%20to:%20Manage%20Breakpoints%20from%20the%20Debugger%20Breakpoint%20List.md).  
+ Before you begin, you must verify that no breakpoints are currently enabled in the calling code. For more information about how to view and disable breakpoints, see [How to: Manage Breakpoints from the Debugger Breakpoint List](How%20to:%20Manage%20Breakpoints%20from%20the%20Debugger%20Breakpoint%20List.md).  
   
 ### To debug a background session  
   

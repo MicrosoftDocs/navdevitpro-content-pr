@@ -43,7 +43,7 @@ You can use several specialized functions to display messages and gather input. 
   
  In some applications, you may want to create a window in which each field is updated when the program is running. For example, the fields in the window display the count of the number of postings made. In another application, you may want to display information about the record that is currently being processed. For example, the field in the window displays the number of the account that is currently being processed.  
   
- To create this kind of progress window, you use the Dialog data type. For more information, see [How to: Create a Progress Window](../Topic/How%20to:%20Create%20a%20Progress%20Window.md).  
+ To create this kind of progress window, you use the Dialog data type. For more information, see [How to: Create a Progress Window](How%20to:%20Create%20a%20Progress%20Window.md).  
   
 ## MESSAGE Function  
  The [MESSAGE Function \(Dialog\)](MESSAGE-Function--Dialog-.md) displays a message in a window that remains open until the user chooses the **OK** button.  

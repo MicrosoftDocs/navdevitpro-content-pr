@@ -34,4 +34,4 @@ You can expand your transaction log by increasing the size of one or more of its
   
 ## See Also  
  [Altering Databases \- Transaction Log Files Tab](Altering-Databases---Transaction-Log-Files-Tab.md)   
- [How to: Add New Transaction Log Files](../Topic/How%20to:%20Add%20New%20Transaction%20Log%20Files.md)
+ [How to: Add New Transaction Log Files](How%20to:%20Add%20New%20Transaction%20Log%20Files.md)

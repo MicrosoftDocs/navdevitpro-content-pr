@@ -28,11 +28,11 @@ After you have registered a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] 
   
 1.  If the control add\-in uses data from a table that does not exist, then create the table.  
   
-     For more information, see [How to: Create a Table](../Topic/How%20to:%20Create%20a%20Table.md).  
+     For more information, see [How to: Create a Table](How%20to:%20Create%20a%20Table.md).  
   
 2.  If the page to which you want to add the control add\-in does not exist, then create the page. As appropriate, associate the page with the table that you created in step 1.  
   
-     For more information, see [How to: Create a Page](../Topic/How%20to:%20Create%20a%20Page.md).  
+     For more information, see [How to: Create a Page](How%20to:%20Create%20a%20Page.md).  
   
 ## Setting Up a Control Add\-in on a Page Field  
   
@@ -115,10 +115,10 @@ After you have registered a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] 
   
 ## See Also  
  [Windows Client Control Add\-in Overview](Windows-Client-Control-Add-in-Overview.md)   
- [How to: Install a Windows Client Control Add\-in Assembly](../Topic/How%20to:%20Install%20a%20Windows%20Client%20Control%20Add-in%20Assembly.md)   
+ [How to: Install a Windows Client Control Add\-in Assembly](How%20to:%20Install%20a%20Windows%20Client%20Control%20Add-in%20Assembly.md)   
  [Installing and Configuring Windows Client Control Add\-ins on Pages](Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)   
- [How to: Register a Windows Client Control Add\-in](../Topic/How%20to:%20Register%20a%20Windows%20Client%20Control%20Add-in.md)   
- [How to: Install a Windows Client Control Add\-in Assembly](../Topic/How%20to:%20Install%20a%20Windows%20Client%20Control%20Add-in%20Assembly.md)   
+ [How to: Register a Windows Client Control Add\-in](How%20to:%20Register%20a%20Windows%20Client%20Control%20Add-in.md)   
+ [How to: Install a Windows Client Control Add\-in Assembly](How%20to:%20Install%20a%20Windows%20Client%20Control%20Add-in%20Assembly.md)   
  [Developing Windows Client Control Add\-ins](Developing-Windows-Client-Control-Add-ins.md)   
- [Walkthrough: Creating and Using a Windows Client Control Add\-in](../Topic/Walkthrough:%20Creating%20and%20Using%20a%20Windows%20Client%20Control%20Add-in.md)   
+ [Walkthrough: Creating and Using a Windows Client Control Add\-in](Walkthrough:%20Creating%20and%20Using%20a%20Windows%20Client%20Control%20Add-in.md)   
  [ControlAddin Property](ControlAddin-Property.md)

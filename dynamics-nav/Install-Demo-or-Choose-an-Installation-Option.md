@@ -28,7 +28,7 @@ After you accept the software license terms and choose **Next**, you come to the
      When you choose this option, Setup moves to the **Choose an Installation Option** page, where you select from a set of predefined installation configurations.  
   
 ## See Also  
- [How to: Run Setup](../Topic/How%20to:%20Run%20Setup.md)   
+ [How to: Run Setup](How%20to:%20Run%20Setup.md)   
  [Installation Options](Installation-Options.md)   
  [Demo Option](Demo-Option.md)   
  [Working with Microsoft Dynamics NAV Setup](Working-with-Microsoft-Dynamics-NAV-Setup.md)

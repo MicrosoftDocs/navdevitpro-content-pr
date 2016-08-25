@@ -29,7 +29,7 @@ You can export a company from a [!INCLUDE[navnow](includes/navnow_md.md)] databa
  This means that you must import a company into a database that is based on the same application as in the database that the company was exported from.  
   
 > [!IMPORTANT]  
->  If you export companies and other data that is secured by data encryption, then remember to also export the encryption key so that you can access the data after you import it into another database, for example when you restore a backup. For more information, see [Manage Data Encryption](../Topic/Manage%20Data%20Encryption.md).  
+>  If you export companies and other data that is secured by data encryption, then remember to also export the encryption key so that you can access the data after you import it into another database, for example when you restore a backup. For more information, see [Manage Data Encryption](Manage%20Data%20Encryption.md).  
   
 ### What to Export  
  You can export specific sets of data, such as a company or other data. The following table describes what is exported depending on your choices.  
@@ -81,6 +81,6 @@ You can export a company from a [!INCLUDE[navnow](includes/navnow_md.md)] databa
  For examples of how to use these functions, see page 9900 and 9901 in the [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 ## See Also  
- [How to: Export and Import Companies and Other Data using Windows PowerShell Cmdlets](../Topic/How%20to:%20Export%20and%20Import%20Companies%20and%20Other%20Data%20using%20Windows%20PowerShell%20Cmdlets.md)   
- [How to: Export and Import Companies and Other Data in Clients](../Topic/How%20to:%20Export%20and%20Import%20Companies%20and%20Other%20Data%20in%20Clients.md)   
+ [How to: Export and Import Companies and Other Data using Windows PowerShell Cmdlets](How%20to:%20Export%20and%20Import%20Companies%20and%20Other%20Data%20using%20Windows%20PowerShell%20Cmdlets.md)   
+ [How to: Export and Import Companies and Other Data in Clients](How%20to:%20Export%20and%20Import%20Companies%20and%20Other%20Data%20in%20Clients.md)   
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)

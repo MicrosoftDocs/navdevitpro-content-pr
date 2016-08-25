@@ -124,4 +124,4 @@ To configure your [!INCLUDE[navnow](includes/navnow_md.md)] deployment to use Mi
   
 ## See Also  
  [Configure Microsoft Dynamics NAV Components for ACS](Configure-Microsoft-Dynamics-NAV-Components-for-ACS.md)   
- [How to: Set up Microsoft Dynamics NAV for Single Sign\-on With Office 365 using Windows PowerShell](../Topic/How%20to:%20Set%20up%20Microsoft%20Dynamics%20NAV%20for%20Single%20Sign-on%20With%20Office%20365%20using%20Windows%20PowerShell.md)
+ [How to: Set up Microsoft Dynamics NAV for Single Sign\-on With Office 365 using Windows PowerShell](How%20to:%20Set%20up%20Microsoft%20Dynamics%20NAV%20for%20Single%20Sign-on%20With%20Office%20365%20using%20Windows%20PowerShell.md)

@@ -45,7 +45,7 @@ You open the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using a web browser 
   
     -   **TenantID** with the name of the tenant that you want to connect to. This parameter is only required when [!INCLUDE[navnow](includes/navnow_md.md)] is deployed in a multitenant architecture. The tenant that you specify must be mounted on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that the [!INCLUDE[nav_web](includes/nav_web_md.md)] connects to. For more information, see [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md).  
   
-    -   **CompanyName** with the name of the company in [!INCLUDE[navnow](includes/navnow_md.md)]. This parameter is optional and is only needed if you want to open a different company than the one specified in [\($ N\_9176 My Settings $\)](../Topic/\($%20N_9176%20My%20Settings%20$\).md).  
+    -   **CompanyName** with the name of the company in [!INCLUDE[navnow](includes/navnow_md.md)]. This parameter is optional and is only needed if you want to open a different company than the one specified in [\($ N\_9176 My Settings $\)](\($%20N_9176%20My%20Settings%20$\).md).  
   
     -   **ID** with the ID that is assigned to the page or report object in [!INCLUDE[navnow](includes/navnow_md.md)].  
   
@@ -55,7 +55,7 @@ You open the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using a web browser 
  For more information about the URLs to open pages and reports, see [Opening a Page in the Microsoft Dynamics NAV Web Client by Using a URL](Opening-a-Page-in-the-Microsoft-Dynamics-NAV-Web-Client-by-Using-a-URL.md) and [Opening a Report in the Microsoft Dynamics NAV Web Client by Using a URL](Opening-a-Report-in-the-Microsoft-Dynamics-NAV-Web-Client-by-Using-a-URL.md).  
   
 ## See Also  
- [How to: Open the Microsoft Dynamics NAV Tablet or Phone Client from a Browser](../Topic/How%20to:%20Open%20the%20Microsoft%20Dynamics%20NAV%20Tablet%20or%20Phone%20Client%20from%20a%20Browser.md)   
+ [How to: Open the Microsoft Dynamics NAV Tablet or Phone Client from a Browser](How%20to:%20Open%20the%20Microsoft%20Dynamics%20NAV%20Tablet%20or%20Phone%20Client%20from%20a%20Browser.md)   
  [Developing for the Microsoft Dynamics NAV Web Client](Developing-for-the-Microsoft-Dynamics-NAV-Web-Client.md)   
- [How to: Install the Web Server Components](../Topic/How%20to:%20Install%20the%20Web%20Server%20Components.md)   
- [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](../Topic/How%20to:%20Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md)
+ [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md)   
+ [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How%20to:%20Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md)

@@ -17,7 +17,7 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
  ![Example of a Cue showing sales this month](media/NAV_Cues_SalesThisMonth_Example.png "NAV\_Cues\_SalesThisMonth\_Example")  
   
 > [!NOTE]  
->  This walkthrough is a continuation of [Walkthrough: Creating a Cue Based on a FlowField](../Topic/Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20FlowField.md).  
+>  This walkthrough is a continuation of [Walkthrough: Creating a Cue Based on a FlowField](Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20FlowField.md).  
   
 ## About This Walkthrough  
  This walkthrough illustrates the following tasks:  
@@ -40,7 +40,7 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
 ### Prerequisites  
  To complete this walkthrough, you need:  
   
--   Cue table **50001 Sales Invoice Cue** and page **50001 Sales Invoice Cue** page from [Walkthrough: Creating a Cue Based on a FlowField](../Topic/Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20FlowField.md).  
+-   Cue table **50001 Sales Invoice Cue** and page **50001 Sales Invoice Cue** page from [Walkthrough: Creating a Cue Based on a FlowField](Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20FlowField.md).  
   
      This walkthrough uses these objects which you can create by using the instructions in the Walkthrough: Creating a Cue on a Role Center topic. The actual IDs and names of these objects might be different.  
   
@@ -218,5 +218,5 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
  [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
  [Pages Overview](Pages-Overview.md)   
  [Tables\-duplicate 20](Tables-duplicate-20.md)   
- [Walkthrough: Creating a Role Center](../Topic/Walkthrough:%20Creating%20a%20Role%20Center.md)   
+ [Walkthrough: Creating a Role Center](Walkthrough:%20Creating%20a%20Role%20Center.md)   
  [Queries](Queries.md)

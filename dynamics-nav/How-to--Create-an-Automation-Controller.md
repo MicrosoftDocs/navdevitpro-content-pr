@@ -39,7 +39,7 @@ To implement Automation in [!INCLUDE[navnow](includes/navnow_md.md)], create an 
   
  You write most of your code during step 4 by using the methods and the properties of the Automation server. The syntax and the semantics of these methods and properties are documented in the documentation for each Automation server. Using these methods and properties in C\/AL does not require any new or changed syntax.  
   
- For examples of creating an Automation controller, see [Walkthrough: Using Automation to Write a Letter in Microsoft Office Word](../Topic/Walkthrough:%20Using%20Automation%20to%20Write%20a%20Letter%20in%20Microsoft%20Office%20Word.md) and [Walkthrough: Using Automation to Create a Graph in Microsoft Excel](../Topic/Walkthrough:%20Using%20Automation%20to%20Create%20a%20Graph%20in%20Microsoft%20Excel.md).  
+ For examples of creating an Automation controller, see [Walkthrough: Using Automation to Write a Letter in Microsoft Office Word](Walkthrough:%20Using%20Automation%20to%20Write%20a%20Letter%20in%20Microsoft%20Office%20Word.md) and [Walkthrough: Using Automation to Create a Graph in Microsoft Excel](Walkthrough:%20Using%20Automation%20to%20Create%20a%20Graph%20in%20Microsoft%20Excel.md).  
   
 ## See Also  
  [Extending Microsoft Dynamics NAV Using COM](Extending-Microsoft-Dynamics-NAV-Using-COM.md)   

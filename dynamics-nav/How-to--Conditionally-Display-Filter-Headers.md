@@ -64,7 +64,7 @@ If you apply a filter to the data in a report, then we recommend that you create
     IIF(First(Fields!ItemLedgEntryFilter.Value) = "",TRUE,FALSE)  
     ```  
   
-16. Save and compile the report. For more information, see [How to: Integrate Report Dataset Designer and Visual Studio Report Designer](../Topic/How%20to:%20Integrate%20Report%20Dataset%20Designer%20and%20Visual%20Studio%20Report%20Designer.md).  
+16. Save and compile the report. For more information, see [How to: Integrate Report Dataset Designer and Visual Studio Report Designer](How%20to:%20Integrate%20Report%20Dataset%20Designer%20and%20Visual%20Studio%20Report%20Designer.md).  
   
 ## See Also  
  [Designing Reports](Designing-Reports.md)

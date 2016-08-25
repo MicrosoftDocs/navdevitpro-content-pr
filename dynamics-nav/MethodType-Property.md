@@ -36,4 +36,4 @@ Sets a date or totals type method on the query column. The method is applied by 
  [Method Property](Method-Property.md)   
  [Using the Date Method to Retrieve Day, Month, and Year Data](Using-the-Date-Method-to-Retrieve-Day--Month--and-Year-Data.md)   
  [Understanding Query Totals and Grouping](Understanding-Query-Totals-and-Grouping.md)   
- [How to: Create Queries](../Topic/How%20to:%20Create%20Queries.md)
+ [How to: Create Queries](How%20to:%20Create%20Queries.md)
