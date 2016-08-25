@@ -27,7 +27,7 @@ Sets whether the debugger breaks on errors.
   
  Specifies whether the debugger breaks on errors.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the break on errors is set successfully; otherwise, **false**.  

@@ -32,7 +32,7 @@ Caption := Record.FIELDCAPTION(Field)
   
  The field for which you want to retrieve the caption.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text or code  
   
  The caption is a string.  

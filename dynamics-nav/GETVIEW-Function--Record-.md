@@ -34,7 +34,7 @@ String := Record.GETVIEW([UseNames])
   
  This parameter is optional. If this parameter is **true** \(default value\) or if it is empty, then the returned string contains references to field captions in the table with which the record is associated. If this parameter is **false**, then the returned string contains references to field numbers.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text or code  
   
  The current sort order, key, and filters on a table. The string format is the same as the [SourceTableView Property](SourceTableView-Property.md) on pages.  

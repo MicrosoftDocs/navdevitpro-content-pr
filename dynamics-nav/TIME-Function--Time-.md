@@ -21,7 +21,7 @@ Gets the current time from the operating system.
 Time := TIME  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Time  
   
  The current time.  

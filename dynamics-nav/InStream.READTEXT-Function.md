@@ -32,7 +32,7 @@ Reads text from an InStream object.
   
  The number of characters to be read. If you do not specify this parameter, the maximum length of the string is used.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of characters that were read.  

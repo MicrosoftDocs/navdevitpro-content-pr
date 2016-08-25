@@ -26,7 +26,7 @@ Cancels and deletes a scheduled task that runs a specific codeunit.
   
  The unique identifier of the task. The unique identifier is returned by the CREATETASK function.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if a task is deleted; otherwise, **false**.  

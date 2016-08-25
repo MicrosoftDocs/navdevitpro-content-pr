@@ -37,7 +37,7 @@ Export the current media type \(such as jpeg image\) that is used on record to a
   
  Specifies the OutStream object that is created by the object that will receive the media content.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the media was successfully exported; otherwise, **false**.  

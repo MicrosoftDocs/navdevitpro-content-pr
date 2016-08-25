@@ -47,7 +47,7 @@ Starts a [!INCLUDE[navnow](includes/navnow_md.md)] session without a UI and runs
   
  This parameter is optional.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the session started successfully and no errors occurred; otherwise **false**.  

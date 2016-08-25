@@ -21,7 +21,7 @@ Gets a string that contains the serial number of the license file for your [!INC
 String := SERIALNUMBER;  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text or Code  
   
  This string contains the serial number.  

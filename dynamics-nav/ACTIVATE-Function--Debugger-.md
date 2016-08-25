@@ -20,7 +20,7 @@ Activates the debugger and attaches the debugger to the next session that is sta
 [Ok :=] ACTIVATE  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the debugger is started successfully; otherwise, **false**.  

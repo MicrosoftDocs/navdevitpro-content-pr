@@ -43,7 +43,7 @@ Sets a timestamp for a file.
   
  The time that you want stamped on the file.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  If you omit this optional return value, a run\-time error occurs if the file cannot be found. When you include the return value, you must handle any errors.  

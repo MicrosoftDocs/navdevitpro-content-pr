@@ -34,7 +34,7 @@ Caption := TestPageField.CAPTION
  *TestPageField*  
  The current field on a TestPage.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text or Code  
   
  **CaptionML** or **Name** property as Text or Code.  

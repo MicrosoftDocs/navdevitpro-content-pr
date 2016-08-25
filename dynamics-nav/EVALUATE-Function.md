@@ -36,7 +36,7 @@ Evaluates a string representation of a value into its typical representation. Th
   
  This optional value can be used when exporting data with an XMLport. The only valid value is 9, which indicates that the data must be converted from XML format to C\/SIDE format.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  Specifies whether an error occurred during the evaluation of the string.  

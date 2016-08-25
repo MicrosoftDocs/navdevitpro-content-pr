@@ -31,7 +31,7 @@ Finds the last record in a table based on the current key and filter.
   
  If the record is not found and if you omitted the return value, a run\-time error occurs.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the record was found; otherwise, **false**.  

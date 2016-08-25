@@ -44,7 +44,7 @@ Creates and opens an ASCII or binary file. If the file already exists, it will b
   
  For more information, see [Text Encoding](Text-Encoding.md).  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  Specifies whether the file was created.  

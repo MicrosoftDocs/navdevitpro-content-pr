@@ -31,7 +31,7 @@ OemText := TestPage.GETVALIDATIONERROR(index);
   
  The index of the validation error that occurred on the test page.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text  
   
  The validation error that occurred on the test page.  

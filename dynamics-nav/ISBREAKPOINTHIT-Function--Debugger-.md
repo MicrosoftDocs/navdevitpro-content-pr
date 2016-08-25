@@ -21,7 +21,7 @@ Specifies if a breakpoint is hit in a debugging session.
 Ok := ISBREAKPOINTHIT   
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if a breakpoint is hit in a debugging session; otherwise, **false**.  

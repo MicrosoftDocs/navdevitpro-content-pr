@@ -27,7 +27,7 @@ Time := VARIANT2TIME(Variant)
   
  The input variant.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Time  
   
  The resulting time.  

@@ -38,7 +38,7 @@ Inserts a record into a table.
   
  If this parameter is **false**, the code on the **OnInsert** trigger will not be exectued.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the record was inserted; otherwise, **false**.  

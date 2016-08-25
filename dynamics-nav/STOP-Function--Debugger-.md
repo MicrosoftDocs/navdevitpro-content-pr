@@ -20,7 +20,7 @@ Stops execution as if the code hits an error.
 [Ok :=] STOP   
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the debugger stops execution; otherwise, **false**.  

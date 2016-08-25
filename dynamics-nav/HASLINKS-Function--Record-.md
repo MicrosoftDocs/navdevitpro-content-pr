@@ -27,7 +27,7 @@ Ok := Record.HASLINKS
   
  The record in the table for which you want to find the link.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the record contains at least one link; otherwise, **false**.  

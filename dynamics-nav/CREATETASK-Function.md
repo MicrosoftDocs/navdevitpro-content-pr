@@ -51,7 +51,7 @@ Adds a task to run a codeunit at a specific time.
   
  Specifies the recordID of the record that you want to run the task on.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: GUID  
   
  The unique identifier that is assigned to the task.  

@@ -41,7 +41,7 @@ String := TestPage.Part.Fiter.GETFILTER(Field);
   
  The field that you want to get the filter from.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text  
   
  The filter that is applied to the specified field.  

@@ -38,7 +38,7 @@ Number := DATE2DMY(Date, What)
   
  The value 3 corresponds to Year.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The day, month, or year of the *Date* parameter.  

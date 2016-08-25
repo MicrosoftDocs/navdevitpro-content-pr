@@ -45,7 +45,7 @@ Stops a [!INCLUDE[navnow](includes/navnow_md.md)] session.
   
  An optional comment about the session event. The comment is stored in Table 2000000111, the Session Event table.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the session is stopped successfully and no errors occurred; otherwise **false**.  

@@ -32,7 +32,7 @@ NewNumber := POWER(Number, Power)
   
  The exponent in the exponential function.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Decimal  
   
  The result of raising *Number* by *Power*.  

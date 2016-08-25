@@ -32,7 +32,7 @@ Changes or checks the order in which a search through the table that is referred
   
  If this parameter is **true**, it will search in ascending order. If this parameter is **false**, it will search in descending order. If you do not specify this parameter, it will check the search order.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  Specifies the order in which a search will be performed.  

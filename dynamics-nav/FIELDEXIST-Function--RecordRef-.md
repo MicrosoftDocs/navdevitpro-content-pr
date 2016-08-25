@@ -31,7 +31,7 @@ Exist := RecordRef.FIELDEXIST(FieldNo)
   
  The FieldNo that you want to know whether it exists in the table.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the field exists in the table; otherwise, **false**.  

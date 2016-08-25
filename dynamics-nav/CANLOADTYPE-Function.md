@@ -26,7 +26,7 @@ Ok := CANLOADTYPE(DotNet)
  *DotNet*  
  Type: A variable of the DotNet data type to represent the .NET Framework type.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Returns **true** if the specified type can be accessed by [!INCLUDE[navnow](includes/navnow_md.md)]; otherwise **false**.  
   
 ## Example  

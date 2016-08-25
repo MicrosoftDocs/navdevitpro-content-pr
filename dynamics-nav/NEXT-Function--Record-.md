@@ -39,7 +39,7 @@ Steps := Record.NEXT([Steps])
   
  If you do not specify this parameter, then the next record is found.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of records inspected which meet the criteria of any filters and the current key. This value can be less than *Steps*, depending on the number of records in the table. If the table is empty, then zero is returned and *Record* does not change.  

@@ -26,7 +26,7 @@ Position := BigText.TEXTPOS(String)
   
  The text string to search for in the **BigText** variable. If this parameter is empty, then 0 is returned.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  This return value indicates the position where the first occurrence of the string starts in the *BigText* variable.  

@@ -34,7 +34,7 @@ String := Page.OBJECTID([UseNames])
   
  The default value is **true**.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text or code  
   
  The string: Page \<*Page name &#124; Page ID*\>  

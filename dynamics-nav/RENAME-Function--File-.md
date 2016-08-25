@@ -43,7 +43,7 @@ Renames an ASCII or binary file.
   
 -   You can enter only the subdirectory name, if the file is located in a subdirectory of the current directory.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  If you omit this optional return value, a run\-time error occurs when the file cannot be found. When you include the return value, it is assumed that you will handle any errors.  

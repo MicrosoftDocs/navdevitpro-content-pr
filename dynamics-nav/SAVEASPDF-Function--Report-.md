@@ -41,7 +41,7 @@ Saves a report as a .pdf file.
  *ReportVariable*  
  The report that you want to run.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the report was saved; otherwise, **false**.  

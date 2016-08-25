@@ -29,7 +29,7 @@ String := Record.GETPOSITION([UseNames])
  *UseNames*  
  Type: Boolean  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text or code  
   
  The primary key of the current record. The string has the same format as the [SourceTable Property](SourceTable-Property.md) on a page.  

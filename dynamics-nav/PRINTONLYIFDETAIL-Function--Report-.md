@@ -27,7 +27,7 @@ Gets or sets the current settings of the [PrintOnlyIfDetail Property](PrintOnlyI
   
  The new setting of [PrintOnlyIfDetail Property](PrintOnlyIfDetail-Property.md).  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the [PrintOnlyIfDetail Property](PrintOnlyIfDetail-Property.md) is set to true; otherwise, **false**.  

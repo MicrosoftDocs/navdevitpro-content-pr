@@ -31,7 +31,7 @@ Finds the row in a dataset on the test page that is identified by the specified 
   
  The value or list of values to use to find the row. If this parameter is omitted, the primary key value is used.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the specified row is found; otherwise, **false**. The return value is optional.  

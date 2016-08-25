@@ -21,7 +21,7 @@ Gets the current company name.
 Name := COMPANYNAME  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text constant or code  
   
  The name of the company, or an empty string if no company has been selected.  

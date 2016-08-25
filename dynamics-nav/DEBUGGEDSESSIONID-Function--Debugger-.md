@@ -20,7 +20,7 @@ Gets the ID of the previous session that the debugger was attached to.
 SessionID := DEBUGGEDSESSIONID   
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The session ID of the session that the debugger was previously attached to.  

@@ -41,7 +41,7 @@ CheckNumber :=STRCHECKSUM(String[, WeightString][, Modulus])
   
  The number that you want to use in the checksum formula. The default value is 10.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The checksum, which is calculated using this formula:  

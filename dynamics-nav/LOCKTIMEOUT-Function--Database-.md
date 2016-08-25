@@ -27,7 +27,7 @@ Determines whether the lock time\-out setting is set to **On**. You can also use
   
  The new setting for whether the lock time\-out is on.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  This value shows whether to use a lock time\-out.  

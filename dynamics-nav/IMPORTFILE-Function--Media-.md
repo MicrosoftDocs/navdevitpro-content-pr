@@ -49,7 +49,7 @@ Adds a media type, such as a jpeg image, from a file to a **Media** data type fi
   
  If this parameter is not specified, the IMPORTFILE function will deduct the MIME type from the file extension. For example the MIME type for a .jpg file is image\/jpeg.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: GUID  
   
  The unique ID assigned to this media instance in the database. You can also get the ID by using the [MEDIAID Function \(Media\)](MEDIAID-Function--Media-.md).  

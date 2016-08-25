@@ -26,7 +26,7 @@ Ok := RecordRef.READPERMISSION
   
  The RecordRef that refers to the record in the table for which you want to know if you have read permission.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  Specifies whether you have permission to read from the table.  

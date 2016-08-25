@@ -26,7 +26,7 @@ Position := File.POS
   
  Use this variable to refer to the file.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  This show the current position of the file pointer in bytes.  

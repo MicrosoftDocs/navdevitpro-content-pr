@@ -34,7 +34,7 @@ Parameters := REPORT.RUNREQUESTPAGE(Number[, Parameters])
   
  A string of request page parameters as XML to use to run the report.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text or Code  
   
  A string of the request page parameters as XML.  

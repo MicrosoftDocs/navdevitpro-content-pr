@@ -32,7 +32,7 @@ Name := Record.FIELDNAME(Field)
   
  The name of the field in the record.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text constant or code  
   
  The name of the field specified.  

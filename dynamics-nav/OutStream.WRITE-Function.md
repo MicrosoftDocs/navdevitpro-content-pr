@@ -31,7 +31,7 @@ Writes a specified number of bytes to the stream. Data is written in binary form
   
  The number of bytes to be written. In the case of data types other than string, code, and binary, if you specify a length that differs from the size of the variable, an error message is displayed.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of bytes that were written.  

@@ -26,7 +26,7 @@ Ok := FieldRef.ACTIVE
   
  Refers to the current field.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the field is enabled; otherwise, **false**.  

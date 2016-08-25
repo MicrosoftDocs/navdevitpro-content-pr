@@ -25,7 +25,7 @@ OK := TestPage.FIRST
  *TestPage*  
  The test page variable that you use to refer to the test page.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if a record exists in the dataset and the current row was successfully set to the first row in the dataset; otherwise, **false**.  

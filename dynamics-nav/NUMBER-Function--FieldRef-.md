@@ -26,7 +26,7 @@ No := FieldRef.NUMBER
   
  Refers to the current field.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of the table or of the field.  

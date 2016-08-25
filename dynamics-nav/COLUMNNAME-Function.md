@@ -32,7 +32,7 @@ Name := Query.COLUMNNAME(Column)
   
  Refers to the name of the query column. The name of a query column is specified by the [Name Property\-duplicate](Name-Property-duplicate.md) of the column in Query Designer.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text  
   
  The name of the specified column.  

@@ -43,7 +43,7 @@ Adds a media type \(MIME\), such as jpeg image, from an InStream object to a **M
   
  If this parameter is not specified, the IMPORTFILESTREAM function will deduct the MIME type from the file extension. For example the MIME type for a .jpg file is image\/jpeg.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: GUID  
   
  The unique ID assigned to this media file instance in the database table field. This ID can be retrieved by using the [MEDIAID Function \(Media\)](MEDIAID-Function--Media-.md).  

@@ -25,7 +25,7 @@ Ok := ISNULLGUID(Guid);
  *Guid*  
  The GUID that you want to check whether it is null.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if a value has been assigned to the GUID; otherwise, **false**.  

@@ -29,7 +29,7 @@ Class := FieldRef.CLASS
   
  Refers to the current field.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Option  
   
  The field class of the field.  

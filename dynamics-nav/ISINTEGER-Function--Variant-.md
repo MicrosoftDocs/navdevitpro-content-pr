@@ -25,7 +25,7 @@ Ok := Variant.ISINTEGER
  *Variant*  
  Type: Variant  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the C\/AL variant contains an Integer; otherwise, **false**.  

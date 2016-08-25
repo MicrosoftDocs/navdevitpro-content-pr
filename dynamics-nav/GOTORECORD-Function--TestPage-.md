@@ -31,7 +31,7 @@ Finds the specified record in a dataset on a test page.
   
  The record to find.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the specified record is found; otherwise, **false**. The return value is optional.  

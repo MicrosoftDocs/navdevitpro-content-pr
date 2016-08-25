@@ -41,7 +41,7 @@ Deletes a record in a [!INCLUDE[navnow](includes/navnow_md.md)] table.
   
  This parameter is optional.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the record was deleted; otherwise **false**. If the C\/AL code terminates, then **false** is returned.  

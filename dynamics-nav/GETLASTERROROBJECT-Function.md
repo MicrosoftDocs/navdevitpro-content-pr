@@ -21,7 +21,7 @@ Gets the last [System.Exception](http://go.microsoft.com/fwlink/?LinkID=396510) 
 DotNet := GETLASTERROROBJECT  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: DotNet  
   
  A System.Exception object that contains the last exception that occurred.  

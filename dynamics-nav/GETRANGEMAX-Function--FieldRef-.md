@@ -26,7 +26,7 @@ Value := FieldRef.GETRANGEMAX
   
  Refers to the current field.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: depends on the field referred to by the FieldRef.  
   
  Contains the maximum value of the range set for the field referred to by the FieldRef.  

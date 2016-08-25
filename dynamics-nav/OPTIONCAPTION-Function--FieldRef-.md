@@ -26,7 +26,7 @@ OptionCaption := FieldRef.OPTIONCAPTION
   
  Refers to the current field.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text  
   
  The option caption of the field.  

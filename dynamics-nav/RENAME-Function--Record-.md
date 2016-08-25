@@ -32,7 +32,7 @@ Changes the value of a primary key in a table.
   
  The new values for the primary key.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the primary key was renamed; otherwise, **false**. If the record does not exist or if you do not have permission to write to the table, then **false** is returned.  

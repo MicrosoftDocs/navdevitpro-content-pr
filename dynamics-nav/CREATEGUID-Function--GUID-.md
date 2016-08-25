@@ -21,7 +21,7 @@ Creates a new unique GUID. The value can then be assigned to a GUID data type or
 Guid := CREATEGUID;  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: GUID  
   
 ## See Also  

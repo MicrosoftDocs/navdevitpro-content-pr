@@ -39,7 +39,7 @@ NewString := DELSTR(String, Position[, Length])
   
  Specifies how many characters to delete. *Length* must be greater than zero \(0\).  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text constant or code  
   
  The resulting string.  

@@ -26,7 +26,7 @@ Unbinds the event subscriber functions from in the codeunit instance. This essen
   
  The codeunit that contains the event subscribers.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the event subscriber functions unbind successfully to the codeunit instance and no errors occurred; otherwise **false**.  

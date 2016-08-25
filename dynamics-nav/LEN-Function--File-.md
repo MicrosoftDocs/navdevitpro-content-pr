@@ -27,7 +27,7 @@ Length := File.LEN
   
  Use this variable to refer to the file.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The length of the file in bytes.  

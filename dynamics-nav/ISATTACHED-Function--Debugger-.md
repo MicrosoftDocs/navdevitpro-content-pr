@@ -21,7 +21,7 @@ Specifies if the debugger is attached to a session.
 Ok := ISATTACHED   
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the debugger is attached to a session; otherwise, **false**.  

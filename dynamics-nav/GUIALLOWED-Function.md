@@ -21,7 +21,7 @@ Checks whether the C\/AL code can show any information on the screen.
 [Ok :=] GUIALLOWED  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  If the return value is **true**, then the GUI is available.  

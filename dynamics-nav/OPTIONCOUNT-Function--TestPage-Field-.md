@@ -31,7 +31,7 @@ Integer := TestPage.Field.OPTIONCOUNT
   
  The field that contains the options.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of options in a field.  

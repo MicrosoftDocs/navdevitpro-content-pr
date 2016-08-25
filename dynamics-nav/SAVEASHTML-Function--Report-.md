@@ -48,7 +48,7 @@ Saves a report as an HTML file. The file is saved on the computer where the [!IN
   
  Specifies the report that you want to run.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  Indicates whether the report was saved successfully.  

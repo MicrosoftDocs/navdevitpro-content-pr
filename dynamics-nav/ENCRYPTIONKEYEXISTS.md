@@ -20,7 +20,7 @@ Checks whether an encryption key for the current tenant is present on the server
 Bool ENCRYPTIONKEYEXISTS()  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Value: Boolean  
   
  Returns **true** if the encryption key exists, otherwise **false**.  

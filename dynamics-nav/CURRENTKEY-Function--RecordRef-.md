@@ -27,7 +27,7 @@ CurrentKey := RecordRef.CURRENTKEY
   
  The RecordRef that refers to the table for which you want to identify the current key.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text  
   
  The name of the current key of the record.  

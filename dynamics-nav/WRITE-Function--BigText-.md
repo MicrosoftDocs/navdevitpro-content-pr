@@ -32,7 +32,7 @@ Streams a BigText object to a BLOB field in a table.
   
  The stream to which you write a BigText.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  This optional return value specifies whether the write transaction was successful.  

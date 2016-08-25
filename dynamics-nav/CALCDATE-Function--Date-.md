@@ -60,7 +60,7 @@ NewDate := CALCDATE(DateExpression [, Date])
   
  If you omit this optional value, the current system date is used.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Date  
   
  The date that is computed from the reference date and the date expression.  

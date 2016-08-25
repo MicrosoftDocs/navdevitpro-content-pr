@@ -26,7 +26,7 @@ Value := FieldRef.GETRANGEMIN
   
  Refers to the current field.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text constant or Code  
   
  Contains the minimum value of the range set for the field referred to by the *FieldRef*.  

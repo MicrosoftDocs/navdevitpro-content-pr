@@ -21,7 +21,7 @@ Gets the classification of the last error that occurred.
 String := GETLASTERRORCODE  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text  
   
  A string that contains the error code of the last error. The error code is a classification of the error.  

@@ -26,7 +26,7 @@ RecordRef := RecordID.GETRECORD
   
  The RecordID of the record for which you want the RecordRef.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: RecordRef  
   
  The RecordRef of the record.  

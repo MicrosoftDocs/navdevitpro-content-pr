@@ -26,7 +26,7 @@ Length := STRLEN(String)
   
  The string for which you want to determine the length.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The length of *String*.  

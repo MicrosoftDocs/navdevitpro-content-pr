@@ -20,7 +20,7 @@ Executes a function call and then stops at the first line outside the function c
 [Ok :=] STEPOVER   
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the debugger steps over a function call; otherwise, **false**.  

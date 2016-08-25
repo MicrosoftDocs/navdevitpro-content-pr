@@ -45,7 +45,7 @@ Finds a set of records in a table based on the current key and filter. FINDSET c
   
  If you are going to modify any field value within the current key, set this parameter to **true**.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the record set was found; otherwise, **false**.  

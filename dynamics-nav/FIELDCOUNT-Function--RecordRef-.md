@@ -26,7 +26,7 @@ Count := RecordRef.FIELDCOUNT
   
  The RecordRef of the record that you use to identify the table.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of fields in the table.  

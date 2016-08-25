@@ -27,7 +27,7 @@ Number := RANDOM(MaxNumber)
   
  The largest acceptable number. In effect, you are setting a range from one \(1\) to the number that you specify with the *MaxNumber* parameter.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  A pseudo\-random number between one \(1\) and the number that you entered for *MaxNumber*.  

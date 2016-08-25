@@ -32,7 +32,7 @@ String := Record.GETFILTER(Field)
   
  The input field.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text constant or code  
   
  This string contains a list of the filters applied to the field in the record.  

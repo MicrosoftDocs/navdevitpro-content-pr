@@ -20,7 +20,7 @@ Executes code until the next breakpoint or until execution ends.
 [Ok :=] CONTINUE   
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if code executes until the next breakpoint or until execution ends; otherwise, **false**.  

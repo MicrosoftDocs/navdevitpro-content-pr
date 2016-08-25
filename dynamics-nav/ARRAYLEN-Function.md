@@ -32,7 +32,7 @@ Length := ARRAYLEN(Array[, Dimension])
   
  If you omit this optional argument, the function returns the total number of elements in the array. To get the number of elements in a specific dimension, use *Dimension* with a valid value. The valid values are determined by the number of dimensions of the input array. For example, the valid values for a three\-dimensional array would be 1, 2, and 3.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of elements in the array, or the number of elements in a specific dimension.  

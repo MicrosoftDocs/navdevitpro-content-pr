@@ -27,7 +27,7 @@ Ok := RecordRef.WRITEPERMISSION
   
  The RecordRef that refers to a record in the table for which you want to know if you have write permission.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  Specifies if you have permission to write to the table using any of the following RecordRef functions:  

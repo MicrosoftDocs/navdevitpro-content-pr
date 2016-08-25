@@ -26,7 +26,7 @@ No := RecordRef.NUMBER
   
  The RecordRef that refers to the table in which you are interested.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of the table or the number of the field.  

@@ -27,7 +27,7 @@ Gets and sets the work date for the current session.
   
  The new work date you want to set.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Date  
   
  The current work date.  

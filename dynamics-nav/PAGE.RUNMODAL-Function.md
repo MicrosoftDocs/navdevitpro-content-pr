@@ -41,7 +41,7 @@ Creates, runs, and closes a specified page object. When a page is run modally, n
   
  Use this optional parameter to select a specific field on which focus will be put.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Action  
   
  Specifies what action the user took on the page. The following table shows the possible return values for the different user actions. In some cases, the actions for the return values are different when the page displays in the [!INCLUDE[nav_web](includes/nav_web_md.md)] than in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  

@@ -32,7 +32,7 @@ Number := Record.FIELDNO(Field)
   
  The name of the field in the record.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of the field specified.  

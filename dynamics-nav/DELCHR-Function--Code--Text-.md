@@ -47,7 +47,7 @@ NewString := DELCHR(String[, Where][, Which])
   
  The default is a space character.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text constant or code  
   
  The resulting string.  

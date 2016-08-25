@@ -36,7 +36,7 @@ Ok := Dialog.CONFIRM(String [, Default] [, Value1] ,...)
   
  Any type of constant or C\/AL variable that you want to insert into *String*. You can insert up to 10 values.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if you entered **Yes**; otherwise, **false**.  

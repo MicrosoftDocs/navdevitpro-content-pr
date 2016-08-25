@@ -40,7 +40,7 @@ Activates the debugger and attaches it to the specified session.
   
 -   Background session  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the debugger is attached to a session; otherwise, **false**.  

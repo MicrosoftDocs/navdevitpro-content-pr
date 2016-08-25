@@ -27,7 +27,7 @@ Caption := RecordRef.CAPTION
   
  The RecordRef that identifies the table in which you are interested.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text  
   
  The caption of the table.  

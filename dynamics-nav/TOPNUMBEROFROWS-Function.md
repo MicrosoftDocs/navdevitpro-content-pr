@@ -29,7 +29,7 @@ Specifies the maximum number of rows to include in the resulting dataset of a qu
 > [!NOTE]  
 >  If you set the value to **0**, then there is no limit and all rows of the dataset are returned.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of rows that are included in the dataset.  

@@ -47,7 +47,7 @@ NewNumber := ROUND(Number [, Precision] [, Direction])
   
 -   '\<' rounds down  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Decimal  
   
  The rounded result.  

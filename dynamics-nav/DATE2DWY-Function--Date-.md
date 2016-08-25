@@ -38,7 +38,7 @@ Number := DATE2DWY(Date, What)
   
  The value 3 corresponds to year.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The resulting day of the week, week number, or year.  

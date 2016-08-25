@@ -20,7 +20,7 @@ Breaks code execution of a debugging session.
 [Ok :=] BREAK   
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if a breakpoint is set in the debugging session; otherwise, **false**.  

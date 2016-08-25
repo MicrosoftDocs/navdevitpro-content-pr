@@ -37,7 +37,7 @@ NewString := COPYSTR(String, Position[, Length])
   
  The number of characters to copy. If the value of *Length* is less than 0, then the COPYSTR function returns an error. If the value of *Length* causes *Position* \+ *Length* to be \> \(total length of the string\), then the result includes all the characters from *Position* to the end of the string. If you omit *Length*, then the resulting string includes all the characters from *Position* to the end of the string.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text constant or code  
   
  The resulting string or substring.  

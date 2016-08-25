@@ -27,7 +27,7 @@ Field := RecordRef.FIELDINDEX(Index)
  *Index*  
  Type: Integer  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: FieldRef  
   
  The FieldRef of the field that has the specified index.  

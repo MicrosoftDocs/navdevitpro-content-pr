@@ -28,7 +28,7 @@ Gets or sets the application areas for the current session.
   
  An application area tag has the format \#*name*, where *name* is the application area. The *name* can be any combination of letters \(Aa\-Zz\) and numbers \(0\-9\) without spaces. For example, to specify the **Foundation** and **Fixed Assets** application areas, set the property to **\#Foundation,\#FixedAssets**.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text  
   
  A comma\-separated list of enabled application areas for the current session.  

@@ -27,7 +27,7 @@ RecordID := Record.RECORDID
   
  The record whose recordID you want to get.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: RecordID  
   
 ## Remarks  

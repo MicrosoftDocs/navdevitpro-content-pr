@@ -31,7 +31,7 @@ Redirects references to table data from one company to another.
   
  The name of the company to which you want to change. If you omit this parameter, you change back to the current company.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the company was found; otherwise, **false**.  

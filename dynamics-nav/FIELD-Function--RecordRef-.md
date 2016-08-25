@@ -31,7 +31,7 @@ FieldRef := RecordRef.FIELD(FieldNo)
   
  The number that the field has in the table that is currently selected. This is the field for which you want the fieldref.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: FieldRef  
   
 ## Remarks  

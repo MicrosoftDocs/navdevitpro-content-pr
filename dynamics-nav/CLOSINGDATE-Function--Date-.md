@@ -26,7 +26,7 @@ ClosingDate := CLOSINGDATE(Date)
   
  The input date.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Date  
   
  The corresponding closing date for the input date.  

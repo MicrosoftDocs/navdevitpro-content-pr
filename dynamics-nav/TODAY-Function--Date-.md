@@ -21,7 +21,7 @@ Gets the current date set in the operating system.
 Date := TODAY  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Date  
   
  The current date defined by the operating system.  

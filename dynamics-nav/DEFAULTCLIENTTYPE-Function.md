@@ -20,7 +20,7 @@ Gets the default [!INCLUDE[navnow](includes/navnow_md.md)] client that is config
 [ClientType :=] DEFAULTCLIENTTYPE  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: ClientType  
   
  The default [!INCLUDE[navnow](includes/navnow_md.md)] client, which be one of the following values:  

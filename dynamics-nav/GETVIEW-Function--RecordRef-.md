@@ -35,7 +35,7 @@ String := RecordRef.GETVIEW([UseNames])
   
  This parameter is optional.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text or code  
   
  The string format is the same as the [SourceTableView Property](SourceTableView-Property.md) on pages.  

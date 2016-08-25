@@ -32,7 +32,7 @@ Gets or sets the filter group that is applied to a table.
   
  The number of the filter group to set.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of the current filter group.  

@@ -27,7 +27,7 @@ RecordRef := RecordRef.DUPLICATE
   
  The RecordRef that identifies the record and the table that you want to duplicate.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: RecordRef  
   
 ## Remarks  

@@ -26,7 +26,7 @@ String := FieldRef.GETFILTER
   
  Refers to the field for which you want to return the filter.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text  
   
  This string contains the filter that is applied to the field in the record.  

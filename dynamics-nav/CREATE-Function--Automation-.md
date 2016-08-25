@@ -37,7 +37,7 @@ Creates an Automation object.
   
  *OnClient* must evaluate to **true**. You can either set the parameter to **true** or define a Boolean type variable that evaluates to **true**. If variable evaluates to **false**, then you will see a run\-time error.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the Automation object could be created; otherwise, **false**.  

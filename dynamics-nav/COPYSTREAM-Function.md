@@ -31,7 +31,7 @@ Copies the information that is contained in an InStream to an OutStream.
   
  The InStream object from which you want to copy; the source stream.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  Specifies whether the data was copied.  

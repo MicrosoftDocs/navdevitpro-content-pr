@@ -32,7 +32,7 @@ Key := RecordRef.KEYINDEX(Index)
   
  The number of the index in which you are interested.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: KeyRef  
   
  The KeyRef of the field that has the specified index.  

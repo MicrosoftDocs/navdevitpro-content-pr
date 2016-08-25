@@ -47,7 +47,7 @@ Exports a binary large object \(BLOB\).
   
  If the *CommonDialog* parameter is **true**, [!INCLUDE[navnow](includes/navnow_md.md)] will display the confirmation dialog box. If the *CommonDialog* parameter is **false** \(default\), [!INCLUDE[navnow](includes/navnow_md.md)] will not display the confirmation dialog box.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: text  
   
  The name and path of the exported file.  

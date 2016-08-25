@@ -21,7 +21,7 @@ Indicates whether a report is being printed in preview mode.
 IsPreview := PREVIEW  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the report is run in preview mode; otherwise, **false**.  

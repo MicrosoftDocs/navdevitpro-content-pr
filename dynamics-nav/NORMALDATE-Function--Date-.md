@@ -27,7 +27,7 @@ NormalDate := NORMALDATE(Date)
   
  The input date. You can enter a closing date or a normal date. A run\-time error occurs if the value of *Date* is set to the undefined date \(0D\).  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Date  
   
  The resulting date. If the input date is either a normal date or a closing date, then the return value is a normal date.  
