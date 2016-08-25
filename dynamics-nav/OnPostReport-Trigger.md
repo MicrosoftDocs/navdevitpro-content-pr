@@ -27,7 +27,7 @@ IF ProblemsInReport THEN
 MESSAGE(Text000, NumberOfErrors);  
 ```  
   
- Create the following text constant in the **C\/AL Globals** window.  
+ Create the following text constant in the **C/AL Globals** window.  
   
 |**Text constant**|**ENU value**|  
 |-----------------------|-------------------|  

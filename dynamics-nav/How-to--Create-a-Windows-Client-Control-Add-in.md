@@ -124,7 +124,7 @@ You develop [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add\-ins
   
      For more information, see [Binding a Windows Client Control Add\-in to the Database](Binding-a-Windows-Client-Control-Add-in-to-the-Database.md).  
   
-8.  To define events that call the OnControlAddin C\/AL trigger of a page field control, add the following C\# code to declare an event handler.  
+8.  To define events that call the OnControlAddin C/AL trigger of a page field control, add the following C\# code to declare an event handler.  
   
     ```c#  
     public event ControlAddInEventHandler ControlAddIn;  
@@ -134,7 +134,7 @@ You develop [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add\-ins
   
      For more information, see [Exposing Events and Calling Respective C\-AL Triggers from a Windows Client Control Add\-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md).  
   
-9. To add an event that will be represented by a new trigger in C\/AL code of a [!INCLUDE[navnow](includes/navnow_md.md)] page object, use the managed attribute [ApplicationVisibleAttribute](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.ApplicationVisibleAttribute) and add code for C\# methods and properties.  
+9. To add an event that will be represented by a new trigger in C/AL code of a [!INCLUDE[navnow](includes/navnow_md.md)] page object, use the managed attribute [ApplicationVisibleAttribute](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.ApplicationVisibleAttribute) and add code for C\# methods and properties.  
   
     ```c#  
     [ApplicationVisible]  
@@ -153,7 +153,7 @@ You develop [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add\-ins
   
      The methods and properties must be public. For more information, see [Exposing Methods and Properties in a Windows Client Control Add\-in](Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md).  
   
-10. To add a method or property that can be called from the C\/AL code of a [!INCLUDE[navnow](includes/navnow_md.md)] page object, use the managed attribute [ApplicationVisibleAttribute](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.ApplicationVisibleAttribute) and add code for C\# methods and properties.  
+10. To add a method or property that can be called from the C/AL code of a [!INCLUDE[navnow](includes/navnow_md.md)] page object, use the managed attribute [ApplicationVisibleAttribute](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.ApplicationVisibleAttribute) and add code for C\# methods and properties.  
   
     ```c#  
     /// <summary>  

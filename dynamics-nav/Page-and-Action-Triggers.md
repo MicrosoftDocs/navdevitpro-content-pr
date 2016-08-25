@@ -12,7 +12,7 @@ caps.latest.revision: 17
 manager: edupont
 ---
 # Page and Action Triggers
-Page triggers allow you to use C\/AL code to control the behavior of the system as a result of an event on the page, such as a page opening or a field changing its value. You typically use page triggers for advanced validation and logic.  
+Page triggers allow you to use C/AL code to control the behavior of the system as a result of an event on the page, such as a page opening or a field changing its value. You typically use page triggers for advanced validation and logic.  
   
  Page triggers can be divided into three categories:  
   

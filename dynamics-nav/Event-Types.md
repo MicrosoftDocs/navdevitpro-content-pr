@@ -25,7 +25,7 @@ manager: edupont
 -   [Page Trigger Events](Event-Types.md#PageEvents)  
   
 ##  <a name="BusinessEvents"></a> Business Events  
- A business event is a custom event that is raised by C\/AL code. It defines a formal contract that carries an implicit promise not to change in future releases. It is the expectation that business events are published by solution ISVs, including Microsoft.  
+ A business event is a custom event that is raised by C/AL code. It defines a formal contract that carries an implicit promise not to change in future releases. It is the expectation that business events are published by solution ISVs, including Microsoft.  
   
  Business events can be compared with publicly released APIs on which 3rd party solution provider develop integrations and additions. Therefore, the downstream cost of making changes to a business event implementation can be considerable for those who use the event in their applications. There may be some cases where changes are required; however, you should keep these to an absolute minimum.  
   
@@ -36,7 +36,7 @@ manager: edupont
  Business events should be documented with the solution, including the before\-state and after\-state of the events.  
   
 ##  <a name="IntegrationEvents"></a> Integration Events  
- An integration event is also a custom event that is raised by C\/AL code, like a business event, except that it does not carry the same promise of not changing, nor does it have the restriction not to expose implementation details.  
+ An integration event is also a custom event that is raised by C/AL code, like a business event, except that it does not carry the same promise of not changing, nor does it have the restriction not to expose implementation details.  
   
  The main purpose of integration events is to enable the integration of other solutions with [!INCLUDE[navnow](includes/navnow_md.md)] without having to perform traditional code modifications.  
   
@@ -51,7 +51,7 @@ manager: edupont
  Unlike business and integration events which must be programmed, trigger events are predefined events. Trigger events are published by the runtime and they cannot be raised programmatically. There are two types of trigger events as described in this section: database trigger events and page trigger events.  
   
 > [!NOTE]  
->  Trigger events do not appear as functions in C\/AL Editor for a table or page object in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
+>  Trigger events do not appear as functions in C/AL Editor for a table or page object in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
   
 ###  <a name="DatabaseEvents"></a> Database Trigger Events  
  Trigger events are automatically raised by the system when it performs database operations on a table object, such as deleting, inserting, modifying, and renaming a record, as defined in  a table . Trigger events are closely associated with the table triggers for database operations: OnDelete, OnInsert, OnModify, OnRename, and OnValidate \(for fields\). For each database operation, there is a "before" and "after" trigger event with a fixed signature.  

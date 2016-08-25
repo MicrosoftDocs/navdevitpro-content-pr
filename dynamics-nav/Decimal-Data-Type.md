@@ -30,7 +30,7 @@ This simple data type denotes decimal numbers ranging from \-999,999,999,999,999
 ```  
   
 ## Changes from Previous Versions  
- In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], the Decimal data type is mapped to the Microsoft .NET Framework common language runtime \(CLR\) Decimal data type and the precision and limits behave slightly differently than the Binary Coded Decimal \(BCD\) data type in previous versions of C\/AL. This example shows how decimal data types are different in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
+ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], the Decimal data type is mapped to the Microsoft .NET Framework common language runtime \(CLR\) Decimal data type and the precision and limits behave slightly differently than the Binary Coded Decimal \(BCD\) data type in previous versions of C/AL. This example shows how decimal data types are different in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
   
  The following table shows the limits for variables of type DECIMAL in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] and in previous versions.  
   

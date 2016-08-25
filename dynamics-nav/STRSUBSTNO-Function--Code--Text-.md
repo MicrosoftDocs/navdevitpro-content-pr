@@ -85,7 +85,7 @@ NewString := STRSUBSTNO(String [,Value1, …])
 ## Example  
  The following example shows how to use the STRSUBSTNO function.  
   
- This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|Data type|Length|  
 |-------------------|---------------|------------|  

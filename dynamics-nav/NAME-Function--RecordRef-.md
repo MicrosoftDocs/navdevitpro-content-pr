@@ -36,7 +36,7 @@ Name := RecordRef.NAME
  This function works the same as the [TABLENAME Function \(Record\)](TABLENAME-Function--Record-.md).  
   
 ## Example  
- The following example opens a table as a RecordRef variable that is named MyRecordRef. You can specify any table number in the [OPEN Function \(RecordRef\)](OPEN-Function--RecordRef-.md). In this example, the table 18 \(Customer\) is open. The NAME function retrieves the name of table 18 and stores it in the varTableName variable. The table number and name are displayed in a message box. This example requires that you create the following variables text constant in the **C\/AL Globals** window.  
+ The following example opens a table as a RecordRef variable that is named MyRecordRef. You can specify any table number in the [OPEN Function \(RecordRef\)](OPEN-Function--RecordRef-.md). In this example, the table 18 \(Customer\) is open. The NAME function retrieves the name of table 18 and stores it in the varTableName variable. The table number and name are displayed in a message box. This example requires that you create the following variables text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

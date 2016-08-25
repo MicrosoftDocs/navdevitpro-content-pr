@@ -33,7 +33,7 @@ CurrentKey := RecordRef.CURRENTKEY
  The name of the current key of the record.  
   
 ## Example  
- This example requires that you create the following text constants and variables in the **C\/AL Globals** window.  
+ This example requires that you create the following text constants and variables in the **C/AL Globals** window.  
   
 |Text constant|ENU value|  
 |-------------------|---------------|  

@@ -38,7 +38,7 @@ Specifies the text encoding format to use when you use an XMLport to export or i
  You should set the **TextEncoding** property to the encoding format that is compatible with the system or program that you will be exporting to or importing from. The following sections describe the available text encoding formats.  
   
 > [!TIP]  
->  You can also set the **TextEncoding** property in C\/AL code. For example, if your XMLport can import or export different formats based on certain conditions, you can change the encoding on the fly depending on the conditions. For example, you can write code such as the following:  
+>  You can also set the **TextEncoding** property in C/AL code. For example, if your XMLport can import or export different formats based on certain conditions, you can change the encoding on the fly depending on the conditions. For example, you can write code such as the following:  
 >   
 >  `currXMLport.TEXTENCODING := TEXTENCODING::Windows;`  
   

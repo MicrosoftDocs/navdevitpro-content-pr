@@ -54,7 +54,7 @@ RecordRef.CHANGECOMPANY(NewCompany);
 ## Example  
  This example shows how to use the **CHANGECOMPANY** function. The following code takes a RecordRef to table **18 Customer** in the current company and redirects it to the table in another company \(in this case Company B\). The last record in the Customer table of Company B is then deleted.  
   
- This example requires that you create the following variables and text constant in the **C\/AL Globals** window  
+ This example requires that you create the following variables and text constant in the **C/AL Globals** window  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

@@ -51,9 +51,9 @@ If you have a multilanguage application, then you need to know how to find the v
   
 -   In Object Designer, on the shortcut menu of a column header for the column that you want to hide, choose **Hide Column**.  
   
- In the C\/AL Editor, the C\/AL scanner displays captions for objects, fields, and text constants. When you place the cursor on an object, field, or text constant, the C\/AL scanner displays the **Caption** property for the object, field, or text constant in the status bar at the bottom of the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] window.  
+ In the C/AL Editor, the C/AL scanner displays captions for objects, fields, and text constants. When you place the cursor on an object, field, or text constant, the C/AL scanner displays the **Caption** property for the object, field, or text constant in the status bar at the bottom of the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] window.  
   
- In the **C\/AL Symbol Menu**, if you have selected a field name, then the value of the **Name** property is displayed in the third column, and the value of the **Caption** property is displayed in the lower\-left corner of the window. If you have selected a caption, then the corresponding **Name** for that caption is displayed in the lower\-left corner of the window and the value of the **Caption** property is displayed in the third column.  
+ In the **C/AL Symbol Menu**, if you have selected a field name, then the value of the **Name** property is displayed in the third column, and the value of the **Caption** property is displayed in the lower\-left corner of the window. If you have selected a caption, then the corresponding **Name** for that caption is displayed in the lower\-left corner of the window and the value of the **Caption** property is displayed in the third column.  
   
 ## See Also  
  [Developing Multilanguage\-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md)

@@ -36,7 +36,7 @@ Record.DELETELINK(ID)
  When you add a link to a page or a table, an entry is created in the **Record Link** system table. Each entry is given an ID.  
   
 ## Example  
- The following example removes the link that has link ID 20 from the MyRecord record \(record number 30000\) in the **Vendor** table. This example requires that you create the following variable in the **C\/AL Globals** window.  
+ The following example removes the link that has link ID 20 from the MyRecord record \(record number 30000\) in the **Vendor** table. This example requires that you create the following variable in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

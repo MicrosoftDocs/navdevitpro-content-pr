@@ -19,13 +19,13 @@ This example illustrates how you can add access to camera to a specific page fro
   
  With the following steps, you will create two variables; the `CameraAvailable` variable is a Boolean that checks whether the current device has a camera. The `Camera` variable is a DotNet type that gets instantiated by adding code to the `OnOpenPage` trigger. Then, you will add actions to the Customer Card page that lets the user start the camera and write the code that is run on these actions. And finally, you will add a new trigger `Camera::PictureAvailable` to handle the incoming picture.  
   
-### To implement the camera in C\/AL  
+### To implement the camera in C/AL  
   
 1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer** to open the Object Designer window.  
   
 2.  In **Object Designer**, choose **Pages**, select the **Customer Card** \(page 21\) and choose the **Design** button.  
   
-3.  From the Page Designer window, on the **View** menu, choose **C\/AL Globals**.  
+3.  From the Page Designer window, on the **View** menu, choose **C/AL Globals**.  
   
 4.  Create the following two variables:  
   
@@ -34,7 +34,7 @@ This example illustrates how you can add access to camera to a specific page fro
     |Camera|DotNet|Microsoft.Dynamics.Nav.Client.Capabilities.CameraProvider<br /><br /> **Important:** Choose the Microsoft.Dynamics.Nav.ClientExtensions dll on the **Server** tab, and then choose Microsoft.Dynamics.Nav.Client.Capabilities.CameraProvider.<br /><br /> Make sure to set the properties **RunOnClient** and **WithEvents** to **Yes**.|  
     |CameraAvailable|Boolean|\-|  
   
-5.  On the **View** menu, select **C\/AL Code** and in the **C\/AL Editor** locate the `OnOpenPage` trigger.  
+5.  On the **View** menu, select **C/AL Code** and in the **C/AL Editor** locate the `OnOpenPage` trigger.  
   
 6.  Instantiate the `Camera` variable by adding the following code to the `OnOpenPage` trigger  
   
@@ -83,7 +83,7 @@ This example illustrates how you can add access to camera to a specific page fro
     Camera.RequestPictureAsync(CameraOptions);  
     ```  
   
-12. You now need to declare the local variable `CameraOptions` for the `TakePictureHigh` and `TakePictureLow` triggers. From the Page Designer window, on the View menu, choose **C\/AL Locals**.  
+12. You now need to declare the local variable `CameraOptions` for the `TakePictureHigh` and `TakePictureLow` triggers. From the Page Designer window, on the View menu, choose **C/AL Locals**.  
   
 13. Create the following variable:  
   
@@ -91,7 +91,7 @@ This example illustrates how you can add access to camera to a specific page fro
     |-------------------|--------------|-------------|  
     |CameraOptions|DotNet|Microsoft.Dynamics.Nav.Client.Capabilities.CameraOptions<br /><br /> **Important:** Choose the Microsoft.Dynamics.Nav.ClientExtensions dll on the **Server** tab, and then choose Microsoft.Dynamics.Nav.Client.Capabilities.CameraOptions.|  
   
-14. You must now add code to handle the picture for when the camera has captured the picture and the picture has been uploaded to the [!INCLUDE[nav_server](includes/nav_server_md.md)]. In the C\/AL Editor, on the `PictureAvailable` trigger, add code so that the `PictureAvailable` trigger looks like this.  
+14. You must now add code to handle the picture for when the camera has captured the picture and the picture has been uploaded to the [!INCLUDE[nav_server](includes/nav_server_md.md)]. In the C/AL Editor, on the `PictureAvailable` trigger, add code so that the `PictureAvailable` trigger looks like this.  
   
     ```  
     Camera::PictureAvailable(PictureName : Text;PictureFilePath : Text)  
@@ -106,7 +106,7 @@ This example illustrates how you can add access to camera to a specific page fro
     > [!IMPORTANT]  
     >  It is important to clean up by using the FILE.ERASE command to avoid accumulating image files.  
   
-15. Now, you need to declare the local variable `IncomingFile` used in the `PictureAvailable` trigger. From the Page Designer window, on the View menu, choose **C\/AL Locals**.  
+15. Now, you need to declare the local variable `IncomingFile` used in the `PictureAvailable` trigger. From the Page Designer window, on the View menu, choose **C/AL Locals**.  
   
 16. Create the following variable:  
   
@@ -114,7 +114,7 @@ This example illustrates how you can add access to camera to a specific page fro
     |-------------------|--------------|  
     |IncomingFile|File|  
   
-17. Close the C\/AL Editor, and then save and compile the page.  
+17. Close the C/AL Editor, and then save and compile the page.  
   
  You can now test the modified **Customer Card** page in the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] from either a tablet or a phone with a camera. To read more about different options that can be set for the camera, see [CameraOptions Overview](CameraOptions-Overview.md).  
   

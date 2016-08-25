@@ -48,7 +48,7 @@ Record.MODIFYALL(Field, NewValue [, RunTrigger])
  The [OnValidate \(Fields\) Trigger](OnValidate--Fields--Trigger.md) is never executed when MODIFYALL is used.  
   
 ## Example  
- This example requires that you create the following variable in the C\/AL Globals window.  
+ This example requires that you create the following variable in the C/AL Globals window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

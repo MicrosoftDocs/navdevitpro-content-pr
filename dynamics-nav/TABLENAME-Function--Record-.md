@@ -38,7 +38,7 @@ Name := Record.TABLENAME
 ## Example  
  The following example retrieves the name of the **Customer** table by using the CustomerRec variable, a record from the **Customer** table. The value of the **Customer** table name is stored in the TableName variable and displayed in a message box. The value that is displayed is Customer.  
   
- This example requires that you create the following variables in the **C\/AL Globals** window.  
+ This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

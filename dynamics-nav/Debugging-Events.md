@@ -12,7 +12,7 @@ caps.latest.revision: 4
 manager: edupont
 ---
 # Debugging Events
-You can debug events to help you find and correct errors. Debugging events is similar to debugging other C\/AL code in an application, where the basic concept is the breakpoint. To debug an event, you can add multiple breakpoints on event\-related lines of code that cover each phase of the event, as described in the following list:  
+You can debug events to help you find and correct errors. Debugging events is similar to debugging other C/AL code in an application, where the basic concept is the breakpoint. To debug an event, you can add multiple breakpoints on event\-related lines of code that cover each phase of the event, as described in the following list:  
   
 |Event Phase|Breakpoint|Description|  
 |-----------------|----------------|-----------------|  

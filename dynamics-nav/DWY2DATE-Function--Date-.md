@@ -46,7 +46,7 @@ Date := DWY2DATE(WeekDay [, Week] [, Year]))
  A special situation occurs if the week \(*Week*\) that is input into DWY2DATE spans two years. Depending on *Weekday*, the year of the output *Date* can differ from the input year. This scenario is shown in the following code example.  
   
 ## Example  
- The input week in this example spans two years. This code example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ The input week in this example spans two years. This code example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -74,7 +74,7 @@ MESSAGE(Text000, DayOfWeek, Week, Year, OutputDate);
  The example shows that the first day of the week in the first week of the year 2014 is regarded as the date December 30, 2013. The first week of the year 2014 is the first week that has four or more days in the year 2014. That week starts on Monday, December 30, 2013, and ends on Sunday, January 5, 2014.  
   
 ## Example  
- The input week in this example spans two years. This code example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ The input week in this example spans two years. This code example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|Data type|  
 |-------------------|---------------|  
@@ -102,7 +102,7 @@ MESSAGE(Text000, DayOfWeek, Week, Year, OutputDate);
  The example shows that the first day of the week in the first week of the year 2016 is regarded as the date January 4, 2016. The first week of the year 2016 is the first week that has four or more days in the year 2016. That week starts on Monday, January 4, 2016, and ends on Sunday, January 11, 2015.  
   
 ## Example  
- This example shows how to use the DWY2DATE function without specifying the optional *Year* parameter. The output in this example depends on the day on which you run the code. This code example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This example shows how to use the DWY2DATE function without specifying the optional *Year* parameter. The output in this example depends on the day on which you run the code. This code example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

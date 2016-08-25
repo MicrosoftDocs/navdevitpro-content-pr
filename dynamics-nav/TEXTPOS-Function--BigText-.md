@@ -37,7 +37,7 @@ Position := BigText.TEXTPOS(String)
  The first character in a *BigText* variable is position 1.  
   
 ## Example  
- The following examples show how to use the TEXTPOS function. These examples require that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following examples show how to use the TEXTPOS function. These examples require that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

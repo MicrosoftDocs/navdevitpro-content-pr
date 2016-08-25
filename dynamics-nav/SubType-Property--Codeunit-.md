@@ -22,14 +22,14 @@ Sets the codeunit to function as a normal, test, test runner, or upgrade codeuni
 |**Value**|**Description**|  
 |---------------|---------------------|  
 |**Normal**|A normal codeunit. This is the default setting.|  
-|**Test**|A test codeunit includes C\/AL functions that test the application. For more information, see [How to: Create Test Codeunits and Test Functions](How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md).|  
+|**Test**|A test codeunit includes C/AL functions that test the application. For more information, see [How to: Create Test Codeunits and Test Functions](How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md).|  
 |**TestRunner**|A test runner codeunit manages the execution of one or more test codeunits. For more information, see [How to: Create a Test Runner Codeunit](How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md).|  
-|**Upgrade**|An upgrade codeunit includes C\/AL functions for synchronizing changes to a table definition in an application with the business data table in SQL Server and migrating existing data. For more information, see [Upgrade Codeunits](Upgrade-Codeunits.md).|  
+|**Upgrade**|An upgrade codeunit includes C/AL functions for synchronizing changes to a table definition in an application with the business data table in SQL Server and migrating existing data. For more information, see [Upgrade Codeunits](Upgrade-Codeunits.md).|  
   
 ## Remarks  
  You can create test codeunits and test runner codeunits to test your application.  
   
- You write test functions as C\/AL code in the test codeunits. When a test codeunit runs, it executes the OnRun function and then executes each test function in the codeunit, records the outcome in a log, and displays the results in a message window. The continuation of the test function run is dependent on successful run of the OnRun function. The difference between a normal codeunit and a test codeunit is their execution at run time. When a normal codeunit is run, if one of its functions fails, then the codeunit is terminated. When a test codeunit is run, if a function fails, then the function is terminated, but the codeunit continues to run the remaining functions.  
+ You write test functions as C/AL code in the test codeunits. When a test codeunit runs, it executes the OnRun function and then executes each test function in the codeunit, records the outcome in a log, and displays the results in a message window. The continuation of the test function run is dependent on successful run of the OnRun function. The difference between a normal codeunit and a test codeunit is their execution at run time. When a normal codeunit is run, if one of its functions fails, then the codeunit is terminated. When a test codeunit is run, if a function fails, then the function is terminated, but the codeunit continues to run the remaining functions.  
   
  A test runner codeunit runs the test codeunits that are programmed to run from its OnRun trigger. When a test runner codeunit runs, it does the following:  
   

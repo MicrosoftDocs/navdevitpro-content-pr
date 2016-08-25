@@ -14,11 +14,11 @@ manager: edupont
 # Development
 Before you begin developing code for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you should consider the following:  
   
--   How to start learning about C\/AL.  
+-   How to start learning about C/AL.  
   
--   How to build on your C\/AL knowledge.  
+-   How to build on your C/AL knowledge.  
   
--   How to build an application by using your knowledge of C\/AL.  
+-   How to build an application by using your knowledge of C/AL.  
   
 -   What the differences are between developing applications that run on different clients.  
   
@@ -30,11 +30,11 @@ Before you begin developing code for [!INCLUDE[navnowlong](includes/navnowlong_m
   
 |To|See|  
 |--------|---------|  
-|Learn what you can do with C\/AL and where to add C\/AL code.|[Programming in C\-AL](Programming-in-C-AL.md)|  
-|Learn what the C\/AL data types are.|[C\-AL Data Types](C-AL-Data-Types.md)|  
-|Learn how to write C\/AL statements and expressions.|-   [Statements and Expressions](Statements-and-Expressions.md)<br />-   [Elements of C\-AL Expressions](Elements-of-C-AL-Expressions.md)<br />-   [C\-AL Simple Statements](C-AL-Simple-Statements.md)<br />-   [C\-AL Control Statements](C-AL-Control-Statements.md)|  
-|Learn about how to debug C\/AL.|[Debugging](Debugging.md)|  
-|Learn about how to use custom controls with C\/AL.|[Extending Microsoft Dynamics NAV Using COM](Extending-Microsoft-Dynamics-NAV-Using-COM.md)|  
+|Learn what you can do with C/AL and where to add C/AL code.|[Programming in C\-AL](Programming-in-C-AL.md)|  
+|Learn what the C/AL data types are.|[C\-AL Data Types](C-AL-Data-Types.md)|  
+|Learn how to write C/AL statements and expressions.|-   [Statements and Expressions](Statements-and-Expressions.md)<br />-   [Elements of C\-AL Expressions](Elements-of-C-AL-Expressions.md)<br />-   [C\-AL Simple Statements](C-AL-Simple-Statements.md)<br />-   [C\-AL Control Statements](C-AL-Control-Statements.md)|  
+|Learn about how to debug C/AL.|[Debugging](Debugging.md)|  
+|Learn about how to use custom controls with C/AL.|[Extending Microsoft Dynamics NAV Using COM](Extending-Microsoft-Dynamics-NAV-Using-COM.md)|  
 |Learn about the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] and designing applications.|[Application Design Overview](Application-Design-Overview.md)|  
 |Learn about how to use multilanguage functionality.|[Multilanguage Development](Multilanguage-Development.md)|  
 |Learn the differences in how numeric values are sorted.|[Sorting Numeric Values](Sorting-Numeric-Values.md)|  

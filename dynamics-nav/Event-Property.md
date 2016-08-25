@@ -16,7 +16,7 @@ Specifies whether the function is used to publish or subscribe to an event.
   
 ## Applies to  
   
--   C\/AL functions.  
+-   C/AL functions.  
   
 ## Property Value  
   

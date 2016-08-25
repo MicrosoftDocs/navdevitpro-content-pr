@@ -20,7 +20,7 @@ The following functions are used to search for records:
   
 -   NEXT  
   
- These functions are some of the most frequently used C\/AL functions. When you search for records, you must know the difference between GET and FIND and to know how to use FIND and NEXT in conjunction.  
+ These functions are some of the most frequently used C/AL functions. When you search for records, you must know the difference between GET and FIND and to know how to use FIND and NEXT in conjunction.  
   
 ## GET Function  
  The [GET Function \(Record\)](GET-Function--Record-.md) retrieves one record based on values of the primary key fields.  

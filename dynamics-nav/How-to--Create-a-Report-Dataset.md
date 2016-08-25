@@ -47,7 +47,7 @@ A dataset determines the data that displays on a generated report. You build the
   
     1.  In Report Dataset Designer, on a blank line, in the **Data Type** column, select **Column** from the drop\-down list.  
   
-    2.  In the **Data Source** column, enter the variable. You can use the up arrow to open the **C\/AL Symbol Menu** dialog box and view the variables for the report.  
+    2.  In the **Data Source** column, enter the variable. You can use the up arrow to open the **C/AL Symbol Menu** dialog box and view the variables for the report.  
   
     3.  In Report Dataset Designer, in the **Name** column, enter a CLS\-compliant name for the variable. This name is used in the dataset in Visual Studio.  
   

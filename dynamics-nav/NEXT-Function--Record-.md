@@ -48,7 +48,7 @@ Steps := Record.NEXT([Steps])
  This function locates a record positioned a given number of steps forward or backward from *Record*. Movement through the table is governed by the filters and the current key associated with the records. The fields in *Record* that will be compared with the current key fields must contain appropriate values before the function is called.  
   
 ## Example  
- This example requires that you create the following variables in the **C\/AL Globals** window.  
+ This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

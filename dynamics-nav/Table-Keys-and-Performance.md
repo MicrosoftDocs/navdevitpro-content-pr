@@ -12,7 +12,7 @@ caps.latest.revision: 15
 manager: edupont
 ---
 # Table Keys and Performance
-When you write C\/AL code that searches through a subset of the records in a table, you must consider what keys are defined for the table and write code that optimizes for the keys. For example, the entries for a specific customer are usually a small subset of a table containing entries for all the customers.  
+When you write C/AL code that searches through a subset of the records in a table, you must consider what keys are defined for the table and write code that optimizes for the keys. For example, the entries for a specific customer are usually a small subset of a table containing entries for all the customers.  
   
 ## Defining Keys to Improve Performance  
  The time that it takes to complete a loop through a subset of records depends on the size of the subset. If a subset cannot be located and read efficiently, then performance deteriorates.  

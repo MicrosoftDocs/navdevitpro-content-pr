@@ -27,7 +27,7 @@ public class MyControlAddIn : IValueControlAddInDefinition<DateTime>
   
 ```  
   
- When a control add\-in is instantiated on a page, the **SourceExpr** property value is passed to the control add\-in [IValueControlAddInDefinition\<T\>.Value](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1.Value) property. The **SourceExpr** property can be a field or row in a database table or a C\/AL global variable.  
+ When a control add\-in is instantiated on a page, the **SourceExpr** property value is passed to the control add\-in [IValueControlAddInDefinition\<T\>.Value](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1.Value) property. The **SourceExpr** property can be a field or row in a database table or a C/AL global variable.  
   
 > [!NOTE]  
 >  The **SourceExpr** property value can be passed to the [IValueControlAddInDefinition\<T\>.Value](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1.Value) property multiple times as long as a page is open, depending on application code or state in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
@@ -37,9 +37,9 @@ public class MyControlAddIn : IValueControlAddInDefinition<DateTime>
  For more information about how to set the **SourceExpr** property for a control add\-in, see [How to: Set Up a Windows Client Control Add\-in on a Page](How%20to:%20Set%20Up%20a%20Windows%20Client%20Control%20Add-in%20on%20a%20Page.md).  
   
 ## Supported Data Types  
- A control add\-in can bind with several data types from the database. Each data type in C\/AL maps to a corresponding .NET Framework data type in the control add\-in as listed in the following table.  
+ A control add\-in can bind with several data types from the database. Each data type in C/AL maps to a corresponding .NET Framework data type in the control add\-in as listed in the following table.  
   
-|C\/AL data type|Control add\-in data type|  
+|C/AL data type|Control add\-in data type|  
 |---------------------|-------------------------------|  
 |BigInteger|[Int64](assetId:///T:System.Int64)|  
 |BigText|[String](assetId:///T:System.String)|  
@@ -61,7 +61,7 @@ public class MyControlAddIn : IValueControlAddInDefinition<DateTime>
 |Time|[DateTime](assetId:///T:System.DateTime)|  
   
 ## Data Mapping and Multiple Data Types  
- The mapping between the C\/AL data type of the page control and the .NET Framework data type occurs when the control add\-in is instantiated on a page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For example, if a page contains a control that uses a Date data type in C\/AL and the control add\-in implements the Boolean data type \(`IValueControlAddInDefinition<Boolean>`\), then an error occurs.  
+ The mapping between the C/AL data type of the page control and the .NET Framework data type occurs when the control add\-in is instantiated on a page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For example, if a page contains a control that uses a Date data type in C/AL and the control add\-in implements the Boolean data type \(`IValueControlAddInDefinition<Boolean>`\), then an error occurs.  
   
  A control add\-in can support multiple .NET Framework data types by implementing the [Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition\<T\>](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1) interface for each data type. For example, to support both a string and an integer data type, include the following code.  
   

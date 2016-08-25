@@ -41,7 +41,7 @@ Ok := Record.READPERMISSION
  If you do not have permission to read from a table and you attempt to read, a run\-time error occurs. This function allows you to determine in advance if you have read permission. When the permissions are checked, the combination of permissions in the license file and the user's permissions in the **Permission** table is considered.  
   
 ## Example  
- The following code example retrieves record number 10000 from the Vendor table and stores the record in the MyRecord variable. The **READPERMISSION** function determines whether the user is granted read permission to the Vendor table. The value **Yes** is displayed in the message box because the user can read from the vendor table. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ The following code example retrieves record number 10000 from the Vendor table and stores the record in the MyRecord variable. The **READPERMISSION** function determines whether the user is granted read permission to the Vendor table. The value **Yes** is displayed in the message box because the user can read from the vendor table. This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

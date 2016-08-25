@@ -29,7 +29,7 @@ Evaluates a string representation of a value into its typical representation. Th
  *String*  
  Type: Text constant or code  
   
- A string that contains a value of any simple C\/AL data type.  
+ A string that contains a value of any simple C/AL data type.  
   
  *Number*  
  Type: Integer  
@@ -48,7 +48,7 @@ Evaluates a string representation of a value into its typical representation. Th
 ## Example  
  This example shows how to use the EVALUATE function when it is called with four different types of variables.  
   
- This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

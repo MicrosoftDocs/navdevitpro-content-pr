@@ -12,9 +12,9 @@ caps.latest.revision: 17
 manager: edupont
 ---
 # C-AL Conditional Statements
-A conditional statement is one type of control structure in C\/AL.  
+A conditional statement is one type of control structure in C/AL.  
   
- You use conditional statements to specify a condition and one or more commands to execute if the condition is evaluated as true or false. There are two types of conditional statements in C\/AL:  
+ You use conditional statements to specify a condition and one or more commands to execute if the condition is evaluated as true or false. There are two types of conditional statements in C/AL:  
   
 -   IF\-THEN\-ELSE, where there are two choices.  
   
@@ -185,7 +185,7 @@ END
 ```  
   
 ### Example  
- The following C\/AL code prints various messages depending on the value of *Number*. If the value of *Number* does not match any of the entries in the CASE structure, then the ELSE entry is used as the default.  
+ The following C/AL code prints various messages depending on the value of *Number*. If the value of *Number* does not match any of the entries in the CASE structure, then the ELSE entry is used as the default.  
   
 ```  
 CASE Number OF  
@@ -199,7 +199,7 @@ END
 ```  
   
 ### Example  
- The following C\/AL code shows how value sets in a CASE statement are evaluated if the expression is a Code data type. This example requires that you create the following variable.  
+ The following C/AL code shows how value sets in a CASE statement are evaluated if the expression is a Code data type. This example requires that you create the following variable.  
   
 |Variable|Data type|  
 |--------------|---------------|  

@@ -27,7 +27,7 @@ String := SERIALNUMBER;
  This string contains the serial number.  
   
 ## Example  
- This example requires that you create the following text constants and variables in the **C\/AL Globals** window.  
+ This example requires that you create the following text constants and variables in the **C/AL Globals** window.  
   
 |Text constant name|ENU value|  
 |------------------------|---------------|  

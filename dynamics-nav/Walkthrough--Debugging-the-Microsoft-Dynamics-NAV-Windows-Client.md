@@ -58,7 +58,7 @@ This walkthrough demonstrates debugging an action in the [!INCLUDE[nav_windows](
   
 2.  Select codeunit 80, Sales\-Post, and then choose **Design**.  
   
-3.  In the **C\/AL Editor**, select the first line in the **OnRun** trigger.  
+3.  In the **C/AL Editor**, select the first line in the **OnRun** trigger.  
   
 4.  On the **Tools** menu, choose **Debugger**, and then choose **Toggle Breakpoint** to add a breakpoint to the selected line of code.  
   

@@ -153,10 +153,10 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
   
      Name the manifest **Manifest** and make sure to add the .xml extension to the file, so that the file name will now be **Manifest.xml**.  
   
- The next step is to create a JavaScript file containing code that calls C\/AL in [!INCLUDE[navnow](includes/navnow_md.md)].  
+ The next step is to create a JavaScript file containing code that calls C/AL in [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 ## Creating a JavaScript File  
- Now you must create a JavaScript file to hold all of the code that calls C\/AL in [!INCLUDE[navnow](includes/navnow_md.md)].  
+ Now you must create a JavaScript file to hold all of the code that calls C/AL in [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 #### To create the JavaScript file  
   
@@ -283,7 +283,7 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
   
 -   Setting variables and properties.  
   
--   Adding C\/AL triggers.  
+-   Adding C/AL triggers.  
   
 #### To create the Bing Maps page  
   
@@ -315,7 +315,7 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
   
 1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], in Object Designer, choose **Page**, and then choose the **Bing Maps** page.  
   
-2.  On the **Tools** menu, choose **View**, and then **C\/AL Globals**.  
+2.  On the **Tools** menu, choose **View**, and then **C/AL Globals**.  
   
 3.  On the **Variables** tab, enter **Latitude** in the **Name** column, and set the **DataType** to **Decimal**.  
   
@@ -323,11 +323,11 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
   
 5.  Create a new variable. Enter **MiniMap** in the **Name** column, and set the **DataType** to **Boolean**.  
   
-6.  Close the **C\/AL Globals** window.  
+6.  Close the **C/AL Globals** window.  
   
-7.  In Page Designer, on **LatitudeControl**, set **SourceExpr** to **Latitude** in the C\/AL Symbol Menu.  
+7.  In Page Designer, on **LatitudeControl**, set **SourceExpr** to **Latitude** in the C/AL Symbol Menu.  
   
-8.  On **LongitudeControl**, set **SourceExpr** to **Longitude** in the C\/AL Symbol Menu.  
+8.  On **LongitudeControl**, set **SourceExpr** to **Longitude** in the C/AL Symbol Menu.  
   
 9. Select the **BingMapsControl** field, and then on the **View** menu, choose **Properties**.  
   
@@ -335,17 +335,17 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
   
 11. Choose the **OK** button to close the **Client Add\-In** window. The public key token is inserted into the **Value** field. Close the **Properties** window.  
   
-###### To add C\/AL triggers  
+###### To add C/AL triggers  
   
-1.  With the **Bing Maps** page open in Object Designer, on the **View** menu, choose **C\/AL Code**.  
+1.  With the **Bing Maps** page open in Object Designer, on the **View** menu, choose **C/AL Code**.  
   
-2.  In the **Page Bing Maps – C\/AL Editor** window, locate the `BingMapControl::ControlAddInReady()` trigger, and add the following line of code.  
+2.  In the **Page Bing Maps – C/AL Editor** window, locate the `BingMapControl::ControlAddInReady()` trigger, and add the following line of code.  
   
     ```  
     CurrPage.BingMapControl.LoadMap(Latitude, Longitude);  
     ```  
   
-3.  In the **Page Bing Maps – C\/AL Editor** window, locate the `BingMapControl::MapLoaded()` trigger, and add the following line of code.  
+3.  In the **Page Bing Maps – C/AL Editor** window, locate the `BingMapControl::MapLoaded()` trigger, and add the following line of code.  
   
     ```  
     CurrPage.BingMapControl.ShowMiniMap(MiniMap);  

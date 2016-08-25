@@ -184,9 +184,9 @@ This walkthrough demonstrates how to add a Cue on the [!INCLUDE[rtc](includes/rt
   
 7.  Close the **Properties** window.  
   
-8.  To initialize the Cue with a record when the page opens, you must add code to the page's OnOpenPage trigger. In Page Designer, select an empty row, and then on the **View** menu, choose **C\/AL Code**.  
+8.  To initialize the Cue with a record when the page opens, you must add code to the page's OnOpenPage trigger. In Page Designer, select an empty row, and then on the **View** menu, choose **C/AL Code**.  
   
-9. In the **C\/AL Editor**, add the following code in the OnOpenPage trigger:  
+9. In the **C/AL Editor**, add the following code in the OnOpenPage trigger:  
   
     ```  
     RESET;  
@@ -196,7 +196,7 @@ This walkthrough demonstrates how to add a Cue on the [!INCLUDE[rtc](includes/rt
     END;  
     ```  
   
-10. Close the **C\/AL Editor**.  
+10. Close the **C/AL Editor**.  
   
 #### To save the Sales Invoice Cue CardPart page  
   

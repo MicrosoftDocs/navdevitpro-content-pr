@@ -12,15 +12,15 @@ caps.latest.revision: 18
 manager: edupont
 ---
 # Mapping Between .NET Framework and C-AL Types
-In C\/AL, some .NET Framework data types, such as strings, DateTime, integers, and decimals, are automatically converted to C\/AL types. Because the types are converted, the .NET Framework versions of these types are not supported in C\/AL. For example, instead of using a .NET Framework integer data type in your C\/AL code, you should use a C\/AL integer data type. When the C\/AL integer is sent back to a .NET Framework object, such as through a method call, then the C\/AL integer is automatically converted to a .NET Framework integer.  
+In C/AL, some .NET Framework data types, such as strings, DateTime, integers, and decimals, are automatically converted to C/AL types. Because the types are converted, the .NET Framework versions of these types are not supported in C/AL. For example, instead of using a .NET Framework integer data type in your C/AL code, you should use a C/AL integer data type. When the C/AL integer is sent back to a .NET Framework object, such as through a method call, then the C/AL integer is automatically converted to a .NET Framework integer.  
   
-## Conversion Table for .NET Framework and C\/AL Types  
- The following table lists the automatic data type conversions between.NET Framework and C\/AL types.  
+## Conversion Table for .NET Framework and C/AL Types  
+ The following table lists the automatic data type conversions between.NET Framework and C/AL types.  
   
 > [!NOTE]  
 >  The System.String type and System.DateTime type are converted differently than other types that are listed in the table. For more information, see [Conversion of System.String and System.DateTime Types](#ConversionStringDate).  
   
-|.NET Framework Data Type<br /><br /> \(range\)|C\/AL Data Type<br /><br /> \(range\)|Comments|  
+|.NET Framework Data Type<br /><br /> \(range\)|C/AL Data Type<br /><br /> \(range\)|Comments|  
 |--------------------------------------------|-----------------------------------|--------------|  
 |System.Byte<br /><br /> \(0...255\)|Byte<br /><br /> \(0...255\)|Single unsigned byte that represents a value from 0...255.|  
 |System.SByte<br /><br /> \(\-128...127\)|Integer<br /><br /> \(\-128...127\)|Single signed byte that represents a value from \-128...127.|  
@@ -48,13 +48,13 @@ In C\/AL, some .NET Framework data types, such as strings, DateTime, integers, a
 |System.IO.Stream|Outstream||  
   
 ##  <a name="ConversionStringDate"></a> Conversion of System.String and System.DateTime Types  
- Unlike the types in the previous table, the System.String and System.DateTime types are not converted automatically to C\/AL data types when the DotNet variable is instantiated. The System.String and System.DateTime types are only converted when assigned to a compatible C\/AL data type. This lets you create an instance of the System.String type or System.DateTime type, and then call the DotNet variable like any other DotNet variable.  
+ Unlike the types in the previous table, the System.String and System.DateTime types are not converted automatically to C/AL data types when the DotNet variable is instantiated. The System.String and System.DateTime types are only converted when assigned to a compatible C/AL data type. This lets you create an instance of the System.String type or System.DateTime type, and then call the DotNet variable like any other DotNet variable.  
   
 > [!NOTE]  
->  You cannot use a DotNet variable for the System.String type or System.DateTime type in comparisons with C\/AL types because in these cases, there is no implicit type conversion.  
+>  You cannot use a DotNet variable for the System.String type or System.DateTime type in comparisons with C/AL types because in these cases, there is no implicit type conversion.  
   
 ### Example  
- The following C\/AL code example illustrates how a DotNet variable for the System.String type is converted to a C\/AL text data type.  
+ The following C/AL code example illustrates how a DotNet variable for the System.String type is converted to a C/AL text data type.  
   
  In a [!INCLUDE[navnow](includes/navnow_md.md)] object, such as a codeunit, define the following global variables.  
   
@@ -63,7 +63,7 @@ In C\/AL, some .NET Framework data types, such as strings, DateTime, integers, a
 |alVariable|Text|||  
 |dotNetVariable|DotNet|System.String|Located in the **mscorlib** assembly.|  
   
- In the C\/AL code, add the following code.  
+ In the C/AL code, add the following code.  
   
 ```  
 alVariable := ‘sample text’;  

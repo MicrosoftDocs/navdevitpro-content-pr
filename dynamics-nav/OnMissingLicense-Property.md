@@ -16,7 +16,7 @@ Specifies what happens to the event subscriber function call when the license of
   
 ## Applies to  
   
--   C\/AL functions in codeunits.  
+-   C/AL functions in codeunits.  
   
      This property is only available when the [Event Property](Event-Property.md) is set to **Subscriber**.  
   

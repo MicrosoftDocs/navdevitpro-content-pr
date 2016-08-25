@@ -32,7 +32,7 @@ Inserts a record into a table.
  *RunTrigger*  
  Type: Boolean  
   
- Specifies whether to run the C\/AL code in the [OnInsert Trigger](OnInsert-Trigger.md).  
+ Specifies whether to run the C/AL code in the [OnInsert Trigger](OnInsert-Trigger.md).  
   
  If this parameter is **true**, the code on the **OnInsert** trigger will be executed.  
   
@@ -60,7 +60,7 @@ Inserts a record into a table.
 > [!NOTE]  
 >  In this example, the INIT function is called before the primary key is assigned a value. The INIT function does not initialize primary key fields. Therefore calling the [INIT Function \(RecordRef\)](INIT-Function--RecordRef-.md) before or after you assign values to the primary key field does not make any difference.  
   
- This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

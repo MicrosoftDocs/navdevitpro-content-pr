@@ -54,7 +54,7 @@ END;
 ## Example  
  In this example, you have a filter that defines a single range.  
   
- This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|Length|  
 |-------------------|--------------|-------------|------------|  
@@ -78,7 +78,7 @@ MESSAGE(Text000, Val);
 ## Example  
  In this example, you have a filter that is a single value.  
   
- This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|Length|  
 |-------------------|--------------|-------------|------------|  
@@ -102,7 +102,7 @@ MESSAGE(Text000, Val);
 ## Example  
  In this example, you have a filter which is not a single range.  
   
- This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|Length|  
 |-------------------|--------------|-------------|------------|  

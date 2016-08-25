@@ -12,7 +12,7 @@ caps.latest.revision: 3
 manager: edupont
 ---
 # Using Interfaces
-With .NET Framework interoperability in C\/AL, you can define variables for .NET Framework interface types. This is useful when you have a class that explicitly implements an interface. In the .NET Framework, when an interface is explicitly implemented, you cannot call methods that belong to the interface directly from the class instance. To call a method, you must cast to the interface. This condition is similar in C\/AL except that C\/AL does not have a cast operation. In C\/AL, you cannot call a method of an explicitly implemented interface directly on the DotNet variable for the class. Instead, you do the following steps:  
+With .NET Framework interoperability in C/AL, you can define variables for .NET Framework interface types. This is useful when you have a class that explicitly implements an interface. In the .NET Framework, when an interface is explicitly implemented, you cannot call methods that belong to the interface directly from the class instance. To call a method, you must cast to the interface. This condition is similar in C/AL except that C/AL does not have a cast operation. In C/AL, you cannot call a method of an explicitly implemented interface directly on the DotNet variable for the class. Instead, you do the following steps:  
   
 1.  Create a DotNet variable for the interface.  
   
@@ -35,14 +35,14 @@ class Sample : ISample
   
 ```  
   
- To call the *ISample.Name* method from C\/AL code, you create the following variables.  
+ To call the *ISample.Name* method from C/AL code, you create the following variables.  
   
 |Variable name|DataType|SubType \(simplified\)|  
 |-------------------|--------------|----------------------------|  
 |cvar|DotNet|Sample|  
 |ivar|DotNet|ISample|  
   
- After you create the variables, add the following C\/AL code that assigns the class variable to the interface variable and then calls the interface’s method.  
+ After you create the variables, add the following C/AL code that assigns the class variable to the interface variable and then calls the interface’s method.  
   
 ```  
 // Assigns the class variable to the interface variable.  

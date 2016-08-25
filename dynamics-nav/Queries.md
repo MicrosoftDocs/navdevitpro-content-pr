@@ -25,7 +25,7 @@ A *query* object enables you to specify a set of data from the [!INCLUDE[navnow]
 |Learn the supported ways to join tables in Query Designer.|[Understanding Data Item Links](Understanding-Data-Item-Links.md)|  
 |Learn how to add totaling methods to columns in a query.|[Understanding Query Totals and Grouping](Understanding-Query-Totals-and-Grouping.md)|  
 |Learn how to filter the results of a query.|[Understanding Query Filters](Understanding-Query-Filters.md)|  
-|Learn how to run queries from C\/AL code|[Working with Queries in C\-AL](Working-with-Queries-in-C-AL.md)|  
+|Learn how to run queries from C/AL code|[Working with Queries in C\-AL](Working-with-Queries-in-C-AL.md)|  
 |Learn how to create complex queries by walking through examples that use the [!INCLUDE[demolong](includes/demolong_md.md)].|[Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md)<br /><br /> [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](Walkthrough:%20Creating%20a%20Query%20That%20Uses%20a%20Totaling%20Method%20and%20Sorting.md)<br /><br /> [Walkthrough: Creating a Query to Link Three Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Three%20Tables.md)|  
   
 > [!NOTE]  

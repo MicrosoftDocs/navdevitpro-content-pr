@@ -180,17 +180,17 @@ XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)
   
 #### To create the codeunit  
   
-1.  In Object Designer, choose **Codeunit**, and then choose **New** to open the **C\/AL Editor**.  
+1.  In Object Designer, choose **Codeunit**, and then choose **New** to open the **C/AL Editor**.  
   
-2.  On the **View** menu, choose **C\/AL Globals**.  
+2.  On the **View** menu, choose **C/AL Globals**.  
   
 3.  On the **Variables** tab, in the **Name** column, enter **SalesOrderXmlFile** and in the **DataType** column, choose the drop\-down arrow, and then choose **Text**. This variable represents the XML file that you will import.  
   
 4.  In the second row, in the **Name** column, enter **XmlStream** and in the **DataType** column, choose the drop\-down arrow, and then choose **InStream**. This variable represents the data stream from the XML document to the table.  
   
-5.  In the third row, in the **Name** column, enter **IsImported** and in the **DataType** column, choose the drop\-down arrow, and then choose **Boolean**. This variable indicates whether the import succeeded. Close the **C\/AL Globals** window.  
+5.  In the third row, in the **Name** column, enter **IsImported** and in the **DataType** column, choose the drop\-down arrow, and then choose **Boolean**. This variable indicates whether the import succeeded. Close the **C/AL Globals** window.  
   
-6.  In the **C\/AL Editor**, in the **OnRun** trigger, add the following code.  
+6.  In the **C/AL Editor**, in the **OnRun** trigger, add the following code.  
   
     ```  
     SalesOrderXmlFile := 'C:\Multiple\NewSalesOrder.xml';  
@@ -205,7 +205,7 @@ XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)
   
      The code uses the [UPLOADINTOSTREAM Function \(File\)](UPLOADINTOSTREAM-Function--File-.md) to send a file from the client to the server. The file is an XML file named NewSalesOrder.xml, which is located in a folder named Multiple on the C: drive. The [IMPORT Function \(XMLport\)](IMPORT-Function--XMLport-.md) imports the data by using the specified XMLport. A message is displayed at the end of the export to indicate that the import is complete. If the import fails, then an error message is displayed. This message is not required but it lets the user know that something actually happened.  
   
-7.  Close the **C\/AL Editor** and choose **Yes** at the prompt. In the **Save AS** dialog box, in the ID text box, enter **50003**, in the name text box enter **ImportMultiple**, make sure **Compile** is selected, and then choose the **OK** button.  
+7.  Close the **C/AL Editor** and choose **Yes** at the prompt. In the **Save AS** dialog box, in the ID text box, enter **50003**, in the name text box enter **ImportMultiple**, make sure **Compile** is selected, and then choose the **OK** button.  
   
 ## Running the XMLport  
  After the XMLport is created and the codeunit is written, run the codeunit to import the data.  

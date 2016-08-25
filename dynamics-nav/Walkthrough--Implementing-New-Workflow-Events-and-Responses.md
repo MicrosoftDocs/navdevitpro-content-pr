@@ -74,7 +74,7 @@ If a business scenario requires a workflow event or a workflow response that is 
   
 2.  Create a global function in the codeunit. Name the function to reflect that it is used to identify the workflow event, such as MyWorkflowEventCode. For more information, see [How to: Add a Function to a Codeunit](How%20to:%20Add%20a%20Function%20to%20a%20Codeunit.md).  
   
-3.  Open the **C\/AL Locals** window to add a local return value. For more information, see [\($ S\_10205 C\-AL Locals $\)](-$-S_10205-C-AL-Locals-$-.md).  
+3.  Open the **C/AL Locals** window to add a local return value. For more information, see [\($ S\_10205 C\-AL Locals $\)](-$-S_10205-C-AL-Locals-$-.md).  
   
 4.  On the **Return Value** tab, fill the fields as described in the following table.  
   
@@ -94,7 +94,7 @@ If a business scenario requires a workflow event or a workflow response that is 
     |EventPublisherObject|Codeunit Workflow Event Handling|  
     |EventFunction|OnAddWorkflowEventsToLibrary|  
   
-3.  Open the **C\/AL Locals** window to add a local variable.  
+3.  Open the **C/AL Locals** window to add a local variable.  
   
 4.  On the **Variables** tab, fill the fields as described in the following table.  
   
@@ -119,7 +119,7 @@ If a business scenario requires a workflow event or a workflow response that is 
     |Event|Publisher|  
     |EventType|Select the event type that is relevant for the workflow event, such as Integration. For more information, see [Event Types](Event-Types.md).|  
   
-3.  Open the **C\/AL Locals** window to add a local parameter.  
+3.  Open the **C/AL Locals** window to add a local parameter.  
   
 4.  On the **Parameters** tab, fill the fields as described in the following table.  
   
@@ -155,7 +155,7 @@ If a business scenario requires a workflow event or a workflow response that is 
   
 3.  Choose **Yes** to overwrite your local parameters with the event parameters.  
   
-4.  Open the **C\/AL Locals** window to add a local variable.  
+4.  Open the **C/AL Locals** window to add a local variable.  
   
 5.  On the **Variables** tab, fill the fields as described in the following table.  
   
@@ -184,7 +184,7 @@ If a business scenario requires a workflow event or a workflow response that is 
   
 2.  Create a function in the codeunit. Name the function to reflect that it is used to identify the workflow response, such as MyWorkflowResponseCode.  
   
-3.  Open the **C\/AL Locals** window to add a local return value.  
+3.  Open the **C/AL Locals** window to add a local return value.  
   
 4.  On the **Return Value** tab, fill the fields as described in the following table.  
   
@@ -204,7 +204,7 @@ If a business scenario requires a workflow event or a workflow response that is 
     |EventPublisherObject|Codeunit Workflow Response Handling|  
     |EventFunction|OnAddWorkflowResponsesToLibrary|  
   
-3.  Open the **C\/AL Locals** window to add a local variable.  
+3.  Open the **C/AL Locals** window to add a local variable.  
   
 4.  On the **Variables** tab, fill the fields as described in the following table.  
   
@@ -225,7 +225,7 @@ If a business scenario requires a workflow event or a workflow response that is 
   
 1.  Create another function in the codeunit. Name it to reflect that it is used to implement the workflow response, such as MyWorkflowResponse.  
   
-2.  Open the **C\/AL Locals** window to add a local parameter.  
+2.  Open the **C/AL Locals** window to add a local parameter.  
   
 3.  On the **Parameters** tab, fill the fields as described in the following table.  
   
@@ -287,7 +287,7 @@ If a business scenario requires a workflow event or a workflow response that is 
   
      To use the new option in the MyWorkflowResponse function, proceed to add a local parameter and a local variable.  
   
-9. Open the **C\/AL Locals** window to add a local parameter and a local variable.  
+9. Open the **C/AL Locals** window to add a local parameter and a local variable.  
   
 10. On the **Parameters** tab, fill the fields as described in the following table.  
   
@@ -336,7 +336,7 @@ If a business scenario requires a workflow event or a workflow response that is 
   
 4.  Choose **Yes** to overwrite your local parameters with the event parameters.  
   
-5.  Open the **C\/AL Locals** window to add two local variables.  
+5.  Open the **C/AL Locals** window to add two local variables.  
   
 6.  On the **Variables** tab, fill the fields as described in the following table.  
   
@@ -375,7 +375,7 @@ If a business scenario requires a workflow event or a workflow response that is 
   
 4.  Choose **Yes** to overwrite your local parameters with the event parameters.  
   
-5.  Open the **C\/AL Locals** window to add a local variable.  
+5.  Open the **C/AL Locals** window to add a local variable.  
   
 6.  On the **Variables** tab, fill the fields as described in the following table.  
   
@@ -413,7 +413,7 @@ If a business scenario requires a workflow event or a workflow response that is 
     |EventPublisherObject|Codeunit Workflow Event Handling|  
     |EventFunction|OnAddWorkflowTableRelationsToLibrary|  
   
-4.  Open the **C\/AL Locals** window to add a local variable.  
+4.  Open the **C/AL Locals** window to add a local variable.  
   
 5.  On the **Variables** tab, fill the fields as described in the following table.  
   
@@ -440,7 +440,7 @@ If a business scenario requires a workflow event or a workflow response that is 
   
 2.  Add a FactBox. Name it WorkflowStatus. For more information, see [How to: Add a FactBox to a Page](How%20to:%20Add%20a%20FactBox%20to%20a%20Page.md).  
   
-3.  Open the **C\/AL Globals** window to add a global variable.  
+3.  Open the **C/AL Globals** window to add a global variable.  
   
 4.  On the **Variables** tab, fill the fields as described in the following table.  
   

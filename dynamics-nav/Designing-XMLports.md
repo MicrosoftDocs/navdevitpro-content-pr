@@ -35,7 +35,7 @@ XMLports are used to export data from or import data to a [!INCLUDE[navnow](incl
   
 -   Documents that query the database for data, such as item catalog information.  
   
- If you must work with an incoming document of one of these types, you can use C\/AL code to work with the database to achieve the result that you want.  
+ If you must work with an incoming document of one of these types, you can use C/AL code to work with the database to achieve the result that you want.  
   
 > [!NOTE]  
 >  Do not use a semicolon in a quoted argument as a field value when you import a file through an XMLport. Even in a quoted argument, the semicolon is interpreted as a record separator.  
@@ -46,7 +46,7 @@ XMLports are used to export data from or import data to a [!INCLUDE[navnow](incl
 ### Request Pages are not Supported by [!INCLUDE[nav_web](includes/nav_web_md.md)]  
  [!INCLUDE[nav_web](includes/nav_web_md.md)] does not support request pages with XMLports. A request page is a dialog box that appears when an XMLport is run that enables the user to set a filter on the transferred data and choose whether the XMLPort imports or exports the data.  
   
- If the XMLport will be displayed in the [!INCLUDE[nav_web](includes/nav_web_md.md)], you should not set up the XMLport to use a request page because an error will occur when the XMLport is run. By default, XMLports are set up to use a request page. To specify not to use a request page, you can either change the [UseRequestPage Property](UseRequestPage-Property.md) in XMLPort Designer or if the XMLPort is run from C\/AL code by calling the [RUN Function \(XMLport\)](RUN-Function--XMLport-.md), you can set the *ReqWindow* parameter of the Run function.  
+ If the XMLport will be displayed in the [!INCLUDE[nav_web](includes/nav_web_md.md)], you should not set up the XMLport to use a request page because an error will occur when the XMLport is run. By default, XMLports are set up to use a request page. To specify not to use a request page, you can either change the [UseRequestPage Property](UseRequestPage-Property.md) in XMLPort Designer or if the XMLPort is run from C/AL code by calling the [RUN Function \(XMLport\)](RUN-Function--XMLport-.md), you can set the *ReqWindow* parameter of the Run function.  
   
 ## Running XMLports  
  After you have designed and saved the XMLport, you can create a code unit that uses the XMLport to perform the import or export. You can run the XMLport from Object Designer. For information about how to run XMLports from Object Designer, see [How to: Run an XMLport from Object Designer](How%20to:%20Run%20an%20XMLport%20from%20Object%20Designer.md). To create a codeunit to run the XMLport, first you define the location of the document you want to import from or export to. Whether the XMLport is importing or exporting, the data is read into a data stream and the XMLport uses the stream to insert the data into the table or export it into the file. For more information about how to create the condeunit, see [How to: Create Codeunits to Run XMLports](How%20to:%20Create%20Codeunits%20to%20Run%20XMLports.md).  

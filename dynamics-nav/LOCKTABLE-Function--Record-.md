@@ -33,7 +33,7 @@ Record.LOCKTABLE
 ## Example  
  This example uses pseudo\-language to show the scope of write locks. Both an explicit lock and an automatic lock are illustrated.  
   
- The first line \(1\) explicitly locks table A. If this explicit lock was not set on table A, the Database Management System \(DBMS\) would automatically lock this table when a record was inserted \(3\). Table B is not locked explicitly, but is locked automatically by the DBMS when a record is inserted \(4\). Both locks are active until the system exits the C\/AL code module \(5\).  
+ The first line \(1\) explicitly locks table A. If this explicit lock was not set on table A, the Database Management System \(DBMS\) would automatically lock this table when a record was inserted \(3\). Table B is not locked explicitly, but is locked automatically by the DBMS when a record is inserted \(4\). Both locks are active until the system exits the C/AL code module \(5\).  
   
 ```  
 BeginWriteTransaction   

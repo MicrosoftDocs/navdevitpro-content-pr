@@ -59,7 +59,7 @@ Creates and opens an ASCII or binary file. If the file already exists, it will b
  If you call CREATE on a File variable that refers to an open file, the function does not automatically close the existing file and create the new file. You must explicitly call the [CLOSE Function \(File\)](CLOSE-Function--File-.md) to close the existing file. Otherwise, a run\-time error occurs.  
   
 ## Example  
- The following example creates a file that is named TestFile.txt in the path C:\\TestFolder\\. The TestFile variable stores the file and path that is created. If the file is created, a message that states that the file is created is displayed. Otherwise, an error message is displayed. This example requires that you create the following variable in the **C\/AL Globals** window.  
+ The following example creates a file that is named TestFile.txt in the path C:\\TestFolder\\. The TestFile variable stores the file and path that is created. If the file is created, a message that states that the file is created is displayed. Otherwise, an error message is displayed. This example requires that you create the following variable in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

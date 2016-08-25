@@ -22,7 +22,7 @@ Before you can run a [!INCLUDE[navnow](includes/navnow_md.md)] object, you must 
 >  To compile an object, you must have a developer license.  
   
 ## Syntax Errors  
- Syntax errors are detected by the C\/AL compiler when you try to compile C\/AL code, either in a codeunit or as code in another object, such as a table, page, report, query, or XMLport. If you open an object in the designer and then compile the object, then if the compiler detects a syntax error, when you press ENTER and acknowledge the error message, the C\/AL editor opens with the cursor in front of the expression that has the error. If you compile an object directly from Object Designer and if the compiler detects a syntax error, then the C\/AL editor does not open to show where the error occurred.  
+ Syntax errors are detected by the C/AL compiler when you try to compile C/AL code, either in a codeunit or as code in another object, such as a table, page, report, query, or XMLport. If you open an object in the designer and then compile the object, then if the compiler detects a syntax error, when you press ENTER and acknowledge the error message, the C/AL editor opens with the cursor in front of the expression that has the error. If you compile an object directly from Object Designer and if the compiler detects a syntax error, then the C/AL editor does not open to show where the error occurred.  
   
  The compiler will not compile code that contains a syntax error.  
   
@@ -36,7 +36,7 @@ Before you can run a [!INCLUDE[navnow](includes/navnow_md.md)] object, you must 
 > [!NOTE]  
 >  Unsupported function calls for reports are not reported in the **Error List** window.  
   
- If you select an error in the **Error List** window and choose **Design**, then the C\/AL Editor opens for the object to which the error or warning relates.  
+ If you select an error in the **Error List** window and choose **Design**, then the C/AL Editor opens for the object to which the error or warning relates.  
   
 ## Multilanguage Captions  
  When you compile application objects, [!INCLUDE[navnow](includes/navnow_md.md)] stores the objects in Unicode encoding. If the application objects contain multilanguage captions, [!INCLUDE[navnow](includes/navnow_md.md)] uses the code page that is relevant for the languages that you have specified. For more information, see [Developing Multilanguage\-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  

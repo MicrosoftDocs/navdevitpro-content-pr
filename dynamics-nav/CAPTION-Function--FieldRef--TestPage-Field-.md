@@ -47,7 +47,7 @@ Caption := TestPageField.CAPTION
  This function is similar to the [FIELDCAPTION Function \(Record\)](FIELDCAPTION-Function--Record-.md) function.  
   
 ## Example  
- The following example opens table 18 \(Customer\) as a RecordRef variable that is named CustomerRecref. The code uses the [FIELD Function \(RecordRef\)](FIELD-Function--RecordRef-.md) to loop through field 1 through 9 and creates a FieldRef variable that is named MyFieldRef. For each field, the CAPTION function retrieves the caption of the field, stores it in the varCaption variable and displays it in a message box. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example opens table 18 \(Customer\) as a RecordRef variable that is named CustomerRecref. The code uses the [FIELD Function \(RecordRef\)](FIELD-Function--RecordRef-.md) to loop through field 1 through 9 and creates a FieldRef variable that is named MyFieldRef. For each field, the CAPTION function retrieves the caption of the field, stores it in the varCaption variable and displays it in a message box. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

@@ -52,7 +52,7 @@ NewString := DELSTR(String, Position[, Length])
  If you omit *Length* and *Position* is greater than the length of *String*, then *String* is returned unchanged.  
   
 ## Example  
- This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  

@@ -54,7 +54,7 @@ NewString := CONVERTSTR(String, FromCharacters, ToCharacters)
  If either the *FromCharacters* or the *ToCharacters* strings are empty, then the source is returned unchanged.  
   
 ## Example  
- This example requires that you create the following variables and text constants in the C\/AL Globals window.  
+ This example requires that you create the following variables and text constants in the C/AL Globals window.  
   
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  

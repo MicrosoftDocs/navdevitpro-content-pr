@@ -26,7 +26,7 @@ In Microsoft Visual Studio 2012 and Microsoft Visual Studio 2013, page breaks on
   
 3.  Choose **Report**, and from the list select the **Object ID** 405.  
   
-4.  Choose **Design**, and on the **View** menu, choose **C\/AL Globals**.  
+4.  Choose **Design**, and on the **View** menu, choose **C/AL Globals**.  
   
 5.  Open the **Text Constants** tab. Find the text constant **PageCaptonLbl**, which is used as the report page caption.  
   

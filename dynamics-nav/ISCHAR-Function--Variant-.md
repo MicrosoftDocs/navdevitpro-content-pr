@@ -12,7 +12,7 @@ caps.latest.revision: 7
 manager: edupont
 ---
 # ISCHAR Function (Variant)
-Indicates whether a C\/AL variant contains a Char variable.  
+Indicates whether a C/AL variant contains a Char variable.  
   
 ## Syntax  
   
@@ -28,7 +28,7 @@ Ok := Variant.ISCHAR
 ## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the C\/AL variant contains a Char variable; otherwise, **false**.  
+ **true** if the C/AL variant contains a Char variable; otherwise, **false**.  
   
 ## See Also  
  [Variant Data Type](Variant-Data-Type.md)

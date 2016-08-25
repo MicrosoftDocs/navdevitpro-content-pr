@@ -27,7 +27,7 @@ ID := USERID
  This string contains the value of the **User Name** field in table 2000000120, the **User** table, for the current user.  
   
 ## Example  
- This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

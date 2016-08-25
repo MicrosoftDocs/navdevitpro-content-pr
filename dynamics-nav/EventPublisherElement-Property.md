@@ -16,7 +16,7 @@ Specifies the table field that the trigger event pertains to.
   
 ## Applies to  
   
--   C\/AL functions.  
+-   C/AL functions.  
   
      This property is only available on event subscriber functions that handle validation\-type trigger events. The [Event Property](Event-Property.md) must be set to **Subscriber**, the [EventPublisherObject Property](EventPublisherObject-Property.md) must be set to a table, and the [EventFunction Property](EventFunction-Property.md) must be set to a validate trigger event, such as **OnAfterValidateEvent**.  
   

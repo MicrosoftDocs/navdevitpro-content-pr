@@ -12,12 +12,12 @@ caps.latest.revision: 22
 manager: edupont
 ---
 # Creating and Modifying Codeunits
-You use Object Designer to create a new codeunit, and you use the C\/AL Editor to modify an existing codeunit.  
+You use Object Designer to create a new codeunit, and you use the C/AL Editor to modify an existing codeunit.  
   
  For more information about how to create a codeunit, see [How to: Create a Codeunit](How%20to:%20Create%20a%20Codeunit.md). For more information about how to modify a codeunit, see [How to: Modify an Existing Codeunit](How%20to:%20Modify%20an%20Existing%20Codeunit.md).  
   
-## Working in the C\/AL Editor  
- When you work in the C\/AL Editor, you can use the **C\/AL Symbol Menu** window, which helps you use C\/AL functions that are available. From the **C\/AL Symbol Menu** window, you can get Help about all C\/AL functions. To view Help for a function, select the C\/AL function name in the rightmost column, and then press F1.  
+## Working in the C/AL Editor  
+ When you work in the C/AL Editor, you can use the **C/AL Symbol Menu** window, which helps you use C/AL functions that are available. From the **C/AL Symbol Menu** window, you can get Help about all C/AL functions. To view Help for a function, select the C/AL function name in the rightmost column, and then press F1.  
   
  You can open multiple codeunits. Each time that you create a new codeunit or open an existing one, the codeunit is displayed in a separate window. You can then use standard functions to find code or move and paste lines of code among the codeunits. In the development environment, you can use the **Edit** menu or the buttons on the toolbar to access the editing functions. On the **Edit** menu, you can collapse the triggers to hide the code or expand them to show the code.  
   
@@ -41,7 +41,7 @@ You use Object Designer to create a new codeunit, and you use the C\/AL Editor t
 |F4|Deletes a line.|  
   
 ## Defining Variables, Text Constants, and Functions  
- After you create a new codeunit, then you must define the global variables, text constants, and functions that you need in the codeunit. To define these elements, in the C\/AL Editor, on the **View** menu, choose **C\/AL Globals**. In the **C\/AL Globals** window, you must choose whether to add a global variable, a text constant, or a function. For more information, see the following topics:  
+ After you create a new codeunit, then you must define the global variables, text constants, and functions that you need in the codeunit. To define these elements, in the C/AL Editor, on the **View** menu, choose **C/AL Globals**. In the **C/AL Globals** window, you must choose whether to add a global variable, a text constant, or a function. For more information, see the following topics:  
   
 -   [How to: Add a Global Variable to a Codeunit](How%20to:%20Add%20a%20Global%20Variable%20to%20a%20Codeunit.md)  
   
@@ -49,14 +49,14 @@ You use Object Designer to create a new codeunit, and you use the C\/AL Editor t
   
 -   [How to: Add a Function to a Codeunit](How%20to:%20Add%20a%20Function%20to%20a%20Codeunit.md)  
   
-## Using the C\/AL Symbol Menu Window  
- When you write C\/AL code in the C\/AL Editor, you can use the **C\/AL Symbol Menu** window to get an overview of the following:  
+## Using the C/AL Symbol Menu Window  
+ When you write C/AL code in the C/AL Editor, you can use the **C/AL Symbol Menu** window to get an overview of the following:  
   
 -   All variables that are defined in the codeunit.  
   
--   All available C\/AL functions.  
+-   All available C/AL functions.  
   
- The **C\/AL Symbol Menu** window is divided into the following columns:  
+ The **C/AL Symbol Menu** window is divided into the following columns:  
   
 -   The first column lists the names of the variables, if you have defined any, and the function categories.  
   
@@ -68,9 +68,9 @@ You use Object Designer to create a new codeunit, and you use the C\/AL Editor t
   
  You can see the syntax and other information, such as the **Caption** property, that corresponds to the field name that you have selected, in the lower\-left corner of the window.  
   
- In some cases, such as when a control on a page is a subpage or when a field is a BLOB field, there are more than three columns in the **C\/AL Symbol Menu** window.  
+ In some cases, such as when a control on a page is a subpage or when a field is a BLOB field, there are more than three columns in the **C/AL Symbol Menu** window.  
   
- In the **C\/AL Symbol Menu** window, choose the **OK** button or the **Apply** button to paste the syntax description into the C\/AL Editor. If you choose the **OK** button, then the **C\/AL Symbol Menu** window is closed automatically. If you choose the **Apply** button, then the window stays open.  
+ In the **C/AL Symbol Menu** window, choose the **OK** button or the **Apply** button to paste the syntax description into the C/AL Editor. If you choose the **OK** button, then the **C/AL Symbol Menu** window is closed automatically. If you choose the **Apply** button, then the window stays open.  
   
  For more information, see [C\-AL Functions](C-AL-Functions.md).  
   

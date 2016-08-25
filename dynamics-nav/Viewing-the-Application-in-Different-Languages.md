@@ -21,8 +21,8 @@ In a multilanguage\-enabled application, you can view the text in any language t
   
  For more information, see [How to: Change the Language in the User Interface](How%20to:%20Change%20the%20Language%20in%20the%20User%20Interface.md).  
   
-## Changing the Language from C\/AL Code  
- You can change the global language from C\/AL code, which is the same as changing the language from the UI. To change the global language from C\/AL code, use the GLOBALLANGUAGE function.  
+## Changing the Language from C/AL Code  
+ You can change the global language from C/AL code, which is the same as changing the language from the UI. To change the global language from C/AL code, use the GLOBALLANGUAGE function.  
   
  For more information, see [Language Functions](Language-Functions.md).  
   
@@ -33,7 +33,7 @@ In a multilanguage\-enabled application, you can view the text in any language t
   
  The algorithm searches for the text to use in the following order:  
   
-1.  The language of the object, which can be specified by a developer in C\/AL code.  
+1.  The language of the object, which can be specified by a developer in C/AL code.  
   
 2.  The primary language of the object language.  
   

@@ -18,7 +18,7 @@ All [!INCLUDE[navnow](includes/navnow_md.md)] applications are based on the foll
 |[Tables\-duplicate 20](Tables-duplicate-20.md)|You use tables to store data. For example, a business application may contain a customer table that stores information about each customer, such as, name, address, telephone number, and contact person.|  
 |[Reports\-duplicate 20](Reports-duplicate-20.md)|You use reports to present data. You use filters and sorting to select the data that you want to present in a report.|  
 |[XMLports](XMLports.md)|You use XMLports to import and export data in .xml, .txt, or .csv format.|  
-|[Codeunits](Codeunits.md)|A codeunit contains user\-defined functions that are written in C\/AL code. You can use the functions in a codeunit from the other objects in your application.|  
+|[Codeunits](Codeunits.md)|A codeunit contains user\-defined functions that are written in C/AL code. You can use the functions in a codeunit from the other objects in your application.|  
 |[MenuSuites](MenuSuites.md)|A MenuSuite object contains the set of menus that are displayed in the navigation pane.|  
 |[Pages](Pages.md)|Pages display data from the database and allow users to enter new data into the database. **Note:**  Every application object is identified by an ID number. However, there are restrictions about which numbers you should use when you create your own application objects. Contact your Microsoft Certified Partner for more information.|  
 |[Queries](Queries.md)|A query specifies a set of data from the database.|  
@@ -43,7 +43,7 @@ All [!INCLUDE[navnow](includes/navnow_md.md)] applications are based on the foll
  Properties control the appearance and behavior of the application objects and data. For more information, see [Properties](Properties.md).  
   
 ### Triggers  
- A trigger activates a function when a certain event occurs on an application object. The event and the function together make a trigger. You can add C\/AL code to the trigger to modify the default behavior of the application object or extend its functionality. For more information, see [Triggers](Triggers.md).  
+ A trigger activates a function when a certain event occurs on an application object. The event and the function together make a trigger. You can add C/AL code to the trigger to modify the default behavior of the application object or extend its functionality. For more information, see [Triggers](Triggers.md).  
   
 ### Keys  
  Keys define the order in which data is stored in your tables. You can speed up searches in tables by defining several keys which sort information in different ways. For more information, see [Table Keys](Table-Keys.md).  

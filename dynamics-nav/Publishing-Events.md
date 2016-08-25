@@ -12,14 +12,14 @@ caps.latest.revision: 11
 manager: edupont
 ---
 # Publishing Events
-The first phase of implementing an event is publishing the event. Publishing an event exposes it in the application. This provides hook up points for subscribers to register to the event, and eventually handle the event if it is raised. An event is published by adding C\/AL function that is specifically set up as an event publisher.  
+The first phase of implementing an event is publishing the event. Publishing an event exposes it in the application. This provides hook up points for subscribers to register to the event, and eventually handle the event if it is raised. An event is published by adding C/AL function that is specifically set up as an event publisher.  
   
 -   Business and integration events require that you manually create an event publisher function for each event that you want to publish. An event publisher function declares the event in the application and makes it available for subscription; however, it does not raise the event. After an event is published, you can raise it in your application, as needed, from where event subscribers can react and handle the event.  
   
 -   Trigger events, on the other hand, do not require that you create publisher functions. Trigger events are by predefined event publisher functions that are called automatically at runtime. This means that trigger events are readily available to subscribers by default.  
   
 ## Creating an Event Publisher Function to Publish Business and Integration Events  
- You create an event publisher function the same way you create any function in C\/AL, except that there are specific properties that you set to make it an event publisher. Additionally, an event publisher function has the following requirements and restrictions that you must follow, otherwise you not able to compile your code changes:  
+ You create an event publisher function the same way you create any function in C/AL, except that there are specific properties that you set to make it an event publisher. Additionally, an event publisher function has the following requirements and restrictions that you must follow, otherwise you not able to compile your code changes:  
   
 -   An event publisher function cannot include any code except comments.  
   
@@ -31,9 +31,9 @@ The first phase of implementing an event is publishing the event. Publishing an 
   
 1.  Decide where you want to include the event publisher function.  
   
-     You can include an event publisher function in the C\/AL code of any object type, such as codeunit, page, or table. You can create a new object or use and existing object.  
+     You can include an event publisher function in the C/AL code of any object type, such as codeunit, page, or table. You can create a new object or use and existing object.  
   
-2.  Add a C\/AL function to the object.  
+2.  Add a C/AL function to the object.  
   
      We recommend that you give the function a name that has the format *On\[Event\]*, where *\[Event\]* is text that indicates what occurred, such as OnCancelCustomerApprovalRequest.  
   

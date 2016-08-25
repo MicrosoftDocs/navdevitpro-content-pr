@@ -52,7 +52,7 @@ Record.SETRANGE(Field [,FromValue] [,ToValue])
  If you set only the *FromValue*, then the *ToValue* is set to the same value as the *FromValue*.  
   
 ## Example  
- This example shows how to use the **SETRANGE** function to specify that you want to see only customers 100 through 200. This example requires that you create the following variable in the **C\/AL Globals** window.  
+ This example shows how to use the **SETRANGE** function to specify that you want to see only customers 100 through 200. This example requires that you create the following variable in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

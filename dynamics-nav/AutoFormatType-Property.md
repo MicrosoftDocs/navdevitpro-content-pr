@@ -11,7 +11,7 @@ ms.assetid: 7ec7d029-d2d1-4407-ab6c-f872536d3881
 caps.latest.revision: 13
 ---
 # AutoFormatType Property
-Sets a value that determines how data is formatted, together with the C\/AL expression in the [AutoFormatExpr Property](AutoFormatExpr-Property.md).  
+Sets a value that determines how data is formatted, together with the C/AL expression in the [AutoFormatExpr Property](AutoFormatExpr-Property.md).  
   
 ## Applies To  
  Fields of the decimal data type in the following objects:  

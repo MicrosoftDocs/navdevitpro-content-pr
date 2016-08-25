@@ -17,13 +17,13 @@ This example illustrates how you can retrieve location information. The example 
 > [!IMPORTANT]  
 >  The location information is only available on devices that run the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] and have GPS capabilities. This means that location information is not available from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or from a browser.  
   
-### To implement location in C\/AL  
+### To implement location in C/AL  
   
 1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer** to open the Object Designer window.  
   
 2.  In **Object Designer**, choose **Pages**, select the **Customer Card** \(page 21\) and then choose the **Design** button.  
   
-3.  From the Page Designer window, on the **View** menu, choose **C\/AL Globals**.  
+3.  From the Page Designer window, on the **View** menu, choose **C/AL Globals**.  
   
 4.  Create the following variable:  
   
@@ -32,7 +32,7 @@ This example illustrates how you can retrieve location information. The example 
     |Location|DotNet|Microsoft.Dynamics.Nav.Client.Capabilities.LocationProvider **Important:**  Choose the Microsoft.Dynamics.Nav.ClientExtensions dll on the **Server** tab, and then choose Microsoft.Dynamics.Nav.Client.Capabilities.LocationProvider Make sure to set the properties **RunOnClient** and **WithEvents** to **Yes**.|  
     |LocationAvailable|Boolean|\-|  
   
-5.  On the **View** menu, select **C\/AL Code** and in the **C\/AL Editor** locate the `OnOpenPage` trigger.  
+5.  On the **View** menu, select **C/AL Code** and in the **C/AL Editor** locate the `OnOpenPage` trigger.  
   
 6.  Instantiate the `Location` variable by adding the following code to the `OnOpenPage` trigger.  
   
@@ -57,13 +57,13 @@ This example illustrates how you can retrieve location information. The example 
     |PromotedCategory|Process|  
     |PromotedIsBig|Yes|  
   
-9. Now, in the C\/AL Editor, on the `GetLocation – OnAction` trigger, insert the following line of code.  
+9. Now, in the C/AL Editor, on the `GetLocation – OnAction` trigger, insert the following line of code.  
   
     ```  
     Location.RequestLocationAsync;  
     ```  
   
-10. While still in the C\/AL Editor, on the `LocationChanged` trigger add the following code to handle the GPS coordinates. `LocationChanged` is called when the device has obtained a status.  
+10. While still in the C/AL Editor, on the `LocationChanged` trigger add the following code to handle the GPS coordinates. `LocationChanged` is called when the device has obtained a status.  
   
     ```  
   
@@ -77,7 +77,7 @@ This example illustrates how you can retrieve location information. The example 
     > [!IMPORTANT]  
     >  `Location.Status` can be `0 = Available`, `1 = NoData` \(no data could be obtained\), `2 = TimedOut` \(location information not obtained in due time\), or `3 = NotAvailable` \(for example user denied app access to location\).  
   
-11. Close the C\/AL Editor, and then save and compile the page.  
+11. Close the C/AL Editor, and then save and compile the page.  
   
 12. You can now test the modified Customer Card page in the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] from either a tablet or a phone with GPS capabilities.  
   

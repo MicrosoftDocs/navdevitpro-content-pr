@@ -59,7 +59,7 @@ ELSE
   
  The return value of the function is `Ok`, a Boolean. If a record is found, then the return value is **true**; otherwise, it is **false**. This return value is optional, as indicated by the square brackets. If you do not use the return value and the requested record cannot be found, then a run\-time error occurs and a system\-generated error message is displayed. However, if you use the return value, then it is assumed that you handle any errors.  
   
- The [C\-SIDE Reference Guide](C-SIDE-Reference-Guide.md) provides information about how C\/AL functions handle errors. You can also use the syntax description in the Symbol Menu to verify whether a function returns a value called `Ok`  
+ The [C\-SIDE Reference Guide](C-SIDE-Reference-Guide.md) provides information about how C/AL functions handle errors. You can also use the syntax description in the Symbol Menu to verify whether a function returns a value called `Ok`  
   
  If you use the return value in either of the following examples, then you shield the user from a run\-time error.  
   

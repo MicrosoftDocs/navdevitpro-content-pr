@@ -23,7 +23,7 @@ Lists objects in the [!INCLUDE[navnow](../includes/navnow_md.md)] application an
 |Table|Table Designer|  
 |Page|Page Designer|  
 |Report|Report Dataset Designer|  
-|Codeunit|C\/AL Editor|  
+|Codeunit|C/AL Editor|  
 |Query|Query Designer|  
 |XMLport|XMLport Designer|  
 |MenuSuite|Navigation Pane Designer|  

@@ -30,8 +30,8 @@ Assigns a unique identifying number to any database object. The GUID data type i
 MyTableRec.MyGuid  :=  MyTableRec.MyText;  
 ```  
   
-## Useful C\/AL Functions and Properties  
- The following C\/AL functions can be used with the GUID data type:  
+## Useful C/AL Functions and Properties  
+ The following C/AL functions can be used with the GUID data type:  
   
 ```  
 Guid:=CREATEGUID();  
@@ -57,7 +57,7 @@ AutoSplitKey
   
  A NULL GUID is valid but is not useful in a table. Therefore, the **AutoSplitKey** property is implemented for the GUID data type when it is used in a page. When GUID is selected as a primary key, **AutoSplitKey** is enabled for the page, and the GUID value remains NULL. When you create a new record, a valid GUID is created and assigned automatically.  
   
- The [CREATEGUID Function \(GUID\)](CREATEGUID-Function--GUID-.md) and [ISNULLGUID Function \(GUID\)](ISNULLGUID-Function--GUID-.md) functions are available in the C\/AL Symbol Menu under SYSTEM, Variables.  
+ The [CREATEGUID Function \(GUID\)](CREATEGUID-Function--GUID-.md) and [ISNULLGUID Function \(GUID\)](ISNULLGUID-Function--GUID-.md) functions are available in the C/AL Symbol Menu under SYSTEM, Variables.  
   
  CREATEGUID takes no arguments and returns a valid 16\-byte GUID value. If the result is assigned to a TEXT variable or field, the value is converted to a string and follows the syntax explained earlier. The algorithm that generates the new GUID value uses Microsoft's CoCreateGuid function.  
   
@@ -68,7 +68,7 @@ AutoSplitKey
  **AutoSplitKey** is a property, not a function and can be applied to pages. If you have defined a GUID field as part of the primary key, the **AutoSplitKey** property automatically generates a new valid GUID value. When a new record is created and the GUID field is left as NULL, the **AutoSplitKey** property ensures that a valid GUID value is automatically inserted into the field. If you then enter a NULL GUID into this record, for example, by using the CLEAR function, this new NULL GUID value is not automatically replaced by the **AutoSplitKey** property. The **AutoSplitKey** property only applies to new records.  
   
 ## Format  
- The GUID value can also be represented as text. You can use the standard C\/AL functions FORMAT and EVALUATE to convert from GUID values to Text values. If you do not use the correct format when you edit a GUID value in its textual format, the following error message is displayed:  
+ The GUID value can also be represented as text. You can use the standard C/AL functions FORMAT and EVALUATE to convert from GUID values to Text values. If you do not use the correct format when you edit a GUID value in its textual format, the following error message is displayed:  
   
  **Invalid Format of GUID string. The correct format of the GUID string is {CDEF7890\-ABCD\-1234\-ABCD\-1234567890AB} where 0\-9, A\-F symbolizes hexadecimal digits.**  
   

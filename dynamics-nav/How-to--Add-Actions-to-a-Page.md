@@ -92,7 +92,7 @@ This topic shows how to create new actions, how to add actions to a page, and ho
 8.  With your action selected, choose **View**, and then choose **Properties**. Set the **RunObject** property to create an action that opens another page, for example, page **42**, **Sales Orders**.  
   
     > [!NOTE]  
-    >  In Action Designer, actions can be assigned to a page by setting the RunObject property, or by adding a C\/AL trigger to a code unit.  
+    >  In Action Designer, actions can be assigned to a page by setting the RunObject property, or by adding a C/AL trigger to a code unit.  
   
 9. Set the **Caption** and **CaptionML** properties to make the action visible in the **Actions** menu.  
   

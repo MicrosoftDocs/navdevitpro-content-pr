@@ -48,11 +48,11 @@ manager: edupont
 ### Binding a Control Add\-in to the Database to Display Data  
  A control add\-in can bind with data in the [!INCLUDE[navnow](includes/navnow_md.md)] database, which lets you create control add\-ins that can display and update data in the database. For more information, see [Binding a Windows Client Control Add\-in to the Database](Binding-a-Windows-Client-Control-Add-in-to-the-Database.md).  
   
-### Exposing Events and Calling Respective C\/AL Triggers on a Page  
+### Exposing Events and Calling Respective C/AL Triggers on a Page  
  By firing exposed events, a control add\-in can call the **OnControlAddin** trigger or other triggers that correspond to those events on a page for a field that is equipped with the control add\-in. For more information, see [Exposing Events and Calling Respective C\-AL Triggers from a Windows Client Control Add\-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md).  
   
-### Exposing Methods and Properties to C\/AL code  
- To extend UI controls on a page, you can expose methods and properties in a control add\-in assembly so that they can be called by C\/AL code on most any page code. For more information, see [Exposing Methods and Properties in a Windows Client Control Add\-in](Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md).  
+### Exposing Methods and Properties to C/AL code  
+ To extend UI controls on a page, you can expose methods and properties in a control add\-in assembly so that they can be called by C/AL code on most any page code. For more information, see [Exposing Methods and Properties in a Windows Client Control Add\-in](Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md).  
   
 ## See Also  
  [Client Extensibility API Overview](Client-Extensibility-API-Overview.md)   

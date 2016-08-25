@@ -12,7 +12,7 @@ caps.latest.revision: 10
 manager: edupont
 ---
 # GUIALLOWED Function
-Checks whether the C\/AL code can show any information on the screen.  
+Checks whether the C/AL code can show any information on the screen.  
   
 ## Syntax  
   
@@ -26,7 +26,7 @@ Checks whether the C\/AL code can show any information on the screen.
   
  If the return value is **true**, then the GUI is available.  
   
- If the return value is **false**, then the C\/AL code is running on Microsoft Dynamics NAV Application Server and no GUI is available.  
+ If the return value is **false**, then the C/AL code is running on Microsoft Dynamics NAV Application Server and no GUI is available.  
   
 ## Remarks  
  User Portal Application Server accepts GUIALLOWED.  
@@ -34,7 +34,7 @@ Checks whether the C\/AL code can show any information on the screen.
 ## Example  
  This example shows how to use the GUIALLOWED function.  
   
- This example requires that you create the following text constant in the C\/AL Globals window.  
+ This example requires that you create the following text constant in the C/AL Globals window.  
   
 |Text constant|ENU value|  
 |-------------------|---------------|  

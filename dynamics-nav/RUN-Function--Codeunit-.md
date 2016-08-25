@@ -12,7 +12,7 @@ caps.latest.revision: 10
 manager: edupont
 ---
 # RUN Function (Codeunit)
-Loads and executes the unit of C\/AL code you specify. To use this function, you can specify a table associated with the codeunit when you defined the codeunit properties. This allows you to pass a variable with the function. The transaction that the codeunit contains is always committed due to the Boolean return value.  
+Loads and executes the unit of C/AL code you specify. To use this function, you can specify a table associated with the codeunit when you defined the codeunit properties. This allows you to pass a variable with the function. The transaction that the codeunit contains is always committed due to the Boolean return value.  
   
 ## Syntax  
   
@@ -37,9 +37,9 @@ Loads and executes the unit of C\/AL code you specify. To use this function, you
 ## Property Value/Return Value  
  Type: Boolean  
   
- If you do not include the optional return value and an error occurs while the codeunit is running, then the C\/AL code that called this codeunit will terminate.  
+ If you do not include the optional return value and an error occurs while the codeunit is running, then the C/AL code that called this codeunit will terminate.  
   
- If you include the return value and an error occurs, then the calling C\/AL code continues to run. This means that you must handle any errors. If you include the return value, the variables used in the codeunit will be cleared before and after the codeunit runs.  
+ If you include the return value and an error occurs, then the calling C/AL code continues to run. This means that you must handle any errors. If you include the return value, the variables used in the codeunit will be cleared before and after the codeunit runs.  
   
  **true** if no errors occurred; otherwise, **false**.  
   

@@ -29,7 +29,7 @@ When you make changes to the report dataset, the report layouts that are used on
   
 -   Programmatically updating custom report layouts using upgrade codeunits  
   
-     Using C\/AL code and the report update API enables you to accomplish two things. You can handle report dataset changes that cannot be done by the report update feature from the client, such as deleted columns in the dataset. It also enables you to update custom report layouts with minimal end\-user interaction.  
+     Using C/AL code and the report update API enables you to accomplish two things. You can handle report dataset changes that cannot be done by the report update feature from the client, such as deleted columns in the dataset. It also enables you to update custom report layouts with minimal end\-user interaction.  
   
      For more information, see [Updating Report Layouts to Dataset Changes](Updating-Report-Layouts-to-Dataset-Changes.md).  
   

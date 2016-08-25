@@ -62,7 +62,7 @@ RecordRef.INIT
 > [!NOTE]  
 >  In this example, the INIT function is called before the primary key is assigned a value. The INIT function does not initialize primary key fields. Therefore calling the INIT function before or after you assign values to the primary key field does not make any difference.  
   
- This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

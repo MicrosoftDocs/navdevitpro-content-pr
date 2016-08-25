@@ -24,7 +24,7 @@ The following functions are used to filter records in a table:
   
 -   GETRANGEMAX  
   
- These functions are some of the most commonly used C\/AL functions. They set limits on the value of one or more specified fields, so that only a subset of the records are displayed, modified, deleted, and so on.  
+ These functions are some of the most commonly used C/AL functions. They set limits on the value of one or more specified fields, so that only a subset of the records are displayed, modified, deleted, and so on.  
   
 ## SETCURRENTKEY Function  
  SETCURRENTKEY selects a key for a record and sets the sort order that is used for the table in question.  

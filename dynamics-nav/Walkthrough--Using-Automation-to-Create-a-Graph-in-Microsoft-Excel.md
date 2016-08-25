@@ -23,11 +23,11 @@ In this walkthrough, you will transfer data from the **G\/L Entry** table to Mic
   
 -   Creating a codeunit that declares the Automation variables that are required for using Excel Automation.  
   
--   Adding C\/AL code to the codeunit to run the Automation object that opens Excel.  
+-   Adding C/AL code to the codeunit to run the Automation object that opens Excel.  
   
--   Adding C\/AL code to the Automation codeunit to transfer data from a table record to Excel.  
+-   Adding C/AL code to the Automation codeunit to transfer data from a table record to Excel.  
   
--   Adding C\/AL code that creates a graph in Excel.  
+-   Adding C/AL code that creates a graph in Excel.  
   
 ### Prerequisites  
  To complete this walkthrough, you will need:  
@@ -49,7 +49,7 @@ In this walkthrough, you will transfer data from the **G\/L Entry** table to Mic
   
 1.  In Object Designer, choose **Codeunit**, and then choose the **New** button to create a new codeunit.  
   
-2.  On the **View** menu, choose **C\/AL Globals**.  
+2.  On the **View** menu, choose **C/AL Globals**.  
   
 3.  On the **Variables** tab, add the following variables:  
   
@@ -65,14 +65,14 @@ In this walkthrough, you will transfer data from the **G\/L Entry** table to Mic
     |xlChart|Automation|Microsoft Excel 15.0 or 14.0 Object Library|Chart|  
     |xlRange|Automation|Microsoft Excel 15.0 or 14.0 Object Library|Range|  
   
-4.  Close the **C\/AL Globals** window.  
+4.  Close the **C/AL Globals** window.  
   
 ## Adding the Code  
  Now you add the code for the codeunit.  
   
 #### To add the code  
   
-1.  In the C\/AL Editor, set the key for the **G\/L Entry** table, and then use `SETFILTER` to select the accounts by adding the following code to the **OnRun** trigger.  
+1.  In the C/AL Editor, set the key for the **G\/L Entry** table, and then use `SETFILTER` to select the accounts by adding the following code to the **OnRun** trigger.  
   
     ```  
     GLEntry.SETCURRENTKEY("G/L Account No.","Business Unit Code",   
@@ -109,7 +109,7 @@ In this walkthrough, you will transfer data from the **G\/L Entry** table to Mic
   
  For more information, see Workbooks.Add Method \(Excel\), [http:\/\/go.microsoft.com\/fwlink\/?LinkId\=404331](http://go.microsoft.com/fwlink/?LinkId=404331).  
   
- Instead of passing xlWBATWorkSheet as the **Template** argument, you are passing the number \-4167. In this case, the **Template** argument, which is of type VARIANT, is an enumeration. Enumerations are either USERDEF types or not. This is not a USERDEF type, so it looks like a VARIANT in the C\/AL Symbol Menu. You have to look in the Microsoft Excel Visual Basic Help to figure out that it is actually an enumeration. Arguments can be constants with names like xl\* in Excel, wd\* in Word, and ol\* in Outlook. In [!INCLUDE[navnow](includes/navnow_md.md)], you cannot use the symbolic name xlWBATWorkSheet. You have to use the enumerator \-4167. The following procedure describes how you can find an enumerator value if you need to.  
+ Instead of passing xlWBATWorkSheet as the **Template** argument, you are passing the number \-4167. In this case, the **Template** argument, which is of type VARIANT, is an enumeration. Enumerations are either USERDEF types or not. This is not a USERDEF type, so it looks like a VARIANT in the C/AL Symbol Menu. You have to look in the Microsoft Excel Visual Basic Help to figure out that it is actually an enumeration. Arguments can be constants with names like xl\* in Excel, wd\* in Word, and ol\* in Outlook. In [!INCLUDE[navnow](includes/navnow_md.md)], you cannot use the symbolic name xlWBATWorkSheet. You have to use the enumerator \-4167. The following procedure describes how you can find an enumerator value if you need to.  
   
 ##### To find an enumerator value  
   
@@ -133,7 +133,7 @@ In this walkthrough, you will transfer data from the **G\/L Entry** table to Mic
   
 #### To transfer data  
   
-1.  In the C\/AL Editor, on the codeunit, use SETRANGE to filter the entries in the **G\/L Entry** table on the **Global Dimension 1 Code** field. The first department is ADM \(Administration\). Then, you use CALCSUMS\(Amount\) to get the sum for the ADM department. To do this, add the following code.  
+1.  In the C/AL Editor, on the codeunit, use SETRANGE to filter the entries in the **G\/L Entry** table on the **Global Dimension 1 Code** field. The first department is ADM \(Administration\). Then, you use CALCSUMS\(Amount\) to get the sum for the ADM department. To do this, add the following code.  
   
     ```  
     GLEntry.SETRANGE("Global Dimension 1 Code", 'ADM');  
@@ -165,7 +165,7 @@ In this walkthrough, you will transfer data from the **G\/L Entry** table to Mic
   
 #### To create the graph  
   
-1.  In the C\/AL Editor, on the current codeunit, define a range for the data in the graph.  
+1.  In the C/AL Editor, on the current codeunit, define a range for the data in the graph.  
   
     ```  
     xlRange := xlSheet.Range('A2:C3');  

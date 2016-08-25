@@ -27,7 +27,7 @@ With Microsoft .NET Framework interoperability, a DotNet type variable of a [!IN
 -   [Limitations on Events and Event Triggers](#Limitations)  
   
 ##  <a name="HowWork"></a> Understanding How Events Work in .NET Interoperability  
- You set up a DotNet variable to subscribe to events by setting the variable’s [WithEvents Property](WithEvents-Property.md) to **true**. The DotNet variable is exposed to all events that are published by the .NET Framework type that the variable references. For each event, [!INCLUDE[navnow](includes/navnow_md.md)] automatically adds a blank trigger in the C\/AL code of the [!INCLUDE[navnow](includes/navnow_md.md)] object. You add C\/AL code to the trigger to handle the event. When an instance of the .NET Framework type raises the event, the corresponding trigger in C\/AL code is invoked and its code is run.  
+ You set up a DotNet variable to subscribe to events by setting the variable’s [WithEvents Property](WithEvents-Property.md) to **true**. The DotNet variable is exposed to all events that are published by the .NET Framework type that the variable references. For each event, [!INCLUDE[navnow](includes/navnow_md.md)] automatically adds a blank trigger in the C/AL code of the [!INCLUDE[navnow](includes/navnow_md.md)] object. You add C/AL code to the trigger to handle the event. When an instance of the .NET Framework type raises the event, the corresponding trigger in C/AL code is invoked and its code is run.  
   
  For more information, see [How to: Subscribe to Events in a .NET Framework Type](How%20to:%20Subscribe%20to%20Events%20in%20a%20.NET%20Framework%20Type.md).  
   
@@ -51,7 +51,7 @@ With Microsoft .NET Framework interoperability, a DotNet type variable of a [!IN
 -   When asynchronous events are raised, they are added to the event queue of the .NET Framework, and processed when the connection between the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and the [!INCLUDE[nav_server](includes/nav_server_md.md)] is idle. A connection is idle when no [!INCLUDE[navnow](includes/navnow_md.md)] objects are communicating over the connection. If there is a long process that is running over the connection, then you might experience a delay when you run event triggers.  
   
 ##  <a name="Updating"></a> Updating Event Triggers  
- Event triggers in C\/AL code do not update automatically when events are changed or added to the .NET Framework assembly that is used by a DotNet variable. If you want to update event triggers in the [!INCLUDE[navnow](includes/navnow_md.md)] object to changes in the .NET Framework assembly, then you must delete existing triggers and subscribe to the events again.  
+ Event triggers in C/AL code do not update automatically when events are changed or added to the .NET Framework assembly that is used by a DotNet variable. If you want to update event triggers in the [!INCLUDE[navnow](includes/navnow_md.md)] object to changes in the .NET Framework assembly, then you must delete existing triggers and subscribe to the events again.  
   
 ##  <a name="Limitations"></a> Limitations on Events and Event Triggers  
  Event triggers that are published by .NET Framework types have the following limitations:  

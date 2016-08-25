@@ -26,7 +26,7 @@ Specifies the maximum number of rows to include in the resulting dataset of a qu
 ## Remarks  
  You use the **TopNumberOfRows** property to limit the resulting dataset to the first set of rows that are generated for the query. For example, you can include only the first 10 or first 100 rows in the resulting dataset. The TOPNUMBEROFROWS property is useful for key performance indicators such as the top number of customers or sales.  
   
- You can also specify the number of rows to include in the dataset by calling the [TOPNUMBEROFROWS Function](TOPNUMBEROFROWS-Function.md) from C\/AL. The TOPNUMBEROFROWS function will overwrite the **TopNumberOfRows** property setting.  
+ You can also specify the number of rows to include in the dataset by calling the [TOPNUMBEROFROWS Function](TOPNUMBEROFROWS-Function.md) from C/AL. The TOPNUMBEROFROWS function will overwrite the **TopNumberOfRows** property setting.  
   
 ## See Also  
  [Properties](Properties.md)

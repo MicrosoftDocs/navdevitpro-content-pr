@@ -54,14 +54,14 @@ This topic describes how you can upload media files, such as images, to the data
   
 2.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], modify the table object to include a field that has the data type **Media** or **MediaSet**.  
   
-3.  Add C\/AL code that imports the media on the field.  
+3.  Add C/AL code that imports the media on the field.  
   
-     The **Media** and **MediaSet** data types support several C\/AL functions that you can use to manage the media on records. See the next section for a complete list of functions with a link to more details, such as usage, parameters and sample code.  
+     The **Media** and **MediaSet** data types support several C/AL functions that you can use to manage the media on records. See the next section for a complete list of functions with a link to more details, such as usage, parameters and sample code.  
   
      For example, you can create a codeunit that calls the one of the import functions, or add page action that calls one of the functions.  
   
-### C\/AL Functions  
- The following table provides an overview of the C\/AL functions that are related to media and media sets.  
+### C/AL Functions  
+ The following table provides an overview of the C/AL functions that are related to media and media sets.  
   
 |Data Type|Function|Description|  
 |---------------|--------------|-----------------|  

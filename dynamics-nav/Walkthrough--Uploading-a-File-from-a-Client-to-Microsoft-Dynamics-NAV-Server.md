@@ -81,13 +81,13 @@ This walkthrough demonstrates how to use file functions to send a file from a cl
   
 1.  In **Object Designer**, choose **Codeunit**, and then choose **New**.  
   
-     C\/AL Editor opens.  
+     C/AL Editor opens.  
   
-2.  Choose the **OnRun\(\)** function in the C\/AL Editor.  
+2.  Choose the **OnRun\(\)** function in the C/AL Editor.  
   
-3.  Choose **View** and then choose **C\/AL Locals**.  
+3.  Choose **View** and then choose **C/AL Locals**.  
   
-     The **C\/AL Locals** window opens.  
+     The **C/AL Locals** window opens.  
   
 4.  Choose the **Variables** tab.  
   
@@ -102,9 +102,9 @@ This walkthrough demonstrates how to use file functions to send a file from a cl
   
 6.  Choose the next empty line to ensure that the local variables are saved.  
   
-7.  Close the **C\/AL Locals** window.  
+7.  Close the **C/AL Locals** window.  
   
-8.  Enter the following code in the C\/AL Editor for the **OnRun** function.  
+8.  Enter the following code in the C/AL Editor for the **OnRun** function.  
   
     ```  
     BEGIN  

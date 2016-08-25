@@ -38,7 +38,7 @@ Field := RecordRef.FIELDINDEX(Index)
  If the index is out of the range supplied or if no table is selected, then the function returns an error.  
   
 ## Example  
- This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  

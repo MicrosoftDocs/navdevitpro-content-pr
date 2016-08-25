@@ -38,7 +38,7 @@ String := Record.GETFILTER(Field)
  This string contains a list of the filters applied to the field in the record.  
   
 ## Example  
- This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|Data type|Subtype|  
 |-------------------|---------------|-------------|  
@@ -63,7 +63,7 @@ MESSAGE(Text000, String);
  **\-100..100**  
   
 ## Example  
- This example requires that you create the following variable in the **C\/AL Globals** window.  
+ This example requires that you create the following variable in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

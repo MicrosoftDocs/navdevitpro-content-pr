@@ -11,7 +11,7 @@ ms.assetid: f6980d9b-7464-4c7e-8ae0-4681d3859aeb
 caps.latest.revision: 10
 ---
 # ISCODE Function (Variant)
-Indicates whether a C\/AL variant contains a Code variable.  
+Indicates whether a C/AL variant contains a Code variable.  
   
 ## Syntax  
   
@@ -27,10 +27,10 @@ Ok := Variant.ISCODE
 ## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the C\/AL variant contains a Code variable; otherwise, **false**.  
+ **true** if the C/AL variant contains a Code variable; otherwise, **false**.  
   
 ## Example  
- The following example determines whether a C\/AL variant contains a code variable. The code initializes the MyCode variable with a string value. The MyCode variable is assigned to the variant variable that is named MyVariant. The **ISCODE** function determines whether the variant contains a code variable and stores the return value in the varResult variable. In this case, the variant contains a code variable so **Yes** is returned and displayed in a message box. The [ISTEXT Function \(Variant\)](ISTEXT-Function--Variant-.md) determines whether the variant contains a text variable. The return value is **No** because the variant does not contain a text. This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ The following example determines whether a C/AL variant contains a code variable. The code initializes the MyCode variable with a string value. The MyCode variable is assigned to the variant variable that is named MyVariant. The **ISCODE** function determines whether the variant contains a code variable and stores the return value in the varResult variable. In this case, the variant contains a code variable so **Yes** is returned and displayed in a message box. The [ISTEXT Function \(Variant\)](ISTEXT-Function--Variant-.md) determines whether the variant contains a text variable. The return value is **No** because the variant does not contain a text. This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  

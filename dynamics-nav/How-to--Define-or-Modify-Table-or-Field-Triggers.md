@@ -22,11 +22,11 @@ The following procedure describes how to set up a trigger.
   
      The table opens in **Table Designer**.  
   
-3.  Choose **View** and then choose **C\/AL Code**.  
+3.  Choose **View** and then choose **C/AL Code**.  
   
-     The C\/AL Editor opens.  
+     The C/AL Editor opens.  
   
-     The position or the cursor in Table Designer determines the order in which triggers are displayed in the C\/AL Editors. For example, if you place the cursor on a specific field, the trigger for that field appears at the top of the C\/AL Editor. Scroll through the list of triggers displayed to access other triggers.  
+     The position or the cursor in Table Designer determines the order in which triggers are displayed in the C/AL Editors. For example, if you place the cursor on a specific field, the trigger for that field appears at the top of the C/AL Editor. Scroll through the list of triggers displayed to access other triggers.  
   
 4.  Enter or modify the appropriate triggers.  
   

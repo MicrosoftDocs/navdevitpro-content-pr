@@ -39,7 +39,7 @@ Length := STRLEN(String)
 ## Example  
  This example shows the difference between the STRLEN and the MAXSTRLEN functions.  
   
- This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  

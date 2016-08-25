@@ -37,7 +37,7 @@ Most tests run automatically without a dependency on the user interface. However
   
 2.  In the **Properties** window, in the **Subtype** field, select **Test** to specify that this is a test codeunit.  
   
-3.  In the **C\/AL Globals** window, on the Variables tab, enter the following variables.  
+3.  In the **C/AL Globals** window, on the Variables tab, enter the following variables.  
   
     |Name|DataType|Subtype|  
     |----------|--------------|-------------|  
@@ -48,11 +48,11 @@ Most tests run automatically without a dependency on the user interface. However
   
      This adds 4 codeunits from the application test libraries as global variables so that you can use them in your test code.  
   
-4.  In the **C\/AL Globals** window, on the **Functions** tab, enter **HandlerSampleTest**. This is the name of the test function.  
+4.  In the **C/AL Globals** window, on the **Functions** tab, enter **HandlerSampleTest**. This is the name of the test function.  
   
 5.  On the **Functions** tab, choose **Locals**.  
   
-6.  In the **C\/AL Locals** window, on the **Variables** tab, enter the following variables, which you will use in the **HandlerSampleTest** test function.  
+6.  In the **C/AL Locals** window, on the **Variables** tab, enter the following variables, which you will use in the **HandlerSampleTest** test function.  
   
     |Name|DataType|Subtype|  
     |----------|--------------|-------------|  
@@ -64,7 +64,7 @@ Most tests run automatically without a dependency on the user interface. However
     > [!IMPORTANT]  
     >  Make sure that you add these entries on the **Variables** tab, not on the **Parameters** tab. If you create them on the **Parameters** tab, you get an error when you compile that says the test method signature is invalid.  
   
-7.  In the C\/AL Editor, in the `HandlerSampleTest` function, enter the following code:  
+7.  In the C/AL Editor, in the `HandlerSampleTest` function, enter the following code:  
   
     ```  
     // [SCENARIO] When the user chooses "Price Including VAT" and agrees to update sales lines, the VAT Amount must stay nearly the same.  
@@ -82,7 +82,7 @@ Most tests run automatically without a dependency on the user interface. However
   
     ```  
   
-     Isaac first defines the test scenario \[SCENARIO\], then details it with the GIVEN\-THEN\-WHEN notation. Finally, he adds the C\/AL code. The code in this test function prepares the test data by creating a sales document with a random quantity of items in a sales line. Then, emulates that a user has chosen the Prices Including VAT field, and then validates that the VAT Base Amount is the same as before, more or less. The test raises an error if the results are not as expected.  
+     Isaac first defines the test scenario \[SCENARIO\], then details it with the GIVEN\-THEN\-WHEN notation. Finally, he adds the C/AL code. The code in this test function prepares the test data by creating a sales document with a random quantity of items in a sales line. Then, emulates that a user has chosen the Prices Including VAT field, and then validates that the VAT Base Amount is the same as before, more or less. The test raises an error if the results are not as expected.  
   
      Isaac has created the test function. Next, he runs the test in the CAL Test Tool window in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
@@ -105,27 +105,27 @@ Most tests run automatically without a dependency on the user interface. However
   
 #### To add a confirmation handler function  
   
-1.  In the **C\/AL Globals** window, on the **Functions** tab, in the **Name** field, enter **ConfirmationHandler**.  
+1.  In the **C/AL Globals** window, on the **Functions** tab, in the **Name** field, enter **ConfirmationHandler**.  
   
 2.  In the **Properties** window for the new function, set the **FunctionType** property to **ConfirmHandler**.  
   
-3.  In the **C\/AL Locals** window for the `ConfirmationHandler` function, on the **Parameters** tab, enter the following parameters.  
+3.  In the **C/AL Locals** window for the `ConfirmationHandler` function, on the **Parameters** tab, enter the following parameters.  
   
     |Var|Name|DataType|Subtype|Length|  
     |---------|----------|--------------|-------------|------------|  
     ||Question|Text||1024|  
     |Yes|Reply|Boolean|||  
   
-4.  In the **C\/AL Locals** window, on the **Variables** tab, enter the following variables.  
+4.  In the **C/AL Locals** window, on the **Variables** tab, enter the following variables.  
   
     |Name|DataType|Subtype|  
     |----------|--------------|-------------|  
     |SalesHeader|Record|Sales Header|  
     |SalesLine|Record|Sales Line|  
   
-5.  In the **C\/AL Locals** window, on the **Text Constants** tab, add a text constant, `ConfUpdateLines`, with the following text in English \(United States\): **You have modified the %1 field. The recalculation of VAT may cause penny differences, so you must check the amounts afterward. Do you want to update the %2 field on the lines to reflect the new value of %1?**.  
+5.  In the **C/AL Locals** window, on the **Text Constants** tab, add a text constant, `ConfUpdateLines`, with the following text in English \(United States\): **You have modified the %1 field. The recalculation of VAT may cause penny differences, so you must check the amounts afterward. Do you want to update the %2 field on the lines to reflect the new value of %1?**.  
   
-6.  In the C\/AL Editor, in the **ConfirmationHandler** function, enter the following code.  
+6.  In the C/AL Editor, in the **ConfirmationHandler** function, enter the following code.  
   
     ```  
     IF Question = STRSUBSTNO(ConfUpdateLines,SalesHeader.FIELDCAPTION("Prices Including VAT"),SalesLine.FIELDCAPTION("Unit Price")) THEN  
@@ -135,7 +135,7 @@ Most tests run automatically without a dependency on the user interface. However
   
      The code in this function emulates that the user chooses the OK button when prompted after they have chosen the Prices Including VAT field for the sales document.  
   
-7.  To link the new confirmation handler to the `HandlerSampleTest` function, in the **C\/AL Globals** window, on the **Functions** tab, choose the `HandlerSampleTest` function, and then, set the **HandlerFunctions** property to **ConfirmationHandler**.  
+7.  To link the new confirmation handler to the `HandlerSampleTest` function, in the **C/AL Globals** window, on the **Functions** tab, choose the `HandlerSampleTest` function, and then, set the **HandlerFunctions** property to **ConfirmationHandler**.  
   
 8.  Compile and save the codeunit.  
   

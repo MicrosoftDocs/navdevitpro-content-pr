@@ -11,7 +11,7 @@ ms.assetid: 4025dac3-569b-4e4c-983d-36e346079e79
 caps.latest.revision: 11
 ---
 # ISTEXT Function (Variant)
-Indicates whether a C\/AL variant contains a Text variable.  
+Indicates whether a C/AL variant contains a Text variable.  
   
 ## Syntax  
   
@@ -27,10 +27,10 @@ Ok := Variant.ISTEXT
 ## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the C\/AL variant contains a Text variable; otherwise, **false**.  
+ **true** if the C/AL variant contains a Text variable; otherwise, **false**.  
   
 ## Example  
- The following example determines whether a C\/AL variant contains a text variable. The code initializes the MyText variable with a text value. The MyText variable is assigned to the variant variable that is named MyVariant. The **ISTEXT** function determines whether the variant contains a text variable and stores the return value in the varResult variable. In this case, the variant contains a text variable so **Yes** is returned and displayed in a message box. The **ISCODE** function determines whether the variant contains a code variable. The return value is **No** because the variant does not contain a code. This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ The following example determines whether a C/AL variant contains a text variable. The code initializes the MyText variable with a text value. The MyText variable is assigned to the variant variable that is named MyVariant. The **ISTEXT** function determines whether the variant contains a text variable and stores the return value in the varResult variable. In this case, the variant contains a text variable so **Yes** is returned and displayed in a message box. The **ISCODE** function determines whether the variant contains a code variable. The return value is **No** because the variant does not contain a code. This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  

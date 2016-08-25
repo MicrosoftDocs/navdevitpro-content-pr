@@ -41,7 +41,7 @@ FieldRef.TESTFIELD([Value])
  This function is like the [TESTFIELD Function \(Record\)](TESTFIELD-Function--Record-.md) function.  
   
 ## Example  
- The following example opens the Customer table as a RecordRef variable that is named CustomerRecref, created a reference to the first field \(No\) and stores the reference in the MyFieldRef variable. The [VALUE Function \(FieldRef, TestPage Field\)](VALUE-Function--FieldRef--TestPage-Field-.md) sets the No. field to a blank text. The TESTFIELD function determines whether the contents of the field match 10000, the specified value. In this case, the content does not match so the [!INCLUDE[navnow](includes/navnow_md.md)] throws an exception. If the there is a match, no exception is thrown. This example requires that you create the following variables in the **C\/AL Globals** windows.  
+ The following example opens the Customer table as a RecordRef variable that is named CustomerRecref, created a reference to the first field \(No\) and stores the reference in the MyFieldRef variable. The [VALUE Function \(FieldRef, TestPage Field\)](VALUE-Function--FieldRef--TestPage-Field-.md) sets the No. field to a blank text. The TESTFIELD function determines whether the contents of the field match 10000, the specified value. In this case, the content does not match so the [!INCLUDE[navnow](includes/navnow_md.md)] throws an exception. If the there is a match, no exception is thrown. This example requires that you create the following variables in the **C/AL Globals** windows.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

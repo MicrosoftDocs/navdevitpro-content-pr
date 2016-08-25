@@ -78,7 +78,7 @@ CustomerRec.FIELDERROR("No.");
  **No. must not be NEW 3500 in Customer No.\='NEW 3500'.**  
   
 ## Example  
- The third example uses a non\-empty string as the *Text* parameter. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The third example uses a non\-empty string as the *Text* parameter. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

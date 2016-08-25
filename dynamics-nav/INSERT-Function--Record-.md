@@ -61,7 +61,7 @@ Customer.INSERT;
  If customer 1120 already exists, then a run\-time error occurs.  
   
 ## Example  
- This example requires that you create the following variable and text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following variable and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

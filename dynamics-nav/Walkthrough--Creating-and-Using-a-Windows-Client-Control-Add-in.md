@@ -230,7 +230,7 @@ The following walkthrough demonstrates how to develop a [!INCLUDE[nav_windows](i
   
 -   Setting the [OnControlAddin Trigger](OnControlAddin-Trigger.md).  
   
-     In the **C\/AL Editor**, you set the trigger that is called when a user selects the field to open a pop\-up window. When a field is double\-clicked, the add\-in raises the [IEventControlAddInDefinition.ControlAddIn](assetId:///E:Microsoft.Dynamics.Framework.UI.Extensibility.IEventControlAddInDefinition.ControlAddIn) event, which in turn calls the trigger.  
+     In the **C/AL Editor**, you set the trigger that is called when a user selects the field to open a pop\-up window. When a field is double\-clicked, the add\-in raises the [IEventControlAddInDefinition.ControlAddIn](assetId:///E:Microsoft.Dynamics.Framework.UI.Extensibility.IEventControlAddInDefinition.ControlAddIn) event, which in turn calls the trigger.  
   
 #### To set the ControlAddIn property on the field  
   
@@ -246,11 +246,11 @@ The following walkthrough demonstrates how to develop a [!INCLUDE[nav_windows](i
   
 6.  Close the **Properties** window.  
   
-#### To set the add\-in trigger in the C\/AL Code  
+#### To set the add\-in trigger in the C/AL Code  
   
-1.  On the **View** menu, choose **C\/AL Code**.  
+1.  On the **View** menu, choose **C/AL Code**.  
   
-2.  In the **Page 21 Customer card \-C\/AL** Editor, locate the following trigger.  
+2.  In the **Page 21 Customer card \-C/AL** Editor, locate the following trigger.  
   
     ```  
     Name - OnControlAddIn(Index : Integer;Data : Text[1024])  
@@ -262,11 +262,11 @@ The following walkthrough demonstrates how to develop a [!INCLUDE[nav_windows](i
     Message(Data);  
     ```  
   
-4.  Close the **C\/AL Editor**.  
+4.  Close the **C/AL Editor**.  
   
 5.  On the **File** menu, choose **Save**, select the **Compiled** check box, and then choose the **OK** button.  
   
-6.  Close the **C\/AL** window.  
+6.  Close the **C/AL** window.  
   
 #### To test the add\-in  
   

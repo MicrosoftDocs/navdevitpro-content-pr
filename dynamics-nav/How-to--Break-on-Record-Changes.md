@@ -12,9 +12,9 @@ caps.latest.revision: 7
 manager: edupont
 ---
 # How to: Break on Record Changes
-You can specify if the debugger breaks on record changes. If the debugger is set to break on record changes, then it breaks before creating, modifying, or deleting a record. The following table shows each record change and the C\/AL functions that cause each change.  
+You can specify if the debugger breaks on record changes. If the debugger is set to break on record changes, then it breaks before creating, modifying, or deleting a record. The following table shows each record change and the C/AL functions that cause each change.  
   
-|Record change|C\/AL functions|  
+|Record change|C/AL functions|  
 |-------------------|---------------------|  
 |Create a new record|[INSERT Function \(Record\)](INSERT-Function--Record-.md)|  
 |Update an existing record|[MODIFY Function \(Record\)](MODIFY-Function--Record-.md), [MODIFYALL Function \(Record\)](MODIFYALL-Function--Record-.md), [RENAME Function \(Record\)](RENAME-Function--Record-.md)|  

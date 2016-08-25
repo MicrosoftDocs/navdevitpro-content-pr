@@ -14,10 +14,10 @@ manager: edupont
 # C-AL Operators
 Operators can be used in expressions to combine, investigate, and adjust values and data elements.  
   
-## C\/AL Operators and Meaning  
- The following table shows the valid operators in C\/AL.  
+## C/AL Operators and Meaning  
+ The following table shows the valid operators in C/AL.  
   
-|C\/AL operator|Meaning|  
+|C/AL operator|Meaning|  
 |--------------------|-------------|  
 |.|Fields in records, controls on pages, and reports|  
 |\( \)|Parentheses|  
@@ -73,7 +73,7 @@ string + string
 ```  
   
 ## Operator Hierarchy  
- Operators are organized in a hierarchy that determines the order in which the operands in a given expression are evaluated. The following list shows the order of precedence of the C\/AL operators:  
+ Operators are organized in a hierarchy that determines the order in which the operands in a given expression are evaluated. The following list shows the order of precedence of the C/AL operators:  
   
 1.  .\(fields in records\), \[\] \(indexing\), \(\) \(parentheses\), :: \(scope\)  
   

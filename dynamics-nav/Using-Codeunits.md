@@ -80,7 +80,7 @@ Codeunit Variables
 ## Limitations on Codeunits  
  Global variables and temporary tables in a codeunit cannot be accessed directly from other application objects. The only way to access these values is through the functions that you have created in the codeunit.  
   
- Every C\/AL function can be used in a codeunit. However, you cannot create a function that has the same name as a pre\-defined function. Also, two or more user\-defined functions cannot have the same name, unless they are part of different application objects.  
+ Every C/AL function can be used in a codeunit. However, you cannot create a function that has the same name as a pre\-defined function. Also, two or more user\-defined functions cannot have the same name, unless they are part of different application objects.  
   
 ## See Also  
  [Understanding Codeunits](Understanding-Codeunits.md)   

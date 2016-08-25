@@ -52,7 +52,7 @@ this.ApplySize(new DisplaySize(101, 600, 1000), new DisplaySize(10, 20, 200));
 this.ApplySize(DisplaySize.Default, new DisplaySize(10, 20, 200));  
 ```  
   
- In this case, the control add\-in width resembles other field controls that have the same C\/AL data type on the page.  
+ In this case, the control add\-in width resembles other field controls that have the same C/AL data type on the page.  
   
 ## Calling the ApplySize Method  
  You can use the [WinFormsControlAddInBase.ApplySize](assetId:///M:Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.WinFormsControlAddInBase.ApplySize(Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.DisplaySize,Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.DisplaySize)) method multiple times in the control add\-in code to change the width and height. However, you should use it as part of the [CreateControl](assetId:///M:Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.WinFormsControlAddInBase.CreateControl) method.  

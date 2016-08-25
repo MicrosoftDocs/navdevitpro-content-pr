@@ -41,7 +41,7 @@ Changes or checks the order in which a search through the table that is referred
  This function works just like the [ASCENDING Function \(Record\)](ASCENDING-Function--Record-.md).  
   
 ## Example  
- The following example opens table 18 \(Customer\) as a RecordRef variable that is named CustomerRecref. The [SETVIEW Function \(RecordRef\)](SETVIEW-Function--RecordRef-.md) sets a filter that includes sorting the data in ascending order. The ASCENDING function then checks whether the sort order is ascending, stores the return value in the IsAscending variable and displays **Yes** in a message box. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example opens table 18 \(Customer\) as a RecordRef variable that is named CustomerRecref. The [SETVIEW Function \(RecordRef\)](SETVIEW-Function--RecordRef-.md) sets a filter that includes sorting the data in ascending order. The ASCENDING function then checks whether the sort order is ascending, stores the return value in the IsAscending variable and displays **Yes** in a message box. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

@@ -12,7 +12,7 @@ caps.latest.revision: 14
 manager: edupont
 ---
 # OptionCaptionML Property
-Sets the strings that are displayed to the user for selecting an option. OptionCaptionML is only used if the field or variable has an [OptionString Property](OptionString-Property.md). The OptionString property contains the set of values that are acceptable choices, and it is one of these values that is saved in the database or used in C\/AL code.  
+Sets the strings that are displayed to the user for selecting an option. OptionCaptionML is only used if the field or variable has an [OptionString Property](OptionString-Property.md). The OptionString property contains the set of values that are acceptable choices, and it is one of these values that is saved in the database or used in C/AL code.  
   
 ## Applies To  
   

@@ -40,7 +40,7 @@ Determines whether a file exists.
  **true** if the file exists; otherwise, **false**.  
   
 ## Example  
- The following example uses the EXISTS function to determine whether the specified file exists. If the file exists, then the [WRITEMODE Function \(File\)](WRITEMODE-Function--File-.md) allows the file to be open for writing. The [OPEN Function \(File\)](OPEN-Function--File-.md) opens the file, the [WRITE Function \(File\)](WRITE-Function--File-.md) writes the text “Hello World” to the file, and then the [CLOSE Function \(File\)](CLOSE-Function--File-.md) function closes the file. If the file does not exist, an error message is displayed. This example requires that you create the following variables in the **C\/AL Globals** window. This example assumes that you have created the following file C:\\TestFolder\\TestFile2.txt.  
+ The following example uses the EXISTS function to determine whether the specified file exists. If the file exists, then the [WRITEMODE Function \(File\)](WRITEMODE-Function--File-.md) allows the file to be open for writing. The [OPEN Function \(File\)](OPEN-Function--File-.md) opens the file, the [WRITE Function \(File\)](WRITE-Function--File-.md) writes the text “Hello World” to the file, and then the [CLOSE Function \(File\)](CLOSE-Function--File-.md) function closes the file. If the file does not exist, an error message is displayed. This example requires that you create the following variables in the **C/AL Globals** window. This example assumes that you have created the following file C:\\TestFolder\\TestFile2.txt.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

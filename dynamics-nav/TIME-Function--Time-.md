@@ -30,7 +30,7 @@ Time := TIME
  You can only use the TIME function to retrieve the time from the operating system. You cannot use it to set the time in the operating system.  
   
 ## Example  
- This example requires that you create the following text constant in the **C\/AL Globals** window.  
+ This example requires that you create the following text constant in the **C/AL Globals** window.  
   
 |Name|ConstValue|  
 |----------|----------------|  

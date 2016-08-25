@@ -37,7 +37,7 @@ The following functions perform various actions on fields:
 [Ok :=] Record.CALCFIELDS(Field1, [Field2],...)  
 ```  
   
- When you use FlowFields in C\/AL functions, you must use the CALCFIELDS function to update them.  
+ When you use FlowFields in C/AL functions, you must use the CALCFIELDS function to update them.  
   
  In the following example, the SETRANGE function sets a filter and then the CALCFIELDS function calculates the Balance and Balance Due fields by using the current filter and performing the calculations that are defined as the CalcFormula properties of the FlowFields. This example requires that you create the following variable.  
   

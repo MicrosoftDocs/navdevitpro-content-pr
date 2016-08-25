@@ -14,7 +14,7 @@ manager: edupont
 # Raising Events
 After an event has been published by an event publisher function, you can modify the application to raise the event where it is needed. Subscribers of an event will not react on the event until it is raised in the application.  
   
- To raise an event, you add logic in C\/AL code of the application to call the event publisher function that declares the event. The procedure for calling the event publisher function is the same as calling any other function in C\/AL.  
+ To raise an event, you add logic in C/AL code of the application to call the event publisher function that declares the event. The procedure for calling the event publisher function is the same as calling any other function in C/AL.  
   
  When the code that calls the event publisher function is run, then all event subscriber functions that subscribe to the event are run. If there are multiple subscribers, then each event subscriber function is run one after another. The order in which the event subscribers run is random and cannot it cannot be specified.  
   
@@ -23,13 +23,13 @@ After an event has been published by an event publisher function, you can modify
 ## Example  
  You want to raise an event when a user changes the **Address** field on the page **21 Customer Card**. The event is published by the event publisher function **OnAddressedLineChanged** in the codeunit **My Publishers**. The event publisher function **OnAddressedLineChanged** accepts a single text parameter. To raise the event this, you complete the following steps in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]:  
   
-1.  Add the following C\/AL variable to page 21 Customer Card.  
+1.  Add the following C/AL variable to page 21 Customer Card.  
   
     |Variable name|DataType|Subtype|  
     |-------------------|--------------|-------------|  
     |Publisher|Codeunit|My Publisher|  
   
-2.  In C\/AL code, add code on the **Address \- OnValidate \(\)** trigger to call the OnAddressLineChanged function.  
+2.  In C/AL code, add code on the **Address \- OnValidate \(\)** trigger to call the OnAddressLineChanged function.  
   
     ```  
     Publisher.OnAddressLineChanged(Address);  

@@ -16,7 +16,7 @@ You use the debugger breakpoint list to view, set, enable, disable, or delete br
  For more information about how to open the **Debugger** window, see [Activating the Debugger](Activating-the-Debugger.md).  
   
 > [!NOTE]  
->  If you set a breakpoint from the debugger, then it is not displayed in the C\/AL Editor. If you enable, disable, or delete a breakpoint from the debugger, that change is not displayed in the C\/AL Editor until you open the editor again.  
+>  If you set a breakpoint from the debugger, then it is not displayed in the C/AL Editor. If you enable, disable, or delete a breakpoint from the debugger, that change is not displayed in the C/AL Editor until you open the editor again.  
   
 ### To view breakpoints in the Debugger Breakpoint List window  
   

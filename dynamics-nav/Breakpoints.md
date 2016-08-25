@@ -24,7 +24,7 @@ You can break code execution of the session that you are debugging by:
   
  You can set breakpoints before you start a debugging session or when you are debugging. Breakpoints and break rules are applied immediately in the session to which the debugger is attached.  
   
- After the breakpoint is hit, you use the debugger to execute C\/AL code one line at a time. This procedure is called *stepping*. The **Code Tracking** group on the **Home** tab provides three actions for stepping:  
+ After the breakpoint is hit, you use the debugger to execute C/AL code one line at a time. This procedure is called *stepping*. The **Code Tracking** group on the **Home** tab provides three actions for stepping:  
   
 -   **Step Into**  
   
@@ -43,7 +43,7 @@ You can break code execution of the session that you are debugging by:
  For more information about user account requirements for setting breakpoints, see [Development Environment \(C\-SIDE\)](Development-Environment--C-SIDE-.md).  
   
 ## Break on Lines of Code  
- If you set a breakpoint on a line of C\/AL code, then execution breaks before the first statement on the line is executed. If you set a breakpoint on a line of code that does not have a C\/AL statement, then the breakpoint is automatically set on the next statement. If you set a breakpoint on a line of code that exceeds the number of lines of code in the object, then the breakpoint is set on the last line of code. You can set a condition on a breakpoint on a line of code so that execution breaks only if the condition is met. For more information, see the following topics:  
+ If you set a breakpoint on a line of C/AL code, then execution breaks before the first statement on the line is executed. If you set a breakpoint on a line of code that does not have a C/AL statement, then the breakpoint is automatically set on the next statement. If you set a breakpoint on a line of code that exceeds the number of lines of code in the object, then the breakpoint is set on the last line of code. You can set a condition on a breakpoint on a line of code so that execution breaks only if the condition is met. For more information, see the following topics:  
   
 -   [How to: Manage Breakpoints from the Debugger Breakpoint List](How%20to:%20Manage%20Breakpoints%20from%20the%20Debugger%20Breakpoint%20List.md)  
   
@@ -63,16 +63,16 @@ You can break code execution of the session that you are debugging by:
  For more information, see [How to: Break on the Next Statement](How%20to:%20Break%20on%20the%20Next%20Statement.md).  
   
 ## Break on Errors  
- You can specify that the debugger breaks execution if it encounters an error. If you specify that the debugger breaks on errors, then it breaks both on unhandled errors and on errors that you handle in C\/AL code. For more information about how to handle errors, see [Avoiding Run\-Time Errors](Avoiding-Run-Time-Errors.md).  
+ You can specify that the debugger breaks execution if it encounters an error. If you specify that the debugger breaks on errors, then it breaks both on unhandled errors and on errors that you handle in C/AL code. For more information about how to handle errors, see [Avoiding Run\-Time Errors](Avoiding-Run-Time-Errors.md).  
   
  When the debugger breaks on an error, you can inspect variables and parameters and you can review the error message for the current error. These inspection steps can help you determine the cause of the error.  
   
  For more information, see [How to: Break on Errors](How%20to:%20Break%20on%20Errors.md).  
   
 ## Break on Record Changes  
- You can specify that the debugger breaks execution before a change to a record occurs. If you specify that the debugger breaks on record changes, then it breaks before creating, updating, or deleting a record. The following table shows each record change and the C\/AL functions that cause each change.  
+ You can specify that the debugger breaks execution before a change to a record occurs. If you specify that the debugger breaks on record changes, then it breaks before creating, updating, or deleting a record. The following table shows each record change and the C/AL functions that cause each change.  
   
-|Record change|C\/AL functions|  
+|Record change|C/AL functions|  
 |-------------------|---------------------|  
 |Create a new record|[INSERT Function \(Record\)](INSERT-Function--Record-.md)|  
 |Update an existing record|[MODIFY Function \(Record\)](MODIFY-Function--Record-.md), [MODIFYALL Function \(Record\)](MODIFYALL-Function--Record-.md), [RENAME Function \(Record\)](RENAME-Function--Record-.md)|  

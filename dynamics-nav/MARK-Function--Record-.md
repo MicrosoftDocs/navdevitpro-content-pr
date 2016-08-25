@@ -44,7 +44,7 @@ Marks a record. You can also use this function to determine whether a record is 
 ## Example  
  This example shows how to use the MARK function. Assume that at first no records are marked.  
   
- This example requires that you create the following text constant in the **C\/AL Globals** window.  
+ This example requires that you create the following text constant in the **C/AL Globals** window.  
   
 |Text constant|ENU value|  
 |-------------------|---------------|  
@@ -84,7 +84,7 @@ UNTIL Customer.NEXT = 0;
 ## Example  
  This example shows how to use the MARK function together with the MARKEDONLY function. Assume that at first no records are marked.  
   
- This example requires that you create the following text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following text constants in the **C/AL Globals** window.  
   
 |Text constant|ENU value|  
 |-------------------|---------------|  

@@ -47,7 +47,7 @@ Gets part of a BigText variable.
  To delete the content in a BigText variable use the [CLEAR Function](CLEAR-Function.md). The following code snippet shows the syntax for the clear function. `CLEAR(BigText)`.  
   
 ## Example  
- The following examples demonstrate how to use the GETSUBTEXT function. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following examples demonstrate how to use the GETSUBTEXT function. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable Name|DataType|  
 |-------------------|--------------|  

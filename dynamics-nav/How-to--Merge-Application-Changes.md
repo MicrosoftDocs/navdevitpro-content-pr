@@ -87,7 +87,7 @@ caps.latest.revision: 7
   
 2.  Compile all imported objects.  
   
-     The application object that contain merge conflicts cannot compile because the conflicts are identified by `{>>>>>>>}` elements that are not valid C\/AL code. The code conflict is clearly marked with the conflicting code from each version.  
+     The application object that contain merge conflicts cannot compile because the conflicts are identified by `{>>>>>>>}` elements that are not valid C/AL code. The code conflict is clearly marked with the conflicting code from each version.  
   
 3.  Resolve each conflict, and then compile the objects.  
   

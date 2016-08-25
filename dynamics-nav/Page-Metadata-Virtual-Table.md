@@ -22,7 +22,7 @@ The **Page Metadata** virtual table \(ID 2000000138\) contains data about the pa
 |**Editable**|Specifies whether the page can be edited through the UI.|  
 |**PageType**|Specifies the page type as either **Card**, **List**, **RoleCenter**, **CardPart**, **ListPart**, **Document**, **Worksheet**, **ListPlus**, **ConfirmationDialog**, **NavigatePage**, or **StandardDialog**.|  
 |**CardPageID**|Specifies the ID of the **Card** type page that is associated with items in the page. This is typically used when the page is a **List**, **ListPart** or **ListPlus** page type.|  
-|**DataCaptionExpr**|Specifies a C\/AL expression that is evaluated and displayed to the left of the page caption.|  
+|**DataCaptionExpr**|Specifies a C/AL expression that is evaluated and displayed to the left of the page caption.|  
 |**RefreshOnActivate**|Specifies whether data on the page is automatically refreshed if you leave the page \(without closing it\), and then return.|  
 |**SourceTable**|Specifies the ID of the table from which this page will display records.|  
 |**SourceTableView**|Specifies the key, sort order, and filter you want to use to determine the view of the source table presented to the user.|  
@@ -39,7 +39,7 @@ The **Page Metadata** virtual table \(ID 2000000138\) contains data about the pa
 |**LinksAllowed**|Specifies whether links or notes are allowed on the page.|  
 |**PopulateAllFields**|Specifies whether fields are filled out automatically with a single filter value when a new record is inserted in a table.|  
   
- The fields in the virtual table correspond to C\/AL properties on the page objects. For more information, see [Page Properties](Page-Properties.md).  
+ The fields in the virtual table correspond to C/AL properties on the page objects. For more information, see [Page Properties](Page-Properties.md).  
   
  To access and view the **Page Metadata** virtual table, you must create a tabular\-type page. For more information, see [How to: Create a Page to View a Virtual Table](How%20to:%20Create%20a%20Page%20to%20View%20a%20Virtual%20Table.md)  
   

@@ -19,7 +19,7 @@ Creates a new [!INCLUDE[navnow](../includes/navnow_md.md)] object by copying the
 |----------------------------------|---------------------------------------|  
 |**ID**|Specifies the ID to assign the object. This sets the object's [ID Property](../ID-Property.md).|  
 |**Name**|Specifies the name to assign the object. This sets the object's [Name Property\-duplicate](../Name-Property-duplicate.md).|  
-|**Compile**|Specifies whether to compile the object.<br /><br /> Compiling the table object will check for syntax errors and obsolete construct errors in C\/AL code.|  
+|**Compile**|Specifies whether to compile the object.<br /><br /> Compiling the table object will check for syntax errors and obsolete construct errors in C/AL code.|  
 |**Synchronize Schema**|Specifies how to apply the table definition changes to the business data table in SQL Server. This option is only available when you compile a table.<br /><br /> Use the text on the **Save AS** window to help you select the desired option, or for more information, see [Synchronizing Table Schemas](../Synchronizing-Table-Schemas.md).|  
 
 ## See Also  

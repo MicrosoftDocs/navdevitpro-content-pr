@@ -39,7 +39,7 @@ Gets or sets the current key of the table referred to by the *RecordRef*. The cu
  The number of the current key.  
   
 ## Example  
- The following example loops through four tables \(36\-39\) opens each table as a RecordRef variable that is named MyRecordRef. The CURRENTKEYINDEX function retrieves the current key index of the tables. The name of the table and the current key index of each table are displayed in a message box. Each table is close before the next one is opened. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example loops through four tables \(36\-39\) opens each table as a RecordRef variable that is named MyRecordRef. The CURRENTKEYINDEX function retrieves the current key index of the tables. The name of the table and the current key index of each table are displayed in a message box. Each table is close before the next one is opened. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

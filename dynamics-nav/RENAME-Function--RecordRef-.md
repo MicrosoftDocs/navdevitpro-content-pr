@@ -68,7 +68,7 @@ Changes the value of a primary key in a table.
  You must design your application so that you use the most up\-to\-date version of the record for modifications to the database. You use the [GET Function \(RecordRef\)](GET-Function--RecordRef-.md) to refresh the record with the latest version.  
   
 ## Example  
- This example shows how to change the value of the primary key of a Record variable, and how to change the value of the primary key of a RecordRef variable. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ This example shows how to change the value of the primary key of a Record variable, and how to change the value of the primary key of a RecordRef variable. This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

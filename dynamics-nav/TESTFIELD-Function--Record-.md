@@ -41,7 +41,7 @@ Record.TESTFIELD(Field, [Value])
  If the contents of the field differ from the given value, then an error message is displayed.  
   
 ## Example  
- This example shows how to use the **TESTFIELD** function without the *Value* parameter. This example requires that you create the following variable in the **C\/AL Globals** window.  
+ This example shows how to use the **TESTFIELD** function without the *Value* parameter. This example requires that you create the following variable in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
@@ -57,7 +57,7 @@ CustomerRec.TESTFIELD("No.")
  **You must specify No. in Customer No.\=''.**  
   
 ## Example  
- This example shows how to use the **TESTFIELD** function with the *Value* parameter. This example requires that you create the following variable in the **C\/AL Globals** window.  
+ This example shows how to use the **TESTFIELD** function with the *Value* parameter. This example requires that you create the following variable in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

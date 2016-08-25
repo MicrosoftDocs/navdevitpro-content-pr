@@ -16,7 +16,7 @@ Specifies whether global functions in the object that contains the event publish
   
 ## Applies to  
   
--   C\/AL functions.  
+-   C/AL functions.  
   
      This property is only available when the [Event Property](Event-Property.md) is set to **Publisher**.  
   

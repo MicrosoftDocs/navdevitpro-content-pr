@@ -12,7 +12,7 @@ caps.latest.revision: 11
 manager: edupont
 ---
 # Handling Errors by Using Try Functions
-Try functions in C\/AL enable you to handle errors that occur in the application during code execution. For example, with try functions, you can provide more user\-friendly error messages to the end user than those thrown by the system.  
+Try functions in C/AL enable you to handle errors that occur in the application during code execution. For example, with try functions, you can provide more user\-friendly error messages to the end user than those thrown by the system.  
   
 ## Usage and Restrictions  
  The main purpose of try functions is to catch errors\/exceptions that are thrown by [!INCLUDE[navnow](includes/navnow_md.md)] or exceptions that are thrown during .NET Framework interoperability operations. What you cannot do in try functions are transactions that write to the database. All database write calls in the scope of try function are denied. In practice, this means that following function calls are not allowed inside a try function scope:  
@@ -22,10 +22,10 @@ Try functions in C\/AL enable you to handle errors that occur in the application
 |Record and RecordRef|-   INSERT<br />-   MODIFY<br />-   MODIFYALL<br />-   RENAME<br />-   DELETE<br />-   DELETEALL<br />-   ADDLINK<br />-   DELETELINK<br />-   DELETELINKS|  
 |Database|-   COMMIT|  
   
- Before you use try functions in an application, read more about their usage at [NAV Design Pattern: TryFunction – .NET Exception Handling in C\/AL](http://go.microsoft.com/fwlink/?LinkID=708596).  
+ Before you use try functions in an application, read more about their usage at [NAV Design Pattern: TryFunction – .NET Exception Handling in C/AL](http://go.microsoft.com/fwlink/?LinkID=708596).  
   
 ## Creating a Try Function  
- To create a try function, add a function in C\/AL code of an object \(such as a codeunit\) as usual, and then set the [TryFunction Property](TryFunction-Property.md) property to **Yes**. A try function has the following restrictions:  
+ To create a try function, add a function in C/AL code of an object \(such as a codeunit\) as usual, and then set the [TryFunction Property](TryFunction-Property.md) property to **Yes**. A try function has the following restrictions:  
   
 -   In test and upgrade codeunits, you can only use a try function on a normal function type, as defined by the [FunctionType Property \(Test Codeunits\)](FunctionType-Property--Test-Codeunits-.md) or [FunctionType Property \(Upgrade Codeunits\)](FunctionType-Property--Upgrade-Codeunits-.md).  
   

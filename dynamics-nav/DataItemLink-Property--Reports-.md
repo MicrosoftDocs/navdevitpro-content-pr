@@ -37,7 +37,7 @@ Sets the corresponding fields from two data items that are linked by the [DataIt
   
  **Sell\-to Customer No.\=FIELD\(No.\)**  
   
- You now have a filter on the records in the child data item. This filter only displays records that pertain to the currently selected customer record. You can also accomplish the same task by placing the following C\/AL statement in the [OnPreDataItem Trigger](OnPreDataItem-Trigger.md) for the child data item.  
+ You now have a filter on the records in the child data item. This filter only displays records that pertain to the currently selected customer record. You can also accomplish the same task by placing the following C/AL statement in the [OnPreDataItem Trigger](OnPreDataItem-Trigger.md) for the child data item.  
   
 ```  
 SETRANGE("Sell-to Customer No.",Customer."No.");  

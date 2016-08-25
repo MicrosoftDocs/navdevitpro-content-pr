@@ -16,11 +16,11 @@ After you have registered a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] 
   
 -   Bind the control add\-in field to a data source.  
   
-     Control add\-ins can use data from a field in the table that is associated with the page or from a C\/AL global variable.  
+     Control add\-ins can use data from a field in the table that is associated with the page or from a C/AL global variable.  
   
 -   Modify the [OnControlAddin Trigger](OnControlAddin-Trigger.md) to process data that is sent from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
--   Add C\/AL code to triggers that call methods and properties in the control add\-in.  
+-   Add C/AL code to triggers that call methods and properties in the control add\-in.  
   
 ## Preparing to Set Up the Control Add\-in  
   
@@ -54,21 +54,21 @@ After you have registered a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] 
   
      For more information, see the [ControlAddin Property](ControlAddin-Property.md).  
   
-8.  To bind the field to data in a table field or C\/AL global variable, set the **SourceExpr** property.  
+8.  To bind the field to data in a table field or C/AL global variable, set the **SourceExpr** property.  
   
     > [!NOTE]  
-    >  If the **SourceExpr** property is set to a C\/AL global variable, then in the C\/AL code, add code to the OnAfterGetRecord trigger to populate the global variable. For more information, see [OnAfterGetRecord Trigger](OnAfterGetRecord-Trigger.md).  
+    >  If the **SourceExpr** property is set to a C/AL global variable, then in the C/AL code, add code to the OnAfterGetRecord trigger to populate the global variable. For more information, see [OnAfterGetRecord Trigger](OnAfterGetRecord-Trigger.md).  
   
 9. Close the **Properties** window.  
   
 ##  <a name="EventTrigger"></a> Modifying the Microsoft Dynamics NAV Windows Client Control Add\-in Event Trigger  
- When invoked on a page, a control add\-in can raise an event that sends data to [!INCLUDE[nav_server](includes/nav_server_md.md)]. In the C\/AL code for the page, the event calls the OnControlAddIn trigger of the field control that is applied with the control add\-in. To process the event data, you add C\/AL code to the OnControlAddIn trigger. For more information, see [Exposing Events and Calling Respective C\-AL Triggers from a Windows Client Control Add\-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md).  
+ When invoked on a page, a control add\-in can raise an event that sends data to [!INCLUDE[nav_server](includes/nav_server_md.md)]. In the C/AL code for the page, the event calls the OnControlAddIn trigger of the field control that is applied with the control add\-in. To process the event data, you add C/AL code to the OnControlAddIn trigger. For more information, see [Exposing Events and Calling Respective C\-AL Triggers from a Windows Client Control Add\-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md).  
   
-#### To add C\/AL code to the control add\-in event trigger  
+#### To add C/AL code to the control add\-in event trigger  
   
-1.  On the **View** menu, choose **C\/AL Code**.  
+1.  On the **View** menu, choose **C/AL Code**.  
   
-2.  In the C\/AL Editor, locate the following field control trigger.  
+2.  In the C/AL Editor, locate the following field control trigger.  
   
     ```  
     Fieldname - OnControlAddIn(Index : Integer;Data : Text[1024])  
@@ -79,23 +79,23 @@ After you have registered a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] 
     > [!NOTE]  
     >  If the data type of the field's **SourceExpr** property is **BigText**, then the `Data` attribute is `BigText` instead of `Text[1024]`.  
   
-3.  Add the C\/AL code to the trigger.  
+3.  Add the C/AL code to the trigger.  
   
-4.  Close the C\/AL Editor.  
+4.  Close the C/AL Editor.  
   
 5.  On the **File** menu, choose **Save**, select **Compiled**, and then choose the **OK** button.  
   
-## Calling Control Add\-in Methods and Properties From C\/AL  
- Control add\-ins can expose methods and properties that you can call using C\/AL code from triggers on a page to extend the control add\-in user interface. To complete this procedure, you must know the method or property names. For more information, see [Exposing Methods and Properties in a Windows Client Control Add\-in](Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md).  
+## Calling Control Add\-in Methods and Properties From C/AL  
+ Control add\-ins can expose methods and properties that you can call using C/AL code from triggers on a page to extend the control add\-in user interface. To complete this procedure, you must know the method or property names. For more information, see [Exposing Methods and Properties in a Windows Client Control Add\-in](Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md).  
   
 #### To call a control add\-in method or property  
   
-1.  In the C\/AL Editor, locate the trigger from which you want to call the method or property.  
+1.  In the C/AL Editor, locate the trigger from which you want to call the method or property.  
   
     > [!NOTE]  
     >  You cannot call control add\-in methods or properties from the OnInit, OnOpenPage, or OnNewRecord triggers.  
   
-2.  Add the C\/AL code to the trigger that calls the method or property.  
+2.  Add the C/AL code to the trigger that calls the method or property.  
   
     -   To call a method, add the following code.  
   

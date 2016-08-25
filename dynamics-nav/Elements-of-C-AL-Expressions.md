@@ -12,7 +12,7 @@ caps.latest.revision: 6
 manager: edupont
 ---
 # Elements of C-AL Expressions
-All expressions in C\/AL are built from the following:  
+All expressions in C/AL are built from the following:  
   
 -   Constants  
   

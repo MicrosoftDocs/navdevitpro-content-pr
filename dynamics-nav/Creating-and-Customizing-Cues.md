@@ -44,13 +44,13 @@ This topic provides an overview of Cues and the tasks involved in creating and c
   
 -   Logic that calculates the data to display in the Cue at runtime.  
   
-     The logic can consist of a combination of C\/AL and [!INCLUDE[navnow](includes/navnow_md.md)] objects, such as tables, queries, and codeunits. How and where you implement the logic will depend on whether the Cue is based on a FlowField or Normal field and what you want to achieve.  
+     The logic can consist of a combination of C/AL and [!INCLUDE[navnow](includes/navnow_md.md)] objects, such as tables, queries, and codeunits. How and where you implement the logic will depend on whether the Cue is based on a FlowField or Normal field and what you want to achieve.  
   
 ### Supported Data Types  
  You can only base Cues on integer and decimal data types. Other data types are not supported and will not display in a Cue.  
   
 ### FlowFields versus Normal Fields  
- A Cue can be based on a FlowField or Normal field. If you base the Cue on a FlowField, then you add the logic that calculates the data for the Cue to the [CalcFormula Property](CalcFormula-Property.md) of the FlowField. If you use a Normal field, then you will typically add the logic that calculates the Cue data to a C\/AL trigger or function. Unlike a FlowField, where data is extracted from tables, a Normal field enables you to extract data from other objects such as queries.  
+ A Cue can be based on a FlowField or Normal field. If you base the Cue on a FlowField, then you add the logic that calculates the data for the Cue to the [CalcFormula Property](CalcFormula-Property.md) of the FlowField. If you use a Normal field, then you will typically add the logic that calculates the Cue data to a C/AL trigger or function. Unlike a FlowField, where data is extracted from tables, a Normal field enables you to extract data from other objects such as queries.  
   
 ##  <a name="CreateTable"></a> Creating a Table for Cue Data  
  The first thing that you must do is to create a table that contains fields that will hold the calculated data to display in the Cues at runtime.  
@@ -81,7 +81,7 @@ This topic provides an overview of Cues and the tasks involved in creating and c
  ![Page Designer showing cues](media/NAV_PageDesigner_SalesThisMonthCue_Clip.png "NAV\_PageDesigner\_SalesThisMonthCue\_Clip")  
   
 ### Initializing the Cue Fields  
- You must initialize the Cue fields on the page. To do this, for example, you can add the following C\/AL code to the [OnOpenPage Trigger](OnOpenPage-Trigger.md).  
+ You must initialize the Cue fields on the page. To do this, for example, you can add the following C/AL code to the [OnOpenPage Trigger](OnOpenPage-Trigger.md).  
   
 ```  
 RESET;  

@@ -41,7 +41,7 @@ public class MyObject
  This method requires that you have access to the source code of the .NET Framework assembly.  
   
 #### Basic Serialization of Date Fields  
- You can use basic serialization only if all data fields in the type are serializable. Fields that are calculated at runtime cannot be serialized. If a field cannot be serialized, then at runtime, the serialization process will throw an exception and the C\/AL code execution will fail.  
+ You can use basic serialization only if all data fields in the type are serializable. Fields that are calculated at runtime cannot be serialized. If a field cannot be serialized, then at runtime, the serialization process will throw an exception and the C/AL code execution will fail.  
   
  You can exclude fields from the serialization process by decorating the field with the [System.NonSerializedAttribute](http://go.microsoft.com/fwlink/?LinkID=262179) class.  
   
@@ -53,7 +53,7 @@ public class MyObject
  The common language runtime calls the constructor during deserialization to construct a replica of the source object. The constructor takes two parameters, a **SerializationInfo** type and a [System.Runtime.Serialization.StreamingContext](http://go.microsoft.com/fwlink/?LinkID=262182) type. The **StreamingContext** parameter describes the source and destination of a given serialized stream.  
   
 ### Custom Serialization Example  
- The following code example demonstrates a custom serialization object that implements the basic functionality that is required for compliance with the **ISerializable** interface. In the first procedure of this example, you create a .NET Framework assembly that includes a serializable type. In the second procedure, in the [!INCLUDE[navnow](includes/navnow_md.md)] development environment, you create a codeunit that includes two DotNet variables for the serializable type. You set one variable to target the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and the other to target the [!INCLUDE[nav_server](includes/nav_server_md.md)]. In C\/AL code, you add code that transfers the value for the DotNet variable on the [!INCLUDE[nav_server](includes/nav_server_md.md)] to the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. You will also add code that verifies that the data transfer is successful.  
+ The following code example demonstrates a custom serialization object that implements the basic functionality that is required for compliance with the **ISerializable** interface. In the first procedure of this example, you create a .NET Framework assembly that includes a serializable type. In the second procedure, in the [!INCLUDE[navnow](includes/navnow_md.md)] development environment, you create a codeunit that includes two DotNet variables for the serializable type. You set one variable to target the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and the other to target the [!INCLUDE[nav_server](includes/nav_server_md.md)]. In C/AL code, you add code that transfers the value for the DotNet variable on the [!INCLUDE[nav_server](includes/nav_server_md.md)] to the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. You will also add code that verifies that the data transfer is successful.  
   
 ##### To create the custom serialization object  
   

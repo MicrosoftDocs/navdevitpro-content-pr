@@ -43,7 +43,7 @@ Length := ARRAYLEN(Array[, Dimension])
 ## Example  
  This example shows how to use the ARRAYLEN function.  
   
- This example requires that you create the following variables in the **C\/AL Globals** window.  
+ This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|Dimension|  
 |-------------------|--------------|---------------|  

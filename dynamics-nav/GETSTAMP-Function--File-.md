@@ -51,7 +51,7 @@ Gets the exact time that a file was last written to.
  **true** if the file exists and the function completes successfully; otherwise, **false**.  
   
 ## Example  
- The following example gets the date and time that a file was written to and displays the data in a message box. The code example assumes that you have created the file 'C:\\MyFolder\\MyText.txt'. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example gets the date and time that a file was written to and displays the data in a message box. The code example assumes that you have created the file 'C:\\MyFolder\\MyText.txt'. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

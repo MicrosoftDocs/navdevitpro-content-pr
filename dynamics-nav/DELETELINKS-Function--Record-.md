@@ -28,7 +28,7 @@ Record.DELETELINKS
  The record that contains the links to delete.  
   
 ## Example  
- The following example removes all the links from the specified record \(number 30000\) in the Vendor table. This example requires that you create the following variable in the **C\/AL Globals** window.  
+ The following example removes all the links from the specified record \(number 30000\) in the Vendor table. This example requires that you create the following variable in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

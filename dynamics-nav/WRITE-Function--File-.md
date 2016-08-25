@@ -47,7 +47,7 @@ File.WRITE(Value)
  To read or write files in Unicode or in other formats, we recommend that you use .NET Framework interoperability and use the [System.IO Namespace](http://go.microsoft.com/fwlink/?LinkId=262250).  
   
 ## Example  
- The following example determines whether the specified file exists. If it exists, the [WRITEMODE Function \(File\)](WRITEMODE-Function--File-.md) allows the file to be open for writing. The [OPEN Function \(File\)](OPEN-Function--File-.md) opens the file, the [WRITE Function \(FILE\)](WRITE-Function--File-.md) writes the text “Hello World” to the file and then the [CLOSE Function \(File\)](CLOSE-Function--File-.md) closes the file. If the file does not exist, then an error message is displayed. This example assumes that you have created the following file: C:\\TestFolder\\TestFile.txt. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ The following example determines whether the specified file exists. If it exists, the [WRITEMODE Function \(File\)](WRITEMODE-Function--File-.md) allows the file to be open for writing. The [OPEN Function \(File\)](OPEN-Function--File-.md) opens the file, the [WRITE Function \(FILE\)](WRITE-Function--File-.md) writes the text “Hello World” to the file and then the [CLOSE Function \(File\)](CLOSE-Function--File-.md) closes the file. If the file does not exist, then an error message is displayed. This example assumes that you have created the following file: C:\\TestFolder\\TestFile.txt. This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

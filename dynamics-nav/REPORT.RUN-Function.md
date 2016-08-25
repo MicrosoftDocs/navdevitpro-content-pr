@@ -78,7 +78,7 @@ REPORT.RUN(1001, FALSE, TRUE);
 ```  
   
 ## Example  
- This example shows how to run a report for which you specify a record. This example displays the request window and sends the report to the system printer. This example requires that you create the following variable in the **C\/AL Globals** window.  
+ This example shows how to run a report for which you specify a record. This example displays the request window and sends the report to the system printer. This example requires that you create the following variable in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

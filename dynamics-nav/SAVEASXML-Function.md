@@ -35,7 +35,7 @@ Saves the resulting dataset of a query as an .xml file.
  *Number*  
  Type: Integer  
   
- The ID of the query object that you want to save as an .xml file. On the **View** menu, choose **C\/AL Symbol Menu** to select the query from a list. If the query that you specify does not exist, then a run\-time error occurs.  
+ The ID of the query object that you want to save as an .xml file. On the **View** menu, choose **C/AL Symbol Menu** to select the query from a list. If the query that you specify does not exist, then a run\-time error occurs.  
   
  *FileName*  
  Type: Text  

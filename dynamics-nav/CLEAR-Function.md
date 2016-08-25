@@ -25,7 +25,7 @@ CLEAR(Variable)
  *Variable*  
  Type: Any  
   
- The identifier \(variable\) of any C\/AL data type, including simple and composite data types. The following rules apply when you run the **CLEAR** function:  
+ The identifier \(variable\) of any C/AL data type, including simple and composite data types. The following rules apply when you run the **CLEAR** function:  
   
 -   A number variable is set to 0 \(zero\)  
   
@@ -38,7 +38,7 @@ CLEAR(Variable)
 -   A Boolean variable is set to FALSE  
   
 ## Remarks  
- Use the [CLEARALL Function](CLEARALL-Function.md) to clear all internal variables, keys, and filters in the object and in any associated objects such as reports, pages, and codeunits that contain C\/AL code. Note, however, that **CLEARALL** does not affect or change values for variables in single instance codeunits.  
+ Use the [CLEARALL Function](CLEARALL-Function.md) to clear all internal variables, keys, and filters in the object and in any associated objects such as reports, pages, and codeunits that contain C/AL code. Note, however, that **CLEARALL** does not affect or change values for variables in single instance codeunits.  
   
  For a composite data type, such as a record or an array, all elements are cleared. Furthermore, all fields in a record will be initialized with the [InitValue Property](InitValue-Property.md) of the field.  
   
@@ -57,7 +57,7 @@ CLEAR(Variable)
 ## Example  
  This example shows how to use the **CLEAR** function.  
   
- This example requires that you create the following text constants in the **C\/AL Globals** window  
+ This example requires that you create the following text constants in the **C/AL Globals** window  
   
 |Text constant|ConstValue|  
 |-------------------|----------------|  
@@ -90,7 +90,7 @@ GuidVar, data type: "GUID".
   
  These variables will be declared and cleared, first by using **CLEAR** and then by using **CLEARALL**.  
   
- This example requires that you create the following text constants in the **C\/AL Globals** window  
+ This example requires that you create the following text constants in the **C/AL Globals** window  
   
 |Text constant|ENU value|  
 |-------------------|---------------|  

@@ -19,11 +19,11 @@ manager: edupont
 ## What's New for Developers, Administrators, and IT Pros in [!INCLUDE[navcorfu](includes/navcorfu_md.md)]  
  [!INCLUDE[navcorfu](includes/navcorfu_md.md)] introduces changes to the upgrade, development, deployment, and administration experiences compared to [!INCLUDE[navcrete](includes/navcrete_md.md)].  
   
-### Redesigned C\/AL Editor  
- The C\/AL Editor in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] has been redesigned to give you more coding capabilities. Coding in the new C\/AL editor is like before except you benefit from new features such as IntelliSense, name completion, change tracking, improved syntax highlighting and colorization. The new design has a look\-and\-feel that resembles the Debugger regarding breakpoints.  
+### Redesigned C/AL Editor  
+ The C/AL Editor in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] has been redesigned to give you more coding capabilities. Coding in the new C/AL editor is like before except you benefit from new features such as IntelliSense, name completion, change tracking, improved syntax highlighting and colorization. The new design has a look\-and\-feel that resembles the Debugger regarding breakpoints.  
   
 > [!TIP]  
->  You can use the old version of the C\/AL Editor by running the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] from a command prompt and setting the `useoldeditor` parameter.  
+>  You can use the old version of the C/AL Editor by running the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] from a command prompt and setting the `useoldeditor` parameter.  
   
 ### Record Permissions and Apply Permissions Sets to User Groups  
  Administrators can record new permission sets in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. Recording permissions is based on the code coverage functionality. You can access the various windows and activities in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or the [!INCLUDE[nav_web](includes/nav_web_md.md)] that you want users with this permission set to access. You must carry out the tasks that you want to record permissions for. Then, you can apply the new permission set to a group of users.  
@@ -32,8 +32,8 @@ manager: edupont
   
  For more information, see the [User Groups](User%20Groups.md) topic in the Application Help and the [How to: Create or Modify Permission Sets](How%20to:%20Create%20or%20Modify%20Permission%20Sets.md) topic in the Developer and IT Pro Help.  
   
-### Events in C\/AL  
- By implementing events in C\/AL code, you can design applications to react to specific actions or behavior that occur. Events enable you to separate customized functionality from the application business logic. By using events in the application where customizations are typically made, you can lower the cost of code modifications and upgrades to the original application.  
+### Events in C/AL  
+ By implementing events in C/AL code, you can design applications to react to specific actions or behavior that occur. Events enable you to separate customized functionality from the application business logic. By using events in the application where customizations are typically made, you can lower the cost of code modifications and upgrades to the original application.  
   
  For more information, see [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md).  
   
@@ -61,11 +61,11 @@ manager: edupont
  You can update custom report layouts by creating upgrade codeunits to handle changes in report datasets that affect the report layouts. Upgrade codeunits enable you to programmatically update multiple custom report layouts in the database to changes in report datasets that cannot be resolved by users from the [!INCLUDE[navnow](includes/navnow_md.md)] client. For more information, see [Updating Custom Report Layouts by Using Upgrade Codeunits](Updating-Custom-Report-Layouts-by-Using-Upgrade-Codeunits.md).  
   
 ### Filter Pages for Filtering Tables  
- [!INCLUDE[navcorfu](includes/navcorfu_md.md)] includes the new C\/AL data type **FILTERPAGEBUILDER**. You can use the FILTERPAGEBUILDER data type and its functions to create a filter page that enables users to set filters on one or more tables. A filter page contains one or more filter controls, where each filter control can be used to set filters on a specific table. Similar to report request pages in the [!INCLUDE[navnow](includes/navnow_md.md)] client, filter pages are generated at runtime and run in a modal dialog box.  
+ [!INCLUDE[navcorfu](includes/navcorfu_md.md)] includes the new C/AL data type **FILTERPAGEBUILDER**. You can use the FILTERPAGEBUILDER data type and its functions to create a filter page that enables users to set filters on one or more tables. A filter page contains one or more filter controls, where each filter control can be used to set filters on a specific table. Similar to report request pages in the [!INCLUDE[navnow](includes/navnow_md.md)] client, filter pages are generated at runtime and run in a modal dialog box.  
   
  For more information, see [Creating Filter Pages for Filtering Tables](Creating-Filter-Pages-for-Filtering-Tables.md) and [FilterPageBuilder Data Type](FilterPageBuilder-Data-Type.md).  
   
-### C\/AL Try Functions for Handling Errors  
+### C/AL Try Functions for Handling Errors  
  Try functions enable you to catch and handle errors that occur when running the application. You can use try functions to catch errors and exceptions that are thrown by [!INCLUDE[navnow](includes/navnow_md.md)] or .NET Framework interoperability operations.  
   
  For more information, see [Handling Errors by Using Try Functions](Handling-Errors-by-Using-Try-Functions.md).  
@@ -168,8 +168,8 @@ manager: edupont
 ### Multilanguage Captions Compile as Unicode  
  When you compile application objects, [!INCLUDE[navnow](includes/navnow_md.md)] stores the objects in Unicode encoding. If the application objects contain multilanguage captions, [!INCLUDE[navnow](includes/navnow_md.md)] uses the code pages that are relevant for the languages that you have specified. For more information, see [Developing Multilanguage\-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  
   
-## Changes to C\/AL Functions, Data Types, Properties, and Triggers in [!INCLUDE[navcorfu](includes/navcorfu_md.md)]  
- BROKEN-INCLUDE-startchm](../Token/startchm_md.md)]For a list of changes to C\/AL functions, data types, properties, and triggers, see [Changes in C\-AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV](Changes-in-C-AL-Behavior-and-Support-from-Earlier-Versions-of-Microsoft-Dynamics-NAV.md). [!INCLUDE[endchmFor a list of changes to C\/AL functions, data types, properties, and triggers, see the "Changes in C\/AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV" topic in the Developer and IT Pro Help.  
+## Changes to C/AL Functions, Data Types, Properties, and Triggers in [!INCLUDE[navcorfu](includes/navcorfu_md.md)]  
+ BROKEN-INCLUDE-startchm](../Token/startchm_md.md)]For a list of changes to C/AL functions, data types, properties, and triggers, see [Changes in C\-AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV](Changes-in-C-AL-Behavior-and-Support-from-Earlier-Versions-of-Microsoft-Dynamics-NAV.md). [!INCLUDE[endchmFor a list of changes to C/AL functions, data types, properties, and triggers, see the "Changes in C/AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV" topic in the Developer and IT Pro Help.  
   
 ## Changes to [!INCLUDE[nav_shell](includes/nav_shell_md.md)] and [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] cmdlets  
  For a list of new, changed, or removed Windows PowerShell cmdlets, see [Changes to Microsoft Dynamics NAV Cmdlets From Previous Release](Changes-to-Microsoft-Dynamics-NAV-Cmdlets-From-Previous-Release.md).  

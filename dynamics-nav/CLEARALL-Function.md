@@ -12,7 +12,7 @@ caps.latest.revision: 5
 manager: edupont
 ---
 # CLEARALL Function
-Clears all internal variables \(except REC variables\), keys, and filters in the object and in any associated objects, such as reports, pages, codeunits, and so on that contain C\/AL code.  
+Clears all internal variables \(except REC variables\), keys, and filters in the object and in any associated objects, such as reports, pages, codeunits, and so on that contain C/AL code.  
   
 ## Syntax  
   

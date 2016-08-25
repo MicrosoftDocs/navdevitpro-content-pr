@@ -11,7 +11,7 @@ ms.assetid: b7533238-04ef-4408-93fc-dd5c5c154346
 caps.latest.revision: 23
 ---
 # C-AL Reserved Words
-C\/AL has several reserved words that you cannot use as variable, constant, or function names in your application. Reserved words include the following types:  
+C/AL has several reserved words that you cannot use as variable, constant, or function names in your application. Reserved words include the following types:  
   
 -   Data types  
   
@@ -32,7 +32,7 @@ C\/AL has several reserved words that you cannot use as variable, constant, or f
  If you write code on client report definition \(RDLC\) report layouts, then verify that your code does not use Visual Studio Report Designer reserved words. For more information, see [Using Expressions in a Report \(Visual Studio Report Designer\)](http://go.microsoft.com/fwlink/?LinkId=160607) and its subtopics.  
   
 ## List of Reserved Words  
- The following table lists all of the C\/AL reserved words.  
+ The following table lists all of the C/AL reserved words.  
   
 |Reserved word|Type|  
 |-------------------|----------|  

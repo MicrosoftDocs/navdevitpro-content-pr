@@ -41,7 +41,7 @@ Empty := RecordRef.ISEMPTY
  This function works the same as the [ISEMPTY Function \(Record\)](ISEMPTY-Function--Record-.md).  
   
 ## Example  
- The following example opens table 18, the customer table as a RecordRef variable that is named. CustomerRecref. The [ISEMPTY Function \(RECORDREF\)](ISEMPTY-Function--RecordRef-.md) determines whether the table is empty. The message box displays **No** because the Customer table is not empty. **No** represents **false**. This example requires that you create the following variable text constant in the **C\/AL Global** window.  
+ The following example opens table 18, the customer table as a RecordRef variable that is named. CustomerRecref. The [ISEMPTY Function \(RECORDREF\)](ISEMPTY-Function--RecordRef-.md) determines whether the table is empty. The message box displays **No** because the Customer table is not empty. **No** represents **false**. This example requires that you create the following variable text constant in the **C/AL Global** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

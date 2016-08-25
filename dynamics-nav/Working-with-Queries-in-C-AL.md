@@ -12,10 +12,10 @@ caps.latest.revision: 10
 manager: edupont
 ---
 # Working with Queries in C-AL
-After you create a query, you can use C\/AL code to run the query and retrieve data from the resulting dataset. There are several functions that you can call on the query to filter the dataset, read rows, access columns, and save the dataset to a file in XML or CSV format.  
+After you create a query, you can use C/AL code to run the query and retrieve data from the resulting dataset. There are several functions that you can call on the query to filter the dataset, read rows, access columns, and save the dataset to a file in XML or CSV format.  
   
 ## Query Functions  
- The following table contains the C\/AL functions available for running queries and accessing the resulting dataset.  
+ The following table contains the C/AL functions available for running queries and accessing the resulting dataset.  
   
 |Function|Description|  
 |--------------|-----------------|  
@@ -33,10 +33,10 @@ After you create a query, you can use C\/AL code to run the query and retrieve d
 |[SAVEASXML Function](SAVEASXML-Function.md)|Saves a query dataset as an .xml file.|  
   
 ## Query Triggers  
- Queries include an OnBeforeOpen trigger in C\/AL that executes before the query is opened and the dataset is generated. For more information, see [OnBeforeOpen Trigger](OnBeforeOpen-Trigger.md).  
+ Queries include an OnBeforeOpen trigger in C/AL that executes before the query is opened and the dataset is generated. For more information, see [OnBeforeOpen Trigger](OnBeforeOpen-Trigger.md).  
   
 ## Query State Diagram  
- The following figure illustrates the state of a query object for each of the query function calls in C\/AL.  
+ The following figure illustrates the state of a query object for each of the query function calls in C/AL.  
   
  ![State diagram for query function calls](media/NAV_Query_State_Diagram.png "NAV\_Query\_State\_Diagram")  
   

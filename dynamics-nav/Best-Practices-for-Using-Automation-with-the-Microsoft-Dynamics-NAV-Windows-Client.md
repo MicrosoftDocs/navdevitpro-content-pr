@@ -17,7 +17,7 @@ With Automation, Windows\-based applications, such as Microsoft Office products,
  Because Automation objects expose a COM interface, Automation can affect the performance and security of your solution. This topic provides best practices and recommendations to follow when implementing Automation in the RoleTailored client to help limit potential performance and security issues.  
   
 > [!NOTE]  
->  You specify an Automation objects to run on the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] by using the [CREATE Function \(Automation\)](CREATE-Function--Automation-.md) in C\/AL code of the object that runs the Automation object.  
+>  You specify an Automation objects to run on the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] by using the [CREATE Function \(Automation\)](CREATE-Function--Automation-.md) in C/AL code of the object that runs the Automation object.  
   
 ## Automation Object Implementation and Support in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]  
  Use the following figure and table to help you determine whether the Automation object is supported on the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] based on the Automation object's characteristics.  
@@ -41,10 +41,10 @@ With Automation, Windows\-based applications, such as Microsoft Office products,
 ##  <a name="Native_Managed_Objects"></a> Native and Managed Automation Objects  
  The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] supports Automation objects that are created from either native or managed code. Automation in [!INCLUDE[navnow](includes/navnow_md.md)] uses the common language runtime \(CLR\), which allows managed code to call unmanaged and native Automation objects. The CLR generates a runtime\-callable wrapper \(RCW\) proxy that implements all interfaces of the underlying Automation object. Additionally, the CLR has a built\-in marshaling layer that maps the types between the native and managed domains.  
   
-### Data Type Mapping Between C\/AL, COM, and CLR  
- The following table lists the type mappings between C\/AL, COM, and the corresponding .NET CLR types.  
+### Data Type Mapping Between C/AL, COM, and CLR  
+ The following table lists the type mappings between C/AL, COM, and the corresponding .NET CLR types.  
   
-|C\/AL type|COM type|CLR type|  
+|C/AL type|COM type|CLR type|  
 |----------------|--------------|--------------|  
 |Automation|VT\_DISPATCH|System.Object|  
 |BigInteger|VT\_I8|System.Int64|  
@@ -69,7 +69,7 @@ With Automation, Windows\-based applications, such as Microsoft Office products,
  Automation objects are late\-bound activated, which means that they must implement the IDispatch interface. This allows the reflection API, which represents the classes, interfaces, and objects in the .NET runtime, to invoke members. The RCW recognizes managed Automation objects as being managed objects, and standard CLR reflection invocation takes place. As a result, in\-process \(DLL\) and out\-of\-process \(EXE\) Automation behaves identically when the Automation objects are created in a managed language.  
   
 ## Implementing Automation Objects as VAR Parameters  
- You can implement an automation object as a VAR parameter in a function call, which means that it is called by reference. If an automation method returns [IUnknown](http://go.microsoft.com/fwlink/?LinkID=262169) or [IDispatch](http://go.microsoft.com/fwlink/?LinkID=262170) objects in the parameter list, then you must create the automation variable before it can be used; otherwise, you will get an error at runtime. For example, the following C\/AL code creates an **automatioObject** variable and calls a method that will return an IDispatch object in the created variable..  
+ You can implement an automation object as a VAR parameter in a function call, which means that it is called by reference. If an automation method returns [IUnknown](http://go.microsoft.com/fwlink/?LinkID=262169) or [IDispatch](http://go.microsoft.com/fwlink/?LinkID=262170) objects in the parameter list, then you must create the automation variable before it can be used; otherwise, you will get an error at runtime. For example, the following C/AL code creates an **automatioObject** variable and calls a method that will return an IDispatch object in the created variable..  
   
 ```  
 create(automationObject, true, true);  

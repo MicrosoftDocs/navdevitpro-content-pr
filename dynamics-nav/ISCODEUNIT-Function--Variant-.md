@@ -12,7 +12,7 @@ caps.latest.revision: 7
 manager: edupont
 ---
 # ISCODEUNIT Function (Variant)
-Indicates whether a C\/AL variant contains a Codeunit variable.  
+Indicates whether a C/AL variant contains a Codeunit variable.  
   
 ## Syntax  
   
@@ -28,7 +28,7 @@ Ok := Variant.ISCODEUNIT
 ## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the C\/AL variant contains a Codeunit variable; otherwise, **false**.  
+ **true** if the C/AL variant contains a Codeunit variable; otherwise, **false**.  
   
 ## See Also  
  [Variant Data Type](Variant-Data-Type.md)

@@ -44,7 +44,7 @@ Number := DATE2DMY(Date, What)
  The day, month, or year of the *Date* parameter.  
   
 ## Example  
- This example shows how to use the DATE2DMY function. This code example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This example shows how to use the DATE2DMY function. This code example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Name|DataType|  
 |----------|--------------|  

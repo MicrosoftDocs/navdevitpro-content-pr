@@ -75,7 +75,7 @@ Query.ColumnName
     |------------------------|---------------|  
     |Text000|Customer name \= %1, Quantity \= %2|  
   
- The following C\/AL code opens the query, reads each row of dataset, and then displays a message that has the content of the row. You can add the code to a codeunit, and then run the codeunit to see the results.  
+ The following C/AL code opens the query, reads each row of dataset, and then displays a message that has the content of the row. You can add the code to a codeunit, and then run the codeunit to see the results.  
   
 ```  
 // Sets a filter to display only sales quantities greater than 20.  

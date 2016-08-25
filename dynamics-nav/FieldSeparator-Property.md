@@ -40,7 +40,7 @@ Sets the string that is to be used to separate fields.
   
  **FieldSeparator** is only used if the Format property is set to **Variable Text**. Otherwise, the setting is ignored.  
   
- You can set the field separator in C\/AL code so that the XMLport can import and export records with different separators. For example, if your XMLport must import from a file or stream where one record uses commas and another uses TAB, you can change the field seperator property at run time.  
+ You can set the field separator in C/AL code so that the XMLport can import and export records with different separators. For example, if your XMLport must import from a file or stream where one record uses commas and another uses TAB, you can change the field seperator property at run time.  
   
 ## See Also  
  [Properties](Properties.md)   

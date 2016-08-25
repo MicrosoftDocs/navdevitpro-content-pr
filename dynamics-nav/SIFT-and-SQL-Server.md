@@ -33,7 +33,7 @@ CREATE UNIQUE CLUSTERED INDEX VSIFTIDX ON
 GLEntry$VSIFT$1(AccountNo,PostingDate)*  
 ```  
   
- The following C\/AL code example retrieves a total.  
+ The following C/AL code example retrieves a total.  
   
 ```  
 GLEntry.SETCURRENTKEY("G/L Account No.","Posting Date");  

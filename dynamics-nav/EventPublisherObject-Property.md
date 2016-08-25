@@ -16,7 +16,7 @@ Specifies the object that contains the event publisher function that the event s
   
 ## Applies to  
   
--   C\/AL functions.  
+-   C/AL functions.  
   
      This property is only available when the [Event Property](Event-Property.md) is set to **Subscriber**.  
   

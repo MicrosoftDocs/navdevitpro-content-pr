@@ -131,7 +131,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
   
 1.  In [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], open the page **5241 CRM Coupling Customer** in Page Designer.  
   
-     Because the coupling pages contain a lot of logic in C\/AL code, you will use a copy of this page as a starting point for creating the coupling page for campaigns.  
+     Because the coupling pages contain a lot of logic in C/AL code, you will use a copy of this page as a starting point for creating the coupling page for campaigns.  
   
 2.  Save and compile the page as a new page that has the ID **50002** and the name **CRM Coupling Campaign**.  
   
@@ -158,7 +158,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
   
     4.  Rename the **Dynamics CRM Account** group to **Dynamics CRM Campaign** and replace the fields in the group with fields from the **CRMCampaign** variable that match fields in the **Dynamics NAV Campaign** group.  
   
-6.  Open the C\/AL code, and follow these steps to change all references to [!INCLUDE[crm](includes/crm_md.md)] accounts with references to [!INCLUDE[crm](includes/crm_md.md)] campaigns:  
+6.  Open the C/AL code, and follow these steps to change all references to [!INCLUDE[crm](includes/crm_md.md)] accounts with references to [!INCLUDE[crm](includes/crm_md.md)] campaigns:  
   
     1.  Change the local variables on the following triggers. For record type variables, you change the name and set the subtype to point to the integration table **50001 CRM Campaign**.  
   
@@ -199,7 +199,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
     |ManageCRMCoupling|Manage Coupling|  
     |DeleteCRMCoupling|Delete Coupling|  
   
-5.  Open the C\/AL code for the actions, and follow these steps:  
+5.  Open the C/AL code for the actions, and follow these steps:  
   
     1.  In the code for the action `ManageCRMCoupling`, add a local variable that has name **CRMIntegrationManagement** and references codeunit **5330 CRM Integration Management** as its subtype, and then add the following line of code:  
   
@@ -252,7 +252,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
   
 2.  In the **Dynamics CRM** action group, before the **Coupling** action, add a new action that has the name **GotoCRMCampaign** and caption **Campaign**.  
   
-3.  In the C\/AL code for the action, add a variable that has the name **CRMIntegrationManagement** and references codeunit **5330 CRM Integration Management**, and then add the following line of code:  
+3.  In the C/AL code for the action, add a variable that has the name **CRMIntegrationManagement** and references codeunit **5330 CRM Integration Management**, and then add the following line of code:  
   
     ```  
     CRMIntegrationManagement.ShowCRMEntityFromRecordID(RECORDID);  
@@ -387,7 +387,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
   
 2.  In the **Dynamics CRM** action group, before the **Coupling** action group, add a new action that has the name **CRMSynchronizeNow** and the caption **Synchronize Now**.  
   
-3.  In the C\/AL code for the action, add a global variable that has the name **CRMIntegrationManagement** and references codeunit **5330 CRM Integration Management**, and then add the following line of code:  
+3.  In the C/AL code for the action, add a global variable that has the name **CRMIntegrationManagement** and references codeunit **5330 CRM Integration Management**, and then add the following line of code:  
   
     ```  
     CRMIntegrationManagement.UpdateOneNow(RECORDID);  

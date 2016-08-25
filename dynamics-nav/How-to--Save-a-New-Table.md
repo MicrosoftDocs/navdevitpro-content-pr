@@ -27,7 +27,7 @@ When you design the fields and keys for a new table, you need to save the table 
 3.  In the **Name** field, enter the name of the table.  
   
     > [!NOTE]  
-    >  We recommend that you do not use a number at the start of the name or if you do, then do not include a blank space after the number and before any text; otherwise you might experience errors when referencing the table from C\/AL code.  
+    >  We recommend that you do not use a number at the start of the name or if you do, then do not include a blank space after the number and before any text; otherwise you might experience errors when referencing the table from C/AL code.  
   
 4.  Clear the **Compiled** check box if you do not want the table to be compiled when it is saved.  
   

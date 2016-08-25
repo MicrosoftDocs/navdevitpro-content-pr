@@ -28,7 +28,7 @@ Before you release your [!INCLUDE[navnow](includes/navnow_md.md)] application, y
 -   ASSERTERROR statement.  
   
 ### Test Codeunits  
- You write test functions as C\/AL code in the test codeunits. When a test codeunit runs, it executes the OnRun function, and then executes each test function in the codeunit. By default, each test function runs in a separate database transaction, but you can use the [TransactionModel Property](TransactionModel-Property.md) on test functions and the [TestIsolation Property](TestIsolation-Property.md) on test runner codeunits to control the transactional behavior. By default, the results of a test codeunit are displayed in a message window, but you can use the [OnAfterTestRun Trigger](OnAfterTestRun-Trigger.md) on a test runner codeunit to capture the results. The outcome of a test function is either SUCCESS or FAILURE. If any error is raised by either the code that is being tested or the test code, then the outcome is FAILURE and the error is included in the results log file.  
+ You write test functions as C/AL code in the test codeunits. When a test codeunit runs, it executes the OnRun function, and then executes each test function in the codeunit. By default, each test function runs in a separate database transaction, but you can use the [TransactionModel Property](TransactionModel-Property.md) on test functions and the [TestIsolation Property](TestIsolation-Property.md) on test runner codeunits to control the transactional behavior. By default, the results of a test codeunit are displayed in a message window, but you can use the [OnAfterTestRun Trigger](OnAfterTestRun-Trigger.md) on a test runner codeunit to capture the results. The outcome of a test function is either SUCCESS or FAILURE. If any error is raised by either the code that is being tested or the test code, then the outcome is FAILURE and the error is included in the results log file.  
   
  Even if the outcome of one test function is FAILURE, the next test functions are still executed.  
   
@@ -62,7 +62,7 @@ Before you release your [!INCLUDE[navnow](includes/navnow_md.md)] application, y
  For more information, see [How to: Create a Test Runner Codeunit](How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md).  
   
 ### Test Pages  
- Test pages mimic actual pages but do not present any UI on a client computer. Test pages let you test the code on a page by using C\/AL to simulate user interaction with the page.  
+ Test pages mimic actual pages but do not present any UI on a client computer. Test pages let you test the code on a page by using C/AL to simulate user interaction with the page.  
   
  There are two types of test pages:  
   
@@ -70,10 +70,10 @@ Before you release your [!INCLUDE[navnow](includes/navnow_md.md)] application, y
   
 -   TestRequestPage, which represents the request page on a report.  
   
- You can access the fields on a page and the properties of a page or a field by using the dot notation. You can open and close test pages, perform actions on the test page, and navigate around the test page by using C\/AL functions. For more information, see [Testing Pages](Testing-Pages.md).  
+ You can access the fields on a page and the properties of a page or a field by using the dot notation. You can open and close test pages, perform actions on the test page, and navigate around the test page by using C/AL functions. For more information, see [Testing Pages](Testing-Pages.md).  
   
 ### UI Handlers  
- To create tests that can be automated, you must handle cases when user interaction is requested by code that is being tested. UI handlers run instead of the requested UI. UI handlers provide the same exit state as the UI. For example, a test function that has a FunctionType of ConfirmHandler handles CONFIRM function calls. If code that is being tested calls the CONFIRM function, then the ConfirmHandler function is called instead of the CONFIRM function. You write code in the ConfirmHandler function to verify that the expected question is displayed by the CONFIRM function and you write C\/AL code to return the relevant reply.  
+ To create tests that can be automated, you must handle cases when user interaction is requested by code that is being tested. UI handlers run instead of the requested UI. UI handlers provide the same exit state as the UI. For example, a test function that has a FunctionType of ConfirmHandler handles CONFIRM function calls. If code that is being tested calls the CONFIRM function, then the ConfirmHandler function is called instead of the CONFIRM function. You write code in the ConfirmHandler function to verify that the expected question is displayed by the CONFIRM function and you write C/AL code to return the relevant reply.  
   
  The following table describes the available UI handlers.  
   

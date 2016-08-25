@@ -15,13 +15,13 @@ manager: edupont
 This topic provides a complete overview of type conversion rules for the arithmetic operators.  
   
 ## Unary Arithmetic Operators  
- The unary arithmetic operators in C\/AL are prefix operators with the following syntax.  
+ The unary arithmetic operators in C/AL are prefix operators with the following syntax.  
   
 ```  
 PrefixExpression = PrefixOperator Expression  
 ```  
   
- The following table shows the data types for which the unary operators in C\/AL are defined, and the resulting data types.  
+ The following table shows the data types for which the unary operators in C/AL are defined, and the resulting data types.  
   
 |Unary operator|Option|Integer|Decimal|  
 |--------------------|------------|-------------|-------------|  
@@ -29,7 +29,7 @@ PrefixExpression = PrefixOperator Expression
 |\-|integer|integer|decimal|  
   
 ## Binary Arithmetic Operators  
- The following table shows the data types for which the binary arithmetic operators are defined. The binary arithmetic operators in C\/AL are all infix operators.  
+ The following table shows the data types for which the binary arithmetic operators are defined. The binary arithmetic operators in C/AL are all infix operators.  
   
 ```  
 InfixExpression = LeftExpression InfixOperator RightExpression  

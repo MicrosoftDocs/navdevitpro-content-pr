@@ -12,7 +12,7 @@ caps.latest.revision: 9
 manager: edupont
 ---
 # Accessing Columns of a Query Dataset
-If the query is in the reading state, you can retrieve the value of columns in the current active row of the dataset by using the following syntax in C\/AL.  
+If the query is in the reading state, you can retrieve the value of columns in the current active row of the dataset by using the following syntax in C/AL.  
   
 ## Syntax  
   
@@ -51,7 +51,7 @@ ColumnValue := QueryVariable.ColumnName
     |------------------------|---------------|  
     |Text000|Customer name \= %1, Quantity \= %2|  
   
- The following C\/AL code opens the query, reads each row of dataset, and then displays a message that has the content of each row. You can add the code to a codeunit, and then run the codeunit to see the results.  
+ The following C/AL code opens the query, reads each row of dataset, and then displays a message that has the content of each row. You can add the code to a codeunit, and then run the codeunit to see the results.  
   
 ```  
 // Sets a filter to display only sales quantities greater than 20.  

@@ -27,5 +27,5 @@ To get started developing in [!INCLUDE[navnowlong](includes/navnowlong_md.md)], 
 |Develop tables, codeunits, pages, reports, queries, XMLports, and MenuSuites in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].|[Objects](Objects.md)|  
 |Learn about administration tools and processes for [!INCLUDE[navnowlong](includes/navnowlong_md.md)].|[Administration](Administration.md)|  
 |Read about application security.|[Security and Protection](Security-and-Protection.md)|  
-|Find reference information, including C\/AL functions, triggers, properties, [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] commands, and [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] windows.|[Technical Reference](Technical-Reference.md)|  
+|Find reference information, including C/AL functions, triggers, properties, [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] commands, and [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] windows.|[Technical Reference](Technical-Reference.md)|  
 |Watch videos to learn more about development and UI on the MSDN Dev Center for [!INCLUDE[navnow](includes/navnow_md.md)].|[Microsoft Dynamics NAV Dev Center](http://go.microsoft.com/fwlink/?LinkId=529790)|

@@ -34,7 +34,7 @@ Cancels and deletes a scheduled task that runs a specific codeunit.
 ## Remarks  
  Scheduled tasks are recorded in table **2000000175 Scheduled Task**. CANCELTASK removes the task entry from the table.  
   
- CANCELTASK can only cancel pending tasks. It cannot cancel a task that is in process. To see an example of CANCELTASK in use, refer to C\/AL code of table **472 Job Queue Entry**.  
+ CANCELTASK can only cancel pending tasks. It cannot cancel a task that is in process. To see an example of CANCELTASK in use, refer to C/AL code of table **472 Job Queue Entry**.  
   
  For more information about tasks and TASKSCEDULER data type functions, see managing tasks [Task Scheduler](Task-Scheduler.md).  
   

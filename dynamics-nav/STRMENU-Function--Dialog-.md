@@ -47,7 +47,7 @@ OptionNumber := Dialog.STRMENU(OptionString [, DefaultNumber] [, Instruction])
 ## Example  
  This example shows how to use the Dialog.STRMENU function.  
   
- This code example requires that you create the following text constants and variables in the **C\/AL Globals** window.  
+ This code example requires that you create the following text constants and variables in the **C/AL Globals** window.  
   
 |Name|ConstValue|  
 |----------|----------------|  

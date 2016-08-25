@@ -11,7 +11,7 @@ ms.assetid: 54287f24-da52-4e74-97f5-06b934a53728
 caps.latest.revision: 6
 ---
 # Application Test Automation
-You can write application tests in C\/AL and run them individually or collectively. The [!INCLUDE[navnow](includes/navnow_md.md)] product media includes a folder with application objects that form a library of application tests, helper functions, and test runners so you can automate your application tests. For example, use the application test libraries to verify your application after upgrading to the latest release of [!INCLUDE[navnow](includes/navnow_md.md)].  
+You can write application tests in C/AL and run them individually or collectively. The [!INCLUDE[navnow](includes/navnow_md.md)] product media includes a folder with application objects that form a library of application tests, helper functions, and test runners so you can automate your application tests. For example, use the application test libraries to verify your application after upgrading to the latest release of [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 ## Application Test Toolkit  
  The **TestToolkit** folder on the [!INCLUDE[navnow](includes/navnow_md.md)] product media includes three .fob files:  

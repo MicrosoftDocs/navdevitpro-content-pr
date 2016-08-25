@@ -66,15 +66,15 @@ This walkthrough shows how to publish and consume a [!INCLUDE[navnow](includes/n
   
 3.  In Object Designer, choose **Codeunit**, and then choose **New**.  
   
-4.  On the **View** menu, choose **C\/AL Globals**.  
+4.  On the **View** menu, choose **C/AL Globals**.  
   
-5.  In the **C\/AL Globals** window, choose the **Functions** tab, and then enter **CapitalizeName** in the name column.  
+5.  In the **C/AL Globals** window, choose the **Functions** tab, and then enter **CapitalizeName** in the name column.  
   
 6.  Select the **CapitalizeName** function, in the **View** menu, choose **Properties**, and then set the **Local** property to **No**.  
   
      Setting this property makes the function accessible from the other objects. For more information about this property, see [Local Property](Local-Property.md).  
   
-7.  In the **C\/AL Globals** window, choose the **Locals** button.  
+7.  In the **C/AL Globals** window, choose the **Locals** button.  
   
 8.  On the **Parameters** tab, enter **Cust** in the **Name** field, and then select **Record** in the **DataType** field.  
   
@@ -82,7 +82,7 @@ This walkthrough shows how to publish and consume a [!INCLUDE[navnow](includes/n
   
 10. Choose **OK** to close the **Table list** window.  
   
-11. Close the **C\/AL Locals** window, and then close the **C\/AL Globals** window.  
+11. Close the **C/AL Locals** window, and then close the **C/AL Globals** window.  
   
 12. In the `CapitalizeName` method, insert the following lines of code:  
   
@@ -91,7 +91,7 @@ This walkthrough shows how to publish and consume a [!INCLUDE[navnow](includes/n
     Cust.MODIFY(TRUE);  
     ```  
   
-13. Close the **C\/AL Editor**.  
+13. Close the **C/AL Editor**.  
   
 14. When prompted, enter **50012** in the **ID** text box, enter **CapitalizeName** in the **Name** text box then select the **Compile** check box and then choose **OK**.  
   

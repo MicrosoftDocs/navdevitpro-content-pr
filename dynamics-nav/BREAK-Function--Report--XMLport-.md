@@ -33,7 +33,7 @@ CurrXMLPort.BREAK
 >  You can also use the [C\-AL BREAK Statement](C-AL-BREAK-Statement.md) to exit an iteration or loop. The difference is that the BREAK statement does not terminate the trigger \-it just exits the loop.  
   
 ## Example  
- This example of code in a trigger on a report object requires that you create the following variable and text constant in the **C\/AL Globals** window.  
+ This example of code in a trigger on a report object requires that you create the following variable and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

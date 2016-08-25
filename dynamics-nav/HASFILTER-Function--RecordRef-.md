@@ -38,7 +38,7 @@ Ok := RecordRef.HASFILTER
  This function works just like the [HASFILTER Function \(Record\)](HASFILTER-Function--Record-.md).  
   
 ## Example  
- The following example opens the Customer table with a RecordRef variable that is named RecRef. The HASFILTER function determines whether a filter has been applied in the Customer table. The function returns **false** because no filters are applied. The return value is stored in the varHasFilters variable. The [SETRECFILTER Function \(RecordRef\)](SETRECFILTER-Function--RecordRef-.md) is used to set a filter. The HASFILTER function now returns **true**. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example opens the Customer table with a RecordRef variable that is named RecRef. The HASFILTER function determines whether a filter has been applied in the Customer table. The function returns **false** because no filters are applied. The return value is stored in the varHasFilters variable. The [SETRECFILTER Function \(RecordRef\)](SETRECFILTER-Function--RecordRef-.md) is used to set a filter. The HASFILTER function now returns **true**. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

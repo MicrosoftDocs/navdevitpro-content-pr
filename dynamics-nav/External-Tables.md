@@ -25,7 +25,7 @@ You can create tables in [!INCLUDE[navnow](includes/navnow_md.md)] that represen
 REGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'ExternalDb1', 'Data Source=ProdServer1;Initial Catalog=ProdDb1;User ID=sqladmin;Password=p@ssword');  
 ```  
   
- When records from external tables are instantiated, the connection is set on them. To set the current table connection, issue the following C\/AL command so that different instances can use different connections.  
+ When records from external tables are instantiated, the connection is set on them. To set the current table connection, issue the following C/AL command so that different instances can use different connections.  
   
 ```  
 SETDEFAULTTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'ExternalDb1');  

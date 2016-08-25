@@ -49,7 +49,7 @@ Position := STRPOS(String, SubString)
 ## Example  
  This example shows how to use the STRPOS function.  
   
- This example requires that you create the following text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following text constants in the **C/AL Globals** window.  
   
 |Text constant|ENU value|  
 |-------------------|---------------|  
