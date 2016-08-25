@@ -28,4 +28,4 @@ Creates menu items in a department. In the [!INCLUDE[nav_windows](../includes/na
 
 ## See Also  
  [\($ S\_2401 Navigation Pane Designer $\)](-$-S_2401-Navigation-Pane-Designer-$-.md)   
- [How to: Modify Menu Items in a MenuSuite](dynamics-nav/How%20to:%20Modify%20Menu%20Items%20in%20a%20MenuSuite.md)
+ [How to: Modify Menu Items in a MenuSuite](../How%20to:%20Modify%20Menu%20Items%20in%20a%20MenuSuite.md)

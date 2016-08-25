@@ -37,7 +37,7 @@ Specifies the system setup options for the current database.
 |**Use Report Builder**|Specifies if you want to use SQL Server Report Builder to design the layout for reports. To continue to use Visual Studio Report Designer, do not change the value of this field.<br /><br /> SQL Server Report Builder is included when you install the [!INCLUDE[nav_dev_short](../includes/nav_dev_short_md.md)].|  
 
 ## See Also  
- [How to: Change the Microsoft Dynamics NAV Server Instance](dynamics-nav/How%20to:%20Change%20the%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)   
- [Managing Microsoft Dynamics NAV Server Instances](dynamics-nav/Managing-Microsoft-Dynamics-NAV-Server-Instances.md)   
- [Locking and Unlocking Objects](dynamics-nav/Locking-and-Unlocking-Objects.md)   
+ [How to: Change the Microsoft Dynamics NAV Server Instance](../How%20to:%20Change%20the%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)   
+ [Managing Microsoft Dynamics NAV Server Instances](../Managing-Microsoft-Dynamics-NAV-Server-Instances.md)   
+ [Locking and Unlocking Objects](../Locking-and-Unlocking-Objects.md)   
  [\($ S\_11001 Find $\)](-$-S_11001-Find-$-.md)

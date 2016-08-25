@@ -30,4 +30,4 @@ Shows a list of errors and warnings, including obsolete constructs, that occur i
 |**Description**|The description of the error.|  
 
 ## See Also  
- [Error Handling](dynamics-nav/Error-Handling.md)
+ [Error Handling](../Error-Handling.md)

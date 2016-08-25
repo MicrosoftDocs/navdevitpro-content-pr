@@ -32,5 +32,5 @@ Shows a list of the SQL Server databases that you can access from [!INCLUDE[navn
 >  You must select a SQL Server instance before you can select a database.  
 
 ## See Also  
- [How to: Create Databases](dynamics-nav/How%20to:%20Create%20Databases.md)   
- [How to: Open Databases](dynamics-nav/ow%20to:%20Open%20Databases.md)
+ [How to: Create Databases](../How%20to:%20Create%20Databases.md)   
+ [How to: Open Databases](../ow%20to:%20Open%20Databases.md)

@@ -25,4 +25,4 @@ Specifies the sorting and filtering for the data item.
 |**Table Filter**|Specifies a filter expression to use to filter the data in the report or choose the **AssistEdit** button to enter a filter in the [\($ S\_2131 Table Filter $\)](-$-S_2131-Table-Filter-$-.md) window. If you specify a filter, then this filter is not displayed on the request page, but it is used along with any filters that the end user specifies on the request page.|  
 
 ## See Also  
- [DataItemTableView Property](dynamics-nav/DataItemTableView-Property.md)
+ [DataItemTableView Property](../DataItemTableView-Property.md)

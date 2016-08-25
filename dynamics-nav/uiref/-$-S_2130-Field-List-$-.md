@@ -19,4 +19,4 @@ Selects fields in the table.
  In this window, choose the **Up Arrow** button to open the [\($ S\_2122 Field List $\)](-$-S_2122-Field-List-$-.md) window.  
 
 ## See Also  
- [Table Keys](dynamics-nav/Table-Keys.md)
+ [Table Keys](../Table-Keys.md)

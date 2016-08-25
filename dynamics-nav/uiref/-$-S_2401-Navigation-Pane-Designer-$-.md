@@ -24,5 +24,5 @@ Creates and customizes MenuSuite objects. \($ S\_2401 Navigation Pane Designer $
  To create a new MenuSuite, in Object Designer, choose **MenuSuite**, choose the **New** button, select a design level, and then choose the **OK** button.  
 
 ## See Also  
- [How to: Modify Menu Items in a MenuSuite](dynamics-nav/How%20to:%20Modify%20Menu%20Items%20in%20a%20MenuSuite.md)   
- [Designing MenuSuites](dynamics-nav/Designing-MenuSuites.md)
+ [How to: Modify Menu Items in a MenuSuite](../How%20to:%20Modify%20Menu%20Items%20in%20a%20MenuSuite.md)   
+ [Designing MenuSuites](../Designing-MenuSuites.md)

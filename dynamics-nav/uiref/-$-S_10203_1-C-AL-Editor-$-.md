@@ -23,7 +23,7 @@ Adds C\/AL code in triggers and user\-defined functions. The trigger or function
  The first trigger in the C\/AL Editor is the Documentation trigger. You use the Documentation trigger to add notes about the code or to document changes that you make. Anything in the Documentation trigger is treated as a comment by the compiler.  
 
 ## See Also  
- [Programming in C\-AL](dynamics-nav/Programming-in-C-AL.md)   
- [Viewing the Definition of a Function or Object by Using Go To Definition](dynamics-nav/Viewing-the-Definition-of-a-Function-or-Object-by-Using-Go-To-Definition.md)   
- [Standard and User\-Defined Functions](dynamics-nav/Standard-and-User-Defined-Functions.md)   
- [Triggers Overview](dynamics-nav/Triggers-Overview.md)
+ [Programming in C\-AL](../Programming-in-C-AL.md)   
+ [Viewing the Definition of a Function or Object by Using Go To Definition](../Viewing-the-Definition-of-a-Function-or-Object-by-Using-Go-To-Definition.md)   
+ [Standard and User\-Defined Functions](../Standard-and-User-Defined-Functions.md)   
+ [Triggers Overview](../Triggers-Overview.md)

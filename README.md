@@ -2,7 +2,7 @@
 
 Welcome to the repository for the developer and itpro content for on-prem &amp; PaaS.
 
-All articles are stored as Markdown files (.md type) in the **dynamics-nav** folder. they publish to MSDN staging here: https://msdnstage.redmond.corp.microsoft.com/en-us/dynamics-nav/how-to--publish-and-install-an-extension?branch=master. 
+All articles are stored as Markdown files (.md type) in the **dynamics-nav** folder. they publish to MSDN staging here: https://msdnstage.redmond.corp.microsoft.com/en-us/../how-to--publish-and-install-an-extension?branch=master. 
 
 ======================================
 ## Getting started with GitHub

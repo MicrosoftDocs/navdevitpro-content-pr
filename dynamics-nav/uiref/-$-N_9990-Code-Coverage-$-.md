@@ -60,5 +60,5 @@ Specifies the extent to which the application code is covered by tests. You use 
  Only objects that are touched by the activity are recorded. This means that if an object is not shown in this window, the coverage of the object is implied to be zero. If you want to force the code coverage recorder to include specific objects even if they are not covered, choose the **Load objects** action, and then specify the relevant objects. This forces the code coverage engine to load these objects and provide information on even when no lines are covered.  
 
 ## See Also  
- [Code Coverage Virtual Table](dynamics-nav/Code-Coverage-Virtual-Table.md)   
- [Application Test Automation](dynamics-nav/Application-Test-Automation.md)
+ [Code Coverage Virtual Table](../Code-Coverage-Virtual-Table.md)   
+ [Application Test Automation](../Application-Test-Automation.md)

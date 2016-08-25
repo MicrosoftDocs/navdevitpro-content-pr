@@ -41,7 +41,7 @@ Provides functionality for designing XMLports.
 ## XMLport Properties, Functions, and Triggers  
  There are properties, functions, and triggers that you can use to work with an XMLport. There are properties, functions, and triggers for the object level and for the element level, which consists of **Field**, **Table**, and **Text**. The properties that are available at the element level depend on the selections you make in the **Node Type** and **Source Type** fields in XMLport Designer. For more information, see [C\-SIDE Reference Guide](C-SIDE-Reference-Guide.md).  
 
- When you design XMLports, you must set the value of the [Format Property \(XMLports\)](dynamics-nav/Format-Property--XMLports-.md) and the [Direction Property](dynamics-nav/Direction-Property.md). The [Format Property \(XMLports\)](dynamics-nav/Format-Property--XMLports-.md) indicates the type of file that you want to import or export and the direction property value indicates whether the XMLport will be used for import or export.  
+ When you design XMLports, you must set the value of the [Format Property \(XMLports\)](../Format-Property--XMLports-.md) and the [Direction Property](../Direction-Property.md). The [Format Property \(XMLports\)](../Format-Property--XMLports-.md) indicates the type of file that you want to import or export and the direction property value indicates whether the XMLport will be used for import or export.  
 
 ## See Also  
- [XMLports](dynamics-nav/XMLports.md)
+ [XMLports](../XMLports.md)

@@ -33,4 +33,4 @@ Provides functionality for designing pages.
 |**ApplicationArea**|Sets the application areas that apply to the control. For more information, see [ApplicationArea Property](ApplicationArea-Property.md).|  
 
 ## See Also  
- [How to: Create a Page](dynamics-nav/How%20to:%20Create%20a%20Page.md)
+ [How to: Create a Page](../How%20to:%20Create%20a%20Page.md)

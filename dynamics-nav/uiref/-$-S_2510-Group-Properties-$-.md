@@ -22,9 +22,9 @@ Groups menu items in a department. A group is a folder that you use to group rel
 |Property|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
 |**Caption**|The caption of the group folder that you want to create.|  
-|**CaptionML**|The string that is used to identify the menu in the user interface. The [CaptionML Property](dynamics-nav/CaptionML-Property.md) is multilanguage enabled. Therefore, it can contain a list of text strings in different languages. The string that is used is selected according to the language settings on your computer.|  
+|**CaptionML**|The string that is used to identify the menu in the user interface. The [CaptionML Property](../CaptionML-Property.md) is multilanguage enabled. Therefore, it can contain a list of text strings in different languages. The string that is used is selected according to the language settings on your computer.|  
 |**Department Page**|Indicates whether a group folder should be displayed on the department page in the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)]. If this property is set to **true**, the group folder is displayed on the department page. Otherwise, the group folder will be displayed in the department category where the menu items are located.|  
 
 ## See Also  
  [\($ S\_2401 Navigation Pane Designer $\)](-$-S_2401-Navigation-Pane-Designer-$-.md)   
- [How to: Modify Menu Items in a MenuSuite](dynamics-nav/How%20to:%20Modify%20Menu%20Items%20in%20a%20MenuSuite.md)
+ [How to: Modify Menu Items in a MenuSuite](../How%20to:%20Modify%20Menu%20Items%20in%20a%20MenuSuite.md)

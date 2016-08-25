@@ -29,4 +29,4 @@ Lists objects in the [!INCLUDE[navnow](../includes/navnow_md.md)] application an
 |MenuSuite|Navigation Pane Designer|  
 
 ## See Also  
- [Designing Application Objects](dynamics-nav/Designing-Application-Objects.md)
+ [Designing Application Objects](../Designing-Application-Objects.md)

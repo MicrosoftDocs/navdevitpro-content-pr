@@ -12,12 +12,12 @@ caps.latest.revision: 15
 manager: edupont
 ---
 # ($ S_2347 Available Server Instances $)
-Shows the available [!INCLUDE[nav_server](../includes/nav_server_md.md)] instances that can connect to the database. You select the instance that you want to use. For more information, see [Managing Microsoft Dynamics NAV Server Instances](dynamics-nav/Managing-Microsoft-Dynamics-NAV-Server-Instances.md).  
+Shows the available [!INCLUDE[nav_server](../includes/nav_server_md.md)] instances that can connect to the database. You select the instance that you want to use. For more information, see [Managing Microsoft Dynamics NAV Server Instances](../Managing-Microsoft-Dynamics-NAV-Server-Instances.md).  
 
  To open this window, on the **File** menu, choose **Database**, and then choose **Information** to open the **Database Information** window. On the **General** tab, choose the **Down Arrow** button in the **Server Instance** field.  
 
- The available [!INCLUDE[nav_server](../includes/nav_server_md.md)] instances are stored in table 2000000112, the **\($ T\_2000000112 Server Instance $\)** table. For more information, see [\($ T\_2000000112 Server Instance $\)](dynamics-nav/($%20T_2000000112%20Server%20Instance%20$\).md).  
+ The available [!INCLUDE[nav_server](../includes/nav_server_md.md)] instances are stored in table 2000000112, the **\($ T\_2000000112 Server Instance $\)** table. For more information, see [\($ T\_2000000112 Server Instance $\)](../($%20T_2000000112%20Server%20Instance%20$\).md).  
 
 ## See Also  
  [\($ S\_2349 Database Information $\)](-$-S_2349-Database-Information-$-.md)   
- [How to: Change the Microsoft Dynamics NAV Server Instance](dynamics-nav/How%20to:%20Change%20the%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)
+ [How to: Change the Microsoft Dynamics NAV Server Instance](../How%20to:%20Change%20the%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)

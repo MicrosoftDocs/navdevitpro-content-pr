@@ -18,4 +18,4 @@ Specifies all fields in the table that you selected.
 
 ## See Also  
  [\($ S\_2130 Field List $\)](-$-S_2130-Field-List-$-.md)   
- [Table Keys](dynamics-nav/Table-Keys.md)
+ [Table Keys](../Table-Keys.md)

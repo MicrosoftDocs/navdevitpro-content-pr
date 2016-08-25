@@ -7,7 +7,7 @@
         ],
         "exclude": [
           "**/obj/**",
-          "dynamics-nav/**",
+          "../**",
           "**/includes/**"
         ]
       }
@@ -20,7 +20,7 @@
         ],
         "exclude": [
           "**/obj/**",
-          "dynamics-nav/**",
+          "../**",
           "**/includes/**"
         ]
       }

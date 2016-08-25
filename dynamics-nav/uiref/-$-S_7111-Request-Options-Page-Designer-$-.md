@@ -21,6 +21,6 @@ Designs the **Options** FastTab of a request page. Request pages let users speci
  To show or hide a column, on the **View** menu, choose **Show Column** or **Hide Column**.  
 
 ## See Also  
- [Request Pages](dynamics-nav/Request-Pages.md)   
- [Visible Property\-duplicate](dynamics-nav/Visible-Property-duplicate.md)   
- [ApplicationArea Property](dynamics-nav/ApplicationArea-Property.md)
+ [Request Pages](../Request-Pages.md)   
+ [Visible Property\-duplicate](../Visible-Property-duplicate.md)   
+ [ApplicationArea Property](../ApplicationArea-Property.md)

@@ -36,5 +36,5 @@ Creates a new page. Pages are objects for viewing and editing data in the [!INCL
 |**List box**|Lists the type of pages that be created.|  
 
 ## See Also  
- [Working with Role Centers](dynamics-nav/Working%20with%20Role%20Centers.md)   
- [Page Designer Walkthroughs](dynamics-nav/Page-Designer-Walkthroughs.md)
+ [Working with Role Centers](../Working%20with%20Role%20Centers.md)   
+ [Page Designer Walkthroughs](../Page-Designer-Walkthroughs.md)

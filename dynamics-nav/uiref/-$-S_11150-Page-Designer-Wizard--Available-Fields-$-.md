@@ -36,4 +36,4 @@ Creates a List page and adds fields with the page wizard. List pages display mul
 |**Finish** button|Opens Page Designer.|  
 
 ## See Also  
- [Walkthrough: Creating a Wizard Page](dynamics-nav/Walkthrough:%20Creating%20a%20Wizard%20Page.md)
+ [Walkthrough: Creating a Wizard Page](../Walkthrough:%20Creating%20a%20Wizard%20Page.md)

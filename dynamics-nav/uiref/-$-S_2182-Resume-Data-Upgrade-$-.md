@@ -30,5 +30,5 @@ Specifies which **Upgrade** functions to rerun when you resume a data upgrade pr
 >  You can only rerun failed or canceled Upgrade functions.  
 
 ## See Also  
- [Upgrading Data](dynamics-nav/Upgrading-Data.md)   
- [Upgrade Codeunits](dynamics-nav/Upgrade-Codeunits.md)
+ [Upgrading Data](../Upgrading-Data.md)   
+ [Upgrade Codeunits](../Upgrade-Codeunits.md)

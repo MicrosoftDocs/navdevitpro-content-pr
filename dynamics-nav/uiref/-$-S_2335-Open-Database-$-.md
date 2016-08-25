@@ -34,5 +34,5 @@ Specifies the database that you want to open.
 |**Attach file**|If you want to attach and open a detached database that consists of a single data file, excluding the transaction log file, then you must enter the complete path and file name of the database in the **Attach File** field. This file typically has the .mdf file name extension. You can give this single file database any name by entering it in the **Database Name** field on the **General** tab. If no transaction log file exists with the data file, it is automatically created when you attach the data file. The database file is attached when you open it.|  
 
 ## See Also  
- [How to: Open Databases](dynamics-nav/How%20to:%20Open%20Databases.md)   
- [Configuring Microsoft SQL Server](dynamics-nav/Configuring-Microsoft-SQL-Server.md)
+ [How to: Open Databases](../How%20to:%20Open%20Databases.md)   
+ [Configuring Microsoft SQL Server](../Configuring-Microsoft-SQL-Server.md)

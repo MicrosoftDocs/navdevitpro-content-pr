@@ -20,7 +20,7 @@ Specifies namespaces for the XMLport that imports or exports data as XML.
 
 |[!INCLUDE[bp_tablefield](../includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
-|**Prefix**|Specifies the namespace prefix.<br /><br /> You apply namespaces to XMLport elements by setting the [NamespacePrefix Property](dynamics-nav/NamespacePrefix-Property.md) of the element.|  
+|**Prefix**|Specifies the namespace prefix.<br /><br /> You apply namespaces to XMLport elements by setting the [NamespacePrefix Property](../NamespacePrefix-Property.md) of the element.|  
 |**Namespace**|Specifies the namespace, which is typically in the form of a URL string.|  
 
  To specify the default namespace, leave the **Prefix** field blank.  
@@ -31,5 +31,5 @@ Specifies namespaces for the XMLport that imports or exports data as XML.
  For more information about namespaces with XMLports, see [Using Namespaces with XMLports](Using-Namespaces-with-XMLports.md).  
 
 ## See Also  
- [Designing XMLports](dynamics-nav/Designing-XMLports.md)   
- [How to: Create XMLports](dynamics-nav/How%20to:%20Create%20XMLports.md)
+ [Designing XMLports](../Designing-XMLports.md)   
+ [How to: Create XMLports](../How%20to:%20Create%20XMLports.md)

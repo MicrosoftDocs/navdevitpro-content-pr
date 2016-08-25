@@ -55,6 +55,6 @@ Specifies the current subscriptions to published events.
 |Error Information|Specifies the error message when an error occurs and the event subscription fails.<br /><br /> For more information about the error messages, see [Event Errors](../Event-Errors.md).|  
   
 ## See Also  
- [Events in Microsoft Dynamics NAV](dynamics-nav/Events-in-Microsoft-Dynamics-NAV.md)   
- [Publishing Events](dynamics-nav/Publishing-Events.md)   
- [Subscribing to Events](dynamics-nav/Subscribing-to-Events.md)
+ [Events in Microsoft Dynamics NAV](../Events-in-Microsoft-Dynamics-NAV.md)   
+ [Publishing Events](../Publishing-Events.md)   
+ [Subscribing to Events](../Subscribing-to-Events.md)

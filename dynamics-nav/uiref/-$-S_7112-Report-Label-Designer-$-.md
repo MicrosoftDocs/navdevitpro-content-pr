@@ -24,4 +24,4 @@ Adds labels to reports. You add labels that are not related to a data item in th
 |**Caption**|The caption of the label. The captions are available in the **Parameters** section in the Report Data pane in Visual Studio.|  
 
 ## See Also  
- [How to: Create Labels for a Report](dynamics-nav/How%20to:%20Create%20Labels%20for%20a%20Report.md)
+ [How to: Create Labels for a Report](../How%20to:%20Create%20Labels%20for%20a%20Report.md)
