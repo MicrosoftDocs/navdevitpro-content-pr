@@ -59,7 +59,7 @@ This topic lists properties that apply to the page object, controls, and actions
   
 -   [PromotedActionCategoriesML Property](PromotedActionCategoriesML-Property.md)  
   
--   RefreshOnActivate  
+-   [RefreshOnActivate Property](RefreshOnActivate-Property.md)  
   
 -   [SaveValues Property](SaveValues-Property.md)  
   
