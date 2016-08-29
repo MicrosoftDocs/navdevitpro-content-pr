@@ -32,7 +32,7 @@ Number := DATE2DWY(Date, What)
   
  Specifies what the function returns. The valid options are 1, 2, and 3.  
   
- The value 1 corresponds to day of the week \(1\-7, Monday \= 1\).  
+ The value 1 corresponds to day of the week \(1\-7, Monday = 1\).  
   
  The value 2 corresponds to week number \(1\-53\).  
   

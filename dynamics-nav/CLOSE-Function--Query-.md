@@ -51,7 +51,7 @@ Query.CLOSE
   
     |Text constant name|ENU Value|  
     |------------------------|---------------|  
-    |Text000|Customer name \= %1, Quantity \= %2|  
+    |Text000|Customer name = %1, Quantity = %2|  
   
  The following C/AL code opens the query, reads each row of the dataset, and then closes the query. You can add the code to a codeunit, and then run the codeunit to see the results.  
   

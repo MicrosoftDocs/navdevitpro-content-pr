@@ -45,9 +45,9 @@ The protocol handler for the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)]
   
 -   *ms\-dynamicsnav:\/\/myserver:440\/myinstance\/*  
   
--   *ms\-dynamicsnav:\/\/myserver\/myinstance\/?company\=MyOtherCompany*  
+-   *ms\-dynamicsnav:\/\/myserver\/myinstance\/?company=MyOtherCompany*  
   
--   *ms\-dynamicsnav:\/\/myserver\/myinstance\/?tenant\=myTenant2&company\=MyCompany2*  
+-   *ms\-dynamicsnav:\/\/myserver\/myinstance\/?tenant=myTenant2&company=MyCompany2*  
   
 > [!IMPORTANT]  
 >  The *ms\-dynamicsnav* scheme only translates to a secure server connection. Therefore the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLUDE[nav_phone](includes/nav_phone_md.md)] must be exposed through an https connection. For more information, see [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How%20to:%20Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  

@@ -133,7 +133,7 @@ Secure Sockets Layer \(SSL\) is a cryptographic protocol that helps provide secu
 6.  If you are not working on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)], then copy the .pfx to the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer.  
   
 > [!IMPORTANT]  
->  To avoid validation errors, make sure that the certificate that you create and self\-sign has the same name as the host name, which is accessed from all the remote machines. The machine name is specified in “**CN\=\<machine name\>**”. If you use the *http:\/\/hostname:Port\/NAVserver\/* link to access your Microsoft Dynamics NAV service, then you should specify the –n “CN\=hostname” flag to the `makecert` command instead.  
+>  To avoid validation errors, make sure that the certificate that you create and self\-sign has the same name as the host name, which is accessed from all the remote machines. The machine name is specified in “**CN=\<machine name\>**”. If you use the *http:\/\/hostname:Port\/NAVserver\/* link to access your Microsoft Dynamics NAV service, then you should specify the –n “CN=hostname” flag to the `makecert` command instead.  
   
 ##  <a name="Importing"></a> Importing the SSL Certificate into the Local Computer Store of the Microsoft Dynamics NAV Server computer  
  Once you obtain a certificate, you must import it into the local computer store on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)]. The certificate file will have the extension .cer or .pfx.  

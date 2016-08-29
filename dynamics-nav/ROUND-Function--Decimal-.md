@@ -39,9 +39,9 @@ NewNumber := ROUND(Number [, Precision] [, Direction])
  *Direction*  
  Type: Text or Code  
   
- This optional parameter specifies how to round the *Number* parameter. The default rounding method is '\='. The following are the options for rounding:  
+ This optional parameter specifies how to round the *Number* parameter. The default rounding method is '='. The following are the options for rounding:  
   
--   '\=' rounds up or down to the nearest value \(default\). Values of 5 or greater are rounded up. Values less than 5 are rounded down.  
+-   '=' rounds up or down to the nearest value \(default\). Values of 5 or greater are rounded up. Values less than 5 are rounded down.  
   
 -   '\>' rounds up  
   
@@ -82,14 +82,14 @@ MESSAGE(Text000, Format(DecimalToRound,0,1), Precision, Direction, Result);
   
 |Number|Precision|Direction|Rounded number|  
 |------------|---------------|---------------|--------------------|  
-|1234.56789|100|\=|1200|  
-|1234.56789|0.1|\=|1234.6|  
-|1234.56789|0.001|\=|1234.568|  
+|1234.56789|100|=|1200|  
+|1234.56789|0.1|=|1234.6|  
+|1234.56789|0.001|=|1234.568|  
 |1234.56789|0.001|\<|1234.567|  
 |1234.56789|0.001|\>|1234.568|  
-|\-1234.56789|100|\=|\-1200|  
-|\-1234.56789|0.1|\=|\-1234.6|  
-|\-1234.56789|0.001|\=|\-1234.568|  
+|\-1234.56789|100|=|\-1200|  
+|\-1234.56789|0.1|=|\-1234.6|  
+|\-1234.56789|0.001|=|\-1234.568|  
 |\-1234.56789|0.001|\<|\-1234.567|  
 |\-1234.56789|0.001|\>|\-1234.568|  
   

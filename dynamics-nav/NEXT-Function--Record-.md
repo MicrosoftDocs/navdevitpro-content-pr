@@ -35,7 +35,7 @@ Steps := Record.NEXT([Steps])
   
 -   \<0  Search *Steps* records backward in the table.  
   
--   \=0  Stay on the same record in the table.  
+-   =0  Stay on the same record in the table.  
   
  If you do not specify this parameter, then the next record is found.  
   

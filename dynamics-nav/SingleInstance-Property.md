@@ -37,7 +37,7 @@ Sets whether a single instance of the codeunit and codeunit variables are instan
   
  `MESSAGE(Format(Number));`  
   
- The SingleInstance property in Codeunit1 is set to Yes. Page1 calls a function on Codeunit1 and sets the parameter to 100. Codeunit1 saves this parameter in a local variable. Page2 is now able to get the parameter value \(\=100\) from Codeunit1. A message is displayed.  
+ The SingleInstance property in Codeunit1 is set to Yes. Page1 calls a function on Codeunit1 and sets the parameter to 100. Codeunit1 saves this parameter in a local variable. Page2 is now able to get the parameter value \(=100\) from Codeunit1. A message is displayed.  
   
 ## See Also  
  [Properties](Properties.md)

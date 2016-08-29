@@ -46,7 +46,7 @@ Position := BigText.TEXTPOS(String)
   
 |Text constant name|ENU value|  
 |------------------------|---------------|  
-|Text000|VarPosition \= %1|  
+|Text000|VarPosition = %1|  
   
  The following examples first initialize the content of the *BigText* variable with the text `ABCDEFG`.  
   

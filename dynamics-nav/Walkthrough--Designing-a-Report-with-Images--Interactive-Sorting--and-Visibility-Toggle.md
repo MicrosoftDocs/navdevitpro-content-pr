@@ -104,7 +104,7 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], creating new reports is di
     |Value \(On the **General** tab, under **Use this field**\)|\[Picture\_Item\] **Note:**  This is the **Name** of the Item.Picture column in Report Dataset Designer.|  
     |MIMEType \(On the **General** tab, under **Use this MIME Type**\)|image\\bmp|  
   
-9. On the General tab, in the **Use this field** field, choose **ƒx** to open the expression window for the picture field and then verify that the **Set expression for: value** text box contains the following value: **\=Fields\!Picture\_Item.Value**. Choose the **OK** button to close the windows.  
+9. On the General tab, in the **Use this field** field, choose **ƒx** to open the expression window for the picture field and then verify that the **Set expression for: value** text box contains the following value: **=Fields\!Picture\_Item.Value**. Choose the **OK** button to close the windows.  
   
 10. In the **Image Properties** window, on the **General** tab, in the **Use this MIME type** field, choose **image\/bmp**.  
   
@@ -152,7 +152,7 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], creating new reports is di
   
 5.  Select the **Enable interactive sort action for this text box** check box.  
   
-6.  In the **Sort by** drop\-down list box, select **\[No\_Item\]** from the list, choose **ƒx** to open the expression window, and then verify that the **Set expression for: SortExpression** text box contains the following value: **\=Fields\!No.Item.Value**. Choose the **OK** button.  
+6.  In the **Sort by** drop\-down list box, select **\[No\_Item\]** from the list, choose **ƒx** to open the expression window, and then verify that the **Set expression for: SortExpression** text box contains the following value: **=Fields\!No.Item.Value**. Choose the **OK** button.  
   
 7.  Choose **OK** to close the **Change interactive sort options for this text box** window.  
   
@@ -162,7 +162,7 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], creating new reports is di
   
 10. Select the **Enable interactive sort action for this text box** check box.  
   
-11. In the **Sort by** drop\-down list box, select **\[Description\_Item\]** from the list, choose **ƒx** to open the **Expression** window, and then verify that the **Set expression for: SortExpression** text contains the following value: **\=Fields\!Description\_Item.Value**. Choose the **OK** button.  
+11. In the **Sort by** drop\-down list box, select **\[Description\_Item\]** from the list, choose **ƒx** to open the **Expression** window, and then verify that the **Set expression for: SortExpression** text contains the following value: **=Fields\!Description\_Item.Value**. Choose the **OK** button.  
   
 12. Choose **OK** to close the **Text Box Properties** window.  
   
@@ -187,7 +187,7 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], creating new reports is di
   
 4.  In Object Designer, select the report, and then choose **Run**.  
   
-     Alternatively, you can run the report using the **DynamicsNAV:\/\/\/\/runreport?report\=50000** command from the Windows start menu.  
+     Alternatively, you can run the report using the **DynamicsNAV:\/\/\/\/runreport?report=50000** command from the Windows start menu.  
   
 5.  Choose **Preview** to view the report. You can use interactive sorting for the **No Item** and **Description Item** columns. You can also collapse each item to hide the picture.  
   

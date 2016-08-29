@@ -44,7 +44,7 @@ NewNumber := ABS(Number)
   
 |Text constant name|ENU Value|  
 |------------------------|---------------|  
-|Text000|x \= %1, y \= %2|  
+|Text000|x = %1, y = %2|  
   
 ```  
 x := -10.235; // x is assigned a negative value  
@@ -54,7 +54,7 @@ MESSAGE(Text000, x, y);
   
  The message window displays the following:  
   
- **x \= \-10.235, y \= 10.235**  
+ **x = \-10.235, y = 10.235**  
   
 ## See Also  
  [POWER Function \(Decimal, Integer, BigInteger\)](POWER-Function--Decimal--Integer--BigInteger-.md)   

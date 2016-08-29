@@ -34,9 +34,9 @@ Ok := Record.FIND([Which])
  *Which*  
  Type: Text or code  
   
- Specifies how to perform the search. The table is searched until either a record  is found or there are no more records. Each character in this string can be present only one time. You can combine the '\=', '\<', and '\>' characters. You can use the following characters:  
+ Specifies how to perform the search. The table is searched until either a record  is found or there are no more records. Each character in this string can be present only one time. You can combine the '=', '\<', and '\>' characters. You can use the following characters:  
   
--   \=  to search for a record that equals the key values \(default\)  
+-   =  to search for a record that equals the key values \(default\)  
   
 -   \>  to search for a record that is larger than the key values  
   
@@ -46,7 +46,7 @@ Ok := Record.FIND([Which])
   
 -   \-   to search for the first record in the table \(\- can only be used alone\)  
   
- If this parameter contains '\=', '\>' or '\<', then you must assign value to all fields of the current and primary keys before you call FIND.  
+ If this parameter contains '=', '\>' or '\<', then you must assign value to all fields of the current and primary keys before you call FIND.  
   
 ## Property Value/Return Value  
  Type: Boolean  
@@ -59,7 +59,7 @@ Ok := Record.FIND([Which])
  FIND retrieves the first record that meets the conditions set by *Which* and the filters associated with *Record*. The search path reflects the sort order defined by the current key. If the current key is not the primary key, several records might have the same values in current key fields. If this occurs, the sort order defined by the primary key as the search path is used.  
   
 ## Example  
- The following example shows how use the **FIND** function to find a record in a table. The code sets the number of the record to find to 1100, which is the primary key of the record to find. The **FIND** function uses the '\=' parameter to find the record that has a primary value that equals the specified primary key. If the record is found, then the item number, description, and unit price of the item are displayed in a message box. Otherwise, a message that specifies that the item is not found is displayed. This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
+ The following example shows how use the **FIND** function to find a record in a table. The code sets the number of the record to find to 1100, which is the primary key of the record to find. The **FIND** function uses the '=' parameter to find the record that has a primary value that equals the specified primary key. If the record is found, then the item number, description, and unit price of the item are displayed in a message box. Otherwise, a message that specifies that the item is not found is displayed. This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

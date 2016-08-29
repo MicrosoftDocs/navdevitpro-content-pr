@@ -37,9 +37,9 @@ NewDateTime := ROUNDDATETIME(Datetime [, Precision][, Direction])
  *Direction*  
  Type: Text or Code  
   
- This optional parameter specifies how to round the DateTime. The default rounding method is '\='. You can change the method by using the following options:  
+ This optional parameter specifies how to round the DateTime. The default rounding method is '='. You can change the method by using the following options:  
   
--   '\=' rounds up or down to the nearest value \(default\). Values of 5 or greater are rounded up. Values less than 5 are rounded down.  
+-   '=' rounds up or down to the nearest value \(default\). Values of 5 or greater are rounded up. Values less than 5 are rounded down.  
   
 -   '\>' rounds up  
   

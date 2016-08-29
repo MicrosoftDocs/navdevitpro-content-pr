@@ -16,11 +16,11 @@ Represents the difference between two DateTimes. This value can be negative. It 
   
  The following are examples of durations:  
   
- DATETIME\-DATETIME\=DURATION  
+ DATETIME\-DATETIME=DURATION  
   
- DATETIME\-DURATION\=DATETIME  
+ DATETIME\-DURATION=DATETIME  
   
- DATETIME\+DURATION\=DATETIME  
+ DATETIME\+DURATION=DATETIME  
   
 ## Example  
  This example shows how to calculate the difference between two DateTimes. It requires that you define the following variables.  

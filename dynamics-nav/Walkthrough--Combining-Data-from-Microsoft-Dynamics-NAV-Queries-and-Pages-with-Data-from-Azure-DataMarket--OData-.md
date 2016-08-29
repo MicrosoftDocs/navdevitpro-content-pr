@@ -161,7 +161,7 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
 1.  In the SalesOrderInfo workbook, choose **Add Column**, which is on the right side of the last data column.  
   
-2.  Move the pointer down to the first cell in the new column and type an equal sign \(**\=**\).  
+2.  Move the pointer down to the first cell in the new column and type an equal sign \(**=**\).  
   
      This indicates that you are creating a formula.  
   

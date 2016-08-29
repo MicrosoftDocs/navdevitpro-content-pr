@@ -38,7 +38,7 @@ Length := BigText.LENGTH
   
 |Text constant name|ENU value|  
 |------------------------|---------------|  
-|Text000|VarLength \= %1|  
+|Text000|VarLength = %1|  
   
  In this example, the BigText variable is initialized with the text ‘ABCDEFG’. The length, which is 7, is stored in the VarLength variable and displayed in a message box.  
   

@@ -47,16 +47,16 @@ Sets the formats of the source expression for various data types.
   
 |||  
 |-|-|  
-|FormatProperty :\=|\[\<Char\> &#124; \<Field\> &#124; \<Attribute\>\]|  
+|FormatProperty :=|\[\<Char\> &#124; \<Field\> &#124; \<Attribute\>\]|  
 |||  
-|\<Char\> :\=|character with ASCII value \[32..255\]|  
+|\<Char\> :=|character with ASCII value \[32..255\]|  
 |||  
-|\<Field\> :\=|'\<' \<FieldName\> \[',' \<FieldLen\>\] '\>'<br /><br /> \[, \<Attribute\>\]|  
-|\<FieldName\> :\=|literal name of field \(format component\)|  
-|\<FieldLen\> :\=|length of field \(0 or no entry means that the length is dynamic\)|  
+|\<Field\> :=|'\<' \<FieldName\> \[',' \<FieldLen\>\] '\>'<br /><br /> \[, \<Attribute\>\]|  
+|\<FieldName\> :=|literal name of field \(format component\)|  
+|\<FieldLen\> :=|length of field \(0 or no entry means that the length is dynamic\)|  
 |||  
-|\<Attribute\> :\=|\['\<' \<AttributeName\> ',' \<Char\> '\>'\]|  
-|\<AttributeName\> :\=|\[Standard Format &#124; 1000Character &#124; Comma &#124; Overflow &#124; Filler Character &#124; Precision\]|  
+|\<Attribute\> :=|\['\<' \<AttributeName\> ',' \<Char\> '\>'\]|  
+|\<AttributeName\> :=|\[Standard Format &#124; 1000Character &#124; Comma &#124; Overflow &#124; Filler Character &#124; Precision\]|  
   
  The 1000Character attribute specifies the character that separates the thousandths place digit from the hundredths place digit, the millionth place digit from the hundred thousandths place digit, and so on. The 1000Character attribute must be after the Integer or Integer Thousand field name and before the Decimals field name.  
   

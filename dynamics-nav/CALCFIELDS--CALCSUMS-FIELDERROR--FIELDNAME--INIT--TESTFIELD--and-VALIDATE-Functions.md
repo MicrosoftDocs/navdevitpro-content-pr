@@ -106,15 +106,15 @@ IF Item.Class <> 'HARDWARE' THEN
   
  If item 70000 has a Class other than HARDWARE, then you receive the following error message:  
   
- **Class must not be OTHER in Item No. \='70000'.**  
+ **Class must not be OTHER in Item No. ='70000'.**  
   
  If the text or code field contains the empty string, then you receive the following error message:  
   
- **You must specify Class in Item No.\='70000'.**  
+ **You must specify Class in Item No.='70000'.**  
   
  If the field is a numeric field and is empty, it is treated as if it contains the value 0 \(zero\), and then you receive the following error message:  
   
- **Class must not be 0 in Item No.\='70000'.**  
+ **Class must not be 0 in Item No.='70000'.**  
   
  You can change the default text that is displayed in the error message. The following example shows how to use the FIELDERROR function and change the default text. This example requires that you create the following variable.  
   
@@ -129,7 +129,7 @@ IF Item.Class < '4711' THEN
   
  The following error message is displayed:  
   
- **Class must be greater than 4711 in Item No.\='70000'.**  
+ **Class must be greater than 4711 in Item No.='70000'.**  
   
 ## FIELDNAME  
  FIELDNAME returns the name of a field. It has the following syntax.  

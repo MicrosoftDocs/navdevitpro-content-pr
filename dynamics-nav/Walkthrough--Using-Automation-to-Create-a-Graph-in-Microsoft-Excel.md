@@ -107,7 +107,7 @@ In this walkthrough, you will transfer data from the **G\/L Entry** table to Mic
   
  If this argument is a constant, the new workbook contains a single sheet of the specified type. Can be one of the following: XlWBATemplate constants: xlWBATChart, xlWBATExcel4IntlMacroSheet, xlWBATExcel4MacroSheet, or xlWBATWorkSheet.  
   
- For more information, see Workbooks.Add Method \(Excel\), [http:\/\/go.microsoft.com\/fwlink\/?LinkId\=404331](http://go.microsoft.com/fwlink/?LinkId=404331).  
+ For more information, see Workbooks.Add Method \(Excel\), [http:\/\/go.microsoft.com\/fwlink\/?LinkId=404331](http://go.microsoft.com/fwlink/?LinkId=404331).  
   
  Instead of passing xlWBATWorkSheet as the **Template** argument, you are passing the number \-4167. In this case, the **Template** argument, which is of type VARIANT, is an enumeration. Enumerations are either USERDEF types or not. This is not a USERDEF type, so it looks like a VARIANT in the C/AL Symbol Menu. You have to look in the Microsoft Excel Visual Basic Help to figure out that it is actually an enumeration. Arguments can be constants with names like xl\* in Excel, wd\* in Word, and ol\* in Outlook. In [!INCLUDE[navnow](includes/navnow_md.md)], you cannot use the symbolic name xlWBATWorkSheet. You have to use the enumerator \-4167. The following procedure describes how you can find an enumerator value if you need to.  
   
@@ -126,7 +126,7 @@ In this walkthrough, you will transfer data from the **G\/L Entry** table to Mic
   
 5.  In the **Members of ‘XlWBATemplate’** list, select **xlWBATWorkSheet**. You can see the value in the information pane at the bottom of the Object Browser. In the following example, the value is **\-4167..**  
   
-     **Const xlWBATWorksheet \= \-4167 \(&HFFFFEFB9\)**  
+     **Const xlWBATWorksheet = \-4167 \(&HFFFFEFB9\)**  
   
 ## Transferring Data  
  To transfer the data, you must calculate the data and transfer the results of the calculation.  

@@ -38,7 +38,7 @@ Key := RecordRef.KEYINDEX(Index)
  The KeyRef of the field that has the specified index.  
   
 ## Remarks  
- The first key in the index must have index 1, the second index 2, and so on. The last key must have index \= KEYCOUNT. If the specified index is out of the range or if no table is selected, the function returns an error.  
+ The first key in the index must have index 1, the second index 2, and so on. The last key must have index = KEYCOUNT. If the specified index is out of the range or if no table is selected, the function returns an error.  
   
 ## Example  
  The following example opens table 18 \(Customer\) as a RecordRef variable that is named CustomerRecref. The loop starts from 1 and loops through the key indexes that are in the table. `CustomerRecref.KEYCOUNT` returns the maximum number of keys that are defined in the table. The loop continues until the last key is reached. For each index that is specified, the KEYINDEX function retrieves the KeyRef for the specified index. The key index and the KeyRef for the specified indexes are displayed in a message box. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  

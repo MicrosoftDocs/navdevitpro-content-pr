@@ -27,19 +27,19 @@ NewDate := CALCDATE(DateExpression [, Date])
   
  The date expression can be any length. The string is interpreted from left to right with one subexpression at a time. The following rules describe the valid syntax of date expressions:  
   
--   DateExpression \= \[\<SubExpression\>\]\[\<SubExpression\>\]\[\<SubExpression\>\]  
+-   DateExpression = \[\<SubExpression\>\]\[\<SubExpression\>\]\[\<SubExpression\>\]  
   
--   \<SubExpression\> \= \[\<Sign\>\] \<Term\>  
+-   \<SubExpression\> = \[\<Sign\>\] \<Term\>  
   
--   \<Sign\> \= \+ &#124; \-  
+-   \<Sign\> = \+ &#124; \-  
   
--   \<Term\> \= \<Number\>\<Unit\> &#124; \<Unit\>\<Number\> &#124; \<Prefix\>\<Unit\>  
+-   \<Term\> = \<Number\>\<Unit\> &#124; \<Unit\>\<Number\> &#124; \<Prefix\>\<Unit\>  
   
--   \<Number\> \= Positive integer  
+-   \<Number\> = Positive integer  
   
--   \<Unit\> \= D &#124; WD &#124; W &#124; M &#124; Q &#124; Y \(D\=day, WD\=weekday, W\=week, M\=month, Q\=quarter, Y\=year\)  
+-   \<Unit\> = D &#124; WD &#124; W &#124; M &#124; Q &#124; Y \(D=day, WD=weekday, W=week, M=month, Q=quarter, Y=year\)  
   
--   \<Prefix\> \= C \(C\=current\)  
+-   \<Prefix\> = C \(C=current\)  
   
  These production rules show that date expressions consist of zero, one, two, or three subexpressions. Each subexpression consists of an optional sign and a term. The following are some typical examples of terms:  
   

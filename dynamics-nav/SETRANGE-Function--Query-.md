@@ -79,9 +79,9 @@ Query.READ;
   
  For example, a query has the following filters set on the **Quantity** column in Query Designer:  
   
--   **DataItemTableFilter** property: Quantity\=FILTER\(\<\>10\)  
+-   **DataItemTableFilter** property: Quantity=FILTER\(\<\>10\)  
   
--   **ColumnFilter** property: Quantity\=FILTER\(\<\>5\)  
+-   **ColumnFilter** property: Quantity=FILTER\(\<\>5\)  
   
  `Query.setRange(Quantity, 1, 15)` will result in a filter that is equivalent to: 1 \< Quantity \<15, except for 10.  
   
@@ -108,7 +108,7 @@ Query.READ;
   
     |Text constant name|ENU Value|  
     |------------------------|---------------|  
-    |Text000|Customer name \= %1, Quantity \= %2|  
+    |Text000|Customer name = %1, Quantity = %2|  
   
  The following C/AL code uses the **SETRANGE** function to filter a query dataset over a range of values on the **Quantity** column. You can add the code to a codeunit, and then run the codeunit to see the results.  
   
@@ -132,4 +132,4 @@ MyQuery.CLOSE;
   
  When the code is run, a message that resembles the following appears for each row in the dataset:  
   
- **Customer name \= Selangorian Ltd., Quantity \= 30**
+ **Customer name = Selangorian Ltd., Quantity = 30**

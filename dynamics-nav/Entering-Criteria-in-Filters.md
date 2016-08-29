@@ -17,7 +17,7 @@ When you enter criteria, you can use all the numbers and letters that you can no
 |||||  
 |-|-|-|-|  
 |**Symbol**|**Meaning**|**Sample Expression**|**Records Displayed**|  
-|\=|Equal to|377|Number 377|  
+|=|Equal to|377|Number 377|  
 |||BLUE|Those with the BLUE code, for example, the BLUE warehouse code|  
 |||22|A datetime: from 22\-current month\-current year 0:00:00 to 22\-current month\-current year 22:59:59|  
 |||22 10|An exact datetime: 22\-01\-01 10:00:00|  
@@ -32,14 +32,14 @@ When you enter criteria, you can use all the numbers and letters that you can no
 |&|And|\<2000&\>1000|Numbers that are less than 2000 and greater than 1000.<br /><br /> The & sign cannot be used by itself with numbers because no record can have two numbers.|  
 |\<\>|Not equal to|\<\>0|All numbers except 0|  
 |\>|Greater than|\>1200|Numbers greater than 1200|  
-|\>\=|Greater than or equal to|\>\=1200|Numbers greater than or equal to 1200|  
+|\>=|Greater than or equal to|\>=1200|Numbers greater than or equal to 1200|  
 |\<|Less than|\<1200|Numbers less than 1200|  
-|\<\=|Less than or equal to|\<\=1200|Numbers less than or equal to 1200|  
+|\<=|Less than or equal to|\<=1200|Numbers less than or equal to 1200|  
 |\*|An indefinite number of unknown characters|\*Co\*|Texts that contain "Co"|  
 |||\*Co|Texts that end with "Co"|  
 |||Co\*|Texts that begin with "Co"|  
 |?|One unknown character|Hans?n|Texts such as Hansen or Hanson|  
-||Calculate before rest|30&#124;\(\>\=10&\<\=20\)|Those with number 30 or with a number from 10 through 20 \(the result of the calculation within the parentheses\)|  
+||Calculate before rest|30&#124;\(\>=10&\<=20\)|Those with number 30 or with a number from 10 through 20 \(the result of the calculation within the parentheses\)|  
 |@|Ignore case \(either uppercase or lowercase allowed\)|@location|Texts such as LOCATION, location or Location|  
   
  You can also combine the various format expressions:  

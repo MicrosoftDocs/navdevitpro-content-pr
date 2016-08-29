@@ -64,7 +64,7 @@ finsql.exe command=upgradedatabase, servername=<server>, database=<database>[, l
   
  *ntauthentication*  
   
- Specifies if you want to use NT authentication. The possible values are **yes**, **no**, **1**, or **0**. If you specify the *username* and *password* parameters, then you must specify **ntauthentication\=no** or **ntauthentication\=0**.  
+ Specifies if you want to use NT authentication. The possible values are **yes**, **no**, **1**, or **0**. If you specify the *username* and *password* parameters, then you must specify **ntauthentication=no** or **ntauthentication=0**.  
   
 ## Remarks  
  You use the **UpgradeDatabase** command together with the finsql.exe executable when you want to convert a database from an earlier version of [!INCLUDE[navnow](includes/navnow_md.md)] to the new version. For example, if you are upgrading several databases, you can create scripts that help you repeat the steps. Finsql.exe is the executable file that runs the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. By default, finsql.exe is located at [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]RoleTailored Client\\.  

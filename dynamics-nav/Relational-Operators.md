@@ -21,10 +21,10 @@ The relational operators are used to compare expressions.
 |--------------|-------------------|----------------|-------------------------|  
 |\>|Greater than|Expr \> Expr|Boolean|  
 |\<|Less than|Expr \< Expr|Boolean|  
-|\>\=|Greater than or equal|Expr \>\= Expr|Boolean|  
-|\<\=|Less than or equal|Expr \<\= Expr|Boolean|  
+|\>=|Greater than or equal|Expr \>= Expr|Boolean|  
+|\<=|Less than or equal|Expr \<= Expr|Boolean|  
 |\<\>|Not equal to|Expr \<\> Expr|Boolean|  
-|\=|Equal to|Expr \= Expr|Boolean|  
+|=|Equal to|Expr = Expr|Boolean|  
 |IN|In range|Expr IN \[Valueset\]|Boolean|  
   
 > [!NOTE]  

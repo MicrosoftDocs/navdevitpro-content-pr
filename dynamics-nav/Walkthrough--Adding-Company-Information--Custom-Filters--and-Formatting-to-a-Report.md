@@ -161,7 +161,7 @@ When you create a report, you can add features such as formatting, custom filter
     |Property|Value|  
     |--------------|-----------|  
     |**MIMEType**|Image\/bmp|  
-    |**Value**|\=First\(Fields\!Picture.Value, "DataSet\_Result"\)|  
+    |**Value**|=First\(Fields\!Picture.Value, "DataSet\_Result"\)|  
     |**Source**|Database|  
   
 13. Under **Size**, set the **Sizing** property to **FitProportional**  
@@ -270,12 +270,12 @@ When you create a report, you can add features such as formatting, custom filter
   
     |Table|Field|Fields\(DataSet\_Results\) Value to double\-click|Set expression for: Value box|  
     |-----------|-----------|-------------------------------------------------------|-----------------------------------|  
-    |Customer Ledger Entry|Original Amt. \(LCY\)|OriginalAmtLCY\_CustLedgerEntryFormat|\=Fields\!OriginalAmtLCY\_CustLedgerEntryFormat.Value|  
-    |Customer Ledger Entry|Remaining Amt.\(LCY\)|RemainingAmtLCY\_CustLedgerEntryFormat|\=Fields\!RemainingAmtLCY\_CustLedgerEntryFormat.Value|  
-    |Detailed Customer Ledger Entry|Amount \(LCY\)|AmountLCY\_DetailedCustLedgEntryFormat|\=Fields\!AmountLCY\_DetailedCustLedgEntryFormat.Value|  
-    |Detailed Customer Ledger Entry|Debit Amount \(LCY\)|DebitAmountLCY\_DetailedCustLedgEntryFormat|\=Fields\!DebitAmountLCY\_DetailedCustLedgEntryFormat.Value|  
-    |Detailed Customer Ledger Entry|Credit Amount \(LCY\)|CreditAmountLCY\_DetailedCustLedgEntryFormat|\=Fields\!CreditAmountLCY\_DetailedCustLedgEntryFormat.Value|  
-    |Sales Header|Amount|Amount\_SalesHeaderFormat|\=Fields\!Amount\_SalesHeaderFormat.Value|  
+    |Customer Ledger Entry|Original Amt. \(LCY\)|OriginalAmtLCY\_CustLedgerEntryFormat|=Fields\!OriginalAmtLCY\_CustLedgerEntryFormat.Value|  
+    |Customer Ledger Entry|Remaining Amt.\(LCY\)|RemainingAmtLCY\_CustLedgerEntryFormat|=Fields\!RemainingAmtLCY\_CustLedgerEntryFormat.Value|  
+    |Detailed Customer Ledger Entry|Amount \(LCY\)|AmountLCY\_DetailedCustLedgEntryFormat|=Fields\!AmountLCY\_DetailedCustLedgEntryFormat.Value|  
+    |Detailed Customer Ledger Entry|Debit Amount \(LCY\)|DebitAmountLCY\_DetailedCustLedgEntryFormat|=Fields\!DebitAmountLCY\_DetailedCustLedgEntryFormat.Value|  
+    |Detailed Customer Ledger Entry|Credit Amount \(LCY\)|CreditAmountLCY\_DetailedCustLedgEntryFormat|=Fields\!CreditAmountLCY\_DetailedCustLedgEntryFormat.Value|  
+    |Sales Header|Amount|Amount\_SalesHeaderFormat|=Fields\!Amount\_SalesHeaderFormat.Value|  
   
     > [!NOTE]  
     >  The field that displays the total amount uses the format of the **Amount** field in the **Customer Ledger Entry** table.  

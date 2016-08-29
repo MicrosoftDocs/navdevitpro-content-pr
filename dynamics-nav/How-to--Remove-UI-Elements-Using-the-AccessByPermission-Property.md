@@ -50,7 +50,7 @@ UI elements that are directly related to an object through the **TableRelation**
  The UI element in question is now invisible to users who do not have the specified permissions to the object.  
   
 > [!IMPORTANT]  
->  If you defined the property for a table field, then all instances of the field on pages are removed from the user’s view. To override the property on an individual page field, delete the permission value after the **\=** sign in the **Value** field. Do not delete the whole string as that will be replicated on the property of the table field.  
+>  If you defined the property for a table field, then all instances of the field on pages are removed from the user’s view. To override the property on an individual page field, delete the permission value after the **=** sign in the **Value** field. Do not delete the whole string as that will be replicated on the property of the table field.  
   
 > [!TIP]  
 >  When you configure user interfaces in [!INCLUDE[dyn_nav](includes/dyn_nav_md.md)], you should make sure that the **UI Elements Removal** field is set to its default, **LicenseFileAndUserPermissions**, so that you only see the relevant UI elements in the **Customize** window. For more information, see [Configure the User Interface](Configure%20the%20User%20Interface.md).  
@@ -82,7 +82,7 @@ UI elements that are directly related to an object through the **TableRelation**
  All instances of the **Unit Price** field on pages are now removed if the user does have Read or Insert permission to the **Sales Price** table.  
   
 > [!IMPORTANT]  
->  If you defined the property for a table field, then all instances of the field on pages are removed. To override the property on an individual page field, delete the permission value after the **\=** sign in the **Value** field. Do NOT delete the whole string as that will be replicated on the property of the table field.  
+>  If you defined the property for a table field, then all instances of the field on pages are removed. To override the property on an individual page field, delete the permission value after the **=** sign in the **Value** field. Do NOT delete the whole string as that will be replicated on the property of the table field.  
   
 ## See Also  
  [How to: Specify When UI Elements Are Removed](How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md)   

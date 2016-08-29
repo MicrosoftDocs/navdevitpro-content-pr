@@ -34,7 +34,7 @@ String := FORMAT(Value[, Length][, FormatStr/FormatNumber])
   
  This optional parameter specifies the length of *String*. The following rules apply:  
   
--   If *Length* \= 0 then the entire value is returned \(default\).  
+-   If *Length* = 0 then the entire value is returned \(default\).  
   
 -   If *Length* \> 0 then the returned string will be exactly *Length* characters.  
   

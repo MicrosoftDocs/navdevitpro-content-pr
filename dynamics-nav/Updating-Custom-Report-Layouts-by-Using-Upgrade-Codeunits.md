@@ -117,9 +117,9 @@ You can update custom report layouts by creating upgrade codeunits to handle cha
   
         |Name|DataType|SubType|  
         |----------|--------------|-------------|  
-        |ReportUpgradeSet|DotNet|Microsoft.Dynamics.Nav.Types.Report.IReportUpgradeSet.'Microsoft.Dynamics.Nav.Types.Report, Version\=8.0.0.0, Culture\=neutral, PublicKeyToken\=31bf3856ad364e35'|  
-        |ReportUpgradeCollection|DotNet|Microsoft.Dynamics.Nav.DocumentReport.ReportUpgradeCollection.'Microsoft.Dynamics.Nav.DocumentReport, Version\=8.0.0.0, Culture\=neutral, PublicKeyToken\=31bf3856ad364e35'|  
-        |DeleteAction|DotNet|Microsoft.Dynamics.Nav.Types.Report.ReportChangeOptions\+DeleteAction.'Microsoft.Dynamics.Nav.Types.Report, Version\=8.0.0.0, Culture\=neutral, PublicKeyToken\=31bf3856ad364e35'|  
+        |ReportUpgradeSet|DotNet|Microsoft.Dynamics.Nav.Types.Report.IReportUpgradeSet.'Microsoft.Dynamics.Nav.Types.Report, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'|  
+        |ReportUpgradeCollection|DotNet|Microsoft.Dynamics.Nav.DocumentReport.ReportUpgradeCollection.'Microsoft.Dynamics.Nav.DocumentReport, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'|  
+        |DeleteAction|DotNet|Microsoft.Dynamics.Nav.Types.Report.ReportChangeOptions\+DeleteAction.'Microsoft.Dynamics.Nav.Types.Report, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'|  
         |DocumentReportMgt|Codeunit|Document Report Mgt.|  
   
 3.  Add the following code to the **UpgradeReportLayout** function.  

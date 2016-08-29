@@ -72,7 +72,7 @@ Query objects and Record objects, including both explicit record variables and i
  If you set a security filter on a table that is used in a FlowField calculation, then the calculated value of the FlowField is filtered, based on the security filter and the security filter mode of the record variable for the record in the table. For example, if you set a security filter so that a user can only view sales with a specific salesperson code, and if the security filter mode is **Filtered**, then when the user views a FlowField that calculates total sales, the user can see the total of only those sales that have the specific salesperson code. In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], the security filter mode value was **Validated** and in this example, the user received an error.  
   
 ## Programming Examples  
- For these examples, you have a table that has 100 records. Each record has an ID field that is the primary key of the table. The values of the ID field that are currently in the database range from 1 to 100. In this example, you set a security filter on the table data for ID\=1..50. Then, in a codeunit you create a record variable for the table.  
+ For these examples, you have a table that has 100 records. Each record has an ID field that is the primary key of the table. The values of the ID field that are currently in the database range from 1 to 100. In this example, you set a security filter on the table data for ID=1..50. Then, in a codeunit you create a record variable for the table.  
   
 |Security filter mode|Example|  
 |--------------------------|-------------|  

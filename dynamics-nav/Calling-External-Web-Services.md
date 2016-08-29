@@ -21,11 +21,11 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use the Windows Communicat
   
 |Variable name|DataType|SubType|Length|  
 |-------------------|--------------|-------------|------------|  
-|navBinding|DotNet|'System.ServiceModel, Version\=3.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089'.System.ServiceModel.BasicHttpBinding||  
+|navBinding|DotNet|'System.ServiceModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.System.ServiceModel.BasicHttpBinding||  
 |address|text||256|  
-|salesOrderService|DotNet|'SalesOrderService, Version\=0.0.0.0, Culture\=neutral, PublicKeyToken\=null'.NAV.SalesOrderService.SalesOrder\_PortClient||  
-|endpointAddress|DotNet|'System.ServiceModel, Version\=3.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089'.System.ServiceModel.EndpointAddress||  
-|salesOrder|DotNet|'SalesOrderService, Version\=0.0.0.0, Culture\=neutral, PublicKeyToken\=null'.NAV.SalesOrderService.SalesOrder||  
+|salesOrderService|DotNet|'SalesOrderService, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.NAV.SalesOrderService.SalesOrder\_PortClient||  
+|endpointAddress|DotNet|'System.ServiceModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.System.ServiceModel.EndpointAddress||  
+|salesOrder|DotNet|'SalesOrderService, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.NAV.SalesOrderService.SalesOrder||  
   
 ```  
 navBinding := navBinding.BasicHttpBinding;  

@@ -57,8 +57,8 @@ An *array* is a data structure that contains several variables of the same type.
   
     |Variable name|DataType|SubType|  
     |-------------------|--------------|-------------|  
-    |varDotNet|DotNet|'NavInteropHelper, Version\=1.0.0.0, Culture\=neutral, PublicKeyToken\=null'.Microsoft.Dynamics.Nav.NavInteropHelper.WrapInt32|  
-    |varArray|DotNet|'mscorlib, Version\=2.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089'.System.Array|  
+    |varDotNet|DotNet|'NavInteropHelper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.Microsoft.Dynamics.Nav.NavInteropHelper.WrapInt32|  
+    |varArray|DotNet|'mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.System.Array|  
     |arraySize|Integer||  
     |i|Integer||  
     |alData|Integer||  
@@ -117,8 +117,8 @@ An *array* is a data structure that contains several variables of the same type.
   
     |Variable name|DataType|SubType|  
     |-------------------|--------------|-------------|  
-    |varDotNet|DotNet|'NavInteropHelper, Version\=1.0.0.0, Culture\=neutral, PublicKeyToken\=null'.Microsoft.Dynamics.Nav.NavInteropHelper.WrapInt32|  
-    |varArray|DotNet|'mscorlib, Version\=2.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089'.System.Array|  
+    |varDotNet|DotNet|'NavInteropHelper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.Microsoft.Dynamics.Nav.NavInteropHelper.WrapInt32|  
+    |varArray|DotNet|'mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.System.Array|  
     |arraySize|Integer||  
     |i|Integer||  
     |alData|Integer||  

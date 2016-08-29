@@ -29,7 +29,7 @@ Before you start using the Microsoft Azure cmdlets to automate deployments, you 
     Get-AzurePublishSettingsFile  
     ```  
   
-     A web browser opens at [http:\/\/go.microsoft.com\/fwlink\/?LinkID\=294709](http://go.microsoft.com/fwlink/?LinkID=294709).  
+     A web browser opens at [http:\/\/go.microsoft.com\/fwlink\/?LinkID=294709](http://go.microsoft.com/fwlink/?LinkID=294709).  
   
 4.  When prompted, download and save the publishing settings file as a .publishsettings type file to your computer.  
   

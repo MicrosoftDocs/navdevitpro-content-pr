@@ -147,7 +147,7 @@ MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](i
     |**Object Type**|Page.|  
     |**Object ID**|Customer List.|  
     |**Caption**|Customer List.|  
-    |**CaptionML**|ENU\=Customer List.|  
+    |**CaptionML**|ENU=Customer List.|  
     |**Department**|Lists.<br /><br /> This puts this menu item in the **Lists** sub category.|  
   
 15. Right\-click the menu items section, choose **Create Group** and then name the folder **Vendors**. You will add pages that are relate to vendors in this group.  
@@ -161,7 +161,7 @@ MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](i
     |**Object Type**|Page.|  
     |**Object ID**|Vendor Card.|  
     |**Caption**|Vendor Card.|  
-    |**CaptionML**|ENU\=Vendor Card.|  
+    |**CaptionML**|ENU=Vendor Card.|  
     |**Department**|Tasks.<br /><br /> This puts this menu item in the **Tasks** sub category.|  
   
 18. Right\-click the **Vendor Card** menu item you just added and then choose **Create Item…** to open the **Create Item**  window.  
@@ -173,7 +173,7 @@ MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](i
     |**Object Type**|Page.|  
     |**Object ID**|Vendor List.|  
     |**Caption**|Vendor List.|  
-    |**CaptionML**|ENU\=Vendor List.|  
+    |**CaptionML**|ENU=Vendor List.|  
     |**Department**|Lists.<br /><br /> This puts this menu item in the **Lists** sub category.|  
   
 20. Right\-click **Vendors** and then choose **Create Item…** to open the **Create Item** window.  
@@ -185,7 +185,7 @@ MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](i
     |**Object Type**|Report.|  
     |**Object ID**|Customer\-Order Summary.|  
     |**Caption**|Customer\-Order Summary.|  
-    |**CaptionML**|ENU\=Customer\-Order Summary.|  
+    |**CaptionML**|ENU=Customer\-Order Summary.|  
     |**Department**|Reports and Analysis.<br /><br /> This puts this menu item in the **Reports and Analysis** sub category.|  
   
      If the item you want to create already exists, instead of creating a new one you can just insert the existing item. For information about how to insert an item, see [How to: Insert Items in a MenuSuite](How%20to:%20Insert%20Items%20in%20a%20MenuSuite.md).  

@@ -64,10 +64,10 @@ Evaluates a string representation of a value into its typical representation. Th
   
 |Text constant|ENU value|  
 |-------------------|---------------|  
-|Text000|VarInteger \= \#1\#\#\#\#\#\#. The return code is: %2.\\|  
-|Text001|VarDate \= \#3\#\#\#\#\#\#. The return code is: %4.\\|  
-|Text002|VarYesNo \= \#5\#\#\#\#\#\#. The return code is: %6.\\|  
-|Text003|VarDuration \= %7. The return code is: %8.|  
+|Text000|VarInteger = \#1\#\#\#\#\#\#. The return code is: %2.\\|  
+|Text001|VarDate = \#3\#\#\#\#\#\#. The return code is: %4.\\|  
+|Text002|VarYesNo = \#5\#\#\#\#\#\#. The return code is: %6.\\|  
+|Text003|VarDuration = %7. The return code is: %8.|  
   
 ```  
 Value := '010196';  
@@ -81,15 +81,15 @@ MESSAGE(Text000 + Text001 + Text002 + Text003, VarInteger, Ok1, VarDate, Ok2, Va
   
  The message window displays the following:  
   
- **VarInteger \= 10196   . The return code is: Yes.**  
+ **VarInteger = 10196   . The return code is: Yes.**  
   
- **VarDate \= 01\/01\/96. The return code is: Yes.**  
+ **VarDate = 01\/01\/96. The return code is: Yes.**  
   
- **VarYesNo \= No      . The return code is: No.**  
+ **VarYesNo = No      . The return code is: No.**  
   
- **VarDuration \= 2 days 4 hours 3 seconds 717 milliseconds. The return code is: Yes.**  
+ **VarDuration = 2 days 4 hours 3 seconds 717 milliseconds. The return code is: Yes.**  
   
- This example shows that although Value \('010196'\) can be interpreted as both an integer and a date expression, it cannot be interpreted as a Boolean expression. This causes an error, shown in the return code Ok3 \(\=FALSE\).  
+ This example shows that although Value \('010196'\) can be interpreted as both an integer and a date expression, it cannot be interpreted as a Boolean expression. This causes an error, shown in the return code Ok3 \(=FALSE\).  
   
  This example also shows that when you evaluate a string as a duration data type, you can use certain words in the string to describe the duration. The following words or abbreviations are supported:  
   

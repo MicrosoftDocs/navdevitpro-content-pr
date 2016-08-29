@@ -91,7 +91,7 @@ finsql.exe command=exportlangmodule, file=<exportfile>, langid=<langid>, [server
   
  *ntauthentication*  
   
- Specifies whether to use NT authentication. The possible values are **yes**, **no**, **1**, or **0**. If you specify the *username* and *password* parameters, then you must specify **ntauthentication\=no** or **ntauthentication\=0**.  
+ Specifies whether to use NT authentication. The possible values are **yes**, **no**, **1**, or **0**. If you specify the *username* and *password* parameters, then you must specify **ntauthentication=no** or **ntauthentication=0**.  
   
 ## Remarks  
  The language is not deleted from the database.  

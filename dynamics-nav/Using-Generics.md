@@ -31,7 +31,7 @@ mylist := x.GetAStringList();
   
 |Variable name|Data Type|SubType|Length|  
 |-------------------|---------------|-------------|------------|  
-|varDotNet|DotNet|'mscorlib, Version\=2.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089'.System.Collections.Generic.List\`1||  
+|varDotNet|DotNet|'mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.System.Collections.Generic.List\`1||  
 |textResult|Text||30|  
 |i|Integer|||  
 |capacity|Integer|||  

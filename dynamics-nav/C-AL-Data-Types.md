@@ -180,11 +180,11 @@ Number := "Purchase Header".Type;
   
 |Assignment|Variable c contains|Length|  
 |----------------|-------------------------|------------|  
-|c :\= 'AbC';|'ABC'|3|  
-|c :\= '1';|'1'|1|  
-|c :\= '';|'' \(empty string\)|0 \(zero\)|  
-|c :\= '2';|'2'|1|  
-|c :\= '1 2';|'1 2'|3|  
+|c := 'AbC';|'ABC'|3|  
+|c := '1';|'1'|1|  
+|c := '';|'' \(empty string\)|0 \(zero\)|  
+|c := '2';|'2'|1|  
+|c := '1 2';|'1 2'|3|  
   
 #### Text Data Type  
  The Text data type represents a text string. You can index any character position in a string, for example A\[65\] refers to the 65th character in the variable called A. The resulting values will be of data type Char. The length of a variable of data type Text corresponds to the number of characters in the text. For example, an empty text string has length 0. If you do not specify the length of a Text variable, then the maximum length is 2GB, which is the limit imposed by Microsoft .NET Framework. The maximum length of a table field of data type Text is 250 characters.  
@@ -193,8 +193,8 @@ Number := "Purchase Header".Type;
   
 |Assignment|Result|  
 |----------------|------------|  
-|t :\= 'AbC'|The variable t now contains "AbC"|  
-|t :\= '123456abx';|Gives a run\-time error because the length \(9\) exceeds the maximum length \(6\)|  
+|t := 'AbC'|The variable t now contains "AbC"|  
+|t := '123456abx';|Gives a run\-time error because the length \(9\) exceeds the maximum length \(6\)|  
   
  When you use the Text and Code data types, make sure that you distinguish between the maximum length of the string and the actual length of the string. The maximum length is the upper limit for the number of characters in the string. The actual length describes the number of characters that are used in the string. The [STRLEN Function \(Code, Text\)](STRLEN-Function--Code--Text-.md) and the [MAXSTRLEN Function \(Code, Text\)](MAXSTRLEN-Function--Code--Text-.md) illustrate this.  
   

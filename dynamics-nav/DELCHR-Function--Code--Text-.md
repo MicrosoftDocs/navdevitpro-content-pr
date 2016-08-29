@@ -34,7 +34,7 @@ NewString := DELCHR(String[, Where][, Which])
   
  You can include one or more of the following characters in the *Where* string:  
   
--   \=   To delete any character in *String* that matches a character in *Which* \(default\)  
+-   =   To delete any character in *String* that matches a character in *Which* \(default\)  
   
 -   \<   To delete any leading character in *String* that matches a character in *Which*  
   
@@ -57,7 +57,7 @@ NewString := DELCHR(String[, Where][, Which])
   
  If you omit the *Which* parameter, then the function deletes spaces from *String* based on the contents of the *Where* parameter as follows:  
   
--   If *Where* contains \=, then all the spaces are deleted from *String*.  
+-   If *Where* contains =, then all the spaces are deleted from *String*.  
   
 -   If *Where* contains \<, then all the spaces at the start of *String* are deleted.  
   
@@ -69,7 +69,7 @@ NewString := DELCHR(String[, Where][, Which])
   
  If you use the *Where* and the *Which* parameters, then the function deletes from *String* the characters that are contained in the *Which* parameter based on the contents of the *Where* parameter as follows:  
   
--   If *Where* contains \=, then every occurrence of the characters in *Which* are deleted from *String*.  
+-   If *Where* contains =, then every occurrence of the characters in *Which* are deleted from *String*.  
   
 -   If *Where* contains \<, then the characters in *Which* are only deleted if they occur at the start of *String*.  
   

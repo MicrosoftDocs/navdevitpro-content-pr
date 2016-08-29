@@ -41,7 +41,7 @@ RANDOMIZE([Seed])
   
 |Text constant name|ENU value|  
 |------------------------|---------------|  
-|Text000|X\=%1|  
+|Text000|X=%1|  
   
 ```  
   

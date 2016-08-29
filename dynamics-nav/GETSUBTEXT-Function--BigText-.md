@@ -56,7 +56,7 @@ Gets part of a BigText variable.
   
 |Text Constant Name|ENU Value|  
 |------------------------|---------------|  
-|Text000|VarSubText \= %1|  
+|Text000|VarSubText = %1|  
   
  The following example initializes the content of the MyBigText variable with the text `ABCDEFG`. The function starts from the third position \(the character C\) in the MyBigText variable and retrieves two characters. The result is the subtext CD. This is because the number 2 is specified for *Length* .  
   

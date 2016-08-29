@@ -130,7 +130,7 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](inc
   
      Both are available on the Microsoft Download Center. You can download Microsoft Report Viewer at [Microsoft Report Viewer 2015 RUNTIME](http://go.microsoft.com/fwlink/?LinkID=536665). Microsoft System CLR Types for SQL Server 2014 is available as part of the Microsoft SQL Server 2014 Feature Pack, which you can download at [Microsoft SQL Server 2014 Feature Pack](http://go.microsoft.com/fwlink/?LinkID=536666).  
   
-     Microsoft Report Viewer 2015 is available on download at [http:\/\/go.microsoft.com\/fwlink\/?LinkID\=536665](http://go.microsoft.com/fwlink/?LinkID=536665).  
+     Microsoft Report Viewer 2015 is available on download at [http:\/\/go.microsoft.com\/fwlink\/?LinkID=536665](http://go.microsoft.com/fwlink/?LinkID=536665).  
   
 8.  Update the application manifest. The application manifest lists the files that are part of the installation.  
   

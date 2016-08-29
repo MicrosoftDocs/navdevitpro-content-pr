@@ -29,12 +29,12 @@ http://localhost:7048/DynamicsNAV/OData/Company('CRONUS International Ltd.')/Cus
 |Definition|Example and explanation|Equivalent C/AL expression|  
 |----------------|-----------------------------|---------------------------------|  
 |Select a range of values|`filter=Entry_No gt 610 and Entry_No lt 615`<br /><br /> Query on GLEntry service. Returns entry numbers 611 through 614.|..|  
-|And|`filter=Country_Region_Code eq 'ES' and Payment_Terms_Code eq '14 DAYS'`<br /><br /> Query on Customer service. Returns customers in Spain where Payment\_Terms\_Code\=**14 DAYS**.|&|  
+|And|`filter=Country_Region_Code eq 'ES' and Payment_Terms_Code eq '14 DAYS'`<br /><br /> Query on Customer service. Returns customers in Spain where Payment\_Terms\_Code=**14 DAYS**.|&|  
 |Or|`filter= Country_Region_Code eq 'ES' or Country_Region_Code eq 'US'`<br /><br /> Query on Customer service. Returns customers in Spain and the United States.<br /><br /> **Alert:** You can use OR operators to apply different filters on the same field. However, you cannot use OR operators to apply filters on two different fields.|&#124;|  
 |Less than|`filter=Entry_No lt 610`<br /><br /> Query on GLEntry service. Returns entry numbers that are less than 610.|\<|  
 |Greater than|`filter= Entry_No gt 610`<br /><br /> Query on GLEntry service. Returns entry numbers 611 and higher.|\>|  
-|Greater than or equal to|`filter=Entry_No ge 610`<br /><br /> Query on GLEntry service. Returns entry numbers 610 and higher.|\>\=|  
-|Less than or equal to|`filter=Entry_No le 610`<br /><br /> Query on GLEntry service. Returns entry numbers up to and including 610.|\<\=|  
+|Greater than or equal to|`filter=Entry_No ge 610`<br /><br /> Query on GLEntry service. Returns entry numbers 610 and higher.|\>=|  
+|Less than or equal to|`filter=Entry_No le 610`<br /><br /> Query on GLEntry service. Returns entry numbers up to and including 610.|\<=|  
 |Different from \(not equal\)|`filter=VAT_Bus_Posting_Group ne 'EXPORT'`<br /><br /> Query on Customer service. Returns all customers with VAT\_Bus\_Posting\_Group not equal to EXPORT.|\<\>|  
 |endswith|`filter=endswith(VAT_Bus_Posting_Group,'RT')`<br /><br /> Query on Customer service. Returns all customers with VAT\_Bus\_Posting\_Group values that end in RT.|\*|  
 |startswith|`filter=startswith(Name, 'S')`<br /><br /> Query on Customer service. Returns all customers names beginning with “S”.||  

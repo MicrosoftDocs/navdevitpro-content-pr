@@ -72,7 +72,7 @@ With [!INCLUDE[navnow](includes/navnow_md.md)] queries, you can retrieve records
 |-----------|------------------------|---------------------|  
 |Salesperson code|Salesperson\_Purchaser|Code|  
   
- The DataItemLink property sets up "equal to" \(\=\) comparison condition between two columns of the data items. When the query is run, the query compares each row of the two data items to find records that having matching values for the columns. Records that have matching column values are combined into a row in the resulting dataset. In some cases, there will be records that do not have matching values. You use the DataItemLinkType property to include records that do not have matching column values.  
+ The DataItemLink property sets up "equal to" \(=\) comparison condition between two columns of the data items. When the query is run, the query compares each row of the two data items to find records that having matching values for the columns. Records that have matching column values are combined into a row in the resulting dataset. In some cases, there will be records that do not have matching values. You use the DataItemLinkType property to include records that do not have matching column values.  
   
 ## Setting Up the DataItemLinkType Property  
  You use the data item link type to limit the records that are included in the resulting dataset based on the conditions of the DataItemLink property. You have the following options from which to choose:  

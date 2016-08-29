@@ -32,7 +32,7 @@ In some reports, you may want to format rows as bold based on the value of a fie
   
 8.  In the text box at the top of the **Expression** window, use the field that you selected in step 7to create a conditional statement. For example, the following is a conditional statement for report 1.  
   
-     **\=IIf\(Fields\!G\_L\_Account\_\_\_Account\_Type\_.Value\="1","Normal","Bold"\)**  
+     **=IIf\(Fields\!G\_L\_Account\_\_\_Account\_Type\_.Value="1","Normal","Bold"\)**  
   
 9. On the **File** menu, choose **Save Report.rdlc**.  
   
