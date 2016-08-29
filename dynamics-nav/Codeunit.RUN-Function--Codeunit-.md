@@ -30,9 +30,9 @@ Loads and executes the unit of C/AL code that you specify. See also [RUN Functio
   
  Codeunit.RUN\(CODEUNIT::"\<*codeunit name*\>", *RecVariable*\)  
   
- If the codeunit that you specify does not exist, then a run\-time error occurs.  
+ If the codeunit that you specify does not exist, then a run-time error occurs.  
   
- If you run the codeunit with a record from a table other than the one it is associated with in the [TableNo Property](TableNo-Property.md) of the codeunit, then a run\-time error occurs.  
+ If you run the codeunit with a record from a table other than the one it is associated with in the [TableNo Property](TableNo-Property.md) of the codeunit, then a run-time error occurs.  
   
  *Record*  
  Type: Record  
@@ -49,7 +49,7 @@ Loads and executes the unit of C/AL code that you specify. See also [RUN Functio
  **true** if no errors occurred; otherwise, **false**.  
   
 ## Example  
- The following example runs codeunit 15, Gen. Jnl.\-Show Card by specifying the ID. This codeunit is associated with the Gen. Journal Line table. This example requires that you create the following variable in the **C/AL Globals** window.  
+ The following example runs codeunit 15, Gen. Jnl.-Show Card by specifying the ID. This codeunit is associated with the Gen. Journal Line table. This example requires that you create the following variable in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
@@ -60,7 +60,7 @@ CODEUNIT.RUN(15,GenJournalLine);
 ```  
   
 ## Example  
- The following example runs codeunit 15, Gen. Jnl.\-Show Card by specifying the name of the codeunit instead of the ID. This example requires that you create the following variable in the **C/AL Globals** window.  
+ The following example runs codeunit 15, Gen. Jnl.-Show Card by specifying the name of the codeunit instead of the ID. This example requires that you create the following variable in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

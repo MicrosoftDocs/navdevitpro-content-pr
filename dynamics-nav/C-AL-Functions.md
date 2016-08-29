@@ -17,5 +17,5 @@ The C/AL functions in this section are grouped alphabetically according to the d
 ## See Also  
  [Properties](Properties.md)   
  [Triggers](Triggers.md)   
- [Essential C\-AL Functions](Essential-C-AL-Functions.md)   
- [Programming in C\-AL](Programming-in-C-AL.md)
+ [Essential C-AL Functions](Essential-C-AL-Functions.md)   
+ [Programming in C-AL](Programming-in-C-AL.md)

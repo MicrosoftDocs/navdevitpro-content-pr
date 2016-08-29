@@ -27,7 +27,7 @@ Creates, runs, and closes a specified page object. When a page is run modally, n
   
  The number of the page that you want to run. If you enter zero \(0\), then the default lookup window for the current page is displayed. On the **View** menu, choose the **C/AL Symbols Menu** to select the page from a list.  
   
- If the page that you specify does not exist, then a run\-time error occurs.  
+ If the page that you specify does not exist, then a run-time error occurs.  
   
  *Record*  
  Type: Record  

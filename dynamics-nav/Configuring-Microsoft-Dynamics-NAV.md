@@ -17,7 +17,7 @@ This section identifies components that you can preconfigure in [!INCLUDE[navnow
 ## Components That You Can Configure In Setup  
  You can configure some Microsoft components in [!INCLUDE[navnow](includes/navnow_md.md)] Setup. You can then either proceed to install software with Setup, or save all configuration information to a Setup configuration file for future use. For more information, see [How to: Preconfigure Components](How%20to:%20Preconfigure%20Components.md).  
   
- When you install a component that you have pre\-configured in Setup, the configuration information is transferred to the appropriate component configuration file. For example, if you pre\-configure [!INCLUDE[nav_server](includes/nav_server_md.md)] in Setup, the relevant configuration information is transferred, upon installation, to the CustomSettings.config file. This file is stored on the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer in the equivalent of [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service.  
+ When you install a component that you have pre-configured in Setup, the configuration information is transferred to the appropriate component configuration file. For example, if you pre-configure [!INCLUDE[nav_server](includes/nav_server_md.md)] in Setup, the relevant configuration information is transferred, upon installation, to the CustomSettings.config file. This file is stored on the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer in the equivalent of [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service.  
   
  The following topics provide additional information on the configuration options for specific components in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup:  
   

@@ -12,15 +12,15 @@ caps.latest.revision: 5
 manager: edupont
 ---
 # How to: Run the Sync-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database
-This topic describes how to run the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.Sync\-NAVTenant](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.Sync-NAVTenant) cmdlet to synchronize the business data \(tenant\) database schema with the application database. You can use this cmdlet in a multitenant and non\-multitenant deployment environment.  
+This topic describes how to run the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.Sync-NAVTenant](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.Sync-NAVTenant) cmdlet to synchronize the business data \(tenant\) database schema with the application database. You can use this cmdlet in a multitenant and non-multitenant deployment environment.  
   
-### To run the Sync\-NAVTenant cmdlet  
+### To run the Sync-NAVTenant cmdlet  
   
 1.  On the computer that is running the [!INCLUDE[nav_server](includes/nav_server_md.md)], run **[!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell** as an Administrator.  
   
     1.  Choose **Start**, in the **Search** box, type **[!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell**.  
   
-    2.  Right\-click the related link, and then choose **Run as Administrator**.  
+    2.  Right-click the related link, and then choose **Run as Administrator**.  
   
 2.  At the command prompt, type one of the following commands:  
   

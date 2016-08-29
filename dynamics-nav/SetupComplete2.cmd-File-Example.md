@@ -12,7 +12,7 @@ caps.latest.revision: 7
 manager: tsiggaar
 ---
 # SetupComplete2.cmd File Example
-The following code is an example of the SetComplete2.cmd file on a Microsoft Azure virtual machine. When you create an Azure virtual machine that you want to use as an Azure Marketplace image for [!INCLUDE[navnow](includes/navnow_md.md)] deployment, you use the SetComplete2.cmd file to Schedule the second part of SysPrep\-based SQL Server installation on the Azure virtual machine that is created from the image.  
+The following code is an example of the SetComplete2.cmd file on a Microsoft Azure virtual machine. When you create an Azure virtual machine that you want to use as an Azure Marketplace image for [!INCLUDE[navnow](includes/navnow_md.md)] deployment, you use the SetComplete2.cmd file to Schedule the second part of SysPrep-based SQL Server installation on the Azure virtual machine that is created from the image.  
   
  Copy the following code into the SetComplete2.cmd file.  
   

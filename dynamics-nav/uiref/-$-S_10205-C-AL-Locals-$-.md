@@ -12,11 +12,11 @@ caps.latest.revision: 16
 manager: eliotgra
 ---
 # ($ S_10205 C-AL Locals $)
-Declares local variables and text constants in [!INCLUDE[navnow](../includes/navnow_md.md)]. Local variables can only exist in the scope of triggers or functions. For more information about variables, see [C\-AL Variables](../C-AL-Variables.md).  
+Declares local variables and text constants in [!INCLUDE[navnow](../includes/navnow_md.md)]. Local variables can only exist in the scope of triggers or functions. For more information about variables, see [C-AL Variables](../C-AL-Variables.md).  
 
  To open this window, on the **Tools** menu, choose **Object Designer**, choose **Codeunit**, and then on the **View** menu, choose **C/AL Locals**.  
 
- You can also open the **C/AL Globals** window, choose the **Functions** tab, and then choose the **Locals** button. For more information about how to open the **C/AL Globals** windows, see [\($ S\_10204 C\-AL Globals $\)](-$-S_10204-C-AL-Globals-$-.md).  
+ You can also open the **C/AL Globals** window, choose the **Functions** tab, and then choose the **Locals** button. For more information about how to open the **C/AL Globals** windows, see [\($ S\_10204 C-AL Globals $\)](-$-S_10204-C-AL-Globals-$-.md).  
 
 ## Parameters Tab  
 
@@ -37,12 +37,12 @@ Declares local variables and text constants in [!INCLUDE[navnow](../includes/nav
 |**Length**|The length of the return value. For example, if the return value is a Text DataType, the text might have a length of 50.|  
 
 ## Variables Tab  
- You can declare local user\-defined variables.  
+ You can declare local user-defined variables.  
 
 |[!INCLUDE[bp_tablefield](../includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
 |**Name**|The name of the variable. **Tip:**  When you create a variable that has the **DataType** of **Codeunit**, **Page**, **Testpage**, **Report**, **Query**, or **XMLport**, you do not have to manually add a value to the **Name** field. If you just set the **DataType** and **SubType** fields, then the **Name** field will be automatically generated when you leave the line. The generated name is based on the name that is assigned to the associated [!INCLUDE[navnow](../includes/navnow_md.md)] object. You can change the generated name as you like.|  
-|**DataType**|The data type of the variable. For more information, see [C\-AL Data Types](../C-AL-Data-Types.md).|  
+|**DataType**|The data type of the variable. For more information, see [C-AL Data Types](../C-AL-Data-Types.md).|  
 |**SubType**|The type of data that is stored in a variable. **SubType** contains additional information about a data type. For example, a Report data type might have the **Customer** table as a subtype.|  
 |**Length**|The length of the characters in the field. For example, a Text data type might have a length of 100. This applies to Code and Text data types.|  
 
@@ -55,4 +55,4 @@ Declares local variables and text constants in [!INCLUDE[navnow](../includes/nav
 |**ConstValue**|The value of the character string that is declared as a constant. You can open the **Multilanguage Editor** window by choosing the **AssistEdit** button in the **ConstValue** field.|  
 
 ## See Also  
- [\($ S\_10204 C\-AL Globals $\)](-$-S_10204-C-AL-Globals-$-.md)
+ [\($ S\_10204 C-AL Globals $\)](-$-S_10204-C-AL-Globals-$-.md)

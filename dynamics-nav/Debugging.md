@@ -61,5 +61,5 @@ The process of finding and correcting errors is called *debugging*. [!INCLUDE[na
   
 ## See Also  
  [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough:%20Debugging%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client.md)   
- [Avoiding Run\-Time Errors](Avoiding-Run-Time-Errors.md)   
+ [Avoiding Run-Time Errors](Avoiding-Run-Time-Errors.md)   
  [Using About This Page and About This Report](Using-About-This-Page-and-About-This-Report.md)

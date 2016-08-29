@@ -109,7 +109,7 @@ finsql.exe command=importtranslate, file=<importfile>, [servername=<server>,] [d
  You can use this command for translating text strings in multilanguage setup of [!INCLUDE[navnow](includes/navnow_md.md)]. The contents of the text file must be compatible with [!INCLUDE[navnow](includes/navnow_md.md)]. Therefore, the text file will typically have originated from a text file that was previously exported from the database, and then modified. For more information, see [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How%20to:%20Add%20Translated%20Strings%20By%20Importing%20and%20Exporting%20Multilanguage%20Files.md) and [Multilanguage Development](Multilanguage-Development.md).  
   
 ## Example  
- This example shows how to run the ImportTranslate command to import text strings from a text file to the *Demo Database NAV \(9\-0\)* database. The text file that has the path and file name *C:\\navtextstrings.txt*.  
+ This example shows how to run the ImportTranslate command to import text strings from a text file to the *Demo Database NAV \(9-0\)* database. The text file that has the path and file name *C:\\navtextstrings.txt*.  
   
 ```  
 finsql.exe command=importtranslate, file=C:\navtextstrings.txt, servername=TestComputer01\NAVDEMO, database="Demo Database NAV (9-0)"  

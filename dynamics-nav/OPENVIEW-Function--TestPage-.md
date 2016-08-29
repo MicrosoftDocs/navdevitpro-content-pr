@@ -28,7 +28,7 @@ TestPage.OPENVIEW
  The test page variable that you use to refer to the test page.  
   
 ## Remarks  
- If *TestPage* is already open, then a run\-time error occurs, and the outcome of the test function is FAILURE.  
+ If *TestPage* is already open, then a run-time error occurs, and the outcome of the test function is FAILURE.  
   
  If the page to which *TestPage* refers is a card page, then the data that is loaded on the page is from the first row in the dataset.  
   

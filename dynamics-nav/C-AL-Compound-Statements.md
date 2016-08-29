@@ -29,7 +29,7 @@ END
  The individual statements are separated by a semicolon. In C/AL, a semicolon is used to separate statements and not, as in other programming languages, as a terminator symbol for a statement. Nevertheless, an extra semicolon before an END does not cause an error because it is interpreted by the compiler as an empty statement.  
   
 ## Blocks  
- The BEGIN\-END structure is also called a *block*. Blocks can be very useful to refer to the other control structures in C/AL.  
+ The BEGIN-END structure is also called a *block*. Blocks can be very useful to refer to the other control structures in C/AL.  
   
  When BEGIN follows THEN, ELSE, or DO, it should be on the same line and preceded by one space character.  
   
@@ -58,6 +58,6 @@ END;
 ```  
   
 ## See Also  
- [C\-AL Conditional Statements](C-AL-Conditional-Statements.md)   
- [C\-AL Repetitive Statements](C-AL-Repetitive-Statements.md)   
- [C\-AL WITH Statements](C-AL-WITH-Statements.md)
+ [C-AL Conditional Statements](C-AL-Conditional-Statements.md)   
+ [C-AL Repetitive Statements](C-AL-Repetitive-Statements.md)   
+ [C-AL WITH Statements](C-AL-WITH-Statements.md)

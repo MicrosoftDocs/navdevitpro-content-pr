@@ -12,7 +12,7 @@ caps.latest.revision: 6
 manager: edupont
 ---
 # C-AL Function Statements
-You use function statements to execute either built\-in system functions or user\-defined functions. Function calls may include parameters, which are passed to the function.  
+You use function statements to execute either built-in system functions or user-defined functions. Function calls may include parameters, which are passed to the function.  
   
  If you assign the return value of a function call to a variable, then you use the function statement as part of an assignment statement.  
   
@@ -49,6 +49,6 @@ NewDate := CALCDATE(DateExpression, ReferenceDate);
  After you run the code in this example, the NewDate variable represents the date November 18, 2009.  
   
 ## See Also  
- [C\-AL Functions](C-AL-Functions.md)   
+ [C-AL Functions](C-AL-Functions.md)   
  [Triggers](Triggers.md)   
- [C\-AL Simple Statements](C-AL-Simple-Statements.md)
+ [C-AL Simple Statements](C-AL-Simple-Statements.md)

@@ -96,7 +96,7 @@ Before you release your [!INCLUDE[navnow](includes/navnow_md.md)] application, y
 ### ASSERTERROR Keyword  
  When you test your application, you should test that your code performs as expected under both successful and failing conditions. These are called positive and negative tests. To test how your application performs under failing conditions, you can use the ASSERTERROR keyword. The ASSERTERROR keyword specifies that an error is expected at run time in the statement that follows the ASSERTERROR keyword. If a simple or compound statement that follows the ASSERTERROR keyword causes an error, then execution successfully continues to the next statement in the test function. If a statement that follows the ASSERTERROR keyword does not cause an error, then the ASSERTERROR statement itself fails with an error, and the test function that is running produces a FAILURE result.  
   
- For more information, see [C\-AL ASSERTERROR Statements](C-AL-ASSERTERROR-Statements.md).  
+ For more information, see [C-AL ASSERTERROR Statements](C-AL-ASSERTERROR-Statements.md).  
   
 ## Testing Best Practices  
  We recommend the following best practices for designing your application tests:  
@@ -111,9 +111,9 @@ Before you release your [!INCLUDE[navnow](includes/navnow_md.md)] application, y
   
 -   Automated tests should not require user intervention.  
   
--   Tests should leave the system in the same well\-known state as when the test started so that you can re\-run the test or run other tests in any order and always start from the same state.  
+-   Tests should leave the system in the same well-known state as when the test started so that you can re-run the test or run other tests in any order and always start from the same state.  
   
--   Test execution and reporting should be fast and able to integrate with the test management system so that the tests can be used as check\-in tests or other build verification tests, which typically run on unattended servers.  
+-   Test execution and reporting should be fast and able to integrate with the test management system so that the tests can be used as check-in tests or other build verification tests, which typically run on unattended servers.  
   
 -   Create test functions that follow the same pattern:  
   

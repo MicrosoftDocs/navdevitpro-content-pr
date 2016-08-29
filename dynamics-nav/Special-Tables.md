@@ -27,4 +27,4 @@ caps.latest.revision: 6
   [Virtual Tables](Virtual-Tables.md)  
   
 ## See Also  
- [Tables\-duplicate 20](Tables-duplicate-20.md)
+ [Tables-duplicate 20](Tables-duplicate-20.md)

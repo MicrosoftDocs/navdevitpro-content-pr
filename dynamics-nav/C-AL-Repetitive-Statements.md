@@ -21,8 +21,8 @@ A repetitive statement is also known as a loop. The following table shows the lo
 |WHILE|Repeats the inner statement as long as the specified condition is **TRUE**. The statement in a loop of this kind is repeated 0 or more times.|  
 |REPEAT|Repeats the inner statements until the specified conditions evaluate to **TRUE**. The statements in a loop of this kind are always executed at least one time.|  
   
-## FOR\-TO and FOR\-DOWNTO Control Structure  
- The following syntax shows the FOR\-TO and FOR\-DOWNTO statement.  
+## FOR-TO and FOR-DOWNTO Control Structure  
+ The following syntax shows the FOR-TO and FOR-DOWNTO statement.  
   
 ```  
 FOR <Control Variable> := <Start Number> TO <End Number> DO  
@@ -36,14 +36,14 @@ FOR <Control Variable> := <Start Number> DOWNTO <End Number> DO
   
  The data type of *\<Control Variable\>*, *\<Start Number\>*, and *\<End Number\>* must be Boolean, number, time, or date.  
   
- Use FOR\-TO and FOR\-DOWNTO statements when you want to execute code a specific number of times. The *\<Control Variable\>* controls the number of times that the code of the inner statement is executed according to the following:  
+ Use FOR-TO and FOR-DOWNTO statements when you want to execute code a specific number of times. The *\<Control Variable\>* controls the number of times that the code of the inner statement is executed according to the following:  
   
--   In a FOR\-TO loop statement, the *\<Control Variable\>* value is increased by one after each iteration. The inner *\<Statement\>* is executed repeatedly until the *\<Start Number\>* value is greater than the *\<End Number\>* value.  
+-   In a FOR-TO loop statement, the *\<Control Variable\>* value is increased by one after each iteration. The inner *\<Statement\>* is executed repeatedly until the *\<Start Number\>* value is greater than the *\<End Number\>* value.  
   
--   In a FOR\-DOWNTO loop statement, the *\<Control Variable\>* value is decreased by one after each iteration. The inner *\<Statement\>* is executed repeatedly until the *\<Start Number\>* value is less than the *\<End Number\>* value.  
+-   In a FOR-DOWNTO loop statement, the *\<Control Variable\>* value is decreased by one after each iteration. The inner *\<Statement\>* is executed repeatedly until the *\<Start Number\>* value is less than the *\<End Number\>* value.  
   
 > [!NOTE]  
->  When the FOR statement is executed, *\<Start Number\>* and *\<End Number\>* are converted to the same data type as *\<Control Variable\>* if it is required. This type conversion can cause a run\-time error.  
+>  When the FOR statement is executed, *\<Start Number\>* and *\<End Number\>* are converted to the same data type as *\<Control Variable\>* if it is required. This type conversion can cause a run-time error.  
   
 > [!NOTE]  
 >  If the value of the *\<Control Variable\>* is changed inside the FOR loop, then the behavior is not predictable. Furthermore, the value of the *\<Control Variable\>* is undefined outside the scope of the FOR loop.  
@@ -61,7 +61,7 @@ FOR <Control Variable> := <Start Number> DOWNTO <End Number> DO
 FOR Count := 1000 TO 100000000000000 DO  
 ```  
   
- When this statement is executed, a run\-time error occurs because the start and end values are converted to the same data type as the Count control variable. Count has been declared as an integer variable. The end number 100000000000000 is outside the valid range for integers, and an error occurs.  
+ When this statement is executed, a run-time error occurs because the start and end values are converted to the same data type as the Count control variable. Count has been declared as an integer variable. The end number 100000000000000 is outside the valid range for integers, and an error occurs.  
   
 ### Example 2  
  The following example shows how to nest FOR statements.  
@@ -218,8 +218,8 @@ FOREACH txt IN strarray DO
   
  Compile and run the [!INCLUDE[navnow](includes/navnow_md.md)] object.  
   
-## WHILE\-DO Control Structure  
- The following syntax shows the WHILE\-DO statement.  
+## WHILE-DO Control Structure  
+ The following syntax shows the WHILE-DO statement.  
   
 ```  
 WHILE <Condition> DO  
@@ -278,8 +278,8 @@ WHILE I < 1000 DO
 Message(format(I));  
 ```  
   
-## REPEAT\-UNTIL Control Structure  
- The following syntax shows the REPEAT\-UNTIL statement.  
+## REPEAT-UNTIL Control Structure  
+ The following syntax shows the REPEAT-UNTIL statement.  
   
 ```  
 REPEAT  
@@ -322,7 +322,7 @@ UNTIL Customer.NEXT <= 0;
 Message(’The Customer table contains %1 records.’,Count);  
 ```  
   
- This code uses a REPEAT\-UNTIL loop to count the number of entries in the Customer table. The FIND function finds the first entry in the table. Each time NEXT is called, it steps one record forward. When NEXT equals 0, there are no more entries in the table. The loop is exited, and a message displays how many entries were found.  
+ This code uses a REPEAT-UNTIL loop to count the number of entries in the Customer table. The FIND function finds the first entry in the table. Each time NEXT is called, it steps one record forward. When NEXT equals 0, there are no more entries in the table. The loop is exited, and a message displays how many entries were found.  
   
 ## EXIT Statement  
  The EXIT statement is used to control the flow of the execution. The following syntax shows an EXIT statement.  
@@ -335,9 +335,9 @@ EXIT([<Value>])
   
  Using EXIT without a parameter in a local function corresponds to using the parameter value 0. The C/AL function will return the value 0 or '' \(empty string\).  
   
- A compile\-time error occurs if EXIT is called by using a return parameter from either of the following:  
+ A compile-time error occurs if EXIT is called by using a return parameter from either of the following:  
   
--   System\-defined triggers.  
+-   System-defined triggers.  
   
 -   Local functions that do not return a value.  
   
@@ -353,7 +353,7 @@ END;
 ```  
   
 ## See Also  
- [C\-AL Compound Statements](C-AL-Compound-Statements.md)   
- [C\-AL Conditional Statements](C-AL-Conditional-Statements.md)   
- [C\-AL WITH Statements](C-AL-WITH-Statements.md)   
- [C\-AL BREAK Statement](C-AL-BREAK-Statement.md)
+ [C-AL Compound Statements](C-AL-Compound-Statements.md)   
+ [C-AL Conditional Statements](C-AL-Conditional-Statements.md)   
+ [C-AL WITH Statements](C-AL-WITH-Statements.md)   
+ [C-AL BREAK Statement](C-AL-BREAK-Statement.md)

@@ -23,8 +23,8 @@ Operators can be used in expressions to combine, investigate, and adjust values 
 |\( \)|Parentheses|  
 |\[ \]|Indexing|  
 |::|Scope|  
-|\+|Addition|  
-|\-|Subtraction or negation|  
+|+|Addition|  
+|-|Subtraction or negation|  
 |\*|Multiplication|  
 |\/|Division|  
 |DIV|Integer division|  
@@ -41,14 +41,14 @@ Operators can be used in expressions to combine, investigate, and adjust values 
 |NOT|Logical negation|  
 |XOR|Exclusive logical disjunction|  
 |..|Range|  
-|@|Case\-insensitive|  
+|@|Case-insensitive|  
   
- The "\+" and the "\-" operators can be used both as unary and binary operators. The "NOT" operator can only be used as a unary operator. All the other operators are binary.  
+ The "+" and the "-" operators can be used both as unary and binary operators. The "NOT" operator can only be used as a unary operator. All the other operators are binary.  
   
  Most of the operators can be used on different data types. The action of these operators may depend on the data type of the expression that they are used on.  
   
 ### Example 1  
- In this example, the "\+" operator is used as a binary operator.  
+ In this example, the "+" operator is used as a binary operator.  
   
 ```  
 number + number  
@@ -57,7 +57,7 @@ number + number
  This returns the sum of the numbers, that is, a result of type number.  
   
 ### Example 2  
- In this example, the "\+" operator is used as a binary operator.  
+ In this example, the "+" operator is used as a binary operator.  
   
 ```  
 string + string  
@@ -66,7 +66,7 @@ string + string
  This returns the concatenation of the strings, that is, a result of the type string.  
   
 ### Example 3  
- In this example, the "\+" operator is used as a unary operator to indicate sign.  
+ In this example, the "+" operator is used as a unary operator to indicate sign.  
   
 ```  
 +34545  
@@ -77,11 +77,11 @@ string + string
   
 1.  .\(fields in records\), \[\] \(indexing\), \(\) \(parentheses\), :: \(scope\)  
   
-2.  NOT, \- \(unary\), \+ \(unary\)  
+2.  NOT, - \(unary\), + \(unary\)  
   
 3.  \*,\/,DIV, MOD, AND, XOR  
   
-4.  \+, \-, OR  
+4.  +, -, OR  
   
 5.  \>, \<. \>=, \<=, = \<\>, IN  
   

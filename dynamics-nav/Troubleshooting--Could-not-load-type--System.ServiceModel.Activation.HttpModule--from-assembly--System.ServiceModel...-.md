@@ -27,7 +27,7 @@ When you try to access the [!INCLUDE[nav_web](includes/nav_web_md.md)], you get 
   
     1.  From the **Start** menu, choose **All Programs**, and then choose **Accessories**.  
   
-    2.  Right\-click **Command Prompt**, and then choose **Run as administrator**.  
+    2.  Right-click **Command Prompt**, and then choose **Run as administrator**.  
   
 2.  At the command prompt, type the following command to change to the *Microsoft.NET\\Framework64\\v4.0.30319* folder, and then press Enter.  
   

@@ -51,7 +51,7 @@ An *array* is a data structure that contains several variables of the same type.
   
     ```  
   
-2.  Build the project, and then copy the assembly to the Add\-ins folder of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] installation folder. By default, the path of the installation folder is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\RoleTailored Client or [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client.  
+2.  Build the project, and then copy the assembly to the Add-ins folder of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] installation folder. By default, the path of the installation folder is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\RoleTailored Client or [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client.  
   
 3.  In the development environment, open a [!INCLUDE[navnow](includes/navnow_md.md)] object, open the C/AL code, and then create the following C/AL variables.  
   
@@ -90,8 +90,8 @@ An *array* is a data structure that contains several variables of the same type.
   
     ```  
   
-## Example: Using User\-Defined Classes in a .NET Framework Array  
- This example shows how you can use a .NET Framework array that includes user\-defined classes.  
+## Example: Using User-Defined Classes in a .NET Framework Array  
+ This example shows how you can use a .NET Framework array that includes user-defined classes.  
   
 1.  In Visual Studio, create a C\# class library project called *NavInteropHelper* that contains methods that return the information about the types as follows.  
   
@@ -111,7 +111,7 @@ An *array* is a data structure that contains several variables of the same type.
   
     ```  
   
-2.  Build the project, and then copy the assembly to the Add\-ins folder of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] installation folder. By default, the path of the installation folder is [!INCLUDE[navnow_install](includes/navnow_install_md.md)] RoleTailored Client or [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)] RoleTailored Client.  
+2.  Build the project, and then copy the assembly to the Add-ins folder of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] installation folder. By default, the path of the installation folder is [!INCLUDE[navnow_install](includes/navnow_install_md.md)] RoleTailored Client or [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)] RoleTailored Client.  
   
 3.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], open a [!INCLUDE[navnow](includes/navnow_md.md)] object, open the C/AL code, and then create the following C/AL variables.  
   

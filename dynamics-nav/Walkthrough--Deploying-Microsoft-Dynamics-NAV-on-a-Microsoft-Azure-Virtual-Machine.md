@@ -12,9 +12,9 @@ caps.latest.revision: 26
 manager: tsiggaar
 ---
 # Walkthrough: Deploying Microsoft Dynamics NAV on a Microsoft Azure Virtual Machine
-The following walkthrough demonstrates how to use the Example\-1VM.ps1 script of the [!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)] to deploy [!INCLUDE[navnow](includes/navnow_md.md)] on Microsoft Azure from a local computer. The walkthrough deploys the [!INCLUDE[navnow](includes/navnow_md.md)] components, including the [!INCLUDE[demolong](includes/demolong_md.md)], on a single virtual machine as illustrated in the following figure.  
+The following walkthrough demonstrates how to use the Example-1VM.ps1 script of the [!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)] to deploy [!INCLUDE[navnow](includes/navnow_md.md)] on Microsoft Azure from a local computer. The walkthrough deploys the [!INCLUDE[navnow](includes/navnow_md.md)] components, including the [!INCLUDE[demolong](includes/demolong_md.md)], on a single virtual machine as illustrated in the following figure.  
   
- ![Network topology for Example&#45;1VM script](media/NAV_Azure_Example-1VM.png "NAV\_Azure\_Example\-1VM")  
+ ![Network topology for Example&#45;1VM script](media/NAV_Azure_Example-1VM.png "NAV\_Azure\_Example-1VM")  
   
  When completed, you will have a new virtual machine on Azure with a fully functional [!INCLUDE[navnow](includes/navnow_md.md)] environment that gives users access to [!INCLUDE[navnow](includes/navnow_md.md)] data from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
@@ -46,8 +46,8 @@ The following walkthrough demonstrates how to use the Example\-1VM.ps1 script of
 |OData services port|9003|  
 |ClickOnce website port|9004|  
 |[!INCLUDE[navnow](includes/navnow_md.md)] company name|MyCompany<br /><br /> This walkthrough restores data for the **CRONUS International Ltd.** company from a [!INCLUDE[navnow](includes/navnow_md.md)] database backup file, and then renames the company to *MyCompany*.|  
-|Language setting on the [!INCLUDE[navnow](includes/navnow_md.md)] Web Server|en\-US|  
-|Region format setting on the [!INCLUDE[navnow](includes/navnow_md.md)] Web Server|en\-US|  
+|Language setting on the [!INCLUDE[navnow](includes/navnow_md.md)] Web Server|en-US|  
+|Region format setting on the [!INCLUDE[navnow](includes/navnow_md.md)] Web Server|en-US|  
   
 ## Prerequisites  
  To complete this walkthrough, you will need to install the prerequisites that are described in [Preparing for Deploying Microsoft Dynamics NAV on Microsoft Azure](Preparing-for-Deploying-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md).  
@@ -56,14 +56,14 @@ The following walkthrough demonstrates how to use the Example\-1VM.ps1 script of
   
 |Item|Information|  
 |----------|-----------------|  
-|PublishSettings file|C:\\Users\\Administrator\\MyAzure\-2\-21\-2013.publishsettings|  
+|PublishSettings file|C:\\Users\\Administrator\\MyAzure-2-21-2013.publishsettings|  
 |Azure subscription name|MyAzureSubscription|  
 |Azure storage account|MyAzureStorage|  
 |Image for virtual machine|This walkthrough will use the latest version of a supported image from the Azure Image Gallery. You do not have to do anything to meet this prerequisite.|  
 |[!INCLUDE[navnow](includes/navnow_md.md)] installation media \(DVD\) location|D:\\NAVDVD|  
-|[!INCLUDE[navnow](includes/navnow_md.md)] database backup file location|D:\\NAVDVD\\SQLDemoDatabase\\CommonAppData\\Microsoft\\Microsoft Dynamics NAV\\72\\Database\\Demo Database NAV \(7\-2\).bak|  
+|[!INCLUDE[navnow](includes/navnow_md.md)] database backup file location|D:\\NAVDVD\\SQLDemoDatabase\\CommonAppData\\Microsoft\\Microsoft Dynamics NAV\\72\\Database\\Demo Database NAV \(7-2\).bak|  
 |[!INCLUDE[navnow](includes/navnow_md.md)] license|D:\\NAVDVD\\SQLDemoDatabase\\CommonAppData\\Microsoft\\Microsoft Dynamics NAV\\72\\Database\\Cronus.flf|  
-|[!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)] location.|C:\\Cloud<br /><br /> The [!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)] are included in the WindowsPowerShellScripts\\Cloud folder on [!INCLUDE[navnow](includes/navnow_md.md)] installation media. For this walkthrough, you copy the Cloud folder and its content to the C: drive. The Example\-1VM.ps1 script and Set\-PartnerSettings file that are used in the walkthrough are in the Cloud\\HowTo folder.|  
+|[!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)] location.|C:\\Cloud<br /><br /> The [!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)] are included in the WindowsPowerShellScripts\\Cloud folder on [!INCLUDE[navnow](includes/navnow_md.md)] installation media. For this walkthrough, you copy the Cloud folder and its content to the C: drive. The Example-1VM.ps1 script and Set-PartnerSettings file that are used in the walkthrough are in the Cloud\\HowTo folder.|  
 ||  
 |Security certificate PFX file location and password for [!INCLUDE[navnow](includes/navnow_md.md)] client services|File: C:\\Cloud\\HowTo\\MyAzureVM.pfx<br /><br /> Password: pfxpassword|  
 |Security certificate PFX file and password for the [!INCLUDE[nav_web](includes/nav_web_md.md)].|This walkthrough uses the security certificate that is automatically generated by the [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)]. No action is required for this prerequisite.|  
@@ -83,7 +83,7 @@ The following walkthrough demonstrates how to use the Example\-1VM.ps1 script of
   
 1.  On the provisioning computer, choose **Start**, and then search for Windows PowerShell ISE.  
   
-2.  Right\-click the **Windows PowerShell ISE** item, and then choose **Run as Administrator**.  
+2.  Right-click the **Windows PowerShell ISE** item, and then choose **Run as Administrator**.  
   
 3.  At the command prompt, change to the \\Windows PowerShell Scripts\\Cloud\\HowTo folder of the [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)].  
   
@@ -93,27 +93,27 @@ The following walkthrough demonstrates how to use the Example\-1VM.ps1 script of
     cd C:\Cloud\HowTo  
     ```  
   
-##  <a name="ModSetPartnerSettings"></a> Modifying the Set\-PartnerSettings File  
- The [!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)] include the Set\-PartnerSettings.ps1 script. The Set\-PartnerSettings.ps1 script contains parameters that are used by the Example\-1VM.ps1 file to configure the [!INCLUDE[navnow](includes/navnow_md.md)] deployment. In this procedure, you will create a copy of the Set\-PartnerSettings.ps1 file, and then modify the copy to include the settings for your installation. You could modify Set\-PartnerSetting.ps1 directly, but using a copy enables you to test different parameter values without having to change Set\-PartnerSettings.ps1 every time.  
+##  <a name="ModSetPartnerSettings"></a> Modifying the Set-PartnerSettings File  
+ The [!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)] include the Set-PartnerSettings.ps1 script. The Set-PartnerSettings.ps1 script contains parameters that are used by the Example-1VM.ps1 file to configure the [!INCLUDE[navnow](includes/navnow_md.md)] deployment. In this procedure, you will create a copy of the Set-PartnerSettings.ps1 file, and then modify the copy to include the settings for your installation. You could modify Set-PartnerSetting.ps1 directly, but using a copy enables you to test different parameter values without having to change Set-PartnerSettings.ps1 every time.  
   
-#### To make a copy of the Set\-PartnerSettings.ps1 file  
+#### To make a copy of the Set-PartnerSettings.ps1 file  
   
-1.  In Windows PowerShell ISE, on the **File** menu, choose **Open**, and then find and open the Set\-PartnerSettings.ps1 file.  
+1.  In Windows PowerShell ISE, on the **File** menu, choose **Open**, and then find and open the Set-PartnerSettings.ps1 file.  
   
      The file is located in the Cloud\\Howto folder.  
   
 2.  On the **File** menu, choose **Save As**.  
   
-3.  Save the file in the same folder as Set\-PartnerSettings.ps1 and give it the name **Set\-PartnerSettings\-CUSTOM.ps1**.  
+3.  Save the file in the same folder as Set-PartnerSettings.ps1 and give it the name **Set-PartnerSettings-CUSTOM.ps1**.  
   
-     Because you save this file in the same folder as Set\-PartnerSettings.ps1, the Set\-PartnerSettings\-CUSTOM.ps1 file is automatically loaded by the Example\_1VM.ps1 script.  
+     Because you save this file in the same folder as Set-PartnerSettings.ps1, the Set-PartnerSettings-CUSTOM.ps1 file is automatically loaded by the Example\_1VM.ps1 script.  
   
     > [!NOTE]  
     >  By default, the example scripts search the *Cloud\\HowTo* folder for files that contain the text "custom" in the file name, so it is important that only one custom settings file is included in the folder when you run the scripts.  
   
-#### To modify the Set\-PartnerSettings\-Custom.ps1 file  
+#### To modify the Set-PartnerSettings-Custom.ps1 file  
   
-1.  In the Set\-PartnerSettings\-Custom.ps1 file, locate the  **Azure subscription settings** section.  
+1.  In the Set-PartnerSettings-Custom.ps1 file, locate the  **Azure subscription settings** section.  
   
      The parameters in this section configure Microsoft Azure subscription settings.  
   
@@ -218,18 +218,18 @@ The following walkthrough demonstrates how to use the Example\-1VM.ps1 script of
   
      You are ready to run the script.  
   
-##  <a name="RunExampleScript"></a> Running the Example\-1VM Script  
- After you have set the parameters in the Set\-PartnerSettings\-Custom.ps1 file, you can run the script to create the virtual machine on Azure and deploy [!INCLUDE[navnow](includes/navnow_md.md)].  
+##  <a name="RunExampleScript"></a> Running the Example-1VM Script  
+ After you have set the parameters in the Set-PartnerSettings-Custom.ps1 file, you can run the script to create the virtual machine on Azure and deploy [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 #### To run the example script  
   
-1.  In the Windows PowerShell ISE, open Example\-1VM.ps1  
+1.  In the Windows PowerShell ISE, open Example-1VM.ps1  
   
      The script is located in the Cloud\\HowTo directory.  
   
 2.  Press F5 to run the script.  
   
-     It will take approximately 30\-45 minutes for the script to finish. If the script is completed without errors, then text similar to the following appears in the console.  
+     It will take approximately 30-45 minutes for the script to finish. If the script is completed without errors, then text similar to the following appears in the console.  
   
     ```  
     The NAV Server virtual machine is: MyNavVm.cloudapp.net   
@@ -275,5 +275,5 @@ The following walkthrough demonstrates how to use the Example\-1VM.ps1 script of
 ## See Also  
  [Planning and Preparing](Planning-and-Preparing.md)   
  [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
- [Deploying Microsoft Dynamics NAV on Two Virtual Machines Using Example\-2VM Script](Deploying-Microsoft-Dynamics-NAV-on-Two-Virtual-Machines-Using-Example-2VM-Script.md)   
+ [Deploying Microsoft Dynamics NAV on Two Virtual Machines Using Example-2VM Script](Deploying-Microsoft-Dynamics-NAV-on-Two-Virtual-Machines-Using-Example-2VM-Script.md)   
  [Walkthrough: Deploying Microsoft Dynamics NAV on Two Microsoft Azure Virtual Machines](Walkthrough:%20Deploying%20Microsoft%20Dynamics%20NAV%20on%20Two%20Microsoft%20Azure%20Virtual%20Machines.md)

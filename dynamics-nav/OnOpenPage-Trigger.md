@@ -28,9 +28,9 @@ OnOpenPage()
 ## Remarks  
  This trigger is executed after the [OnInit Trigger](OnInit-Trigger.md).  
   
- You use the OnOpenPage trigger to change dynamic properties, including those which can only be changed when the page is opened, such as the [Visible Property\-duplicate](Visible-Property-duplicate.md). You can also write to the database from the trigger.  
+ You use the OnOpenPage trigger to change dynamic properties, including those which can only be changed when the page is opened, such as the [Visible Property-duplicate](Visible-Property-duplicate.md). You can also write to the database from the trigger.  
   
- The `OnOpenPage` trigger is the only trigger that can toggle the [Visible Property\-duplicate](Visible-Property-duplicate.md) and the property can only be toggled on columns. This is true for all of the [!INCLUDE[navnow](includes/navnow_md.md)] clients.  
+ The `OnOpenPage` trigger is the only trigger that can toggle the [Visible Property-duplicate](Visible-Property-duplicate.md) and the property can only be toggled on columns. This is true for all of the [!INCLUDE[navnow](includes/navnow_md.md)] clients.  
   
  If an error occurs in the trigger execution, then the page closes.  
   
@@ -38,4 +38,4 @@ OnOpenPage()
 >  If you use the [LOCKTABLE Function \(Record\)](LOCKTABLE-Function--Record-.md) in the OnOpenPage trigger, then the table lock will be released when the trigger completes execution and not when the user closes the page.  
   
 > [!NOTE]  
->  The OnOpenPage trigger does not support calls to control add\-in methods and properties because the trigger is invoked before the page is instantiated. For more information see, [Exposing Methods and Properties in a Windows Client Control Add\-in](Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md).
+>  The OnOpenPage trigger does not support calls to control add-in methods and properties because the trigger is invoked before the page is instantiated. For more information see, [Exposing Methods and Properties in a Windows Client Control Add-in](Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md).

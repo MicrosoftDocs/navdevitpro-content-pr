@@ -68,7 +68,7 @@ MESSAGE(Text000, Number1, Power1, Result1)
   
  If a principal amount P is deposited at interest rate R and compounded annually, then at the end of N years, the accumulated amount \(A\) is:  
   
- A = P\(1 \+ R\)<sup>N</sup>  
+ A = P\(1 + R\)<sup>N</sup>  
   
  For example, you put LCY 2800 into a bank account that pays 5 percent, which is compounded quarterly. To determine what the amount will be in eight years, you must consider:  
   
@@ -78,11 +78,11 @@ MESSAGE(Text000, Number1, Power1, Result1)
   
  The accumulated amount A is:  
   
- A = LCY 2800\(1 \+ 0.0125\)<sup>32</sup> =LCY 2800\(1.4881\) = LCY 4166.77  
+ A = LCY 2800\(1 + 0.0125\)<sup>32</sup> =LCY 2800\(1.4881\) = LCY 4166.77  
   
  If a principal amount P is deposited at the end of each year at interest rate R \(in decimal notation\) compounded annually, then at the end of N years, the accumulated amount is:  
   
- A = P\[\(\(1 \+ R\)<sup>N</sup> \- 1\)\/R\]  
+ A = P\[\(\(1 + R\)<sup>N</sup> - 1\)\/R\]  
   
  This is typically called an *annuity*.  
   
@@ -94,7 +94,7 @@ MESSAGE(Text000, Number1, Power1, Result1)
   
  The amount of the annuity A will be:  
   
- A = LCY 500\[\(\(1 \+ 0.04\)<sup>20</sup> \- 1\)\/0.04 = LCY 14,889.04  
+ A = LCY 500\[\(\(1 + 0.04\)<sup>20</sup> - 1\)\/0.04 = LCY 14,889.04  
   
  This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   

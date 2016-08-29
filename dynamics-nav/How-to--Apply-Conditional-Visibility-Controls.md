@@ -28,7 +28,7 @@ Some reports have data that is printed conditionally. For example, if the reques
   
 6.  In the **Properties** window, expand **Visibility**.  
   
-7.  Under **Visibility**, in the **Hidden** field, select **\<Expression…\>** from the drop\-down list.  
+7.  Under **Visibility**, in the **Hidden** field, select **\<Expression…\>** from the drop-down list.  
   
 8.  In the  **Expression** window, enter the conditional statement for when the control or row is hidden, and then choose the **OK** button.  
   

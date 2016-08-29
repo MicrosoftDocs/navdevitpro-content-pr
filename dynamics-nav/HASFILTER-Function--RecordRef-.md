@@ -32,7 +32,7 @@ Ok := RecordRef.HASFILTER
   
  **true** if the table referred to by *RecordRef* has a filter; otherwise, **false**.  
   
- If you omit this return value and if the record cannot be found, a run\-time error occurs. If you include the return value, it is assumed that you will handle any errors.  
+ If you omit this return value and if the record cannot be found, a run-time error occurs. If you include the return value, it is assumed that you will handle any errors.  
   
 ## Remarks  
  This function works just like the [HASFILTER Function \(Record\)](HASFILTER-Function--Record-.md).  

@@ -28,7 +28,7 @@ If you deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] in a multitenant d
   
  This enables support for host names for the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. If a tenant has been mounted with a host name as an alternative ID, the [!INCLUDE[nav_web](includes/nav_web_md.md)] will accept a URL that contains this host name to identify the tenant.  
   
- If you create a non\-tenant specific app for SharePoint that accesses the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using Microsoft Azure Active Directory, the resulting URL includes a parameter that specified a SharePoint host URL. This represents the URL for opening the [!INCLUDE[nav_web](includes/nav_web_md.md)] that you have specified in the app manifest. You must enable a URL rewrite rule in order to accept the URL.  
+ If you create a non-tenant specific app for SharePoint that accesses the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using Microsoft Azure Active Directory, the resulting URL includes a parameter that specified a SharePoint host URL. This represents the URL for opening the [!INCLUDE[nav_web](includes/nav_web_md.md)] that you have specified in the app manifest. You must enable a URL rewrite rule in order to accept the URL.  
   
 ## See Also  
  [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md)   

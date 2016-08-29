@@ -45,7 +45,7 @@ When you try to access the [!INCLUDE[nav_web](includes/nav_web_md.md)], you get 
   
 2.  In the **Connections** pane, under **Sites**, choose **[!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web Client**.  
   
-3.  Under **IIS**, double\-click **Authentication**.  
+3.  Under **IIS**, double-click **Authentication**.  
   
 4.  To enable an authentication method, in the **Authentication** pane, choose the authentication, and then choose **Enable** in the **Actions** pane.  
   

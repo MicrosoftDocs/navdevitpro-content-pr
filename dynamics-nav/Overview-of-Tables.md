@@ -12,7 +12,7 @@ caps.latest.revision: 7
 manager: edupont
 ---
 # Overview of Tables
-The records in the database are stored in tables. A table can be visualized as a two\-dimensional matrix, consisting of columns and rows. The following illustration shows a table where each row is a record and each column is a field.  
+The records in the database are stored in tables. A table can be visualized as a two-dimensional matrix, consisting of columns and rows. The following illustration shows a table where each row is a record and each column is a field.  
   
  A table consists of two parts: the table data and a table description. The table data is the part users often think of as comprising the database, because it contains the actual records with their data fields. The layout and properties of those fields, however, are specified by the table description. The table description is not directly visible to the user. The following illustration shows how the table data and the table description together form a table.  
   

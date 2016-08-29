@@ -44,7 +44,7 @@ NewString := PADSTR(String, Length[, FillCharacter])
 ## Property Value/Return Value  
  Type: Text constant or code  
   
- The output string. The length of the return value is *Length* characters. If the maximum \(defined\) length of *NewString* is less than *Length*, a run\-time error occurs.  
+ The output string. The length of the return value is *Length* characters. If the maximum \(defined\) length of *NewString* is less than *Length*, a run-time error occurs.  
   
 ## Remarks  
  If you omit *FillCharacter* and *String* is shorter than *Length*, then spaces are added at the end of *String* to match *Length*.  

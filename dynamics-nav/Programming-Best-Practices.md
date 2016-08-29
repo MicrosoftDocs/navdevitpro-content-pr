@@ -177,11 +177,11 @@ END;
 |**Balancing Account**|**Balancing Account Type**<br /><br /> **Balancing Account No.**<br /><br /> **Balancing General Posting Type**<br /><br /> **Balancing General Business Posting Group**<br /><br /> **Balancing General Product Posting Group**|  
 |**Sales\/Purchase and Discount**|-   **Sales\/Purchase \(LCY\)**<br />-   **Profit \(LCY\)**<br />-   **Line Discount %**<br />-   **Line Discount Amount**<br />-   **Allow Invoice Discount**<br />-   **Invoice Discount Amount**|  
 |**Payment Terms**|-   **Payment Terms Code**<br />-   **Due Date**<br />-   **Payment Discount Date**<br />-   **Payment Discount %**|  
-|**Application**|-   **Serial No.**<br />-   **Applies\-To Document Type**<br />-   **Applies\-To Document No.**<br />-   **Applies\-To ID**<br />-   **Applies\-To Item Entry**<br />-   **Applies\-To Entry**<br />-   **Apply and Close \(Job\)**<br />-   **Open**|  
+|**Application**|-   **Serial No.**<br />-   **Applies-To Document Type**<br />-   **Applies-To Document No.**<br />-   **Applies-To ID**<br />-   **Applies-To Item Entry**<br />-   **Applies-To Entry**<br />-   **Apply and Close \(Job\)**<br />-   **Open**|  
 |**Miscellaneous Information**|-   **Cost Is Adjusted**<br />-   **Cost Posted to G\/L**<br />-   **On Hold**<br />-   **Bank Payment Type**|  
 |**Intrastat**|-   **Transaction Type**<br />-   **Transport Method**<br />-   **Country\/Region Code**|  
 |**Posting Information**|-   **Quantity to Ship**<br />-   **Quantity Shipped**<br />-   **Quantity to Invoice**<br />-   **Quantity Invoiced**|  
 |**Audit Information**|-   **User ID**<br />-   **Source Code**<br />-   **Reason Code**<br />-   **Entry No.**|  
   
 ## See Also  
- [Programming in C\-AL](Programming-in-C-AL.md)
+ [Programming in C-AL](Programming-in-C-AL.md)

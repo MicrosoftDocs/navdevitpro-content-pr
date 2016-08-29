@@ -28,7 +28,7 @@ Use the following procedure to view or modify properties for a table or a field.
   
 4.  To modify table properties, place the cursor on an empty line in Table Designer. Press F3 to create an empty line if one does not exist.  
   
-     \-or\-  
+     -or-  
   
      To modify field properties, place the cursor on the field in the table.  
   

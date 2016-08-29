@@ -18,7 +18,7 @@ This procedure describes how to administer multiple [!INCLUDE[nav_server](includ
   
 1.  Verify that the administrator who will be connecting to the remote computer is a member of that computer’s Administrators group.  
   
-2.  On each remote computer, open a Windows PowerShell command prompt with administrative credentials. Choose **Start**, choose **Accessories**, right\-click **Windows PowerShell**, and then choose **Run as administrator**.  
+2.  On each remote computer, open a Windows PowerShell command prompt with administrative credentials. Choose **Start**, choose **Accessories**, right-click **Windows PowerShell**, and then choose **Run as administrator**.  
   
      Windows PowerShell is included in Windows 7, Windows 8, Windows Server 2008 R2, and Windows Server 2912 and can be installed on other Windows operating systems. For more information, see [Windows PowerShell](http://go.microsoft.com/fwlink/?LinkId=211847) in the TechNet Library.  
   
@@ -30,17 +30,17 @@ This procedure describes how to administer multiple [!INCLUDE[nav_server](includ
     mmc  
     ```  
   
-5.  In the Management Console, on the **File** menu, choose **Add\/Remove Snap\-in** to open the **Add or remove Snap\-ins** dialog box.  
+5.  In the Management Console, on the **File** menu, choose **Add\/Remove Snap-in** to open the **Add or remove Snap-ins** dialog box.  
   
-6.  In the **Available snap\-ins** list, double\-click **Microsoft Dynamics NAV**.  
+6.  In the **Available snap-ins** list, double-click **Microsoft Dynamics NAV**.  
   
 7.  In the **Connect to another computer** dialog box, type the name of a [!INCLUDE[nav_server](includes/nav_server_md.md)] computer in the **Server Name** box, and then choose **OK**.  
   
-8.  Double\-click **Microsoft Dynamics NAV** again, and then enter the name of a different [!INCLUDE[nav_server](includes/nav_server_md.md)] computer in the **Server Name** box. Choose **OK**.  
+8.  Double-click **Microsoft Dynamics NAV** again, and then enter the name of a different [!INCLUDE[nav_server](includes/nav_server_md.md)] computer in the **Server Name** box. Choose **OK**.  
   
      You can also accept the default value, which is **\(Local\)**, if this is one of the [!INCLUDE[nav_server](includes/nav_server_md.md)] computers that you will be administering.  
   
-9. Continue selecting [!INCLUDE[nav_server](includes/nav_server_md.md)] computers as needed. When you are finished selecting computers, choose **OK** to close the **Add or remove Snap\-ins** dialog box.  
+9. Continue selecting [!INCLUDE[nav_server](includes/nav_server_md.md)] computers as needed. When you are finished selecting computers, choose **OK** to close the **Add or remove Snap-ins** dialog box.  
   
      Now you see multiple [!INCLUDE[nav_server](includes/nav_server_md.md)] computers listed in the tree view pane of the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]:  
   

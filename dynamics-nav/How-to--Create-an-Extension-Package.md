@@ -30,7 +30,7 @@ When you have developed a [!INCLUDE[navnow](includes/navnow_md.md)] extension, t
   
      For more information, see [Manifest Overview](Manifest-Overview.md).  
   
-     The New\-NAVAppManifest cmdlet creates an in\-memory Manifest object.  
+     The New-NAVAppManifest cmdlet creates an in-memory Manifest object.  
   
     ```  
     New-NAVAppManifest -Name "Proseware SmartStuff" -Publisher "Proseware, Inc." -Version "1.5.0.12"  
@@ -42,7 +42,7 @@ When you have developed a [!INCLUDE[navnow](includes/navnow_md.md)] extension, t
     New-NAVAppManifest -Name "Proseware SmartStuff" -Publisher "Proseware, Inc." -Version "1.5.0.12" | New-NavAppManifestFile -Path proseware.xml  
     ```  
   
-     Related cmdlets are BROKEN-INCLUDE-Get-NAVAppManifest and BROKEN-INCLUDE-Set-NAVAppManifest. For more information, use the Get\-Help command in the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)].  
+     Related cmdlets are BROKEN-INCLUDE-Get-NAVAppManifest and BROKEN-INCLUDE-Set-NAVAppManifest. For more information, use the Get-Help command in the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)].  
   
     > [!TIP]  
     >  For any [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlet, you can get help and sample usages, such as the following command:  

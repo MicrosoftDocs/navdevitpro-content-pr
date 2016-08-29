@@ -29,12 +29,12 @@ Gets part of a BigText variable.
  *Position*  
  Type: Integer  
   
- The position in the BigText variable that the subtext is to be retrieved from. If this parameter is less than one, then a run\-time error occurs. If this parameter is greater than the length of the BigText variable, then an empty string is returned. If the value of this parameter plus the value of the *Length* parameter is greater than the length of the BigText variable, then the remainder of the BigText variable from the position specified by this parameter is returned.  
+ The position in the BigText variable that the subtext is to be retrieved from. If this parameter is less than one, then a run-time error occurs. If this parameter is greater than the length of the BigText variable, then an empty string is returned. If the value of this parameter plus the value of the *Length* parameter is greater than the length of the BigText variable, then the remainder of the BigText variable from the position specified by this parameter is returned.  
   
  *Length*  
  Type: Integer  
   
- The length of the subtext that should be retrieved. This parameter is optional. If this parameter is omitted the function retrieves a subtext that starts at *Position* and runs to the end of the BigText variable. If this parameter is less than 0, then a run\-time error occurs. If the value of the *Position* parameter plus the value of this parameter is greater than the length of the BigText variable, then the remainder of the BigText variable from the position specified by this parameter is returned.  
+ The length of the subtext that should be retrieved. This parameter is optional. If this parameter is omitted the function retrieves a subtext that starts at *Position* and runs to the end of the BigText variable. If this parameter is less than 0, then a run-time error occurs. If the value of the *Position* parameter plus the value of this parameter is greater than the length of the BigText variable, then the remainder of the BigText variable from the position specified by this parameter is returned.  
   
 ## Property Value/Return Value  
  Type: Integer  

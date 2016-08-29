@@ -97,9 +97,9 @@ In this walkthrough, you will learn how to create a new Role Center for the [!IN
   
 10. Select the following fields:  
   
-    -   **Sales Quotes \- Open**  
+    -   **Sales Quotes - Open**  
   
-    -   **Sales Orders \- Open**  
+    -   **Sales Orders - Open**  
   
     > [!TIP]  
     >  You can select multiple fields by holding down the Ctrl key.  
@@ -130,9 +130,9 @@ In this walkthrough, you will learn how to create a new Role Center for the [!IN
   
 19. Select the following fields:  
   
-    -   **Sales Return Orders \- All**  
+    -   **Sales Return Orders - All**  
   
-    -   **Sales Credit Memos \- All**  
+    -   **Sales Credit Memos - All**  
   
 20. Choose **OK** and confirm the selection.  
   

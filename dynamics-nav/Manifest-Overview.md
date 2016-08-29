@@ -11,14 +11,14 @@ ms.assetid: 939606f2-3092-4f14-9faf-c99a3499a58d
 caps.latest.revision: 17
 ---
 # Manifest Overview
-For a control add\-in to work on all display targets there has to be a manifest. The manifest contains a declarative description of the control add\-in and is written in XML. The manifest is added together with any resource files in a .zip file and registered with the control add\-in resources in the **Client Add\-in** page. This topic explains the structure of a manifest by using an example of the manifest for the Bing Maps control add\-in. For more information about the implementation of the Bing Maps control add\-in, see [Walkthrough: Creating and Using a Client Control Add\-in](Walkthrough:%20Creating%20and%20Using%20a%20Client%20Control%20Add-in.md).  
+For a control add-in to work on all display targets there has to be a manifest. The manifest contains a declarative description of the control add-in and is written in XML. The manifest is added together with any resource files in a .zip file and registered with the control add-in resources in the **Client Add-in** page. This topic explains the structure of a manifest by using an example of the manifest for the Bing Maps control add-in. For more information about the implementation of the Bing Maps control add-in, see [Walkthrough: Creating and Using a Client Control Add-in](Walkthrough:%20Creating%20and%20Using%20a%20Client%20Control%20Add-in.md).  
   
 ## Example of a Manifest  
- The syntax of a manifest file is illustrated in the following example. All tags inside the `<manifest>` tag are optional. Inside the `<Manifest>` tag, the `<ScriptUrls>` tag references other JavaScripts from the manifest. In this case the `<ScriptUrls>` tag points to online map controls. Inside the `<Resources>` tag, all of the resources such as the script, style sheet, and images that are required to display the Bing Maps control add\-in are listed.  
+ The syntax of a manifest file is illustrated in the following example. All tags inside the `<manifest>` tag are optional. Inside the `<Manifest>` tag, the `<ScriptUrls>` tag references other JavaScripts from the manifest. In this case the `<ScriptUrls>` tag points to online map controls. Inside the `<Resources>` tag, all of the resources such as the script, style sheet, and images that are required to display the Bing Maps control add-in are listed.  
   
- The \<Script\> tag contains the actual initialization code for the control add\-in. The code must be written inside a `<![CDATA[]]>` tag to be parsed as code. The `Microsoft.Dynamics.NAV.InvokeExtensibilityMethod` is described in more detail in the reference documentation. For more information, see [InvokeExtensibilityMethod Method](InvokeExtensibilityMethod-Method.md).  
+ The \<Script\> tag contains the actual initialization code for the control add-in. The code must be written inside a `<![CDATA[]]>` tag to be parsed as code. The `Microsoft.Dynamics.NAV.InvokeExtensibilityMethod` is described in more detail in the reference documentation. For more information, see [InvokeExtensibilityMethod Method](InvokeExtensibilityMethod-Method.md).  
   
- Inside the \<Manifest\> tag, at the end of the script, the `<RequestedHeight>` and the `<RequestedWidth>` tags are set to definite sizes. It is recommended to apply some size to the add\-in using these tags. The properties `<VerticalStretch>` and `<HorizontalStretch>` determine how the control add\-in behaves in the client when the window it is displayed in is resized. The default value is **false** which means that the control add\-in is not resized vertically, or horizontally. The value **true** means that the control add\-in is resized vertically, or horizontally. The values in `<RequestedHeight>` and `<RequestedWidth>` determine the minimum resize value of the control add\-in.  
+ Inside the \<Manifest\> tag, at the end of the script, the `<RequestedHeight>` and the `<RequestedWidth>` tags are set to definite sizes. It is recommended to apply some size to the add-in using these tags. The properties `<VerticalStretch>` and `<HorizontalStretch>` determine how the control add-in behaves in the client when the window it is displayed in is resized. The default value is **false** which means that the control add-in is not resized vertically, or horizontally. The value **true** means that the control add-in is resized vertically, or horizontally. The values in `<RequestedHeight>` and `<RequestedWidth>` determine the minimum resize value of the control add-in.  
   
 ```  
 <?xml version="1.0" encoding="utf-8"?>  
@@ -109,8 +109,8 @@ var map = null;
     }  
 ```  
   
-## Control Add\-in HTML Element  
- When the control add\-in is loaded into the Web browser one HTML element is provided for the control add\-in to host its content. This HTML element is a DIV element and it is always named `controlAddIn`.  
+## Control Add-in HTML Element  
+ When the control add-in is loaded into the Web browser one HTML element is provided for the control add-in to host its content. This HTML element is a DIV element and it is always named `controlAddIn`.  
   
 ```  
 <div id='controlAddIn'>  
@@ -118,7 +118,7 @@ var map = null;
 </div>  
 ```  
   
- The following is an example of the script code for a control add\-in  
+ The following is an example of the script code for a control add-in  
   
 ```  
 function initializeControlAddIn() {  
@@ -128,64 +128,64 @@ function initializeControlAddIn() {
   
 ```  
   
-### Sizing the Control Add\-in  
- To control that the sizing of the control add\-in always is optimal, even on smaller display targets, such as the phone, some settings are available when you write the manifest code. The settings make sure that resizing of the control add\-in works on all client types.  
+### Sizing the Control Add-in  
+ To control that the sizing of the control add-in always is optimal, even on smaller display targets, such as the phone, some settings are available when you write the manifest code. The settings make sure that resizing of the control add-in works on all client types.  
   
- `VerticalShrink` specifies that the control add\-in can be made smaller vertically. This setting is optional.  
+ `VerticalShrink` specifies that the control add-in can be made smaller vertically. This setting is optional.  
   
 ```  
 bool VerticalShrink()  
 ```  
   
- `HorizontalShrink` specifies that the control add\-in can be made smaller horizontally. This setting is optional.  
+ `HorizontalShrink` specifies that the control add-in can be made smaller horizontally. This setting is optional.  
   
 ```  
 bool HorizontalShrink()  
 ```  
   
- `MinimumHeight` specifies the minimum height that the control add\-in can be shrunk to. This setting only applies if the `VerticalShrink` setting is specified.  
+ `MinimumHeight` specifies the minimum height that the control add-in can be shrunk to. This setting only applies if the `VerticalShrink` setting is specified.  
   
 ```  
 int MinimumHeight()  
 ```  
   
- `MinimumWidth` specifies the minimum width that the control add\-in can be shrunk to. This setting only applies if the `HorizontalShrink` setting is specified.  
+ `MinimumWidth` specifies the minimum width that the control add-in can be shrunk to. This setting only applies if the `HorizontalShrink` setting is specified.  
   
 ```  
 int MinimumWidth()  
 ```  
   
- `MaximumHeight` specifies the maximum height that the control add\-in can be stretched to. This setting only applies if the `VerticalStretch` setting is specified.  
+ `MaximumHeight` specifies the maximum height that the control add-in can be stretched to. This setting only applies if the `VerticalStretch` setting is specified.  
   
 ```  
 int MaximumHeight()  
 ```  
   
- `MaximumWidth` specifies the maximum width that the control add\-in can be stretched to. This setting only applies if the `HorizontalStretch` setting is specified.  
+ `MaximumWidth` specifies the maximum width that the control add-in can be stretched to. This setting only applies if the `HorizontalStretch` setting is specified.  
   
 ```  
 int MaximumWidth()  
 ```  
   
- `VerticalStretch` specifies that the control add\-in can be made larger vertically. This setting is optional.  
+ `VerticalStretch` specifies that the control add-in can be made larger vertically. This setting is optional.  
   
 ```  
 bool VerticalStretch()  
 ```  
   
- `HorizontalStretch` specifies that the control add\-in can be made larger horizontally. This setting is optional.  
+ `HorizontalStretch` specifies that the control add-in can be made larger horizontally. This setting is optional.  
   
 ```  
 bool HorizontalStretch()   
 ```  
   
- `RequestedHeight` specifies the initial height of the control add\-in.  
+ `RequestedHeight` specifies the initial height of the control add-in.  
   
 ```  
 int RequestedHeight()  
 ```  
   
- `RequestedWidth` specifies the initial width of the control add\-in.  
+ `RequestedWidth` specifies the initial width of the control add-in.  
   
 ```  
 int RequestedWidth()  
@@ -205,7 +205,7 @@ int RequestedWidth()
   
 ```  
   
- To support the example earlier in this section, the resource files must be located in subfolders in the control add\-in .zip file by using the following names:  
+ To support the example earlier in this section, the resource files must be located in subfolders in the control add-in .zip file by using the following names:  
   
 |Resource File Type|Resource Name|Subfolder Name|  
 |------------------------|-------------------|--------------------|  
@@ -224,7 +224,7 @@ int RequestedWidth()
   
 ```  
   
- To support this example, the resource files must be located in subfolders with the name of the relative path in the control add\-in .zip file:  
+ To support this example, the resource files must be located in subfolders with the name of the relative path in the control add-in .zip file:  
   
 |Resource File Type|Resource Name|Subfolder Name|  
 |------------------------|-------------------|--------------------|  
@@ -233,7 +233,7 @@ int RequestedWidth()
 |Style sheet file|StyleSheets\/StyleSheet.css|StyleSheets\/StyleSheet.css|  
   
 ## See Also  
- [Extending Microsoft Dynamics NAV Using Control Add\-ins](Extending-Microsoft-Dynamics-NAV-Using-Control-Add-ins.md)   
- [Extending the Windows Client Using Control Add\-ins](Extending-the-Windows-Client-Using-Control-Add-ins.md)   
- [Extending Any Microsoft Dynamics NAV Client Using Control Add\-ins](Extending-Any-Microsoft-Dynamics-NAV-Client-Using-Control-Add-ins.md)   
- [Walkthrough: Creating and Using a Client Control Add\-in](Walkthrough:%20Creating%20and%20Using%20a%20Client%20Control%20Add-in.md)
+ [Extending Microsoft Dynamics NAV Using Control Add-ins](Extending-Microsoft-Dynamics-NAV-Using-Control-Add-ins.md)   
+ [Extending the Windows Client Using Control Add-ins](Extending-the-Windows-Client-Using-Control-Add-ins.md)   
+ [Extending Any Microsoft Dynamics NAV Client Using Control Add-ins](Extending-Any-Microsoft-Dynamics-NAV-Client-Using-Control-Add-ins.md)   
+ [Walkthrough: Creating and Using a Client Control Add-in](Walkthrough:%20Creating%20and%20Using%20a%20Client%20Control%20Add-in.md)

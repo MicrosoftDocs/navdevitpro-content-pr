@@ -18,7 +18,7 @@ Provides functionality for designing tables.
 
  To open this window, on the **Tools** menu, choose **Object Designer**, choose **Table**, and then choose the **Design** button. You can choose the **New** button instead of the **Design** button to design a new table.  
 
- For more information, see [Tables\-duplicate 20](../Tables-duplicate-20.md).  
+ For more information, see [Tables-duplicate 20](../Tables-duplicate-20.md).  
 
 ## Fields  
 

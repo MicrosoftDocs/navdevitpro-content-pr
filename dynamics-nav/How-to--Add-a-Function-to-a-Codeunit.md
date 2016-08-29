@@ -33,7 +33,7 @@ To add a function to a codeunit, use the following procedure.
   
      If the type that you select corresponds to an application object, then you must also add a subtype, that is, the name of a specific object in the database. If you select Text or Code data types, then you must define a length. The default length is 10 characters for Code and 30 characters for Text.  
   
-6.  In the **C/AL Locals** window, choose the **Return Value** tab and specify the return value for your new function. Enter a name for the return value and select a data type from the drop\-down list. If the data type is Text or Code, then you can also select a length.  
+6.  In the **C/AL Locals** window, choose the **Return Value** tab and specify the return value for your new function. Enter a name for the return value and select a data type from the drop-down list. If the data type is Text or Code, then you can also select a length.  
   
 7.  In the **C/AL Locals** window, choose the **Variables** tab and define local variables.  
   

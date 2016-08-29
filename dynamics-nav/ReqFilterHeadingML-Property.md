@@ -24,7 +24,7 @@ Sets the text used as a [ReqFilterHeading Property](ReqFilterHeading-Property.md
   
  \<*Language ID*\>=\<*ReqFilterHeading*\>  
   
- \<*Language ID*\> is a Windows standard three\-letter language ID and \<*ReqFilterHeading*\> is the caption text for this language. Semicolons separate entries.  
+ \<*Language ID*\> is a Windows standard three-letter language ID and \<*ReqFilterHeading*\> is the caption text for this language. Semicolons separate entries.  
   
  You can enter values for the **ReqFilterHeadingML** property in the following ways:  
   

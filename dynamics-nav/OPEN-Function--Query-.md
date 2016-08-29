@@ -27,7 +27,7 @@ Runs a query object and generates a dataset that can be read.
   
  **true** if the query was opened without errors; otherwise, **false**.  
   
- If you omit this optional return value and if the query does not execute successfully, then a run\-time error occurs. If you include a return value, then it is assumed that you will handle any errors and no run\-time error occurs when the **OPEN** function is called. However, a run\-time error will occur if the **READ** function is called afterward.  
+ If you omit this optional return value and if the query does not execute successfully, then a run-time error occurs. If you include a return value, then it is assumed that you will handle any errors and no run-time error occurs when the **OPEN** function is called. However, a run-time error will occur if the **READ** function is called afterward.  
   
 ## Remarks  
  When the **OPEN** function is called, the query is executed and the *Query* variable is put in a state in which the resulting dataset can be read by the **READ** function. The **OPEN** function has the following behavior:  
@@ -77,7 +77,7 @@ Runs a query object and generates a dataset that can be read.
   
 1.  Create a query called **Customer\_SalesQuantity** that links table **18 Customer** with table  **37 Sales Lines** from the [!INCLUDE[demolong](includes/demolong_md.md)]. Include columns for the **Name** and **No.** fields from the Customer table and the **Quantity** field from Sales Lines table.  
   
-     For step\-by\-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
+     For step-by-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
   
 2.  Create the following variable and text constant.  
   
@@ -111,5 +111,5 @@ MyQuery.CLOSE;
   
 ## See Also  
  [How to: Create Queries](How%20to:%20Create%20Queries.md)   
- [Working with Queries in C\-AL](Working-with-Queries-in-C-AL.md)   
+ [Working with Queries in C-AL](Working-with-Queries-in-C-AL.md)   
  [Queries](Queries.md)

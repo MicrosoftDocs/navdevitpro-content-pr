@@ -25,12 +25,12 @@ CurrXMLPort.BREAK
 ```  
   
 ## Remarks  
- BREAK causes the current trigger to end. When used inside a loop, such as a WHILE\-DO or REPEAT\-UNTIL construction, BREAK interrupts the loop and causes the current trigger to end.  
+ BREAK causes the current trigger to end. When used inside a loop, such as a WHILE-DO or REPEAT-UNTIL construction, BREAK interrupts the loop and causes the current trigger to end.  
   
  Compare this with the [QUIT Function \(Report, XMLport\)](QUIT-Function--Report--XMLport-.md).  
   
 > [!TIP]  
->  You can also use the [C\-AL BREAK Statement](C-AL-BREAK-Statement.md) to exit an iteration or loop. The difference is that the BREAK statement does not terminate the trigger \-it just exits the loop.  
+>  You can also use the [C-AL BREAK Statement](C-AL-BREAK-Statement.md) to exit an iteration or loop. The difference is that the BREAK statement does not terminate the trigger -it just exits the loop.  
   
 ## Example  
  This example of code in a trigger on a report object requires that you create the following variable and text constant in the **C/AL Globals** window.  
@@ -59,4 +59,4 @@ MESSAGE('After REPEAT-UNTIL loop'); //This statement is never called.
 ## See Also  
  [Report Data Type](Report-Data-Type.md)   
  [XMLport Data Type](XMLport-Data-Type.md)   
- [C\-AL BREAK Statement](C-AL-BREAK-Statement.md)
+ [C-AL BREAK Statement](C-AL-BREAK-Statement.md)

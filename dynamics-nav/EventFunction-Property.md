@@ -34,4 +34,4 @@ Specifies the event publisher function that the event subscriber function subscr
  [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)   
  [Publishing Events](Publishing-Events.md)   
  [Raising Events](Raising-Events.md)   
- [C\-AL Function Statements](C-AL-Function-Statements.md)
+ [C-AL Function Statements](C-AL-Function-Statements.md)

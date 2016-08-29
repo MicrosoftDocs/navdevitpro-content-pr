@@ -31,16 +31,16 @@ This topic describes how to configure SQL Server Authentication between the [!IN
   
 #### To create and import encryption key  
   
-1.  In the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], run the [New\-NAVEncryptionkey cmdlet](http://go.microsoft.com/fwlink/?LinkID=521780).  
+1.  In the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], run the [New-NAVEncryptionkey cmdlet](http://go.microsoft.com/fwlink/?LinkID=521780).  
   
      This creates a file that contains an encryption key. If you already have an encryption key file, you can skip this step.  
   
-2.  Run the [Import\-NAVEncryptionkey cmdlet](http://go.microsoft.com/fwlink/?LinkID=518094) to install the encryption key on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and database.  
+2.  Run the [Import-NAVEncryptionkey cmdlet](http://go.microsoft.com/fwlink/?LinkID=518094) to install the encryption key on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and database.  
   
  For more information, see [Managing Encryption Keys for SQL Server Authentication](Managing-Encryption-Keys-for-SQL-Server-Authentication.md).  
   
 ##  <a name="ConfigSQL"></a> Configure SQL Authentication on the Database  
- This section describes how to configure a [!INCLUDE[navnow](includes/navnow_md.md)] database to use SQL Server Authentication with a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. You can complete the steps in this procedure by using SQL Server Management Studio or Transact\-SQL.  
+ This section describes how to configure a [!INCLUDE[navnow](includes/navnow_md.md)] database to use SQL Server Authentication with a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. You can complete the steps in this procedure by using SQL Server Management Studio or Transact-SQL.  
   
 > [!IMPORTANT]  
 >  In a deployment where the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured as a multitenant server instance, you must complete the following procedure on the application database and tenant database.  
@@ -59,7 +59,7 @@ This topic describes how to configure SQL Server Authentication between the [!IN
   
      For more information, see [Create a Database User](http://msdn.microsoft.com/en-us/library/aa337545.aspx).  
   
-##  <a name="ConfigNavServer"></a> Configure SQL Server Authentication on Microsoft NAV Server Instance \(Non\-Multitenant\)  
+##  <a name="ConfigNavServer"></a> Configure SQL Server Authentication on Microsoft NAV Server Instance \(Non-Multitenant\)  
  You configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance with the login credentials \(user name and password\) of the user account in the [!INCLUDE[navnow](includes/navnow_md.md)] database in SQL Server that you want to use for authentication. You can do this using the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
   
 #### To configure SQL Authentication on Microsoft NAV Server Instance using [!INCLUDE[nav_admin](includes/nav_admin_md.md)]  
@@ -94,16 +94,16 @@ This topic describes how to configure SQL Server Authentication between the [!IN
   
 #### To configure SQL Authentication on Microsoft NAV Server Instance using [!INCLUDE[nav_shell](includes/nav_shell_md.md)]  
   
--   If you are modifying an existing [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, run the [Set\-NAVServerConfiguration cmdlet](http://go.microsoft.com/fwlink/?LinkID=401394).  
+-   If you are modifying an existing [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, run the [Set-NAVServerConfiguration cmdlet](http://go.microsoft.com/fwlink/?LinkID=401394).  
   
      Use the *DatabaseCredentials* parameter to provide the login credentials of the database user that you want to use to access the application database.  
   
--   If you are creating a new [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, run the [New\-NAVServerInstance cmdlet](http://go.microsoft.com/fwlink/?LinkID=401376).  
+-   If you are creating a new [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, run the [New-NAVServerInstance cmdlet](http://go.microsoft.com/fwlink/?LinkID=401376).  
   
      Use the *DatabaseCredentials* parameter to provide the login credentials of the database user that you want to use to access the application database.  
   
 ##  <a name="ConfigNavServerMT"></a> Configure SQL Server Authentication on Microsoft NAV Server Instance in a Multitenant Deployment  
- This section describes how to configure a [!INCLUDE[navnow](includes/navnow_md.md)] database to use SQL Server Authentication with a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. You can complete the steps in this procedure by using SQL Server Management Studio or Transact\-SQL.  
+ This section describes how to configure a [!INCLUDE[navnow](includes/navnow_md.md)] database to use SQL Server Authentication with a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. You can complete the steps in this procedure by using SQL Server Management Studio or Transact-SQL.  
   
  To configure a SQL Server Authentication on a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, you set up the server instance with the login credentials \(user name and password\) for the user accounts for the application and tenant databases in SQL Server. You can do this using the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
   
@@ -149,15 +149,15 @@ This topic describes how to configure SQL Server Authentication between the [!IN
   
 1.  Configure SQL Server Authentication with the application database as follows:  
   
-    -   If you are modifying an existing [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, run the [Set\-NAVServerConfiguration cmdlet](http://go.microsoft.com/fwlink/?LinkID=401394).  
+    -   If you are modifying an existing [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, run the [Set-NAVServerConfiguration cmdlet](http://go.microsoft.com/fwlink/?LinkID=401394).  
   
          Use the *DatabaseCredentials* parameter to provide the login credentials of the database user that you want to use to access the application database.  
   
-    -   If you are creating a new [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, run the [New\-NAVServerInstance cmdlet](http://go.microsoft.com/fwlink/?LinkID=401376).  
+    -   If you are creating a new [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, run the [New-NAVServerInstance cmdlet](http://go.microsoft.com/fwlink/?LinkID=401376).  
   
          Use the *DatabaseCredentials* parameter to provide the login credentials of the database user that you want to use to access the application database.  
   
-2.  To configure SQL Authentication with the tenant database, run the [Mount\-NAVTenant cmdlet](http://go.microsoft.com/fwlink/?LinkID=401372).  
+2.  To configure SQL Authentication with the tenant database, run the [Mount-NAVTenant cmdlet](http://go.microsoft.com/fwlink/?LinkID=401372).  
   
      Use the *DatabaseCredentials* parameter to provide the login credentials of the database user that you want to use to access the tenant database.  
   

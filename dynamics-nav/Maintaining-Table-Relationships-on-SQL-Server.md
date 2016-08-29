@@ -16,7 +16,7 @@ The [TableRelation Property](TableRelation-Property.md) in [!INCLUDE[nav_2009_sh
   
  The table relationships in SQL Server can be accessed with external tools that can use this information to generate diagrams illustrating the structure of the database.  
   
- You can use the **Maintain Relationships** option on the **Integration** tab of the **Alter Database** window to enable and disable the table relationships on SQL Server. For more information, see [Altering Databases \- Integration Tab](Altering-Databases---Integration-Tab.md).  
+ You can use the **Maintain Relationships** option on the **Integration** tab of the **Alter Database** window to enable and disable the table relationships on SQL Server. For more information, see [Altering Databases - Integration Tab](Altering-Databases---Integration-Tab.md).  
   
 ## Requirements  
  There are certain requirements that must be met before a [TableRelation Property](TableRelation-Property.md) can be represented on SQL Server.  

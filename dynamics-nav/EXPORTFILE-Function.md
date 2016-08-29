@@ -36,7 +36,7 @@ Exports the media objects in the current media set of a record to individual fil
   
  Specifies the location and name of the exported media files.  
   
- Each exported media file is given a name that consists of a prefix that you specify, plus an index number that is automatically assigned. The file name has the format *prefix*\-*index*.*type*, for example, Image\-1.jpg, Image\-2.jpg, and Image\-3.jpg. To set the parameter value, use the format: *path*\\*prefix*.*type*.  
+ Each exported media file is given a name that consists of a prefix that you specify, plus an index number that is automatically assigned. The file name has the format *prefix*-*index*.*type*, for example, Image-1.jpg, Image-2.jpg, and Image-3.jpg. To set the parameter value, use the format: *path*\\*prefix*.*type*.  
   
 -   *path* is the folder path where you want to store the files.  
   
@@ -89,7 +89,7 @@ END;
 Message('Exported %1 files', MediaCount);  
 ```  
   
- The folder *C:\\images\\export* will contain these files: FirstItemGallery\-1.jpg, FirstItemGallery\-2.jpg, and FirstItemGallery\-3.jpg.  
+ The folder *C:\\images\\export* will contain these files: FirstItemGallery-1.jpg, FirstItemGallery-2.jpg, and FirstItemGallery-3.jpg.  
   
 ## See Also  
  [Working With Media on Records](Working-With-Media-on-Records.md)   

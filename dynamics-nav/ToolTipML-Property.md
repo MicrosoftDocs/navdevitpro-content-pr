@@ -41,7 +41,7 @@ Sets the text used for the tooltip of an action, a field, a factbox, or an activ
 <Language ID>=<tooltip>  
 ```  
   
- \<Language ID\> is a Windows standard three\-letter language ID and \<caption\> is the caption text for this language. Semicolons are used to separate entries.  
+ \<Language ID\> is a Windows standard three-letter language ID and \<caption\> is the caption text for this language. Semicolons are used to separate entries.  
   
  In the following example, values are set for Danish \(DAN\) and English \(ENG\).  
   

@@ -20,11 +20,11 @@ You can run reports:
   
 -   From Object Designer.  
   
--   At the command prompt with command\-line arguments.  
+-   At the command prompt with command-line arguments.  
   
--   From the **Run** window with command\-line arguments.  
+-   From the **Run** window with command-line arguments.  
   
--   From a web browser window with command\-line arguments.  
+-   From a web browser window with command-line arguments.  
   
 ### To run a report from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]  
   
@@ -46,10 +46,10 @@ You can run reports:
   
 3.  Select the report that you want to run, and then choose **Run**.  
   
-## Running Reports Using Command\-Line Arguments  
- To run a report using command\-line arguments, you must know the ID of the report. By using command\-line arguments, you have various options for opening the [!INCLUDE[rtc](includes/rtc_md.md)] and pages and reports in different modes. For example, you can specify a specific server or specific language, or you can create hyperlinks to specific reports. For more information, see [Starting the Windows Client at the Command Prompt](Starting%20the%20Windows%20Client%20at%20the%20Command%20Prompt.md) and [Creating and Running Hyperlinks](Creating-and-Running-Hyperlinks.md).  
+## Running Reports Using Command-Line Arguments  
+ To run a report using command-line arguments, you must know the ID of the report. By using command-line arguments, you have various options for opening the [!INCLUDE[rtc](includes/rtc_md.md)] and pages and reports in different modes. For example, you can specify a specific server or specific language, or you can create hyperlinks to specific reports. For more information, see [Starting the Windows Client at the Command Prompt](Starting%20the%20Windows%20Client%20at%20the%20Command%20Prompt.md) and [Creating and Running Hyperlinks](Creating-and-Running-Hyperlinks.md).  
   
- When you run a report using command\-line arguments, you can filter the data in the report by adding a filter string to the command. The filter string has the following format:  
+ When you run a report using command-line arguments, you can filter the data in the report by adding a filter string to the command. The filter string has the following format:  
   
 ```  
 &filter=<table>.<field>:<value>  

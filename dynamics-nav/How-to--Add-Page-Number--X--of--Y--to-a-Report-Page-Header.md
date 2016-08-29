@@ -58,7 +58,7 @@ In Microsoft Visual Studio 2012 and Microsoft Visual Studio 2013, page breaks on
   
      This selects the text box in the report designer.  
   
-6.  Right\-click the text box, and then choose **Expression**. Replace the existing code with the following code.  
+6.  Right-click the text box, and then choose **Expression**. Replace the existing code with the following code.  
   
     ```  
     =Replace(Replace(Code.GetData(31,1), "%1", Globals!PageNumber), "%2", Globals!TotalPages)  
@@ -71,7 +71,7 @@ In Microsoft Visual Studio 2012 and Microsoft Visual Studio 2013, page breaks on
   
      The text box is not visible in the report layout.  
   
-8.  Right\-click the **NewPage** text box and choose **Cut** and then on the **Page Header** node, choose **Paste**.  
+8.  Right-click the **NewPage** text box and choose **Cut** and then on the **Page Header** node, choose **Paste**.  
   
 9. Replace the existing expression for the **NewPage** text box with the following code.  
   

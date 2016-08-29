@@ -12,7 +12,7 @@ caps.latest.revision: 21
 manager: edupont
 ---
 # How to: Use OData to Return-Obtain an AtomPub Document
-When you register an OData web service, you expose an OData service that can be accessed from a uniform resource identifier \(URI\) by using a web browser or any other HTTP client. OData clients can use Atom Publishing Protocol \(AtomPub\) documents to interact with [!INCLUDE[navnow](includes/navnow_md.md)] data. AtomPub is a simple HTTP\-based protocol for creating and updating web resources. It is related to the Atom Syndication Format, which is XML for web feeds. In these procedures, you obtain different kinds of AtomPub documents or feeds from a [!INCLUDE[navnow](includes/navnow_md.md)] OData web service. AtomPub documents and feeds are XML.  
+When you register an OData web service, you expose an OData service that can be accessed from a uniform resource identifier \(URI\) by using a web browser or any other HTTP client. OData clients can use Atom Publishing Protocol \(AtomPub\) documents to interact with [!INCLUDE[navnow](includes/navnow_md.md)] data. AtomPub is a simple HTTP-based protocol for creating and updating web resources. It is related to the Atom Syndication Format, which is XML for web feeds. In these procedures, you obtain different kinds of AtomPub documents or feeds from a [!INCLUDE[navnow](includes/navnow_md.md)] OData web service. AtomPub documents and feeds are XML.  
   
 > [!NOTE]  
 >  To use the URIs in this topic, you must have access to the [!INCLUDE[demolong](includes/demolong_md.md)].  

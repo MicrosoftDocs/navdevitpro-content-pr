@@ -37,7 +37,7 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] that the [!INCLUDE[nav_web
   
     |Value|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
     |-----------|---------------------------------------|  
-    |ClientServicesPort|Specifies the TCP port for the [!INCLUDE[nav_server](includes/nav_server_md.md)].<br /><br /> Values: 1\-65535<br /><br /> Default value: 7046|  
+    |ClientServicesPort|Specifies the TCP port for the [!INCLUDE[nav_server](includes/nav_server_md.md)].<br /><br /> Values: 1-65535<br /><br /> Default value: 7046|  
     |Server|Specifies the name of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].<br /><br /> Default value: localhost|  
     |ServerInstance|Specifies the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that the [!INCLUDE[nav_web](includes/nav_web_md.md)] connects to.<br /><br /> For more information, see [Managing Microsoft Dynamics NAV Server Instances](Managing-Microsoft-Dynamics-NAV-Server-Instances.md).<br /><br /> Default value: [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]|  
   

@@ -11,7 +11,7 @@ ms.assetid: db8b7247-55d4-4ae0-93af-b439f646394f
 caps.latest.revision: 3
 ---
 # Developer and IT Pro Help for Madeira
-[!INCLUDE[navnow](includes/navnow_md.md)] is a complete enterprise resource planning \(ERP\) software solution for small and mid\-sized organizations that is fast to implement, easy to configure, and simple to use. Right from the start, simplicity has guided—and continues to guide—innovations in product design, development, implementation, and usability. This section provides content about developing, deploying, and administering [!INCLUDE[navnow](includes/navnow_md.md)] solutions.  
+[!INCLUDE[navnow](includes/navnow_md.md)] is a complete enterprise resource planning \(ERP\) software solution for small and mid-sized organizations that is fast to implement, easy to configure, and simple to use. Right from the start, simplicity has guided—and continues to guide—innovations in product design, development, implementation, and usability. This section provides content about developing, deploying, and administering [!INCLUDE[navnow](includes/navnow_md.md)] solutions.  
   
 ## In This Section  
   

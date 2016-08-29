@@ -40,7 +40,7 @@ There are several ways to access Help information in [!INCLUDE[navnow](includes/
 |About [!INCLUDE[navnow](includes/navnow_md.md)]|Displays product information, including the version number of [!INCLUDE[navnow](includes/navnow_md.md)].<br /><br /> For more information, see [\($ S\_2091 About $\)](-$-S_2091-About-$-.md).|  
   
 ## [!INCLUDE[navnow](includes/navnow_md.md)] Help Server  
- When you access Help from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)], Help opens in a browser that shows the content from the [!INCLUDE[navnow](includes/navnow_md.md)] Help Server. The [!INCLUDE[navnow](includes/navnow_md.md)] Help Server is a website with a high\-level navigation in the left pane, and a Search box to help you find exactly what you are looking for.  
+ When you access Help from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)], Help opens in a browser that shows the content from the [!INCLUDE[navnow](includes/navnow_md.md)] Help Server. The [!INCLUDE[navnow](includes/navnow_md.md)] Help Server is a website with a high-level navigation in the left pane, and a Search box to help you find exactly what you are looking for.  
   
  The main pane shows the contents of the Help topic.  
   

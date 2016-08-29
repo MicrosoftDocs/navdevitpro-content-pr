@@ -19,4 +19,4 @@ manager: edupont
 > [!NOTE]  
 >  Typically, the **TopNumberOfRows** property or **TOPNUMBEROFROWS** function are used to return a relatively small number of entities, such as the top five, ten, or 100 entities. Therefore, in most cases, the value of the **TopNumberOfRows** property and **TOPNUMBEROFROWS** function will be less than the **Max Page Size**, so that you will not have to change the **Max Page Size** setting.  
   
- For information about how to change the **Max Page Size** setting, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md) and [Server\-Driven Paging in OData Web Services](Server-Driven-Paging-in-OData-Web-Services.md).
+ For information about how to change the **Max Page Size** setting, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md) and [Server-Driven Paging in OData Web Services](Server-Driven-Paging-in-OData-Web-Services.md).

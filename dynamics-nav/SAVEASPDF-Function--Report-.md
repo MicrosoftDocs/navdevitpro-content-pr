@@ -46,7 +46,7 @@ Saves a report as a .pdf file.
   
  **true** if the report was saved; otherwise, **false**.  
   
- If you omit this optional return value, then run\-time errors can occur. If you include a return value, it is assumed that you will handle any errors.  
+ If you omit this optional return value, then run-time errors can occur. If you include a return value, it is assumed that you will handle any errors.  
   
 ## Remarks  
  You can use the **SAVEASPDF** function on the global REPORT object or on Report variables. If, at design time, you do not know the specific report that you want to run, then use the global REPORT object and specify the report number in the *Number* parameter. If you do know which report you want to run, then create a Report variable, set the Subtype of the variable to a specific report, and use this variable when you call the **SAVEASPDF** function.  
@@ -65,7 +65,7 @@ Saves a report as a .pdf file.
 |-------------------|--------------|-------------|  
 |Filename|Text|Not applicable|  
 |ReturnValue|Boolean|Not applicable|  
-|Report206|Report|Sales \- Invoice|  
+|Report206|Report|Sales - Invoice|  
   
 ```  
 Filename := 'C:\MyReports\report206.pdf';   

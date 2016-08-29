@@ -35,7 +35,7 @@ Calculates the total of a column in a table. You specify which fields to calcula
 ## Property Value/Return Value  
  Type: Boolean  
   
- If you omit this optional return value and if one of the fields is not a SumIndexField, a run\-time error occurs. If you include a return value, you must handle any errors.  
+ If you omit this optional return value and if one of the fields is not a SumIndexField, a run-time error occurs. If you include a return value, you must handle any errors.  
   
 ## Remarks  
  Use this function to total columns in a table. This function operates only on records that meet the conditions of any filters associated with the record.  
@@ -53,7 +53,7 @@ Calculates the total of a column in a table. You specify which fields to calcula
   
  For [!INCLUDE[navnowlong](includes/navnowlong_md.md)], **CALCSUMS** execution is decoupled from [!INCLUDE[navnow](includes/navnow_md.md)] SIFT index definitions. This means that if any of the conditions for using SIFT indexes are not true, then [!INCLUDE[navnow](includes/navnow_md.md)] traverses all records in the base table to perform the calculation instead of using SIFT. This can reduce the number of required SIFT indexes, which can improve performance. In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], if the conditions for using SIFT indexes were not true and the **MaintainSIFTIndex** property was enabled, then you received an error when you called the **CALCSUMS** function. This provided a degree of protection in earlier versions against accidentally requesting a sorting for which no index existed. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], an index is not required to support a certain sorting, but sorting without an index could lead to bad performance if a search returns a large result set, which would then have to be sorted before the first row is returned.  
   
- The **CALCSUMS** function adheres to the [SecurityFiltering Property](SecurityFiltering-Property.md). For more information about security filters, see [Record\-Level Security](Record-Level-Security.md).  
+ The **CALCSUMS** function adheres to the [SecurityFiltering Property](SecurityFiltering-Property.md). For more information about security filters, see [Record-Level Security](Record-Level-Security.md).  
   
 ## Example  
  This example shows how to use the **CALCSUMS** function. It requires that you create a Record variable named WhseEntry for the **Warehouse Entry** table.  

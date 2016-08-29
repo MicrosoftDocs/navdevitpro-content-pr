@@ -17,14 +17,14 @@ manager: edupont
 ## Limitations  
  The COM support has the following limitations:  
   
--   Only non\-visual controls are supported. A control cannot be used to add graphical elements to a [!INCLUDE[navnow](includes/navnow_md.md)] object. For example, you cannot add a third\-party control to a page. However, the control can display information and interact with the user in a window of its own.  
+-   Only non-visual controls are supported. A control cannot be used to add graphical elements to a [!INCLUDE[navnow](includes/navnow_md.md)] object. For example, you cannot add a third-party control to a page. However, the control can display information and interact with the user in a window of its own.  
   
 -   Exception handling is not supported. Information about exceptions cannot be retrieved from a control or automation server through the Invoke method of the IDispatch interface and the EXCEPINFO structure.  
   
--   Unlike [!INCLUDE[nav2009](includes/nav2009_md.md)], automation objects in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] cannot target the computer that is running the [!INCLUDE[nav_server](includes/nav_server_md.md)]. Only client\-side automation objects are supported. Instead of implementing server\-side automation object, you can use Microsoft .NET Framework Interoperability. For more information, see [Extending Microsoft Dynamics NAV Using Microsoft .NET Framework Interoperability](Extending-Microsoft-Dynamics-NAV-Using-Microsoft-.NET-Framework-Interoperability.md).  
+-   Unlike [!INCLUDE[nav2009](includes/nav2009_md.md)], automation objects in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] cannot target the computer that is running the [!INCLUDE[nav_server](includes/nav_server_md.md)]. Only client-side automation objects are supported. Instead of implementing server-side automation object, you can use Microsoft .NET Framework Interoperability. For more information, see [Extending Microsoft Dynamics NAV Using Microsoft .NET Framework Interoperability](Extending-Microsoft-Dynamics-NAV-Using-Microsoft-.NET-Framework-Interoperability.md).  
   
 ## Parameters, Return Values, and Data Types  
- The mechanisms for calling methods in a control, passing parameters, and receiving return values are somewhat complex. Using tools such as the wizards in Microsoft Visual C\+\+ shields you from most of the complexities. However, there is no one\-to\-one relationship between the data types that you can use when you implement methods in, for example, Visual C\+\+ and the data types in C/AL. Some of the COM data types are not supported in C/AL and some have a limitation imposed on their usage.  
+ The mechanisms for calling methods in a control, passing parameters, and receiving return values are somewhat complex. Using tools such as the wizards in Microsoft Visual C++ shields you from most of the complexities. However, there is no one-to-one relationship between the data types that you can use when you implement methods in, for example, Visual C++ and the data types in C/AL. Some of the COM data types are not supported in C/AL and some have a limitation imposed on their usage.  
   
  When you use the **C/AL Symbol Menu**, you can see the syntax for a method or property that has the return value and the parameters shown with the COM data types.  
   
@@ -82,7 +82,7 @@ manager: edupont
   
  If the USERDEF type is an IDispatch, it means that it is an interface \(sometimes also called class or object\) with a specific GUID. You will have to use the same object for a return value or parameter. You do this by creating an Automation variable with the correct subtype. For example, Microsoft Excel has several methods that return a WORKBOOK variable. This means that you must declare a variable of type Automation and subtype 'Microsoft Excel 8.0 Object Library'.Workbook.  
   
- If the USERDEF type is an enumeration, you cannot use the symbolic name, for example, xl3DPie, but instead must use the enumerator, for example, \-4102. For Microsoft Office products, you can find this value by using the VBA Object Browser.  
+ If the USERDEF type is an enumeration, you cannot use the symbolic name, for example, xl3DPie, but instead must use the enumerator, for example, -4102. For Microsoft Office products, you can find this value by using the VBA Object Browser.  
   
 ## See Also  
  [Extending Microsoft Dynamics NAV Using COM](Extending-Microsoft-Dynamics-NAV-Using-COM.md)   

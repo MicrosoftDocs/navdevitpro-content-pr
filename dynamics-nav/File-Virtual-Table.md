@@ -24,7 +24,7 @@ The **File** virtual table gives you an overview of the files in a directory on 
 |**Time**|The time the file was last modified.|  
 |**Data**|A BLOB field with the contents of the file.|  
   
- You must create a tabular\-type page to access the **File** virtual table.  
+ You must create a tabular-type page to access the **File** virtual table.  
   
 ## See Also  
  [Virtual Tables](Virtual-Tables.md)

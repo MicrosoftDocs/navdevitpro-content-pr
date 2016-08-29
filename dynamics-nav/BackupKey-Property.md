@@ -21,9 +21,9 @@ This property is used by the backup\/restore system. Under normal circumstances,
  **Yes** if the enabled property of secondary keys will be restored during restore; otherwise, **No**. The default value is **No**.  
   
 ## Remarks  
- During backup, secondary keys where the [Enabled Property\-duplicate](Enabled-Property-duplicate.md) is set to a value of **Yes** are marked with a BackupKey value of **Yes**, and the secondary indexes are not stored in the backup. When the backup is restored, the BackupKey value is checked to see whether it reenables secondary keys where BackupKey = Yes, and the indexes are recreated.  
+ During backup, secondary keys where the [Enabled Property-duplicate](Enabled-Property-duplicate.md) is set to a value of **Yes** are marked with a BackupKey value of **Yes**, and the secondary indexes are not stored in the backup. When the backup is restored, the BackupKey value is checked to see whether it reenables secondary keys where BackupKey = Yes, and the indexes are recreated.  
   
  You will normally only see the BackupKey set to **No** \(the default\), as it is only set to **Yes** during backup. If a backup restore is suspended during key creation \(to be resumed at a later time\), you can see and set the BackupKey property.  
   
 ## See Also  
- [Enabled Property\-duplicate](Enabled-Property-duplicate.md)
+ [Enabled Property-duplicate](Enabled-Property-duplicate.md)

@@ -24,14 +24,14 @@ Gets or sets the application areas for the current session.
  *ApplicationAreas*  
  Type: Text  
   
- A comma\-separated list of application area tags to activate.  
+ A comma-separated list of application area tags to activate.  
   
- An application area tag has the format \#*name*, where *name* is the application area. The *name* can be any combination of letters \(Aa\-Zz\) and numbers \(0\-9\) without spaces. For example, to specify the **Foundation** and **Fixed Assets** application areas, set the property to **\#Foundation,\#FixedAssets**.  
+ An application area tag has the format \#*name*, where *name* is the application area. The *name* can be any combination of letters \(Aa-Zz\) and numbers \(0-9\) without spaces. For example, to specify the **Foundation** and **Fixed Assets** application areas, set the property to **\#Foundation,\#FixedAssets**.  
   
 ## Property Value/Return Value  
  Type: Text  
   
- A comma\-separated list of enabled application areas for the current session.  
+ A comma-separated list of enabled application areas for the current session.  
   
 ## Remarks  
  This function lets  you to hide certain user interface elements \(including page fields and actions, report request page options, and Department items\) based on the application area to which they belong. Controls that define these items can be are tagged with one or more application areas by setting the ApplicationArea property. When the APPLICATIONAREA function is called for a client session, only those controls that are tagged with the application areas set by the function will be appear in the user interface.  

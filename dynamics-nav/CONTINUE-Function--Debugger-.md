@@ -25,7 +25,7 @@ Executes code until the next breakpoint or until execution ends.
   
  **true** if code executes until the next breakpoint or until execution ends; otherwise, **false**.  
   
- If you omit this optional return value and if the break is not set successfully, then a run\-time error occurs. If you include the return value, then you must handle any errors.  
+ If you omit this optional return value and if the break is not set successfully, then a run-time error occurs. If you include the return value, then you must handle any errors.  
   
 ## See Also  
  [Breakpoints](Breakpoints.md)

@@ -30,7 +30,7 @@ Value := Record.GETRANGEMAX(Field)
  *Field*  
  Type: Field  
   
- The field for which you want to find the maximum value. The current filter on *Field* must be a single range filter; otherwise, a run\-time error occurs.  
+ The field for which you want to find the maximum value. The current filter on *Field* must be a single range filter; otherwise, a run-time error occurs.  
   
 ## Property Value/Return Value  
  Type: Depends on *Field*  
@@ -38,7 +38,7 @@ Value := Record.GETRANGEMAX(Field)
  Contains the maximum value of the range set for *Field*. The type of the return value must match the type of *Field*.  
   
 ## Remarks  
- The current filter on *Field* must be a single range filter; otherwise, a run\-time error occurs. This means that field cannot be included in two different FILTERGROUPs, as shown in the following code example:  
+ The current filter on *Field* must be a single range filter; otherwise, a run-time error occurs. This means that field cannot be included in two different FILTERGROUPs, as shown in the following code example:  
   
 ```  
 WITH GLAcc DO BEGIN  
@@ -119,7 +119,7 @@ Val := CustomerRec.GETRANGEMAX("No.");
 MESSAGE(Text000, Val);  
 ```  
   
- This example causes a run\-time error to occur.  
+ This example causes a run-time error to occur.  
   
 ## See Also  
  [GETRANGEMIN Function \(Record\)](GETRANGEMIN-Function--Record-.md)   

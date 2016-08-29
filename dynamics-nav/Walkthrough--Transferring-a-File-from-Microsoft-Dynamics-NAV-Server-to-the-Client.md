@@ -39,7 +39,7 @@ This walkthrough demonstrates how to develop a codeunit that creates a file on [
   
 3.  Choose **View** and then choose **C/AL Locals**.  
   
-     The **OnRun \-C/AL Locals** window opens.  
+     The **OnRun -C/AL Locals** window opens.  
   
 4.  Choose the **Variables** tab.  
   

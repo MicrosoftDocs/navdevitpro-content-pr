@@ -12,7 +12,7 @@ caps.latest.revision: 6
 manager: edupont
 ---
 # ($ S_2128 Windows Language List $)
-Lists all Windows languages. You can add string translations for UI elements in a standard country\/region\-specific version of [!INCLUDE[navnowlong](../includes/navnowlong_md.md)]. To enable multilanguage support, you install a language module so that end users can view UI elements in a different language.  
+Lists all Windows languages. You can add string translations for UI elements in a standard country\/region-specific version of [!INCLUDE[navnowlong](../includes/navnowlong_md.md)]. To enable multilanguage support, you install a language module so that end users can view UI elements in a different language.  
   
 > [!NOTE]  
 >  If you have customized objects in the application, then you must also add translations for those objects.  

@@ -21,7 +21,7 @@ The following table describes the performance counters that are available in [!I
 ||Average server operation time \(ms\)|Average duration of server operations in milliseconds.|  
 |SQL Server connections|\# Mounted tenants|Number of tenants that are mounted on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.<br /><br /> For more information about tenants, see [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md).|  
 ||\# Open connections|Count of the current number of open connections from the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to [!INCLUDE[navnow](includes/navnow_md.md)] databases on SQL Servers.|  
-||% Query repositioning rate|Percentage of queries that are re\-executed when fetching the query result.|  
+||% Query repositioning rate|Percentage of queries that are re-executed when fetching the query result.|  
 ||Heartbeat time \(ms\)|The time that it takes to complete a single write to a system table. Every 30 seconds, the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance writes a record to indicate that the instance is "alive."<br /><br /> You can use this counter to indicate if there is network latency between the [!INCLUDE[nav_server](includes/nav_server_md.md)] and the SQL Server.|  
 ||\# Preferred connection total requests|Count of the total number of requests to the preferred connection cache. The preferred connection cache contains requests from the SQL connection pool that was last used by a [!INCLUDE[navnow](includes/navnow_md.md)] user.|  
 ||% Preferred connection cache hit rate|Percentage of hits in the preferred connection cache, compared to the total number of requests.|  

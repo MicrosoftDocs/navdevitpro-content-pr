@@ -39,7 +39,7 @@ manager: edupont
 -   The parent item is defined by an action, not a Cue.  
   
 ## Hiding and Customizing the Home Button and Items in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]  
- The **Home** button is always present in the navigation pane and cannot be removed or modified that included its icon. From the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], end\-users and administrators can use customization to change the items under the **Home** button including:  
+ The **Home** button is always present in the navigation pane and cannot be removed or modified that included its icon. From the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], end-users and administrators can use customization to change the items under the **Home** button including:  
   
 -   Removing home items.  
   
@@ -50,7 +50,7 @@ manager: edupont
   
 -   Restoring the default Home items as defined in the Action Designer on the Role Center page.  
   
- As an end\-user, the changes are only implemented on the user’s Role Center. For more information, see [Customize the User Interface](Customize%20the%20User%20Interface.md).  
+ As an end-user, the changes are only implemented on the user’s Role Center. For more information, see [Customize the User Interface](Customize%20the%20User%20Interface.md).  
   
  If you are an administrator, then you can open the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] in the Configuration mode and the changes that you make will be implemented on the Role Center for all users. For more information, see [How to: Open Microsoft Dynamics NAV in Configuration Mode](How%20to:%20Open%20Microsoft%20Dynamics%20NAV%20in%20Configuration%20Mode.md).  
   

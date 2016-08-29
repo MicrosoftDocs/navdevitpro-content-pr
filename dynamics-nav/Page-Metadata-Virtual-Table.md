@@ -32,7 +32,7 @@ The **Page Metadata** virtual table \(ID 2000000138\) contains data about the pa
 |**DelayedInsert**|Specifies whether a user must leave a record before it is inserted into the database.|  
 |**ShowFilter**|Specifies whether the filter pane is shown on a page by default.|  
 |**MultipleNewLines**|Specifies whether users can add multiple new lines between records.|  
-|**SaveValues**|Specifies whether user\-specific control values are saved for this page.|  
+|**SaveValues**|Specifies whether user-specific control values are saved for this page.|  
 |**AutoSplit**|Specifies whether a key is automatically created for a new record positioned between the current record and the previous record.|  
 |**DataCaptionFields**|Specifies the fields that appear to the left of the caption on pages.|  
 |**SourceTableTemporary**|Specifies whether the source table is a temporary table.|  
@@ -41,7 +41,7 @@ The **Page Metadata** virtual table \(ID 2000000138\) contains data about the pa
   
  The fields in the virtual table correspond to C/AL properties on the page objects. For more information, see [Page Properties](Page-Properties.md).  
   
- To access and view the **Page Metadata** virtual table, you must create a tabular\-type page. For more information, see [How to: Create a Page to View a Virtual Table](How%20to:%20Create%20a%20Page%20to%20View%20a%20Virtual%20Table.md)  
+ To access and view the **Page Metadata** virtual table, you must create a tabular-type page. For more information, see [How to: Create a Page to View a Virtual Table](How%20to:%20Create%20a%20Page%20to%20View%20a%20Virtual%20Table.md)  
   
 ## See Also  
  [Virtual Tables](Virtual-Tables.md)

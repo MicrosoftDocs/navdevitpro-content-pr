@@ -29,17 +29,17 @@ Finds the last record in a table based on the current key and filter.
   
  If the record is found, it is returned in *RecordRef* and any [FlowFields](FlowFields.md) in the record are set to zero. You must update any FlowFields using [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md).  
   
- If the record is not found and if you omitted the return value, a run\-time error occurs.  
+ If the record is not found and if you omitted the return value, a run-time error occurs.  
   
 ## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the record was found; otherwise, **false**.  
   
- If you omit this optional return value and if the record cannot be found, a run\-time error occurs. If you include a return value, it is assumed that you will handle any errors.  
+ If you omit this optional return value and if the record cannot be found, a run-time error occurs. If you include a return value, it is assumed that you will handle any errors.  
   
 ## Remarks  
- You should use this function instead of FIND\('\+'\) when you need only the last record.  
+ You should use this function instead of FIND\('+'\) when you need only the last record.  
   
  You should use this function only when you explicitly want to find the last record in a table or set. Do not use this function in combination with REPEAT..UNTIL.  
   

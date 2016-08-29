@@ -84,5 +84,5 @@ COMMIT;
 ## See Also  
  [Data Access](Data-Access.md)   
  [Table Keys and Performance](Table-Keys-and-Performance.md)   
- [C\-AL Database Functions and Performance on SQL Server](C-AL-Database-Functions-and-Performance-on-SQL-Server.md)   
+ [C-AL Database Functions and Performance on SQL Server](C-AL-Database-Functions-and-Performance-on-SQL-Server.md)   
  [Query Objects and Performance](Query-Objects-and-Performance.md)

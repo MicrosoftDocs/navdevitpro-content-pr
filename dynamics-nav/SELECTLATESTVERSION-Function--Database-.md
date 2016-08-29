@@ -21,7 +21,7 @@ SELECTLATESTVERSION
 ```  
   
 ## Remarks  
- This function makes sure that the data displayed is the most current data in the database. The function clears all non\-locked records from the client cache, thereby ensuring that you read the most recent data. The function also clears the current client session's cache for the CaptionClassTranslate strings. The strings will then be reevaluated by the **CaptionClassTranslate** function trigger \(ID 15\) in codeunit 1.  
+ This function makes sure that the data displayed is the most current data in the database. The function clears all non-locked records from the client cache, thereby ensuring that you read the most recent data. The function also clears the current client session's cache for the CaptionClassTranslate strings. The strings will then be reevaluated by the **CaptionClassTranslate** function trigger \(ID 15\) in codeunit 1.  
   
 > [!WARNING]  
 >  Clearing the cache and reading data directly from the database adversely affects performance.  

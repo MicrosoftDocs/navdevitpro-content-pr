@@ -34,9 +34,9 @@ You can publish a page as a web service and consume it using JavaScript Object N
     > [!NOTE]  
     >  The value of the format attribute must be lowercase: `?$format=json`.  
   
-     If you want to consume the web service as JSON\-P, you can add the `?$callback=<callback function name>` parameter.  
+     If you want to consume the web service as JSON-P, you can add the `?$callback=<callback function name>` parameter.  
   
-     You can use a similar URI to return the web service as an AtomPub document, in which case the attribute is `?$format=atom`. For more information, see [How to: Use OData to Return\-Obtain an AtomPub Document](How%20to:%20Use%20OData%20to%20Return-Obtain%20an%20AtomPub%20Document.md).  
+     You can use a similar URI to return the web service as an AtomPub document, in which case the attribute is `?$format=atom`. For more information, see [How to: Use OData to Return-Obtain an AtomPub Document](How%20to:%20Use%20OData%20to%20Return-Obtain%20an%20AtomPub%20Document.md).  
   
 ## See Also  
  [Using OData Web Services to Modify Data](Using-OData-Web-Services-to-Modify-Data.md)

@@ -12,7 +12,7 @@ caps.latest.revision: 2
 manager: edupont
 ---
 # Table Relations Virtual Table
-The **Table Relations** virtual table \(ID 2000000141\) contains information about table relations for all fields in [!INCLUDE[navnow](includes/navnow_md.md)] non\-system tables.  
+The **Table Relations** virtual table \(ID 2000000141\) contains information about table relations for all fields in [!INCLUDE[navnow](includes/navnow_md.md)] non-system tables.  
   
  The following table describes the fields in the **Table Relations** virtual table.  
   

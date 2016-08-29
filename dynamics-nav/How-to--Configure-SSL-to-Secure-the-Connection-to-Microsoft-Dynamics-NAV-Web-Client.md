@@ -28,17 +28,17 @@ We recommend that you secure [!INCLUDE[navnow](includes/navnow_md.md)] data that
 >  You can configure SSL for the [!INCLUDE[nav_web](includes/nav_web_md.md)] when you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. For more information, see [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md).  
   
 ##  <a name="Cert"></a> Obtaining an SSL Certificate  
- In a production environment, you should obtain an SSL certificate from a certification authority. Some large organizations may have their own certification authorities, and other organizations can request a certificate from a third\-party organization. In a test environment or development environment, you can create your own self\-signed certificate.  
+ In a production environment, you should obtain an SSL certificate from a certification authority. Some large organizations may have their own certification authorities, and other organizations can request a certificate from a third-party organization. In a test environment or development environment, you can create your own self-signed certificate.  
   
-#### To create a self\-signed SSL certificate  
+#### To create a self-signed SSL certificate  
   
 1.  To open Internet Information Services \(IIS\) Manager, search for **inetmgr**.  
   
-2.  In Internet Information Services Manager, in the **Connections** pane, choose the top\-level node for the server.  
+2.  In Internet Information Services Manager, in the **Connections** pane, choose the top-level node for the server.  
   
 3.  On the **Home** page, under **IIS**, choose **Server Certificates**, and then in the **Actions** pane, choose **Open Feature**.  
   
-4.  On the **Server Certificates** page, in the **Actions** pane, choose **Create Self\-Signed Certificate**.  
+4.  On the **Server Certificates** page, in the **Actions** pane, choose **Create Self-Signed Certificate**.  
   
 5.  In the **Specify Friendly Name** dialog box, type a brief name for the certificate, and then choose the **OK** button.  
   

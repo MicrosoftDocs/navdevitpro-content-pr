@@ -37,10 +37,10 @@ Sets the name of the object. The name is used for internal identification of the
   
  When you use the Name in C/AL code, it is automatically converted to the value of the [ID Property](ID-Property.md) when the C/AL code is compiled.  
   
- For report, page, XMLport, and query objects, the name is the default for the [Caption Property\-duplicate](Caption-Property-duplicate.md).  
+ For report, page, XMLport, and query objects, the name is the default for the [Caption Property-duplicate](Caption-Property-duplicate.md).  
   
  For controls, the default name is based on the ID.  
   
 ## See Also  
  [ID Property](ID-Property.md)   
- [Caption Property\-duplicate](Caption-Property-duplicate.md)
+ [Caption Property-duplicate](Caption-Property-duplicate.md)

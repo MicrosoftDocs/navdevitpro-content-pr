@@ -25,7 +25,7 @@ You use [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup to install softw
   
 1.  Verify that the target computer meets the hardware and software requirements for the selected installation option. For more information, see [System Requirements for Microsoft Dynamics NAV 2016](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md).  
   
-2.  Insert the [!INCLUDE[navnow](includes/navnow_md.md)] installation media or locate the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup.exe file, and then double\-click the Setup.exe file.  
+2.  Insert the [!INCLUDE[navnow](includes/navnow_md.md)] installation media or locate the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup.exe file, and then double-click the Setup.exe file.  
   
 3.  Choose **Next**.  
   
@@ -48,7 +48,7 @@ You use [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup to install softw
 9. When Setup is finished, choose **Close**.  
   
 ### Canceling Setup  
- Setup does not provide a **Cancel** button on all pages, but you can cancel an installation from any page by choosing the **Close** button in the upper\-right corner. All [!INCLUDE[navnow](includes/navnow_md.md)] components are removed from the computer. The only software that Setup installs but cannot remove are:  
+ Setup does not provide a **Cancel** button on all pages, but you can cancel an installation from any page by choosing the **Close** button in the upper-right corner. All [!INCLUDE[navnow](includes/navnow_md.md)] components are removed from the computer. The only software that Setup installs but cannot remove are:  
   
 -   Database files, such as the Demo database.  
   

@@ -49,7 +49,7 @@ Specifies data from a file that has been exported from a [!INCLUDE[navnow](inclu
  *HasGlobalData*  
  Type: Variable  
   
- Specifies if the file contains global, non\-company specific data.  
+ Specifies if the file contains global, non-company specific data.  
   
  Create a variable of type Boolean to specify this parameter.  
   

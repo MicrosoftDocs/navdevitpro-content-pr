@@ -14,7 +14,7 @@ manager: edupont
 # How to: Arrange Fields in Rows and Columns Using the GridLayout Control
 By default, fields in a FastTab are arranged automatically in two columns that are based on the number of fields. You can use the **GridLayout** control to arrange the fields manually in one or more rows and columns. The **GridLayout** control gives you the following options:  
   
--   Set up your grid row\-by\-row or column\-by\-column.  
+-   Set up your grid row-by-row or column-by-column.  
   
 -   Span a field across multiple rows and columns.  
   
@@ -45,11 +45,11 @@ By default, fields in a FastTab are arranged automatically in two columns that a
   
 5.  Select the new **GridLayout** control, and on the **View** menu, choose **Properties**.  
   
-6.  In the **Properties** window, in the **Value** column of the **Layout** property, choose the drop\-down arrow. Set the [Layout Property](Layout-Property.md) as follows:  
+6.  In the **Properties** window, in the **Value** column of the **Layout** property, choose the drop-down arrow. Set the [Layout Property](Layout-Property.md) as follows:  
   
-    1.  Select **Rows** to set up fields row\-by\-row.  
+    1.  Select **Rows** to set up fields row-by-row.  
   
-    2.  Select **Columns** to set up fields column\-by\-column. This is the default setting.  
+    2.  Select **Columns** to set up fields column-by-column. This is the default setting.  
   
 #### To add a row or column of fields to the GridLayout control  
   

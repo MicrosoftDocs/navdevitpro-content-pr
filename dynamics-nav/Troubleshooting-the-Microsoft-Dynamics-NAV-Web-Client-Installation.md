@@ -21,13 +21,13 @@ This section contains information to help you resolve problems with [!INCLUDE[na
   
 -   [Troubleshooting: Could not load type 'System.ServiceModel.Activation.HttpModule' from assembly 'System.ServiceModel...'](Troubleshooting:%20Could%20not%20load%20type%20'System.ServiceModel.Activation.HttpModule'%20from%20assembly%20'System.ServiceModel...'.md)  
   
--   [Troubleshooting: 401 \- Unauthorized: Access is denied due to invalid credentials.](Troubleshooting:%20401%20-%20Unauthorized:%20Access%20is%20denied%20due%20to%20invalid%20credentials..md)  
+-   [Troubleshooting: 401 - Unauthorized: Access is denied due to invalid credentials.](Troubleshooting:%20401%20-%20Unauthorized:%20Access%20is%20denied%20due%20to%20invalid%20credentials..md)  
   
--   [Troubleshooting: HTTP Error 500 \(or 500.21\) \- Internal Server Error Handler](Troubleshooting:%20HTTP%20Error%20500%20\(or%20500.21\)%20-%20Internal%20Server%20Error%20Handler.md)  
+-   [Troubleshooting: HTTP Error 500 \(or 500.21\) - Internal Server Error Handler](Troubleshooting:%20HTTP%20Error%20500%20\(or%20500.21\)%20-%20Internal%20Server%20Error%20Handler.md)  
   
--   [Troubleshooting: HTTP 500.13 \- The request cannot be processed because the amount of traffic exceeds the Web site's configured capacity](Troubleshooting:%20HTTP%20500.13%20-%20The%20request%20cannot%20be%20processed%20because%20the%20amount%20of%20traffic%20exceeds%20the%20Web%20site's%20configured%20capacity.md)  
+-   [Troubleshooting: HTTP 500.13 - The request cannot be processed because the amount of traffic exceeds the Web site's configured capacity](Troubleshooting:%20HTTP%20500.13%20-%20The%20request%20cannot%20be%20processed%20because%20the%20amount%20of%20traffic%20exceeds%20the%20Web%20site's%20configured%20capacity.md)  
   
--   [Troubleshooting: Server Error in '\-' Application. Access Denied](Troubleshooting:%20Server%20Error%20in%20'-'%20Application.%20Access%20Denied.md)  
+-   [Troubleshooting: Server Error in '-' Application. Access Denied](Troubleshooting:%20Server%20Error%20in%20'-'%20Application.%20Access%20Denied.md)  
   
 -   [Troubleshooting: Internet Explorer cannot display the webpage](Troubleshooting:%20Internet%20Explorer%20cannot%20display%20the%20webpage.md)  
   

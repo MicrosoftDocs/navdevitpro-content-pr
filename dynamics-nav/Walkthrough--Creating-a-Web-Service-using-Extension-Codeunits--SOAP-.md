@@ -51,7 +51,7 @@ This walkthrough shows how to publish and consume a [!INCLUDE[navnow](includes/n
   
 5.  Choose to select the field in the **Published** column.  
   
-6.  Choose **OK** to close the **New \- Web Services** page.  
+6.  Choose **OK** to close the **New - Web Services** page.  
   
      Do not close the [!INCLUDE[rtc](includes/rtc_md.md)] or navigate away from the **Web Services** page.  
   
@@ -106,7 +106,7 @@ This walkthrough shows how to publish and consume a [!INCLUDE[navnow](includes/n
   
 3.  Clear the **Published** check box.  
   
-4.  Choose **OK** to close the **New \- Web Services** page.  
+4.  Choose **OK** to close the **New - Web Services** page.  
   
 ## Verifying Web Services Availability  
   
@@ -124,7 +124,7 @@ This walkthrough shows how to publish and consume a [!INCLUDE[navnow](includes/n
      **http:\/\/localhost:7047\/DynamicsNAV\/WS\/CRONUS%20International%20Ltd.\/services**  
   
     > [!NOTE]  
-    >  The company name is case\-sensitive.  
+    >  The company name is case-sensitive.  
   
      The page should list the page web service that you have published: `Page/PageWithCapitalization`.  
   
@@ -146,7 +146,7 @@ This walkthrough shows how to publish and consume a [!INCLUDE[navnow](includes/n
   
 4.  Choose **OK** to close the **New Project** page.  
   
-5.  In Solution Explorer, right\-click the **References** node in the project, and then choose **Add Service Reference**.  
+5.  In Solution Explorer, right-click the **References** node in the project, and then choose **Add Service Reference**.  
   
 6.  In the **Add Service Reference** dialog box, choose the **Advanced** button, choose the **Add Web Reference** button, in the URL text box, type or paste the URL that you used when checking the WSDL, such as **http:\/\/localhost:7047\/DynamicsNAV\/WS\/Services**, and then choose **Go**.  
   

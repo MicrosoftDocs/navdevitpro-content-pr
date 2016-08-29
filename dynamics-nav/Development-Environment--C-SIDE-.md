@@ -12,16 +12,16 @@ caps.latest.revision: 20
 manager: edupont
 ---
 # Development Environment (C-SIDE)
-You use the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to develop [!INCLUDE[navnow](includes/navnow_md.md)] applications. In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], this component was also an end\-user client, but this changed in [!INCLUDE[nav7long](includes/nav7long_md.md)].  
+You use the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to develop [!INCLUDE[navnow](includes/navnow_md.md)] applications. In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], this component was also an end-user client, but this changed in [!INCLUDE[nav7long](includes/nav7long_md.md)].  
   
  The administrator who installs [!INCLUDE[navnowlong](includes/navnowlong_md.md)] automatically has access to the [!INCLUDE[navnow](includes/navnow_md.md)] database in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. To grant another user permission to work with a particular [!INCLUDE[navnow](includes/navnow_md.md)] database with [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], grant that user db\_owner role on the database in SQL Server Management Studio. To grant another user permission to create new databases in [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], grant that user the dbcreator and securityadmin Server Roles for the [!INCLUDE[navnow](includes/navnow_md.md)] SQL Server instance in SQL Server Management Studio. For information about how to grant these roles, see [Setting Database Owner and Security Administration Permissions](Setting-Database-Owner-and-Security-Administration-Permissions.md).  
   
 > [!WARNING]  
->  If you install the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] on a 64\-bit computer and you do not install any other [!INCLUDE[navnow](includes/navnow_md.md)] components, you may receive the following message:  
+>  If you install the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] on a 64-bit computer and you do not install any other [!INCLUDE[navnow](includes/navnow_md.md)] components, you may receive the following message:  
 >   
 >  The program cannot start because MSVCP100.dll is missing.  
 >   
->  If you see this error message, download and install the [Microsoft Visual C\+\+ 2010 Redistributable Package \(x86\)](http://go.microsoft.com/fwlink/?LinkId=253073). You can then run the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].  
+>  If you see this error message, download and install the [Microsoft Visual C++ 2010 Redistributable Package \(x86\)](http://go.microsoft.com/fwlink/?LinkId=253073). You can then run the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].  
   
 ## Object Designer  
  When you open the development environment, you can open Object Designer, which gives you access to [!INCLUDE[navnow](includes/navnow_md.md)] objects. You use Object Designer to modify the application or to create new application areas. For more information, see [\($ S\_2051 Object Designer $\)](-$-S_2051-Object-Designer-$-.md).  

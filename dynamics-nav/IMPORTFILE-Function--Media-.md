@@ -45,7 +45,7 @@ Adds a media type, such as a jpeg image, from a file to a **Media** data type fi
  *MimeType*  
  Type: Text  
   
- Specifies the content type of the media file. The *MimeType* value must be a two\-part string that consists of a type and subtype, such as *image\/jpeg*, *image\/gif*, or *video\/mpeg*. For more information, see [Supported Media Types](Working-With-Media-on-Records.md#SupportedMediaTypes).  
+ Specifies the content type of the media file. The *MimeType* value must be a two-part string that consists of a type and subtype, such as *image\/jpeg*, *image\/gif*, or *video\/mpeg*. For more information, see [Supported Media Types](Working-With-Media-on-Records.md#SupportedMediaTypes).  
   
  If this parameter is not specified, the IMPORTFILE function will deduct the MIME type from the file extension. For example the MIME type for a .jpg file is image\/jpeg.  
   

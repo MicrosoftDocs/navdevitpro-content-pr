@@ -37,7 +37,7 @@ You can add beep sounds to your ADCS solution. To do this, you add the keyword *
     Invalid User ID._BELL_  
     ```  
   
-     For a double\-beep, append the following code.  
+     For a double-beep, append the following code.  
   
     ```  
     _BELL__BELL_  

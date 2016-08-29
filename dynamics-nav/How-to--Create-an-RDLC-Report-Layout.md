@@ -48,6 +48,6 @@ To create an RDLC report layout, you use Visual Studio Report Designer.
   
 ## See Also  
  [Designing Reports](Designing-Reports.md)   
- [How to. Specify the Default Built\-in Report Layout](How-to.-Specify-the-Default-Built-in-Report-Layout.md)   
+ [How to. Specify the Default Built-in Report Layout](How-to.-Specify-the-Default-Built-in-Report-Layout.md)   
  [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)   
  [Defining the Report Dataset](Defining-the-Report-Dataset.md)

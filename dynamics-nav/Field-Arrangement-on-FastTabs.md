@@ -37,4 +37,4 @@ This topic describes how individual fields are arranged on a FastTab and ways th
  ![Shows how field groups layout in a FastTab](media/NAVFastTabFieldLayoutGroups.png "NAVFastTabFieldLayoutGroups")  
   
 ## Manually Arranging Fields in Multiple Rows and Columns  
- Using the GridLayout or FixedLayout controls, you can arrange fields in multiple rows and columns in a grid\-like format. For more information, see [Arranging Fields in Rows and Columns](Arranging-Fields-in-Rows-and-Columns.md).
+ Using the GridLayout or FixedLayout controls, you can arrange fields in multiple rows and columns in a grid-like format. For more information, see [Arranging Fields in Rows and Columns](Arranging-Fields-in-Rows-and-Columns.md).

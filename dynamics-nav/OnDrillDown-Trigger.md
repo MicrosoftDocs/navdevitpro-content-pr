@@ -11,7 +11,7 @@ ms.assetid: a25a1651-d138-497c-8dab-34bdf38ee17a
 caps.latest.revision: 10
 ---
 # OnDrillDown Trigger
-Overrides the default drill\-down behavior defined in the table definition for the FlowField.  
+Overrides the default drill-down behavior defined in the table definition for the FlowField.  
   
 ## Applies To  
  Fields on pages  

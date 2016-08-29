@@ -22,7 +22,7 @@ You can use the **About This Page** feature to view all fields for the current r
   
      The **About This Page** window displays every field that is in the table on which the selected page is based. It displays both visible and invisible fields. It also displays the value of each field for the selected record.  
   
-3.  \(optional\) To view the fields in the table on which a subpage is based, place the cursor on the subpage and then press Ctrl\+Alt\+F1.  
+3.  \(optional\) To view the fields in the table on which a subpage is based, place the cursor on the subpage and then press Ctrl+Alt+F1.  
   
 ### To export field values  
   

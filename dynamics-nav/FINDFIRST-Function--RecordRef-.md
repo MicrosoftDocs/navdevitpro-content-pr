@@ -34,10 +34,10 @@ Finds the first record in a table based on the current key and filter.
   
  **true** if the record was found; otherwise, **false**.  
   
- If you omit this optional return value and if the record cannot be found, a run\-time error occurs. If you include a return value, it is assumed that you will handle any errors.  
+ If you omit this optional return value and if the record cannot be found, a run-time error occurs. If you include a return value, it is assumed that you will handle any errors.  
   
 ## Remarks  
- You should use this function instead of FIND\('\-'\) when you need only the first record.  
+ You should use this function instead of FIND\('-'\) when you need only the first record.  
   
  You should use this function only when you explicitly want to find the first record in a table or set. Do not use this function in combination with REPEAT..UNTIL.  
   

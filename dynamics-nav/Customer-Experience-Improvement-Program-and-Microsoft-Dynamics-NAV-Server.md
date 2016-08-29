@@ -14,7 +14,7 @@ manager: edupont
 # Customer Experience Improvement Program and Microsoft Dynamics NAV Server
 [!INCLUDE[nav_server](includes/nav_server_md.md)] supports the Customer Experience Improvement Program \(CEIP\), a tool that sends information to Microsoft about [!INCLUDE[nav_server](includes/nav_server_md.md)] usage and about the capacities of the computers where [!INCLUDE[nav_server](includes/nav_server_md.md)] is installed.  
   
- After [!INCLUDE[nav_server](includes/nav_server_md.md)] is installed, you can turn CEIP on or off on a per\-server\-instance basis with the **Send Feedback** parameter, which is on the **General** pane in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. See [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md). By default, CEIP is disabled.  
+ After [!INCLUDE[nav_server](includes/nav_server_md.md)] is installed, you can turn CEIP on or off on a per-server-instance basis with the **Send Feedback** parameter, which is on the **General** pane in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. See [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md). By default, CEIP is disabled.  
   
 ## Background on CEIP  
  Microsoft uses the information it collects through the Customer Experience Improvement Program to improve products. The information that is gathered contains no personally identifying information \(such as passwords, IP addresses, or user IDs\), no customer identifying information, and no customer data. CEIP helps Microsoft understand usage patterns and common computer configurations. It can also provide information that helps Microsoft diagnose software failures.  
@@ -58,4 +58,4 @@ manager: edupont
   
 ## See Also  
  [Provisioning the Microsoft Dynamics NAV Server Account](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md)   
- [Corporate Customer Experience Improvement Program Client\-to\-Server Protocol Specification](http://go.microsoft.com/fwlink/?LinkId=260878)
+ [Corporate Customer Experience Improvement Program Client-to-Server Protocol Specification](http://go.microsoft.com/fwlink/?LinkId=260878)

@@ -26,6 +26,6 @@ You design a report by first defining the dataset and then designing the visual 
   
 ## See Also  
  [Report Design Overview](Report-Design-Overview.md)   
- [Reports\-duplicate 20](Reports-duplicate-20.md)   
+ [Reports-duplicate 20](Reports-duplicate-20.md)   
  [Running Reports](Running-Reports.md)   
  [Printing Reports](Printing-Reports.md)

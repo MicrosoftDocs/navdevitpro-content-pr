@@ -22,7 +22,7 @@ A codeunit is a container for C/AL code that you can use in many application obj
 |**Functions**|A function is a sequence of C/AL statements that you define to create new functionality.|  
 |**Local Variables**|Within each function, you can define variables with scope that is limited to the function in which they are defined. These are known as local variables.|  
 |**Global Variables**|A global variable is a variable whose scope covers all the functions in the codeunit.|  
-|**Text Constants**|A text constant defines a read\-only string that you use in your code. A text constant can have multiple values for different languages. You can define both global and local text constants.|  
+|**Text Constants**|A text constant defines a read-only string that you use in your code. A text constant can have multiple values for different languages. You can define both global and local text constants.|  
   
 ## Codeunit Sections  
  Each function that you add to a codeunit is shown in a separate section when you view the file in the C/AL Editor. Every codeunit contains two default sections called **Documentation** and **OnRun**. In the **Documentation** section, you can add descriptive information, such as the purpose of the codeunit or a version number. In the **OnRun** section, you can include code that you want to be executed when the codeunit is run.  

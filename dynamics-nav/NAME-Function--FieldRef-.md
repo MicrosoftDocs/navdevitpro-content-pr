@@ -30,7 +30,7 @@ Name := FieldRef.NAME
  The name of the field given as input.  
   
 ## Remarks  
- The [CAPTION Function \(FieldRef, TestPage Field\)](CAPTION-Function--FieldRef--TestPage-Field-.md) function retrieves the [Caption Property\-duplicate](Caption-Property-duplicate.md) of a field. To enable your application for multilanguage functionality, you must use the [FIELDCAPTION Function \(Record\)](FIELDCAPTION-Function--Record-.md) instead.  
+ The [CAPTION Function \(FieldRef, TestPage Field\)](CAPTION-Function--FieldRef--TestPage-Field-.md) function retrieves the [Caption Property-duplicate](Caption-Property-duplicate.md) of a field. To enable your application for multilanguage functionality, you must use the [FIELDCAPTION Function \(Record\)](FIELDCAPTION-Function--Record-.md) instead.  
   
  This function is similar to the [FIELDNAME Function \(Record\)](FIELDNAME-Function--Record-.md) function.  
   

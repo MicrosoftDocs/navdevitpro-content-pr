@@ -24,9 +24,9 @@ You use the debugger breakpoint list to view, set, enable, disable, or delete br
   
 ### To set a breakpoint in the Debugger Breakpoint List window  
   
-1.  In the **Debugger Breakpoint List** window, in the **Object Type** column, select the object type from the drop\-down list box.  
+1.  In the **Debugger Breakpoint List** window, in the **Object Type** column, select the object type from the drop-down list box.  
   
-2.  In the **Object ID** column, select the object ID from the drop\-down list box.  
+2.  In the **Object ID** column, select the object ID from the drop-down list box.  
   
 3.  In the **Line No.** column, enter the line number on which you want to set a breakpoint. You can view the line number in the **Call Stack** FactBox on the **Debugger** window.  
   

@@ -21,9 +21,9 @@ Specifies the function to be try function, which can be used to catch and handle
 >  In test and upgrade codeunits, this property only applies to normal functions as specified by the [FunctionType Property \(Test Codeunits\)](FunctionType-Property--Test-Codeunits-.md) or [FunctionType Property \(Upgrade Codeunits\)](FunctionType-Property--Upgrade-Codeunits-.md).  
   
 ## Remarks  
- Try functions in C/AL enable you to handle errors that occur in the application during code execution. For example, with try functions, you can provide more user\-friendly error messages to the end user than those thrown by the system. You can use try functions to catch errors\/exceptions that thrown by [!INCLUDE[navnow](includes/navnow_md.md)] or exceptions that are thrown during .NET Framework interoperability operations.  
+ Try functions in C/AL enable you to handle errors that occur in the application during code execution. For example, with try functions, you can provide more user-friendly error messages to the end user than those thrown by the system. You can use try functions to catch errors\/exceptions that thrown by [!INCLUDE[navnow](includes/navnow_md.md)] or exceptions that are thrown during .NET Framework interoperability operations.  
   
  For more information, see [Handling Errors by Using Try Functions](Handling-Errors-by-Using-Try-Functions.md).  
   
 ## See Also  
- [C\-AL Function Statements](C-AL-Function-Statements.md)
+ [C-AL Function Statements](C-AL-Function-Statements.md)

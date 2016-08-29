@@ -17,11 +17,11 @@ This walkthrough demonstrates debugging an action in the [!INCLUDE[nav_windows](
 ## About This Walkthrough  
  This walkthrough illustrates the following tasks:  
   
--   Setting a breakpoint on codeunit 80, Sales\-Post, in the development environment.  
+-   Setting a breakpoint on codeunit 80, Sales-Post, in the development environment.  
   
 -   Activating the [!INCLUDE[navnow](includes/navnow_md.md)] Debugger.  
   
--   Posting a sales order so that the debugger breaks in codeunit 80, Sales\-Post.  
+-   Posting a sales order so that the debugger breaks in codeunit 80, Sales-Post.  
   
 -   Using the debugger to:  
   
@@ -44,19 +44,19 @@ This walkthrough demonstrates debugging an action in the [!INCLUDE[nav_windows](
   
 -   To verify that no other users are connected to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. If other users are connected, then you might debug a session other than the one you want.  
   
--   To verify that the user account that you use meets the requirements for setting breakpoints. For more information, see [Development Environment \(C\-SIDE\)](Development-Environment--C-SIDE-.md).  
+-   To verify that the user account that you use meets the requirements for setting breakpoints. For more information, see [Development Environment \(C-SIDE\)](Development-Environment--C-SIDE-.md).  
   
 ## Story  
  Isaac is a business application developer working for CRONUS International Ltd. He has determined that there is an error in his code that posts sales orders. He wants to debug the scenario of posting a sales order. Isaac is not familiar with the [!INCLUDE[navnow](includes/navnow_md.md)] Debugger and wants to try all the functionality that the debugger offers.  
   
 ## Debugging the Post Action on a Sales Order  
- Isaac starts by setting a breakpoint at the first line of code in the Sales\-Post codeunit. Next, he activates the debugger, runs the code so that it breaks at his breakpoint, and then steps through lines of code in this codeunit and other codeunits and examines variables to try to find the error.  
+ Isaac starts by setting a breakpoint at the first line of code in the Sales-Post codeunit. Next, he activates the debugger, runs the code so that it breaks at his breakpoint, and then steps through lines of code in this codeunit and other codeunits and examines variables to try to find the error.  
   
 #### To set a breakpoint in the development environment  
   
 1.  Open the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. In Object Designer, choose **Codeunit**.  
   
-2.  Select codeunit 80, Sales\-Post, and then choose **Design**.  
+2.  Select codeunit 80, Sales-Post, and then choose **Design**.  
   
 3.  In the **C/AL Editor**, select the first line in the **OnRun** trigger.  
   
@@ -108,12 +108,12 @@ This walkthrough demonstrates debugging an action in the [!INCLUDE[nav_windows](
   
 3.  In the **Debugger Variables List** window, expand **Rec**, expand **Fields**, select a field such as **Posting Date**, choose **Add Watch**, and then choose the **Close** button.  
   
-     The *Posting Date* variable is added to the **Watches** FactBox on the **View \- Debugger** window. This is especially useful if there is a long list of variables in the **Debugger Variables List** window or if you want to view the value of a field in a record variable while you step through the code. Additionally, if you want to watch how the value of a variable changes, such as if you are in a loop, then it is useful to add the variable to the **Watches** FactBox.  
+     The *Posting Date* variable is added to the **Watches** FactBox on the **View - Debugger** window. This is especially useful if there is a long list of variables in the **Debugger Variables List** window or if you want to view the value of a field in a record variable while you step through the code. Additionally, if you want to watch how the value of a variable changes, such as if you are in a loop, then it is useful to add the variable to the **Watches** FactBox.  
   
      ![Watches Part on Debugger page](media/Debugger_Watches.png "Debugger\_Watches")  
   
     > [!NOTE]  
-    >  When adding watches from the **Debugger Variables List** window, the watches do not appear in the **Watches** FactBox on the **View \- Debugger** window until you choose the **Close** button.  
+    >  When adding watches from the **Debugger Variables List** window, the watches do not appear in the **Watches** FactBox on the **View - Debugger** window until you choose the **Close** button.  
   
      In the **Debugger Variables List** window, you can also expand and view **Keys** and **Globals** on the record variable, and you can view the value of the **Filter Group** and **Filters** fields.  
   

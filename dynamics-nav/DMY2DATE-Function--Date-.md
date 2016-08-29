@@ -25,17 +25,17 @@ Date := DMY2DATE(Day [, Month] [, Year])
  *Day*  
  Type: Integer  
   
- The number of the day in the month \(1\-31\)  
+ The number of the day in the month \(1-31\)  
   
  *Month*  
  Type: Integer  
   
- The number of the month in the year \(1\-12\). If you omit this optional parameter, the current month will be used as the default.  
+ The number of the month in the year \(1-12\). If you omit this optional parameter, the current month will be used as the default.  
   
  *Year*  
  Type: Integer  
   
- The four\-digit number of the year. If you omit this optional parameter, the current year is used as the default.  
+ The four-digit number of the year. If you omit this optional parameter, the current year is used as the default.  
   
 ## Property Value/Return Value  
  Type: Date  

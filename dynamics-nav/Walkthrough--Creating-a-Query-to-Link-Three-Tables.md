@@ -63,7 +63,7 @@ GROUP BY SP.Name
   
 2.  In Object Designer, choose **Query**, and then choose the **New** button.  
   
-3.  In Query Designer, add four rows as described in the following table. Choose the drop\-down arrow to select tables and fields from the drop\-down list box.  
+3.  In Query Designer, add four rows as described in the following table. Choose the drop-down arrow to select tables and fields from the drop-down list box.  
   
     |Line No.|Type|Data Source|Name|  
     |--------------|----------|-----------------|----------|  
@@ -83,16 +83,16 @@ GROUP BY SP.Name
   
 #### To set up a totals method on the Quantity column  
   
-1.  In Query Designer, on the next line after the **Sales Line** data item, in the **Type** column, choose **Column** from the drop\-down list box.  
+1.  In Query Designer, on the next line after the **Sales Line** data item, in the **Type** column, choose **Column** from the drop-down list box.  
   
-2.  In the **Data Source** column, select **Quantity** from **Sales Line \- Field List** window, and then choose the **OK** button.  
+2.  In the **Data Source** column, select **Quantity** from **Sales Line - Field List** window, and then choose the **OK** button.  
   
-3.  In the **Method Type** column, choose **Totals** from the drop\-down list box.  
+3.  In the **Method Type** column, choose **Totals** from the drop-down list box.  
   
     > [!NOTE]  
     >  You want the query results to group by the **Name** field of the **Salesperson\/Purchaser** table. This is automatically done for you. The query groups all fields that are not totals fields. In Query Designer, grouped fields are indicated by a check mark in the **Group By** column. In this example, the only column that is grouped is the **Name** field under the **Salesperson\/Purchaser** data item.  
   
-4.  In the **Method** column, choose **Sum** from the drop\-down list box.  
+4.  In the **Method** column, choose **Sum** from the drop-down list box.  
   
  The following figure shows the Query Designer for this example.  
   
@@ -113,7 +113,7 @@ GROUP BY SP.Name
   
 1.  In Query Designer, select the **SH** data item row.  
   
-2.  On the **View** menu, choose **Properties**. The **SH \- Properties** window opens.  
+2.  On the **View** menu, choose **Properties**. The **SH - Properties** window opens.  
   
 3.  In the **Value** field of the **DataItemLink** property, choose the **AssistEdit** button.  
   
@@ -135,7 +135,7 @@ GROUP BY SP.Name
   
 10. Choose the **OK** button to close the **DataItem Link** window.  
   
-11. In the **SH Properties** window, in the **Value** field of the **DataItemLinkType** property, choose **Exclude Row If No Match** from the drop\-down list box.  
+11. In the **SH Properties** window, in the **Value** field of the **DataItemLinkType** property, choose **Exclude Row If No Match** from the drop-down list box.  
   
      The following figure shows the **SH Properties** window and Query Designer.  
   
@@ -147,7 +147,7 @@ GROUP BY SP.Name
   
 1.  In Query Designer, select the **SL** data item row.  
   
-2.  On the **View** menu, choose **Properties**. The **SL \- Properties** window opens.  
+2.  On the **View** menu, choose **Properties**. The **SL - Properties** window opens.  
   
 3.  In the **Value** field of the **DataItemLink** property, choose the **AssistEdit** button.  
   
@@ -169,7 +169,7 @@ GROUP BY SP.Name
   
 10. Choose the **OK** button to close the **DataItem Link** window.  
   
-11. In the **SL – Properties** window, in the **Value** field of the **DataItemLinkType** property, choose **Exclude Row If No Match** from the drop\-down list box.  
+11. In the **SL – Properties** window, in the **Value** field of the **DataItemLinkType** property, choose **Exclude Row If No Match** from the drop-down list box.  
   
 ## Specifying Filters  
  Viktor wants to limit the records in the dataset to include only sales lines in which the **Document Type** is **Order** and the **Type** is **Item**. To achieve this, he will set up a filter on the **Sales Line** data item of the query.  

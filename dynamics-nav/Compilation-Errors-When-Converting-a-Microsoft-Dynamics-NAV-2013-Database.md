@@ -16,13 +16,13 @@ If you converted a [!INCLUDE[nav7long](includes/nav7long_md.md)] database, then 
   
 |Object Type|Object ID|Object Name|Compilation Status|Solution|  
 |-----------------|---------------|-----------------|------------------------|--------------|  
-|Table|5540|Timeline Event|Error|Update the **Subtype** property of the variables that reference the **DataVisualization** add\-in with references to the new version of the add\-in.|  
-|Table|5541|Timeline Event Change|Error|Update the **Subtype** property of the variables that reference the **DataVisualization** add\-in with references to the new version of the add\-in.|  
+|Table|5540|Timeline Event|Error|Update the **Subtype** property of the variables that reference the **DataVisualization** add-in with references to the new version of the add-in.|  
+|Table|5541|Timeline Event Change|Error|Update the **Subtype** property of the variables that reference the **DataVisualization** add-in with references to the new version of the add-in.|  
 |Codeunit|9180|Generic Chart Mgt.|Error|Remove the code line that refers to the **Company** field. This field is obsolete.|  
 |Codeunit|9500|Debugger Management|Error|Remove the code lines that refer to the **User SID** field. This field is obsolete.|  
 |Page|692|Import Style Sheet|Error|Rename the `ObjectType` global variable to `ObjType`. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], `ObjectType` is a reserved word in C/AL.|  
 |Page|693|Program Selection|Error|Rename the `ObjectType` global variable to `ObjType`. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], `ObjectType` is a reserved word in C/AL.|  
-|Page|5540|Item Availability by Timeline|Error|Update the **Subtype** property of the variables that refer to the **DataVisualization** add\-in with references to the new version of the add\-in.|  
+|Page|5540|Item Availability by Timeline|Error|Update the **Subtype** property of the variables that refer to the **DataVisualization** add-in with references to the new version of the add-in.|  
 |Page|9170|Profile Card|Error|Remove the **Owner ID** column from the page. This field is obsolete.|  
 |Page|9171|Profile List|Error|Remove the **Owner ID** column from the page. This field is obsolete.|  
 |Page|9182|Generic Charts|Error|Remove the code line that refers to the **Company** field. Remove the **Company** column from the page. This field is obsolete.|  

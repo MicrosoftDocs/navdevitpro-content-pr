@@ -12,7 +12,7 @@ caps.latest.revision: 10
 manager: edupont
 ---
 # Microsoft Dynamics NAV Web Client
-The [!INCLUDE[nav_web](includes/nav_web_md.md)] gives users access to [!INCLUDE[navnow](includes/navnow_md.md)] data over a network, such as the Internet, by using a web browser. Users can view and modify data from a user\-friendly interface that resembles the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], where the starting point is the Role Center. The Role Center can be customized to users individual needs based on their role, company, and daily tasks.  
+The [!INCLUDE[nav_web](includes/nav_web_md.md)] gives users access to [!INCLUDE[navnow](includes/navnow_md.md)] data over a network, such as the Internet, by using a web browser. Users can view and modify data from a user-friendly interface that resembles the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], where the starting point is the Role Center. The Role Center can be customized to users individual needs based on their role, company, and daily tasks.  
   
  Unlike the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], you do not have to install any [!INCLUDE[navnow](includes/navnow_md.md)] components on devices that users will use to access [!INCLUDE[navnow](includes/navnow_md.md)] data. The [!INCLUDE[nav_web](includes/nav_web_md.md)] does not replace the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] but complements it by enabling scenarios that are not possible with the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For a visual overview of the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [Touring the RoleTailored Client for Developers](Touring-the-RoleTailored-Client-for-Developers.md).  
   

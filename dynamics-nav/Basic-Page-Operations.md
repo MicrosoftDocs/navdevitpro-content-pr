@@ -14,7 +14,7 @@ manager: edupont
 # Basic Page Operations
 When you publish a page as a SOAP web service, it has a set of default operations that are exposed to consumers of the web service.  
   
- These operations match the actions a user can perform by interacting with a page using the RoleTailored client. The same page\- and table\-based business logic is executed.  
+ These operations match the actions a user can perform by interacting with a page using the RoleTailored client. The same page- and table-based business logic is executed.  
   
  The following table lists the operations and provides links to reference pages.  
   

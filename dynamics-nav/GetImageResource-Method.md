@@ -11,7 +11,7 @@ ms.assetid: 1f2b2168-cf53-4859-98ec-99d170f05625
 caps.latest.revision: 8
 ---
 # GetImageResource Method
-Used to get the URL for an image resource specified in the control add\-in manifest. The image resource is stored in the NAV database as part of the .zip file for the control add\-in and is exposed to the control add\-in script running on the Microsoft Dynamics NAV client using the URL that this function returns.  
+Used to get the URL for an image resource specified in the control add-in manifest. The image resource is stored in the NAV database as part of the .zip file for the control add-in and is exposed to the control add-in script running on the Microsoft Dynamics NAV client using the URL that this function returns.  
   
 ## Method Signature  
  `string Microsoft.Dynamics.NAV.GetImageResource(imageName)`  
@@ -20,7 +20,7 @@ Used to get the URL for an image resource specified in the control add\-in manif
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|imageName|Type: String<br /><br /> A string that contains the name of the image resource to get a URL for. The image name is the name that is used in the control add\-in manifest to reference the image.|  
+|imageName|Type: String<br /><br /> A string that contains the name of the image resource to get a URL for. The image name is the name that is used in the control add-in manifest to reference the image.|  
   
 ## Return Value  
  Type: String  
@@ -28,7 +28,7 @@ Used to get the URL for an image resource specified in the control add\-in manif
  Returns a URL for the specified image resource.  
   
 ## Example  
- For a detailed code example, see [Walkthrough: Creating and Using a Client Control Add\-in](Walkthrough:%20Creating%20and%20Using%20a%20Client%20Control%20Add-in.md)  
+ For a detailed code example, see [Walkthrough: Creating and Using a Client Control Add-in](Walkthrough:%20Creating%20and%20Using%20a%20Client%20Control%20Add-in.md)  
   
 ```  
 var map = new VEMap('controlAddIn');  

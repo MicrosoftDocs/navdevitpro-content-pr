@@ -87,7 +87,7 @@ This walkthrough illustrates how you can publish a [!INCLUDE[navnow](includes/na
   
 3.  Choose the **OK** button to exit the **New Project** page.  
   
-4.  In the Solution Explorer pane, right\-click **References**, and then choose **Add Service Reference**.  
+4.  In the Solution Explorer pane, right-click **References**, and then choose **Add Service Reference**.  
   
 5.  In the **Address** field, enter the URI for your OData web service, such as **http:\/\/localhost:7048\/DynamicsNAV\/OData\/**.  
   

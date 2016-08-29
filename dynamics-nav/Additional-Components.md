@@ -19,7 +19,7 @@ The components listed in this section extend the capabilities [!INCLUDE[navnowlo
   
 -   [Automated Data Capture System](Automated-Data-Capture-System.md)  
   
--   [Microsoft Office Outlook Add\-In](Microsoft-Office-Outlook-Add-In.md)  
+-   [Microsoft Office Outlook Add-In](Microsoft-Office-Outlook-Add-In.md)  
   
 -   [Microsoft Dynamics NAV Web Client](Microsoft-Dynamics-NAV-Web-Client.md)  
   

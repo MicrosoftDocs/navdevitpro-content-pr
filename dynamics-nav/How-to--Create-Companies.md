@@ -12,7 +12,7 @@ caps.latest.revision: 11
 manager: edupont
 ---
 # How to: Create Companies
-You can create as many companies as you want in a database. You can create companies in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and the [!INCLUDE[nav_web](includes/nav_web_md.md)]. You can also create companies by using the **New\-NAVCompany** Windows PowerShell cmdlet.  
+You can create as many companies as you want in a database. You can create companies in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and the [!INCLUDE[nav_web](includes/nav_web_md.md)]. You can also create companies by using the **New-NAVCompany** Windows PowerShell cmdlet.  
   
 > [!IMPORTANT]  
 >  If the company name starts with CRONUS \(in uppercase letters\) and you use a [!INCLUDE[demolonglight](includes/demolonglight_md.md)] license, the company automatically becomes a demonstration company with all the restrictions that are set in the [!INCLUDE[demolonglight](includes/demolonglight_md.md)]. For example, in [!INCLUDE[demo](includes/demo_md.md)] you can only post between November and February.  
@@ -29,7 +29,7 @@ You can create as many companies as you want in a database. You can create compa
   
     1.  To create a new company, choose an empty row, and then, in the **Company Name** field, enter the name of the new company.  
   
-         The company name can have a maximum of 30 characters. If the database collation is case\-sensitive, you can have one company called COMPANY and another called Company. However, if the database is case\-insensitive, you cannot create companies with names that differ only by case.  
+         The company name can have a maximum of 30 characters. If the database collation is case-sensitive, you can have one company called COMPANY and another called Company. However, if the database is case-insensitive, you cannot create companies with names that differ only by case.  
   
     2.  To create a copy of an existing company, choose a company, and then, on the **Home** tab, in the **New** group, choose **Copy**.  
   

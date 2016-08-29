@@ -14,7 +14,7 @@ manager: edupont
 # How to: Use Option Strings in Multilanguage Implementations
 In a client report definition \(RDLC\) report layout, an option variable is handled as a normal string, not an option string. If you have a multilanguage application, handling the option as a normal string will cause problems in the displayed report. You must manually convert the option string to an integer variable and then use the integer variable in the RDLC report layout.  
   
- An example of a report with an option variable that is converted to an integer variable is report 111, Customer \- Top 10 List. The request page has an option variable, ShowType, that allows the user to choose to display either Sales \(LCY\) or Balance \(LCY\) in the report. The value of the ShowType variable is assigned to an integer variable, ShowTypeNo, in the **OnAfterGetRecord** trigger.  
+ An example of a report with an option variable that is converted to an integer variable is report 111, Customer - Top 10 List. The request page has an option variable, ShowType, that allows the user to choose to display either Sales \(LCY\) or Balance \(LCY\) in the report. The value of the ShowType variable is assigned to an integer variable, ShowTypeNo, in the **OnAfterGetRecord** trigger.  
   
 ### To assign the option string to an integer variable  
   

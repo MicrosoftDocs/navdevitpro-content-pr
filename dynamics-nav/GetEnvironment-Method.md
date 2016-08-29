@@ -12,7 +12,7 @@ caps.latest.revision: 6
 manager: edupont
 ---
 # GetEnvironment Method
-Gets information about the environment that the control add\-in is using.  
+Gets information about the environment that the control add-in is using.  
   
 ## Method Signature  
  `object Microsoft.Dynamics.NAV.GetEnvironment()`  
@@ -24,10 +24,10 @@ Gets information about the environment that the control add\-in is using.
 |------------|-----------------|  
 |UserName|Type: String<br /><br /> The name of the user that is logged into the [!INCLUDE[nav_server](includes/nav_server_md.md)].|  
 |CompanyName|Type: String<br /><br /> The name of the company that the current user is using on the [!INCLUDE[nav_server](includes/nav_server_md.md)].|  
-|DeviceCategory|Type: Integer<br /><br /> An integer indicating the type of device that the control add\-in is being rendered on. Possible values:<br /><br /> 0 – Desktop client, either [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)].<br /><br /> 1 – [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)].<br /><br /> 2 – [!INCLUDE[nav_phone](includes/nav_phone_md.md)].|  
+|DeviceCategory|Type: Integer<br /><br /> An integer indicating the type of device that the control add-in is being rendered on. Possible values:<br /><br /> 0 – Desktop client, either [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)].<br /><br /> 1 – [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)].<br /><br /> 2 – [!INCLUDE[nav_phone](includes/nav_phone_md.md)].|  
 |Busy|Type: Boolean<br /><br /> A boolean indicating whether the client is currently busy. The client could, for example, be busy performing an asynchronous call to the server.|  
 |OnBusyChanged|Type: Function<br /><br /> A function that is called when the **Busy** state of the client has changed.<br /><br /> **Function Syntax**<br /><br /> The syntax of the function is the following:<br /><br /> `function callback()`|  
-|Platform|Type: Integer<br /><br /> An integer indicating the underlying platform that the control add\-in is being rendered on. Possible values:<br /><br /> 0 – [!INCLUDE[nav_windows](includes/nav_windows_md.md)].<br /><br /> 1 – [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)], or [!INCLUDE[nav_phone](includes/nav_phone_md.md)] in a browser.<br /><br /> 2 – [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)].|  
+|Platform|Type: Integer<br /><br /> An integer indicating the underlying platform that the control add-in is being rendered on. Possible values:<br /><br /> 0 – [!INCLUDE[nav_windows](includes/nav_windows_md.md)].<br /><br /> 1 – [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)], or [!INCLUDE[nav_phone](includes/nav_phone_md.md)] in a browser.<br /><br /> 2 – [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)].|  
   
 ## Example  
  This code example illustrates how you can assign members of the object return type to variables and use the **Busy** member to determine whether the client is busy or not.  
@@ -51,7 +51,7 @@ environment.OnBusyChanged = function()
 ```  
   
 ## See Also  
- [Extending Any Microsoft Dynamics NAV Client Using Control Add\-ins](Extending-Any-Microsoft-Dynamics-NAV-Client-Using-Control-Add-ins.md)   
+ [Extending Any Microsoft Dynamics NAV Client Using Control Add-ins](Extending-Any-Microsoft-Dynamics-NAV-Client-Using-Control-Add-ins.md)   
  [InvokeExtensibilityMethod Method](InvokeExtensibilityMethod-Method.md)   
  [GetImageResource Method](GetImageResource-Method.md)   
  [Asynchronous Considerations](Asynchronous-Considerations.md)

@@ -59,7 +59,7 @@ OnAfterTestRun(CodeunitID : Integer;CodeunitName : Text[30];FunctionName : Text[
 > [!NOTE]  
 >  To return the error message for a failed test function run, use the [GETLASTERRORTEXT Function](GETLASTERRORTEXT-Function.md).  
   
- You can use the **OnAfterTestRun** trigger to perform post\-processing, such as logging, or to automate tests by integrating the test runner codeunit with a test management framework.  
+ You can use the **OnAfterTestRun** trigger to perform post-processing, such as logging, or to automate tests by integrating the test runner codeunit with a test management framework.  
   
  The **OnAfterTestRun** trigger is run in its own database transaction.  
   

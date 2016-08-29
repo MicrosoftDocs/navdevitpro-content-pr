@@ -36,7 +36,7 @@ Because the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance events ar
   
      Unless you are administering a remote computer, this is Microsoft Dynamics NAV \(local\).  
   
-7.  In the center pane, right\-click an instance, and then choose **Restart**.  
+7.  In the center pane, right-click an instance, and then choose **Restart**.  
   
 ### To disable logging to the Windows Application log by modifying the CustomSettings.config file  
   

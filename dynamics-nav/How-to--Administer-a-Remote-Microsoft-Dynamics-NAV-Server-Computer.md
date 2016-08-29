@@ -21,7 +21,7 @@ You can use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] to connect to ot
   
 1.  Verify that the administrator who will be connecting to the remote computer is a member of that computer’s Administrators group.  
   
-2.  On the remote computer, open a Windows PowerShell command prompt with administrative credentials. Choose **Start**, choose **Accessories**, right\-click **Windows PowerShell**, and then choose **Run as administrator**.  
+2.  On the remote computer, open a Windows PowerShell command prompt with administrative credentials. Choose **Start**, choose **Accessories**, right-click **Windows PowerShell**, and then choose **Run as administrator**.  
   
      Windows PowerShell is included in Windows 7, Windows 8, Windows Server 2008 R2 and Windows Server 2012, and can be installed on other Windows operating systems. For more information, see [Windows PowerShell](http://go.microsoft.com/fwlink/?LinkId=211847) in the TechNet Library.  
   

@@ -25,19 +25,19 @@ You can change the database property settings that you selected when you created
   
      The **Alter Database** window contains the following tabs:  
   
-    -   [Altering Databases \- General Tab](Altering-Databases---General-Tab.md)  
+    -   [Altering Databases - General Tab](Altering-Databases---General-Tab.md)  
   
-    -   [Altering Databases \- Database Files Tab](Altering-Databases---Database-Files-Tab.md)  
+    -   [Altering Databases - Database Files Tab](Altering-Databases---Database-Files-Tab.md)  
   
-    -   [Altering Databases \- Transaction Log Files Tab](Altering-Databases---Transaction-Log-Files-Tab.md)  
+    -   [Altering Databases - Transaction Log Files Tab](Altering-Databases---Transaction-Log-Files-Tab.md)  
   
-    -   [Altering Databases \- Collation Tab](Altering-Databases---Collation-Tab.md)  
+    -   [Altering Databases - Collation Tab](Altering-Databases---Collation-Tab.md)  
   
-    -   [Altering Databases \- Options Tab](Altering-Databases---Options-Tab.md)  
+    -   [Altering Databases - Options Tab](Altering-Databases---Options-Tab.md)  
   
-    -   [Altering Databases \- Integration Tab](Altering-Databases---Integration-Tab.md)  
+    -   [Altering Databases - Integration Tab](Altering-Databases---Integration-Tab.md)  
   
-    -   [Altering Databases \- Advanced Tab](Altering-Databases---Advanced-Tab.md)  
+    -   [Altering Databases - Advanced Tab](Altering-Databases---Advanced-Tab.md)  
   
 2.  Restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
   
@@ -52,22 +52,22 @@ You can change the database property settings that you selected when you created
   
      Make sure that the service account of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that will connect to the database has proper permission to the database. The service account must be a member of the db\_owner role of the database. For more information see [Provisioning the Microsoft Dynamics NAV Server Account](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md).  
   
-2.  To export the data from the old database to the new database, open the [!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell, and run the Export\-NAVData cmdlet as shown in the following example.  
+2.  To export the data from the old database to the new database, open the [!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell, and run the Export-NAVData cmdlet as shown in the following example.  
   
     ```  
     Export-NAVData -DatabaseServer DatabaseServerName -DatabaseName OldDatabaseName -IncludeApplication -IncludeApplicationData -IncludeGlobalData -AllCompanies -FilePath c:\Files\MyNavDB.navdata  
     ```  
   
-     For more information, see [Export\-NAVData cmdlet](http://go.microsoft.com/fwlink/?LinkID=401400).  
+     For more information, see [Export-NAVData cmdlet](http://go.microsoft.com/fwlink/?LinkID=401400).  
   
-3.  To import the data from the old database to the new database, run the Import\-NAVData cmdlet as shown in the following example.  
+3.  To import the data from the old database to the new database, run the Import-NAVData cmdlet as shown in the following example.  
   
     ```  
     Import-NAVData -DatabaseServer DatabaseServerName -DatabaseName NewDatabaseName -IncludeApplication -IncludeApplicationData -IncludeGlobalData -AllCompanies -FilePath c:\Files\MyNavDB.navdata  
   
     ```  
   
-     For more information, see [Import\-NAVData cmdlet](http://go.microsoft.com/fwlink/?LinkID=401402)  
+     For more information, see [Import-NAVData cmdlet](http://go.microsoft.com/fwlink/?LinkID=401402)  
   
 4.  Connect the new database to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
   
@@ -77,7 +77,7 @@ You can change the database property settings that you selected when you created
   
     -   From the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Sync. Schema For All Tables**, and then choose **With Validation** and follow the schema synchronization instructions.  
   
-    -   From the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], open the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] as an administrator, and then run the [Sync\-NavTenant cmdlet](http://go.microsoft.com/fwlink/?LinkID=401399). For more information, see [How to: Run the Sync\-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database](How%20to:%20Run%20the%20Sync-NAVTenant%20Cmdlet%20to%20Synchronize%20the%20Tenant%20Database%20with%20the%20Application%20Database.md).  
+    -   From the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], open the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] as an administrator, and then run the [Sync-NavTenant cmdlet](http://go.microsoft.com/fwlink/?LinkID=401399). For more information, see [How to: Run the Sync-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database](How%20to:%20Run%20the%20Sync-NAVTenant%20Cmdlet%20to%20Synchronize%20the%20Tenant%20Database%20with%20the%20Application%20Database.md).  
   
 6.  Restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
   

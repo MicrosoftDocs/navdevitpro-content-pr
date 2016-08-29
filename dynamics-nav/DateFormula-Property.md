@@ -27,10 +27,10 @@ Sets a date formula used to verify that the date the user enters is correct.
 |------------|---------------------------------------|  
 |**30D**|30 days|  
 |**2W**|2 weeks|  
-|**CM\+10D**|Current month plus 10 days|  
-|**CM\+1M**|Current month plus one month|  
-|**CQ\+1M\+20D**|Current quarter plus one month plus 20 days|  
-|**CW\+1W**|Current week plus one week|  
+|**CM+10D**|Current month plus 10 days|  
+|**CM+1M**|Current month plus one month|  
+|**CQ+1M+20D**|Current quarter plus one month plus 20 days|  
+|**CW+1W**|Current week plus one week|  
 |**D15**|On the 15th of each month|  
   
  In [!INCLUDE[navnow](includes/navnow_md.md)], weeks begin on Monday and end on Sunday.  

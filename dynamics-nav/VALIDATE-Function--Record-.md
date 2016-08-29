@@ -47,7 +47,7 @@ Record.VALIDATE(Field [, NewValue])
   
  When you enter an account number in a ledger, some table trigger code is executed to transfer the name of the account from the chart of accounts.  
   
- If you enter an account number in a batch job, then the code which transfers the name of the account is not automatically executed. The following code specifies that the appropriate field\-level trigger code must be executed.  
+ If you enter an account number in a batch job, then the code which transfers the name of the account is not automatically executed. The following code specifies that the appropriate field-level trigger code must be executed.  
   
  This example requires that you create the following variable.  
   

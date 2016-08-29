@@ -59,14 +59,14 @@ To open the [!INCLUDE[nav_web](includes/nav_web_md.md)], Internet Explorer must 
   
 5.  On the **Advanced Privacy Settings** window, select **Override automatic cookie handling**.  
   
-6.  Under **First\-party Cookies**, choose **Accept**.  
+6.  Under **First-party Cookies**, choose **Accept**.  
   
      This saves cookies from [!INCLUDE[nav_web](includes/nav_web_md.md)] on your computer.  
   
-7.  Under **Third\-party Cookies**, choose one of the options. The [!INCLUDE[nav_web](includes/nav_web_md.md)] will operate correctly even if you choose **Block**. You should select the option that meets your security requirements.  
+7.  Under **Third-party Cookies**, choose one of the options. The [!INCLUDE[nav_web](includes/nav_web_md.md)] will operate correctly even if you choose **Block**. You should select the option that meets your security requirements.  
   
     > [!NOTE]  
-    >  Third\-party cookies are cookies from websites other than [!INCLUDE[nav_web](includes/nav_web_md.md)] sites.  
+    >  Third-party cookies are cookies from websites other than [!INCLUDE[nav_web](includes/nav_web_md.md)] sites.  
   
 8.  Choose the **OK** button.  
   

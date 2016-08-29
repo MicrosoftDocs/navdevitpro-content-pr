@@ -28,7 +28,7 @@ The database management system, which is SQL Server, keeps track of each field b
   
  When you define a secondary key and mark it as active, an index is automatically maintained and reflects the sorting order that is defined by the key. Several secondary keys can be active at the same time.  
   
- A secondary key can be changed into an inactive key, which does not occupy database space, and does not use time during updates to maintain its index. Inactive keys can be reactivated, although this can be time\-consuming because SQL Server must scan the whole table to rebuild the index.  
+ A secondary key can be changed into an inactive key, which does not occupy database space, and does not use time during updates to maintain its index. Inactive keys can be reactivated, although this can be time-consuming because SQL Server must scan the whole table to rebuild the index.  
   
  The fields that make up the secondary keys do not always contain unique data, and SQL Server does not reject records with duplicate data in secondary key fields. If two or more records contain identical information in the secondary key, then SQL Server uses the primary key for the table to resolve this conflict.  
   

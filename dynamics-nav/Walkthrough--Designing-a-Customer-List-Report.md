@@ -139,13 +139,13 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], creating new reports is di
   
 4.  Select the first text box, open the shortcut menu, and then choose **Expression** to open the **Expression Properties** window.  
   
-5.  Under **Category**, choose **Built\-in Fields**, double\-click **ExecutionTime**, and then choose the **OK** button.  
+5.  Under **Category**, choose **Built-in Fields**, double-click **ExecutionTime**, and then choose the **OK** button.  
   
      This expression displays the time the report was executed.  
   
 6.  Select the second text box, open the shortcut menu, and then choose **Expression** to open the **Expression Properties** window.  
   
-7.  Under **Category**, choose **Built\-in Fields**, double\-click **UserID**, and then choose the **OK** button.  
+7.  Under **Category**, choose **Built-in Fields**, double-click **UserID**, and then choose the **OK** button.  
   
      This expression displays the user ID of the user who runs the report.  
   

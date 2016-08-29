@@ -124,21 +124,21 @@ In this walkthrough, you will learn how to add a new item to an **Action** tab a
   
      The default value for this property is **Edit**. By setting this property to a value of **Create**, a sales order page will open in create mode, enabling the end user to create a new sales order.  
   
-3.  Set the **RunPageLink** property value to **Sell\-to Customer No.=FIELD\(No.\)** using the following steps:  
+3.  Set the **RunPageLink** property value to **Sell-to Customer No.=FIELD\(No.\)** using the following steps:  
   
-    1.  In the **RunPageLink** property value, choose the Assist\-Edit button \(ellipsis\).  
+    1.  In the **RunPageLink** property value, choose the Assist-Edit button \(ellipsis\).  
   
          The **Table Filter** window appears.  
   
-    2.  In the **Field** cell, choose the AssistButton button, choose **Sell\-to Customer No.**, and then choose **OK**.  
+    2.  In the **Field** cell, choose the AssistButton button, choose **Sell-to Customer No.**, and then choose **OK**.  
   
-    3.  In the **Type** cell, choose the drop\-down list box and then select **FIELD**.  
+    3.  In the **Type** cell, choose the drop-down list box and then select **FIELD**.  
   
     4.  In the **Value** cell, choose the AssistButton button, thenselect **No.**, and then choose **OK**.  
   
     5.  Choose the **OK** button.  
   
-         The customer number in the customer list is now linked to the Sell\-to Customer number in the sales order. This means that when the Sales Order action is chosen, a new sales order will be created for the customer that is currently selected in the customer list.  
+         The customer number in the customer list is now linked to the Sell-to Customer number in the sales order. This means that when the Sales Order action is chosen, a new sales order will be created for the customer that is currently selected in the customer list.  
   
 4.  Save the page.  
   

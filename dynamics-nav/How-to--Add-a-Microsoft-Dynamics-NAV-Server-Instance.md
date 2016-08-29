@@ -11,7 +11,7 @@ ms.assetid: 41737923-616d-416d-b215-d4a6ac75746f
 caps.latest.revision: 11
 ---
 # How to: Add a Microsoft Dynamics NAV Server Instance
-This topic describes how to add a new [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to an existing [!INCLUDE[nav_server](includes/nav_server_md.md)] installation. To add a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, you use the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New\-NAVServerInstance](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVServerInstance) cmdlet of the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
+This topic describes how to add a new [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to an existing [!INCLUDE[nav_server](includes/nav_server_md.md)] installation. To add a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, you use the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVServerInstance](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVServerInstance) cmdlet of the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
   
  You specify the name for the instance, the [!INCLUDE[navnow](includes/navnow_md.md)] database to connect to, and the TCP ports for the following services:  
   
@@ -36,7 +36,7 @@ This topic describes how to add a new [!INCLUDE[nav_server](includes/nav_server_
   
     1.  Choose **Start**, in the **Search** box, type **[!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell**.  
   
-    2.  Right\-click the related link, and then choose **Run as Administrator**.  
+    2.  Right-click the related link, and then choose **Run as Administrator**.  
   
 2.  At the command prompt, type the following command:  
   
@@ -56,7 +56,7 @@ This topic describes how to add a new [!INCLUDE[nav_server](includes/nav_server_
     |*\<DatabaseServer\>*|Specifies the name of the [!INCLUDE[navnow](includes/navnow_md.md)] database in SQL Server. The name has the *domain\\computername* format.<br /><br /> If you are connecting to the same database as the existing [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, then you can omit this parameter and value.|  
   
     > [!NOTE]  
-    >  The command that is shown includes only a subset of the parameters of New\-NAVServerInstance cmdlet. For more information about the syntax and parameters, see [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New\-NAVServerInstance](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVServerInstance) topic in the Administration Cmdlets for [!INCLUDE[navnow](includes/navnow_md.md)] section of the Technical Reference.  
+    >  The command that is shown includes only a subset of the parameters of New-NAVServerInstance cmdlet. For more information about the syntax and parameters, see [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVServerInstance](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVServerInstance) topic in the Administration Cmdlets for [!INCLUDE[navnow](includes/navnow_md.md)] section of the Technical Reference.  
   
 3.  Press Enter to run the cmdlet.  
   

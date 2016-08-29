@@ -13,7 +13,7 @@ caps.latest.revision: 3
 # How to: Compare and Update Application Object Source Files
 You can use [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets to compare different sets of [!INCLUDE[navnow](includes/navnow_md.md)] application objects to identify the differences. Then, you can choose to apply all or some of the differences to a target solution.  
   
- We recommend that you use the [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Merge\-NAVApplicationObject](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Merge-NAVApplicationObject) cmdlet because it is the faster and easier way to merge objects. However, you can choose to use the [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Compare\-NAVApplicationObject](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Compare-NAVApplicationObject) cmdlet and [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Update\-NAVApplicationObject](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Update-NAVApplicationObject) cmdlet to identify the differences before you apply them. Or, for example, when you want to apply the same modifications to multiple applications or similar. The following procedures illustrate how you can use these two cmdlets in combination  
+ We recommend that you use the [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Merge-NAVApplicationObject](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Merge-NAVApplicationObject) cmdlet because it is the faster and easier way to merge objects. However, you can choose to use the [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Compare-NAVApplicationObject](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Compare-NAVApplicationObject) cmdlet and [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Update-NAVApplicationObject](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Update-NAVApplicationObject) cmdlet to identify the differences before you apply them. Or, for example, when you want to apply the same modifications to multiple applications or similar. The following procedures illustrate how you can use these two cmdlets in combination  
   
  The scenario is based on the following three versions of the [!INCLUDE[navnow](includes/navnow_md.md)] application:  
   
@@ -23,7 +23,7 @@ You can use [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets to compare different
 |MODIFIED|The updated version of [!INCLUDE[navnow](includes/navnow_md.md)], such as Cumulative Update 1.|  
 |TARGET|Your solution that is based on [!INCLUDE[navnow](includes/navnow_md.md)], such as **MySolution**.|  
   
- The steps in the following procedures compare the ORIGINAL version to the MODIFIED solution and apply the relevant changes to your TARGET solution. As a result, you have an application that contains your solution with the updates from the MODIFIED application. Alternatively, the MODIFIED solution can be your solution and the TARGET solution can be the new release from Microsoft. The actual versions that you use to set each cmdlet parameter depend on your concrete scenario. However, we recommend that MODIFIED contains the solution with the fewest changes compared to ORIGINAL. The [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Compare\-NAVApplicationObject](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Compare-NAVApplicationObject) cmdlet compares two sets of application objects and stores the differences in DELTA files in the specified folder.  
+ The steps in the following procedures compare the ORIGINAL version to the MODIFIED solution and apply the relevant changes to your TARGET solution. As a result, you have an application that contains your solution with the updates from the MODIFIED application. Alternatively, the MODIFIED solution can be your solution and the TARGET solution can be the new release from Microsoft. The actual versions that you use to set each cmdlet parameter depend on your concrete scenario. However, we recommend that MODIFIED contains the solution with the fewest changes compared to ORIGINAL. The [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Compare-NAVApplicationObject](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Compare-NAVApplicationObject) cmdlet compares two sets of application objects and stores the differences in DELTA files in the specified folder.  
   
  The following procedure assumes that you have exported the relevant application objects to text files. For an example of how to do that, see the **To prepare the application object files** section in the [How to: Merge Application Changes](How%20to:%20Merge%20Application%20Changes.md) topic.  
   
@@ -72,7 +72,7 @@ You can use [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets to compare different
   
     ```  
   
- You can apply those differences to TARGET by using the [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Update\-NAVApplicationObject](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Update-NAVApplicationObject) cmdlet.  
+ You can apply those differences to TARGET by using the [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Update-NAVApplicationObject](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Update-NAVApplicationObject) cmdlet.  
   
 ### To apply DELTA files to application objects  
   

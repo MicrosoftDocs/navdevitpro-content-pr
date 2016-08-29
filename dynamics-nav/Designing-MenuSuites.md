@@ -38,18 +38,18 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can create MenuSuites 
   
 |MenuSuite Design Level|Description|  
 |----------------------------|-----------------|  
-|Dept \- MBS|The base design level that is provided in [!INCLUDE[navnow](includes/navnow_md.md)]. Any MenuSuite you create inherits from this base design level or a design level that inherited from this base design level.|  
-|Dept \- Region|The design level that is used for region specific MenuSuites. This level is typically used for localization. Only one region specific design level MenuSuite can be created in a given application.|  
-|Dept \- Country|The design level that is used for country specific MenuSuite. This level is typically used for localization and other items such as taxes that are country specific. Only one country specific design level MenuSuite can be created in a given application.|  
-|Dept \- Add\-on|The design level that a developer or [!INCLUDE[navnow](includes/navnow_md.md)] partner can use for customization. Up to ten Add\-on design level MenuSuites can be created in a given application.|  
-|Dept \- Partner|The design level that [!INCLUDE[navnow](includes/navnow_md.md)] partners use to customize MenuSuites. Only one partner design level MenuSuite can be created in a given application.|  
-|Dept \- Company|The design level that is used to design for a specific company. Only one company specific design level MenuSuite can be created in a given application.|  
+|Dept - MBS|The base design level that is provided in [!INCLUDE[navnow](includes/navnow_md.md)]. Any MenuSuite you create inherits from this base design level or a design level that inherited from this base design level.|  
+|Dept - Region|The design level that is used for region specific MenuSuites. This level is typically used for localization. Only one region specific design level MenuSuite can be created in a given application.|  
+|Dept - Country|The design level that is used for country specific MenuSuite. This level is typically used for localization and other items such as taxes that are country specific. Only one country specific design level MenuSuite can be created in a given application.|  
+|Dept - Add-on|The design level that a developer or [!INCLUDE[navnow](includes/navnow_md.md)] partner can use for customization. Up to ten Add-on design level MenuSuites can be created in a given application.|  
+|Dept - Partner|The design level that [!INCLUDE[navnow](includes/navnow_md.md)] partners use to customize MenuSuites. Only one partner design level MenuSuite can be created in a given application.|  
+|Dept - Company|The design level that is used to design for a specific company. Only one company specific design level MenuSuite can be created in a given application.|  
   
  The following illustration shows the design permission levels that are available in [!INCLUDE[navnow](includes/navnow_md.md)].  
   
  ![Microsoft Dynamics NAV MenuSuite Design Level](media/MicrosoftDynamicsNAVMenuSuiteDesignLevel.png "MicrosoftDynamicsNAVMenuSuiteDesignLevel")  
   
- When you create a MenuSuite, it inherits from the design level that is above the level you selected. The most basic design level is the Dept \- MBS level and the highest design level is the Dept \- Company level. Only one MenuSuite can be created for each level in an application except the Add\-on level, which can have a maximum of ten instances of MenuSuites.  
+ When you create a MenuSuite, it inherits from the design level that is above the level you selected. The most basic design level is the Dept - MBS level and the highest design level is the Dept - Company level. Only one MenuSuite can be created for each level in an application except the Add-on level, which can have a maximum of ten instances of MenuSuites.  
   
  At design time, the header area of Navigation Pane Designer displays the design level of the MenuSuite you are working with.  
   
@@ -58,14 +58,14 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can create MenuSuites 
   
 |MenuSuite ID|MenuSuite name|  
 |------------------|--------------------|  
-|1010|Dept \- MBS|  
-|1020|Dept \- Region|  
-|1030|Dept \- Country|  
-|1051...1070|Dept.\- Add\-on 1….Dept. \- Add\-on 20|  
-|1080|Dept \- Partner|  
-|1090|Dept \- Company|  
+|1010|Dept - MBS|  
+|1020|Dept - Region|  
+|1030|Dept - Country|  
+|1051...1070|Dept.- Add-on 1….Dept. - Add-on 20|  
+|1080|Dept - Partner|  
+|1090|Dept - Company|  
   
- Every new MenuSuite that you create is designed at one of the design levels and run on the Department page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. As such, the full names of the menus are prefixed with “Dept.”, followed by the design level, and then followed by the name of the menu. For example, if you create a new MenuSuite at the Partner level and you create a menu for a department that is named **My New Department**, the full name of the menu will be **Dept\-Partner: My New Department**. This name is displayed in the header of the Navigation Pane Designer. The following screenshot shows the Navigation Pane Designer header section and group of menu items.  
+ Every new MenuSuite that you create is designed at one of the design levels and run on the Department page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. As such, the full names of the menus are prefixed with “Dept.”, followed by the design level, and then followed by the name of the menu. For example, if you create a new MenuSuite at the Partner level and you create a menu for a department that is named **My New Department**, the full name of the menu will be **Dept-Partner: My New Department**. This name is displayed in the header of the Navigation Pane Designer. The following screenshot shows the Navigation Pane Designer header section and group of menu items.  
   
  ![Navigation Pane Designer Header](media/MicrosoftDynamicsNAVMenuSuiteNavDesignerHeader.jpg "MicrosoftDynamicsNAVMenuSuiteNavDesignerHeader")  
   
@@ -88,9 +88,9 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can create MenuSuites 
  For information about how to create a MenuSuite, see [Walkthrough: Creating MenuSuites for the Microsoft Dynamics NAV Windows Client](Walkthrough:%20Creating%20MenuSuites%20for%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client.md). For information about how to modify a MenuSuite, see [How to: Modify Menu Items in a MenuSuite](How%20to:%20Modify%20Menu%20Items%20in%20a%20MenuSuite.md).  
   
 ## Inheriting MenuSuite Content  
- When you create a new MenuSuite, it inherits all its content from the 1010 Dept – MBS, the base MenuSuite that is provided in [!INCLUDE[navnow](includes/navnow_md.md)]. For example, when you create a MenuSuite and you select the Region design permission level, the MenuSuite that you created at the Region level inherits from 1010 Dept \- MBS. The 1020 Dept – Region MenuSuite then becomes the highest design level MenuSuite in Object Designer. If you create another MenuSuite, it inherits from the 1020 Dept – Region MenuSuite and so on.  
+ When you create a new MenuSuite, it inherits all its content from the 1010 Dept – MBS, the base MenuSuite that is provided in [!INCLUDE[navnow](includes/navnow_md.md)]. For example, when you create a MenuSuite and you select the Region design permission level, the MenuSuite that you created at the Region level inherits from 1010 Dept - MBS. The 1020 Dept – Region MenuSuite then becomes the highest design level MenuSuite in Object Designer. If you create another MenuSuite, it inherits from the 1020 Dept – Region MenuSuite and so on.  
   
- A MenuSuite cannot inherit from a MenuSuite that is created at a lower design level. For example, if you create a MenuSuite at the Dept \- Partner level and then you create a second MenuSuite at the Dept – Country level, although the Partner level MenuSuite was created first, the Dept \- Country level MenuSuite cannot inherit from the Partner level MenuSuite because the Dept – Partner is at a higher level than the Dept \- Country level MenuSuite. Instead, the Dept \- Country level object will inherit from the Dept \- Region level. If a MenuSuite has not been created at the Region level, it will inherit from the Dept \- MBS level MenuSuite.  
+ A MenuSuite cannot inherit from a MenuSuite that is created at a lower design level. For example, if you create a MenuSuite at the Dept - Partner level and then you create a second MenuSuite at the Dept – Country level, although the Partner level MenuSuite was created first, the Dept - Country level MenuSuite cannot inherit from the Partner level MenuSuite because the Dept – Partner is at a higher level than the Dept - Country level MenuSuite. Instead, the Dept - Country level object will inherit from the Dept - Region level. If a MenuSuite has not been created at the Region level, it will inherit from the Dept - MBS level MenuSuite.  
   
  Changes that you make in the new MenuSuite are merged into the inherited MenuSuite and saved as the difference between the new and the original MenuSuites. For example, if you make a change in the Dept – MBS MenuSuite, the change is also made in the Dept – Region MenuSuite. If you import the inherited MenuSuite to a text file, the file will contain only the difference between the two MenuSuites.  
   

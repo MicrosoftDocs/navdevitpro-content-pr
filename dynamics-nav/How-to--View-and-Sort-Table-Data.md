@@ -31,9 +31,9 @@ Usually, you use a page to view the data in a table, but you can also view the d
   
 2.  Choose **Run** to open the table in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
-3.  In the drop\-down list next to **Sorting**, select the key by which you want to sort. By default, the current key is selected.  
+3.  In the drop-down list next to **Sorting**, select the key by which you want to sort. By default, the current key is selected.  
   
 4.  Choose the sort order arrow and select **Sort ascending** or **Sort descending** to select a sort order.  
   
 ## See Also  
- [Tables\-duplicate 20](Tables-duplicate-20.md)
+ [Tables-duplicate 20](Tables-duplicate-20.md)

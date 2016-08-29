@@ -67,7 +67,7 @@ Carefully planning the details of your database application will help to ensure 
   
 -   [Designing Application Objects](Designing-Application-Objects.md)  
   
--   [Programming in C\-AL](Programming-in-C-AL.md)  
+-   [Programming in C-AL](Programming-in-C-AL.md)  
   
 -   [Objects](Objects.md)  
   

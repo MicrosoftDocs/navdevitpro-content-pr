@@ -34,19 +34,19 @@ Opens an ASCII or binary file. This function does not create the file if it does
  *TextEncoding*  
  Value: **MsDos**, **UTF8**, **UTF16**, or **Windows**  
   
- Optionally, you can specify the encoding on the file. By specifying the text encoding, you ensure that all the language\-specific characters are represented correctly in [!INCLUDE[navnow](includes/navnow_md.md)] when you read data and write data.  
+ Optionally, you can specify the encoding on the file. By specifying the text encoding, you ensure that all the language-specific characters are represented correctly in [!INCLUDE[navnow](includes/navnow_md.md)] when you read data and write data.  
   
  For more information, see [Text Encoding](Text-Encoding.md).  
   
 ## Property Value/Return Value  
  Type: Boolean  
   
- Specifies whether the file was opened. If you omit this optional return value and if the file cannot be found, then a run\-time error occurs.  
+ Specifies whether the file was opened. If you omit this optional return value and if the file cannot be found, then a run-time error occurs.  
   
  **true** if the file was opened; otherwise, **false**.  
   
 ## Remarks  
- If you call OPEN on a file variable that refers to an open file, then the function does not automatically close the existing file and open the new file. You must explicitly call the [CLOSE Function \(File\)](CLOSE-Function--File-.md) to close the existing file. If you call OPEN on a file that is already open, then a run\-time error occurs.  
+ If you call OPEN on a file variable that refers to an open file, then the function does not automatically close the existing file and open the new file. You must explicitly call the [CLOSE Function \(File\)](CLOSE-Function--File-.md) to close the existing file. If you call OPEN on a file that is already open, then a run-time error occurs.  
   
 ## Example  
  This example shows how to open an .xml file for reading in text mode. To use this example, you must create the simple.xml file at C:\\temp and create the following variable.  

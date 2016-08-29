@@ -38,7 +38,7 @@ You can create and open a test page in the following ways:
   
     1.  In the **Name** column, enter a name for the test page variable.  
   
-    2.  In the **DataType** column, select **TestPage** from the drop\-down list.  
+    2.  In the **DataType** column, select **TestPage** from the drop-down list.  
   
     3.  In the **Subtype** column, select the page that you want to test with the test page variable.  
   
@@ -51,7 +51,7 @@ You can create and open a test page in the following ways:
 |-------------------|--------------|-------------|  
 |CustomerCard|TestPage|Customer Card|  
 |CustomerStatistics|TestPage|Customer Statistics|  
-|ShipToAddressList|TestPage|Ship\-to Address List|  
+|ShipToAddressList|TestPage|Ship-to Address List|  
   
 ```  
 CustomerCard.OPENEDIT;  

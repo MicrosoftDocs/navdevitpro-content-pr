@@ -16,7 +16,7 @@ To implement Automation in [!INCLUDE[navnow](includes/navnow_md.md)], create an 
   
 ### To create an Automation controller that uses an Automation server  
   
-1.  Declare the top\-level interface of the Automation server as a variable of the data type Automation.  
+1.  Declare the top-level interface of the Automation server as a variable of the data type Automation.  
   
 2.  Declare all other objects and interfaces \(classes\) as variables of the Automation data type.  
   
@@ -35,7 +35,7 @@ To implement Automation in [!INCLUDE[navnow](includes/navnow_md.md)], create an 
   
 4.  Use the methods and properties of the Automation server in your C/AL code.  
   
-5.  If needed, use the CLEAR function \(destroy\) for the top\-level object. Otherwise, it will be cleared automatically when the variable goes out of scope.  
+5.  If needed, use the CLEAR function \(destroy\) for the top-level object. Otherwise, it will be cleared automatically when the variable goes out of scope.  
   
  You write most of your code during step 4 by using the methods and the properties of the Automation server. The syntax and the semantics of these methods and properties are documented in the documentation for each Automation server. Using these methods and properties in C/AL does not require any new or changed syntax.  
   

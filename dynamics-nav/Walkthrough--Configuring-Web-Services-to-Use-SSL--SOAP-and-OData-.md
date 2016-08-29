@@ -87,7 +87,7 @@ Secure Sockets Layer \(SSL\) is a cryptographic protocol that helps provide secu
 9. Make a note of the service account information. You will need this information later on in this walkthrough.  
   
 ##  <a name="ObtainCert"></a> Obtaining an SSL Certificate  
- The certificate is a file that [!INCLUDE[nav_server](includes/nav_server_md.md)] uses to prove its identity and establish a trusted connection with the client that is trying to connect. In a production environment, you obtain an SSL certificate from a certification authority. Some large organizations may have their own certification authorities, and other organizations can request a certificate from a third\-party organization. In a test environment, if you do not have certificate, then you can create your own test certificate by using the makecert.exe tool as described in the following procedure.  
+ The certificate is a file that [!INCLUDE[nav_server](includes/nav_server_md.md)] uses to prove its identity and establish a trusted connection with the client that is trying to connect. In a production environment, you obtain an SSL certificate from a certification authority. Some large organizations may have their own certification authorities, and other organizations can request a certificate from a third-party organization. In a test environment, if you do not have certificate, then you can create your own test certificate by using the makecert.exe tool as described in the following procedure.  
   
  In the following procedure, you use the makecert.exe tool to create a test certificate file \(.cer\) with a private key file \(.pvk\), and then generate a personal information file \(.pfx\) from the two files. You will use the .pxf in the next procedure for importing the certificate on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
@@ -104,8 +104,8 @@ Secure Sockets Layer \(SSL\) is a cryptographic protocol that helps provide secu
   
     |If your computer is installed with|Then|  
     |----------------------------------------|----------|  
-    |Microsoft Visual Studio 2012|1.  Choose the **Start** button, choose **All Programs**.<br />2.  Choose **Microsoft Visual Studio**, choose **Visual Studio Tools**, and then right\-click **Visual Studio Command Prompt** and choose **Run as Administrator**.|  
-    |Microsoft Windows SDK|1.  Choose the **Start** button, choose **All Programs**.<br />2.  Choose **Microsoft Windows SDK**, choose **Microsoft Windows SDK**, and then right\-click **Windows SDK Command Prompt** and choose **Run as Administrator**.|  
+    |Microsoft Visual Studio 2012|1.  Choose the **Start** button, choose **All Programs**.<br />2.  Choose **Microsoft Visual Studio**, choose **Visual Studio Tools**, and then right-click **Visual Studio Command Prompt** and choose **Run as Administrator**.|  
+    |Microsoft Windows SDK|1.  Choose the **Start** button, choose **All Programs**.<br />2.  Choose **Microsoft Windows SDK**, choose **Microsoft Windows SDK**, and then right-click **Windows SDK Command Prompt** and choose **Run as Administrator**.|  
   
 3.  At the command prompt, change to the folder that you created for the certificates. For example, type `cd\My Certificates`, and then press Enter.  
   
@@ -133,7 +133,7 @@ Secure Sockets Layer \(SSL\) is a cryptographic protocol that helps provide secu
 6.  If you are not working on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)], then copy the .pfx to the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer.  
   
 > [!IMPORTANT]  
->  To avoid validation errors, make sure that the certificate that you create and self\-sign has the same name as the host name, which is accessed from all the remote machines. The machine name is specified in “**CN=\<machine name\>**”. If you use the *http:\/\/hostname:Port\/NAVserver\/* link to access your Microsoft Dynamics NAV service, then you should specify the –n “CN=hostname” flag to the `makecert` command instead.  
+>  To avoid validation errors, make sure that the certificate that you create and self-sign has the same name as the host name, which is accessed from all the remote machines. The machine name is specified in “**CN=\<machine name\>**”. If you use the *http:\/\/hostname:Port\/NAVserver\/* link to access your Microsoft Dynamics NAV service, then you should specify the –n “CN=hostname” flag to the `makecert` command instead.  
   
 ##  <a name="Importing"></a> Importing the SSL Certificate into the Local Computer Store of the Microsoft Dynamics NAV Server computer  
  Once you obtain a certificate, you must import it into the local computer store on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)]. The certificate file will have the extension .cer or .pfx.  
@@ -145,21 +145,21 @@ Secure Sockets Layer \(SSL\) is a cryptographic protocol that helps provide secu
 2.  In the **Open** box, type **mmc**, and then choose **OK**.  
   
     > [!NOTE]  
-    >  This procedure assumes that you do not already have the Certificates snap\-in installed in Microsoft Management Console. If the Certificates snap\-in is already installed, skip steps 3 to 7 and go to step 8.  
+    >  This procedure assumes that you do not already have the Certificates snap-in installed in Microsoft Management Console. If the Certificates snap-in is already installed, skip steps 3 to 7 and go to step 8.  
   
-3.  On the **File** menu, choose **Add\/Remove Snap\-in**.  
+3.  On the **File** menu, choose **Add\/Remove Snap-in**.  
   
-4.  In the **Add\/Remove Snap\-in** dialog box, choose **Certificates**, and then choose **Add**.  
+4.  In the **Add\/Remove Snap-in** dialog box, choose **Certificates**, and then choose **Add**.  
   
-5.  In the **Certificates snap\-in** dialog box, choose **Computer account**, and then choose **Next**.  
+5.  In the **Certificates snap-in** dialog box, choose **Computer account**, and then choose **Next**.  
   
 6.  In the **Select Computer** dialog box, choose **Local computer**, and then choose **Finish**.  
   
-7.  In the **Add\/Remove Snap\-in** dialog box, choose **OK**.  
+7.  In the **Add\/Remove Snap-in** dialog box, choose **OK**.  
   
-8.  In the left pane of the console, double\-click and expand the **Certificates \(Local Computer\)**.  
+8.  In the left pane of the console, double-click and expand the **Certificates \(Local Computer\)**.  
   
-9. Right\-click **Personal**, point to **All Tasks**, and then choose **Import**.  
+9. Right-click **Personal**, point to **All Tasks**, and then choose **Import**.  
   
 10. On the **Welcome to the Certificate Import Wizard** page, choose **Next**.  
   
@@ -182,7 +182,7 @@ Secure Sockets Layer \(SSL\) is a cryptographic protocol that helps provide secu
   
 1.  In the left pane of MMC, expand the **Certificates \(Local Computer\)** node, expand the **Personal** node, and then choose the **Certificates** folder.  
   
-2.  In the center pane, right\-click the certificate that you imported, choose **All Tasks**, and then choose **Manage Private Keys**.  
+2.  In the center pane, right-click the certificate that you imported, choose **All Tasks**, and then choose **Manage Private Keys**.  
   
 3.  In the **Permissions for private keys** dialog box, choose **Add**.  
   
@@ -191,7 +191,7 @@ Secure Sockets Layer \(SSL\) is a cryptographic protocol that helps provide secu
 5.  On the **Security** tab, under **Allow**, select **Full Control** and **Read**, and then choose **OK**.  
   
 ##  <a name="Thumbprint"></a> Obtaining the Certificate's Thumbprint  
- The thumbprint is a string of hexadecimal characters that identifies the certificate. You use the thumbprint when you configure the web service's port to use the certificate. To perform this task, you continue working in the Certificates snap\-in in Microsoft Management Console.  
+ The thumbprint is a string of hexadecimal characters that identifies the certificate. You use the thumbprint when you configure the web service's port to use the certificate. To perform this task, you continue working in the Certificates snap-in in Microsoft Management Console.  
   
 #### To obtain the certificate's thumbprint  
   
@@ -199,7 +199,7 @@ Secure Sockets Layer \(SSL\) is a cryptographic protocol that helps provide secu
   
      The center pane displays all the certificates.  
   
-2.  Right\-click the certificate that you imported, and then choose **Open**.  
+2.  Right-click the certificate that you imported, and then choose **Open**.  
   
 3.  In the **Certificate** dialog box, choose the **Details** tab.  
   
@@ -225,7 +225,7 @@ Secure Sockets Layer \(SSL\) is a cryptographic protocol that helps provide secu
   
     1.  From the **Start** menu, choose **All Programs**, and then choose **Accessories**.  
   
-    2.  Right\-click **Command Prompt**, and then choose **Run as administrator**.  
+    2.  Right-click **Command Prompt**, and then choose **Run as administrator**.  
   
 2.  At the command prompt, type the following command to change to the Windows\\System32 directory.  
   
@@ -329,7 +329,7 @@ Secure Sockets Layer \(SSL\) is a cryptographic protocol that helps provide secu
     |`ipaddress`|The IP address that can use the web service. Use `0.0.0.0` to include all IP addresses.|  
     |`port`|The port that is used by the web service.|  
     |`thumbprint`|The certificate thumbprint that you pasted to NotePad previously.|  
-    |`id`|A 32\-digit hexadecimal number that identifies the [!INCLUDE[navnow](includes/navnow_md.md)] application. The id must be in the format {NNNNNNNN\-NNNN\-NNNN\-NNNN\-NNNNNNNNNNNN\). If you do not know the appid, then use any value, such as {00112233\-4455\-6677\-8899\-AABBCCDDEEFF}.|  
+    |`id`|A 32-digit hexadecimal number that identifies the [!INCLUDE[navnow](includes/navnow_md.md)] application. The id must be in the format {NNNNNNNN-NNNN-NNNN-NNNN-NNNNNNNNNNNN\). If you do not know the appid, then use any value, such as {00112233-4455-6677-8899-AABBCCDDEEFF}.|  
   
      For example, the following command binds a certificate that has the thumbprint c0d0f27095b03d4317e219841024328cef248779 to port 7047 for all IP addresses:  
   

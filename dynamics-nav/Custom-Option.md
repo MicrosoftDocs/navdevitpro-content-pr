@@ -19,11 +19,11 @@ The Custom option is available on the **Choose an installation option** page in 
   
 |Component|Description|Additional options|  
 |---------------|-----------------|------------------------|  
-|Client|[!INCLUDE[nav_windows](includes/nav_windows_md.md)]|-   [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]<br />-   Microsoft Office Excel Add\-In|  
+|Client|[!INCLUDE[nav_windows](includes/nav_windows_md.md)]|-   [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]<br />-   Microsoft Office Excel Add-In|  
 |Administration Tool|[!INCLUDE[nav_admin](includes/nav_admin_md.md)]|Not applicable|  
 |Server|[!INCLUDE[nav_server](includes/nav_server_md.md)]|-   Microsoft Office Outlook Integration<br />-   Page Testability|  
 |SQL Server Database Components|Microsoft SQL Server|-   Demo Database|  
-|Microsoft Office Outlook Add\-in|Adds a toolbar to Microsoft Outlook to enable synchronization of contacts, appointments, and tasks.|Not applicable|  
+|Microsoft Office Outlook Add-in|Adds a toolbar to Microsoft Outlook to enable synchronization of contacts, appointments, and tasks.|Not applicable|  
 |Automated Data Capture System|Enables the tracking of movements within a warehouse.|Not applicable|  
 |Web Server Components|Enables web clients to connect to a web browser.|Not applicable|  
 |Help Server|Installs a website that hosts the [!INCLUDE[navnow](includes/navnow_md.md)] Help content.|Not applicable|  

@@ -12,9 +12,9 @@ caps.latest.revision: 31
 manager: edupont
 ---
 # Configuring NAS Services
-NAS services are a middle\-tier server component that executes business logic without a user interface or user interaction. NAS services in [!INCLUDE[nav_server](includes/nav_server_md.md)] support applications such as Microsoft Office Outlook Integration and the NAV Job Queue.  
+NAS services are a middle-tier server component that executes business logic without a user interface or user interaction. NAS services in [!INCLUDE[nav_server](includes/nav_server_md.md)] support applications such as Microsoft Office Outlook Integration and the NAV Job Queue.  
   
- NAS stands for NAV Application Server, which was a component in earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)]. NAS services replace the NAS component, and this requires you to modify any use of server\-side COM. For more information, see [Extending Microsoft Dynamics NAV Using Microsoft .NET Framework Interoperability](Extending-Microsoft-Dynamics-NAV-Using-Microsoft-.NET-Framework-Interoperability.md).  
+ NAS stands for NAV Application Server, which was a component in earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)]. NAS services replace the NAS component, and this requires you to modify any use of server-side COM. For more information, see [Extending Microsoft Dynamics NAV Using Microsoft .NET Framework Interoperability](Extending-Microsoft-Dynamics-NAV-Using-Microsoft-.NET-Framework-Interoperability.md).  
   
 ## Run NAS Services Applications in Dedicated Server Instances  
  It is recommended that you create a separate [!INCLUDE[nav_server](includes/nav_server_md.md)] instance for each NAS services application. See [How to: Create a Microsoft Dynamics NAV Server Instance](How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).  
@@ -25,7 +25,7 @@ NAS services are a middle\-tier server component that executes business logic wi
   
      When you change any [!INCLUDE[nav_server](includes/nav_server_md.md)] setting, you must restart the instance for the change to take effect, which interrupts all services using that instance. So if you are running different types of services in the same instance—for example, [!INCLUDE[rtc](includes/rtc_md.md)] services and NAS services—making a change to the settings for either service type will require a server instance restart that interrupts all other service types running through that instance.  
   
-     Even for different types of NAS services applications it’s wise to run each application in a separate server instance. For example, if you will be using NAS services for a Microsoft Office Outlook Integration application and also for a [!INCLUDE[navnow](includes/navnow_md.md)] job queue application, create a separate [!INCLUDE[nav_server](includes/nav_server_md.md)] instance for each NAS services application. This way, if you need to modify settings for the Microsoft Office Outlook Integration application you will not affect the [!INCLUDE[navnow](includes/navnow_md.md)] job queue application, and vice\-versa.  
+     Even for different types of NAS services applications it’s wise to run each application in a separate server instance. For example, if you will be using NAS services for a Microsoft Office Outlook Integration application and also for a [!INCLUDE[navnow](includes/navnow_md.md)] job queue application, create a separate [!INCLUDE[nav_server](includes/nav_server_md.md)] instance for each NAS services application. This way, if you need to modify settings for the Microsoft Office Outlook Integration application you will not affect the [!INCLUDE[navnow](includes/navnow_md.md)] job queue application, and vice-versa.  
   
 -   **Performance**  
   

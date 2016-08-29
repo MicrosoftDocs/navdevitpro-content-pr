@@ -74,7 +74,7 @@ finsql.exe command=importobjects, file=<importfile>, [servername=<server>,] [dat
   
 -   **overwrite** or **1** – If there is a conflict, then overwrite the existing object with the object in the import file.  
   
--   **skip** or **2** \- If there is a conflict, then skip the object. The existing object remains unchanged.  
+-   **skip** or **2** - If there is a conflict, then skip the object. The existing object remains unchanged.  
   
 > [!WARNING]  
 >  If you import from a .txt file and there is a conflict, then the objects in the import file overwrite the existing objects in the database.  
@@ -108,7 +108,7 @@ finsql.exe command=importobjects, file=<importfile>, [servername=<server>,] [dat
 |[!INCLUDE[bp_tableoption](includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |----------------------------------|---------------------------------------|  
 |**yes**|Before applying changes to the business data table, [!INCLUDE[nav_server](includes/nav_server_md.md)] validates the changed table definition to check for destructive changes to the table. This includes changes that require that data is deleted in the fields of the business data table which are affected by the changes before the changes can be applied.<br /><br /> -   If there are no destructive changes to the table, then the schema changes are applied to the business data table immediately.<br />-   If there are destructive changes, [!INCLUDE[nav_server](includes/nav_server_md.md)] checks that there are table synchronization instructions in an upgrade codeunit. If there are instructions, then the schema changes are applied to the business database table according to the instructions. If there are no instructions, then an error message appears. The table definition changes are not saved and the schema changes are not applied.|  
-|**no**|Table definition changes are saved and compiled in the application but the changes are not validated or applied to the business data table. You synchronize the table schema later by doing one of the following:<br /><br /> -   Save or compile the table from Object Designer in [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] and choose either the **Now \- with validation** or **Force** synchronization option.<br />-   Use the **Sync. Schema for All Tables** option on the **Tools** menu.<br />-   Run the Sync\-NAVTenant cmdlet from the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].|  
+|**no**|Table definition changes are saved and compiled in the application but the changes are not validated or applied to the business data table. You synchronize the table schema later by doing one of the following:<br /><br /> -   Save or compile the table from Object Designer in [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] and choose either the **Now - with validation** or **Force** synchronization option.<br />-   Use the **Sync. Schema for All Tables** option on the **Tools** menu.<br />-   Run the Sync-NAVTenant cmdlet from the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].|  
 |force|Table definition changes are applied to the business data table schema without validation. For destructive changes, data in columns of the business data table that are affected by changes will be deleted.<br /><br /> This option ignores any table synchronization instructions for the table in upgrade codeunits.|  
   
  For more information about table schema synchronization, see [Synchronizing Table Schemas](Synchronizing-Table-Schemas.md).  
@@ -132,7 +132,7 @@ finsql.exe command=importobjects, file=<importfile>, [servername=<server>,] [dat
 ## Remarks  
  You use the **ImportObjects** command with the finsql.exe from a command prompt. Finsql.exe is the executable file that runs the development environment. By default, finsql.exe is located at [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\.  
   
- To import objects from a .txt file, you must have a developer license. To import objects from a .fob file, you can have either an end\-user license or a developer license.  
+ To import objects from a .txt file, you must have a developer license. To import objects from a .fob file, you can have either an end-user license or a developer license.  
   
  You can specify parameters in any order.  
   

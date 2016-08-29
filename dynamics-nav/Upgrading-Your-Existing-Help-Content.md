@@ -28,7 +28,7 @@ It is possible to reuse Help that you created using the [!INCLUDE[nav7long](incl
 <a HREF="tskEnterCompanyInformation.htm>How to: Enter Company Information</a>  
 ```  
   
- To convert all of the hyperlinks in your existing Help, you can use a search\-and\-replace tool to find and replace the navigation content, create a script with a regular expression that handles the conversion, or rebuild your Help project with the [!INCLUDE[nav7long](includes/nav7long_md.md)] Help Toolkit.  
+ To convert all of the hyperlinks in your existing Help, you can use a search-and-replace tool to find and replace the navigation content, create a script with a regular expression that handles the conversion, or rebuild your Help project with the [!INCLUDE[nav7long](includes/nav7long_md.md)] Help Toolkit.  
   
  If you choose to rebuild your Help project with the [!INCLUDE[nav7long](includes/nav7long_md.md)] Help Toolkit, you must modify the configuration file for the [!INCLUDE[nav7long](includes/nav7long_md.md)] Help Builder tool to remove the navigation content from the links that are injected by the tool. These links are specified in the `<hyperlinks>` element in the config.default.xml file. You can modify those boilerplate links to exclude the navigation content, and you can also update the build number to the following value:  
   

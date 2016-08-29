@@ -40,7 +40,7 @@ You can break code execution of the session that you are debugging by:
   
  You can inspect the contents of global variables, local variables, system variables, parameters, and text constants at each step. You can see whether the actual values that are displayed differ from the values that you expected when you designed the application.  
   
- For more information about user account requirements for setting breakpoints, see [Development Environment \(C\-SIDE\)](Development-Environment--C-SIDE-.md).  
+ For more information about user account requirements for setting breakpoints, see [Development Environment \(C-SIDE\)](Development-Environment--C-SIDE-.md).  
   
 ## Break on Lines of Code  
  If you set a breakpoint on a line of C/AL code, then execution breaks before the first statement on the line is executed. If you set a breakpoint on a line of code that does not have a C/AL statement, then the breakpoint is automatically set on the next statement. If you set a breakpoint on a line of code that exceeds the number of lines of code in the object, then the breakpoint is set on the last line of code. You can set a condition on a breakpoint on a line of code so that execution breaks only if the condition is met. For more information, see the following topics:  
@@ -63,7 +63,7 @@ You can break code execution of the session that you are debugging by:
  For more information, see [How to: Break on the Next Statement](How%20to:%20Break%20on%20the%20Next%20Statement.md).  
   
 ## Break on Errors  
- You can specify that the debugger breaks execution if it encounters an error. If you specify that the debugger breaks on errors, then it breaks both on unhandled errors and on errors that you handle in C/AL code. For more information about how to handle errors, see [Avoiding Run\-Time Errors](Avoiding-Run-Time-Errors.md).  
+ You can specify that the debugger breaks execution if it encounters an error. If you specify that the debugger breaks on errors, then it breaks both on unhandled errors and on errors that you handle in C/AL code. For more information about how to handle errors, see [Avoiding Run-Time Errors](Avoiding-Run-Time-Errors.md).  
   
  When the debugger breaks on an error, you can inspect variables and parameters and you can review the error message for the current error. These inspection steps can help you determine the cause of the error.  
   

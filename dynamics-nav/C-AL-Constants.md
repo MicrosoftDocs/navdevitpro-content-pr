@@ -21,10 +21,10 @@ A constant is the simplest type of operand used in C/AL. The value of a constant
  A Boolean constant can have either the value TRUE or FALSE.  
   
 ## Integer Constant  
- An integer constant has a value in the range \-2,147,483,647 to 2,147,483,647.  
+ An integer constant has a value in the range -2,147,483,647 to 2,147,483,647.  
   
 ## Decimal Constant  
- A decimal constant must contain a decimal point "." \(depending on your regional settings\) and have at least one digit to the right of the decimal point \(for example, the digit "0"\). A constant of type decimal can be used to represent decimal numbers between \-999,999,999,999,999.99 and 999,999,999,999,999.99 with 18 significant digits.  
+ A decimal constant must contain a decimal point "." \(depending on your regional settings\) and have at least one digit to the right of the decimal point \(for example, the digit "0"\). A constant of type decimal can be used to represent decimal numbers between -999,999,999,999,999.99 and 999,999,999,999,999.99 with 18 significant digits.  
   
 ## Date Constant  
  A date constant is written as six or eight digits followed by the letter "D." The date constant expressing "undefined date" is entered as "0D." The digits specify the date in the format MMDDYY or MMDDYYYY.  
@@ -44,7 +44,7 @@ A constant is the simplest type of operand used in C/AL. The value of a constant
 |Constant|Description|  
 |--------------|-----------------|  
 |50000|Integer constant|  
-|\-23.7|Decimal constant|  
+|-23.7|Decimal constant|  
 |122101D|Date constant \(December 21, 2001\)|  
 |141230T|Time constant \(the time 14:12:30\)|  
 |ABC|Text constant|

@@ -49,7 +49,7 @@ Before you can work with Automated Data Capture Systems \(ADCS\), you have to co
     |*screenLines*|Optional. Positive integer that specifies the number of screen lines. The default is 5.|  
     |*screenWidth*|Optional. Positive integer that specifies the screen width. The default is 30.|  
     |*codePage*|Optional. Positive integer that specifies the codepage. The default is the system codepage defined in HKey\_Local\_Machine\\SYSTEM\\CurrentControlSet\\Control\\Nls\\CodePage\\ACP.|  
-    |*terminalTimeout*|Optional. Positive integer that specifies the terminal time\-out in milliseconds. The default is 65000 and cannot be fewer than 6000.|  
+    |*terminalTimeout*|Optional. Positive integer that specifies the terminal time-out in milliseconds. The default is 65000 and cannot be fewer than 6000.|  
     |*debugDirectory*|Optional. Output directory for debug data.|  
   
 3.  For the **Endpoints** element, update the attributes in the configuration file and modify an endpoint to support your processes. You can also add more endpoints. The following table provides some options.  
@@ -59,7 +59,7 @@ Before you can work with Automated Data Capture Systems \(ADCS\), you have to co
     |*defaultType*|Optional. *defaultType* is an attribute of the **Endpoints** element. It specifies what type of endpoint to use when no type is specified, if you want to customize it. The default is the **NavEndpoint** type.|  
     |*name*|Required. Endpoint name. The name must be unique.|  
     |*url*|Required. Endpoint URL address. **Note:**  This attribute does not have to be included if the *clientEndpointName* attribute is specified.|  
-    |*type*|Optional. Fully qualified name of a non\-default endpoint.|  
+    |*type*|Optional. Fully qualified name of a non-default endpoint.|  
     |*clientEndpointName*|Optional. Windows Communications Foundation client endpoint configuration name. If specified, a WCF configuration with the specified name must exist. For more information, see [Client Configuration](http://go.microsoft.com/fwlink/?LinkId=260871) in the MSDN Library.|  
   
  The following example describes the XML for a **Terminal** element and the **Endpoints** element. It adds one endpoint for [!INCLUDE[navnow](includes/navnow_md.md)].  

@@ -28,11 +28,11 @@ Sets a value that determines how text in a field on a page is formatted. For fie
 |**Standard**|Standard|Standard|  
 |**StandardAccent**|Blue|Not applicable.|  
 |**Strong**|Bold|Not applicable.|  
-|**StrongAccent**|Blue \+ Bold|Not applicable.|  
-|**Attention**|Red \+ Italic|Red|  
-|**AttentionAccent**|Blue \+ Italic|Not applicable.|  
-|**Favorable**|Bold \+ Green|Green|  
-|**Unfavorable**|Bold \+ Italic \+ Red|Red|  
+|**StrongAccent**|Blue + Bold|Not applicable.|  
+|**Attention**|Red + Italic|Red|  
+|**AttentionAccent**|Blue + Italic|Not applicable.|  
+|**Favorable**|Bold + Green|Green|  
+|**Unfavorable**|Bold + Italic + Red|Red|  
 |**Ambiguous**|Yellow|Yellow|  
 |**Subordinate**|Grey|Grey|  
   

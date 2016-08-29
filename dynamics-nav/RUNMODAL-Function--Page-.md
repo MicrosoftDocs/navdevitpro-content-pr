@@ -39,7 +39,7 @@ Creates, opens, and closes a page that you specify. When a page is run modally, 
   
  Unlike the [PAGE.RUN Function](PAGE.RUN-Function.md), the variable is not automatically cleared after this function runs.  
   
- If the page that you specify does not exist, then a compile\-time error occurs.  
+ If the page that you specify does not exist, then a compile-time error occurs.  
   
 ## Property Value/Return Value  
  Type: Action  

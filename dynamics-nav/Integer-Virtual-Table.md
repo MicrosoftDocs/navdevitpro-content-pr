@@ -16,7 +16,7 @@ The **Integer** virtual table includes integers in the range –1,000,000,000 to
   
 |Field|Description|  
 |-----------|-----------------|  
-|**Integer**|An integer in the range \-1,000,000,000 to 1,000,000,000.|  
+|**Integer**|An integer in the range -1,000,000,000 to 1,000,000,000.|  
   
  By applying a filter to the **Integer** virtual table, you can easily get a subset or range of numbers that can be used to control looping in reports.  
   

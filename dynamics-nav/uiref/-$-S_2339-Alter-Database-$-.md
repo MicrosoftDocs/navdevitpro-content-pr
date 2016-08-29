@@ -18,19 +18,19 @@ Modifies a database.
 
  This window contains the following tabs:  
 
--   [Altering Databases \- General Tab](Altering-Databases---General-Tab.md)  
+-   [Altering Databases - General Tab](Altering-Databases---General-Tab.md)  
 
--   [Altering Databases \- Database Files Tab](Altering-Databases---Database-Files-Tab.md)  
+-   [Altering Databases - Database Files Tab](Altering-Databases---Database-Files-Tab.md)  
 
--   [Altering Databases \- Transaction Log Files Tab](Altering-Databases---Transaction-Log-Files-Tab.md)  
+-   [Altering Databases - Transaction Log Files Tab](Altering-Databases---Transaction-Log-Files-Tab.md)  
 
--   [Altering Databases \- Collation Tab](Altering-Databases---Collation-Tab.md)  
+-   [Altering Databases - Collation Tab](Altering-Databases---Collation-Tab.md)  
 
--   [Altering Databases \- Options Tab](Altering-Databases---Options-Tab.md)  
+-   [Altering Databases - Options Tab](Altering-Databases---Options-Tab.md)  
 
--   [Altering Databases \- Integration Tab](Altering-Databases---Integration-Tab.md)  
+-   [Altering Databases - Integration Tab](Altering-Databases---Integration-Tab.md)  
 
--   [Altering Databases \- Advanced Tab](Altering-Databases---Advanced-Tab.md)  
+-   [Altering Databases - Advanced Tab](Altering-Databases---Advanced-Tab.md)  
 
 ## See Also  
  [How to: Alter Databases](../How%20to:%20Alter%20Databases.md)

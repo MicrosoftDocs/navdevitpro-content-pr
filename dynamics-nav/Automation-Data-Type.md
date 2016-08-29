@@ -34,9 +34,9 @@ Use the Automation data type to reference an automation server.
   
  When you have defined an automation server as a variable, you must use [CREATE Function \(Automation\)](CREATE-Function--Automation-.md) to create an instance of the server. After that, you can use the server through the variable. You can browse its methods and properties in the **Symbol** menu.  
   
- When you are using a server, you should know that there is not a one\-to\-one relationship between C/AL data types and COM data types. For an overview of the data type mapping, see [Using COM Technologies in Microsoft Dynamics NAV](Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md).  
+ When you are using a server, you should know that there is not a one-to-one relationship between C/AL data types and COM data types. For an overview of the data type mapping, see [Using COM Technologies in Microsoft Dynamics NAV](Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md).  
   
- If you use a variable of type Automation to automate Microsoft Excel and you run an English \(United States\) version of Excel but the regional settings for the computer are configured for a non\-English language, then you will receive the following error:  
+ If you use a variable of type Automation to automate Microsoft Excel and you run an English \(United States\) version of Excel but the regional settings for the computer are configured for a non-English language, then you will receive the following error:  
   
 ```  
 Error: 0x80028018 (-2147647512)  

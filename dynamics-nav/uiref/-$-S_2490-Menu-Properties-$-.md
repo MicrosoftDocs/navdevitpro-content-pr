@@ -14,7 +14,7 @@ manager: edupont
 # ($ S_2490 Menu Properties $)
 Modifies a menu for a department. The menu represents a department in a company.  
 
- To open this window, open Navigation Pane Designer, right\-click the department that you want to modify, and then choose **Properties**. For information about how to open Navigation Pane Designer, see [\($ S\_2401 Navigation Pane Designer $\)](-$-S_2401-Navigation-Pane-Designer-$-.md).  
+ To open this window, open Navigation Pane Designer, right-click the department that you want to modify, and then choose **Properties**. For information about how to open Navigation Pane Designer, see [\($ S\_2401 Navigation Pane Designer $\)](-$-S_2401-Navigation-Pane-Designer-$-.md).  
 
 ## Properties  
 

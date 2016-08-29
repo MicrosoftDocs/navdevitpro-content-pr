@@ -44,7 +44,7 @@ IMPORTENCRYPTIONKEY(filename, pwd)
   
  **true** if the encryption key was imported; otherwise, **false**.  
   
- If you omit this optional return value and the encryption key cannot be imported successfully, then a run\-time error occurs. If you include the return value, then you must handle any errors.  
+ If you omit this optional return value and the encryption key cannot be imported successfully, then a run-time error occurs. If you include the return value, then you must handle any errors.  
   
 ## Exceptions  
  If the import key file cannot be imported, the following error will be displayed: **Import Failed. The provided encryption key file contains invalid data and could not be imported**.  

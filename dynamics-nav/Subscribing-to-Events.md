@@ -91,7 +91,7 @@ To handle events, you design event subscribers. Event subscribers determine what
   
 10. Add code to the function for handing the event.  
   
- For step\-by\-step instructions about how to create a subscriber, see [Walkthrough: Publishing, Raising, and Subcribing to an Event in Microsoft Dynamics NAV](Walkthrough:%20Publishing,%20Raising,%20and%20Subcribing%20to%20an%20Event%20in%20Microsoft%20Dynamics%20NAV.md).  
+ For step-by-step instructions about how to create a subscriber, see [Walkthrough: Publishing, Raising, and Subcribing to an Event in Microsoft Dynamics NAV](Walkthrough:%20Publishing,%20Raising,%20and%20Subcribing%20to%20an%20Event%20in%20Microsoft%20Dynamics%20NAV.md).  
   
 ## See Also  
  [Publishing Events](Publishing-Events.md)   

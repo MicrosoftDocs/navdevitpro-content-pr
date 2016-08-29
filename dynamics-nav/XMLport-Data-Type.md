@@ -15,7 +15,7 @@ You use XMLports to import and export data in .xml, .csv, or .txt format. XMLpor
   
  XMLports support multiple languages with the [CaptionML Property](CaptionML-Property.md).  
   
- XMLports support UTF\-8, UTF\-16, and ISO\-8859\-2 formats for XML.  
+ XMLports support UTF-8, UTF-16, and ISO-8859-2 formats for XML.  
   
 ## Remarks  
  For more information about how to design XMLports, see [XMLports](XMLports.md).  

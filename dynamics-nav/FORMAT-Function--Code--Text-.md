@@ -27,7 +27,7 @@ String := FORMAT(Value[, Length][, FormatStr/FormatNumber])
   
  This is a C/AL variable \(expression\) of any simple data type, such as Option, Integer, BigInteger, Decimal, Char, Text, Code, Date, Time, DateTime, Boolean, or GUID.  
   
- If, when the system formats *Value*, the result is a value larger than the maximum length [MAXSTRLEN Function \(Code, Text\)](MAXSTRLEN-Function--Code--Text-.md) of *String*, a run\-time error occurs.  
+ If, when the system formats *Value*, the result is a value larger than the maximum length [MAXSTRLEN Function \(Code, Text\)](MAXSTRLEN-Function--Code--Text-.md) of *String*, a run-time error occurs.  
   
  *Length*  
  Type: Integer  
@@ -97,19 +97,19 @@ MESSAGE(Text000, FORMAT(-123456.78, 12, '<Integer Thousand><Decimals><Sign,1>'))
   
  The Regional and Language settings on the computer on which you run the code affect how the string is displayed. For example, on a computer that has the regional format set to English \(United States\), the message window displays the following:  
   
- **The formatted value: \> 123,456.78\-\<**  
+ **The formatted value: \> 123,456.78-\<**  
   
- **The formatted value: \> 123,456.78\-\<**  
+ **The formatted value: \> 123,456.78-\<**  
   
- **The formatted value: \> 123,456.78\-\<**  
+ **The formatted value: \> 123,456.78-\<**  
   
  On a computer that has the regional format set to Danish \(Denmark\), the message window displays the following:  
   
- **The formatted value: \> 123.456,78\-\<**  
+ **The formatted value: \> 123.456,78-\<**  
   
- **The formatted value: \> 123.456,78\-\<**  
+ **The formatted value: \> 123.456,78-\<**  
   
- **The formatted value: \> 123.456,78\-\<**  
+ **The formatted value: \> 123.456,78-\<**  
   
 ## Example  
  This example shows how to use a string to build a format.  

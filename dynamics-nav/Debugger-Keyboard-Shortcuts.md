@@ -18,16 +18,16 @@ The following table describes the keyboard shortcuts that are available from the
 |---------------|------------|  
 |F11|Step into|  
 |F10|Step over|  
-|Shift\+F11|Step out|  
+|Shift+F11|Step out|  
 |F5|Continue|  
-|Ctrl\+Shift\+B|Break|  
-|Shift\+F5|Stop|  
+|Ctrl+Shift+B|Break|  
+|Shift+F5|Stop|  
 |F9|Toggle|  
-|Shift\+F9|Open the **Debugger Breakpoint Condition** window|  
-|Ctrl\+Shift\+V|Open the **Debugger Variable List** window|  
-|Ctrl\+Shift\+.|Zoom in on the code viewer|  
-|Ctrl\+Shift\+,|Zoom out of the code viewer|  
-|Ctrl\+Alt\+Q|Show the tooltip for the variable on which the cursor is located|  
+|Shift+F9|Open the **Debugger Breakpoint Condition** window|  
+|Ctrl+Shift+V|Open the **Debugger Variable List** window|  
+|Ctrl+Shift+.|Zoom in on the code viewer|  
+|Ctrl+Shift+,|Zoom out of the code viewer|  
+|Ctrl+Alt+Q|Show the tooltip for the variable on which the cursor is located|  
 |Enter \(when tooltip is displayed\)|Add a variable to the **Watches** FactBox|  
 |Esc \(when tooltip is displayed\)|Hide tooltip|  
   

@@ -63,7 +63,7 @@ NewString := DELSTR(String, Position[, Length])
   
 |Text constant|ENU value|  
 |-------------------|---------------|  
-|Text000|Adjusting prices \- Please wait.|  
+|Text000|Adjusting prices - Please wait.|  
 |Text001|The original string:\\\>%1\<|  
 |Text002|The modified string:\\\>%2\<|  
   
@@ -80,13 +80,13 @@ MESSAGE(Text002, NewStr);
   
  **The original string:**  
   
- **\>Adjusting prices \- Please wait.\<**  
+ **\>Adjusting prices - Please wait.\<**  
   
  The second message window displays the following:  
   
  **The modified string:**  
   
- **\>Adjusting \- Please wait.\<**  
+ **\>Adjusting - Please wait.\<**  
   
 ## See Also  
  [Code Data Type](Code-Data-Type.md)   

@@ -11,7 +11,7 @@ ms.assetid: dc7646f1-c449-4281-af5d-8bb95ff33b08
 caps.latest.revision: 10
 ---
 # How to: Add a Microsoft Dynamics NAV Web Server Instance
-This topic describes how to use the [!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell to add a [!INCLUDE[navnow](includes/navnow_md.md)] web server instance on a computer or virtual machine. The [!INCLUDE[nav_shell](includes/nav_shell_md.md)] includes the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New\-NAVWebServerInstance](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVWebServerInstance) cmdlet that creates an application on IIS for the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
+This topic describes how to use the [!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell to add a [!INCLUDE[navnow](includes/navnow_md.md)] web server instance on a computer or virtual machine. The [!INCLUDE[nav_shell](includes/nav_shell_md.md)] includes the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVWebServerInstance](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVWebServerInstance) cmdlet that creates an application on IIS for the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
 ### To add a [!INCLUDE[navnow](includes/navnow_md.md)] web server instance  
   
@@ -19,7 +19,7 @@ This topic describes how to use the [!INCLUDE[navnow](includes/navnow_md.md)] Ad
   
     1.  Choose **Start**, in the **Search** box, type **[!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell**.  
   
-    2.  Right\-click the related link, and then choose **Run as Administrator**.  
+    2.  Right-click the related link, and then choose **Run as Administrator**.  
   
 2.  At the command prompt, type the following command:  
   
@@ -37,7 +37,7 @@ This topic describes how to use the [!INCLUDE[navnow](includes/navnow_md.md)] Ad
     |*\<NAVCredentialType\>*|Specifies the credential type that is configured for the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)]. Valid options are **NavUserPassword**, **Windows**, **UserName**, and **AccessControlService**. The default value is **NavUserPassword**. **Important:**  The credential type must match the credential type that is used by the [!INCLUDE[navnow](includes/navnow_md.md)] web server to authenticate [!INCLUDE[nav_web](includes/nav_web_md.md)] users. For more information, see [Configuring the Credential Type on the Microsoft Dynamics NAV Web Client Web Site](How%20to:%20Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md#WebClient).|  
   
     > [!NOTE]  
-    >  The command that is shown includes only the required parameters of the NAVWebServerInstance cmdlet. The cmdlet has several other parameters that can be used to configure the web server instance. For more information about the syntax and parameters, see [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New\-NAVWebServerInstance](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVWebServerInstance) cmdlet topic in the Administration Cmdlets for [!INCLUDE[navnow](includes/navnow_md.md)] section of the Technical Reference.  
+    >  The command that is shown includes only the required parameters of the NAVWebServerInstance cmdlet. The cmdlet has several other parameters that can be used to configure the web server instance. For more information about the syntax and parameters, see [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVWebServerInstance](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVWebServerInstance) cmdlet topic in the Administration Cmdlets for [!INCLUDE[navnow](includes/navnow_md.md)] section of the Technical Reference.  
   
 3.  Press Enter to run the cmdlet.  
   

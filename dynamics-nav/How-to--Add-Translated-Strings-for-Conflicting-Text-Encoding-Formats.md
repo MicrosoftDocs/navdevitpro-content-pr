@@ -23,7 +23,7 @@ You can configure your [!INCLUDE[navnow](includes/navnow_md.md)] solution so tha
   
 2.  Translate the strings in the resulting text file into Chinese by using your preferred translation process.  
   
-3.  When translations are complete, save the translated strings into a text file in the UTF\-8 text encoding format. For example, open the text file in Notepad, choose **File**, and then choose **Save As**. In the dialog that appears, in the **Encoding** field, choose UTF\-8, and then choose **Save**.  
+3.  When translations are complete, save the translated strings into a text file in the UTF-8 text encoding format. For example, open the text file in Notepad, choose **File**, and then choose **Save As**. In the dialog that appears, in the **Encoding** field, choose UTF-8, and then choose **Save**.  
   
      Optionally, choose to replace the existing file, or save the file with a different file name. However, the extension of the file must be **.txt**.  
   
@@ -32,7 +32,7 @@ You can configure your [!INCLUDE[navnow](includes/navnow_md.md)] solution so tha
     > [!IMPORTANT]  
     >  We recommend that you remove the English and Dutch strings from the Unicode file before you copy it to the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer. [!INCLUDE[nav_server](includes/nav_server_md.md)] queries the **Translations** folder for updated strings, and for performance reasons the folder should only contain strings that you cannot import into the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] because of conflicting codepages.  
   
-4.  Copy the UTF\-8 file to the equivalent of [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service\\Translations on the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer.  
+4.  Copy the UTF-8 file to the equivalent of [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service\\Translations on the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer.  
   
      When you have more than one service instance, there is a **Translations** folder for each service instance, such as [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service\\Instances\\*MyInstance*\\Translations.  
   

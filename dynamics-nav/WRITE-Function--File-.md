@@ -11,7 +11,7 @@ ms.assetid: 423def02-ce02-460b-babe-4608b264c64c
 caps.latest.revision: 13
 ---
 # WRITE Function (File)
-Writes to an MS\-DOS encoded file or binary file.  
+Writes to an MS-DOS encoded file or binary file.  
   
 ## Syntax  
   
@@ -40,7 +40,7 @@ File.WRITE(Value)
   
  If [TEXTMODE Function \(File\)](TEXTMODE-Function--File-.md) is **false** and *Value* is an integer, an integer is written that is four bytes long.  
   
- MS\-DOS encoding requires a different character set for each language. MS\-DOS text is encoded to the internal Unicode data type by using the system locale language of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)]. If you write to a file that uses MS\-DOS encoding, then you must set the system locale language of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] to match the language of the data that you want to write to the file.  
+ MS-DOS encoding requires a different character set for each language. MS-DOS text is encoded to the internal Unicode data type by using the system locale language of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)]. If you write to a file that uses MS-DOS encoding, then you must set the system locale language of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] to match the language of the data that you want to write to the file.  
   
  We recommend that you use the File data type for files that were created in earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)].  
   

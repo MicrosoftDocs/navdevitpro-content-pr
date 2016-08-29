@@ -19,7 +19,7 @@ This topic lists properties that apply to the Codeunit object, variables, text c
   
 -   [ID Property](ID-Property.md)  
   
--   [Name Property\-duplicate](Name-Property-duplicate.md)  
+-   [Name Property-duplicate](Name-Property-duplicate.md)  
   
 -   [Permissions Property](Permissions-Property.md)  
   

@@ -16,7 +16,7 @@ You can call .NET Framework type members, including methods, properties, and con
   
 ### To create a variable for a .NET Framework class in an assembly  
   
-1.  If the assembly that you want to reference is a custom assembly and not installed in the global assembly cache, then copy the assembly to the **Add\-ins** folder of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] installation folder on the computer running the development environment.  
+1.  If the assembly that you want to reference is a custom assembly and not installed in the global assembly cache, then copy the assembly to the **Add-ins** folder of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] installation folder on the computer running the development environment.  
   
      By default, the path to the installation folder is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\RoleTailored Client or [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client. You can place the assembly in a subfolder.  
   
@@ -46,7 +46,7 @@ You can call .NET Framework type members, including methods, properties, and con
   
 8.  In the **Assembly** field, choose the **AssistEdit** button to open the **Assembly List** window.  
   
-9. If the assembly that you want to reference is in the global assembly cache, then choose the **.NET** tab. If the assembly is in the Add\-ins folder of your [!INCLUDE[navnow](includes/navnow_md.md)] installation, then choose the **Dynamics NAV** tab.  
+9. If the assembly that you want to reference is in the global assembly cache, then choose the **.NET** tab. If the assembly is in the Add-ins folder of your [!INCLUDE[navnow](includes/navnow_md.md)] installation, then choose the **Dynamics NAV** tab.  
   
 10. In the list of assemblies, select the assembly, and then choose **OK** to return to the **.NET Type List** window.  
   
@@ -87,10 +87,10 @@ You can call .NET Framework type members, including methods, properties, and con
      `MethodPropertyName` represents the name of the method or property that you want to call, and `arguments` represents any arguments of the method or property.  
   
     > [!IMPORTANT]  
-    >  Some types in the [System](http://go.microsoft.com/fwlink/?LinkID=216777&clcid=0x409) namespace of the .NET Framework class library are automatically converted to C/AL types. You cannot assign values to .NET Framework variables for these types. For more information, see [Mapping Between .NET Framework and C\-AL Types](Mapping-Between-.NET-Framework-and-C-AL-Types.md).  
+    >  Some types in the [System](http://go.microsoft.com/fwlink/?LinkID=216777&clcid=0x409) namespace of the .NET Framework class library are automatically converted to C/AL types. You cannot assign values to .NET Framework variables for these types. For more information, see [Mapping Between .NET Framework and C-AL Types](Mapping-Between-.NET-Framework-and-C-AL-Types.md).  
   
     > [!TIP]  
-    >  Methods can be overloaded. Therefore see the description at the bottom of the **C/AL Symbol Menu**, which shows the parameter and return types for each method. Also, method and property names that are longer than 128 characters will be truncated, and you cannot compile the [!INCLUDE[navnow](includes/navnow_md.md)] object. For more information, see [Calling .NET Framework Members from C\-AL](Calling-.NET-Framework-Members-from-C-AL.md).  
+    >  Methods can be overloaded. Therefore see the description at the bottom of the **C/AL Symbol Menu**, which shows the parameter and return types for each method. Also, method and property names that are longer than 128 characters will be truncated, and you cannot compile the [!INCLUDE[navnow](includes/navnow_md.md)] object. For more information, see [Calling .NET Framework Members from C-AL](Calling-.NET-Framework-Members-from-C-AL.md).  
   
 ## Example  
  The following code example uses .NET Framework interoperability to display headlines from the RSS feed http:\/\/blogs.msdn.com\/inside\_office\_online\/rss.xml. This example accesses classes in the **System.XML** assembly that is found in Global Assembly Cache. To implement this example, create a codeunit that has the following local variables:  
@@ -133,6 +133,6 @@ END
   
 ## See Also  
  [Extending Microsoft Dynamics NAV Using Microsoft .NET Framework Interoperability](Extending-Microsoft-Dynamics-NAV-Using-Microsoft-.NET-Framework-Interoperability.md)   
- [Mapping Between .NET Framework and C\-AL Types](Mapping-Between-.NET-Framework-and-C-AL-Types.md)   
+ [Mapping Between .NET Framework and C-AL Types](Mapping-Between-.NET-Framework-and-C-AL-Types.md)   
  [Serializing .NET Framework Types](Serializing-.NET-Framework-Types.md)   
  [Handling Events with Microsoft .NET Framework Interoperability](Handling-Events-with-Microsoft-.NET-Framework-Interoperability.md)

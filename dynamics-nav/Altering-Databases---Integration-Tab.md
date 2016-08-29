@@ -30,9 +30,9 @@ Specifies database settings that determine how [!INCLUDE[navnow](includes/navnow
   
 ## See Also  
  [How to: Alter Databases](How%20to:%20Alter%20Databases.md)   
- [Altering Databases \- General Tab](Altering-Databases---General-Tab.md)   
- [Altering Databases \- Database Files Tab](Altering-Databases---Database-Files-Tab.md)   
- [Altering Databases \- Transaction Log Files Tab](Altering-Databases---Transaction-Log-Files-Tab.md)   
- [Altering Databases \- Collation Tab](Altering-Databases---Collation-Tab.md)   
- [Altering Databases \- Options Tab](Altering-Databases---Options-Tab.md)   
- [Altering Databases \- Advanced Tab](Altering-Databases---Advanced-Tab.md)
+ [Altering Databases - General Tab](Altering-Databases---General-Tab.md)   
+ [Altering Databases - Database Files Tab](Altering-Databases---Database-Files-Tab.md)   
+ [Altering Databases - Transaction Log Files Tab](Altering-Databases---Transaction-Log-Files-Tab.md)   
+ [Altering Databases - Collation Tab](Altering-Databases---Collation-Tab.md)   
+ [Altering Databases - Options Tab](Altering-Databases---Options-Tab.md)   
+ [Altering Databases - Advanced Tab](Altering-Databases---Advanced-Tab.md)

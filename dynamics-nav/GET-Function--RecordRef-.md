@@ -37,7 +37,7 @@ Gets a record based on the ID of the record.
   
  **true** if the record was found; otherwise, **false**.  
   
- If you omit this optional return value and if the record cannot be found, then a run\-time error occurs. If you include the return value, you must handle any errors.  
+ If you omit this optional return value and if the record cannot be found, then a run-time error occurs. If you include the return value, you must handle any errors.  
   
 ## Remarks  
  This function always uses the primary key for the table. It ignores any filters that are set, except security filters. Security filters are applied or ignored based on the Security Filter Mode. The current key and filters are not changed after you call this function. For more information, see [Security Filter Modes](Security-Filter-Modes.md).  

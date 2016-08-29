@@ -24,7 +24,7 @@ When you create a user in [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you
   
 -   **Limited User**  
   
-     Limited User licenses provide users full read, but limited write, capabilities to all of the licensed solution functionality through any and all modes of access including the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. The Limited User license is designed to give customers a lower\-cost alternative for extending ERP to users who only require limited access to the [!INCLUDE[navnow](includes/navnow_md.md)] application:  
+     Limited User licenses provide users full read, but limited write, capabilities to all of the licensed solution functionality through any and all modes of access including the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. The Limited User license is designed to give customers a lower-cost alternative for extending ERP to users who only require limited access to the [!INCLUDE[navnow](includes/navnow_md.md)] application:  
   
     -   Read access to data contained in the solution through any client accessing the application, including but not limited to the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the [!INCLUDE[nav_web](includes/nav_web_md.md)], and web services.  
   
@@ -34,7 +34,7 @@ When you create a user in [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you
   
 -   **Device Only User**  
   
-     Device\-only licenses enable a user to connect, provided there is an enabled device available to use. Devices can be full or limited. Device users have either full or limited access, as determined by the device.  
+     Device-only licenses enable a user to connect, provided there is an enabled device available to use. Devices can be full or limited. Device users have either full or limited access, as determined by the device.  
   
 -   **Windows Group**  
   

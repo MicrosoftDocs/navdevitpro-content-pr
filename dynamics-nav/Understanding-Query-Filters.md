@@ -136,6 +136,6 @@ currQuery.SETFILTER(Location_Code, '=RED');
  [How to: Set Up Filter Rows in Query Designer](How%20to:%20Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md)   
  [Understanding Data Item Links](Understanding-Data-Item-Links.md)   
  [Understanding Query Totals and Grouping](Understanding-Query-Totals-and-Grouping.md)   
- [Working with Queries in C\-AL](Working-with-Queries-in-C-AL.md)   
+ [Working with Queries in C-AL](Working-with-Queries-in-C-AL.md)   
  [SETFILTER Function \(Query\)](SETFILTER-Function--Query-.md)   
  [SETRANGE Function \(Query\)](SETRANGE-Function--Query-.md)

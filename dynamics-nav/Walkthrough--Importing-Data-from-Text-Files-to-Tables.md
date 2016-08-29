@@ -74,7 +74,7 @@ LS-10PC     59.59
   
 8.  In the **Node Type** column, verify that **Element** is selected.  
   
-9. In the **Source Type** column, select **Table** from the drop\-down list. This node represents a record in the **Item** table.  
+9. In the **Source Type** column, select **Table** from the drop-down list. This node represents a record in the **Item** table.  
   
 10. In the **Data Source** column, choose the up arrow, select the **Item** table \(27\) from the **Table List** window and then choose the **OK** button. The data will be imported to the **Item** table.  
   
@@ -110,25 +110,25 @@ LS-10PC     59.59
   
 ##### To set properties  
   
-1.  In Object Designer, select an empty row, and on the **View** menu, choose **Properties** to open the **XMLport\-Properties** window.  
+1.  In Object Designer, select an empty row, and on the **View** menu, choose **Properties** to open the **XMLport-Properties** window.  
   
-2.  In the **XMLport\-Properties** window, locate the [Direction Property](Direction-Property.md), choose the arrow in the **Value** column and then set value to **Import**. This defines the XMLport to import.  
+2.  In the **XMLport-Properties** window, locate the [Direction Property](Direction-Property.md), choose the arrow in the **Value** column and then set value to **Import**. This defines the XMLport to import.  
   
-3.  In the **XMLport\-Properties** window, locate the [Format Property \(XMLports\)](Format-Property--XMLports-.md) property, and then set the **Value** column to **Fixed Text**. Data in fixed width text files use a specified amount of space.  
+3.  In the **XMLport-Properties** window, locate the [Format Property \(XMLports\)](Format-Property--XMLports-.md) property, and then set the **Value** column to **Fixed Text**. Data in fixed width text files use a specified amount of space.  
   
 4.  Select the **ItemRecord** row, and on the **View** menu, choose **Properties**.  
   
-5.  In the **ItemRecord \- Properties** window, locate the [AutoSave Property](AutoSave-Property.md), and then verify that the **Value** column is set to **Yes**. This allows the data to be automatically saved to the table.to the table.  
+5.  In the **ItemRecord - Properties** window, locate the [AutoSave Property](AutoSave-Property.md), and then verify that the **Value** column is set to **Yes**. This allows the data to be automatically saved to the table.to the table.  
   
 6.  Locate the [AutoUpdate Property](AutoUpdate-Property.md), and then set the **Value** column to **Yes**. This allows the data in the unit price field to be updated.  
   
 7.  Select the **No.** row, and then on the **View** menu, choose **Properties**.  
   
-8.  In the **No. \- Properties** window, locate the [Width Property \(XMLport\)](Width-Property--XMLport-.md), and then set the **Value** column to **8**. This defines the width of the **No.** field in the file.  
+8.  In the **No. - Properties** window, locate the [Width Property \(XMLport\)](Width-Property--XMLport-.md), and then set the **Value** column to **8**. This defines the width of the **No.** field in the file.  
   
 9. Select the **UnitPrice** row, and on the **View** menu, choose **Properties**.  
   
-10. In the **Unit Price \- Properties** window, locate the [Width Property \(XMLport\)](Width-Property--XMLport-.md), and then set the Value column to **10**. This defines the width of the data in the file.  
+10. In the **Unit Price - Properties** window, locate the [Width Property \(XMLport\)](Width-Property--XMLport-.md), and then set the Value column to **10**. This defines the width of the data in the file.  
   
     > [!NOTE]  
     >  The width that you enter must be equal or greater than the width of the data with most characters in the column. If the width of the data in the column is less than the width you specified, then the extra space is ignored.  
@@ -149,9 +149,9 @@ LS-10PC     59.59
   
 #### To run the XMLport from Object Designer  
   
-1.  In Object Designer, select the XMLport you just created \(50003\), and then choose the **Run** button. The **Edit\-NewItemPrice** page is displayed.  
+1.  In Object Designer, select the XMLport you just created \(50003\), and then choose the **Run** button. The **Edit-NewItemPrice** page is displayed.  
   
-2.  On the **Edit \- NewItemPrice** page, choose the **OK** button. The **Import** window is displayed.  
+2.  On the **Edit - NewItemPrice** page, choose the **OK** button. The **Import** window is displayed.  
   
 3.  From the **Import** window, browse to the location on your computer where the file that you want to import is located.  
   

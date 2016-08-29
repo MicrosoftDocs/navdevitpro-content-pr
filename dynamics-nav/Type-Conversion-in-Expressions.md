@@ -23,9 +23,9 @@ integerVar := 56000; // An integer variable
 Sum := CharVar + integerVar;  
 ```  
   
- The last statement involves one or two type conversions. The rightmost statement involves the evaluation of the expression CharVar \+ integerVar \(char \+ integer\). In order to evaluate this expression, the first operand \(CharVar\) will have to be converted from char to integer. The addition operator will then return an integer result.  
+ The last statement involves one or two type conversions. The rightmost statement involves the evaluation of the expression CharVar + integerVar \(char + integer\). In order to evaluate this expression, the first operand \(CharVar\) will have to be converted from char to integer. The addition operator will then return an integer result.  
   
- If the type of the leftmost variable has been declared as, for example, decimal, the result must be converted from integer to decimal before its value can be assigned to Sum. For more information, see the “Assignment and Type Conversion” section in [C\-AL Variables](C-AL-Variables.md).  
+ If the type of the leftmost variable has been declared as, for example, decimal, the result must be converted from integer to decimal before its value can be assigned to Sum. For more information, see the “Assignment and Type Conversion” section in [C-AL Variables](C-AL-Variables.md).  
   
  The following examples illustrate the type conversions which can occur when expressions are evaluated. The following guidelines are used:  
   
@@ -48,13 +48,13 @@ Sum := CharVar + integerVar;
 integer + decimal  
 ```  
   
- This expression contains two sub\-expressions of different data types. Before it can add these two sub\-expressions, the system must convert the leftmost sub\-expression to decimal.  
+ This expression contains two sub-expressions of different data types. Before it can add these two sub-expressions, the system must convert the leftmost sub-expression to decimal.  
   
 ```  
 decimal + decimal  
 ```  
   
- When the leftmost sub\-expression has been converted, the expression can be evaluated, and the resulting data type will be decimal.  
+ When the leftmost sub-expression has been converted, the expression can be evaluated, and the resulting data type will be decimal.  
   
 ```  
 decimal + decimal = decimal  
@@ -67,7 +67,7 @@ decimal + decimal = decimal
 text + code  
 ```  
   
- This expression contains two sub\-expressions that must be concatenated. To do this, the system must convert the sub\-expression of the least general data type \(code\) to the most general data type \(text\).  
+ This expression contains two sub-expressions that must be concatenated. To do this, the system must convert the sub-expression of the least general data type \(code\) to the most general data type \(text\).  
   
 ```  
 text + text  

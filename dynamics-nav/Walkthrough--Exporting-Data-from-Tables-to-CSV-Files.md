@@ -46,11 +46,11 @@ XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)
   
 3.  In XMLport Designer, select an empty row.  
   
-4.  On the **View** menu, choose **Properties** to open the **XMLport\-Properties** window.  
+4.  On the **View** menu, choose **Properties** to open the **XMLport-Properties** window.  
   
-5.  In the **XMLport\-Properties** window, locate the [Direction Property](Direction-Property.md), choose the arrow in the value column, and then set the **Value** column to **Export**.  
+5.  In the **XMLport-Properties** window, locate the [Direction Property](Direction-Property.md), choose the arrow in the value column, and then set the **Value** column to **Export**.  
   
-6.  In the **XMLport\-Properties** window, locate the [Format Property \(XMLports\)](Format-Property--XMLports-.md) property, and then set the **Value** column to **Variable Text**.  
+6.  In the **XMLport-Properties** window, locate the [Format Property \(XMLports\)](Format-Property--XMLports-.md) property, and then set the **Value** column to **Variable Text**.  
   
     > [!WARNING]  
     >  When you export variable text files, the text in the fields will use as much space as needed to hold the all of the text.  
@@ -63,7 +63,7 @@ XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)
   
      You can change the default values of the properties that you have just set to any character. However, for this walkthrough accept the default values.  
   
-10. Close the **XMLport\-Properties** window.  
+10. Close the **XMLport-Properties** window.  
   
 11. In XMLport Designer, in the first row, in the **Node Name** column, enter **ItemsFile**.  
   
@@ -75,9 +75,9 @@ XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)
   
 15. In the **Node Type** column, verify that **Element** is selected.  
   
-16. In the **Source Type** column, choose the drop\-down arrow, and then select **Table**. This node represents a record in the **Item** table.  
+16. In the **Source Type** column, choose the drop-down arrow, and then select **Table**. This node represents a record in the **Item** table.  
   
-17. In the **Data Source** column, choose the drop\-down arrow, select the **Item** table \(27\) from the **Table List** window, and then choose the **OK** button. The data will be exported from the **Item** table.  
+17. In the **Data Source** column, choose the drop-down arrow, select the **Item** table \(27\) from the **Table List** window, and then choose the **OK** button. The data will be exported from the **Item** table.  
   
 18. Select the **Item** row and then use the right arrow to indent the row one time to make it a subset of the **ItemsFile** element.  
   
@@ -118,20 +118,20 @@ XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)
   
 #### To run the XMLport from Object Designer  
   
-1.  In Object Designer, select the XMLport that you just created \(50003\), and then choose the **RUN** button. The **Edit\-ItemsXMLport** page is displayed.  
+1.  In Object Designer, select the XMLport that you just created \(50003\), and then choose the **RUN** button. The **Edit-ItemsXMLport** page is displayed.  
   
-2.  On the **Edit\-ItemsXMLport** page, choose the **OK** button. The **Export File** dialog box is displayed.  
+2.  On the **Edit-ItemsXMLport** page, choose the **OK** button. The **Export File** dialog box is displayed.  
   
 3.  In the **Export File** dialog box, choose the **Save** button. The **Export** window opens.  
   
 4.  In the **Export** window, browse to the location on your computer where you want to save the file.  
   
-5.  Verify that the **File name** text box is set to the name of your XMLport and then verify that in the **Save as type** drop\-down box, **Text Files \(\*.txt,\*.csv\)** is selected.  
+5.  Verify that the **File name** text box is set to the name of your XMLport and then verify that in the **Save as type** drop-down box, **Text Files \(\*.txt,\*.csv\)** is selected.  
   
 6.  Choose the **Save** button to export and save the file.  
   
     > [!NOTE]  
-    >  On the **Edit\-ItemsXMLport** request page, you can set filters to select specific records that you want to export.  
+    >  On the **Edit-ItemsXMLport** request page, you can set filters to select specific records that you want to export.  
   
 7.  After the export is complete, browse to the location where you saved the file and open it. Note that all the records in the table are separated by a new line and each field in the record is delimited by using quotation marks \( “\) and separated by a comma \(,\). Depending on the regional setting of the [!INCLUDE[nav_server](includes/nav_server_md.md)], the data in the unit price field may contain a comma. If you delimit the data in the fields, the data is easier to identify and read. You can change the field separator.  
   

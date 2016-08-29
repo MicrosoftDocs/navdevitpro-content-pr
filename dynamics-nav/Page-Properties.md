@@ -19,7 +19,7 @@ This topic lists properties that apply to the page object, controls, and actions
   
 -   [AutoSplitKey Property](AutoSplitKey-Property.md)  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionML Property](CaptionML-Property.md)  
   
@@ -35,7 +35,7 @@ This topic lists properties that apply to the page object, controls, and actions
   
 -   [Description Property](Description-Property.md)  
   
--   [Editable Property\-duplicate](Editable-Property-duplicate.md)  
+-   [Editable Property-duplicate](Editable-Property-duplicate.md)  
   
 -   [InsertAllowed Property](InsertAllowed-Property.md)  
   
@@ -49,7 +49,7 @@ This topic lists properties that apply to the page object, controls, and actions
   
 -   [MultipleNewLines Property](MultipleNewLines-Property.md)  
   
--   [Name Property\-duplicate](Name-Property-duplicate.md)  
+-   [Name Property-duplicate](Name-Property-duplicate.md)  
   
 -   [PageType Property](PageType-Property.md)  
   
@@ -74,7 +74,7 @@ This topic lists properties that apply to the page object, controls, and actions
 ## Container Control Properties  
  The following properties apply to **Container** controls on a page.  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionML Property](CaptionML-Property.md)  
   
@@ -84,20 +84,20 @@ This topic lists properties that apply to the page object, controls, and actions
   
 -   [ID Property](ID-Property.md)  
   
--   [Name Property\-duplicate](Name-Property-duplicate.md)  
+-   [Name Property-duplicate](Name-Property-duplicate.md)  
   
 ## Group Control Properties  
  The following properties apply to **Group** controls on a page.  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionML Property](CaptionML-Property.md)  
   
 -   [Description Property](Description-Property.md)  
   
--   [Editable Property\-duplicate](Editable-Property-duplicate.md)  
+-   [Editable Property-duplicate](Editable-Property-duplicate.md)  
   
--   [Enabled Property\-duplicate](Enabled-Property-duplicate.md)  
+-   [Enabled Property-duplicate](Enabled-Property-duplicate.md)  
   
 -   [FreezeColumnID Property](FreezeColumnID-Property.md)  
   
@@ -113,11 +113,11 @@ This topic lists properties that apply to the page object, controls, and actions
   
 -   [Layout Property](Layout-Property.md)  
   
--   [Name Property\-duplicate](Name-Property-duplicate.md)  
+-   [Name Property-duplicate](Name-Property-duplicate.md)  
   
 -   [ShowAsTree Property](ShowAsTree-Property.md)  
   
--   [Visible Property\-duplicate](Visible-Property-duplicate.md)  
+-   [Visible Property-duplicate](Visible-Property-duplicate.md)  
   
 ## Field Control Properties  
  The following properties apply to **Field** controls on a page.  
@@ -134,7 +134,7 @@ This topic lists properties that apply to the page object, controls, and actions
   
 -   [BlankZero Property](BlankZero-Property.md)  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -158,9 +158,9 @@ This topic lists properties that apply to the page object, controls, and actions
   
 -   [DrillDownPageID Property](DrillDownPageID-Property.md)  
   
--   [Editable Property\-duplicate](Editable-Property-duplicate.md)  
+-   [Editable Property-duplicate](Editable-Property-duplicate.md)  
   
--   [Enabled Property\-duplicate](Enabled-Property-duplicate.md)  
+-   [Enabled Property-duplicate](Enabled-Property-duplicate.md)  
   
 -   [ExtendedDataType Property](ExtendedDataType-Property.md)  
   
@@ -180,7 +180,7 @@ This topic lists properties that apply to the page object, controls, and actions
   
 -   [MultiLine Property](MultiLine-Property.md)  
   
--   [Name Property\-duplicate](Name-Property-duplicate.md)  
+-   [Name Property-duplicate](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -200,7 +200,7 @@ This topic lists properties that apply to the page object, controls, and actions
   
 -   [SourceExpr Property](SourceExpr-Property.md)  
   
--   [Style Property\-duplicate](Style-Property-duplicate.md)  
+-   [Style Property-duplicate](Style-Property-duplicate.md)  
   
 -   [StyleExpr Property](StyleExpr-Property.md)  
   
@@ -212,7 +212,7 @@ This topic lists properties that apply to the page object, controls, and actions
   
 -   [ValuesAllowed Property](ValuesAllowed-Property.md)  
   
--   [Visible Property\-duplicate](Visible-Property-duplicate.md)  
+-   [Visible Property-duplicate](Visible-Property-duplicate.md)  
   
 -   [Width Property](Width-Property.md)  
   
@@ -221,7 +221,7 @@ This topic lists properties that apply to the page object, controls, and actions
   
 -   [AccessByPermission Property](AccessByPermission-Property.md)  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionML Property](CaptionML-Property.md)  
   
@@ -229,13 +229,13 @@ This topic lists properties that apply to the page object, controls, and actions
   
 -   [Description Property](Description-Property.md)  
   
--   [Editable Property\-duplicate](Editable-Property-duplicate.md)  
+-   [Editable Property-duplicate](Editable-Property-duplicate.md)  
   
--   [Enabled Property\-duplicate](Enabled-Property-duplicate.md)  
+-   [Enabled Property-duplicate](Enabled-Property-duplicate.md)  
   
 -   [ID Property](ID-Property.md)  
   
--   [Name Property\-duplicate](Name-Property-duplicate.md)  
+-   [Name Property-duplicate](Name-Property-duplicate.md)  
   
 -   [PagePartID Property](PagePartID-Property.md)  
   
@@ -257,12 +257,12 @@ This topic lists properties that apply to the page object, controls, and actions
   
 -   [UpdatePropagation Property](UpdatePropagation-Property.md)  
   
--   [Visible Property\-duplicate](Visible-Property-duplicate.md)  
+-   [Visible Property-duplicate](Visible-Property-duplicate.md)  
   
 ## ActionContainer Properties  
  The following properties apply to **ActionContainer** on a page.  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionML Property](CaptionML-Property.md)  
   
@@ -270,33 +270,33 @@ This topic lists properties that apply to the page object, controls, and actions
   
 -   [ID Property](ID-Property.md)  
   
--   [Name Property\-duplicate](Name-Property-duplicate.md)  
+-   [Name Property-duplicate](Name-Property-duplicate.md)  
   
 ## ActionGroup Properties  
  The following properties apply to **ActionGroups**.  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionML Property](CaptionML-Property.md)  
   
 -   [Description Property](Description-Property.md)  
   
--   [Enabled Property\-duplicate](Enabled-Property-duplicate.md)  
+-   [Enabled Property-duplicate](Enabled-Property-duplicate.md)  
   
 -   [ID Property](ID-Property.md)  
   
 -   [Image Property](Image-Property.md)  
   
--   [Name Property\-duplicate](Name-Property-duplicate.md)  
+-   [Name Property-duplicate](Name-Property-duplicate.md)  
   
--   [Visible Property\-duplicate](Visible-Property-duplicate.md)  
+-   [Visible Property-duplicate](Visible-Property-duplicate.md)  
   
 ## Action Properties  
  The following properties apply to **Actions**.  
   
 -   [AccessByPermission Property](AccessByPermission-Property.md)  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionML Property](CaptionML-Property.md)  
   
@@ -304,7 +304,7 @@ This topic lists properties that apply to the page object, controls, and actions
   
 -   [Ellipsis Property](Ellipsis-Property.md)  
   
--   [Enabled Property\-duplicate](Enabled-Property-duplicate.md)  
+-   [Enabled Property-duplicate](Enabled-Property-duplicate.md)  
   
 -   [ID Property](ID-Property.md)  
   
@@ -312,7 +312,7 @@ This topic lists properties that apply to the page object, controls, and actions
   
 -   [InFooterBar Property](InFooterBar-Property.md)  
   
--   [Name Property\-duplicate](Name-Property-duplicate.md)  
+-   [Name Property-duplicate](Name-Property-duplicate.md)  
   
 -   [Promoted Property](Promoted-Property.md)  
   
@@ -340,12 +340,12 @@ This topic lists properties that apply to the page object, controls, and actions
   
 -   [ToolTipML Property](ToolTipML-Property.md)  
   
--   [Visible Property\-duplicate](Visible-Property-duplicate.md)  
+-   [Visible Property-duplicate](Visible-Property-duplicate.md)  
   
 ## Separator Properties  
  The following properties apply to **Separators**.  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionML Property](CaptionML-Property.md)  
   

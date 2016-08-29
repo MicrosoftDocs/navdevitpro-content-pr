@@ -48,7 +48,7 @@ This topic explains some important guidelines for working with the GridLayout an
   
 |Control Type|Control Subtype|  
 |------------------|---------------------|  
-|Add\-Ins||  
+|Add-Ins||  
 |Parts|Chart Parts|  
 ||System Parts|  
 |Containers \(level 0 is supported\)||  

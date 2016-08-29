@@ -31,7 +31,7 @@ Record.LOCKTABLE
  Because all write operations automatically lock the table that is being used, **LOCKTABLE** appears unnecessary. However, you could have a transaction in which an application wants to inspect data and then only possibly change it. You require a guarantee that the data being changed has not been modified by other applications since the read operation. The solution is to explicitly lock the table before the read operation. This guarantees that no other application makes changes between the read operation and the possible write operation.  
   
 ## Example  
- This example uses pseudo\-language to show the scope of write locks. Both an explicit lock and an automatic lock are illustrated.  
+ This example uses pseudo-language to show the scope of write locks. Both an explicit lock and an automatic lock are illustrated.  
   
  The first line \(1\) explicitly locks table A. If this explicit lock was not set on table A, the Database Management System \(DBMS\) would automatically lock this table when a record was inserted \(3\). Table B is not locked explicitly, but is locked automatically by the DBMS when a record is inserted \(4\). Both locks are active until the system exits the C/AL code module \(5\).  
   

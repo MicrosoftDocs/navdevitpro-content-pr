@@ -23,7 +23,7 @@ To view [!INCLUDE[navnow](includes/navnow_md.md)] in multiple languages, you ins
   
 -   Translated strings for [!INCLUDE[nav_server](includes/nav_server_md.md)], such as for logs and error reporting.  
   
--   Translated strings for the Microsoft Office Outlook Add\-in for [!INCLUDE[navnow](includes/navnow_md.md)].  
+-   Translated strings for the Microsoft Office Outlook Add-in for [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 -   Translated strings for charts on Role Centers in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
@@ -36,7 +36,7 @@ To view [!INCLUDE[navnow](includes/navnow_md.md)] in multiple languages, you ins
  If you have customized [!INCLUDE[navnow](includes/navnow_md.md)], then after you install the appropriate language module, you should also translate the strings for the objects that you added or modified. For more information, see [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How%20to:%20Add%20Translated%20Strings%20By%20Importing%20and%20Exporting%20Multilanguage%20Files.md) and [How to: Add Translated Strings By Using the Multilanguage Editor](How%20to:%20Add%20Translated%20Strings%20By%20Using%20the%20Multilanguage%20Editor.md).  
   
 ### Language Subdirectory  
- When you install a language module, a subdirectory for the language is created in the [!INCLUDE[navnow](includes/navnow_md.md)] directory structure. The .stx, .etx, .chm, and .hh files for each language are automatically installed in the subdirectory. The name of the subdirectory is the three\-letter language code \(Abbreviated Name\) that is used by Windows for the particular language. For more information, see [Windows Language Virtual Table](Windows-Language-Virtual-Table.md).  
+ When you install a language module, a subdirectory for the language is created in the [!INCLUDE[navnow](includes/navnow_md.md)] directory structure. The .stx, .etx, .chm, and .hh files for each language are automatically installed in the subdirectory. The name of the subdirectory is the three-letter language code \(Abbreviated Name\) that is used by Windows for the particular language. For more information, see [Windows Language Virtual Table](Windows-Language-Virtual-Table.md).  
   
 ## See Also  
  [Multilanguage Development](Multilanguage-Development.md)   

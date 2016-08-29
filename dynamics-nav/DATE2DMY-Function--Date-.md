@@ -32,9 +32,9 @@ Number := DATE2DMY(Date, What)
   
  Specifies what the function should return. The valid options are 1, 2, and 3.  
   
- The value 1 corresponds to Day \(1\-31\).  
+ The value 1 corresponds to Day \(1-31\).  
   
- The value 2 corresponds to Month \(1\-12\).  
+ The value 2 corresponds to Month \(1-12\).  
   
  The value 3 corresponds to Year.  
   

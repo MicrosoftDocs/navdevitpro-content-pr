@@ -11,7 +11,7 @@ ms.assetid: 912e5da2-8ba1-481f-aeae-9f56bc603d4e
 caps.latest.revision: 16
 ---
 # Developing for the Microsoft Dynamics NAV Web Client
-[!INCLUDE[nav_web](includes/nav_web_md.md)] is a web\-based application that lets users interact with [!INCLUDE[navnow](includes/navnow_md.md)] data over the network from a web browser. The [!INCLUDE[nav_web](includes/nav_web_md.md)] user interface resembles the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. Use the following guidelines to develop [!INCLUDE[nav_web](includes/nav_web_md.md)] applications.  
+[!INCLUDE[nav_web](includes/nav_web_md.md)] is a web-based application that lets users interact with [!INCLUDE[navnow](includes/navnow_md.md)] data over the network from a web browser. The [!INCLUDE[nav_web](includes/nav_web_md.md)] user interface resembles the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. Use the following guidelines to develop [!INCLUDE[nav_web](includes/nav_web_md.md)] applications.  
   
 -   [Understand the Business Scenario](Developing-for-the-Microsoft-Dynamics-NAV-Web-Client.md#UnderstandProblem)  
   
@@ -41,7 +41,7 @@ caps.latest.revision: 16
   
      You use the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to create objects, such as tables, pages and reports, and implement the business logic for your application.  
   
-     For more information, see [How to: Install C\-SIDE Development Environment](How%20to:%20Install%20C-SIDE%20Development%20Environment.md).  
+     For more information, see [How to: Install C-SIDE Development Environment](How%20to:%20Install%20C-SIDE%20Development%20Environment.md).  
   
 -   [!INCLUDE[nav_windows](includes/nav_windows_md.md)] \(optional\)  
   
@@ -51,7 +51,7 @@ caps.latest.revision: 16
   
 -   [!INCLUDE[nav_admin](includes/nav_admin_md.md)] \(optional\)  
   
-     The [!INCLUDE[nav_admin](includes/nav_admin_md.md)] is a Microsoft Management Console \(MMC\) snap\-in that you can use to manage the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that is used by the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
+     The [!INCLUDE[nav_admin](includes/nav_admin_md.md)] is a Microsoft Management Console \(MMC\) snap-in that you can use to manage the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that is used by the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
      For more information, see [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
   

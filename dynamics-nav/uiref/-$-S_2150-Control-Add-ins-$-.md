@@ -12,10 +12,10 @@ caps.latest.revision: 10
 manager: edupont
 ---
 # ($ S_2150 Control Add-ins $)
-Contains control add\-ins that have been registered.  
+Contains control add-ins that have been registered.  
 
- To register an add\-in, you include it on the **Control Add\-ins** page in [!INCLUDE[navnow](../includes/navnow_md.md)]. A *control add\-in* is a Microsoft .NET Framework assembly that enables you to add custom functionality to the [!INCLUDE[navnow](../includes/navnow_md.md)] clients. After you have registered a control add\-in, you can use it on [!INCLUDE[navnow](../includes/navnow_md.md)] pages. You select the control add\-in from this window and add it to a field control on the page.  
+ To register an add-in, you include it on the **Control Add-ins** page in [!INCLUDE[navnow](../includes/navnow_md.md)]. A *control add-in* is a Microsoft .NET Framework assembly that enables you to add custom functionality to the [!INCLUDE[navnow](../includes/navnow_md.md)] clients. After you have registered a control add-in, you can use it on [!INCLUDE[navnow](../includes/navnow_md.md)] pages. You select the control add-in from this window and add it to a field control on the page.  
 
 ## See Also  
- [Extending Any Microsoft Dynamics NAV Client Using Control Add\-ins](../Extending-Any-Microsoft-Dynamics-NAV-Client-Using-Control-Add-ins.md)   
- [Extending the Windows Client Using Control Add\-ins](../Extending-the-Windows-Client-Using-Control-Add-ins.md)
+ [Extending Any Microsoft Dynamics NAV Client Using Control Add-ins](../Extending-Any-Microsoft-Dynamics-NAV-Client-Using-Control-Add-ins.md)   
+ [Extending the Windows Client Using Control Add-ins](../Extending-the-Windows-Client-Using-Control-Add-ins.md)

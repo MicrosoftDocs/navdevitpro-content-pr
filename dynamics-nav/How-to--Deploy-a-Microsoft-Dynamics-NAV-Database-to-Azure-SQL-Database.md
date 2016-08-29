@@ -14,7 +14,7 @@ manager: edupont
 # How to: Deploy a Microsoft Dynamics NAV Database to Azure SQL Database
 This topic describes how you can deploy a [!INCLUDE[navnow](includes/navnow_md.md)] database to Microsoft Azure SQL Database.  
   
- To deploy a [!INCLUDE[navnow](includes/navnow_md.md)] database to Azure SQL Database, the database must be exported as a data\-tier application \(DAC\) file, which is known as a .bacpac file. This can be performed by using SQL Server Manager, as described in this topic.  
+ To deploy a [!INCLUDE[navnow](includes/navnow_md.md)] database to Azure SQL Database, the database must be exported as a data-tier application \(DAC\) file, which is known as a .bacpac file. This can be performed by using SQL Server Manager, as described in this topic.  
   
 > [!IMPORTANT]  
 >  To optimize, we recommend that the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that connects to the database is deployed on a virtual machine in Azure. Additionally, the virtual machine and SQL Database must be in the same Azure region.  

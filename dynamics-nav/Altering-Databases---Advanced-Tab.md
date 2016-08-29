@@ -31,10 +31,10 @@ Specifies how locking is handled in the database and specifies the start ID for 
   
 ## See Also  
  [How to: Alter Databases](How%20to:%20Alter%20Databases.md)   
- [Altering Databases \- General Tab](Altering-Databases---General-Tab.md)   
- [Altering Databases \- Database Files Tab](Altering-Databases---Database-Files-Tab.md)   
- [Altering Databases \- Transaction Log Files Tab](Altering-Databases---Transaction-Log-Files-Tab.md)   
- [Altering Databases \- Collation Tab](Altering-Databases---Collation-Tab.md)   
- [Altering Databases \- Options Tab](Altering-Databases---Options-Tab.md)   
- [Altering Databases \- Integration Tab](Altering-Databases---Integration-Tab.md)   
+ [Altering Databases - General Tab](Altering-Databases---General-Tab.md)   
+ [Altering Databases - Database Files Tab](Altering-Databases---Database-Files-Tab.md)   
+ [Altering Databases - Transaction Log Files Tab](Altering-Databases---Transaction-Log-Files-Tab.md)   
+ [Altering Databases - Collation Tab](Altering-Databases---Collation-Tab.md)   
+ [Altering Databases - Options Tab](Altering-Databases---Options-Tab.md)   
+ [Altering Databases - Integration Tab](Altering-Databases---Integration-Tab.md)   
  [How to: Specify the Start ID Offset of Elements on Objects](How%20to:%20Specify%20the%20Start%20ID%20Offset%20of%20Elements%20on%20Objects.md)

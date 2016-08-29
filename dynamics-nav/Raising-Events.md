@@ -29,14 +29,14 @@ After an event has been published by an event publisher function, you can modify
     |-------------------|--------------|-------------|  
     |Publisher|Codeunit|My Publisher|  
   
-2.  In C/AL code, add code on the **Address \- OnValidate \(\)** trigger to call the OnAddressLineChanged function.  
+2.  In C/AL code, add code on the **Address - OnValidate \(\)** trigger to call the OnAddressLineChanged function.  
   
     ```  
     Publisher.OnAddressLineChanged(Address);  
   
     ```  
   
- For step\-by\-step instructions for this example, see [Walkthrough: Publishing, Raising, and Subcribing to an Event in Microsoft Dynamics NAV](Walkthrough:%20Publishing,%20Raising,%20and%20Subcribing%20to%20an%20Event%20in%20Microsoft%20Dynamics%20NAV.md).  
+ For step-by-step instructions for this example, see [Walkthrough: Publishing, Raising, and Subcribing to an Event in Microsoft Dynamics NAV](Walkthrough:%20Publishing,%20Raising,%20and%20Subcribing%20to%20an%20Event%20in%20Microsoft%20Dynamics%20NAV.md).  
   
 ## See Also  
  [Publishing Events](Publishing-Events.md)   

@@ -22,7 +22,7 @@ The [!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)] support the automate
   
  You can specify the size of the virtual machine, such as Small, Medium, Large, or ExtraLarge. You can also scale the deployment to serve more than one customer by adding multiple [!INCLUDE[nav_server](includes/nav_server_md.md)] and [!INCLUDE[navnow](includes/navnow_md.md)] web server instances on the virtual machine.  
   
- To deploy this scenario, you can use the Example\-1VM.ps1 script that is available with the provisioning tools. For more information, see [Deploying Microsoft Dynamics NAV on One Virtual Machine Using Example\-1VM Script](Deploying-Microsoft-Dynamics-NAV-on-One-Virtual-Machine-Using-Example-1VM-Script.md).  
+ To deploy this scenario, you can use the Example-1VM.ps1 script that is available with the provisioning tools. For more information, see [Deploying Microsoft Dynamics NAV on One Virtual Machine Using Example-1VM Script](Deploying-Microsoft-Dynamics-NAV-on-One-Virtual-Machine-Using-Example-1VM-Script.md).  
   
 ## Deploying [!INCLUDE[navnow](includes/navnow_md.md)] on Two Virtual Machines  
  When you deploy [!INCLUDE[navnow](includes/navnow_md.md)] on a two virtual machines, the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)] are installed on one virtual machine, and the SQL Server and [!INCLUDE[navnow](includes/navnow_md.md)] database components are installed on another virtual machine.  
@@ -35,7 +35,7 @@ The [!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)] support the automate
   
  You can specify the size of the virtual machine, such as Small, Medium, Large, or ExtraLarge. To scale the deployment, you can add multiple [!INCLUDE[nav_server](includes/nav_server_md.md)] instances on the existing virtual machine that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] or you can add new virtual machines for the [!INCLUDE[nav_server](includes/nav_server_md.md)]. You configure the virtual machines to connect to the SQL Server virtual machine.  
   
- To deploy this scenario, you can use the Example\-2VM.ps1 script that is available with the provisioning tools. For more information, see [Deploying Microsoft Dynamics NAV on Two Virtual Machines Using Example\-2VM Script](Deploying-Microsoft-Dynamics-NAV-on-Two-Virtual-Machines-Using-Example-2VM-Script.md).  
+ To deploy this scenario, you can use the Example-2VM.ps1 script that is available with the provisioning tools. For more information, see [Deploying Microsoft Dynamics NAV on Two Virtual Machines Using Example-2VM Script](Deploying-Microsoft-Dynamics-NAV-on-Two-Virtual-Machines-Using-Example-2VM-Script.md).  
   
 ## See Also  
  [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   

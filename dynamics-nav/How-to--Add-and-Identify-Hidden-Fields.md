@@ -31,7 +31,7 @@ If you have hidden fields on a report, we recommend that you mark them so that t
   
 5.  Select the text box that you created. On the **View** menu, choose **Properties Window**.  
   
-6.  In the **Properties** window, under **Font**, set the **Color** property to **Yellow**, or select the yellow square from the drop\-down list.  
+6.  In the **Properties** window, under **Font**, set the **Color** property to **Yellow**, or select the yellow square from the drop-down list.  
   
 7.  In the **Properties** window, under **Position**, expand **Size**, and then set the **Width** property to a small width, such as **0.15cm**.  
   

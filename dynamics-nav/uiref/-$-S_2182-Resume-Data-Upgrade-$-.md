@@ -21,7 +21,7 @@ Specifies which **Upgrade** functions to rerun when you resume a data upgrade pr
 |[!INCLUDE[bp_tableoption](../includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|  
 |----------------------------------|---------------------------------------|  
 |**Resume All**|Specifies to run all **Upgrade** functions that failed or where cancelled during the data upgrade.|  
-|**Resume**|Specifies to run a specific **Upgrade** function in an upgrade codeunit. **Tip:**  To get a list of invoked functions, use the Get\-NAVDataUpgrade cmdlet from the [!INCLUDE[nav_shell](../includes/nav_shell_md.md)].|  
+|**Resume**|Specifies to run a specific **Upgrade** function in an upgrade codeunit. **Tip:**  To get a list of invoked functions, use the Get-NAVDataUpgrade cmdlet from the [!INCLUDE[nav_shell](../includes/nav_shell_md.md)].|  
 |**Codeunit**|Specifies the ID of the upgrade codeunit to run.|  
 |**Codeunit Method**|Specifies the name of the **Upgrade** function in the upgrade codeunit to run.|  
 |Company|Specifies the name of the [!INCLUDE[navnow](../includes/navnow_md.md)] company for which to run the Upgrade function.|  

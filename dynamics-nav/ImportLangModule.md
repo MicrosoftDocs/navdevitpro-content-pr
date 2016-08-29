@@ -111,7 +111,7 @@ finsql.exe command=importlangmodule, file=<importfile>, [servername=<server>,] [
  You can specify parameters in any order.  
   
 ## Example  
- This example shows how to run the ImportLangModule command to import a language module for Danish \(DAN\) to the *Demo Database NAV \(9\-0\)* database. The language module file path is *C:\\DANlanguagemodule.flm*.  
+ This example shows how to run the ImportLangModule command to import a language module for Danish \(DAN\) to the *Demo Database NAV \(9-0\)* database. The language module file path is *C:\\DANlanguagemodule.flm*.  
   
 ```  
 finsql.exe command=importlangmodule, file=C:\DANlanguagemodule.flm, servername=TestComputer01\NAVDEMO, database="Demo Database NAV (9-0)"  

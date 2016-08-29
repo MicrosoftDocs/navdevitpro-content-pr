@@ -36,4 +36,4 @@ This topic describes requirements and restrictions for compiling a table object 
   
     -   You are set up as an administrator on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
-         If the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] is installed on the same computer as [!INCLUDE[nav_server](includes/nav_server_md.md)], then you must also run the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] as an administrator. To do this, right\-click the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Development Environment link on your desktop, and then choose **Run as Administrator**.
+         If the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] is installed on the same computer as [!INCLUDE[nav_server](includes/nav_server_md.md)], then you must also run the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] as an administrator. To do this, right-click the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Development Environment link on your desktop, and then choose **Run as Administrator**.

@@ -111,7 +111,7 @@ In this walkthrough, you will learn how to create a basic page that displays a l
   
 #### To save and run the page  
   
-1.  From the **File** menu, choose **Save**, or press Ctrl \+ S.  
+1.  From the **File** menu, choose **Save**, or press Ctrl + S.  
   
      The **Save As** dialog box opens.  
   

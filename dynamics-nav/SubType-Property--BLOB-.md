@@ -23,7 +23,7 @@ Sets additional information about what will be contained in the field.
 |---------------|---------------------|  
 |**Bitmap**|For storing bitmaps|  
 |**Memo**|For storing memos|  
-|**User\-Defined \(default\)**|For user defined information|  
+|**User-Defined \(default\)**|For user defined information|  
   
 ## See Also  
  [Properties](Properties.md)

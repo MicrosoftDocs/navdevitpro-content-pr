@@ -29,7 +29,7 @@ Ok := Record.FIND([Which])
   
 -   If the record was found, then the record is returned in the *Record* parameter and any [FlowFields](FlowFields.md) in the record are set to zero. You must update the FlowFields using the [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md).  
   
--   If the record was not found and if you omitted the return value, a run\-time error occurs.  
+-   If the record was not found and if you omitted the return value, a run-time error occurs.  
   
  *Which*  
  Type: Text or code  
@@ -42,9 +42,9 @@ Ok := Record.FIND([Which])
   
 -   \<  to search for a record that is less than the key values  
   
--   \+  to search for the last record in the table \(\+ can only be used alone\)  
+-   +  to search for the last record in the table \(+ can only be used alone\)  
   
--   \-   to search for the first record in the table \(\- can only be used alone\)  
+-   -   to search for the first record in the table \(- can only be used alone\)  
   
  If this parameter contains '=', '\>' or '\<', then you must assign value to all fields of the current and primary keys before you call FIND.  
   
@@ -53,7 +53,7 @@ Ok := Record.FIND([Which])
   
  **true** if the record was found; otherwise, **false**.  
   
- If you omit this optional return value and if the record cannot be found, a run\-time error occurs. If you include a return value, you must handle any errors.  
+ If you omit this optional return value and if the record cannot be found, a run-time error occurs. If you include a return value, you must handle any errors.  
   
 ## Remarks  
  FIND retrieves the first record that meets the conditions set by *Which* and the filters associated with *Record*. The search path reflects the sort order defined by the current key. If the current key is not the primary key, several records might have the same values in current key fields. If this occurs, the sort order defined by the primary key as the search path is used.  
@@ -79,7 +79,7 @@ ELSE
 ```  
   
 ## Example  
- The following example defines a record variable that is named ItemRec. The **FIND** function uses the ‘\+’ parameter to find the last record in the table. If the record is found, then the item number, description, and unit price of the item are displayed in a message box. Otherwise, the message that specifies that the item was not found is displayed. This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
+ The following example defines a record variable that is named ItemRec. The **FIND** function uses the ‘+’ parameter to find the last record in the table. If the record is found, then the item number, description, and unit price of the item are displayed in a message box. Otherwise, the message that specifies that the item was not found is displayed. This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

@@ -11,7 +11,7 @@ ms.assetid: 81caea90-e090-412a-997a-25b9e78dab96
 caps.latest.revision: 4
 ---
 # How to: Mount a Tenant
-This topic describes how to mount a tenant database on a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance in a multitenant [!INCLUDE[navnow](includes/navnow_md.md)] deployment. To mount a tenant database, you use the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.Mount\-NAVTenant](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.Mount-NAVTenant) cmdlet of the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
+This topic describes how to mount a tenant database on a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance in a multitenant [!INCLUDE[navnow](includes/navnow_md.md)] deployment. To mount a tenant database, you use the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.Mount-NAVTenant](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.Mount-NAVTenant) cmdlet of the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
   
 > [!TIP]  
 >  You can also mount a tenant by using the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. For more information, see [How to: Mount or Dismount a Tenant on a Microsoft Dynamics Server Instance](How%20to:%20Mount%20or%20Dismount%20a%20Tenant%20on%20a%20Microsoft%20Dynamics%20Server%20Instance.md).  
@@ -22,7 +22,7 @@ This topic describes how to mount a tenant database on a [!INCLUDE[nav_server](i
   
     1.  Choose **Start**, in the **Search** box, type **[!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell**.  
   
-    2.  Right\-click the related link, and then choose **Run as Administrator**.  
+    2.  Right-click the related link, and then choose **Run as Administrator**.  
   
 2.  At the command prompt, type the following command:  
   
@@ -39,7 +39,7 @@ This topic describes how to mount a tenant database on a [!INCLUDE[nav_server](i
     |*\<MyDatabaseServer\>*|Specifies the name of the database server that hosts the [!INCLUDE[navnow](includes/navnow_md.md)] database that you want to mount against the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.|  
   
     > [!NOTE]  
-    >  The command that is shown includes only a subset of all the parameters of the Mount\-NavTenant cmdlet. For more information about the syntax and parameters, see [T:Microsoft.Dynamics.Nav.Management.Cmdlets.Mount\-NAVTenant](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.Mount-NAVTenant) topic in the Administration Cmdlets for [!INCLUDE[navnow](includes/navnow_md.md)] section of the Technical Reference.  
+    >  The command that is shown includes only a subset of all the parameters of the Mount-NavTenant cmdlet. For more information about the syntax and parameters, see [T:Microsoft.Dynamics.Nav.Management.Cmdlets.Mount-NAVTenant](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.Mount-NAVTenant) topic in the Administration Cmdlets for [!INCLUDE[navnow](includes/navnow_md.md)] section of the Technical Reference.  
   
 3.  Press Enter to run the cmdlet.  
   

@@ -33,7 +33,7 @@ This walkthrough uses a simple example scenario to demonstrate how to program ev
 -   [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 ## Story  
- When users change the address of a customer, you want to check that the address does not include invalid characters, which in this walkthrough is a plus sign \(\+\). To accomplish this, you will publish an event that is raised when the **Address** field on page **21 Customer Card** is changed. To handle the event when it is raised, you will add an event subscriber function that includes logic that checks the address value and returns a message to the user if it contains a plus sign.  
+ When users change the address of a customer, you want to check that the address does not include invalid characters, which in this walkthrough is a plus sign \(+\). To accomplish this, you will publish an event that is raised when the **Address** field on page **21 Customer Card** is changed. To handle the event when it is raised, you will add an event subscriber function that includes logic that checks the address value and returns a message to the user if it contains a plus sign.  
   
 > [!NOTE]  
 >  Most of the tasks are performed from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
@@ -109,7 +109,7 @@ This walkthrough uses a simple example scenario to demonstrate how to program ev
  You can now raise the event in the application.  
   
 ## Raising the Event  
- After you create the event publisher function to publish the event, you can add code to the application to raise the event where it is required. In this case, you want to raise the event when the **Address** field is changed on the page **21 Customer Card**. Therefore, you will add code to the **Address \- OnValidate\(\)** trigger in C/AL code of the page. Raising an event basically involves calling the event publisher function that publishes the event.  
+ After you create the event publisher function to publish the event, you can add code to the application to raise the event where it is required. In this case, you want to raise the event when the **Address** field is changed on the page **21 Customer Card**. Therefore, you will add code to the **Address - OnValidate\(\)** trigger in C/AL code of the page. Raising an event basically involves calling the event publisher function that publishes the event.  
   
 #### To raise the event  
   
@@ -131,7 +131,7 @@ This walkthrough uses a simple example scenario to demonstrate how to program ev
   
     5.  Close the **C/AL Globals** window.  
   
-3.  In C/AL code, add the following code on the **Address \- OnValidate\(\)** trigger to raise the event:  
+3.  In C/AL code, add the following code on the **Address - OnValidate\(\)** trigger to raise the event:  
   
     ```  
     Publisher.OnAddressLineChanged(Address);  

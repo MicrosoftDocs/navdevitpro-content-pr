@@ -14,7 +14,7 @@ manager: edupont
 # C-SIDE Reference Guide
 The topics in this section contain help on all functions, data types, properties, and triggers in [!INCLUDE[navnow](includes/navnow_md.md)]. They also provide general descriptions of some of the features and functionality that [!INCLUDE[navnow](includes/navnow_md.md)] supports.  
   
- In the Table of Contents, all [C\-AL Functions](C-AL-Functions.md) are grouped alphabetically according to the data type that they support or according to a category. Each data type topic contains a description of the data type.  
+ In the Table of Contents, all [C-AL Functions](C-AL-Functions.md) are grouped alphabetically according to the data type that they support or according to a category. Each data type topic contains a description of the data type.  
   
  [Properties](Properties.md) and [Triggers](Triggers.md) are also listed alphabetically.  
   
@@ -24,7 +24,7 @@ The topics in this section contain help on all functions, data types, properties
   
 ## In This Section  
   
--   [C\-AL Functions](C-AL-Functions.md)  
+-   [C-AL Functions](C-AL-Functions.md)  
   
 -   [Properties](Properties.md)  
   

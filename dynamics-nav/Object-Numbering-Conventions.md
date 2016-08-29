@@ -19,30 +19,30 @@ Each object and field in [!INCLUDE[navnow](includes/navnow_md.md)] is identified
   
 |Object number interval|Description|  
 |----------------------------|-----------------|  
-|1 \- 9,999|[!INCLUDE[demolong](includes/demolong_md.md)] design area|  
-|10,000 \- 49,999|Country\/region design area|  
-|50,000 \- 99,999|Customer design area|  
-|100,000 \- 999,999,999|Microsoft Certified Partner design area|  
+|1 - 9,999|[!INCLUDE[demolong](includes/demolong_md.md)] design area|  
+|10,000 - 49,999|Country\/region design area|  
+|50,000 - 99,999|Customer design area|  
+|100,000 - 999,999,999|Microsoft Certified Partner design area|  
   
 > [!NOTE]  
->  Do not use the object numbers 99,000 \- 99,999 for objects that you create, even though they are in the customer design area. The training material for [!INCLUDE[navnow](includes/navnow_md.md)] uses these numbers.  
+>  Do not use the object numbers 99,000 - 99,999 for objects that you create, even though they are in the customer design area. The training material for [!INCLUDE[navnow](includes/navnow_md.md)] uses these numbers.  
   
  The fields in [!INCLUDE[navnow](includes/navnow_md.md)] are grouped as indicated in the following table.  
   
 |Table number|Field numbers|Description|  
 |------------------|-------------------|-----------------|  
-|1 \- 9,999|1 \- 9999|[!INCLUDE[demolong](includes/demolong_md.md)] design area|  
-|1 \- 9,999|10,000 \- 49,000|Country\/region design area|  
-|1 \- 9,999|50,0000 \- 99,999|Customer design area|  
-|1 \- 9,999|100,000 \- 999,999,999|Microsoft Certified Partner design area|  
-|10,000 \- 49,999|1 \- 49,999|Country\/region design area|  
-|10,000 \- 49,999|50,000 \- 99,999|Customer design area|  
-|10,000 \- 49,999|100,000 \- 999,999,999|Microsoft Certified Partner design area|  
-|50,000 \- 99,999|1 \- 999,999,999|Customer design area|  
-|100,000 \- 99,999,999|1 \- 9,999|Microsoft Certified Partner design area|  
-|100,000 \- 99,999,999|10,000 \- 49,999|Country\/region design area|  
-|100,000 \- 99,999,999|50,000 \- 99,999|Customer design area|  
-|100,000 \- 99,999,999|100,000 \- 999,999,999|Microsoft Certified Partner design area|  
+|1 - 9,999|1 - 9999|[!INCLUDE[demolong](includes/demolong_md.md)] design area|  
+|1 - 9,999|10,000 - 49,000|Country\/region design area|  
+|1 - 9,999|50,0000 - 99,999|Customer design area|  
+|1 - 9,999|100,000 - 999,999,999|Microsoft Certified Partner design area|  
+|10,000 - 49,999|1 - 49,999|Country\/region design area|  
+|10,000 - 49,999|50,000 - 99,999|Customer design area|  
+|10,000 - 49,999|100,000 - 999,999,999|Microsoft Certified Partner design area|  
+|50,000 - 99,999|1 - 999,999,999|Customer design area|  
+|100,000 - 99,999,999|1 - 9,999|Microsoft Certified Partner design area|  
+|100,000 - 99,999,999|10,000 - 49,999|Country\/region design area|  
+|100,000 - 99,999,999|50,000 - 99,999|Customer design area|  
+|100,000 - 99,999,999|100,000 - 999,999,999|Microsoft Certified Partner design area|  
   
 > [!NOTE]  
 >  Do not use the field numbers 99,000–99,999 in tables numbered between 1 and 49,999 for fields that you create, even though they lie in the customer design area. The training material for [!INCLUDE[navnow](includes/navnow_md.md)] uses these numbers.  
@@ -71,22 +71,22 @@ Each object and field in [!INCLUDE[navnow](includes/navnow_md.md)] is identified
   
 |Report number interval|Application areas|  
 |----------------------------|-----------------------|  
-|1 \- 99|General Ledger, including VAT and Consolidation|  
-|100 \- 199|Accounts Receivable|  
-|200 \- 299|Sales|  
-|300 \- 399|Accounts Payable|  
-|400 \- 499|Purchases|  
-|500 \- 599|Common to both Purchases and Sales, including Exchange Rate|  
-|600 \- 699|Requisition|  
-|700 \- 799|Item, including Intrastat|  
-|800 \- 899|Bill of Materials|  
-|900 \- 999|Item Group|  
-|1000 \- 1099|Inventory \(common to Item, BOM, and Item Group\)|  
-|1100 \- 1199|Resource|  
-|1200 \- 1299|Job|  
-|1300 \- 1399|General|  
-|1400 \- 9899|Future areas|  
-|9900 \- 9999|Utilities|  
+|1 - 99|General Ledger, including VAT and Consolidation|  
+|100 - 199|Accounts Receivable|  
+|200 - 299|Sales|  
+|300 - 399|Accounts Payable|  
+|400 - 499|Purchases|  
+|500 - 599|Common to both Purchases and Sales, including Exchange Rate|  
+|600 - 699|Requisition|  
+|700 - 799|Item, including Intrastat|  
+|800 - 899|Bill of Materials|  
+|900 - 999|Item Group|  
+|1000 - 1099|Inventory \(common to Item, BOM, and Item Group\)|  
+|1100 - 1199|Resource|  
+|1200 - 1299|Job|  
+|1300 - 1399|General|  
+|1400 - 9899|Future areas|  
+|9900 - 9999|Utilities|  
   
  If you create a new report that does not belong in one of the existing application areas or if you create a new report and the area in which it belongs is full, then use a number from a new interval of length 100 and between 1,400 and 9,899.  
   
@@ -107,18 +107,18 @@ Each object and field in [!INCLUDE[navnow](includes/navnow_md.md)] is identified
   
 |Codeunit final digit|Journal posting codeunits|  
 |--------------------------|-------------------------------|  
-|1|Journal Line\-Check|  
-|2|Journal Line\-Post|  
-|3|Batch Name\-Post|  
+|1|Journal Line-Check|  
+|2|Journal Line-Post|  
+|3|Batch Name-Post|  
   
 |Codeunit final digit|Journal managing codeunits|  
 |--------------------------|--------------------------------|  
-|0|Journal\-Management|  
-|1|Journal\-Post|  
-|2|Journal\-Post\+Print|  
-|3|Journal\-Batch Post|  
-|4|Journal\-Batch Post\+Print|  
-|5|Register\-Show Ledger|  
+|0|Journal-Management|  
+|1|Journal-Post|  
+|2|Journal-Post+Print|  
+|3|Journal-Batch Post|  
+|4|Journal-Batch Post+Print|  
+|5|Register-Show Ledger|  
   
  Codeunits for posting invoices also follow a pattern, which is displayed in the following table.  
   
@@ -126,7 +126,7 @@ Each object and field in [!INCLUDE[navnow](includes/navnow_md.md)] is identified
 |--------------------------|---------------------------------------|  
 |0|Sales\/Purchase Post|  
 |1|Sales\/Purchase Post \(Yes\/No\)|  
-|2|Sales\/Purchase Post\+Print|  
+|2|Sales\/Purchase Post+Print|  
   
  When you create codeunits for the sales application areas, use the same final digit for similar purchase application areas.  
   

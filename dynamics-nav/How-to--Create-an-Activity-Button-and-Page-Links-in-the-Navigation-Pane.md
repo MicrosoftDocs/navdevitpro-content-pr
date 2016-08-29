@@ -30,7 +30,7 @@ An activity button in the navigation pane displays a menu of links to additional
   
     1.  Select a blank row.  
   
-         To insert a row above another row, right\-click the row, and then choose the **New** button.  
+         To insert a row above another row, right-click the row, and then choose the **New** button.  
   
         > [!NOTE]  
         >  The location of the activity button container with regard to other containers is not important. However, if you are inserting a row, then insert the container at the end of the actions that belong to the container above.  

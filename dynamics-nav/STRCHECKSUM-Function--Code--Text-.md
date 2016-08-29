@@ -25,16 +25,16 @@ CheckNumber :=STRCHECKSUM(String[, WeightString][, Modulus])
  *String*  
  Type: Text constant or code  
   
- This string contains the number for which you want to calculate a checksum. You can only enter the numeric characters 0\-9 in this string. If you enter anything else, a run\-time error will occur. If *String* is empty, 0 is returned.  
+ This string contains the number for which you want to calculate a checksum. You can only enter the numeric characters 0-9 in this string. If you enter anything else, a run-time error will occur. If *String* is empty, 0 is returned.  
   
  *WeightString*  
  Type: Text constant or code  
   
- This string contains numbers that you want to use as weights when calculating the checksum. The default value is a string that contains STRLEN\(String\) '1'\-characters.  
+ This string contains numbers that you want to use as weights when calculating the checksum. The default value is a string that contains STRLEN\(String\) '1'-characters.  
   
- You can only enter the numeric characters 0\-9 in this string. If you enter anything else, then a run\-time error occurs.  
+ You can only enter the numeric characters 0-9 in this string. If you enter anything else, then a run-time error occurs.  
   
- If *String* is longer than *WeightString*, then a string is concatenated that contains STRLEN\(*String*\) \- STRLEN\(*WeightString*\) '1'\-characters to the end of *WeightString*. If *WeightString* is longer than *String*, then a run\-time error occurs.  
+ If *String* is longer than *WeightString*, then a string is concatenated that contains STRLEN\(*String*\) - STRLEN\(*WeightString*\) '1'-characters to the end of *WeightString*. If *WeightString* is longer than *String*, then a run-time error occurs.  
   
  *Modulus*  
  Type: Integer  
@@ -74,7 +74,7 @@ MESSAGE(Text000 + Text001, StrNumber, CheckSum);
   
  The formula is:  
   
- \(7 \- \(4x1 \+ 3x2 \+ 7x3 \+ 8x4\) MOD 7\) MOD 7=0  
+ \(7 - \(4x1 + 3x2 + 7x3 + 8x4\) MOD 7\) MOD 7=0  
   
  The message window displays the following:  
   
@@ -85,9 +85,9 @@ MESSAGE(Text000 + Text001, StrNumber, CheckSum);
 ## Example  
  This example shows how to use the STRCHECKSUM function to calculate a modulus 10 checksum for a bar code.  
   
- The STRCHECKSUM function can be used to calculate checksums for 13\- and 8\-digit European Article Number \(EAN\) and EAN\-compatible bar codes such as a Universal Product Code \(UPC\) or Japanese Article Number \(JAN\).  
+ The STRCHECKSUM function can be used to calculate checksums for 13- and 8-digit European Article Number \(EAN\) and EAN-compatible bar codes such as a Universal Product Code \(UPC\) or Japanese Article Number \(JAN\).  
   
- A 13\-digit EAN code has the following format:  
+ A 13-digit EAN code has the following format:  
   
 1.  The 12 digits in positions 13 to 2 are used to calculate the checksum at position 1.  
   
@@ -95,9 +95,9 @@ MESSAGE(Text000 + Text001, StrNumber, CheckSum);
   
 3.  Starting with position 3, all odd values are totaled. The result is called Odd.  
   
-4.  Total=Even \+ Odd.  
+4.  Total=Even + Odd.  
   
-5.  The modulus 10 checksum is then \(10 \- Total MOD 10\) MOD 10.  
+5.  The modulus 10 checksum is then \(10 - Total MOD 10\) MOD 10.  
   
  This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   

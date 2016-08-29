@@ -20,5 +20,5 @@ The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] includes a **Search** bo
   
 ## See Also  
  [Pages](Pages.md)   
- [Reports\-duplicate 20](Reports-duplicate-20.md)   
+ [Reports-duplicate 20](Reports-duplicate-20.md)   
  [MenuSuites](MenuSuites.md)

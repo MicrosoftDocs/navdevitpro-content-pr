@@ -185,7 +185,7 @@ Automation lets you use the capabilities and features of Microsoft Office produc
   
      `expression` is a required argument, and it must be an expression that returns a Documents object. All the arguments are optional. You will use `Template` to open a new document that is based on your template.  
   
-     For the syntax in the C/AL Symbol Menu, note that the Documents property returns an object of type DOCUMENTS, which is a user\-defined type. The property returns a Documents class or IDispatch interface. This information helps the compiler perform a better type check during compilation. The following statement can also pass both the compile\-time and the run\-time type checks.  
+     For the syntax in the C/AL Symbol Menu, note that the Documents property returns an object of type DOCUMENTS, which is a user-defined type. The property returns a Documents class or IDispatch interface. This information helps the compiler perform a better type check during compilation. The following statement can also pass both the compile-time and the run-time type checks.  
   
      `wdDoc := wdApp.Documents.Add(TemplateName);`  
   
@@ -250,12 +250,12 @@ Automation lets you use the capabilities and features of Microsoft Office produc
   
 5.  Save and compile the codeunit and give it a number and a name. For this walkthrough, use **Discount Letter**.  
   
-### To\-Do List  
+### To-Do List  
  Although this code will work, you must add a few things to make it complete:  
   
 -   We recommend that you do not use a hardcoded template name. You should keep the template name in a table, and the user should select it from a page. You can then have different templates for different types of letters that you want to send to your customers.  
   
--   You should add some error\-handling code. For example, the `CREATE` call fails if the user does not have Word installed or if the installation has been corrupted. You should check the return value of `CREATE` and give an appropriate message if it fails.  
+-   You should add some error-handling code. For example, the `CREATE` call fails if the user does not have Word installed or if the installation has been corrupted. You should check the return value of `CREATE` and give an appropriate message if it fails.  
   
 -   The user should get a message if the customer does not qualify for the discount. In the example, the codeunit closes without any message.  
   
@@ -272,7 +272,7 @@ Automation lets you use the capabilities and features of Microsoft Office produc
   
 4.  To add a new action, locate the action container with the subtype set to **ActionItems**.  
   
-5.  Right\-click the next line after the **ActionItems** container, and then choose **New**.  
+5.  Right-click the next line after the **ActionItems** container, and then choose **New**.  
   
 6.  In the **Caption** field of the new line, type **Word Letter**.  
   

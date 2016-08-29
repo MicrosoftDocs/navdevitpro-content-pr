@@ -118,11 +118,11 @@ MESSAGE(Text005,MyTextVar,GuidVar);
   
  The first message window displays the following:  
   
- **Initially the variable "MyTextVar" contains: \>My Text\< and "GuidVar" is defined as \>12345678\-1234\-1234\-1234\-1234567890AB\<**  
+ **Initially the variable "MyTextVar" contains: \>My Text\< and "GuidVar" is defined as \>12345678-1234-1234-1234-1234567890AB\<**  
   
  The second message window displays the following:  
   
- **After using CLEAR\(MyTextVar\), the variable "MyTextVar" contains: \>\< and GuidVar is still defined as \>12345678\-1234\-1234\-1234\-1234567890AB\<**  
+ **After using CLEAR\(MyTextVar\), the variable "MyTextVar" contains: \>\< and GuidVar is still defined as \>12345678-1234-1234-1234-1234567890AB\<**  
   
  The third message window displays the following:  
   
@@ -130,7 +130,7 @@ MESSAGE(Text005,MyTextVar,GuidVar);
   
  The fourth message window displays the following:  
   
- **Giving the "MyTextVar" variable the initial value again and creating a new "GuidVar" results in \>My Text\< and \>87654321\-4321\-4321\-4321\-BA0987654321\<**  
+ **Giving the "MyTextVar" variable the initial value again and creating a new "GuidVar" results in \>My Text\< and \>87654321-4321-4321-4321-BA0987654321\<**  
   
  The fifth message window displays the following:  
   

@@ -152,7 +152,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display 
 |See a List page in Object Designer.|The page called Sales Order List with ID 9305.|  
   
 ##  <a name="ListPlus"></a> List Plus Page Type  
- Similar to a List page, a List Plus page displays content from a table in a list format. The difference is that the List Plus page type can contain two lists in one page, and can be used as a two\-dimensional matrix. The following illustration shows a List Plus page that is used for viewing a production forecast.  
+ Similar to a List page, a List Plus page displays content from a table in a list format. The difference is that the List Plus page type can contain two lists in one page, and can be used as a two-dimensional matrix. The following illustration shows a List Plus page that is used for viewing a production forecast.  
   
  For more information, see the following.  
   
@@ -190,7 +190,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display 
 |Learn how to create a page.|[How to: Create a Page](How%20to:%20Create%20a%20Page.md)|  
 |Go through an example that creates a Navigate page.|[Walkthrough: Creating a Wizard Page](Walkthrough:%20Creating%20a%20Wizard%20Page.md)|  
 |Learn more about task pages.|[Touring the RoleTailored Client Windows](Touring-the-RoleTailored-Client-Windows.md)|  
-|See a Navigate page that is used as a wizard in Object Designer.|The page called Create To\-do with ID 5097.|  
+|See a Navigate page that is used as a wizard in Object Designer.|The page called Create To-do with ID 5097.|  
   
 ##  <a name="StandardDialogPage"></a> StandardDialog Page Type  
  The StandardDialog is a simple page type that you use when users only need to input data and do not need to perform other actions from the page. An example of a StandardDialog page type is page 511, Change Exchange Rate, in the [!INCLUDE[demolong](includes/demolong_md.md)]. The following illustration shows the Change Exchange Rate StandardDialog page.  
@@ -325,7 +325,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display 
   
  ![RoleTailored client MyNotifications part example](media/NAV_RoleCenterMyNotifications_Featured.JPG "NAV\_RoleCenterMyNotifications\_Featured")  
   
- By double\-clicking the link to the note in the notification, users can navigate directly to the relevant Task page to deal immediately and directly with the urgent issue or exceptions.  
+ By double-clicking the link to the note in the notification, users can navigate directly to the relevant Task page to deal immediately and directly with the urgent issue or exceptions.  
   
  The My Notifications part is designed to be used on a Role Center page.  
   

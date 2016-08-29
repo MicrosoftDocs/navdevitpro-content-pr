@@ -74,7 +74,7 @@ On some reports, you may want to group sets of data together and reset the page 
   
 8.  In Visual Studio, in the Report.rdlc file, create a hidden text box in the data region that contains the data on which you have a group. For example, create a hidden text box on the table or list that contains the sales invoice number. For more information, see [How to: Add and Identify Hidden Fields](How%20to:%20Add%20and%20Identify%20Hidden%20Fields.md).  
   
-9. Right\-click the text box, and then choose **Text Box Properties**. In the **Properties** window, on the **General** tab, set the name of the text box to **NewPage**.  
+9. Right-click the text box, and then choose **Text Box Properties**. In the **Properties** window, on the **General** tab, set the name of the text box to **NewPage**.  
   
 10. In the **Properties** window, on the **General** tab, enter the following code in the **Value** field.  
   
@@ -89,7 +89,7 @@ On some reports, you may want to group sets of data together and reset the page 
   
 11. In the **Text Box Properties** window, choose the **OK** button.  
   
-12. In Visual Studio, in the Report.rdlc file, right\-click the text box in the header that displays the page number, and then select **Expression**.  
+12. In Visual Studio, in the Report.rdlc file, right-click the text box in the header that displays the page number, and then select **Expression**.  
   
 13. In the **Expression** window, enter the following expression.  
   

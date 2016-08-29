@@ -22,7 +22,7 @@ You can set up Cues with an indicator that changes color based on the data value
   
 -   Using the Style or StyleExpr property of the Field control that defines the Cue.  
   
-     With this method, you set up predefined indicators on a Cue\-By\-Cue basis.  
+     With this method, you set up predefined indicators on a Cue-By-Cue basis.  
   
      For more information, see [How to: Set Up Colored Indicators on Cues by Using the Style and StyleExpr Property](How%20to:%20Set%20Up%20Colored%20Indicators%20on%20Cues%20by%20Using%20the%20Style%20and%20StyleExpr%20Property.md).  
   

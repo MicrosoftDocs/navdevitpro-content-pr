@@ -13,7 +13,7 @@ caps.latest.revision: 9
 # Troubleshooting: HTTP 500.13 - The request cannot be processed because the amount of traffic exceeds the Web site&#39;s configured capacity
 When you try to preview a report or open a report as a PDF from the [!INCLUDE[nav_web](includes/nav_web_md.md)], you get an error message that is similar the following:  
   
- **HTTP Error 500.13 \- Internal Server Error**  
+ **HTTP Error 500.13 - Internal Server Error**  
   
  **The request cannot be processed because the amount of traffic exceeds the Web site's configured capacity.**  
   

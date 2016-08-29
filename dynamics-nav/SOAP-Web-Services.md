@@ -12,7 +12,7 @@ caps.latest.revision: 6
 manager: edupont
 ---
 # SOAP Web Services
-SOAP web services enable full flexibility for building operation\-centric services. They provide industry\-standard interoperability and channel and host pluggability.  
+SOAP web services enable full flexibility for building operation-centric services. They provide industry-standard interoperability and channel and host pluggability.  
   
  You can use SOAP to interact with page or codeunit web services in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
   

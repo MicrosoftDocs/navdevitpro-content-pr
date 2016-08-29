@@ -54,7 +54,7 @@ MESSAGE(Text000, x, y);
   
  The message window displays the following:  
   
- **x = \-10.235, y = 10.235**  
+ **x = -10.235, y = 10.235**  
   
 ## See Also  
  [POWER Function \(Decimal, Integer, BigInteger\)](POWER-Function--Decimal--Integer--BigInteger-.md)   

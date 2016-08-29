@@ -24,7 +24,7 @@ This topic describes the requirements for installing and configuring Microsoft S
   
 -   Client Tools Connectivity  
   
--   Management Tools \- Complete  
+-   Management Tools - Complete  
   
 ## Setup Options for Microsoft SQL Server  
  When you are running Microsoft SQL Server Setup, you must provide additional information. Your responses can affect how you use SQL Server with [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  

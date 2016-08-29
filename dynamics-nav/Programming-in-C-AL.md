@@ -14,9 +14,9 @@ manager: edupont
 # Programming in C-AL
 This section describes where to write C/AL code and how to reuse code.  
   
- For more information about how to use system\-defined variables, see [System\-Defined Variables](System-Defined-Variables.md).  
+ For more information about how to use system-defined variables, see [System-Defined Variables](System-Defined-Variables.md).  
   
- For more information about the most frequently used C/AL functions, see [Essential C\-AL Functions](Essential-C-AL-Functions.md).  
+ For more information about the most frequently used C/AL functions, see [Essential C-AL Functions](Essential-C-AL-Functions.md).  
   
 ## Where to Write C/AL Code  
  Almost every object in [!INCLUDE[navnow](includes/navnow_md.md)] contains triggers where you can add your C/AL code. Triggers exist for the following objects:  
@@ -57,5 +57,5 @@ This section describes where to write C/AL code and how to reuse code.
  Reusing code makes developing applications both faster and easier. More importantly, if you organize your C/AL code as suggested, your applications will be less prone to errors. By centralizing the code, you will not unintentionally create inconsistencies by performing the same calculation in many places, for example, in several triggers that have the same table field as their source expression. If you have to change the code, you could either forget about some of these triggers or make a mistake when you modify one of them.  
   
 ## See Also  
- [System\-Defined Variables](System-Defined-Variables.md)   
- [Essential C\-AL Functions](Essential-C-AL-Functions.md)
+ [System-Defined Variables](System-Defined-Variables.md)   
+ [Essential C-AL Functions](Essential-C-AL-Functions.md)

@@ -65,7 +65,7 @@ In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], you can preview 
   
 #### To open control properties from the Page Preview window  
   
--   In the **Page Preview** window, right\-click the page element or action, and then choose **Properties**.  
+-   In the **Page Preview** window, right-click the page element or action, and then choose **Properties**.  
   
 #### To open C/AL code for page or actions from the Page Preview window  
   

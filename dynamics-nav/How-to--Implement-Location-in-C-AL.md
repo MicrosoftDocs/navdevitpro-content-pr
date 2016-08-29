@@ -30,7 +30,7 @@ This example illustrates how you can retrieve location information. The example 
     |Variable name|DataType|SubType|  
     |-------------------|--------------|-------------|  
     |Location|DotNet|Microsoft.Dynamics.Nav.Client.Capabilities.LocationProvider **Important:**  Choose the Microsoft.Dynamics.Nav.ClientExtensions dll on the **Server** tab, and then choose Microsoft.Dynamics.Nav.Client.Capabilities.LocationProvider Make sure to set the properties **RunOnClient** and **WithEvents** to **Yes**.|  
-    |LocationAvailable|Boolean|\-|  
+    |LocationAvailable|Boolean|-|  
   
 5.  On the **View** menu, select **C/AL Code** and in the **C/AL Editor** locate the `OnOpenPage` trigger.  
   
@@ -83,6 +83,6 @@ This example illustrates how you can retrieve location information. The example 
   
 ## See Also  
  [LocationOptions Overview](LocationOptions-Overview.md)   
- [How to: Implement the Camera in C\-AL](How%20to:%20Implement%20the%20Camera%20in%20C-AL.md)   
+ [How to: Implement the Camera in C-AL](How%20to:%20Implement%20the%20Camera%20in%20C-AL.md)   
  [Developing for the Microsoft Dynamics NAV Universal App](Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)   
  [Differences and Limitations When Developing Pages for the Microsoft Dynamics NAV Universal App](Differences-and-Limitations-When-Developing-Pages-for-the-Microsoft-Dynamics-NAV-Universal-App.md)

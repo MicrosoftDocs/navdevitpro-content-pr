@@ -11,10 +11,10 @@ ms.assetid: 81d47468-96bd-4875-806f-35de330ba149
 caps.latest.revision: 6
 ---
 # xRec and CurrFieldNo
-When a user\-defined function or a trigger is executed on a table object, xRec and CurrFieldNo are set differently, depending on how the function or trigger is executed. The following tables explain what happens in the different scenarios.  
+When a user-defined function or a trigger is executed on a table object, xRec and CurrFieldNo are set differently, depending on how the function or trigger is executed. The following tables explain what happens in the different scenarios.  
   
-## User\-Defined Function  
- The following table explains what happens to xRec and CurrFieldNo when a user\-defined function on a table object is called from either external or internal C/AL code. External C/AL code means that the calling code is in a different object. Internal C/AL code means that the calling code is in the same object \(another function in the same object\).  
+## User-Defined Function  
+ The following table explains what happens to xRec and CurrFieldNo when a user-defined function on a table object is called from either external or internal C/AL code. External C/AL code means that the calling code is in a different object. Internal C/AL code means that the calling code is in the same object \(another function in the same object\).  
   
 |Execution initiated by|xRec value|CurrFieldNo value|  
 |----------------------------|----------------|-----------------------|  

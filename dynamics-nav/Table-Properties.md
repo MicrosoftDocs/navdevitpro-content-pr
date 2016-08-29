@@ -17,7 +17,7 @@ The following topic lists properties that apply to the table object.
 ## Table Object Properties  
  The following properties apply to a **Table** object.  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionML Property](CaptionML-Property.md)  
   
@@ -35,7 +35,7 @@ The following topic lists properties that apply to the table object.
   
 -   [LookupPageID Property](LookupPageID-Property.md)  
   
--   [Name Property\-duplicate](Name-Property-duplicate.md)  
+-   [Name Property-duplicate](Name-Property-duplicate.md)  
   
 -   [PasteIsValid Property](PasteIsValid-Property.md)  
   
@@ -48,7 +48,7 @@ The following topic lists properties that apply to the table object.
   
 -   [AccessByPermission Property](AccessByPermission-Property.md)  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionML Property](CaptionML-Property.md)  
   
@@ -58,11 +58,11 @@ The following topic lists properties that apply to the table object.
   
 -   [Description Property](Description-Property.md)  
   
--   [Enabled Property\-duplicate](Enabled-Property-duplicate.md)  
+-   [Enabled Property-duplicate](Enabled-Property-duplicate.md)  
   
 -   [Field No. Property](Field-No.-Property.md)  
   
--   [Name Property\-duplicate](Name-Property-duplicate.md)  
+-   [Name Property-duplicate](Name-Property-duplicate.md)  
   
 -   [Owner Property](Owner-Property.md)  
   
@@ -85,7 +85,7 @@ The following topic lists properties that apply to the table object.
   
 -   [BlankZero Property](BlankZero-Property.md)  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -95,9 +95,9 @@ The following topic lists properties that apply to the table object.
   
 -   [Description Property](Description-Property.md)  
   
--   [Editable Property\-duplicate](Editable-Property-duplicate.md)  
+-   [Editable Property-duplicate](Editable-Property-duplicate.md)  
   
--   [Enabled Property\-duplicate](Enabled-Property-duplicate.md)  
+-   [Enabled Property-duplicate](Enabled-Property-duplicate.md)  
   
 -   [ExtendedDataType Property](ExtendedDataType-Property.md)  
   
@@ -111,7 +111,7 @@ The following topic lists properties that apply to the table object.
   
 -   [MinValue Property](MinValue-Property.md)  
   
--   [Name Property\-duplicate](Name-Property-duplicate.md)  
+-   [Name Property-duplicate](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -142,7 +142,7 @@ The following topic lists properties that apply to the table object.
   
 -   [BlankZero Property](BlankZero-Property.md)  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -152,9 +152,9 @@ The following topic lists properties that apply to the table object.
   
 -   [Description Property](Description-Property.md)  
   
--   [Editable Property\-duplicate](Editable-Property-duplicate.md)  
+-   [Editable Property-duplicate](Editable-Property-duplicate.md)  
   
--   [Enabled Property\-duplicate](Enabled-Property-duplicate.md)  
+-   [Enabled Property-duplicate](Enabled-Property-duplicate.md)  
   
 -   [ExtendedDataType Property](ExtendedDataType-Property.md)  
   
@@ -168,7 +168,7 @@ The following topic lists properties that apply to the table object.
   
 -   [MinValue Property](MinValue-Property.md)  
   
--   [Name Property\-duplicate](Name-Property-duplicate.md)  
+-   [Name Property-duplicate](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -193,7 +193,7 @@ The following topic lists properties that apply to the table object.
   
 -   [AutoFormatType Property](AutoFormatType-Property.md)  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -209,9 +209,9 @@ The following topic lists properties that apply to the table object.
   
 -   [Description Property](Description-Property.md)  
   
--   [Editable Property\-duplicate](Editable-Property-duplicate.md)  
+-   [Editable Property-duplicate](Editable-Property-duplicate.md)  
   
--   [Enabled Property\-duplicate](Enabled-Property-duplicate.md)  
+-   [Enabled Property-duplicate](Enabled-Property-duplicate.md)  
   
 -   [ExtendedDataType Property](ExtendedDataType-Property.md)  
   
@@ -221,7 +221,7 @@ The following topic lists properties that apply to the table object.
   
 -   [InitValue Property](InitValue-Property.md)  
   
--   [Name Property\-duplicate](Name-Property-duplicate.md)  
+-   [Name Property-duplicate](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -252,7 +252,7 @@ The following topic lists properties that apply to the table object.
   
 -   [BlankNumbers Property](BlankNumbers-Property.md)  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -264,9 +264,9 @@ The following topic lists properties that apply to the table object.
   
 -   [Description Property](Description-Property.md)  
   
--   [Editable Property\-duplicate](Editable-Property-duplicate.md)  
+-   [Editable Property-duplicate](Editable-Property-duplicate.md)  
   
--   [Enabled Property\-duplicate](Enabled-Property-duplicate.md)  
+-   [Enabled Property-duplicate](Enabled-Property-duplicate.md)  
   
 -   [ExtendedDataType Property](ExtendedDataType-Property.md)  
   
@@ -280,7 +280,7 @@ The following topic lists properties that apply to the table object.
   
 -   [MinValue Property](MinValue-Property.md)  
   
--   [Name Property\-duplicate](Name-Property-duplicate.md)  
+-   [Name Property-duplicate](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -305,7 +305,7 @@ The following topic lists properties that apply to the table object.
   
 -   [AutoFormatType Property](AutoFormatType-Property.md)  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -315,9 +315,9 @@ The following topic lists properties that apply to the table object.
   
 -   [Description Property](Description-Property.md)  
   
--   [Editable Property\-duplicate](Editable-Property-duplicate.md)  
+-   [Editable Property-duplicate](Editable-Property-duplicate.md)  
   
--   [Enabled Property\-duplicate](Enabled-Property-duplicate.md)  
+-   [Enabled Property-duplicate](Enabled-Property-duplicate.md)  
   
 -   [ExtendedDataType Property](ExtendedDataType-Property.md)  
   
@@ -327,7 +327,7 @@ The following topic lists properties that apply to the table object.
   
 -   [InitValue Property](InitValue-Property.md)  
   
--   [Name Property\-duplicate](Name-Property-duplicate.md)  
+-   [Name Property-duplicate](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -352,7 +352,7 @@ The following topic lists properties that apply to the table object.
   
 -   [BlankNumbers Property](BlankNumbers-Property.md)  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -362,9 +362,9 @@ The following topic lists properties that apply to the table object.
   
 -   [Description Property](Description-Property.md)  
   
--   [Editable Property\-duplicate](Editable-Property-duplicate.md)  
+-   [Editable Property-duplicate](Editable-Property-duplicate.md)  
   
--   [Enabled Property\-duplicate](Enabled-Property-duplicate.md)  
+-   [Enabled Property-duplicate](Enabled-Property-duplicate.md)  
   
 -   [ExtendedDataType Property](ExtendedDataType-Property.md)  
   
@@ -378,7 +378,7 @@ The following topic lists properties that apply to the table object.
   
 -   [MinValue Property](MinValue-Property.md)  
   
--   [Name Property\-duplicate](Name-Property-duplicate.md)  
+-   [Name Property-duplicate](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -407,7 +407,7 @@ The following topic lists properties that apply to the table object.
   
 -   [BlankZero Property](BlankZero-Property.md)  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -417,9 +417,9 @@ The following topic lists properties that apply to the table object.
   
 -   [Description Property](Description-Property.md)  
   
--   [Editable Property\-duplicate](Editable-Property-duplicate.md)  
+-   [Editable Property-duplicate](Editable-Property-duplicate.md)  
   
--   [Enabled Property\-duplicate](Enabled-Property-duplicate.md)  
+-   [Enabled Property-duplicate](Enabled-Property-duplicate.md)  
   
 -   [ExtendedDataType Property](ExtendedDataType-Property.md)  
   
@@ -433,7 +433,7 @@ The following topic lists properties that apply to the table object.
   
 -   [MinValue Property](MinValue-Property.md)  
   
--   [Name Property\-duplicate](Name-Property-duplicate.md)  
+-   [Name Property-duplicate](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -464,7 +464,7 @@ The following topic lists properties that apply to the table object.
   
 -   [BlankZero Property](BlankZero-Property.md)  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -474,9 +474,9 @@ The following topic lists properties that apply to the table object.
   
 -   [Description Property](Description-Property.md)  
   
--   [Editable Property\-duplicate](Editable-Property-duplicate.md)  
+-   [Editable Property-duplicate](Editable-Property-duplicate.md)  
   
--   [Enabled Property\-duplicate](Enabled-Property-duplicate.md)  
+-   [Enabled Property-duplicate](Enabled-Property-duplicate.md)  
   
 -   [ExtendedDataType Property](ExtendedDataType-Property.md)  
   
@@ -490,13 +490,13 @@ The following topic lists properties that apply to the table object.
   
 -   [MinValue Property](MinValue-Property.md)  
   
--   [Name Property\-duplicate](Name-Property-duplicate.md)  
+-   [Name Property-duplicate](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
 -   [SignDisplacement Property](SignDisplacement-Property.md)  
   
--   [Standard Day\-Time Unit Property](Standard-Day-Time-Unit-Property.md)  
+-   [Standard Day-Time Unit Property](Standard-Day-Time-Unit-Property.md)  
   
 -   [TableRelation Property](TableRelation-Property.md)  
   
@@ -519,7 +519,7 @@ The following topic lists properties that apply to the table object.
   
 -   [AutoFormatType Property](AutoFormatType-Property.md)  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -529,9 +529,9 @@ The following topic lists properties that apply to the table object.
   
 -   [Description Property](Description-Property.md)  
   
--   [Editable Property\-duplicate](Editable-Property-duplicate.md)  
+-   [Editable Property-duplicate](Editable-Property-duplicate.md)  
   
--   [Enabled Property\-duplicate](Enabled-Property-duplicate.md)  
+-   [Enabled Property-duplicate](Enabled-Property-duplicate.md)  
   
 -   [ExtendedDataType Property](ExtendedDataType-Property.md)  
   
@@ -541,7 +541,7 @@ The following topic lists properties that apply to the table object.
   
 -   [InitValue Property](InitValue-Property.md)  
   
--   [Name Property\-duplicate](Name-Property-duplicate.md)  
+-   [Name Property-duplicate](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -568,7 +568,7 @@ The following topic lists properties that apply to the table object.
   
 -   [BlankZero Property](BlankZero-Property.md)  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -578,9 +578,9 @@ The following topic lists properties that apply to the table object.
   
 -   [Description Property](Description-Property.md)  
   
--   [Editable Property\-duplicate](Editable-Property-duplicate.md)  
+-   [Editable Property-duplicate](Editable-Property-duplicate.md)  
   
--   [Enabled Property\-duplicate](Enabled-Property-duplicate.md)  
+-   [Enabled Property-duplicate](Enabled-Property-duplicate.md)  
   
 -   [ExtendedDataType Property](ExtendedDataType-Property.md)  
   
@@ -594,7 +594,7 @@ The following topic lists properties that apply to the table object.
   
 -   [MinValue Property](MinValue-Property.md)  
   
--   [Name Property\-duplicate](Name-Property-duplicate.md)  
+-   [Name Property-duplicate](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -621,7 +621,7 @@ The following topic lists properties that apply to the table object.
   
 -   [AutoFormatType Property](AutoFormatType-Property.md)  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -637,9 +637,9 @@ The following topic lists properties that apply to the table object.
   
 -   [Description Property](Description-Property.md)  
   
--   [Editable Property\-duplicate](Editable-Property-duplicate.md)  
+-   [Editable Property-duplicate](Editable-Property-duplicate.md)  
   
--   [Enabled Property\-duplicate](Enabled-Property-duplicate.md)  
+-   [Enabled Property-duplicate](Enabled-Property-duplicate.md)  
   
 -   [ExtendedDataType Property](ExtendedDataType-Property.md)  
   
@@ -649,7 +649,7 @@ The following topic lists properties that apply to the table object.
   
 -   [InitValue Property](InitValue-Property.md)  
   
--   [Name Property\-duplicate](Name-Property-duplicate.md)  
+-   [Name Property-duplicate](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -680,7 +680,7 @@ The following topic lists properties that apply to the table object.
   
 -   [AutoFormatType Property](AutoFormatType-Property.md)  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -696,9 +696,9 @@ The following topic lists properties that apply to the table object.
   
 -   [Description Property](Description-Property.md)  
   
--   [Editable Property\-duplicate](Editable-Property-duplicate.md)  
+-   [Editable Property-duplicate](Editable-Property-duplicate.md)  
   
--   [Enabled Property\-duplicate](Enabled-Property-duplicate.md)  
+-   [Enabled Property-duplicate](Enabled-Property-duplicate.md)  
   
 -   [ExtendedDataType Property](ExtendedDataType-Property.md)  
   
@@ -708,7 +708,7 @@ The following topic lists properties that apply to the table object.
   
 -   [InitValue Property](InitValue-Property.md)  
   
--   [Name Property\-duplicate](Name-Property-duplicate.md)  
+-   [Name Property-duplicate](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -739,7 +739,7 @@ The following topic lists properties that apply to the table object.
   
 -   [BlankZero Property](BlankZero-Property.md)  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -749,9 +749,9 @@ The following topic lists properties that apply to the table object.
   
 -   [Description Property](Description-Property.md)  
   
--   [Editable Property\-duplicate](Editable-Property-duplicate.md)  
+-   [Editable Property-duplicate](Editable-Property-duplicate.md)  
   
--   [Enabled Property\-duplicate](Enabled-Property-duplicate.md)  
+-   [Enabled Property-duplicate](Enabled-Property-duplicate.md)  
   
 -   [ExtendedDataType Property](ExtendedDataType-Property.md)  
   
@@ -765,7 +765,7 @@ The following topic lists properties that apply to the table object.
   
 -   [MinValue Property](MinValue-Property.md)  
   
--   [Name Property\-duplicate](Name-Property-duplicate.md)  
+-   [Name Property-duplicate](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -796,7 +796,7 @@ The following topic lists properties that apply to the table object.
   
 -   [AutoFormatType Property](AutoFormatType-Property.md)  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -806,9 +806,9 @@ The following topic lists properties that apply to the table object.
   
 -   [Description Property](Description-Property.md)  
   
--   [Editable Property\-duplicate](Editable-Property-duplicate.md)  
+-   [Editable Property-duplicate](Editable-Property-duplicate.md)  
   
--   [Enabled Property\-duplicate](Enabled-Property-duplicate.md)  
+-   [Enabled Property-duplicate](Enabled-Property-duplicate.md)  
   
 -   [ExtendedDataType Property](ExtendedDataType-Property.md)  
   
@@ -818,7 +818,7 @@ The following topic lists properties that apply to the table object.
   
 -   [InitValue Property](InitValue-Property.md)  
   
--   [Name Property\-duplicate](Name-Property-duplicate.md)  
+-   [Name Property-duplicate](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -835,7 +835,7 @@ The following topic lists properties that apply to the table object.
   
 -   [AccessByPermission Property](AccessByPermission-Property.md)  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionML Property](CaptionML-Property.md)  
   
@@ -843,11 +843,11 @@ The following topic lists properties that apply to the table object.
   
 -   [Description Property](Description-Property.md)  
   
--   [Enabled Property\-duplicate](Enabled-Property-duplicate.md)  
+-   [Enabled Property-duplicate](Enabled-Property-duplicate.md)  
   
 -   [Field No. Property](Field-No.-Property.md)  
   
--   [Name Property\-duplicate](Name-Property-duplicate.md)  
+-   [Name Property-duplicate](Name-Property-duplicate.md)  
   
 -   [TableIDExpr Property](TableIDExpr-Property.md)  
   
@@ -862,7 +862,7 @@ The following topic lists properties that apply to the table object.
   
 -   [AutoFormatType Property](AutoFormatType-Property.md)  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -878,9 +878,9 @@ The following topic lists properties that apply to the table object.
   
 -   [Description Property](Description-Property.md)  
   
--   [Editable Property\-duplicate](Editable-Property-duplicate.md)  
+-   [Editable Property-duplicate](Editable-Property-duplicate.md)  
   
--   [Enabled Property\-duplicate](Enabled-Property-duplicate.md)  
+-   [Enabled Property-duplicate](Enabled-Property-duplicate.md)  
   
 -   [ExtendedDataType Property](ExtendedDataType-Property.md)  
   
@@ -890,7 +890,7 @@ The following topic lists properties that apply to the table object.
   
 -   [InitValue Property](InitValue-Property.md)  
   
--   [Name Property\-duplicate](Name-Property-duplicate.md)  
+-   [Name Property-duplicate](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -923,7 +923,7 @@ The following topic lists properties that apply to the table object.
   
 -   [BlankNumbers Property](BlankNumbers-Property.md)  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -933,9 +933,9 @@ The following topic lists properties that apply to the table object.
   
 -   [Description Property](Description-Property.md)  
   
--   [Editable Property\-duplicate](Editable-Property-duplicate.md)  
+-   [Editable Property-duplicate](Editable-Property-duplicate.md)  
   
--   [Enabled Property\-duplicate](Enabled-Property-duplicate.md)  
+-   [Enabled Property-duplicate](Enabled-Property-duplicate.md)  
   
 -   [ExtendedDataType Property](ExtendedDataType-Property.md)  
   
@@ -949,7 +949,7 @@ The following topic lists properties that apply to the table object.
   
 -   [MinValue Property](MinValue-Property.md)  
   
--   [Name Property\-duplicate](Name-Property-duplicate.md)  
+-   [Name Property-duplicate](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   

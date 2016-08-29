@@ -19,15 +19,15 @@ Sets a value to shift negative values to the right for display purposes only. Yo
 ## Remarks  
  For example, if you enter 600 \(6 millimeters\) you would see a result similar to:  
   
- \(\+\)999888777  
+ \(+\)999888777  
   
- \(\+\)123456789  
+ \(+\)123456789  
   
- \(\-\) 123456789  
+ \(-\) 123456789  
   
- \(\-\) 999888777  
+ \(-\) 999888777  
   
- \(\+\)987654321  
+ \(+\)987654321  
   
 ## See Also  
  [Properties](Properties.md)

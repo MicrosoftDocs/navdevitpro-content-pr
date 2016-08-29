@@ -12,7 +12,7 @@ caps.latest.revision: 7
 manager: edupont
 ---
 # Multiple Document Languages
-With a multlanguage\-enabled database you can automatically  get the languages needed for multiple document language functionality.  
+With a multlanguage-enabled database you can automatically  get the languages needed for multiple document language functionality.  
   
 ## Running Multiple Document Languages  
  If you have documents that you want to print in the language of the recipient rather than in your own working language, you can add a single line of code in the document to handle this. This functionality is already enabled for most reports in the standard [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] database. The document is printed in the language that is specified in the **Language Code** field in the **Customer Card** window.  

@@ -50,7 +50,7 @@ FieldRef.SETFILTER(String [, Value],...)
 |\>=|Greater than or equal to|  
 |\<\>|Different from|  
 |\*|Forms a part of value|  
-|@|Case\-insensitive|  
+|@|Case-insensitive|  
   
  This function is like the [SETFILTER Function \(Record\)](SETFILTER-Function--Record-.md) function.  
   

@@ -26,7 +26,7 @@ A dataset determines the data that displays on a generated report. You build the
   
 4.  In the **Name** field of the **DataItem** line, either enter a name or verify the default name. The name must be a Common Language Specification \(CLS\)–compliant name. For more information, see the "Naming" section in [Common Language Specification](http://go.microsoft.com/fwlink/?LinkId=193144) in the MSDN Library.  
   
-5.  In Report Dataset Designer, on the first blank line, in the **Data Type** column, select **Column** from the drop\-down list.  
+5.  In Report Dataset Designer, on the first blank line, in the **Data Type** column, select **Column** from the drop-down list.  
   
 6.  In the **View** menu, choose **Field Menu**.  
   
@@ -45,19 +45,19 @@ A dataset determines the data that displays on a generated report. You build the
   
 11. If you want to include a variable in the report dataset, then do the following:  
   
-    1.  In Report Dataset Designer, on a blank line, in the **Data Type** column, select **Column** from the drop\-down list.  
+    1.  In Report Dataset Designer, on a blank line, in the **Data Type** column, select **Column** from the drop-down list.  
   
     2.  In the **Data Source** column, enter the variable. You can use the up arrow to open the **C/AL Symbol Menu** dialog box and view the variables for the report.  
   
-    3.  In Report Dataset Designer, in the **Name** column, enter a CLS\-compliant name for the variable. This name is used in the dataset in Visual Studio.  
+    3.  In Report Dataset Designer, in the **Name** column, enter a CLS-compliant name for the variable. This name is used in the dataset in Visual Studio.  
   
 12. If you want to include a calculation or other source expression in the report dataset, then do the following:  
   
-    1.  In Report Dataset Designer, on a blank line, in the **Data Type** column, select **Column** from the drop\-down list.  
+    1.  In Report Dataset Designer, on a blank line, in the **Data Type** column, select **Column** from the drop-down list.  
   
     2.  In the **Data Source** column, enter the source expression, such as **8\*125**.  
   
-    3.  In the **Name** column, enter a CLS\-compliant name for the variable. This name is used in the dataset in Visual Studio.  
+    3.  In the **Name** column, enter a CLS-compliant name for the variable. This name is used in the dataset in Visual Studio.  
   
 13. On the **File** menu, choose **Save**.  
   

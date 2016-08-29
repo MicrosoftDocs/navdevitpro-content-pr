@@ -31,7 +31,7 @@ manager: edupont
     > [!NOTE]  
     >  By default, the language setting on your computer is used for **CaptionML**. However, you can change the language setting in the **Multilanguage Editor** window.  
   
-7.  In the **Bitmap** text box, enter the number of the bitmap you want to display on the department menu and then choose the **OK** button. Valid bitmap numbers are 0\-15.  
+7.  In the **Bitmap** text box, enter the number of the bitmap you want to display on the department menu and then choose the **OK** button. Valid bitmap numbers are 0-15.  
   
 8.  In Navigation Pane Designer, from the shortcut menu, choose **Close Navigation Pane Designer**.  
   

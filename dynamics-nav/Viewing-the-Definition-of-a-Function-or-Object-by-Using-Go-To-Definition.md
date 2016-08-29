@@ -18,9 +18,9 @@ You can view the definition of a function or object by selecting the item in the
   
 -   On the **View** menu, choose **Go To Definition**.  
   
--   Right\-click the function name or object variable name, and then choose **Go To Definition**.  
+-   Right-click the function name or object variable name, and then choose **Go To Definition**.  
   
--   Press Ctrl\+F12.  
+-   Press Ctrl+F12.  
   
  The following table describes how you can go to the definition of a function or object.  
   
@@ -35,8 +35,8 @@ You can view the definition of a function or object by selecting the item in the
 ## Examples  
  This section shows examples of using the Go To Definition shortcut menu item.  
   
-###  <a name="BKMK_UserdefinedFunctionFromTheCALGlobalsWindow"></a> User\-Defined Function from the C/AL Globals Window  
- From the **C/AL Globals** window, right\-click a user\-defined function, and then choose **Go To Definition**.  
+###  <a name="BKMK_UserdefinedFunctionFromTheCALGlobalsWindow"></a> User-Defined Function from the C/AL Globals Window  
+ From the **C/AL Globals** window, right-click a user-defined function, and then choose **Go To Definition**.  
   
  ![Go To Definition of a user&#45;defined function](media/GoToDef_.jpg "GoToDef\_")  
   
@@ -44,8 +44,8 @@ You can view the definition of a function or object by selecting the item in the
   
  ![Go To Definition of a user&#45;defined function](media/GoToDef_FromCALGlobals_CALEditor.jpg "GoToDef\_FromCALGlobals\_CALEditor")  
   
-###  <a name="BKMK_UserdefinedFunctionFromTheCALEditor"></a> User\-Defined Function from the C/AL Editor  
- From the C/AL Editor, right\-click a user\-defined function, and then choose **Go To Definition**.  
+###  <a name="BKMK_UserdefinedFunctionFromTheCALEditor"></a> User-Defined Function from the C/AL Editor  
+ From the C/AL Editor, right-click a user-defined function, and then choose **Go To Definition**.  
   
  ![Go To Definition from user function in C&#47;AL Editor](media/GotoDef_FromCALEditor_UserFunc.jpg "GotoDef\_FromCALEditor\_UserFunc")  
   
@@ -53,8 +53,8 @@ You can view the definition of a function or object by selecting the item in the
   
  ![Go To Definition from user function in C&#47;AL Editor](media/GoToDef_FromCALEditor_UserFunc_Result.jpg "GoToDef\_FromCALEditor\_UserFunc\_Result")  
   
-###  <a name="BKMK_UserdefinedFunctionFromTheCALEditorForAnObjectVariable"></a> User\-Defined Function from the C/AL Editor for an Object Variable  
- From the C/AL Editor, right\-click a user\-defined function that is called on an object variable, and then choose **Go To Definition**.  
+###  <a name="BKMK_UserdefinedFunctionFromTheCALEditorForAnObjectVariable"></a> User-Defined Function from the C/AL Editor for an Object Variable  
+ From the C/AL Editor, right-click a user-defined function that is called on an object variable, and then choose **Go To Definition**.  
   
  ![Go To Definition from user function in C&#47;AL Editor](media/GotoDef_FromCALEditor_UserFunc_Object.jpg "GotoDef\_FromCALEditor\_UserFunc\_Object")  
   
@@ -63,7 +63,7 @@ You can view the definition of a function or object by selecting the item in the
  ![Go To Definition from user function in C&#47;AL Editor](media/GotoDef_FromCALEditor_UserFunc_Object_Result.jpg "GotoDef\_FromCALEditor\_UserFunc\_Object\_Result")  
   
 ###  <a name="BKMK_SystemFunctionFromTheCALEditor"></a> System Function from the C/AL Editor  
- From the C/AL Editor, right\-click a system function that is called on an object variable, and then choose **Go To Definition**.  
+ From the C/AL Editor, right-click a system function that is called on an object variable, and then choose **Go To Definition**.  
   
  ![Go To Definition from a system function](media/GotoDef_FromCALEditor_.jpg "GotoDef\_FromCALEditor\_")  
   
@@ -78,7 +78,7 @@ You can view the definition of a function or object by selecting the item in the
  If the system function is called on any other object type variable, then the object is opened in the corresponding designer. For any other system function that is not called on an object variable, nothing occurs.  
   
 ###  <a name="BKMK_VariableFromTheCALEditor"></a> Object Variable from the C/AL Editor  
- From the C/AL Editor, right\-click a variable that is one of the following object types, and then choose **Go To Definition**:  
+ From the C/AL Editor, right-click a variable that is one of the following object types, and then choose **Go To Definition**:  
   
 -   Record  
   
