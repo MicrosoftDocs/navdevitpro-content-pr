@@ -63,7 +63,7 @@ CustomerRec.FIELDERROR("No.");
   
  The following message is displayed:  
   
- **You must specify No. in Customer No.\=''.**  
+ **You must specify No. in Customer No.=''.**  
   
 ## Example  
  In the next example, there is no *Text* parameter and the field has a value. This example requires that you create a Record variable for the **Customer** table named CustomerRec.  
@@ -75,7 +75,7 @@ CustomerRec.FIELDERROR("No.");
   
  The following message is displayed:  
   
- **No. must not be NEW 3500 in Customer No.\='NEW 3500'.**  
+ **No. must not be NEW 3500 in Customer No.='NEW 3500'.**  
   
 ## Example  
  The third example uses a non\-empty string as the *Text* parameter. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
@@ -95,7 +95,7 @@ CustomerRec.FIELDERROR("No.", Text001);
   
  The following message is displayed:  
   
- **No. is not valid in Customer No.\='NEW 3500'.**  
+ **No. is not valid in Customer No.='NEW 3500'.**  
   
 ## See Also  
  [Record Data Type](Record-Data-Type.md)

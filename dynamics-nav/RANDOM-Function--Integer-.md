@@ -53,7 +53,7 @@ Number := RANDOM(MaxNumber)
   
 |Text constant name|ENU Value|  
 |------------------------|---------------|  
-|Text000|Number1 \= %1, Number2 \= %2, Number3 \= %3|  
+|Text000|Number1 = %1, Number2 = %2, Number3 = %3|  
   
 ```  
   

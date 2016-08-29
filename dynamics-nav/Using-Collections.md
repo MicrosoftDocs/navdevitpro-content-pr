@@ -21,8 +21,8 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], a common development task is to wr
   
 |Variable name|DataType|SubType|  
 |-------------------|--------------|-------------|  
-|MyProcessList|DotNet|'mscorlib, Version\=2.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089'.System.Array|  
-|Process|DotNet|'System, Version\=2.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089'.System.Diagnostics.Process|  
+|MyProcessList|DotNet|'mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.System.Array|  
+|Process|DotNet|'System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.System.Diagnostics.Process|  
 |I|Integer||  
   
 ```  

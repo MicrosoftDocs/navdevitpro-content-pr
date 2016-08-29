@@ -51,11 +51,11 @@ DAN=Resultatopgørelse,Balance;DEU=GuV,Bilanz;ESP=Comercial,Balance
   
      **Result** Users see opt1, opt2, and opt3 as the available choices.  
   
-2.  An OptionCaptionML property is added to the database field containing DAN\=valg1,valg2,valg3;ENG\=choice1,choice2,choice3.  
+2.  An OptionCaptionML property is added to the database field containing DAN=valg1,valg2,valg3;ENG=choice1,choice2,choice3.  
   
      **Result** If a user selects DAN as the language, valg1, valg2, valg3 will be the available choices on the page. If a user selects ENG, choice1, choice2, choice3 will be available. For more information about what happens when the selected language is not available, see [Multilanguage Development](Multilanguage-Development.md).  
   
-3.  An OptionCaptionML property is added to the text box containing DAN\=valg nummer 1,valg nummer 2,valg nummer 3.  
+3.  An OptionCaptionML property is added to the text box containing DAN=valg nummer 1,valg nummer 2,valg nummer 3.  
   
      **Result** If a user sets DAN as the language, the choices are valg nummer 1, valg nummer 2, valg nummer 3. If a user sets the language to ENG, the same set of choices are available.  
   

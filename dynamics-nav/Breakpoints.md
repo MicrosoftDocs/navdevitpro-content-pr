@@ -81,7 +81,7 @@ You can break code execution of the session that you are debugging by:
  For more information, see [How to: Break on Record Changes](How%20to:%20Break%20on%20Record%20Changes.md).  
   
 ## Conditional Breakpoints  
- You can specify conditions for breakpoints so that execution breaks only if the condition is true. For example, if an application iterates through a list of customers and you want to break execution at customer 10000, then you can specify the condition "Customer No." \= '10000'. For more information, see [How to: Set Conditional Breakpoints](How%20to:%20Set%20Conditional%20Breakpoints.md).  
+ You can specify conditions for breakpoints so that execution breaks only if the condition is true. For example, if an application iterates through a list of customers and you want to break execution at customer 10000, then you can specify the condition "Customer No." = '10000'. For more information, see [How to: Set Conditional Breakpoints](How%20to:%20Set%20Conditional%20Breakpoints.md).  
   
 ## Enabling and Disabling Breakpoints  
  You can enable or disable the breakpoints in your breakpoint list. When you create a new breakpoint, it is enabled by default. If you disable a breakpoint, then execution does not break at that point in the code, but the breakpoint remains in your breakpoint list so that you can enable it again later. For more information, see the following topics:  

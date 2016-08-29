@@ -42,7 +42,7 @@ Amount := 34 + Total;
 |Element|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-------------|---------------------------------------|  
 |34 \+ Total|An expression.<br /><br /> This expression consists of an arithmetic operator \(\+\) and two arguments \(34 and Total\), which could also be called sub\-expressions.<br /><br /> Every valid C/AL expression can be evaluated to a specific value.|  
-|:\=|The assignment operator.<br /><br /> When the expression on the right side has been evaluated, this operator is used to assign or store the value in the variable on the left side.|  
+|:=|The assignment operator.<br /><br /> When the expression on the right side has been evaluated, this operator is used to assign or store the value in the variable on the left side.|  
 |Amount|A variable.<br /><br /> Used to reference a memory location where data is stored.|  
   
 ## Example 2  

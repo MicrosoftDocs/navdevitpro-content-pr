@@ -32,7 +32,7 @@ Query.SETFILTER(Column, String[, Value],...)
  *String*  
  Type: Text or code  
   
- The filter expression. A valid expression consists of alphanumeric characters and one or more of the following operators: \<, \>, \*, &, &#124;, and \=. You can use replacement fields \(%1, %2, and so on\) to insert values at run\-time. For more information about filter expressions and syntax, see [Entering Criteria in Filters](Entering-Criteria-in-Filters.md).  
+ The filter expression. A valid expression consists of alphanumeric characters and one or more of the following operators: \<, \>, \*, &, &#124;, and =. You can use replacement fields \(%1, %2, and so on\) to insert values at run\-time. For more information about filter expressions and syntax, see [Entering Criteria in Filters](Entering-Criteria-in-Filters.md).  
   
  *Value*  
  Type: Any  
@@ -71,9 +71,9 @@ Query.READ;
   
  For example, a query has the following filters set on the **Quantity** column in Query Designer:  
   
--   **DataItemTableFilter** property: Quantity\=FILTER\(\<100\)  
+-   **DataItemTableFilter** property: Quantity=FILTER\(\<100\)  
   
--   **ColumnFilter** property: Quantity\=FILTER\(\<\>50\)  
+-   **ColumnFilter** property: Quantity=FILTER\(\<\>50\)  
   
  `Query.SETFILTER ("Quantity", '>1’)` will result in a filter that is equivalent to: 1\<Quantity \<100.  
   
@@ -100,7 +100,7 @@ Query.READ;
   
     |Text constant name|ENU Value|  
     |------------------------|---------------|  
-    |Text000|Customer name \= %1, Quantity \= %2|  
+    |Text000|Customer name = %1, Quantity = %2|  
   
  The following C/AL code uses the **SETFILTER** function to filter the query dataset on the **Quantity** and **Name** columns. You can add the code to a codeunit, and then run the codeunit to see the results.  
   
@@ -125,4 +125,4 @@ Myquery.CLOSE;
   
  When the code is run, a message that resembles the following appears for each row in the dataset:  
   
- **Customer name \= Selangorian Ltd., Quantity \= 30**
+ **Customer name = Selangorian Ltd., Quantity = 30**

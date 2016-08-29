@@ -24,7 +24,7 @@ Depending on which version you are upgrading from, and the degree to which your 
   
 ## Company Names  
  If a company name includes a special character, an error may display during the upgrade. In this context, special characters include the following:   
-\[ ~ @ \# $ % & \* \( \) . \! % \- \+ \/ \= ? \]  
+\[ ~ @ \# $ % & \* \( \) . \! % \- \+ \/ = ? \]  
   
  If you are going to upgrade a database where one or more company name includes a special character, we recommend that you rename the company before you start the upgrade process. After the upgrade is successfully finished, you can rename the company again.  
   

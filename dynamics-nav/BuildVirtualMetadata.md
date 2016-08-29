@@ -76,7 +76,7 @@ finsql.exe command=buildvirtualmetadata, langid=<langid>, [servername=<server>,]
   
  *ntauthentication*  
   
- Specifies if you want to use NT authentication. The possible values are **yes**, **no**, **1**, or **0**. If you specify the *username* and *password* parameters, then you must specify **ntauthentication\=no** or **ntauthentication\=0**.  
+ Specifies if you want to use NT authentication. The possible values are **yes**, **no**, **1**, or **0**. If you specify the *username* and *password* parameters, then you must specify **ntauthentication=no** or **ntauthentication=0**.  
   
 ## Example  
  This example builds metadata for virtual tables in the *Demo Database NAV \(9\-0\)* database.  

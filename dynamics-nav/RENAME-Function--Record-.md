@@ -119,7 +119,7 @@ CustomerRec1.RENAME('10001');
   
  **Identification fields and values:**  
   
- **No.\='10000'**  
+ **No.='10000'**  
   
 ## See Also  
  [Record Data Type](Record-Data-Type.md)   

@@ -21,7 +21,7 @@ Sets the values of a C/AL text constant for the different languages that are ava
   
  The **ConstValueML** property has the following format.  
   
- **\<Language ID\>\=\<string\>**  
+ **\<Language ID\>=\<string\>**  
   
 -   **\<Language ID\>** is the Windows three\-letter language ID.  
   
@@ -31,7 +31,7 @@ Sets the values of a C/AL text constant for the different languages that are ava
   
  The following example illustrates a **ConstValueML** property value.  
   
- **DAN\=Navn;ENU\=Name;ESP\=Nombre;FRA\=Nom**  
+ **DAN=Navn;ENU=Name;ESP=Nombre;FRA=Nom**  
   
  In this example, values are set for Danish \(DAN\), English \(United States\), Spanish Traditional Sort \(ESP\), and French Standard \(FRA\).  
   

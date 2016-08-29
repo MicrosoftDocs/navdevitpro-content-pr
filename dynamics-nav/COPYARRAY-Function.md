@@ -42,7 +42,7 @@ COPYARRAY(NewArray, Array, Position[, Length])
   
  The number of array elements to copy. If you do not specify *Length*, all array elements are copied from *Position* to the last element. Use the following equation to determine valid values.  
   
- 1 \=\< LENGTH \=\< MAXLEN\(ARRAY\) – POSITION \+ 1  
+ 1 =\< LENGTH =\< MAXLEN\(ARRAY\) – POSITION \+ 1  
   
 ## Remarks  
  You can only copy from one\-dimensional arrays. Repeat the COPYARRAY function to copy two\-dimensional and three\-dimensional arrays.  

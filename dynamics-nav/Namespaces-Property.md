@@ -21,9 +21,9 @@ Specifies namespaces on the XMLport.
 ## Remarks  
  You can use this property to declare one or more namespaces on the XMLport. To add a namespace, you can choose the **AssistEdit** button or enter the namespaces directly in the field.  
   
- A namespace declaration consists of prefix and the namespace name, which has the format *prefix*\=*namespace*. Separate multiple namespaces with a comma.  
+ A namespace declaration consists of prefix and the namespace name, which has the format *prefix*=*namespace*. Separate multiple namespaces with a comma.  
   
- In the XML documents exported or imported by the XMLport, the namespaces declarations are only supported in the `<root>` element. For example, if an XMLport has the namespace **mynavprefix\=mynavnamepace** and the default namespace **urn:nav:schema:all**, then the root element will be as follows:  
+ In the XML documents exported or imported by the XMLport, the namespaces declarations are only supported in the `<root>` element. For example, if an XMLport has the namespace **mynavprefix=mynavnamepace** and the default namespace **urn:nav:schema:all**, then the root element will be as follows:  
   
  `<Root xmlns:mynavprefix="mynavnamespace" xmlns="urn:nav:schema:all">`  
   

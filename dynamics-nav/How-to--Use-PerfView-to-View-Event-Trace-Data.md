@@ -15,7 +15,7 @@ This topic describes how to use PerfView to view [!INCLUDE[nav_server](includes/
   
 ### To install PerfView  
   
--   Go to [http:\/\/go.microsoft.com\/fwlink\/?LinkID\=313428](http://go.microsoft.com/fwlink/?LinkID=313428), and then follow the instructions to download and install PerfView.  
+-   Go to [http:\/\/go.microsoft.com\/fwlink\/?LinkID=313428](http://go.microsoft.com/fwlink/?LinkID=313428), and then follow the instructions to download and install PerfView.  
   
 ##  <a name="ViewDataPerfView"></a> To view event trace data from an event trace log file  
   

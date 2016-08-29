@@ -39,7 +39,7 @@ You can export one or more application objects to one of the following formats:
   
 1.  At a command prompt, move to the location of finsql.exe. By default, finsql.exe is located at [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\[!INCLUDE[rtc](includes/rtc_md.md)]\\.  
   
-2.  Run finsql.exe with the parameter "command\=exportobjects". You must specify the following parameters:  
+2.  Run finsql.exe with the parameter "command=exportobjects". You must specify the following parameters:  
   
     -   file  
   

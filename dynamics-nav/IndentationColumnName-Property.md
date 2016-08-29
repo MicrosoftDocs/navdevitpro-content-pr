@@ -16,7 +16,7 @@ Sets the name of the hidden column that controls row indentation in a List page.
   
 ## Applies To  
   
--   Pages \(Type \= Group, Subtype \= Repeater\)  
+-   Pages \(Type = Group, Subtype = Repeater\)  
   
 ## Remarks  
  This property can be set to a field or variable of [Integer Data Type](Integer-Data-Type.md). For an example of row indentation, see the page 16 Chart of Accounts.  

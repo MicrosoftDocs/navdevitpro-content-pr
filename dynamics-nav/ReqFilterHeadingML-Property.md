@@ -22,13 +22,13 @@ Sets the text used as a [ReqFilterHeading Property](ReqFilterHeading-Property.md
 ## Remarks  
  **ReqFilterHeadingML** is multilanguage enabled. This means that it can contain a list of text in different languages. The text that is used will be selected according to the current language setting of the user. The **ReqFilterHeadingML** property has the following format.  
   
- \<*Language ID*\>\=\<*ReqFilterHeading*\>  
+ \<*Language ID*\>=\<*ReqFilterHeading*\>  
   
  \<*Language ID*\> is a Windows standard three\-letter language ID and \<*ReqFilterHeading*\> is the caption text for this language. Semicolons separate entries.  
   
  You can enter values for the **ReqFilterHeadingML** property in the following ways:  
   
--   If you enter a **ReqFilterHeading**, this value will be inserted in **ReqFilterHeadingML** as the value for the language that is currently selected. If the language is set to Danish when a value is entered in **ReqFilterHeading**, **ReqFilterHeadingML** will be updated with a DAN\=\<*value*  
+-   If you enter a **ReqFilterHeading**, this value will be inserted in **ReqFilterHeadingML** as the value for the language that is currently selected. If the language is set to Danish when a value is entered in **ReqFilterHeading**, **ReqFilterHeadingML** will be updated with a DAN=\<*value*  
   
      \> string. You have to use the abbreviated name \(DAN for Danish, for example\) of the languages.  
   

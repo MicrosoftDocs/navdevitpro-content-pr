@@ -65,7 +65,7 @@ ELSE
   
  This code example displays the following error message:  
   
- **Name cannot be blank in Customer No.\=”30000”.**  
+ **Name cannot be blank in Customer No.=”30000”.**  
   
 ## Programming Guidelines  
  We recommend the following guidelines for error messages:  

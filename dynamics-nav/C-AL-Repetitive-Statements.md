@@ -107,8 +107,8 @@ FOREACH <Element> IN <List> DO
   
 |Variable|DataType|Subtype|  
 |--------------|--------------|-------------|  
-|mylist|DotNet|System.Collections.Generic.List\`1.'mscorlib, Version\=4.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089'|  
-|element|DotNet|System.Object.'mscorlib, Version\=4.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089'|  
+|mylist|DotNet|System.Collections.Generic.List\`1.'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'|  
+|element|DotNet|System.Object.'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'|  
   
  Add the following C/AL code \(for example, on the OnRun trigger of the codeunit\).  
   
@@ -138,7 +138,7 @@ FOREACH element IN mylist DO
   
 |Variable|DataType|Subtype|  
 |--------------|--------------|-------------|  
-|mylist|DotNet|System.Collections.Generic.List\`1.'mscorlib, Version\=4.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089'|  
+|mylist|DotNet|System.Collections.Generic.List\`1.'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'|  
 |txt|Text||  
   
  Add the following C/AL code to objects \(for example, on the OnRun trigger of the codeunit\).  
@@ -169,8 +169,8 @@ FOREACH txt IN mylist DO
   
 |Variable|DataType|Subtype|  
 |--------------|--------------|-------------|  
-|mydictionary|DotNet|System.Collections.Generic.Dictionary\`2.'mscorlib, Version\=2.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089'|  
-|element|DotNet|System.Object.'mscorlib, Version\=4.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089'|  
+|mydictionary|DotNet|System.Collections.Generic.Dictionary\`2.'mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'|  
+|element|DotNet|System.Object.'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'|  
   
  Add the following C/AL code \(for example, on the OnRun trigger of the codeunit\).  
   
@@ -202,7 +202,7 @@ FOREACH element IN mydictionary DO
   
 |Variable|DataType|Subtype|  
 |--------------|--------------|-------------|  
-|strarray|DotNet|System.Array.'mscorlib, Version\=4.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089'|  
+|strarray|DotNet|System.Array.'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'|  
 |txt|Text||  
   
  Add the following C/AL code \(for example, on the OnRun trigger of the codeunit\).  

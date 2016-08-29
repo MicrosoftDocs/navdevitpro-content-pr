@@ -114,7 +114,7 @@ C/AL has the following types of variables:
 ## Assignment and Type Conversion  
  You can assign values in the following ways:  
   
--   By using the assignment operator ":\=", such as Variable :\= Expression. The data type that results from the evaluation of the right side expression must be the same data type as the variable \(left operand\) or have a data type that can be converted automatically to the data type of the left operand.  
+-   By using the assignment operator ":=", such as Variable := Expression. The data type that results from the evaluation of the right side expression must be the same data type as the variable \(left operand\) or have a data type that can be converted automatically to the data type of the left operand.  
   
 -   As parameter assignment, such as FUNCTION\(Expression\). The data type that results from the evaluation of the expression must correspond to a specific data type or have a data type that can be converted automatically to the correct data type. For more information about evaluation and type conversion in expressions, see [Type Conversion in Expressions](Type-Conversion-in-Expressions.md).  
   
@@ -125,7 +125,7 @@ C/AL has the following types of variables:
     > [!NOTE]  
     >  If the value cannot be converted, then a run\-time error occurs. If the value can be converted but overflow occurs, then a run\-time error occurs.  
   
--   The evaluation of the expression on the right side of an assignment operator \(:\=\) achieves a data type that differs from the data type of the variable on the left side, and the expression can be converted to the data type of the variable.  
+-   The evaluation of the expression on the right side of an assignment operator \(:=\) achieves a data type that differs from the data type of the variable on the left side, and the expression can be converted to the data type of the variable.  
   
  Automatic type conversion in assignments can occur between the following numeric data types as long as an overflow does not occur:  
   

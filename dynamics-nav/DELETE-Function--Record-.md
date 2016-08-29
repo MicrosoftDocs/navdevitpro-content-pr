@@ -125,7 +125,7 @@ CustomerRec1.DELETE;
   
  **Identification fields and values:**  
   
- **No.\='10000'**  
+ **No.='10000'**  
   
 ## See Also  
  [Record Data Type](Record-Data-Type.md)   

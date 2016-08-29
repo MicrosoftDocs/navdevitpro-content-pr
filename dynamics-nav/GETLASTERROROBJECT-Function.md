@@ -39,8 +39,8 @@ DotNet := GETLASTERROROBJECT
 |Variable name constant|Data Type|SubType|  
 |----------------------------|---------------|-------------|  
 |MyCodeunt|Codeunit|MyCodeunit|  
-|Exception|DotNet|'mscorlib, Version\=4.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089'.System.Exception|  
-|WebException|DotNet|'System, Version\=4.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089'.System.Net.WebException|  
+|Exception|DotNet|'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.System.Exception|  
+|WebException|DotNet|'System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.System.Net.WebException|  
   
 ```  
 IF NOT MyCodeunit.RUN THEN BEGIN  

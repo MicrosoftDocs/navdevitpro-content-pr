@@ -75,7 +75,7 @@ This topic lists some common problems that can occur when you use the Microsoft 
   
  If there are no conditions set for the contacts entities, then you may get the following message to view the debug log:  
   
- **Closing Mapi session "\/o\=First Organization\/ou\=First Administrative Group\/cn\=Recipients\/cn\=XY" because it exceeded the maximum of 250 objects of type "objtMessage**  
+ **Closing Mapi session "\/o=First Organization\/ou=First Administrative Group\/cn=Recipients\/cn=XY" because it exceeded the maximum of 250 objects of type "objtMessage**  
   
  This is due to a security setting on the Exchange Server. If a large set of data, which is first triggered with 250 objects, is synchronized to Exchange Server, then Exchange Server logs an error in the event log file and does not let you add the data to the mailbox.  
   
@@ -117,9 +117,9 @@ This topic lists some common problems that can occur when you use the Microsoft 
 ## Setting Up Microsoft Outlook Integration in a Three\-Machine Environment  
  When selecting a company, you may receive a message that resembles one of the following messages:  
   
--   The connection to "" Microsoft Dynamics NAV database failed. The program returned the following error: GetCompaniesList error: The login failed when connecting to SQL Server \<DatabaseTier\>. connection string: NavSynchronizationUrl\=http:\/\/\<ServiceTier\>:7047\/DynamicsNAV71\/WS\/Codeunit\/DynamicsNAVsynchOutlook;CompanyName\=\<CompanyName\>; Please verify your synchronization settings. If the problem persists contact your system administrator.  
+-   The connection to "" Microsoft Dynamics NAV database failed. The program returned the following error: GetCompaniesList error: The login failed when connecting to SQL Server \<DatabaseTier\>. connection string: NavSynchronizationUrl=http:\/\/\<ServiceTier\>:7047\/DynamicsNAV71\/WS\/Codeunit\/DynamicsNAVsynchOutlook;CompanyName=\<CompanyName\>; Please verify your synchronization settings. If the problem persists contact your system administrator.  
   
--   The connection to "" Microsoft Dynamics NAV database failed. The program returned the following error: GetCompaniesList error: The request failed with HTTP status 401: Unauthorized. connection string: NavSynchronizationUrl\=http:\/\/\<ServiceTier\>:7047\/DynamicsNAV70\/WS\/Codeunit\/DynamicsNAVsynchOutlook;CompanyName\=\<CompanyName\>; Please verify your synchronization settings. If the problem persists contact your system administrator.  
+-   The connection to "" Microsoft Dynamics NAV database failed. The program returned the following error: GetCompaniesList error: The request failed with HTTP status 401: Unauthorized. connection string: NavSynchronizationUrl=http:\/\/\<ServiceTier\>:7047\/DynamicsNAV70\/WS\/Codeunit\/DynamicsNAVsynchOutlook;CompanyName=\<CompanyName\>; Please verify your synchronization settings. If the problem persists contact your system administrator.  
   
  In the message, \<DatabaseTier\> is the server name of the SQL Server, \<ServiceTier\> is the server name of the Microsoft Dynamics NAV Server, and \<CompanyName\> is the company name.  
   

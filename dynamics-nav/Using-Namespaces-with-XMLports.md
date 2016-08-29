@@ -31,7 +31,7 @@ When using the XMLport to import or export an XML document, you can set up multi
 </Root>  
 ```  
   
- The `<root>` element contains the namespace declarations. Each namespace has the syntax *xmlns:prefix\="namespacename"*.  
+ The `<root>` element contains the namespace declarations. Each namespace has the syntax *xmlns:prefix="namespacename"*.  
   
 -   The *namespacename* is a string of characters, often referred to as a Uniform Resource Identifier \(URI\), which uniquely identifies an Internet resource. This is typically a Uniform Resource Locator \(URL\) or Universal Resource Name \(URN\).  
   

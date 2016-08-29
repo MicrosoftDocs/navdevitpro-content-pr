@@ -128,7 +128,7 @@ CustomerRec1.MODIFY;
   
  **Identification fields and values:**  
   
- **No.\='10000'**  
+ **No.='10000'**  
   
 ## See Also  
  [MODIFYALL Function \(Record\)](MODIFYALL-Function--Record-.md)   

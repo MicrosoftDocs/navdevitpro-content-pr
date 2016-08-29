@@ -74,7 +74,7 @@ MESSAGE(Text000 + Text001, StrNumber, CheckSum);
   
  The formula is:  
   
- \(7 \- \(4x1 \+ 3x2 \+ 7x3 \+ 8x4\) MOD 7\) MOD 7\=0  
+ \(7 \- \(4x1 \+ 3x2 \+ 7x3 \+ 8x4\) MOD 7\) MOD 7=0  
   
  The message window displays the following:  
   
@@ -95,7 +95,7 @@ MESSAGE(Text000 + Text001, StrNumber, CheckSum);
   
 3.  Starting with position 3, all odd values are totaled. The result is called Odd.  
   
-4.  Total\=Even \+ Odd.  
+4.  Total=Even \+ Odd.  
   
 5.  The modulus 10 checksum is then \(10 \- Total MOD 10\) MOD 10.  
   

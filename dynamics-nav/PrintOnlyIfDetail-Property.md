@@ -50,7 +50,7 @@ Specifies whether to print data in a report for the parent data item when the ch
 |Order|101009|20000|…|  
 |Order|101013|10000|…|  
   
- In this example, you set the [DataItemLink Property \(Reports\)](DataItemLink-Property--Reports-.md) to "Document Type\=FIELD\(Document Type\),Document No.\=FIELD\(No.\)". If you set **PrintOnlyIfDetail** to **Yes**, then the report outputs the following data.  
+ In this example, you set the [DataItemLink Property \(Reports\)](DataItemLink-Property--Reports-.md) to "Document Type=FIELD\(Document Type\),Document No.=FIELD\(No.\)". If you set **PrintOnlyIfDetail** to **Yes**, then the report outputs the following data.  
   
 |Document Type|Customer No.|Document No.|Line No.|…|  
 |-------------------|------------------|------------------|--------------|-------|  

@@ -71,7 +71,7 @@ You can create reports that provide dynamic data with Visual Studio Report Desig
   
 6.  In the **Text Box Properties** window, on the **Font** tab, under **Color**, choose **ƒx** to open the expression window.  
   
-7.  Under **Set expression for: Color**, enter **\="\#0066dd"**.  
+7.  Under **Set expression for: Color**, enter **="\#0066dd"**.  
   
 8.  Choose the **OK** button to close both windows.  
   
@@ -88,7 +88,7 @@ You can create reports that provide dynamic data with Visual Studio Report Desig
   
 3.  On the Windows taskbar, choose **Start**, and then choose **Run**.  
   
-4.  In the **Run** window, enter the following text: **dynamicsnav:\/\/\/\/runreport?report\=107**, and then choose **OK**. For more information about the syntax for running a report from the **Run** window, see [Creating and Running Hyperlinks](Creating-and-Running-Hyperlinks.md).  
+4.  In the **Run** window, enter the following text: **dynamicsnav:\/\/\/\/runreport?report=107**, and then choose **OK**. For more information about the syntax for running a report from the **Run** window, see [Creating and Running Hyperlinks](Creating-and-Running-Hyperlinks.md).  
   
 5.  Choose **Preview** to view the report. The report shows the order detail \(the quantity not yet shipped\) for each customer in three periods of 30 days each, starting from a selected date. If you select the customer name, then the specific Customer card opens. This makes it possible to drill down into the customer's data.  
   

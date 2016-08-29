@@ -68,7 +68,7 @@ You can control which users have permission to run a query object and access its
   
  To give indirect permission to table 37 Sales Line from the query, set the Permissions property of the query object to the following value  
   
- **TableData Sales Line\=r**  
+ **TableData Sales Line=r**  
   
 > [!NOTE]  
 >  For step\-by\-step instructions about how to create the query discussed in this example, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  

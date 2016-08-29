@@ -65,11 +65,11 @@ You can run reports:
   
 -   \> \(greater than\)  
   
--   \>\= \(greater than or equal to\)  
+-   \>= \(greater than or equal to\)  
   
 -   \< \(less than\)  
   
--   \<\= \(less than or equal to\)  
+-   \<= \(less than or equal to\)  
   
 -   \<\> \(not equal to\)  
   
@@ -89,7 +89,7 @@ DynamicsNAV:////runreport?report=101&filter=Customer.City:G*&filter=Customer.Nam
   
 2.  Type the following command:  
   
-     **Microsoft.Dynamics.Nav.Client.exe DynamicsNAV:\/\/\/\/runreport?report\=** *\<ReportID\>* **\[&filter\=** *\<table\>* **.** *\<field\>* **:** *\<value\>* **\]**  
+     **Microsoft.Dynamics.Nav.Client.exe DynamicsNAV:\/\/\/\/runreport?report=** *\<ReportID\>* **\[&filter=** *\<table\>* **.** *\<field\>* **:** *\<value\>* **\]**  
   
      Replace *\<ReportID\>* with the report ID that you want to run. If you want to filter the data, then replace *\<table\>*, *\<field\>*, and *\<value\>* with the appropriate values.  
   
@@ -97,7 +97,7 @@ DynamicsNAV:////runreport?report=101&filter=Customer.City:G*&filter=Customer.Nam
   
 1.  In Windows, on the taskbar, choose **Start** and then choose **Run**.  
   
-2.  In the **Run** window, enter the following command: **DynamicsNAV:\/\/\/\/runreport?report\=***\<ReportID\>***\[&filter\=***\<table\>***.***\<field\>***:***\<value\>***\]**  
+2.  In the **Run** window, enter the following command: **DynamicsNAV:\/\/\/\/runreport?report=***\<ReportID\>***\[&filter=***\<table\>***.***\<field\>***:***\<value\>***\]**  
   
      Replace *\<ReportID\>* with the report ID that you want to run. If you want to filter the data, then replace *\<table\>*, *\<field\>*, and *\<value\>* with the appropriate values.  
   
@@ -107,7 +107,7 @@ DynamicsNAV:////runreport?report=101&filter=Customer.City:G*&filter=Customer.Nam
   
 1.  Open a web browser window.  
   
-2.  In the address bar, enter the following command: **DynamicsNAV:\/\/\/\/runreport?report\=***\<ReportID\>***\[&filter\=***\<table\>***.***\<field\>***:***\<value\>***\]**  
+2.  In the address bar, enter the following command: **DynamicsNAV:\/\/\/\/runreport?report=***\<ReportID\>***\[&filter=***\<table\>***.***\<field\>***:***\<value\>***\]**  
   
      Replace *\<ReportID\>* with the report ID that you want to run. If you want to filter the data, then replace *\<table\>*, *\<field\>*, and *\<value\>* with the appropriate values.  
   

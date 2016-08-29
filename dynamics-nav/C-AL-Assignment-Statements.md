@@ -14,7 +14,7 @@ manager: edupont
 # C-AL Assignment Statements
 Assignment statements assign a value to a variable. The value that you assign to the variable is a C/AL expression. It can be a constant or a variable, or it can consist of multiple elements of C/AL expressions. If you use a function call as the value to assign to a variable in an assignment statement, then the value that is assigned is the return value of the function.  
   
- You use the ":\=" operator for assignment statements.  
+ You use the ":=" operator for assignment statements.  
   
 ## Example  
  The following example assigns a constant integer value to an integer variable that you have defined.  

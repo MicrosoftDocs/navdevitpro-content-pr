@@ -12,7 +12,7 @@ caps.latest.revision: 11
 manager: edupont
 ---
 # CURRENTKEYINDEX Function (RecordRef)
-Gets or sets the current key of the table referred to by the *RecordRef*. The current key is set or returned as a number. This first key \= 1, and so on.  
+Gets or sets the current key of the table referred to by the *RecordRef*. The current key is set or returned as a number. This first key = 1, and so on.  
   
 > [!WARNING]  
 >  If *RecordRef* does not have an active record, CURRENTKEYINDEX will return \-1. If this value is then passed to KEYINDEX, an index out of bounds error will occur. Therefore it is important to implement a check of the *RecordRef* parameter.  

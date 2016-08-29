@@ -14,7 +14,7 @@ manager: edupont
 # Troubleshooting: Could not load type &#39;System.ServiceModel.Activation.HttpModule&#39; from assembly &#39;System.ServiceModel...&#39;
 When you try to access the [!INCLUDE[nav_web](includes/nav_web_md.md)], you get the following error.  
   
- **Could not load type 'System.ServiceModel.Activation.HttpModule' from assembly 'System.ServiceModel, Version\=3.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089**  
+ **Could not load type 'System.ServiceModel.Activation.HttpModule' from assembly 'System.ServiceModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089**  
   
  This error can occur when there are multiple versions of the .NET Framework on the computer that is running IIS, and IIS was installed after .NET Framework 4.0 or before the Service Model in Windows Communication Foundation was registered.  
   

@@ -94,7 +94,7 @@ MESSAGE(Text000, MyFilters);
   
  Running the code returns the following message:  
   
- **The filters are as follows: Quantity \> 10, Name \= Selangorian Ltd.**  
+ **The filters are as follows: Quantity \> 10, Name = Selangorian Ltd.**  
   
 ## See Also  
  [How to: Set Up Filter Rows in Query Designer](How%20to:%20Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md)   

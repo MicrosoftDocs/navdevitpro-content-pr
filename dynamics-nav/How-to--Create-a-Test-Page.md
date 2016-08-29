@@ -78,7 +78,7 @@ CustomerCard."Page Ship-to Address List".INVOKE; // Invoke an action from the Cu
   
  **OnRun: FAILURE**  
   
- **AssertEquals for Field:Balance \(LCY\) Expected \= ‘0,00’, Actual \= ‘1.499,02’**  
+ **AssertEquals for Field:Balance \(LCY\) Expected = ‘0,00’, Actual = ‘1.499,02’**  
   
  **FAILURE**  
   

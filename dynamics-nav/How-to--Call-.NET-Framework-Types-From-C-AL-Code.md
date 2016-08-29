@@ -97,7 +97,7 @@ You can call .NET Framework type members, including methods, properties, and con
   
  The following code example uses .NET Framework interoperability to display headlines from an RSS feed from the Microsoft Dynamics NAV team blog, which has the following URL:  
   
- http:\/\/feeds.feedburner.com\/MicrosoftDynamicsNavTeamBlog?format\=xml.  
+ http:\/\/feeds.feedburner.com\/MicrosoftDynamicsNavTeamBlog?format=xml.  
   
  This example calls members of the **System.XML** assembly, which is part of the Microsoft .NET Framework class library and is installed in the global assembly cache.  
   
@@ -105,10 +105,10 @@ You can call .NET Framework type members, including methods, properties, and con
   
 |Variable name|DataType|SubType|  
 |-------------------|--------------|-------------|  
-|xml|DotNet|'System.Xml, Version\=2.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089'.System.Xml.XmlDocument|  
-|items|DotNet|'System.Xml, Version\=2.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089'.System.Xml.XmlNodeList|  
+|xml|DotNet|'System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.System.Xml.XmlDocument|  
+|items|DotNet|'System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.System.Xml.XmlNodeList|  
 |i|Integer||  
-|title|DotNet|'System.Xml, Version\=2.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089'.System.Xml.XmlNode|  
+|title|DotNet|'System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.System.Xml.XmlNode|  
   
  After you create the codeunit, add the following code to its OnRun trigger:  
   

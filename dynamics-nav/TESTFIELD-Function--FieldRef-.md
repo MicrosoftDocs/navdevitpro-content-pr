@@ -58,12 +58,12 @@ MyFieldRef.TESTFIELD('10000');
   
  In this example, the [!INCLUDE[navnow](includes/navnow_md.md)] displays following error message:  
   
- No. must be equal to 10000 in Customer: No.\=. Current value is ‘’.  
+ No. must be equal to 10000 in Customer: No.=. Current value is ‘’.  
   
 ## Example  
  If the value of the No. field is set to a value other than 10000, [!INCLUDE[navnow](includes/navnow_md.md)] displays the following error message:  
   
- No. must be equal to 10000 in Customer: No.\=AAA10000. Current value is ‘AAA10000’.  
+ No. must be equal to 10000 in Customer: No.=AAA10000. Current value is ‘AAA10000’.  
   
 ```  
   

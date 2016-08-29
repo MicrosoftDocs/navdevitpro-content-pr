@@ -29,7 +29,7 @@ You can define a condition on a breakpoint. If the condition is true, then code 
   
  The following operators are supported in breakpoint conditions:  
   
--   \=  
+-   =  
   
 -   \<\>  
   
@@ -37,9 +37,9 @@ You can define a condition on a breakpoint. If the condition is true, then code 
   
 -   \>  
   
--   \<\=  
+-   \<=  
   
--   \>\=  
+-   \>=  
   
 ### To set a conditional breakpoint  
   

@@ -28,7 +28,7 @@ When you create a client report definition \(RDLC\) layout for a report, a forma
   
 6.  In the **Category** list, choose **Custom**, and then choose the **Function** button \(fx\) next to the **Custom format** field.  
   
-7.  In the Expression window, select **Fields \(DataSet\_Result\)**, select the format variable from the list, and then choose **OK**. For example, if the **Value** field on the **General** tab is **\=Fields\!Customer\_\_Sales\_\_LCY\_\_.Value**, then the expressions for the format on the **Number** tab should be **\=Fields\!Customer\_\_Sales\_\_LCY\_\_Format.Value**.  
+7.  In the Expression window, select **Fields \(DataSet\_Result\)**, select the format variable from the list, and then choose **OK**. For example, if the **Value** field on the **General** tab is **=Fields\!Customer\_\_Sales\_\_LCY\_\_.Value**, then the expressions for the format on the **Number** tab should be **=Fields\!Customer\_\_Sales\_\_LCY\_\_Format.Value**.  
   
 ## See Also  
  [Designing Reports](Designing-Reports.md)

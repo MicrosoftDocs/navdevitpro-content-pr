@@ -34,7 +34,7 @@ Ok := CANLOADTYPE(DotNet)
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
-|OObjLibrary|DotNet|Microsoft.Dynamics.NAV.OLSync.OLSyncSupplier.OutlookObjectLibrary.'Microsoft.Dynamics.NAV.OLSync.OLSyncSupplier, Version\=7.1.0.0, Culture\=neutral, PublicKeyToken\=31bf3856ad364e35'|  
+|OObjLibrary|DotNet|Microsoft.Dynamics.NAV.OLSync.OLSyncSupplier.OutlookObjectLibrary.'Microsoft.Dynamics.NAV.OLSync.OLSyncSupplier, Version=7.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'|  
   
 |Text constant name|ConstValue|  
 |------------------------|----------------|  

@@ -124,7 +124,7 @@ In this walkthrough, you will learn how to add a new item to an **Action** tab a
   
      The default value for this property is **Edit**. By setting this property to a value of **Create**, a sales order page will open in create mode, enabling the end user to create a new sales order.  
   
-3.  Set the **RunPageLink** property value to **Sell\-to Customer No.\=FIELD\(No.\)** using the following steps:  
+3.  Set the **RunPageLink** property value to **Sell\-to Customer No.=FIELD\(No.\)** using the following steps:  
   
     1.  In the **RunPageLink** property value, choose the Assist\-Edit button \(ellipsis\).  
   

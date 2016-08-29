@@ -87,7 +87,7 @@ Runs a query object and generates a dataset that can be read.
   
     |Text constant name|ENU Value|  
     |------------------------|---------------|  
-    |Text000|Customer name \= %1, Quantity \= %2|  
+    |Text000|Customer name = %1, Quantity = %2|  
   
  The following C/AL code opens the query, reads each row of the dataset, and then displays a message that uses the content of the row. You can add the code to a codeunit, and then run the codeunit to see the results.  
   
@@ -107,7 +107,7 @@ MyQuery.CLOSE;
   
  When the code is run, a message that resembles the following appears for each row in the dataset:  
   
- **Customer name \= The Device Shop, Quantity \= 30**  
+ **Customer name = The Device Shop, Quantity = 30**  
   
 ## See Also  
  [How to: Create Queries](How%20to:%20Create%20Queries.md)   
