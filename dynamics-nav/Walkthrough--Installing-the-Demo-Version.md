@@ -24,9 +24,9 @@ You can install the Demo version of [!INCLUDE[navnowlong](includes/navnowlong_md
   
 -   [Microsoft Dynamics NAV Server](Microsoft-Dynamics-NAV-Server.md)  
   
--   [Development Environment \(C\-SIDE\)](Development-Environment--C-SIDE-.md)  
+-   [Development Environment \(C-SIDE\)](Development-Environment--C-SIDE-.md)  
   
--   Microsoft Office Outlook Add\-in for Microsoft Dynamics NAV  
+-   Microsoft Office Outlook Add-in for Microsoft Dynamics NAV  
   
 -   [SQL Server Database Components](SQL-Server-Database-Components.md)  
   
@@ -42,9 +42,9 @@ You can install the Demo version of [!INCLUDE[navnowlong](includes/navnowlong_md
   
 -   The [!INCLUDE[demolong](includes/demolong_md.md)] has not been tested to run side by side with earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)]. We recommend that you do not install the [!INCLUDE[demolong](includes/demolong_md.md)] on a computer that already has an earlier version of [!INCLUDE[navnow](includes/navnow_md.md)] installed.  
   
--   If you want to use the Microsoft Outlook Add\-In, then install Outlook before you install the [!INCLUDE[demolong](includes/demolong_md.md)].  
+-   If you want to use the Microsoft Outlook Add-In, then install Outlook before you install the [!INCLUDE[demolong](includes/demolong_md.md)].  
   
--   If User Account Control is enabled on the computer where you want to install the demonstration database, then right\-click **[!INCLUDE[navnowlong](includes/navnowlong_md.md)]**, and then choose **Run as administrator** to run the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] with administrative credentials.  
+-   If User Account Control is enabled on the computer where you want to install the demonstration database, then right-click **[!INCLUDE[navnowlong](includes/navnowlong_md.md)]**, and then choose **Run as administrator** to run the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] with administrative credentials.  
   
 ## Running Setup  
   

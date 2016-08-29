@@ -20,7 +20,7 @@ A query describes a dataset of [!INCLUDE[navnow](includes/navnow_md.md)] data. Q
   
 2.  In Object Designer, choose **Query**, and then choose **New**.  
   
-3.  In Query Designer, on the first line, in the **Type** column, choose **DataItem** from the drop\-down list.  
+3.  In Query Designer, on the first line, in the **Type** column, choose **DataItem** from the drop-down list.  
   
     > [!NOTE]  
     >  The first line in Query Designer must be a **DataItem** and not a **Column**.  
@@ -34,16 +34,16 @@ A query describes a dataset of [!INCLUDE[navnow](includes/navnow_md.md)] data. Q
     > [!WARNING]  
     >  All DataItem and Column rows must have unique names.  
   
-6.  In Query Designer, on the next line, in the **Type** column, choose **Column** from the drop\-down list.  
+6.  In Query Designer, on the next line, in the **Type** column, choose **Column** from the drop-down list.  
   
 7.  In the **Data Source** column, enter a field that you want to include in the query dataset. To select one or more fields from the **Field List** window, choose the up arrow.  
   
     > [!NOTE]  
     >  Fields are indented one level from the parent data item.  
   
-8.  In the **Name** column, enter a CLS\-compliant name for the field.  
+8.  In the **Name** column, enter a CLS-compliant name for the field.  
   
-9. In the user interface for the query results, such as in a chart, the name of the underlying table field is displayed for the query column. If you want to display a different name for the column, then change the [Caption Property\-duplicate](Caption-Property-duplicate.md) or [CaptionML Property](CaptionML-Property.md).  
+9. In the user interface for the query results, such as in a chart, the name of the underlying table field is displayed for the query column. If you want to display a different name for the column, then change the [Caption Property-duplicate](Caption-Property-duplicate.md) or [CaptionML Property](CaptionML-Property.md).  
   
     > [!NOTE]  
     >  When you run the query from Object Designer, the **About This Query** window that opens in the [!INCLUDE[rtc](includes/rtc_md.md)] displays the name that is defined by the **Name** property of the column, not the **Caption** property or **CaptionML** property.  

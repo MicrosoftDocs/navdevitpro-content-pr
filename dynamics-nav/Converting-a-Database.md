@@ -59,9 +59,9 @@ If your current solution is based on [!INCLUDE[nav7long](includes/nav7long_md.md
     > [!IMPORTANT]  
     >  The license that you upload must be a developer license. During the conversion, the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] will convert the report objects that are stored in the old database to the RDL 2012 format.  
   
-8.  If you are converting a [!INCLUDE[navsicily](includes/navsicily_md.md)] or [!INCLUDE[navcrete](includes/navcrete_md.md)] database, then run the Sync\-NavTenant cmdlet from the [!INCLUDE[navsicily](includes/navsicily_md.md)] or [!INCLUDE[navcrete](includes/navcrete_md.md)] Administration Shell to synchronize the database schema changes.  
+8.  If you are converting a [!INCLUDE[navsicily](includes/navsicily_md.md)] or [!INCLUDE[navcrete](includes/navcrete_md.md)] database, then run the Sync-NavTenant cmdlet from the [!INCLUDE[navsicily](includes/navsicily_md.md)] or [!INCLUDE[navcrete](includes/navcrete_md.md)] Administration Shell to synchronize the database schema changes.  
   
-     For more information, see [How to: Run the Sync\-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database](How%20to:%20Run%20the%20Sync-NAVTenant%20Cmdlet%20to%20Synchronize%20the%20Tenant%20Database%20with%20the%20Application%20Database.md).  
+     For more information, see [How to: Run the Sync-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database](How%20to:%20Run%20the%20Sync-NAVTenant%20Cmdlet%20to%20Synchronize%20the%20Tenant%20Database%20with%20the%20Application%20Database.md).  
   
 ## Task 2: Converting the Old Database  
  Next, you will convert the old database so that it can be used in [!INCLUDE[navcorfu](includes/navcorfu_md.md)].  
@@ -69,7 +69,7 @@ If your current solution is based on [!INCLUDE[nav7long](includes/nav7long_md.md
  Before you start the following procedure, you can choose to uninstall [!INCLUDE[nav7long](includes/nav7long_md.md)], [!INCLUDE[navsicily](includes/navsicily_md.md)], or [!INCLUDE[navcrete](includes/navcrete_md.md)]. When you uninstall [!INCLUDE[nav7long](includes/nav7long_md.md)], [!INCLUDE[navsicily](includes/navsicily_md.md)], or [!INCLUDE[navcrete](includes/navcrete_md.md)], the database is still attached to the instance of SQL Server, which you can verify using SQL Server Management Studio.  
   
 > [!TIP]  
->  If you want to write a script that helps you convert databases, you can use the Invoke\-NAVDatabaseConversion function in the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)].  
+>  If you want to write a script that helps you convert databases, you can use the Invoke-NAVDatabaseConversion function in the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)].  
   
 #### To convert the database  
   
@@ -109,19 +109,19 @@ If your current solution is based on [!INCLUDE[nav7long](includes/nav7long_md.md
   
      **From the [!INCLUDE[nav_shell](includes/nav_shell_md.md)]:**  
   
-     Open the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] as an administrator, and then run Sync\-NavTenant cmdlet as follows:  
+     Open the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] as an administrator, and then run Sync-NavTenant cmdlet as follows:  
   
     ```  
     Sync-NavTenant –ServerInstance <ServerInstanceName>  
     ```  
   
-     Replace `<ServerInstanceName>` with the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that is connected to the database. For more information, see [How to: Run the Sync\-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database](How%20to:%20Run%20the%20Sync-NAVTenant%20Cmdlet%20to%20Synchronize%20the%20Tenant%20Database%20with%20the%20Application%20Database.md).  
+     Replace `<ServerInstanceName>` with the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that is connected to the database. For more information, see [How to: Run the Sync-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database](How%20to:%20Run%20the%20Sync-NAVTenant%20Cmdlet%20to%20Synchronize%20the%20Tenant%20Database%20with%20the%20Application%20Database.md).  
   
-8.  If the database references any assemblies \(such as client control add\-ins\) that are not included on the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installation media \(DVD\), then add the assemblies to the Add\-ins folder on [!INCLUDE[nav_server](includes/nav_server_md.md)] or [!INCLUDE[nav_windows](includes/nav_windows_md.md)] computers.  
+8.  If the database references any assemblies \(such as client control add-ins\) that are not included on the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installation media \(DVD\), then add the assemblies to the Add-ins folder on [!INCLUDE[nav_server](includes/nav_server_md.md)] or [!INCLUDE[nav_windows](includes/nav_windows_md.md)] computers.  
   
-     For the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the default path is [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add\-ins folder.  
+     For the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the default path is [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add-ins folder.  
   
-     For [!INCLUDE[nav_server](includes/nav_server_md.md)], the default path is the [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service\\Add\-ins folder  
+     For [!INCLUDE[nav_server](includes/nav_server_md.md)], the default path is the [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service\\Add-ins folder  
   
 9. In the development environment, on the **Tools** menu, choose **Build Server Application Objects**, and then, in the dialog box, choose the **Yes** button.  
   

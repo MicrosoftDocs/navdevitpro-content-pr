@@ -29,9 +29,9 @@ Sets the strings that are displayed to the user for selecting an option. OptionC
 <Language ID>=<optioncaption [,optioncaption]*>  
 ```  
   
- \<Language ID\> is a Windows standard three\-letter language ID and \<optioncaption \[,optioncaption\]\*\> is the OptionCaption text\(s\) for this language. Semicolons are used to separate entries.  
+ \<Language ID\> is a Windows standard three-letter language ID and \<optioncaption \[,optioncaption\]\*\> is the OptionCaption text\(s\) for this language. Semicolons are used to separate entries.  
   
- Although you can use OptionCaptionML to limit the number of options displayed to the user, it is recommended that you use [OptionString Property](OptionString-Property.md) to do this. You cannot expand the set of options. If you do, a run\-time error will occur when the user selects an option that is outside the option set defined for the field or variable.  
+ Although you can use OptionCaptionML to limit the number of options displayed to the user, it is recommended that you use [OptionString Property](OptionString-Property.md) to do this. You cannot expand the set of options. If you do, a run-time error will occur when the user selects an option that is outside the option set defined for the field or variable.  
   
  The following is an example of an OptionCaptionML value.  
   

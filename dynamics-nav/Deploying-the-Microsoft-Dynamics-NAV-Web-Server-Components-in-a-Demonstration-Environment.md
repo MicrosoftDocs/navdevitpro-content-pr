@@ -31,7 +31,7 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
   
 -   [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)  
   
--   [Development Environment \(C\-SIDE\)](Development-Environment--C-SIDE-.md)  
+-   [Development Environment \(C-SIDE\)](Development-Environment--C-SIDE-.md)  
   
 -   [!INCLUDE[demolong](includes/demolong_md.md)], including a demo license.  
   
@@ -56,7 +56,7 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
   
     -   Service instance: NAVDEMO  
   
-    -   Database: Demo Database NAV \(9\-0\)  
+    -   Database: Demo Database NAV \(9-0\)  
   
 -   NETWORK SERVICE account is used as the service account for [!INCLUDE[nav_server](includes/nav_server_md.md)] and [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   

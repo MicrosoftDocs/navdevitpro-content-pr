@@ -12,9 +12,9 @@ caps.latest.revision: 25
 manager: edupont
 ---
 # Designing for Different Screen Sizes on Tablet and Phone
-When designing application pages for the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and the [!INCLUDE[nav_phone](includes/nav_phone_md.md)], it is best practice to consider the size of the tablets or phones that your end\-users have access to. It is an advantage if the solution works well on both small screen sizes and also on larger screen sizes, but we also recommend that you consider thoroughly the most frequently used screen sizes for your end\-user experience. Designing for small screens can be a challenge, because pages will show fewer fields, columns, and tiles.  
+When designing application pages for the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and the [!INCLUDE[nav_phone](includes/nav_phone_md.md)], it is best practice to consider the size of the tablets or phones that your end-users have access to. It is an advantage if the solution works well on both small screen sizes and also on larger screen sizes, but we also recommend that you consider thoroughly the most frequently used screen sizes for your end-user experience. Designing for small screens can be a challenge, because pages will show fewer fields, columns, and tiles.  
   
- In many cases, end\-users will have access to a broad range of devices having different screen sizes and resolutions. End\-users may have one device at work, and a different device at home, and expect the experience on both devices to be equally good. A good way to identify issues on how your application pages will look is to test on the smallest supported screen size. Currently tablet sizes start in the 7” range and phones range from 3” up to just below 7”. There are certain requirements for running the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] on tablets and phones. For more information, see [System Requirements for Microsoft Dynamics NAV 2016](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md).  
+ In many cases, end-users will have access to a broad range of devices having different screen sizes and resolutions. End-users may have one device at work, and a different device at home, and expect the experience on both devices to be equally good. A good way to identify issues on how your application pages will look is to test on the smallest supported screen size. Currently tablet sizes start in the 7” range and phones range from 3” up to just below 7”. There are certain requirements for running the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] on tablets and phones. For more information, see [System Requirements for Microsoft Dynamics NAV 2016](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md).  
   
  ![Various sizes of screens](media/TabletPhone_DifferentScreenSizes.png "TabletPhone\_DifferentScreenSizes")  
   
@@ -24,7 +24,7 @@ When designing application pages for the [!INCLUDE[nav_tablet](includes/nav_tabl
  On phones there is no app bar, and the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] displays only one part at a time on the Role Center. On the Home page, the Activity tiles are always displayed first, and you navigate through the top menu to explore the content area.  
   
 ### Guidance for Page Element Types on Smallest Tablet Devices  
- The following table provides a list of non\-scrollable elements in the page content or the app bar.  
+ The following table provides a list of non-scrollable elements in the page content or the app bar.  
   
 |Page Type|Displays on smallest tablet device|  
 |---------------|----------------------------------------|  

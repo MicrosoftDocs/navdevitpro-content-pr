@@ -57,10 +57,10 @@ You must perform the following prerequisites before you deploy [!INCLUDE[navnow]
   
  For more information, see [How to: Export Your Solution to a Database Backup File](How%20to:%20Export%20Your%20Solution%20to%20a%20Database%20Backup%20File.md).  
   
-##  <a name="ControlAddins"></a> Installing Control Add\-ins and Server\-Side Files  
- If the [!INCLUDE[navnow](includes/navnow_md.md)] application that you are deploying on Azure includes control add\-ins or additional files that will run on the [!INCLUDE[nav_server](includes/nav_server_md.md)], copy these files to a location that can be accessed from the provisioning computer, and then modify the deployment scripts to install the files.  
+##  <a name="ControlAddins"></a> Installing Control Add-ins and Server-Side Files  
+ If the [!INCLUDE[navnow](includes/navnow_md.md)] application that you are deploying on Azure includes control add-ins or additional files that will run on the [!INCLUDE[nav_server](includes/nav_server_md.md)], copy these files to a location that can be accessed from the provisioning computer, and then modify the deployment scripts to install the files.  
   
- For more information, see [How to: Install Control Add\-Ins and Support Files for Your Solution](How%20to:%20Install%20Control%20Add-Ins%20and%20Support%20Files%20for%20Your%20Solution.md)  
+ For more information, see [How to: Install Control Add-Ins and Support Files for Your Solution](How%20to:%20Install%20Control%20Add-Ins%20and%20Support%20Files%20for%20Your%20Solution.md)  
   
 ## See Also  
  [Planning and Preparing](Planning-and-Preparing.md)   

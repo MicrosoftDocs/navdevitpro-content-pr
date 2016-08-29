@@ -26,7 +26,7 @@ Starts a [!INCLUDE[navnow](includes/navnow_md.md)] session without a UI and runs
   
  The ID of the new session that is started. The ID is assigned to the *SessionID* variable after the session is started successfully.  
   
- This parameter is passed by reference to the function. For more information about passing parameters by reference, see [C\-AL Function Calls](C-AL-Function-Calls.md).  
+ This parameter is passed by reference to the function. For more information about passing parameters by reference, see [C-AL Function Calls](C-AL-Function-Calls.md).  
   
  *CodeunitID*  
  Type: Integer  
@@ -52,7 +52,7 @@ Starts a [!INCLUDE[navnow](includes/navnow_md.md)] session without a UI and runs
   
  **true** if the session started successfully and no errors occurred; otherwise **false**.  
   
- If you omit this optional return value and the session is not started successfully, then a run\-time error occurs. If you include the return value, then you must handle any errors.  
+ If you omit this optional return value and the session is not started successfully, then a run-time error occurs. If you include the return value, then you must handle any errors.  
   
 ## Remarks  
  The session is started on the same [!INCLUDE[nav_server](includes/nav_server_md.md)] instance from which the function is called. The session that is started is a background session and therefore has no UI. The session executes using the same user credentials as the calling C/AL code.  

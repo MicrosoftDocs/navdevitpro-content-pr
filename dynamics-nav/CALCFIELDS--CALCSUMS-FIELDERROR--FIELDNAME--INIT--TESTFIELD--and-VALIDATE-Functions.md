@@ -82,7 +82,7 @@ MESSAGE ('%1 calculated sales',custledgerentry."Sales (LCY)")
 ```  
   
 ## FIELDERROR Function  
- FIELDERROR triggers a run\-time error after it displays a field\-related error message.  
+ FIELDERROR triggers a run-time error after it displays a field-related error message.  
   
  FIELDERROR has the following syntax.  
   
@@ -166,7 +166,7 @@ Name := Record.FIELDNAME(Field)
 Record.TESTFIELD(Field, [Value])  
 ```  
   
- If the test fails, that is, if the field does not contain the specified value, an error message is displayed and a run\-time error is triggered. This means that any changes that were made to the record are discarded. If the value that you test against is an empty string, the field must have a value other than blank or 0 \(zero\).  
+ If the test fails, that is, if the field does not contain the specified value, an error message is displayed and a run-time error is triggered. This means that any changes that were made to the record are discarded. If the value that you test against is an empty string, the field must have a value other than blank or 0 \(zero\).  
   
  The following example tests the Language Code field for customer number 10000 in the Customer table and tests whether the Language Code is ZX.  This example requires that you create the following variable.  
   
@@ -186,7 +186,7 @@ customer.TESTFIELD("Language Code",'ZX');
 Record.VALIDATE(Field [, NewValue])  
 ```  
   
- When you enter an account number in a ledger, code in a table trigger is executed to transfer the name of the account from the chart of accounts. If you enter an account number in a batch job, the code which transfers the name of the account is not automatically executed. The following example executes the appropriate field\-level trigger code. This example requires that you create the following variable.  
+ When you enter an account number in a ledger, code in a table trigger is executed to transfer the name of the account from the chart of accounts. If you enter an account number in a batch job, the code which transfers the name of the account is not automatically executed. The following example executes the appropriate field-level trigger code. This example requires that you create the following variable.  
   
 |Variable|Data type|Subtype|  
 |--------------|---------------|-------------|  

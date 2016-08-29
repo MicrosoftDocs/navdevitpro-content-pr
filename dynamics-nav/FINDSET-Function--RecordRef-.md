@@ -29,7 +29,7 @@ Finds a set of records in a table based on the current key and filter. FINDSET c
   
  If the record is found, it is returned in *RecordRef* and any [FlowFields](FlowFields.md) in the record are set to zero. You must update any FlowFields using [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md).  
   
- If the record is not found and if you omitted the return value, a run\-time error occurs.  
+ If the record is not found and if you omitted the return value, a run-time error occurs.  
   
  *ForUpdate*  
  Type: Boolean  
@@ -50,27 +50,27 @@ Finds a set of records in a table based on the current key and filter. FINDSET c
   
  **true** if the record set was found; otherwise, **false**.  
   
- If you omit this optional return value and if the record cannot be found, a run\-time error occurs. If you include a return value, it is assumed that you will handle any errors.  
+ If you omit this optional return value and if the record cannot be found, a run-time error occurs. If you include a return value, it is assumed that you will handle any errors.  
   
 ## Remarks  
  You should use this function only when you explicitly want to loop through a recordset. You should only use this function in combination with REPEAT..UNTIL.  
   
- Furthermore, FINDSET only allows you to loop through the recordset from the top down. If you want to loop from the bottom up, you should use FIND\(‘\+’\).  
+ Furthermore, FINDSET only allows you to loop through the recordset from the top down. If you want to loop from the bottom up, you should use FIND\(‘+’\).  
   
  The general rules for using FINDSET are the following:  
   
--   FINDSET\(FALSE,FALSE\) \- Read\-only. This uses no server cursors and the record set is read with a single server call.  
+-   FINDSET\(FALSE,FALSE\) - Read-only. This uses no server cursors and the record set is read with a single server call.  
   
--   FINDSET\(TRUE,FALSE\) \- This is used to update non\-key fields. This uses a cursor with a fetch buffer similar to FIND\(‘\-’\).  
+-   FINDSET\(TRUE,FALSE\) - This is used to update non-key fields. This uses a cursor with a fetch buffer similar to FIND\(‘-’\).  
   
--   FINDSET\(TRUE,TRUE\) \- This is used to update key fields.  
+-   FINDSET\(TRUE,TRUE\) - This is used to update key fields.  
   
  This function is designed to optimize finding and updating sets. If you set any or both of the parameters to **false**, you can still modify the records in the set but these updates will not be performed optimally.  
   
  This function works the same way as the [FINDSET Function \(Record\)](FINDSET-Function--Record-.md).  
   
 ## Example  
- The following example opens table 18 \(Customer\) as a RecordRef variable that is named MyRecordRef. The [FIELD Function \(RecordRef\)](FIELD-Function--RecordRef-.md) creates a FieldRef variable that is named MyFieldRef with the first field \(No.\). The [SETFILTER Function \(FieldRef\)](SETFILTER-Function--FieldRef-.md) uses the MyFieldRef variable to set a filter that selects records from 30000 to 32000. `MyRecordRef.FIELD(2)` creates a FieldRef for the second field \(Name\). The FINDSET function finds the set of records based on the key and the filters that have been set. The *ForUpdate* parameters and *UpdateKeys* are both set to **FALSE**. This makes the records in the set read\-only. The record ID and name of each customer in the record set is displayed in a message box until no records are left in the record set. The following example requires that you create the following variables and text constant in the **C/AL Globals** window.  
+ The following example opens table 18 \(Customer\) as a RecordRef variable that is named MyRecordRef. The [FIELD Function \(RecordRef\)](FIELD-Function--RecordRef-.md) creates a FieldRef variable that is named MyFieldRef with the first field \(No.\). The [SETFILTER Function \(FieldRef\)](SETFILTER-Function--FieldRef-.md) uses the MyFieldRef variable to set a filter that selects records from 30000 to 32000. `MyRecordRef.FIELD(2)` creates a FieldRef for the second field \(Name\). The FINDSET function finds the set of records based on the key and the filters that have been set. The *ForUpdate* parameters and *UpdateKeys* are both set to **FALSE**. This makes the records in the set read-only. The record ID and name of each customer in the record set is displayed in a message box until no records are left in the record set. The following example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

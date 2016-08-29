@@ -11,7 +11,7 @@ ms.assetid: 1e61e54a-a430-4a53-8253-bf7505e1cf2a
 caps.latest.revision: 9
 ---
 # Working with PowerShell
-Windows PowerShell is a Windows command\-line shell that is designed especially for system administrators.  
+Windows PowerShell is a Windows command-line shell that is designed especially for system administrators.  
   
  To start a [!INCLUDE[navnow](includes/navnow_md.md)] PowerShell session, on the **Start** menu, choose **All Programs**, and then choose **[!INCLUDE[nav_shell](includes/nav_shell_md.md)]**. This opens a PowerShell prompt where the [!INCLUDE[navnow](includes/navnow_md.md)] cmdlets are available.  
   
@@ -30,7 +30,7 @@ Windows PowerShell is a Windows command\-line shell that is designed especially 
 |`-confirm`|Use this parameter with a cmdlet to make sure that you do not unintentionally overwrite files that you have already uploaded.|  
 |`-verbose`|Use this parameter to display messages that indicate how the action is processing.|  
   
- In addition, you can use the Get\-Help cmdlet in combination with any [!INCLUDE[navnow](includes/navnow_md.md)] cmdlets to view a cmdlets definition, information about parameters, and examples.  
+ In addition, you can use the Get-Help cmdlet in combination with any [!INCLUDE[navnow](includes/navnow_md.md)] cmdlets to view a cmdlets definition, information about parameters, and examples.  
   
 ```  
 Get-Help <cmdlet name>  

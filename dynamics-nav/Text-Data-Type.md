@@ -18,7 +18,7 @@ This simple data type denotes a text string.
   
  You can index any character position in a text string, for example A\[65\]. The resulting value will be a [Char Data Type](Char-Data-Type.md).  
   
- You cannot assign a char to a position in the code variable greater than the current length of the variable \+1. For more information, see [Char Data Type](Char-Data-Type.md).  
+ You cannot assign a char to a position in the code variable greater than the current length of the variable +1. For more information, see [Char Data Type](Char-Data-Type.md).  
   
  The Text data type supports Unicode.  
   

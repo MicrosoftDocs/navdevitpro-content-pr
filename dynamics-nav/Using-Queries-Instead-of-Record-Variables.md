@@ -84,14 +84,14 @@ WHILE ItemMovements.READ DO
   
 ```  
   
- The `ItemMovements.TOPNUMBEROFROWS(5);` statement will include only the first 5 records in the resulting dataset and corresponds to implementing the `count` variable in the record\-based code example.  
+ The `ItemMovements.TOPNUMBEROFROWS(5);` statement will include only the first 5 records in the resulting dataset and corresponds to implementing the `count` variable in the record-based code example.  
   
  The `OutputData` function performs the same operations as the OutputData function in the record variable example.  
   
 ## See Also  
  [Queries](Queries.md)   
  [How to: Create Queries](How%20to:%20Create%20Queries.md)   
- [Working with Queries in C\-AL](Working-with-Queries-in-C-AL.md)   
+ [Working with Queries in C-AL](Working-with-Queries-in-C-AL.md)   
  [Understanding Query Filters](Understanding-Query-Filters.md)   
  [SETRANGE Function \(Query\)](SETRANGE-Function--Query-.md)   
  [OPEN Function \(Query\)](OPEN-Function--Query-.md)   

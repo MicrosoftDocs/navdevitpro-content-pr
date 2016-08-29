@@ -19,12 +19,12 @@ This topic describes how to implement security certificates on the [!INCLUDE[nav
 > [!NOTE]  
 >  An instance of [!INCLUDE[nav_server](includes/nav_server_md.md)] that has been configured for secure WAN communication always prompts [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)] users for authentication when they start the client, even when the client computer is in the same domain as [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
-## Running the Certificates Snap\-in for Microsoft Management Console  
- Some of the following procedures use the Certificates snap\-in for Microsoft Management Console \(MMC\). If you do not already have this snap\-in installed, you can add it to the MMC.  
+## Running the Certificates Snap-in for Microsoft Management Console  
+ Some of the following procedures use the Certificates snap-in for Microsoft Management Console \(MMC\). If you do not already have this snap-in installed, you can add it to the MMC.  
   
-#### To add Certificates snap\-in for Microsoft Management Console \(MMC\)  
+#### To add Certificates snap-in for Microsoft Management Console \(MMC\)  
   
--   See [Add the Certificates Snap\-in to an MMC](http://go.microsoft.com/fwlink/?LinkID=699497).  
+-   See [Add the Certificates Snap-in to an MMC](http://go.microsoft.com/fwlink/?LinkID=699497).  
   
 ## Installing and Configuring the Certificates  
  You install the security certificates on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)] and computers running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] according to the following guidelines. The root CA certificate and the service certificate are used in the configuration, but client certificates are not.  
@@ -39,7 +39,7 @@ This topic describes how to implement security certificates on the [!INCLUDE[nav
   
      A certificate can be enabled for several different purposes. The **Server Authentication** and **Client Authentication** purposes must be enabled. You can enable or disable other purposes to suit your requirements.  
   
-     You enable certificate purposes by using the Certificates Snap\-in for MMC. For more information, see [Modify the Properties of a Certificate](http://go.microsoft.com/fwlink/?LinkID=699496).  
+     You enable certificate purposes by using the Certificates Snap-in for MMC. For more information, see [Modify the Properties of a Certificate](http://go.microsoft.com/fwlink/?LinkID=699496).  
   
 ## Configuring [!INCLUDE[nav_server](includes/nav_server_md.md)]  
  After you have installed the root CA and the service certificate on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)], you must grant access to the service account that is associated with the server so that the service account can access the service certificate’s private key. You must also change the configuration settings for [!INCLUDE[nav_server](includes/nav_server_md.md)] to enable remote logins.  
@@ -48,7 +48,7 @@ This topic describes how to implement security certificates on the [!INCLUDE[nav
   
 1.  In the left pane of MMC, expand the **Certificates \(Local Computer\)** node, expand the **Personal** node, and then select the **Certificates** subfolder.  
   
-2.  In the right pane, right\-click the certificate, select **All Tasks**, and then choose **Manage Private Keys**.  
+2.  In the right pane, right-click the certificate, select **All Tasks**, and then choose **Manage Private Keys**.  
   
 3.  In the **Permissions** dialog box for the certificate, choose **Add**.  
   

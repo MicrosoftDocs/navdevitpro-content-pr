@@ -12,7 +12,7 @@ caps.latest.revision: 15
 manager: edupont
 ---
 # How to: Set up Microsoft Dynamics NAV for Single Sign-on With Office 365 using Windows PowerShell
-[!INCLUDE[navnow](includes/navnow_md.md)] supports federated user authentication with Microsoft Azure Active Directory \(Azure AD\). This is the Identity Provider service that is used by Office 365. Every time a new Office 365 subscription is provisioned, the Azure AD tenant for this subscription is also created. Thus, when [!INCLUDE[navnow](includes/navnow_md.md)] is configured for federated authentication with an Azure AD tenant, a Single Sign\-on \(SSO\) user experience is achieved between [!INCLUDE[navnow](includes/navnow_md.md)] and the Office 365 Web Applications or\/and any other applications which use the Single Sign\-on capability provided by the Azure AD tenant.  
+[!INCLUDE[navnow](includes/navnow_md.md)] supports federated user authentication with Microsoft Azure Active Directory \(Azure AD\). This is the Identity Provider service that is used by Office 365. Every time a new Office 365 subscription is provisioned, the Azure AD tenant for this subscription is also created. Thus, when [!INCLUDE[navnow](includes/navnow_md.md)] is configured for federated authentication with an Azure AD tenant, a Single Sign-on \(SSO\) user experience is achieved between [!INCLUDE[navnow](includes/navnow_md.md)] and the Office 365 Web Applications or\/and any other applications which use the Single Sign-on capability provided by the Azure AD tenant.  
   
  The `Set-NavSingleSignOnWithOffice365` cmdlet also supports enabling Office 365 account authentication both for [!INCLUDE[nav_web](includes/nav_web_md.md)] and for [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. Office 365 authentication is described in this topic for both clients.  
   
@@ -34,7 +34,7 @@ manager: edupont
   
  If the configuration sub steps fail, the cmdlet reverts all of the changes in the sub steps made to the [!INCLUDE[nav_server](includes/nav_server_md.md)] and [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  
   
- To follow this how\-to, you will need:  
+ To follow this how-to, you will need:  
   
 -   [!INCLUDE[navnow](includes/navnow_md.md)] with a user account. For more information, see [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md)  
   
@@ -50,19 +50,19 @@ manager: edupont
   
      The cmdlet relies on the presence of the following components on the system:  
   
-    -   [Microsoft Online Services Sign\-In Assistant for IT Professionals](http://go.microsoft.com/fwlink/?LinkId=394784)  
+    -   [Microsoft Online Services Sign-In Assistant for IT Professionals](http://go.microsoft.com/fwlink/?LinkId=394784)  
   
     -   [Microsoft Azure Active Directory Module for Windows PowerShell](http://go.microsoft.com/fwlink/?LinkId=394785)  
   
-     You can download and install these components from the links provided earlier in this section. If you have to decide between 32\-bit and 64\-bit versions of components, download the version that matches the Windows Operating System type.  
+     You can download and install these components from the links provided earlier in this section. If you have to decide between 32-bit and 64-bit versions of components, download the version that matches the Windows Operating System type.  
   
 -   Security Certificate Used to Secure the Server – Web Server Communication Channel  
   
-     Setting up user authentication types other than Windows for the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] requires securing the communication between the server and the client. This can be done by using a security certificate. The `Set-NavSingleSignOnWithOffice365` cmdlet assumes that you have already imported the security certificate in your certificate store. You can use a security certificate issued by a trusted certification authority. For more information, [How to: Implement Security Certificates in a Production Environment](How%20to:%20Implement%20Security%20Certificates%20in%20a%20Production%20Environment.md). You can also use a self\-signed certificate. For more information, see [Walkthrough: Implementing Security Certificates in a Test Environment](Walkthrough:%20Implementing%20Security%20Certificates%20in%20a%20Test%20Environment.md). We do not recommend the latter approach in a production environment; however, it is an alternative to consider when testing your environment.  
+     Setting up user authentication types other than Windows for the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] requires securing the communication between the server and the client. This can be done by using a security certificate. The `Set-NavSingleSignOnWithOffice365` cmdlet assumes that you have already imported the security certificate in your certificate store. You can use a security certificate issued by a trusted certification authority. For more information, [How to: Implement Security Certificates in a Production Environment](How%20to:%20Implement%20Security%20Certificates%20in%20a%20Production%20Environment.md). You can also use a self-signed certificate. For more information, see [Walkthrough: Implementing Security Certificates in a Test Environment](Walkthrough:%20Implementing%20Security%20Certificates%20in%20a%20Test%20Environment.md). We do not recommend the latter approach in a production environment; however, it is an alternative to consider when testing your environment.  
   
 ### To Import the NAVOffice365Administration Module  
   
-1.  Open Windows PowerShell as administrator, by right\-clicking the program and selecting **Run as administrator**.  
+1.  Open Windows PowerShell as administrator, by right-clicking the program and selecting **Run as administrator**.  
   
 2.  Navigate to your [!INCLUDE[navnow](includes/navnow_md.md)] DVD, and then to the *WindowsPowerShellScripts\\NAVOffice365Administration* folder.  
   
@@ -70,7 +70,7 @@ manager: edupont
   
  When you have imported the NAVOffice365Administration module, you can now run the `Set-NavSingleSignOnWithOffice365` cmdlet on the computer that hosts the [!INCLUDE[navnow](includes/navnow_md.md)] components with the relevant parameters set.  
   
-### To Automate the Single Sign\-on Configuration in a One\-Computer [!INCLUDE[navnow](includes/navnow_md.md)] Environment  
+### To Automate the Single Sign-on Configuration in a One-Computer [!INCLUDE[navnow](includes/navnow_md.md)] Environment  
   
 1.  In [!INCLUDE[wps_2](includes/wps_2_md.md)], at the prompt, enter `Set-NavSingleSignOnWithOffice365 -NavServerInstance “ServerInstanceName” -NavWebServerInstanceName “WebServerInstanceName” -NavUser “YourNavUser” -AuthenticationEmail “YourOffice365Email” -NavServerCertificateThumbprint “SecurityCertificateThumbprint”`. See the table below for a description of parameters.  
   
@@ -84,14 +84,14 @@ manager: edupont
   
 2.  When the `Set-NavSingleSignOnWithOffice365` cmdlet is run, a dialog box will open, requesting your Office 365 account user name and password.  
   
-## Automating the Single Sign\-on Configuration in a Multi\-Computer [!INCLUDE[navnow](includes/navnow_md.md)] Environment  
- This configuration type assumes that your [!INCLUDE[nav_server](includes/nav_server_md.md)] and [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] are on different computers. This means that you have to run the `Set-NavSingleSignOnWithOffice365` cmdlet on each of these computers separately with a different parameter set in order to correctly configure your [!INCLUDE[nav_web](includes/nav_web_md.md)] for single sign\-on with Office 365.  
+## Automating the Single Sign-on Configuration in a Multi-Computer [!INCLUDE[navnow](includes/navnow_md.md)] Environment  
+ This configuration type assumes that your [!INCLUDE[nav_server](includes/nav_server_md.md)] and [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] are on different computers. This means that you have to run the `Set-NavSingleSignOnWithOffice365` cmdlet on each of these computers separately with a different parameter set in order to correctly configure your [!INCLUDE[nav_web](includes/nav_web_md.md)] for single sign-on with Office 365.  
   
-#### To automate single sign\-on configuration in a multi\-computer [!INCLUDE[navnow](includes/navnow_md.md)] environment  
+#### To automate single sign-on configuration in a multi-computer [!INCLUDE[navnow](includes/navnow_md.md)] environment  
   
 1.  Run the `Set-NavSingleSignOnWithOffice365` cmdlet on the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer.  
   
-2.  To configure your [!INCLUDE[nav_server](includes/nav_server_md.md)] for single sign\-on, you have to run the cmdlet with the following parameter set:  
+2.  To configure your [!INCLUDE[nav_server](includes/nav_server_md.md)] for single sign-on, you have to run the cmdlet with the following parameter set:  
   
     ```  
     Set-NavSingleSignOnWithOffice365 -NavServerInstance “ServerInstanceName” -NavUser “YourNavUser” -NavServerCertificateThumbprint “SecurityCertificateThumbprint” –SkipWebServerConfiguration -SkipWinClientConfiguration  
@@ -103,7 +103,7 @@ manager: edupont
   
 3.  Run the `Set-NavSingleSignOnWithOffice365` cmdlet on the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] computer  
   
-4.  To configure your [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] for single sign\-on, you have to run the cmdlet with the following parameter set:  
+4.  To configure your [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] for single sign-on, you have to run the cmdlet with the following parameter set:  
   
     ```  
     Set-NavSingleSignOnWithOffice365 -NavWebServerInstanceName “WebServerInstanceName” -AuthenticationEmail “YourOffice365Email” –SkipNavServerConfiguration -SkipWinClientConfiguration  
@@ -122,7 +122,7 @@ $result = Set-NavSingleSignOnWithOffice365 -AuthenticationEmail “YourOffice365
 > [!NOTE]  
 >  The `SkipNavWebServerConfiguration` switch specifies that the [!INCLUDE[nav_server](includes/nav_server_md.md)] should not be configured. The `SkipNavServerConfiguration` switch specifies that the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] should not be configured.  
   
- Because this cmdlet is usually run on the computer that is hosting the [!INCLUDE[navnow](includes/navnow_md.md)] service, the value returned by the cmdlet, which in this case is the sign\-in page, must be copied and pasted in the `ACSUri` setting from the ClientUserSettings.config file.  
+ Because this cmdlet is usually run on the computer that is hosting the [!INCLUDE[navnow](includes/navnow_md.md)] service, the value returned by the cmdlet, which in this case is the sign-in page, must be copied and pasted in the `ACSUri` setting from the ClientUserSettings.config file.  
   
 > [!IMPORTANT]  
 >  When setting ACSUri in the ClientUserSettings.config file, make sure that the `ClientServicesCredentialType` is set to `AccessControlService`.  
@@ -137,7 +137,7 @@ $result = Set-NavSingleSignOnWithOffice365 -AuthenticationEmail “YourOffice365
  `AcsUri` should have the following format `https://login.windows.net/<tenant>/wsfed?wa=wsignin1.0%26wtrealm=<realm>%26wreply=<reply>`.  
   
 > [!NOTE]  
->  The difference between configuring the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_windows](includes/nav_windows_md.md)] for single sign\-on with Office 365 is the addition of the `wreply` parameter in the URL. The [!INCLUDE[nav_web](includes/nav_web_md.md)] automatically sets the `wreply` parameter to the web site login page, whereas the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] requires that it is preconfigured.  
+>  The difference between configuring the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_windows](includes/nav_windows_md.md)] for single sign-on with Office 365 is the addition of the `wreply` parameter in the URL. The [!INCLUDE[nav_web](includes/nav_web_md.md)] automatically sets the `wreply` parameter to the web site login page, whereas the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] requires that it is preconfigured.  
   
 > [!TIP]  
 >  Use the `Set-NavSingleSignOnWithOffice365` PowerShell script to get the AcsUri for Azure AD by running the following statement:  
@@ -148,7 +148,7 @@ $result = Set-NavSingleSignOnWithOffice365 -AuthenticationEmail “YourOffice365
   
 ## See Also  
  [Authenticating Users with Azure Active Directory](Authenticating-Users-with-Azure-Active-Directory.md)   
- [Troubleshooting: Running the Cmdlet Fails Because the Microosft Dynamics NAV Server Fails to Start\-Restart](Troubleshooting:%20Running%20the%20Cmdlet%20Fails%20Because%20the%20Microosft%20Dynamics%20NAV%20Server%20Fails%20to%20Start-Restart.md)   
+ [Troubleshooting: Running the Cmdlet Fails Because the Microosft Dynamics NAV Server Fails to Start-Restart](Troubleshooting:%20Running%20the%20Cmdlet%20Fails%20Because%20the%20Microosft%20Dynamics%20NAV%20Server%20Fails%20to%20Start-Restart.md)   
  [Troubleshooting: Running the Cmdlet in a Multitenant Microsoft Dynamics NAV Environment](Troubleshooting:%20Running%20the%20Cmdlet%20in%20a%20Multitenant%20Microsoft%20Dynamics%20NAV%20Environment.md)   
  [Troubleshooting: Avoiding the Office 365 Credentials Dialog box](Troubleshooting:%20Avoiding%20the%20Office%20365%20Credentials%20Dialog%20box.md)   
  [Troubleshooting: Running the Cmdlet for a Microsoft Dynamics NAV Web Server Hosted in Complex Network Topology](Troubleshooting:%20Running%20the%20Cmdlet%20for%20a%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Hosted%20in%20Complex%20Network%20Topology.md)

@@ -89,12 +89,12 @@ Web services provide easy communication and data exchange in a secured environme
   
 4.  In the **Object Type** column, select **Codeunit**, then in the **Object ID** column enter **50000**, and then enter **Letters** in the **Service Name** column.  
   
-5.  Mark the check box in the **Published** column and choose **OK** to close the **New \- Web Services** page.  
+5.  Mark the check box in the **Published** column and choose **OK** to close the **New - Web Services** page.  
   
 ## Verifying Web Service Availability  
   
 > [!NOTE]  
->  After publishing a web service, verify that the port that web service applications will use to connect to your web service is open. The default port for SOAP\-based web services is set to 7047. You can configure this value by using the [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
+>  After publishing a web service, verify that the port that web service applications will use to connect to your web service is open. The default port for SOAP-based web services is set to 7047. You can configure this value by using the [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
   
 #### To verify availability of the web service  
   
@@ -107,7 +107,7 @@ Web services provide easy communication and data exchange in a secured environme
      **http:\/\/localhost:7047\/DynamicsNAV\/WS\/CRONUS%20International%20Ltd.\/services**  
   
     > [!NOTE]  
-    >  The company name is case\-sensitive.  
+    >  The company name is case-sensitive.  
   
      The page should list the web service that you just published \(`Codeunit/Letters`\).  
   
@@ -122,7 +122,7 @@ Web services provide easy communication and data exchange in a secured environme
   
 3.  Enter the name **UsingLettersService** for the application and choose **OK** to close the **New Project** page.The sample code in this walkthrough expects this exact application name, so do not change it.  
   
-4.  In Solution Explorer, right\-click the **References** node in the project, and then choose **Add Service Reference**.  
+4.  In Solution Explorer, right-click the **References** node in the project, and then choose **Add Service Reference**.  
   
 5.  In the **Add Service Reference** window, choose the **Advanced** button.  
   

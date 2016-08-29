@@ -14,7 +14,7 @@ manager: edupont
 # Pages
 The following sections provide an overview of how to locate [!INCLUDE[navnow](includes/navnow_md.md)] documentation about developing pages.  
   
- In [!INCLUDE[navnow](includes/navnow_md.md)], pages provide the main way to interact with the RoleTailored client user interface. Pages are XML\-based and can be displayed on multiple display targets. They are also role based to the needs of individual users.  
+ In [!INCLUDE[navnow](includes/navnow_md.md)], pages provide the main way to interact with the RoleTailored client user interface. Pages are XML-based and can be displayed on multiple display targets. They are also role based to the needs of individual users.  
   
 ## Page Development Documentation  
  This documentation is intended for [!INCLUDE[navnow](includes/navnow_md.md)] developers. It is intended that this topic will help you to quickly find the information that you need.  

@@ -24,7 +24,7 @@ You use upgrade codeunits when you make changes to a table definition, either fr
  You implement upgrade codeunits when you make destructive changes to tables in [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. For more information about destructive changes, see [Handling Destructive Changes With Table Schema Synchronization](Synchronizing-Table-Schemas.md#HandlingDestChanges). After you have created an upgrade codeunit to handle table changes, you can use it when you upgrade data from an earlier version of [!INCLUDE[navnow](includes/navnow_md.md)] to the current version. A single upgrade codeunit will typically contain table schema synchronization instructions and data migration logic for multiple tables that have changed from one version of [!INCLUDE[navnow](includes/navnow_md.md)] to another.  
   
 > [!NOTE]  
->  For an example that explains how to create and implement upgrade codeunits, see the [!INCLUDE[navnow](includes/navnow_md.md)] Upgrade Demo Script document at [http:\/\/go.microsoft.com\/fwlink\/?LinkID=509977](http://go.microsoft.com/fwlink/?LinkID=509977). This document provides step\-by\-step instructions that support the concepts discussed in this topic.  
+>  For an example that explains how to create and implement upgrade codeunits, see the [!INCLUDE[navnow](includes/navnow_md.md)] Upgrade Demo Script document at [http:\/\/go.microsoft.com\/fwlink\/?LinkID=509977](http://go.microsoft.com/fwlink/?LinkID=509977). This document provides step-by-step instructions that support the concepts discussed in this topic.  
   
 ## Upgrade Codeunits Overview  
  An upgrade codeunit consists of three sections that are defined by specific function types:  
@@ -98,7 +98,7 @@ You use upgrade codeunits when you make changes to a table definition, either fr
   
  `<function name>(VAR <record name> : Record "Table Synch. Setup")`  
   
- For each table that has been changed, you provide synchronization instructions as C/AL code in the **TableSyncSetup** function. The instructions specify a mode for handling the data in the changed table. For more information about the modes, see [TableSyncSetup Modes](Upgrade-Codeunits.md#TblModes). The [!INCLUDE[demolong](includes/demolong_md.md)] \(Demo Database NAV \(9\-0\) demonstration database\) includes codeunit **9900 Data Upgrade Mgt.** that you can use to populate table **2000000135 Table Synch. Setup** with the modes for each changed table. In this codeunit, you can add instructions in **SetTableSyncSetup** function as shown in the following example:  
+ For each table that has been changed, you provide synchronization instructions as C/AL code in the **TableSyncSetup** function. The instructions specify a mode for handling the data in the changed table. For more information about the modes, see [TableSyncSetup Modes](Upgrade-Codeunits.md#TblModes). The [!INCLUDE[demolong](includes/demolong_md.md)] \(Demo Database NAV \(9-0\) demonstration database\) includes codeunit **9900 Data Upgrade Mgt.** that you can use to populate table **2000000135 Table Synch. Setup** with the modes for each changed table. In this codeunit, you can add instructions in **SetTableSyncSetup** function as shown in the following example:  
   
 ```  
 DataUpgradeMgt.SetTableSyncSetup(DATABASE::"Change Log Entry",50000,TableSynchSetup.Mode::Copy);  
@@ -111,11 +111,11 @@ DataUpgradeMgt.SetTableSyncSetup(DATABASE::"Change Log Entry",50000,TableSynchSe
   
  The **TableSyncSetup** function is called under the following circumstances:  
   
-1.  From the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], when you save, compile, or delete a table and set the **Synchronize Schema** option to **Now \- with validation**.  
+1.  From the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], when you save, compile, or delete a table and set the **Synchronize Schema** option to **Now - with validation**.  
   
 2.  From the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], when you synchronize schemas for all tables and choose the **Check Only** or **With Validation** options.  
   
-3.  When you run the Sync\-NAVTenant cmdlet and set to *Mode* parameter to **CheckOnly** or **Sync**.  
+3.  When you run the Sync-NAVTenant cmdlet and set to *Mode* parameter to **CheckOnly** or **Sync**.  
   
 ###  <a name="TblModes"></a> TableSyncSetup Modes  
  There are four modes that specify how to synchronize the changes and handle existing data in the SQL table.  
@@ -139,8 +139,8 @@ DataUpgradeMgt.SetTableSyncSetup(DATABASE::"Change Log Entry",50000,TableSynchSe
   
 |Function type|Description|  
 |-------------------|-----------------|  
-|UpgradePerCompany|When you perform a data upgrade, these functions are run for all companies in the database, where each function is executed within its own system session on [!INCLUDE[nav_server](includes/nav_server_md.md)] that connects to the specific company. Depending on the number of companies in the database, an **UpgradePerCompany** function can be executed multiple times during an upgrade process. If the upgrade function execution mode is parallel, this can cause locking errors when the data in the table that you are updating is not company\-specific, as specified by the table's [DataPerCompany Property](DataPerCompany-Property.md). Therefore, you typically use this type of function when the data in the table that you upgrading is company\-specific, as specified by the table's [DataPerCompany Property](DataPerCompany-Property.md).|  
-|UpgradePerDatabase|These functions are executed once during an upgrade process, in a single system session on [!INCLUDE[nav_server](includes/nav_server_md.md)] that does not open any company. You typically use an **UpgradePerDatabase** function when the data in the table that you are upgrading is not company\-specific. Using an **UpgradePerDatabase** function can prevent table locking issues when upgrade functions are run in parallel mode. This is the case, for example, with when upgrading custom report layouts in table 9560 Custom Report Layout. For more information, see [Updating Custom Report Layouts by Using Upgrade Codeunits](Updating-Custom-Report-Layouts-by-Using-Upgrade-Codeunits.md).|  
+|UpgradePerCompany|When you perform a data upgrade, these functions are run for all companies in the database, where each function is executed within its own system session on [!INCLUDE[nav_server](includes/nav_server_md.md)] that connects to the specific company. Depending on the number of companies in the database, an **UpgradePerCompany** function can be executed multiple times during an upgrade process. If the upgrade function execution mode is parallel, this can cause locking errors when the data in the table that you are updating is not company-specific, as specified by the table's [DataPerCompany Property](DataPerCompany-Property.md). Therefore, you typically use this type of function when the data in the table that you upgrading is company-specific, as specified by the table's [DataPerCompany Property](DataPerCompany-Property.md).|  
+|UpgradePerDatabase|These functions are executed once during an upgrade process, in a single system session on [!INCLUDE[nav_server](includes/nav_server_md.md)] that does not open any company. You typically use an **UpgradePerDatabase** function when the data in the table that you are upgrading is not company-specific. Using an **UpgradePerDatabase** function can prevent table locking issues when upgrade functions are run in parallel mode. This is the case, for example, with when upgrading custom report layouts in table 9560 Custom Report Layout. For more information, see [Updating Custom Report Layouts by Using Upgrade Codeunits](Updating-Custom-Report-Layouts-by-Using-Upgrade-Codeunits.md).|  
   
  To set up an upgrade function in the upgrade codeunit, you add a C/AL function and set the **FunctionType** property of the function to **UpgradePerCompany** or UpgradePerDatabase.  
   

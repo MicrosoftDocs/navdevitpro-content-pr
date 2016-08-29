@@ -46,11 +46,11 @@ XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)
   
 2.  In Object Designer, choose **XMLport**, and then choose **New** to open XMLport Designer.  
   
-3.  Select an empty row in the designer. On the **View** menu, choose **Properties** to open the **XMLport\-Properties** window.  
+3.  Select an empty row in the designer. On the **View** menu, choose **Properties** to open the **XMLport-Properties** window.  
   
-4.  In the **XMLport\-Properties** window, locate the [Direction Property](Direction-Property.md), choose the drop\-down arrow in the **Value** column and then set it to **Export**.  
+4.  In the **XMLport-Properties** window, locate the [Direction Property](Direction-Property.md), choose the drop-down arrow in the **Value** column and then set it to **Export**.  
   
-5.  In the **XMLport\-Properties** window, locate the [Format Property \(XMLports\)](Format-Property--XMLports-.md), verify that the **Value** column is set to **XML** and then close the **XMLport\-Properties** window.  
+5.  In the **XMLport-Properties** window, locate the [Format Property \(XMLports\)](Format-Property--XMLports-.md), verify that the **Value** column is set to **XML** and then close the **XMLport-Properties** window.  
   
 6.  In **XMLport Designer**, in the first row, in the **Node Name** column, enter **Root**.  
   
@@ -114,7 +114,7 @@ XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)
   
 3.  On the **Variables** tab, in the **Name** column, enter **CustXmlFile**.  
   
-4.  In the **DataType** column, choose the drop\-down arrow and select **File**. This variable represents the XML file.  
+4.  In the **DataType** column, choose the drop-down arrow and select **File**. This variable represents the XML file.  
   
 5.  Repeat steps 3 and 4 to create the following additional variables.  
   

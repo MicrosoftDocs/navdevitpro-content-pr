@@ -30,7 +30,7 @@ If C/AL code references a table whose name starts with a number, followed by a s
   
      This is the recommended resolution.  
   
--   Rename the table by either removing the number or the space between the number and the rest of the name. The name is specified by the table's [Name Property\-duplicate](Name-Property-duplicate.md).  
+-   Rename the table by either removing the number or the space between the number and the rest of the name. The name is specified by the table's [Name Property-duplicate](Name-Property-duplicate.md).  
   
 ## See Also  
  [How to: Create a Table](How%20to:%20Create%20a%20Table.md)   

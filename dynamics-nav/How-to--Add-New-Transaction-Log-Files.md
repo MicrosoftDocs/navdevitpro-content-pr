@@ -46,5 +46,5 @@ You can expand a transaction log by creating a new transaction log file in the d
   
 ## See Also  
  [How to: Alter Databases](How%20to:%20Alter%20Databases.md)   
- [Altering Databases \- Transaction Log Files Tab](Altering-Databases---Transaction-Log-Files-Tab.md)   
+ [Altering Databases - Transaction Log Files Tab](Altering-Databases---Transaction-Log-Files-Tab.md)   
  [How to: Increase the Size of Transaction Log Files](How%20to:%20Increase%20the%20Size%20of%20Transaction%20Log%20Files.md)

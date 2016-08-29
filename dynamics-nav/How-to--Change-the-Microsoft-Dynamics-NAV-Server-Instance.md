@@ -25,7 +25,7 @@ In some cases, you may want to change the [!INCLUDE[nav_server](includes/nav_ser
     > [!TIP]  
     >  If the **Information** menu item is not available, then you must first open a database.  
   
-2.  In the **Database Information** window, in the **Server Instance** field, choose the drop\-down arrow to open the **Available Server Instances** window.  
+2.  In the **Database Information** window, in the **Server Instance** field, choose the drop-down arrow to open the **Available Server Instances** window.  
   
 3.  Select a server instance, and then choose the **OK** button.  
   

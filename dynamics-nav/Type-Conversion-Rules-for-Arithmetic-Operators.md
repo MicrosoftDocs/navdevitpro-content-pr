@@ -25,8 +25,8 @@ PrefixExpression = PrefixOperator Expression
   
 |Unary operator|Option|Integer|Decimal|  
 |--------------------|------------|-------------|-------------|  
-|\+|integer|integer|decimal|  
-|\-|integer|integer|decimal|  
+|+|integer|integer|decimal|  
+|-|integer|integer|decimal|  
   
 ## Binary Arithmetic Operators  
  The following table shows the data types for which the binary arithmetic operators are defined. The binary arithmetic operators in C/AL are all infix operators.  
@@ -37,8 +37,8 @@ InfixExpression = LeftExpression InfixOperator RightExpression
   
 |Operator|Boolean|Byte|Char|Option|Integer|Decimal|Date|Time|Text|Code|  
 |--------------|-------------|----------|----------|------------|-------------|-------------|----------|----------|----------|----------|  
-|\+|No|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|  
-|\-|No|Yes|Yes|Yes|Yes|Yes|Yes|Yes|No|No|  
+|+|No|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|  
+|-|No|Yes|Yes|Yes|Yes|Yes|Yes|Yes|No|No|  
 |\*|No|Yes|Yes|Yes|Yes|Yes|No|No|No|No|  
 |\/|No|Yes|Yes|Yes|Yes|Yes|No|No|No|No|  
 |DIV|No|Yes|Yes|Yes|Yes|Yes|No|No|No|No|  
@@ -48,9 +48,9 @@ InfixExpression = LeftExpression InfixOperator RightExpression
   
  The following table defines the valid uses of the binary arithmetic operators, and the resulting data types.  
   
-### Definition of Type Conversion Rules for the "\+" Operator  
+### Definition of Type Conversion Rules for the "+" Operator  
   
-|The "\+"<br /><br /> operator|Boolean|Byte\/Char|Option|Integer|Decimal|Date|Time|Text|Code|  
+|The "+"<br /><br /> operator|Boolean|Byte\/Char|Option|Integer|Decimal|Date|Time|Text|Code|  
 |---------------------------|-------------|----------------|------------|-------------|-------------|----------|----------|----------|----------|  
 |Boolean||||||||||  
 |Byte\/Char||Integer|Integer \(C\)|Integer \(C\)|Decimal \(C\)|||||  

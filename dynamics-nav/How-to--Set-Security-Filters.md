@@ -40,5 +40,5 @@ You set security filters to limit the access that a user has to data in a table.
     >  When multiple permission sets that refer to the same table data are assigned to a user, they are combined so that the least restrictive filter is used. You should not repeat a table in multiple permission sets if you plan to combine those permissions sets for one user.  
   
 ## See Also  
- [Record\-Level Security](Record-Level-Security.md)   
+ [Record-Level Security](Record-Level-Security.md)   
  [Security Filter Modes](Security-Filter-Modes.md)

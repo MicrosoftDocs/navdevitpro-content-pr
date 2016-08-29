@@ -46,7 +46,7 @@ MESSAGE(Text000, SN);
   
  **The serial number for this software package is:**  
   
- **W1\-ZA\-002\-6R75A\-7**  
+ **W1-ZA-002-6R75A-7**  
   
 > [!NOTE]  
 >  The serial number depends on your licensed version of [!INCLUDE[navnow](includes/navnow_md.md)]. The serial number shown here is an example.

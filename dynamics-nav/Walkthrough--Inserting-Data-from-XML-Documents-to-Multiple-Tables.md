@@ -17,7 +17,7 @@ XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)
  XMLports can be called and run from codeunits or run from Object Designer. In this walkthrough, you will create a codeunit to call and run the XMLport. When you create a codeunit, you define the **InStream** object that will import the data and the location where the XML document should be saved.  
   
 ## About this Walkthrough  
- This walkthrough shows you how to import data from a Sales Order XML document to a [!INCLUDE[navnow](includes/navnow_md.md)] database. The Sales Order XML document contains data that belongs in two different tables in the database because the tables have a header\-line relationship. The data is inserted into the appropriate tables. This walkthrough illustrates the following tasks:  
+ This walkthrough shows you how to import data from a Sales Order XML document to a [!INCLUDE[navnow](includes/navnow_md.md)] database. The Sales Order XML document contains data that belongs in two different tables in the database because the tables have a header-line relationship. The data is inserted into the appropriate tables. This walkthrough illustrates the following tasks:  
   
 -   Creating an XMLport.  
   
@@ -33,7 +33,7 @@ XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)
 -   The [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 ## Story  
- Simon is a Microsoft Certified Partner working for [!INCLUDE[demoname](includes/demoname_md.md)] A colleague in the Sales Department has shared Sales Order records with Simon. Simon has been asked to import the Sales Order records from an XML document into the appropriate tables in the database. When Simon examined the data in the XML document, he realized that the data in the Sales Order document belongs in two different tables, the Sale Header table and the Sales Line table. The tables have a header\-lines relationship. Simon’s task is to insert the Sales Header records from the XML document into the Sales Header table and insert the Line records into the Sales Line table. Simon knows that he can create an XMLport to import the data into the database and he also knows that he can design the XMLport to insert the Header data into the Sales Header table and the Line data into data into the Sales Line table.  
+ Simon is a Microsoft Certified Partner working for [!INCLUDE[demoname](includes/demoname_md.md)] A colleague in the Sales Department has shared Sales Order records with Simon. Simon has been asked to import the Sales Order records from an XML document into the appropriate tables in the database. When Simon examined the data in the XML document, he realized that the data in the Sales Order document belongs in two different tables, the Sale Header table and the Sales Line table. The tables have a header-lines relationship. Simon’s task is to insert the Sales Header records from the XML document into the Sales Header table and insert the Line records into the Sales Line table. Simon knows that he can create an XMLport to import the data into the database and he also knows that he can design the XMLport to insert the Header data into the Sales Header table and the Line data into data into the Sales Line table.  
   
 ## Setting Up the Sample Data  
  In this walkthrough, you import an XML document and insert it into the database. The document contains Sales Order information, which is made up of sales header and sales lines information. The customer named “The Cannon Group PLC” has new sales order information in the sales order document. The sales header information is in the `<Header></Header>` element and the sales line information is in the `<Line></Line>` elements. You create an XMLport that inserts the header data into the Sales Header table and the sales line data into the Sales Line table.  
@@ -83,13 +83,13 @@ XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)
   
 3.  In XMLport Designer, choose an empty row in the designer, and on the **View** menu, choose **Properties**.  
   
-4.  In the **XMLport\-Properties** window, locate the [Direction Property](Direction-Property.md), choose the drop\-down arrow in the **Value** column, and then set it to **Import**.  
+4.  In the **XMLport-Properties** window, locate the [Direction Property](Direction-Property.md), choose the drop-down arrow in the **Value** column, and then set it to **Import**.  
   
-5.  In the **XMLport\-Properties** window, locate the [Format Property \(XMLports\)](Format-Property--XMLports-.md), verify that the **Value** column is set to **Xml**, and then close the **XMLport\-Properties** window.  
+5.  In the **XMLport-Properties** window, locate the [Format Property \(XMLports\)](Format-Property--XMLports-.md), verify that the **Value** column is set to **Xml**, and then close the **XMLport-Properties** window.  
   
 6.  In **XMLport Designer**, in the first row, in the **Node Name** column, enter **Root**. In the **Node Type** column, verify that **Element** is selected. In the **Source Type** column, verify that **Text** is selected. This node represents the beginning of the XML document.  
   
-7.  In the second row, in the **Node Name** column, enter **Header**. In the **Node Type** column, choose **Element**. In the **Source Type** column, choose the drop\-down arrow, and then choose **Table**. This node represents a Sales Header record in the XML document.  
+7.  In the second row, in the **Node Name** column, enter **Header**. In the **Node Type** column, choose **Element**. In the **Source Type** column, choose the drop-down arrow, and then choose **Table**. This node represents a Sales Header record in the XML document.  
   
 8.  In the second row, in the **Data Source** column, choose the up arrow, choose the **SalesHeader**  table \(36\) from the **Table List** window, and then choose the **OK** button. The data will be imported into the **Sales Header** table.  
   
@@ -113,18 +113,18 @@ XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)
     |Node Name|Node Type|Source Type|Data Source|  
     |---------------|---------------|-----------------|-----------------|  
     |DocumentType|Element|Field|Sales Header::Document Type|  
-    |SellToCustomerNo|Element|Field|Sales Header::Sell\-to Customer No.|  
+    |SellToCustomerNo|Element|Field|Sales Header::Sell-to Customer No.|  
     |No|Element|Field|Sales Header::No.|  
-    |BillToName|Element|Field|Sales Header::Bill\-to Name|  
-    |BillToAddress|Element|Field|Sales Header::Bill\-to Address|  
-    |BillToCity|Element|Field|Sales Header::Bill\-to City|  
-    |BillToContact|Element|Field|Sales Header::Bill\-to Contact|  
-    |BillToCountryRegion|Element|Field|Sales Header::Bill\-to Country\/Region Code|  
-    |BillToPostCode|Element|Field|Sales Header::Bill\-to Post Code|  
+    |BillToName|Element|Field|Sales Header::Bill-to Name|  
+    |BillToAddress|Element|Field|Sales Header::Bill-to Address|  
+    |BillToCity|Element|Field|Sales Header::Bill-to City|  
+    |BillToContact|Element|Field|Sales Header::Bill-to Contact|  
+    |BillToCountryRegion|Element|Field|Sales Header::Bill-to Country\/Region Code|  
+    |BillToPostCode|Element|Field|Sales Header::Bill-to Post Code|  
   
      You have mapped the nodes in the **Header** element in the XML document to the fields in the Sales Header table. Next, you map the **Line** node in the XML document to the Sales Line table.  
   
-15. In the next empty row, in the **Node Name** column, enter **Line**, and in the **Node Type** column, choose **Element**, and then in the **Source Type** column, choose the drop\-down arrow and then choose **Table**. This node represents a Sales Line record in the XML document.  
+15. In the next empty row, in the **Node Name** column, enter **Line**, and in the **Node Type** column, choose **Element**, and then in the **Source Type** column, choose the drop-down arrow and then choose **Table**. This node represents a Sales Line record in the XML document.  
   
 16. In the **Data Source** column, choose the up arrow, choose the **Sales Line** table \(37\) from the **Table List** window, and then choose the **OK** button.  
   
@@ -152,11 +152,11 @@ XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)
     |Quantity|Element|Field|Sales Line::Quantity|  
     |UnitPrice|Element|Field|Sales Line::Unit Price|  
   
-     The design of the XMLport shows that the data in the XML document has been mapped to database tables that have a header\-line relation. The XMLport must insert the header information before inserting the line information. You must set the properties to achieve this.  
+     The design of the XMLport shows that the data in the XML document has been mapped to database tables that have a header-line relation. The XMLport must insert the header information before inserting the line information. You must set the properties to achieve this.  
   
 22. From XMLport Designer, choose the **Line** row, and from the **View** menu, choose **Properties**.  
   
-23. In the **Line\-Properties** window, locate the [LinkTableForceInsert Property](LinkTableForceInsert-Property.md) and set its value to **Yes**.  
+23. In the **Line-Properties** window, locate the [LinkTableForceInsert Property](LinkTableForceInsert-Property.md) and set its value to **Yes**.  
   
 24. Locate the [LinkTable Property](LinkTable-Property.md), in the **Value** column choose the up arrow to open the **Table List** window, and then choose **Sales Header**.  
   
@@ -184,11 +184,11 @@ XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)
   
 2.  On the **View** menu, choose **C/AL Globals**.  
   
-3.  On the **Variables** tab, in the **Name** column, enter **SalesOrderXmlFile** and in the **DataType** column, choose the drop\-down arrow, and then choose **Text**. This variable represents the XML file that you will import.  
+3.  On the **Variables** tab, in the **Name** column, enter **SalesOrderXmlFile** and in the **DataType** column, choose the drop-down arrow, and then choose **Text**. This variable represents the XML file that you will import.  
   
-4.  In the second row, in the **Name** column, enter **XmlStream** and in the **DataType** column, choose the drop\-down arrow, and then choose **InStream**. This variable represents the data stream from the XML document to the table.  
+4.  In the second row, in the **Name** column, enter **XmlStream** and in the **DataType** column, choose the drop-down arrow, and then choose **InStream**. This variable represents the data stream from the XML document to the table.  
   
-5.  In the third row, in the **Name** column, enter **IsImported** and in the **DataType** column, choose the drop\-down arrow, and then choose **Boolean**. This variable indicates whether the import succeeded. Close the **C/AL Globals** window.  
+5.  In the third row, in the **Name** column, enter **IsImported** and in the **DataType** column, choose the drop-down arrow, and then choose **Boolean**. This variable indicates whether the import succeeded. Close the **C/AL Globals** window.  
   
 6.  In the **C/AL Editor**, in the **OnRun** trigger, add the following code.  
   

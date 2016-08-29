@@ -11,7 +11,7 @@ ms.assetid: 263b313f-935b-4eb9-b0d6-171f3b08f9c1
 caps.latest.revision: 8
 ---
 # InvokeExtensibilityMethod Method
-Invokes a C/AL trigger on the [!INCLUDE[nav_server](includes/nav_server_md.md)] on the page that contains the control add\-in.  
+Invokes a C/AL trigger on the [!INCLUDE[nav_server](includes/nav_server_md.md)] on the page that contains the control add-in.  
   
 ## Method Signature  
  `void Microsoft.Dynamics.NAV.InvokeExtensibilityMethod(name, arguments, skipIfBusy, callback)`  
@@ -20,7 +20,7 @@ Invokes a C/AL trigger on the [!INCLUDE[nav_server](includes/nav_server_md.md)] 
   
 |Parameter|Description|  
 |---------------|-----------------|  
-|*name*|Type: String<br /><br /> A string that contains the name of the C/AL trigger to invoke on the [!INCLUDE[nav_server](includes/nav_server_md.md)]. This must be the name of the event specified in the .NET interface using the `[ApplicationVisible]` attribute that defines the control add\-in.|  
+|*name*|Type: String<br /><br /> A string that contains the name of the C/AL trigger to invoke on the [!INCLUDE[nav_server](includes/nav_server_md.md)]. This must be the name of the event specified in the .NET interface using the `[ApplicationVisible]` attribute that defines the control add-in.|  
 |*arguments*|Type: Array<br /><br /> An array that contains the arguments to pass to the C/AL trigger. Note that the arguments must be supplied in an array even when the trigger only takes one argument.|  
 |*skipIfBusy*|Type: Boolean<br /><br /> A value to indicate whether to invoke the extensibility method if the client is busy. This parameter is optional and the default value is **false**.|  
 |*callback*|Type: function<br /><br /> A function that is called when the extensibility method has finished execution on the server. This parameter is optional.|  
@@ -45,7 +45,7 @@ Invokes a C/AL trigger on the [!INCLUDE[nav_server](includes/nav_server_md.md)] 
 |**true**|**true**|No method call.|  
   
 ## Example  
- For a detailed code example, see [Walkthrough: Creating and Using a Client Control Add\-in](Walkthrough:%20Creating%20and%20Using%20a%20Client%20Control%20Add-in.md)  
+ For a detailed code example, see [Walkthrough: Creating and Using a Client Control Add-in](Walkthrough:%20Creating%20and%20Using%20a%20Client%20Control%20Add-in.md)  
   
 ```  
 var map = new VEMap('controlAddIn');  

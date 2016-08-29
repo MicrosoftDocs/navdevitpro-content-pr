@@ -84,7 +84,7 @@ DynamicsNAV://///navigate?node=Home/Items
   
 |Parameters|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|Syntax|Example|  
 |----------------|---------------------------------------|------------|-------------|  
-|Company name|Enables you to switch a company \(case\- sensitive\).|**DynamicsNAV:\/\/\/\/\<CompanyName\>\/RunPage?Page=\<pageid\>**|`DynamicsNAV:////CRONUS%20International%20Ltd./RunPage?Page=22`|  
+|Company name|Enables you to switch a company \(case- sensitive\).|**DynamicsNAV:\/\/\/\/\<CompanyName\>\/RunPage?Page=\<pageid\>**|`DynamicsNAV:////CRONUS%20International%20Ltd./RunPage?Page=22`|  
 |Navigate|Enables users to send or save quick links to specific pages.|**DynamicsNAV:\/\/\/\/\/navigate?node=\<service\>**|`DynamicsNAV://///navigate?node=Home/Items`|  
 |RunPage|Enables you to run a specific page.|**DynamicsNAV:\/\/\/\/runpage?page=\<page id\>**|`DynamicsNAV:////runpage?page=42`|  
 |Filter|Enables you to run a specific page with a specific filter applied.|**DynamicsNAV\/\/\/\/runpage?page=\<page id\>&$filter='\<field\>'%20IS%20'\<value\>'\[%20AND%20'\<field\>'%20IS%20'\<value\>'\]**|`DynamicsNAV:////runpage?page=22&$filter='No.'%20IS%20'10000'`|  
@@ -94,7 +94,7 @@ DynamicsNAV://///navigate?node=Home/Items
 |RunCodeunit|Enables you to run a specific codeunit.|**DynamicsNAV:\/\/\/\/runcodeunit?codeunit=\<codeunit id\>**|`DynamicsNAV:////runcodeunit?codeunit=50000`|  
 |RunTable|Enables you to run a specific table.|**DynamicsNAV:\/\/\/\/runtable?table=\<table id\>**|`DynamicsNAV:////runtable?table=18`|  
 |Server name|Enables you to switch servers.|**DynamicsNAV:\/\/\<ServerName\>\/\/\/RunPage?Page=\<pageid\>**|`Microsoft.Dynamics.Nav.Client.exe DynamicsNAV://MyServer///RunPage?Page=22`|  
-|Server port|Enables you to specify an optional server port number in the range 1\-65535. The default port is 7046.|**DynamicsNAV:\/\/\<ServerName\>\<:Port\>\/\/\/RunPage?Page=\<pageid\>**|`DynamicsNAV://MyServer:1234///RunPage?Page=22`|  
+|Server port|Enables you to specify an optional server port number in the range 1-65535. The default port is 7046.|**DynamicsNAV:\/\/\<ServerName\>\<:Port\>\/\/\/RunPage?Page=\<pageid\>**|`DynamicsNAV://MyServer:1234///RunPage?Page=22`|  
 |Service instance|Enables you to specify a Service instance. You can find this value in the CustomSettings.config file. If you specify an instance you must also specify a server.|**DynamicsNAV:\/\/\<ServerName\>\/\<ServiceInstance\>\/\/RunPage?Page=\<pageid\>**|`Microsoft.Dynamics.Nav.Client.exe DynamicsNAV://MyServer/DynamicsNAV//RunPage?Page=22`|  
   
 ### Specifying Encoding in Company Names  

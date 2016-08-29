@@ -28,7 +28,7 @@ You cannot open Visual Studio Report Designer and get the following error:
   
 ### To set a program to run as an administrator  
   
-1.  Right\-click the .exe file, and then select **Properties**.  
+1.  Right-click the .exe file, and then select **Properties**.  
   
 2.  In the **Properties** window, on the **Compatibility** tab, in the **Privilege Level** section, select **Run this program as an administrator**.  
   

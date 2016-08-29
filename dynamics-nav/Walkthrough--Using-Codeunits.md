@@ -45,7 +45,7 @@ You can treat codeunits as objects. One codeunit variable can be assigned to ano
   
 4.  On the **View** menu, choose **C/AL Globals**.  
   
-5.  On the **Variables** tab, in the **Name** field, enter **InternalInt** to create a new variable. In the **DataType** field, select **Integer** from the drop\-down list.  
+5.  On the **Variables** tab, in the **Name** field, enter **InternalInt** to create a new variable. In the **DataType** field, select **Integer** from the drop-down list.  
   
 6.  In the **C/AL GLobals** window, choose the **Functions** tab.  
   
@@ -57,17 +57,17 @@ You can treat codeunits as objects. One codeunit variable can be assigned to ano
   
 9. Select the **Set** function and then choose **Locals**.  
   
-10. In the **Set \-C/AL Locals** window, on the **Parameters** tab, in the **Name** field, enter **input**. In the **DataType** field, select **Integer** from the drop\-down list.  
+10. In the **Set -C/AL Locals** window, on the **Parameters** tab, in the **Name** field, enter **input**. In the **DataType** field, select **Integer** from the drop-down list.  
   
-11. Close the **Set \-C/AL Locals** window.  
+11. Close the **Set -C/AL Locals** window.  
   
 12. In the **C/AL GLobals** window, select the **Get** function, and then choose **Locals**.  
   
-13. In the **Get \- C/AL Locals** window, choose the **Return Value** tab.  
+13. In the **Get - C/AL Locals** window, choose the **Return Value** tab.  
   
-14. In the **Name** field, enter **output**. In the **Return Type** field, select **Integer** from the drop\-down list.  
+14. In the **Name** field, enter **output**. In the **Return Type** field, select **Integer** from the drop-down list.  
   
-15. Close the **Get \-C/AL Locals** window.  
+15. Close the **Get -C/AL Locals** window.  
   
 16. In the **C/AL Editor** for the codeunit, in the **Set** function section, enter the following code.  
   
@@ -103,9 +103,9 @@ You can treat codeunits as objects. One codeunit variable can be assigned to ano
   
 3.  On the **Variables** tab, in the **Name** field, enter **CUInstance1** to create a new variable.  
   
-4.  In the **DataType** field, select **Codeunit** from the drop\-down list. In the **Subtype** field, select codeunit 70000, **Set\_Get**.  
+4.  In the **DataType** field, select **Codeunit** from the drop-down list. In the **Subtype** field, select codeunit 70000, **Set\_Get**.  
   
-5.  In the **C/AL GLobals** window, on the **Variables** tab, in the **Name** field, enter **CUInstance2** to create a second variable. In the **DataType** field, select **Codeunit** from the drop\-down list. In the **Subtype** field, select codeunit 70000, **Set\_Get**.  
+5.  In the **C/AL GLobals** window, on the **Variables** tab, in the **Name** field, enter **CUInstance2** to create a second variable. In the **DataType** field, select **Codeunit** from the drop-down list. In the **Subtype** field, select codeunit 70000, **Set\_Get**.  
   
 6.  Close the **C/AL GLobals** window.  
   
@@ -152,9 +152,9 @@ You can treat codeunits as objects. One codeunit variable can be assigned to ano
   
 2.  On the **View** menu, choose **Properties**.  
   
-3.  In the **Set\_Get \- Properties** window, in the **SingleInstance** field, select **Yes** from the drop\-down list.  
+3.  In the **Set\_Get - Properties** window, in the **SingleInstance** field, select **Yes** from the drop-down list.  
   
-4.  Close the **Set\_Get \- Properties** window.  
+4.  Close the **Set\_Get - Properties** window.  
   
 5.  On the **File** menu, choose **Save As**.  
   
@@ -185,7 +185,7 @@ You can treat codeunits as objects. One codeunit variable can be assigned to ano
   
     ```  
   
-     CUInstance2.Get returns 8, which is the input value 7 \+ the 1 added by the Set function in codeunit 70002. CUInstance2 uses the same instance as CUInstance1, therefore, they use the same internal variables.  
+     CUInstance2.Get returns 8, which is the input value 7 + the 1 added by the Set function in codeunit 70002. CUInstance2 uses the same instance as CUInstance1, therefore, they use the same internal variables.  
   
 14. Close the **C/AL Editor**.  
   
@@ -207,7 +207,7 @@ You can treat codeunits as objects. One codeunit variable can be assigned to ano
   
 3.  On the **View** menu, choose **Properties**.  
   
-4.  In the **SingleInst \- Properties** window, in the **SingleInstance** field, select **No** from the drop\-down list.  
+4.  In the **SingleInst - Properties** window, in the **SingleInstance** field, select **No** from the drop-down list.  
   
 5.  Close the **C/AL Editor**.  
   

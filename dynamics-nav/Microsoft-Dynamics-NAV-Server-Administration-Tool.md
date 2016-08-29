@@ -12,9 +12,9 @@ caps.latest.revision: 30
 manager: edupont
 ---
 # Microsoft Dynamics NAV Server Administration Tool
-The [!INCLUDE[nav_admin](includes/nav_admin_md.md)] is a Microsoft Management Console \(MMC\) snap\-in for creating and managing [!INCLUDE[nav_server](includes/nav_server_md.md)] instances. When you install the [Server Option](Server-Option.md) on a computer, the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] is one of the default features. The [!INCLUDE[nav_admin](includes/nav_admin_md.md)] is also an option when you install the [Client Option](Client-Option.md), although it is not one of the default components.  
+The [!INCLUDE[nav_admin](includes/nav_admin_md.md)] is a Microsoft Management Console \(MMC\) snap-in for creating and managing [!INCLUDE[nav_server](includes/nav_server_md.md)] instances. When you install the [Server Option](Server-Option.md) on a computer, the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] is one of the default features. The [!INCLUDE[nav_admin](includes/nav_admin_md.md)] is also an option when you install the [Client Option](Client-Option.md), although it is not one of the default components.  
   
- You typically run the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] by choosing **Microsoft Dynamics NAV Administration** from the Start menu. For some scenarios, however, you may need to open the MMC first and then add the [!INCLUDE[navnow](includes/navnow_md.md)] snap\-in. For example, see [How to: Administer Multiple Microsoft Dynamics NAV Server Computers](How%20to:%20Administer%20Multiple%20Microsoft%20Dynamics%20NAV%20Server%20Computers.md). In this case, choose **Run** from the Start menu and then specify the Microsoft Management Console:  
+ You typically run the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] by choosing **Microsoft Dynamics NAV Administration** from the Start menu. For some scenarios, however, you may need to open the MMC first and then add the [!INCLUDE[navnow](includes/navnow_md.md)] snap-in. For example, see [How to: Administer Multiple Microsoft Dynamics NAV Server Computers](How%20to:%20Administer%20Multiple%20Microsoft%20Dynamics%20NAV%20Server%20Computers.md). In this case, choose **Run** from the Start menu and then specify the Microsoft Management Console:  
   
 ```  
 mmc  
@@ -24,7 +24,7 @@ mmc
 >  Only members of the Administrator group on the computer are able to use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)].  
   
 > [!IMPORTANT]  
->  The [!INCLUDE[nav_admin](includes/nav_admin_md.md)] is not supported for multi\-user environments.  
+>  The [!INCLUDE[nav_admin](includes/nav_admin_md.md)] is not supported for multi-user environments.  
   
  To learn more about how to use [!INCLUDE[nav_admin](includes/nav_admin_md.md)], see one of the following topics:  
   

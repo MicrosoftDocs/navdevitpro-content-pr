@@ -12,7 +12,7 @@ caps.latest.revision: 9
 manager: edupont
 ---
 # File Handling
-The walkthroughs in this section provide step\-by\-step instructions for handling files in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
+The walkthroughs in this section provide step-by-step instructions for handling files in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
   
 ## Best Practices  
  The following are recommended best practices for working with files:  

@@ -27,12 +27,12 @@ Denotes a date and time ranging from January 1, 1753, 00:00:00.000 to December 3
   
  The only constant available when you use the DateTime data type is the undefined DateTime, 0DT. To assign a constant value to a DateTime variable you must use the [CREATEDATETIME Function \(DateTime\)](CREATEDATETIME-Function--DateTime-.md).  
   
- If you use a date that is outside the valid date range, a run\-time error occurs.  
+ If you use a date that is outside the valid date range, a run-time error occurs.  
   
 ## SQL Server  
  In SQL Server, the earliest permitted DateTime is January 1, 1753, 00:00:00.000. The latest permitted DateTime is December 31, 9999, 23:59:59.999.  
   
- If you store a date in the database that is outside the valid range for a SQL DATETIME, a run\-time error run\-time occurs.  
+ If you store a date in the database that is outside the valid range for a SQL DATETIME, a run-time error run-time occurs.  
   
 ## Changes from Previous Versions of Microsoft Dynamics NAV  
  In versions earlier than [!INCLUDE[nav_2009_long](includes/nav_2009_long_md.md)], the DateTime data type denotes DateTimes ranging from January 1, 0000, 00:00:00.000 to December 31, 9999, 23:59:59.999, and includes the undefined DateTime, 0DT. [!INCLUDE[navnowlong](includes/navnowlong_md.md)] supports DateTimes with date January 1, 0000 as a special case for compatibility with previous versions.  

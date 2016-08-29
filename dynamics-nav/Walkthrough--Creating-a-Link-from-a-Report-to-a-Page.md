@@ -61,7 +61,7 @@ You can create reports that provide dynamic data with Visual Studio Report Desig
     > [!NOTE]  
     >  This report has two rows that contain the **First\(Name\_Cust\)** text box. Only one row is displayed on the report. The row that is displayed depends on whether the user selects the **Show Amounts in LCY** check box in the request page. You must add the link to both of the text boxes that contain the customer name. This walkthrough only describes adding the link to one text box.  
   
-3.  Right\-click the text box, and then choose **Properties**.  
+3.  Right-click the text box, and then choose **Properties**.  
   
 4.  In the **Properties** window, select the **Action** tab.  
   

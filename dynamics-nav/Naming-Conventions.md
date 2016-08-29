@@ -27,7 +27,7 @@ Precise and consistent terminology helps the end user work with the application.
 ## Visible Named Items  
  This section describes naming all visible items in an application, such as table fields. This includes all items that are presented to an end user.  
   
--   When you develop your application, set the application language to English \(United States\) so that the [Name Property\-duplicate](Name-Property-duplicate.md) is the same as the caption in English \(United States\). This will make it easier to upgrade and reuse modifications. The end user sees the value of the [Caption Property\-duplicate](Caption-Property-duplicate.md) but not the **Name** property.  
+-   When you develop your application, set the application language to English \(United States\) so that the [Name Property-duplicate](Name-Property-duplicate.md) is the same as the caption in English \(United States\). This will make it easier to upgrade and reuse modifications. The end user sees the value of the [Caption Property-duplicate](Caption-Property-duplicate.md) but not the **Name** property.  
   
 -   You must follow the naming convention both for the name in English \(United States\) and for the caption in your local language.  
   
@@ -64,13 +64,13 @@ Precise and consistent terminology helps the end user work with the application.
 |Include **Quantity** or **Qty.** when you name a quantity field. Replace **Quantity** with **No.** when you refer to the number of entries.|-   **Quantity Shipped** field<br />-   **No. Printed** field<br />-   **No. of New Records** field|  
 |Include **Amount** or **Amt.** when you name an amount field.|**Debit Amount** field|  
 |Distinguish between amount and cost or price. Cost and price are typically used when naming an amount per unit, while amount is cost or price multiplied by quantity.|-   **Unit Cost** field<br />-   **Unit List Price** field<br />-   **Line Amount** field|  
-|Omit **Amount** when you include the following words in the caption:<br /><br /> -   **Adj. \(LCY\)**<br />-   **Balance**<br />-   **Base**<br />-   **Charge**<br />-   **COGS**<br />-   **Discounts**<br />-   **Fee**<br />-   **Net Charge**<br />-   **Payments**<br />-   **Profit**<br />-   **Purchases**<br />-   **Sales**<br />-   **Usage**|-   **Balance at Date** field<br />-   **Additional Fee \(LCY\)** field<br />-   **Additional\-Currency Net Change** field|  
+|Omit **Amount** when you include the following words in the caption:<br /><br /> -   **Adj. \(LCY\)**<br />-   **Balance**<br />-   **Base**<br />-   **Charge**<br />-   **COGS**<br />-   **Discounts**<br />-   **Fee**<br />-   **Net Charge**<br />-   **Payments**<br />-   **Profit**<br />-   **Purchases**<br />-   **Sales**<br />-   **Usage**|-   **Balance at Date** field<br />-   **Additional Fee \(LCY\)** field<br />-   **Additional-Currency Net Change** field|  
 |Use **Amounts** instead of **Amount** in FlowFields.|**Invoice Amounts** field|  
 |Name fields in local currency with the ISO currency code for the country\/region in parentheses at the end. If a country\/region currency has a symbol, use the symbol instead. **Note:**  In the [!INCLUDE[demolong](includes/demolong_md.md)], the abbreviation LCY, which means *local currency*, is used.|-   **Sales \(DKK\)** field<br />-   **Sales \(LCY\)** field in the **Cust. Ledger Entry** table<br />-   **Sales \($\)** field|  
 |If a field contains parentheses, then put a space before the opening parenthesis.|**Usage \(Price\)** field|  
 |Formulate names for Boolean fields as positive questions or statements.|**Cost is Adjusted** field|  
 |If the primary key of a table is a code, then use **Code** as the name of the field that contains the code.<br /><br /> When the end user typically uses numeric values as keys, the field is called **No.** even though the field type is code. The following tables are exceptions where the primary key field is **No.**:<br /><br /> -   **G\/L Account**<br />-   **Customer**<br />-   **Vendor**<br />-   **Item**<br />-   **Item Group**<br />-   **Resource**<br />-   **Resource Group**<br />-   **Job**<br />-   **Purchase Header**<br />-   **Sales Header**|**Code** field in the **Location** table|  
-|Base the field name on the related table and its primary key when you work with table relations.<br /><br /> The following instances are exceptions:<br /><br /> -   If a field refers to a general ledger account, end the name with **Account** or **Acc.** but not with **G\/L Account No.** unless the field refers to the actual general ledger account.<br />     For example, in table 5813, **Inventory Posting Setup**, field 6 has the TableRelation property set to the **G\/L Account** table. The primary key of the **G\/L Account** table is **No.** However, field 6 in table 5813 is named **Inventory Account**. In table 17, **G\/L Entry**, field 3 has the TableRelation property set to the **G\/L Account** table. In this case, field 3 is referring to the actual general ledger account, so the name of field 3 in table 17 is **G\/L Account No.**<br />-   If a field has a table relation to a posting group table, then call the field **Posting Group**.|In table 38, **Purchase Header**, field 4 has the TableRelation property set to the **Vendor** table. The primary key of the **Vendor** table is **No.**, and the name of field 4 in table 38 is **Pay\-to Vendor No.**|  
+|Base the field name on the related table and its primary key when you work with table relations.<br /><br /> The following instances are exceptions:<br /><br /> -   If a field refers to a general ledger account, end the name with **Account** or **Acc.** but not with **G\/L Account No.** unless the field refers to the actual general ledger account.<br />     For example, in table 5813, **Inventory Posting Setup**, field 6 has the TableRelation property set to the **G\/L Account** table. The primary key of the **G\/L Account** table is **No.** However, field 6 in table 5813 is named **Inventory Account**. In table 17, **G\/L Entry**, field 3 has the TableRelation property set to the **G\/L Account** table. In this case, field 3 is referring to the actual general ledger account, so the name of field 3 in table 17 is **G\/L Account No.**<br />-   If a field has a table relation to a posting group table, then call the field **Posting Group**.|In table 38, **Purchase Header**, field 4 has the TableRelation property set to the **Vendor** table. The primary key of the **Vendor** table is **No.**, and the name of field 4 in table 38 is **Pay-to Vendor No.**|  
 |Use **From** or **To** when you refer to a line number in a ledger entry table.|**From Entry No.** field|  
 |Use **Starting Date** to specify the date from which something is valid. Use **Ending Date** to specify the date until something is valid.|**Starting Date** field in the **Accounting Period** table|  
 |Use **First** to mean earliest. Use **Last** to mean latest.|**Last Sales Inv. No.** field|  
@@ -89,7 +89,7 @@ Precise and consistent terminology helps the end user work with the application.
  This section describes naming of internal items that are not visible to an end user. Because they are never shown to users, they do not have captions.  
   
 ### Codeunit Objects  
- The name of a codeunit starts with the object that the codeunit processes. The object is usually a record abbreviated as a variable. You can follow the object name with a dash and a description. Write the description of the codeunit in imperative voice without abbreviations. An example is the **Purch\-Explode BOM** codeunit.  
+ The name of a codeunit starts with the object that the codeunit processes. The object is usually a record abbreviated as a variable. You can follow the object name with a dash and a description. Write the description of the codeunit in imperative voice without abbreviations. An example is the **Purch-Explode BOM** codeunit.  
   
 ### Variables  
  We recommend the following guidelines for naming variables.  
@@ -101,7 +101,7 @@ Precise and consistent terminology helps the end user work with the application.
 |Start variables with uppercase letters.||  
 |If a variable is a compound of two or more words or abbreviations, then start each word or abbreviation with an uppercase letter.||  
 |Describe the variable usage wherever possible. If possible, start with the table name. If there are several variables in an object that would otherwise have the same name, then use appropriate prefixes or suffixes to differentiate them.|CustInvDiscAmountLCY<br /><br /> EnteredPostingDate \(where the prefix is Entered\)|  
-|Follow country\/region\-specific rules for abbreviations.||  
+|Follow country\/region-specific rules for abbreviations.||  
 |When you set up table and field variables, give the variable the same name as the table or field as described in the Table Fields section.||  
 |If a variable with the same name already exists, then add the number 2 to the variable name. If a variable with this name also exists, then use 3, and so on. Use these numbers only if you cannot establish a unique variable in another way.|CustLedgEntry2, NewCustLedgEntry \(better than CustLedgEntry2\)|  
 |Note that parameters and local variables have their own number series. Do not name a parameter GenJnlLine4 because a global variable named GenJnlLine3 already exists.||  
@@ -114,8 +114,8 @@ Precise and consistent terminology helps the end user work with the application.
 |Use "First" or "Last" with the first or last record in a table or line in a journal. You can also use it as a flag to indicate that this is the first record that is processed.|FirstOrder|  
 |When a variable is a Record, Page, Report, XMLport, Query, or Codeunit data type and the object has a name that also functions as a field name or local function name, add the suffix Rec, Page, Report, XMLport, Query, or Codeunit.|SourceCodeRec \(for a record variable from the **Source Code** table\) **Note:**  Because "Source Code" is the name of a table and the name of a field in other tables, you should not use "SourceCode" for variables that hold the two different types of information.|  
   
-### User\-Defined Functions  
- When you name user\-defined functions, start with an imperative verb, such as ApplyCustLedgEntry. Use the following function name prefixes:  
+### User-Defined Functions  
+ When you name user-defined functions, start with an imperative verb, such as ApplyCustLedgEntry. Use the following function name prefixes:  
   
 -   If the code posts something, then use “Post” as a prefix.  
   

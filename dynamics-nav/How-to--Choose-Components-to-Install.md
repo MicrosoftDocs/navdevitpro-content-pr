@@ -37,9 +37,9 @@ When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup, you can in
   
     -   The top level shows only a single node, which is **Microsoft Dynamics NAV**.  
   
-    -   The second level shows additional nodes that each identify a component such as **Client** and **Server**. Some second\-level nodes have a plus sign on the left. You can choose the plus sign to display the third level of the hierarchy.  
+    -   The second level shows additional nodes that each identify a component such as **Client** and **Server**. Some second-level nodes have a plus sign on the left. You can choose the plus sign to display the third level of the hierarchy.  
   
-    -   The third level shows subcomponents for the selected second\-level component.  
+    -   The third level shows subcomponents for the selected second-level component.  
   
      Each node has one of three statuses as indicated by its appearance.  
   
@@ -57,7 +57,7 @@ When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup, you can in
     |**Run all from My Computer**|Select this component and all subcomponents for installation.|  
     |**Not Available**|Cancel installation of this component and all subcomponents.|  
   
-     For second\-level nodes without subcomponents and third\-level nodes, the only options are **Run from My Computer** and **Not Available**.  
+     For second-level nodes without subcomponents and third-level nodes, the only options are **Run from My Computer** and **Not Available**.  
   
 4.  After you have selected the set of components and subcomponents that you want to install, choose **Next** to continue to the **Specify parameters** page. For more information, see [How to: Preconfigure Components](How%20to:%20Preconfigure%20Components.md).  
   

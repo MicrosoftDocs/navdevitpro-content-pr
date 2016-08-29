@@ -74,7 +74,7 @@ IF a <> '' THEN
 ```  
   
 ### Example  
- When you split a C/AL statement into two or more lines, do not align the continuation lines according to user\-defined or system\-defined variables, functions, field names, object names, and other elements. Instead, indent the continuation lines by two characters. Aligning by variable, function, field name, or object name may look clearer in your program, but the alignment will not hold if the variable name is changed to something shorter or longer. Although the system\-defined variable and function names are not likely to change, the rule also applies when you use them.  
+ When you split a C/AL statement into two or more lines, do not align the continuation lines according to user-defined or system-defined variables, functions, field names, object names, and other elements. Instead, indent the continuation lines by two characters. Aligning by variable, function, field name, or object name may look clearer in your program, but the alignment will not hold if the variable name is changed to something shorter or longer. Although the system-defined variable and function names are not likely to change, the rule also applies when you use them.  
   
 ```  
 MyVariable :=   

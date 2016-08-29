@@ -23,5 +23,5 @@ System tables are stored in the database just like other database tables. Howeve
 ## See Also  
  [Special Tables](Special-Tables.md)   
  [Data Security](Data-Security.md)   
- [Object\-Level Security](Object-Level-Security.md)   
+ [Object-Level Security](Object-Level-Security.md)   
  [Development](Development.md)

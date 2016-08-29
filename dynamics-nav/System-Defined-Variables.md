@@ -12,13 +12,13 @@ caps.latest.revision: 17
 manager: edupont
 ---
 # System-Defined Variables
-[!INCLUDE[navnow](includes/navnow_md.md)] automatically declares and initializes several variables that you can use when you develop applications. The following table describes the system\-defined variables.  
+[!INCLUDE[navnow](includes/navnow_md.md)] automatically declares and initializes several variables that you can use when you develop applications. The following table describes the system-defined variables.  
   
-|System\-defined variable|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
+|System-defined variable|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |------------------------------|---------------------------------------|  
 |Rec|When a record is modified, this variable specifies the current record, including the changes that are made.|  
 |xRec|When a record is modified, this variable specifies the original values of the record, before the changes.|  
-|CurrPage|This variable specifies the current page. You can access the controls of the page through this variable and set the dynamic properties of the page and its controls.<br /><br /> The CurrPage.Editable variable reflects the run\-time value of the editable property, which can be changed at design time, programmatically, or by the user when switching view modes on a page.<br /><br /> The CurrPage.Update\(\[SaveRecord\]\) variable can be used to save the current record and then update the controls in the page.<br /><br /> When the View mode on a page is FALSE, then the Edit, New, and Delete modes are TRUE.|  
+|CurrPage|This variable specifies the current page. You can access the controls of the page through this variable and set the dynamic properties of the page and its controls.<br /><br /> The CurrPage.Editable variable reflects the run-time value of the editable property, which can be changed at design time, programmatically, or by the user when switching view modes on a page.<br /><br /> The CurrPage.Update\(\[SaveRecord\]\) variable can be used to save the current record and then update the controls in the page.<br /><br /> When the View mode on a page is FALSE, then the Edit, New, and Delete modes are TRUE.|  
 |CurrReport|This variable specifies the current report.|  
 |RequestOptionsPage|This variable specifies the request options page for the current report.|  
 |CurrFieldNo|This variable specifies the field number of the current field in the current page. Retained for compatibility reasons.|  
@@ -39,5 +39,5 @@ manager: edupont
 -   If the order has shipped, compare the customer number fields in the Rec and xRec records. If they differ, reject the change.  
   
 ## See Also  
- [C\-AL Variables](C-AL-Variables.md)   
+ [C-AL Variables](C-AL-Variables.md)   
  [Properties](Properties.md)

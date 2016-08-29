@@ -12,7 +12,7 @@ caps.latest.revision: 9
 manager: edupont
 ---
 # Viewing the Application in Different Languages
-In a multilanguage\-enabled application, you can view the text in any language that has been added to the application. For more information about adding languages, see [Language Modules](Language-Modules.md).  
+In a multilanguage-enabled application, you can view the text in any language that has been added to the application. For more information about adding languages, see [Language Modules](Language-Modules.md).  
   
 ## Changing the Language from the User Interface  
  You can change the language in which text is displayed in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] and in the [!INCLUDE[rtc](includes/rtc_md.md)].  

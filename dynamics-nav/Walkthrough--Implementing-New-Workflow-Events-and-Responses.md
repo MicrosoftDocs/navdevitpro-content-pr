@@ -18,7 +18,7 @@ If a business scenario requires a workflow event or a workflow response that is 
  The following procedure describes how to add a new workflow event and a new workflow response to the application code and then register the involved object relations, so that the new elements can be used in workflows. The workflow administrator can then select the new workflow event and response from the **\($ N\_1501 Workflow $\)** window to incorporate them in new or existing workflow steps.  
   
 > [!IMPORTANT]  
->  To ensure that custom workflow records are upgraded correctly, you must add new workflow events, workflow responses, and workflow table relations to dedicated extension points, as described in this procedure. During an upgrade to the next version, the libraries of workflow events, responses, and table relations are removed and then recreated with the latest content from Microsoft. By adding your custom workflow records using subscriptions to the Microsoft\-provided extension points, you ensure that your custom record library gets recreated after an upgrade.  
+>  To ensure that custom workflow records are upgraded correctly, you must add new workflow events, workflow responses, and workflow table relations to dedicated extension points, as described in this procedure. During an upgrade to the next version, the libraries of workflow events, responses, and table relations are removed and then recreated with the latest content from Microsoft. By adding your custom workflow records using subscriptions to the Microsoft-provided extension points, you ensure that your custom record library gets recreated after an upgrade.  
   
 > [!NOTE]  
 >  This topic refers to two types of events:  
@@ -63,7 +63,7 @@ If a business scenario requires a workflow event or a workflow response that is 
 > [!NOTE]  
 >  Data and code samples in this procedure refer loosely to a workflow step of sending a notification when a purchase header is posted. However, the procedure alone does not result in a complete solution.  
   
- To follow similar steps in a data\-driven demo script with screenshots, see the “Build Your Own Workflow Event” demo script, which is available on the [Microsoft Dynamics NAV 2016 readiness landing page](http://go.microsoft.com/fwlink/?LinkID=623438&clcid=0x409).  
+ To follow similar steps in a data-driven demo script with screenshots, see the “Build Your Own Workflow Event” demo script, which is available on the [Microsoft Dynamics NAV 2016 readiness landing page](http://go.microsoft.com/fwlink/?LinkID=623438&clcid=0x409).  
   
 ## Creating a Workflow Event  
  Create a code to identify the workflow event, add the workflow event to the library, create an event that the workflow event subscribes to, raise the event, and then subscribe to the event and implement the workflow event.  
@@ -74,7 +74,7 @@ If a business scenario requires a workflow event or a workflow response that is 
   
 2.  Create a global function in the codeunit. Name the function to reflect that it is used to identify the workflow event, such as MyWorkflowEventCode. For more information, see [How to: Add a Function to a Codeunit](How%20to:%20Add%20a%20Function%20to%20a%20Codeunit.md).  
   
-3.  Open the **C/AL Locals** window to add a local return value. For more information, see [\($ S\_10205 C\-AL Locals $\)](-$-S_10205-C-AL-Locals-$-.md).  
+3.  Open the **C/AL Locals** window to add a local return value. For more information, see [\($ S\_10205 C-AL Locals $\)](-$-S_10205-C-AL-Locals-$-.md).  
   
 4.  On the **Return Value** tab, fill the fields as described in the following table.  
   
@@ -110,7 +110,7 @@ If a business scenario requires a workflow event or a workflow response that is 
   
 ### To create and publish an event that the workflow event subscribes to  
   
-1.  Create a function in the codeunit where you want to raise the event, such as the Purch.\-Post codeunit. Name the function to reflect that it is used as the publisher event, such as OnAfterPostPurchaseHeader.  
+1.  Create a function in the codeunit where you want to raise the event, such as the Purch.-Post codeunit. Name the function to reflect that it is used as the publisher event, such as OnAfterPostPurchaseHeader.  
   
 2.  In the **Properties** window, fill the fields as described in the following table.  
   
@@ -131,7 +131,7 @@ If a business scenario requires a workflow event or a workflow response that is 
   
 ### To raise the event  
   
-1.  Go to the code in your solution where you want to raise the event, such as the Purch.\-Post codeunit.  
+1.  Go to the code in your solution where you want to raise the event, such as the Purch.-Post codeunit.  
   
 2.  In the function, write code that raises the event, such as the following code.  
   
@@ -150,7 +150,7 @@ If a business scenario requires a workflow event or a workflow response that is 
     |Property|Value|  
     |--------------|-----------|  
     |Event|Subscriber|  
-    |EventPublisherObject|Select the object that contains the definition of the added event, such as the Purch.\-Post codeunit.|  
+    |EventPublisherObject|Select the object that contains the definition of the added event, such as the Purch.-Post codeunit.|  
     |EventFunction|OnAfterPostPurchaseHeader|  
   
 3.  Choose **Yes** to overwrite your local parameters with the event parameters.  
@@ -354,7 +354,7 @@ If a business scenario requires a workflow event or a workflow response that is 
     END;  
     ```  
   
- You can also do this work from the user interface. For more information, see [\($ N\_1507 Workflow Event\-Response Combinations  $\)](\($%20N_1507%20Workflow%20Event-Response%20Combinations%20%20$\).md).  
+ You can also do this work from the user interface. For more information, see [\($ N\_1507 Workflow Event-Response Combinations  $\)](\($%20N_1507%20Workflow%20Event-Response%20Combinations%20%20$\).md).  
   
 ## Registering Workflow Event Hierarchies Needed for the New Workflow Event  
  Add new workflow event\/event combinations to the **\($ T\_1509 WF Event\/Response Combination $\)** table so that they workflow events appear in the correct hierarchy in the **\($ N\_1520 Workflow Events $\)** window.  
@@ -429,7 +429,7 @@ If a business scenario requires a workflow event or a workflow response that is 
     WorkflowSetup.InsertTableRelation(DATABASE::”Purchase Header”,1,DATABASE::”Approval Entry”,2);  
     ```  
   
- You can also do this work from the user interface. For more information, see [\($ N\_1509 Workflow \- Table Relations $\)](\($%20N_1509%20Workflow%20-%20Table%20Relations%20$\).md).  
+ You can also do this work from the user interface. For more information, see [\($ N\_1509 Workflow - Table Relations $\)](\($%20N_1509%20Workflow%20-%20Table%20Relations%20$\).md).  
   
 ## Adding a FactBox that Shows How a Record Participates in a Workflow  
  Add a FactBox to relevant pages so that users can view when and how the new workflow event and response participate in workflows for records shown on the page.  

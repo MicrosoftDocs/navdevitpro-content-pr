@@ -16,12 +16,12 @@ In this scenario, you install the [!INCLUDE[nav_web_server](includes/nav_web_ser
  ![NAV Web Client installation on one computer](media/Nav_Web_Client_Install_Single_Computer.png "Nav\_Web\_Client\_Install\_Single\_Computer")  
   
 > [!TIP]  
->  For a step\-by\-step example that describes how to deploy this scenario, see [Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on a Single Computer](Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20a%20Single%20Computer.md).  
+>  For a step-by-step example that describes how to deploy this scenario, see [Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on a Single Computer](Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20a%20Single%20Computer.md).  
   
 ## Deployment Tasks  
  To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] in this scenario, complete the following tasks.  
   
-### Pre\-Installation Tasks  
+### Pre-Installation Tasks  
  The following table includes tasks to perform before you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  
   
 |Task|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|For more information, see|  
@@ -39,7 +39,7 @@ In this scenario, you install the [!INCLUDE[nav_web_server](includes/nav_web_ser
 |----------|-----------------|-------------------------------|  
 |Install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], [!INCLUDE[nav_server](includes/nav_server_md.md)], and [!INCLUDE[navnow](includes/navnow_md.md)] database components.|Run the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] setup.exe file, choose the **Custom** installation option, and then choose the **SQL Server Database Components**, **Server**, and **NAV Web Server Components** options.|[How to: Run Setup](How%20to:%20Run%20Setup.md)<br /><br /> [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md)|  
   
-###  <a name="PostInstall"></a> Post\-installation Tasks  
+###  <a name="PostInstall"></a> Post-installation Tasks  
  The following table includes tasks that configure the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] after installation. These tasks are optional depending on your organizational and network requirements.  
   
 |Task|Description|For more information, see|  

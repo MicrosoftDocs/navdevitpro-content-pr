@@ -38,4 +38,4 @@ Specifies the object that contains the event publisher function that the event s
  [Publishing Events](Publishing-Events.md)   
  [Raising Events](Raising-Events.md)   
  [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)   
- [C\-AL Function Statements](C-AL-Function-Statements.md)
+ [C-AL Function Statements](C-AL-Function-Statements.md)

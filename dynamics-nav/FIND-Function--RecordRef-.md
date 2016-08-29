@@ -37,9 +37,9 @@ Finds a record in a table based on the values stored in the key fields.
   
 -   \<  search for a record that is less than the key values  
   
--   \+  search for the last record in the table \(\+ can only be used alone\)  
+-   +  search for the last record in the table \(+ can only be used alone\)  
   
--   \-  search for the first record in the table \(\- can only be used alone\)  
+-   -  search for the first record in the table \(- can only be used alone\)  
   
  You can combine the '=', '\<', and '\>' characters.  
   
@@ -50,7 +50,7 @@ Finds a record in a table based on the values stored in the key fields.
   
  **true** if the record was found; otherwise, **false**.  
   
- If you omit this optional return value and the record cannot be found, a run\-time error occurs. If you include a return value, it is assumed that you will handle any errors.  
+ If you omit this optional return value and the record cannot be found, a run-time error occurs. If you include a return value, it is assumed that you will handle any errors.  
   
 ## Remarks  
  FIND retrieves the first record that meets the conditions set by the *Which* parameter and the filters associated with the record. The search path reflects the sort order defined by the current key. If the current key is not the primary key, there is a chance that several records might have the same values in current key fields. If this occurs, the sort order defined by the primary key is used as the search path.  

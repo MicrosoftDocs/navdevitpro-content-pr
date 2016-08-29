@@ -52,7 +52,7 @@ MESSAGE(Text002, Upper);
   
  The first message window displays the following:  
   
- **The test\-string before UPPERCASE is called:**  
+ **The test-string before UPPERCASE is called:**  
   
  **Outstanding Order Status**  
   

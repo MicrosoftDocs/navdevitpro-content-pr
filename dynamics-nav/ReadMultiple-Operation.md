@@ -32,7 +32,7 @@ Reads a filtered set of records. This operation returns an array of entities. Th
   
 |Result name|Description|  
 |-----------------|-----------------|  
-|*entity\[\]*|Type: An array of Entities<br /><br /> An array of a specific object type that represents the page. Contains the latest values that are present on the page.<br /><br /> The server will return at most *setSize* records. If all records have been already returned, then subsequent calls will return no records \(a 0\-element array in C\#\). You should keep calling the ReadMultiple function until no records are returned.|  
+|*entity\[\]*|Type: An array of Entities<br /><br /> An array of a specific object type that represents the page. Contains the latest values that are present on the page.<br /><br /> The server will return at most *setSize* records. If all records have been already returned, then subsequent calls will return no records \(a 0-element array in C\#\). You should keep calling the ReadMultiple function until no records are returned.|  
 |*entity.Key*|Type: String<br /><br /> The key of the last record read. In C\#, you can access it with `Entity[Entity.Length-1].Key`. Pass this as *bookmarkKey* for the next ReadMultiple call.|  
   
 ## Faults  
@@ -43,7 +43,7 @@ Reads a filtered set of records. This operation returns an array of entities. Th
 ## Remarks  
   
 ## Retrieving Last Page  
- To retrieve the last record of a page, set *setSize* to \-1. Using negative numbers in *setSize* sorts the records in descending order.  
+ To retrieve the last record of a page, set *setSize* to -1. Using negative numbers in *setSize* sorts the records in descending order.  
   
 ## Entity\_Filter  
  You use the *Entity\_Filter* parameter with the ReadMultiple operation. It describes a filter that can be applied on a specific field in a record. The *Entity\_Filter* parameter contains two members: Field and Criteria.  

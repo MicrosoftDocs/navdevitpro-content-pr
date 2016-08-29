@@ -38,7 +38,7 @@ finsql.exe command=createdatabase, [servername=<server>,] [database=<database>,]
   
  The collation to use when you create a new database. The value must be one of the following:  
   
--   A full language culture name. For example, da\-DK for Danish or hu\-HU for Hungarian. ·  
+-   A full language culture name. For example, da-DK for Danish or hu-HU for Hungarian. ·  
   
 -   A SQL Server collation name without case or accent. For example, Latin1\_General\_100. ·  
   
@@ -80,7 +80,7 @@ finsql.exe command=createdatabase, [servername=<server>,] [database=<database>,]
  You use the **CreateDatabase** command together with the finsql.exe executable. Finsql.exe is the executable file that runs the development environment. By default, finsql.exe is located at [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\.  
   
 ## Example  
- This example creates a database on a SQL server that is named TestComputer01\\NAVDEMO. The new database is given the name NAV Danish Database and uses the collation da\-DK.  
+ This example creates a database on a SQL server that is named TestComputer01\\NAVDEMO. The new database is given the name NAV Danish Database and uses the collation da-DK.  
   
 ```  
 finsql.exe command=createdatabase, servername=TestComputer01\NAVDEMO, database="NAV Danish Database", collationname=da-dk  

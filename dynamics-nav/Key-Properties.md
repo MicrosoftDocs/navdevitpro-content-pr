@@ -18,7 +18,7 @@ The keys associated with a table have properties that describe their behavior, j
   
 |Property Name|Use|  
 |-------------------|---------|  
-|[Enabled Property\-duplicate](Enabled-Property-duplicate.md)|Determines whether the system will maintain an index for the key. You cannot use a key unless it is enabled.|  
+|[Enabled Property-duplicate](Enabled-Property-duplicate.md)|Determines whether the system will maintain an index for the key. You cannot use a key unless it is enabled.|  
 |[Key Property](Key-Property.md)|Defines the key.|  
 |[SumIndexFields Property](SumIndexFields-Property.md)|Determines the fields for which the system will maintain a SumIndex.|  
 |[MaintainSQLIndex Property](MaintainSQLIndex-Property.md)|Determines whether a SQL Server index corresponding to the [!INCLUDE[navnow](includes/navnow_md.md)] key should be created.|  

@@ -18,7 +18,7 @@ Specifies which paper source to use when printing page one of the report.
  Reports  
   
 ## Remarks  
- In the **Report – Properties** window, in the **PaperSourceFirstPage** field, choose the paper source. The list contains 13 standard trays and 16 printer\-specific trays. It is based on information in the fin.stx file.  
+ In the **Report – Properties** window, in the **PaperSourceFirstPage** field, choose the paper source. The list contains 13 standard trays and 16 printer-specific trays. It is based on information in the fin.stx file.  
   
  If the printer that is used for this report does not support the specified paper source, then the printer uses the default tray that is specified by the printer driver.  
   

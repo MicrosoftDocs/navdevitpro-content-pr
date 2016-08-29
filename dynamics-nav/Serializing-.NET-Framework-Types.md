@@ -12,11 +12,11 @@ caps.latest.revision: 17
 manager: edupont
 ---
 # Serializing .NET Framework Types
-In Microsoft .NET Framework, *serialization* is the process of converting an object into a format that can transmitted across a network connection. Microsoft Dynamics NAV .NET Framework interoperability uses serialization for communication between client\-side .NET Framework objects and server\-side .NET Framework objects. When you configure DotNet variables in a [!INCLUDE[navnow](includes/navnow_md.md)] object, you can specify .NET Framework objects to target either the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_server](includes/nav_server_md.md)]. In some cases, a client\-side object and a server\-side object must communicate and share data, such as return values and parameters. The serialization occurs when the following conditions are true:  
+In Microsoft .NET Framework, *serialization* is the process of converting an object into a format that can transmitted across a network connection. Microsoft Dynamics NAV .NET Framework interoperability uses serialization for communication between client-side .NET Framework objects and server-side .NET Framework objects. When you configure DotNet variables in a [!INCLUDE[navnow](includes/navnow_md.md)] object, you can specify .NET Framework objects to target either the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_server](includes/nav_server_md.md)]. In some cases, a client-side object and a server-side object must communicate and share data, such as return values and parameters. The serialization occurs when the following conditions are true:  
   
--   When a server\-side object is assigned to a client\-side object, and vice\-versa.  
+-   When a server-side object is assigned to a client-side object, and vice-versa.  
   
--   When a server\-side object is passed as a parameter in a method call from the server to a client\-side object, and vice\-versa.  
+-   When a server-side object is passed as a parameter in a method call from the server to a client-side object, and vice-versa.  
   
  Serialization requires that the .NET Framework types that are used by the DotNet variables are serializable. Many types in the Microsoft .NET Framework class library are already serializable. If you are using a .NET Framework type that cannot be serialized, then you must modify the type to make it serializable.  
   
@@ -119,11 +119,11 @@ public class MyObject
   
 3.  Build the project.  
   
-4.  Copy the SerializationSample.dll to the **Add\-ins** folder of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)] installation folders.  
+4.  Copy the SerializationSample.dll to the **Add-ins** folder of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)] installation folders.  
   
-     By default, the path of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] installation folder is [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add\-ins.  
+     By default, the path of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] installation folder is [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add-ins.  
   
-     By default, the path of the [!INCLUDE[nav_server](includes/nav_server_md.md)] installation folder is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service\\Add\-ins.  
+     By default, the path of the [!INCLUDE[nav_server](includes/nav_server_md.md)] installation folder is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service\\Add-ins.  
   
 ##### To test the serialization object  
   
@@ -164,5 +164,5 @@ public class MyObject
      The line that contains assignment of the **ServerObject** to the **ClientObject** causes the serialization process to run. When completed, the message **Server data has been serialized to the client object** appears, which verifies that the server object has been transferred to the client object.  
   
 ## See Also  
- [Calling .NET Framework Members from C\-AL](Calling-.NET-Framework-Members-from-C-AL.md)   
- [How to: Call .NET Framework Types From C\-AL Code](How%20to:%20Call%20.NET%20Framework%20Types%20From%20C-AL%20Code.md)
+ [Calling .NET Framework Members from C-AL](Calling-.NET-Framework-Members-from-C-AL.md)   
+ [How to: Call .NET Framework Types From C-AL Code](How%20to:%20Call%20.NET%20Framework%20Types%20From%20C-AL%20Code.md)

@@ -12,7 +12,7 @@ caps.latest.revision: 23
 manager: edupont
 ---
 # Walkthrough: Creating a Link from a Report to a Report
-This walkthrough illustrates how to set up a report to include a link from the **Customer \- Top 10 List** report to the **Customer \- Detail Trial Bal.** report. When you run the **Customer \- Top 10 List** report in preview mode and show balance data, you can choose either a value in the **Balance \(LCY\)** column or a section of the pie chart to view detailed balance information. By including this functionality, you now have a dynamic report that enables you to drill down into data.  
+This walkthrough illustrates how to set up a report to include a link from the **Customer - Top 10 List** report to the **Customer - Detail Trial Bal.** report. When you run the **Customer - Top 10 List** report in preview mode and show balance data, you can choose either a value in the **Balance \(LCY\)** column or a section of the pie chart to view detailed balance information. By including this functionality, you now have a dynamic report that enables you to drill down into data.  
   
 ## About This Walkthrough  
  This walkthrough illustrates the following tasks:  
@@ -43,24 +43,24 @@ This walkthrough illustrates how to set up a report to include a link from the *
   
 1.  In the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Development Environment, on the **Tools** menu, choose **Object Designer**.  
   
-2.  In Object Designer, choose **Report**, select report 111, the **Customer \- Top 10 List** report, and then choose **Design**. The Report Dataset Designer window opens.  
+2.  In Object Designer, choose **Report**, select report 111, the **Customer - Top 10 List** report, and then choose **Design**. The Report Dataset Designer window opens.  
   
 3.  In Report Dataset Designer, select an empty row.  
   
 4.  On the **View** menu, choose **Properties**.  
   
-5.  In the **Report \- Properties** window, in the **EnableHyperlinks** field, set the **Value** field to **Yes**.  
+5.  In the **Report - Properties** window, in the **EnableHyperlinks** field, set the **Value** field to **Yes**.  
   
 6.  From the **File** menu, choose **Save**, and in the **Save** dialog box, make sure **Compile** is selected and choose **OK** to compile and save the report.  
   
 7.  Close the **Properties** and the **Report Dataset Designer** windows.  
   
 ## Adding a Link from the Balance Text Box  
- In the following procedure, you add a link from the balance text box in report 111, the Customer \- Top 10 List report to report 104, the Customer Detail Trial Bal. report.  
+ In the following procedure, you add a link from the balance text box in report 111, the Customer - Top 10 List report to report 104, the Customer Detail Trial Bal. report.  
   
 #### To add a link from the Balance Field  
   
-1.  In Object Designer, choose **Report**, select report 111, the **Customer \- Top 10 List** report, and then choose **Design**.  
+1.  In Object Designer, choose **Report**, select report 111, the **Customer - Top 10 List** report, and then choose **Design**.  
   
 2.  On the **View** menu, choose **Layout**. Visual Studio opens.  
   
@@ -123,21 +123,21 @@ This walkthrough illustrates how to set up a report to include a link from the *
   
 #### To run the modified report  
   
-1.  In the development environment, save the **Customer \- Top 10 List** report.  
+1.  In the development environment, save the **Customer - Top 10 List** report.  
   
      A message informs you that the .rdlc file for this report has changed and asks if you want to load the changes. Choose **Yes** to save the changes in the database.  
   
 2.  In the **Save** window, verify that the **Compiled** check box is selected, and then choose **OK**.  
   
-3.  In the development environment , select the **Customer \- Top 10 List** report and choose **Run**. The **Edit\-Customer\- Top 10 List** page for report 111 opens in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
+3.  In the development environment , select the **Customer - Top 10 List** report and choose **Run**. The **Edit-Customer- Top 10 List** page for report 111 opens in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
-4.  Under **Options**, in the **Show** drop\-down list box, select **Balance \(LCY\)** and in the **Chart Type** drop\-down list box, select **Pie chart**.  
+4.  Under **Options**, in the **Show** drop-down list box, select **Balance \(LCY\)** and in the **Chart Type** drop-down list box, select **Pie chart**.  
   
 5.  Choose **Preview** to view the report. The report lists the top 10 list of customers. Notice that the **Balance \(LCY\)** column is formatted as a hyperlink. If you select the pie chart, you will notice that the chart is also formatted as hyperlink.  
   
-6.  Choose a value in a **Balance \(LCY\)** column. The **Customer \- Detail Trial Bal.** report for the specified customer opens.  
+6.  Choose a value in a **Balance \(LCY\)** column. The **Customer - Detail Trial Bal.** report for the specified customer opens.  
   
-7.  Choose a sector in the pie chart that represents a customer. The **Customer \- Detail Trial Bal.** report for the specified customer opens.  
+7.  Choose a sector in the pie chart that represents a customer. The **Customer - Detail Trial Bal.** report for the specified customer opens.  
   
      Alternatively, you can run the report from the **Run** window.  
   

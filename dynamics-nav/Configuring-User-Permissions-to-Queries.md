@@ -71,7 +71,7 @@ You can control which users have permission to run a query object and access its
  **TableData Sales Line=r**  
   
 > [!NOTE]  
->  For step\-by\-step instructions about how to create the query discussed in this example, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
+>  For step-by-step instructions about how to create the query discussed in this example, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
   
 ## See Also  
  [Managing Permissions and Permission Sets](Managing-Permissions-and-Permission-Sets.md)   

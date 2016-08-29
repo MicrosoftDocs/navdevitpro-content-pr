@@ -11,7 +11,7 @@ ms.assetid: 1bd63fec-c8b1-4ac4-b3df-d1549f591eca
 caps.latest.revision: 13
 ---
 # How to: Add a Microsoft Dynamics NAV Company
-This topic describes how to add a new company to a [!INCLUDE[navnow](includes/navnow_md.md)] database on a computer or virtual machine. To add a [!INCLUDE[navnow](includes/navnow_md.md)] company, you use the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New\-NAVCompany](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVCompany) cmdlet of the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
+This topic describes how to add a new company to a [!INCLUDE[navnow](includes/navnow_md.md)] database on a computer or virtual machine. To add a [!INCLUDE[navnow](includes/navnow_md.md)] company, you use the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVCompany](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVCompany) cmdlet of the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
   
 > [!TIP]  
 >  You can also create a company from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [How to: Create Companies](How%20to:%20Create%20Companies.md).  
@@ -22,7 +22,7 @@ This topic describes how to add a new company to a [!INCLUDE[navnow](includes/na
   
     1.  Choose **Start**, in the **Search** box, type **[!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell**.  
   
-    2.  Right\-click the related link, and then choose **Run as Administrator**.  
+    2.  Right-click the related link, and then choose **Run as Administrator**.  
   
 2.  At the command prompt, type the following command:  
   
@@ -45,7 +45,7 @@ This topic describes how to add a new company to a [!INCLUDE[navnow](includes/na
     |*\<TenantId\>*|Specifies the ID of the tenant that the company must be created in, such as Tenant1. This parameter is required unless the specified service instance is not configured to run multiple tenants.|  
   
     > [!NOTE]  
-    >  The command that is shown includes only a subset of all the parameters of the New\-NavCompany cmdlet. For more information about the syntax and parameters, see [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New\-NAVCompany](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVCompany) topic in the Administration Cmdlets for [!INCLUDE[navnow](includes/navnow_md.md)] section of the Technical Reference.  
+    >  The command that is shown includes only a subset of all the parameters of the New-NavCompany cmdlet. For more information about the syntax and parameters, see [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVCompany](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVCompany) topic in the Administration Cmdlets for [!INCLUDE[navnow](includes/navnow_md.md)] section of the Technical Reference.  
   
 3.  Press Enter to run the cmdlet.  
   

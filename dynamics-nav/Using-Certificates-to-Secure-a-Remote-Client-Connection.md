@@ -16,15 +16,15 @@ You can use service certificates to help secure [!INCLUDE[rtc](includes/rtc_md.m
   
 -   *Chain trust*, which specifies that each certificate must belong to a hierarchy of certificates that ends in a root authority at the top of the chain.  
   
--   *Peer trust*, which specifies that both self\-issued certificates and certificates in a trusted chain are accepted.  
+-   *Peer trust*, which specifies that both self-issued certificates and certificates in a trusted chain are accepted.  
   
  The implementation in this section describes the chain trust configuration, which is the more secure option.  
   
 > [!NOTE]  
->  This implementation does not use *Secure Sockets Layer \(SSL\)*. Although these implementations do use the public and private key infrastructure of SSL and SSL certificates, they use Windows Communication Foundation \(WCF\) transport\-level security \(TLS\) over the TCP\/IP protocol instead of https. This means that these are not strict SSL implementations.  
+>  This implementation does not use *Secure Sockets Layer \(SSL\)*. Although these implementations do use the public and private key infrastructure of SSL and SSL certificates, they use Windows Communication Foundation \(WCF\) transport-level security \(TLS\) over the TCP\/IP protocol instead of https. This means that these are not strict SSL implementations.  
   
 ## Certificates for Test and Production  
- In a production environment, you should obtain an certificate from a certification authority or trusted provider. Some large organizations may have their own certification authorities, and other organizations can request a certificate from a third\-party organization. In a test environment, if you do not have certificate, then you can create your own self\-signed certificate. For information about using self\-signed certificates in a text environment, see [Walkthrough: Implementing Security Certificates in a Test Environment](Walkthrough:%20Implementing%20Security%20Certificates%20in%20a%20Test%20Environment.md).  
+ In a production environment, you should obtain an certificate from a certification authority or trusted provider. Some large organizations may have their own certification authorities, and other organizations can request a certificate from a third-party organization. In a test environment, if you do not have certificate, then you can create your own self-signed certificate. For information about using self-signed certificates in a text environment, see [Walkthrough: Implementing Security Certificates in a Test Environment](Walkthrough:%20Implementing%20Security%20Certificates%20in%20a%20Test%20Environment.md).  
   
 ###  <a name="AboutProdCerts"></a> About Certificates for Production Environment  
  In a production environment, you implement chain trust by obtaining X.509 service certificates from a trusted provider. These certificates and their root certification authority \(CA\) certificates must be installed in the certificates store on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)]. The CA certificate must also be installed in the certificate store on computers that are running the [!INCLUDE[rtc](includes/rtc_md.md)] so that clients can validate the server.  

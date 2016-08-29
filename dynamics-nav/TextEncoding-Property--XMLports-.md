@@ -22,18 +22,18 @@ Specifies the text encoding format to use when you use an XMLport to export or i
   
 ## Values  
   
--   MS\-DOS \(default\)  
+-   MS-DOS \(default\)  
   
--   UTF\-8  
+-   UTF-8  
   
--   UTF\-16  
+-   UTF-16  
   
 -   Windows  
   
  For more information, see [Text Encoding](Text-Encoding.md).  
   
 ## Remarks  
- Text encoding is the process of transforming bytes of data into readable characters for users of a system or program. There are several industry text encoding formats and different systems support different formats. Internally, [!INCLUDE[navnow](includes/navnow_md.md)] uses Unicode encoding. For exporting and importing data with an XMLport, [!INCLUDE[navnow](includes/navnow_md.md)] supports MS\-DOS, UTF\-8, UTF\-16, and Windows encoding formats.  
+ Text encoding is the process of transforming bytes of data into readable characters for users of a system or program. There are several industry text encoding formats and different systems support different formats. Internally, [!INCLUDE[navnow](includes/navnow_md.md)] uses Unicode encoding. For exporting and importing data with an XMLport, [!INCLUDE[navnow](includes/navnow_md.md)] supports MS-DOS, UTF-8, UTF-16, and Windows encoding formats.  
   
  You should set the **TextEncoding** property to the encoding format that is compatible with the system or program that you will be exporting to or importing from. The following sections describe the available text encoding formats.  
   

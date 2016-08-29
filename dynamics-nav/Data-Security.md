@@ -33,11 +33,11 @@ The [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] security sys
  Graphically, these can be represented as the layers, where the central layer is the records in the database.  
   
 ## See Also  
- [Database\-Level Security](Database-Level-Security.md)   
+ [Database-Level Security](Database-Level-Security.md)   
  [Users and Credential Types](Users-and-Credential-Types.md)   
  [Database Logins](Database-Logins.md)   
- [Company\-Level Security](Company-Level-Security.md)   
- [Object\-Level Security](Object-Level-Security.md)   
+ [Company-Level Security](Company-Level-Security.md)   
+ [Object-Level Security](Object-Level-Security.md)   
  [Permissions on Database Objects](Permissions-on-Database-Objects.md)   
- [Record\-Level Security](Record-Level-Security.md)   
+ [Record-Level Security](Record-Level-Security.md)   
  [Security Considerations](Security-Considerations.md)

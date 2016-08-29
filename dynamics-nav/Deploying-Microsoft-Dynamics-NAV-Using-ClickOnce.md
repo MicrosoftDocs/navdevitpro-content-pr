@@ -30,11 +30,11 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](inc
   
 -   Allows for a centralized configuration. The ClientUserSettings.config configuration file that is installed with the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] contains several settings that must be adjusted for the specific installation, such as the server address and the authentication type to use. By using ClickOnce, you can control the ClientUserSettings.config centrally and push it out to the client computers. Configuration is not required on the individual client computer. If you make a mistake, or if the settings have to change, such as if you want to move the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to a different computer, then you can create an updated configuration file by using the upgrade capability.  
   
--   Allows for bundled add\-ins. By using ClickOnce, you can easily deploy your own assemblies and third\-party add\-in assemblies. You do not have to copy add\-in files after the installation.  
+-   Allows for bundled add-ins. By using ClickOnce, you can easily deploy your own assemblies and third-party add-in assemblies. You do not have to copy add-in files after the installation.  
   
--   You can have side\-by\-side installations. You cannot have two MSI\-based [!INCLUDE[nav_windows](includes/nav_windows_md.md)]s on the same computer. A ClickOnce\-deployed [!INCLUDE[nav_windows](includes/nav_windows_md.md)] does not interfere with other ClickOnce\-deployed [!INCLUDE[nav_windows](includes/nav_windows_md.md)]s. This makes it easy to run against different servers from the same computer. For example, you could have two [!INCLUDE[nav_windows](includes/nav_windows_md.md)] installations, one for a production server and one for a test server. This also means that you can run different versions of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] side\-by\-side, which is not possible with MSI.  
+-   You can have side-by-side installations. You cannot have two MSI-based [!INCLUDE[nav_windows](includes/nav_windows_md.md)]s on the same computer. A ClickOnce-deployed [!INCLUDE[nav_windows](includes/nav_windows_md.md)] does not interfere with other ClickOnce-deployed [!INCLUDE[nav_windows](includes/nav_windows_md.md)]s. This makes it easy to run against different servers from the same computer. For example, you could have two [!INCLUDE[nav_windows](includes/nav_windows_md.md)] installations, one for a production server and one for a test server. This also means that you can run different versions of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] side-by-side, which is not possible with MSI.  
   
--   Multiple languages can be included in the same installer. By using ClickOnce, you can decide which files, such as language resource files and Help files, that you want to include in the deployment. End users will not be aware of the difference between installing an EN\-US\-only version and a version with several additional languages.  
+-   Multiple languages can be included in the same installer. By using ClickOnce, you can decide which files, such as language resource files and Help files, that you want to include in the deployment. End users will not be aware of the difference between installing an EN-US-only version and a version with several additional languages.  
   
 -   Administrator permissions are not required. By using ClickOnce, a typical Windows user can install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. The prerequisites for installation require administrator permissions. These prerequisites have to be installed one time on the computer, after which any user can install and upgrade the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
@@ -42,7 +42,7 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](inc
   
  The result should be that end users can install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] without relying on partners or super users to do it for them.  
   
- There are some limitations of a ClickOnce\-installed [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information, see [Limitations of ClickOnce Installed on the Microsoft Dynamics NAV Windows Client](Deploying-Microsoft-Dynamics-NAV-Using-ClickOnce.md#Limitations).  
+ There are some limitations of a ClickOnce-installed [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information, see [Limitations of ClickOnce Installed on the Microsoft Dynamics NAV Windows Client](Deploying-Microsoft-Dynamics-NAV-Using-ClickOnce.md#Limitations).  
   
 ### Technical Overview of ClickOnce  
  ClickOnce is a standard .NET technology that has existed since .NET Framework 2.0. The instructions in this document are meant to help you start working with ClickOnce deployment, however ClickOnce has additional features that are not described in this document.  
@@ -65,7 +65,7 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](inc
     > [!NOTE]  
     >  The Microsoft Report Viewer is an optional component. If it is not installed, the end user will get an error message when trying to print or preview reports in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. All other functionality in the client will not be affected.  
   
--   The .NET Framework 4.5 is pre\-installed on Windows 8 and Windows Server 2012 computers and no action has to be taken. For more information about how to install .NET 4.5 Framework on earlier versions of Windows, see [Installing .NET 4.5 Framework](http://go.microsoft.com/fwlink/?LinkId=272382).  
+-   The .NET Framework 4.5 is pre-installed on Windows 8 and Windows Server 2012 computers and no action has to be taken. For more information about how to install .NET 4.5 Framework on earlier versions of Windows, see [Installing .NET 4.5 Framework](http://go.microsoft.com/fwlink/?LinkId=272382).  
   
  Installing these prerequisites requires administrative rights on the computer. If the end users are not already administrators on their computers, then an administrator or a super user must first install the prerequisite on the computer. After that is complete, any user on the computer can install, uninstall, and upgrade the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. Administrative rights are not needed for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
@@ -81,7 +81,7 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](inc
     1.  Download and install "Microsoft Windows SDK for Windows 7 and the .NET Framework 4" from [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkId=262162).  
   
         > [!IMPORTANT]  
-        >  It is important that you have "Microsoft Windows SDK for Windows 7 and the .NET Framework 4". Ensure you have the correct version of mage.exe. Locate the mage.exe in file explorer, right\-click and select **Properties**. In the **Properties** window, choose the **Details** tab and make sure that the file version is 4.0.40391.1.  
+        >  It is important that you have "Microsoft Windows SDK for Windows 7 and the .NET Framework 4". Ensure you have the correct version of mage.exe. Locate the mage.exe in file explorer, right-click and select **Properties**. In the **Properties** window, choose the **Details** tab and make sure that the file version is 4.0.40391.1.  
   
     2.  The mage.exe utility should be located in the equivalent of the following location:  
   
@@ -99,11 +99,11 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](inc
   
 4.  Perform a typical installation of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] by doing the following:  
   
-    1.  Run setup.exe to install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. Do not install unnecessary client components, such as the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] and the Excel add\-in. These add to the download size, and contain special file types that can create problems for a ClickOnce deployment. For example, the Web.config file installed with the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] can create problems when it is hosted on a web server.  
+    1.  Run setup.exe to install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. Do not install unnecessary client components, such as the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] and the Excel add-in. These add to the download size, and contain special file types that can create problems for a ClickOnce deployment. For example, the Web.config file installed with the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] can create problems when it is hosted on a web server.  
   
     2.  Install relevant language packs.  
   
-    3.  Add additional add\-ins, if you have any.  
+    3.  Add additional add-ins, if you have any.  
   
     4.  Run the client, and make sure that everything works as expected.  
   
@@ -145,7 +145,7 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](inc
   
          The *FromDirectory* parameter will include all files in all subdirectories found within the specified directory. If no directory is specified, such as in the example, mage.exe uses the current directory and subdirectories. For more information, see [Mage.exe](http://msdn.microsoft.com/en-us/library/acz3y3te\(v=vs.110\).aspx) in the MSDN Library.  
   
-     ClickOnce does not support having the same assembly duplicated in different folders. If you receive an error, then you will have to remove one of the copies, either in the manifest file or on disk, and then run the mage.exe again. The copy of OpenXML.dll in Add\-Ins folder will not be needed in a ClickOnce deployment, therefore you can delete it.  
+     ClickOnce does not support having the same assembly duplicated in different folders. If you receive an error, then you will have to remove one of the copies, either in the manifest file or on disk, and then run the mage.exe again. The copy of OpenXML.dll in Add-Ins folder will not be needed in a ClickOnce deployment, therefore you can delete it.  
   
 9. Update the application manifest. Open Microsoft.Dynamics.Nav.Client.exe.manifest in Notepad. You do not have to change anything in this file, but you should be aware of what it looks like. The application manifest has an identity \(assembly.assemblyIdentity\), which is referred to by the deployment manifest. This can be any string, and it will not be shown to end users. Note the version number, which will be used in upgrade scenarios.  
   
@@ -229,12 +229,12 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](inc
 </configuration>  
 ```  
   
- You should start with an empty .config file, and then use trial\-and\-error to add the necessary rules, until ClickOnce can download all the files. If ClickOnce cannot download the files, a report will show which file and which extension is the problem.  
+ You should start with an empty .config file, and then use trial-and-error to add the necessary rules, until ClickOnce can download all the files. If ClickOnce cannot download the files, a report will show which file and which extension is the problem.  
   
 ### Requiring End Users to Read and Accept Software License Terms  
  End users who install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] are required to accept the Microsoft software license terms. By using the traditional [!INCLUDE[nav_windows](includes/nav_windows_md.md)] installer, this occurs as part of the installation process. However, by using ClickOnce deployment, this cannot occur as part of the installation process, and it must therefore occur before the ClickOnce process is started.  
   
- If you decide to deploy the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] using ClickOnce, then it is your responsibility that end users accept the Microsoft software license terms before the installation. We recommend that you also require end user acceptance of your software license terms and any third\-party software license terms that are part of the ClickOnce deployment.  
+ If you decide to deploy the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] using ClickOnce, then it is your responsibility that end users accept the Microsoft software license terms before the installation. We recommend that you also require end user acceptance of your software license terms and any third-party software license terms that are part of the ClickOnce deployment.  
   
  To help you with this process, you can use the **NAVClientInstallation.html** template web page that was installed as part of the ClickOnce Installer Tools. When you try to open that file, you must select the **Accept** check boxes before you can install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. You can design your own web page, as long as the process for the end user is the same. The end user cannot install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] until he has accepted the software license terms.  
   
@@ -273,14 +273,14 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](inc
 ###  <a name="Security"></a> Security Considerations  
  Installing any application on the local computer requires that you consider whether it is safe to do this. For a ClickOnce deployment of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], here are some recommended security measures that you should consider:  
   
--   **Internal deployment** \- If you host the ClickOnce deployment on an internal file share or website, we recommend that you sign the ClickOnce deployment so that end users will not see an **Unknown publisher** message during installation. However, it is also acceptable not to sign the ClickOnce deployment.  
+-   **Internal deployment** - If you host the ClickOnce deployment on an internal file share or website, we recommend that you sign the ClickOnce deployment so that end users will not see an **Unknown publisher** message during installation. However, it is also acceptable not to sign the ClickOnce deployment.  
   
--   **Public deployment** \- If you host the ClickOnce deployment in a public location, we recommend that you sign the ClickOnce deployment and host it on a secure website \(*https:\/\/*\). Taking these precautions will reduce the risk of end users installing applications from bad sources and locations.  
+-   **Public deployment** - If you host the ClickOnce deployment in a public location, we recommend that you sign the ClickOnce deployment and host it on a secure website \(*https:\/\/*\). Taking these precautions will reduce the risk of end users installing applications from bad sources and locations.  
   
 ###  <a name="Limitations"></a> Limitations of ClickOnce Installed on the Microsoft Dynamics NAV Windows Client  
  The following are limitations of ClickOnce installed on the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
- **Command\-line arguments** \- ClickOnce installed on the [!INCLUDE[navnow](includes/navnow_md.md)] client cannot be run with custom command\-line arguments. For example, this affects the following scenarios:  
+ **Command-line arguments** - ClickOnce installed on the [!INCLUDE[navnow](includes/navnow_md.md)] client cannot be run with custom command-line arguments. For example, this affects the following scenarios:  
   
 -   An end user cannot specify the Home page.  
   
@@ -288,13 +288,13 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](inc
   
 -   An end user cannot disable personalization. An administrator can disable personalization on a profile.  
   
--   An administrator cannot configure profiles. He should use the MSI\-installed client for this task.  
+-   An administrator cannot configure profiles. He should use the MSI-installed client for this task.  
   
--   An end user cannot run in full\-screen mode.  
+-   An end user cannot run in full-screen mode.  
   
 -   An end user cannot disable the navigation pane.  
   
- **Hyperlinks** \- The protocol handler *dynamicsnav:\/\/* is not registered during ClickOnce installation, which means that the [!INCLUDE[navnow](includes/navnow_md.md)] client cannot be activated by choosing a hyperlink. This could impact the following scenarios:  
+ **Hyperlinks** - The protocol handler *dynamicsnav:\/\/* is not registered during ClickOnce installation, which means that the [!INCLUDE[navnow](includes/navnow_md.md)] client cannot be activated by choosing a hyperlink. This could impact the following scenarios:  
   
 -   End users cannot send each other links to specific pages.  
   
@@ -304,11 +304,11 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](inc
   
 -   The debugger cannot be started.  
   
- **External components calling the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]** \- A ClickOnce\-installed [!INCLUDE[nav_windows](includes/nav_windows_md.md)] will be installed in a randomly generated folder, and when it is upgraded to a new version, it will be installed a new randomly generated folder. This means that external components will not be able to detect where the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] executable is located. This could impact the following scenarios:  
+ **External components calling the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]** - A ClickOnce-installed [!INCLUDE[nav_windows](includes/nav_windows_md.md)] will be installed in a randomly generated folder, and when it is upgraded to a new version, it will be installed a new randomly generated folder. This means that external components will not be able to detect where the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] executable is located. This could impact the following scenarios:  
   
 -   An end user can send a list page to Excel, but cannot refresh data from the Excel application.  
   
--   Third\-party applications cannot start the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
+-   Third-party applications cannot start the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
 ## See Also  
  [Deployment](Deployment.md)   

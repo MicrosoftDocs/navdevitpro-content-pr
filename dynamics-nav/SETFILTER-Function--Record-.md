@@ -35,7 +35,7 @@ Record.SETFILTER(Field, String, [Value],...)
  *String*  
  Type: Text or code  
   
- The filter expression. A valid expression consists of alphanumeric characters and one or more of the following operators: \<, \>, \*, &, &#124;, and =. You can use replacement fields \(%1, %2, and so on\) to insert values at run\-time.  
+ The filter expression. A valid expression consists of alphanumeric characters and one or more of the following operators: \<, \>, \*, &, &#124;, and =. You can use replacement fields \(%1, %2, and so on\) to insert values at run-time.  
   
  *Value*  
  Type: Any  
@@ -63,7 +63,7 @@ Record.SETFILTER(Field, String, [Value],...)
   
 -   \*   Forms a part of value  
   
--   @   Case\-insensitive  
+-   @   Case-insensitive  
   
 ## Example  
  The following table shows examples of filters.  

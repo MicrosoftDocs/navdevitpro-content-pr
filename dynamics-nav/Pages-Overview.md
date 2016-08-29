@@ -19,7 +19,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display 
   
  In Page Designer, you can start by creating a blank page or choose from over 10 page types. Pages can be linked to a source table, unless you want to create a Role Center or a blank page not based on a page type data from a table.  
   
- In the Page Designer window, you group controls in a hierarchy that reflects the XML structure of the page. To help you to create the correct XML layout, page designer provides you with several new properties called Types and SubTypes. These properties enable you to create controls, specify their position on the page, and how they are grouped. You set types and subtypes using the drop\-down menus in Page Designer.  
+ In the Page Designer window, you group controls in a hierarchy that reflects the XML structure of the page. To help you to create the correct XML layout, page designer provides you with several new properties called Types and SubTypes. These properties enable you to create controls, specify their position on the page, and how they are grouped. You set types and subtypes using the drop-down menus in Page Designer.  
   
  The following table shows Page Designer Types and SubTypes.  
   
@@ -116,7 +116,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display 
   
 -   Home Items  
   
- You can access Action Designer from Page Designer. When you want to add actions to a page, open Page Designer, choose the last available row at the bottom of the page, choose View, and then choose Actions to open Action Designer. You use the Action Designer in the same way as you use Page Designer. You add new actions as rows in the Action Designer window, and set Action Types and SubTypes using the drop\-down menus. Each action also has its own set of properties available in the Properties window.  
+ You can access Action Designer from Page Designer. When you want to add actions to a page, open Page Designer, choose the last available row at the bottom of the page, choose View, and then choose Actions to open Action Designer. You use the Action Designer in the same way as you use Page Designer. You add new actions as rows in the Action Designer window, and set Action Types and SubTypes using the drop-down menus. Each action also has its own set of properties available in the Properties window.  
   
  For more information about actions, see [Actions Overview](Actions-Overview.md).  
   

@@ -42,7 +42,7 @@ RecordRef.INIT
 |DateTime|0DT \(Undefined datetime\)|  
 |Decimal|0.0|  
 |Duration|0|  
-|GUID|00000000\-0000\-0000\-0000\-000000000000|  
+|GUID|00000000-0000-0000-0000-000000000000|  
 |Integer|0|  
 |Option|0|  
 |RecordID|\<Empty\>|  

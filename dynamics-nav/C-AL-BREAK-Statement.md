@@ -57,4 +57,4 @@ FOREACH element IN mylist DO
  Compile and run the [!INCLUDE[navnow](includes/navnow_md.md)] object.  
   
 ## See Also  
- [C\-AL Repetitive Statements](C-AL-Repetitive-Statements.md)
+ [C-AL Repetitive Statements](C-AL-Repetitive-Statements.md)

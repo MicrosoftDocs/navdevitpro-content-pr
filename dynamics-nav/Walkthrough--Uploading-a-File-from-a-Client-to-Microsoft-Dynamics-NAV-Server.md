@@ -23,7 +23,7 @@ This walkthrough demonstrates how to use file functions to send a file from a cl
   
 -   Creating a codeunit that does the following:  
   
-    -   Sends the file from a user\-specified location to a location on the server  
+    -   Sends the file from a user-specified location to a location on the server  
   
     -   Reads the data  
   
@@ -167,7 +167,7 @@ This walkthrough demonstrates how to use file functions to send a file from a cl
   
 5.  In Object Designer, choose **Table**, choose **50010 Test Table**, and then choose **Run**.  
   
-     The **TestTable\-Table** window opens with the values of 10 and 11 in the IntA and IntB columns, respectively.  
+     The **TestTable-Table** window opens with the values of 10 and 11 in the IntA and IntB columns, respectively.  
   
 ## See Also  
  [UPLOADINTOSTREAM Function \(File\)](UPLOADINTOSTREAM-Function--File-.md)   

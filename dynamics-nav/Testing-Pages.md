@@ -59,10 +59,10 @@ CustomerList.Filter.SETFILTER("No.", '20000..30000');
  For more information about C/AL functions that you use for filtering, see [TestPage Filter Functions](TestPage-Filter-Functions.md).  
   
 ## Invoking Actions on Test Pages  
- Any action that is available on a page is also available on the test page that mimics that page. You access page actions by using the dot notation and the [INVOKE Function \(TestPage Action\)](INVOKE-Function--TestPage-Action-.md). You can use the Symbol Menu to view the actions that are available on a test page. To view actions that you designed by using Page Designer, select the test page variable in the first column of the symbols, and then select **Actions** in the second column. To view built\-in actions, such as Yes, No, OK, or Cancel, select the test page variable in the first column of the symbols, and then select **BuiltInActions** in the second column.  
+ Any action that is available on a page is also available on the test page that mimics that page. You access page actions by using the dot notation and the [INVOKE Function \(TestPage Action\)](INVOKE-Function--TestPage-Action-.md). You can use the Symbol Menu to view the actions that are available on a test page. To view actions that you designed by using Page Designer, select the test page variable in the first column of the symbols, and then select **Actions** in the second column. To view built-in actions, such as Yes, No, OK, or Cancel, select the test page variable in the first column of the symbols, and then select **BuiltInActions** in the second column.  
   
 > [!NOTE]  
->  The Symbol Menu may include built\-in actions that are not available on the page. If you call a built\-in action that is not available on the page, then the test fails.  
+>  The Symbol Menu may include built-in actions that are not available on the page. If you call a built-in action that is not available on the page, then the test fails.  
   
  For example, to choose **OK** after you create a new customer on the Customer Card page, you can write the following code.  
   

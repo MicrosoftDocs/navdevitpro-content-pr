@@ -35,16 +35,16 @@ You can specify page settings and page orientation for a printed report from the
     > [!NOTE]  
     >  The printer that you use determines what to do if the actual paper size in the printer differs from the page size that is specified.  
   
- With [!INCLUDE[nav_web](includes/nav_web_md.md)], from the print preview, you can only print to a local printer. To print from the print preview, you must the install a client\-side component. For more information, see [Printing Reports from ReportViewer](http://go.microsoft.com/fwlink/?LinkId=225474).  
+ With [!INCLUDE[nav_web](includes/nav_web_md.md)], from the print preview, you can only print to a local printer. To print from the print preview, you must the install a client-side component. For more information, see [Printing Reports from ReportViewer](http://go.microsoft.com/fwlink/?LinkId=225474).  
   
 ## Specifying Page Settings and Orientation  
  The following table describes how you access each of the dialog boxes in which you can specify page settings and orientation.  
   
 |Print mode|To access the **Report Properties** dialog box|To access the **Properties** dialog box for the printer|To access the **Print** dialog box|To access the **Page Setup** dialog box|  
 |----------------|----------------------------------------------------|-------------------------------------------------------------|----------------------------------------|---------------------------------------------|  
-|Run a report that does not have a request page|When you design the report layout in Visual Studio, on the **Report** menu, choose **Report Properties**.|In Control Panel, double\-click **Printers**. Right\-click the selected printer, and then choose **Properties**.|Cannot access|Cannot access|  
-|Print a report from the request page without previewing|When you design the report layout in Visual Studio, on the **Report** menu, choose **Report Properties**.|In Control Panel, double\-click **Printers**. Right\-click the selected printer, and then choose **Properties**.|From the client, on the request page, choose **Print**.|Cannot access|  
-|View a preview of a report|When you design the report layout in Visual Studio, on the **Report** menu, choose **Report Properties**.|In Control Panel, double\-click **Printers**. Right\-click the selected printer, and then choose **Properties**.|In the **Print Preview** window, choose the **Print** icon.|In the client, in the **Print Preview** window, choose the **Page Setup** icon.|  
+|Run a report that does not have a request page|When you design the report layout in Visual Studio, on the **Report** menu, choose **Report Properties**.|In Control Panel, double-click **Printers**. Right-click the selected printer, and then choose **Properties**.|Cannot access|Cannot access|  
+|Print a report from the request page without previewing|When you design the report layout in Visual Studio, on the **Report** menu, choose **Report Properties**.|In Control Panel, double-click **Printers**. Right-click the selected printer, and then choose **Properties**.|From the client, on the request page, choose **Print**.|Cannot access|  
+|View a preview of a report|When you design the report layout in Visual Studio, on the **Report** menu, choose **Report Properties**.|In Control Panel, double-click **Printers**. Right-click the selected printer, and then choose **Properties**.|In the **Print Preview** window, choose the **Print** icon.|In the client, in the **Print Preview** window, choose the **Page Setup** icon.|  
   
 ## How Printed Report Settings Are Determined  
  Because there are several locations in the UI where you can specify page settings and orientation, you should know how the settings are determined for a printed report. How the settings are determined depends on the mode that you use to print the report.  

@@ -12,7 +12,7 @@ caps.latest.revision: 11
 manager: edupont
 ---
 # How to: Create XMLports
-You design XMLports to export data from Microsoft Dynamics NAV tables or import data to a Microsoft Dynamic NAV tables. You can design XMLports to import or export XML documents, variable text files, or fixed\-width text files.  
+You design XMLports to export data from Microsoft Dynamics NAV tables or import data to a Microsoft Dynamic NAV tables. You can design XMLports to import or export XML documents, variable text files, or fixed-width text files.  
   
 ### To design an XMLport  
   
@@ -20,9 +20,9 @@ You design XMLports to export data from Microsoft Dynamics NAV tables or import 
   
 2.  In Object Designer, choose **XMLport**, and then choose the **New** button to open **XMLport Designer**.  
   
-3.  On the **View** menu, choose **Properties** to open the **XMLport\-Properties** window.  
+3.  On the **View** menu, choose **Properties** to open the **XMLport-Properties** window.  
   
-4.  In the **XML\-Properties** window, set the [Direction Property](Direction-Property.md). If you want to export data, set the property to **Export**. If you want to import data, set the property to **Import**.  
+4.  In the **XML-Properties** window, set the [Direction Property](Direction-Property.md). If you want to export data, set the property to **Export**. If you want to import data, set the property to **Import**.  
   
 5.  Set the [Format Property \(XMLports\)](Format-Property--XMLports-.md) to the format of the document you want to import or export. You can set the format property to **Xml**, **Variable Text** or **Fixed Text**. By default the format property is set to **Xml**.  
   

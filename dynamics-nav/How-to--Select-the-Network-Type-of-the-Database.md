@@ -20,7 +20,7 @@ The default setting allows \($ P\_1 Product Name $\) to connect to a server usin
   
 2.  Choose the **Advanced** tab.  
   
-3.  In the **Net Type** field, choose the drop\-down arrow to select one of the network types:  **Default**, **Named Pipes**, or **TCP\/IP Sockets**.  
+3.  In the **Net Type** field, choose the drop-down arrow to select one of the network types:  **Default**, **Named Pipes**, or **TCP\/IP Sockets**.  
   
 4.  Choose the **OK** button to save your selection and close the window.  
   

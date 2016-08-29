@@ -20,10 +20,10 @@ Developing for the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLU
 |Concept|On Tablet|On Phone|Example|Recommendation|  
 |-------------|---------------|--------------|-------------|--------------------|  
 |Activity buttons|Only the Home activity button is shown.|Only the Home activity button is shown.|**Home**, **Departments**, and **Posted Documents** on the Sales Order Processor Role Center.|Design pages to expose the workflows needed by the user. For example, configure the profile to show the important list pages under the Home activity button. Alternatively, consider designing a new Role Center if the activities for the activity button greatly vary from activities in other activity buttons.|  
-|Selecting multiple records in lists|Not available.|Not available.|Ctrl\+A or Ctrl\+Click on rows in a list using [!INCLUDE[nav_windows](includes/nav_windows_md.md)].|Avoid scenarios requiring selecting multiple rows on a list. Also, try to minimize actions on lists.|  
+|Selecting multiple records in lists|Not available.|Not available.|Ctrl+A or Ctrl+Click on rows in a list using [!INCLUDE[nav_windows](includes/nav_windows_md.md)].|Avoid scenarios requiring selecting multiple rows on a list. Also, try to minimize actions on lists.|  
 |Ribbon actions|Only Promoted actions are shown.|Only Promoted actions are shown.|On the Small Business Role Center.|Use the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to promote actions. Alternatively, configure the profile and add actions to the Home ribbon tab.|  
 |FactBoxes|Not shown on List pages or Worksheet pages.|Not shown on List pages or Worksheet pages.|Customer list on the Small Business Role Center.|Make sure the same information is visible on the corresponding card page of the given record.|  
-|Advanced filters|No column\-specific filtering is available.|No column\-specific filtering is available.|On the Customer list page.|Send data to Excel and do the complex filtering there.|  
+|Advanced filters|No column-specific filtering is available.|No column-specific filtering is available.|On the Customer list page.|Send data to Excel and do the complex filtering there.|  
 |Page search|Not available.|Not available.|On [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)].|Design pages to expose the workflows needed by the user. For example via list places, tiles or actions.|  
 |Cue and action tiles|The number of tiles that are shown is based on the size of the screen, no possibility to scroll.|The number of tiles on the phone is in theory unlimited because you can scroll.|On most Role Center pages.|Design Role Center pages to avoid having important tiles at the area end. Assume you have no control over how many tiles are displayed and consider that only the first few tiles will be made visible on the tablet.|  
 |Fields in fast tabs|Fields in fast tabs on list pages are not shown. Only the repeater control is shown in the content area of the page.|Not available.||Design List pages to avoid having important columns on the far right of the column list. Assume you have no control over how many columns are displayed and consider that only the first few columns will be made visible.|  
@@ -45,5 +45,5 @@ Developing for the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLU
  [Developing for the Microsoft Dynamics NAV Web Client](Developing-for-the-Microsoft-Dynamics-NAV-Web-Client.md)   
  [Role Center Behaviors](Role-Center-Behaviors.md)   
  [How to: Display Data as Bricks](How%20to:%20Display%20Data%20as%20Bricks.md)   
- [How to: Implement the Camera in C\-AL](How%20to:%20Implement%20the%20Camera%20in%20C-AL.md)   
- [How to: Implement Location in C\-AL](How%20to:%20Implement%20Location%20in%20C-AL.md)
+ [How to: Implement the Camera in C-AL](How%20to:%20Implement%20the%20Camera%20in%20C-AL.md)   
+ [How to: Implement Location in C-AL](How%20to:%20Implement%20Location%20in%20C-AL.md)

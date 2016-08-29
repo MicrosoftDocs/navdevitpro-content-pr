@@ -32,7 +32,7 @@ ERROR(String [, Value1, …])
   
  Any variable or expression to be inserted in *String*. You can insert up to 10 values.  
   
- For '\#'\-type fields, the value is truncated according to the total number of number\-sign characters in *String*. For '%'\-type fields, the full length of the value is printed.  
+ For '\#'-type fields, the value is truncated according to the total number of number-sign characters in *String*. For '%'-type fields, the full length of the value is printed.  
   
 ## Remarks  
  The window is automatically sized to hold the longest line of text and total number of lines.  

@@ -53,7 +53,7 @@ You can create test codeunits, test functions, and test pages to test your appli
   
 5.  On the **View** menu, choose **Properties**.  
   
-6.  In the **Properties** window, in the **FunctionType** property, select the type of handler from the drop\-down list.  
+6.  In the **Properties** window, in the **FunctionType** property, select the type of handler from the drop-down list.  
   
 7.  In the **C/AL Globals** window, on the **Functions** tab, choose **Locals** to specify the signature of the handler functions. The following table describes the signature that is required for each type of handler function.  
   

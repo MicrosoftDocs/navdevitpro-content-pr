@@ -153,7 +153,7 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
   
 1.  In Object Designer, open the page **50001 Sales Invoice Cue**.  
   
-     To add a Cue, you add **Field** control under a **CueGroup** control. For this walkthrough, you will add the new Cue under the existing **CueGroup** control for Sales Invoices, after the **Sales Invoices \- Open** field.  
+     To add a Cue, you add **Field** control under a **CueGroup** control. For this walkthrough, you will add the new Cue under the existing **CueGroup** control for Sales Invoices, after the **Sales Invoices - Open** field.  
   
 2.  In a blank row under the existing **CueGroup** control, set the **Type** to **Field**, and then set the **SourceExpr** column to the **"Sales This Month"** field as follows.  
   
@@ -217,6 +217,6 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
  [Setting Up Colored Indicators on Cues](Setting-Up-Colored-Indicators-on-Cues.md)   
  [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
  [Pages Overview](Pages-Overview.md)   
- [Tables\-duplicate 20](Tables-duplicate-20.md)   
+ [Tables-duplicate 20](Tables-duplicate-20.md)   
  [Walkthrough: Creating a Role Center](Walkthrough:%20Creating%20a%20Role%20Center.md)   
  [Queries](Queries.md)

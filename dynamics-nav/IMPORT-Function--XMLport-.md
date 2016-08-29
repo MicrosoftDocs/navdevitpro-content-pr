@@ -26,7 +26,7 @@ Reads and parses an incoming XML data stream \(XML document\).
   
  The ID of the XMLport that you want to run.  
   
- If the XMLport that you specify does not exist, a run\-time error occurs.  
+ If the XMLport that you specify does not exist, a run-time error occurs.  
   
  *InStream*  
  Type: ISequentialStream  

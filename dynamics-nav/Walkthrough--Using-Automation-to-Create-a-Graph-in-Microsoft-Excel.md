@@ -96,20 +96,20 @@ In this walkthrough, you will transfer data from the **G\/L Entry** table to Mic
   
      The following describes the code:  
   
-    -   In the first line, you use the **Add** method of the **Workbooks** collection to return a new workbook. The attribute **\-4167** is the enumerator value of worksheets as they apply to Workbook objects. For more information, see [About the Enumerator Value](#AboutEnumerator).  
+    -   In the first line, you use the **Add** method of the **Workbooks** collection to return a new workbook. The attribute **-4167** is the enumerator value of worksheets as they apply to Workbook objects. For more information, see [About the Enumerator Value](#AboutEnumerator).  
   
     -   In the second line, you use the **ActiveSheet** property of the Application class to ensure that what is done next affects the active sheet of the new workbook.  
   
     -   In the third line, you use the **Name** property to name the sheet.  
   
 ###  <a name="AboutEnumerator"></a> About the Enumerator Value  
- In the preceding procedure, the **Add** method includes the attribute **\-4167**. In the Microsoft Excel Visual Basic Help, the **Add** method as it applies to the Workbooks object takes one **Template** argument, which is of type VARIANT. The description in the Help says:  
+ In the preceding procedure, the **Add** method includes the attribute **-4167**. In the Microsoft Excel Visual Basic Help, the **Add** method as it applies to the Workbooks object takes one **Template** argument, which is of type VARIANT. The description in the Help says:  
   
  If this argument is a constant, the new workbook contains a single sheet of the specified type. Can be one of the following: XlWBATemplate constants: xlWBATChart, xlWBATExcel4IntlMacroSheet, xlWBATExcel4MacroSheet, or xlWBATWorkSheet.  
   
  For more information, see Workbooks.Add Method \(Excel\), [http:\/\/go.microsoft.com\/fwlink\/?LinkId=404331](http://go.microsoft.com/fwlink/?LinkId=404331).  
   
- Instead of passing xlWBATWorkSheet as the **Template** argument, you are passing the number \-4167. In this case, the **Template** argument, which is of type VARIANT, is an enumeration. Enumerations are either USERDEF types or not. This is not a USERDEF type, so it looks like a VARIANT in the C/AL Symbol Menu. You have to look in the Microsoft Excel Visual Basic Help to figure out that it is actually an enumeration. Arguments can be constants with names like xl\* in Excel, wd\* in Word, and ol\* in Outlook. In [!INCLUDE[navnow](includes/navnow_md.md)], you cannot use the symbolic name xlWBATWorkSheet. You have to use the enumerator \-4167. The following procedure describes how you can find an enumerator value if you need to.  
+ Instead of passing xlWBATWorkSheet as the **Template** argument, you are passing the number -4167. In this case, the **Template** argument, which is of type VARIANT, is an enumeration. Enumerations are either USERDEF types or not. This is not a USERDEF type, so it looks like a VARIANT in the C/AL Symbol Menu. You have to look in the Microsoft Excel Visual Basic Help to figure out that it is actually an enumeration. Arguments can be constants with names like xl\* in Excel, wd\* in Word, and ol\* in Outlook. In [!INCLUDE[navnow](includes/navnow_md.md)], you cannot use the symbolic name xlWBATWorkSheet. You have to use the enumerator -4167. The following procedure describes how you can find an enumerator value if you need to.  
   
 ##### To find an enumerator value  
   
@@ -120,13 +120,13 @@ In this walkthrough, you will transfer data from the **G\/L Entry** table to Mic
   
 2.  On the **View** menu of Visual Basic Editor, choose **Object Browser**.  
   
-3.  In the Project\/Library list in the list box in the upper\-left corner of the Object Browser, select **Excel**.  
+3.  In the Project\/Library list in the list box in the upper-left corner of the Object Browser, select **Excel**.  
   
 4.  In the **Classes** list, select **XlWBATemplate**.  
   
-5.  In the **Members of ‘XlWBATemplate’** list, select **xlWBATWorkSheet**. You can see the value in the information pane at the bottom of the Object Browser. In the following example, the value is **\-4167..**  
+5.  In the **Members of ‘XlWBATemplate’** list, select **xlWBATWorkSheet**. You can see the value in the information pane at the bottom of the Object Browser. In the following example, the value is **-4167..**  
   
-     **Const xlWBATWorksheet = \-4167 \(&HFFFFEFB9\)**  
+     **Const xlWBATWorksheet = -4167 \(&HFFFFEFB9\)**  
   
 ## Transferring Data  
  To transfer the data, you must calculate the data and transfer the results of the calculation.  
@@ -161,7 +161,7 @@ In this walkthrough, you will transfer data from the **G\/L Entry** table to Mic
     ```  
   
 ## Creating the Graph  
- The final step is to create the graph. You will use the ChartWizard method to create a 3\-D pie chart. This is a fast and simple way to do it. You can more tightly control the design of the graph by setting it up using the methods and properties of the various Chart objects, such as ChartArea and Legend.  
+ The final step is to create the graph. You will use the ChartWizard method to create a 3-D pie chart. This is a fast and simple way to do it. You can more tightly control the design of the graph by setting it up using the methods and properties of the various Chart objects, such as ChartArea and Legend.  
   
 #### To create the graph  
   
@@ -189,8 +189,8 @@ In this walkthrough, you will transfer data from the **G\/L Entry** table to Mic
     |Argument|Description|Value in method call|  
     |--------------|-----------------|--------------------------|  
     |Source|The range that contains the source data for the new chart.|xlRange – The object returned by xlSheet.Range\(‘A2:C3’\).|  
-    |Gallery|The chart type.|\-4102 – The enumerator for the xl3DPie XlChartType enumeration.|  
-    |Format|The option number for the built\-in auto formats.|7|  
+    |Gallery|The chart type.|-4102 – The enumerator for the xl3DPie XlChartType enumeration.|  
+    |Format|The option number for the built-in auto formats.|7|  
     |PlotBy|An integer specifying whether the data for each series is in rows or columns.|1 – The enumerator for the xlRows XlRowCol enumerator.|  
     |CategoryLabels|An integer specifying the number of rows or columns within the source range that contains category labels.|1 – There is one row with category labels \(the department names\).|  
     |SeriesLabels|An integer specifying the number of rows or columns within the source range that contains series labels.|0 – There are no series labels in your data.|  

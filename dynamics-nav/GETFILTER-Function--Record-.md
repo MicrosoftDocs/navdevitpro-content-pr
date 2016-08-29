@@ -60,7 +60,7 @@ MESSAGE(Text000, String);
   
  **The filter is:**  
   
- **\-100..100**  
+ **-100..100**  
   
 ## Example  
  This example requires that you create the following variable in the **C/AL Globals** window.  

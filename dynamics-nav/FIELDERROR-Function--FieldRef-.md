@@ -11,7 +11,7 @@ ms.assetid: 7df700bf-2e1f-4b64-b37d-fe2da74b3479
 caps.latest.revision: 16
 ---
 # FIELDERROR Function (FieldRef)
-Stops the execution of the code, causing a run\-time error, and creates an error message for a field.  
+Stops the execution of the code, causing a run-time error, and creates an error message for a field.  
   
 ## Syntax  
   
@@ -32,7 +32,7 @@ FieldRef.FIELDERROR([Text])
  Use this optional parameter to include the text of the error message. If this parameter is not present, default text will be used.  
   
 ## Remarks  
- Similar to a run\-time error, this function causes any transaction to be aborted automatically.  
+ Similar to a run-time error, this function causes any transaction to be aborted automatically.  
   
  This function is like the FIELDERROR Function for the Record data type. For examples, see [FIELDERROR Function \(Record\)](FIELDERROR-Function--Record-.md).  
   

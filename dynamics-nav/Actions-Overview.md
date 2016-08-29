@@ -101,7 +101,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], actions are displayed at the top o
 ## Actions at Runtime  
  An action can trigger code to run, such as posting a document or otherwise modifying a record in a table. When a user chooses an action, one of the following pieces of logic will happen in addition to the code that the action itself triggers:  
   
--   If the page is empty and no longer shows any records, the page is re\-initialized with default values.  
+-   If the page is empty and no longer shows any records, the page is re-initialized with default values.  
   
 -   If the page does show records, and the current state is within the page filters boundary, the **OnAfterGetRecord** trigger is executed on the page.  
   

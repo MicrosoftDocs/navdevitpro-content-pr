@@ -16,7 +16,7 @@ XMLports are used to export or import data between an external source and a [!IN
   
  To use an XMLport to import or export data, you first design the XMLport in the XMLport Designer window and set some properties. You can run the XMLport from Object Designer or create a codeunit to run the XMLport. For more information about how to run XMLports in a codeunit, see [How to: Create Codeunits to Run XMLports](How%20to:%20Create%20Codeunits%20to%20Run%20XMLports.md). For information about how to run XMLports in Object Designer, see [How to: Run an XMLport from Object Designer](How%20to:%20Run%20an%20XMLport%20from%20Object%20Designer.md).  
   
- If you are upgrading from an earlier version of [!INCLUDE[navnow](includes/navnow_md.md)] and used Dataports in the earlier version, then you should analyze the functionality of each Dataport and re\-create that functionality in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] using XMLports.  
+ If you are upgrading from an earlier version of [!INCLUDE[navnow](includes/navnow_md.md)] and used Dataports in the earlier version, then you should analyze the functionality of each Dataport and re-create that functionality in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] using XMLports.  
   
 ## Introducing XMLports  
  The following table lists topics that provide detailed information about how to use XMLports.  

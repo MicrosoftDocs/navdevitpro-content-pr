@@ -12,7 +12,7 @@ caps.latest.revision: 10
 manager: edupont
 ---
 # COMPRESSARRAY Function
-Moves all non\-empty strings \(text\) in an array to the beginning of the array. The resulting StringArray has the same number of elements as the input array, but empty entries appear at the end of the array.  
+Moves all non-empty strings \(text\) in an array to the beginning of the array. The resulting StringArray has the same number of elements as the input array, but empty entries appear at the end of the array.  
   
 ## Syntax  
   
@@ -30,10 +30,10 @@ Moves all non\-empty strings \(text\) in an array to the beginning of the array.
 ## Property Value/Return Value  
  Type: Integer  
   
- The number of non\-empty strings that were compressed.  
+ The number of non-empty strings that were compressed.  
   
 ## Remarks  
- When compressing an array of strings, the non\-empty strings in the resulting array are sorted just like in the original array.  
+ When compressing an array of strings, the non-empty strings in the resulting array are sorted just like in the original array.  
   
  The **COMPRESSARRAY** function is useful for printing names and addresses. For instance, you can use this function to remove blank lines in account statements.  
   
@@ -66,7 +66,7 @@ Moves all non\-empty strings \(text\) in an array to the beginning of the array.
 ||  
 ||  
   
- All non\-empty entries have been moved to the beginning of the array.  
+ All non-empty entries have been moved to the beginning of the array.  
   
  This example requires that you create the following variable in the **C/AL Globals** window.  
   

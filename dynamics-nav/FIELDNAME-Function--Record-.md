@@ -38,7 +38,7 @@ Name := Record.FIELDNAME(Field)
  The name of the field specified.  
   
 ## Remarks  
- The [FIELDCAPTION Function \(Record\)](FIELDCAPTION-Function--Record-.md) retrieves the [Caption Property\-duplicate](Caption-Property-duplicate.md) of a field. If you want to enable your application for multilanguage functionality now or in the future, you must use the **FIELDCAPTION** function instead of the **FIELDNAME** function.  
+ The [FIELDCAPTION Function \(Record\)](FIELDCAPTION-Function--Record-.md) retrieves the [Caption Property-duplicate](Caption-Property-duplicate.md) of a field. If you want to enable your application for multilanguage functionality now or in the future, you must use the **FIELDCAPTION** function instead of the **FIELDNAME** function.  
   
 ## Example  
  This example requires that you create the following variables.  

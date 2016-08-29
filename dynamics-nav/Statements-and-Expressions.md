@@ -28,7 +28,7 @@ A C/AL statement is a code instruction that when it is executed, causes operatio
   
 -   Keywords  
   
- For more information about constants, variables, operators, functions, and keywords, see [Elements of C\-AL Expressions](Elements-of-C-AL-Expressions.md).  
+ For more information about constants, variables, operators, functions, and keywords, see [Elements of C-AL Expressions](Elements-of-C-AL-Expressions.md).  
   
 ## Example 1  
  For this example, consider the following C/AL code.  
@@ -41,7 +41,7 @@ Amount := 34 + Total;
   
 |Element|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-------------|---------------------------------------|  
-|34 \+ Total|An expression.<br /><br /> This expression consists of an arithmetic operator \(\+\) and two arguments \(34 and Total\), which could also be called sub\-expressions.<br /><br /> Every valid C/AL expression can be evaluated to a specific value.|  
+|34 + Total|An expression.<br /><br /> This expression consists of an arithmetic operator \(+\) and two arguments \(34 and Total\), which could also be called sub-expressions.<br /><br /> Every valid C/AL expression can be evaluated to a specific value.|  
 |:=|The assignment operator.<br /><br /> When the expression on the right side has been evaluated, this operator is used to assign or store the value in the variable on the left side.|  
 |Amount|A variable.<br /><br /> Used to reference a memory location where data is stored.|  
   
@@ -60,9 +60,9 @@ Date := DMY2DATE(31, 12, 2001);
 |Expression|Evaluates to|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |----------------|------------------|---------------------------------------|  
 |'Welcome to Hawaii'|The string 'Welcome to Hawaii'|Evaluates to itself.|  
-|'Welcome ' \+ 'to Hawaii'|The string 'Welcome to Hawaii'|Evaluates to a concatenation of the two strings.|  
+|'Welcome ' + 'to Hawaii'|The string 'Welcome to Hawaii'|Evaluates to a concatenation of the two strings.|  
 |43.234|The number 43.234|Evaluates to itself, a decimal number.|  
-|ABS\(\-7234\)|The number 7234|A function that evaluates to a number.|  
+|ABS\(-7234\)|The number 7234|A function that evaluates to a number.|  
 |len1 \< 618|TRUE or FALSE, depending on the value of len1|A comparison between a variable and a numeric constant, which evaluates to a Boolean value.|  
   
- These examples show that when C/AL expressions are evaluated, the results have a specific data type. For more information about data types, see [C\-AL Data Types](C-AL-Data-Types.md).
+ These examples show that when C/AL expressions are evaluated, the results have a specific data type. For more information about data types, see [C-AL Data Types](C-AL-Data-Types.md).

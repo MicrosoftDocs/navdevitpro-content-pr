@@ -12,7 +12,7 @@ caps.latest.revision: 7
 manager: edupont
 ---
 # How to: Rename Companies
-You can rename companies in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and the [!INCLUDE[nav_web](includes/nav_web_md.md)]. You can also rename companies by using the **Rename\-NAVCompany** Windows PowerShell cmdlet.  
+You can rename companies in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and the [!INCLUDE[nav_web](includes/nav_web_md.md)]. You can also rename companies by using the **Rename-NAVCompany** Windows PowerShell cmdlet.  
   
  Before you rename a company, you must make sure that you are the only user who has access to the company.  
   
@@ -22,7 +22,7 @@ You can rename companies in the [!INCLUDE[nav_windows](includes/nav_windows_md.m
   
 2.  Choose the **Options** tab, select the **Single user** check box, and then choose the **OK** button.  
   
- You can now rename the company in [!INCLUDE[nav_windows](includes/nav_windows_md.md)], [!INCLUDE[nav_web](includes/nav_web_md.md)], or by using the **Rename\-NAVCompany** Windows PowerShell cmdlet.  
+ You can now rename the company in [!INCLUDE[nav_windows](includes/nav_windows_md.md)], [!INCLUDE[nav_web](includes/nav_web_md.md)], or by using the **Rename-NAVCompany** Windows PowerShell cmdlet.  
   
  You can only rename a company if you have the relevant permission.  
   

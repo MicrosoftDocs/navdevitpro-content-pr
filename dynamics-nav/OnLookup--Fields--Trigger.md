@@ -19,11 +19,11 @@ Causes the system to display a lookup page.
 ## Remarks  
  There are three lookup options:  
   
-1.  Default Lookup \- The lookup into the table is performed without applying filters or other special parameters.  
+1.  Default Lookup - The lookup into the table is performed without applying filters or other special parameters.  
   
-2.  Field Lookup \- You can use this trigger to define a field lookup that will be used in place of the default lookup.  
+2.  Field Lookup - You can use this trigger to define a field lookup that will be used in place of the default lookup.  
   
-3.  Text box Lookup \- You can use the [OnLookup \(Page fields\) Trigger](OnLookup--Page-fields--Trigger.md) to define a lookup based on the value of a text box. This value will be used in place of the default lookup or the field lookup.  
+3.  Text box Lookup - You can use the [OnLookup \(Page fields\) Trigger](OnLookup--Page-fields--Trigger.md) to define a lookup based on the value of a text box. This value will be used in place of the default lookup or the field lookup.  
   
  When using this trigger, follow this approach:  
   
@@ -36,7 +36,7 @@ Causes the system to display a lookup page.
  If an error occurs in the trigger code, the lookup page is closed.  
   
 > [!NOTE]  
->  On non\-editable fields in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the field gets its lookup action rendered as a hyperlink. In the [!INCLUDE[nav_web](includes/nav_web_md.md)] the lookup for a non\-editable field is not rendered. You can use the [OnDrillDown Trigger](OnDrillDown-Trigger.md) instead.  
+>  On non-editable fields in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the field gets its lookup action rendered as a hyperlink. In the [!INCLUDE[nav_web](includes/nav_web_md.md)] the lookup for a non-editable field is not rendered. You can use the [OnDrillDown Trigger](OnDrillDown-Trigger.md) instead.  
   
 ## See Also  
  [OnLookup \(Page fields\) Trigger](OnLookup--Page-fields--Trigger.md)

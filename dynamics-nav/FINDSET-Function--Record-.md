@@ -54,7 +54,7 @@ Finds a set of records in a table based on the current key and filter.
   
  **true** if the record set was found; otherwise, **false**.  
   
- If you omit this optional return value and if the record cannot be found, then a run\-time error occurs. If you include a return value, then you must handle any errors.  
+ If you omit this optional return value and if the record cannot be found, then a run-time error occurs. If you include a return value, then you must handle any errors.  
   
 ## Remarks  
  You should use this function only when you explicitly want to loop through a recordset. You should only use this function in combination with **REPEAT**.. **UNTIL**.  

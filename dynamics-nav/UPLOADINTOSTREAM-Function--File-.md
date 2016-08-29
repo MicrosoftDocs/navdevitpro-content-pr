@@ -28,7 +28,7 @@ Sends a file from the client computer to the corresponding [!INCLUDE[nav_server]
  The text displayed in the title bar of the **Open** dialog box.  
   
 > [!NOTE]  
->  This parameter is not supported by the [!INCLUDE[nav_web](includes/nav_web_md.md)]. The title is determined by the end\-user's browser.  
+>  This parameter is not supported by the [!INCLUDE[nav_web](includes/nav_web_md.md)]. The title is determined by the end-user's browser.  
   
  *FromFolder*  
  Type: Text  
@@ -61,7 +61,7 @@ Sends a file from the client computer to the corresponding [!INCLUDE[nav_server]
 ## Property Value/Return Value  
  Type: Boolean  
   
- If you omit this optional return value, then a run\-time error occurs if the record cannot be found. If you include a return value, then you must handle any errors.  
+ If you omit this optional return value, then a run-time error occurs if the record cannot be found. If you include a return value, then you must handle any errors.  
   
  **true** if the file was uploaded; otherwise, **false**.  
   

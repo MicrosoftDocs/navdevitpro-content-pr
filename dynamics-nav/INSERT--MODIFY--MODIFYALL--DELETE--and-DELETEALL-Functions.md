@@ -26,7 +26,7 @@ The following functions maintain the database by adding, modifying, and removing
   
  These functions are some of the most frequently used C/AL functions.  
   
- Some of these functions return an optional Boolean value that indicates whether the function succeeded. If you do not handle the return value in your code, a run\-time error occurs when a function returns FALSE. If you handle the return value by testing its value in an IF statement, no error will occur, and you must take corrective action in the code.  
+ Some of these functions return an optional Boolean value that indicates whether the function succeeded. If you do not handle the return value in your code, a run-time error occurs when a function returns FALSE. If you handle the return value by testing its value in an IF statement, no error will occur, and you must take corrective action in the code.  
   
 ## INSERT Function  
  INSERT inserts a record in a table.  
@@ -119,7 +119,7 @@ Customer."No." := '4711';
 Customer.DELETE;  
 ```  
   
- DELETE returns an optional Boolean value. It returns TRUE if the record could be found; otherwise, it returns FALSE. Unless you test this value in your code, a run\-time error occurs when DELETE fails  
+ DELETE returns an optional Boolean value. It returns TRUE if the record could be found; otherwise, it returns FALSE. Unless you test this value in your code, a run-time error occurs when DELETE fails  
   
  When you are developing your own applications, you should consider the following scenario:  
   
@@ -129,7 +129,7 @@ Customer.DELETE;
   
 3.  If step 2 indicated that you should delete the record, then delete it.  
   
- This can cause problems in a multi\-user environment. Another user can modify or delete the same record between your performing steps 2 and 3. If the record is modified, then perhaps the new contents of the record would have changed your decision to delete it. If it has been deleted by the other user, you can get a run\-time error if you have just verified that the record existed \(in step 1\). If the design of your application indicates that you can encounter this problem, you should consider using the LOCKTABLE function. LOCKTABLE should be used sparingly because this function degrades performance. For more information about the LOCKTABLE function, see [LOCKTABLE Function](LOCKTABLE-Function.md).  
+ This can cause problems in a multi-user environment. Another user can modify or delete the same record between your performing steps 2 and 3. If the record is modified, then perhaps the new contents of the record would have changed your decision to delete it. If it has been deleted by the other user, you can get a run-time error if you have just verified that the record existed \(in step 1\). If the design of your application indicates that you can encounter this problem, you should consider using the LOCKTABLE function. LOCKTABLE should be used sparingly because this function degrades performance. For more information about the LOCKTABLE function, see [LOCKTABLE Function](LOCKTABLE-Function.md).  
   
 ## DELETEALL Function  
  DELETEALL deletes all the records that are specified by the filter settings. If no filters are applied, it deletes all the records in the table.  

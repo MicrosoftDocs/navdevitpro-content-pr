@@ -44,7 +44,7 @@ MESSAGE(Text000, User);
   
  The following is an example of the output of the previous code:  
   
- **The client was started by a user with the ID 1049f495\-27ba\-46a5\-acca\-ecf92324fbf8.**  
+ **The client was started by a user with the ID 1049f495-27ba-46a5-acca-ecf92324fbf8.**  
   
 ## See Also  
  [USERID Function \(Sessions\)](USERID-Function--Sessions-.md)   

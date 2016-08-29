@@ -29,7 +29,7 @@ NewString := STRSUBSTNO(String [,Value1, …])
   
  The % fields are replaced by the values with their full lengths, and \# fields are replaced by the values that are truncated to the length of the \# field.  
   
- If this parameter is an expression that evaluates to Text or Code that is 512 or more characters, then a run\-time error occurs.  
+ If this parameter is an expression that evaluates to Text or Code that is 512 or more characters, then a run-time error occurs.  
   
  *Value1, …*  
  Type: Any  
@@ -44,7 +44,7 @@ NewString := STRSUBSTNO(String [,Value1, …])
 ## Remarks  
  This function replaces the numbered specifiers in a string with a string representation of the equivalent numbered value.  
   
- The specifiers in the string can be either %*n* or \#\#\#\#\#\#\#*n*, where *n* represents a 1\-based number. When you use the \# specifier, the number can be anywhere in the specifier. For example, \#\#\#2\#\#\#\# is allowed.  
+ The specifiers in the string can be either %*n* or \#\#\#\#\#\#\#*n*, where *n* represents a 1-based number. When you use the \# specifier, the number can be anywhere in the specifier. For example, \#\#\#2\#\#\#\# is allowed.  
   
  The %*n* specifier is replaced with the string representation of the value with their full lengths.  
   
@@ -80,7 +80,7 @@ NewString := STRSUBSTNO(String [,Value1, …])
   
  If one of the values is null, then it is treated as an empty string.  
   
- For more information about the STRSUBSTNO function in a multilanguage\-enabled application, see [Developing Multilanguage\-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  
+ For more information about the STRSUBSTNO function in a multilanguage-enabled application, see [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  
   
 ## Example  
  The following example shows how to use the STRSUBSTNO function.  

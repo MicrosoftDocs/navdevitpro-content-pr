@@ -17,14 +17,14 @@ The **Drive** virtual table gives you an overview of the logical drives on your 
 |Field|Description|  
 |-----------|-----------------|  
 |**DriveName**|The name of the drive, such as drive C or D.|  
-|**Removable**|Indicates whether the disk is removable \(a CD\-ROM or similar\) or a hard disk.|  
+|**Removable**|Indicates whether the disk is removable \(a CD-ROM or similar\) or a hard disk.|  
 |**SizeInKilobyte**|The total size of the disk.|  
 |**FreeInKilobyte**|The amount of free space on the disk.|  
   
- You must create a tabular\-type page to access the **Drive** virtual table.  
+ You must create a tabular-type page to access the **Drive** virtual table.  
   
 > [!NOTE]  
->  If there is no disk in your disk drive, the **SizeInKilobyte** and **FreeInKilobyte** fields will contain the value \-1.  
+>  If there is no disk in your disk drive, the **SizeInKilobyte** and **FreeInKilobyte** fields will contain the value -1.  
   
 ## See Also  
  [Virtual Tables](Virtual-Tables.md)

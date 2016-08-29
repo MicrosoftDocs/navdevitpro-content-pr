@@ -11,7 +11,7 @@ ms.assetid: 7f3a9bd7-a507-465d-8bf7-0c7fce32038d
 caps.latest.revision: 24
 ---
 # Monitoring Microsoft Dynamics NAV Server Event Traces
-Event tracing provides detailed information about what is occurring on the [!INCLUDE[nav_server](includes/nav_server_md.md)] when users work with [!INCLUDE[navnow](includes/navnow_md.md)]. This can help you identify and analyze problems or conditions that affect performance. Event tracing enables you to dynamically monitor [!INCLUDE[nav_server](includes/nav_server_md.md)] without having to restart the server or [!INCLUDE[navnow](includes/navnow_md.md)] clients. By using industry\-standard tools for event tracing, you can start and stop event tracing sessions, and then view the trace event data from a stored log file.  
+Event tracing provides detailed information about what is occurring on the [!INCLUDE[nav_server](includes/nav_server_md.md)] when users work with [!INCLUDE[navnow](includes/navnow_md.md)]. This can help you identify and analyze problems or conditions that affect performance. Event tracing enables you to dynamically monitor [!INCLUDE[nav_server](includes/nav_server_md.md)] without having to restart the server or [!INCLUDE[navnow](includes/navnow_md.md)] clients. By using industry-standard tools for event tracing, you can start and stop event tracing sessions, and then view the trace event data from a stored log file.  
   
  You can use event tracing to track the following operations on [!INCLUDE[nav_server](includes/nav_server_md.md)] instances:  
   
@@ -24,7 +24,7 @@ Event tracing provides detailed information about what is occurring on the [!INC
 -   Windows event log events.  
   
 ## Event Trace Monitoring Tools  
- There are various industry\-standard tools that you can use to collect event trace data. The procedures in this section use Windows Performance Monitor, PerfView, Event Viewer, and Windows PowerShell to illustrate how you can collect and view event trace data. For details about how to use these tools and others, refer to the documentation available with the tool.  
+ There are various industry-standard tools that you can use to collect event trace data. The procedures in this section use Windows Performance Monitor, PerfView, Event Viewer, and Windows PowerShell to illustrate how you can collect and view event trace data. For details about how to use these tools and others, refer to the documentation available with the tool.  
   
 ## Getting Started  
   

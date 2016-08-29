@@ -48,7 +48,7 @@ Loads and executes the unit of C/AL code you specify. To use this function, you 
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
-|FiscalYearCloseInstance|Codeunit|Fiscal Year\-Close|  
+|FiscalYearCloseInstance|Codeunit|Fiscal Year-Close|  
 |AppMgmtInstance|Codeunit|ApplicationManagement|  
 |AccountRecord|Record|Accounting Period|  
   

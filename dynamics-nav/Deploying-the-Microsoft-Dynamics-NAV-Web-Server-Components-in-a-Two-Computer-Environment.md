@@ -16,12 +16,12 @@ In this scenario, you install the [!INCLUDE[nav_web_server](includes/nav_web_ser
  ![NAV Web client installation on two computers](media/NAV_Web_Client_Install_Two_Computers.png "NAV\_Web\_Client\_Install\_Two\_Computers")  
   
 > [!TIP]  
->  For a step\-by\-step example that describes how to deploy this scenario, see [Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on Two Computers](Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Two%20Computers.md).  
+>  For a step-by-step example that describes how to deploy this scenario, see [Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on Two Computers](Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Two%20Computers.md).  
   
 ## Deployment Tasks  
  To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] in this scenario, complete the following tasks.  
   
-### Pre\-Installation Tasks  
+### Pre-Installation Tasks  
  The following table includes tasks to perform before you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  
   
 |Task|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|For more information, see|  
@@ -41,7 +41,7 @@ In this scenario, you install the [!INCLUDE[nav_web_server](includes/nav_web_ser
 |Install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].|On the web server computer, run [!INCLUDE[navnow](includes/navnow_md.md)] Setup and choose the **Web Server Components** option.|[How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md)|  
 |Configure delegation from the web server to [!INCLUDE[nav_server](includes/nav_server_md.md)].|Because [!INCLUDE[nav_server](includes/nav_server_md.md)] is running on a different computer than the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], you must configure the computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] to delegate its access to [!INCLUDE[nav_server](includes/nav_server_md.md)] on behalf of the device trying to access the [!INCLUDE[nav_web](includes/nav_web_md.md)].|[How to: Configure Delegation for Microsoft Dynamics NAV Web Client](How%20to:%20Configure%20Delegation%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md)|  
   
-###  <a name="PostInstall"></a> Post\-installation Tasks  
+###  <a name="PostInstall"></a> Post-installation Tasks  
  The following table includes tasks to configure the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] after installation. These tasks are optional depending on your organizational and network requirements.  
   
 |Task|Description|For more information, see|  

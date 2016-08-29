@@ -42,11 +42,11 @@ You can use test pages to mimic actual pages so that you can test the code the p
   
 -   Compare the value of a field.  
   
--   Simulate the drop\-down arrow, drill\-down, and lookup buttons on a field.  
+-   Simulate the drop-down arrow, drill-down, and lookup buttons on a field.  
   
  You use the [TestPage Filter Functions](TestPage-Filter-Functions.md) to set filter parameters, such as current key, and direction to display the results, such as ascending or descending.  
   
- You use the [TestPage Action Functions](TestPage-Action-Functions.md) to invoke an action on a page. This includes both actions that you define in Page Designer and built\-in actions, such as Yes, No, OK, and Cancel.  
+ You use the [TestPage Action Functions](TestPage-Action-Functions.md) to invoke an action on a page. This includes both actions that you define in Page Designer and built-in actions, such as Yes, No, OK, and Cancel.  
   
 ## See Also  
  [TestPage Data Type](TestPage-Data-Type.md)   

@@ -166,18 +166,18 @@ This topic describes how to install and configure Internet Information Service \
   
      The **Windows features** dialog box appears.  
   
-3.  Expand the root\-level item **.NET Framework 4.5 Advanced Services** \(for Windows 8\) or **.NET Framework 4.6 Advanced Services** \(for Windows 10\), and then do the following:  
+3.  Expand the root-level item **.NET Framework 4.5 Advanced Services** \(for Windows 8\) or **.NET Framework 4.6 Advanced Services** \(for Windows 10\), and then do the following:  
   
     -   Select **ASP.NET 4.5** \(for Windows 8\) or **ASP.NET 4.6** \(for Windows 10\).  
   
     -   Expand **WCF Services**, and then select **HTTP Activation**.  
   
-4.  Expand the root\-level item **Microsoft .NET Framework 3.5 \(including .NET 2.0 and 3.0\)**, and then select **Windows Communication Foundation HTTP Activation**.  
+4.  Expand the root-level item **Microsoft .NET Framework 3.5 \(including .NET 2.0 and 3.0\)**, and then select **Windows Communication Foundation HTTP Activation**.  
   
     > [!NOTE]  
     >  The **Microsoft .NET Framework 3.5 \(including .NET 2.0 and 3.0\)** item is only available if.NET Framework 3.50 is installed. If the item is not shown, then there is no action for this step.  
   
-5.  Expand the root\-level item **Internet Information Services**, expand **World Wide Web Services**, and then do the following:  
+5.  Expand the root-level item **Internet Information Services**, expand **World Wide Web Services**, and then do the following:  
   
     1.  Expand **Application Development Features**, and select the following features:  
   
@@ -222,7 +222,7 @@ This topic describes how to install and configure Internet Information Service \
   
 3.  In the **Add Roles and Features Wizard**, in the **Before You Begin** page, choose the **Next** button.  
   
-4.  On the **Select installation type** page, select **Role\-based or feature\-based installation**, and then choose the **Next** button.  
+4.  On the **Select installation type** page, select **Role-based or feature-based installation**, and then choose the **Next** button.  
   
 5.  On the **Select destination server** page, select **Select a server from the server pool**, select your server from **Server Pool** list, and then choose the **Next** button.  
   

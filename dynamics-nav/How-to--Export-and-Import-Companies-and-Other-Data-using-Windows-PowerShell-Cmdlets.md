@@ -40,7 +40,7 @@ You can export data such as a company or an application from a [!INCLUDE[navnow]
     Export-NAVData -ServerInstance nav_server_instance -Tenant Tenant1 -CompanyName "CRONUS International Ltd." -FilePath c:\Data\mytenantcompany.navdata  
     ```  
   
-     In the example, the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)], the tenant database is Tenant1, and the company name is [!INCLUDE[demoname](includes/demoname_md.md)]. The example is based on a multitenant deployment where you want to export a specific company from the specified tenant database. In a single\-tenant deployment, you do not specify the tenant, and the example will export the company from the database that the specified [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured for.  
+     In the example, the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)], the tenant database is Tenant1, and the company name is [!INCLUDE[demoname](includes/demoname_md.md)]. The example is based on a multitenant deployment where you want to export a specific company from the specified tenant database. In a single-tenant deployment, you do not specify the tenant, and the example will export the company from the database that the specified [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured for.  
   
      For an example of how to export data directly from a database that is not mounted against a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, see the next step.  
   
@@ -56,7 +56,7 @@ You can export data such as a company or an application from a [!INCLUDE[navnow]
     Export-NAVData - DatabaseServer localhost -DatabaseName 'Demo Database NAV (9-0)' –AllCompanies -IncludeGlobalData -IncludeApplicationData -IncludeApplication -FilePath c:\Data\myappanddata.navdata  
     ```  
   
-     In the example, the database server is the local computer, the database is the demonstration database, and the export includes global data, application data, and the application objects, and all companies in the database. The example is based on a single\-tenant deployment where you have chosen to specify the *–DatabaseServer* and *–DatabaseName* parameters. Alternatively, you can specify the *–ServerInstance* parameter as illustrated in the previous step. In a multitenant deployment, you must also specify the tenant database.  
+     In the example, the database server is the local computer, the database is the demonstration database, and the export includes global data, application data, and the application objects, and all companies in the database. The example is based on a single-tenant deployment where you have chosen to specify the *–DatabaseServer* and *–DatabaseName* parameters. Alternatively, you can specify the *–ServerInstance* parameter as illustrated in the previous step. In a multitenant deployment, you must also specify the tenant database.  
   
  For another example of how to export companies and other data, see the Example section.  
   
@@ -115,12 +115,12 @@ You can export data such as a company or an application from a [!INCLUDE[navnow]
     Export-NAVData -ServerInstance nav_server_instance -Tenant Tenant2 -CompanyName "CRONUS International Ltd." -FilePath c:\Data\mytenantcompany.navdata  
     ```  
   
-     In the example, the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)], the tenant database is Tenant2, and the company name is [!INCLUDE[demoname](includes/demoname_md.md)]. The example is based on a multitenant deployment where you want to move a company from one tenant database to another tenant database. In a single\-tenant deployment, you do not specify the tenant, and the example will import the company into the database that the specified [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured for.  
+     In the example, the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)], the tenant database is Tenant2, and the company name is [!INCLUDE[demoname](includes/demoname_md.md)]. The example is based on a multitenant deployment where you want to move a company from one tenant database to another tenant database. In a single-tenant deployment, you do not specify the tenant, and the example will import the company into the database that the specified [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured for.  
   
      For an example of how to import data directly into a database, see the next step.  
   
     > [!IMPORTANT]  
-    >  To import an application, you must use the Import\-NAVData cmdlet using the *–DatabaseServer* and *–Database* parameters, and you must make sure no users are accessing the database. Also, the database must be empty.  
+    >  To import an application, you must use the Import-NAVData cmdlet using the *–DatabaseServer* and *–Database* parameters, and you must make sure no users are accessing the database. Also, the database must be empty.  
   
 4.  To import an application directly into a [!INCLUDE[navnow](includes/navnow_md.md)] database, type the following command:  
   

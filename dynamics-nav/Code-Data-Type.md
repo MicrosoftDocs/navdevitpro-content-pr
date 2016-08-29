@@ -27,7 +27,7 @@ This simple data type denotes a special type of string that is converted to uppe
   
  Fields that contain a date formula must not have data type Code. Instead, use the [DateFormula Data Type](DateFormula-Data-Type.md). All fields that contain a date formula with data type Code must be converted into data type DateFormula.  
   
- You cannot assign a char to a position in the code variable greater than the current length of the variable \+1. For more information, see [Char Data Type](Char-Data-Type.md).  
+ You cannot assign a char to a position in the code variable greater than the current length of the variable +1. For more information, see [Char Data Type](Char-Data-Type.md).  
   
 ## Example  
  This example shows some typical examples of code string assignments. In these examples, assume that the variable c is a code variable with a maximum length of 4.  

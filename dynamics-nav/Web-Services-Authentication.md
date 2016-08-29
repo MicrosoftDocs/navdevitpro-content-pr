@@ -15,7 +15,7 @@ When users send a request for a web service, they are authenticated according to
   
  If your solution uses NavUserPassword or AccessControlService as the credential type, users can access data through SOAP and OData web services if they specify a password or a web service access key. You set up the user accounts in the **User Card** window based on how they will access [!INCLUDE[navnow](includes/navnow_md.md)] data. For example, if you set up a user account that will allow an external application to read [!INCLUDE[navnow](includes/navnow_md.md)] data through a web service, you can generate a web service access key and specify that in the **User Card** window for the relevant user accounts. Then, you add the access key to the configuration of the application that consumes the web service. In contrast, when users access [!INCLUDE[navnow](includes/navnow_md.md)] data through a web service in Microsoft Excel, for example, they specify a password instead of a web service access key.  
   
- [!INCLUDE[navnow](includes/navnow_md.md)] also supports OAuth authentication on OData and SOAP endpoints. OAuth is an open standard for authentication that provides client applications with secure delegated access to server resources. OAuth enables you to extend single sign\-on with Office 365 to [!INCLUDE[navnow](includes/navnow_md.md)] web services.  
+ [!INCLUDE[navnow](includes/navnow_md.md)] also supports OAuth authentication on OData and SOAP endpoints. OAuth is an open standard for authentication that provides client applications with secure delegated access to server resources. OAuth enables you to extend single sign-on with Office 365 to [!INCLUDE[navnow](includes/navnow_md.md)] web services.  
   
 |To|See|  
 |--------|---------|  

@@ -21,7 +21,7 @@ After you accept the software license terms and choose **Next**, you come to the
      The Demo Install is intended for users who want to try out the features of [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. It is not intended as the foundation for a production environment.  
   
     > [!IMPORTANT]  
-    >  Because [!INCLUDE[nav_server](includes/nav_server_md.md)] requires a 64\-bit Windows operating system, you can only install the Demo version of [!INCLUDE[navnow](includes/navnow_md.md)] on a computer running a 64\-bit Windows operating system.  
+    >  Because [!INCLUDE[nav_server](includes/nav_server_md.md)] requires a 64-bit Windows operating system, you can only install the Demo version of [!INCLUDE[navnow](includes/navnow_md.md)] on a computer running a 64-bit Windows operating system.  
   
 -   **Choose an Installation Option**  
   

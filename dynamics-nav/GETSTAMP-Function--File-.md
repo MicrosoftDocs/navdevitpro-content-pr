@@ -46,7 +46,7 @@ Gets the exact time that a file was last written to.
 ## Property Value/Return Value  
  Type: Boolean  
   
- If you omit this optional return value, then a run\-time error occurs when the file cannot be found. When you include the return value, you must handle any errors. The return value can have these values:  
+ If you omit this optional return value, then a run-time error occurs when the file cannot be found. When you include the return value, you must handle any errors. The return value can have these values:  
   
  **true** if the file exists and the function completes successfully; otherwise, **false**.  
   

@@ -12,7 +12,7 @@ caps.latest.revision: 10
 manager: edupont
 ---
 # How to: Enter Text in the Multilanguage Editor
-When you enter captions or text constants for a multilanguage\-enabled application, you use the Multilanguage Editor to enter text for multiple languages.  
+When you enter captions or text constants for a multilanguage-enabled application, you use the Multilanguage Editor to enter text for multiple languages.  
   
 ### To Enter Text in the Multilanguage Editor  
   
@@ -21,7 +21,7 @@ When you enter captions or text constants for a multilanguage\-enabled applicati
 2.  In the **Windows Language List** window, select the language that you want to add from the list, and then choose the **OK** button.  
   
     > [!NOTE]  
-    >  In the Multilanguage Editor, instead of choosing the **AssistEdit** button, you can also enter the three\-letter code for the language that you want to add and then move the cursor to the **Value** field. The three\-letter code is automatically replaced with the full language description.  
+    >  In the Multilanguage Editor, instead of choosing the **AssistEdit** button, you can also enter the three-letter code for the language that you want to add and then move the cursor to the **Value** field. The three-letter code is automatically replaced with the full language description.  
   
 3.  In the Multilanguage Editor, in the **Value** field, enter the text in the language that you entered in the **Language** field, and then choose the **OK** button.  
   

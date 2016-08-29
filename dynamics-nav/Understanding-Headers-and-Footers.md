@@ -14,7 +14,7 @@ manager: edupont
 # Understanding Headers and Footers
 Headers and footers in client report definition \(RDLC\) report layouts have the following limitations:  
   
--   From the header, you cannot refer to group\-specific information in the body.  
+-   From the header, you cannot refer to group-specific information in the body.  
   
 -   You can have only one report header, one body, and one report footer in a report.  
   

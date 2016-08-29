@@ -46,7 +46,7 @@ Sets a timestamp for a file.
 ## Property Value/Return Value  
  Type: Boolean  
   
- If you omit this optional return value, a run\-time error occurs if the file cannot be found. When you include the return value, you must handle any errors.  
+ If you omit this optional return value, a run-time error occurs if the file cannot be found. When you include the return value, you must handle any errors.  
   
  **true** if the timestamp was set; otherwise, **false**.  
   

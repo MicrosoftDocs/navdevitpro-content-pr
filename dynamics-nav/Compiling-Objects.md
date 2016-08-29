@@ -14,7 +14,7 @@ manager: edupont
 # Compiling Objects
 Before you can run a [!INCLUDE[navnow](includes/navnow_md.md)] object, you must compile the object. To compile an object, do one of the following:  
   
--   In Object Designer, choose **Tools**, and then choose **Compile**. Any syntax errors are displayed in a dialog box. Any errors or warnings about obsolete constructs in a three\-tier environment are displayed in the **Error List** window.  
+-   In Object Designer, choose **Tools**, and then choose **Compile**. Any syntax errors are displayed in a dialog box. Any errors or warnings about obsolete constructs in a three-tier environment are displayed in the **Error List** window.  
   
 -   Run finsql.exe with the CompileObjects command. Any errors or warnings are added to the log file. For more information, see [CompileObjects](CompileObjects.md).  
   
@@ -39,9 +39,9 @@ Before you can run a [!INCLUDE[navnow](includes/navnow_md.md)] object, you must 
  If you select an error in the **Error List** window and choose **Design**, then the C/AL Editor opens for the object to which the error or warning relates.  
   
 ## Multilanguage Captions  
- When you compile application objects, [!INCLUDE[navnow](includes/navnow_md.md)] stores the objects in Unicode encoding. If the application objects contain multilanguage captions, [!INCLUDE[navnow](includes/navnow_md.md)] uses the code page that is relevant for the languages that you have specified. For more information, see [Developing Multilanguage\-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  
+ When you compile application objects, [!INCLUDE[navnow](includes/navnow_md.md)] stores the objects in Unicode encoding. If the application objects contain multilanguage captions, [!INCLUDE[navnow](includes/navnow_md.md)] uses the code page that is relevant for the languages that you have specified. For more information, see [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  
   
 ## See Also  
  [Compiling Tables](Compiling-Tables.md)   
  [Objects](Objects.md)   
- [Programming in C\-AL](Programming-in-C-AL.md)
+ [Programming in C-AL](Programming-in-C-AL.md)

@@ -71,7 +71,7 @@ This topic describes the tasks required for upgrading a [!INCLUDE[nav7long](incl
   
 -   The database schema has been synchronized in the old application.  
   
-     For more information, see [How to: Run the Sync\-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database](How%20to:%20Run%20the%20Sync-NAVTenant%20Cmdlet%20to%20Synchronize%20the%20Tenant%20Database%20with%20the%20Application%20Database.md).  
+     For more information, see [How to: Run the Sync-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database](How%20to:%20Run%20the%20Sync-NAVTenant%20Cmdlet%20to%20Synchronize%20the%20Tenant%20Database%20with%20the%20Application%20Database.md).  
   
 -   All [!INCLUDE[nav_server](includes/nav_server_md.md)] instance records have been cleared from the **dbo.Server Instance** table in the old database in SQL Server.  
   
@@ -125,13 +125,13 @@ This topic describes the tasks required for upgrading a [!INCLUDE[nav7long](incl
   
  **From the [!INCLUDE[nav_shell](includes/nav_shell_md.md)]:**  
   
- Open the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] as an administrator, and then run Sync\-NavTenant cmdlet as follows:  
+ Open the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] as an administrator, and then run Sync-NavTenant cmdlet as follows:  
   
 ```  
 Sync-NavTenant –ServerInstance <ServerInstanceName>  
 ```  
   
- Replace `<ServerInstanceName>` with the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that is connected to the database. For more information, see [How to: Run the Sync\-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database](How%20to:%20Run%20the%20Sync-NAVTenant%20Cmdlet%20to%20Synchronize%20the%20Tenant%20Database%20with%20the%20Application%20Database.md).  
+ Replace `<ServerInstanceName>` with the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that is connected to the database. For more information, see [How to: Run the Sync-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database](How%20to:%20Run%20the%20Sync-NAVTenant%20Cmdlet%20to%20Synchronize%20the%20Tenant%20Database%20with%20the%20Application%20Database.md).  
   
 ##  <a name="ImportAppObj"></a> Task 8: Import the application objects to the converted database  
  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], import all the application objects that you want in the [!INCLUDE[navcorfu](includes/navcorfu_md.md)] database. This includes the FOB file that contains all the [!INCLUDE[navcorfu](includes/navcorfu_md.md)] objects from the application code upgrade and upgrade toolkit objects.  
@@ -143,13 +143,13 @@ Sync-NavTenant –ServerInstance <ServerInstanceName>
  If the upgrade toolkit objects are stored in a separate FOB file, then import the upgrade toolkit FOB file after the application objects are imported.  
   
 ##  <a name="RunSync2"></a> Task 9: Run the schema synchronization to synchronize the new tables  
- Similar to task 7, to publish the data schema changes of the newly imported tables to the SQL tables, run the **Sync. Schema For All Tables – With Validation** option from the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or run the Sync\-NavTenant cmdlet from the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
+ Similar to task 7, to publish the data schema changes of the newly imported tables to the SQL tables, run the **Sync. Schema For All Tables – With Validation** option from the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or run the Sync-NavTenant cmdlet from the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
   
 ##  <a name="RunStartNavUpgrade"></a> Task 10: Run the data upgrade process  
  A data upgrade runs the upgrade toolkit objects, such as upgrade codeunits and upgrade tables, to migrate business data from the old table structure to the new table structure. You can start the data upgrade from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] or [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
   
 > [!NOTE]  
->  In the last phase of data upgrade, all companies will be initialized by running codeunit 2 Company Initialization. This is done automatically. If you want to skip company initialization, then use the Start\- NavDataUpgrade cmdlet and set the *SkipCompanyIntitialization* parameter.  
+>  In the last phase of data upgrade, all companies will be initialized by running codeunit 2 Company Initialization. This is done automatically. If you want to skip company initialization, then use the Start- NavDataUpgrade cmdlet and set the *SkipCompanyIntitialization* parameter.  
   
  **From the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]**:  
   
@@ -159,7 +159,7 @@ Sync-NavTenant –ServerInstance <ServerInstanceName>
   
  **From the [!INCLUDE[nav_shell](includes/nav_shell_md.md)]:**  
   
- Open the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] as an administrator, and then run Start\-NavDataUpgrade cmdlet as follows:  
+ Open the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] as an administrator, and then run Start-NavDataUpgrade cmdlet as follows:  
   
 ```  
 Start-NavDataUpgrade -ServerInstance <ServerInstanceName> -Force  
@@ -167,7 +167,7 @@ Start-NavDataUpgrade -ServerInstance <ServerInstanceName> -Force
   
  Replace `<ServerInstanceName>` with the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that is connected to the database.  
   
- To view the progress of the data upgrade, you can run Get\-NavDataUpgrade cmdlet with the –Progress switch.  
+ To view the progress of the data upgrade, you can run Get-NavDataUpgrade cmdlet with the –Progress switch.  
   
  The data upgrade process runs CheckPreconditions and Upgrade functions in the upgrade codeunits. If any of the preconditions are not met or an upgrade function fails, you must correct the error and resume the data upgrade process. If CheckPreconditions and Upgrade functions are executed successfully, codeunit 2 is automatically run to initialize all companies in the database unless you set the *SkipCompanyIntitialization* parameter.  
   
@@ -196,8 +196,8 @@ Start-NavDataUpgrade -ServerInstance <ServerInstanceName> -Force
 ##  <a name="SetLang"></a> Task 13: Set the language of the customer database  
  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], choose **Tools**, choose **Language**, and then select the language of the original customer database.  
   
-##  <a name="AddControlAddins"></a> Task 14: Add new control add\-ins  
- The database is now fully upgraded and is ready for use. However, you may want to add the new client control add\-ins that are included in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. These are not added by the upgrade process. The following client control add\-ins are available from the [!INCLUDE[navnow](includes/navnow_md.md)] product media:  
+##  <a name="AddControlAddins"></a> Task 14: Add new control add-ins  
+ The database is now fully upgraded and is ready for use. However, you may want to add the new client control add-ins that are included in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. These are not added by the upgrade process. The following client control add-ins are available from the [!INCLUDE[navnow](includes/navnow_md.md)] product media:  
   
 -   Microsoft.Dynamics.Nav.Client.BusinessChart  
   
@@ -209,7 +209,7 @@ Start-NavDataUpgrade -ServerInstance <ServerInstanceName> -Force
   
 -   Microsoft.Dynamics.Nav.Client.SocialListening  
   
- You can add control add\-ins in the **Control Add\-ins** window in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information, see [How to: Register a Windows Client Control Add\-in](How%20to:%20Register%20a%20Windows%20Client%20Control%20Add-in.md).  
+ You can add control add-ins in the **Control Add-ins** window in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information, see [How to: Register a Windows Client Control Add-in](How%20to:%20Register%20a%20Windows%20Client%20Control%20Add-in.md).  
   
 ##  <a name="UploadEncryptionKeys"></a> Task 15: Import Payment Services and Data Encryption Key \(Optional\)  
   

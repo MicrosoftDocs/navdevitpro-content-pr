@@ -43,14 +43,14 @@ Inserts a record into a table.
   
  **true** if the record was inserted; otherwise, **false**.  
   
- If you omit this optional return value and if the record cannot be inserted, a run\-time error occurs. If you include the return value, you must handle any errors.  
+ If you omit this optional return value and if the record cannot be inserted, a run-time error occurs. If you include the return value, you must handle any errors.  
   
 ## Remarks  
  Records are uniquely identified by the values in primary key fields. The Database Management System \(DBMS\) checks the primary key for the table before it inserts a new record.  
   
- If the table contains an auto\-increment field, the auto\-increment feature is used if the record contains a zero value in that field. The auto\-increment feature enters the new value into the field as part of the insert.  
+ If the table contains an auto-increment field, the auto-increment feature is used if the record contains a zero value in that field. The auto-increment feature enters the new value into the field as part of the insert.  
   
- If the auto\-increment field contains a non\-zero value, that value is inserted into the table and the auto\-increment feature is not used. If the value in the auto\-increment field is greater than the last auto\-increment value in the table, the next auto\-increment value that is entered into the table will be greater than the value in the field that you just inserted. If the value in the auto\-increment field already exists in the table, a run\-time error occurs.  
+ If the auto-increment field contains a non-zero value, that value is inserted into the table and the auto-increment feature is not used. If the value in the auto-increment field is greater than the last auto-increment value in the table, the next auto-increment value that is entered into the table will be greater than the value in the field that you just inserted. If the value in the auto-increment field already exists in the table, a run-time error occurs.  
   
  This function works the same as the [INSERT Function \(Record\)](INSERT-Function--Record-.md).  
   

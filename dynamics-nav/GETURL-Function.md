@@ -73,7 +73,7 @@ Generates a URL for the specified client target that is based on the configurati
  Type: String  
   
 ## Remarks  
- The GETURL function generates a URL to open a specific page, for example, or to read [!INCLUDE[navnow](includes/navnow_md.md)] data from a web service. The generated URL includes settings from the configuration of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance which the code that uses the function runs in. This means that you can use the GETURL function to generate URLs that are generic. The URLs are generated based on the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration for the user who is accessing the code that generates the URL. If you specify a company, then the URL applies to that company only. Also, in a multitenant deployment, the URLs are tenant\-specific. The URL will only allow access to the requested object if the user has permission to access to the object.  
+ The GETURL function generates a URL to open a specific page, for example, or to read [!INCLUDE[navnow](includes/navnow_md.md)] data from a web service. The generated URL includes settings from the configuration of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance which the code that uses the function runs in. This means that you can use the GETURL function to generate URLs that are generic. The URLs are generated based on the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration for the user who is accessing the code that generates the URL. If you specify a company, then the URL applies to that company only. Also, in a multitenant deployment, the URLs are tenant-specific. The URL will only allow access to the requested object if the user has permission to access to the object.  
   
 > [!WARNING]  
 >  GETURL returns an empty string if the specified parameters result in values that are not valid, and if the URL cannot be generated for other reasons. If the function returns an empty string, you can use the GETLASTERRORTEXT function to troubleshoot. For more information, see [GETLASTERRORTEXT Function](GETLASTERRORTEXT-Function.md).  
@@ -84,9 +84,9 @@ Generates a URL for the specified client target that is based on the configurati
 |------------|---------|  
 |[!INCLUDE[nav_windows](includes/nav_windows_md.md)]|DynamicsNAV:\/\/*server*:*port*\/*instance*\/\/[!INCLUDE[demoname](includes/demoname_md.md)]|  
 |[!INCLUDE[nav_web](includes/nav_web_md.md)]|https:\/\/*server*:*port*\/*instance*\/WebClient?company='[!INCLUDE[demoname](includes/demoname_md.md)]'\/|  
-|[!INCLUDE[nav_tablet](includes/nav_tablet_md.md)]|ms\-dynamicsnav:\/\/*server*:*port*\/*instance*?company=’ [!INCLUDE[demoname](includes/demoname_md.md)]’|  
-|[!INCLUDE[nav_phone](includes/nav_phone_md.md)]|ms\-dynamicsnav:\/\/*server*:*port*\/*instance*?company=’ [!INCLUDE[demoname](includes/demoname_md.md)]’|  
-|[!INCLUDE[navnow](includes/navnow_md.md)] Desktop client|ms\-dynamicsnav:\/\/*server*:*port*\/*instance*?company=’ [!INCLUDE[demoname](includes/demoname_md.md)]’|  
+|[!INCLUDE[nav_tablet](includes/nav_tablet_md.md)]|ms-dynamicsnav:\/\/*server*:*port*\/*instance*?company=’ [!INCLUDE[demoname](includes/demoname_md.md)]’|  
+|[!INCLUDE[nav_phone](includes/nav_phone_md.md)]|ms-dynamicsnav:\/\/*server*:*port*\/*instance*?company=’ [!INCLUDE[demoname](includes/demoname_md.md)]’|  
+|[!INCLUDE[navnow](includes/navnow_md.md)] Desktop client|ms-dynamicsnav:\/\/*server*:*port*\/*instance*?company=’ [!INCLUDE[demoname](includes/demoname_md.md)]’|  
 |OData|https:\/\/*server*:*port*\/*instance*\/OData\/Company\('[!INCLUDE[demoname](includes/demoname_md.md)]'\)\/|  
 |SOAP|https:\/\/*server*:*port*\/*instance*\/WS\/[!INCLUDE[demoname](includes/demoname_md.md)]|  
   

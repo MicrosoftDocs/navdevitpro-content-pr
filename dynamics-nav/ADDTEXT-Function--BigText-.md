@@ -34,7 +34,7 @@ BigText.ADDTEXT(Variable[, Position])
  *Position*  
  Type: Integer  
   
- This is an optional parameter that defines the position in the *BigText* variable where the string is inserted. If this parameter is omitted, then the string is added at the end of the BigText variable. If this parameter is less than one, then a run\-time error occurs. If this parameter is greater than the length of the *BigText* variable, then the string is added at the end of the *BigText* variable.  
+ This is an optional parameter that defines the position in the *BigText* variable where the string is inserted. If this parameter is omitted, then the string is added at the end of the BigText variable. If this parameter is less than one, then a run-time error occurs. If this parameter is greater than the length of the *BigText* variable, then the string is added at the end of the *BigText* variable.  
   
 ## Remarks  
  *Variable* can be inserted anywhere in *BigText* or added at the end of the *BigText*.  

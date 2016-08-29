@@ -29,14 +29,14 @@ This topic provides information about the features of the [!INCLUDE[nav_web](inc
   
 |To do this|Press|  
 |----------------|-----------|  
-|To move focus to the next or previous control or element on a page, such as buttons, fields, or items in a list.|Tab, Shift\+Tab|  
+|To move focus to the next or previous control or element on a page, such as buttons, fields, or items in a list.|Tab, Shift+Tab|  
 |To enable or access the element or control that is in focus.|Enter|  
 |To scroll items up and down in a list.|Up Arrow, Down Arrow|  
 |To scroll columns of an item left and right in a list.|Left Arrow, Right Arrow|  
-|To open a drop\-down list or look up a value for a field.|Alt\+Down Arrow|  
+|To open a drop-down list or look up a value for a field.|Alt+Down Arrow|  
   
 ##  <a name="Navigation"></a> Navigation  
- You can navigate between the tabs and actions in the ribbon, elements in the navigation pane, and other controls on [!INCLUDE[navnow](includes/navnow_md.md)] pages and reports using the keyboard. To move the focus from one tab, action, or control to another, press the Tab key to move forward. Press Shift\+Tab to move backward.  
+ You can navigate between the tabs and actions in the ribbon, elements in the navigation pane, and other controls on [!INCLUDE[navnow](includes/navnow_md.md)] pages and reports using the keyboard. To move the focus from one tab, action, or control to another, press the Tab key to move forward. Press Shift+Tab to move backward.  
   
  By using the tab order, you can also switch between the main browser window and dialog boxes that request confirmation, for example, or the login window.  
   

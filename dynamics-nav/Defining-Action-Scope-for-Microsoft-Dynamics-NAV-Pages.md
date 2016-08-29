@@ -14,7 +14,7 @@ manager: edupont
 # Defining Action Scope for Microsoft Dynamics NAV Pages
 When developing pages for [!INCLUDE[navnow](includes/navnow_md.md)] that include a repeater control, it is useful to be able to define whether the actions available on a page apply to the whole page or are related to the repeater control on the page.  
   
- The purpose of the **Scope** property is to enable developers to add row\-specific actions to the shortcut menu which is available to the user on each line. This gives users a more direct way to invoke actions that relate to the selected row or line.  
+ The purpose of the **Scope** property is to enable developers to add row-specific actions to the shortcut menu which is available to the user on each line. This gives users a more direct way to invoke actions that relate to the selected row or line.  
   
  This is the case when you have, for example, **Line Comments** which are related to a line, but appear in the ribbon. You can specify the scope of the action by setting the **Scope** property on the page action to be either **Page** or **Repeater**.  
   

@@ -11,7 +11,7 @@ ms.assetid: e54c1bbb-2070-40cb-b633-4be7738cd3d6
 caps.latest.revision: 13
 ---
 # Enabled Property-duplicate
-Sets a value that indicates whether a field or key is enabled or disabled, or whether a control can respond to user\-generated events.  
+Sets a value that indicates whether a field or key is enabled or disabled, or whether a control can respond to user-generated events.  
   
 ## Applies To  
   

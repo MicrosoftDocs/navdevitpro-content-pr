@@ -26,7 +26,7 @@ This topic describes the layout and behavior of fields in a FixedLayout control 
  It is important to notice that there are no captions for the fields.  
   
 ## Grouping Fields in a Fixed Layout Control  
- By placing the fields in a FixedLayout control throughout a group control, you can define separate rows and columns to create a matrix\-like arrangement. The following illustration shows a Page Designer example that adds four fields of the FixedLayout control in a group control.  
+ By placing the fields in a FixedLayout control throughout a group control, you can define separate rows and columns to create a matrix-like arrangement. The following illustration shows a Page Designer example that adds four fields of the FixedLayout control in a group control.  
   
  ![FixedLayout with grouping in Page Designer](media/NAVRTCFixedLayoutPageDesignerGrouping.PNG "NAVRTCFixedLayoutPageDesignerGrouping")  
   
@@ -51,7 +51,7 @@ This topic describes the layout and behavior of fields in a FixedLayout control 
 >  The fields in the FixedLayout controls in the illustration are not in a group control. If they were in a group control, then they would follow the same principle as described in the previous section about how to group fields.  
   
 ## Editing Fields in a Fixed Layout  
- Fields in a fixed layout are not editable even if the [Editable Property\-duplicate](Editable-Property-duplicate.md) property is set to **TRUE**. However, if the field drills down to a page where the field source is defined, then you can modify the field.  
+ Fields in a fixed layout are not editable even if the [Editable Property-duplicate](Editable-Property-duplicate.md) property is set to **TRUE**. However, if the field drills down to a page where the field source is defined, then you can modify the field.  
   
 ## See Also  
  [How to: Arrange Page Fields in Rows and Columns Using a FixedLayout Control](How%20to:%20Arrange%20Page%20Fields%20in%20Rows%20and%20Columns%20Using%20a%20FixedLayout%20Control.md)   

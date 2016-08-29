@@ -21,7 +21,7 @@ Microsoft is committed to making its products and services easier for everyone t
  [!INCLUDE[navnow](includes/navnow_md.md)] supports various assistive technologies such as screen readers and voice recognition software.  
   
 ## Ribbon  
- With the introduction of the ribbon in [!INCLUDE[navnow](includes/navnow_md.md)], the navigation through menus and actions has now become easier using the keyboard. Use the F6 key to navigate through the different frames in [!INCLUDE[navnow](includes/navnow_md.md)]; use Shift\+F6 to navigate backwards. To display all the access keys in the ribbon, press the Alt key.  
+ With the introduction of the ribbon in [!INCLUDE[navnow](includes/navnow_md.md)], the navigation through menus and actions has now become easier using the keyboard. Use the F6 key to navigate through the different frames in [!INCLUDE[navnow](includes/navnow_md.md)]; use Shift+F6 to navigate backwards. To display all the access keys in the ribbon, press the Alt key.  
   
 ## Help  
  [!INCLUDE[navnow](includes/navnow_md.md)] Help offers features that make help more accessible. For more information, see [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=262160).  

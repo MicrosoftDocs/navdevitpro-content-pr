@@ -35,7 +35,7 @@ Saves the resulting dataset of a query as an .xml file.
  *Number*  
  Type: Integer  
   
- The ID of the query object that you want to save as an .xml file. On the **View** menu, choose **C/AL Symbol Menu** to select the query from a list. If the query that you specify does not exist, then a run\-time error occurs.  
+ The ID of the query object that you want to save as an .xml file. On the **View** menu, choose **C/AL Symbol Menu** to select the query from a list. If the query that you specify does not exist, then a run-time error occurs.  
   
  *FileName*  
  Type: Text  
@@ -47,7 +47,7 @@ Saves the resulting dataset of a query as an .xml file.
   
  **true** if the query dataset was saved; otherwise, **false**.  
   
- If you omit this optional return value and if the query cannot be saved as an .xml file, then a run\-time error occurs that states that the query cannot be saved. If you include a return value, then it is assumed that you will handle any errors and no run\-time error occurs, even though the query is not saved as an .xml file.  
+ If you omit this optional return value and if the query cannot be saved as an .xml file, then a run-time error occurs that states that the query cannot be saved. If you include a return value, then it is assumed that you will handle any errors and no run-time error occurs, even though the query is not saved as an .xml file.  
   
 ## Remarks  
  When the **SAVEASXML** function is called, the dataset is generated and then saved in XML format in the file and location that is designated by the *FileName* parameter.  

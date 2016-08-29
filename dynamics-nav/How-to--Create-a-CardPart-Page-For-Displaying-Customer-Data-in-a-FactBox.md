@@ -22,7 +22,7 @@ A FactBox displays additional information to the user in a pane located on the r
   
 -   Chart part  
   
- For example, on the customer list page you can see four FactBoxes: Customer Sales History \- Sell\-to Customer, Customer Statistics \- Bill\-to Customer, Links, and Notes. The first two are page parts based on existing pages. Links and Notes are system parts that are predefined. Other available system parts are Outlook, MyNotes, and Record Links.  
+ For example, on the customer list page you can see four FactBoxes: Customer Sales History - Sell-to Customer, Customer Statistics - Bill-to Customer, Links, and Notes. The first two are page parts based on existing pages. Links and Notes are system parts that are predefined. Other available system parts are Outlook, MyNotes, and Record Links.  
   
  FactBoxes can be used with the following page types:  
   

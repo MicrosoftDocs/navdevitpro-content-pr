@@ -16,7 +16,7 @@ You can activate the debugger at the command prompt. After you activate the debu
   
 ### To activate the debugger at the command prompt  
   
-1.  At the command prompt, locate the [!INCLUDE[rtc](includes/rtc_md.md)] directory. The default location on a 32\-bit computer is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\RoleTailored Client. The default location on a 64\-bit computer is [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client.  
+1.  At the command prompt, locate the [!INCLUDE[rtc](includes/rtc_md.md)] directory. The default location on a 32-bit computer is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\RoleTailored Client. The default location on a 64-bit computer is [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client.  
   
 2.  Enter the following command:  
   

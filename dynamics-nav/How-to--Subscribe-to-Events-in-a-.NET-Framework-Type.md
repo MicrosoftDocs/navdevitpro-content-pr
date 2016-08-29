@@ -81,7 +81,7 @@ With .NET Framework interoperability in [!INCLUDE[navnow](includes/navnow_md.md)
   
 3.  Build the project.  
   
-4.  Copy the MyEvent.dll file to the computer that is running the [!INCLUDE[navnow](includes/navnow_md.md)] development environment. You must copy the assembly to the Add\-ins folder of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)] installation folders. The default path of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] installation folder is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\RoleTailored Client or [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]RoleTailored Client. The default path of the [!INCLUDE[nav_server](includes/nav_server_md.md)] installation folder is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service.  
+4.  Copy the MyEvent.dll file to the computer that is running the [!INCLUDE[navnow](includes/navnow_md.md)] development environment. You must copy the assembly to the Add-ins folder of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)] installation folders. The default path of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] installation folder is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\RoleTailored Client or [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]RoleTailored Client. The default path of the [!INCLUDE[nav_server](includes/nav_server_md.md)] installation folder is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service.  
   
 #### To subscribe to the event in C/AL  
   
@@ -134,4 +134,4 @@ With .NET Framework interoperability in [!INCLUDE[navnow](includes/navnow_md.md)
 ## See Also  
  [Handling Events with Microsoft .NET Framework Interoperability](Handling-Events-with-Microsoft-.NET-Framework-Interoperability.md)   
  [Extending Microsoft Dynamics NAV Using Microsoft .NET Framework Interoperability](Extending-Microsoft-Dynamics-NAV-Using-Microsoft-.NET-Framework-Interoperability.md)   
- [Calling .NET Framework Members from C\-AL](Calling-.NET-Framework-Members-from-C-AL.md)
+ [Calling .NET Framework Members from C-AL](Calling-.NET-Framework-Members-from-C-AL.md)

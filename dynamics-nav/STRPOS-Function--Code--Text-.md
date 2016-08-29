@@ -32,7 +32,7 @@ Position := STRPOS(String, SubString)
   
  The substring for which you want to search.  
   
- The STRPOS function is case\-sensitive.  
+ The STRPOS function is case-sensitive.  
   
 ## Property Value/Return Value  
  Type: Integer  

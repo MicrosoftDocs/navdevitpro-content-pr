@@ -21,7 +21,7 @@ You can export one or more application objects to one of the following formats:
  You can export objects either by using the development environment UI or by running finsql.exe with the ExportObjects command.  
   
 > [!NOTE]  
->  To export objects to .txt format, you must have a developer license. To export objects to .fob format, you can have either an end\-user license or a developer license.  
+>  To export objects to .txt format, you must have a developer license. To export objects to .fob format, you can have either an end-user license or a developer license.  
   
 ### To export objects by using the development environment UI  
   

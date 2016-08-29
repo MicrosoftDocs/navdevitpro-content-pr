@@ -46,7 +46,7 @@ Record.TRANSFERFIELDS(FromRecord [, InitPrimaryKeyFields])
 ## Remarks  
  **TRANSFERFIELDS** copies fields based on the [Field No. Property](Field-No.-Property.md) of the fields. For each field in *Record* \(the destination\), the contents of the field that has the same Field No. in *FromRecord* \(the source\) will be copied, if such a field exists.  
   
- The fields must have the same data type for the copying to succeed \(text and code are convertible, other types are not.\) There must be room for the actual length of the contents of the field to be copied in the field to which it is to be copied. If any one of these conditions are not fulfilled, a run\-time error will occur.  
+ The fields must have the same data type for the copying to succeed \(text and code are convertible, other types are not.\) There must be room for the actual length of the contents of the field to be copied in the field to which it is to be copied. If any one of these conditions are not fulfilled, a run-time error will occur.  
   
 ## Example  
  This example shows how to use the **TRANSFERFIELDS** function together with a BLOB field. If you are copying a record that contains a BLOB field, then you must calculate the BLOB field before it can be copied with the rest of the record. This example requires that you create the following variables in the **C/AL Globals** window.  

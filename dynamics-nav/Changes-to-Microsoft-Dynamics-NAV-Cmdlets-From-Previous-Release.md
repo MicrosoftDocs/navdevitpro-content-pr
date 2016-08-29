@@ -31,7 +31,7 @@ The following sections provide an overview of the new, changed, and removed cmdl
   
 |Cmdlet|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |------------|---------------------------------------|  
-|[Mount\-NAVTenant](http://go.microsoft.com/fwlink/?LinkID=401372)|*ExchangeAuthenticationMetadataLocation* parameter added.|  
+|[Mount-NAVTenant](http://go.microsoft.com/fwlink/?LinkID=401372)|*ExchangeAuthenticationMetadataLocation* parameter added.|  
   
 ### Removed Cmdlets  
  The following table includes the removed cmdlets in the current release.  

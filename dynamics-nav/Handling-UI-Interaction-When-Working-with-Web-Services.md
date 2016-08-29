@@ -49,7 +49,7 @@ Whether you are publishing or consuming web services, exceptions and dialog boxe
   
 -   FILE.DOWNLOAD  
   
- You should also avoid operations on client\-side Automation and .NET Framework interoperability objects.  
+ You should also avoid operations on client-side Automation and .NET Framework interoperability objects.  
   
 ## Consuming Web Services  
  You must handle exceptions in client code that calls a [!INCLUDE[navnow](includes/navnow_md.md)] web service. Appropriate exception capturing code should be included around any call to a [!INCLUDE[navnow](includes/navnow_md.md)] web service.  

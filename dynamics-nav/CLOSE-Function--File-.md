@@ -27,7 +27,7 @@ File.CLOSE
  Specifies the file.  
   
 ## Remarks  
- If the file is not open, a run\-time error will occur.  
+ If the file is not open, a run-time error will occur.  
   
 ## Example  
  The following example determines whether the specified file exists. If it exists, the [WRITEMODE Function \(File\)](WRITEMODE-Function--File-.md) allows the file to be open for writing. The [OPEN Function \(File\)](OPEN-Function--File-.md) opens the file, the [WRITE Function \(File\)](WRITE-Function--File-.md) writes the text “Hello World” to the file, and then the CLOSE function closes the file. If the file does not exist, an error message is displayed. This example requires that you create the following variables in the **C/AL Globals** window. This example assumes that you have created the following file C:\\TestFolder\\TestFile2.txt.  

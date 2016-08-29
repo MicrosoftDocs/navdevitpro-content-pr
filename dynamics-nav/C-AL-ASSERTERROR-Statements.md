@@ -45,4 +45,4 @@ IF GETLASTERRORTEXT <> InvalidDateErrorMessage THEN
 ## See Also  
  [Testing the Application](Testing-the-Application.md)   
  [How to: Create Test Codeunits and Test Functions](How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md)   
- [C\-AL Reserved Words](C-AL-Reserved-Words.md)
+ [C-AL Reserved Words](C-AL-Reserved-Words.md)

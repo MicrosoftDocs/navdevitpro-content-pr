@@ -12,7 +12,7 @@ caps.latest.revision: 11
 manager: edupont
 ---
 # OnInit Trigger
-Initializes the user\-defined variables on the page.  
+Initializes the user-defined variables on the page.  
   
 ## Applies To  
  Pages  
@@ -23,7 +23,7 @@ Initializes the user\-defined variables on the page.
  After this trigger is executed, the [OnOpenPage Trigger](OnOpenPage-Trigger.md) for pages is called. If an error occurs in the trigger code, then the page is closed.  
   
 > [!NOTE]  
->  The OnInit trigger does not support calls to control add\-in methods and properties because the trigger is invoked before the page is instantiated. For more information see, [Exposing Methods and Properties in a Windows Client Control Add\-in](Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md).  
+>  The OnInit trigger does not support calls to control add-in methods and properties because the trigger is invoked before the page is instantiated. For more information see, [Exposing Methods and Properties in a Windows Client Control Add-in](Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md).  
   
 ## See Also  
  [Triggers](Triggers.md)

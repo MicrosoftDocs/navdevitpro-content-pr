@@ -11,16 +11,16 @@ ms.assetid: ea74bd60-14a4-4ae0-bd56-9ee23fd32edd
 caps.latest.revision: 46
 ---
 # Walkthrough: Setting Up Outlook Synchronization
-You can synchronize data, such as to\-dos, contacts, and tasks, between [!INCLUDE[navnow](includes/navnow_md.md)] and Microsoft Outlook. This allows users who rarely connect to [!INCLUDE[navnow](includes/navnow_md.md)], such as salespeople who frequently work away from the office, to keep their data synchronized. For example, a sales manager can set a meeting for a salesperson as a to\-do in [!INCLUDE[navnow](includes/navnow_md.md)]. That salesperson can then view or modify the meeting in Outlook. A salesperson can also add a new contact in Outlook. That contact is then added to the company's [!INCLUDE[navnow](includes/navnow_md.md)] database.  
+You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE[navnow](includes/navnow_md.md)] and Microsoft Outlook. This allows users who rarely connect to [!INCLUDE[navnow](includes/navnow_md.md)], such as salespeople who frequently work away from the office, to keep their data synchronized. For example, a sales manager can set a meeting for a salesperson as a to-do in [!INCLUDE[navnow](includes/navnow_md.md)]. That salesperson can then view or modify the meeting in Outlook. A salesperson can also add a new contact in Outlook. That contact is then added to the company's [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
  You define the mapping between [!INCLUDE[navnow](includes/navnow_md.md)] entities and Outlook items in [!INCLUDE[navnow](includes/navnow_md.md)]. You then specify the entities that users synchronize.  
   
- The Microsoft Outlook Add\-In for [!INCLUDE[navnow](includes/navnow_md.md)] is required to set up and use synchronization. Outlook must be set up and configured for users before you install the add\-in. If it is not, then the add\-in may not display correctly. You must also set up a web service.  
+ The Microsoft Outlook Add-In for [!INCLUDE[navnow](includes/navnow_md.md)] is required to set up and use synchronization. Outlook must be set up and configured for users before you install the add-in. If it is not, then the add-in may not display correctly. You must also set up a web service.  
   
 ## About This Walkthrough  
  This walkthrough illustrates the following tasks:  
   
--   Setting up [!INCLUDE[navnow](includes/navnow_md.md)] synchronization in a multiple\-user environment.  
+-   Setting up [!INCLUDE[navnow](includes/navnow_md.md)] synchronization in a multiple-user environment.  
   
 -   Configuring [!INCLUDE[navnow](includes/navnow_md.md)] for Outlook synchronization.  
   
@@ -50,22 +50,22 @@ You can synchronize data, such as to\-dos, contacts, and tasks, between [!INCLUD
 ### Prerequisites  
  To complete this walkthrough, you will need:  
   
--   Microsoft Outlook 2013 or Microsoft Outlook 2010 installed and configured for you as a user on a client machine. Outlook integration requires the 32\-bit version of Outlook.  
+-   Microsoft Outlook 2013 or Microsoft Outlook 2010 installed and configured for you as a user on a client machine. Outlook integration requires the 32-bit version of Outlook.  
   
 -   Microsoft Office Outlook Integration, installed on the [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
--   Microsoft Office Outlook Add\-in, installed with the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
+-   Microsoft Office Outlook Add-in, installed with the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
  For more information, see [How to: Choose Components to Install](How%20to:%20Choose%20Components%20to%20Install.md) and [System Requirements for Microsoft Dynamics NAV 2016](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md).  
   
 ## Setting Up Synchronization for a Single User on a Single Computer  
- This walkthrough describes how to set up and use the Outlook add\-in for a single user on a single computer. You can also set up and use the Outlook add\-in for multiple users on a single computer, using tools such as Terminal Services. You should follow these steps before you use the Outlook add\-in in this environment.  
+ This walkthrough describes how to set up and use the Outlook add-in for a single user on a single computer. You can also set up and use the Outlook add-in for multiple users on a single computer, using tools such as Terminal Services. You should follow these steps before you use the Outlook add-in in this environment.  
   
-1.  Ensure that Outlook is correctly installed and configured for all users who need the add\-in.  
+1.  Ensure that Outlook is correctly installed and configured for all users who need the add-in.  
   
-2.  Install the Outlook add\-in from the [!INCLUDE[navnow](includes/navnow_md.md)] product media and make sure that the installation is for all users.  
+2.  Install the Outlook add-in from the [!INCLUDE[navnow](includes/navnow_md.md)] product media and make sure that the installation is for all users.  
   
- For best results, install [!INCLUDE[navnowlong](includes/navnowlong_md.md)] and the Outlook add\-in on a machine that has not previously had [!INCLUDE[navnow](includes/navnow_md.md)] installed and then uninstalled on it.  
+ For best results, install [!INCLUDE[navnowlong](includes/navnowlong_md.md)] and the Outlook add-in on a machine that has not previously had [!INCLUDE[navnow](includes/navnow_md.md)] installed and then uninstalled on it.  
   
 ## Configuring Microsoft Dynamics NAV for Outlook Synchronization  
  In this walkthrough, before you set up synchronization, make sure that the correct permissions are set up.  
@@ -97,10 +97,10 @@ You can synchronize data, such as to\-dos, contacts, and tasks, between [!INCLUD
     |---------------------------------|---------------------------------------|  
     |**\($ T\_13\_1 Code $\)**|Your initials.|  
     |**\($ T\_13\_2 Name $\)**|Your name as defined in your Outlook profile.|  
-    |**\($ T\_13\_5052 E\-mail $\)**|Your email address as defined in your Outlook profile.|  
+    |**\($ T\_13\_5052 E-mail $\)**|Your email address as defined in your Outlook profile.|  
   
 ## Mapping Microsoft Dynamics NAV Entities to Outlook Items  
- You start synchronization setup by identifying the [!INCLUDE[navnow](includes/navnow_md.md)] objects to synchronize. When you open the **\($ N\_5302 Outlook Synch. Entities $\)** window for the first time, you may receive a message that asks for permission to connect to a .dll file that is installed with the Outlook add\-in. You should choose the option that lets you connect: Allow for this session.  
+ You start synchronization setup by identifying the [!INCLUDE[navnow](includes/navnow_md.md)] objects to synchronize. When you open the **\($ N\_5302 Outlook Synch. Entities $\)** window for the first time, you may receive a message that asks for permission to connect to a .dll file that is installed with the Outlook add-in. You should choose the option that lets you connect: Allow for this session.  
   
  For this walkthrough, you can use the synchronization entities that come with [!INCLUDE[navnow](includes/navnow_md.md)] by default. But you can also customize and add entities. For more information, see [How to: Set Up Outlook Synchronization Entities](How%20to:%20Set%20Up%20Outlook%20Synchronization%20Entities.md) and [Define Synchronization with Outlook Items](Define%20Synchronization%20with%20Outlook%20Items.md).  
   
@@ -114,11 +114,11 @@ You can synchronize data, such as to\-dos, contacts, and tasks, between [!INCLUD
   
     |[!INCLUDE[navnow](includes/navnow_md.md)] entity code|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|Outlook items|  
     |--------------------------------------|---------------------------------------|-------------------|  
-    |APP|To\-do type: Meeting|Meetings|  
+    |APP|To-do type: Meeting|Meetings|  
     |CONT\_COMP|Contacts: Company|Contacts|  
     |CONT\_PERS|Contacts: Person|Contacts|  
     |CONT\_SP|Contacts: Salesperson|Contacts|  
-    |TASK|To\-do type: Blank or Phone|Tasks|  
+    |TASK|To-do type: Blank or Phone|Tasks|  
   
  After you have set up entities to synchronize with Outlook items, you assign a user to the entity that the user wants to synchronize. In the following procedure, you assign yourself as the user who is associated with the default entities.  
   
@@ -220,7 +220,7 @@ You can synchronize data, such as to\-dos, contacts, and tasks, between [!INCLUD
 4.  Choose the **DynamicsNAVsynchOutlook** service, and then select the **\($ T\_2000000076\_12 Published $\)** check box.  
   
 ## Configuring Synchronization in Outlook  
- You can now start Outlook. By default, the [!INCLUDE[navnow](includes/navnow_md.md)] Synchronization items are on the **Add\-ins** tab.  
+ You can now start Outlook. By default, the [!INCLUDE[navnow](includes/navnow_md.md)] Synchronization items are on the **Add-ins** tab.  
   
  The following table describes the items on the Synchronization toolbar.  
   
@@ -239,7 +239,7 @@ You can synchronize data, such as to\-dos, contacts, and tasks, between [!INCLUD
   
 ##### To set rules for synchronization  
   
-1.  In Outlook, on the **Add\-ins**  tab, choose **Settings**. The **Settings** dialog box opens.  
+1.  In Outlook, on the **Add-ins**  tab, choose **Settings**. The **Settings** dialog box opens.  
   
 2.  On the **General** tab, select **Show synchronization progress** and **Show synchronization summary**.  
   
@@ -268,7 +268,7 @@ You can synchronize data, such as to\-dos, contacts, and tasks, between [!INCLUD
   
      On premises \(default\): http:\/\/localhost:7047\/DynamicsNAV71\/WS\/Codeunit\/DynamicsNAVsynchOutlook  
   
-     \-or\-  
+     -or-  
   
      Azure: https:\/\/\<cloud NST URL\>:7047\/DynamicsNAV71\/WS\/Codeunit\/DynamicsNAVsynchOutlook  
   
@@ -276,7 +276,7 @@ You can synchronize data, such as to\-dos, contacts, and tasks, between [!INCLUD
   
      On premises: Basic or Windows  
   
-     \-or\-  
+     -or-  
   
      Azure: Basic  
   
@@ -288,7 +288,7 @@ You can synchronize data, such as to\-dos, contacts, and tasks, between [!INCLUD
   
 6.  Choose the **Test Connection** button.  
   
-     If your connection succeeds, then you receive a confirmation message. Choose the **OK** button. The red X is cleared from the **Connection State** button in the **Add\-ins** tab. If your connection does not succeed, then you receive an error message. To resolve the error, stop and start the web service again.  
+     If your connection succeeds, then you receive a confirmation message. Choose the **OK** button. The red X is cleared from the **Connection State** button in the **Add-ins** tab. If your connection does not succeed, then you receive an error message. To resolve the error, stop and start the web service again.  
   
 ### Defining Synchronization Folders  
  Each [!INCLUDE[navnow](includes/navnow_md.md)] entity must be mapped to folders that you create for synchronization in Outlook. The folders must map to the entity type. For contacts, the folder must be created in Outlook Contacts. For tasks, the folder must be created in Outlook Tasks. If you create a new entity, then you set the Outlook item that the entity maps to. You can verify what Outlook item that you have set by selecting the entity in the **Outlook Synch. Entities** window in [!INCLUDE[navnow](includes/navnow_md.md)].  

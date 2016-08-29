@@ -38,7 +38,7 @@ A user has been added to the database with the following credentials:
   
      Substitute *virtualmachine* with the name of the virtual machine that in running the [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
-     Substitute *port* with the TCP port on which ClickOnce website is running. In the Set\-PartnerSettings.ps1 file, this is defined by the $NAV\_ClickOnceWebSitePort parameter. The default port is 9004  
+     Substitute *port* with the TCP port on which ClickOnce website is running. In the Set-PartnerSettings.ps1 file, this is defined by the $NAV\_ClickOnceWebSitePort parameter. The default port is 9004  
   
 3.  Follow the instructions on the webpage to install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
@@ -54,6 +54,6 @@ A user has been added to the database with the following credentials:
   
 ## See Also  
  [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
- [Deploying Microsoft Dynamics NAV on Two Virtual Machines Using Example\-2VM Script](Deploying-Microsoft-Dynamics-NAV-on-Two-Virtual-Machines-Using-Example-2VM-Script.md)   
- [Deploying Microsoft Dynamics NAV on One Virtual Machine Using Example\-1VM Script](Deploying-Microsoft-Dynamics-NAV-on-One-Virtual-Machine-Using-Example-1VM-Script.md)   
+ [Deploying Microsoft Dynamics NAV on Two Virtual Machines Using Example-2VM Script](Deploying-Microsoft-Dynamics-NAV-on-Two-Virtual-Machines-Using-Example-2VM-Script.md)   
+ [Deploying Microsoft Dynamics NAV on One Virtual Machine Using Example-1VM Script](Deploying-Microsoft-Dynamics-NAV-on-One-Virtual-Machine-Using-Example-1VM-Script.md)   
  [Scaling the Microsoft Dynamics NAV Network Topology](Scaling-the-Microsoft-Dynamics-NAV-Network-Topology.md)

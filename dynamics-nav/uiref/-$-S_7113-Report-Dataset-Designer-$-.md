@@ -27,4 +27,4 @@ Designs the dataset of a report.
 |**Include Caption**|Includes the caption of a field in the dataset when the check box of a Column data type is selected. For more information about how to include captions, see [IncludeCaption Property](../IncludeCaption-Property.md).|  
 
 ## See Also  
- [Reports\-duplicate 20](../Reports-duplicate-20.md)
+ [Reports-duplicate 20](../Reports-duplicate-20.md)

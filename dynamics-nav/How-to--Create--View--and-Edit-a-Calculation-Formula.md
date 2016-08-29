@@ -30,7 +30,7 @@ The following procedure describes the steps to take to create and revise a calcu
   
      ![Calculation Forumla window](media/NAV_ADG_6_Table_17.gif "NAV\_ADG\_6\_Table\_17")  
   
-6.  Choose the drop\-down button to select the appropriate calculation method.  
+6.  Choose the drop-down button to select the appropriate calculation method.  
   
 7.  Select the **Reverse Sign** option to reverse the sign of the result \(only for **Sum** and **Average**\).  
   

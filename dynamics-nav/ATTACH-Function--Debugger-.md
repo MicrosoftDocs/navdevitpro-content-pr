@@ -45,7 +45,7 @@ Activates the debugger and attaches it to the specified session.
   
  **true** if the debugger is attached to a session; otherwise, **false**.  
   
- If you omit this optional return value and if the break is not set successfully, then a run\-time error occurs. If you include the return value, then you must handle any errors.  
+ If you omit this optional return value and if the break is not set successfully, then a run-time error occurs. If you include the return value, then you must handle any errors.  
   
 ## Remarks  
  The **ATTACH** function behaves like the **Debug** action on the **Sessions** page.  

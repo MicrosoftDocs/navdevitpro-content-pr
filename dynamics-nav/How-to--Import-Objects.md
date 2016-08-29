@@ -21,7 +21,7 @@ You can import application objects into the database from a file. The file must 
  You can import objects either by using the development environment UI or by running finsql.exe with the ImportObjects command.  
   
 > [!NOTE]  
->  To import objects from .txt format, you must have a developer license. To import objects from .fob format, you can have either an end\-user license or a developer license.  
+>  To import objects from .txt format, you must have a developer license. To import objects from .fob format, you can have either an end-user license or a developer license.  
   
 ### To import objects by using the development environment UI  
   

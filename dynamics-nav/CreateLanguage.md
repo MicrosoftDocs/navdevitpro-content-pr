@@ -23,7 +23,7 @@ finsql.exe command=createlanguage, langid=<langid>, [servername=<server>,] [data
 #### Parameters  
  *langid*  
   
- Specifies the standard Windows three\-letter ID of the language that you want to add captions for.  
+ Specifies the standard Windows three-letter ID of the language that you want to add captions for.  
   
  *servername*  
   
@@ -100,7 +100,7 @@ finsql.exe command=createlanguage, langid=<langid>, [servername=<server>,] [data
  Specifies if you want to use NT authentication. The possible values are **yes**, **no**, **1**, or **0**. If you specify the *username* and *password* parameters, then you must specify **ntauthentication=no** or **ntauthentication=0**.  
   
 ## Remarks  
- The CreateLanguage command adds a language caption entry in the [CaptionML Property](CaptionML-Property.md) of the controls in the objects that you specify. By default, the caption is the same value as the [Name Property\-duplicate](Name-Property-duplicate.md) of the control.  
+ The CreateLanguage command adds a language caption entry in the [CaptionML Property](CaptionML-Property.md) of the controls in the objects that you specify. By default, the caption is the same value as the [Name Property-duplicate](Name-Property-duplicate.md) of the control.  
   
 > [!NOTE]  
 >  After you run the command, you must to compile the modified objects. For more information, see [Compiling Objects](Compiling-Objects.md).  

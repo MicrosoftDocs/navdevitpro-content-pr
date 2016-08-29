@@ -32,7 +32,7 @@ You can customize the list of components to install or configure settings for in
      You now return to the **Specify parameters** page, where you can continue with installing software. You can also close Setup if you only have to create a Setup configuration file.  
   
 ## Loading a Setup Configuration File  
- The option to load a Setup configuration file is on the **Choose an installation option** page in [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] Setup. This option is also available with a command\-line install. For more information, see [Running Setup on the Command Line](Running-Setup-on-the-Command-Line.md).  
+ The option to load a Setup configuration file is on the **Choose an installation option** page in [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] Setup. This option is also available with a command-line install. For more information, see [Running Setup on the Command Line](Running-Setup-on-the-Command-Line.md).  
   
 > [!IMPORTANT]  
 >  A Setup configuration file contains information about which components to install and which settings to apply to each component. Therefore, you should not customize the list of components or configure components in Setup before you load a Setup configuration file because loading the configuration overwrites all prior customization and configuration.  
@@ -43,7 +43,7 @@ You can customize the list of components to install or configure settings for in
   
      This option is located under **Custom Components**.  
   
-2.  In the **Open** dialog box, select or browse to the Setup configuration file that you want to open, and then double\-click the file.  
+2.  In the **Open** dialog box, select or browse to the Setup configuration file that you want to open, and then double-click the file.  
   
      Setup now shows the **Customize the installation** page that has been modified according to the component selection in the loaded Setup configuration file.  
   

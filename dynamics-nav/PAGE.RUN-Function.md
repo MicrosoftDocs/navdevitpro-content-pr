@@ -27,7 +27,7 @@ PAGE.RUN(Number[, Record] [, Field])
   
  The number of the page that you want to run. If you enter zero \(0\), the system displays the default lookup window for the current page. Choose **View**, and then choose **C/AL Symbols Menu** to select the page from a list.  
   
- If the page you specify does not exist, a run\-time error occurs.  
+ If the page you specify does not exist, a run-time error occurs.  
   
  *Record*  
  Type: Record  

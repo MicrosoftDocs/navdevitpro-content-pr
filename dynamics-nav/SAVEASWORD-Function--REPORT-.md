@@ -27,7 +27,7 @@ Saves a report on the computer that is running [!INCLUDE[nav_server](includes/na
   
  The ID of the report that you want to run. From the C/AL Editor, on the **View** menu, choose **C/AL Symbol Menu** to select the report from a list.  
   
- If the report you specify does not exist, then a run\-time error occurs.  
+ If the report you specify does not exist, then a run-time error occurs.  
   
  *FileName*  
  Type: Text  
@@ -47,7 +47,7 @@ Saves a report on the computer that is running [!INCLUDE[nav_server](includes/na
   
  **true** if the report was saved; otherwise, **false**.  
   
- If you omit this optional return value, then run\-time errors can occur. If you include a return value, then it is assumed that you will handle any errors.  
+ If you omit this optional return value, then run-time errors can occur. If you include a return value, then it is assumed that you will handle any errors.  
   
 ## Remarks  
  You can use the SAVEASWORD function on the global REPORT object or on Report variables. If, at design time, you do not know the specific report that you want to run, then use the global REPORT object and specify the report number in the *Number* parameter. If you do know which report you want to run, then create a Report variable, set the Subtype of the variable to a specific report, and use this variable when you call the SAVEASWORD function.  
@@ -64,7 +64,7 @@ Saves a report on the computer that is running [!INCLUDE[nav_server](includes/na
   
  If the [!INCLUDE[nav_server](includes/nav_server_md.md)] process does not have permission to write to the file that you specify in *FileName*, then you get the following error:  
   
- **Either the caller does not have the required permission or the specified path is read\-only.**  
+ **Either the caller does not have the required permission or the specified path is read-only.**  
   
 ## Example  
  This example shows how to use the SAVEASWORD function to save the Word document on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] and then download the file to a different computer that is running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. It requires that you create the following variables.  

@@ -55,7 +55,7 @@ MESSAGE(Text000 + '%1', Str);
   
  **The filters are:**  
   
- **Posting Date: 01\/01\/08..12\/31\/08, Amount: \-100..100**  
+ **Posting Date: 01\/01\/08..12\/31\/08, Amount: -100..100**  
   
 ## Example  
  This example requires that you create the following variable in the C/AL Globals window.  

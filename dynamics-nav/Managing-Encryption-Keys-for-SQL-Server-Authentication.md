@@ -26,14 +26,14 @@ When using SQL Server authentication between the [!INCLUDE[nav_server](includes/
   
 |Cmdlet|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |------------|---------------------------------------|  
-|[T:Microsoft.Dynamics.Nav.Management.Cmdlets.Export\-NAVEncryptionKey](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.Export-NAVEncryptionKey)|Exports an encryption key from a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to a password protected file.|  
-|[T:Microsoft.Dynamics.Nav.Management.Cmdlets.Import\-NAVEncryptionKey](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.Import-NAVEncryptionKey)|Imports an encryption key from a password protected file to a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.|  
-|[T:Microsoft.Dynamics.Nav.Management.Cmdlets.New\-NAVEncryptionKey](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVEncryptionKey)|Create an encryption key in a password protected file.|  
+|[T:Microsoft.Dynamics.Nav.Management.Cmdlets.Export-NAVEncryptionKey](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.Export-NAVEncryptionKey)|Exports an encryption key from a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to a password protected file.|  
+|[T:Microsoft.Dynamics.Nav.Management.Cmdlets.Import-NAVEncryptionKey](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.Import-NAVEncryptionKey)|Imports an encryption key from a password protected file to a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.|  
+|[T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVEncryptionKey](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVEncryptionKey)|Create an encryption key in a password protected file.|  
   
  For more information about how to run the cmdlets, see [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md).  
   
 ## Changing the Current Encryption Key  
- If you want to change an encryption key that is currently used by a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and database to another encryption key that is contained in an encryption key file, use the Import\-NAVEncryptionkey cmdlet. Before you run the Import\-NAVEncryptionkey cmdlet, you must delete the encryption key that is stored on the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer.  
+ If you want to change an encryption key that is currently used by a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and database to another encryption key that is contained in an encryption key file, use the Import-NAVEncryptionkey cmdlet. Before you run the Import-NAVEncryptionkey cmdlet, you must delete the encryption key that is stored on the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer.  
   
 #### To change the encryption key that is used by the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance  
   
@@ -41,7 +41,7 @@ When using SQL Server authentication between the [!INCLUDE[nav_server](includes/
   
      The encryption key file has the name [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)].key and is stored in the *%systemroot%\\ProgramData\\Microsoft\\Microsoft Dynamics NAV\\90\\Server\\Keys* folder.  
   
-2.  In the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], run the Import\-NAVEncryptionkey cmdlet with the \-Force parameter set.  
+2.  In the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], run the Import-NAVEncryptionkey cmdlet with the -Force parameter set.  
   
     ```  
     Import-NAVEncryptionKey -ServerInstance [Server Instance] -KeyPath [Encryption key file path] - ApplicationDatabaseServer [Database server instance] -ApplicationDatabaseName [Database name] -Force  

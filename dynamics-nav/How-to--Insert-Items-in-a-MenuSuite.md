@@ -24,7 +24,7 @@ You can modify a **MenuSuite** by inserting existing items. If an item already e
   
 4.  In Navigation Pane Designer, choose the company you want to insert the item into.  
   
-5.  Right\-click the location in Navigation Pane Designer where you want to insert the item and then choose **Insert Items**.  
+5.  Right-click the location in Navigation Pane Designer where you want to insert the item and then choose **Insert Items**.  
   
 6.  In the **Insert Items** window, select **Insert** for each item that you want to insert, and then choose the **OK** button. This window lists all items that have already been created in Navigation Pane Designer.  
   

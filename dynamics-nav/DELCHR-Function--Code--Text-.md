@@ -53,7 +53,7 @@ NewString := DELCHR(String[, Where][, Which])
  The resulting string.  
   
 ## Remarks  
- The DELCHR function is case\-sensitive.  
+ The DELCHR function is case-sensitive.  
   
  If you omit the *Which* parameter, then the function deletes spaces from *String* based on the contents of the *Where* parameter as follows:  
   

@@ -14,7 +14,7 @@ manager: edupont
 # How to: Create and Delete a Table Description
 You can create different kinds of [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] table descriptions, depending on the **LinkedObject** and **LinkedInTransaction** table property values. You must be a member of the db\_owner fixed database role to create a table description.  
   
-### To create a non\-linked table  
+### To create a non-linked table  
   
 1.  Set the value of the **LinkedObject** property to **No**.  
   

@@ -22,7 +22,7 @@ You can configure a cue with a colored indicator that appears along its top bord
   
      This is the most typical behavior. When the data in the cue hits a specified value, the indicator changes color. There are 4 colors to choose from, which enables you to configure different colors for different data intervals. For more information, see [Configuring Conditional Color Indication on a Cue](How%20to:%20Set%20Up%20Colored%20Indicators%20on%20Cues%20by%20Using%20the%20Style%20and%20StyleExpr%20Property.md#ConditionColor).  
   
- You set up the indicator by using the [StyleExpr Property](StyleExpr-Property.md) and [Style Property\-duplicate](Style-Property-duplicate.md) for the field that defines the cue and, in most cases, by adding C/AL code to the page object.  
+ You set up the indicator by using the [StyleExpr Property](StyleExpr-Property.md) and [Style Property-duplicate](Style-Property-duplicate.md) for the field that defines the cue and, in most cases, by adding C/AL code to the page object.  
   
  The following table describes the values of the **Style** property and the corresponding indicator color. You will need to know these values for whichever behavior that you implement.  
   
@@ -59,7 +59,7 @@ You can configure a cue with a colored indicator that appears along its top bord
   
 1.  Add C/AL code that evaluates the cue field data and sets a Boolean variable to **True** when the data meets the conditions for which you want to apply the indicator.  
   
-     For example, page **9060 SO Processor Activities** in the [!INCLUDE[demolong](includes/demolong_md.md)] contains the cue field **"Sales Quotes \- Open"**. You want the indicator to turn red when the number of open sales quotes exceeds 10. To do this, you can add a variable called **ColorVar** that has the data type Boolean, and then add the following code to the **OnAfterGetRecord** trigger.  
+     For example, page **9060 SO Processor Activities** in the [!INCLUDE[demolong](includes/demolong_md.md)] contains the cue field **"Sales Quotes - Open"**. You want the indicator to turn red when the number of open sales quotes exceeds 10. To do this, you can add a variable called **ColorVar** that has the data type Boolean, and then add the following code to the **OnAfterGetRecord** trigger.  
   
     ```  
     IF ("Sales Quotes - Open" > 10) THEN  
@@ -78,7 +78,7 @@ You can configure a cue with a colored indicator that appears along its top bord
   
 1.  Add C/AL code that evaluates the cue field data and sets a Text or Codeunit variable to one of the following values for each condition that you want color indication: **Favorable**, **Unfavorable**, **Ambiguous**, and **Subordinate**. For the corresponding colors for these values, see the table in the introduction of this topic  
   
-     For example, page **9060 SO Processor Activities** in the [!INCLUDE[demolong](includes/demolong_md.md)] contains the cue field **"Sales Quotes \- Open"**. You want the indicator to have the following color conditions:  
+     For example, page **9060 SO Processor Activities** in the [!INCLUDE[demolong](includes/demolong_md.md)] contains the cue field **"Sales Quotes - Open"**. You want the indicator to have the following color conditions:  
   
     -   Green when the number of open sales quotes is 10 or less  
   
@@ -102,6 +102,6 @@ You can configure a cue with a colored indicator that appears along its top bord
      For the example in the step 1, you set the property to **ColorVar**.  
   
 ## See Also  
- [Style Property\-duplicate](Style-Property-duplicate.md)   
+ [Style Property-duplicate](Style-Property-duplicate.md)   
  [StyleExpr Property](StyleExpr-Property.md)   
  [IncludeInDataSet Property](IncludeInDataSet-Property.md)

@@ -12,7 +12,7 @@ caps.latest.revision: 2
 manager: edupont
 ---
 # How to. Specify the Default Built-in Report Layout
-You can specify whether a report uses a built\-in RDLC or Word report layout as the default layout.  
+You can specify whether a report uses a built-in RDLC or Word report layout as the default layout.  
   
 ### To specify the default report layout  
   
@@ -22,7 +22,7 @@ You can specify whether a report uses a built\-in RDLC or Word report layout as 
   
 3.  In Report Dataset Designer, select a blank row, and then on the **View** menu, choose **Properties**.  
   
-4.  In the **Report \- Properties** window, set the **DefaultLayout** property to **RDLC** or **Word**.  
+4.  In the **Report - Properties** window, set the **DefaultLayout** property to **RDLC** or **Word**.  
   
 5.  Save and compile the report.  
   

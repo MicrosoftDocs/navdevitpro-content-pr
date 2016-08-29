@@ -27,4 +27,4 @@ Users are given a database login when they have their own user ID and password i
 ## See Also  
  [Security and Protection](Security-and-Protection.md)   
  [Users and Credential Types](Users-and-Credential-Types.md)   
- [Company\-Level Security](Company-Level-Security.md)
+ [Company-Level Security](Company-Level-Security.md)

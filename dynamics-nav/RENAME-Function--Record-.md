@@ -37,7 +37,7 @@ Changes the value of a primary key in a table.
   
  **true** if the primary key was renamed; otherwise, **false**. If the record does not exist or if you do not have permission to write to the table, then **false** is returned.  
   
- If you omit this optional return value and if the record is not renamed, then a run\-time error occurs. If you include the return value, then you must handle any errors.  
+ If you omit this optional return value and if the record is not renamed, then a run-time error occurs. If you include the return value, then you must handle any errors.  
   
 ## Remarks  
  For example, you can use the **RENAME** function if you use the customer's telephone number as the customer number. You can use this function to change the customer number if the telephone number changes.  
@@ -58,17 +58,17 @@ Changes the value of a primary key in a table.
   
 -   Table 5766, **Warehouse Activity Header**  
   
-     If an end\-user modifies a record between the time that another end\-user or another process reads the record and modifies it, then the second user must refresh the value of the record variable before editing the record. Otherwise, the end\-user receives the following run\-time error:  
+     If an end-user modifies a record between the time that another end-user or another process reads the record and modifies it, then the second user must refresh the value of the record variable before editing the record. Otherwise, the end-user receives the following run-time error:  
   
      **Another user has modified the record for this \<Table Name\> after you retrieved it from the database.**  
   
      **Enter your changes again in the updated window, or start the interrupted activity again.**  
   
-     In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], certain situations allowed code that an end\-user runs to modify a record after a newer version of the record was written and committed to the database. This would overwrite the newer changes. However, in [!INCLUDE[navnowlong](includes/navnowlong_md.md)], we have restricted the [MODIFY Function \(Record\)](MODIFY-Function--Record-.md), **RENAME** Function \(Record\), and [DELETE Function \(Record\)](DELETE-Function--Record-.md) so that the end\-user retrieves the following run\-time error in these certain situations:  
+     In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], certain situations allowed code that an end-user runs to modify a record after a newer version of the record was written and committed to the database. This would overwrite the newer changes. However, in [!INCLUDE[navnowlong](includes/navnowlong_md.md)], we have restricted the [MODIFY Function \(Record\)](MODIFY-Function--Record-.md), **RENAME** Function \(Record\), and [DELETE Function \(Record\)](DELETE-Function--Record-.md) so that the end-user retrieves the following run-time error in these certain situations:  
   
      **Unable to change an earlier version of the \<Table Name\> record. The record should be read from the database again. This is a programming error.**  
   
-     You must design your application so that you use the most up\-to\-date version of the record for modifications to the database. You use the [GET Function \(Record\)](GET-Function--Record-.md) to refresh the record with the latest version. The second example illustrates this situation.  
+     You must design your application so that you use the most up-to-date version of the record for modifications to the database. You use the [GET Function \(Record\)](GET-Function--Record-.md) to refresh the record with the latest version. The second example illustrates this situation.  
   
  When a record is renamed, the change is written and committed to the database without calling the [OnModify Trigger](OnModify-Trigger.md). This is done because renaming a record changes the primary key and updates the primary key value in all related tables. Therefore, you should use the Rename function and Modify function on a record separately.  
   

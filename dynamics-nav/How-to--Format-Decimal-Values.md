@@ -22,7 +22,7 @@ When you create a client report definition \(RDLC\) layout for a report, a forma
   
 3.  On the **View** menu, choose **Layout**.  
   
-4.  In Visual Studio, in the report.rdlc file, right\-click the text box that displays a decimal value, and then choose **Text Box Properties**.  
+4.  In Visual Studio, in the report.rdlc file, right-click the text box that displays a decimal value, and then choose **Text Box Properties**.  
   
 5.  In the **Text Box Properties** window, choose the **Number** tab.  
   

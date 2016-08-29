@@ -18,7 +18,7 @@ This section describes how you can extend the functionality of [!INCLUDE[navnowl
 |-------------|-----------------|---------|  
 |Component Object Model \(COM\) technologies|You can extend the functionality by implementing automation and custom controls. The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] supports automation servers by acting as an automation controller and using OCXs \(custom controls\).<br /><br /> **NOTE:** COM is not supported by the [!INCLUDE[nav_web](includes/nav_web_md.md)].|[Extending Microsoft Dynamics NAV Using COM](Extending-Microsoft-Dynamics-NAV-Using-COM.md)|  
 |Microsoft .NET Framework interoperability|You can extend the [!INCLUDE[rtc](includes/rtc_md.md)]s and [!INCLUDE[nav_server](includes/nav_server_md.md)] with functionality that is available in Microsoft .NET Framework assemblies. You can take advantage of .NET Framework interoperability so that [!INCLUDE[navnow](includes/navnow_md.md)] objects can interact with the .NET Framework objects.|[Extending Microsoft Dynamics NAV Using Microsoft .NET Framework Interoperability](Extending-Microsoft-Dynamics-NAV-Using-Microsoft-.NET-Framework-Interoperability.md)|  
-|Control add\-ins|A control add\-in is a custom control, or visual element, for displaying and modifying data on pages in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. Control add\-ins are delivered as Microsoft .NET Framework–based assemblies. [!INCLUDE[navnow](includes/navnow_md.md)] includes the client extensibility API for creating your own control add\-ins.|[Extending the Windows Client Using Control Add\-ins](Extending-the-Windows-Client-Using-Control-Add-ins.md)|  
+|Control add-ins|A control add-in is a custom control, or visual element, for displaying and modifying data on pages in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. Control add-ins are delivered as Microsoft .NET Framework–based assemblies. [!INCLUDE[navnow](includes/navnow_md.md)] includes the client extensibility API for creating your own control add-ins.|[Extending the Windows Client Using Control Add-ins](Extending-the-Windows-Client-Using-Control-Add-ins.md)|  
 |NAV Apps|NAV Apps are a new way to extend and customize a [!INCLUDE[navnow](includes/navnow_md.md)] deployment without the need to directly modify source objects.|[Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)|  
   
 > [!NOTE]  
@@ -29,5 +29,5 @@ This section describes how you can extend the functionality of [!INCLUDE[navnowl
 ## See Also  
  [Extending Microsoft Dynamics NAV Using COM](Extending-Microsoft-Dynamics-NAV-Using-COM.md)   
  [Extending Microsoft Dynamics NAV Using Microsoft .NET Framework Interoperability](Extending-Microsoft-Dynamics-NAV-Using-Microsoft-.NET-Framework-Interoperability.md)   
- [Extending the Windows Client Using Control Add\-ins](Extending-the-Windows-Client-Using-Control-Add-ins.md)   
+ [Extending the Windows Client Using Control Add-ins](Extending-the-Windows-Client-Using-Control-Add-ins.md)   
  [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)

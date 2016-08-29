@@ -13,13 +13,13 @@ caps.latest.revision: 11
 # Setting Relationships Between Tables
 It is common to distinguish among the following types of relationships between tables in relational database design:  
   
--   One\-to\-many relationships  
+-   One-to-many relationships  
   
--   Many\-to\-many relationships  
+-   Many-to-many relationships  
   
--   One\-to\-one relationships  
+-   One-to-one relationships  
   
- The one\-to\-many relationship is the most common. If your database design model indicates that you need to set up a many\-to\-many relationship, then your design is probably inefficient. You can typically break down a many\-to\-many relationship into two one\-to\-many relationships. A one\-to\-one relationship is usually not optimal and can often be avoided by combining the two tables.  
+ The one-to-many relationship is the most common. If your database design model indicates that you need to set up a many-to-many relationship, then your design is probably inefficient. You can typically break down a many-to-many relationship into two one-to-many relationships. A one-to-one relationship is usually not optimal and can often be avoided by combining the two tables.  
   
 ## Using Relationships  
  If your database contains tables with related data, then you can define a relationship between them. You relate tables by specifying one or more fields that contain the same value in related records. These matching fields often have the same name in each table. You can use relationships to:  

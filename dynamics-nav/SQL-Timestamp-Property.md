@@ -26,4 +26,4 @@ Specifies a field to be a timestamp field.
  For more information, see [How to: Use a Timestamp Field](How%20to:%20Use%20a%20Timestamp%20Field.md).  
   
 ## See Also  
- [Tables\-duplicate 20](Tables-duplicate-20.md)
+ [Tables-duplicate 20](Tables-duplicate-20.md)

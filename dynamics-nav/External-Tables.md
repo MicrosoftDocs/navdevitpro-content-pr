@@ -43,9 +43,9 @@ UNREGISTERTABLECONNECTION(TABLECONNECTIONTYPE::ExternalSQL, 'ExternalDb1');
   
 |Cmdlet Name|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-----------------|---------------------------------------|  
-|New\-NAVTableConnection|Creates a connection to an external table.|  
-|Remove\-NAVTableConnection|Removes an established connection to an external table.|  
-|Get\-NAVTableConnection|Gets information about connections to external tables.|  
+|New-NAVTableConnection|Creates a connection to an external table.|  
+|Remove-NAVTableConnection|Removes an established connection to an external table.|  
+|Get-NAVTableConnection|Gets information about connections to external tables.|  
   
  If you know that your integration with the external product will be managed by [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets, your code must call **RegisterTableConnection** without the actual connection string as shown in the following code example.  
   

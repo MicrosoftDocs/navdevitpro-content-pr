@@ -12,7 +12,7 @@ caps.latest.revision: 9
 manager: edupont
 ---
 # Page Designer Walkthroughs
-The walkthroughs in this section provide step\-by\-step instructions on how to create pages for the [!INCLUDE[rtc](includes/rtc_md.md)]. Each walkthrough presents a different scenario intended to help you understand how different page types can be used to build a selection of page objects.  
+The walkthroughs in this section provide step-by-step instructions on how to create pages for the [!INCLUDE[rtc](includes/rtc_md.md)]. Each walkthrough presents a different scenario intended to help you understand how different page types can be used to build a selection of page objects.  
   
  Pages are XML based and require less design considerations and more understanding of how XML elements work together. In these walkthroughs you will see how page parts and controls can be arranged in the Page Designer window to create a hierarchy of XML elements that result in pages.  
   

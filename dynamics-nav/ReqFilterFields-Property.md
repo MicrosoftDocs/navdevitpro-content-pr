@@ -20,10 +20,10 @@ Sets which fields are automatically included on the tab of the request page that
 -   Table elements on XMLports.  
   
 ## Property Value  
- A comma\-separated list of field names.  
+ A comma-separated list of field names.  
   
 ## Remarks  
- You can select fields by choosing the **AssistEdit** button in the **Value** field of this property. A user can add other fields to the request page and set filters on these fields. We recommend that you use this property for common filter fields. If the source table of a report has many fields, then it is time\-consuming for a user to add fields to the request page.  
+ You can select fields by choosing the **AssistEdit** button in the **Value** field of this property. A user can add other fields to the request page and set filters on these fields. We recommend that you use this property for common filter fields. If the source table of a report has many fields, then it is time-consuming for a user to add fields to the request page.  
   
  If you do not want users to add filters on fields, then use one of the following methods:  
   

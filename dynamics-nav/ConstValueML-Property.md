@@ -23,7 +23,7 @@ Sets the values of a C/AL text constant for the different languages that are ava
   
  **\<Language ID\>=\<string\>**  
   
--   **\<Language ID\>** is the Windows three\-letter language ID.  
+-   **\<Language ID\>** is the Windows three-letter language ID.  
   
 -   **\<string\>** is the text string for the language.  
   

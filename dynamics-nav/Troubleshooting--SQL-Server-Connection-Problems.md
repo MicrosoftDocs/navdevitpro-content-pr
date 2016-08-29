@@ -31,7 +31,7 @@ After installing and configuring [!INCLUDE[navnow](includes/navnow_md.md)] softw
   
 3.  Under **Protocol Name** in the right pane, verify that **Named Pipes** and **TCP\/IP** have the status **Enabled**.  
   
-4.  If either protocol is not enabled, right\-click the protocol, and then choose **Enable**.  
+4.  If either protocol is not enabled, right-click the protocol, and then choose **Enable**.  
   
  After exiting SQL Server Configuration Manager, start the [!INCLUDE[rtc](includes/rtc_md.md)] again to see if the connection problem has been resolved.  
   
@@ -50,7 +50,7 @@ After installing and configuring [!INCLUDE[navnow](includes/navnow_md.md)] softw
     C:\Program Files\Microsoft SQL Server\MSSQL10_50.MSSQLSERVER\MSSQL\Binn\sqlservr.exe  
     ```  
   
-4.  Double\-click the executable file to select it and to exit the **Browse** window, and then choose **OK** to close the **Add a Program** window.  
+4.  Double-click the executable file to select it and to exit the **Browse** window, and then choose **OK** to close the **Add a Program** window.  
   
 5.  Choose **OK** to close **Windows Firewall**.  
   

@@ -12,29 +12,29 @@ caps.latest.revision: 21
 manager: edupont
 ---
 # How to: Set Up a Windows Client Control Add-in on a Page
-After you have registered a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add\-in, you can use it on [!INCLUDE[nav_windows](includes/nav_windows_md.md)] pages. To use a control add\-in on a page, you add it to a field control. Depending on the design of the control add\-in, you may also need to follow these steps:  
+After you have registered a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add-in, you can use it on [!INCLUDE[nav_windows](includes/nav_windows_md.md)] pages. To use a control add-in on a page, you add it to a field control. Depending on the design of the control add-in, you may also need to follow these steps:  
   
--   Bind the control add\-in field to a data source.  
+-   Bind the control add-in field to a data source.  
   
-     Control add\-ins can use data from a field in the table that is associated with the page or from a C/AL global variable.  
+     Control add-ins can use data from a field in the table that is associated with the page or from a C/AL global variable.  
   
 -   Modify the [OnControlAddin Trigger](OnControlAddin-Trigger.md) to process data that is sent from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
--   Add C/AL code to triggers that call methods and properties in the control add\-in.  
+-   Add C/AL code to triggers that call methods and properties in the control add-in.  
   
-## Preparing to Set Up the Control Add\-in  
+## Preparing to Set Up the Control Add-in  
   
-#### To prepare for setting up the control add\-in  
+#### To prepare for setting up the control add-in  
   
-1.  If the control add\-in uses data from a table that does not exist, then create the table.  
+1.  If the control add-in uses data from a table that does not exist, then create the table.  
   
      For more information, see [How to: Create a Table](How%20to:%20Create%20a%20Table.md).  
   
-2.  If the page to which you want to add the control add\-in does not exist, then create the page. As appropriate, associate the page with the table that you created in step 1.  
+2.  If the page to which you want to add the control add-in does not exist, then create the page. As appropriate, associate the page with the table that you created in step 1.  
   
      For more information, see [How to: Create a Page](How%20to:%20Create%20a%20Page.md).  
   
-## Setting Up a Control Add\-in on a Page Field  
+## Setting Up a Control Add-in on a Page Field  
   
 #### To set the ControlAddIn property on a field  
   
@@ -44,13 +44,13 @@ After you have registered a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] 
   
 3.  Select the page, and then choose the **Design** button.  
   
-4.  In Page Designer, add a field control for the control add\-in or use an existing field control.  
+4.  In Page Designer, add a field control for the control add-in or use an existing field control.  
   
 5.  Select the field, and then on the **View** menu, choose **Properties**.  
   
 6.  In the **ControlAddIn** property value, choose the up arrow.  
   
-7.  In the **Client Add\-in** window, select the control add\-in from the **Client Add\-in** window, and then choose the **OK** button.  
+7.  In the **Client Add-in** window, select the control add-in from the **Client Add-in** window, and then choose the **OK** button.  
   
      For more information, see the [ControlAddin Property](ControlAddin-Property.md).  
   
@@ -61,10 +61,10 @@ After you have registered a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] 
   
 9. Close the **Properties** window.  
   
-##  <a name="EventTrigger"></a> Modifying the Microsoft Dynamics NAV Windows Client Control Add\-in Event Trigger  
- When invoked on a page, a control add\-in can raise an event that sends data to [!INCLUDE[nav_server](includes/nav_server_md.md)]. In the C/AL code for the page, the event calls the OnControlAddIn trigger of the field control that is applied with the control add\-in. To process the event data, you add C/AL code to the OnControlAddIn trigger. For more information, see [Exposing Events and Calling Respective C\-AL Triggers from a Windows Client Control Add\-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md).  
+##  <a name="EventTrigger"></a> Modifying the Microsoft Dynamics NAV Windows Client Control Add-in Event Trigger  
+ When invoked on a page, a control add-in can raise an event that sends data to [!INCLUDE[nav_server](includes/nav_server_md.md)]. In the C/AL code for the page, the event calls the OnControlAddIn trigger of the field control that is applied with the control add-in. To process the event data, you add C/AL code to the OnControlAddIn trigger. For more information, see [Exposing Events and Calling Respective C-AL Triggers from a Windows Client Control Add-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md).  
   
-#### To add C/AL code to the control add\-in event trigger  
+#### To add C/AL code to the control add-in event trigger  
   
 1.  On the **View** menu, choose **C/AL Code**.  
   
@@ -74,7 +74,7 @@ After you have registered a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] 
     Fieldname - OnControlAddIn(Index : Integer;Data : Text[1024])  
     ```  
   
-     `Fieldname` is the name of the field control that is applied with the control add\-in.  
+     `Fieldname` is the name of the field control that is applied with the control add-in.  
   
     > [!NOTE]  
     >  If the data type of the field's **SourceExpr** property is **BigText**, then the `Data` attribute is `BigText` instead of `Text[1024]`.  
@@ -85,15 +85,15 @@ After you have registered a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] 
   
 5.  On the **File** menu, choose **Save**, select **Compiled**, and then choose the **OK** button.  
   
-## Calling Control Add\-in Methods and Properties From C/AL  
- Control add\-ins can expose methods and properties that you can call using C/AL code from triggers on a page to extend the control add\-in user interface. To complete this procedure, you must know the method or property names. For more information, see [Exposing Methods and Properties in a Windows Client Control Add\-in](Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md).  
+## Calling Control Add-in Methods and Properties From C/AL  
+ Control add-ins can expose methods and properties that you can call using C/AL code from triggers on a page to extend the control add-in user interface. To complete this procedure, you must know the method or property names. For more information, see [Exposing Methods and Properties in a Windows Client Control Add-in](Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md).  
   
-#### To call a control add\-in method or property  
+#### To call a control add-in method or property  
   
 1.  In the C/AL Editor, locate the trigger from which you want to call the method or property.  
   
     > [!NOTE]  
-    >  You cannot call control add\-in methods or properties from the OnInit, OnOpenPage, or OnNewRecord triggers.  
+    >  You cannot call control add-in methods or properties from the OnInit, OnOpenPage, or OnNewRecord triggers.  
   
 2.  Add the C/AL code to the trigger that calls the method or property.  
   
@@ -109,16 +109,16 @@ After you have registered a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] 
         CurrPage.ControlName.MyProperty  
         ```  
   
-     `ControlName` is the name of the field control that is applied with the control add\-in. The name is specified by the [Name Property\-duplicate](Name-Property-duplicate.md). `MyMethod` and `MyProperty` are the names of the method and property of the control add\-in to be invoked.  
+     `ControlName` is the name of the field control that is applied with the control add-in. The name is specified by the [Name Property-duplicate](Name-Property-duplicate.md). `MyMethod` and `MyProperty` are the names of the method and property of the control add-in to be invoked.  
   
 3.  Save the page.  
   
 ## See Also  
- [Windows Client Control Add\-in Overview](Windows-Client-Control-Add-in-Overview.md)   
- [How to: Install a Windows Client Control Add\-in Assembly](How%20to:%20Install%20a%20Windows%20Client%20Control%20Add-in%20Assembly.md)   
- [Installing and Configuring Windows Client Control Add\-ins on Pages](Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)   
- [How to: Register a Windows Client Control Add\-in](How%20to:%20Register%20a%20Windows%20Client%20Control%20Add-in.md)   
- [How to: Install a Windows Client Control Add\-in Assembly](How%20to:%20Install%20a%20Windows%20Client%20Control%20Add-in%20Assembly.md)   
- [Developing Windows Client Control Add\-ins](Developing-Windows-Client-Control-Add-ins.md)   
- [Walkthrough: Creating and Using a Windows Client Control Add\-in](Walkthrough:%20Creating%20and%20Using%20a%20Windows%20Client%20Control%20Add-in.md)   
+ [Windows Client Control Add-in Overview](Windows-Client-Control-Add-in-Overview.md)   
+ [How to: Install a Windows Client Control Add-in Assembly](How%20to:%20Install%20a%20Windows%20Client%20Control%20Add-in%20Assembly.md)   
+ [Installing and Configuring Windows Client Control Add-ins on Pages](Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)   
+ [How to: Register a Windows Client Control Add-in](How%20to:%20Register%20a%20Windows%20Client%20Control%20Add-in.md)   
+ [How to: Install a Windows Client Control Add-in Assembly](How%20to:%20Install%20a%20Windows%20Client%20Control%20Add-in%20Assembly.md)   
+ [Developing Windows Client Control Add-ins](Developing-Windows-Client-Control-Add-ins.md)   
+ [Walkthrough: Creating and Using a Windows Client Control Add-in](Walkthrough:%20Creating%20and%20Using%20a%20Windows%20Client%20Control%20Add-in.md)   
  [ControlAddin Property](ControlAddin-Property.md)

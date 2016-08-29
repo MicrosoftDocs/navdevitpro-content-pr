@@ -61,7 +61,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
   
 1.  Open the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)].  
   
-2.  At the command prompt, run the New\-NAVCrmTable cmdlet as shown in the following example. Include parameters that specify the [!INCLUDE[crm](includes/crm_md.md)] Server URL, the logical names of the [!INCLUDE[crm](includes/crm_md.md)]**Systemuser** and **Campaign** entities, the ID and name of the corresponding business data table objects in [!INCLUDE[navnow](includes/navnow_md.md)], and the path in which to store the generated text files for the table objects.  
+2.  At the command prompt, run the New-NAVCrmTable cmdlet as shown in the following example. Include parameters that specify the [!INCLUDE[crm](includes/crm_md.md)] Server URL, the logical names of the [!INCLUDE[crm](includes/crm_md.md)]**Systemuser** and **Campaign** entities, the ID and name of the corresponding business data table objects in [!INCLUDE[navnow](includes/navnow_md.md)], and the path in which to store the generated text files for the table objects.  
   
     ```  
     New-NAVCRMTable – CRMServer MyOrg.Crm4.Dynamics.Com –EntityLogicalName systemuser,campaign –ObjectId 5340,50001 –Name “CRM Systemuser”,“CRM Campaign” –OutputPath c:\CRMObjects  
@@ -137,7 +137,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
   
 3.  Change the page's source table to table **5071 Campaign**.  
   
-4.  Open the [\($ S\_10204 C\-AL Globals $\)](-$-S_10204-C-AL-Globals-$-.md) window and change all variables, text constants, and functions that reference *CRM Account* to reference *CRM Campaign* instead. For record type variables, this means changing the name and setting the subtype to point to the integration table **50001 CRM Campaign**. The following table includes the required changes.  
+4.  Open the [\($ S\_10204 C-AL Globals $\)](-$-S_10204-C-AL-Globals-$-.md) window and change all variables, text constants, and functions that reference *CRM Account* to reference *CRM Campaign* instead. For record type variables, this means changing the name and setting the subtype to point to the integration table **50001 CRM Campaign**. The following table includes the required changes.  
   
     ||Current setting|New setting|  
     |-|---------------------|-----------------|  
@@ -164,15 +164,15 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
   
         |Trigger|Current variable|New variable|  
         |-------------|----------------------|------------------|  
-        |CRM Campaign Name \- OnValidate|Name: ManualCRMAccount<br /><br /> Subtype: CRM Account|Name: ManualCRMCampaign<br /><br /> Subtype: CRM Campaign|  
+        |CRM Campaign Name - OnValidate|Name: ManualCRMAccount<br /><br /> Subtype: CRM Account|Name: ManualCRMCampaign<br /><br /> Subtype: CRM Campaign|  
         ||Name: PreviouslySelectedCRMAccount<br /><br /> Subtype: CRM Account|Name: PreviouslySelectedCRMCampaign<br /><br /> Subtype: CRM Campaign|  
         ||Name: CRMAccountFound|Name: CRMCampaignFound|  
-        |CRM Campaign Name \- OnLookup|Name: PreviouslySelectedCRMAccount<br /><br /> Subtype: CRM Account|Name: PreviouslySelectedCRMCampaign<br /><br /> Subtype: CRM Campaign|  
+        |CRM Campaign Name - OnLookup|Name: PreviouslySelectedCRMAccount<br /><br /> Subtype: CRM Account|Name: PreviouslySelectedCRMCampaign<br /><br /> Subtype: CRM Campaign|  
         ||Name: CRMAccountList<br /><br /> Subtype: CRM Account|Name: CRMCampaignList<br /><br /> Subtype: CRM Campaign List \(ID 50001\)|  
   
     2.  Remove calls to **SetCurrentlyCoupledCRMAccount**.  
   
-         This function call is originally used for color\-coding the [!INCLUDE[crm](includes/crm_md.md)] Account list, but you will not implement color coding in this example.  
+         This function call is originally used for color-coding the [!INCLUDE[crm](includes/crm_md.md)] Account list, but you will not implement color coding in this example.  
   
     3.  Replace all references to *CRMAccount* with references to *CRMCampaign*.  
   
@@ -413,9 +413,9 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
 |OnBeforeTransferRecordFields|Occurs before transferring data in modified fields \(which are defined in the Integration Field Mapping table\) from the source table to the destination table. It can be used to validate the source or destination before the data is moved.|  
 |OnAfterTransferRecordFields|Occurs after transferring modified field data \(which are defined in the Integration Field Mapping table\) from the source table to the destination table. It can be used to transfer additional data, validate lookups, and so on. Setting the **AdditionalFieldsWereModified** parameter will cause a destination record modification even if no fields were modified.|  
 |OnBeforeInsertRecord|Occurs before inserting a new destination record, and can be used to initialize fields, such as primary keys.|  
-|OnAfterInsertRecord|Occurs after new destination record is inserted, and can be used to perform post\-insert operations such as updating related data.|  
+|OnAfterInsertRecord|Occurs after new destination record is inserted, and can be used to perform post-insert operations such as updating related data.|  
 |OnBeforeModifyRecord|Occurs before modifying an existing destination record, and can be used to validate\/change data before modification.|  
-|OnAfterModifyRecord|Occurs after an existing destination record is modified, and can be used to perform post\-modify operations such as updating related data.|  
+|OnAfterModifyRecord|Occurs after an existing destination record is modified, and can be used to perform post-modify operations such as updating related data.|  
   
  For the synchronization of campaigns, you will use an event to create a custom rule that sets the **Comment** field in a [!INCLUDE[navnow](includes/navnow_md.md)] campaign to **TRUE** if the **Message** field in a [!INCLUDE[crm](includes/crm_md.md)] campaign has data. You do this by subscribing to the **OnAfterTransferRecordFields** event that is published by codeunit **5335 Integration Table Synch**.  
   

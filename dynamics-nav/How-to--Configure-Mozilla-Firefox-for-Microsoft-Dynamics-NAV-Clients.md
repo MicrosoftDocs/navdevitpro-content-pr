@@ -58,15 +58,15 @@ This topic describes how to configure Mozilla Firefox web browser to work with t
   
  **A server error occurred, and the content cannot be displayed. Refresh the page or open a new browser window.**  
   
- **401 \- Unauthorized: Access is denied due to invalid credentials.**  
+ **401 - Unauthorized: Access is denied due to invalid credentials.**  
   
- There are two different trusted URI lists that you can add the [!INCLUDE[nav_web](includes/nav_web_md.md)] address to: network.negotiate\-auth.trusted\-uris and network.automatic\-ntlm\-auth.trusted\-uris. The list that you use will depend on the authentication provider that is used by the website that is running the [!INCLUDE[nav_web](includes/nav_web_md.md)]. Use the following guidelines to determine which list to use:  
+ There are two different trusted URI lists that you can add the [!INCLUDE[nav_web](includes/nav_web_md.md)] address to: network.negotiate-auth.trusted-uris and network.automatic-ntlm-auth.trusted-uris. The list that you use will depend on the authentication provider that is used by the website that is running the [!INCLUDE[nav_web](includes/nav_web_md.md)]. Use the following guidelines to determine which list to use:  
   
--   If the website uses the negotiate authentication provider, then add the [!INCLUDE[nav_web](includes/nav_web_md.md)] address to the network.negotiate\-auth.trusted\-uris list.  
+-   If the website uses the negotiate authentication provider, then add the [!INCLUDE[nav_web](includes/nav_web_md.md)] address to the network.negotiate-auth.trusted-uris list.  
   
      The negotiate authentication uses Kerberos authentication if it is configured on clients. If the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)] are running on separate computers, then add the address to this list.  
   
--   If the website uses the NTLM authentication provider, then add the [!INCLUDE[nav_web](includes/nav_web_md.md)] address to the network.automatic\-ntlm\-auth.trusted\-uris list.  
+-   If the website uses the NTLM authentication provider, then add the [!INCLUDE[nav_web](includes/nav_web_md.md)] address to the network.automatic-ntlm-auth.trusted-uris list.  
   
 -   If you do not know which authentication provider is used, then add the [!INCLUDE[nav_web](includes/nav_web_md.md)] address to both lists.  
   
@@ -76,9 +76,9 @@ This topic describes how to configure Mozilla Firefox web browser to work with t
   
 2.  In the address box, type **about:config**.  
   
-3.  To add the address to the **network.automatic\-ntlm\-auth.trusted\-uris** list, do the following:  
+3.  To add the address to the **network.automatic-ntlm-auth.trusted-uris** list, do the following:  
   
-    1.  In the **Search** box, enter **network.automatic**, and then double\-click the line **network.automatic\-ntlm\-auth.trusted\-uris**.  
+    1.  In the **Search** box, enter **network.automatic**, and then double-click the line **network.automatic-ntlm-auth.trusted-uris**.  
   
     2.  In the **Enter string value** dialog box, type the address that you use to open the [!INCLUDE[nav_web](includes/nav_web_md.md)], for example, **http:\/\/myNAVServer:8080\/DynamicsNAV90\/WebClient**.  
   
@@ -87,9 +87,9 @@ This topic describes how to configure Mozilla Firefox web browser to work with t
     > [!NOTE]  
     >  If there is already an address in the box, separate the existing address and the [!INCLUDE[nav_web](includes/nav_web_md.md)] address by using a comma.  
   
-4.  To add the address to the **network.negotiate\-auth.trusted\-uris** list, do the following:  
+4.  To add the address to the **network.negotiate-auth.trusted-uris** list, do the following:  
   
-    1.  In the **Search box**, enter **network.negotiate**, and then double\-click the line **network.negotiate\-auth.trusted\-uris**.  
+    1.  In the **Search box**, enter **network.negotiate**, and then double-click the line **network.negotiate-auth.trusted-uris**.  
   
     2.  In the **Enter string value** dialog box, type the address that you use to open the [!INCLUDE[nav_web](includes/nav_web_md.md)], for example, **http:\/\/myNAVServer:8080\/DynamicsNAV90\/WebClient**.  
   

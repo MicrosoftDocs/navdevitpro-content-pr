@@ -31,9 +31,9 @@ manager: edupont
   
  **Development considerations**  
   
- A typical business event reflects changes in “state” with regards to a process. This makes them very well suited for workflow. An example of a business event could be when a sales order has been posted. It is important to note that business events should not be tied to the implementation\-details, such as the tables or fields in which the data is stored. Preferably, the event publisher developer should be free to change the implementation, while still keeping the business event intact.  
+ A typical business event reflects changes in “state” with regards to a process. This makes them very well suited for workflow. An example of a business event could be when a sales order has been posted. It is important to note that business events should not be tied to the implementation-details, such as the tables or fields in which the data is stored. Preferably, the event publisher developer should be free to change the implementation, while still keeping the business event intact.  
   
- Business events should be documented with the solution, including the before\-state and after\-state of the events.  
+ Business events should be documented with the solution, including the before-state and after-state of the events.  
   
 ##  <a name="IntegrationEvents"></a> Integration Events  
  An integration event is also a custom event that is raised by C/AL code, like a business event, except that it does not carry the same promise of not changing, nor does it have the restriction not to expose implementation details.  
@@ -42,7 +42,7 @@ manager: edupont
   
  **Development considerations**  
   
- An integration event can be changed to a business event later. At which time, it must adhere to the same implied contract and commitment as any business event. It can also simply be designed\-in hook points for external add\-ons.  
+ An integration event can be changed to a business event later. At which time, it must adhere to the same implied contract and commitment as any business event. It can also simply be designed-in hook points for external add-ons.  
   
 ##  <a name="SystemEvents"></a> Global Events  
  Global events are predefined system events that are automatically raised by Codeunit 1 **ApplicationManagement**. Codeunit 1 includes several global function triggers, such as CompanyOpen, CompanyClose, and GetSystemIndicator. For most of these global function triggers, there are one or two global events: a before and after event. For example, there is an OnBeforeCompanyOpen event and an OnAfterCompanyOpen event. The global events are defined as integration events by local functions in codeunit 1.  

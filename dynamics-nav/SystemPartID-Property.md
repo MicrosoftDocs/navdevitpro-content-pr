@@ -12,7 +12,7 @@ caps.latest.revision: 5
 manager: edupont
 ---
 # SystemPartID Property
-Sets pre\-defined system parts.  
+Sets pre-defined system parts.  
   
 ## Applies To  
   

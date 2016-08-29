@@ -20,7 +20,7 @@ You can start, stop, restart, or remove a [!INCLUDE[nav_server](includes/nav_ser
   
      Unless you are administering a remote computer, this is **Microsoft Dynamics NAV \(local\)**.  
   
-2.  In the center pane, right\-click an instance, and then choose **Start**, **Stop**, **Restart**, or **Remove**.  
+2.  In the center pane, right-click an instance, and then choose **Start**, **Stop**, **Restart**, or **Remove**.  
   
      Choose **Restart** to stop and then start the instance again.  
   

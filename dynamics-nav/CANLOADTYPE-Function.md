@@ -46,4 +46,4 @@ IF NOT CANLOADTYPE(OObjLibrary) THEN
 ```  
   
 ## See Also  
- [Calling .NET Framework Members from C\-AL](Calling-.NET-Framework-Members-from-C-AL.md)
+ [Calling .NET Framework Members from C-AL](Calling-.NET-Framework-Members-from-C-AL.md)

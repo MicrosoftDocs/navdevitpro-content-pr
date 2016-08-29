@@ -47,9 +47,9 @@ To install language modules in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]
   
 3.  In the Server folder, run Server.Local.\<*country\/region code*\>.\<*language code*\>.msi.  
   
-4.  In Control Panel, choose **Administrative Tools**, and then choose **Services** to open the Services snap\-in.  
+4.  In Control Panel, choose **Administrative Tools**, and then choose **Services** to open the Services snap-in.  
   
-5.  In the list of services, right\-click **Microsoft Dynamics NAV Server**, and then choose **Restart**.  
+5.  In the list of services, right-click **Microsoft Dynamics NAV Server**, and then choose **Restart**.  
   
 ##  <a name="RoleTailored"></a> Microsoft Dynamics NAV Windows Client Component  
   

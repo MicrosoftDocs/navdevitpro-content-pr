@@ -20,9 +20,9 @@ You can preconfigure components before you install [!INCLUDE[navnow](includes/na
   
      Two settings that you see on the **Specify parameters** pane are not related to a particular component:  
   
-    -   The **Destination Folder \(x86\)** setting specifies where Setup installs 32\-bit [!INCLUDE[navnow](includes/navnow_md.md)] components such as the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
+    -   The **Destination Folder \(x86\)** setting specifies where Setup installs 32-bit [!INCLUDE[navnow](includes/navnow_md.md)] components such as the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
-    -   The **Destination Folder** setting specifies where Setup installs 64\-bit [!INCLUDE[navnow](includes/navnow_md.md)] components such as [!INCLUDE[nav_server](includes/nav_server_md.md)].  
+    -   The **Destination Folder** setting specifies where Setup installs 64-bit [!INCLUDE[navnow](includes/navnow_md.md)] components such as [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
 2.  For information about parameters for a configurable component, see one of the following:  
   

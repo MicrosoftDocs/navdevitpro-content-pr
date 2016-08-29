@@ -50,7 +50,7 @@ Gets or sets the filter group that is applied to a table.
   
 |Number|Name|Description|  
 |------------|----------|-----------------|  
-|\-1|Cross\-column|Used to support the cross\-column search.|  
+|-1|Cross-column|Used to support the cross-column search.|  
 |0|Std|The default group where filters are placed when no other group has been selected explicitly. This group is used for filters that can be set from the filter dialogs by the end user.|  
 |1|Global|Used for filters that apply globally to the entire application.|  
 |2|Form|Used for the filtering actions that result from the following:<br /><br /> -   [SETTABLEVIEW Function \(Page, Report, XMLport\)](SETTABLEVIEW-Function--Page--Report--XMLport-.md)<br />-   [SourceTableView Property](SourceTableView-Property.md)<br />-   [DataItemTableView Property](DataItemTableView-Property.md).|  

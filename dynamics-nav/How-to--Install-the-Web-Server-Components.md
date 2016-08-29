@@ -53,7 +53,7 @@ To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tabl
   
 1.  On the computer that is running IIS, open the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installation media.  
   
-2.  Double\-click the setup.exe file to start the [!INCLUDE[navnow](includes/navnow_md.md)] Setup Wizard.  
+2.  Double-click the setup.exe file to start the [!INCLUDE[navnow](includes/navnow_md.md)] Setup Wizard.  
   
      If you have already installed one or more [!INCLUDE[navnow](includes/navnow_md.md)] components on the computer, you will see the **Maintenance** page instead of the **Welcome** page. In this case, choose **Add or remove components**, and then go to step 7.  
   

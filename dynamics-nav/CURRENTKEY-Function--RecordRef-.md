@@ -48,11 +48,11 @@ RecRef.OPEN(18);
 MESSAGE(Text000,RecRef.CAPTION,RecRef.CURRENTKEY)  
 ```  
   
- `RecRef.Open(18)` \- Opens table 18 or causes a run\-time error if table 18 does not exist.  
+ `RecRef.Open(18)` - Opens table 18 or causes a run-time error if table 18 does not exist.  
   
- `RecRef.Caption` \- Returns the caption of the table.  
+ `RecRef.Caption` - Returns the caption of the table.  
   
- `RecRef.CURRENTKEY` \- Returns the caption of the current key in the table.  
+ `RecRef.CURRENTKEY` - Returns the caption of the current key in the table.  
   
 ## See Also  
  [RecordRef Data Type](RecordRef-Data-Type.md)

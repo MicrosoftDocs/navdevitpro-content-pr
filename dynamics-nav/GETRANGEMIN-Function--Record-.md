@@ -38,7 +38,7 @@ Value := Record.GETRANGEMIN(Field)
  Contains the minimum value of the range set for *Field*. The type of the return value must match the type of *Field*.  
   
 ## Remarks  
- The current filter on *Field* must be a single range filter; otherwise, a run\-time error occurs. This means that field cannot be included in two different FILTERGROUPs, as shown in the following code example:  
+ The current filter on *Field* must be a single range filter; otherwise, a run-time error occurs. This means that field cannot be included in two different FILTERGROUPs, as shown in the following code example:  
   
 ```  
 WITH GLAcc DO BEGIN  
@@ -119,7 +119,7 @@ Val := CustomerRec.GETRANGEMIN("No.");
 MESSAGE(Text000, Val);  
 ```  
   
- This example causes a run\-time error to occur.  
+ This example causes a run-time error to occur.  
   
 ## See Also  
  [GETRANGEMAX Function \(Record\)](GETRANGEMAX-Function--Record-.md)   

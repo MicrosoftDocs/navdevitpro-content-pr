@@ -35,9 +35,9 @@ manager: edupont
   
 6.  If you are creating a new menu item, do the following:  
   
-    1.  Right\-click the folder that you want to create new item in and then choose **Create Item** to open the **Create Item** window.  
+    1.  Right-click the folder that you want to create new item in and then choose **Create Item** to open the **Create Item** window.  
   
-    2.  From the **Object Type** drop\-down list box, select the object type that you want to create the menu item for.  
+    2.  From the **Object Type** drop-down list box, select the object type that you want to create the menu item for.  
   
     3.  In the **Object ID** box, choose the **AssistButton** and choose an object from the \<Object\> List window.  
   
@@ -45,7 +45,7 @@ manager: edupont
   
     5.  In the **Department** list box, select the sub menu in the department where you want the menu item to appear in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and then choose **OK**.  
   
-7.  Right\-click **Navigation Pane Designer**, and then choose **Close Navigation Pane Designer**.  
+7.  Right-click **Navigation Pane Designer**, and then choose **Close Navigation Pane Designer**.  
   
 8.  In the **Save Changes** dialog box, make sure **Compile** is selected and then choose **Yes** to save the MenuSuite.  
   

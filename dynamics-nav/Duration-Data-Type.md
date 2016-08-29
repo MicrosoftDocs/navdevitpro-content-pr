@@ -12,15 +12,15 @@ caps.latest.revision: 12
 manager: edupont
 ---
 # Duration Data Type
-Represents the difference between two DateTimes. This value can be negative. It is stored as a 64\-bit integer. The integer value is the number of milliseconds during the duration.  
+Represents the difference between two DateTimes. This value can be negative. It is stored as a 64-bit integer. The integer value is the number of milliseconds during the duration.  
   
  The following are examples of durations:  
   
- DATETIME\-DATETIME=DURATION  
+ DATETIME-DATETIME=DURATION  
   
- DATETIME\-DURATION=DATETIME  
+ DATETIME-DURATION=DATETIME  
   
- DATETIME\+DURATION=DATETIME  
+ DATETIME+DURATION=DATETIME  
   
 ## Example  
  This example shows how to calculate the difference between two DateTimes. It requires that you define the following variables.  

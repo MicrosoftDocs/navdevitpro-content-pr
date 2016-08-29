@@ -21,7 +21,7 @@ Sets which columns \(controls\) are indented in a list.
 ## Remarks  
  To access the **Indent Controls** window, select a **Group** container in Page Designer and then view properties. The **Indentation Controls** property lets you choose which columns are indented under a group control on a List page. Choose the **Assistbutton** to open the **Indent Controls** window. In the **Indent Controls** window, you can see all the field controls that are under a **Group** container on a List page.  
   
- Define which columns you want to indent by selecting the appropriate field control in the **Indentation** column. Choose the **OK** button and the selected fields appear as comma\-separated values in the **Value** column of the IndentationControls property in the **Properties** window.  
+ Define which columns you want to indent by selecting the appropriate field control in the **Indentation** column. Choose the **OK** button and the selected fields appear as comma-separated values in the **Value** column of the IndentationControls property in the **Properties** window.  
   
 > [!IMPORTANT]  
 >  When indentation is specified, it is no longer possible to use sorting on the columns in the repeater control.  

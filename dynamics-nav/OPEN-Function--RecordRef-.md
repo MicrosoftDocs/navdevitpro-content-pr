@@ -62,7 +62,7 @@ MyRecordRef.CLOSE;
 ```  
   
 ## Example  
- This example shows how to use the OPEN function. In this example, "MyRecordRef" opens table 27 and then "FIND\('\-'\)" finds the first record in the table. "TempMyRecordRef" opens a temporary table which is empty and therefore the "FIND\('\-'\)" returns false. This example requires that you create the following variables in the **C/AL Globals** window.  
+ This example shows how to use the OPEN function. In this example, "MyRecordRef" opens table 27 and then "FIND\('-'\)" finds the first record in the table. "TempMyRecordRef" opens a temporary table which is empty and therefore the "FIND\('-'\)" returns false. This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

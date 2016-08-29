@@ -12,10 +12,10 @@ caps.latest.revision: 18
 manager: edupont
 ---
 # Walkthrough: Creating a Nonprinting Report
-In this walkthrough, you will create a non\-printing report. A non\-printing report is a report that only does processing without actually outputting or printing a report. This type of processing is usually achieved by using codeunits. You use the [ProcessingOnly Property](ProcessingOnly-Property.md) of the report to make the report non\-printing without much programming. This functionality also gives you access to the request page and enables the user to filter the data before you run the report. Instead of writing C/AL code to open tables and retrieve records, you only have to define a data item.  
+In this walkthrough, you will create a non-printing report. A non-printing report is a report that only does processing without actually outputting or printing a report. This type of processing is usually achieved by using codeunits. You use the [ProcessingOnly Property](ProcessingOnly-Property.md) of the report to make the report non-printing without much programming. This functionality also gives you access to the request page and enables the user to filter the data before you run the report. Instead of writing C/AL code to open tables and retrieve records, you only have to define a data item.  
   
 ## About this Walkthrough  
- This walkthrough shows you how to create a non\-printing report that enable a user to adjust the prices in the item table. The user enters the factor by which to adjust the prices on the request page. The user can use the filters on the request page to filter the data and apply the adjustment to only the filtered data.   
+ This walkthrough shows you how to create a non-printing report that enable a user to adjust the prices in the item table. The user enters the factor by which to adjust the prices on the request page. The user can use the filters on the request page to filter the data and apply the adjustment to only the filtered data.   
 This walkthrough illustrates the following tasks:  
   
 -   Defining a data model.  
@@ -52,7 +52,7 @@ This walkthrough illustrates the following tasks:
   
 6.  In the **Field Menu** window, select all the fields and then choose the **OK** button.  
   
-     You can select all the fields by selecting the upper\-left corner of the window or by holding down the Ctrl key and selecting all the fields.  
+     You can select all the fields by selecting the upper-left corner of the window or by holding down the Ctrl key and selecting all the fields.  
   
 7.  At the prompt, choose **Yes** to add the selected fields.  
   
@@ -62,15 +62,15 @@ This walkthrough illustrates the following tasks:
   
 10. In the **Key** field, select the **No.** key and choose the **OK** button.  
   
-11. In the **Order** drop\-down list, select **Ascending**. Choose the **OK** button to close the window.  
+11. In the **Order** drop-down list, select **Ascending**. Choose the **OK** button to close the window.  
   
 12. In the **Properties** window, select the **ReqFilterFields** property, and in the **Value** field, choose the **AssistEdit** button to open the **Field List** window.  
   
      You will add filters that will enable users to filter the data based on the **No.** field or the **Inventory Posting Group** field or both.  
   
-13. In the first row, choose the up arrow to open the **Item\-Field List** window and select the **No.** field, and then choose the **OK** button.  
+13. In the first row, choose the up arrow to open the **Item-Field List** window and select the **No.** field, and then choose the **OK** button.  
   
-14. In the second row, choose the up arrow to open the **Item\-Field List** window and select the **Inventory Posting Group** field, and then choose the **OK** button.  
+14. In the second row, choose the up arrow to open the **Item-Field List** window and select the **Inventory Posting Group** field, and then choose the **OK** button.  
   
      You will now set the property that will make the report nonprinting. Later, you will add code to triggers to do the actual processing.  
   

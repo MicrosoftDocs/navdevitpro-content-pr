@@ -51,7 +51,7 @@ Ok := Record.WRITEPERMISSION
   
  To determine whether the user has a partial read permission, because a security filter has been applied, view the **Permissions** page. For more information, see [How to: Set Security Filters](How%20to:%20Set%20Security%20Filters.md).  
   
- If you do not have permission to write to a table and you attempt to write, a run\-time error occurs. This function allows you to determine in advance if you have write permission. When the permissions are checked, the combination of permissions in the license file and the user's permissions in the Permission table is considered.  
+ If you do not have permission to write to a table and you attempt to write, a run-time error occurs. This function allows you to determine in advance if you have write permission. When the permissions are checked, the combination of permissions in the license file and the user's permissions in the Permission table is considered.  
   
 ## Example  
  The following example uses a record from the Vendor table to check whether the user is granted write permission to the Vendor table. The return value from the WRITEPERMISSION function is stored in the varHasWrite variable and displayed in a message box. The value, **Yes** is displayed because the user can write to the Vendor table. This example requires that you create the following variables in the **C/AL Globals** window.  

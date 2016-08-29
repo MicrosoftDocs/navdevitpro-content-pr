@@ -12,7 +12,7 @@ caps.latest.revision: 11
 manager: edupont
 ---
 # FIELDERROR Function (Record)
-Stops the execution of the code causing a run\-time error, and creates an error message for a field.  
+Stops the execution of the code causing a run-time error, and creates an error message for a field.  
   
 ## Syntax  
   
@@ -38,7 +38,7 @@ Record.FIELDERROR(Field, [Text])
  Use this optional parameter to include the text of the error message. If you do not use this parameter, then default text is used as shown in the following examples. You can use backslashes \(\\\) to break lines.  
   
 ## Remarks  
- Like a run\-time error, this function causes the system to automatically abort any transaction.  
+ Like a run-time error, this function causes the system to automatically abort any transaction.  
   
 ## Programming Guidelines  
  We recommend the following guidelines for error messages:  
@@ -78,7 +78,7 @@ CustomerRec.FIELDERROR("No.");
  **No. must not be NEW 3500 in Customer No.='NEW 3500'.**  
   
 ## Example  
- The third example uses a non\-empty string as the *Text* parameter. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
+ The third example uses a non-empty string as the *Text* parameter. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

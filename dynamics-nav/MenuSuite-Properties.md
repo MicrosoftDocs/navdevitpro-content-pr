@@ -19,7 +19,7 @@ This topic lists properties that apply to the MenuSuite object.
   
 -   [Bitmap Property](Bitmap-Property.md)  
   
--   [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 -   [CaptionML Property](CaptionML-Property.md)  
   
@@ -27,7 +27,7 @@ This topic lists properties that apply to the MenuSuite object.
   
 1.  [AccessByPermission Property](AccessByPermission-Property.md)  
   
-2.  [Caption Property\-duplicate](Caption-Property-duplicate.md)  
+2.  [Caption Property-duplicate](Caption-Property-duplicate.md)  
   
 3.  [CaptionML Property](CaptionML-Property.md)  
   

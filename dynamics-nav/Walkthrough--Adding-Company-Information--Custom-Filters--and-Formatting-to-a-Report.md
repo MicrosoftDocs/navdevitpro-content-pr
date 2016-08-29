@@ -56,11 +56,11 @@ When you create a report, you can add features such as formatting, custom filter
   
 2.  On the **View** menu, choose **C/AL Globals** to open the **C/AL Globals** window.  
   
-3.  On the **Variable** tab, in the first row, in the **Name** field, enter **ReportFilters**. In the **DataType** field, choose the drop\-down arrow, select **Text**, and then in the **Length** field enter **250**.  
+3.  On the **Variable** tab, in the first row, in the **Name** field, enter **ReportFilters**. In the **DataType** field, choose the drop-down arrow, select **Text**, and then in the **Length** field enter **250**.  
   
-4.  In the second row, in the **Name** field, enter **CompanyInfo**. In the **DataType** field, choose the drop\-down arrow, and then select **Record**. In the **SubType** field, choose the up arrow, and then select the **Company Information** table \(79\).  
+4.  In the second row, in the **Name** field, enter **CompanyInfo**. In the **DataType** field, choose the drop-down arrow, and then select **Record**. In the **SubType** field, choose the up arrow, and then select the **Company Information** table \(79\).  
   
-5.  In the third row, in the **Name** field, enter **ShowCustomerDetails**. In the **DataType** field, choose the drop\-down arrow, and then select **Boolean**.  
+5.  In the third row, in the **Name** field, enter **ShowCustomerDetails**. In the **DataType** field, choose the drop-down arrow, and then select **Boolean**.  
   
 6.  Close the **C/AL Globals** window.  
   
@@ -73,7 +73,7 @@ When you create a report, you can add features such as formatting, custom filter
   
 2.  In the OnPreReport trigger, add the following code: `ReportFilters := Customer.GETFILTERS;`. Close the C/AL Editor.  
   
-3.  In Report Dataset Designer, right\-click the Cust. Ledger Entry DataItem, and then choose **New** to create a new row at the bottom of the Customer DataItem.  
+3.  In Report Dataset Designer, right-click the Cust. Ledger Entry DataItem, and then choose **New** to create a new row at the bottom of the Customer DataItem.  
   
 4.  In the new row, in the **Data Source** field, enter the following code: `Customer.TABLECAPTION+':' + ReportFilters`. In the **Name** field, enter **Cust\_ReportFilter**.  
   
@@ -93,11 +93,11 @@ When you create a report, you can add features such as formatting, custom filter
   
 12. On the **DataSource** node, under **DataSet\_Result**, drag the **Cust\_ ReportFilter** item to the space you that you created at the top of the body of the Report Designer.  
   
-13. Right\-click the Cust\_ReportFilter text box, and then choose **Expression** to open the **Expression** window.  
+13. Right-click the Cust\_ReportFilter text box, and then choose **Expression** to open the **Expression** window.  
   
 14. In the **Set expression for: Value** box, replace the expression with the following expression: `=First(Fields!Cust_ReportFilter.Value)`. Choose the **OK** button.  
   
-15. Select the **Cust\_ReportFilter** text box, in the Visual Studio **Properties** pane, locate the **Hidden** property, choose the drop\-down list, and then choose **Expression**.  
+15. Select the **Cust\_ReportFilter** text box, in the Visual Studio **Properties** pane, locate the **Hidden** property, choose the drop-down list, and then choose **Expression**.  
   
 16. In the **Set expression for: Hidden** box, replace the expression with the following expression: `=iif(First(Fields!ReportFilters.Value=""),true,false)`. Choose the **OK** button.  
   
@@ -110,7 +110,7 @@ When you create a report, you can add features such as formatting, custom filter
   
 1.  In Report Dataset Designer, select a DataItem, and then in the dialog box that appears, choose the **Yes** button. The dialog box contains a message that states that the layout of the report is changed by another application.  
   
-2.  In Report Dataset Designer, right\-click the Cust. Ledger Entry DataItem, and then choose **New** to create a new row at the bottom of the Customer DataItem.  
+2.  In Report Dataset Designer, right-click the Cust. Ledger Entry DataItem, and then choose **New** to create a new row at the bottom of the Customer DataItem.  
   
 3.  In the new row, in the **Data Source** field, choose the AssistEdit button to open the **C/AL Symbol Menu** window.  
   
@@ -122,7 +122,7 @@ When you create a report, you can add features such as formatting, custom filter
   
 7.  In the Report RDLC layout in Visual Studio, on the **View** menu, choose **Report Data**.  
   
-8.  In the **Report Data** pane, right\-click the **DataSource** node, choose **Refresh**, and then verify that the **CompanyName** report item appears in the list under the **DataSource** node.  
+8.  In the **Report Data** pane, right-click the **DataSource** node, choose **Refresh**, and then verify that the **CompanyName** report item appears in the list under the **DataSource** node.  
   
 9. Drag the **CompanyName** report data item to the **Report Header** section of the report, build the report, and then close the Visual Studio Designer. The information that is on the header section will be displayed on every page on the report.  
   
@@ -130,7 +130,7 @@ When you create a report, you can add features such as formatting, custom filter
   
 1.  In Report Dataset Designer, select a DataItem. In the dialog box that states that the layout of the report is changed by another application, choose the **Yes** button.  
   
-2.  In Report Dataset Designer, right\-click the Cust. Ledger Entry DataItem, and then choose **New** to create a new row at the bottom of the Customer DataItem.  
+2.  In Report Dataset Designer, right-click the Cust. Ledger Entry DataItem, and then choose **New** to create a new row at the bottom of the Customer DataItem.  
   
 3.  In the new row, in the **Data Source** field, choose the AssistEdit button to open the **C/AL Symbol Menu** window.  
   
@@ -179,7 +179,7 @@ When you create a report, you can add features such as formatting, custom filter
   
 3.  In the first row, in the **Caption** field, enter **Container**, and then accept the defaults for the rest of the fields.  
   
-4.  In the second row, in the **Type** field, choose the drop\-down arrow, and then select **Group**. In **SubType** field, choose the drop\-down arrow, and then select **Group**. In the **Name** field, enter **Option**. Accept the default for the **Caption** field.  
+4.  In the second row, in the **Type** field, choose the drop-down arrow, and then select **Group**. In **SubType** field, choose the drop-down arrow, and then select **Group**. In the **Name** field, enter **Option**. Accept the default for the **Caption** field.  
   
 5.  In the next empty row, in the **Type** field, select **Field**. In the **Name** field, enter **ShowCustDetails**. In the **Caption** field, enter **Show Customer Details**.  
   
@@ -199,7 +199,7 @@ When you create a report, you can add features such as formatting, custom filter
   
      ![Customer Details cells](media/MicrosoftDynamicsNAV_CustDetailCells.jpg "MicrosoftDynamicsNAV\_CustDetailCells")  
   
-12. In the **Properties** pane, locate the **Hidden** property, choose the drop\-down list, choose **Expression**, and then enter the following conditional expression in the **Set expression for: Hidden** box: `=iif(Fields!ShowCustomerDetails.Value,false,true)`. This expression replaces any expression in the box. Choose the **OK** button. This expression hides the customer details information unless the **Show Customer Details** option is selected on the request page.  
+12. In the **Properties** pane, locate the **Hidden** property, choose the drop-down list, choose **Expression**, and then enter the following conditional expression in the **Set expression for: Hidden** box: `=iif(Fields!ShowCustomerDetails.Value,false,true)`. This expression replaces any expression in the box. Choose the **OK** button. This expression hides the customer details information unless the **Show Customer Details** option is selected on the request page.  
   
     > [!NOTE]  
     >  When you select multiple cells, the **Properties** pane will display properties that are common to the selected cells.  
@@ -248,11 +248,11 @@ When you create a report, you can add features such as formatting, custom filter
   
 4.  On the **View** menu, choose **Layout**.  
   
-5.  Right\-click the cell that contains the Prices Including VAT value in the Sales Header item, and then choose **Expression**.  
+5.  Right-click the cell that contains the Prices Including VAT value in the Sales Header item, and then choose **Expression**.  
   
 6.  Delete the expression in the **Set expression for: Value** box.  
   
-7.  In the **Expression** window, in the **Category** box, select **Fields\(DataSet\_Results\)**, and then in the **Values** box, double\-click **F\_Prices\_Including\_VAT**.  
+7.  In the **Expression** window, in the **Category** box, select **Fields\(DataSet\_Results\)**, and then in the **Values** box, double-click **F\_Prices\_Including\_VAT**.  
   
 8.  Verify that the **Set expression for: Value** box contains the following expression: `=Fields!F_Prices_Including_VAT.Value`. Choose the **OK** button.  
   
@@ -260,15 +260,15 @@ When you create a report, you can add features such as formatting, custom filter
   
 1.  In the table that contains the Customer Ledger Entry data, select the cell that contains the **Amount** field.  
   
-2.  In the **Properties** pane, locate the **Format** property, select the drop\-down list, and then choose **Expression** to open the **Expression** window.  
+2.  In the **Properties** pane, locate the **Format** property, select the drop-down list, and then choose **Expression** to open the **Expression** window.  
   
-3.  In the **Category** box, select **Fields\(DataSet\_Results\)**, and then in the **Values** box, double\-click **Amount\_CustLedgerEntryFormat**.  
+3.  In the **Category** box, select **Fields\(DataSet\_Results\)**, and then in the **Values** box, double-click **Amount\_CustLedgerEntryFormat**.  
   
 4.  Verify that the **Set expression for: Value** box contains the following expression: `=Fields!Amount_CustLedgerEntryFormat.Value`. Choose the **OK** button.  
   
-5.  Repeat steps 1 through 4 and format the cells that contain Amount values as show in the following table. Make sure that you double\-click the appropriate field in the **Values** box and verify that the **Set expression for: Value** box contains the expression for appropriate field.  
+5.  Repeat steps 1 through 4 and format the cells that contain Amount values as show in the following table. Make sure that you double-click the appropriate field in the **Values** box and verify that the **Set expression for: Value** box contains the expression for appropriate field.  
   
-    |Table|Field|Fields\(DataSet\_Results\) Value to double\-click|Set expression for: Value box|  
+    |Table|Field|Fields\(DataSet\_Results\) Value to double-click|Set expression for: Value box|  
     |-----------|-----------|-------------------------------------------------------|-----------------------------------|  
     |Customer Ledger Entry|Original Amt. \(LCY\)|OriginalAmtLCY\_CustLedgerEntryFormat|=Fields\!OriginalAmtLCY\_CustLedgerEntryFormat.Value|  
     |Customer Ledger Entry|Remaining Amt.\(LCY\)|RemainingAmtLCY\_CustLedgerEntryFormat|=Fields\!RemainingAmtLCY\_CustLedgerEntryFormat.Value|  
@@ -282,7 +282,7 @@ When you create a report, you can add features such as formatting, custom filter
   
 #### To hide zero decimal values  
   
-1.  Right\-click the cell that displays the amount in the Sales header item, choose **Expression**, in the **Set expression for: Value** box, replace the expression with following expression: `=Code.BlankZero(Fields!Amount_SalesHeader.Value)`. The `Code.BlankZero()` function hides decimal values that are zero.  
+1.  Right-click the cell that displays the amount in the Sales header item, choose **Expression**, in the **Set expression for: Value** box, replace the expression with following expression: `=Code.BlankZero(Fields!Amount_SalesHeader.Value)`. The `Code.BlankZero()` function hides decimal values that are zero.  
   
 2.  Repeat step 1 to apply the `Code.BlankZero()` function to all the amount fields.  
   
@@ -301,7 +301,7 @@ When you create a report, you can add features such as formatting, custom filter
   
 5.  Resize the table columns and rows so that the values in the fields fit in the table cells.  
   
-6.  Drag a text box from the **Toolbox** to the header section of the report, right\-click the text box, and then choose **Text Box Properties**.  
+6.  Drag a text box from the **Toolbox** to the header section of the report, right-click the text box, and then choose **Text Box Properties**.  
   
 7.  In the **Text Box Properties** window, choose the **General** tab. In the **Value** field, enter a title for the report. For example, you can enter **Report From Multiple Tables**.  
   
@@ -317,7 +317,7 @@ When you create a report, you can add features such as formatting, custom filter
   
     |Control or element|BoarderStyle|FontFamily|FontSize|FontWeight|  
     |------------------------|------------------|----------------|--------------|----------------|  
-    |Row that contains the Cust. Ledger Entry captions|Bottom \- Solid|Not applicable|Not applicable|Not applicable|  
+    |Row that contains the Cust. Ledger Entry captions|Bottom - Solid|Not applicable|Not applicable|Not applicable|  
     |All controls on the report|Not applicable|Segoe UI|8pt|Not applicable|  
     |All caption cells|Not applicable|Not applicable|Not applicable|Bold|  
     |All data cells|Not applicable|Not applicable|Not applicable|Normal|  

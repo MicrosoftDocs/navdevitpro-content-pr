@@ -25,4 +25,4 @@ After you have gained access to the database, you can open the company that you 
 ## See Also  
  [Data Security](Data-Security.md)   
  [Business Areas and Granules](Business-Areas-and-Granules.md)   
- [Object\-Level Security](Object-Level-Security.md)
+ [Object-Level Security](Object-Level-Security.md)

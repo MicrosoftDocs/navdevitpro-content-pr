@@ -44,7 +44,7 @@ A temporary table is a temporary variable that holds a table. A temporary table 
   
 3.  Enter a name for the temporary table variable, and enter or select **Record** as the data type. Use the up arrow in the **Subtype** field to select the table to copy.  
   
-4.  With the cursor still on the line that defines the temporary table, choose **View**, and then choose **Properties** \(Shift\+F4\) to display the **Properties** window.  
+4.  With the cursor still on the line that defines the temporary table, choose **View**, and then choose **Properties** \(Shift+F4\) to display the **Properties** window.  
   
      ![Properties window](media/NAV_ADG_8_Table_32.gif "NAV\_ADG\_8\_Table\_32")  
   
@@ -54,4 +54,4 @@ A temporary table is a temporary variable that holds a table. A temporary table 
   
 ## See Also  
  [Special Tables](Special-Tables.md)   
- [Programming in C\-AL](Programming-in-C-AL.md)
+ [Programming in C-AL](Programming-in-C-AL.md)

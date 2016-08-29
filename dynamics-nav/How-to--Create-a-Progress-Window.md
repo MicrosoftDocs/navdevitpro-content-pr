@@ -23,9 +23,9 @@ If you have an application that performs some processing which can take a long t
   
 3.  On the **View** menu, choose **C/AL Globals**.  
   
-4.  On the **Variables** tab, in the **Name** field, enter **ProgressWindow**. In the **Data Type** field, select **Dialog** from the drop\-down list.  
+4.  On the **Variables** tab, in the **Name** field, enter **ProgressWindow**. In the **Data Type** field, select **Dialog** from the drop-down list.  
   
-5.  On the **Variables** tab, on a new line in the **Name** field, enter **ChartOfAcc**. In the **Data Type** field, select **Record** from the drop\-down list. In the **Subtype** field, select **G\/L Account** from the table list.  
+5.  On the **Variables** tab, on a new line in the **Name** field, enter **ChartOfAcc**. In the **Data Type** field, select **Record** from the drop-down list. In the **Subtype** field, select **G\/L Account** from the table list.  
   
 6.  In the **C/AL Editor** for the dialog, add the following code.  
   

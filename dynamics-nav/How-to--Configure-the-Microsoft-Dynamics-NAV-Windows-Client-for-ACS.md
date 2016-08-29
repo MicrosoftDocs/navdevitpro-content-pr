@@ -23,7 +23,7 @@ You configure the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] for Access
      A separate instance of the ClientUserSettings.config file is maintained for each client user. The default location for this file is C:\\Users\\*\<username\>*\\AppData\\Roaming\\Microsoft\\[!INCLUDE[navnow](includes/navnow_md.md)]\\90, where \<username\> is the name of the user. By default, this folder and file are hidden. Change your folder options in Windows Explorer to view hidden files before you modify the ClientUserSettings.config file.  
   
     > [!CAUTION]  
-    >  To ensure that your edits to ClientUserSettings.config are saved, first open Notepad as an Administrator and then, in Notepad, open the settings file. To open Notepad as an Administrator, from the **Start** menu, right\-click **Notepad**, and then choose **Run as Administrator**.  
+    >  To ensure that your edits to ClientUserSettings.config are saved, first open Notepad as an Administrator and then, in Notepad, open the settings file. To open Notepad as an Administrator, from the **Start** menu, right-click **Notepad**, and then choose **Run as Administrator**.  
   
 2.  In ClientUserSettings.config, modify the following settings.  
   

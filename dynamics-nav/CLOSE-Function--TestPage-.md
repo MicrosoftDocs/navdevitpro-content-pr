@@ -28,7 +28,7 @@ TestPage.CLOSE
  The test page that you want to close.  
   
 ## Remarks  
- If *TestPage* has never been opened or is already closed, then a run\-time error occurs, and the outcome of the test function is FAILURE.  
+ If *TestPage* has never been opened or is already closed, then a run-time error occurs, and the outcome of the test function is FAILURE.  
   
 ## Example  
  This example requires that you create a TestPage variable named CustTestPage with a Subtype of Customer List and that the codeunit in which you write the code is a test codeunit.  

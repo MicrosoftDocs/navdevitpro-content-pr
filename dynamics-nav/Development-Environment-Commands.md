@@ -34,7 +34,7 @@ manager: edupont
 |[GetBuildVersion](GetBuildVersion.md)|Gets the [!INCLUDE[navnow](includes/navnow_md.md)] product name and build version.|  
   
 > [!NOTE]  
->  To compile objects, design objects, or import and export objects as .txt files, you must have a developer license. For all other tasks, you can have either an end\-user license or a developer license.  
+>  To compile objects, design objects, or import and export objects as .txt files, you must have a developer license. For all other tasks, you can have either an end-user license or a developer license.  
   
 ## See Also  
  [Using the Development Environment from the Command Prompt](Using-the-Development-Environment-from-the-Command-Prompt.md)

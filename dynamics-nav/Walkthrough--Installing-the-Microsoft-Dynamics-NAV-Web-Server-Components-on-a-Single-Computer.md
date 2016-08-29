@@ -16,7 +16,7 @@ In this walkthrough, you will install the tiers of [!INCLUDE[nav_web](includes/n
  ![NAV Web Client installation on one computer](media/Nav_Web_Client_Install_Single_Computer.png "Nav\_Web\_Client\_Install\_Single\_Computer")  
   
 ## About This Walkthrough  
- After completing this walkthrough, you will have a functioning four\-tier installation on one computer. The installation uses the [!INCLUDE[demolong](includes/demolong_md.md)], which contains the [!INCLUDE[demoname](includes/demoname_md.md)] company. Windows authentication is used for authenticating users who try to access the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
+ After completing this walkthrough, you will have a functioning four-tier installation on one computer. The installation uses the [!INCLUDE[demolong](includes/demolong_md.md)], which contains the [!INCLUDE[demoname](includes/demoname_md.md)] company. Windows authentication is used for authenticating users who try to access the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
  This walkthrough illustrates the following tasks:  
   
@@ -39,7 +39,7 @@ In this walkthrough, you will install the tiers of [!INCLUDE[nav_web](includes/n
   
     -   A supported version of Microsoft SQL Server. For more information, see [System Requirements for Microsoft Dynamics NAV 2016](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md)  
   
-         If a supported SQL Server product is not already installed on the target computer, then [!INCLUDE[navnow](includes/navnow_md.md)] Setup automatically installs a 64\-bit edition of SQL Server Express.  
+         If a supported SQL Server product is not already installed on the target computer, then [!INCLUDE[navnow](includes/navnow_md.md)] Setup automatically installs a 64-bit edition of SQL Server Express.  
   
          For more information, see [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md).  
   
@@ -108,7 +108,7 @@ In this walkthrough, you will install the tiers of [!INCLUDE[nav_web](includes/n
   
 11. In the **SQL Server Database Components** section, in the **SQL Database** field, type a name for the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
-     For this walkthrough, type **Demo Database NAV \(9\-0\).**  
+     For this walkthrough, type **Demo Database NAV \(9-0\).**  
   
 12. In the **Web Server Components** section, set the **Port** field to **8080**.  
   

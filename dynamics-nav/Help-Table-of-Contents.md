@@ -27,7 +27,7 @@ The [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Help Server includes a nav
 |*DisplayName*|Specifies the text that displays in the navigation pane.<br /><br /> It is a best practice that the display name is the same as or very similar to the title of the target topic.|*Getting Started with Microsoft Dynamics NAV 2016*|  
 |*Page*|Specifies the target topic that opens when the user chooses the link.|*conGettingStarted.htm*|  
   
- You can create subentries for an entry in the navigation pane by embedding `<node>` elements within another `<node>` element. However, you should keep the navigation pane limited to key topics only since most users access Help through context\-sensitive Help calls and through Search.  
+ You can create subentries for an entry in the navigation pane by embedding `<node>` elements within another `<node>` element. However, you should keep the navigation pane limited to key topics only since most users access Help through context-sensitive Help calls and through Search.  
   
 ## See Also  
  [Configuring Microsoft Dynamics NAV Help Server](Configuring-Microsoft-Dynamics-NAV-Help-Server.md)   

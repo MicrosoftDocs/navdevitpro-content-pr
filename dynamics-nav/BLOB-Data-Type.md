@@ -17,7 +17,7 @@ A binary large object \(BLOB\) is a complex data type. Variables of this data ty
  The maximum size of a BLOB is 2 GB.  
   
 ## Remarks  
- Use BLOBs to store memos \(text\), pictures \(bitmaps\), or user\-defined types.  
+ Use BLOBs to store memos \(text\), pictures \(bitmaps\), or user-defined types.  
   
 > [!NOTE]  
 >  You cannot view text that is stored in BLOBs from the development environment.  

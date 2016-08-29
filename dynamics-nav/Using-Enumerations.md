@@ -61,5 +61,5 @@ EnumTarget.MyMethod(0); // Assumes that the enumeration value Red has the numeri
  The common language runtime automatically maps the value `0` to the correct enumeration value of `Red`.  
   
 ## See Also  
- [Calling .NET Framework Members from C\-AL](Calling-.NET-Framework-Members-from-C-AL.md)   
+ [Calling .NET Framework Members from C-AL](Calling-.NET-Framework-Members-from-C-AL.md)   
  [Extending Microsoft Dynamics NAV Using Microsoft .NET Framework Interoperability](Extending-Microsoft-Dynamics-NAV-Using-Microsoft-.NET-Framework-Interoperability.md)

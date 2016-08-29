@@ -90,6 +90,6 @@ Query objects and Record objects, including both explicit record variables and i
 >  We recommend that you change commonly used record variables from the default value of **Validated** to either **Filtered** or **Ignored** to improve performance.  
   
 ## See Also  
- [Record\-Level Security](Record-Level-Security.md)   
+ [Record-Level Security](Record-Level-Security.md)   
  [How to: Set Security Filters](How%20to:%20Set%20Security%20Filters.md)   
  [SecurityFiltering Property](SecurityFiltering-Property.md)

@@ -11,12 +11,12 @@ ms.assetid: 758fd34e-e77d-4d35-bea9-7dcef8f7ea40
 caps.latest.revision: 27
 ---
 # Walkthrough: Creating and Using a Client Control Add-in
-This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_md.md)] control add\-in and use it on a [!INCLUDE[navnow](includes/navnow_md.md)] page. A client control add\-in enables you to add custom functionality to the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and the [!INCLUDE[nav_web](includes/nav_web_md.md)] by creating a control add\-in that can run on both client platforms.  
+This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_md.md)] control add-in and use it on a [!INCLUDE[navnow](includes/navnow_md.md)] page. A client control add-in enables you to add custom functionality to the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and the [!INCLUDE[nav_web](includes/nav_web_md.md)] by creating a control add-in that can run on both client platforms.  
   
 > [!IMPORTANT]  
->  This walkthrough addresses the [!INCLUDE[navnow](includes/navnow_md.md)] implementation of extensibility. This makes it possible to write control add\-ins for all display targets. For information about how to write control add\-ins specifically for [!INCLUDE[nav_windows](includes/nav_windows_md.md)], see [Extending the Windows Client Using Control Add\-ins](Extending-the-Windows-Client-Using-Control-Add-ins.md).  
+>  This walkthrough addresses the [!INCLUDE[navnow](includes/navnow_md.md)] implementation of extensibility. This makes it possible to write control add-ins for all display targets. For information about how to write control add-ins specifically for [!INCLUDE[nav_windows](includes/nav_windows_md.md)], see [Extending the Windows Client Using Control Add-ins](Extending-the-Windows-Client-Using-Control-Add-ins.md).  
   
- In a typical business scenario, developers create control add\-ins using Microsoft Visual Studio Express, or Visual Studio 2013. Implementers of [!INCLUDE[navnow](includes/navnow_md.md)] solutions then use the control add\-ins on [!INCLUDE[navnow](includes/navnow_md.md)] client pages, such as the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the [!INCLUDE[nav_web](includes/nav_web_md.md)], or the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)].  
+ In a typical business scenario, developers create control add-ins using Microsoft Visual Studio Express, or Visual Studio 2013. Implementers of [!INCLUDE[navnow](includes/navnow_md.md)] solutions then use the control add-ins on [!INCLUDE[navnow](includes/navnow_md.md)] client pages, such as the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the [!INCLUDE[nav_web](includes/nav_web_md.md)], or the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)].  
   
 ## Prerequisites  
  To complete this walkthrough, you will need:  
@@ -34,10 +34,10 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
 ## Story  
  Simon is a software developer working for [!INCLUDE[demoname](includes/demoname_md.md)] He has been told that the users of the [!INCLUDE[nav_web](includes/nav_web_md.md)] want to see Bing Maps displayed on the Web client. He wants to use the client extensibility framework to test how to do this on a separate page first.  
   
-## Creating a Control Add\-in With Visual Studio  
- [!INCLUDE[navnow](includes/navnow_md.md)] includes the Microsoft.Dynamics.Framework.UI.Extensibility.dll assembly that defines the model for creating [!INCLUDE[navnow](includes/navnow_md.md)] control add\-ins. The [!INCLUDE[navnow](includes/navnow_md.md)] API provides the binding mechanism between the [!INCLUDE[navnow](includes/navnow_md.md)] control add\-in and the [!INCLUDE[navnow](includes/navnow_md.md)] framework.  
+## Creating a Control Add-in With Visual Studio  
+ [!INCLUDE[navnow](includes/navnow_md.md)] includes the Microsoft.Dynamics.Framework.UI.Extensibility.dll assembly that defines the model for creating [!INCLUDE[navnow](includes/navnow_md.md)] control add-ins. The [!INCLUDE[navnow](includes/navnow_md.md)] API provides the binding mechanism between the [!INCLUDE[navnow](includes/navnow_md.md)] control add-in and the [!INCLUDE[navnow](includes/navnow_md.md)] framework.  
   
-### To create the control add\-in  
+### To create the control add-in  
   
 1.  In Visual Studio, on the **File** menu, choose **New**, and then choose **Project**.  
   
@@ -47,7 +47,7 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
   
 4.  You will add a reference to the following assembly: `Microsoft.Dynamics.Framework.UI.Extensibility.dll`  
   
-5.  In Solution Explorer, right\-click your project, and then choose **Add Reference**.  
+5.  In Solution Explorer, right-click your project, and then choose **Add Reference**.  
   
 6.  In the **Add Reference** window, on the **Browse** tab, navigate to the location of the Microsoft.Dynamics.Framework.UI.Extensibility.dll assembly on your computer, and then choose the **OK** button. By default, the path of the assembly is [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client.  
   
@@ -84,7 +84,7 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
   
     ```  
   
-9. You will use the name `BingMapsControl` later in the walkthrough when you register the control add\-in in [!INCLUDE[navnow](includes/navnow_md.md)].  
+9. You will use the name `BingMapsControl` later in the walkthrough when you register the control add-in in [!INCLUDE[navnow](includes/navnow_md.md)].  
   
  The assembly must now be signed to be used with [!INCLUDE[navnow](includes/navnow_md.md)]. The next steps will discuss how to sign the assembly.  
   
@@ -94,7 +94,7 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
   
 2.  In the **Properties** window, choose **Signing**, and then select the **Sign the assembly** check box.  
   
-3.  In the **Choose a strong name key file** drop\-down list, select **New**.  
+3.  In the **Choose a strong name key file** drop-down list, select **New**.  
   
 4.  In the **Key file name** text box, enter **BingMapsControlAddIn**, and then clear the **Protect my key file with a password** check box.  
   
@@ -104,21 +104,21 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
   
 7.  On the **Build** menu, choose **Build \<Your Solution\>** to build the project. Verify that the build succeeds.  
   
-## Copying the Control Add\-in Assembly to the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]  
- After you build the control add\-in, you copy the output assembly file to the computer that is running the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].  
+## Copying the Control Add-in Assembly to the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]  
+ After you build the control add-in, you copy the output assembly file to the computer that is running the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].  
   
-#### To copy the control add\-in assembly to the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]  
+#### To copy the control add-in assembly to the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]  
   
-1.  On the computer, locate and copy the control add\-in assembly file \(.dll\) file in the control add\-in project’s output folder.  
+1.  On the computer, locate and copy the control add-in assembly file \(.dll\) file in the control add-in project’s output folder.  
   
 2.  By default, this folder is C:\\Documents\\MyDocuments\\Visual Studio\\Projects\\\[Your Addin Project\]\\\[Your Class Library\]\\bin\\Debug.  
   
-3.  On the computer that is running the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], paste the assembly in the Add\-ins folder.  
+3.  On the computer that is running the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], paste the assembly in the Add-ins folder.  
   
-     By default, this folder is [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add\-ins.  
+     By default, this folder is [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add-ins.  
   
 ## Creating the Manifest File  
- After you create an interface in Visual Studio that exposes a number of properties for the BingMapsControlAddIn, you must create a manifest file. A manifest file is written in XML and contains information such as where to look for resource files, references to external JavaScripts, and the size of the control add\-in. For more information, see [Manifest Overview](Manifest-Overview.md). In the next steps, you will create a manifest file that loads a BingMaps control and you will register this manifest in the **Client Add\-in** page.  
+ After you create an interface in Visual Studio that exposes a number of properties for the BingMapsControlAddIn, you must create a manifest file. A manifest file is written in XML and contains information such as where to look for resource files, references to external JavaScripts, and the size of the control add-in. For more information, see [Manifest Overview](Manifest-Overview.md). In the next steps, you will create a manifest file that loads a BingMaps control and you will register this manifest in the **Client Add-in** page.  
   
 #### To create the manifest file  
   
@@ -149,7 +149,7 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
   
     ```  
   
-2.  Save the manifest to a file that is in same directory that the assembly is saved in, the Add\-ins directory.  
+2.  Save the manifest to a file that is in same directory that the assembly is saved in, the Add-ins directory.  
   
      Name the manifest **Manifest** and make sure to add the .xml extension to the file, so that the file name will now be **Manifest.xml**.  
   
@@ -210,10 +210,10 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
   
 2.  Save and name the script **Script** and make sure to add the .js extension to the file, so that the file name will now be **Script.js**.  
   
- The next step is to create a .zip file containing the manifest and resource files and register this file with the control add\-in in [!INCLUDE[navnow](includes/navnow_md.md)].  
+ The next step is to create a .zip file containing the manifest and resource files and register this file with the control add-in in [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 ## Creating a Resource .Zip File  
- Before registering the control add\-in in [!INCLUDE[navnow](includes/navnow_md.md)], you must create one single file containing the manifest and any resource files. This single file is a .zip file and it will be registered in the **Client Add\-in** page. The .zip file must contain a certain structure for it to be recognized by the **Client Add\-in** page. In the next steps, you will create the right structure and a .zip file.  
+ Before registering the control add-in in [!INCLUDE[navnow](includes/navnow_md.md)], you must create one single file containing the manifest and any resource files. This single file is a .zip file and it will be registered in the **Client Add-in** page. The .zip file must contain a certain structure for it to be recognized by the **Client Add-in** page. In the next steps, you will create the right structure and a .zip file.  
   
 #### To create a resource .zip file  
   
@@ -225,32 +225,32 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
   
 3.  Place images, scripts, and stylesheets in the right folders, but in this walkthrough we will leave the rest of these folders empty.  
   
-4.  In the Windows Explorer mark all of the folders and the manifest file and right\-click, and then choose **Send to…**, and then choose **Compressed \(zipped\) folder**.  
+4.  In the Windows Explorer mark all of the folders and the manifest file and right-click, and then choose **Send to…**, and then choose **Compressed \(zipped\) folder**.  
   
 5.  Name the .zip file **BingMapsControlAddIn**.  
   
-## Registering the Control Add\-in in [!INCLUDE[navnow](includes/navnow_md.md)]  
- To register a control add\-in, you include it in the **Control Add\-in** page in [!INCLUDE[navnow](includes/navnow_md.md)]. To include a control add\-in in the page, you must provide the following information:  
+## Registering the Control Add-in in [!INCLUDE[navnow](includes/navnow_md.md)]  
+ To register a control add-in, you include it in the **Control Add-in** page in [!INCLUDE[navnow](includes/navnow_md.md)]. To include a control add-in in the page, you must provide the following information:  
   
--   Control Add\-in name.  
+-   Control Add-in name.  
   
-     The control add\-in name is determined by the `Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExport` attribute value of control add\-in class definition that you specified when you created the control add\-in. The name in this walkthrough is `BingMapsControl`.  
+     The control add-in name is determined by the `Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExport` attribute value of control add-in class definition that you specified when you created the control add-in. The name in this walkthrough is `BingMapsControl`.  
   
 -   Public key token.  
   
-     This is a 16\-character key that is given to the assembly when it is signed and built in Visual Studio. You can determine the public key token by running the Microsoft .NET Strong name Utility \(sn.exe\) on the assembly. You must run the utility from the Visual Studio command prompt. The sn.exe utility is available with Visual Studio.  
+     This is a 16-character key that is given to the assembly when it is signed and built in Visual Studio. You can determine the public key token by running the Microsoft .NET Strong name Utility \(sn.exe\) on the assembly. You must run the utility from the Visual Studio command prompt. The sn.exe utility is available with Visual Studio.  
   
 -   Resource.  
   
-     On the **Control Add\-in** page, the **Resource** field is a BLOB data type and the content of the field cannot be viewed from the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].  
+     On the **Control Add-in** page, the **Resource** field is a BLOB data type and the content of the field cannot be viewed from the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].  
   
-     When this field is filled in, [!INCLUDE[navnow](includes/navnow_md.md)] identifies the registered control add\-in as a type of control add\-in that works on all display targets.  
+     When this field is filled in, [!INCLUDE[navnow](includes/navnow_md.md)] identifies the registered control add-in as a type of control add-in that works on all display targets.  
   
-#### To determine the public key token for the control add\-in  
+#### To determine the public key token for the control add-in  
   
 1.  On the Windows taskbar, choose **Start**, choose **All Programs**, choose **Microsoft Visual Studio 2013**, choose **Visual Studio Tools**, and then choose **Developer Command Prompt for VS2013** to open the command prompt.  
   
-2.  At a command prompt, change to the directory that contains the assembly that you copied. For example, [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add\-ins.  
+2.  At a command prompt, change to the directory that contains the assembly that you copied. For example, [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add-ins.  
   
 3.  Type the following command: `sn –T <assembly>`  
   
@@ -258,26 +258,26 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
   
 4.  Press Enter and note the public token key that is displayed.  
   
-#### To include the control add\-in in the Control Add\-in page  
+#### To include the control add-in in the Control Add-in page  
   
 1.  Open [!INCLUDE[navnow](includes/navnow_md.md)].  
   
-2.  In the **Search** box, enter **Control Add\-ins** and then choose the related link.  
+2.  In the **Search** box, enter **Control Add-ins** and then choose the related link.  
   
-3.  In the **Control Add\-ins** window, choose **New**, and then in the **Control Add\-in Name** column, enter the control add\-in name. In the **Public Key Token** column, enter the public key token that you obtained earlier.  
+3.  In the **Control Add-ins** window, choose **New**, and then in the **Control Add-in Name** column, enter the control add-in name. In the **Public Key Token** column, enter the public key token that you obtained earlier.  
   
- With the **Control Add\-in** window still open, you will now import the .zip file for the **BingMapsControlAddIn** add\-in.  
+ With the **Control Add-in** window still open, you will now import the .zip file for the **BingMapsControlAddIn** add-in.  
   
-#### To include the .zip file in the Control Add\-in page  
+#### To include the .zip file in the Control Add-in page  
   
 1.  Choose **Import**.  
   
-2.  In the **Import Control Add\-in Resource** window, locate the BingMapsControlAddIn.zip file that you saved earlier, and then choose **Open**.  
+2.  In the **Import Control Add-in Resource** window, locate the BingMapsControlAddIn.zip file that you saved earlier, and then choose **Open**.  
   
-3.  Choose the **OK** button to close the **Control Add\-in** page.  
+3.  Choose the **OK** button to close the **Control Add-in** page.  
   
-## Creating a Page to Display the Control Add\-in  
- You have set up the prerequisites for using a control add\-in from a page. Now you need a way to display the BingMapsControlAddIn control. In this section, you will create a new page called **Bing Maps** that contains two fields to control the coordinates of the map and one field that contains the map control. This involves the following tasks:  
+## Creating a Page to Display the Control Add-in  
+ You have set up the prerequisites for using a control add-in from a page. Now you need a way to display the BingMapsControlAddIn control. In this section, you will create a new page called **Bing Maps** that contains two fields to control the coordinates of the map and one field that contains the map control. This involves the following tasks:  
   
 -   Creating a new page called Bing Maps.  
   
@@ -309,7 +309,7 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
   
 9. Save and compile the page. Name the page **Bing Maps**.  
   
- Now you have created a page skeleton. The next step is to add code and call the control add\-in from a control on the page.  
+ Now you have created a page skeleton. The next step is to add code and call the control add-in from a control on the page.  
   
 ###### To add variables and properties  
   
@@ -331,9 +331,9 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
   
 9. Select the **BingMapsControl** field, and then on the **View** menu, choose **Properties**.  
   
-10. In the **Properties** window, locate the **ControlAddIn** property and choose the Up Arrow. Select the **BingMapsControl** control add\-in from the **Client Add\-in** window.  
+10. In the **Properties** window, locate the **ControlAddIn** property and choose the Up Arrow. Select the **BingMapsControl** control add-in from the **Client Add-in** window.  
   
-11. Choose the **OK** button to close the **Client Add\-In** window. The public key token is inserted into the **Value** field. Close the **Properties** window.  
+11. Choose the **OK** button to close the **Client Add-In** window. The public key token is inserted into the **Value** field. Close the **Properties** window.  
   
 ###### To add C/AL triggers  
   
@@ -363,8 +363,8 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
  After you have saved and compiled the **Bing Maps** page, you can run the page directly from the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to verify that it works on the [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [Opening a Page in the Microsoft Dynamics NAV Web Client by Using a URL](Opening-a-Page-in-the-Microsoft-Dynamics-NAV-Web-Client-by-Using-a-URL.md).  
   
 ## Next Steps  
- Now you have created a Client Control Add\-in that runs on the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the [!INCLUDE[nav_web](includes/nav_web_md.md)], and the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)]. A next step could be to implement a control add\-in on an existing page or on the Role Center to display a Bing Map of where customers are located.  
+ Now you have created a Client Control Add-in that runs on the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the [!INCLUDE[nav_web](includes/nav_web_md.md)], and the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)]. A next step could be to implement a control add-in on an existing page or on the Role Center to display a Bing Map of where customers are located.  
   
 ## See Also  
- [Extending Microsoft Dynamics NAV Using Control Add\-ins](Extending-Microsoft-Dynamics-NAV-Using-Control-Add-ins.md)   
- [Extending Any Microsoft Dynamics NAV Client Using Control Add\-ins](Extending-Any-Microsoft-Dynamics-NAV-Client-Using-Control-Add-ins.md)
+ [Extending Microsoft Dynamics NAV Using Control Add-ins](Extending-Microsoft-Dynamics-NAV-Using-Control-Add-ins.md)   
+ [Extending Any Microsoft Dynamics NAV Client Using Control Add-ins](Extending-Any-Microsoft-Dynamics-NAV-Client-Using-Control-Add-ins.md)

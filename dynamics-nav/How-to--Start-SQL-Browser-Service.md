@@ -24,13 +24,13 @@ When using a named database instance for [!INCLUDE[navnow](includes/navnow_md.md
   
 2.  In SQL Server Configuration Manager, in the navigation pane on the left, choose **SQL Server Services**.  
   
-3.  Right\-click **SQL Server Browser**, and then choose **Properties**.  
+3.  Right-click **SQL Server Browser**, and then choose **Properties**.  
   
 4.  On the **Service** tab of the **SQL Server Browser** dialog box, set the **Start mode** to **Automatic**.  
   
 5.  Choose **OK** to return to the SQL Server Configuration Manager main page.  
   
-6.  Right\-click **SQL Server Browser** again, and then choose **Start**.  
+6.  Right-click **SQL Server Browser** again, and then choose **Start**.  
   
 ## See Also  
  [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md)   

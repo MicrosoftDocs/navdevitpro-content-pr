@@ -74,7 +74,7 @@ In this walkthrough, you will learn how to add a FactBox to the customer list pa
   
 12. Choose **Yes**.  
   
-13. Press Ctrl\+S to save the FactBox page. The **Save As** dialog box opens.  
+13. Press Ctrl+S to save the FactBox page. The **Save As** dialog box opens.  
   
 14. In the **ID** field, type **50001**, and in the **Name** field, type **Kevin's Customer List FactBox**. Choose **OK**.  
   

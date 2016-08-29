@@ -64,7 +64,7 @@ You can build extension packages that add functionality to a [!INCLUDE[navnow](i
         ```  
   
         > [!NOTE]  
-        >  Your delta files must be one\-to\-one with the objects you have added or modified. You cannot include a single merged delta file. If you output your export file as a single file use the `Split-NAVAppplicationObjectFile` cmdlet to create the individual files.  
+        >  Your delta files must be one-to-one with the objects you have added or modified. You cannot include a single merged delta file. If you output your export file as a single file use the `Split-NAVAppplicationObjectFile` cmdlet to create the individual files.  
   
 5.  Build the extension package.  
   
@@ -82,11 +82,11 @@ You can build extension packages that add functionality to a [!INCLUDE[navnow](i
   
 1.  Import and compile the source code for the extension that you want to extend.  
   
-2.  Use the [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Export\-NAVApplicationObjectLanguage](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Export-NAVApplicationObjectLanguage) cmdlet to establish the new base for your app deltas.  
+2.  Use the [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Export-NAVApplicationObjectLanguage](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Export-NAVApplicationObjectLanguage) cmdlet to establish the new base for your app deltas.  
   
 3.  Extend the functionality with your modifications and additions using the development environment.  
   
-4.  Use the [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Export\-NAVApplicationObjectLanguage](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Export-NAVApplicationObjectLanguage) and the [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Compare\-NAVApplicationObject](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Compare-NAVApplicationObject) cmdlets to export and create the deltas for your app. Since you are comparing against a base that has the functionality that you are extending, you should only see deltas for your changes.  
+4.  Use the [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Export-NAVApplicationObjectLanguage](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Export-NAVApplicationObjectLanguage) and the [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Compare-NAVApplicationObject](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Compare-NAVApplicationObject) cmdlets to export and create the deltas for your app. Since you are comparing against a base that has the functionality that you are extending, you should only see deltas for your changes.  
   
 5.  Create the package for your extension using the `New-NAVAppManifest`, `Get-NAVAppInfo`, and `New-NAVAppPackage` cmdlets making sure to use the *–Dependencies* parameter on the `New-NAVAppManifest` to identify the NAV extensions that you dependent on.  
   

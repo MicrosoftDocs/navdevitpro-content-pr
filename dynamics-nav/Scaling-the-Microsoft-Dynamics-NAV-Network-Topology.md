@@ -16,20 +16,20 @@ When you deploy for the first time, you will have a [!INCLUDE[navnow](includes/n
  After the initial deployment, you can begin to scale the topology by adding companies, [!INCLUDE[navnow](includes/navnow_md.md)] web server instances, [!INCLUDE[nav_server](includes/nav_server_md.md)] instances, and [!INCLUDE[navnow](includes/navnow_md.md)] databases.  
   
 ## Scaling Configurations  
- There are four basic configurations for scaling up the [!INCLUDE[navnow](includes/navnow_md.md)] environment: single\-server instance, multiple companies \- single database, multiple server instances \- multiple databases, and multiple\-tenant.  
+ There are four basic configurations for scaling up the [!INCLUDE[navnow](includes/navnow_md.md)] environment: single-server instance, multiple companies - single database, multiple server instances - multiple databases, and multiple-tenant.  
   
 ### Single Server Instance  
  With the single server instance configuration, each company has its own computer or virtual machine that hosts the [!INCLUDE[navnow](includes/navnow_md.md)] web server instance, [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, and [!INCLUDE[navnow](includes/navnow_md.md)] database. Companies or instances do not share resources.  
   
  ![Scaling NAV on Azure Single instance](media/NAV_Azure_Scaling_SingleInstance.png "NAV\_Azure\_Scaling\_SingleInstance")  
   
-### Multiple Companies \- Single Database  
+### Multiple Companies - Single Database  
  With this configuration, companies share the same [!INCLUDE[navnow](includes/navnow_md.md)] web server instance and [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, and [!INCLUDE[navnow](includes/navnow_md.md)] database on the same computer or virtual machine.  
   
  ![Azure Scaling Multi&#45;Company](media/NAV_Azure_Scaling_MultiCompany.png "NAV\_Azure\_Scaling\_MultiCompany")  
   
-### Multiple Server Instances \- Multiple Databases  
- With this configuration, companies have their own [!INCLUDE[navnow](includes/navnow_md.md)] web server instance, [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, and [!INCLUDE[navnow](includes/navnow_md.md)] database. Unlike the single\-instance configuration, the [!INCLUDE[navnow](includes/navnow_md.md)] components for the companies are installed on the same computer or virtual machine.  
+### Multiple Server Instances - Multiple Databases  
+ With this configuration, companies have their own [!INCLUDE[navnow](includes/navnow_md.md)] web server instance, [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, and [!INCLUDE[navnow](includes/navnow_md.md)] database. Unlike the single-instance configuration, the [!INCLUDE[navnow](includes/navnow_md.md)] components for the companies are installed on the same computer or virtual machine.  
   
  ![NAV on Azure Multi&#45;Instance Scaling](media/NAV_Azure_Scaling_MultiInstance.png "NAV\_Azure\_Scaling\_MultiInstance")  
   

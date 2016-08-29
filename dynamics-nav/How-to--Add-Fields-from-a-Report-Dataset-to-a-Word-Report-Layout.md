@@ -26,9 +26,9 @@ A report dataset can consist of fields that display labels, data, and images. Th
   
 4.  In the **XML Mapping** pane, in **the Custom XML Part** list, choose the XML part for [!INCLUDE[navnow](includes/navnow_md.md)] report. The name of the XML part has the following format:  
   
-     urn:microsoft\-dynamics\-nav\/reports\/*report\_name*\/*ID*  
+     urn:microsoft-dynamics-nav\/reports\/*report\_name*\/*ID*  
   
-     *report\_name* is the name that is assigned to the report as specified by the report's [Name Property\-duplicate](Name-Property-duplicate.md).  
+     *report\_name* is the name that is assigned to the report as specified by the report's [Name Property-duplicate](Name-Property-duplicate.md).  
   
      *ID* is the identification number of the report.  
   
@@ -38,7 +38,7 @@ A report dataset can consist of fields that display labels, data, and images. Th
   
 1.  Place your pointer in the document where you want to add the control.  
   
-2.  In the **XML Mapping** pane, right\-click the control that you want to add, choose **Insert Content Control**, and then choose **Plain Text**.  
+2.  In the **XML Mapping** pane, right-click the control that you want to add, choose **Insert Content Control**, and then choose **Plain Text**.  
   
     > [!IMPORTANT]  
     >  Do not choose **Rich Text** because rich text controls are not fully supported. If you use a rich text control, content might not be displayed correctly.  
@@ -53,13 +53,13 @@ A report dataset can consist of fields that display labels, data, and images. Th
   
 2.  Select the whole row.  
   
-3.  In the **XML Mapping** pane, right\-click the control that corresponds to the report data item that contains the fields that you want repeated, choose **Insert Content Control**, and then choose **Repeating**.  
+3.  In the **XML Mapping** pane, right-click the control that corresponds to the report data item that contains the fields that you want repeated, choose **Insert Content Control**, and then choose **Repeating**.  
   
 4.  Add the repeating fields to the row as follows:  
   
     1.  Place your pointer in a column.  
   
-    2.  In the **XML Mapping** pane, right\-click the control that you want to add, choose **Insert Content Control**, and then choose **Plain Text**.  
+    2.  In the **XML Mapping** pane, right-click the control that you want to add, choose **Insert Content Control**, and then choose **Plain Text**.  
   
         > [!IMPORTANT]  
         >  Do not choose **Rich Text** because rich text controls are not fully supported. If you use a rich text control, content might not be displayed correctly.  
@@ -69,7 +69,7 @@ A report dataset can consist of fields that display labels, data, and images. Th
 ## Adding Image Fields  
  A report dataset can include a field that contains an image, such as a company logo or a picture of an item. To add an image from the report dataset, you insert a **Picture** content control.  
   
- Images align in the top\-left corner of the content control and resize automatically in proportion to fit the boundary of the content control.  
+ Images align in the top-left corner of the content control and resize automatically in proportion to fit the boundary of the content control.  
   
 > [!IMPORTANT]  
 >  You can only add images that have a format \(such as .bmp, .jpeg, and .png file types\), which that is supported by Word. If you add an image that has a format that is not supported by Word, you will get an error when you run the report from the [!INCLUDE[navnow](includes/navnow_md.md)] client.  
@@ -78,7 +78,7 @@ A report dataset can consist of fields that display labels, data, and images. Th
   
 1.  Place your pointer in the document where you want to add the control.  
   
-2.  In the **XML Mapping** pane, right\-click the control that you want to add, choose **Insert Content Control**, and then choose **Picture**.  
+2.  In the **XML Mapping** pane, right-click the control that you want to add, choose **Insert Content Control**, and then choose **Picture**.  
   
 3.  To increase or decrease the image size, drag a sizing handle away from or towards the center of the content control.  
   

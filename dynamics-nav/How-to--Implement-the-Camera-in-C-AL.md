@@ -32,7 +32,7 @@ This example illustrates how you can add access to camera to a specific page fro
     |Variable name|DataType|SubType|  
     |-------------------|--------------|-------------|  
     |Camera|DotNet|Microsoft.Dynamics.Nav.Client.Capabilities.CameraProvider<br /><br /> **Important:** Choose the Microsoft.Dynamics.Nav.ClientExtensions dll on the **Server** tab, and then choose Microsoft.Dynamics.Nav.Client.Capabilities.CameraProvider.<br /><br /> Make sure to set the properties **RunOnClient** and **WithEvents** to **Yes**.|  
-    |CameraAvailable|Boolean|\-|  
+    |CameraAvailable|Boolean|-|  
   
 5.  On the **View** menu, select **C/AL Code** and in the **C/AL Editor** locate the `OnOpenPage` trigger.  
   

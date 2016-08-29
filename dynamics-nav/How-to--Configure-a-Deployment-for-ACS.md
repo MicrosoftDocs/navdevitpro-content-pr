@@ -47,11 +47,11 @@ To configure your [!INCLUDE[navnow](includes/navnow_md.md)] deployment to use Mi
 1.  Select your namespace. In the menu at the bottom of the page, choose **Manage**.  
   
     > [!NOTE]  
-    >  If this button is not available, you may want to obtain Portal Administrator permission for the namespace. Ask the Service Administrator for the Azure subscription to grant you this permission. Co\-administrator permission is sufficient for creating a namespace, but not for managing ACS.  
+    >  If this button is not available, you may want to obtain Portal Administrator permission for the namespace. Ask the Service Administrator for the Azure subscription to grant you this permission. Co-administrator permission is sufficient for creating a namespace, but not for managing ACS.  
   
 2.  In the left pane of the Access Control Service section of the Azure management portal, choose **Identity Providers**.  
   
-     An identity provider is an organization that provides authentication services that you can use as your ACS authentication mechanism. There are five possible identity providers. Windows Live ID is the default identity provider. Two of the other options require no configuration: Google and Yahoo\!. The final two require additional configuration: Facebook and WS\-Federation. WS\-Federation lets users authenticate by logging on to their corporate account, which is managed by Active Directory. For more information about how to configure a WS\-Federation identity provider, see [How to configure AD FS 2.0 as an Identity Provider](http://msdn.microsoft.com/library/gg185961.aspx) in the MSDN Library.  
+     An identity provider is an organization that provides authentication services that you can use as your ACS authentication mechanism. There are five possible identity providers. Windows Live ID is the default identity provider. Two of the other options require no configuration: Google and Yahoo\!. The final two require additional configuration: Facebook and WS-Federation. WS-Federation lets users authenticate by logging on to their corporate account, which is managed by Active Directory. For more information about how to configure a WS-Federation identity provider, see [How to configure AD FS 2.0 as an Identity Provider](http://msdn.microsoft.com/library/gg185961.aspx) in the MSDN Library.  
   
 3.  Select the identity providers that you want to make available to the users. You can choose as few as one, such as just Windows Live ID, or as many as all five identity providers.  
   
@@ -68,7 +68,7 @@ To configure your [!INCLUDE[navnow](includes/navnow_md.md)] deployment to use Mi
     |**Name**|Specify a name for the application.<br /><br /> A typical value would be the name of the organization for which the deployment was created.|  
     |**Mode**|Choose **Enter settings manually**.|  
     |**Realm**|Enter the DNS name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, such as *https:\/\/MyCompany.com* or https:\/\/localhost.<br /><br /> The DNS name must be the same that is specified in the Server parameter in the clientUserSettings.config file for [!INCLUDE[nav_windows](includes/nav_windows_md.md)] client and the web.config file for [!INCLUDE[nav_web](includes/nav_web_md.md)] clients.|  
-    |**Return URL**|Enter the fully qualified URL for the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], such as https:\/\/MyCompany.com or https:\/\/MyServer\/WebClient.<br /><br /> The URL is case\-sensitive.<br /><br /> If you do not deploy the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], you can specify any address since the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] does not use this setting.|  
+    |**Return URL**|Enter the fully qualified URL for the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], such as https:\/\/MyCompany.com or https:\/\/MyServer\/WebClient.<br /><br /> The URL is case-sensitive.<br /><br /> If you do not deploy the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], you can specify any address since the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] does not use this setting.|  
     |**Token format**|Select **SWT**. Other token types are not supported in this version of [!INCLUDE[navnow](includes/navnow_md.md)].<br /><br /> This adds a **Token Signing Settings** section to the page.|  
   
 3.  In the **Token Signing Settings** section, in the **Token signing key** field, choose the **Generate** button.  
@@ -106,7 +106,7 @@ To configure your [!INCLUDE[navnow](includes/navnow_md.md)] deployment to use Mi
   
 3.  Choose your relying party application.  
   
-4.  Under **Option 1: Link to an ACS\-hosted login page**, copy the URI from the first text box to Notepad.  
+4.  Under **Option 1: Link to an ACS-hosted login page**, copy the URI from the first text box to Notepad.  
   
 5.  In Notepad, replace any instances of the ampersand character \(`&`\) with `%26`.  
   
@@ -124,4 +124,4 @@ To configure your [!INCLUDE[navnow](includes/navnow_md.md)] deployment to use Mi
   
 ## See Also  
  [Configure Microsoft Dynamics NAV Components for ACS](Configure-Microsoft-Dynamics-NAV-Components-for-ACS.md)   
- [How to: Set up Microsoft Dynamics NAV for Single Sign\-on With Office 365 using Windows PowerShell](How%20to:%20Set%20up%20Microsoft%20Dynamics%20NAV%20for%20Single%20Sign-on%20With%20Office%20365%20using%20Windows%20PowerShell.md)
+ [How to: Set up Microsoft Dynamics NAV for Single Sign-on With Office 365 using Windows PowerShell](How%20to:%20Set%20up%20Microsoft%20Dynamics%20NAV%20for%20Single%20Sign-on%20With%20Office%20365%20using%20Windows%20PowerShell.md)

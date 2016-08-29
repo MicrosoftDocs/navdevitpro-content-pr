@@ -30,7 +30,7 @@ Specifies whether data is committed to the database during execution of a test f
 ## Remarks  
  To create meaningful tests, you must first understand how transactions run. In a typical user scenario, a user who is logged on to a client enters data into one field of a page. Then the user enters some data in another field on the page. The user also checks the value of a third field. Finally, the user saves and closes the page. Every time a user enters data into a field, C/AL code may be triggered and a new transaction is automatically started. The trigger code runs within this new transaction. Field data is sent to the server where it is processed and often updated in the database. When the C/AL code in the trigger is finished, the transaction is automatically committed to the database and the page is refreshed with updated data.  
   
- When you create test functions that exercise pages that interact with the database, you have the following options for simulating user scenarios and then returning the database to its initial, well\-known state:  
+ When you create test functions that exercise pages that interact with the database, you have the following options for simulating user scenarios and then returning the database to its initial, well-known state:  
   
 -   Set the **TransactionModel** property on the test function to **AutoRollback**. This assumes that the code that you test does not include calls to the **COMMIT** function. Any calls to the **COMMIT** function give you an error. Most business logic does not call the **COMMIT** function, but relies on implicit commits at the end of the outermost C/AL trigger. The test proceeds as follows:  
   
@@ -73,4 +73,4 @@ Specifies whether data is committed to the database during execution of a test f
  [Testing the Application](Testing-the-Application.md)   
  [Testing Pages](Testing-Pages.md)   
  [How to: Create Test Codeunits and Test Functions](How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md)   
- [C\-AL ASSERTERROR Statements](C-AL-ASSERTERROR-Statements.md)
+ [C-AL ASSERTERROR Statements](C-AL-ASSERTERROR-Statements.md)

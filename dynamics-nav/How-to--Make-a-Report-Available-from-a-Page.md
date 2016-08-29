@@ -32,13 +32,13 @@ After you have created and designed a report, you can add the report to the inte
   
 6.  Scroll down to the **ActionContainer** that has **Reports** as its subtype.  
   
-7.  Right\-click the row where you want to add the new action, and then choose **New**.  
+7.  Right-click the row where you want to add the new action, and then choose **New**.  
   
 8.  On the new row, in the **Caption** column, enter a name for the action, and in the **Type** column, select **Action**.  
   
 9. On the **View** menu, choose **Properties** to open the **Properties** window for the new action.  
   
-10. In the **Value** field of the **RunObject** property, choose the drop\-down arrow, and then select the new report that you want to run in the **Object List** window.  
+10. In the **Value** field of the **RunObject** property, choose the drop-down arrow, and then select the new report that you want to run in the **Object List** window.  
   
 11. Set the **Promoted** property to **Yes**, and then set the **PromotedCategory** property to **Report**.  
   

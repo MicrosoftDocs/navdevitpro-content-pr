@@ -25,7 +25,7 @@ Date := DWY2DATE(WeekDay [, Week] [, Year]))
  *Weekday*  
  Type: Integer  
   
- The number of the day in the week \(1\-7\). Monday is day number 1.  
+ The number of the day in the week \(1-7\). Monday is day number 1.  
   
  *Week*  
  Type: Integer  
@@ -35,7 +35,7 @@ Date := DWY2DATE(WeekDay [, Week] [, Year]))
  *Year*  
  Type: Integer  
   
- The four\-digit number of the year. If you omit this optional parameter, the year of the current week is used as the default.  
+ The four-digit number of the year. If you omit this optional parameter, the year of the current week is used as the default.  
   
 ## Property Value/Return Value  
  Type: Date  

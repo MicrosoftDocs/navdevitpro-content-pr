@@ -15,10 +15,10 @@ All [!INCLUDE[navnow](includes/navnow_md.md)] applications are based on the foll
   
 |Application object|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |------------------------|---------------------------------------|  
-|[Tables\-duplicate 20](Tables-duplicate-20.md)|You use tables to store data. For example, a business application may contain a customer table that stores information about each customer, such as, name, address, telephone number, and contact person.|  
-|[Reports\-duplicate 20](Reports-duplicate-20.md)|You use reports to present data. You use filters and sorting to select the data that you want to present in a report.|  
+|[Tables-duplicate 20](Tables-duplicate-20.md)|You use tables to store data. For example, a business application may contain a customer table that stores information about each customer, such as, name, address, telephone number, and contact person.|  
+|[Reports-duplicate 20](Reports-duplicate-20.md)|You use reports to present data. You use filters and sorting to select the data that you want to present in a report.|  
 |[XMLports](XMLports.md)|You use XMLports to import and export data in .xml, .txt, or .csv format.|  
-|[Codeunits](Codeunits.md)|A codeunit contains user\-defined functions that are written in C/AL code. You can use the functions in a codeunit from the other objects in your application.|  
+|[Codeunits](Codeunits.md)|A codeunit contains user-defined functions that are written in C/AL code. You can use the functions in a codeunit from the other objects in your application.|  
 |[MenuSuites](MenuSuites.md)|A MenuSuite object contains the set of menus that are displayed in the navigation pane.|  
 |[Pages](Pages.md)|Pages display data from the database and allow users to enter new data into the database. **Note:**  Every application object is identified by an ID number. However, there are restrictions about which numbers you should use when you create your own application objects. Contact your Microsoft Certified Partner for more information.|  
 |[Queries](Queries.md)|A query specifies a set of data from the database.|  
@@ -56,8 +56,8 @@ All [!INCLUDE[navnow](includes/navnow_md.md)] applications are based on the foll
   
  When you choose the **MenuSuite** button and then choose **New**, a dialog opens asking you to specify which menu suite level \(for example, Developer or Administrator\) that you want to create. If you have created a MenuSuite object for each level that you have permissions for, then the **New** button is disabled. This is because only one MenuSuite object is allowed per level. After you have made a selection, the Navigation Pane Designer opens and you have the appropriate design permissions.  
   
-## Object\-Oriented vs. Object\-Based  
- The [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] is not object\-oriented but object\-based. This is an important distinction. In an object\-oriented language or environment, a developer can create new types of objects based on the ones already in the system. In [!INCLUDE[navnow](includes/navnow_md.md)], you can only create objects that are either tables, reports, XMLports, codeunits, MenuSuites, pages, or queries.  
+## Object-Oriented vs. Object-Based  
+ The [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] is not object-oriented but object-based. This is an important distinction. In an object-oriented language or environment, a developer can create new types of objects based on the ones already in the system. In [!INCLUDE[navnow](includes/navnow_md.md)], you can only create objects that are either tables, reports, XMLports, codeunits, MenuSuites, pages, or queries.  
   
 ## Standard Microsoft Dynamics NAV Version Conventions  
  The following illustration shows the version convention that is used in [!INCLUDE[navnow](includes/navnow_md.md)].  
@@ -86,4 +86,4 @@ All [!INCLUDE[navnow](includes/navnow_md.md)] applications are based on the foll
 -   The local functionality that is contained in the object was created or last changed in Microsoft Dynamics NAV 4.0 for France with the local Service Pack 2 and local hotfix 2.  
   
 ### Microsoft CertifiedPartner Object Version Convention  
- Microsoft Certified Partners must follow the same version convention. Instead of using the two\-letter country\/region code, partners should use two letters that refer to their company. For example, the Fabrikam Company would use FC as their code. The rest of the version information should be updated as appropriate.
+ Microsoft Certified Partners must follow the same version convention. Instead of using the two-letter country\/region code, partners should use two letters that refer to their company. For example, the Fabrikam Company would use FC as their code. The rest of the version information should be updated as appropriate.

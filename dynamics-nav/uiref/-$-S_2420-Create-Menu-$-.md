@@ -14,7 +14,7 @@ manager: edupont
 # ($ S_2420 Create Menu $)
 Creates a new menu for a department. This menu represents a department in a company.  
 
- To open this window, open Navigation Pane Designer, right\-click the department area, and then choose **Create Menu**. For more information about how to open Navigation Pane Designer, see [\($ S\_2401 Navigation Pane Designer $\)](-$-S_2401-Navigation-Pane-Designer-$-.md).  
+ To open this window, open Navigation Pane Designer, right-click the department area, and then choose **Create Menu**. For more information about how to open Navigation Pane Designer, see [\($ S\_2401 Navigation Pane Designer $\)](-$-S_2401-Navigation-Pane-Designer-$-.md).  
 
 ## Properties  
 

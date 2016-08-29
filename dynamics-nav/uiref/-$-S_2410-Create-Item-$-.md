@@ -14,7 +14,7 @@ manager: edupont
 # ($ S_2410 Create Item $)
 Creates menu items in a department. In the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)], menus items link to specific objects that you select from this window.  
 
- To open this window, open Navigation Pane Designer, choose a department, right\-click the area where you want to create the item, and then choose **Create Item**. For more information about how to open Navigation Pane Designer, see [\($ S\_2401 Navigation Pane Designer $\)](-$-S_2401-Navigation-Pane-Designer-$-.md).  
+ To open this window, open Navigation Pane Designer, choose a department, right-click the area where you want to create the item, and then choose **Create Item**. For more information about how to open Navigation Pane Designer, see [\($ S\_2401 Navigation Pane Designer $\)](-$-S_2401-Navigation-Pane-Designer-$-.md).  
 
 ## Properties  
 

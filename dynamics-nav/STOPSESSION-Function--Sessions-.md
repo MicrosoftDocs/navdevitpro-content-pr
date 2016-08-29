@@ -50,7 +50,7 @@ Stops a [!INCLUDE[navnow](includes/navnow_md.md)] session.
   
  **true** if the session is stopped successfully and no errors occurred; otherwise **false**.  
   
- If you omit this optional return value and the session is not stopped successfully, then a run\-time error occurs. If you include the return value, then you must handle any errors.  
+ If you omit this optional return value and the session is not stopped successfully, then a run-time error occurs. If you include the return value, then you must handle any errors.  
   
 ## Remarks  
  The session that you want to stop and the session that calls STOPSESSION must be running on the same instance of [!INCLUDE[nav_server](includes/nav_server_md.md)]. The session is stopped before the next C/AL statement executes. Open transactions are rolled back.  

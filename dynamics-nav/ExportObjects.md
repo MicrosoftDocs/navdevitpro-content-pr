@@ -114,7 +114,7 @@ finsql.exe command=exportobjects, file=<exportfile>, [servername=<server>,] [dat
 ## Remarks  
  You use the **ExportObjects** command with the finsql.exe from a command prompt. Finsql.exe is the executable file that runs the development environment. By default, finsql.exe is located at [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\.  
   
- To export objects to a .txt file, you must have a developer license. To export objects to a .fob file, you can have either an end\-user license or a developer license.  
+ To export objects to a .txt file, you must have a developer license. To export objects to a .fob file, you can have either an end-user license or a developer license.  
   
  You can specify parameters in any order.  
   

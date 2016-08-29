@@ -29,7 +29,7 @@ Specifies the name of the original table in the external database.
 ## See Also  
  [TableType Property](TableType-Property.md)   
  [ExternalSchema Property](ExternalSchema-Property.md)   
- [Name Property\-duplicate](Name-Property-duplicate.md)   
+ [Name Property-duplicate](Name-Property-duplicate.md)   
  [Properties](Properties.md)   
  [\($ S\_2102 Table Designer $\)](-$-S_2102-Table-Designer-$-.md)   
  [External Tables](External-Tables.md)   

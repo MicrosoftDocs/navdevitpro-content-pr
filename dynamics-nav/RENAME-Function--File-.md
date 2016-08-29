@@ -46,7 +46,7 @@ Renames an ASCII or binary file.
 ## Property Value/Return Value  
  Type: Boolean  
   
- If you omit this optional return value, a run\-time error occurs when the file cannot be found. When you include the return value, it is assumed that you will handle any errors.  
+ If you omit this optional return value, a run-time error occurs when the file cannot be found. When you include the return value, it is assumed that you will handle any errors.  
   
  **true** if the file was renamed; otherwise, **false**.  
   

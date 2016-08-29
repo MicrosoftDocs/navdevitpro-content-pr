@@ -51,5 +51,5 @@ FIND('-')
 ## See Also  
  [Data Access](Data-Access.md)   
  [Bulk Inserts](Bulk-Inserts.md)   
- [C\-AL Database Functions and Performance on SQL Server](C-AL-Database-Functions-and-Performance-on-SQL-Server.md)   
+ [C-AL Database Functions and Performance on SQL Server](C-AL-Database-Functions-and-Performance-on-SQL-Server.md)   
  [Query Objects and Performance](Query-Objects-and-Performance.md)

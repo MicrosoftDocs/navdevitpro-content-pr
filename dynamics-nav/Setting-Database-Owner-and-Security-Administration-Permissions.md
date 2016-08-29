@@ -14,7 +14,7 @@ manager: edupont
 # Setting Database Owner and Security Administration Permissions
 Permissions are required in SQL Server to create and manage [!INCLUDE[navnow](includes/navnow_md.md)] databases. Use SQL Server Management Studio to grant these permissions to [!INCLUDE[navnow](includes/navnow_md.md)] administrators.  
   
- If you have installed SQL Server with the guidelines in [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md), then SQL Server Management Studio is already installed on your computer. Otherwise, update your SQL Server installation to include the **Management Tools \- Complete option for SQL Server**.  
+ If you have installed SQL Server with the guidelines in [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md), then SQL Server Management Studio is already installed on your computer. Otherwise, update your SQL Server installation to include the **Management Tools - Complete option for SQL Server**.  
   
 ## Permissions for Using and Creating Databases  
  The administrator who installs [!INCLUDE[navnowlong](includes/navnowlong_md.md)] automatically has access to the [!INCLUDE[navnow](includes/navnow_md.md)] database in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. To grant another user permission to create new databases in [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], grant that user the sysadmin Server Role for the [!INCLUDE[navnow](includes/navnow_md.md)] SQL Server instance in SQL Server Management Studio.  
@@ -24,9 +24,9 @@ Permissions are required in SQL Server to create and manage [!INCLUDE[navnow](in
   
  In the Object Explorer pane in SQL Server Management Studio, follow these steps after connecting to the [!INCLUDE[navnow](includes/navnow_md.md)] SQL Server instance:  
   
-1.  Expand the **Security** node, right\-click **Logins**, and choose **New Login**.  
+1.  Expand the **Security** node, right-click **Logins**, and choose **New Login**.  
   
-     If the administrator already has a Login, right\-click the user and choose **Properties**. Then go to step 4.  
+     If the administrator already has a Login, right-click the user and choose **Properties**. Then go to step 4.  
   
 2.  In the **Login – New** dialog box, select **Search**.  
   
@@ -47,7 +47,7 @@ Permissions are required in SQL Server to create and manage [!INCLUDE[navnow](in
   
 1.  If the administrator is not already a SQL Server login, add the administrator as a login by following the first three steps in the procedure above.  
   
-2.  Select the [!INCLUDE[navnow](includes/navnow_md.md)] database, then **Security**, then right\-click **Users** and choose **New User**.  
+2.  Select the [!INCLUDE[navnow](includes/navnow_md.md)] database, then **Security**, then right-click **Users** and choose **New User**.  
   
      Choose the button at the right of the **Login Name** field to open the **Select Login** dialog box.  
   
@@ -59,7 +59,7 @@ Permissions are required in SQL Server to create and manage [!INCLUDE[navnow](in
   
      This can be the same as the login name.  
   
-6.  In the **Database User \- New** dialog box, under **Select a Page**, choose In the **Database role membership**.  
+6.  In the **Database User - New** dialog box, under **Select a Page**, choose In the **Database role membership**.  
   
 7.  Select the **db\_owner** check box.  
   

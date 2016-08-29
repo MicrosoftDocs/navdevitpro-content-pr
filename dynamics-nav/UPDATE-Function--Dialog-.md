@@ -12,7 +12,7 @@ caps.latest.revision: 18
 manager: edupont
 ---
 # UPDATE Function (Dialog)
-Updates the value of a '\#'\-or '@' field in the active window.  
+Updates the value of a '\#'-or '@' field in the active window.  
   
 ## Syntax  
   

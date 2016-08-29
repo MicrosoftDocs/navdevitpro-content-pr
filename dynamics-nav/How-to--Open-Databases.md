@@ -24,7 +24,7 @@ In order to work in the application, you must always open a database and a compa
   
 3.  In the **Database Name** field, enter the name of the database. Choose the up arrow to select from the list of databases that are available on the selected server.  
   
-4.  In the **Authentication** field, enter the type of authentication that you require. Choose the drop\-down arrow to select **Database Server Authentication** or **Windows Authentication**.  
+4.  In the **Authentication** field, enter the type of authentication that you require. Choose the drop-down arrow to select **Database Server Authentication** or **Windows Authentication**.  
   
     -   If you select **Database Server Authentication**, then your authentication is performed by the SQL Server instance that you have selected.  
   

@@ -38,7 +38,7 @@ Report.RUN
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
 |CustomerRec|Record|Customer|  
-|SomeReport|Report|Salesperson \- Sales Statistics|  
+|SomeReport|Report|Salesperson - Sales Statistics|  
   
 ```  
 CustomerRec.SETCURRENTKEY("No.");  

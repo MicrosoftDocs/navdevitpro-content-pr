@@ -11,7 +11,7 @@ ms.assetid: 65605d7a-a133-4dca-8bed-b58bfe857b59
 caps.latest.revision: 10
 ---
 # How to: Add a Microsoft Dynamics NAV Database
-This topic describes how add a new [!INCLUDE[navnow](includes/navnow_md.md)] database instance to SQL Server from a database backup file \(.bak\). To add a [!INCLUDE[navnow](includes/navnow_md.md)] database, you use the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New\-NAVDatabase](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVDatabase) cmdlet of the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
+This topic describes how add a new [!INCLUDE[navnow](includes/navnow_md.md)] database instance to SQL Server from a database backup file \(.bak\). To add a [!INCLUDE[navnow](includes/navnow_md.md)] database, you use the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVDatabase](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVDatabase) cmdlet of the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
   
 > [!TIP]  
 >  You can also create a database from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. For more information, see [How to: Create Databases](How%20to:%20Create%20Databases.md).  
@@ -22,7 +22,7 @@ This topic describes how add a new [!INCLUDE[navnow](includes/navnow_md.md)] dat
   
     1.  Choose **Start**, in the **Search** box, type **[!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell**.  
   
-    2.  Right\-click the related link, and then choose **Run as Administrator**.  
+    2.  Right-click the related link, and then choose **Run as Administrator**.  
   
 2.  At the command prompt, type the following command:  
   
@@ -41,7 +41,7 @@ This topic describes how add a new [!INCLUDE[navnow](includes/navnow_md.md)] dat
     |*\<ServiceAccount*|Specifies the logon account that runs the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.<br /><br /> This account is given the appropriate permissions to the database when you run the cmdlet. For more information, see [Provisioning the Microsoft Dynamics NAV Server Account](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md). If you do not specify an account, then Network Service is used.|  
   
     > [!NOTE]  
-    >  The command that is shown includes only a subset of all the parameters of the New\-NavDatabase cmdlet. For more information about the syntax and parameters, see [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New\-NAVDatabase](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVDatabase) topic in the Administration Cmdlets for [!INCLUDE[navnow](includes/navnow_md.md)] section of the Technical Reference.  
+    >  The command that is shown includes only a subset of all the parameters of the New-NavDatabase cmdlet. For more information about the syntax and parameters, see [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVDatabase](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVDatabase) topic in the Administration Cmdlets for [!INCLUDE[navnow](includes/navnow_md.md)] section of the Technical Reference.  
   
 3.  Press Enter to run the cmdlet.  
   

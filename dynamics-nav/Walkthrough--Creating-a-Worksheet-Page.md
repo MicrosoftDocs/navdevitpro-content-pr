@@ -224,12 +224,12 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use a worksheet page type 
   
 2.  From the main menu, select **Customize**, then choose **Choose FactBoxes**. The **Customize Action Tab** window opens.  
   
-3.  In **Available FactBoxes**, select the **Item Details\-Replenishment** FactBox, and choose **Add**  
+3.  In **Available FactBoxes**, select the **Item Details-Replenishment** FactBox, and choose **Add**  
   
 4.  Use the same procedure to add the **RecordLinks** and **Notes** FactBoxes. Choose the **OK** button, and then run the page again. Notice that the hidden FactBoxes you added are now displayed on the page.  
   
 ## Next Steps  
- Simon has now created a basic worksheet page. He must remember to add the variables, constants, and functions necessary to make the worksheet page function correctly. He knows that he add variables, constants and functions in the C/AL Globals or C/AL Locals window. For information about C/AL Globals window, see [\($ S\_10204 C\-AL Globals $\)](-$-S_10204-C-AL-Globals-$-.md). For information about C/AL functions, see [C\-AL Functions](C-AL-Functions.md).  
+ Simon has now created a basic worksheet page. He must remember to add the variables, constants, and functions necessary to make the worksheet page function correctly. He knows that he add variables, constants and functions in the C/AL Globals or C/AL Locals window. For information about C/AL Globals window, see [\($ S\_10204 C-AL Globals $\)](-$-S_10204-C-AL-Globals-$-.md). For information about C/AL functions, see [C-AL Functions](C-AL-Functions.md).  
   
  For more information about adding variables, constants, and functions, see [Codeunits](Codeunits.md).  
   

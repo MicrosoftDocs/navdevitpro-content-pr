@@ -31,7 +31,7 @@ Unbinds the event subscriber functions from in the codeunit instance. This essen
   
  **true** if the event subscriber functions unbind successfully to the codeunit instance and no errors occurred; otherwise **false**.  
   
- If you omit this optional return value and the operation is not successful, then a run\-time error occurs. If you include the return value, then you must handle any errors.  
+ If you omit this optional return value and the operation is not successful, then a run-time error occurs. If you include the return value, then you must handle any errors.  
   
 ## Remarks  
  You can only call this function on codeunits that have the [EventSubscriberInstance Property](EventSubscriberInstance-Property.md) set to **Manual**.  

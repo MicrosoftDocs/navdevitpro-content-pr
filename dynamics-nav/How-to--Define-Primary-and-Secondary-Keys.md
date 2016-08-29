@@ -33,7 +33,7 @@ A maximum of 20 distinct fields can be used to define a primary key. The number 
   
      The **Keys** window appears.  
   
-5.  In the first line of the **Keys** window, enter the primary key as a comma\-delimited list; for example, "ID Number, Name".  
+5.  In the first line of the **Keys** window, enter the primary key as a comma-delimited list; for example, "ID Number, Name".  
   
 ## Defining Secondary Keys  
  Up to 40 keys can be defined for a table. The first key defined is the primary key. All the other keys are secondary keys and are optional. Secondary keys are used to view records in an order that is different from the order defined by the primary key fields.  
@@ -50,7 +50,7 @@ A maximum of 20 distinct fields can be used to define a primary key. The number 
   
      The **Keys** window appears.  
   
-5.  The first line shows the primary key. Enter the secondary keys on the following lines as comma\-separated lists; for example: Name, Address.  
+5.  The first line shows the primary key. Enter the secondary keys on the following lines as comma-separated lists; for example: Name, Address.  
   
 ## See Also  
  [Table Keys](Table-Keys.md)   

@@ -37,7 +37,7 @@ Reports can be run directly from the [!INCLUDE[navnow](includes/navnow_md.md)] c
   
          This function loads the proper Word layout and renders the report based on the action from the report request page, such **SaveAsPdf**, **SaveAsWord**, **SaveAsExcel**, **Preview**, or **Print**.  
   
-    -   If the report is not currently set up to use a custom Word or RDLC layout, then the built\-in layout is used for the report.  
+    -   If the report is not currently set up to use a custom Word or RDLC layout, then the built-in layout is used for the report.  
   
 ## Modifying the Report Layout Implementation  
  To modify the report layout implementation, you design the implementation and then add C/AL code to the functions in codeunit 1.  

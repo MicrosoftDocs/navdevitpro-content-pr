@@ -95,7 +95,7 @@ The RoleTailored clients use several windows to display information. Two of the 
 ### Status Bar  
  The status bar displays information about the current state of the [!INCLUDE[navnow](includes/navnow_md.md)] session, including the name of the company, the date and, the user's name or ID.  
   
- For users who work with more than one company, the status bar provides access to all the companies that they work with. By choosing the company name, the user can open a drop\-down list which shows the companies available to them. Users can switch between companies.  
+ For users who work with more than one company, the status bar provides access to all the companies that they work with. By choosing the company name, the user can open a drop-down list which shows the companies available to them. Users can switch between companies.  
   
 > [!NOTE]  
 >  The status bar is not configurable.  
@@ -105,7 +105,7 @@ The RoleTailored clients use several windows to display information. Two of the 
   
  ![RoleTailored client Card page example](media/NAV_CardPage_CustomerCard.jpg "NAV\_CardPage\_CustomerCard")  
   
- Task pages are similar in concept to the pop\-up windows in Microsoft Office Outlook that show an e\-mail, contact, or a task. It is typical for users to have multiple task pages open at the same time. Similar to the navigation window, a Task window includes a Command bar and ribbon. Unlike the navigation window, it does not include the navigation pane or status bar. The user can work with more than one Task window open at a time.  
+ Task pages are similar in concept to the pop-up windows in Microsoft Office Outlook that show an e-mail, contact, or a task. It is typical for users to have multiple task pages open at the same time. Similar to the navigation window, a Task window includes a Command bar and ribbon. Unlike the navigation window, it does not include the navigation pane or status bar. The user can work with more than one Task window open at a time.  
   
  You create a Task window by creating a page and then linking the page to actions on other pages. The most common page types for Task windows are Card, Document, and List.  
   

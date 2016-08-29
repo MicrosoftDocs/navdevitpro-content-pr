@@ -36,7 +36,7 @@ This topic describes how you can format the appearance of decimal data types in 
   
 |**AutoFormatType Property**|**DecimalPlaces Property**|**AutoFormatExpr Property**|**Usage Description**|  
 |---------------------------------|--------------------------------|---------------------------------|---------------------------|  
-|0|Set to the number of decimal places that you want to display for the value.|Not applicable. This property is ignored.|Use this configuration when you want to format the decimal value according the Standard Format 0 \(which is the default format\) with a specific number of decimal places.<br /><br /> For example, if the value is a US decimal **\-76543.21** and you set the **DecimalPlaces** property to **0**, then the value appears as **76,543**.|  
+|0|Set to the number of decimal places that you want to display for the value.|Not applicable. This property is ignored.|Use this configuration when you want to format the decimal value according the Standard Format 0 \(which is the default format\) with a specific number of decimal places.<br /><br /> For example, if the value is a US decimal **-76543.21** and you set the **DecimalPlaces** property to **0**, then the value appears as **76,543**.|  
 |1|Not applicable. This property is ignored.|Set to return a currency code \(the blank currency code denotes LCY\).|Use this configuration when you want to format the data as an amount. For example, a sales order will use two decimals when the currency is defined as US dollar and 0 decimals when the currency is defined as IDR \(Indonesian rupiah\).|  
 |2|Not applicable. This property is ignored.|Set to return a currency code \(the blank currency code denotes LCY\).|This is similar to the previous configuration where the **AutoFormatType** property is set to 1, except you use this configuration when you want to format the data as a unit amount.|  
 |10|Not applicable. This property is ignored.|Set to the property according to the following syntax:<br /><br /> `'[Characters]<precision, N:N><standard format, N>[Characters]'`<br /><br /> Replace `[Characters]` with the text that you want before or after the value, such as $ or %.<br /><br /> `<standard format, N>` specifies which of the standard formats to use. Replace `N` with the format that you want. For more information, see [Standard Formats](Formatting-the-Data-in-a-Field.md#StandardFormats).<br /><br /> `<precision n:N>` species the decimal places, where `n` is the minimum number of decimal places and `N` is the maximum number of decimal places.|Use this configuration if you want to customize the format based on one of the standard formats. This option enables you to specify characters before and after the decimal value, such as currency signs \($\) and percent \(%\).<br /><br /> For example, if you want to prefix the decimal value with a "$", include a thousand separator, and have a maximum of two decimal places \(such as $76,543.21\), then you can set the property to the following:<br /><br /> `$<precision, 2:2><standard format, 0>'`<br /><br /> If you want to display the decimal value as a percentage, then you can add "%" at the end of the setting, for example, `'<precision,1:1><Standard Format,0>%'`. When you include a "%" at the end of the setting, then the decimal value is assumed to be a ratio and the decimal value will be multiplied by 100. For example, a value of 0.98 will be formatted to 98%.|  
@@ -46,12 +46,12 @@ This topic describes how you can format the appearance of decimal data types in 
   
 |**Standard Format**|**Format Description**|**Europe Decimal Example**|**US Decimal Example**|  
 |-------------------------|----------------------------|--------------------------------|----------------------------|  
-|0|\<Sign\>\<Integer Thousand\>\<Point or Comma\>\<Decimals\>|\-76.543,21|\-76,543.21|  
-|1|\<Sign\>\<Integer\>\<Point or Comma\>\<Decimals\>|\-76543,21|\-76543.21|  
-|2|\<Sign\>\<Integer\>\<Point or Comma\>\<Decimals\>|\-76543.21|\-76543.21|  
-|3|\<Integer Thousand\>\<Point or Comma\>\<Decimals\>\<Sign\>|76.543,21\-|76,543.21\-|  
-|4|\<Integer\>\<Decimals\>\<Point or Comma\>\<Sign\>|76543,21\-|76543.21\-|  
-|9|XML format|\-76543.21|\-76543.21|  
+|0|\<Sign\>\<Integer Thousand\>\<Point or Comma\>\<Decimals\>|-76.543,21|-76,543.21|  
+|1|\<Sign\>\<Integer\>\<Point or Comma\>\<Decimals\>|-76543,21|-76543.21|  
+|2|\<Sign\>\<Integer\>\<Point or Comma\>\<Decimals\>|-76543.21|-76543.21|  
+|3|\<Integer Thousand\>\<Point or Comma\>\<Decimals\>\<Sign\>|76.543,21-|76,543.21-|  
+|4|\<Integer\>\<Decimals\>\<Point or Comma\>\<Sign\>|76543,21-|76543.21-|  
+|9|XML format|-76543.21|-76543.21|  
   
 ## See Also  
  [AutoFormatType Property](AutoFormatType-Property.md)   

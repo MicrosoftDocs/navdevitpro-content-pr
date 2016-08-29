@@ -24,11 +24,11 @@ You can lock and unlock objects to prevent other developers from making changes 
   
 2.  In Object Designer, select one or more objects that you have locked, and then do one of the following steps:  
   
-    -   Right\-click the object or objects, and then choose **Unlock**.  
+    -   Right-click the object or objects, and then choose **Unlock**.  
   
     -   On the **File** menu, choose **Unlock**.  
   
-    -   Press Ctrl\+Alt\+U.  
+    -   Press Ctrl+Alt+U.  
   
 ### To force unlock an object  
   
@@ -36,7 +36,7 @@ You can lock and unlock objects to prevent other developers from making changes 
   
 2.  In Object Designer, select one or more objects that you want to force unlock, and then do one of the following steps:  
   
-    -   Right\-click the object or objects, and then choose **Force Unlock**.  
+    -   Right-click the object or objects, and then choose **Force Unlock**.  
   
     -   On the **File** menu, choose **Force Unlock**.  
   
@@ -57,11 +57,11 @@ You can lock and unlock objects to prevent other developers from making changes 
   
 5.  On the **Edit** menu, choose **Select All**, and then do one of the following steps:  
   
-    -   Right\-click the object or objects, and then choose **Unlock**.  
+    -   Right-click the object or objects, and then choose **Unlock**.  
   
     -   On the **File** menu, choose **Unlock**.  
   
-    -   Press Ctrl\+Alt\+U.  
+    -   Press Ctrl+Alt+U.  
   
 ## See Also  
  [How to: Lock an Object](How%20to:%20Lock%20an%20Object.md)   

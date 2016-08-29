@@ -24,7 +24,7 @@ This topic lists some common problems that can occur when you use Automated Data
   
  **Callback functions are not allowed.**  
   
- The error generally occurs because the web service has accessed other application code that requires interaction with a client. For example, you may be using ADCS with warehouse functionality, such as bin capacity policy. The warehouse logic may include confirmation dialog boxes that users interact with as they register warehouse picks and put\-aways. If a user encounters the error, the pick or put\-away is not registered.  
+ The error generally occurs because the web service has accessed other application code that requires interaction with a client. For example, you may be using ADCS with warehouse functionality, such as bin capacity policy. The warehouse logic may include confirmation dialog boxes that users interact with as they register warehouse picks and put-aways. If a user encounters the error, the pick or put-away is not registered.  
   
  To resolve this error, make sure that the web service call does not call code that requires interaction with a client, or modify your [!INCLUDE[navnow](includes/navnow_md.md)] solution to allow data to be inserted or modified without such interactions.  
   
@@ -40,7 +40,7 @@ This topic lists some common problems that can occur when you use Automated Data
 ## Performance considerations  
  Depending on the load on your system, you may encounter performance issues.  
   
- To resolve this problem, you can configure multiple endpoints, instead of just one, for your plug\-in. It is possible for one plug\-in to connect to several servers on one or more distributed computers. The plug\-in and servers, a pool of endpoints, can be on the same computer or divided among any number of computers, as long as they are all available via TCP. This can improve performance in busy scenarios, as calculations can be performed on different processes at the same time.  
+ To resolve this problem, you can configure multiple endpoints, instead of just one, for your plug-in. It is possible for one plug-in to connect to several servers on one or more distributed computers. The plug-in and servers, a pool of endpoints, can be on the same computer or divided among any number of computers, as long as they are all available via TCP. This can improve performance in busy scenarios, as calculations can be performed on different processes at the same time.  
   
  For more information, see [How to: Configure ADCS Options](How%20to:%20Configure%20ADCS%20Options.md).  
   

@@ -16,9 +16,9 @@ Depending on the setting in the **UI Elements Removal** field in the [!INCLUDE[n
 > [!IMPORTANT]  
 >  The majority of the permission sets that are provided with the [!INCLUDE[demo](includes/demo_md.md)] demonstration database cannot be combined with the FOUNDATION permission set to fully use the UI Elements Removal feature. You must first create or edit the relevant permission sets to avoid that the user is blocked from performing the involved tasks. For more information, see [How to: Create or Modify Permission Sets](How%20to:%20Create%20or%20Modify%20Permission%20Sets.md).  
   
- To try out or demonstrate the effect of the feature to remove UI elements according to user permissions, you can quickly prepare a test UI based on two permission sets \(S&R\-Customer and S&R\-Customer, EDIT\) in [!INCLUDE[demo](includes/demo_md.md)] that are ready to support the FOUNDATION permission set for this purpose.  
+ To try out or demonstrate the effect of the feature to remove UI elements according to user permissions, you can quickly prepare a test UI based on two permission sets \(S&R-Customer and S&R-Customer, EDIT\) in [!INCLUDE[demo](includes/demo_md.md)] that are ready to support the FOUNDATION permission set for this purpose.  
   
-### Prepare a permissions\-based ORDER PROCESSOR UI that only shows UI elements for creating and editing a customer  
+### Prepare a permissions-based ORDER PROCESSOR UI that only shows UI elements for creating and editing a customer  
   
 1.  Create a test user who has the ORDER PROCESSOR profile. For more information, see [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md) and [How to: Assign Users to Profiles](How%20to:%20Assign%20Users%20to%20Profiles.md).  
   
@@ -26,9 +26,9 @@ Depending on the setting in the **UI Elements Removal** field in the [!INCLUDE[n
   
 3.  Assign the following two application permission sets, which support the task to create and edit a customer in conjunction with the FOUNDATION permission set:  
   
-    -   S&R\-Customer  
+    -   S&R-Customer  
   
-    -   S&R\-Customer, EDIT  
+    -   S&R-Customer, EDIT  
   
 4.  Upload a user license. For more information, see [How to: Upload the License File](How%20to:%20Upload%20the%20License%20File.md).  
   
