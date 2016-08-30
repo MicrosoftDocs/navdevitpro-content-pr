@@ -54,7 +54,7 @@ Web services are a lightweight, industry-standard way to make application functi
  Similarly, you can use the **ServicesOptionFormat** setting to specify how [!INCLUDE[nav_server](includes/nav_server_md.md)] must understand option values. If you set the **ServicesOptionFormat** setting to *OptionString*, [!INCLUDE[nav_server](includes/nav_server_md.md)] understand option values as the *name* of the option value, which is always en\-us. If you set the setting to *OptionCaption*, web service data will be interpreted in the language specified by the **Services Language** setting.  
 
 >    [!NOTE]  
->    In earlier versions of [!INCLUDE[navnow](includes/navnow-md.md)], you could enable **ServicesCultureDefaultUserPersonalization** on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. This was deprecated in [!INCLUDE[navcorfu](includes/navcorfu_md.md)] in order to guarantee that web services have a consistent culture.  
+>    In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], you could enable **ServicesCultureDefaultUserPersonalization** on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. This was deprecated in [!INCLUDE[navcorfu](includes/navcorfu_md.md)] in order to guarantee that web services have a consistent culture.  
 
 ## Web Services in Multitenant Deployments  
  If your [!INCLUDE[navnow](includes/navnow_md.md)] solution is used in a multitenant deployment architecture, you must make sure that any code that generates or consumes a web service specifies the relevant tenant. Web services are set up in the application, but typically you want to consume company-specific and tenant-specific data.  
