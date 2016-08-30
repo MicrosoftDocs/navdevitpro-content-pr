@@ -24,7 +24,7 @@ The following functions are used to filter records in a table:
   
 -   GETRANGEMAX  
   
- These functions are some of the most commonly used C\/AL functions. They set limits on the value of one or more specified fields, so that only a subset of the records are displayed, modified, deleted, and so on.  
+ These functions are some of the most commonly used C/AL functions. They set limits on the value of one or more specified fields, so that only a subset of the records are displayed, modified, deleted, and so on.  
   
 ## SETCURRENTKEY Function  
  SETCURRENTKEY selects a key for a record and sets the sort order that is used for the table in question.  
@@ -45,7 +45,7 @@ The following functions are used to filter records in a table:
   
     -   If the field that you specify is the first component of several keys, the key that is selected may not be the key that you expect.  
   
-    -   If no keys can be found that include the fields that you specify, the return value is FALSE. If you do not test the return value, a run\-time error occurs. If you do test the return value, the program will continue to run even though no key was found.  
+    -   If no keys can be found that include the fields that you specify, the return value is FALSE. If you do not test the return value, a run-time error occurs. If you do test the return value, the program will continue to run even though no key was found.  
   
 ## SETRANGE Function  
  SETRANGE sets a simple filter on a field.  
@@ -64,11 +64,11 @@ Customer.SETRANGE("No.",'10000','90000');
   
  When you use SETRANGE the following rules apply:  
   
--   SETRANGE removes any filters that were set previously and replaces them with the *From\-Value* and *To\-Value* parameters that you specify.  
+-   SETRANGE removes any filters that were set previously and replaces them with the *From-Value* and *To-Value* parameters that you specify.  
   
--   If you use SETRANGE without setting the *From\-Value* and *To\-Value* parameters, the function removes any filters that are already set.  
+-   If you use SETRANGE without setting the *From-Value* and *To-Value* parameters, the function removes any filters that are already set.  
   
--   If you only set the *From\-Value*, the *To\-Value* is set to the same value as the *From\-Value*.  
+-   If you only set the *From-Value*, the *To-Value* is set to the same value as the *From-Value*.  
   
 ## SETFILTER Function  
  SETFILTER sets a filter in a more general way than SETRANGE.  
@@ -102,7 +102,7 @@ Customer.SETFILTER("No.",'>%1&<>%2',Value1, Value2);
 Record.GETRANGEMIN(Field);  
 ```  
   
- A run\-time error occurs if the filter that is currently applied is not a range. For example, you can set a filter as follows.  
+ A run-time error occurs if the filter that is currently applied is not a range. For example, you can set a filter as follows.  
   
 ```  
 Customer.SETFILTER("No.",'10000|20000|30000');  

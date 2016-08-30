@@ -32,9 +32,9 @@ Position := STRPOS(String, SubString)
   
  The substring for which you want to search.  
   
- The STRPOS function is case\-sensitive.  
+ The STRPOS function is case-sensitive.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The position of *SubString* in *String*.  
@@ -49,7 +49,7 @@ Position := STRPOS(String, SubString)
 ## Example  
  This example shows how to use the STRPOS function.  
   
- This example requires that you create the following text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following text constants in the **C/AL Globals** window.  
   
 |Text constant|ENU value|  
 |-------------------|---------------|  

@@ -12,7 +12,7 @@ caps.latest.revision: 4
 manager: edupont
 ---
 # Codeunit Data Type
-Use this complex data type to store units of C\/AL code. Codeunits contain a number of user\-defined functions.  
+Use this complex data type to store units of C/AL code. Codeunits contain a number of user-defined functions.  
   
 ## See Also  
  [Codeunit.RUN Function \(Codeunit\)](Codeunit.RUN-Function--Codeunit-.md)   

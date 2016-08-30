@@ -24,7 +24,7 @@ Events that occur on the [!INCLUDE[nav_server](includes/nav_server_md.md)] insta
   
 -   **[!INCLUDE[nav_server](includes/nav_server_md.md)] channel logs in the Applications and Services Logs**  
   
-     By using event channels, events that occur on a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance are recorded to specific [!INCLUDE[nav_server](includes/nav_server_md.md)] logs in the Applications and Services Logs. Channels provide a way to collect and view events from a specific provider, which in this case, [!INCLUDE[nav_server](includes/nav_server_md.md)]. This differs from the Windows Application log which contains system\-wide events from multiple publishers \(applications and components\).  
+     By using event channels, events that occur on a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance are recorded to specific [!INCLUDE[nav_server](includes/nav_server_md.md)] logs in the Applications and Services Logs. Channels provide a way to collect and view events from a specific provider, which in this case, [!INCLUDE[nav_server](includes/nav_server_md.md)]. This differs from the Windows Application log which contains system-wide events from multiple publishers \(applications and components\).  
   
      To view [!INCLUDE[nav_server](includes/nav_server_md.md)] instance events in Event Viewer, in the console tree, choose **Applications and Services Logs**, **Microsoft**, **DynamicsNAV**, **Server**. The events are recorded in the following logs, according the event channel to which they belong:  
   
@@ -32,7 +32,7 @@ Events that occur on the [!INCLUDE[nav_server](includes/nav_server_md.md)] insta
     |---------|-----------------|  
     |Admin|Includes events that target end users and IT administrators. These events typically indicate a problem that requires action to resolve the problem. An example of an admin event is a tenant database failing to mount on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.|  
     |Operational|Includes events that provide information about an operation that occurred on [!INCLUDE[nav_server](includes/nav_server_md.md)] instances. These events are typically ordinary operating events that do not require any action but can be used to analyze and diagnose a problem. An example of an operational event is the shutting down of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.|  
-    |Debug|Includes trace events that occur on [!INCLUDE[nav_server](includes/nav_server_md.md)] instances. For more information about the different trace events and others ways to monitor them, see [Microsoft Dynamics NAV Server Trace Events](Microsoft-Dynamics-NAV-Server-Trace-Events.md) and [Monitoring Microsoft Dynamics NAV Server Event Traces](Monitoring-Microsoft-Dynamics-NAV-Server-Event-Traces.md).<br /><br /> **Note:** In Event Viewer, this log is hidden and disabled by default. For information about how to show and enable this log, see [How to: Use Event Viewer to Collect and View Trace Events](../Topic/How%20to:%20Use%20Event%20Viewer%20to%20Collect%20and%20View%20Trace%20Events.md).|  
+    |Debug|Includes trace events that occur on [!INCLUDE[nav_server](includes/nav_server_md.md)] instances. For more information about the different trace events and others ways to monitor them, see [Microsoft Dynamics NAV Server Trace Events](Microsoft-Dynamics-NAV-Server-Trace-Events.md) and [Monitoring Microsoft Dynamics NAV Server Event Traces](Monitoring-Microsoft-Dynamics-NAV-Server-Event-Traces.md).<br /><br /> **Note:** In Event Viewer, this log is hidden and disabled by default. For information about how to show and enable this log, see [How to: Use Event Viewer to Collect and View Trace Events](How%20to:%20Use%20Event%20Viewer%20to%20Collect%20and%20View%20Trace%20Events.md).|  
   
 -   **Application log in the Windows Logs**  
   
@@ -40,7 +40,7 @@ Events that occur on the [!INCLUDE[nav_server](includes/nav_server_md.md)] insta
   
      To view the **Application** log in Event Viewer, in the console tree, choose **Windows Logs**, **Applications**.  
   
-     The events in this log are the same events that are recorded in the **Admin** and **Operation** channel logs for [!INCLUDE[nav_server](includes/nav_server_md.md)] in the **Applications and Services Logs**. Therefore, you can consider the Windows Application log to be a secondary log for [!INCLUDE[nav_server](includes/nav_server_md.md)] events. Unless you are using System Center Operations Manager to monitor [!INCLUDE[nav_server](includes/nav_server_md.md)] events, you can disable logging [!INCLUDE[nav_server](includes/nav_server_md.md)] events to the Windows Application log and rely on **Applications and Services Logs** instead. For more information, see [How to: Disable Logging Events to the Windows Application Log](../Topic/How%20to:%20Disable%20Logging%20Events%20to%20the%20Windows%20Application%20Log.md).  
+     The events in this log are the same events that are recorded in the **Admin** and **Operation** channel logs for [!INCLUDE[nav_server](includes/nav_server_md.md)] in the **Applications and Services Logs**. Therefore, you can consider the Windows Application log to be a secondary log for [!INCLUDE[nav_server](includes/nav_server_md.md)] events. Unless you are using System Center Operations Manager to monitor [!INCLUDE[nav_server](includes/nav_server_md.md)] events, you can disable logging [!INCLUDE[nav_server](includes/nav_server_md.md)] events to the Windows Application log and rely on **Applications and Services Logs** instead. For more information, see [How to: Disable Logging Events to the Windows Application Log](How%20to:%20Disable%20Logging%20Events%20to%20the%20Windows%20Application%20Log.md).  
   
     > [!NOTE]  
     >  Trace events are not included in this log.  
@@ -64,7 +64,7 @@ Events that occur on the [!INCLUDE[nav_server](includes/nav_server_md.md)] insta
   
      The **Filter Current Log** window opens.  
   
-4.  On the **Filter** tab, set the **Logged** drop\-down list to **Last 24 hours**.  
+4.  On the **Filter** tab, set the **Logged** drop-down list to **Last 24 hours**.  
   
 5.  In the **Error Level** section, select the **Error** check box.  
   
@@ -116,13 +116,13 @@ Events that occur on the [!INCLUDE[nav_server](includes/nav_server_md.md)] insta
  The **Admin** log displays only errors that occurred in the last 24 hours on tenant *Tenant1* and [!INCLUDE[nav_server](includes/nav_server_md.md)] instance *MyNavServerInstance1*. The applied filter can be removed. Alternatively, you can save it as a custom view. For more information about filtering in Event Viewer, see [Filter Displayed Events](http://go.microsoft.com/fwlink/?LinkID=516925) and [Advanced XML filtering in the Windows Event Viewer](http://go.microsoft.com/fwlink/?LinkID=516924).  
   
 ##  <a name="ViewEventsWinPS"></a> Viewing Microsoft Dynamics NAV Server Events by Using Windows PowerShell  
- You can use the Get\-WinEvent cmdlet of Windows PowerShell to view [!INCLUDE[nav_server](includes/nav_server_md.md)] instance events and trace events in the event logs and event tracing log files on the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer. The Get\-WinEvent cmdlet retrieves the same events that can be viewed in the [!INCLUDE[nav_server](includes/nav_server_md.md)] logs \(Admin, Operational, and Debug\) in the **Applications and Services Logs** of Event Viewer.  
+ You can use the Get-WinEvent cmdlet of Windows PowerShell to view [!INCLUDE[nav_server](includes/nav_server_md.md)] instance events and trace events in the event logs and event tracing log files on the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer. The Get-WinEvent cmdlet retrieves the same events that can be viewed in the [!INCLUDE[nav_server](includes/nav_server_md.md)] logs \(Admin, Operational, and Debug\) in the **Applications and Services Logs** of Event Viewer.  
   
- The Get\-WinEvent cmdlet includes several parameters that enable you to filter the events that you view and specify how the events are displayed. Windows PowerShell enables you can create scripts that perform complex operations for extracting and displaying specific event data. For more information about the Get\-WinEvent cmdlet, see [Get\-WinEvent](http://go.microsoft.com/fwlink/?LinkID=513535).  
+ The Get-WinEvent cmdlet includes several parameters that enable you to filter the events that you view and specify how the events are displayed. Windows PowerShell enables you can create scripts that perform complex operations for extracting and displaying specific event data. For more information about the Get-WinEvent cmdlet, see [Get-WinEvent](http://go.microsoft.com/fwlink/?LinkID=513535).  
   
  For more information about installing and getting started with Windows PowerShell, see [Getting Started with Windows PowerShell](http://go.microsoft.com/fwlink/?LinkID=254637).  
   
-#### To use the Get\-WinEvent Cmdlet to view [!INCLUDE[nav_server](includes/nav_server_md.md)] events  
+#### To use the Get-WinEvent Cmdlet to view [!INCLUDE[nav_server](includes/nav_server_md.md)] events  
   
 1.  If you want to view events in the [!INCLUDE[nav_server](includes/nav_server_md.md)]**Debug** log, ensure that the log is enabled. The **Admin** and **Operational** logs are enabled by default.  
   
@@ -155,11 +155,11 @@ Events that occur on the [!INCLUDE[nav_server](includes/nav_server_md.md)] insta
 >  You can also enable the Debug log from Event Viewer. For more information, see [Enable Analytic and Debug Logs](http://technet.microsoft.com/en-us/library/cc749492.aspx).  
   
 ### Filtering [!INCLUDE[nav_server](includes/nav_server_md.md)] Events  
- You can filter the events that you view in a [!INCLUDE[nav_server](includes/nav_server_md.md)] log by setting the *FilterXpath* parameter of the Get\-WinEvent cmdlet. The following examples illustrate how you can use the *FilterXpath* parameter to filter the [!INCLUDE[nav_server](includes/nav_server_md.md)] events.  
+ You can filter the events that you view in a [!INCLUDE[nav_server](includes/nav_server_md.md)] log by setting the *FilterXpath* parameter of the Get-WinEvent cmdlet. The following examples illustrate how you can use the *FilterXpath* parameter to filter the [!INCLUDE[nav_server](includes/nav_server_md.md)] events.  
   
  **Example 1**  
   
- The following example uses the Get\-WinEvent cmdlet to view errors in the [!INCLUDE[nav_server](includes/nav_server_md.md)] Admin log for the tenant *MyTenant1* on the server instance *MyNavServerInstance1*.  
+ The following example uses the Get-WinEvent cmdlet to view errors in the [!INCLUDE[nav_server](includes/nav_server_md.md)] Admin log for the tenant *MyTenant1* on the server instance *MyNavServerInstance1*.  
   
 ```  
 Get-WinEvent -LogName 'Microsoft-DynamicsNav-Server/Admin' -FilterXPath "*[System[(Level=2)]] and *[EventData[Data[@Name='tenantId'] and (Data = 'MyTenant1')]] and *[EventData[Data[@Name='serverInstanceName'] and Data='MyNavServerInstance1']]" | Format-List -Property Message-  
@@ -167,7 +167,7 @@ Get-WinEvent -LogName 'Microsoft-DynamicsNav-Server/Admin' -FilterXPath "*[Syste
   
  **Example 2**  
   
- The following is an example of a Windows PowerShell script that you can create and run to view trace events in the [!INCLUDE[nav_server](includes/nav_server_md.md)] Debug log. The script returns the start and stop C\/AL function trace events that take more than four seconds to execute on the tenant *MyTenant1* of the server instance *MyNavServerInstance1*.  
+ The following is an example of a Windows PowerShell script that you can create and run to view trace events in the [!INCLUDE[nav_server](includes/nav_server_md.md)] Debug log. The script returns the start and stop C/AL function trace events that take more than four seconds to execute on the tenant *MyTenant1* of the server instance *MyNavServerInstance1*.  
   
 ```  
 $maxAllowedSeconds = 4  

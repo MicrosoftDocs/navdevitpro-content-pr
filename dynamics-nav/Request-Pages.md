@@ -49,5 +49,5 @@ A request page is a page that is run before the report starts to execute. Reques
  In a complex report that uses data from several tables, the functionality may depend on a specific key and sort order. Design your reports so that end users cannot change the sort order in a way that affects the functionality of the report.  
   
 ## See Also  
- [Reports\-duplicate 20](Reports-duplicate-20.md)   
+ [Reports-duplicate 20](Reports-duplicate-20.md)   
  [Report Design Overview](Report-Design-Overview.md)

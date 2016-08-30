@@ -27,7 +27,7 @@ Runs a query object and generates a dataset that can be read.
   
  **true** if the query was opened without errors; otherwise, **false**.  
   
- If you omit this optional return value and if the query does not execute successfully, then a run\-time error occurs. If you include a return value, then it is assumed that you will handle any errors and no run\-time error occurs when the **OPEN** function is called. However, a run\-time error will occur if the **READ** function is called afterward.  
+ If you omit this optional return value and if the query does not execute successfully, then a run-time error occurs. If you include a return value, then it is assumed that you will handle any errors and no run-time error occurs when the **OPEN** function is called. However, a run-time error will occur if the **READ** function is called afterward.  
   
 ## Remarks  
  When the **OPEN** function is called, the query is executed and the *Query* variable is put in a state in which the resulting dataset can be read by the **READ** function. The **OPEN** function has the following behavior:  
@@ -77,7 +77,7 @@ Runs a query object and generates a dataset that can be read.
   
 1.  Create a query called **Customer\_SalesQuantity** that links table **18 Customer** with table  **37 Sales Lines** from the [!INCLUDE[demolong](includes/demolong_md.md)]. Include columns for the **Name** and **No.** fields from the Customer table and the **Quantity** field from Sales Lines table.  
   
-     For step\-by\-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
+     For step-by-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
   
 2.  Create the following variable and text constant.  
   
@@ -87,9 +87,9 @@ Runs a query object and generates a dataset that can be read.
   
     |Text constant name|ENU Value|  
     |------------------------|---------------|  
-    |Text000|Customer name \= %1, Quantity \= %2|  
+    |Text000|Customer name = %1, Quantity = %2|  
   
- The following C\/AL code opens the query, reads each row of the dataset, and then displays a message that uses the content of the row. You can add the code to a codeunit, and then run the codeunit to see the results.  
+ The following C/AL code opens the query, reads each row of the dataset, and then displays a message that uses the content of the row. You can add the code to a codeunit, and then run the codeunit to see the results.  
   
 ```  
 // Sets a filter to display only sales quantities greater than 20.  
@@ -107,9 +107,9 @@ MyQuery.CLOSE;
   
  When the code is run, a message that resembles the following appears for each row in the dataset:  
   
- **Customer name \= The Device Shop, Quantity \= 30**  
+ **Customer name = The Device Shop, Quantity = 30**  
   
 ## See Also  
- [How to: Create Queries](../Topic/How%20to:%20Create%20Queries.md)   
- [Working with Queries in C\-AL](Working-with-Queries-in-C-AL.md)   
+ [How to: Create Queries](How%20to:%20Create%20Queries.md)   
+ [Working with Queries in C-AL](Working-with-Queries-in-C-AL.md)   
  [Queries](Queries.md)

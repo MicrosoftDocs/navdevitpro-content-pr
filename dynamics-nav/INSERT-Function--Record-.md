@@ -35,19 +35,19 @@ Inserts a record into a table.
   
  If this parameter is **true**, the code in the [OnInsert Trigger](OnInsert-Trigger.md) is executed. If this parameter is **false**, the code in the **OnInsert** trigger is not executed. The default value is **false**.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the record was inserted; otherwise, **false**.  
   
- If you omit this optional return value and if the record cannot be inserted, then a run\-time error occurs. If you include the return value, then you must handle any errors.  
+ If you omit this optional return value and if the record cannot be inserted, then a run-time error occurs. If you include the return value, then you must handle any errors.  
   
 ## Remarks  
  Records are uniquely identified by the values in primary key fields. The Database Management System \(DBMS\) checks the primary key for the table before it inserts a new record.  
   
- If the table contains an auto\-increment field, the auto\-increment feature is used if the record contains a zero value in that field. The auto\-increment feature enters the new value into the field as part of the insert.  
+ If the table contains an auto-increment field, the auto-increment feature is used if the record contains a zero value in that field. The auto-increment feature enters the new value into the field as part of the insert.  
   
- If the auto\-increment field contains a non\-zero value, that value is inserted into the table and the auto\-increment feature is not used. If the value in the auto\-increment field is greater than the last auto\-increment value in the table, then the next auto\-increment value that is entered into the table will be greater than the value in the field that you just inserted. If the value in the auto\-increment field already occurs in the table, then a run\-time error occurs.  
+ If the auto-increment field contains a non-zero value, that value is inserted into the table and the auto-increment feature is not used. If the value in the auto-increment field is greater than the last auto-increment value in the table, then the next auto-increment value that is entered into the table will be greater than the value in the field that you just inserted. If the value in the auto-increment field already occurs in the table, then a run-time error occurs.  
   
 ## Example  
  This example shows how to use the **INSERT** function without a return value.  
@@ -58,10 +58,10 @@ Customer."No." := '1120';
 Customer.INSERT;  
 ```  
   
- If customer 1120 already exists, then a run\-time error occurs.  
+ If customer 1120 already exists, then a run-time error occurs.  
   
 ## Example  
- This example requires that you create the following variable and text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following variable and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
@@ -81,7 +81,7 @@ ELSE
   MESSAGE(Text001, CustomerRec."No.");  
 ```  
   
- No run\-time error occurs if customer 1120 already exists.  
+ No run-time error occurs if customer 1120 already exists.  
   
 ## See Also  
  [Record Data Type](Record-Data-Type.md)

@@ -17,7 +17,7 @@ A binary large object \(BLOB\) is a complex data type. Variables of this data ty
  The maximum size of a BLOB is 2 GB.  
   
 ## Remarks  
- Use BLOBs to store memos \(text\), pictures \(bitmaps\), or user\-defined types.  
+ Use BLOBs to store memos \(text\), pictures \(bitmaps\), or user-defined types.  
   
 > [!NOTE]  
 >  You cannot view text that is stored in BLOBs from the development environment.  
@@ -26,7 +26,7 @@ A binary large object \(BLOB\) is a complex data type. Variables of this data ty
   
  For more information, see [InStream and OutStream Data Types](InStream-and-OutStream-Data-Types.md).  
   
- To optimize performance, when you access a record that has a BLOB field, the data in the BLOB is not always read into memory. You must call the [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md) to read the BLOB into memory and calculate it. Then you can use the BLOB in C\/AL code or display it in the application.  
+ To optimize performance, when you access a record that has a BLOB field, the data in the BLOB is not always read into memory. You must call the [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md) to read the BLOB into memory and calculate it. Then you can use the BLOB in C/AL code or display it in the application.  
   
  It is not supported to insert a BLOB field into a Variant.  
   

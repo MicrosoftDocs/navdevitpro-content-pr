@@ -18,7 +18,7 @@ In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)
   
 |Computer|Installed operating system and software|  
 |--------------|---------------------------------------------|  
-|**NAVSQL**|A supported operating system with the 64\-bit edition of a supported version of SQL Server installed.<br /><br /> You will install [!INCLUDE[navnow](includes/navnow_md.md)] database components on this computer. **Note:**  If SQL Server is not present, then Setup automatically installs the 64\-bit edition of SQL Server Express 2012, which you can use for prototyping, developing, and testing. We recommend that you use SQL Server 2008 R2 in production environments. For more information, see [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md).|  
+|**NAVSQL**|A supported operating system with the 64-bit edition of a supported version of SQL Server installed.<br /><br /> You will install [!INCLUDE[navnow](includes/navnow_md.md)] database components on this computer. **Note:**  If SQL Server is not present, then Setup automatically installs the 64-bit edition of SQL Server Express 2012, which you can use for prototyping, developing, and testing. We recommend that you use SQL Server 2008 R2 in production environments. For more information, see [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md).|  
 |**NAVSERVER**|A supported operating system.<br /><br /> You will install [!INCLUDE[nav_server](includes/nav_server_md.md)] on this computer.|  
 |**NAVWEB**|A supported operating system.<br /><br /> Internet Information Services 7 or Internet Information Services 8. **Note:**  [!INCLUDE[navnow](includes/navnow_md.md)] Setup can automatically enable IIS and the IIS features that are required for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. <br /><br /> You will install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on this computer.|  
 |**DEVICE**|A device with an Internet connection and a supported browser. For a list of supported browsers, see [System Requirements for Microsoft Dynamics NAV 2016](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md).|  
@@ -29,25 +29,25 @@ In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)
  The key characteristic of this walkthrough is that the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)] are installed on separate computers. Because of the multiple computers involved when a device tries to access the [!INCLUDE[nav_web](includes/nav_web_md.md)] over the Internet to manage [!INCLUDE[navnow](includes/navnow_md.md)] data, additional configuration is required to set up this environment compared to an environment where all components are on a single computer.  
   
 ## About This Walkthrough  
- After completing this walkthrough, you will have a functioning four\-tier installation on three computers. The installation uses the [!INCLUDE[demolong](includes/demolong_md.md)], which contains the [!INCLUDE[demoname](includes/demoname_md.md)] company. Windows authentication is used for authenticating users who try to access the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
+ After completing this walkthrough, you will have a functioning four-tier installation on three computers. The installation uses the [!INCLUDE[demolong](includes/demolong_md.md)], which contains the [!INCLUDE[demoname](includes/demoname_md.md)] company. Windows authentication is used for authenticating users who try to access the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
  This walkthrough illustrates the following tasks:  
   
 -   Using a domain user account as the service account for [!INCLUDE[nav_server](includes/nav_server_md.md)] and the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
--   [Installing the Microsoft Dynamics NAV Database Components](../Topic/Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Three%20Computers.md#InstallDatabase)  
+-   [Installing the Microsoft Dynamics NAV Database Components](Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Three%20Computers.md#InstallDatabase)  
   
--   [Starting the SQL Server Browser Service on the SQL Server](../Topic/Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Three%20Computers.md#SQLBrowser)  
+-   [Starting the SQL Server Browser Service on the SQL Server](Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Three%20Computers.md#SQLBrowser)  
   
--   [Installing Microsoft Dynamics NAV Server](../Topic/Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Three%20Computers.md#InstallNAVServer)  
+-   [Installing Microsoft Dynamics NAV Server](Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Three%20Computers.md#InstallNAVServer)  
   
--   [Installing the Microsoft Dynamics NAV Web Server Components](../Topic/Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Three%20Computers.md#InstallWeb)  
+-   [Installing the Microsoft Dynamics NAV Web Server Components](Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Three%20Computers.md#InstallWeb)  
   
--   [Configuring Constrained Delegation from the Microsoft Dynamics NAV Web Client to Microsoft Dynamics NAV Server](../Topic/Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Three%20Computers.md#Delegation)  
+-   [Configuring Constrained Delegation from the Microsoft Dynamics NAV Web Client to Microsoft Dynamics NAV Server](Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Three%20Computers.md#Delegation)  
   
--   [Allowing Inbound Communication on the Microsoft Dynamics NAV Web Client Port Through the Windows Firewall](../Topic/Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Three%20Computers.md#Firewall)  
+-   [Allowing Inbound Communication on the Microsoft Dynamics NAV Web Client Port Through the Windows Firewall](Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Three%20Computers.md#Firewall)  
   
--   [Opening the Microsoft Dynamics NAV Web client](../Topic/Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Three%20Computers.md#Opening)  
+-   [Opening the Microsoft Dynamics NAV Web client](Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Three%20Computers.md#Opening)  
   
 ### Prerequisites  
  To complete this walkthrough, you will need:  
@@ -56,7 +56,7 @@ In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)
   
 -   Three computers that are configured as described in the introduction.  
   
-     On the **NAVWEB** computer, you must enable IIS with the required features for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. For instructions about how to install Internet Information Services, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](../Topic/How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
+     On the **NAVWEB** computer, you must enable IIS with the required features for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. For instructions about how to install Internet Information Services, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
   
     > [!NOTE]  
     >  Instead of installing and configuring IIS manually, you can use [!INCLUDE[navnow](includes/navnow_md.md)] Setup to install IIS and enable the required features, as described in this walkthrough.  
@@ -87,7 +87,7 @@ In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)
   
 1.  On the **NAVSQL** computer, access the [!INCLUDE[navnow](includes/navnow_md.md)] installation media.  
   
-2.  Double\-click the setup.exe file to start the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard.  
+2.  Double-click the setup.exe file to start the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard.  
   
 3.  On the **Welcome to [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup** page, choose **Next**.  
   
@@ -105,7 +105,7 @@ In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)
   
 9. On the **Specify parameters** page, set the **Server account** to the domain user account that you created for and the [!INCLUDE[navnow](includes/navnow_md.md)] database and [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
-10. In the **SQL Database** box, type a name for the [!INCLUDE[navnow](includes/navnow_md.md)] database. For this walkthrough, type **Demo Database NAV \(9\-0\)**.  
+10. In the **SQL Database** box, type a name for the [!INCLUDE[navnow](includes/navnow_md.md)] database. For this walkthrough, type **Demo Database NAV \(9-0\)**.  
   
      You can keep the default values for the other parameters.  
   
@@ -115,7 +115,7 @@ In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)
   
 12. After the installation is complete, choose **Close**.  
   
- A database instance that is named **NAVDEMO** has been created on the SQL Server. The database instance includes the **Demo Database NAV \(9\-0\)** database.  
+ A database instance that is named **NAVDEMO** has been created on the SQL Server. The database instance includes the **Demo Database NAV \(9-0\)** database.  
   
 ##  <a name="SQLBrowser"></a> Starting the SQL Server Browser Service on the SQL Server  
  When you installed the [!INCLUDE[navnow](includes/navnow_md.md)] database components, the [!INCLUDE[demolong](includes/demolong_md.md)] was installed on a database instance named **NAVDEMO**. Because you are using a named database instance and [!INCLUDE[nav_server](includes/nav_server_md.md)] is on a separate computer, you must enable and run the SQL Server Browser Service on the SQL Server to ensure the [!INCLUDE[nav_server](includes/nav_server_md.md)] can connect to the database instance.  
@@ -128,13 +128,13 @@ In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)
   
 2.  In SQL Server Configuration Manager, in the navigation pane on the left side, choose **SQL Server Service**.  
   
-3.  Right\-click **SQL Server Browser**, and then choose **Properties**.  
+3.  Right-click **SQL Server Browser**, and then choose **Properties**.  
   
 4.  On the **Services** tab of the **SQL Server Browser** dialog box, set the **Start mode** to **Automatic**.  
   
 5.  Choose **OK** to return to the SQL Server Configuration Manager main page.  
   
-6.  Right\-click **SQL Server Browser** again, and then choose **Start**.  
+6.  Right-click **SQL Server Browser** again, and then choose **Start**.  
   
 ##  <a name="InstallNAVServer"></a> Installing Microsoft Dynamics NAV Server  
  In this procedure, you use [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup to install [!INCLUDE[nav_server](includes/nav_server_md.md)] on the **NAVSERVER** computer. During setup, you will assign the domain user account as the service account for [!INCLUDE[nav_server](includes/nav_server_md.md)].  
@@ -146,7 +146,7 @@ In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)
   
 1.  On the **NAVSERVER** computer, access the [!INCLUDE[navnow](includes/navnow_md.md)] installation media.  
   
-2.  Double\-click the setup.exe file to start the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard.  
+2.  Double-click the setup.exe file to start the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard.  
   
 3.  On the **Welcome to [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup** page, choose **Next**.  
   
@@ -166,7 +166,7 @@ In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)
     |---------------|-----------|  
     |SQL Server|NAVSQL|  
     |SQL Server Instance|NAVDEMO|  
-    |SQL Database|Demo Database NAV \(9\-0\)|  
+    |SQL Database|Demo Database NAV \(9-0\)|  
   
     > [!NOTE]  
     >  Substitute the values in the table with the values for your installation as needed.  
@@ -182,7 +182,7 @@ In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)
   
 1.  On the **NAVWEB** computer, access the [!INCLUDE[navnow](includes/navnow_md.md)] installation media.  
   
-2.  Double\-click the setup.exe file to start the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard.  
+2.  Double-click the setup.exe file to start the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard.  
   
 3.  Choose **Next**.  
   
@@ -231,7 +231,7 @@ In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)
   
 3.  Expand the node for the domain where you have installed the [!INCLUDE[navnow](includes/navnow_md.md)] environment. For this example, the domain in the walkthrough is **Corp**.  
   
-4.  Select the **Computers** node, right\-click the **NAVWEB** computer, and then choose **Properties**.  
+4.  Select the **Computers** node, right-click the **NAVWEB** computer, and then choose **Properties**.  
   
 5.  On the **Delegation** tab, choose **Trust this user for delegation to specified services only**, and then choose **Use Kerberos only**.  
   
@@ -259,7 +259,7 @@ In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)
 13. Choose the **OK** button to close the dialog box.  
   
 ### Configuring Kernel Mode Authentication  
- By default, Windows authentication on the [!INCLUDE[nav_web](includes/nav_web_md.md)] in IIS is set to use kernel mode authentication. Kernel\-mode authentication improves authentication performance. However, when you use delegation with Kerberos, you must either disable kernel mode or configure it to use the credentials of the application pool of [!INCLUDE[nav_web](includes/nav_web_md.md)]. Otherwise, authentication will fail and [!INCLUDE[nav_web](includes/nav_web_md.md)] will not be able to connect to [!INCLUDE[nav_server](includes/nav_server_md.md)]. This is because kernel mode authentication runs under the computer account of the computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], while the [!INCLUDE[nav_web](includes/nav_web_md.md)] runs under the user account of the user trying to access [!INCLUDE[navnow](includes/navnow_md.md)].  
+ By default, Windows authentication on the [!INCLUDE[nav_web](includes/nav_web_md.md)] in IIS is set to use kernel mode authentication. Kernel-mode authentication improves authentication performance. However, when you use delegation with Kerberos, you must either disable kernel mode or configure it to use the credentials of the application pool of [!INCLUDE[nav_web](includes/nav_web_md.md)]. Otherwise, authentication will fail and [!INCLUDE[nav_web](includes/nav_web_md.md)] will not be able to connect to [!INCLUDE[nav_server](includes/nav_server_md.md)]. This is because kernel mode authentication runs under the computer account of the computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], while the [!INCLUDE[nav_web](includes/nav_web_md.md)] runs under the user account of the user trying to access [!INCLUDE[navnow](includes/navnow_md.md)].  
   
  As best practice, you should configure kernel mode authentication to use the application pool credentials, as described in this walkthrough.  
   
@@ -343,9 +343,9 @@ In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)
 ## Next Steps  
  The following is a list of typical tasks to perform after you install [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
--   Secure the connection to [!INCLUDE[nav_web](includes/nav_web_md.md)] using SSL. For more information, see [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](../Topic/How%20to:%20Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
+-   Secure the connection to [!INCLUDE[nav_web](includes/nav_web_md.md)] using SSL. For more information, see [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How%20to:%20Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
   
--   Upload your license. For more information, see [How to: Upload the License File](../Topic/How%20to:%20Upload%20the%20License%20File.md).  
+-   Upload your license. For more information, see [How to: Upload the License File](How%20to:%20Upload%20the%20License%20File.md).  
   
 -   Create users and integrate them into the [!INCLUDE[navnow](includes/navnow_md.md)] security system. For more information, see [Managing Users](Managing-Users.md).  
   
@@ -353,6 +353,6 @@ In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
  [Deploying the Microsoft Dynamics NAV Web Server Components in a Three Computer Environment](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components-in-a-Three-Computer-Environment.md)   
  [Microsoft Dynamics NAV Web Client Network Architecture](Microsoft-Dynamics-NAV-Web-Client-Network-Architecture.md)   
- [Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on a Single Computer](../Topic/Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20a%20Single%20Computer.md)   
+ [Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on a Single Computer](Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20a%20Single%20Computer.md)   
  [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)   
  [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)

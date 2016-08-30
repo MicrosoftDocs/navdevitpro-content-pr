@@ -23,9 +23,9 @@ You can use events to design the application to react to specific actions or beh
 ## How Events Work  
  The basic principal is that you program events in the application to run customized behavior when they occur. Events in [!INCLUDE[navnow](includes/navnow_md.md)] are modelled after Microsoft .NET Framework. There are three major participants involved in events: the *event*, a *publisher* and a *subscriber*.  
   
--   An *event* is the declaration of the occurrence or change in the application. An event is declared by a C\/AL function, which is referred to as an *event publisher function*. An event publisher function is comprised of a signature only and does not execute any code.  
+-   An *event* is the declaration of the occurrence or change in the application. An event is declared by a C/AL function, which is referred to as an *event publisher function*. An event publisher function is comprised of a signature only and does not execute any code.  
   
--   A *publisher* is the object that contains event publisher function that declares the event. The publisher exposes an event in the application to subscribers, essentially providing them with a hook\-up point in the application.  
+-   A *publisher* is the object that contains event publisher function that declares the event. The publisher exposes an event in the application to subscribers, essentially providing them with a hook-up point in the application.  
   
      Publishing an event does not actually do anything in the application apart from making the event available for subscription. The event must be raised for subscribers to respond. An event is raised by adding logic to the application that calls into the publisher to invoke the event \(the event publisher function\).  
   
@@ -33,7 +33,7 @@ You can use events to design the application to react to specific actions or beh
   
      There are three different event types: business, integration, and trigger events. For more information about each type, see [Event Types](Event-Types.md). Business and integration type events must be explicitly declared and published, which means that you must create event publisher functions and add them to objects manually. On the other hand, trigger events, which occur on table and page operations, are published and raised implicitly by the [!INCLUDE[navnow](includes/navnow_md.md)] runtime. Therefore, no coding is required to publish them.  
   
--   A *subscriber* listens for and handles a published event. A subscriber is a C\/AL function that subscribes to a specific event publisher function and includes the logic for handling the event. When an event is raised, the subscriber function is a called and it code is run. A subscriber enables partners to hook into the core [!INCLUDE[navnow](includes/navnow_md.md)] application functionality without having to do traditional code modifications. Any [!INCLUDE[navnow](includes/navnow_md.md)] solution provider, which also includes Microsoft, can use event subscribers.  
+-   A *subscriber* listens for and handles a published event. A subscriber is a C/AL function that subscribes to a specific event publisher function and includes the logic for handling the event. When an event is raised, the subscriber function is a called and it code is run. A subscriber enables partners to hook into the core [!INCLUDE[navnow](includes/navnow_md.md)] application functionality without having to do traditional code modifications. Any [!INCLUDE[navnow](includes/navnow_md.md)] solution provider, which also includes Microsoft, can use event subscribers.  
   
  There can by multiple subscribers to a single event publisher function. However, a publisher has no knowledge of subscribers, if any. Subscribers can reside in different parts of the application than publishers.  
   

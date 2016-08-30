@@ -16,20 +16,20 @@ When you deploy for the first time, you will have a [!INCLUDE[navnow](includes/n
  After the initial deployment, you can begin to scale the topology by adding companies, [!INCLUDE[navnow](includes/navnow_md.md)] web server instances, [!INCLUDE[nav_server](includes/nav_server_md.md)] instances, and [!INCLUDE[navnow](includes/navnow_md.md)] databases.  
   
 ## Scaling Configurations  
- There are four basic configurations for scaling up the [!INCLUDE[navnow](includes/navnow_md.md)] environment: single\-server instance, multiple companies \- single database, multiple server instances \- multiple databases, and multiple\-tenant.  
+ There are four basic configurations for scaling up the [!INCLUDE[navnow](includes/navnow_md.md)] environment: single-server instance, multiple companies - single database, multiple server instances - multiple databases, and multiple-tenant.  
   
 ### Single Server Instance  
  With the single server instance configuration, each company has its own computer or virtual machine that hosts the [!INCLUDE[navnow](includes/navnow_md.md)] web server instance, [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, and [!INCLUDE[navnow](includes/navnow_md.md)] database. Companies or instances do not share resources.  
   
  ![Scaling NAV on Azure Single instance](media/NAV_Azure_Scaling_SingleInstance.png "NAV\_Azure\_Scaling\_SingleInstance")  
   
-### Multiple Companies \- Single Database  
+### Multiple Companies - Single Database  
  With this configuration, companies share the same [!INCLUDE[navnow](includes/navnow_md.md)] web server instance and [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, and [!INCLUDE[navnow](includes/navnow_md.md)] database on the same computer or virtual machine.  
   
  ![Azure Scaling Multi&#45;Company](media/NAV_Azure_Scaling_MultiCompany.png "NAV\_Azure\_Scaling\_MultiCompany")  
   
-### Multiple Server Instances \- Multiple Databases  
- With this configuration, companies have their own [!INCLUDE[navnow](includes/navnow_md.md)] web server instance, [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, and [!INCLUDE[navnow](includes/navnow_md.md)] database. Unlike the single\-instance configuration, the [!INCLUDE[navnow](includes/navnow_md.md)] components for the companies are installed on the same computer or virtual machine.  
+### Multiple Server Instances - Multiple Databases  
+ With this configuration, companies have their own [!INCLUDE[navnow](includes/navnow_md.md)] web server instance, [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, and [!INCLUDE[navnow](includes/navnow_md.md)] database. Unlike the single-instance configuration, the [!INCLUDE[navnow](includes/navnow_md.md)] components for the companies are installed on the same computer or virtual machine.  
   
  ![NAV on Azure Multi&#45;Instance Scaling](media/NAV_Azure_Scaling_MultiInstance.png "NAV\_Azure\_Scaling\_MultiInstance")  
   
@@ -48,11 +48,11 @@ When you deploy for the first time, you will have a [!INCLUDE[navnow](includes/n
   
 |Task|Administration Shell|Administration Tool|Development Environment|Windows\/Web client|For more information, see|  
 |----------|--------------------------|-------------------------|-----------------------------|-------------------------|-------------------------------|  
-|Add [!INCLUDE[nav_server](includes/nav_server_md.md)] instance|X|X|||[How to: Add a Microsoft Dynamics NAV Server Instance](../Topic/How%20to:%20Add%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md) \(Administration Shell\)<br /><br /> [How to: Create a Microsoft Dynamics NAV Server Instance](../Topic/How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md) \(Administration Tool\)|  
-|Add [!INCLUDE[navnow](includes/navnow_md.md)] web server instance|X||||[How to: Add a Microsoft Dynamics NAV Web Server Instance](../Topic/How%20to:%20Add%20a%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Instance.md)|  
-|Mount a tenant on a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance|X|X|||[How to: Mount a Tenant](../Topic/How%20to:%20Mount%20a%20Tenant.md) \(Administration Shell\)<br /><br /> [How to: Mount or Dismount a Tenant on a Microsoft Dynamics Server Instance](../Topic/How%20to:%20Mount%20or%20Dismount%20a%20Tenant%20on%20a%20Microsoft%20Dynamics%20Server%20Instance.md) \(Administration Tool\)|  
-|Add [!INCLUDE[navnow](includes/navnow_md.md)] database|X||X||[How to: Add a Microsoft Dynamics NAV Database](../Topic/How%20to:%20Add%20a%20Microsoft%20Dynamics%20NAV%20Database.md) \(Administration Shell\)<br /><br /> [How to: Create Databases](../Topic/How%20to:%20Create%20Databases.md) \(Development Environment\)|  
-|Add [!INCLUDE[navnow](includes/navnow_md.md)] company|X|||X|[How to: Add a Microsoft Dynamics NAV Company](../Topic/How%20to:%20Add%20a%20Microsoft%20Dynamics%20NAV%20Company.md) \(Administration Shell\)<br /><br /> [How to: Create a New Company](../Topic/How%20to:%20Create%20a%20New%20Company.md) \(Windows or Web client\)|  
+|Add [!INCLUDE[nav_server](includes/nav_server_md.md)] instance|X|X|||[How to: Add a Microsoft Dynamics NAV Server Instance](How%20to:%20Add%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md) \(Administration Shell\)<br /><br /> [How to: Create a Microsoft Dynamics NAV Server Instance](How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md) \(Administration Tool\)|  
+|Add [!INCLUDE[navnow](includes/navnow_md.md)] web server instance|X||||[How to: Add a Microsoft Dynamics NAV Web Server Instance](How%20to:%20Add%20a%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Instance.md)|  
+|Mount a tenant on a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance|X|X|||[How to: Mount a Tenant](How%20to:%20Mount%20a%20Tenant.md) \(Administration Shell\)<br /><br /> [How to: Mount or Dismount a Tenant on a Microsoft Dynamics Server Instance](How%20to:%20Mount%20or%20Dismount%20a%20Tenant%20on%20a%20Microsoft%20Dynamics%20Server%20Instance.md) \(Administration Tool\)|  
+|Add [!INCLUDE[navnow](includes/navnow_md.md)] database|X||X||[How to: Add a Microsoft Dynamics NAV Database](How%20to:%20Add%20a%20Microsoft%20Dynamics%20NAV%20Database.md) \(Administration Shell\)<br /><br /> [How to: Create Databases](How%20to:%20Create%20Databases.md) \(Development Environment\)|  
+|Add [!INCLUDE[navnow](includes/navnow_md.md)] company|X|||X|[How to: Add a Microsoft Dynamics NAV Company](How%20to:%20Add%20a%20Microsoft%20Dynamics%20NAV%20Company.md) \(Administration Shell\)<br /><br /> [How to: Create a New Company](How%20to:%20Create%20a%20New%20Company.md) \(Windows or Web client\)|  
   
 > [!NOTE]  
 >  For [!INCLUDE[navnow](includes/navnow_md.md)] deployment on Microsoft Azure, we recommend that you establish a remote desktop connection to the virtual machines.  

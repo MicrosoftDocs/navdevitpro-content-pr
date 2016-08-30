@@ -31,7 +31,7 @@ Gets a field on a test page.
   
  The ID of the field that you want to get. This ID is from Page Designer.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: TestField  
   
  The field on the test page.  

@@ -31,7 +31,7 @@ Gets the action that the test page invokes.
   
  The ID of the action that the test page invokes.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text  
   
  The action that the test page invokes. This return value is optional.  

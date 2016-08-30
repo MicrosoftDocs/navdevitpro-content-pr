@@ -33,13 +33,13 @@ This walkthrough demonstrates how to develop a codeunit that creates a file on [
   
 1.  In **Object Designer**, choose **Codeunit** and then choose **New**.  
   
-     C\/AL Editor opens.  
+     C/AL Editor opens.  
   
-2.  Choose the OnRun\(\) function in C\/AL Editor.  
+2.  Choose the OnRun\(\) function in C/AL Editor.  
   
-3.  Choose **View** and then choose **C\/AL Locals**.  
+3.  Choose **View** and then choose **C/AL Locals**.  
   
-     The **OnRun \-C\/AL Locals** window opens.  
+     The **OnRun -C/AL Locals** window opens.  
   
 4.  Choose the **Variables** tab.  
   
@@ -55,9 +55,9 @@ This walkthrough demonstrates how to develop a codeunit that creates a file on [
   
 6.  Choose the next empty line to ensure that the local variables are saved.  
   
-7.  Close the **C\/AL Locals** window.  
+7.  Close the **C/AL Locals** window.  
   
-8.  Enter the following code in the C\/AL Editor for the OnRun\(\) method.  
+8.  Enter the following code in the C/AL Editor for the OnRun\(\) method.  
   
     ```  
     // Create a temporary file on NAV server, write the content   
@@ -112,4 +112,4 @@ This walkthrough demonstrates how to develop a codeunit that creates a file on [
 7.  Note that the file contains the text 'abc'.  
   
 ## See Also  
- [Walkthrough: Uploading a File from a Client to Microsoft Dynamics NAV Server](../Topic/Walkthrough:%20Uploading%20a%20File%20from%20a%20Client%20to%20Microsoft%20Dynamics%20NAV%20Server.md)
+ [Walkthrough: Uploading a File from a Client to Microsoft Dynamics NAV Server](Walkthrough:%20Uploading%20a%20File%20from%20a%20Client%20to%20Microsoft%20Dynamics%20NAV%20Server.md)

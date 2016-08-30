@@ -25,16 +25,16 @@ String := FORMAT(Value[, Length][, FormatStr/FormatNumber])
  *Value*  
  Type: Any  
   
- This is a C\/AL variable \(expression\) of any simple data type, such as Option, Integer, BigInteger, Decimal, Char, Text, Code, Date, Time, DateTime, Boolean, or GUID.  
+ This is a C/AL variable \(expression\) of any simple data type, such as Option, Integer, BigInteger, Decimal, Char, Text, Code, Date, Time, DateTime, Boolean, or GUID.  
   
- If, when the system formats *Value*, the result is a value larger than the maximum length [MAXSTRLEN Function \(Code, Text\)](MAXSTRLEN-Function--Code--Text-.md) of *String*, a run\-time error occurs.  
+ If, when the system formats *Value*, the result is a value larger than the maximum length [MAXSTRLEN Function \(Code, Text\)](MAXSTRLEN-Function--Code--Text-.md) of *String*, a run-time error occurs.  
   
  *Length*  
  Type: Integer  
   
  This optional parameter specifies the length of *String*. The following rules apply:  
   
--   If *Length* \= 0 then the entire value is returned \(default\).  
+-   If *Length* = 0 then the entire value is returned \(default\).  
   
 -   If *Length* \> 0 then the returned string will be exactly *Length* characters.  
   
@@ -71,7 +71,7 @@ String := FORMAT(Value[, Length][, FormatStr/FormatNumber])
 > [!NOTE]  
 >  You cannot use both *FormatNumber* and *FormatStr* at the same time.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text or code  
   
  The formatted output string.  
@@ -82,7 +82,7 @@ String := FORMAT(Value[, Length][, FormatStr/FormatNumber])
  Format 9 is designed to be used when importing data with an XMLport and converts data from XML format to the corresponding C\/SIDE formats.  
   
 ## Example  
- This example requires that you create the following text constant in the **C\/AL Globals** window.  
+ This example requires that you create the following text constant in the **C/AL Globals** window.  
   
 |Text constant|ENU value|  
 |-------------------|---------------|  
@@ -97,24 +97,24 @@ MESSAGE(Text000, FORMAT(-123456.78, 12, '<Integer Thousand><Decimals><Sign,1>'))
   
  The Regional and Language settings on the computer on which you run the code affect how the string is displayed. For example, on a computer that has the regional format set to English \(United States\), the message window displays the following:  
   
- **The formatted value: \> 123,456.78\-\<**  
+ **The formatted value: \> 123,456.78-\<**  
   
- **The formatted value: \> 123,456.78\-\<**  
+ **The formatted value: \> 123,456.78-\<**  
   
- **The formatted value: \> 123,456.78\-\<**  
+ **The formatted value: \> 123,456.78-\<**  
   
  On a computer that has the regional format set to Danish \(Denmark\), the message window displays the following:  
   
- **The formatted value: \> 123.456,78\-\<**  
+ **The formatted value: \> 123.456,78-\<**  
   
- **The formatted value: \> 123.456,78\-\<**  
+ **The formatted value: \> 123.456,78-\<**  
   
- **The formatted value: \> 123.456,78\-\<**  
+ **The formatted value: \> 123.456,78-\<**  
   
 ## Example  
  This example shows how to use a string to build a format.  
   
- This example requires that you create the following text constant in the **C\/AL Globals** window.  
+ This example requires that you create the following text constant in the **C/AL Globals** window.  
   
 |Text constant|ENU value|  
 |-------------------|---------------|  

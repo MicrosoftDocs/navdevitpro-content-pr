@@ -23,7 +23,7 @@ Specifies whether to print data in a report for the parent data item when the ch
 ## Remarks  
  This property has no effect on a data item that does not have any child data items. If this property is **No** and there is no record in the child data item that corresponds to the current record in the parent data item, then the report prints data from the current record in the parent data item, even though there is no data for the child data item. If this property is **Yes** and there is no record in the child data item that corresponds to the current record in the parent data item, then the report does not print data from the current record in the parent data item.  
   
- If there are more than two data items, then the report iterates through each parent\-child relationship in the same way.  
+ If there are more than two data items, then the report iterates through each parent-child relationship in the same way.  
   
  Another way to achieve the result of not printing blank lines is to add a filter on the table. For more information, see [SETFILTER Function \(Record\)](SETFILTER-Function--Record-.md).  
   
@@ -34,7 +34,7 @@ Specifies whether to print data in a report for the parent data item when the ch
   
  The Sales Header table contains the following data.  
   
-|Document Type|Sell\-to Customer No.|No.|…|  
+|Document Type|Sell-to Customer No.|No.|…|  
 |-------------------|---------------------------|---------|-------|  
 |Order|38128456|101009|…|  
 |Order|43687129|101011|…|  
@@ -50,7 +50,7 @@ Specifies whether to print data in a report for the parent data item when the ch
 |Order|101009|20000|…|  
 |Order|101013|10000|…|  
   
- In this example, you set the [DataItemLink Property \(Reports\)](DataItemLink-Property--Reports-.md) to "Document Type\=FIELD\(Document Type\),Document No.\=FIELD\(No.\)". If you set **PrintOnlyIfDetail** to **Yes**, then the report outputs the following data.  
+ In this example, you set the [DataItemLink Property \(Reports\)](DataItemLink-Property--Reports-.md) to "Document Type=FIELD\(Document Type\),Document No.=FIELD\(No.\)". If you set **PrintOnlyIfDetail** to **Yes**, then the report outputs the following data.  
   
 |Document Type|Customer No.|Document No.|Line No.|…|  
 |-------------------|------------------|------------------|--------------|-------|  

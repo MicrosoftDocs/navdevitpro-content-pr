@@ -42,9 +42,9 @@ In a report that is based on a Word report layout, you can set up hyperlinks on 
   
 2.  In the report dataset, add the following columns:  
   
-    -   A column for field that stores the URL. Give the column a name that ends with the text **\_Url**, such as *PaymentService\_Url*. You can use any valid name, as long as it ends with **\_Url** \(this is case\-sensitive\).  
+    -   A column for field that stores the URL. Give the column a name that ends with the text **\_Url**, such as *PaymentService\_Url*. You can use any valid name, as long as it ends with **\_Url** \(this is case-sensitive\).  
   
-    -   A column for the field that stores the link text strings. Give the column a name that ends with the text **\_UrlText**, such as *PaymentService\_UrlText*. You can use any name, as long as it ends with **\_UrlText** \(this is case\-sensitive\).  
+    -   A column for the field that stores the link text strings. Give the column a name that ends with the text **\_UrlText**, such as *PaymentService\_UrlText*. You can use any name, as long as it ends with **\_UrlText** \(this is case-sensitive\).  
   
 3.  In the Word report layout, add a text control for the "**\_Url**" column.  
   
@@ -68,7 +68,7 @@ In a report that is based on a Word report layout, you can set up hyperlinks on 
 3.  In the Word report layout, add a picture control for the picture source column.  
   
 ## See Also  
- [How to: Modify a Word Report Layout](../Topic/How%20to:%20Modify%20a%20Word%20Report%20Layout.md)   
- [How to: Add Fields from a Report Dataset to a Word Report Layout](../Topic/How%20to:%20Add%20Fields%20from%20a%20Report%20Dataset%20to%20a%20Word%20Report%20Layout.md)   
+ [How to: Modify a Word Report Layout](How%20to:%20Modify%20a%20Word%20Report%20Layout.md)   
+ [How to: Add Fields from a Report Dataset to a Word Report Layout](How%20to:%20Add%20Fields%20from%20a%20Report%20Dataset%20to%20a%20Word%20Report%20Layout.md)   
  [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)   
  [Defining the Report Dataset](Defining-the-Report-Dataset.md)

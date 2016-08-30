@@ -14,7 +14,7 @@ manager: edupont
 # Basic Page Operations
 When you publish a page as a SOAP web service, it has a set of default operations that are exposed to consumers of the web service.  
   
- These operations match the actions a user can perform by interacting with a page using the RoleTailored client. The same page\- and table\-based business logic is executed.  
+ These operations match the actions a user can perform by interacting with a page using the RoleTailored client. The same page- and table-based business logic is executed.  
   
  The following table lists the operations and provides links to reference pages.  
   
@@ -29,7 +29,7 @@ When you publish a page as a SOAP web service, it has a set of default operation
 |[Create Operation](Create-Operation.md)|Creates a single record.<br /><br /> `void Create(ref Entity entity)`|  
 |[CreateMultiple Operation](CreateMultiple-Operation.md)|Creates a set of records.<br /><br /> `void CreateMultiple(ref Entity[] entity)`|  
 |[Delete Operation](Delete-Operation.md)|Deletes a single record.<br /><br /> `bool Delete(string key)`|  
-|[Delete\_\<part\> Operation](../Topic/Delete_%3Cpart%3E%20Operation.md)|Deletes a subpage of the current page.<br /><br /> `bool Delete_<part>(string key)`|  
+|[Delete\_\<part\> Operation](Delete_%3Cpart%3E%20Operation.md)|Deletes a subpage of the current page.<br /><br /> `bool Delete_<part>(string key)`|  
 |[GetRecIdFromKey](GetRecIdFromKey.md)|Converts a key, which is always part of the page result, to a record ID.<br /><br /> `string GetRecIdFromKey(string key)`|  
 |[IsUpdated Operation](IsUpdated-Operation.md)|Checks if an object has been updated since the key was obtained.<br /><br /> `bool IsUpdated(string key)`|  
 |[Read Operation](Read-Operation.md)|Reads a single record.<br /><br /> `Entity Read(string no)`|  
@@ -39,5 +39,5 @@ When you publish a page as a SOAP web service, it has a set of default operation
 |[UpdateMultiple Operation](UpdateMultiple-Operation.md)|Updates a set of records.<br /><br /> `void UpdateMultiple(ref Entity[] entity)`|  
   
 ## See Also  
- [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](../Topic/Walkthrough:%20Registering%20and%20Using%20a%20Page%20Web%20Service%20\(SOAP\).md)   
- [Walkthrough: Creating a Web Service using Extension Codeunits \(SOAP\)](../Topic/Walkthrough:%20Creating%20a%20Web%20Service%20using%20Extension%20Codeunits%20\(SOAP\).md)
+ [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](Walkthrough:%20Registering%20and%20Using%20a%20Page%20Web%20Service%20\(SOAP\).md)   
+ [Walkthrough: Creating a Web Service using Extension Codeunits \(SOAP\)](Walkthrough:%20Creating%20a%20Web%20Service%20using%20Extension%20Codeunits%20\(SOAP\).md)

@@ -12,17 +12,17 @@ caps.latest.revision: 28
 manager: edupont
 ---
 # Troubleshooting: Microsoft Office Outlook Integration and Synchronization
-This topic lists some common problems that can occur when you use the Microsoft Office Outlook Add\-in.  
+This topic lists some common problems that can occur when you use the Microsoft Office Outlook Add-in.  
   
 ## Cleaning Up Data and Configuration Information  
- You may have to test multiple installations and configurations of the [!INCLUDE[navnow](includes/navnow_md.md)] Synchronization Add\-in.  
+ You may have to test multiple installations and configurations of the [!INCLUDE[navnow](includes/navnow_md.md)] Synchronization Add-in.  
   
  To make sure that you are starting from a clean installation, you should delete the following files from your computer before you start a new setup. The following table describes the details.  
   
 |Product version|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|File location|  
 |---------------------|---------------------------------------|-------------------|  
-|[!INCLUDE[nav2009sp1](includes/nav2009sp1_md.md)]|Storage of what has been synchronized and set up in the add\-in.|C:\\Users\\\<user name\>\\AppData\\Local\\Microsoft Dynamics NAV\\OutlookSynch\\settings.xml|  
-|[!INCLUDE[navnowlong](includes/navnowlong_md.md)]|Storage of what has been synchronized and set up in the add\-in.|C:\\Users\\\<user name\>\\AppData\\Roaming\\Microsoft Dynamics NAV\\OutlookSynch|  
+|[!INCLUDE[nav2009sp1](includes/nav2009sp1_md.md)]|Storage of what has been synchronized and set up in the add-in.|C:\\Users\\\<user name\>\\AppData\\Local\\Microsoft Dynamics NAV\\OutlookSynch\\settings.xml|  
+|[!INCLUDE[navnowlong](includes/navnowlong_md.md)]|Storage of what has been synchronized and set up in the add-in.|C:\\Users\\\<user name\>\\AppData\\Roaming\\Microsoft Dynamics NAV\\OutlookSynch|  
   
 ## Treating Uncompleted Tasks that Have Been Deleted  
  If you attempt to delete a task in Outlook before the task is completed, after you synchronize, you will receive a message noting that there is a conflict, because the Outlook version of the task has been deleted. When you address the conflict and delete it, and synchronize again, the task is added back to the **Tasks** folder as completed.  
@@ -37,7 +37,7 @@ This topic lists some common problems that can occur when you use the Microsoft 
  To work around this problem, do not configure the APP and TASK entities to use the **Links** collection.  
   
 ## Verifying Information in the Change Log Setup Window  
- By default, the change log is activated. However, you may want to verify that the activation is valid. For example, you may have to do this when no Contacts or To\-Dos are synchronized when Outlook synchronization runs.  
+ By default, the change log is activated. However, you may want to verify that the activation is valid. For example, you may have to do this when no Contacts or To-Dos are synchronized when Outlook synchronization runs.  
   
 #### To verify the Change Log Setup setting  
   
@@ -47,7 +47,7 @@ This topic lists some common problems that can occur when you use the Microsoft 
   
 3.  To validate specific **Change Log Setup** settings, on the **Actions** tab, in the **Setup** group, choose **Tables**.  
   
-4.  The default change log setup contains information for the **Salesperson\/Purchaser**, **Contact**, and **To\-do** tables. You can make additional modifications.  
+4.  The default change log setup contains information for the **Salesperson\/Purchaser**, **Contact**, and **To-do** tables. You can make additional modifications.  
   
 ## Synchronizing Addresses for Contacts  
  When you specify a salesperson for a contact and then synchronize the contact with Outlook, information from the contact’s **Country\/Region Code** field in [!INCLUDE[navnow](includes/navnow_md.md)] is missing from the Address field in the Outlook Contact form. When you attempt to modify information, for example, the street address, for the contact’s address in Outlook, and then synchronize that information back to [!INCLUDE[navnow](includes/navnow_md.md)], you may encounter the following error:.  
@@ -65,7 +65,7 @@ This topic lists some common problems that can occur when you use the Microsoft 
   
 2.  Select the line for the APP entity, and then select the **Condition** field.  
   
-3.  In the **Outlook Synch. Filters \-Condition** window, in the **Field Name** field, select **Salesperson Code**.  
+3.  In the **Outlook Synch. Filters -Condition** window, in the **Field Name** field, select **Salesperson Code**.  
   
 4.  In the **Value** field, add the code for the salesperson.  
   
@@ -75,7 +75,7 @@ This topic lists some common problems that can occur when you use the Microsoft 
   
  If there are no conditions set for the contacts entities, then you may get the following message to view the debug log:  
   
- **Closing Mapi session "\/o\=First Organization\/ou\=First Administrative Group\/cn\=Recipients\/cn\=XY" because it exceeded the maximum of 250 objects of type "objtMessage**  
+ **Closing Mapi session "\/o=First Organization\/ou=First Administrative Group\/cn=Recipients\/cn=XY" because it exceeded the maximum of 250 objects of type "objtMessage**  
   
  This is due to a security setting on the Exchange Server. If a large set of data, which is first triggered with 250 objects, is synchronized to Exchange Server, then Exchange Server logs an error in the event log file and does not let you add the data to the mailbox.  
   
@@ -114,16 +114,16 @@ This topic lists some common problems that can occur when you use the Microsoft 
   
  You should not regularly synchronize large sets of data, although it may be appropriate to do this during initial setup. Instead, we recommend that you change the web service size back to an appropriate level after you perform a full synchronization.  
   
-## Setting Up Microsoft Outlook Integration in a Three\-Machine Environment  
+## Setting Up Microsoft Outlook Integration in a Three-Machine Environment  
  When selecting a company, you may receive a message that resembles one of the following messages:  
   
--   The connection to "" Microsoft Dynamics NAV database failed. The program returned the following error: GetCompaniesList error: The login failed when connecting to SQL Server \<DatabaseTier\>. connection string: NavSynchronizationUrl\=http:\/\/\<ServiceTier\>:7047\/DynamicsNAV71\/WS\/Codeunit\/DynamicsNAVsynchOutlook;CompanyName\=\<CompanyName\>; Please verify your synchronization settings. If the problem persists contact your system administrator.  
+-   The connection to "" Microsoft Dynamics NAV database failed. The program returned the following error: GetCompaniesList error: The login failed when connecting to SQL Server \<DatabaseTier\>. connection string: NavSynchronizationUrl=http:\/\/\<ServiceTier\>:7047\/DynamicsNAV71\/WS\/Codeunit\/DynamicsNAVsynchOutlook;CompanyName=\<CompanyName\>; Please verify your synchronization settings. If the problem persists contact your system administrator.  
   
--   The connection to "" Microsoft Dynamics NAV database failed. The program returned the following error: GetCompaniesList error: The request failed with HTTP status 401: Unauthorized. connection string: NavSynchronizationUrl\=http:\/\/\<ServiceTier\>:7047\/DynamicsNAV70\/WS\/Codeunit\/DynamicsNAVsynchOutlook;CompanyName\=\<CompanyName\>; Please verify your synchronization settings. If the problem persists contact your system administrator.  
+-   The connection to "" Microsoft Dynamics NAV database failed. The program returned the following error: GetCompaniesList error: The request failed with HTTP status 401: Unauthorized. connection string: NavSynchronizationUrl=http:\/\/\<ServiceTier\>:7047\/DynamicsNAV70\/WS\/Codeunit\/DynamicsNAVsynchOutlook;CompanyName=\<CompanyName\>; Please verify your synchronization settings. If the problem persists contact your system administrator.  
   
  In the message, \<DatabaseTier\> is the server name of the SQL Server, \<ServiceTier\> is the server name of the Microsoft Dynamics NAV Server, and \<CompanyName\> is the company name.  
   
- These errors can occur if [!INCLUDE[navnow](includes/navnow_md.md)] web services are not set up with the correct Service Principal Names \(SPN\) and delegation information. They can also occur if the web service path is not set correctly in the **Connection** tab. For more information, see [Walkthrough: Installing the Three Tiers on Three Computers](../Topic/Walkthrough:%20Installing%20the%20Three%20Tiers%20on%20Three%20Computers.md). You can also see the [NAV 2009 Web Services on a three machine setup](http://go.microsoft.com/fwlink/?LinkID=154453) blog post in the [!INCLUDE[navnow](includes/navnow_md.md)] Team Blog on MSDN.  
+ These errors can occur if [!INCLUDE[navnow](includes/navnow_md.md)] web services are not set up with the correct Service Principal Names \(SPN\) and delegation information. They can also occur if the web service path is not set correctly in the **Connection** tab. For more information, see [Walkthrough: Installing the Three Tiers on Three Computers](Walkthrough:%20Installing%20the%20Three%20Tiers%20on%20Three%20Computers.md). You can also see the [NAV 2009 Web Services on a three machine setup](http://go.microsoft.com/fwlink/?LinkID=154453) blog post in the [!INCLUDE[navnow](includes/navnow_md.md)] Team Blog on MSDN.  
   
 ## Configuring the Outlook Profile in an Environment Other than Microsoft Exchange  
  When you add and configure a new user Outlook profile in an environment other than Microsoft Exchange and are working with the TASK entity, you must make sure that the name of the Active Directory user \(Full name\) or name of the Mailbox owner matches the Salesperson as configured on the **Salesperson\/Purchaser** card.  
@@ -133,19 +133,19 @@ This topic lists some common problems that can occur when you use the Microsoft 
  **The error occurred while setting the Owner property of the item: Task owner can be set to XXX only**  
   
 ## Displaying the [!INCLUDE[navnow](includes/navnow_md.md)] Synchronization Toolbar  
- After you reinstall the Microsoft Office Outlook Add\-in, the **Microsoft Dynamics NAV Synchronization** toolbar items may not appear in Outlook on the Add\-ins tab, even though the toolbar is selected in the list of available toolbars from the **View** menu. This occurs because an earlier version of the add\-in is running during reinstallation.  
+ After you reinstall the Microsoft Office Outlook Add-in, the **Microsoft Dynamics NAV Synchronization** toolbar items may not appear in Outlook on the Add-ins tab, even though the toolbar is selected in the list of available toolbars from the **View** menu. This occurs because an earlier version of the add-in is running during reinstallation.  
   
 #### To display the Microsoft Dynamics NAV Synchronization toolbar  
   
-1.  In Outlook, on the **File** tab, choose **Options**, and then, in the **Options** dialog, choose **Add\-Ins**.  
+1.  In Outlook, on the **File** tab, choose **Options**, and then, in the **Options** dialog, choose **Add-Ins**.  
   
-2.  In the **Manage** box, verify that **COM Add\-ins** is selected, and then choose **Go**.  
+2.  In the **Manage** box, verify that **COM Add-ins** is selected, and then choose **Go**.  
   
-3.  If the [!INCLUDE[navnow](includes/navnow_md.md)] Synchronization Add\-in is selected, clear the check box, and then choose the **OK** button.  
+3.  If the [!INCLUDE[navnow](includes/navnow_md.md)] Synchronization Add-in is selected, clear the check box, and then choose the **OK** button.  
   
-4.  In the **Manage** box, verify that **COM Add\-ins** is selected, and then choose **Go**.  
+4.  In the **Manage** box, verify that **COM Add-ins** is selected, and then choose **Go**.  
   
-5.  Select the **Microsoft Dynamics NAV Synchronization Add\-in** check box, and then choose the **OK** button.  
+5.  Select the **Microsoft Dynamics NAV Synchronization Add-in** check box, and then choose the **OK** button.  
   
 ## Showing Synchronization  
  We recommend that you enable the **Show Synchronization Progress** option in Outlook so that a user knows when synchronization is occurring. This helps a user avoid receiving an error if Outlook is closed when synchronization is occurring.  
@@ -157,9 +157,9 @@ This topic lists some common problems that can occur when you use the Microsoft 
 2.  On the **General** tab, select the **Show synchronization progress** and **Show synchronization summary** check boxes.  
   
 ## Finding Additional Information  
- For additional information about the set up and configuration of the Microsoft Dynamics Synchronization Add\-in, see the [!INCLUDE[navnow](includes/navnow_md.md)] Help. You can search for the "Set Up Outlook Synchronization" topic as a starting point. In addition, see the [Outlook Integration Installation & Setup Technical White Paper](http://go.microsoft.com/fwlink/?LinkID=154449) \(requires PartnerSource account\). Although this document describes installation for [!INCLUDE[nav_5](includes/nav_5_md.md)], much of the information applies to [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. You can also find troubleshooting information on the [NAV Developer's Blog](http://go.microsoft.com/fwlink/?LinkId=154870) on MSDN.  
+ For additional information about the set up and configuration of the Microsoft Dynamics Synchronization Add-in, see the [!INCLUDE[navnow](includes/navnow_md.md)] Help. You can search for the "Set Up Outlook Synchronization" topic as a starting point. In addition, see the [Outlook Integration Installation & Setup Technical White Paper](http://go.microsoft.com/fwlink/?LinkID=154449) \(requires PartnerSource account\). Although this document describes installation for [!INCLUDE[nav_5](includes/nav_5_md.md)], much of the information applies to [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. You can also find troubleshooting information on the [NAV Developer's Blog](http://go.microsoft.com/fwlink/?LinkId=154870) on MSDN.  
   
 ## See Also  
- [Walkthrough: Setting Up Outlook Synchronization](../Topic/Walkthrough:%20Setting%20Up%20Outlook%20Synchronization.md)   
- [Walkthrough: Synchronizing Information Between Outlook and Microsoft Dynamics NAV](../Topic/Walkthrough:%20Synchronizing%20Information%20Between%20Outlook%20and%20Microsoft%20Dynamics%20NAV.md)   
+ [Walkthrough: Setting Up Outlook Synchronization](Walkthrough:%20Setting%20Up%20Outlook%20Synchronization.md)   
+ [Walkthrough: Synchronizing Information Between Outlook and Microsoft Dynamics NAV](Walkthrough:%20Synchronizing%20Information%20Between%20Outlook%20and%20Microsoft%20Dynamics%20NAV.md)   
  [Installation Options](Installation-Options.md)

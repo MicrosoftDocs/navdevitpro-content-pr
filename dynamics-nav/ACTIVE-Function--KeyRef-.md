@@ -27,13 +27,13 @@ Ok := KeyRef.ACTIVE
   
  The keyref that refers to a key.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the key is enabled; otherwise, **false**.  
   
 ## Example  
- The following example uses the `KeyRef.ACTIVE` function to determine whether a key in a record is enabled. The table with ID 18 \(the Customer table\) is open with a reference to table 18. The [KEYINDEX Function \(RecordRef\)](KEYINDEX-Function--RecordRef-.md) function retrieves the first key in the record and the `varKeyRef.ACTIVE` function returns a Boolean value that indicates whether the retrieved key is enabled. The Boolean value is displayed in a message box. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ The following example uses the `KeyRef.ACTIVE` function to determine whether a key in a record is enabled. The table with ID 18 \(the Customer table\) is open with a reference to table 18. The [KEYINDEX Function \(RecordRef\)](KEYINDEX-Function--RecordRef-.md) function retrieves the first key in the record and the `varKeyRef.ACTIVE` function returns a Boolean value that indicates whether the retrieved key is enabled. The Boolean value is displayed in a message box. This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

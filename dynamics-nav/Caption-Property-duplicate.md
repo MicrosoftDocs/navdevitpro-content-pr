@@ -33,10 +33,10 @@ Sets the text string that displays with the object, control, or other element in
 ## Remarks  
  A caption is the text used to show the identity of a control \(for example, in the caption bar of a page or a label for another control\).  
   
- The Caption property value is taken from the value of the [CaptionML Property](CaptionML-Property.md) for the current user language if the CaptionML Property is set. If you enter a value for the Caption Property, then the value is included in CaptionML property for the current language. For example, if the current system language is Danish, then a value of **DAN \=\<value\>** is placed in the CaptionML field.  
+ The Caption property value is taken from the value of the [CaptionML Property](CaptionML-Property.md) for the current user language if the CaptionML Property is set. If you enter a value for the Caption Property, then the value is included in CaptionML property for the current language. For example, if the current system language is Danish, then a value of **DAN =\<value\>** is placed in the CaptionML field.  
   
 > [!NOTE]  
->  For query columns, when you run the query from Object Designer, the About This Query window that opens in the [!INCLUDE[rtc](includes/rtc_md.md)] displays the value for the [Name Property\-duplicate](Name-Property-duplicate.md) of the query column, not the Caption property or CaptionML Property.  
+>  For query columns, when you run the query from Object Designer, the About This Query window that opens in the [!INCLUDE[rtc](includes/rtc_md.md)] displays the value for the [Name Property-duplicate](Name-Property-duplicate.md) of the query column, not the Caption property or CaptionML Property.  
   
 ## See Also  
  [ShowCaption Property](ShowCaption-Property.md)   

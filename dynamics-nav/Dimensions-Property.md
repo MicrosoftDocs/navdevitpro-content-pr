@@ -12,13 +12,13 @@ caps.latest.revision: 5
 manager: edupont
 ---
 # Dimensions Property
-Sets the dimensions of a variable that is to create a multi\-dimensional variable \(array\).  
+Sets the dimensions of a variable that is to create a multi-dimensional variable \(array\).  
   
 ## Applies To  
  Variables  
   
 ## Remarks  
- Enter the dimensions as a semicolon\-delimited list of integers, where each number defines the number of elements in that dimension. The maximum number of dimensions is 10 and the total number of elements in all dimensions is 1,000,000.  
+ Enter the dimensions as a semicolon-delimited list of integers, where each number defines the number of elements in that dimension. The maximum number of dimensions is 10 and the total number of elements in all dimensions is 1,000,000.  
   
  For example, to define an integer array with dimensions 3 x 3 x 4, start by creating an integer variable called A. In the **Properties** window, set the **Dimensions** property to a value of **3;3;4**. To access the elements in the array, use either of the following:  
   

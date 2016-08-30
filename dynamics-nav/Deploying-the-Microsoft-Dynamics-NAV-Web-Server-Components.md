@@ -25,7 +25,7 @@ This section contains information about the deployment of the [!INCLUDE[nav_web_
  For information about the common deployment scenarios, see [Deployment Scenarios for the Microsoft Dynamics NAV Web Server Components](Deployment-Scenarios-for-the-Microsoft-Dynamics-NAV-Web-Server-Components.md).  
   
 ##  <a name="WebClientonIIS"></a> Microsoft Dynamics NAV Web Server Components Installation on IIS  
- To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)], you install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on a computer that is running Internet Information Services \(IIS\). For more information about how to install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] and IIS, see [How to: Install the Web Server Components](../Topic/How%20to:%20Install%20the%20Web%20Server%20Components.md) and [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](../Topic/How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
+ To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)], you install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on a computer that is running Internet Information Services \(IIS\). For more information about how to install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] and IIS, see [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md) and [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
   
  When you install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], a web server instance is added on IIS for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. The web server instance consists of a virtual directory and application. The following illustration shows the structure in Internet Information Services Manager. For more information about these elements in IIS, see [IIS Manager UI](http://go.microsoft.com/fwlink/?LinkID=614897).  
   
@@ -63,12 +63,12 @@ This section contains information about the deployment of the [!INCLUDE[nav_web_
 |Authentication|Windows Authentication, Forms authentication, Anonymous Authentication, and ASP.NET Impersonation.|  
   
 ## Deployment Phases  
- Typically, you will deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] in phases, which can influence the network topology and security settings that you deploy. For example, in the development phase, you develop, test, and fine\-tune the application. In this phase, you might consider deploying the [!INCLUDE[nav_web](includes/nav_web_md.md)] in a single\-computer scenario. When you move to the production phase, you deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] in the full network infrastructure.  
+ Typically, you will deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] in phases, which can influence the network topology and security settings that you deploy. For example, in the development phase, you develop, test, and fine-tune the application. In this phase, you might consider deploying the [!INCLUDE[nav_web](includes/nav_web_md.md)] in a single-computer scenario. When you move to the production phase, you deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] in the full network infrastructure.  
   
 ## Security  
   
 ### User Authentication  
- [!INCLUDE[navnow](includes/navnow_md.md)] supports four methods for authenticating users who try to access the [!INCLUDE[nav_web](includes/nav_web_md.md)]: Windows, UserName, NavUserPassword, and AccessControlService. Windows authentication is configured by default. For more information, see [Users and Credential Types](Users-and-Credential-Types.md) and [How to: Configure Authentication of Microsoft Dynamics NAV Web Client Users](../Topic/How%20to:%20Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md).  
+ [!INCLUDE[navnow](includes/navnow_md.md)] supports four methods for authenticating users who try to access the [!INCLUDE[nav_web](includes/nav_web_md.md)]: Windows, UserName, NavUserPassword, and AccessControlService. Windows authentication is configured by default. For more information, see [Users and Credential Types](Users-and-Credential-Types.md) and [How to: Configure Authentication of Microsoft Dynamics NAV Web Client Users](How%20to:%20Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md).  
   
 ### Service Account for [!INCLUDE[nav_server](includes/nav_server_md.md)] and [!INCLUDE[navnow](includes/navnow_md.md)] Database Access  
  When you install [!INCLUDE[nav_server](includes/nav_server_md.md)] and [!INCLUDE[navnow](includes/navnow_md.md)] database components, you must identify an Active Directory account to provide credentials for the servers. By default, [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup runs [!INCLUDE[nav_server](includes/nav_server_md.md)] and the [!INCLUDE[navnow](includes/navnow_md.md)] database under the Network Service account, a predefined local account that is used by the service control manager.  
@@ -81,8 +81,8 @@ This section contains information about the deployment of the [!INCLUDE[nav_web_
 ### Securing the Connection to Microsoft Dynamics NAV Web Client With SSL  
  You can help secure [!INCLUDE[navnow](includes/navnow_md.md)] data that is transmitted over the Internet by enabling Secure Sockets Layer \(SSL\) on the connection to the [!INCLUDE[nav_web](includes/nav_web_md.md)]. You can configure SSL when you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] or after the installation.  
   
- For more information, see [How to: Install the Web Server Components](../Topic/How%20to:%20Install%20the%20Web%20Server%20Components.md) and [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](../Topic/How%20to:%20Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
+ For more information, see [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md) and [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How%20to:%20Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
   
 ## See Also  
  [Microsoft Dynamics NAV Web Client](Microsoft-Dynamics-NAV-Web-Client.md)   
- [How to: Install the Web Server Components](../Topic/How%20to:%20Install%20the%20Web%20Server%20Components.md)
+ [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md)

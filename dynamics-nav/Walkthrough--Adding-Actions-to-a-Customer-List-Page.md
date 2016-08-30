@@ -26,7 +26,7 @@ In this walkthrough, you will learn how to add a new item to an **Action** tab a
 -   Modify the Sales Order action so it creates a new sales order for the customer currently selected in the customer list.  
   
 ### Prerequisites  
- This walkthrough builds on the steps described in [Walkthrough: Creating a Customer List in Page Designer](../Topic/Walkthrough:%20Creating%20a%20Customer%20List%20in%20Page%20Designer.md). If you have not created a customer list page, you must create it before you continue this walkthrough.  
+ This walkthrough builds on the steps described in [Walkthrough: Creating a Customer List in Page Designer](Walkthrough:%20Creating%20a%20Customer%20List%20in%20Page%20Designer.md). If you have not created a customer list page, you must create it before you continue this walkthrough.  
   
 ## Story  
  Simon shows the customer list page that he created to Kevin, the Sales Manager at CRONUS International Ltd. who contracted him to create this page. Kevin likes how the customer list looks, but he would like Simon to add a menu item on the **Actions** tab to create a new sales order for the currently selected customer.  
@@ -124,21 +124,21 @@ In this walkthrough, you will learn how to add a new item to an **Action** tab a
   
      The default value for this property is **Edit**. By setting this property to a value of **Create**, a sales order page will open in create mode, enabling the end user to create a new sales order.  
   
-3.  Set the **RunPageLink** property value to **Sell\-to Customer No.\=FIELD\(No.\)** using the following steps:  
+3.  Set the **RunPageLink** property value to **Sell-to Customer No.=FIELD\(No.\)** using the following steps:  
   
-    1.  In the **RunPageLink** property value, choose the Assist\-Edit button \(ellipsis\).  
+    1.  In the **RunPageLink** property value, choose the Assist-Edit button \(ellipsis\).  
   
          The **Table Filter** window appears.  
   
-    2.  In the **Field** cell, choose the AssistButton button, choose **Sell\-to Customer No.**, and then choose **OK**.  
+    2.  In the **Field** cell, choose the AssistButton button, choose **Sell-to Customer No.**, and then choose **OK**.  
   
-    3.  In the **Type** cell, choose the drop\-down list box and then select **FIELD**.  
+    3.  In the **Type** cell, choose the drop-down list box and then select **FIELD**.  
   
     4.  In the **Value** cell, choose the AssistButton button, thenselect **No.**, and then choose **OK**.  
   
     5.  Choose the **OK** button.  
   
-         The customer number in the customer list is now linked to the Sell\-to Customer number in the sales order. This means that when the Sales Order action is chosen, a new sales order will be created for the customer that is currently selected in the customer list.  
+         The customer number in the customer list is now linked to the Sell-to Customer number in the sales order. This means that when the Sales Order action is chosen, a new sales order will be created for the customer that is currently selected in the customer list.  
   
 4.  Save the page.  
   
@@ -152,5 +152,5 @@ In this walkthrough, you will learn how to add a new item to an **Action** tab a
  Next, Simon will add a FactBox to the customer list page. Simon will use this FactBox to display additional information about the currently selected customer in the list.  
   
 ## See Also  
- [Walkthrough: Adding a FactBox to the Customer List Page](../Topic/Walkthrough:%20Adding%20a%20FactBox%20to%20the%20Customer%20List%20Page.md)   
- [Walkthrough: Creating a Customer List in Page Designer](../Topic/Walkthrough:%20Creating%20a%20Customer%20List%20in%20Page%20Designer.md)
+ [Walkthrough: Adding a FactBox to the Customer List Page](Walkthrough:%20Adding%20a%20FactBox%20to%20the%20Customer%20List%20Page.md)   
+ [Walkthrough: Creating a Customer List in Page Designer](Walkthrough:%20Creating%20a%20Customer%20List%20in%20Page%20Designer.md)

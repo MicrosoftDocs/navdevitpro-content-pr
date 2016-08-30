@@ -30,9 +30,9 @@ Name := Query.COLUMNNAME(Column)
  *Column*  
  Type: Text  
   
- Refers to the name of the query column. The name of a query column is specified by the [Name Property\-duplicate](Name-Property-duplicate.md) of the column in Query Designer.  
+ Refers to the name of the query column. The name of a query column is specified by the [Name Property-duplicate](Name-Property-duplicate.md) of the column in Query Designer.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text  
   
  The name of the specified column.  
@@ -57,8 +57,8 @@ NameOfColumn := MyQuery.COLUMNNAME("Customer_No");
  The advantage of using this statement instead of assigning the column name in a statement, such as `NameOfColumn := 'Customer_No';`, is that the **COLUMNNAME** function dynamically adapts to any change to the column name that is made in the development environment. The `NameOfColumn := 'Customer_No';`statement performs a static assignment.  
   
 ## See Also  
- [How to: Create Queries](../Topic/How%20to:%20Create%20Queries.md)   
- [How to: Set Up Filter Rows in Query Designer](../Topic/How%20to:%20Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md)   
+ [How to: Create Queries](How%20to:%20Create%20Queries.md)   
+ [How to: Set Up Filter Rows in Query Designer](How%20to:%20Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md)   
  [Queries](Queries.md)   
  [Record Data Type](Record-Data-Type.md)   
  [Multilanguage Development](Multilanguage-Development.md)

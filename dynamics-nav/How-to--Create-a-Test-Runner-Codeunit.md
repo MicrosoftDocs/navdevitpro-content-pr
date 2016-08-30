@@ -33,7 +33,7 @@ You can create test runner codeunits to manage the execution of test codeunits a
     > [!TIP]  
     >  In the test runners in the automated application test libraries on the [!INCLUDE[navnow](includes/navnow_md.md)] product media, test isolation is set to **Codeunit**.  
   
-4.  In the C\/AL Editor, in the **OnRun** function, enter code to run the test codeunits. For example, the following code in the **OnRun** function of a test runner codeunit runs three test codeunits in the automated application test libraries.  
+4.  In the C/AL Editor, in the **OnRun** function, enter code to run the test codeunits. For example, the following code in the **OnRun** function of a test runner codeunit runs three test codeunits in the automated application test libraries.  
   
     ```  
     CODEUNIT.RUN(CODEUNIT::”ERM Vendor Statistics”);   
@@ -50,7 +50,7 @@ You can create test runner codeunits to manage the execution of test codeunits a
         |EnabledTestCodeunit|Record|CAL Test Enabled Codeunit|  
         |Object|Record|Object|  
   
-    2.  In the **C\/AL Editor**, in the **OnRun** function, delete the existing code, and then enter code that iterates through items in the table and runs each test codeunit.  
+    2.  In the **C/AL Editor**, in the **OnRun** function, delete the existing code, and then enter code that iterates through items in the table and runs each test codeunit.  
   
          The following code example illustrates the code that you can add to the test runner.  
   
@@ -86,9 +86,9 @@ You can create test runner codeunits to manage the execution of test codeunits a
   
 7.  To create an **OnBeforeTestRun** trigger, do the following steps:  
   
-    1.  In the **C\/AL Globals** window, on the **Functions** tab, on a new line in the **Name** field, enter **OnBeforeTestRun**, and then choose **Locals**.  
+    1.  In the **C/AL Globals** window, on the **Functions** tab, on a new line in the **Name** field, enter **OnBeforeTestRun**, and then choose **Locals**.  
   
-    2.  In the **C\/AL Locals** window, on the **Parameters** tab, enter the following.  
+    2.  In the **C/AL Locals** window, on the **Parameters** tab, enter the following.  
   
         |Name|DataType|Length|  
         |----------|--------------|------------|  
@@ -96,21 +96,21 @@ You can create test runner codeunits to manage the execution of test codeunits a
         |CodeunitName|Text|30|  
         |FunctionName|Text|128|  
   
-    3.  In the **C\/AL Locals** window, on the **Return Value** tab, enter the following.  
+    3.  In the **C/AL Locals** window, on the **Return Value** tab, enter the following.  
   
         |Name|Return type|  
         |----------|-----------------|  
         |OK|Boolean|  
   
-    4.  In the **C\/AL Locals** window, on the **Variables** tab, enter the following.  
+    4.  In the **C/AL Locals** window, on the **Variables** tab, enter the following.  
   
         |Name|DataType|Subtype|  
         |----------|--------------|-------------|  
         |TestResult|Record|CAL Test Result|  
   
-    5.  Close the **C\/AL Locals** window.  
+    5.  Close the **C/AL Locals** window.  
   
-    6.  In the C\/AL Editor, in the **OnBeforeTestRun** trigger, enter code that executes before each test function. Typically, the code in the **OnBeforeTestRun** function determines if the test function should execute and returns **true** if it should. Otherwise, the trigger returns **false**. The **OnBeforeTestRun** trigger may also initialize logging variables. For example, the following code initializes a logging variable and returns **true** to indicate that the test function should execute.  
+    6.  In the C/AL Editor, in the **OnBeforeTestRun** trigger, enter code that executes before each test function. Typically, the code in the **OnBeforeTestRun** function determines if the test function should execute and returns **true** if it should. Otherwise, the trigger returns **false**. The **OnBeforeTestRun** trigger may also initialize logging variables. For example, the following code initializes a logging variable and returns **true** to indicate that the test function should execute.  
   
         ```  
         StartTime := TIME;  
@@ -125,9 +125,9 @@ You can create test runner codeunits to manage the execution of test codeunits a
   
 8.  To create an **OnAfterTestRun** trigger, do the following steps:  
   
-    1.  In the **C\/AL Globals** window, on the **Functions** tab, on a new line in the **Name** field, enter **OnAfterTestRun**, and then choose **Locals**.  
+    1.  In the **C/AL Globals** window, on the **Functions** tab, on a new line in the **Name** field, enter **OnAfterTestRun**, and then choose **Locals**.  
   
-    2.  In the **C\/AL Locals** window, on the **Parameters** tab, enter the following.  
+    2.  In the **C/AL Locals** window, on the **Parameters** tab, enter the following.  
   
         |Name|DataType|Length|  
         |----------|--------------|------------|  
@@ -136,14 +136,14 @@ You can create test runner codeunits to manage the execution of test codeunits a
         |FunctionName|Text|128|  
         |Success|Boolean||  
   
-    3.  In the **C\/AL Locals** window, on the Variables tab, enter the following.  
+    3.  In the **C/AL Locals** window, on the Variables tab, enter the following.  
   
         |Name|DataType|Subtype|  
         |----------|--------------|-------------|  
         |TestResult|Record|CAL Test Result|  
         |EndTime|Time||  
   
-    4.  In the C\/AL Editor, in the **OnAfterTestRun** trigger, enter code that executes after each test function. For example, the following code logs the results of the tests to the test reporting system. This example requires that you create a record variable named `log`.  
+    4.  In the C/AL Editor, in the **OnAfterTestRun** trigger, enter code that executes after each test function. For example, the following code logs the results of the tests to the test reporting system. This example requires that you create a record variable named `log`.  
   
         ```  
         IF FunctionName  = '' THEN  
@@ -168,6 +168,6 @@ You can create test runner codeunits to manage the execution of test codeunits a
   
 ## See Also  
  [Testing the Application](Testing-the-Application.md)   
- [How to: Create Test Codeunits and Test Functions](../Topic/How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md)   
- [How to: Create Handler Functions](../Topic/How%20to:%20Create%20Handler%20Functions.md)   
+ [How to: Create Test Codeunits and Test Functions](How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md)   
+ [How to: Create Handler Functions](How%20to:%20Create%20Handler%20Functions.md)   
  [Application Test Automation](Application-Test-Automation.md)

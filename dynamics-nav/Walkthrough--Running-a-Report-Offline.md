@@ -51,11 +51,11 @@ You can view a report and view the dataset and layout on a computer that does no
   
 2.  In the **Search** box, enter **Customer – Top 10 List**, and then choose the related link.  
   
-3.  On the request page for the Customer – Top 10 List report, on the **Application** menu ![Application Menu button in menu bar](media/ApplicationMenuIcon.png "ApplicationMenuIcon"), choose **Help**, and then choose **About This Page** to activate the About This Report feature. For more information, see [How to: View and Export the Dataset for a Report](../Topic/How%20to:%20View%20and%20Export%20the%20Dataset%20for%20a%20Report.md).  
+3.  On the request page for the Customer – Top 10 List report, on the **Application** menu ![Application Menu button in menu bar](media/ApplicationMenuIcon.png "ApplicationMenuIcon"), choose **Help**, and then choose **About This Page** to activate the About This Report feature. For more information, see [How to: View and Export the Dataset for a Report](How%20to:%20View%20and%20Export%20the%20Dataset%20for%20a%20Report.md).  
   
 4.  Close the **About This Page** page.  
   
-5.  On the request page for the Customer – Top 10 List report, choose **Preview** to open the Customer \- Top 10 List report in Report Viewer.  
+5.  On the request page for the Customer – Top 10 List report, choose **Preview** to open the Customer - Top 10 List report in Report Viewer.  
   
 6.  On the report preview, on the Application menu ![Application Menu button in menu bar](media/ApplicationMenuIcon.png "ApplicationMenuIcon"), choose **Help**, and then choose **About This Report** to display the report dataset.  
   
@@ -111,7 +111,7 @@ You can view a report and view the dataset and layout on a computer that does no
   
 5.  In the **Name** field, enter **OfflineReport**, and then choose the **OK** button to create the solution.  
   
-6.  In Solution Explorer, right\-click the OfflineReport project, choose **Add**, and then choose **Existing Item**.  
+6.  In Solution Explorer, right-click the OfflineReport project, choose **Add**, and then choose **Existing Item**.  
   
      ![Visual Studio 2010, Add Existing to project](media/Plat_ExportReport_AddExisting.png "Plat\_ExportReport\_AddExisting")  
   
@@ -119,7 +119,7 @@ You can view a report and view the dataset and layout on a computer that does no
   
      ![Add Existing Item dialog box, file type All Files](media/Plat_ExportReport_AddFiles.png "Plat\_ExportReport\_AddFiles")  
   
-8.  In Solution Explorer, under OfflineReport, select Dataset.xml. In the **Properties** window, in the **Copy to Output Directory** field, choose **Copy Always** from the drop\-down list.  
+8.  In Solution Explorer, under OfflineReport, select Dataset.xml. In the **Properties** window, in the **Copy to Output Directory** field, choose **Copy Always** from the drop-down list.  
   
     > [!TIP]  
     >  If the **Properties** window is not visible, then on the **View** menu, choose **Properties**.  
@@ -142,7 +142,7 @@ You can view a report and view the dataset and layout on a computer that does no
     >  If your report includes external images, then in the **Properties** window of the report viewer control, you must set the **EnableExternalImages** property to **True**.  
   
     > [!NOTE]  
-    >  If your report includes hyperlinks, then in the **Properties** window of the report viewer control, you must set the **EnableHyperlinks** property to **True**. For examples of creating reports that include hyperlinks, see [Walkthrough: Creating a Link from a Report to a Report](../Topic/Walkthrough:%20Creating%20a%20Link%20from%20a%20Report%20to%20a%20Report.md) and [Walkthrough: Creating a Link from a Report to a Page](../Topic/Walkthrough:%20Creating%20a%20Link%20from%20a%20Report%20to%20a%20Page.md).  
+    >  If your report includes hyperlinks, then in the **Properties** window of the report viewer control, you must set the **EnableHyperlinks** property to **True**. For examples of creating reports that include hyperlinks, see [Walkthrough: Creating a Link from a Report to a Report](Walkthrough:%20Creating%20a%20Link%20from%20a%20Report%20to%20a%20Report.md) and [Walkthrough: Creating a Link from a Report to a Page](Walkthrough:%20Creating%20a%20Link%20from%20a%20Report%20to%20a%20Page.md).  
   
 11. In Solution Explorer, select the OfflineReport project, and on the shortcut menu, choose **Add**, and then choose **Class**.  
   
@@ -209,7 +209,7 @@ You can view a report and view the dataset and layout on a computer that does no
   
      ![Visual Studio 2010, Debug menu, Start Debugging](media/Plat_ExportReport_Report.png "Plat\_ExportReport\_Report")  
   
-20. To make changes to the report layout, in Solution Explorer, right\-click Report.rdlc, and then choose **Open**.  
+20. To make changes to the report layout, in Solution Explorer, right-click Report.rdlc, and then choose **Open**.  
   
 > [!TIP]  
 >  Now that you have created the OfflineReport solution, to run other reports from Visual Studio, you only need to replace the Dataset.xml and Report.rdlc files.  

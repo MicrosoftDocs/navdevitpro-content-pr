@@ -12,7 +12,7 @@ caps.latest.revision: 21
 manager: edupont
 ---
 # How to: Use OData to Return-Obtain an AtomPub Document
-When you register an OData web service, you expose an OData service that can be accessed from a uniform resource identifier \(URI\) by using a web browser or any other HTTP client. OData clients can use Atom Publishing Protocol \(AtomPub\) documents to interact with [!INCLUDE[navnow](includes/navnow_md.md)] data. AtomPub is a simple HTTP\-based protocol for creating and updating web resources. It is related to the Atom Syndication Format, which is XML for web feeds. In these procedures, you obtain different kinds of AtomPub documents or feeds from a [!INCLUDE[navnow](includes/navnow_md.md)] OData web service. AtomPub documents and feeds are XML.  
+When you register an OData web service, you expose an OData service that can be accessed from a uniform resource identifier \(URI\) by using a web browser or any other HTTP client. OData clients can use Atom Publishing Protocol \(AtomPub\) documents to interact with [!INCLUDE[navnow](includes/navnow_md.md)] data. AtomPub is a simple HTTP-based protocol for creating and updating web resources. It is related to the Atom Syndication Format, which is XML for web feeds. In these procedures, you obtain different kinds of AtomPub documents or feeds from a [!INCLUDE[navnow](includes/navnow_md.md)] OData web service. AtomPub documents and feeds are XML.  
   
 > [!NOTE]  
 >  To use the URIs in this topic, you must have access to the [!INCLUDE[demolong](includes/demolong_md.md)].  
@@ -22,7 +22,7 @@ When you register an OData web service, you expose an OData service that can be 
   
 #### To obtain an AtomPub document or feed  
   
-1.  Register and publish a page web service by using the [!INCLUDE[rtc](includes/rtc_md.md)]. For more information, see [Walkthrough: Creating and Interacting with a Page Web Service \(OData\)](../Topic/Walkthrough:%20Creating%20and%20Interacting%20with%20a%20Page%20Web%20Service%20\(OData\).md).  
+1.  Register and publish a page web service by using the [!INCLUDE[rtc](includes/rtc_md.md)]. For more information, see [Walkthrough: Creating and Interacting with a Page Web Service \(OData\)](Walkthrough:%20Creating%20and%20Interacting%20with%20a%20Page%20Web%20Service%20\(OData\).md).  
   
      The AtomPub documents that are shown in the walkthrough are based on the page 21, the **Customer Card** page, with **Customer** as the service name. The concepts and steps are the same for any [!INCLUDE[rtc](includes/rtc_md.md)] page that you register and publish as a web service.  
   

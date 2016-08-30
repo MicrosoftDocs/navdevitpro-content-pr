@@ -47,7 +47,7 @@ Imports a binary large object \(BLOB\).
   
  If the *CommonDialog* parameter is **true**, then [!INCLUDE[navnow](includes/navnow_md.md)] displays the import dialog box. If the *CommonDialog* parameter is **false** \(default\), then [!INCLUDE[navnow](includes/navnow_md.md)] does not display the import dialog box.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: text  
   
  The name and path of the imported file.  

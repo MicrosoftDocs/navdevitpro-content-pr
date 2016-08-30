@@ -59,7 +59,7 @@ Carefully planning the details of your database application will help to ensure 
   
 -   Designing pages for entering and retrieving data, and reports for viewing and presenting data.  
   
--   Creating C\/AL code to connect the application objects.  
+-   Creating C/AL code to connect the application objects.  
   
 -   Designing objects or writing code to extend functionality or to integrate your application together with other systems.  
   
@@ -67,7 +67,7 @@ Carefully planning the details of your database application will help to ensure 
   
 -   [Designing Application Objects](Designing-Application-Objects.md)  
   
--   [Programming in C\-AL](Programming-in-C-AL.md)  
+-   [Programming in C-AL](Programming-in-C-AL.md)  
   
 -   [Objects](Objects.md)  
   

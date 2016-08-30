@@ -56,7 +56,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use a worksheet page type 
 ## Creating a Worksheet Page  
   
 > [!NOTE]  
->  In this walkthrough, you will create a worksheet page from a blank page and learn about the properties and controls of a worksheet page. Object Designer includes a wizard that you can use to create a worksheet page that sets up many properties and controls for you. For more information about the wizard, see [How to: Create a Page](../Topic/How%20to:%20Create%20a%20Page.md).  
+>  In this walkthrough, you will create a worksheet page from a blank page and learn about the properties and controls of a worksheet page. Object Designer includes a wizard that you can use to create a worksheet page that sets up many properties and controls for you. For more information about the wizard, see [How to: Create a Page](How%20to:%20Create%20a%20Page.md).  
   
 #### To create a worksheet page  
   
@@ -89,9 +89,9 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use a worksheet page type 
   
 3.  Set the **LookUp** property to **Yes**.  
   
-4.  On the **View** menu, choose **C\/AL Globals**.  
+4.  On the **View** menu, choose **C/AL Globals**.  
   
-5.  In the **Name** field, enter **CurrentJnlBatchName**, then in the **DataType** field, choose **Text**, and then close the **C\/AL Globals** window.  
+5.  In the **Name** field, enter **CurrentJnlBatchName**, then in the **DataType** field, choose **Text**, and then close the **C/AL Globals** window.  
   
 6.  Save your new page and name it **Susan's Item Journal**. Set the page **ID** to **50007** or another value in the 50000 range.  
   
@@ -148,7 +148,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use a worksheet page type 
 6.  Save and preview your page. You can now see that **Item Description** is displayed at the bottom of your worksheet page.  
   
     > [!NOTE]  
-    >  To link Item Description to Batch Lines you must add the variable **Item Description** to C\/AL Globals in Object Designer.  
+    >  To link Item Description to Batch Lines you must add the variable **Item Description** to C/AL Globals in Object Designer.  
   
 ## Adding FactBoxes  
  Simon has decided to add three FactBoxes to Susan's worksheet page:  
@@ -224,19 +224,19 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use a worksheet page type 
   
 2.  From the main menu, select **Customize**, then choose **Choose FactBoxes**. The **Customize Action Tab** window opens.  
   
-3.  In **Available FactBoxes**, select the **Item Details\-Replenishment** FactBox, and choose **Add**  
+3.  In **Available FactBoxes**, select the **Item Details-Replenishment** FactBox, and choose **Add**  
   
 4.  Use the same procedure to add the **RecordLinks** and **Notes** FactBoxes. Choose the **OK** button, and then run the page again. Notice that the hidden FactBoxes you added are now displayed on the page.  
   
 ## Next Steps  
- Simon has now created a basic worksheet page. He must remember to add the variables, constants, and functions necessary to make the worksheet page function correctly. He knows that he add variables, constants and functions in the C\/AL Globals or C\/AL Locals window. For information about C\/AL Globals window, see [\($ S\_10204 C\-AL Globals $\)](-$-S_10204-C-AL-Globals-$-.md). For information about C\/AL functions, see [C\-AL Functions](C-AL-Functions.md).  
+ Simon has now created a basic worksheet page. He must remember to add the variables, constants, and functions necessary to make the worksheet page function correctly. He knows that he add variables, constants and functions in the C/AL Globals or C/AL Locals window. For information about C/AL Globals window, see [\($ S\_10204 C-AL Globals $\)](-$-S_10204-C-AL-Globals-$-.md). For information about C/AL functions, see [C-AL Functions](C-AL-Functions.md).  
   
  For more information about adding variables, constants, and functions, see [Codeunits](Codeunits.md).  
   
 ## See Also  
- [How to: Add Actions to a Page](../Topic/How%20to:%20Add%20Actions%20to%20a%20Page.md)   
- [How to: Promote Actions on Pages](../Topic/How%20to:%20Promote%20Actions%20on%20Pages.md)   
+ [How to: Add Actions to a Page](How%20to:%20Add%20Actions%20to%20a%20Page.md)   
+ [How to: Promote Actions on Pages](How%20to:%20Promote%20Actions%20on%20Pages.md)   
  [Page Designer Troubleshooting](Page-Designer-Troubleshooting.md)   
- [How to: Create a Page](../Topic/How%20to:%20Create%20a%20Page.md)   
+ [How to: Create a Page](How%20to:%20Create%20a%20Page.md)   
  [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
- [How to: Run a Page](../Topic/How%20to:%20Run%20a%20Page.md)
+ [How to: Run a Page](How%20to:%20Run%20a%20Page.md)

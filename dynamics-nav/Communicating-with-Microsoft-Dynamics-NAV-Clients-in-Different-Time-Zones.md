@@ -28,7 +28,7 @@ manager: edupont
  Different countries and regions sometimes have different rules for determining when to start and end daylight saving time. If computers that run [!INCLUDE[nav_server](includes/nav_server_md.md)] are kept current with Windows updates, then changes to daylight saving time are managed automatically.  
   
 > [!NOTE]  
->  There is limited support for reading and writing in UTC in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. Specifically, the client evaluates and formats DateTime values in pages using format code 9. This format is UTC but can be difficult to read. For example, the date and time of January 1, 2008 with the long time format specifier, is displayed in the following format; 2008\-01\-01T10:22:00Z.  
+>  There is limited support for reading and writing in UTC in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. Specifically, the client evaluates and formats DateTime values in pages using format code 9. This format is UTC but can be difficult to read. For example, the date and time of January 1, 2008 with the long time format specifier, is displayed in the following format; 2008-01-01T10:22:00Z.  
   
 ### Date and Time Data Types  
  Date data type and Time data type are not affected by the time zone settings. The value that a user enters is the value that is saved to the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
@@ -49,12 +49,12 @@ manager: edupont
 > [!NOTE]  
 >  [!INCLUDE[nav_server](includes/nav_server_md.md)] stores dates and times as UTC. When a web service receives data from [!INCLUDE[nav_server](includes/nav_server_md.md)], the time zone is UTC even if the Services Default Time Zone setting is set to a different time zone.  
   
- For example, if the Services Default Time Zone setting is set to **UTC\+3**, the following table describes two scenarios where a web service consumer modifies [!INCLUDE[navnow](includes/navnow_md.md)] data and sends this back to [!INCLUDE[nav_server](includes/nav_server_md.md)].  
+ For example, if the Services Default Time Zone setting is set to **UTC+3**, the following table describes two scenarios where a web service consumer modifies [!INCLUDE[navnow](includes/navnow_md.md)] data and sends this back to [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
 |Web service changes the DateTime field to|[!INCLUDE[nav_server](includes/nav_server_md.md)] interprets the DateTime value as|[!INCLUDE[nav_server](includes/nav_server_md.md)] saves the DateTime value as|  
 |-----------------------------------------------|---------------------------------------------------------------|----------------------------------------------------------|  
-|01\/01\/2014 17:00 UTC\+1|01\/01\/2014 17:00 UTC\+1|01\/01\/2014 16:00 UTC|  
-|01\/01\/2014 17:00|01\/01\/2014 17:00 UTC\+3|01\/01\/2014 14:00 UTC|  
+|01\/01\/2014 17:00 UTC+1|01\/01\/2014 17:00 UTC+1|01\/01\/2014 16:00 UTC|  
+|01\/01\/2014 17:00|01\/01\/2014 17:00 UTC+3|01\/01\/2014 14:00 UTC|  
   
 ## See Also  
  [Configuring the Windows Client](Configuring-the-Windows-Client.md)   

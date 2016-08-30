@@ -35,14 +35,14 @@ Creates an Automation object.
  *OnClient*  
  Type: Boolean  
   
- *OnClient* must evaluate to **true**. You can either set the parameter to **true** or define a Boolean type variable that evaluates to **true**. If variable evaluates to **false**, then you will see a run\-time error.  
+ *OnClient* must evaluate to **true**. You can either set the parameter to **true** or define a Boolean type variable that evaluates to **true**. If variable evaluates to **false**, then you will see a run-time error.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the Automation object could be created; otherwise, **false**.  
   
- If the return value is not tested, then execution will end with a run\-time error.  
+ If the return value is not tested, then execution will end with a run-time error.  
   
 ## [!INCLUDE[bp_supcli_head](includes/bp_supcli_head_md.md)]  
  [!INCLUDE[bp_supcli_rtc](includes/bp_supcli_rtc_md.md)]  
@@ -60,7 +60,7 @@ Creates an Automation object.
   
  The Automation object that is created can be explicitly destroyed by the [CLEAR Function](CLEAR-Function.md). The object is implicitly destroyed when the Automation variable goes out of scope.  
   
- An Automation variable can only be created one time. You will get a run\-time error if you try to create an Automation variable again and do not call CLEAR first. You also get a run\-time error if you try to create an OCX variable.  
+ An Automation variable can only be created one time. You will get a run-time error if you try to create an Automation variable again and do not call CLEAR first. You also get a run-time error if you try to create an OCX variable.  
   
 ## Example  
  The following example shows how you can use the CREATE function. This example requires that you create the following variables.  

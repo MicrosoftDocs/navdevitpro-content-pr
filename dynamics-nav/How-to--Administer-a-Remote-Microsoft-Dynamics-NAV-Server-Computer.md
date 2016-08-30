@@ -15,13 +15,13 @@ manager: edupont
 You can use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] to connect to other computers on your network where [!INCLUDE[navnowlong](includes/navnowlong_md.md)] is installed and manage [!INCLUDE[nav_server](includes/nav_server_md.md)] instances on those computers.  
   
 > [!NOTE]  
->  In this procedure, you only administer one [!INCLUDE[nav_server](includes/nav_server_md.md)] computer at a time. To administer multiple [!INCLUDE[nav_server](includes/nav_server_md.md)] computers from a single instance of [!INCLUDE[nav_admin](includes/nav_admin_md.md)], see [How to: Administer Multiple Microsoft Dynamics NAV Server Computers](../Topic/How%20to:%20Administer%20Multiple%20Microsoft%20Dynamics%20NAV%20Server%20Computers.md).  
+>  In this procedure, you only administer one [!INCLUDE[nav_server](includes/nav_server_md.md)] computer at a time. To administer multiple [!INCLUDE[nav_server](includes/nav_server_md.md)] computers from a single instance of [!INCLUDE[nav_admin](includes/nav_admin_md.md)], see [How to: Administer Multiple Microsoft Dynamics NAV Server Computers](How%20to:%20Administer%20Multiple%20Microsoft%20Dynamics%20NAV%20Server%20Computers.md).  
   
 ### To connect to a remote [!INCLUDE[nav_server](includes/nav_server_md.md)] computer  
   
 1.  Verify that the administrator who will be connecting to the remote computer is a member of that computer’s Administrators group.  
   
-2.  On the remote computer, open a Windows PowerShell command prompt with administrative credentials. Choose **Start**, choose **Accessories**, right\-click **Windows PowerShell**, and then choose **Run as administrator**.  
+2.  On the remote computer, open a Windows PowerShell command prompt with administrative credentials. Choose **Start**, choose **Accessories**, right-click **Windows PowerShell**, and then choose **Run as administrator**.  
   
      Windows PowerShell is included in Windows 7, Windows 8, Windows Server 2008 R2 and Windows Server 2012, and can be installed on other Windows operating systems. For more information, see [Windows PowerShell](http://go.microsoft.com/fwlink/?LinkId=211847) in the TechNet Library.  
   

@@ -21,18 +21,18 @@ Controls the caption that is used in the label of a field in a database table or
 -   Page Fields  
   
 ## Remarks  
- The data type of the C\/AL expression must be either Text \(maximum length 80\) or Code.  
+ The data type of the C/AL expression must be either Text \(maximum length 80\) or Code.  
   
- Because this property lets you enter an expression, [!INCLUDE[navnow](includes/navnow_md.md)] must be able to differentiate between a literal string like 'DIM1' and a variable or function called DIM1. Every text string that you enter must be enclosed in '  ' or it will be interpreted as a variable or function. You must enter a value that results in a string. For example, if you want to enter 1 \+ 5, you must either enter '1\+ 5', or FORMAT\(1 \+ 5\), which results in '6'.  
+ Because this property lets you enter an expression, [!INCLUDE[navnow](includes/navnow_md.md)] must be able to differentiate between a literal string like 'DIM1' and a variable or function called DIM1. Every text string that you enter must be enclosed in '  ' or it will be interpreted as a variable or function. You must enter a value that results in a string. For example, if you want to enter 1 + 5, you must either enter '1+ 5', or FORMAT\(1 + 5\), which results in '6'.  
   
  The expression is then interpreted by trigger 15 in codeunit 1.  
   
-|C\/AL expression|Comments|  
+|C/AL expression|Comments|  
 |----------------------|--------------|  
 |DIM1|This value produces an error unless a text variable exists with the name DIM1.|  
 |'DIM1'|OK. The caption is 'DIM1.'|  
-|'DIM'\+FORMAT\(2\)|OK. The caption is 'DIM2.'|  
-|1\+5|Error. The data type is Integer|  
+|'DIM'+FORMAT\(2\)|OK. The caption is 'DIM2.'|  
+|1+5|Error. The data type is Integer|  
   
 ## See Also  
  [CaptionClass Functionality](CaptionClass-Functionality.md)

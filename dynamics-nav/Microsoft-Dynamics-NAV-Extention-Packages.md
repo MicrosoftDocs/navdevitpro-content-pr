@@ -18,7 +18,7 @@ You deploy your [!INCLUDE[navnow](includes/navnow_md.md)] extensions as packages
 ## Extension Manifests  
   
 > [!IMPORTANT]  
->  Use the New\-NAVAppManifestFile cmdlet to write your manifest to disk so that the App ID is preserved. Then, you can use the modification cmdlet, Set\-NAVAppManifest, to change attributes such as the version number.  
+>  Use the New-NAVAppManifestFile cmdlet to write your manifest to disk so that the App ID is preserved. Then, you can use the modification cmdlet, Set-NAVAppManifest, to change attributes such as the version number.  
   
  The following code snippet illustrates how you can generate a manifest file.  
   
@@ -93,7 +93,7 @@ CompatibilityId="1.0.0.0" />
 |Id|Yes|Int32|The object ID.|  
   
 ### Dependencies  
- The `Dependencies` element contains a collection of `Dependency` elements that define identifies other extensions that this extension has a specific dependency on. Dependencies are added to the manifest when you provide a path to a .navx file in the –Dependencies parameter of the New\-NAVAppManifest cmdlet.  
+ The `Dependencies` element contains a collection of `Dependency` elements that define identifies other extensions that this extension has a specific dependency on. Dependencies are added to the manifest when you provide a path to a .navx file in the –Dependencies parameter of the New-NAVAppManifest cmdlet.  
   
 |Attribute|Required|Type|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------|--------------|----------|---------------------------------------|  

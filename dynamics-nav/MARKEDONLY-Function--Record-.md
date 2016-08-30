@@ -34,7 +34,7 @@ Activates a special filter. After you use this function, your view of the table 
   
  If this parameter if **true**, only marked records are included. If this parameter is **false**, all records are included.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the special filter is being used; otherwise, **false**.  
@@ -42,7 +42,7 @@ Activates a special filter. After you use this function, your view of the table 
 ## Example  
  This example shows how to use MARK and MARKEDONLY. Assume that at first no records are marked.  
   
- This example requires that you create the following variables and text constants in the C\/AL Globals window.  
+ This example requires that you create the following variables and text constants in the C/AL Globals window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

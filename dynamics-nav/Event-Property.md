@@ -16,7 +16,7 @@ Specifies whether the function is used to publish or subscribe to an event.
   
 ## Applies to  
   
--   C\/AL functions.  
+-   C/AL functions.  
   
 ## Property Value  
   
@@ -31,4 +31,4 @@ Specifies whether the function is used to publish or subscribe to an event.
   
 ## See Also  
  [Raising Events](Raising-Events.md)   
- [C\-AL Function Statements](C-AL-Function-Statements.md)
+ [C-AL Function Statements](C-AL-Function-Statements.md)

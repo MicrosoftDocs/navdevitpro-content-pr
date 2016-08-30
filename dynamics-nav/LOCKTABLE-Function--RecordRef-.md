@@ -33,7 +33,7 @@ RecordRef.LOCKTABLE
  This function works the same as the [LOCKTABLE Function \(Record\)](LOCKTABLE-Function--Record-.md).  
   
 ## Example  
- The following example opens table number 18 \(Customer\) as a RecordRef that is named MyRecordRef. The LOCKTABLE function locks the table. This is ensures that no records are inserted or deleted during the counting process. The [COUNT Function \(RecordRef\)](COUNT-Function--RecordRef-.md) then retrieves the number of records in the table. The number of records is stored in the Count variable. The name of the table and the number of records in the table is displayed in a message box. The varTableNo variable can be used to open any table and get the number of records in that table by changing the value of the varTableNo variable. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example opens table number 18 \(Customer\) as a RecordRef that is named MyRecordRef. The LOCKTABLE function locks the table. This is ensures that no records are inserted or deleted during the counting process. The [COUNT Function \(RecordRef\)](COUNT-Function--RecordRef-.md) then retrieves the number of records in the table. The number of records is stored in the Count variable. The name of the table and the number of records in the table is displayed in a message box. The varTableNo variable can be used to open any table and get the number of records in that table by changing the value of the varTableNo variable. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -54,7 +54,7 @@ MESSAGE(Text000, MyRecordRef.NAME, Count);
 ```  
   
 ## Example  
- This example uses pseudo\-language to show the scope of write locks. Both an explicit lock and an automatic lock are illustrated. The first line \(1\) explicitly locks table A. If this explicit lock was not set on table A, the Database Management System \(DBMS\) would automatically lock this table when a record is inserted \(3\). Table B is not locked explicitly, but is locked automatically by the DBMS when a record is inserted \(4\). Both locks are active until the system exits the C\/AL code module \(5\).  
+ This example uses pseudo-language to show the scope of write locks. Both an explicit lock and an automatic lock are illustrated. The first line \(1\) explicitly locks table A. If this explicit lock was not set on table A, the Database Management System \(DBMS\) would automatically lock this table when a record is inserted \(3\). Table B is not locked explicitly, but is locked automatically by the DBMS when a record is inserted \(4\). Both locks are active until the system exits the C/AL code module \(5\).  
   
 ```  
   

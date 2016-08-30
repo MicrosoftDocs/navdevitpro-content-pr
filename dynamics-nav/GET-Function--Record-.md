@@ -32,12 +32,12 @@ Gets a record based on values stored in primary key fields.
   
  Values in primary key fields. The data type of this parameter must match the data type of the corresponding primary key field. For example, if you enter an integer, the data type of the corresponding primary key field must also be an integer. The value 0 \(zero\) or an empty string is assigned to unspecified fields.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the record was found; otherwise, **false**.  
   
- If you omit this optional return value and if the record cannot be found, then a run\-time error occurs. If you include the return value, then you must handle any errors.  
+ If you omit this optional return value and if the record cannot be found, then a run-time error occurs. If you include the return value, then you must handle any errors.  
   
 ## Remarks  
  This function always uses the primary key for the table. It ignores any filters that are set, except security filters. Security filters are applied or ignored based on the Security Filter Mode. The current key and filters are not changed after you call this function. For more information, see [Security Filter Modes](Security-Filter-Modes.md).  
@@ -45,7 +45,7 @@ Gets a record based on values stored in primary key fields.
  This function ignores any call to the [SETAUTOCALCFIELDS Function \(Record\)](SETAUTOCALCFIELDS-Function--Record-.md). Therefore, a **GET** call on a record after a **SETAUTOCALCFIELDS** call does not automatically calculate FlowFields in the record.  
   
 ## Example  
- This example requires that you create the following variable and text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following variable and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

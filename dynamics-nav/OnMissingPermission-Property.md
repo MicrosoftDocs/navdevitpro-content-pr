@@ -16,7 +16,7 @@ Specifies what happens to the subscriber function call when the [!INCLUDE[navnow
   
 ## Applies to  
   
--   C\/AL functions in codeunits.  
+-   C/AL functions in codeunits.  
   
      This property is only available when the [Event Property](Event-Property.md) is set to **Subscriber**.  
   
@@ -36,4 +36,4 @@ Specifies what happens to the subscriber function call when the [!INCLUDE[navnow
  [Publishing Events](Publishing-Events.md)   
  [Raising Events](Raising-Events.md)   
  [Subscribing to Events](Subscribing-to-Events.md)   
- [C\-AL Function Statements](C-AL-Function-Statements.md)
+ [C-AL Function Statements](C-AL-Function-Statements.md)

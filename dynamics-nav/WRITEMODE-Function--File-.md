@@ -33,7 +33,7 @@ Use this function before you use [OPEN Function \(File\)](OPEN-Function--File-.m
   
  **true** if the file is open for reading and writing; otherwise, **false**, if the file is open only for reading.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  The current setting of this option for the file.  
@@ -44,7 +44,7 @@ Use this function before you use [OPEN Function \(File\)](OPEN-Function--File-.m
  This function should be used before [OPEN Function \(File\)](OPEN-Function--File-.md) is used to open the file.  
   
 ## Example  
- The following example opens a file in write mode and writes text to the file. The [WRITEMODE Function \(FILE\)](WRITEMODE-Function--File-.md) allows the text file that is named C:\/TestFolder\/TestFile.txt for to be written to by setting *SetWritemode* parameter to **true**. The [WRITE Function \(File\)](WRITE-Function--File-.md) writes the text ‘Hello World’ to the text file. The [CLOSE Function \(File\)](CLOSE-Function--File-.md) closes the file after the file is written to. This example assumes that you have created a text file that is named C:\/TestFolder\/TestFile.txt. This example requires that you create the following variable in the **C\/AL Globals** window.  
+ The following example opens a file in write mode and writes text to the file. The [WRITEMODE Function \(FILE\)](WRITEMODE-Function--File-.md) allows the text file that is named C:\/TestFolder\/TestFile.txt for to be written to by setting *SetWritemode* parameter to **true**. The [WRITE Function \(File\)](WRITE-Function--File-.md) writes the text ‘Hello World’ to the text file. The [CLOSE Function \(File\)](CLOSE-Function--File-.md) closes the file after the file is written to. This example assumes that you have created a text file that is named C:\/TestFolder\/TestFile.txt. This example requires that you create the following variable in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

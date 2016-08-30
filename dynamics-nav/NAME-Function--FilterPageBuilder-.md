@@ -35,7 +35,7 @@ Name := FilterPageBuilder.NAME(Index)
 ## Example  
  The following example initializes a filter page object that includes two filter controls for the **Date** system table. The NAME function returns the names of filter control in a message dialog box.  
   
- This example requires that you create the following variables in the **C\/AL Globals** window.  
+ This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|SubType|  
 |-------------------|--------------|-------------|  

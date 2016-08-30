@@ -32,13 +32,13 @@ Number := DATE2DWY(Date, What)
   
  Specifies what the function returns. The valid options are 1, 2, and 3.  
   
- The value 1 corresponds to day of the week \(1\-7, Monday \= 1\).  
+ The value 1 corresponds to day of the week \(1-7, Monday = 1\).  
   
- The value 2 corresponds to week number \(1\-53\).  
+ The value 2 corresponds to week number \(1-53\).  
   
  The value 3 corresponds to year.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The resulting day of the week, week number, or year.  
@@ -47,7 +47,7 @@ Number := DATE2DWY(Date, What)
  If the input date to the **DATE2DWY** function is in a week which spans two years, then the **DATE2DWY** function computes the output year as the year that has more days of the given week. For example, if the input date is 010114, then the date is in a week that starts on Monday, December 29, 2013, and ends Sunday, January 4, 2014. This week has three days in 2008 and four days in 2014. Therefore, the output year is 2014.  
   
 ## Example  
- This example shows a special case that occurs when you use the **DATE2DWY** function in a week which spans two years. This code example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This example shows a special case that occurs when you use the **DATE2DWY** function in a week which spans two years. This code example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

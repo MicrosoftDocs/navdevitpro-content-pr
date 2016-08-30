@@ -24,5 +24,5 @@ Typically, you take as many precautions as possible to avoid deleting a database
 -   In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **Delete**.  
   
 ## See Also  
- [How to: Open Databases](../Topic/How%20to:%20Open%20Databases.md)   
- [How to: Close Databases](../Topic/How%20to:%20Close%20Databases.md)
+ [How to: Open Databases](How%20to:%20Open%20Databases.md)   
+ [How to: Close Databases](How%20to:%20Close%20Databases.md)

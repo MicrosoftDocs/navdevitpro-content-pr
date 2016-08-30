@@ -30,7 +30,7 @@ REPORT.EXECUTE (Number, Parameters[,RecordRef])
 
  The ID of the report that you want to run. To specify the report from a list, on the **View** menu, choose **Symbols**.  
 
- If the report that you specify does not exist, then a run\-time error occurs.  
+ If the report that you specify does not exist, then a run-time error occurs.  
 
  *Parameters*  
  Type: Text or Code  
@@ -48,7 +48,7 @@ REPORT.EXECUTE (Number, Parameters[,RecordRef])
  For a simple example that illustrates how to use the EXECUTE function, see example in the [RUNREQUESTPAGE Function](RUNREQUESTPAGE-Function.md) function topic.  
 
 ## See Also  
- [Reports\-duplicate 20](Reports-duplicate-20.md)   
+ [Reports-duplicate 20](Reports-duplicate-20.md)   
  [Request Pages](Request-Pages.md)   
  [SAVEAS Function](SAVEAS-Function.md)   
  [PRINT Function](PRINT-Function.md)

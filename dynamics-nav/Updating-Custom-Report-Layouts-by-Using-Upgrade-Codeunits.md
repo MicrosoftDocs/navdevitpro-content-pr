@@ -12,9 +12,9 @@ caps.latest.revision: 12
 manager: edupont
 ---
 # Updating Custom Report Layouts by Using Upgrade Codeunits
-You can update custom report layouts by creating upgrade codeunits to handle changes in report datasets that affect the report layouts. Upgrade codeunits enable you to programmatically update multiple custom report layouts in the database to changes in report datasets. Although report layout updates can be done from the [!INCLUDE[navnow](includes/navnow_md.md)] client, there are certain changes to the dataset that require the user to manually modify report layouts before they can be used. These types of changes include, for example, deleted fields or field name conflicts as a result of renaming. Upgrade codeunits enable you handle these breaking changes to report datasets and layouts without requiring end\-user interaction.  
+You can update custom report layouts by creating upgrade codeunits to handle changes in report datasets that affect the report layouts. Upgrade codeunits enable you to programmatically update multiple custom report layouts in the database to changes in report datasets. Although report layout updates can be done from the [!INCLUDE[navnow](includes/navnow_md.md)] client, there are certain changes to the dataset that require the user to manually modify report layouts before they can be used. These types of changes include, for example, deleted fields or field name conflicts as a result of renaming. Upgrade codeunits enable you handle these breaking changes to report datasets and layouts without requiring end-user interaction.  
   
- To design the report upgrade logic in an upgrade codeunit, you add C\/AL code that implements the report upgrade API \(through .NET Framework interoperability\) and a set of functions that are available in codeunit 9651**Document Report Mgt.**. In the [!INCLUDE[navnow](includes/navnow_md.md)] application, codeunit 9651**Document Report Mgt.** is the main component for running and maintaining customized report layouts.  
+ To design the report upgrade logic in an upgrade codeunit, you add C/AL code that implements the report upgrade API \(through .NET Framework interoperability\) and a set of functions that are available in codeunit 9651**Document Report Mgt.**. In the [!INCLUDE[navnow](includes/navnow_md.md)] application, codeunit 9651**Document Report Mgt.** is the main component for running and maintaining customized report layouts.  
   
  For general information about upgrade codeunits, see [Upgrade Codeunits](Upgrade-Codeunits.md).  
   
@@ -93,7 +93,7 @@ You can update custom report layouts by creating upgrade codeunits to handle cha
  This method instantiates a new object for the report ID that is specified by the *reportId* parameter. If the report already exists in the collection, the existing object will be returned.  
   
 ## Custom Report Layout Upgrade Example  
- This example illustrates how you can update custom report layouts to dataset changes by using C\/AL code, the report update API, and upgrade codeunits. This example will update a custom report layouts for report ID 1306 **Mini Sales \- Invoice**. The following table describes the changes to the report dataset and how to the handle the updates in the custom report layouts:  
+ This example illustrates how you can update custom report layouts to dataset changes by using C/AL code, the report update API, and upgrade codeunits. This example will update a custom report layouts for report ID 1306 **Mini Sales - Invoice**. The following table describes the changes to the report dataset and how to the handle the updates in the custom report layouts:  
   
 |Dataset change|Report Layout Update|  
 |--------------------|--------------------------|  
@@ -117,9 +117,9 @@ You can update custom report layouts by creating upgrade codeunits to handle cha
   
         |Name|DataType|SubType|  
         |----------|--------------|-------------|  
-        |ReportUpgradeSet|DotNet|Microsoft.Dynamics.Nav.Types.Report.IReportUpgradeSet.'Microsoft.Dynamics.Nav.Types.Report, Version\=8.0.0.0, Culture\=neutral, PublicKeyToken\=31bf3856ad364e35'|  
-        |ReportUpgradeCollection|DotNet|Microsoft.Dynamics.Nav.DocumentReport.ReportUpgradeCollection.'Microsoft.Dynamics.Nav.DocumentReport, Version\=8.0.0.0, Culture\=neutral, PublicKeyToken\=31bf3856ad364e35'|  
-        |DeleteAction|DotNet|Microsoft.Dynamics.Nav.Types.Report.ReportChangeOptions\+DeleteAction.'Microsoft.Dynamics.Nav.Types.Report, Version\=8.0.0.0, Culture\=neutral, PublicKeyToken\=31bf3856ad364e35'|  
+        |ReportUpgradeSet|DotNet|Microsoft.Dynamics.Nav.Types.Report.IReportUpgradeSet.'Microsoft.Dynamics.Nav.Types.Report, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'|  
+        |ReportUpgradeCollection|DotNet|Microsoft.Dynamics.Nav.DocumentReport.ReportUpgradeCollection.'Microsoft.Dynamics.Nav.DocumentReport, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'|  
+        |DeleteAction|DotNet|Microsoft.Dynamics.Nav.Types.Report.ReportChangeOptions+DeleteAction.'Microsoft.Dynamics.Nav.Types.Report, Version=8.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'|  
         |DocumentReportMgt|Codeunit|Document Report Mgt.|  
   
 3.  Add the following code to the **UpgradeReportLayout** function.  
@@ -190,7 +190,7 @@ You can update custom report layouts by creating upgrade codeunits to handle cha
      Open [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] as an administrator. On the **Tools** menu, choose **Data Upgrade**, and then choose **Start** and follow the instructions.  
   
     > [!NOTE]  
-    >  You can also perform the data upgrade by running the [Start\-NavDataUpgrade cmdlet](http://go.microsoft.com/fwlink/?LinkID=401404) from the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
+    >  You can also perform the data upgrade by running the [Start-NavDataUpgrade cmdlet](http://go.microsoft.com/fwlink/?LinkID=401404) from the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
   
 ## See Also  
  [Updating Report Layouts to Dataset Changes](Updating-Report-Layouts-to-Dataset-Changes.md)   

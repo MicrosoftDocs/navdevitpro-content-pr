@@ -26,7 +26,7 @@ Runs a specific report without a request page and saves the report as a PDF, Exc
   
  The ID of the report that you want to save. To specify the report from a list, on the **View** menu, choose **Symbols**.  
   
- If the report that you specify does not exist, then a run\-time error occurs.  
+ If the report that you specify does not exist, then a run-time error occurs.  
   
  *Parameters*  
  Type: Text or Code  
@@ -51,7 +51,7 @@ Runs a specific report without a request page and saves the report as a PDF, Exc
 ## Return Value  
  Type: Boolean  
   
- If you omit this optional return value and if the report cannot be saved as a file, then a run\-time error occurs that states that the report cannot be saved. If you include a return value, then it is assumed that you will handle any errors and no run\-time error occurs, even though the report is not saved.  
+ If you omit this optional return value and if the report cannot be saved as a file, then a run-time error occurs that states that the report cannot be saved. If you include a return value, then it is assumed that you will handle any errors and no run-time error occurs, even though the report is not saved.  
   
  **true** if the report was saved to a file; otherwise, **false**.  
   
@@ -64,7 +64,7 @@ Runs a specific report without a request page and saves the report as a PDF, Exc
 >  By default, when a report uses an RDLC report layout at runtime, fonts are embedded in the generated PDF. You can specify whether fonts are embedded in the PDF for RDLC reports by changing the **Report PDF Font Embedding** setting in the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance configuration or changing the **PDFFontEmbedding** property in report objects. For more information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md) and [PDFFontEmbedding Property](PDFFontEmbedding-Property.md).  
   
 ## See Also  
- [Reports\-duplicate 20](Reports-duplicate-20.md)   
+ [Reports-duplicate 20](Reports-duplicate-20.md)   
  [Request Pages](Request-Pages.md)   
  [EXECUTE Function](EXECUTE-Function.md)   
  [PRINT Function](PRINT-Function.md)

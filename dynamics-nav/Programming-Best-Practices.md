@@ -19,9 +19,9 @@ This topic describes best practices for developing [!INCLUDE[navnow](includes/na
   
 -   If the default value for a property is appropriate for a specific purpose, then do not make the default value explicit.  
   
--   If a variable can be reset with a statement such as `a := 0;` then do not use a special C\/AL function, such as the [CLEAR Function](CLEAR-Function.md), to reset the variable.  
+-   If a variable can be reset with a statement such as `a := 0;` then do not use a special C/AL function, such as the [CLEAR Function](CLEAR-Function.md), to reset the variable.  
   
--   If the contents of a record can be copied with a statement such as `MyRec := MyRec2;` then do not use a special C\/AL function, such as the [TRANSFERFIELDS Function \(Record\)](TRANSFERFIELDS-Function--Record-.md), to copy the contents.  
+-   If the contents of a record can be copied with a statement such as `MyRec := MyRec2;` then do not use a special C/AL function, such as the [TRANSFERFIELDS Function \(Record\)](TRANSFERFIELDS-Function--Record-.md), to copy the contents.  
   
 -   The Rec global variable references the source table of a page. When you refer to fields or functions of that table, you do not need to qualify them with Rec.\< *field*\> or Rec.\< *function*\>. You use \<*field*\> or \<*function*\>  
   
@@ -36,7 +36,7 @@ REPORT.RUN(GenJnlTemplate."Report ID")
 ```  
   
 ## Setting Properties  
- To set properties from C\/AL, use code that is similar to the following code.  
+ To set properties from C/AL, use code that is similar to the following code.  
   
 ```  
 "Customer No.".Visible := TRUE;  
@@ -53,7 +53,7 @@ Cust.MARK(TRUE);
 ```  
   
 ## Writing Lookups  
- When writing lookups in C\/AL, do not filter records that the user may want to select. Instead, program the record cursor to be positioned on the most relevant record for the search even though it may not be first on the list. When programming the OnLookup trigger for a field, the code in the field’s OnValidate trigger is not called unless you explicitly call Field.VALIDATE. If errors can occur in the validation, then you must operate on a copy of the Rec variable as shown in the following example instead of directly on the Rec variable.  
+ When writing lookups in C/AL, do not filter records that the user may want to select. Instead, program the record cursor to be positioned on the most relevant record for the search even though it may not be first on the list. When programming the OnLookup trigger for a field, the code in the field’s OnValidate trigger is not called unless you explicitly call Field.VALIDATE. If errors can occur in the validation, then you must operate on a copy of the Rec variable as shown in the following example instead of directly on the Rec variable.  
   
 ```  
 WITH Cust DO BEGIN  
@@ -177,11 +177,11 @@ END;
 |**Balancing Account**|**Balancing Account Type**<br /><br /> **Balancing Account No.**<br /><br /> **Balancing General Posting Type**<br /><br /> **Balancing General Business Posting Group**<br /><br /> **Balancing General Product Posting Group**|  
 |**Sales\/Purchase and Discount**|-   **Sales\/Purchase \(LCY\)**<br />-   **Profit \(LCY\)**<br />-   **Line Discount %**<br />-   **Line Discount Amount**<br />-   **Allow Invoice Discount**<br />-   **Invoice Discount Amount**|  
 |**Payment Terms**|-   **Payment Terms Code**<br />-   **Due Date**<br />-   **Payment Discount Date**<br />-   **Payment Discount %**|  
-|**Application**|-   **Serial No.**<br />-   **Applies\-To Document Type**<br />-   **Applies\-To Document No.**<br />-   **Applies\-To ID**<br />-   **Applies\-To Item Entry**<br />-   **Applies\-To Entry**<br />-   **Apply and Close \(Job\)**<br />-   **Open**|  
+|**Application**|-   **Serial No.**<br />-   **Applies-To Document Type**<br />-   **Applies-To Document No.**<br />-   **Applies-To ID**<br />-   **Applies-To Item Entry**<br />-   **Applies-To Entry**<br />-   **Apply and Close \(Job\)**<br />-   **Open**|  
 |**Miscellaneous Information**|-   **Cost Is Adjusted**<br />-   **Cost Posted to G\/L**<br />-   **On Hold**<br />-   **Bank Payment Type**|  
 |**Intrastat**|-   **Transaction Type**<br />-   **Transport Method**<br />-   **Country\/Region Code**|  
 |**Posting Information**|-   **Quantity to Ship**<br />-   **Quantity Shipped**<br />-   **Quantity to Invoice**<br />-   **Quantity Invoiced**|  
 |**Audit Information**|-   **User ID**<br />-   **Source Code**<br />-   **Reason Code**<br />-   **Entry No.**|  
   
 ## See Also  
- [Programming in C\-AL](Programming-in-C-AL.md)
+ [Programming in C-AL](Programming-in-C-AL.md)

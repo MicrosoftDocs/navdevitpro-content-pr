@@ -26,7 +26,7 @@ Position := BigText.TEXTPOS(String)
   
  The text string to search for in the **BigText** variable. If this parameter is empty, then 0 is returned.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  This return value indicates the position where the first occurrence of the string starts in the *BigText* variable.  
@@ -37,7 +37,7 @@ Position := BigText.TEXTPOS(String)
  The first character in a *BigText* variable is position 1.  
   
 ## Example  
- The following examples show how to use the TEXTPOS function. These examples require that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following examples show how to use the TEXTPOS function. These examples require that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -46,7 +46,7 @@ Position := BigText.TEXTPOS(String)
   
 |Text constant name|ENU value|  
 |------------------------|---------------|  
-|Text000|VarPosition \= %1|  
+|Text000|VarPosition = %1|  
   
  The following examples first initialize the content of the *BigText* variable with the text `ABCDEFG`.  
   

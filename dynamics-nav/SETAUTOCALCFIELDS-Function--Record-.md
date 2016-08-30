@@ -33,10 +33,10 @@ Sets the FlowFields that you specify to be automatically calculated when the rec
   
  To remove the automatic calculation setting on a field that you previously set with the **SETAUTOCALCFIELDS** function, you must call **SETAUTOCALCFIELDS** without parameters.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the record was set successfully; otherwise, **false**. If you omit this optional return value and if the record cannot be set to automatically calculate, then a run\-time error occurs. If you include a return value, then you must handle any errors.  
+ **true** if the record was set successfully; otherwise, **false**. If you omit this optional return value and if the record cannot be set to automatically calculate, then a run-time error occurs. If you include a return value, then you must handle any errors.  
   
 ## Remarks  
  FlowFields are virtual fields. The values in these fields are not saved in the table. This means that you must use either the [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md)or the **SETAUTOCALCFIELDS** function to update them. For example, if you retrieve records using the [FIND Function \(Record\)](FIND-Function--Record-.md) and [NEXT Function \(Record\)](NEXT-Function--Record-.md), then the FlowFields in those records are set to zero \(0\). However, if you call **SETAUTOCALCFIELDS** before you retrieve the records, then when you call **FIND** and **NEXT**, the FlowFields values are automatically calculated.  

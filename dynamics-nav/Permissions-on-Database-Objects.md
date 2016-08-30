@@ -34,4 +34,4 @@ This section provides an overview of permissions and permission sets in [!INCLUD
 ## See Also  
  [Data Security](Data-Security.md)   
  [Business Areas and Granules](Business-Areas-and-Granules.md)   
- [Record\-Level Security](Record-Level-Security.md)
+ [Record-Level Security](Record-Level-Security.md)

@@ -34,13 +34,13 @@ This topic describes how to install and configure Internet Information Service \
   
  The procedure is slightly different for the different versions of Windows. For more information, see the following sections:  
   
--   [Installing IIS Features on Windows 7](../Topic/How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#Win7)  
+-   [Installing IIS Features on Windows 7](How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#Win7)  
   
--   [Installing IIS Features on Windows Server 2008 and Windows Server 2008 R2](../Topic/How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#ws2008)  
+-   [Installing IIS Features on Windows Server 2008 and Windows Server 2008 R2](How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#ws2008)  
   
--   [Installing IIS Features on Windows 8 and Windows 10](../Topic/How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#Win8)  
+-   [Installing IIS Features on Windows 8 and Windows 10](How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#Win8)  
   
--   [Installing IIS Features on Windows Server 2012](../Topic/How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#WS2012)  
+-   [Installing IIS Features on Windows Server 2012](How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#WS2012)  
   
 > [!NOTE]  
 >  Instead of manually installing IIS, you can use the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard to install and enable the IIS features. For more information, see [Using Microsoft Dynamics NAV Setup to Install IIS Features](Using-Microsoft-Dynamics-NAV-Setup-to-Install-IIS-Features.md).  
@@ -166,18 +166,18 @@ This topic describes how to install and configure Internet Information Service \
   
      The **Windows features** dialog box appears.  
   
-3.  Expand the root\-level item **.NET Framework 4.5 Advanced Services** \(for Windows 8\) or **.NET Framework 4.6 Advanced Services** \(for Windows 10\), and then do the following:  
+3.  Expand the root-level item **.NET Framework 4.5 Advanced Services** \(for Windows 8\) or **.NET Framework 4.6 Advanced Services** \(for Windows 10\), and then do the following:  
   
     -   Select **ASP.NET 4.5** \(for Windows 8\) or **ASP.NET 4.6** \(for Windows 10\).  
   
     -   Expand **WCF Services**, and then select **HTTP Activation**.  
   
-4.  Expand the root\-level item **Microsoft .NET Framework 3.5 \(including .NET 2.0 and 3.0\)**, and then select **Windows Communication Foundation HTTP Activation**.  
+4.  Expand the root-level item **Microsoft .NET Framework 3.5 \(including .NET 2.0 and 3.0\)**, and then select **Windows Communication Foundation HTTP Activation**.  
   
     > [!NOTE]  
     >  The **Microsoft .NET Framework 3.5 \(including .NET 2.0 and 3.0\)** item is only available if.NET Framework 3.50 is installed. If the item is not shown, then there is no action for this step.  
   
-5.  Expand the root\-level item **Internet Information Services**, expand **World Wide Web Services**, and then do the following:  
+5.  Expand the root-level item **Internet Information Services**, expand **World Wide Web Services**, and then do the following:  
   
     1.  Expand **Application Development Features**, and select the following features:  
   
@@ -222,7 +222,7 @@ This topic describes how to install and configure Internet Information Service \
   
 3.  In the **Add Roles and Features Wizard**, in the **Before You Begin** page, choose the **Next** button.  
   
-4.  On the **Select installation type** page, select **Role\-based or feature\-based installation**, and then choose the **Next** button.  
+4.  On the **Select installation type** page, select **Role-based or feature-based installation**, and then choose the **Next** button.  
   
 5.  On the **Select destination server** page, select **Select a server from the server pool**, select your server from **Server Pool** list, and then choose the **Next** button.  
   
@@ -312,4 +312,4 @@ This topic describes how to install and configure Internet Information Service \
   
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
- [How to: Install the Web Server Components](../Topic/How%20to:%20Install%20the%20Web%20Server%20Components.md)
+ [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md)

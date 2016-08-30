@@ -21,14 +21,14 @@ After you accept the software license terms and choose **Next**, you come to the
      The Demo Install is intended for users who want to try out the features of [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. It is not intended as the foundation for a production environment.  
   
     > [!IMPORTANT]  
-    >  Because [!INCLUDE[nav_server](includes/nav_server_md.md)] requires a 64\-bit Windows operating system, you can only install the Demo version of [!INCLUDE[navnow](includes/navnow_md.md)] on a computer running a 64\-bit Windows operating system.  
+    >  Because [!INCLUDE[nav_server](includes/nav_server_md.md)] requires a 64-bit Windows operating system, you can only install the Demo version of [!INCLUDE[navnow](includes/navnow_md.md)] on a computer running a 64-bit Windows operating system.  
   
 -   **Choose an Installation Option**  
   
      When you choose this option, Setup moves to the **Choose an Installation Option** page, where you select from a set of predefined installation configurations.  
   
 ## See Also  
- [How to: Run Setup](../Topic/How%20to:%20Run%20Setup.md)   
+ [How to: Run Setup](How%20to:%20Run%20Setup.md)   
  [Installation Options](Installation-Options.md)   
  [Demo Option](Demo-Option.md)   
  [Working with Microsoft Dynamics NAV Setup](Working-with-Microsoft-Dynamics-NAV-Setup.md)

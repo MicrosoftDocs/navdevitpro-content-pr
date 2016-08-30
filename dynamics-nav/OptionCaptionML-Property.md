@@ -12,7 +12,7 @@ caps.latest.revision: 14
 manager: edupont
 ---
 # OptionCaptionML Property
-Sets the strings that are displayed to the user for selecting an option. OptionCaptionML is only used if the field or variable has an [OptionString Property](OptionString-Property.md). The OptionString property contains the set of values that are acceptable choices, and it is one of these values that is saved in the database or used in C\/AL code.  
+Sets the strings that are displayed to the user for selecting an option. OptionCaptionML is only used if the field or variable has an [OptionString Property](OptionString-Property.md). The OptionString property contains the set of values that are acceptable choices, and it is one of these values that is saved in the database or used in C/AL code.  
   
 ## Applies To  
   
@@ -29,9 +29,9 @@ Sets the strings that are displayed to the user for selecting an option. OptionC
 <Language ID>=<optioncaption [,optioncaption]*>  
 ```  
   
- \<Language ID\> is a Windows standard three\-letter language ID and \<optioncaption \[,optioncaption\]\*\> is the OptionCaption text\(s\) for this language. Semicolons are used to separate entries.  
+ \<Language ID\> is a Windows standard three-letter language ID and \<optioncaption \[,optioncaption\]\*\> is the OptionCaption text\(s\) for this language. Semicolons are used to separate entries.  
   
- Although you can use OptionCaptionML to limit the number of options displayed to the user, it is recommended that you use [OptionString Property](OptionString-Property.md) to do this. You cannot expand the set of options. If you do, a run\-time error will occur when the user selects an option that is outside the option set defined for the field or variable.  
+ Although you can use OptionCaptionML to limit the number of options displayed to the user, it is recommended that you use [OptionString Property](OptionString-Property.md) to do this. You cannot expand the set of options. If you do, a run-time error will occur when the user selects an option that is outside the option set defined for the field or variable.  
   
  The following is an example of an OptionCaptionML value.  
   
@@ -51,11 +51,11 @@ DAN=Resultatopgørelse,Balance;DEU=GuV,Bilanz;ESP=Comercial,Balance
   
      **Result** Users see opt1, opt2, and opt3 as the available choices.  
   
-2.  An OptionCaptionML property is added to the database field containing DAN\=valg1,valg2,valg3;ENG\=choice1,choice2,choice3.  
+2.  An OptionCaptionML property is added to the database field containing DAN=valg1,valg2,valg3;ENG=choice1,choice2,choice3.  
   
      **Result** If a user selects DAN as the language, valg1, valg2, valg3 will be the available choices on the page. If a user selects ENG, choice1, choice2, choice3 will be available. For more information about what happens when the selected language is not available, see [Multilanguage Development](Multilanguage-Development.md).  
   
-3.  An OptionCaptionML property is added to the text box containing DAN\=valg nummer 1,valg nummer 2,valg nummer 3.  
+3.  An OptionCaptionML property is added to the text box containing DAN=valg nummer 1,valg nummer 2,valg nummer 3.  
   
      **Result** If a user sets DAN as the language, the choices are valg nummer 1, valg nummer 2, valg nummer 3. If a user sets the language to ENG, the same set of choices are available.  
   

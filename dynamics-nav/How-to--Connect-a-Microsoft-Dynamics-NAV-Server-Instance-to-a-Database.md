@@ -39,11 +39,11 @@ This procedure describes how to use the [!INCLUDE[nav_admin](includes/nav_admin_
   
      Unless you are administering a remote computer, this is **Microsoft Dynamics NAV \(local\)**.  
   
-6.  In the central pane, right\-click the service instance that you modified, and then choose **Restart**.  
+6.  In the central pane, right-click the service instance that you modified, and then choose **Restart**.  
   
      This stops and restarts the service instance, and the service instance now connects to the converted database.  
   
 7.  To verify that the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance accesses the converted database, open the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and connect to the modified [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
   
 ## See Also  
- [Upgrading the Data\-duplicate](../Topic/Upgrading%20the%20Data-duplicate.md)
+ [Upgrading the Data-duplicate](Upgrading%20the%20Data-duplicate.md)

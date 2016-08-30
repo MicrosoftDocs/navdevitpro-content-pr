@@ -27,7 +27,7 @@ Date := DT2DATE(Datetime)
   
  The DateTime of which to return the date part.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Date  
   
  The date part of the DateTime object.  

@@ -28,12 +28,12 @@ manager: edupont
 > [!NOTE]  
 >  [!INCLUDE[nav_server](includes/nav_server_md.md)] stores dates and times as UTC. When a web service receives data from [!INCLUDE[nav_server](includes/nav_server_md.md)], the time zone is UTC even if the Services Default Time Zone setting is set to a different time zone.  
   
- For example, if the Services Default Time Zone setting is set to **UTC\+3**, the following table describes two scenarios where a web service consumer modifies [!INCLUDE[navnow](includes/navnow_md.md)] data and sends this back to [!INCLUDE[nav_server](includes/nav_server_md.md)].  
+ For example, if the Services Default Time Zone setting is set to **UTC+3**, the following table describes two scenarios where a web service consumer modifies [!INCLUDE[navnow](includes/navnow_md.md)] data and sends this back to [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
 |Web service changes the DateTime field to|[!INCLUDE[nav_server](includes/nav_server_md.md)] interprets the DateTime value as|[!INCLUDE[nav_server](includes/nav_server_md.md)] saves the DateTime value as|  
 |-----------------------------------------------|---------------------------------------------------------------|----------------------------------------------------------|  
-|01\/01\/2014 17:00 UTC\+1|01\/01\/2014 17:00 UTC\+1|01\/01\/2014 16:00 UTC|  
-|01\/01\/2014 17:00|01\/01\/2014 17:00 UTC\+3|01\/01\/2014 14:00 UTC|  
+|01\/01\/2014 17:00 UTC+1|01\/01\/2014 17:00 UTC+1|01\/01\/2014 16:00 UTC|  
+|01\/01\/2014 17:00|01\/01\/2014 17:00 UTC+3|01\/01\/2014 14:00 UTC|  
   
 ## See Also  
  [Communicating with Microsoft Dynamics NAV Clients in Different Time Zones](Communicating-with-Microsoft-Dynamics-NAV-Clients-in-Different-Time-Zones.md)   

@@ -27,7 +27,7 @@ Sid := SID(UserAccount);
   
  The Windows user account for which you want to get the SID. You must specify a domain and user name, such as 'cronus\\simon'.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text  
   
  The SID of the specified Windows user account.  

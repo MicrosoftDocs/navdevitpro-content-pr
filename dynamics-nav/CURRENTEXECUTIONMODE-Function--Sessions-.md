@@ -21,7 +21,7 @@ Specifies the mode in which the session is running.
 ExecutionMode := CURRENTEXECUTIONMODE  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: ExecutionMode  
   
  The execution mode is one of the following:  

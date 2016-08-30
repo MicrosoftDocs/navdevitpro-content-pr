@@ -17,7 +17,7 @@ After an administrator or a Microsoft Certified Partner initially installs [!INC
  To save the license file, you must have the Per Database license granule \(2020\) in your license. You must also have the necessary roles and permissions in SQL Server. See [Setting Database Owner and Security Administration Permissions](Setting-Database-Owner-and-Security-Administration-Permissions.md).  
   
 > [!NOTE]  
->  Uploading the license file is typically something you do once for each database installation, not once for each client installation. If you need to upload a license for a specific database, see [Uploading a License File for a Specific Database](../Topic/How%20to:%20Upload%20the%20License%20File.md#UploadtoDatabase).  
+>  Uploading the license file is typically something you do once for each database installation, not once for each client installation. If you need to upload a license for a specific database, see [Uploading a License File for a Specific Database](How%20to:%20Upload%20the%20License%20File.md#UploadtoDatabase).  
   
  Initially, [!INCLUDE[navnow](includes/navnow_md.md)] uses CRONUS.flf, which is the demonstration license file. All license files that are not demonstration license files are named FIN.flf. The demonstration license file has been given a different name so that it cannot be mistakenly overwritten.  
   
@@ -29,7 +29,7 @@ After an administrator or a Microsoft Certified Partner initially installs [!INC
 1.  Start the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
   
     > [!NOTE]  
-    >  On a computer running any version of Windows with User Access Control enabled, you must start the development environment with administrator privileges. In the **Start** menu, right\-click **[!INCLUDE[navnow](includes/navnow_md.md)] Development Environment** in the Start menu, and then choose **Run as administrator**.  
+    >  On a computer running any version of Windows with User Access Control enabled, you must start the development environment with administrator privileges. In the **Start** menu, right-click **[!INCLUDE[navnow](includes/navnow_md.md)] Development Environment** in the Start menu, and then choose **Run as administrator**.  
   
 2.  Verify that you are connected to your database. On the **File** menu, point to **Database**, and then choose **Open**.  
   
@@ -64,6 +64,6 @@ After an administrator or a Microsoft Certified Partner initially installs [!INC
   
 ## See Also  
  [License Types](License-Types.md)   
- [How to: Install C\-SIDE Development Environment](../Topic/How%20to:%20Install%20C-SIDE%20Development%20Environment.md)   
+ [How to: Install C-SIDE Development Environment](How%20to:%20Install%20C-SIDE%20Development%20Environment.md)   
  [Microsoft Dynamics ERP Software License Terms \(requires login\)](http://go.microsoft.com/fwlink/?LinkId=247426)   
  [Microsoft Dynamics ERP Licensing Guide \(requires PartnerSource login\)](http://go.microsoft.com/fwlink/?LinkID=318024)

@@ -30,11 +30,11 @@ Sets the data item link type between data items in a query to determine the reco
 ## Remarks  
  When setting up a data item link between two data items, you always set up the DataItemLinkType property on the lower data item in Query Designer.  
   
- The DataItemLinkType property works together with the DataItemLinkType property to combine records from tables into a dataset. The DataItemLink property sets up "equal to" \(\=\) comparison between two or more fields of the data item tables. When the query is run, the query compares each row of the two data items to find records that have matching values for the fields. Records that have matching field values are combined into a row in the resulting dataset. In some cases, there will be records that do not have matching values. You use the [DataItemLinkType Property](DataItemLinkType-Property.md) to include records that do not have matching field values.  
+ The DataItemLinkType property works together with the DataItemLinkType property to combine records from tables into a dataset. The DataItemLink property sets up "equal to" \(=\) comparison between two or more fields of the data item tables. When the query is run, the query compares each row of the two data items to find records that have matching values for the fields. Records that have matching field values are combined into a row in the resulting dataset. In some cases, there will be records that do not have matching values. You use the [DataItemLinkType Property](DataItemLinkType-Property.md) to include records that do not have matching field values.  
   
 > [!NOTE]  
 >  If the DataItemLinkType property is set to **SQL Advanced Options** and the [SQLJoinType Property](SQLJoinType-Property.md) is set to **Cross Join**, then you cannot set the DataItemLink property because there is no relationship between table fields. For more information about cross joins, see [SQL Advanced Options for Data Item Link Types](SQL-Advanced-Options-for-Data-Item-Link-Types.md).  
   
  For more information about data item links, see [Understanding Data Item Links](Understanding-Data-Item-Links.md).  
   
- For a step\-by\-example of using the DataItemLinkType, see [Walkthrough: Creating a Query to Link Two Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).
+ For a step-by-example of using the DataItemLinkType, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).

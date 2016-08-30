@@ -43,15 +43,15 @@ Sets a timestamp for a file.
   
  The time that you want stamped on the file.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
- If you omit this optional return value, a run\-time error occurs if the file cannot be found. When you include the return value, you must handle any errors.  
+ If you omit this optional return value, a run-time error occurs if the file cannot be found. When you include the return value, you must handle any errors.  
   
  **true** if the timestamp was set; otherwise, **false**.  
   
 ## Example  
- The following example sets timestamp for that a file that is named varFileName. The date and time are set to the current date and on your computer respectively. The code example assumes that you have created the following file: 'C:\\MyFolder\\MyText.txt'. The following example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example sets timestamp for that a file that is named varFileName. The date and time are set to the current date and on your computer respectively. The code example assumes that you have created the following file: 'C:\\MyFolder\\MyText.txt'. The following example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

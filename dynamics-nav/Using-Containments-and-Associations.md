@@ -57,9 +57,9 @@ Containments and associations are relationships between pages in [!INCLUDE[navno
   
  These tags describe two associations from the Sales Order page to the Customer List page:  
   
--   The Sell\-to Customer No. field.  
+-   The Sell-to Customer No. field.  
   
--   The Bill\-to Customer No. field.  
+-   The Bill-to Customer No. field.  
   
 ## Using Containments  
  When you publish a page that has a subpage, you can identify that subpage in the AtomPub document that is returned for the published page. For example, when you publish page 42, Sales Order, you can access a single record on the page using a URI such as the following:  
@@ -86,9 +86,9 @@ http://localhost:7048/nav_server_instance/OData/Company('CRONUS%20International%
 ## Using Associations  
  Associations are possible when two published pages are linked. Here is an example:  
   
--   Page 42,  Sales Order, has its **SourceTable** property set to table 36,  Sales Header. The source expression for the **Sell\_to\_Customer\_No** control on page 42 is field 2,  Sell\-to Customer No., in table 36.  
+-   Page 42,  Sales Order, has its **SourceTable** property set to table 36,  Sales Header. The source expression for the **Sell\_to\_Customer\_No** control on page 42 is field 2,  Sell-to Customer No., in table 36.  
   
--   Field 2,  Sell\-to Customer No., in table 36 has a **TableRelation** property set to table 18,  Customer, field No.  
+-   Field 2,  Sell-to Customer No., in table 36 has a **TableRelation** property set to table 18,  Customer, field No.  
   
 -   Table 18,  Customer, has a **LookupPageId** property set to page 22,  Customer List.  
   

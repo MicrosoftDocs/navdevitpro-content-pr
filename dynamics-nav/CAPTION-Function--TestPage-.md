@@ -26,7 +26,7 @@ Caption := TestPage.CAPTION
   
  The test page that the caption belongs to.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text or Code  
   
  The caption of the test page.  

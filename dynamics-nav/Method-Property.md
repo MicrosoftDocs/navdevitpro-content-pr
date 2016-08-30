@@ -27,7 +27,7 @@ Sets either a date method for retrieving the year, month, or day from a date fie
 ||Year|Gets the year from the date expression for the field in the query column. The year is returned as an integer. If the year in the date expression is 0, then 1900 is returned.|  
 |Totals|Sum|Adds the values of all fields for the specified column within a group.|  
 ||Count|Returns the number of rows that are included in the dataset within a group. **Note:**  The **Count** method is associated with the **DataItem** and not with a specific column, so the **DataSource** property must be blank.|  
-||Average|Calculates the average value of the fields in the column within a group.<br /><br /> When averaging fields that have an integer data type \(such as Integer or BigInteger\), integer division is used. This means that result is not rounded, and the remainder is discarded. For example, 5÷2\=2 instead of 2.5 \(or 2 1\/2\).|  
+||Average|Calculates the average value of the fields in the column within a group.<br /><br /> When averaging fields that have an integer data type \(such as Integer or BigInteger\), integer division is used. This means that result is not rounded, and the remainder is discarded. For example, 5÷2=2 instead of 2.5 \(or 2 1\/2\).|  
 ||Min|Retrieves the lowest value of fields in the column within a group.|  
 ||Max|Retrieves the highest value of fields in the column within a group.|  
   
@@ -51,4 +51,4 @@ Sets either a date method for retrieving the year, month, or day from a date fie
  [MethodType Property](MethodType-Property.md)   
  [Using the Date Method to Retrieve Day, Month, and Year Data](Using-the-Date-Method-to-Retrieve-Day--Month--and-Year-Data.md)   
  [Understanding Query Totals and Grouping](Understanding-Query-Totals-and-Grouping.md)   
- [How to: Create Queries](../Topic/How%20to:%20Create%20Queries.md)
+ [How to: Create Queries](How%20to:%20Create%20Queries.md)

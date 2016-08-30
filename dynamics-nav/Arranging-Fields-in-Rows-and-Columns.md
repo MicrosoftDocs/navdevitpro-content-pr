@@ -19,11 +19,11 @@ By default, page fields are arranged automatically in two columns. For more info
   
 |Characteristics|GridLayout|FixedLayout|  
 |---------------------|----------------|-----------------|  
-|General usage and field layout|Places fields in a uniform grid. When setting up a grid layout, you can decide to set up fields in a row\-by\-row or column\-by\-column basis.|Places fields in a table or matrix\-like configuration that has a row and column headings. You can only set up fields on a column\-by\-column basis. You typically use the FixedLayout control to display statistical data in a FastTab or information in the details section of a Worksheet page. If you are using the [!INCLUDE[demolong](includes/demolong_md.md)], then you can see examples of these uses in page 151, Customer Statistics, and page 40, Item Journal.|  
+|General usage and field layout|Places fields in a uniform grid. When setting up a grid layout, you can decide to set up fields in a row-by-row or column-by-column basis.|Places fields in a table or matrix-like configuration that has a row and column headings. You can only set up fields on a column-by-column basis. You typically use the FixedLayout control to display statistical data in a FastTab or information in the details section of a Worksheet page. If you are using the [!INCLUDE[demolong](includes/demolong_md.md)], then you can see examples of these uses in page 151, Customer Statistics, and page 40, Item Journal.|  
 |Field captions|Shows or hides captions above each field.<br /><br /> Place captions before or above the field.|Shows captions as a heading to the rows and columns. You cannot specify a heading for each field.|  
 |Row and column spanning|Can span rows and columns.|Cannot span rows and columns.|  
 |Field appearance|Shaded with a border.|No shading or border.|  
   
 ## See Also  
- [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](../Topic/How%20to:%20Arrange%20Fields%20in%20Rows%20and%20Columns%20Using%20the%20GridLayout%20Control.md)   
- [How to: Arrange Page Fields in Rows and Columns Using a FixedLayout Control](../Topic/How%20to:%20Arrange%20Page%20Fields%20in%20Rows%20and%20Columns%20Using%20a%20FixedLayout%20Control.md)
+ [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](How%20to:%20Arrange%20Fields%20in%20Rows%20and%20Columns%20Using%20the%20GridLayout%20Control.md)   
+ [How to: Arrange Page Fields in Rows and Columns Using a FixedLayout Control](How%20to:%20Arrange%20Page%20Fields%20in%20Rows%20and%20Columns%20Using%20a%20FixedLayout%20Control.md)

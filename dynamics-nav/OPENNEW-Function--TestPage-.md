@@ -28,7 +28,7 @@ TestPage.OPENNEW
  The test page variable that you use to refer to the new test page.  
   
 ## Remarks  
- If *TestPage* is already open, then a run\-time error occurs, and the outcome of the test function is FAILURE.  
+ If *TestPage* is already open, then a run-time error occurs, and the outcome of the test function is FAILURE.  
   
 ## Example  
  This example requires that you create a TestPage variable named CustTestPage with a Subtype of Customer List and that the codeunit in which you write the code is a test codeunit.  

@@ -40,7 +40,7 @@ Record.SETVIEW(String)
  If the **SETVIEW** function is executed with an empty string, all filters are removed and the primary key is used.  
   
 ## Example  
- The following code example uses the **SETVIEW** function to set the sort key to the Name field and the sort order to Ascending, and sets a filter that selects records with the No. field between 1000 and 2000 in the **Customer** table. The [GETVIEW Function \(Record\)](GETVIEW-Function--Record-.md) function retrieves the sort order, key, and filters that have been set and stores the value in the ViewString variable. The value in the ViewString variable is then displayed in a message box. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ The following code example uses the **SETVIEW** function to set the sort key to the Name field and the sort order to Ascending, and sets a filter that selects records with the No. field between 1000 and 2000 in the **Customer** table. The [GETVIEW Function \(Record\)](GETVIEW-Function--Record-.md) function retrieves the sort order, key, and filters that have been set and stores the value in the ViewString variable. The value in the ViewString variable is then displayed in a message box. This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

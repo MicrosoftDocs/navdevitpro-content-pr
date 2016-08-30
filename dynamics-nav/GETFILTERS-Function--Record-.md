@@ -27,13 +27,13 @@ String := Record.GETFILTERS
   
  The record from which you want a list of filters.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text or code  
   
  This string contains a list of the filters for all fields in *Record*.  
   
 ## Example  
- This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
@@ -55,10 +55,10 @@ MESSAGE(Text000 + '%1', Str);
   
  **The filters are:**  
   
- **Posting Date: 01\/01\/08..12\/31\/08, Amount: \-100..100**  
+ **Posting Date: 01\/01\/08..12\/31\/08, Amount: -100..100**  
   
 ## Example  
- This example requires that you create the following variable in the C\/AL Globals window.  
+ This example requires that you create the following variable in the C/AL Globals window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

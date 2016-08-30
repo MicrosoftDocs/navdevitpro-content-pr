@@ -39,7 +39,7 @@ You can create test codeunits, test functions, and test pages to test your appli
   
 -   HyperlinkHandler  
   
- Before you begin, you must create a test codeunit and test function. For more information, see [How to: Create Test Codeunits and Test Functions](../Topic/How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md).  
+ Before you begin, you must create a test codeunit and test function. For more information, see [How to: Create Test Codeunits and Test Functions](How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md).  
   
 ### To create a handler function  
   
@@ -47,15 +47,15 @@ You can create test codeunits, test functions, and test pages to test your appli
   
 2.  In Object Designer, choose **Codeunit**, select your test codeunit, and then choose **Design**.  
   
-3.  On the **View** menu, choose **C\/AL Globals**.  
+3.  On the **View** menu, choose **C/AL Globals**.  
   
-4.  In the **C\/AL Globals** window, on the **Functions** tab, enter the name of the new handler function.  
+4.  In the **C/AL Globals** window, on the **Functions** tab, enter the name of the new handler function.  
   
 5.  On the **View** menu, choose **Properties**.  
   
-6.  In the **Properties** window, in the **FunctionType** property, select the type of handler from the drop\-down list.  
+6.  In the **Properties** window, in the **FunctionType** property, select the type of handler from the drop-down list.  
   
-7.  In the **C\/AL Globals** window, on the **Functions** tab, choose **Locals** to specify the signature of the handler functions. The following table describes the signature that is required for each type of handler function.  
+7.  In the **C/AL Globals** window, on the **Functions** tab, choose **Locals** to specify the signature of the handler functions. The following table describes the signature that is required for each type of handler function.  
   
     |FunctionType|Signature|  
     |------------------|---------------|  
@@ -75,13 +75,13 @@ You can create test codeunits, test functions, and test pages to test your appli
   
      For example, to specify the signature for a ConfirmHandler function, do the following:  
   
-    1.  In the **C\/AL Locals** window, on the **Parameters** tab, enter a name for the *\<Question\>* parameter. In the **DataType** field, select **Text**. In the **Length** field, enter **1024**. Verify that the **Subtype** field is blank.  
+    1.  In the **C/AL Locals** window, on the **Parameters** tab, enter a name for the *\<Question\>* parameter. In the **DataType** field, select **Text**. In the **Length** field, enter **1024**. Verify that the **Subtype** field is blank.  
   
     2.  Enter a name for the \<*Reply*\> parameter. In the **Var** field, select the check box. In the **DataType** field, select **Boolean**. Verify that the **Subtype** and **Length** fields are blank.  
   
     3.  In the code of the ConfirmHandler function, set the reply that you want to simulate by setting the value of the *Reply* parameter.  
   
-8.  In the **C\/AL Globals** window, select the test function that requires a handler function. For example, a test function that requires a handler function calls some application code, which then calls the CONFIRM function.  
+8.  In the **C/AL Globals** window, select the test function that requires a handler function. For example, a test function that requires a handler function calls some application code, which then calls the CONFIRM function.  
   
 9. On the **View** menu, choose **Properties**.  
   
@@ -90,7 +90,7 @@ You can create test codeunits, test functions, and test pages to test your appli
     > [!NOTE]  
     >  Every handler function that you enter in the HandlerFunctions property of a test function must be called at least one time in the test function. If you run a test function that has a handler function listed that is not called, then the test fails.  
   
-11. In the C\/AL Editor, enter code for the handler functions that you defined. The code should simulate in the code that is being tested that the UI was actually raised and some values entered or some actions were taken. For example, the code could verify that the expected text is presented. The code should exit with the same state with which the UI would exit.  
+11. In the C/AL Editor, enter code for the handler functions that you defined. The code should simulate in the code that is being tested that the UI was actually raised and some values entered or some actions were taken. For example, the code could verify that the expected text is presented. The code should exit with the same state with which the UI would exit.  
   
 12. On the **File** menu, choose **Save**.  
   
@@ -98,5 +98,5 @@ You can create test codeunits, test functions, and test pages to test your appli
   
 ## See Also  
  [Testing the Application](Testing-the-Application.md)   
- [How to: Create Test Codeunits and Test Functions](../Topic/How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md)   
- [How to: Create a Test Runner Codeunit](../Topic/How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md)
+ [How to: Create Test Codeunits and Test Functions](How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md)   
+ [How to: Create a Test Runner Codeunit](How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md)

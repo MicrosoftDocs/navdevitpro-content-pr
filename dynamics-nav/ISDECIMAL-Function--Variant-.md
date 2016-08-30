@@ -12,7 +12,7 @@ caps.latest.revision: 7
 manager: edupont
 ---
 # ISDECIMAL Function (Variant)
-Indicates whether a C\/AL variant contains a Decimal variable.  
+Indicates whether a C/AL variant contains a Decimal variable.  
   
 ## Syntax  
   
@@ -25,10 +25,10 @@ Ok := Variant.ISDECIMAL
  *Variant*  
  Type: Variant  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the C\/AL variant contains a Decimal variable; otherwise, **false**.  
+ **true** if the C/AL variant contains a Decimal variable; otherwise, **false**.  
   
 ## See Also  
  [Variant Data Type](Variant-Data-Type.md)

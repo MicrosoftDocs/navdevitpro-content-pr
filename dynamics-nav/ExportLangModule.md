@@ -29,7 +29,7 @@ finsql.exe command=exportlangmodule, file=<exportfile>, langid=<langid>, [server
   
  *langid*  
   
- Specifies the standard Windows three\-letter ID of the language that you want to export, such as *ENU* or *DAN*.  
+ Specifies the standard Windows three-letter ID of the language that you want to export, such as *ENU* or *DAN*.  
   
  *ENU* is the default value. If you do not specify the *langid* parameter, then the language module for *ENU* is exported.  
   
@@ -91,13 +91,13 @@ finsql.exe command=exportlangmodule, file=<exportfile>, langid=<langid>, [server
   
  *ntauthentication*  
   
- Specifies whether to use NT authentication. The possible values are **yes**, **no**, **1**, or **0**. If you specify the *username* and *password* parameters, then you must specify **ntauthentication\=no** or **ntauthentication\=0**.  
+ Specifies whether to use NT authentication. The possible values are **yes**, **no**, **1**, or **0**. If you specify the *username* and *password* parameters, then you must specify **ntauthentication=no** or **ntauthentication=0**.  
   
 ## Remarks  
  The language is not deleted from the database.  
   
 ## Example  
- This example shows how to run the ExportLangmodule command to export a language module for Danish \(DAN\) from the *Demo Database NAV \(9\-0\)* database.  
+ This example shows how to run the ExportLangmodule command to export a language module for Danish \(DAN\) from the *Demo Database NAV \(9-0\)* database.  
   
 ```  
 finsql.exe command=exportlangmodule, langid=DAN, file=C:\DANlanguagemodule.flm, servername=TestComputer01\NAVDEMO, database="Demo Database NAV (9-0)", username=dbadmin, password=P@ssword, ntauthentication=no, logfile=C:\ExportDANlanguagemoduleLog.txt  

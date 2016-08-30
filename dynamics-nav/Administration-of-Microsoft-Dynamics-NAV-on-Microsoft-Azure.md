@@ -59,12 +59,12 @@ This topic discusses the following administration concepts and tasks for [!INCLU
  For more information, see [Authenticating Users with Microsoft Azure Access Control Service](Authenticating-Users-with-Microsoft-Azure-Access-Control-Service.md).  
   
 ##  <a name="SQLServer"></a> SQL Server on Azure Virtual Machines  
- When you deploy [!INCLUDE[navnow](includes/navnow_md.md)] on Azure virtual machines, you can create an SQL server for hosting the [!INCLUDE[navnow](includes/navnow_md.md)] database. Depending on whether you built a new [!INCLUDE[navnow](includes/navnow_md.md)] database on Azure or migrated an existing [!INCLUDE[navnow](includes/navnow_md.md)] database, Azure virtual machines provide robust infrastructure for SQL Server. You can control and manage the [!INCLUDE[navnow](includes/navnow_md.md)] database by using the same development and administration tools that are available with on\-premise installations.  
+ When you deploy [!INCLUDE[navnow](includes/navnow_md.md)] on Azure virtual machines, you can create an SQL server for hosting the [!INCLUDE[navnow](includes/navnow_md.md)] database. Depending on whether you built a new [!INCLUDE[navnow](includes/navnow_md.md)] database on Azure or migrated an existing [!INCLUDE[navnow](includes/navnow_md.md)] database, Azure virtual machines provide robust infrastructure for SQL Server. You can control and manage the [!INCLUDE[navnow](includes/navnow_md.md)] database by using the same development and administration tools that are available with on-premise installations.  
   
  For more information, see [SQL Server in Azure Virtual Machines](http://go.microsoft.com/fwlink/?LinkID=299595).  
   
 ###  <a name="DBBackup"></a> Backing Up and Restoring the Microsoft Dynamics NAV Database  
- Backing up the [!INCLUDE[navnow](includes/navnow_md.md)] database on SQL Server on Azure virtual machines provides a safeguard for protecting critical data. The guidelines for backing up and restoring the [!INCLUDE[navnow](includes/navnow_md.md)] database on Azure are like on\-premise installations of [!INCLUDE[navnow](includes/navnow_md.md)].  
+ Backing up the [!INCLUDE[navnow](includes/navnow_md.md)] database on SQL Server on Azure virtual machines provides a safeguard for protecting critical data. The guidelines for backing up and restoring the [!INCLUDE[navnow](includes/navnow_md.md)] database on Azure are like on-premise installations of [!INCLUDE[navnow](includes/navnow_md.md)].  
   
  For more information, see [Backup and Restore for SQL Server in Azure Virtual Machines](http://go.microsoft.com/fwlink/?LinkID=299596).  
   
@@ -78,12 +78,12 @@ This topic discusses the following administration concepts and tasks for [!INCLU
   
 -   [What is a Storage Account?](http://go.microsoft.com/fwlink/?LinkID=296573)  
   
--   [Introducing Geo\-replication for Azure Storage](http://go.microsoft.com/fwlink/?LinkID=296574)  
+-   [Introducing Geo-replication for Azure Storage](http://go.microsoft.com/fwlink/?LinkID=296574)  
   
 -   [High Availability and Disaster Recovery for SQL Server in Azure Virtual Machines](http://go.microsoft.com/fwlink/?LinkID=299597)  
   
 ##  <a name="VMSize"></a> Changing the Azure Virtual Machine Size  
- When you deploy [!INCLUDE[navnow](includes/navnow_md.md)] on Azure by using the [!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)], you specify the size of the virtual machines that are created on Azure. The virtual machine size determines the number of CPU cores, the memory capacity, and the local file system size that is allocated to a running virtual machine. In the Example\-1VM and Example\-2VM scripts of the [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)], the virtual machine size is set by the $NAV\_VMSize parameter in the Set\-PartnerSettings file. The [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)] support the following sizes: Small, Medium, Large, ExtraLarge, A6, and A7. After the initial deployment, you can change the virtual machine size to suit your requirements.  
+ When you deploy [!INCLUDE[navnow](includes/navnow_md.md)] on Azure by using the [!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)], you specify the size of the virtual machines that are created on Azure. The virtual machine size determines the number of CPU cores, the memory capacity, and the local file system size that is allocated to a running virtual machine. In the Example-1VM and Example-2VM scripts of the [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)], the virtual machine size is set by the $NAV\_VMSize parameter in the Set-PartnerSettings file. The [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)] support the following sizes: Small, Medium, Large, ExtraLarge, A6, and A7. After the initial deployment, you can change the virtual machine size to suit your requirements.  
   
  For more information, see [Configure Virtual Machine Sizes](http://go.microsoft.com/fwlink/?LinkID=273688).  
   
@@ -91,7 +91,7 @@ This topic discusses the following administration concepts and tasks for [!INCLU
  A hotfix is typically a package of one or more files that fix problems in [!INCLUDE[navnow](includes/navnow_md.md)]. [!INCLUDE[navnow](includes/navnow_md.md)] hotfixes are released for the application and platform.  
   
 ### Installing a Hotfix on an Existing [!INCLUDE[navnow](includes/navnow_md.md)] Deployment on Azure  
- You install a hotfix on a [!INCLUDE[navnow](includes/navnow_md.md)] deployment on Azure just like you install a hotfix on an on\-premise deployment of [!INCLUDE[navnow](includes/navnow_md.md)]. To install a hotfix, you establish a Remote Desktop Connection to the Azure virtual machine that is running the [!INCLUDE[navnow](includes/navnow_md.md)] components, and then install the hotfix files to the [!INCLUDE[navnow](includes/navnow_md.md)] installation folder on the virtual machine.  
+ You install a hotfix on a [!INCLUDE[navnow](includes/navnow_md.md)] deployment on Azure just like you install a hotfix on an on-premise deployment of [!INCLUDE[navnow](includes/navnow_md.md)]. To install a hotfix, you establish a Remote Desktop Connection to the Azure virtual machine that is running the [!INCLUDE[navnow](includes/navnow_md.md)] components, and then install the hotfix files to the [!INCLUDE[navnow](includes/navnow_md.md)] installation folder on the virtual machine.  
   
  For more information about how to install [!INCLUDE[navnow](includes/navnow_md.md)] application and platform hotfixes, see [How to install a Microsoft Dynamics NAV 2013 update rollup](http://go.microsoft.com/fwlink/?LinkID=299598) \(requires a PartnerSource account\).  
   

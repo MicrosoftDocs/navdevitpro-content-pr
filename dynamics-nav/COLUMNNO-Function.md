@@ -30,9 +30,9 @@ Number := Query.COLUMNNO(Column)
  *Column*  
  Type: Text  
   
- Refers to the name of the query column. The name of a query column is specified by the [Name Property\-duplicate](Name-Property-duplicate.md) of the column in Query Designer.  
+ Refers to the name of the query column. The name of a query column is specified by the [Name Property-duplicate](Name-Property-duplicate.md) of the column in Query Designer.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number that is assigned to the column.  
@@ -55,7 +55,7 @@ Number := MyQuery.COLUMNNO("Customer_No");
 ```  
   
 ## See Also  
- [How to: Create Queries](../Topic/How%20to:%20Create%20Queries.md)   
- [How to: Set Up Filter Rows in Query Designer](../Topic/How%20to:%20Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md)   
+ [How to: Create Queries](How%20to:%20Create%20Queries.md)   
+ [How to: Set Up Filter Rows in Query Designer](How%20to:%20Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md)   
  [Queries](Queries.md)   
  [Record Data Type](Record-Data-Type.md)

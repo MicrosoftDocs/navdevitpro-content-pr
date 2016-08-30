@@ -12,7 +12,7 @@ caps.latest.revision: 6
 manager: edupont
 ---
 # ISOPTION Function (Variant)
-Indicates whether a C\/AL variant contains an Option variable.  
+Indicates whether a C/AL variant contains an Option variable.  
   
 ## Syntax  
   
@@ -25,10 +25,10 @@ Ok := Variant.ISOPTION
  *Variant*  
  Type: Variant  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the C\/AL variant contains an Option variable; otherwise, **false**.  
+ **true** if the C/AL variant contains an Option variable; otherwise, **false**.  
   
 ## See Also  
  [Variant Data Type](Variant-Data-Type.md)

@@ -15,7 +15,7 @@ To save a codeunit, use the following procedure.
   
 ### To save a codeunit  
   
-1.  Select the C\/AL Editor, on the **File** menu, choose **Save As**.  
+1.  Select the C/AL Editor, on the **File** menu, choose **Save As**.  
   
 2.  In the **Save As** window, in the **ID** field, enter an ID number that is used as a unique identification. In the **Name** field, enter a name that is used as a label.  
   

@@ -23,14 +23,14 @@ You configure the [!INCLUDE[nav_web](includes/nav_web_md.md)] for Access Control
      A separate instance of the web.config file is maintained for each server instance. The default location for this file is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\WebClient\\.  
   
     > [!CAUTION]  
-    >  To ensure that your edits to web.config are saved, first open Notepad as an Administrator and then, in Notepad, open the settings file. To open Notepad as an Administrator, from the **Start** menu, right\-click **Notepad**, and then choose **Run as Administrator**.  
+    >  To ensure that your edits to web.config are saved, first open Notepad as an Administrator and then, in Notepad, open the settings file. To open Notepad as an Administrator, from the **Start** menu, right-click **Notepad**, and then choose **Run as Administrator**.  
   
 2.  In the web.config file, modify the following settings.  
   
     |Setting|Value|  
     |-------------|-----------|  
     |ClientServicesCredentialType|"AccessControlService"|  
-    |ACSUri|Use the URI for your relying party application from the **Application Integration** section of the Access Control configuration. For more information, see [How to: Configure a Deployment for ACS](../Topic/How%20to:%20Configure%20a%20Deployment%20for%20ACS.md).|  
+    |ACSUri|Use the URI for your relying party application from the **Application Integration** section of the Access Control configuration. For more information, see [How to: Configure a Deployment for ACS](How%20to:%20Configure%20a%20Deployment%20for%20ACS.md).|  
   
 3.  After updating the values, save ClientUserSettings.config.  
   

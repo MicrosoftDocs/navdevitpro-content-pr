@@ -26,7 +26,7 @@ You can write to the [!INCLUDE[navnow](includes/navnow_md.md)] database using an
   
  You can use an OData web service in applications where you want users to be able to modify [!INCLUDE[navnow](includes/navnow_md.md)] data without using the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or the [!INCLUDE[nav_web](includes/nav_web_md.md)]. For example, you can show fields from the **Customer** table on a mobile device or in a browser so that a user can create, update, or delete customers in the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
-### Company\-Specific and Tenant\-Specific OData Calls  
+### Company-Specific and Tenant-Specific OData Calls  
  In your implementation of the web service, you can specify which company in the database that a user can write to in the URIs that expose the web services. Similarly, you can specify the specific tenant that the change applies to if the database handles more than one tenant.  
   
  If you do not specify a company, [!INCLUDE[navnow](includes/navnow_md.md)] will identify a default company. The default company is found in the following order of sequence:  
@@ -43,5 +43,5 @@ You can write to the [!INCLUDE[navnow](includes/navnow_md.md)] database using an
   
 ## See Also  
  [OData Web Services](OData-Web-Services.md)   
- [How to: Use OData to Return\-Obtain a JSON Document](../Topic/How%20to:%20Use%20OData%20to%20Return-Obtain%20a%20JSON%20Document.md)   
- [Walkthrough: Creating and Interacting with a Page Web Service \(OData\)](../Topic/Walkthrough:%20Creating%20and%20Interacting%20with%20a%20Page%20Web%20Service%20\(OData\).md)
+ [How to: Use OData to Return-Obtain a JSON Document](How%20to:%20Use%20OData%20to%20Return-Obtain%20a%20JSON%20Document.md)   
+ [Walkthrough: Creating and Interacting with a Page Web Service \(OData\)](Walkthrough:%20Creating%20and%20Interacting%20with%20a%20Page%20Web%20Service%20\(OData\).md)

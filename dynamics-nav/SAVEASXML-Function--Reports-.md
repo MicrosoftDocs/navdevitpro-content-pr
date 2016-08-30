@@ -26,9 +26,9 @@ Saves a report as an .xml file on the computer that is running [!INCLUDE[nav_ser
  *Number*  
  Type: Integer  
   
- The ID of the report that you want to run. From the C\/AL Editor, on the **View** menu, choose **C\/AL Symbol Menu** to select the report from a list.  
+ The ID of the report that you want to run. From the C/AL Editor, on the **View** menu, choose **C/AL Symbol Menu** to select the report from a list.  
   
- If the report you specify does not exist, then a run\-time error occurs.  
+ If the report you specify does not exist, then a run-time error occurs.  
   
  *FileName*  
  Type: Text  
@@ -46,10 +46,10 @@ Saves a report as an .xml file on the computer that is running [!INCLUDE[nav_ser
  *ReportVariable*  
  The report that you want to run.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
- If you omit this optional return value, then run\-time errors can occur. If you include a return value, then it is assumed that you will handle any errors.  
+ If you omit this optional return value, then run-time errors can occur. If you include a return value, then it is assumed that you will handle any errors.  
   
  **true** if the report was saved; otherwise, **false**.  
   
@@ -68,7 +68,7 @@ Saves a report as an .xml file on the computer that is running [!INCLUDE[nav_ser
   
  If the [!INCLUDE[nav_server](includes/nav_server_md.md)] does not have permission to write to the file that you specify in *FileName*, then you get the following error:  
   
- **Either the caller does not have the required permission or the specified path is read\-only.**  
+ **Either the caller does not have the required permission or the specified path is read-only.**  
   
  To resolve this issue, verify that the service account that is running the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance has write permissions on the path.  
   

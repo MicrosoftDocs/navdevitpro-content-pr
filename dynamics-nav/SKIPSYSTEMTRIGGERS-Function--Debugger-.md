@@ -26,12 +26,12 @@ Enables the debugger to skip code that is inside system triggers.
   
  Specifies if the debugger should skip system triggers.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the debugger skips system triggers; otherwise, **false**.  
   
- If you omit this optional return value and if the break is not set successfully, then a run\-time error occurs. If you include the return value, then you must handle any errors.  
+ If you omit this optional return value and if the break is not set successfully, then a run-time error occurs. If you include the return value, then you must handle any errors.  
   
 ## See Also  
  [Debugger](Debugger.md)

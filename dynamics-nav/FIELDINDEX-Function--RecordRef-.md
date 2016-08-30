@@ -27,7 +27,7 @@ Field := RecordRef.FIELDINDEX(Index)
  *Index*  
  Type: Integer  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: FieldRef  
   
  The FieldRef of the field that has the specified index.  
@@ -38,7 +38,7 @@ Field := RecordRef.FIELDINDEX(Index)
  If the index is out of the range supplied or if no table is selected, then the function returns an error.  
   
 ## Example  
- This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  
@@ -65,9 +65,9 @@ MESSAGE(Text001 + Text002 + Text003, FldRef1.CAPTION, FldRef2.CAPTION, FldRef3.C
   
 -   **Index 1: No.**  
   
--   **Index 2: Sell\-to Customer No.**  
+-   **Index 2: Sell-to Customer No.**  
   
--   **Index 3: Bill\-to Customer No.**  
+-   **Index 3: Bill-to Customer No.**  
   
  The following illustration shows the first fields in table 112, Sales Invoice Header, when you design the table in Object Designer, and shows the keys for table 112. The order of the fields in the index differs from the order of the fields in the table. The index lists the field in the primary key first.  
   

@@ -35,7 +35,7 @@ Sets the data type that you want to allow in a code field.
   
 -   The value "0" \(zero\) is used to represent an empty string in [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)].  
   
--   Non\-numeric code values or any numeric values beginning with "0" \(zero\) cannot be entered in the code field.  
+-   Non-numeric code values or any numeric values beginning with "0" \(zero\) cannot be entered in the code field.  
   
 ## Variant  
  If you set SQL Data Type to Variant, then the following are true:  

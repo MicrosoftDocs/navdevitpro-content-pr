@@ -27,7 +27,7 @@ OptionString := FieldRef.OPTIONSTRING
   
  Refers to the current field.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text  
   
  The list of options that is available in the field.  
@@ -40,7 +40,7 @@ OptionString := FieldRef.OPTIONSTRING
  If the field is not an option an empty string is returned  
   
 ## Example  
- The following example opens the Item table with RecordRef variable that is named ItemRecref and creates a reference to field 19 \(Price\/Profit Calculation\), which is an Options field. The OPTIONSTRING function retrieves the options in the field and displays them as a comma separated list. This example requires that you create the following variables in the **C\/AL Globals** windows.  
+ The following example opens the Item table with RecordRef variable that is named ItemRecref and creates a reference to field 19 \(Price\/Profit Calculation\), which is an Options field. The OPTIONSTRING function retrieves the options in the field and displays them as a comma separated list. This example requires that you create the following variables in the **C/AL Globals** windows.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

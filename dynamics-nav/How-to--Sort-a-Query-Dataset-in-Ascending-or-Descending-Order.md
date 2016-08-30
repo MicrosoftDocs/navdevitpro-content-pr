@@ -29,9 +29,9 @@ By default, the rows in the resulting dataset of query are not necessarily arran
   
 5.  In the **Properties** window, in the **Value** column of the **OrderBy** property, choose the **AssistEdit** button.  
   
-6.  In the **Order By** window, in the **Column** field of the first row, choose the **AssistEdit** button to open the **Column List \- Table** window.  
+6.  In the **Order By** window, in the **Column** field of the first row, choose the **AssistEdit** button to open the **Column List - Table** window.  
   
-     The **Column List \- Table** window includes all the columns that are defined in the query.  
+     The **Column List - Table** window includes all the columns that are defined in the query.  
   
 7.  Select the column that you want, and then choose the **OK** button.  
   
@@ -46,7 +46,7 @@ By default, the rows in the resulting dataset of query are not necessarily arran
      When you sort by multiple columns, the sort order is determined by the column’s position in the **Order By** window, where the query sorts the results by the first listed column, then the second column, and so on.  
   
 ## Example  
- This section includes a simple example of how you can set the **OrderBy** property to sort the resulting dataset of a query. For a detailed step\-by\-step example of sorting a query dataset, see [Walkthrough: Creating a Query to Link Two Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
+ This section includes a simple example of how you can set the **OrderBy** property to sort the resulting dataset of a query. For a detailed step-by-step example of sorting a query dataset, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
   
  This following table shows the results of a query that retrieves the quantity of items in every open sales order for each customer.  
   
@@ -84,4 +84,4 @@ OrderBy Name,Quantity
 ```  
   
 ## See Also  
- [Walkthrough: Creating a Query to Link Two Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md)
+ [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md)

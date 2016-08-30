@@ -14,9 +14,9 @@ manager: edupont
 # Troubleshooting: HTTP Error 500 (or 500.21) - Internal Server Error Handler
 When you try to access the [!INCLUDE[nav_web](includes/nav_web_md.md)], you get an error message that is similar to one of the following:  
   
- **HTTP Error 500 \- Internal Server Error Handler**  
+ **HTTP Error 500 - Internal Server Error Handler**  
   
- **HTTP Error 500.21 \- Internal Server Error Handler "PageHandlerFactory\-Integrated" has a bad module "ManagedPipelineHandler" in its module list.**  
+ **HTTP Error 500.21 - Internal Server Error Handler "PageHandlerFactory-Integrated" has a bad module "ManagedPipelineHandler" in its module list.**  
   
 ## Resolution  
  This error occurs because the Microsoft .NET Framework 4.0 configuration for ASP .NET has been damaged, which can occur if Microsoft Visual Studio 2012 was installed before Visual Studio 2010 or Microsoft SQL Server 2008.  
@@ -29,7 +29,7 @@ When you try to access the [!INCLUDE[nav_web](includes/nav_web_md.md)], you get 
   
     1.  From the **Start** menu, choose **All Programs**, and then choose **Accessories**.  
   
-    2.  Right\-click **Command Prompt**, and then choose **Run as administrator**.  
+    2.  Right-click **Command Prompt**, and then choose **Run as administrator**.  
   
 2.  At the command prompt, do the following.  
   
@@ -62,4 +62,4 @@ When you try to access the [!INCLUDE[nav_web](includes/nav_web_md.md)], you get 
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
  [Troubleshooting the Microsoft Dynamics NAV Web Client Installation](Troubleshooting-the-Microsoft-Dynamics-NAV-Web-Client-Installation.md)   
- [How to: Install the Web Server Components](../Topic/How%20to:%20Install%20the%20Web%20Server%20Components.md)
+ [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md)

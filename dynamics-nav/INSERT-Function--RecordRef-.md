@@ -32,25 +32,25 @@ Inserts a record into a table.
  *RunTrigger*  
  Type: Boolean  
   
- Specifies whether to run the C\/AL code in the [OnInsert Trigger](OnInsert-Trigger.md).  
+ Specifies whether to run the C/AL code in the [OnInsert Trigger](OnInsert-Trigger.md).  
   
  If this parameter is **true**, the code on the **OnInsert** trigger will be executed.  
   
  If this parameter is **false**, the code on the **OnInsert** trigger will not be exectued.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the record was inserted; otherwise, **false**.  
   
- If you omit this optional return value and if the record cannot be inserted, a run\-time error occurs. If you include the return value, you must handle any errors.  
+ If you omit this optional return value and if the record cannot be inserted, a run-time error occurs. If you include the return value, you must handle any errors.  
   
 ## Remarks  
  Records are uniquely identified by the values in primary key fields. The Database Management System \(DBMS\) checks the primary key for the table before it inserts a new record.  
   
- If the table contains an auto\-increment field, the auto\-increment feature is used if the record contains a zero value in that field. The auto\-increment feature enters the new value into the field as part of the insert.  
+ If the table contains an auto-increment field, the auto-increment feature is used if the record contains a zero value in that field. The auto-increment feature enters the new value into the field as part of the insert.  
   
- If the auto\-increment field contains a non\-zero value, that value is inserted into the table and the auto\-increment feature is not used. If the value in the auto\-increment field is greater than the last auto\-increment value in the table, the next auto\-increment value that is entered into the table will be greater than the value in the field that you just inserted. If the value in the auto\-increment field already exists in the table, a run\-time error occurs.  
+ If the auto-increment field contains a non-zero value, that value is inserted into the table and the auto-increment feature is not used. If the value in the auto-increment field is greater than the last auto-increment value in the table, the next auto-increment value that is entered into the table will be greater than the value in the field that you just inserted. If the value in the auto-increment field already exists in the table, a run-time error occurs.  
   
  This function works the same as the [INSERT Function \(Record\)](INSERT-Function--Record-.md).  
   
@@ -60,7 +60,7 @@ Inserts a record into a table.
 > [!NOTE]  
 >  In this example, the INIT function is called before the primary key is assigned a value. The INIT function does not initialize primary key fields. Therefore calling the [INIT Function \(RecordRef\)](INIT-Function--RecordRef-.md) before or after you assign values to the primary key field does not make any difference.  
   
- This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

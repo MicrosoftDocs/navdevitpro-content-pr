@@ -12,10 +12,10 @@ caps.latest.revision: 18
 manager: edupont
 ---
 # Walkthrough: Creating a Nonprinting Report
-In this walkthrough, you will create a non\-printing report. A non\-printing report is a report that only does processing without actually outputting or printing a report. This type of processing is usually achieved by using codeunits. You use the [ProcessingOnly Property](ProcessingOnly-Property.md) of the report to make the report non\-printing without much programming. This functionality also gives you access to the request page and enables the user to filter the data before you run the report. Instead of writing C\/AL code to open tables and retrieve records, you only have to define a data item.  
+In this walkthrough, you will create a non-printing report. A non-printing report is a report that only does processing without actually outputting or printing a report. This type of processing is usually achieved by using codeunits. You use the [ProcessingOnly Property](ProcessingOnly-Property.md) of the report to make the report non-printing without much programming. This functionality also gives you access to the request page and enables the user to filter the data before you run the report. Instead of writing C/AL code to open tables and retrieve records, you only have to define a data item.  
   
 ## About this Walkthrough  
- This walkthrough shows you how to create a non\-printing report that enable a user to adjust the prices in the item table. The user enters the factor by which to adjust the prices on the request page. The user can use the filters on the request page to filter the data and apply the adjustment to only the filtered data.   
+ This walkthrough shows you how to create a non-printing report that enable a user to adjust the prices in the item table. The user enters the factor by which to adjust the prices on the request page. The user can use the filters on the request page to filter the data and apply the adjustment to only the filtered data.   
 This walkthrough illustrates the following tasks:  
   
 -   Defining a data model.  
@@ -52,7 +52,7 @@ This walkthrough illustrates the following tasks:
   
 6.  In the **Field Menu** window, select all the fields and then choose the **OK** button.  
   
-     You can select all the fields by selecting the upper\-left corner of the window or by holding down the Ctrl key and selecting all the fields.  
+     You can select all the fields by selecting the upper-left corner of the window or by holding down the Ctrl key and selecting all the fields.  
   
 7.  At the prompt, choose **Yes** to add the selected fields.  
   
@@ -62,15 +62,15 @@ This walkthrough illustrates the following tasks:
   
 10. In the **Key** field, select the **No.** key and choose the **OK** button.  
   
-11. In the **Order** drop\-down list, select **Ascending**. Choose the **OK** button to close the window.  
+11. In the **Order** drop-down list, select **Ascending**. Choose the **OK** button to close the window.  
   
 12. In the **Properties** window, select the **ReqFilterFields** property, and in the **Value** field, choose the **AssistEdit** button to open the **Field List** window.  
   
      You will add filters that will enable users to filter the data based on the **No.** field or the **Inventory Posting Group** field or both.  
   
-13. In the first row, choose the up arrow to open the **Item\-Field List** window and select the **No.** field, and then choose the **OK** button.  
+13. In the first row, choose the up arrow to open the **Item-Field List** window and select the **No.** field, and then choose the **OK** button.  
   
-14. In the second row, choose the up arrow to open the **Item\-Field List** window and select the **Inventory Posting Group** field, and then choose the **OK** button.  
+14. In the second row, choose the up arrow to open the **Item-Field List** window and select the **Inventory Posting Group** field, and then choose the **OK** button.  
   
      You will now set the property that will make the report nonprinting. Later, you will add code to triggers to do the actual processing.  
   
@@ -89,7 +89,7 @@ This walkthrough illustrates the following tasks:
   
 #### To declare variables  
   
-1.  On the **View** menu, choose **C\/AL Globals** and declare the following variables. You will enter the variable name and the data type in the **C\/AL Globals** window. The subtype and length are not applicable.  
+1.  On the **View** menu, choose **C/AL Globals** and declare the following variables. You will enter the variable name and the data type in the **C/AL Globals** window. The subtype and length are not applicable.  
   
     |Variable name|DataType|  
     |-------------------|--------------|  
@@ -106,20 +106,20 @@ This walkthrough illustrates the following tasks:
   
 2.  In the Request Options Page Designer, on the first row, in the **Name** column, enter a name, then in the **Type** column, select **Container**, and then in the **Subtype** column, select **ContentArea**. For example, you can name the container **AdjustmentContainer**.  
   
-3.  On the second row, in the **Caption** column, enter **Enter the adjustment factor**, and in the **Type** column, select **Field**. In the **Source Expr** column, choose the **AssistEdit** button to open the **C\/AL Symbol Menu** window.  
+3.  On the second row, in the **Caption** column, enter **Enter the adjustment factor**, and in the **Type** column, select **Field**. In the **Source Expr** column, choose the **AssistEdit** button to open the **C/AL Symbol Menu** window.  
   
-4.  In the **C\/AL Symbol Menu** window, select **Adjustment**, the variable you created earlier, and choose the **OK** button. This value will be used as the factor by which the unit price will be adjusted.  
+4.  In the **C/AL Symbol Menu** window, select **Adjustment**, the variable you created earlier, and choose the **OK** button. This value will be used as the factor by which the unit price will be adjusted.  
   
 5.  Verify that the second row is indented one unit to the right and then close the Request Options Page Designer.  
   
 ## Using Triggers to Execute Code  
- Now that you have defined the data model and designed the request page, you will add C\/AL code to the triggers of the **Item** data item to calculate the actual price adjustment.  
+ Now that you have defined the data model and designed the request page, you will add C/AL code to the triggers of the **Item** data item to calculate the actual price adjustment.  
   
 #### To use the triggers to execute code  
   
 1.  In Report Dataset Designer, select the **DataItem** row.  
   
-2.  On the **View** menu, choose **C\/AL Code** to open the **C\/AL Editor**.  
+2.  On the **View** menu, choose **C/AL Code** to open the **C/AL Editor**.  
   
 3.  In the OnPreDataItem\(\) trigger, enter the following lines of code:  
   
@@ -148,7 +148,7 @@ This walkthrough illustrates the following tasks:
   
      The first statement in the `OnAfterGetRecord` trigger enters the item number in the window when a new record is retrieved. The second statement uses the value stored in the adjustment variable to adjust the unit price of the items and assigns the adjusted price to the *NewPrice* variable. The `VALIDATE` function of the Unit Price field is used to update the price of the items. Any special processing \(for example, updating of related fields\) in the `OnValidate` trigger of the table field is performed. Finally, the `MODIFY` function is used to write the change.  
   
-5.  Close the **C\/AL Editor** window and save the report.  
+5.  Close the **C/AL Editor** window and save the report.  
   
 ## Testing the Report  
  You can now test the report.  
@@ -162,7 +162,7 @@ This walkthrough illustrates the following tasks:
      You can run the **Items** table, look at the unit prices and run to report again using an adjustment factor of 10. If you look at the unit prices in the **Item** table again, you will notice that the unit prices have increased by a multiple of 10. You can also set the filters to select specific records to modify.  
   
 ## Next Steps  
- You might consider designing a report that has a layout and can be printed. For more information, see [Walkthrough: Designing a Customer List Report](../Topic/Walkthrough:%20Designing%20a%20Customer%20List%20Report.md).  
+ You might consider designing a report that has a layout and can be printed. For more information, see [Walkthrough: Designing a Customer List Report](Walkthrough:%20Designing%20a%20Customer%20List%20Report.md).  
   
 ## See Also  
  [Report Design Walkthroughs](Report-Design-Walkthroughs.md)

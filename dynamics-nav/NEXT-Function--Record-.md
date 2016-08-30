@@ -35,11 +35,11 @@ Steps := Record.NEXT([Steps])
   
 -   \<0  Search *Steps* records backward in the table.  
   
--   \=0  Stay on the same record in the table.  
+-   =0  Stay on the same record in the table.  
   
  If you do not specify this parameter, then the next record is found.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of records inspected which meet the criteria of any filters and the current key. This value can be less than *Steps*, depending on the number of records in the table. If the table is empty, then zero is returned and *Record* does not change.  
@@ -48,7 +48,7 @@ Steps := Record.NEXT([Steps])
  This function locates a record positioned a given number of steps forward or backward from *Record*. Movement through the table is governed by the filters and the current key associated with the records. The fields in *Record* that will be compared with the current key fields must contain appropriate values before the function is called.  
   
 ## Example  
- This example requires that you create the following variables in the **C\/AL Globals** window.  
+ This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

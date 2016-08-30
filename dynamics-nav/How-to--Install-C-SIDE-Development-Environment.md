@@ -19,8 +19,8 @@ Developers and administrators use the [!INCLUDE[nav_dev_long](includes/nav_dev_l
 |Installation option|Development environment status|  
 |-------------------------|------------------------------------|  
 |[Demo Option](Demo-Option.md)|Installed automatically|  
-|[Client Option](Client-Option.md) installation|Not pre\-selected for installation but can be added|  
-|[Developer Option](Developer-Option.md) installation|Pre\-selected for installation but can be removed|  
+|[Client Option](Client-Option.md) installation|Not pre-selected for installation but can be added|  
+|[Developer Option](Developer-Option.md) installation|Pre-selected for installation but can be removed|  
   
  In this procedure, you install the development environment  
   
@@ -28,7 +28,7 @@ Developers and administrators use the [!INCLUDE[nav_dev_long](includes/nav_dev_l
   
 1.  Insert the [!INCLUDE[navnow](includes/navnow_md.md)] installation media in the drive of your computer, or navigate to the directory that contains the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup program.  
   
-2.  Double\-click the Setup.exe file to start the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard.  
+2.  Double-click the Setup.exe file to start the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard.  
   
      If you have already installed one or more [!INCLUDE[navnow](includes/navnow_md.md)] components on the computer, you will see the **Maintenance** page instead of the **Welcome** page. In this case, choose **Add or remove components**, and then go to step 7.  
   
@@ -40,7 +40,7 @@ Developers and administrators use the [!INCLUDE[nav_dev_long](includes/nav_dev_l
   
 6.  On the **Choose an Installation Option** page, choose **Custom**.  
   
-7.  On the **Customize the Installation** page, choose the plus sign \(\+\) to expand the **Client** option.  
+7.  On the **Customize the Installation** page, choose the plus sign \(+\) to expand the **Client** option.  
   
 8.  Choose **Development Environment \(C\/SIDE\)**, and then choose **Run from My Computer**. You must click in the rectangle, and not on the text: ![Click in the box and select Run from My Computer](media/RunFromMy.JPG "RunFromMy")  
   
@@ -55,8 +55,8 @@ Developers and administrators use the [!INCLUDE[nav_dev_long](includes/nav_dev_l
 12. When Setup is finished, choose **Close**.  
   
 ## See Also  
- [How to: Choose Components to Install](../Topic/How%20to:%20Choose%20Components%20to%20Install.md)   
- [How to: Upload the License File](../Topic/How%20to:%20Upload%20the%20License%20File.md)   
- [How to: Create Microsoft Dynamics NAV Users](../Topic/How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md)   
+ [How to: Choose Components to Install](How%20to:%20Choose%20Components%20to%20Install.md)   
+ [How to: Upload the License File](How%20to:%20Upload%20the%20License%20File.md)   
+ [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md)   
  [Development](Development.md)   
  [Administration in the Development Environment](Administration-in-the-Development-Environment.md)

@@ -21,11 +21,11 @@ Specifies if the debugger is attached to a session.
 Ok := ISATTACHED   
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the debugger is attached to a session; otherwise, **false**.  
   
 ## See Also  
  [ATTACH Function \(Debugger\)](ATTACH-Function--Debugger-.md)   
- [How to: Activate the Debugger from the Development Environment](../Topic/How%20to:%20Activate%20the%20Debugger%20from%20the%20Development%20Environment.md)
+ [How to: Activate the Debugger from the Development Environment](How%20to:%20Activate%20the%20Debugger%20from%20the%20Development%20Environment.md)

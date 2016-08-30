@@ -21,7 +21,7 @@ Indicates whether the debugger is active.
 Ok := ISACTIVE   
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the debugger is active; otherwise, **false**.  
@@ -35,4 +35,4 @@ Ok := ISACTIVE
   
 ## See Also  
  [Activating the Debugger](Activating-the-Debugger.md)   
- [How to: Activate the Debugger from the Development Environment](../Topic/How%20to:%20Activate%20the%20Debugger%20from%20the%20Development%20Environment.md)
+ [How to: Activate the Debugger from the Development Environment](How%20to:%20Activate%20the%20Debugger%20from%20the%20Development%20Environment.md)

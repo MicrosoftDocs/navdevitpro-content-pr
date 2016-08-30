@@ -19,7 +19,7 @@ This topic provides an overview about customizing [!INCLUDE[crm](includes/crm_md
   
 |Object|Description|  
 |------------|-----------------|  
-|Integration table|Table that represents an entity in [!INCLUDE[crm](includes/crm_md.md)]. The integration table includes fields that correspond to fields in the entity. The integration table acts as a link or connector between the [!INCLUDE[navnow](includes/navnow_md.md)] table and the [!INCLUDE[crm](includes/crm_md.md)] entity. For example, for integrating the [!INCLUDE[crm](includes/crm_md.md)] accounts entity, the [!INCLUDE[navnow](includes/navnow_md.md)] database includes the integration table **\($ T\_5341 CRM\_Accounts $\)**. There must be an integration table for each [!INCLUDE[crm](includes/crm_md.md)] entity that you want to integrate in [!INCLUDE[navnow](includes/navnow_md.md)].<br /><br /> You create an integration table by using the [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.New\-NAVCrmTable](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.New-NAVCrmTable) in the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)].|  
+|Integration table|Table that represents an entity in [!INCLUDE[crm](includes/crm_md.md)]. The integration table includes fields that correspond to fields in the entity. The integration table acts as a link or connector between the [!INCLUDE[navnow](includes/navnow_md.md)] table and the [!INCLUDE[crm](includes/crm_md.md)] entity. For example, for integrating the [!INCLUDE[crm](includes/crm_md.md)] accounts entity, the [!INCLUDE[navnow](includes/navnow_md.md)] database includes the integration table **\($ T\_5341 CRM\_Accounts $\)**. There must be an integration table for each [!INCLUDE[crm](includes/crm_md.md)] entity that you want to integrate in [!INCLUDE[navnow](includes/navnow_md.md)].<br /><br /> You create an integration table by using the [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.New-NAVCrmTable](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.New-NAVCrmTable) in the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)].|  
 |Business data table|Table for [!INCLUDE[navnow](includes/navnow_md.md)] record type that will integrate with the [!INCLUDE[crm](includes/crm_md.md)] entity. For example, to integrate with the [!INCLUDE[crm](includes/crm_md.md)] Campaign entity, this would be the table **5071 \($ T\_5071 Campaign $\)**.|  
 |Table **5335 \($ T\_5335 Integration Table Mappings $\)**|Contains the integration table mappings that link the business data table to the integration table for the [!INCLUDE[crm](includes/crm_md.md)] entity. For each entity in [!INCLUDE[crm](includes/crm_md.md)] that you want to synchronize with data in [!INCLUDE[navnow](includes/navnow_md.md)], there must be a corresponding integration table mapping.|  
 |Table **5336 \($ T\_5335 Integration Field Mappings $\)**|Contains the integration field mappings that associate fields in [!INCLUDE[crm](includes/crm_md.md)] entity record with fields in a [!INCLUDE[navnow](includes/navnow_md.md)] record. The mapping is used to determine which data to synchronize between [!INCLUDE[crm](includes/crm_md.md)] and [!INCLUDE[navnow](includes/navnow_md.md)] records. The field mappings define which field in [!INCLUDE[navnow](includes/navnow_md.md)] corresponds to which field in [!INCLUDE[crm](includes/crm_md.md)].|  
@@ -30,11 +30,11 @@ This topic provides an overview about customizing [!INCLUDE[crm](includes/crm_md
 |Codeunit **5340 CRM Integration Table Synch.**|Contains complex table mappings and synchronization rules.|  
   
 ## Getting Started  
- The following list outlines the typical tasks required to integrate a [!INCLUDE[crm](includes/crm_md.md)] entity and a [!INCLUDE[navnow](includes/navnow_md.md)] table \(record type\). For step\-by\-step procedures for each of these tasks, see [Walkthrough: Customizing Microsoft Dynamics CRM Integration in Dynamics NAV](../Topic/Walkthrough:%20Customizing%20Microsoft%20Dynamics%20CRM%20Integration%20in%20Dynamics%20NAV.md).  
+ The following list outlines the typical tasks required to integrate a [!INCLUDE[crm](includes/crm_md.md)] entity and a [!INCLUDE[navnow](includes/navnow_md.md)] table \(record type\). For step-by-step procedures for each of these tasks, see [Walkthrough: Customizing Microsoft Dynamics CRM Integration in Dynamics NAV](Walkthrough:%20Customizing%20Microsoft%20Dynamics%20CRM%20Integration%20in%20Dynamics%20NAV.md).  
   
 1.  Create an integration table for the [!INCLUDE[crm](includes/crm_md.md)] entity.  
   
-     Use the New\-NAVCrmTable cmdlet in the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] to create the table in your [!INCLUDE[navnow](includes/navnow_md.md)] database.  
+     Use the New-NAVCrmTable cmdlet in the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] to create the table in your [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
 2.  Create a list page that uses the integration table as its source.  
   
@@ -44,7 +44,7 @@ This topic provides an overview about customizing [!INCLUDE[crm](includes/crm_md
   
     1.  Modify codeunit **5150 Integration Management** to enable integration records on the [!INCLUDE[navnow](includes/navnow_md.md)] business data table that will integrate with the [!INCLUDE[crm](includes/crm_md.md)] entity.  
   
-    2.  Create a coupling page that end\-users can use to couple [!INCLUDE[crm](includes/crm_md.md)] records and [!INCLUDE[navnow](includes/navnow_md.md)] records.  
+    2.  Create a coupling page that end-users can use to couple [!INCLUDE[crm](includes/crm_md.md)] records and [!INCLUDE[navnow](includes/navnow_md.md)] records.  
   
          You can base the new page on an existing coupling page.  
   

@@ -24,22 +24,22 @@ The following table provides an overview of shortcut key combinations in the [!I
 |Esc|Close the window or undo the data entry|  
 |End|Move to the last field on a line|  
 |Home|Move to the first field on a line|  
-|Arrow, Tab, Enter|Move to the next field on non\-line FastTabs|  
+|Arrow, Tab, Enter|Move to the next field on non-line FastTabs|  
 |F1|Open Help|  
 |F10, Alt|Select the menu bar and display access keys|  
-|F6|Drop\-down or look up to view\/select|  
-|Arrow, Shift\+Tab|Move to the previous field|  
-|Ctrl\+C|Copy|  
-|Ctrl\+O or F12|Open the company|  
-|Ctrl\+V|Paste|  
-|Ctrl\+X|Cut|  
-|Ctrl\+Z|Undo|  
-|Ctrl\+Home|Move to the first line in a list|  
-|Ctrl\+End|Move to the last line in a list|  
+|F6|Drop-down or look up to view\/select|  
+|Arrow, Shift+Tab|Move to the previous field|  
+|Ctrl+C|Copy|  
+|Ctrl+O or F12|Open the company|  
+|Ctrl+V|Paste|  
+|Ctrl+X|Cut|  
+|Ctrl+Z|Undo|  
+|Ctrl+Home|Move to the first line in a list|  
+|Ctrl+End|Move to the last line in a list|  
 |Esc|Save and close window \(equivalent to choosing the OK button\)|  
 |F3|Insert new line|  
-|Alt\+F4|Close window or close program|  
+|Alt+F4|Close window or close program|  
   
 ## See Also  
- [Keyboard Shortcuts](../Topic/Keyboard%20Shortcuts.md)   
- [C\-AL Editor Keyboard Shortcuts and Right\-Click Actions](C-AL-Editor-Keyboard-Shortcuts-and-Right-Click-Actions.md)
+ [Keyboard Shortcuts](Keyboard%20Shortcuts.md)   
+ [C-AL Editor Keyboard Shortcuts and Right-Click Actions](C-AL-Editor-Keyboard-Shortcuts-and-Right-Click-Actions.md)

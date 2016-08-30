@@ -26,7 +26,7 @@ Action submenus can be placed on pages in the [!INCLUDE[nav_windows](includes/na
   
 |Tab|Submenu|Submenu actions|  
 |---------|-------------|---------------------|  
-|Navigate|Dimensions|-   Dimensions\-Single<br />-   Dimensions\-Multiple|  
+|Navigate|Dimensions|-   Dimensions-Single<br />-   Dimensions-Multiple|  
 ||Issued Documents|-   Issued Reminders<br />-   Issued Finance Charge Memo Discounts|  
   
  The preceding table shows a small selection of submenu actions from the Customers page. You can see that by grouping related activities together, it is possible to reduce the length of individual action menus, and make it easier for employees to find the actions they want to perform.  
@@ -48,15 +48,15 @@ Action submenus can be placed on pages in the [!INCLUDE[nav_windows](includes/na
   
 5.  Type a **Name** for your submenu item, and then choose **Caption**. The other fields are filled in automatically.  
   
-6.  Select **ActionGroup** from the **Type** drop\-down. If you select **ActionGroup**, the **SubType** field remains blank.  
+6.  Select **ActionGroup** from the **Type** drop-down. If you select **ActionGroup**, the **SubType** field remains blank.  
   
      You have now created an Action submenu.  
   
-7.  To add an action to your action submenu, create a new row below the **ActionGroup** you just created. Give your action a name, and set **Type** to **Action** in the drop\-down.  
+7.  To add an action to your action submenu, create a new row below the **ActionGroup** you just created. Give your action a name, and set **Type** to **Action** in the drop-down.  
   
 8.  Use the right and left indentation arrows to indent your new action one space below **ActionGroup**.  
   
-     For more information, see [How to: Add Actions to a Page](../Topic/How%20to:%20Add%20Actions%20to%20a%20Page.md).  
+     For more information, see [How to: Add Actions to a Page](How%20to:%20Add%20Actions%20to%20a%20Page.md).  
   
 9. Save and compile the page.  
   
@@ -64,4 +64,4 @@ Action submenus can be placed on pages in the [!INCLUDE[nav_windows](includes/na
   
 ## See Also  
  [Actions Overview](Actions-Overview.md)   
- [How to: Add Actions to a Page](../Topic/How%20to:%20Add%20Actions%20to%20a%20Page.md)
+ [How to: Add Actions to a Page](How%20to:%20Add%20Actions%20to%20a%20Page.md)

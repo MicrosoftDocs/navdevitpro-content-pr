@@ -21,7 +21,7 @@ When you have fields in a table that contain dates, you can use a date method to
   
 -   Open the properties of the column, and then set the [MethodType Property](MethodType-Property.md) to **Date** and [Method Property](Method-Property.md) to **Day**, **Month**, and **Year**.  
   
- For more information about how to set up query columns and properties, see [How to: Create Queries](../Topic/How%20to:%20Create%20Queries.md).  
+ For more information about how to set up query columns and properties, see [How to: Create Queries](How%20to:%20Create%20Queries.md).  
   
 > [!IMPORTANT]  
 >  You can only use a date method on fields that have a Date or DateTime data type. For additional information about how to use a date method on a field that has the DateTime data type, see [Working with DateTime Data Types](Using-the-Date-Method-to-Retrieve-Day--Month--and-Year-Data.md#DateTime).  
@@ -30,18 +30,18 @@ When you have fields in a table that contain dates, you can use a date method to
  This topic uses the following sample table and query to demonstrate the different date methods.  
   
 ### Sample Sales Header Table  
- The following table contains data about sales orders for customers. The **Order Date** field has the data type of Date and the format DD\-MM\-YYYY, where DD is the day, MM is the month, and YYYY is the year.  
+ The following table contains data about sales orders for customers. The **Order Date** field has the data type of Date and the format DD-MM-YYYY, where DD is the day, MM is the month, and YYYY is the year.  
   
 > [!NOTE]  
 >  This is a simplified subset of the data that is found in table 36 Sales Header of the [!INCLUDE[demolong](includes/demolong_md.md)].  
   
-|No.|Bill\-to Name|Order Date|  
+|No.|Bill-to Name|Order Date|  
 |---------|-------------------|----------------|  
-|1000|Autohaus Meilberg KG|18\-01\-2013|  
-|5000|Autohaus Meilberg KG|21\-05\-2013|  
-|4000|Beef House|30\-09\-2011|  
-|3000|Deerfield Graphics Company|05\-04\-2012|  
-|3000|Deerfield Graphics Company|29\-04\-2012|  
+|1000|Autohaus Meilberg KG|18-01-2013|  
+|5000|Autohaus Meilberg KG|21-05-2013|  
+|4000|Beef House|30-09-2011|  
+|3000|Deerfield Graphics Company|05-04-2012|  
+|3000|Deerfield Graphics Company|29-04-2012|  
   
 ### Sample Query  
  The following illustration shows Query Designer for a query that retrieves data from the sample Sales Header table. The query includes a totals method that counts the total the number of records from the table included in the dataset.  
@@ -95,15 +95,15 @@ When you have fields in a table that contain dates, you can use a date method to
   
 |Time Zone|Date and Time in [!INCLUDE[navnow](includes/navnow_md.md)]|Day returned by Day method|Month returned by Month method|Year returned by Year method|  
 |---------------|-------------------------------------------|--------------------------------|------------------------------------|----------------------------------|  
-|Pacific Time \(UTC –8:00:00\)|12\-31\-2011 17:00:00|31|12|2011|  
-|Middle European Time \(UTC \+1:00:00\)|01\-01\-2012 00:59:00|1|1|2012|  
+|Pacific Time \(UTC –8:00:00\)|12-31-2011 17:00:00|31|12|2011|  
+|Middle European Time \(UTC +1:00:00\)|01-01-2012 00:59:00|1|1|2012|  
   
  The differences in day, month, or year occur because when a date and time value is retrieved from the [!INCLUDE[navnow](includes/navnow_md.md)] database table, it is converted from the regional settings of the [!INCLUDE[navnow](includes/navnow_md.md)] solution to the UTC date and time. The day, month, or year is calculated on the SQL server, and then returned to the query dataset as an integer, which does not consider the regional settings of the [!INCLUDE[navnow](includes/navnow_md.md)] solution.  
   
  To avoid this condition, you should use the date method on fields that have a Date data type instead of a DateTime data type whenever possible. You can also return the DateTime value and implement post processing for the day, month, and year as needed.  
   
 ## See Also  
- [How to: Create Queries](../Topic/How%20to:%20Create%20Queries.md)   
+ [How to: Create Queries](How%20to:%20Create%20Queries.md)   
  [Understanding Query Totals and Grouping](Understanding-Query-Totals-and-Grouping.md)   
  [MethodType Property](MethodType-Property.md)   
  [Method Property](Method-Property.md)

@@ -12,7 +12,7 @@ caps.latest.revision: 11
 manager: edupont
 ---
 # C-AL WITH Statements
-The following syntax shows a WITH\-DO statement.  
+The following syntax shows a WITH-DO statement.  
   
 ```  
 WITH <Record> DO  
@@ -61,12 +61,12 @@ END;
 ```  
   
 ## Programming Conventions  
- Within WITH\-DO blocks, do not repeat the name of the object by using the member variable or function.  
+ Within WITH-DO blocks, do not repeat the name of the object by using the member variable or function.  
   
- If you nest a WITH\-DO block within another explicit or implicit WITH\-DO block, then the WITH\-DO block that you create within another WITH\-DO block must always be attached to a variable of the same type as the variable that is attached to the surrounding WITH\-DO block. Otherwise, it can be difficult to see what variable that a member variable or function refers to. For example, implicit WITH\-DO blocks occur in table objects and in pages that have been attached to a record.  
+ If you nest a WITH-DO block within another explicit or implicit WITH-DO block, then the WITH-DO block that you create within another WITH-DO block must always be attached to a variable of the same type as the variable that is attached to the surrounding WITH-DO block. Otherwise, it can be difficult to see what variable that a member variable or function refers to. For example, implicit WITH-DO blocks occur in table objects and in pages that have been attached to a record.  
   
 ### Example  
- The following example demonstrates nested WITH\-DO blocks. Both WITH\-DO blocks are attached to a Customer Ledger Entry record variable.  
+ The following example demonstrates nested WITH-DO blocks. Both WITH-DO blocks are attached to a Customer Ledger Entry record variable.  
   
 ```  
 WITH CustLedgEntry DO BEGIN  
@@ -93,6 +93,6 @@ END;
 ```  
   
 ## See Also  
- [C\-AL Compound Statements](C-AL-Compound-Statements.md)   
- [C\-AL Conditional Statements](C-AL-Conditional-Statements.md)   
- [C\-AL Repetitive Statements](C-AL-Repetitive-Statements.md)
+ [C-AL Compound Statements](C-AL-Compound-Statements.md)   
+ [C-AL Conditional Statements](C-AL-Conditional-Statements.md)   
+ [C-AL Repetitive Statements](C-AL-Repetitive-Statements.md)

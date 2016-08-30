@@ -27,7 +27,7 @@ Ok := ISCLEAR(Automation)
   
  A variable that has previously been declared.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if any of the following is true; otherwise, **false**:  

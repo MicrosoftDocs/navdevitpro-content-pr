@@ -64,21 +64,21 @@ finsql.exe command=compileobjects, [servername=<server>,] [database=<database>,]
   
  *filter*  
   
- A filter on the **Object** table. Use the *filter* parameter to specify which objects to compile. Use a semicolon to separate multiple filters. The only operator that you can use in the filter is '\='. The following table shows the fields in the **Object** table on which you can filter.  
+ A filter on the **Object** table. Use the *filter* parameter to specify which objects to compile. Use a semicolon to separate multiple filters. The only operator that you can use in the filter is '='. The following table shows the fields in the **Object** table on which you can filter.  
   
 |Object table field|Values|Example|  
 |------------------------|------------|-------------|  
-|Type|Table, Codeunit, Page, Report, XMLport, Query, MenuSuite|Type\=Table&#124;Page|  
-|ID|Integer or range of integers|ID\=50000..50500|  
-|Name|Any valid object name|"Name\=Cost Entry"|  
-|Modified|yes, no, 1, 0|Modified\=yes|  
-|Compiled|yes, no, 1, 0|Compiled\=0|  
-|Date|Date, in the numeric format determined by your regional settings|Date\=12\/1\/2012|  
-|Time|Time, in the numeric format determined by your regional settings|Time\=12:00:00|  
-|Version List|Any valid version|Version List\=NAVW19.00|  
-|Caption|Any valid caption|Caption\=Company Information|  
-|Locked|Yes, no, 1, 0|Locked\=1|  
-|Locked By|Domain\\username|"Locked By\=CRONUS\\viktor"|  
+|Type|Table, Codeunit, Page, Report, XMLport, Query, MenuSuite|Type=Table&#124;Page|  
+|ID|Integer or range of integers|ID=50000..50500|  
+|Name|Any valid object name|"Name=Cost Entry"|  
+|Modified|yes, no, 1, 0|Modified=yes|  
+|Compiled|yes, no, 1, 0|Compiled=0|  
+|Date|Date, in the numeric format determined by your regional settings|Date=12\/1\/2012|  
+|Time|Time, in the numeric format determined by your regional settings|Time=12:00:00|  
+|Version List|Any valid version|Version List=NAVW19.00|  
+|Caption|Any valid caption|Caption=Company Information|  
+|Locked|Yes, no, 1, 0|Locked=1|  
+|Locked By|Domain\\username|"Locked By=CRONUS\\viktor"|  
   
  If you do not specify a filter, then all objects in the **Object** table are included.  
   
@@ -99,7 +99,7 @@ finsql.exe command=compileobjects, [servername=<server>,] [database=<database>,]
   
  *ntauthentication*  
   
- Specifies if you want to use NT authentication. The possible values are **yes**, **no**, **1**, or **0**. If you specify the *username* and *password* parameters, then you must specify **ntauthentication\=no** or **ntauthentication\=0**.  
+ Specifies if you want to use NT authentication. The possible values are **yes**, **no**, **1**, or **0**. If you specify the *username* and *password* parameters, then you must specify **ntauthentication=no** or **ntauthentication=0**.  
   
  *synchronizeschemachanges*  
   
@@ -108,7 +108,7 @@ finsql.exe command=compileobjects, [servername=<server>,] [database=<database>,]
 |[!INCLUDE[bp_tableoption](includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |----------------------------------|---------------------------------------|  
 |**yes**|Before applying changes to the business data table, [!INCLUDE[nav_server](includes/nav_server_md.md)] validates the changed table definition to check for destructive changes to the table. This includes changes that require that data is deleted in the fields of the business data table which are affected by the changes before the changes can be applied.<br /><br /> -   If there are no destructive changes to the table, then the schema changes are applied to the business data table immediately.<br />-   If there are destructive changes, [!INCLUDE[nav_server](includes/nav_server_md.md)] checks that there are table synchronization instructions in an upgrade codeunit. If there are instructions, then the schema changes are applied to the business database table according to the instructions. If there are no instructions, then an error message appears. The table definition changes are not saved and the schema changes are not applied.|  
-|**no**|Table definition changes are saved and compiled in the application but the changes are not validated or applied to the business data table. You synchronize the table schema later by doing one of the following:<br /><br /> -   Save or compile the table from Object Designer in [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] and choose either the **Now \- with validation** or **Force** synchronization option.<br />-   Use the **Sync. Schema for All Tables** option on the **Tools** menu.<br />-   Run the Sync\-NAVTenant cmdlet from the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].|  
+|**no**|Table definition changes are saved and compiled in the application but the changes are not validated or applied to the business data table. You synchronize the table schema later by doing one of the following:<br /><br /> -   Save or compile the table from Object Designer in [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] and choose either the **Now - with validation** or **Force** synchronization option.<br />-   Use the **Sync. Schema for All Tables** option on the **Tools** menu.<br />-   Run the Sync-NAVTenant cmdlet from the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].|  
 |force|Table definition changes are applied to the business data table schema without validation. For destructive changes, data in columns of the business data table that are affected by changes will be deleted.<br /><br /> This option ignores any table synchronization instructions for the table in upgrade codeunits.|  
   
  For more information about table schema synchronization, see [Synchronizing Table Schemas](Synchronizing-Table-Schemas.md).  

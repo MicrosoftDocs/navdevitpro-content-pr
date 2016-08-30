@@ -12,7 +12,7 @@ caps.latest.revision: 4
 manager: edupont
 ---
 # ASSISTEDIT Function (TestPage Field)
-Provides assist\-edit functionality to a field on a test page.  
+Provides assist-edit functionality to a field on a test page.  
   
 ## Syntax  
   
@@ -29,7 +29,7 @@ TestPage.Field.ASSISTEDIT
  *Field*  
  Type: Field  
   
- The field that you want to add assist\-edit functionality to.  
+ The field that you want to add assist-edit functionality to.  
   
 ## See Also  
  [TestPage Field Functions](TestPage-Field-Functions.md)

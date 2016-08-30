@@ -21,7 +21,7 @@ Before you start using the Microsoft Azure cmdlets to automate deployments, you 
   
     1.  Choose **Start**, in the **Search** box, type **Azure PowerShell**.  
   
-    2.  Right\-click the **Azure PowerShell** link, and then choose **Run as administrator**.  
+    2.  Right-click the **Azure PowerShell** link, and then choose **Run as administrator**.  
   
 3.  At the command prompt, type the following command, and then press Enter.  
   
@@ -29,11 +29,11 @@ Before you start using the Microsoft Azure cmdlets to automate deployments, you 
     Get-AzurePublishSettingsFile  
     ```  
   
-     A web browser opens at [http:\/\/go.microsoft.com\/fwlink\/?LinkID\=294709](http://go.microsoft.com/fwlink/?LinkID=294709).  
+     A web browser opens at [http:\/\/go.microsoft.com\/fwlink\/?LinkID=294709](http://go.microsoft.com/fwlink/?LinkID=294709).  
   
 4.  When prompted, download and save the publishing settings file as a .publishsettings type file to your computer.  
   
-     The default file name format is *\[SubscriptionName\]\-\[DownloadDate\]\-credentials.publishsettings*.  
+     The default file name format is *\[SubscriptionName\]-\[DownloadDate\]-credentials.publishsettings*.  
   
     > [!IMPORTANT]  
     >  Note of the path and file name because you will use it in the next step and later on when you deploy [!INCLUDE[navnow](includes/navnow_md.md)].  
@@ -44,7 +44,7 @@ Before you start using the Microsoft Azure cmdlets to automate deployments, you 
     Import-AzurePublishSettingsFile [mypublishsettingsfile]  
     ```  
   
-     Substitute `[mypublishsettings]` with the full path and file name of the publish settings file that you downloaded in the previous step. For example, if the file is in the *C:\\Users\\Administrator* folder and has the name *MyAzure\-2\-21\-2013.publishsettings*, then you use the following command:  
+     Substitute `[mypublishsettings]` with the full path and file name of the publish settings file that you downloaded in the previous step. For example, if the file is in the *C:\\Users\\Administrator* folder and has the name *MyAzure-2-21-2013.publishsettings*, then you use the following command:  
   
     ```  
     Import-AzurePublishSettingsFile C:\Users\Administrator\MyAzure-2-21-2013.publishsettings  
@@ -52,4 +52,4 @@ Before you start using the Microsoft Azure cmdlets to automate deployments, you 
   
 ## See Also  
  [Preparing for Deploying Microsoft Dynamics NAV on Microsoft Azure](Preparing-for-Deploying-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
- [How to: Install the Microsoft Azure Cmdlets Module](../Topic/How%20to:%20Install%20the%20Microsoft%20Azure%20Cmdlets%20Module.md)
+ [How to: Install the Microsoft Azure Cmdlets Module](How%20to:%20Install%20the%20Microsoft%20Azure%20Cmdlets%20Module.md)

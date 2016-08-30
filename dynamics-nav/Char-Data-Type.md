@@ -12,7 +12,7 @@ caps.latest.revision: 18
 manager: edupont
 ---
 # Char Data Type
-Use this simple data type to store a single, 16\-bit character as a value in the range 0 to 65535. You can convert this data type from a number to a character and vice versa. This means you can use mathematical operators on Char variables.  
+Use this simple data type to store a single, 16-bit character as a value in the range 0 to 65535. You can convert this data type from a number to a character and vice versa. This means you can use mathematical operators on Char variables.  
   
 ## Example  
  The following example assumes that you have a Char variable named C and a Text or Code variable named S.  
@@ -31,7 +31,7 @@ C := S[2];
 C := 65;  
 ```  
   
- You cannot assign a Char to a position greater than the position of the null terminator. For example, if the value of the Text variable *MyText* is 'abc', then the null terminator is at position 4 and the following assignment causes a run\-time error to occur.  
+ You cannot assign a Char to a position greater than the position of the null terminator. For example, if the value of the Text variable *MyText* is 'abc', then the null terminator is at position 4 and the following assignment causes a run-time error to occur.  
   
 ```  
 MyText[5] := 'e';  

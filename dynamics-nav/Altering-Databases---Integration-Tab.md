@@ -29,10 +29,10 @@ Specifies database settings that determine how [!INCLUDE[navnow](includes/navnow
 |**Save license in database**|Specifies that the license file is uploaded and stored in the database instead of on the server. This is useful if you are hosting several databases with separate license files on the same server.|  
   
 ## See Also  
- [How to: Alter Databases](../Topic/How%20to:%20Alter%20Databases.md)   
- [Altering Databases \- General Tab](Altering-Databases---General-Tab.md)   
- [Altering Databases \- Database Files Tab](Altering-Databases---Database-Files-Tab.md)   
- [Altering Databases \- Transaction Log Files Tab](Altering-Databases---Transaction-Log-Files-Tab.md)   
- [Altering Databases \- Collation Tab](Altering-Databases---Collation-Tab.md)   
- [Altering Databases \- Options Tab](Altering-Databases---Options-Tab.md)   
- [Altering Databases \- Advanced Tab](Altering-Databases---Advanced-Tab.md)
+ [How to: Alter Databases](How%20to:%20Alter%20Databases.md)   
+ [Altering Databases - General Tab](Altering-Databases---General-Tab.md)   
+ [Altering Databases - Database Files Tab](Altering-Databases---Database-Files-Tab.md)   
+ [Altering Databases - Transaction Log Files Tab](Altering-Databases---Transaction-Log-Files-Tab.md)   
+ [Altering Databases - Collation Tab](Altering-Databases---Collation-Tab.md)   
+ [Altering Databases - Options Tab](Altering-Databases---Options-Tab.md)   
+ [Altering Databases - Advanced Tab](Altering-Databases---Advanced-Tab.md)

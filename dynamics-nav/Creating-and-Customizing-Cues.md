@@ -33,7 +33,7 @@ This topic provides an overview of Cues and the tasks involved in creating and c
 -   [Setting up Colored Indicators on Cues](Creating-and-Customizing-Cues.md#SetupIndicator)  
   
 > [!NOTE]  
->  For step\-by\-step instructions on many of the tasks discussed in this topic, see [Walkthrough: Creating a Cue Based on a FlowField](../Topic/Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20FlowField.md) and [Walkthrough: Creating a Cue Based on a Normal Field and a Query](../Topic/Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20Normal%20Field%20and%20a%20Query.md).  
+>  For step-by-step instructions on many of the tasks discussed in this topic, see [Walkthrough: Creating a Cue Based on a FlowField](Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20FlowField.md) and [Walkthrough: Creating a Cue Based on a Normal Field and a Query](Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20Normal%20Field%20and%20a%20Query.md).  
   
 ##  <a name="CueDesign"></a> Cue Design Overview  
  The implementation of a Cue involves the following elements:  
@@ -44,13 +44,13 @@ This topic provides an overview of Cues and the tasks involved in creating and c
   
 -   Logic that calculates the data to display in the Cue at runtime.  
   
-     The logic can consist of a combination of C\/AL and [!INCLUDE[navnow](includes/navnow_md.md)] objects, such as tables, queries, and codeunits. How and where you implement the logic will depend on whether the Cue is based on a FlowField or Normal field and what you want to achieve.  
+     The logic can consist of a combination of C/AL and [!INCLUDE[navnow](includes/navnow_md.md)] objects, such as tables, queries, and codeunits. How and where you implement the logic will depend on whether the Cue is based on a FlowField or Normal field and what you want to achieve.  
   
 ### Supported Data Types  
  You can only base Cues on integer and decimal data types. Other data types are not supported and will not display in a Cue.  
   
 ### FlowFields versus Normal Fields  
- A Cue can be based on a FlowField or Normal field. If you base the Cue on a FlowField, then you add the logic that calculates the data for the Cue to the [CalcFormula Property](CalcFormula-Property.md) of the FlowField. If you use a Normal field, then you will typically add the logic that calculates the Cue data to a C\/AL trigger or function. Unlike a FlowField, where data is extracted from tables, a Normal field enables you to extract data from other objects such as queries.  
+ A Cue can be based on a FlowField or Normal field. If you base the Cue on a FlowField, then you add the logic that calculates the data for the Cue to the [CalcFormula Property](CalcFormula-Property.md) of the FlowField. If you use a Normal field, then you will typically add the logic that calculates the Cue data to a C/AL trigger or function. Unlike a FlowField, where data is extracted from tables, a Normal field enables you to extract data from other objects such as queries.  
   
 ##  <a name="CreateTable"></a> Creating a Table for Cue Data  
  The first thing that you must do is to create a table that contains fields that will hold the calculated data to display in the Cues at runtime.  
@@ -65,7 +65,7 @@ This topic provides an overview of Cues and the tasks involved in creating and c
   
 2.  Set the [FieldClass Property](FieldClass-Property.md) to **FlowField** or **Normal**.  
   
-     If field is a FlowField, then set the [CalcFormula Property](CalcFormula-Property.md) to calculate the Cue data. For more information, see and [How to: Create, View, and Edit a Calculation Formula](../Topic/How%20to:%20Create,%20View,%20and%20Edit%20a%20Calculation%20Formula.md).  
+     If field is a FlowField, then set the [CalcFormula Property](CalcFormula-Property.md) to calculate the Cue data. For more information, see and [How to: Create, View, and Edit a Calculation Formula](How%20to:%20Create,%20View,%20and%20Edit%20a%20Calculation%20Formula.md).  
   
 ### Adding a Primary Key Field for FlowFields  
  A table must have at least one data field. Because a **FlowField** is based on a calculation, it not considered an actual data field. Therefore, if the Cue table only includes FlowFields, you must add "dummy" primary key field that does not yield any data.  
@@ -81,7 +81,7 @@ This topic provides an overview of Cues and the tasks involved in creating and c
  ![Page Designer showing cues](media/NAV_PageDesigner_SalesThisMonthCue_Clip.png "NAV\_PageDesigner\_SalesThisMonthCue\_Clip")  
   
 ### Initializing the Cue Fields  
- You must initialize the Cue fields on the page. To do this, for example, you can add the following C\/AL code to the [OnOpenPage Trigger](OnOpenPage-Trigger.md).  
+ You must initialize the Cue fields on the page. To do this, for example, you can add the following C/AL code to the [OnOpenPage Trigger](OnOpenPage-Trigger.md).  
   
 ```  
 RESET;  
@@ -97,7 +97,7 @@ END;
 ###  <a name="SpecifyImage"></a> Specifying an Image on the Cue  
  You can specify an image to display on the Cue or you can choose not to display an image at all.  You can select from several available images.  
   
- For more information, see [How to: Set Up an Image on a Cue](../Topic/How%20to:%20Set%20Up%20an%20Image%20on%20a%20Cue.md).  
+ For more information, see [How to: Set Up an Image on a Cue](How%20to:%20Set%20Up%20an%20Image%20on%20a%20Cue.md).  
   
 ###  <a name="DrillDown"></a> Setting up a Drill Down Page on the Cue  
  You can set up a Cue to link to a page that displays details about the transactions that make up the data in the Cue. This page is referred to as a *drill down page*. For example, if the Cue displays the number of open sales orders, then you can set up the Cue to link to list page that includes the sales orders. The page opens when a user selects the Cue.  

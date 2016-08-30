@@ -48,25 +48,25 @@ Web services provide easy communication and data exchange in a secured environme
   
 2.  In Object Designer, choose **Codeunit**, and then choose **New**  
   
-     The **C\/AL Editor** opens.  
+     The **C/AL Editor** opens.  
   
-3.  On the **View** menu, choose **C\/AL Globals**.  
+3.  On the **View** menu, choose **C/AL Globals**.  
   
-4.  In the **C\/AL Globals** window, choose the **Functions** tab, and then enter **Capitalize** as the function name.  
+4.  In the **C/AL Globals** window, choose the **Functions** tab, and then enter **Capitalize** as the function name.  
   
 5.  Select the **Capitalize** function, in the **View** menu, choose **Properties**, and then set the **Local** property to **No**.  
   
      Setting this property makes the function accessible from the other objects. For more information about this property, see [Local Property](Local-Property.md).  
   
-6.  In the **C\/AL Globals** window, choose the **Locals** button.  
+6.  In the **C/AL Globals** window, choose the **Locals** button.  
   
 7.  On the **Parameters** tab, type **inputstring** in the **Name** field, and then select **Text** in the **DataType** field. Set the length to **250**.  
   
 8.  On the **Return Value** tab, enter **outputstring** in the **Name** field, and then select **Text** in the **Return Type** field. Set the length to **250**.  
   
-9. Close the **C\/AL Locals** window, and then close the **C\/AL Globals** window.  
+9. Close the **C/AL Locals** window, and then close the **C/AL Globals** window.  
   
-10. In the **C\/AL Editor**, under `Capitalize`, add the following line of code:  
+10. In the **C/AL Editor**, under `Capitalize`, add the following line of code:  
   
     ```  
     outputstring := UPPERCASE(inputstring);  
@@ -89,12 +89,12 @@ Web services provide easy communication and data exchange in a secured environme
   
 4.  In the **Object Type** column, select **Codeunit**, then in the **Object ID** column enter **50000**, and then enter **Letters** in the **Service Name** column.  
   
-5.  Mark the check box in the **Published** column and choose **OK** to close the **New \- Web Services** page.  
+5.  Mark the check box in the **Published** column and choose **OK** to close the **New - Web Services** page.  
   
 ## Verifying Web Service Availability  
   
 > [!NOTE]  
->  After publishing a web service, verify that the port that web service applications will use to connect to your web service is open. The default port for SOAP\-based web services is set to 7047. You can configure this value by using the [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
+>  After publishing a web service, verify that the port that web service applications will use to connect to your web service is open. The default port for SOAP-based web services is set to 7047. You can configure this value by using the [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
   
 #### To verify availability of the web service  
   
@@ -107,7 +107,7 @@ Web services provide easy communication and data exchange in a secured environme
      **http:\/\/localhost:7047\/DynamicsNAV\/WS\/CRONUS%20International%20Ltd.\/services**  
   
     > [!NOTE]  
-    >  The company name is case\-sensitive.  
+    >  The company name is case-sensitive.  
   
      The page should list the web service that you just published \(`Codeunit/Letters`\).  
   
@@ -122,7 +122,7 @@ Web services provide easy communication and data exchange in a secured environme
   
 3.  Enter the name **UsingLettersService** for the application and choose **OK** to close the **New Project** page.The sample code in this walkthrough expects this exact application name, so do not change it.  
   
-4.  In Solution Explorer, right\-click the **References** node in the project, and then choose **Add Service Reference**.  
+4.  In Solution Explorer, right-click the **References** node in the project, and then choose **Add Service Reference**.  
   
 5.  In the **Add Service Reference** window, choose the **Advanced** button.  
   
@@ -176,12 +176,12 @@ Web services provide easy communication and data exchange in a secured environme
 10. Press Enter to close the application.  
   
 ## Next Steps  
- This walkthrough illustrated how you can publish a codeunit as a web service from [!INCLUDE[navnow](includes/navnow_md.md)] and write a program that uses the web service. The next step is to expose a page as a web service and then interact with data from that page. For details, see [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](../Topic/Walkthrough:%20Registering%20and%20Using%20a%20Page%20Web%20Service%20\(SOAP\).md).  
+ This walkthrough illustrated how you can publish a codeunit as a web service from [!INCLUDE[navnow](includes/navnow_md.md)] and write a program that uses the web service. The next step is to expose a page as a web service and then interact with data from that page. For details, see [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](Walkthrough:%20Registering%20and%20Using%20a%20Page%20Web%20Service%20\(SOAP\).md).  
   
 ## See Also  
  [Web Services](Web-Services.md)   
  [SOAP Web Services](SOAP-Web-Services.md)   
  [Microsoft Dynamics NAV Web Services Overview](Microsoft-Dynamics-NAV-Web-Services-Overview.md)   
- [How to: Publish a Web Service](../Topic/How%20to:%20Publish%20a%20Web%20Service.md)   
- [Walkthrough: Configuring Web Services to Use SSL \(SOAP and OData\)](../Topic/Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md)   
- [Web Service Alternatives: SOAP and OData](../Topic/Web%20Service%20Alternatives:%20SOAP%20and%20OData.md)
+ [How to: Publish a Web Service](How%20to:%20Publish%20a%20Web%20Service.md)   
+ [Walkthrough: Configuring Web Services to Use SSL \(SOAP and OData\)](Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md)   
+ [Web Service Alternatives: SOAP and OData](Web%20Service%20Alternatives:%20SOAP%20and%20OData.md)

@@ -20,12 +20,12 @@ Activates the debugger and attaches the debugger to the next session that is sta
 [Ok :=] ACTIVATE  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the debugger is started successfully; otherwise, **false**.  
   
- If you omit this optional return value and if the break is not set successfully, then a run\-time error occurs. If you include the return value, then you must handle any errors.  
+ If you omit this optional return value and if the break is not set successfully, then a run-time error occurs. If you include the return value, then you must handle any errors.  
   
 ## Remarks  
  The **ACTIVATE** function behaves like the **Debug Next** action on the **Sessions** page.  

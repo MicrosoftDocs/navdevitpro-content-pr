@@ -55,21 +55,21 @@ finsql.exe command=importtranslate, file=<importfile>, [servername=<server>,] [d
   
  *filter*  
   
- A filter on the **Object** table. Use the *filter* parameter to specify the objects to which you want to import the text strings. Use a semicolon to separate multiple filters. The only operator that you can use in the filter is '\='. The following table shows the fields in the **Object** table on which you can filter.  
+ A filter on the **Object** table. Use the *filter* parameter to specify the objects to which you want to import the text strings. Use a semicolon to separate multiple filters. The only operator that you can use in the filter is '='. The following table shows the fields in the **Object** table on which you can filter.  
   
 |Object table field|Values|Example|  
 |------------------------|------------|-------------|  
-|Type|Table, Codeunit, Page, Report, XMLport, Query|Type\=Table&#124;Page|  
-|ID|Integer or range of integers|ID\=50000..50500|  
-|Name|Any valid object name|"Name\=Cost Entry"|  
-|Modified|yes, no, 1, 0|Modified\=yes|  
-|Compiled|yes, no, 1, 0|Compiled\=0|  
-|Date|Date, in the numeric format determined by your regional settings|Date\=12\/1\/2012|  
-|Time|Time, in the numeric format determined by your regional settings|Time\=12:00:00|  
-|Version List|Any valid version|Version List\=NAVW17.00|  
-|Caption|Any valid caption|Caption\=Company Information|  
-|Locked|Yes, no, 1, 0|Locked\=1|  
-|Locked By|Domain\\username|"Locked By\=CRONUS\\viktor"|  
+|Type|Table, Codeunit, Page, Report, XMLport, Query|Type=Table&#124;Page|  
+|ID|Integer or range of integers|ID=50000..50500|  
+|Name|Any valid object name|"Name=Cost Entry"|  
+|Modified|yes, no, 1, 0|Modified=yes|  
+|Compiled|yes, no, 1, 0|Compiled=0|  
+|Date|Date, in the numeric format determined by your regional settings|Date=12\/1\/2012|  
+|Time|Time, in the numeric format determined by your regional settings|Time=12:00:00|  
+|Version List|Any valid version|Version List=NAVW17.00|  
+|Caption|Any valid caption|Caption=Company Information|  
+|Locked|Yes, no, 1, 0|Locked=1|  
+|Locked By|Domain\\username|"Locked By=CRONUS\\viktor"|  
   
  If you do not specify a filter, then all objects in the **Object** table are included.  
   
@@ -103,13 +103,13 @@ finsql.exe command=importtranslate, file=<importfile>, [servername=<server>,] [d
   
  *ntauthentication*  
   
- Specifies whether to use NT authentication. The possible values are **yes**, **no**, **1**, or **0**. If you specify the *username* and *password* parameters, then you must specify **ntauthentication\=no** or **ntauthentication\=0**.  
+ Specifies whether to use NT authentication. The possible values are **yes**, **no**, **1**, or **0**. If you specify the *username* and *password* parameters, then you must specify **ntauthentication=no** or **ntauthentication=0**.  
   
 ## Remarks  
- You can use this command for translating text strings in multilanguage setup of [!INCLUDE[navnow](includes/navnow_md.md)]. The contents of the text file must be compatible with [!INCLUDE[navnow](includes/navnow_md.md)]. Therefore, the text file will typically have originated from a text file that was previously exported from the database, and then modified. For more information, see [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](../Topic/How%20to:%20Add%20Translated%20Strings%20By%20Importing%20and%20Exporting%20Multilanguage%20Files.md) and [Multilanguage Development](Multilanguage-Development.md).  
+ You can use this command for translating text strings in multilanguage setup of [!INCLUDE[navnow](includes/navnow_md.md)]. The contents of the text file must be compatible with [!INCLUDE[navnow](includes/navnow_md.md)]. Therefore, the text file will typically have originated from a text file that was previously exported from the database, and then modified. For more information, see [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How%20to:%20Add%20Translated%20Strings%20By%20Importing%20and%20Exporting%20Multilanguage%20Files.md) and [Multilanguage Development](Multilanguage-Development.md).  
   
 ## Example  
- This example shows how to run the ImportTranslate command to import text strings from a text file to the *Demo Database NAV \(9\-0\)* database. The text file that has the path and file name *C:\\navtextstrings.txt*.  
+ This example shows how to run the ImportTranslate command to import text strings from a text file to the *Demo Database NAV \(9-0\)* database. The text file that has the path and file name *C:\\navtextstrings.txt*.  
   
 ```  
 finsql.exe command=importtranslate, file=C:\navtextstrings.txt, servername=TestComputer01\NAVDEMO, database="Demo Database NAV (9-0)"  

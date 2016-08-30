@@ -27,17 +27,17 @@ Finds the first record in a table based on the current key and filter.
   
  If the record is found, then it is returned in this parameter and any [FlowFields](FlowFields.md) in the record are set to zero. You must update the FlowFields by using the [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md).  
   
- If the record is not found and if you omit the return value, then a run\-time error occurs.  
+ If the record is not found and if you omit the return value, then a run-time error occurs.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the record was found; otherwise, **false**.  
   
- If you omit this optional return value and the record is not found, then a run\-time error occurs. If you include a return value, then you must handle any errors.  
+ If you omit this optional return value and the record is not found, then a run-time error occurs. If you include a return value, then you must handle any errors.  
   
 ## Remarks  
- This function should be used instead of **FIND**\('\-'\) when you only need the first record.  
+ This function should be used instead of **FIND**\('-'\) when you only need the first record.  
   
  You should only use this function when you explicitly want to find the first record in a table or set. Do not use this function in combination with **REPEAT**.. **UNTIL**.  
   

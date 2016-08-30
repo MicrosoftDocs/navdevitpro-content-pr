@@ -12,20 +12,20 @@ caps.latest.revision: 25
 manager: edupont
 ---
 # C-AL Database Functions and Performance on SQL Server
-This topic describes the relationship between basic database functions in C\/AL and SQL statements.  
+This topic describes the relationship between basic database functions in C/AL and SQL statements.  
   
-## C\/AL and SQL Statements  
+## C/AL and SQL Statements  
   
 ### GET, FIND, and NEXT  
- The C\/AL language offers several methods to retrieve record data. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], records are retrieved using multiple active result sets \(MARS\). Generally, retrieving records with MARS is faster than with server\-side cursors. Additionally, each function is optimized for a specific purpose. To achieve optimal performance you must use the method that is best suited for a given purpose.  
+ The C/AL language offers several methods to retrieve record data. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], records are retrieved using multiple active result sets \(MARS\). Generally, retrieving records with MARS is faster than with server-side cursors. Additionally, each function is optimized for a specific purpose. To achieve optimal performance you must use the method that is best suited for a given purpose.  
   
 -   **Record.GET** is optimized for getting a single record based on primary key values.  
   
 -   **Record.FIND** is optimized for getting a single record based on the primary keys in the record and any filter or range that has been set.  
   
--   **Record.FIND\('\-'\)** and **Record.FIND\('\+'\)** are optimized for reading primarily from a single table when the application might not read all records. FIND\('\-'\) is implemented by issuing a self\-tuning TOP X call, where X can change over time, based on statistics of the number of rows read.  
+-   **Record.FIND\('-'\)** and **Record.FIND\('+'\)** are optimized for reading primarily from a single table when the application might not read all records. FIND\('-'\) is implemented by issuing a self-tuning TOP X call, where X can change over time, based on statistics of the number of rows read.  
   
-     The following are examples of scenarios in which you should use the FIND\('\-'\) function to achieve optimal performance:  
+     The following are examples of scenarios in which you should use the FIND\('-'\) function to achieve optimal performance:  
   
     -   Before you post a general journal batch, you must check all journal lines for validity and verify that all lines balance. After the first line when an error is found, you do not have to retrieve the rest of the rows.  
   
@@ -56,7 +56,7 @@ IF FINDSET THEN
   
  Each **CALCFIELDS** or **CALCSUMS** request should be confined to use only one SIFT index. The SIFT index can only be used if:  
   
--   All requested sum\-fields are contained in the same SIFT index.  
+-   All requested sum-fields are contained in the same SIFT index.  
   
 -   The filtered fields are part of the key fields specified in the SIFT index containing all the sum fields.  
   

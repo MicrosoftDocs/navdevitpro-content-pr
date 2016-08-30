@@ -43,15 +43,15 @@ Gets the exact time that a file was last written to.
   
  \(Optional\) The time that the file was last written to.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
- If you omit this optional return value, then a run\-time error occurs when the file cannot be found. When you include the return value, you must handle any errors. The return value can have these values:  
+ If you omit this optional return value, then a run-time error occurs when the file cannot be found. When you include the return value, you must handle any errors. The return value can have these values:  
   
  **true** if the file exists and the function completes successfully; otherwise, **false**.  
   
 ## Example  
- The following example gets the date and time that a file was written to and displays the data in a message box. The code example assumes that you have created the file 'C:\\MyFolder\\MyText.txt'. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example gets the date and time that a file was written to and displays the data in a message box. The code example assumes that you have created the file 'C:\\MyFolder\\MyText.txt'. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

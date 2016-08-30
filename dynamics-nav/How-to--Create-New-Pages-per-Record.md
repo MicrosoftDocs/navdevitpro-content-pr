@@ -18,15 +18,15 @@ For some reports, you may want to print a new page for each new record.
   
 ### To create a new page for each record  
   
-1.  Create a report dataset that includes the data items and columns that you want in the report. For more information, see [How to: Create a Report Dataset](../Topic/How%20to:%20Create%20a%20Report%20Dataset.md).  
+1.  Create a report dataset that includes the data items and columns that you want in the report. For more information, see [How to: Create a Report Dataset](How%20to:%20Create%20a%20Report%20Dataset.md).  
   
 2.  In Report Dataset Designer, on the **View** menu, choose **Layout**.  
   
 3.  In Visual Studio Report Designer, on the **View** menu, choose **Toolbox**, and then drag a **List** to the report layout.  
   
-4.  Below the layout, under **Row Groups**, right\-click **Details**, and then choose **Group Properties**.  
+4.  Below the layout, under **Row Groups**, right-click **Details**, and then choose **Group Properties**.  
   
-5.  In the **Group Properties** window, in the **Name** field, specify a name for the group. Under **Group expressions**, choose the **Add** button. In the **Group on** drop\-down list, choose the field that you want to group on. For example, choose the primary key field so that you create a group for each record.  
+5.  In the **Group Properties** window, in the **Name** field, specify a name for the group. Under **Group expressions**, choose the **Add** button. In the **Group on** drop-down list, choose the field that you want to group on. For example, choose the primary key field so that you create a group for each record.  
   
 6.  In the **Group Properties** window, choose the **Page Breaks** tab. Under **Page break options**, select **Between each instance of a group**.  
   

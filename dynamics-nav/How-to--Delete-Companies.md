@@ -12,7 +12,7 @@ caps.latest.revision: 9
 manager: edupont
 ---
 # How to: Delete Companies
-You can delete companies in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and the [!INCLUDE[nav_web](includes/nav_web_md.md)]. You can also delete companies by using the **Remove\-NAVCompany** Windows PowerShell cmdlet.  
+You can delete companies in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and the [!INCLUDE[nav_web](includes/nav_web_md.md)]. You can also delete companies by using the **Remove-NAVCompany** Windows PowerShell cmdlet.  
   
 > [!WARNING]  
 >  When you delete a company, the company and all of the data that it contains will be deleted. If you have made reports and customizations, they are not deleted. They are saved in the database.  
@@ -27,13 +27,13 @@ You can delete companies in the [!INCLUDE[nav_windows](includes/nav_windows_md.m
   
 2.  Choose the **Options** tab, select the **Single user** check box, and then choose the **OK** button.  
   
- You can now delete the company in [!INCLUDE[nav_windows](includes/nav_windows_md.md)], [!INCLUDE[nav_web](includes/nav_web_md.md)], or by using the **Remove\-NAVCompany** Windows PowerShell cmdlet.  
+ You can now delete the company in [!INCLUDE[nav_windows](includes/nav_windows_md.md)], [!INCLUDE[nav_web](includes/nav_web_md.md)], or by using the **Remove-NAVCompany** Windows PowerShell cmdlet.  
   
  You can only delete a company if you have the relevant permission.  
   
 ### To delete a company in [!INCLUDE[nav_windows](includes/nav_windows_md.md)]  
   
-1.  In the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], open a different company than the company that you want to delete. For more information, see [\($ S\_COMPANY How to: Select a Company $\)](../Topic/\($%20S_COMPANY%20How%20to:%20Select%20a%20Company%20$\).md).  
+1.  In the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], open a different company than the company that you want to delete. For more information, see [\($ S\_COMPANY How to: Select a Company $\)](\($%20S_COMPANY%20How%20to:%20Select%20a%20Company%20$\).md).  
   
 2.  In the **Search** box, enter **Companies**, and then choose the related link.  
   
@@ -44,6 +44,6 @@ You can delete companies in the [!INCLUDE[nav_windows](includes/nav_windows_md.m
  This deletes the company. The action cannot be undone.  
   
 ## See Also  
- [\($ S\_COMPANY How to: Select a Company $\)](../Topic/\($%20S_COMPANY%20How%20to:%20Select%20a%20Company%20$\).md)   
- [How to: Create a New Company](../Topic/How%20to:%20Create%20a%20New%20Company.md)   
+ [\($ S\_COMPANY How to: Select a Company $\)](\($%20S_COMPANY%20How%20to:%20Select%20a%20Company%20$\).md)   
+ [How to: Create a New Company](How%20to:%20Create%20a%20New%20Company.md)   
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)

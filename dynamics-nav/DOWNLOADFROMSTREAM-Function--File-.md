@@ -33,7 +33,7 @@ Sends a file from [!INCLUDE[nav_server](includes/nav_server_md.md)] computer to 
  The title that you want to display in the dialog box for downloading the file.  
   
 > [!NOTE]  
->  This parameter is not supported by the [!INCLUDE[nav_web](includes/nav_web_md.md)]. The title is determined by the end\-user's browser.  
+>  This parameter is not supported by the [!INCLUDE[nav_web](includes/nav_web_md.md)]. The title is determined by the end-user's browser.  
   
  *ToFolder*  
  Type: Text  
@@ -41,7 +41,7 @@ Sends a file from [!INCLUDE[nav_server](includes/nav_server_md.md)] computer to 
  The default folder in which to save the file to be downloaded. The folder name is displayed in the dialog box for downloading the file. The folder can be changed by the user.  
   
 > [!NOTE]  
->  This parameter is not supported by the [!INCLUDE[nav_web](includes/nav_web_md.md)]. By default, files are saved to the default download location that is configured in the end\-user's browser.  
+>  This parameter is not supported by the [!INCLUDE[nav_web](includes/nav_web_md.md)]. By default, files are saved to the default download location that is configured in the end-user's browser.  
   
  *ToFilter*  
  Type: Text  
@@ -56,10 +56,10 @@ Sends a file from [!INCLUDE[nav_server](includes/nav_server_md.md)] computer to 
   
  The name to give the downloaded file. This is the default file name that is shown in the dialog box for downloading the file. This value, can be changed by the user.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
- If you omit this optional return value, then a run\-time error occurs if the record cannot be found. If you include a return value, then you must handle any errors.  
+ If you omit this optional return value, then a run-time error occurs if the record cannot be found. If you include a return value, then you must handle any errors.  
   
  **true** if the file was downloaded; otherwise, **false**.  
   
@@ -95,4 +95,4 @@ DOWNLOADFROMSTREAM(NewStream,'Export','','All Files (*.*)|*.*',ToFileName)
   
 ## See Also  
  [File Data Type](File-Data-Type.md)   
- [Walkthrough: Transferring a File from Microsoft Dynamics NAV Server to the Client](../Topic/Walkthrough:%20Transferring%20a%20File%20from%20Microsoft%20Dynamics%20NAV%20Server%20to%20the%20Client.md)
+ [Walkthrough: Transferring a File from Microsoft Dynamics NAV Server to the Client](Walkthrough:%20Transferring%20a%20File%20from%20Microsoft%20Dynamics%20NAV%20Server%20to%20the%20Client.md)

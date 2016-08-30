@@ -50,7 +50,7 @@ manager: edupont
   
  By default, these category names correspond to the captions that are displayed for the category on the page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. You will typically want to change these captions, especially the Category4 through Category10 captions.  
   
- You change category captions on a page\-by\-page basis and for each [!INCLUDE[nav_windows](includes/nav_windows_md.md)] language.  
+ You change category captions on a page-by-page basis and for each [!INCLUDE[nav_windows](includes/nav_windows_md.md)] language.  
   
 ### To define promoted action category captions  
   
@@ -60,7 +60,7 @@ manager: edupont
   
 3.  In Page Designer, select a blank row, and then in the **View** menu, choose **Properties**.  
   
-4.  In the **Page \- Properties** window, locate the **PromotedActionsCategoriesML** property, choose the **Value** field, and then choose the **AssistButton** to open the **Multilanguage Editor**.  
+4.  In the **Page - Properties** window, locate the **PromotedActionsCategoriesML** property, choose the **Value** field, and then choose the **AssistButton** to open the **Multilanguage Editor**.  
   
 5.  In the **Multilanguage Editor**, set the **Language** field to the language version of the categories that you want to define.  
   
@@ -95,7 +95,7 @@ manager: edupont
 7.  Close the page properties and save the page.  
   
 ## See Also  
- [How to: Promote Actions on Pages](../Topic/How%20to:%20Promote%20Actions%20on%20Pages.md)   
+ [How to: Promote Actions on Pages](How%20to:%20Promote%20Actions%20on%20Pages.md)   
  [Actions Overview](Actions-Overview.md)   
- [How to: Add Actions to a Page](../Topic/How%20to:%20Add%20Actions%20to%20a%20Page.md)   
- [How to: Set an Icon on an Action](../Topic/How%20to:%20Set%20an%20Icon%20on%20an%20Action.md)
+ [How to: Add Actions to a Page](How%20to:%20Add%20Actions%20to%20a%20Page.md)   
+ [How to: Set an Icon on an Action](How%20to:%20Set%20an%20Icon%20on%20an%20Action.md)

@@ -26,13 +26,13 @@ Count := RecordRef.KEYCOUNT
   
  The RecordRef that identifies the record and the table in which you are interested.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of keys that have been identified in the table.  
   
 ## Example  
- The following example opens the Customer table \(18\) as a RecordRef variable that is named CustomerRecref. The KEYCOUNT function retrieves the number of keys that are defined in the Customer table. The return value of the function is stored in the KeyCount variable and displayed in a message box. The KeyCount variable contains the number 13 because 13 keys are defined in the Customer table. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example opens the Customer table \(18\) as a RecordRef variable that is named CustomerRecref. The KEYCOUNT function retrieves the number of keys that are defined in the Customer table. The return value of the function is stored in the KeyCount variable and displayed in a message box. The KeyCount variable contains the number 13 because 13 keys are defined in the Customer table. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

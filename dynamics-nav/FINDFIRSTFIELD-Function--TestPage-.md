@@ -36,7 +36,7 @@ Finds the first field in the dataset that is displayed on a test page.
   
  The value of the field.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the first field is found; otherwise, **false**. The return value is optional.  

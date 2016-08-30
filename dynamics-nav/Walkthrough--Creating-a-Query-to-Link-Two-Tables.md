@@ -46,7 +46,7 @@ SELECT C.Name, C.'No.' SL.AmountFROM Customer AS C, 'Sales Line' AS SL WHERE C.'
   
 2.  Link the **Customer** table and **Sales Line** table.  
   
-     To generate a dataset from the **Customer** table and **Sales Line** table, Viktor must *link* the two tables. A link specifies a condition between two fields of the tables that must be met for a record to be included in the dataset. To link the two tables, Viktor must first identify a field that is common in both tables. He determines that the **No.** field in the **Customer** table is the same as the **Sell\-to Customer No.** field in the **Sales Line** table. For a record to be included in the resulting dataset, the value of the **No.** field in the **Customer** table must equal the **Sell\-to Customer No.** field in the **Sales Line** table.  
+     To generate a dataset from the **Customer** table and **Sales Line** table, Viktor must *link* the two tables. A link specifies a condition between two fields of the tables that must be met for a record to be included in the dataset. To link the two tables, Viktor must first identify a field that is common in both tables. He determines that the **No.** field in the **Customer** table is the same as the **Sell-to Customer No.** field in the **Sales Line** table. For a record to be included in the resulting dataset, the value of the **No.** field in the **Customer** table must equal the **Sell-to Customer No.** field in the **Sales Line** table.  
   
  To create this dataset in a [!INCLUDE[navnow](includes/navnow_md.md)] query, Viktor creates a query in Object Designer.  
   
@@ -56,7 +56,7 @@ SELECT C.Name, C.'No.' SL.AmountFROM Customer AS C, 'Sales Line' AS SL WHERE C.'
   
 2.  In Object Designer, choose **Query**, and then choose the **New** button.  
   
-3.  In Query Designer, add five rows as described in the following table. Choose the drop\-down arrow to select tables and fields from the drop\-down list box.  
+3.  In Query Designer, add five rows as described in the following table. Choose the drop-down arrow to select tables and fields from the drop-down list box.  
   
     |Line No.|Type|Data Source|Name|  
     |--------------|----------|-----------------|----------|  
@@ -76,18 +76,18 @@ SELECT C.Name, C.'No.' SL.AmountFROM Customer AS C, 'Sales Line' AS SL WHERE C.'
     > [!IMPORTANT]  
     >  When you create a link between two data items, you set up the link on the lower of the two data items in Query Designer.  
   
-2.  On the **View** menu, choose **Properties**. The **SL \- Properties** window opens  
+2.  On the **View** menu, choose **Properties**. The **SL - Properties** window opens  
   
 3.  In the **Value** field of the **DataItemLink** property, choose the **AssistEdit** button.  
   
-     The **DataItem Link** window opens. You use this window to create a reference link between the **Sell\-to Customer No.** field of the **Sales Line** table and the **No.** field of the **Customer** table.  
+     The **DataItem Link** window opens. You use this window to create a reference link between the **Sell-to Customer No.** field of the **Sales Line** table and the **No.** field of the **Customer** table.  
   
 4.  In the **DataItem Link** window, in the **Field** column, choose the up arrow.  
   
     > [!NOTE]  
     >  **DataItem Link** is like a WHERE clause in an SQL statement.  
   
-5.  In the **Sales Line – Field List** window, select **Sell\-to Customer No.**, and then choose the **OK** button.  
+5.  In the **Sales Line – Field List** window, select **Sell-to Customer No.**, and then choose the **OK** button.  
   
 6.  In the **Reference DataItem** column, choose the up arrow.  
   
@@ -101,7 +101,7 @@ SELECT C.Name, C.'No.' SL.AmountFROM Customer AS C, 'Sales Line' AS SL WHERE C.'
   
 10. Choose the **OK** button to close the **DataItem Link** window.  
   
-11. In the **SL Properties** window, in the **Value** field of the **DataItemLinkType** property, choose **Exclude If No Match** from the drop\-down list.  
+11. In the **SL Properties** window, in the **Value** field of the **DataItemLinkType** property, choose **Exclude If No Match** from the drop-down list.  
   
     > [!NOTE]  
     >  **Exclude If No Match** only includes rows where the linked fields from both data items are equal.  
@@ -127,7 +127,7 @@ SELECT C.Name, C.'No.' SL.AmountFROM Customer AS C, 'Sales Line' AS SL WHERE C.'
      ![The result of running Customer&#95;SalesQuantity query](media/Query_WalkthroughJoin_Run.png "Query\_WalkthroughJoin\_Run")  
   
 ## Next Steps  
- Viktor’s next steps are to create more complex queries. For more information, see  [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](../Topic/Walkthrough:%20Creating%20a%20Query%20That%20Uses%20a%20Totaling%20Method%20and%20Sorting.md) and [Walkthrough: Creating a Query to Link Three Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Three%20Tables.md).  
+ Viktor’s next steps are to create more complex queries. For more information, see  [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](Walkthrough:%20Creating%20a%20Query%20That%20Uses%20a%20Totaling%20Method%20and%20Sorting.md) and [Walkthrough: Creating a Query to Link Three Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Three%20Tables.md).  
   
 ## See Also  
  [Queries](Queries.md)

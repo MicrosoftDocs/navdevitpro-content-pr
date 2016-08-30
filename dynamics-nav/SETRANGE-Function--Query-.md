@@ -30,7 +30,7 @@ Query.SETRANGE(Column[, FromValue][, ToValue])
  *Column*  
  Type: Text  
   
- The name of the column in the query that you want to filter. The name is defined by the column's [Name Property\-duplicate](Name-Property-duplicate.md) in Query Designer.  
+ The name of the column in the query that you want to filter. The name is defined by the column's [Name Property-duplicate](Name-Property-duplicate.md) in Query Designer.  
   
  *FromValue*  
  Type: Any  
@@ -79,16 +79,16 @@ Query.READ;
   
  For example, a query has the following filters set on the **Quantity** column in Query Designer:  
   
--   **DataItemTableFilter** property: Quantity\=FILTER\(\<\>10\)  
+-   **DataItemTableFilter** property: Quantity=FILTER\(\<\>10\)  
   
--   **ColumnFilter** property: Quantity\=FILTER\(\<\>5\)  
+-   **ColumnFilter** property: Quantity=FILTER\(\<\>5\)  
   
  `Query.setRange(Quantity, 1, 15)` will result in a filter that is equivalent to: 1 \< Quantity \<15, except for 10.  
   
  For more information about how to set filters in Query Designer, see [Understanding Query Filters](Understanding-Query-Filters.md).  
   
 ## Example  
- The following C\/AL code example demonstrates how to use the **SETRANGE** function on a query. The example code sets a filter on a query column and saves the resulting dataset as a CSV file. A message also displays when the query is run that indicates the filter on the column.  
+ The following C/AL code example demonstrates how to use the **SETRANGE** function on a query. The example code sets a filter on a query column and saves the resulting dataset as a CSV file. A message also displays when the query is run that indicates the filter on the column.  
   
  This example requires that you do the following:  
   
@@ -98,9 +98,9 @@ Query.READ;
   
     -   Includes columns for the **Name** and **No.** fields from the Customer table and the **Quantity** field from Sales Lines table.  
   
-         For step\-by\-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
+         For step-by-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
   
-2.  Create the following C\/AL variables and text constant in the object that will run the query, such as a codeunit.  
+2.  Create the following C/AL variables and text constant in the object that will run the query, such as a codeunit.  
   
     |Variable name|DataType|Subtype|  
     |-------------------|--------------|-------------|  
@@ -108,9 +108,9 @@ Query.READ;
   
     |Text constant name|ENU Value|  
     |------------------------|---------------|  
-    |Text000|Customer name \= %1, Quantity \= %2|  
+    |Text000|Customer name = %1, Quantity = %2|  
   
- The following C\/AL code uses the **SETRANGE** function to filter a query dataset over a range of values on the **Quantity** column. You can add the code to a codeunit, and then run the codeunit to see the results.  
+ The following C/AL code uses the **SETRANGE** function to filter a query dataset over a range of values on the **Quantity** column. You can add the code to a codeunit, and then run the codeunit to see the results.  
   
 ```  
 // Sets a filter to display only sales quantities greater than 10.  
@@ -132,4 +132,4 @@ MyQuery.CLOSE;
   
  When the code is run, a message that resembles the following appears for each row in the dataset:  
   
- **Customer name \= Selangorian Ltd., Quantity \= 30**
+ **Customer name = Selangorian Ltd., Quantity = 30**

@@ -59,11 +59,11 @@ OnAfterTestRun(CodeunitID : Integer;CodeunitName : Text[30];FunctionName : Text[
 > [!NOTE]  
 >  To return the error message for a failed test function run, use the [GETLASTERRORTEXT Function](GETLASTERRORTEXT-Function.md).  
   
- You can use the **OnAfterTestRun** trigger to perform post\-processing, such as logging, or to automate tests by integrating the test runner codeunit with a test management framework.  
+ You can use the **OnAfterTestRun** trigger to perform post-processing, such as logging, or to automate tests by integrating the test runner codeunit with a test management framework.  
   
  The **OnAfterTestRun** trigger is run in its own database transaction.  
   
- For more information, see [Testing the Application](Testing-the-Application.md) and [How to: Create a Test Runner Codeunit](../Topic/How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md).  
+ For more information, see [Testing the Application](Testing-the-Application.md) and [How to: Create a Test Runner Codeunit](How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md).  
   
 ## Example  
  The following **OnAfterTestRun** trigger code logs test results to a test reporting system. This example requires that you create a record variable named *log*.  
@@ -89,8 +89,8 @@ log.INSERT(true);
   
 ## See Also  
  [Testing the Application](Testing-the-Application.md)   
- [How to: Create a Test Runner Codeunit](../Topic/How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md)   
- [How to: Create Test Codeunits and Test Functions](../Topic/How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md)   
- [How to: Create Handler Functions](../Topic/How%20to:%20Create%20Handler%20Functions.md)   
- [Walkthrough: Testing Purchase Invoice Discounts](../Topic/Walkthrough:%20Testing%20Purchase%20Invoice%20Discounts.md)   
+ [How to: Create a Test Runner Codeunit](How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md)   
+ [How to: Create Test Codeunits and Test Functions](How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md)   
+ [How to: Create Handler Functions](How%20to:%20Create%20Handler%20Functions.md)   
+ [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough:%20Testing%20Purchase%20Invoice%20Discounts.md)   
  [OnBeforeTestRun Trigger](OnBeforeTestRun-Trigger.md)

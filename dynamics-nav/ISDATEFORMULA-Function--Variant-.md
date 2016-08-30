@@ -12,7 +12,7 @@ caps.latest.revision: 7
 manager: edupont
 ---
 # ISDATEFORMULA Function (Variant)
-Indicates whether a C\/AL variant contains a DateFormula variable.  
+Indicates whether a C/AL variant contains a DateFormula variable.  
   
 ## Syntax  
   
@@ -25,10 +25,10 @@ Ok := Variant.ISDATEFORMULA
  *Variant*  
  Type: Variant  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the C\/AL variant contains a DateFormula variable; otherwise, **false**.  
+ **true** if the C/AL variant contains a DateFormula variable; otherwise, **false**.  
   
 ## See Also  
  [Variant Data Type](Variant-Data-Type.md)

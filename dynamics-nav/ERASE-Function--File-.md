@@ -32,17 +32,17 @@ Deletes a file.
   
 -   You can enter only the subdirectory name if the file is located in a subdirectory of the current directory  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  Specifies whether the file was deleted.  
   
  **true** if the file was deleted; otherwise, **false**.  
   
- If you omit this optional return value and the file is not deleted, a run\-time error occurs. If you include the return value, you must handle any errors.  
+ If you omit this optional return value and the file is not deleted, a run-time error occurs. If you include the return value, you must handle any errors.  
   
 ## Remarks  
- If the user who runs this function does not have the required permission to delete the file or if the file is read\-only, then the file is not deleted.  
+ If the user who runs this function does not have the required permission to delete the file or if the file is read-only, then the file is not deleted.  
   
 ## Example  
  The following example deletes the file that is named C:\\TestFolder\\NewTestFile.txt.This example assumes that you have created the file on your computer.  

@@ -27,7 +27,7 @@ HasValue := Blob.HASVALUE
   
  The BLOB that you want to check.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the BLOB has a value; otherwise, **false**.  

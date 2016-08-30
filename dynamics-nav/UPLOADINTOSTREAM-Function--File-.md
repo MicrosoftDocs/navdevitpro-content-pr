@@ -28,7 +28,7 @@ Sends a file from the client computer to the corresponding [!INCLUDE[nav_server]
  The text displayed in the title bar of the **Open** dialog box.  
   
 > [!NOTE]  
->  This parameter is not supported by the [!INCLUDE[nav_web](includes/nav_web_md.md)]. The title is determined by the end\-user's browser.  
+>  This parameter is not supported by the [!INCLUDE[nav_web](includes/nav_web_md.md)]. The title is determined by the end-user's browser.  
   
  *FromFolder*  
  Type: Text  
@@ -58,10 +58,10 @@ Sends a file from the client computer to the corresponding [!INCLUDE[nav_server]
   
  The InStream that is used to send the file.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
- If you omit this optional return value, then a run\-time error occurs if the record cannot be found. If you include a return value, then you must handle any errors.  
+ If you omit this optional return value, then a run-time error occurs if the record cannot be found. If you include a return value, then you must handle any errors.  
   
  **true** if the file was uploaded; otherwise, **false**.  
   
@@ -95,4 +95,4 @@ UPLOADINTOSTREAM('Import','',' All Files (*.*)|*.*',FileName,NVInStream);
   
 ## See Also  
  [File Data Type](File-Data-Type.md)   
- [Walkthrough: Uploading a File from a Client to Microsoft Dynamics NAV Server](../Topic/Walkthrough:%20Uploading%20a%20File%20from%20a%20Client%20to%20Microsoft%20Dynamics%20NAV%20Server.md)
+ [Walkthrough: Uploading a File from a Client to Microsoft Dynamics NAV Server](Walkthrough:%20Uploading%20a%20File%20from%20a%20Client%20to%20Microsoft%20Dynamics%20NAV%20Server.md)

@@ -21,7 +21,7 @@ The following table describes the performance counters that are available in [!I
 ||Average server operation time \(ms\)|Average duration of server operations in milliseconds.|  
 |SQL Server connections|\# Mounted tenants|Number of tenants that are mounted on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.<br /><br /> For more information about tenants, see [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md).|  
 ||\# Open connections|Count of the current number of open connections from the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to [!INCLUDE[navnow](includes/navnow_md.md)] databases on SQL Servers.|  
-||% Query repositioning rate|Percentage of queries that are re\-executed when fetching the query result.|  
+||% Query repositioning rate|Percentage of queries that are re-executed when fetching the query result.|  
 ||Heartbeat time \(ms\)|The time that it takes to complete a single write to a system table. Every 30 seconds, the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance writes a record to indicate that the instance is "alive."<br /><br /> You can use this counter to indicate if there is network latency between the [!INCLUDE[nav_server](includes/nav_server_md.md)] and the SQL Server.|  
 ||\# Preferred connection total requests|Count of the total number of requests to the preferred connection cache. The preferred connection cache contains requests from the SQL connection pool that was last used by a [!INCLUDE[navnow](includes/navnow_md.md)] user.|  
 ||% Preferred connection cache hit rate|Percentage of hits in the preferred connection cache, compared to the total number of requests.|  
@@ -36,7 +36,7 @@ The following table describes the performance counters that are available in [!I
 ||\# Rows in all temporary tables|Count of number of rows in all temporary tables.|  
   
 ## See Also  
- [How to: Set up Performance Counters in Windows Performance Monitor](../Topic/How%20to:%20Set%20up%20Performance%20Counters%20in%20Windows%20Performance%20Monitor.md)   
- [How to: Create a Data Collector Set From the Microsoft Dynamics NAV Template](../Topic/How%20to:%20Create%20a%20Data%20Collector%20Set%20From%20the%20Microsoft%20Dynamics%20NAV%20Template.md)   
+ [How to: Set up Performance Counters in Windows Performance Monitor](How%20to:%20Set%20up%20Performance%20Counters%20in%20Windows%20Performance%20Monitor.md)   
+ [How to: Create a Data Collector Set From the Microsoft Dynamics NAV Template](How%20to:%20Create%20a%20Data%20Collector%20Set%20From%20the%20Microsoft%20Dynamics%20NAV%20Template.md)   
  [Optimizing SQL Server Performance with Microsoft Dynamics NAV](Optimizing-SQL-Server-Performance-with-Microsoft-Dynamics-NAV.md)   
  [Microsoft Dynamics NAV Management Pack for System Center Operations Manager](http://go.microsoft.com/fwlink/?LinkID=722863)

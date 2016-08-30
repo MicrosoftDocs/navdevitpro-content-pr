@@ -26,16 +26,16 @@ The following sequence of events shows when objects are merged:
   
  There are two options for merging:  
   
--   Existing \<\- New  
+-   Existing \<- New  
   
--   New \<\- Existing  
+-   New \<- Existing  
   
-## Existing \<\- New  
- When you use Existing \<\- New, the following items from the existing object are always used:  
+## Existing \<- New  
+ When you use Existing \<- New, the following items from the existing object are always used:  
   
 -   Table properties.  
   
--   Local C\/AL functions on the table, including local variables.  
+-   Local C/AL functions on the table, including local variables.  
   
 -   Global variables.  
   
@@ -59,14 +59,14 @@ The following sequence of events shows when objects are merged:
   
  A workaround would be to declare the global variable in the old object before merging the objects.  
   
-## New \<\- Existing  
- When you use New \<\- Existing option, this reverses the scenario.  
+## New \<- Existing  
+ When you use New \<- Existing option, this reverses the scenario.  
   
  The following items from the new object are always used:  
   
 -   Table properties.  
   
--   Local C\/AL functions on the table, including local variables.  
+-   Local C/AL functions on the table, including local variables.  
   
 -   Global variables.  
   

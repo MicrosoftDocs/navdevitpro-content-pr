@@ -54,7 +54,7 @@ else
     there is no useful value in salesOrder.Credit_Limit_LCY  
 ```  
   
- If you assign a non\-default value in the value type, then you should confirm this by setting the accompanying **Boolean \*Specified** property to `true`:  
+ If you assign a non-default value in the value type, then you should confirm this by setting the accompanying **Boolean \*Specified** property to `true`:  
   
 ```  
 salesOrder.Credit_Limit_LCY = 1000;  

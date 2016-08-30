@@ -11,7 +11,7 @@ ms.assetid: 808b24d8-8db4-49fb-a057-518b96ac220b
 caps.latest.revision: 5
 ---
 # Recommended Usage of GridLayout and FixedLayout
-This topic explains some important guidelines for working with the GridLayout and FixedLayout controls. For more information about GridLayout, see [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](../Topic/How%20to:%20Arrange%20Fields%20in%20Rows%20and%20Columns%20Using%20the%20GridLayout%20Control.md). For more information about FixedLayout, see [Arranging Fields in Rows and Columns Using a FixedLayout Control](Arranging-Fields-in-Rows-and-Columns-Using-a-FixedLayout-Control.md).  
+This topic explains some important guidelines for working with the GridLayout and FixedLayout controls. For more information about GridLayout, see [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](How%20to:%20Arrange%20Fields%20in%20Rows%20and%20Columns%20Using%20the%20GridLayout%20Control.md). For more information about FixedLayout, see [Arranging Fields in Rows and Columns Using a FixedLayout Control](Arranging-Fields-in-Rows-and-Columns-Using-a-FixedLayout-Control.md).  
   
 ## Required Structure Using a GridLayout or FixedLayout Control  
  For both the GridLayout and the FixedLayout controls, the following illustration shows the structure that is required to get the layout results that you expect.  
@@ -48,11 +48,11 @@ This topic explains some important guidelines for working with the GridLayout an
   
 |Control Type|Control Subtype|  
 |------------------|---------------------|  
-|Add\-Ins||  
+|Add-Ins||  
 |Parts|Chart Parts|  
 ||System Parts|  
 |Containers \(level 0 is supported\)||  
   
 ## See Also  
- [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](../Topic/How%20to:%20Arrange%20Fields%20in%20Rows%20and%20Columns%20Using%20the%20GridLayout%20Control.md)   
- [How to: Arrange Page Fields in Rows and Columns Using a FixedLayout Control](../Topic/How%20to:%20Arrange%20Page%20Fields%20in%20Rows%20and%20Columns%20Using%20a%20FixedLayout%20Control.md)
+ [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](How%20to:%20Arrange%20Fields%20in%20Rows%20and%20Columns%20Using%20the%20GridLayout%20Control.md)   
+ [How to: Arrange Page Fields in Rows and Columns Using a FixedLayout Control](How%20to:%20Arrange%20Page%20Fields%20in%20Rows%20and%20Columns%20Using%20a%20FixedLayout%20Control.md)

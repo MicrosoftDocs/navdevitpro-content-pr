@@ -21,7 +21,7 @@ Sets the range of characters the user can enter into this field or control.
 -   Table Fields  
   
 ## Remarks  
- If you want users to only enter uppercase letters in this field, enter **AZ**. This ensures that only uppercase characters in the range of A\-Z are accepted. If you want both uppercase and lowercase characters, leave this value blank.  
+ If you want users to only enter uppercase letters in this field, enter **AZ**. This ensures that only uppercase characters in the range of A-Z are accepted. If you want both uppercase and lowercase characters, leave this value blank.  
   
  You can specify multiple ranges of characters by entering the parameters in pairs. For example, a value of **admpzz** indicates that only the following characters are accepted: a, b, c, d, m, n, o, p, and z. If you only want to allow a single character, then enter that character twice to specify a starting and ending range.  
   

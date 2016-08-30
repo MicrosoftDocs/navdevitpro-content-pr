@@ -55,5 +55,5 @@ This topic describes the identifiers, data types, and data formats that are used
  Each of the SQL Server data types is created as NOT NULL except the IMAGE type, which allows NULL.  
   
 ## See Also  
- [Developing Multilanguage\-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md)   
+ [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md)   
  [Field Data Types](Field-Data-Types.md)

@@ -24,7 +24,7 @@ In order to work in the application, you must always open a database and a compa
   
 3.  In the **Database Name** field, enter the name of the database. Choose the up arrow to select from the list of databases that are available on the selected server.  
   
-4.  In the **Authentication** field, enter the type of authentication that you require. Choose the drop\-down arrow to select **Database Server Authentication** or **Windows Authentication**.  
+4.  In the **Authentication** field, enter the type of authentication that you require. Choose the drop-down arrow to select **Database Server Authentication** or **Windows Authentication**.  
   
     -   If you select **Database Server Authentication**, then your authentication is performed by the SQL Server instance that you have selected.  
   
@@ -45,7 +45,7 @@ In order to work in the application, you must always open a database and a compa
   
 ## See Also  
  [\($ S\_2341 Available Microsoft SQL Servers $\)](-$-S_2341-Available-Microsoft-SQL-Servers-$-.md)   
- [How to: Create Databases](../Topic/How%20to:%20Create%20Databases.md)   
- [How to: Create Companies](../Topic/How%20to:%20Create%20Companies.md)   
- [\($ S\_COMPANY How to: Select a Company $\)](../Topic/\($%20S_COMPANY%20How%20to:%20Select%20a%20Company%20$\).md)   
- [How to: Deploy a Microsoft Dynamics NAV Database to Azure SQL Database](../Topic/How%20to:%20Deploy%20a%20Microsoft%20Dynamics%20NAV%20Database%20to%20Azure%20SQL%20Database.md)
+ [How to: Create Databases](How%20to:%20Create%20Databases.md)   
+ [How to: Create Companies](How%20to:%20Create%20Companies.md)   
+ [\($ S\_COMPANY How to: Select a Company $\)](\($%20S_COMPANY%20How%20to:%20Select%20a%20Company%20$\).md)   
+ [How to: Deploy a Microsoft Dynamics NAV Database to Azure SQL Database](How%20to:%20Deploy%20a%20Microsoft%20Dynamics%20NAV%20Database%20to%20Azure%20SQL%20Database.md)

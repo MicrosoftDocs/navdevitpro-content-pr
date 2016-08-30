@@ -26,7 +26,7 @@ TableNumber := FieldRef.RELATION
   
  The FieldRef that refers to the field for which you want to find the table relationship.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of the table that has a relationship with the field referred to by *FieldRef*.  
@@ -39,7 +39,7 @@ TableNumber := FieldRef.RELATION
  This function is similar to the [RELATION Function \(Record\)](RELATION-Function--Record-.md) function.  
   
 ## Example  
- The following example opens table 37, the Sales Line table, as a RecordRef variable and creates a reference to field 2 \(Sell\-to Customer No.\). The [FieldRef Data Type](FieldRef-Data-Type.md) of field 2 is stored in the MyFieldRef variable. The RELATION function retrieves the number of the table that has a relation with the Sell\-To\-Customer field \(field 2\). The table number is stored the varRelation variable and displayed in the message box. This example requires that you create the following variables and text constant in the **C\/AL Globals** windows.  
+ The following example opens table 37, the Sales Line table, as a RecordRef variable and creates a reference to field 2 \(Sell-to Customer No.\). The [FieldRef Data Type](FieldRef-Data-Type.md) of field 2 is stored in the MyFieldRef variable. The RELATION function retrieves the number of the table that has a relation with the Sell-To-Customer field \(field 2\). The table number is stored the varRelation variable and displayed in the message box. This example requires that you create the following variables and text constant in the **C/AL Globals** windows.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

@@ -19,11 +19,11 @@ The topics in the Deployment node are intended to help an administrator install 
   
 -   Install different components on different computers.  
   
--   Choose from a selection of predefined [Installation Options](Installation-Options.md) or create your own custom list of components and options to install. For more information, see [How to: Choose Components to Install](../Topic/How%20to:%20Choose%20Components%20to%20Install.md).  
+-   Choose from a selection of predefined [Installation Options](Installation-Options.md) or create your own custom list of components and options to install. For more information, see [How to: Choose Components to Install](How%20to:%20Choose%20Components%20to%20Install.md).  
   
--   Preconfigure components before installation. For more information, see [How to: Preconfigure Components](../Topic/How%20to:%20Preconfigure%20Components.md).  
+-   Preconfigure components before installation. For more information, see [How to: Preconfigure Components](How%20to:%20Preconfigure%20Components.md).  
   
--   Create, save, or load Setup configuration files that capture your selection of components and configuration information. For more information, see [How to: Create or Load a Setup Configuration File](../Topic/How%20to:%20Create%20or%20Load%20a%20Setup%20Configuration%20File.md).  
+-   Create, save, or load Setup configuration files that capture your selection of components and configuration information. For more information, see [How to: Create or Load a Setup Configuration File](How%20to:%20Create%20or%20Load%20a%20Setup%20Configuration%20File.md).  
   
  You use Setup to install software and to create custom deployments that you can distribute to different users across a company.  
   

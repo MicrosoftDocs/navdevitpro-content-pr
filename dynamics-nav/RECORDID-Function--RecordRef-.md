@@ -26,11 +26,11 @@ RecordID := RecordRef.RECORDID
   
  The RecordRef of the record whose recordID you want to get.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: RecordID  
   
 ## Example  
- The following example opens table 18 \(Customer\) as a RecordRef variable that is named MyRecordRef. The [FINDLAST Function \(RecordRef\)](FINDLAST-Function--RecordRef-.md) finds the last record in the table. The record id of the last record is retrieved, stored in the RecID variable displayed in message box. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example opens table 18 \(Customer\) as a RecordRef variable that is named MyRecordRef. The [FINDLAST Function \(RecordRef\)](FINDLAST-Function--RecordRef-.md) finds the last record in the table. The record id of the last record is retrieved, stored in the RecID variable displayed in message box. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

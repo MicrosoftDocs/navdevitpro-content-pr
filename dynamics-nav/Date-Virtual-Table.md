@@ -26,9 +26,9 @@ The **Date** virtual table gives you easy access to days, weeks, months, quarter
   
  You can apply filters to the **Period Type**, **Period Start**, and **Period End** fields to easily get a subset or range of days, weeks, months, quarters, or years to use in your pages or reports.  
   
- The date virtual table is most frequently used to provide a range of dates; the Receivables\- Payables page is a typical example.  
+ The date virtual table is most frequently used to provide a range of dates; the Receivables- Payables page is a typical example.  
   
- You must create a tabular\-type page to access the **Date** virtual table. For more information, see [How to: Create a Page to View a Virtual Table](../Topic/How%20to:%20Create%20a%20Page%20to%20View%20a%20Virtual%20Table.md).  
+ You must create a tabular-type page to access the **Date** virtual table. For more information, see [How to: Create a Page to View a Virtual Table](How%20to:%20Create%20a%20Page%20to%20View%20a%20Virtual%20Table.md).  
   
 ## See Also  
  [Virtual Tables](Virtual-Tables.md)

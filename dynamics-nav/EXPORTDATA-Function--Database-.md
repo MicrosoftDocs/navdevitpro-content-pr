@@ -54,7 +54,7 @@ Exports data from the [!INCLUDE[navnow](includes/navnow_md.md)] database to a fi
  *IncludeGlobalData*  
  Type: Variable  
   
- Specifies if you want to export global, non\-company specific data.  
+ Specifies if you want to export global, non-company specific data.  
   
  Create a variable of type Boolean to specify this parameter.  
   

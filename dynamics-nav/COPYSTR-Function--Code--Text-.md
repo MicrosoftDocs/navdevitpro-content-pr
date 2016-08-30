@@ -35,9 +35,9 @@ NewString := COPYSTR(String, Position[, Length])
  *Length*  
  Type: Integer  
   
- The number of characters to copy. If the value of *Length* is less than 0, then the COPYSTR function returns an error. If the value of *Length* causes *Position* \+ *Length* to be \> \(total length of the string\), then the result includes all the characters from *Position* to the end of the string. If you omit *Length*, then the resulting string includes all the characters from *Position* to the end of the string.  
+ The number of characters to copy. If the value of *Length* is less than 0, then the COPYSTR function returns an error. If the value of *Length* causes *Position* + *Length* to be \> \(total length of the string\), then the result includes all the characters from *Position* to the end of the string. If you omit *Length*, then the resulting string includes all the characters from *Position* to the end of the string.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text constant or code  
   
  The resulting string or substring.  
@@ -46,7 +46,7 @@ NewString := COPYSTR(String, Position[, Length])
  If *Position* combined with *Length* exceeds the length of the string, all the characters from *Position* to the end of the string are returned.  
   
 ## Example  
- This example requires that you create the following variables and text constants in the C\/AL Globals window.  
+ This example requires that you create the following variables and text constants in the C/AL Globals window.  
   
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  

@@ -12,7 +12,7 @@ caps.latest.revision: 2
 manager: edupont
 ---
 # ISFILTERPAGEBUILDER Function (Variant)
-Indicates whether a C\/AL variant contains a FilterPageBuilder variable.  
+Indicates whether a C/AL variant contains a FilterPageBuilder variable.  
   
 ## Syntax  
   
@@ -26,12 +26,12 @@ Ok := Variant.ISFILTERPAGEBUILDER
 ## Return Value  
  Type: Boolean  
   
- **true** if the C\/AL variant contains a FilterPageBuilder variable; otherwise, **false**.  
+ **true** if the C/AL variant contains a FilterPageBuilder variable; otherwise, **false**.  
   
 ## Example  
  The following example uses the ISFILTERPAGEBUILDER function on a filter page object that includes a filter control for the **Date** system table.  
   
- This example requires that you create the following variables in the **C\/AL Globals** window.  
+ This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|SubType|  
 |-------------------|--------------|-------------|  

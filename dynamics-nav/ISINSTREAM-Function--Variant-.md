@@ -12,7 +12,7 @@ caps.latest.revision: 6
 manager: edupont
 ---
 # ISINSTREAM Function (Variant)
-Indicates whether a C\/AL variant contains an InStream variable.  
+Indicates whether a C/AL variant contains an InStream variable.  
   
 ## Syntax  
   
@@ -25,10 +25,10 @@ Ok := Variant.ISINSTREAM
  *Variant*  
  Type: Variant  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the C\/AL variant contains an InStream variable; otherwise, **false**.  
+ **true** if the C/AL variant contains an InStream variable; otherwise, **false**.  
   
 ## See Also  
  [Variant Data Type](Variant-Data-Type.md)

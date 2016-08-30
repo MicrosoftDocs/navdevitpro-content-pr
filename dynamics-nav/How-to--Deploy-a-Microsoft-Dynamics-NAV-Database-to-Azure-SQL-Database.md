@@ -14,7 +14,7 @@ manager: edupont
 # How to: Deploy a Microsoft Dynamics NAV Database to Azure SQL Database
 This topic describes how you can deploy a [!INCLUDE[navnow](includes/navnow_md.md)] database to Microsoft Azure SQL Database.  
   
- To deploy a [!INCLUDE[navnow](includes/navnow_md.md)] database to Azure SQL Database, the database must be exported as a data\-tier application \(DAC\) file, which is known as a .bacpac file. This can be performed by using SQL Server Manager, as described in this topic.  
+ To deploy a [!INCLUDE[navnow](includes/navnow_md.md)] database to Azure SQL Database, the database must be exported as a data-tier application \(DAC\) file, which is known as a .bacpac file. This can be performed by using SQL Server Manager, as described in this topic.  
   
 > [!IMPORTANT]  
 >  To optimize, we recommend that the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that connects to the database is deployed on a virtual machine in Azure. Additionally, the virtual machine and SQL Database must be in the same Azure region.  
@@ -90,7 +90,7 @@ This topic describes how you can deploy a [!INCLUDE[navnow](includes/navnow_md.m
   
     1.  After you install the [!INCLUDE[nav_server](includes/nav_server_md.md)], configure SQL Server Authentication on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. For the database credentials, use the login name and password that you set up in step 2.  
   
-         For more information, see [How to: Configure SQL Server Authentication in Microsoft Dynamics NAV](../Topic/How%20to:%20Configure%20SQL%20Server%20Authentication%20in%20Microsoft%20Dynamics%20NAV.md).  
+         For more information, see [How to: Configure SQL Server Authentication in Microsoft Dynamics NAV](How%20to:%20Configure%20SQL%20Server%20Authentication%20in%20Microsoft%20Dynamics%20NAV.md).  
   
  The [!INCLUDE[navnow](includes/navnow_md.md)] database is now deployed and configured on Azure. For developing, you can connect to the database from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
   

@@ -14,13 +14,13 @@ manager: edupont
 # How to: Set Up Multiple Web Server Instances for the Microsoft Dynamics NAV Web Client
 When you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], a website with a web server instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)] is added on Internet Information Services \(IIS\). There may be scenarios when you want to set up multiple [!INCLUDE[nav_web](includes/nav_web_md.md)] instances on the [!INCLUDE[nav_web](includes/nav_web_md.md)] website. For example, you could set up a separate [!INCLUDE[nav_web](includes/nav_web_md.md)] instance for the different companies.  
   
- To add a new [!INCLUDE[nav_web](includes/nav_web_md.md)] application, you use the [!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell and run the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New\-NAVWebServerInstance](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVWebServerInstance) cmdlet to add a new web server instance. The resultant [!INCLUDE[navnow](includes/navnow_md.md)] web server has the following characteristics:  
+ To add a new [!INCLUDE[nav_web](includes/nav_web_md.md)] application, you use the [!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell and run the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVWebServerInstance](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVWebServerInstance) cmdlet to add a new web server instance. The resultant [!INCLUDE[navnow](includes/navnow_md.md)] web server has the following characteristics:  
   
 -   A virtual directory instance with an underlying web application is added to the [!INCLUDE[nav_web](includes/nav_web_md.md)] website. The [!INCLUDE[nav_web](includes/nav_web_md.md)] application has its own web.config file that you can modify to change the configuration of the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
 -   You can configure IIS settings, such as application pool. You can also configure [!INCLUDE[navnow](includes/navnow_md.md)] settings, such as the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance or company. These setting must be configured separately for each web server instance.  
   
--   The new web server instance has the same URL as other instances under the parent website, except that it includes the instance name that you specify with the New\-NavWebServerInstance cmdlet.  
+-   The new web server instance has the same URL as other instances under the parent website, except that it includes the instance name that you specify with the New-NavWebServerInstance cmdlet.  
   
      For example, the URL for the default [!INCLUDE[nav_web](includes/nav_web_md.md)] is http:\/\/MyNavWebServer:8080\/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\/WebClient. The URL for the new [!INCLUDE[nav_web](includes/nav_web_md.md)] instance, which you name MyCompany, would be http:\/\/MyNavWebServer:8080\/MyCompany\/WebClient.  
   
@@ -35,14 +35,14 @@ When you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], 
   
 1.  \(Optional\) Modify the instanceweb.config file.  
   
-     For more information, see [Modifying the Microsoft Dynamics NAV Settings in the Instanceweb.config File](../Topic/How%20to:%20Set%20Up%20Multiple%20Web%20Server%20Instances%20for%20the%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#ModifyInstanceweb)  
+     For more information, see [Modifying the Microsoft Dynamics NAV Settings in the Instanceweb.config File](How%20to:%20Set%20Up%20Multiple%20Web%20Server%20Instances%20for%20the%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#ModifyInstanceweb)  
   
     > [!NOTE]  
     >  You would typically follow this step if you were adding multiple [!INCLUDE[nav_web](includes/nav_web_md.md)] instances to save time configuring each instance.  
   
 2.  On the computer that is running IIS, run [!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell as an Administrator.  
   
-     On the **Start** menu, right\-click **[!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell**, and then choose **Run as Administrator**.  
+     On the **Start** menu, right-click **[!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell**, and then choose **Run as Administrator**.  
   
 3.  At the command prompt, type the following command.  
   
@@ -57,7 +57,7 @@ When you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], 
     -   Change *NAVServerInstance* to the name of the instance on the [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
     > [!NOTE]  
-    >  This command only sets the required parameters of the NAVWebServerInstance cmdlet. The cmdlet has several other parameters that can use to configure the web server instance. For more information about the syntax and parameters, see [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New\-NAVWebServerInstance](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVWebServerInstance).  
+    >  This command only sets the required parameters of the NAVWebServerInstance cmdlet. The cmdlet has several other parameters that can use to configure the web server instance. For more information about the syntax and parameters, see [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVWebServerInstance](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVWebServerInstance).  
   
 4.  Press Enter to run the cmdlet.  
   
@@ -67,7 +67,7 @@ When you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], 
     >  If you want to change the configuration of the new [!INCLUDE[navnow](includes/navnow_md.md)] web server instance, modify the web.config file. For more information, see [Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md).  
   
 ##  <a name="ModifyInstanceweb"></a> Modifying the Microsoft Dynamics NAV Settings in the Instanceweb.config File  
- The [!INCLUDE[navnow](includes/navnow_md.md)] web server instances that you add with the New\-NavWebServerInstance cmdlet use the instanceweb.config file as a template file to create the actual web.config file for the instance. Modifying the instanceweb.config file enables you to configure the [!INCLUDE[navnow](includes/navnow_md.md)] settings in advance, and then pass the settings to new web server instances when they are created.  
+ The [!INCLUDE[navnow](includes/navnow_md.md)] web server instances that you add with the New-NavWebServerInstance cmdlet use the instanceweb.config file as a template file to create the actual web.config file for the instance. Modifying the instanceweb.config file enables you to configure the [!INCLUDE[navnow](includes/navnow_md.md)] settings in advance, and then pass the settings to new web server instances when they are created.  
   
  By default, the instanceweb.config file is located in the [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Web Client folder of the computer on which [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] are installed.  
   
@@ -85,5 +85,5 @@ When you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], 
   
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
- [How to: Install the Web Server Components](../Topic/How%20to:%20Install%20the%20Web%20Server%20Components.md)   
+ [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md)   
  [Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md)

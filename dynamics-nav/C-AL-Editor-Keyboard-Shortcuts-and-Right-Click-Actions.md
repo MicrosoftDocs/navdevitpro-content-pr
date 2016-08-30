@@ -12,28 +12,28 @@ caps.latest.revision: 4
 manager: edupont
 ---
 # C-AL Editor Keyboard Shortcuts and Right-Click Actions
-This topic describes the keyboard shortcuts and right\-click actions in the C\/AL Editor.  
+This topic describes the keyboard shortcuts and right-click actions in the C/AL Editor.  
   
 ## Keyboard Shortcuts  
- The following table describes the keyboard shortcuts that are available from the **\($ S\_10203\_1 C\/AL Editor $\)** window.  
+ The following table describes the keyboard shortcuts that are available from the **\($ S\_10203\_1 C/AL Editor $\)** window.  
   
 |Keystroke|Action|  
 |---------------|------------|  
-|Ctrl\+G|Open the **\($ S\_10204 C\/AL Globals $\)** window to view and declare the global variables, text constants, and functions in the object.|  
-|Ctrl\+L|Open **\($ S\_10205 C\/AL Locals $\)** window to view and declare local variables and text constants for the current function or trigger.|  
-|Ctrl\+Z|Undo the last action.|  
-|Ctrl\+Y|Redo the last action.|  
-|Ctrl\+J|List all members \(as IntelliSense\) for the local scope.|  
-|Ctrl\+Space|List the members \(as IntelliSense\) for global scope.|  
-|Ctrl\+W|Select the word.|  
-|Ctrl\+U|Make the selected code lowercase.|  
-|Ctrl\+Shift\+U|Make the selected code uppercase.|  
-|Ctrl\+Shift\+N|Expand all collapsed code.|  
-|Ctrl\+K\+I|Display information about C\/AL symbol \(such as variable, functions, and parameter\) in which the cursor is positioned. This displays the same text as when you point to the element.|  
-|Ctrl\+F12|Go to a definition of function or object. For more information, see [Viewing the Definition of a Function or Object by Using Go To Definition](Viewing-the-Definition-of-a-Function-or-Object-by-Using-Go-To-Definition.md).|  
+|Ctrl+G|Open the **\($ S\_10204 C/AL Globals $\)** window to view and declare the global variables, text constants, and functions in the object.|  
+|Ctrl+L|Open **\($ S\_10205 C/AL Locals $\)** window to view and declare local variables and text constants for the current function or trigger.|  
+|Ctrl+Z|Undo the last action.|  
+|Ctrl+Y|Redo the last action.|  
+|Ctrl+J|List all members \(as IntelliSense\) for the local scope.|  
+|Ctrl+Space|List the members \(as IntelliSense\) for global scope.|  
+|Ctrl+W|Select the word.|  
+|Ctrl+U|Make the selected code lowercase.|  
+|Ctrl+Shift+U|Make the selected code uppercase.|  
+|Ctrl+Shift+N|Expand all collapsed code.|  
+|Ctrl+K+I|Display information about C/AL symbol \(such as variable, functions, and parameter\) in which the cursor is positioned. This displays the same text as when you point to the element.|  
+|Ctrl+F12|Go to a definition of function or object. For more information, see [Viewing the Definition of a Function or Object by Using Go To Definition](Viewing-the-Definition-of-a-Function-or-Object-by-Using-Go-To-Definition.md).|  
   
-## Right\-Click Actions  
- The following table describes the actions that you can perform by right\-clicking code in the **\($ S\_10203\_1 C\/AL Editor $\)** window.  
+## Right-Click Actions  
+ The following table describes the actions that you can perform by right-clicking code in the **\($ S\_10203\_1 C/AL Editor $\)** window.  
   
 |Keystroke|Action|  
 |---------------|------------|  
@@ -44,7 +44,7 @@ This topic describes the keyboard shortcuts and right\-click actions in the C\/A
 |Paste|Place lines of copied or cut code where the cursor is located.|  
   
 ## See Also  
- [Programming in C\-AL](Programming-in-C-AL.md)   
- [\($ S\_10203\_1 C\-AL Editor $\)](-$-S_10203_1-C-AL-Editor-$-.md)   
- [\($ S\_10204 C\-AL Globals $\)](-$-S_10204-C-AL-Globals-$-.md)   
- [\($ S\_10205 C\-AL Locals $\)](-$-S_10205-C-AL-Locals-$-.md)
+ [Programming in C-AL](Programming-in-C-AL.md)   
+ [\($ S\_10203\_1 C-AL Editor $\)](-$-S_10203_1-C-AL-Editor-$-.md)   
+ [\($ S\_10204 C-AL Globals $\)](-$-S_10204-C-AL-Globals-$-.md)   
+ [\($ S\_10205 C-AL Locals $\)](-$-S_10205-C-AL-Locals-$-.md)

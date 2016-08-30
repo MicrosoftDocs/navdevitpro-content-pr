@@ -12,7 +12,7 @@ caps.latest.revision: 20
 manager: edupont
 ---
 # How to: Add FastTabs to a Customer Card Page
-In this topic you learn how to add a FastTab control to a customer card page. FastTabs replace tabs and enable you to place data in groups on card or task pages. If a group is expanded you see all the fields in a group. If it is collapsed you just see the summary line. The summary line is the header that displays a name for the group, such as 'Communication' and can include promoted fields such as 'E\-mail'. Promoting fields to the summary line enables you to present key information to the user, even if the control is collapsed.  
+In this topic you learn how to add a FastTab control to a customer card page. FastTabs replace tabs and enable you to place data in groups on card or task pages. If a group is expanded you see all the fields in a group. If it is collapsed you just see the summary line. The summary line is the header that displays a name for the group, such as 'Communication' and can include promoted fields such as 'E-mail'. Promoting fields to the summary line enables you to present key information to the user, even if the control is collapsed.  
   
  Organizing data using FastTabs helps users to find key information quickly, while at the same time giving an overview of areas that otherwise would remain hidden. For example, the customer card page displays customer information in the following categories: General, Communication, Invoicing, Payments, Shipping, and Foreign Trade. Each category is a separate group that can be expanded or collapsed, making it easier for users to focus on one area at a time. On task pages, a FastTab typically represents a single step in a task.  
   
@@ -22,7 +22,7 @@ In this topic you learn how to add a FastTab control to a customer card page. Fa
   
 1.  Open **Object Designer**, choose **Page**. Select a card page that you have created from the list of available pages, and then choose **Design**.  
   
-     For more information about how to create card pages, see [Walkthrough: Creating a Customer Card Page in Page Designer](../Topic/Walkthrough:%20Creating%20a%20Customer%20Card%20Page%20in%20Page%20Designer.md).  
+     For more information about how to create card pages, see [Walkthrough: Creating a Customer Card Page in Page Designer](Walkthrough:%20Creating%20a%20Customer%20Card%20Page%20in%20Page%20Designer.md).  
   
 2.  In **Page Designer**, choose the first available row in your blank card page. Type a name for your control in the **Name** field. Choose the **Caption** field and the other fields are completed automatically. By default, **Type** is set to **Container** and **SubType** is set to **ContentArea**. Keep the default values.  
   
@@ -60,5 +60,5 @@ In this topic you learn how to add a FastTab control to a customer card page. Fa
      Repeat the same procedure to add more FastTab groups to your page.  
   
 ## See Also  
- [Walkthrough: Creating a Customer Card Page in Page Designer](../Topic/Walkthrough:%20Creating%20a%20Customer%20Card%20Page%20in%20Page%20Designer.md)   
+ [Walkthrough: Creating a Customer Card Page in Page Designer](Walkthrough:%20Creating%20a%20Customer%20Card%20Page%20in%20Page%20Designer.md)   
  [Page Designer Troubleshooting](Page-Designer-Troubleshooting.md)

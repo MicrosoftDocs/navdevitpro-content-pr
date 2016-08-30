@@ -39,7 +39,7 @@ This topic describes how to use a FixedLayout group control on a page to arrange
   
     -   If the data source is a field of the table that is associated with the page, then on the **View** menu, choose **Field Menu**, select the field, and then choose the **OK** button.  
   
-    -   If the data source is a variable, then on the **View** menu, choose **C\/AL Globals** or **C\/AL Locals**, and then create the variable. After you create the variable, in the **SourceExpr** field in Page Designer, choose the **AssistEdit** button and select the variable.  
+    -   If the data source is a variable, then on the **View** menu, choose **C/AL Globals** or **C/AL Locals**, and then create the variable. After you create the variable, in the **SourceExpr** field in Page Designer, choose the **AssistEdit** button and select the variable.  
   
 8.  Repeat steps 6 and 7 to add the remaining fields in the first column.  
   
@@ -54,4 +54,4 @@ This topic describes how to use a FixedLayout group control on a page to arrange
   
 ## See Also  
  [Arranging Fields in Rows and Columns](Arranging-Fields-in-Rows-and-Columns.md)   
- [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](../Topic/How%20to:%20Arrange%20Fields%20in%20Rows%20and%20Columns%20Using%20the%20GridLayout%20Control.md)
+ [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](How%20to:%20Arrange%20Fields%20in%20Rows%20and%20Columns%20Using%20the%20GridLayout%20Control.md)

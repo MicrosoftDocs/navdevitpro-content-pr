@@ -15,7 +15,7 @@ manager: edupont
 A *query* is a new object in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] that you use to specify a set of data that you want to read from the [!INCLUDE[navnow](includes/navnow_md.md)] database. You can query the database to retrieve one or more fields from a single table or multiple tables. You can specify how to join the tables in the query. You can specify totaling methods on fields, such as sums and averages. This topic describes how to design queries and table keys in the most efficient way.  
   
 ## FlowFields in Queries  
- A sub\-query is automatically added to the SQL statement to retrieve each FlowField in a query. This allows [!INCLUDE[navnow](includes/navnow_md.md)] to retrieve all the data in one request.  
+ A sub-query is automatically added to the SQL statement to retrieve each FlowField in a query. This allows [!INCLUDE[navnow](includes/navnow_md.md)] to retrieve all the data in one request.  
   
 > [!IMPORTANT]  
 >  You cannot use a FlowField on a virtual table in a query because this cannot be converted automatically into a SQL statement.  
@@ -33,7 +33,7 @@ A *query* is a new object in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] t
   
  For more information about SQL Server covering indexes, see [SQL Server Optimization](http://go.microsoft.com/fwlink/?LinkId=257836).  
   
- For more information about SQL Server clustered and non\-clustered indexes, see [Types of Indexes](http://go.microsoft.com/fwlink/?LinkID=257835).  
+ For more information about SQL Server clustered and non-clustered indexes, see [Types of Indexes](http://go.microsoft.com/fwlink/?LinkID=257835).  
   
 ## Covering SIFT Indexes  
  Similar to how indexes can be used to retrieve data for a query, SIFT indexes can be used to retrieve data for a query that contains totals. SIFT totals are maintained after each insert, modify, or delete call, and so some or all of the totals are already calculated. A SIFT index can be used when the following conditions are true:  
@@ -44,7 +44,7 @@ A *query* is a new object in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] t
   
 -   In a query in which you have aggregations but not on all DataItems, then for the DataItems without aggregations, the columns are part of a SumIndexField.  
   
--   All non\-aggregated columns under the DataItem that have aggregation are part of the key fields defined for the same SIFT index.  
+-   All non-aggregated columns under the DataItem that have aggregation are part of the key fields defined for the same SIFT index.  
   
 -   All columns that are used in the DataItem table filters are part of the same [!INCLUDE[navnow](includes/navnow_md.md)] key.  
   

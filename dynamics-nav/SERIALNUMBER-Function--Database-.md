@@ -21,13 +21,13 @@ Gets a string that contains the serial number of the license file for your [!INC
 String := SERIALNUMBER;  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text or Code  
   
  This string contains the serial number.  
   
 ## Example  
- This example requires that you create the following text constants and variables in the **C\/AL Globals** window.  
+ This example requires that you create the following text constants and variables in the **C/AL Globals** window.  
   
 |Text constant name|ENU value|  
 |------------------------|---------------|  
@@ -46,7 +46,7 @@ MESSAGE(Text000, SN);
   
  **The serial number for this software package is:**  
   
- **W1\-ZA\-002\-6R75A\-7**  
+ **W1-ZA-002-6R75A-7**  
   
 > [!NOTE]  
 >  The serial number depends on your licensed version of [!INCLUDE[navnow](includes/navnow_md.md)]. The serial number shown here is an example.

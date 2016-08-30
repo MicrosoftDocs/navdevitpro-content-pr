@@ -30,10 +30,10 @@ MESSAGE(String [, Value1, …])
  *Value1, …*  
  Type: Any  
   
- Any type of C\/AL variable you want to insert into String. You can insert up to 10 values.  
+ Any type of C/AL variable you want to insert into String. You can insert up to 10 values.  
   
 ## Remarks  
- When a message statement in the C\/AL code is executed, the message is not immediately displayed. Instead, it is displayed after the C\/AL code is finished executing or after the C\/AL code pauses to wait for user interaction.  
+ When a message statement in the C/AL code is executed, the message is not immediately displayed. Instead, it is displayed after the C/AL code is finished executing or after the C/AL code pauses to wait for user interaction.  
   
  The window is automatically sized to hold the longest line of text and the total number of lines.  
   

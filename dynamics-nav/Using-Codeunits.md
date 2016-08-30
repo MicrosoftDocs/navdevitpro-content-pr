@@ -58,12 +58,12 @@ Result := StatVariable.F(3425)+StatVariable.G(346);
  ![Codeunit variables](media/NAVCodeunitVariables.png "NAVCodeunitVariables")  
 Codeunit Variables  
   
- Codeunits contain internal variables that are defined as global variables. These variables cannot be accessed directly from code outside the codeunit, but they can be accessed through user\-defined functions on the codeunit. When a codeunit variable is used for the first time, a new instance of the codeunit is created, that is, a new set of internal variables is initialized so that different codeunit variables use different sets of internal variables.  
+ Codeunits contain internal variables that are defined as global variables. These variables cannot be accessed directly from code outside the codeunit, but they can be accessed through user-defined functions on the codeunit. When a codeunit variable is used for the first time, a new instance of the codeunit is created, that is, a new set of internal variables is initialized so that different codeunit variables use different sets of internal variables.  
   
 ## CLEAR on Codeunits  
  When you use the CLEAR function on a codeunit variable that has a reference to a codeunit instance with two or more references, CLEAR only deletes the reference to the codeunit and not the actual instance of the codeunit. The codeunit stays intact and can still be used by other codeunit variables that may have been assigned a reference to this codeunit.  
   
- To delete an instance of a codeunit, you must clear all the references to the codeunit with the CLEAR function. To clear the internal variables in a codeunit, you must call the CLEARALL function from a user\-defined function in the codeunit. A local codeunit variable is automatically cleared when it goes out of scope and is no longer used by the codeunit.  
+ To delete an instance of a codeunit, you must clear all the references to the codeunit with the CLEAR function. To clear the internal variables in a codeunit, you must call the CLEARALL function from a user-defined function in the codeunit. A local codeunit variable is automatically cleared when it goes out of scope and is no longer used by the codeunit.  
   
  For more information, see [CLEAR Function](CLEAR-Function.md) and [CLEARALL Function](CLEARALL-Function.md).  
   
@@ -75,12 +75,12 @@ Codeunit Variables
   
  A single instance codeunit is instantiated when you use it for the first time. Typically, codeunit instances \(codeunits that do not have the SingleInstance property set\) are deleted when the last codeunit variable that uses that codeunit instance goes out of scope. However, single instance codeunits remain instantiated until you close the company.  
   
- For an example of a single instance codeunit, see [Walkthrough: Using Codeunits](../Topic/Walkthrough:%20Using%20Codeunits.md).  
+ For an example of a single instance codeunit, see [Walkthrough: Using Codeunits](Walkthrough:%20Using%20Codeunits.md).  
   
 ## Limitations on Codeunits  
  Global variables and temporary tables in a codeunit cannot be accessed directly from other application objects. The only way to access these values is through the functions that you have created in the codeunit.  
   
- Every C\/AL function can be used in a codeunit. However, you cannot create a function that has the same name as a pre\-defined function. Also, two or more user\-defined functions cannot have the same name, unless they are part of different application objects.  
+ Every C/AL function can be used in a codeunit. However, you cannot create a function that has the same name as a pre-defined function. Also, two or more user-defined functions cannot have the same name, unless they are part of different application objects.  
   
 ## See Also  
  [Understanding Codeunits](Understanding-Codeunits.md)   

@@ -32,9 +32,9 @@ Whether you are using an RDLC report layout in Visual Studio or a Word report la
   
 6.  To add the label to a report layout, see one of the following procedures.  
   
-    -   [How to: Add Labels to an RDLC Report Layout](../Topic/How%20to:%20Add%20Labels%20to%20an%20RDLC%20Report%20Layout.md)  
+    -   [How to: Add Labels to an RDLC Report Layout](How%20to:%20Add%20Labels%20to%20an%20RDLC%20Report%20Layout.md)  
   
-    -   [How to: Add Fields to a Word Report Layout](../Topic/How%20to:%20Add%20Fields%20to%20a%20Word%20Report%20Layout.md)  
+    -   [How to: Add Fields to a Word Report Layout](How%20to:%20Add%20Fields%20to%20a%20Word%20Report%20Layout.md)  
   
 ### To add a label that is not related to a column of data item  
   
@@ -51,7 +51,7 @@ Whether you are using an RDLC report layout in Visual Studio or a Word report la
 6.  In the **Caption** field, enter the caption.  
   
     > [!NOTE]  
-    >  The default language of the caption depends on the current language of the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. For more information, see [Caption Property\-duplicate](Caption-Property-duplicate.md).  
+    >  The default language of the caption depends on the current language of the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. For more information, see [Caption Property-duplicate](Caption-Property-duplicate.md).  
   
 7.  On the **View** menu, choose **Properties**.  
   
@@ -61,13 +61,13 @@ Whether you are using an RDLC report layout in Visual Studio or a Word report la
   
 10. To add the label to a report layout, see one of the following procedures.  
   
-    -   [How to: Add Labels to an RDLC Report Layout](../Topic/How%20to:%20Add%20Labels%20to%20an%20RDLC%20Report%20Layout.md)  
+    -   [How to: Add Labels to an RDLC Report Layout](How%20to:%20Add%20Labels%20to%20an%20RDLC%20Report%20Layout.md)  
   
-    -   [How to: Add Fields to a Word Report Layout](../Topic/How%20to:%20Add%20Fields%20to%20a%20Word%20Report%20Layout.md)  
+    -   [How to: Add Fields to a Word Report Layout](How%20to:%20Add%20Fields%20to%20a%20Word%20Report%20Layout.md)  
   
 ## See Also  
- [How to: Create a Report Dataset](../Topic/How%20to:%20Create%20a%20Report%20Dataset.md)   
+ [How to: Create a Report Dataset](How%20to:%20Create%20a%20Report%20Dataset.md)   
  [Designing Reports](Designing-Reports.md)   
  [IncludeCaption Property](IncludeCaption-Property.md)   
  [CaptionML Property](CaptionML-Property.md)   
- [Caption Property\-duplicate](Caption-Property-duplicate.md)
+ [Caption Property-duplicate](Caption-Property-duplicate.md)

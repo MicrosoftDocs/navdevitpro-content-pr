@@ -27,6 +27,6 @@ Triggers are available for the different objects in [!INCLUDE[navnowlong](includ
 -   [Query Triggers](Query-Triggers.md)  
   
 ## See Also  
- [C\-AL Functions](C-AL-Functions.md)   
+ [C-AL Functions](C-AL-Functions.md)   
  [Properties](Properties.md)   
  [Triggers Overview](Triggers-Overview.md)

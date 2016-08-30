@@ -40,12 +40,12 @@ Imports data from a file that has been exported from a [!INCLUDE[navnow](include
  Create a variable of type Boolean to specify this parameter.  
   
 > [!IMPORTANT]  
->  To import application objects, you must use the **Import\-NAVData** Windows PowerShell cmdlet. For more information, see [Exporting and Importing Companies and Other Data](Exporting-and-Importing-Companies-and-Other-Data.md).  
+>  To import application objects, you must use the **Import-NAVData** Windows PowerShell cmdlet. For more information, see [Exporting and Importing Companies and Other Data](Exporting-and-Importing-Companies-and-Other-Data.md).  
   
  *IncludeGlobalData*  
  Type: Variable  
   
- Specifies if you want to import global, non\-company specific data.  
+ Specifies if you want to import global, non-company specific data.  
   
  Create a variable of type Boolean to specify this parameter.  
   

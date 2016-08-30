@@ -31,7 +31,7 @@ Streams a BigText object that is stored as a BLOB in a table to a BigText variab
   
  The InStream object type that you use to stream a BLOB to a BigText variable.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the read transaction was successful; otherwise, **false**.  
@@ -61,7 +61,7 @@ EmployeeRec.Picture.CREATEINSTREAM(Istream);
 Bstr.READ(Istream);  
 ```  
   
- Use the [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md) to calculate the BlobField. A BlobField is a binary large object \(maximum size 2 GB\) and must be calculated if you want to use it in C\/AL or display it in the application.  
+ Use the [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md) to calculate the BlobField. A BlobField is a binary large object \(maximum size 2 GB\) and must be calculated if you want to use it in C/AL or display it in the application.  
   
 ## See Also  
  [BigText Data Type](BigText-Data-Type.md)

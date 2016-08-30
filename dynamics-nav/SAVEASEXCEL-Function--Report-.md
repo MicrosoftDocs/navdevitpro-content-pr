@@ -25,9 +25,9 @@ Saves a report on the computer that is running [!INCLUDE[nav_server](includes/na
  *Number*  
  Type: Integer  
   
- The ID of the report that you want to run. From the C\/AL Editor, on the **View** menu, choose **C\/AL Symbol Menu** to select the report from a list.  
+ The ID of the report that you want to run. From the C/AL Editor, on the **View** menu, choose **C/AL Symbol Menu** to select the report from a list.  
   
- If the report you specify does not exist, then a run\-time error occurs.  
+ If the report you specify does not exist, then a run-time error occurs.  
   
  *FileName*  
  Type: Text  
@@ -42,10 +42,10 @@ Saves a report on the computer that is running [!INCLUDE[nav_server](includes/na
  *ReportVariable*  
  The report that you want to run.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
- If you omit this optional return value, then run\-time errors can occur. If you include a return value, then it is assumed that you will handle any errors.  
+ If you omit this optional return value, then run-time errors can occur. If you include a return value, then it is assumed that you will handle any errors.  
   
  **true** if the report was saved; otherwise, **false**.  
   
@@ -64,7 +64,7 @@ Saves a report on the computer that is running [!INCLUDE[nav_server](includes/na
   
  If the [!INCLUDE[nav_server](includes/nav_server_md.md)] process does not have permission to write to the file that you specify in *FileName*, then you get the following error:  
   
- **Either the caller does not have the required permission or the specified path is read\-only.**  
+ **Either the caller does not have the required permission or the specified path is read-only.**  
   
 ## Example  
  This example shows how to use the SAVEASEXCEL function to save the Excel workbook on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] and then download the file to a different computer that is running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. It requires that you create the following variables.  

@@ -27,19 +27,19 @@ NewDate := CALCDATE(DateExpression [, Date])
   
  The date expression can be any length. The string is interpreted from left to right with one subexpression at a time. The following rules describe the valid syntax of date expressions:  
   
--   DateExpression \= \[\<SubExpression\>\]\[\<SubExpression\>\]\[\<SubExpression\>\]  
+-   DateExpression = \[\<SubExpression\>\]\[\<SubExpression\>\]\[\<SubExpression\>\]  
   
--   \<SubExpression\> \= \[\<Sign\>\] \<Term\>  
+-   \<SubExpression\> = \[\<Sign\>\] \<Term\>  
   
--   \<Sign\> \= \+ &#124; \-  
+-   \<Sign\> = + &#124; -  
   
--   \<Term\> \= \<Number\>\<Unit\> &#124; \<Unit\>\<Number\> &#124; \<Prefix\>\<Unit\>  
+-   \<Term\> = \<Number\>\<Unit\> &#124; \<Unit\>\<Number\> &#124; \<Prefix\>\<Unit\>  
   
--   \<Number\> \= Positive integer  
+-   \<Number\> = Positive integer  
   
--   \<Unit\> \= D &#124; WD &#124; W &#124; M &#124; Q &#124; Y \(D\=day, WD\=weekday, W\=week, M\=month, Q\=quarter, Y\=year\)  
+-   \<Unit\> = D &#124; WD &#124; W &#124; M &#124; Q &#124; Y \(D=day, WD=weekday, W=week, M=month, Q=quarter, Y=year\)  
   
--   \<Prefix\> \= C \(C\=current\)  
+-   \<Prefix\> = C \(C=current\)  
   
  These production rules show that date expressions consist of zero, one, two, or three subexpressions. Each subexpression consists of an optional sign and a term. The following are some typical examples of terms:  
   
@@ -51,7 +51,7 @@ NewDate := CALCDATE(DateExpression [, Date])
   
  The internal calendar of [!INCLUDE[navnow](includes/navnow_md.md)] starts on Monday and ends on Sunday. This means that Monday is weekday 1 and Sunday is weekday 7.  
   
- A run\-time error occurs if the syntax of DateExpression is incorrect.  
+ A run-time error occurs if the syntax of DateExpression is incorrect.  
   
  *Date*  
  Type: Date  
@@ -60,7 +60,7 @@ NewDate := CALCDATE(DateExpression [, Date])
   
  If you omit this optional value, the current system date is used.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Date  
   
  The date that is computed from the reference date and the date expression.  
@@ -70,9 +70,9 @@ NewDate := CALCDATE(DateExpression [, Date])
   
  The user can enter formulas in the currently selected language. The formula is stored in a generic format in a field or variable. When the formula must be displayed, the actual string that is displayed is converted to the currently selected language.  
   
- For example, if a user who has language set to ENG \(English\) enters the date formula "1W\+1D" for one week and one day, then a user who has the language set to FRA \(French\) sees "1S\+1J," and a user who has the language set to ESP \(Spanish\) sees "1S\+1D".  
+ For example, if a user who has language set to ENG \(English\) enters the date formula "1W+1D" for one week and one day, then a user who has the language set to FRA \(French\) sees "1S+1J," and a user who has the language set to ESP \(Spanish\) sees "1S+1D".  
   
- If a date formula is entered with \< \> delimiters surrounding it, then the date formula is stored in a generic, nonlanguage\-dependent format. This makes it possible to develop date formulas that are not dependent on the currently selected language.  
+ If a date formula is entered with \< \> delimiters surrounding it, then the date formula is stored in a generic, nonlanguage-dependent format. This makes it possible to develop date formulas that are not dependent on the currently selected language.  
   
  For more information about how to calculate the duration between two DateTimes, see [Duration Data Type](Duration-Data-Type.md).  
   
@@ -83,19 +83,19 @@ NewDate := CALCDATE(DateExpression [, Date])
 <CQ+1M-10D>  
 ```  
   
- This should be interpreted as the following: current quarter \+ 1 month \- 10 days.  
+ This should be interpreted as the following: current quarter + 1 month - 10 days.  
   
  The DateExpression is composed of the following:  
   
  \<Prefix\>\<Unit\>\<Sign\>\<Number\>\<Unit\>\<Sign\>\<Number\>\<Unit\>  
   
 > [!NOTE]  
->  The angle brackets \(\< \>\) specify that the expression is not translated, regardless of the application language. For more information about multilanguage capabilities with date formulas, see [Developing Multilanguage\-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  
+>  The angle brackets \(\< \>\) specify that the expression is not translated, regardless of the application language. For more information about multilanguage capabilities with date formulas, see [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  
   
 ## Example  
  This example shows how to use the CALCDATE function.  
   
- This code example requires that you create the following variables and text constants in the C\/AL Globals window.  
+ This code example requires that you create the following variables and text constants in the C/AL Globals window.  
   
 |Variable Name|DataType|Length|  
 |-------------------|--------------|------------|  
@@ -130,12 +130,12 @@ MESSAGE(Text000 + Text001 + Text002 + Text003,
   
  **The reference date is: 05\/21\/96**  
   
- **The expression: CQ\+1M\-10D returns 07\/20\/96**  
+ **The expression: CQ+1M-10D returns 07\/20\/96**  
   
- **The expression: \-WD2 returns 05\/14\/96**  
+ **The expression: -WD2 returns 05\/14\/96**  
   
- **The expression: CM\+30D returns 06\/30\/96**  
+ **The expression: CM+30D returns 06\/30\/96**  
   
 ## See Also  
  [Date and Time Functions](Date-and-Time-Functions.md)   
- [Developing Multilanguage\-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md)
+ [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md)

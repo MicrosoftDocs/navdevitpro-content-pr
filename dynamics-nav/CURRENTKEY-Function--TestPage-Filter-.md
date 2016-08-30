@@ -37,7 +37,7 @@ CurrentKey := TestPage.Part.Filter.CURRENTKEY
   
  The filter that is applied to the dataset.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text  
   
  Returns a string that contains the current key.  

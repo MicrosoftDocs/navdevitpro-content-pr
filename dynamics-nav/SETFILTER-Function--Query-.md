@@ -27,12 +27,12 @@ Query.SETFILTER(Column, String[, Value],...)
  *Column*  
  Type: Text  
   
- The name of the column in the query that you want to filter. The name is defined by the column's [Name Property\-duplicate](Name-Property-duplicate.md) in Query Designer.  
+ The name of the column in the query that you want to filter. The name is defined by the column's [Name Property-duplicate](Name-Property-duplicate.md) in Query Designer.  
   
  *String*  
  Type: Text or code  
   
- The filter expression. A valid expression consists of alphanumeric characters and one or more of the following operators: \<, \>, \*, &, &#124;, and \=. You can use replacement fields \(%1, %2, and so on\) to insert values at run\-time. For more information about filter expressions and syntax, see [Entering Criteria in Filters](Entering-Criteria-in-Filters.md).  
+ The filter expression. A valid expression consists of alphanumeric characters and one or more of the following operators: \<, \>, \*, &, &#124;, and =. You can use replacement fields \(%1, %2, and so on\) to insert values at run-time. For more information about filter expressions and syntax, see [Entering Criteria in Filters](Entering-Criteria-in-Filters.md).  
   
  *Value*  
  Type: Any  
@@ -71,16 +71,16 @@ Query.READ;
   
  For example, a query has the following filters set on the **Quantity** column in Query Designer:  
   
--   **DataItemTableFilter** property: Quantity\=FILTER\(\<100\)  
+-   **DataItemTableFilter** property: Quantity=FILTER\(\<100\)  
   
--   **ColumnFilter** property: Quantity\=FILTER\(\<\>50\)  
+-   **ColumnFilter** property: Quantity=FILTER\(\<\>50\)  
   
  `Query.SETFILTER ("Quantity", '>1’)` will result in a filter that is equivalent to: 1\<Quantity \<100.  
   
  For more information about how to set filters in Query Designer, see [Understanding Query Filters](Understanding-Query-Filters.md).  
   
 ## Example  
- The following C\/AL code example demonstrates how to use the **SETFILTER** function on a query. The example code sets a filter on a query column, and then displays a message when the query is run that indicates the filter on the column.  
+ The following C/AL code example demonstrates how to use the **SETFILTER** function on a query. The example code sets a filter on a query column, and then displays a message when the query is run that indicates the filter on the column.  
   
  This example requires that you do the following:  
   
@@ -90,9 +90,9 @@ Query.READ;
   
     -   Includes columns for the **Name** and **No.** fields from the **Customer** table and the **Quantity** field from **Sales Lines** table.  
   
-         For step\-by\-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
+         For step-by-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
   
-2.  Create the following C\/AL variables and text constant in the object that will run the query, such as a codeunit.  
+2.  Create the following C/AL variables and text constant in the object that will run the query, such as a codeunit.  
   
     |Variable name|DataType|Subtype|  
     |-------------------|--------------|-------------|  
@@ -100,9 +100,9 @@ Query.READ;
   
     |Text constant name|ENU Value|  
     |------------------------|---------------|  
-    |Text000|Customer name \= %1, Quantity \= %2|  
+    |Text000|Customer name = %1, Quantity = %2|  
   
- The following C\/AL code uses the **SETFILTER** function to filter the query dataset on the **Quantity** and **Name** columns. You can add the code to a codeunit, and then run the codeunit to see the results.  
+ The following C/AL code uses the **SETFILTER** function to filter the query dataset on the **Quantity** and **Name** columns. You can add the code to a codeunit, and then run the codeunit to see the results.  
   
 ```  
 // Sets a filter to display only sales quantities greater than 10.  
@@ -125,4 +125,4 @@ Myquery.CLOSE;
   
  When the code is run, a message that resembles the following appears for each row in the dataset:  
   
- **Customer name \= Selangorian Ltd., Quantity \= 30**
+ **Customer name = Selangorian Ltd., Quantity = 30**

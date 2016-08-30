@@ -12,7 +12,7 @@ caps.latest.revision: 16
 manager: edupont
 ---
 # How to: Use OData to Return-Obtain a Service Metadata (EDMX) Document
-The Entity Data Model \(**EDM**\) is a specification for defining the data that is used by applications that are built on the Entity Framework. **EDMX** is an XML\-based file format that is the packaging format for the service metadata of a data service. When you interact with an OData service that is published from [!INCLUDE[navnow](includes/navnow_md.md)], you can request EDM\-based proxies and then use tools such as LINQ to create data access logic. LINQ is a programming model that developers can use to query data from a variety of data sources, including OData. For more information, see [LINQ \(Language\-Integrated Query\)](http://go.microsoft.com/fwlink/?LinkId=230540)  
+The Entity Data Model \(**EDM**\) is a specification for defining the data that is used by applications that are built on the Entity Framework. **EDMX** is an XML-based file format that is the packaging format for the service metadata of a data service. When you interact with an OData service that is published from [!INCLUDE[navnow](includes/navnow_md.md)], you can request EDM-based proxies and then use tools such as LINQ to create data access logic. LINQ is a programming model that developers can use to query data from a variety of data sources, including OData. For more information, see [LINQ \(Language-Integrated Query\)](http://go.microsoft.com/fwlink/?LinkId=230540)  
   
  The [!INCLUDE[navnow](includes/navnow_md.md)] implementation of EDM follows the [.NET 4.0 WCF Data Service Framework implementation](http://go.microsoft.com/fwlink/?LinkId=214680).  
   
@@ -24,7 +24,7 @@ The Entity Data Model \(**EDM**\) is a specification for defining the data that 
   
 ### To obtain a service metadata \(EDMX\) document  
   
-1.  You can obtain service metadata documents for either page or query web services. This example uses a page web service. Register and publish a page web service by using the [!INCLUDE[rtc](includes/rtc_md.md)]. For more information, see [Walkthrough: Creating and Interacting with a Page Web Service \(OData\)](../Topic/Walkthrough:%20Creating%20and%20Interacting%20with%20a%20Page%20Web%20Service%20\(OData\).md).  
+1.  You can obtain service metadata documents for either page or query web services. This example uses a page web service. Register and publish a page web service by using the [!INCLUDE[rtc](includes/rtc_md.md)]. For more information, see [Walkthrough: Creating and Interacting with a Page Web Service \(OData\)](Walkthrough:%20Creating%20and%20Interacting%20with%20a%20Page%20Web%20Service%20\(OData\).md).  
   
 2.  Start Windows Internet Explorer. In the **Address** field, enter a URI in this format:  
   

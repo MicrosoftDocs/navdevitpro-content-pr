@@ -29,7 +29,7 @@ caps.latest.revision: 2
     |Field|URL|  
     |-----------|---------|  
     |[!INCLUDE[nav_windows](includes/nav_windows_md.md)]|DynamicsNAV:\/\/*server*\/*instance*\/*company*|  
-    |[!INCLUDE[nav_web](includes/nav_web_md.md)]|https:\/\/*server*:*port*\/*instance*\/WebClient?company\='*MyCompany*'\/|  
+    |[!INCLUDE[nav_web](includes/nav_web_md.md)]|https:\/\/*server*:*port*\/*instance*\/WebClient?company='*MyCompany*'\/|  
     |OData client|https:\/\/*server*:*port*\/*instance*\/OData\/Company\('*MyCompany*'\)\/|  
     |SOAP client|https:\/\/*server*:*port*\/*instance*\/WS\/*MyCompany*|  
   
@@ -44,7 +44,7 @@ caps.latest.revision: 2
     |Field|URL|  
     |-----------|---------|  
     |[!INCLUDE[nav_windows](includes/nav_windows_md.md)]|DynamicsNAV:\/\/*server*\/*instance*\/*company*|  
-    |[!INCLUDE[nav_web](includes/nav_web_md.md)]|https:\/\/*server*:*port*\/*instance*\/WebClient?company\='*MyCompany*'\/|  
+    |[!INCLUDE[nav_web](includes/nav_web_md.md)]|https:\/\/*server*:*port*\/*instance*\/WebClient?company='*MyCompany*'\/|  
   
 ## See Also  
  [Using About This Page and About This Report](Using-About-This-Page-and-About-This-Report.md)   

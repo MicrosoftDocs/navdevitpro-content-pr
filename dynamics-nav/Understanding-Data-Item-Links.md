@@ -72,7 +72,7 @@ With [!INCLUDE[navnow](includes/navnow_md.md)] queries, you can retrieve records
 |-----------|------------------------|---------------------|  
 |Salesperson code|Salesperson\_Purchaser|Code|  
   
- The DataItemLink property sets up "equal to" \(\=\) comparison condition between two columns of the data items. When the query is run, the query compares each row of the two data items to find records that having matching values for the columns. Records that have matching column values are combined into a row in the resulting dataset. In some cases, there will be records that do not have matching values. You use the DataItemLinkType property to include records that do not have matching column values.  
+ The DataItemLink property sets up "equal to" \(=\) comparison condition between two columns of the data items. When the query is run, the query compares each row of the two data items to find records that having matching values for the columns. Records that have matching column values are combined into a row in the resulting dataset. In some cases, there will be records that do not have matching values. You use the DataItemLinkType property to include records that do not have matching column values.  
   
 ## Setting Up the DataItemLinkType Property  
  You use the data item link type to limit the records that are included in the resulting dataset based on the conditions of the DataItemLink property. You have the following options from which to choose:  
@@ -113,7 +113,7 @@ With [!INCLUDE[navnow](includes/navnow_md.md)] queries, you can retrieve records
  The record for **Bart** in the Salesperson table does not have a matching record in the Sales Header table, so a row is included but the columns from the Sale Header table are given a null value. The record in the Sale Header table for **New Concepts** is not included in the resulting dataset because it does not have a matching column in the Salesperson table.  
   
 ## See Also  
- [How to: Create Queries](../Topic/How%20to:%20Create%20Queries.md)   
- [Walkthrough: Creating a Query to Link Two Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md)   
- [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](../Topic/Walkthrough:%20Creating%20a%20Query%20That%20Uses%20a%20Totaling%20Method%20and%20Sorting.md)   
- [Walkthrough: Creating a Query to Link Three Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Three%20Tables.md)
+ [How to: Create Queries](How%20to:%20Create%20Queries.md)   
+ [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md)   
+ [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](Walkthrough:%20Creating%20a%20Query%20That%20Uses%20a%20Totaling%20Method%20and%20Sorting.md)   
+ [Walkthrough: Creating a Query to Link Three Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Three%20Tables.md)

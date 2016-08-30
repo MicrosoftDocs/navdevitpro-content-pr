@@ -28,7 +28,7 @@ Sends a file from the client computer to the [!INCLUDE[nav_server](includes/nav_
  The title that you want to display in the dialog box for uploading the file.  
   
 > [!NOTE]  
->  This parameter is not supported by the [!INCLUDE[nav_web](includes/nav_web_md.md)]. The title is determined by the end\-user's browser.  
+>  This parameter is not supported by the [!INCLUDE[nav_web](includes/nav_web_md.md)]. The title is determined by the end-user's browser.  
   
  *FromFolder*  
  Type: Text  
@@ -64,10 +64,10 @@ Sends a file from the client computer to the [!INCLUDE[nav_server](includes/nav_
   
  *ServiceAccount* is the folder for the account for [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
- If you omit this optional return value, then a run\-time error occurs if the file cannot be found. If you include a return value, then you must handle any errors.  
+ If you omit this optional return value, then a run-time error occurs if the file cannot be found. If you include a return value, then you must handle any errors.  
   
  **true** if the file was uploaded; otherwise, **false**.  
   

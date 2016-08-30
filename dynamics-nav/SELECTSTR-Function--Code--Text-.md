@@ -12,7 +12,7 @@ caps.latest.revision: 13
 manager: edupont
 ---
 # SELECTSTR Function (Code, Text)
-Retrieves a substring from a comma\-separated string.  
+Retrieves a substring from a comma-separated string.  
   
 ## Syntax  
   
@@ -25,16 +25,16 @@ NewString := SELECTSTR(Number, CommaString)
  *Number*  
  Type: Integer  
   
- Specifies which substring to retrieve. The substrings in the comma\-separated string are numbered 1, 2, 3, and so on.  
+ Specifies which substring to retrieve. The substrings in the comma-separated string are numbered 1, 2, 3, and so on.  
   
- If *Number* is greater than the actual number of substrings, then a run\-time error occurs.  
+ If *Number* is greater than the actual number of substrings, then a run-time error occurs.  
   
  *CommaString*  
  Type: Option  
   
  A string that contains substrings separated by commas. The maximum length of this string is 391 characters.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Option  
   
  The substring that is retrieved from *CommaString*.  
@@ -46,10 +46,10 @@ NewString := SELECTSTR(Number, CommaString)
   
  If *Number* is less than 1 or greater than the number of real values \(excluding trailing commas\) in the string, then an error is returned.  
   
- Quotes are not supported. For example, a,b,"c,d",e is treated as a five\-element substring where substring 4 is d".  
+ Quotes are not supported. For example, a,b,"c,d",e is treated as a five-element substring where substring 4 is d".  
   
 ## Example  
- This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  
@@ -89,7 +89,7 @@ MESSAGE(Text001 + '>%1<\' + '>%2<\' + '>%3<\' + '>%4<\', SubStr1, SubStr2, SubSt
  **\>33\<**  
   
 ## Example  
- This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  

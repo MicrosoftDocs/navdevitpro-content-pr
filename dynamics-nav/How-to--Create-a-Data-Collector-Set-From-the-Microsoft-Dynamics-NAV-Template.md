@@ -11,7 +11,7 @@ ms.assetid: d1c5bdd0-a254-4cd9-8784-3590918398a3
 caps.latest.revision: 11
 ---
 # How to: Create a Data Collector Set From the Microsoft Dynamics NAV Template
-[!INCLUDE[navnow](includes/navnow_md.md)] provides a Data Collector Set template that includes the [!INCLUDE[navnow](includes/navnow_md.md)] performance counters and additional performance counters for monitoring components, such as memory, physical disks, and SQL Server. You use the template to create user\-defined Data Collection Sets for monitoring all [!INCLUDE[nav_server](includes/nav_server_md.md)] instances on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
+[!INCLUDE[navnow](includes/navnow_md.md)] provides a Data Collector Set template that includes the [!INCLUDE[navnow](includes/navnow_md.md)] performance counters and additional performance counters for monitoring components, such as memory, physical disks, and SQL Server. You use the template to create user-defined Data Collection Sets for monitoring all [!INCLUDE[nav_server](includes/nav_server_md.md)] instances on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
  The [!INCLUDE[navnow](includes/navnow_md.md)] data collector set template is an XML file that has the name DataCollectorSet.xml and is installed with [!INCLUDE[nav_server](includes/nav_server_md.md)]. By default, the template is located in the [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service folder.  
   
@@ -25,7 +25,7 @@ caps.latest.revision: 11
   
     -   Choose **Start**, in the **Search** box, type **perfmon**, and then choose the related link.  
   
-2.  In the navigation pane, expand **Data Collector Sets**, right\-click **User\-defined**, choose **New**, and then choose **Data Collector Set**.  
+2.  In the navigation pane, expand **Data Collector Sets**, right-click **User-defined**, choose **New**, and then choose **Data Collector Set**.  
   
 3.  In the **Create new Data Collector Set Wizard** page, enter a name for the new data collector set. Select **Create from a template \(Recommended\)**, and then choose the **Next** button.  
   
@@ -37,10 +37,10 @@ caps.latest.revision: 11
   
      To see the new Data Collector Set, in the navigation pane, expand **Data Collector Sets**, and then expand **User Defined**.  
   
- For information about how to start the Data Collector Set, see [To start and stop a Data Collector Set](../Topic/How%20to:%20Create%20a%20Data%20Collector%20for%20Microsoft%20Dynamics%20NAV%20Performance%20Counters.md#StartDataCollectorSet).  
+ For information about how to start the Data Collector Set, see [To start and stop a Data Collector Set](How%20to:%20Create%20a%20Data%20Collector%20for%20Microsoft%20Dynamics%20NAV%20Performance%20Counters.md#StartDataCollectorSet).  
   
 ## See Also  
  [Working with Data Collector Sets](Working-with-Data-Collector-Sets.md)   
  [Microsoft Dynamics NAV Performance Counters](Microsoft-Dynamics-NAV-Performance-Counters.md)   
- [How to: View Performance Counter Data for a Data Collector Set](../Topic/How%20to:%20View%20Performance%20Counter%20Data%20for%20a%20Data%20Collector%20Set.md)   
+ [How to: View Performance Counter Data for a Data Collector Set](How%20to:%20View%20Performance%20Counter%20Data%20for%20a%20Data%20Collector%20Set.md)   
  [Microsoft Dynamics NAV Performance Counters](Microsoft-Dynamics-NAV-Performance-Counters.md)

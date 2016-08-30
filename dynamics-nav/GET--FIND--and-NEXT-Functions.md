@@ -20,7 +20,7 @@ The following functions are used to search for records:
   
 -   NEXT  
   
- These functions are some of the most frequently used C\/AL functions. When you search for records, you must know the difference between GET and FIND and to know how to use FIND and NEXT in conjunction.  
+ These functions are some of the most frequently used C/AL functions. When you search for records, you must know the difference between GET and FIND and to know how to use FIND and NEXT in conjunction.  
   
 ## GET Function  
  The [GET Function \(Record\)](GET-Function--Record-.md) retrieves one record based on values of the primary key fields.  
@@ -39,7 +39,7 @@ CustomerRec.GET('4711');
   
  The result is that the record of customer 4711 is retrieved.  
   
- GET produces a run\-time error if it fails and the return value is not checked by the code. In the previous example, the actual code that you write should resemble the following.  
+ GET produces a run-time error if it fails and the return value is not checked by the code. In the previous example, the actual code that you write should resemble the following.  
   
 ```  
 IF CustomerRec.GET('4711') THEN  
@@ -69,7 +69,7 @@ Ok := Record.FIND([Which])
   
 -   FIND can find the first or the last record, depending on the sort order defined by the current key.  
   
- When you are developing applications in a relational database, there are often one\-to\-many relationships defined between tables. An example could be the relationship between an **Item** table, which registers items, and a **Sales Line** table, which registers the detailed lines from sales orders. One record in the **Sales Line** table can only be related to one item, but each item can be related to any number of sales line records. You would not want an item record to be deleted as long as there are still open sales orders that include the item. You can use FIND to check for open sales orders.  
+ When you are developing applications in a relational database, there are often one-to-many relationships defined between tables. An example could be the relationship between an **Item** table, which registers items, and a **Sales Line** table, which registers the detailed lines from sales orders. One record in the **Sales Line** table can only be related to one item, but each item can be related to any number of sales line records. You would not want an item record to be deleted as long as there are still open sales orders that include the item. You can use FIND to check for open sales orders.  
   
  The OnDelete trigger of the **Item** table includes the following code that illustrates using FIND.  
   

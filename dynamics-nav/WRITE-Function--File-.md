@@ -11,7 +11,7 @@ ms.assetid: 423def02-ce02-460b-babe-4608b264c64c
 caps.latest.revision: 13
 ---
 # WRITE Function (File)
-Writes to an MS\-DOS encoded file or binary file.  
+Writes to an MS-DOS encoded file or binary file.  
   
 ## Syntax  
   
@@ -40,14 +40,14 @@ File.WRITE(Value)
   
  If [TEXTMODE Function \(File\)](TEXTMODE-Function--File-.md) is **false** and *Value* is an integer, an integer is written that is four bytes long.  
   
- MS\-DOS encoding requires a different character set for each language. MS\-DOS text is encoded to the internal Unicode data type by using the system locale language of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)]. If you write to a file that uses MS\-DOS encoding, then you must set the system locale language of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] to match the language of the data that you want to write to the file.  
+ MS-DOS encoding requires a different character set for each language. MS-DOS text is encoded to the internal Unicode data type by using the system locale language of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)]. If you write to a file that uses MS-DOS encoding, then you must set the system locale language of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] to match the language of the data that you want to write to the file.  
   
  We recommend that you use the File data type for files that were created in earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)].  
   
  To read or write files in Unicode or in other formats, we recommend that you use .NET Framework interoperability and use the [System.IO Namespace](http://go.microsoft.com/fwlink/?LinkId=262250).  
   
 ## Example  
- The following example determines whether the specified file exists. If it exists, the [WRITEMODE Function \(File\)](WRITEMODE-Function--File-.md) allows the file to be open for writing. The [OPEN Function \(File\)](OPEN-Function--File-.md) opens the file, the [WRITE Function \(FILE\)](WRITE-Function--File-.md) writes the text “Hello World” to the file and then the [CLOSE Function \(File\)](CLOSE-Function--File-.md) closes the file. If the file does not exist, then an error message is displayed. This example assumes that you have created the following file: C:\\TestFolder\\TestFile.txt. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ The following example determines whether the specified file exists. If it exists, the [WRITEMODE Function \(File\)](WRITEMODE-Function--File-.md) allows the file to be open for writing. The [OPEN Function \(File\)](OPEN-Function--File-.md) opens the file, the [WRITE Function \(FILE\)](WRITE-Function--File-.md) writes the text “Hello World” to the file and then the [CLOSE Function \(File\)](CLOSE-Function--File-.md) closes the file. If the file does not exist, then an error message is displayed. This example assumes that you have created the following file: C:\\TestFolder\\TestFile.txt. This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

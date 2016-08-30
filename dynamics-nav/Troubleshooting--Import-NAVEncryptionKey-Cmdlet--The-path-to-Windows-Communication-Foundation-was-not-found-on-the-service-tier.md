@@ -12,9 +12,9 @@ caps.latest.revision: 3
 manager: edupont
 ---
 # Troubleshooting: Import-NAVEncryptionKey Cmdlet: The path to Windows Communication Foundation was not found on the service tier
-If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is on an Azure virtual machine that is running Windows Server 2012 R2, you get the following error when you run the Import\-NAVEncryptionkey cmdlet:  
+If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is on an Azure virtual machine that is running Windows Server 2012 R2, you get the following error when you run the Import-NAVEncryptionkey cmdlet:  
   
- **Import\-NAVEncryptionKey : The path to Windows Communication Foundation was not found on the service tier. It was expected to be in folder 'C:\\Windows\\Microsoft.NET\\Framework64\\v3.0\\Windows Communication Foundation'.Have you installed the .NET Framework 3.0?**  
+ **Import-NAVEncryptionKey : The path to Windows Communication Foundation was not found on the service tier. It was expected to be in folder 'C:\\Windows\\Microsoft.NET\\Framework64\\v3.0\\Windows Communication Foundation'.Have you installed the .NET Framework 3.0?**  
   
 ## Resolution  
  You must install the HTTP Activation feature on the Azure virtual machine. Perform one of the following procedures:  

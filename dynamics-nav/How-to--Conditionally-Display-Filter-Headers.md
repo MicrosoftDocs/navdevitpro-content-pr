@@ -18,19 +18,19 @@ If you apply a filter to the data in a report, then we recommend that you create
   
  An example of a report that has additional header rows to display filter information is report 113, **Customer\/Item Sales**.  
   
-### To hide non\-filtered headers  
+### To hide non-filtered headers  
   
 1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
 2.  In Object Designer, choose **Report**, select the report that you want to modify, and then choose **Design**.  
   
-3.  On the **View** menu, choose **C\/AL Globals**.  
+3.  On the **View** menu, choose **C/AL Globals**.  
   
-4.  In the **C\/AL Globals** window, on the **Variables** tab, add a new variable for the filter. The **DataType** of the variable is Text.  
+4.  In the **C/AL Globals** window, on the **Variables** tab, add a new variable for the filter. The **DataType** of the variable is Text.  
   
-5.  On the **View** menu, choose **C\/AL Code**.  
+5.  On the **View** menu, choose **C/AL Code**.  
   
-6.  In the **C\/AL Editor**, in the **OnPreReport** trigger, add code to get the filters. For example, if you have a filter on the Customer table and the filter variable that you created is named CustFilter, then add the following code.  
+6.  In the **C/AL Editor**, in the **OnPreReport** trigger, add code to get the filters. For example, if you have a filter on the Customer table and the filter variable that you created is named CustFilter, then add the following code.  
   
     ```  
     CustFilter := Customer.GETFILTERS;  
@@ -52,7 +52,7 @@ If you apply a filter to the data in a report, then we recommend that you create
   
 13. Select the filter header text box that you created in step 12, and then on the **View** menu, choose **Properties Window**.  
   
-14. In the **Properties** window, expand the **Visibility** field. In the **Hidden** field, select **\<Expression…\>** from the drop\-down list.  
+14. In the **Properties** window, expand the **Visibility** field. In the **Hidden** field, select **\<Expression…\>** from the drop-down list.  
   
 15. In the **Expression** window, create a conditional statement. For example, the following are the conditional statements for the two filter text boxes on report 113.  
   
@@ -64,7 +64,7 @@ If you apply a filter to the data in a report, then we recommend that you create
     IIF(First(Fields!ItemLedgEntryFilter.Value) = "",TRUE,FALSE)  
     ```  
   
-16. Save and compile the report. For more information, see [How to: Integrate Report Dataset Designer and Visual Studio Report Designer](../Topic/How%20to:%20Integrate%20Report%20Dataset%20Designer%20and%20Visual%20Studio%20Report%20Designer.md).  
+16. Save and compile the report. For more information, see [How to: Integrate Report Dataset Designer and Visual Studio Report Designer](How%20to:%20Integrate%20Report%20Dataset%20Designer%20and%20Visual%20Studio%20Report%20Designer.md).  
   
 ## See Also  
  [Designing Reports](Designing-Reports.md)

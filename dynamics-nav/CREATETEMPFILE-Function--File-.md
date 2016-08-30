@@ -30,7 +30,7 @@ File.CreateTempFile[(TextEncoding.value)]
  *TextEncoding*  
  Value: **MsDos**, **UTF8**, **UTF16**, or **Windows**  
   
- Optionally, you can specify the encoding on the file. By specifying the text encoding, you ensure that all the language\-specific characters are represented correctly in [!INCLUDE[navnow](includes/navnow_md.md)] when you read data and write data.  
+ Optionally, you can specify the encoding on the file. By specifying the text encoding, you ensure that all the language-specific characters are represented correctly in [!INCLUDE[navnow](includes/navnow_md.md)] when you read data and write data.  
   
  For more information, see [Text Encoding](Text-Encoding.md).  
   

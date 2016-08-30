@@ -13,22 +13,22 @@ caps.latest.revision: 5
 # Merging an Application Database with a Tenant Database
 In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can separate the application data into a dedicated application database. However, if you want revert the separation of application data and business data, you can merge the two databases. [!INCLUDE[navnow](includes/navnow_md.md)] includes [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets that can help you merge the databases, and you can use the cmdlets in a script that runs in [!INCLUDE[wps_2](includes/wps_2_md.md)]. This topic provides sample scripts that you can use.  
   
- When you merge the two databases, you migrate to single\-tenancy. In a multitenant deployment, you can merge a single tenant with the application tables and leave the remaining tenants in the existing deployment. In that case, you add the application tables to the relevant tenant database and leave the original application database unchanged. If you have separated the application data into a dedicated database but you have not used it in a multitenant deployment, you can also use the cmdlet and a sample script to merge the two databases.  
+ When you merge the two databases, you migrate to single-tenancy. In a multitenant deployment, you can merge a single tenant with the application tables and leave the remaining tenants in the existing deployment. In that case, you add the application tables to the relevant tenant database and leave the original application database unchanged. If you have separated the application data into a dedicated database but you have not used it in a multitenant deployment, you can also use the cmdlet and a sample script to merge the two databases.  
   
-## Migrating to Single\-Tenancy  
+## Migrating to Single-Tenancy  
  Before you can start the merge of the two databases, you must collect the relevant information. If you write a script, you must be able to provide values for the parameters that the [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets require. The migration includes the following main steps:  
   
 1.  Gather the prerequisite information.  
   
 2.  Merge the two databases.  
   
-    1.  Migrate from multitenancy to single\-tenancy.  
+    1.  Migrate from multitenancy to single-tenancy.  
   
     2.  Migrate from two databases to one database.  
   
 3.  Change the client connection endpoints.  
   
-4.  Post\-migration clean\-up.  
+4.  Post-migration clean-up.  
   
  Each step is explained in more details in the following sections.  
   
@@ -133,8 +133,8 @@ Write-Host "Operation complete." -foregroundcolor cyan
   
  The second sample script illustrates a simpler scenario where you move the application tables to the only database that accessed the application database. As a result, all client endpoints continue as they did before, and you do not have to update any clients.  
   
-### Step 4: Post\-Migration Clean\-Up  
- In the first scenario where you move a tenant from multitenancy to single\-tenancy, you must update the [!INCLUDE[nav_server](includes/nav_server_md.md)] account and database permissions. Also, any tenant\-specific files that have been saved to the original server location must be moved to the relevant location on the new server.  
+### Step 4: Post-Migration Clean-Up  
+ In the first scenario where you move a tenant from multitenancy to single-tenancy, you must update the [!INCLUDE[nav_server](includes/nav_server_md.md)] account and database permissions. Also, any tenant-specific files that have been saved to the original server location must be moved to the relevant location on the new server.  
   
 ## See Also  
  [Migrating to Multitenancy](Migrating-to-Multitenancy.md)   

@@ -12,7 +12,7 @@ caps.latest.revision: 8
 manager: edupont
 ---
 # C-AL Comments
-You can insert comments about your C\/AL code or comment out parts of your code to prevent execution. The following are the two ways to insert comments in C\/AL:  
+You can insert comments about your C/AL code or comment out parts of your code to prevent execution. The following are the two ways to insert comments in C/AL:  
   
 -   Use "\/\/" to insert a single line comment.  
   
@@ -61,7 +61,7 @@ C := 345;      * Don’t do this! *
 D := 781;      ******************}  
 ```  
   
- Because the comment is to the right of the C\/AL statements, the system assumes that the third and fourth lines are part of the comment. That is, only A and B are assigned values, while C and D are not. Instead you should use single line comments.  
+ Because the comment is to the right of the C/AL statements, the system assumes that the third and fourth lines are part of the comment. That is, only A and B are assigned values, while C and D are not. Instead you should use single line comments.  
   
 ```  
 A := 34;  

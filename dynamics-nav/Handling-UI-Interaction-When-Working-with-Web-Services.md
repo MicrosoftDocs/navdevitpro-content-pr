@@ -28,7 +28,7 @@ Whether you are publishing or consuming web services, exceptions and dialog boxe
 > [!NOTE]  
 >  The server returns the following exception when trying to invoke a dialog UI through a web service: **Microsoft.Dynamics.Nav.Types.Exceptions.NavNCLCallbackNotAllowedException: Callback functions are not allowed.**  
   
-### C\/AL Keywords That Can Cause Faults or Exceptions  
+### C/AL Keywords That Can Cause Faults or Exceptions  
  Variables of the [Dialog Data Type](Dialog-Data-Type.md) or any of the functions listed as dialog functions can cause callback not allowed exceptions when they are called from a web service application. The [MESSAGE Function \(Dialog\)](MESSAGE-Function--Dialog-.md) is the only function in this category that does not cause an exception.  
   
  Other keywords that you should not use are:  
@@ -49,11 +49,11 @@ Whether you are publishing or consuming web services, exceptions and dialog boxe
   
 -   FILE.DOWNLOAD  
   
- You should also avoid operations on client\-side Automation and .NET Framework interoperability objects.  
+ You should also avoid operations on client-side Automation and .NET Framework interoperability objects.  
   
 ## Consuming Web Services  
  You must handle exceptions in client code that calls a [!INCLUDE[navnow](includes/navnow_md.md)] web service. Appropriate exception capturing code should be included around any call to a [!INCLUDE[navnow](includes/navnow_md.md)] web service.  
   
 ## See Also  
  [Microsoft Dynamics NAV Web Services Overview](Microsoft-Dynamics-NAV-Web-Services-Overview.md)   
- [How to: Publish a Web Service](../Topic/How%20to:%20Publish%20a%20Web%20Service.md)
+ [How to: Publish a Web Service](How%20to:%20Publish%20a%20Web%20Service.md)

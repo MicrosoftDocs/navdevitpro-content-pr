@@ -31,12 +31,12 @@ Redirects references to table data from one company to another.
   
  The name of the company to which you want to change. If you omit this parameter, you change back to the current company.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the company was found; otherwise, **false**.  
   
- If you omit this optional return value and the company cannot be found, a run\-time error occurs. If you include the return value, you must handle any errors.  
+ If you omit this optional return value and the company cannot be found, a run-time error occurs. If you include the return value, you must handle any errors.  
   
 ## Remarks  
  When executing this function, the user's access rights are respected. For example, a user cannot access data in *CompanyName* unless he already has the necessary access rights.  
@@ -54,7 +54,7 @@ RecordRef.CHANGECOMPANY(NewCompany);
 ## Example  
  This example shows how to use the **CHANGECOMPANY** function. The following code takes a RecordRef to table **18 Customer** in the current company and redirects it to the table in another company \(in this case Company B\). The last record in the Customer table of Company B is then deleted.  
   
- This example requires that you create the following variables and text constant in the **C\/AL Globals** window  
+ This example requires that you create the following variables and text constant in the **C/AL Globals** window  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

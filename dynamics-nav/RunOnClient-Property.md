@@ -24,11 +24,11 @@ Sets whether a .NET object that is defined by a variable is run on the [!INCLUDE
 >  The [!INCLUDE[nav_web](includes/nav_web_md.md)] does not support running the .NET object on the client.  
   
 ## Remarks  
- The RunOnClient property is part of .NET interoperability in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] that you can use to expand your solution using .NET assemblies. With .NET interoperability, you can call methods and properties in a class of a .NET assembly from C\/AL code by defining a variable for the class. When you set the RunOnClient property to **Yes**, then the class instance that is defined by the variable is instantiated on the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
+ The RunOnClient property is part of .NET interoperability in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] that you can use to expand your solution using .NET assemblies. With .NET interoperability, you can call methods and properties in a class of a .NET assembly from C/AL code by defining a variable for the class. When you set the RunOnClient property to **Yes**, then the class instance that is defined by the variable is instantiated on the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
 > [!NOTE]  
 >  If you set the RunOnClient property to **Yes**, then the .NET assembly that is used by the variable must be installed on the machine that is running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
 ## See Also  
  [Extending Microsoft Dynamics NAV Using Microsoft .NET Framework Interoperability](Extending-Microsoft-Dynamics-NAV-Using-Microsoft-.NET-Framework-Interoperability.md)   
- [How to: Call .NET Framework Types From C\-AL Code](../Topic/How%20to:%20Call%20.NET%20Framework%20Types%20From%20C-AL%20Code.md)
+ [How to: Call .NET Framework Types From C-AL Code](How%20to:%20Call%20.NET%20Framework%20Types%20From%20C-AL%20Code.md)

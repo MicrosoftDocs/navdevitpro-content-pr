@@ -69,11 +69,11 @@ Generates a URL for the specified client target that is based on the configurati
   
  Specifies whether to include filters that are defined on the object as a text string in the URL.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: String  
   
 ## Remarks  
- The GETURL function generates a URL to open a specific page, for example, or to read [!INCLUDE[navnow](includes/navnow_md.md)] data from a web service. The generated URL includes settings from the configuration of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance which the code that uses the function runs in. This means that you can use the GETURL function to generate URLs that are generic. The URLs are generated based on the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration for the user who is accessing the code that generates the URL. If you specify a company, then the URL applies to that company only. Also, in a multitenant deployment, the URLs are tenant\-specific. The URL will only allow access to the requested object if the user has permission to access to the object.  
+ The GETURL function generates a URL to open a specific page, for example, or to read [!INCLUDE[navnow](includes/navnow_md.md)] data from a web service. The generated URL includes settings from the configuration of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance which the code that uses the function runs in. This means that you can use the GETURL function to generate URLs that are generic. The URLs are generated based on the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration for the user who is accessing the code that generates the URL. If you specify a company, then the URL applies to that company only. Also, in a multitenant deployment, the URLs are tenant-specific. The URL will only allow access to the requested object if the user has permission to access to the object.  
   
 > [!WARNING]  
 >  GETURL returns an empty string if the specified parameters result in values that are not valid, and if the URL cannot be generated for other reasons. If the function returns an empty string, you can use the GETLASTERRORTEXT function to troubleshoot. For more information, see [GETLASTERRORTEXT Function](GETLASTERRORTEXT-Function.md).  
@@ -83,10 +83,10 @@ Generates a URL for the specified client target that is based on the configurati
 |Client|URL|  
 |------------|---------|  
 |[!INCLUDE[nav_windows](includes/nav_windows_md.md)]|DynamicsNAV:\/\/*server*:*port*\/*instance*\/\/[!INCLUDE[demoname](includes/demoname_md.md)]|  
-|[!INCLUDE[nav_web](includes/nav_web_md.md)]|https:\/\/*server*:*port*\/*instance*\/WebClient?company\='[!INCLUDE[demoname](includes/demoname_md.md)]'\/|  
-|[!INCLUDE[nav_tablet](includes/nav_tablet_md.md)]|ms\-dynamicsnav:\/\/*server*:*port*\/*instance*?company\=’ [!INCLUDE[demoname](includes/demoname_md.md)]’|  
-|[!INCLUDE[nav_phone](includes/nav_phone_md.md)]|ms\-dynamicsnav:\/\/*server*:*port*\/*instance*?company\=’ [!INCLUDE[demoname](includes/demoname_md.md)]’|  
-|[!INCLUDE[navnow](includes/navnow_md.md)] Desktop client|ms\-dynamicsnav:\/\/*server*:*port*\/*instance*?company\=’ [!INCLUDE[demoname](includes/demoname_md.md)]’|  
+|[!INCLUDE[nav_web](includes/nav_web_md.md)]|https:\/\/*server*:*port*\/*instance*\/WebClient?company='[!INCLUDE[demoname](includes/demoname_md.md)]'\/|  
+|[!INCLUDE[nav_tablet](includes/nav_tablet_md.md)]|ms-dynamicsnav:\/\/*server*:*port*\/*instance*?company=’ [!INCLUDE[demoname](includes/demoname_md.md)]’|  
+|[!INCLUDE[nav_phone](includes/nav_phone_md.md)]|ms-dynamicsnav:\/\/*server*:*port*\/*instance*?company=’ [!INCLUDE[demoname](includes/demoname_md.md)]’|  
+|[!INCLUDE[navnow](includes/navnow_md.md)] Desktop client|ms-dynamicsnav:\/\/*server*:*port*\/*instance*?company=’ [!INCLUDE[demoname](includes/demoname_md.md)]’|  
 |OData|https:\/\/*server*:*port*\/*instance*\/OData\/Company\('[!INCLUDE[demoname](includes/demoname_md.md)]'\)\/|  
 |SOAP|https:\/\/*server*:*port*\/*instance*\/WS\/[!INCLUDE[demoname](includes/demoname_md.md)]|  
   
@@ -110,8 +110,8 @@ url := GETURL(CURRENTCLIENTTYPE, 'COMPANYNAME', ObjectType::Page, 21, Cust);
   
 |Client|URL|  
 |------------|---------|  
-|[!INCLUDE[nav_windows](includes/nav_windows_md.md)]|DynamicsNAV:\/\/*server*:*port*\/*instance*\/*company*\/runpage?page\=21&bookmark\=*bookmark*|  
-|[!INCLUDE[nav_web](includes/nav_web_md.md)]|https:\/\/*server*:*port*\/*instance*\/WebClient?*company*&page\=21&bookmark\=*bookmark*|  
+|[!INCLUDE[nav_windows](includes/nav_windows_md.md)]|DynamicsNAV:\/\/*server*:*port*\/*instance*\/*company*\/runpage?page=21&bookmark=*bookmark*|  
+|[!INCLUDE[nav_web](includes/nav_web_md.md)]|https:\/\/*server*:*port*\/*instance*\/WebClient?*company*&page=21&bookmark=*bookmark*|  
 |OData|Not applicable because the client type is set to Current, which is not supported for Odata web services.|  
 |SOAP|Not applicable because the URL for SOAP web services does not support filtering for the record.|  
   
@@ -142,8 +142,8 @@ url := GETURL(CURRENTCLIENTTYPE, COMPANYNAME, ObjectType::Page, 21);
  https:\/\/*server*:*port*\/*instance*\/WS\/*company*\/Page\/Customer  
   
 ## See Also  
- [How to: Copy the URL to Open a Page or Report](../Topic/How%20to:%20Copy%20the%20URL%20to%20Open%20a%20Page%20or%20Report.md)   
- [How to: Publish a Web Service](../Topic/How%20to:%20Publish%20a%20Web%20Service.md)   
+ [How to: Copy the URL to Open a Page or Report](How%20to:%20Copy%20the%20URL%20to%20Open%20a%20Page%20or%20Report.md)   
+ [How to: Publish a Web Service](How%20to:%20Publish%20a%20Web%20Service.md)   
  [Creating and Running Hyperlinks](Creating-and-Running-Hyperlinks.md)   
  [HYPERLINK Function](HYPERLINK-Function.md)   
  [CURRENTCLIENTTYPE Function](CURRENTCLIENTTYPE-Function.md)   

@@ -12,17 +12,17 @@ caps.latest.revision: 9
 manager: edupont
 ---
 # Viewing the Application in Different Languages
-In a multilanguage\-enabled application, you can view the text in any language that has been added to the application. For more information about adding languages, see [Language Modules](Language-Modules.md).  
+In a multilanguage-enabled application, you can view the text in any language that has been added to the application. For more information about adding languages, see [Language Modules](Language-Modules.md).  
   
 ## Changing the Language from the User Interface  
  You can change the language in which text is displayed in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] and in the [!INCLUDE[rtc](includes/rtc_md.md)].  
   
  When you change the language of the application from the user interface \(UI\) in either the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or the [!INCLUDE[rtc](includes/rtc_md.md)], you are changing the *global language*.  
   
- For more information, see [How to: Change the Language in the User Interface](../Topic/How%20to:%20Change%20the%20Language%20in%20the%20User%20Interface.md).  
+ For more information, see [How to: Change the Language in the User Interface](How%20to:%20Change%20the%20Language%20in%20the%20User%20Interface.md).  
   
-## Changing the Language from C\/AL Code  
- You can change the global language from C\/AL code, which is the same as changing the language from the UI. To change the global language from C\/AL code, use the GLOBALLANGUAGE function.  
+## Changing the Language from C/AL Code  
+ You can change the global language from C/AL code, which is the same as changing the language from the UI. To change the global language from C/AL code, use the GLOBALLANGUAGE function.  
   
  For more information, see [Language Functions](Language-Functions.md).  
   
@@ -33,7 +33,7 @@ In a multilanguage\-enabled application, you can view the text in any language t
   
  The algorithm searches for the text to use in the following order:  
   
-1.  The language of the object, which can be specified by a developer in C\/AL code.  
+1.  The language of the object, which can be specified by a developer in C/AL code.  
   
 2.  The primary language of the object language.  
   

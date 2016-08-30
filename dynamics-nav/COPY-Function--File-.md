@@ -44,16 +44,16 @@ Use this function to copy a file.
   
 -   You can enter only the subdirectory name if the file is located in a subdirectory of the current directory.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  This optional return parameter shows you whether the file was copied.  
   
 ## Remarks  
- If you do not use the return value and the file cannot be copied, a run\-time error will occur. If you do include the return value in your code, you must handle any errors yourself.  
+ If you do not use the return value and the file cannot be copied, a run-time error will occur. If you do include the return value in your code, you must handle any errors yourself.  
   
 ## Example  
- The following example copies a file that is named OldFile from a folder that is named Old on drive C to a folder that is named New. If the file is copied, a message is displayed and the program continues. Otherwise, an error occurs. This example requires that you create the following variables in the **C\/AL Globals** window. This example assumes that you have created the following file 'c:\\Old\\' OldFile.  
+ The following example copies a file that is named OldFile from a folder that is named Old on drive C to a folder that is named New. If the file is copied, a message is displayed and the program continues. Otherwise, an error occurs. This example requires that you create the following variables in the **C/AL Globals** window. This example assumes that you have created the following file 'c:\\Old\\' OldFile.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

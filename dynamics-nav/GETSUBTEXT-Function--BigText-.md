@@ -29,14 +29,14 @@ Gets part of a BigText variable.
  *Position*  
  Type: Integer  
   
- The position in the BigText variable that the subtext is to be retrieved from. If this parameter is less than one, then a run\-time error occurs. If this parameter is greater than the length of the BigText variable, then an empty string is returned. If the value of this parameter plus the value of the *Length* parameter is greater than the length of the BigText variable, then the remainder of the BigText variable from the position specified by this parameter is returned.  
+ The position in the BigText variable that the subtext is to be retrieved from. If this parameter is less than one, then a run-time error occurs. If this parameter is greater than the length of the BigText variable, then an empty string is returned. If the value of this parameter plus the value of the *Length* parameter is greater than the length of the BigText variable, then the remainder of the BigText variable from the position specified by this parameter is returned.  
   
  *Length*  
  Type: Integer  
   
- The length of the subtext that should be retrieved. This parameter is optional. If this parameter is omitted the function retrieves a subtext that starts at *Position* and runs to the end of the BigText variable. If this parameter is less than 0, then a run\-time error occurs. If the value of the *Position* parameter plus the value of this parameter is greater than the length of the BigText variable, then the remainder of the BigText variable from the position specified by this parameter is returned.  
+ The length of the subtext that should be retrieved. This parameter is optional. If this parameter is omitted the function retrieves a subtext that starts at *Position* and runs to the end of the BigText variable. If this parameter is less than 0, then a run-time error occurs. If the value of the *Position* parameter plus the value of this parameter is greater than the length of the BigText variable, then the remainder of the BigText variable from the position specified by this parameter is returned.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The length of the string that is retrieved from the variable.  
@@ -47,7 +47,7 @@ Gets part of a BigText variable.
  To delete the content in a BigText variable use the [CLEAR Function](CLEAR-Function.md). The following code snippet shows the syntax for the clear function. `CLEAR(BigText)`.  
   
 ## Example  
- The following examples demonstrate how to use the GETSUBTEXT function. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following examples demonstrate how to use the GETSUBTEXT function. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable Name|DataType|  
 |-------------------|--------------|  
@@ -56,7 +56,7 @@ Gets part of a BigText variable.
   
 |Text Constant Name|ENU Value|  
 |------------------------|---------------|  
-|Text000|VarSubText \= %1|  
+|Text000|VarSubText = %1|  
   
  The following example initializes the content of the MyBigText variable with the text `ABCDEFG`. The function starts from the third position \(the character C\) in the MyBigText variable and retrieves two characters. The result is the subtext CD. This is because the number 2 is specified for *Length* .  
   

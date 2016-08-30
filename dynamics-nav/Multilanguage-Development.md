@@ -31,14 +31,14 @@ manager: edupont
  For more information, see [Language Modules](Language-Modules.md).  
   
 ## Developing Multilanguage Applications  
- After you install a language module, you must design your application to take advantage of the multilanguage functionality. For more information, see [Developing Multilanguage\-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  
+ After you install a language module, you must design your application to take advantage of the multilanguage functionality. For more information, see [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  
   
 ## Viewing the Application in Different Languages  
- The language that is displayed to end users in the application depends on several factors, including the language on the localized version of the application, whether a user has specified a global language, whether a developer has specified a global language in C\/AL code, or whether a developer has specified a language for a particular object in C\/AL code. For more information, see [Viewing the Application in Different Languages](Viewing-the-Application-in-Different-Languages.md).  
+ The language that is displayed to end users in the application depends on several factors, including the language on the localized version of the application, whether a user has specified a global language, whether a developer has specified a global language in C/AL code, or whether a developer has specified a language for a particular object in C/AL code. For more information, see [Viewing the Application in Different Languages](Viewing-the-Application-in-Different-Languages.md).  
   
 ## See Also  
  [Development](Development.md)   
  [Adding Languages to Microsoft Dynamics NAV](Adding-Languages-to-Microsoft-Dynamics-NAV.md)   
  [Language Modules](Language-Modules.md)   
- [Developing Multilanguage\-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md)   
+ [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md)   
  [Viewing the Application in Different Languages](Viewing-the-Application-in-Different-Languages.md)

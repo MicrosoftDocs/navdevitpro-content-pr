@@ -11,9 +11,9 @@ ms.assetid: 98348284-4055-40e2-9bc0-808e95289626
 caps.latest.revision: 21
 ---
 # Variant Data Type
-The C\/AL variant data type can contain many C\/AL data types or any variants from OCX and Automation objects. However, not all these values can be mapped to C\/AL values. For more information, see [Using COM Technologies in Microsoft Dynamics NAV](Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md).  
+The C/AL variant data type can contain many C/AL data types or any variants from OCX and Automation objects. However, not all these values can be mapped to C/AL values. For more information, see [Using COM Technologies in Microsoft Dynamics NAV](Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md).  
   
- The variant data type can contain the following C\/AL data types:  
+ The variant data type can contain the following C/AL data types:  
   
 -   Action  
   
@@ -65,13 +65,13 @@ The C\/AL variant data type can contain many C\/AL data types or any variants fr
   
 -   TransactionType  
   
- You can use the variant data type to pass Automation variants from one external component \(Automation or OCX\) to another. This requires that the recipient component can accept the original variant. You can also assign a C\/AL variable to a variant and pass it to an external component. When you pass C\/AL variants ByRef to an external COM component, small conversion differences may occur. Therefore, we recommend that you pass C\/AL variants ByVal if you do not have to assign a new value to the C\/AL variant in your external component.  
+ You can use the variant data type to pass Automation variants from one external component \(Automation or OCX\) to another. This requires that the recipient component can accept the original variant. You can also assign a C/AL variable to a variant and pass it to an external component. When you pass C/AL variants ByRef to an external COM component, small conversion differences may occur. Therefore, we recommend that you pass C/AL variants ByVal if you do not have to assign a new value to the C/AL variant in your external component.  
   
 ## Returning Variants in Internal Function Calls  
- The C\/AL variant is a complex data type. To return C\/AL variants in function calls, you must pass them in a parameter ByVar \(called ByRef in COM\).  
+ The C/AL variant is a complex data type. To return C/AL variants in function calls, you must pass them in a parameter ByVar \(called ByRef in COM\).  
   
 ## Passing DateTime variables to Automation  
- It is not possible to pass a C\/AL DateTime variable to Automation. However, you can convert the C\/AL DateTime to a variant, and then pass it to Automation. The following examples shows how to pass a DateTime to Automation. This example requires that you create the following variables.  
+ It is not possible to pass a C/AL DateTime variable to Automation. However, you can convert the C/AL DateTime to a variant, and then pass it to Automation. The following examples shows how to pass a DateTime to Automation. This example requires that you create the following variables.  
   
 |Variable|Data type|  
 |--------------|---------------|  
@@ -86,7 +86,7 @@ varAutomation.MethodDateData(varVariant);
 ```  
   
 ## Variants and Approximation  
- A C\/AL variant contains two allocation areas: one for C\/AL variables and one for Automation and OCX variants. This means every time that you assign a C\/AL variable to a variant, the variant will contain the same data as the original variable. The conversion process does not change the data in any way. However, this is not the case with DATI2VARIANT because it is a VT\_VARIANT. When you assign an external variable to a variant, the variant will also contain the same data as the original external variable.  
+ A C/AL variant contains two allocation areas: one for C/AL variables and one for Automation and OCX variants. This means every time that you assign a C/AL variable to a variant, the variant will contain the same data as the original variable. The conversion process does not change the data in any way. However, this is not the case with DATI2VARIANT because it is a VT\_VARIANT. When you assign an external variable to a variant, the variant will also contain the same data as the original external variable.  
   
 ## Assigning Automation Variants to FieldRef Values  
  In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], if an Automation method returns a byte string \(bstr\) in a variant, you cannot assign that variant to a field that is a Code data type. Instead, you must first assign the variant to a code variable, and then assign the code variable to the FieldRef value. For example, the following code assigns a variant from an Automation method to a variable, and then assigns the variable to a field.  

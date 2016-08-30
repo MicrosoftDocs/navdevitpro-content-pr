@@ -21,7 +21,7 @@ Gets the ID of the session that the debugger is currently attached to.
 SessionID := DEBUGGINGSESSIONID   
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The session ID that the debugger is currently attached to.  

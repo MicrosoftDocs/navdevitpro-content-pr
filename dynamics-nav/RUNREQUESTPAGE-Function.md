@@ -27,14 +27,14 @@ Parameters := REPORT.RUNREQUESTPAGE(Number[, Parameters])
   
  The ID of the report for which you want to run the request page. To specify the report from a list, on the **View** menu, choose **Symbols**.  
   
- If the report that you specify does not exist, then a run\-time error occurs.  
+ If the report that you specify does not exist, then a run-time error occurs.  
   
  *Parameters*  
  Type: Text or Code  
   
  A string of request page parameters as XML to use to run the report.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text or Code  
   
  A string of the request page parameters as XML.  
@@ -64,7 +64,7 @@ Parameters := REPORT.RUNREQUESTPAGE(Number[, Parameters])
 |UserId|Code|100|  
 |Parameters|BLOB||  
   
- Create a codeunit and add the following variables in the **C\/AL Globals** window.  
+ Create a codeunit and add the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|Length|  
 |-------------------|--------------|-------------|------------|  
@@ -125,5 +125,5 @@ REPORT.PRINT(206,XmlParameters);
 ```  
   
 ## See Also  
- [Reports\-duplicate 20](Reports-duplicate-20.md)   
+ [Reports-duplicate 20](Reports-duplicate-20.md)   
  [Request Pages](Request-Pages.md)

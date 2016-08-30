@@ -22,7 +22,7 @@ You can lock an object in Object Designer so that other developers cannot save d
   
  When you finish making design changes to an object, you can unlock it in Object Designer. The **Locked** and **Locked By** fields are cleared, and other users can now lock the object or save changes to the object.  
   
- You can select one object or multiple objects at the same time to lock or unlock. You can also set the **Auto\-Lock on Design** option to automatically lock all objects that you open for designing.  
+ You can select one object or multiple objects at the same time to lock or unlock. You can also set the **Auto-Lock on Design** option to automatically lock all objects that you open for designing.  
   
 ## Object Table  
  The information in the **Locked** and **Locked By** columns is stored in table 2000000001, the **Object** table. The **Object** table is a system table that stores information about objects in the application.  
@@ -32,8 +32,8 @@ You can lock an object in Object Designer so that other developers cannot save d
   
 -   A developer opens an object in the designer but does not lock it. The developer makes several changes to the object and saves the changes periodically. At the same time, a second developer locks the object, and the first developer cannot save design changes to the object. The first developer gets an error message that the object is locked by the second developer.  
   
--   A developer locks an object. A second developer opens the locked object in read\-only mode, and then the first developer unlocks the object. The second developer still cannot save design changes to the object even though the object is now unlocked because it is open in read\-only mode.  
+-   A developer locks an object. A second developer opens the locked object in read-only mode, and then the first developer unlocks the object. The second developer still cannot save design changes to the object even though the object is now unlocked because it is open in read-only mode.  
   
 ## See Also  
- [How to: Lock an Object](../Topic/How%20to:%20Lock%20an%20Object.md)   
- [How to: Unlock an Object](../Topic/How%20to:%20Unlock%20an%20Object.md)
+ [How to: Lock an Object](How%20to:%20Lock%20an%20Object.md)   
+ [How to: Unlock an Object](How%20to:%20Unlock%20an%20Object.md)

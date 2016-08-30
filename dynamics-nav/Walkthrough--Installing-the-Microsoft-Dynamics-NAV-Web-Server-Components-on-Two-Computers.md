@@ -19,7 +19,7 @@ In this walkthrough, you will install the tiers of the [!INCLUDE[nav_web](includ
   
 |Computer|Installed operating system and software|  
 |--------------|---------------------------------------------|  
-|**NAVSRV\-SQL**|A supported operating system with the 64\-bit edition of a supported version of SQL Server installed.<br /><br /> You will install [!INCLUDE[navnow](includes/navnow_md.md)] database components and [!INCLUDE[nav_server](includes/nav_server_md.md)] on this computer. **Note:**  If a supported SQL Server product is not already installed on the target computer, then [!INCLUDE[navnow](includes/navnow_md.md)] Setup automatically installs a 64\-bit edition of SQL Server 2012 Express.|  
+|**NAVSRV-SQL**|A supported operating system with the 64-bit edition of a supported version of SQL Server installed.<br /><br /> You will install [!INCLUDE[navnow](includes/navnow_md.md)] database components and [!INCLUDE[nav_server](includes/nav_server_md.md)] on this computer. **Note:**  If a supported SQL Server product is not already installed on the target computer, then [!INCLUDE[navnow](includes/navnow_md.md)] Setup automatically installs a 64-bit edition of SQL Server 2012 Express.|  
 |**NAVWEB**|A supported operating system.<br /><br /> Internet Information Services 7 or Internet Information Services 8. **Note:**  [!INCLUDE[navnow](includes/navnow_md.md)] Setup can automatically enable IIS and the IIS features that are required for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. <br /><br /> You will install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] on this computer.|  
 |**DEVICE**|A device with an Internet connection and a web browser.|  
   
@@ -29,21 +29,21 @@ In this walkthrough, you will install the tiers of the [!INCLUDE[nav_web](includ
  The key characteristic of this walkthrough is that the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)] are installed on separate computers. Because of the multiple computers involved when a device tries to access the [!INCLUDE[nav_web](includes/nav_web_md.md)] over the Internet to manage [!INCLUDE[navnow](includes/navnow_md.md)] data, additional configuration is required to set up this environment compared to an environment where all components are on a single computer.  
   
 ## About This Walkthrough  
- After completing this walkthrough, you will have a functioning four\-tier installation on two computers. The installation uses the [!INCLUDE[demolong](includes/demolong_md.md)], which contains the [!INCLUDE[demoname](includes/demoname_md.md)] company. Windows authentication is used for authenticating users who try to access the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
+ After completing this walkthrough, you will have a functioning four-tier installation on two computers. The installation uses the [!INCLUDE[demolong](includes/demolong_md.md)], which contains the [!INCLUDE[demoname](includes/demoname_md.md)] company. Windows authentication is used for authenticating users who try to access the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
  This walkthrough illustrates the following tasks:  
   
 -   Using a domain user account as the service account for [!INCLUDE[nav_server](includes/nav_server_md.md)] and the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
--   [Installing the Microsoft Dynamics NAV Database Components and Microsoft Dynamics NAV Server](../Topic/Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Two%20Computers.md#InstallDatabase)  
+-   [Installing the Microsoft Dynamics NAV Database Components and Microsoft Dynamics NAV Server](Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Two%20Computers.md#InstallDatabase)  
   
--   [Installing the Microsoft Dynamics NAV Web Server Components](../Topic/Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Three%20Computers.md#InstallWeb)  
+-   [Installing the Microsoft Dynamics NAV Web Server Components](Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Three%20Computers.md#InstallWeb)  
   
--   [Configuring Constrained Delegation from the Microsoft Dynamics NAV Web Client to Microsoft Dynamics NAV Server](../Topic/Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Three%20Computers.md#Delegation)  
+-   [Configuring Constrained Delegation from the Microsoft Dynamics NAV Web Client to Microsoft Dynamics NAV Server](Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Three%20Computers.md#Delegation)  
   
--   [Allowing Inbound Communication on the Microsoft Dynamics NAV Web Client Port Through the Windows Firewall](../Topic/Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Three%20Computers.md#Firewall)  
+-   [Allowing Inbound Communication on the Microsoft Dynamics NAV Web Client Port Through the Windows Firewall](Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Three%20Computers.md#Firewall)  
   
--   [Opening the Microsoft Dynamics NAV Web client](../Topic/Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Three%20Computers.md#Opening)  
+-   [Opening the Microsoft Dynamics NAV Web client](Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Three%20Computers.md#Opening)  
   
 ### Prerequisites  
  To complete this walkthrough, you will need:  
@@ -52,7 +52,7 @@ In this walkthrough, you will install the tiers of the [!INCLUDE[nav_web](includ
   
 -   Two computers that are configured as described in the introduction.  
   
-     On the **NAVWEB** computer, you must enable IIS with the required features for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. For instructions about how to install Internet Information Services, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](../Topic/How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
+     On the **NAVWEB** computer, you must enable IIS with the required features for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. For instructions about how to install Internet Information Services, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
   
     > [!NOTE]  
     >  Instead of installing and configuring IIS manually, you can use [!INCLUDE[navnow](includes/navnow_md.md)] Setup to install IIS and enable the required features, as described in this walkthrough.  
@@ -89,7 +89,7 @@ In this walkthrough, you will install the tiers of the [!INCLUDE[nav_web](includ
   
 #### To install the [!INCLUDE[navnow](includes/navnow_md.md)] database components and [!INCLUDE[nav_server](includes/nav_server_md.md)]  
   
-1.  On the **NAVSRV\-SQL** computer, access the [!INCLUDE[navnow](includes/navnow_md.md)] installation media.  
+1.  On the **NAVSRV-SQL** computer, access the [!INCLUDE[navnow](includes/navnow_md.md)] installation media.  
   
 2.  Run the setup.exe file to start the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard.  
   
@@ -165,7 +165,7 @@ In this walkthrough, you will install the tiers of the [!INCLUDE[nav_web](includ
  To configure delegation, you must perform two tasks. First, you delegate access from the computer that is running [!INCLUDE[nav_web](includes/nav_web_md.md)] to the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)]. Second, you configure the kernel mode authentication for the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
 ### Delegating Access from the Web Server to [!INCLUDE[nav_server](includes/nav_server_md.md)]  
- Configuring delegation means explicitly configuring the computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] \(NAVWEB\) to delegate its access to the [!INCLUDE[nav_server](includes/nav_server_md.md)] \(NAVSRV\-SQL\) on behalf of the device \(DEVICE\) that is trying to connect to [!INCLUDE[navnow](includes/navnow_md.md)]. To make the access more secure, you specify delegation to a specific service on a specific server. This is known as *constrained delegation*.  
+ Configuring delegation means explicitly configuring the computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] \(NAVWEB\) to delegate its access to the [!INCLUDE[nav_server](includes/nav_server_md.md)] \(NAVSRV-SQL\) on behalf of the device \(DEVICE\) that is trying to connect to [!INCLUDE[navnow](includes/navnow_md.md)]. To make the access more secure, you specify delegation to a specific service on a specific server. This is known as *constrained delegation*.  
   
 > [!NOTE]  
 >  You must run the following procedure on a domain controller computer or a computer that is installed with Active Directory Domain Services tools.  
@@ -180,31 +180,31 @@ In this walkthrough, you will install the tiers of the [!INCLUDE[nav_web](includ
   
 3.  Expand the node for the domain where you have installed the [!INCLUDE[navnow](includes/navnow_md.md)] environment. For this example, the domain in the walkthrough is **Corp**.  
   
-4.  Select the **Computers** node, right\-click the **NAVWEB** computer, and then choose **Properties**.  
+4.  Select the **Computers** node, right-click the **NAVWEB** computer, and then choose **Properties**.  
   
 5.  On the **Delegation** tab, choose **Trust this user for delegation to specified services only**, and then choose **Use Kerberos only**.  
   
-6.  You must add the following service entries for the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)], which in this walkthrough is **NAVSRV\-SQL**.  
+6.  You must add the following service entries for the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)], which in this walkthrough is **NAVSRV-SQL**.  
   
     |Service type|User or computer|Port|  
     |------------------|----------------------|----------|  
-    |DynamicsNAV|NAVSRV\-SQL|7046|  
-    |DynamicsNAV|NAVSRV\-SQL.corp|7046|  
-    |HOST|NAVSRV\-SQL||  
-    |HOST|NAVSRV\-SQL.corp||  
+    |DynamicsNAV|NAVSRV-SQL|7046|  
+    |DynamicsNAV|NAVSRV-SQL.corp|7046|  
+    |HOST|NAVSRV-SQL||  
+    |HOST|NAVSRV-SQL.corp||  
   
 7.  To add the services, select **Expanded**, and then choose **Add**.  
   
 8.  In the **Add Services** window, choose **Users or Computers**.  
   
-9. In the **Enter the object names to select** box, type the name of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)], in this case NAVSRV\-SQL, and then choose the **OK** button.  
+9. In the **Enter the object names to select** box, type the name of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)], in this case NAVSRV-SQL, and then choose the **OK** button.  
   
 10. In the list of available services, press and hold the Ctrl key, select **DynamicsNAV** for port 7046 and **HOST**, and then choose the **OK** button.  
   
 11. Choose the **OK** button to close the dialog box.  
   
 ### Configuring Kernel Mode Authentication  
- By default, Windows authentication in IIS is set to use kernel mode authentication. Kernel\-mode authentication improves authentication performance. However, when you use delegation with Kerberos, you must either disable kernel mode or configure it to use the credentials of the application pool of [!INCLUDE[nav_web](includes/nav_web_md.md)]. Otherwise, authentication will fail and [!INCLUDE[nav_web](includes/nav_web_md.md)] will not be able to connect to [!INCLUDE[nav_server](includes/nav_server_md.md)]. This is because kernel mode authentication runs under the computer account of the computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], while the [!INCLUDE[nav_web](includes/nav_web_md.md)] runs under the user account of the user trying to access [!INCLUDE[navnow](includes/navnow_md.md)].  
+ By default, Windows authentication in IIS is set to use kernel mode authentication. Kernel-mode authentication improves authentication performance. However, when you use delegation with Kerberos, you must either disable kernel mode or configure it to use the credentials of the application pool of [!INCLUDE[nav_web](includes/nav_web_md.md)]. Otherwise, authentication will fail and [!INCLUDE[nav_web](includes/nav_web_md.md)] will not be able to connect to [!INCLUDE[nav_server](includes/nav_server_md.md)]. This is because kernel mode authentication runs under the computer account of the computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], while the [!INCLUDE[nav_web](includes/nav_web_md.md)] runs under the user account of the user trying to access [!INCLUDE[navnow](includes/navnow_md.md)].  
   
  As a best practice, you should configure kernel mode authentication to use the application pool credentials as described in this walkthrough.  
   
@@ -288,9 +288,9 @@ In this walkthrough, you will install the tiers of the [!INCLUDE[nav_web](includ
 ## Next Steps  
  The following is a list of typical tasks to perform after you install [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
--   Secure the connection to [!INCLUDE[nav_web](includes/nav_web_md.md)] using SSL. For more information, see [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](../Topic/How%20to:%20Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
+-   Secure the connection to [!INCLUDE[nav_web](includes/nav_web_md.md)] using SSL. For more information, see [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How%20to:%20Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
   
--   Upload your license. For more information, see [How to: Upload the License File](../Topic/How%20to:%20Upload%20the%20License%20File.md).  
+-   Upload your license. For more information, see [How to: Upload the License File](How%20to:%20Upload%20the%20License%20File.md).  
   
 -   Create users and integrate them into the [!INCLUDE[navnow](includes/navnow_md.md)] security system. For more information, see [Managing Users](Managing-Users.md).  
   
@@ -298,7 +298,7 @@ In this walkthrough, you will install the tiers of the [!INCLUDE[nav_web](includ
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
  [Deploying the Microsoft Dynamics NAV Web Server Components in a Two Computer Environment](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components-in-a-Two-Computer-Environment.md)   
  [Microsoft Dynamics NAV Web Client Network Architecture](Microsoft-Dynamics-NAV-Web-Client-Network-Architecture.md)   
- [Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on Three Computers](../Topic/Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Three%20Computers.md)   
- [Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on a Single Computer](../Topic/Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20a%20Single%20Computer.md)   
+ [Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on Three Computers](Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Three%20Computers.md)   
+ [Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on a Single Computer](Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20a%20Single%20Computer.md)   
  [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)   
  [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)

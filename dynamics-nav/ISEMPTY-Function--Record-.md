@@ -26,7 +26,7 @@ Empty := Record.ISEMPTY
   
  The filtered set of records that you want to check.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
 ## Remarks  
@@ -35,7 +35,7 @@ Empty := Record.ISEMPTY
  When you are using SQL Server, this function is faster than using the [COUNT Function \(Record\)](COUNT-Function--Record-.md) and then testing the result for zero.  
   
 ## Example  
- The following code example uses a record from the **Customer** table to determine whether the table has any records. The **ISEMPTY** function uses the CustomerRec variable to determine whether the **Customer** table is empty, stores the return value in the varIsEmpty variable, and displays the value in a message box. The value of the varIsEmpty variable is **No** because the **Customer** table has records \(that is, not empty\). The function then uses the PrinterSelec variable, which is a record from the **Printer Selection** table to check whether the **Printer Selection** table has any records and stores the return value in the varIsEmpty variable. The value of **Yes** is displayed in the message box because the **Printer Selection** table has no records \(that is, empty\). This example requires that you create the following variables in the **C\/AL Globals** window.  
+ The following code example uses a record from the **Customer** table to determine whether the table has any records. The **ISEMPTY** function uses the CustomerRec variable to determine whether the **Customer** table is empty, stores the return value in the varIsEmpty variable, and displays the value in a message box. The value of the varIsEmpty variable is **No** because the **Customer** table has records \(that is, not empty\). The function then uses the PrinterSelec variable, which is a record from the **Printer Selection** table to check whether the **Printer Selection** table has any records and stores the return value in the varIsEmpty variable. The value of **Yes** is displayed in the message box because the **Printer Selection** table has no records \(that is, empty\). This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|Data Type|Subtype|  
 |-------------------|---------------|-------------|  

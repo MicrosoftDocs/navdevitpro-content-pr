@@ -16,7 +16,7 @@ Specifies the type of event that is published by the event publisher function.
   
 ## Applies to  
   
--   C\/AL functions.  
+-   C/AL functions.  
   
      This property is only available when the [Event Property](Event-Property.md) of a function is set to **Publisher**.  
   
@@ -36,4 +36,4 @@ Specifies the type of event that is published by the event publisher function.
  [Publishing Events](Publishing-Events.md)   
  [Raising Events](Raising-Events.md)   
  [Subscribing to Events](Subscribing-to-Events.md)   
- [C\-AL Function Statements](C-AL-Function-Statements.md)
+ [C-AL Function Statements](C-AL-Function-Statements.md)

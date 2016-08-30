@@ -28,7 +28,7 @@ String := ENCRYPT(Str)
 > [!IMPORTANT]  
 >  The input string cannot exceed a length of 215 plain characters. If the input string includes special characters the length is even more reduced.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Value: Text or Code  
   
  The output string that is encrypted.  
@@ -39,7 +39,7 @@ String := ENCRYPT(Str)
 ## Remarks  
   
 ## Example  
- The code example requires that you create the following text constant in the **C\/AL Globals** window.  
+ The code example requires that you create the following text constant in the **C/AL Globals** window.  
   
  **Text** Text000  
   
@@ -55,4 +55,4 @@ MESSAGE(‘Value: ‘ + Text000);
 ## See Also  
  [System](System.md)   
  [Technical Reference](Technical-Reference.md)   
- [C\-SIDE Reference Guide](C-SIDE-Reference-Guide.md)
+ [C-SIDE Reference Guide](C-SIDE-Reference-Guide.md)

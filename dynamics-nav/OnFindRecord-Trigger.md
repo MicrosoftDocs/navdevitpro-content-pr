@@ -28,9 +28,9 @@ Overrides the default page behavior and enables you to specify which record you 
   
 |Parameter Value|Result|  
 |---------------------|------------|  
-|\- \(a dash\)|First record|  
-|\+ \(a plus sign\)|Last record|  
-|\=\>\<|Record defined in the `Rec` variable or the closest match|  
+|- \(a dash\)|First record|  
+|+ \(a plus sign\)|Last record|  
+|=\>\<|Record defined in the `Rec` variable or the closest match|  
   
 ## Return Value  
  *Ok*  

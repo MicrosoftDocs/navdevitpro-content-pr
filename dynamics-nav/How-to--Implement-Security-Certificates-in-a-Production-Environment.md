@@ -19,12 +19,12 @@ This topic describes how to implement security certificates on the [!INCLUDE[nav
 > [!NOTE]  
 >  An instance of [!INCLUDE[nav_server](includes/nav_server_md.md)] that has been configured for secure WAN communication always prompts [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)] users for authentication when they start the client, even when the client computer is in the same domain as [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
-## Running the Certificates Snap\-in for Microsoft Management Console  
- Some of the following procedures use the Certificates snap\-in for Microsoft Management Console \(MMC\). If you do not already have this snap\-in installed, you can add it to the MMC.  
+## Running the Certificates Snap-in for Microsoft Management Console  
+ Some of the following procedures use the Certificates snap-in for Microsoft Management Console \(MMC\). If you do not already have this snap-in installed, you can add it to the MMC.  
   
-#### To add Certificates snap\-in for Microsoft Management Console \(MMC\)  
+#### To add Certificates snap-in for Microsoft Management Console \(MMC\)  
   
--   See [Add the Certificates Snap\-in to an MMC](http://go.microsoft.com/fwlink/?LinkID=699497).  
+-   See [Add the Certificates Snap-in to an MMC](http://go.microsoft.com/fwlink/?LinkID=699497).  
   
 ## Installing and Configuring the Certificates  
  You install the security certificates on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)] and computers running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] according to the following guidelines. The root CA certificate and the service certificate are used in the configuration, but client certificates are not.  
@@ -39,7 +39,7 @@ This topic describes how to implement security certificates on the [!INCLUDE[nav
   
      A certificate can be enabled for several different purposes. The **Server Authentication** and **Client Authentication** purposes must be enabled. You can enable or disable other purposes to suit your requirements.  
   
-     You enable certificate purposes by using the Certificates Snap\-in for MMC. For more information, see [Modify the Properties of a Certificate](http://go.microsoft.com/fwlink/?LinkID=699496).  
+     You enable certificate purposes by using the Certificates Snap-in for MMC. For more information, see [Modify the Properties of a Certificate](http://go.microsoft.com/fwlink/?LinkID=699496).  
   
 ## Configuring [!INCLUDE[nav_server](includes/nav_server_md.md)]  
  After you have installed the root CA and the service certificate on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)], you must grant access to the service account that is associated with the server so that the service account can access the service certificate’s private key. You must also change the configuration settings for [!INCLUDE[nav_server](includes/nav_server_md.md)] to enable remote logins.  
@@ -48,7 +48,7 @@ This topic describes how to implement security certificates on the [!INCLUDE[nav
   
 1.  In the left pane of MMC, expand the **Certificates \(Local Computer\)** node, expand the **Personal** node, and then select the **Certificates** subfolder.  
   
-2.  In the right pane, right\-click the certificate, select **All Tasks**, and then choose **Manage Private Keys**.  
+2.  In the right pane, right-click the certificate, select **All Tasks**, and then choose **Manage Private Keys**.  
   
 3.  In the **Permissions** dialog box for the certificate, choose **Add**.  
   
@@ -70,7 +70,7 @@ This topic describes how to implement security certificates on the [!INCLUDE[nav
   
     |Key|New value|Description|  
     |---------|---------------|-----------------|  
-    |Credential Type|NavUserPassword or Username|This parameter is on the General tab in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. The default value is Windows. When you change it to NavUserPassword or Username, client users who connect to the server are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see [Users and Credential Types](Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](../Topic/How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
+    |Credential Type|NavUserPassword or Username|This parameter is on the General tab in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. The default value is Windows. When you change it to NavUserPassword or Username, client users who connect to the server are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see [Users and Credential Types](Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
     |Certificate Thumbprint|Value of the **Thumbprint** field in the previous procedure.|This parameter is on the Client Services tab in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. The default value is \<key\>. Remove any leading or trailing spaces in the thumbprint.|  
   
 12. Save and the new values for the server instance.  
@@ -99,7 +99,7 @@ This topic describes how to implement security certificates on the [!INCLUDE[nav
   
     |Key|New value|Description|  
     |---------|---------------|-----------------|  
-    |ClientServicesCredentialType|NavUserPassword or Username|The default value is Windows. When you change it to NavUserPassword or Username, client users are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see [Users and Credential Types](Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](../Topic/How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
+    |ClientServicesCredentialType|NavUserPassword or Username|The default value is Windows. When you change it to NavUserPassword or Username, client users are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see [Users and Credential Types](Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
     |DnsIdentity|The subject name of the service certificate.|The default value is \<identity\>. Replace this with the subject name or common name \(CN\) of the certificate that is used on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].|  
   
 3.  Save and close the ClientUserSettings.config file.  
@@ -116,9 +116,9 @@ This topic describes how to implement security certificates on the [!INCLUDE[nav
   
     |Key|New value|Description|  
     |---------|---------------|-----------------|  
-    |ClientServicesCredentialType|NavUserPassword|The default value is Windows. When you change it to NavUserPassword or Username, client users who connect to the server are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see [Users and Credential Types](Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](../Topic/How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
+    |ClientServicesCredentialType|NavUserPassword|The default value is Windows. When you change it to NavUserPassword or Username, client users who connect to the server are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see [Users and Credential Types](Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
     |DnsIdentity|The subject name of the service certificate|The default value is \<identity\>. Replace this with the subject name or common name \(CN\) of the certificate that is used on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].|  
   
 4.  Save the web.config file.  
   
-     For more information about configuring the credential type for the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [How to: Configure Authentication of Microsoft Dynamics NAV Web Client Users](../Topic/How%20to:%20Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md).
+     For more information about configuring the credential type for the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [How to: Configure Authentication of Microsoft Dynamics NAV Web Client Users](How%20to:%20Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md).

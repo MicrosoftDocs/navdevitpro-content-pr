@@ -12,7 +12,7 @@ caps.latest.revision: 8
 manager: edupont
 ---
 # Type Conversion
-This section describes all possible type conversions in C\/AL expressions.  
+This section describes all possible type conversions in C/AL expressions.  
   
 |To|See|  
 |--------|---------|  

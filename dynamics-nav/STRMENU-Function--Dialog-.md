@@ -25,7 +25,7 @@ OptionNumber := Dialog.STRMENU(OptionString [, DefaultNumber] [, Instruction])
  *OptionString*  
  Type: Code or text constant  
   
- A comma\-separated string. Each substring in *OptionString* specifies an option on the menu. The string can be a text constant that is enabled for multilanguage functionality. For more information, see [Multilanguage Development](Multilanguage-Development.md).  
+ A comma-separated string. Each substring in *OptionString* specifies an option on the menu. The string can be a text constant that is enabled for multilanguage functionality. For more information, see [Multilanguage Development](Multilanguage-Development.md).  
   
  *DefaultNumber*  
  Type: Integer  
@@ -39,7 +39,7 @@ OptionNumber := Dialog.STRMENU(OptionString [, DefaultNumber] [, Instruction])
   
  Use this optional parameter to add a description to the option values.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of the menu option that the user selected. If the user presses the Esc key to exit the menu, zero \(0\) is returned.  
@@ -47,7 +47,7 @@ OptionNumber := Dialog.STRMENU(OptionString [, DefaultNumber] [, Instruction])
 ## Example  
  This example shows how to use the Dialog.STRMENU function.  
   
- This code example requires that you create the following text constants and variables in the **C\/AL Globals** window.  
+ This code example requires that you create the following text constants and variables in the **C/AL Globals** window.  
   
 |Name|ConstValue|  
 |----------|----------------|  

@@ -20,9 +20,9 @@ You can use the [!INCLUDE[navnow](includes/navnow_md.md)] Debugger to debug your
   
  You can activate the debugger in the following ways:  
   
--   In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, point to **Debugger**, and then choose **Debug Session**. For more information, see [How to: Activate the Debugger from the Development Environment](../Topic/How%20to:%20Activate%20the%20Debugger%20from%20the%20Development%20Environment.md).  
+-   In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, point to **Debugger**, and then choose **Debug Session**. For more information, see [How to: Activate the Debugger from the Development Environment](How%20to:%20Activate%20the%20Debugger%20from%20the%20Development%20Environment.md).  
   
--   At the command prompt. For more information, see [How to: Activate the Debugger at the Command Prompt](../Topic/How%20to:%20Activate%20the%20Debugger%20at%20the%20Command%20Prompt.md).  
+-   At the command prompt. For more information, see [How to: Activate the Debugger at the Command Prompt](How%20to:%20Activate%20the%20Debugger%20at%20the%20Command%20Prompt.md).  
   
 -   In the RoleTailored client, in the **Search** box, enter **Sessions**, and then choose the related link.  
   
@@ -36,7 +36,7 @@ You can use the [!INCLUDE[navnow](includes/navnow_md.md)] Debugger to debug your
   
  Selecting **Debug Next** is useful if you want to debug web services. A web service call exists as a session only for the duration of the web service call, which typically is not long enough for you to select the specific session on the **Session List** page. To debug a web service, we recommend that you set your breakpoint, select **Debug Next**, and then make the web service call.  
   
- If the session that you want to debug is connected to a different [!INCLUDE[nav_server](includes/nav_server_md.md)] instance than the one that is currently specified in the [\($ S\_2355 Options $\)](-$-S_2355-Options-$-.md) window, then you can change to a different instance, and then activate the debugger in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. For more information, see [How to: Change the Microsoft Dynamics NAV Server Instance](../Topic/How%20to:%20Change%20the%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).  
+ If the session that you want to debug is connected to a different [!INCLUDE[nav_server](includes/nav_server_md.md)] instance than the one that is currently specified in the [\($ S\_2355 Options $\)](-$-S_2355-Options-$-.md) window, then you can change to a different instance, and then activate the debugger in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. For more information, see [How to: Change the Microsoft Dynamics NAV Server Instance](How%20to:%20Change%20the%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).  
   
 ## See Also  
  [Debugging](Debugging.md)

@@ -23,7 +23,7 @@ You can activate the debugger from the development environment. After you activa
     >   
     >  **Microsoft.Dynamics.Nav.Client has stopped working.**  
     >   
-    >  To fix this error, see [Troubleshooting: "Microsoft.Dynamics.Nav.Client has stopped working" error when starting debugger](../Topic/Troubleshooting:%20%22Microsoft.Dynamics.Nav.Client%20has%20stopped%20working%22%20error%20when%20starting%20debugger.md).  
+    >  To fix this error, see [Troubleshooting: "Microsoft.Dynamics.Nav.Client has stopped working" error when starting debugger](Troubleshooting:%20%22Microsoft.Dynamics.Nav.Client%20has%20stopped%20working%22%20error%20when%20starting%20debugger.md).  
   
 2.  On the **Session List** page, do one of the following:  
   
@@ -31,7 +31,7 @@ You can activate the debugger from the development environment. After you activa
   
     -   Select a session, and then choose **Debug**. The debugger is now active and attached to the selected session.  
   
- In the **View – Debugger** window, you can enable and disable breakpoints, step through lines of code, and view variable and call stack information. Additionally, you can manage breakpoints on lines of code in the C\/AL Editor in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. For more information, see [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](../Topic/Walkthrough:%20Debugging%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client.md).  
+ In the **View – Debugger** window, you can enable and disable breakpoints, step through lines of code, and view variable and call stack information. Additionally, you can manage breakpoints on lines of code in the C/AL Editor in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. For more information, see [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough:%20Debugging%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client.md).  
   
 ## See Also  
  [Activating the Debugger](Activating-the-Debugger.md)   

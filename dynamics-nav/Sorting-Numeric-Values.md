@@ -31,17 +31,17 @@ This topic explains how items, such as documents, are numbered in [!INCLUDE[navn
   
 -   Define a numeric series that consists of a predefined number of digits that start with a digit other than zero. The following are examples of fixed length numeric series:  
   
-    -   100\-399 \(300 numbers\)  
+    -   100-399 \(300 numbers\)  
   
-    -   40000\-69999 \(30,000 numbers\)  
+    -   40000-69999 \(30,000 numbers\)  
   
-    -   7000000\-9999999 \(3,000,000 numbers\)  
+    -   7000000-9999999 \(3,000,000 numbers\)  
   
      The values are sorted the same way whether they are sorted as characters or as numeric values.  
   
      This solution enables you to set the **SQL Data Type** property to Varchar, Integer, or BigInteger and the sorting is the same.  
   
--   Define a numeric series that consists of a predefined number of digits and that starts with a letter, such as A001\-A999. When the series is complete, you can define a new series by starting with a different letter.  
+-   Define a numeric series that consists of a predefined number of digits and that starts with a letter, such as A001-A999. When the series is complete, you can define a new series by starting with a different letter.  
   
      The values in this kind of series always begin with a letter and the sorting is always the same, regardless of the SQL data type.  
   
@@ -57,4 +57,4 @@ This topic explains how items, such as documents, are numbered in [!INCLUDE[navn
   
 -   If you do not follow the numbering principles when you apply a filter, for example, 2...10, the result will contain no records. This is because 2, comes after 10.  
   
--   You have followed the numbering principles and are using three\-digit numbers. If you forget to follow the same principles when you apply a filter, for example, 10...20, the result will be 100,101,102...199.
+-   You have followed the numbering principles and are using three-digit numbers. If you forget to follow the same principles when you apply a filter, for example, 10...20, the result will be 100,101,102...199.

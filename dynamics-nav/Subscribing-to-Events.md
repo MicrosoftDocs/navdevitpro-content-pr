@@ -12,7 +12,7 @@ caps.latest.revision: 11
 manager: edupont
 ---
 # Subscribing to Events
-To handle events, you design event subscribers. Event subscribers determine what actions to take in response to an event that has been raised. An event subscriber is a C\/AL function that subscribes to, or listens for, a specific event that is declared by an event publisher function. The event subscriber includes code that defines the business logic to handle the event. When the published event is raised, the event subscriber is called and its code is run.  
+To handle events, you design event subscribers. Event subscribers determine what actions to take in response to an event that has been raised. An event subscriber is a C/AL function that subscribes to, or listens for, a specific event that is declared by an event publisher function. The event subscriber includes code that defines the business logic to handle the event. When the published event is raised, the event subscriber is called and its code is run.  
   
  Subscribing to an event tells the runtime that the subscriber function must be called whenever the publisher function is run, either by code \(as with business and integration events\) or by the system \(as with trigger events\). The runtime establishes the link between an event raised by the publisher and its subscribers by looking for event subscriber functions.  
   
@@ -36,7 +36,7 @@ To handle events, you design event subscribers. Event subscribers determine what
   
 2.  Set the **EventSubscriberInstance** property of the codeunit to specify how event subscriber functions in the codeunit are bound to codeunit instance. For more information, see [EventSubscriberInstance Property](EventSubscriberInstance-Property.md).  
   
-3.  Add a C\/AL function to the codeunit.  
+3.  Add a C/AL function to the codeunit.  
   
      We recommend that you give the function a name that indicates what the subscriber does, and has the format *\[Action\]\[Event\]*. *\[Action\]* is text that describes what the function does and *\[Event\]* is the name of the event publisher function to which it subscribes. For more information about naming, see [Best Practices with Microsoft Dynamics NAV Events](Best-Practices-with-Microsoft-Dynamics-NAV-Events.md).  
   
@@ -63,7 +63,7 @@ To handle events, you design event subscribers. Event subscribers determine what
   
 2.  Set the **EventSubscriberInstance** property of the codeunit to specify how event subscriber functions in the codeunit are bound to codeunit instance. For more information, see [EventSubscriberInstance Property](EventSubscriberInstance-Property.md).  
   
-3.  Add a C\/AL function to the codeunit.  
+3.  Add a C/AL function to the codeunit.  
   
      We recommend that you give the function a name that indicates what subscriber does, and has the format *\[Action\]\[Event\]*. *\[Action\]* is text that describes what the function does and *\[Event\]* is the name of the event publisher function to which it subscribes. For more information about naming, see [Best Practices with Microsoft Dynamics NAV Events](Best-Practices-with-Microsoft-Dynamics-NAV-Events.md).  
   
@@ -91,7 +91,7 @@ To handle events, you design event subscribers. Event subscribers determine what
   
 10. Add code to the function for handing the event.  
   
- For step\-by\-step instructions about how to create a subscriber, see [Walkthrough: Publishing, Raising, and Subcribing to an Event in Microsoft Dynamics NAV](../Topic/Walkthrough:%20Publishing,%20Raising,%20and%20Subcribing%20to%20an%20Event%20in%20Microsoft%20Dynamics%20NAV.md).  
+ For step-by-step instructions about how to create a subscriber, see [Walkthrough: Publishing, Raising, and Subcribing to an Event in Microsoft Dynamics NAV](Walkthrough:%20Publishing,%20Raising,%20and%20Subcribing%20to%20an%20Event%20in%20Microsoft%20Dynamics%20NAV.md).  
   
 ## See Also  
  [Publishing Events](Publishing-Events.md)   

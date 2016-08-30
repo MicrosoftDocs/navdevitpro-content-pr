@@ -35,4 +35,4 @@ You can expand your [!INCLUDE[navnow](includes/navnow_md.md)] SQL Server databas
  You can also delete existing data files that are empty. The first data file that is listed is the primary file, and cannot be deleted.  
   
 ## See Also  
- [Altering Databases \- Database Files Tab](Altering-Databases---Database-Files-Tab.md)
+ [Altering Databases - Database Files Tab](Altering-Databases---Database-Files-Tab.md)

@@ -20,12 +20,12 @@ Enables debugging to return to the calling function after it steps into a functi
 [Ok :=] STEPOUT   
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the debugger returns to the calling function; otherwise, **false**.  
   
- If you omit this optional return value and if the break is not set successfully, then a run\-time error occurs. If you include the return value, then you must handle any errors.  
+ If you omit this optional return value and if the break is not set successfully, then a run-time error occurs. If you include the return value, then you must handle any errors.  
   
 ## See Also  
  [Breakpoints](Breakpoints.md)   

@@ -39,7 +39,7 @@ A report object is composed of a the following items:
  You create Word layouts by using Word 2013. Word layouts are based a Word document that includes a custom XML parts that represents the report dataset. For more information, see [Designing Word Report Layouts](Designing-Word-Report-Layouts.md).  
   
 ## See Also  
- [Reports\-duplicate 20](Reports-duplicate-20.md)   
+ [Reports-duplicate 20](Reports-duplicate-20.md)   
  [Designing Reports](Designing-Reports.md)   
  [Report Triggers](Report-Triggers.md)   
  [Request Pages](Request-Pages.md)   

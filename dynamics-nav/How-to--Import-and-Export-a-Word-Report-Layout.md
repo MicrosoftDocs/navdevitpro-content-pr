@@ -12,7 +12,7 @@ caps.latest.revision: 4
 manager: edupont
 ---
 # How to: Import and Export a Word Report Layout
-From the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], you can import and export built\-in Word report layouts of report objects as Word document files \(.docx file type\). This enables you to modify a built\-in Word report layout on a report. For example, you can export a built\-in Word report layout to a file on your computer or network. Then, you open the file in Word and modify the report layout. Finally, you import the file back to the report object. The existing built\-in Word report layout on the report is overwritten by the content in the imported file.  
+From the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], you can import and export built-in Word report layouts of report objects as Word document files \(.docx file type\). This enables you to modify a built-in Word report layout on a report. For example, you can export a built-in Word report layout to a file on your computer or network. Then, you open the file in Word and modify the report layout. Finally, you import the file back to the report object. The existing built-in Word report layout on the report is overwritten by the content in the imported file.  
   
 ##  <a name="ExportLayout"></a> To export a Word report layout from a report to a file  
   
@@ -41,5 +41,5 @@ From the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], you can import a
 ## See Also  
  [Built-in and Custom Report Layouts](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md#BuilinCustomLayouts)   
  [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)   
- [How to: Modify a Word Report Layout](../Topic/How%20to:%20Modify%20a%20Word%20Report%20Layout.md)   
- [How to: Create a Word Report Layout for a Report](../Topic/How%20to:%20Create%20a%20Word%20Report%20Layout%20for%20a%20Report.md)
+ [How to: Modify a Word Report Layout](How%20to:%20Modify%20a%20Word%20Report%20Layout.md)   
+ [How to: Create a Word Report Layout for a Report](How%20to:%20Create%20a%20Word%20Report%20Layout%20for%20a%20Report.md)

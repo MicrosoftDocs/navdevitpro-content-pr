@@ -26,7 +26,7 @@ Updates FlowFields in a record.
   
  The FieldRef of the FlowField that you want to update.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if FlowField has been calculated; otherwise, **false**.  
@@ -43,7 +43,7 @@ Updates FlowFields in a record.
  This function is similar to the [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md) function.  
   
 ## Example  
- The following example opens table 18 \(Customer\) as a RecordRef variable that is named CustRecordref. The [FIND Function \(RecordRef\)](FIND-Function--RecordRef-.md) selects the first record in the table and then loops through all the records until no records could be found. For each record, the [FIELD Function \(RecordRef\)](FIELD-Function--RecordRef-.md) creates a FieldRef variable that is named MyFieldref for the Balance Due field \(field 66\), which is a flow field. The CALCFIELD function is called to update the field before the customer ID and the balance due are displayed. Otherwise, the balance due for every record will be set to 0. This example requires that you create the following variables and text constants in the **C\/AL Globals** windows.  
+ The following example opens table 18 \(Customer\) as a RecordRef variable that is named CustRecordref. The [FIND Function \(RecordRef\)](FIND-Function--RecordRef-.md) selects the first record in the table and then loops through all the records until no records could be found. For each record, the [FIELD Function \(RecordRef\)](FIELD-Function--RecordRef-.md) creates a FieldRef variable that is named MyFieldref for the Balance Due field \(field 66\), which is a flow field. The CALCFIELD function is called to update the field before the customer ID and the balance due are displayed. Otherwise, the balance due for every record will be set to 0. This example requires that you create the following variables and text constants in the **C/AL Globals** windows.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

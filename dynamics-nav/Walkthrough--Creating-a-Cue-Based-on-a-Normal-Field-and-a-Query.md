@@ -17,14 +17,14 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
  ![Example of a Cue showing sales this month](media/NAV_Cues_SalesThisMonth_Example.png "NAV\_Cues\_SalesThisMonth\_Example")  
   
 > [!NOTE]  
->  This walkthrough is a continuation of [Walkthrough: Creating a Cue Based on a FlowField](../Topic/Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20FlowField.md).  
+>  This walkthrough is a continuation of [Walkthrough: Creating a Cue Based on a FlowField](Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20FlowField.md).  
   
 ## About This Walkthrough  
  This walkthrough illustrates the following tasks:  
   
 -   Creating a query object for calculating Cue data.  
   
--   Adding a field for a new Cue in an existing table, and adding C\/AL code to the field to get the data from the query object.  
+-   Adding a field for a new Cue in an existing table, and adding C/AL code to the field to get the data from the query object.  
   
 -   Adding a new Cue to an existing page for displaying the Cue in the [!INCLUDE[navnow](includes/navnow_md.md)] client.  
   
@@ -40,7 +40,7 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
 ### Prerequisites  
  To complete this walkthrough, you need:  
   
--   Cue table **50001 Sales Invoice Cue** and page **50001 Sales Invoice Cue** page from [Walkthrough: Creating a Cue Based on a FlowField](../Topic/Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20FlowField.md).  
+-   Cue table **50001 Sales Invoice Cue** and page **50001 Sales Invoice Cue** page from [Walkthrough: Creating a Cue Based on a FlowField](Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20FlowField.md).  
   
      This walkthrough uses these objects which you can create by using the instructions in the Walkthrough: Creating a Cue on a Role Center topic. The actual IDs and names of these objects might be different.  
   
@@ -97,13 +97,13 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
     > [!NOTE]  
     >  By default, fields are normal fields as defined by the field's [FieldClass Property](FieldClass-Property.md).  
   
-#### To add C\/AL code to the table calculate the Cue data  
+#### To add C/AL code to the table calculate the Cue data  
   
-1.  On the **View** menu, choose **C\/AL code** to open the C\/AL code for the table.  
+1.  On the **View** menu, choose **C/AL code** to open the C/AL code for the table.  
   
 2.  Add a global function that is called **CalcSalesThisMonthAmount** as follows:  
   
-    1.  On the **View** menu, choose **C\/AL Globals**.  
+    1.  On the **View** menu, choose **C/AL Globals**.  
   
     2.  On the **Functions** tab, in the **Name** column, enter **CalcSalesThisMonthAmount**.  
   
@@ -113,9 +113,9 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
   
     4.  Set the **Local** property to **No**.  
   
-3.  In the **C\/AL Globals** window, select the new function, and then choose **Locals**.  
+3.  In the **C/AL Globals** window, select the new function, and then choose **Locals**.  
   
-     The C\/AL Locals window appears. From her you will add a return value and variables.  
+     The C/AL Locals window appears. From her you will add a return value and variables.  
   
 4.  On the **Return Value** tab, set **Name** field to **Amount** and the **Return Type** field to **Decimal**.  
   
@@ -126,7 +126,7 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
     |CustLedgerEntry|Record|Cust. Ledger Entry|  
     |CustLedgEntrySales|Query|Cust. Ledg. Entry Sales|  
   
-6.  In C\/AL code, add the following code on the **CalcSalesThisMonthAmount** function:  
+6.  In C/AL code, add the following code on the **CalcSalesThisMonthAmount** function:  
   
     ```  
   
@@ -153,7 +153,7 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
   
 1.  In Object Designer, open the page **50001 Sales Invoice Cue**.  
   
-     To add a Cue, you add **Field** control under a **CueGroup** control. For this walkthrough, you will add the new Cue under the existing **CueGroup** control for Sales Invoices, after the **Sales Invoices \- Open** field.  
+     To add a Cue, you add **Field** control under a **CueGroup** control. For this walkthrough, you will add the new Cue under the existing **CueGroup** control for Sales Invoices, after the **Sales Invoices - Open** field.  
   
 2.  In a blank row under the existing **CueGroup** control, set the **Type** to **Field**, and then set the **SourceExpr** column to the **"Sales This Month"** field as follows.  
   
@@ -169,7 +169,7 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
   
          ![Page Designer showing cues](media/NAV_PageDesigner_SalesThisMonthCue_Clip.png "NAV\_PageDesigner\_SalesThisMonthCue\_Clip")  
   
-3.  Open the C\/AL code for the page, and then add the following code to the [OnAfterGetRecord Trigger](OnAfterGetRecord-Trigger.md) to assign the **Sales This month** field to the *CalcSalesThisMonthAmount* function of table **50001 Sales Invoice Cue**:  
+3.  Open the C/AL code for the page, and then add the following code to the [OnAfterGetRecord Trigger](OnAfterGetRecord-Trigger.md) to assign the **Sales This month** field to the *CalcSalesThisMonthAmount* function of table **50001 Sales Invoice Cue**:  
   
     ```  
     "Sales This Month" := CalcSalesThisMonthAmount;  
@@ -217,6 +217,6 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
  [Setting Up Colored Indicators on Cues](Setting-Up-Colored-Indicators-on-Cues.md)   
  [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
  [Pages Overview](Pages-Overview.md)   
- [Tables\-duplicate 20](Tables-duplicate-20.md)   
- [Walkthrough: Creating a Role Center](../Topic/Walkthrough:%20Creating%20a%20Role%20Center.md)   
+ [Tables-duplicate 20](Tables-duplicate-20.md)   
+ [Walkthrough: Creating a Role Center](Walkthrough:%20Creating%20a%20Role%20Center.md)   
  [Queries](Queries.md)

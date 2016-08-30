@@ -12,7 +12,7 @@ caps.latest.revision: 18
 manager: edupont
 ---
 # ERROR Function (Dialog)
-Displays an error message and ends the execution of C\/AL code.  
+Displays an error message and ends the execution of C/AL code.  
   
 ## Syntax  
   
@@ -32,7 +32,7 @@ ERROR(String [, Value1, …])
   
  Any variable or expression to be inserted in *String*. You can insert up to 10 values.  
   
- For '\#'\-type fields, the value is truncated according to the total number of number\-sign characters in *String*. For '%'\-type fields, the full length of the value is printed.  
+ For '\#'-type fields, the value is truncated according to the total number of number-sign characters in *String*. For '%'-type fields, the full length of the value is printed.  
   
 ## Remarks  
  The window is automatically sized to hold the longest line of text and total number of lines.  
@@ -51,7 +51,7 @@ ERROR(String [, Value1, …])
  For more information, see [Progress Windows, MESSAGE, ERROR, and CONFIRM Functions](Progress-Windows--MESSAGE--ERROR--and-CONFIRM-Functions.md).  
   
 ## Example  
- This example shows how to use the ERROR function. The code example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This example shows how to use the ERROR function. The code example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Name|DataType|  
 |----------|--------------|  
@@ -74,7 +74,7 @@ MESSAGE(Text001); // This line is not executed.
   
  **Finance Account 1230  must not be blocked.**  
   
- The ERROR function causes execution of C\/AL code to stop. The MESSAGE function is never executed.  
+ The ERROR function causes execution of C/AL code to stop. The MESSAGE function is never executed.  
   
 ## See Also  
  [Dialog Data Type](Dialog-Data-Type.md)   

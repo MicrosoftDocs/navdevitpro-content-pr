@@ -25,7 +25,7 @@ The Developer option is available on the **Choose an installation option** page 
   
      For more information, see [Client Types](Client-Types.md).  
   
--   [Development Environment \(C\-SIDE\)](Development-Environment--C-SIDE-.md).  
+-   [Development Environment \(C-SIDE\)](Development-Environment--C-SIDE-.md).  
   
 -   [Microsoft Dynamics NAV Server](Microsoft-Dynamics-NAV-Server.md).  
   
@@ -45,8 +45,8 @@ The Developer option is available on the **Choose an installation option** page 
   
 -   [Automated Data Capture System](Automated-Data-Capture-System.md)  
   
--   [Microsoft Office Outlook Add\-In](Microsoft-Office-Outlook-Add-In.md)  
+-   [Microsoft Office Outlook Add-In](Microsoft-Office-Outlook-Add-In.md)  
   
 ## See Also  
- [How to: Choose Components to Install](../Topic/How%20to:%20Choose%20Components%20to%20Install.md)   
+ [How to: Choose Components to Install](How%20to:%20Choose%20Components%20to%20Install.md)   
  [Client Types](Client-Types.md)

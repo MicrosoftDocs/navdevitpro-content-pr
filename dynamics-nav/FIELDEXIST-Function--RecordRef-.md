@@ -31,13 +31,13 @@ Exist := RecordRef.FIELDEXIST(FieldNo)
   
  The FieldNo that you want to know whether it exists in the table.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the field exists in the table; otherwise, **false**.  
   
 ## Example  
- The following example opens table 18 \(Customer\) as a RecordRef variable that is named MyRecordRef. The code loops through fields 1 through 12 and uses the FIELDEXIST function to determine whether the specified field exists. If the field exists, the name of the field and a message that indicates that the field exists is displayed. Otherwise, a message that indicates that the field does not exist is displayed. This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ The following example opens table 18 \(Customer\) as a RecordRef variable that is named MyRecordRef. The code loops through fields 1 through 12 and uses the FIELDEXIST function to determine whether the specified field exists. If the field exists, the name of the field and a message that indicates that the field exists is displayed. Otherwise, a message that indicates that the field does not exist is displayed. This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |||  
 |-|-|  

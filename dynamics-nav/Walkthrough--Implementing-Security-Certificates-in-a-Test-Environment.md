@@ -17,13 +17,13 @@ In this walkthrough, you set up an environment to test integrating certificates 
 ## Prerequisites  
  To complete this walkthrough, you will need:  
   
--   The Certificates snap\-in for Microsoft Management Console \(MMC\). If you do not already have this snap\-in installed, then follow these steps:  
+-   The Certificates snap-in for Microsoft Management Console \(MMC\). If you do not already have this snap-in installed, then follow these steps:  
   
     1.  Choose **Start**, choose **Run**, and then type **Mmc.exe**.  
   
-    2.  In the console, on the **File** menu, choose **Add\/Remove Snap\-in**.  
+    2.  In the console, on the **File** menu, choose **Add\/Remove Snap-in**.  
   
-    3.  In the **Add Standalone Snap\-in** dialog box, select **Certificates**, choose **Computer Account**, choose **Local Computer**, and then choose **Add**.  
+    3.  In the **Add Standalone Snap-in** dialog box, select **Certificates**, choose **Computer Account**, choose **Local Computer**, and then choose **Add**.  
   
 -   The makecert.exe utility.  
   
@@ -38,9 +38,9 @@ In this walkthrough, you set up an environment to test integrating certificates 
   
 2.  Open the command prompt as follows:  
   
-    -   If you have Visual Studio installed on your computer, choose **Start**, choose **All Programs**, choose **Microsoft Visual Studio 2012**, choose **Visual Studio Tools**, and then right\-click **Visual Studio Command Prompt** and choose **Run as Administrator**.  
+    -   If you have Visual Studio installed on your computer, choose **Start**, choose **All Programs**, choose **Microsoft Visual Studio 2012**, choose **Visual Studio Tools**, and then right-click **Visual Studio Command Prompt** and choose **Run as Administrator**.  
   
-    -   If you have the Windows SDK installed on your computer, choose **Start**, choose **All Programs**, choose **Microsoft Windows SDK**, and then right\-click **Windows SDK Command Prompt \(2010\)** \(or **CMD Shell**\) and choose **Run as Administrator**.  
+    -   If you have the Windows SDK installed on your computer, choose **Start**, choose **All Programs**, choose **Microsoft Windows SDK**, and then right-click **Windows SDK Command Prompt \(2010\)** \(or **CMD Shell**\) and choose **Run as Administrator**.  
   
 3.  At the command prompt, locate the temporary directory.  
   
@@ -56,19 +56,19 @@ In this walkthrough, you set up an environment to test integrating certificates 
   
 6.  The RootNavServiceCA.cer certificate file and the RootNavServiceCA.pvk private key are saved in your temporary folder.  
   
-#### To use the Certificates snap\-in to install the root CA on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)]  
+#### To use the Certificates snap-in to install the root CA on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)]  
   
-1.  Start the Certificates snap\-in for MMC on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)], and then add the Certificates snap\-in.  
+1.  Start the Certificates snap-in for MMC on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)], and then add the Certificates snap-in.  
   
-2.  In the **Certificates snap\-in** dialog box, choose **Computer account**, and then choose **Next**.  
+2.  In the **Certificates snap-in** dialog box, choose **Computer account**, and then choose **Next**.  
   
 3.  In the **Select Computer** pane, choose **Local computer: \(the computer this console is running on\)**, and then choose **Finish**.  
   
-4.  Choose **OK** to close the **Add or Remove Snap\-ins** dialog box.  
+4.  Choose **OK** to close the **Add or Remove Snap-ins** dialog box.  
   
 5.  In the left pane of MMC, expand the **Certificates \(Local Computer\)** node.  
   
-6.  Expand the **Trusted Root Certification Authorities** node, right\-click the **Certificates** subfolder, select **All Tasks**, and then choose **Import**.  
+6.  Expand the **Trusted Root Certification Authorities** node, right-click the **Certificates** subfolder, select **All Tasks**, and then choose **Import**.  
   
 7.  In the Certificate Import Wizard, on the **Welcome** page, choose **Next**.  
   
@@ -98,9 +98,9 @@ In this walkthrough, you set up an environment to test integrating certificates 
   
 #### To install the certificate revocation list on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)]  
   
-1.  In the Certificates snap\-in, in the left pane of MMC, expand the **Certificates \(Local Computer\)** node.  
+1.  In the Certificates snap-in, in the left pane of MMC, expand the **Certificates \(Local Computer\)** node.  
   
-2.  Expand the **Trusted Root Certification Authorities** node, right\-click the **Certificates** subfolder, select **All Tasks**, and then choose **Import**.  
+2.  Expand the **Trusted Root Certification Authorities** node, right-click the **Certificates** subfolder, select **All Tasks**, and then choose **Import**.  
   
 3.  In the Certificate Import Wizard, on the **Welcome** page, choose **Next**.  
   
@@ -116,7 +116,7 @@ In this walkthrough, you set up an environment to test integrating certificates 
   
 9. On the **Completing the Certificate Import Wizard** page, choose **Finish**.  
   
-10. Select the **Trusted Root Certificate Authorities** node, and then refresh the snap\-in.  
+10. Select the **Trusted Root Certificate Authorities** node, and then refresh the snap-in.  
   
      A Certificate Revocation List folder that contains the RootNavServiceCA.crl file has been created.  
   
@@ -133,15 +133,15 @@ In this walkthrough, you set up an environment to test integrating certificates 
   
 2.  When you are prompted, enter the password that you used to create the root CA.  
   
-3.  Select the **Trusted Root Certificate Authorities** node, and then refresh the snap\-in.  
+3.  Select the **Trusted Root Certificate Authorities** node, and then refresh the snap-in.  
   
- You now have the NavServiceCert.cer certificate file in your temporary folder. The certificate is installed under the Personal node in the Certificates Snap\-in.  
+ You now have the NavServiceCert.cer certificate file in your temporary folder. The certificate is installed under the Personal node in the Certificates Snap-in.  
   
 #### To grant access to the certificate’s private key to the service account for [!INCLUDE[nav_server](includes/nav_server_md.md)]  
   
 1.  In the left pane of MMC, expand the **Certificates \(Local Computer\)** node, expand the **Personal** node, and then select the **Certificates** subfolder.  
   
-2.  In the right pane, right\-click the **NavServiceCert** certificate, choose **All Tasks**, and then choose **Manage Private Keys**.  
+2.  In the right pane, right-click the **NavServiceCert** certificate, choose **All Tasks**, and then choose **Manage Private Keys**.  
   
 3.  In the **Permissions for NavServiceCert private keys** dialog box, choose **Add**.  
   
@@ -152,7 +152,7 @@ In this walkthrough, you set up an environment to test integrating certificates 
   
 5.  In the **Permissions for NavServiceCert private keys** dialog box, select the account, and then select the **Allow** check box next to **Full Control**. Choose **OK** when done.  
   
-6.  In the right pane, double\-click the **NavServiceCert** certificate.  
+6.  In the right pane, double-click the **NavServiceCert** certificate.  
   
 7.  In the **Certificate** dialog box, choose the **Details** tab, and then select the **Thumbprint** field.  
   
@@ -170,7 +170,7 @@ In this walkthrough, you set up an environment to test integrating certificates 
   
     |Key|New value|Description|  
     |---------|---------------|-----------------|  
-    |ClientServicesCredentialType<br /><br /> \(General tab\)|NavUserPassword or Username|This parameter is on the General tab in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. The default value is Windows. When you change it to NavUserPassword or Username, client users who connect to the server are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see [Users and Credential Types](Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](../Topic/How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
+    |ClientServicesCredentialType<br /><br /> \(General tab\)|NavUserPassword or Username|This parameter is on the General tab in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. The default value is Windows. When you change it to NavUserPassword or Username, client users who connect to the server are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see [Users and Credential Types](Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
     |CertificateThumbprint<br /><br /> \(Client Services tab\)|Value of the **Thumbprint** field in the previous procedure|The default value is \<key\>. Remove any leading or trailing spaces in the thumbprint.|  
   
 5.  Choose **Save**.  
@@ -186,20 +186,20 @@ In this walkthrough, you set up an environment to test integrating certificates 
   
 #### To install the root CA  
   
-1.  Start the Certificates snap\-in for MMC on the computer running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], and then add the Certificates snap\-in.  
+1.  Start the Certificates snap-in for MMC on the computer running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], and then add the Certificates snap-in.  
   
     > [!NOTE]  
     >  This procedure is identical to the one that you followed for installing the root CA on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
-2.  In the **Certificates snap\-in** dialog box, choose **Computer account**, and then choose **Next**.  
+2.  In the **Certificates snap-in** dialog box, choose **Computer account**, and then choose **Next**.  
   
 3.  In the **Select Computer** pane, choose **Local computer: \(the computer this console is running on\)**, and then choose **Finish**.  
   
-4.  Choose **OK** to close the **Add or Remove Snap\-ins** dialog box.  
+4.  Choose **OK** to close the **Add or Remove Snap-ins** dialog box.  
   
 5.  In the left pane of MMC, expand the **Certificates \(Local Computer\)** node.  
   
-6.  Expand the **Trusted Root Certification Authorities** node, right\-click the **Certificates** subfolder, select **All Tasks**, and then choose **Import**.  
+6.  Expand the **Trusted Root Certification Authorities** node, right-click the **Certificates** subfolder, select **All Tasks**, and then choose **Import**.  
   
 7.  In the Certificate Import Wizard, on the **Welcome** page, choose **Next**.  
   
@@ -215,17 +215,17 @@ In this walkthrough, you set up an environment to test integrating certificates 
   
 #### To install the certificate revocation list  
   
-1.  Start the Certificates snap\-in for MMC on the computer running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)], and then add the Certificates snap\-in.  
+1.  Start the Certificates snap-in for MMC on the computer running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)], and then add the Certificates snap-in.  
   
-2.  In the **Certificates snap\-in** dialog box, choose **Computer account**, and then choose **Next**.  
+2.  In the **Certificates snap-in** dialog box, choose **Computer account**, and then choose **Next**.  
   
 3.  In the **Select Computer** pane, choose **Local computer: \(the computer this console is running on\)**, and then choose **Finish**.  
   
-4.  Choose **OK** to close the **Add or Remove Snap\-ins** dialog box.  
+4.  Choose **OK** to close the **Add or Remove Snap-ins** dialog box.  
   
 5.  In the left pane of MMC, expand the **Certificates \(Local Computer\)** node.  
   
-6.  Expand the **Trusted Root Certification Authorities** node, right\-click the **Certificates** subfolder, select **All Tasks**, and then choose **Import**.  
+6.  Expand the **Trusted Root Certification Authorities** node, right-click the **Certificates** subfolder, select **All Tasks**, and then choose **Import**.  
   
 7.  In the Certificate Import Wizard, on the **Welcome** page, choose **Next**.  
   
@@ -253,7 +253,7 @@ In this walkthrough, you set up an environment to test integrating certificates 
   
     |Key|New value|Description|  
     |---------|---------------|-----------------|  
-    |ClientServicesCredentialType|NavUserPassword or Username|The default value is Windows. When you change it to NavUserPassword or Username, client users who connect to the server are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see [Users and Credential Types](Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](../Topic/How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
+    |ClientServicesCredentialType|NavUserPassword or Username|The default value is Windows. When you change it to NavUserPassword or Username, client users who connect to the server are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see [Users and Credential Types](Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
     |DnsIdentity|The subject name of the service certificate|The default value is \<identity\>.<br /><br /> For this walkthrough, set the key to **NavServiceCert**.|  
   
 3.  Save and close the ClientUserSettings.config file.  
@@ -270,9 +270,9 @@ In this walkthrough, you set up an environment to test integrating certificates 
   
     |Key|New value|Description|  
     |---------|---------------|-----------------|  
-    |ClientServicesCredentialType|NavUserPassword or Username|The default value is Windows. When you change it to NavUserPassword or Username, client users who connect to the server are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see [Users and Credential Types](Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](../Topic/How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
+    |ClientServicesCredentialType|NavUserPassword or Username|The default value is Windows. When you change it to NavUserPassword or Username, client users who connect to the server are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see [Users and Credential Types](Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
     |DnsIdentity|The subject name of the service certificate|For this walkthrough, set the key to **NavServiceCert**.|  
   
 4.  Save the web.config file.  
   
-     For more information about configuring the credential type for the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [How to: Configure Authentication of Microsoft Dynamics NAV Web Client Users](../Topic/How%20to:%20Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md).
+     For more information about configuring the credential type for the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [How to: Configure Authentication of Microsoft Dynamics NAV Web Client Users](How%20to:%20Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md).

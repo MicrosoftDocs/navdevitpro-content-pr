@@ -12,7 +12,7 @@ caps.latest.revision: 26
 manager: edupont
 ---
 # How to: Modify Menu Items in a MenuSuite
-[!INCLUDE[navnowlong](includes/navnowlong_md.md)] provides a basic MenuSuite that you can modify, or you can create a new MenuSuite from the basic MenuSuite. You modify an existing MenuSuite by designing it in Navigation Pane Designer. You can modify the shortcut menus, which typically represent a department area or the menu items that are in the department menus. This procedure describes how to modify menu items in a MenuSuite. For more information about how to modify a department menu, see [How to: Modify a Department Menu in a MenuSuite](../Topic/How%20to:%20Modify%20a%20Department%20Menu%20in%20a%20MenuSuite.md). For information about how to create a new MenuSuite, see [Walkthrough: Creating MenuSuites for the Microsoft Dynamics NAV Windows Client](../Topic/Walkthrough:%20Creating%20MenuSuites%20for%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client.md).  
+[!INCLUDE[navnowlong](includes/navnowlong_md.md)] provides a basic MenuSuite that you can modify, or you can create a new MenuSuite from the basic MenuSuite. You modify an existing MenuSuite by designing it in Navigation Pane Designer. You can modify the shortcut menus, which typically represent a department area or the menu items that are in the department menus. This procedure describes how to modify menu items in a MenuSuite. For more information about how to modify a department menu, see [How to: Modify a Department Menu in a MenuSuite](How%20to:%20Modify%20a%20Department%20Menu%20in%20a%20MenuSuite.md). For information about how to create a new MenuSuite, see [Walkthrough: Creating MenuSuites for the Microsoft Dynamics NAV Windows Client](Walkthrough:%20Creating%20MenuSuites%20for%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client.md).  
   
 ### To modify menu items in a MenuSuite  
   
@@ -31,13 +31,13 @@ manager: edupont
      You can modify a menu by creating new items, inserting existing items, creating new groups, deleting or renaming items or groups.  
   
     > [!NOTE]  
-    >  For information about how to insert items, see [How to: Insert Items in a MenuSuite](../Topic/How%20to:%20Insert%20Items%20in%20a%20MenuSuite.md).  
+    >  For information about how to insert items, see [How to: Insert Items in a MenuSuite](How%20to:%20Insert%20Items%20in%20a%20MenuSuite.md).  
   
 6.  If you are creating a new menu item, do the following:  
   
-    1.  Right\-click the folder that you want to create new item in and then choose **Create Item** to open the **Create Item** window.  
+    1.  Right-click the folder that you want to create new item in and then choose **Create Item** to open the **Create Item** window.  
   
-    2.  From the **Object Type** drop\-down list box, select the object type that you want to create the menu item for.  
+    2.  From the **Object Type** drop-down list box, select the object type that you want to create the menu item for.  
   
     3.  In the **Object ID** box, choose the **AssistButton** and choose an object from the \<Object\> List window.  
   
@@ -45,7 +45,7 @@ manager: edupont
   
     5.  In the **Department** list box, select the sub menu in the department where you want the menu item to appear in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and then choose **OK**.  
   
-7.  Right\-click **Navigation Pane Designer**, and then choose **Close Navigation Pane Designer**.  
+7.  Right-click **Navigation Pane Designer**, and then choose **Close Navigation Pane Designer**.  
   
 8.  In the **Save Changes** dialog box, make sure **Compile** is selected and then choose **Yes** to save the MenuSuite.  
   

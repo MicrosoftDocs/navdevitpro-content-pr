@@ -12,7 +12,7 @@ caps.latest.revision: 7
 manager: edupont
 ---
 # LOCKTIMEOUT Function (Database)
-Determines whether the lock time\-out setting is set to **On**. You can also use this function to override the default setting.  
+Determines whether the lock time-out setting is set to **On**. You can also use this function to override the default setting.  
   
 ## Syntax  
   
@@ -25,19 +25,19 @@ Determines whether the lock time\-out setting is set to **On**. You can also use
  *LockTimeout*  
  Type: Boolean  
   
- The new setting for whether the lock time\-out is on.  
+ The new setting for whether the lock time-out is on.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
- This value shows whether to use a lock time\-out.  
+ This value shows whether to use a lock time-out.  
   
 ## Remarks  
- This function has been designed specifically for use in long\-running processes that should not be terminated because of a lock time\-out, for example batch jobs that run overnight.  
+ This function has been designed specifically for use in long-running processes that should not be terminated because of a lock time-out, for example batch jobs that run overnight.  
   
- When the C\/AL code has finished running, the default setting is used again. This function does not change the duration of a lock time\-out.  
+ When the C/AL code has finished running, the default setting is used again. This function does not change the duration of a lock time-out.  
   
- To change the default setting in the [!INCLUDE[navnow](includes/navnow_md.md)][!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **Alter** to open the **Alter Database** window. Choose the **Advanced** tab and select or clear the **Lock time\-out** field.  
+ To change the default setting in the [!INCLUDE[navnow](includes/navnow_md.md)][!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **Alter** to open the **Alter Database** window. Choose the **Advanced** tab and select or clear the **Lock time-out** field.  
   
 ## See Also  
  [Database](Database.md)

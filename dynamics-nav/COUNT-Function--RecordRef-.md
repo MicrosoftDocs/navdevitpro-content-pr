@@ -27,7 +27,7 @@ Number := RecordRef.COUNT
   
  The RecordRef that refers to the table.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of records in the table.  
@@ -43,7 +43,7 @@ Number := RecordRef.COUNT
  This function works just like the [COUNT Function \(Record\)](COUNT-Function--Record-.md).  
   
 ## Example  
- The following example opens table number 18 \(Customer\) as a RecordRef that is named MyRecordRef. The [LOCKTABLE Function \(RecordRef\)](LOCKTABLE-Function--RecordRef-.md) locks the table. The COUNT function then retrieves the number of records in the table. The number of records is stored in the Count variable. The name of the table and the number of records in the table is displayed in a message box. The varTableNo variable can be used to open any table and get the number of records in that table by changing the value of the varTableNo variable. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example opens table number 18 \(Customer\) as a RecordRef that is named MyRecordRef. The [LOCKTABLE Function \(RecordRef\)](LOCKTABLE-Function--RecordRef-.md) locks the table. The COUNT function then retrieves the number of records in the table. The number of records is stored in the Count variable. The name of the table and the number of records in the table is displayed in a message box. The varTableNo variable can be used to open any table and get the number of records in that table by changing the value of the varTableNo variable. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

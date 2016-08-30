@@ -12,16 +12,16 @@ caps.latest.revision: 4
 manager: edupont
 ---
 # IncludeInDataSet Property
-Sets whether the C\/AL variable's value is included in the dataset of the RoleTailored client.  
+Sets whether the C/AL variable's value is included in the dataset of the RoleTailored client.  
   
 ## Applies To  
- C\/AL variables of [Boolean Data Type](Boolean-Data-Type.md) or [Integer Data Type](Integer-Data-Type.md) on pages.  
+ C/AL variables of [Boolean Data Type](Boolean-Data-Type.md) or [Integer Data Type](Integer-Data-Type.md) on pages.  
   
 ## Property Value  
  **Yes** to include the variable's value in the dataset; otherwise, **No**. The default is **No**.  
   
 ## Remarks  
- You must set this property to **Yes** if the variable is used as the value of the [Editable Property\-duplicate](Editable-Property-duplicate.md), [Enabled Property\-duplicate](Enabled-Property-duplicate.md), [Visible Property\-duplicate](Visible-Property-duplicate.md), or [StyleExpr Property](StyleExpr-Property.md).  
+ You must set this property to **Yes** if the variable is used as the value of the [Editable Property-duplicate](Editable-Property-duplicate.md), [Enabled Property-duplicate](Enabled-Property-duplicate.md), [Visible Property-duplicate](Visible-Property-duplicate.md), or [StyleExpr Property](StyleExpr-Property.md).  
   
 ## See Also  
- [How to: Style Field Text on a Page](../Topic/How%20to:%20Style%20Field%20Text%20on%20a%20Page.md)
+ [How to: Style Field Text on a Page](How%20to:%20Style%20Field%20Text%20on%20a%20Page.md)

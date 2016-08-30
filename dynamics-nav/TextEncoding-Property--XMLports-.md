@@ -22,23 +22,23 @@ Specifies the text encoding format to use when you use an XMLport to export or i
   
 ## Values  
   
--   MS\-DOS \(default\)  
+-   MS-DOS \(default\)  
   
--   UTF\-8  
+-   UTF-8  
   
--   UTF\-16  
+-   UTF-16  
   
 -   Windows  
   
  For more information, see [Text Encoding](Text-Encoding.md).  
   
 ## Remarks  
- Text encoding is the process of transforming bytes of data into readable characters for users of a system or program. There are several industry text encoding formats and different systems support different formats. Internally, [!INCLUDE[navnow](includes/navnow_md.md)] uses Unicode encoding. For exporting and importing data with an XMLport, [!INCLUDE[navnow](includes/navnow_md.md)] supports MS\-DOS, UTF\-8, UTF\-16, and Windows encoding formats.  
+ Text encoding is the process of transforming bytes of data into readable characters for users of a system or program. There are several industry text encoding formats and different systems support different formats. Internally, [!INCLUDE[navnow](includes/navnow_md.md)] uses Unicode encoding. For exporting and importing data with an XMLport, [!INCLUDE[navnow](includes/navnow_md.md)] supports MS-DOS, UTF-8, UTF-16, and Windows encoding formats.  
   
  You should set the **TextEncoding** property to the encoding format that is compatible with the system or program that you will be exporting to or importing from. The following sections describe the available text encoding formats.  
   
 > [!TIP]  
->  You can also set the **TextEncoding** property in C\/AL code. For example, if your XMLport can import or export different formats based on certain conditions, you can change the encoding on the fly depending on the conditions. For example, you can write code such as the following:  
+>  You can also set the **TextEncoding** property in C/AL code. For example, if your XMLport can import or export different formats based on certain conditions, you can change the encoding on the fly depending on the conditions. For example, you can write code such as the following:  
 >   
 >  `currXMLport.TEXTENCODING := TEXTENCODING::Windows;`  
   
@@ -63,7 +63,7 @@ Specifies the text encoding format to use when you use an XMLport to export or i
   
 ## See Also  
  [XMLports](XMLports.md)   
- [How to: Create XMLports](../Topic/How%20to:%20Create%20XMLports.md)   
+ [How to: Create XMLports](How%20to:%20Create%20XMLports.md)   
  [Format Property \(XMLports\)](Format-Property--XMLports-.md)   
- [Walkthrough: Importing Data from Text Files to Tables](../Topic/Walkthrough:%20Importing%20Data%20from%20Text%20Files%20to%20Tables.md)   
+ [Walkthrough: Importing Data from Text Files to Tables](Walkthrough:%20Importing%20Data%20from%20Text%20Files%20to%20Tables.md)   
  [Text Encoding](Text-Encoding.md)

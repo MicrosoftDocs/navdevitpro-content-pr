@@ -34,7 +34,7 @@ You can use several specialized functions to display messages and gather input. 
   
 -   Try to write all messages on only one line. If you want to use more than one line, then start each new line after a period instead of in the middle of a sentence.  
   
--   Do not enter the text directly in the C\/AL code. Instead, enter it as a text constant so that the message can be translated.  
+-   Do not enter the text directly in the C/AL code. Instead, enter it as a text constant so that the message can be translated.  
   
 ## Creating a Window to Indicate Progress  
  If you have an application that performs some processing that can take a long time to complete, then you should consider displaying a window that informs the user of the progress that is being made. It is always a good idea to inform the user that processes are still running.  
@@ -43,7 +43,7 @@ You can use several specialized functions to display messages and gather input. 
   
  In some applications, you may want to create a window in which each field is updated when the program is running. For example, the fields in the window display the count of the number of postings made. In another application, you may want to display information about the record that is currently being processed. For example, the field in the window displays the number of the account that is currently being processed.  
   
- To create this kind of progress window, you use the Dialog data type. For more information, see [How to: Create a Progress Window](../Topic/How%20to:%20Create%20a%20Progress%20Window.md).  
+ To create this kind of progress window, you use the Dialog data type. For more information, see [How to: Create a Progress Window](How%20to:%20Create%20a%20Progress%20Window.md).  
   
 ## MESSAGE Function  
  The [MESSAGE Function \(Dialog\)](MESSAGE-Function--Dialog-.md) displays a message in a window that remains open until the user chooses the **OK** button.  

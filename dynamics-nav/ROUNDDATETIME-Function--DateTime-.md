@@ -37,15 +37,15 @@ NewDateTime := ROUNDDATETIME(Datetime [, Precision][, Direction])
  *Direction*  
  Type: Text or Code  
   
- This optional parameter specifies how to round the DateTime. The default rounding method is '\='. You can change the method by using the following options:  
+ This optional parameter specifies how to round the DateTime. The default rounding method is '='. You can change the method by using the following options:  
   
--   '\=' rounds up or down to the nearest value \(default\). Values of 5 or greater are rounded up. Values less than 5 are rounded down.  
+-   '=' rounds up or down to the nearest value \(default\). Values of 5 or greater are rounded up. Values less than 5 are rounded down.  
   
 -   '\>' rounds up  
   
 -   '\<' rounds down  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: DateTime  
   
  The rounded result.  
@@ -58,7 +58,7 @@ NewDateTime := ROUNDDATETIME(Datetime [, Precision][, Direction])
  We recommend that you do not use a value greater than 60\*60\*1000, which is the number of milliseconds in an hour, for the *Precision* parameter. The Regional and Language Options in Windows affect how the hour and date parts of a DateTime are rounded. To display a DateTime in a specific format, we recommend that you use the [FORMAT Function \(Code, Text\)](FORMAT-Function--Code--Text-.md) instead of the ROUNDDATETIME function.  
   
 ## Example  
- This example shows how to use the ROUNDDATETIME function to round to the nearest second. This example requires that you create the following text constant in the **C\/AL Globals** window.  
+ This example shows how to use the ROUNDDATETIME function to round to the nearest second. This example requires that you create the following text constant in the **C/AL Globals** window.  
   
 |Text constant name|ENU value|  
 |------------------------|---------------|  

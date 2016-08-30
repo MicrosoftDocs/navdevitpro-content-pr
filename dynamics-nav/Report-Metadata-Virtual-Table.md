@@ -31,13 +31,13 @@ The **Report Metadata** virtual table \(ID 2000000139\) contains data about the 
 |**PaperSourceDefaultPage**|Specifies whether users can delete records while they are using the page.<br /><br /> Data type: Integer|  
 |**PaperSourceLastPage**|Specifies the default paper source to use when printing the report.<br /><br /> Data type: Integer|  
 |**PreviewMode**|Specifies how the report opens when you preview it. The options are **Normal** and **PrintLayout**.<br /><br /> Data type: Option|  
-|**DefaultLayout**|Specifies whether the report uses the built\-in RDLC or Word report layout by default.<br /><br /> Data type: Option|  
-|**WordMergeDataItem**|Specifies the name of the root\-level **DataItem** that is used for generating separate reports for multiple records.<br /><br /> Data type: String|  
+|**DefaultLayout**|Specifies whether the report uses the built-in RDLC or Word report layout by default.<br /><br /> Data type: Option|  
+|**WordMergeDataItem**|Specifies the name of the root-level **DataItem** that is used for generating separate reports for multiple records.<br /><br /> Data type: String|  
 |**FirstDataItemTableId**|Specifies the ID of the table that is associated with the first **DataItem** that is defined for the report in Report Designer. If there is not table, then this field is **0**.<br /><br /> Data type: Integer|  
   
- The fields in the virtual table correspond to C\/AL properties on the page objects. For more information, see [Report Properties](Report-Properties.md).  
+ The fields in the virtual table correspond to C/AL properties on the page objects. For more information, see [Report Properties](Report-Properties.md).  
   
- To access and view the **Report Metadata** virtual table, you must create a tabular\-type page. For more information, see [How to: Create a Page to View a Virtual Table](../Topic/How%20to:%20Create%20a%20Page%20to%20View%20a%20Virtual%20Table.md)  
+ To access and view the **Report Metadata** virtual table, you must create a tabular-type page. For more information, see [How to: Create a Page to View a Virtual Table](How%20to:%20Create%20a%20Page%20to%20View%20a%20Virtual%20Table.md)  
   
 ## See Also  
  [Virtual Tables](Virtual-Tables.md)

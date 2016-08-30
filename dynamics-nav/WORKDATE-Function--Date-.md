@@ -27,7 +27,7 @@ Gets and sets the work date for the current session.
   
  The new work date you want to set.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Date  
   
  The current work date.  
@@ -38,7 +38,7 @@ Gets and sets the work date for the current session.
  To set the work date to follow the calendar day so that the work date is always the current date, set *NewDate* to `TODAY` or `0D`. If you explicitly set *NewDate* to the current date, then the work date will also follow the calendar day.  
   
 ## Example  
- This example shows how to use the WORKDATE function. This example requires that you create the following text constant in the **C\/AL Globals** window.  
+ This example shows how to use the WORKDATE function. This example requires that you create the following text constant in the **C/AL Globals** window.  
   
 |Name|ConstValue|  
 |----------|----------------|  

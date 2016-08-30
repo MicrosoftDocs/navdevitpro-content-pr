@@ -27,19 +27,19 @@ With Microsoft .NET Framework interoperability, a DotNet type variable of a [!IN
 -   [Limitations on Events and Event Triggers](#Limitations)  
   
 ##  <a name="HowWork"></a> Understanding How Events Work in .NET Interoperability  
- You set up a DotNet variable to subscribe to events by setting the variable’s [WithEvents Property](WithEvents-Property.md) to **true**. The DotNet variable is exposed to all events that are published by the .NET Framework type that the variable references. For each event, [!INCLUDE[navnow](includes/navnow_md.md)] automatically adds a blank trigger in the C\/AL code of the [!INCLUDE[navnow](includes/navnow_md.md)] object. You add C\/AL code to the trigger to handle the event. When an instance of the .NET Framework type raises the event, the corresponding trigger in C\/AL code is invoked and its code is run.  
+ You set up a DotNet variable to subscribe to events by setting the variable’s [WithEvents Property](WithEvents-Property.md) to **true**. The DotNet variable is exposed to all events that are published by the .NET Framework type that the variable references. For each event, [!INCLUDE[navnow](includes/navnow_md.md)] automatically adds a blank trigger in the C/AL code of the [!INCLUDE[navnow](includes/navnow_md.md)] object. You add C/AL code to the trigger to handle the event. When an instance of the .NET Framework type raises the event, the corresponding trigger in C/AL code is invoked and its code is run.  
   
- For more information, see [How to: Subscribe to Events in a .NET Framework Type](../Topic/How%20to:%20Subscribe%20to%20Events%20in%20a%20.NET%20Framework%20Type.md).  
+ For more information, see [How to: Subscribe to Events in a .NET Framework Type](How%20to:%20Subscribe%20to%20Events%20in%20a%20.NET%20Framework%20Type.md).  
   
-##  <a name="ClientSide"></a> Client\-side and Server\-side Events  
- You can configure a DotNet type variable to instantiate the .NET Framework type to target the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or the [!INCLUDE[nav_server](includes/nav_server_md.md)]. As a result, events that are published by the .NET Framework type will also target either the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] \(client\-side\) or the [!INCLUDE[nav_server](includes/nav_server_md.md)] \(server\-side\).  
+##  <a name="ClientSide"></a> Client-side and Server-side Events  
+ You can configure a DotNet type variable to instantiate the .NET Framework type to target the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or the [!INCLUDE[nav_server](includes/nav_server_md.md)]. As a result, events that are published by the .NET Framework type will also target either the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] \(client-side\) or the [!INCLUDE[nav_server](includes/nav_server_md.md)] \(server-side\).  
   
-### Client\-Side Events  
- Client\-side events are supported on pages only. A page can subscribe to events from the following sources:  
+### Client-Side Events  
+ Client-side events are supported on pages only. A page can subscribe to events from the following sources:  
   
 -   DotNet variable that is defined as a global variable.  
   
--   Events published by a control add\-in. For more information about events in control add\-ins, see [Exposing Events and Calling Respective C\-AL Triggers from a Windows Client Control Add\-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md).  
+-   Events published by a control add-in. For more information about events in control add-ins, see [Exposing Events and Calling Respective C-AL Triggers from a Windows Client Control Add-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md).  
   
 ##  <a name="Asynch"></a> Understanding Synchronous and Asynchronous Events  
  Events published by .NET Framework objects can be classified as *synchronous* or *asynchronous*. *Synchronous* events are raised immediately when something occurs in the running application code. Asynchronous events are raised after something occurs. An asynchronous event can be a timer event, which is implemented by the [System.Timers.Timer](http://go.microsoft.com/fwlink/?LinkID=262175) class, or an event that is raised by a network listener or other external source, which is handled by an event sink.  
@@ -51,7 +51,7 @@ With Microsoft .NET Framework interoperability, a DotNet type variable of a [!IN
 -   When asynchronous events are raised, they are added to the event queue of the .NET Framework, and processed when the connection between the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and the [!INCLUDE[nav_server](includes/nav_server_md.md)] is idle. A connection is idle when no [!INCLUDE[navnow](includes/navnow_md.md)] objects are communicating over the connection. If there is a long process that is running over the connection, then you might experience a delay when you run event triggers.  
   
 ##  <a name="Updating"></a> Updating Event Triggers  
- Event triggers in C\/AL code do not update automatically when events are changed or added to the .NET Framework assembly that is used by a DotNet variable. If you want to update event triggers in the [!INCLUDE[navnow](includes/navnow_md.md)] object to changes in the .NET Framework assembly, then you must delete existing triggers and subscribe to the events again.  
+ Event triggers in C/AL code do not update automatically when events are changed or added to the .NET Framework assembly that is used by a DotNet variable. If you want to update event triggers in the [!INCLUDE[navnow](includes/navnow_md.md)] object to changes in the .NET Framework assembly, then you must delete existing triggers and subscribe to the events again.  
   
 ##  <a name="Limitations"></a> Limitations on Events and Event Triggers  
  Event triggers that are published by .NET Framework types have the following limitations:  
@@ -60,12 +60,12 @@ With Microsoft .NET Framework interoperability, a DotNet type variable of a [!IN
   
 -   Events must adhere to the delegation event model of the .NET Framework. For more information about this model, see [Events and Delegates](http://go.microsoft.com/fwlink/?LinkID=262176).  
   
--   Reference parameters in client\-side events are not supported.  
+-   Reference parameters in client-side events are not supported.  
   
 -   Events cannot have parameters that are enumeration types.  
   
 -   Return values on event triggers are not supported.  
   
 ## See Also  
- [How to: Subscribe to Events in a .NET Framework Type](../Topic/How%20to:%20Subscribe%20to%20Events%20in%20a%20.NET%20Framework%20Type.md)   
- [Calling .NET Framework Members from C\-AL](Calling-.NET-Framework-Members-from-C-AL.md)
+ [How to: Subscribe to Events in a .NET Framework Type](How%20to:%20Subscribe%20to%20Events%20in%20a%20.NET%20Framework%20Type.md)   
+ [Calling .NET Framework Members from C-AL](Calling-.NET-Framework-Members-from-C-AL.md)

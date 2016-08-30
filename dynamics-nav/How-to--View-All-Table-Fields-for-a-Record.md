@@ -22,7 +22,7 @@ You can use the **About This Page** feature to view all fields for the current r
   
      The **About This Page** window displays every field that is in the table on which the selected page is based. It displays both visible and invisible fields. It also displays the value of each field for the selected record.  
   
-3.  \(optional\) To view the fields in the table on which a subpage is based, place the cursor on the subpage and then press Ctrl\+Alt\+F1.  
+3.  \(optional\) To view the fields in the table on which a subpage is based, place the cursor on the subpage and then press Ctrl+Alt+F1.  
   
 ### To export field values  
   
@@ -41,4 +41,4 @@ You can use the **About This Page** feature to view all fields for the current r
 4.  \(optional\) On the **About This Page** page, on the **Actions** tab, in the **General** group, choose **Print Page** to open the **Print** window and send the information to a printer.  
   
 ## See Also  
- [How to: View and Export the Dataset for a Report](../Topic/How%20to:%20View%20and%20Export%20the%20Dataset%20for%20a%20Report.md)
+ [How to: View and Export the Dataset for a Report](How%20to:%20View%20and%20Export%20the%20Dataset%20for%20a%20Report.md)

@@ -25,9 +25,9 @@ NormalDate := NORMALDATE(Date)
  *Date*  
  Type: Date  
   
- The input date. You can enter a closing date or a normal date. A run\-time error occurs if the value of *Date* is set to the undefined date \(0D\).  
+ The input date. You can enter a closing date or a normal date. A run-time error occurs if the value of *Date* is set to the undefined date \(0D\).  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Date  
   
  The resulting date. If the input date is either a normal date or a closing date, then the return value is a normal date.  
@@ -40,7 +40,7 @@ NormalDate := NORMALDATE(Date)
  xxxxxxC: closing date  
   
 ## Example  
- The input date is a regular date. This code example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ The input date is a regular date. This code example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -62,7 +62,7 @@ MESSAGE(Text000, InputDate, OutputDate);
  **The normal date for 04\/04\/14 is 04\/04\/14.**  
   
 ## Example  
- The input date is a closing date. This code example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ The input date is a closing date. This code example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

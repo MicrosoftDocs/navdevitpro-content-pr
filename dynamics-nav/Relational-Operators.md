@@ -21,14 +21,14 @@ The relational operators are used to compare expressions.
 |--------------|-------------------|----------------|-------------------------|  
 |\>|Greater than|Expr \> Expr|Boolean|  
 |\<|Less than|Expr \< Expr|Boolean|  
-|\>\=|Greater than or equal|Expr \>\= Expr|Boolean|  
-|\<\=|Less than or equal|Expr \<\= Expr|Boolean|  
+|\>=|Greater than or equal|Expr \>= Expr|Boolean|  
+|\<=|Less than or equal|Expr \<= Expr|Boolean|  
 |\<\>|Not equal to|Expr \<\> Expr|Boolean|  
-|\=|Equal to|Expr \= Expr|Boolean|  
+|=|Equal to|Expr = Expr|Boolean|  
 |IN|In range|Expr IN \[Valueset\]|Boolean|  
   
 > [!NOTE]  
->  When using relational operators, uppercase and lowercase letters in strings are significant. Furthermore, the comparison is based on the built\-in character comparison table of the system, that is, not by comparing "true" ASCII characters.  
+>  When using relational operators, uppercase and lowercase letters in strings are significant. Furthermore, the comparison is based on the built-in character comparison table of the system, that is, not by comparing "true" ASCII characters.  
   
 ### Valid Uses of Relational Operators  
  The following table describes the valid uses of the relational operators and the data types that result when expressions are evaluated. The invalid combinations of types for relational operators are indicated by a dash. All relational operators are binary infix operators; that is, they take a left and a right argument and are placed between the arguments.  

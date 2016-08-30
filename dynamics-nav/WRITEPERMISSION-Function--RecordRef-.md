@@ -27,7 +27,7 @@ Ok := RecordRef.WRITEPERMISSION
   
  The RecordRef that refers to a record in the table for which you want to know if you have write permission.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  Specifies if you have permission to write to the table using any of the following RecordRef functions:  
@@ -47,14 +47,14 @@ Ok := RecordRef.WRITEPERMISSION
   
  This function uses the filter that is currently applied to the *RecordRef* to determine whether you have write permission. If no filter is applied, the function tests for full write permission. If a filter has been set, the function only tests for write permission in the range of the filter.  
   
- To determine whether the user has partial write permission, because a security filter has been applied, view the **Permissions** page. For more information, see [How to: Set Security Filters](../Topic/How%20to:%20Set%20Security%20Filters.md).  
+ To determine whether the user has partial write permission, because a security filter has been applied, view the **Permissions** page. For more information, see [How to: Set Security Filters](How%20to:%20Set%20Security%20Filters.md).  
   
- If you do not have permission to write to a table and you attempt to write, a run\-time error occurs. This function lets you determine in advance if you have write permission. When the permissions are checked, the combination of permissions in the license file and the user's permissions in the Permission table is considered.  
+ If you do not have permission to write to a table and you attempt to write, a run-time error occurs. This function lets you determine in advance if you have write permission. When the permissions are checked, the combination of permissions in the license file and the user's permissions in the Permission table is considered.  
   
  This function works the same as the [WRITEPERMISSION Function \(Record\)](WRITEPERMISSION-Function--Record-.md).  
   
 ## Example  
- The following example opens table 18 \(Customer\) and creates a RecordRef variable that is named MyRecordRef for the table. The WRITEPERMISSION function determines whether the table has write permission and stores the return value in the varHasWritePerm variable. The Customer table has write permission, so the message displays **Yes**. You can initialize the varTableNo variable with any table number. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example opens table 18 \(Customer\) and creates a RecordRef variable that is named MyRecordRef for the table. The WRITEPERMISSION function determines whether the table has write permission and stores the return value in the varHasWritePerm variable. The Customer table has write permission, so the message displays **Yes**. You can initialize the varTableNo variable with any table number. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

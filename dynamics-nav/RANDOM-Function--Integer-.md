@@ -12,7 +12,7 @@ caps.latest.revision: 14
 manager: edupont
 ---
 # RANDOM Function (Integer)
-Returns a pseudo\-random number.  
+Returns a pseudo-random number.  
   
 ## Syntax  
   
@@ -27,10 +27,10 @@ Number := RANDOM(MaxNumber)
   
  The largest acceptable number. In effect, you are setting a range from one \(1\) to the number that you specify with the *MaxNumber* parameter.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
- A pseudo\-random number between one \(1\) and the number that you entered for *MaxNumber*.  
+ A pseudo-random number between one \(1\) and the number that you entered for *MaxNumber*.  
   
 ## Remarks  
  If *MaxNumber* is negative it acts as a positive.  
@@ -40,7 +40,7 @@ Number := RANDOM(MaxNumber)
  A number is always chosen from the same set of numbers. Use [RANDOMIZE Function \(Integer\)](RANDOMIZE-Function--Integer-.md) to generate a new set of numbers.  
   
 ## Example  
- This example shows how to generate a pseudo\-random number. This example requires that you create the following variables and text constant in the **C\/AL Globals** window. The value of the variable Number2 is positive though the value of *MaxNumber* is negative and the value of the variable Number3 is always 1 because *MaxNumber* is 0.  
+ This example shows how to generate a pseudo-random number. This example requires that you create the following variables and text constant in the **C/AL Globals** window. The value of the variable Number2 is positive though the value of *MaxNumber* is negative and the value of the variable Number3 is always 1 because *MaxNumber* is 0.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -53,7 +53,7 @@ Number := RANDOM(MaxNumber)
   
 |Text constant name|ENU Value|  
 |------------------------|---------------|  
-|Text000|Number1 \= %1, Number2 \= %2, Number3 \= %3|  
+|Text000|Number1 = %1, Number2 = %2, Number3 = %3|  
   
 ```  
   

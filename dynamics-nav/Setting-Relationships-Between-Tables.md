@@ -13,13 +13,13 @@ caps.latest.revision: 11
 # Setting Relationships Between Tables
 It is common to distinguish among the following types of relationships between tables in relational database design:  
   
--   One\-to\-many relationships  
+-   One-to-many relationships  
   
--   Many\-to\-many relationships  
+-   Many-to-many relationships  
   
--   One\-to\-one relationships  
+-   One-to-one relationships  
   
- The one\-to\-many relationship is the most common. If your database design model indicates that you need to set up a many\-to\-many relationship, then your design is probably inefficient. You can typically break down a many\-to\-many relationship into two one\-to\-many relationships. A one\-to\-one relationship is usually not optimal and can often be avoided by combining the two tables.  
+ The one-to-many relationship is the most common. If your database design model indicates that you need to set up a many-to-many relationship, then your design is probably inefficient. You can typically break down a many-to-many relationship into two one-to-many relationships. A one-to-one relationship is usually not optimal and can often be avoided by combining the two tables.  
   
 ## Using Relationships  
  If your database contains tables with related data, then you can define a relationship between them. You relate tables by specifying one or more fields that contain the same value in related records. These matching fields often have the same name in each table. You can use relationships to:  
@@ -77,7 +77,7 @@ It is common to distinguish among the following types of relationships between t
  Furthermore, if you change one of the currency codes in the **Currency Code** table, then the change is automatically propagated to all tables that refer to this code.  
   
 ## See Also  
- [How to: Create a Table Relationship](../Topic/How%20to:%20Create%20a%20Table%20Relationship.md)   
+ [How to: Create a Table Relationship](How%20to:%20Create%20a%20Table%20Relationship.md)   
  [Maintaining Table Relationships on SQL Server](Maintaining-Table-Relationships-on-SQL-Server.md)   
- [How to: Synchronize Table and SQL Server Relationships](../Topic/How%20to:%20Synchronize%20Table%20and%20SQL%20Server%20Relationships.md)   
+ [How to: Synchronize Table and SQL Server Relationships](How%20to:%20Synchronize%20Table%20and%20SQL%20Server%20Relationships.md)   
  [Overview of Tables](Overview-of-Tables.md)

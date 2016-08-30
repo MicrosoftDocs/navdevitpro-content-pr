@@ -31,7 +31,7 @@ Integer := TestPage.Field.ASINTEGER
   
  The field that contains the value that you want to convert.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The converted value.  

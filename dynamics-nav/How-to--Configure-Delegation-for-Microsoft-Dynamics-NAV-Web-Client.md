@@ -14,13 +14,13 @@ manager: edupont
 # How to: Configure Delegation for Microsoft Dynamics NAV Web Client
 When the client device, [!INCLUDE[nav_web](includes/nav_web_md.md)], and [!INCLUDE[nav_server](includes/nav_server_md.md)] are on separate computers, the client device interacts with [!INCLUDE[nav_server](includes/nav_server_md.md)] through the computer that is running [!INCLUDE[nav_web](includes/nav_web_md.md)]. [!INCLUDE[nav_web](includes/nav_web_md.md)] is performing actions on the client device's behalf. This process is known as *impersonation*. Impersonation cannot be used across multiple computers, so you must set up delegation from [!INCLUDE[nav_web](includes/nav_web_md.md)] to [!INCLUDE[nav_server](includes/nav_server_md.md)]. Delegation occurs when [!INCLUDE[nav_web](includes/nav_web_md.md)] forwards a request from a device request to the [!INCLUDE[nav_server](includes/nav_server_md.md)] service so that the [!INCLUDE[nav_server](includes/nav_server_md.md)] service can impersonate the device.  
   
--   [Delegating Access from the Web Server to Microsoft Dynamics NAV Server](../Topic/How%20to:%20Configure%20Delegation%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#Delegate)  
+-   [Delegating Access from the Web Server to Microsoft Dynamics NAV Server](How%20to:%20Configure%20Delegation%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#Delegate)  
   
--   [Registering Service Principal Names for Microsoft Dynamics NAV Server](../Topic/How%20to:%20Configure%20Delegation%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#RegisterSPN)  
+-   [Registering Service Principal Names for Microsoft Dynamics NAV Server](How%20to:%20Configure%20Delegation%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#RegisterSPN)  
   
      This task is only required if the service account for [!INCLUDE[nav_server](includes/nav_server_md.md)] is not configured to register SPNs automatically.  
   
--   [Configuring Kernel Mode Authentication on the Microsoft Dynamics NAV Web Client Website](../Topic/How%20to:%20Configure%20Delegation%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#Kernel)  
+-   [Configuring Kernel Mode Authentication on the Microsoft Dynamics NAV Web Client Website](How%20to:%20Configure%20Delegation%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#Kernel)  
   
 ##  <a name="Delegate"></a> Delegating Access from the Web Server to  [!INCLUDE[nav_server](includes/nav_server_md.md)]  
  Configuring delegation means explicitly configuring the computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] to delegate its access to the [!INCLUDE[nav_server](includes/nav_server_md.md)] on behalf of the device that is trying to connect to [!INCLUDE[navnow](includes/navnow_md.md)]. To make the access more secure, you specify delegation to a specific service on a specific server. This is known as *constrained delegation*.  
@@ -38,12 +38,12 @@ When the client device, [!INCLUDE[nav_web](includes/nav_web_md.md)], and [!INCLU
   
 3.  Expand the node for the domain where you have installed the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. For this example, the domain is **Corp**.  
   
-4.  Select the **Computers** node. Right\-click the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], and then choose **Properties**.  
+4.  Select the **Computers** node. Right-click the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], and then choose **Properties**.  
   
 5.  On the **Delegation** tab, choose **Trust this user for delegation to specified services only**, and then choose **Use Kerberos only**.  
   
     > [!NOTE]  
-    >  The **Use Kerberos Only** option does not work for some network configurations with [!INCLUDE[navnow](includes/navnow_md.md)]. If you get a server error when you try open the [!INCLUDE[nav_web](includes/nav_web_md.md)], then disable the **Use Kerberos Only** option and see whether this fixes the error. For more information about this error, see [Troubleshooting: A server error occurred and the content cannot be displayed](../Topic/Troubleshooting:%20A%20server%20error%20occurred%20and%20the%20content%20cannot%20be%20displayed.md).  
+    >  The **Use Kerberos Only** option does not work for some network configurations with [!INCLUDE[navnow](includes/navnow_md.md)]. If you get a server error when you try open the [!INCLUDE[nav_web](includes/nav_web_md.md)], then disable the **Use Kerberos Only** option and see whether this fixes the error. For more information about this error, see [Troubleshooting: A server error occurred and the content cannot be displayed](Troubleshooting:%20A%20server%20error%20occurred%20and%20the%20content%20cannot%20be%20displayed.md).  
   
 6.  You must add the following service entries for the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)], where **NAVSERVER** indicates the name of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
@@ -69,14 +69,14 @@ When the client device, [!INCLUDE[nav_web](includes/nav_web_md.md)], and [!INCLU
 13. Choose the **OK** button to close the dialog box.  
   
 ##  <a name="RegisterSPN"></a> Registering Service Principal Names for Microsoft Dynamics NAV Server  
- When [!INCLUDE[nav_server](includes/nav_server_md.md)] is using a dedicated domain user account as its logon account, then you must register service principal names \(SPN\) for the [!INCLUDE[nav_server](includes/nav_server_md.md)] on the domain user account to make delegation work. An SPN is the name by which a client uniquely identifies an instance of a service, using the account under which the service runs. To register SPNs, you used the setspn command\-line tool that is available in Windows Server 2008 and Windows 7.  
+ When [!INCLUDE[nav_server](includes/nav_server_md.md)] is using a dedicated domain user account as its logon account, then you must register service principal names \(SPN\) for the [!INCLUDE[nav_server](includes/nav_server_md.md)] on the domain user account to make delegation work. An SPN is the name by which a client uniquely identifies an instance of a service, using the account under which the service runs. To register SPNs, you used the setspn command-line tool that is available in Windows Server 2008 and Windows 7.  
   
 > [!NOTE]  
 >  You do not have to perform this task if the domain user account has permissions to register SPNs. In this case, SPNs for [!INCLUDE[nav_server](includes/nav_server_md.md)] will be automatically registered when [!INCLUDE[nav_server](includes/nav_server_md.md)] instance starts and then unregistered when the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance stops. For information about how to configure the service account to register SPNs, see [Provisioning the Microsoft Dynamics NAV Server Account](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md).  
   
 #### To create a service principal name  
   
-1.  Using any computer in the network, open a command prompt as an administrator. To do this, choose **Start**, and then in the search window, type **Command Prompt**. Right\-click **Command Prompt**, and then choose **Run as administrator**.  
+1.  Using any computer in the network, open a command prompt as an administrator. To do this, choose **Start**, and then in the search window, type **Command Prompt**. Right-click **Command Prompt**, and then choose **Run as administrator**.  
   
 2.  To view the registered SPNs for [!INCLUDE[nav_server](includes/nav_server_md.md)] on the domain account, type the following command.  
   
@@ -105,7 +105,7 @@ When the client device, [!INCLUDE[nav_web](includes/nav_web_md.md)], and [!INCLU
     ```  
   
 ##  <a name="Kernel"></a> Configuring Kernel Mode Authentication on the Microsoft Dynamics NAV Web Client Website  
- By default, Windows authentication on the [!INCLUDE[nav_web](includes/nav_web_md.md)] site on IIS is set to use kernel mode authentication. Kernel\-mode authentication improves authentication performance. However, when you are using delegation with Kerberos, you must either disable kernel mode or configure it to use the credentials of the application pool of [!INCLUDE[nav_web](includes/nav_web_md.md)]; otherwise, authentication will fail and [!INCLUDE[nav_web](includes/nav_web_md.md)] will not be able to connect to [!INCLUDE[nav_server](includes/nav_server_md.md)]. This is because kernel mode authentication runs under the machine account of the computer that is running IIS and the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], while the [!INCLUDE[nav_web](includes/nav_web_md.md)] runs under the user account of the user trying to access [!INCLUDE[navnow](includes/navnow_md.md)].  
+ By default, Windows authentication on the [!INCLUDE[nav_web](includes/nav_web_md.md)] site on IIS is set to use kernel mode authentication. Kernel-mode authentication improves authentication performance. However, when you are using delegation with Kerberos, you must either disable kernel mode or configure it to use the credentials of the application pool of [!INCLUDE[nav_web](includes/nav_web_md.md)]; otherwise, authentication will fail and [!INCLUDE[nav_web](includes/nav_web_md.md)] will not be able to connect to [!INCLUDE[nav_server](includes/nav_server_md.md)]. This is because kernel mode authentication runs under the machine account of the computer that is running IIS and the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], while the [!INCLUDE[nav_web](includes/nav_web_md.md)] runs under the user account of the user trying to access [!INCLUDE[navnow](includes/navnow_md.md)].  
   
  As a best practice, you should configure kernel mode authentication to use the application pool credentials, as described in the following procedure.  
   
@@ -142,11 +142,11 @@ When the client device, [!INCLUDE[nav_web](includes/nav_web_md.md)], and [!INCLU
   
 2.  In the **Connections** pane, expand **Sites**, and then select **[!INCLUDE[navnowlong](includes/navnowlong_md.md)] Web client**.  
   
-3.  In the **IIS** section, double\-click **Authentication**.  
+3.  In the **IIS** section, double-click **Authentication**.  
   
 4.  In the **Authentication** pane, choose **Windows Authentication**, and then choose **Advanced Settings**.  
   
-5.  Clear the **Enable Kernel\-mode authentication** box, and then choose the **OK** button.  
+5.  Clear the **Enable Kernel-mode authentication** box, and then choose the **OK** button.  
   
 ## See Also  
  [Microsoft Dynamics NAV Web Client](Microsoft-Dynamics-NAV-Web-Client.md)   

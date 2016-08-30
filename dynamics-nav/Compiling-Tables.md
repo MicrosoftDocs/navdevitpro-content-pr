@@ -21,7 +21,7 @@ This topic describes requirements and restrictions for compiling a table object 
  If you cannot meet the conditions for compiling tables with validation, then you have the option to compile the table object without validation.  
   
 > [!NOTE]  
->  The information in this topic does not apply to C\/AL code changes made to a table object. With code changes, you can compile the table object like any other object.  
+>  The information in this topic does not apply to C/AL code changes made to a table object. With code changes, you can compile the table object like any other object.  
   
 ## Conditions for Compiling Tables with Validation  
  To compile a table after making schema changes, your environment must meet the following conditions:  
@@ -32,8 +32,8 @@ This topic describes requirements and restrictions for compiling a table object 
   
 -   You can be authenticated by the [!INCLUDE[nav_server](includes/nav_server_md.md)] according to one of the following conditions:  
   
-    -   You are set up as a [!INCLUDE[navnow](includes/navnow_md.md)] user on your Windows account in the [!INCLUDE[navnow](includes/navnow_md.md)]database. This is the recommended option. For more information about setting up a user, see [How to: Create Microsoft Dynamics NAV Users](../Topic/How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).  
+    -   You are set up as a [!INCLUDE[navnow](includes/navnow_md.md)] user on your Windows account in the [!INCLUDE[navnow](includes/navnow_md.md)]database. This is the recommended option. For more information about setting up a user, see [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).  
   
     -   You are set up as an administrator on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
-         If the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] is installed on the same computer as [!INCLUDE[nav_server](includes/nav_server_md.md)], then you must also run the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] as an administrator. To do this, right\-click the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Development Environment link on your desktop, and then choose **Run as Administrator**.
+         If the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] is installed on the same computer as [!INCLUDE[nav_server](includes/nav_server_md.md)], then you must also run the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] as an administrator. To do this, right-click the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Development Environment link on your desktop, and then choose **Run as Administrator**.

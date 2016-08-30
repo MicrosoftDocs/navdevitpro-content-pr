@@ -12,7 +12,7 @@ caps.latest.revision: 8
 manager: edupont
 ---
 # DataCaptionExpr Property
-Sets a C\/AL expression that is evaluated and displayed to the left of the page caption.  
+Sets a C/AL expression that is evaluated and displayed to the left of the page caption.  
   
 ## Applies To  
   

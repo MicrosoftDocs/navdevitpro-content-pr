@@ -37,7 +37,7 @@ The following functions perform various actions on fields:
 [Ok :=] Record.CALCFIELDS(Field1, [Field2],...)  
 ```  
   
- When you use FlowFields in C\/AL functions, you must use the CALCFIELDS function to update them.  
+ When you use FlowFields in C/AL functions, you must use the CALCFIELDS function to update them.  
   
  In the following example, the SETRANGE function sets a filter and then the CALCFIELDS function calculates the Balance and Balance Due fields by using the current filter and performing the calculations that are defined as the CalcFormula properties of the FlowFields. This example requires that you create the following variable.  
   
@@ -82,7 +82,7 @@ MESSAGE ('%1 calculated sales',custledgerentry."Sales (LCY)")
 ```  
   
 ## FIELDERROR Function  
- FIELDERROR triggers a run\-time error after it displays a field\-related error message.  
+ FIELDERROR triggers a run-time error after it displays a field-related error message.  
   
  FIELDERROR has the following syntax.  
   
@@ -106,15 +106,15 @@ IF Item.Class <> 'HARDWARE' THEN
   
  If item 70000 has a Class other than HARDWARE, then you receive the following error message:  
   
- **Class must not be OTHER in Item No. \='70000'.**  
+ **Class must not be OTHER in Item No. ='70000'.**  
   
  If the text or code field contains the empty string, then you receive the following error message:  
   
- **You must specify Class in Item No.\='70000'.**  
+ **You must specify Class in Item No.='70000'.**  
   
  If the field is a numeric field and is empty, it is treated as if it contains the value 0 \(zero\), and then you receive the following error message:  
   
- **Class must not be 0 in Item No.\='70000'.**  
+ **Class must not be 0 in Item No.='70000'.**  
   
  You can change the default text that is displayed in the error message. The following example shows how to use the FIELDERROR function and change the default text. This example requires that you create the following variable.  
   
@@ -129,7 +129,7 @@ IF Item.Class < '4711' THEN
   
  The following error message is displayed:  
   
- **Class must be greater than 4711 in Item No.\='70000'.**  
+ **Class must be greater than 4711 in Item No.='70000'.**  
   
 ## FIELDNAME  
  FIELDNAME returns the name of a field. It has the following syntax.  
@@ -166,7 +166,7 @@ Name := Record.FIELDNAME(Field)
 Record.TESTFIELD(Field, [Value])  
 ```  
   
- If the test fails, that is, if the field does not contain the specified value, an error message is displayed and a run\-time error is triggered. This means that any changes that were made to the record are discarded. If the value that you test against is an empty string, the field must have a value other than blank or 0 \(zero\).  
+ If the test fails, that is, if the field does not contain the specified value, an error message is displayed and a run-time error is triggered. This means that any changes that were made to the record are discarded. If the value that you test against is an empty string, the field must have a value other than blank or 0 \(zero\).  
   
  The following example tests the Language Code field for customer number 10000 in the Customer table and tests whether the Language Code is ZX.  This example requires that you create the following variable.  
   
@@ -186,7 +186,7 @@ customer.TESTFIELD("Language Code",'ZX');
 Record.VALIDATE(Field [, NewValue])  
 ```  
   
- When you enter an account number in a ledger, code in a table trigger is executed to transfer the name of the account from the chart of accounts. If you enter an account number in a batch job, the code which transfers the name of the account is not automatically executed. The following example executes the appropriate field\-level trigger code. This example requires that you create the following variable.  
+ When you enter an account number in a ledger, code in a table trigger is executed to transfer the name of the account from the chart of accounts. If you enter an account number in a batch job, the code which transfers the name of the account is not automatically executed. The following example executes the appropriate field-level trigger code. This example requires that you create the following variable.  
   
 |Variable|Data type|Subtype|  
 |--------------|---------------|-------------|  

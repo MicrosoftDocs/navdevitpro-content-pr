@@ -26,7 +26,7 @@ No := FieldRef.NUMBER
   
  Refers to the current field.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of the table or of the field.  
@@ -35,7 +35,7 @@ No := FieldRef.NUMBER
  This function is like the [FIELDNO Function \(Record\)](FIELDNO-Function--Record-.md) function.  
   
 ## Example  
- The following example displays the caption and the field number of the first 10 fields in the Location table. The Location table is open as a [RecordRef Data Type](RecordRef-Data-Type.md) object and the reference is stored in the LocationRecref variable. The FieldIndex variable that stores the field index is initialized to 0. The LocationRecref variable uses the [FIELDINDEX Function \(RecordRef\)](FIELDINDEX-Function--RecordRef-.md) to create a FieldRef that is named MyFieldRef for the specified field index. MyFiledRef now references the field that is specified by the FieldIndex. MyFieldref is then used to display the number and caption of the field The [NUMBER Function \(FIELDREF\)](NUMBER-Function--FieldRef-.md) function retrieves the field number. This is repeated for the first ten fields in the table. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ The following example displays the caption and the field number of the first 10 fields in the Location table. The Location table is open as a [RecordRef Data Type](RecordRef-Data-Type.md) object and the reference is stored in the LocationRecref variable. The FieldIndex variable that stores the field index is initialized to 0. The LocationRecref variable uses the [FIELDINDEX Function \(RecordRef\)](FIELDINDEX-Function--RecordRef-.md) to create a FieldRef that is named MyFieldRef for the specified field index. MyFiledRef now references the field that is specified by the FieldIndex. MyFieldref is then used to display the number and caption of the field The [NUMBER Function \(FIELDREF\)](NUMBER-Function--FieldRef-.md) function retrieves the field number. This is repeated for the first ten fields in the table. This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

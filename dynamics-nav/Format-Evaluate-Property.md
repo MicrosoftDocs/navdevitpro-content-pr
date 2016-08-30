@@ -29,7 +29,7 @@ Sets the data that is being imported or exported as XML data types or as the sta
   
  If the XML document that you want to import contains data that uses the standard XML data types, use the XML Format\/Evaluate setting. This ensures that the data is evaluated and converted to the C\/SIDE data types before being inserted into the database.  
   
- If the data that you want to import does not follow either the Standard C\/SIDE formats or the XML formats, import the data into a temporary table in text format. You can then use C\/AL code to convert the data before inserting it into the database.  
+ If the data that you want to import does not follow either the Standard C\/SIDE formats or the XML formats, import the data into a temporary table in text format. You can then use C/AL code to convert the data before inserting it into the database.  
   
 ## Exporting  
  If you want to export data that uses the standard C\/SIDE data types to an XML document and use these data types in the XML document, use C\/SIDE Format\/Evaluate \(default value\). The data from the database is then formatted according to the standard rules for C\/SIDE data types.  

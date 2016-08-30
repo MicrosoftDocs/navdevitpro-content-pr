@@ -57,21 +57,21 @@ finsql.exe command=importlangmodule, file=<importfile>, [servername=<server>,] [
   
  *filter*  
   
- A filter on the **Object** table. Use the *filter* parameter to specify the objects to which you want to import the language module. Use a semicolon to separate multiple filters. The only operator that you can use in the filter is '\='. The following table shows the fields in the **Object** table on which you can filter.  
+ A filter on the **Object** table. Use the *filter* parameter to specify the objects to which you want to import the language module. Use a semicolon to separate multiple filters. The only operator that you can use in the filter is '='. The following table shows the fields in the **Object** table on which you can filter.  
   
 |Object table field|Values|Example|  
 |------------------------|------------|-------------|  
-|Type|Table, Codeunit, Page, Report, XMLport, Query|Type\=Table&#124;Page|  
-|ID|Integer or range of integers|ID\=50000..50500|  
-|Name|Any valid object name|"Name\=Cost Entry"|  
-|Modified|yes, no, 1, 0|Modified\=yes|  
-|Compiled|yes, no, 1, 0|Compiled\=0|  
-|Date|Date, in the numeric format determined by your regional settings|Date\=12\/1\/2012|  
-|Time|Time, in the numeric format determined by your regional settings|Time\=12:00:00|  
-|Version List|Any valid version|Version List\=NAVW17.00|  
-|Caption|Any valid caption|Caption\=Company Information|  
-|Locked|Yes, no, 1, 0|Locked\=1|  
-|Locked By|Domain\\username|"Locked By\=CRONUS\\viktor"|  
+|Type|Table, Codeunit, Page, Report, XMLport, Query|Type=Table&#124;Page|  
+|ID|Integer or range of integers|ID=50000..50500|  
+|Name|Any valid object name|"Name=Cost Entry"|  
+|Modified|yes, no, 1, 0|Modified=yes|  
+|Compiled|yes, no, 1, 0|Compiled=0|  
+|Date|Date, in the numeric format determined by your regional settings|Date=12\/1\/2012|  
+|Time|Time, in the numeric format determined by your regional settings|Time=12:00:00|  
+|Version List|Any valid version|Version List=NAVW17.00|  
+|Caption|Any valid caption|Caption=Company Information|  
+|Locked|Yes, no, 1, 0|Locked=1|  
+|Locked By|Domain\\username|"Locked By=CRONUS\\viktor"|  
   
  If you do not specify a filter, then all objects in the **Object** table are included.  
   
@@ -105,13 +105,13 @@ finsql.exe command=importlangmodule, file=<importfile>, [servername=<server>,] [
   
  *ntauthentication*  
   
- Specifies whether to use NT authentication. The possible values are **yes**, **no**, **1**, or **0**. If you specify the *username* and *password* parameters, then you must specify **ntauthentication\=no** or **ntauthentication\=0**.  
+ Specifies whether to use NT authentication. The possible values are **yes**, **no**, **1**, or **0**. If you specify the *username* and *password* parameters, then you must specify **ntauthentication=no** or **ntauthentication=0**.  
   
 ## Remarks  
  You can specify parameters in any order.  
   
 ## Example  
- This example shows how to run the ImportLangModule command to import a language module for Danish \(DAN\) to the *Demo Database NAV \(9\-0\)* database. The language module file path is *C:\\DANlanguagemodule.flm*.  
+ This example shows how to run the ImportLangModule command to import a language module for Danish \(DAN\) to the *Demo Database NAV \(9-0\)* database. The language module file path is *C:\\DANlanguagemodule.flm*.  
   
 ```  
 finsql.exe command=importlangmodule, file=C:\DANlanguagemodule.flm, servername=TestComputer01\NAVDEMO, database="Demo Database NAV (9-0)"  

@@ -45,13 +45,13 @@ TestRequestPage.SAVEASXML(Filename_Labels, Filename_Dataset)
 ## Example  
  The following example shows the code for a test function to run a report and a request page handler function to test the request page. This example requires that you create the following:  
   
--   A test codeunit called SaveAsXML. For more information, see [How to: Create Test Codeunits and Test Functions](../Topic/How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md).  
+-   A test codeunit called SaveAsXML. For more information, see [How to: Create Test Codeunits and Test Functions](How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md).  
   
--   A test function in the test codeunit called TestSaveAsXML. For more information, see [How to: Create Test Codeunits and Test Functions](../Topic/How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md).  
+-   A test function in the test codeunit called TestSaveAsXML. For more information, see [How to: Create Test Codeunits and Test Functions](How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md).  
   
--   A handler function of type RequestPageHandler called ReqPageHandler. This handler function has one parameter called RequestPage of Type TestRequestPage and Subtype Customer – Top 10 List. The RequestPage parameter is specified as VAR and is passed by reference to the handler function. For more information, see [How to: Create Handler Functions](../Topic/How%20to:%20Create%20Handler%20Functions.md).  
+-   A handler function of type RequestPageHandler called ReqPageHandler. This handler function has one parameter called RequestPage of Type TestRequestPage and Subtype Customer – Top 10 List. The RequestPage parameter is specified as VAR and is passed by reference to the handler function. For more information, see [How to: Create Handler Functions](How%20to:%20Create%20Handler%20Functions.md).  
   
- This example also requires that you create the following variables in the **C\/AL Globals** window of the SaveAsXML codeunit.  
+ This example also requires that you create the following variables in the **C/AL Globals** window of the SaveAsXML codeunit.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

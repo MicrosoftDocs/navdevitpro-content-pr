@@ -25,7 +25,7 @@ CREATEENCRYPTIONKEY()
   
  **true** if the encryption key was created; otherwise, **false**.  
   
- If you omit this optional return value and the encryption key cannot be created successfully, then a run\-time error occurs. If you include the return value, then you must handle any errors.  
+ If you omit this optional return value and the encryption key cannot be created successfully, then a run-time error occurs. If you include the return value, then you must handle any errors.  
   
 ## Exceptions  
  If a key already exists, the following error will be displayed: **Unable to create a new encryption key. An encryption key already exists**.  
@@ -41,4 +41,4 @@ IF NOT ENCRYPTIONENABLED THEN
 ## See Also  
  [System](System.md)   
  [Technical Reference](Technical-Reference.md)   
- [C\-SIDE Reference Guide](C-SIDE-Reference-Guide.md)
+ [C-SIDE Reference Guide](C-SIDE-Reference-Guide.md)

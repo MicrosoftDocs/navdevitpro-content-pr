@@ -31,16 +31,16 @@ FieldRef := KeyRef.FIELDINDEX(Index)
   
  The input index.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: FieldRef  
   
  The FieldRef that refers to the field with this index in the key.  
   
 ## Remarks  
- The first field in the index must have index 1, the second index 2, and so on. The last field must have index \= FIELDCOUNT. If the index is out of the range supplied or if no table is selected, the function returns an error.  
+ The first field in the index must have index 1, the second index 2, and so on. The last field must have index = FIELDCOUNT. If the index is out of the range supplied or if no table is selected, the function returns an error.  
   
 ## Example  
- The following example displays the caption of a field in a record. The table with ID 18 \(the Customer table\) is open with a reference. The *Keyref* for the record is retrieved by using the [KEYINDEX Function \(RecordRef\)](KEYINDEX-Function--RecordRef-.md). The function retrieves the second key in the record and stores the value in the varKeyRef variable. The varKeyRef variable is then used to return the *FieldRef*. The varFieldRef variable is used to display the caption of the field. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ The following example displays the caption of a field in a record. The table with ID 18 \(the Customer table\) is open with a reference. The *Keyref* for the record is retrieved by using the [KEYINDEX Function \(RecordRef\)](KEYINDEX-Function--RecordRef-.md). The function retrieves the second key in the record and stores the value in the varKeyRef variable. The varKeyRef variable is then used to return the *FieldRef*. The varFieldRef variable is used to display the caption of the field. This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

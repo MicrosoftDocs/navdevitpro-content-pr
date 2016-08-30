@@ -58,14 +58,14 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], data formats impact the wa
 -   Any value beginning with "0" \(zero\) can be entered in the code field and is stored as an **INTEGER** base data type.  
   
 > [!NOTE]  
->  Be aware that the Variant data type is not supported by all the third\-party tools that can be used to access data in SQL Server databases.  
+>  Be aware that the Variant data type is not supported by all the third-party tools that can be used to access data in SQL Server databases.  
   
 ## Data and Time Fields  
  SQL Server stores information about both date and time in columns of the DATETIME and SMALLDATETIME types. For date fields, [!INCLUDE[nav_2009_short](includes/nav_2009_short_md.md)] uses only the date part and places a constant value for the time. For a normal date, this contains 00:00:00:000. For a closing date, it contains 23:59:59:000 for a DATETIME and 23:59:00:000 for a SMALLDATETIME.  
   
- The [!INCLUDE[nav_2009_short](includes/nav_2009_short_md.md)] undefined date is represented by the earliest valid date in SQL Server: 01\-01\-1753 00:00:00:000 for a DATETIME, and 01\-01\-1900 00:00:00:000 for a SMALLDATETIME.  
+ The [!INCLUDE[nav_2009_short](includes/nav_2009_short_md.md)] undefined date is represented by the earliest valid date in SQL Server: 01-01-1753 00:00:00:000 for a DATETIME, and 01-01-1900 00:00:00:000 for a SMALLDATETIME.  
   
- For time fields, only a SQL Server DATETIME type can be used. [!INCLUDE[nav_2009_short](includes/nav_2009_short_md.md)] uses only the time and places a constant value for the date: 01\-01\-1754. The [!INCLUDE[nav_2009_short](includes/nav_2009_short_md.md)] undefined time is represented by the same value as an undefined date.  
+ For time fields, only a SQL Server DATETIME type can be used. [!INCLUDE[nav_2009_short](includes/nav_2009_short_md.md)] uses only the time and places a constant value for the date: 01-01-1754. The [!INCLUDE[nav_2009_short](includes/nav_2009_short_md.md)] undefined time is represented by the same value as an undefined date.  
   
  In order for [!INCLUDE[nav_2009_short](includes/nav_2009_short_md.md)] to interpret date and time values correctly, the formats mentioned earlier must be used when linking [!INCLUDE[nav_2009_short](includes/nav_2009_short_md.md)] table definitions to external tables or views. For more information, see [Using Linked Objects](Using-Linked-Objects.md).  
   

@@ -51,7 +51,7 @@ Adds a table field to the filter control for a table on filter page.
 ## Example  
  The following example initializes a filter page object that includes a filter control for the **Date** system table. The filter control has the caption of **Date record**. The example adds two fields of the **Date** record variable which will be available in the filter control on the filter page: **Period End** and **Period Start**. A default filter is set on the **Period End** field.  
   
- This example requires that you create the following variables in the **C\/AL Globals** window.  
+ This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|SubType|  
 |-------------------|--------------|-------------|  

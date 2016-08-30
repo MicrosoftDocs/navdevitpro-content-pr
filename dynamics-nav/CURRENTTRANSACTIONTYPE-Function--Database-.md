@@ -21,7 +21,7 @@ Gets the current transaction type and sets a new type to be assigned.
 [TransactionType :=] CURRENTTRANSACTIONTYPE([TransactionType])  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: TransactionType  
   
  The type of transaction to be set or retrieved for the next transaction.  
@@ -72,7 +72,7 @@ CURRENTTRANSACTIONTYPE := TRANSACTIONTYPE::Update;
 ## Example  
  Examples 3 and 4 show how to use the CURRENTTRANSACTIONTYPE function to set the transaction type for two separate transactions.  
   
- When you set the transaction type as in Example 4, you will get a read\-only, non\-locking transaction. This means that no modifications are allowed within this transaction and that SQL Server does not add any locks. It is also possible to read any uncommitted data.  
+ When you set the transaction type as in Example 4, you will get a read-only, non-locking transaction. This means that no modifications are allowed within this transaction and that SQL Server does not add any locks. It is also possible to read any uncommitted data.  
   
 ```  
 //Example 4  

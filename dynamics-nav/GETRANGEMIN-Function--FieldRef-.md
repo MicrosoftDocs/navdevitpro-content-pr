@@ -26,7 +26,7 @@ Value := FieldRef.GETRANGEMIN
   
  Refers to the current field.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text constant or Code  
   
  Contains the minimum value of the range set for the field referred to by the *FieldRef*.  
@@ -37,7 +37,7 @@ Value := FieldRef.GETRANGEMIN
  This function is like the [GETRANGEMIN Function \(Record\)](GETRANGEMIN-Function--Record-.md) function.  
   
 ## Example  
- The following example opens the Customer table as RecordRef variable, creates a FieldRef for the first field \(No.\) and stores the reference in the MyFieldRef variable. The [SETFILTER Function \(FieldRef\)](SETFILTER-Function--FieldRef-.md) sets a filter that selects records in the range 10000 to 40000 from the No. field. The GETRANGEMIN function retrieves and stores the minimum value that is set in the filter, stores the value in the varMin variable and displays it in a message box. The varMin variable contains 10000 which is the minimum value that is set in the filter. This example requires that you create the following variables and text constant in the **C\/AL Globals** windows.  
+ The following example opens the Customer table as RecordRef variable, creates a FieldRef for the first field \(No.\) and stores the reference in the MyFieldRef variable. The [SETFILTER Function \(FieldRef\)](SETFILTER-Function--FieldRef-.md) sets a filter that selects records in the range 10000 to 40000 from the No. field. The GETRANGEMIN function retrieves and stores the minimum value that is set in the filter, stores the value in the varMin variable and displays it in a message box. The varMin variable contains 10000 which is the minimum value that is set in the filter. This example requires that you create the following variables and text constant in the **C/AL Globals** windows.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

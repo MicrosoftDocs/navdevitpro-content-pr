@@ -56,7 +56,7 @@ The following sections list the minimum hardware and software requirements to in
   
 |||  
 |-|-|  
-|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(32\-bit and 64\-bit editions\).<br />-   Windows 8.1 Professional or Enterprise \(32\-bit and 64\-bit editions\).<br />-   Windows 8 Professional or Enterprise \(32\-bit and 64\-bit editions\).<br />-   Windows 7 Service Pack 1 Professional, Ultimate, or Enterprise \(32\-bit and 64\-bit editions\).<br />-   Windows Server 2012 R2 Standard or Essentials \(64\-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64\-bit edition\).|  
+|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(32-bit and 64-bit editions\).<br />-   Windows 8.1 Professional or Enterprise \(32-bit and 64-bit editions\).<br />-   Windows 8 Professional or Enterprise \(32-bit and 64-bit editions\).<br />-   Windows 7 Service Pack 1 Professional, Ultimate, or Enterprise \(32-bit and 64-bit editions\).<br />-   Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64-bit edition\).|  
 |Hardware resources|-   Hard disk space: 200 MB.<br />-   Memory: 1 GB.|  
 |Reports|-   Microsoft Report Viewer 2015 to run reports that use RDLC report layouts.<br />-   SQL Server Report Builder 3.0 for Microsoft SQL Server 2014, Microsoft SQL Server 2012 SP1, or Microsoft SQL Server 2012 to edit RDLC report layouts.<br />-   Microsoft Word 2013 or later to edit the layouts.|  
 |Instant messaging and Telephony API|-   Microsoft Lync 2013 or Microsoft Lync 2010.|  
@@ -65,18 +65,18 @@ The following sections list the minimum hardware and software requirements to in
 |OneNote integration|-   Microsoft Office 2016, Microsoft Office 2013 SP1, or Microsoft Office 2010 SP2.|  
 |Email logging|-   Active Directory and Microsoft Exchange Server 2010 or Microsoft Exchange Server 2013.<br />-   Microsoft Exchange Online, or Exchange Online as part of an Office 365 subscription.|  
 |Additional software|-   Microsoft .NET Framework 4.5.2.|  
-|Additional information|<ul><li>[!INCLUDE[navcorfu](includes/navcorfu_md.md)] Setup installs the following software if it is not already present in the target computer:<br /><br /> <ul><li>Microsoft .NET Framework 4.5.2.</li><li>Microsoft Report Viewer2015.</li></ul></li><li>The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is available in a 32\-bit version and 64\-bit version. On a 32\-bit Windows operating system, the 32\-bit version is run. On a 64\-bit Windows operating system, the 64\-bit version is run by default; however, you can also run the 32\-bit version if it is required.</li><li>[!INCLUDE[navcorfu](includes/navcorfu_md.md)] Setup can only install the Excel Add\-in if Excel is present on the target computer.</li><li>Outlook synchronization is not supported on 64\-bit versions of Office.</li></ul>|  
+|Additional information|<ul><li>[!INCLUDE[navcorfu](includes/navcorfu_md.md)] Setup installs the following software if it is not already present in the target computer:<br /><br /> <ul><li>Microsoft .NET Framework 4.5.2.</li><li>Microsoft Report Viewer2015.</li></ul></li><li>The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is available in a 32-bit version and 64-bit version. On a 32-bit Windows operating system, the 32-bit version is run. On a 64-bit Windows operating system, the 64-bit version is run by default; however, you can also run the 32-bit version if it is required.</li><li>[!INCLUDE[navcorfu](includes/navcorfu_md.md)] Setup can only install the Excel Add-in if Excel is present on the target computer.</li><li>Outlook synchronization is not supported on 64-bit versions of Office.</li></ul>|  
   
 ##  <a name="DevEnv"></a> Microsoft Dynamics NAV Development Environment Requirements  
  The following table shows the minimum system requirements for the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
   
 |||  
 |-|-|  
-|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(32\-bit and 64\-bit editions\).<br />-   Windows 8.1 Professional or Enterprise \(32\-bit and 64\-bit editions\).<br />-   Windows 8 Professional or Enterprise \(32\-bit and 64\-bit editions\).<br />-   Windows 7 Service Pack 1 Professional, Ultimate, or Enterprise \(32\-bit and 64\-bit editions\).<br />-   Windows Server 2012 R2 Standard or Essentials \(64\-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64\-bit edition\).|  
+|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(32-bit and 64-bit editions\).<br />-   Windows 8.1 Professional or Enterprise \(32-bit and 64-bit editions\).<br />-   Windows 8 Professional or Enterprise \(32-bit and 64-bit editions\).<br />-   Windows 7 Service Pack 1 Professional, Ultimate, or Enterprise \(32-bit and 64-bit editions\).<br />-   Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64-bit edition\).|  
 |Hardware resources|-   Hard disk space: 200 MB.<br />-   Memory: 1 GB.|  
 |Reports|<ul><li>Microsoft Report Viewer 2015 to run reports that use RDLC report layouts.</li><li>Microsoft Visual Studio or SQL Server Report Builder for creating and editing RDLC report layouts. The following versions and editions are supported:<br /><br /> <ul><li>Microsoft Visual Studio 2012 Professional, Premium, or Ultimate edition.</li><li>Microsoft Visual Studio 2013 Professional, Premium, or Ultimate edition.</li><li>Microsoft Visual Studio 2015 Professional or Enterprise edition with SQL Server Data Tools installed. **Important:**          Before you install Visual Studio, install Microsoft .NET Framework 4.6; otherwise, an error will occur when you compile or run RDLC reports. For more information, see [Report error "Visual Basic Command Line Compiler has stopped working"](http://go.microsoft.com/fwlink/?LinkID=722862).</li><li>SQL Server Report Builder 3.0 for Microsoft SQL Server 2014, Microsoft SQL Server 2012 SP1, or Microsoft SQL Server 2012.</li></ul></li><li>SQL Server Report Builder 3.0 for Microsoft SQL Server 2014, Microsoft SQL Server 2012 SP1, or Microsoft SQL Server 2012 to upgrade reports.</li><li>Word 2013 to create Word report layouts.</li></ul>|  
 |Additional software|-   Microsoft .NET Framework 4.5.2.|  
-|Additional information|<ul><li>[!INCLUDE[navcorfu](includes/navcorfu_md.md)] Setup installs the following software if it is not already present in the target computer:<br /><br /> <ul><li>Microsoft .NET Framework 4.5.2.</li><li>SQL Server Native Client 11.0.</li><li>Microsoft Report Viewer2015.</li><li>SQL Server Report Builder 3.0 for Microsoft SQL Server 2014. This is not installed if a version of SQL Server Report Builder or Microsoft Visual Studio is already present on the target computer</li></ul></li><li>If the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)] are on the same computer, then only a 64\-bit operating system is supported.</li></ul>|  
+|Additional information|<ul><li>[!INCLUDE[navcorfu](includes/navcorfu_md.md)] Setup installs the following software if it is not already present in the target computer:<br /><br /> <ul><li>Microsoft .NET Framework 4.5.2.</li><li>SQL Server Native Client 11.0.</li><li>Microsoft Report Viewer2015.</li><li>SQL Server Report Builder 3.0 for Microsoft SQL Server 2014. This is not installed if a version of SQL Server Report Builder or Microsoft Visual Studio is already present on the target computer</li></ul></li><li>If the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)] are on the same computer, then only a 64-bit operating system is supported.</li></ul>|  
   
 ##  <a name="WebClient"></a> Microsoft Dynamics NAV Web Client Requirements  
  The following table shows the minimum system requirements for the [!INCLUDE[navcorfu](includes/navcorfu_md.md)] Web client.  
@@ -95,16 +95,16 @@ The following sections list the minimum hardware and software requirements to in
 |||  
 |-|-|  
 |Server component|Identical to the [!INCLUDE[navcorfu](includes/navcorfu_md.md)] Web client.|  
-|Supported browsers|The following desktop browsers are supported:<br /><br /> -   Microsoft Edge<br />-   Internet Explorer 11 \(build 11.0.9600.17239\) for Windows 8.1 \(32\-bit and 64\-bit versions\) and for Windows 10.<br />-   Google Chrome 44.0 for Windows.|  
+|Supported browsers|The following desktop browsers are supported:<br /><br /> -   Microsoft Edge<br />-   Internet Explorer 11 \(build 11.0.9600.17239\) for Windows 8.1 \(32-bit and 64-bit versions\) and for Windows 10.<br />-   Google Chrome 44.0 for Windows.|  
   
 ##  <a name="DynNAVApp"></a> Microsoft Dynamics NAV Universal App Requirements  
  The following table shows the minimum system requirements for the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)]. For the latest information, see [Dynamics NAV for Windows](http://go.microsoft.com/fwlink/?LinkId=509974), [Dynamics NAV for iPad and iPhone](http://go.microsoft.com/fwlink/?LinkId=509975), and [Dynamics NAV for Android tablet and Android phone](http://go.microsoft.com/fwlink/?LinkId=509976).  
   
 |||  
 |-|-|  
-|Supported operating systems|-   Windows 10 Home, Pro, Enterprise, or Education \(32\-bit and 64\-bit editions\).<br />-   Windows 8.1 with Internet Explorer 11 \(build 11.0.9600.17239\) \(32\-bit and 64\-bit versions including RT\) and Windows Phone 8.1.<br />-   Android 4.4.3.<br />-   iOS 8.4.|  
+|Supported operating systems|-   Windows 10 Home, Pro, Enterprise, or Education \(32-bit and 64-bit editions\).<br />-   Windows 8.1 with Internet Explorer 11 \(build 11.0.9600.17239\) \(32-bit and 64-bit versions including RT\) and Windows Phone 8.1.<br />-   Android 4.4.3.<br />-   iOS 8.4.|  
 |Additional hardware|-   1 GB RAM for Android and Windows.|  
-|Additional software|-   A third\-party telephony or VoIP app such as Skype or Lync is required for placing calls from [!INCLUDE[navnow](includes/navnow_md.md)].<br />-   A third\-party email program such as Outlook is required for sending emails from [!INCLUDE[navnow](includes/navnow_md.md)].<br />-   Microsoft Office 2013 SP1 or Microsoft Office 365 is required for sending data to Microsoft Excel or to Microsoft Word.|  
+|Additional software|-   A third-party telephony or VoIP app such as Skype or Lync is required for placing calls from [!INCLUDE[navnow](includes/navnow_md.md)].<br />-   A third-party email program such as Outlook is required for sending emails from [!INCLUDE[navnow](includes/navnow_md.md)].<br />-   Microsoft Office 2013 SP1 or Microsoft Office 365 is required for sending data to Microsoft Excel or to Microsoft Word.|  
 |Additional information|-   Device diagonal screen size 7” for tablets.<br />-   Screen resolution 960 × 510 for tablets.<br /><br /> -   Device diagonal screen size 4” for phones.<br />-   Screen resolution 854 x 480 for phones.|  
   
 ##  <a name="NavServerReqs"></a> Microsoft Dynamics NAV Server Requirements  
@@ -112,7 +112,7 @@ The following sections list the minimum hardware and software requirements to in
   
 |||  
 |-|-|  
-|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(64\-bit edition\).<br />-   Windows 8.1 Professional or Enterprise \(64\-bit edition\).<br />-   Windows 8 Professional or Enterprise \(64\-bit edition\).<br />-   Windows 7 Service Pack 1 Professional, Ultimate, or Enterprise \(64\-bit edition\).<br />-   Windows Server 2012 R2 Standard or Essentials \(64\-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64\-bit edition\).|  
+|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(64-bit edition\).<br />-   Windows 8.1 Professional or Enterprise \(64-bit edition\).<br />-   Windows 8 Professional or Enterprise \(64-bit edition\).<br />-   Windows 7 Service Pack 1 Professional, Ultimate, or Enterprise \(64-bit edition\).<br />-   Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64-bit edition\).|  
 |Hardware resources|-   Hard disk space: 500 MB.<br />-   Memory: 2 GB.|  
 |Reports|-   Microsoft Report Viewer 2015 for Save as Excel, Save as PDF, and Save as Word functionality.|  
 |[!INCLUDE[crm](includes/crm_md.md)] integration|-   Windows Identity Framework.<br />     For a list of supported [!INCLUDE[crm](includes/crm_md.md)] versions, see [Microsoft Dynamics CRM Integration Requirements](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md#CRM).|  
@@ -123,7 +123,7 @@ The following sections list the minimum hardware and software requirements to in
   
 |||  
 |-|-|  
-|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(64\-bit edition\).<br />-   Windows 8.1 Professional or Enterprise \(64\-bit edition\).<br />-   Windows 8 Professional or Enterprise \(64\-bit edition\).<br />-   Windows 7 Service Pack 1 Professional, Ultimate, or Enterprise \(64\-bit edition\).<br />-   Windows Server 2012 R2 Standard or Essentials \(64\-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64\-bit edition\).|  
+|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(64-bit edition\).<br />-   Windows 8.1 Professional or Enterprise \(64-bit edition\).<br />-   Windows 8 Professional or Enterprise \(64-bit edition\).<br />-   Windows 7 Service Pack 1 Professional, Ultimate, or Enterprise \(64-bit edition\).<br />-   Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64-bit edition\).|  
 |Web server|<ul><li>Internet Information Server 7.5, Internet Information Server 8.0, Internet Information Server 8.5, or Internet Information Server 10 with the following features enabled:<br /><br /> <ul><li>.NET Extensibility 4.5.2.</li><li>ASP .NET 4.5.2.</li><li>ISAPI Extensions.</li><li>ISAPI Filters.</li><li>Request Filtering.</li><li>Windows Authentication.</li><li>Static Content.</li><li>HTTP Activation.</li></ul></li></ul>|  
 |Reports|-   Microsoft Report Viewer 2015 to run reports that use RDLC report layouts.|  
 |Additional software|-   Microsoft .NET Framework 4.5.2.<br />-   Windows PowerShell 3.0.|  
@@ -134,17 +134,17 @@ The following sections list the minimum hardware and software requirements to in
   
 |||  
 |-|-|  
-|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(64\-bit edition\).<br />-   Windows 8.1 Professional or Enterprise \(64\-bit edition\).<br />-   Windows 8 Professional or Enterprise \(64\-bit edition\).<br />-   Windows 7 Service Pack 1 Professional, Ultimate, or Enterprise \(64\-bit edition\).<br />-   Windows Server 2012 R2 Standard or Essentials \(64\-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64\-bit edition\).<br /><br /> For more information, see [Hardware and Software Requirements for Installing SQL Server 2014](http://go.microsoft.com/fwlink/?LinkId=622999). From this page, you can access requirements for other versions of SQL Server.|  
+|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(64-bit edition\).<br />-   Windows 8.1 Professional or Enterprise \(64-bit edition\).<br />-   Windows 8 Professional or Enterprise \(64-bit edition\).<br />-   Windows 7 Service Pack 1 Professional, Ultimate, or Enterprise \(64-bit edition\).<br />-   Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64-bit edition\).<br /><br /> For more information, see [Hardware and Software Requirements for Installing SQL Server 2014](http://go.microsoft.com/fwlink/?LinkId=622999). From this page, you can access requirements for other versions of SQL Server.|  
 |Hardware resources|-   Hard disk space: 500 MB.<br />-   Memory: 2 GB.|  
-|SQL Server|-   Microsoft SQL Server 2014 Express, Standard or Enterprise.<br />-   Microsoft SQL Server 2012 Service Pack 2 Express, Standard, or Enterprise \(64\-bit editions only\).<br />-   Azure SQL Database V12 Standard and Premium service tiers.<br /><br /> For more information, see [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md).|  
-|Additional information|<ul><li>[!INCLUDE[navcorfu](includes/navcorfu_md.md)] Setup installs the following software if it is not already present on the target computer.<br /><br /> <ul><li>SQL Server 2012 SP2 Express \(64\-bit edition\).</li></ul></li><li>If the operating system on the target computer does not support SQL Server 2012 SP2 Express, Setup displays a pre\-requisite warning. In this case you should exit Setup and then update the operating system on the computer to one that does support SQL Server 2012 SP2 Express. Then run Setup again.</li></ul>|  
+|SQL Server|-   Microsoft SQL Server 2014 Express, Standard or Enterprise.<br />-   Microsoft SQL Server 2012 Service Pack 2 Express, Standard, or Enterprise \(64-bit editions only\).<br />-   Azure SQL Database V12 Standard and Premium service tiers.<br /><br /> For more information, see [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md).|  
+|Additional information|<ul><li>[!INCLUDE[navcorfu](includes/navcorfu_md.md)] Setup installs the following software if it is not already present on the target computer.<br /><br /> <ul><li>SQL Server 2012 SP2 Express \(64-bit edition\).</li></ul></li><li>If the operating system on the target computer does not support SQL Server 2012 SP2 Express, Setup displays a pre-requisite warning. In this case you should exit Setup and then update the operating system on the computer to one that does support SQL Server 2012 SP2 Express. Then run Setup again.</li></ul>|  
   
 ##  <a name="HelpServer"></a> Microsoft Dynamics NAV Help Server Requirements  
  The following table shows the minimum system requirements for the [!INCLUDE[navcorfu](includes/navcorfu_md.md)] Help Server.  
   
 |||  
 |-|-|  
-|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(64\-bit editions\).<br />-   Windows 8.1 Professional or Enterprise \(64\-bit edition\).<br />-   Windows 8 Professional or Enterprise \(64\-bit edition\).<br />-   Windows 7 Service Pack 1 Professional, Ultimate, or Enterprise \(64\-bit edition\).<br />-   Windows Server 2012.<br />-   Windows Server 2012 Essentials.|  
+|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(64-bit editions\).<br />-   Windows 8.1 Professional or Enterprise \(64-bit edition\).<br />-   Windows 8 Professional or Enterprise \(64-bit edition\).<br />-   Windows 7 Service Pack 1 Professional, Ultimate, or Enterprise \(64-bit edition\).<br />-   Windows Server 2012.<br />-   Windows Server 2012 Essentials.|  
 |Hardware resource|-   Hard disk space: 500 MB.<br />-   Memory: 2 GB.|  
 |Web server|<ul><li>Internet Information Server 7.5, Internet Information Server 8.0, Internet Information Server 8.5, or Internet Information Server 10. The following features must be enabled:<br /><br /> <ul><li>.NET Extensibility 4.5.2.</li><li>ASP .NET 4.5.</li><li>ISAPI Extensions.</li><li>ISAPI Filters.</li><li>Request Filtering.</li><li>Windows Authentication.</li><li>Static Content.</li><li>HTTP Activation.</li></ul></li></ul>|  
 |Additional software|-   Microsoft .NET Framework 4.5.2.|  
@@ -155,15 +155,15 @@ The following sections list the minimum hardware and software requirements to in
   
 |||  
 |-|-|  
-|Additional software|-   MSXML version 6.0.<br />-   Telnet or Microsoft Windows HyperTerminal.<br />-   VT100 Plug\-in for each computer on which you install ADCS.<br />-   Microsoft Loopback Adapter.|  
-|Additional information|-   HyperTerminal is no longer included with Windows. For more information, see [What happened to HyperTerminal?](http://go.microsoft.com/fwlink/?LinkId=222571) in the Windows Help.<br />-   VT100 Plug\-in acts as a virtual Telnet server.|  
+|Additional software|-   MSXML version 6.0.<br />-   Telnet or Microsoft Windows HyperTerminal.<br />-   VT100 Plug-in for each computer on which you install ADCS.<br />-   Microsoft Loopback Adapter.|  
+|Additional information|-   HyperTerminal is no longer included with Windows. For more information, see [What happened to HyperTerminal?](http://go.microsoft.com/fwlink/?LinkId=222571) in the Windows Help.<br />-   VT100 Plug-in acts as a virtual Telnet server.|  
   
-##  <a name="Outlook"></a> Microsoft Office Outlook Add\-In Requirements  
- The following table shows the system requirements for the Microsoft Office Outlook Add\-In.  
+##  <a name="Outlook"></a> Microsoft Office Outlook Add-In Requirements  
+ The following table shows the system requirements for the Microsoft Office Outlook Add-In.  
   
 |||  
 |-|-|  
-|Additional software|Microsoft Office 2016, Microsoft Office 2013 SP1, or Microsoft Office 2010 SP2 \(32\-bit edition\).|  
+|Additional software|Microsoft Office 2016, Microsoft Office 2013 SP1, or Microsoft Office 2010 SP2 \(32-bit edition\).|  
   
 ##  <a name="CRM"></a> Microsoft Dynamics CRM Integration Requirements  
  The following table shows the system requirements for integrating [!INCLUDE[navnow](includes/navnow_md.md)] with [!INCLUDE[crm](includes/crm_md.md)].  
@@ -177,7 +177,7 @@ The following sections list the minimum hardware and software requirements to in
   
 |||  
 |-|-|  
-|Supported operating systems|-   Windows Server 2012 R2 Standard or Datacenter \(64\-bit edition\).<br />-   Windows Server 2012 Standard or Datacenter \(64\-bit edition\).|  
+|Supported operating systems|-   Windows Server 2012 R2 Standard or Datacenter \(64-bit edition\).<br />-   Windows Server 2012 Standard or Datacenter \(64-bit edition\).|  
 |Additional software|-   SharePoint 2013 Service Pack 1.<br />-   SharePoint Online.|  
   
 ##  <a name="Azure"></a> Automated Deployment on Microsoft Azure Requirements  

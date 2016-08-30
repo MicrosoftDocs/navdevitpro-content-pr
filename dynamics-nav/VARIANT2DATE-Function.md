@@ -27,7 +27,7 @@ Date := VARIANT2DATE(Variant)
   
  The input variant.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Date  
   
  The resulting date.  

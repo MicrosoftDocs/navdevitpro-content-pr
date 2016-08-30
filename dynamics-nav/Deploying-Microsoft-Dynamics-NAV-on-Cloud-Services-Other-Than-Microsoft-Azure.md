@@ -11,7 +11,7 @@ ms.assetid: 6470796c-510e-462e-9de5-6a7dfcb019a6
 caps.latest.revision: 8
 ---
 # Deploying Microsoft Dynamics NAV on Cloud Services Other Than Microsoft Azure
-The [!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)] have been designed to provide an end\-to\-end scenario for deploying [!INCLUDE[navnow](includes/navnow_md.md)] on the Microsoft Azure. However, because the provisioning tools are implemented in Windows PowerShell scripts, you can adapt them to other cloud services or on\-premise installations.  
+The [!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)] have been designed to provide an end-to-end scenario for deploying [!INCLUDE[navnow](includes/navnow_md.md)] on the Microsoft Azure. However, because the provisioning tools are implemented in Windows PowerShell scripts, you can adapt them to other cloud services or on-premise installations.  
   
  This topic provides an overview of the work that is required to modify the [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)] for deploying [!INCLUDE[navnow](includes/navnow_md.md)] on cloud services and virtual machines that are not on Azure.  
   
@@ -27,51 +27,51 @@ The [!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)] have been designed t
   
  The **Cloud\\NAVRemoteAdministrationSamples** folder contains the following files that you must modify:  
   
--   Install\-NAVBox.ps1  
+-   Install-NAVBox.ps1  
   
--   HowTo\-CreateAzureVM.ps1  
+-   HowTo-CreateAzureVM.ps1  
   
--   HowTo\-InstallNAVOnVM.ps1  
+-   HowTo-InstallNAVOnVM.ps1  
   
--   HowTo\-AddNAVInstance.ps1  
+-   HowTo-AddNAVInstance.ps1  
   
--   HowTo\-OpenFirewallPort.ps1  
+-   HowTo-OpenFirewallPort.ps1  
   
--   HowTo\-SetAzureVMSize.ps1  
+-   HowTo-SetAzureVMSize.ps1  
   
--   HowTo\-UploadFilesToVM.ps1  
+-   HowTo-UploadFilesToVM.ps1  
   
- The "HowTo” scripts import and call additional scripts from the **Cloud\\NAVRemoteAdministration** folder and its subfolders. Most of the scripts in this folder are generic and should not be modified. However, some of the scripts have dependencies Azure for doing tasks like creating the network, the virtual machines, and the physical storage where the virtual machines are installed. The Azure\-specific scripts are all located in the **Cloud\\NAVRemoteAdministration\\Azure** folder and include the following:  
+ The "HowTo” scripts import and call additional scripts from the **Cloud\\NAVRemoteAdministration** folder and its subfolders. Most of the scripts in this folder are generic and should not be modified. However, some of the scripts have dependencies Azure for doing tasks like creating the network, the virtual machines, and the physical storage where the virtual machines are installed. The Azure-specific scripts are all located in the **Cloud\\NAVRemoteAdministration\\Azure** folder and include the following:  
   
--   New\-NAVAzureBaseVM.ps1  
+-   New-NAVAzureBaseVM.ps1  
   
--   New\-NAVAzureDataDisk.ps1  
+-   New-NAVAzureDataDisk.ps1  
   
--   Copy\-VhdFileToAzureStorage.ps1  
+-   Copy-VhdFileToAzureStorage.ps1  
   
--   Mount\-VhdFileToAzureVM.ps1  
+-   Mount-VhdFileToAzureVM.ps1  
   
--   Dismount\-VhdFileFromAzureVM.ps1  
+-   Dismount-VhdFileFromAzureVM.ps1  
   
--   Wait\-VMReadyState.ps1  
+-   Wait-VMReadyState.ps1  
   
--   Remove\-NAVAzureVM.ps1  
+-   Remove-NAVAzureVM.ps1  
   
--   New\-AzureVhdDisk.ps1  
+-   New-AzureVhdDisk.ps1  
   
--   New\-AzureVirtualNetwork.ps1  
+-   New-AzureVirtualNetwork.ps1  
   
--   Test\-AzureAffinityGroup.ps1  
+-   Test-AzureAffinityGroup.ps1  
   
--   Test\-AzureVirtualNetwork.ps1  
+-   Test-AzureVirtualNetwork.ps1  
   
  Replace these scripts with scripts that perform similar tasks on your environment.  
   
 > [!NOTE]  
->  The scripts in the **Cloud\\NAVRemoteAdministration\\Azure** folder are very specific to Azure. The API for your cloud service provider may require a different structure of the scripts. However, the high\-level concepts will be similar.  
+>  The scripts in the **Cloud\\NAVRemoteAdministration\\Azure** folder are very specific to Azure. The API for your cloud service provider may require a different structure of the scripts. However, the high-level concepts will be similar.  
   
 ## See Also  
  [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
- [Deploying Microsoft Dynamics NAV on Two Virtual Machines Using Example\-2VM Script](Deploying-Microsoft-Dynamics-NAV-on-Two-Virtual-Machines-Using-Example-2VM-Script.md)   
- [Deploying Microsoft Dynamics NAV on One Virtual Machine Using Example\-1VM Script](Deploying-Microsoft-Dynamics-NAV-on-One-Virtual-Machine-Using-Example-1VM-Script.md)   
- [How to: Deploy Microsoft Dynamics NAV on Microsoft Azure by Using the Example Scripts](../Topic/How%20to:%20Deploy%20Microsoft%20Dynamics%20NAV%20on%20Microsoft%20Azure%20by%20Using%20the%20Example%20Scripts.md)
+ [Deploying Microsoft Dynamics NAV on Two Virtual Machines Using Example-2VM Script](Deploying-Microsoft-Dynamics-NAV-on-Two-Virtual-Machines-Using-Example-2VM-Script.md)   
+ [Deploying Microsoft Dynamics NAV on One Virtual Machine Using Example-1VM Script](Deploying-Microsoft-Dynamics-NAV-on-One-Virtual-Machine-Using-Example-1VM-Script.md)   
+ [How to: Deploy Microsoft Dynamics NAV on Microsoft Azure by Using the Example Scripts](How%20to:%20Deploy%20Microsoft%20Dynamics%20NAV%20on%20Microsoft%20Azure%20by%20Using%20the%20Example%20Scripts.md)

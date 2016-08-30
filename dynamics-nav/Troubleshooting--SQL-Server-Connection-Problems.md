@@ -31,7 +31,7 @@ After installing and configuring [!INCLUDE[navnow](includes/navnow_md.md)] softw
   
 3.  Under **Protocol Name** in the right pane, verify that **Named Pipes** and **TCP\/IP** have the status **Enabled**.  
   
-4.  If either protocol is not enabled, right\-click the protocol, and then choose **Enable**.  
+4.  If either protocol is not enabled, right-click the protocol, and then choose **Enable**.  
   
  After exiting SQL Server Configuration Manager, start the [!INCLUDE[rtc](includes/rtc_md.md)] again to see if the connection problem has been resolved.  
   
@@ -50,16 +50,16 @@ After installing and configuring [!INCLUDE[navnow](includes/navnow_md.md)] softw
     C:\Program Files\Microsoft SQL Server\MSSQL10_50.MSSQLSERVER\MSSQL\Binn\sqlservr.exe  
     ```  
   
-4.  Double\-click the executable file to select it and to exit the **Browse** window, and then choose **OK** to close the **Add a Program** window.  
+4.  Double-click the executable file to select it and to exit the **Browse** window, and then choose **OK** to close the **Add a Program** window.  
   
 5.  Choose **OK** to close **Windows Firewall**.  
   
  After exiting SQL Server Configuration Manager, start the [!INCLUDE[rtc](includes/rtc_md.md)] again to see if the connection problem has been resolved.  
   
 ## Starting SQL Browser Service  
- When using a named database instance for [!INCLUDE[navnow](includes/navnow_md.md)], and [!INCLUDE[nav_server](includes/nav_server_md.md)] and the SQL server are on separate computers, then SQL Browser Service must be running on the SQL Server. For more information, see [How to: Start SQL Browser Service](../Topic/How%20to:%20Start%20SQL%20Browser%20Service.md).  
+ When using a named database instance for [!INCLUDE[navnow](includes/navnow_md.md)], and [!INCLUDE[nav_server](includes/nav_server_md.md)] and the SQL server are on separate computers, then SQL Browser Service must be running on the SQL Server. For more information, see [How to: Start SQL Browser Service](How%20to:%20Start%20SQL%20Browser%20Service.md).  
   
 ## See Also  
  [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)   
- [Walkthrough: Installing the Three Tiers on Three Computers](../Topic/Walkthrough:%20Installing%20the%20Three%20Tiers%20on%20Three%20Computers.md)   
+ [Walkthrough: Installing the Three Tiers on Three Computers](Walkthrough:%20Installing%20the%20Three%20Tiers%20on%20Three%20Computers.md)   
  [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md)

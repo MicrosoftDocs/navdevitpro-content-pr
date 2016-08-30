@@ -99,11 +99,11 @@ A report object is composed of a report dataset and a visual layout. You design 
   
 2.  In the **Properties** window, locate the [DataItemTableView Property](DataItemTableView-Property.md), and then choose the **AssistEdit** button in the **Value** field to open the **Table View** window.  
   
-3.  In the **Key** field, choose the up arrow, select **No.** from the **Customer\-Key List** window, choose the **OK** button, and then in the **Table View** window, choose the **OK** button.  
+3.  In the **Key** field, choose the up arrow, select **No.** from the **Customer-Key List** window, choose the **OK** button, and then in the **Table View** window, choose the **OK** button.  
   
 4.  Locate the [ReqFilterFields Property](ReqFilterFields-Property.md), choose the **AssistEdit** from the **Value** field to open the **Fields List** window.  
   
-5.  In the **Field List** window, choose the up arrow, choose **No.** from the **Customer \- Fields List** window, choose the **OK** button, and then choose the **OK** button in the **Field List** window.  
+5.  In the **Field List** window, choose the up arrow, choose **No.** from the **Customer - Fields List** window, choose the **OK** button, and then choose the **OK** button in the **Field List** window.  
   
 6.  Locate the [PrintOnlyIfDetail Property](PrintOnlyIfDetail-Property.md) and set the **Value** field to **Yes**.  
   
@@ -119,7 +119,7 @@ A report object is composed of a report dataset and a visual layout. You design 
   
 10. Locate the [DataItemLink Property \(Reports\)](DataItemLink-Property--Reports-.md) and choose the **AssistEdit** button to open the **DataItem Link** window.  
   
-11. In the first row, in the **Field** column, choose the up arrow. In the **Cust. Ledger Entry\-Field List** window, select **Customer No.**, and then choose the **OK** button.  
+11. In the first row, in the **Field** column, choose the up arrow. In the **Cust. Ledger Entry-Field List** window, select **Customer No.**, and then choose the **OK** button.  
   
 12. In the **Reference Field** column, select the up arrow. In the **Customer – Field List** window, select **No.**, choose the **OK** button, and then choose the **OK** button in the **DataItemLink** window.  
   
@@ -135,13 +135,13 @@ A report object is composed of a report dataset and a visual layout. You design 
   
 16. Locate the [DataItemLink Property \(Reports\)](DataItemLink-Property--Reports-.md) and choose the **AssistEdit** button to open the **DataItem Link** window.  
   
-17. In the **Field** column, choose the up arrow. In the **Detailed Cust. Ledg. Entry\-Field List** window, select **Cust. Ledger Entry No.**, and then choose the **OK** button.  
+17. In the **Field** column, choose the up arrow. In the **Detailed Cust. Ledg. Entry-Field List** window, select **Cust. Ledger Entry No.**, and then choose the **OK** button.  
   
-18. In the **Reference Field** column, select the up arrow, in the **Cust. Ledger Entry\-Field List** window, select **Entry No.**, and then choose the **OK** button.  
+18. In the **Reference Field** column, select the up arrow, in the **Cust. Ledger Entry-Field List** window, select **Entry No.**, and then choose the **OK** button.  
   
-19. In the second row, in the **Field** column, select the up arrow. In the **Detailed Cust. Ledg. Entry\-Field List** window, select **Customer No.**, and then choose the **OK** button.  
+19. In the second row, in the **Field** column, select the up arrow. In the **Detailed Cust. Ledg. Entry-Field List** window, select **Customer No.**, and then choose the **OK** button.  
   
-20. In the **Reference Field** column, select the up arrow. In the **Cust. Ledger Entry\-Field List** window, select **Customer No.**, choose the **OK** button, and then choose the **OK** button.  
+20. In the **Reference Field** column, select the up arrow. In the **Cust. Ledger Entry-Field List** window, select **Customer No.**, choose the **OK** button, and then choose the **OK** button.  
   
      The following illustration shows the **Properties** window for the **Detailed Cust. Ledg. Entry** data item.  
   
@@ -151,13 +151,13 @@ A report object is composed of a report dataset and a visual layout. You design 
   
 22. Locate the [DataItemTableView Property](DataItemTableView-Property.md) and choose the **AssistEdit** button to open the **Table View** window.  
   
-23. In the **Key** field, choose the up arrow, select **Document Type,No.** from the **Sale Header \- Key List** window, and then choose the **OK** button. In the **Table View** window, choose the **OK** button.  
+23. In the **Key** field, choose the up arrow, select **Document Type,No.** from the **Sale Header - Key List** window, and then choose the **OK** button. In the **Table View** window, choose the **OK** button.  
   
 24. Locate the [DataItemLink Property \(Reports\)](DataItemLink-Property--Reports-.md), choose the **AssistEdit** button to open the **DataItem Link** window.  
   
-25. In the **Field** column, select the up arrow. In the **Sales Header\-Field List** window, select **Sell\-to\-Customer No.**, and then choose the **OK** button.  
+25. In the **Field** column, select the up arrow. In the **Sales Header-Field List** window, select **Sell-to-Customer No.**, and then choose the **OK** button.  
   
-26. In the **Reference Field** column, select the up arrow, in the **Customer\-Field List** window, select **No.**, choose **OK** and then choose the **OK** button.  
+26. In the **Reference Field** column, select the up arrow, in the **Customer-Field List** window, select **No.**, choose **OK** and then choose the **OK** button.  
   
      The following illustration shows the **Properties** window for the **Sales Header** data item.  
   
@@ -180,7 +180,7 @@ A report object is composed of a report dataset and a visual layout. You design 
     |Name|Name\_Customer|  
     |Address|Address\_Customer|  
     |Phone No.|PhoneNo\_Customer|  
-    |E\-Mail|EMail\_Customer|  
+    |E-Mail|EMail\_Customer|  
   
     > [!NOTE]  
     >  You can hold down the Ctrl key to select multiple fields.  
@@ -269,9 +269,9 @@ A report object is composed of a report dataset and a visual layout. You design 
   
 1.  Choose anywhere inside the Report Dataset Designer. On the **View** menu, choose **Layout** to open the RDLC report in Microsoft Visual Studio. The body of the report is displayed in Visual Studio.  
   
-2.  Right\-click anywhere outside the report \(in the shaded area\) and then choose **Add Page Header**.  
+2.  Right-click anywhere outside the report \(in the shaded area\) and then choose **Add Page Header**.  
   
-3.  Right\-click anywhere outside the report \(in the shaded area\), and then choose **Report Properties**.  
+3.  Right-click anywhere outside the report \(in the shaded area\), and then choose **Report Properties**.  
   
 4.  In the **Report Properties** window, choose the **Page Setup** tab. Iin the **Paper size** section, under **Orientation**, choose the **Landscape**, and then choose the **OK** button.  
   
@@ -279,7 +279,7 @@ A report object is composed of a report dataset and a visual layout. You design 
   
 6.  Move the **List control** to the top of the report body and resize it to cover the whole report body.  
   
-7.  Right\-click the middle of the **List** controls, and then choose **Rectangle Properties**.  
+7.  Right-click the middle of the **List** controls, and then choose **Rectangle Properties**.  
   
 8.  In the **Rectangle Properties** window, choose the **Fill** tab, in the **Fill Color** list color pallet, select **Cornflower Blue** from the color pallet, and then choose the **OK** button. You can choose any color.  
   
@@ -290,13 +290,13 @@ A report object is composed of a report dataset and a visual layout. You design 
   
 #### To set the list control properties  
   
-1.  Select the **List** control, right\-click the shaded border to the left of the **List** control, and then choose **Tablix Properties**.  
+1.  Select the **List** control, right-click the shaded border to the left of the **List** control, and then choose **Tablix Properties**.  
   
-2.  In the **Tablix Properties** window, on the **General** tab, under **Dataset name**, select **DataSet\_Result** from the drop\-down list, and then choose the **OK** button.  
+2.  In the **Tablix Properties** window, on the **General** tab, under **Dataset name**, select **DataSet\_Result** from the drop-down list, and then choose the **OK** button.  
   
-3.  Select the **List** control, right\-click the shaded border to the left of the list control, choose **Row Group**, and then **Group Properties**.  
+3.  Select the **List** control, right-click the shaded border to the left of the list control, choose **Row Group**, and then **Group Properties**.  
   
-4.  In the **Group Properties** window, on the **General** tab, under **Group expressions:**, choose the **Add** button, and then select **\[No\_Customer\]** from the **Group on:** drop\-down list. This groups all the data in the List control by customer number.  
+4.  In the **Group Properties** window, on the **General** tab, under **Group expressions:**, choose the **Add** button, and then select **\[No\_Customer\]** from the **Group on:** drop-down list. This groups all the data in the List control by customer number.  
   
 5.  On the **Page Breaks** tab, select **Between each instance of a group**, and then choose the **OK** button.  
   
@@ -312,32 +312,32 @@ A report object is composed of a report dataset and a visual layout. You design 
   
      Note that the table contains two table rows, a header row \(first row\), and a data row \(second row\). The three parallel lines in the left border of the second row identify the data row.  
   
-2.  Select any table row, right\-click the shaded border, and then choose **Tablix Properties** to open the **Tablix Properties** window.  
+2.  Select any table row, right-click the shaded border, and then choose **Tablix Properties** to open the **Tablix Properties** window.  
   
 3.  On the **General** tab, verify that the **Dataset name** field is set to **DataSet\_Result**, and then choose the **OK** button.  
   
      The table has three columns. Viktor will add a fourth column to the table to hold all the customer data.  
   
-4.  Right\-click the middle column header, choose **Insert Column**, and then select **Right** to insert the fourth column into the table.  
+4.  Right-click the middle column header, choose **Insert Column**, and then select **Right** to insert the fourth column into the table.  
   
-5.  Select the second table row \(the data row\), right\-click the row, choose **Delete Rows** to delete the data row, and then choose the **OK** button in the **Delete Rows** window to delete the row and its associated groups.  
+5.  Select the second table row \(the data row\), right-click the row, choose **Delete Rows** to delete the data row, and then choose the **OK** button in the **Delete Rows** window to delete the row and its associated groups.  
   
-6.  Select the remaining table row, right\-click the shaded border on the left, choose **Insert Row**, and then choose **Below** to insert another table header row.  
+6.  Select the remaining table row, right-click the shaded border on the left, choose **Insert Row**, and then choose **Below** to insert another table header row.  
   
 7.  Repeat step 6 to insert a third table header row. There should now be three header rows in the table.  
   
-8.  Right\-click the first cell \(row 1, column 1\) in the table, and then choose **Expression** to open the **Expression** window.  
+8.  Right-click the first cell \(row 1, column 1\) in the table, and then choose **Expression** to open the **Expression** window.  
   
-9. In the **Category** column, select **Parameters**, in the **Item** column, verify that **All** is selected, and then in the **Values** column, double\-click **No\_CustomerCaption**. Verify that the **Set expression for: Value** box contains the following value: `=Parameters!No_CustomerCaption.Value`. This cell will display the customer No. caption in the report.  
+9. In the **Category** column, select **Parameters**, in the **Item** column, verify that **All** is selected, and then in the **Values** column, double-click **No\_CustomerCaption**. Verify that the **Set expression for: Value** box contains the following value: `=Parameters!No_CustomerCaption.Value`. This cell will display the customer No. caption in the report.  
   
 10. Modify the expression to `=First(Parameters!No_CustomerCaption.Value)`. Choose the **OK** button.  
   
     > [!NOTE]  
     >  All caption fields must begin with `=First` so that the first value for the caption fields in the data set is retrieved and used as caption. If the First function is not used, the report will return the current value for a field. The current value however may be incorrect. For example, the current value could be empty.  
   
-11. Right\-click the second cell \(row 1, column 2\) in the table, and then choose **Expression** to open the **Expression** window.  
+11. Right-click the second cell \(row 1, column 2\) in the table, and then choose **Expression** to open the **Expression** window.  
   
-12. In the **Category** column, select **Field\(DataSet\_Result\)**, in the **Item** column verify that **All** is selected, and then in the **Values** column double\-click **No\_Customer**. Verify that the **Set expression for: Value** box contains the following value `=Fields!No_Customer.Value`. Choose the **OK** button. This cell will display the Customer No..  
+12. In the **Category** column, select **Field\(DataSet\_Result\)**, in the **Item** column verify that **All** is selected, and then in the **Values** column double-click **No\_Customer**. Verify that the **Set expression for: Value** box contains the following value `=Fields!No_Customer.Value`. Choose the **OK** button. This cell will display the Customer No..  
   
 13. Repeat steps 8 through 12 to the enter captions and values in the following cells.  
   
@@ -389,21 +389,21 @@ A report object is composed of a report dataset and a visual layout. You design 
     > [!NOTE]  
     >  You may have to resize the report body and the list controls to make them larger.  
   
-3.  Select the table, right\-click the shaded border, choose **Tablix Properties**. On the **General** tab, verify that the **Dataset name** field is set to **DataSet\_Result**, and then choose the **OK** button.  
+3.  Select the table, right-click the shaded border, choose **Tablix Properties**. On the **General** tab, verify that the **Dataset name** field is set to **DataSet\_Result**, and then choose the **OK** button.  
   
 4.  Select the table data row, choose **Insert Row** and then choose **Outside Group – Below**. This adds another data row to the table. You now have one header row and two data rows.  
   
 5.  Delete the first row \(header row\) in the table and then insert columns in the table so that the total number of columns is eleven.  
   
-6.  Choose the first data row, right\-click the shaded border to the left, choose **Add Group**, and then choose **Parent Group**.  
+6.  Choose the first data row, right-click the shaded border to the left, choose **Add Group**, and then choose **Parent Group**.  
   
-7.  In the **Tablix group** window, select **Group by**, select **EntryNo\_CustLedgerEntry** from the drop\-down list. Select **Add group header**, and then choose the **OK** button.  
+7.  In the **Tablix group** window, select **Group by**, select **EntryNo\_CustLedgerEntry** from the drop-down list. Select **Add group header**, and then choose the **OK** button.  
   
-8.  Right\-click the first row, choose **Insert Row**, and then choose **Inside Group – Above**. This header will hold the captions for the Customer Ledger entries.  
+8.  Right-click the first row, choose **Insert Row**, and then choose **Inside Group – Above**. This header will hold the captions for the Customer Ledger entries.  
   
-9. Right\-click the cell in the row1, column 2, and then choose **Expression** to open the **Expression** window.  
+9. Right-click the cell in the row1, column 2, and then choose **Expression** to open the **Expression** window.  
   
-10. In the **Category** column, select **Parameters** and then in the **Values** column double\-click **EntryNo\_CustLedgerEntryCaption**. Note that the **Set expression for: Value** box contains the following value: `=Parameters!EntryNo_CustLedgerEntryCaption.Value`  
+10. In the **Category** column, select **Parameters** and then in the **Values** column double-click **EntryNo\_CustLedgerEntryCaption**. Note that the **Set expression for: Value** box contains the following value: `=Parameters!EntryNo_CustLedgerEntryCaption.Value`  
   
 11. Modify the expression to the following value: `=First(Parameters!EntryNo_CustLedgerEntryCaption.Value)`.  
   
@@ -422,13 +422,13 @@ A report object is composed of a report dataset and a visual layout. You design 
     |11|OriginalAmtLCY\_CustLedgerEntryCaption|  
     |12|RemainingAmtLCY\_CustLedgerEntryCaption|  
   
-13. Right\-click the left\-most grouping cell \(the cell that contains the **EntryNo\_CustLedgerEntry** field\) in the table, select **Text Box Properties**, in the Text Box Properties window, select the **Visibility** tab, under the **Change display options**, select the Hide option.  
+13. Right-click the left-most grouping cell \(the cell that contains the **EntryNo\_CustLedgerEntry** field\) in the table, select **Text Box Properties**, in the Text Box Properties window, select the **Visibility** tab, under the **Change display options**, select the Hide option.  
   
 14. Select the first row in the table, in the **Properties** pane, under **Fill**, set the **BackgroundColor** property to **Dim Grey**.  
   
-15. Right\-click the cell in the row2, column 2, and then choose **Expression** to open the **Expression** window.  
+15. Right-click the cell in the row2, column 2, and then choose **Expression** to open the **Expression** window.  
   
-16. In the **Category** column, select **Fields \(DataSet\_Result\)**, in the **Values** column, double\-click **EntryNo\_CustLedgerEntry**, and then choose the **OK** button. Note that the **Set expression for: Value** box contains the following value: `=Fields!EntryNo_CustLedgerEntry.Value`  
+16. In the **Category** column, select **Fields \(DataSet\_Result\)**, in the **Values** column, double-click **EntryNo\_CustLedgerEntry**, and then choose the **OK** button. Note that the **Set expression for: Value** box contains the following value: `=Fields!EntryNo_CustLedgerEntry.Value`  
   
 17. Repeat steps 15 and 16 for row 3 to add fields from the ledger entry dataset. Put the fields under the corresponding captions.  
   
@@ -436,7 +436,7 @@ A report object is composed of a report dataset and a visual layout. You design 
   
 19. Build the project, inspect the **Output** pane, and make sure that there are no build errors.  
   
-20. Select the second table row, right\-click the shaded border to the left, choose **Insert Row**, and then choose **Below**. The table should now have three group rows, one group data row, and one table footer row. This row will store the captions of **Detailed Cust. Ledg. Entry**  data item.  
+20. Select the second table row, right-click the shaded border to the left, choose **Insert Row**, and then choose **Below**. The table should now have three group rows, one group data row, and one table footer row. This row will store the captions of **Detailed Cust. Ledg. Entry**  data item.  
   
 21. Add the captions and fields for the **Detailed Cust. Ledger Entry table** as shown in the following table.  
   
@@ -455,7 +455,7 @@ A report object is composed of a report dataset and a visual layout. You design 
   
 22. Shrink the column that contains the **Customer No.** field of the Cust. Ledger Entry to about half of its size.  
   
-23. Right\-click the column header that contains the **Customer No.** field, choose **Insert Column**, and then choose **Right**.  
+23. Right-click the column header that contains the **Customer No.** field, choose **Insert Column**, and then choose **Right**.  
   
 24. Select the cell that contains the **Customer No.** caption and the empty cell that you just created, and then choose **Merge Cells** to merge the two cells.  
   
@@ -477,7 +477,7 @@ A report object is composed of a report dataset and a visual layout. You design 
   
 #### To hide empty cells and add totals  
   
-1.  Select the first row, right\-click the shaded border to the left of the row, choose **Row Group**, and then choose **Group Properties**.  
+1.  Select the first row, right-click the shaded border to the left of the row, choose **Row Group**, and then choose **Group Properties**.  
   
 2.  In the **Group Properties** window, select the **Filters** tab, and then choose the **Add** button.  
   
@@ -489,30 +489,30 @@ A report object is composed of a report dataset and a visual layout. You design 
   
      Viktor will now add the total of the amount field to the footer row of the table, format the cells and hide the total cell if customer ledger entry is not available.  
   
-5.  In the last row of the table, right\-click the empty cell under the **Amount \(LCY\)** field, and then choose **Expression**.  
+5.  In the last row of the table, right-click the empty cell under the **Amount \(LCY\)** field, and then choose **Expression**.  
   
-6.  In the **Category** column, select **Fields \(DataSet\_Result\)**, in the **Values** column double\-click **Amount\_CustLedgerEntry**, and then change the expression in the **Set expression for: Value** box to the following value: `=Sum(Fields!Amount_CustLedgerEntry.Value)`. Choose the **OK** button.  
+6.  In the **Category** column, select **Fields \(DataSet\_Result\)**, in the **Values** column double-click **Amount\_CustLedgerEntry**, and then change the expression in the **Set expression for: Value** box to the following value: `=Sum(Fields!Amount_CustLedgerEntry.Value)`. Choose the **OK** button.  
   
-7.  In the **Properties** window, locate the **Format** property, choose the drop\-down arrow and select **Expression**.  
+7.  In the **Properties** window, locate the **Format** property, choose the drop-down arrow and select **Expression**.  
   
 8.  In the **Expression** window, enter the following formatting expression in **Set expression for: Value** box: `=Fields!Amount_CustLedgerEntryFormat.Value`. Choose the **OK** button.  
   
     > [!NOTE]  
-    >  Alternatively, you set this value by double\-clicking **Amount\_CustLedgerEntryFormat** in the **Values** field of **Fields\(DataSet\)** category.  
+    >  Alternatively, you set this value by double-clicking **Amount\_CustLedgerEntryFormat** in the **Values** field of **Fields\(DataSet\)** category.  
   
-9. Select the two empty cells to the left of the total cell, right\-click the cells, and then choose **Merge Cells**.  
+9. Select the two empty cells to the left of the total cell, right-click the cells, and then choose **Merge Cells**.  
   
-10. Right\-click the merged cell, choose **Expression**, choose the **Parameters** category, and then set the caption to **Total\_Caption**  
+10. Right-click the merged cell, choose **Expression**, choose the **Parameters** category, and then set the caption to **Total\_Caption**  
   
 11. Set the **BackgroundColor** property of the cells that contain the total and total caption to **Red**.  
   
      If you run the report now, the total amount cell will be displayed even if there are no ledger entries. Viktor will add an expression to hide the footer row when there are no ledger entries.  
   
-12. Select the last row, in the **Properties** window, locate the **Hidden** property, choose the drop\-down arrow, and then choose **Expression**.  
+12. Select the last row, in the **Properties** window, locate the **Hidden** property, choose the drop-down arrow, and then choose **Expression**.  
   
 13. In the **Expression** window, in the **Set expression for: Hidden** box, enter the following expression to hide the row: `=Fields!EntryNo_CustLedgerEntry.Value = 0`. Choose the **OK** button. This hides the row if there are no entry values.  
   
-14. Right\-click the left\-most cell in the last table row, select **Text Box Properties**, select the **Visibility** tab, under **Change display options**, select the **Hide** option, and then choose the **OK** button.  
+14. Right-click the left-most cell in the last table row, select **Text Box Properties**, select the **Visibility** tab, under **Change display options**, select the **Hide** option, and then choose the **OK** button.  
   
      The next step is to add the data from the **Sales Header** table.  
   
@@ -520,39 +520,39 @@ A report object is composed of a report dataset and a visual layout. You design 
   
 1.  From the **Toolbox**, drag a **Table** control to the **List** control, and then put the table control under the table that contains the **Cust. Ledger Entry** table  
   
-2.  Right\-click a column and add columns to create five columns for the table.  
+2.  Right-click a column and add columns to create five columns for the table.  
   
 3.  Delete the first header row from the table.  
   
-4.  Right\-click the data row, choose **Tablix Properties**, verify that the **DataSet name** is set to **DataSet\_Result**, and then choose the **OK** button.  
+4.  Right-click the data row, choose **Tablix Properties**, verify that the **DataSet name** is set to **DataSet\_Result**, and then choose the **OK** button.  
   
-5.  Right\-click the data row, choose **Add Group**, and then choose **Parent Group** to open the **Tablix group** window.  
+5.  Right-click the data row, choose **Add Group**, and then choose **Parent Group** to open the **Tablix group** window.  
   
 6.  Select the **Group by:** option and then choose the **fx** button to open the **Expression** window.  
   
-7.  In the **Category** column, select **Parameters**, and then in the **Values**, column double\-click **Sales\_Document\_Caption**. Verify that the **Set expression for: Value** box contains the following value: `=Parameters!Sales_Document_Caption.Value`. Choose the **OK** button.  
+7.  In the **Category** column, select **Parameters**, and then in the **Values**, column double-click **Sales\_Document\_Caption**. Verify that the **Set expression for: Value** box contains the following value: `=Parameters!Sales_Document_Caption.Value`. Choose the **OK** button.  
   
 8.  In the **Tablix group** window, select **Add group header**, and then choose the **OK** button.  
   
-9. Right\-click the first row in the table, choose **Insert Row**, and then choose **Inside Group – Above**.  
+9. Right-click the first row in the table, choose **Insert Row**, and then choose **Inside Group – Above**.  
   
 10. Reduce the size of the first column, and then in the **Properties** window, under **Visibility**, set the **Hidden** property to **True**. This hides the first column.  
   
 11. In the first table row, merge all the cells except the first grouping cell.  
   
-12. Right\-click the merged cell, and then choose **Expression**.  
+12. Right-click the merged cell, and then choose **Expression**.  
   
-13. In the **Category** column, select **Parameters**, and then in the **Values** column double\-click **Sales\_Document\_Caption**. Verify that the **Set expression for: Value** box contains the following value: `=Parameters!Sales_Document_Caption.Value`. Choose the **OK** button.  
+13. In the **Category** column, select **Parameters**, and then in the **Values** column double-click **Sales\_Document\_Caption**. Verify that the **Set expression for: Value** box contains the following value: `=Parameters!Sales_Document_Caption.Value`. Choose the **OK** button.  
   
 14. Modify the expression to `=First(Parameters!Sales_Document_Caption.Value)`.  
   
-15. Right\-click the cell in row2, column 2, and then choose **Expression** to open the **Expression** window.  
+15. Right-click the cell in row2, column 2, and then choose **Expression** to open the **Expression** window.  
   
-16. In the **Category** column, select **Parameters**, and then in the **Values** column double\-click **DocumentType\_SalesHeader**. Verify that the **Set expression for: Value** box contains the following value: `Parameters!DocumentType_SalesHeaderCaption.Value`  
+16. In the **Category** column, select **Parameters**, and then in the **Values** column double-click **DocumentType\_SalesHeader**. Verify that the **Set expression for: Value** box contains the following value: `Parameters!DocumentType_SalesHeaderCaption.Value`  
   
 17. Modify the expression to the following value: `=First(Parameters!DocumentType_SalesHeaderCaption.Value)`. Choose the **OK** button.  
   
-18. Right\-click the cell that is under the caption that you just created, choose **Expression**. In the **Category** column, select **Fields \(DataSet\_Result\)**, and then in the **Values** column double\-click **DocumentType\_SalesHeader**. Choose the **OK** button. Verify that the **Set expression for: Value** box contains the following value: `=Fields!DocumentType_SalesHeader.Value`  
+18. Right-click the cell that is under the caption that you just created, choose **Expression**. In the **Category** column, select **Fields \(DataSet\_Result\)**, and then in the **Values** column double-click **DocumentType\_SalesHeader**. Choose the **OK** button. Verify that the **Set expression for: Value** box contains the following value: `=Fields!DocumentType_SalesHeader.Value`  
   
 19. Repeat steps 15 through 18 and add the following captions and the corresponding fields.  
   
@@ -571,7 +571,7 @@ A report object is composed of a report dataset and a visual layout. You design 
   
 #### To set a filter hide empty row  
   
-1.  Select any row from this table, right\-click the shaded border to the left of the table, and then choose **Tablix Properties**.  
+1.  Select any row from this table, right-click the shaded border to the left of the table, and then choose **Tablix Properties**.  
   
 2.  Choose the **Filters** tab and then choose the **Add** button.  
   
@@ -597,8 +597,8 @@ A report object is composed of a report dataset and a visual layout. You design 
 6.  Use the paging buttons at the top of the report to move to the next customer.  
   
 ## Next Steps  
- Viktor can add advanced features to the report. He can add features such as displaying the company name and logo on every page on the report. He might also want to add features that enable users to apply filters on the request page. For more information, see [Walkthrough: Adding Company Information, Custom Filters, and Formatting to a Report](../Topic/Walkthrough:%20Adding%20Company%20Information,%20Custom%20Filters,%20and%20Formatting%20to%20a%20Report.md).  
+ Viktor can add advanced features to the report. He can add features such as displaying the company name and logo on every page on the report. He might also want to add features that enable users to apply filters on the request page. For more information, see [Walkthrough: Adding Company Information, Custom Filters, and Formatting to a Report](Walkthrough:%20Adding%20Company%20Information,%20Custom%20Filters,%20and%20Formatting%20to%20a%20Report.md).  
   
 ## See Also  
- [Walkthrough: Adding Company Information, Custom Filters, and Formatting to a Report](../Topic/Walkthrough:%20Adding%20Company%20Information,%20Custom%20Filters,%20and%20Formatting%20to%20a%20Report.md)   
+ [Walkthrough: Adding Company Information, Custom Filters, and Formatting to a Report](Walkthrough:%20Adding%20Company%20Information,%20Custom%20Filters,%20and%20Formatting%20to%20a%20Report.md)   
  [Report Design Walkthroughs](Report-Design-Walkthroughs.md)

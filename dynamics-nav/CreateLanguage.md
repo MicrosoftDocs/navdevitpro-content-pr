@@ -23,7 +23,7 @@ finsql.exe command=createlanguage, langid=<langid>, [servername=<server>,] [data
 #### Parameters  
  *langid*  
   
- Specifies the standard Windows three\-letter ID of the language that you want to add captions for.  
+ Specifies the standard Windows three-letter ID of the language that you want to add captions for.  
   
  *servername*  
   
@@ -48,21 +48,21 @@ finsql.exe command=createlanguage, langid=<langid>, [servername=<server>,] [data
   
  *filter*  
   
- Specifies a filter on the **Object** table. Use the *filter* parameter to specify which objects to add captions on. For example, you can add captions on a specific set of pages or reports. Use a semicolon to separate multiple filters. The only operator that you can use in the filter is '\='. The following table shows the fields in the **Object** table on which you can filter.  
+ Specifies a filter on the **Object** table. Use the *filter* parameter to specify which objects to add captions on. For example, you can add captions on a specific set of pages or reports. Use a semicolon to separate multiple filters. The only operator that you can use in the filter is '='. The following table shows the fields in the **Object** table on which you can filter.  
   
 |Object table field|Values|Example|  
 |------------------------|------------|-------------|  
-|Type|Table, Codeunit, Page, Report, XMLport, Query|Type\=Table&#124;Page|  
-|ID|Integer or range of integers|ID\=50000..50500|  
-|Name|Any valid object name|"Name\=Cost Entry"|  
-|Modified|yes, no, 1, 0|Modified\=yes|  
-|Compiled|yes, no, 1, 0|Compiled\=0|  
-|Date|Date, in the numeric format determined by your regional settings|"Date\=12\/1\/2012"|  
-|Time|Time, in the numeric format determined by your regional settings|"Time\=12:00:00"|  
-|Version List|Any valid version|"Version List\=NAVW17.00"|  
-|Caption|Any valid caption|"Caption\=Company Information"|  
-|Locked|Yes, no, 1, 0|Locked\=1|  
-|Locked By|Domain\\username|"Locked By\=CRONUS\\viktor"|  
+|Type|Table, Codeunit, Page, Report, XMLport, Query|Type=Table&#124;Page|  
+|ID|Integer or range of integers|ID=50000..50500|  
+|Name|Any valid object name|"Name=Cost Entry"|  
+|Modified|yes, no, 1, 0|Modified=yes|  
+|Compiled|yes, no, 1, 0|Compiled=0|  
+|Date|Date, in the numeric format determined by your regional settings|"Date=12\/1\/2012"|  
+|Time|Time, in the numeric format determined by your regional settings|"Time=12:00:00"|  
+|Version List|Any valid version|"Version List=NAVW17.00"|  
+|Caption|Any valid caption|"Caption=Company Information"|  
+|Locked|Yes, no, 1, 0|Locked=1|  
+|Locked By|Domain\\username|"Locked By=CRONUS\\viktor"|  
   
 > [!NOTE]  
 >  If you do not specify a filter, then captions are added on all objects in the **Object** table.  
@@ -97,10 +97,10 @@ finsql.exe command=createlanguage, langid=<langid>, [servername=<server>,] [data
   
  *ntauthentication*  
   
- Specifies if you want to use NT authentication. The possible values are **yes**, **no**, **1**, or **0**. If you specify the *username* and *password* parameters, then you must specify **ntauthentication\=no** or **ntauthentication\=0**.  
+ Specifies if you want to use NT authentication. The possible values are **yes**, **no**, **1**, or **0**. If you specify the *username* and *password* parameters, then you must specify **ntauthentication=no** or **ntauthentication=0**.  
   
 ## Remarks  
- The CreateLanguage command adds a language caption entry in the [CaptionML Property](CaptionML-Property.md) of the controls in the objects that you specify. By default, the caption is the same value as the [Name Property\-duplicate](Name-Property-duplicate.md) of the control.  
+ The CreateLanguage command adds a language caption entry in the [CaptionML Property](CaptionML-Property.md) of the controls in the objects that you specify. By default, the caption is the same value as the [Name Property-duplicate](Name-Property-duplicate.md) of the control.  
   
 > [!NOTE]  
 >  After you run the command, you must to compile the modified objects. For more information, see [Compiling Objects](Compiling-Objects.md).  

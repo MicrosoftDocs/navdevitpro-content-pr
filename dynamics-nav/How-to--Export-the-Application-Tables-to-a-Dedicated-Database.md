@@ -49,12 +49,12 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can export the tables that def
   
      In the example, the database server name is **MyServer** , and the SQL Server instance is **NavDemo**. The name of the new application database can be anything. You can specify a name that reflects your application.  
   
-     The application database is created on the same SQL Server instance as the original database. In the example, if you connect to the **NavDemo** instance using SQL Server Management Studio you will see two databases: the original database, **Demo Database NAV \(9\-0\)**, and the new application database, **NAV App**.  
+     The application database is created on the same SQL Server instance as the original database. In the example, if you connect to the **NavDemo** instance using SQL Server Management Studio you will see two databases: the original database, **Demo Database NAV \(9-0\)**, and the new application database, **NAV App**.  
   
      At this stage, the original database still contains the application tables, and you can still access it using the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. Next, you must remove the application tables from the original database to make it a tenant database.  
   
     > [!TIP]  
-    >  Optionally, you can combine the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.Export\-NAVApplication](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.Export-NAVApplication) and [T:Microsoft.Dynamics.Nav.Management.Cmdlets.Remove\-NAVApplication](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.Remove-NAVApplication) cmdlets. For an example of how you can combine the two cmdlets, see the **Example** section.  
+    >  Optionally, you can combine the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.Export-NAVApplication](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.Export-NAVApplication) and [T:Microsoft.Dynamics.Nav.Management.Cmdlets.Remove-NAVApplication](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.Remove-NAVApplication) cmdlets. For an example of how you can combine the two cmdlets, see the **Example** section.  
   
 5.  To remove the application tables from the original database, type the following command:  
   
@@ -71,18 +71,18 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can export the tables that def
      You will be asked to confirm that you want to remove the tables.  
   
     > [!WARNING]  
-    >  Running the **Remove\-NAVApplication** cmdlet is not reversible. When you have removed the application tables from the database, you cannot import them again. Make sure that you have a full backup available.  
+    >  Running the **Remove-NAVApplication** cmdlet is not reversible. When you have removed the application tables from the database, you cannot import them again. Make sure that you have a full backup available.  
   
  At the end of the process, you have two databases. In the example earlier in this topic, the databases are as follows.  
   
 |Database name|Database type|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-------------------|-------------------|---------------------------------------|  
-|Demo Database NAV \(9\-0\)|Business data database|Contains the data from the original database.|  
+|Demo Database NAV \(9-0\)|Business data database|Contains the data from the original database.|  
 |NAV App|Application database|Contains the tables that define the application. For a list of tables, see [Separating Application Data from Business Data](Separating-Application-Data-from-Business-Data.md).|  
   
  You must take additional steps to get the final business data database operational. For an example of how you can write a script that runs the cmdlet for creating an application database, see the **…\\Windows PowerShell\\Multitenancy\\** folder on the [!INCLUDE[navnow](includes/navnow_md.md)] product media. For an example of how to write individual commands in Windows PowerShell, see the **Example** section.  
   
- Next, you must restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] service, and you must mount the two databases by using the **Mount\-NAVApplication** and **Mount\-NAVTenant** cmdlets. For more information, see [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md).  
+ Next, you must restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] service, and you must mount the two databases by using the **Mount-NAVApplication** and **Mount-NAVTenant** cmdlets. For more information, see [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md).  
   
 ## Example  
  The following code example illustrates how you can manually write commands in the [!INCLUDE[navnow](includes/navnow_md.md)] administration shell. The commands create an application database based on an existing [!INCLUDE[navnow](includes/navnow_md.md)] database.  
@@ -98,10 +98,10 @@ PS C:\Windows\System32> Mount-NAVApplication –ServerInstance ‘nav_server_ins
 PS C:\Windows\System32> Mount-NAVTenant –ServerInstance ‘nav_server_instance’ -Id tenant1 –DatabaseServer ‘MyServer\NAVDEMO’ -DatabaseName ‘Demo Database NAV (9-0)’ -OverwriteTenantIdInDatabase  
 ```  
   
- In the example, the commands stop the [!INCLUDE[nav_server](includes/nav_server_md.md)] service, creates the application database, clears the default database name in the server configuration, and then restarts the service. Then, the application database and the tenant database are mounted, and the configuration is saved in the Tenants.config file on the server. As a result, you have an application database and a single\-tenant deployment. When you try to open the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], an error displays because you have not specified a tenant. So in the **Select Server** window, in the **Server Address** field, add the tenant ID to the address. In this example, the address is **localhost:7046\/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\/tenant1**.  
+ In the example, the commands stop the [!INCLUDE[nav_server](includes/nav_server_md.md)] service, creates the application database, clears the default database name in the server configuration, and then restarts the service. Then, the application database and the tenant database are mounted, and the configuration is saved in the Tenants.config file on the server. As a result, you have an application database and a single-tenant deployment. When you try to open the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], an error displays because you have not specified a tenant. So in the **Select Server** window, in the **Server Address** field, add the tenant ID to the address. In this example, the address is **localhost:7046\/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\/tenant1**.  
   
 > [!TIP]  
->  For an example of how you can automate the process of transferring user accounts from the original database to the new application database, see the HowTo\-ExportNAVApplicationDatabase.ps1 sample script. This and other sample scripts are in the **…\\Windows PowerShell\\Upgrade\\** folder on the [!INCLUDE[navnow](includes/navnow_md.md)] product media. The ExportNAVApplicationDatabase.ps1 sample script can be run in the context of the NAVUpgradeSamples.psm1 script module file. When you call a script such as this, it will export the application tables to a new application database and copy all accounts and SQL Server user roles to the application database. To only transfer the account that the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance uses, use the *–ServiceAccount* parameter for the **Export\-NAVApplication** cmdlet. In the examples in this topic, this parameter has not been specified. As a result, the default account, NT AUTHORITY\\NETWORK SERVICE, is set up with the required user roles.  
+>  For an example of how you can automate the process of transferring user accounts from the original database to the new application database, see the HowTo-ExportNAVApplicationDatabase.ps1 sample script. This and other sample scripts are in the **…\\Windows PowerShell\\Upgrade\\** folder on the [!INCLUDE[navnow](includes/navnow_md.md)] product media. The ExportNAVApplicationDatabase.ps1 sample script can be run in the context of the NAVUpgradeSamples.psm1 script module file. When you call a script such as this, it will export the application tables to a new application database and copy all accounts and SQL Server user roles to the application database. To only transfer the account that the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance uses, use the *–ServiceAccount* parameter for the **Export-NAVApplication** cmdlet. In the examples in this topic, this parameter has not been specified. As a result, the default account, NT AUTHORITY\\NETWORK SERVICE, is set up with the required user roles.  
   
 ## See Also  
  [Separating Application Data from Business Data](Separating-Application-Data-from-Business-Data.md)   

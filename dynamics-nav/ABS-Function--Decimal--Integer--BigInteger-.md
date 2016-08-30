@@ -26,7 +26,7 @@ NewNumber := ABS(Number)
   
  The input value.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The return value is greater than or equal to 0 \(zero\).  
@@ -35,7 +35,7 @@ NewNumber := ABS(Number)
  The system automatically converts all of the numeric data types for you.  
   
 ## Example  
- This example shows how to remove the sign from a negative numeric value. This example requires that you create the following variables and text constant in the C\/AL Globals window.  
+ This example shows how to remove the sign from a negative numeric value. This example requires that you create the following variables and text constant in the C/AL Globals window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -44,7 +44,7 @@ NewNumber := ABS(Number)
   
 |Text constant name|ENU Value|  
 |------------------------|---------------|  
-|Text000|x \= %1, y \= %2|  
+|Text000|x = %1, y = %2|  
   
 ```  
 x := -10.235; // x is assigned a negative value  
@@ -54,7 +54,7 @@ MESSAGE(Text000, x, y);
   
  The message window displays the following:  
   
- **x \= \-10.235, y \= 10.235**  
+ **x = -10.235, y = 10.235**  
   
 ## See Also  
  [POWER Function \(Decimal, Integer, BigInteger\)](POWER-Function--Decimal--Integer--BigInteger-.md)   

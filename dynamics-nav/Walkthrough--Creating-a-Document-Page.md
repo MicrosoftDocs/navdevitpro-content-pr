@@ -14,7 +14,7 @@ manager: edupont
 # Walkthrough: Creating a Document Page
 In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], a document page consists of two separate pages, with one page nested inside the other page.  
   
- You can create a document page if you have two tables that are linked. For example, page 42, **Sales Order**, has two source tables: **Sales Header** and **Sales Lines**. These two tables are linked in a one\-to\-many relationship and are source tables for the **Sales Order** page.  
+ You can create a document page if you have two tables that are linked. For example, page 42, **Sales Order**, has two source tables: **Sales Header** and **Sales Lines**. These two tables are linked in a one-to-many relationship and are source tables for the **Sales Order** page.  
   
  The sales order document page consists of a series of FastTabs that display customer, invoicing, shipping, and other relevant information. The source table for this information is table 36, **Sales Header**. The lines that show items that are associated with each customer are based on table 37, **Sales Lines**.  
   
@@ -51,7 +51,7 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], a document page consists o
  First, Simon creates a new document page that is based on table 36, **Sales Header**.  
   
 > [!NOTE]  
->  In this walkthrough, you learn about the properties and controls of a document page, and you will create document page from a blank page. If you are using [!INCLUDE[navnowlong](includes/navnowlong_md.md)], Object Designer includes a wizard that you can use to create a document page that will set up many properties and controls for you. For more information about the wizard, see [How to: Create a Page](../Topic/How%20to:%20Create%20a%20Page.md).  
+>  In this walkthrough, you learn about the properties and controls of a document page, and you will create document page from a blank page. If you are using [!INCLUDE[navnowlong](includes/navnowlong_md.md)], Object Designer includes a wizard that you can use to create a document page that will set up many properties and controls for you. For more information about the wizard, see [How to: Create a Page](How%20to:%20Create%20a%20Page.md).  
   
 #### To create a document page  
   
@@ -90,19 +90,19 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], a document page consists o
   
 3.  Press the Ctrl key and select the following rows:  
   
-    -   **Sell\-to Customer No.**  
+    -   **Sell-to Customer No.**  
   
     -   **No.**  
   
-    -   **Sell\-to Customer Name**  
+    -   **Sell-to Customer Name**  
   
-    -   **Sell\-to Address**  
+    -   **Sell-to Address**  
   
-    -   **Sell\-to Address 2**  
+    -   **Sell-to Address 2**  
   
-    -   **Sell\-to City**  
+    -   **Sell-to City**  
   
-    -   **Sell\-to Contact**  
+    -   **Sell-to Contact**  
   
 4.  Choose the **OK** button, and then choose **Yes** in the dialog box to add the fields to your page.  
   
@@ -130,17 +130,17 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], a document page consists o
   
     -   **SubPageLink**  
   
-4.  Locate the **PagePartID** property, in the **Properties** window, and use the drop\-down arrow next to this property to display the page list.  
+4.  Locate the **PagePartID** property, in the **Properties** window, and use the drop-down arrow next to this property to display the page list.  
   
 5.  In the **Page List** window, select page 46, **Sales Order Subform**, and then choose the **OK** button.  
   
-6.  Locate the **SubPageLink** property and select the drop\-down arrow to open the **Table Filter** window.  
+6.  Locate the **SubPageLink** property and select the drop-down arrow to open the **Table Filter** window.  
   
-7.  In the first row, choose **Field** to open the **Sales Line \- Field List** window. This window lets you to set a table filter on the **Sales Lines** table.  
+7.  In the first row, choose **Field** to open the **Sales Line - Field List** window. This window lets you to set a table filter on the **Sales Lines** table.  
   
 8.  Select **Document No.** and then choose the **OK** button.  
   
-9. In the **Type** drop\-down list box, choose **FIELD**.  
+9. In the **Type** drop-down list box, choose **FIELD**.  
   
 10. In the **Value** field, select **No.**, and then choose the **OK** button.  
   
@@ -195,17 +195,17 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], a document page consists o
   
 3.  Enter the following command to display your page:  
   
-     **DynamicsNav:\/\/\/\/runpage?page\=\<pageid\>**. In this case **pageid** is 50006  
+     **DynamicsNav:\/\/\/\/runpage?page=\<pageid\>**. In this case **pageid** is 50006  
   
      The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] opens and displays the new document page.  
   
 ## Next Steps  
- Simon now wants to add actions to Susan's document page and promote some of these actions to the ribbon. For more information, see [How to: Promote Actions on Pages](../Topic/How%20to:%20Promote%20Actions%20on%20Pages.md).  
+ Simon now wants to add actions to Susan's document page and promote some of these actions to the ribbon. For more information, see [How to: Promote Actions on Pages](How%20to:%20Promote%20Actions%20on%20Pages.md).  
   
 ## See Also  
  [Pages Overview](Pages-Overview.md)   
- [How to: Add Actions to a Page](../Topic/How%20to:%20Add%20Actions%20to%20a%20Page.md)   
- [How to: Promote Actions on Pages](../Topic/How%20to:%20Promote%20Actions%20on%20Pages.md)   
- [How to: Create a Page](../Topic/How%20to:%20Create%20a%20Page.md)   
+ [How to: Add Actions to a Page](How%20to:%20Add%20Actions%20to%20a%20Page.md)   
+ [How to: Promote Actions on Pages](How%20to:%20Promote%20Actions%20on%20Pages.md)   
+ [How to: Create a Page](How%20to:%20Create%20a%20Page.md)   
  [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
- [How to: Run a Page](../Topic/How%20to:%20Run%20a%20Page.md)
+ [How to: Run a Page](How%20to:%20Run%20a%20Page.md)

@@ -30,15 +30,15 @@ Value := Record.GETRANGEMAX(Field)
  *Field*  
  Type: Field  
   
- The field for which you want to find the maximum value. The current filter on *Field* must be a single range filter; otherwise, a run\-time error occurs.  
+ The field for which you want to find the maximum value. The current filter on *Field* must be a single range filter; otherwise, a run-time error occurs.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Depends on *Field*  
   
  Contains the maximum value of the range set for *Field*. The type of the return value must match the type of *Field*.  
   
 ## Remarks  
- The current filter on *Field* must be a single range filter; otherwise, a run\-time error occurs. This means that field cannot be included in two different FILTERGROUPs, as shown in the following code example:  
+ The current filter on *Field* must be a single range filter; otherwise, a run-time error occurs. This means that field cannot be included in two different FILTERGROUPs, as shown in the following code example:  
   
 ```  
 WITH GLAcc DO BEGIN  
@@ -54,7 +54,7 @@ END;
 ## Example  
  In this example, you have a filter that defines a single range.  
   
- This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|Length|  
 |-------------------|--------------|-------------|------------|  
@@ -78,7 +78,7 @@ MESSAGE(Text000, Val);
 ## Example  
  In this example, you have a filter that is a single value.  
   
- This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|Length|  
 |-------------------|--------------|-------------|------------|  
@@ -102,7 +102,7 @@ MESSAGE(Text000, Val);
 ## Example  
  In this example, you have a filter that is not a single range.  
   
- This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|Length|  
 |-------------------|--------------|-------------|------------|  
@@ -119,7 +119,7 @@ Val := CustomerRec.GETRANGEMAX("No.");
 MESSAGE(Text000, Val);  
 ```  
   
- This example causes a run\-time error to occur.  
+ This example causes a run-time error to occur.  
   
 ## See Also  
  [GETRANGEMIN Function \(Record\)](GETRANGEMIN-Function--Record-.md)   

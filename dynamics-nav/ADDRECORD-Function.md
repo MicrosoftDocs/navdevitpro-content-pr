@@ -49,7 +49,7 @@ Adds a filter control for a table to a filter page. The table is specified by a 
 ## Example  
  The following example initializes a filter page object that includes a filter control that uses the Date system table. The filter control has the caption of **Date record**. The example set two filters are on the **Date** record variable, which results in a filter control that includes two fields by default.  
   
- This example requires that you create the following variables in the **C\/AL Globals** window.  
+ This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|SubType|  
 |-------------------|--------------|-------------|  

@@ -25,7 +25,7 @@ The RoleTailored clients use several windows to display information. Two of the 
   
 |To|See|  
 |--------|---------|  
-|Learn how to create a Role Center page|[Walkthrough: Creating a Role Center](../Topic/Walkthrough:%20Creating%20a%20Role%20Center.md)|  
+|Learn how to create a Role Center page|[Walkthrough: Creating a Role Center](Walkthrough:%20Creating%20a%20Role%20Center.md)|  
 |Get an overview of the parts on a Role Center page|[Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)|  
 |Get an overview of the navigation window layout and its parts|[Navigation Window](#NavigationWindow)|  
   
@@ -40,7 +40,7 @@ The RoleTailored clients use several windows to display information. Two of the 
   
 |To|See|  
 |--------|---------|  
-|See an example of how to create a List page Role Center page|[Walkthrough: Creating a Customer List in Page Designer](../Topic/Walkthrough:%20Creating%20a%20Customer%20List%20in%20Page%20Designer.md)|  
+|See an example of how to create a List page Role Center page|[Walkthrough: Creating a Customer List in Page Designer](Walkthrough:%20Creating%20a%20Customer%20List%20in%20Page%20Designer.md)|  
 |Learn about List pages and parts, including FactBoxes|[Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)|  
 |Get an overview of the navigation window layout and its parts|[Navigation Window](#NavigationWindow)|  
   
@@ -70,7 +70,7 @@ The RoleTailored clients use several windows to display information. Two of the 
   
 |To|See|  
 |--------|---------|  
-|Learn how to create a page|[How to: Create a Page](../Topic/How%20to:%20Create%20a%20Page.md)|  
+|Learn how to create a page|[How to: Create a Page](How%20to:%20Create%20a%20Page.md)|  
 |Get an overview of the pages|[Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)|  
   
 ###  <a name="NavigationPane"></a> Navigation Pane  
@@ -83,8 +83,8 @@ The RoleTailored clients use several windows to display information. Two of the 
 |To|See|  
 |--------|---------|  
 |See an overview of actions|[Actions Overview](Actions-Overview.md)|  
-|Learn how to add actions to a page|[How to: Add Actions to a Page](../Topic/How%20to:%20Add%20Actions%20to%20a%20Page.md)|  
-|See an example of how to add an action to the navigation pane|[Walkthrough: Creating a Role Center](../Topic/Walkthrough:%20Creating%20a%20Role%20Center.md)|  
+|Learn how to add actions to a page|[How to: Add Actions to a Page](How%20to:%20Add%20Actions%20to%20a%20Page.md)|  
+|See an example of how to add an action to the navigation pane|[Walkthrough: Creating a Role Center](Walkthrough:%20Creating%20a%20Role%20Center.md)|  
   
 ### Address Bar  
  The address bar displays the location of the current page in the navigation hierarchy of the application. The Address bar updates when the user moves to a different page.  
@@ -95,7 +95,7 @@ The RoleTailored clients use several windows to display information. Two of the 
 ### Status Bar  
  The status bar displays information about the current state of the [!INCLUDE[navnow](includes/navnow_md.md)] session, including the name of the company, the date and, the user's name or ID.  
   
- For users who work with more than one company, the status bar provides access to all the companies that they work with. By choosing the company name, the user can open a drop\-down list which shows the companies available to them. Users can switch between companies.  
+ For users who work with more than one company, the status bar provides access to all the companies that they work with. By choosing the company name, the user can open a drop-down list which shows the companies available to them. Users can switch between companies.  
   
 > [!NOTE]  
 >  The status bar is not configurable.  
@@ -105,7 +105,7 @@ The RoleTailored clients use several windows to display information. Two of the 
   
  ![RoleTailored client Card page example](media/NAV_CardPage_CustomerCard.jpg "NAV\_CardPage\_CustomerCard")  
   
- Task pages are similar in concept to the pop\-up windows in Microsoft Office Outlook that show an e\-mail, contact, or a task. It is typical for users to have multiple task pages open at the same time. Similar to the navigation window, a Task window includes a Command bar and ribbon. Unlike the navigation window, it does not include the navigation pane or status bar. The user can work with more than one Task window open at a time.  
+ Task pages are similar in concept to the pop-up windows in Microsoft Office Outlook that show an e-mail, contact, or a task. It is typical for users to have multiple task pages open at the same time. Similar to the navigation window, a Task window includes a Command bar and ribbon. Unlike the navigation window, it does not include the navigation pane or status bar. The user can work with more than one Task window open at a time.  
   
  You create a Task window by creating a page and then linking the page to actions on other pages. The most common page types for Task windows are Card, Document, and List.  
   
@@ -113,7 +113,7 @@ The RoleTailored clients use several windows to display information. Two of the 
   
 |To|See|  
 |--------|---------|  
-|Learn how to create a page|[How to: Create a Page](../Topic/How%20to:%20Create%20a%20Page.md)|  
+|Learn how to create a page|[How to: Create a Page](How%20to:%20Create%20a%20Page.md)|  
 |Get an overview of the pages|[Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)|  
   
 ## See Also  

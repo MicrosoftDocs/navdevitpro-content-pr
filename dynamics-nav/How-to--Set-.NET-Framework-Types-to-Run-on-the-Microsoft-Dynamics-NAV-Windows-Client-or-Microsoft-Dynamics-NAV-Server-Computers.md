@@ -25,9 +25,9 @@ This topic describes how to set .NET Framework objects that are instantiated by 
   
     -   Import the .NET Framework assembly into the [!INCLUDE[navnow](includes/navnow_md.md)] database,  
   
-         You import the assembly into the table **2000000069 Add\-ins**. The .NET Framework assembly will be automatically deployed on the client computer when an operation from the client requires it. The assembly will be deployed to the *%TEMP%\\Microsoft Dynamics NAV\\Add\-Ins* folder of the user who is running the client. The deployed assembly will be then be used whenever it is required by the client. If a .NET Framework assembly is updated and its version number changes, [!INCLUDE[nav_server](includes/nav_server_md.md)] will deploy the updated assembly to the client computer the next time that the client requests the assembly. The updated assembly is put in a subfolder of the %*TEMP%\\Microsoft Dynamics NAV\\Add\-Ins* folder, where the subfolder has the assembly's version number as its name.  
+         You import the assembly into the table **2000000069 Add-ins**. The .NET Framework assembly will be automatically deployed on the client computer when an operation from the client requires it. The assembly will be deployed to the *%TEMP%\\Microsoft Dynamics NAV\\Add-Ins* folder of the user who is running the client. The deployed assembly will be then be used whenever it is required by the client. If a .NET Framework assembly is updated and its version number changes, [!INCLUDE[nav_server](includes/nav_server_md.md)] will deploy the updated assembly to the client computer the next time that the client requests the assembly. The updated assembly is put in a subfolder of the %*TEMP%\\Microsoft Dynamics NAV\\Add-Ins* folder, where the subfolder has the assembly's version number as its name.  
   
-         For more information, see [To import a .NET Framework assembly into the database](../Topic/How%20to:%20Set%20.NET%20Framework%20Types%20to%20Run%20on%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client%20or%20Microsoft%20Dynamics%20NAV%20Server%20Computers.md#ImportDb).  
+         For more information, see [To import a .NET Framework assembly into the database](How%20to:%20Set%20.NET%20Framework%20Types%20to%20Run%20on%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client%20or%20Microsoft%20Dynamics%20NAV%20Server%20Computers.md#ImportDb).  
   
         > [!NOTE]  
         >  To be deployed, an assembly must comply with the following [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration settings: Chunk Size, Max Upload Size, and Prohibited File Types. For more information about these settings, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).  
@@ -36,24 +36,24 @@ This topic describes how to set .NET Framework objects that are instantiated by 
   
          Similar to importing the .NET Framework assembly into the database, if you copy a .NET Framework assembly on computer that is running the [!INCLUDE[nav_server](includes/nav_server_md.md)], then [!INCLUDE[nav_server](includes/nav_server_md.md)] automatically deploys the assembly on the client computer when an operation from the client requires the .NET Framework assembly.  
   
-         For more information, see [To copy a .NET Framework assembly to the computer that is running Microsoft Dynamics NAV Server](../Topic/How%20to:%20Set%20.NET%20Framework%20Types%20to%20Run%20on%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client%20or%20Microsoft%20Dynamics%20NAV%20Server%20Computers.md#CopyAssemblyServer).  
+         For more information, see [To copy a .NET Framework assembly to the computer that is running Microsoft Dynamics NAV Server](How%20to:%20Set%20.NET%20Framework%20Types%20to%20Run%20on%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client%20or%20Microsoft%20Dynamics%20NAV%20Server%20Computers.md#CopyAssemblyServer).  
   
     -   Copy the assembly to each computer that is running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
-         For more information, see [To copy a .NET Framework assembly to a computer that is running the Microsoft Dynamics NAV Windows client](../Topic/How%20to:%20Set%20.NET%20Framework%20Types%20to%20Run%20on%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client%20or%20Microsoft%20Dynamics%20NAV%20Server%20Computers.md#CopyAssembyToClient).  
+         For more information, see [To copy a .NET Framework assembly to a computer that is running the Microsoft Dynamics NAV Windows client](How%20to:%20Set%20.NET%20Framework%20Types%20to%20Run%20on%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client%20or%20Microsoft%20Dynamics%20NAV%20Server%20Computers.md#CopyAssembyToClient).  
   
 > [!IMPORTANT]  
 >  For the [!INCLUDE[nav_web](includes/nav_web_md.md)], you cannot implement Microsoft .NET Framework interoperability objects that target the client.  
   
 #### To set the .NET Framework type to target the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]  
   
-1.  In Object Designer, open the C\/AL code of the [!INCLUDE[navnow](includes/navnow_md.md)] object that uses .NET Framework interoperability.  
+1.  In Object Designer, open the C/AL code of the [!INCLUDE[navnow](includes/navnow_md.md)] object that uses .NET Framework interoperability.  
   
 2.  Do one of the following steps:  
   
-    -   For a global variable, on the **View** menu, choose **C\/AL Globals**.  
+    -   For a global variable, on the **View** menu, choose **C/AL Globals**.  
   
-    -   For a local variable, select the trigger that uses the variable, and then on the **View** menu, choose **C\/AL Locals**.  
+    -   For a local variable, select the trigger that uses the variable, and then on the **View** menu, choose **C/AL Locals**.  
   
 3.  On the **Variables** tab, select the DotNet variable, and then on the **View** menu, choose **Properties**.  
   
@@ -61,12 +61,12 @@ This topic describes how to set .NET Framework objects that are instantiated by 
   
 ###  <a name="CopyAssembyToClient"></a> To copy a .NET Framework assembly to a computer that is running the Microsoft Dynamics NAV Windows client  
   
--   On the computer that is running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], copy the.NET Framework assembly to the Add\-ins folder of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] installation.  
+-   On the computer that is running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], copy the.NET Framework assembly to the Add-ins folder of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] installation.  
   
-     By default, the path of this folder is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\RoleTailored Client\\Add\-ins or [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add\-ins.  
+     By default, the path of this folder is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\RoleTailored Client\\Add-ins or [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add-ins.  
   
     > [!NOTE]  
-    >  You can also put assemblies in a subfolder of the Add\-ins folder. This can be useful when you have multiple versions of the same assemblies and dependencies.  
+    >  You can also put assemblies in a subfolder of the Add-ins folder. This can be useful when you have multiple versions of the same assemblies and dependencies.  
   
 ## Setting the .NET Framework Type to Target [!INCLUDE[nav_server](includes/nav_server_md.md)]  
  To set a .NET Framework type instance to target [!INCLUDE[nav_server](includes/nav_server_md.md)], you must complete the following tasks as described in this section:  
@@ -84,9 +84,9 @@ This topic describes how to set .NET Framework objects that are instantiated by 
   
 2.  Do one of the following steps:  
   
-    -   For a global variable, on the **View** menu, choose **C\/AL Globals**.  
+    -   For a global variable, on the **View** menu, choose **C/AL Globals**.  
   
-    -   For a local variable, in the C\/AL Editor, select the trigger that uses the DotNet variable, and then on the **View** menu, choose **C\/AL Locals**.  
+    -   For a local variable, in the C/AL Editor, select the trigger that uses the DotNet variable, and then on the **View** menu, choose **C/AL Locals**.  
   
 3.  On the **Variables** tab, select the **NET Framework variable** type, and then on the **View** menu, choose **Properties**.  
   
@@ -94,40 +94,40 @@ This topic describes how to set .NET Framework objects that are instantiated by 
   
 ###  <a name="CopyAssemblyServer"></a> To copy a .NET Framework assembly to the computer that is running Microsoft Dynamics NAV Server  
   
--   On the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)], copy the.NET Framework assembly to the **Add\-ins** folder of the [!INCLUDE[nav_server](includes/nav_server_md.md)] installation folder.  
+-   On the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)], copy the.NET Framework assembly to the **Add-ins** folder of the [!INCLUDE[nav_server](includes/nav_server_md.md)] installation folder.  
   
-     By default, the path of the [!INCLUDE[nav_server](includes/nav_server_md.md)] installation folder is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service\\Add\-ins.  
+     By default, the path of the [!INCLUDE[nav_server](includes/nav_server_md.md)] installation folder is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service\\Add-ins.  
   
-     You can also put assemblies in a subfolder of the **Add\-ins** folder. This can be useful when you have multiple assemblies and dependencies.  
+     You can also put assemblies in a subfolder of the **Add-ins** folder. This can be useful when you have multiple assemblies and dependencies.  
   
     > [!NOTE]  
-    >  If you are working in the development environment, to compile and test [!INCLUDE[navnow](includes/navnow_md.md)] objects, you must also copy the assembly to the Add\-ins folder of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] installation on the computer that is running the development environment. By default, the path of this folder is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\RoleTailored Client\\Add\-ins or [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add\-ins.  
+    >  If you are working in the development environment, to compile and test [!INCLUDE[navnow](includes/navnow_md.md)] objects, you must also copy the assembly to the Add-ins folder of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] installation on the computer that is running the development environment. By default, the path of this folder is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\RoleTailored Client\\Add-ins or [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\RoleTailored Client\\Add-ins.  
   
 ###  <a name="ImportDb"></a> To import a .NET Framework assembly into the database  
   
 1.  Get the public key token for the .NET Framework assembly.  
   
-     The public key token is a 16\-character key that is given to the assembly when it is built and signed in Microsoft Visual Studio. To determine the public token key, run the Microsoft .NET Strong Name Utility \(sn.exe\) on the assembly. For more information, see [How to: Determine the Public Key Token of the Windows Client Control Add\-in and .NET Framework Assembly](../Topic/How%20to:%20Determine%20the%20Public%20Key%20Token%20of%20the%20Windows%20Client%20Control%20Add-in%20and%20.NET%20Framework%20Assembly.md) and [Strong\-Named Signing](http://go.microsoft.com/fwlink/?LinkID=150201&clcid=0x409).  
+     The public key token is a 16-character key that is given to the assembly when it is built and signed in Microsoft Visual Studio. To determine the public token key, run the Microsoft .NET Strong Name Utility \(sn.exe\) on the assembly. For more information, see [How to: Determine the Public Key Token of the Windows Client Control Add-in and .NET Framework Assembly](How%20to:%20Determine%20the%20Public%20Key%20Token%20of%20the%20Windows%20Client%20Control%20Add-in%20and%20.NET%20Framework%20Assembly.md) and [Strong-Named Signing](http://go.microsoft.com/fwlink/?LinkID=150201&clcid=0x409).  
   
 2.  Create a compressed \(.zip type\) file that contains the .NET Framework assembly in the desired folder structure.  
   
-3.  You can import the compressed \(.zip\) file when you register the NET Framework assembly from the **Control Add\-ins** page in [!INCLUDE[navnow](includes/navnow_md.md)].  
+3.  You can import the compressed \(.zip\) file when you register the NET Framework assembly from the **Control Add-ins** page in [!INCLUDE[navnow](includes/navnow_md.md)].  
   
-4.  In the **Search** box, enter **Control Add\-ins** and then choose the related link.  
+4.  In the **Search** box, enter **Control Add-ins** and then choose the related link.  
   
-5.  In the **Control Add\-ins** window, choose **New**, and then in the **Control Add\-in Name** column, enter the control add\-in name. In the **Public Key Token** column, enter the public key token that you obtained earlier.  
+5.  In the **Control Add-ins** window, choose **New**, and then in the **Control Add-in Name** column, enter the control add-in name. In the **Public Key Token** column, enter the public key token that you obtained earlier.  
   
 6.  Choose **Import**.  
   
-7.  In the **Import Control Add\-in Resource** window, locate the.zip file, and then choose **Open**.  
+7.  In the **Import Control Add-in Resource** window, locate the.zip file, and then choose **Open**.  
   
-8.  Choose the **OK** button to close the **Control Add\-in** page.  
+8.  Choose the **OK** button to close the **Control Add-in** page.  
   
- For more information about registering a control add\-in, see [How to: Register a Windows Client Control Add\-in](../Topic/How%20to:%20Register%20a%20Windows%20Client%20Control%20Add-in.md).  
+ For more information about registering a control add-in, see [How to: Register a Windows Client Control Add-in](How%20to:%20Register%20a%20Windows%20Client%20Control%20Add-in.md).  
   
 > [!TIP]  
->  You can also register the control add\-in and import the files by using the [New\-NAVAddin cmdlet](http://go.microsoft.com/fwlink/?LinkID=521781) or [Set\-NAVAddin cmdlet](http://go.microsoft.com/fwlink/?LinkID=521784) from the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
+>  You can also register the control add-in and import the files by using the [New-NAVAddin cmdlet](http://go.microsoft.com/fwlink/?LinkID=521781) or [Set-NAVAddin cmdlet](http://go.microsoft.com/fwlink/?LinkID=521784) from the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
   
 ## See Also  
- [How to: Call .NET Framework Types From C\-AL Code](../Topic/How%20to:%20Call%20.NET%20Framework%20Types%20From%20C-AL%20Code.md)   
- [Calling .NET Framework Members from C\-AL](Calling-.NET-Framework-Members-from-C-AL.md)
+ [How to: Call .NET Framework Types From C-AL Code](How%20to:%20Call%20.NET%20Framework%20Types%20From%20C-AL%20Code.md)   
+ [Calling .NET Framework Members from C-AL](Calling-.NET-Framework-Members-from-C-AL.md)

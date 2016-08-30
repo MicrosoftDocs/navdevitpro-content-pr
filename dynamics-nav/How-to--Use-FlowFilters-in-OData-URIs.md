@@ -14,14 +14,14 @@ manager: edupont
 # How to: Use FlowFilters in OData URIs
 You can set FlowFilters on the data that your OData web service extracts from the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
- FlowFilters are a special kind of filter that you use to set ranges on calculations that are shown in FlowFields. For more information, see [FlowFilters](../Topic/FlowFilters.md). FlowFilters for a page are included in the metadata for that page when it is published as a web service. You can then use FlowFilters as filters in a URI that specifies a query against page data. However, only those FlowFilters that are required to calculate the FlowFields that are exposed on the page as controls are included.  
+ FlowFilters are a special kind of filter that you use to set ranges on calculations that are shown in FlowFields. For more information, see [FlowFilters](FlowFilters.md). FlowFilters for a page are included in the metadata for that page when it is published as a web service. You can then use FlowFilters as filters in a URI that specifies a query against page data. However, only those FlowFilters that are required to calculate the FlowFields that are exposed on the page as controls are included.  
   
 ## Using FlowFilters to Query Data on the Item Card Page  
  In this procedure, you create and publish a web service from the **Item Card** page in [!INCLUDE[navnow](includes/navnow_md.md)] and then query the data in that web service by using a FlowFilter.  
   
 #### To query data on the Item Card page using a FlowFilter  
   
-1.  Register and publish a page web service by using the [!INCLUDE[rtc](includes/rtc_md.md)] as described in [Walkthrough: Creating and Interacting with a Page Web Service \(OData\)](../Topic/Walkthrough:%20Creating%20and%20Interacting%20with%20a%20Page%20Web%20Service%20\(OData\).md). Register and publish page 30, Item Card, and name the service **ItemCard**.  
+1.  Register and publish a page web service by using the [!INCLUDE[rtc](includes/rtc_md.md)] as described in [Walkthrough: Creating and Interacting with a Page Web Service \(OData\)](Walkthrough:%20Creating%20and%20Interacting%20with%20a%20Page%20Web%20Service%20\(OData\).md). Register and publish page 30, Item Card, and name the service **ItemCard**.  
   
 2.  Start Windows Internet Explorer, and then in the **Address** field, enter a URI in this format:  
   

@@ -26,5 +26,5 @@ Sets whether to include the caption of a field in the dataset of a report.
  You can set the **IncludeCaption property** either in the **Properties** window of a data item or in the **IncludeCaption** column of Report Dataset Designer for a data item or a column. If you set the **IncludeCaption** column of a data item, then the **IncludeCaption property** is set to **Yes** for every child column of the data item.  
   
 ## See Also  
- [Caption Property\-duplicate](Caption-Property-duplicate.md)   
- [How to: Create Labels for a Report](../Topic/How%20to:%20Create%20Labels%20for%20a%20Report.md)
+ [Caption Property-duplicate](Caption-Property-duplicate.md)   
+ [How to: Create Labels for a Report](How%20to:%20Create%20Labels%20for%20a%20Report.md)

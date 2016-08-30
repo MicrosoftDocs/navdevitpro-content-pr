@@ -20,7 +20,7 @@ Retrieves the length of a BigText variable.
 Length := BigText.LENGTH  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The length of the BigText variable.  
@@ -29,7 +29,7 @@ Length := BigText.LENGTH
  To delete the content in a BigText variable use the [CLEAR Function](CLEAR-Function.md). The syntax for the CLEAR function is shown in the following code snippet: `CLEAR(BigText)`.  
   
 ## Example  
- The following example demonstrates how to retrieve the length of a BigText variable. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example demonstrates how to retrieve the length of a BigText variable. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -38,7 +38,7 @@ Length := BigText.LENGTH
   
 |Text constant name|ENU value|  
 |------------------------|---------------|  
-|Text000|VarLength \= %1|  
+|Text000|VarLength = %1|  
   
  In this example, the BigText variable is initialized with the text ‘ABCDEFG’. The length, which is 7, is stored in the VarLength variable and displayed in a message box.  
   

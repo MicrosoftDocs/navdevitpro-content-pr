@@ -14,17 +14,17 @@ manager: edupont
 # How to: Install Language Modules
 To install language modules in [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you must first download the language module from [Language Modules for Microsoft Dynamics NAV 2016](http://go.microsoft.com/fwlink/?LinkID=784928) \(requires PartnerSource login\), and then you install the following different components separately:  
   
--   [Server Component](../Topic/How%20to:%20Install%20Language%20Modules.md#Server)  
+-   [Server Component](How%20to:%20Install%20Language%20Modules.md#Server)  
   
--   [Microsoft Dynamics NAV Windows Client Component](../Topic/How%20to:%20Install%20Language%20Modules.md#RoleTailored)  
+-   [Microsoft Dynamics NAV Windows Client Component](How%20to:%20Install%20Language%20Modules.md#RoleTailored)  
   
--   [Microsoft Dynamics NAV Web Client Component](../Topic/How%20to:%20Install%20Language%20Modules.md#WebClient)  
+-   [Microsoft Dynamics NAV Web Client Component](How%20to:%20Install%20Language%20Modules.md#WebClient)  
   
--   [Microsoft Office Outlook Component](../Topic/How%20to:%20Install%20Language%20Modules.md#Outlook) \(optional\)  
+-   [Microsoft Office Outlook Component](How%20to:%20Install%20Language%20Modules.md#Outlook) \(optional\)  
   
--   [Database Component](../Topic/How%20to:%20Install%20Language%20Modules.md#Database)  
+-   [Database Component](How%20to:%20Install%20Language%20Modules.md#Database)  
   
--   [Profiles](../Topic/How%20to:%20Install%20Language%20Modules.md#Profiles)  
+-   [Profiles](How%20to:%20Install%20Language%20Modules.md#Profiles)  
   
  After you install a language module, you may need to translate additional strings for customized objects in the application.  
   
@@ -33,9 +33,9 @@ To install language modules in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]
   
  For more information, see the following topics:  
   
--   [How to: Add Translated Strings By Using the Multilanguage Editor](../Topic/How%20to:%20Add%20Translated%20Strings%20By%20Using%20the%20Multilanguage%20Editor.md)  
+-   [How to: Add Translated Strings By Using the Multilanguage Editor](How%20to:%20Add%20Translated%20Strings%20By%20Using%20the%20Multilanguage%20Editor.md)  
   
--   [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](../Topic/How%20to:%20Add%20Translated%20Strings%20By%20Importing%20and%20Exporting%20Multilanguage%20Files.md)  
+-   [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How%20to:%20Add%20Translated%20Strings%20By%20Importing%20and%20Exporting%20Multilanguage%20Files.md)  
   
 ##  <a name="Server"></a> Server Component  
   
@@ -47,9 +47,9 @@ To install language modules in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]
   
 3.  In the Server folder, run Server.Local.\<*country\/region code*\>.\<*language code*\>.msi.  
   
-4.  In Control Panel, choose **Administrative Tools**, and then choose **Services** to open the Services snap\-in.  
+4.  In Control Panel, choose **Administrative Tools**, and then choose **Services** to open the Services snap-in.  
   
-5.  In the list of services, right\-click **Microsoft Dynamics NAV Server**, and then choose **Restart**.  
+5.  In the list of services, right-click **Microsoft Dynamics NAV Server**, and then choose **Restart**.  
   
 ##  <a name="RoleTailored"></a> Microsoft Dynamics NAV Windows Client Component  
   
@@ -133,4 +133,4 @@ To install language modules in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]
   
 ## See Also  
  [Language Modules](Language-Modules.md)   
- [Manage Profiles](../Topic/Manage%20Profiles.md)
+ [Manage Profiles](Manage%20Profiles.md)

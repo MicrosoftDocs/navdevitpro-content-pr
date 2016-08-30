@@ -26,11 +26,11 @@ When you have developed a [!INCLUDE[navnow](includes/navnow_md.md)] extension, t
     |Id|Specifies the unique identifier for the extension. A unique identifier will be generated if a value is not provided. The same unique identifier should be used for each new version of the extension.|  
     |CompatibilityId|Specifies the compatibility ID of the extension. The compatibility ID is a version string in the format of Major.Minor.Build.Revision, with a default value of 1.0.0.0. The value is used to indicate whether there are compatibility related code changes between different versions of the extension. If a new version of the extension does not break compatibility, leave the compatibility ID the same as the previous version.|  
     |Dependencies|Specifies the path to a package file \(.navx\) for another extension that this extension depends on. Use a comma \(,\) to separate the paths to multiple .navx files., such as in the following example: `C:\Proseware\SmartAppBase.navx, C:\Proseware\ProsewareBase.navx`|  
-    |Prequisites|Specifies the objects that must exist in order to deploy the extension to a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The prerequisites is a string in the format of type\=ID, where type can be any object type such as Table, CodeUnit, or Page. Use a comma \(,\) to separate the prerequisites, such as in the following example: Table\=397, CodeUnit\=78.|  
+    |Prequisites|Specifies the objects that must exist in order to deploy the extension to a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The prerequisites is a string in the format of type=ID, where type can be any object type such as Table, CodeUnit, or Page. Use a comma \(,\) to separate the prerequisites, such as in the following example: Table=397, CodeUnit=78.|  
   
      For more information, see [Manifest Overview](Manifest-Overview.md).  
   
-     The New\-NAVAppManifest cmdlet creates an in\-memory Manifest object.  
+     The New-NAVAppManifest cmdlet creates an in-memory Manifest object.  
   
     ```  
     New-NAVAppManifest -Name "Proseware SmartStuff" -Publisher "Proseware, Inc." -Version "1.5.0.12"  
@@ -42,7 +42,7 @@ When you have developed a [!INCLUDE[navnow](includes/navnow_md.md)] extension, t
     New-NAVAppManifest -Name "Proseware SmartStuff" -Publisher "Proseware, Inc." -Version "1.5.0.12" | New-NavAppManifestFile -Path proseware.xml  
     ```  
   
-     Related cmdlets are BROKEN-INCLUDE-Get-NAVAppManifest and BROKEN-INCLUDE-Set-NAVAppManifest. For more information, use the Get\-Help command in the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)].  
+     Related cmdlets are BROKEN-INCLUDE-Get-NAVAppManifest and BROKEN-INCLUDE-Set-NAVAppManifest. For more information, use the Get-Help command in the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)].  
   
     > [!TIP]  
     >  For any [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlet, you can get help and sample usages, such as the following command:  
@@ -90,8 +90,8 @@ When you have developed a [!INCLUDE[navnow](includes/navnow_md.md)] extension, t
 ## See Also  
  [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)   
  [Manifest Overview](Manifest-Overview.md)   
- [How to: Develop an Extension](../Topic/How%20to:%20Develop%20an%20Extension.md)   
- [How to: Publish and Install an Extension](../Topic/How%20to:%20Publish%20and%20Install%20an%20Extension.md)   
+ [How to: Develop an Extension](How%20to:%20Develop%20an%20Extension.md)   
+ [How to: Publish and Install an Extension](How%20to:%20Publish%20and%20Install%20an%20Extension.md)   
  [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)   
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   
  [Development Cmdlets for Microsoft Dynamics NAV Extensions](http://go.microsoft.com/fwlink/?LinkID=626875)

@@ -32,7 +32,7 @@ Gets or sets the filter group that is applied to a table.
   
  The number of the filter group to set.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of the current filter group.  
@@ -50,7 +50,7 @@ Gets or sets the filter group that is applied to a table.
   
 |Number|Name|Description|  
 |------------|----------|-----------------|  
-|\-1|Cross\-column|Used to support the cross\-column search.|  
+|-1|Cross-column|Used to support the cross-column search.|  
 |0|Std|The default group where filters are placed when no other group has been selected explicitly. This group is used for filters that can be set from the filter dialogs by the end user.|  
 |1|Global|Used for filters that apply globally to the entire application.|  
 |2|Form|Used for the filtering actions that result from the following:<br /><br /> -   [SETTABLEVIEW Function \(Page, Report, XMLport\)](SETTABLEVIEW-Function--Page--Report--XMLport-.md)<br />-   [SourceTableView Property](SourceTableView-Property.md)<br />-   [DataItemTableView Property](DataItemTableView-Property.md).|  
@@ -62,7 +62,7 @@ Gets or sets the filter group that is applied to a table.
   
  A filter set in a group different from filter group 0 cannot be changed by a user that uses a filter dialog to set a filter. If, for example, a filter has been set on customer numbers 1000 to 2000 in group 4, then the user can set a filter that delimits this selection further, but cannot widen it to include customer numbers outside the range 1000 to 2000.  
   
- It is possible to use one of the internally used groups from C\/AL. If you do this, you replace the filter that [!INCLUDE[navnow](includes/navnow_md.md)] assumes is in this group. If, for example, you use filter group 4 in a page, you will replace the filtering that is actually the result of applying the [SubPageLink Property](SubPageLink-Property.md). This could seriously alter the way pages and subpages interact.  
+ It is possible to use one of the internally used groups from C/AL. If you do this, you replace the filter that [!INCLUDE[navnow](includes/navnow_md.md)] assumes is in this group. If, for example, you use filter group 4 in a page, you will replace the filtering that is actually the result of applying the [SubPageLink Property](SubPageLink-Property.md). This could seriously alter the way pages and subpages interact.  
   
  Using filter group 7 may cause factboxes to not work as intended.  
   
@@ -81,7 +81,7 @@ Rec.SETFILTER(<field>,’’);
 ## Example  
  The following example uses the [SETFILTER Function \(Record\)](SETFILTER-Function--Record-.md) to set a filter that selects records with No. field between 10000 and 20000. Then the **FILTERGROUP** function returns the number for the filter group. No filter group was selected explicitly so the filter is set in filter group 0. This value is stored in the varOrigGroup variable and displayed in a message box. Next, the **FILTERGROUP** function changes the filter group to 100. The new value is stored in the varCurrGroup variable and displayed in a message box.  
   
- This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
@@ -105,7 +105,7 @@ MESSAGE(Text001, varCurrGroup);
 ## Example  
  The following example finds all customers where the Customer Name or Contact Name contains the string **John**.  
   
- This example requires that you create the following variable in the **C\/AL Globals** window.  
+ This example requires that you create the following variable in the **C/AL Globals** window.  
   
 |Variable Name|Datatype|  
 |-------------------|--------------|  

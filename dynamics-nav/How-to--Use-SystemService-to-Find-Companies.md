@@ -22,11 +22,11 @@ You can use the SystemService service in a SOAP web service application to retri
 2.  Expand the **Visual C\#** node, select **Windows**, and then select **Console Application**.  
   
     > [!CAUTION]  
-    >  Do not double\-click or otherwise dismiss the **New Project** dialog box.  
+    >  Do not double-click or otherwise dismiss the **New Project** dialog box.  
   
 3.  Enter **FindingCompanies** as the **Name** for the application, and then choose **OK**.  
   
-4.  In Solution Explorer, right\-click the **References** node in the project, and then choose **Add Service Reference**.  
+4.  In Solution Explorer, right-click the **References** node in the project, and then choose **Add Service Reference**.  
   
 5.  In the **Add Service Reference** dialog box, choose the **Advanced** button, choose the **Add Web Reference** button, type or paste the URL that you used when checking the WSDL, such as **http:\/\/localhost:7047\/DynamicsNAV\/WS\/Services**, and then choose the green arrow to visit the URL.  
   
@@ -72,14 +72,14 @@ You can use the SystemService service in a SOAP web service application to retri
   
     ```  
   
-8.  Save \(press Ctrl\+F6\) and compile \(press F6\) the **FindingCompanies** application.  
+8.  Save \(press Ctrl+F6\) and compile \(press F6\) the **FindingCompanies** application.  
   
 9. Press F5 to run the application in debug mode.  
   
      A list of all companies in the current database is presented in a command session.  
   
 ## See Also  
- [Walkthrough: Creating a Web Service using Extension Codeunits \(SOAP\)](../Topic/Walkthrough:%20Creating%20a%20Web%20Service%20using%20Extension%20Codeunits%20\(SOAP\).md)   
- [Walkthrough: Creating and Using a Codeunit Web Service \(SOAP\)](../Topic/Walkthrough:%20Creating%20and%20Using%20a%20Codeunit%20Web%20Service%20\(SOAP\).md)   
- [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](../Topic/Walkthrough:%20Registering%20and%20Using%20a%20Page%20Web%20Service%20\(SOAP\).md)   
+ [Walkthrough: Creating a Web Service using Extension Codeunits \(SOAP\)](Walkthrough:%20Creating%20a%20Web%20Service%20using%20Extension%20Codeunits%20\(SOAP\).md)   
+ [Walkthrough: Creating and Using a Codeunit Web Service \(SOAP\)](Walkthrough:%20Creating%20and%20Using%20a%20Codeunit%20Web%20Service%20\(SOAP\).md)   
+ [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](Walkthrough:%20Registering%20and%20Using%20a%20Page%20Web%20Service%20\(SOAP\).md)   
  [SOAP Web Services](SOAP-Web-Services.md)

@@ -12,15 +12,15 @@ caps.latest.revision: 18
 manager: edupont
 ---
 # How to: Create an Automation Controller
-To implement Automation in [!INCLUDE[navnow](includes/navnow_md.md)], create an Automation controller in C\/AL code of the [!INCLUDE[navnow](includes/navnow_md.md)] object. By using variables that have an Automation data type, an Automation controller implements and runs Automation objects from an Automation server. This topic outlines the procedure for creating an Automation controller.  
+To implement Automation in [!INCLUDE[navnow](includes/navnow_md.md)], create an Automation controller in C/AL code of the [!INCLUDE[navnow](includes/navnow_md.md)] object. By using variables that have an Automation data type, an Automation controller implements and runs Automation objects from an Automation server. This topic outlines the procedure for creating an Automation controller.  
   
 ### To create an Automation controller that uses an Automation server  
   
-1.  Declare the top\-level interface of the Automation server as a variable of the data type Automation.  
+1.  Declare the top-level interface of the Automation server as a variable of the data type Automation.  
   
 2.  Declare all other objects and interfaces \(classes\) as variables of the Automation data type.  
   
-3.  Call the C\/AL CREATE function on the variable that you declared in step 1 as shown in the following code:  
+3.  Call the C/AL CREATE function on the variable that you declared in step 1 as shown in the following code:  
   
     ```  
     CREATE(AutomationVariable [,True|False] ,True)  
@@ -33,13 +33,13 @@ To implement Automation in [!INCLUDE[navnow](includes/navnow_md.md)], create an 
   
      For more information, see [CREATE Function \(Automation\)](CREATE-Function--Automation-.md).  
   
-4.  Use the methods and properties of the Automation server in your C\/AL code.  
+4.  Use the methods and properties of the Automation server in your C/AL code.  
   
-5.  If needed, use the CLEAR function \(destroy\) for the top\-level object. Otherwise, it will be cleared automatically when the variable goes out of scope.  
+5.  If needed, use the CLEAR function \(destroy\) for the top-level object. Otherwise, it will be cleared automatically when the variable goes out of scope.  
   
- You write most of your code during step 4 by using the methods and the properties of the Automation server. The syntax and the semantics of these methods and properties are documented in the documentation for each Automation server. Using these methods and properties in C\/AL does not require any new or changed syntax.  
+ You write most of your code during step 4 by using the methods and the properties of the Automation server. The syntax and the semantics of these methods and properties are documented in the documentation for each Automation server. Using these methods and properties in C/AL does not require any new or changed syntax.  
   
- For examples of creating an Automation controller, see [Walkthrough: Using Automation to Write a Letter in Microsoft Office Word](../Topic/Walkthrough:%20Using%20Automation%20to%20Write%20a%20Letter%20in%20Microsoft%20Office%20Word.md) and [Walkthrough: Using Automation to Create a Graph in Microsoft Excel](../Topic/Walkthrough:%20Using%20Automation%20to%20Create%20a%20Graph%20in%20Microsoft%20Excel.md).  
+ For examples of creating an Automation controller, see [Walkthrough: Using Automation to Write a Letter in Microsoft Office Word](Walkthrough:%20Using%20Automation%20to%20Write%20a%20Letter%20in%20Microsoft%20Office%20Word.md) and [Walkthrough: Using Automation to Create a Graph in Microsoft Excel](Walkthrough:%20Using%20Automation%20to%20Create%20a%20Graph%20in%20Microsoft%20Excel.md).  
   
 ## See Also  
  [Extending Microsoft Dynamics NAV Using COM](Extending-Microsoft-Dynamics-NAV-Using-COM.md)   

@@ -22,7 +22,7 @@ To create and modify client report definition \(RDLC\) report layouts, you must 
   
 -   Before you switch from Report Dataset Designer to Visual Studio Report Designer, save and compile the report.  
   
--   After you update the dataset in Report Dataset Designer, you must refresh the dataset result in Visual Studio Report Designer. On the **View** menu, choose **Report Data**. In the **Report Data** pane, expand **DataSets**, right\-click **DataSet\_Result**, and then choose **Refresh**.  
+-   After you update the dataset in Report Dataset Designer, you must refresh the dataset result in Visual Studio Report Designer. On the **View** menu, choose **Report Data**. In the **Report Data** pane, expand **DataSets**, right-click **DataSet\_Result**, and then choose **Refresh**.  
   
 -   Before you rename a column in Report Dataset Designer, you must close Visual Studio Report Designer.  
   
@@ -69,6 +69,6 @@ To create and modify client report definition \(RDLC\) report layouts, you must 
   
 12. Go to the Visual Studio Report Designer. You see the following message:  “This file has been modified outside of the source editor. Do you want to reload it?” Choose **Yes** or **Yes to All** to reload the changes from Report Dataset Designer into the RDLC report layout.  
   
-13. In Visual Studio, on the **View** menu, choose **Report Data**. In the **Report Data** pane, expand **DataSets**, right\-click **DataSet\_Result**, and then choose **Refresh**. The additional items that you added to the dataset in Report Dataset Designer in the [!INCLUDE[navnow](includes/navnow_md.md)] development environment are displayed in the Visual Studio dataset.  
+13. In Visual Studio, on the **View** menu, choose **Report Data**. In the **Report Data** pane, expand **DataSets**, right-click **DataSet\_Result**, and then choose **Refresh**. The additional items that you added to the dataset in Report Dataset Designer in the [!INCLUDE[navnow](includes/navnow_md.md)] development environment are displayed in the Visual Studio dataset.  
   
 14. You can continue making changes in either Visual Studio Report Designer or Report Dataset Designer without having to close either designer. You must save and compile the report object after you make changes and load the changes into the report object or the RDLC report layout when you are prompted.

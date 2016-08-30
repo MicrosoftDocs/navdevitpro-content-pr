@@ -27,14 +27,14 @@ RecordRef := RecordRef.DUPLICATE
   
  The RecordRef that identifies the record and the table that you want to duplicate.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: RecordRef  
   
 ## Remarks  
  The RecordRef that is returned refers to a new record with the same filters, current keys, and marks as the original RecordRef. Any changes that you make to the filters, current keys, and marks of the new record are not observed in the original. This differs from assigning one RecordRef to another RecordRef. If you assign one RecordRef to another RecordRef, then both refer to the same record and changes that you make to one RecordRef are observed in the other RecordRef.  
   
 ## Example  
- The following example opens table 18 \(Customer\) as a RecordRef variable named RecordRef1 and uses the DUPLICATE function to copy the filters, current keys and marks from RecordRef1 into a new RecordRef variable named RecordRef2. After the DUPLICATE function is executed, the RecordRef1 and RecordRef2 variables are identical. This example requires that you create the following variables and text constant in the **C\/AL Globals** windows.  
+ The following example opens table 18 \(Customer\) as a RecordRef variable named RecordRef1 and uses the DUPLICATE function to copy the filters, current keys and marks from RecordRef1 into a new RecordRef variable named RecordRef2. After the DUPLICATE function is executed, the RecordRef1 and RecordRef2 variables are identical. This example requires that you create the following variables and text constant in the **C/AL Globals** windows.  
   
 |Name|DataType|  
 |----------|--------------|  

@@ -12,7 +12,7 @@ caps.latest.revision: 7
 manager: tsiggaar
 ---
 # SetupComplete2.cmd File Example
-The following code is an example of the SetComplete2.cmd file on a Microsoft Azure virtual machine. When you create an Azure virtual machine that you want to use as an Azure Marketplace image for [!INCLUDE[navnow](includes/navnow_md.md)] deployment, you use the SetComplete2.cmd file to Schedule the second part of SysPrep\-based SQL Server installation on the Azure virtual machine that is created from the image.  
+The following code is an example of the SetComplete2.cmd file on a Microsoft Azure virtual machine. When you create an Azure virtual machine that you want to use as an Azure Marketplace image for [!INCLUDE[navnow](includes/navnow_md.md)] deployment, you use the SetComplete2.cmd file to Schedule the second part of SysPrep-based SQL Server installation on the Azure virtual machine that is created from the image.  
   
  Copy the following code into the SetComplete2.cmd file.  
   
@@ -24,10 +24,10 @@ REM All commands will be executed during first Virtual Machine boot
   
 ```  
   
- For more information about how to use the SetComplete2.cmd file, see [How to: Create a Microsoft Azure Virtual Machine Operating System Image for Microsoft Dynamics NAV](../Topic/How%20to:%20Create%20a%20Microsoft%20Azure%20Virtual%20Machine%20Operating%20System%20Image%20for%20Microsoft%20Dynamics%20NAV.md).  
+ For more information about how to use the SetComplete2.cmd file, see [How to: Create a Microsoft Azure Virtual Machine Operating System Image for Microsoft Dynamics NAV](How%20to:%20Create%20a%20Microsoft%20Azure%20Virtual%20Machine%20Operating%20System%20Image%20for%20Microsoft%20Dynamics%20NAV.md).  
   
 ## See Also  
- [How to: Create a Microsoft Azure Virtual Machine Operating System Image for Microsoft Dynamics NAV](../Topic/How%20to:%20Create%20a%20Microsoft%20Azure%20Virtual%20Machine%20Operating%20System%20Image%20for%20Microsoft%20Dynamics%20NAV.md)   
+ [How to: Create a Microsoft Azure Virtual Machine Operating System Image for Microsoft Dynamics NAV](How%20to:%20Create%20a%20Microsoft%20Azure%20Virtual%20Machine%20Operating%20System%20Image%20for%20Microsoft%20Dynamics%20NAV.md)   
  [SQL Server Sysprep Installation Configuration File Example](SQL-Server-Sysprep-Installation-Configuration-File-Example.md)   
  [Preparing for Deploying Microsoft Dynamics NAV on Microsoft Azure](Preparing-for-Deploying-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
  [Preparing a Microsoft Azure Virtual Machine Image for Microsoft Dynamics NAV](Preparing-a-Microsoft-Azure-Virtual-Machine-Image-for-Microsoft-Dynamics-NAV.md)

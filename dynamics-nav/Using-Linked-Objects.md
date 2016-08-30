@@ -26,7 +26,7 @@ When you are using a linked object, you should take the following into account:
   
 -   The object being linked must have a SQL Server table definition that is compatible with the [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] table definition.  
   
--   A view that cannot be updated in SQL Server \(for example one containing computed\/converted columns or unions\) will also be read\-only if it is used as a linked object from [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)]. With SQL Server 2000, you can write Instead\-Of triggers to define the logic that allows such a view to be updated. This logic is not part of [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)].  
+-   A view that cannot be updated in SQL Server \(for example one containing computed\/converted columns or unions\) will also be read-only if it is used as a linked object from [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)]. With SQL Server 2000, you can write Instead-Of triggers to define the logic that allows such a view to be updated. This logic is not part of [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)].  
   
 ## Rules for Using Linked Objects  
   
@@ -41,7 +41,7 @@ When you are using a linked object, you should take the following into account:
 |Multilanguage views|Multilanguage views are not created or maintained for linked objects.|  
   
 ## Redesigning a Linked Object Table Definition  
- After an object has been linked, [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] treats it like a regular table. However, depending on the object type, SQL Server may prevent certain operations from taking place. For example, a non\-updateable view cannot be updated in [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)], and a SQL Server error message appears if you attempt to do this. The ability to redesign the object from within [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] is limited; these limitations are as follows:  
+ After an object has been linked, [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] treats it like a regular table. However, depending on the object type, SQL Server may prevent certain operations from taking place. For example, a non-updateable view cannot be updated in [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)], and a SQL Server error message appears if you attempt to do this. The ability to redesign the object from within [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] is limited; these limitations are as follows:  
   
 -   The object cannot be renamed by changing the table definition name or the company name.  
   

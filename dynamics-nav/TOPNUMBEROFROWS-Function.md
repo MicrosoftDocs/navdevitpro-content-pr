@@ -29,7 +29,7 @@ Specifies the maximum number of rows to include in the resulting dataset of a qu
 > [!NOTE]  
 >  If you set the value to **0**, then there is no limit and all rows of the dataset are returned.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The number of rows that are included in the dataset.  
@@ -40,7 +40,7 @@ Specifies the maximum number of rows to include in the resulting dataset of a qu
  You can also specify the number of rows to include in the dataset by setting the [TopNumberOfRows Property](TopNumberOfRows-Property.md) in Query Designer. The **TOPNUMBEROFROWS** function will overwrite the **TopNumberOfRows** property setting.  
   
 ## Example  
- The following C\/AL code example demonstrates how to use the **TOPNUMBEROFROWS** function on a query to return the top 10 customer sales orders based on the quantity of items.  
+ The following C/AL code example demonstrates how to use the **TOPNUMBEROFROWS** function on a query to return the top 10 customer sales orders based on the quantity of items.  
   
  This example requires that you do the following:  
   
@@ -50,13 +50,13 @@ Specifies the maximum number of rows to include in the resulting dataset of a qu
   
     -   Includes columns for the **Name** and **No.** fields from the **Customer** table and the **Quantity** field from **Sales Lines** table.  
   
-         For step\-by\-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
+         For step-by-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
   
     -   The [TopNumberOfRows Property](TopNumberOfRows-Property.md) is set to include only the first 5 rows in the resulting dataset. This setting will be overwritten by the TOPNUMBEROFROWS function.  
   
     -   The [OrderBy Property](OrderBy-Property.md) is set on the Quantity column to sort results in descending order.  
   
-2.  Create the following C\/AL variables in the object that will run the query.  
+2.  Create the following C/AL variables in the object that will run the query.  
   
     |Variable name|DataType|Subtype|  
     |-------------------|--------------|-------------|  
@@ -67,8 +67,8 @@ Specifies the maximum number of rows to include in the resulting dataset of a qu
     |------------------------|---------------|  
     |Text000|The top number of rows is: %1|  
   
-## C\/AL Code  
- The following C\/AL code runs the query, saves it as a CSV file, and displays a message that states the number of rows that are returned in the resulting dataset. You can add the code as a codeunit, and then run the codeunit to see the results.  
+## C/AL Code  
+ The following C/AL code runs the query, saves it as a CSV file, and displays a message that states the number of rows that are returned in the resulting dataset. You can add the code as a codeunit, and then run the codeunit to see the results.  
   
 ```  
 // Overwrites the TopNumberOfRows property and returns the first 10 rows in the dataset.  

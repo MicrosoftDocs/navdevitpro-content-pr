@@ -11,7 +11,7 @@ ms.assetid: 1b08e80f-22fd-499b-afea-02f9006c0f04
 caps.latest.revision: 11
 ---
 # ISAUTOMATION Function (Variant)
-Indicates whether a C\/AL variant contains an Automation variable.  
+Indicates whether a C/AL variant contains an Automation variable.  
   
 ## Syntax  
   
@@ -24,13 +24,13 @@ Ok := Variant.ISAUTOMATION
  *Variant*  
  Type: Variant  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the C\/AL variant contains an Automation variable; otherwise, **false**.  
+ **true** if the C/AL variant contains an Automation variable; otherwise, **false**.  
   
 ## Example  
- The following example determines whether a C\/AL variant contains an Automation variable. The MyAutomation variable is assigned to the variant variable that is named MyVariant. The **ISAUTOMATION** function determines whether the variant contains an Automation variable and stores the return value in the varResult variable. In this case, the variant contains an Automation variable so **Yes** is returned and displayed in a message box. The [ISCODE Function \(Variant\)](ISCODE-Function--Variant-.md) determines whether the variant contains a code variable. The return value is **No** because the variant does not contain a code. This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ The following example determines whether a C/AL variant contains an Automation variable. The MyAutomation variable is assigned to the variant variable that is named MyVariant. The **ISAUTOMATION** function determines whether the variant contains an Automation variable and stores the return value in the varResult variable. In this case, the variant contains an Automation variable so **Yes** is returned and displayed in a message box. The [ISCODE Function \(Variant\)](ISCODE-Function--Variant-.md) determines whether the variant contains a code variable. The return value is **No** because the variant does not contain a code. This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

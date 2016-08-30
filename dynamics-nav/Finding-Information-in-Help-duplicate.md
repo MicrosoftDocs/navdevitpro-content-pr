@@ -35,12 +35,12 @@ There are several ways to access Help information in [!INCLUDE[navnow](includes/
 |Help option|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-----------------|---------------------------------------|  
 |[!INCLUDE[navnow](includes/navnow_md.md)] Help|Opens a topic related to the window or page that you are working in.|  
-|Page Notes|Opens the OneNote page that has been shared across a company.<br /><br /> For more information, see [How to: Set up OneNote Integration for a Group of Users](../Topic/How%20to:%20Set%20up%20OneNote%20Integration%20for%20a%20Group%20of%20Users.md).|  
-|About This Page|Provides information about all fields and values that are in the table on which a table or report is based.<br /><br /> For more information, see [How to: View All Table Fields for a Record](../Topic/How%20to:%20View%20All%20Table%20Fields%20for%20a%20Record.md).|  
+|Page Notes|Opens the OneNote page that has been shared across a company.<br /><br /> For more information, see [How to: Set up OneNote Integration for a Group of Users](How%20to:%20Set%20up%20OneNote%20Integration%20for%20a%20Group%20of%20Users.md).|  
+|About This Page|Provides information about all fields and values that are in the table on which a table or report is based.<br /><br /> For more information, see [How to: View All Table Fields for a Record](How%20to:%20View%20All%20Table%20Fields%20for%20a%20Record.md).|  
 |About [!INCLUDE[navnow](includes/navnow_md.md)]|Displays product information, including the version number of [!INCLUDE[navnow](includes/navnow_md.md)].<br /><br /> For more information, see [\($ S\_2091 About $\)](-$-S_2091-About-$-.md).|  
   
 ## [!INCLUDE[navnow](includes/navnow_md.md)] Help Server  
- When you access Help from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)], Help opens in a browser that shows the content from the [!INCLUDE[navnow](includes/navnow_md.md)] Help Server. The [!INCLUDE[navnow](includes/navnow_md.md)] Help Server is a website with a high\-level navigation in the left pane, and a Search box to help you find exactly what you are looking for.  
+ When you access Help from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)], Help opens in a browser that shows the content from the [!INCLUDE[navnow](includes/navnow_md.md)] Help Server. The [!INCLUDE[navnow](includes/navnow_md.md)] Help Server is a website with a high-level navigation in the left pane, and a Search box to help you find exactly what you are looking for.  
   
  The main pane shows the contents of the Help topic.  
   

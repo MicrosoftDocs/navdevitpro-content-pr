@@ -45,6 +45,6 @@ You can expand a transaction log by creating a new transaction log file in the d
      You can either allow the transaction log file to grow without restriction or you must specify a maximum file size. If you do not specify a maximum file size, SQL Server will expand the transaction log file as often as necessary. This expansion is limited only by the available disk space.  
   
 ## See Also  
- [How to: Alter Databases](../Topic/How%20to:%20Alter%20Databases.md)   
- [Altering Databases \- Transaction Log Files Tab](Altering-Databases---Transaction-Log-Files-Tab.md)   
- [How to: Increase the Size of Transaction Log Files](../Topic/How%20to:%20Increase%20the%20Size%20of%20Transaction%20Log%20Files.md)
+ [How to: Alter Databases](How%20to:%20Alter%20Databases.md)   
+ [Altering Databases - Transaction Log Files Tab](Altering-Databases---Transaction-Log-Files-Tab.md)   
+ [How to: Increase the Size of Transaction Log Files](How%20to:%20Increase%20the%20Size%20of%20Transaction%20Log%20Files.md)

@@ -26,7 +26,7 @@ Length := STRLEN(String)
   
  The string for which you want to determine the length.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The length of *String*.  
@@ -39,7 +39,7 @@ Length := STRLEN(String)
 ## Example  
  This example shows the difference between the STRLEN and the MAXSTRLEN functions.  
   
- This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  

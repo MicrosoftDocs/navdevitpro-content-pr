@@ -29,20 +29,20 @@ Finds the first record in a table based on the current key and filter.
   
  If the record is found, it is returned in *RecordRef* and any [FlowFields](FlowFields.md) in the record are set to zero. You must update any FlowFields using [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md).  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the record was found; otherwise, **false**.  
   
- If you omit this optional return value and if the record cannot be found, a run\-time error occurs. If you include a return value, it is assumed that you will handle any errors.  
+ If you omit this optional return value and if the record cannot be found, a run-time error occurs. If you include a return value, it is assumed that you will handle any errors.  
   
 ## Remarks  
- You should use this function instead of FIND\('\-'\) when you need only the first record.  
+ You should use this function instead of FIND\('-'\) when you need only the first record.  
   
  You should use this function only when you explicitly want to find the first record in a table or set. Do not use this function in combination with REPEAT..UNTIL.  
   
 ## Example  
- The following example opens the Item table \(27\) as a RecordRef variable that is named ItemRecref. The FINDFIRST function searches for the first record in the table. If the record is found, the description and unit price of the item in the record are displayed in a message box. Otherwise, a message that indicates that the first item was not found is displayed. This example requires that you create the following variable and text constant in the **C\/AL Globals** window.  
+ The following example opens the Item table \(27\) as a RecordRef variable that is named ItemRecref. The FINDFIRST function searches for the first record in the table. If the record is found, the description and unit price of the item in the record are displayed in a message box. Otherwise, a message that indicates that the first item was not found is displayed. This example requires that you create the following variable and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

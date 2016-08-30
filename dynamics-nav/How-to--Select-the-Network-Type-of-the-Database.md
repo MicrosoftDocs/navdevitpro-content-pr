@@ -20,10 +20,10 @@ The default setting allows \($ P\_1 Product Name $\) to connect to a server usin
   
 2.  Choose the **Advanced** tab.  
   
-3.  In the **Net Type** field, choose the drop\-down arrow to select one of the network types:  **Default**, **Named Pipes**, or **TCP\/IP Sockets**.  
+3.  In the **Net Type** field, choose the drop-down arrow to select one of the network types:  **Default**, **Named Pipes**, or **TCP\/IP Sockets**.  
   
 4.  Choose the **OK** button to save your selection and close the window.  
   
 ## See Also  
  [\($ S\_2335 Open Database $\)](-$-S_2335-Open-Database-$-.md)   
- [Troubleshooting: SQL Server Connection Problems](../Topic/Troubleshooting:%20SQL%20Server%20Connection%20Problems.md)
+ [Troubleshooting: SQL Server Connection Problems](Troubleshooting:%20SQL%20Server%20Connection%20Problems.md)

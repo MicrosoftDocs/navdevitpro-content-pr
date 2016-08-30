@@ -77,11 +77,11 @@ This walkthrough demonstrates how to add a Cue on the [!INCLUDE[rtc](includes/rt
   
 #### To add the Cue data field as a FlowField with filters  
   
-1.  In Table Designer, in the next empty row, in **Field Name**, enter **Sales Invoices \- Open** and set the **Data type** to **Integer**.  
+1.  In Table Designer, in the next empty row, in **Field Name**, enter **Sales Invoices - Open** and set the **Data type** to **Integer**.  
   
      This defines the **Cue** data field.  
   
-2.  Select the **Sales Invoices \- Open** field row, and then on the **View** menu, choose **Properties**.  
+2.  Select the **Sales Invoices - Open** field row, and then on the **View** menu, choose **Properties**.  
   
 3.  In the **Properties** window, set the **FieldClass** property to **FlowField**.  
   
@@ -93,13 +93,13 @@ This walkthrough demonstrates how to add a Cue on the [!INCLUDE[rtc](includes/rt
   
 7.  In the first line of the **Table Filter** window, choose the up arrow.  
   
-8.  In the **Sales Header \- Field List** window, select **Document Type**, and then choose **OK** to return to the **Table Filter** window.  
+8.  In the **Sales Header - Field List** window, select **Document Type**, and then choose **OK** to return to the **Table Filter** window.  
   
 9. In the **Document Type** row, set the **Type** column to **FILTER** and enter **Invoice** in the **Value** column. This filters the **Sales Header** table on sales invoices.  
   
 10. On the next empty row, and in the **Field** column, choose the up arrow.  
   
-11. In the **Sales Header \- Field List** window, select **Status**, and then choose the **OK** button to return to the **Table Filter** window  
+11. In the **Sales Header - Field List** window, select **Status**, and then choose the **OK** button to return to the **Table Filter** window  
   
 12. In the **Status** row, set the **Type** column to **FILTER** and enter **Open** in the **Value** column. This filters the **Sales Header** table on open sales invoices.  
   
@@ -108,7 +108,7 @@ This walkthrough demonstrates how to add a Cue on the [!INCLUDE[rtc](includes/rt
      ![Shows the table filter setup for a Cue](media/NAVRTCCueTableFilterExample.PNG "NAVRTCCueTableFilterExample")  
   
     > [!IMPORTANT]  
-    >  You cannot define a table filter that filters explicitly on a date because you will get an error when you try to open the Cue group in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For example, you cannot define a field that has the **Type** set to **CONST** or **FILTER** and the **Value** set to 21\/03\/2011. If you do, when you try to open the Cue group from the page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], you get an error that states that ‘2011\-03\-21’ is not a valid date.  
+    >  You cannot define a table filter that filters explicitly on a date because you will get an error when you try to open the Cue group in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For example, you cannot define a field that has the **Type** set to **CONST** or **FILTER** and the **Value** set to 21\/03\/2011. If you do, when you try to open the Cue group from the page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], you get an error that states that ‘2011-03-21’ is not a valid date.  
   
 13. Choose the **OK** button until you return to the **Properties** window, and then close the **Properties** window to return to Table Designer.  
   
@@ -128,7 +128,7 @@ This walkthrough demonstrates how to add a Cue on the [!INCLUDE[rtc](includes/rt
 5.  Choose the **OK** button.  
   
 ##  <a name="CueCardPage"></a> Creating a Cue on a Card Page for the Role Center  
- To display the Sales Invoices \- Open Cue on the Role Center, Viktor creates a CardPart page type that has a **CueGroup** control that includes the **Sales Invoices – Open** field of the **Sales Cue** table. Viktor also needs to initialize the data field on the Cue with a record, so he adds code to the OnOpenPage trigger of the CardPart page type.  
+ To display the Sales Invoices - Open Cue on the Role Center, Viktor creates a CardPart page type that has a **CueGroup** control that includes the **Sales Invoices – Open** field of the **Sales Cue** table. Viktor also needs to initialize the data field on the Cue with a record, so he adds code to the OnOpenPage trigger of the CardPart page type.  
   
 > [!IMPORTANT]  
 >  The **CaptionClass** property on a field in a **CueGroup** is not supported.  
@@ -178,15 +178,15 @@ This walkthrough demonstrates how to add a Cue on the [!INCLUDE[rtc](includes/rt
   
      ![Shows Page Designer setup for a Cue](media/NAVRTCCuePageDesignerExample.png "NAVRTCCuePageDesignerExample")  
   
-5.  To create a link from the Cue to the **Sales Invoice List** page for displaying the open invoices, select the **Sales Invoices \- Open** field row, and then on the **View** menu, choose **Properties**.  
+5.  To create a link from the Cue to the **Sales Invoice List** page for displaying the open invoices, select the **Sales Invoices - Open** field row, and then on the **View** menu, choose **Properties**.  
   
 6.  In the **Properties** window, set the **DrillDownPageID** property to **Sales Invoice List** \(9301\) and choose the **OK** button.  
   
 7.  Close the **Properties** window.  
   
-8.  To initialize the Cue with a record when the page opens, you must add code to the page's OnOpenPage trigger. In Page Designer, select an empty row, and then on the **View** menu, choose **C\/AL Code**.  
+8.  To initialize the Cue with a record when the page opens, you must add code to the page's OnOpenPage trigger. In Page Designer, select an empty row, and then on the **View** menu, choose **C/AL Code**.  
   
-9. In the **C\/AL Editor**, add the following code in the OnOpenPage trigger:  
+9. In the **C/AL Editor**, add the following code in the OnOpenPage trigger:  
   
     ```  
     RESET;  
@@ -196,7 +196,7 @@ This walkthrough demonstrates how to add a Cue on the [!INCLUDE[rtc](includes/rt
     END;  
     ```  
   
-10. Close the **C\/AL Editor**.  
+10. Close the **C/AL Editor**.  
   
 #### To save the Sales Invoice Cue CardPart page  
   
@@ -224,7 +224,7 @@ This walkthrough demonstrates how to add a Cue on the [!INCLUDE[rtc](includes/rt
   
 1.  In Object Designer, select the **Sales Cue** page, and choose the **Design** button.  
   
-     Select the row that contains the **CueGroup** control **Sales** that contains the **Sales Invoices \- Open** Cue field.  
+     Select the row that contains the **CueGroup** control **Sales** that contains the **Sales Invoices - Open** Cue field.  
   
 2.  On the **View** menu, choose **Control Actions**.  
   
@@ -269,10 +269,10 @@ This walkthrough demonstrates how to add a Cue on the [!INCLUDE[rtc](includes/rt
   
 10. On the **File** menu, choose **Save** to save the page.  
   
-11. In Object Designer, with the **Order Processor Role Center** page selected, choose **Run**. Notice that the **Sales Invoice Cue** part is displayed in the **Role Center \- Order Processor Role Center** column and above the **Connect Online** part.  
+11. In Object Designer, with the **Order Processor Role Center** page selected, choose **Run**. Notice that the **Sales Invoice Cue** part is displayed in the **Role Center - Order Processor Role Center** column and above the **Connect Online** part.  
   
 ## See Also  
  [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
  [Pages Overview](Pages-Overview.md)   
- [Tables\-duplicate 20](Tables-duplicate-20.md)   
- [Walkthrough: Creating a Role Center](../Topic/Walkthrough:%20Creating%20a%20Role%20Center.md)
+ [Tables-duplicate 20](Tables-duplicate-20.md)   
+ [Walkthrough: Creating a Role Center](Walkthrough:%20Creating%20a%20Role%20Center.md)

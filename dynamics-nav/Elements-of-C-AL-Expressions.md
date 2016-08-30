@@ -12,7 +12,7 @@ caps.latest.revision: 6
 manager: edupont
 ---
 # Elements of C-AL Expressions
-All expressions in C\/AL are built from the following:  
+All expressions in C/AL are built from the following:  
   
 -   Constants  
   
@@ -26,13 +26,13 @@ All expressions in C\/AL are built from the following:
   
  The topics in this section describe each of these elements:  
   
--   [C\-AL Constants](C-AL-Constants.md)  
+-   [C-AL Constants](C-AL-Constants.md)  
   
--   [C\-AL Variables](C-AL-Variables.md)  
+-   [C-AL Variables](C-AL-Variables.md)  
   
--   [C\-AL Operators](C-AL-Operators.md)  
+-   [C-AL Operators](C-AL-Operators.md)  
   
--   [C\-AL Function Calls](C-AL-Function-Calls.md)  
+-   [C-AL Function Calls](C-AL-Function-Calls.md)  
   
 ## See Also  
- [C\-AL Reserved Words](C-AL-Reserved-Words.md)
+ [C-AL Reserved Words](C-AL-Reserved-Words.md)

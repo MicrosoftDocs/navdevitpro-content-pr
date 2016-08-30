@@ -26,7 +26,7 @@ Value := FieldRef.GETRANGEMAX
   
  Refers to the current field.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: depends on the field referred to by the FieldRef.  
   
  Contains the maximum value of the range set for the field referred to by the FieldRef.  
@@ -37,7 +37,7 @@ Value := FieldRef.GETRANGEMAX
  This function is like the [GETRANGEMAX Function \(Record\)](GETRANGEMAX-Function--Record-.md) function.  
   
 ## Example  
- The following example opens the Customer table as RecordRef variable, creates a FieldRef for the first field \(No.\) and stores the reference in the MyFieldRef variable. The [SETFILTER Function \(FieldRef\)](SETFILTER-Function--FieldRef-.md) sets a filter that selects records in the range 10000 to 40000 from the No. field. The GETRANGEMAX function retrieves and stores the maximum value that was set in the filter, stores the value in the varMax variable and displays it in a message box. The varMax variable contains 40000 which is the maximum value that is set in the filter. This example requires that you create the following variables and text constant in the **C\/AL Globals** windows.  
+ The following example opens the Customer table as RecordRef variable, creates a FieldRef for the first field \(No.\) and stores the reference in the MyFieldRef variable. The [SETFILTER Function \(FieldRef\)](SETFILTER-Function--FieldRef-.md) sets a filter that selects records in the range 10000 to 40000 from the No. field. The GETRANGEMAX function retrieves and stores the maximum value that was set in the filter, stores the value in the varMax variable and displays it in a message box. The varMax variable contains 40000 which is the maximum value that is set in the filter. This example requires that you create the following variables and text constant in the **C/AL Globals** windows.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

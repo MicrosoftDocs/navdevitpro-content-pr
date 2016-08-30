@@ -11,11 +11,11 @@ ms.assetid: 490ff91d-fc9e-4c80-bfc7-00e5ae87d24f
 caps.latest.revision: 28
 ---
 # Managing Microsoft Dynamics NAV Server Instances
-This topic describes how to work with [!INCLUDE[nav_server](includes/nav_server_md.md)] instances in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] and in the Services MMC snap\-in. For more information about how to create a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, see [How to: Create a Microsoft Dynamics NAV Server Instance](../Topic/How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md). For more information about the settings that you can configure in a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, see [Microsoft Dynamics NAV Server Settings](Microsoft-Dynamics-NAV-Server-Settings.md).  
+This topic describes how to work with [!INCLUDE[nav_server](includes/nav_server_md.md)] instances in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] and in the Services MMC snap-in. For more information about how to create a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, see [How to: Create a Microsoft Dynamics NAV Server Instance](How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md). For more information about the settings that you can configure in a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, see [Microsoft Dynamics NAV Server Settings](Microsoft-Dynamics-NAV-Server-Settings.md).  
   
  Each [!INCLUDE[nav_server](includes/nav_server_md.md)] instance on a computer runs as a separate Windows service and can run under a separate computer account, which is the Service Account.  
   
- In addition to the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], you can use the Services snap\-in, which is included in **Control Panel**, to see the [!INCLUDE[nav_server](includes/nav_server_md.md)] instances on the computer. To open the Services snap\-in, choose the **Start** menu, in the Search box type **Services**, and then choose the related link. Each instance name begins with **Microsoft Dynamics NAV Server**. The default instance is identified as **[!INCLUDE[nav_server](includes/nav_server_md.md)]\[[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\]**. Any instances that you create are identified by **[!INCLUDE[nav_server](includes/nav_server_md.md)]**, following by the instance name in brackets. For example, if you create a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and name it **Denmark**, the Services snap\-in shows the following instances:  
+ In addition to the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], you can use the Services snap-in, which is included in **Control Panel**, to see the [!INCLUDE[nav_server](includes/nav_server_md.md)] instances on the computer. To open the Services snap-in, choose the **Start** menu, in the Search box type **Services**, and then choose the related link. Each instance name begins with **Microsoft Dynamics NAV Server**. The default instance is identified as **[!INCLUDE[nav_server](includes/nav_server_md.md)]\[[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\]**. Any instances that you create are identified by **[!INCLUDE[nav_server](includes/nav_server_md.md)]**, following by the instance name in brackets. For example, if you create a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and name it **Denmark**, the Services snap-in shows the following instances:  
   
 -   **[!INCLUDE[nav_server](includes/nav_server_md.md)]\[[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\]**  
   
@@ -40,7 +40,7 @@ This topic describes how to work with [!INCLUDE[nav_server](includes/nav_server_
   
  You should recognize and understand the difference between server instances and service types.  
   
- A *server instance* is a distinct service in Windows and is the middle tier in the [!INCLUDE[navnow](includes/navnow_md.md)] three\-tier architecture. For more information, see [Product and Architecture Overview](Product-and-Architecture-Overview.md).  
+ A *server instance* is a distinct service in Windows and is the middle tier in the [!INCLUDE[navnow](includes/navnow_md.md)] three-tier architecture. For more information, see [Product and Architecture Overview](Product-and-Architecture-Overview.md).  
   
  A *service type* is a category within a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
   
@@ -53,5 +53,5 @@ This topic describes how to work with [!INCLUDE[nav_server](includes/nav_server_
  To disable a service type, clear the **Enable** property on the relevant tab. The only service type that does not have an **Enable** property is NAS Services. To disable NAS Services, set **Startup Codeunit** on the **NAS Services** tab to **0**. For more information, see [Configuring NAS Services](Configuring-NAS-Services.md).  
   
 ## See Also  
- [How to: Configure a Microsoft Dynamics NAV Server Instance](../Topic/How%20to:%20Configure%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)   
- [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](../Topic/How%20to:%20Start,%20Stop,%20Restart,%20or%20Remove%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)
+ [How to: Configure a Microsoft Dynamics NAV Server Instance](How%20to:%20Configure%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)   
+ [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How%20to:%20Start,%20Stop,%20Restart,%20or%20Remove%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)

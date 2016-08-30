@@ -21,7 +21,7 @@ This walkthrough describes how you can use OData to expose a [!INCLUDE[navnowlon
   
 -   Verifying web service availability from a browser.  
   
--   Using the PowerPivot add\-in for Excel to import the table data as a new worksheet.  
+-   Using the PowerPivot add-in for Excel to import the table data as a new worksheet.  
   
      This procedure also includes optional instructions about how to use a web service access key.  
   
@@ -34,7 +34,7 @@ This walkthrough describes how you can use OData to expose a [!INCLUDE[navnowlon
   
 -   [!INCLUDE[demolong](includes/demolong_md.md)].  
   
--   Excel 2013 with the PowerPivot add\-in enabled. For more information, see [Download PowerPivot page](http://go.microsoft.com/fwlink/?LinkId=200002).  
+-   Excel 2013 with the PowerPivot add-in enabled. For more information, see [Download PowerPivot page](http://go.microsoft.com/fwlink/?LinkId=200002).  
   
 -   Optionally, if you want to use a web service access key to authenticate access to the web service, [!INCLUDE[navnow](includes/navnow_md.md)] must meet the following requirements:  
   
@@ -61,7 +61,7 @@ This walkthrough describes how you can use OData to expose a [!INCLUDE[navnowlon
   
 5.  Select the check box in the **Published** column.  
   
-6.  Choose the **OK** button to close the **New \- Web Services** page.  
+6.  Choose the **OK** button to close the **New - Web Services** page.  
   
 ## Verifying the Web Service’s Availability  
   
@@ -127,7 +127,7 @@ This walkthrough describes how you can use OData to expose a [!INCLUDE[navnowlon
   
 8.  After you see the **Success** message, choose the **Close** button.  
   
- The data from the **Customer** OData web service displays, and you can use the data to build pivot\-based views in the Excel workbook.  
+ The data from the **Customer** OData web service displays, and you can use the data to build pivot-based views in the Excel workbook.  
   
 ## Creating a PivotTable Containing Key [!INCLUDE[navnow](includes/navnow_md.md)] Data  
  In this procedure, you use the Excel workbook with data from the **Customer** web service to create a PivotTable from the worksheet. You select relevant fields and then organize and format the data to highlight strategic data. Building a pivot table is a way to select and arrange data so as to highlight and focus on key elements.  
@@ -180,7 +180,7 @@ This walkthrough describes how you can use OData to expose a [!INCLUDE[navnowlon
   
 -   Post the data in a Microsoft SharePoint environment with live data from [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
   
- For more information about how to use [!INCLUDE[navnow](includes/navnow_md.md)] data with PowerPivot information, see [Walkthrough: Combining Data from Microsoft Dynamics NAV Queries and Pages with Data from Azure DataMarket \(OData\)](../Topic/Walkthrough:%20Combining%20Data%20from%20Microsoft%20Dynamics%20NAV%20Queries%20and%20Pages%20with%20Data%20from%20Azure%20DataMarket%20\(OData\).md).  
+ For more information about how to use [!INCLUDE[navnow](includes/navnow_md.md)] data with PowerPivot information, see [Walkthrough: Combining Data from Microsoft Dynamics NAV Queries and Pages with Data from Azure DataMarket \(OData\)](Walkthrough:%20Combining%20Data%20from%20Microsoft%20Dynamics%20NAV%20Queries%20and%20Pages%20with%20Data%20from%20Azure%20DataMarket%20\(OData\).md).  
   
 ## See Also  
  [Web Service Walkthroughs](Web-Service-Walkthroughs.md)   

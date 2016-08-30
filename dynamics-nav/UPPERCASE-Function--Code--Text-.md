@@ -27,7 +27,7 @@ NewString := UPPERCASE(String)
   
  The string that you want to convert to uppercase.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text constant or code  
   
  The resulting string after it has been converted to uppercase.  
@@ -35,7 +35,7 @@ NewString := UPPERCASE(String)
 ## Example  
  The following example shows how to use the **UPPERCASE** function.  
   
- This example requires that you create the following text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following text constants in the **C/AL Globals** window.  
   
 |Text constant|ConstValue|  
 |-------------------|----------------|  
@@ -52,7 +52,7 @@ MESSAGE(Text002, Upper);
   
  The first message window displays the following:  
   
- **The test\-string before UPPERCASE is called:**  
+ **The test-string before UPPERCASE is called:**  
   
  **Outstanding Order Status**  
   

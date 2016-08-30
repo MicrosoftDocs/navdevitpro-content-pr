@@ -12,7 +12,7 @@ caps.latest.revision: 8
 manager: edupont
 ---
 # ISTRANSACTIONTYPE Function (Variant)
-Indicates whether a C\/AL variant contains a Transaction\\Type variable.  
+Indicates whether a C/AL variant contains a Transaction\\Type variable.  
   
 ## Syntax  
   
@@ -25,10 +25,10 @@ Ok := Variant.ISTRANSACTIONTYPE
  *Variant*  
  Type: Variant  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the C\/AL variant contains a TransactionType variable; otherwise, **false**.  
+ **true** if the C/AL variant contains a TransactionType variable; otherwise, **false**.  
   
 ## See Also  
  [Variant Data Type](Variant-Data-Type.md)

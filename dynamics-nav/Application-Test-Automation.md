@@ -11,7 +11,7 @@ ms.assetid: 54287f24-da52-4e74-97f5-06b934a53728
 caps.latest.revision: 6
 ---
 # Application Test Automation
-You can write application tests in C\/AL and run them individually or collectively. The [!INCLUDE[navnow](includes/navnow_md.md)] product media includes a folder with application objects that form a library of application tests, helper functions, and test runners so you can automate your application tests. For example, use the application test libraries to verify your application after upgrading to the latest release of [!INCLUDE[navnow](includes/navnow_md.md)].  
+You can write application tests in C/AL and run them individually or collectively. The [!INCLUDE[navnow](includes/navnow_md.md)] product media includes a folder with application objects that form a library of application tests, helper functions, and test runners so you can automate your application tests. For example, use the application test libraries to verify your application after upgrading to the latest release of [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 ## Application Test Toolkit  
  The **TestToolkit** folder on the [!INCLUDE[navnow](includes/navnow_md.md)] product media includes three .fob files:  
@@ -19,16 +19,16 @@ You can write application tests in C\/AL and run them individually or collective
 |Name|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |----------|---------------------------------------|  
 |CALTestCodeunits.W1.fob|Contains codeunits with test functions to test various application areas.<br /><br /> The tests in this .fob file depend on the test libraries in the CALTestLibraries.W1.fob file. You must import the objects from all three files in order to use the application tests.|  
-|CALTestLibraries.W1.fob|Contains codeunits with generic and application\-specific functions to reduce duplication of test code.|  
+|CALTestLibraries.W1.fob|Contains codeunits with generic and application-specific functions to reduce duplication of test code.|  
 |CALTestRunner.fob|Contains application objects for running application tests, include the CAL Test Tool page and other objects that support the application tests.|  
   
 > [!NOTE]  
->  The file names in the table are for the default version of [!INCLUDE[navnow](includes/navnow_md.md)]. The product media for the country\-\/region specific versions of [!INCLUDE[navnow](includes/navnow_md.md)] contain files that are relevant for that country\/region.  
+>  The file names in the table are for the default version of [!INCLUDE[navnow](includes/navnow_md.md)]. The product media for the country-\/region specific versions of [!INCLUDE[navnow](includes/navnow_md.md)] contain files that are relevant for that country\/region.  
   
 ### Describing Your Tests  
- To help you design the relevant tests for your functionality, you can write scenarios that outline what you want to test, and you can write test criteria in the GIVEN\-WHEN\-THEN format. By adding comments based on feature, scenario, and GIVEN\-WHEN\-THEN, you add structure to your test code and make tests readable.  
+ To help you design the relevant tests for your functionality, you can write scenarios that outline what you want to test, and you can write test criteria in the GIVEN-WHEN-THEN format. By adding comments based on feature, scenario, and GIVEN-WHEN-THEN, you add structure to your test code and make tests readable.  
   
- With this structure, you can analyze your functional coverage, such as which behavior you covered for each feature. When you can parse test code for defined tags, you have a human\-readable description \(XML or structured text\) of the automated scenarios without unnecessary details of test implementation that tells you the purpose of the test. You can provide the owner of the business functionality with this description and include it in a global tree of scenarios supported by your solution.  
+ With this structure, you can analyze your functional coverage, such as which behavior you covered for each feature. When you can parse test code for defined tags, you have a human-readable description \(XML or structured text\) of the automated scenarios without unnecessary details of test implementation that tells you the purpose of the test. You can provide the owner of the business functionality with this description and include it in a global tree of scenarios supported by your solution.  
   
  When you have established the test criteria, you can write the test code itself. If you add the test criteria to the test code as comments, you can always refer to the test criteria, and it is easy to get an overview of what the test does.  
   
@@ -62,8 +62,8 @@ You can write application tests in C\/AL and run them individually or collective
 // [SCENARIO 12345] [Deferral Code] Annie can apply a deferral template to a purchase order.  
 ```  
   
-#### GIVEN\-WHEN\-THEN Tags  
- The GIVEN\-WHEN\-THEN tags provide a framework for the specific test criteria.  
+#### GIVEN-WHEN-THEN Tags  
+ The GIVEN-WHEN-THEN tags provide a framework for the specific test criteria.  
   
 |Tag|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------|---------------------------------------|  
@@ -71,7 +71,7 @@ You can write application tests in C\/AL and run them individually or collective
 |WHEN|Describes the action under test.<br /><br /> A test is to test one thing. There should be only one WHEN in a test. It is the line of code that changes state of something that we are going to verify. If you feel a need to add more than one WHEN followed by different verification, you should split this test in two or more tests.|  
 |THEN|Describes what is verified by the test.<br /><br /> All tests must have a verification part. If there is no verification, the test does not test anything. You can add more than one THEN tag.|  
   
- The following example illustrates a use of the GIVEN\-WHEN\-THEN format:  
+ The following example illustrates a use of the GIVEN-WHEN-THEN format:  
   
 ```  
 [GIVEN] The credit limit approval workflow is enabled.  
@@ -81,11 +81,11 @@ You can write application tests in C\/AL and run them individually or collective
 ```  
   
 #### Putting It All Together  
- For an example of how you can use the \[FEATURE\], \[SCENARIO\], and GIVEN\-WHEN\-THEN tags, see [Walkthrough: Testing Purchase Invoice Discounts](../Topic/Walkthrough:%20Testing%20Purchase%20Invoice%20Discounts.md). You can also search for \[FEATURE\] or \[SCENARIO\] in the test codeunits that are available on [!INCLUDE[navnowlong](includes/navnowlong_md.md)] product media.  
+ For an example of how you can use the \[FEATURE\], \[SCENARIO\], and GIVEN-WHEN-THEN tags, see [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough:%20Testing%20Purchase%20Invoice%20Discounts.md). You can also search for \[FEATURE\] or \[SCENARIO\] in the test codeunits that are available on [!INCLUDE[navnowlong](includes/navnowlong_md.md)] product media.  
   
 ## See Also  
- [How to: Create a Test Runner Codeunit](../Topic/How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md)   
- [Walkthrough: Testing Purchase Invoice Discounts](../Topic/Walkthrough:%20Testing%20Purchase%20Invoice%20Discounts.md)   
+ [How to: Create a Test Runner Codeunit](How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md)   
+ [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough:%20Testing%20Purchase%20Invoice%20Discounts.md)   
  [Random Test Data](Random-Test-Data.md)   
  [Testing the Application](Testing-the-Application.md)   
  [\($ N\_9990 Code Coverage $\)](-$-N_9990-Code-Coverage-$-.md)

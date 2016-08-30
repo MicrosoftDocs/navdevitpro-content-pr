@@ -12,7 +12,7 @@ caps.latest.revision: 18
 manager: edupont
 ---
 # UPDATE Function (Dialog)
-Updates the value of a '\#'\-or '@' field in the active window.  
+Updates the value of a '\#'-or '@' field in the active window.  
   
 ## Syntax  
   
@@ -35,7 +35,7 @@ Dialog.UPDATE([Number] [, Value1])
  *Value*  
  Type: Any  
   
- This value or expression can be any simple C\/AL data type such as Boolean, Option, Integer, Decimal, Date, Time, Text, and Code. If you omit this value, then the value from the variable in the [OPEN Function \(Dialog\)](OPEN-Function--Dialog-.md) call is used.  
+ This value or expression can be any simple C/AL data type such as Boolean, Option, Integer, Decimal, Date, Time, Text, and Code. If you omit this value, then the value from the variable in the [OPEN Function \(Dialog\)](OPEN-Function--Dialog-.md) call is used.  
   
 ## Remarks  
  This function is not supported by [!INCLUDE[nav_web](includes/nav_web_md.md)].  
@@ -49,7 +49,7 @@ Dialog.UPDATE([Number] [, Value1])
 ## Example  
  The following example shows how to update '\#' fields in a window.  
   
- This code example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This code example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  

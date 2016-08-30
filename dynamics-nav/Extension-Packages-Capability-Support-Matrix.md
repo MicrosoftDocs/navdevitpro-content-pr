@@ -32,7 +32,7 @@ An extension package can contain both new and modified objects. In [!INCLUDE[nav
  You cannot add or modify any other object types in this version. Also, you cannot delete any existing objects.  
   
 > [!IMPORTANT]  
->  You cannot modify any existing C\/AL code, including code in codeunits and in triggers on existing objects. If you want to modify existing code, use the new C\/AL eventing model. This restriction is only on existing code and objects. New pages, tables, and so on, can contain C\/AL code as it is considered part of the new object.  
+>  You cannot modify any existing C/AL code, including code in codeunits and in triggers on existing objects. If you want to modify existing code, use the new C/AL eventing model. This restriction is only on existing code and objects. New pages, tables, and so on, can contain C/AL code as it is considered part of the new object.  
   
 ## Restricted Properties  
  There are restrictions on certain property changes for modified objects. The following sections list the properties you cannot change. The cmdlets that create and install packages will halt with errors if any of these properties are changed in your extension.  

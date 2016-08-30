@@ -32,12 +32,12 @@ Selects a key for a table.
   
  One or more fields that identify the key that you want to select.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the key was selected; otherwise, **false**.  
   
- If you omit this optional return value and if the key cannot be found, then a run\-time error occurs. If you include a return value, then you must handle any errors.  
+ If you omit this optional return value and if the key cannot be found, then a run-time error occurs. If you include a return value, then you must handle any errors.  
   
 ## Remarks  
  **SETCURRENTKEY** is used to select a key for a record and set the sort order that is used for the table in question. This key becomes the current key and is used by the [FIND Function \(Record\)](FIND-Function--Record-.md), the [NEXT Function \(Record\)](NEXT-Function--Record-.md), and other functions until another key is selected. Until this function is called, the table's primary key is used as the current key.  
@@ -54,9 +54,9 @@ Selects a key for a table.
   
     -   If the field that you specify is the first component of several keys, then the key that is selected is the first one that matches, which may not be the key that you expect.  
   
--   If no keys can be found that include the field\(s\) that you specify, then a run\-time error occurs unless you test the Boolean return value of **SETCURRENTKEY** in your code.  
+-   If no keys can be found that include the field\(s\) that you specify, then a run-time error occurs unless you test the Boolean return value of **SETCURRENTKEY** in your code.  
   
--   If you do test the return value, then you must decide what to do if the function returns **false**, because without a run\-time error, the application continues to run even though no key was found and may fail later.  
+-   If you do test the return value, then you must decide what to do if the function returns **false**, because without a run-time error, the application continues to run even though no key was found and may fail later.  
   
 -   Use only the necessary key fields in a call to **SETCURRENTKEY**. If the definition of the key includes the fields that you specify in the call to **SETCURRENTKEY** in the order given, then you can change the definition of the key without having to change any code. If the table order is not important, then consider one of the following:  
   
@@ -75,7 +75,7 @@ Selects a key for a table.
 MyCustomer.SETCURRENTKEY(Name);  
 ```  
   
- This statement selects the Name key for the **Customer** table. If the key cannot be found, a run\-time error occurs.  
+ This statement selects the Name key for the **Customer** table. If the key cannot be found, a run-time error occurs.  
   
 ## Example  
  This example shows how to use the **SETCURRENTKEY** function with a return value.  
@@ -100,7 +100,7 @@ ELSE
   MESSAGE(Text001);  
 ```  
   
- By including a return value, you can avoid a run\-time error if a key cannot be found.  
+ By including a return value, you can avoid a run-time error if a key cannot be found.  
   
 ## See Also  
  [Record Data Type](Record-Data-Type.md)

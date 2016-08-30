@@ -36,4 +36,4 @@ This procedure describes how to modify Windows Firewall to allow inbound communi
   
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
- [How to: Install the Web Server Components](../Topic/How%20to:%20Install%20the%20Web%20Server%20Components.md)
+ [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md)

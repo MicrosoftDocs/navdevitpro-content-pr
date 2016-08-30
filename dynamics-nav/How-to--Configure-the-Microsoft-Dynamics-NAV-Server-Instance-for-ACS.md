@@ -43,7 +43,7 @@ You configure your [!INCLUDE[nav_server](includes/nav_server_md.md)] instance fo
   
 6.  Restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
   
- The next steps are to configure your clients for ACS. For more information, see [How to: Configure the Microsoft Dynamics NAV Windows Client for ACS](../Topic/How%20to:%20Configure%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client%20for%20ACS.md) and [How to: Configure the Microsoft Dynamics NAV Web Client for ACS](../Topic/How%20to:%20Configure%20the%20Microsoft%20Dynamics%20NAV%20Web%20Client%20for%20ACS.md).  
+ The next steps are to configure your clients for ACS. For more information, see [How to: Configure the Microsoft Dynamics NAV Windows Client for ACS](How%20to:%20Configure%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client%20for%20ACS.md) and [How to: Configure the Microsoft Dynamics NAV Web Client for ACS](How%20to:%20Configure%20the%20Microsoft%20Dynamics%20NAV%20Web%20Client%20for%20ACS.md).  
   
 ## See Also  
  [Configure Microsoft Dynamics NAV Components for ACS](Configure-Microsoft-Dynamics-NAV-Components-for-ACS.md)

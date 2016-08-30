@@ -14,7 +14,7 @@ manager: edupont
 # Setting Up Colored Indicators on Cues by Using Codeunit 1
 Codeunit 1 Application Management includes the **GetCueStyle** trigger that enables you to set up Cues with indicators that change color based on the value in the Cue.  
   
- The **GetCueStyle** trigger provides a more dynamic way of setting up colored indicators than using the Style and StyleExpr field properties. For example, the [!INCLUDE[demolong](includes/demolong_md.md)] uses the **GetCueStyle** trigger, together with various pages, tables and codeunits, to give end\-users the capability to set up colored indicators directly from the [!INCLUDE[navnow](includes/navnow_md.md)] client.  
+ The **GetCueStyle** trigger provides a more dynamic way of setting up colored indicators than using the Style and StyleExpr field properties. For example, the [!INCLUDE[demolong](includes/demolong_md.md)] uses the **GetCueStyle** trigger, together with various pages, tables and codeunits, to give end-users the capability to set up colored indicators directly from the [!INCLUDE[navnow](includes/navnow_md.md)] client.  
   
 ## GetCueStyle Trigger Overview  
  By default, **GetCueStyle** trigger has the following definition in codeunit **1 Application Management**.  
@@ -36,7 +36,7 @@ Codeunit 1 Application Management includes the **GetCueStyle** trigger that enab
 |CueValue|The calculated value in the Cue that is stored in the table field at runtime.|  
   
 ### Return Value  
- The **GetCueStyle** trigger returns a value that has the data type **Text**. To set the colored indicator, you add C\/AL code that sets the return value to one of the following values.  
+ The **GetCueStyle** trigger returns a value that has the data type **Text**. To set the colored indicator, you add C/AL code that sets the return value to one of the following values.  
   
 |Value|Color|  
 |-----------|-----------|  
@@ -66,13 +66,13 @@ ELSE
     Color := 'Ambiguous';  
 ```  
   
- To see how you can achieve the same results by using the **Style** and **StyleExpr** properties for comparison, see [How to: Set Up Colored Indicators on Cues by Using the Style and StyleExpr Property](../Topic/How%20to:%20Set%20Up%20Colored%20Indicators%20on%20Cues%20by%20Using%20the%20Style%20and%20StyleExpr%20Property.md).  
+ To see how you can achieve the same results by using the **Style** and **StyleExpr** properties for comparison, see [How to: Set Up Colored Indicators on Cues by Using the Style and StyleExpr Property](How%20to:%20Set%20Up%20Colored%20Indicators%20on%20Cues%20by%20Using%20the%20Style%20and%20StyleExpr%20Property.md).  
   
 > [!NOTE]  
 >  This is a simple example to illustrate how to use the **GetCueSetup** trigger to configure colored indicators on a Cues. This example sets up the colored indicators to behave the same for Cues on all Role Centers. In a production environment, you will typically add logic that sets the colored indicators differently for each Cue.  
   
 ### Example from [!INCLUDE[demolong](includes/demolong_md.md)]  
- [!INCLUDE[demolong](includes/demolong_md.md)] includes the following objects that enable the customization of indicators from the [!INCLUDE[navnow](includes/navnow_md.md)] client. You can use this implementation for your solution as\-is or modify it as required.  
+ [!INCLUDE[demolong](includes/demolong_md.md)] includes the following objects that enable the customization of indicators from the [!INCLUDE[navnow](includes/navnow_md.md)] client. You can use this implementation for your solution as-is or modify it as required.  
   
 |[!INCLUDE[navnow](includes/navnow_md.md)] object|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  

@@ -26,7 +26,7 @@ MaxLength := MAXSTRLEN(String)
   
  The string variable for which you want to find the maximum length.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The maximum length of the string variable.  
@@ -35,7 +35,7 @@ MaxLength := MAXSTRLEN(String)
  If you call this function on a Variant, it returns an error.  
   
 ## Example  
- This example requires that you create the following variables and text constants in the C\/AL Globals window.  
+ This example requires that you create the following variables and text constants in the C/AL Globals window.  
   
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  

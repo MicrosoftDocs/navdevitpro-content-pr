@@ -35,7 +35,7 @@ You can build extension packages that add functionality to a [!INCLUDE[navnow](i
   
     1.  Use the development environment as usual to create new objects or modify ones to the extent your license allows you. Keep in mind the following rules:  
   
-        -   DO NOT make C\/AL code modifications  
+        -   DO NOT make C/AL code modifications  
   
         -   DO use subscribing to events to execute code.  
   
@@ -64,11 +64,11 @@ You can build extension packages that add functionality to a [!INCLUDE[navnow](i
         ```  
   
         > [!NOTE]  
-        >  Your delta files must be one\-to\-one with the objects you have added or modified. You cannot include a single merged delta file. If you output your export file as a single file use the `Split-NAVAppplicationObjectFile` cmdlet to create the individual files.  
+        >  Your delta files must be one-to-one with the objects you have added or modified. You cannot include a single merged delta file. If you output your export file as a single file use the `Split-NAVAppplicationObjectFile` cmdlet to create the individual files.  
   
 5.  Build the extension package.  
   
-     For more information, see [How to: Create an Extension Package](../Topic/How%20to:%20Create%20an%20Extension%20Package.md).  
+     For more information, see [How to: Create an Extension Package](How%20to:%20Create%20an%20Extension%20Package.md).  
   
 ## Extending Other Extensions  
  You can extend the functionality that another extension has made available. When you do that, you create a dependency between the original extension and the one extending it. This dependency must be verified and compiled when the new extension is published.  
@@ -82,18 +82,18 @@ You can build extension packages that add functionality to a [!INCLUDE[navnow](i
   
 1.  Import and compile the source code for the extension that you want to extend.  
   
-2.  Use the [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Export\-NAVApplicationObjectLanguage](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Export-NAVApplicationObjectLanguage) cmdlet to establish the new base for your app deltas.  
+2.  Use the [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Export-NAVApplicationObjectLanguage](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Export-NAVApplicationObjectLanguage) cmdlet to establish the new base for your app deltas.  
   
 3.  Extend the functionality with your modifications and additions using the development environment.  
   
-4.  Use the [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Export\-NAVApplicationObjectLanguage](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Export-NAVApplicationObjectLanguage) and the [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Compare\-NAVApplicationObject](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Compare-NAVApplicationObject) cmdlets to export and create the deltas for your app. Since you are comparing against a base that has the functionality that you are extending, you should only see deltas for your changes.  
+4.  Use the [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Export-NAVApplicationObjectLanguage](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Export-NAVApplicationObjectLanguage) and the [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Compare-NAVApplicationObject](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Compare-NAVApplicationObject) cmdlets to export and create the deltas for your app. Since you are comparing against a base that has the functionality that you are extending, you should only see deltas for your changes.  
   
 5.  Create the package for your extension using the `New-NAVAppManifest`, `Get-NAVAppInfo`, and `New-NAVAppPackage` cmdlets making sure to use the *–Dependencies* parameter on the `New-NAVAppManifest` to identify the NAV extensions that you dependent on.  
   
 ## See Also  
  [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)   
- [How to: Create an Extension Package](../Topic/How%20to:%20Create%20an%20Extension%20Package.md)   
- [How to: Publish and Install an Extension](../Topic/How%20to:%20Publish%20and%20Install%20an%20Extension.md)   
+ [How to: Create an Extension Package](How%20to:%20Create%20an%20Extension%20Package.md)   
+ [How to: Publish and Install an Extension](How%20to:%20Publish%20and%20Install%20an%20Extension.md)   
  [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)   
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   
  [Development Cmdlets for Microsoft Dynamics NAV](http://go.microsoft.com/fwlink/?LinkID=510540)

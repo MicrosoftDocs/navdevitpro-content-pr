@@ -21,5 +21,5 @@ You can access data in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] tables 
  The view is updated by every change in the **CaptionML** values of a table. For more information, see [Multilanguage Development](Multilanguage-Development.md).  
   
 ## See Also  
- [Developing Multilanguage\-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md)   
+ [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md)   
  [Identifiers, Data Types, and Data Formats](Identifiers--Data-Types--and-Data-Formats.md)

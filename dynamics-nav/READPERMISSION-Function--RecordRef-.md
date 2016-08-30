@@ -26,7 +26,7 @@ Ok := RecordRef.READPERMISSION
   
  The RecordRef that refers to the record in the table for which you want to know if you have read permission.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  Specifies whether you have permission to read from the table.  
@@ -38,14 +38,14 @@ Ok := RecordRef.READPERMISSION
   
  This function uses the filter that is currently applied to the *RecordRef* to determine whether you have read permission. If no filter is applied, the function tests for full read permission. If a filter has been set, the function only tests for read permission in the range of the filter.  
   
- To determine whether the user has a partial read permission because a security filter has been applied, view the **Permissions** page. For more information, see [How to: Set Security Filters](../Topic/How%20to:%20Set%20Security%20Filters.md).  
+ To determine whether the user has a partial read permission because a security filter has been applied, view the **Permissions** page. For more information, see [How to: Set Security Filters](How%20to:%20Set%20Security%20Filters.md).  
   
- If you do not have permission to read from a table and you attempt to read, a run\-time error occurs. This function lets you determine in advance if you have read permission. When the permissions are checked, the combination of the permissions in the license file and the user's permissions in the Permission table is considered.  
+ If you do not have permission to read from a table and you attempt to read, a run-time error occurs. This function lets you determine in advance if you have read permission. When the permissions are checked, the combination of the permissions in the license file and the user's permissions in the Permission table is considered.  
   
  This function works the same as the [READPERMISSION Function \(Record\)](READPERMISSION-Function--Record-.md).  
   
 ## Example  
- The following example opens table 18 \(Customer\) and creates a RecordRef variable that is named MyRecordRef for the table. The READPERMISSION function determines whether the table has read permission and stores the return value in the varHasReadPerm variable. The Customer table has read permission, so the message displays **Yes**. You can initialize the varTableNo variable with any table number. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The following example opens table 18 \(Customer\) and creates a RecordRef variable that is named MyRecordRef for the table. The READPERMISSION function determines whether the table has read permission and stores the return value in the varHasReadPerm variable. The Customer table has read permission, so the message displays **Yes**. You can initialize the varTableNo variable with any table number. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

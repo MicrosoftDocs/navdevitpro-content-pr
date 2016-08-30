@@ -22,7 +22,7 @@ Sets the corresponding fields from two data items that are linked by the [DataIt
 ## Remarks  
  The following syntax shows the DataItemLink property.  
   
- **\<field\>\=FIELD\(\<reference field\>\)**  
+ **\<field\>=FIELD\(\<reference field\>\)**  
   
  The following table describes **field** and **reference field**.  
   
@@ -33,11 +33,11 @@ Sets the corresponding fields from two data items that are linked by the [DataIt
   
  The DataItemLink property sets a filter on the child data item. This filter selects records that contain the same field value in both the parent and child data items. Use the **AssistButton** to select the fields from field name lookups for the parent and child data items.  
   
- The following example illustrates using this property. You have two data items, a parent and child. The parent data item is a list of customers, called Customer. The child data item contains a record of all sales orders. In the customer table, the primary key is the customer number, which is stored in the No. field. In the table that contains sales data, each record contains this customer number as a foreign key in a field called Sell\-to Customer No. You set the value of the [DataItemLinkReference Property](DataItemLinkReference-Property.md) on the child data item to the parent data item. You set the DataItemLink property of the child data item to the following value.  
+ The following example illustrates using this property. You have two data items, a parent and child. The parent data item is a list of customers, called Customer. The child data item contains a record of all sales orders. In the customer table, the primary key is the customer number, which is stored in the No. field. In the table that contains sales data, each record contains this customer number as a foreign key in a field called Sell-to Customer No. You set the value of the [DataItemLinkReference Property](DataItemLinkReference-Property.md) on the child data item to the parent data item. You set the DataItemLink property of the child data item to the following value.  
   
- **Sell\-to Customer No.\=FIELD\(No.\)**  
+ **Sell-to Customer No.=FIELD\(No.\)**  
   
- You now have a filter on the records in the child data item. This filter only displays records that pertain to the currently selected customer record. You can also accomplish the same task by placing the following C\/AL statement in the [OnPreDataItem Trigger](OnPreDataItem-Trigger.md) for the child data item.  
+ You now have a filter on the records in the child data item. This filter only displays records that pertain to the currently selected customer record. You can also accomplish the same task by placing the following C/AL statement in the [OnPreDataItem Trigger](OnPreDataItem-Trigger.md) for the child data item.  
   
 ```  
 SETRANGE("Sell-to Customer No.",Customer."No.");  

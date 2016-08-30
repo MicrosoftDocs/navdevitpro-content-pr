@@ -97,9 +97,9 @@ In this walkthrough, you will learn how to create a new Role Center for the [!IN
   
 10. Select the following fields:  
   
-    -   **Sales Quotes \- Open**  
+    -   **Sales Quotes - Open**  
   
-    -   **Sales Orders \- Open**  
+    -   **Sales Orders - Open**  
   
     > [!TIP]  
     >  You can select multiple fields by holding down the Ctrl key.  
@@ -130,9 +130,9 @@ In this walkthrough, you will learn how to create a new Role Center for the [!IN
   
 19. Select the following fields:  
   
-    -   **Sales Return Orders \- All**  
+    -   **Sales Return Orders - All**  
   
-    -   **Sales Credit Memos \- All**  
+    -   **Sales Credit Memos - All**  
   
 20. Choose **OK** and confirm the selection.  
   
@@ -223,7 +223,7 @@ In this walkthrough, you will learn how to create a new Role Center for the [!IN
   
 24. Close the **Properties** window.  
   
-25. In Page Designer, select the first empty line, and on the **View** menu, choose **C\/AL code**.  
+25. In Page Designer, select the first empty line, and on the **View** menu, choose **C/AL code**.  
   
 26. Enter the following code in the OnOpenPage\(\) method:  
   
@@ -240,7 +240,7 @@ In this walkthrough, you will learn how to create a new Role Center for the [!IN
   
 27. Save the page.  
   
-28. Close the **C\/AL Editor** and then close Page Designer.  
+28. Close the **C/AL Editor** and then close Page Designer.  
   
 29. In Object Designer, choose **Run** to view the page.  
   
@@ -279,10 +279,10 @@ In this walkthrough, you will learn how to create a new Role Center for the [!IN
 12. In Object Designer, choose **Run** to view the page.  
   
 ## Next Steps  
- Simon's next steps are to add the **My Customers** and **My Items** parts to the page. For more information, see [How to: Create a CardPart Page For Displaying Customer Data in a FactBox](../Topic/How%20to:%20Create%20a%20CardPart%20Page%20For%20Displaying%20Customer%20Data%20in%20a%20FactBox.md).  
+ Simon's next steps are to add the **My Customers** and **My Items** parts to the page. For more information, see [How to: Create a CardPart Page For Displaying Customer Data in a FactBox](How%20to:%20Create%20a%20CardPart%20Page%20For%20Displaying%20Customer%20Data%20in%20a%20FactBox.md).  
   
 ## See Also  
  [Page Designer Walkthroughs](Page-Designer-Walkthroughs.md)   
- [How to: Create a Page](../Topic/How%20to:%20Create%20a%20Page.md)   
+ [How to: Create a Page](How%20to:%20Create%20a%20Page.md)   
  [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
- [How to: Run a Page](../Topic/How%20to:%20Run%20a%20Page.md)
+ [How to: Run a Page](How%20to:%20Run%20a%20Page.md)

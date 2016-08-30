@@ -44,11 +44,11 @@ Adds a media file, such as a jpeg image, to the **MediaSet** data type field of 
  *MimeType*  
  Type: Text  
   
- Specifies the media content type. MIME type is used by browsers, and is an Internet standard to describe the contents of a file. The *MimeType* value must be a two\-part string that consists of a type and subtype, such as *image\/jpeg*, *image\/gif*, or *video\/mpeg*.  
+ Specifies the media content type. MIME type is used by browsers, and is an Internet standard to describe the contents of a file. The *MimeType* value must be a two-part string that consists of a type and subtype, such as *image\/jpeg*, *image\/gif*, or *video\/mpeg*.  
   
  If this parameter is not specified, the IMPORTFILE function will deduct the MIME type from the file extension. For example the MIME type for a .jpg file is image\/jpeg.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: GUID  
   
  The unique ID assigned to the MediaSet of the record. This ID can be retrieved by using the [MEDIAID Function \(MediaSet\)](MEDIAID-Function--MediaSet-.md).  
@@ -63,13 +63,13 @@ Adds a media file, such as a jpeg image, to the **MediaSet** data type field of 
   
 -   Add item image files for records of table 27 Item.to the and save them on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] instance  
   
-     Save the images as .jpg type, and give them names that correspond to item numbers \(as specified by the **No.** field\), such as, 1000\-v1.jpg, 1000\-v2.jpg, 1001\-v1.jpg, 1001\-v2.jpg and so on. For this example, save the files in the folder *C:\\images*.  
+     Save the images as .jpg type, and give them names that correspond to item numbers \(as specified by the **No.** field\), such as, 1000-v1.jpg, 1000-v2.jpg, 1001-v1.jpg, 1001-v2.jpg and so on. For this example, save the files in the folder *C:\\images*.  
   
 -   In the **Item** table, add a new field that has the data type **MediaSet**.  
   
 -   In the **Item List** page, add a column for the **MediaSet** field.  
   
- With these tasks in place, you can add and run the following C\/AL code to import the images. For this code example, create a codeunit and add the code to the OnRun trigger. But, you could also add the code other places instead, such as on an action in the **Item List** page.  
+ With these tasks in place, you can add and run the following C/AL code to import the images. For this code example, create a codeunit and add the code to the OnRun trigger. But, you could also add the code other places instead, such as on an action in the **Item List** page.  
   
  The code requires that you create the following variables:  
   

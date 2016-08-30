@@ -32,12 +32,12 @@ Redirects references to table data from one company to another.
   
  The name of the company to which you want to change. If you omit this parameter, you change back to the current company.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the company was found; otherwise, **false**.  
   
- If you omit this optional return value and the company cannot be found, a run\-time error occurs. If you include the return value, you must handle any errors.  
+ If you omit this optional return value and the company cannot be found, a run-time error occurs. If you include the return value, you must handle any errors.  
   
 ## Remarks  
  When executing this function, the user's access rights are respected. For example, a user cannot access data in *CompanyName* unless he already has the necessary access rights.  

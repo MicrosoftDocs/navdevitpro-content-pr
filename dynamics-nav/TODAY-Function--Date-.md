@@ -21,7 +21,7 @@ Gets the current date set in the operating system.
 Date := TODAY  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Date  
   
  The current date defined by the operating system.  
@@ -30,7 +30,7 @@ Date := TODAY
  You can only use the **TODAY** function to retrieve the current date from the operating system. You cannot use it to set the date in the operating system.  
   
 ## Example  
- This example shows how to use the **TODAY** function. This example requires that you create the following text constant in the **C\/AL Globals** window.  
+ This example shows how to use the **TODAY** function. This example requires that you create the following text constant in the **C/AL Globals** window.  
   
 |Name|ConstValue|  
 |----------|----------------|  

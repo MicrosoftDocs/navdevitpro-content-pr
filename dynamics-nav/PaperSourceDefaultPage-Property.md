@@ -18,7 +18,7 @@ Specifies the default paper source to use when printing the report.
  Reports  
   
 ## Remarks  
- In the **Report – Properties** window, in the **PaperSourceDefaultPage** field, choose the paper source. The list contains 13 standard trays and 16 printer\-specific trays. It is based on information in the fin.stx file.  
+ In the **Report – Properties** window, in the **PaperSourceDefaultPage** field, choose the paper source. The list contains 13 standard trays and 16 printer-specific trays. It is based on information in the fin.stx file.  
   
  If the printer that is used for this report does not support the specified paper source, then the printer uses the default tray that is specified by the printer driver.  
   
@@ -30,9 +30,9 @@ Specifies the default paper source to use when printing the report.
   
  The settings in the **Print** and **Page Setup** dialog boxes override the value that is specified for the **PaperSourceDefaultPage** property.  
   
- You can use the **GetPaperTrayForReport** function in codeunit 1, **Application Management**, to set the paper tray from C\/AL code. This gives you runtime control over paper tray selection for first, last, and default pages in a report.  
+ You can use the **GetPaperTrayForReport** function in codeunit 1, **Application Management**, to set the paper tray from C/AL code. This gives you runtime control over paper tray selection for first, last, and default pages in a report.  
   
 ## See Also  
  [PaperSourceFirstPage Property](PaperSourceFirstPage-Property.md)   
  [PaperSourceLastPage Property](PaperSourceLastPage-Property.md)   
- [How to: Add GetPaperTrayForReport Procedure in Codeunit 1](../Topic/How%20to:%20Add%20GetPaperTrayForReport%20Procedure%20in%20Codeunit%201.md)
+ [How to: Add GetPaperTrayForReport Procedure in Codeunit 1](How%20to:%20Add%20GetPaperTrayForReport%20Procedure%20in%20Codeunit%201.md)

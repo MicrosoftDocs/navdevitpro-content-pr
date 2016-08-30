@@ -12,7 +12,7 @@ caps.latest.revision: 3
 manager: edupont
 ---
 # DEFAULTLAYOUT Function
-Gets the default built\-in layout type that is used on a specified report.  
+Gets the default built-in layout type that is used on a specified report.  
   
 ## Syntax  
   
@@ -26,9 +26,9 @@ DefaultLayout := REPORT.DEFAULTLAYOUT(Number)
   
  The ID of the report that you want to save. To specify the report from a list, on the **View** menu, choose **Symbols**.  
   
- If the report that you specify does not exist, then a run\-time error occurs.  
+ If the report that you specify does not exist, then a run-time error occurs.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Option  
   
  The default layout type. The value can be either **None**, **RDLC**, or **Word**.  
@@ -37,6 +37,6 @@ DefaultLayout := REPORT.DEFAULTLAYOUT(Number)
  The default layout for a report is specified by the report's [DefaultLayout Property](DefaultLayout-Property.md).  
   
 ## See Also  
- [Reports\-duplicate 20](Reports-duplicate-20.md)   
- [How to. Specify the Default Built\-in Report Layout](How-to.-Specify-the-Default-Built-in-Report-Layout.md)   
+ [Reports-duplicate 20](Reports-duplicate-20.md)   
+ [How to. Specify the Default Built-in Report Layout](How-to.-Specify-the-Default-Built-in-Report-Layout.md)   
  [Designing Report Layouts from the Microsoft Dynamics NAV Development Environment](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md)

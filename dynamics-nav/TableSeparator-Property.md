@@ -33,7 +33,7 @@ Specifies the table separator for a table.
 ## Remarks  
  This property specifies how tables should be separated. The default value is a new line \(**\<NewLine\>**\). **TableSeparator** property is only used if the **Format Property** is set to **Variable Text** or **Fixed Text**. Otherwise, the setting is ignored.  
   
- You can set the table separator in C\/AL code so that the XMLport can import and export tables with different separators. For example, if your XMLport must import from a file or stream where one table uses a single **NewLine** elements and another uses two **NewLine** elements, you can change the table separator at run time.  
+ You can set the table separator in C/AL code so that the XMLport can import and export tables with different separators. For example, if your XMLport must import from a file or stream where one table uses a single **NewLine** elements and another uses two **NewLine** elements, you can change the table separator at run time.  
   
 ## See Also  
  [Properties](Properties.md)

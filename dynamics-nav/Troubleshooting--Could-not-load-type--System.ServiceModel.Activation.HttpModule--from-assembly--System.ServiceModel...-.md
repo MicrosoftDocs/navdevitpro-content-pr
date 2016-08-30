@@ -14,7 +14,7 @@ manager: edupont
 # Troubleshooting: Could not load type &#39;System.ServiceModel.Activation.HttpModule&#39; from assembly &#39;System.ServiceModel...&#39;
 When you try to access the [!INCLUDE[nav_web](includes/nav_web_md.md)], you get the following error.  
   
- **Could not load type 'System.ServiceModel.Activation.HttpModule' from assembly 'System.ServiceModel, Version\=3.0.0.0, Culture\=neutral, PublicKeyToken\=b77a5c561934e089**  
+ **Could not load type 'System.ServiceModel.Activation.HttpModule' from assembly 'System.ServiceModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089**  
   
  This error can occur when there are multiple versions of the .NET Framework on the computer that is running IIS, and IIS was installed after .NET Framework 4.0 or before the Service Model in Windows Communication Foundation was registered.  
   
@@ -27,7 +27,7 @@ When you try to access the [!INCLUDE[nav_web](includes/nav_web_md.md)], you get 
   
     1.  From the **Start** menu, choose **All Programs**, and then choose **Accessories**.  
   
-    2.  Right\-click **Command Prompt**, and then choose **Run as administrator**.  
+    2.  Right-click **Command Prompt**, and then choose **Run as administrator**.  
   
 2.  At the command prompt, type the following command to change to the *Microsoft.NET\\Framework64\\v4.0.30319* folder, and then press Enter.  
   
@@ -49,4 +49,4 @@ When you try to access the [!INCLUDE[nav_web](includes/nav_web_md.md)], you get 
   
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
- [How to: Install the Web Server Components](../Topic/How%20to:%20Install%20the%20Web%20Server%20Components.md)
+ [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md)

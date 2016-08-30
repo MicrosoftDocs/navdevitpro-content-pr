@@ -25,7 +25,7 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
 -   Verifying the availability of the web services that use a browser.  
   
--   Using the PowerPivot add\-in for Excel to import data from your [!INCLUDE[navnow](includes/navnow_md.md)] web services as new worksheets.  
+-   Using the PowerPivot add-in for Excel to import data from your [!INCLUDE[navnow](includes/navnow_md.md)] web services as new worksheets.  
   
 -   Connecting to demographic data available from Azure Marketplace.  
   
@@ -38,9 +38,9 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
 -   [!INCLUDE[demolong](includes/demolong_md.md)].  
   
--   Microsoft Excel 2013 with Microsoft PowerPivot enabled, or Microsoft Excel 2010 with the PowerPivot add\-in for Excel 2010 installed. For more information, see [PowerPivot Download Page](http://go.microsoft.com/fwlink/?LinkId=200002).  
+-   Microsoft Excel 2013 with Microsoft PowerPivot enabled, or Microsoft Excel 2010 with the PowerPivot add-in for Excel 2010 installed. For more information, see [PowerPivot Download Page](http://go.microsoft.com/fwlink/?LinkId=200002).  
   
--   A Microsoft account for accessing data from Azure Marketplace. For more information about Microsoft account, see the [What is a Microsoft account?](http://go.microsoft.com/fwlink/?LinkId=271494). To obtain a Microsoft account, go to the [sign\-up page](http://go.microsoft.com/fwlink/?LinkId=271493).  
+-   A Microsoft account for accessing data from Azure Marketplace. For more information about Microsoft account, see the [What is a Microsoft account?](http://go.microsoft.com/fwlink/?LinkId=271494). To obtain a Microsoft account, go to the [sign-up page](http://go.microsoft.com/fwlink/?LinkId=271493).  
   
 ## Story  
  Victor, the business system developer at [!INCLUDE[demoname](includes/demoname_md.md)], has been asked by his manager Tim to create a data visualization that will show total sales to customers in different countries\/regions, and how those countries\/regions align with Key Development Indicators, which are a measure of national\/regional affluence. Tim tells Victor that he can find information about Key Development Indicators on zure Marketplace. Victor assesses the assignment and decides that he can use OData web services to bring [!INCLUDE[navnow](includes/navnow_md.md)] data to Excel, where he can merge it with economic data from Azure Marketplace.  
@@ -49,7 +49,7 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
  You create a query to capture data about sales to individual customers.  
   
 > [!NOTE]  
->  For more information about how to create more advanced queries that combine data from multiple [!INCLUDE[navnow](includes/navnow_md.md)] pages, see [Walkthrough: Creating a Query to Link Two Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md), [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](../Topic/Walkthrough:%20Creating%20a%20Query%20That%20Uses%20a%20Totaling%20Method%20and%20Sorting.md), or [Walkthrough: Creating a Query to Link Three Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Three%20Tables.md).  
+>  For more information about how to create more advanced queries that combine data from multiple [!INCLUDE[navnow](includes/navnow_md.md)] pages, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md), [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](Walkthrough:%20Creating%20a%20Query%20That%20Uses%20a%20Totaling%20Method%20and%20Sorting.md), or [Walkthrough: Creating a Query to Link Three Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Three%20Tables.md).  
   
 #### To create a query to capture data about sales to customers  
   
@@ -57,7 +57,7 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
 2.  In Object Designer, choose **Query**, and then choose **New**.  
   
-3.  In Query Designer, on the first line, in the **Data Type** column, choose **DataItem** from the drop\-down list box.  
+3.  In Query Designer, on the first line, in the **Data Type** column, choose **DataItem** from the drop-down list box.  
   
 4.  In the **Data Source** column, choose the **Lookup** button, choose the **Sales Line** table from the **Table List** window, and then choose the **OK** button.  
   
@@ -67,7 +67,7 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
     -   Document Type  
   
-    -   Sell\-to Customer No.  
+    -   Sell-to Customer No.  
   
     -   Document No.  
   
@@ -105,7 +105,7 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
 2.  In the **Web Services** page, choose **New**.  
   
-     The **New \- Web Services** page opens.  
+     The **New - Web Services** page opens.  
   
 3.  In the **Object Type** column, select **Page**. In the **Object ID** column, enter **21**, and then in the **Service Name** column, enter **Customer**.  
   
@@ -161,7 +161,7 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
 1.  In the SalesOrderInfo workbook, choose **Add Column**, which is on the right side of the last data column.  
   
-2.  Move the pointer down to the first cell in the new column and type an equal sign \(**\=**\).  
+2.  Move the pointer down to the first cell in the new column and type an equal sign \(**=**\).  
   
      This indicates that you are creating a formula.  
   
@@ -188,7 +188,7 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
 6.  Press Return to indicate that the formula is finished.  
   
-7.  Right\-click the header of **CalculatedColumn1** and choose **Rename Column**.  
+7.  Right-click the header of **CalculatedColumn1** and choose **Rename Column**.  
   
 8.  Type **QuantityByAmount** as the new column name.  
   
@@ -223,7 +223,7 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
 7.  Choose the **Run Query** button.  
   
-     You now see a view of the table data. Notice that the table contains two\-letter country\/region codes, country\/region names, and additional data about the countries\/regions listed. This data has enough in common with your [!INCLUDE[navnow](includes/navnow_md.md)] data to support a link between the two.  
+     You now see a view of the table data. Notice that the table contains two-letter country\/region codes, country\/region names, and additional data about the countries\/regions listed. This data has enough in common with your [!INCLUDE[navnow](includes/navnow_md.md)] data to support a link between the two.  
   
 8.  Choose **Export** from the narrow column on the right side of the page. Choose **Excel PowerPivot**, and then choose **Download**.  
   
@@ -264,11 +264,11 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
  Start by creating a relationship between the two [!INCLUDE[navnow](includes/navnow_md.md)] data sources: the **Customer** page and the **SalesOrderInfo** query. Both sources have a column that identifies the customer number, so this link is straightforward.  
   
- Then create a relationship between the respective columns on the **Customer** tab and on the **World Development Indicators** tab that use two\-letter abbreviations to identify countries\/regions.  
+ Then create a relationship between the respective columns on the **Customer** tab and on the **World Development Indicators** tab that use two-letter abbreviations to identify countries\/regions.  
   
 #### To create relationships between data sources  
   
-1.  Go to the **SalesOrderInfo** tab in PowerPivot for Excel, right\-click the header row for the **Sell\_to\_Customer\_No** column, and then from the list of commands, select **Create Relationship**.  
+1.  Go to the **SalesOrderInfo** tab in PowerPivot for Excel, right-click the header row for the **Sell\_to\_Customer\_No** column, and then from the list of commands, select **Create Relationship**.  
   
      ![Creating a relationship between two data sources](media/SellToWithRelationship.JPG "SellToWithRelationship")  
   
@@ -278,7 +278,7 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
 4.  Choose the **Create** button.  
   
-5.  In PowerPivot for Excel, go to the **Customer** tab, right\-click the header row for the **Country\_Region\_Code** column, and from the list of commands, select **Create Relationship**.  
+5.  In PowerPivot for Excel, go to the **Customer** tab, right-click the header row for the **Country\_Region\_Code** column, and from the list of commands, select **Create Relationship**.  
   
 6.  In the **Create Relationship** dialog box, in the **Related Lookup Table** field, choose **World Development Indicators**.  
   

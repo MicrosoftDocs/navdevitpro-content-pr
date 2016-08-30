@@ -36,7 +36,7 @@ Sets a task that runs a codeunit to the ready state. The task will not run unles
   
  Specifies the recordID of the record that you want to run the task on.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if a task has been set to ready; otherwise, **false**.  
@@ -47,7 +47,7 @@ Sets a task that runs a codeunit to the ready state. The task will not run unles
 ## Example  
  The following example creates a task, and then uses the SETTASKASREADY function to set the task to ready.  
   
- The code requires that you create the following C\/AL variable.  
+ The code requires that you create the following C/AL variable.  
   
 |Variable|DataType|  
 |--------------|--------------|  

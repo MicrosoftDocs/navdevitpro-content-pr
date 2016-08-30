@@ -30,18 +30,18 @@ NewString := CONVERTSTR(String, FromCharacters, ToCharacters)
  *FromCharacters*  
  Type: Text constant or code  
   
- The characters that you want to replace. This function is case\-sensitive.  
+ The characters that you want to replace. This function is case-sensitive.  
   
  *ToCharacters*  
  Type: Text constant or code  
   
- The new characters with which you want to replace the *FromCharacters*. This function is case\-sensitive.  
+ The new characters with which you want to replace the *FromCharacters*. This function is case-sensitive.  
   
  The length of this string must correspond to the length of *FromCharacters*.  
   
  Each character in *FromCharacters* is replaced with the corresponding character in *ToCharacters*.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text constant or code  
   
  The converted string.  
@@ -49,12 +49,12 @@ NewString := CONVERTSTR(String, FromCharacters, ToCharacters)
 ## Remarks  
  The characters in the *FromCharacters* parameter are replaced by the characters in the *ToCharacters* parameter.  
   
- If the lengths of the *FromCharacters* and *ToCharacters* strings are not equal, then a run\-time error occurs.  
+ If the lengths of the *FromCharacters* and *ToCharacters* strings are not equal, then a run-time error occurs.  
   
  If either the *FromCharacters* or the *ToCharacters* strings are empty, then the source is returned unchanged.  
   
 ## Example  
- This example requires that you create the following variables and text constants in the C\/AL Globals window.  
+ This example requires that you create the following variables and text constants in the C/AL Globals window.  
   
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  

@@ -12,20 +12,20 @@ caps.latest.revision: 12
 manager: edupont
 ---
 # Report Design Walkthroughs
-The following topics describe end\-to\-end processes that you can follow to design and modify reports.  
+The following topics describe end-to-end processes that you can follow to design and modify reports.  
   
 ## In This Section  
   
 |Documentation|Description|  
 |-------------------|-----------------|  
-|[Walkthrough: Designing a Customer List Report](../Topic/Walkthrough:%20Designing%20a%20Customer%20List%20Report.md)|This walkthrough describes how to create a simple report based on one table with [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] and design this report using Visual Studio Report Designer.|  
-|[Walkthrough: Creating a Link from a Report to a Page](../Topic/Walkthrough:%20Creating%20a%20Link%20from%20a%20Report%20to%20a%20Page.md)|Describes how to modify the Customer \- Top 10 List report to include a link to the customer card.|  
-|[Walkthrough: Creating a Link from a Report to a Report](../Topic/Walkthrough:%20Creating%20a%20Link%20from%20a%20Report%20to%20a%20Report.md)|Describes how to modify the Customer \- Top 10 List report to include a link to the Customer \- Detail Trial Bal. report.|  
-|[Walkthrough: Designing a Report with Images, Interactive Sorting, and Visibility Toggle](../Topic/Walkthrough:%20Designing%20a%20Report%20with%20Images,%20Interactive%20Sorting,%20and%20Visibility%20Toggle.md)|Describes how to create a report that displays images, allows interactive sorting, and visibility toggle.|  
-|[Walkthrough: Creating a Nonprinting Report](../Topic/Walkthrough:%20Creating%20a%20Nonprinting%20Report.md)|Describes how to create a report that only does processing without outputting or printing a report.|  
-|[Walkthrough: Running a Report Offline](../Topic/Walkthrough:%20Running%20a%20Report%20Offline.md)|Describes how to view a report datatset and report layout on a computer that does not have [!INCLUDE[navnow](includes/navnow_md.md)] installed|  
-|[Walkthrough: Designing a Report from Multiple Tables](../Topic/Walkthrough:%20Designing%20a%20Report%20from%20Multiple%20Tables.md)|Describes how to create a report that combines data from four tables.|  
-|[Walkthrough: Adding Company Information, Custom Filters, and Formatting to a Report](../Topic/Walkthrough:%20Adding%20Company%20Information,%20Custom%20Filters,%20and%20Formatting%20to%20a%20Report.md)|Describes how to modify a report to add filters and format the layout.|  
+|[Walkthrough: Designing a Customer List Report](Walkthrough:%20Designing%20a%20Customer%20List%20Report.md)|This walkthrough describes how to create a simple report based on one table with [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] and design this report using Visual Studio Report Designer.|  
+|[Walkthrough: Creating a Link from a Report to a Page](Walkthrough:%20Creating%20a%20Link%20from%20a%20Report%20to%20a%20Page.md)|Describes how to modify the Customer - Top 10 List report to include a link to the customer card.|  
+|[Walkthrough: Creating a Link from a Report to a Report](Walkthrough:%20Creating%20a%20Link%20from%20a%20Report%20to%20a%20Report.md)|Describes how to modify the Customer - Top 10 List report to include a link to the Customer - Detail Trial Bal. report.|  
+|[Walkthrough: Designing a Report with Images, Interactive Sorting, and Visibility Toggle](Walkthrough:%20Designing%20a%20Report%20with%20Images,%20Interactive%20Sorting,%20and%20Visibility%20Toggle.md)|Describes how to create a report that displays images, allows interactive sorting, and visibility toggle.|  
+|[Walkthrough: Creating a Nonprinting Report](Walkthrough:%20Creating%20a%20Nonprinting%20Report.md)|Describes how to create a report that only does processing without outputting or printing a report.|  
+|[Walkthrough: Running a Report Offline](Walkthrough:%20Running%20a%20Report%20Offline.md)|Describes how to view a report datatset and report layout on a computer that does not have [!INCLUDE[navnow](includes/navnow_md.md)] installed|  
+|[Walkthrough: Designing a Report from Multiple Tables](Walkthrough:%20Designing%20a%20Report%20from%20Multiple%20Tables.md)|Describes how to create a report that combines data from four tables.|  
+|[Walkthrough: Adding Company Information, Custom Filters, and Formatting to a Report](Walkthrough:%20Adding%20Company%20Information,%20Custom%20Filters,%20and%20Formatting%20to%20a%20Report.md)|Describes how to modify a report to add filters and format the layout.|  
   
 ## See Also  
- [Reports\-duplicate 20](Reports-duplicate-20.md)
+ [Reports-duplicate 20](Reports-duplicate-20.md)

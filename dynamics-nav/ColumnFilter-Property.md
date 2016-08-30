@@ -25,11 +25,11 @@ Sets a filter on the column filter row of a query.
 ## Remarks  
  In a query, Columns and Filter rows specify fields of the underlying table of the parent DataItem. Columns appear in the resulting dataset, whereas Filter rows do not. You use a ColumnFilter property to apply a condition on a field to limit the records in query’s resulting dataset. The ColumnFilter property resembles the [DataItemTableFilter Property](DataItemTableFilter-Property.md) of the DataItem, but there are differences. The ColumnFilter property has the following behavior:  
   
--   Unlike filters that are set by the DataItemTableFilter property, filters that are set by the ColumnFilter property can be overwritten at runtime by calling the [SETFILTER Function \(Query\)](SETFILTER-Function--Query-.md) and [SETRANGE Function \(Query\)](SETRANGE-Function--Query-.md) from C\/AL code.  
+-   Unlike filters that are set by the DataItemTableFilter property, filters that are set by the ColumnFilter property can be overwritten at runtime by calling the [SETFILTER Function \(Query\)](SETFILTER-Function--Query-.md) and [SETRANGE Function \(Query\)](SETRANGE-Function--Query-.md) from C/AL code.  
   
-     There can be multiple calls to the SETFILTER and SETRANGE functions in C\/AL, but it is the first call in the function that overwrites the ColumnFilter property.  
+     There can be multiple calls to the SETFILTER and SETRANGE functions in C/AL, but it is the first call in the function that overwrites the ColumnFilter property.  
   
--   If the ColumnFilter property specifies a filter on the same field as the DataItemTableFilter property, then the filters of the two properties are combined. In SQL SELECT statements, this combination corresponds to an AND operator. To be included in the query dataset, records must meet the condition of both the filters. For example, if the DataItemTableFilter property sets a filter on a field to include values less than fifty \(\<50\) and the ColumnFilter property sets a filter on the same field to include values greater than twenty \(\>20\), then the resultant filter on the field includes values that are greater than twenty and less than fifty \(20\< value \<50\). However, if the same field is also set with a filter from C\/AL code by calling the SETFILTER or SETRANGE functions, then only the DataItemTableFilter property filter is applied because, even though the function overwrites the ColumnFilter property filter, the function filter is ignored.  
+-   If the ColumnFilter property specifies a filter on the same field as the DataItemTableFilter property, then the filters of the two properties are combined. In SQL SELECT statements, this combination corresponds to an AND operator. To be included in the query dataset, records must meet the condition of both the filters. For example, if the DataItemTableFilter property sets a filter on a field to include values less than fifty \(\<50\) and the ColumnFilter property sets a filter on the same field to include values greater than twenty \(\>20\), then the resultant filter on the field includes values that are greater than twenty and less than fifty \(20\< value \<50\). However, if the same field is also set with a filter from C/AL code by calling the SETFILTER or SETRANGE functions, then only the DataItemTableFilter property filter is applied because, even though the function overwrites the ColumnFilter property filter, the function filter is ignored.  
   
 -   You can set the ColumnFilter property on any Column or Filter row in the query, this includes columns that are set with the totaling method using the [Method Property](Method-Property.md).  
   
@@ -44,6 +44,6 @@ Quantity=FILTER(>20&<50)
   
 ## See Also  
  [Understanding Query Filters](Understanding-Query-Filters.md)   
- [How to: Set Up Filter Rows in Query Designer](../Topic/How%20to:%20Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md)   
- [How to: Create Queries](../Topic/How%20to:%20Create%20Queries.md)   
+ [How to: Set Up Filter Rows in Query Designer](How%20to:%20Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md)   
+ [How to: Create Queries](How%20to:%20Create%20Queries.md)   
  [Queries](Queries.md)

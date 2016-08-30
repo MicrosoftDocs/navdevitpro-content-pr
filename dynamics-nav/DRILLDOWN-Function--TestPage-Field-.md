@@ -12,7 +12,7 @@ caps.latest.revision: 4
 manager: edupont
 ---
 # DRILLDOWN Function (TestPage Field)
-Applies drill\-down capability for a field on a test page.  
+Applies drill-down capability for a field on a test page.  
   
 ## Syntax  
   
@@ -29,7 +29,7 @@ TestPage.Field.DRILLDOWN
  *Field*  
  Type: Field  
   
- The field that you want to apply the drill\-down to.  
+ The field that you want to apply the drill-down to.  
   
 ## See Also  
  [TestPage Field Functions](TestPage-Field-Functions.md)

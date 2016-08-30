@@ -12,9 +12,9 @@ caps.latest.revision: 7
 manager: edupont
 ---
 # How to: Break on Record Changes
-You can specify if the debugger breaks on record changes. If the debugger is set to break on record changes, then it breaks before creating, modifying, or deleting a record. The following table shows each record change and the C\/AL functions that cause each change.  
+You can specify if the debugger breaks on record changes. If the debugger is set to break on record changes, then it breaks before creating, modifying, or deleting a record. The following table shows each record change and the C/AL functions that cause each change.  
   
-|Record change|C\/AL functions|  
+|Record change|C/AL functions|  
 |-------------------|---------------------|  
 |Create a new record|[INSERT Function \(Record\)](INSERT-Function--Record-.md)|  
 |Update an existing record|[MODIFY Function \(Record\)](MODIFY-Function--Record-.md), [MODIFYALL Function \(Record\)](MODIFYALL-Function--Record-.md), [RENAME Function \(Record\)](RENAME-Function--Record-.md)|  
@@ -31,9 +31,9 @@ You can specify if the debugger breaks on record changes. If the debugger is set
 2.  In the **Debugger Break Rules** window, select the **Break On Record Changes** check box, and then choose the **OK** button.  
   
 ## See Also  
- [How to: Manage Breakpoints from the Development Environment](../Topic/How%20to:%20Manage%20Breakpoints%20from%20the%20Development%20Environment.md)   
- [How to: Manage Breakpoints from the Debugger Breakpoint List](../Topic/How%20to:%20Manage%20Breakpoints%20from%20the%20Debugger%20Breakpoint%20List.md)   
- [How to: Break on the Next Statement](../Topic/How%20to:%20Break%20on%20the%20Next%20Statement.md)   
- [How to: Break on Errors](../Topic/How%20to:%20Break%20on%20Errors.md)   
- [How to: Set Conditional Breakpoints](../Topic/How%20to:%20Set%20Conditional%20Breakpoints.md)   
+ [How to: Manage Breakpoints from the Development Environment](How%20to:%20Manage%20Breakpoints%20from%20the%20Development%20Environment.md)   
+ [How to: Manage Breakpoints from the Debugger Breakpoint List](How%20to:%20Manage%20Breakpoints%20from%20the%20Debugger%20Breakpoint%20List.md)   
+ [How to: Break on the Next Statement](How%20to:%20Break%20on%20the%20Next%20Statement.md)   
+ [How to: Break on Errors](How%20to:%20Break%20on%20Errors.md)   
+ [How to: Set Conditional Breakpoints](How%20to:%20Set%20Conditional%20Breakpoints.md)   
  [Breakpoints](Breakpoints.md)

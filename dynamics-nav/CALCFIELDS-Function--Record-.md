@@ -32,7 +32,7 @@ Calculates the FlowFields in a record. You specify which fields to calculate by 
   
  The FlowFields or BLOB fields that you want to calculate or retrieve. Each field must belong to the same record variable.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
 ## Remarks  

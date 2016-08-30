@@ -21,7 +21,7 @@ To make your extension available to users, the package must be published to a sp
     Publish-NAVApp -ServerInstance YourDynamicsNAVServer -Path MyExtension.navx  
     ```  
   
-     Publish does more than just update internal tables. It also compiles the components of the extension behind\-the\-scenes and builds the necessary metadata objects that are used at runtime.  
+     Publish does more than just update internal tables. It also compiles the components of the extension behind-the-scenes and builds the necessary metadata objects that are used at runtime.  
   
      You can get an overview of the published extensions and their state using the `Get-NAVAppInfo` cmdlet. If no tenants have a specific extension installed, you can completely remove it using the `Unpublish-NAVApp` cmdlet.  
   
@@ -35,7 +35,7 @@ To make your extension available to users, the package must be published to a sp
   
 ### To install an extension  
   
--   In the BROKEN-INCLUDE-nav_admin_shell, use the `Install-NAVApp` cmdlet. The following example installs the MyExtension for Tenant1 and Tenant3. In single\-tenant deployments, you either specify default as the tenant ID, or you omit the *–Tenant* parameter.  
+-   In the BROKEN-INCLUDE-nav_admin_shell, use the `Install-NAVApp` cmdlet. The following example installs the MyExtension for Tenant1 and Tenant3. In single-tenant deployments, you either specify default as the tenant ID, or you omit the *–Tenant* parameter.  
   
     ```  
     Install-NAVApp -ServerInstance YourDynamicsNAVServer -Name ”My Extension” –Tenant Tenant1, Tenant3  
@@ -48,8 +48,8 @@ To make your extension available to users, the package must be published to a sp
   
 ## See Also  
  [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)   
- [How to: Develop an Extension](../Topic/How%20to:%20Develop%20an%20Extension.md)   
- [How to: Create an Extension Package](../Topic/How%20to:%20Create%20an%20Extension%20Package.md)   
+ [How to: Develop an Extension](How%20to:%20Develop%20an%20Extension.md)   
+ [How to: Create an Extension Package](How%20to:%20Create%20an%20Extension%20Package.md)   
  [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)   
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   
  [Administration Cmdlets for Microsoft Dynamics NAV](http://go.microsoft.com/fwlink/?LinkID=510540)

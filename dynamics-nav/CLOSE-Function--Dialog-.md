@@ -28,7 +28,7 @@ Dialog.CLOSE
  The Dialog variable that you are closing.  
   
 ## Remarks  
- If CLOSE is used on a dialog window that is not open, a run\-time error will occur.  
+ If CLOSE is used on a dialog window that is not open, a run-time error will occur.  
   
  The dialog windows of an object are automatically closed when the object terminates.  
   

@@ -13,7 +13,7 @@ caps.latest.revision: 3
 # TENANTID Function (Database)
 Gets the ID of the tenant that has started the current session.  
   
- Use this function when your code must be specific about which tenant database to access in a multitenant deployment. For example, if your code imports data into a cache, you can make a cache tenant\-specific by using the tenant ID as a key. Also, if you want to write code that saves documents, you can include the tenant ID in the file name or location, for example. In those cases, you can use the TENANTID function in combination with the COMPANYNAME function to identify the company and the tenant database.  
+ Use this function when your code must be specific about which tenant database to access in a multitenant deployment. For example, if your code imports data into a cache, you can make a cache tenant-specific by using the tenant ID as a key. Also, if you want to write code that saves documents, you can include the tenant ID in the file name or location, for example. In those cases, you can use the TENANTID function in combination with the COMPANYNAME function to identify the company and the tenant database.  
   
 ## Syntax  
   
@@ -22,7 +22,7 @@ Gets the ID of the tenant that has started the current session.
 ID := TENANTID  
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text  
   
  The ID of the tenant that has started the current session.  

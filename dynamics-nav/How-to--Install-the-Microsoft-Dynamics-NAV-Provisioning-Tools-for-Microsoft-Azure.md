@@ -16,8 +16,8 @@ The [!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)] are available in the
   
 |Folder|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |------------|---------------------------------------|  
-|DVD\\WindowsPowerShellScripts\\Cloud\\HowTo|Contains the example scripts, Example\-1VM.ps1 and Example\-2VM.ps1, which deploy a fully functional end\-to\-end [!INCLUDE[navnow](includes/navnow_md.md)] solution.|  
-|DVD\\WindowsPowerShellScripts\\Cloud\\NAVAdministration<br /><br /> DVD\\WindowsPowerShellScripts\\Cloud\\NAVRemoteAdministration<br /><br /> DVD\\WindowsPowerShellScripts\\Cloud\\NAVRemoteAdministrationSamples|Contains the Windows PowerShell modules that are used by scripts Example\-1VM.ps1 and Example\-2VM.ps1.|  
+|DVD\\WindowsPowerShellScripts\\Cloud\\HowTo|Contains the example scripts, Example-1VM.ps1 and Example-2VM.ps1, which deploy a fully functional end-to-end [!INCLUDE[navnow](includes/navnow_md.md)] solution.|  
+|DVD\\WindowsPowerShellScripts\\Cloud\\NAVAdministration<br /><br /> DVD\\WindowsPowerShellScripts\\Cloud\\NAVRemoteAdministration<br /><br /> DVD\\WindowsPowerShellScripts\\Cloud\\NAVRemoteAdministrationSamples|Contains the Windows PowerShell modules that are used by scripts Example-1VM.ps1 and Example-2VM.ps1.|  
   
 ### To install the [!INCLUDE[navnow](includes/navnow_md.md)] Provisioning Tools  
   

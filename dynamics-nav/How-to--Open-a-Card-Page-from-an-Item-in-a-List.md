@@ -12,7 +12,7 @@ caps.latest.revision: 7
 manager: edupont
 ---
 # How to: Open a Card Page from an Item in a List
-You can associate items in a list page with a related card page so that when a user double\-clicks the list item, the card page for that item is opened. The **CardPageID** property is used to associate an item in a list with a specific card page. For example, you can use it to associate a name in a customer list the related customer card.  
+You can associate items in a list page with a related card page so that when a user double-clicks the list item, the card page for that item is opened. The **CardPageID** property is used to associate an item in a list with a specific card page. For example, you can use it to associate a name in a customer list the related customer card.  
   
 ### To associate a card page with a list page  
   
@@ -28,4 +28,4 @@ You can associate items in a list page with a related card page so that when a u
   
 ## See Also  
  [CardPageID Property](CardPageID-Property.md)   
- [Walkthrough: Creating a Customer List in Page Designer](../Topic/Walkthrough:%20Creating%20a%20Customer%20List%20in%20Page%20Designer.md)
+ [Walkthrough: Creating a Customer List in Page Designer](Walkthrough:%20Creating%20a%20Customer%20List%20in%20Page%20Designer.md)

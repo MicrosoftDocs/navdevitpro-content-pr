@@ -19,7 +19,7 @@ A *permission set* is a set of permissions for a set of objects in the [!INCLUDE
   
  The BASIC permission set primarily functions as a prerequisite to open the client and show all pages.  
   
- The BASIC permission set is provided in an XML file, UserRoles.xml, which you import into your database using a [!INCLUDE[rtc](includes/rtc_md.md)]. Permissions for the BASIC permission set are provided in a separate XML file, UserRolePermissions.xml, which you also import. For more information, see [How to: Work with the BASIC Permission Set](../Topic/How%20to:%20Work%20with%20the%20BASIC%20Permission%20Set.md).  
+ The BASIC permission set is provided in an XML file, UserRoles.xml, which you import into your database using a [!INCLUDE[rtc](includes/rtc_md.md)]. Permissions for the BASIC permission set are provided in a separate XML file, UserRolePermissions.xml, which you also import. For more information, see [How to: Work with the BASIC Permission Set](How%20to:%20Work%20with%20the%20BASIC%20Permission%20Set.md).  
   
 > [!NOTE]  
 >  Another prerequisite permission set is the FOUNDATION permission set.  
@@ -32,7 +32,7 @@ A *permission set* is a set of permissions for a set of objects in the [!INCLUDE
 ## In This Section  
  [First User Is Automatically Assigned the SUPER Permission Set](First-User-Is-Automatically-Assigned-the-SUPER-Permission-Set.md)  
   
- [How to: Create or Modify Permission Sets](../Topic/How%20to:%20Create%20or%20Modify%20Permission%20Sets.md)  
+ [How to: Create or Modify Permission Sets](How%20to:%20Create%20or%20Modify%20Permission%20Sets.md)  
   
  [Special Permission Sets](Special-Permission-Sets.md)  
   
@@ -41,5 +41,5 @@ A *permission set* is a set of permissions for a set of objects in the [!INCLUDE
   
 ## See Also  
  [About Permissions](About-Permissions.md)   
- [Customize the User Interface](../Topic/Customize%20the%20User%20Interface.md)   
+ [Customize the User Interface](Customize%20the%20User%20Interface.md)   
  [Removing Elements from the User Interface According to Permissions](Removing-Elements-from-the-User-Interface-According-to-Permissions.md)

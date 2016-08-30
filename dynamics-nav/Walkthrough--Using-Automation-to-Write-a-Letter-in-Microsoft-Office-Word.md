@@ -24,9 +24,9 @@ Automation lets you use the capabilities and features of Microsoft Office produc
   
 -   Creating a codeunit and declaring the Automation variables that are required for using Microsoft Office Word Automation.  
   
--   Writing C\/AL code in the codeunit to instantiate the Automation object that creates a Word document from a template.  
+-   Writing C/AL code in the codeunit to instantiate the Automation object that creates a Word document from a template.  
   
--   Adding C\/AL code to the Automation codeunit to transfer data from a table record to a Word document.  
+-   Adding C/AL code to the Automation codeunit to transfer data from a table record to a Word document.  
   
 -   Calling the Automation codeunit from an action on a page.  
   
@@ -60,9 +60,9 @@ Automation lets you use the capabilities and features of Microsoft Office produc
   
  You will insert fields into the Word template and give these fields convenient mnemonic names that correspond to the names of the record fields that you are using.  
   
- To make this work, your C\/AL code must make two extra calls to Microsoft Office Word. You must call the ActiveDocument.Fields.Update method before using the fields. After you have transferred all the information, you must call the ActiveDocument.Fields.Unlink method. This ensures that you can successfully use the Word fields as placeholders.  
+ To make this work, your C/AL code must make two extra calls to Microsoft Office Word. You must call the ActiveDocument.Fields.Update method before using the fields. After you have transferred all the information, you must call the ActiveDocument.Fields.Unlink method. This ensures that you can successfully use the Word fields as placeholders.  
   
- In addition, while you can name the **Customer** or **Address** fields, you must reference them by indexing into the Fields collection of the document. This can make the C\/AL code harder to understand.  
+ In addition, while you can name the **Customer** or **Address** fields, you must reference them by indexing into the Fields collection of the document. This can make the C/AL code harder to understand.  
   
 ##  <a name="CreateTemplate"></a> Creating the Word Template for Use by Automation  
  First, you create a Word template that you will use to create letters to customers that qualify for a discount. To create the template, you add mail merge fields for displaying data that is extracted from [!INCLUDE[navnow](includes/navnow_md.md)] that you want included in the customer letter, such as the customer's name, contact, and total sales.  
@@ -111,7 +111,7 @@ Automation lets you use the capabilities and features of Microsoft Office produc
   
 #### To declare the variables  
   
-1.  Choose the OnRun Trigger and on the **View** menu, choose **C\/AL Locals**, and then choose the **Variables** tab.  
+1.  Choose the OnRun Trigger and on the **View** menu, choose **C/AL Locals**, and then choose the **Variables** tab.  
   
 2.  On a blank line, type **wdApp** in the **Name** field and set the **Data Type** field to **Automation**.  
   
@@ -140,14 +140,14 @@ Automation lets you use the capabilities and features of Microsoft Office produc
     |CompanyInfo|Record|Company Information||  
     |TemplateName|Text||250|  
   
-9. Close the **C\/AL Locals** window.  
+9. Close the **C/AL Locals** window.  
   
-## Writing the C\/AL Code  
- Before you start writing the C\/AL code that uses Automation, you must do some initial processing. You start by calculating the **Sales \(LCY\)** FlowField. Then, you check whether the customer qualifies for a discount. Finally, you retrieve the information from the **Company Information** and **User** tables that you use to fill in some of the fields in the letter.  
+## Writing the C/AL Code  
+ Before you start writing the C/AL code that uses Automation, you must do some initial processing. You start by calculating the **Sales \(LCY\)** FlowField. Then, you check whether the customer qualifies for a discount. Finally, you retrieve the information from the **Company Information** and **User** tables that you use to fill in some of the fields in the letter.  
   
-#### To write the C\/AL code  
+#### To write the C/AL code  
   
-1.  In the C\/AL Editor, add the following lines of code to the **OnRun** section.  
+1.  In the C/AL Editor, add the following lines of code to the **OnRun** section.  
   
     ```  
     CALCFIELDS("Sales (LCY)");  
@@ -185,11 +185,11 @@ Automation lets you use the capabilities and features of Microsoft Office produc
   
      `expression` is a required argument, and it must be an expression that returns a Documents object. All the arguments are optional. You will use `Template` to open a new document that is based on your template.  
   
-     For the syntax in the C\/AL Symbol Menu, note that the Documents property returns an object of type DOCUMENTS, which is a user\-defined type. The property returns a Documents class or IDispatch interface. This information helps the compiler perform a better type check during compilation. The following statement can also pass both the compile\-time and the run\-time type checks.  
+     For the syntax in the C/AL Symbol Menu, note that the Documents property returns an object of type DOCUMENTS, which is a user-defined type. The property returns a Documents class or IDispatch interface. This information helps the compiler perform a better type check during compilation. The following statement can also pass both the compile-time and the run-time type checks.  
   
      `wdDoc := wdApp.Documents.Add(TemplateName);`  
   
-     Finally, the `Add` method returns a Document class. While you did not need to declare a C\/AL variable for the interim `Documents` class, you have declared a variable for the `wdDoc` return value,.  
+     Finally, the `Add` method returns a Document class. While you did not need to declare a C/AL variable for the interim `Documents` class, you have declared a variable for the `wdDoc` return value,.  
   
      The third line contains a call that must be made to ensure that the template works as intended.  
   
@@ -250,12 +250,12 @@ Automation lets you use the capabilities and features of Microsoft Office produc
   
 5.  Save and compile the codeunit and give it a number and a name. For this walkthrough, use **Discount Letter**.  
   
-### To\-Do List  
+### To-Do List  
  Although this code will work, you must add a few things to make it complete:  
   
 -   We recommend that you do not use a hardcoded template name. You should keep the template name in a table, and the user should select it from a page. You can then have different templates for different types of letters that you want to send to your customers.  
   
--   You should add some error\-handling code. For example, the `CREATE` call fails if the user does not have Word installed or if the installation has been corrupted. You should check the return value of `CREATE` and give an appropriate message if it fails.  
+-   You should add some error-handling code. For example, the `CREATE` call fails if the user does not have Word installed or if the installation has been corrupted. You should check the return value of `CREATE` and give an appropriate message if it fails.  
   
 -   The user should get a message if the customer does not qualify for the discount. In the example, the codeunit closes without any message.  
   
@@ -272,7 +272,7 @@ Automation lets you use the capabilities and features of Microsoft Office produc
   
 4.  To add a new action, locate the action container with the subtype set to **ActionItems**.  
   
-5.  Right\-click the next line after the **ActionItems** container, and then choose **New**.  
+5.  Right-click the next line after the **ActionItems** container, and then choose **New**.  
   
 6.  In the **Caption** field of the new line, type **Word Letter**.  
   
@@ -303,6 +303,6 @@ Automation lets you use the capabilities and features of Microsoft Office produc
  The letter that you have just created only contains six fields and no body text. Before you can use this letter in an actual situation, you will need to add some more fields, such as the name and address of your own company, the date, and the currency code, and the main text of the letter. It will also need some formatting to make it look more attractive. If you alter the order in which the fields appear in the template, you must change the numbering of the fields in the codeunit to ensure that the correct data is inserted into the appropriate fields.  
   
 ## See Also  
- [How to: Create an Automation Controller](../Topic/How%20to:%20Create%20an%20Automation%20Controller.md)   
+ [How to: Create an Automation Controller](How%20to:%20Create%20an%20Automation%20Controller.md)   
  [Using COM Technologies in Microsoft Dynamics NAV](Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md)   
  [COM Overview](COM-Overview.md)

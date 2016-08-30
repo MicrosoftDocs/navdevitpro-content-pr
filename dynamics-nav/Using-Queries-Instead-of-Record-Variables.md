@@ -12,10 +12,10 @@ caps.latest.revision: 9
 manager: edupont
 ---
 # Using Queries Instead of Record Variables
-In scenarios where you want to read records from multiple table, it can be a good idea to use a query instead of implementing code with record variables. Using a query can improve performance and also simplify the C\/AL code that is required to perform the operation.  
+In scenarios where you want to read records from multiple table, it can be a good idea to use a query instead of implementing code with record variables. Using a query can improve performance and also simplify the C/AL code that is required to perform the operation.  
   
 ## Code Example Using Record Variables  
- The following C\/AL code shows an example of using record variables to retrieve and handle records from two tables. You could potentially use this code to track item movement. The code uses two record variables, `Item` and `ItemLedgerEntry`, to retrieve the first five records from table 27 Item and table 32 Item Ledger Entry where the **Entry Type** field equals **Sale**. The retrieved records are passed to and handled by the `OutputData` function.  
+ The following C/AL code shows an example of using record variables to retrieve and handle records from two tables. You could potentially use this code to track item movement. The code uses two record variables, `Item` and `ItemLedgerEntry`, to retrieve the first five records from table 27 Item and table 32 Item Ledger Entry where the **Entry Type** field equals **Sale**. The retrieved records are passed to and handled by the `OutputData` function.  
   
 ```  
 count := 0;  
@@ -46,7 +46,7 @@ IF Item.FINDSET THEN
 ```  
   
 ## Corresponding Query Implementation  
- To get the same results with a query instead of record variables, you create a query and add C\/AL code to an object to run the query as follows:  
+ To get the same results with a query instead of record variables, you create a query and add C/AL code to an object to run the query as follows:  
   
 1.  In Query Designer, create a query that has the following characteristics:  
   
@@ -59,7 +59,7 @@ IF Item.FINDSET THEN
          This corresponds to the `ItemLedgerEntry` record variable in the record variable example.  
   
         > [!NOTE]  
-        >  The field of a filter row is not included in the resulting dataset. For more information, see [Understanding Query Filters](Understanding-Query-Filters.md) and [How to: Set Up Filter Rows in Query Designer](../Topic/How%20to:%20Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md).  
+        >  The field of a filter row is not included in the resulting dataset. For more information, see [Understanding Query Filters](Understanding-Query-Filters.md) and [How to: Set Up Filter Rows in Query Designer](How%20to:%20Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md).  
   
     -   Link the data items on the **No.** field of table 27 Item and **Item No.** field of table 32 ItemLedgerEntry by setting DataItemLink property. Set the DataItemLinkType property to **Exclude If No Matches**.  
   
@@ -84,14 +84,14 @@ WHILE ItemMovements.READ DO
   
 ```  
   
- The `ItemMovements.TOPNUMBEROFROWS(5);` statement will include only the first 5 records in the resulting dataset and corresponds to implementing the `count` variable in the record\-based code example.  
+ The `ItemMovements.TOPNUMBEROFROWS(5);` statement will include only the first 5 records in the resulting dataset and corresponds to implementing the `count` variable in the record-based code example.  
   
  The `OutputData` function performs the same operations as the OutputData function in the record variable example.  
   
 ## See Also  
  [Queries](Queries.md)   
- [How to: Create Queries](../Topic/How%20to:%20Create%20Queries.md)   
- [Working with Queries in C\-AL](Working-with-Queries-in-C-AL.md)   
+ [How to: Create Queries](How%20to:%20Create%20Queries.md)   
+ [Working with Queries in C-AL](Working-with-Queries-in-C-AL.md)   
  [Understanding Query Filters](Understanding-Query-Filters.md)   
  [SETRANGE Function \(Query\)](SETRANGE-Function--Query-.md)   
  [OPEN Function \(Query\)](OPEN-Function--Query-.md)   

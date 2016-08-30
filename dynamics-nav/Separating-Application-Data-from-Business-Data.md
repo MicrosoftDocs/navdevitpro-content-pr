@@ -23,13 +23,13 @@ caps.latest.revision: 11
  [!INCLUDE[navnow](includes/navnow_md.md)] includes [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets that help you export application tables to a dedicated database, and other cmdlets to help you maintain a multitenant deployment. For more information, see [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md).  
   
 ### Distribution of the System Tables in Each Database  
- The application tables are system tables that define the application. Other system tables remain in the business data database. The following table describes which system tables are moved to the application database when you run the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.Export\-NAVApplication](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.Export-NAVApplication) cmdlet and which tables remain in the business data database.  
+ The application tables are system tables that define the application. Other system tables remain in the business data database. The following table describes which system tables are moved to the application database when you run the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.Export-NAVApplication](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.Export-NAVApplication) cmdlet and which tables remain in the business data database.  
   
 |Application database|Business data database|  
 |--------------------------|----------------------------|  
 |**Chart**|**Access Control**|  
-|**Client Add\-in**|**Active Session**|  
-|**Client Add\-in Resources**|**Company**|  
+|**Client Add-in**|**Active Session**|  
+|**Client Add-in Resources**|**Company**|  
 |**Debugger Breakpoint**|**Device**|  
 |**Debugger Watch**|**Document Service**|  
 |**Object**|**Integration Page**|  
@@ -39,7 +39,7 @@ caps.latest.revision: 11
 |**Permission Set**|**Printer Selection**|  
 |**Profile**|**Record Link**|  
 |**Profile Metadata**|**Report List Translation**|  
-|**Send\-To Program**|**Session Event**|  
+|**Send-To Program**|**Session Event**|  
 |**Server Instance**|**User**|  
 |**Style Sheet**|**User Default Style Sheet**|  
 |**Web Service**|**User Metadata**|  
@@ -47,6 +47,6 @@ caps.latest.revision: 11
 ||**User Property**|  
   
 ## See Also  
- [How to: Export the Application Tables to a Dedicated Database](../Topic/How%20to:%20Export%20the%20Application%20Tables%20to%20a%20Dedicated%20Database.md)   
+ [How to: Export the Application Tables to a Dedicated Database](How%20to:%20Export%20the%20Application%20Tables%20to%20a%20Dedicated%20Database.md)   
  [Migrating to Multitenancy](Migrating-to-Multitenancy.md)   
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)

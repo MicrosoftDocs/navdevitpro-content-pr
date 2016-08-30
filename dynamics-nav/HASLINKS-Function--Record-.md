@@ -27,7 +27,7 @@ Ok := Record.HASLINKS
   
  The record in the table for which you want to find the link.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the record contains at least one link; otherwise, **false**.  
@@ -36,7 +36,7 @@ Ok := Record.HASLINKS
  The link can be a link to a web site, a file stored on the local or on a remote computer, or a link to a Microsoft Dynamics NAV page.  
   
 ## Example  
- The following code example retrieves record number 10000 from the Vendor table and stores it in the MyRecord variable. The HASLINKS function determines whether the record contains one or more links. Record number 10000 contains one link so the varHasLink variable displays **Yes**. This example requires that you create the following variables in the **C\/AL Globals** window.  
+ The following code example retrieves record number 10000 from the Vendor table and stores it in the MyRecord variable. The HASLINKS function determines whether the record contains one or more links. Record number 10000 contains one link so the varHasLink variable displays **Yes**. This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

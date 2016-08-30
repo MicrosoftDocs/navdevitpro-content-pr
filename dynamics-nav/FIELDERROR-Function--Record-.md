@@ -12,7 +12,7 @@ caps.latest.revision: 11
 manager: edupont
 ---
 # FIELDERROR Function (Record)
-Stops the execution of the code causing a run\-time error, and creates an error message for a field.  
+Stops the execution of the code causing a run-time error, and creates an error message for a field.  
   
 ## Syntax  
   
@@ -38,7 +38,7 @@ Record.FIELDERROR(Field, [Text])
  Use this optional parameter to include the text of the error message. If you do not use this parameter, then default text is used as shown in the following examples. You can use backslashes \(\\\) to break lines.  
   
 ## Remarks  
- Like a run\-time error, this function causes the system to automatically abort any transaction.  
+ Like a run-time error, this function causes the system to automatically abort any transaction.  
   
 ## Programming Guidelines  
  We recommend the following guidelines for error messages:  
@@ -63,7 +63,7 @@ CustomerRec.FIELDERROR("No.");
   
  The following message is displayed:  
   
- **You must specify No. in Customer No.\=''.**  
+ **You must specify No. in Customer No.=''.**  
   
 ## Example  
  In the next example, there is no *Text* parameter and the field has a value. This example requires that you create a Record variable for the **Customer** table named CustomerRec.  
@@ -75,10 +75,10 @@ CustomerRec.FIELDERROR("No.");
   
  The following message is displayed:  
   
- **No. must not be NEW 3500 in Customer No.\='NEW 3500'.**  
+ **No. must not be NEW 3500 in Customer No.='NEW 3500'.**  
   
 ## Example  
- The third example uses a non\-empty string as the *Text* parameter. This example requires that you create the following variables and text constant in the **C\/AL Globals** window.  
+ The third example uses a non-empty string as the *Text* parameter. This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
@@ -95,7 +95,7 @@ CustomerRec.FIELDERROR("No.", Text001);
   
  The following message is displayed:  
   
- **No. is not valid in Customer No.\='NEW 3500'.**  
+ **No. is not valid in Customer No.='NEW 3500'.**  
   
 ## See Also  
  [Record Data Type](Record-Data-Type.md)

@@ -29,7 +29,7 @@ Count := FilterPageBuilder.COUNT
 ## Example  
  The following example uses the COUNT function on a filter page object that includes a two filter controls for the **Date** system table.  
   
- This example requires that you create the following variables in the **C\/AL Globals** window.  
+ This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|SubType|  
 |-------------------|--------------|-------------|  

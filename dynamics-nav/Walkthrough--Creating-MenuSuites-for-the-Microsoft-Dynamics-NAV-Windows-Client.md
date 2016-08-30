@@ -14,7 +14,7 @@ manager: edupont
 # Walkthrough: Creating MenuSuites for the Microsoft Dynamics NAV Windows Client
 MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. MenuSuites contain links that enable you to browse application or objects, and make the applications or objects easier to access in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. A MenuSuite contains a set of menus that enable you to access reports, pages, codeunits, and so on, from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
- [!INCLUDE[navnowlong](includes/navnowlong_md.md)] provides a basic MenuSuite that you can modify, or you can create new MenuSuites from the basic MenuSuite. You create MenuSuites in Object Designer and modify them in Navigation Pane Designer. This walkthrough demonstrates how to create a MenuSuite from the basic Menusuite for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For information about how to modify MenuSuites, see [How to: Modify Menu Items in a MenuSuite](../Topic/How%20to:%20Modify%20Menu%20Items%20in%20a%20MenuSuite.md).  
+ [!INCLUDE[navnowlong](includes/navnowlong_md.md)] provides a basic MenuSuite that you can modify, or you can create new MenuSuites from the basic MenuSuite. You create MenuSuites in Object Designer and modify them in Navigation Pane Designer. This walkthrough demonstrates how to create a MenuSuite from the basic Menusuite for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For information about how to modify MenuSuites, see [How to: Modify Menu Items in a MenuSuite](How%20to:%20Modify%20Menu%20Items%20in%20a%20MenuSuite.md).  
   
 ## About This Walkthrough  
  This walkthrough shows you how to create a MenuSuite and modify department menus and menu items. This walkthrough illustrates the following tasks:  
@@ -39,9 +39,9 @@ MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](i
   
  Simon has been asked to perform the following tasks and create a MenuSuite that meets the following requirements:  
   
--   Create a new department named Customer Support. This department should contain customer and vendor information such as a Customer Card page, Vendor List page, and Customer\-Order Summary report. The information will be grouped under vendor and customer submenus. The List page should be accessed from the Lists category and the card page should be accessed from the Tasks subcategory.  
+-   Create a new department named Customer Support. This department should contain customer and vendor information such as a Customer Card page, Vendor List page, and Customer-Order Summary report. The information will be grouped under vendor and customer submenus. The List page should be accessed from the Lists category and the card page should be accessed from the Tasks subcategory.  
   
--   Add customer reports to the Reports and Analysis submenu The MenuSuite should contain the Customer\-Order Summary report, which should be accessed from the Reports and Analysis subcategory in the Customer Support department.  
+-   Add customer reports to the Reports and Analysis submenu The MenuSuite should contain the Customer-Order Summary report, which should be accessed from the Reports and Analysis subcategory in the Customer Support department.  
   
 -   Remove departments and menu items that are no longer needed.  
   
@@ -62,11 +62,11 @@ MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](i
   
      ![Microsoft Dynamics NAV MenuSuite Design Level](media/MicrosoftDynamicsNAVMenuSuiteDesignLevel.png "MicrosoftDynamicsNAVMenuSuiteDesignLevel")  
   
-3.  In the **Design Level**  window, choose **Dept \- Partner** and then choose **OK** to open **Navigation Pane Designer**.  
+3.  In the **Design Level**  window, choose **Dept - Partner** and then choose **OK** to open **Navigation Pane Designer**.  
   
      The design level that you selected is shown in the header section of **Navigation Pane Designer**.  
   
-4.  Right\-click the **Navigation Pane Designer** header and then choose **Close Navigation Pane Designer**.  
+4.  Right-click the **Navigation Pane Designer** header and then choose **Close Navigation Pane Designer**.  
   
 5.  In the **Save Changes** dialog box, verify that **Compile** is selected and then choose **Yes**.  
   
@@ -79,7 +79,7 @@ MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](i
   
 1.  In Object Designer, choose the MenuSuite that you just created and then choose **Design**.  
   
-2.  In Navigation Pane Designer, right\-click the department tabs section and then choose **Create Menu**.  
+2.  In Navigation Pane Designer, right-click the department tabs section and then choose **Create Menu**.  
   
 3.  In the **Create Menu** window, in the **Caption** text box, enter **Customer Support**. This is name of the new department.  
   
@@ -90,7 +90,7 @@ MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](i
   
 5.  In the **Multilanguage Editor** window, verify that **Language** is set to **English \(United States\)** and **Value** is set to **Customer Support**, and then choose the **OK** button. You can change the language in the **Windows Language List** window by choosing the up arrow in the **Language** column.  
   
-6.  In the **Bitmap** text box, enter **10** and then choose **OK**. The Customer Support department menu is added to the MenuSuite. Valid bitmap numbers are 0\-15. This is the bitmap that is displayed on the department menu in Navigation pane. However, the icons that are displayed on the departments on the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] are different.  
+6.  In the **Bitmap** text box, enter **10** and then choose **OK**. The Customer Support department menu is added to the MenuSuite. Valid bitmap numbers are 0-15. This is the bitmap that is displayed on the department menu in Navigation pane. However, the icons that are displayed on the departments on the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] are different.  
   
 ## Modifying the Department Menus  
  Next, you will make the changes that were requested in the department menus. First, you will change the **Financial Management** menu to **Accounting**. You will also make changes to the menu items in the departments. You will delete the **Human Resources** department and hide the **Services** department. Simon knows that he may need the **Services** department in the future so he will hide it for now.  
@@ -124,11 +124,11 @@ MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](i
   
 5.  Select the **Customer Support** department you created earlier. Notice that it does not contain any menu items or group folders.  
   
-6.  Right\-click the menu items section, choose **Create Group**, and then name the folder **Customers**. You will add pages that are related to customers in this group.  
+6.  Right-click the menu items section, choose **Create Group**, and then name the folder **Customers**. You will add pages that are related to customers in this group.  
   
-7.  Expand the Customer folder node, right\-click **\[Empty Group\]**, and then choose **Create Item** to open the **Create Item** window.  
+7.  Expand the Customer folder node, right-click **\[Empty Group\]**, and then choose **Create Item** to open the **Create Item** window.  
   
-8.  In the **Object Type** list, choose the drop\-down arrow, and then select **Page**.  
+8.  In the **Object Type** list, choose the drop-down arrow, and then select **Page**.  
   
 9. In the **Object ID** text box, choose the up arrow to open the **Page List** window and then choose **Customer Card** \(21\) and then choose **OK**.  
   
@@ -138,7 +138,7 @@ MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](i
   
 12. In the **Create Item** window, choose the **OK** button.  
   
-13. Right\-click the **Customer Card** menu item that you just created and then choose **Create Item** to open the **Create Item**  window.  
+13. Right-click the **Customer Card** menu item that you just created and then choose **Create Item** to open the **Create Item**  window.  
   
 14. Repeat steps 8 through 12 and set the following values in the **Create Item** window to add the **Customer List \(22\)** Page.  
   
@@ -147,12 +147,12 @@ MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](i
     |**Object Type**|Page.|  
     |**Object ID**|Customer List.|  
     |**Caption**|Customer List.|  
-    |**CaptionML**|ENU\=Customer List.|  
+    |**CaptionML**|ENU=Customer List.|  
     |**Department**|Lists.<br /><br /> This puts this menu item in the **Lists** sub category.|  
   
-15. Right\-click the menu items section, choose **Create Group** and then name the folder **Vendors**. You will add pages that are relate to vendors in this group.  
+15. Right-click the menu items section, choose **Create Group** and then name the folder **Vendors**. You will add pages that are relate to vendors in this group.  
   
-16. Expand the **Vendors** group folder node, right\-click **\[Empty Group\]**, and choose **Create Item** to open the **Create Item**  window.  
+16. Expand the **Vendors** group folder node, right-click **\[Empty Group\]**, and choose **Create Item** to open the **Create Item**  window.  
   
 17. Repeat steps 8 through 12 and set the following values in the **Create Item** window to add the **Vendor Card \(26\)** page.  
   
@@ -161,10 +161,10 @@ MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](i
     |**Object Type**|Page.|  
     |**Object ID**|Vendor Card.|  
     |**Caption**|Vendor Card.|  
-    |**CaptionML**|ENU\=Vendor Card.|  
+    |**CaptionML**|ENU=Vendor Card.|  
     |**Department**|Tasks.<br /><br /> This puts this menu item in the **Tasks** sub category.|  
   
-18. Right\-click the **Vendor Card** menu item you just added and then choose **Create Item…** to open the **Create Item**  window.  
+18. Right-click the **Vendor Card** menu item you just added and then choose **Create Item…** to open the **Create Item**  window.  
   
 19. Repeat steps 8 through 12 and set the following values in the **Create Item** window to add the **Vendor List \(27\)** pages.  
   
@@ -173,22 +173,22 @@ MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](i
     |**Object Type**|Page.|  
     |**Object ID**|Vendor List.|  
     |**Caption**|Vendor List.|  
-    |**CaptionML**|ENU\=Vendor List.|  
+    |**CaptionML**|ENU=Vendor List.|  
     |**Department**|Lists.<br /><br /> This puts this menu item in the **Lists** sub category.|  
   
-20. Right\-click **Vendors** and then choose **Create Item…** to open the **Create Item** window.  
+20. Right-click **Vendors** and then choose **Create Item…** to open the **Create Item** window.  
   
-21. Repeat steps 8 through 12 and set the following values in the **Create Item** window to add the **Customer\-Order Summary** \(107\) report.  
+21. Repeat steps 8 through 12 and set the following values in the **Create Item** window to add the **Customer-Order Summary** \(107\) report.  
   
     |||  
     |-|-|  
     |**Object Type**|Report.|  
-    |**Object ID**|Customer\-Order Summary.|  
-    |**Caption**|Customer\-Order Summary.|  
-    |**CaptionML**|ENU\=Customer\-Order Summary.|  
+    |**Object ID**|Customer-Order Summary.|  
+    |**Caption**|Customer-Order Summary.|  
+    |**CaptionML**|ENU=Customer-Order Summary.|  
     |**Department**|Reports and Analysis.<br /><br /> This puts this menu item in the **Reports and Analysis** sub category.|  
   
-     If the item you want to create already exists, instead of creating a new one you can just insert the existing item. For information about how to insert an item, see [How to: Insert Items in a MenuSuite](../Topic/How%20to:%20Insert%20Items%20in%20a%20MenuSuite.md).  
+     If the item you want to create already exists, instead of creating a new one you can just insert the existing item. For information about how to insert an item, see [How to: Insert Items in a MenuSuite](How%20to:%20Insert%20Items%20in%20a%20MenuSuite.md).  
   
      You have made all the changes that were requested. You will now save the MenuSuite and run it.  
   
@@ -196,7 +196,7 @@ MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](i
   
      ![MenuSuite Navigation Pane Designer](media/MicrosoftDynamicsNAVMenuSuiteCustSupport.jpg "MicrosoftDynamicsNAVMenuSuiteCustSupport")  
   
-22. Right\-click the Navigation Pane Designer header and choose **Close Navigation Pane Designer** to save the MenuSuite. Notice the ID and the name of the MenuSuite you are saving. The ID and the name are given by [!INCLUDE[navnow](includes/navnow_md.md)].  
+22. Right-click the Navigation Pane Designer header and choose **Close Navigation Pane Designer** to save the MenuSuite. Notice the ID and the name of the MenuSuite you are saving. The ID and the name are given by [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 23. In the **Save Changes** dialog box, verify that **Compile** is selected and then choose the **OK** button.  
   
@@ -215,11 +215,11 @@ MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](i
 3.  Verify that the **Customer Support** department and all the changes that you made appear in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
 ## Next Steps  
- You might want to create another MenuSuite at the Dept \- Company level. This MenuSuite will inherit from the MenuSuite that you just created in this walkthrough.  
+ You might want to create another MenuSuite at the Dept - Company level. This MenuSuite will inherit from the MenuSuite that you just created in this walkthrough.  
   
 ## See Also  
  [MenuSuites](MenuSuites.md)   
  [Designing MenuSuites](Designing-MenuSuites.md)   
- [How to: Modify a Department Menu in a MenuSuite](../Topic/How%20to:%20Modify%20a%20Department%20Menu%20in%20a%20MenuSuite.md)   
+ [How to: Modify a Department Menu in a MenuSuite](How%20to:%20Modify%20a%20Department%20Menu%20in%20a%20MenuSuite.md)   
  [Bitmap Property](Bitmap-Property.md)   
  [\($ S\_2490 Menu Properties $\)](-$-S_2490-Menu-Properties-$-.md)

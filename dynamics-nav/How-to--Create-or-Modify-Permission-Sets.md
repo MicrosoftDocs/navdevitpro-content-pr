@@ -49,7 +49,7 @@ If the default permission sets that are provided with [!INCLUDE[navnow](includes
     |**Yes**|Specifies that the permission type is granted with direct access to the object.|  
     |**Indirect**|Specifies that the permission type is granted with indirect access to the object.<br /><br /> Having indirect permission to a table means that you cannot open the table and read from it, but you can view the data in the table through another object, such as a page, that you have direct permission to access.<br /><br /> For more information, see the “Example – Indirect Permission” section in this topic.|  
   
-8.  In the **Security Filter** field, enter a filter that you want to apply to the permissions that you have assigned to the object. For more information, see [Record\-Level Security](Record-Level-Security.md).  
+8.  In the **Security Filter** field, enter a filter that you want to apply to the permissions that you have assigned to the object. For more information, see [Record-Level Security](Record-Level-Security.md).  
   
 9. Repeat steps 2 through 8 to add permissions for additional objects to the permission set.  
   
@@ -78,24 +78,24 @@ If the default permission sets that are provided with [!INCLUDE[navnow](includes
 ### Example – Indirect Permission  
  You can assign an indirect permission to use an object only through another object.  
   
- For example, a user can have permission to run codeunit 80, Sales\-Post. The Sales\-Post codeunit performs many tasks, including modifying table 39, Purchase Line. When the user runs the Sales\-Post codeunit, [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] checks whether the user has permission to modify the Purchase Line table.  
+ For example, a user can have permission to run codeunit 80, Sales-Post. The Sales-Post codeunit performs many tasks, including modifying table 39, Purchase Line. When the user runs the Sales-Post codeunit, [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] checks whether the user has permission to modify the Purchase Line table.  
   
 -   If not, then the codeunit cannot complete its tasks, and the user receives an error message.  
   
 -   If so, the codeunit runs successfully.  
   
- However, the user does not need to have full access to the Purchase Line table to run the codeunit. If the user has indirect permission for the Purchase Line table, then the Sales\-Post codeunit runs successfully.  
+ However, the user does not need to have full access to the Purchase Line table to run the codeunit. If the user has indirect permission for the Purchase Line table, then the Sales-Post codeunit runs successfully.  
   
- When a user has indirect permission, that user can only modify the Purchase Line table by running the Sales\-Post codeunit or another object that has permission to modify the Purchase Line table. The user can only modify the Purchase Line table when doing so from supported application areas. The user cannot run the feature inadvertently or maliciously by other methods.  
+ When a user has indirect permission, that user can only modify the Purchase Line table by running the Sales-Post codeunit or another object that has permission to modify the Purchase Line table. The user can only modify the Purchase Line table when doing so from supported application areas. The user cannot run the feature inadvertently or maliciously by other methods.  
   
 ## See Also  
  [Special Permission Sets](Special-Permission-Sets.md)   
  [About Permissions](About-Permissions.md)   
- [How to: Work with the BASIC Permission Set](../Topic/How%20to:%20Work%20with%20the%20BASIC%20Permission%20Set.md)   
- [Object\-Level Security](Object-Level-Security.md)   
- [User Groups](../Topic/User%20Groups.md)   
- [Customize the User Interface](../Topic/Customize%20the%20User%20Interface.md)   
- [How to: Try Out the UI Elements Removal Feature Based on Demonstration Permission Sets](../Topic/How%20to:%20Try%20Out%20the%20UI%20Elements%20Removal%20Feature%20Based%20on%20Demonstration%20Permission%20Sets.md)   
+ [How to: Work with the BASIC Permission Set](How%20to:%20Work%20with%20the%20BASIC%20Permission%20Set.md)   
+ [Object-Level Security](Object-Level-Security.md)   
+ [User Groups](User%20Groups.md)   
+ [Customize the User Interface](Customize%20the%20User%20Interface.md)   
+ [How to: Try Out the UI Elements Removal Feature Based on Demonstration Permission Sets](How%20to:%20Try%20Out%20the%20UI%20Elements%20Removal%20Feature%20Based%20on%20Demonstration%20Permission%20Sets.md)   
  [Removing Elements from the User Interface According to Permissions](Removing-Elements-from-the-User-Interface-According-to-Permissions.md)   
- [How to: Specify When UI Elements Are Removed](../Topic/How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md)   
- [How to: Remove UI Elements Using the AccessByPermission Property](../Topic/How%20to:%20Remove%20UI%20Elements%20Using%20the%20AccessByPermission%20Property.md)
+ [How to: Specify When UI Elements Are Removed](How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md)   
+ [How to: Remove UI Elements Using the AccessByPermission Property](How%20to:%20Remove%20UI%20Elements%20Using%20the%20AccessByPermission%20Property.md)

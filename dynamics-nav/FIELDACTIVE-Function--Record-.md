@@ -32,7 +32,7 @@ Ok := Record.FIELDACTIVE(Field)
   
  The field that you want to check.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the field is enabled; otherwise, **false**.  
@@ -41,7 +41,7 @@ Ok := Record.FIELDACTIVE(Field)
  Each field in a record can be set as enabled or disabled in the table description. You cannot use a disabled field because disabled fields cannot contain data.  
   
 ## Example  
- This example requires that you create the following variable and text constants in the C\/AL Globals window.  
+ This example requires that you create the following variable and text constants in the C/AL Globals window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

@@ -13,7 +13,7 @@ caps.latest.revision: 13
 # Exporting and Importing Companies and Other Data
 You can export a company from a [!INCLUDE[navnow](includes/navnow_md.md)] database and import it into another database, and you can export and import other types of data such as global data, application data, and application objects.  
   
- In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], you exported and imported this type of data as part of backing up and restoring databases. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can do this by using the **Export\-NAVData** and **Import\-NAVData** Windows PowerShell cmdlets. You can also import and export data in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
+ In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], you exported and imported this type of data as part of backing up and restoring databases. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can do this by using the **Export-NAVData** and **Import-NAVData** Windows PowerShell cmdlets. You can also import and export data in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
 > [!IMPORTANT]  
 >  If you want to back up data, we recommend that you use the SQL Server management tools.  
@@ -29,20 +29,20 @@ You can export a company from a [!INCLUDE[navnow](includes/navnow_md.md)] databa
  This means that you must import a company into a database that is based on the same application as in the database that the company was exported from.  
   
 > [!IMPORTANT]  
->  If you export companies and other data that is secured by data encryption, then remember to also export the encryption key so that you can access the data after you import it into another database, for example when you restore a backup. For more information, see [Manage Data Encryption](../Topic/Manage%20Data%20Encryption.md).  
+>  If you export companies and other data that is secured by data encryption, then remember to also export the encryption key so that you can access the data after you import it into another database, for example when you restore a backup. For more information, see [Manage Data Encryption](Manage%20Data%20Encryption.md).  
   
 ### What to Export  
  You can export specific sets of data, such as a company or other data. The following table describes what is exported depending on your choices.  
   
 |Type of data|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |------------------|---------------------------------------|  
-|Company|Exports the specified company or companies, or all companies in the database. This includes the company\-specific business data but no other data.|  
-|Global data|Exports data that is common to all companies in the database. This includes the report list, user IDs, and printer selections, but no company\-specific business data.|  
+|Company|Exports the specified company or companies, or all companies in the database. This includes the company-specific business data but no other data.|  
+|Global data|Exports data that is common to all companies in the database. This includes the report list, user IDs, and printer selections, but no company-specific business data.|  
 |Application data|Exports the data that defines the application in the database. This includes the permissions, permission sets, profiles, and style sheets.|  
 |Application|Exports all application objects. Data is not included.<br /><br /> This is similar to exporting all objects to an .fob file.|  
   
 ### What to Import  
- You can import all data from a .navdata file, or you can choose the data that you want to import. For example, if the file contains four companies, you can choose to import only one company. Similarly, if the file contains all data, you can choose to import only global data, for example. To import applications, you must use the **Import\-NAVData** Windows PowerShell cmdlet. You can import other data, such as companies, in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
+ You can import all data from a .navdata file, or you can choose the data that you want to import. For example, if the file contains four companies, you can choose to import only one company. Similarly, if the file contains all data, you can choose to import only global data, for example. To import applications, you must use the **Import-NAVData** Windows PowerShell cmdlet. You can import other data, such as companies, in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
  You can export and import the four types of data in different combinations. However, you must maintain database integrity and not leave databases in a state when you cannot open [!INCLUDE[navnow](includes/navnow_md.md)].  
   
@@ -56,9 +56,9 @@ You can export a company from a [!INCLUDE[navnow](includes/navnow_md.md)] databa
   
 |Name|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |----------|---------------------------------------|  
-|**Export\-NAVData**|Exports data from a [!INCLUDE[navnow](includes/navnow_md.md)] database. You can export company\-specific data, and you can choose to include global data, application data, or application objects.|  
-|**Import\-NAVData**|Imports data into a [!INCLUDE[navnow](includes/navnow_md.md)] database from a file. You can import all data in the file, or you can choose to include specific companies, global data, application data, or application objects.<br /><br /> You can only import an application into an empty database.|  
-|**Get\-NAVDataFile**|Gets information from a file that has been exported from a [!INCLUDE[navnow](includes/navnow_md.md)] database.<br /><br /> The extracted information includes the types of data that the file contains and any company names.|  
+|**Export-NAVData**|Exports data from a [!INCLUDE[navnow](includes/navnow_md.md)] database. You can export company-specific data, and you can choose to include global data, application data, or application objects.|  
+|**Import-NAVData**|Imports data into a [!INCLUDE[navnow](includes/navnow_md.md)] database from a file. You can import all data in the file, or you can choose to include specific companies, global data, application data, or application objects.<br /><br /> You can only import an application into an empty database.|  
+|**Get-NAVDataFile**|Gets information from a file that has been exported from a [!INCLUDE[navnow](includes/navnow_md.md)] database.<br /><br /> The extracted information includes the types of data that the file contains and any company names.|  
   
  The cmdlets take different parameter sets depending on how you connect to the database that you want to export data from or import data into. You can access the database through the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, or you can access the database directly as described in the following table.  
   
@@ -69,8 +69,8 @@ You can export a company from a [!INCLUDE[navnow](includes/navnow_md.md)] databa
   
  In multitenant deployments of [!INCLUDE[navnow](includes/navnow_md.md)], if you export or import business data, you must specify the ID of the tenant database. If you export or import applications, you must specify the application database and database server. You can only import application data if the specified tenant is mounted with the *–AllowAppDatabaseWrite* parameter.  
   
-### C\/AL Functions  
- You can use the following C\/AL functions to handle export and import of data programmatically:  
+### C/AL Functions  
+ You can use the following C/AL functions to handle export and import of data programmatically:  
   
 -   [EXPORTDATA Function \(Database\)](EXPORTDATA-Function--Database-.md)  
   
@@ -81,6 +81,6 @@ You can export a company from a [!INCLUDE[navnow](includes/navnow_md.md)] databa
  For examples of how to use these functions, see page 9900 and 9901 in the [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 ## See Also  
- [How to: Export and Import Companies and Other Data using Windows PowerShell Cmdlets](../Topic/How%20to:%20Export%20and%20Import%20Companies%20and%20Other%20Data%20using%20Windows%20PowerShell%20Cmdlets.md)   
- [How to: Export and Import Companies and Other Data in Clients](../Topic/How%20to:%20Export%20and%20Import%20Companies%20and%20Other%20Data%20in%20Clients.md)   
+ [How to: Export and Import Companies and Other Data using Windows PowerShell Cmdlets](How%20to:%20Export%20and%20Import%20Companies%20and%20Other%20Data%20using%20Windows%20PowerShell%20Cmdlets.md)   
+ [How to: Export and Import Companies and Other Data in Clients](How%20to:%20Export%20and%20Import%20Companies%20and%20Other%20Data%20in%20Clients.md)   
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)

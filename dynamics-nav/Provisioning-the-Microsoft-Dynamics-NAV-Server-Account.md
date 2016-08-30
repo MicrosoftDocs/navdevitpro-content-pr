@@ -17,7 +17,7 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] account is used by [!INCLU
  We recommend that you create a domain user account for running [!INCLUDE[nav_server](includes/nav_server_md.md)]. The Network Service account is considered less secure because it is a shared account that can be used by other unrelated network services. Any users who have rights to this account have rights to all services that are running on this account. If you create a domain user account to run [!INCLUDE[nav_server](includes/nav_server_md.md)], you can use the same account to run SQL Server, whether or not SQL Server is on the same computer.  
   
 > [!NOTE]  
->  Because [!INCLUDE[navnow](includes/navnow_md.md)] Setup and the New\-NavDatabase cmdlet configure the required permissions for the [!INCLUDE[nav_server](includes/nav_server_md.md)] account, you will typically use the procedures in this topic when you change the [!INCLUDE[nav_server](includes/nav_server_md.md)] account for an existing installation.  
+>  Because [!INCLUDE[navnow](includes/navnow_md.md)] Setup and the New-NavDatabase cmdlet configure the required permissions for the [!INCLUDE[nav_server](includes/nav_server_md.md)] account, you will typically use the procedures in this topic when you change the [!INCLUDE[nav_server](includes/nav_server_md.md)] account for an existing installation.  
   
  To provision a [!INCLUDE[nav_server](includes/nav_server_md.md)] account, complete the following procedures as described in this topic:  
   
@@ -42,23 +42,23 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] account is used by [!INCLU
  When this permission is lacking, [!INCLUDE[nav_server](includes/nav_server_md.md)] server instances may not be able to start.  
   
 ### Enabling the account to register an SPN on itself  
- To enable secure mutual authentication between clients and [!INCLUDE[nav_server](includes/nav_server_md.md)], you must configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] account to self\-register Service Principal Names \(SPNs\). Mutual authentication is recommended in a production environment but may not be necessary in a testing or staging environment. The following procedure assumes a computer running Windows Server 2008 or Windows Server 2008 R2. On Windows 7 or Windows Vista you would need to install the Remote Server Administration Tools first.  
+ To enable secure mutual authentication between clients and [!INCLUDE[nav_server](includes/nav_server_md.md)], you must configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] account to self-register Service Principal Names \(SPNs\). Mutual authentication is recommended in a production environment but may not be necessary in a testing or staging environment. The following procedure assumes a computer running Windows Server 2008 or Windows Server 2008 R2. On Windows 7 or Windows Vista you would need to install the Remote Server Administration Tools first.  
   
 ##### To enable the [!INCLUDE[nav_server](includes/nav_server_md.md)] account to register an SPN on itself  
   
-1.  Start the Active Directory Users and Computers snap\-in in Microsoft Management Console \(MMC\):  
+1.  Start the Active Directory Users and Computers snap-in in Microsoft Management Console \(MMC\):  
   
     1.  Choose **Run** on the Start menu, type **mmc** on the command line, and the choose **OK**.  
   
-    2.  When the console opens, select **Add\/Remove Snap\-In** from the File menu, select **Active Directory Users and Computers**, and choose **Add**.  
+    2.  When the console opens, select **Add\/Remove Snap-In** from the File menu, select **Active Directory Users and Computers**, and choose **Add**.  
   
-         If you do not see **Active Directory Users and Computers** in the list of available snap\-ins, you may need to use Server Manager to install the **Active Directory Domain Services** role on your server computer.  
+         If you do not see **Active Directory Users and Computers** in the list of available snap-ins, you may need to use Server Manager to install the **Active Directory Domain Services** role on your server computer.  
   
 2.  In MMC, select **Active Directory Users and Computers** in the tree view and choose **Advanced Features** from the View menu.  
   
 3.  Expand the domain node in the tree view and choose **Users**.  
   
-4.  Right\-click the service account, select **Properties**, and then choose to display the **Security** tab.  
+4.  Right-click the service account, select **Properties**, and then choose to display the **Security** tab.  
   
 5.  Choose **SELF** in the **Group or user names** list.  
   
@@ -67,9 +67,9 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] account is used by [!INCLU
 7.  Choose **OK** to exit the Properties panel, and close **Active Directory Users and Computers**.  
   
 ###  <a name="dbo"></a> Giving the account necessary database privileges in SQL Server  
- The [!INCLUDE[nav_server](includes/nav_server_md.md)] account must be a member of the db\_owner database role on the [!INCLUDE[navnow](includes/navnow_md.md)] database. When you install the [!INCLUDE[navnow](includes/navnow_md.md)] database by using [!INCLUDE[navnow](includes/navnow_md.md)] Setup or the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New\-NAVDatabase](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVDatabase) PowerShell cmdlet, you can specify the [!INCLUDE[nav_server](includes/nav_server_md.md)] account. In these cases, the server account that you specify should already have the necessary privileges in SQL Server. If you change the [!INCLUDE[nav_server](includes/nav_server_md.md)] account for an existing installation, then you should verify the account has the required privileges in SQL Server.  
+ The [!INCLUDE[nav_server](includes/nav_server_md.md)] account must be a member of the db\_owner database role on the [!INCLUDE[navnow](includes/navnow_md.md)] database. When you install the [!INCLUDE[navnow](includes/navnow_md.md)] database by using [!INCLUDE[navnow](includes/navnow_md.md)] Setup or the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVDatabase](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVDatabase) PowerShell cmdlet, you can specify the [!INCLUDE[nav_server](includes/nav_server_md.md)] account. In these cases, the server account that you specify should already have the necessary privileges in SQL Server. If you change the [!INCLUDE[nav_server](includes/nav_server_md.md)] account for an existing installation, then you should verify the account has the required privileges in SQL Server.  
   
- To verify database privileges after you create your [!INCLUDE[navnow](includes/navnow_md.md)] database, use SQL Server Management Studio and, if necessary, modify database privileges. If you have installed SQL Server with the guidelines in [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md), then SQL Server Management Studio is already installed on your computer. Otherwise, update your SQL Server installation to include the **Management Tools \- Complete option for SQL Server**.  
+ To verify database privileges after you create your [!INCLUDE[navnow](includes/navnow_md.md)] database, use SQL Server Management Studio and, if necessary, modify database privileges. If you have installed SQL Server with the guidelines in [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md), then SQL Server Management Studio is already installed on your computer. Otherwise, update your SQL Server installation to include the **Management Tools - Complete option for SQL Server**.  
   
 > [!NOTE]  
 >  If you installed the Demo option in [!INCLUDE[navnow](includes/navnow_md.md)] Setup, then the Network Service account already has the necessary database privileges.  
@@ -82,7 +82,7 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] account is used by [!INCLU
   
     1.  Navigate the tree view: **Security**, **Logins**  
   
-    2.  Right\-click **Logins** and choose **New Login**.  
+    2.  Right-click **Logins** and choose **New Login**.  
   
     3.  Choose **Search**, and use the **Select User or Group** dialog box to identify the [!INCLUDE[nav_server](includes/nav_server_md.md)] account.  
   
@@ -92,17 +92,17 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] account is used by [!INCLU
   
     1.  Navigate the tree view: **Databases**, **System Databases**, **master**, **Security**, **Users**.  
   
-    2.  Right\-click **Users** and choose **New User**.  
+    2.  Right-click **Users** and choose **New User**.  
   
     3.  Choose the ellipse button at the far right of the second line in the **Database User – New** dialog box.  
   
     4.  In the **Select Login** dialog box, enter or browse for the login you created for the [!INCLUDE[nav_server](includes/nav_server_md.md)] account.  
   
-    5.  Enter a name in the **User name** field \(the first line in the **Database User \- New** dialog box\).  
+    5.  Enter a name in the **User name** field \(the first line in the **Database User - New** dialog box\).  
   
-    6.  Choose **OK** to exit the **Database User \- New** dialog box.  
+    6.  Choose **OK** to exit the **Database User - New** dialog box.  
   
-4.  Grant the [!INCLUDE[nav_server](includes/nav_server_md.md)] login permissions on the master database. In the tree view, right\-click **master** and choose **Properties**. Then do the following in the **Database Properties – master** dialog box.  
+4.  Grant the [!INCLUDE[nav_server](includes/nav_server_md.md)] login permissions on the master database. In the tree view, right-click **master** and choose **Properties**. Then do the following in the **Database Properties – master** dialog box.  
   
     1.  Under **Select a Page**, choose **Permissions**.  
   
@@ -114,7 +114,7 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] account is used by [!INCLU
   
     5.  Navigate the tree view: **Databases**, **System Databases**, **master**, **Tables**, **System Tables**.  
   
-    6.  Right\-click the **dbo.$ndo$srvproperty** table and choose **Properties**.  
+    6.  Right-click the **dbo.$ndo$srvproperty** table and choose **Properties**.  
   
     7.  Under **Select a Page**, choose **Permissions**.  
   
@@ -128,7 +128,7 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] account is used by [!INCLU
   
     1.  Navigate the tree view: **Databases**, **\<your Microsoft Dynamics NAV database\>**, **Security**, **Users**.  
   
-    2.  Right\-click **Users** and choose **New User**.  
+    2.  Right-click **Users** and choose **New User**.  
   
     3.  In the **Database User – New** dialog box, choose the ellipse button at the far right of the second line.  
   
@@ -138,7 +138,7 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] account is used by [!INCLU
   
     6.  Choose **OK** to exit the **Database User – New** dialog box.  
   
-    7.  Right\-click your [!INCLUDE[navnow](includes/navnow_md.md)] database and choose **Properties**.  
+    7.  Right-click your [!INCLUDE[navnow](includes/navnow_md.md)] database and choose **Properties**.  
   
     8.  Under **Select a Page**, choose **Permissions**.  
   

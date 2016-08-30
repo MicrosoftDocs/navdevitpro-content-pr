@@ -24,7 +24,7 @@ This walkthrough demonstrates how to modify an existing query, which links two t
 -   Running the query to view the data that this query describes.  
   
 ## Prerequisites  
- This walkthrough builds on the steps that are described in [Walkthrough: Creating a Query to Link Two Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
+ This walkthrough builds on the steps that are described in [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
   
 ## Story  
  Viktor is a Microsoft Certified Partner working for [!INCLUDE[demoname](includes/demoname_md.md)] He wants to create a dataset that contains the total number of items in open sales orders for each customer. Viktor has already created a query that contains the quantity of items of every open sales order for each customer. He can modify that query so that it displays the sum of quantity of items for each customer.  
@@ -51,9 +51,9 @@ ORDER BY Quantity
   
 3.  In Query Designer, under the **Sales Line \(SL\)** data item, select the row for the **Quantity** column.  
   
-4.  In the **Method Type** column, choose **Totals** from the drop\-down list box.  
+4.  In the **Method Type** column, choose **Totals** from the drop-down list box.  
   
-5.  In the **Method**  column, choose **Sum** from the drop\-down list box.  
+5.  In the **Method**  column, choose **Sum** from the drop-down list box.  
   
     > [!NOTE]  
     >  The query is automatically set to group the dataset by the **No.** and **Name** fields as indicated by the check marks in the **Group By** column. This creates a single row for each customer in the dataset that shows the total quantity of sales for the customer. For more information about grouping, see [Understanding Query Totals and Grouping](Understanding-Query-Totals-and-Grouping.md).  
@@ -63,7 +63,7 @@ ORDER BY Quantity
      ![Query with Sum column](media/Query_WalkthroughTotals.png "Query\_WalkthroughTotals")  
   
     > [!NOTE]  
-    >  When you set the **Method** column to **Totals**, the name of the column is automatically changed from **Quantity** to **\<Sum\_Quantity\>**. The column name is specified by its [Name Property\-duplicate](Name-Property-duplicate.md). The **OrderBy** property identifies a column by the **Name** property.  
+    >  When you set the **Method** column to **Totals**, the name of the column is automatically changed from **Quantity** to **\<Sum\_Quantity\>**. The column name is specified by its [Name Property-duplicate](Name-Property-duplicate.md). The **OrderBy** property identifies a column by the **Name** property.  
   
 ## Sorting the Query Results  
  Viktor wants the resulting dataset to display records according to the item quantity in descending order from highest value to lowest value. To achieve this, he will set the [OrderBy Property](OrderBy-Property.md) on the query object.  
@@ -74,13 +74,13 @@ ORDER BY Quantity
   
 2.  On the **View** menu, choose **Properties**.  
   
-3.  In the **Query \- Properties** window, in the **Value** field of the **OrderBy** property, choose the **AssistEdit** button.  
+3.  In the **Query - Properties** window, in the **Value** field of the **OrderBy** property, choose the **AssistEdit** button.  
   
-4.  In the **Order By** window, in the **Column** field of the first row, choose the **AssistEdit** button to open the **Column List \- Table** window.  
+4.  In the **Order By** window, in the **Column** field of the first row, choose the **AssistEdit** button to open the **Column List - Table** window.  
   
-     The **Column List \- Table** window includes all the columns that are defined in the query.  
+     The **Column List - Table** window includes all the columns that are defined in the query.  
   
-5.  In the **Column List \- Table** window, select the **Sum\_Quantity** row, and then choose the **OK** button.  
+5.  In the **Column List - Table** window, select the **Sum\_Quantity** row, and then choose the **OK** button.  
   
 6.  In the **Order By** window, set the **Direction** field for the **Sum\_Quantity** column to **Descending**.  
   
@@ -102,7 +102,7 @@ ORDER BY Quantity
      ![The result of running Customer&#95;SumQuantity query](media/Query_WalkthroughTotals_Run.png "Query\_WalkthroughTotals\_Run")  
   
 ## Next Steps  
- Viktor’s next step is to create a more complex query. For more information, see [Walkthrough: Creating a Query to Link Three Tables](../Topic/Walkthrough:%20Creating%20a%20Query%20to%20Link%20Three%20Tables.md).  
+ Viktor’s next step is to create a more complex query. For more information, see [Walkthrough: Creating a Query to Link Three Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Three%20Tables.md).  
   
 ## See Also  
  [Understanding Query Totals and Grouping](Understanding-Query-Totals-and-Grouping.md)

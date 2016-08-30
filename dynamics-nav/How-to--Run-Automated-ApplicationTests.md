@@ -15,7 +15,7 @@ You can run the automated application tests that are included on the [!INCLUDE[n
   
  To run tests in the CAL Test Tool window, you must import the objects in the .fob files in the **TestToolkit** folder that is included on the [!INCLUDE[navnow](includes/navnow_md.md)] product media. For more information, see [Application Test Automation](Application-Test-Automation.md).  
   
- Any changes done to the database by running tests are automatically rolled back using the Test Isolation testability functionality. For more information, see [How to: Create a Test Runner Codeunit](../Topic/How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md).  
+ Any changes done to the database by running tests are automatically rolled back using the Test Isolation testability functionality. For more information, see [How to: Create a Test Runner Codeunit](How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md).  
   
 ### To run an application test suite  
   
@@ -26,7 +26,7 @@ You can run the automated application tests that are included on the [!INCLUDE[n
      From the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or the [!INCLUDE[nav_web](includes/nav_web_md.md)]: In the Search field, enter **CAL Test Tool**, and then choose the relevant link.  
   
     > [!WARNING]  
-    >  Make sure that the application language is English \(US\). If the language is any other language, the Microsoft\-provided tests will fail.  
+    >  Make sure that the application language is English \(US\). If the language is any other language, the Microsoft-provided tests will fail.  
   
 2.  On the Home tab, choose **Get Test Codeunits**, and then choose **All Test Codeunits**.  
   
@@ -35,7 +35,7 @@ You can run the automated application tests that are included on the [!INCLUDE[n
 3.  To run all loaded tests, on the Home tab, choose **Run**.  
   
     > [!NOTE]  
-    >  If you load all Microsoft\-provided tests and run all tests against the [!INCLUDE[demolong](includes/demolong_md.md)], the process takes approximately 8 hours.  
+    >  If you load all Microsoft-provided tests and run all tests against the [!INCLUDE[demolong](includes/demolong_md.md)], the process takes approximately 8 hours.  
   
      Alternatively, choose one or more tests, and then, on the Home tab, choose **Run Selected**.  
   

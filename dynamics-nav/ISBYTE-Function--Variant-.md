@@ -11,7 +11,7 @@ ms.assetid: 28606407-f54a-48e6-941f-811634efefff
 caps.latest.revision: 3
 ---
 # ISBYTE Function (Variant)
-Indicates whether a C\/AL variant contains a Byte data type variable.  
+Indicates whether a C/AL variant contains a Byte data type variable.  
   
 ## Syntax  
   
@@ -24,13 +24,13 @@ Ok := Variant.ISBYTE
  *Variant*  
  Type: Variant  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
- **true** if the C\/AL variant contains a Byte data type variable; otherwise, **false**.  
+ **true** if the C/AL variant contains a Byte data type variable; otherwise, **false**.  
   
 ## Example  
- The following example determines whether a C\/AL variant contains a Byte data type variable. The code initializes the MyByte data type variable with the constant text string **A**. The MyByte variable is assigned to the variant variable that is named MyVariant. The **ISBYTE** function determines whether the variant contains a Byte variable and stores the return value in the varResult variable. In this case, the variant contains a Byte variable so **Yes** is returned and displayed in a message box. This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ The following example determines whether a C/AL variant contains a Byte data type variable. The code initializes the MyByte data type variable with the constant text string **A**. The MyByte variable is assigned to the variant variable that is named MyVariant. The **ISBYTE** function determines whether the variant contains a Byte variable and stores the return value in the varResult variable. In this case, the variant contains a Byte variable so **Yes** is returned and displayed in a message box. This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

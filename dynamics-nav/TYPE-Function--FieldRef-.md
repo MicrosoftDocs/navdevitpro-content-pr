@@ -27,11 +27,11 @@ Type := FieldRef.TYPE
   
  Refers to the current field.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: The data type of the field.  
   
 ## Example  
- The following example opens the Customer table as a RecordRef variable that is named CustomerRecref. The code loops through fields 1 to 5 and creates a FieldRef that is named MyFieldRef for each field that is selected. `MyFieldRef.TYPE` retrieves the data of each field and displays it in a message box. This example requires that you create the following variables and text constant in the **C\/AL Globals** windows.  
+ The following example opens the Customer table as a RecordRef variable that is named CustomerRecref. The code loops through fields 1 to 5 and creates a FieldRef that is named MyFieldRef for each field that is selected. `MyFieldRef.TYPE` retrieves the data of each field and displays it in a message box. This example requires that you create the following variables and text constant in the **C/AL Globals** windows.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

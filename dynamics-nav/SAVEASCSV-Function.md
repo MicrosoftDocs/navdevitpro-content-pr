@@ -38,9 +38,9 @@ Saves the resulting dataset of a query as a comma separated values \(CSV\) file.
  The ID of the query object.  
   
 > [!TIP]  
->  On the **View** menu, choose **C\/AL Symbol Menu**, choose **Query**, and then select the query from a list.  
+>  On the **View** menu, choose **C/AL Symbol Menu**, choose **Query**, and then select the query from a list.  
   
- If the query that you specify does not exist, then a run\-time error occurs.  
+ If the query that you specify does not exist, then a run-time error occurs.  
   
  *FileName*  
  Type: Text  
@@ -78,12 +78,12 @@ Saves the resulting dataset of a query as a comma separated values \(CSV\) file.
 ## Return Value  
  Type: Boolean  
   
- If you omit this optional return value and if the query cannot be saved as a CSV file, then a run\-time error occurs that states that the query cannot be saved. If you include a return value, then it is assumed that you will handle any errors and no run\-time error occurs, even though the query is not saved.  
+ If you omit this optional return value and if the query cannot be saved as a CSV file, then a run-time error occurs that states that the query cannot be saved. If you include a return value, then it is assumed that you will handle any errors and no run-time error occurs, even though the query is not saved.  
   
  **true** if the query was saved; otherwise, **false**.  
   
 ## Remarks  
- A CSV file stores data in a plain text format. When you save a query dataset as a CSV file, each row of the dataset is stored on a separate line in the file, and each column in a row is separated by a comma or another delimiter of your choice. The first line of the file will contain the column names of the query. A query column name is specified by its [Name Property\-duplicate](Name-Property-duplicate.md).  
+ A CSV file stores data in a plain text format. When you save a query dataset as a CSV file, each row of the dataset is stored on a separate line in the file, and each column in a row is separated by a comma or another delimiter of your choice. The first line of the file will contain the column names of the query. A query column name is specified by its [Name Property-duplicate](Name-Property-duplicate.md).  
   
  When the **SAVEASCSV** function is called the query dataset is generated and then saved in CSV format to the file that is designated by the *FileName* parameter.  
   
@@ -121,7 +121,7 @@ Query.READ;
   
  This example requires that you do the following:  
   
--   Create a query called **My Customer Query** that is based on table **18 Customer** and contains the **No**, **Name**, and **City** columns. For more information, see [How to: Create Queries](../Topic/How%20to:%20Create%20Queries.md).  
+-   Create a query called **My Customer Query** that is based on table **18 Customer** and contains the **No**, **Name**, and **City** columns. For more information, see [How to: Create Queries](How%20to:%20Create%20Queries.md).  
   
 -   Create the following variables and text constant:  
   

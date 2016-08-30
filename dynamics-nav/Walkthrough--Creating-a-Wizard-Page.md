@@ -25,10 +25,10 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use the NavigatePage page 
 > -   for the **Next** button, set the **Image** property to **NextRecord**.  
 > -   for the **Finish** button, set the **Image** property to **Approve**.  
 >   
->  The **Back**, **Next**, and **Finish** buttons are always displayed in this order and are always right\-aligned.  
+>  The **Back**, **Next**, and **Finish** buttons are always displayed in this order and are always right-aligned.  
   
 ## About This Walkthrough  
- This walkthrough provides an overview of how to create the basic elements in a To\-do wizard page using Page Designer.  
+ This walkthrough provides an overview of how to create the basic elements in a To-do wizard page using Page Designer.  
   
  This walkthrough illustrates the following tasks:  
   
@@ -50,13 +50,13 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use the NavigatePage page 
 -   The [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 ## Story  
- Simon is a partner working for CRONUS International Ltd. Benjamin, the marketing manager at CRONUS, wants Simon to create a page that will enable him to create To\-dos for his team of salespeople. Simon must create a wizard page that makes it easy to link a To\-do with a sales campaign or sales opportunity. Simon knows that he can do this successfully if he uses the NavigatePage page type to create a To\-do wizard.  
+ Simon is a partner working for CRONUS International Ltd. Benjamin, the marketing manager at CRONUS, wants Simon to create a page that will enable him to create To-dos for his team of salespeople. Simon must create a wizard page that makes it easy to link a To-do with a sales campaign or sales opportunity. Simon knows that he can do this successfully if he uses the NavigatePage page type to create a To-do wizard.  
   
 ## Creating a Wizard Page  
  Simon must first create a new page of the type NavigatePage in Page Designer.  
   
 > [!NOTE]  
->  In this walkthrough, to learn about the properties and controls of a NavigatePage page, you will first create a blank page. Object Designer also includes a wizard that you can use to create a NavigatePage page that sets up many properties and controls for you. For more information about the wizard, see [How to: Create a Page](../Topic/How%20to:%20Create%20a%20Page.md).  
+>  In this walkthrough, to learn about the properties and controls of a NavigatePage page, you will first create a blank page. Object Designer also includes a wizard that you can use to create a NavigatePage page that sets up many properties and controls for you. For more information about the wizard, see [How to: Create a Page](How%20to:%20Create%20a%20Page.md).  
   
 #### To create a wizard page  
   
@@ -64,13 +64,13 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use the NavigatePage page 
   
 2.  In Object Designer, choose **Page**, and then choose **New**. The **New Page** window opens.  
   
-3.  In the **Table** text box, choose the up arrow, select the table 5080, **To\-do**, and then choose the **OK** button.  
+3.  In the **Table** text box, choose the up arrow, select the table 5080, **To-do**, and then choose the **OK** button.  
   
 4.  Choose **Create blank page**, and then choose the **OK** button.  
   
      The new page appears in Page Designer.  
   
-5.  On the first row, ensure that the **Type** column is set to **Container** and that the **SubType** column is set to **ContentArea**. In the **Name** column, type **Ben's To\-dos**.  
+5.  On the first row, ensure that the **Type** column is set to **Container** and that the **SubType** column is set to **ContentArea**. In the **Name** column, type **Ben's To-dos**.  
   
 6.  Select a blank row, and on the **View** menu, choose **Properties**.  
   
@@ -80,16 +80,16 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use the NavigatePage page 
   
 9. Close the **Page Designer** window.  
   
-10. In the **Save As** dialog box, in the **Name** text box, enter **Ben's To\-dos** and enter a page **ID**, for example, **50015**. Choose the **OK** button.  
+10. In the **Save As** dialog box, in the **Name** text box, enter **Ben's To-dos** and enter a page **ID**, for example, **50015**. Choose the **OK** button.  
   
- You have successfully created and saved a NavigatePage page, which you will use to create a To\-do wizard. Next you must add steps to the wizard.  
+ You have successfully created and saved a NavigatePage page, which you will use to create a To-do wizard. Next you must add steps to the wizard.  
   
 ## Adding Steps to a Wizard Page  
- In a wizard page, steps are controls that you place on a NavigatePage to enable it to work like a wizard. These controls initially appear as tabs in the content area of the page. Simon can create steps in Page Designer by adding a different group element for each step that he wants to create. Each control is displayed as a separate step to the user. The following procedure shows how to create the first step in a To\-do wizard that has four steps.  
+ In a wizard page, steps are controls that you place on a NavigatePage to enable it to work like a wizard. These controls initially appear as tabs in the content area of the page. Simon can create steps in Page Designer by adding a different group element for each step that he wants to create. Each control is displayed as a separate step to the user. The following procedure shows how to create the first step in a To-do wizard that has four steps.  
   
 #### To add steps to a wizard page  
   
-1.  In Page Designer, select your new Ben’s To\-dos wizard page, 50015, and choose **Design** to open it.  
+1.  In Page Designer, select your new Ben’s To-dos wizard page, 50015, and choose **Design** to open it.  
   
 2.  On the second row, in the **Name** column, type **Step1**. Set **Type** to **Group** and **SubType** to **Group**.  
   
@@ -97,7 +97,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use the NavigatePage page 
   
 4.  On the **View** menu, choose **Field Menu**.  
   
-     In the **Field Menu** window, select fields from the table 5080, **To\-do**.  
+     In the **Field Menu** window, select fields from the table 5080, **To-do**.  
   
 5.  Make your selection by holding down the Ctrl key while you select the following fields:  
   
@@ -111,7 +111,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use the NavigatePage page 
   
     -   Duration  
   
-    -   Team To\-do  
+    -   Team To-do  
   
     -   All Day Event  
   
@@ -125,15 +125,15 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use the NavigatePage page 
   
     |Field|Caption|  
     |-----------|-------------|  
-    |**Type**|What is the type of the to\-do?|  
-    |**Date**|What is the starting date of the to\-do?|  
-    |**Description**|Describe your to\-do|  
-    |**Start time**|What is the start time of the to\-do?|  
-    |**Duration**|What is the duration of the to\-do?|  
-    |**Team To\-do**|Team to\-do|  
+    |**Type**|What is the type of the to-do?|  
+    |**Date**|What is the starting date of the to-do?|  
+    |**Description**|Describe your to-do|  
+    |**Start time**|What is the start time of the to-do?|  
+    |**Duration**|What is the duration of the to-do?|  
+    |**Team To-do**|Team to-do|  
     |**All Day Event**|All Day Event|  
-    |**Ending Date**|What is the end date of the to\-do?|  
-    |**Ending Time**|What is the end time of the to\-do?|  
+    |**Ending Date**|What is the end date of the to-do?|  
+    |**Ending Time**|What is the end time of the to-do?|  
   
      All the fields that you add must be indented one space below Step 1. Remember to check indentation on all elements that you create, and adjust with the left and right arrows if necessary.  
   
@@ -142,7 +142,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use the NavigatePage page 
      In the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], each step is displayed like a tab control until you add **Back**, **Next**, and **Finish** buttons to the lower part of the page. You will read about this in Adding Wizard Buttons.  
   
 ## Adding the Attendee Subform  
- When Ben opens his new wizard page for the first time, he wants to be able to choose a salesperson to create a To\-do for. Simon must add a control to Step 1 of the wizard, which allows him to select attendees from table 5080, Attendees.  
+ When Ben opens his new wizard page for the first time, he wants to be able to choose a salesperson to create a To-do for. Simon must add a control to Step 1 of the wizard, which allows him to select attendees from table 5080, Attendees.  
   
 #### To add the attendee subform  
   
@@ -152,7 +152,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use the NavigatePage page 
   
 3.  Type **AttendeeSubForm** in the **Name** column. This row should be indented to match the other field elements in the **Step 1** group. Set **Type** to **Part**.  
   
-4.  On the **View** menu, choose **Properties**. Set the **PagePartID** property to **Attendee Wizard Subform** \(5198\). This will ensure that Ben can select attendees for his To\-dos in the first step of the wizard.  
+4.  On the **View** menu, choose **Properties**. Set the **PagePartID** property to **Attendee Wizard Subform** \(5198\). This will ensure that Ben can select attendees for his To-dos in the first step of the wizard.  
   
 5.  Close the **Properties** window, save your page, and in Page Designer, choose **Preview** to view your changes in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and then close the **Preview** window.  
   
@@ -165,7 +165,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use the NavigatePage page 
   
 #### To add wizard buttons  
   
-1.  In Page Designer, select your Ben’s To\-dos wizard page, 50015, and choose **Design** to open it.  
+1.  In Page Designer, select your Ben’s To-dos wizard page, 50015, and choose **Design** to open it.  
   
 2.  Select the first empty row below the steps that you have already created, and on the **View** menu, choose **Control Actions** to open **Action Designer**.  
   
@@ -185,7 +185,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use the NavigatePage page 
     |**RunPageMode**|**Edit**|  
     |**InFooterBar**|**Yes**|  
   
-7.  On the **View** menu, choose **C\/AL Globals**, and on the **Variables** tab, declare the following variables:  
+7.  On the **View** menu, choose **C/AL Globals**, and on the **Variables** tab, declare the following variables:  
   
     |Variable|DataType|  
     |--------------|--------------|  
@@ -193,27 +193,27 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use the NavigatePage page 
     |NextEnable|Boolean|  
     |FinishEnable|Boolean|  
   
-8.  To make sure the controls are visible on the page, from the **Action Designer** window, open the **C\/AL Code** window.  
+8.  To make sure the controls are visible on the page, from the **Action Designer** window, open the **C/AL Code** window.  
   
 9. In the OnAction\(\) trigger for Back, enter the following line of code `CurrPage.UPDATE(TRUE);`  
   
 10. Repeat this for the OnAction\(\) triggers for Next and Finish.  
   
-11. Close the **C\/AL Code** window.  
+11. Close the **C/AL Code** window.  
   
 12. Save and compile your page.  
   
 #### To enable the wizard buttons  
   
-1.  In Page Designer, select your Ben’s To\-dos wizard page, 50015, and choose **Design** to open it.  
+1.  In Page Designer, select your Ben’s To-dos wizard page, 50015, and choose **Design** to open it.  
   
-2.  On the **View** menu, choose **C\/AL Globals**, and on the **Functions** tab, create a new function named **DoStep**.  
+2.  On the **View** menu, choose **C/AL Globals**, and on the **Functions** tab, create a new function named **DoStep**.  
   
 3.  Choose the **Locals** button, and then, on the **Parameters** tab, enter **step** in the Name field, and choose **Integer** in the DataType field.  
   
-4.  Close the **C\/AL Locals** window and the **C\/AL Globals** window.  
+4.  Close the **C/AL Locals** window and the **C/AL Globals** window.  
   
-5.  On the **View** menu, choose **C\/AL Code**, and scroll down until you locate the **DoStep** function.  
+5.  On the **View** menu, choose **C/AL Code**, and scroll down until you locate the **DoStep** function.  
   
 6.  In the **DoStep** function, insert the following lines of code:  
   
@@ -257,7 +257,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use the NavigatePage page 
     END;  
     ```  
   
-8.  Close the C\/AL Code window.  
+8.  Close the C/AL Code window.  
   
 9. Save and compile the page.  
   
@@ -266,7 +266,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use the NavigatePage page 
   
 #### To run the page  
   
-1.  In Object Designer, select page Ben's To\-dos, and then choose **Run**.  
+1.  In Object Designer, select page Ben's To-dos, and then choose **Run**.  
   
      The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] opens and displays the new wizard page.  
   
@@ -276,8 +276,8 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use the NavigatePage page 
  For more information about adding variables, constants, and functions, see [Codeunits](Codeunits.md).  
   
 ## See Also  
- [How to: Add Actions to a Page](../Topic/How%20to:%20Add%20Actions%20to%20a%20Page.md)   
- [How to: Promote Actions on Pages](../Topic/How%20to:%20Promote%20Actions%20on%20Pages.md)   
- [How to: Create a Page](../Topic/How%20to:%20Create%20a%20Page.md)   
+ [How to: Add Actions to a Page](How%20to:%20Add%20Actions%20to%20a%20Page.md)   
+ [How to: Promote Actions on Pages](How%20to:%20Promote%20Actions%20on%20Pages.md)   
+ [How to: Create a Page](How%20to:%20Create%20a%20Page.md)   
  [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
- [How to: Run a Page](../Topic/How%20to:%20Run%20a%20Page.md)
+ [How to: Run a Page](How%20to:%20Run%20a%20Page.md)

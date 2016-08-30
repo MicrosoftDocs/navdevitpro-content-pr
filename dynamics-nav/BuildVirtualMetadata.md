@@ -23,7 +23,7 @@ finsql.exe command=buildvirtualmetadata, langid=<langid>, [servername=<server>,]
 #### Parameters  
  *langid*  
   
- Specifies the standard Windows three\-letter ID of the language for which you want to build the metadata, such as *ENU* or *DAN*.  
+ Specifies the standard Windows three-letter ID of the language for which you want to build the metadata, such as *ENU* or *DAN*.  
   
  *servername*  
   
@@ -76,10 +76,10 @@ finsql.exe command=buildvirtualmetadata, langid=<langid>, [servername=<server>,]
   
  *ntauthentication*  
   
- Specifies if you want to use NT authentication. The possible values are **yes**, **no**, **1**, or **0**. If you specify the *username* and *password* parameters, then you must specify **ntauthentication\=no** or **ntauthentication\=0**.  
+ Specifies if you want to use NT authentication. The possible values are **yes**, **no**, **1**, or **0**. If you specify the *username* and *password* parameters, then you must specify **ntauthentication=no** or **ntauthentication=0**.  
   
 ## Example  
- This example builds metadata for virtual tables in the *Demo Database NAV \(9\-0\)* database.  
+ This example builds metadata for virtual tables in the *Demo Database NAV \(9-0\)* database.  
   
 ```  
 finsql.exe command=buildvirtualmetadata, servername=TestComputer01\NAVDEMO, database="Demo Database NAV (9-0)"  

@@ -41,10 +41,10 @@ NewString := PADSTR(String, Length[, FillCharacter])
   
  This is a string of length 1. This character is used to fill empty spaces at the end of the output string. If not specified, spaces are used as default. If the length of *FillCharacter* is not 1, an error is returned.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text constant or code  
   
- The output string. The length of the return value is *Length* characters. If the maximum \(defined\) length of *NewString* is less than *Length*, a run\-time error occurs.  
+ The output string. The length of the return value is *Length* characters. If the maximum \(defined\) length of *NewString* is less than *Length*, a run-time error occurs.  
   
 ## Remarks  
  If you omit *FillCharacter* and *String* is shorter than *Length*, then spaces are added at the end of *String* to match *Length*.  
@@ -52,7 +52,7 @@ NewString := PADSTR(String, Length[, FillCharacter])
  If you omit *FillCharacter* and *String* is longer than *Length*, then *String* is truncated.  
   
 ## Example  
- This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  

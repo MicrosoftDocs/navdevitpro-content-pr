@@ -12,7 +12,7 @@ caps.latest.revision: 5
 manager: edupont
 ---
 # Query Triggers
-This topic describes the C\/AL triggers that are available for queries. Triggers are typically used to perform calculations and verification. Triggers let you control how data is selected and retrieved in a more complex and effective way than you can achieve by using properties.  
+This topic describes the C/AL triggers that are available for queries. Triggers are typically used to perform calculations and verification. Triggers let you control how data is selected and retrieved in a more complex and effective way than you can achieve by using properties.  
   
 ## Query Object Triggers  
  The following table lists the triggers that apply to the query object.  

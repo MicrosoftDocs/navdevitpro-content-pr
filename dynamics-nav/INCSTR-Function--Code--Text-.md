@@ -27,7 +27,7 @@ NewString := INCSTR(String)
   
  The string that you want to increase or decrease.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text constant or code  
   
  The result after increasing or decreasing *String*.  
@@ -35,18 +35,18 @@ NewString := INCSTR(String)
 ## Remarks  
  If *String* contains more than one number, then only the number closest to the end of the string is changed. For example, 'A10B20' is changed to 'A10B21' and 'a12b12c' to 'a12b13c'.  
   
- If *String* contains a negative number, then it is decreased by one. For example, '\-55' is changed to '\-56'.  
+ If *String* contains a negative number, then it is decreased by one. For example, '-55' is changed to '-56'.  
   
  Zero \(0\) is considered a positive number. Therefore, it is increased it by one. For example, 'A0' is changed to 'A1'.  
   
- When *String* contains a number such as 99, it is increased to 100 and the length of the output string is: LEN\(String\) \+ 1. For example, 'a12b99c' is changed to 'a12b100c'.  
+ When *String* contains a number such as 99, it is increased to 100 and the length of the output string is: LEN\(String\) + 1. For example, 'a12b99c' is changed to 'a12b100c'.  
   
  If *String* does not contain any number, the output string is an empty string. For example, 'aaa' is changed to ''.  
   
  INCSTR only increments integer numbers within strings, not decimals. For example, if you call INCSTR on the string **a99.99b** then the result is **a99.100b**.  
   
 ## Example  
- This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  
@@ -62,7 +62,7 @@ NewString := INCSTR(String)
 |Text constant|ENU value|  
 |-------------------|---------------|  
 |Text000|Account no. 99 does not balance.|  
-|Text001|Account no. 2342 shows a total of $\-452.|  
+|Text001|Account no. 2342 shows a total of $-452.|  
 |Text002|My bank account is empty.|  
 |Text003|My bank account shows a total of $0.|  
 |Text004|The text strings before INCSTR is called:\\%1\\%2\\%3\\%4|  
@@ -87,7 +87,7 @@ MESSAGE(Text005, ResultAccount, ResultNegAccount, ResultEmptyAccount, ResultMyAc
   
  **Account no. 99 does not balance.**  
   
- **Account no. 2342 shows a total of $ \-452.**  
+ **Account no. 2342 shows a total of $ -452.**  
   
  **My bank account is empty.**  
   
@@ -99,7 +99,7 @@ MESSAGE(Text005, ResultAccount, ResultNegAccount, ResultEmptyAccount, ResultMyAc
   
  **Account no. 100 does not balance.**  
   
- **Account no. 2342 shows a total of $ \-453.**  
+ **Account no. 2342 shows a total of $ -453.**  
   
  **My bank account shows a total of $ 1.**  
   

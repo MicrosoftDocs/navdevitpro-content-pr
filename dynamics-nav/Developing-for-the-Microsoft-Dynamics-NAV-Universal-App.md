@@ -29,19 +29,19 @@ This section describes how to develop for the [!INCLUDE[nav_uni_app](includes/na
   
 -   [Using HTTPS and Certificates](Using-HTTPS-and-Certificates.md)  
   
--   [How to: Implement the Camera in C\-AL](../Topic/How%20to:%20Implement%20the%20Camera%20in%20C-AL.md)  
+-   [How to: Implement the Camera in C-AL](How%20to:%20Implement%20the%20Camera%20in%20C-AL.md)  
   
--   [How to: Implement Location in C\-AL](../Topic/How%20to:%20Implement%20Location%20in%20C-AL.md)  
+-   [How to: Implement Location in C-AL](How%20to:%20Implement%20Location%20in%20C-AL.md)  
   
--   [How to: Display Data as Bricks](../Topic/How%20to:%20Display%20Data%20as%20Bricks.md)  
+-   [How to: Display Data as Bricks](How%20to:%20Display%20Data%20as%20Bricks.md)  
   
 -   [Defining Action Scope for Microsoft Dynamics NAV Pages](Defining-Action-Scope-for-Microsoft-Dynamics-NAV-Pages.md)  
   
--   [How to: Open the Microsoft Dynamics NAV Tablet or Phone Client from a Browser](../Topic/How%20to:%20Open%20the%20Microsoft%20Dynamics%20NAV%20Tablet%20or%20Phone%20Client%20from%20a%20Browser.md)  
+-   [How to: Open the Microsoft Dynamics NAV Tablet or Phone Client from a Browser](How%20to:%20Open%20the%20Microsoft%20Dynamics%20NAV%20Tablet%20or%20Phone%20Client%20from%20a%20Browser.md)  
   
 -   [Linking to the Microsoft Dynamics NAV Universal App](Linking-to-the-Microsoft-Dynamics-NAV-Universal-App.md)  
   
--   [Walkthrough: Developing a Sales Rep Role Center for the Microsoft Dynamics NAV Tablet Client](../Topic/Walkthrough:%20Developing%20a%20Sales%20Rep%20Role%20Center%20for%20the%20Microsoft%20Dynamics%20NAV%20Tablet%20Client.md)  
+-   [Walkthrough: Developing a Sales Rep Role Center for the Microsoft Dynamics NAV Tablet Client](Walkthrough:%20Developing%20a%20Sales%20Rep%20Role%20Center%20for%20the%20Microsoft%20Dynamics%20NAV%20Tablet%20Client.md)  
   
 -   [Adding Help to the Microsoft Dynamics NAV Universal App](Adding-Help-to-the-Microsoft-Dynamics-NAV-Universal-App.md)  
   

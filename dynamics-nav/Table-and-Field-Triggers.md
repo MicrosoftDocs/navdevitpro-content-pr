@@ -12,7 +12,7 @@ caps.latest.revision: 6
 manager: edupont
 ---
 # Table and Field Triggers
-[!INCLUDE[navnow](includes/navnow_md.md)] recognizes certain actions that happen to a table when you use it, for example, that you insert or modify data. In response, you can set up [!INCLUDE[navnow](includes/navnow_md.md)] to execute C\/AL code defined in a trigger. Triggers are predefined functions that are executed when certain actions happen. The bodies of these functions are initially empty and must be defined by the developer. Defining C\/AL code in triggers allows you to change the default behavior of [!INCLUDE[navnow](includes/navnow_md.md)].  
+[!INCLUDE[navnow](includes/navnow_md.md)] recognizes certain actions that happen to a table when you use it, for example, that you insert or modify data. In response, you can set up [!INCLUDE[navnow](includes/navnow_md.md)] to execute C/AL code defined in a trigger. Triggers are predefined functions that are executed when certain actions happen. The bodies of these functions are initially empty and must be defined by the developer. Defining C/AL code in triggers allows you to change the default behavior of [!INCLUDE[navnow](includes/navnow_md.md)].  
   
  The triggers in a table can be divided into two categories:  
   
@@ -37,4 +37,4 @@ manager: edupont
 |[OnLookup \(Fields\) Trigger](OnLookup--Fields--Trigger.md)|Lookup is activated.|  
   
 ## See Also  
- [How to: Define or Modify Table or Field Triggers](../Topic/How%20to:%20Define%20or%20Modify%20Table%20or%20Field%20Triggers.md)
+ [How to: Define or Modify Table or Field Triggers](How%20to:%20Define%20or%20Modify%20Table%20or%20Field%20Triggers.md)

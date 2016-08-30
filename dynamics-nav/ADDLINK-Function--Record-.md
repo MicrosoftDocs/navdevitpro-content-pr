@@ -32,7 +32,7 @@ Adds a link to a record.
   
  The link that you want to add to the record and an optional description of that link.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Integer  
   
  The ID of the URL that you want to add to the record.  

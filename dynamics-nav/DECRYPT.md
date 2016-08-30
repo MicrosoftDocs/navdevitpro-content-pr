@@ -25,7 +25,7 @@ String := DECRYPT(Str)
   
  The input string that will be decrypted.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Value: Text or Code  
   
  The output string that is decrypted.  
@@ -48,4 +48,4 @@ IF NOT ENCRYPTIONENABLED THEN
 ## See Also  
  [System](System.md)   
  [Technical Reference](Technical-Reference.md)   
- [C\-SIDE Reference Guide](C-SIDE-Reference-Guide.md)
+ [C-SIDE Reference Guide](C-SIDE-Reference-Guide.md)

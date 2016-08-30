@@ -18,9 +18,9 @@ A [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is the service thro
   
 1.  Open the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. Choose **Start**, and in the **Search programs and files** box, enter **Microsoft Dynamics NAV Administration**, and then choose the related link.  
   
-2.  In the tree view, which is the left pane, select the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer where you want to add an instance. This is typically the local computer, which is **Microsoft Dynamics NAV \(local\)**. For more information about remote administration, see [How to: Administer a Remote Microsoft Dynamics NAV Server Computer](../Topic/How%20to:%20Administer%20a%20Remote%20Microsoft%20Dynamics%20NAV%20Server%20Computer.md).  
+2.  In the tree view, which is the left pane, select the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer where you want to add an instance. This is typically the local computer, which is **Microsoft Dynamics NAV \(local\)**. For more information about remote administration, see [How to: Administer a Remote Microsoft Dynamics NAV Server Computer](How%20to:%20Administer%20a%20Remote%20Microsoft%20Dynamics%20NAV%20Server%20Computer.md).  
   
-3.  Right\-click the computer name, and then choose **Add Instance**.  
+3.  Right-click the computer name, and then choose **Add Instance**.  
   
 4.  Supply the required values in the **Server instance settings** section for the new instance.  
   

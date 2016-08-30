@@ -26,7 +26,7 @@ Ok := FieldRef.ACTIVE
   
  Refers to the current field.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the field is enabled; otherwise, **false**.  
@@ -44,7 +44,7 @@ Ok := FieldRef.ACTIVE
 > [!NOTE]  
 >  You can use the name of the table instead of the table number to open the table by using the following syntax: Recref.OPEN\(DATABASE::Customer\).  
   
- This example requires that you create the following variables and text constants in the **C\/AL Globals** windows.  
+ This example requires that you create the following variables and text constants in the **C/AL Globals** windows.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

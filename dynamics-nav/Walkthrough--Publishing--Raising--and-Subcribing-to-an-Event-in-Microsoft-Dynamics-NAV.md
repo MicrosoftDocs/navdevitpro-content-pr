@@ -33,23 +33,23 @@ This walkthrough uses a simple example scenario to demonstrate how to program ev
 -   [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 ## Story  
- When users change the address of a customer, you want to check that the address does not include invalid characters, which in this walkthrough is a plus sign \(\+\). To accomplish this, you will publish an event that is raised when the **Address** field on page **21 Customer Card** is changed. To handle the event when it is raised, you will add an event subscriber function that includes logic that checks the address value and returns a message to the user if it contains a plus sign.  
+ When users change the address of a customer, you want to check that the address does not include invalid characters, which in this walkthrough is a plus sign \(+\). To accomplish this, you will publish an event that is raised when the **Address** field on page **21 Customer Card** is changed. To handle the event when it is raised, you will add an event subscriber function that includes logic that checks the address value and returns a message to the user if it contains a plus sign.  
   
 > [!NOTE]  
 >  Most of the tasks are performed from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
   
 ## Publishing the Event  
- To publish an event, you create a C\/AL function that is set up to be an event publisher. An event publisher function can be added in any object, such as a codeunit, page, or table. This procedure will add the event publisher function to a new codeunit, in which you can potentially add more event publisher functions for other events later. Because you might want to change this event implementation in the future, you decide to create an integration event type. The event publisher requires a single text parameter for handling the address of the customer.  
+ To publish an event, you create a C/AL function that is set up to be an event publisher. An event publisher function can be added in any object, such as a codeunit, page, or table. This procedure will add the event publisher function to a new codeunit, in which you can potentially add more event publisher functions for other events later. Because you might want to change this event implementation in the future, you decide to create an integration event type. The event publisher requires a single text parameter for handling the address of the customer.  
   
 ###  <a name="CreateCU"></a> To create a new codeunit  
   
 1.  Open the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], and then connect to the [!INCLUDE[demoname](includes/demoname_md.md)] company.  
   
-     For more information, see [How to: Open Databases](../Topic/How%20to:%20Open%20Databases.md).  
+     For more information, see [How to: Open Databases](How%20to:%20Open%20Databases.md).  
   
 2.  On the **Tools** menu, choose **Object Designer**, choose **Codeunit**, and then choose **New**.  
   
-     The **C\/AL Editor** opens.  
+     The **C/AL Editor** opens.  
   
 3.  On the **File** menu, choose **Save**.  
   
@@ -57,13 +57,13 @@ This walkthrough uses a simple example scenario to demonstrate how to program ev
   
 5.  Make sure the **Compiled** check box is selected, and then choose the **OK** button.  
   
- The codeunit for the event publisher is created. Keep the C\/AL editor open for the next task. You can now add the event publisher function to publish the event.  
+ The codeunit for the event publisher is created. Keep the C/AL editor open for the next task. You can now add the event publisher function to publish the event.  
   
 #### To create the event publisher function to publisher the event  
   
-1.  On the **View** menu, choose **C\/AL Globals**.  
+1.  On the **View** menu, choose **C/AL Globals**.  
   
-2.  In the **C\/AL Globals** window, choose the **Functions** tab.  
+2.  In the **C/AL Globals** window, choose the **Functions** tab.  
   
 3.  In a blank row, in the **Name** field, enter **OnAddressLineChanged**.  
   
@@ -87,7 +87,7 @@ This walkthrough uses a simple example scenario to demonstrate how to program ev
   
     1.  On the **Functions** tab, select the **OnAddressLineChanged** function, and then choose the **Locals** button.  
   
-         The **C\/AL Locals** window opens.  
+         The **C/AL Locals** window opens.  
   
     2.  On the **Parameters** tab, in the **Name** field, enter **line**.  
   
@@ -98,18 +98,18 @@ This walkthrough uses a simple example scenario to demonstrate how to program ev
         > [!IMPORTANT]  
         >  An event publisher function cannot have a return value, variables, or text constants; otherwise you will not be able to compile the function.  
   
-    5.  Close the **C\/AL Locals** window.  
+    5.  Close the **C/AL Locals** window.  
   
-6.  Close the **C\/AL Globals** window.  
+6.  Close the **C/AL Globals** window.  
   
- The new function appears in the **C\/AL Editor** with the following signature:  
+ The new function appears in the **C/AL Editor** with the following signature:  
   
  `[IntegrationEvent] OnAddressLineChanged(line : Text[100])`  
   
  You can now raise the event in the application.  
   
 ## Raising the Event  
- After you create the event publisher function to publish the event, you can add code to the application to raise the event where it is required. In this case, you want to raise the event when the **Address** field is changed on the page **21 Customer Card**. Therefore, you will add code to the **Address \- OnValidate\(\)** trigger in C\/AL code of the page. Raising an event basically involves calling the event publisher function that publishes the event.  
+ After you create the event publisher function to publish the event, you can add code to the application to raise the event where it is required. In this case, you want to raise the event when the **Address** field is changed on the page **21 Customer Card**. Therefore, you will add code to the **Address - OnValidate\(\)** trigger in C/AL code of the page. Raising an event basically involves calling the event publisher function that publishes the event.  
   
 #### To raise the event  
   
@@ -119,9 +119,9 @@ This walkthrough uses a simple example scenario to demonstrate how to program ev
   
     2.  Select page **21 Customer Card**, and then choose the **Design** button.  
   
-2.  Add a C\/AL variable that specifies the object that publishes the event. In this case, the event publisher object is codeunit **50000 My Publishers**, which contains the event publisher function **OnAddressLineChanged** that you created in the previous procedure.  
+2.  Add a C/AL variable that specifies the object that publishes the event. In this case, the event publisher object is codeunit **50000 My Publishers**, which contains the event publisher function **OnAddressLineChanged** that you created in the previous procedure.  
   
-    1.  On the **View** menu, choose **C\/AL Globals**.  
+    1.  On the **View** menu, choose **C/AL Globals**.  
   
     2.  On a blank row, in the **Name** field, enter **Publisher**.  
   
@@ -129,9 +129,9 @@ This walkthrough uses a simple example scenario to demonstrate how to program ev
   
     4.  In the **Subtype** field, select codeunit **50000 My Publishers**.  
   
-    5.  Close the **C\/AL Globals** window.  
+    5.  Close the **C/AL Globals** window.  
   
-3.  In C\/AL code, add the following code on the **Address \- OnValidate\(\)** trigger to raise the event:  
+3.  In C/AL code, add the following code on the **Address - OnValidate\(\)** trigger to raise the event:  
   
     ```  
     Publisher.OnAddressLineChanged(Address);  
@@ -144,7 +144,7 @@ This walkthrough uses a simple example scenario to demonstrate how to program ev
  The event can now be subscribed to and handled.  
   
 ## Subscribing to and Handling an Event  
- Once an event has been published you can add code to the application that subscribes to and handles the event when it is raised. For example, in this walkthrough, when a user changes the address of a customer \(the event\), you want code that checks that the value does not contain a plus sign. Subscribing to and handling an event is accomplished by creating a C\/AL function that is set up as an event subscriber and subscribes to a specific event \(defined by an event publisher function\). The event subscription function contains the application logic for handling the raised event. For this walkthrough, you will create an event subscriber function that subscribes to the **OnAddressLineChanged** function in codeunit **50001 My Publishers**.  
+ Once an event has been published you can add code to the application that subscribes to and handles the event when it is raised. For example, in this walkthrough, when a user changes the address of a customer \(the event\), you want code that checks that the value does not contain a plus sign. Subscribing to and handling an event is accomplished by creating a C/AL function that is set up as an event subscriber and subscribes to a specific event \(defined by an event publisher function\). The event subscription function contains the application logic for handling the raised event. For this walkthrough, you will create an event subscriber function that subscribes to the **OnAddressLineChanged** function in codeunit **50001 My Publishers**.  
   
  Unlike an event publisher function, an event subscriber function can only reside in a codeunit object. This procedure will add the event subscriber function to a new codeunit, in which you can potentially add more event subscriber functions for other events later.  
   
@@ -152,13 +152,13 @@ This walkthrough uses a simple example scenario to demonstrate how to program ev
   
 -   In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], create a new codeunit that has the ID **50001** and the name **My Subscribers**.  
   
-     For more information, see [To create a new codeunit](../Topic/Walkthrough:%20Publishing,%20Raising,%20and%20Subcribing%20to%20an%20Event%20in%20Microsoft%20Dynamics%20NAV.md#CreateCU).  
+     For more information, see [To create a new codeunit](Walkthrough:%20Publishing,%20Raising,%20and%20Subcribing%20to%20an%20Event%20in%20Microsoft%20Dynamics%20NAV.md#CreateCU).  
   
 #### To create the event subscriber function to subscribe to and handle the event  
   
-1.  On the **View** menu, choose **C\/AL Globals**.  
+1.  On the **View** menu, choose **C/AL Globals**.  
   
-2.  In the **C\/AL Globals** window, choose the **Functions** tab.  
+2.  In the **C/AL Globals** window, choose the **Functions** tab.  
   
 3.  In a blank row, in the **Name** field, enter **CheckAddressLine**.  
   
@@ -177,21 +177,21 @@ This walkthrough uses a simple example scenario to demonstrate how to program ev
         > [!NOTE]  
         >  When you get a message that asks whether you want to overwrite the edited function's signature, choose **Yes** to continue.  
   
-    4.  Close the **Properties** window to return to the **C\/AL Globals** window.  
+    4.  Close the **Properties** window to return to the **C/AL Globals** window.  
   
-5.  A local parameter that has the name **line** and the data type **Text** has been automatically added to the new **CheckAddressLine** function. To verify this, select the function in **C\/AL Globals** window, choose the **Locals** button, and then see the **Parameters** tab.  
+5.  A local parameter that has the name **line** and the data type **Text** has been automatically added to the new **CheckAddressLine** function. To verify this, select the function in **C/AL Globals** window, choose the **Locals** button, and then see the **Parameters** tab.  
   
-     Close the C\/AL Locals window when done.  
+     Close the C/AL Locals window when done.  
   
-6.  Close the **C\/AL Globals** window.  
+6.  Close the **C/AL Globals** window.  
   
-     The new function appears in the **C\/AL Editor** with the following signature:  
+     The new function appears in the **C/AL Editor** with the following signature:  
   
      `LOCAL [EventSubscriber] CheckAddressLine(line : Text[100])`  
   
      You can now add code to handle the event.  
   
-7.  To handle the event, add the following code to the `CheckAddressLine` function in the C\/AL editor:  
+7.  To handle the event, add the following code to the `CheckAddressLine` function in the C/AL editor:  
   
     ```  
     IF (STRPOS(line, '+') > 0) THEN BEGIN  

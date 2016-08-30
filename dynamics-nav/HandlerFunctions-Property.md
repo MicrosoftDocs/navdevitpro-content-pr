@@ -15,10 +15,10 @@ manager: edupont
 Specifies the handler functions that are used by the test function.  
   
 ## Applies To  
- C\/AL test functions on test codeunits. A test function is a function that has the [FunctionType Property \(Test Codeunits\)](FunctionType-Property--Test-Codeunits-.md) set to **Test**.  
+ C/AL test functions on test codeunits. A test function is a function that has the [FunctionType Property \(Test Codeunits\)](FunctionType-Property--Test-Codeunits-.md) set to **Test**.  
   
 ## Property Value  
- The handler function name as specified on the **Functions** tab of **the C\/AL Global** window for the test codeunit.  
+ The handler function name as specified on the **Functions** tab of **the C/AL Global** window for the test codeunit.  
   
 > [!NOTE]  
 >  If the test function uses more than one handler function, then you should separate the handler function names by a comma.  
@@ -36,10 +36,10 @@ Specifies the handler functions that are used by the test function.
   
 -   Every handler function that you enter in the **HandlerFunctions** property must be called at least once in the test function. If you execute a test function that has a handler function listed that is not called, then the test fails.  
   
- For more information, see [Testing the Application](Testing-the-Application.md) and [How to: Create Handler Functions](../Topic/How%20to:%20Create%20Handler%20Functions.md).  
+ For more information, see [Testing the Application](Testing-the-Application.md) and [How to: Create Handler Functions](How%20to:%20Create%20Handler%20Functions.md).  
   
 ## See Also  
  [Testing the Application](Testing-the-Application.md)   
- [How to: Create Test Codeunits and Test Functions](../Topic/How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md)   
- [How to: Create Handler Functions](../Topic/How%20to:%20Create%20Handler%20Functions.md)   
- [Walkthrough: Testing Purchase Invoice Discounts](../Topic/Walkthrough:%20Testing%20Purchase%20Invoice%20Discounts.md)
+ [How to: Create Test Codeunits and Test Functions](How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md)   
+ [How to: Create Handler Functions](How%20to:%20Create%20Handler%20Functions.md)   
+ [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough:%20Testing%20Purchase%20Invoice%20Discounts.md)

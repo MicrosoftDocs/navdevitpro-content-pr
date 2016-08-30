@@ -39,9 +39,9 @@ Creates, opens, and closes a page that you specify. When a page is run modally, 
   
  Unlike the [PAGE.RUN Function](PAGE.RUN-Function.md), the variable is not automatically cleared after this function runs.  
   
- If the page that you specify does not exist, then a compile\-time error occurs.  
+ If the page that you specify does not exist, then a compile-time error occurs.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Action  
   
  Specifies what action the user took on the page. The following table shows the possible return values for the different user actions. In some cases, the actions for the return values are different when the page displays in the [!INCLUDE[nav_web](includes/nav_web_md.md)] than in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  

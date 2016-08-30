@@ -39,7 +39,7 @@ NewString := DELSTR(String, Position[, Length])
   
  Specifies how many characters to delete. *Length* must be greater than zero \(0\).  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Text constant or code  
   
  The resulting string.  
@@ -52,7 +52,7 @@ NewString := DELSTR(String, Position[, Length])
  If you omit *Length* and *Position* is greater than the length of *String*, then *String* is returned unchanged.  
   
 ## Example  
- This example requires that you create the following variables and text constants in the **C\/AL Globals** window.  
+ This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  
@@ -63,7 +63,7 @@ NewString := DELSTR(String, Position[, Length])
   
 |Text constant|ENU value|  
 |-------------------|---------------|  
-|Text000|Adjusting prices \- Please wait.|  
+|Text000|Adjusting prices - Please wait.|  
 |Text001|The original string:\\\>%1\<|  
 |Text002|The modified string:\\\>%2\<|  
   
@@ -80,13 +80,13 @@ MESSAGE(Text002, NewStr);
   
  **The original string:**  
   
- **\>Adjusting prices \- Please wait.\<**  
+ **\>Adjusting prices - Please wait.\<**  
   
  The second message window displays the following:  
   
  **The modified string:**  
   
- **\>Adjusting \- Please wait.\<**  
+ **\>Adjusting - Please wait.\<**  
   
 ## See Also  
  [Code Data Type](Code-Data-Type.md)   

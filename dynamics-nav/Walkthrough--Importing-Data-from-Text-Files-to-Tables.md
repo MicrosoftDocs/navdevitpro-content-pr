@@ -14,9 +14,9 @@ manager: edupont
 # Walkthrough: Importing Data from Text Files to Tables
 XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)] database to a file or import data from a file to a [!INCLUDE[navnow](includes/navnow_md.md)] database. The file format can be an XML document, fixed width text file, or CSV \(Comma Separated Value\) file. Exporting or importing data by using these file formats enables seamless exchange of data between different computer systems. When importing files to a [!INCLUDE[navnow](includes/navnow_md.md)] database, you can replace an entire record or update specific fields in records that already exist in the database. You can also automatically save the data you are importing or you can manipulate the data in code before you save it.  
   
- In this walkthrough, you will import data from a fixed width text file to a [!INCLUDE[navnow](includes/navnow_md.md)] database. The text file contains data will be used to update specific fields in an existing record. The data in text file will be automatically saved into the database. For information about how to export data to XML file format, see [Walkthrough: Exporting Data from Tables to XML Documents](../Topic/Walkthrough:%20Exporting%20Data%20from%20Tables%20to%20XML%20Documents.md). For information about how to export CSV files, see [Walkthrough: Exporting Data from Tables to CSV Files](../Topic/Walkthrough:%20Exporting%20Data%20from%20Tables%20to%20CSV%20Files.md).  
+ In this walkthrough, you will import data from a fixed width text file to a [!INCLUDE[navnow](includes/navnow_md.md)] database. The text file contains data will be used to update specific fields in an existing record. The data in text file will be automatically saved into the database. For information about how to export data to XML file format, see [Walkthrough: Exporting Data from Tables to XML Documents](Walkthrough:%20Exporting%20Data%20from%20Tables%20to%20XML%20Documents.md). For information about how to export CSV files, see [Walkthrough: Exporting Data from Tables to CSV Files](Walkthrough:%20Exporting%20Data%20from%20Tables%20to%20CSV%20Files.md).  
   
- XMLports can be called and run from codeunits or run from Object Designer. In this walkthrough, you will run the XMLport from Object Designer. For information about how to run XMLports from codeunits, see [Walkthrough: Exporting Data from Tables to XML Documents](../Topic/Walkthrough:%20Exporting%20Data%20from%20Tables%20to%20XML%20Documents.md).  
+ XMLports can be called and run from codeunits or run from Object Designer. In this walkthrough, you will run the XMLport from Object Designer. For information about how to run XMLports from codeunits, see [Walkthrough: Exporting Data from Tables to XML Documents](Walkthrough:%20Exporting%20Data%20from%20Tables%20to%20XML%20Documents.md).  
   
 ## About This Walkthrough  
  This walkthrough shows you how to import data from a fixed width text file and update existing records in a [!INCLUDE[navnow](includes/navnow_md.md)] table. The walkthrough illustrates the following tasks:  
@@ -51,7 +51,7 @@ LS-81       89.89
 LS-10PC     59.59  
 ```  
   
- The first column is the data in the **No.** field, and the second column is the data that will be used to update the **Unit Price** field. You can view and confirm the current prices for the loud speakers in the **Item** table before the records are updated. For information about how to view table data, see [How to: View and Sort Table Data](../Topic/How%20to:%20View%20and%20Sort%20Table%20Data.md).  
+ The first column is the data in the **No.** field, and the second column is the data that will be used to update the **Unit Price** field. You can view and confirm the current prices for the loud speakers in the **Item** table before the records are updated. For information about how to view table data, see [How to: View and Sort Table Data](How%20to:%20View%20and%20Sort%20Table%20Data.md).  
   
 ## Designing the XMLport  
  You create an XMLport by designing it in XMLport Designer and setting properties. You define the table and fields that you want to import data to in XMLport Designer. You then compile and save the XMLport.  
@@ -74,7 +74,7 @@ LS-10PC     59.59
   
 8.  In the **Node Type** column, verify that **Element** is selected.  
   
-9. In the **Source Type** column, select **Table** from the drop\-down list. This node represents a record in the **Item** table.  
+9. In the **Source Type** column, select **Table** from the drop-down list. This node represents a record in the **Item** table.  
   
 10. In the **Data Source** column, choose the up arrow, select the **Item** table \(27\) from the **Table List** window and then choose the **OK** button. The data will be imported to the **Item** table.  
   
@@ -110,25 +110,25 @@ LS-10PC     59.59
   
 ##### To set properties  
   
-1.  In Object Designer, select an empty row, and on the **View** menu, choose **Properties** to open the **XMLport\-Properties** window.  
+1.  In Object Designer, select an empty row, and on the **View** menu, choose **Properties** to open the **XMLport-Properties** window.  
   
-2.  In the **XMLport\-Properties** window, locate the [Direction Property](Direction-Property.md), choose the arrow in the **Value** column and then set value to **Import**. This defines the XMLport to import.  
+2.  In the **XMLport-Properties** window, locate the [Direction Property](Direction-Property.md), choose the arrow in the **Value** column and then set value to **Import**. This defines the XMLport to import.  
   
-3.  In the **XMLport\-Properties** window, locate the [Format Property \(XMLports\)](Format-Property--XMLports-.md) property, and then set the **Value** column to **Fixed Text**. Data in fixed width text files use a specified amount of space.  
+3.  In the **XMLport-Properties** window, locate the [Format Property \(XMLports\)](Format-Property--XMLports-.md) property, and then set the **Value** column to **Fixed Text**. Data in fixed width text files use a specified amount of space.  
   
 4.  Select the **ItemRecord** row, and on the **View** menu, choose **Properties**.  
   
-5.  In the **ItemRecord \- Properties** window, locate the [AutoSave Property](AutoSave-Property.md), and then verify that the **Value** column is set to **Yes**. This allows the data to be automatically saved to the table.to the table.  
+5.  In the **ItemRecord - Properties** window, locate the [AutoSave Property](AutoSave-Property.md), and then verify that the **Value** column is set to **Yes**. This allows the data to be automatically saved to the table.to the table.  
   
 6.  Locate the [AutoUpdate Property](AutoUpdate-Property.md), and then set the **Value** column to **Yes**. This allows the data in the unit price field to be updated.  
   
 7.  Select the **No.** row, and then on the **View** menu, choose **Properties**.  
   
-8.  In the **No. \- Properties** window, locate the [Width Property \(XMLport\)](Width-Property--XMLport-.md), and then set the **Value** column to **8**. This defines the width of the **No.** field in the file.  
+8.  In the **No. - Properties** window, locate the [Width Property \(XMLport\)](Width-Property--XMLport-.md), and then set the **Value** column to **8**. This defines the width of the **No.** field in the file.  
   
 9. Select the **UnitPrice** row, and on the **View** menu, choose **Properties**.  
   
-10. In the **Unit Price \- Properties** window, locate the [Width Property \(XMLport\)](Width-Property--XMLport-.md), and then set the Value column to **10**. This defines the width of the data in the file.  
+10. In the **Unit Price - Properties** window, locate the [Width Property \(XMLport\)](Width-Property--XMLport-.md), and then set the Value column to **10**. This defines the width of the data in the file.  
   
     > [!NOTE]  
     >  The width that you enter must be equal or greater than the width of the data with most characters in the column. If the width of the data in the column is less than the width you specified, then the extra space is ignored.  
@@ -149,9 +149,9 @@ LS-10PC     59.59
   
 #### To run the XMLport from Object Designer  
   
-1.  In Object Designer, select the XMLport you just created \(50003\), and then choose the **Run** button. The **Edit\-NewItemPrice** page is displayed.  
+1.  In Object Designer, select the XMLport you just created \(50003\), and then choose the **Run** button. The **Edit-NewItemPrice** page is displayed.  
   
-2.  On the **Edit \- NewItemPrice** page, choose the **OK** button. The **Import** window is displayed.  
+2.  On the **Edit - NewItemPrice** page, choose the **OK** button. The **Import** window is displayed.  
   
 3.  From the **Import** window, browse to the location on your computer where the file that you want to import is located.  
   
@@ -160,10 +160,10 @@ LS-10PC     59.59
 5.  Verify that the **Unit Price** fields in the records have been updated.  
   
     > [!NOTE]  
-    >  You can write code in the [OnBeforeModifyRecord Trigger](OnBeforeModifyRecord-Trigger.md) in the C\/AL code editor to indicate that the records have been updated.  
+    >  You can write code in the [OnBeforeModifyRecord Trigger](OnBeforeModifyRecord-Trigger.md) in the C/AL code editor to indicate that the records have been updated.  
   
 ## Next Steps  
- You might want to try importing a CSV file or exporting a fixed width text file. For information about how to import CSV files, see [Walkthrough: Exporting Data from Tables to CSV Files](../Topic/Walkthrough:%20Exporting%20Data%20from%20Tables%20to%20CSV%20Files.md).  
+ You might want to try importing a CSV file or exporting a fixed width text file. For information about how to import CSV files, see [Walkthrough: Exporting Data from Tables to CSV Files](Walkthrough:%20Exporting%20Data%20from%20Tables%20to%20CSV%20Files.md).  
   
 ## See Also  
  [Designing XMLports](Designing-XMLports.md)   

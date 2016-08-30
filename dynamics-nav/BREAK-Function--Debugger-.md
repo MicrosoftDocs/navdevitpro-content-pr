@@ -20,14 +20,14 @@ Breaks code execution of a debugging session.
 [Ok :=] BREAK   
 ```  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if a breakpoint is set in the debugging session; otherwise, **false**.  
   
- If you omit this optional return value and if the break is not set successfully, then a run\-time error occurs. If you include the return value, then you must handle any errors.  
+ If you omit this optional return value and if the break is not set successfully, then a run-time error occurs. If you include the return value, then you must handle any errors.  
   
 ## See Also  
  [Breakpoints](Breakpoints.md)   
- [How to: Break on the Next Statement](../Topic/How%20to:%20Break%20on%20the%20Next%20Statement.md)   
- [How to: Manage Breakpoints from the Development Environment](../Topic/How%20to:%20Manage%20Breakpoints%20from%20the%20Development%20Environment.md)
+ [How to: Break on the Next Statement](How%20to:%20Break%20on%20the%20Next%20Statement.md)   
+ [How to: Manage Breakpoints from the Development Environment](How%20to:%20Manage%20Breakpoints%20from%20the%20Development%20Environment.md)

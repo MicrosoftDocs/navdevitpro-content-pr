@@ -46,7 +46,7 @@ Sets the specified fields in a dataset on a test page as the current key.
   
  Additional field that you want to set as the current key. This parameter is optional.  
   
-## Property Value\/Return Value  
+## Property Value/Return Value  
  Type: Boolean  
   
  **true** if the current key was set; otherwise, **false**. This return value is optional.  

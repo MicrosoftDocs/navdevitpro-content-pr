@@ -30,7 +30,7 @@ RecordRef.SETRECFILTER
  This function works the same as the [SETRECFILTER Function \(Record\)](SETRECFILTER-Function--Record-.md).  
   
 ## Example  
- The following example opens the Customer table as a RecordRef variable that is named MyRecordRef. The SETRECFILTER function sets the values in the current key of the current record as a record filter. The [GETFILTERS Function \(RecordRef\)](GETFILTERS-Function--RecordRef-.md) retrieves the filters that have been set and displays them in a message box. No. is displayed because the filter is set on the No. field, which is the current key. This example requires that you create the following variables and text constant and text constants in the **C\/AL Globals** window.  
+ The following example opens the Customer table as a RecordRef variable that is named MyRecordRef. The SETRECFILTER function sets the values in the current key of the current record as a record filter. The [GETFILTERS Function \(RecordRef\)](GETFILTERS-Function--RecordRef-.md) retrieves the filters that have been set and displays them in a message box. No. is displayed because the filter is set on the No. field, which is the current key. This example requires that you create the following variables and text constant and text constants in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

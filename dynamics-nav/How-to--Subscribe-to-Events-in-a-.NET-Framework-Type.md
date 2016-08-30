@@ -12,22 +12,22 @@ caps.latest.revision: 14
 manager: edupont
 ---
 # How to: Subscribe to Events in a .NET Framework Type
-With .NET Framework interoperability in [!INCLUDE[navnow](includes/navnow_md.md)] objects, you can configure a DotNet variable to subscribe to events that are published by a .NET Framework type. Events are handled by triggers in the C\/AL code of the [!INCLUDE[navnow](includes/navnow_md.md)] object. To configure a DotNet variable to subscribe to events published by a .NET Framework class, you set the [WithEvents Property](WithEvents-Property.md) of the DotNet variable. A trigger is automatically added in the C\/AL code for each event that is exposed by the .NET Framework type. For more information about events in NET Framework Interoperability, see [Handling Events with Microsoft .NET Framework Interoperability](Handling-Events-with-Microsoft-.NET-Framework-Interoperability.md).  
+With .NET Framework interoperability in [!INCLUDE[navnow](includes/navnow_md.md)] objects, you can configure a DotNet variable to subscribe to events that are published by a .NET Framework type. Events are handled by triggers in the C/AL code of the [!INCLUDE[navnow](includes/navnow_md.md)] object. To configure a DotNet variable to subscribe to events published by a .NET Framework class, you set the [WithEvents Property](WithEvents-Property.md) of the DotNet variable. A trigger is automatically added in the C/AL code for each event that is exposed by the .NET Framework type. For more information about events in NET Framework Interoperability, see [Handling Events with Microsoft .NET Framework Interoperability](Handling-Events-with-Microsoft-.NET-Framework-Interoperability.md).  
   
 > [!IMPORTANT]  
 >  You can only subscribe to events on a DotNet variable that is defined as global variable.  
   
 ### To subscribe to events published by a .NET Framework type  
   
-1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], open the [!INCLUDE[navnow](includes/navnow_md.md)] object that uses .NET Framework interoperability, and then open the C\/AL code.  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], open the [!INCLUDE[navnow](includes/navnow_md.md)] object that uses .NET Framework interoperability, and then open the C/AL code.  
   
-2.  On the **View** menu, choose **C\/AL Globals**.  
+2.  On the **View** menu, choose **C/AL Globals**.  
   
 3.  On the **Variables** tab, select the DotNet variable, and then on the **View** menu, choose **Properties**.  
   
 4.  In the **Properties** window, set the **WithEvents** property to **Yes**.  
   
-     For each event that is exposed by the .NET Framework class, a blank trigger is added to the C\/AL code. The triggers have the following format.  
+     For each event that is exposed by the .NET Framework class, a blank trigger is added to the C/AL code. The triggers have the following format.  
   
     ```  
   
@@ -43,7 +43,7 @@ With .NET Framework interoperability in [!INCLUDE[navnow](includes/navnow_md.md)
 5.  Add code to the event triggers to handle the events.  
   
 ## Example  
- The following code example implements a simple synchronous event that will invoke a C\/AL trigger without any parameters. You will create a .NET Framework assembly that contains the event, and then subscribe to the event in the C\/AL code of a [!INCLUDE[navnow](includes/navnow_md.md)] codeunit.  
+ The following code example implements a simple synchronous event that will invoke a C/AL trigger without any parameters. You will create a .NET Framework assembly that contains the event, and then subscribe to the event in the C/AL code of a [!INCLUDE[navnow](includes/navnow_md.md)] codeunit.  
   
 #### To create and deploy the assembly that includes an event  
   
@@ -81,13 +81,13 @@ With .NET Framework interoperability in [!INCLUDE[navnow](includes/navnow_md.md)
   
 3.  Build the project.  
   
-4.  Copy the MyEvent.dll file to the computer that is running the [!INCLUDE[navnow](includes/navnow_md.md)] development environment. You must copy the assembly to the Add\-ins folder of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)] installation folders. The default path of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] installation folder is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\RoleTailored Client or [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]RoleTailored Client. The default path of the [!INCLUDE[nav_server](includes/nav_server_md.md)] installation folder is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service.  
+4.  Copy the MyEvent.dll file to the computer that is running the [!INCLUDE[navnow](includes/navnow_md.md)] development environment. You must copy the assembly to the Add-ins folder of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)] installation folders. The default path of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] installation folder is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\RoleTailored Client or [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]RoleTailored Client. The default path of the [!INCLUDE[nav_server](includes/nav_server_md.md)] installation folder is [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service.  
   
-#### To subscribe to the event in C\/AL  
+#### To subscribe to the event in C/AL  
   
 1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], create a new codeunit.  
   
-2.  Create the following global C\/AL variables.  
+2.  Create the following global C/AL variables.  
   
     |Variable name|DataType|SubType|  
     |-------------------|--------------|-------------|  
@@ -96,7 +96,7 @@ With .NET Framework interoperability in [!INCLUDE[navnow](includes/navnow_md.md)
   
 3.  Open the properties for the eventVAR variable, and then set the [WithEvents Property](WithEvents-Property.md) to **Yes**.  
   
-     The `eventVar::ChangedEvent()` trigger is added to the C\/AL.  
+     The `eventVar::ChangedEvent()` trigger is added to the C/AL.  
   
 4.  On the `OnRun` trigger, add the following code.  
   
@@ -134,4 +134,4 @@ With .NET Framework interoperability in [!INCLUDE[navnow](includes/navnow_md.md)
 ## See Also  
  [Handling Events with Microsoft .NET Framework Interoperability](Handling-Events-with-Microsoft-.NET-Framework-Interoperability.md)   
  [Extending Microsoft Dynamics NAV Using Microsoft .NET Framework Interoperability](Extending-Microsoft-Dynamics-NAV-Using-Microsoft-.NET-Framework-Interoperability.md)   
- [Calling .NET Framework Members from C\-AL](Calling-.NET-Framework-Members-from-C-AL.md)
+ [Calling .NET Framework Members from C-AL](Calling-.NET-Framework-Members-from-C-AL.md)

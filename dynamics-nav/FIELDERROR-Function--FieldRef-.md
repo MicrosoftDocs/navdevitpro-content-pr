@@ -11,7 +11,7 @@ ms.assetid: 7df700bf-2e1f-4b64-b37d-fe2da74b3479
 caps.latest.revision: 16
 ---
 # FIELDERROR Function (FieldRef)
-Stops the execution of the code, causing a run\-time error, and creates an error message for a field.  
+Stops the execution of the code, causing a run-time error, and creates an error message for a field.  
   
 ## Syntax  
   
@@ -32,12 +32,12 @@ FieldRef.FIELDERROR([Text])
  Use this optional parameter to include the text of the error message. If this parameter is not present, default text will be used.  
   
 ## Remarks  
- Similar to a run\-time error, this function causes any transaction to be aborted automatically.  
+ Similar to a run-time error, this function causes any transaction to be aborted automatically.  
   
  This function is like the FIELDERROR Function for the Record data type. For examples, see [FIELDERROR Function \(Record\)](FIELDERROR-Function--Record-.md).  
   
 ## Example  
- The following example opens table 18 \(Customer\) as a RecordRef variable that is named CustomerRecref. The CustomerName variable is initialized with a blank text. `CustomerRecref.FIELD` creates a FieldRef that is named MyFieldRef for field1 \(No.\) and selects record 30000. Field 2 \(Name\) is then selected for record 30000. If the CustomerName variable is a blank text, then `MyFieldRef.FIELDERROR` is executed and an error message is displayed. The text in Text000 text constant is inserted into the error message that is displayed by [!INCLUDE[navnow](includes/navnow_md.md)]. This example uses the default error message. This example requires that you create the following variables and text constant in the **C\/AL Globals** windows.  
+ The following example opens table 18 \(Customer\) as a RecordRef variable that is named CustomerRecref. The CustomerName variable is initialized with a blank text. `CustomerRecref.FIELD` creates a FieldRef that is named MyFieldRef for field1 \(No.\) and selects record 30000. Field 2 \(Name\) is then selected for record 30000. If the CustomerName variable is a blank text, then `MyFieldRef.FIELDERROR` is executed and an error message is displayed. The text in Text000 text constant is inserted into the error message that is displayed by [!INCLUDE[navnow](includes/navnow_md.md)]. This example uses the default error message. This example requires that you create the following variables and text constant in the **C/AL Globals** windows.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
@@ -65,7 +65,7 @@ ELSE
   
  This code example displays the following error message:  
   
- **Name cannot be blank in Customer No.\=”30000”.**  
+ **Name cannot be blank in Customer No.=”30000”.**  
   
 ## Programming Guidelines  
  We recommend the following guidelines for error messages:  

@@ -23,7 +23,7 @@ This walkthrough demonstrates how to use file functions to send a file from a cl
   
 -   Creating a codeunit that does the following:  
   
-    -   Sends the file from a user\-specified location to a location on the server  
+    -   Sends the file from a user-specified location to a location on the server  
   
     -   Reads the data  
   
@@ -81,13 +81,13 @@ This walkthrough demonstrates how to use file functions to send a file from a cl
   
 1.  In **Object Designer**, choose **Codeunit**, and then choose **New**.  
   
-     C\/AL Editor opens.  
+     C/AL Editor opens.  
   
-2.  Choose the **OnRun\(\)** function in the C\/AL Editor.  
+2.  Choose the **OnRun\(\)** function in the C/AL Editor.  
   
-3.  Choose **View** and then choose **C\/AL Locals**.  
+3.  Choose **View** and then choose **C/AL Locals**.  
   
-     The **C\/AL Locals** window opens.  
+     The **C/AL Locals** window opens.  
   
 4.  Choose the **Variables** tab.  
   
@@ -102,9 +102,9 @@ This walkthrough demonstrates how to use file functions to send a file from a cl
   
 6.  Choose the next empty line to ensure that the local variables are saved.  
   
-7.  Close the **C\/AL Locals** window.  
+7.  Close the **C/AL Locals** window.  
   
-8.  Enter the following code in the C\/AL Editor for the **OnRun** function.  
+8.  Enter the following code in the C/AL Editor for the **OnRun** function.  
   
     ```  
     BEGIN  
@@ -167,8 +167,8 @@ This walkthrough demonstrates how to use file functions to send a file from a cl
   
 5.  In Object Designer, choose **Table**, choose **50010 Test Table**, and then choose **Run**.  
   
-     The **TestTable\-Table** window opens with the values of 10 and 11 in the IntA and IntB columns, respectively.  
+     The **TestTable-Table** window opens with the values of 10 and 11 in the IntA and IntB columns, respectively.  
   
 ## See Also  
  [UPLOADINTOSTREAM Function \(File\)](UPLOADINTOSTREAM-Function--File-.md)   
- [Walkthrough: Transferring a File from Microsoft Dynamics NAV Server to the Client](../Topic/Walkthrough:%20Transferring%20a%20File%20from%20Microsoft%20Dynamics%20NAV%20Server%20to%20the%20Client.md)
+ [Walkthrough: Transferring a File from Microsoft Dynamics NAV Server to the Client](Walkthrough:%20Transferring%20a%20File%20from%20Microsoft%20Dynamics%20NAV%20Server%20to%20the%20Client.md)

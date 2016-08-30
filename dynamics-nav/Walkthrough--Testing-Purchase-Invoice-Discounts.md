@@ -27,10 +27,10 @@ Before you release a customized [!INCLUDE[navnowlong](includes/navnowlong_md.md)
 -   The CRONUS International Ltd. demo data company.  
   
 ## Story  
- Isaac is a business application developer working for CRONUS International Ltd. He has modified codeunit 70, Purch\-Calc.Discount, which is a codeunit in the [!INCLUDE[demoname](includes/demoname_md.md)] database. Isaac wants to test the functionality of his customized codeunit before he offers the customized application for sale. He creates a new test codeunit with new test functions to test the Purch\-Calc.Discount codeunit. During development, Isaac uses the application test libraries to help him write a test with fewer lines of code.  
+ Isaac is a business application developer working for CRONUS International Ltd. He has modified codeunit 70, Purch-Calc.Discount, which is a codeunit in the [!INCLUDE[demoname](includes/demoname_md.md)] database. Isaac wants to test the functionality of his customized codeunit before he offers the customized application for sale. He creates a new test codeunit with new test functions to test the Purch-Calc.Discount codeunit. During development, Isaac uses the application test libraries to help him write a test with fewer lines of code.  
   
 ## Creating a Test Codeunit and Test Function  
- Isaac creates a new codeunit and specifies that it is a test codeunit. He defines the scenario that he wants to verify, adds a test function to tests the Purch\-Calc.Discount functionality, and adds a helper function that can be reused if he decides to extend test coverage.  
+ Isaac creates a new codeunit and specifies that it is a test codeunit. He defines the scenario that he wants to verify, adds a test function to tests the Purch-Calc.Discount functionality, and adds a helper function that can be reused if he decides to extend test coverage.  
   
 #### To create the test codeunit and test function  
   
@@ -38,19 +38,19 @@ Before you release a customized [!INCLUDE[navnowlong](includes/navnowlong_md.md)
   
 2.  In the **Properties** window, in the **Subtype** field, select **Test** to specify that this is a test codeunit.  
   
-3.  In the **C\/AL Globals** window, on the Variables tab, enter the following variables.  
+3.  In the **C/AL Globals** window, on the Variables tab, enter the following variables.  
   
     |Name|DataType|Subtype|  
     |----------|--------------|-------------|  
     |RandomNumberGenerator|Codeunit|Random Number Generator|  
-    |LibraryPurchase|Codeunit|Library \- Purchase|  
+    |LibraryPurchase|Codeunit|Library - Purchase|  
     |Assert|Codeunit|Assert|  
   
      This adds 3 codeunits from the application test libraries as global variables so that you can use them in your test code.  
   
-4.  In the **C\/AL Globals** window, on the **Text Constants** tab, in the **Name** field, enter **PurchInvDiscErr**. In the **ConstValue** field, enter **The Purchase Invoice Discount Amount was not calculated correctly**.  
+4.  In the **C/AL Globals** window, on the **Text Constants** tab, in the **Name** field, enter **PurchInvDiscErr**. In the **ConstValue** field, enter **The Purchase Invoice Discount Amount was not calculated correctly**.  
   
-5.  In the **C\/AL Globals** window, on the **Functions** tab, enter **PurchInvDiscCalculationPInvAbove**. This is the name of the test function.  
+5.  In the **C/AL Globals** window, on the **Functions** tab, enter **PurchInvDiscCalculationPInvAbove**. This is the name of the test function.  
   
      In this example, the name of the test function consists of the tested functionality, Purchase Invoice Discount Calculation, and relevant parameters that affect the test result. We recommend that you follow this naming pattern for your test functions also. In our example, the following parameters are introduced:  
   
@@ -60,7 +60,7 @@ Before you release a customized [!INCLUDE[navnowlong](includes/navnowlong_md.md)
   
 6.  On the **Functions** tab, choose **Locals**.  
   
-7.  In the **C\/AL Locals** window, on the **Variables** tab, enter the following variables, which you will use in the **PurchInvDiscCalculationPInvAbove** test function.  
+7.  In the **C/AL Locals** window, on the **Variables** tab, enter the following variables, which you will use in the **PurchInvDiscCalculationPInvAbove** test function.  
   
     |Name|DataType|Subtype|  
     |----------|--------------|-------------|  
@@ -68,12 +68,12 @@ Before you release a customized [!INCLUDE[navnowlong](includes/navnowlong_md.md)
     |MinAmount|Decimal||  
     |DocAmount|Decimal||  
     |DiscountPct|Decimal||  
-    |PurchCalcDisc|Codeunit|Purch.\-Calc.Discount|  
+    |PurchCalcDisc|Codeunit|Purch.-Calc.Discount|  
   
     > [!IMPORTANT]  
     >  Make sure that you add these entries on the **Variables** tab, not on the **Parameters** tab. If you create them on the **Parameters** tab, you get an error when you compile that says the test method signature is invalid.  
   
-8.  In the C\/AL Editor, in the `PurchInvDiscCalculationPInvAbove` function, enter the following code:  
+8.  In the C/AL Editor, in the `PurchInvDiscCalculationPInvAbove` function, enter the following code:  
   
     ```  
     // [SCENARIO] "Inv. Discount Amount" should be calculated on Purchase Invoice (in LCY), where Invoice amount is above the minimal amount required for invoice discount calculation.  
@@ -95,7 +95,7 @@ Before you release a customized [!INCLUDE[navnowlong](includes/navnowlong_md.md)
   
     ```  
   
-     Isaac first defines the test scenario \[SCENARIO\], then details it with the GIVEN\-THEN\-WHEN notation. Finally, he adds the C\/AL code.The code in this test function prepares the test data by setting a random discount percent, a minimum amount, and a document amount. Then, it creates a purchase document with a line and runs the Purch\-Calc.Discount codeunit, which contains the code that is being tested. Finally, it verifies the results of running the Purch\-Calc.Discount codeunit and raises an error if the results are not as expected.  
+     Isaac first defines the test scenario \[SCENARIO\], then details it with the GIVEN-THEN-WHEN notation. Finally, he adds the C/AL code.The code in this test function prepares the test data by setting a random discount percent, a minimum amount, and a document amount. Then, it creates a purchase document with a line and runs the Purch-Calc.Discount codeunit, which contains the code that is being tested. Finally, it verifies the results of running the Purch-Calc.Discount codeunit and raises an error if the results are not as expected.  
   
      Isaac has created the test function. Next, he creates a helper function that generates data for the test.  
   
@@ -106,11 +106,11 @@ Before you release a customized [!INCLUDE[navnowlong](includes/navnowlong_md.md)
   
 #### To add a test helper function  
   
-1.  In the **C\/AL Globals** window, on the **Functions** tab, in the **Name** field, enter **CreatePurchDocument**.  
+1.  In the **C/AL Globals** window, on the **Functions** tab, in the **Name** field, enter **CreatePurchDocument**.  
   
 2.  In the **Properties** window for the new function, set the **FunctionType** property to **Normal** and the **Local** property to **Yes**.  
   
-3.  In the **C\/AL Locals** window for the `CreatePurchDocument` function, on the **Parameters** tab, enter the following parameters.  
+3.  In the **C/AL Locals** window for the `CreatePurchDocument` function, on the **Parameters** tab, enter the following parameters.  
   
     |Var|Name|DataType|Subtype|  
     |---------|----------|--------------|-------------|  
@@ -120,7 +120,7 @@ Before you release a customized [!INCLUDE[navnowlong](includes/navnowlong_md.md)
     ||MinAmount|Decimal||  
     ||DiscountPct|Decimal||  
   
-4.  In the **C\/AL Locals** window, on the **Variables** tab, enter the following variables.  
+4.  In the **C/AL Locals** window, on the **Variables** tab, enter the following variables.  
   
     |Name|DataType|Subtype|Length|  
     |----------|--------------|-------------|------------|  
@@ -128,7 +128,7 @@ Before you release a customized [!INCLUDE[navnowlong](includes/navnowlong_md.md)
     |PurchaseHeader|Record|Purchase Header||  
     |VendorNo|Code||20|  
   
-5.  In the C\/AL Editor, in the **CreatePurchDocument** function, enter the following code.  
+5.  In the C/AL Editor, in the **CreatePurchDocument** function, enter the following code.  
   
     ```  
     // Create vendor  
