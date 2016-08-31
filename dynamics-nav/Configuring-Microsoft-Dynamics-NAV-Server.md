@@ -13,62 +13,62 @@ manager: edupont
 ---
 # Configuring Microsoft Dynamics NAV Server
 When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install [!INCLUDE[nav_server](includes/nav_server_md.md)], you can provide configuration information that is then used as the configuration for the default [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
-  
+
  After you install [!INCLUDE[nav_server](includes/nav_server_md.md)], you can change any of the settings that you provided during Setup, or any of the [!INCLUDE[nav_server](includes/nav_server_md.md)] settings, using either the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or the [!INCLUDE[navnow](includes/navnow_md.md)] Windows PowerShell cmdlets for [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
-  
+
 > [!NOTE]  
 >  Each [!INCLUDE[nav_server](includes/nav_server_md.md)] instance has its own settings.  
-  
+
 ## Configuring [!INCLUDE[nav_server](includes/nav_server_md.md)] in Setup  
  You can configure the default instance of [!INCLUDE[nav_server](includes/nav_server_md.md)] when running [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup. You must first select [!INCLUDE[nav_server](includes/nav_server_md.md)] as a component to install. To do this, select one of the following [Installation Options](Installation-Options.md) that includes [!INCLUDE[nav_server](includes/nav_server_md.md)]:  
-  
+
 -   [Server Option](Server-Option.md)  
-  
+
 -   [Developer Option](Developer-Option.md)  
-  
+
  You can also customize your installation and the list of components to install. For more information, see [How to: Choose Components to Install](How%20to:%20Choose%20Components%20to%20Install.md).  
-  
+
  After you specify an installation option or customize your component list, the **Specify parameters** pane is displayed in Setup. The list of parameters that you see in the **Specify parameters** pane depends on which components you have selected for configuration. Setup provides a short description for each parameter. For a description of the most important parameters for [!INCLUDE[nav_server](includes/nav_server_md.md)], see [Server Option](Server-Option.md).  
-  
+
  When you have finished entering values, choose the **Apply** button. This returns you to the **Specify parameters** page in Setup.  
-  
+
  After you finish running Setup, you can modify [!INCLUDE[nav_server](includes/nav_server_md.md)] using any of the methods described in the following section.  
-  
+
 ## Configuring [!INCLUDE[nav_server](includes/nav_server_md.md)] After Installation  
  After you install [!INCLUDE[nav_server](includes/nav_server_md.md)], you can change any of the settings that you provided during Setup, or any of the [!INCLUDE[nav_server](includes/nav_server_md.md)] settings, in any of the following ways:  
-  
+
 -   Using the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. For more information, see [Settings in the Microsoft Dynamics NAV Administration Console](Configuring-Microsoft-Dynamics-NAV-Server.md#NavAdminSettings) and [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
-  
+
 -   Using the [!INCLUDE[navnow](includes/navnow_md.md)] PowerShell cmdlets that are available in the [!INCLUDE[nav_shell](includes/nav_shell_md.md)]. For more information, see [Using Microsoft Dynamics NAV Administration Shell Cmdlets to Modify Settings](Configuring-Microsoft-Dynamics-NAV-Server.md#UsingPowerShell).  
-  
+
 -   By directly editing CustomSettings.config, the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration file. By default, this file is located in [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service\\Instances\\\<instancename\>. We recommend that you do not directly edit the configuration file, because if you make any errors in typing, then you may not be able to start the instance.  
-  
+
 > [!IMPORTANT]  
 >  After you modify a [!INCLUDE[nav_server](includes/nav_server_md.md)] setting, you must restart the associated [!INCLUDE[nav_server](includes/nav_server_md.md)] instance before any changes can take effect.  
-  
+
 ##  <a name="NavAdminSettings"></a> Settings in the Microsoft Dynamics NAV Administration Console  
  In the tables in the following sections, [!INCLUDE[nav_admin](includes/nav_admin_md.md)] setting names are used. Settings names in the CustomSettings.config file are slightly different. Quotation marks are required for all values.  
-  
+
 -   [General Tab Settings](Configuring-Microsoft-Dynamics-NAV-Server.md#General)  
-  
+
 -   [Database Tab Settings](Configuring-Microsoft-Dynamics-NAV-Server.md#Database)  
-  
+
 -   [Client Services Tab Settings](Configuring-Microsoft-Dynamics-NAV-Server.md#ClientServices)  
-  
+
 -   [SOAP Services Tab Settings](Configuring-Microsoft-Dynamics-NAV-Server.md#SOAPServices)  
-  
+
 -   [OData Services Tab Settings](Configuring-Microsoft-Dynamics-NAV-Server.md#ODataServices)  
-  
+
 -   [NAS Services Tab Settings](Configuring-Microsoft-Dynamics-NAV-Server.md#NASServices)  
-  
+
 -   [Management Services Tab Settings](Configuring-Microsoft-Dynamics-NAV-Server.md#ManagementServices)  
-  
+
 > [!NOTE]  
 >  You must choose **Edit** in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] before you can modify any values.  
-  
+
 ###  <a name="General"></a> General Tab Settings  
  The following table describes fields on the **General** tab in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)].  
-  
+
 |Setting|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-------------|---------------------------------------|  
 |Azure Active Directory App ID URI|Specifies the App ID URI that is registered for [!INCLUDE[navnow](includes/navnow_md.md)] in the Microsoft Azure Active Directory \(Azure AD\). You use this setting to configure [!INCLUDE[navnow](includes/navnow_md.md)] web services for OAuth authentication, specifically when the *Credential Type* setting is **AccessControlService**.<br /><br /> The App ID URI is a logical identifier and does not have to represent a valid location, although it is common practice to use the physical URL of the [!INCLUDE[navnow](includes/navnow_md.md)] web service.<br /><br /> The App ID URI is typically the same as the value of *wtrealm* parameter of the **ACSUri** setting that is included in web.config file for the [!INCLUDE[nav_web](includes/nav_web_md.md)] and the ClientUserSettings.config file for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].<br /><br /> An example of an App ID URI is *https:\/\/localhost:7047\/*.<br /><br /> For more information about how to use the Azure Active Directory App ID URI with OAuth authentication, see [Using OAuth to Authenticate Microsoft Dynamics NAV Web Services \(Odata and SOAP\)](http://go.microsoft.com/fwlink/?LinkID=510894).|  
@@ -97,13 +97,13 @@ When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install
 |Session Event Table Retain Period|An integer value that specifies how many months events in the Session Events table are retained.<br /><br /> Default: 3|  
 |UI Elements Removal|Specifies if UI elements are removed when the related object is not accessible according to the license or according to user permissions or both. For more information, see [How to: Specify When UI Elements Are Removed](How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md).|  
 |Use NTLM Authentication|Specifies whether NTLM authentication is enabled for web services. To require Kerberos authentication, disable this option.<br /><br /> Default: Not enabled|  
-  
+
 ###  <a name="Database"></a> Database Tab Settings  
  The following table describes fields on the **Database** tab in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)].  
-  
+
 > [!NOTE]  
 >  If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured as a multitenant server instance, then except for the **Database Name**, **Database Instance**, and **Database Server** settings, the settings apply to both the application database and the tenant database.  
-  
+
 |Setting|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-------------|---------------------------------------|  
 |Close Inactive SQL Connections|Specifies when to close inactive SQL Server connections. The value specifies the age at which to close connections. While a connection is inactive, starting from zero, the age is increased by one every 30 seconds. When the age of the inactive connection reaches the specified value, the connection is closed. A value of **0** means that inactive SQL connections will not be closed.<br /><br /> Default: 10|  
@@ -116,10 +116,10 @@ When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install
 |Enable Trust of SQL Server Certificate|Specifies whether [!INCLUDE[nav_server](includes/nav_server_md.md)] should trust the SQL Server certificate.|  
 |SQL Command Timeout|The contextual time-out for a SQL command.<br /><br /> Default: 0:30:00|  
 |Enable SQL Parameters by Ordinal|Specifies whether parameters in SQL statements are referenced by their ordinal number.<br /><br /> Enabling this setting improves performance when using buffered inserts.<br /><br /> Default: Enabled|  
-  
+
 ###  <a name="ClientServices"></a> Client Services Tab Settings  
  The following table describes fields on the **Client Services** tab in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)].  
-  
+
 |Setting|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-------------|---------------------------------------|  
 |Chunk Size|The default size for a chunk of data that is transferred between [!INCLUDE[nav_server](includes/nav_server_md.md)] and the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)], in kilobytes.<br /><br /> Default: 28<br /><br /> The range of values is from 4 to 80.|  
@@ -141,10 +141,10 @@ When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install
 |Token Signing Key|Specifies the signing information that you obtain from the Azure management portal. The parameter value is a 256-bit symmetric token signing key for use with Azure Access Control service \(ACS\). This parameter is relevant only when **Credential Type**, on the **General** tab, is set to **AccessControlService**.|  
 |Web Client Base URL|Specifies the root of the URLs that are used to open hyperlinks to pages and reports in the [!INCLUDE[nav_web](includes/nav_web_md.md)]. For example, you can change the value if you want to change the externally facing endpoint.<br /><br /> The base URL must have the following syntax:<br /><br /> http\[s\]:\/\/*hostname*:*port*\/*instance*\/WebClient\/<br /><br /> This field maps to the `PublicWebBaseUrl` setting in the CustomSettings.config file for the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.<br /><br /> For more information, see [How to: Copy the URL to Open a Page or Report](How%20to:%20Copy%20the%20URL%20to%20Open%20a%20Page%20or%20Report.md).|  
 |Windows Client Base URL|Specifies the root of the URLs that are used to open hyperlinks to pages and reports in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For example, you can change the value if you want to change the externally facing endpoint.<br /><br /> The base URL must have the following syntax:<br /><br /> DynamicsNAV:\/\/*hostname*:*port*\/*instance*\/<br /><br /> This field maps to the `PublicWinBaseUrl` setting in the CustomSettings.config file for the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.<br /><br /> For more information, see [How to: Copy the URL to Open a Page or Report](How%20to:%20Copy%20the%20URL%20to%20Open%20a%20Page%20or%20Report.md).|  
-  
+
 ###  <a name="SOAPServices"></a> SOAP Services Tab Settings  
  The following table describes fields on the **SOAP Services** tab in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)].  
-  
+
 |Setting|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-------------|---------------------------------------|  
 |Enable SOAP Services|Specifies whether SOAP web services are enabled for this [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.<br /><br /> Default: Enabled|  
@@ -152,10 +152,10 @@ When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install
 |Max Message Size|The maximum permitted size of a SOAP web services request, in kilobytes.<br /><br /> **Important:** This setting also pertains to OData web services.<br /><br /> Default: 1024|  
 |Port|The listening HTTP port for [!INCLUDE[dyn_nav](includes/dyn_nav_md.md)] SOAP web services.<br /><br /> Default: 7047<br /><br /> Valid range: 1 - 65535|  
 |SOAP Base URL|Specifies the root of the URLs that are used to access SOAP web services. For example, you can change the value if you want to change the externally facing endpoint.<br /><br /> The base URL must have the following syntax:<br /><br /> http\[s\]:\/\/*hostname*:*port*\/*instance*\/WS\/<br /><br /> This field maps to the `PublicSOAPBaseUrl` setting in the CustomSettings.config file for the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.<br /><br /> For more information, see [How to: Copy the URL to Open a Page or Report](How%20to:%20Copy%20the%20URL%20to%20Open%20a%20Page%20or%20Report.md).|  
-  
+
 ###  <a name="ODataServices"></a> OData Services Tab Settings  
  The following table describes fields on the **OData Services** tab in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)].  
-  
+
 |Setting|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-------------|---------------------------------------|  
 |Enable OData Services|Specifies whether OData web services are enabled for this [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.<br /><br /> Default: Enabled|  
@@ -163,45 +163,45 @@ When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install
 |Max Page Size|Specifies the maximum number of entities returned per page of OData results. For more information, see [Server-Driven Paging in OData Web Services](Server-Driven-Paging-in-OData-Web-Services.md).<br /><br /> Default: 1000|  
 |OData Base URL|Specifies the root of the URLs that are used to access OData web services. For example, you can change the value if you want to change the externally facing endpoint.<br /><br /> The base URL must have the following syntax:<br /><br /> http\[s\]:\/\/*hostname*:*port*\/*instance*\/OData\/<br /><br /> This field maps to the `PublicODataBaseUrl` setting in the CustomSettings.config file for the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.<br /><br /> For more information, see [How to: Copy the URL to Open a Page or Report](How%20to:%20Copy%20the%20URL%20to%20Open%20a%20Page%20or%20Report.md).|  
 |Port|The listening HTTP port for [!INCLUDE[navnow](includes/navnow_md.md)] OData web services.<br /><br /> Default: 7048<br /><br /> Valid range: 1 - 65535|  
-  
+
 > [!IMPORTANT]  
 >  The maximum permitted size of an OData web services request is specified by the **Max Message Size** option on the **SOAP Services** tab.  
-  
+
 ###  <a name="NASServices"></a> NAS Services Tab Settings  
  The following table describes fields on the **NAS Services** tab in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)].  
-  
+
 |Setting|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-------------|---------------------------------------|  
 |Enable Debugging|Specifies if the [!INCLUDE[navnow](includes/navnow_md.md)] Debugger must attach to the NAS Services session. When this is enabled, the NAS Services session waits 60 seconds before the first C/AL statement is run.|  
 |Retry Attempts per Day|Specifies the maximum number of times that a [!INCLUDE[navnow](includes/navnow_md.md)] NAS Service session can restart after a failure. After the next failure, the NAS Service session stops.|  
 |Run NAS Services with Admin Rights|Specifies whether NAS services run operations with administrator rights instead of the rights granted to the [!INCLUDE[nav_server](includes/nav_server_md.md)] service account.<br /><br /> \* If you select this setting, NAS services will have full permissions in [!INCLUDE[navnow](includes/navnow_md.md)], similar to the permissions that are granted by the SUPER permission set. The [!INCLUDE[nav_server](includes/nav_server_md.md)] service account is not required to be set up as a user in [!INCLUDE[navnow](includes/navnow_md.md)].<br /><br /> \* If you clear this setting, the [!INCLUDE[nav_server](includes/nav_server_md.md)] service account must be added as a user in [!INCLUDE[navnow](includes/navnow_md.md)] and assigned the permissions that are required to perform the operations.|  
-|Startup Argument|Specifies a string argument that will be used when NAS services start. The argument typically specifies an application type, sometimes with additional configuration information.<br /><br /> Example values:<br /><br /> \* `"OSYNCH"`<br /><br /> \* <br />                        `"JOBQUEUE"`|  
-|Startup Codeunit|Specifies the codeunit that contains the method that will be called by the **NASStartupMethod** setting.<br /><br /> Example values:<br /><br /> \* <br />                        `0`<br /><br /> When **NASStartupCodeunit** is set to 0, NAS Services do not start. This is the default value.<br /><br /> \* `1`<br /><br /> When NAS services start, they run the trigger specified by the NAS Startup Method in codeunit 1.<br /><br /> \* `450`<br /><br /> When NAS services start, they run codeunit 450 \(Job Queue – NAS Start Up\), and call the method specified by **NASStartupMethod**.<br /><br /> **Note:** When the codeunit specified by **NASStartupCodeunit** is a single instance codeunit, the NAS service session will remain alive even after you run all code in the specified **NASStartupMethod**. For information about single instance codeunits, see [Using Codeunits](Using-Codeunits.md).|  
+|Startup Argument|Specifies a string argument that will be used when NAS services start. The argument typically specifies an application type, sometimes with additional configuration information.<br /><br /> Example value:*`"OSYNCH"`*|  
+|Startup Codeunit|Specifies the codeunit that contains the method that will be called by the **NASStartupMethod** setting.<br /><br /> Example values:<br /><br /> \* <br />                        `0`<br /><br /> When **NASStartupCodeunit** is set to 0, NAS Services do not start. This is the default value.<br /><br /> \* `1`<br /><br /> When NAS services start, they run the trigger specified by the NAS Startup Method in codeunit 1.<br /><br /> **Note:** When the codeunit specified by **NASStartupCodeunit** is a single instance codeunit, the NAS service session will remain alive even after you run all code in the specified **NASStartupMethod**. For information about single instance codeunits, see [Using Codeunits](Using-Codeunits.md).|  
 |Startup Method|Specifies the method that will be called in the **NASStartupCodeunit**.<br /><br /> Example values:<br /><br /> \* <br />                        `""`<br /><br /> If no start method is specified \(null string\), the OnRun trigger is called.<br /><br /> \* <br />                        `StartNAS`<br /><br /> NAS services runs the StartNAS method in the NAS Startup Codeunit.|  
-  
+
 ###  <a name="ManagementServices"></a> Management Services Tab Settings  
  The following table describes fields on the **Management Services** tab in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)].  
-  
+
 |Setting|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-------------|---------------------------------------|  
 |Enable Management Services|Specifies whether [!INCLUDE[nav_admin](includes/nav_admin_md.md)] is enabled for this [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.<br /><br /> Default: Enabled|  
 |Port|The listening TCP port for the [!INCLUDE[nav_admin](includes/nav_admin_md.md)].<br /><br /> Default: 7045<br /><br /> Valid range: 1 - 65535|  
-  
+
 ##  <a name="UsingPowerShell"></a> Using Microsoft Dynamics NAV Administration Shell Cmdlets to Modify Settings  
  The [!INCLUDE[nav_shell](includes/nav_shell_md.md)] includes several cmdlets that enable you to create and modify [!INCLUDE[nav_server](includes/nav_server_md.md)] instances. Use the `Set-` cmdlets to modify a setting on a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. For example, you can change the value for `DatabaseServer` to `DatabaseServer.Domain.Com` for the server instance named `MyInstance` by executing this cmdlet:  
-  
+
 ```  
 Set-NAVServerConfiguration MyInstance -KeyName DatabaseServer -KeyValue DatabaseServer.Domain.Com  
 ```  
-  
+
  To display all the `Set-` cmdlets on the Windows PowerShell console, use the following command:  
-  
+
 ```  
 Get-Help Set-NAVServer*  
 ```  
-  
+
  For more information, see [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)  
-  
+
 ## See Also  
  [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)   
  [Enhancing Microsoft Dynamics NAV Server Security](Enhancing-Microsoft-Dynamics-NAV-Server-Security.md)   
