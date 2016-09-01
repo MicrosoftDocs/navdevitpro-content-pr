@@ -195,7 +195,7 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], a document page consists o
   
 3.  Enter the following command to display your page:  
   
-     **DynamicsNav:\/\/\/\/runpage?page=\<pageid\>**. In this case **pageid** is 50006  
+     **DynamicsNav:\/\/\/\/runpage?page=\<pageid>**. In this case **pageid** is 50006  
   
      The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] opens and displays the new document page.  
   

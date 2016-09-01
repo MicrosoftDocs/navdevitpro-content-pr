@@ -52,7 +52,7 @@ http://MyWebServer:8080/nav_server_instance/WebClient/default.aspx?report=5&comp
 |Notation|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
 |Text without brackets|Parameters that you must type as shown.|  
-|\<\>|A placeholder for values that you must supply. Do not include the brackets in the address.|  
+|\<>|A placeholder for values that you must supply. Do not include the brackets in the address.|  
 |\[ \]|Optional parameters. Do not include the brackets in the address.|  
 |&#124;|A set of values from which to choose. Use one of the options and do not include `&#124;` in the address.|  
   

@@ -171,7 +171,7 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](inc
   
         1.  Adjust the `assembly.assemblyIdentity.name` so that it is unique. For example, you could add the customer’s name to the name, and if you deploy a test and a production server for the customer, then you could add **production** or **test** to the name. You should never change this value after end users have used it to install the [!INCLUDE[navnow](includes/navnow_md.md)] client. The value will not be shown to end users.  
   
-        2.  Adjust the description contents as appropriate. For example, you could change the publisher to be "Microsoft Corporation and \<your company name\>", and change the product to be "[!INCLUDE[navnowlong](includes/navnowlong_md.md)] for \<customer name\>". These are the names that the end user will see.  
+        2.  Adjust the description contents as appropriate. For example, you could change the publisher to be "Microsoft Corporation and \<your company name>", and change the product to be "[!INCLUDE[navnowlong](includes/navnowlong_md.md)] for \<customer name>". These are the names that the end user will see.  
   
         3.  Change the link in `deploymentProvider` to *\\\\fileshare\\clickonce\\Deployment\\Microsoft.Dynamics.Nav.Client.application*. As you can see, it is now pointing to itself so that it is possible to check for updates.  
   

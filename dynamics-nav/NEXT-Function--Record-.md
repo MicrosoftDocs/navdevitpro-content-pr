@@ -31,7 +31,7 @@ Steps := Record.NEXT([Steps])
   
  Specifies the direction of the search and how many records to step over. This parameter follows the following rules:  
   
--   \>0  Search *Steps* records forward in the table.  
+-   >0  Search *Steps* records forward in the table.  
   
 -   \<0  Search *Steps* records backward in the table.  
   

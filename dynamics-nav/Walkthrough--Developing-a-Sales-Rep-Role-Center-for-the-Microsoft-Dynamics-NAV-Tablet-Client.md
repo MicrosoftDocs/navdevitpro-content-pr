@@ -114,7 +114,7 @@ In this walkthrough, you will learn how to create a new Role Center for the [!IN
     |----------|-------------|----------|----------------|  
     |ActionContainer|ActionItems|\(default\)|\(default\)|  
     |ActionGroup|none|\(default\)|\* Set **Caption** to **New**|  
-    |Action|none|\<Page Mini Sales Quote\>|\* Set **RunPageMode** to **Create**<br /><br /> \* Set **Image** to **Quote**<br /><br /> \* Set **RunObject** to **Page Mini Sales Quote \(1324\)**<br /><br /> \* Set **Promoted** to **Yes**|  
+    |Action|none|\<Page Mini Sales Quote>|\* Set **RunPageMode** to **Create**<br /><br /> \* Set **Image** to **Quote**<br /><br /> \* Set **RunObject** to **Page Mini Sales Quote \(1324\)**<br /><br /> \* Set **Promoted** to **Yes**|  
     |ActionContainer|HomeItems|\(default\)|\(default\)|  
     |Action|none|Page Mini Customer List|\* Set **Caption** to **Customers**<br /><br /> \* Set **PromotedCategory** to **New**<br /><br /> \* Set **RunObject** to **Page Mini Customer List \(1301\)**<br /><br /> \* Set **Promoted** to **Yes**|  
     |Action|none|Page Mini Item List|\* Set **Caption** to **Items**<br /><br /> \* Set **PromotedCategory** to **New**<br /><br /> \* Set **RunObject** to **Page Mini Item List \(1303\)**<br /><br /> \* Set **Promoted** to **Yes**|  

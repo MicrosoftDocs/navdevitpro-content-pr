@@ -164,7 +164,7 @@ The following walkthrough demonstrates how to develop a [!INCLUDE[nav_windows](i
   
 6.  In Solution Explorer, choose the Class1.cs file to open it. Notice the RtcAddins.snk file that is added in Solution Explorer.  
   
-7.  On the **Build** menu, choose **Build \<Your Solution\>** to build the project. Verify that the build succeeds. In this example, your solution is **MyCompany.MyProduct.RtcAddins**.  
+7.  On the **Build** menu, choose **Build \<Your Solution>** to build the project. Verify that the build succeeds. In this example, your solution is **MyCompany.MyProduct.RtcAddins**.  
   
 ##  <a name="CopyAddin"></a> Copying the Add-in Assembly to the Microsoft Dynamics Windows Client  
  After you build the add-in, you copy the output assembly file to the computer that is running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
@@ -240,7 +240,7 @@ The following walkthrough demonstrates how to develop a [!INCLUDE[nav_windows](i
   
 3.  In the Page Designer, in the **Name** column, select the **Name** field, and then on the **View** menu, choose **Properties**.  
   
-4.  In the **\<Name\> Properties** window, in the **Property** column, locate **ControlAddIn**.  
+4.  In the **\<Name> Properties** window, in the **Property** column, locate **ControlAddIn**.  
   
 5.  In the **Value** column, choose the up arrow, and then select **MyCompany.MyProduct.FieldPopupAddin** from the **Client Add-in** window. Choose the **OK** button to close the **Client Add-Ins** window. The public key token is inserted into the **Value** field.  
   

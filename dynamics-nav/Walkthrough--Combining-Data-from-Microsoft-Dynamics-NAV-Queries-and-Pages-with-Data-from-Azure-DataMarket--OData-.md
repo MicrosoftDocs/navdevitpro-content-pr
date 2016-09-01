@@ -126,7 +126,7 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
 1.  Start Internet Explorer.  
   
-2.  In the **Address** field, enter a URI in this format: **http:\/\/\<Server\>:\<WebServicePort\>\/\<ServerInstance\>\/OData**.  
+2.  In the **Address** field, enter a URI in this format: **http:\/\/\<Server>:\<WebServicePort>\/\<ServerInstance>\/OData**.  
   
      For example:**http:\/\/localhost:7048\/DynamicsNAV72\/OData**  
   

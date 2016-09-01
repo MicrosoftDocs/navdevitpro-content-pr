@@ -108,7 +108,7 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] account is used by [!INCLU
   
     2.  Under **Name**, choose the login you created for the [!INCLUDE[nav_server](includes/nav_server_md.md)] account name.  
   
-    3.  Under **Permissions for \<username\>**, on the **Explicit** tab, scroll down to down to the **Select** line, and select the check box in the **Grant** column.  
+    3.  Under **Permissions for \<username>**, on the **Explicit** tab, scroll down to down to the **Select** line, and select the check box in the **Grant** column.  
   
     4.  Choose **OK** to exit the **Database Properties – master** dialog box.  
   
@@ -120,13 +120,13 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] account is used by [!INCLU
   
     8.  Choose **Search**, and use the **Select User or Group** dialog box to identify the login for the [!INCLUDE[nav_server](includes/nav_server_md.md)] account.  
   
-    9. Under **Permissions for \<username\>**, on the **Explicit** tab, scroll down to down to the **Select** line, and select the check box in the **Grant** column.  
+    9. Under **Permissions for \<username>**, on the **Explicit** tab, scroll down to down to the **Select** line, and select the check box in the **Grant** column.  
   
     10. Choose **OK** to exit the **Table Properties – dbo.$ndo$srvproperty** dialog box.  
   
 5.  Grant the login the necessary database roles on the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
-    1.  Navigate the tree view: **Databases**, **\<your Microsoft Dynamics NAV database\>**, **Security**, **Users**.  
+    1.  Navigate the tree view: **Databases**, **\<your Microsoft Dynamics NAV database>**, **Security**, **Users**.  
   
     2.  Right-click **Users** and choose **New User**.  
   
@@ -144,7 +144,7 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] account is used by [!INCLU
   
     9. Choose **Search**, and use the **Select User or Group** dialog box to identify login you created for the [!INCLUDE[nav_server](includes/nav_server_md.md)] account.  
   
-    10. Under **Permissions for \<username\>**, on the **Explicit** tab, scroll down to down to the **View database state** line, and select the check box in the **Grant** column.  
+    10. Under **Permissions for \<username>**, on the **Explicit** tab, scroll down to down to the **View database state** line, and select the check box in the **Grant** column.  
   
     11. Choose **OK** to exit the Database Properties dialog box for your [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   

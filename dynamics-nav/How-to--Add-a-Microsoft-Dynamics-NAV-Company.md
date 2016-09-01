@@ -40,9 +40,9 @@ This topic describes how to add a new company to a [!INCLUDE[navnow](includes/na
   
     |Parameter|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
     |---------------|---------------------------------------|  
-    |*\<NAVServerInstance\>*|Specifies the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that the company uses, such as [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)].|  
-    |*\<MyCompanyName\>*|Specifies the name of the company that you want to create. If a company with that name already exists in the [!INCLUDE[navnow](includes/navnow_md.md)] database, the cmdlet fails.|  
-    |*\<TenantId\>*|Specifies the ID of the tenant that the company must be created in, such as Tenant1. This parameter is required unless the specified service instance is not configured to run multiple tenants.|  
+    |*\<NAVServerInstance>*|Specifies the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that the company uses, such as [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)].|  
+    |*\<MyCompanyName>*|Specifies the name of the company that you want to create. If a company with that name already exists in the [!INCLUDE[navnow](includes/navnow_md.md)] database, the cmdlet fails.|  
+    |*\<TenantId>*|Specifies the ID of the tenant that the company must be created in, such as Tenant1. This parameter is required unless the specified service instance is not configured to run multiple tenants.|  
   
     > [!NOTE]  
     >  The command that is shown includes only a subset of all the parameters of the New-NavCompany cmdlet. For more information about the syntax and parameters, see [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVCompany](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVCompany) topic in the Administration Cmdlets for [!INCLUDE[navnow](includes/navnow_md.md)] section of the Technical Reference.  

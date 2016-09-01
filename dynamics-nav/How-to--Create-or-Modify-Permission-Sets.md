@@ -45,7 +45,7 @@ If the default permission sets that are provided with [!INCLUDE[navnow](includes
   
     |[!INCLUDE[bp_tableoption](includes/bp_tableoption_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
     |----------------------------------|---------------------------------------|  
-    |\<**Blank**\>|Specifies that the permission type is not granted for the object.|  
+    |\<**Blank**>|Specifies that the permission type is not granted for the object.|  
     |**Yes**|Specifies that the permission type is granted with direct access to the object.|  
     |**Indirect**|Specifies that the permission type is granted with indirect access to the object.<br /><br /> Having indirect permission to a table means that you cannot open the table and read from it, but you can view the data in the table through another object, such as a page, that you have direct permission to access.<br /><br /> For more information, see the “Example – Indirect Permission” section in this topic.|  
   

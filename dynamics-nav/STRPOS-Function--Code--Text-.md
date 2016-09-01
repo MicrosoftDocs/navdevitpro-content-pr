@@ -55,8 +55,8 @@ Position := STRPOS(String, SubString)
 |-------------------|---------------|  
 |Text000|'ABC abc abc xy'|  
 |Text001|'abc'|  
-|Text002|'The search for the substring: \>%1\<\\'|  
-|Text003|'in the string: \>%2\<,\\'|  
+|Text002|'The search for the substring: >%1\<\\'|  
+|Text003|'in the string: >%2\<,\\'|  
 |Text004|'returns the position: %3'|  
   
 ```  
@@ -70,9 +70,9 @@ MESSAGE(Text002 + Text003 + Text004, SubStr, String, Pos);
   
  The message window displays the following:  
   
- **The search for the substring: \>abc\<**  
+ **The search for the substring: >abc\<**  
   
- **in the string: \>ABC abc abc xy\<**  
+ **in the string: >ABC abc abc xy\<**  
   
  **returns the position: 5**  
   

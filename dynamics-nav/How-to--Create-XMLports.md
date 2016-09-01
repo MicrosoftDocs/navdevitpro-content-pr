@@ -32,11 +32,11 @@ You design XMLports to export data from Microsoft Dynamics NAV tables or import 
   
         |Property|Value|  
         |--------------|-----------|  
-        |[TextEncoding Property \(XMLports\)](TextEncoding-Property--XMLports-.md)|\<MSDOS\>|  
+        |[TextEncoding Property \(XMLports\)](TextEncoding-Property--XMLports-.md)|\<MSDOS>|  
         |[FieldDelimiter Property](FieldDelimiter-Property.md)|“|  
         |[FieldSeparator Property](FieldSeparator-Property.md)|,|  
-        |[RecordSeparator Property](RecordSeparator-Property.md)|\<NewLine\>|  
-        |[TableSeparator Property](TableSeparator-Property.md)|\<NewLine\>\<NewLine\>|  
+        |[RecordSeparator Property](RecordSeparator-Property.md)|\<NewLine>|  
+        |[TableSeparator Property](TableSeparator-Property.md)|\<NewLine>\<NewLine>|  
   
     > [!NOTE]  
     >  If you are importing a text file, you must examine the text file to determine the appropriate values for these properties.  
@@ -47,9 +47,9 @@ You design XMLports to export data from Microsoft Dynamics NAV tables or import 
   
         |Property|Value|  
         |--------------|-----------|  
-        |[TextEncoding Property \(XMLports\)](TextEncoding-Property--XMLports-.md)|\<MSDOS\>|  
-        |[RecordSeparator Property](RecordSeparator-Property.md)|\<NewLine\>|  
-        |[TableSeparator Property](TableSeparator-Property.md)|\<NewLine\>\<NewLine\>|  
+        |[TextEncoding Property \(XMLports\)](TextEncoding-Property--XMLports-.md)|\<MSDOS>|  
+        |[RecordSeparator Property](RecordSeparator-Property.md)|\<NewLine>|  
+        |[TableSeparator Property](TableSeparator-Property.md)|\<NewLine>\<NewLine>|  
   
     > [!NOTE]  
     >  If you are importing a text file, you must examine the text file to determine the appropriate values for these properties.  

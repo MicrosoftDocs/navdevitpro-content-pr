@@ -100,7 +100,7 @@ Web services provide easy communication and data exchange in a secured environme
   
 1.  Start Windows Internet Explorer.  
   
-2.  In the **Address** field, enter an address in the following format: **http:\/\/\<Server\>:\<WebServicePort\>\/\<ServerInstance\>\/WS\/\<CompanyName\>\/services**.  
+2.  In the **Address** field, enter an address in the following format: **http:\/\/\<Server>:\<WebServicePort>\/\<ServerInstance>\/WS\/\<CompanyName>\/services**.  
   
      For example:  
   

@@ -94,11 +94,11 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can create MenuSuites 
   
  Changes that you make in the new MenuSuite are merged into the inherited MenuSuite and saved as the difference between the new and the original MenuSuites. For example, if you make a change in the Dept – MBS MenuSuite, the change is also made in the Dept – Region MenuSuite. If you import the inherited MenuSuite to a text file, the file will contain only the difference between the two MenuSuites.  
   
- Menus in a MenuSuite that are inherited are identified by the symbol **\>\>** on the menu button. This symbol precedes the name of the menu. The following screenshot shows the departments menus in the Navigation Pane Designer.  
+ Menus in a MenuSuite that are inherited are identified by the symbol **>>** on the menu button. This symbol precedes the name of the menu. The following screenshot shows the departments menus in the Navigation Pane Designer.  
   
  ![Navigation Pane Designer Departments](media/MicrosoftDynamicsNAVMenuSuiteDepartments.jpg "MicrosoftDynamicsNAVMenuSuiteDepartments")  
   
- These menus, except the **My New Department** menu, were inherited; therefore, **My New Department** does not have the symbol **\>\>** on the menu button.  
+ These menus, except the **My New Department** menu, were inherited; therefore, **My New Department** does not have the symbol **>>** on the menu button.  
   
 ## Modifying a MenuSuite  
  To modify a MenuSuite in the Navigation Pane Designer, select the MenuSuite in Object Designer, apply the changes you want, compile, and save the MenuSuite. You can change the properties of menu items and departments in the **Properties** windows. For information about how to modify MenuSuites, see [How to: Modify a Department Menu in a MenuSuite](How%20to:%20Modify%20a%20Department%20Menu%20in%20a%20MenuSuite.md).  

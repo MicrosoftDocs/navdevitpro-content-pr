@@ -117,7 +117,7 @@ This walkthrough shows how to publish and consume a [!INCLUDE[navnow](includes/n
   
 1.  Start Windows Internet Explorer.  
   
-2.  In the **Address** field, enter the following address where the keys are replaced with the values that are specified in the CustomSettings.config file: **http:\/\/\<Server\>:\<WebServicePort\>\/\<ServerInstance\>\/WS\/\<CompanyName\>\/services**.  
+2.  In the **Address** field, enter the following address where the keys are replaced with the values that are specified in the CustomSettings.config file: **http:\/\/\<Server>:\<WebServicePort>\/\<ServerInstance>\/WS\/\<CompanyName>\/services**.  
   
      For example:  
   

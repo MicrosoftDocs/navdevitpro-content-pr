@@ -42,8 +42,8 @@ To create and modify client report definition \(RDLC\) report layouts, you must 
   
 5.  In Report Dataset Designer, select an empty line in the report. A dialog box opens with the following message:  
   
-     “The layout of report id: '*\<report ID\>*' is changed by another application.   
-    Filename of the changed RDLC: *\<filename\>*  
+     “The layout of report id: '*\<report ID>*' is changed by another application.   
+    Filename of the changed RDLC: *\<filename>*  
     Do you want to load the changes?”  
   
 6.  Choose **Yes** to load the changes that you made to the RDLC layout into the report.  

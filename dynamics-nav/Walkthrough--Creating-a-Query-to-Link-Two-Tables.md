@@ -61,10 +61,10 @@ SELECT C.Name, C.'No.' SL.AmountFROM Customer AS C, 'Sales Line' AS SL WHERE C.'
     |Line No.|Type|Data Source|Name|  
     |--------------|----------|-----------------|----------|  
     |Line 1|DataItem|Customer|**C**|  
-    |Line 2|Column|No.|\<No\>|  
-    |Line 3|Column|Name|\<Name\>|  
+    |Line 2|Column|No.|\<No>|  
+    |Line 3|Column|Name|\<Name>|  
     |Line 4|DataItem|Sales Line|**SL**|  
-    |Line 5|Column|Quantity|\<Quantity\>|  
+    |Line 5|Column|Quantity|\<Quantity>|  
   
 > [!TIP]  
 >  The **Name** column in Query Designer is equivalent to using the AS keyword in an SQL statement. It defines an alias for the data item. Type a value in this column when you want to replace the default value with an alias.  

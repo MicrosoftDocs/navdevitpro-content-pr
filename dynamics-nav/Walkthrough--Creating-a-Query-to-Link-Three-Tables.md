@@ -68,7 +68,7 @@ GROUP BY SP.Name
     |Line No.|Type|Data Source|Name|  
     |--------------|----------|-----------------|----------|  
     |Line 1|DataItem|Salesperson\/Purchaser|**SP**|  
-    |Line 2|Column|Name|\<Name\>|  
+    |Line 2|Column|Name|\<Name>|  
     |Line 3|DataItem|Sales Header|**SH**|  
     |Line 4|DataItem|Sales Line|**SL**|  
   

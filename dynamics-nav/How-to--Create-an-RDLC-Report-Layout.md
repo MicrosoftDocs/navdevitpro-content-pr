@@ -32,9 +32,9 @@ To create an RDLC report layout, you use Visual Studio Report Designer.
   
 5.  In Report Dataset Designer, select a new row. A dialog box shows the following message:  
   
-     **The layout of report id: '** *\<report ID\>* **' is changed by another application.**  
+     **The layout of report id: '** *\<report ID>* **' is changed by another application.**  
   
-     **Filename of the changed RDLC: ‘** *\<filename\>* **’**  
+     **Filename of the changed RDLC: ‘** *\<filename>* **’**  
   
      **Do you want to load the changes?**  
   

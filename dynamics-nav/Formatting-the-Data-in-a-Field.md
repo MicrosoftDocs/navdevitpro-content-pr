@@ -46,11 +46,11 @@ This topic describes how you can format the appearance of decimal data types in 
   
 |**Standard Format**|**Format Description**|**Europe Decimal Example**|**US Decimal Example**|  
 |-------------------------|----------------------------|--------------------------------|----------------------------|  
-|0|\<Sign\>\<Integer Thousand\>\<Point or Comma\>\<Decimals\>|-76.543,21|-76,543.21|  
-|1|\<Sign\>\<Integer\>\<Point or Comma\>\<Decimals\>|-76543,21|-76543.21|  
-|2|\<Sign\>\<Integer\>\<Point or Comma\>\<Decimals\>|-76543.21|-76543.21|  
-|3|\<Integer Thousand\>\<Point or Comma\>\<Decimals\>\<Sign\>|76.543,21-|76,543.21-|  
-|4|\<Integer\>\<Decimals\>\<Point or Comma\>\<Sign\>|76543,21-|76543.21-|  
+|0|\<Sign>\<Integer Thousand>\<Point or Comma>\<Decimals>|-76.543,21|-76,543.21|  
+|1|\<Sign>\<Integer>\<Point or Comma>\<Decimals>|-76543,21|-76543.21|  
+|2|\<Sign>\<Integer>\<Point or Comma>\<Decimals>|-76543.21|-76543.21|  
+|3|\<Integer Thousand>\<Point or Comma>\<Decimals>\<Sign>|76.543,21-|76,543.21-|  
+|4|\<Integer>\<Decimals>\<Point or Comma>\<Sign>|76543,21-|76543.21-|  
 |9|XML format|-76543.21|-76543.21|  
   
 ## See Also  

@@ -34,19 +34,19 @@ FOR <Control Variable> := <Start Number> DOWNTO <End Number> DO
   <Statement>  
 ```  
   
- The data type of *\<Control Variable\>*, *\<Start Number\>*, and *\<End Number\>* must be Boolean, number, time, or date.  
+ The data type of *\<Control Variable>*, *\<Start Number>*, and *\<End Number>* must be Boolean, number, time, or date.  
   
- Use FOR-TO and FOR-DOWNTO statements when you want to execute code a specific number of times. The *\<Control Variable\>* controls the number of times that the code of the inner statement is executed according to the following:  
+ Use FOR-TO and FOR-DOWNTO statements when you want to execute code a specific number of times. The *\<Control Variable>* controls the number of times that the code of the inner statement is executed according to the following:  
   
--   In a FOR-TO loop statement, the *\<Control Variable\>* value is increased by one after each iteration. The inner *\<Statement\>* is executed repeatedly until the *\<Start Number\>* value is greater than the *\<End Number\>* value.  
+-   In a FOR-TO loop statement, the *\<Control Variable>* value is increased by one after each iteration. The inner *\<Statement>* is executed repeatedly until the *\<Start Number>* value is greater than the *\<End Number>* value.  
   
--   In a FOR-DOWNTO loop statement, the *\<Control Variable\>* value is decreased by one after each iteration. The inner *\<Statement\>* is executed repeatedly until the *\<Start Number\>* value is less than the *\<End Number\>* value.  
-  
-> [!NOTE]  
->  When the FOR statement is executed, *\<Start Number\>* and *\<End Number\>* are converted to the same data type as *\<Control Variable\>* if it is required. This type conversion can cause a run-time error.  
+-   In a FOR-DOWNTO loop statement, the *\<Control Variable>* value is decreased by one after each iteration. The inner *\<Statement>* is executed repeatedly until the *\<Start Number>* value is less than the *\<End Number>* value.  
   
 > [!NOTE]  
->  If the value of the *\<Control Variable\>* is changed inside the FOR loop, then the behavior is not predictable. Furthermore, the value of the *\<Control Variable\>* is undefined outside the scope of the FOR loop.  
+>  When the FOR statement is executed, *\<Start Number>* and *\<End Number>* are converted to the same data type as *\<Control Variable>* if it is required. This type conversion can cause a run-time error.  
+  
+> [!NOTE]  
+>  If the value of the *\<Control Variable>* is changed inside the FOR loop, then the behavior is not predictable. Furthermore, the value of the *\<Control Variable>* is undefined outside the scope of the FOR loop.  
   
 ### Example 1  
  Create the following variable.  
@@ -93,12 +93,12 @@ FOREACH <Element> IN <List> DO
   <Statement>  
 ```  
   
- The *\<List\>* variable must be a **DotNet** data type that is set to .NET Framework collection or array type.  
+ The *\<List>* variable must be a **DotNet** data type that is set to .NET Framework collection or array type.  
   
 > [!NOTE]  
 >  The FOREACH statement is not limited to collections and arrays. You can use it with any .NET Framework object that implements the [M:System.Collection.IEnumerable.GetEnumerator](assetId:///M:System.Collection.IEnumerable.GetEnumerator) method, the [M:System.Collection.IEnumerator.MoveNext](assetId:///M:System.Collection.IEnumerator.MoveNext) method, and the [P:System.Collection.IEnumerator.Current](assetId:///P:System.Collection.IEnumerator.Current) property.  
   
- The *\<Element\>* variable must be a data type that is compatible with elements in the .NET Framework collection or array that is specified by the *\<List\>*.  
+ The *\<Element>* variable must be a data type that is compatible with elements in the .NET Framework collection or array that is specified by the *\<List>*.  
   
 ### Example 1  
  The following code example iterates through a .NET Framework collection that contains a generic list of elements and returns each element as text in a message.  
@@ -226,7 +226,7 @@ WHILE <Condition> DO
   <Statement>  
 ```  
   
- If *\<Condition\>* is TRUE, then *\<Statement\>* is executed repeatedly until *\<Condition\>* becomes FALSE. If *\<Condition\>* is FALSE from the start, then *\<Statement\>* is never executed.  
+ If *\<Condition>* is TRUE, then *\<Statement>* is executed repeatedly until *\<Condition>* becomes FALSE. If *\<Condition>* is FALSE from the start, then *\<Statement>* is never executed.  
   
  The WHILE DO statement can be used when some code should be repeated as long as an expression is TRUE.  
   
@@ -286,9 +286,9 @@ REPEAT
   <Statements> UNTIL <Condition>  
 ```  
   
- *\<Statements\>* is executed repeatedly until *\<Condition\>* is TRUE.  
+ *\<Statements>* is executed repeatedly until *\<Condition>* is TRUE.  
   
- The REPEAT UNTIL control structure resembles the WHILE control structure. The difference is that because the REPEAT UNTIL statement is executed from left to right, the *\<Statements\>* is always executed at least one time, regardless of what the *\<Condition\>* is evaluated to. This contrasts with the WHILE control structure, which performs the evaluation before the *\<Statement\>* is executed. In the WHILE control structure, if the first evaluation of *\<Condition\>* returns FALSE, then no statements are executed.  
+ The REPEAT UNTIL control structure resembles the WHILE control structure. The difference is that because the REPEAT UNTIL statement is executed from left to right, the *\<Statements>* is always executed at least one time, regardless of what the *\<Condition>* is evaluated to. This contrasts with the WHILE control structure, which performs the evaluation before the *\<Statement>* is executed. In the WHILE control structure, if the first evaluation of *\<Condition>* returns FALSE, then no statements are executed.  
   
 ### Programming Conventions  
  Always put REPEAT on a separate line.  

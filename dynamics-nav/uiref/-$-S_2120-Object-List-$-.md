@@ -18,9 +18,9 @@ Lists the objects that can be selected. This list can contain any kind of object
   
  For more information about how to open Navigation Pane Designer, see [\($ S\_2401 Navigation Pane Designer $\)](-$-S_2401-Navigation-Pane-Designer-$-.md).  
   
- The following table describes the \<object\> list windows.  
+ The following table describes the \<object> list windows.  
   
-|\<Object\> List|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|  
+|\<Object> List|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|  
 |---------------------|---------------------------------------|  
 |**Table List**|List the tables that are available.|  
 |**Page List**|List the pages that are available.|  

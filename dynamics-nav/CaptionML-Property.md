@@ -37,9 +37,9 @@ Sets the string that is used to identify a control or other object in the user i
   
  The CaptionML property has the following format.  
   
- **\<Language ID\>=\<caption\>**  
+ **\<Language ID>=\<caption>**  
   
- \<Language ID\> is the standard Windows three-letter language ID, and \<caption\> is the caption text for this language. Use semicolons to separate entries.  
+ \<Language ID> is the standard Windows three-letter language ID, and \<caption> is the caption text for this language. Use semicolons to separate entries.  
   
  The following example shows a CaptionML value.  
   
@@ -49,7 +49,7 @@ Sets the string that is used to identify a control or other object in the user i
   
  You can enter values for the CaptionML property in two ways:  
   
--   If you enter a value for the [Caption Property-duplicate](Caption-Property-duplicate.md), then the CaptionML property is set to the value of the current language. For example, if the current system language is Danish, then a value of **DAN =\<value\>** is placed in the CaptionML field.  
+-   If you enter a value for the [Caption Property-duplicate](Caption-Property-duplicate.md), then the CaptionML property is set to the value of the current language. For example, if the current system language is Danish, then a value of **DAN =\<value>** is placed in the CaptionML field.  
   
 -   If you choose the **AssistButton** in the CaptionML value field, then the **Multilanguage Editor** opens and displays two columns: **Language** and **Value**. The **Language** column is populated with all languages that are defined by Windows. You specify the CaptionML value for a language by entering a value in the **Value** field for that language. You must close the **Multilanguage Editor** by choosing **OK**. If you press ESC to close the **Multilanguage Editor**, then the CaptionML field is not updated.  
   

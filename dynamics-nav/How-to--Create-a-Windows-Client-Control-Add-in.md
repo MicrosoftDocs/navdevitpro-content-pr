@@ -95,7 +95,7 @@ You develop [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add-ins 
   
      The caption will span the caption column and the data column of the page.  
   
-7.  To bind the control add-in to data in the [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] database, add the following code that gets or sets the [IValueControlAddInDefinition\<T\>.Value](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1.Value) property.  
+7.  To bind the control add-in to data in the [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] database, add the following code that gets or sets the [IValueControlAddInDefinition\<T>.Value](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1.Value) property.  
   
     ```c#  
     /// Gets a value indicating whether the Value property has  
@@ -120,7 +120,7 @@ You develop [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add-ins 
     ```  
   
     > [!NOTE]  
-    >  The [Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.StringControlAddInBase](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.StringControlAddInBase) class already overrides the [IValueControlAddInDefinition\<T\>.Value](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1.Value) property to transfer data between the control add-in and the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
+    >  The [Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.StringControlAddInBase](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.WinForms.StringControlAddInBase) class already overrides the [IValueControlAddInDefinition\<T>.Value](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1.Value) property to transfer data between the control add-in and the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
      For more information, see [Binding a Windows Client Control Add-in to the Database](Binding-a-Windows-Client-Control-Add-in-to-the-Database.md).  
   

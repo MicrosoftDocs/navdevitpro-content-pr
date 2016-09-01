@@ -33,7 +33,7 @@ Finds a record in a table based on the values stored in the key fields.
   
 -   =  search for a record that equals the key values \(default\)  
   
--   \>  search for a record that is larger than the key values  
+-   >  search for a record that is larger than the key values  
   
 -   \<  search for a record that is less than the key values  
   
@@ -41,9 +41,9 @@ Finds a record in a table based on the values stored in the key fields.
   
 -   -  search for the first record in the table \(- can only be used alone\)  
   
- You can combine the '=', '\<', and '\>' characters.  
+ You can combine the '=', '\<', and '>' characters.  
   
- If this parameter contains '=', '\>', or '\<', then you must assign value to all fields of the current and primary keys before you call FIND.  
+ If this parameter contains '=', '>', or '\<', then you must assign value to all fields of the current and primary keys before you call FIND.  
   
 ## Property Value/Return Value  
  Type: Boolean  

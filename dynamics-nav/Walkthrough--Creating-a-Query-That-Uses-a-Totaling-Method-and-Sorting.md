@@ -63,7 +63,7 @@ ORDER BY Quantity
      ![Query with Sum column](media/Query_WalkthroughTotals.png "Query\_WalkthroughTotals")  
   
     > [!NOTE]  
-    >  When you set the **Method** column to **Totals**, the name of the column is automatically changed from **Quantity** to **\<Sum\_Quantity\>**. The column name is specified by its [Name Property-duplicate](Name-Property-duplicate.md). The **OrderBy** property identifies a column by the **Name** property.  
+    >  When you set the **Method** column to **Totals**, the name of the column is automatically changed from **Quantity** to **\<Sum\_Quantity>**. The column name is specified by its [Name Property-duplicate](Name-Property-duplicate.md). The **OrderBy** property identifies a column by the **Name** property.  
   
 ## Sorting the Query Results  
  Viktor wants the resulting dataset to display records according to the item quantity in descending order from highest value to lowest value. To achieve this, he will set the [OrderBy Property](OrderBy-Property.md) on the query object.  

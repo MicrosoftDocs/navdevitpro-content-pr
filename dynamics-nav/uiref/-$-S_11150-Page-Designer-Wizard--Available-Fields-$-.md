@@ -26,8 +26,8 @@ Creates a List page and adds fields with the page wizard. List pages display mul
 
 |Controls|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
-|**\>** button|Adds a field from the **Available Fields** list box.|  
-|**\>\>** button|Adds all the fields from the **Available Fields** list box.|  
+|**>** button|Adds a field from the **Available Fields** list box.|  
+|**>>** button|Adds all the fields from the **Available Fields** list box.|  
 |**\<** button|Removes the selected field from the **Field Order** list box.|  
 |**\<\<** button|Removes all the fields from the **Field Order** list box.|  
 |**Back** button|Not enabled.|  

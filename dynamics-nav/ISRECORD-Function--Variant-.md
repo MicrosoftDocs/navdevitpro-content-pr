@@ -40,8 +40,8 @@ Ok := Variant.ISRECORD
   
 |Text constant name|ConstValue|  
 |------------------------|----------------|  
-|Text000|Does the variant \>%1\< contain a record variable? %2.|  
-|Text001|Does the variant \>%1\< contain a code variable? %2.|  
+|Text000|Does the variant >%1\< contain a record variable? %2.|  
+|Text001|Does the variant >%1\< contain a code variable? %2.|  
   
 ```  
 MyRecord.GET('10000');  

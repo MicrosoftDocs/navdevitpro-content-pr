@@ -41,7 +41,7 @@ Sets the text used for the tooltip of an action, a field, a factbox, or an activ
 <Language ID>=<tooltip>  
 ```  
   
- \<Language ID\> is a Windows standard three-letter language ID and \<caption\> is the caption text for this language. Semicolons are used to separate entries.  
+ \<Language ID> is a Windows standard three-letter language ID and \<caption> is the caption text for this language. Semicolons are used to separate entries.  
   
  In the following example, values are set for Danish \(DAN\) and English \(ENG\).  
   
@@ -52,7 +52,7 @@ DAN=Dette felt indeholder kundens navn;ENG=This field contains the customer name
 ## How to Enter ToolTipML Values  
  You can enter values for the ToolTipML property in two ways.  
   
--   Enter a [ToolTip Property](ToolTip-Property.md) value. This value is inserted in ToolTipML as the value for the language that is currently selected. If the language is set to Danish when a value is entered in ToolTip, ToolTipML is updated with a DAN=\<value\> string. You have to use the abbreviated language name \(for example, DAN for Danish\).  
+-   Enter a [ToolTip Property](ToolTip-Property.md) value. This value is inserted in ToolTipML as the value for the language that is currently selected. If the language is set to Danish when a value is entered in ToolTip, ToolTipML is updated with a DAN=\<value> string. You have to use the abbreviated language name \(for example, DAN for Danish\).  
   
 -   Choose the **AssistEdit** button in the ToolTipML Value field to open the **Multilanguage** editor. This is a page with two columns: Language and Value. The Language column is populated with all languages defined by Windows. Enter tooltip text in the Value field for the appropriate language and then choose the **OK** button to close the editor. If you press the Esc key to close the editor, the ToolTipML field is not updated.  
   

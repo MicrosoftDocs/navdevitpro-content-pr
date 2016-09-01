@@ -72,7 +72,7 @@ This walkthrough describes how you can use OData to expose a [!INCLUDE[navnowlon
   
 1.  Start Windows Internet Explorer.  
   
-2.  In the **Address** field, enter a URI using the following format: **http:\/\/\<Server\>:\<WebServicePort\>\/\<ServerInstance\>\/OData\/**  
+2.  In the **Address** field, enter a URI using the following format: **http:\/\/\<Server>:\<WebServicePort>\/\<ServerInstance>\/OData\/**  
   
     -   **Server** is the name of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   

@@ -31,15 +31,15 @@ You can define a condition on a breakpoint. If the condition is true, then code 
   
 -   =  
   
--   \<\>  
+-   \<>  
   
 -   \<  
   
--   \>  
+-   >  
   
 -   \<=  
   
--   \>=  
+-   >=  
   
 ### To set a conditional breakpoint  
   

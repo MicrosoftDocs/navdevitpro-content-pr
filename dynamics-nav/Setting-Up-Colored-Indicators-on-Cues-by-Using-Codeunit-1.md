@@ -24,7 +24,7 @@ Codeunit 1 Application Management includes the **GetCueStyle** trigger that enab
  The GetCueStyle trigger is called when the page that contains the Cue is run.  
   
 > [!IMPORTANT]  
->  The trigger is only called if the **Style** and **StyleExpr** properties are set to their default values \<None\> and \<FALSE\> respectively. If you set these parameters to any value other than the default values, then the **GetCueStyle** trigger is not called and the Cue indicator is configured according to the **Style** and **StyleExpr** properties.  
+>  The trigger is only called if the **Style** and **StyleExpr** properties are set to their default values \<None> and \<FALSE> respectively. If you set these parameters to any value other than the default values, then the **GetCueStyle** trigger is not called and the Cue indicator is configured according to the **Style** and **StyleExpr** properties.  
   
 ### Parameters  
  The following table describes the parameters of the **GetCueStyle** trigger.  

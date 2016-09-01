@@ -98,4 +98,4 @@ MESSAGE(Text000, MyFilter);
   
  Running the code returns the following message:  
   
- **The filter is: Quantity \> 10**
+ **The filter is: Quantity > 10**

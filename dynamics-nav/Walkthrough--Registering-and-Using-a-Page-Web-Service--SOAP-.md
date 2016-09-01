@@ -60,7 +60,7 @@ This walkthrough focuses on publishing a [!INCLUDE[navnow](includes/navnow_md.md
   
 1.  Start Windows Internet Explorer.  
   
-2.  In the **Address** field, enter an address of the following type: **http:\/\/\<Server\>:\<WebServicePort\>\/\<ServerInstance\>\/WS\/\<CompanyName\>\/services**. For example:  
+2.  In the **Address** field, enter an address of the following type: **http:\/\/\<Server>:\<WebServicePort>\/\<ServerInstance>\/WS\/\<CompanyName>\/services**. For example:  
   
      **http:\/\/localhost:7047\/ DynamicsNAV90\/WS\/CRONUS%20International%20Ltd.\/services**  
   

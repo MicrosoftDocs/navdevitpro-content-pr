@@ -36,7 +36,7 @@ String := FORMAT(Value[, Length][, FormatStr/FormatNumber])
   
 -   If *Length* = 0 then the entire value is returned \(default\).  
   
--   If *Length* \> 0 then the returned string will be exactly *Length* characters.  
+-   If *Length* > 0 then the returned string will be exactly *Length* characters.  
   
      If *Value* is less than *Length* characters, then either leading or trailing spaces are inserted, depending on the format that you select.  
   
@@ -58,15 +58,15 @@ String := FORMAT(Value[, Length][, FormatStr/FormatNumber])
   
  This optional parameter specifies the format that you want to use. The basic options for the Decimal data type are as follows:  
   
--   \<*Sign*\>\<*Integer Thousand*\>\<*Decimals*\> is Format 0  
+-   \<*Sign*>\<*Integer Thousand*>\<*Decimals*> is Format 0  
   
--   \<*Sign*\>\<*Integer*\>\<*Decimals*\> is Format 1  
+-   \<*Sign*>\<*Integer*>\<*Decimals*> is Format 1  
   
--   \<*Sign*\>\<*Integer*\>\<*Decimals*\>\<*Comma*,.\> is Format 2  
+-   \<*Sign*>\<*Integer*>\<*Decimals*>\<*Comma*,.> is Format 2  
   
--   \<*Integer Thousand*\>\<*Decimals*\>\<*Sign,1*\> is Format 3  
+-   \<*Integer Thousand*>\<*Decimals*>\<*Sign,1*> is Format 3  
   
--   \<*Integer*\>\<*Decimals*\>\<*Sign,1*\> is Format 4  
+-   \<*Integer*>\<*Decimals*>\<*Sign,1*> is Format 4  
   
 > [!NOTE]  
 >  You cannot use both *FormatNumber* and *FormatStr* at the same time.  
@@ -86,7 +86,7 @@ String := FORMAT(Value[, Length][, FormatStr/FormatNumber])
   
 |Text constant|ENU value|  
 |-------------------|---------------|  
-|Text000|The formatted value: \>%1\<|  
+|Text000|The formatted value: >%1\<|  
   
 ```  
 MESSAGE(Text000, FORMAT(-123456.78, 12, 3));  
@@ -97,19 +97,19 @@ MESSAGE(Text000, FORMAT(-123456.78, 12, '<Integer Thousand><Decimals><Sign,1>'))
   
  The Regional and Language settings on the computer on which you run the code affect how the string is displayed. For example, on a computer that has the regional format set to English \(United States\), the message window displays the following:  
   
- **The formatted value: \> 123,456.78-\<**  
+ **The formatted value: > 123,456.78-\<**  
   
- **The formatted value: \> 123,456.78-\<**  
+ **The formatted value: > 123,456.78-\<**  
   
- **The formatted value: \> 123,456.78-\<**  
+ **The formatted value: > 123,456.78-\<**  
   
  On a computer that has the regional format set to Danish \(Denmark\), the message window displays the following:  
   
- **The formatted value: \> 123.456,78-\<**  
+ **The formatted value: > 123.456,78-\<**  
   
- **The formatted value: \> 123.456,78-\<**  
+ **The formatted value: > 123.456,78-\<**  
   
- **The formatted value: \> 123.456,78-\<**  
+ **The formatted value: > 123.456,78-\<**  
   
 ## Example  
  This example shows how to use a string to build a format.  

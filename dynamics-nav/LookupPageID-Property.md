@@ -21,7 +21,7 @@ Sets the ID of the page you want to use as a lookup.
 -   Tables  
   
 ## Remarks  
- For tables, the default value **LookUpPageID** property is **\<Undefined\>**. By changing this value, you can determine which page is displayed when users press **F6** \(Lookup\).  
+ For tables, the default value **LookUpPageID** property is **\<Undefined>**. By changing this value, you can determine which page is displayed when users press **F6** \(Lookup\).  
   
 ## See Also  
  [Lookup Property](Lookup-Property.md)

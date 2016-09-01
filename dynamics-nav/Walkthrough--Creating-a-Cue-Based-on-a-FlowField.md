@@ -251,9 +251,9 @@ This walkthrough demonstrates how to add a Cue on the [!INCLUDE[rtc](includes/rt
   
 2.  Locate page 9006, Order Processor Role Center, and then choose **Design**.  
   
-3.  In Page Designer, locate the **Group** control in which you want to include the **Sales Cue** page. For example, you can place the **Sales Cue** page above the **\<Connect Online\>** part.  
+3.  In Page Designer, locate the **Group** control in which you want to include the **Sales Cue** page. For example, you can place the **Sales Cue** page above the **\<Connect Online>** part.  
   
-4.  In Page Designer, select the **\<Connect Online\>** part row, and on the shortcut menu, choose **New** to insert a new row in the group. This will place the **Sales Cue** part above the **\<Connect Online\>** part.  
+4.  In Page Designer, select the **\<Connect Online>** part row, and on the shortcut menu, choose **New** to insert a new row in the group. This will place the **Sales Cue** part above the **\<Connect Online>** part.  
   
 5.  In the new row, set the **Type** column to **Part**.  
   

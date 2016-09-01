@@ -43,7 +43,7 @@ NewNumber := ROUND(Number [, Precision] [, Direction])
   
 -   '=' rounds up or down to the nearest value \(default\). Values of 5 or greater are rounded up. Values less than 5 are rounded down.  
   
--   '\>' rounds up  
+-   '>' rounds up  
   
 -   '\<' rounds down  
   
@@ -76,7 +76,7 @@ MESSAGE(Text000, Format(DecimalToRound,0,1), Precision, Direction, Result);
   
  On a computer that has the regional format set to English \(United States\), the message window displays the following:  
   
- **ROUND\(1234.56789, 0.001, \>\) returns 1,234.568**  
+ **ROUND\(1234.56789, 0.001, >\) returns 1,234.568**  
   
  The following table displays some additional ROUND examples.  
   
@@ -86,16 +86,16 @@ MESSAGE(Text000, Format(DecimalToRound,0,1), Precision, Direction, Result);
 |1234.56789|0.1|=|1234.6|  
 |1234.56789|0.001|=|1234.568|  
 |1234.56789|0.001|\<|1234.567|  
-|1234.56789|0.001|\>|1234.568|  
+|1234.56789|0.001|>|1234.568|  
 |-1234.56789|100|=|-1200|  
 |-1234.56789|0.1|=|-1234.6|  
 |-1234.56789|0.001|=|-1234.568|  
 |-1234.56789|0.001|\<|-1234.567|  
-|-1234.56789|0.001|\>|-1234.568|  
+|-1234.56789|0.001|>|-1234.568|  
   
  When you round down \('\<'\) a negative number, such as -1234.56789, it is rounded down to -1234.567. However, -1234.567 is a mathematically greater value than -1234.56789.  
   
- When you round up \('\>'\) a negative number, such as -1234.56789, it is rounded up to -1234.568. However, -1234.568 is a mathematically smaller value than -1234.56789.  
+ When you round up \('>'\) a negative number, such as -1234.56789, it is rounded up to -1234.568. However, -1234.568 is a mathematically smaller value than -1234.56789.  
   
 ## See Also  
  [ABS Function \(Decimal, Integer, BigInteger\)](ABS-Function--Decimal--Integer--BigInteger-.md)   

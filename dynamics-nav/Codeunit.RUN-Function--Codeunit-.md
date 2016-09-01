@@ -28,7 +28,7 @@ Loads and executes the unit of C/AL code that you specify. See also [RUN Functio
   
  You can specify the codeunit by name instead of by ID by using the following syntax:  
   
- Codeunit.RUN\(CODEUNIT::"\<*codeunit name*\>", *RecVariable*\)  
+ Codeunit.RUN\(CODEUNIT::"\<*codeunit name*>", *RecVariable*\)  
   
  If the codeunit that you specify does not exist, then a run-time error occurs.  
   

@@ -23,7 +23,7 @@ This topic describes best practices for developing [!INCLUDE[navnow](includes/na
   
 -   If the contents of a record can be copied with a statement such as `MyRec := MyRec2;` then do not use a special C/AL function, such as the [TRANSFERFIELDS Function \(Record\)](TRANSFERFIELDS-Function--Record-.md), to copy the contents.  
   
--   The Rec global variable references the source table of a page. When you refer to fields or functions of that table, you do not need to qualify them with Rec.\< *field*\> or Rec.\< *function*\>. You use \<*field*\> or \<*function*\>  
+-   The Rec global variable references the source table of a page. When you refer to fields or functions of that table, you do not need to qualify them with Rec.\< *field*> or Rec.\< *function*>. You use \<*field*> or \<*function*>  
   
 ## Activating Objects  
  If you want to use the value of a field to find a record in a table or if you want to activate an object identified by the field, then ensure that the field contains a value. To do this, use the [TESTFIELD Function \(Record\)](TESTFIELD-Function--Record-.md), as shown in the following example. This produces more informative error messages if the value is zero or blank.  

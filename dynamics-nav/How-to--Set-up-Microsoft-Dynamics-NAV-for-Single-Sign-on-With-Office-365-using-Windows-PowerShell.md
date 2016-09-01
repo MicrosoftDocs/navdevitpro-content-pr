@@ -128,7 +128,7 @@ $result = Set-NavSingleSignOnWithOffice365 -AuthenticationEmail “YourOffice365
 >  When setting ACSUri in the ClientUserSettings.config file, make sure that the `ClientServicesCredentialType` is set to `AccessControlService`.  
   
 ### Adjusting the Client User Settings  
- To make sure that the account authentication for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] works correctly, the ClientUserSettings.Config file needs two settings to be of a specific type. The default location for the ClientUserSettings.Config file is *C:\\Users\\\<username\>\\AppData\\Roaming\\Microsoft\\Microsoft Dynamics NAV\\90*. For more information, see [Configuring the Windows Client](Configuring-the-Windows-Client.md).  
+ To make sure that the account authentication for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] works correctly, the ClientUserSettings.Config file needs two settings to be of a specific type. The default location for the ClientUserSettings.Config file is *C:\\Users\\\<username>\\AppData\\Roaming\\Microsoft\\Microsoft Dynamics NAV\\90*. For more information, see [Configuring the Windows Client](Configuring-the-Windows-Client.md).  
   
  The `ClientServicesCredentialType` must be set to `AccessControlService`.  
   

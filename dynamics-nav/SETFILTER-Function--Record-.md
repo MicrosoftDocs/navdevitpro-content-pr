@@ -35,7 +35,7 @@ Record.SETFILTER(Field, String, [Value],...)
  *String*  
  Type: Text or code  
   
- The filter expression. A valid expression consists of alphanumeric characters and one or more of the following operators: \<, \>, \*, &, &#124;, and =. You can use replacement fields \(%1, %2, and so on\) to insert values at run-time.  
+ The filter expression. A valid expression consists of alphanumeric characters and one or more of the following operators: \<, >, \*, &, &#124;, and =. You can use replacement fields \(%1, %2, and so on\) to insert values at run-time.  
   
  *Value*  
  Type: Any  
@@ -55,11 +55,11 @@ Record.SETFILTER(Field, String, [Value],...)
   
 -   \<=   Less than or equal to  
   
--   \>   Greater than  
+-   >   Greater than  
   
--   \>=   Greater than or equal to  
+-   >=   Greater than or equal to  
   
--   \<\>   Different from  
+-   \<>   Different from  
   
 -   \*   Forms a part of value  
   
@@ -73,9 +73,9 @@ Record.SETFILTER(Field, String, [Value],...)
 |A..Z|A range from A to Z|  
 |A&#124;G|A or G|  
 |F.. & \*A\/S|A range from F and A\/S is included in the field|  
-|\<\>B|All except B|  
-|\<\>''|All not blank|  
-|\<=200 &#124; \>500|All less than or equal to 200 or greater than 500|  
+|\<>B|All except B|  
+|\<>''|All not blank|  
+|\<=200 &#124; >500|All less than or equal to 200 or greater than 500|  
   
  This example requires that you create the following variable.  
   

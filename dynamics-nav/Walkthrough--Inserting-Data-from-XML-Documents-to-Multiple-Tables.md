@@ -132,7 +132,7 @@ XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)
   
 17. In the next empty row under the **Line** row, in the **Node Type** column, choose **Element**, and in the **Source Type** column, choose **Field**.  
   
-18. In the **Data Source** column, choose the up arrow, choose **\<Sales Line\>\(Sales Line\)** from the first column in the **Field Lookup** window, choose the **Document Type** field from the second column of the **Field Lookup** window, and then choose the **OK** button.  
+18. In the **Data Source** column, choose the up arrow, choose **\<Sales Line>\(Sales Line\)** from the first column in the **Field Lookup** window, choose the **Document Type** field from the second column of the **Field Lookup** window, and then choose the **OK** button.  
   
 19. In the **Node Name** column, enter a name for the field. For example, you can enter **DocumentType**.  
   

@@ -35,7 +35,7 @@ NewString := COPYSTR(String, Position[, Length])
  *Length*  
  Type: Integer  
   
- The number of characters to copy. If the value of *Length* is less than 0, then the COPYSTR function returns an error. If the value of *Length* causes *Position* + *Length* to be \> \(total length of the string\), then the result includes all the characters from *Position* to the end of the string. If you omit *Length*, then the resulting string includes all the characters from *Position* to the end of the string.  
+ The number of characters to copy. If the value of *Length* is less than 0, then the COPYSTR function returns an error. If the value of *Length* causes *Position* + *Length* to be > \(total length of the string\), then the result includes all the characters from *Position* to the end of the string. If you omit *Length*, then the resulting string includes all the characters from *Position* to the end of the string.  
   
 ## Property Value/Return Value  
  Type: Text constant or code  
@@ -58,8 +58,8 @@ NewString := COPYSTR(String, Position[, Length])
 |Text constant|ENU value|  
 |-------------------|---------------|  
 |Text000|Using the COPYSTR function|  
-|Text001|The original string is:\\\>%1\<|  
-|Text002|The copied string is:\\\>%1\<|  
+|Text001|The original string is:>%1\<|  
+|Text002|The copied string is:>%1\<|  
   
 ```  
 Str := Text000;  
@@ -74,13 +74,13 @@ MESSAGE(Text002, NewStr);
   
  **The original string is:**  
   
- **\>Using the COPYSTR function\<**  
+ **>Using the COPYSTR function\<**  
   
  The second message window shows the copied string:  
   
  **The copied string is:**  
   
- **\>the COPY\<**  
+ **>the COPY\<**  
   
 ## See Also  
  [Code Data Type](Code-Data-Type.md)   

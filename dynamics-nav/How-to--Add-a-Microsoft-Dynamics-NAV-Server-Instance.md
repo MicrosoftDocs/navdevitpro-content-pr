@@ -48,12 +48,12 @@ This topic describes how to add a new [!INCLUDE[nav_server](includes/nav_server_
   
     |Parameter|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
     |---------------|---------------------------------------|  
-    |*\<MyInstance\>*|Specifies the name that you want to give the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.|  
-    |*\<ServiceAccount\>*|Specifies the Windows account to use to log on to the [!INCLUDE[nav_server](includes/nav_server_md.md)].|  
-    |*\<PortNumber\>*|Specifies the TCP port number to use for the associated service.|  
-    |*\<DatabaseInstance\>*|Specifies the name of the SQL Server database instance to connect to.<br /><br /> If you are connecting to the same database instance as the existing [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, then you can omit this parameter and value.|  
-    |*\<DatabaseName\>*|Specifies the name of the [!INCLUDE[navnow](includes/navnow_md.md)] database.|  
-    |*\<DatabaseServer\>*|Specifies the name of the [!INCLUDE[navnow](includes/navnow_md.md)] database in SQL Server. The name has the *domain\\computername* format.<br /><br /> If you are connecting to the same database as the existing [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, then you can omit this parameter and value.|  
+    |*\<MyInstance>*|Specifies the name that you want to give the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.|  
+    |*\<ServiceAccount>*|Specifies the Windows account to use to log on to the [!INCLUDE[nav_server](includes/nav_server_md.md)].|  
+    |*\<PortNumber>*|Specifies the TCP port number to use for the associated service.|  
+    |*\<DatabaseInstance>*|Specifies the name of the SQL Server database instance to connect to.<br /><br /> If you are connecting to the same database instance as the existing [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, then you can omit this parameter and value.|  
+    |*\<DatabaseName>*|Specifies the name of the [!INCLUDE[navnow](includes/navnow_md.md)] database.|  
+    |*\<DatabaseServer>*|Specifies the name of the [!INCLUDE[navnow](includes/navnow_md.md)] database in SQL Server. The name has the *domain\\computername* format.<br /><br /> If you are connecting to the same database as the existing [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, then you can omit this parameter and value.|  
   
     > [!NOTE]  
     >  The command that is shown includes only a subset of the parameters of New-NAVServerInstance cmdlet. For more information about the syntax and parameters, see [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVServerInstance](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVServerInstance) topic in the Administration Cmdlets for [!INCLUDE[navnow](includes/navnow_md.md)] section of the Technical Reference.  
