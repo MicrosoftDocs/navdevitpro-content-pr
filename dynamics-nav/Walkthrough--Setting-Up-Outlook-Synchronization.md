@@ -154,7 +154,7 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
             |------------|-----------|  
             |**\($ N\_5303\_2 Field Name $\)**|Salesperson Code|  
             |**\($ T\_5303\_7 Type $\)**|CONST|  
-            |**\($ T\_5303\_8 Value $\)**|\<salesperson code\>|  
+            |**\($ T\_5303\_8 Value $\)**|\<salesperson code>|  
   
         5.  Choose the **OK** button.  
   
@@ -172,7 +172,7 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
             |------------|-----------|  
             |**\($ N\_5303\_2 Field Name $\)**|Salesperson Code|  
             |**\($ T\_5303\_7 Type $\)**|CONST|  
-            |**\($ T\_5303\_8 Value $\)**|\<salesperson code\>|  
+            |**\($ T\_5303\_8 Value $\)**|\<salesperson code>|  
   
 4.  Choose the **OK** button. Choose the **OK** button again to close the window.  
   
@@ -270,7 +270,7 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
   
      -or-  
   
-     Azure: https:\/\/\<cloud NST URL\>:7047\/DynamicsNAV71\/WS\/Codeunit\/DynamicsNAVsynchOutlook  
+     Azure: https:\/\/\<cloud NST URL>:7047\/DynamicsNAV71\/WS\/Codeunit\/DynamicsNAVsynchOutlook  
   
 2.  Select an authentication type:  
   

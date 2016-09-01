@@ -66,8 +66,8 @@ NewString := PADSTR(String, Length[, FillCharacter])
 |Text000|13 characters|  
 |Text001|Four|  
 |Text002|Before PADSTR is called:\\|  
-|Text003|\>%1\< has the length %2\\|  
-|Text004|\>%3\< has the length %4\\|  
+|Text003|>%1\< has the length %2\\|  
+|Text004|>%3\< has the length %4\\|  
 |Text005|After PADSTR is called:\\|  
   
 ```  
@@ -87,17 +87,17 @@ MESSAGE(Text005 + Text003 + Text004, Str1, Len1, Str2, Len2);
   
  **Before PADSTR is called:**  
   
- **\>13 characters\< has the length 13**  
+ **>13 characters\< has the length 13**  
   
- **\>Four\< has the length 4**  
+ **>Four\< has the length 4**  
   
  The second message window displays the following:  
   
  **After PADSTR is called:**  
   
- **\>13 ch\< has the length 5**  
+ **>13 ch\< has the length 5**  
   
- **\>Fourwwwwwwwwwww\< has the length 15**  
+ **>Fourwwwwwwwwwww\< has the length 15**  
   
 ## See Also  
  [Code Data Type](Code-Data-Type.md)   

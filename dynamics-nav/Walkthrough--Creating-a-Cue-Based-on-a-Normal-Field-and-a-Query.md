@@ -68,10 +68,10 @@ This walkthrough demonstrates how to create a Cue that is based on a normal fiel
   
     |Type|Data Source|Name|Method Type|Method|  
     |----------|-----------------|----------|-----------------|------------|  
-    |**DataItem**|**Cust. Ledger Entry**|**\<Cust. Ledger Entry\>**|||  
-    |Filter|Document Type|\<Document Type\>|||  
-    |Filter|Posting Date|\<Posting Date \>|||  
-    |Column|Sales \(LYC\)|\<Sum\_Sales\_LCY\>|Totals|Sum||  
+    |**DataItem**|**Cust. Ledger Entry**|**\<Cust. Ledger Entry>**|||  
+    |Filter|Document Type|\<Document Type>|||  
+    |Filter|Posting Date|\<Posting Date >|||  
+    |Column|Sales \(LYC\)|\<Sum\_Sales\_LCY>|Totals|Sum||  
   
 4.  Save the query as follows:  
   

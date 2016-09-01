@@ -63,7 +63,7 @@ The SQL Server interface from [!INCLUDE[nav_server](includes/nav_server_md.md)] 
  You can set the cache synchronization interval by using the *CacheSynchronizationPeriod* parameter in the CustomSettings.config file. For more information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).  
   
 ## Performance  
- Records are retrieved using multiple active result sets \(MARS\). Functions such as NEXT, FIND\('-'\), FIND\('+'\), FIND\('\>'\), and FIND\('\<'\) are generally faster with MARS than the server cursors that earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)] used.  
+ Records are retrieved using multiple active result sets \(MARS\). Functions such as NEXT, FIND\('-'\), FIND\('+'\), FIND\('>'\), and FIND\('\<'\) are generally faster with MARS than the server cursors that earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)] used.  
   
  SIFT indexes have also been improved. For example, COUNT and AVERAGE formulas can now use SIFT indexes. For more information, see [CALCSUMS Function \(Record\)](CALCSUMS-Function--Record-.md) and [CALCFIELDS Function \(Record\)](CALCFIELDS-Function--Record-.md). MIN and MAX formulas now use SQL Server MIN and MAX functions exclusively.  
   

@@ -34,9 +34,9 @@ This topic describes how to mount a tenant database on a [!INCLUDE[nav_server](i
   
     |Parameter|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
     |---------------|---------------------------------------|  
-    |*\<NAVServerInstance\>*|Specifies the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that you want to mount the tenant against, such as [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)].|  
-    |*\<NAVDatabase\>*|Specifies the name of the [!INCLUDE[navnow](includes/navnow_md.md)] database that you want to mount against the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, such as `'Demo Database NAV (7-1)'`.|  
-    |*\<MyDatabaseServer\>*|Specifies the name of the database server that hosts the [!INCLUDE[navnow](includes/navnow_md.md)] database that you want to mount against the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.|  
+    |*\<NAVServerInstance>*|Specifies the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that you want to mount the tenant against, such as [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)].|  
+    |*\<NAVDatabase>*|Specifies the name of the [!INCLUDE[navnow](includes/navnow_md.md)] database that you want to mount against the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, such as `'Demo Database NAV (7-1)'`.|  
+    |*\<MyDatabaseServer>*|Specifies the name of the database server that hosts the [!INCLUDE[navnow](includes/navnow_md.md)] database that you want to mount against the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.|  
   
     > [!NOTE]  
     >  The command that is shown includes only a subset of all the parameters of the Mount-NavTenant cmdlet. For more information about the syntax and parameters, see [T:Microsoft.Dynamics.Nav.Management.Cmdlets.Mount-NAVTenant](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.Mount-NAVTenant) topic in the Administration Cmdlets for [!INCLUDE[navnow](includes/navnow_md.md)] section of the Technical Reference.  

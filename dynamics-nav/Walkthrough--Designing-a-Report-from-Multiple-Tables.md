@@ -481,7 +481,7 @@ A report object is composed of a report dataset and a visual layout. You design 
   
 2.  In the **Group Properties** window, select the **Filters** tab, and then choose the **Add** button.  
   
-3.  Set **Expression** to **\[EntryNo\_CustLedgerEntry\]**, change **Text** to **Integer**, set **Operator** to **\>**, set **Value** to **0**, and then choose the **OK** button.  
+3.  Set **Expression** to **\[EntryNo\_CustLedgerEntry\]**, change **Text** to **Integer**, set **Operator** to **>**, set **Value** to **0**, and then choose the **OK** button.  
   
      The filter that is set applies to the other rows in the table.  
   
@@ -575,7 +575,7 @@ A report object is composed of a report dataset and a visual layout. You design 
   
 2.  Choose the **Filters** tab and then choose the **Add** button.  
   
-3.  In the **Expression** list box, select **No\_SalesHeader**, set **Operator** to **\>**, set **Value** to **0**, and then choose the **OK** button.  
+3.  In the **Expression** list box, select **No\_SalesHeader**, set **Operator** to **>**, set **Value** to **0**, and then choose the **OK** button.  
   
 4.  Save the report.  
   

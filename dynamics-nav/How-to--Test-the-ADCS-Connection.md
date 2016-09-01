@@ -23,7 +23,7 @@ The following procedure demonstrates how to use Windows Services and Telnet to t
   
      To specify an account, choose **This account**, choose **Browse**, and then specify a user account in the **Select User** dialog box. When you are finished, choose the **OK** button. The format is as follows:  
   
-     *\<Domain\>\\\<Windows User ID\>*  
+     *\<Domain>\\\<Windows User ID>*  
   
     > [!NOTE]  
     >  To complete testing, you must also add the same user to [!INCLUDE[navnow](includes/navnow_md.md)], with an appropriate permission set. For more information, see [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).  

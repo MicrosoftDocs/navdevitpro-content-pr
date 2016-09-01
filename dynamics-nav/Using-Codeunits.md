@@ -12,7 +12,7 @@ caps.latest.revision: 17
 manager: edupont
 ---
 # Using Codeunits
-By using codeunits, you eliminate the need to duplicate code and you make the code easier to maintain. For example, if you use the same code repeatedly in your objects, then you should create a global function for the code in a codeunit. After you create a codeunit and a global function in that codeunit, you can access the function from another codeunit by declaring a variable of type Codeunit and specifying the name of the codeunit as the subtype of the variable. You can then access the function by using *\<CodeunitVariableName\>*.*\<FunctionName\>*.  
+By using codeunits, you eliminate the need to duplicate code and you make the code easier to maintain. For example, if you use the same code repeatedly in your objects, then you should create a global function for the code in a codeunit. After you create a codeunit and a global function in that codeunit, you can access the function from another codeunit by declaring a variable of type Codeunit and specifying the name of the codeunit as the subtype of the variable. You can then access the function by using *\<CodeunitVariableName>*.*\<FunctionName>*.  
   
 > [!NOTE]  
 >  Unlike a local function, a global function can be accessed from outside the codeunit. To make a global function, you set [Local Property](Local-Property.md) of the function to **No**.  

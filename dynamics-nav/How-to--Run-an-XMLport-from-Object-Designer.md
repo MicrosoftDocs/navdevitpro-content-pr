@@ -18,11 +18,11 @@ After designing an XMLport, you can either create a codeunit to run the XMLport 
   
 1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Object Designer**.  
   
-2.  In Object Designer, choose **XMLport**, choose the XMLport you want to run, and then choose the **Run** button. The **Edit-\<XMLport Name\>** request page opens in [!INCLUDE[navnow](includes/navnow_md.md)].  
+2.  In Object Designer, choose **XMLport**, choose the XMLport you want to run, and then choose the **Run** button. The **Edit-\<XMLport Name>** request page opens in [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 3.  If the XMLport you want to run is designed to both import and export data, then do the following:  
   
-    1.  On the **Edit-\<XMLport Name\>** request page, in the **Direction** drop-down list, select the direction you want and then choose the **OK** button. The direction drop-down list box is located at the bottom of the page. You can specify how you want to sort the data and the filtering criteria on the **Edit-\<XMLport Name\>** request page.  
+    1.  On the **Edit-\<XMLport Name>** request page, in the **Direction** drop-down list, select the direction you want and then choose the **OK** button. The direction drop-down list box is located at the bottom of the page. You can specify how you want to sort the data and the filtering criteria on the **Edit-\<XMLport Name>** request page.  
   
          For information about the XMLport request page, see [Request Pages \(XMLPorts\)](Request-Pages--XMLPorts-.md).  
   
@@ -46,11 +46,11 @@ After designing an XMLport, you can either create a codeunit to run the XMLport 
         2.  Choose the file and then choose the **Open** button to import the file to the database.  
   
     > [!NOTE]  
-    >  For XMLports that are designed to both import and export data, the **Edit-\<XMLport Name\>** page that is displayed differs from the **Edit-\<XMLport Name\>** page that is displayed for either import or export.  
+    >  For XMLports that are designed to both import and export data, the **Edit-\<XMLport Name>** page that is displayed differs from the **Edit-\<XMLport Name>** page that is displayed for either import or export.  
   
 4.  If the XMLport only exports data, do the following:  
   
-    1.  On the **Edit-\<XMLport Name\>** page, choose the **OK** button. The **Export File** dialog box is displayed.  
+    1.  On the **Edit-\<XMLport Name>** page, choose the **OK** button. The **Export File** dialog box is displayed.  
   
     2.  In the **Export File** dialog box, choose the **Save** button to open the **Export** window.  
   

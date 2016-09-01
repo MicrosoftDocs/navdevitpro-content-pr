@@ -41,7 +41,7 @@ NewDateTime := ROUNDDATETIME(Datetime [, Precision][, Direction])
   
 -   '=' rounds up or down to the nearest value \(default\). Values of 5 or greater are rounded up. Values less than 5 are rounded down.  
   
--   '\>' rounds up  
+-   '>' rounds up  
   
 -   '\<' rounds down  
   

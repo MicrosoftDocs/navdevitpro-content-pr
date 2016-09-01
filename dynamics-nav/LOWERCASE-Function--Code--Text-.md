@@ -43,8 +43,8 @@ NewString := LOWERCASE(String)
 |Text constant|ENU value|  
 |-------------------|---------------|  
 |Text000|The Entries are Sorted by Name.|  
-|Text001|The string before LOWERCASE is:\\\>%1\<|  
-|Text002|The string after LOWERCASE is:\\\>%1\<|  
+|Text001|The string before LOWERCASE is:>%1\<|  
+|Text002|The string after LOWERCASE is:>%1\<|  
   
 ```  
 Str := Text000;  
@@ -57,13 +57,13 @@ MESSAGE(Text002, Lower);
   
  **The string before LOWERCASE is:**  
   
- **\>The Entries are Sorted by Name.\<**  
+ **>The Entries are Sorted by Name.\<**  
   
  The second message window displays the following:  
   
  **The string after LOWERCASE is:**  
   
- **\>the entries are sorted by name.\<**  
+ **>the entries are sorted by name.\<**  
   
 ## See Also  
  [Code Data Type](Code-Data-Type.md)   

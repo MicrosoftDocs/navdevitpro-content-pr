@@ -40,8 +40,8 @@ Ok := Variant.ISTEXT
   
 |Text constant name|Enu value|  
 |------------------------|---------------|  
-|Text000|Does the variant \>%1\< contain a text variable? %2.|  
-|Text001|Does the variant \>%1\< contain a code variable? %2.|  
+|Text000|Does the variant >%1\< contain a text variable? %2.|  
+|Text001|Does the variant >%1\< contain a code variable? %2.|  
   
 ```  
 MyText := 'This is some text';  

@@ -18,7 +18,7 @@ Sets the data type that you want to allow in a code field.
  Code fields in [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] with Microsoft SQL Server.  
   
 ## Remarks  
- The values available are Varchar, Integer, BigInteger, and Variant. Leaving the value set at \<Undefined\>means that you accept the default setting, which is Varchar.  
+ The values available are Varchar, Integer, BigInteger, and Variant. Leaving the value set at \<Undefined>means that you accept the default setting, which is Varchar.  
   
 > [!NOTE]  
 >  The Variant option is represented by the SQL\_VARIANT SQL data type that has been introduced in SQL Server 2000 and is not supported by SQL Server 7.0. This means that selecting Variant as the SQL Data Type property when creating or modifying a table on SQL Server 7.0 results in an error.  

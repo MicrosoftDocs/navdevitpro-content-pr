@@ -29,7 +29,7 @@ This topic describes how to create a Data Collector Set in Performance Monitor t
   
 6.  In the **Available counters** list, expand **[!INCLUDE[navnow](includes/navnow_md.md)]**, and select one or more counters.  
   
-7.  In the **Instances of selected object** list, select **\<All instances\>** to collect data for all [!INCLUDE[nav_server](includes/nav_server_md.md)] instances on the computer or individually select one or more instances from the list.  
+7.  In the **Instances of selected object** list, select **\<All instances>** to collect data for all [!INCLUDE[nav_server](includes/nav_server_md.md)] instances on the computer or individually select one or more instances from the list.  
   
 8.  Choose the **Add** button, and then choose the **OK** button  
   

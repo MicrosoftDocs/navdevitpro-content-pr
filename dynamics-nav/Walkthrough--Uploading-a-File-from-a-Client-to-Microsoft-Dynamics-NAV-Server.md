@@ -138,7 +138,7 @@ This walkthrough demonstrates how to use file functions to send a file from a cl
   
     |Node Name|Node Type|Source Type|Data Source|  
     |---------------|---------------|-----------------|-----------------|  
-    |head|Element|Table|\<TestTable\>\(TestTable\)|  
+    |head|Element|Table|\<TestTable>\(TestTable\)|  
     |valueI|Element|Field|TestTable::IntA|  
     |valueII|Element|Field|TestTable::IntB|  
   

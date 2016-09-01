@@ -29,17 +29,17 @@ When you enter criteria, you can use all the numbers and letters that you can no
 |||23..|From 23-current month-current year 0:00:00 until the end of time|  
 |||22..23|From 22-current month-current year 0:00:00 until 23-current month-current year 23:59:59|  
 |&#124;|Either\/or|1200&#124;1300|Those with number 1200 or 1300|  
-|&|And|\<2000&\>1000|Numbers that are less than 2000 and greater than 1000.<br /><br /> The & sign cannot be used by itself with numbers because no record can have two numbers.|  
-|\<\>|Not equal to|\<\>0|All numbers except 0|  
-|\>|Greater than|\>1200|Numbers greater than 1200|  
-|\>=|Greater than or equal to|\>=1200|Numbers greater than or equal to 1200|  
+|&|And|\<2000&>1000|Numbers that are less than 2000 and greater than 1000.<br /><br /> The & sign cannot be used by itself with numbers because no record can have two numbers.|  
+|\<>|Not equal to|\<>0|All numbers except 0|  
+|>|Greater than|>1200|Numbers greater than 1200|  
+|>=|Greater than or equal to|>=1200|Numbers greater than or equal to 1200|  
 |\<|Less than|\<1200|Numbers less than 1200|  
 |\<=|Less than or equal to|\<=1200|Numbers less than or equal to 1200|  
 |\*|An indefinite number of unknown characters|\*Co\*|Texts that contain "Co"|  
 |||\*Co|Texts that end with "Co"|  
 |||Co\*|Texts that begin with "Co"|  
 |?|One unknown character|Hans?n|Texts such as Hansen or Hanson|  
-||Calculate before rest|30&#124;\(\>=10&\<=20\)|Those with number 30 or with a number from 10 through 20 \(the result of the calculation within the parentheses\)|  
+||Calculate before rest|30&#124;\(>=10&\<=20\)|Those with number 30 or with a number from 10 through 20 \(the result of the calculation within the parentheses\)|  
 |@|Ignore case \(either uppercase or lowercase allowed\)|@location|Texts such as LOCATION, location or Location|  
   
  You can also combine the various format expressions:  
@@ -48,7 +48,7 @@ When you enter criteria, you can use all the numbers and letters that you can no
 |-|-|  
 |5999&#124;8100..8490|Include any records with the number 5999 or a number from the interval 8100 through 8490.|  
 |..1299&#124;1400..|Include records with a number less than or equal to 1299 or a number equal to 1400 or greater \(all numbers except 1300 through 1399\).|  
-|\>50&\<100|Include records with numbers that are greater than 50 and less than 100 \(numbers 51 through 99\).|  
+|>50&\<100|Include records with numbers that are greater than 50 and less than 100 \(numbers 51 through 99\).|  
 |\*C\*&\*D\*|Texts containing both C and D.|  
 |@\*co?\*|Texts containing co, CO, Co, cO, such as cot, cope and incorporated.<br /><br /> CO, cO, Co or co must be present, followed by at least one character, but there can be an indefinite number of characters before and after these, and case is unimportant.|  
   

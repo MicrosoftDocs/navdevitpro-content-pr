@@ -80,13 +80,13 @@ MESSAGE(Text001 + '>%1<\' + '>%2<\' + '>%3<\' + '>%4<\', SubStr1, SubStr2, SubSt
   
  **The calls to SELECTSTR return:**  
   
- **\>is a comma\<**  
+ **>is a comma\<**  
   
- **\>string\<**  
+ **>string\<**  
   
- **\>11\<**  
+ **>11\<**  
   
- **\>33\<**  
+ **>33\<**  
   
 ## Example  
  This example requires that you create the following variables and text constants in the **C/AL Globals** window.  

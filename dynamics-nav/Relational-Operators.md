@@ -19,11 +19,11 @@ The relational operators are used to compare expressions.
   
 |Operator|Operator name|Expression|Resulting date type|  
 |--------------|-------------------|----------------|-------------------------|  
-|\>|Greater than|Expr \> Expr|Boolean|  
+|>|Greater than|Expr > Expr|Boolean|  
 |\<|Less than|Expr \< Expr|Boolean|  
-|\>=|Greater than or equal|Expr \>= Expr|Boolean|  
+|>=|Greater than or equal|Expr >= Expr|Boolean|  
 |\<=|Less than or equal|Expr \<= Expr|Boolean|  
-|\<\>|Not equal to|Expr \<\> Expr|Boolean|  
+|\<>|Not equal to|Expr \<> Expr|Boolean|  
 |=|Equal to|Expr = Expr|Boolean|  
 |IN|In range|Expr IN \[Valueset\]|Boolean|  
   

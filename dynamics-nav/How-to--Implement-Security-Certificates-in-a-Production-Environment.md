@@ -71,7 +71,7 @@ This topic describes how to implement security certificates on the [!INCLUDE[nav
     |Key|New value|Description|  
     |---------|---------------|-----------------|  
     |Credential Type|NavUserPassword or Username|This parameter is on the General tab in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. The default value is Windows. When you change it to NavUserPassword or Username, client users who connect to the server are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see [Users and Credential Types](Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
-    |Certificate Thumbprint|Value of the **Thumbprint** field in the previous procedure.|This parameter is on the Client Services tab in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. The default value is \<key\>. Remove any leading or trailing spaces in the thumbprint.|  
+    |Certificate Thumbprint|Value of the **Thumbprint** field in the previous procedure.|This parameter is on the Client Services tab in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. The default value is \<key>. Remove any leading or trailing spaces in the thumbprint.|  
   
 12. Save and the new values for the server instance.  
   
@@ -88,7 +88,7 @@ This topic describes how to implement security certificates on the [!INCLUDE[nav
   
 1.  Open the ClientUserSettings.config configuration file.  
   
-     In Windows 7 or Windows Server 2008, the location of this file is Users\\\<*username*\>\\AppData\\Local\\Microsoft\\[!INCLUDE[navnow](includes/navnow_md.md)].  
+     In Windows 7 or Windows Server 2008, the location of this file is Users\\\<*username*>\\AppData\\Local\\Microsoft\\[!INCLUDE[navnow](includes/navnow_md.md)].  
   
      By default, this file is hidden. Therefore, you may have to change your folder options in Windows Explorer to view hidden files.  
   
@@ -100,7 +100,7 @@ This topic describes how to implement security certificates on the [!INCLUDE[nav
     |Key|New value|Description|  
     |---------|---------------|-----------------|  
     |ClientServicesCredentialType|NavUserPassword or Username|The default value is Windows. When you change it to NavUserPassword or Username, client users are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see [Users and Credential Types](Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
-    |DnsIdentity|The subject name of the service certificate.|The default value is \<identity\>. Replace this with the subject name or common name \(CN\) of the certificate that is used on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].|  
+    |DnsIdentity|The subject name of the service certificate.|The default value is \<identity>. Replace this with the subject name or common name \(CN\) of the certificate that is used on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].|  
   
 3.  Save and close the ClientUserSettings.config file.  
   
@@ -117,7 +117,7 @@ This topic describes how to implement security certificates on the [!INCLUDE[nav
     |Key|New value|Description|  
     |---------|---------------|-----------------|  
     |ClientServicesCredentialType|NavUserPassword|The default value is Windows. When you change it to NavUserPassword or Username, client users who connect to the server are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see [Users and Credential Types](Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
-    |DnsIdentity|The subject name of the service certificate|The default value is \<identity\>. Replace this with the subject name or common name \(CN\) of the certificate that is used on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].|  
+    |DnsIdentity|The subject name of the service certificate|The default value is \<identity>. Replace this with the subject name or common name \(CN\) of the certificate that is used on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].|  
   
 4.  Save the web.config file.  
   

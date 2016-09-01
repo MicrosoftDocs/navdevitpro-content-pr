@@ -60,7 +60,7 @@ This walkthrough illustrates how you can publish a [!INCLUDE[navnow](includes/na
   
 1.  Start Internet Explorer.  
   
-2.  In the **Address** field, enter a URI in this format: **http:\/\/\<Server\>:\<WebServicePort\>\/\<ServerInstance\>\/OData**. For example:  
+2.  In the **Address** field, enter a URI in this format: **http:\/\/\<Server>:\<WebServicePort>\/\<ServerInstance>\/OData**. For example:  
   
      **http:\/\/localhost:7048\/DynamicsNAV\/OData**  
   

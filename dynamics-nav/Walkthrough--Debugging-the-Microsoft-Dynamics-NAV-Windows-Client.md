@@ -125,7 +125,7 @@ This walkthrough demonstrates debugging an action in the [!INCLUDE[nav_windows](
     IF GenJnlCheckLine.DateNotAllowed("Posting Date") THEN  
     ```  
   
-6.  Choose **Step Into** to step into the **DateNotAllowed** function in codeunit 11. Codeunit 11 is added to the call stack in the **Call Stack** FactBox. The variable that you added to the **Watches** FactBox is still listed, but the value is **\<Out Of Scope\>**.  
+6.  Choose **Step Into** to step into the **DateNotAllowed** function in codeunit 11. Codeunit 11 is added to the call stack in the **Call Stack** FactBox. The variable that you added to the **Watches** FactBox is still listed, but the value is **\<Out Of Scope>**.  
   
 7.  Choose **Step Into** and **Step Over** to step through the lines of the **DateNotAllowed** function. To step out of the **DateNotAllowed** function and go back to the **OnRun** function of codeunit 80, choose **Step Out**.  
   
@@ -153,7 +153,7 @@ This walkthrough demonstrates debugging an action in the [!INCLUDE[nav_windows](
     CODEUNIT.RUN(Codeunit::"SalesPost",SalesHeader);  
     ```  
   
-     The variables from codeunit 80 are no longer listed in the **Debugger Variables List** window. In the **Watches** FactBox, the value of the *Rec.Fields."Posting No."* variable is **\<Out Of Scope\>**.  
+     The variables from codeunit 80 are no longer listed in the **Debugger Variables List** window. In the **Watches** FactBox, the value of the *Rec.Fields."Posting No."* variable is **\<Out Of Scope>**.  
   
 13. On the **Home** tab, in the **Running Code** group, choose **Stop**. This stops execution as if the code hit an error. The following error message is displayed on the session that was being debugged:  “The debugger stopped the current activity.” In this example, the sales order that you posted to start debugging is not posted. The error from the debugger when you chose **Stop** caused the transaction to roll back.  
   

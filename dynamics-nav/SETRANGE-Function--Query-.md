@@ -79,9 +79,9 @@ Query.READ;
   
  For example, a query has the following filters set on the **Quantity** column in Query Designer:  
   
--   **DataItemTableFilter** property: Quantity=FILTER\(\<\>10\)  
+-   **DataItemTableFilter** property: Quantity=FILTER\(\<>10\)  
   
--   **ColumnFilter** property: Quantity=FILTER\(\<\>5\)  
+-   **ColumnFilter** property: Quantity=FILTER\(\<>5\)  
   
  `Query.setRange(Quantity, 1, 15)` will result in a filter that is equivalent to: 1 \< Quantity \<15, except for 10.  
   

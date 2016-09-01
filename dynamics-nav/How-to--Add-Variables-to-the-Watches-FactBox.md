@@ -12,7 +12,7 @@ caps.latest.revision: 10
 manager: edupont
 ---
 # How to: Add Variables to the Watches FactBox
-You can use the Watches FactBox to view the values of variables. Variables that you add to the Watches FactBox are displayed until you delete them, even if they go out of scope in the currently executing code. This is different from the **Debugger Variable List** page, which displays only the variables that are currently in scope. If a variable is out of scope, then **\<Out of Scope\>** is displayed in the **Value** column of the Watches FactBox.  
+You can use the Watches FactBox to view the values of variables. Variables that you add to the Watches FactBox are displayed until you delete them, even if they go out of scope in the currently executing code. This is different from the **Debugger Variable List** page, which displays only the variables that are currently in scope. If a variable is out of scope, then **\<Out of Scope>** is displayed in the **Value** column of the Watches FactBox.  
   
  Variables that you add to the Watches FactBox are persisted between debugging sessions.  
   

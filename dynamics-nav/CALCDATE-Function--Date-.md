@@ -27,27 +27,27 @@ NewDate := CALCDATE(DateExpression [, Date])
   
  The date expression can be any length. The string is interpreted from left to right with one subexpression at a time. The following rules describe the valid syntax of date expressions:  
   
--   DateExpression = \[\<SubExpression\>\]\[\<SubExpression\>\]\[\<SubExpression\>\]  
+-   DateExpression = \[\<SubExpression>\]\[\<SubExpression>\]\[\<SubExpression>\]  
   
--   \<SubExpression\> = \[\<Sign\>\] \<Term\>  
+-   \<SubExpression> = \[\<Sign>\] \<Term>  
   
--   \<Sign\> = + &#124; -  
+-   \<Sign> = + &#124; -  
   
--   \<Term\> = \<Number\>\<Unit\> &#124; \<Unit\>\<Number\> &#124; \<Prefix\>\<Unit\>  
+-   \<Term> = \<Number>\<Unit> &#124; \<Unit>\<Number> &#124; \<Prefix>\<Unit>  
   
--   \<Number\> = Positive integer  
+-   \<Number> = Positive integer  
   
--   \<Unit\> = D &#124; WD &#124; W &#124; M &#124; Q &#124; Y \(D=day, WD=weekday, W=week, M=month, Q=quarter, Y=year\)  
+-   \<Unit> = D &#124; WD &#124; W &#124; M &#124; Q &#124; Y \(D=day, WD=weekday, W=week, M=month, Q=quarter, Y=year\)  
   
--   \<Prefix\> = C \(C=current\)  
+-   \<Prefix> = C \(C=current\)  
   
  These production rules show that date expressions consist of zero, one, two, or three subexpressions. Each subexpression consists of an optional sign and a term. The following are some typical examples of terms:  
   
--   30D \(30 days; corresponds to \<Number\>\<Unit\>\)  
+-   30D \(30 days; corresponds to \<Number>\<Unit>\)  
   
--   WD2 \(weekday number 2; corresponds to \<Unit\>\<Number\>\)  
+-   WD2 \(weekday number 2; corresponds to \<Unit>\<Number>\)  
   
--   CW \(current week; corresponds to \<Prefix\>\<Unit\>\)  
+-   CW \(current week; corresponds to \<Prefix>\<Unit>\)  
   
  The internal calendar of [!INCLUDE[navnow](includes/navnow_md.md)] starts on Monday and ends on Sunday. This means that Monday is weekday 1 and Sunday is weekday 7.  
   
@@ -72,7 +72,7 @@ NewDate := CALCDATE(DateExpression [, Date])
   
  For example, if a user who has language set to ENG \(English\) enters the date formula "1W+1D" for one week and one day, then a user who has the language set to FRA \(French\) sees "1S+1J," and a user who has the language set to ESP \(Spanish\) sees "1S+1D".  
   
- If a date formula is entered with \< \> delimiters surrounding it, then the date formula is stored in a generic, nonlanguage-dependent format. This makes it possible to develop date formulas that are not dependent on the currently selected language.  
+ If a date formula is entered with \< > delimiters surrounding it, then the date formula is stored in a generic, nonlanguage-dependent format. This makes it possible to develop date formulas that are not dependent on the currently selected language.  
   
  For more information about how to calculate the duration between two DateTimes, see [Duration Data Type](Duration-Data-Type.md).  
   
@@ -87,10 +87,10 @@ NewDate := CALCDATE(DateExpression [, Date])
   
  The DateExpression is composed of the following:  
   
- \<Prefix\>\<Unit\>\<Sign\>\<Number\>\<Unit\>\<Sign\>\<Number\>\<Unit\>  
+ \<Prefix>\<Unit>\<Sign>\<Number>\<Unit>\<Sign>\<Number>\<Unit>  
   
 > [!NOTE]  
->  The angle brackets \(\< \>\) specify that the expression is not translated, regardless of the application language. For more information about multilanguage capabilities with date formulas, see [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  
+>  The angle brackets \(\< >\) specify that the expression is not translated, regardless of the application language. For more information about multilanguage capabilities with date formulas, see [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  
   
 ## Example  
  This example shows how to use the CALCDATE function.  

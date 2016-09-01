@@ -63,7 +63,7 @@ If you set up a SharePoint site using SharePoint Online or SharePoint on-premise
     |**What SharePoint site do you want to use for debugging your app?**|Specify the developer site that is part of your Office 365 plan. For example, if your Office 365 plan is *Solutions.onmicrosoft.com*, your developer site can be *Solution.sharepoint.com*. **Note:**  This must be a developer site in order for Visual Studio’s F5 deployment to work. F5 depends on the side-loading feature in SharePoint, which is only available on developer sites.|  
     |**How do you want to host your app for SharePoint?**|Choose **Provider-Hosted**.|  
   
-3.  When you are done, a new solution is created in Visual Studio, which you can see in **Solution Explorer.** The solution contains two projects: a SharePoint App project called *\<project name\>* and an ASP .NET Web project called *\<project name\>*Web, where *\<project name\>* is the project name that you specified when you created the project.  
+3.  When you are done, a new solution is created in Visual Studio, which you can see in **Solution Explorer.** The solution contains two projects: a SharePoint App project called *\<project name>* and an ASP .NET Web project called *\<project name>*Web, where *\<project name>* is the project name that you specified when you created the project.  
   
     1.  The SharePoint App project will be used to generate the app package that you will upload to SharePoint. The project contains the following files:  
   
@@ -172,7 +172,7 @@ If you set up a SharePoint site using SharePoint Online or SharePoint on-premise
 > [!IMPORTANT]  
 >  In this scenario, you must use a developer subscription of SharePoint Online. Visual Studio makes use of the SharePoint side-loading feature for uploading and installing the app, and this feature is only available in developer subscriptions.  
   
- You must sign in to \<site name\>.sharepoint.com as the administrator for the site. For example, the URL for the team site for an Office 365 developer site is https:\/\/*\<site name\>*.sharepoint.com\/\_layouts\/15\/start.aspx\#\/SitePages\/DevHome.aspx. The .app file that was built by Visual Studio is added to the Apps in Testing section. When you choose the app, you are directed to the [!INCLUDE[nav_web](includes/nav_web_md.md)], and you are signed in automatically.  
+ You must sign in to \<site name>.sharepoint.com as the administrator for the site. For example, the URL for the team site for an Office 365 developer site is https:\/\/*\<site name>*.sharepoint.com\/\_layouts\/15\/start.aspx\#\/SitePages\/DevHome.aspx. The .app file that was built by Visual Studio is added to the Apps in Testing section. When you choose the app, you are directed to the [!INCLUDE[nav_web](includes/nav_web_md.md)], and you are signed in automatically.  
   
 ### Adding an App from the App Catalog  
  You can also choose to only publish the project in Visual Studio. Then, you must manually deploy the app file that that Visual Studio builds to SharePoint’s App Catalog. From the app catalog, the app can be added to any site that is part of your SharePoint organization.  

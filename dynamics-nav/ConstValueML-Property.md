@@ -21,11 +21,11 @@ Sets the values of a C/AL text constant for the different languages that are ava
   
  The **ConstValueML** property has the following format.  
   
- **\<Language ID\>=\<string\>**  
+ **\<Language ID>=\<string>**  
   
--   **\<Language ID\>** is the Windows three-letter language ID.  
+-   **\<Language ID>** is the Windows three-letter language ID.  
   
--   **\<string\>** is the text string for the language.  
+-   **\<string>** is the text string for the language.  
   
  If you have more than one language entry, then separate each consecutive entry with a semicolon.  
   

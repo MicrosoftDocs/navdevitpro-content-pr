@@ -42,7 +42,7 @@ Because the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance events ar
   
 1.  Open the CustomSettings.config file for the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance in a text editor, such as Notepad.  
   
-     By default, the file is located in the [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service folder or [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service\\Instances\\\<instancename\> folder \(for multitenant installations\).  
+     By default, the file is located in the [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service folder or [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service\\Instances\\\<instancename> folder \(for multitenant installations\).  
   
 2.  Set the **EnableApplicationChannelLog** setting to **false**.  
   

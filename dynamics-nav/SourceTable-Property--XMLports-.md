@@ -26,8 +26,8 @@ Sets the table to which you want to map XML data or the table that you want to e
   
 |Properties window<br /><br /> SourceTable|Properties window<br /><br /> VariableName|XMLport Designer|  
 |---------------------------------------|----------------------------------------|----------------------|  
-|Customer|\<Customer\> default|\<Customer\>\(Customer\)|  
-|Customer|Cust.|Cust.\<Customer\>|  
+|Customer|\<Customer> default|\<Customer>\(Customer\)|  
+|Customer|Cust.|Cust.\<Customer>|  
   
 ## See Also  
  [SourceType Property](SourceType-Property.md)   

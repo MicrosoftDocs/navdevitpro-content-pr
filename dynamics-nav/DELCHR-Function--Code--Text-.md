@@ -38,7 +38,7 @@ NewString := DELCHR(String[, Where][, Which])
   
 -   \<   To delete any leading character in *String* that matches a character in *Which*  
   
--   \>   To delete any trailing character in *String* that matches a character in *Which*  
+-   >   To delete any trailing character in *String* that matches a character in *Which*  
   
  *Which*  
  Type: Text or code  
@@ -61,7 +61,7 @@ NewString := DELCHR(String[, Where][, Which])
   
 -   If *Where* contains \<, then all the spaces at the start of *String* are deleted.  
   
--   If *Where* contains \>, then all the spaces at the end of *String* are deleted.  
+-   If *Where* contains >, then all the spaces at the end of *String* are deleted.  
   
 -   If *Where* contains any other character, then an error is returned.  
   
@@ -73,7 +73,7 @@ NewString := DELCHR(String[, Where][, Which])
   
 -   If *Where* contains \<, then the characters in *Which* are only deleted if they occur at the start of *String*.  
   
--   If *Where* contains \>, then the characters in *Which* are deleted only if they occur at the end of *String*.  
+-   If *Where* contains >, then the characters in *Which* are deleted only if they occur at the end of *String*.  
   
 -   If *Where* contains any other character, then an error is returned.  
   
@@ -96,7 +96,7 @@ NewString := DELCHR(String[, Where][, Which])
 |Text constant name|ConstValue|  
 |------------------------|----------------|  
 |Text000|Windy West Solutions|  
-|Text001|\>%1\< is transformed to \>%2\<|  
+|Text001|>%1\< is transformed to >%2\<|  
   
 ```  
 String := Text000;  
@@ -108,7 +108,7 @@ MESSAGE(Text001, String,NewString);
   
  The message window displays the following:  
   
- **\>Windy West Solutions\< is transformed to \>indy West Solution\<**  
+ **>Windy West Solutions\< is transformed to >indy West Solution\<**  
   
  The function deletes every W and s that is either the first or last character in *String*.  
   
@@ -125,7 +125,7 @@ MESSAGE(Text001, String,NewString);
 |Text constant name|ConstValue|  
 |------------------------|----------------|  
 |Text000|This is an example|  
-|Text001|\>%1\< is transformed to \>%2\<|  
+|Text001|>%1\< is transformed to >%2\<|  
   
 ```  
 String := Text000;  
@@ -137,7 +137,7 @@ MESSAGE(Text001, String,NewString);
   
  The message window displays the following:  
   
- **\>This is an example\< is transformed to \>Thi i an eample\<**  
+ **>This is an example\< is transformed to >Thi i an eample\<**  
   
  The function deletes every s and x from *String*.  
   
@@ -154,7 +154,7 @@ MESSAGE(Text001, String,NewString);
 |Text constant name|ConstValue|  
 |------------------------|----------------|  
 |Text000|This is an example|  
-|Text001|\>%1\< is transformed to \>%2\<|  
+|Text001|>%1\< is transformed to >%2\<|  
   
 ```  
 String := Text000;  
@@ -166,7 +166,7 @@ MESSAGE(Text001, String,NewString);
   
  The message window displays the following:  
   
- **\>This is an example\< is transformed to \>This is an examp\<**  
+ **>This is an example\< is transformed to >This is an examp\<**  
   
  If T, e, l, or y is the last character in *String*, the function deletes them.  
   
@@ -183,7 +183,7 @@ MESSAGE(Text001, String,NewString);
 |Text constant name|ConstValue|  
 |------------------------|----------------|  
 |Text000|This is an example|  
-|Text001|\>%1\< is transformed to \>%2\<|  
+|Text001|>%1\< is transformed to >%2\<|  
   
 ```  
 String := Text000;  
@@ -195,7 +195,7 @@ MESSAGE(Text001, String,NewString);
   
  The message window displays the following:  
   
- **\>This is an example\< is transformed to \>an example\<**  
+ **>This is an example\< is transformed to >an example\<**  
   
  If T, h, s, i, or space is the first character in *String*, the function deletes them.  
   
@@ -212,7 +212,7 @@ MESSAGE(Text001, String,NewString);
 |Text constant name|ConstValue|  
 |------------------------|----------------|  
 |Text000|This is an example|  
-|Text001|\>%1\< is transformed to \>%2\<|  
+|Text001|>%1\< is transformed to >%2\<|  
   
 ```  
 String := Text000;  
@@ -223,7 +223,7 @@ MESSAGE(Text001, String,NewString);
   
  The message window displays the following:  
   
- **\>     This is an example\< is transformed to \>This is an example\<**  
+ **>     This is an example\< is transformed to >This is an example\<**  
   
  The function removes any spaces from the start of *String*.  
   

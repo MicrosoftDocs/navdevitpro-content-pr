@@ -39,7 +39,7 @@ manager: edupont
   
     2.  From the **Object Type** drop-down list box, select the object type that you want to create the menu item for.  
   
-    3.  In the **Object ID** box, choose the **AssistButton** and choose an object from the \<Object\> List window.  
+    3.  In the **Object ID** box, choose the **AssistButton** and choose an object from the \<Object> List window.  
   
     4.  In the **Caption** text box, enter a caption for the menu item, and then accept the default for **CaptionML**.  
   

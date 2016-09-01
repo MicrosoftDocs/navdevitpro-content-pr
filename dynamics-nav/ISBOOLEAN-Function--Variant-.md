@@ -42,8 +42,8 @@ Ok := Variant.ISBOOLEAN
   
 |Text constant name|ConstValue|  
 |------------------------|----------------|  
-|Text000|Does the variant \>%1\< contain a Boolean variable? %2|  
-|Text001|Does the variant \>%1\< contain a code variable? %2|  
+|Text000|Does the variant >%1\< contain a Boolean variable? %2|  
+|Text001|Does the variant >%1\< contain a code variable? %2|  
   
 ```  
 MyBoolean := ItemRec.Critical;  

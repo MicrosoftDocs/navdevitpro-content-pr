@@ -22,14 +22,14 @@ Sets the corresponding fields from two data items that are linked by the [DataIt
 ## Remarks  
  The following syntax shows the DataItemLink property.  
   
- **\<field\>=FIELD\(\<reference field\>\)**  
+ **\<field>=FIELD\(\<reference field>\)**  
   
  The following table describes **field** and **reference field**.  
   
 |Syntax|Description|  
 |------------|-----------------|  
-|\<field\>|A field from the child data item|  
-|\<reference field\>|A field from the less indented \(parent\) data item that is identified by the [DataItemLinkReference Property](DataItemLinkReference-Property.md)|  
+|\<field>|A field from the child data item|  
+|\<reference field>|A field from the less indented \(parent\) data item that is identified by the [DataItemLinkReference Property](DataItemLinkReference-Property.md)|  
   
  The DataItemLink property sets a filter on the child data item. This filter selects records that contain the same field value in both the parent and child data items. Use the **AssistButton** to select the fields from field name lookups for the parent and child data items.  
   
