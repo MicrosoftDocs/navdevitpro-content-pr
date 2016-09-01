@@ -40,15 +40,9 @@ When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install
 -   Using the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. For more information, see [Settings in the Microsoft Dynamics NAV Administration Console](Configuring-Microsoft-Dynamics-NAV-Server.md#NavAdminSettings) and [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
 
 -   Using the [!INCLUDE[navnow](includes/navnow_md.md)] PowerShell cmdlets that are available in the [!INCLUDE[nav_shell](includes/nav_shell_md.md)]. For more information, see [Using Microsoft Dynamics NAV Administration Shell Cmdlets to Modify Settings](Configuring-Microsoft-Dynamics-NAV-Server.md#UsingPowerShell).  
-<<<<<<< HEAD
-  
--   By directly editing CustomSettings.config, the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration file. By default, this file is located in [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service\\Instances\\\<instancename>. We recommend that you do not directly edit the configuration file, because if you make any errors in typing, then you may not be able to start the instance.  
-  
-=======
 
 -   By directly editing CustomSettings.config, the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration file. By default, this file is located in [!INCLUDE[navnow_install](includes/navnow_install_md.md)]\\Service\\Instances\\\<instancename\>. We recommend that you do not directly edit the configuration file, because if you make any errors in typing, then you may not be able to start the instance.  
 
->>>>>>> refs/remotes/Microsoft/master
 > [!IMPORTANT]  
 >  After you modify a [!INCLUDE[nav_server](includes/nav_server_md.md)] setting, you must restart the associated [!INCLUDE[nav_server](includes/nav_server_md.md)] instance before any changes can take effect.  
 
