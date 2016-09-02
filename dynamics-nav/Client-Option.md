@@ -11,7 +11,7 @@ ms.assetid: dca2ad0b-d384-479b-8437-cb6de6bd5a10
 caps.latest.revision: 2
 ---
 # Client Option
-The Client option is available on the **Choose an installation option** page in Microsoft Dynamics NAV 2016 Setup.
+The Client option is available on the **Choose an installation option** page in Microsoft Dynamics NAV Setup.
 
 ### Installed Components
 

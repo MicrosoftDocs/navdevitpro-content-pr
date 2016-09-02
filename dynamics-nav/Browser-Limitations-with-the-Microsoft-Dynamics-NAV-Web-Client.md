@@ -12,15 +12,15 @@ caps.latest.revision: 18
 ---
 # Browser Limitations with the Microsoft Dynamics NAV Web Client
 The [!INCLUDE[nav_web](includes/nav_web_md.md)] supports several browsers. There are some [!INCLUDE[navnow](includes/navnow_md.md)] features that are not supported by all browsers.  
-  
- For a list of the supported browsers and versions, see [System Requirements for Microsoft Dynamics NAV 2016](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md).  
-  
+
+ For a list of the supported browsers and versions, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).  
+
 ## Feature Limitations  
  The following table describes the feature limitations and known issues with the supported browsers.  
-  
+
 > [!IMPORTANT]  
 >  The [!INCLUDE[nav_web](includes/nav_web_md.md)] is designed for keyboard and mouse usage. If you want to use a touch-enabled device, we recommend running the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)].  
-  
+
 |Feature|Description|Browser|Remarks|  
 |-------------|-----------------|-------------|-------------|  
 |Previewing a report|The **Preview** button does not appear on the request pages of reports.|Google Chrome<br /><br /> Mozilla Firefox<br /><br /> Safari||  
@@ -31,7 +31,7 @@ The [!INCLUDE[nav_web](includes/nav_web_md.md)] supports several browsers. There
 |Scrolling a list by using one finger|You cannot scroll a list by using a one finger scrolling gesture.|Safari|To scroll a list, use a two finger scrolling gesture.|  
 |Windows authentication|Validating user credentials by using Windows authentication is not supported.|Safari|For more information about authentication and credentials, see [Users and Credential Types](Users-and-Credential-Types.md).|  
 |Documentation Feedback link in the Microsoft Dynamics NAV Online Help.|Using the Documentation Feedback link does not work.|Mozilla Firefox|Use a different browser to provide feedback.|  
-  
+
 ## See Also  
  [Feature Limitations of the Microsoft Dynamics NAV Web Client](Feature-Limitations-of-the-Microsoft-Dynamics-NAV-Web-Client.md)   
  [Microsoft Dynamics NAV Web Client](Microsoft-Dynamics-NAV-Web-Client.md)   

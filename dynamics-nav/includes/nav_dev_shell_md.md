@@ -1,1 +1,1 @@
-Microsoft Dynamics NAV 2016 Development Shell
+Microsoft Dynamics NAV 2017 Development Shell
