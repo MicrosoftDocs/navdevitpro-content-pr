@@ -12,36 +12,36 @@ caps.latest.revision: 27
 ---
 # Deploying the Microsoft Dynamics NAV Web Server Components in a Single Computer Environment
 In this scenario, you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], [!INCLUDE[nav_server](includes/nav_server_md.md)], and the SQL Server database components on the same computer.  
-  
+
  ![NAV Web Client installation on one computer](media/Nav_Web_Client_Install_Single_Computer.png "Nav\_Web\_Client\_Install\_Single\_Computer")  
-  
+
 > [!TIP]  
 >  For a step-by-step example that describes how to deploy this scenario, see [Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on a Single Computer](Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20a%20Single%20Computer.md).  
-  
+
 ## Deployment Tasks  
  To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] in this scenario, complete the following tasks.  
-  
+
 ### Pre-Installation Tasks  
  The following table includes tasks to perform before you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  
-  
+
 |Task|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|For more information, see|  
 |----------|---------------------------------------|-------------------------------|  
-|Make sure that system requirements are met.|Verify that the computer has the required hardware and software installed.|[System Requirements for Microsoft Dynamics NAV 2016](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md)|  
+|Make sure that system requirements are met.|Verify that the computer has the required hardware and software installed.|[System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md)|  
 |Install Internet Information Services 7.0 or Internet Information Services 8.0.|When you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], [!INCLUDE[navnow](includes/navnow_md.md)] Setup creates a website for the [!INCLUDE[nav_web](includes/nav_web_md.md)] on IIS. If IIS is already installed, then make sure that the required features are enabled. **Note:**  Instead of installing and configuring IIS manually, you can use [!INCLUDE[navnow](includes/navnow_md.md)] Setup to install IIS and enable the required features.|[How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md)|  
 |Determine the TCP port for the [!INCLUDE[nav_web](includes/nav_web_md.md)] and allow communication on the port through Windows Firewall.|[!INCLUDE[navnow](includes/navnow_md.md)] Setup creates a website on IIS for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. During Setup, you will have to choose the port to use for the site. The default port that is used in [!INCLUDE[navnow](includes/navnow_md.md)] Setup is port 8080. If you are not sure of which port to use, then use the default port.<br /><br /> If the computer is running Windows 7 or Windows 8 with Windows Firewall enabled, then you have to create an inbound rule that allows communication on the port.|[How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client](How%20to:%20Create%20an%20Inbound%20Rule%20in%20Windows%20Firewall%20for%20the%20Port%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client.md)|  
 |Set up the service account for [!INCLUDE[nav_server](includes/nav_server_md.md)] and the SQL Server database.|Optional. When you install [!INCLUDE[nav_server](includes/nav_server_md.md)], you can specify a user account that will be used to log on to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and [!INCLUDE[navnow](includes/navnow_md.md)] database. The default service account is Network Service. If you want to use Network Service, then no action is required for this task.|[Provisioning the Microsoft Dynamics NAV Server Account](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md).|  
 |Obtain and install an SSL certificate.|Optional. If you want to configure SSL on the connection to [!INCLUDE[nav_web](includes/nav_web_md.md)], then complete the following procedures:<br /><br /> -   Obtain an SSL certificate.<br />-   Import the certificate into the local computer store of the computer on which you will install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].<br />-   Obtain the certificate's thumbprint. **Note:**  You can also configure SSL after you have installed the [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [Post-installation Tasks](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components-in-a-Single-Computer-Environment.md#PostInstall).|The following sections in the Walkthrough: Configuring Web Services to Use SSL \(SOAP and OData\) topic:<br /><br /> -   [Obtaining an SSL Certificate](Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md#ObtainCert)<br />-   [Importing the SSL Certificate into the Local Computer Store of the Microsoft Dynamics NAV Server computer](Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md#Importing)<br />-   [Obtaining the Certificate's Thumbprint](Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md#Thumbprint)|  
-  
+
 ### Installation Tasks  
  The following table includes tasks for installing the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  
-  
+
 |Task|Description|For more information, see|  
 |----------|-----------------|-------------------------------|  
 |Install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], [!INCLUDE[nav_server](includes/nav_server_md.md)], and [!INCLUDE[navnow](includes/navnow_md.md)] database components.|Run the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] setup.exe file, choose the **Custom** installation option, and then choose the **SQL Server Database Components**, **Server**, and **NAV Web Server Components** options.|[How to: Run Setup](How%20to:%20Run%20Setup.md)<br /><br /> [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md)|  
-  
+
 ###  <a name="PostInstall"></a> Post-installation Tasks  
  The following table includes tasks that configure the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] after installation. These tasks are optional depending on your organizational and network requirements.  
-  
+
 |Task|Description|For more information, see|  
 |----------|-----------------|-------------------------------|  
 |Configure Report Viewer.|To display reports, Microsoft Report Viewer must be configured on a website of the [!INCLUDE[nav_web](includes/nav_web_md.md)]. Report Viewer includes an option that lets users save a report as a Microsoft Excel, Microsoft Word, or PDF file. By default, this option is disabled. You configure Microsoft Report Viewer in the web.config file for the [!INCLUDE[nav_web](includes/nav_web_md.md)] website.|[How to: Configure Microsoft Report Viewer for the Microsoft Dynamics NAV Web Client](How%20to:%20Configure%20Microsoft%20Report%20Viewer%20for%20the%20Microsoft%20Dynamics%20NAV%20Web%20Client.md)|  
@@ -50,7 +50,7 @@ In this scenario, you install the [!INCLUDE[nav_web_server](includes/nav_web_ser
 |Change [!INCLUDE[navnow](includes/navnow_md.md)] settings of the [!INCLUDE[nav_web](includes/nav_web_md.md)].|There are several parameters in the web.config file for the website that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] that you can modify to change the behavior of the [!INCLUDE[nav_web](includes/nav_web_md.md)]. Some of the more common parameters include the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, company, language, time zone, regional settings, session time out, and online Help URL.|[Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md)|  
 |Set up multiple [!INCLUDE[nav_web](includes/nav_web_md.md)] applications on a website.|You can set up multiple web server instances for the [!INCLUDE[nav_web](includes/nav_web_md.md)] on the existing website. The web server instances will use the same address \(URL\) except with an alias that specifies the specific application.|[How to: Set Up Multiple Web Server Instances for the Microsoft Dynamics NAV Web Client](How%20to:%20Set%20Up%20Multiple%20Web%20Server%20Instances%20for%20the%20Microsoft%20Dynamics%20NAV%20Web%20Client.md)|  
 |Configure web browsers on devices.|The [!INCLUDE[nav_web](includes/nav_web_md.md)] supports several different web browsers. To access the [!INCLUDE[nav_web](includes/nav_web_md.md)], the web browser must be enabled on a device with cookies and JavaScript.|[Configuring the Web Browser for the Microsoft Dynamics NAV Web Client](Configuring-the-Web-Browser-for-the-Microsoft-Dynamics-NAV-Web-Client.md)|  
-  
+
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
  [Deploying the Microsoft Dynamics NAV Web Server Components in a Two Computer Environment](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components-in-a-Two-Computer-Environment.md)   
