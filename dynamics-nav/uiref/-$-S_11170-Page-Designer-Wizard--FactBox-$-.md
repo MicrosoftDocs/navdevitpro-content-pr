@@ -27,8 +27,8 @@ Adds a FactBox to a List page or Card page. A FactBox is an area on the page tha
   
 |Controls|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
-|**\>** button|Adds a FactBox from the available parts list.|  
-|**\>\>** button|Adds all the FactBoxes from the available parts list.|  
+|**>** button|Adds a FactBox from the available parts list.|  
+|**>>** button|Adds all the FactBoxes from the available parts list.|  
 |**\<** button|Removes a FactBox from the **Part Order** list box.|  
 |**\<\<** button|Removes all the FactBoxes from the **Part Order** list box.|  
 |**Back** button|Moves to the previous page.|  

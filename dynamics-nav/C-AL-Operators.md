@@ -29,12 +29,12 @@ Operators can be used in expressions to combine, investigate, and adjust values 
 |\/|Division|  
 |DIV|Integer division|  
 |MOD|Modulus|  
-|\>|Greater than|  
-|\>=|Greater than or equal to|  
+|>|Greater than|  
+|>=|Greater than or equal to|  
 |\<|Less than|  
 |\<=|Less than or equal to|  
 |=|Equal to|  
-|\<\>|Not equal to|  
+|\<>|Not equal to|  
 |IN|In range|  
 |AND|Logical conjunction|  
 |OR|Logical disjunction|  
@@ -83,7 +83,7 @@ string + string
   
 4.  +, -, OR  
   
-5.  \>, \<. \>=, \<=, = \<\>, IN  
+5.  >, \<. >=, \<=, = \<>, IN  
   
 6.  .. \(range\)  
   

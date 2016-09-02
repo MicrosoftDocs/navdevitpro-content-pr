@@ -40,8 +40,8 @@ Ok := Variant.ISDATE
   
 |Text constant name|Enu value|  
 |------------------------|---------------|  
-|Text000|Does the variant \>%1\< contain a date variable? %2.|  
-|Text001|Does the variant \>%1\< contain a code variable? %2.|  
+|Text000|Does the variant >%1\< contain a date variable? %2.|  
+|Text001|Does the variant >%1\< contain a code variable? %2.|  
   
 ```  
 MyDate := TODAY;  

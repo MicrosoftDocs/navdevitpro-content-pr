@@ -22,7 +22,7 @@ Denotes a date ranging from January 1, 1753 to December 31, 9999.
 ## Normal Dates and Closing Dates  
  All normal dates have a corresponding closing date. The closing date for a given date is defined as a period of time that follows a given normal date and precedes the next normal date.  
   
- To assign a normal date to a variable, use the following format: \<MMDDYY\>D  
+ To assign a normal date to a variable, use the following format: \<MMDDYY>D  
   
  To assign a closing date to a variable, use the [CLOSINGDATE Function \(Date\)](CLOSINGDATE-Function--Date-.md).  
   

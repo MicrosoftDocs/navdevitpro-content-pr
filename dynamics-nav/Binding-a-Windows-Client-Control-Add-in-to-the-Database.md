@@ -16,7 +16,7 @@ Similar to other field controls on a page, a [!INCLUDE[nav_windows](includes/nav
   
  ![RoleTailored client control add&#45;in data binding](media/NAVRTCContolAddinDataBinding.png "NAVRTCContolAddinDataBinding")  
   
- The control add-in must implement the [Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition\<T\>](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1) interface that exposes the [IValueControlAddInDefinition\<T\>.Value](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1.Value) property as shown in the following example for a DateTime data type.  
+ The control add-in must implement the [Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition\<T>](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1) interface that exposes the [IValueControlAddInDefinition\<T>.Value](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1.Value) property as shown in the following example for a DateTime data type.  
   
 ```c#  
 [ControlAddInExport("MyControlAddIn")]  
@@ -27,12 +27,12 @@ public class MyControlAddIn : IValueControlAddInDefinition<DateTime>
   
 ```  
   
- When a control add-in is instantiated on a page, the **SourceExpr** property value is passed to the control add-in [IValueControlAddInDefinition\<T\>.Value](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1.Value) property. The **SourceExpr** property can be a field or row in a database table or a C/AL global variable.  
+ When a control add-in is instantiated on a page, the **SourceExpr** property value is passed to the control add-in [IValueControlAddInDefinition\<T>.Value](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1.Value) property. The **SourceExpr** property can be a field or row in a database table or a C/AL global variable.  
   
 > [!NOTE]  
->  The **SourceExpr** property value can be passed to the [IValueControlAddInDefinition\<T\>.Value](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1.Value) property multiple times as long as a page is open, depending on application code or state in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
+>  The **SourceExpr** property value can be passed to the [IValueControlAddInDefinition\<T>.Value](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1.Value) property multiple times as long as a page is open, depending on application code or state in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
- For more information about how to implement the [Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition\<T\>](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1) interface, see [How to: Create a Windows Client Control Add-in](How%20to:%20Create%20a%20Windows%20Client%20Control%20Add-in.md).  
+ For more information about how to implement the [Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition\<T>](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1) interface, see [How to: Create a Windows Client Control Add-in](How%20to:%20Create%20a%20Windows%20Client%20Control%20Add-in.md).  
   
  For more information about how to set the **SourceExpr** property for a control add-in, see [How to: Set Up a Windows Client Control Add-in on a Page](How%20to:%20Set%20Up%20a%20Windows%20Client%20Control%20Add-in%20on%20a%20Page.md).  
   
@@ -63,7 +63,7 @@ public class MyControlAddIn : IValueControlAddInDefinition<DateTime>
 ## Data Mapping and Multiple Data Types  
  The mapping between the C/AL data type of the page control and the .NET Framework data type occurs when the control add-in is instantiated on a page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For example, if a page contains a control that uses a Date data type in C/AL and the control add-in implements the Boolean data type \(`IValueControlAddInDefinition<Boolean>`\), then an error occurs.  
   
- A control add-in can support multiple .NET Framework data types by implementing the [Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition\<T\>](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1) interface for each data type. For example, to support both a string and an integer data type, include the following code.  
+ A control add-in can support multiple .NET Framework data types by implementing the [Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition\<T>](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1) interface for each data type. For example, to support both a string and an integer data type, include the following code.  
   
 ```c#  
 public class MyControlAddIn : IValueControlAddInDefinition<String>, IValueControlAddInDefinition<Int32>  

@@ -24,7 +24,7 @@ In a client report definition \(RDLC\) report layout, when a Boolean value appea
   
 3.  In Report Dataset Designer, find the **Column** for the Boolean variable or field that you want to change.  
   
-4.  In the **Data Source** field, change the \<*BooleanVariable*\> to **FORMAT\(**\<*BooleanVariable*\>**\)**.  
+4.  In the **Data Source** field, change the \<*BooleanVariable*> to **FORMAT\(**\<*BooleanVariable*>**\)**.  
   
 5.  On the **File** menu, choose **Save**.  
   

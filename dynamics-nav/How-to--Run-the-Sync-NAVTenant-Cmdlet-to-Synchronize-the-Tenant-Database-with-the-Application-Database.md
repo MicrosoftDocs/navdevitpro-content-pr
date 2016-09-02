@@ -40,8 +40,8 @@ This topic describes how to run the [T:Microsoft.Dynamics.Nav.Management.Cmdlets
   
     |Parameter|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
     |---------------|---------------------------------------|  
-    |*\<NAVServerInstance\>*|Specifies the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.|  
-    |*\<TenantId\>*|Specifies the name of the tenant database.|  
+    |*\<NAVServerInstance>*|Specifies the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.|  
+    |*\<TenantId>*|Specifies the name of the tenant database.|  
   
 3.  Press Enter to run the cmdlet.  
   

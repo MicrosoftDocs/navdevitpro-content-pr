@@ -37,7 +37,7 @@ String := Page.OBJECTID([UseNames])
 ## Property Value/Return Value  
  Type: Text or code  
   
- The string: Page \<*Page name &#124; Page ID*\>  
+ The string: Page \<*Page name &#124; Page ID*>  
   
 ## Example  
  If you add the following code to a page function or trigger, then the returned string is displayed in a message window.  

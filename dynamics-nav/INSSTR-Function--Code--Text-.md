@@ -64,8 +64,8 @@ NewString := INSSTR(String, SubString, Position)
 |-------------------|---------------|  
 |Text000|Press ENTER to continue.|  
 |Text001|or ESC|  
-|Text002|The test string before INSSTR is called:\\\>%1\<|  
-|Text003|The resulting string after INSSTR is called:\\\>%1\<|  
+|Text002|The test string before INSSTR is called:>%1\<|  
+|Text003|The resulting string after INSSTR is called:>%1\<|  
   
 ```  
 Str := Text000;  
@@ -79,13 +79,13 @@ MESSAGE(Text003, NewString);
   
  **The test string before INSSTR is called:**  
   
- **\>Press ENTER to continue.\<**  
+ **>Press ENTER to continue.\<**  
   
  The second message window displays the following:  
   
  **The resulting string after INSSTR is called:**  
   
- **\>Press ENTER or ESC to continue.\<**  
+ **>Press ENTER or ESC to continue.\<**  
   
 ## See Also  
  [Code Data Type](Code-Data-Type.md)   

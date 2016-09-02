@@ -28,7 +28,7 @@ String := GETLASTERRORCALLSTACK
   
  The format of the string is:  
   
- \<*codeunit name*\>\(Codeunit \<*number*\>\).\<*function name*\> line \<*line number*\>\\\[\<*calling codeunit name*\>\(Codeunit \<*number*\>\).\<*calling function name*\> line \<*line number*\>\\...\]  
+ \<*codeunit name*>\(Codeunit \<*number*>\).\<*function name*> line \<*line number*>\\\[\<*calling codeunit name*>\(Codeunit \<*number*>\).\<*calling function name*> line \<*line number*>\\...\]  
   
  The string cannot exceed the maximum string length that is specified in [!INCLUDE[navnow](includes/navnow_md.md)], which is 1,024 characters.  
   

@@ -14,7 +14,7 @@ manager: edupont
 # Using Generics
 In the .NET Framework, you can use generics to customize a method, class, structure, interface, field, or property according to the data type that it acts upon. Instead of writing a method, class, structure, interface, field, or property for a particular type, you can write it to use any type. When a generic is declared, the type is specified. For example, in C\#, if you use the generic type parameter `T`, then you can write a `List<T>` class that is declared as either `List<int>`, `List<string>`, or `List<MyClass>`.  
   
- With .NET Framework interoperability, you can define DotNet variables for generics. You cannot specify generic type names in C/AL. When a generic is instantiated by a constructor in C/AL, all type names are set to the `System.Object` type. For example, if you have a *mylist* DotNet variable for the *System.List\<T\>* generic, you create an instance of *mylist* in C/AL as shown. *mylist* is instantiated as a `List<Object>` type.  
+ With .NET Framework interoperability, you can define DotNet variables for generics. You cannot specify generic type names in C/AL. When a generic is instantiated by a constructor in C/AL, all type names are set to the `System.Object` type. For example, if you have a *mylist* DotNet variable for the *System.List\<T>* generic, you create an instance of *mylist* in C/AL as shown. *mylist* is instantiated as a `List<Object>` type.  
   
 ```  
 mylist := mylist.List();  

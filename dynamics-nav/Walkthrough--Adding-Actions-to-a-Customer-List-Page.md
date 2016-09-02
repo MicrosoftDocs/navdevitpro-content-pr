@@ -42,7 +42,7 @@ In this walkthrough, you will learn how to add a new item to an **Action** tab a
   
      The **Kevin's Customer List** page opens in Page Designer.  
   
-3.  Select the first empty line on the page, which is located immediately below the **\<Phone No.\>** field.  
+3.  Select the first empty line on the page, which is located immediately below the **\<Phone No.>** field.  
   
 4.  With focus on Page Designer, in the **View** menu, choose **Page Actions**.  
   

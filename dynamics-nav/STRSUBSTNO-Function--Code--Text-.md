@@ -52,7 +52,7 @@ NewString := STRSUBSTNO(String [,Value1, …])
   
  If the string representation is shorter than the length of the specifier, then it is left aligned.  
   
- For example, `StrSubstNo('Test %1 >#2##< >#3<', 1,2,3)` returns "Test 1 \>2   \< \>3 \<".  
+ For example, `StrSubstNo('Test %1 >#2##< >#3<', 1,2,3)` returns "Test 1 >2   \< >3 \<".  
   
  In this example, the following substitutions are made:  
   
@@ -64,7 +64,7 @@ NewString := STRSUBSTNO(String [,Value1, …])
   
  If the string is longer, then asterisks are inserted to indicate overflow.  
   
- For example, `StrSubstNo('Test %1 >###2< >#3<', 'Thomas','Thomas',0)` returns "Test Thomas \>\*\*\*\*\< \>0 \<".  
+ For example, `StrSubstNo('Test %1 >###2< >#3<', 'Thomas','Thomas',0)` returns "Test Thomas >\*\*\*\*\< >0 \<".  
   
  In this example the following substitutions are made:  
   

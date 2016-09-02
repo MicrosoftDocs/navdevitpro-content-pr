@@ -26,7 +26,7 @@ In some reports, you may want to format rows as bold based on the value of a fie
   
 5.  In design view, select the data row that you want to appear as bold.  
   
-6.  In the **Properties** window, expand **Font**. In the **FontWeight** field, select **\<Expression…\>** from the drop-down list.  
+6.  In the **Properties** window, expand **Font**. In the **FontWeight** field, select **\<Expression…>** from the drop-down list.  
   
 7.  In the **Expression** window, clear the expression text box, and then select **Fields\(DataSet\_Result\)** from the **Category** list. Under **Values**, double-click the field on which you will determine whether the row is bold.  
   

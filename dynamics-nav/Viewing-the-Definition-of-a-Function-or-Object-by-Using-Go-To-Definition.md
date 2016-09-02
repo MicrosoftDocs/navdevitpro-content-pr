@@ -71,7 +71,7 @@ You can view the definition of a function or object by selecting the item in the
   
  ![Go To Definition from system function](media/GoToDef_FromCALEditor_System_RecResult.jpg "GoToDef\_FromCALEditor\_System\_RecResult")  
   
- If the system function is the \<*codeunit*\>.RUN function, then the codeunit is opened in a new C/AL Editor window.  
+ If the system function is the \<*codeunit*>.RUN function, then the codeunit is opened in a new C/AL Editor window.  
   
  ![Go To Definition from codeunit.RUN function](media/GoToDef_FromCALEditor_System_CodeunitResult.jpg "GoToDef\_FromCALEditor\_System\_CodeunitResult")  
   

@@ -32,7 +32,7 @@ Query.SETFILTER(Column, String[, Value],...)
  *String*  
  Type: Text or code  
   
- The filter expression. A valid expression consists of alphanumeric characters and one or more of the following operators: \<, \>, \*, &, &#124;, and =. You can use replacement fields \(%1, %2, and so on\) to insert values at run-time. For more information about filter expressions and syntax, see [Entering Criteria in Filters](Entering-Criteria-in-Filters.md).  
+ The filter expression. A valid expression consists of alphanumeric characters and one or more of the following operators: \<, >, \*, &, &#124;, and =. You can use replacement fields \(%1, %2, and so on\) to insert values at run-time. For more information about filter expressions and syntax, see [Entering Criteria in Filters](Entering-Criteria-in-Filters.md).  
   
  *Value*  
  Type: Any  
@@ -73,7 +73,7 @@ Query.READ;
   
 -   **DataItemTableFilter** property: Quantity=FILTER\(\<100\)  
   
--   **ColumnFilter** property: Quantity=FILTER\(\<\>50\)  
+-   **ColumnFilter** property: Quantity=FILTER\(\<>50\)  
   
  `Query.SETFILTER ("Quantity", '>1’)` will result in a filter that is equivalent to: 1\<Quantity \<100.  
   

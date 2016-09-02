@@ -31,7 +31,7 @@ You set security filters to limit the access that a user has to data in a table.
 5.  In the **Field Filter** column, enter the value of field that you want to use to limit access. For example, to limit a user's access to only Annette Hill's sales, enter **AH**, which is the salesperson code for Annette Hill, in the **Field Filter** column.  
   
     > [!NOTE]  
-    >  Record level security filters do not support wildcard characters. This means that you cannot use \* and ? in the filters. You can use other symbols, delimiters and, operators, such as, \<, \>, &#124;, &, .., and =. If you do not enter an operator, then the default operator = is used.  
+    >  Record level security filters do not support wildcard characters. This means that you cannot use \* and ? in the filters. You can use other symbols, delimiters and, operators, such as, \<, >, &#124;, &, .., and =. If you do not enter an operator, then the default operator = is used.  
   
     > [!NOTE]  
     >  Security filters support Unicode characters. The maximum length of a security filter is 200 characters, including all field names, delimiters, symbols, and operators that used in the filter.  

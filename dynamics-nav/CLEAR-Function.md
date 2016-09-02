@@ -62,8 +62,8 @@ CLEAR(Variable)
 |Text constant|ConstValue|  
 |-------------------|----------------|  
 |Text000|Joe Raybon|  
-|Text001|Initially the variable "Name" contains: \>%1\<|  
-|Text002|After using CLEAR, the variable "Name" contains: \>%1\<|  
+|Text001|Initially the variable "Name" contains: >%1\<|  
+|Text002|After using CLEAR, the variable "Name" contains: >%1\<|  
   
 ```  
 Name := Text000;  
@@ -74,11 +74,11 @@ MESSAGE(Text002, Name);
   
  The first message window displays the following:  
   
- **Initially the variable "Name" contains: \>Joe Raybon\<**  
+ **Initially the variable "Name" contains: >Joe Raybon\<**  
   
  The second message window displays the following:  
   
- **After using CLEAR, the variable "Name" contains: \>\<**  
+ **After using CLEAR, the variable "Name" contains: >\<**  
   
 ## Example  
  In the following example you will declare two variables:  
@@ -95,11 +95,11 @@ GuidVar, data type: "GUID".
 |Text constant|ENU value|  
 |-------------------|---------------|  
 |Text000|My Text|  
-|Text001|Initially the variable "MyTextVar" contains \>%1\< and "GuidVar" is defined as \>%2\<|  
-|Text002|After using CLEAR\(MyTextVar\), the variable "MyTextVar" contains \>%1\< and "GuidVar" is still defined as \>%2\<|  
+|Text001|Initially the variable "MyTextVar" contains >%1\< and "GuidVar" is defined as >%2\<|  
+|Text002|After using CLEAR\(MyTextVar\), the variable "MyTextVar" contains >%1\< and "GuidVar" is still defined as >%2\<|  
 |Text003|After using CLEAR\(GuidVar\) the variable "GuidVar" becomes undefined|  
-|Text004|Giving the "MyTextVar" variable the initial value again and creating a new "GuidVar" results in \>%1\< and \>%2\<|  
-|Text005|Using CLEARALL results in an empty "MyTextVar" \>%1\< and an undefined "GuidVar"|  
+|Text004|Giving the "MyTextVar" variable the initial value again and creating a new "GuidVar" results in >%1\< and >%2\<|  
+|Text005|Using CLEARALL results in an empty "MyTextVar" >%1\< and an undefined "GuidVar"|  
   
 ```  
 MyTextVar := Text000;  
@@ -118,11 +118,11 @@ MESSAGE(Text005,MyTextVar,GuidVar);
   
  The first message window displays the following:  
   
- **Initially the variable "MyTextVar" contains: \>My Text\< and "GuidVar" is defined as \>12345678-1234-1234-1234-1234567890AB\<**  
+ **Initially the variable "MyTextVar" contains: >My Text\< and "GuidVar" is defined as >12345678-1234-1234-1234-1234567890AB\<**  
   
  The second message window displays the following:  
   
- **After using CLEAR\(MyTextVar\), the variable "MyTextVar" contains: \>\< and GuidVar is still defined as \>12345678-1234-1234-1234-1234567890AB\<**  
+ **After using CLEAR\(MyTextVar\), the variable "MyTextVar" contains: >\< and GuidVar is still defined as >12345678-1234-1234-1234-1234567890AB\<**  
   
  The third message window displays the following:  
   
@@ -130,11 +130,11 @@ MESSAGE(Text005,MyTextVar,GuidVar);
   
  The fourth message window displays the following:  
   
- **Giving the "MyTextVar" variable the initial value again and creating a new "GuidVar" results in \>My Text\< and \>87654321-4321-4321-4321-BA0987654321\<**  
+ **Giving the "MyTextVar" variable the initial value again and creating a new "GuidVar" results in >My Text\< and >87654321-4321-4321-4321-BA0987654321\<**  
   
  The fifth message window displays the following:  
   
- **Using CLEARALL results in an empty "MyTextVar" \>\< and an undefined "GuidVar"**  
+ **Using CLEARALL results in an empty "MyTextVar" >\< and an undefined "GuidVar"**  
   
 ## See Also  
  [CLEARALL Function](CLEARALL-Function.md)   

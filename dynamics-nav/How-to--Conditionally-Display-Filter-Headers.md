@@ -52,7 +52,7 @@ If you apply a filter to the data in a report, then we recommend that you create
   
 13. Select the filter header text box that you created in step 12, and then on the **View** menu, choose **Properties Window**.  
   
-14. In the **Properties** window, expand the **Visibility** field. In the **Hidden** field, select **\<Expression…\>** from the drop-down list.  
+14. In the **Properties** window, expand the **Visibility** field. In the **Hidden** field, select **\<Expression…>** from the drop-down list.  
   
 15. In the **Expression** window, create a conditional statement. For example, the following are the conditional statements for the two filter text boxes on report 113.  
   

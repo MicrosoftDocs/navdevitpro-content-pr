@@ -41,7 +41,7 @@ Gets a field on a test page.
 ## Remarks  
  To find the ID of a field, in Page Designer, select the field, and then on the **View** menu, choose **Properties**.  
   
- You can use this function if you have a function or a property on a test page with the same name as a field on the page. If you use the \<*TestPage*\>.\<*Field*\> notation but the Field name is also a function name, then the function takes precedence. To access the field, use the GETFIELD function.  
+ You can use this function if you have a function or a property on a test page with the same name as a field on the page. If you use the \<*TestPage*>.\<*Field*> notation but the Field name is also a function name, then the function takes precedence. To access the field, use the GETFIELD function.  
   
 ## Example  
  This example requires that you create the following variables and text constants.  

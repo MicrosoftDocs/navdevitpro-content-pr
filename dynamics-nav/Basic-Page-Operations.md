@@ -29,7 +29,7 @@ When you publish a page as a SOAP web service, it has a set of default operation
 |[Create Operation](Create-Operation.md)|Creates a single record.<br /><br /> `void Create(ref Entity entity)`|  
 |[CreateMultiple Operation](CreateMultiple-Operation.md)|Creates a set of records.<br /><br /> `void CreateMultiple(ref Entity[] entity)`|  
 |[Delete Operation](Delete-Operation.md)|Deletes a single record.<br /><br /> `bool Delete(string key)`|  
-|[Delete\_\<part\> Operation](Delete_%3Cpart%3E%20Operation.md)|Deletes a subpage of the current page.<br /><br /> `bool Delete_<part>(string key)`|  
+|[Delete\_\<part> Operation](Delete_%3Cpart%3E%20Operation.md)|Deletes a subpage of the current page.<br /><br /> `bool Delete_<part>(string key)`|  
 |[GetRecIdFromKey](GetRecIdFromKey.md)|Converts a key, which is always part of the page result, to a record ID.<br /><br /> `string GetRecIdFromKey(string key)`|  
 |[IsUpdated Operation](IsUpdated-Operation.md)|Checks if an object has been updated since the key was obtained.<br /><br /> `bool IsUpdated(string key)`|  
 |[Read Operation](Read-Operation.md)|Reads a single record.<br /><br /> `Entity Read(string no)`|  

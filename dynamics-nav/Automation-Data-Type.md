@@ -26,7 +26,7 @@ Use the Automation data type to reference an automation server.
   
 4.  Select an interface and then choose the **OK** button.  
   
- This procedure has selected the GUID of the automation server, the version number, and the GUID of the interface. It is immediately evaluated into a name such as *\<name of server\>*.*\<name of interface\>*, as in the following:  
+ This procedure has selected the GUID of the automation server, the version number, and the GUID of the interface. It is immediately evaluated into a name such as *\<name of server>*.*\<name of interface>*, as in the following:  
   
 ```  
 'Microsoft Excel X.0 Object Library'.Application  

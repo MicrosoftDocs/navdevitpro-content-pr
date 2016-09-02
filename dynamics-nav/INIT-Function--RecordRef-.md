@@ -33,8 +33,8 @@ RecordRef.INIT
 |Data type|Default value|  
 |---------------|-------------------|  
 |BigInteger|0|  
-|BigText|\<Empty\>|  
-|BLOB|\<Empty\>|  
+|BigText|\<Empty>|  
+|BLOB|\<Empty>|  
 |Boolean|No|  
 |Code|'' \(empty string\)|  
 |Date|0d \(Undefined date\)|  
@@ -45,8 +45,8 @@ RecordRef.INIT
 |GUID|00000000-0000-0000-0000-000000000000|  
 |Integer|0|  
 |Option|0|  
-|RecordID|\<Empty\>|  
-|TableFilter|\<Empty\>|  
+|RecordID|\<Empty>|  
+|TableFilter|\<Empty>|  
 |Text|'' \(empty string\)|  
 |Time|0T \(Undefined time\)|  
   

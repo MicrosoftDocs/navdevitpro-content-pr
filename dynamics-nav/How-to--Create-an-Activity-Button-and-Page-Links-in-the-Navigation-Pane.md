@@ -61,7 +61,7 @@ An activity button in the navigation pane displays a menu of links to additional
   
 2.  On the **View** menu, choose **Properties**.  
   
-3.  In the **Properties** window, set the **RunObject** property value to **page \<name\>** and substitute \<name\> with either the page name or ID. For example, to link to the page with the ID 142 and name Posted Sales Shipments, you can type **page 142** or **page Posted Sales Shipments**.  
+3.  In the **Properties** window, set the **RunObject** property value to **page \<name>** and substitute \<name> with either the page name or ID. For example, to link to the page with the ID 142 and name Posted Sales Shipments, you can type **page 142** or **page Posted Sales Shipments**.  
   
     > [!NOTE]  
     >  Instead of typing **page**, you can just type **p** followed by the ID or name, such as **p421** or **Posted Sales Shipments**.  

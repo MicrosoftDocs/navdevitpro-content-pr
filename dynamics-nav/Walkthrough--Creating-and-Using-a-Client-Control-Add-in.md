@@ -102,7 +102,7 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
   
 6.  In Solution Explorer, notice the BingMapsControlAddIn.snk file that is added in Solution Explorer.  
   
-7.  On the **Build** menu, choose **Build \<Your Solution\>** to build the project. Verify that the build succeeds.  
+7.  On the **Build** menu, choose **Build \<Your Solution>** to build the project. Verify that the build succeeds.  
   
 ## Copying the Control Add-in Assembly to the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]  
  After you build the control add-in, you copy the output assembly file to the computer that is running the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].  

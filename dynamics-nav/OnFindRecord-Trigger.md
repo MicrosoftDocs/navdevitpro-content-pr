@@ -30,7 +30,7 @@ Overrides the default page behavior and enables you to specify which record you 
 |---------------------|------------|  
 |- \(a dash\)|First record|  
 |+ \(a plus sign\)|Last record|  
-|=\>\<|Record defined in the `Rec` variable or the closest match|  
+|=>\<|Record defined in the `Rec` variable or the closest match|  
   
 ## Return Value  
  *Ok*  

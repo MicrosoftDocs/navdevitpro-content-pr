@@ -22,7 +22,7 @@ This topic describes the identifiers, data types, and data formats that are used
   
  If the database maintains relationships, [!INCLUDE[nav_2009_short](includes/nav_2009_short_md.md)] creates foreign key constraints using the SQL Server table name and **TableRelation** property information. The names of the constraints have the following format:  
   
--   \<table name\>$FK$T\<referencing table ID\>\_F\<referencing field ID\>$T\<referenced table ID\>.  
+-   \<table name>$FK$T\<referencing table ID>\_F\<referencing field ID>$T\<referenced table ID>.  
   
  Here is an example using the **Customer** table:  
   

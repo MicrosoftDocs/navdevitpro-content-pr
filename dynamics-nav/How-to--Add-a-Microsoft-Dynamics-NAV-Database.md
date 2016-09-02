@@ -34,10 +34,10 @@ This topic describes how add a new [!INCLUDE[navnow](includes/navnow_md.md)] dat
   
     |Parameter|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
     |---------------|---------------------------------------|  
-    |*\<DatabaseBAKfile\>*|Specifies the path and file name of the [!INCLUDE[navnow](includes/navnow_md.md)] database backup file that you want to restore.|  
-    |*\<MyNavDatabase\>*|Specifies the name to give the new database in SQL Server.|  
-    |*\<DatabaseInstance\>*|Specifies the name of the SQL Server database instance to connect to.<br /><br /> If you there is only one database instance on the SQL server, then you can omit this parameter. The default instance is DynamicsNAV70\_Instance1.|  
-    |*\<DatabaseServer\>*|Specifies the name of the computer that is running SQL Server. The name has the *domain\\computername* format.<br /><br /> If this is the computer that you are working from, then you can omit this parameter.|  
+    |*\<DatabaseBAKfile>*|Specifies the path and file name of the [!INCLUDE[navnow](includes/navnow_md.md)] database backup file that you want to restore.|  
+    |*\<MyNavDatabase>*|Specifies the name to give the new database in SQL Server.|  
+    |*\<DatabaseInstance>*|Specifies the name of the SQL Server database instance to connect to.<br /><br /> If you there is only one database instance on the SQL server, then you can omit this parameter. The default instance is DynamicsNAV70\_Instance1.|  
+    |*\<DatabaseServer>*|Specifies the name of the computer that is running SQL Server. The name has the *domain\\computername* format.<br /><br /> If this is the computer that you are working from, then you can omit this parameter.|  
     |*\<ServiceAccount*|Specifies the logon account that runs the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.<br /><br /> This account is given the appropriate permissions to the database when you run the cmdlet. For more information, see [Provisioning the Microsoft Dynamics NAV Server Account](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md). If you do not specify an account, then Network Service is used.|  
   
     > [!NOTE]  

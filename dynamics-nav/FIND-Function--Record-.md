@@ -34,11 +34,11 @@ Ok := Record.FIND([Which])
  *Which*  
  Type: Text or code  
   
- Specifies how to perform the search. The table is searched until either a record  is found or there are no more records. Each character in this string can be present only one time. You can combine the '=', '\<', and '\>' characters. You can use the following characters:  
+ Specifies how to perform the search. The table is searched until either a record  is found or there are no more records. Each character in this string can be present only one time. You can combine the '=', '\<', and '>' characters. You can use the following characters:  
   
 -   =  to search for a record that equals the key values \(default\)  
   
--   \>  to search for a record that is larger than the key values  
+-   >  to search for a record that is larger than the key values  
   
 -   \<  to search for a record that is less than the key values  
   
@@ -46,7 +46,7 @@ Ok := Record.FIND([Which])
   
 -   -   to search for the first record in the table \(- can only be used alone\)  
   
- If this parameter contains '=', '\>' or '\<', then you must assign value to all fields of the current and primary keys before you call FIND.  
+ If this parameter contains '=', '>' or '\<', then you must assign value to all fields of the current and primary keys before you call FIND.  
   
 ## Property Value/Return Value  
  Type: Boolean  
