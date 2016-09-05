@@ -1,7 +1,9 @@
-﻿---
+---
 title: "Walkthrough: Customizing Microsoft Dynamics CRM Integration in Dynamics NAV"
+author: edupont04
+manager: edupont
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 09/02/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,7 +11,6 @@ ms.topic: article
 ms-prod: "dynamics-nav-2017"
 ms.assetid: 0658548b-3a7b-4e9a-bd1a-d58c625bd0de
 caps.latest.revision: 12
-manager: edupont
 ---
 # Walkthrough: Customizing Microsoft Dynamics CRM Integration in Dynamics NAV
 This walkthrough introduces customizing the integration of [!INCLUDE[navnow](includes/navnow_md.md)] and [!INCLUDE[crm](includes/crm_md.md)]. The walkthrough will guide you through setting up integration of campaigns in [!INCLUDE[navnow](includes/navnow_md.md)] and campaigns in [!INCLUDE[crm](includes/crm_md.md)].  

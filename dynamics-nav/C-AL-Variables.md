@@ -1,5 +1,5 @@
 ---
-title: "C-AL Variables"
+title: "C/AL Variables"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: ccfdc996-006b-464b-a5e2-db14dd9dad5c
 caps.latest.revision: 22
 manager: edupont
 ---
-# C-AL Variables
+# C/AL Variables
 C/AL has the following types of variables:  
 
 -   User-defined variables  

@@ -1,5 +1,5 @@
 ---
-title: "C-AL WITH Statements"
+title: "C/AL WITH Statements"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: e224ae1d-8147-419a-9b34-037729c75a2d
 caps.latest.revision: 11
 manager: edupont
 ---
-# C-AL WITH Statements
+# C/AL WITH Statements
 The following syntax shows a WITH-DO statement.  
   
 ```  

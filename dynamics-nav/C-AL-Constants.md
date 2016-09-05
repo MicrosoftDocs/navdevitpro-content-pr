@@ -1,5 +1,5 @@
 ---
-title: "C-AL Constants"
+title: "C/AL Constants"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: cfd2fdd0-9bc6-4d6d-80da-d8a62ddaee78
 caps.latest.revision: 8
 manager: edupont
 ---
-# C-AL Constants
+# C/AL Constants
 A constant is the simplest type of operand used in C/AL. The value of a constant cannot be changed during the execution of the code. Constants can be defined for each of the simple data types in C/AL.  
   
 > [!NOTE]  

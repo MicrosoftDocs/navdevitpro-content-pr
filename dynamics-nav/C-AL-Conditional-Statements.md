@@ -1,5 +1,5 @@
 ---
-title: "C-AL Conditional Statements"
+title: "C/AL Conditional Statements"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: fba5fa4a-13e9-4212-beb9-14391d864438
 caps.latest.revision: 17
 manager: edupont
 ---
-# C-AL Conditional Statements
+# C/AL Conditional Statements
 A conditional statement is one type of control structure in C/AL.  
   
  You use conditional statements to specify a condition and one or more commands to execute if the condition is evaluated as true or false. There are two types of conditional statements in C/AL:  
