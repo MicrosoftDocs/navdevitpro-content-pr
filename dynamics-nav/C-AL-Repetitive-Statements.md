@@ -1,5 +1,5 @@
 ---
-title: "C-AL Repetitive Statements"
+title: "C/AL Repetitive Statements"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 3e3378be-bfe7-4371-9468-d6a028d5eded
 caps.latest.revision: 16
 manager: edupont
 ---
-# C-AL Repetitive Statements
+# C/AL Repetitive Statements
 A repetitive statement is also known as a loop. The following table shows the looping mechanisms in C/AL.  
   
 |Looping mechanism|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  

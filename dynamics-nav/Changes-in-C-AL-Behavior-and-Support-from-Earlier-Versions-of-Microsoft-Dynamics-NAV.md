@@ -1,5 +1,5 @@
 ---
-title: "Changes in C-AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV"
+title: "Changes in C/AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 786f53bd-ded3-4273-9b3a-b76ab9d1ce61
 caps.latest.revision: 89
 manager: edupont
 ---
-# Changes in C-AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV
+# Changes in C/AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV
 The following table provides an overview of the new, removed, or changed C/AL data types, functions, properties, and triggers in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] since the previous version of [!INCLUDE[navnow](includes/navnow_md.md)]. For more information about the changes, see the specific topic about the data type, function, property, or trigger.  
   
 ## C/AL Data Types  

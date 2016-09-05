@@ -1,5 +1,5 @@
 ---
-title: "C-AL Function Statements"
+title: "C/AL Function Statements"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 65df44e6-e734-43c8-bb31-4b7afe749cbd
 caps.latest.revision: 6
 manager: edupont
 ---
-# C-AL Function Statements
+# C/AL Function Statements
 You use function statements to execute either built-in system functions or user-defined functions. Function calls may include parameters, which are passed to the function.  
   
  If you assign the return value of a function call to a variable, then you use the function statement as part of an assignment statement.  

@@ -1,5 +1,5 @@
 ---
-title: "C-AL ASSERTERROR Statements"
+title: "C/AL ASSERTERROR Statements"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 56de551c-f53e-4ab9-a738-3f9a58beb853
 caps.latest.revision: 8
 manager: edupont
 ---
-# C-AL ASSERTERROR Statements
+# C/AL ASSERTERROR Statements
 You use ASSERTERROR statements in test functions to test how your application behaves under failing conditions. The ASSERTERROR keyword specifies that an error is expected at run time in the statement that follows the ASSERTERROR keyword.  
   
  If a simple or compound statement that follows the ASSERTERROR keyword causes an error, then execution successfully continues to the next statement in the test function. You can get the error text of the statement by using the [GETLASTERRORTEXT Function](GETLASTERRORTEXT-Function.md).  

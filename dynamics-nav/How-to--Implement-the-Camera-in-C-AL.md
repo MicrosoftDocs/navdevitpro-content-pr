@@ -1,5 +1,5 @@
 ---
-title: "How to: Implement the Camera in C-AL"
+title: "How to: Implement the Camera in C/AL"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 71993c75-c4b9-42f3-9458-7594f8684df2
 caps.latest.revision: 24
 manager: edupont
 ---
-# How to: Implement the Camera in C-AL
+# How to: Implement the Camera in C/AL
 This example illustrates how you can add access to camera to a specific page from the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. Adding a camera option to the Item card, for example, lets you take a picture of a specific item and store it with the item. The example implements three actions; **Take Picture**, **Take Picture High Quality**, and **Take Picture Low Quality** on the Customer Card page, but does not include code that saves the picture to the database. For a [!INCLUDE[navnow](includes/navnow_md.md)] implementation of this, see **Incoming Documents**, for example on the Accounting Manager profile, when you use the Dynamics NAV app on a phone.  
   
 > [!IMPORTANT]  
