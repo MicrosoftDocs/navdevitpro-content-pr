@@ -1,7 +1,8 @@
 ---
 title: "About Permissions"
+author: edupont04
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 08/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -30,15 +31,11 @@ Each permission set in [!INCLUDE[nav_current_long](includes/nav_current_long_md.
 > [!NOTE]  
 >  Depending on the setting in the **UI Elements Removal** field in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], only UI elements that the user has permissions for will appear in the user interface. For more information, see [Removing Elements from the User Interface According to Permissions](Removing-Elements-from-the-User-Interface-According-to-Permissions.md).  
 
-## Related Sections  
- [Managing Users](Managing-Users.md)  
-
- [Managing Permissions and Permission Sets](Managing-Permissions-and-Permission-Sets.md)  
-
- [How to: Work with the BASIC Permission Set](How%20to:%20Work%20with%20the%20BASIC%20Permission%20Set.md)  
-
 ## See Also  
- [How to: Define Permissions for Users](How%20to:%20Define%20Permissions%20for%20Users.md)   
- [Security and Protection](Security-and-Protection.md)   
- [Customize the User Interface](Customize%20the%20User%20Interface.md)   
- [Removing Elements from the User Interface According to Permissions](Removing-Elements-from-the-User-Interface-According-to-Permissions.md)
+[Managing Users](Managing-Users.md)  
+[Managing Permissions and Permission Sets](Managing-Permissions-and-Permission-Sets.md)  
+[How to: Work with the BASIC Permission Set](How%20to:%20Work%20with%20the%20BASIC%20Permission%20Set.md)  
+[How to: Define Permissions for Users](How%20to:%20Define%20Permissions%20for%20Users.md)   
+[Security and Protection](Security-and-Protection.md)   
+[Customize the User Interface](Customize%20the%20User%20Interface.md)   
+[Removing Elements from the User Interface According to Permissions](Removing-Elements-from-the-User-Interface-According-to-Permissions.md)
