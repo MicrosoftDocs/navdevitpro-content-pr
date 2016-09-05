@@ -25,7 +25,7 @@ Operators can be used in expressions to combine, investigate, and adjust values 
 |::|Scope|  
 |+|Addition|  
 |-|Subtraction or negation|  
-|\*|Multiplication|  
+|*|Multiplication|  
 |\/|Division|  
 |DIV|Integer division|  
 |MOD|Modulus|  
@@ -79,7 +79,7 @@ string + string
   
 2.  NOT, - \(unary\), + \(unary\)  
   
-3.  \*,\/,DIV, MOD, AND, XOR  
+3.  *,\/,DIV, MOD, AND, XOR  
   
 4.  +, -, OR  
   
