@@ -1,5 +1,5 @@
 ---
-title: "C-AL Comments"
+title: "C/AL Comments"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 14dbf038-ca14-49a3-9252-9f1deb74d0e6
 caps.latest.revision: 8
 manager: edupont
 ---
-# C-AL Comments
+# C/AL Comments
 You can insert comments about your C/AL code or comment out parts of your code to prevent execution. The following are the two ways to insert comments in C/AL:  
   
 -   Use "\/\/" to insert a single line comment.  

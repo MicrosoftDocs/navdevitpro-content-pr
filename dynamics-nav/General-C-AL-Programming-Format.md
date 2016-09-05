@@ -1,5 +1,5 @@
 ---
-title: "General C-AL Programming Format"
+title: "General C/AL Programming Format"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: cf121aea-8230-4496-b57c-fd3f85230cc9
 caps.latest.revision: 10
 manager: edupont
 ---
-# General C-AL Programming Format
+# General C/AL Programming Format
 To make it easy to maintain an application, you should follow a few strict guidelines when you write C/AL code. This section describes the general rules for:  
   
 -   Spacing and indentation  

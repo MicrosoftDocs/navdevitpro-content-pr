@@ -1,5 +1,5 @@
 ---
-title: "C-AL Reserved Words"
+title: "C/AL Reserved Words"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
@@ -10,7 +10,7 @@ ms-prod: "dynamics-nav-2017"
 ms.assetid: b7533238-04ef-4408-93fc-dd5c5c154346
 caps.latest.revision: 23
 ---
-# C-AL Reserved Words
+# C/AL Reserved Words
 C/AL has several reserved words that you cannot use as variable, constant, or function names in your application. Reserved words include the following types:  
   
 -   Data types  

@@ -1,5 +1,5 @@
 ---
-title: "C-AL Data Types"
+title: "C/AL Data Types"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 976c36b9-f2bf-4cd5-8ad7-ff3b5eb0cf26
 caps.latest.revision: 44
 manager: edupont
 ---
-# C-AL Data Types
+# C/AL Data Types
 C/AL uses variables to store data of various types. By declaring variables of the correct type, you do the following:  
   
 -   Create faster code.  
