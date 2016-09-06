@@ -1,7 +1,9 @@
 ---
 title: "C/AL Repetitive Statements"
+description: "Describing the C/AL repetitive statements."
+author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 09/06/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -34,25 +36,25 @@ FOR <Control Variable> := <Start Number> DOWNTO <End Number> DO
   <Statement>  
 ```  
   
- The data type of *\<Control Variable>*, *\<Start Number>*, and *\<End Number>* must be Boolean, number, time, or date.  
+ The data type of <*Control Variable*>, <*Start Number*>, and <*End Number*> must be Boolean, number, time, or date.  
   
- Use FOR-TO and FOR-DOWNTO statements when you want to execute code a specific number of times. The *\<Control Variable>* controls the number of times that the code of the inner statement is executed according to the following:  
+ Use FOR-TO and FOR-DOWNTO statements when you want to execute code a specific number of times. The <*Control Variable*> controls the number of times that the code of the inner statement is executed according to the following:  
   
--   In a FOR-TO loop statement, the *\<Control Variable>* value is increased by one after each iteration. The inner *\<Statement>* is executed repeatedly until the *\<Start Number>* value is greater than the *\<End Number>* value.  
+-   In a FOR-TO loop statement, the <*Control Variable*> value is increased by one after each iteration. The inner <*Statement*> is executed repeatedly until the <*Start Number*> value is greater than the <*End Number*> value.  
   
--   In a FOR-DOWNTO loop statement, the *\<Control Variable>* value is decreased by one after each iteration. The inner *\<Statement>* is executed repeatedly until the *\<Start Number>* value is less than the *\<End Number>* value.  
-  
-> [!NOTE]  
->  When the FOR statement is executed, *\<Start Number>* and *\<End Number>* are converted to the same data type as *\<Control Variable>* if it is required. This type conversion can cause a run-time error.  
+-   In a FOR-DOWNTO loop statement, the <*Control Variable*> value is decreased by one after each iteration. The inner <*Statement*> is executed repeatedly until the <*Start Number*> value is less than the <*End Number*> value.  
   
 > [!NOTE]  
->  If the value of the *\<Control Variable>* is changed inside the FOR loop, then the behavior is not predictable. Furthermore, the value of the *\<Control Variable>* is undefined outside the scope of the FOR loop.  
+>  When the FOR statement is executed, <*Start Number*> and <*End Number*> are converted to the same data type as <*Control Variable*> if it is required. This type conversion can cause a run-time error.  
+  
+> [!NOTE]  
+>  If the value of the <*Control Variable*> is changed inside the FOR loop, then the behavior is not predictable. Furthermore, the value of the <*Control Variable*> is undefined outside the scope of the FOR loop.  
   
 ### Example 1  
  Create the following variable.  
   
 |Variable|Data type|  
-|--------------|---------------|  
+|--------|---------|  
 |Count|Integer|  
   
  The following code initiates a FOR loop that uses the integer control variable named Count.  
@@ -69,7 +71,7 @@ FOR Count := 1000 TO 100000000000000 DO
  Create the following variables.  
   
 |Variable|Data type|  
-|--------------|---------------|  
+|--------|---------|  
 |I|Integer|  
 |J|Integer|  
   
@@ -93,12 +95,12 @@ FOREACH <Element> IN <List> DO
   <Statement>  
 ```  
   
- The *\<List>* variable must be a **DotNet** data type that is set to .NET Framework collection or array type.  
+ The ```<List>``` variable must be a **DotNet** data type that is set to .NET Framework collection or array type.  
   
 > [!NOTE]  
 >  The FOREACH statement is not limited to collections and arrays. You can use it with any .NET Framework object that implements the [M:System.Collection.IEnumerable.GetEnumerator](assetId:///M:System.Collection.IEnumerable.GetEnumerator) method, the [M:System.Collection.IEnumerator.MoveNext](assetId:///M:System.Collection.IEnumerator.MoveNext) method, and the [P:System.Collection.IEnumerator.Current](assetId:///P:System.Collection.IEnumerator.Current) property.  
   
- The *\<Element>* variable must be a data type that is compatible with elements in the .NET Framework collection or array that is specified by the *\<List>*.  
+ The <*Element*> variable must be a data type that is compatible with elements in the .NET Framework collection or array that is specified by the <*List*>.  
   
 ### Example 1  
  The following code example iterates through a .NET Framework collection that contains a generic list of elements and returns each element as text in a message.  
@@ -110,7 +112,7 @@ FOREACH <Element> IN <List> DO
 |mylist|DotNet|System.Collections.Generic.List\`1.'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'|  
 |element|DotNet|System.Object.'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'|  
   
- Add the following C/AL code \(for example, on the OnRun trigger of the codeunit\).  
+ Add the following C/AL code (for example, on the OnRun trigger of the codeunit).  
   
 ```  
 // Instantiate the .NET Framework collection object  
@@ -172,7 +174,7 @@ FOREACH txt IN mylist DO
 |mydictionary|DotNet|System.Collections.Generic.Dictionary\`2.'mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'|  
 |element|DotNet|System.Object.'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'|  
   
- Add the following C/AL code \(for example, on the OnRun trigger of the codeunit\).  
+ Add the following C/AL code (for example, on the OnRun trigger of the codeunit).  
   
 ```  
 // Instantiate the .NET Framework collection object  
@@ -205,7 +207,7 @@ FOREACH element IN mydictionary DO
 |strarray|DotNet|System.Array.'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'|  
 |txt|Text||  
   
- Add the following C/AL code \(for example, on the OnRun trigger of the codeunit\).  
+ Add the following C/AL code (for example, on the OnRun trigger of the codeunit).  
   
 ```  
 strarray := Dir.GetFileSystemEntries('C:\\myfiles\');  
@@ -226,7 +228,7 @@ WHILE <Condition> DO
   <Statement>  
 ```  
   
- If *\<Condition>* is TRUE, then *\<Statement>* is executed repeatedly until *\<Condition>* becomes FALSE. If *\<Condition>* is FALSE from the start, then *\<Statement>* is never executed.  
+ If <*Condition*> is TRUE, then <*Statement*> is executed repeatedly until <*Condition*> becomes FALSE. If <*Condition*> is FALSE from the start, then <*Statement*> is never executed.  
   
  The WHILE DO statement can be used when some code should be repeated as long as an expression is TRUE.  
   
@@ -267,7 +269,7 @@ END;
  Create the following variable.  
   
 |Variable|Data type|  
-|--------------|---------------|  
+|--------|---------|  
 |I|Integer|  
   
  The following C/AL code increases the variable I until it equals 1000 and displays a message when it is finished.  
@@ -286,9 +288,9 @@ REPEAT
   <Statements> UNTIL <Condition>  
 ```  
   
- *\<Statements>* is executed repeatedly until *\<Condition>* is TRUE.  
+ <*Statements*> is executed repeatedly until <*Condition*> is TRUE.  
   
- The REPEAT UNTIL control structure resembles the WHILE control structure. The difference is that because the REPEAT UNTIL statement is executed from left to right, the *\<Statements>* is always executed at least one time, regardless of what the *\<Condition>* is evaluated to. This contrasts with the WHILE control structure, which performs the evaluation before the *\<Statement>* is executed. In the WHILE control structure, if the first evaluation of *\<Condition>* returns FALSE, then no statements are executed.  
+ The REPEAT UNTIL control structure resembles the WHILE control structure. The difference is that because the REPEAT UNTIL statement is executed from left to right, the <*Statements*> is always executed at least one time, regardless of what the <*Condition*> is evaluated to. This contrasts with the WHILE control structure, which performs the evaluation before the <*Statement*> is executed. In the WHILE control structure, if the first evaluation of <*Condition*> returns FALSE, then no statements are executed.  
   
 ### Programming Conventions  
  Always put REPEAT on a separate line.  
@@ -309,7 +311,7 @@ END;
  Create the following variables.  
   
 |Variable|Data type|Subtype|  
-|--------------|---------------|-------------|  
+|--------|---------|-------|  
 |Count|Integer||  
 |Customer|Record|Customer|  
   
@@ -333,7 +335,7 @@ EXIT([<Value>])
   
  An EXIT statement is used to interrupt the execution of a C/AL trigger. The interruption occurs even when the code is executed inside a loop or a similar structure. The EXIT statement is also used when a local function should return a value.  
   
- Using EXIT without a parameter in a local function corresponds to using the parameter value 0. The C/AL function will return the value 0 or '' \(empty string\).  
+ Using EXIT without a parameter in a local function corresponds to using the parameter value 0. The C/AL function will return the value 0 or '' (empty string).  
   
  A compile-time error occurs if EXIT is called by using a return parameter from either of the following:  
   
