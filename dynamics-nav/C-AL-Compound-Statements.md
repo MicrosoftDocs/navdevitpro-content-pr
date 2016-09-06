@@ -1,7 +1,9 @@
 ---
 title: "C/AL Compound Statements"
+description: "Describing the C/AL compound statements."
+author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 06/04/2016
+ms.date: 09/06/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
