@@ -1,7 +1,9 @@
 ---
 title: "C/AL Assignment Statements"
+description: "Describing the C/AL compound statements."
+author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 09/06/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -37,7 +39,7 @@ Amount := 2 * Price;
 OK := TestFile.OPEN('C:\temp\simple.xml');  
 ```  
   
- The return value of the OPEN function is optional. If you do not handle the return value in your code, then a run-time error occurs when a function returns FALSE. The following example causes a run-time error if the file C:\\temp\\simple.xml cannot be opened.  
+ The return value of the OPEN function is optional. If you do not handle the return value in your code, then a run-time error occurs when a function returns FALSE. The following example causes a run-time error if the file C:\temp\simple.xml cannot be opened.  
   
 ```  
 TestFile.OPEN('C:\temp\simple.xml');  

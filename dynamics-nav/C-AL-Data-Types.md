@@ -14,13 +14,13 @@ manager: edupont
 # C/AL Data Types
 C/AL uses variables to store data of various types. By declaring variables of the correct type, you do the following:  
   
--   Create faster code.  
+-   Create faster code  
   
--   Save space.  
+-   Save space
   
--   Avoid run-time errors because of overflow.  
+-   Avoid run-time errors because of overflow  
   
--   Avoid run-time errors that are caused by impossible type conversions.  
+-   Avoid run-time errors that are caused by impossible type conversions  
   
  For example, if you know that a variable will always contain a number between 0 and 700, then you should use an integer variable instead of a decimal variable. Any calculations that are performed will be faster because four bytes per integer operation are used instead of twelve bytes per decimal operation. However, you must use a data type that can hold every possible value that is needed in your calculations. For example, if you try to store the value 1233.3456 in an integer variable, then the result will be an error.  
   
@@ -72,7 +72,7 @@ C/AL uses variables to store data of various types. By declaring variables of th
  Fundamental data types are designed to store Boolean values, numbers, text, time, and dates.  
   
 #### Action Data Type  
- The Action data type specifies what action a user performs on a page. The [PAGE.RUNMODAL Function](PAGE.RUNMODAL-Function.md) and the [RUNMODAL Function \(Page\)](RUNMODAL-Function--Page-.md) return an Action data type value. The possible values are the following:  
+ The Action data type specifies what action a user performs on a page. The [PAGE.RUNMODAL Function](PAGE.RUNMODAL-Function.md) and the [RUNMODAL Function (Page)](RUNMODAL-Function--Page-.md) return an Action data type value. The possible values are the following:  
   
 -   OK  
   
@@ -91,7 +91,7 @@ C/AL uses variables to store data of various types. By declaring variables of th
 -   RunSystem  
   
 #### BigInteger Data Type  
- The BigInteger data type stores very large whole numbers in range of   9,223,372,036,854,775,807 to 9,223,372,036,854,775,807.  
+ The BigInteger data type stores very large whole numbers in range of 9,223,372,036,854,775,807 to 9,223,372,036,854,775,807.  
   
 #### Byte Data Type  
  The Byte data type stores a single, 8-bit character as a value in the range 0 to 255. This data type can be converted between a number and a character. This means that you can use the same mathematical operators as you can with a variable of a numeric data type.  
@@ -118,13 +118,13 @@ C := 65;
  The Char data type stores a single character. This data type can be converted between a number and a character. This means that you can use the same mathematical operators as you can with a variable of a numeric data type.  
   
 #### Decimal Data Type  
- In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], the Decimal data type represents decimal numbers ranging from -10+E63 to +10+E63. The exponent ranges from -63 to +63. Decimal numbers are held in memory with 18 significant digits. Although you can store decimal numbers ranging from -10+E63 to +10+E63, you cannot specify a number outside the range +\/- 999,999,999,999,999.99 in the UI or in code.  
+ In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], the Decimal data type represents decimal numbers ranging from -10+E63 to +10+E63. The exponent ranges from -63 to +63. Decimal numbers are held in memory with 18 significant digits. Although you can store decimal numbers ranging from -10+E63 to +10+E63, you cannot specify a number outside the range +/- 999,999,999,999,999.99 in the UI or in code.  
   
  In SQL Server, you can store a decimal number with up to 18 digits and 20 decimal place digits. However, if a number is more than 15 digits, then you cannot enter it in SQL Server or view it in the UI.  
   
  In the client, you can store a decimal number with up to 29 digits and precision of 18 digits.  
   
- In general, we recommend that you construct decimals that operate on numbers in the range of +\/- 999,999,999,999,999.99. Although you can construct larger numbers in some cases, overflow, truncation, or loss of precision can occur.  
+ In general, we recommend that you construct decimals that operate on numbers in the range of +/- 999,999,999,999,999.99. Although you can construct larger numbers in some cases, overflow, truncation, or loss of precision can occur.  
   
 #### Duration Data Type  
  The Duration data type represents the difference between two DateTimes, in milliseconds. For example, you can calculate the difference between two DateTimes by running the following code. This example requires that you define the following variables.  
@@ -149,7 +149,7 @@ MESSAGE(FORMAT(Duration));
  **124 days 4 hours 30 minutes 1 second**  
   
 #### ExecutionMode Data Type  
- The ExecutionMode data type specifies the mode in which a session is running. The [CURRENTEXECUTIONMODE Function \(Sessions\)](CURRENTEXECUTIONMODE-Function--Sessions-.md) returns an ExecutionMode data type value.  
+ The ExecutionMode data type specifies the mode in which a session is running. The [CURRENTEXECUTIONMODE Function (Sessions)](CURRENTEXECUTIONMODE-Function--Sessions-.md) returns an ExecutionMode data type value.  
   
  The execution mode is one of the following:  
   
@@ -179,24 +179,24 @@ Number := "Purchase Header".Type;
  The following table shows some typical examples of Code string assignments. In the following examples, it is assumed that the variable c is of data type Code, and has a maximum length of 4.  
   
 |Assignment|Variable c contains|Length|  
-|----------------|-------------------------|------------|  
+|----------|-------------------|------|  
 |c := 'AbC';|'ABC'|3|  
 |c := '1';|'1'|1|  
-|c := '';|'' \(empty string\)|0 \(zero\)|  
+|c := '';|'' (empty string)|0 (zero)|  
 |c := '2';|'2'|1|  
 |c := '1 2';|'1 2'|3|  
   
 #### Text Data Type  
- The Text data type represents a text string. You can index any character position in a string, for example A\[65\] refers to the 65th character in the variable called A. The resulting values will be of data type Char. The length of a variable of data type Text corresponds to the number of characters in the text. For example, an empty text string has length 0. If you do not specify the length of a Text variable, then the maximum length is 2GB, which is the limit imposed by Microsoft .NET Framework. The maximum length of a table field of data type Text is 250 characters.  
+ The Text data type represents a text string. You can index any character position in a string, for example A[65] refers to the 65th character in the variable called A. The resulting values will be of data type Char. The length of a variable of data type Text corresponds to the number of characters in the text. For example, an empty text string has length 0. If you do not specify the length of a Text variable, then the maximum length is 2GB, which is the limit imposed by Microsoft .NET Framework. The maximum length of a table field of data type Text is 250 characters.  
   
  The following table shows some typical examples of text strings. In these examples, it is assumed that the variable t is of data type Text and has a maximum length of 6.  
   
 |Assignment|Result|  
 |----------------|------------|  
 |t := 'AbC'|The variable t now contains "AbC"|  
-|t := '123456abx';|Gives a run-time error because the length \(9\) exceeds the maximum length \(6\)|  
+|t := '123456abx';|Gives a run-time error because the length (9) exceeds the maximum length (6)|  
   
- When you use the Text and Code data types, make sure that you distinguish between the maximum length of the string and the actual length of the string. The maximum length is the upper limit for the number of characters in the string. The actual length describes the number of characters that are used in the string. The [STRLEN Function \(Code, Text\)](STRLEN-Function--Code--Text-.md) and the [MAXSTRLEN Function \(Code, Text\)](MAXSTRLEN-Function--Code--Text-.md) illustrate this.  
+ When you use the Text and Code data types, make sure that you distinguish between the maximum length of the string and the actual length of the string. The maximum length is the upper limit for the number of characters in the string. The actual length describes the number of characters that are used in the string. The [STRLEN Function (Code, Text)](STRLEN-Function--Code--Text-.md) and the [MAXSTRLEN Function (Code, Text)](MAXSTRLEN-Function--Code--Text-.md) illustrate this.  
   
 ```  
 t := 'AbC';  
@@ -216,7 +216,7 @@ MAXSTRLEN(t); // Returns 6.
  All dates have a corresponding closing date. The closing date for a given date is regarded as a period following the given date but before the next regular date. A closing date is therefore sorted immediately after the corresponding regular date but before the next regular date.  
   
 #### DateTime Data Type  
- The DateTime data type represents a date and the time of day. The DateTime is stored in the database as Coordinated Universal Time \(UTC\). UTC is the international time standard \(formerly Greenwich Mean Time, or GMT\). Zero hours UTC is midnight at 0 degrees longitude. The DateTime is always displayed as local time in [!INCLUDE[navnow](includes/navnow_md.md)]. Local time is determined by the time zone regional settings that are used by your computer. You must always enter DateTimes as local time. When you enter a DateTime as local time, it is converted to UTC using the current settings for the time zone and daylight saving time.  
+ The DateTime data type represents a date and the time of day. The DateTime is stored in the database as Coordinated Universal Time (UTC). UTC is the international time standard (formerly Greenwich Mean Time, or GMT). Zero hours UTC is midnight at 0 degrees longitude. The DateTime is always displayed as local time in [!INCLUDE[navnow](includes/navnow_md.md)]. Local time is determined by the time zone regional settings that are used by your computer. You must always enter DateTimes as local time. When you enter a DateTime as local time, it is converted to UTC using the current settings for the time zone and daylight saving time.  
   
  There is only one constant available when you use this data type: undefined datetime, which is expressed as 0DT.  
   
@@ -240,7 +240,7 @@ MAXSTRLEN(t); // Returns 6.
 |String|-   Text<br />-   Code|  
   
 ### Complex Data Types  
- Complex data types are used when you want to work with, for example, records in tables, pictures \(bitmaps\), or disk files. C/AL is object-based so each complex data type can include both member variables and member functions.  
+ Complex data types are used when you want to work with, for example, records in tables, pictures (bitmaps), or disk files. C/AL is object-based so each complex data type can include both member variables and member functions.  
   
  C/AL is not object-oriented but object-based. This is an important difference. In an object-oriented language or environment, you can create new types of objects that are based on the ones already in the system. In C/AL, you have the following application objects:  
   
@@ -266,28 +266,28 @@ MAXSTRLEN(t); // Returns 6.
 #### BigText Data Type  
  The BigText data type contains large text documents. Data of the BigText data type cannot be displayed in the debugger or in a message window. However, you can use the BigText functions to extract part of a big text and place it in a typical text string that can be displayed. The BigText functions are as follows:  
   
--   [ADDTEXT Function \(BigText\)](ADDTEXT-Function--BigText-.md)  
+-   [ADDTEXT Function (BigText)](ADDTEXT-Function--BigText-.md)  
   
--   [GETSUBTEXT Function \(BigText\)](GETSUBTEXT-Function--BigText-.md)  
+-   [GETSUBTEXT Function (BigText)](GETSUBTEXT-Function--BigText-.md)  
   
--   [LENGTH Function \(BigText\)](LENGTH-Function--BigText-.md)  
+-   [LENGTH Function (BigText)](LENGTH-Function--BigText-.md)  
   
--   [READ Function \(BigText\)](READ-Function--BigText-.md)  
+-   [READ Function (BigText)](READ-Function--BigText-.md)  
   
--   [TEXTPOS Function \(BigText\)](TEXTPOS-Function--BigText-.md)  
+-   [TEXTPOS Function (BigText)](TEXTPOS-Function--BigText-.md)  
   
--   [WRITE Function \(BigText\)](WRITE-Function--BigText-.md)  
+-   [WRITE Function (BigText)](WRITE-Function--BigText-.md)  
   
- The maximum length of a BigText variable is 2147483647 characters. This is the equivalent of 2 gigabytes \(GB\).  
+ The maximum length of a BigText variable is 2147483647 characters. This is the equivalent of 2 gigabytes (GB).  
   
 #### BLOB Data Type  
- A BLOB is a Binary Large Object. Variables of this data type differ from typical numeric and string data type variables because they have a variable length. BLOBs are used to store memos \(text\), bitmaps \(pictures\), or user-defined types. The maximum size of a BLOB is often determined by your system’s disk storage capacity. The upper limit is 2GB.  
+ A BLOB is a Binary Large Object. Variables of this data type differ from typical numeric and string data type variables because they have a variable length. BLOBs are used to store memos (text), bitmaps (pictures), or user-defined types. The maximum size of a BLOB is often determined by your system’s disk storage capacity. The upper limit is 2GB.  
   
 #### Codeunit Data Type  
  The Codeunit data type stores codeunits. A codeunit can contain several user-defined functions.  
   
 #### DateFormula Data Type  
- The DateFormula data type contains a date formula that has the same capabilities as an ordinary input string for the [CALCDATE Function \(Date\)](CALCDATE-Function--Date-.md). The DateFormula data type is used to provide multilanguage capabilities to the CALCDATE function.  
+ The DateFormula data type contains a date formula that has the same capabilities as an ordinary input string for the [CALCDATE Function (Date)](CALCDATE-Function--Date-.md). The DateFormula data type is used to provide multilanguage capabilities to the CALCDATE function.  
   
 #### Dialog Data Type  
  The Dialog data type stores dialog windows. A number of functions are available for manipulating dialogs.  
@@ -324,7 +324,7 @@ MAXSTRLEN(t); // Returns 6.
  The Query data type stores queries, which enable you to retrieve data from tables in the database and combine the data in a single dataset.  
   
 #### Record Data Type  
- The Record data type consists of several simpler elements called fields. A record corresponds to a row in a table. Each field in the record is used to store values of a certain data type. The fields are accessed by using the variable name of the record \(often the same as the name of the corresponding table\), a dot \(a period\), and the field name. A record is typically used to hold information about a fixed number of properties.  
+ The Record data type consists of several simpler elements called fields. A record corresponds to a row in a table. Each field in the record is used to store values of a certain data type. The fields are accessed by using the variable name of the record (often the same as the name of the corresponding table), a dot (a period), and the field name. A record is typically used to hold information about a fixed number of properties.  
   
 #### RecordID Data Type  
  The RecordID data type contains the table number and the primary key of a table. You can store a RecordID in the database but you cannot set filters on a RecordID.  
@@ -382,10 +382,10 @@ MAXSTRLEN(t); // Returns 6.
 -   OutStream  
   
 ## Arrays of Variables  
- You can create 10-dimensional variables using the simple and complex data types. There are no limitations on how many elements a dimension can contain but an array variable can never have more than 1,000,000 elements. The physical size of an array is limited to 2 GB \(or available memory\). Arrays are always indexed with a number for each dimension that ranges from 1 to \(and including\) the size of the dimension. If you accidentally index outside the range of the dimensions of an array, then a run-time error occurs.  
+ You can create 10-dimensional variables using the simple and complex data types. There are no limitations on how many elements a dimension can contain but an array variable can never have more than 1,000,000 elements. The physical size of an array is limited to 2 GB (or available memory). Arrays are always indexed with a number for each dimension that ranges from 1 to (and including) the size of the dimension. If you accidentally index outside the range of the dimensions of an array, then a run-time error occurs.  
   
- For example, assume that SampleArrayVariable is a one-dimensional array variable of data type Integer, with the dimension 10. To index the first element, use SampleArrayVariable\[1\]. To index the last element, use SampleArrayVariable\[10\].  
+ For example, assume that SampleArrayVariable is a one-dimensional array variable of data type Integer, with the dimension 10. To index the first element, use SampleArrayVariable[1]. To index the last element, use SampleArrayVariable[10].  
   
- As another example, assume that SampleArrayVariable2 is an array variable of data type Date with the dimensions 2x3x4. SampleArrayVariable2 has 24 elements. To index the first element, use SampleArrayVariable2\[1,1,1\]. To index the last element, use SampleArrayVariable2\[2,3,4\].  
+ As another example, assume that SampleArrayVariable2 is an array variable of data type Date with the dimensions 2x3x4. SampleArrayVariable2 has 24 elements. To index the first element, use SampleArrayVariable2[1,1,1]. To index the last element, use SampleArrayVariable2[2,3,4].  
   
  To declare a variable as an array, open the **Properties** window for the variable and then set the **Dimensions** property. For more information, see [Dimensions Property](Dimensions-Property.md).

@@ -17,21 +17,21 @@ This topic describes the relationship between basic database functions in C/AL a
 ## C/AL and SQL Statements  
   
 ### GET, FIND, and NEXT  
- The C/AL language offers several methods to retrieve record data. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], records are retrieved using multiple active result sets \(MARS\). Generally, retrieving records with MARS is faster than with server-side cursors. Additionally, each function is optimized for a specific purpose. To achieve optimal performance you must use the method that is best suited for a given purpose.  
+ The C/AL language offers several methods to retrieve record data. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], records are retrieved using multiple active result sets (MARS). Generally, retrieving records with MARS is faster than with server-side cursors. Additionally, each function is optimized for a specific purpose. To achieve optimal performance you must use the method that is best suited for a given purpose.  
   
 -   **Record.GET** is optimized for getting a single record based on primary key values.  
   
 -   **Record.FIND** is optimized for getting a single record based on the primary keys in the record and any filter or range that has been set.  
   
--   **Record.FIND\('-'\)** and **Record.FIND\('+'\)** are optimized for reading primarily from a single table when the application might not read all records. FIND\('-'\) is implemented by issuing a self-tuning TOP X call, where X can change over time, based on statistics of the number of rows read.  
+-   **Record.FIND('-')** and **Record.FIND('+')** are optimized for reading primarily from a single table when the application might not read all records. FIND('-') is implemented by issuing a self-tuning TOP X call, where X can change over time, based on statistics of the number of rows read.  
   
-     The following are examples of scenarios in which you should use the FIND\('-'\) function to achieve optimal performance:  
+     The following are examples of scenarios in which you should use the FIND('-') function to achieve optimal performance:  
   
     -   Before you post a general journal batch, you must check all journal lines for validity and verify that all lines balance. After the first line when an error is found, you do not have to retrieve the rest of the rows.  
   
     -   If you want to fulfill multiple outstanding orders from a recent purchase but you do not know how many orders are covered by the purchase.  
   
--   **Record.FINDSET\(ForUpdate, UpdateKey\)** is optimized for reading the complete set of records in the specified filter and range. The *UpdateKey* parameter does not influence the efficiency of this method in [!INCLUDE[navnowlong](includes/navnowlong_md.md)], such as it did in [!INCLUDE[nav2009](includes/nav2009_md.md)].  
+-   **Record.FINDSET(ForUpdate, UpdateKey)** is optimized for reading the complete set of records in the specified filter and range. The *UpdateKey* parameter does not influence the efficiency of this method in [!INCLUDE[navnowlong](includes/navnowlong_md.md)], such as it did in [!INCLUDE[nav2009](includes/nav2009_md.md)].  
   
      FINDSET is not implemented by issuing a TOP X call.  
   

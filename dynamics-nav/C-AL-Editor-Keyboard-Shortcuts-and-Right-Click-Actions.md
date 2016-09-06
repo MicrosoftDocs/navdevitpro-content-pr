@@ -23,13 +23,13 @@ This topic describes the keyboard shortcuts and right-click actions in the C/AL 
 |Ctrl+L|Open **\($ S\_10205 C/AL Locals $\)** window to view and declare local variables and text constants for the current function or trigger.|  
 |Ctrl+Z|Undo the last action.|  
 |Ctrl+Y|Redo the last action.|  
-|Ctrl+J|List all members \(as IntelliSense\) for the local scope.|  
-|Ctrl+Space|List the members \(as IntelliSense\) for global scope.|  
+|Ctrl+J|List all members (as IntelliSense) for the local scope.|  
+|Ctrl+Space|List the members (as IntelliSense) for global scope.|  
 |Ctrl+W|Select the word.|  
 |Ctrl+U|Make the selected code lowercase.|  
 |Ctrl+Shift+U|Make the selected code uppercase.|  
 |Ctrl+Shift+N|Expand all collapsed code.|  
-|Ctrl+K+I|Display information about C/AL symbol \(such as variable, functions, and parameter\) in which the cursor is positioned. This displays the same text as when you point to the element.|  
+|Ctrl+K+I|Display information about C/AL symbol (such as variable, functions, and parameter) in which the cursor is positioned. This displays the same text as when you point to the element.|  
 |Ctrl+F12|Go to a definition of function or object. For more information, see [Viewing the Definition of a Function or Object by Using Go To Definition](Viewing-the-Definition-of-a-Function-or-Object-by-Using-Go-To-Definition.md).|  
   
 ## Right-Click Actions  
