@@ -22,7 +22,7 @@ You use function statements to execute either built-in system functions or user-
  The following example calls the [INIT Function \(Record\)](INIT-Function--Record-.md) on a record variable. This example requires that you create the following variable.  
   
 |Name|DataType|Subtype|  
-|----------|--------------|-------------|  
+|----|--------|-------|  
 |CustomerRecord|Record|Customer|  
   
 ```  
@@ -30,7 +30,7 @@ CustomerRecord.INIT;
 ```  
   
 ## Example  
- The following example calls the [CALCDATE Function \(Date\)](CALCDATE-Function--Date-.md) and assigns the return value to a variable. The CALCDATE function has two parameters. This example uses the DateExpression and ReferenceDate variables in the function call. The values of the variables are passed to the CALCDATE function.  
+ The following example calls the [CALCDATE Function (Date)](CALCDATE-Function--Date-.md) and assigns the return value to a variable. The CALCDATE function has two parameters. This example uses the DateExpression and ReferenceDate variables in the function call. The values of the variables are passed to the CALCDATE function.  
   
  This example requires that you create the following variables.  
   

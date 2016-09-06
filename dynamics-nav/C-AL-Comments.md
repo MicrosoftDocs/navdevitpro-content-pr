@@ -1,7 +1,9 @@
 ---
 title: "C/AL Comments"
+description: "Describing the C/AL comments."
+author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 09/06/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,9 +16,9 @@ manager: edupont
 # C/AL Comments
 You can insert comments about your C/AL code or comment out parts of your code to prevent execution. The following are the two ways to insert comments in C/AL:  
   
--   Use "\/\/" to insert a single line comment.  
+-   Use "//" to insert a single line comment.  
   
-     When the "\/\/" symbol is encountered in your code, the rest of the line is interpreted as a comment.  
+     When the "//" symbol is encountered in your code, the rest of the line is interpreted as a comment.  
   
      You can add and remove comment marks manually or use the **Comment Selection** and **Uncomment Selection** options in the **Edit** menu. The **Comment Selection** and **Uncomment Selection** options enable you to comment or uncomment multiple lines of code all at once.  
   

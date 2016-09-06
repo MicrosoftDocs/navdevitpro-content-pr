@@ -1,5 +1,7 @@
 ---
 title: "C/AL Variables"
+description: "Description of C/AL user-defined and system-defined variables."
+author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -36,7 +38,7 @@ C/AL has the following types of variables:
 
 -   Uppercase and lowercase letters are not distinct. For example, Smith and SMITH refer to the same variable.  
 
--   In C/AL, you can use special characters such as spaces in the name of a variable \(an identifier\).  
+-   In C/AL, you can use special characters such as spaces in the name of a variable (an identifier).  
 
 -   The maximum length of a variable name is 128 characters.  
 
@@ -44,31 +46,31 @@ C/AL has the following types of variables:
 
  All characters in your current ANSI character set are valid in variable names except for the following characters:  
 
--   Control characters \(ANSI 0-31, 255\)  
+-   Control characters (ANSI 0-31, 255)  
 
--   The quotation mark character \("\) \(ANSI 34\)  
+-   The quotation mark character (") (ANSI 34)  
 
 > [!NOTE]  
 >  We do not recommend that you use characters that are outside the ASCII characters set, 0-127, because they may display differently on different computers.  
 
 > [!NOTE]  
->  [!INCLUDE[navnow](includes/navnow_md.md)] runs on the .NET Framework. Therefore, we recommend that you use variables names that are Common Language Specification \(CLS\)-compliant. For more information, see [Common Language Specification](http://go.microsoft.com/fwlink/?LinkId=193144) in the MSDN Library.  
+>  [!INCLUDE[navnow](includes/navnow_md.md)] runs on the .NET Framework. Therefore, we recommend that you use variables names that are Common Language Specification (CLS)-compliant. For more information, see [Common Language Specification](http://go.microsoft.com/fwlink/?LinkId=193144) in the MSDN Library.  
 
  When you name a variable, you cannot use special characters unless you enclose the variable name in quotation marks, as in "Customer No.". If you do not use double quotation marks, then the following rules apply:  
 
 -   The first character must be one of the following:  
 
-    -   A letter in the range a…z, A…Z \(ASCII 97-122, 65-90\)  
+    -   A letter in the range a…z, A…Z (ASCII 97-122, 65-90)  
 
-    -   An underscore \(ASCII 95\)  
+    -   An underscore (ASCII 95)  
 
 -   The first character is followed by a maximum of 29 characters, which can be any of the following:  
 
-    -   A letter in the range a…z, A…Z \(ASCII 97-122, 65-90\)  
+    -   A letter in the range a…z, A…Z (ASCII 97-122, 65-90)  
 
-    -   An underscore \(ASCII 95\)  
+    -   An underscore (ASCII 95)  
 
-    -   A digits in the range 0…9 \(ASCII 48-57\)  
+    -   A digits in the range 0…9 (ASCII 48-57)  
 
  You can include one or more special characters in a variable name in C/AL. If you include special characters, then the variable name must be enclosed in quotation marks. In this case, the name can contain any mix of letters, digits, and special characters.  
 
@@ -107,16 +109,16 @@ C/AL has the following types of variables:
 -   END  
 
 ## Initialization  
- Variables are automatically initialized before C/AL code is executed. A Boolean variable is set to **false**. Numeric variables are set to the default value zero. Strings \(text and code\) are initialized to the value '' \(an empty string\). Date and time variables are set to the undefined time 0T and the undefined date 0D, respectively. Variables of complex data types are also initialized. If a complex data type has multiple components, then each component is initialized to the value that corresponds to the data type for the component.  
+ Variables are automatically initialized before C/AL code is executed. A Boolean variable is set to **false**. Numeric variables are set to the default value zero. Strings (text and code) are initialized to the value '' (an empty string). Date and time variables are set to the undefined time 0T and the undefined date 0D, respectively. Variables of complex data types are also initialized. If a complex data type has multiple components, then each component is initialized to the value that corresponds to the data type for the component.  
 
  System-defined variables are automatically handled and initialized. No actions are required by the user before system-defined variables can be used.  
 
 ## Assignment and Type Conversion  
  You can assign values in the following ways:  
 
--   By using the assignment operator ":=", such as Variable := Expression. The data type that results from the evaluation of the right side expression must be the same data type as the variable \(left operand\) or have a data type that can be converted automatically to the data type of the left operand.  
+-   By using the assignment operator ":=", such as Variable := Expression. The data type that results from the evaluation of the right side expression must be the same data type as the variable (left operand) or have a data type that can be converted automatically to the data type of the left operand.  
 
--   As parameter assignment, such as FUNCTION\(Expression\). The data type that results from the evaluation of the expression must correspond to a specific data type or have a data type that can be converted automatically to the correct data type. For more information about evaluation and type conversion in expressions, see [Type Conversion in Expressions](Type-Conversion-in-Expressions.md).  
+-   As parameter assignment, such as FUNCTION(Expression\). The data type that results from the evaluation of the expression must correspond to a specific data type or have a data type that can be converted automatically to the correct data type. For more information about evaluation and type conversion in expressions, see [Type Conversion in Expressions](Type-Conversion-in-Expressions.md).  
 
  Automatic type conversion in assignments occurs when the following events occur:  
 
@@ -125,7 +127,7 @@ C/AL has the following types of variables:
     > [!NOTE]  
     >  If the value cannot be converted, then a run-time error occurs. If the value can be converted but overflow occurs, then a run-time error occurs.  
 
--   The evaluation of the expression on the right side of an assignment operator \(:=\) achieves a data type that differs from the data type of the variable on the left side, and the expression can be converted to the data type of the variable.  
+-   The evaluation of the expression on the right side of an assignment operator (:=) achieves a data type that differs from the data type of the variable on the left side, and the expression can be converted to the data type of the variable.  
 
  Automatic type conversion in assignments can occur between the following numeric data types as long as an overflow does not occur:  
 
@@ -145,7 +147,7 @@ C/AL has the following types of variables:
 
  Text can be automatically converted to BigText, but a BigText variable must be split into smaller parts before it can be converted to text.  
 
- The same assignment rules apply for arrays in C/AL. Furthermore, if the left operand in an assignment \(the variable\) is an array, the dimension or dimensions of the right side expression must correspond to the dimension or dimensions of the variable.  
+ The same assignment rules apply for arrays in C/AL. Furthermore, if the left operand in an assignment (the variable) is an array, the dimension or dimensions of the right side expression must correspond to the dimension or dimensions of the variable.  
 
 > [!NOTE]  
 >  The type conversion that occurs in assignments can cause run-time errors even though the data types are convertible. A run-time error can occur in an assignment if the converted value is outside the valid range for the left side variable. Also, a run-time error can occur if the converted value is outside the valid range for a parameter in a function call.  
