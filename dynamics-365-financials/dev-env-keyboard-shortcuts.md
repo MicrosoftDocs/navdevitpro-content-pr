@@ -1,6 +1,6 @@
 <properties
-                pageTitle="Keyboard Shortcuts for the New Development Environment | Dynamics NAV"
-                description="List of keyboard shortcuts for the new development environment"
+                pageTitle="Keyboard Shortcuts for the Development Environment | Dynamics 365 for Financials"
+                description="List of keyboard shortcuts for the development environment"
                 services=""
                 documentationCenter=""
                 authors="SusanneWindfeldPedersen"/>
@@ -14,7 +14,7 @@
     ms.author="SusanneWindfeldPedersen" />
 
 
-# Keyboard Shortcuts for the New Development Environment
+# Keyboard Shortcuts for the Development Environment
 The following table provides an overview of shortcut key combinations in the development environment.
 
 |Keyboard Shortcut| Action|
