@@ -1,6 +1,6 @@
 ---
-title: "Getting Started Developing for Dynamics 365 for Financials"
-description: "Description of the prerequisites and setup."
+title: "Table Object"
+description: "Description of the table object."
 author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 09/07/2016
@@ -12,10 +12,21 @@ ms-prod: "dynamics-nav-2017"
 ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
 caps.latest.revision: 18
 ---
-# Getting Started Developing
+# Table Object
+The table object contains the definition of fields, groups, triggers, and metadata. A table object definition can contain the following elements (mandatory marked):
 
++ 
++ 
++  
+
+
+## Example
+
+```
+
+``` 
   
- 
+## Remarks  
   
 ## See Also  
  [Pages](../dynamics-nav/Pages.md)   
