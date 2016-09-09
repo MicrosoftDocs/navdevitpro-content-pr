@@ -13,7 +13,31 @@ ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
 caps.latest.revision: 18
 ---
 # Page Extension Object
-  
+The page extension object extends the <include here> page object and adds 
+
+
+The following page extension object extends the Customer Card page with ID 21.
+
+```
+pageextension 21 CustomerCardExtension extends "Customer Card"
+{
+    actions
+    {
+        area(navigation)
+        {
+            addlast()
+            {
+                // With this addition you can always get to the car List
+                // when you are bored with the customer.
+                action(50011;"Open Car List")
+                {
+                    RunObject = Page TheCarList;
+                }
+            }
+        }
+    }
+} 
+``` 
   
 ## Applies To  
  Pages  
