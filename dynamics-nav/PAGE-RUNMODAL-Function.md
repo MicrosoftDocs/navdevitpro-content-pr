@@ -58,7 +58,7 @@ Creates, runs, and closes a specified page object. When a page is run modally, n
 |RunSystem|The user selected an option that ran an external program.|Same as [!INCLUDE[nav_windows](includes/nav_windows_md.md)].|  
   
 ## Remarks  
- The page is run modally. If you do not know the specific page that you want to run when you are designing your application, then use this function or the [PAGE.RUN Function](PAGE.RUN-Function.md) and specify the page in the *Action* parameter.  
+ The page is run modally. If you do not know the specific page that you want to run when you are designing your application, then use this function or the [PAGE.RUN Function](PAGE-RUN-Function.md) and specify the page in the *Action* parameter.  
   
  If you do know which page that you want to run, then you can create a Page variable, set the Subtype of the variable to a specific page, and then use the [RUN Function \(Page\)](RUN-Function--Page-.md) or [RUNMODAL Function \(Page\)](RUNMODAL-Function--Page-.md) on the Page variable.  
   

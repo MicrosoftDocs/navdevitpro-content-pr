@@ -72,7 +72,7 @@ C/AL uses variables to store data of various types. By declaring variables of th
  Fundamental data types are designed to store Boolean values, numbers, text, time, and dates.  
   
 #### Action Data Type  
- The Action data type specifies what action a user performs on a page. The [PAGE.RUNMODAL Function](PAGE.RUNMODAL-Function.md) and the [RUNMODAL Function (Page)](RUNMODAL-Function--Page-.md) return an Action data type value. The possible values are the following:  
+ The Action data type specifies what action a user performs on a page. The [PAGE.RUNMODAL Function](PAGE-RUNMODAL-Function.md) and the [RUNMODAL Function (Page)](RUNMODAL-Function--Page-.md) return an Action data type value. The possible values are the following:  
   
 -   OK  
   

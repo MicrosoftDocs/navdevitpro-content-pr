@@ -16,6 +16,6 @@ This section contains the following topics:
   
 -   [COPYSTREAM Function](COPYSTREAM-Function.md)  
   
--   [OutStream.WRITE Function](OutStream.WRITE-Function.md)  
+-   [OutStream.WRITE Function](OutStream-WRITE-Function.md)  
   
--   [OutStream.WRITETEXT Function](OutStream.WRITETEXT-Function.md)
+-   [OutStream.WRITETEXT Function](OutStream-WRITETEXT-Function.md)

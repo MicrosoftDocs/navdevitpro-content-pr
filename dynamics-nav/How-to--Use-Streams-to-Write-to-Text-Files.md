@@ -34,7 +34,7 @@ The [InStream](InStream.md) \(input stream\) and [OutStream](OutStream.md) \(out
   
 7.  Use the [CREATEOUTSTREAM Function \(File\)](CREATEOUTSTREAM-Function--File-.md) to create the output stream. The code will resemble the following code snippet: `MyFile.CREATEOUTSTREAM(MyOutStream);`.  
   
-8.  Use the [OutStream.WRITETEXT Function](OutStream.WRITETEXT-Function.md) to write the data from the output stream to the file. The code will resemble the following code snippet: `MyOutStream.WRITETEXT(‘Hello world’);`.  
+8.  Use the [OutStream.WRITETEXT Function](OutStream-WRITETEXT-Function.md) to write the data from the output stream to the file. The code will resemble the following code snippet: `MyOutStream.WRITETEXT(‘Hello world’);`.  
   
 9. From the **File** menu, choose **Save AS**.  
   
