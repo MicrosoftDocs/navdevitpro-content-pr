@@ -13,7 +13,7 @@ caps.latest.revision: 11
 # Troubleshooting: Server Error in &#39;-&#39; Application. Access Denied
 When you try to access the [!INCLUDE[nav_web](includes/nav_web_md.md)], you get an error that is similar to the following:  
   
- **Server Error in '\/' Application.**  
+ **Server Error in '/' Application.**  
   
  **Access is denied**.  
   

@@ -42,7 +42,7 @@ MESSAGE(Text000, TODAY);
   
  The message window could display the following:  
   
- **The current date is: 05\/27\/08**  
+ **The current date is: 05/27/08**  
   
 ## See Also  
  [Date and Time Functions](Date-and-Time-Functions.md)

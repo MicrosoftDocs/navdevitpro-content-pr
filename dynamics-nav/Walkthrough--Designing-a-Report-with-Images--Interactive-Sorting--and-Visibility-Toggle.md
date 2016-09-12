@@ -106,7 +106,7 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], creating new reports is di
 
 9. On the General tab, in the **Use this field** field, choose **ƒx** to open the expression window for the picture field and then verify that the **Set expression for: value** text box contains the following value: **=Fields\!Picture\_Item.Value**. Choose the **OK** button to close the windows.  
 
-10. In the **Image Properties** window, on the **General** tab, in the **Use this MIME type** field, choose **image\/bmp**.  
+10. In the **Image Properties** window, on the **General** tab, in the **Use this MIME type** field, choose **image/bmp**.  
 
      This value is only available if the image source is set to **Database**.  
 
@@ -187,7 +187,7 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], creating new reports is di
 
 4.  In Object Designer, select the report, and then choose **Run**.  
 
-     Alternatively, you can run the report using the **DynamicsNAV:\/\/\/\/runreport?report=50000** command from the Windows start menu.  
+     Alternatively, you can run the report using the **DynamicsNAV:////runreport?report=50000** command from the Windows start menu.  
 
 5.  Choose **Preview** to view the report. You can use interactive sorting for the **No Item** and **Description Item** columns. You can also collapse each item to hide the picture.  
 

@@ -12,7 +12,7 @@ caps.latest.revision: 5
 manager: edupont
 ---
 # BackupKey Property
-This property is used by the backup\/restore system. Under normal circumstances, you do not need to set this property.  
+This property is used by the backup/restore system. Under normal circumstances, you do not need to set this property.  
   
 ## Applies To  
  Keys  

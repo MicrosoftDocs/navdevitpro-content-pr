@@ -52,7 +52,7 @@ If a business scenario requires a workflow event or a workflow response that is 
 
     5.  Adding a new workflow response option  
 
-3.  Registering workflow event\/response combinations needed for the new workflow response  
+3.  Registering workflow event/response combinations needed for the new workflow response  
 
 4.  Registering workflow event hierarchies needed for the new workflow event  
 
@@ -317,14 +317,14 @@ If a business scenario requires a workflow event or a workflow response that is 
 
  You have now created the actual workflow event and response. Proceed to perform various tasks that enable them to be used in workflows.  
 
-## Registering Workflow Event\/Response Combinations Needed for the New Workflow Response  
- Add new workflow event\/response combinations to the **\($ T\_1509 WF Event\/Response Combination $\)** table so that they appear correctly in the **\($ N\_1520 Workflow Events $\)** and **\($ N\_1521 Workflow Responses $\)** windows.  
+## Registering Workflow Event/Response Combinations Needed for the New Workflow Response  
+ Add new workflow event/response combinations to the **\($ T\_1509 WF Event/Response Combination $\)** table so that they appear correctly in the **\($ N\_1520 Workflow Events $\)** and **\($ N\_1521 Workflow Responses $\)** windows.  
 
-### To register workflow event\/response combinations needed for the new workflow response  
+### To register workflow event/response combinations needed for the new workflow response  
 
 1.  Open the codeunit that you created in the “To create a workflow response” procedure, My Workflow Responses.  
 
-2.  Create another function in the codeunit. Name it to reflect that it is used to add the workflow event\/response combinations to the **\($ T\_1509 WF Event\/Response Combination $\)** table, such as AddMyWorkflowEventResponseCombinationsToLibrary.  
+2.  Create another function in the codeunit. Name it to reflect that it is used to add the workflow event/response combinations to the **\($ T\_1509 WF Event/Response Combination $\)** table, such as AddMyWorkflowEventResponseCombinationsToLibrary.  
 
 3.  In the **Properties** window, fill the fields as described in the following table.  
 
@@ -345,7 +345,7 @@ If a business scenario requires a workflow event or a workflow response that is 
     |MyWorkflowEvents|Codeunit|My Workflow Events|  
     |WorkflowResponseHandling|Codeunit|Workflow Response Handling|  
 
-7.  In the function, write code that registers event\/response combinations that you want to support in your application, using a CASE statement, such as the following code.  
+7.  In the function, write code that registers event/response combinations that you want to support in your application, using a CASE statement, such as the following code.  
 
     ```  
     CASE ResponseFunctionName OF  
@@ -357,13 +357,13 @@ If a business scenario requires a workflow event or a workflow response that is 
  You can also do this work from the user interface. For more information, see [\($ N\_1507 Workflow Event-Response Combinations  $\)](\($%20N_1507%20Workflow%20Event-Response%20Combinations%20%20$\).md).  
 
 ## Registering Workflow Event Hierarchies Needed for the New Workflow Event  
- Add new workflow event\/event combinations to the **\($ T\_1509 WF Event\/Response Combination $\)** table so that they workflow events appear in the correct hierarchy in the **\($ N\_1520 Workflow Events $\)** window.  
+ Add new workflow event/event combinations to the **\($ T\_1509 WF Event/Response Combination $\)** table so that they workflow events appear in the correct hierarchy in the **\($ N\_1520 Workflow Events $\)** window.  
 
 ### To register workflow event hierarchies needed for the new workflow event  
 
 1.  Open the codeunit that you created in the “To create a workflow event” procedure, My Workflow Events.  
 
-2.  Create another function in the codeunit. Name it to reflect that it is used to add the workflow event hierarchies to the **\($ T\_1509 WF Event\/Response Combination $\)** table, such as AddWorkflowEventHierarchiesToLibrary.  
+2.  Create another function in the codeunit. Name it to reflect that it is used to add the workflow event hierarchies to the **\($ T\_1509 WF Event/Response Combination $\)** table, such as AddWorkflowEventHierarchiesToLibrary.  
 
 3.  In the **Properties** window, fill the fields as described in the following table.  
 

@@ -27,7 +27,7 @@ The following table provides an overview of shortcut key combinations in the [!I
 |Arrow, Tab, Enter|Move to the next field on non-line FastTabs|  
 |F1|Open Help|  
 |F10, Alt|Select the menu bar and display access keys|  
-|F6|Drop-down or look up to view\/select|  
+|F6|Drop-down or look up to view/select|  
 |Arrow, Shift+Tab|Move to the previous field|  
 |Ctrl+C|Copy|  
 |Ctrl+O or F12|Open the company|  

@@ -34,7 +34,7 @@ Evaluates a string representation of a value into its typical representation. Th
  *Number*  
  Type: Integer  
   
- This optional value can be used when exporting data with an XMLport. The only valid value is 9, which indicates that the data must be converted from XML format to C\/SIDE format.  
+ This optional value can be used when exporting data with an XMLport. The only valid value is 9, which indicates that the data must be converted from XML format to C/SIDE format.  
   
 ## Property Value/Return Value  
  Type: Boolean  
@@ -83,7 +83,7 @@ MESSAGE(Text000 + Text001 + Text002 + Text003, VarInteger, Ok1, VarDate, Ok2, Va
   
  **VarInteger = 10196   . The return code is: Yes.**  
   
- **VarDate = 01\/01\/96. The return code is: Yes.**  
+ **VarDate = 01/01/96. The return code is: Yes.**  
   
  **VarYesNo = No      . The return code is: No.**  
   

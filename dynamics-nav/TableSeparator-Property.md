@@ -24,7 +24,7 @@ Specifies the table separator for a table.
 |---------------|---------------------|  
 |**\<None>**|There is no table separator.|  
 |**\<NewLine>**|Any combination of CR and LF characters.|  
-|**\<CR\/LF>**|CR followed by LF.|  
+|**\<CR/LF>**|CR followed by LF.|  
 |**\<CR>**|CR alone.|  
 |**\<LF>**|LF alone.|  
 |**\<TAB>**|Tabulator alone.|  

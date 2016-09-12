@@ -47,14 +47,14 @@ This topic lists some common problems that can occur when you use the Microsoft 
   
 3.  To validate specific **Change Log Setup** settings, on the **Actions** tab, in the **Setup** group, choose **Tables**.  
   
-4.  The default change log setup contains information for the **Salesperson\/Purchaser**, **Contact**, and **To-do** tables. You can make additional modifications.  
+4.  The default change log setup contains information for the **Salesperson/Purchaser**, **Contact**, and **To-do** tables. You can make additional modifications.  
   
 ## Synchronizing Addresses for Contacts  
- When you specify a salesperson for a contact and then synchronize the contact with Outlook, information from the contact’s **Country\/Region Code** field in [!INCLUDE[navnow](includes/navnow_md.md)] is missing from the Address field in the Outlook Contact form. When you attempt to modify information, for example, the street address, for the contact’s address in Outlook, and then synchronize that information back to [!INCLUDE[navnow](includes/navnow_md.md)], you may encounter the following error:.  
+ When you specify a salesperson for a contact and then synchronize the contact with Outlook, information from the contact’s **Country/Region Code** field in [!INCLUDE[navnow](includes/navnow_md.md)] is missing from the Address field in the Outlook Contact form. When you attempt to modify information, for example, the street address, for the contact’s address in Outlook, and then synchronize that information back to [!INCLUDE[navnow](includes/navnow_md.md)], you may encounter the following error:.  
   
- **An Outlook item cannot be synchronized because the Country\/Region Code field of the CONT\_PERS entity cannot be processed. Try again later and if the problem persists contact your system administrator.**  
+ **An Outlook item cannot be synchronized because the Country/Region Code field of the CONT\_PERS entity cannot be processed. Try again later and if the problem persists contact your system administrator.**  
   
- To fix this issue, add the country\/region information to the multiline address field in the Outlook Contact form and then proceed with synchronization.  
+ To fix this issue, add the country/region information to the multiline address field in the Outlook Contact form and then proceed with synchronization.  
   
 ## Setting Conditions  
  Setting conditions for the TASK and APP entities is required. Meetings and tasks need a Meeting Organizer or Task Owner, so you must create a condition.  
@@ -75,7 +75,7 @@ This topic lists some common problems that can occur when you use the Microsoft 
   
  If there are no conditions set for the contacts entities, then you may get the following message to view the debug log:  
   
- **Closing Mapi session "\/o=First Organization\/ou=First Administrative Group\/cn=Recipients\/cn=XY" because it exceeded the maximum of 250 objects of type "objtMessage**  
+ **Closing Mapi session "/o=First Organization/ou=First Administrative Group/cn=Recipients/cn=XY" because it exceeded the maximum of 250 objects of type "objtMessage**  
   
  This is due to a security setting on the Exchange Server. If a large set of data, which is first triggered with 250 objects, is synchronized to Exchange Server, then Exchange Server logs an error in the event log file and does not let you add the data to the mailbox.  
   
@@ -117,16 +117,16 @@ This topic lists some common problems that can occur when you use the Microsoft 
 ## Setting Up Microsoft Outlook Integration in a Three-Machine Environment  
  When selecting a company, you may receive a message that resembles one of the following messages:  
   
--   The connection to "" Microsoft Dynamics NAV database failed. The program returned the following error: GetCompaniesList error: The login failed when connecting to SQL Server \<DatabaseTier>. connection string: NavSynchronizationUrl=http:\/\/\<ServiceTier>:7047\/DynamicsNAV71\/WS\/Codeunit\/DynamicsNAVsynchOutlook;CompanyName=\<CompanyName>; Please verify your synchronization settings. If the problem persists contact your system administrator.  
+-   The connection to "" Microsoft Dynamics NAV database failed. The program returned the following error: GetCompaniesList error: The login failed when connecting to SQL Server \<DatabaseTier>. connection string: NavSynchronizationUrl=http://\<ServiceTier>:7047/DynamicsNAV71/WS/Codeunit/DynamicsNAVsynchOutlook;CompanyName=\<CompanyName>; Please verify your synchronization settings. If the problem persists contact your system administrator.  
   
--   The connection to "" Microsoft Dynamics NAV database failed. The program returned the following error: GetCompaniesList error: The request failed with HTTP status 401: Unauthorized. connection string: NavSynchronizationUrl=http:\/\/\<ServiceTier>:7047\/DynamicsNAV70\/WS\/Codeunit\/DynamicsNAVsynchOutlook;CompanyName=\<CompanyName>; Please verify your synchronization settings. If the problem persists contact your system administrator.  
+-   The connection to "" Microsoft Dynamics NAV database failed. The program returned the following error: GetCompaniesList error: The request failed with HTTP status 401: Unauthorized. connection string: NavSynchronizationUrl=http://\<ServiceTier>:7047/DynamicsNAV70/WS/Codeunit/DynamicsNAVsynchOutlook;CompanyName=\<CompanyName>; Please verify your synchronization settings. If the problem persists contact your system administrator.  
   
  In the message, \<DatabaseTier> is the server name of the SQL Server, \<ServiceTier> is the server name of the Microsoft Dynamics NAV Server, and \<CompanyName> is the company name.  
   
  These errors can occur if [!INCLUDE[navnow](includes/navnow_md.md)] web services are not set up with the correct Service Principal Names \(SPN\) and delegation information. They can also occur if the web service path is not set correctly in the **Connection** tab. For more information, see [Walkthrough: Installing the Three Tiers on Three Computers](Walkthrough:%20Installing%20the%20Three%20Tiers%20on%20Three%20Computers.md). You can also see the [NAV 2009 Web Services on a three machine setup](http://go.microsoft.com/fwlink/?LinkID=154453) blog post in the [!INCLUDE[navnow](includes/navnow_md.md)] Team Blog on MSDN.  
   
 ## Configuring the Outlook Profile in an Environment Other than Microsoft Exchange  
- When you add and configure a new user Outlook profile in an environment other than Microsoft Exchange and are working with the TASK entity, you must make sure that the name of the Active Directory user \(Full name\) or name of the Mailbox owner matches the Salesperson as configured on the **Salesperson\/Purchaser** card.  
+ When you add and configure a new user Outlook profile in an environment other than Microsoft Exchange and are working with the TASK entity, you must make sure that the name of the Active Directory user \(Full name\) or name of the Mailbox owner matches the Salesperson as configured on the **Salesperson/Purchaser** card.  
   
  Otherwise, you may receive this message:  
   

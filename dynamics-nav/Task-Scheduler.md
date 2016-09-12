@@ -65,4 +65,4 @@ The task scheduler enables you to control when certain operations or processes \
 ## About Task Sessions and Permissions  
  The task runs in a background session, which means that there is no user interface. The behavior is similar to that of the STARTSESSION function, where any dialog boxes that would normally appear are suppressed. For more information about specific dialog boxes, see [STARTSESSION Function \(Sessions\)](STARTSESSION-Function--Sessions-.md).  
   
- The session runs by using the same user\/credentials as the calling C/AL code. The user must have appropriate permissions to the codeunit and any other objects associated with the operation of the codeunit.
+ The session runs by using the same user/credentials as the calling C/AL code. The user must have appropriate permissions to the codeunit and any other objects associated with the operation of the codeunit.

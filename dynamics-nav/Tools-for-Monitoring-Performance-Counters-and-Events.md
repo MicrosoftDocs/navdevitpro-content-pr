@@ -26,4 +26,4 @@ This topic lists some of the tools that you can use to monitor [!INCLUDE[nav_ser
  You can use the Get-WinEvent cmdlet of Windows PowerShell to view [!INCLUDE[nav_server](includes/nav_server_md.md)] instance events that are recorded in the Windows Event Logs. For more information, see [Monitoring Microsoft Dynamics NAV Server Events in the Windows Event Log](Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log.md).  
   
 ## PerfView  
- PerfView is a performance-analysis tool that focuses on Event Tracing for Windows information. PerfView can help you isolate performance issues that are related to [!INCLUDE[nav_server](includes/nav_server_md.md)]. To download and install PerfView, see [http:\/\/go.microsoft.com\/fwlink\/?LinkID=313428](http://go.microsoft.com/fwlink/?LinkID=313428).
+ PerfView is a performance-analysis tool that focuses on Event Tracing for Windows information. PerfView can help you isolate performance issues that are related to [!INCLUDE[nav_server](includes/nav_server_md.md)]. To download and install PerfView, see [http://go.microsoft.com/fwlink/?LinkID=313428](http://go.microsoft.com/fwlink/?LinkID=313428).

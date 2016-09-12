@@ -33,7 +33,7 @@ This topic describes the types of reports that are available in [!INCLUDE[navnow
 ## Posting Reports  
  A *posting report* can be printed as part of the "post and print" option on a journal. This report is printed from the register and has the same name as that register. It lists all the transactions, that is, ledger entries, which have been posted into that register. The following are examples of posting reports:  
   
--   G\/L Register  
+-   G/L Register  
   
 -   Vendor Register  
   
@@ -61,7 +61,7 @@ This topic describes the types of reports that are available in [!INCLUDE[navnow
   
 -   Vendor Item Catalog  
   
--   Customer\/Item Sales  
+-   Customer/Item Sales  
   
 ## See Also  
  [Reports-duplicate 20](Reports-duplicate-20.md)

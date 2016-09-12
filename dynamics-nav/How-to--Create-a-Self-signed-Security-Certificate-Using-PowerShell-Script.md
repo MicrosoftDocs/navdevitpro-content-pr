@@ -36,7 +36,7 @@ With the `New-NavSelfSignedCertificate` PowerShell cmdlet, you can create a self
     |Parameter name|Type|Description|  
     |--------------------|----------|-----------------|  
     |`-TestCertificateName`|Type:String|The name that identifies your test certificate. The default value is `TestCertificate`. This parameter is optional.|  
-    |`-TestCertificateServerAddress`|Type:String|The authority\/entity that this certificate is issued for. Default is the computer host name. Specify this value if the [!INCLUDE[nav_server](includes/nav_server_md.md)] is accessed by using an address that differs from the computer name. This parameter is optional.|  
+    |`-TestCertificateServerAddress`|Type:String|The authority/entity that this certificate is issued for. Default is the computer host name. Specify this value if the [!INCLUDE[nav_server](includes/nav_server_md.md)] is accessed by using an address that differs from the computer name. This parameter is optional.|  
     |`-TestCertificateRootCertificateAuthorityName`|Type:String|The root certificate authority name. The name will identify the root certificate issuer. The default value is the `TestCertificate` parameter value prefixed `RootCA`. This parameter is optional.|  
     |`-Outputfolder`|Type:String|Specifies the output folder for the certificates. Default is the location where the script was executed from. This parameter is optional.|  
     |`-MakeCertExePath`|Type:String|The path of the Windows SDK MakeCert.exe tool. Default is the specified `Outputfolder`. This parameter is optional.|  

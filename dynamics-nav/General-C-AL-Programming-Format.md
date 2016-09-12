@@ -142,7 +142,7 @@ ELSE
  The following examples show how to format comments.  
   
 ### Example  
- Always start comments with \/\/ and one space character. Never use braces \({ and }\). To emphasize a comment, put it on a separate line and insert one empty line before it.  
+ Always start comments with // and one space character. Never use braces \({ and }\). To emphasize a comment, put it on a separate line and insert one empty line before it.  
   
 ```  
 x := x + 1;  

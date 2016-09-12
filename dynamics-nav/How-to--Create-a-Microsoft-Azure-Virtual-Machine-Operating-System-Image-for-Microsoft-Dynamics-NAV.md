@@ -31,9 +31,9 @@ This topic describes how to create custom images in Microsoft Azure Gallery that
   
 #### To create a new Azure virtual machine  
   
-1.  Sign in to Azure at [http:\/\/azure.microsoft.com](http://go.microsoft.com/fwlink/?LinkID=285197).  
+1.  Sign in to Azure at [http://azure.microsoft.com](http://go.microsoft.com/fwlink/?LinkID=285197).  
   
-2.  Complete the instructions for creating a new virtual machine at [http:\/\/azure.microsoft.com\/en-us\/documentation\/articles\/virtual-machines-windows-tutorial](http://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-tutorial).  
+2.  Complete the instructions for creating a new virtual machine at [http://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-tutorial](http://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-tutorial).  
   
 3.  When the virtual machine has been created, establish a Remote Desktop connection to the virtual machine, and then run Windows Update and apply all recommended updates.  
   
@@ -73,7 +73,7 @@ This topic describes how to create custom images in Microsoft Azure Gallery that
     > [!NOTE]  
     >  From the Azure management portal, under **Virtual Machines**, choose the virtual machine from the list, and then choose **Connect**.  
   
-2.  Download SQL Server 2012 from [http:\/\/www.microsoft.com\/sqlserver\/en\/us\/get-sql-server\/try-it.aspx](http://www.microsoft.com/sqlserver/en/us/get-sql-server/try-it.aspx).  
+2.  Download SQL Server 2012 from [http://www.microsoft.com/sqlserver/en/us/get-sql-server/try-it.aspx](http://www.microsoft.com/sqlserver/en/us/get-sql-server/try-it.aspx).  
   
     > [!NOTE]  
     >  By default, Windows Server 2012 is enabled with the Internet Explorer Enhanced Security Configuration feature. This might prevent you from downloading SQL Server 2012. If you encounter problems, disable the feature temporarily, and then enable it again after the download is finished. To enable or disable the feature, open **Server Manager**, and then set the **Internet Explorer Enhanced Security Configuration** option.  

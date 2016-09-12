@@ -59,7 +59,7 @@ Sets a value that determines how text in a field on a page is formatted. For fie
   
 -   RecordID  
   
- On pages, you use the **Style** property for group, part, field, and action controls. You can change the formatting of a control either statically by setting the property to **true** or **false**, or dynamically by using a Boolean variable or a Boolean field on the page. The Boolean field on the page can be either a true\/false Boolean or a Boolean expression, such as “Credit Limit > Sales YTD”.  
+ On pages, you use the **Style** property for group, part, field, and action controls. You can change the formatting of a control either statically by setting the property to **true** or **false**, or dynamically by using a Boolean variable or a Boolean field on the page. The Boolean field on the page can be either a true/false Boolean or a Boolean expression, such as “Credit Limit > Sales YTD”.  
   
 ## Example: Dynamic Property Change Using a Boolean Field  
  To make the value in the **Balance \(LCY\)** field on customer cards bold green when line discounts are allowed, follow these steps:  

@@ -21,7 +21,7 @@ In this walkthrough, you set up an environment to test integrating certificates 
   
     1.  Choose **Start**, choose **Run**, and then type **Mmc.exe**.  
   
-    2.  In the console, on the **File** menu, choose **Add\/Remove Snap-in**.  
+    2.  In the console, on the **File** menu, choose **Add/Remove Snap-in**.  
   
     3.  In the **Add Standalone Snap-in** dialog box, select **Certificates**, choose **Computer Account**, choose **Local Computer**, and then choose **Add**.  
   

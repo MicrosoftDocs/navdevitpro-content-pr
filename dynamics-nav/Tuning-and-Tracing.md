@@ -28,7 +28,7 @@ As a result of using indexed views, SIFT keys are exposed to SQL Server tracing 
   
 2.  Key: "WareHouseId, ItemId, Size" SumField: "OnStock"  
   
- If there are only a few combinations of Size and Color \(for example, less than 200\), then one combined index\/SIFT key should be sufficient.  
+ If there are only a few combinations of Size and Color \(for example, less than 200\), then one combined index/SIFT key should be sufficient.  
   
 1.  The Combined Key:  
   

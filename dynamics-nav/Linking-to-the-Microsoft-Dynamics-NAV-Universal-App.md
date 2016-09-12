@@ -41,13 +41,13 @@ The protocol handler for the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)]
 ### URL Examples  
  The following examples demonstrate how to use the parameters from the table earlier in this section:  
   
--   *ms-dynamicsnav:\/\/myserver\/myinstance\/*  
+-   *ms-dynamicsnav://myserver/myinstance/*  
   
--   *ms-dynamicsnav:\/\/myserver:440\/myinstance\/*  
+-   *ms-dynamicsnav://myserver:440/myinstance/*  
   
--   *ms-dynamicsnav:\/\/myserver\/myinstance\/?company=MyOtherCompany*  
+-   *ms-dynamicsnav://myserver/myinstance/?company=MyOtherCompany*  
   
--   *ms-dynamicsnav:\/\/myserver\/myinstance\/?tenant=myTenant2&company=MyCompany2*  
+-   *ms-dynamicsnav://myserver/myinstance/?tenant=myTenant2&company=MyCompany2*  
   
 > [!IMPORTANT]  
 >  The *ms-dynamicsnav* scheme only translates to a secure server connection. Therefore the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLUDE[nav_phone](includes/nav_phone_md.md)] must be exposed through an https connection. For more information, see [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How%20to:%20Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
@@ -55,9 +55,9 @@ The protocol handler for the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)]
 ### Adding Username to the URL  
  The *ms-dynamicsnav* scheme also supports sending the user name in the URL for prefilling the user name. The password must be entered by the user. To send the user name, you must URL encode the value and prefix the server address by using *\<encoded username>@*. Examples are as follows:  
   
--   *ms-dynamicsnav:\/\/demouser%40mycompany.com@myserver\/myinstance\/*  
+-   *ms-dynamicsnav://demouser%40mycompany.com@myserver/myinstance/*  
   
--   *ms-dynamicsnav:\/\/user1:@myserver\/myinstance\/*  
+-   *ms-dynamicsnav://user1:@myserver/myinstance/*  
   
 > [!IMPORTANT]  
 >  We recommend that you do not share a user name in the URL. This technique should only be used in demonstration scenarios and other instances where the accidental sharing of a URL will not compromise the system.  

@@ -26,7 +26,7 @@ When you are using a linked object, you should take the following into account:
   
 -   The object being linked must have a SQL Server table definition that is compatible with the [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] table definition.  
   
--   A view that cannot be updated in SQL Server \(for example one containing computed\/converted columns or unions\) will also be read-only if it is used as a linked object from [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)]. With SQL Server 2000, you can write Instead-Of triggers to define the logic that allows such a view to be updated. This logic is not part of [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)].  
+-   A view that cannot be updated in SQL Server \(for example one containing computed/converted columns or unions\) will also be read-only if it is used as a linked object from [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)]. With SQL Server 2000, you can write Instead-Of triggers to define the logic that allows such a view to be updated. This logic is not part of [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)].  
   
 ## Rules for Using Linked Objects  
   

@@ -36,7 +36,7 @@ To use Automated Data Capture System, you must enable the ADCS web service.
   
 ### To verify that the web service has been published  
   
-1.  In a web browser window, enter a URL in the following format:  **http:\/\/\<web services path>\/Services**. The following example demonstrates the results.  
+1.  In a web browser window, enter a URL in the following format:  **http://\<web services path>/Services**. The following example demonstrates the results.  
   
     ```  
     http://localhost:7047/nav_server_instance/WS/Services  
@@ -48,7 +48,7 @@ To use Automated Data Capture System, you must enable the ADCS web service.
     <contractRef xmlns="http://schemas.xmlsoap.org/disco/scl/" ref="http://localhost:7047/nav_server_instance/WS/Codeunit/ADCS"/>  
     ```  
   
-2.  To verify that the codeunit is performing as expected, enter a URL in the following format: **http:\/\/\<web services path>\/Codeunit\/\<Service Name>**.  
+2.  To verify that the codeunit is performing as expected, enter a URL in the following format: **http://\<web services path>/Codeunit/\<Service Name>**.  
   
     ```  
     http://localhost:7047/nav_server_instance/WS/Codeunit/ADCS  

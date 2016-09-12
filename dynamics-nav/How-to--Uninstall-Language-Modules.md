@@ -44,4 +44,4 @@ To uninstall a language module, you must delete the language from the database a
   
 12. In Control Panel, choose **Programs and Features**.  
   
-13. For each component of the language module that is installed, select the component, and then choose **Uninstall\/Change**.
+13. For each component of the language module that is installed, select the component, and then choose **Uninstall/Change**.

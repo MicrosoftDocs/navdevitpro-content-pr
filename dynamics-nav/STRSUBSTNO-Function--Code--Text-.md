@@ -25,7 +25,7 @@ NewString := STRSUBSTNO(String [,Value1, …])
  *String*  
  Type: Text constant or Code  
   
- A string containing '\#' and\/or '%' fields.  
+ A string containing '\#' and/or '%' fields.  
   
  The % fields are replaced by the values with their full lengths, and \# fields are replaced by the values that are truncated to the length of the \# field.  
   

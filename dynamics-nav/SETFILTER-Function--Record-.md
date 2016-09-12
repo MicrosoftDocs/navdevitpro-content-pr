@@ -72,7 +72,7 @@ Record.SETFILTER(Field, String, [Value],...)
 |------------|-----------------|  
 |A..Z|A range from A to Z|  
 |A&#124;G|A or G|  
-|F.. & \*A\/S|A range from F and A\/S is included in the field|  
+|F.. & \*A/S|A range from F and A/S is included in the field|  
 |\<>B|All except B|  
 |\<>''|All not blank|  
 |\<=200 &#124; >500|All less than or equal to 200 or greater than 500|  
@@ -81,7 +81,7 @@ Record.SETFILTER(Field, String, [Value],...)
   
 |Name|DataType|Subtype|  
 |----------|--------------|-------------|  
-|GLAccountRec|Record|G\/L Account|  
+|GLAccountRec|Record|G/L Account|  
   
 ```  
 // Using a filter with replacement field.  

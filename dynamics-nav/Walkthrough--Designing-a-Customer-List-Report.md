@@ -51,7 +51,7 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], creating new reports is di
 
 5.  On the **View** menu, choose **Field Menu**.  
 
-6.  In the **Field Menu** window, select the **No.**, **Name**, **Address**, **Phone No.**, and **Country\/Region Code** fields, and then choose the **OK** button.  
+6.  In the **Field Menu** window, select the **No.**, **Name**, **Address**, **Phone No.**, and **Country/Region Code** fields, and then choose the **OK** button.  
 
      You can select multiple items by holding down the Ctrl key while you select.  
 
@@ -64,7 +64,7 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], creating new reports is di
 10. Make sure the **Compile** check box is selected and choose the **OK** button.  
 
 ## Applying Sorting Criteria and Filters  
- Next, you will set the sorting criteria and filters that you want to use in the report. This report will sort the customers in ascending order by customer number. You will also provide filters on the request page that will enable users to filter the data based on the **No.** and **Country\/Region code**.  
+ Next, you will set the sorting criteria and filters that you want to use in the report. This report will sort the customers in ascending order by customer number. You will also provide filters on the request page that will enable users to filter the data based on the **No.** and **Country/Region code**.  
 
 #### To set the report properties  
 
@@ -83,7 +83,7 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], creating new reports is di
 
 5.  Choose the **OK** button.  
 
-     You will now add filters to the request page that will enable users to filter the data based on the **No.** or **Country\/Region Code**, or both by default.  
+     You will now add filters to the request page that will enable users to filter the data based on the **No.** or **Country/Region Code**, or both by default.  
 
 6.  In the **Properties** window for the **Customer** data item, select the **ReqFilterFields** property, and then choose the **Value** field to open the **Field List** property window.  
 
@@ -92,7 +92,7 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], creating new reports is di
     |Field|  
     |-----------|  
     |**No**|  
-    |**Country\/Region Code**|  
+    |**Country/Region Code**|  
 
 8.  Choose the **OK** button.  
 
@@ -180,13 +180,13 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], creating new reports is di
 
 3.  In Object Designer, select the report \(55551\) and choose **Run**. The request page is displayed.  
 
-4.  In the request page, on the **Customer** tab, set the **Country\/Region Code** filter to a country\/region code and choose **Preview** to view the report. The report displays all the customers in the country\/region code you selected.  
+4.  In the request page, on the **Customer** tab, set the **Country/Region Code** filter to a country/region code and choose **Preview** to view the report. The report displays all the customers in the country/region code you selected.  
 
-     You can filter the report by **No.** or **Country\/Region Code** or both.  
+     You can filter the report by **No.** or **Country/Region Code** or both.  
 
 ## Next Step  
 
--   Now you have created a report that lists customers by customer number or country\/region code, and you have added changes to the report layout in Visual Studio. The next step is to add the customer list report to a page in the [!INCLUDE[rtc](includes/rtc_md.md)] from where it can be run. For more information, see [How to: Make a Report Available from a Page](How%20to:%20Make%20a%20Report%20Available%20from%20a%20Page.md).  
+-   Now you have created a report that lists customers by customer number or country/region code, and you have added changes to the report layout in Visual Studio. The next step is to add the customer list report to a page in the [!INCLUDE[rtc](includes/rtc_md.md)] from where it can be run. For more information, see [How to: Make a Report Available from a Page](How%20to:%20Make%20a%20Report%20Available%20from%20a%20Page.md).  
 
 ## See Also  
  [How to: Make a Report Available from a Page](How%20to:%20Make%20a%20Report%20Available%20from%20a%20Page.md)   

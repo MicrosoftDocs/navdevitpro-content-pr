@@ -106,7 +106,7 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
 
 7.  On the **Customize the Installation** page, choose the box next to **Web Server Components**, choose **Run from My Computer**, and then choose **Next**.  
 
-8.  On the **Specify Parameters** page, under **Web Server Components**, set the **Port** parameter to the TCP\/IP port to use for the [!INCLUDE[nav_web](includes/nav_web_md.md)] connection or use the default port 8080.  
+8.  On the **Specify Parameters** page, under **Web Server Components**, set the **Port** parameter to the TCP/IP port to use for the [!INCLUDE[nav_web](includes/nav_web_md.md)] connection or use the default port 8080.  
 
 9. Set the **Install IIS prerequisites** parameter to **Install**.  
 

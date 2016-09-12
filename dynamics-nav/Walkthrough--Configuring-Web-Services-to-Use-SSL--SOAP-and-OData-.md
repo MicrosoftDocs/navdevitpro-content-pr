@@ -133,7 +133,7 @@ Secure Sockets Layer \(SSL\) is a cryptographic protocol that helps provide secu
 6.  If you are not working on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)], then copy the .pfx to the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer.  
   
 > [!IMPORTANT]  
->  To avoid validation errors, make sure that the certificate that you create and self-sign has the same name as the host name, which is accessed from all the remote machines. The machine name is specified in “**CN=\<machine name>**”. If you use the *http:\/\/hostname:Port\/NAVserver\/* link to access your Microsoft Dynamics NAV service, then you should specify the –n “CN=hostname” flag to the `makecert` command instead.  
+>  To avoid validation errors, make sure that the certificate that you create and self-sign has the same name as the host name, which is accessed from all the remote machines. The machine name is specified in “**CN=\<machine name>**”. If you use the *http://hostname:Port/NAVserver/* link to access your Microsoft Dynamics NAV service, then you should specify the –n “CN=hostname” flag to the `makecert` command instead.  
   
 ##  <a name="Importing"></a> Importing the SSL Certificate into the Local Computer Store of the Microsoft Dynamics NAV Server computer  
  Once you obtain a certificate, you must import it into the local computer store on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)]. The certificate file will have the extension .cer or .pfx.  
@@ -147,15 +147,15 @@ Secure Sockets Layer \(SSL\) is a cryptographic protocol that helps provide secu
     > [!NOTE]  
     >  This procedure assumes that you do not already have the Certificates snap-in installed in Microsoft Management Console. If the Certificates snap-in is already installed, skip steps 3 to 7 and go to step 8.  
   
-3.  On the **File** menu, choose **Add\/Remove Snap-in**.  
+3.  On the **File** menu, choose **Add/Remove Snap-in**.  
   
-4.  In the **Add\/Remove Snap-in** dialog box, choose **Certificates**, and then choose **Add**.  
+4.  In the **Add/Remove Snap-in** dialog box, choose **Certificates**, and then choose **Add**.  
   
 5.  In the **Certificates snap-in** dialog box, choose **Computer account**, and then choose **Next**.  
   
 6.  In the **Select Computer** dialog box, choose **Local computer**, and then choose **Finish**.  
   
-7.  In the **Add\/Remove Snap-in** dialog box, choose **OK**.  
+7.  In the **Add/Remove Snap-in** dialog box, choose **OK**.  
   
 8.  In the left pane of the console, double-click and expand the **Certificates \(Local Computer\)**.  
   

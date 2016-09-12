@@ -157,7 +157,7 @@ END;
   
 -   Use worksheet pages for all page in the **Setup** menu. Creating these page does not typically cause problems because they often contain only a code and a few information fields.  
   
- Pages such as journals, sales\/purchase lines, and ledgers are difficult to create and maintain properly because the related tables contain a lot of functionality and many fields. In an uncustomized application, the same template is used to compose these pages so that they look similar. The following table shows the template. It is divided into sections according to functionality. In each section, the most common field names are mentioned.  
+ Pages such as journals, sales/purchase lines, and ledgers are difficult to create and maintain properly because the related tables contain a lot of functionality and many fields. In an uncustomized application, the same template is used to compose these pages so that they look similar. The following table shows the template. It is divided into sections according to functionality. In each section, the most common field names are mentioned.  
   
 > [!NOTE]  
 >  The table does not include all functionality. Additionally, the order that is indicated in the table does not always indicate the order in pages.  
@@ -168,18 +168,18 @@ END;
 |**Document**|-   **Entry Type**<br />-   **Document Type**<br />-   **Document No.**|  
 |**No. \(of Account\)**|**No.**|  
 |**Posting Description**|**Description**|  
-|**Dimensions**|-   **Department Code**<br />-   **Project Code**<br />-   **Business Unit Code**<br />-   **Location Code**<br />-   **Salesperson\/Purchaser Code**<br />-   **Work Type Code**<br />-   **Phase Code**<br />-   **Task Code**<br />-   **Step Code**|  
+|**Dimensions**|-   **Department Code**<br />-   **Project Code**<br />-   **Business Unit Code**<br />-   **Location Code**<br />-   **Salesperson/Purchaser Code**<br />-   **Work Type Code**<br />-   **Phase Code**<br />-   **Task Code**<br />-   **Step Code**|  
 |**Currency**|-   **Currency Code**<br />-   **Exchange Rate**|  
 |**General Posting Setup**|-   **General Posting Type**<br />-   **General Business Posting Group**<br />-   **General Product Posting Group**|  
 |**Quantity**|-   **Quantity**<br />-   **Invoiced Quantity**<br />-   **Remaining Quantity**<br />-   **Unit of Measure Code**|  
-|**Prices\/Cost**|-   **Direct Unit Cost**<br />-   **Indirect Cost %**<br />-   **Unit Cost**<br />-   **Total Cost**<br />-   **Profit %**<br />-   **Unit Price**<br />-   **Total Price**<br />-   **Price Group Code**<br />-   **Chargeable** **Note:**      The exact name and order depend on the application area.|  
+|**Prices/Cost**|-   **Direct Unit Cost**<br />-   **Indirect Cost %**<br />-   **Unit Cost**<br />-   **Total Cost**<br />-   **Profit %**<br />-   **Unit Price**<br />-   **Total Price**<br />-   **Price Group Code**<br />-   **Chargeable** **Note:**      The exact name and order depend on the application area.|  
 |**Amounts**|-   **Amount**<br />-   **Amount Including VAT**<br />-   **VAT Amount**<br />-   **Remaining Amount** **Note:**      Amounts in LCY must follow each amount type.|  
 |**Balancing Account**|**Balancing Account Type**<br /><br /> **Balancing Account No.**<br /><br /> **Balancing General Posting Type**<br /><br /> **Balancing General Business Posting Group**<br /><br /> **Balancing General Product Posting Group**|  
-|**Sales\/Purchase and Discount**|-   **Sales\/Purchase \(LCY\)**<br />-   **Profit \(LCY\)**<br />-   **Line Discount %**<br />-   **Line Discount Amount**<br />-   **Allow Invoice Discount**<br />-   **Invoice Discount Amount**|  
+|**Sales/Purchase and Discount**|-   **Sales/Purchase \(LCY\)**<br />-   **Profit \(LCY\)**<br />-   **Line Discount %**<br />-   **Line Discount Amount**<br />-   **Allow Invoice Discount**<br />-   **Invoice Discount Amount**|  
 |**Payment Terms**|-   **Payment Terms Code**<br />-   **Due Date**<br />-   **Payment Discount Date**<br />-   **Payment Discount %**|  
 |**Application**|-   **Serial No.**<br />-   **Applies-To Document Type**<br />-   **Applies-To Document No.**<br />-   **Applies-To ID**<br />-   **Applies-To Item Entry**<br />-   **Applies-To Entry**<br />-   **Apply and Close \(Job\)**<br />-   **Open**|  
-|**Miscellaneous Information**|-   **Cost Is Adjusted**<br />-   **Cost Posted to G\/L**<br />-   **On Hold**<br />-   **Bank Payment Type**|  
-|**Intrastat**|-   **Transaction Type**<br />-   **Transport Method**<br />-   **Country\/Region Code**|  
+|**Miscellaneous Information**|-   **Cost Is Adjusted**<br />-   **Cost Posted to G/L**<br />-   **On Hold**<br />-   **Bank Payment Type**|  
+|**Intrastat**|-   **Transaction Type**<br />-   **Transport Method**<br />-   **Country/Region Code**|  
 |**Posting Information**|-   **Quantity to Ship**<br />-   **Quantity Shipped**<br />-   **Quantity to Invoice**<br />-   **Quantity Invoiced**|  
 |**Audit Information**|-   **User ID**<br />-   **Source Code**<br />-   **Reason Code**<br />-   **Entry No.**|  
   

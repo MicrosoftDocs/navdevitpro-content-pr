@@ -53,7 +53,7 @@ Query objects and Record objects, including both explicit record variables and i
   
 ||Explicit record variables|Explicit query variables|Implicit records on pages, reports, and XMLports|  
 |-|-------------------------------|------------------------------|------------------------------------------------------|  
-|**Upgraded from Microsoft Dynamics NAV 2009**|Validated|N\/A|Filtered|  
+|**Upgraded from Microsoft Dynamics NAV 2009**|Validated|N/A|Filtered|  
 |**New**|Validated|Filtered|Filtered|  
   
 > [!IMPORTANT]  

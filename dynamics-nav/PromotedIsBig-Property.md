@@ -19,7 +19,7 @@ Sets a value that indicates whether the promoted action is displayed on the ribb
 -   Page Actions  
   
 ## Remarks  
- Available options are Yes\/No \(Boolean\).  
+ Available options are Yes/No \(Boolean\).  
   
 ## See Also  
  [Promoted Property](Promoted-Property.md)   

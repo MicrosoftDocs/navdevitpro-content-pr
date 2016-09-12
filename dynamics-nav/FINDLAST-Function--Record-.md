@@ -39,10 +39,10 @@ Finds the last record in a table based on the current key and filter.
 ## Remarks  
  This function should be used instead of FIND\('+'\) when you only need the last record.  
   
- You should only use this function when you explicitly want to find the last record in a table\/set. Do not use this function in combination with REPEAT...UNTIL.  
+ You should only use this function when you explicitly want to find the last record in a table/set. Do not use this function in combination with REPEAT...UNTIL.  
   
 ## Example  
- This example requires that you create a Record variable named GLEntryRec for the G\/L Entry table.  
+ This example requires that you create a Record variable named GLEntryRec for the G/L Entry table.  
   
 ```  
 // Read the last record only.   

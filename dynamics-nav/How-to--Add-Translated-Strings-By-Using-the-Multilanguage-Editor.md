@@ -12,7 +12,7 @@ caps.latest.revision: 17
 manager: edupont
 ---
 # How to: Add Translated Strings By Using the Multilanguage Editor
-To add string translations for UI elements in a standard country\/region-specific version of [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you install a language module so that end users can view the UI elements in a different language. If you have customized objects in the application, then you must also add translations for those objects. You can translate strings in the following ways:  
+To add string translations for UI elements in a standard country/region-specific version of [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you install a language module so that end users can view the UI elements in a different language. If you have customized objects in the application, then you must also add translations for those objects. You can translate strings in the following ways:  
   
 -   By using the Translate tool in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to import and export multilanguage files that contain translated strings for multiple objects  
   

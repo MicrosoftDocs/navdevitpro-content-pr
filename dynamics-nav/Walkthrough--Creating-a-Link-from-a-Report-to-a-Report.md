@@ -143,7 +143,7 @@ This walkthrough illustrates how to set up a report to include a link from the *
 
 8.  On the Windows taskbar, choose **Start**, and then choose **Run**.  
 
-9. In the **Run** window, enter the following text: **dynamicsnav:\/\/\/\/runreport?report=111**, and then choose the **OK** button.  
+9. In the **Run** window, enter the following text: **dynamicsnav:////runreport?report=111**, and then choose the **OK** button.  
 
 ## See Also  
  [Walkthrough: Creating a Link from a Report to a Page](Walkthrough:%20Creating%20a%20Link%20from%20a%20Report%20to%20a%20Page.md)   

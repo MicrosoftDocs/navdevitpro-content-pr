@@ -11,7 +11,7 @@ ms.assetid: 4bb3447d-246e-43c1-a83e-10424955b497
 caps.latest.revision: 21
 ---
 # How to: Remove UI Elements Using the AccessByPermission Property
-UI elements that are directly related to an object through the **TableRelation** or the **CalcFormula** property can be removed automatically according to the license file and\/or user permissions. For more information, see [How to: Specify When UI Elements Are Removed](How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md).  
+UI elements that are directly related to an object through the **TableRelation** or the **CalcFormula** property can be removed automatically according to the license file and/or user permissions. For more information, see [How to: Specify When UI Elements Are Removed](How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md).  
   
  For UI elements that are not directly related to an object, you can use the **AccessByPermission** property to remove an element according to the user’s permission to a related object.  
   
