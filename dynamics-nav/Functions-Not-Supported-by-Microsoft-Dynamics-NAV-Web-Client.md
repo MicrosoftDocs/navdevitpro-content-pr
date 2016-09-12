@@ -38,9 +38,9 @@ This topic lists the C/AL functions and data types that are not supported or par
   
 -   [PRINTONLYIFDETAIL Function \(Report\)](PRINTONLYIFDETAIL-Function--Report-.md)  
   
--   [REPORT.RUN Function](REPORT.RUN-Function.md)  
+-   [REPORT.RUN Function](REPORT-RUN-Function.md)  
   
--   [REPORT.RUNMODAL Function](REPORT.RUNMODAL-Function.md)  
+-   [REPORT.RUNMODAL Function](REPORT-RUNMODAL-Function.md)  
   
 -   [UPLOAD Function \(File\)](UPLOAD-Function--File-.md)  
   
