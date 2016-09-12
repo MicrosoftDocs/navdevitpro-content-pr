@@ -52,7 +52,7 @@ EXIT(ReportLayout.GetCustomRdlc(ReportId));
   
 ## See Also  
  [Customizing Report Layout Implementation in Codeunit 1](Customizing-Report-Layout-Implementation-in-Codeunit-1.md)   
- [REPORT.RUN Function](REPORT.RUN-Function.md)   
+ [REPORT.RUN Function](REPORT-RUN-Function.md)   
  [SAVEASWORD Function \(REPORT\)](SAVEASWORD-Function--REPORT-.md)   
  [SAVEASPDF Function \(Report\)](SAVEASPDF-Function--Report-.md)   
  [SAVEASEXCEL Function \(Report\)](SAVEASEXCEL-Function--Report-.md)

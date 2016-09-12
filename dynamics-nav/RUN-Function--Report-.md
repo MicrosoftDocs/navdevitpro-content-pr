@@ -28,7 +28,7 @@ Report.RUN
  After you define this variable, you can run this function or the Report.RUNMODAL function on the variable. The variable is automatically cleared after it executes this function.  
   
 ## Remarks  
- Use this function or the [RUNMODAL Function \(Report\)](RUNMODAL-Function--Report-.md) if you know at design time the exact report that you want to run. Otherwise, use the [REPORT.RUNMODAL Function](REPORT.RUNMODAL-Function.md) or [REPORT.RUN Function](REPORT.RUN-Function.md).  
+ Use this function or the [RUNMODAL Function \(Report\)](RUNMODAL-Function--Report-.md) if you know at design time the exact report that you want to run. Otherwise, use the [REPORT.RUNMODAL Function](REPORT-RUNMODAL-Function.md) or [REPORT.RUN Function](REPORT-RUN-Function.md).  
   
  If the report you specify does not exist, then a compile error occurs.  
   

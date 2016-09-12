@@ -15,6 +15,8 @@ caps.latest.revision: 18
 # Page Object
 The page object contains the definition of fields, groups, actions, and metadata. A page object definition can contain the following elements (mandatory marked):
 
+Best practices - always define properties at the beginning of the document.
+
 + PageType definition
 + SourceTable definition
 + Layout

@@ -54,7 +54,7 @@ REPORT.RUN(Number [, ReqWindow] [, SystemPrinter] [, Record])
  Specifies which record to use in the report. Any filters that are attached to the record that you specify are used.  
   
 ## Remarks  
- If you do not know the specific report that you want to run when you are designing the report, then use this function or the [REPORT.RUNMODAL Function](REPORT.RUNMODAL-Function.md). If you do know the specific report that you want to run, then you can use the [RUN Function \(Report\)](RUN-Function--Report-.md) or the [RUNMODAL Function \(Report\)](RUNMODAL-Function--Report-.md). When you use these functions, the request page runs modally. However, when you choose **Preview** on the request page, the **Print Preview** page does not run modally.  
+ If you do not know the specific report that you want to run when you are designing the report, then use this function or the [REPORT.RUNMODAL Function](REPORT-RUNMODAL-Function.md). If you do know the specific report that you want to run, then you can use the [RUN Function \(Report\)](RUN-Function--Report-.md) or the [RUNMODAL Function \(Report\)](RUNMODAL-Function--Report-.md). When you use these functions, the request page runs modally. However, when you choose **Preview** on the request page, the **Print Preview** page does not run modally.  
   
 ## Example  
  This example shows how to run a report. This example displays the request window and sends the report to the printer that is selected in the Printer Selection table.  
