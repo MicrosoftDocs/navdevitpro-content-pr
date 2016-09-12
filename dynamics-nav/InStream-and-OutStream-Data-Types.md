@@ -42,6 +42,6 @@ Reads from or writes to files and BLOBs.
   
 -   [COPYSTREAM Function](COPYSTREAM-Function.md)  
   
--   [OutStream.WRITE Function](OutStream.WRITE-Function.md)  
+-   [OutStream.WRITE Function](OutStream-WRITE-Function.md)  
   
--   [OutStream.WRITETEXT Function](OutStream.WRITETEXT-Function.md)
+-   [OutStream.WRITETEXT Function](OutStream-WRITETEXT-Function.md)

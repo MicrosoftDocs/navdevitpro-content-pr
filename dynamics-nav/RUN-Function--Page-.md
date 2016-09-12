@@ -44,7 +44,7 @@ Page.RUN
 ## Remarks  
  If, at design time, you know the specific page that you want to run, then you can create a Page variable, set the Subtype of the variable to a specific page, and then use this function or the [RUNMODAL Function \(Page\)](RUNMODAL-Function--Page-.md) on the Page variable.  
   
- If you do not know the page that you want to run, then use the [PAGE.RUN Function](PAGE.RUN-Function.md) or the [PAGE.RUNMODAL Function](PAGE.RUNMODAL-Function.md) and specify the page in the *Number* parameter.  
+ If you do not know the page that you want to run, then use the [PAGE.RUN Function](PAGE-RUN-Function.md) or the [PAGE.RUNMODAL Function](PAGE-RUNMODAL-Function.md) and specify the page in the *Number* parameter.  
   
  After you define the page variable, you can use it before you run the page. If you use the [RUNMODAL Function \(Page\)](RUNMODAL-Function--Page-.md), you can use the variable before and after you run the page.  
   
