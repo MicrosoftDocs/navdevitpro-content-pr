@@ -26,7 +26,7 @@ A report dataset can consist of fields that display labels, data, and images. Th
   
 4.  In the **XML Mapping** pane, in **the Custom XML Part** list, choose the XML part for [!INCLUDE[navnow](includes/navnow_md.md)] report. The name of the XML part has the following format:  
   
-     urn:microsoft-dynamics-nav\/reports\/*report\_name*\/*ID*  
+     urn:microsoft-dynamics-nav/reports/*report\_name*/*ID*  
   
      *report\_name* is the name that is assigned to the report as specified by the report's [Name Property-duplicate](Name-Property-duplicate.md).  
   

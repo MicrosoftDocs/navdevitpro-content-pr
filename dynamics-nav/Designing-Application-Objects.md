@@ -64,7 +64,7 @@ All [!INCLUDE[navnow](includes/navnow_md.md)] applications are based on the foll
   
  ![NAV Versioning Convention](media/NAV_VersionConvention.png "NAV\_VersionConvention")  
   
- Product family code, country\/region reference, major version, and minor version are required. Service pack and hotfix are optional.  
+ Product family code, country/region reference, major version, and minor version are required. Service pack and hotfix are optional.  
   
 ### Standard Object with Local Functionality Modifications Version Convention  
  A standard object with local functionality modifications contains the following version strings.  
@@ -86,4 +86,4 @@ All [!INCLUDE[navnow](includes/navnow_md.md)] applications are based on the foll
 -   The local functionality that is contained in the object was created or last changed in Microsoft Dynamics NAV 4.0 for France with the local Service Pack 2 and local hotfix 2.  
   
 ### Microsoft CertifiedPartner Object Version Convention  
- Microsoft Certified Partners must follow the same version convention. Instead of using the two-letter country\/region code, partners should use two letters that refer to their company. For example, the Fabrikam Company would use FC as their code. The rest of the version information should be updated as appropriate.
+ Microsoft Certified Partners must follow the same version convention. Instead of using the two-letter country/region code, partners should use two letters that refer to their company. For example, the Fabrikam Company would use FC as their code. The rest of the version information should be updated as appropriate.

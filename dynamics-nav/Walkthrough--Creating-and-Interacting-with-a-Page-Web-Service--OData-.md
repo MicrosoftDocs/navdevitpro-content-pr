@@ -60,9 +60,9 @@ This walkthrough illustrates how you can publish a [!INCLUDE[navnow](includes/na
   
 1.  Start Internet Explorer.  
   
-2.  In the **Address** field, enter a URI in this format: **http:\/\/\<Server>:\<WebServicePort>\/\<ServerInstance>\/OData**. For example:  
+2.  In the **Address** field, enter a URI in this format: **http://\<Server>:\<WebServicePort>/\<ServerInstance>/OData**. For example:  
   
-     **http:\/\/localhost:7048\/DynamicsNAV\/OData**  
+     **http://localhost:7048/DynamicsNAV/OData**  
   
     1.  **Server** is the name of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
@@ -70,7 +70,7 @@ This walkthrough illustrates how you can publish a [!INCLUDE[navnow](includes/na
   
      **ServiceInstance** is the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance for your solution. The default name is [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)].  
   
-     For example, if the [!INCLUDE[nav_server](includes/nav_server_md.md)] is running on the computer that you are working on, then you can use: **http:\/\/localhost:7048\/DynamicsNAV\/OData\/**  
+     For example, if the [!INCLUDE[nav_server](includes/nav_server_md.md)] is running on the computer that you are working on, then you can use: **http://localhost:7048/DynamicsNAV/OData/**  
   
      The browser should now show the web service that you have published, in the format of an AtomPub document.  
   
@@ -89,7 +89,7 @@ This walkthrough illustrates how you can publish a [!INCLUDE[navnow](includes/na
   
 4.  In the Solution Explorer pane, right-click **References**, and then choose **Add Service Reference**.  
   
-5.  In the **Address** field, enter the URI for your OData web service, such as **http:\/\/localhost:7048\/DynamicsNAV\/OData\/**.  
+5.  In the **Address** field, enter the URI for your OData web service, such as **http://localhost:7048/DynamicsNAV/OData/**.  
   
     > [!IMPORTANT]  
     >  In this example, we use the HTTP protocol to illustrate the use of OData web services. We recommend that you use the more secure HTTPS protocol when you consume web services.  

@@ -25,7 +25,7 @@ Shows a list of errors and warnings, including obsolete constructs, that occur i
 |**Object ID**|The ID of the object that caused the error.|  
 |**Object Name**|The name of the object that caused the error.|  
 |**Error Type**|The type, either warning or error.|  
-|**Function\/Trigger**|The function or trigger that the error occurred in.|  
+|**Function/Trigger**|The function or trigger that the error occurred in.|  
 |**Line No.**|The line number in the code where the error is located.|  
 |**Description**|The description of the error.|  
 

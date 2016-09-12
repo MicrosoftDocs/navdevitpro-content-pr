@@ -55,9 +55,9 @@ MESSAGE(FORMAT(Date1));
   
  The message window displays the following:  
   
- **11\/27\/10**  
+ **11/27/10**  
   
- **11\/27\/1810**  
+ **11/27/1810**  
   
 > [!NOTE]  
 >  When you assign a value to a date variable, the value that you assign must be in the correct format for the regional setting of the computer. For example, if the computer is set to English \(United States\), then `Date1 := 271108D;` results in a compiler error.  

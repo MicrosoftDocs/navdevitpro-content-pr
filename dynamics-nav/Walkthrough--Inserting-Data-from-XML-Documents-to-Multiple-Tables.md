@@ -119,7 +119,7 @@ XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)
     |BillToAddress|Element|Field|Sales Header::Bill-to Address|  
     |BillToCity|Element|Field|Sales Header::Bill-to City|  
     |BillToContact|Element|Field|Sales Header::Bill-to Contact|  
-    |BillToCountryRegion|Element|Field|Sales Header::Bill-to Country\/Region Code|  
+    |BillToCountryRegion|Element|Field|Sales Header::Bill-to Country/Region Code|  
     |BillToPostCode|Element|Field|Sales Header::Bill-to Post Code|  
   
      You have mapped the nodes in the **Header** element in the XML document to the fields in the Sales Header table. Next, you map the **Line** node in the XML document to the Sales Line table.  

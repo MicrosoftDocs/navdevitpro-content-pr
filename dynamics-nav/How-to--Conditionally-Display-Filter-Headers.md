@@ -16,7 +16,7 @@ If you apply a filter to the data in a report, then we recommend that you create
   
  To conditionally display the filter header, you must add a filter variable to the report dataset. Next, in the RDLC report layout, you must create a conditional expression on the visibility of the filter header that uses the filter variable that you added to the dataset.  
   
- An example of a report that has additional header rows to display filter information is report 113, **Customer\/Item Sales**.  
+ An example of a report that has additional header rows to display filter information is report 113, **Customer/Item Sales**.  
   
 ### To hide non-filtered headers  
   

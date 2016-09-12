@@ -17,8 +17,8 @@ With [!INCLUDE[navnow](includes/navnow_md.md)] queries, you can retrieve records
 ## Sample Tables and Query  
  This topic uses the following sample tables and query to demonstrate data item links.  
   
-### Salesperson\/Purchaser Table  
- The Salesperson\/Purchaser table contains a list of salespersons. Each salesperson is identified by a unique code  
+### Salesperson/Purchaser Table  
+ The Salesperson/Purchaser table contains a list of salespersons. Each salesperson is identified by a unique code  
   
 |Code|Name|  
 |----------|----------|  
@@ -38,7 +38,7 @@ With [!INCLUDE[navnow](includes/navnow_md.md)] queries, you can retrieve records
 |4000|New Concepts||  
   
 ### Sample Query  
- The following illustration shows the Query Designer for a query that links the Sale Header table with the Salesperson\/Purchaser table on the **Salesperson\_Code** and **Code** columns, as specified by the DataItemLink property. In the illustration, the DataItemLinkType property is set to **Exclude Row If No Match**. You can set the property to **Always Include** to change the resulting dataset as described in this topic.  
+ The following illustration shows the Query Designer for a query that links the Sale Header table with the Salesperson/Purchaser table on the **Salesperson\_Code** and **Code** columns, as specified by the DataItemLink property. In the illustration, the DataItemLinkType property is set to **Exclude Row If No Match**. You can set the property to **Always Include** to change the resulting dataset as described in this topic.  
   
  ![Query Designer inner join](media/QueryJoin_InnerJoin.png "QueryJoin\_InnerJoin")  
   
@@ -54,7 +54,7 @@ With [!INCLUDE[navnow](includes/navnow_md.md)] queries, you can retrieve records
 > [!NOTE]  
 >  By default, the DataItemLinkType property is set to **Use Default Values If No Match**.  
   
- For example, the following illustration shows the Query Designer and **Properties** window for linking the Sales Header table to the Salesperson\/Purchaser table. You set the DataItemLink property and the DataItemLinkType property on the Sales Header data item because it is the lower data item in Query Designer.  
+ For example, the following illustration shows the Query Designer and **Properties** window for linking the Sales Header table to the Salesperson/Purchaser table. You set the DataItemLink property and the DataItemLinkType property on the Sales Header data item because it is the lower data item in Query Designer.  
   
  ![Query Designer showing link between 2 data items](media/NAV_Query_Designer_Sample_DataItemLink.png "NAV\_Query\_Designer\_Sample\_DataItemLink")  
   

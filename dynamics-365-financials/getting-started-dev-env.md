@@ -13,11 +13,15 @@ ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
 caps.latest.revision: 18
 ---
 # Getting Started Developing
+To get started developing extensions for Dynamics 365 for Financials there are a number of prerequisites...
 
-  
++ Download Visual Studio Code https://code.visualstudio.com/ 
++ Developer license to Dynamics NAV 2017
++ more...
  
   
 ## See Also  
- [Pages](../dynamics-nav/Pages.md)   
- [How to: Create a Page](../dynamics-nav/How%20to:%20Create%20a%20Page.md)   
- [Properties](../dynamics-nav/Properties.md)
+[Page Object](page-object.md) 
+[Pages](../dynamics-nav/Pages.md)   
+[How to: Create a Page](../dynamics-nav/How%20to:%20Create%20a%20Page.md)   
+[Properties](../dynamics-nav/Properties.md)

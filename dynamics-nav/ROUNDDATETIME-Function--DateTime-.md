@@ -76,7 +76,7 @@ MESSAGE(TEXT000, Format(DateTimeToRound,0,FormatString), Precision, Format(Resul
   
  The message window displays the following:  
   
- **ROUNDDATETIME\(11\/27\/08 09:35:24.567, 1000\) returns 11\/27\/08 09:35:25.000.**  
+ **ROUNDDATETIME\(11/27/08 09:35:24.567, 1000\) returns 11/27/08 09:35:25.000.**  
   
 ## See Also  
  [DateTime Functions](DateTime-Functions.md)   

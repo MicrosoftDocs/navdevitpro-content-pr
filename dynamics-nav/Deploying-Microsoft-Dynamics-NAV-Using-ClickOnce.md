@@ -130,7 +130,7 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](inc
   
      Both are available on the Microsoft Download Center. You can download Microsoft Report Viewer at [Microsoft Report Viewer 2015 RUNTIME](http://go.microsoft.com/fwlink/?LinkID=536665). Microsoft System CLR Types for SQL Server 2014 is available as part of the Microsoft SQL Server 2014 Feature Pack, which you can download at [Microsoft SQL Server 2014 Feature Pack](http://go.microsoft.com/fwlink/?LinkID=536666).  
   
-     Microsoft Report Viewer 2015 is available on download at [http:\/\/go.microsoft.com\/fwlink\/?LinkID=536665](http://go.microsoft.com/fwlink/?LinkID=536665).  
+     Microsoft Report Viewer 2015 is available on download at [http://go.microsoft.com/fwlink/?LinkID=536665](http://go.microsoft.com/fwlink/?LinkID=536665).  
   
 8.  Update the application manifest. The application manifest lists the files that are part of the installation.  
   
@@ -186,14 +186,14 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](inc
     > [!NOTE]  
     >  Do not run the deployment from *C:\\fileshare\\clickonce\\Deployment\\Microsoft.Dynamics.Nav.Client.application*. This will give you an error that the deployment and application are in different security zones.  
   
-14. Verify that everything works as expected. The ClickOnce files are typically installed under C:\\Users\\*user name*\\AppData\\Local\\Apps. In the next step, you will have to know where these files are installed, so locate the files by searching for **Microsoft.Dynamics.Nav.Client.exe** under that folder or by typing: **dir \/s Microsoft.Dynamics.Nav.Client.exe**.  
+14. Verify that everything works as expected. The ClickOnce files are typically installed under C:\\Users\\*user name*\\AppData\\Local\\Apps. In the next step, you will have to know where these files are installed, so locate the files by searching for **Microsoft.Dynamics.Nav.Client.exe** under that folder or by typing: **dir /s Microsoft.Dynamics.Nav.Client.exe**.  
   
 15. As a final verification, we recommend that you compare the files that were installed by ClickOnce, in the folder you searched for, to the files that were installed by the MSI installer in *C:\\Program Files\\...*. There will be some differences. For example, there will be multiple manifest files in the ClickOnce folder. You should review these differences and make sure they are as expected. For example, if you see a .DLL file in one folder, but not the other, this could cause an error.  
   
  In addition to creating the installer itself, you should require end users to read and accept Microsoft’s software license terms \(SLT\) as part of the installation experience.  
   
 ### Deploying Using ClickOnce Hosting on a Web Server  
- Hosting on a web server is similar to hosting on a file share. Using the steps outlined in the previous section, you should note that the two links in the deployment manifest should point to the *http:\/\/* address, instead of a *\\\\fileshare* address. This is the only change that you need to make to the files.  
+ Hosting on a web server is similar to hosting on a file share. Using the steps outlined in the previous section, you should note that the two links in the deployment manifest should point to the *http://* address, instead of a *\\\\fileshare* address. This is the only change that you need to make to the files.  
   
  All the logic needed for requesting user permissions to install or check for upgrades happens on the client computer. The web server works like a file repository.  
   
@@ -275,7 +275,7 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](inc
   
 -   **Internal deployment** - If you host the ClickOnce deployment on an internal file share or website, we recommend that you sign the ClickOnce deployment so that end users will not see an **Unknown publisher** message during installation. However, it is also acceptable not to sign the ClickOnce deployment.  
   
--   **Public deployment** - If you host the ClickOnce deployment in a public location, we recommend that you sign the ClickOnce deployment and host it on a secure website \(*https:\/\/*\). Taking these precautions will reduce the risk of end users installing applications from bad sources and locations.  
+-   **Public deployment** - If you host the ClickOnce deployment in a public location, we recommend that you sign the ClickOnce deployment and host it on a secure website \(*https://*\). Taking these precautions will reduce the risk of end users installing applications from bad sources and locations.  
   
 ###  <a name="Limitations"></a> Limitations of ClickOnce Installed on the Microsoft Dynamics NAV Windows Client  
  The following are limitations of ClickOnce installed on the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
@@ -294,7 +294,7 @@ This document contains instructions for deploying the [!INCLUDE[nav_windows](inc
   
 -   An end user cannot disable the navigation pane.  
   
- **Hyperlinks** - The protocol handler *dynamicsnav:\/\/* is not registered during ClickOnce installation, which means that the [!INCLUDE[navnow](includes/navnow_md.md)] client cannot be activated by choosing a hyperlink. This could impact the following scenarios:  
+ **Hyperlinks** - The protocol handler *dynamicsnav://* is not registered during ClickOnce installation, which means that the [!INCLUDE[navnow](includes/navnow_md.md)] client cannot be activated by choosing a hyperlink. This could impact the following scenarios:  
   
 -   End users cannot send each other links to specific pages.  
   

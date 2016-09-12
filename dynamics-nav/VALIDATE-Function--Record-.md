@@ -53,7 +53,7 @@ Record.VALIDATE(Field [, NewValue])
   
 |Variable|Data type|Subtype|  
 |--------------|---------------|-------------|  
-|GeneralLedgerEntry|Record|G\/L Entry|  
+|GeneralLedgerEntry|Record|G/L Entry|  
   
 ```  
 GeneralLedgerEntry.VALIDATE("G/L AccountNo", '100');  

@@ -64,7 +64,7 @@ finsql.exe command=exporttranslate, file=<exportfile>, [servername=<server>,] [d
 |Name|Any valid object name|"Name=Cost Entry"|  
 |Modified|yes, no, 1, 0|Modified=yes|  
 |Compiled|yes, no, 1, 0|Compiled=0|  
-|Date|Date, in the numeric format determined by your regional settings|"Date=12\/1\/2012"|  
+|Date|Date, in the numeric format determined by your regional settings|"Date=12/1/2012"|  
 |Time|Time, in the numeric format determined by your regional settings|"Time=12:00:00"|  
 |Version List|Any valid version|"Version List=NAVW17.00"|  
 |Caption|Any valid caption|"Caption=Company Information"|  

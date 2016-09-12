@@ -323,7 +323,7 @@ In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)
 
 2.  In the address box, type the following URL:  
 
-     **http:\/\/ComputerName:PortNumber\/DynamicsNAV90\/WebClient\/Default.aspx**  
+     **http://ComputerName:PortNumber/DynamicsNAV90/WebClient/Default.aspx**  
 
     -   Substitute **ComputerName** with the name of the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  
 

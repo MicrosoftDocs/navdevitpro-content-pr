@@ -70,13 +70,13 @@ Sets the formats of the source expression for various data types.
 |---------------|----------------------|  
 |Decimal|Sign, Integer, Decimals, Integer Thousand|  
 |Date|Day, Month, Month Text, Quarter, Year, Year4, Week, Week Year, Week Year4, Weekday, Weekday Text, Closing|  
-|Time|Hours24, Hours12, Minutes, Seconds, Thousands, AM\/PM, Second dec|  
-|DateTime|Day, Month, Month Text, Quarter, Year, Year4, Week, Week Year, Week Year4, Weekday, Weekday Text, Hours24, Hours12, Minutes, Seconds, Thousands, AM\/PM, Second dec **Note:**  "Second dec" specifies a fraction of a second, in decimal format.|  
+|Time|Hours24, Hours12, Minutes, Seconds, Thousands, AM/PM, Second dec|  
+|DateTime|Day, Month, Month Text, Quarter, Year, Year4, Week, Week Year, Week Year4, Weekday, Weekday Text, Hours24, Hours12, Minutes, Seconds, Thousands, AM/PM, Second dec **Note:**  "Second dec" specifies a fraction of a second, in decimal format.|  
 |Integer, BigInteger|Sign, Integer, Integer Thousand|  
 |Boolean|Text, Number|  
 |Option|Text, Number|  
 |Code|Text|  
-|Char|Char\/Number, Char, Number|  
+|Char|Char/Number, Char, Number|  
 |Text|Text|  
   
 ### Example  
@@ -106,7 +106,7 @@ Sets the formats of the source expression for various data types.
     >  The settings that are specified under the Regional and Language Options in Windows determine how some separators are displayed.  
   
 ## Standard Formats  
- The following tables list the predefined formats for each data type. This table shows the standard Decimal formats with the regional setting of a European country\/region.  
+ The following tables list the predefined formats for each data type. This table shows the standard Decimal formats with the regional setting of a European country/region.  
   
 |**Europe Decimal**|**Format**|**Example**|  
 |------------------------|----------------|-----------------|  
@@ -128,7 +128,7 @@ Sets the formats of the source expression for various data types.
 |\<Integer>\<Decimals>\<Sign,1>|4|76543.21-|  
 |XML format|9|-76543.21|  
   
- The following table shows the standard Date formats with the regional setting of a European country\/region.  
+ The following table shows the standard Date formats with the regional setting of a European country/region.  
   
 |**Europe Date**|**Format**|**Example**|  
 |---------------------|----------------|-----------------|  
@@ -146,17 +146,17 @@ Sets the formats of the source expression for various data types.
   
 |**US Date**|**Format**|**Example**|  
 |-----------------|----------------|-----------------|  
-|\<Closing>\<Month,2>\/\<Day,2>\/\<Year>|0|04\/05\/03|  
-|\<Closing>\<Month,2>\/\<Day,2>\/\<Year>|1|04\/05\/03|  
+|\<Closing>\<Month,2>/\<Day,2>/\<Year>|0|04/05/03|  
+|\<Closing>\<Month,2>/\<Day,2>/\<Year>|1|04/05/03|  
 |\<Month,2>\<Day,2>\<Year>\<Closing>D|2|040503D|  
-|\<Closing>\<Year>\/\<Month,2>\/\<Day,2>|3|03\/04\/05|  
+|\<Closing>\<Year>/\<Month,2>/\<Day,2>|3|03/04/05|  
 |\<Month Text> \<Closing>\<Day>, \<Year4>|4|April 5, 2003|  
 |\<Closing>\<Month,2>\<Day,2>\<Year>|5|040503|  
 |\<Closing>\<Year>\<Month,2>\<Day,2>|6|030405|  
 |\<Day,2>\<Filler Character, >. \<Month Text,3> \<Year4>|7|5. Apr 2003|  
 |XML format|9|2003-04-05|  
   
- The following table shows the standard Time formats with the regional setting of a European country\/region.  
+ The following table shows the standard Time formats with the regional setting of a European country/region.  
   
 |**Europe Time**|**Format**|**Example**|  
 |---------------------|----------------|-----------------|  
@@ -169,12 +169,12 @@ Sets the formats of the source expression for various data types.
   
 |**US Time**|**Format**|**Example**|  
 |-----------------|----------------|-----------------|  
-|\<Hours12>:\<Minutes,2>:\<Seconds,2>\<Second dec.> \<AM\/PM>|0|4:35:55 AM|  
-|\<Hours12>:\<Minutes,2>:\<Seconds,2>\<Second dec.> \<AM\/PM>|1|4:35:55.553 AM|  
+|\<Hours12>:\<Minutes,2>:\<Seconds,2>\<Second dec.> \<AM/PM>|0|4:35:55 AM|  
+|\<Hours12>:\<Minutes,2>:\<Seconds,2>\<Second dec.> \<AM/PM>|1|4:35:55.553 AM|  
 |\<Hours24,2>\<Filler Character,0>\<Minutes,2>\<Seconds,2> \<Second dec.>T|2|043555 .553T|  
 |XML format|9|04:35:55.553|  
   
- The following table shows the standard DateTime formats with the regional setting of a European country\/region.  
+ The following table shows the standard DateTime formats with the regional setting of a European country/region.  
   
 |**Europe DateTime**|**Format**|**Example**|  
 |-------------------------|----------------|-----------------|  
@@ -188,10 +188,10 @@ Sets the formats of the source expression for various data types.
   
 |**US DateTime**|**Format**|**Example**|  
 |---------------------|----------------|-----------------|  
-|\<Month,2>\/\<Day,2>\/\<Year> \<Hours12,2>:\<Minutes,2> \<AM\/PM>|0|04\/05\/03 04:35 AM|  
-|\<Month,2>\/\<Day,2>\/\<Year> \<Hours12,2>:\<Minutes,2>:\<Seconds,2>\<Second dec> \<AM\/PM>|1|04\/05\/03 04:35:55.553 AM|  
-|\<Month,2>\/\<Day,2>\/\<Year> \<Hours12,2>:\<Minutes,2> \<AM\/PM>|2|04\/05\/03 04:35 AM|  
-|\<Month,2>\/\<Day,2>\/\<Year> \<Hours12,2>:\<Minutes,2>:\<Seconds,2> \<AM\/PM>|3|04\/05\/03 04:35:55 AM|  
+|\<Month,2>/\<Day,2>/\<Year> \<Hours12,2>:\<Minutes,2> \<AM/PM>|0|04/05/03 04:35 AM|  
+|\<Month,2>/\<Day,2>/\<Year> \<Hours12,2>:\<Minutes,2>:\<Seconds,2>\<Second dec> \<AM/PM>|1|04/05/03 04:35:55.553 AM|  
+|\<Month,2>/\<Day,2>/\<Year> \<Hours12,2>:\<Minutes,2> \<AM/PM>|2|04/05/03 04:35 AM|  
+|\<Month,2>/\<Day,2>/\<Year> \<Hours12,2>:\<Minutes,2>:\<Seconds,2> \<AM/PM>|3|04/05/03 04:35:55 AM|  
 |XML format **Warning:**  A DateTime is stored in the database as Coordinated Universal Time \(UTC\). For example, on a computer in the \(UTC-08:00\) Pacific Time zone, UTC is eight hours later than local time on the computer.|9|2003-04-05T12:35:55.553Z|  
   
 |**Integer and BigInteger**|**Format**|**Example**|  
@@ -203,10 +203,10 @@ Sets the formats of the source expression for various data types.
   
 |**Boolean**|**Format**|**Example**|  
 |-----------------|----------------|-----------------|  
-|\<Text>|0|Yes\/No|  
-|\<Text>|1|Yes\/No|  
-|\<Number>|2|1\/0|  
-|XML format|9|true\/false|  
+|\<Text>|0|Yes/No|  
+|\<Text>|1|Yes/No|  
+|\<Number>|2|1/0|  
+|XML format|9|true/false|  
   
 |**Option**|**Format**|**Example**|  
 |----------------|----------------|-----------------|  
@@ -217,7 +217,7 @@ Sets the formats of the source expression for various data types.
   
  Standard format 9 is used to display the data in the standard XML formats.  
   
- For Chars, all formats should resemble the following: \<Char\/Number>.  
+ For Chars, all formats should resemble the following: \<Char/Number>.  
   
  For Text and Code, all formats should resemble the following: \<Text>.  
   

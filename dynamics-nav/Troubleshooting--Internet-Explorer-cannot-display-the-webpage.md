@@ -25,7 +25,7 @@ When you try to access Microsoft Dynamics NAV Web Client you get the following m
   
 2.  Use the Internet Information Services \(IIS\) Manager to start or restart the [!INCLUDE[nav_web](includes/nav_web_md.md)] website.  
   
-3.  If the computer that is running the [!INCLUDE[nav_web](includes/nav_web_md.md)] website has Windows Firewall turned on, then verify that there is an inbound rule that allows connections on the TCP\/IP port that is used by the website.  
+3.  If the computer that is running the [!INCLUDE[nav_web](includes/nav_web_md.md)] website has Windows Firewall turned on, then verify that there is an inbound rule that allows connections on the TCP/IP port that is used by the website.  
   
      For more information, see [How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client](How%20to:%20Create%20an%20Inbound%20Rule%20in%20Windows%20Firewall%20for%20the%20Port%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client.md)  
   

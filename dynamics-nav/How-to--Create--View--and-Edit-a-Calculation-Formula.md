@@ -42,15 +42,15 @@ The following procedure describes the steps to take to create and revise a calcu
   
 10. On each line in this window, you can define a field filter. For each field filter, specify a field, a type, and a value. You can also set the **OnlyMaxLimit** and the **ValueIsFilter** options.  
   
- The following example illustrates where the information in the **Table Filter** window comes from. The **Balance at Date** field in the **G\/L Account** table is a decimal type **FlowField**. This field is calculated from values in the **Amount Column** in the **G\/L Entry** table.  
+ The following example illustrates where the information in the **Table Filter** window comes from. The **Balance at Date** field in the **G/L Account** table is a decimal type **FlowField**. This field is calculated from values in the **Amount Column** in the **G/L Entry** table.  
   
  ![](media/NAV_ADG_6_Diag_4.gif "NAV\_ADG\_6\_Diag\_4")  
   
- Some of the fields in the **G\/L Account** table are **FlowFilter** fields. By entering filter expressions into these fields, the user can affect the calculation of **FlowFields** field, such as **Balance at Date**, at run time. The user can enter filter values on a **FlowFilter** page.  
+ Some of the fields in the **G/L Account** table are **FlowFilter** fields. By entering filter expressions into these fields, the user can affect the calculation of **FlowFields** field, such as **Balance at Date**, at run time. The user can enter filter values on a **FlowFilter** page.  
   
  ![G&#47;L Account FlowFilter window](media/NAV_ADG_6_Table_22.gif "NAV\_ADG\_6\_Table\_22")  
   
- If the user enters a date filter expression in the **Date Filter** field, it is transferred via the table filter and used in the **Date** column in the **G\/L Entry** table.  
+ If the user enters a date filter expression in the **Date Filter** field, it is transferred via the table filter and used in the **Date** column in the **G/L Entry** table.  
   
  You can use the **OnlyMaxLimit** option to remove the lower limit from a range defined by a filter expression. For example, if the filter expression is defined as a range **x..y**, setting the **OnlyMaxLimit** option transforms the expression into **..y**.  
   

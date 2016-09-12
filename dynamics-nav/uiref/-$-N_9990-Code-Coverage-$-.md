@@ -45,15 +45,15 @@ Specifies the extent to which the application code is covered by tests. You use 
 ## Monitoring Code Coverage  
  Code coverage is the means of being able to track which part of the application code has been exercised during test activity. In [!INCLUDE[navnow](../includes/navnow_md.md)], code coverage is recorded by C/AL code line and specifies if a code line was exercised by test and the number of times the line of code was recorded.  
 
- To start monitoring code coverage, choose **Start**. This starts the code coverage engine, and code coverage is captured. However, you will not be able to see any updated information until you choose **Refresh** or **Stop**. The information contains coverage of objects, triggers and functions, and individual lines of code or empty lines as determined by the column **Line Type**. Only lines of type **Code** can have coverage. Lines of type **Trigger\/Function** show the average coverage of all code lines in the trigger or function. Lines of type **Object** show the average coverage of all code lines inside the object. The following table illustrates the result of a code coverage run:  
+ To start monitoring code coverage, choose **Start**. This starts the code coverage engine, and code coverage is captured. However, you will not be able to see any updated information until you choose **Refresh** or **Stop**. The information contains coverage of objects, triggers and functions, and individual lines of code or empty lines as determined by the column **Line Type**. Only lines of type **Code** can have coverage. Lines of type **Trigger/Function** show the average coverage of all code lines in the trigger or function. Lines of type **Object** show the average coverage of all code lines inside the object. The following table illustrates the result of a code coverage run:  
 
 |Code|Coverage %|Line Type|  
 |----------|----------------|---------------|  
 |Table Currency \(4\)|20,00|Object|  
-|OnModify\(\)|0,00|Trigger\/Function|  
-|OnDelete\(\)|0,00|Trigger\/Function|  
-|OnRename\(\)|0,00|Trigger\/Function|  
-|InitRoundingPrecision\(\)|81,82|Trigger\/Function|  
+|OnModify\(\)|0,00|Trigger/Function|  
+|OnDelete\(\)|0,00|Trigger/Function|  
+|OnRename\(\)|0,00|Trigger/Function|  
+|InitRoundingPrecision\(\)|81,82|Trigger/Function|  
 
  In this example, the activity exercised 20% of the **\($ T\_4 Currency $\)** table, including 81,82% of the `InitRoundingPrecision` function.You can then expand the section for `InitRoundingPrecision` to investigate the code coverage for each line of code in this function.  
 

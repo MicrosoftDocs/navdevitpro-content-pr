@@ -41,7 +41,7 @@ By default, [!INCLUDE[navnow](includes/navnow_md.md)] automatically buffers inse
   
     -   Fields with the **AutoIncrement** property set to **Yes**  
   
- The following code example cannot use buffered inserts because it contains a `FIND` call on the **GL\/Entry** table within the loop.  
+ The following code example cannot use buffered inserts because it contains a `FIND` call on the **GL/Entry** table within the loop.  
   
 ```  
 IF (JnlLine.FIND('-')) THEN BEGIN  

@@ -30,7 +30,7 @@ This procedure describes how to administer multiple [!INCLUDE[nav_server](includ
     mmc  
     ```  
   
-5.  In the Management Console, on the **File** menu, choose **Add\/Remove Snap-in** to open the **Add or remove Snap-ins** dialog box.  
+5.  In the Management Console, on the **File** menu, choose **Add/Remove Snap-in** to open the **Add or remove Snap-ins** dialog box.  
   
 6.  In the **Available snap-ins** list, double-click **Microsoft Dynamics NAV**.  
   

@@ -37,7 +37,7 @@ RecordRefVar.GETTABLE(RecordVar)
  Another way to select the table to which a RecordRef refers is to use the [OPEN Function \(RecordRef\)](OPEN-Function--RecordRef-.md) and specify a table number in the parameters.  
   
 ## Example  
- The following example is an excerpt from codeunit 8, AccSchedManagement. It iterates through records in the G\/L Account table. It sets some values on the fields of a new record in the Acc. Schedule Line table based on the current G\/L Account record and inserts the new record into the Acc. Schedule Line table. It calls GETTABLE to cause a RecordRef variable to refer to the same table as the new Acc. Schedule Line record, and then calls the LogInsertion function from codeunit 423, Change Log Management to log the change. The LogInsertion function requires a RecordRef as a parameter.  
+ The following example is an excerpt from codeunit 8, AccSchedManagement. It iterates through records in the G/L Account table. It sets some values on the fields of a new record in the Acc. Schedule Line table based on the current G/L Account record and inserts the new record into the Acc. Schedule Line table. It calls GETTABLE to cause a RecordRef variable to refer to the same table as the new Acc. Schedule Line record, and then calls the LogInsertion function from codeunit 423, Change Log Management to log the change. The LogInsertion function requires a RecordRef as a parameter.  
   
  This example requires that you create the following variables.  
   
@@ -45,7 +45,7 @@ RecordRefVar.GETTABLE(RecordVar)
 |-------------------|--------------|-------------|  
 |AccSchedLine|Record|Acc. Schedule Line|  
 |AccSchedLineNo|Integer|Not applicable|  
-|GLAcc|Record|G\/L Account|  
+|GLAcc|Record|G/L Account|  
 |RecRef|RecordRef|Not applicable|  
 |ChangeLogMgt|Codeunit|Change Log Management|  
   

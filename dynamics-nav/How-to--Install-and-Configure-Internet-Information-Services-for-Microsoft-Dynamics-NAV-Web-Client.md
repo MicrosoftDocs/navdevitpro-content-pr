@@ -82,7 +82,7 @@ This topic describes how to install and configure Internet Information Service \
   
 9. In the **Windows features** list, expand **Microsoft .NET Framework**, and then select **Windows Communication Foundation HTTP Activation**.  
   
-10. To verify that the web server has been installed correctly, start your browser, and then type **http:\/\/localhost** in the address.  
+10. To verify that the web server has been installed correctly, start your browser, and then type **http://localhost** in the address.  
   
      The default web site opens and should display an IIS 7 image. If the IIS 7 image does not appear, then verify that you have configured static content on IIS, as described in step 6.  
   
@@ -134,7 +134,7 @@ This topic describes how to install and configure Internet Information Service \
   
 10. When the installation is complete, choose the **Close** button.  
   
-11. To verify that the web server has been installed correctly, start your browser, and then type **http:\/\/localhost** in the address.  
+11. To verify that the web server has been installed correctly, start your browser, and then type **http://localhost** in the address.  
   
      The default website opens and should display an IIS 7 image. If the IIS 7 image does not appear, then verify that you have configured static content on IIS, as described in step 5.  
   
@@ -207,7 +207,7 @@ This topic describes how to install and configure Internet Information Service \
   
 7.  Choose the **OK** button to complete the installation.  
   
-8.  To verify that the web server has been installed correctly, start your browser, and then type **http:\/\/localhost** in the address.  
+8.  To verify that the web server has been installed correctly, start your browser, and then type **http://localhost** in the address.  
   
      The default web site opens and should display an IIS 8 image.  
   
@@ -306,7 +306,7 @@ This topic describes how to install and configure Internet Information Service \
   
 17. On the **Installation progress** page, confirm that your installation completed successfully, and then choose the **Close** button.  
   
-18. To verify that the web server has been installed correctly, start your browser, and then type **http:\/\/localhost** in the address.  
+18. To verify that the web server has been installed correctly, start your browser, and then type **http://localhost** in the address.  
   
      The default website opens and should display an IIS 8 image.  
   

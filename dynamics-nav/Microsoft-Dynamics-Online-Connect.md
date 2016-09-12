@@ -25,7 +25,7 @@ If your installation includes both the [!INCLUDE[nav_windows](includes/nav_windo
   
 -   Some license information, but not the license number  
   
--   Country\/region version  
+-   Country/region version  
   
 -   Language  
   

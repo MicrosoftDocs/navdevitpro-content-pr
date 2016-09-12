@@ -73,7 +73,7 @@ Record.CHANGECOMPANY(NewCompany);
 "G/L Entry".DELETE; // Deletes this entry in 'New Company'  
 ```  
   
- This example shows that after the **CHANGECOMPANY** function has been called, all future references to the G\/L Account and G\/L Entry tables will refer to the table data in New Company.  
+ This example shows that after the **CHANGECOMPANY** function has been called, all future references to the G/L Account and G/L Entry tables will refer to the table data in New Company.  
   
 ## Example  
  This example shows that CHANGECOMPANY only changes the company on a data level. Triggers and functions will still run in the context of the current company.  

@@ -415,7 +415,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
 |OnAfterTransferRecordFields|Occurs after transferring modified field data \(which are defined in the Integration Field Mapping table\) from the source table to the destination table. It can be used to transfer additional data, validate lookups, and so on. Setting the **AdditionalFieldsWereModified** parameter will cause a destination record modification even if no fields were modified.|  
 |OnBeforeInsertRecord|Occurs before inserting a new destination record, and can be used to initialize fields, such as primary keys.|  
 |OnAfterInsertRecord|Occurs after new destination record is inserted, and can be used to perform post-insert operations such as updating related data.|  
-|OnBeforeModifyRecord|Occurs before modifying an existing destination record, and can be used to validate\/change data before modification.|  
+|OnBeforeModifyRecord|Occurs before modifying an existing destination record, and can be used to validate/change data before modification.|  
 |OnAfterModifyRecord|Occurs after an existing destination record is modified, and can be used to perform post-modify operations such as updating related data.|  
 
  For the synchronization of campaigns, you will use an event to create a custom rule that sets the **Comment** field in a [!INCLUDE[navnow](includes/navnow_md.md)] campaign to **TRUE** if the **Message** field in a [!INCLUDE[crm](includes/crm_md.md)] campaign has data. You do this by subscribing to the **OnAfterTransferRecordFields** event that is published by codeunit **5335 Integration Table Synch**.  

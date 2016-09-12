@@ -19,17 +19,17 @@ After installing and configuring [!INCLUDE[navnow](includes/navnow_md.md)] softw
  This topic describes configuration changes that you can try to resolve SQL Server connection problems.  
   
 ## Enable Protocols in SQL Server Configuration Manager  
- SQL Server Configuration Manager is a tool for managing SQL Server services and network connectivity. You can use SQL Server Configuration Manager to enable and disable network protocols. For [!INCLUDE[navnow](includes/navnow_md.md)] to work correctly, the Named Pipes and TCP\/IP protocols must be enabled for SQL Server.  
+ SQL Server Configuration Manager is a tool for managing SQL Server services and network connectivity. You can use SQL Server Configuration Manager to enable and disable network protocols. For [!INCLUDE[navnow](includes/navnow_md.md)] to work correctly, the Named Pipes and TCP/IP protocols must be enabled for SQL Server.  
   
  Follow these steps to verify that these protocols are enabled or to enable them if they are currently disabled.  
   
-#### To enable Named Pipes and TCP\/IP in SQL Server  
+#### To enable Named Pipes and TCP/IP in SQL Server  
   
 1.  Start SQL Server Configuration Manager.  
   
 2.  Expand the SQL Server Network Configuration node in the tree view, and then choose **Protocols for MSSQLSERVER**.  
   
-3.  Under **Protocol Name** in the right pane, verify that **Named Pipes** and **TCP\/IP** have the status **Enabled**.  
+3.  Under **Protocol Name** in the right pane, verify that **Named Pipes** and **TCP/IP** have the status **Enabled**.  
   
 4.  If either protocol is not enabled, right-click the protocol, and then choose **Enable**.  
   

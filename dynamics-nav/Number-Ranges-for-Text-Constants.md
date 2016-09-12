@@ -53,7 +53,7 @@ manager: edupont
 |[!INCLUDE[navnow](includes/navnow_md.md)] - Brazil|1,300,000|1,309,999|  
 |[!INCLUDE[navnow](includes/navnow_md.md)] - Mexico|1,310,000|1,319,999|  
 |[!INCLUDE[navnow](includes/navnow_md.md)] - Croatia|1,320,000|1,329,999|  
-|[!INCLUDE[navnow](includes/navnow_md.md)] - North Africa\/Middle East|1,330,000|1,339,999|  
+|[!INCLUDE[navnow](includes/navnow_md.md)] - North Africa/Middle East|1,330,000|1,339,999|  
 |[!INCLUDE[navnow](includes/navnow_md.md)] - Thailand|1,340,000|1,349,999|  
 |[!INCLUDE[navnow](includes/navnow_md.md)] - Malaysia|1,350,000|1,359,999|  
 |[!INCLUDE[navnow](includes/navnow_md.md)] - Hungary|1,360,000|1,369,999|  

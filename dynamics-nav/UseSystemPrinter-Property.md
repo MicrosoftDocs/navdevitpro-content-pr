@@ -23,7 +23,7 @@ Sets which printer is suggested when the report is run.
 ## Remarks  
  The user will be able to select another printer at runtime if the [UseRequestPage Property](UseRequestPage-Property.md) is **Yes**.  
   
- If the UseSystemPrinter property is set to **No**, but there is no specific printer defined for the User\/Report combination, the system default printer will be suggested.  
+ If the UseSystemPrinter property is set to **No**, but there is no specific printer defined for the User/Report combination, the system default printer will be suggested.  
   
 ## See Also  
  [UseRequestPage Property](UseRequestPage-Property.md)

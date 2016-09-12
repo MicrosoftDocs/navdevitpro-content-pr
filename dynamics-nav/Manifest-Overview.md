@@ -209,9 +209,9 @@ int RequestedWidth()
   
 |Resource File Type|Resource Name|Subfolder Name|  
 |------------------------|-------------------|--------------------|  
-|Image file|Blue.png|Image\/Blue.png|  
-|Script file|Script.js|Script\/Script.js|  
-|Style sheet file|StyleSheet.css|StyleSheet\/StyleSheet.css|  
+|Image file|Blue.png|Image/Blue.png|  
+|Script file|Script.js|Script/Script.js|  
+|Style sheet file|StyleSheet.css|StyleSheet/StyleSheet.css|  
   
  In the next example the resource files are described using a relative path in the manifest file:  
   
@@ -228,9 +228,9 @@ int RequestedWidth()
   
 |Resource File Type|Resource Name|Subfolder Name|  
 |------------------------|-------------------|--------------------|  
-|Image file|Images\/Pushpins\/Blue.png|Images\/Pushpins\/Blue.png|  
-|Script file|Scripts\/Script.css|Scripts\/Script.css|  
-|Style sheet file|StyleSheets\/StyleSheet.css|StyleSheets\/StyleSheet.css|  
+|Image file|Images/Pushpins/Blue.png|Images/Pushpins/Blue.png|  
+|Script file|Scripts/Script.css|Scripts/Script.css|  
+|Style sheet file|StyleSheets/StyleSheet.css|StyleSheets/StyleSheet.css|  
   
 ## See Also  
  [Extending Microsoft Dynamics NAV Using Control Add-ins](Extending-Microsoft-Dynamics-NAV-Using-Control-Add-ins.md)   

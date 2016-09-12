@@ -98,11 +98,11 @@ Uninstall-NAVApp -ServerInstance YourDynamicsNAVServer -Path MyNAVExtension.navx
   
 -   **NAV App Object Metadata** – Stores the metadata deltas for an extension.  
   
--   **NAV App Tenant App** – Contains all extensions that are installed to tenants and part of the application database. This table is synchronized with **NAV App Installed App** in the tenant databases and is used to drive runtime decisions about tenant\/app relationships. It is also watched for changes by each [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to support on-the-fly app switching.  
+-   **NAV App Tenant App** – Contains all extensions that are installed to tenants and part of the application database. This table is synchronized with **NAV App Installed App** in the tenant databases and is used to drive runtime decisions about tenant/app relationships. It is also watched for changes by each [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to support on-the-fly app switching.  
   
 -   **NAV App Data Archive** – Points to tables created to archive data for extensions that have been uninstalled. Used to provide access to the data when the extension is reinstalled during an upgrade.  
   
--   **NAV App Installed App** – Contains information about extensions that are installed in this tenant. This lives in the tenant database and is written\/read on mount\/unmount to make sure tenants keep track of their apps even when detached from an application database.  
+-   **NAV App Installed App** – Contains information about extensions that are installed in this tenant. This lives in the tenant database and is written/read on mount/unmount to make sure tenants keep track of their apps even when detached from an application database.  
   
 -   **NAV App** - Contains all extensions that are published to the system. This is part of the application database.  
   
@@ -118,7 +118,7 @@ Uninstall-NAVApp -ServerInstance YourDynamicsNAVServer -Path MyNAVExtension.navx
   
  We also include objects from extensions in the following virtual tables  
   
--   **AllObj, AllObjWithCaption** includes new objects from all installed extensions based on the current session\/tenant.  
+-   **AllObj, AllObjWithCaption** includes new objects from all installed extensions based on the current session/tenant.  
   
 -   **AllObj, AllObjWithCaption** includes the App Package ID field \(empty GUID for base objects, package id GUID if object comes from an extension\)  
   

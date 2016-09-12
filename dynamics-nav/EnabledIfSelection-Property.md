@@ -21,7 +21,7 @@ Sets a value that indicates whether the selected action is enabled or disabled.
 -   Pages  
   
 ## Property Value  
- **Yes**\/**No**  
+ **Yes**/**No**  
   
 ## See Also  
  [EnabledIfError Property](EnabledIfError-Property.md)   

@@ -165,7 +165,7 @@ FOREACH txt IN mylist DO
  Compile and run the [!INCLUDE[navnow](includes/navnow_md.md)] object.  
   
 ### Example 3  
- The following code example iterates through a .NET Framework collection for a dictionary of keys and values and returns each key\/value pair as text in a message.  
+ The following code example iterates through a .NET Framework collection for a dictionary of keys and values and returns each key/value pair as text in a message.  
   
  Create the following local variables in a [!INCLUDE[navnow](includes/navnow_md.md)] object, such as a codeunit.  
   

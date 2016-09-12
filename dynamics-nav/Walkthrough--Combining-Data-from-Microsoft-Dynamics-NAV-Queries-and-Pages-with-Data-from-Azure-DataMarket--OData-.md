@@ -43,7 +43,7 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
 -   A Microsoft account for accessing data from Azure Marketplace. For more information about Microsoft account, see the [What is a Microsoft account?](http://go.microsoft.com/fwlink/?LinkId=271494). To obtain a Microsoft account, go to the [sign-up page](http://go.microsoft.com/fwlink/?LinkId=271493).  
   
 ## Story  
- Victor, the business system developer at [!INCLUDE[demoname](includes/demoname_md.md)], has been asked by his manager Tim to create a data visualization that will show total sales to customers in different countries\/regions, and how those countries\/regions align with Key Development Indicators, which are a measure of national\/regional affluence. Tim tells Victor that he can find information about Key Development Indicators on zure Marketplace. Victor assesses the assignment and decides that he can use OData web services to bring [!INCLUDE[navnow](includes/navnow_md.md)] data to Excel, where he can merge it with economic data from Azure Marketplace.  
+ Victor, the business system developer at [!INCLUDE[demoname](includes/demoname_md.md)], has been asked by his manager Tim to create a data visualization that will show total sales to customers in different countries/regions, and how those countries/regions align with Key Development Indicators, which are a measure of national/regional affluence. Tim tells Victor that he can find information about Key Development Indicators on zure Marketplace. Victor assesses the assignment and decides that he can use OData web services to bring [!INCLUDE[navnow](includes/navnow_md.md)] data to Excel, where he can merge it with economic data from Azure Marketplace.  
   
 ## Creating a [!INCLUDE[navnow](includes/navnow_md.md)] Query  
  You create a query to capture data about sales to individual customers.  
@@ -126,9 +126,9 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
 1.  Start Internet Explorer.  
   
-2.  In the **Address** field, enter a URI in this format: **http:\/\/\<Server>:\<WebServicePort>\/\<ServerInstance>\/OData**.  
+2.  In the **Address** field, enter a URI in this format: **http://\<Server>:\<WebServicePort>/\<ServerInstance>/OData**.  
   
-     For example:**http:\/\/localhost:7048\/DynamicsNAV72\/OData**  
+     For example:**http://localhost:7048/DynamicsNAV72/OData**  
   
      The browser should now show the web services that you have published, in the format of an AtomPub document.  
   
@@ -146,7 +146,7 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
 2.  In PowerPivot, on the **Home** tab, choose **Get External Data**, choose **From Data Service**, and then choose **From OData Data Feed**.  
   
-3.  In the **Data Feed Url** field, enter the OData URI, such as **http:\/\/localhost:7048\/DynamicsNAV72\/OData**. Choose the **Next** button.  
+3.  In the **Data Feed Url** field, enter the OData URI, such as **http://localhost:7048/DynamicsNAV72/OData**. Choose the **Next** button.  
   
 4.  Verify that **Customer** and **SalesOrderInfo** appear in the **Source Table** column. Place a check mark in the left column next to these two rows, and then choose **Finish**.  
   
@@ -223,7 +223,7 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
 7.  Choose the **Run Query** button.  
   
-     You now see a view of the table data. Notice that the table contains two-letter country\/region codes, country\/region names, and additional data about the countries\/regions listed. This data has enough in common with your [!INCLUDE[navnow](includes/navnow_md.md)] data to support a link between the two.  
+     You now see a view of the table data. Notice that the table contains two-letter country/region codes, country/region names, and additional data about the countries/regions listed. This data has enough in common with your [!INCLUDE[navnow](includes/navnow_md.md)] data to support a link between the two.  
   
 8.  Choose **Export** from the narrow column on the right side of the page. Choose **Excel PowerPivot**, and then choose **Download**.  
   
@@ -264,7 +264,7 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
  Start by creating a relationship between the two [!INCLUDE[navnow](includes/navnow_md.md)] data sources: the **Customer** page and the **SalesOrderInfo** query. Both sources have a column that identifies the customer number, so this link is straightforward.  
   
- Then create a relationship between the respective columns on the **Customer** tab and on the **World Development Indicators** tab that use two-letter abbreviations to identify countries\/regions.  
+ Then create a relationship between the respective columns on the **Customer** tab and on the **World Development Indicators** tab that use two-letter abbreviations to identify countries/regions.  
   
 #### To create relationships between data sources  
   
@@ -314,11 +314,11 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
   
      You can design a pivot table by moving values from one to list to another, configuring items in a list, or moving items up or down in a list.  
   
-     Here is what the pivot table looks like at this point. Customers are arranged by country\/region, with total sales amounts.  
+     Here is what the pivot table looks like at this point. Customers are arranged by country/region, with total sales amounts.  
   
      ![PivotTable, first look](media/PivotTable1.JPG "PivotTable1")  
   
-6.  One enhancement is to replace the **Country\_Region\_Code** with the actual name of the country\/region, which is available as a field in the **World Development Indicators** field.  
+6.  One enhancement is to replace the **Country\_Region\_Code** with the actual name of the country/region, which is available as a field in the **World Development Indicators** field.  
   
      Choose **Name** from the **World Development Indicators** field.  
   
@@ -343,7 +343,7 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
 11. Save the pivot table as **Customers by Economic Region.xlsx**.  
   
 ## Next Steps  
- Viktor’s results show that all customers are in countries\/regions that are categorized as “High income.” For a different result, open page 22 Customer List in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and reassign some companies to countries\/regions that are in other income level categories. Then do the following:  
+ Viktor’s results show that all customers are in countries/regions that are categorized as “High income.” For a different result, open page 22 Customer List in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and reassign some companies to countries/regions that are in other income level categories. Then do the following:  
   
 1.  Go the Customer workbook in PowerPivot, choose **Refresh**, and then choose **Refresh All**.  
   

@@ -60,9 +60,9 @@ This walkthrough focuses on publishing a [!INCLUDE[navnow](includes/navnow_md.md
   
 1.  Start Windows Internet Explorer.  
   
-2.  In the **Address** field, enter an address of the following type: **http:\/\/\<Server>:\<WebServicePort>\/\<ServerInstance>\/WS\/\<CompanyName>\/services**. For example:  
+2.  In the **Address** field, enter an address of the following type: **http://\<Server>:\<WebServicePort>/\<ServerInstance>/WS/\<CompanyName>/services**. For example:  
   
-     **http:\/\/localhost:7047\/ DynamicsNAV90\/WS\/CRONUS%20International%20Ltd.\/services**  
+     **http://localhost:7047/ DynamicsNAV90/WS/CRONUS%20International%20Ltd./services**  
   
     > [!NOTE]  
     >  The company name is case-sensitive.  
@@ -89,7 +89,7 @@ This walkthrough focuses on publishing a [!INCLUDE[navnow](includes/navnow_md.md
   
 4.  In Solution Explorer, right-click **References** in the project, and then choose **Add Service Reference**.  
   
-5.  Choose the **Advanced** button, choose the **Add Web Reference** button, type or paste the URL that you used when you checked the WSDL, such as **http:\/\/localhost:7047\/DynamicsNAV90\/WS\/Services**, and then choose **Go**.  
+5.  Choose the **Advanced** button, choose the **Add Web Reference** button, type or paste the URL that you used when you checked the WSDL, such as **http://localhost:7047/DynamicsNAV90/WS/Services**, and then choose **Go**.  
   
 6.  When the **Customer** service is displayed, choose **View Service**, rename **localhost** to **WebService**, and then choose **Add Reference**.  
   

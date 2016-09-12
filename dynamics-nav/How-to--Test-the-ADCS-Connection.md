@@ -50,7 +50,7 @@ The following procedure demonstrates how to use Windows Services and Telnet to t
   
 2.  Enter a name for the connection. Choose the **OK** button.  
   
-3.  In the **Connect Using** list, select **TCP\/IP \(Winsock\)**.  
+3.  In the **Connect Using** list, select **TCP/IP \(Winsock\)**.  
   
 4.  The following table describes the details of a local installation on one machine.  
   

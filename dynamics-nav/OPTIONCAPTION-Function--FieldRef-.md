@@ -39,7 +39,7 @@ OptionCaption := FieldRef.OPTIONCAPTION
  This function returns an error if no field is selected.  
   
 ## Example  
- The following example opens the Item table as a RecordRef variable that is named ItemRecref. and creates a reference to field 19 \(Price\/Profit Calculation field\), which is an Option field. The OPTIONCAPTION function retrieves the caption of the option field and displays the options as a comma separated list. This example requires that you create the following variables in the **C/AL Globals** windows.  
+ The following example opens the Item table as a RecordRef variable that is named ItemRecref. and creates a reference to field 19 \(Price/Profit Calculation field\), which is an Option field. The OPTIONCAPTION function retrieves the caption of the option field and displays the options as a comma separated list. This example requires that you create the following variables in the **C/AL Globals** windows.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

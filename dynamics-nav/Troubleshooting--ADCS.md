@@ -15,7 +15,7 @@ manager: edupont
 This topic lists some common problems that can occur when you use Automated Data Capture Systems for [!INCLUDE[navnow](includes/navnow_md.md)].  
   
 ## HyperTerminal or other Telnet application does not work  
- You have installed all ADCS components correctly, but when you start HyperTerminal or another Telnet application, nothing happens. You also get a warning in the Event Viewer stating that the TCP\/IP address has not been identified. This problem may occur when you have not logged onto the correct domain server.  
+ You have installed all ADCS components correctly, but when you start HyperTerminal or another Telnet application, nothing happens. You also get a warning in the Event Viewer stating that the TCP/IP address has not been identified. This problem may occur when you have not logged onto the correct domain server.  
   
  To resolve this error, make sure that you have logged onto the domain server. Also, review the information provided in the Windows Event Viewer.  
   

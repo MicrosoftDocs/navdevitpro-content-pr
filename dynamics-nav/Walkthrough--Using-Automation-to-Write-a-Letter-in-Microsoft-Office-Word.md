@@ -130,8 +130,8 @@ Automation lets you use the capabilities and features of Microsoft Office produc
   
     |Name|Data type|Subtype|Class|  
     |----------|---------------|-------------|-----------|  
-    |wdDoc|Automation|Microsoft Word 14.0\/15.0 Object Library|Document|  
-    |wdRange|Automation|Microsoft Word 14.0\/15.0  Object Library|Range|  
+    |wdDoc|Automation|Microsoft Word 14.0/15.0 Object Library|Document|  
+    |wdRange|Automation|Microsoft Word 14.0/15.0  Object Library|Range|  
   
 8.  Add the following variables.  
   

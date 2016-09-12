@@ -50,7 +50,7 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] account is used by [!INCLU
   
     1.  Choose **Run** on the Start menu, type **mmc** on the command line, and the choose **OK**.  
   
-    2.  When the console opens, select **Add\/Remove Snap-In** from the File menu, select **Active Directory Users and Computers**, and choose **Add**.  
+    2.  When the console opens, select **Add/Remove Snap-In** from the File menu, select **Active Directory Users and Computers**, and choose **Add**.  
   
          If you do not see **Active Directory Users and Computers** in the list of available snap-ins, you may need to use Server Manager to install the **Active Directory Domain Services** role on your server computer.  
   

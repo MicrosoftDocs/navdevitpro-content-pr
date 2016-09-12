@@ -88,7 +88,7 @@ C/AL has the following types of variables:
 
 -   "1st AddressLine"  
 
--   "Purchase\/Sales"  
+-   "Purchase/Sales"  
 
 -   "Sales in GBP"  
 

@@ -59,7 +59,7 @@ Generates a URL for the specified client target that is based on the configurati
   
  Specifies the ID of the specified object type that the URL must open.  
   
- *Record\/RecordRef*  
+ *Record/RecordRef*  
  Type: Record or RecordRef variable  
   
  The Record or RecordRef variable that specifies which record to open.  
@@ -82,13 +82,13 @@ Generates a URL for the specified client target that is based on the configurati
   
 |Client|URL|  
 |------------|---------|  
-|[!INCLUDE[nav_windows](includes/nav_windows_md.md)]|DynamicsNAV:\/\/*server*:*port*\/*instance*\/\/[!INCLUDE[demoname](includes/demoname_md.md)]|  
-|[!INCLUDE[nav_web](includes/nav_web_md.md)]|https:\/\/*server*:*port*\/*instance*\/WebClient?company='[!INCLUDE[demoname](includes/demoname_md.md)]'\/|  
-|[!INCLUDE[nav_tablet](includes/nav_tablet_md.md)]|ms-dynamicsnav:\/\/*server*:*port*\/*instance*?company=’ [!INCLUDE[demoname](includes/demoname_md.md)]’|  
-|[!INCLUDE[nav_phone](includes/nav_phone_md.md)]|ms-dynamicsnav:\/\/*server*:*port*\/*instance*?company=’ [!INCLUDE[demoname](includes/demoname_md.md)]’|  
-|[!INCLUDE[navnow](includes/navnow_md.md)] Desktop client|ms-dynamicsnav:\/\/*server*:*port*\/*instance*?company=’ [!INCLUDE[demoname](includes/demoname_md.md)]’|  
-|OData|https:\/\/*server*:*port*\/*instance*\/OData\/Company\('[!INCLUDE[demoname](includes/demoname_md.md)]'\)\/|  
-|SOAP|https:\/\/*server*:*port*\/*instance*\/WS\/[!INCLUDE[demoname](includes/demoname_md.md)]|  
+|[!INCLUDE[nav_windows](includes/nav_windows_md.md)]|DynamicsNAV://*server*:*port*/*instance*//[!INCLUDE[demoname](includes/demoname_md.md)]|  
+|[!INCLUDE[nav_web](includes/nav_web_md.md)]|https://*server*:*port*/*instance*/WebClient?company='[!INCLUDE[demoname](includes/demoname_md.md)]'/|  
+|[!INCLUDE[nav_tablet](includes/nav_tablet_md.md)]|ms-dynamicsnav://*server*:*port*/*instance*?company=’ [!INCLUDE[demoname](includes/demoname_md.md)]’|  
+|[!INCLUDE[nav_phone](includes/nav_phone_md.md)]|ms-dynamicsnav://*server*:*port*/*instance*?company=’ [!INCLUDE[demoname](includes/demoname_md.md)]’|  
+|[!INCLUDE[navnow](includes/navnow_md.md)] Desktop client|ms-dynamicsnav://*server*:*port*/*instance*?company=’ [!INCLUDE[demoname](includes/demoname_md.md)]’|  
+|OData|https://*server*:*port*/*instance*/OData/Company\('[!INCLUDE[demoname](includes/demoname_md.md)]'\)/|  
+|SOAP|https://*server*:*port*/*instance*/WS/[!INCLUDE[demoname](includes/demoname_md.md)]|  
   
  In the example, an empty string for the company name is included for clarity. But an even simpler use of GETURL is to only specify the client type as in `url := GETURL(ClientType::Default);`.  
   
@@ -110,8 +110,8 @@ url := GETURL(CURRENTCLIENTTYPE, 'COMPANYNAME', ObjectType::Page, 21, Cust);
   
 |Client|URL|  
 |------------|---------|  
-|[!INCLUDE[nav_windows](includes/nav_windows_md.md)]|DynamicsNAV:\/\/*server*:*port*\/*instance*\/*company*\/runpage?page=21&bookmark=*bookmark*|  
-|[!INCLUDE[nav_web](includes/nav_web_md.md)]|https:\/\/*server*:*port*\/*instance*\/WebClient?*company*&page=21&bookmark=*bookmark*|  
+|[!INCLUDE[nav_windows](includes/nav_windows_md.md)]|DynamicsNAV://*server*:*port*/*instance*/*company*/runpage?page=21&bookmark=*bookmark*|  
+|[!INCLUDE[nav_web](includes/nav_web_md.md)]|https://*server*:*port*/*instance*/WebClient?*company*&page=21&bookmark=*bookmark*|  
 |OData|Not applicable because the client type is set to Current, which is not supported for Odata web services.|  
 |SOAP|Not applicable because the URL for SOAP web services does not support filtering for the record.|  
   
@@ -124,7 +124,7 @@ url := GETURL(ClientType::OData, COMPANYNAME, ObjectType::Page, 21, Cust);
   
  In this example, the following URL is generated for OData web services:  
   
- https:\/\/*server*:*port*\/*instance*\/OData\/Company\('*company*'\)\/Customer\('10000'\)  
+ https://*server*:*port*/*instance*/OData/Company\('*company*'\)/Customer\('10000'\)  
   
  In this example, it is assumed that page 21 is published as an OData web service with the name Customer.  
   
@@ -139,7 +139,7 @@ url := GETURL(CURRENTCLIENTTYPE, COMPANYNAME, ObjectType::Page, 21);
   
  In this example, the following URL is generated for SOAP web services:  
   
- https:\/\/*server*:*port*\/*instance*\/WS\/*company*\/Page\/Customer  
+ https://*server*:*port*/*instance*/WS/*company*/Page/Customer  
   
 ## See Also  
  [How to: Copy the URL to Open a Page or Report](How%20to:%20Copy%20the%20URL%20to%20Open%20a%20Page%20or%20Report.md)   

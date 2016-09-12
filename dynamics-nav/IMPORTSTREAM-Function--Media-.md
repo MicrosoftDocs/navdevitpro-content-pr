@@ -39,9 +39,9 @@ Adds a media type \(MIME\), such as jpeg image, from an InStream object to a **M
  *MimeType*  
  Type: Text  
   
- Specifies the media content type. The *MimeType* value must be a two-part string that consists of a type and subtype, such as *image\/jpeg*, *image\/gif*, or *video\/mpeg*. For more information, see [Supported Media Types](Working-With-Media-on-Records.md#SupportedMediaTypes).  
+ Specifies the media content type. The *MimeType* value must be a two-part string that consists of a type and subtype, such as *image/jpeg*, *image/gif*, or *video/mpeg*. For more information, see [Supported Media Types](Working-With-Media-on-Records.md#SupportedMediaTypes).  
   
- If this parameter is not specified, the IMPORTFILESTREAM function will deduct the MIME type from the file extension. For example the MIME type for a .jpg file is image\/jpeg.  
+ If this parameter is not specified, the IMPORTFILESTREAM function will deduct the MIME type from the file extension. For example the MIME type for a .jpg file is image/jpeg.  
   
 ## Property Value/Return Value  
  Type: GUID  

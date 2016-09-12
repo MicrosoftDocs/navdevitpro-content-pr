@@ -22,7 +22,7 @@ This section describes how you can extend the functionality of [!INCLUDE[navnowl
 |NAV Apps|NAV Apps are a new way to extend and customize a [!INCLUDE[navnow](includes/navnow_md.md)] deployment without the need to directly modify source objects.|[Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)|  
   
 > [!NOTE]  
->  When [!INCLUDE[navnow](includes/navnow_md.md)] data is consumed in a browser or by a Microsoft .NET Framework assembly, users cannot be authenticated if their user name or password contains Unicode characters. This is a limitation in the basic authentication mechanism that is defined in the HTTP\/1.1 specification.  
+>  When [!INCLUDE[navnow](includes/navnow_md.md)] data is consumed in a browser or by a Microsoft .NET Framework assembly, users cannot be authenticated if their user name or password contains Unicode characters. This is a limitation in the basic authentication mechanism that is defined in the HTTP/1.1 specification.  
 >   
 >  The same limitation applies to exposing [!INCLUDE[navnow](includes/navnow_md.md)] data in web services.  
   

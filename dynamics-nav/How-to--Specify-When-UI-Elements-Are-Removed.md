@@ -21,7 +21,7 @@ Depending on the setting in the **UI Elements Removal** field in the [!INCLUDE[n
   
 -   Page parts  
   
- UI elements that are directly related to an object through the **TableRelation** or the **CalcFormula** property can be removed automatically according to the license file and\/or user permissions.  
+ UI elements that are directly related to an object through the **TableRelation** or the **CalcFormula** property can be removed automatically according to the license file and/or user permissions.  
   
  For UI elements that are not directly related to an object, you can use the **AccessByPermission** property to remove the element according to the user’s permission to a related object. For more information, see [How to: Remove UI Elements Using the AccessByPermission Property](How%20to:%20Remove%20UI%20Elements%20Using%20the%20AccessByPermission%20Property.md).  
   

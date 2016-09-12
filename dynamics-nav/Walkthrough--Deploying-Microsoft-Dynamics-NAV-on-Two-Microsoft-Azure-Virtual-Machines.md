@@ -275,7 +275,7 @@ The following walkthrough demonstrates how to use the Example-2VM.ps1 script of 
   
 2.  In the address, type the following address:  
   
-     **http:\/\/MyNavVm.cloudapp.net:9004**  
+     **http://MyNavVm.cloudapp.net:9004**  
   
 3.  Follow the instructions on the webpage to install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
@@ -285,7 +285,7 @@ The following walkthrough demonstrates how to use the Example-2VM.ps1 script of 
   
 2.  In the address, type the following address:  
   
-     **http:\/\/MyNavVm.cloudapp.net\/DynamicsNAV72\_Instance1**  
+     **http://MyNavVm.cloudapp.net/DynamicsNAV72\_Instance1**  
   
 ## Next Steps  
  [Scaling the Microsoft Dynamics NAV Network Topology](Scaling-the-Microsoft-Dynamics-NAV-Network-Topology.md)  
