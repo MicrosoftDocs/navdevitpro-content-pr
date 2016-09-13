@@ -3,7 +3,7 @@ title: "System Requirements for Microsoft Dynamics NAV 2017"
 author: edupont04
 manager: edupont04
 ms.custom: na
-ms.date: 09/02/2016
+ms.date: 09/13/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -135,9 +135,9 @@ The following sections list the minimum hardware and software requirements to in
 
 |||  
 |-|-|  
-|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(64-bit edition\).<br />-   Windows 8.1 Professional or Enterprise \(64-bit edition\).<br />-   Windows 8 Professional or Enterprise \(64-bit edition\).<br />-   Windows 7 Service Pack 1 Professional, Ultimate, or Enterprise \(64-bit edition\).<br />-   Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64-bit edition\).<br /><br /> For more information, see [Hardware and Software Requirements for Installing SQL Server 2014](http://go.microsoft.com/fwlink/?LinkId=622999). From this page, you can access requirements for other versions of SQL Server.|  
+|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(64-bit edition\).<br />-   Windows 8.1 Professional or Enterprise \(64-bit edition\).<br />-   Windows 8 Professional or Enterprise \(64-bit edition\).<br />-   Windows 7 Service Pack 1 Professional, Ultimate, or Enterprise \(64-bit edition\).<br />-   Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64-bit edition\).<br /><br /> For more information, see [Hardware and Software Requirements for Installing SQL Server 2016](http://go.microsoft.com/fwlink/?LinkId=622999). From this page, you can access requirements for other versions of SQL Server.|  
 |Hardware resources|-   Hard disk space: 500 MB.<br />-   Memory: 2 GB.|  
-|SQL Server|-   Microsoft SQL Server 2014 Express, Standard or Enterprise.<br />-   Microsoft SQL Server 2012 Service Pack 2 Express, Standard, or Enterprise \(64-bit editions only\).<br />-   Azure SQL Database V12 Standard and Premium service tiers.<br /><br /> For more information, see [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md).|  
+|SQL Server|-   Microsoft SQL Server 2016 Express, Standard or Enterprise.<br/>-   Microsoft SQL Server 2014 Express, Standard or Enterprise.<br />-   Microsoft SQL Server 2012 Service Pack 2 Express, Standard, or Enterprise \(64-bit editions only\).<br />-   Azure SQL Database V12 Standard and Premium service tiers.<br /><br /> For more information, see [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md).|  
 |Additional information|<ul><li>[!INCLUDE[navnow](includes/navnow_md.md)] Setup installs the following software if it is not already present on the target computer.<br /><br /> <ul><li>SQL Server 2012 SP2 Express \(64-bit edition\).</li></ul></li><li>If the operating system on the target computer does not support SQL Server 2012 SP2 Express, Setup displays a pre-requisite warning. In this case you should exit Setup and then update the operating system on the computer to one that does support SQL Server 2012 SP2 Express. Then run Setup again.</li></ul>|  
 
 ##  <a name="HelpServer"></a> Microsoft Dynamics NAV Help Server Requirements  
