@@ -17,4 +17,4 @@ The **Microsoft Software License Terms** page in [!INCLUDE[navnowlong](includes/
  To print the software license terms, choose **Print**.  
   
 ## See Also  
- [How to: Upload the License File](How%20to:%20Upload%20the%20License%20File.md)
+ [How to: Upload the License File](How-to--Upload%20the%20License%20File.md)

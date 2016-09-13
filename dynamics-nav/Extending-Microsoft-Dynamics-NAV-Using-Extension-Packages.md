@@ -148,8 +148,8 @@ Uninstall-NAVApp -ServerInstance YourDynamicsNAVServer -Path MyNAVExtension.navx
  For more information, see [Administration Cmdlets for Microsoft Dynamics NAV Extensions](http://go.microsoft.com/fwlink/?LinkID=626874).  
   
 ## See Also  
- [How to: Develop an Extension](How%20to:%20Develop%20an%20Extension.md)   
- [How to: Create an Extension Package](How%20to:%20Create%20an%20Extension%20Package.md)   
- [How to: Publish and Install an Extension](How%20to:%20Publish%20and%20Install%20an%20Extension.md)   
+ [How to: Develop an Extension](How-to--Develop%20an%20Extension.md)   
+ [How to: Create an Extension Package](How-to--Create%20an%20Extension%20Package.md)   
+ [How to: Publish and Install an Extension](How-to--Publish%20and%20Install%20an%20Extension.md)   
  [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)   
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)

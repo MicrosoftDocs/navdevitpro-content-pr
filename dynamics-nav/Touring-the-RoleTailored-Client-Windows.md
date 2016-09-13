@@ -70,7 +70,7 @@ The RoleTailored clients use several windows to display information. Two of the 
   
 |To|See|  
 |--------|---------|  
-|Learn how to create a page|[How to: Create a Page](How%20to:%20Create%20a%20Page.md)|  
+|Learn how to create a page|[How to: Create a Page](How-to--Create%20a%20Page.md)|  
 |Get an overview of the pages|[Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)|  
   
 ###  <a name="NavigationPane"></a> Navigation Pane  
@@ -83,7 +83,7 @@ The RoleTailored clients use several windows to display information. Two of the 
 |To|See|  
 |--------|---------|  
 |See an overview of actions|[Actions Overview](Actions-Overview.md)|  
-|Learn how to add actions to a page|[How to: Add Actions to a Page](How%20to:%20Add%20Actions%20to%20a%20Page.md)|  
+|Learn how to add actions to a page|[How to: Add Actions to a Page](How-to--Add%20Actions%20to%20a%20Page.md)|  
 |See an example of how to add an action to the navigation pane|[Walkthrough: Creating a Role Center](Walkthrough:%20Creating%20a%20Role%20Center.md)|  
   
 ### Address Bar  
@@ -113,7 +113,7 @@ The RoleTailored clients use several windows to display information. Two of the 
   
 |To|See|  
 |--------|---------|  
-|Learn how to create a page|[How to: Create a Page](How%20to:%20Create%20a%20Page.md)|  
+|Learn how to create a page|[How to: Create a Page](How-to--Create%20a%20Page.md)|  
 |Get an overview of the pages|[Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)|  
   
 ## See Also  

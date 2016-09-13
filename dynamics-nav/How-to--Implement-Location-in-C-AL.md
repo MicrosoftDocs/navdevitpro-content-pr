@@ -83,6 +83,6 @@ This example illustrates how you can retrieve location information. The example 
   
 ## See Also  
  [LocationOptions Overview](LocationOptions-Overview.md)   
- [How to: Implement the Camera in C-AL](How%20to:%20Implement%20the%20Camera%20in%20C-AL.md)   
+ [How to: Implement the Camera in C-AL](How-to--Implement%20the%20Camera%20in%20C-AL.md)   
  [Developing for the Microsoft Dynamics NAV Universal App](Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)   
  [Differences and Limitations When Developing Pages for the Microsoft Dynamics NAV Universal App](Differences-and-Limitations-When-Developing-Pages-for-the-Microsoft-Dynamics-NAV-Universal-App.md)

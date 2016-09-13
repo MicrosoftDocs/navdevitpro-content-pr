@@ -117,7 +117,7 @@ DynamicsNAV://///navigate?node=Home/Items
   
 ## See Also  
  [Starting the Windows Client at the Command Prompt](Starting%20the%20Windows%20Client%20at%20the%20Command%20Prompt.md)   
- [How to: Run Reports](How%20to:%20Run%20Reports.md)   
+ [How to: Run Reports](How-to--Run%20Reports.md)   
  [GETURL Function](GETURL-Function.md)   
  [SOAP Web Services](SOAP-Web-Services.md)   
  [OData Web Services](OData-Web-Services.md)

@@ -20,7 +20,7 @@ A Word report layout is a based on Word document \(.docx file type\) that acts a
   
 ## See Also  
  [Built-in and Custom Report Layouts](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md#BuilinCustomLayouts)   
- [How to: Create a Word Report Layout for a Report](How%20to:%20Create%20a%20Word%20Report%20Layout%20for%20a%20Report.md)   
- [How to: Modify a Word Report Layout](How%20to:%20Modify%20a%20Word%20Report%20Layout.md)   
- [How to: Add Fields from a Report Dataset to a Word Report Layout](How%20to:%20Add%20Fields%20from%20a%20Report%20Dataset%20to%20a%20Word%20Report%20Layout.md)   
- [How to: Import and Export a Word Report Layout](How%20to:%20Import%20and%20Export%20a%20Word%20Report%20Layout.md)
+ [How to: Create a Word Report Layout for a Report](How-to--Create%20a%20Word%20Report%20Layout%20for%20a%20Report.md)   
+ [How to: Modify a Word Report Layout](How-to--Modify%20a%20Word%20Report%20Layout.md)   
+ [How to: Add Fields from a Report Dataset to a Word Report Layout](How-to--Add%20Fields%20from%20a%20Report%20Dataset%20to%20a%20Word%20Report%20Layout.md)   
+ [How to: Import and Export a Word Report Layout](How-to--Import%20and%20Export%20a%20Word%20Report%20Layout.md)

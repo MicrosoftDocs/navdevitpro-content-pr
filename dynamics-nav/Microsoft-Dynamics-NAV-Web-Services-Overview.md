@@ -72,10 +72,10 @@ http://localhost:7048/DynamicsNAV/OData/Company('CRONUS%20International%20Ltd.')
  For more information, see [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md).  
 
 ## See Also  
- [How to: Publish a Web Service](How%20to:%20Publish%20a%20Web%20Service.md)   
+ [How to: Publish a Web Service](How-to--Publish%20a%20Web%20Service.md)   
  [Web Service Alternatives: SOAP and OData](Web%20Service%20Alternatives:%20SOAP%20and%20OData.md)   
  [SOAP Web Service URIs](SOAP-Web-Service-URIs.md)   
- [How to: Use SystemService to Find Companies](How%20to:%20Use%20SystemService%20to%20Find%20Companies.md)   
+ [How to: Use SystemService to Find Companies](How-to--Use%20SystemService%20to%20Find%20Companies.md)   
  [Basic Page Operations](Basic-Page-Operations.md)   
  [Web Services Best Practices](Web-Services-Best-Practices.md)   
  [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)

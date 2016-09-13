@@ -17,11 +17,11 @@ In this section, you can read more about how to manage companies in [!INCLUDE[na
  You can create, rename, and delete companies in [!INCLUDE[nav_windows](includes/nav_windows_md.md)], [!INCLUDE[nav_web](includes/nav_web_md.md)], or by using the [!INCLUDE[nav_shell](includes/nav_shell_md.md)]. You can only create, rename, or delete a company if you have the relevant permission for the specified company or for all companies.  
   
 ## In This Section  
- [How to: Create Companies](How%20to:%20Create%20Companies.md)  
+ [How to: Create Companies](How-to--Create%20Companies.md)  
   
- [How to: Rename Companies](How%20to:%20Rename%20Companies.md)  
+ [How to: Rename Companies](How-to--Rename%20Companies.md)  
   
- [How to: Delete Companies](How%20to:%20Delete%20Companies.md)  
+ [How to: Delete Companies](How-to--Delete%20Companies.md)  
   
 ### Related Sections  
  [Managing Users and Permissions](Managing-Users-and-Permissions.md)  

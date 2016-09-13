@@ -49,7 +49,7 @@ Help Server and Help Server port     |Specifies the name and port of the server 
 Choose **Apply** when you have finished entering values on the **Specify parameters** page in Setup. If you want to change the configuration after installation, you can modify the ClientUserSettings.config file for each client. For more information, see [Configuring the Windows Client](Configuring-the-Windows-Client.md).
 
 ### See Also
-[How to: Choose Components to Install](How%20to:%20Choose%20Components%20to%20Install.md)
+[How to: Choose Components to Install](How-to--Choose%20Components%20to%20Install.md)
 [Installation Options](Installation-Options.md)
 [Working with Microsoft Dynamics NAV Setup](Working-with-Microsoft-Dynamics-NAV-Setup.md)
 [Configuring the Windows Client](Configuring-the-Windows-Client.md)

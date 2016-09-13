@@ -11,7 +11,7 @@ ms.assetid: 1791c245-d4bf-4f22-9eb8-8726ee4df6c2
 caps.latest.revision: 14
 ---
 # How to: Test the ADCS Connection
-The following procedure demonstrates how to use Windows Services and Telnet to test your Automated Data Capture System connection. Before you can begin, you must install the ADCS component as part of a customized installation of [!INCLUDE[navnow](includes/navnow_md.md)]. For more information, see [How to: Choose Components to Install](How%20to:%20Choose%20Components%20to%20Install.md).  
+The following procedure demonstrates how to use Windows Services and Telnet to test your Automated Data Capture System connection. Before you can begin, you must install the ADCS component as part of a customized installation of [!INCLUDE[navnow](includes/navnow_md.md)]. For more information, see [How to: Choose Components to Install](How-to--Choose%20Components%20to%20Install.md).  
   
 ### To configure and start the Microsoft Dynamics NAV VT100 Plugin service  
   
@@ -26,7 +26,7 @@ The following procedure demonstrates how to use Windows Services and Telnet to t
      *\<Domain>\\\<Windows User ID>*  
   
     > [!NOTE]  
-    >  To complete testing, you must also add the same user to [!INCLUDE[navnow](includes/navnow_md.md)], with an appropriate permission set. For more information, see [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).  
+    >  To complete testing, you must also add the same user to [!INCLUDE[navnow](includes/navnow_md.md)], with an appropriate permission set. For more information, see [How to: Create Microsoft Dynamics NAV Users](How-to--Create%20Microsoft%20Dynamics%20NAV%20Users.md).  
   
 4.  Type the password for the user account in **Password** and in **Confirm password**, and then choose the **OK** button.  
   

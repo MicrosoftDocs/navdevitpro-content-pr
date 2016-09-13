@@ -80,7 +80,7 @@ This walkthrough illustrates how to set up a report to include a link from the *
     ="dynamicsnav:////runreport?report=104&filter=Customer.%22No.%22:"+Fields!No_Customer.Value  
     ```  
 
-     For more information about creating filters in a URL to run a report, see [How to: Run Reports](How%20to:%20Run%20Reports.md).  
+     For more information about creating filters in a URL to run a report, see [How to: Run Reports](How-to--Run%20Reports.md).  
 
 8.  Choose **OK** to close the window.  
 
@@ -112,7 +112,7 @@ This walkthrough illustrates how to set up a report to include a link from the *
     ="dynamicsnav:////runreport?report=104 &filter=Customer.%22No.%22:"+Fields!No_Customer.Value  
     ```  
 
-     For more information about creating filters in a URL to run a report, see [How to: Run Reports](How%20to:%20Run%20Reports.md).  
+     For more information about creating filters in a URL to run a report, see [How to: Run Reports](How-to--Run%20Reports.md).  
 
 3.  Choose the **OK** button to close the **Series Properties** window.  
 

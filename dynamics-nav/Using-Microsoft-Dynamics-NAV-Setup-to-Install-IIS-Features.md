@@ -22,7 +22,7 @@ When you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], 
 |**Detect**|Setup detects whether IIS and the required features for the [!INCLUDE[nav_web](includes/nav_web_md.md)] are enabled on the computer, and then does the following:<br /><br /> -   If the required IIS features are enabled, then Setup installs the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].<br />-   If any IIS features are not enabled, then Setup does not install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] and an error report is generated that lists the required features. You must enable the required features, and then run Setup again to install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].|  
 |**Skip**|Setup installs the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] without detecting whether IIS or the required features are enabled. Setup does not change the IIS setup.|  
   
- For more information about how to run the [!INCLUDE[navnow](includes/navnow_md.md)] setup wizard to install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], see [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md).  
+ For more information about how to run the [!INCLUDE[navnow](includes/navnow_md.md)] setup wizard to install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], see [How to: Install the Web Server Components](How-to--Install%20the%20Web%20Server%20Components.md).  
   
 ## IIS Features That are Enabled by Setup  
  [!INCLUDE[navnow](includes/navnow_md.md)] Setup enables IIS and the following features:  
@@ -59,5 +59,5 @@ When you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], 
   
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
- [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md)   
- [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md)
+ [How to: Install the Web Server Components](How-to--Install%20the%20Web%20Server%20Components.md)   
+ [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How-to--Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md)

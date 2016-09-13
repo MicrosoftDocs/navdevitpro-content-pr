@@ -41,7 +41,7 @@ caps.latest.revision: 16
   
      You use the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to create objects, such as tables, pages and reports, and implement the business logic for your application.  
   
-     For more information, see [How to: Install C-SIDE Development Environment](How%20to:%20Install%20C-SIDE%20Development%20Environment.md).  
+     For more information, see [How to: Install C-SIDE Development Environment](How-to--Install%20C-SIDE%20Development%20Environment.md).  
   
 -   [!INCLUDE[nav_windows](includes/nav_windows_md.md)] \(optional\)  
   

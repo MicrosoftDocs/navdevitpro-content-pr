@@ -14,7 +14,7 @@ manager: edupont
 # Walkthrough: Creating MenuSuites for the Microsoft Dynamics NAV Windows Client
 MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. MenuSuites contain links that enable you to browse application or objects, and make the applications or objects easier to access in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. A MenuSuite contains a set of menus that enable you to access reports, pages, codeunits, and so on, from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
- [!INCLUDE[navnowlong](includes/navnowlong_md.md)] provides a basic MenuSuite that you can modify, or you can create new MenuSuites from the basic MenuSuite. You create MenuSuites in Object Designer and modify them in Navigation Pane Designer. This walkthrough demonstrates how to create a MenuSuite from the basic Menusuite for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For information about how to modify MenuSuites, see [How to: Modify Menu Items in a MenuSuite](How%20to:%20Modify%20Menu%20Items%20in%20a%20MenuSuite.md).  
+ [!INCLUDE[navnowlong](includes/navnowlong_md.md)] provides a basic MenuSuite that you can modify, or you can create new MenuSuites from the basic MenuSuite. You create MenuSuites in Object Designer and modify them in Navigation Pane Designer. This walkthrough demonstrates how to create a MenuSuite from the basic Menusuite for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For information about how to modify MenuSuites, see [How to: Modify Menu Items in a MenuSuite](How-to--Modify%20Menu%20Items%20in%20a%20MenuSuite.md).  
   
 ## About This Walkthrough  
  This walkthrough shows you how to create a MenuSuite and modify department menus and menu items. This walkthrough illustrates the following tasks:  
@@ -188,7 +188,7 @@ MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](i
     |**CaptionML**|ENU=Customer-Order Summary.|  
     |**Department**|Reports and Analysis.<br /><br /> This puts this menu item in the **Reports and Analysis** sub category.|  
   
-     If the item you want to create already exists, instead of creating a new one you can just insert the existing item. For information about how to insert an item, see [How to: Insert Items in a MenuSuite](How%20to:%20Insert%20Items%20in%20a%20MenuSuite.md).  
+     If the item you want to create already exists, instead of creating a new one you can just insert the existing item. For information about how to insert an item, see [How to: Insert Items in a MenuSuite](How-to--Insert%20Items%20in%20a%20MenuSuite.md).  
   
      You have made all the changes that were requested. You will now save the MenuSuite and run it.  
   
@@ -220,6 +220,6 @@ MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](i
 ## See Also  
  [MenuSuites](MenuSuites.md)   
  [Designing MenuSuites](Designing-MenuSuites.md)   
- [How to: Modify a Department Menu in a MenuSuite](How%20to:%20Modify%20a%20Department%20Menu%20in%20a%20MenuSuite.md)   
+ [How to: Modify a Department Menu in a MenuSuite](How-to--Modify%20a%20Department%20Menu%20in%20a%20MenuSuite.md)   
  [Bitmap Property](Bitmap-Property.md)   
  [\($ S\_2490 Menu Properties $\)](-$-S_2490-Menu-Properties-$-.md)

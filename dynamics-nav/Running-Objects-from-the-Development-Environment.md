@@ -18,7 +18,7 @@ In Object Designer in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)],
   
  You can also run objects from hyperlinks. For more information, see [Creating and Running Hyperlinks](Creating-and-Running-Hyperlinks.md).  
   
- The instance of [!INCLUDE[nav_server](includes/nav_server_md.md)] on which the object is run is specified in the **Database Information** window and in the **Options** window. For more information about how to change the server instance, see [How to: Change the Microsoft Dynamics NAV Server Instance](How%20to:%20Change%20the%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).  
+ The instance of [!INCLUDE[nav_server](includes/nav_server_md.md)] on which the object is run is specified in the **Database Information** window and in the **Options** window. For more information about how to change the server instance, see [How to: Change the Microsoft Dynamics NAV Server Instance](How-to--Change%20the%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).  
   
  If there is only one [!INCLUDE[nav_server](includes/nav_server_md.md)] instance configured for the currently open database, then this instance is automatically used to run the object.  
   

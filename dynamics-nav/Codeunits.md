@@ -27,6 +27,6 @@ A codeunit is a container for C/AL code that you can use in many application obj
   
 |To|See|  
 |--------|---------|  
-|Learn how to create a codeunit.|[How to: Create a Codeunit](How%20to:%20Create%20a%20Codeunit.md)|  
-|Learn how to modify a codeunit.|[How to: Modify an Existing Codeunit](How%20to:%20Modify%20an%20Existing%20Codeunit.md) and [How to: Add a Function to a Codeunit](How%20to:%20Add%20a%20Function%20to%20a%20Codeunit.md)|  
-|Learn how to compile and save codeunits.|[How to: Compile the Code in a Codeunit](How%20to:%20Compile%20the%20Code%20in%20a%20Codeunit.md) and [How to: Save a Codeunit](How%20to:%20Save%20a%20Codeunit.md)|
+|Learn how to create a codeunit.|[How to: Create a Codeunit](How-to--Create%20a%20Codeunit.md)|  
+|Learn how to modify a codeunit.|[How to: Modify an Existing Codeunit](How-to--Modify%20an%20Existing%20Codeunit.md) and [How to: Add a Function to a Codeunit](How-to--Add%20a%20Function%20to%20a%20Codeunit.md)|  
+|Learn how to compile and save codeunits.|[How to: Compile the Code in a Codeunit](How-to--Compile%20the%20Code%20in%20a%20Codeunit.md) and [How to: Save a Codeunit](How-to--Save%20a%20Codeunit.md)|

@@ -49,15 +49,15 @@ The following sections provide an overview of how to locate [!INCLUDE[navnow](in
 |--------|---------|  
 |Find the appropriate actions topic|[Adding Actions to Pages](Adding-Actions-to-Pages.md)|  
 |Understand how actions are intended to be used in the RoleTailored client|[Actions Overview](Actions-Overview.md)|  
-|Learn how to add actions to a page|[How to: Add Actions to a Page](How%20to:%20Add%20Actions%20to%20a%20Page.md)|  
-|Learn how to promote actions to the ribbon|[How to: Promote Actions on Pages](How%20to:%20Promote%20Actions%20on%20Pages.md)|  
-|Learn how to create action submenus|[How to: Add Action Submenus to Pages](How%20to:%20Add%20Action%20Submenus%20to%20Pages.md)|  
+|Learn how to add actions to a page|[How to: Add Actions to a Page](How-to--Add%20Actions%20to%20a%20Page.md)|  
+|Learn how to promote actions to the ribbon|[How to: Promote Actions on Pages](How-to--Promote%20Actions%20on%20Pages.md)|  
+|Learn how to create action submenus|[How to: Add Action Submenus to Pages](How-to--Add%20Action%20Submenus%20to%20Pages.md)|  
   
 ## Running Pages  
   
 |To|See|  
 |--------|---------|  
-|Preview a page in the RoleTailored client|[How to: Run a Page](How%20to:%20Run%20a%20Page.md)|  
+|Preview a page in the RoleTailored client|[How to: Run a Page](How-to--Run%20a%20Page.md)|  
   
 ## See Also  
  [Page Designer Troubleshooting](Page-Designer-Troubleshooting.md)   

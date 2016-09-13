@@ -26,7 +26,7 @@ The [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] can only run on an HTTPS
 ## Implementing Security Certificates  
  [!INCLUDE[navnow](includes/navnow_md.md)] Universal App only works using an HTTPS protocol. This means that you must configure a valid certificate on the server. If a trusted, valid, and signed certificate is configured on the [!INCLUDE[nav_server](includes/nav_server_md.md)], the end-user does not have to do anything. If a self-signed certificate is configured on the [!INCLUDE[nav_server](includes/nav_server_md.md)], the end-user must install a certificate on their device. The steps for implementing certificates will vary depending on the platform the user is using.  
   
- For more information, see [How to: Implement Security Certificates in a Production Environment](How%20to:%20Implement%20Security%20Certificates%20in%20a%20Production%20Environment.md).  
+ For more information, see [How to: Implement Security Certificates in a Production Environment](How-to--Implement%20Security%20Certificates%20in%20a%20Production%20Environment.md).  
   
 > [!IMPORTANT]  
 >  It is recommended to only use self-signed certificates for testing purposes and never in a production environment.  

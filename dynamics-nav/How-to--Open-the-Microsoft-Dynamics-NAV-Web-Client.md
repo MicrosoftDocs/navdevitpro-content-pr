@@ -55,7 +55,7 @@ You open the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using a web browser 
  For more information about the URLs to open pages and reports, see [Opening a Page in the Microsoft Dynamics NAV Web Client by Using a URL](Opening-a-Page-in-the-Microsoft-Dynamics-NAV-Web-Client-by-Using-a-URL.md) and [Opening a Report in the Microsoft Dynamics NAV Web Client by Using a URL](Opening-a-Report-in-the-Microsoft-Dynamics-NAV-Web-Client-by-Using-a-URL.md).  
 
 ## See Also  
- [How to: Open the Microsoft Dynamics NAV Tablet or Phone Client from a Browser](How%20to:%20Open%20the%20Microsoft%20Dynamics%20NAV%20Tablet%20or%20Phone%20Client%20from%20a%20Browser.md)   
+ [How to: Open the Microsoft Dynamics NAV Tablet or Phone Client from a Browser](How-to--Open%20the%20Microsoft%20Dynamics%20NAV%20Tablet%20or%20Phone%20Client%20from%20a%20Browser.md)   
  [Developing for the Microsoft Dynamics NAV Web Client](Developing-for-the-Microsoft-Dynamics-NAV-Web-Client.md)   
- [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md)   
- [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How%20to:%20Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md)
+ [How to: Install the Web Server Components](How-to--Install%20the%20Web%20Server%20Components.md)   
+ [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md)

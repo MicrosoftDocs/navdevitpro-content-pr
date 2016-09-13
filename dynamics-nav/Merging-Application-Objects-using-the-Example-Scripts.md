@@ -38,5 +38,5 @@ Get-Help "NAV"
   
 ## See Also  
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   
- [How to: Merge Application Changes](How%20to:%20Merge%20Application%20Changes.md)   
+ [How to: Merge Application Changes](How-to--Merge%20Application%20Changes.md)   
  [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)

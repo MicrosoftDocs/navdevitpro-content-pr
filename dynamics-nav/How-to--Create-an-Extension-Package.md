@@ -90,8 +90,8 @@ When you have developed a [!INCLUDE[navnow](includes/navnow_md.md)] extension, t
 ## See Also  
  [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)   
  [Manifest Overview](Manifest-Overview.md)   
- [How to: Develop an Extension](How%20to:%20Develop%20an%20Extension.md)   
- [How to: Publish and Install an Extension](How%20to:%20Publish%20and%20Install%20an%20Extension.md)   
+ [How to: Develop an Extension](How-to--Develop%20an%20Extension.md)   
+ [How to: Publish and Install an Extension](How-to--Publish%20and%20Install%20an%20Extension.md)   
  [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)   
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   
  [Development Cmdlets for Microsoft Dynamics NAV Extensions](http://go.microsoft.com/fwlink/?LinkID=626875)

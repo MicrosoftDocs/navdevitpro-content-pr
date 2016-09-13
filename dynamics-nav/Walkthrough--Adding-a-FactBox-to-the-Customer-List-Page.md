@@ -35,7 +35,7 @@ In this walkthrough, you will learn how to add a FactBox to the customer list pa
  Simon knows that he can use a FactBox to display the type of information Kevin is asking for on the customer list page. Simon creates a new CardPart page based on the card part page type. He associates the page with the **Customer** table and then adds the **Credit Limit \(LCY\)**, **Payment Terms Code**, and **Blocked** fields to the CardPart page.  
   
 > [!NOTE]  
->  In this walkthrough, to learn about the properties and controls of a FactBox, you will create a CardPart page from a blank page. Object Designer also includes a wizard that you can use to create a CardPart page that sets up many properties and controls for you. For more information about the wizard, see [How to: Create a Page](How%20to:%20Create%20a%20Page.md).  
+>  In this walkthrough, to learn about the properties and controls of a FactBox, you will create a CardPart page from a blank page. Object Designer also includes a wizard that you can use to create a CardPart page that sets up many properties and controls for you. For more information about the wizard, see [How to: Create a Page](How-to--Create%20a%20Page.md).  
   
 #### To create a CardPart page to display credit information  
   
@@ -136,6 +136,6 @@ In this walkthrough, you will learn how to add a FactBox to the customer list pa
 ## See Also  
  [Walkthrough: Creating a Customer List in Page Designer](Walkthrough:%20Creating%20a%20Customer%20List%20in%20Page%20Designer.md)   
  [Walkthrough: Adding Actions to a Customer List Page](Walkthrough:%20Adding%20Actions%20to%20a%20Customer%20List%20Page.md)   
- [How to: Create a Page](How%20to:%20Create%20a%20Page.md)   
+ [How to: Create a Page](How-to--Create%20a%20Page.md)   
  [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
- [How to: Run a Page](How%20to:%20Run%20a%20Page.md)
+ [How to: Run a Page](How-to--Run%20a%20Page.md)

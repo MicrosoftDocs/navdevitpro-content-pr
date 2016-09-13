@@ -28,4 +28,4 @@ Totals are an important element of creating useful reports. By totaling data, yo
 ## See Also  
  [Walkthrough: Designing a Report with Images, Interactive Sorting, and Visibility Toggle](Walkthrough:%20Designing%20a%20Report%20with%20Images,%20Interactive%20Sorting,%20and%20Visibility%20Toggle.md)   
  [Walkthrough: Creating a Link from a Report to a Page](Walkthrough:%20Creating%20a%20Link%20from%20a%20Report%20to%20a%20Page.md)   
- [How to: Make a Report Available from a Page](How%20to:%20Make%20a%20Report%20Available%20from%20a%20Page.md)
+ [How to: Make a Report Available from a Page](How-to--Make%20a%20Report%20Available%20from%20a%20Page.md)

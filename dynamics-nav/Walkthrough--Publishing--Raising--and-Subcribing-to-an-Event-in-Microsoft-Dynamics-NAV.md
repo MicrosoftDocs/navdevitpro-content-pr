@@ -45,7 +45,7 @@ This walkthrough uses a simple example scenario to demonstrate how to program ev
   
 1.  Open the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], and then connect to the [!INCLUDE[demoname](includes/demoname_md.md)] company.  
   
-     For more information, see [How to: Open Databases](How%20to:%20Open%20Databases.md).  
+     For more information, see [How to: Open Databases](How-to--Open%20Databases.md).  
   
 2.  On the **Tools** menu, choose **Object Designer**, choose **Codeunit**, and then choose **New**.  
   

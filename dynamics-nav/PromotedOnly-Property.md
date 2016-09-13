@@ -27,6 +27,6 @@ Specifies whether the selected action is *promoted only*, which means that it wi
  This property in not relevant on [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLUDE[nav_phone](includes/nav_phone_md.md)] because only promoted actions are displayed on these clients.  
   
 ## See Also  
- [How to: Promote Actions on Pages](How%20to:%20Promote%20Actions%20on%20Pages.md)   
- [How to: Add Actions to a Page](How%20to:%20Add%20Actions%20to%20a%20Page.md)   
+ [How to: Promote Actions on Pages](How-to--Promote%20Actions%20on%20Pages.md)   
+ [How to: Add Actions to a Page](How-to--Add%20Actions%20to%20a%20Page.md)   
  [Actions Overview](Actions-Overview.md)

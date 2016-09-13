@@ -45,11 +45,11 @@ You can break code execution of the session that you are debugging by:
 ## Break on Lines of Code  
  If you set a breakpoint on a line of C/AL code, then execution breaks before the first statement on the line is executed. If you set a breakpoint on a line of code that does not have a C/AL statement, then the breakpoint is automatically set on the next statement. If you set a breakpoint on a line of code that exceeds the number of lines of code in the object, then the breakpoint is set on the last line of code. You can set a condition on a breakpoint on a line of code so that execution breaks only if the condition is met. For more information, see the following topics:  
   
--   [How to: Manage Breakpoints from the Debugger Breakpoint List](How%20to:%20Manage%20Breakpoints%20from%20the%20Debugger%20Breakpoint%20List.md)  
+-   [How to: Manage Breakpoints from the Debugger Breakpoint List](How-to--Manage%20Breakpoints%20from%20the%20Debugger%20Breakpoint%20List.md)  
   
--   [How to: Manage Breakpoints from the Debugger Code Viewer](How%20to:%20Manage%20Breakpoints%20from%20the%20Debugger%20Code%20Viewer.md)  
+-   [How to: Manage Breakpoints from the Debugger Code Viewer](How-to--Manage%20Breakpoints%20from%20the%20Debugger%20Code%20Viewer.md)  
   
--   [How to: Manage Breakpoints from the Development Environment](How%20to:%20Manage%20Breakpoints%20from%20the%20Development%20Environment.md)  
+-   [How to: Manage Breakpoints from the Development Environment](How-to--Manage%20Breakpoints%20from%20the%20Development%20Environment.md)  
   
 ## Break on Next Statement  
  If the debugger is attached to a session, then you can specify a break on the next statement that is executed in that session. There are three scenarios for specifying a break on the next statement:  
@@ -60,14 +60,14 @@ You can break code execution of the session that you are debugging by:
   
 -   You want to debug from the beginning of a session. You activate the debugger and then select **Debug Next** in the **Session List** page, and then set the debugger to break on the next statement.  
   
- For more information, see [How to: Break on the Next Statement](How%20to:%20Break%20on%20the%20Next%20Statement.md).  
+ For more information, see [How to: Break on the Next Statement](How-to--Break%20on%20the%20Next%20Statement.md).  
   
 ## Break on Errors  
  You can specify that the debugger breaks execution if it encounters an error. If you specify that the debugger breaks on errors, then it breaks both on unhandled errors and on errors that you handle in C/AL code. For more information about how to handle errors, see [Avoiding Run-Time Errors](Avoiding-Run-Time-Errors.md).  
   
  When the debugger breaks on an error, you can inspect variables and parameters and you can review the error message for the current error. These inspection steps can help you determine the cause of the error.  
   
- For more information, see [How to: Break on Errors](How%20to:%20Break%20on%20Errors.md).  
+ For more information, see [How to: Break on Errors](How-to--Break%20on%20Errors.md).  
   
 ## Break on Record Changes  
  You can specify that the debugger breaks execution before a change to a record occurs. If you specify that the debugger breaks on record changes, then it breaks before creating, updating, or deleting a record. The following table shows each record change and the C/AL functions that cause each change.  
@@ -78,19 +78,19 @@ You can break code execution of the session that you are debugging by:
 |Update an existing record|[MODIFY Function \(Record\)](MODIFY-Function--Record-.md), [MODIFYALL Function \(Record\)](MODIFYALL-Function--Record-.md), [RENAME Function \(Record\)](RENAME-Function--Record-.md)|  
 |Delete an existing record|[DELETE Function \(Record\)](DELETE-Function--Record-.md), [DELETEALL Function \(Record\)](DELETEALL-Function--Record-.md)|  
   
- For more information, see [How to: Break on Record Changes](How%20to:%20Break%20on%20Record%20Changes.md).  
+ For more information, see [How to: Break on Record Changes](How-to--Break%20on%20Record%20Changes.md).  
   
 ## Conditional Breakpoints  
- You can specify conditions for breakpoints so that execution breaks only if the condition is true. For example, if an application iterates through a list of customers and you want to break execution at customer 10000, then you can specify the condition "Customer No." = '10000'. For more information, see [How to: Set Conditional Breakpoints](How%20to:%20Set%20Conditional%20Breakpoints.md).  
+ You can specify conditions for breakpoints so that execution breaks only if the condition is true. For example, if an application iterates through a list of customers and you want to break execution at customer 10000, then you can specify the condition "Customer No." = '10000'. For more information, see [How to: Set Conditional Breakpoints](How-to--Set%20Conditional%20Breakpoints.md).  
   
 ## Enabling and Disabling Breakpoints  
  You can enable or disable the breakpoints in your breakpoint list. When you create a new breakpoint, it is enabled by default. If you disable a breakpoint, then execution does not break at that point in the code, but the breakpoint remains in your breakpoint list so that you can enable it again later. For more information, see the following topics:  
   
--   [How to: Manage Breakpoints from the Debugger Breakpoint List](How%20to:%20Manage%20Breakpoints%20from%20the%20Debugger%20Breakpoint%20List.md)  
+-   [How to: Manage Breakpoints from the Debugger Breakpoint List](How-to--Manage%20Breakpoints%20from%20the%20Debugger%20Breakpoint%20List.md)  
   
--   [How to: Manage Breakpoints from the Debugger Code Viewer](How%20to:%20Manage%20Breakpoints%20from%20the%20Debugger%20Code%20Viewer.md)  
+-   [How to: Manage Breakpoints from the Debugger Code Viewer](How-to--Manage%20Breakpoints%20from%20the%20Debugger%20Code%20Viewer.md)  
   
--   [How to: Manage Breakpoints from the Development Environment](How%20to:%20Manage%20Breakpoints%20from%20the%20Development%20Environment.md)  
+-   [How to: Manage Breakpoints from the Development Environment](How-to--Manage%20Breakpoints%20from%20the%20Development%20Environment.md)  
   
 ## Storing Breakpoints  
  Breakpoints are stored immediately when you add or change them. They are stored privately for each user.  

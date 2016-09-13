@@ -45,7 +45,7 @@ END;
  In this example, the ApplicationBuild function is different in all three versions of codeunit 1 that you tried to merge. If you import this file into the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], it will not compile. You can resolve the conflict in Notepad, a three-way merge tool, or in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. Use the source files in the subfolders in the RESULT folder to learn how to resolve the conflict.  
   
 ## See Also  
- [How to: Merge Application Changes](How%20to:%20Merge%20Application%20Changes.md)   
+ [How to: Merge Application Changes](How-to--Merge%20Application%20Changes.md)   
  [Merging Application Objects using the Example Scripts](Merging-Application-Objects-using-the-Example-Scripts.md)   
  [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)   
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)

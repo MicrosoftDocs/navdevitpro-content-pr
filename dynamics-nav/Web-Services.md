@@ -20,7 +20,7 @@ The following sections provide an overview of the documentation for web services
 |To|See|  
 |--------|---------|  
 |Compare the features and constraints of SOAP and OData web services.|[Web Service Alternatives: SOAP and OData](Web%20Service%20Alternatives:%20SOAP%20and%20OData.md)|  
-|Create and publish a web service.|[How to: Publish a Web Service](How%20to:%20Publish%20a%20Web%20Service.md)|  
+|Create and publish a web service.|[How to: Publish a Web Service](How-to--Publish%20a%20Web%20Service.md)|  
 |Avoid issues that may occur when [!INCLUDE[navnow](includes/navnow_md.md)] pages expect user interaction.|[Handling UI Interaction When Working with Web Services](Handling-UI-Interaction-When-Working-with-Web-Services.md)|  
 |Coordinate web service applications across multiple time zones.|[Managing Time Zones with Web Services](Managing-Time-Zones-with-Web-Services.md)|  
 |Avoid data loss that can be caused by out-of-date proxies.|[Preserving Data When Working with a Statically Generated Proxy](Preserving-Data-When-Working-with-a-Statically-Generated-Proxy.md)|  
@@ -33,7 +33,7 @@ The following sections provide an overview of the documentation for web services
 |--------|---------|  
 |Review the different options for creating URIs to interact with SOAP web services.|[SOAP Web Service URIs](SOAP-Web-Service-URIs.md)|  
 |Review the operations that are available when a page is exposed as a web service.|[Basic Page Operations](Basic-Page-Operations.md)|  
-|Learn how to write code that provides a list of existing companies in a [!INCLUDE[navnow](includes/navnow_md.md)] database.|[How to: Use SystemService to Find Companies](How%20to:%20Use%20SystemService%20to%20Find%20Companies.md)|  
+|Learn how to write code that provides a list of existing companies in a [!INCLUDE[navnow](includes/navnow_md.md)] database.|[How to: Use SystemService to Find Companies](How-to--Use%20SystemService%20to%20Find%20Companies.md)|  
 |Ensure that field values are actually updated from web services.|[Using Properties with Visual Studio to Indicate the Presence of a Value in a Field](Using-Properties-with-Visual-Studio-to-Indicate-the-Presence-of-a-Value-in-a-Field.md)|  
   
 ## OData Web Services  
@@ -41,12 +41,12 @@ The following sections provide an overview of the documentation for web services
   
 |To|See|  
 |--------|---------|  
-|Use OData to obtain an AtomPub document.|[How to: Use OData to Return-Obtain an AtomPub Document](How%20to:%20Use%20OData%20to%20Return-Obtain%20an%20AtomPub%20Document.md)|  
-|Use OData to obtain a service metadata \(EDMX\) document.|[How to: Use OData to Return-Obtain a Service Metadata \(EDMX\) Document](How%20to:%20Use%20OData%20to%20Return-Obtain%20a%20Service%20Metadata%20\(EDMX\)%20Document.md)|  
-|Use OData to obtain a JavaScript Object Notation \(JSON\) document.|[How to: Use OData to Return-Obtain a JSON Document](How%20to:%20Use%20OData%20to%20Return-Obtain%20a%20JSON%20Document.md)|  
+|Use OData to obtain an AtomPub document.|[How to: Use OData to Return-Obtain an AtomPub Document](How-to--Use%20OData%20to%20Return-Obtain%20an%20AtomPub%20Document.md)|  
+|Use OData to obtain a service metadata \(EDMX\) document.|[How to: Use OData to Return-Obtain a Service Metadata \(EDMX\) Document](How-to--Use%20OData%20to%20Return-Obtain%20a%20Service%20Metadata%20\(EDMX\)%20Document.md)|  
+|Use OData to obtain a JavaScript Object Notation \(JSON\) document.|[How to: Use OData to Return-Obtain a JSON Document](How-to--Use%20OData%20to%20Return-Obtain%20a%20JSON%20Document.md)|  
 |Write to the database through an OData web service that exposes a writable page|[Using OData Web Services to Modify Data](Using-OData-Web-Services-to-Modify-Data.md)|  
 |Use filter expressions in OData URIs.|[Using Filter Expressions in OData URIs](Using-Filter-Expressions-in-OData-URIs.md)|  
-|Use FlowFilters in OData URIs.|[How to: Use FlowFilters in OData URIs](How%20to:%20Use%20FlowFilters%20in%20OData%20URIs.md)|  
+|Use FlowFilters in OData URIs.|[How to: Use FlowFilters in OData URIs](How-to--Use%20FlowFilters%20in%20OData%20URIs.md)|  
 |Use server-driven paging in OData URIs.|[Server-Driven Paging in OData Web Services](Server-Driven-Paging-in-OData-Web-Services.md)|  
   
 ## Web Services Walkthroughs  

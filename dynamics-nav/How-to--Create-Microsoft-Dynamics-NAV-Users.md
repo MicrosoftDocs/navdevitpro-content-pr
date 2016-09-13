@@ -90,7 +90,7 @@ Before a user can access [!INCLUDE[navnow](includes/navnow_md.md)], you must hav
   
          When you specify an email address, the **Authentication Status** field changes to **Inactive**. When the user logs in to Office 365, the authentication status changes to **Active**. For more information, see [\($ T\_2000000120\_11 Authentication Email $\)](\($%20T_2000000120_11%20Authentication%20Email%20$\).md).  
   
-8.  Open the **User Permission Sets** FastTab to define permission sets for the user. Choose the first row under **Permission Sets** and then select a permission set. Choose additional permission sets as needed. For more information, see [How to: Define Permissions for Users](How%20to:%20Define%20Permissions%20for%20Users.md).  
+8.  Open the **User Permission Sets** FastTab to define permission sets for the user. Choose the first row under **Permission Sets** and then select a permission set. Choose additional permission sets as needed. For more information, see [How to: Define Permissions for Users](How-to--Define%20Permissions%20for%20Users.md).  
   
 9. Add any Notes or Links for the user in the respective FactBoxes.  
   
@@ -99,7 +99,7 @@ Before a user can access [!INCLUDE[navnow](includes/navnow_md.md)], you must hav
  To update the settings for an already existing user in the **Users** window, select the user and then, on the **Home** tab, choose **Edit**.  
   
 ## See Also  
- [How to: Create a Profile](How%20to:%20Create%20a%20Profile.md)   
- [How to: Define Permissions for Users](How%20to:%20Define%20Permissions%20for%20Users.md)   
+ [How to: Create a Profile](How-to--Create%20a%20Profile.md)   
+ [How to: Define Permissions for Users](How-to--Define%20Permissions%20for%20Users.md)   
  [Users and Credential Types](Users-and-Credential-Types.md)   
  [License Types](License-Types.md)

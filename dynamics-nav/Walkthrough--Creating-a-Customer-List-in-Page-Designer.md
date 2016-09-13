@@ -41,7 +41,7 @@ In this walkthrough, you will learn how to create a basic page that displays a l
  To create Kevin's customer list, Simon knows that he needs to create a list page. Simon also needs to ensure that the card for a specific customer will open when Kevin selects the customer from the list.  
   
 > [!NOTE]  
->  In this walkthrough, to learn about the properties and controls of a list page you will create a list page from a blank page. Object Designer also includes a wizard that you can use to create a list page that sets up many properties and controls for you. For more information about the wizard, see [How to: Create a Page](How%20to:%20Create%20a%20Page.md).  
+>  In this walkthrough, to learn about the properties and controls of a list page you will create a list page from a blank page. Object Designer also includes a wizard that you can use to create a list page that sets up many properties and controls for you. For more information about the wizard, see [How to: Create a Page](How-to--Create%20a%20Page.md).  
   
 #### To create a List page  
   
@@ -135,6 +135,6 @@ In this walkthrough, you will learn how to create a basic page that displays a l
 ## See Also  
  [Walkthrough: Adding Actions to a Customer List Page](Walkthrough:%20Adding%20Actions%20to%20a%20Customer%20List%20Page.md)   
  [Walkthrough: Adding a FactBox to the Customer List Page](Walkthrough:%20Adding%20a%20FactBox%20to%20the%20Customer%20List%20Page.md)   
- [How to: Create a Page](How%20to:%20Create%20a%20Page.md)   
+ [How to: Create a Page](How-to--Create%20a%20Page.md)   
  [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
- [How to: Run a Page](How%20to:%20Run%20a%20Page.md)
+ [How to: Run a Page](How-to--Run%20a%20Page.md)

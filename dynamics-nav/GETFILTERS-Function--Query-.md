@@ -32,7 +32,7 @@ Filter := Query.GETFILTERS
  The **GETFILTERS** function returns the filters that are currently set for all data columns and filter rows by the [SETFILTER Function \(Query\)](SETFILTER-Function--Query-.md) function, [SETRANGE Function \(Query\)](SETRANGE-Function--Query-.md) function, and the [ColumnFilter Property](ColumnFilter-Property.md) in Query Designer. The **GETFILTER** function does not return filters that are set on a column's source field by the [DataItemTableFilter Property](DataItemTableFilter-Property.md) in Query Designer or global filters that are set by the **FILTERGROUP** function.  
   
 > [!NOTE]  
->  A filter row is row in Query Designer that is used to filter on a field that is not included in the resulting dataset. For more information, see [Understanding Query Filters](Understanding-Query-Filters.md) and [How to: Set Up Filter Rows in Query Designer](How%20to:%20Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md).  
+>  A filter row is row in Query Designer that is used to filter on a field that is not included in the resulting dataset. For more information, see [Understanding Query Filters](Understanding-Query-Filters.md) and [How to: Set Up Filter Rows in Query Designer](How-to--Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md).  
   
  You can call the **GETFILTERS** function multiple times and at any point in the code. If you call the **GETFILTERS** function before the first **SETFILTER** or **SETRANGE** function call, then the **GETFILTERS** function returns only filters that are set by the **ColumnFilter** property of the columns.  
   
@@ -97,5 +97,5 @@ MESSAGE(Text000, MyFilters);
  **The filters are as follows: Quantity > 10, Name = Selangorian Ltd.**  
   
 ## See Also  
- [How to: Set Up Filter Rows in Query Designer](How%20to:%20Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md)   
+ [How to: Set Up Filter Rows in Query Designer](How-to--Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md)   
  [Understanding Query Filters](Understanding-Query-Filters.md)

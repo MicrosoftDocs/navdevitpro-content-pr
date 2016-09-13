@@ -36,10 +36,10 @@ Specifies the handler functions that are used by the test function.
   
 -   Every handler function that you enter in the **HandlerFunctions** property must be called at least once in the test function. If you execute a test function that has a handler function listed that is not called, then the test fails.  
   
- For more information, see [Testing the Application](Testing-the-Application.md) and [How to: Create Handler Functions](How%20to:%20Create%20Handler%20Functions.md).  
+ For more information, see [Testing the Application](Testing-the-Application.md) and [How to: Create Handler Functions](How-to--Create%20Handler%20Functions.md).  
   
 ## See Also  
  [Testing the Application](Testing-the-Application.md)   
- [How to: Create Test Codeunits and Test Functions](How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md)   
- [How to: Create Handler Functions](How%20to:%20Create%20Handler%20Functions.md)   
+ [How to: Create Test Codeunits and Test Functions](How-to--Create%20Test%20Codeunits%20and%20Test%20Functions.md)   
+ [How to: Create Handler Functions](How-to--Create%20Handler%20Functions.md)   
  [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough:%20Testing%20Purchase%20Invoice%20Discounts.md)

@@ -70,6 +70,6 @@ MyQuery.CLOSE;
 ```  
   
 ## See Also  
- [How to: Create Queries](How%20to:%20Create%20Queries.md)   
+ [How to: Create Queries](How-to--Create%20Queries.md)   
  [Working with Queries in C-AL](Working-with-Queries-in-C-AL.md)   
  [Queries](Queries.md)

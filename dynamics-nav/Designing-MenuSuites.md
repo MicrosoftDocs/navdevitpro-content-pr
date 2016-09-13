@@ -85,7 +85,7 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can create MenuSuites 
   
 -   Modify menu items  
   
- For information about how to create a MenuSuite, see [Walkthrough: Creating MenuSuites for the Microsoft Dynamics NAV Windows Client](Walkthrough:%20Creating%20MenuSuites%20for%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client.md). For information about how to modify a MenuSuite, see [How to: Modify Menu Items in a MenuSuite](How%20to:%20Modify%20Menu%20Items%20in%20a%20MenuSuite.md).  
+ For information about how to create a MenuSuite, see [Walkthrough: Creating MenuSuites for the Microsoft Dynamics NAV Windows Client](Walkthrough:%20Creating%20MenuSuites%20for%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client.md). For information about how to modify a MenuSuite, see [How to: Modify Menu Items in a MenuSuite](How-to--Modify%20Menu%20Items%20in%20a%20MenuSuite.md).  
   
 ## Inheriting MenuSuite Content  
  When you create a new MenuSuite, it inherits all its content from the 1010 Dept – MBS, the base MenuSuite that is provided in [!INCLUDE[navnow](includes/navnow_md.md)]. For example, when you create a MenuSuite and you select the Region design permission level, the MenuSuite that you created at the Region level inherits from 1010 Dept - MBS. The 1020 Dept – Region MenuSuite then becomes the highest design level MenuSuite in Object Designer. If you create another MenuSuite, it inherits from the 1020 Dept – Region MenuSuite and so on.  
@@ -101,7 +101,7 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can create MenuSuites 
  These menus, except the **My New Department** menu, were inherited; therefore, **My New Department** does not have the symbol **>>** on the menu button.  
   
 ## Modifying a MenuSuite  
- To modify a MenuSuite in the Navigation Pane Designer, select the MenuSuite in Object Designer, apply the changes you want, compile, and save the MenuSuite. You can change the properties of menu items and departments in the **Properties** windows. For information about how to modify MenuSuites, see [How to: Modify a Department Menu in a MenuSuite](How%20to:%20Modify%20a%20Department%20Menu%20in%20a%20MenuSuite.md).  
+ To modify a MenuSuite in the Navigation Pane Designer, select the MenuSuite in Object Designer, apply the changes you want, compile, and save the MenuSuite. You can change the properties of menu items and departments in the **Properties** windows. For information about how to modify MenuSuites, see [How to: Modify a Department Menu in a MenuSuite](How-to--Modify%20a%20Department%20Menu%20in%20a%20MenuSuite.md).  
   
  In addition to all the actions you can perform after you modify a MenuSuite, you can modify menu items and group folders as follows:  
   
@@ -118,10 +118,10 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can create MenuSuites 
  The menu items can be added directly on the department page or can be added to a submenu on the department page. You can change the bitmap images that are associated with the departments in the **Menu Properties** window. Valid bitmap numbers are from 0 to 15, inclusive. The menu items that you create in the Navigation Pane Designer are run in [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information about how to create MenuSuites, see [Walkthrough: Creating MenuSuites for the Microsoft Dynamics NAV Windows Client](Walkthrough:%20Creating%20MenuSuites%20for%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client.md).  
   
 ## Designing for Multiple Languages  
- By default, [!INCLUDE[navnow](includes/navnow_md.md)] display menus in the language that is set on your computer. The language code is shown in the CaptionML field in the **Menu Properties** window. If you create a menu that will be used in multiple languages, you must give the menu a name in each language in the [\($ S\_2141 Multilanguage Editor $\)](-$-S_2141-Multilanguage-Editor-$-.md) window. To open the Multilanguage Editor window, choose the **EditAssist** button in the [CaptionML Property](CaptionML-Property.md) field. For more information, see [How to: Enter Text in the Multilanguage Editor](How%20to:%20Enter%20Text%20in%20the%20Multilanguage%20Editor.md).  
+ By default, [!INCLUDE[navnow](includes/navnow_md.md)] display menus in the language that is set on your computer. The language code is shown in the CaptionML field in the **Menu Properties** window. If you create a menu that will be used in multiple languages, you must give the menu a name in each language in the [\($ S\_2141 Multilanguage Editor $\)](-$-S_2141-Multilanguage-Editor-$-.md) window. To open the Multilanguage Editor window, choose the **EditAssist** button in the [CaptionML Property](CaptionML-Property.md) field. For more information, see [How to: Enter Text in the Multilanguage Editor](How-to--Enter%20Text%20in%20the%20Multilanguage%20Editor.md).  
   
 ## See Also  
  [MenuSuites](MenuSuites.md)   
  [Walkthrough: Creating MenuSuites for the Microsoft Dynamics NAV Windows Client](Walkthrough:%20Creating%20MenuSuites%20for%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client.md)   
- [How to: Create a Menu for a Department in a MenuSuite](How%20to:%20Create%20a%20Menu%20for%20a%20Department%20in%20a%20MenuSuite.md)   
- [How to: Modify Menu Items in a MenuSuite](How%20to:%20Modify%20Menu%20Items%20in%20a%20MenuSuite.md)
+ [How to: Create a Menu for a Department in a MenuSuite](How-to--Create%20a%20Menu%20for%20a%20Department%20in%20a%20MenuSuite.md)   
+ [How to: Modify Menu Items in a MenuSuite](How-to--Modify%20Menu%20Items%20in%20a%20MenuSuite.md)

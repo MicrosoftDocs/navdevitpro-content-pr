@@ -28,6 +28,6 @@ You can start, stop, restart, or remove a [!INCLUDE[nav_server](includes/nav_ser
   
 ## See Also  
  [Managing Microsoft Dynamics NAV Server Instances](Managing-Microsoft-Dynamics-NAV-Server-Instances.md)   
- [How to: Configure a Microsoft Dynamics NAV Server Instance](How%20to:%20Configure%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)   
- [How to: Create a Microsoft Dynamics NAV Server Instance](How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)   
+ [How to: Configure a Microsoft Dynamics NAV Server Instance](How-to--Configure%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)   
+ [How to: Create a Microsoft Dynamics NAV Server Instance](How-to--Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)   
  [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)

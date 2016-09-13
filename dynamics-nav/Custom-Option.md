@@ -15,7 +15,7 @@ manager: edupont
 The Custom option is available on the **Choose an installation option** page in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup.  
   
 ## Installed Components  
- The Custom option offers the full list of [!INCLUDE[navnow](includes/navnow_md.md)] components from which you can select individual components to install. In this way, it differs from the other installation options that are available on the **Choose an installation option** page, which are subsets of available components for a particular type of user or configuration. For more information, see [How to: Choose Components to Install](How%20to:%20Choose%20Components%20to%20Install.md). You can use this list to design your own installation option.  
+ The Custom option offers the full list of [!INCLUDE[navnow](includes/navnow_md.md)] components from which you can select individual components to install. In this way, it differs from the other installation options that are available on the **Choose an installation option** page, which are subsets of available components for a particular type of user or configuration. For more information, see [How to: Choose Components to Install](How-to--Choose%20Components%20to%20Install.md). You can use this list to design your own installation option.  
   
 |Component|Description|Additional options|  
 |---------------|-----------------|------------------------|  
@@ -30,5 +30,5 @@ The Custom option is available on the **Choose an installation option** page in 
 |ClickOnce Installer Tools|Installs tools to facilitate with ClickOnce deployments.|Not applicable|  
   
 ## See Also  
- [How to: Preconfigure Components](How%20to:%20Preconfigure%20Components.md)   
- [How to: Create or Load a Setup Configuration File](How%20to:%20Create%20or%20Load%20a%20Setup%20Configuration%20File.md)
+ [How to: Preconfigure Components](How-to--Preconfigure%20Components.md)   
+ [How to: Create or Load a Setup Configuration File](How-to--Create%20or%20Load%20a%20Setup%20Configuration%20File.md)

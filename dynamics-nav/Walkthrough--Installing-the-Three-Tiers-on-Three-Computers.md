@@ -208,11 +208,11 @@ In this walkthrough, you will install [!INCLUDE[navnowlong](includes/navnowlong_
 ## Next Steps  
  You have now installed all [!INCLUDE[navnow](includes/navnow_md.md)] components. When you start the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], it connects to [!INCLUDE[nav_server](includes/nav_server_md.md)] and to [!INCLUDE[demoname](includes/demoname_md.md)], which is the demonstration company that is associated with the demonstration database.  
 
- The next steps are to upload your license, create users, and integrate them into the [!INCLUDE[navnow](includes/navnow_md.md)] security system. For more information, see [How to: Upload the License File](How%20to:%20Upload%20the%20License%20File.md), [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md), and [Managing Users](Managing-Users.md).  
+ The next steps are to upload your license, create users, and integrate them into the [!INCLUDE[navnow](includes/navnow_md.md)] security system. For more information, see [How to: Upload the License File](How-to--Upload%20the%20License%20File.md), [How to: Create Microsoft Dynamics NAV Users](How-to--Create%20Microsoft%20Dynamics%20NAV%20Users.md), and [Managing Users](Managing-Users.md).  
 
 ## See Also  
  [Product and Architecture Overview](Product-and-Architecture-Overview.md)   
  [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)   
  [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)   
  [Configuring the Windows Client](Configuring-the-Windows-Client.md)   
- [How to: Upload the License File](How%20to:%20Upload%20the%20License%20File.md)
+ [How to: Upload the License File](How-to--Upload%20the%20License%20File.md)

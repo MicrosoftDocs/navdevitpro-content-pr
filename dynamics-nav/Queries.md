@@ -21,7 +21,7 @@ A *query* object enables you to specify a set of data from the [!INCLUDE[navnow]
   
 |To|See|  
 |--------|---------|  
-|Learn how to create a basic query in Query Designer.|[How to: Create Queries](How%20to:%20Create%20Queries.md)|  
+|Learn how to create a basic query in Query Designer.|[How to: Create Queries](How-to--Create%20Queries.md)|  
 |Learn the supported ways to join tables in Query Designer.|[Understanding Data Item Links](Understanding-Data-Item-Links.md)|  
 |Learn how to add totaling methods to columns in a query.|[Understanding Query Totals and Grouping](Understanding-Query-Totals-and-Grouping.md)|  
 |Learn how to filter the results of a query.|[Understanding Query Filters](Understanding-Query-Filters.md)|  
@@ -34,7 +34,7 @@ A *query* object enables you to specify a set of data from the [!INCLUDE[navnow]
 ## Using Queries  
  The following examples show how you can use queries in your [!INCLUDE[navnow](includes/navnow_md.md)] application.  
   
--   Creating charts that are based on a query instead of a table. For more information, see [How to: Create Generic Charts](How%20to:%20Create%20Generic%20Charts.md) in the Application Help for [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
+-   Creating charts that are based on a query instead of a table. For more information, see [How to: Create Generic Charts](How-to--Create%20Generic%20Charts.md) in the Application Help for [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
   
 -   Saving a query as an .xml or .csv file. You can use the [SAVEASXML Function](SAVEASXML-Function.md) to create an .xml file that contains the resulting dataset of a query. You can use the .xml file to integrate with external applications.  
   
