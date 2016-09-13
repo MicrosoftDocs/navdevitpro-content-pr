@@ -69,7 +69,7 @@ MESSAGE(Text000, DayOfWeek, Week, Year, OutputDate);
   
  On a computer that has the regional format set to English \(United States\), the message window displays the following:  
   
- **Day 1 of week 1 in the year 2014 is the date: 12\/30\/13.**  
+ **Day 1 of week 1 in the year 2014 is the date: 12/30/13.**  
   
  The example shows that the first day of the week in the first week of the year 2014 is regarded as the date December 30, 2013. The first week of the year 2014 is the first week that has four or more days in the year 2014. That week starts on Monday, December 30, 2013, and ends on Sunday, January 5, 2014.  
   
@@ -97,7 +97,7 @@ MESSAGE(Text000, DayOfWeek, Week, Year, OutputDate);
   
  On a computer that has the regional format set to English \(United States\), the message window displays the following:  
   
- **Day 1 of week 1 in the year 2016 is the date: 01\/04\/16.**  
+ **Day 1 of week 1 in the year 2016 is the date: 01/04/16.**  
   
  The example shows that the first day of the week in the first week of the year 2016 is regarded as the date January 4, 2016. The first week of the year 2016 is the first week that has four or more days in the year 2016. That week starts on Monday, January 4, 2016, and ends on Sunday, January 11, 2015.  
   
@@ -123,15 +123,15 @@ MESSAGE(Text000, DayOfWeek, Week, OutputDate);
   
  On a computer that has the regional format set to English \(United States\), if you ran the code on January 1, 2014, then the message window displays the following:  
   
- **Day 1 of week 1 is the date: 12\/30\/13.**  
+ **Day 1 of week 1 is the date: 12/30/13.**  
   
- If you do not specify the year, then the year of the current week is used. On January 1, 2014, the current week is the week that starts on December 30, 2013 and ends on January 5, 2014. This week has four days in 2014 so the year of the current week is 2014. The first day of the first week of 2014 is 12\/30\/13.  
+ If you do not specify the year, then the year of the current week is used. On January 1, 2014, the current week is the week that starts on December 30, 2013 and ends on January 5, 2014. This week has four days in 2014 so the year of the current week is 2014. The first day of the first week of 2014 is 12/30/13.  
   
  On a computer that has the regional format set to English \(United States\), if you ran the code on January 1, 2016, then the message window displays the following:  
   
- **Day 1 of week 1 is the date: 12\/29\/14.**  
+ **Day 1 of week 1 is the date: 12/29/14.**  
   
- On January 1, 2016, the current week is the week that starts on December 28, 2015 and ends on January 3, 2016. This week has four days in 2015 so the year of the current week is 2015. The first day of the first week of 2015 is 12\/29\/14.  
+ On January 1, 2016, the current week is the week that starts on December 28, 2015 and ends on January 3, 2016. This week has four days in 2015 so the year of the current week is 2015. The first day of the first week of 2015 is 12/29/14.  
   
 ## See Also  
  [Date and Time Functions](Date-and-Time-Functions.md)

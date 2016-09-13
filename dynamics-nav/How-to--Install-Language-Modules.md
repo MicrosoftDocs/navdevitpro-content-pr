@@ -45,7 +45,7 @@ To install language modules in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]
   
 2.  Run the .exe file to unzip the language module files.  
   
-3.  In the Server folder, run Server.Local.\<*country\/region code*>.\<*language code*>.msi.  
+3.  In the Server folder, run Server.Local.\<*country/region code*>.\<*language code*>.msi.  
   
 4.  In Control Panel, choose **Administrative Tools**, and then choose **Services** to open the Services snap-in.  
   
@@ -59,7 +59,7 @@ To install language modules in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]
   
 2.  On the computer that is running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], navigate to the location where you downloaded the language module.  
   
-3.  In the RoleTailoredClient folder, run RoleTailoredClient.Local.\<*country\/region code*>.\<*language code*>.msi.  
+3.  In the RoleTailoredClient folder, run RoleTailoredClient.Local.\<*country/region code*>.\<*language code*>.msi.  
   
 4.  \(optional\) To import a localized chart for a Role Center, do the following:  
   
@@ -84,7 +84,7 @@ To install language modules in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]
   
 2.  On the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], navigate to the location where you downloaded the language module.  
   
-3.  In the WebClient folder, run WebClient.Local.\<*country\/region code*>.\<*language code*>.msi.  
+3.  In the WebClient folder, run WebClient.Local.\<*country/region code*>.\<*language code*>.msi.  
   
 ##  <a name="Outlook"></a> Microsoft Office Outlook Component  
   
@@ -92,7 +92,7 @@ To install language modules in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]
   
 1.  On the computer that is running the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], navigate to the location where you downloaded the language module.  
   
-2.  In the OutlookAddIn folder, run OutlookAddIn.Local.\<*country\/region code*>.\<*language code*>.msi.  
+2.  In the OutlookAddIn folder, run OutlookAddIn.Local.\<*country/region code*>.\<*language code*>.msi.  
   
 ##  <a name="Database"></a> Database Component  
   

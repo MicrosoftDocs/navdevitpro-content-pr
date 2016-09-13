@@ -1,5 +1,5 @@
 ---
-title: "Elements of C-AL Expressions"
+title: "Elements of C/AL Expressions"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 49b92f61-2e22-4405-810c-837ac97ed636
 caps.latest.revision: 6
 manager: edupont
 ---
-# Elements of C-AL Expressions
+# Elements of C/AL Expressions
 All expressions in C/AL are built from the following:  
   
 -   Constants  

@@ -68,5 +68,5 @@ MESSAGE(Text000, numChars, varChars);
 ## See Also  
  [InStream.EOS Function](InStream.EOS-Function.md)   
  [InStream.READTEXT Function](InStream.READTEXT-Function.md)   
- [OutStream.WRITE Function](OutStream.WRITE-Function.md)   
+ [OutStream.WRITE Function](OutStream-WRITE-Function.md)   
  [InStream and OutStream Data Types](InStream-and-OutStream-Data-Types.md)

@@ -1,5 +1,5 @@
 ---
-title: "C-AL BREAK Statement"
+title: "C/AL BREAK Statement"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 625e29a8-963e-4ef1-971d-c96cf19e1ccb
 caps.latest.revision: 8
 manager: edupont
 ---
-# C-AL BREAK Statement
+# C/AL BREAK Statement
 You use the BREAK statement to terminate the iteration statement in which it appears.  
   
 ```  

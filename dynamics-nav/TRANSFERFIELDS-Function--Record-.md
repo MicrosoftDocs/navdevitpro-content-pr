@@ -53,8 +53,8 @@ Record.TRANSFERFIELDS(FromRecord [, InitPrimaryKeyFields])
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
-|GLAccountRec|Record|G\/L Account|  
-|FromRecord|Record|G\/L Account|  
+|GLAccountRec|Record|G/L Account|  
+|FromRecord|Record|G/L Account|  
   
 ```  
 …  

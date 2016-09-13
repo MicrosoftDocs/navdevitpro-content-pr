@@ -79,7 +79,7 @@ String := FORMAT(Value[, Length][, FormatStr/FormatNumber])
 ## Remarks  
  For more information about the formats that are used by the various data types, see [Format Property](Format-Property.md). This topic describes the various predefined formats in detail, and how to create customized formats.  
   
- Format 9 is designed to be used when importing data with an XMLport and converts data from XML format to the corresponding C\/SIDE formats.  
+ Format 9 is designed to be used when importing data with an XMLport and converts data from XML format to the corresponding C/SIDE formats.  
   
 ## Example  
  This example requires that you create the following text constant in the **C/AL Globals** window.  

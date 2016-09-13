@@ -55,4 +55,4 @@ recBinaries.MODIFY();
   
 ## See Also  
  [InStream and OutStream Data Types](InStream-and-OutStream-Data-Types.md)   
- [OutStream.WRITETEXT Function](OutStream.WRITETEXT-Function.md)
+ [OutStream.WRITETEXT Function](OutStream-WRITETEXT-Function.md)

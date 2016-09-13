@@ -18,7 +18,7 @@ When you try to open the [!INCLUDE[nav_web](includes/nav_web_md.md)], you get th
   
  In the Event Viewer of the computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], the Windows application log includes the following event:  
   
- **Message: A server was not found at “net.tcp:\/\/navserver:7046\/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\/Service”. Either the URL is incorrect or the server is currently not available.**  
+ **Message: A server was not found at “net.tcp://navserver:7046/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/Service”. Either the URL is incorrect or the server is currently not available.**  
   
  **navserver** is the name of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   

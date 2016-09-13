@@ -66,7 +66,7 @@ MESSAGE(Text000, Day, Month, Year, OutputDate);
   
  On a computer that has the regional format set to English \(United States\), the message window displays the following:  
   
- **Day number 17, month number 2, and year number 2014 corresponds to the date 02\/17\/14.**  
+ **Day number 17, month number 2, and year number 2014 corresponds to the date 02/17/14.**  
   
 ## See Also  
  [Date and Time Functions](Date-and-Time-Functions.md)   

@@ -48,7 +48,7 @@ REPORT.EXECUTE (Number, Parameters[,RecordRef])
  For a simple example that illustrates how to use the EXECUTE function, see example in the [RUNREQUESTPAGE Function](RUNREQUESTPAGE-Function.md) function topic.  
 
 ## See Also  
- [Reports-duplicate 20](Reports-duplicate-20.md)   
+ [Reports](Reports.md)   
  [Request Pages](Request-Pages.md)   
  [SAVEAS Function](SAVEAS-Function.md)   
  [PRINT Function](PRINT-Function.md)

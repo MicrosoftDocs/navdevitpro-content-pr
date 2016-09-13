@@ -35,7 +35,7 @@ To configure your [!INCLUDE[navnow](includes/navnow_md.md)] deployment to use Mi
     |[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
     |**Namespace**|Enter a name for the namespace. The name can be any text. For example, you can enter the name of your company for the namespace name.<br /><br /> A green checkmark appears if the namespace is available. The value that you specify because a prefix for the fully qualified namespace, such as *mynamespace*.accesscontrol.windows.net.|  
-    |**Region**|Choose the Azure region that you want to host your namespace in.<br /><br /> Choose the region that most closely matches your country\/region. For example, if you and your customers are located in Denmark, choose North Europe, unless another region suits your needs better.|  
+    |**Region**|Choose the Azure region that you want to host your namespace in.<br /><br /> Choose the region that most closely matches your country/region. For example, if you and your customers are located in Denmark, choose North Europe, unless another region suits your needs better.|  
     |**Subscription**|Choose your Azure subscription.|  
   
 4.  Choose **Create**.  
@@ -67,8 +67,8 @@ To configure your [!INCLUDE[navnow](includes/navnow_md.md)] deployment to use Mi
     |---------------------------------|---------------------------------------|  
     |**Name**|Specify a name for the application.<br /><br /> A typical value would be the name of the organization for which the deployment was created.|  
     |**Mode**|Choose **Enter settings manually**.|  
-    |**Realm**|Enter the DNS name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, such as *https:\/\/MyCompany.com* or https:\/\/localhost.<br /><br /> The DNS name must be the same that is specified in the Server parameter in the clientUserSettings.config file for [!INCLUDE[nav_windows](includes/nav_windows_md.md)] client and the web.config file for [!INCLUDE[nav_web](includes/nav_web_md.md)] clients.|  
-    |**Return URL**|Enter the fully qualified URL for the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], such as https:\/\/MyCompany.com or https:\/\/MyServer\/WebClient.<br /><br /> The URL is case-sensitive.<br /><br /> If you do not deploy the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], you can specify any address since the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] does not use this setting.|  
+    |**Realm**|Enter the DNS name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, such as *https://MyCompany.com* or https://localhost.<br /><br /> The DNS name must be the same that is specified in the Server parameter in the clientUserSettings.config file for [!INCLUDE[nav_windows](includes/nav_windows_md.md)] client and the web.config file for [!INCLUDE[nav_web](includes/nav_web_md.md)] clients.|  
+    |**Return URL**|Enter the fully qualified URL for the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], such as https://MyCompany.com or https://MyServer/WebClient.<br /><br /> The URL is case-sensitive.<br /><br /> If you do not deploy the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], you can specify any address since the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] does not use this setting.|  
     |**Token format**|Select **SWT**. Other token types are not supported in this version of [!INCLUDE[navnow](includes/navnow_md.md)].<br /><br /> This adds a **Token Signing Settings** section to the page.|  
   
 3.  In the **Token Signing Settings** section, in the **Token signing key** field, choose the **Generate** button.  

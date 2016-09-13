@@ -15,7 +15,7 @@ manager: edupont
 Try functions in C/AL enable you to handle errors that occur in the application during code execution. For example, with try functions, you can provide more user-friendly error messages to the end user than those thrown by the system.  
   
 ## Usage and Restrictions  
- The main purpose of try functions is to catch errors\/exceptions that are thrown by [!INCLUDE[navnow](includes/navnow_md.md)] or exceptions that are thrown during .NET Framework interoperability operations. What you cannot do in try functions are transactions that write to the database. All database write calls in the scope of try function are denied. In practice, this means that following function calls are not allowed inside a try function scope:  
+ The main purpose of try functions is to catch errors/exceptions that are thrown by [!INCLUDE[navnow](includes/navnow_md.md)] or exceptions that are thrown during .NET Framework interoperability operations. What you cannot do in try functions are transactions that write to the database. All database write calls in the scope of try function are denied. In practice, this means that following function calls are not allowed inside a try function scope:  
   
 |Data Type|Function|  
 |---------------|--------------|  

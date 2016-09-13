@@ -40,7 +40,7 @@ InfixExpression = LeftExpression InfixOperator RightExpression
 |+|No|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|  
 |-|No|Yes|Yes|Yes|Yes|Yes|Yes|Yes|No|No|  
 |\*|No|Yes|Yes|Yes|Yes|Yes|No|No|No|No|  
-|\/|No|Yes|Yes|Yes|Yes|Yes|No|No|No|No|  
+|/|No|Yes|Yes|Yes|Yes|Yes|No|No|No|No|  
 |DIV|No|Yes|Yes|Yes|Yes|Yes|No|No|No|No|  
 |MOD|No|Yes|Yes|Yes|Yes|Yes|No|No|No|No|  
   
@@ -50,10 +50,10 @@ InfixExpression = LeftExpression InfixOperator RightExpression
   
 ### Definition of Type Conversion Rules for the "+" Operator  
   
-|The "+"<br /><br /> operator|Boolean|Byte\/Char|Option|Integer|Decimal|Date|Time|Text|Code|  
+|The "+"<br /><br /> operator|Boolean|Byte/Char|Option|Integer|Decimal|Date|Time|Text|Code|  
 |---------------------------|-------------|----------------|------------|-------------|-------------|----------|----------|----------|----------|  
 |Boolean||||||||||  
-|Byte\/Char||Integer|Integer \(C\)|Integer \(C\)|Decimal \(C\)|||||  
+|Byte/Char||Integer|Integer \(C\)|Integer \(C\)|Decimal \(C\)|||||  
 |Option||Integer|Integer \(C\)|Integer \(C\)|Decimal \(C\)|||||  
 |Integer||Integer \(C\)|Integer \(C\)|Integer \(C\)|Decimal \(C\)|||||  
 |Decimal||Decimal \(C\)|Decimal \(C\)|Decimal \(C\)|Decimal \(C\)|||||  

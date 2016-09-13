@@ -1,5 +1,5 @@
 ---
-title: "C-AL Reserved Words"
+title: "C/AL Reserved Words"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
@@ -10,7 +10,7 @@ ms-prod: "dynamics-nav-2017"
 ms.assetid: b7533238-04ef-4408-93fc-dd5c5c154346
 caps.latest.revision: 23
 ---
-# C-AL Reserved Words
+# C/AL Reserved Words
 C/AL has several reserved words that you cannot use as variable, constant, or function names in your application. Reserved words include the following types:  
   
 -   Data types  
@@ -29,7 +29,7 @@ C/AL has several reserved words that you cannot use as variable, constant, or fu
   
  In some cases, you can use reserved words as variable names if you enclose the variable name in quotation marks. However, we do not recommend this practice.  
   
- If you write code on client report definition \(RDLC\) report layouts, then verify that your code does not use Visual Studio Report Designer reserved words. For more information, see [Using Expressions in a Report \(Visual Studio Report Designer\)](http://go.microsoft.com/fwlink/?LinkId=160607) and its subtopics.  
+ If you write code on client report definition (RDLC) report layouts, then verify that your code does not use Visual Studio Report Designer reserved words. For more information, see [Using Expressions in a Report (Visual Studio Report Designer)](http://go.microsoft.com/fwlink/?LinkId=160607) and its subtopics.  
   
 ## List of Reserved Words  
  The following table lists all of the C/AL reserved words.  

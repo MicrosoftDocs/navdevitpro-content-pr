@@ -23,7 +23,7 @@ You can write application tests in C/AL and run them individually or collectivel
 |CALTestRunner.fob|Contains application objects for running application tests, include the CAL Test Tool page and other objects that support the application tests.|  
   
 > [!NOTE]  
->  The file names in the table are for the default version of [!INCLUDE[navnow](includes/navnow_md.md)]. The product media for the country-\/region specific versions of [!INCLUDE[navnow](includes/navnow_md.md)] contain files that are relevant for that country\/region.  
+>  The file names in the table are for the default version of [!INCLUDE[navnow](includes/navnow_md.md)]. The product media for the country-/region specific versions of [!INCLUDE[navnow](includes/navnow_md.md)] contain files that are relevant for that country/region.  
   
 ### Describing Your Tests  
  To help you design the relevant tests for your functionality, you can write scenarios that outline what you want to test, and you can write test criteria in the GIVEN-WHEN-THEN format. By adding comments based on feature, scenario, and GIVEN-WHEN-THEN, you add structure to your test code and make tests readable.  

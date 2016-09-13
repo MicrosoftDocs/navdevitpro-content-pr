@@ -23,7 +23,7 @@ Sets the string that is to be used to separate records.
 |---------------|---------------------|  
 |**\<None>**|There will no be RecordSeparator.|  
 |**\<NewLine> \(default\)**|Any combination of CR and LF characters.|  
-|**\<CR\/LF>**|CR followed by LF.|  
+|**\<CR/LF>**|CR followed by LF.|  
 |**\<CR>**|CR alone.|  
 |**\<LF>**|LF alone.|  
 |**\<TAB>**|Tabulator alone.|  

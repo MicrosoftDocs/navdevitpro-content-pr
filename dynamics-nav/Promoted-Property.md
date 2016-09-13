@@ -21,7 +21,7 @@ Sets the value that indicates whether the selected action is promoted, which mea
 ## Remarks  
  This feature allows you to make a copy of an action and place it on the Home tab so that it is easier to find.  
   
- Available options are Yes\/No \(Boolean\).  
+ Available options are Yes/No \(Boolean\).  
   
  On [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLUDE[nav_phone](includes/nav_phone_md.md)] only promoted actions are displayed.  
   

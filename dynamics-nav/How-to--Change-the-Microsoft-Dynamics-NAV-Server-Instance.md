@@ -36,7 +36,7 @@ In some cases, you may want to change the [!INCLUDE[nav_server](includes/nav_ser
   
 1.  In the development environment, on the **Tools** menu, choose **Options**.  
   
-2.  In the **Options** window, in the **Server Instance** field, enter the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The format is \<*servername*>:\<*port*>\/\<*ServerInstance*>.  
+2.  In the **Options** window, in the **Server Instance** field, enter the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The format is \<*servername*>:\<*port*>/\<*ServerInstance*>.  
   
     > [!NOTE]  
     >  The value that you set is also displayed in the [\($ S\_2349 Database Information $\)](-$-S_2349-Database-Information-$-.md) window.  

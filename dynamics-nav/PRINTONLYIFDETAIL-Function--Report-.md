@@ -37,7 +37,7 @@ Gets or sets the current settings of the [PrintOnlyIfDetail Property](PrintOnlyI
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
-|GLEntryPage|Record|G\/L Entry|  
+|GLEntryPage|Record|G/L Entry|  
 |PageGroupNo|Integer|Not applicable|  
   
 ```  

@@ -21,7 +21,7 @@ Sets a value that specifies whether an action is enabled or disabled if it enter
 -   Pages  
   
 ## Property Value  
- **Yes**\/**No**  
+ **Yes**/**No**  
   
 ## See Also  
  [EnabledIfInsertion Property](EnabledIfInsertion-Property.md)   

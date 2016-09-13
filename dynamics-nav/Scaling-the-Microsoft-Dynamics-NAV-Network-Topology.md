@@ -46,7 +46,7 @@ When you deploy for the first time, you will have a [!INCLUDE[navnow](includes/n
 ## How to Scale the Network Topology  
  To scale the network topology, depending on the task, you use can use [!INCLUDE[nav_shell](includes/nav_shell_md.md)], [!INCLUDE[nav_admin](includes/nav_admin_md.md)], [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)]. The following table lists the tasks and the methods that you can use to perform the tasks.  
   
-|Task|Administration Shell|Administration Tool|Development Environment|Windows\/Web client|For more information, see|  
+|Task|Administration Shell|Administration Tool|Development Environment|Windows/Web client|For more information, see|  
 |----------|--------------------------|-------------------------|-----------------------------|-------------------------|-------------------------------|  
 |Add [!INCLUDE[nav_server](includes/nav_server_md.md)] instance|X|X|||[How to: Add a Microsoft Dynamics NAV Server Instance](How%20to:%20Add%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md) \(Administration Shell\)<br /><br /> [How to: Create a Microsoft Dynamics NAV Server Instance](How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md) \(Administration Tool\)|  
 |Add [!INCLUDE[navnow](includes/navnow_md.md)] web server instance|X||||[How to: Add a Microsoft Dynamics NAV Web Server Instance](How%20to:%20Add%20a%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Instance.md)|  

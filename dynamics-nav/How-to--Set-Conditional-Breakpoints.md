@@ -45,7 +45,7 @@ You can define a condition on a breakpoint. If the condition is true, then code 
   
 1.  In the **Debugger** window, do one of the following:  
   
-    -   On the **Home** tab, in the **Breakpoints** group, choose **Set\/Clear Condition**. In the **Debugger Breakpoint Condition** window, enter a condition.  
+    -   On the **Home** tab, in the **Breakpoints** group, choose **Set/Clear Condition**. In the **Debugger Breakpoint Condition** window, enter a condition.  
   
     -   On the **Home** tab, in the **Breakpoints** group, choose **List**. In the **Debugger Breakpoint List** window, enter a condition in the **Condition** column.  
   

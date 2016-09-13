@@ -17,7 +17,7 @@ You can specify a start ID for new objects so that elements on these new objects
 > [!NOTE]  
 >  In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], you specified the start ID offset by using the **GetUidOffset** function in codeunit 1.  
   
- You can use the start ID to identify a set of elements in your application, for example, to identify the elements in a country\/region-specific version. When you merge changes from different country\/region-specific versions, having different start IDs lets you easily identify the country\/region-specific version for each element.  
+ You can use the start ID to identify a set of elements in your application, for example, to identify the elements in a country/region-specific version. When you merge changes from different country/region-specific versions, having different start IDs lets you easily identify the country/region-specific version for each element.  
   
  If you do not specify a start ID, then the IDs are determined by your license.  
   

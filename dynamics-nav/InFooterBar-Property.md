@@ -23,7 +23,7 @@ Sets whether an action should be viewed as an exit action in the lower part of t
 ## Remarks  
  Available options:  
   
- Yes\/No \(Boolean\)  
+ Yes/No \(Boolean\)  
   
 ## See Also  
  [Properties](Properties.md)

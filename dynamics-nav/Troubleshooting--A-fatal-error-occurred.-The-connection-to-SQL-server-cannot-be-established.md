@@ -33,7 +33,7 @@ When you try to open [!INCLUDE[nav_web](includes/nav_web_md.md)], you get the fo
   
 -   SQL Server has the following configurations:  
   
-    -   TCP\/IP protocol is enabled.  
+    -   TCP/IP protocol is enabled.  
   
     -   SQL Server executable file is allowed through the Windows Firewall.  
   

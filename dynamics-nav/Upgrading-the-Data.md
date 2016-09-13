@@ -185,11 +185,11 @@ Start-NavDataUpgrade -ServerInstance <ServerInstanceName> -Force
   
      In Object Designer, run page 9802 **Permission Sets**, and then delete the permission sets.  
   
-2.  Run XMLport 9171 **Import\/Export Permission Sets** to import the permission sets XML file,  
+2.  Run XMLport 9171 **Import/Export Permission Sets** to import the permission sets XML file,  
   
      In the request page for the XMLport, in the **Direction** field, choose **Import**, choose the **OK** button, and then specify the permission sets XML file.  
   
-3.  Run XMLport 9172 **Import\/Export Permissions** to import the permission XML file.  
+3.  Run XMLport 9172 **Import/Export Permissions** to import the permission XML file.  
   
      In the request page for the XMLport, in the **Direction** field, choose **Import**, choose the **OK** button, and then specify the permissions XML file.  
   

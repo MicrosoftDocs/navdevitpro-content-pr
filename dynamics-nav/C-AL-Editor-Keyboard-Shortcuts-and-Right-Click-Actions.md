@@ -1,5 +1,5 @@
 ---
-title: "C-AL Editor Keyboard Shortcuts and Right-Click Actions"
+title: "C/AL Editor Keyboard Shortcuts and Right-Click Actions"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 68765735-01e1-4ecf-8bd7-26769c903618
 caps.latest.revision: 4
 manager: edupont
 ---
-# C-AL Editor Keyboard Shortcuts and Right-Click Actions
+# C/AL Editor Keyboard Shortcuts and Right-Click Actions
 This topic describes the keyboard shortcuts and right-click actions in the C/AL Editor.  
   
 ## Keyboard Shortcuts  
@@ -23,13 +23,13 @@ This topic describes the keyboard shortcuts and right-click actions in the C/AL 
 |Ctrl+L|Open **\($ S\_10205 C/AL Locals $\)** window to view and declare local variables and text constants for the current function or trigger.|  
 |Ctrl+Z|Undo the last action.|  
 |Ctrl+Y|Redo the last action.|  
-|Ctrl+J|List all members \(as IntelliSense\) for the local scope.|  
-|Ctrl+Space|List the members \(as IntelliSense\) for global scope.|  
+|Ctrl+J|List all members (as IntelliSense) for the local scope.|  
+|Ctrl+Space|List the members (as IntelliSense) for global scope.|  
 |Ctrl+W|Select the word.|  
 |Ctrl+U|Make the selected code lowercase.|  
 |Ctrl+Shift+U|Make the selected code uppercase.|  
 |Ctrl+Shift+N|Expand all collapsed code.|  
-|Ctrl+K+I|Display information about C/AL symbol \(such as variable, functions, and parameter\) in which the cursor is positioned. This displays the same text as when you point to the element.|  
+|Ctrl+K+I|Display information about C/AL symbol (such as variable, functions, and parameter) in which the cursor is positioned. This displays the same text as when you point to the element.|  
 |Ctrl+F12|Go to a definition of function or object. For more information, see [Viewing the Definition of a Function or Object by Using Go To Definition](Viewing-the-Definition-of-a-Function-or-Object-by-Using-Go-To-Definition.md).|  
   
 ## Right-Click Actions  

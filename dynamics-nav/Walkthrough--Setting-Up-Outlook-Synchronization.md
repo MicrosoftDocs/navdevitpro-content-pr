@@ -89,7 +89,7 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
 
 1.  In the **Search** box, enter **Salespeople**, and then choose the related link.  
 
-2.  On the **Home** tab, choose **New**, and then fill in the following fields in the **\($ N\_5116 Salesperson\/Purchaser $\)** card.  
+2.  On the **Home** tab, choose **New**, and then fill in the following fields in the **\($ N\_5116 Salesperson/Purchaser $\)** card.  
 
      The following table describes the fields.  
 
@@ -266,11 +266,11 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
 
      Specify a Web service path in the **Web Service Path** text box:  
 
-     On premises \(default\): http:\/\/localhost:7047\/DynamicsNAV71\/WS\/Codeunit\/DynamicsNAVsynchOutlook  
+     On premises \(default\): http://localhost:7047/DynamicsNAV71/WS/Codeunit/DynamicsNAVsynchOutlook  
 
      -or-  
 
-     Azure: https:\/\/\<cloud NST URL>:7047\/DynamicsNAV71\/WS\/Codeunit\/DynamicsNAVsynchOutlook  
+     Azure: https://\<cloud NST URL>:7047/DynamicsNAV71/WS/Codeunit/DynamicsNAVsynchOutlook  
 
 2.  Select an authentication type:  
 

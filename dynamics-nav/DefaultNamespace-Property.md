@@ -19,7 +19,7 @@ Specifies the default namespace for both the [IMPORT Function \(XMLport\)](IMPOR
 -   XMLports  
   
 ## Remarks  
- This property specifies the default namespace for both import and export. The default value is unique for different XMLports. For example, the following string specifies a namespace: urn:microsoft-dynamics-nav\/xmlports\/x100, where 100 is the ID of the XMLport.  
+ This property specifies the default namespace for both import and export. The default value is unique for different XMLports. For example, the following string specifies a namespace: urn:microsoft-dynamics-nav/xmlports/x100, where 100 is the ID of the XMLport.  
   
 ## See Also  
  [Properties](Properties.md)

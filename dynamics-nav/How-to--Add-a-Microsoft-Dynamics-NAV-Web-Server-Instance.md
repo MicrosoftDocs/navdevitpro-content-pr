@@ -31,7 +31,7 @@ This topic describes how to use the [!INCLUDE[navnow](includes/navnow_md.md)] Ad
   
     |Parameter|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
     |---------------|---------------------------------------|  
-    |*\<MyWebApp>*|Specifies the name that you want to give the [!INCLUDE[nav_web](includes/nav_web_md.md)] application instance. This name will become part of the URL for the [!INCLUDE[nav_web](includes/nav_web_md.md)] application, for example, http:\/\/MyWebServer:8080\/MyWebApp\/WebClient.|  
+    |*\<MyWebApp>*|Specifies the name that you want to give the [!INCLUDE[nav_web](includes/nav_web_md.md)] application instance. This name will become part of the URL for the [!INCLUDE[nav_web](includes/nav_web_md.md)] application, for example, http://MyWebServer:8080/MyWebApp/WebClient.|  
     |*\<NAVServer>*|Specifies the name of the computer that is running the [!INCLUDE[nav_server](includes/nav_server_md.md)] to connect the [!INCLUDE[navnow](includes/navnow_md.md)] web server to.|  
     |*\<NAVServerInstance>*|Specifies the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to connect the web server instance to.|  
     |*\<NAVCredentialType>*|Specifies the credential type that is configured for the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)]. Valid options are **NavUserPassword**, **Windows**, **UserName**, and **AccessControlService**. The default value is **NavUserPassword**. **Important:**  The credential type must match the credential type that is used by the [!INCLUDE[navnow](includes/navnow_md.md)] web server to authenticate [!INCLUDE[nav_web](includes/nav_web_md.md)] users. For more information, see [Configuring the Credential Type on the Microsoft Dynamics NAV Web Client Web Site](How%20to:%20Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md#WebClient).|  
@@ -55,7 +55,7 @@ New-NAVWebServerInstance -WebServerInstance MyNavApp –Server MyNavServer –Se
   
  To open the [!INCLUDE[nav_web](includes/nav_web_md.md)] for this example, open the following URL in a web browser:  
   
- **http:\/\/mymachine.cloudapp.net\/MyNavApp**  
+ **http://mymachine.cloudapp.net/MyNavApp**  
   
 ## See Also  
  [Scaling the Microsoft Dynamics NAV Network Topology](Scaling-the-Microsoft-Dynamics-NAV-Network-Topology.md)   

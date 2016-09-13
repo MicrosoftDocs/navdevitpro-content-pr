@@ -59,7 +59,7 @@ MESSAGE(Text000, InputDate, OutputDate);
   
  On a computer that has the regional format set to English \(United States\), the message window displays the following:  
   
- **The normal date for 04\/04\/14 is 04\/04\/14.**  
+ **The normal date for 04/04/14 is 04/04/14.**  
   
 ## Example  
  The input date is a closing date. This code example requires that you create the following variables and text constants in the **C/AL Globals** window.  
@@ -81,7 +81,7 @@ MESSAGE(Text001, InputDate, OutputDate);
   
  On a computer that has the regional format set to English \(United States\), the message window displays the following:  
   
- **The normal date for C04\/04\/14 is 04\/04\/14.**  
+ **The normal date for C04/04/14 is 04/04/14.**  
   
 ## See Also  
  [Date and Time Functions](Date-and-Time-Functions.md)

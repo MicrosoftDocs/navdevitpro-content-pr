@@ -1,7 +1,9 @@
 ---
-title: "C-AL Compound Statements"
+title: "C/AL Compound Statements"
+description: "Describing the C/AL compound statements."
+author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 06/04/2016
+ms.date: 09/06/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +13,7 @@ ms.assetid: dd09d7e4-8664-4fee-874a-1791944659cc
 caps.latest.revision: 8
 manager: edupont
 ---
-# C-AL Compound Statements
+# C/AL Compound Statements
 A compound statement is one type of control structure in C/AL.  
   
 ## Using Compound Statements  

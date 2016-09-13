@@ -31,7 +31,7 @@ This section contains the following topics:
   
 -   If a text field has a TableRelation, then use the Code data type.  
   
--   If the field is assigned values from a Code field, then use the Code data type. For example, if the **Document No.** field in the **G\/L Entry** table is copied from the primary key field **No.** in the **Sales Header** or **Purchase Heade**r table, then use the Code data type for the **Document No.** field.  
+-   If the field is assigned values from a Code field, then use the Code data type. For example, if the **Document No.** field in the **G/L Entry** table is copied from the primary key field **No.** in the **Sales Header** or **Purchase Heade**r table, then use the Code data type for the **Document No.** field.  
   
 -   For all other text fields, use the Text data type.  
   

@@ -107,7 +107,7 @@ You can view a report and view the dataset and layout on a computer that does no
      ![Visual Studio 2010, New Visual C&#35; Project](media/Plat_ExportReport_.png "Plat\_ExportReport\_")  
 
     > [!TIP]  
-    >  If **Visual C\#** is not listed under **Installed Templates**, then you must install the Visual C\# feature. To do this, in Control Panel, choose **Programs**, choose **Uninstall a program**, select your version of Microsoft Visual Studio, and then choose **Uninstall\/Change**. In the setup wizard, follow the instructions to add or remove features, and then choose the Visual C\# feature.  
+    >  If **Visual C\#** is not listed under **Installed Templates**, then you must install the Visual C\# feature. To do this, in Control Panel, choose **Programs**, choose **Uninstall a program**, select your version of Microsoft Visual Studio, and then choose **Uninstall/Change**. In the setup wizard, follow the instructions to add or remove features, and then choose the Visual C\# feature.  
 
 5.  In the **Name** field, enter **OfflineReport**, and then choose the **OK** button to create the solution.  
 

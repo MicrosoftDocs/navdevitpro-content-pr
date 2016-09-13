@@ -160,7 +160,7 @@ When you create a report, you can add features such as formatting, custom filter
 
     |Property|Value|  
     |--------------|-----------|  
-    |**MIMEType**|Image\/bmp|  
+    |**MIMEType**|Image/bmp|  
     |**Value**|=First\(Fields\!Picture.Value, "DataSet\_Result"\)|  
     |**Source**|Database|  
 
@@ -228,7 +228,7 @@ When you create a report, you can add features such as formatting, custom filter
 18. Run the report again. This time, on the Request Page, do not select the **Show Customer Details** option. Note that only the customer ID and the customer name are displayed on the report.  
 
 ## Formatting the Data  
- By default, the **DateTime** fields in the report display the date in the 1\/20\/2013 12:00 am format, **Boolean** fields are displayed as true or false, and the amounts fields are displayed without commas. Viktor will format the **DateTime** values so that they are displayed in the 01\/20\/2012 \(mm\/dd\/yyyy\) format,  Boolean values are displayed as **Yes** or **No**, and all the amounts are displayed in the \#,\#\#\#.\#\# format. For example, 2,222.00.  Later, the cells that display the amount values will be formatted to hide zero decimal values.  
+ By default, the **DateTime** fields in the report display the date in the 1/20/2013 12:00 am format, **Boolean** fields are displayed as true or false, and the amounts fields are displayed without commas. Viktor will format the **DateTime** values so that they are displayed in the 01/20/2012 \(mm/dd/yyyy\) format,  Boolean values are displayed as **Yes** or **No**, and all the amounts are displayed in the \#,\#\#\#.\#\# format. For example, 2,222.00.  Later, the cells that display the amount values will be formatted to hide zero decimal values.  
 
 #### To format dates value  
 

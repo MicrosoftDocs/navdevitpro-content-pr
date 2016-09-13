@@ -69,7 +69,7 @@ manager: edupont
   
 -   Some license information, but not the license number  
   
--   Country\/region version  
+-   Country/region version  
   
 -   Language  
   

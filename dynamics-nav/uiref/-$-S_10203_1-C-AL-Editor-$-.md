@@ -1,5 +1,5 @@
 ---
-title: "($ S_10203_1 C-AL Editor $)"
+title: "($ S_10203_1 C/AL Editor $)"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: a5f800a8-aa88-4c75-b6d8-9806f6cfb415
 caps.latest.revision: 7
 manager: edupont
 ---
-# ($ S_10203_1 C-AL Editor $)
+# ($ S_10203_1 C/AL Editor $)
 Adds C/AL code in triggers and user-defined functions. The trigger or function signature is displayed on a gray line in the C/AL Editor. You enter code for the trigger or function under the signature.  
 
  To open this window, on the **Tools** menu, choose **Object Designer**. In Object Designer, choose **Table**, **Page**, **Report**, **Codeunit**, **Query** or **XMLport**, choose the **Design** button and then on the **View** menu, choose **C/AL Code**.  

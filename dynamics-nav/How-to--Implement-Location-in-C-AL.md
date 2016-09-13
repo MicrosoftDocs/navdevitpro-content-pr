@@ -1,5 +1,5 @@
 ---
-title: "How to: Implement Location in C-AL"
+title: "How to: Implement Location in C/AL"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: f3419eac-58f5-45f7-a679-5f0c6960953b
 caps.latest.revision: 13
 manager: edupont
 ---
-# How to: Implement Location in C-AL
+# How to: Implement Location in C/AL
 This example illustrates how you can retrieve location information. The example implements a **GetLocation** action on the Customer Card \(page 21\) that returns the GPS coordinates of the current customers address. It does not save this information to the database. Scenarios in which this functionality could be useful would be displaying a map that shows where your customer is located based on the GPS coordinates. Or, functionality to plan the next round of customer visits based on the addresses of your customers.  
   
 > [!IMPORTANT]  

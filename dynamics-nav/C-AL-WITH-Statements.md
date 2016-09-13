@@ -1,5 +1,7 @@
 ---
-title: "C-AL WITH Statements"
+title: "C/AL WITH Statements"
+description: "Desription of the C/AL WITH statements."
+author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
@@ -11,7 +13,7 @@ ms.assetid: e224ae1d-8147-419a-9b34-037729c75a2d
 caps.latest.revision: 11
 manager: edupont
 ---
-# C-AL WITH Statements
+# C/AL WITH Statements
 The following syntax shows a WITH-DO statement.  
   
 ```  
@@ -21,11 +23,11 @@ WITH <Record> DO
   
  When you work with records, addressing is created as record name, dot \(period\), and field name:  
   
- *\<Record>*.*\<Field>*  
+ <*Record*>.<*Field*>  
   
  If you work continuously with the same record, then you can use WITH statements. When you use a WITH statement, you can only specify the record name one time.  
   
- Within the scope of *\<Statement>*, fields in *\<Record>* can be addressed without having to specify the record name.  
+ Within the scope of <*Statement*>, fields in *Record*> can be addressed without having to specify the record name.  
   
  You can nest several WITH statements. If you have identical names, then the inner WITH statement overrules the outer WITH statement.  
   
@@ -35,7 +37,7 @@ WITH <Record> DO
  Create the following variable.  
   
 |Variable|Data type|Subtype|  
-|--------------|---------------|-------------|  
+|--------|---------|-------|  
 |CustomerRec|Record|Customer|  
   
 ```  

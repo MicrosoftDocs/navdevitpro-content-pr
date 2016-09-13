@@ -1,7 +1,9 @@
 ---
-title: "C-AL Conditional Statements"
+title: "C/AL Conditional Statements"
+description: "Describing the C/AL conditional statements."
+author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 09/06/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +13,7 @@ ms.assetid: fba5fa4a-13e9-4212-beb9-14391d864438
 caps.latest.revision: 17
 manager: edupont
 ---
-# C-AL Conditional Statements
+# C/AL Conditional Statements
 A conditional statement is one type of control structure in C/AL.  
   
  You use conditional statements to specify a condition and one or more commands to execute if the condition is evaluated as true or false. There are two types of conditional statements in C/AL:  
@@ -26,13 +28,13 @@ A conditional statement is one type of control structure in C/AL.
 ```  
 IF <Condition> THEN  
   <Statement1>  
-[ELSE  
-  <Statement2>]  
+ELSE  
+  <Statement2>  
 ```  
   
- If *\<Condition>* is true, then *\<Statement1>* is executed. If *\<Condition>* is false, then *\<Statement2>* is executed.  
+ If <*Condition*> is true, then <*Statement1*> is executed. If <*Condition*> is false, then <*Statement2*> is executed.  
   
- The square brackets around ELSE \<*Statement2*> mean that this part of the statement is optional. The ELSE statement is used when different actions are executed depending on how \<*Condition*> is evaluated.  
+ The square brackets around ELSE <*Statement2*> mean that this part of the statement is optional. The ELSE statement is used when different actions are executed depending on how <*Condition*> is evaluated.  
   
  You can build more complex control structures by nesting IF-THEN-ELSE statements. The following example is a typical IF-THEN-ELSE statement.  
   
@@ -44,7 +46,7 @@ IF <Condition1> THEN
     <Statement2>  
 ```  
   
- If *\<Condition1>* is false, then nothing is executed. If *\<Condition1>* and *\<Condition2>* are both true, then *\<Statement1>* is executed. If *\<Condition1>* is true and *\<Condition2>* is false, then *\<Statement2>* is executed.  
+ If <*Condition1*> is false, then nothing is executed. If <*Condition1*>* and <*Condition2*> are both true, then <*Statement1*> is executed. If <*Condition1*> is true and <*Condition2*> is false, then <*Statement2*> is executed.  
   
 > [!NOTE]  
 >  A semicolon in front of an ELSE statement is not allowed.  
@@ -142,15 +144,15 @@ CASE <Expression> OF
 END;  
 ```  
   
- In this definition, *\<Expression>* cannot be a record and *\<Value set>* must be an expression or a range.  
+ In this definition, <*Expression*> cannot be a record and <*Value set*> must be an expression or a range.  
   
  CASE statements are also called multiple option statements and are typically used when you must choose between more than two different actions. The function of the CASE statement is as follows:  
   
--   The *\<Expression>* is evaluated, and the first matching value set executes the associated statement, if there is one.  
+-   The <*Expression*> is evaluated, and the first matching value set executes the associated statement, if there is one.  
   
 -   If no value set matches the value of the expression and the optional ELSE part has been omitted, then no action is taken. If the optional ELSE part is used, then the associated statement is executed.  
   
- The data type of the value sets must be the same as the data type of *\<Expression>* or at least be convertible to the same data type.  
+ The data type of the value sets must be the same as the data type of <*Expression*> or at least be convertible to the same data type.  
   
  In most cases, the data type of the value sets are converted to the date type of the evaluated expression. The only exception is if the evaluated expression is a Code variable. If the evaluated expression is a Code variable, then the value sets are not converted to the Code data type.  
   
@@ -202,7 +204,7 @@ END
  The following C/AL code shows how value sets in a CASE statement are evaluated if the expression is a Code data type. This example requires that you create the following variable.  
   
 |Variable|Data type|  
-|--------------|---------------|  
+|--------|---------|  
 |MyCode|Code|  
   
 ```  

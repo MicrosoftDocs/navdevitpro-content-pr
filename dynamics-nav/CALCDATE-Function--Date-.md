@@ -128,13 +128,13 @@ MESSAGE(Text000 + Text001 + Text002 + Text003,
   
  The message window displays the following text:  
   
- **The reference date is: 05\/21\/96**  
+ **The reference date is: 05/21/96**  
   
- **The expression: CQ+1M-10D returns 07\/20\/96**  
+ **The expression: CQ+1M-10D returns 07/20/96**  
   
- **The expression: -WD2 returns 05\/14\/96**  
+ **The expression: -WD2 returns 05/14/96**  
   
- **The expression: CM+30D returns 06\/30\/96**  
+ **The expression: CM+30D returns 06/30/96**  
   
 ## See Also  
  [Date and Time Functions](Date-and-Time-Functions.md)   

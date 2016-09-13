@@ -82,7 +82,7 @@ MESSAGE(Text000, Number1, Power1, Result1)
   
  If a principal amount P is deposited at the end of each year at interest rate R \(in decimal notation\) compounded annually, then at the end of N years, the accumulated amount is:  
   
- A = P\[\(\(1 + R\)<sup>N</sup> - 1\)\/R\]  
+ A = P\[\(\(1 + R\)<sup>N</sup> - 1\)/R\]  
   
  This is typically called an *annuity*.  
   
@@ -94,7 +94,7 @@ MESSAGE(Text000, Number1, Power1, Result1)
   
  The amount of the annuity A will be:  
   
- A = LCY 500\[\(\(1 + 0.04\)<sup>20</sup> - 1\)\/0.04 = LCY 14,889.04  
+ A = LCY 500\[\(\(1 + 0.04\)<sup>20</sup> - 1\)/0.04 = LCY 14,889.04  
   
  This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   

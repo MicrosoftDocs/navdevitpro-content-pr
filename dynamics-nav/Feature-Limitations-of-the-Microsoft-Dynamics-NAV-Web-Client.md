@@ -1,5 +1,7 @@
 ﻿---
 title: "Feature Limitations of the Microsoft Dynamics NAV Web Client"
+description: "Listing non-supported and partically supported features of the Web client."
+author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -80,7 +82,7 @@ manager: edupont
   
 |Feature|Level of support|Remarks|  
 |-------------|----------------------|-------------|  
-|Printing a report without using a request page by calling the Report.Run function|Partially supported.|If a report is run by calling the [REPORT.RUN Function](REPORT.RUN-Function.md) and the function call does not use a request page, then you must set up reports to print from BROKEN-INCLUDE-nav_server](includes/nav_server_md.md)], otherwise you will get an error at runtime. Client-side printing is not supported in this scenario. For more information, see the following topics.<br /><br /> -   [How to: Specify Printer Selection for Reports](How%20to:%20Specify%20Printer%20Selection%20for%20Reports.md)<br />-   [STARTSESSION Function \(Sessions\)](STARTSESSION-Function--Sessions-.md)<br />-   [Printing Reports from a Background Session](Printing-Reports-from-a-Background-Session.md)<br />-    [How to: Background Post with Job Queues](How%20to:%20Background%20Post%20with%20Job%20Queues.md) [!INCLUDE[endchm|  
+|Printing a report without using a request page by calling the Report.Run function|Partially supported.|If a report is run by calling the [REPORT.RUN Function](REPORT-RUN-Function.md) and the function call does not use a request page, then you must set up reports to print from [!INCLUDE[nav_server](includes/nav_server_md.md)], otherwise you will get an error at runtime. Client-side printing is not supported in this scenario. For more information, see the following topics.<br /><br /> -   [How to: Specify Printer Selection for Reports](How%20to:%20Specify%20Printer%20Selection%20for%20Reports.md)<br />-   [STARTSESSION Function \(Sessions\)](STARTSESSION-Function--Sessions-.md)<br />-   [Printing Reports from a Background Session](Printing-Reports-from-a-Background-Session.md)<br />-    [How to: Background Post with Job Queues](How%20to:%20Background%20Post%20with%20Job%20Queues.md)|  
 |Filtering on request page of a report|Partially supported.|The only filters that are shown are filter fields that are set by the **ReqFilterFields** property or the **SETRECFILTER** function in C/AL code.<br /><br /> If you rerun a report, any filter values must be reentered. Filter values are not saved when a report has been run in the [!INCLUDE[nav_web](includes/nav_web_md.md)]. There is a limit on the number of filters a user can set. The user can only specify one filter in addition to the number of filter fields that are set by the **ReqFilterFields** property.|  
 |Filter strings in a report URL|Not supported.|Unlike pages, you cannot filter a report by adding filter strings to the Internet address.|  
 |Document map in the report preview|Partially supported.|You can experience differences in the behavior between the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)].|  

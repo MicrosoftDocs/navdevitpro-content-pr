@@ -32,8 +32,8 @@ manager: edupont
   
 |Web service changes the DateTime field to|[!INCLUDE[nav_server](includes/nav_server_md.md)] interprets the DateTime value as|[!INCLUDE[nav_server](includes/nav_server_md.md)] saves the DateTime value as|  
 |-----------------------------------------------|---------------------------------------------------------------|----------------------------------------------------------|  
-|01\/01\/2014 17:00 UTC+1|01\/01\/2014 17:00 UTC+1|01\/01\/2014 16:00 UTC|  
-|01\/01\/2014 17:00|01\/01\/2014 17:00 UTC+3|01\/01\/2014 14:00 UTC|  
+|01/01/2014 17:00 UTC+1|01/01/2014 17:00 UTC+1|01/01/2014 16:00 UTC|  
+|01/01/2014 17:00|01/01/2014 17:00 UTC+3|01/01/2014 14:00 UTC|  
   
 ## See Also  
  [Communicating with Microsoft Dynamics NAV Clients in Different Time Zones](Communicating-with-Microsoft-Dynamics-NAV-Clients-in-Different-Time-Zones.md)   

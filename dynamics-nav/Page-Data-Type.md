@@ -19,8 +19,8 @@ This complex data type stores pages.
   
 ## See Also  
  [OBJECTID Function \(Page\)](OBJECTID-Function--Page-.md)   
- [PAGE.RUN Function](PAGE.RUN-Function.md)   
- [PAGE.RUNMODAL Function](PAGE.RUNMODAL-Function.md)   
+ [PAGE.RUN Function](PAGE-RUN-Function.md)   
+ [PAGE.RUNMODAL Function](PAGE-RUNMODAL-Function.md)   
  [RUN Function \(Page\)](RUN-Function--Page-.md)   
  [RUNMODAL Function \(Page\)](RUNMODAL-Function--Page-.md)   
  [SETRECORD Function \(Page\)](SETRECORD-Function--Page-.md)   

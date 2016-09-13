@@ -20,7 +20,7 @@ The topics in this section contain help on all functions, data types, properties
   
  For more information about the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], see [Development](Development.md).  
   
- To ensure that you are reading the latest information and to find additional [!INCLUDE[navnowlong](includes/navnowlong_md.md)] documentation, see the [MSDN Library](http://go.microsoft.com/fwlink/?LinkId=316365). To download the latest version of the C\/SIDE Reference Guide, see the [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkId=262373).  
+ To ensure that you are reading the latest information and to find additional [!INCLUDE[navnowlong](includes/navnowlong_md.md)] documentation, see the [MSDN Library](http://go.microsoft.com/fwlink/?LinkId=316365). To download the latest version of the C/SIDE Reference Guide, see the [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkId=262373).  
   
 ## In This Section  
   

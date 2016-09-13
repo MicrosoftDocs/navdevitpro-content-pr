@@ -1,5 +1,5 @@
 ---
-title: "How to: Call .NET Framework Types From C-AL Code"
+title: "How to: Call .NET Framework Types From C/AL Code"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 5900cae9-c742-4c66-812c-ab9a82887eba
 caps.latest.revision: 19
 manager: edupont
 ---
-# How to: Call .NET Framework Types From C-AL Code
+# How to: Call .NET Framework Types From C/AL Code
 You can call .NET Framework type members, including methods, properties, and constructors, from C/AL code. To call members, you define a DotNet type variable that references the .NET Framework assembly type that contains the member and then call the variable from C/AL code of the [!INCLUDE[navnow](includes/navnow_md.md)] object. A .NET Framework interoperability example is included in this topic.  
   
 ### To create a variable for a .NET Framework class in an assembly  
@@ -93,11 +93,11 @@ You can call .NET Framework type members, including methods, properties, and con
     >  Methods can be overloaded. Therefore see the description at the bottom of the **C/AL Symbol Menu**, which shows the parameter and return types for each method. Also, method and property names that are longer than 128 characters will be truncated, and you cannot compile the [!INCLUDE[navnow](includes/navnow_md.md)] object. For more information, see [Calling .NET Framework Members from C-AL](Calling-.NET-Framework-Members-from-C-AL.md).  
   
 ## Example  
- The following code example uses .NET Framework interoperability to display headlines from the RSS feed http:\/\/blogs.msdn.com\/inside\_office\_online\/rss.xml. This example accesses classes in the **System.XML** assembly that is found in Global Assembly Cache. To implement this example, create a codeunit that has the following local variables:  
+ The following code example uses .NET Framework interoperability to display headlines from the RSS feed http://blogs.msdn.com/inside\_office\_online/rss.xml. This example accesses classes in the **System.XML** assembly that is found in Global Assembly Cache. To implement this example, create a codeunit that has the following local variables:  
   
  The following code example uses .NET Framework interoperability to display headlines from an RSS feed from the Microsoft Dynamics NAV team blog, which has the following URL:  
   
- http:\/\/feeds.feedburner.com\/MicrosoftDynamicsNavTeamBlog?format=xml.  
+ http://feeds.feedburner.com/MicrosoftDynamicsNavTeamBlog?format=xml.  
   
  This example calls members of the **System.XML** assembly, which is part of the Microsoft .NET Framework class library and is installed in the global assembly cache.  
   

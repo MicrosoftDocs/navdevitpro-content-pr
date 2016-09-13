@@ -64,7 +64,7 @@ Saves a report as an .xml file on the computer that is running [!INCLUDE[nav_ser
   
  If the file that you specify in *FileName* is being used, then you get the following error:  
   
- **An I\/O exception occurred during the operation.**  
+ **An I/O exception occurred during the operation.**  
   
  If the [!INCLUDE[nav_server](includes/nav_server_md.md)] does not have permission to write to the file that you specify in *FileName*, then you get the following error:  
   

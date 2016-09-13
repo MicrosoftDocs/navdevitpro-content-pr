@@ -1,5 +1,5 @@
 ---
-title: "Tables-duplicate 20"
+title: "Tables"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 8d5a55e2-1089-4eac-ace1-6a3cdf07b218
 caps.latest.revision: 7
 manager: edupont
 ---
-# Tables-duplicate 20
+# Tables
 Tables are the fundamental objects in any database. They are the objects in which you store and manipulate data. This is true no matter what kind of data you need to manage. When you create a new database, you begin by building the tables. Later, you create pages and reports in order to access and view the data in the tables.  
   
  The following sections provide an overview of how to locate Help about designing tables in [!INCLUDE[navnow](includes/navnow_md.md)].  
@@ -50,7 +50,7 @@ Tables are the fundamental objects in any database. They are the objects in whic
   
 |To|See|  
 |--------|---------|  
-|Learn about the **LinkedObject** table property.|[Creating Table Definitions from SQL Server Objects \(Linked Objects\)](Creating-Table-Definitions-from-SQL-Server-Objects--Linked-Objects-.md)|  
+|Learn about the **LinkedObject** table property.|[Creating Table Definitions from SQL Server Objects (Linked Objects)](Creating-Table-Definitions-from-SQL-Server-Objects--Linked-Objects-.md)|  
 |Work with other data sources, including Microsoft Excel and Oracle databases.|[Accessing Objects in Other Databases or on Linked Servers](Accessing-Objects-in-Other-Databases-or-on-Linked-Servers.md)|  
   
 ## See Also  

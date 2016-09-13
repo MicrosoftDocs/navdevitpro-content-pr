@@ -20,7 +20,7 @@ The **Table Information** virtual table contains information about database tabl
 |**Table No.**|The ID number for the table.|  
 |**Table Name**|The name of the table.|  
 |**No. of Records**|The number of records in the table.|  
-|**Record Size**|A value expressing the average size of a record. Calculated as 1024 x Size \(KB\)\/Records.|  
+|**Record Size**|A value expressing the average size of a record. Calculated as 1024 x Size \(KB\)/Records.|  
 |**Size \(KB\)**|How much space the table occupies in the database \(in kilobytes\).|  
   
 ## See Also  
