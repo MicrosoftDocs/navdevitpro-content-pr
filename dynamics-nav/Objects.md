@@ -17,14 +17,14 @@ This section contains topics that describe all of the objects that make up the [
   
 |To|See|  
 |--------|---------|  
-|Learn about how to define the data model on which you build your application.|[Tables-duplicate 20](Tables-duplicate-20.md)|  
+|Learn about how to define the data model on which you build your application.|[Tables-duplicate 20](Tables.md)|  
   
 ## Presenting the Data  
   
 |To|See|  
 |--------|---------|  
 |Read about how you create pages and work in Page Designer.|[Pages](Pages.md)|  
-|Read about how to create reports in Report Dataset Designer and Visual Studio Report Designer.|[Reports-duplicate 20](Reports-duplicate-20.md)|  
+|Read about how to create reports in Report Dataset Designer and Visual Studio Report Designer.|[Reports-duplicate 20](Reports.md)|  
   
 ## Writing Code  
   
