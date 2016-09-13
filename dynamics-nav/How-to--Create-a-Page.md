@@ -64,7 +64,7 @@ Pages are objects for viewing and editing data in the [!INCLUDE[rtc](includes/rt
   
     -   [Creating Activity Buttons for the Navigation Pane](Creating-Activity-Buttons-for-the-Navigation-Pane.md)  
   
-    -   [How to: Run a Page](How%20to:%20Run%20a%20Page.md)  
+    -   [How to: Run a Page](How-to--Run%20a%20Page.md)  
   
 ##  <a name="Wizard"></a> Creating a Page Using the Wizard  
  The [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] includes a wizard that you can use to create specific page types. In the page wizard, you choose a page type, and the page wizard automatically adds some content and controls to the page for you, such as fields, FastTabs, and FactBoxes. The page wizard is designed to help you learn about how to create a page by adding the basic content and controls. The wizard has limitations and may not add all content that you want on a page. For example, you cannot use the wizard to add navigation or actions on your page. Depending on the page's type and complexity, you should manually change a page after you use the wizard.  
@@ -112,11 +112,11 @@ Pages are objects for viewing and editing data in the [!INCLUDE[rtc](includes/rt
   
     -   [Creating Activity Buttons for the Navigation Pane](Creating-Activity-Buttons-for-the-Navigation-Pane.md)  
   
-    -   [How to: Run a Page](How%20to:%20Run%20a%20Page.md)  
+    -   [How to: Run a Page](How-to--Run%20a%20Page.md)  
   
 ## See Also  
  [Pages](Pages.md)   
  [Pages Overview](Pages-Overview.md)   
- [How to: Add FastTabs to a Customer Card Page](How%20to:%20Add%20FastTabs%20to%20a%20Customer%20Card%20Page.md)   
+ [How to: Add FastTabs to a Customer Card Page](How-to--Add%20FastTabs%20to%20a%20Customer%20Card%20Page.md)   
  [Adding a FactBox to Page](Adding-a-FactBox-to-Page.md)   
  [Making a Page or Report Available From Search in the Windows Client](Making-a-Page-or-Report-Available-From-Search-in-the-Windows-Client.md)

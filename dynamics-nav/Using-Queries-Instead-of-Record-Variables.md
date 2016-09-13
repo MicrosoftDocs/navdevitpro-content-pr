@@ -59,7 +59,7 @@ IF Item.FINDSET THEN
          This corresponds to the `ItemLedgerEntry` record variable in the record variable example.  
   
         > [!NOTE]  
-        >  The field of a filter row is not included in the resulting dataset. For more information, see [Understanding Query Filters](Understanding-Query-Filters.md) and [How to: Set Up Filter Rows in Query Designer](How%20to:%20Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md).  
+        >  The field of a filter row is not included in the resulting dataset. For more information, see [Understanding Query Filters](Understanding-Query-Filters.md) and [How to: Set Up Filter Rows in Query Designer](How-to--Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md).  
   
     -   Link the data items on the **No.** field of table 27 Item and **Item No.** field of table 32 ItemLedgerEntry by setting DataItemLink property. Set the DataItemLinkType property to **Exclude If No Matches**.  
   
@@ -90,7 +90,7 @@ WHILE ItemMovements.READ DO
   
 ## See Also  
  [Queries](Queries.md)   
- [How to: Create Queries](How%20to:%20Create%20Queries.md)   
+ [How to: Create Queries](How-to--Create%20Queries.md)   
  [Working with Queries in C-AL](Working-with-Queries-in-C-AL.md)   
  [Understanding Query Filters](Understanding-Query-Filters.md)   
  [SETRANGE Function \(Query\)](SETRANGE-Function--Query-.md)   

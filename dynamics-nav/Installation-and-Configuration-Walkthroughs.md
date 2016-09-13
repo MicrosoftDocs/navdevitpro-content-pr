@@ -38,6 +38,6 @@ The walkthrough topics in this section present the various procedures that admin
   
 ## See Also  
  [Product and Architecture Overview](Product-and-Architecture-Overview.md)   
- [How to: Run Setup](How%20to:%20Run%20Setup.md)   
- [How to: Choose Components to Install](How%20to:%20Choose%20Components%20to%20Install.md)   
- [How to: Preconfigure Components](How%20to:%20Preconfigure%20Components.md)
+ [How to: Run Setup](How-to--Run%20Setup.md)   
+ [How to: Choose Components to Install](How-to--Choose%20Components%20to%20Install.md)   
+ [How to: Preconfigure Components](How-to--Preconfigure%20Components.md)

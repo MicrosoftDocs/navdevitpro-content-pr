@@ -22,4 +22,4 @@ View the table of contents to see the complete list of properties that are avail
 ## See Also  
  [C-AL Functions](C-AL-Functions.md)   
  [Triggers](Triggers.md)   
- [How to: View or Modify Properties on a Table or Field](How%20to:%20View%20or%20Modify%20Properties%20on%20a%20Table%20or%20Field.md)
+ [How to: View or Modify Properties on a Table or Field](How-to--View%20or%20Modify%20Properties%20on%20a%20Table%20or%20Field.md)

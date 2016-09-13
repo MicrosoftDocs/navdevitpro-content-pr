@@ -54,4 +54,4 @@ A maximum of 20 distinct fields can be used to define a primary key. The number 
   
 ## See Also  
  [Table Keys](Table-Keys.md)   
- [How to: View or Modify Properties on a Key](How%20to:%20View%20or%20Modify%20Properties%20on%20a%20Key.md)
+ [How to: View or Modify Properties on a Key](How-to--View%20or%20Modify%20Properties%20on%20a%20Key.md)

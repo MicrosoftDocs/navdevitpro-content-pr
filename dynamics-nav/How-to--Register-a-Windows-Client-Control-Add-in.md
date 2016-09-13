@@ -18,8 +18,8 @@ A [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add-in is delivere
   
 |Information|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-----------------|---------------------------------------|  
-|Control add-in name|The name is defined in the assembly's source code by the [Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute) attribute value for control add-in class definition, as shown in the following example code snippet.<br /><br /> **C\#**<br /><br /> `[ControlAddInExport("MyCompany.MyProduct.FieldPopupAddin")] public class MyFieldPopupAddin : StringControlAddInBase, IStringControlAddInDefinition`<br /><br /> In this example, the control add-in name is `MyCompany.MyProduct.FieldPopupAddin`. For more information, see [How to: Create a Windows Client Control Add-in](How%20to:%20Create%20a%20Windows%20Client%20Control%20Add-in.md).|  
-|Public key token|The public key token is a 16-character key that is given to the assembly when it is built and signed in Microsoft Visual Studio. To determine the public token key, run the Microsoft .NET Strong Name Utility \(sn.exe\) on the assembly. For more information, see [How to: Determine the Public Key Token of the Windows Client Control Add-in and .NET Framework Assembly](How%20to:%20Determine%20the%20Public%20Key%20Token%20of%20the%20Windows%20Client%20Control%20Add-in%20and%20.NET%20Framework%20Assembly.md) and [Strong-Named Signing](http://go.microsoft.com/fwlink/?LinkID=150201&clcid=0x409).|  
+|Control add-in name|The name is defined in the assembly's source code by the [Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.ControlAddInExportAttribute) attribute value for control add-in class definition, as shown in the following example code snippet.<br /><br /> **C\#**<br /><br /> `[ControlAddInExport("MyCompany.MyProduct.FieldPopupAddin")] public class MyFieldPopupAddin : StringControlAddInBase, IStringControlAddInDefinition`<br /><br /> In this example, the control add-in name is `MyCompany.MyProduct.FieldPopupAddin`. For more information, see [How to: Create a Windows Client Control Add-in](How-to--Create%20a%20Windows%20Client%20Control%20Add-in.md).|  
+|Public key token|The public key token is a 16-character key that is given to the assembly when it is built and signed in Microsoft Visual Studio. To determine the public token key, run the Microsoft .NET Strong Name Utility \(sn.exe\) on the assembly. For more information, see [How to: Determine the Public Key Token of the Windows Client Control Add-in and .NET Framework Assembly](How-to--Determine%20the%20Public%20Key%20Token%20of%20the%20Windows%20Client%20Control%20Add-in%20and%20.NET%20Framework%20Assembly.md) and [Strong-Named Signing](http://go.microsoft.com/fwlink/?LinkID=150201&clcid=0x409).|  
   
 ### To register a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add-in  
   
@@ -35,9 +35,9 @@ A [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add-in is delivere
   
 ## See Also  
  [Installing and Configuring Windows Client Control Add-ins on Pages](Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)   
- [How to: Set Up a Windows Client Control Add-in on a Page](How%20to:%20Set%20Up%20a%20Windows%20Client%20Control%20Add-in%20on%20a%20Page.md)   
- [How to: Install a Windows Client Control Add-in Assembly](How%20to:%20Install%20a%20Windows%20Client%20Control%20Add-in%20Assembly.md)   
- [How to: Determine the Public Key Token of the Windows Client Control Add-in and .NET Framework Assembly](How%20to:%20Determine%20the%20Public%20Key%20Token%20of%20the%20Windows%20Client%20Control%20Add-in%20and%20.NET%20Framework%20Assembly.md)   
+ [How to: Set Up a Windows Client Control Add-in on a Page](How-to--Set%20Up%20a%20Windows%20Client%20Control%20Add-in%20on%20a%20Page.md)   
+ [How to: Install a Windows Client Control Add-in Assembly](How-to--Install%20a%20Windows%20Client%20Control%20Add-in%20Assembly.md)   
+ [How to: Determine the Public Key Token of the Windows Client Control Add-in and .NET Framework Assembly](How-to--Determine%20the%20Public%20Key%20Token%20of%20the%20Windows%20Client%20Control%20Add-in%20and%20.NET%20Framework%20Assembly.md)   
  [Developing Windows Client Control Add-ins](Developing-Windows-Client-Control-Add-ins.md)   
  [Windows Client Control Add-in Overview](Windows-Client-Control-Add-in-Overview.md)   
  [Walkthrough: Creating and Using a Windows Client Control Add-in](Walkthrough:%20Creating%20and%20Using%20a%20Windows%20Client%20Control%20Add-in.md)

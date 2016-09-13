@@ -49,9 +49,9 @@ This topic describes how to create a Data Collector Set in Performance Monitor t
   
  For information about how to schedule a time to start and stop collecting data, see [Schedule Data Collection in Windows Performance Monitor](http://technet.microsoft.com/en-us/library/cc722312.aspx).  
   
- For information about how to view the data that is collected by the Data Collector Set, see [How to: View Performance Counter Data for a Data Collector Set](How%20to:%20View%20Performance%20Counter%20Data%20for%20a%20Data%20Collector%20Set.md).  
+ For information about how to view the data that is collected by the Data Collector Set, see [How to: View Performance Counter Data for a Data Collector Set](How-to--View%20Performance%20Counter%20Data%20for%20a%20Data%20Collector%20Set.md).  
   
 ## See Also  
  [Working with Data Collector Sets](Working-with-Data-Collector-Sets.md)   
- [How to: Create a Data Collector Set From the Microsoft Dynamics NAV Template](How%20to:%20Create%20a%20Data%20Collector%20Set%20From%20the%20Microsoft%20Dynamics%20NAV%20Template.md)   
+ [How to: Create a Data Collector Set From the Microsoft Dynamics NAV Template](How-to--Create%20a%20Data%20Collector%20Set%20From%20the%20Microsoft%20Dynamics%20NAV%20Template.md)   
  [Microsoft Dynamics NAV Performance Counters](Microsoft-Dynamics-NAV-Performance-Counters.md)

@@ -19,9 +19,9 @@ You create and manage [!INCLUDE[navnow](includes/navnow_md.md)] users from the U
  See [Users and Credential Types](Users-and-Credential-Types.md) for details.  
   
 ## In This Section  
- [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md)  
+ [How to: Create Microsoft Dynamics NAV Users](How-to--Create%20Microsoft%20Dynamics%20NAV%20Users.md)  
   
- [How to: Set Up User Time Constraints](How%20to:%20Set%20Up%20User%20Time%20Constraints.md)  
+ [How to: Set Up User Time Constraints](How-to--Set%20Up%20User%20Time%20Constraints.md)  
   
 ## Related Sections  
  [Managing Permissions and Permission Sets](Managing-Permissions-and-Permission-Sets.md)  

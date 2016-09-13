@@ -42,7 +42,7 @@ You can export data such as a company or an application from a [!INCLUDE[navnow]
   
  You have exported data from a [!INCLUDE[navnow](includes/navnow_md.md)] database into a file. Now, you can import the data into another [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
- Before you import data from a navdata file, you can choose to use the **Get-NAVDataFile** Windows PowerShell cmdlet to see what the file contains. For more information, see [How to: Export and Import Companies and Other Data using Windows PowerShell Cmdlets](How%20to:%20Export%20and%20Import%20Companies%20and%20Other%20Data%20using%20Windows%20PowerShell%20Cmdlets.md).  
+ Before you import data from a navdata file, you can choose to use the **Get-NAVDataFile** Windows PowerShell cmdlet to see what the file contains. For more information, see [How to: Export and Import Companies and Other Data using Windows PowerShell Cmdlets](How-to--Export%20and%20Import%20Companies%20and%20Other%20Data%20using%20Windows%20PowerShell%20Cmdlets.md).  
   
 ### To import data  
   
@@ -69,4 +69,4 @@ You can export data such as a company or an application from a [!INCLUDE[navnow]
   
 ## See Also  
  [Exporting and Importing Companies and Other Data](Exporting-and-Importing-Companies-and-Other-Data.md)   
- [How to: Export and Import Companies and Other Data using Windows PowerShell Cmdlets](How%20to:%20Export%20and%20Import%20Companies%20and%20Other%20Data%20using%20Windows%20PowerShell%20Cmdlets.md)
+ [How to: Export and Import Companies and Other Data using Windows PowerShell Cmdlets](How-to--Export%20and%20Import%20Companies%20and%20Other%20Data%20using%20Windows%20PowerShell%20Cmdlets.md)

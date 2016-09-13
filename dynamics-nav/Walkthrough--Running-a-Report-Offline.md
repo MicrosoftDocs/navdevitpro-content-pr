@@ -51,7 +51,7 @@ You can view a report and view the dataset and layout on a computer that does no
 
 2.  In the **Search** box, enter **Customer – Top 10 List**, and then choose the related link.  
 
-3.  On the request page for the Customer – Top 10 List report, on the **Application** menu ![Application Menu button in menu bar](media/ApplicationMenuIcon.png "ApplicationMenuIcon"), choose **Help**, and then choose **About This Page** to activate the About This Report feature. For more information, see [How to: View and Export the Dataset for a Report](How%20to:%20View%20and%20Export%20the%20Dataset%20for%20a%20Report.md).  
+3.  On the request page for the Customer – Top 10 List report, on the **Application** menu ![Application Menu button in menu bar](media/ApplicationMenuIcon.png "ApplicationMenuIcon"), choose **Help**, and then choose **About This Page** to activate the About This Report feature. For more information, see [How to: View and Export the Dataset for a Report](How-to--View%20and%20Export%20the%20Dataset%20for%20a%20Report.md).  
 
 4.  Close the **About This Page** page.  
 

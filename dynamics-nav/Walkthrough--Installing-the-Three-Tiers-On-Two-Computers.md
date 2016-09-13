@@ -157,7 +157,7 @@ In this walkthrough, you install a new instance of [!INCLUDE[navnowlong](include
 ## Next Steps  
  Software installation is now complete. When you start the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] it should connect to the [!INCLUDE[nav_server](includes/nav_server_md.md)] and inform you that you are connected to CRONUS International, Ltd. This the fictional company associated with the demo database.  
 
- The next steps are to upload your license \(see [How to: Upload the License File](How%20to:%20Upload%20the%20License%20File.md)\), create users \(see [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md)\), and integrate them into the [!INCLUDE[navnow](includes/navnow_md.md)] security system \(see [Managing Users](Managing-Users.md)\).  
+ The next steps are to upload your license \(see [How to: Upload the License File](How-to--Upload%20the%20License%20File.md)\), create users \(see [How to: Create Microsoft Dynamics NAV Users](How-to--Create%20Microsoft%20Dynamics%20NAV%20Users.md)\), and integrate them into the [!INCLUDE[navnow](includes/navnow_md.md)] security system \(see [Managing Users](Managing-Users.md)\).  
 
 ## See Also  
  [Product and Architecture Overview](Product-and-Architecture-Overview.md)   
@@ -165,7 +165,7 @@ In this walkthrough, you install a new instance of [!INCLUDE[navnowlong](include
  [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)   
  [Configuring the Windows Client](Configuring-the-Windows-Client.md)   
  [Walkthrough: Setting Up Outlook Synchronization](Walkthrough:%20Setting%20Up%20Outlook%20Synchronization.md)   
- [How to: Upload the License File](How%20to:%20Upload%20the%20License%20File.md)   
- [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md)   
+ [How to: Upload the License File](How-to--Upload%20the%20License%20File.md)   
+ [How to: Create Microsoft Dynamics NAV Users](How-to--Create%20Microsoft%20Dynamics%20NAV%20Users.md)   
  [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md)   
  [Security and Protection](Security-and-Protection.md)

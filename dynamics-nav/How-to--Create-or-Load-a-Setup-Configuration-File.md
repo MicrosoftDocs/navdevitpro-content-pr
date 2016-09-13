@@ -12,7 +12,7 @@ caps.latest.revision: 15
 manager: edupont
 ---
 # How to: Create or Load a Setup Configuration File
-You can customize the list of components to install or configure settings for individual components. For more information, see [How to: Choose Components to Install](How%20to:%20Choose%20Components%20to%20Install.md) and [How to: Preconfigure Components](How%20to:%20Preconfigure%20Components.md).  
+You can customize the list of components to install or configure settings for individual components. For more information, see [How to: Choose Components to Install](How-to--Choose%20Components%20to%20Install.md) and [How to: Preconfigure Components](How-to--Preconfigure%20Components.md).  
   
  After you finished customization and configuration, you can save this information to a Setup configuration file. You can use this file with Setup, either when you or another user runs Setup or when you run a silent installation. For more information about silent installation, see [Running Setup on the Command Line](Running-Setup-on-the-Command-Line.md).  
   

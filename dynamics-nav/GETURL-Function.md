@@ -142,8 +142,8 @@ url := GETURL(CURRENTCLIENTTYPE, COMPANYNAME, ObjectType::Page, 21);
  https://*server*:*port*/*instance*/WS/*company*/Page/Customer  
   
 ## See Also  
- [How to: Copy the URL to Open a Page or Report](How%20to:%20Copy%20the%20URL%20to%20Open%20a%20Page%20or%20Report.md)   
- [How to: Publish a Web Service](How%20to:%20Publish%20a%20Web%20Service.md)   
+ [How to: Copy the URL to Open a Page or Report](How-to--Copy%20the%20URL%20to%20Open%20a%20Page%20or%20Report.md)   
+ [How to: Publish a Web Service](How-to--Publish%20a%20Web%20Service.md)   
  [Creating and Running Hyperlinks](Creating-and-Running-Hyperlinks.md)   
  [HYPERLINK Function](HYPERLINK-Function.md)   
  [CURRENTCLIENTTYPE Function](CURRENTCLIENTTYPE-Function.md)   

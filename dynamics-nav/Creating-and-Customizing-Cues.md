@@ -65,7 +65,7 @@ This topic provides an overview of Cues and the tasks involved in creating and c
   
 2.  Set the [FieldClass Property](FieldClass-Property.md) to **FlowField** or **Normal**.  
   
-     If field is a FlowField, then set the [CalcFormula Property](CalcFormula-Property.md) to calculate the Cue data. For more information, see and [How to: Create, View, and Edit a Calculation Formula](How%20to:%20Create,%20View,%20and%20Edit%20a%20Calculation%20Formula.md).  
+     If field is a FlowField, then set the [CalcFormula Property](CalcFormula-Property.md) to calculate the Cue data. For more information, see and [How to: Create, View, and Edit a Calculation Formula](How-to--Create,%20View,%20and%20Edit%20a%20Calculation%20Formula.md).  
   
 ### Adding a Primary Key Field for FlowFields  
  A table must have at least one data field. Because a **FlowField** is based on a calculation, it not considered an actual data field. Therefore, if the Cue table only includes FlowFields, you must add "dummy" primary key field that does not yield any data.  
@@ -97,7 +97,7 @@ END;
 ###  <a name="SpecifyImage"></a> Specifying an Image on the Cue  
  You can specify an image to display on the Cue or you can choose not to display an image at all.  You can select from several available images.  
   
- For more information, see [How to: Set Up an Image on a Cue](How%20to:%20Set%20Up%20an%20Image%20on%20a%20Cue.md).  
+ For more information, see [How to: Set Up an Image on a Cue](How-to--Set%20Up%20an%20Image%20on%20a%20Cue.md).  
   
 ###  <a name="DrillDown"></a> Setting up a Drill Down Page on the Cue  
  You can set up a Cue to link to a page that displays details about the transactions that make up the data in the Cue. This page is referred to as a *drill down page*. For example, if the Cue displays the number of open sales orders, then you can set up the Cue to link to list page that includes the sales orders. The page opens when a user selects the Cue.  

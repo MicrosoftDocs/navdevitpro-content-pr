@@ -24,9 +24,9 @@ Increases the size of the database by either increasing the size of one or more 
 >  The first data file that is listed on the **Database Files** tab is the primary file.  
   
 ## See Also  
- [How to: Increase the Size of Database Files](How%20to:%20Increase%20the%20Size%20of%20Database%20Files.md)   
- [How to: Add New Database Files](How%20to:%20Add%20New%20Database%20Files.md)   
- [How to: Alter Databases](How%20to:%20Alter%20Databases.md)   
+ [How to: Increase the Size of Database Files](How-to--Increase%20the%20Size%20of%20Database%20Files.md)   
+ [How to: Add New Database Files](How-to--Add%20New%20Database%20Files.md)   
+ [How to: Alter Databases](How-to--Alter%20Databases.md)   
  [Altering Databases - General Tab](Altering-Databases---General-Tab.md)   
  [Altering Databases - Transaction Log Files Tab](Altering-Databases---Transaction-Log-Files-Tab.md)   
  [Altering Databases - Collation Tab](Altering-Databases---Collation-Tab.md)   

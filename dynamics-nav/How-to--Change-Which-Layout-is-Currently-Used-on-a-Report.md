@@ -75,5 +75,5 @@ This procedure describes how to change the layout that is used by a report. A re
 ## See Also  
  [Managing Report Layouts From the Microsoft Dynamics NAV Clients](Managing%20Report%20Layouts%20From%20the%20Microsoft%20Dynamics%20NAV%20Clients.md)   
  [Designing Report Layouts from the Microsoft Dynamics NAV Development Environment](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md)   
- [How to: Modify a Custom Report Layout](How%20to:%20Modify%20a%20Custom%20Report%20Layout.md)   
- [How to: Create a Custom Report Layout](How%20to:%20Create%20a%20Custom%20Report%20Layout.md)
+ [How to: Modify a Custom Report Layout](How-to--Modify%20a%20Custom%20Report%20Layout.md)   
+ [How to: Create a Custom Report Layout](How-to--Create%20a%20Custom%20Report%20Layout.md)

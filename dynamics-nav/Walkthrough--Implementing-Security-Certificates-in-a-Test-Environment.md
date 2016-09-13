@@ -170,7 +170,7 @@ In this walkthrough, you set up an environment to test integrating certificates 
   
     |Key|New value|Description|  
     |---------|---------------|-----------------|  
-    |ClientServicesCredentialType<br /><br /> \(General tab\)|NavUserPassword or Username|This parameter is on the General tab in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. The default value is Windows. When you change it to NavUserPassword or Username, client users who connect to the server are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see [Users and Credential Types](Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
+    |ClientServicesCredentialType<br /><br /> \(General tab\)|NavUserPassword or Username|This parameter is on the General tab in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. The default value is Windows. When you change it to NavUserPassword or Username, client users who connect to the server are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see [Users and Credential Types](Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](How-to--Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
     |CertificateThumbprint<br /><br /> \(Client Services tab\)|Value of the **Thumbprint** field in the previous procedure|The default value is \<key>. Remove any leading or trailing spaces in the thumbprint.|  
   
 5.  Choose **Save**.  
@@ -253,7 +253,7 @@ In this walkthrough, you set up an environment to test integrating certificates 
   
     |Key|New value|Description|  
     |---------|---------------|-----------------|  
-    |ClientServicesCredentialType|NavUserPassword or Username|The default value is Windows. When you change it to NavUserPassword or Username, client users who connect to the server are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see [Users and Credential Types](Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
+    |ClientServicesCredentialType|NavUserPassword or Username|The default value is Windows. When you change it to NavUserPassword or Username, client users who connect to the server are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see [Users and Credential Types](Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](How-to--Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
     |DnsIdentity|The subject name of the service certificate|The default value is \<identity>.<br /><br /> For this walkthrough, set the key to **NavServiceCert**.|  
   
 3.  Save and close the ClientUserSettings.config file.  
@@ -270,9 +270,9 @@ In this walkthrough, you set up an environment to test integrating certificates 
   
     |Key|New value|Description|  
     |---------|---------------|-----------------|  
-    |ClientServicesCredentialType|NavUserPassword or Username|The default value is Windows. When you change it to NavUserPassword or Username, client users who connect to the server are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see [Users and Credential Types](Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
+    |ClientServicesCredentialType|NavUserPassword or Username|The default value is Windows. When you change it to NavUserPassword or Username, client users who connect to the server are prompted for user name and password credentials. For more information on authentication mechanisms for [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see [Users and Credential Types](Users-and-Credential-Types.md). For information on how to provision users with initial username and password values, see [How to: Create Microsoft Dynamics NAV Users](How-to--Create%20Microsoft%20Dynamics%20NAV%20Users.md).|  
     |DnsIdentity|The subject name of the service certificate|For this walkthrough, set the key to **NavServiceCert**.|  
   
 4.  Save the web.config file.  
   
-     For more information about configuring the credential type for the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [How to: Configure Authentication of Microsoft Dynamics NAV Web Client Users](How%20to:%20Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md).
+     For more information about configuring the credential type for the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [How to: Configure Authentication of Microsoft Dynamics NAV Web Client Users](How-to--Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md).

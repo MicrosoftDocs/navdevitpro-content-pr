@@ -24,4 +24,4 @@ caps.latest.revision: 11
  Even though you have selected a specific company, you can still access data in any table in any other company. Use the [CHANGECOMPANY Function \(Record\)](CHANGECOMPANY-Function--Record-.md) to explicitly define which other company that you want to access.  
   
 ## See Also  
- [How to: Create and Delete a Table Description](How%20to:%20Create%20and%20Delete%20a%20Table%20Description.md)
+ [How to: Create and Delete a Table Description](How-to--Create%20and%20Delete%20a%20Table%20Description.md)

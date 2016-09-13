@@ -26,7 +26,7 @@ Sets whether the format that is specified in the [Style Property-duplicate](Styl
 ## Remarks  
   
 > [!NOTE]  
->  The information in this topic is mainly applicable to formatting the text of page fields. For information about how to use the **StyleExpr** property for configuring Cues, see [How to: Set Up Colored Indicators on Cues by Using the Style and StyleExpr Property](How%20to:%20Set%20Up%20Colored%20Indicators%20on%20Cues%20by%20Using%20the%20Style%20and%20StyleExpr%20Property.md).  
+>  The information in this topic is mainly applicable to formatting the text of page fields. For information about how to use the **StyleExpr** property for configuring Cues, see [How to: Set Up Colored Indicators on Cues by Using the Style and StyleExpr Property](How-to--Set%20Up%20Colored%20Indicators%20on%20Cues%20by%20Using%20the%20Style%20and%20StyleExpr%20Property.md).  
   
  You can set **StyleExpr** to either the name of a variable; a text constant in apostrophes, for example, 'strong'; or, for backward compatibility, to **true** or **false**.  
   
@@ -39,4 +39,4 @@ Sets whether the format that is specified in the [Style Property-duplicate](Styl
 >  To use a variable for the **StyleExpr** property, the [IncludeInDataSet Property](IncludeInDataSet-Property.md) of the variable must be set to **Yes**.  
   
 ## See Also  
- [How to: Style Field Text on a Page](How%20to:%20Style%20Field%20Text%20on%20a%20Page.md)
+ [How to: Style Field Text on a Page](How-to--Style%20Field%20Text%20on%20a%20Page.md)

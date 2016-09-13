@@ -32,9 +32,9 @@ public class MyControlAddIn : IValueControlAddInDefinition<DateTime>
 > [!NOTE]  
 >  The **SourceExpr** property value can be passed to the [IValueControlAddInDefinition\<T>.Value](assetId:///P:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1.Value) property multiple times as long as a page is open, depending on application code or state in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
- For more information about how to implement the [Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition\<T>](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1) interface, see [How to: Create a Windows Client Control Add-in](How%20to:%20Create%20a%20Windows%20Client%20Control%20Add-in.md).  
+ For more information about how to implement the [Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition\<T>](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.IValueControlAddInDefinition`1) interface, see [How to: Create a Windows Client Control Add-in](How-to--Create%20a%20Windows%20Client%20Control%20Add-in.md).  
   
- For more information about how to set the **SourceExpr** property for a control add-in, see [How to: Set Up a Windows Client Control Add-in on a Page](How%20to:%20Set%20Up%20a%20Windows%20Client%20Control%20Add-in%20on%20a%20Page.md).  
+ For more information about how to set the **SourceExpr** property for a control add-in, see [How to: Set Up a Windows Client Control Add-in on a Page](How-to--Set%20Up%20a%20Windows%20Client%20Control%20Add-in%20on%20a%20Page.md).  
   
 ## Supported Data Types  
  A control add-in can bind with several data types from the database. Each data type in C/AL maps to a corresponding .NET Framework data type in the control add-in as listed in the following table.  
@@ -73,7 +73,7 @@ public class MyControlAddIn : IValueControlAddInDefinition<String>, IValueContro
 ## See Also  
  [Developing Windows Client Control Add-ins](Developing-Windows-Client-Control-Add-ins.md)   
  [Client Extensibility API Overview](Client-Extensibility-API-Overview.md)   
- [How to: Create a Windows Client Control Add-in](How%20to:%20Create%20a%20Windows%20Client%20Control%20Add-in.md)   
+ [How to: Create a Windows Client Control Add-in](How-to--Create%20a%20Windows%20Client%20Control%20Add-in.md)   
  [Exposing Events and Calling Respective C-AL Triggers from a Windows Client Control Add-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md)   
  [Installing and Configuring Windows Client Control Add-ins on Pages](Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)   
  [Windows Client Control Add-in Overview](Windows-Client-Control-Add-in-Overview.md)

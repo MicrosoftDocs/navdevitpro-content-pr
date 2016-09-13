@@ -50,7 +50,7 @@ XMLport.RUN (Number [, ReqWindow] [, Import] [, Record])
  The record to use in the XMLport. The system will use any filters that are attached to the specified record.  
   
 ## Example  
- The following example creates a codeunit that runs the XMLport that has ID 50002, runs a request page that lets the user set filters, and exports data from the Customer table. On the request page, you can either open the file and view it or save it as an XML document on your computer. This example assumes that you have created an XMLport and saved it with ID 50002. For more information about how to create an XMLport, see [How to: Create XMLports](How%20to:%20Create%20XMLports.md). This example requires that you create the following variable in the **C/AL Globals** window.  
+ The following example creates a codeunit that runs the XMLport that has ID 50002, runs a request page that lets the user set filters, and exports data from the Customer table. On the request page, you can either open the file and view it or save it as an XML document on your computer. This example assumes that you have created an XMLport and saved it with ID 50002. For more information about how to create an XMLport, see [How to: Create XMLports](How-to--Create%20XMLports.md). This example requires that you create the following variable in the **C/AL Globals** window.  
   
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
@@ -62,4 +62,4 @@ XMLPORT.RUN (50002, TRUE, FALSE, varRec);
   
 ## See Also  
  [XMLport Data Type](XMLport-Data-Type.md)   
- [How to: Create XMLports](How%20to:%20Create%20XMLports.md)
+ [How to: Create XMLports](How-to--Create%20XMLports.md)

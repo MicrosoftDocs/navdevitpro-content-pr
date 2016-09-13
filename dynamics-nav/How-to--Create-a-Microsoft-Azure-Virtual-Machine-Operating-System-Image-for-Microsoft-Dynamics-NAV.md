@@ -16,15 +16,15 @@ This topic describes how to create custom images in Microsoft Azure Gallery that
   
  To create a custom image and add it to the Azure Gallery, you must complete the following tasks.  
   
--   [Create a New Azure Virtual Machine for Generating the Operating System Image](How%20to:%20Create%20a%20Microsoft%20Azure%20Virtual%20Machine%20Operating%20System%20Image%20for%20Microsoft%20Dynamics%20NAV.md#CreateAzureVM)  
+-   [Create a New Azure Virtual Machine for Generating the Operating System Image](How-to--Create%20a%20Microsoft%20Azure%20Virtual%20Machine%20Operating%20System%20Image%20for%20Microsoft%20Dynamics%20NAV.md#CreateAzureVM)  
   
--   [Install Microsoft .NET Framework 3.5](How%20to:%20Create%20a%20Microsoft%20Azure%20Virtual%20Machine%20Operating%20System%20Image%20for%20Microsoft%20Dynamics%20NAV.md#InstallNET35)  
+-   [Install Microsoft .NET Framework 3.5](How-to--Create%20a%20Microsoft%20Azure%20Virtual%20Machine%20Operating%20System%20Image%20for%20Microsoft%20Dynamics%20NAV.md#InstallNET35)  
   
--   [Install Microsoft SQL Server by Using SysPrep (NAV Database Image Only)](How%20to:%20Create%20a%20Microsoft%20Azure%20Virtual%20Machine%20Operating%20System%20Image%20for%20Microsoft%20Dynamics%20NAV.md#InstallSQL)  
+-   [Install Microsoft SQL Server by Using SysPrep (NAV Database Image Only)](How-to--Create%20a%20Microsoft%20Azure%20Virtual%20Machine%20Operating%20System%20Image%20for%20Microsoft%20Dynamics%20NAV.md#InstallSQL)  
   
      You only perform this task if the image will include SQL Server for hosting the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
--   [Capture the Image and Add it to the Azure Image Gallery](How%20to:%20Create%20a%20Microsoft%20Azure%20Virtual%20Machine%20Operating%20System%20Image%20for%20Microsoft%20Dynamics%20NAV.md#CaptureImage)  
+-   [Capture the Image and Add it to the Azure Image Gallery](How-to--Create%20a%20Microsoft%20Azure%20Virtual%20Machine%20Operating%20System%20Image%20for%20Microsoft%20Dynamics%20NAV.md#CaptureImage)  
   
 ##  <a name="CreateAzureVM"></a> Create a New Azure Virtual Machine for Generating the Operating System Image  
  The first task in preparing an operating system image is to create a new Azure virtual machine that is running Windows Server 2012. To do this, you use the Azure management portal to create the virtual machine based on an image from the Azure Image Gallery.  
@@ -116,7 +116,7 @@ This topic describes how to create custom images in Microsoft Azure Gallery that
          `VMAdmin` species the user name of the administrator account that is created on the virtual machine. If you want to specify a different user name, substitute `VMAdmin` with the name that you want to use. You cannot use `Administrator` as the user name.  
   
         > [!IMPORTANT]  
-        >  When you deploy [!INCLUDE[navnow](includes/navnow_md.md)] on Azure by using the example scripts \(Example-1VM-ps1 and Example-2VM.ps1\), you must specify this user name for the administrator account on the virtual machine that will host the [!INCLUDE[navnow](includes/navnow_md.md)] database. You specify the user name in the Setting-PartnerSettings.ps1 file or Set-PartnerCustom.ps1 file that is used by the example script. If you are using the Example-1VM-ps1 script, then you specify the user name in the $NAV\_VMAdminUserName parameter. If you are using the Example-2VM-ps1 script, then you specify the user name in the $NAV\_SqlServerMachineAdminUserName parameter. For more information about how to run the example scripts, see [How to: Deploy Microsoft Dynamics NAV on Microsoft Azure by Using the Example Scripts](How%20to:%20Deploy%20Microsoft%20Dynamics%20NAV%20on%20Microsoft%20Azure%20by%20Using%20the%20Example%20Scripts.md)  
+        >  When you deploy [!INCLUDE[navnow](includes/navnow_md.md)] on Azure by using the example scripts \(Example-1VM-ps1 and Example-2VM.ps1\), you must specify this user name for the administrator account on the virtual machine that will host the [!INCLUDE[navnow](includes/navnow_md.md)] database. You specify the user name in the Setting-PartnerSettings.ps1 file or Set-PartnerCustom.ps1 file that is used by the example script. If you are using the Example-1VM-ps1 script, then you specify the user name in the $NAV\_VMAdminUserName parameter. If you are using the Example-2VM-ps1 script, then you specify the user name in the $NAV\_SqlServerMachineAdminUserName parameter. For more information about how to run the example scripts, see [How to: Deploy Microsoft Dynamics NAV on Microsoft Azure by Using the Example Scripts](How-to--Deploy%20Microsoft%20Dynamics%20NAV%20on%20Microsoft%20Azure%20by%20Using%20the%20Example%20Scripts.md)  
   
     3.  Save the file as *SetupComplete2.cmd* in the *C:\\Windows\\OEM\\* folder.  
   

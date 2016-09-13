@@ -28,7 +28,7 @@ You can run reports:
   
 ### To run a report from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]  
   
--   Add an action for running the report to a page. For more information, see [How to: Make a Report Available from a Page](How%20to:%20Make%20a%20Report%20Available%20from%20a%20Page.md).  
+-   Add an action for running the report to a page. For more information, see [How to: Make a Report Available from a Page](How-to--Make%20a%20Report%20Available%20from%20a%20Page.md).  
   
 ### To run a report from the [!INCLUDE[nav_web](includes/nav_web_md.md)]  
   
@@ -36,7 +36,7 @@ You can run reports:
   
     -   Open a report directly by using its Internet address. For more information, see [Opening a Report in the Microsoft Dynamics NAV Web Client by Using a URL](Opening-a-Report-in-the-Microsoft-Dynamics-NAV-Web-Client-by-Using-a-URL.md)  
   
-    -   Add an action for running the report to a page. For more information, see [How to: Make a Report Available from a Page](How%20to:%20Make%20a%20Report%20Available%20from%20a%20Page.md).  
+    -   Add an action for running the report to a page. For more information, see [How to: Make a Report Available from a Page](How-to--Make%20a%20Report%20Available%20from%20a%20Page.md).  
   
 ### To run a report from Object Designer  
   

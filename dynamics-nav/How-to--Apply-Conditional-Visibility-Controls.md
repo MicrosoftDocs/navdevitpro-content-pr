@@ -38,4 +38,4 @@ Some reports have data that is printed conditionally. For example, if the reques
   
 ## See Also  
  [Designing Reports](Designing-Reports.md)   
- [How to: Conditionally Display Filter Headers](How%20to:%20Conditionally%20Display%20Filter%20Headers.md)
+ [How to: Conditionally Display Filter Headers](How-to--Conditionally%20Display%20Filter%20Headers.md)

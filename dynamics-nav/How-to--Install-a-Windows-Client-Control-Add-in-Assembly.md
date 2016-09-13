@@ -18,11 +18,11 @@ manager: edupont
   
 -   Install the control add-in assemblies manually on the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] computer.  
   
-     For more information, see [To install control add-in assemblies on the Microsoft Dynamics NAV Windows client manually](How%20to:%20Install%20a%20Windows%20Client%20Control%20Add-in%20Assembly.md#InstallClient).  
+     For more information, see [To install control add-in assemblies on the Microsoft Dynamics NAV Windows client manually](How-to--Install%20a%20Windows%20Client%20Control%20Add-in%20Assembly.md#InstallClient).  
   
 -   Install the control add-in assemblies on the computer that is running the [!INCLUDE[nav_server](includes/nav_server_md.md)] or in the database.  
   
-     The assemblies will be automatically deployed to the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] computer. For more information, see [Automatic Deployment of Control Add-ins](How%20to:%20Install%20a%20Windows%20Client%20Control%20Add-in%20Assembly.md#AutomaticDep).  
+     The assemblies will be automatically deployed to the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] computer. For more information, see [Automatic Deployment of Control Add-ins](How-to--Install%20a%20Windows%20Client%20Control%20Add-in%20Assembly.md#AutomaticDep).  
   
 ##  <a name="InstallClient"></a> To install control add-in assemblies on the Microsoft Dynamics NAV Windows client manually  
   
@@ -89,7 +89,7 @@ manager: edupont
   
 6.  Choose the **OK** button to close the **Control Add-in** page.  
   
- For more information about registering a control add-in, see [How to: Register a Windows Client Control Add-in](How%20to:%20Register%20a%20Windows%20Client%20Control%20Add-in.md).  
+ For more information about registering a control add-in, see [How to: Register a Windows Client Control Add-in](How-to--Register%20a%20Windows%20Client%20Control%20Add-in.md).  
   
 > [!TIP]  
 >  You can also register the control add-in, import and manage the files by using the [New-NAVAddin cmdlet](http://go.microsoft.com/fwlink/?LinkID=521781), [Set-NAVAddin cmdlet](http://go.microsoft.com/fwlink/?LinkID=521784), [Get-NAVAddin](http://go.microsoft.com/fwlink/?LinkID=521782), or [Remove-NAVAddin](http://go.microsoft.com/fwlink/?LinkID=521783) cmdlets from the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
@@ -98,7 +98,7 @@ manager: edupont
  [Installing and Configuring Windows Client Control Add-ins on Pages](Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)   
  [Developing Windows Client Control Add-ins](Developing-Windows-Client-Control-Add-ins.md)   
  [Installing and Configuring Windows Client Control Add-ins on Pages](Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)   
- [How to: Set Up a Windows Client Control Add-in on a Page](How%20to:%20Set%20Up%20a%20Windows%20Client%20Control%20Add-in%20on%20a%20Page.md)   
- [How to: Install a RoleTailored Client Control Add-in Assembly](How%20to:%20Install%20a%20Windows%20Client%20Control%20Add-in%20Assembly.md)   
+ [How to: Set Up a Windows Client Control Add-in on a Page](How-to--Set%20Up%20a%20Windows%20Client%20Control%20Add-in%20on%20a%20Page.md)   
+ [How to: Install a RoleTailored Client Control Add-in Assembly](How-to--Install%20a%20Windows%20Client%20Control%20Add-in%20Assembly.md)   
  [Windows Client Control Add-in Overview](Windows-Client-Control-Add-in-Overview.md)   
  [Walkthrough: Creating and Using a Windows Client Control Add-in](Walkthrough:%20Creating%20and%20Using%20a%20Windows%20Client%20Control%20Add-in.md)

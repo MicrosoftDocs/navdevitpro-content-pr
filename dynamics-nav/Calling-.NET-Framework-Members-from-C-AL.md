@@ -12,7 +12,7 @@ caps.latest.revision: 18
 manager: edupont
 ---
 # Calling .NET Framework Members from C/AL
-You can call .NET Framework type members, including methods, properties, and constructors, from C/AL code with the DotNet data type for C/AL variables. This section provides an overview of the DotNet data type, guidelines on its use, and aspects about calling members of a .NET Framework type. For information about how to create and use a DotNet variable to call members of a type, see [How to: Call .NET Framework Types From C-AL Code](How%20to:%20Call%20.NET%20Framework%20Types%20From%20C-AL%20Code.md).  
+You can call .NET Framework type members, including methods, properties, and constructors, from C/AL code with the DotNet data type for C/AL variables. This section provides an overview of the DotNet data type, guidelines on its use, and aspects about calling members of a .NET Framework type. For information about how to create and use a DotNet variable to call members of a type, see [How to: Call .NET Framework Types From C-AL Code](How-to--Call%20.NET%20Framework%20Types%20From%20C-AL%20Code.md).  
   
 ## DotNet Data Type  
  The DotNet type resembles the Automation type in C/AL except that it references a .NET Framework type in an assembly. Assemblies can be either part of assemblies that are installed in the global assembly cache or custom assemblies that you have installed for [!INCLUDE[navnow](includes/navnow_md.md)]. For more information about how to install assemblies in global assembly cache, see [Assembly Installation in the GAC](http://go.microsoft.com/fwlink/?LinkID=196848).  
@@ -101,6 +101,6 @@ IF dotNetList1.ToString() <> dotNetList2.ToString() THEN
  By default, a local DotNet variable is disposed when it goes out of scope. In this case, you should not assign the local DotNet variable to global C/AL or .NET Framework objects. However, local DotNet variables include the SuppressDispose property that you use to set the variable not to dispose when it goes out of scope, which lets you use the local variable outside the scope of its local function. For more information, see [SuppressDispose Property](SuppressDispose-Property.md).  
   
 ## See Also  
- [How to: Call .NET Framework Types From C-AL Code](How%20to:%20Call%20.NET%20Framework%20Types%20From%20C-AL%20Code.md)   
+ [How to: Call .NET Framework Types From C-AL Code](How-to--Call%20.NET%20Framework%20Types%20From%20C-AL%20Code.md)   
  [Handling Events with Microsoft .NET Framework Interoperability](Handling-Events-with-Microsoft-.NET-Framework-Interoperability.md)   
  [Serializing .NET Framework Types](Serializing-.NET-Framework-Types.md)

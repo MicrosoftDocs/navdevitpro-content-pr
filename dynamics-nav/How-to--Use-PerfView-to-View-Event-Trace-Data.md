@@ -36,7 +36,7 @@ This topic describes how to use PerfView to view [!INCLUDE[nav_server](includes/
 5.  To view details about a trace event, double-click the trace event.  
   
 ## See Also  
- [How to: Use PerfView to Collect Event Trace Data](How%20to:%20Use%20PerfView%20to%20Collect%20Event%20Trace%20Data.md)   
- [How to: Use Performance Monitor to Collect Event Trace Data](How%20to:%20Use%20Performance%20Monitor%20to%20Collect%20Event%20Trace%20Data.md)   
+ [How to: Use PerfView to Collect Event Trace Data](How-to--Use%20PerfView%20to%20Collect%20Event%20Trace%20Data.md)   
+ [How to: Use Performance Monitor to Collect Event Trace Data](How-to--Use%20Performance%20Monitor%20to%20Collect%20Event%20Trace%20Data.md)   
  [Monitoring Microsoft Dynamics NAV Server Event Traces](Monitoring-Microsoft-Dynamics-NAV-Server-Event-Traces.md)   
  [Microsoft Dynamics NAV Server Trace Events](Microsoft-Dynamics-NAV-Server-Trace-Events.md)

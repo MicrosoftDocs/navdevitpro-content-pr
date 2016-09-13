@@ -32,4 +32,4 @@ When you design the fields and keys for a new table, you need to save the table 
 4.  Clear the **Compiled** check box if you do not want the table to be compiled when it is saved.  
   
 ## See Also  
- [How to: Create a Table](How%20to:%20Create%20a%20Table.md)
+ [How to: Create a Table](How-to--Create%20a%20Table.md)

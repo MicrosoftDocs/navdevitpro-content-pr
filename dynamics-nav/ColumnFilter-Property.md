@@ -44,6 +44,6 @@ Quantity=FILTER(>20&<50)
   
 ## See Also  
  [Understanding Query Filters](Understanding-Query-Filters.md)   
- [How to: Set Up Filter Rows in Query Designer](How%20to:%20Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md)   
- [How to: Create Queries](How%20to:%20Create%20Queries.md)   
+ [How to: Set Up Filter Rows in Query Designer](How-to--Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md)   
+ [How to: Create Queries](How-to--Create%20Queries.md)   
  [Queries](Queries.md)

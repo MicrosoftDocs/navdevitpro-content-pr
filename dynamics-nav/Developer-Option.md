@@ -48,5 +48,5 @@ The Developer option is available on the **Choose an installation option** page 
 -   [Microsoft Office Outlook Add-In](Microsoft-Office-Outlook-Add-In.md)  
   
 ## See Also  
- [How to: Choose Components to Install](How%20to:%20Choose%20Components%20to%20Install.md)   
+ [How to: Choose Components to Install](How-to--Choose%20Components%20to%20Install.md)   
  [Client Types](Client-Types.md)

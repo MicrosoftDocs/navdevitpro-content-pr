@@ -18,7 +18,7 @@ To add string translations for UI elements in a standard country/region-specific
   
 -   By using the Multilanguage Editor and editing the CaptionML property of individual objects  
   
- This topic describes how to use the Multilanguage Editor to edit the CaptionML property of objects. For more information about how to use the Translate tool, see [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How%20to:%20Add%20Translated%20Strings%20By%20Importing%20and%20Exporting%20Multilanguage%20Files.md).  
+ This topic describes how to use the Multilanguage Editor to edit the CaptionML property of objects. For more information about how to use the Translate tool, see [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How-to--Add%20Translated%20Strings%20By%20Importing%20and%20Exporting%20Multilanguage%20Files.md).  
   
 ### To add a translation in Multilanguage Editor  
   
@@ -30,11 +30,11 @@ To add string translations for UI elements in a standard country/region-specific
   
 4.  In the **CaptionML** property, choose the **AssistEdit** button.  
   
-5.  In the Multilanguage Editor, enter the language and the translated text. For more information, see [How to: Enter Text in the Multilanguage Editor](How%20to:%20Enter%20Text%20in%20the%20Multilanguage%20Editor.md).  
+5.  In the Multilanguage Editor, enter the language and the translated text. For more information, see [How to: Enter Text in the Multilanguage Editor](How-to--Enter%20Text%20in%20the%20Multilanguage%20Editor.md).  
   
  To let the user select a specific language in the application, the following must be true:  
   
--   You must have deployed the relevant language modules. For more information, see [How to: Install Language Modules](How%20to:%20Install%20Language%20Modules.md).  
+-   You must have deployed the relevant language modules. For more information, see [How to: Install Language Modules](How-to--Install%20Language%20Modules.md).  
   
 -   The language-specific subfolder must contain the correct fin.stx file.  
   
@@ -44,4 +44,4 @@ To add string translations for UI elements in a standard country/region-specific
   
 ## See Also  
  [Multilanguage Development](Multilanguage-Development.md)   
- [How to: Delete Translated Strings](How%20to:%20Delete%20Translated%20Strings.md)
+ [How to: Delete Translated Strings](How-to--Delete%20Translated%20Strings.md)

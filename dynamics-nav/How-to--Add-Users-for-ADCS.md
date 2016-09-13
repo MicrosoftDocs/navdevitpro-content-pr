@@ -53,17 +53,17 @@ You can add any user as a user of an Automated Data Capture System \(ADCS\). Whe
   
 1.  In the **Search** box, enter **\($ N\_7328 Warehouse Employees $\)**, and then choose the related link.  
   
-2.  If needed, add a new warehouse employee. For more information, see [How to: Set Up Warehouse Employees](How%20to:%20Set%20Up%20Warehouse%20Employees.md).  
+2.  If needed, add a new warehouse employee. For more information, see [How to: Set Up Warehouse Employees](How-to--Set%20Up%20Warehouse%20Employees.md).  
   
 3.  On the **Home** tab, in the **Manage** group, choose **Edit List**.  
   
 4.  Select a warehouse employee from the list. In the **\($ T\_7301\_7710 ADCS User $\)** field, choose the drop-down arrow, and then select the name of an ADCS user from the list.  
   
     > [!NOTE]  
-    >  The default warehouse for the employee should be one that uses ADCS. For more information, see [How to: Set Up a Warehouse to Use ADCS](How%20to:%20Set%20Up%20a%20Warehouse%20to%20Use%20ADCS.md).  
+    >  The default warehouse for the employee should be one that uses ADCS. For more information, see [How to: Set Up a Warehouse to Use ADCS](How-to--Set%20Up%20a%20Warehouse%20to%20Use%20ADCS.md).  
   
 ## See Also  
  [\($ N\_7710 ADCS Users $\)](\($%20N_7710%20ADCS%20Users%20$\).md)   
  [\($ T\_7301\_7710 ADCS User $\)](\($%20T_7301_7710%20ADCS%20User%20$\).md)   
- [How to: Test the ADCS Connection](How%20to:%20Test%20the%20ADCS%20Connection.md)   
- [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md)
+ [How to: Test the ADCS Connection](How-to--Test%20the%20ADCS%20Connection.md)   
+ [How to: Create Microsoft Dynamics NAV Users](How-to--Create%20Microsoft%20Dynamics%20NAV%20Users.md)

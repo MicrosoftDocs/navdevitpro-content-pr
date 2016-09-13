@@ -23,7 +23,7 @@ manager: edupont
   
      ![Action Designer showing the HomeItems actions](media/NAVRTCHomeItemsActionDesigner.PNG "NAVRTCHomeItemsActionDesigner")  
   
-     For information about how to add an action under the **HomeItems** control, see [How to: Add Actions to a Page](How%20to:%20Add%20Actions%20to%20a%20Page.md).  
+     For information about how to add an action under the **HomeItems** control, see [How to: Add Actions to a Page](How-to--Add%20Actions%20to%20a%20Page.md).  
   
 -   Add Cues on the Role Center page.  
   
@@ -52,7 +52,7 @@ manager: edupont
   
  As an end-user, the changes are only implemented on the user’s Role Center. For more information, see [Customize the User Interface](Customize%20the%20User%20Interface.md).  
   
- If you are an administrator, then you can open the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] in the Configuration mode and the changes that you make will be implemented on the Role Center for all users. For more information, see [How to: Open Microsoft Dynamics NAV in Configuration Mode](How%20to:%20Open%20Microsoft%20Dynamics%20NAV%20in%20Configuration%20Mode.md).  
+ If you are an administrator, then you can open the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] in the Configuration mode and the changes that you make will be implemented on the Role Center for all users. For more information, see [How to: Open Microsoft Dynamics NAV in Configuration Mode](How-to--Open%20Microsoft%20Dynamics%20NAV%20in%20Configuration%20Mode.md).  
   
 ## See Also  
  [Customization: Configuration and Personalization](Customization:%20Configuration%20and%20Personalization.md)   

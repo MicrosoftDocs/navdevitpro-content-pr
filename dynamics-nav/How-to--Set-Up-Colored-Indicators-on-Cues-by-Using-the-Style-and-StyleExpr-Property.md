@@ -16,11 +16,11 @@ You can configure a cue with a colored indicator that appears along its top bord
   
 -   The indicator has a static color.  
   
-     In this case, the indicator appears with a specified color at all times. For more information, see [Configuring Static Color Indication on a Cue](How%20to:%20Set%20Up%20Colored%20Indicators%20on%20Cues%20by%20Using%20the%20Style%20and%20StyleExpr%20Property.md#StaticColor).  
+     In this case, the indicator appears with a specified color at all times. For more information, see [Configuring Static Color Indication on a Cue](How-to--Set%20Up%20Colored%20Indicators%20on%20Cues%20by%20Using%20the%20Style%20and%20StyleExpr%20Property.md#StaticColor).  
   
 -   The indicator changes color conditionally, based on the data in the cue.  
   
-     This is the most typical behavior. When the data in the cue hits a specified value, the indicator changes color. There are 4 colors to choose from, which enables you to configure different colors for different data intervals. For more information, see [Configuring Conditional Color Indication on a Cue](How%20to:%20Set%20Up%20Colored%20Indicators%20on%20Cues%20by%20Using%20the%20Style%20and%20StyleExpr%20Property.md#ConditionColor).  
+     This is the most typical behavior. When the data in the cue hits a specified value, the indicator changes color. There are 4 colors to choose from, which enables you to configure different colors for different data intervals. For more information, see [Configuring Conditional Color Indication on a Cue](How-to--Set%20Up%20Colored%20Indicators%20on%20Cues%20by%20Using%20the%20Style%20and%20StyleExpr%20Property.md#ConditionColor).  
   
  You set up the indicator by using the [StyleExpr Property](StyleExpr-Property.md) and [Style Property-duplicate](Style-Property-duplicate.md) for the field that defines the cue and, in most cases, by adding C/AL code to the page object.  
   

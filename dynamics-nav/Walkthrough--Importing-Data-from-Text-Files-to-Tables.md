@@ -51,7 +51,7 @@ LS-81       89.89
 LS-10PC     59.59  
 ```  
   
- The first column is the data in the **No.** field, and the second column is the data that will be used to update the **Unit Price** field. You can view and confirm the current prices for the loud speakers in the **Item** table before the records are updated. For information about how to view table data, see [How to: View and Sort Table Data](How%20to:%20View%20and%20Sort%20Table%20Data.md).  
+ The first column is the data in the **No.** field, and the second column is the data that will be used to update the **Unit Price** field. You can view and confirm the current prices for the loud speakers in the **Item** table before the records are updated. For information about how to view table data, see [How to: View and Sort Table Data](How-to--View%20and%20Sort%20Table%20Data.md).  
   
 ## Designing the XMLport  
  You create an XMLport by designing it in XMLport Designer and setting properties. You define the table and fields that you want to import data to in XMLport Designer. You then compile and save the XMLport.  

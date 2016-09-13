@@ -47,6 +47,6 @@ caps.latest.revision: 11
 ||**User Property**|  
   
 ## See Also  
- [How to: Export the Application Tables to a Dedicated Database](How%20to:%20Export%20the%20Application%20Tables%20to%20a%20Dedicated%20Database.md)   
+ [How to: Export the Application Tables to a Dedicated Database](How-to--Export%20the%20Application%20Tables%20to%20a%20Dedicated%20Database.md)   
  [Migrating to Multitenancy](Migrating-to-Multitenancy.md)   
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)

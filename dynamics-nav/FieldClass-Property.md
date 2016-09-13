@@ -30,4 +30,4 @@ Sets the class of the field.
   
 ## See Also  
  [Properties](Properties.md)   
- [How to: Create a FlowField](How%20to:%20Create%20a%20FlowField.md)
+ [How to: Create a FlowField](How-to--Create%20a%20FlowField.md)

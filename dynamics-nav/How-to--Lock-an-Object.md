@@ -33,11 +33,11 @@ You can lock objects so that other developers cannot save changes to the objects
 2.  In the **Options** window, in the **Auto-Lock on Design** field, enter **Yes**, and then choose **OK**.  
   
     > [!TIP]  
-    >  You cannot automatically unlock objects that you have locked. However, you can filter for locked objects, select all objects that you have locked, and then unlock these objects. For more information, see [How to: Unlock an Object](How%20to:%20Unlock%20an%20Object.md).  
+    >  You cannot automatically unlock objects that you have locked. However, you can filter for locked objects, select all objects that you have locked, and then unlock these objects. For more information, see [How to: Unlock an Object](How-to--Unlock%20an%20Object.md).  
   
     > [!NOTE]  
     >  If you go to the definition of an object, then the object is opened in design mode. Therefore, if you set the **Auto-Lock on Design** field and then go to the definition of an object, then the object is locked. For more information, see [Viewing the Definition of a Function or Object by Using Go To Definition](Viewing-the-Definition-of-a-Function-or-Object-by-Using-Go-To-Definition.md).  
   
 ## See Also  
- [How to: Unlock an Object](How%20to:%20Unlock%20an%20Object.md)   
+ [How to: Unlock an Object](How-to--Unlock%20an%20Object.md)   
  [Locking and Unlocking Objects](Locking-and-Unlocking-Objects.md)

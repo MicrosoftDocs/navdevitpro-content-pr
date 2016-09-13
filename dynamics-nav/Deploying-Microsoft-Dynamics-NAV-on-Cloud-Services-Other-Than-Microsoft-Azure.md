@@ -74,4 +74,4 @@ The [!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)] have been designed t
  [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
  [Deploying Microsoft Dynamics NAV on Two Virtual Machines Using Example-2VM Script](Deploying-Microsoft-Dynamics-NAV-on-Two-Virtual-Machines-Using-Example-2VM-Script.md)   
  [Deploying Microsoft Dynamics NAV on One Virtual Machine Using Example-1VM Script](Deploying-Microsoft-Dynamics-NAV-on-One-Virtual-Machine-Using-Example-1VM-Script.md)   
- [How to: Deploy Microsoft Dynamics NAV on Microsoft Azure by Using the Example Scripts](How%20to:%20Deploy%20Microsoft%20Dynamics%20NAV%20on%20Microsoft%20Azure%20by%20Using%20the%20Example%20Scripts.md)
+ [How to: Deploy Microsoft Dynamics NAV on Microsoft Azure by Using the Example Scripts](How-to--Deploy%20Microsoft%20Dynamics%20NAV%20on%20Microsoft%20Azure%20by%20Using%20the%20Example%20Scripts.md)

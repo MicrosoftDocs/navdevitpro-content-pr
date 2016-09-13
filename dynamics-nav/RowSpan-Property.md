@@ -33,4 +33,4 @@ Sets the number of rows that a field spans in a GridLayout control.
 >  The RowSpan property is not supported by the [!INCLUDE[nav_web](includes/nav_web_md.md)]. If the page displays in the [!INCLUDE[nav_web](includes/nav_web_md.md)], then the property is ignored and the field will not span any rows.  
   
 ## See Also  
- [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](How%20to:%20Arrange%20Fields%20in%20Rows%20and%20Columns%20Using%20the%20GridLayout%20Control.md)
+ [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](How-to--Arrange%20Fields%20in%20Rows%20and%20Columns%20Using%20the%20GridLayout%20Control.md)

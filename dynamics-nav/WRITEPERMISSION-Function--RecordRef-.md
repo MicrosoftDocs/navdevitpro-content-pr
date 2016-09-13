@@ -47,7 +47,7 @@ Ok := RecordRef.WRITEPERMISSION
   
  This function uses the filter that is currently applied to the *RecordRef* to determine whether you have write permission. If no filter is applied, the function tests for full write permission. If a filter has been set, the function only tests for write permission in the range of the filter.  
   
- To determine whether the user has partial write permission, because a security filter has been applied, view the **Permissions** page. For more information, see [How to: Set Security Filters](How%20to:%20Set%20Security%20Filters.md).  
+ To determine whether the user has partial write permission, because a security filter has been applied, view the **Permissions** page. For more information, see [How to: Set Security Filters](How-to--Set%20Security%20Filters.md).  
   
  If you do not have permission to write to a table and you attempt to write, a run-time error occurs. This function lets you determine in advance if you have write permission. When the permissions are checked, the combination of permissions in the license file and the user's permissions in the Permission table is considered.  
   

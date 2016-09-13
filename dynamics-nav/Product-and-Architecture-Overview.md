@@ -48,7 +48,7 @@ The [!INCLUDE[navnowlong](includes/navnowlong_md.md)] architecture comprises thr
 |Component|Purpose|  
 |---------------|-------------|  
 |[Microsoft Dynamics NAV Help Server](Microsoft-Dynamics-NAV-Help-Server.md)|A website with the Help content for [!INCLUDE[navnow](includes/navnow_md.md)] in the languages that your version of [!INCLUDE[navnow](includes/navnow_md.md)] includes. You can deploy a single Help Server for all users, or customer-specific Help Servers, depending on your requirements.|  
-|Web Server Components. See [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md).|The components that are needed to enable [!INCLUDE[nav_web](includes/nav_web_md.md)]s to connect with a browser.|  
+|Web Server Components. See [How to: Install the Web Server Components](How-to--Install%20the%20Web%20Server%20Components.md).|The components that are needed to enable [!INCLUDE[nav_web](includes/nav_web_md.md)]s to connect with a browser.|  
 |[Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)|A tool for configuring and managing [!INCLUDE[nav_server](includes/nav_server_md.md)] and [!INCLUDE[navnow](includes/navnow_md.md)] sites.|  
 |[Development Environment \(C-SIDE\)](Development-Environment--C-SIDE-.md)|The Development Environment for creating and modifying [!INCLUDE[navnow](includes/navnow_md.md)] applications in C/AL.|  
 |[Microsoft Office Outlook Add-In](Microsoft-Office-Outlook-Add-In.md)|A component for synchronizing data, such as to-dos, contacts, and tasks, between [!INCLUDE[navnow](includes/navnow_md.md)] and Outlook.|  

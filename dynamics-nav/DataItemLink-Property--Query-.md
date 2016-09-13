@@ -48,6 +48,6 @@ Salesperson Code=Salesperson.Code
  For a detailed step-by-step example of the DataItemLink property, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
   
 ## See Also  
- [How to: Create Queries](How%20to:%20Create%20Queries.md)   
+ [How to: Create Queries](How-to--Create%20Queries.md)   
  [Understanding Data Item Links](Understanding-Data-Item-Links.md)   
  [DataItemLinkType Property](DataItemLinkType-Property.md)

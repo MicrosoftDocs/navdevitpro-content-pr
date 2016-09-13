@@ -32,6 +32,6 @@ After you add translated strings into a database, there is only one way to delet
   
 ## See Also  
  [Multilanguage Development](Multilanguage-Development.md)   
- [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How%20to:%20Add%20Translated%20Strings%20By%20Importing%20and%20Exporting%20Multilanguage%20Files.md)   
- [How to: Add Translated Strings By Using the Multilanguage Editor](How%20to:%20Add%20Translated%20Strings%20By%20Using%20the%20Multilanguage%20Editor.md)   
- [How to: Uninstall Language Modules](How%20to:%20Uninstall%20Language%20Modules.md)
+ [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How-to--Add%20Translated%20Strings%20By%20Importing%20and%20Exporting%20Multilanguage%20Files.md)   
+ [How to: Add Translated Strings By Using the Multilanguage Editor](How-to--Add%20Translated%20Strings%20By%20Using%20the%20Multilanguage%20Editor.md)   
+ [How to: Uninstall Language Modules](How-to--Uninstall%20Language%20Modules.md)

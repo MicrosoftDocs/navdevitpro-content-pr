@@ -45,7 +45,7 @@ In this walkthrough, you will install the tiers of [!INCLUDE[nav_web](includes/n
 
     -   Internet Information Services 7 or Internet Information Services 8.  
 
-         You must enable IIS with the required features for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
+         You must enable IIS with the required features for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How-to--Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
 
         > [!NOTE]  
         >  Instead of installing and configuring IIS manually, you can use [!INCLUDE[navnow](includes/navnow_md.md)] Setup to install IIS and enable the required features, as described in this walkthrough.  
@@ -175,7 +175,7 @@ In this walkthrough, you will install the tiers of [!INCLUDE[nav_web](includes/n
 ## Next Steps  
  The following is a list of typical tasks to perform after you install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  
 
--   Upload your license. For more information, see [How to: Upload the License File](How%20to:%20Upload%20the%20License%20File.md).  
+-   Upload your license. For more information, see [How to: Upload the License File](How-to--Upload%20the%20License%20File.md).  
 
 -   Create users and integrate them into the [!INCLUDE[navnow](includes/navnow_md.md)] security system. For more information, see [Managing Users](Managing-Users.md).  
 

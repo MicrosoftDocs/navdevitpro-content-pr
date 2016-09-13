@@ -61,7 +61,7 @@ manager: edupont
   
 -   [STRMENU Function \(Dialog\)](STRMENU-Function--Dialog-.md)  
   
- You define text constants in the **C/AL Globals** or **C/AL Locals** window. When you enter a string in the **ConstValue** field, this value is automatically entered as the **ConstValueML** value for the currently selected language. You can enter a string for other languages by choosing the **AssistEdit** button in the **ConstValue** field. This opens the Multilanguage Editor. For more information, see [How to: Enter Text in the Multilanguage Editor](How%20to:%20Enter%20Text%20in%20the%20Multilanguage%20Editor.md).  
+ You define text constants in the **C/AL Globals** or **C/AL Locals** window. When you enter a string in the **ConstValue** field, this value is automatically entered as the **ConstValueML** value for the currently selected language. You can enter a string for other languages by choosing the **AssistEdit** button in the **ConstValue** field. This opens the Multilanguage Editor. For more information, see [How to: Enter Text in the Multilanguage Editor](How-to--Enter%20Text%20in%20the%20Multilanguage%20Editor.md).  
   
  Text constants are automatically assigned unique IDs according to the number ranges listed in [Number Ranges for Text Constants](Number-Ranges-for-Text-Constants.md). To see the ID for a text constant, open the **C/AL Globals** or **C/AL Locals** window where the text constant is defined, and select the text constant. On the **View** menu, choose **Properties**.  
   
@@ -78,7 +78,7 @@ manager: edupont
   
  If the language in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] is English \(United States\), then the value of the **Caption** property is `Document Type`. If the language is Spanish \(Mexico\), then the value of the **Caption** field is `Tipo documento`.  
   
- To add captions in different languages, you can either enter values directly in the **Value** field of the **CaptionML** property, or you can choose the **AssistEdit** button to open the Multilanguage Editor. For more information, see [How to: Enter Text in the Multilanguage Editor](How%20to:%20Enter%20Text%20in%20the%20Multilanguage%20Editor.md).  
+ To add captions in different languages, you can either enter values directly in the **Value** field of the **CaptionML** property, or you can choose the **AssistEdit** button to open the Multilanguage Editor. For more information, see [How to: Enter Text in the Multilanguage Editor](How-to--Enter%20Text%20in%20the%20Multilanguage%20Editor.md).  
   
 > [!NOTE]  
 >  You must choose the **OK** button to save the information when you exit the **Multilanguage Editor** window.  
@@ -145,5 +145,5 @@ NewStr := STRSUBSTNO(Text000, SelStr);
   
 ## See Also  
  [Multilanguage Development](Multilanguage-Development.md)   
- [How to: View Names and Captions](How%20to:%20View%20Names%20and%20Captions.md)   
+ [How to: View Names and Captions](How-to--View%20Names%20and%20Captions.md)   
  [Multiple Document Languages](Multiple-Document-Languages.md)

@@ -77,7 +77,7 @@ It is common to distinguish among the following types of relationships between t
  Furthermore, if you change one of the currency codes in the **Currency Code** table, then the change is automatically propagated to all tables that refer to this code.  
   
 ## See Also  
- [How to: Create a Table Relationship](How%20to:%20Create%20a%20Table%20Relationship.md)   
+ [How to: Create a Table Relationship](How-to--Create%20a%20Table%20Relationship.md)   
  [Maintaining Table Relationships on SQL Server](Maintaining-Table-Relationships-on-SQL-Server.md)   
- [How to: Synchronize Table and SQL Server Relationships](How%20to:%20Synchronize%20Table%20and%20SQL%20Server%20Relationships.md)   
+ [How to: Synchronize Table and SQL Server Relationships](How-to--Synchronize%20Table%20and%20SQL%20Server%20Relationships.md)   
  [Overview of Tables](Overview-of-Tables.md)

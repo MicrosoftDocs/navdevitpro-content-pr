@@ -15,7 +15,7 @@ You can run the automated application tests that are included on the [!INCLUDE[n
   
  To run tests in the CAL Test Tool window, you must import the objects in the .fob files in the **TestToolkit** folder that is included on the [!INCLUDE[navnow](includes/navnow_md.md)] product media. For more information, see [Application Test Automation](Application-Test-Automation.md).  
   
- Any changes done to the database by running tests are automatically rolled back using the Test Isolation testability functionality. For more information, see [How to: Create a Test Runner Codeunit](How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md).  
+ Any changes done to the database by running tests are automatically rolled back using the Test Isolation testability functionality. For more information, see [How to: Create a Test Runner Codeunit](How-to--Create%20a%20Test%20Runner%20Codeunit.md).  
   
 ### To run an application test suite  
   

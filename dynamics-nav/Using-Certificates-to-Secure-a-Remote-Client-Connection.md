@@ -31,7 +31,7 @@ You can use service certificates to help secure [!INCLUDE[rtc](includes/rtc_md.m
   
  Most enterprises and hosting providers have their own infrastructure for issuing and managing certificates. You can also use these certificate infrastructures. The only requirement is that the service certificates must be set up for key exchange and therefore must contain both private and public keys. Additionally, the service certificates that are installed on [!INCLUDE[nav_server](includes/nav_server_md.md)] instances must have the Service Authentication and Client Authentication certificate purposes enabled.  
   
- For more information, see [How to: Implement Security Certificates in a Production Environment](How%20to:%20Implement%20Security%20Certificates%20in%20a%20Production%20Environment.md).  
+ For more information, see [How to: Implement Security Certificates in a Production Environment](How-to--Implement%20Security%20Certificates%20in%20a%20Production%20Environment.md).  
   
 ## See Also  
  [Connecting the Microsoft Dynamics NAV Clients over a Wide Area Network](Connecting-the-Microsoft-Dynamics-NAV-Clients-over-a-Wide-Area-Network.md)   

@@ -21,14 +21,14 @@ A [!INCLUDE[navnow](includes/navnow_md.md)] page can consist of several differen
   
  To configure the [!INCLUDE[nav_web](includes/nav_web_md.md)], you open the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] in the configuration mode for a profile, and then use the customize feature to show or hide the elements. For more information, see the following topics:  
   
--   [How to: Open Microsoft Dynamics NAV in Configuration Mode](How%20to:%20Open%20Microsoft%20Dynamics%20NAV%20in%20Configuration%20Mode.md)  
+-   [How to: Open Microsoft Dynamics NAV in Configuration Mode](How-to--Open%20Microsoft%20Dynamics%20NAV%20in%20Configuration%20Mode.md)  
   
 -   [Working with Role Centers](Working%20with%20Role%20Centers.md)  
   
 -   [Walkthrough: Configuring UI for the Order Processor Profile](Walkthrough:%20Configuring%20UI%20for%20the%20Order%20Processor%20Profile.md)  
   
 ## Resetting Configuration Settings  
- As an administrator or SUPER user, you can reset configuration settings. For more information, see [How to: Cancel UI Configuration](How%20to:%20Cancel%20UI%20Configuration.md).  
+ As an administrator or SUPER user, you can reset configuration settings. For more information, see [How to: Cancel UI Configuration](How-to--Cancel%20UI%20Configuration.md).  
   
 > [!NOTE]  
 >  Performing this task affects the users in [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)].  

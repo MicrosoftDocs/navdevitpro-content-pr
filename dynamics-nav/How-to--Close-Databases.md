@@ -21,5 +21,5 @@ You may need to close the database from time to time.
  You can use this function to close an open database, for example, before opening another database. However, it is not necessary to use it because all the data is saved and everything is closed correctly when you choose to open another database or exit the program.  
   
 ## See Also  
- [How to: Open Databases](How%20to:%20Open%20Databases.md)   
- [How to: Delete Databases](How%20to:%20Delete%20Databases.md)
+ [How to: Open Databases](How-to--Open%20Databases.md)   
+ [How to: Delete Databases](How-to--Delete%20Databases.md)

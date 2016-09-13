@@ -28,7 +28,7 @@ The **Date** virtual table gives you easy access to days, weeks, months, quarter
   
  The date virtual table is most frequently used to provide a range of dates; the Receivables- Payables page is a typical example.  
   
- You must create a tabular-type page to access the **Date** virtual table. For more information, see [How to: Create a Page to View a Virtual Table](How%20to:%20Create%20a%20Page%20to%20View%20a%20Virtual%20Table.md).  
+ You must create a tabular-type page to access the **Date** virtual table. For more information, see [How to: Create a Page to View a Virtual Table](How-to--Create%20a%20Page%20to%20View%20a%20Virtual%20Table.md).  
   
 ## See Also  
  [Virtual Tables](Virtual-Tables.md)

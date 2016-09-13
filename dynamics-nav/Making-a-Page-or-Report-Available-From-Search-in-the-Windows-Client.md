@@ -16,7 +16,7 @@ The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] includes a **Search** bo
 
  For information about how to add pages and reports to the **Home** and **Activity** buttons, see [Setting Up the Home Button and Home Items](Setting-Up-the-Home-Button-and-Home-Items.md) or [Creating Activity Buttons for the Navigation Pane](Creating-Activity-Buttons-for-the-Navigation-Pane.md).  
 
- To include a page or report under Departments, you add the page or report to the MenuSuite of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information, see [How to: Modify Menu Items in a MenuSuite](How%20to:%20Modify%20Menu%20Items%20in%20a%20MenuSuite.md).  
+ To include a page or report under Departments, you add the page or report to the MenuSuite of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information, see [How to: Modify Menu Items in a MenuSuite](How-to--Modify%20Menu%20Items%20in%20a%20MenuSuite.md).  
 
 ## See Also  
  [Pages](Pages.md)   
