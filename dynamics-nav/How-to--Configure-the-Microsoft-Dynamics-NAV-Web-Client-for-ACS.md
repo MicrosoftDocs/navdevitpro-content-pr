@@ -30,7 +30,7 @@ You configure the [!INCLUDE[nav_web](includes/nav_web_md.md)] for Access Control
     |Setting|Value|  
     |-------------|-----------|  
     |ClientServicesCredentialType|"AccessControlService"|  
-    |ACSUri|Use the URI for your relying party application from the **Application Integration** section of the Access Control configuration. For more information, see [How to: Configure a Deployment for ACS](How%20to:%20Configure%20a%20Deployment%20for%20ACS.md).|  
+    |ACSUri|Use the URI for your relying party application from the **Application Integration** section of the Access Control configuration. For more information, see [How to: Configure a Deployment for ACS](How-to--Configure%20a%20Deployment%20for%20ACS.md).|  
   
 3.  After updating the values, save ClientUserSettings.config.  
   

@@ -36,7 +36,7 @@ manager: edupont
   
  To follow this how-to, you will need:  
   
--   [!INCLUDE[navnow](includes/navnow_md.md)] with a user account. For more information, see [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md)  
+-   [!INCLUDE[navnow](includes/navnow_md.md)] with a user account. For more information, see [How to: Create Microsoft Dynamics NAV Users](How-to--Create%20Microsoft%20Dynamics%20NAV%20Users.md)  
   
 -   [!INCLUDE[nav_server](includes/nav_server_md.md)]  
   
@@ -58,7 +58,7 @@ manager: edupont
   
 -   Security Certificate Used to Secure the Server – Web Server Communication Channel  
   
-     Setting up user authentication types other than Windows for the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] requires securing the communication between the server and the client. This can be done by using a security certificate. The `Set-NavSingleSignOnWithOffice365` cmdlet assumes that you have already imported the security certificate in your certificate store. You can use a security certificate issued by a trusted certification authority. For more information, [How to: Implement Security Certificates in a Production Environment](How%20to:%20Implement%20Security%20Certificates%20in%20a%20Production%20Environment.md). You can also use a self-signed certificate. For more information, see [Walkthrough: Implementing Security Certificates in a Test Environment](Walkthrough:%20Implementing%20Security%20Certificates%20in%20a%20Test%20Environment.md). We do not recommend the latter approach in a production environment; however, it is an alternative to consider when testing your environment.  
+     Setting up user authentication types other than Windows for the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] requires securing the communication between the server and the client. This can be done by using a security certificate. The `Set-NavSingleSignOnWithOffice365` cmdlet assumes that you have already imported the security certificate in your certificate store. You can use a security certificate issued by a trusted certification authority. For more information, [How to: Implement Security Certificates in a Production Environment](How-to--Implement%20Security%20Certificates%20in%20a%20Production%20Environment.md). You can also use a self-signed certificate. For more information, see [Walkthrough: Implementing Security Certificates in a Test Environment](Walkthrough:%20Implementing%20Security%20Certificates%20in%20a%20Test%20Environment.md). We do not recommend the latter approach in a production environment; however, it is an alternative to consider when testing your environment.  
   
 ### To Import the NAVOffice365Administration Module  
   
@@ -132,7 +132,7 @@ $result = Set-NavSingleSignOnWithOffice365 -AuthenticationEmail “YourOffice365
   
  The `ClientServicesCredentialType` must be set to `AccessControlService`.  
   
- Depending on the Security Certificate that you are using, you may also need to change the `DnsIdentity` setting. For more information, see [How to: Implement Security Certificates in a Production Environment](How%20to:%20Implement%20Security%20Certificates%20in%20a%20Production%20Environment.md).  
+ Depending on the Security Certificate that you are using, you may also need to change the `DnsIdentity` setting. For more information, see [How to: Implement Security Certificates in a Production Environment](How-to--Implement%20Security%20Certificates%20in%20a%20Production%20Environment.md).  
   
  `AcsUri` should have the following format `https://login.windows.net/<tenant>/wsfed?wa=wsignin1.0%26wtrealm=<realm>%26wreply=<reply>`.  
   

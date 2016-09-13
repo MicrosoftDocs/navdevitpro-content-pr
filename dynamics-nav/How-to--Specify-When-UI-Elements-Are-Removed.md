@@ -23,12 +23,12 @@ Depending on the setting in the **UI Elements Removal** field in the [!INCLUDE[n
   
  UI elements that are directly related to an object through the **TableRelation** or the **CalcFormula** property can be removed automatically according to the license file and/or user permissions.  
   
- For UI elements that are not directly related to an object, you can use the **AccessByPermission** property to remove the element according to the user’s permission to a related object. For more information, see [How to: Remove UI Elements Using the AccessByPermission Property](How%20to:%20Remove%20UI%20Elements%20Using%20the%20AccessByPermission%20Property.md).  
+ For UI elements that are not directly related to an object, you can use the **AccessByPermission** property to remove the element according to the user’s permission to a related object. For more information, see [How to: Remove UI Elements Using the AccessByPermission Property](How-to--Remove%20UI%20Elements%20Using%20the%20AccessByPermission%20Property.md).  
   
  To make full use of the **LicenseFileAndUserPermissions** option in the **UI Elements Removal** field, it is recommended that you assign the special permission set, FOUNDATION, along with the relevant permission sets that define which application objects the user will access.  
   
 > [!IMPORTANT]  
->  The majority of the permission sets that are provided with the [!INCLUDE[demo](includes/demo_md.md)] demonstration database cannot be combined with the FOUNDATION permission set to fully use the UI Elements Removal feature. You must first create or edit the relevant permission sets to avoid that the user is blocked from performing the involved tasks. For more information, see [How to: Create or Modify Permission Sets](How%20to:%20Create%20or%20Modify%20Permission%20Sets.md).  
+>  The majority of the permission sets that are provided with the [!INCLUDE[demo](includes/demo_md.md)] demonstration database cannot be combined with the FOUNDATION permission set to fully use the UI Elements Removal feature. You must first create or edit the relevant permission sets to avoid that the user is blocked from performing the involved tasks. For more information, see [How to: Create or Modify Permission Sets](How-to--Create%20or%20Modify%20Permission%20Sets.md).  
 >   
 >  If you only use the **LicenseFile** option in the **UI Elements Removal** field, then you do not have to edit any permission sets as they will not affect which UI elements are removed.  
   
@@ -50,12 +50,12 @@ Depending on the setting in the **UI Elements Removal** field in the [!INCLUDE[n
 >  When you develop in [!INCLUDE[dyn_nav](includes/dyn_nav_md.md)], you should make sure that the **UI Elements Removal** field is set to its default, **None**, to make sure that all UI elements are visible when you review your development in the UI.  
   
 ## See Also  
- [How to: Remove UI Elements Using the AccessByPermission Property](How%20to:%20Remove%20UI%20Elements%20Using%20the%20AccessByPermission%20Property.md)   
- [How to: Try Out the UI Elements Removal Feature Based on Demonstration Permission Sets](How%20to:%20Try%20Out%20the%20UI%20Elements%20Removal%20Feature%20Based%20on%20Demonstration%20Permission%20Sets.md)   
+ [How to: Remove UI Elements Using the AccessByPermission Property](How-to--Remove%20UI%20Elements%20Using%20the%20AccessByPermission%20Property.md)   
+ [How to: Try Out the UI Elements Removal Feature Based on Demonstration Permission Sets](How-to--Try%20Out%20the%20UI%20Elements%20Removal%20Feature%20Based%20on%20Demonstration%20Permission%20Sets.md)   
  [Removing Elements from the User Interface According to Permissions](Removing-Elements-from-the-User-Interface-According-to-Permissions.md)   
  [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)   
- [How to: Create or Modify Permission Sets](How%20to:%20Create%20or%20Modify%20Permission%20Sets.md)   
+ [How to: Create or Modify Permission Sets](How-to--Create%20or%20Modify%20Permission%20Sets.md)   
  [Special Permission Sets](Special-Permission-Sets.md)   
- [How to: Define Permissions for Users](How%20to:%20Define%20Permissions%20for%20Users.md)   
+ [How to: Define Permissions for Users](How-to--Define%20Permissions%20for%20Users.md)   
  [Configure the User Interface](Configure%20the%20User%20Interface.md)   
  [Administration in the Clients](Administration%20in%20the%20Clients.md)

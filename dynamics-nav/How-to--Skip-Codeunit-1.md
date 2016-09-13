@@ -30,5 +30,5 @@ Many of the triggers in codeunit 1, Application Management, are not important fo
   
 ## See Also  
  [Breakpoints](Breakpoints.md)   
- [How to: Break on Errors](How%20to:%20Break%20on%20Errors.md)   
- [How to: Break on Record Changes](How%20to:%20Break%20on%20Record%20Changes.md)
+ [How to: Break on Errors](How-to--Break%20on%20Errors.md)   
+ [How to: Break on Record Changes](How-to--Break%20on%20Record%20Changes.md)

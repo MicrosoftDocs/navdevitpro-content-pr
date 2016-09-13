@@ -34,7 +34,7 @@ A temporary table is a temporary variable that holds a table. A temporary table 
   
 1.  On the **Tools** menu, choose **Object Designer,** and then create a new table.  
   
-     For information about how to create a table, see [How to: Create a Table](How%20to:%20Create%20a%20Table.md).  
+     For information about how to create a table, see [How to: Create a Table](How-to--Create%20a%20Table.md).  
   
 2.  Choose **View**, and then choose **C/AL Globals** or **C/AL Locals**, depending on whether your variable will be global or local.  
   

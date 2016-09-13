@@ -22,6 +22,6 @@ The functions that support cryptography in [!INCLUDE[navnow](includes/navnow_md.
 ## See Also  
  [Encryption Key Management](Encryption-Key-Management.md)   
  [Programming in C-AL](Programming-in-C-AL.md)   
- [How to: Export and Import Encryption Keys](How%20to:%20Export%20and%20Import%20Encryption%20Keys.md)   
- [How to: Enable and Disable Encryption Keys](How%20to:%20Enable%20and%20Disable%20Encryption%20Keys.md)   
+ [How to: Export and Import Encryption Keys](How-to--Export%20and%20Import%20Encryption%20Keys.md)   
+ [How to: Enable and Disable Encryption Keys](How-to--Enable%20and%20Disable%20Encryption%20Keys.md)   
  [Manage Data Encryption](Manage%20Data%20Encryption.md)

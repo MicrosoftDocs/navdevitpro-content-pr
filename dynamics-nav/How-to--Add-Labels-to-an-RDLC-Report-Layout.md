@@ -18,7 +18,7 @@ When you create a client report definition \(RDLC\) report layout in Visual Stud
   
 1.  If not already done, add the labels to the report dataset.  
   
-     For more information, see [How to: Create Labels for a Report](How%20to:%20Create%20Labels%20for%20a%20Report.md).  
+     For more information, see [How to: Create Labels for a Report](How-to--Create%20Labels%20for%20a%20Report.md).  
   
 2.  Open the report layout in Visual Studio as follows.  
   

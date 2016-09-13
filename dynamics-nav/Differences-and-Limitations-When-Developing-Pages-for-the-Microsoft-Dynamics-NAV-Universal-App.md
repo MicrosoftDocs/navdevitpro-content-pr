@@ -35,7 +35,7 @@ Developing for the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLU
 |Matrix controls|Not available.|Not available.|See example in G/L Budget.||  
 |File download|Available. Cannot download multiple files at the same time.|Available. Cannot download multiple files at the same time.|Trial Balance report in the **Print to Excel** check box.||  
 |Worksheet pages|Available.|Not available; an error message is displayed.|Sales Price Worksheet or Cash Flow Worksheet.|Run this type of page from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], [!INCLUDE[nav_web](includes/nav_web_md.md)], or [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)].|  
-|Lists|Available.|Available, with the difference that these are displayed in a brick layout with a number of differences and limitations. For an overview, see [How to: Display Data as Bricks](How%20to:%20Display%20Data%20as%20Bricks.md).|Customers or Sales Orders pages.||  
+|Lists|Available.|Available, with the difference that these are displayed in a brick layout with a number of differences and limitations. For an overview, see [How to: Display Data as Bricks](How-to--Display%20Data%20as%20Bricks.md).|Customers or Sales Orders pages.||  
 |Indentation in repeater controls|Available.|Not available. The repeater control will be rendered as a regular flat brick layout.|Chart of Accounts and Contacts List pages.||  
 |Scope of actions|Available.|Available, but there are some behavioral differences regarding the [Scope Property](Scope-Property.md). Also, see [Defining Action Scope for Microsoft Dynamics NAV Pages](Defining-Action-Scope-for-Microsoft-Dynamics-NAV-Pages.md).|||  
 |Use of camera and location|Available in the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] on devices with a camera and GPS capabilities.<br /><br /> **NOTE:** Not available on [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)].|Available in the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] on devices with a camera and GPS capabilities.<br /><br /> **NOTE:** Not available on [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)].|On the Accounting Manager profile, under **Incoming Documents**.||  
@@ -44,6 +44,6 @@ Developing for the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLU
  [Developing for the Microsoft Dynamics NAV Universal App](Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)   
  [Developing for the Microsoft Dynamics NAV Web Client](Developing-for-the-Microsoft-Dynamics-NAV-Web-Client.md)   
  [Role Center Behaviors](Role-Center-Behaviors.md)   
- [How to: Display Data as Bricks](How%20to:%20Display%20Data%20as%20Bricks.md)   
- [How to: Implement the Camera in C-AL](How%20to:%20Implement%20the%20Camera%20in%20C-AL.md)   
- [How to: Implement Location in C-AL](How%20to:%20Implement%20Location%20in%20C-AL.md)
+ [How to: Display Data as Bricks](How-to--Display%20Data%20as%20Bricks.md)   
+ [How to: Implement the Camera in C-AL](How-to--Implement%20the%20Camera%20in%20C-AL.md)   
+ [How to: Implement Location in C-AL](How-to--Implement%20Location%20in%20C-AL.md)

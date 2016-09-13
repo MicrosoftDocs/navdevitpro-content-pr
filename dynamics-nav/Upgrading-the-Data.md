@@ -51,7 +51,7 @@ This topic describes the tasks required for upgrading a [!INCLUDE[nav7long](incl
 > [!IMPORTANT]  
 >  During the data upgrade, you must make sure that your computer uses the same codepage as the data. When you use conflicting codepages, some characters will not display in captions, and you might not be able to access the upgraded database.  
 >   
->  Optionally, you can export the captions before the upgrade. For more information, see [How to: Add Translated Strings for Conflicting Text Encoding Formats](How%20to:%20Add%20Translated%20Strings%20for%20Conflicting%20Text%20Encoding%20Formats.md).  
+>  Optionally, you can export the captions before the upgrade. For more information, see [How to: Add Translated Strings for Conflicting Text Encoding Formats](How-to--Add%20Translated%20Strings%20for%20Conflicting%20Text%20Encoding%20Formats.md).  
   
  If you upgrade a database using a different codepage, [!INCLUDE[navnow](includes/navnow_md.md)] must remove incorrect metadata characters to complete the data upgrade. Then, you must open the database in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] on a computer with the relevant codepage and compile all objects. This adds the missing characters again.  
   
@@ -63,15 +63,15 @@ This topic describes the tasks required for upgrading a [!INCLUDE[nav7long](incl
   
 -   All application objects in the old database have been built.  
   
-     For more information, see [How to: Build Server Application Objects](How%20to:%20Build%20Server%20Application%20Objects.md).  
+     For more information, see [How to: Build Server Application Objects](How-to--Build%20Server%20Application%20Objects.md).  
   
 -   All application objects are unlocked.  
   
-     For more information, see [How to: Unlock an Object](How%20to:%20Unlock%20an%20Object.md).  
+     For more information, see [How to: Unlock an Object](How-to--Unlock%20an%20Object.md).  
   
 -   The database schema has been synchronized in the old application.  
   
-     For more information, see [How to: Run the Sync-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database](How%20to:%20Run%20the%20Sync-NAVTenant%20Cmdlet%20to%20Synchronize%20the%20Tenant%20Database%20with%20the%20Application%20Database.md).  
+     For more information, see [How to: Run the Sync-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database](How-to--Run%20the%20Sync-NAVTenant%20Cmdlet%20to%20Synchronize%20the%20Tenant%20Database%20with%20the%20Application%20Database.md).  
   
 -   All [!INCLUDE[nav_server](includes/nav_server_md.md)] instance records have been cleared from the **dbo.Server Instance** table in the old database in SQL Server.  
   
@@ -85,7 +85,7 @@ This topic describes the tasks required for upgrading a [!INCLUDE[nav7long](incl
   
 -   \(Optional\) If the old [!INCLUDE[navnow](includes/navnow_md.md)] application uses data encryption, export the encryption key file that it used for the data encryption.  
   
-     For more information, see [How to: Export and Import Encryption Keys](How%20to:%20Export%20and%20Import%20Encryption%20Keys.md).  
+     For more information, see [How to: Export and Import Encryption Keys](How-to--Export%20and%20Import%20Encryption%20Keys.md).  
   
 ##  <a name="SQLBackup"></a> Task 1: Create a full SQL backup of the old database on SQL Server  
  You must create a full backup of the old database in the SQL Server. Alternatively, you can make a copy of the old database and perform the upgrade tasks on the copy.  
@@ -93,7 +93,7 @@ This topic describes the tasks required for upgrading a [!INCLUDE[nav7long](incl
  For more information, see [Create a Full Database Backup \(SQL Server\)](http://msdn.microsoft.com/en-us/library/ms187510.aspx).  
   
 ##  <a name="UploadLicense"></a> Task 2: Upload the Microsoft Dynamics NAV 2016 license to the old database  
- By using the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] that matches the old database, upload the [!INCLUDE[navcorfu](includes/navcorfu_md.md)] license to the database. For more information, see [Uploading a License File for a Specific Database](How%20to:%20Upload%20the%20License%20File.md#UploadtoDatabase).  
+ By using the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] that matches the old database, upload the [!INCLUDE[navcorfu](includes/navcorfu_md.md)] license to the database. For more information, see [Uploading a License File for a Specific Database](How-to--Upload%20the%20License%20File.md#UploadtoDatabase).  
   
 ##  <a name="DeleteObjects"></a> Task 3: Delete all objects from the old database  
  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] version that matches the database, open the old database, open Object Designer, and then delete all objects.  
@@ -114,7 +114,7 @@ This topic describes the tasks required for upgrading a [!INCLUDE[nav7long](incl
 > [!IMPORTANT]  
 >  When upgrading a large database, you should increase the **SQL Command Timeout** setting for the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, to avoid timeouts during schema synchronization. The default setting is 30 minutes.  
   
- For more information, see [How to: Connect a Microsoft Dynamics NAV Server Instance to a Database](How%20to:%20Connect%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance%20to%20a%20Database.md) and [Giving the account necessary database privileges in SQL Server](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md#dbo).  
+ For more information, see [How to: Connect a Microsoft Dynamics NAV Server Instance to a Database](How-to--Connect%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance%20to%20a%20Database.md) and [Giving the account necessary database privileges in SQL Server](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md#dbo).  
   
 ##  <a name="RunSync1"></a> Task 7: Run the schema synchronization to complete the database conversion  
  You can run the schema synchronization from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] or [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
@@ -131,7 +131,7 @@ This topic describes the tasks required for upgrading a [!INCLUDE[nav7long](incl
 Sync-NavTenant –ServerInstance <ServerInstanceName>  
 ```  
   
- Replace `<ServerInstanceName>` with the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that is connected to the database. For more information, see [How to: Run the Sync-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database](How%20to:%20Run%20the%20Sync-NAVTenant%20Cmdlet%20to%20Synchronize%20the%20Tenant%20Database%20with%20the%20Application%20Database.md).  
+ Replace `<ServerInstanceName>` with the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that is connected to the database. For more information, see [How to: Run the Sync-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database](How-to--Run%20the%20Sync-NAVTenant%20Cmdlet%20to%20Synchronize%20the%20Tenant%20Database%20with%20the%20Application%20Database.md).  
   
 ##  <a name="ImportAppObj"></a> Task 8: Import the application objects to the converted database  
  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], import all the application objects that you want in the [!INCLUDE[navcorfu](includes/navcorfu_md.md)] database. This includes the FOB file that contains all the [!INCLUDE[navcorfu](includes/navcorfu_md.md)] objects from the application code upgrade and upgrade toolkit objects.  
@@ -209,7 +209,7 @@ Start-NavDataUpgrade -ServerInstance <ServerInstanceName> -Force
   
 -   Microsoft.Dynamics.Nav.Client.SocialListening  
   
- You can add control add-ins in the **Control Add-ins** window in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information, see [How to: Register a Windows Client Control Add-in](How%20to:%20Register%20a%20Windows%20Client%20Control%20Add-in.md).  
+ You can add control add-ins in the **Control Add-ins** window in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information, see [How to: Register a Windows Client Control Add-in](How-to--Register%20a%20Windows%20Client%20Control%20Add-in.md).  
   
 ##  <a name="UploadEncryptionKeys"></a> Task 15: Import Payment Services and Data Encryption Key \(Optional\)  
   
@@ -219,7 +219,7 @@ Start-NavDataUpgrade -ServerInstance <ServerInstanceName> -Force
   
 -   If you want to use data encryption as before, you must import the data encryption key file that was exported previously.  
   
-     For more information, see [How to: Export and Import Encryption Keys](How%20to:%20Export%20and%20Import%20Encryption%20Keys.md).  
+     For more information, see [How to: Export and Import Encryption Keys](How-to--Export%20and%20Import%20Encryption%20Keys.md).  
   
 ## See Also  
  [Upgrading the Application Code](Upgrading-the-Application-Code.md)   

@@ -14,11 +14,11 @@ manager: edupont
 # How to: Configure Mozilla Firefox for Microsoft Dynamics NAV Clients
 This topic describes how to configure Mozilla Firefox web browser to work with the [!INCLUDE[nav_web](includes/nav_web_md.md)]. To open the client, Firefox must be configured to allow cookies and JavaScript. In addition, the address of the [!INCLUDE[nav_web](includes/nav_web_md.md)] must be configured as a trusted unified resource identifier \(URI\) in Firefox.  
 
--   [Enabling Cookies in Firefox](How%20to:%20Configure%20Mozilla%20Firefox%20for%20Microsoft%20Dynamics%20NAV%20Clients.md#Cookies)  
+-   [Enabling Cookies in Firefox](How-to--Configure%20Mozilla%20Firefox%20for%20Microsoft%20Dynamics%20NAV%20Clients.md#Cookies)  
 
--   [Enabling JavaScript in Firefox](How%20to:%20Configure%20Mozilla%20Firefox%20for%20Microsoft%20Dynamics%20NAV%20Clients.md#Java)  
+-   [Enabling JavaScript in Firefox](How-to--Configure%20Mozilla%20Firefox%20for%20Microsoft%20Dynamics%20NAV%20Clients.md#Java)  
 
--   [Configuring the Microsoft Dynamics NAV Web Client Address as a Trusted URI in Firefox](How%20to:%20Configure%20Mozilla%20Firefox%20for%20Microsoft%20Dynamics%20NAV%20Clients.md#Address)  
+-   [Configuring the Microsoft Dynamics NAV Web Client Address as a Trusted URI in Firefox](How-to--Configure%20Mozilla%20Firefox%20for%20Microsoft%20Dynamics%20NAV%20Clients.md#Address)  
 
 ##  <a name="Cookies"></a> Enabling Cookies in Firefox  
  Cookies are small files that are stored on your computer. Cookies contain small amounts of data that is specific to a website, or in this case, the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
@@ -99,6 +99,6 @@ This topic describes how to configure Mozilla Firefox web browser to work with t
 
 ## See Also  
  [Microsoft Dynamics NAV Web Client](Microsoft-Dynamics-NAV-Web-Client.md)   
- [How to: Configure Authentication of Microsoft Dynamics NAV Web Client Users](How%20to:%20Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md)   
+ [How to: Configure Authentication of Microsoft Dynamics NAV Web Client Users](How-to--Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md)   
  [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md)   
- [How to: Configure Internet Explorer for Microsoft Dynamics NAV Clients](How%20to:%20Configure%20Internet%20Explorer%20for%20Microsoft%20Dynamics%20NAV%20Clients.md)
+ [How to: Configure Internet Explorer for Microsoft Dynamics NAV Clients](How-to--Configure%20Internet%20Explorer%20for%20Microsoft%20Dynamics%20NAV%20Clients.md)

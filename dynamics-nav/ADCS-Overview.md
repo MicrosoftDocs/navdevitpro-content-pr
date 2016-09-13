@@ -15,7 +15,7 @@ manager: edupont
 The Automated Data Capture System \(ADCS\) solution provides a way for [!INCLUDE[navnow](includes/navnow_md.md)] to communicate with handheld devices through web services. You can test your solution by using the VT100 plug-in.  
   
 > [!NOTE]  
->  We recommend that you install [!INCLUDE[nav_server](includes/nav_server_md.md)] and the VT100 plug-in on separate computers. For more information, see [How to: Create a Microsoft Dynamics NAV Server Instance](How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).  
+>  We recommend that you install [!INCLUDE[nav_server](includes/nav_server_md.md)] and the VT100 plug-in on separate computers. For more information, see [How to: Create a Microsoft Dynamics NAV Server Instance](How-to--Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).  
   
 ## Overview and Architecture  
  ADCS enables you to accurately capture data for inbound, outbound, and internal documents, primarily for warehouse activities. For example, you can have users scan the bar codes of items in your warehouse as they perform daily tasks, and that information is recorded from these handheld device activities in [!INCLUDE[navnow](includes/navnow_md.md)].  
@@ -52,4 +52,4 @@ The Automated Data Capture System \(ADCS\) solution provides a way for [!INCLUDE
  You can connect multiple handheld devices to the VT100 plug-in. However, if performance becomes an issue, you can always add an additional [!INCLUDE[nav_server](includes/nav_server_md.md)] and direct the VT100 plug-in to also connect with the new server to improve performance.  
   
 ## See Also  
- [How to: Configure ADCS Options](How%20to:%20Configure%20ADCS%20Options.md)
+ [How to: Configure ADCS Options](How-to--Configure%20ADCS%20Options.md)

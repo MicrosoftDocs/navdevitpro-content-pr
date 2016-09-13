@@ -12,7 +12,7 @@ caps.latest.revision: 21
 manager: edupont
 ---
 # How to: Preconfigure Components
-You can preconfigure components before you install [!INCLUDE[navnow](includes/navnow_md.md)] so that you do not have to configure them after. You can also configure Setup components and then save them to Setup configuration files before you deploy them to users. For more information, see [How to: Create or Load a Setup Configuration File](How%20to:%20Create%20or%20Load%20a%20Setup%20Configuration%20File.md).  
+You can preconfigure components before you install [!INCLUDE[navnow](includes/navnow_md.md)] so that you do not have to configure them after. You can also configure Setup components and then save them to Setup configuration files before you deploy them to users. For more information, see [How to: Create or Load a Setup Configuration File](How-to--Create%20or%20Load%20a%20Setup%20Configuration%20File.md).  
   
 ### To associate configuration settings with a component before installing  
   
@@ -37,6 +37,6 @@ You can preconfigure components before you install [!INCLUDE[navnow](includes/na
 3.  When you have finished configuring a component, choose **Apply** to validate your settings. If there are issues with the settings that you have selected, then information about these issues is displayed on the **Problems were identified for this configuration** pane.  
   
 ## See Also  
- [How to: Create or Load a Setup Configuration File](How%20to:%20Create%20or%20Load%20a%20Setup%20Configuration%20File.md)   
- [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md)   
+ [How to: Create or Load a Setup Configuration File](How-to--Create%20or%20Load%20a%20Setup%20Configuration%20File.md)   
+ [How to: Install the Web Server Components](How-to--Install%20the%20Web%20Server%20Components.md)   
  [Custom Option](Custom-Option.md)

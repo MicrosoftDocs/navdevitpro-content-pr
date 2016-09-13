@@ -34,5 +34,5 @@ The [!INCLUDE[nav_web](includes/nav_web_md.md)] gives users access to [!INCLUDE[
 ## See Also  
  [Feature Limitations of the Microsoft Dynamics NAV Web Client](Feature-Limitations-of-the-Microsoft-Dynamics-NAV-Web-Client.md)   
  [Microsoft Dynamics NAV Web Client Network Architecture](Microsoft-Dynamics-NAV-Web-Client-Network-Architecture.md)   
- [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md)   
+ [How to: Install the Web Server Components](How-to--Install%20the%20Web%20Server%20Components.md)   
  [Accessibility Features of Microsoft Dynamics NAV Windows Client](Accessibility-Features-of-Microsoft-Dynamics-NAV-Windows-Client.md)

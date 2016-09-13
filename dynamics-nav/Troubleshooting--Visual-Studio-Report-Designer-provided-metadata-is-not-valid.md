@@ -33,4 +33,4 @@ You cannot open Visual Studio Report Designer and get the following error:
 2.  In the **Properties** window, on the **Compatibility** tab, in the **Privilege Level** section, select **Run this program as an administrator**.  
   
 ## See Also  
- [How to: Integrate Report Dataset Designer and Visual Studio Report Designer](How%20to:%20Integrate%20Report%20Dataset%20Designer%20and%20Visual%20Studio%20Report%20Designer.md)
+ [How to: Integrate Report Dataset Designer and Visual Studio Report Designer](How-to--Integrate%20Report%20Dataset%20Designer%20and%20Visual%20Studio%20Report%20Designer.md)

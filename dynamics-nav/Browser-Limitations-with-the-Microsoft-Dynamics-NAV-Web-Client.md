@@ -37,4 +37,4 @@ The [!INCLUDE[nav_web](includes/nav_web_md.md)] supports several browsers. There
  [Microsoft Dynamics NAV Web Client](Microsoft-Dynamics-NAV-Web-Client.md)   
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
  [Developing for the Microsoft Dynamics NAV Web Client](Developing-for-the-Microsoft-Dynamics-NAV-Web-Client.md)   
- [How to: Open the Microsoft Dynamics NAV Web Client](How%20to:%20Open%20the%20Microsoft%20Dynamics%20NAV%20Web%20Client.md)
+ [How to: Open the Microsoft Dynamics NAV Web Client](How-to--Open%20the%20Microsoft%20Dynamics%20NAV%20Web%20Client.md)

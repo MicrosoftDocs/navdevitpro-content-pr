@@ -12,7 +12,7 @@ caps.latest.revision: 8
 manager: edupont
 ---
 # How to: Insert Items in a MenuSuite
-You can modify a **MenuSuite** by inserting existing items. If an item already exists in a menu, instead of recreating the item in another menu, you can just insert the existing item. For information about how to modify menu items, see [How to: Modify Menu Items in a MenuSuite](How%20to:%20Modify%20Menu%20Items%20in%20a%20MenuSuite.md).  
+You can modify a **MenuSuite** by inserting existing items. If an item already exists in a menu, instead of recreating the item in another menu, you can just insert the existing item. For information about how to modify menu items, see [How to: Modify Menu Items in a MenuSuite](How-to--Modify%20Menu%20Items%20in%20a%20MenuSuite.md).  
   
 ### To insert a menu item  
   

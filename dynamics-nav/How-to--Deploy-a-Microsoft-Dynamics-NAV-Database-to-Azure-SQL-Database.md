@@ -90,7 +90,7 @@ This topic describes how you can deploy a [!INCLUDE[navnow](includes/navnow_md.m
   
     1.  After you install the [!INCLUDE[nav_server](includes/nav_server_md.md)], configure SQL Server Authentication on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. For the database credentials, use the login name and password that you set up in step 2.  
   
-         For more information, see [How to: Configure SQL Server Authentication in Microsoft Dynamics NAV](How%20to:%20Configure%20SQL%20Server%20Authentication%20in%20Microsoft%20Dynamics%20NAV.md).  
+         For more information, see [How to: Configure SQL Server Authentication in Microsoft Dynamics NAV](How-to--Configure%20SQL%20Server%20Authentication%20in%20Microsoft%20Dynamics%20NAV.md).  
   
  The [!INCLUDE[navnow](includes/navnow_md.md)] database is now deployed and configured on Azure. For developing, you can connect to the database from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
   

@@ -18,7 +18,7 @@ For some reports, you may want to print a new page for each new record.
   
 ### To create a new page for each record  
   
-1.  Create a report dataset that includes the data items and columns that you want in the report. For more information, see [How to: Create a Report Dataset](How%20to:%20Create%20a%20Report%20Dataset.md).  
+1.  Create a report dataset that includes the data items and columns that you want in the report. For more information, see [How to: Create a Report Dataset](How-to--Create%20a%20Report%20Dataset.md).  
   
 2.  In Report Dataset Designer, on the **View** menu, choose **Layout**.  
   

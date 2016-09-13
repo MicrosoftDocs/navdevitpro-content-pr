@@ -41,5 +41,5 @@ From the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], you can import a
 ## See Also  
  [Built-in and Custom Report Layouts](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md#BuilinCustomLayouts)   
  [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)   
- [How to: Modify a Word Report Layout](How%20to:%20Modify%20a%20Word%20Report%20Layout.md)   
- [How to: Create a Word Report Layout for a Report](How%20to:%20Create%20a%20Word%20Report%20Layout%20for%20a%20Report.md)
+ [How to: Modify a Word Report Layout](How-to--Modify%20a%20Word%20Report%20Layout.md)   
+ [How to: Create a Word Report Layout for a Report](How-to--Create%20a%20Word%20Report%20Layout%20for%20a%20Report.md)

@@ -56,7 +56,7 @@ manager: edupont
   
 ## See Also  
  [Client Extensibility API Overview](Client-Extensibility-API-Overview.md)   
- [How to: Create a Windows Client Control Add-in](How%20to:%20Create%20a%20Windows%20Client%20Control%20Add-in.md)   
+ [How to: Create a Windows Client Control Add-in](How-to--Create%20a%20Windows%20Client%20Control%20Add-in.md)   
  [Binding a Windows Client Control Add-in to the Database](Binding-a-Windows-Client-Control-Add-in-to-the-Database.md)   
  [Exposing Events and Calling Respective C-AL Triggers from a Windows Client Control Add-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md)   
  [Installing and Configuring Windows Client Control Add-ins on Pages](Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)   

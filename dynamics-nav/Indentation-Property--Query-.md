@@ -27,6 +27,6 @@ Sets the indentation level of a data item, column, or filter row in a query in Q
  In Query Designer, data items, columns, and filter rows are arranged in a hierarchy, as indicated by an indentation of the **DataSource** column of the item. Indentation is performed automatically as you add items in Query Designer, but you can also set the indentation by modifying the Indentation property The first data item in Query Designer is not indented, but each subsequent data item must be indented one level from the data item above it and every column must be indented one level from the data item to which it belongs.  
   
 ## See Also  
- [How to: Set Up Filter Rows in Query Designer](How%20to:%20Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md)   
+ [How to: Set Up Filter Rows in Query Designer](How-to--Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md)   
  [Understanding Query Filters](Understanding-Query-Filters.md)   
  [Queries](Queries.md)

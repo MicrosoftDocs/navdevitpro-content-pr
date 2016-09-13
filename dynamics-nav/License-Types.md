@@ -50,7 +50,7 @@ When you create a user in [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you
      As described in the Microsoft Software License Terms that apply to [!INCLUDE[navnowlong](includes/navnowlong_md.md)], external users are the customers of customers. This license type is specific to individual users of [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. External user licenses must not be shared with other individual users. You do not need concurrent user CALs for external users. External users must not use any clients provided by the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Application Programming Interface \(API\), such as the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or the [!INCLUDE[nav_web](includes/nav_web_md.md)]. External user licenses must not be used for business process outsourcing purposes.  
   
 ## See Also  
- [How to: Specify When UI Elements Are Removed](How%20to:%20Specify%20When%20UI%20Elements%20Are%20Removed.md)   
+ [How to: Specify When UI Elements Are Removed](How-to--Specify%20When%20UI%20Elements%20Are%20Removed.md)   
  [Properties of the Demo License](Properties-of-the-Demo-License.md)   
- [How to: Upload the License File](How%20to:%20Upload%20the%20License%20File.md)   
+ [How to: Upload the License File](How-to--Upload%20the%20License%20File.md)   
  [Microsoft Dynamics NAV 2015 Licensing Guide](http://go.microsoft.com/fwlink/?LinkId=518623)

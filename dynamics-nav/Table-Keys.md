@@ -85,5 +85,5 @@ The database management system, which is SQL Server, keeps track of each field b
 -   Speed of your computer and its hard disk.  
   
 ## See Also  
- [How to: Define Primary and Secondary Keys](How%20to:%20Define%20Primary%20and%20Secondary%20Keys.md)   
+ [How to: Define Primary and Secondary Keys](How-to--Define%20Primary%20and%20Secondary%20Keys.md)   
  [Table Keys and Performance](Table-Keys-and-Performance.md)

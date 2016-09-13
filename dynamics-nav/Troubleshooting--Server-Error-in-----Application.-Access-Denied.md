@@ -29,11 +29,11 @@ When you try to access the [!INCLUDE[nav_web](includes/nav_web_md.md)], you get 
 -   When you use forms authentication, both forms authentication and anonymous authentication must be enabled on the website for [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
 > [!NOTE]  
->  For more information about authentication with the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [How to: Configure Authentication of Microsoft Dynamics NAV Web Client Users](How%20to:%20Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md).  
+>  For more information about authentication with the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [How to: Configure Authentication of Microsoft Dynamics NAV Web Client Users](How-to--Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md).  
   
 #### To turn on the Windows Authentication feature in IIS  
   
--   Use Internet Information Services \(IIS\) Manager to turn on Windows authentication on IIS. For more information, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md)  
+-   Use Internet Information Services \(IIS\) Manager to turn on Windows authentication on IIS. For more information, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How-to--Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md)  
   
 #### To enable an authentication method on the [!INCLUDE[nav_web](includes/nav_web_md.md)] website  
   

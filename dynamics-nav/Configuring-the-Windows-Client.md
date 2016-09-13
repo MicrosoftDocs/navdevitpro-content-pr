@@ -25,7 +25,7 @@ When you install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the **
   
 -   [Developer Option](Developer-Option.md)  
   
- You can also customize your installation and customize the list of components to install. For more information, see [How to: Choose Components to Install](How%20to:%20Choose%20Components%20to%20Install.md).  
+ You can also customize your installation and customize the list of components to install. For more information, see [How to: Choose Components to Install](How-to--Choose%20Components%20to%20Install.md).  
   
  After you specify an installation option or customize your component list, the **Specify parameters** pane is displayed in Setup. The list of parameters that you see in the **Specify parameters** pane depends on which components that you have selected for configuration. Setup provides a short description for each parameter. For a description of the most important parameters for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], see [Client Option](Client-Option.md).  
   

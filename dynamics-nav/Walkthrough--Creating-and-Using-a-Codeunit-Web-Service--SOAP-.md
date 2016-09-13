@@ -182,6 +182,6 @@ Web services provide easy communication and data exchange in a secured environme
  [Web Services](Web-Services.md)   
  [SOAP Web Services](SOAP-Web-Services.md)   
  [Microsoft Dynamics NAV Web Services Overview](Microsoft-Dynamics-NAV-Web-Services-Overview.md)   
- [How to: Publish a Web Service](How%20to:%20Publish%20a%20Web%20Service.md)   
+ [How to: Publish a Web Service](How-to--Publish%20a%20Web%20Service.md)   
  [Walkthrough: Configuring Web Services to Use SSL \(SOAP and OData\)](Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md)   
  [Web Service Alternatives: SOAP and OData](Web%20Service%20Alternatives:%20SOAP%20and%20OData.md)

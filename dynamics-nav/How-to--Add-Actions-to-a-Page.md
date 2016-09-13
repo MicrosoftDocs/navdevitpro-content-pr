@@ -98,7 +98,7 @@ This topic shows how to create new actions, how to add actions to a page, and ho
   
 10. Save and compile the page.  
   
-11. To preview an action in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], in Object Designer, select the page and choose **Run**. For more information about running a page, see [How to: Run a Page](How%20to:%20Run%20a%20Page.md).  
+11. To preview an action in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], in Object Designer, select the page and choose **Run**. For more information about running a page, see [How to: Run a Page](How-to--Run%20a%20Page.md).  
   
 > [!NOTE]  
 >  If the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is already open, you will not see changes to HomeItems or ActivityButtons until to you close and restart it.  

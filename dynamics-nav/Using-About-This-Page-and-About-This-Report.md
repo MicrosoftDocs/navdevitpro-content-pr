@@ -41,7 +41,7 @@ To see more information about a page, use the About This Page feature to view al
 >  The About This Report feature remains active during the client session. When the feature is active, the size of the data that is sent to the client when you run a report is about twice the size of the data when the feature is not active. To deactivate the feature, restart the client.  
   
 ## URLs for the Page or Report  
- The About This Page window includes a FastTab where you can see the URLs for opening the page. For example, if you want to save the hyperlink to open a page in the [!INCLUDE[nav_web](includes/nav_web_md.md)], you can copy the URL from the About This Page window. Similarly, you can get the URL for a report from the request page for the report. For more information, see [How to: Copy the URL to Open a Page or Report](How%20to:%20Copy%20the%20URL%20to%20Open%20a%20Page%20or%20Report.md).  
+ The About This Page window includes a FastTab where you can see the URLs for opening the page. For example, if you want to save the hyperlink to open a page in the [!INCLUDE[nav_web](includes/nav_web_md.md)], you can copy the URL from the About This Page window. Similarly, you can get the URL for a report from the request page for the report. For more information, see [How to: Copy the URL to Open a Page or Report](How-to--Copy%20the%20URL%20to%20Open%20a%20Page%20or%20Report.md).  
   
  The URLs are generated based on the current [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration.  
   
@@ -60,6 +60,6 @@ To see more information about a page, use the About This Page feature to view al
  You can also print the About This Page information directly from the **About This Page** window.  
   
 ## See Also  
- [How to: View All Table Fields for a Record](How%20to:%20View%20All%20Table%20Fields%20for%20a%20Record.md)   
- [How to: View and Export the Dataset for a Report](How%20to:%20View%20and%20Export%20the%20Dataset%20for%20a%20Report.md)   
- [How to: Copy the URL to Open a Page or Report](How%20to:%20Copy%20the%20URL%20to%20Open%20a%20Page%20or%20Report.md)
+ [How to: View All Table Fields for a Record](How-to--View%20All%20Table%20Fields%20for%20a%20Record.md)   
+ [How to: View and Export the Dataset for a Report](How-to--View%20and%20Export%20the%20Dataset%20for%20a%20Report.md)   
+ [How to: Copy the URL to Open a Page or Report](How-to--Copy%20the%20URL%20to%20Open%20a%20Page%20or%20Report.md)

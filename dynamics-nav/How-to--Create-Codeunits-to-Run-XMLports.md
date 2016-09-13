@@ -11,7 +11,7 @@ ms.assetid: 5912941e-bce2-44a0-ad79-6fd747be18b4
 caps.latest.revision: 9
 ---
 # How to: Create Codeunits to Run XMLports
-After creating an XMLport, you can create a codeunit to run the XMLport or run it from Object Designer. For more information about how to run XMLports from Object Designer, see [How to: Run an XMLport from Object Designer](How%20to:%20Run%20an%20XMLport%20from%20Object%20Designer.md). This topic shows you how to create codeunits to run XMLports. Before you create a codeunit, you must first design and save the XMLport. For more information about how to design an XMLport, see [How to: Create XMLports](How%20to:%20Create%20XMLports.md).  
+After creating an XMLport, you can create a codeunit to run the XMLport or run it from Object Designer. For more information about how to run XMLports from Object Designer, see [How to: Run an XMLport from Object Designer](How-to--Run%20an%20XMLport%20from%20Object%20Designer.md). This topic shows you how to create codeunits to run XMLports. Before you create a codeunit, you must first design and save the XMLport. For more information about how to design an XMLport, see [How to: Create XMLports](How-to--Create%20XMLports.md).  
   
  The basic steps for creating codeunits for export or import are similar. However, the specific code that you write is slightly different.  
   
@@ -75,5 +75,5 @@ After creating an XMLport, you can create a codeunit to run the XMLport or run i
 6.  Close the **C/AL Editor**. In the **Save As** dialog box, in the **ID** textbox, enter an ID for the codeunit. In the **Name** text box, enter a name for the codeunit. Verify that the **Compile** check box is selected and then choose the **OK** button.  
   
 ## See Also  
- [How to: Create XMLports](How%20to:%20Create%20XMLports.md)   
+ [How to: Create XMLports](How-to--Create%20XMLports.md)   
  [Walkthrough: Exporting Data from Tables to XML Documents](Walkthrough:%20Exporting%20Data%20from%20Tables%20to%20XML%20Documents.md)

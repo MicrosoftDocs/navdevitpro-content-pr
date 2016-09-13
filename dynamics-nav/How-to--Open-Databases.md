@@ -45,7 +45,7 @@ In order to work in the application, you must always open a database and a compa
   
 ## See Also  
  [\($ S\_2341 Available Microsoft SQL Servers $\)](-$-S_2341-Available-Microsoft-SQL-Servers-$-.md)   
- [How to: Create Databases](How%20to:%20Create%20Databases.md)   
- [How to: Create Companies](How%20to:%20Create%20Companies.md)   
- [\($ S\_COMPANY How to: Select a Company $\)](\($%20S_COMPANY%20How%20to:%20Select%20a%20Company%20$\).md)   
- [How to: Deploy a Microsoft Dynamics NAV Database to Azure SQL Database](How%20to:%20Deploy%20a%20Microsoft%20Dynamics%20NAV%20Database%20to%20Azure%20SQL%20Database.md)
+ [How to: Create Databases](How-to--Create%20Databases.md)   
+ [How to: Create Companies](How-to--Create%20Companies.md)   
+ [\($ S\_COMPANY How to: Select a Company $\)](\($%20S_COMPANY%20How-to--Select%20a%20Company%20$\).md)   
+ [How to: Deploy a Microsoft Dynamics NAV Database to Azure SQL Database](How-to--Deploy%20a%20Microsoft%20Dynamics%20NAV%20Database%20to%20Azure%20SQL%20Database.md)

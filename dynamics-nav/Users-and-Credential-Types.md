@@ -16,7 +16,7 @@ caps.latest.revision: 32
 > [!IMPORTANT]  
 >  All users of a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be using the same credential type. You specify which credential type is used for a particular [!INCLUDE[nav_server](includes/nav_server_md.md)] instance in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)].  
   
- For more information about how to create users, see [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md). Alternatively, you can create new users using the Windows PowerShell cmdlet, **New-NAVServerUser**. For more information, see [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md).  
+ For more information about how to create users, see [How to: Create Microsoft Dynamics NAV Users](How-to--Create%20Microsoft%20Dynamics%20NAV%20Users.md). Alternatively, you can create new users using the Windows PowerShell cmdlet, **New-NAVServerUser**. For more information, see [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md).  
   
 ## Credential Types  
  [!INCLUDE[navnow](includes/navnow_md.md)] supports the following credential types.  
@@ -37,16 +37,16 @@ caps.latest.revision: 32
  To edit the configuration for the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, you can use either the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or the [!INCLUDE[nav_shell](includes/nav_shell_md.md)]. In the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], you configure the credential type in the **Credential Type** field on the **General** tab. Alternatively, you can edit the CustomSettings.config file. For more information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).  
   
 > [!IMPORTANT]  
->  When [!INCLUDE[nav_server](includes/nav_server_md.md)] services are deployed on Azure, you must configure them on Azure. For more information, see [How to: Open Microsoft Dynamics NAV Clients that Connect to Microsoft Dynamics NAV on Microsoft Azure](How%20to:%20Open%20Microsoft%20Dynamics%20NAV%20Clients%20that%20Connect%20to%20Microsoft%20Dynamics%20NAV%20on%20Microsoft%20Azure.md).  
+>  When [!INCLUDE[nav_server](includes/nav_server_md.md)] services are deployed on Azure, you must configure them on Azure. For more information, see [How to: Open Microsoft Dynamics NAV Clients that Connect to Microsoft Dynamics NAV on Microsoft Azure](How-to--Open%20Microsoft%20Dynamics%20NAV%20Clients%20that%20Connect%20to%20Microsoft%20Dynamics%20NAV%20on%20Microsoft%20Azure.md).  
   
  For each [!INCLUDE[nav_windows](includes/nav_windows_md.md)] user, you must modify the ClientUserSettings.config file. The default location for this file is **C:\\Users\\\<username>\\AppData\\Roaming\\Microsoft\\Microsoft Dynamics NAV\\90**, where *\<username>* is the name of the user. For the [!INCLUDE[nav_web](includes/nav_web_md.md)] users, you must modify the web.config file for the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. For information, see [Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md). In the relevant configuration file, find the **ClientServicesCredentialType** parameter and change the value to one of the options listed earlier.  
   
  When you change the credential type for a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and the relevant client configurations, the changes take effect when you restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and users connect to the instance again.  
   
 ## See Also  
- [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md)   
+ [How to: Create Microsoft Dynamics NAV Users](How-to--Create%20Microsoft%20Dynamics%20NAV%20Users.md)   
  [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)   
  [Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md)   
  [Configuring the Windows Client](Configuring-the-Windows-Client.md)   
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   
- [How to: Open Microsoft Dynamics NAV Clients that Connect to Microsoft Dynamics NAV on Microsoft Azure](How%20to:%20Open%20Microsoft%20Dynamics%20NAV%20Clients%20that%20Connect%20to%20Microsoft%20Dynamics%20NAV%20on%20Microsoft%20Azure.md)
+ [How to: Open Microsoft Dynamics NAV Clients that Connect to Microsoft Dynamics NAV on Microsoft Azure](How-to--Open%20Microsoft%20Dynamics%20NAV%20Clients%20that%20Connect%20to%20Microsoft%20Dynamics%20NAV%20on%20Microsoft%20Azure.md)

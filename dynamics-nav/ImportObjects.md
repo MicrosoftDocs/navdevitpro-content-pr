@@ -144,7 +144,7 @@ finsql.exe command=importobjects, file=C:\NewObjects.fob, servername=TestCompute
 ```  
   
 ## See Also  
- [How to: Import Objects](How%20to:%20Import%20Objects.md)   
+ [How to: Import Objects](How-to--Import%20Objects.md)   
  [BuildVirtualMetadata](BuildVirtualMetadata.md)   
  [CreateDatabase](CreateDatabase.md)   
  [UpgradeDatabase](UpgradeDatabase.md)   

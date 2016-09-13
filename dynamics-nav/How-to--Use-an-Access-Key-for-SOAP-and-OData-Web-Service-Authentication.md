@@ -22,7 +22,7 @@ If your solution is configured for NavUserPassword or AccessControlService authe
      The **Users** page opens.  
   
     > [!NOTE]  
-    >  For more information about how to create a user, see [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).  
+    >  For more information about how to create a user, see [How to: Create Microsoft Dynamics NAV Users](How-to--Create%20Microsoft%20Dynamics%20NAV%20Users.md).  
   
 2.  Select a user and choose **Edit** in the ribbon.  
   
@@ -41,7 +41,7 @@ If your solution is configured for NavUserPassword or AccessControlService authe
   
 1.  Create a user specifically for web services.  
   
-     For more information, see [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).  
+     For more information, see [How to: Create Microsoft Dynamics NAV Users](How-to--Create%20Microsoft%20Dynamics%20NAV%20Users.md).  
   
 2.  Generate a web service access key in the user account.  
   
@@ -57,4 +57,4 @@ If your solution is configured for NavUserPassword or AccessControlService authe
  [Microsoft Dynamics NAV Web Services Overview](Microsoft-Dynamics-NAV-Web-Services-Overview.md)   
  [SOAP Web Services](SOAP-Web-Services.md)   
  [OData Web Services](OData-Web-Services.md)   
- [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md)
+ [How to: Create Microsoft Dynamics NAV Users](How-to--Create%20Microsoft%20Dynamics%20NAV%20Users.md)

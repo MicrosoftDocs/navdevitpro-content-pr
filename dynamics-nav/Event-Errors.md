@@ -12,7 +12,7 @@ caps.latest.revision: 7
 manager: edupont
 ---
 # Event Errors
-When the runtime detects raised publisher events, it tries to identify subscribers for handling the events. If event subscribers are not correctly configured to subscribe to published events, errors will occur. For example, errors can occur when an event subscriber points to a non-existing event publisher object or function, or there is a mismatch between the signatures of an event publisher and subscriber functions. When errors occur, the event subscriber function for handling the event is disabled and tagged with an error in the database, which you can view from the **\($ N\_9510 Event Subscriptions $\)** page. For more information, see [How to: View the Event Subscriptions](How%20to:%20View%20the%20Event%20Subscriptions.md).  
+When the runtime detects raised publisher events, it tries to identify subscribers for handling the events. If event subscribers are not correctly configured to subscribe to published events, errors will occur. For example, errors can occur when an event subscriber points to a non-existing event publisher object or function, or there is a mismatch between the signatures of an event publisher and subscriber functions. When errors occur, the event subscriber function for handling the event is disabled and tagged with an error in the database, which you can view from the **\($ N\_9510 Event Subscriptions $\)** page. For more information, see [How to: View the Event Subscriptions](How-to--View%20the%20Event%20Subscriptions.md).  
   
  The following table describes the errors that can occur when subscribing to events.  
   

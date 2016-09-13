@@ -39,9 +39,9 @@ if (this.ControlAddIn != null)
 > [!NOTE]  
 >  The **Data** attribute on the **OnControlAddIn** trigger supports both **Text** and **BigText** data types from [!INCLUDE[nav_server](includes/nav_server_md.md)]. The data type is determined by the **SourceExpr** property of the field control that is applied with the control add-in. If the **SourceExpr** property value is **BigText**, then the **Data** attribute is **BigText**. Otherwise, the **Data** attribute is **Text\[1024\]**. For more information about data types, see [C-AL Functions](C-AL-Functions.md).  
   
- For more information about how to create events in a control add-in, see [How to: Create a Windows Client Control Add-in](How%20to:%20Create%20a%20Windows%20Client%20Control%20Add-in.md).  
+ For more information about how to create events in a control add-in, see [How to: Create a Windows Client Control Add-in](How-to--Create%20a%20Windows%20Client%20Control%20Add-in.md).  
   
- For more information about how to set up the **OnControlAddin** trigger on a page, see [How to: Set Up a Windows Client Control Add-in on a Page](How%20to:%20Set%20Up%20a%20Windows%20Client%20Control%20Add-in%20on%20a%20Page.md).  
+ For more information about how to set up the **OnControlAddin** trigger on a page, see [How to: Set Up a Windows Client Control Add-in on a Page](How-to--Set%20Up%20a%20Windows%20Client%20Control%20Add-in%20on%20a%20Page.md).  
   
 ## Exposing Custom Events  
  To expose a public event in a control add-in, you add the event code to the control add-in class and mark it by using the managed attribute [ApplicationVisibleAttribute](assetId:///T:Microsoft.Dynamics.Framework.UI.Extensibility.ApplicationVisibleAttribute) in the control add-in class.  
@@ -65,7 +65,7 @@ public class MyControlAddIn : WinFormsControlAddInBase, ...
  In the example a trigger called **OnTransationChanged** will be created in the page for the respective field as soon as the add-in is assigned to the field. You can write C/AL code in the trigger, which will be run on the server when the add-in on the client fires the event.  
   
 ## See Also  
- [How to: Create a Windows Client Control Add-in](How%20to:%20Create%20a%20Windows%20Client%20Control%20Add-in.md)   
+ [How to: Create a Windows Client Control Add-in](How-to--Create%20a%20Windows%20Client%20Control%20Add-in.md)   
  [Developing Windows Client Control Add-ins](Developing-Windows-Client-Control-Add-ins.md)   
  [Client Extensibility API Overview](Client-Extensibility-API-Overview.md)   
  [Binding a Windows Client Control Add-in to the Database](Binding-a-Windows-Client-Control-Add-in-to-the-Database.md)   

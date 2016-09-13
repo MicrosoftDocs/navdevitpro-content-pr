@@ -20,7 +20,7 @@ When users send a request for a web service, they are authenticated according to
 |To|See|  
 |--------|---------|  
 |Learn about how to create users and configure the credential type for [!INCLUDE[nav_server](includes/nav_server_md.md)].|[Users and Credential Types](Users-and-Credential-Types.md)|  
-|Learn about how to use a web access key to authenticate SOAP and OData web services.|[How to: Use an Access Key for SOAP and OData Web Service Authentication](How%20to:%20Use%20an%20Access%20Key%20for%20SOAP%20and%20OData%20Web%20Service%20Authentication.md)|  
+|Learn about how to use a web access key to authenticate SOAP and OData web services.|[How to: Use an Access Key for SOAP and OData Web Service Authentication](How-to--Use%20an%20Access%20Key%20for%20SOAP%20and%20OData%20Web%20Service%20Authentication.md)|  
 |Learn about OAuth authentication on [!INCLUDE[navnow](includes/navnow_md.md)] web services.|[Using OAuth to Authenticate Microsoft Dynamics NAV Web Services \(Odata and SOAP\)](http://go.microsoft.com/fwlink/?LinkID=510894)|  
   
 > [!IMPORTANT]  

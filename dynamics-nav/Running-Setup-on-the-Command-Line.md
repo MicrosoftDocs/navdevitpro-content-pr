@@ -32,5 +32,5 @@ C:\Program Files (x86)\Common Files\Microsoft Dynamics NAV\90\Setup
   
 ## See Also  
  [Working with Microsoft Dynamics NAV Setup](Working-with-Microsoft-Dynamics-NAV-Setup.md)   
- [How to: Create or Load a Setup Configuration File](How%20to:%20Create%20or%20Load%20a%20Setup%20Configuration%20File.md)   
+ [How to: Create or Load a Setup Configuration File](How-to--Create%20or%20Load%20a%20Setup%20Configuration%20File.md)   
  [Editing a Setup Configuration File](Editing-a-Setup-Configuration-File.md)

@@ -77,8 +77,8 @@ When you create or modify application objects, you use the [!INCLUDE[nav_dev_lon
 >  The use of TARGET as the name of the folder in the sample scripts and in the *–TargetPath* cmdlet parameters indicates the most common direction of the merge: You apply external modifications to a target solution. However, there are scenarios where it makes sense to swap the versions that you specify as MODIFIED and TARGET, such as when you upgrade from version to version. Since the processing is so fast, typically just a few minutes, it is recommended that you try out both options. For the smoother experience, place the set of application objects with the fewest modifications in MODIFIED.  
   
 ## See Also  
- [How to: Merge Application Changes](How%20to:%20Merge%20Application%20Changes.md)   
- [How to: Compare and Update Application Object Source Files](How%20to:%20Compare%20and%20Update%20Application%20Object%20Source%20Files.md)   
+ [How to: Merge Application Changes](How-to--Merge%20Application%20Changes.md)   
+ [How to: Compare and Update Application Object Source Files](How-to--Compare%20and%20Update%20Application%20Object%20Source%20Files.md)   
  [Handling Merge Conflicts](Handling-Merge-Conflicts.md)   
  [Merging Application Objects using the Example Scripts](Merging-Application-Objects-using-the-Example-Scripts.md)   
  [Working with Application Objects as Text Files](Working-with-Application-Objects-as-Text-Files.md)   
