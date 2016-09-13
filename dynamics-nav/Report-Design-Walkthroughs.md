@@ -13,9 +13,9 @@ manager: edupont
 ---
 # Report Design Walkthroughs
 The following topics describe end-to-end processes that you can follow to design and modify reports.  
-  
+
 ## In This Section  
-  
+
 |Documentation|Description|  
 |-------------------|-----------------|  
 |[Walkthrough: Designing a Customer List Report](Walkthrough:%20Designing%20a%20Customer%20List%20Report.md)|This walkthrough describes how to create a simple report based on one table with [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] and design this report using Visual Studio Report Designer.|  
@@ -26,6 +26,6 @@ The following topics describe end-to-end processes that you can follow to design
 |[Walkthrough: Running a Report Offline](Walkthrough:%20Running%20a%20Report%20Offline.md)|Describes how to view a report datatset and report layout on a computer that does not have [!INCLUDE[navnow](includes/navnow_md.md)] installed|  
 |[Walkthrough: Designing a Report from Multiple Tables](Walkthrough:%20Designing%20a%20Report%20from%20Multiple%20Tables.md)|Describes how to create a report that combines data from four tables.|  
 |[Walkthrough: Adding Company Information, Custom Filters, and Formatting to a Report](Walkthrough:%20Adding%20Company%20Information,%20Custom%20Filters,%20and%20Formatting%20to%20a%20Report.md)|Describes how to modify a report to add filters and format the layout.|  
-  
+
 ## See Also  
- [Reports-duplicate 20](Reports-duplicate-20.md)
+ [Reports](Reports.md)
