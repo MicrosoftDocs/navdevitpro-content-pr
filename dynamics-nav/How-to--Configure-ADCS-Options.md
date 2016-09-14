@@ -72,7 +72,7 @@ Before you can work with Automated Data Capture Systems \(ADCS\), you have to co
 <VT100>  
 <Warehouse>  
 <Endpoints>  
-<add name="NavEndpoint" url="http://[local]:7047/nav_server_instance/WS/CRONUS-International-Ltd/Codeunit/ADCS" />  
+<add name="NavEndpoint" url="http://[local]:7047/nav_server_instance/WS/CRONUS%20International%20Ltd/Codeunit/ADCS" />  
 </Endpoints>  
 </Warehouse>  
 <Terminal listenIP="127.0.0.1" listenPort="6666" stylesheet="VT100_W2k_and_OtherClients.xsl" />  

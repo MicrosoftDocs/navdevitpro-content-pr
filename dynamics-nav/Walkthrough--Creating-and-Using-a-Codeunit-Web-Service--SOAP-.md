@@ -104,7 +104,7 @@ Web services provide easy communication and data exchange in a secured environme
   
      For example:  
   
-     **http://localhost:7047/DynamicsNAV/WS/CRONUS-International-Ltd./services**  
+     **http://localhost:7047/DynamicsNAV/WS/CRONUS%20International%20Ltd./services**  
   
     > [!NOTE]  
     >  The company name is case-sensitive.  
@@ -152,7 +152,7 @@ Web services provide easy communication and data exchange in a secured environme
                 // Uses default credentials for authenticating   
                 // with Microsoft Dynamics NAV.  
                 ws.UseDefaultCredentials = true;  
-                ws.Url = "http://localhost:7047/nav_server_instance/WS/CRONUS-International-Ltd./Codeunit/Letters";      
+                ws.Url = "http://localhost:7047/nav_server_instance/WS/CRONUS%20International%20Ltd./Codeunit/Letters";      
   
                 // Declares variables to work with.  
                 string inputstring, outputstring;     

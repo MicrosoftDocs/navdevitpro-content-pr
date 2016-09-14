@@ -24,7 +24,7 @@ http://<Server>:<Port>/<ServerInstance>/WS/<CompanyName>/services
  The following example displays all published SOAP web services that are exposed for the [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 ```  
-http://localhost:7047/DynamicsNAV/WS/CRONUS-International-Ltd/services  
+http://localhost:7047/DynamicsNAV/WS/CRONUS%20International%20Ltd/services  
 ```  
   
  To view the schema for a particular service, use a URI of the following type:  
@@ -36,13 +36,13 @@ http://<Server>:<Port>/<ServerInstance>/WS/<CompanyName>/Page/<servicename>
  The following example displays the schema for the Customer service for the [!INCLUDE[demolong](includes/demolong_md.md)].  
   
 ```  
-http://localhost:7047/DynamicsNAV/WS/CRONUS-International-Ltd/Page/Customer  
+http://localhost:7047/DynamicsNAV/WS/CRONUS%20International%20Ltd/Page/Customer  
 ```  
   
  You can also use a URI for a codeunit web service, as shown in the following example:  
   
 ```  
-http://localhost:7047/DynamicsNAV/WS/CRONUS-International-Ltd/Codeunit/Letters  
+http://localhost:7047/DynamicsNAV/WS/CRONUS%20International%20Ltd/Codeunit/Letters  
 ```  
   
 ## See Also  

@@ -26,7 +26,7 @@ Creates a new menu for a department. This menu represents a department in a comp
 
 ## See Also  
  [\($ S\_2401 Navigation Pane Designer $\)](-$-S_2401-Navigation-Pane-Designer-$-.md)   
- [How to: Create a Menu for a Department in a MenuSuite](../How-to:-Create-a-Menu-for-a-Department-in-a-MenuSuite.md)   
+ [How to: Create a Menu for a Department in a MenuSuite](../How-to--Create-a-Menu-for-a-Department-in-a-MenuSuite.md)   
  [\($ S\_2420 Create Menu $\)](-$-S_2420-Create-Menu-$-.md)   
  [Bitmap Property](../Bitmap-Property.md)   
  [Walkthrough: Creating MenuSuites for the Microsoft Dynamics NAV Windows Client](../Walkthrough:-Creating-MenuSuites-for-the-Microsoft-Dynamics-NAV-Windows-Client.md)

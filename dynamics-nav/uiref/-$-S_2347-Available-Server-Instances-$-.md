@@ -20,4 +20,4 @@ Shows the available [!INCLUDE[nav_server](../includes/nav_server_md.md)] instanc
 
 ## See Also  
  [\($ S\_2349 Database Information $\)](-$-S_2349-Database-Information-$-.md)   
- [How to: Change the Microsoft Dynamics NAV Server Instance](../How-to:-Change-the-Microsoft-Dynamics-NAV-Server-Instance.md)
+ [How to: Change the Microsoft Dynamics NAV Server Instance](../How-to--Change-the-Microsoft-Dynamics-NAV-Server-Instance.md)
