@@ -34,7 +34,7 @@ You use the debugger breakpoint list to view, set, enable, disable, or delete br
   
 5.  Choose **OK**.  
   
-6.  \(optional\) In the **Condition** column, enter a condition for the breakpoint. For more information, see [How to: Set Conditional Breakpoints](How-to--Set%20Conditional%20Breakpoints.md).  
+6.  \(optional\) In the **Condition** column, enter a condition for the breakpoint. For more information, see [How to: Set Conditional Breakpoints](How-to--Set-Conditional-Breakpoints.md).  
   
 ### To enable or disable a single breakpoint in the Debugger Breakpoint List window  
   
@@ -71,9 +71,9 @@ You use the debugger breakpoint list to view, set, enable, disable, or delete br
 2.  In the **Debugger Breakpoint List** window, on the **Home** tab, in the **Process** group, choose **Delete All**.  
   
 ## See Also  
- [How to: Manage Breakpoints from the Debugger Code Viewer](How-to--Manage%20Breakpoints%20from%20the%20Debugger%20Code%20Viewer.md)   
- [How to: Manage Breakpoints from the Development Environment](How-to--Manage%20Breakpoints%20from%20the%20Development%20Environment.md)   
- [How to: Break on the Next Statement](How-to--Break%20on%20the%20Next%20Statement.md)   
- [How to: Break on Errors](How-to--Break%20on%20Errors.md)   
- [How to: Set Conditional Breakpoints](How-to--Set%20Conditional%20Breakpoints.md)   
+ [How to: Manage Breakpoints from the Debugger Code Viewer](How-to--Manage-Breakpoints-from-the-Debugger-Code-Viewer.md)   
+ [How to: Manage Breakpoints from the Development Environment](How-to--Manage-Breakpoints-from-the-Development-Environment.md)   
+ [How to: Break on the Next Statement](How-to--Break-on-the-Next-Statement.md)   
+ [How to: Break on Errors](How-to--Break-on-Errors.md)   
+ [How to: Set Conditional Breakpoints](How-to--Set-Conditional-Breakpoints.md)   
  [Breakpoints](Breakpoints.md)

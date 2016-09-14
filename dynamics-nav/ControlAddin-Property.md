@@ -18,7 +18,7 @@ Sets the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add-in to u
 -   Page Fields  
   
 ## Property Value  
- The name and public token key of the control add-in as registered in the **Control Add-in** table \(ID **2000000069\)**. For more information, see [How to: Register a Windows Client Control Add-in](How-to--Register%20a%20Windows%20Client%20Control%20Add-in.md).  
+ The name and public token key of the control add-in as registered in the **Control Add-in** table \(ID **2000000069\)**. For more information, see [How to: Register a Windows Client Control Add-in](How-to--Register-a-Windows-Client-Control-Add-in.md).  
   
 ## Remarks  
  A control add-in is a custom control, or visual element, for displaying and modifying data on [!INCLUDE[nav_windows](includes/nav_windows_md.md)] pages.  
@@ -28,4 +28,4 @@ Sets the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add-in to u
  [Windows Client Control Add-in Overview](Windows-Client-Control-Add-in-Overview.md)   
  [Installing and Configuring Windows Client Control Add-ins on Pages](Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)   
  [Developing Windows Client Control Add-ins](Developing-Windows-Client-Control-Add-ins.md)   
- [Walkthrough: Creating and Using a Windows Client Control Add-in](Walkthrough:%20Creating%20and%20Using%20a%20Windows%20Client%20Control%20Add-in.md)
+ [Walkthrough: Creating and Using a Windows Client Control Add-in](Walkthrough:-Creating-and-Using-a-Windows-Client-Control-Add-in.md)

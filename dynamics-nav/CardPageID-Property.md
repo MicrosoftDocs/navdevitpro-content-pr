@@ -20,7 +20,7 @@ Sets the card page that is associated with items in the current list page.
 ## Remarks  
  Use this property on a list page or listpart page to specify the card page that should be displayed when an end user double-clicks an item on the list page or listpart page.  
   
- For an example of how the CardPageID property is used, see [Walkthrough: Creating a Customer List in Page Designer](Walkthrough:%20Creating%20a%20Customer%20List%20in%20Page%20Designer.md).  
+ For an example of how the CardPageID property is used, see [Walkthrough: Creating a Customer List in Page Designer](Walkthrough:-Creating-a-Customer-List-in-Page-Designer.md).  
   
 ## See Also  
- [Walkthrough: Creating a Customer List in Page Designer](Walkthrough:%20Creating%20a%20Customer%20List%20in%20Page%20Designer.md)
+ [Walkthrough: Creating a Customer List in Page Designer](Walkthrough:-Creating-a-Customer-List-in-Page-Designer.md)

@@ -29,10 +29,10 @@ You can open the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] or the [!INCL
     |To open|URL|Example|  
     |-------------|---------|-------------|  
     |The Role Center for the default company|*http://ComputerName:Port/WebServerInstance/tablet.aspx*<br /><br /> Or \(for multitenant deployments\)<br /><br /> *http://ComputerName:Port/WebServerInstance/tablet.aspx?tenant=TenantID*|http://MyNAVWeb:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/tablet.aspx|  
-    |The Role Center for a specific company|*http://ComputerName:Port/WebServerInstance/tablet.aspx?company=CompanyName*<br /><br /> Or<br /><br /> *http://ComputerName:Port/WebServerInstance/tablet.aspx?tenant=TenantID&company=CompanyName*|http://MyNAVWeb:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/tablet.aspx?company=CRONUS%20International%20Ltd.|  
+    |The Role Center for a specific company|*http://ComputerName:Port/WebServerInstance/tablet.aspx?company=CompanyName*<br /><br /> Or<br /><br /> *http://ComputerName:Port/WebServerInstance/tablet.aspx?tenant=TenantID&company=CompanyName*|http://MyNAVWeb:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/tablet.aspx?company=CRONUS-International-Ltd.|  
     |A specific page|*http://ComputerName:Port/WebServerInstance/tablet.aspx?page=ID*<br /><br /> Or<br /><br /> *http://ComputerName:Port/WebServerInstance/tablet.aspx?tenant=TenantID&page=ID*|http://MyNAVWeb:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/tablet.aspx?page=22|  
     |A specific report|*http://ComputerName:Port/WebServerInstance/tablet.aspx?report=ID*<br /><br /> Or<br /><br /> *http://ComputerName:Port/WebServerInstance/tablet.aspx?tenant=TenantID&report=ID*|http://MyNAVWeb:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/tablet.aspx?report=8|  
-    |A specific profile|*http://ComputerName:Port/WebServerInstance/tablet.aspx?profile=ProfileID*<br /><br /> Or<br /><br /> *http://ComputerName:Port/WebServerInstance/tablet.aspx?tenant=TenantID&profile=ProfileID*|http://MyNAVWeb:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/tablet.aspx?profile=Small%20Business|  
+    |A specific profile|*http://ComputerName:Port/WebServerInstance/tablet.aspx?profile=ProfileID*<br /><br /> Or<br /><br /> *http://ComputerName:Port/WebServerInstance/tablet.aspx?tenant=TenantID&profile=ProfileID*|http://MyNAVWeb:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/tablet.aspx?profile=Small-Business|  
   
      Substitute the following parameters:  
   
@@ -42,11 +42,11 @@ You can open the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] or the [!INCL
   
     -   **Port** with the port number that you configured for the Microsoft Dynamics NAV Web Server components during installation.  
   
-    -   **WebServerInstance** with the virtual directory alias under which the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] or the [!INCLUDE[nav_phone](includes/nav_phone_md.md)] exists on the web server. For more information, see [How to: Install the Web Server Components](How-to--Install%20the%20Web%20Server%20Components.md).  
+    -   **WebServerInstance** with the virtual directory alias under which the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] or the [!INCLUDE[nav_phone](includes/nav_phone_md.md)] exists on the web server. For more information, see [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md).  
   
     -   **TenantID** with the name of the tenant that you want to connect to. This parameter is only required when [!INCLUDE[navnow](includes/navnow_md.md)] is deployed in a multitenant architecture. The tenant that you specify must be mounted on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that the [!INCLUDE[nav_web](includes/nav_web_md.md)] connects to. For more information, see [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md).  
   
-    -   **CompanyName** with the name of the company in [!INCLUDE[navnow](includes/navnow_md.md)]. This parameter is optional and is only needed if you want to open a different company than the one specified in [\($ N\_9176 My Settings $\)](\($%20N_9176%20My%20Settings%20$\).md).  
+    -   **CompanyName** with the name of the company in [!INCLUDE[navnow](includes/navnow_md.md)]. This parameter is optional and is only needed if you want to open a different company than the one specified in [\($ N\_9176 My Settings $\)](\($-N_9176-My-Settings-$\).md).  
   
     -   **ID** with the ID that is assigned to the page or report in [!INCLUDE[navnow](includes/navnow_md.md)].  
   

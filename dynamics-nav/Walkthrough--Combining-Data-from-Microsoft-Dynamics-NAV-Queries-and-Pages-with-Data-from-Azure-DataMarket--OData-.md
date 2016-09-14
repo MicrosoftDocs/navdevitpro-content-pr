@@ -49,7 +49,7 @@ This walkthrough describes how you can use OData to combine data from [!INCLUDE[
  You create a query to capture data about sales to individual customers.  
   
 > [!NOTE]  
->  For more information about how to create more advanced queries that combine data from multiple [!INCLUDE[navnow](includes/navnow_md.md)] pages, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md), [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](Walkthrough:%20Creating%20a%20Query%20That%20Uses%20a%20Totaling%20Method%20and%20Sorting.md), or [Walkthrough: Creating a Query to Link Three Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Three%20Tables.md).  
+>  For more information about how to create more advanced queries that combine data from multiple [!INCLUDE[navnow](includes/navnow_md.md)] pages, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:-Creating-a-Query-to-Link-Two-Tables.md), [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](Walkthrough:-Creating-a-Query-That-Uses-a-Totaling-Method-and-Sorting.md), or [Walkthrough: Creating a Query to Link Three Tables](Walkthrough:-Creating-a-Query-to-Link-Three-Tables.md).  
   
 #### To create a query to capture data about sales to customers  
   

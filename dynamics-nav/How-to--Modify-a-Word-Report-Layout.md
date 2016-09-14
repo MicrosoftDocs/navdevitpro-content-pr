@@ -20,13 +20,13 @@ This procedure describes how to modify a Word report layout on report from the [
   
 1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], export the Word report layout as a Word document file to your computer or network.  
   
-     For more information see [To export a Word report layout from a report to a file](How-to--Import%20and%20Export%20a%20Word%20Report%20Layout.md#ExportLayout).  
+     For more information see [To export a Word report layout from a report to a file](How-to--Import-and-Export-a-Word-Report-Layout.md#ExportLayout).  
   
 2.  Open the Word document file in Word 2013 and make changes.  
   
     -   To make basic layout changes, such as adding or removing tables and cells, formatting text, or changing margins, use the editing features of Word.  
   
-    -   To add fields from the report dataset to the layout, use the custom XML part for the report to add content controls that map to the fields. For more information, see [How to: Add Fields from a Report Dataset to a Word Report Layout](How-to--Add%20Fields%20from%20a%20Report%20Dataset%20to%20a%20Word%20Report%20Layout.md).  
+    -   To add fields from the report dataset to the layout, use the custom XML part for the report to add content controls that map to the fields. For more information, see [How to: Add Fields from a Report Dataset to a Word Report Layout](How-to--Add-Fields-from-a-Report-Dataset-to-a-Word-Report-Layout.md).  
   
     > [!TIP]  
     >  Show the table gridlines so that you see the boundaries of table cells. Remember to hide the gridlines when you have finished editing. To show or hide table gridlines, select the table, and then under **Layout** on the **Table** tab, choose **View Gridlines**.  
@@ -35,7 +35,7 @@ This procedure describes how to modify a Word report layout on report from the [
   
 4.  Import the Word document into the report.  
   
-     For more information, see [To import a Word report layout from a file into report](How-to--Import%20and%20Export%20a%20Word%20Report%20Layout.md#ImportLayout).  
+     For more information, see [To import a Word report layout from a file into report](How-to--Import-and-Export-a-Word-Report-Layout.md#ImportLayout).  
   
 ##  <a name="RemoveField"></a> Removing Label and Data Fields  
  Label and data fields of a report are contained in content controls in Word. The following figure illustrates a content control when it is selected in the Word document.  

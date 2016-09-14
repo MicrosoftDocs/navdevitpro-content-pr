@@ -36,7 +36,7 @@ The following table describes the performance counters that are available in [!I
 ||\# Rows in all temporary tables|Count of number of rows in all temporary tables.|  
   
 ## See Also  
- [How to: Set up Performance Counters in Windows Performance Monitor](How-to--Set%20up%20Performance%20Counters%20in%20Windows%20Performance%20Monitor.md)   
- [How to: Create a Data Collector Set From the Microsoft Dynamics NAV Template](How-to--Create%20a%20Data%20Collector%20Set%20From%20the%20Microsoft%20Dynamics%20NAV%20Template.md)   
+ [How to: Set up Performance Counters in Windows Performance Monitor](How-to--Set-up-Performance-Counters-in-Windows-Performance-Monitor.md)   
+ [How to: Create a Data Collector Set From the Microsoft Dynamics NAV Template](How-to--Create-a-Data-Collector-Set-From-the-Microsoft-Dynamics-NAV-Template.md)   
  [Optimizing SQL Server Performance with Microsoft Dynamics NAV](Optimizing-SQL-Server-Performance-with-Microsoft-Dynamics-NAV.md)   
  [Microsoft Dynamics NAV Management Pack for System Center Operations Manager](http://go.microsoft.com/fwlink/?LinkID=722863)

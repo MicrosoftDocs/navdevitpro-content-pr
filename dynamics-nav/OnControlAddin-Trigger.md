@@ -43,7 +43,7 @@ OnControlAddin(Index ; Data)
  An example of an event is when a user chooses a button in the control add-in user interface or when a user changes a value in a field. A control add-in can use events like these to invoke the OnControlAddin trigger and pass information as an integer in the *Index* parameter and as a text string in the *Data* parameter. To process the information, you add the C/AL code to the OnControlAddin trigger. For more information, see [Exposing Events and Calling Respective C-AL Triggers from a Windows Client Control Add-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md).  
   
 ## Example  
- The following is an example of C/AL code on a OnControlAddin trigger that takes a text string that is received from a control add-in event and then displays the text string in a message window. Because the information is a text string, the *Data* parameter is used. To see how to develop and use a sample control add-in that implements this event, see [Walkthrough: Creating and Using a Windows Client Control Add-in](Walkthrough:%20Creating%20and%20Using%20a%20Windows%20Client%20Control%20Add-in.md).  
+ The following is an example of C/AL code on a OnControlAddin trigger that takes a text string that is received from a control add-in event and then displays the text string in a message window. Because the information is a text string, the *Data* parameter is used. To see how to develop and use a sample control add-in that implements this event, see [Walkthrough: Creating and Using a Windows Client Control Add-in](Walkthrough:-Creating-and-Using-a-Windows-Client-Control-Add-in.md).  
   
 ```  
 Message(Data);  
@@ -53,4 +53,4 @@ Message(Data);
  [Windows Client Control Add-in Overview](Windows-Client-Control-Add-in-Overview.md)   
  [Developing Windows Client Control Add-ins](Developing-Windows-Client-Control-Add-ins.md)   
  [Exposing Events and Calling Respective C-AL Triggers from a Windows Client Control Add-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md)   
- [How to: Set Up a Windows Client Control Add-in on a Page](How-to--Set%20Up%20a%20Windows%20Client%20Control%20Add-in%20on%20a%20Page.md)
+ [How to: Set Up a Windows Client Control Add-in on a Page](How-to--Set-Up-a-Windows-Client-Control-Add-in-on-a-Page.md)

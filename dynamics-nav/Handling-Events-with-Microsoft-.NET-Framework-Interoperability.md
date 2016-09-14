@@ -29,7 +29,7 @@ With Microsoft .NET Framework interoperability, a DotNet type variable of a [!IN
 ##  <a name="HowWork"></a> Understanding How Events Work in .NET Interoperability  
  You set up a DotNet variable to subscribe to events by setting the variable’s [WithEvents Property](WithEvents-Property.md) to **true**. The DotNet variable is exposed to all events that are published by the .NET Framework type that the variable references. For each event, [!INCLUDE[navnow](includes/navnow_md.md)] automatically adds a blank trigger in the C/AL code of the [!INCLUDE[navnow](includes/navnow_md.md)] object. You add C/AL code to the trigger to handle the event. When an instance of the .NET Framework type raises the event, the corresponding trigger in C/AL code is invoked and its code is run.  
   
- For more information, see [How to: Subscribe to Events in a .NET Framework Type](How-to--Subscribe%20to%20Events%20in%20a%20.NET%20Framework%20Type.md).  
+ For more information, see [How to: Subscribe to Events in a .NET Framework Type](How-to--Subscribe-to-Events-in-a-.NET-Framework-Type.md).  
   
 ##  <a name="ClientSide"></a> Client-side and Server-side Events  
  You can configure a DotNet type variable to instantiate the .NET Framework type to target the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or the [!INCLUDE[nav_server](includes/nav_server_md.md)]. As a result, events that are published by the .NET Framework type will also target either the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] \(client-side\) or the [!INCLUDE[nav_server](includes/nav_server_md.md)] \(server-side\).  
@@ -67,5 +67,5 @@ With Microsoft .NET Framework interoperability, a DotNet type variable of a [!IN
 -   Return values on event triggers are not supported.  
   
 ## See Also  
- [How to: Subscribe to Events in a .NET Framework Type](How-to--Subscribe%20to%20Events%20in%20a%20.NET%20Framework%20Type.md)   
+ [How to: Subscribe to Events in a .NET Framework Type](How-to--Subscribe-to-Events-in-a-.NET-Framework-Type.md)   
  [Calling .NET Framework Members from C-AL](Calling-.NET-Framework-Members-from-C-AL.md)

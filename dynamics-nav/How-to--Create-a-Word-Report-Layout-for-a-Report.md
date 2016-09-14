@@ -29,7 +29,7 @@ After you design a dataset for a report, you can create a Word report layout tha
   
 3.  Save the report object.  
   
- A blank Word report layout is created on the report object. The report layout includes a custom XML part for the current report dataset. You can now design the layout in Word. For more information, see [How to: Modify a Word Report Layout](How-to--Modify%20a%20Word%20Report%20Layout.md).  
+ A blank Word report layout is created on the report object. The report layout includes a custom XML part for the current report dataset. You can now design the layout in Word. For more information, see [How to: Modify a Word Report Layout](How-to--Modify-a-Word-Report-Layout.md).  
   
 ## See Also  
  [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)

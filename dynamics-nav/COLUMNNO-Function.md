@@ -55,7 +55,7 @@ Number := MyQuery.COLUMNNO("Customer_No");
 ```  
   
 ## See Also  
- [How to: Create Queries](How-to--Create%20Queries.md)   
- [How to: Set Up Filter Rows in Query Designer](How-to--Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md)   
+ [How to: Create Queries](How-to--Create-Queries.md)   
+ [How to: Set Up Filter Rows in Query Designer](How-to--Set-Up-Filter-Rows-in-Query-Designer.md)   
  [Queries](Queries.md)   
  [Record Data Type](Record-Data-Type.md)

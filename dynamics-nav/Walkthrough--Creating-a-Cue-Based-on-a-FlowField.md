@@ -275,4 +275,4 @@ This walkthrough demonstrates how to add a Cue on the [!INCLUDE[rtc](includes/rt
  [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
  [Pages Overview](Pages-Overview.md)   
  [Tables](Tables.md)   
- [Walkthrough: Creating a Role Center](Walkthrough:%20Creating%20a%20Role%20Center.md)
+ [Walkthrough: Creating a Role Center](Walkthrough:-Creating-a-Role-Center.md)

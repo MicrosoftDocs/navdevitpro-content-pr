@@ -21,18 +21,18 @@ A [!INCLUDE[navnow](includes/navnow_md.md)] page can consist of several differen
   
  To configure the [!INCLUDE[nav_web](includes/nav_web_md.md)], you open the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] in the configuration mode for a profile, and then use the customize feature to show or hide the elements. For more information, see the following topics:  
   
--   [How to: Open Microsoft Dynamics NAV in Configuration Mode](How-to--Open%20Microsoft%20Dynamics%20NAV%20in%20Configuration%20Mode.md)  
+-   [How to: Open Microsoft Dynamics NAV in Configuration Mode](How-to--Open-Microsoft-Dynamics-NAV-in-Configuration-Mode.md)  
   
--   [Working with Role Centers](Working%20with%20Role%20Centers.md)  
+-   [Working with Role Centers](Working-with-Role-Centers.md)  
   
--   [Walkthrough: Configuring UI for the Order Processor Profile](Walkthrough:%20Configuring%20UI%20for%20the%20Order%20Processor%20Profile.md)  
+-   [Walkthrough: Configuring UI for the Order Processor Profile](Walkthrough:-Configuring-UI-for-the-Order-Processor-Profile.md)  
   
 ## Resetting Configuration Settings  
- As an administrator or SUPER user, you can reset configuration settings. For more information, see [How to: Cancel UI Configuration](How-to--Cancel%20UI%20Configuration.md).  
+ As an administrator or SUPER user, you can reset configuration settings. For more information, see [How to: Cancel UI Configuration](How-to--Cancel-UI-Configuration.md).  
   
 > [!NOTE]  
 >  Performing this task affects the users in [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
 ## See Also  
- [Configure the User Interface](Configure%20the%20User%20Interface.md)   
- [\($ S\_PERSONALIZATION Personalize the User Interface $\)](\($%20S_PERSONALIZATION%20Personalize%20the%20User%20Interface%20$\).md)
+ [Configure the User Interface](Configure-the-User-Interface.md)   
+ [\($ S\_PERSONALIZATION Personalize the User Interface $\)](\($-S_PERSONALIZATION-Personalize-the-User-Interface-$\).md)

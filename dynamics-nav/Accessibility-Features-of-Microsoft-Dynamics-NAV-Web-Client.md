@@ -55,4 +55,4 @@ This topic provides information about the features of the [!INCLUDE[nav_web](inc
 ## See Also  
  [Microsoft Dynamics NAV Web Client](Microsoft-Dynamics-NAV-Web-Client.md)   
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
- [How to: Install the Web Server Components](How-to--Install%20the%20Web%20Server%20Components.md)
+ [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md)

@@ -60,8 +60,8 @@ You can view, set, enable, disable, or delete breakpoints directly in the **Code
     -   Choose the red dot in the margin to the left of the line of code with the enabled breakpoint.  
   
 ## See Also  
- [How to: Manage Breakpoints from the Development Environment](How-to--Manage%20Breakpoints%20from%20the%20Development%20Environment.md)   
- [How to: Manage Breakpoints from the Debugger Breakpoint List](How-to--Manage%20Breakpoints%20from%20the%20Debugger%20Breakpoint%20List.md)   
- [How to: Break on the Next Statement](How-to--Break%20on%20the%20Next%20Statement.md)   
- [How to: Break on Errors](How-to--Break%20on%20Errors.md)   
+ [How to: Manage Breakpoints from the Development Environment](How-to--Manage-Breakpoints-from-the-Development-Environment.md)   
+ [How to: Manage Breakpoints from the Debugger Breakpoint List](How-to--Manage-Breakpoints-from-the-Debugger-Breakpoint-List.md)   
+ [How to: Break on the Next Statement](How-to--Break-on-the-Next-Statement.md)   
+ [How to: Break on Errors](How-to--Break-on-Errors.md)   
  [Breakpoints](Breakpoints.md)

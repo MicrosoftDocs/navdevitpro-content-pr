@@ -59,10 +59,10 @@ When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup, you can in
   
      For second-level nodes without subcomponents and third-level nodes, the only options are **Run from My Computer** and **Not Available**.  
   
-4.  After you have selected the set of components and subcomponents that you want to install, choose **Next** to continue to the **Specify parameters** page. For more information, see [How to: Preconfigure Components](How-to--Preconfigure%20Components.md).  
+4.  After you have selected the set of components and subcomponents that you want to install, choose **Next** to continue to the **Specify parameters** page. For more information, see [How to: Preconfigure Components](How-to--Preconfigure-Components.md).  
   
 ## See Also  
- [How to: Run Setup](How-to--Run%20Setup.md)   
+ [How to: Run Setup](How-to--Run-Setup.md)   
  [Custom Option](Custom-Option.md)   
  [Installation and Configuration Walkthroughs](Installation-and-Configuration-Walkthroughs.md)   
  [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)   

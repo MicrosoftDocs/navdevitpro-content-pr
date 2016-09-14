@@ -75,4 +75,4 @@ To open the [!INCLUDE[nav_web](includes/nav_web_md.md)], Internet Explorer must 
 ## See Also  
  [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md)   
  [Microsoft Dynamics NAV Web Client](Microsoft-Dynamics-NAV-Web-Client.md)   
- [How to: Configure Mozilla Firefox for Microsoft Dynamics NAV Clients](How-to--Configure%20Mozilla%20Firefox%20for%20Microsoft%20Dynamics%20NAV%20Clients.md)
+ [How to: Configure Mozilla Firefox for Microsoft Dynamics NAV Clients](How-to--Configure-Mozilla-Firefox-for-Microsoft-Dynamics-NAV-Clients.md)

@@ -135,7 +135,7 @@ This walkthrough illustrates how you can publish a [!INCLUDE[navnow](includes/na
 3.  In the `Main` method, add the following code to establish the connection to [!INCLUDE[navnow](includes/navnow_md.md)] through the web service:  
   
     ```  
-    NAV nav = new NAV(new Uri("http://localhost:7048/DynamicsNAV/OData/Company('CRONUS%20International%20Ltd.')"));  
+    NAV nav = new NAV(new Uri("http://localhost:7048/DynamicsNAV/OData/Company('CRONUS-International-Ltd.')"));  
     nav.Credentials = CredentialCache.DefaultNetworkCredentials;  
     ```  
   
@@ -184,5 +184,5 @@ This walkthrough illustrates how you can publish a [!INCLUDE[navnow](includes/na
  [Microsoft Dynamics NAV Web Services Overview](Microsoft-Dynamics-NAV-Web-Services-Overview.md)   
  [Using OData Web Services to Modify Data](Using-OData-Web-Services-to-Modify-Data.md)   
  [Web Service Walkthroughs](Web-Service-Walkthroughs.md)   
- [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](Walkthrough:%20Registering%20and%20Using%20a%20Page%20Web%20Service%20\(SOAP\).md)   
- [Web Service Alternatives: SOAP and OData](Web%20Service%20Alternatives:%20SOAP%20and%20OData.md)
+ [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](Walkthrough:-Registering-and-Using-a-Page-Web-Service-\(SOAP\).md)   
+ [Web Service Alternatives: SOAP and OData](Web-Service-Alternatives:-SOAP-and-OData.md)

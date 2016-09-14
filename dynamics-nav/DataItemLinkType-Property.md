@@ -37,4 +37,4 @@ Sets the data item link type between data items in a query to determine the reco
   
  For more information about data item links, see [Understanding Data Item Links](Understanding-Data-Item-Links.md).  
   
- For a step-by-example of using the DataItemLinkType, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).
+ For a step-by-example of using the DataItemLinkType, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:-Creating-a-Query-to-Link-Two-Tables.md).

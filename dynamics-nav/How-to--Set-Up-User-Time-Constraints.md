@@ -36,6 +36,6 @@ Administrators can define periods of time during which specified users are able 
     |**Time Sheet Admin.**|Specifies whether the user is a time sheet administrator.|  
   
 ## See Also  
- [\($ T\_91 User Setup $\)](\($%20T_91%20User%20Setup%20$\).md)   
- [How to: Create Microsoft Dynamics NAV Users](How-to--Create%20Microsoft%20Dynamics%20NAV%20Users.md)   
- [How to: Set Up Time Sheet Administration and Approval](How-to--Set%20Up%20Time%20Sheet%20Administration%20and%20Approval.md)
+ [\($ T\_91 User Setup $\)](\($-T_91-User-Setup-$\).md)   
+ [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md)   
+ [How to: Set Up Time Sheet Administration and Approval](How-to--Set-Up-Time-Sheet-Administration-and-Approval.md)

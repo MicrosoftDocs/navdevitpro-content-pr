@@ -23,4 +23,4 @@ Sets a value that indicates whether the promoted action is displayed on the ribb
   
 ## See Also  
  [Promoted Property](Promoted-Property.md)   
- [How to: Promote Actions on Pages](How-to--Promote%20Actions%20on%20Pages.md)
+ [How to: Promote Actions on Pages](How-to--Promote-Actions-on-Pages.md)

@@ -16,4 +16,4 @@ Lists the languages that are included in your license and installed on your comp
 
  To open this window, on the **Tools** menu, choose **Language**.  
 
- The languages are used for captions in windows, on command buttons, and in other user interface \(UI\) elements. You can change the language from both the [!INCLUDE[nav_dev_long](../includes/nav_dev_long_md.md)] and the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)]. For more information about how to change a language, see [How to: Change the Language in the User Interface](../How%20to:%20Change%20the%20Language%20in%20the%20User%20Interface.md).
+ The languages are used for captions in windows, on command buttons, and in other user interface \(UI\) elements. You can change the language from both the [!INCLUDE[nav_dev_long](../includes/nav_dev_long_md.md)] and the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)]. For more information about how to change a language, see [How to: Change the Language in the User Interface](../How-to:-Change-the-Language-in-the-User-Interface.md).

@@ -12,7 +12,7 @@ caps.latest.revision: 8
 manager: edupont
 ---
 # How to: Insert Items in a MenuSuite
-You can modify a **MenuSuite** by inserting existing items. If an item already exists in a menu, instead of recreating the item in another menu, you can just insert the existing item. For information about how to modify menu items, see [How to: Modify Menu Items in a MenuSuite](How-to--Modify%20Menu%20Items%20in%20a%20MenuSuite.md).  
+You can modify a **MenuSuite** by inserting existing items. If an item already exists in a menu, instead of recreating the item in another menu, you can just insert the existing item. For information about how to modify menu items, see [How to: Modify Menu Items in a MenuSuite](How-to--Modify-Menu-Items-in-a-MenuSuite.md).  
   
 ### To insert a menu item  
   
@@ -32,4 +32,4 @@ You can modify a **MenuSuite** by inserting existing items. If an item already e
     >  Make sure that the **Insert** check box is selected for all the items that you want to insert.  
   
 ## See Also  
- [Walkthrough: Creating MenuSuites for the Microsoft Dynamics NAV Windows Client](Walkthrough:%20Creating%20MenuSuites%20for%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client.md)
+ [Walkthrough: Creating MenuSuites for the Microsoft Dynamics NAV Windows Client](Walkthrough:-Creating-MenuSuites-for-the-Microsoft-Dynamics-NAV-Windows-Client.md)

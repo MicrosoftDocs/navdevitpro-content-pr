@@ -66,5 +66,5 @@ If a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured fo
   
 ## See Also  
  [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)   
- [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How-to--Start,%20Stop,%20Restart,%20or%20Remove%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)   
+ [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How-to--Start,-Stop,-Restart,-or-Remove-a-Microsoft-Dynamics-NAV-Server-Instance.md)   
  [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md)

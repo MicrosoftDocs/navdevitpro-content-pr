@@ -28,7 +28,7 @@ This topic describes how to add a new [!INCLUDE[nav_server](includes/nav_server_
 -   OData web services port.  
   
 > [!TIP]  
->  You can also add [!INCLUDE[nav_server](includes/nav_server_md.md)] instances by using the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. For more information, see [How to: Create a Microsoft Dynamics NAV Server Instance](How-to--Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).  
+>  You can also add [!INCLUDE[nav_server](includes/nav_server_md.md)] instances by using the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. For more information, see [How to: Create a Microsoft Dynamics NAV Server Instance](How-to--Create-a-Microsoft-Dynamics-NAV-Server-Instance.md).  
   
 ### To add a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance  
   
@@ -76,6 +76,6 @@ New-NAVServerInstance MyNavInstance -ServiceAccount NetworkService -ManagementSe
  [Scaling the Microsoft Dynamics NAV Network Topology](Scaling-the-Microsoft-Dynamics-NAV-Network-Topology.md)   
  [Microsoft Dynamics NAV Server](Microsoft-Dynamics-NAV-Server.md)   
  [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
- [How to: Add a Microsoft Dynamics NAV Web Server Instance](How-to--Add%20a%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Instance.md)   
- [How to: Add a Microsoft Dynamics NAV Database](How-to--Add%20a%20Microsoft%20Dynamics%20NAV%20Database.md)   
- [How to: Add a Microsoft Dynamics NAV Company](How-to--Add%20a%20Microsoft%20Dynamics%20NAV%20Company.md)
+ [How to: Add a Microsoft Dynamics NAV Web Server Instance](How-to--Add-a-Microsoft-Dynamics-NAV-Web-Server-Instance.md)   
+ [How to: Add a Microsoft Dynamics NAV Database](How-to--Add-a-Microsoft-Dynamics-NAV-Database.md)   
+ [How to: Add a Microsoft Dynamics NAV Company](How-to--Add-a-Microsoft-Dynamics-NAV-Company.md)

@@ -45,10 +45,10 @@ This topic describes the requirements for installing and configuring Microsoft S
   
  For development and maintenance work on [!INCLUDE[navnow](includes/navnow_md.md)] applications, if the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] is installed on the same virtual machine in Azure as the [!INCLUDE[nav_server](includes/nav_server_md.md)], then you can connect to the Azure SQL database from the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].  
   
- For more information, see [How to: Deploy a Microsoft Dynamics NAV Database to Azure SQL Database](How-to--Deploy%20a%20Microsoft%20Dynamics%20NAV%20Database%20to%20Azure%20SQL%20Database.md).  
+ For more information, see [How to: Deploy a Microsoft Dynamics NAV Database to Azure SQL Database](How-to--Deploy-a-Microsoft-Dynamics-NAV-Database-to-Azure-SQL-Database.md).  
   
 ## See Also  
  [Data Access](Data-Access.md)   
  [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)   
- [Troubleshooting: SQL Server Connection Problems](Troubleshooting:%20SQL%20Server%20Connection%20Problems.md)   
+ [Troubleshooting: SQL Server Connection Problems](Troubleshooting:-SQL-Server-Connection-Problems.md)   
  [Deployment](Deployment.md)

@@ -23,11 +23,11 @@ manager: edupont
   
      ![Action Designer showing the HomeItems actions](media/NAVRTCHomeItemsActionDesigner.PNG "NAVRTCHomeItemsActionDesigner")  
   
-     For information about how to add an action under the **HomeItems** control, see [How to: Add Actions to a Page](How-to--Add%20Actions%20to%20a%20Page.md).  
+     For information about how to add an action under the **HomeItems** control, see [How to: Add Actions to a Page](How-to--Add-Actions-to-a-Page.md).  
   
 -   Add Cues on the Role Center page.  
   
-     Items from Cues are added to the **Home** button automatically. When you add a cue, you set the [DrillDownPageID Property](DrillDownPageID-Property.md) to a list page for displaying the data. If there is a relevant parent entity to place the Cue item under, that link is automatically added in the navigation pane. For example, if you have a Cue named **Sales Return Orders – Open**, this item will be added under the parent item **Sales Return Orders** in the navigation pane. For more information, see [Walkthrough: Creating a Cue Based on a FlowField](Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20FlowField.md).  
+     Items from Cues are added to the **Home** button automatically. When you add a cue, you set the [DrillDownPageID Property](DrillDownPageID-Property.md) to a list page for displaying the data. If there is a relevant parent entity to place the Cue item under, that link is automatically added in the navigation pane. For example, if you have a Cue named **Sales Return Orders – Open**, this item will be added under the parent item **Sales Return Orders** in the navigation pane. For more information, see [Walkthrough: Creating a Cue Based on a FlowField](Walkthrough:-Creating-a-Cue-Based-on-a-FlowField.md).  
   
 ### Child Items  
  An item is automatically positioned as a child to another item according to the following conditions:  
@@ -50,10 +50,10 @@ manager: edupont
   
 -   Restoring the default Home items as defined in the Action Designer on the Role Center page.  
   
- As an end-user, the changes are only implemented on the user’s Role Center. For more information, see [Customize the User Interface](Customize%20the%20User%20Interface.md).  
+ As an end-user, the changes are only implemented on the user’s Role Center. For more information, see [Customize the User Interface](Customize-the-User-Interface.md).  
   
- If you are an administrator, then you can open the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] in the Configuration mode and the changes that you make will be implemented on the Role Center for all users. For more information, see [How to: Open Microsoft Dynamics NAV in Configuration Mode](How-to--Open%20Microsoft%20Dynamics%20NAV%20in%20Configuration%20Mode.md).  
+ If you are an administrator, then you can open the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] in the Configuration mode and the changes that you make will be implemented on the Role Center for all users. For more information, see [How to: Open Microsoft Dynamics NAV in Configuration Mode](How-to--Open-Microsoft-Dynamics-NAV-in-Configuration-Mode.md).  
   
 ## See Also  
- [Customization: Configuration and Personalization](Customization:%20Configuration%20and%20Personalization.md)   
+ [Customization: Configuration and Personalization](Customization:-Configuration-and-Personalization.md)   
  [Creating Activity Buttons for the Navigation Pane](Creating-Activity-Buttons-for-the-Navigation-Pane.md)

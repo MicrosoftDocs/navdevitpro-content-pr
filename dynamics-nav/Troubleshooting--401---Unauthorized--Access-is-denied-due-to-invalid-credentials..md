@@ -31,9 +31,9 @@ When you try to access the [!INCLUDE[nav_web](includes/nav_web_md.md)], you get 
   
 -   For Windows authentication, the correct authentication providers are configured on the [!INCLUDE[nav_web](includes/nav_web_md.md)] site on IIS.  
   
- For step-by-step instructions about how change or verify these settings, see the [Configuring the Credential Type on the Microsoft Dynamics NAV Web Client Web Site](How-to--Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md#WebClient).  
+ For step-by-step instructions about how change or verify these settings, see the [Configuring the Credential Type on the Microsoft Dynamics NAV Web Client Web Site](How-to--Configure-Authentication-of-Microsoft-Dynamics-NAV-Web-Client-Users.md#WebClient).  
   
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
  [Troubleshooting the Microsoft Dynamics NAV Web Client Installation](Troubleshooting-the-Microsoft-Dynamics-NAV-Web-Client-Installation.md)   
- [How to: Install the Web Server Components](How-to--Install%20the%20Web%20Server%20Components.md)
+ [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md)

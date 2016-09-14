@@ -51,7 +51,7 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], a document page consists o
  First, Simon creates a new document page that is based on table 36, **Sales Header**.  
   
 > [!NOTE]  
->  In this walkthrough, you learn about the properties and controls of a document page, and you will create document page from a blank page. If you are using [!INCLUDE[navnowlong](includes/navnowlong_md.md)], Object Designer includes a wizard that you can use to create a document page that will set up many properties and controls for you. For more information about the wizard, see [How to: Create a Page](How-to--Create%20a%20Page.md).  
+>  In this walkthrough, you learn about the properties and controls of a document page, and you will create document page from a blank page. If you are using [!INCLUDE[navnowlong](includes/navnowlong_md.md)], Object Designer includes a wizard that you can use to create a document page that will set up many properties and controls for you. For more information about the wizard, see [How to: Create a Page](How-to--Create-a-Page.md).  
   
 #### To create a document page  
   
@@ -200,12 +200,12 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], a document page consists o
      The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] opens and displays the new document page.  
   
 ## Next Steps  
- Simon now wants to add actions to Susan's document page and promote some of these actions to the ribbon. For more information, see [How to: Promote Actions on Pages](How-to--Promote%20Actions%20on%20Pages.md).  
+ Simon now wants to add actions to Susan's document page and promote some of these actions to the ribbon. For more information, see [How to: Promote Actions on Pages](How-to--Promote-Actions-on-Pages.md).  
   
 ## See Also  
  [Pages Overview](Pages-Overview.md)   
- [How to: Add Actions to a Page](How-to--Add%20Actions%20to%20a%20Page.md)   
- [How to: Promote Actions on Pages](How-to--Promote%20Actions%20on%20Pages.md)   
- [How to: Create a Page](How-to--Create%20a%20Page.md)   
+ [How to: Add Actions to a Page](How-to--Add-Actions-to-a-Page.md)   
+ [How to: Promote Actions on Pages](How-to--Promote-Actions-on-Pages.md)   
+ [How to: Create a Page](How-to--Create-a-Page.md)   
  [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
- [How to: Run a Page](How-to--Run%20a%20Page.md)
+ [How to: Run a Page](How-to--Run-a-Page.md)

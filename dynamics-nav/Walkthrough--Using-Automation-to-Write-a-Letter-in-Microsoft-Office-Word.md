@@ -303,6 +303,6 @@ Automation lets you use the capabilities and features of Microsoft Office produc
  The letter that you have just created only contains six fields and no body text. Before you can use this letter in an actual situation, you will need to add some more fields, such as the name and address of your own company, the date, and the currency code, and the main text of the letter. It will also need some formatting to make it look more attractive. If you alter the order in which the fields appear in the template, you must change the numbering of the fields in the codeunit to ensure that the correct data is inserted into the appropriate fields.  
   
 ## See Also  
- [How to: Create an Automation Controller](How-to--Create%20an%20Automation%20Controller.md)   
+ [How to: Create an Automation Controller](How-to--Create-an-Automation-Controller.md)   
  [Using COM Technologies in Microsoft Dynamics NAV](Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md)   
  [COM Overview](COM-Overview.md)

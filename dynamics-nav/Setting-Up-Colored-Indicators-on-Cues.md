@@ -24,7 +24,7 @@ You can set up Cues with an indicator that changes color based on the data value
   
      With this method, you set up predefined indicators on a Cue-By-Cue basis.  
   
-     For more information, see [How to: Set Up Colored Indicators on Cues by Using the Style and StyleExpr Property](How-to--Set%20Up%20Colored%20Indicators%20on%20Cues%20by%20Using%20the%20Style%20and%20StyleExpr%20Property.md).  
+     For more information, see [How to: Set Up Colored Indicators on Cues by Using the Style and StyleExpr Property](How-to--Set-Up-Colored-Indicators-on-Cues-by-Using-the-Style-and-StyleExpr-Property.md).  
   
 -   Coding the GetCueStyle trigger in codeunit 1  
   
@@ -34,5 +34,5 @@ You can set up Cues with an indicator that changes color based on the data value
   
 ## See Also  
  [Creating and Customizing Cues](Creating-and-Customizing-Cues.md)   
- [Walkthrough: Creating a Cue Based on a FlowField](Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20FlowField.md)   
- [Walkthrough: Creating a Cue Based on a Normal Field and a Query](Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20Normal%20Field%20and%20a%20Query.md)
+ [Walkthrough: Creating a Cue Based on a FlowField](Walkthrough:-Creating-a-Cue-Based-on-a-FlowField.md)   
+ [Walkthrough: Creating a Cue Based on a Normal Field and a Query](Walkthrough:-Creating-a-Cue-Based-on-a-Normal-Field-and-a-Query.md)

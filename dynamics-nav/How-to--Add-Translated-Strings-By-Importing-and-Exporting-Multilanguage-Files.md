@@ -20,7 +20,7 @@ To add string translations for UI elements in a standard country/region-specific
   
 -   By running [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets to update CaptionML properties.  
   
- This topic describes how to import and export multilanguage files. For more information about how to use the Multilanguage Editor, see [How to: Add Translated Strings By Using the Multilanguage Editor](How-to--Add%20Translated%20Strings%20By%20Using%20the%20Multilanguage%20Editor.md). For more information about how to run [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets to export and import languages, see [Working with Application Objects as Text Files](Working-with-Application-Objects-as-Text-Files.md).  
+ This topic describes how to import and export multilanguage files. For more information about how to use the Multilanguage Editor, see [How to: Add Translated Strings By Using the Multilanguage Editor](How-to--Add-Translated-Strings-By-Using-the-Multilanguage-Editor.md). For more information about how to run [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets to export and import languages, see [Working with Application Objects as Text Files](Working-with-Application-Objects-as-Text-Files.md).  
   
 ## Exporting Multilanguage Files  
  To translate strings for multiple objects, you must first export all text strings.  

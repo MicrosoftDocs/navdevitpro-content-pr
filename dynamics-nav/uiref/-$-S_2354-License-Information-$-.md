@@ -30,6 +30,6 @@ Shows the contents of the current license file. The information includes the lic
 |**Change**|Allows for a temporary change to a license file. This function ensures that the change is not saved the next time that you start the [!INCLUDE[nav_dev_short](../includes/nav_dev_short_md.md)], and your old license file is used. Use this function if you want to use the cronus.flf [!INCLUDE[demo](../includes/demo_md.md)] demonstration license file and not overwrite your own license file.<br /><br /> You will receive a warning message before your license expires. If you allow the license on the server to expire, then you cannot access the server. However, you can use the **Change** function to access the server by using an alternate license file.|  
 
 ## See Also  
- [How to: Upload the License File](../How%20to:%20Upload%20the%20License%20File.md)   
+ [How to: Upload the License File](../How-to:-Upload-the-License-File.md)   
  [Properties of the Demo License](../Properties-of-the-Demo-License.md)   
  [Administration in the Development Environment](../Administration-in-the-Development-Environment.md)

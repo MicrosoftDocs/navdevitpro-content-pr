@@ -68,7 +68,7 @@ In a report that is based on a Word report layout, you can set up hyperlinks on 
 3.  In the Word report layout, add a picture control for the picture source column.  
   
 ## See Also  
- [How to: Modify a Word Report Layout](How-to--Modify%20a%20Word%20Report%20Layout.md)   
- [How to: Add Fields from a Report Dataset to a Word Report Layout](How-to--Add%20Fields%20from%20a%20Report%20Dataset%20to%20a%20Word%20Report%20Layout.md)   
+ [How to: Modify a Word Report Layout](How-to--Modify-a-Word-Report-Layout.md)   
+ [How to: Add Fields from a Report Dataset to a Word Report Layout](How-to--Add-Fields-from-a-Report-Dataset-to-a-Word-Report-Layout.md)   
  [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)   
  [Defining the Report Dataset](Defining-the-Report-Dataset.md)

@@ -21,7 +21,7 @@ When you have fields in a table that contain dates, you can use a date method to
   
 -   Open the properties of the column, and then set the [MethodType Property](MethodType-Property.md) to **Date** and [Method Property](Method-Property.md) to **Day**, **Month**, and **Year**.  
   
- For more information about how to set up query columns and properties, see [How to: Create Queries](How-to--Create%20Queries.md).  
+ For more information about how to set up query columns and properties, see [How to: Create Queries](How-to--Create-Queries.md).  
   
 > [!IMPORTANT]  
 >  You can only use a date method on fields that have a Date or DateTime data type. For additional information about how to use a date method on a field that has the DateTime data type, see [Working with DateTime Data Types](Using-the-Date-Method-to-Retrieve-Day--Month--and-Year-Data.md#DateTime).  
@@ -103,7 +103,7 @@ When you have fields in a table that contain dates, you can use a date method to
  To avoid this condition, you should use the date method on fields that have a Date data type instead of a DateTime data type whenever possible. You can also return the DateTime value and implement post processing for the day, month, and year as needed.  
   
 ## See Also  
- [How to: Create Queries](How-to--Create%20Queries.md)   
+ [How to: Create Queries](How-to--Create-Queries.md)   
  [Understanding Query Totals and Grouping](Understanding-Query-Totals-and-Grouping.md)   
  [MethodType Property](MethodType-Property.md)   
  [Method Property](Method-Property.md)

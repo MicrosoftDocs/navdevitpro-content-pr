@@ -35,4 +35,4 @@ When using a named database instance for [!INCLUDE[navnow](includes/navnow_md.md
 ## See Also  
  [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md)   
  [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)   
- [Troubleshooting: SQL Server Connection Problems](Troubleshooting:%20SQL%20Server%20Connection%20Problems.md)
+ [Troubleshooting: SQL Server Connection Problems](Troubleshooting:-SQL-Server-Connection-Problems.md)

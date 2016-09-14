@@ -21,12 +21,12 @@ A codeunit is a container for C/AL code that you can use in many application obj
 |Learn the purpose and function of codeunits.|[Understanding Codeunits](Understanding-Codeunits.md)|  
 |Learn how to use the C/AL Editor.|[Creating and Modifying Codeunits](Creating-and-Modifying-Codeunits.md)|  
 |Learn how to access codeunits and limitations of codeunits.|[Using Codeunits](Using-Codeunits.md)|  
-|Follow step-by-step procedures that show how to use codeunits.|[Walkthrough: Using Codeunits](Walkthrough:%20Using%20Codeunits.md)|  
+|Follow step-by-step procedures that show how to use codeunits.|[Walkthrough: Using Codeunits](Walkthrough:-Using-Codeunits.md)|  
   
 ## Developing Codeunits  
   
 |To|See|  
 |--------|---------|  
-|Learn how to create a codeunit.|[How to: Create a Codeunit](How-to--Create%20a%20Codeunit.md)|  
-|Learn how to modify a codeunit.|[How to: Modify an Existing Codeunit](How-to--Modify%20an%20Existing%20Codeunit.md) and [How to: Add a Function to a Codeunit](How-to--Add%20a%20Function%20to%20a%20Codeunit.md)|  
-|Learn how to compile and save codeunits.|[How to: Compile the Code in a Codeunit](How-to--Compile%20the%20Code%20in%20a%20Codeunit.md) and [How to: Save a Codeunit](How-to--Save%20a%20Codeunit.md)|
+|Learn how to create a codeunit.|[How to: Create a Codeunit](How-to--Create-a-Codeunit.md)|  
+|Learn how to modify a codeunit.|[How to: Modify an Existing Codeunit](How-to--Modify-an-Existing-Codeunit.md) and [How to: Add a Function to a Codeunit](How-to--Add-a-Function-to-a-Codeunit.md)|  
+|Learn how to compile and save codeunits.|[How to: Compile the Code in a Codeunit](How-to--Compile-the-Code-in-a-Codeunit.md) and [How to: Save a Codeunit](How-to--Save-a-Codeunit.md)|

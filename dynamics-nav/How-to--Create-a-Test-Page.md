@@ -22,7 +22,7 @@ You can create and open a test page in the following ways:
   
     -   [OPENVIEW Function \(TestPage\)](OPENVIEW-Function--TestPage-.md)  
   
--   Create a PageHandler or ModalPageHandler function that has a test page parameter. For more information, see [How to: Create Handler Functions](How-to--Create%20Handler%20Functions.md).  
+-   Create a PageHandler or ModalPageHandler function that has a test page parameter. For more information, see [How to: Create Handler Functions](How-to--Create-Handler-Functions.md).  
   
 -   Write C/AL code to trap a call to open a test page by using the [TRAP Function \(TestPage\)](TRAP-Function--TestPage-.md).  
   
@@ -30,7 +30,7 @@ You can create and open a test page in the following ways:
   
 ### To declare a test page variable  
   
-1.  Create a test codeunit. For more information, see [How to: Create Test Codeunits and Test Functions](How-to--Create%20Test%20Codeunits%20and%20Test%20Functions.md).  
+1.  Create a test codeunit. For more information, see [How to: Create Test Codeunits and Test Functions](How-to--Create-Test-Codeunits-and-Test-Functions.md).  
   
 2.  In Object Designer, on the **View** menu, choose **C/AL Globals**.  
   

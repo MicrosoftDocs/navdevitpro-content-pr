@@ -23,7 +23,7 @@ C/AL contains several functions that can be used for different purposes, such as
   
 -   If a parameter is passed by reference, then a reference to the variable is passed to the function. The function can change the value of the variable itself.  
   
- For more information about how to specify that a parameter is passed by value or by reference, see [How to: Add a Function to a Codeunit](How-to--Add%20a%20Function%20to%20a%20Codeunit.md).  
+ For more information about how to specify that a parameter is passed by value or by reference, see [How to: Add a Function to a Codeunit](How-to--Add-a-Function-to-a-Codeunit.md).  
   
 ### Example 1  
  The following shows the syntax for a function.  
@@ -62,7 +62,7 @@ NewDate := DMY2DATE(5, 11, 1992); //Returns the date November 5, 1992
  Depending on the use of the DMY2DATE function, 1, 2, or 3 parameters can be passed to the function because the second and third parameters are optional. When the second and third parameters are not used, values from the system date are used as default.  
   
 ## Return Values  
- A function can return a value. For more information about how to specify that a function has a return value, see [How to: Add a Function to a Codeunit](How-to--Add%20a%20Function%20to%20a%20Codeunit.md).  
+ A function can return a value. For more information about how to specify that a function has a return value, see [How to: Add a Function to a Codeunit](How-to--Add-a-Function-to-a-Codeunit.md).  
   
 ### Example 1  
  You can assign the return value of a function to a variable.  

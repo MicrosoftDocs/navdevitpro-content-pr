@@ -18,5 +18,5 @@ While you are viewing a report in **Print Preview** in the [!INCLUDE[nav_web](in
  On the computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], you must give users read, write, and modify permission to the Temp folder of the user account that is used by the web site of the [!INCLUDE[nav_web](includes/nav_web_md.md)]. The default user account is ApplicationPoolIdentity and the folder is C:\\Users\\Web Client Application Pool\\AppData\\Local\\Temp\\.  
   
 ## See Also  
- [How to: Configure Microsoft Report Viewer for the Microsoft Dynamics NAV Web Client](How-to--Configure%20Microsoft%20Report%20Viewer%20for%20the%20Microsoft%20Dynamics%20NAV%20Web%20Client.md)   
+ [How to: Configure Microsoft Report Viewer for the Microsoft Dynamics NAV Web Client](How-to--Configure-Microsoft-Report-Viewer-for-the-Microsoft-Dynamics-NAV-Web-Client.md)   
  [Troubleshooting the Microsoft Dynamics NAV Web Client Installation](Troubleshooting-the-Microsoft-Dynamics-NAV-Web-Client-Installation.md)

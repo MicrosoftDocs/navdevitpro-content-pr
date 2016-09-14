@@ -89,4 +89,4 @@ ELSE
   
 ## See Also  
  [Printing Reports from a Background Session](Printing-Reports-from-a-Background-Session.md)   
- [How to: Debug a Background Session](How-to--Debug%20a%20Background%20Session.md)
+ [How to: Debug a Background Session](How-to--Debug-a-Background-Session.md)

@@ -37,11 +37,11 @@ You use [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup to install softw
 
 6.  On the **Choose an installation option** page, choose the larger text that defines the name of an installation option: **Client Option**, **Server Option**, or **Developer Option**.  
 
-     You can also choose **Customize** that appears below any of the three installation options to modify the list of components before you install. For more information, see [How to: Choose Components to Install](How-to--Choose%20Components%20to%20Install.md).  
+     You can also choose **Customize** that appears below any of the three installation options to modify the list of components before you install. For more information, see [How to: Choose Components to Install](How-to--Choose-Components-to-Install.md).  
 
 7.  On the **Customize the Installation** page, choose **Next** to open the **Specify parameters** page. Any parameter that has an asterisk \(\*\) in front of the text box is a required parameter. Setup cannot complete unless you provide values for these parameters. In some cases, you may not know the correct value when you run Setup. You can add a temporary value. You can then modify the setting after you have finished running Setup by editing the appropriate configuration file. For more information, see [Configuring Microsoft Dynamics NAV](Configuring-Microsoft-Dynamics-NAV.md).  
 
-     For information about how to configure components in Setup, see [How to: Preconfigure Components](How-to--Preconfigure%20Components.md).  
+     For information about how to configure components in Setup, see [How to: Preconfigure Components](How-to--Preconfigure-Components.md).  
 
 8.  After you configure components, choose **Install** to start to install the software.  
 
@@ -55,6 +55,6 @@ You use [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup to install softw
 -   Prerequisites for [!INCLUDE[navnow](includes/navnow_md.md)] components that Setup can install, such as the .NET Framework.  
 
 ## See Also  
- [How to: Choose Components to Install](How-to--Choose%20Components%20to%20Install.md)   
- [How to: Preconfigure Components](How-to--Preconfigure%20Components.md)   
- [How to: Create or Load a Setup Configuration File](How-to--Create%20or%20Load%20a%20Setup%20Configuration%20File.md)
+ [How to: Choose Components to Install](How-to--Choose-Components-to-Install.md)   
+ [How to: Preconfigure Components](How-to--Preconfigure-Components.md)   
+ [How to: Create or Load a Setup Configuration File](How-to--Create-or-Load-a-Setup-Configuration-File.md)

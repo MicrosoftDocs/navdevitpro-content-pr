@@ -39,4 +39,4 @@ When a field that defines the data in a cue has an integer data type, you can se
 4.  Close the **Properties** window, and then save the page.  
   
 ## See Also  
- [Walkthrough: Creating a Cue Based on a FlowField](Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20FlowField.md)
+ [Walkthrough: Creating a Cue Based on a FlowField](Walkthrough:-Creating-a-Cue-Based-on-a-FlowField.md)

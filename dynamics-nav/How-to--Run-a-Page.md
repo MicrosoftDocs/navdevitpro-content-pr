@@ -12,7 +12,7 @@ caps.latest.revision: 24
 manager: edupont
 ---
 # How to: Run a Page
-When you are developing pages, you may want to see how the pages look in the [!INCLUDE[rtc](includes/rtc_md.md)]. You can run and view a page from Object Designer, or you can use command-line arguments at the command prompt, in the **Run** window, or in a browser. For each method, the [!INCLUDE[rtc](includes/rtc_md.md)] starts and opens the selected page. For command-line arguments, you have various options for opening the [!INCLUDE[rtc](includes/rtc_md.md)] and its pages in different modes. For example, you can specify a specific server or specific language, or you can create hyperlinks to specific pages in [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)]. For more information, see [Starting the Windows Client at the Command Prompt](Starting%20the%20Windows%20Client%20at%20the%20Command%20Prompt.md) and [Creating and Running Hyperlinks](Creating-and-Running-Hyperlinks.md).  
+When you are developing pages, you may want to see how the pages look in the [!INCLUDE[rtc](includes/rtc_md.md)]. You can run and view a page from Object Designer, or you can use command-line arguments at the command prompt, in the **Run** window, or in a browser. For each method, the [!INCLUDE[rtc](includes/rtc_md.md)] starts and opens the selected page. For command-line arguments, you have various options for opening the [!INCLUDE[rtc](includes/rtc_md.md)] and its pages in different modes. For example, you can specify a specific server or specific language, or you can create hyperlinks to specific pages in [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)]. For more information, see [Starting the Windows Client at the Command Prompt](Starting-the-Windows-Client-at-the-Command-Prompt.md) and [Creating and Running Hyperlinks](Creating-and-Running-Hyperlinks.md).  
   
 > [!NOTE]  
 >  ConfirmationDialog pages cannot be run and previewed by using the methods described in this topic. You can only view ConfirmationDialog pages by invoking them in the [!INCLUDE[rtc](includes/rtc_md.md)].  
@@ -78,5 +78,5 @@ When you are developing pages, you may want to see how the pages look in the [!I
      The RoleTailored client opens and displays the page.  
   
 ## See Also  
- [Starting the Windows Client at the Command Prompt](Starting%20the%20Windows%20Client%20at%20the%20Command%20Prompt.md)   
+ [Starting the Windows Client at the Command Prompt](Starting-the-Windows-Client-at-the-Command-Prompt.md)   
  [Creating and Running Hyperlinks](Creating-and-Running-Hyperlinks.md)

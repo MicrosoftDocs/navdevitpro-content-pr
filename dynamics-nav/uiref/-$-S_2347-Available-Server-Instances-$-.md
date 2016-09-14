@@ -16,8 +16,8 @@ Shows the available [!INCLUDE[nav_server](../includes/nav_server_md.md)] instanc
 
  To open this window, on the **File** menu, choose **Database**, and then choose **Information** to open the **Database Information** window. On the **General** tab, choose the **Down Arrow** button in the **Server Instance** field.  
 
- The available [!INCLUDE[nav_server](../includes/nav_server_md.md)] instances are stored in table 2000000112, the **\($ T\_2000000112 Server Instance $\)** table. For more information, see [\($ T\_2000000112 Server Instance $\)](../($%20T_2000000112%20Server%20Instance%20$\).md).  
+ The available [!INCLUDE[nav_server](../includes/nav_server_md.md)] instances are stored in table 2000000112, the **\($ T\_2000000112 Server Instance $\)** table. For more information, see [\($ T\_2000000112 Server Instance $\)](../($-T_2000000112-Server-Instance-$\).md).  
 
 ## See Also  
  [\($ S\_2349 Database Information $\)](-$-S_2349-Database-Information-$-.md)   
- [How to: Change the Microsoft Dynamics NAV Server Instance](../How%20to:%20Change%20the%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)
+ [How to: Change the Microsoft Dynamics NAV Server Instance](../How-to:-Change-the-Microsoft-Dynamics-NAV-Server-Instance.md)

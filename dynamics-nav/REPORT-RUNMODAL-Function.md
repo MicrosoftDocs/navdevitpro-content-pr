@@ -39,7 +39,7 @@ REPORT.RUNMODAL(Number [, ReqWindow] [, SystemPrinter] [, Record])
  This parameter overrides the setting of the [UseRequestPage Property](UseRequestPage-Property.md) of the report. If you do not provide a value for the *ReqWindow* parameter, then the setting of the UseRequestPage property is used.  
   
 > [!IMPORTANT]  
->  Client-side printing is not supported by [!INCLUDE[nav_web](includes/nav_web_md.md)]. If you set this parameter to **false** and the report will be run on [!INCLUDE[nav_web](includes/nav_web_md.md)], you must set up the report to print from [!INCLUDE[nav_server](includes/nav_server_md.md)], otherwise an error occurs at runtime. For more information, see [How to: Specify Printer Selection for Reports](How-to--Specify%20Printer%20Selection%20for%20Reports.md) and [STARTSESSION Function \(Sessions\)](STARTSESSION-Function--Sessions-.md).  
+>  Client-side printing is not supported by [!INCLUDE[nav_web](includes/nav_web_md.md)]. If you set this parameter to **false** and the report will be run on [!INCLUDE[nav_web](includes/nav_web_md.md)], you must set up the report to print from [!INCLUDE[nav_server](includes/nav_server_md.md)], otherwise an error occurs at runtime. For more information, see [How to: Specify Printer Selection for Reports](How-to--Specify-Printer-Selection-for-Reports.md) and [STARTSESSION Function \(Sessions\)](STARTSESSION-Function--Sessions-.md).  
   
  *SystemPrinter*  
  Type: Boolean  

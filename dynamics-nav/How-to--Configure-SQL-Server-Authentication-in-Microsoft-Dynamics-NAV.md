@@ -14,11 +14,11 @@ manager: edupont
 # How to: Configure SQL Server Authentication in Microsoft Dynamics NAV
 This topic describes how to configure SQL Server Authentication between the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and a [!INCLUDE[navnow](includes/navnow_md.md)] database. You perform the configuration in two places: on the databases in SQL Server and on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The procedure is different when the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured as a multitenant server instance than when it is not a multitenant server instance. To configure SQL Server authentication, complete the following procedures:  
   
-1.  [Set Up an Encryption Key](How-to--Configure%20SQL%20Server%20Authentication%20in%20Microsoft%20Dynamics%20NAV.md#SetEncryptionKey)  
+1.  [Set Up an Encryption Key](How-to--Configure-SQL-Server-Authentication-in-Microsoft-Dynamics-NAV.md#SetEncryptionKey)  
   
-2.  [Configure SQL Authentication on the Database](How-to--Configure%20SQL%20Server%20Authentication%20in%20Microsoft%20Dynamics%20NAV.md#ConfigSQL)  
+2.  [Configure SQL Authentication on the Database](How-to--Configure-SQL-Server-Authentication-in-Microsoft-Dynamics-NAV.md#ConfigSQL)  
   
-3.  [Configure SQL Server Authentication on Microsoft NAV Server Instance (Non-Multitenant)](How-to--Configure%20SQL%20Server%20Authentication%20in%20Microsoft%20Dynamics%20NAV.md#ConfigNavServer) or [Configure SQL Server Authentication on Microsoft NAV Server Instance in a Multitenant Deployment](How-to--Configure%20SQL%20Server%20Authentication%20in%20Microsoft%20Dynamics%20NAV.md#ConfigNavServerMT)  
+3.  [Configure SQL Server Authentication on Microsoft NAV Server Instance (Non-Multitenant)](How-to--Configure-SQL-Server-Authentication-in-Microsoft-Dynamics-NAV.md#ConfigNavServer) or [Configure SQL Server Authentication on Microsoft NAV Server Instance in a Multitenant Deployment](How-to--Configure-SQL-Server-Authentication-in-Microsoft-Dynamics-NAV.md#ConfigNavServerMT)  
   
 ##  <a name="SetEncryptionKey"></a> Set Up an Encryption Key  
  When using SQL Server authentication, [!INCLUDE[navnow](includes/navnow_md.md)] requires an encryption key to encrypt the credentials \(user name and password\) that the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance uses to connect to the [!INCLUDE[navnow](includes/navnow_md.md)] database in SQL Server. The encryption key must be installed on the computer where the [!INCLUDE[nav_server](includes/nav_server_md.md)] is installed and also in the database in SQL Server. In a multitenant deployment, the encryption key must be installed in the application database.  
@@ -90,7 +90,7 @@ This topic describes how to configure SQL Server Authentication between the [!IN
   
 10. If you want to enable encryption on SQL Server connections, in the **Action** pane, choose **Configuration**, and then choose the **Edit** button. In the **Database** tab, select **Enable Encryption on SQL Connections**, choose the **Save** button, and then the **OK** button.  
   
-11. Restart the server instance. For more information, see [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How-to--Start,%20Stop,%20Restart,%20or%20Remove%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).  
+11. Restart the server instance. For more information, see [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How-to--Start,-Stop,-Restart,-or-Remove-a-Microsoft-Dynamics-NAV-Server-Instance.md).  
   
 #### To configure SQL Authentication on Microsoft NAV Server Instance using [!INCLUDE[nav_shell](includes/nav_shell_md.md)]  
   
@@ -141,9 +141,9 @@ This topic describes how to configure SQL Server Authentication between the [!IN
   
      If the tenant is already mounted to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, you must dismount the tenant, and mount it again.  
   
-     For more information see [How to: Mount or Dismount a Tenant on a Microsoft Dynamics Server Instance](How-to--Mount%20or%20Dismount%20a%20Tenant%20on%20a%20Microsoft%20Dynamics%20Server%20Instance.md).  
+     For more information see [How to: Mount or Dismount a Tenant on a Microsoft Dynamics Server Instance](How-to--Mount-or-Dismount-a-Tenant-on-a-Microsoft-Dynamics-Server-Instance.md).  
   
-5.  Restart the server instance. For more information, see [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How-to--Start,%20Stop,%20Restart,%20or%20Remove%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).  
+5.  Restart the server instance. For more information, see [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How-to--Start,-Stop,-Restart,-or-Remove-a-Microsoft-Dynamics-NAV-Server-Instance.md).  
   
 #### To configure SQL Authentication on Microsoft NAV Server Instance using [!INCLUDE[nav_shell](includes/nav_shell_md.md)]  
   
