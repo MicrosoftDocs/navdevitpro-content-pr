@@ -34,7 +34,7 @@ This topic describes how to use the [!INCLUDE[navnow](includes/navnow_md.md)] Ad
     |*\<MyWebApp>*|Specifies the name that you want to give the [!INCLUDE[nav_web](includes/nav_web_md.md)] application instance. This name will become part of the URL for the [!INCLUDE[nav_web](includes/nav_web_md.md)] application, for example, http://MyWebServer:8080/MyWebApp/WebClient.|  
     |*\<NAVServer>*|Specifies the name of the computer that is running the [!INCLUDE[nav_server](includes/nav_server_md.md)] to connect the [!INCLUDE[navnow](includes/navnow_md.md)] web server to.|  
     |*\<NAVServerInstance>*|Specifies the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to connect the web server instance to.|  
-    |*\<NAVCredentialType>*|Specifies the credential type that is configured for the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)]. Valid options are **NavUserPassword**, **Windows**, **UserName**, and **AccessControlService**. The default value is **NavUserPassword**. **Important:**  The credential type must match the credential type that is used by the [!INCLUDE[navnow](includes/navnow_md.md)] web server to authenticate [!INCLUDE[nav_web](includes/nav_web_md.md)] users. For more information, see [Configuring the Credential Type on the Microsoft Dynamics NAV Web Client Web Site](How-to--Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md#WebClient).|  
+    |*\<NAVCredentialType>*|Specifies the credential type that is configured for the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)]. Valid options are **NavUserPassword**, **Windows**, **UserName**, and **AccessControlService**. The default value is **NavUserPassword**. **Important:**  The credential type must match the credential type that is used by the [!INCLUDE[navnow](includes/navnow_md.md)] web server to authenticate [!INCLUDE[nav_web](includes/nav_web_md.md)] users. For more information, see [Configuring the Credential Type on the Microsoft Dynamics NAV Web Client Web Site](How-to--Configure-Authentication-of-Microsoft-Dynamics-NAV-Web-Client-Users.md#WebClient).|  
   
     > [!NOTE]  
     >  The command that is shown includes only the required parameters of the NAVWebServerInstance cmdlet. The cmdlet has several other parameters that can be used to configure the web server instance. For more information about the syntax and parameters, see [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVWebServerInstance](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVWebServerInstance) cmdlet topic in the Administration Cmdlets for [!INCLUDE[navnow](includes/navnow_md.md)] section of the Technical Reference.  
@@ -60,8 +60,8 @@ New-NAVWebServerInstance -WebServerInstance MyNavApp –Server MyNavServer –Se
 ## See Also  
  [Scaling the Microsoft Dynamics NAV Network Topology](Scaling-the-Microsoft-Dynamics-NAV-Network-Topology.md)   
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
- [How to: Set Up Multiple Web Server Instances for the Microsoft Dynamics NAV Web Client](How-to--Set%20Up%20Multiple%20Web%20Server%20Instances%20for%20the%20Microsoft%20Dynamics%20NAV%20Web%20Client.md)   
+ [How to: Set Up Multiple Web Server Instances for the Microsoft Dynamics NAV Web Client](How-to--Set-Up-Multiple-Web-Server-Instances-for-the-Microsoft-Dynamics-NAV-Web-Client.md)   
  [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
- [How to: Add a Microsoft Dynamics NAV Server Instance](How-to--Add%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)   
- [How to: Add a Microsoft Dynamics NAV Database](How-to--Add%20a%20Microsoft%20Dynamics%20NAV%20Database.md)   
- [How to: Add a Microsoft Dynamics NAV Company](How-to--Add%20a%20Microsoft%20Dynamics%20NAV%20Company.md)
+ [How to: Add a Microsoft Dynamics NAV Server Instance](How-to--Add-a-Microsoft-Dynamics-NAV-Server-Instance.md)   
+ [How to: Add a Microsoft Dynamics NAV Database](How-to--Add-a-Microsoft-Dynamics-NAV-Database.md)   
+ [How to: Add a Microsoft Dynamics NAV Company](How-to--Add-a-Microsoft-Dynamics-NAV-Company.md)

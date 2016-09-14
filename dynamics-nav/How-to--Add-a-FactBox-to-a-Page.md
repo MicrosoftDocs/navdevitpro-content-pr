@@ -15,7 +15,7 @@ manager: edupont
 A FactBox is an area on the right side of a page that can display additional pages, charts, or system parts. To add a FactBox to a page, you add the FactBox area, and then add parts that contain charts, system parts, or pages of the ChartPart type or ListPart type.  
   
 > [!TIP]  
->  When creating a new page, you can use the page wizard to add a FactBox to the page. For more information, see [How to: Create a Page](How-to--Create%20a%20Page.md).  
+>  When creating a new page, you can use the page wizard to add a FactBox to the page. For more information, see [How to: Create a Page](How-to--Create-a-Page.md).  
   
 ## Adding a FactBox Area to a Page  
  You define the FactBox by adding a FactBoxArea container control to the page. The FactBoxArea control acts as a placeholder to which you can add different parts for the FactBox. You can add a FactBoxArea control on the following page types only:  
@@ -53,7 +53,7 @@ A FactBox is an area on the right side of a page that can display additional pag
  You can add a part to the FactBox area that displays an existing page of the **CardPart** or **ListPart** type only. If you attempt to use another page type, you will get an error.  
   
 > [!NOTE]  
->  This procedure assumes that the page that you want to display in the FactBox already exists. If not, create the page before proceeding. For an example of creating a **CardPart** page for using in a FactBox, see [Walkthrough: Adding a FactBox to the Customer List Page](Walkthrough:%20Adding%20a%20FactBox%20to%20the%20Customer%20List%20Page.md).  
+>  This procedure assumes that the page that you want to display in the FactBox already exists. If not, create the page before proceeding. For an example of creating a **CardPart** page for using in a FactBox, see [Walkthrough: Adding a FactBox to the Customer List Page](Walkthrough:-Adding-a-FactBox-to-the-Customer-List-Page.md).  
   
 #### To add a page to the FactBox  
   
@@ -136,5 +136,5 @@ A FactBox is an area on the right side of a page that can display additional pag
   
 ## See Also  
  [Adding a FactBox to Page](Adding-a-FactBox-to-Page.md)   
- [Walkthrough: Adding a FactBox to the Customer List Page](Walkthrough:%20Adding%20a%20FactBox%20to%20the%20Customer%20List%20Page.md)   
- [How to: Create a Page](How-to--Create%20a%20Page.md)
+ [Walkthrough: Adding a FactBox to the Customer List Page](Walkthrough:-Adding-a-FactBox-to-the-Customer-List-Page.md)   
+ [How to: Create a Page](How-to--Create-a-Page.md)

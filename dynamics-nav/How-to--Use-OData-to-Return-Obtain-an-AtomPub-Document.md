@@ -22,7 +22,7 @@ When you register an OData web service, you expose an OData service that can be 
   
 #### To obtain an AtomPub document or feed  
   
-1.  Register and publish a page web service by using the [!INCLUDE[rtc](includes/rtc_md.md)]. For more information, see [Walkthrough: Creating and Interacting with a Page Web Service \(OData\)](Walkthrough:%20Creating%20and%20Interacting%20with%20a%20Page%20Web%20Service%20\(OData\).md).  
+1.  Register and publish a page web service by using the [!INCLUDE[rtc](includes/rtc_md.md)]. For more information, see [Walkthrough: Creating and Interacting with a Page Web Service \(OData\)](Walkthrough:-Creating-and-Interacting-with-a-Page-Web-Service-\(OData\).md).  
   
      The AtomPub documents that are shown in the walkthrough are based on the page 21, the **Customer Card** page, with **Customer** as the service name. The concepts and steps are the same for any [!INCLUDE[rtc](includes/rtc_md.md)] page that you register and publish as a web service.  
   
@@ -62,19 +62,19 @@ When you register an OData web service, you expose an OData service that can be 
 1.  Start Windows Internet Explorer. In the **Address** field, enter a URI in the following format to get the entry for the [!INCLUDE[demoname](includes/demoname_md.md)] company:  
   
     ```  
-    http://localhost:7048/nav_server_instance/OData/Company('CRONUS%20International%20Ltd.')  
+    http://localhost:7048/nav_server_instance/OData/Company('CRONUS-International-Ltd.')  
     ```  
   
 2.  To get the data feed for the Customer table in the [!INCLUDE[demoname](includes/demoname_md.md)] company database, enter a URI in the following format:  
   
     ```  
-    http://localhost:7048/nav_server_instance/OData/Company('CRONUS%20International%20Ltd.')/Customer  
+    http://localhost:7048/nav_server_instance/OData/Company('CRONUS-International-Ltd.')/Customer  
     ```  
   
 3.  To additionally constrain data to a specific keyed customer in the Customer table, enter a URI in the following format, using the customer no. for the record you want. The example uses customer no. 01121212:  
   
     ```  
-    http://localhost:7048/nav_server_instance/OData/Company('CRONUS%20International%20Ltd.')/Customer('01121212')  
+    http://localhost:7048/nav_server_instance/OData/Company('CRONUS-International-Ltd.')/Customer('01121212')  
     ```  
   
 ## Obtaining a Filtered Data Feed  
@@ -86,7 +86,7 @@ When you register an OData web service, you expose an OData service that can be 
   
     ```  
   
-    http://localhost:7048/nav_server_instance/OData/Company('CRONUS%20International%20Ltd.')/Customer?$filter=City%20eq%20'Birmingham'  
+    http://localhost:7048/nav_server_instance/OData/Company('CRONUS-International-Ltd.')/Customer?$filter=City-eq-'Birmingham'  
     ```  
   
 ## See Also  

@@ -27,6 +27,6 @@ When you first create a table, it does not contain any data. Nevertheless, when 
  In the Table Designer, for each field you add to the table, you enter the field number, name, data type, and optionally, a length and a description.  
   
 ## See Also  
- [How to: Add Fields to a Table](How-to--Add%20Fields%20to%20a%20Table.md)   
+ [How to: Add Fields to a Table](How-to--Add-Fields-to-a-Table.md)   
  [Field Data Types](Field-Data-Types.md)   
  [Table Properties](Table-Properties.md)

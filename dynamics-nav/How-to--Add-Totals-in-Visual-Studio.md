@@ -26,6 +26,6 @@ Totals are an important element of creating useful reports. By totaling data, yo
 4.  Compile and save the report in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. A message informs you that the .rdlc file for this report has changed and asks if you want to load the changes. Choose **Yes** to save the changes in the database.  
   
 ## See Also  
- [Walkthrough: Designing a Report with Images, Interactive Sorting, and Visibility Toggle](Walkthrough:%20Designing%20a%20Report%20with%20Images,%20Interactive%20Sorting,%20and%20Visibility%20Toggle.md)   
- [Walkthrough: Creating a Link from a Report to a Page](Walkthrough:%20Creating%20a%20Link%20from%20a%20Report%20to%20a%20Page.md)   
- [How to: Make a Report Available from a Page](How-to--Make%20a%20Report%20Available%20from%20a%20Page.md)
+ [Walkthrough: Designing a Report with Images, Interactive Sorting, and Visibility Toggle](Walkthrough:-Designing-a-Report-with-Images,-Interactive-Sorting,-and-Visibility-Toggle.md)   
+ [Walkthrough: Creating a Link from a Report to a Page](Walkthrough:-Creating-a-Link-from-a-Report-to-a-Page.md)   
+ [How to: Make a Report Available from a Page](How-to--Make-a-Report-Available-from-a-Page.md)

@@ -22,7 +22,7 @@ In some reports, you may want to format rows as bold based on the value of a fie
   
 3.  On the **View** menu, choose **Layout**.  
   
-4.  In Visual Studio, create a hidden text box. The hidden text box should contain the field on which you will determine whether the row is bold. For example, in the Chart of Accounts report, the hidden field contains the account type field. For more information, see [How to: Add and Identify Hidden Fields](How-to--Add%20and%20Identify%20Hidden%20Fields.md).  
+4.  In Visual Studio, create a hidden text box. The hidden text box should contain the field on which you will determine whether the row is bold. For example, in the Chart of Accounts report, the hidden field contains the account type field. For more information, see [How to: Add and Identify Hidden Fields](How-to--Add-and-Identify-Hidden-Fields.md).  
   
 5.  In design view, select the data row that you want to appear as bold.  
   

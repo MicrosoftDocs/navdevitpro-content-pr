@@ -14,9 +14,9 @@ manager: edupont
 # How to: Uninstall Language Modules
 To uninstall a language module, you must delete the language from the database and uninstall each component of the language module that you installed.  
   
- For more information about how to delete translated strings from individual objects, see [How to: Delete Translated Strings](How-to--Delete%20Translated%20Strings.md).  
+ For more information about how to delete translated strings from individual objects, see [How to: Delete Translated Strings](How-to--Delete-Translated-Strings.md).  
   
- For more information about how to install language modules, see [How to: Install Language Modules](How-to--Install%20Language%20Modules.md).  
+ For more information about how to install language modules, see [How to: Install Language Modules](How-to--Install-Language-Modules.md).  
   
 ### To uninstall a language module  
   

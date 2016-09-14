@@ -41,7 +41,7 @@ You can change the database property settings that you selected when you created
   
 2.  Restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
   
-     The changes will not take effect until you restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. For more information, see [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How-to--Start,%20Stop,%20Restart,%20or%20Remove%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).  
+     The changes will not take effect until you restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. For more information, see [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How-to--Start,-Stop,-Restart,-or-Remove-a-Microsoft-Dynamics-NAV-Server-Instance.md).  
   
 ## Changing Database Collation  
  You cannot change the collation directly in the current database. To change the collation, you must create a new database that uses the correct collation, and then export the data from the old database and import it to the new database. You can do this by using SQL Server Management Studio and the [!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell as outlined in the following procedure.  
@@ -71,17 +71,17 @@ You can change the database property settings that you selected when you created
   
 4.  Connect the new database to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
   
-     For more information, see [How to: Connect a Microsoft Dynamics NAV Server Instance to a Database](How-to--Connect%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance%20to%20a%20Database.md).  
+     For more information, see [How to: Connect a Microsoft Dynamics NAV Server Instance to a Database](How-to--Connect-a-Microsoft-Dynamics-NAV-Server-Instance-to-a-Database.md).  
   
 5.  Synchronize the table schemas in the database. You can do this from the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
   
     -   From the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Sync. Schema For All Tables**, and then choose **With Validation** and follow the schema synchronization instructions.  
   
-    -   From the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], open the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] as an administrator, and then run the [Sync-NavTenant cmdlet](http://go.microsoft.com/fwlink/?LinkID=401399). For more information, see [How to: Run the Sync-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database](How-to--Run%20the%20Sync-NAVTenant%20Cmdlet%20to%20Synchronize%20the%20Tenant%20Database%20with%20the%20Application%20Database.md).  
+    -   From the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], open the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] as an administrator, and then run the [Sync-NavTenant cmdlet](http://go.microsoft.com/fwlink/?LinkID=401399). For more information, see [How to: Run the Sync-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database](How-to--Run-the-Sync-NAVTenant-Cmdlet-to-Synchronize-the-Tenant-Database-with-the-Application-Database.md).  
   
 6.  Restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
   
-     For more information, see [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How-to--Start,%20Stop,%20Restart,%20or%20Remove%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).  
+     For more information, see [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How-to--Start,-Stop,-Restart,-or-Remove-a-Microsoft-Dynamics-NAV-Server-Instance.md).  
   
 ## See Also  
  [\($ S\_2339 Alter Database $\)](-$-S_2339-Alter-Database-$-.md)

@@ -22,4 +22,4 @@ In the following sections, you can read more about how you manage users and perm
 ### Related Sections  
  [Managing Companies](Managing-Companies.md)  
   
- [Profiles and Role Centers](Profiles%20and%20Role%20Centers.md)
+ [Profiles and Role Centers](Profiles-and-Role-Centers.md)

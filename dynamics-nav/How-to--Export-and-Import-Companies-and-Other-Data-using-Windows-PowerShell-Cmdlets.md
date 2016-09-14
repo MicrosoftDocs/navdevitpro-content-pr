@@ -151,5 +151,5 @@ Import-NAVData –ServerInstance TestServer -AllCompanies
   
 ## See Also  
  [Exporting and Importing Companies and Other Data](Exporting-and-Importing-Companies-and-Other-Data.md)   
- [How to: Export and Import Companies and Other Data in Clients](How-to--Export%20and%20Import%20Companies%20and%20Other%20Data%20in%20Clients.md)   
+ [How to: Export and Import Companies and Other Data in Clients](How-to--Export-and-Import-Companies-and-Other-Data-in-Clients.md)   
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)

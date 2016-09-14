@@ -22,9 +22,9 @@ Tables are the fundamental objects in any database. They are the objects in whic
 |To|See|  
 |--------|---------|  
 |Learn about the [!INCLUDE[navnow](includes/navnow_md.md)] approach to tables in database design.|[Overview of Tables](Overview-of-Tables.md)|  
-|Design and develop a basic table in [!INCLUDE[navnow](includes/navnow_md.md)].|[How to: Create a Table](How-to--Create%20a%20Table.md)|  
+|Design and develop a basic table in [!INCLUDE[navnow](includes/navnow_md.md)].|[How to: Create a Table](How-to--Create-a-Table.md)|  
 |Decide which field data type to apply to your data.|[Field Data Types](Field-Data-Types.md) and [Data Format Considerations](Data-Format-Considerations.md)|  
-|Apply table and field properties and create effective table descriptions.|[How to: View or Modify Properties on a Table or Field](How-to--View%20or%20Modify%20Properties%20on%20a%20Table%20or%20Field.md)|  
+|Apply table and field properties and create effective table descriptions.|[How to: View or Modify Properties on a Table or Field](How-to--View-or-Modify-Properties-on-a-Table-or-Field.md)|  
 |Connect table data through primary and secondary keys.|[Table Keys](Table-Keys.md)|  
 |Learn about [!INCLUDE[navnow](includes/navnow_md.md)] features designed to speed up data manipulation and computation.|[Accessing Microsoft Dynamics NAV Tables with External Tools](Accessing-Microsoft-Dynamics-NAV-Tables-with-External-Tools.md)|  
   
@@ -34,7 +34,7 @@ Tables are the fundamental objects in any database. They are the objects in whic
 |To|See|  
 |--------|---------|  
 |Learn about the set of triggers that [!INCLUDE[navnow](includes/navnow_md.md)] supports for tables and fields.|[Table and Field Triggers](Table-and-Field-Triggers.md)|  
-|Create a table trigger.|[How to: Define or Modify Table or Field Triggers](How-to--Define%20or%20Modify%20Table%20or%20Field%20Triggers.md)|  
+|Create a table trigger.|[How to: Define or Modify Table or Field Triggers](How-to--Define-or-Modify-Table-or-Field-Triggers.md)|  
 |See reference information about specific triggers.|[Triggers](Triggers.md)|  
   
 ## Designing Relationships Between Tables  

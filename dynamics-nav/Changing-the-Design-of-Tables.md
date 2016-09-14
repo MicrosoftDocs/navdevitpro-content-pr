@@ -26,5 +26,5 @@ When you design the tables in your database, you determine which fields they con
 |Change the length of a **String** field|You can always increase the length of a **String** field. Whether you can decrease the length of a **String** field depends on the contents of all the values in the column in the table. The minimum length of a **String** field is determined by the longest string in the column.|  
   
 ## See Also  
- [How to: Add Fields to a Table](How-to--Add%20Fields%20to%20a%20Table.md)   
- [How to: View or Modify Properties on a Table or Field](How-to--View%20or%20Modify%20Properties%20on%20a%20Table%20or%20Field.md)
+ [How to: Add Fields to a Table](How-to--Add-Fields-to-a-Table.md)   
+ [How to: View or Modify Properties on a Table or Field](How-to--View-or-Modify-Properties-on-a-Table-or-Field.md)

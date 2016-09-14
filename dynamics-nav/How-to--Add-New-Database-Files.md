@@ -45,4 +45,4 @@ You can expand a database by creating a new database file in the database.
      You can either allow the database file to grow without restriction or you must specify a maximum file size. If you do not specify a maximum size, SQL Server will expand the database file as often as necessary. This expansion is limited only by the available disk space.  
   
 ## See Also  
- [How to: Increase the Size of Database Files](How-to--Increase%20the%20Size%20of%20Database%20Files.md)
+ [How to: Increase the Size of Database Files](How-to--Increase-the-Size-of-Database-Files.md)

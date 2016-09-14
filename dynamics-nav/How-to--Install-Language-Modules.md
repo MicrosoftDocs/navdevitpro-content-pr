@@ -14,17 +14,17 @@ manager: edupont
 # How to: Install Language Modules
 To install language modules in [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you must first download the language module from [Language Modules for Microsoft Dynamics NAV 2016](http://go.microsoft.com/fwlink/?LinkID=784928) \(requires PartnerSource login\), and then you install the following different components separately:  
   
--   [Server Component](How-to--Install%20Language%20Modules.md#Server)  
+-   [Server Component](How-to--Install-Language-Modules.md#Server)  
   
--   [Microsoft Dynamics NAV Windows Client Component](How-to--Install%20Language%20Modules.md#RoleTailored)  
+-   [Microsoft Dynamics NAV Windows Client Component](How-to--Install-Language-Modules.md#RoleTailored)  
   
--   [Microsoft Dynamics NAV Web Client Component](How-to--Install%20Language%20Modules.md#WebClient)  
+-   [Microsoft Dynamics NAV Web Client Component](How-to--Install-Language-Modules.md#WebClient)  
   
--   [Microsoft Office Outlook Component](How-to--Install%20Language%20Modules.md#Outlook) \(optional\)  
+-   [Microsoft Office Outlook Component](How-to--Install-Language-Modules.md#Outlook) \(optional\)  
   
--   [Database Component](How-to--Install%20Language%20Modules.md#Database)  
+-   [Database Component](How-to--Install-Language-Modules.md#Database)  
   
--   [Profiles](How-to--Install%20Language%20Modules.md#Profiles)  
+-   [Profiles](How-to--Install-Language-Modules.md#Profiles)  
   
  After you install a language module, you may need to translate additional strings for customized objects in the application.  
   
@@ -33,9 +33,9 @@ To install language modules in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]
   
  For more information, see the following topics:  
   
--   [How to: Add Translated Strings By Using the Multilanguage Editor](How-to--Add%20Translated%20Strings%20By%20Using%20the%20Multilanguage%20Editor.md)  
+-   [How to: Add Translated Strings By Using the Multilanguage Editor](How-to--Add-Translated-Strings-By-Using-the-Multilanguage-Editor.md)  
   
--   [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How-to--Add%20Translated%20Strings%20By%20Importing%20and%20Exporting%20Multilanguage%20Files.md)  
+-   [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How-to--Add-Translated-Strings-By-Importing-and-Exporting-Multilanguage-Files.md)  
   
 ##  <a name="Server"></a> Server Component  
   
@@ -133,4 +133,4 @@ To install language modules in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]
   
 ## See Also  
  [Language Modules](Language-Modules.md)   
- [Manage Profiles](Manage%20Profiles.md)
+ [Manage Profiles](Manage-Profiles.md)

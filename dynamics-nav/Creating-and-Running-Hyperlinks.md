@@ -26,7 +26,7 @@ Microsoft.Dynamics.Nav.Client.exe "DynamicsNAV://MyServer/nav_server_instance/CR
  An equivalent URL that you could type in a browser’s address bar is:  
   
 ```  
-DynamicsNAV://MyServer/nav_server_instance/CRONUS%20International%20Ltd./RunPage?Page=22  
+DynamicsNAV://MyServer/nav_server_instance/CRONUS-International-Ltd./RunPage?Page=22  
 ```  
   
  Note that in a URL, you must use encoding for special characters.  
@@ -74,20 +74,20 @@ DynamicsNAV://///navigate?node=Home/Items
   
 |Parameter|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|Example|  
 |---------------|---------------------------------------|-------------|  
-|Personalization ID|Specifies the unique identification that is used in personalization to store settings in the **User Metadata** table. If a personalization ID is not found, the page is opened without personalization.|`DynamicsNAV://localhost/DynamicsNAV90/CRONUS%20International%20Ltd./runpage?page=22&personalization=0000232e-0000-001a-0008-0000836bd2d2`|  
-|Bookmark|Positions the cursor on a single record in a table.<br /><br /> Only automatically generated bookmarks should be used. If you enter an incorrect bookmark, you will get an error message.|`DynamicsNAV://localhost/DynamicsNAV90/CRONUS%20International%20Ltd./runpage?page=22&bookmark=120000000089083237343`|  
-|Mode|Enables you to open a page in a specific mode, which include view, edit, create, select, and delete.|`DynamicsNAV://localhost/DynamicsNAV90/CRONUS%20International%20Ltd./runpage?page=22&mode=View`|  
-|Filter|Enables you to open a page with a specific filter applied. In the example, you open the customer list filtered to customer number 10000.|`DynamicsNAV://localhost/DynamicsNAV90/CRONUS%20International%20Ltd./runpage?page=22&$filter='No.'%20IS%20'10000'`|  
+|Personalization ID|Specifies the unique identification that is used in personalization to store settings in the **User Metadata** table. If a personalization ID is not found, the page is opened without personalization.|`DynamicsNAV://localhost/DynamicsNAV90/CRONUS-International-Ltd./runpage?page=22&personalization=0000232e-0000-001a-0008-0000836bd2d2`|  
+|Bookmark|Positions the cursor on a single record in a table.<br /><br /> Only automatically generated bookmarks should be used. If you enter an incorrect bookmark, you will get an error message.|`DynamicsNAV://localhost/DynamicsNAV90/CRONUS-International-Ltd./runpage?page=22&bookmark=120000000089083237343`|  
+|Mode|Enables you to open a page in a specific mode, which include view, edit, create, select, and delete.|`DynamicsNAV://localhost/DynamicsNAV90/CRONUS-International-Ltd./runpage?page=22&mode=View`|  
+|Filter|Enables you to open a page with a specific filter applied. In the example, you open the customer list filtered to customer number 10000.|`DynamicsNAV://localhost/DynamicsNAV90/CRONUS-International-Ltd./runpage?page=22&$filter='No.'-IS-'10000'`|  
   
 ## Understanding Syntax for Creating Hyperlinks  
  The following table shows some examples of hyperlinks and provides information about how to specify parameters.  
   
 |Parameters|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|Syntax|Example|  
 |----------------|---------------------------------------|------------|-------------|  
-|Company name|Enables you to switch a company \(case- sensitive\).|**DynamicsNAV:////\<CompanyName>/RunPage?Page=\<pageid>**|`DynamicsNAV:////CRONUS%20International%20Ltd./RunPage?Page=22`|  
+|Company name|Enables you to switch a company \(case- sensitive\).|**DynamicsNAV:////\<CompanyName>/RunPage?Page=\<pageid>**|`DynamicsNAV:////CRONUS-International-Ltd./RunPage?Page=22`|  
 |Navigate|Enables users to send or save quick links to specific pages.|**DynamicsNAV://///navigate?node=\<service>**|`DynamicsNAV://///navigate?node=Home/Items`|  
 |RunPage|Enables you to run a specific page.|**DynamicsNAV:////runpage?page=\<page id>**|`DynamicsNAV:////runpage?page=42`|  
-|Filter|Enables you to run a specific page with a specific filter applied.|**DynamicsNAV////runpage?page=\<page id>&$filter='\<field>'%20IS%20'\<value>'\[%20AND%20'\<field>'%20IS%20'\<value>'\]**|`DynamicsNAV:////runpage?page=22&$filter='No.'%20IS%20'10000'`|  
+|Filter|Enables you to run a specific page with a specific filter applied.|**DynamicsNAV////runpage?page=\<page id>&$filter='\<field>'-IS-'\<value>'\[-AND-'\<field>'-IS-'\<value>'\]**|`DynamicsNAV:////runpage?page=22&$filter='No.'-IS-'10000'`|  
 |RunReport|Enables you to run a specific report.|**DynamicsNAV:////runreport?report=\<report id>**|`DynamicsNAV:////runreport?report=50000`|  
 |RunQuery|Enables you to run the **About This Query** page for a specific query.|**DynamicsNAV:////runquery?query=\<query id>**|`DynamicsNAV:////runquery?query=50000`|  
 |RunXMLport|Enables you to run a specific XMLport.|**DynamicsNAV:////runxmlport?xmlport=\<xmlport id>**|`DynamicsNAV:////runxmlport?xmlport=99008500`|  
@@ -116,8 +116,8 @@ DynamicsNAV://///navigate?node=Home/Items
 |Programmatically|Use the GETURL function to generate a URL that opens objects in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], [!INCLUDE[nav_web](includes/nav_web_md.md)], or a SOAP or OData web service and automatically inserts the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration. For more information, see [GETURL Function](GETURL-Function.md).|  
   
 ## See Also  
- [Starting the Windows Client at the Command Prompt](Starting%20the%20Windows%20Client%20at%20the%20Command%20Prompt.md)   
- [How to: Run Reports](How-to--Run%20Reports.md)   
+ [Starting the Windows Client at the Command Prompt](Starting-the-Windows-Client-at-the-Command-Prompt.md)   
+ [How to: Run Reports](How-to--Run-Reports.md)   
  [GETURL Function](GETURL-Function.md)   
  [SOAP Web Services](SOAP-Web-Services.md)   
  [OData Web Services](OData-Web-Services.md)

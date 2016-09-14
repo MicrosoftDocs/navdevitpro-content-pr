@@ -20,4 +20,4 @@ On the **Debugger** page, if code execution has paused and an error has occurred
   
 ## See Also  
  [Debugging](Debugging.md)   
- [How to: View Variables That Are in Scope](How-to--View%20Variables%20That%20Are%20in%20Scope.md)
+ [How to: View Variables That Are in Scope](How-to--View-Variables-That-Are-in-Scope.md)

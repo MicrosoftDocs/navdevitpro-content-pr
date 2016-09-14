@@ -28,13 +28,13 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], [!INCLUDE[nav_windows](inc
 |To|See|  
 |--------|---------|  
 |Get a general overview about how to develop control add-ins, including design considerations.|[Developing Windows Client Control Add-ins](Developing-Windows-Client-Control-Add-ins.md)|  
-|Learn how to create a control add-in.|[How to: Create a Windows Client Control Add-in](How-to--Create%20a%20Windows%20Client%20Control%20Add-in.md)|  
+|Learn how to create a control add-in.|[How to: Create a Windows Client Control Add-in](How-to--Create-a-Windows-Client-Control-Add-in.md)|  
 |Learn how control add-ins bind with data in the [!INCLUDE[navnow](includes/navnow_md.md)] database.|[Binding a Windows Client Control Add-in to the Database](Binding-a-Windows-Client-Control-Add-in-to-the-Database.md)|  
 |Learn how control add-ins use events to call C/AL triggers on a page.|[Exposing Events and Calling Respective C-AL Triggers from a Windows Client Control Add-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md)|  
 |Learn about how to expose methods and properties to C/AL code.|[Exposing Methods and Properties in a Windows Client Control Add-in](Exposing-Methods-and-Properties-in-a-Windows-Client-Control-Add-in.md)|  
 |Learn about how to change the size of a control add-in.|[Sizing a Control Add-in on a Page](Sizing-a-Control-Add-in-on-a-Page.md)|  
 |Learn about the client extensibility API that you use to create control add-ins.|[Client Extensibility API Overview](Client-Extensibility-API-Overview.md) **Note:**  For more information about the API, see the Client Extensibility Reference for Microsoft Dynamics NAV in the [Technical Reference](Technical-Reference.md) section.|  
-|Follow a walkthrough that leads you from the development of a simple control add-in through its implementation on a page.|[Walkthrough: Creating and Using a Windows Client Control Add-in](Walkthrough:%20Creating%20and%20Using%20a%20Windows%20Client%20Control%20Add-in.md)|  
+|Follow a walkthrough that leads you from the development of a simple control add-in through its implementation on a page.|[Walkthrough: Creating and Using a Windows Client Control Add-in](Walkthrough:-Creating-and-Using-a-Windows-Client-Control-Add-in.md)|  
 |Learn about the Interactive Timeline Business Data Visualization add-in.|[Interactive Timeline Business Data Visualization](Interactive-Timeline-Business-Data-Visualization.md)|  
   
 ## Using [!INCLUDE[nav_windows](includes/nav_windows_md.md)] Control Add-ins on Pages  
@@ -42,13 +42,13 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], [!INCLUDE[nav_windows](inc
 |To|See|  
 |--------|---------|  
 |Get a general overview about how to use control add-ins on [!INCLUDE[nav_windows](includes/nav_windows_md.md)] pages.|[Installing and Configuring Windows Client Control Add-ins on Pages](Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)|  
-|Learn how to install control add-ins on computers that are running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].|[How to: Install a Windows Client Control Add-in Assembly](How-to--Install%20a%20Windows%20Client%20Control%20Add-in%20Assembly.md)|  
-|Learn how to register a control add-in in the [!INCLUDE[navnow](includes/navnow_md.md)] database so that it is available to use on pages.|[How to: Register a Windows Client Control Add-in](How-to--Register%20a%20Windows%20Client%20Control%20Add-in.md)|  
-|Learn how to use a control add-in on a page.|[How to: Set Up a Windows Client Control Add-in on a Page](How-to--Set%20Up%20a%20Windows%20Client%20Control%20Add-in%20on%20a%20Page.md)|  
-|Follow a walkthrough that leads you from the development of a simple control add-in through its implementation on a page.|[Walkthrough: Creating and Using a Windows Client Control Add-in](Walkthrough:%20Creating%20and%20Using%20a%20Windows%20Client%20Control%20Add-in.md)|  
+|Learn how to install control add-ins on computers that are running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].|[How to: Install a Windows Client Control Add-in Assembly](How-to--Install-a-Windows-Client-Control-Add-in-Assembly.md)|  
+|Learn how to register a control add-in in the [!INCLUDE[navnow](includes/navnow_md.md)] database so that it is available to use on pages.|[How to: Register a Windows Client Control Add-in](How-to--Register-a-Windows-Client-Control-Add-in.md)|  
+|Learn how to use a control add-in on a page.|[How to: Set Up a Windows Client Control Add-in on a Page](How-to--Set-Up-a-Windows-Client-Control-Add-in-on-a-Page.md)|  
+|Follow a walkthrough that leads you from the development of a simple control add-in through its implementation on a page.|[Walkthrough: Creating and Using a Windows Client Control Add-in](Walkthrough:-Creating-and-Using-a-Windows-Client-Control-Add-in.md)|  
   
 ## See Also  
  [Extending Any Microsoft Dynamics NAV Client Using Control Add-ins](Extending-Any-Microsoft-Dynamics-NAV-Client-Using-Control-Add-ins.md)   
- [How to: Determine the Public Key Token of the Windows Client Control Add-in and .NET Framework Assembly](How-to--Determine%20the%20Public%20Key%20Token%20of%20the%20Windows%20Client%20Control%20Add-in%20and%20.NET%20Framework%20Assembly.md)   
+ [How to: Determine the Public Key Token of the Windows Client Control Add-in and .NET Framework Assembly](How-to--Determine-the-Public-Key-Token-of-the-Windows-Client-Control-Add-in-and-.NET-Framework-Assembly.md)   
  [Pages](Pages.md)   
  [Touring the RoleTailored Client for Developers](Touring-the-RoleTailored-Client-for-Developers.md)

@@ -32,9 +32,9 @@ Whether you are using an RDLC report layout in Visual Studio or a Word report la
   
 6.  To add the label to a report layout, see one of the following procedures.  
   
-    -   [How to: Add Labels to an RDLC Report Layout](How-to--Add%20Labels%20to%20an%20RDLC%20Report%20Layout.md)  
+    -   [How to: Add Labels to an RDLC Report Layout](How-to--Add-Labels-to-an-RDLC-Report-Layout.md)  
   
-    -   [How to: Add Fields to a Word Report Layout](How-to--Add%20Fields%20to%20a%20Word%20Report%20Layout.md)  
+    -   [How to: Add Fields to a Word Report Layout](How-to--Add-Fields-to-a-Word-Report-Layout.md)  
   
 ### To add a label that is not related to a column of data item  
   
@@ -61,12 +61,12 @@ Whether you are using an RDLC report layout in Visual Studio or a Word report la
   
 10. To add the label to a report layout, see one of the following procedures.  
   
-    -   [How to: Add Labels to an RDLC Report Layout](How-to--Add%20Labels%20to%20an%20RDLC%20Report%20Layout.md)  
+    -   [How to: Add Labels to an RDLC Report Layout](How-to--Add-Labels-to-an-RDLC-Report-Layout.md)  
   
-    -   [How to: Add Fields to a Word Report Layout](How-to--Add%20Fields%20to%20a%20Word%20Report%20Layout.md)  
+    -   [How to: Add Fields to a Word Report Layout](How-to--Add-Fields-to-a-Word-Report-Layout.md)  
   
 ## See Also  
- [How to: Create a Report Dataset](How-to--Create%20a%20Report%20Dataset.md)   
+ [How to: Create a Report Dataset](How-to--Create-a-Report-Dataset.md)   
  [Designing Reports](Designing-Reports.md)   
  [IncludeCaption Property](IncludeCaption-Property.md)   
  [CaptionML Property](CaptionML-Property.md)   

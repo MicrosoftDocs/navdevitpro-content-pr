@@ -52,4 +52,4 @@ Before you start using the Microsoft Azure cmdlets to automate deployments, you 
   
 ## See Also  
  [Preparing for Deploying Microsoft Dynamics NAV on Microsoft Azure](Preparing-for-Deploying-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
- [How to: Install the Microsoft Azure Cmdlets Module](How-to--Install%20the%20Microsoft%20Azure%20Cmdlets%20Module.md)
+ [How to: Install the Microsoft Azure Cmdlets Module](How-to--Install-the-Microsoft-Azure-Cmdlets-Module.md)

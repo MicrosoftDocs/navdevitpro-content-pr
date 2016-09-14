@@ -80,6 +80,6 @@ You can specify page settings and page orientation for a printed report from the
 >  The values in the **Page Setup** dialog box are initially set to the values from the **Report Properties** dialog box on the RDLC report layout.  
   
 ## See Also  
- [How to: Specify Printer Selection for Reports](How-to--Specify%20Printer%20Selection%20for%20Reports.md)   
- [How to: Verify the Paper Size](How-to--Verify%20the%20Paper%20Size.md)   
+ [How to: Specify Printer Selection for Reports](How-to--Specify-Printer-Selection-for-Reports.md)   
+ [How to: Verify the Paper Size](How-to--Verify-the-Paper-Size.md)   
  [Printing Reports from a Background Session](Printing-Reports-from-a-Background-Session.md)

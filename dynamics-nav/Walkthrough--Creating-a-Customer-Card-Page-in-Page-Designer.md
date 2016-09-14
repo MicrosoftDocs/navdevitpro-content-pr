@@ -43,7 +43,7 @@ In this walkthrough, you learn how to create a card page to display customer det
  To create a customer card page to run on the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], Simon knows that he must use the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] Object Designer.  
   
 > [!NOTE]  
->  In this walkthrough, to learn about the properties and controls of a card page you will create a card page from a blank page. Object Designer also includes a wizard that you can use to create a card page that sets up many properties and controls for you. For more information about the wizard, see [How to: Create a Page](How-to--Create%20a%20Page.md).  
+>  In this walkthrough, to learn about the properties and controls of a card page you will create a card page from a blank page. Object Designer also includes a wizard that you can use to create a card page that sets up many properties and controls for you. For more information about the wizard, see [How to: Create a Page](How-to--Create-a-Page.md).  
   
 #### To create a card page  
   
@@ -162,10 +162,10 @@ In this walkthrough, you learn how to create a card page to display customer det
  Simon wants to create a customer list page for his customers and to create a link from the list page to Kevin's Customer Card page.  
   
 ## See Also  
- [Walkthrough: Creating a Customer List in Page Designer](Walkthrough:%20Creating%20a%20Customer%20List%20in%20Page%20Designer.md)   
- [How to: Create a CardPart Page For Displaying Customer Data in a FactBox](How-to--Create%20a%20CardPart%20Page%20For%20Displaying%20Customer%20Data%20in%20a%20FactBox.md)   
- [How to: Add FastTabs to a Customer Card Page](How-to--Add%20FastTabs%20to%20a%20Customer%20Card%20Page.md)   
+ [Walkthrough: Creating a Customer List in Page Designer](Walkthrough:-Creating-a-Customer-List-in-Page-Designer.md)   
+ [How to: Create a CardPart Page For Displaying Customer Data in a FactBox](How-to--Create-a-CardPart-Page-For-Displaying-Customer-Data-in-a-FactBox.md)   
+ [How to: Add FastTabs to a Customer Card Page](How-to--Add-FastTabs-to-a-Customer-Card-Page.md)   
  [Page Designer Troubleshooting](Page-Designer-Troubleshooting.md)   
- [How to: Create a Page](How-to--Create%20a%20Page.md)   
+ [How to: Create a Page](How-to--Create-a-Page.md)   
  [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
- [How to: Run a Page](How-to--Run%20a%20Page.md)
+ [How to: Run a Page](How-to--Run-a-Page.md)

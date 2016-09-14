@@ -43,7 +43,7 @@ This topic describes how to use PerfView to collect event trace data for [!INCLU
   
 8.  To stop recording data, choose the **Stop Collection** button.  
   
- The collected event trace data is stored in an event trace log \(.etl\) file in the location that you specified. You can view the data in the log file by using various industry-standard tools, such as PerfView. For information about how to use PerfView to view the event trace data, see [How to: Use PerfView to View Event Trace Data](How-to--Use%20PerfView%20to%20View%20Event%20Trace%20Data.md).  
+ The collected event trace data is stored in an event trace log \(.etl\) file in the location that you specified. You can view the data in the log file by using various industry-standard tools, such as PerfView. For information about how to use PerfView to view the event trace data, see [How to: Use PerfView to View Event Trace Data](How-to--Use-PerfView-to-View-Event-Trace-Data.md).  
   
 ##  <a name="ViewDataPerfView"></a> To view event trace data from an event trace log file  
   

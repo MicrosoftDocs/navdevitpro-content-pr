@@ -70,6 +70,6 @@ CurrPage.ControlName.MyProperty
 -   [OnNewRecord Trigger](OnNewRecord-Trigger.md)  
   
 ## See Also  
- [How to: Create a Windows Client Control Add-in](How-to--Create%20a%20Windows%20Client%20Control%20Add-in.md)   
+ [How to: Create a Windows Client Control Add-in](How-to--Create-a-Windows-Client-Control-Add-in.md)   
  [Extending the Windows Client Using Control Add-ins](Extending-the-Windows-Client-Using-Control-Add-ins.md)   
  [Extending Microsoft Dynamics NAV Using Microsoft .NET Framework Interoperability](Extending-Microsoft-Dynamics-NAV-Using-Microsoft-.NET-Framework-Interoperability.md)

@@ -21,7 +21,7 @@ You can set FlowFilters on the data that your OData web service extracts from th
   
 #### To query data on the Item Card page using a FlowFilter  
   
-1.  Register and publish a page web service by using the [!INCLUDE[rtc](includes/rtc_md.md)] as described in [Walkthrough: Creating and Interacting with a Page Web Service \(OData\)](Walkthrough:%20Creating%20and%20Interacting%20with%20a%20Page%20Web%20Service%20\(OData\).md). Register and publish page 30, Item Card, and name the service **ItemCard**.  
+1.  Register and publish a page web service by using the [!INCLUDE[rtc](includes/rtc_md.md)] as described in [Walkthrough: Creating and Interacting with a Page Web Service \(OData\)](Walkthrough:-Creating-and-Interacting-with-a-Page-Web-Service-\(OData\).md). Register and publish page 30, Item Card, and name the service **ItemCard**.  
   
 2.  Start Windows Internet Explorer, and then in the **Address** field, enter a URI in this format:  
   
@@ -52,7 +52,7 @@ You can set FlowFilters on the data that your OData web service extracts from th
 4.  Create a URI that returns information for a single item card. For example:  
   
     ```  
-    http://localhost:7048/DynamicsNAV/OData/Company('CRONUS%20International%20Ltd.')/ItemCard('1906-S')  
+    http://localhost:7048/DynamicsNAV/OData/Company('CRONUS-International-Ltd.')/ItemCard('1906-S')  
     ```  
   
      This is the "ATHENS Mobile Pedestal" item. The value for the *Qty\_on\_Sales\_Order* parameter is 33:  
@@ -64,7 +64,7 @@ You can set FlowFilters on the data that your OData web service extracts from th
 5.  Apply a FlowFilter to that item and specify **GREEN** as the value for the **Location\_Filter**:  
   
     ```  
-    http://localhost:7048/DynamicsNAV/OData/Company('CRONUS%20International%20Ltd.')/ItemCard('1906-S')?$filter=Location_Filter eq 'GREEN'  
+    http://localhost:7048/DynamicsNAV/OData/Company('CRONUS-International-Ltd.')/ItemCard('1906-S')?$filter=Location_Filter eq 'GREEN'  
     ```  
   
      The item is returned as before, the value of the FlowField that has changed. The value for the *Qty\_on\_Sales\_Order* parameter is now 27:  

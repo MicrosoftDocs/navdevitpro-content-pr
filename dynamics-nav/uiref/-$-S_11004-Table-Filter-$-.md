@@ -17,4 +17,4 @@ Sets a table filter.
  To open this window, on the **Tools** menu, choose **Object Designer**, and then on the **View** menu, choose **Table Filter**.  
 
 ## See Also  
- [How to: Define Table Filters](../How%20to:%20Define%20Table%20Filters.md)
+ [How to: Define Table Filters](../How-to:-Define-Table-Filters.md)

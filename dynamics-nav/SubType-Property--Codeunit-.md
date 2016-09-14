@@ -22,8 +22,8 @@ Sets the codeunit to function as a normal, test, test runner, or upgrade codeuni
 |**Value**|**Description**|  
 |---------------|---------------------|  
 |**Normal**|A normal codeunit. This is the default setting.|  
-|**Test**|A test codeunit includes C/AL functions that test the application. For more information, see [How to: Create Test Codeunits and Test Functions](How-to--Create%20Test%20Codeunits%20and%20Test%20Functions.md).|  
-|**TestRunner**|A test runner codeunit manages the execution of one or more test codeunits. For more information, see [How to: Create a Test Runner Codeunit](How-to--Create%20a%20Test%20Runner%20Codeunit.md).|  
+|**Test**|A test codeunit includes C/AL functions that test the application. For more information, see [How to: Create Test Codeunits and Test Functions](How-to--Create-Test-Codeunits-and-Test-Functions.md).|  
+|**TestRunner**|A test runner codeunit manages the execution of one or more test codeunits. For more information, see [How to: Create a Test Runner Codeunit](How-to--Create-a-Test-Runner-Codeunit.md).|  
 |**Upgrade**|An upgrade codeunit includes C/AL functions for synchronizing changes to a table definition in an application with the business data table in SQL Server and migrating existing data. For more information, see [Upgrade Codeunits](Upgrade-Codeunits.md).|  
   
 ## Remarks  
@@ -43,7 +43,7 @@ Sets the codeunit to function as a normal, test, test runner, or upgrade codeuni
   
 ## See Also  
  [Testing the Application](Testing-the-Application.md)   
- [How to: Create Test Codeunits and Test Functions](How-to--Create%20Test%20Codeunits%20and%20Test%20Functions.md)   
- [How to: Create Handler Functions](How-to--Create%20Handler%20Functions.md)   
- [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough:%20Testing%20Purchase%20Invoice%20Discounts.md)   
+ [How to: Create Test Codeunits and Test Functions](How-to--Create-Test-Codeunits-and-Test-Functions.md)   
+ [How to: Create Handler Functions](How-to--Create-Handler-Functions.md)   
+ [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough:-Testing-Purchase-Invoice-Discounts.md)   
  [Codeunits](Codeunits.md)

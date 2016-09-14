@@ -98,7 +98,7 @@ Query.READ;
   
     -   Includes columns for the **Name** and **No.** fields from the Customer table and the **Quantity** field from Sales Lines table.  
   
-         For step-by-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
+         For step-by-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:-Creating-a-Query-to-Link-Two-Tables.md).  
   
 2.  Create the following C/AL variables and text constant in the object that will run the query, such as a codeunit.  
   

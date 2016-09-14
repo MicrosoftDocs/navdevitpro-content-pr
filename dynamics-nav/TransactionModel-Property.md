@@ -72,5 +72,5 @@ Specifies whether data is committed to the database during execution of a test f
  [TestIsolation Property](TestIsolation-Property.md)   
  [Testing the Application](Testing-the-Application.md)   
  [Testing Pages](Testing-Pages.md)   
- [How to: Create Test Codeunits and Test Functions](How-to--Create%20Test%20Codeunits%20and%20Test%20Functions.md)   
+ [How to: Create Test Codeunits and Test Functions](How-to--Create-Test-Codeunits-and-Test-Functions.md)   
  [C-AL ASSERTERROR Statements](C-AL-ASSERTERROR-Statements.md)

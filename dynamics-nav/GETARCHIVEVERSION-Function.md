@@ -21,4 +21,4 @@ Returns the version of the [!INCLUDE[navnow](includes/navnow_md.md)] extension t
   
 ## See Also  
  [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)   
- [How to: Develop an Extension](How-to--Develop%20an%20Extension.md)
+ [How to: Develop an Extension](How-to--Develop-an-Extension.md)

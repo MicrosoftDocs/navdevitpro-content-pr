@@ -44,5 +44,5 @@ RecordVar.SecurityFiltering := SecurityFilter::<Disallowed|Filtered|Ignored|Vali
   
 ## See Also  
  [Record-Level Security](Record-Level-Security.md)   
- [How to: Set Security Filters](How-to--Set%20Security%20Filters.md)   
+ [How to: Set Security Filters](How-to--Set-Security-Filters.md)   
  [Security Filter Modes](Security-Filter-Modes.md)

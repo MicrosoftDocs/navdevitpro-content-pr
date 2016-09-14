@@ -53,7 +53,7 @@ Reads a filtered set of records. This operation returns an array of entities. Th
 -   Criteria is of type string and can contain any valid [!INCLUDE[navnow](includes/navnow_md.md)] style filter that is specified in a standard [!INCLUDE[navnow](includes/navnow_md.md)] filter format.  
   
 ## Usage Examples  
- The following example returns the first 100 customer names that start with an S. For a detailed code example, see [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](Walkthrough:%20Registering%20and%20Using%20a%20Page%20Web%20Service%20\(SOAP\).md).  
+ The following example returns the first 100 customer names that start with an S. For a detailed code example, see [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](Walkthrough:-Registering-and-Using-a-Page-Web-Service-\(SOAP\).md).  
   
 ```c#  
 List<Customer_Filter> filterArray = new List<Customer_Filter>();  

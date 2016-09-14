@@ -55,8 +55,8 @@ Developers and administrators use the [!INCLUDE[nav_dev_long](includes/nav_dev_l
 12. When Setup is finished, choose **Close**.  
   
 ## See Also  
- [How to: Choose Components to Install](How-to--Choose%20Components%20to%20Install.md)   
- [How to: Upload the License File](How-to--Upload%20the%20License%20File.md)   
- [How to: Create Microsoft Dynamics NAV Users](How-to--Create%20Microsoft%20Dynamics%20NAV%20Users.md)   
+ [How to: Choose Components to Install](How-to--Choose-Components-to-Install.md)   
+ [How to: Upload the License File](How-to--Upload-the-License-File.md)   
+ [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md)   
  [Development](Development.md)   
  [Administration in the Development Environment](Administration-in-the-Development-Environment.md)

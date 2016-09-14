@@ -15,14 +15,14 @@ manager: edupont
 This section contains information to help you resolve problems using the [!INCLUDE[nav_web](includes/nav_web_md.md)], the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)], and the [!INCLUDE[nav_phone](includes/nav_phone_md.md)].  
   
 ## Troubleshooting Topics  
- [Troubleshooting: Compression Option in IIS](Troubleshooting:%20Compression%20Option%20in%20IIS.md)  
+ [Troubleshooting: Compression Option in IIS](Troubleshooting:-Compression-Option-in-IIS.md)  
   
- [Troubleshooting: The File that You Are Trying to Use Is Too Large](Troubleshooting:%20The%20File%20that%20You%20Are%20Trying%20to%20Use%20Is%20Too%20Large.md)  
+ [Troubleshooting: The File that You Are Trying to Use Is Too Large](Troubleshooting:-The-File-that-You-Are-Trying-to-Use-Is-Too-Large.md)  
   
- [Troubleshooting: Icon Font Not Loaded](Troubleshooting:%20Icon%20Font%20Not%20Loaded.md)  
+ [Troubleshooting: Icon Font Not Loaded](Troubleshooting:-Icon-Font-Not-Loaded.md)  
   
- [Troubleshooting: Device Date is Causing Connection Issues](Troubleshooting:%20Device%20Date%20is%20Causing%20Connection%20Issues.md)  
+ [Troubleshooting: Device Date is Causing Connection Issues](Troubleshooting:-Device-Date-is-Causing-Connection-Issues.md)  
   
- [Troubleshooting: Client Returns Wrong CLIENTTYPE](Troubleshooting:%20Client%20Returns%20Wrong%20CLIENTTYPE.md)  
+ [Troubleshooting: Client Returns Wrong CLIENTTYPE](Troubleshooting:-Client-Returns-Wrong-CLIENTTYPE.md)  
   
- [Troubleshooting: The Server Is Not Compatible](Troubleshooting:%20The%20Server%20Is%20Not%20Compatible.md)
+ [Troubleshooting: The Server Is Not Compatible](Troubleshooting:-The-Server-Is-Not-Compatible.md)

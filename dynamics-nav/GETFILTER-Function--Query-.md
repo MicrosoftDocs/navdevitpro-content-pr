@@ -38,7 +38,7 @@ Filter := Query.GETFILTER(Column)
  The **GETFILTER** function returns the filters that are currently set for a data column or filter row by the [SETFILTER Function \(Query\)](SETFILTER-Function--Query-.md) function, [SETRANGE Function \(Query\)](SETRANGE-Function--Query-.md) function, and the column's [ColumnFilter Property](ColumnFilter-Property.md) in Query Designer. The **GETFILTER** function does not return filters that are set on a column's source field by the [DataItemTableFilter Property](DataItemTableFilter-Property.md) in Query Designer or global filters that are set by the **FILTERGROUP** function.  
   
 > [!NOTE]  
->  A filter row is row in Query Designer that is used to filter on a field that is not included in the resulting dataset. For more information, see [Understanding Query Filters](Understanding-Query-Filters.md) and [How to: Set Up Filter Rows in Query Designer](How-to--Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md).  
+>  A filter row is row in Query Designer that is used to filter on a field that is not included in the resulting dataset. For more information, see [Understanding Query Filters](Understanding-Query-Filters.md) and [How to: Set Up Filter Rows in Query Designer](How-to--Set-Up-Filter-Rows-in-Query-Designer.md).  
   
  You can call the **GETFILTER** function multiple times and at any point in the code. If you call the **GETFILTER** function before the **SETFILTER** or **SETRANGE** function, then the **GETFILTER** function returns only filters on the column that are set by the column's ColumnFilter property.  
   
@@ -69,7 +69,7 @@ Query.READ;
   
     -   Includes columns for the **Name** and **No.** fields from the **Customer** table and the **Quantity** field from **Sales Lines** table.  
   
-         For step-by-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
+         For step-by-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:-Creating-a-Query-to-Link-Two-Tables.md).  
   
     -   The ColumnFilter property of the **Quantity** column is set to include values greater than 5.  
   

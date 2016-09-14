@@ -57,5 +57,5 @@ END;
   
 ## See Also  
  [Application Test Automation](Application-Test-Automation.md)   
- [How to: Create a Test Runner Codeunit](How-to--Create%20a%20Test%20Runner%20Codeunit.md)   
+ [How to: Create a Test Runner Codeunit](How-to--Create-a-Test-Runner-Codeunit.md)   
  [Testing the Application](Testing-the-Application.md)

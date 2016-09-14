@@ -23,6 +23,6 @@ Specifies the icon that you want to associate with an action or an activity butt
   
 ## See Also  
  [Properties](Properties.md)   
- [How to: Promote Actions on Pages](How-to--Promote%20Actions%20on%20Pages.md)   
- [How to: Set an Icon on an Activity Button](How-to--Set%20an%20Icon%20on%20an%20Activity%20Button.md)   
- [How to: Set an Icon on an Action](How-to--Set%20an%20Icon%20on%20an%20Action.md)
+ [How to: Promote Actions on Pages](How-to--Promote-Actions-on-Pages.md)   
+ [How to: Set an Icon on an Activity Button](How-to--Set-an-Icon-on-an-Activity-Button.md)   
+ [How to: Set an Icon on an Action](How-to--Set-an-Icon-on-an-Action.md)

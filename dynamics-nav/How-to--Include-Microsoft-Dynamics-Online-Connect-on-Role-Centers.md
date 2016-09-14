@@ -26,7 +26,7 @@ The RoleTailored client installation includes a control add-in that you can use 
   
 1.  Create the Role Center page that has a part that targets the page **9175 Connect**.  
   
-     For more information, see [Walkthrough: Creating a Role Center](Walkthrough:%20Creating%20a%20Role%20Center.md).  
+     For more information, see [Walkthrough: Creating a Role Center](Walkthrough:-Creating-a-Role-Center.md).  
   
 2.  Assign the Role Center to a profile that is supported by Connect.  
   
@@ -44,19 +44,19 @@ The RoleTailored client installation includes a control add-in that you can use 
   
     -   Public token key - 31bf3856ad364e35  
   
-     For more information, see [How to: Register a Windows Client Control Add-in](How-to--Register%20a%20Windows%20Client%20Control%20Add-in.md).  
+     For more information, see [How to: Register a Windows Client Control Add-in](How-to--Register-a-Windows-Client-Control-Add-in.md).  
   
 2.  Use the Connect control add-in on a page.  
   
-     For more information, see [How to: Set Up a Windows Client Control Add-in on a Page](How-to--Set%20Up%20a%20Windows%20Client%20Control%20Add-in%20on%20a%20Page.md).  
+     For more information, see [How to: Set Up a Windows Client Control Add-in on a Page](How-to--Set-Up-a-Windows-Client-Control-Add-in-on-a-Page.md).  
   
 3.  Create the Role Center page and include a part that uses the Connect page from step 2.  
   
-     For more information, see [Walkthrough: Creating a Role Center](Walkthrough:%20Creating%20a%20Role%20Center.md).  
+     For more information, see [Walkthrough: Creating a Role Center](Walkthrough:-Creating-a-Role-Center.md).  
   
 4.  Define the Role Center profile that is supported by Connect and assign it your Role Center.  
   
-     For more information, see [How to: Create a Profile](How-to--Create%20a%20Profile.md).  
+     For more information, see [How to: Create a Profile](How-to--Create-a-Profile.md).  
   
     > [!NOTE]  
     >  You can also use a profile that is not supported by Connect. In this case, when the Role Center opens, the user is prompted to choose a supported profile.  

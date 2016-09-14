@@ -32,4 +32,4 @@ Specifies namespaces for the XMLport that imports or exports data as XML.
 
 ## See Also  
  [Designing XMLports](../Designing-XMLports.md)   
- [How to: Create XMLports](../How%20to:%20Create%20XMLports.md)
+ [How to: Create XMLports](../How-to:-Create-XMLports.md)

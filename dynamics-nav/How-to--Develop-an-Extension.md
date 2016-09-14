@@ -68,7 +68,7 @@ You can build extension packages that add functionality to a [!INCLUDE[navnow](i
   
 5.  Build the extension package.  
   
-     For more information, see [How to: Create an Extension Package](How-to--Create%20an%20Extension%20Package.md).  
+     For more information, see [How to: Create an Extension Package](How-to--Create-an-Extension-Package.md).  
   
 ## Extending Other Extensions  
  You can extend the functionality that another extension has made available. When you do that, you create a dependency between the original extension and the one extending it. This dependency must be verified and compiled when the new extension is published.  
@@ -92,8 +92,8 @@ You can build extension packages that add functionality to a [!INCLUDE[navnow](i
   
 ## See Also  
  [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)   
- [How to: Create an Extension Package](How-to--Create%20an%20Extension%20Package.md)   
- [How to: Publish and Install an Extension](How-to--Publish%20and%20Install%20an%20Extension.md)   
+ [How to: Create an Extension Package](How-to--Create-an-Extension-Package.md)   
+ [How to: Publish and Install an Extension](How-to--Publish-and-Install-an-Extension.md)   
  [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)   
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   
  [Development Cmdlets for Microsoft Dynamics NAV](http://go.microsoft.com/fwlink/?LinkID=510540)

@@ -17,7 +17,7 @@ The [!INCLUDE[nav_web](includes/nav_web_md.md)] uses Microsoft Report Viewer to 
 > [!NOTE]  
 >  By default, Microsoft Report Viewer is configured. The following procedure is only required if you have removed the Microsoft Report Viewer configuration from the web.config file for the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
- Report Viewer also includes an option that lets users save a report as a Microsoft Excel, Microsoft Word, or PDF file. This functionality is not enabled by default. If you want to be able to save reports, you must configure the Report Viewer to save reports. For more information, see [Configuring Report Viewer to Save Reports as Excel XLSX, Word DOCX, or PDF Files](How-to--Configure%20Microsoft%20Report%20Viewer%20for%20the%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#Save).  
+ Report Viewer also includes an option that lets users save a report as a Microsoft Excel, Microsoft Word, or PDF file. This functionality is not enabled by default. If you want to be able to save reports, you must configure the Report Viewer to save reports. For more information, see [Configuring Report Viewer to Save Reports as Excel XLSX, Word DOCX, or PDF Files](How-to--Configure-Microsoft-Report-Viewer-for-the-Microsoft-Dynamics-NAV-Web-Client.md#Save).  
   
 ### To configure Microsoft Report Viewer  
   
@@ -37,7 +37,7 @@ The [!INCLUDE[nav_web](includes/nav_web_md.md)] uses Microsoft Report Viewer to 
  You can set up the Print Preview for reports to include an option that enables users to save a report as an Excel XLSX, Word DOCX, or PDF file. Microsoft Report Viewer uses the Temp folder of the user account that is used as the application pool identity of the [!INCLUDE[nav_web](includes/nav_web_md.md)]. To set up the save as Excel and Word options, the user account must have read, write, and modify permission to the folder. If the user account does not have the correct permissions, then the saved file will be empty.  
   
 > [!NOTE]  
->  If your company uses Microsoft Office 365, the temporary files are stored in the location that is specified for the Office 365 document library. For more information, see [Integrating with Office 365 and SharePoint Online](Integrating%20with%20Office%20365%20and%20SharePoint%20Online.md).  
+>  If your company uses Microsoft Office 365, the temporary files are stored in the location that is specified for the Office 365 document library. For more information, see [Integrating with Office 365 and SharePoint Online](Integrating-with-Office-365-and-SharePoint-Online.md).  
   
 #### To configure Report Viewer to save reports as Excel XLSX, Word DOCX, or PDF files  
   

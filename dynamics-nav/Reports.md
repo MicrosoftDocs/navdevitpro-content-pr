@@ -33,8 +33,8 @@ You can use reports to print or display information from a database. You can use
 |Learn how to design reports.|[Designing Reports](Designing-Reports.md)|  
 |Learn the system requirements for [!INCLUDE[navnowlong](includes/navnowlong_md.md)] reports.|[System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md)|  
 |Upgrade a [!INCLUDE[nav2009](includes/nav2009_md.md)] report to a [!INCLUDE[navnowlong](includes/navnowlong_md.md)] report.|[Upgrading Reports from Earlier Versions](Upgrading-Reports-from-Earlier-Versions.md)|  
-|Add a report to the ribbon in the [!INCLUDE[rtc](includes/rtc_md.md)].|[How to: Make a Report Available from a Page](How-to--Make%20a%20Report%20Available%20from%20a%20Page.md)|  
-|Learn about the different ways to run a specific report.|[How to: Run Reports](How-to--Run%20Reports.md)<br /><br /> [Printing Reports](Printing-Reports.md)|  
+|Add a report to the ribbon in the [!INCLUDE[rtc](includes/rtc_md.md)].|[How to: Make a Report Available from a Page](How-to--Make-a-Report-Available-from-a-Page.md)|  
+|Learn about the different ways to run a specific report.|[How to: Run Reports](How-to--Run-Reports.md)<br /><br /> [Printing Reports](Printing-Reports.md)|  
 |Learn about report triggers and when they are called during report processing.|[Report Triggers](Report-Triggers.md)|  
 |Learn about how to design request pages for reports.|[Request Pages](Request-Pages.md)|  
 |Step through detailed examples of creating reports|[Report Design Walkthroughs](Report-Design-Walkthroughs.md)|  
