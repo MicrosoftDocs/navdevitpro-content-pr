@@ -142,7 +142,7 @@ You can view a report and view the dataset and layout on a computer that does no
     >  If your report includes external images, then in the **Properties** window of the report viewer control, you must set the **EnableExternalImages** property to **True**.  
 
     > [!NOTE]  
-    >  If your report includes hyperlinks, then in the **Properties** window of the report viewer control, you must set the **EnableHyperlinks** property to **True**. For examples of creating reports that include hyperlinks, see [Walkthrough: Creating a Link from a Report to a Report](Walkthrough:-Creating-a-Link-from-a-Report-to-a-Report.md) and [Walkthrough: Creating a Link from a Report to a Page](Walkthrough:-Creating-a-Link-from-a-Report-to-a-Page.md).  
+    >  If your report includes hyperlinks, then in the **Properties** window of the report viewer control, you must set the **EnableHyperlinks** property to **True**. For examples of creating reports that include hyperlinks, see [Walkthrough: Creating a Link from a Report to a Report](Walkthrough--Creating-a-Link-from-a-Report-to-a-Report.md) and [Walkthrough: Creating a Link from a Report to a Page](Walkthrough--Creating-a-Link-from-a-Report-to-a-Page.md).  
 
 11. In Solution Explorer, select the OfflineReport project, and on the shortcut menu, choose **Add**, and then choose **Class**.  
 

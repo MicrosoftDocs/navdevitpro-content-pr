@@ -28,4 +28,4 @@ Sets the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] control add-in to u
  [Windows Client Control Add-in Overview](Windows-Client-Control-Add-in-Overview.md)   
  [Installing and Configuring Windows Client Control Add-ins on Pages](Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)   
  [Developing Windows Client Control Add-ins](Developing-Windows-Client-Control-Add-ins.md)   
- [Walkthrough: Creating and Using a Windows Client Control Add-in](Walkthrough:-Creating-and-Using-a-Windows-Client-Control-Add-in.md)
+ [Walkthrough: Creating and Using a Windows Client Control Add-in](Walkthrough--Creating-and-Using-a-Windows-Client-Control-Add-in.md)

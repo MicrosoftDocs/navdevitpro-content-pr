@@ -38,8 +38,8 @@ This section identifies components that you can preconfigure in [!INCLUDE[navnow
 ## See Also  
  [Configuring Automated Data Capture System](Configuring-Automated-Data-Capture-System.md)   
  [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)   
- [Walkthrough: Setting Up Outlook Synchronization](Walkthrough:-Setting-Up-Outlook-Synchronization.md)   
+ [Walkthrough: Setting Up Outlook Synchronization](Walkthrough--Setting-Up-Outlook-Synchronization.md)   
  [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md)   
  [Removing Elements from the User Interface According to Permissions](Removing-Elements-from-the-User-Interface-According-to-Permissions.md)   
  [Customize the User Interface](Customize-the-User-Interface.md)   
- [Walkthrough: Setting Up and Using a Purchase Approval Workflow](Walkthrough:-Setting-Up-and-Using-a-Purchase-Approval-Workflow.md)
+ [Walkthrough: Setting Up and Using a Purchase Approval Workflow](Walkthrough--Setting-Up-and-Using-a-Purchase-Approval-Workflow.md)

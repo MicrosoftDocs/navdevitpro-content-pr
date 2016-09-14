@@ -89,6 +89,6 @@ automationObject.CallObjectMember();
  [COM Overview](COM-Overview.md)   
  [How to: Create an Automation Controller](How-to--Create-an-Automation-Controller.md)   
  [Programming Best Practices](Programming-Best-Practices.md)   
- [Walkthrough: Using Automation to Write a Letter in Microsoft Office Word](Walkthrough:-Using-Automation-to-Write-a-Letter-in-Microsoft-Office-Word.md)   
- [Walkthrough: Using Automation to Create a Graph in Microsoft Excel](Walkthrough:-Using-Automation-to-Create-a-Graph-in-Microsoft-Excel.md)   
+ [Walkthrough: Using Automation to Write a Letter in Microsoft Office Word](Walkthrough--Using-Automation-to-Write-a-Letter-in-Microsoft-Office-Word.md)   
+ [Walkthrough: Using Automation to Create a Graph in Microsoft Excel](Walkthrough--Using-Automation-to-Create-a-Graph-in-Microsoft-Excel.md)   
  [Security and Protection](Security-and-Protection.md)

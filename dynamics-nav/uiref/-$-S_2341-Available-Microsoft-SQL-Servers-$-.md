@@ -19,5 +19,5 @@ Shows a list of the SQL Server instances that are currently available in the dom
  To choose a server that is on the list, either select it and then choose the **OK** button or double-click the server name.  
 
 ## See Also  
- [How to: Create Databases](../How-to:-Create-Databases.md)   
- [How to: Open Databases](../How-to:-Open-Databases.md)
+ [How to: Create Databases](../How-to--Create-Databases.md)   
+ [How to: Open Databases](../How-to--Open-Databases.md)

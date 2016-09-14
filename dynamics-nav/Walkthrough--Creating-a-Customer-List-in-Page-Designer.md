@@ -133,8 +133,8 @@ In this walkthrough, you will learn how to create a basic page that displays a l
  Next, Simon needs to add actions to the customer list page. He decides that he wants to add a Sales Order action. When selected, this action will create a new sales order.  
   
 ## See Also  
- [Walkthrough: Adding Actions to a Customer List Page](Walkthrough:-Adding-Actions-to-a-Customer-List-Page.md)   
- [Walkthrough: Adding a FactBox to the Customer List Page](Walkthrough:-Adding-a-FactBox-to-the-Customer-List-Page.md)   
+ [Walkthrough: Adding Actions to a Customer List Page](Walkthrough--Adding-Actions-to-a-Customer-List-Page.md)   
+ [Walkthrough: Adding a FactBox to the Customer List Page](Walkthrough--Adding-a-FactBox-to-the-Customer-List-Page.md)   
  [How to: Create a Page](How-to--Create-a-Page.md)   
  [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
  [How to: Run a Page](How-to--Run-a-Page.md)

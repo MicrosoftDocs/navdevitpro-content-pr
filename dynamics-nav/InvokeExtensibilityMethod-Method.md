@@ -45,7 +45,7 @@ Invokes a C/AL trigger on the [!INCLUDE[nav_server](includes/nav_server_md.md)] 
 |**true**|**true**|No method call.|  
   
 ## Example  
- For a detailed code example, see [Walkthrough: Creating and Using a Client Control Add-in](Walkthrough:-Creating-and-Using-a-Client-Control-Add-in.md)  
+ For a detailed code example, see [Walkthrough: Creating and Using a Client Control Add-in](Walkthrough--Creating-and-Using-a-Client-Control-Add-in.md)  
   
 ```  
 var map = new VEMap('controlAddIn');  

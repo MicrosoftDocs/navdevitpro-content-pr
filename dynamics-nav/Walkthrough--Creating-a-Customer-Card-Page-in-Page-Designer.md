@@ -162,7 +162,7 @@ In this walkthrough, you learn how to create a card page to display customer det
  Simon wants to create a customer list page for his customers and to create a link from the list page to Kevin's Customer Card page.  
   
 ## See Also  
- [Walkthrough: Creating a Customer List in Page Designer](Walkthrough:-Creating-a-Customer-List-in-Page-Designer.md)   
+ [Walkthrough: Creating a Customer List in Page Designer](Walkthrough--Creating-a-Customer-List-in-Page-Designer.md)   
  [How to: Create a CardPart Page For Displaying Customer Data in a FactBox](How-to--Create-a-CardPart-Page-For-Displaying-Customer-Data-in-a-FactBox.md)   
  [How to: Add FastTabs to a Customer Card Page](How-to--Add-FastTabs-to-a-Customer-Card-Page.md)   
  [Page Designer Troubleshooting](Page-Designer-Troubleshooting.md)   

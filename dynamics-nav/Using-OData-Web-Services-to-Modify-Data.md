@@ -44,4 +44,4 @@ You can write to the [!INCLUDE[navnow](includes/navnow_md.md)] database using an
 ## See Also  
  [OData Web Services](OData-Web-Services.md)   
  [How to: Use OData to Return-Obtain a JSON Document](How-to--Use-OData-to-Return-Obtain-a-JSON-Document.md)   
- [Walkthrough: Creating and Interacting with a Page Web Service \(OData\)](Walkthrough:-Creating-and-Interacting-with-a-Page-Web-Service-\(OData\).md)
+ [Walkthrough: Creating and Interacting with a Page Web Service \(OData\)](Walkthrough--Creating-and-Interacting-with-a-Page-Web-Service-\(OData\).md)

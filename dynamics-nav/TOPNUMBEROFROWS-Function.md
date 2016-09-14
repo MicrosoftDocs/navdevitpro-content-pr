@@ -50,7 +50,7 @@ Specifies the maximum number of rows to include in the resulting dataset of a qu
   
     -   Includes columns for the **Name** and **No.** fields from the **Customer** table and the **Quantity** field from **Sales Lines** table.  
   
-         For step-by-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:-Creating-a-Query-to-Link-Two-Tables.md).  
+         For step-by-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough--Creating-a-Query-to-Link-Two-Tables.md).  
   
     -   The [TopNumberOfRows Property](TopNumberOfRows-Property.md) is set to include only the first 5 rows in the resulting dataset. This setting will be overwritten by the TOPNUMBEROFROWS function.  
   

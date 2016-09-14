@@ -146,5 +146,5 @@ This walkthrough illustrates how to set up a report to include a link from the *
 9. In the **Run** window, enter the following text: **dynamicsnav:////runreport?report=111**, and then choose the **OK** button.  
 
 ## See Also  
- [Walkthrough: Creating a Link from a Report to a Page](Walkthrough:-Creating-a-Link-from-a-Report-to-a-Page.md)   
+ [Walkthrough: Creating a Link from a Report to a Page](Walkthrough--Creating-a-Link-from-a-Report-to-a-Page.md)   
  [Report Design Walkthroughs](Report-Design-Walkthroughs.md)

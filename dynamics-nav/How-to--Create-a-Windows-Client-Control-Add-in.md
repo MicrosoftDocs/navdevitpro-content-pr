@@ -264,4 +264,4 @@ namespace NavInkControl
  [Exposing Events and Calling Respective C-AL Triggers from a Windows Client Control Add-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md)   
  [Installing and Configuring Windows Client Control Add-ins on Pages](Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)   
  [Windows Client Control Add-in Overview](Windows-Client-Control-Add-in-Overview.md)   
- [Walkthrough: Creating and Using a Windows Client Control Add-in](Walkthrough:-Creating-and-Using-a-Windows-Client-Control-Add-in.md)
+ [Walkthrough: Creating and Using a Windows Client Control Add-in](Walkthrough--Creating-and-Using-a-Windows-Client-Control-Add-in.md)

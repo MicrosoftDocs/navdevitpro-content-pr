@@ -33,7 +33,7 @@ You can open a specific page in the [!INCLUDE[nav_web](includes/nav_web_md.md)] 
  The following URL displays page 9305 Sales Order List for the [!INCLUDE[demoname](includes/demoname_md.md)] company. The page is displayed in a [!INCLUDE[nav_web](includes/nav_web_md.md)] that is running on port 8080 of a computer that has the name MyWebServer.  
   
 ```  
-http://MyWebServer:8080/nav_server_instance/WebClient/default.aspx?company=CRONUS-International-Ltd.&page=9305  
+http://MyWebServer:8080/nav_server_instance/WebClient/default.aspx?company=CRONUS%20International%20Ltd.&page=9305  
 ```  
   
  There are several parameters that define the address for the page. These parameters are described in the [URL Parameters](Opening-a-Page-in-the-Microsoft-Dynamics-NAV-Web-Client-by-Using-a-URL.md#Paramters) section of this topic. You can also filter the data on specific fields of the page. For information about how to filter the data, see [Filtering Data on the Page](Opening-a-Page-in-the-Microsoft-Dynamics-NAV-Web-Client-by-Using-a-URL.md#Filtering).  
@@ -69,11 +69,11 @@ http://MyWebServer:8080/nav_server_instance/WebClient/default.aspx?company=CRONU
 -   Place parameters in any order after `aspx?` because the order is not important. For example, the following URLs will yield the same results.  
   
     ```  
-    http://MyWebServer:8080/nav_server_instance/WebClient/default.aspx?company=CRONUS-International-Ltd.&page=9305&mode=View  
+    http://MyWebServer:8080/nav_server_instance/WebClient/default.aspx?company=CRONUS%20International%20Ltd.&page=9305&mode=View  
     ```  
   
     ```  
-    http://MyWebServer:8080/nav_server_instance/WebClient/default.aspx?page=9305&mode=View&company=CRONUS-International-Ltd.  
+    http://MyWebServer:8080/nav_server_instance/WebClient/default.aspx?page=9305&mode=View&company=CRONUS%20International%20Ltd.  
     ```  
   
 -   Separate parameters after `aspx?` with the ampersand symbol \(`&`\).  
@@ -112,7 +112,7 @@ http://MyWebServer:8080/nav_server_instance/WebClient/default.aspx?company=CRONU
  The following address displays data in page 9305 only for the customer who has the Sell-to Customer No. 10000 and the Location Code Blue.  
   
 ```  
-http://MyWebServer:8080/nav_server_instance/WebClient/default.aspx?company=CRONUS-International-Ltd.&page=9305&filter='Sell-to-Customer-No.'-IS-'10000'-AND-'Location-Code'-IS-'BLUE'  
+http://MyWebServer:8080/nav_server_instance/WebClient/default.aspx?company=CRONUS%20International%20Ltd.&page=9305&filter='Sell-to-Customer-No.'-IS-'10000'-AND-'Location-Code'-IS-'BLUE'  
 ```  
   
 ### Filter Syntax  

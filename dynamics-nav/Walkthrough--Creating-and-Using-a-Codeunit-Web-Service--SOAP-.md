@@ -104,7 +104,7 @@ Web services provide easy communication and data exchange in a secured environme
   
      For example:  
   
-     **http://localhost:7047/DynamicsNAV/WS/CRONUS-International-Ltd./services**  
+     **http://localhost:7047/DynamicsNAV/WS/CRONUS%20International%20Ltd./services**  
   
     > [!NOTE]  
     >  The company name is case-sensitive.  
@@ -152,7 +152,7 @@ Web services provide easy communication and data exchange in a secured environme
                 // Uses default credentials for authenticating   
                 // with Microsoft Dynamics NAV.  
                 ws.UseDefaultCredentials = true;  
-                ws.Url = "http://localhost:7047/nav_server_instance/WS/CRONUS-International-Ltd./Codeunit/Letters";      
+                ws.Url = "http://localhost:7047/nav_server_instance/WS/CRONUS%20International%20Ltd./Codeunit/Letters";      
   
                 // Declares variables to work with.  
                 string inputstring, outputstring;     
@@ -176,12 +176,12 @@ Web services provide easy communication and data exchange in a secured environme
 10. Press Enter to close the application.  
   
 ## Next Steps  
- This walkthrough illustrated how you can publish a codeunit as a web service from [!INCLUDE[navnow](includes/navnow_md.md)] and write a program that uses the web service. The next step is to expose a page as a web service and then interact with data from that page. For details, see [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](Walkthrough:-Registering-and-Using-a-Page-Web-Service-\(SOAP\).md).  
+ This walkthrough illustrated how you can publish a codeunit as a web service from [!INCLUDE[navnow](includes/navnow_md.md)] and write a program that uses the web service. The next step is to expose a page as a web service and then interact with data from that page. For details, see [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](Walkthrough--Registering-and-Using-a-Page-Web-Service-\(SOAP\).md).  
   
 ## See Also  
  [Web Services](Web-Services.md)   
  [SOAP Web Services](SOAP-Web-Services.md)   
  [Microsoft Dynamics NAV Web Services Overview](Microsoft-Dynamics-NAV-Web-Services-Overview.md)   
  [How to: Publish a Web Service](How-to--Publish-a-Web-Service.md)   
- [Walkthrough: Configuring Web Services to Use SSL \(SOAP and OData\)](Walkthrough:-Configuring-Web-Services-to-Use-SSL-\(SOAP-and-OData\).md)   
+ [Walkthrough: Configuring Web Services to Use SSL \(SOAP and OData\)](Walkthrough--Configuring-Web-Services-to-Use-SSL-\(SOAP-and-OData\).md)   
  [Web Service Alternatives: SOAP and OData](Web-Service-Alternatives:-SOAP-and-OData.md)

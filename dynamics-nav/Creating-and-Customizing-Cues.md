@@ -33,7 +33,7 @@ This topic provides an overview of Cues and the tasks involved in creating and c
 -   [Setting up Colored Indicators on Cues](Creating-and-Customizing-Cues.md#SetupIndicator)  
   
 > [!NOTE]  
->  For step-by-step instructions on many of the tasks discussed in this topic, see [Walkthrough: Creating a Cue Based on a FlowField](Walkthrough:-Creating-a-Cue-Based-on-a-FlowField.md) and [Walkthrough: Creating a Cue Based on a Normal Field and a Query](Walkthrough:-Creating-a-Cue-Based-on-a-Normal-Field-and-a-Query.md).  
+>  For step-by-step instructions on many of the tasks discussed in this topic, see [Walkthrough: Creating a Cue Based on a FlowField](Walkthrough--Creating-a-Cue-Based-on-a-FlowField.md) and [Walkthrough: Creating a Cue Based on a Normal Field and a Query](Walkthrough--Creating-a-Cue-Based-on-a-Normal-Field-and-a-Query.md).  
   
 ##  <a name="CueDesign"></a> Cue Design Overview  
  The implementation of a Cue involves the following elements:  

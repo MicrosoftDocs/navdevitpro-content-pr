@@ -45,4 +45,4 @@ When you try to open [!INCLUDE[nav_web](includes/nav_web_md.md)], you get the fo
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
  [Troubleshooting the Microsoft Dynamics NAV Web Client Installation](Troubleshooting-the-Microsoft-Dynamics-NAV-Web-Client-Installation.md)   
  [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md)   
- [Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on Three Computers](Walkthrough:-Installing-the-Microsoft-Dynamics-NAV-Web-Server-Components-on-Three-Computers.md)
+ [Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on Three Computers](Walkthrough--Installing-the-Microsoft-Dynamics-NAV-Web-Server-Components-on-Three-Computers.md)

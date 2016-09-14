@@ -162,7 +162,7 @@ This walkthrough illustrates the following tasks:
      You can run the **Items** table, look at the unit prices and run to report again using an adjustment factor of 10. If you look at the unit prices in the **Item** table again, you will notice that the unit prices have increased by a multiple of 10. You can also set the filters to select specific records to modify.  
   
 ## Next Steps  
- You might consider designing a report that has a layout and can be printed. For more information, see [Walkthrough: Designing a Customer List Report](Walkthrough:-Designing-a-Customer-List-Report.md).  
+ You might consider designing a report that has a layout and can be printed. For more information, see [Walkthrough: Designing a Customer List Report](Walkthrough--Designing-a-Customer-List-Report.md).  
   
 ## See Also  
  [Report Design Walkthroughs](Report-Design-Walkthroughs.md)

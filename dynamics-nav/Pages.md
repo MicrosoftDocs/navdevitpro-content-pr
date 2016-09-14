@@ -29,19 +29,19 @@ The following sections provide an overview of how to locate [!INCLUDE[navnow](in
   
 |To|See|  
 |--------|---------|  
-|Learn how to create a card page|[Walkthrough: Creating a Customer Card Page in Page Designer](Walkthrough:-Creating-a-Customer-Card-Page-in-Page-Designer.md)|  
-|Learn how to create a list page|[Walkthrough: Creating a Customer List in Page Designer](Walkthrough:-Creating-a-Customer-List-in-Page-Designer.md)|  
-|Learn how to create a Role Center|[Walkthrough: Creating a Role Center](Walkthrough:-Creating-a-Role-Center.md)|  
-|Learn how to create a document page|[Walkthrough: Creating a Document Page](Walkthrough:-Creating-a-Document-Page.md)|  
-|Learn how to create a worksheet page|[Walkthrough: Creating a Worksheet Page](Walkthrough:-Creating-a-Worksheet-Page.md)|  
-|Learn how to create a wizard using the navigate page type|[Walkthrough: Creating a Wizard Page](Walkthrough:-Creating-a-Wizard-Page.md)|  
+|Learn how to create a card page|[Walkthrough: Creating a Customer Card Page in Page Designer](Walkthrough--Creating-a-Customer-Card-Page-in-Page-Designer.md)|  
+|Learn how to create a list page|[Walkthrough: Creating a Customer List in Page Designer](Walkthrough--Creating-a-Customer-List-in-Page-Designer.md)|  
+|Learn how to create a Role Center|[Walkthrough: Creating a Role Center](Walkthrough--Creating-a-Role-Center.md)|  
+|Learn how to create a document page|[Walkthrough: Creating a Document Page](Walkthrough--Creating-a-Document-Page.md)|  
+|Learn how to create a worksheet page|[Walkthrough: Creating a Worksheet Page](Walkthrough--Creating-a-Worksheet-Page.md)|  
+|Learn how to create a wizard using the navigate page type|[Walkthrough: Creating a Wizard Page](Walkthrough--Creating-a-Wizard-Page.md)|  
   
 ## Modifying Pages  
   
 |To|See|  
 |--------|---------|  
-|Add actions to a customer list page|[Walkthrough: Adding Actions to a Customer List Page](Walkthrough:-Adding-Actions-to-a-Customer-List-Page.md)|  
-|Add a FactBox to a customer list page|[Walkthrough: Adding a FactBox to the Customer List Page](Walkthrough:-Adding-a-FactBox-to-the-Customer-List-Page.md)|  
+|Add actions to a customer list page|[Walkthrough: Adding Actions to a Customer List Page](Walkthrough--Adding-Actions-to-a-Customer-List-Page.md)|  
+|Add a FactBox to a customer list page|[Walkthrough: Adding a FactBox to the Customer List Page](Walkthrough--Adding-a-FactBox-to-the-Customer-List-Page.md)|  
   
 ## Adding Actions to Pages  
   

@@ -35,4 +35,4 @@ Creates a database.
 -   [Altering Databases - Advanced Tab](Altering-Databases---Advanced-Tab.md)  
 
 ## See Also  
- [How to: Create Databases](../How-to:-Create-Databases.md)
+ [How to: Create Databases](../How-to--Create-Databases.md)

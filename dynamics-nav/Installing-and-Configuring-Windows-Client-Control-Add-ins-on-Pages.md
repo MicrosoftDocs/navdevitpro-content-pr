@@ -26,4 +26,4 @@ In the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], control add-ins add 
 ## See Also  
  [Developing Windows Client Control Add-ins](Developing-Windows-Client-Control-Add-ins.md)   
  [Windows Client Control Add-in Overview](Windows-Client-Control-Add-in-Overview.md)   
- [Walkthrough: Creating and Using a Windows Client Control Add-in](Walkthrough:-Creating-and-Using-a-Windows-Client-Control-Add-in.md)
+ [Walkthrough: Creating and Using a Windows Client Control Add-in](Walkthrough--Creating-and-Using-a-Windows-Client-Control-Add-in.md)

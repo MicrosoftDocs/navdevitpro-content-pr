@@ -36,10 +36,10 @@ XMLports are used to export or import data between an external source and a [!IN
   
 |To|See|  
 |--------|---------|  
-|Learn how to export data from a [!INCLUDE[navnow](includes/navnow_md.md)] table into an XML document.|[Walkthrough: Exporting Data from Tables to XML Documents](Walkthrough:-Exporting-Data-from-Tables-to-XML-Documents.md)|  
-|Learn how to import data from an XML document to multiple tables in a [!INCLUDE[navnow](includes/navnow_md.md)] database. The XML document contains data that belongs in two different tables in the database.|[Walkthrough: Inserting Data from XML Documents to Multiple Tables](Walkthrough:-Inserting-Data-from-XML-Documents-to-Multiple-Tables.md)|  
-|Learn how to export data from tables to CSV \(comma separated value\) files.|[Walkthrough: Exporting Data from Tables to CSV Files](Walkthrough:-Exporting-Data-from-Tables-to-CSV-Files.md)|  
-|Learn how to import data from text files.|[Walkthrough: Importing Data from Text Files to Tables](Walkthrough:-Importing-Data-from-Text-Files-to-Tables.md)|  
+|Learn how to export data from a [!INCLUDE[navnow](includes/navnow_md.md)] table into an XML document.|[Walkthrough: Exporting Data from Tables to XML Documents](Walkthrough--Exporting-Data-from-Tables-to-XML-Documents.md)|  
+|Learn how to import data from an XML document to multiple tables in a [!INCLUDE[navnow](includes/navnow_md.md)] database. The XML document contains data that belongs in two different tables in the database.|[Walkthrough: Inserting Data from XML Documents to Multiple Tables](Walkthrough--Inserting-Data-from-XML-Documents-to-Multiple-Tables.md)|  
+|Learn how to export data from tables to CSV \(comma separated value\) files.|[Walkthrough: Exporting Data from Tables to CSV Files](Walkthrough--Exporting-Data-from-Tables-to-CSV-Files.md)|  
+|Learn how to import data from text files.|[Walkthrough: Importing Data from Text Files to Tables](Walkthrough--Importing-Data-from-Text-Files-to-Tables.md)|  
   
 ## See Also  
  [Designing XMLports](Designing-XMLports.md)

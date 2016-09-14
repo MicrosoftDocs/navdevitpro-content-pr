@@ -30,7 +30,7 @@ You can activate the debugger at the command prompt. After you activate the debu
   
     -   Select a session, and then choose **Debug**. The debugger is now active and attached to the selected session.  
   
- In the **Debugger** window, you can enable and disable breakpoints, step through lines of code, and view variable and call stack information. For more information, see [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough:-Debugging-the-Microsoft-Dynamics-NAV-Windows-Client.md).  
+ In the **Debugger** window, you can enable and disable breakpoints, step through lines of code, and view variable and call stack information. For more information, see [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough--Debugging-the-Microsoft-Dynamics-NAV-Windows-Client.md).  
   
 ## See Also  
  [Activating the Debugger](Activating-the-Debugger.md)   

@@ -44,7 +44,7 @@ You can configure the [!INCLUDE[navnow](includes/navnow_md.md)] installation to 
   
 #### To implement security certificates  
   
--   To create your own certificates and implement them in a test environment for the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [Walkthrough: Implementing Security Certificates in a Test Environment](Walkthrough:-Implementing-Security-Certificates-in-a-Test-Environment.md).  
+-   To create your own certificates and implement them in a test environment for the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [Walkthrough: Implementing Security Certificates in a Test Environment](Walkthrough--Implementing-Security-Certificates-in-a-Test-Environment.md).  
   
      In this scenario, you create your own self-signed certificates, and then install them on the computers that are running [!INCLUDE[nav_server](includes/nav_server_md.md)] and the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  
   
@@ -116,7 +116,7 @@ You can configure the [!INCLUDE[navnow](includes/navnow_md.md)] installation to 
      Replace `subjectName` with the subject name or common name \(CN\) of the certificate that is used on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
     > [!NOTE]  
-    >  You can find the subject name by opening the certificate in the Certificates snap-in for Microsoft Management Console \(MMC\) on the computer that is running [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)]. For more information, see [Walkthrough: Implementing Security Certificates in a Test Environment](Walkthrough:-Implementing-Security-Certificates-in-a-Test-Environment.md) or [How to: Implement Security Certificates in a Production Environment](How-to--Implement-Security-Certificates-in-a-Production-Environment.md).  
+    >  You can find the subject name by opening the certificate in the Certificates snap-in for Microsoft Management Console \(MMC\) on the computer that is running [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)]. For more information, see [Walkthrough: Implementing Security Certificates in a Test Environment](Walkthrough--Implementing-Security-Certificates-in-a-Test-Environment.md) or [How to: Implement Security Certificates in a Production Environment](How-to--Implement-Security-Certificates-in-a-Production-Environment.md).  
   
 6.  If you are configuring AccessControlService authentication, then find the `<add key="ACSUri" value=""/>` element, and set the `value` to the URI of the ACS or AAD authentication page.  
   

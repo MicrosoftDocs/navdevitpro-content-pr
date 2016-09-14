@@ -32,4 +32,4 @@ You can modify a **MenuSuite** by inserting existing items. If an item already e
     >  Make sure that the **Insert** check box is selected for all the items that you want to insert.  
   
 ## See Also  
- [Walkthrough: Creating MenuSuites for the Microsoft Dynamics NAV Windows Client](Walkthrough:-Creating-MenuSuites-for-the-Microsoft-Dynamics-NAV-Windows-Client.md)
+ [Walkthrough: Creating MenuSuites for the Microsoft Dynamics NAV Windows Client](Walkthrough--Creating-MenuSuites-for-the-Microsoft-Dynamics-NAV-Windows-Client.md)

@@ -26,7 +26,7 @@ You can import objects into [!INCLUDE[navnow](includes/navnow_md.md)] and export
   
  To translate strings for customized objects in a multilanguage environment, you can import and export text strings. For more information, see [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How-to--Add-Translated-Strings-By-Importing-and-Exporting-Multilanguage-Files.md). Alternatively, you can export your application objects into text files and then use [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets to export and import languages. For more information, see [Working with Application Objects as Text Files](Working-with-Application-Objects-as-Text-Files.md).  
   
- To view or troubleshoot a report on a computer that does not have [!INCLUDE[navnow](includes/navnow_md.md)] installed, you can export the dataset of a report as an .xml file. This exports the structure of the dataset and the data from the report. For more information, see [Walkthrough: Running a Report Offline](Walkthrough:-Running-a-Report-Offline.md).  
+ To view or troubleshoot a report on a computer that does not have [!INCLUDE[navnow](includes/navnow_md.md)] installed, you can export the dataset of a report as an .xml file. This exports the structure of the dataset and the data from the report. For more information, see [Walkthrough: Running a Report Offline](Walkthrough--Running-a-Report-Offline.md).  
   
 ## See Also  
  [How to: Import Objects](How-to--Import-Objects.md)   

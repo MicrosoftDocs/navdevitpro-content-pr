@@ -45,7 +45,7 @@ Sets a reference between one or more fields of the data item table and data item
 Salesperson Code=Salesperson.Code  
 ```  
   
- For a detailed step-by-step example of the DataItemLink property, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:-Creating-a-Query-to-Link-Two-Tables.md).  
+ For a detailed step-by-step example of the DataItemLink property, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough--Creating-a-Query-to-Link-Two-Tables.md).  
   
 ## See Also  
  [How to: Create Queries](How-to--Create-Queries.md)   

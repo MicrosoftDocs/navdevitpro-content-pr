@@ -131,6 +131,6 @@ Before you release your [!INCLUDE[navnow](includes/navnow_md.md)] application, y
  [Application Test Automation](Application-Test-Automation.md)   
  [Testing Pages](Testing-Pages.md)   
  [How to: Run Automated ApplicationTests](How-to--Run-Automated-ApplicationTests.md)   
- [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough:-Testing-Purchase-Invoice-Discounts.md)   
- [Walkthrough: Create a Test with Confirmation Dialog](Walkthrough:-Create-a-Test-with-Confirmation-Dialog.md)   
+ [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough--Testing-Purchase-Invoice-Discounts.md)   
+ [Walkthrough: Create a Test with Confirmation Dialog](Walkthrough--Create-a-Test-with-Confirmation-Dialog.md)   
  [Random Test Data](Random-Test-Data.md)

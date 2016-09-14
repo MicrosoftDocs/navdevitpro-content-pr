@@ -52,4 +52,4 @@ You use the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to develop [!I
  [Setting Database Owner and Security Administration Permissions](Setting-Database-Owner-and-Security-Administration-Permissions.md)   
  [License Types](License-Types.md)   
  [Breakpoints](Breakpoints.md)   
- [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough:-Debugging-the-Microsoft-Dynamics-NAV-Windows-Client.md)
+ [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough--Debugging-the-Microsoft-Dynamics-NAV-Windows-Client.md)

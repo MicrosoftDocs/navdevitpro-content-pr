@@ -120,5 +120,5 @@ After you have registered a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] 
  [How to: Register a Windows Client Control Add-in](How-to--Register-a-Windows-Client-Control-Add-in.md)   
  [How to: Install a Windows Client Control Add-in Assembly](How-to--Install-a-Windows-Client-Control-Add-in-Assembly.md)   
  [Developing Windows Client Control Add-ins](Developing-Windows-Client-Control-Add-ins.md)   
- [Walkthrough: Creating and Using a Windows Client Control Add-in](Walkthrough:-Creating-and-Using-a-Windows-Client-Control-Add-in.md)   
+ [Walkthrough: Creating and Using a Windows Client Control Add-in](Walkthrough--Creating-and-Using-a-Windows-Client-Control-Add-in.md)   
  [ControlAddin Property](ControlAddin-Property.md)

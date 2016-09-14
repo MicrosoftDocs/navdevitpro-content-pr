@@ -70,4 +70,4 @@ You use the About This Report feature to view the dataset on which the report is
 ## See Also  
  [Using About This Page and About This Report](Using-About-This-Page-and-About-This-Report.md)   
  [How to: View All Table Fields for a Record](How-to--View-All-Table-Fields-for-a-Record.md)   
- [Walkthrough: Running a Report Offline](Walkthrough:-Running-a-Report-Offline.md)
+ [Walkthrough: Running a Report Offline](Walkthrough--Running-a-Report-Offline.md)

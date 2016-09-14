@@ -29,7 +29,7 @@ Use the Microsoft Office Outlook Add-In component to synchronize data, such as t
 |Microsoft Office Outlook Add-In|Not applicable|  
   
 ## See Also  
- [Walkthrough: Setting Up Outlook Synchronization](Walkthrough:-Setting-Up-Outlook-Synchronization.md)   
+ [Walkthrough: Setting Up Outlook Synchronization](Walkthrough--Setting-Up-Outlook-Synchronization.md)   
  [Web Services](Web-Services.md)   
  [Installation and Configuration Walkthroughs](Installation-and-Configuration-Walkthroughs.md)   
  [Installation Options](Installation-Options.md)
