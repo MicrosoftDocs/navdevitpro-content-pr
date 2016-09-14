@@ -15,7 +15,7 @@ caps.latest.revision: 138
 # System Requirements for Microsoft Dynamics NAV 2017
 The following sections list the minimum hardware and software requirements to install and run [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. **Minimum** means that later versions \(such as SP1, SP2, or R2 versions\) of a required software product are also supported. For the latest version of the system requirements, see the [MSDN Library](http://go.microsoft.com/fwlink/?LinkId=317819).  
 
- **Client components**  
+**Client components**  
 
 -   [Microsoft Dynamics NAV Windows Client Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#WinClient)  
 
@@ -27,7 +27,7 @@ The following sections list the minimum hardware and software requirements to in
 
 -   [Microsoft Dynamics NAV Universal App Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#DynNAVApp)  
 
- **Server components**  
+**Server components**  
 
 -   [Microsoft Dynamics NAV Server Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#NavServerReqs)  
 
@@ -37,7 +37,7 @@ The following sections list the minimum hardware and software requirements to in
 
 -   [Microsoft Dynamics NAV Help Server Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#HelpServer)  
 
- **Additional components and features**  
+**Additional components and features**  
 
 -   [Microsoft Dynamics NAV as an App for SharePoint Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#SharePointApp)  
 
@@ -106,7 +106,7 @@ The following sections list the minimum hardware and software requirements to in
 |Supported operating systems|-   Windows 10 Home, Pro, Enterprise, or Education \(32-bit and 64-bit editions\).<br />-   Windows 8.1 with Internet Explorer 11 \(build 11.0.9600.17239\) \(32-bit and 64-bit versions including RT\) and Windows Phone 8.1.<br />-   Android 4.4.3.<br />-   iOS 8.4.|  
 |Additional hardware|-   1 GB RAM for Android and Windows.|  
 |Additional software|-   A third-party telephony or VoIP app such as Skype or Lync is required for placing calls from [!INCLUDE[navnow](includes/navnow_md.md)].<br />-   A third-party email program such as Outlook is required for sending emails from [!INCLUDE[navnow](includes/navnow_md.md)].<br />-   Microsoft Office 2013 SP1 or Microsoft Office 365 is required for sending data to Microsoft Excel or to Microsoft Word.|  
-|Additional information|-   Device diagonal screen size 7” for tablets.<br />-   Screen resolution 960 × 510 for tablets.<br /><br /> -   Device diagonal screen size 4” for phones.<br />-   Screen resolution 854 x 480 for phones.|  
+|Additional information|-   Device diagonal screen size 7” for tablets.<br />-   Screen resolution 960 × 510 for tablets.<br /> -   Device diagonal screen size 4” for phones.<br />-   Screen resolution 854 x 480 for phones.|  
 
 ##  <a name="NavServerReqs"></a> Microsoft Dynamics NAV Server Requirements  
  The following table shows the minimum system requirements for [!INCLUDE[nav_server](includes/nav_server_md.md)].  
