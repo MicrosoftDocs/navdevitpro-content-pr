@@ -52,4 +52,4 @@ After you have created and designed a report, you can add the report to the inte
   
 ## See Also  
  [Designing Reports](Designing-Reports.md)   
- [Walkthrough: Designing a Customer List Report](Walkthrough:-Designing-a-Customer-List-Report.md)
+ [Walkthrough: Designing a Customer List Report](Walkthrough--Designing-a-Customer-List-Report.md)

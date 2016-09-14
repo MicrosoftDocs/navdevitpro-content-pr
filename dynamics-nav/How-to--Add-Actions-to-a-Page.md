@@ -36,7 +36,7 @@ This topic shows how to create new actions, how to add actions to a page, and ho
 3.  To open **Action Designer**, in the **View** menu, choose **Page Actions**.  
   
     > [!NOTE]  
-    >  Actions can only be linked to a page, or to a group control that has a subtype of CueGroup. Actions cannot be linked to fields, containers, or parts on a page. For information about adding actions to a CueGroup control, see [Walkthrough: Creating a Cue Based on a FlowField](Walkthrough:-Creating-a-Cue-Based-on-a-FlowField.md).  
+    >  Actions can only be linked to a page, or to a group control that has a subtype of CueGroup. Actions cannot be linked to fields, containers, or parts on a page. For information about adding actions to a CueGroup control, see [Walkthrough: Creating a Cue Based on a FlowField](Walkthrough--Creating-a-Cue-Based-on-a-FlowField.md).  
   
 4.  In **Action Designer**, select the first blank row, type a **Name**, and then type a **Caption** for your action.  
   
@@ -107,5 +107,5 @@ This topic shows how to create new actions, how to add actions to a page, and ho
 >  If you change an object, for example, an action to an action container, you must also change the ID of the action. The ID serves as a reference, and must reflect the object.  
   
 ## See Also  
- [Walkthrough: Adding Actions to a Customer List Page](Walkthrough:-Adding-Actions-to-a-Customer-List-Page.md)   
+ [Walkthrough: Adding Actions to a Customer List Page](Walkthrough--Adding-Actions-to-a-Customer-List-Page.md)   
  [Actions Overview](Actions-Overview.md)

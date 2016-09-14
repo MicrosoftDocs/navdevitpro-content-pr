@@ -14,7 +14,7 @@ manager: edupont
 # Debugging
 The process of finding and correcting errors is called *debugging*. [!INCLUDE[navnowlong](includes/navnowlong_md.md)] provides an integrated debugger to help you inspect your code to verify that your application can run as expected. The debugger UI runs in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or the [!INCLUDE[nav_web](includes/nav_web_md.md)]. The debugger services run on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
- For a tour of the new [!INCLUDE[navnow](includes/navnow_md.md)] Debugger, see [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough:-Debugging-the-Microsoft-Dynamics-NAV-Windows-Client.md).  
+ For a tour of the new [!INCLUDE[navnow](includes/navnow_md.md)] Debugger, see [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough--Debugging-the-Microsoft-Dynamics-NAV-Windows-Client.md).  
   
 > [!NOTE]  
 >  In [!INCLUDE[nav2009](includes/nav2009_md.md)], you used Visual Studio to debug objects on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)], and you used the [!INCLUDE[navnow](includes/navnow_md.md)] Debugger to debug objects running on the Classic client. You cannot use Visual Studio to debug objects on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. Instead, you use the new [!INCLUDE[navnow](includes/navnow_md.md)] Debugger.  
@@ -60,6 +60,6 @@ The process of finding and correcting errors is called *debugging*. [!INCLUDE[na
  For more information about the *settings* parameter, see [Starting the Windows Client at the Command Prompt](Starting-the-Windows-Client-at-the-Command-Prompt.md).  
   
 ## See Also  
- [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough:-Debugging-the-Microsoft-Dynamics-NAV-Windows-Client.md)   
+ [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough--Debugging-the-Microsoft-Dynamics-NAV-Windows-Client.md)   
  [Avoiding Run-Time Errors](Avoiding-Run-Time-Errors.md)   
  [Using About This Page and About This Report](Using-About-This-Page-and-About-This-Report.md)

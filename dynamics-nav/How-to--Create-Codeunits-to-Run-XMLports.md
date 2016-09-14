@@ -76,4 +76,4 @@ After creating an XMLport, you can create a codeunit to run the XMLport or run i
   
 ## See Also  
  [How to: Create XMLports](How-to--Create-XMLports.md)   
- [Walkthrough: Exporting Data from Tables to XML Documents](Walkthrough:-Exporting-Data-from-Tables-to-XML-Documents.md)
+ [Walkthrough: Exporting Data from Tables to XML Documents](Walkthrough--Exporting-Data-from-Tables-to-XML-Documents.md)

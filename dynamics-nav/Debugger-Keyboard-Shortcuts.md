@@ -32,4 +32,4 @@ The following table describes the keyboard shortcuts that are available from the
 |Esc \(when tooltip is displayed\)|Hide tooltip|  
   
 ## See Also  
- [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough:-Debugging-the-Microsoft-Dynamics-NAV-Windows-Client.md)
+ [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough--Debugging-the-Microsoft-Dynamics-NAV-Windows-Client.md)

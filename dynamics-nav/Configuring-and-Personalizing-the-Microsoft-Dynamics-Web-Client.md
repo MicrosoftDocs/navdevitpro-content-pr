@@ -25,7 +25,7 @@ A [!INCLUDE[navnow](includes/navnow_md.md)] page can consist of several differen
   
 -   [Working with Role Centers](Working-with-Role-Centers.md)  
   
--   [Walkthrough: Configuring UI for the Order Processor Profile](Walkthrough:-Configuring-UI-for-the-Order-Processor-Profile.md)  
+-   [Walkthrough: Configuring UI for the Order Processor Profile](Walkthrough--Configuring-UI-for-the-Order-Processor-Profile.md)  
   
 ## Resetting Configuration Settings  
  As an administrator or SUPER user, you can reset configuration settings. For more information, see [How to: Cancel UI Configuration](How-to--Cancel-UI-Configuration.md).  

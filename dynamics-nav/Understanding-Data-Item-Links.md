@@ -114,6 +114,6 @@ With [!INCLUDE[navnow](includes/navnow_md.md)] queries, you can retrieve records
   
 ## See Also  
  [How to: Create Queries](How-to--Create-Queries.md)   
- [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:-Creating-a-Query-to-Link-Two-Tables.md)   
- [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](Walkthrough:-Creating-a-Query-That-Uses-a-Totaling-Method-and-Sorting.md)   
- [Walkthrough: Creating a Query to Link Three Tables](Walkthrough:-Creating-a-Query-to-Link-Three-Tables.md)
+ [Walkthrough: Creating a Query to Link Two Tables](Walkthrough--Creating-a-Query-to-Link-Two-Tables.md)   
+ [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](Walkthrough--Creating-a-Query-That-Uses-a-Totaling-Method-and-Sorting.md)   
+ [Walkthrough: Creating a Query to Link Three Tables](Walkthrough--Creating-a-Query-to-Link-Three-Tables.md)

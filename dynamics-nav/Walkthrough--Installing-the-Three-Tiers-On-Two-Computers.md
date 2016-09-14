@@ -24,7 +24,7 @@ In this walkthrough, you install a new instance of [!INCLUDE[navnowlong](include
 
  The key characteristic of this configuration is that the server and database tiers—[!INCLUDE[nav_server](includes/nav_server_md.md)] and SQL Server—are on the same computer. In an actual production environment you would have multiple [!INCLUDE[nav_windows](includes/nav_windows_md.md)]s; you might also have multiple server computers. But installation and configuration issues would be the same as long as the configuration topology was the same: database and [!INCLUDE[nav_server](includes/nav_server_md.md)] installed together on a computer, [!INCLUDE[nav_windows](includes/nav_windows_md.md)]s installed on separate computers.  
 
- If you plan on installing each of the three tiers on a separate computer, see [Walkthrough: Installing the Three Tiers on Three Computers](Walkthrough:-Installing-the-Three-Tiers-on-Three-Computers.md).  
+ If you plan on installing each of the three tiers on a separate computer, see [Walkthrough: Installing the Three Tiers on Three Computers](Walkthrough--Installing-the-Three-Tiers-on-Three-Computers.md).  
 
 ## About This Walkthrough  
  After completing this walkthrough, you will have a functioning three-tier installation on two computers. This installation uses the [!INCLUDE[demolong](includes/demolong_md.md)].  
@@ -164,7 +164,7 @@ In this walkthrough, you install a new instance of [!INCLUDE[navnowlong](include
  [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)   
  [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)   
  [Configuring the Windows Client](Configuring-the-Windows-Client.md)   
- [Walkthrough: Setting Up Outlook Synchronization](Walkthrough:-Setting-Up-Outlook-Synchronization.md)   
+ [Walkthrough: Setting Up Outlook Synchronization](Walkthrough--Setting-Up-Outlook-Synchronization.md)   
  [How to: Upload the License File](How-to--Upload-the-License-File.md)   
  [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md)   
  [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md)   

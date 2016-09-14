@@ -20,4 +20,4 @@ You can remove a variable from the **Watches** FactBox if you do not want to con
   
 ## See Also  
  [How to: Add Variables to the Watches FactBox](How-to--Add-Variables-to-the-Watches-FactBox.md)   
- [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough:-Debugging-the-Microsoft-Dynamics-NAV-Windows-Client.md)
+ [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough--Debugging-the-Microsoft-Dynamics-NAV-Windows-Client.md)

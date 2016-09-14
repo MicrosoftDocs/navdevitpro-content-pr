@@ -43,7 +43,7 @@ OnControlAddin(Index ; Data)
  An example of an event is when a user chooses a button in the control add-in user interface or when a user changes a value in a field. A control add-in can use events like these to invoke the OnControlAddin trigger and pass information as an integer in the *Index* parameter and as a text string in the *Data* parameter. To process the information, you add the C/AL code to the OnControlAddin trigger. For more information, see [Exposing Events and Calling Respective C-AL Triggers from a Windows Client Control Add-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md).  
   
 ## Example  
- The following is an example of C/AL code on a OnControlAddin trigger that takes a text string that is received from a control add-in event and then displays the text string in a message window. Because the information is a text string, the *Data* parameter is used. To see how to develop and use a sample control add-in that implements this event, see [Walkthrough: Creating and Using a Windows Client Control Add-in](Walkthrough:-Creating-and-Using-a-Windows-Client-Control-Add-in.md).  
+ The following is an example of C/AL code on a OnControlAddin trigger that takes a text string that is received from a control add-in event and then displays the text string in a message window. Because the information is a text string, the *Data* parameter is used. To see how to develop and use a sample control add-in that implements this event, see [Walkthrough: Creating and Using a Windows Client Control Add-in](Walkthrough--Creating-and-Using-a-Windows-Client-Control-Add-in.md).  
   
 ```  
 Message(Data);  

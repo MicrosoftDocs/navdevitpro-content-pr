@@ -61,5 +61,5 @@ After installing and configuring [!INCLUDE[navnow](includes/navnow_md.md)] softw
   
 ## See Also  
  [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)   
- [Walkthrough: Installing the Three Tiers on Three Computers](Walkthrough:-Installing-the-Three-Tiers-on-Three-Computers.md)   
+ [Walkthrough: Installing the Three Tiers on Three Computers](Walkthrough--Installing-the-Three-Tiers-on-Three-Computers.md)   
  [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md)

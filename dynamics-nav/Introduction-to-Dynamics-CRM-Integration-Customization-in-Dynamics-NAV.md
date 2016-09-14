@@ -30,7 +30,7 @@ This topic provides an overview about customizing [!INCLUDE[crm](includes/crm_md
 |Codeunit **5340 CRM Integration Table Synch.**|Contains complex table mappings and synchronization rules.|  
   
 ## Getting Started  
- The following list outlines the typical tasks required to integrate a [!INCLUDE[crm](includes/crm_md.md)] entity and a [!INCLUDE[navnow](includes/navnow_md.md)] table \(record type\). For step-by-step procedures for each of these tasks, see [Walkthrough: Customizing Microsoft Dynamics CRM Integration in Dynamics NAV](Walkthrough:-Customizing-Microsoft-Dynamics-CRM-Integration-in-Dynamics-NAV.md).  
+ The following list outlines the typical tasks required to integrate a [!INCLUDE[crm](includes/crm_md.md)] entity and a [!INCLUDE[navnow](includes/navnow_md.md)] table \(record type\). For step-by-step procedures for each of these tasks, see [Walkthrough: Customizing Microsoft Dynamics CRM Integration in Dynamics NAV](Walkthrough--Customizing-Microsoft-Dynamics-CRM-Integration-in-Dynamics-NAV.md).  
   
 1.  Create an integration table for the [!INCLUDE[crm](includes/crm_md.md)] entity.  
   

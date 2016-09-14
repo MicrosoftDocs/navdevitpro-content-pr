@@ -597,8 +597,8 @@ A report object is composed of a report dataset and a visual layout. You design 
 6.  Use the paging buttons at the top of the report to move to the next customer.  
 
 ## Next Steps  
- Viktor can add advanced features to the report. He can add features such as displaying the company name and logo on every page on the report. He might also want to add features that enable users to apply filters on the request page. For more information, see [Walkthrough: Adding Company Information, Custom Filters, and Formatting to a Report](Walkthrough:-Adding-Company-Information,-Custom-Filters,-and-Formatting-to-a-Report.md).  
+ Viktor can add advanced features to the report. He can add features such as displaying the company name and logo on every page on the report. He might also want to add features that enable users to apply filters on the request page. For more information, see [Walkthrough: Adding Company Information, Custom Filters, and Formatting to a Report](Walkthrough--Adding-Company-Information,-Custom-Filters,-and-Formatting-to-a-Report.md).  
 
 ## See Also  
- [Walkthrough: Adding Company Information, Custom Filters, and Formatting to a Report](Walkthrough:-Adding-Company-Information,-Custom-Filters,-and-Formatting-to-a-Report.md)   
+ [Walkthrough: Adding Company Information, Custom Filters, and Formatting to a Report](Walkthrough--Adding-Company-Information,-Custom-Filters,-and-Formatting-to-a-Report.md)   
  [Report Design Walkthroughs](Report-Design-Walkthroughs.md)

@@ -24,7 +24,7 @@ This walkthrough demonstrates how to modify an existing query, which links two t
 -   Running the query to view the data that this query describes.  
   
 ## Prerequisites  
- This walkthrough builds on the steps that are described in [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:-Creating-a-Query-to-Link-Two-Tables.md).  
+ This walkthrough builds on the steps that are described in [Walkthrough: Creating a Query to Link Two Tables](Walkthrough--Creating-a-Query-to-Link-Two-Tables.md).  
   
 ## Story  
  Viktor is a Microsoft Certified Partner working for [!INCLUDE[demoname](includes/demoname_md.md)] He wants to create a dataset that contains the total number of items in open sales orders for each customer. Viktor has already created a query that contains the quantity of items of every open sales order for each customer. He can modify that query so that it displays the sum of quantity of items for each customer.  
@@ -102,7 +102,7 @@ ORDER BY Quantity
      ![The result of running Customer&#95;SumQuantity query](media/Query_WalkthroughTotals_Run.png "Query\_WalkthroughTotals\_Run")  
   
 ## Next Steps  
- Viktor’s next step is to create a more complex query. For more information, see [Walkthrough: Creating a Query to Link Three Tables](Walkthrough:-Creating-a-Query-to-Link-Three-Tables.md).  
+ Viktor’s next step is to create a more complex query. For more information, see [Walkthrough: Creating a Query to Link Three Tables](Walkthrough--Creating-a-Query-to-Link-Three-Tables.md).  
   
 ## See Also  
  [Understanding Query Totals and Grouping](Understanding-Query-Totals-and-Grouping.md)

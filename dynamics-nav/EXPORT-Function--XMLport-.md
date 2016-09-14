@@ -26,7 +26,7 @@ Creates an XML data stream \(XML document\) and sends it to a chosen destination
   
  The ID of the XMLport that you want to run.  
   
- Instead of the ID number, you can specify the name of the XMLport by using the following syntax: `XMLPORT.EXPORT(XMLPORT::CustomerXMLport, XmlStream)`. For more information, see [Walkthrough: Exporting Data from Tables to XML Documents](Walkthrough:-Exporting-Data-from-Tables-to-XML-Documents.md).  
+ Instead of the ID number, you can specify the name of the XMLport by using the following syntax: `XMLPORT.EXPORT(XMLPORT::CustomerXMLport, XmlStream)`. For more information, see [Walkthrough: Exporting Data from Tables to XML Documents](Walkthrough--Exporting-Data-from-Tables-to-XML-Documents.md).  
   
  *OutStream*  
  Type: ISequentialStream  

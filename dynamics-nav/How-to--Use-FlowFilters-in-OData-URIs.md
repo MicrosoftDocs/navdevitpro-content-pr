@@ -21,7 +21,7 @@ You can set FlowFilters on the data that your OData web service extracts from th
   
 #### To query data on the Item Card page using a FlowFilter  
   
-1.  Register and publish a page web service by using the [!INCLUDE[rtc](includes/rtc_md.md)] as described in [Walkthrough: Creating and Interacting with a Page Web Service \(OData\)](Walkthrough:-Creating-and-Interacting-with-a-Page-Web-Service-\(OData\).md). Register and publish page 30, Item Card, and name the service **ItemCard**.  
+1.  Register and publish a page web service by using the [!INCLUDE[rtc](includes/rtc_md.md)] as described in [Walkthrough: Creating and Interacting with a Page Web Service \(OData\)](Walkthrough--Creating-and-Interacting-with-a-Page-Web-Service-\(OData\).md). Register and publish page 30, Item Card, and name the service **ItemCard**.  
   
 2.  Start Windows Internet Explorer, and then in the **Address** field, enter a URI in this format:  
   

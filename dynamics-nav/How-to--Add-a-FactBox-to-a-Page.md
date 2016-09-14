@@ -53,7 +53,7 @@ A FactBox is an area on the right side of a page that can display additional pag
  You can add a part to the FactBox area that displays an existing page of the **CardPart** or **ListPart** type only. If you attempt to use another page type, you will get an error.  
   
 > [!NOTE]  
->  This procedure assumes that the page that you want to display in the FactBox already exists. If not, create the page before proceeding. For an example of creating a **CardPart** page for using in a FactBox, see [Walkthrough: Adding a FactBox to the Customer List Page](Walkthrough:-Adding-a-FactBox-to-the-Customer-List-Page.md).  
+>  This procedure assumes that the page that you want to display in the FactBox already exists. If not, create the page before proceeding. For an example of creating a **CardPart** page for using in a FactBox, see [Walkthrough: Adding a FactBox to the Customer List Page](Walkthrough--Adding-a-FactBox-to-the-Customer-List-Page.md).  
   
 #### To add a page to the FactBox  
   
@@ -136,5 +136,5 @@ A FactBox is an area on the right side of a page that can display additional pag
   
 ## See Also  
  [Adding a FactBox to Page](Adding-a-FactBox-to-Page.md)   
- [Walkthrough: Adding a FactBox to the Customer List Page](Walkthrough:-Adding-a-FactBox-to-the-Customer-List-Page.md)   
+ [Walkthrough: Adding a FactBox to the Customer List Page](Walkthrough--Adding-a-FactBox-to-the-Customer-List-Page.md)   
  [How to: Create a Page](How-to--Create-a-Page.md)

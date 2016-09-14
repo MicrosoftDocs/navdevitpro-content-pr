@@ -13,7 +13,7 @@ caps.latest.revision: 16
 # Deploying Microsoft Dynamics NAV on One Virtual Machine Using Example-1VM Script
 This topic describes the Example-1VM.ps1 script of the [!INCLUDE[nav_prov_long](includes/nav_prov_long_md.md)]. The script is located in the \\WindowsPowerShellScripts\\Cloud\\HowTo folder on the [!INCLUDE[navnow](includes/navnow_md.md)] installation media \(DVD\). The Example-1VM.ps1 script deploys [!INCLUDE[navnow](includes/navnow_md.md)] on a single Microsoft Azure virtual machine. After the script is run, you will have a fully functional environment that enables you to access [!INCLUDE[navnow](includes/navnow_md.md)] data from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
- For information about how to use the script, see [How to: Deploy Microsoft Dynamics NAV on Microsoft Azure by Using the Example Scripts](How-to--Deploy-Microsoft-Dynamics-NAV-on-Microsoft-Azure-by-Using-the-Example-Scripts.md) or [Walkthrough: Deploying Microsoft Dynamics NAV on a Microsoft Azure Virtual Machine](Walkthrough:-Deploying-Microsoft-Dynamics-NAV-on-a-Microsoft-Azure-Virtual-Machine.md) for a step-by-step example.  
+ For information about how to use the script, see [How to: Deploy Microsoft Dynamics NAV on Microsoft Azure by Using the Example Scripts](How-to--Deploy-Microsoft-Dynamics-NAV-on-Microsoft-Azure-by-Using-the-Example-Scripts.md) or [Walkthrough: Deploying Microsoft Dynamics NAV on a Microsoft Azure Virtual Machine](Walkthrough--Deploying-Microsoft-Dynamics-NAV-on-a-Microsoft-Azure-Virtual-Machine.md) for a step-by-step example.  
   
 ## Deployment Overview  
  The Example-1VM.ps1 script creates a virtual machine on Azure, which is based on an image that you specify, and then installs and configures [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], [!INCLUDE[nav_server](includes/nav_server_md.md)], and [!INCLUDE[navnow](includes/navnow_md.md)] database components for SQL Server.  
@@ -66,4 +66,4 @@ This topic describes the Example-1VM.ps1 script of the [!INCLUDE[nav_prov_long](
  [Planning and Preparing](Planning-and-Preparing.md)   
  [Network Topologies for Microsoft Dynamics NAV on Azure](Network-Topologies-for-Microsoft-Dynamics-NAV-on-Azure.md)   
  [Deploying Microsoft Dynamics NAV on Two Virtual Machines Using Example-2VM Script](Deploying-Microsoft-Dynamics-NAV-on-Two-Virtual-Machines-Using-Example-2VM-Script.md)   
- [Walkthrough: Deploying Microsoft Dynamics NAV on a Microsoft Azure Virtual Machine](Walkthrough:-Deploying-Microsoft-Dynamics-NAV-on-a-Microsoft-Azure-Virtual-Machine.md)
+ [Walkthrough: Deploying Microsoft Dynamics NAV on a Microsoft Azure Virtual Machine](Walkthrough--Deploying-Microsoft-Dynamics-NAV-on-a-Microsoft-Azure-Virtual-Machine.md)

@@ -176,12 +176,12 @@ Web services provide easy communication and data exchange in a secured environme
 10. Press Enter to close the application.  
   
 ## Next Steps  
- This walkthrough illustrated how you can publish a codeunit as a web service from [!INCLUDE[navnow](includes/navnow_md.md)] and write a program that uses the web service. The next step is to expose a page as a web service and then interact with data from that page. For details, see [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](Walkthrough:-Registering-and-Using-a-Page-Web-Service-\(SOAP\).md).  
+ This walkthrough illustrated how you can publish a codeunit as a web service from [!INCLUDE[navnow](includes/navnow_md.md)] and write a program that uses the web service. The next step is to expose a page as a web service and then interact with data from that page. For details, see [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](Walkthrough--Registering-and-Using-a-Page-Web-Service-\(SOAP\).md).  
   
 ## See Also  
  [Web Services](Web-Services.md)   
  [SOAP Web Services](SOAP-Web-Services.md)   
  [Microsoft Dynamics NAV Web Services Overview](Microsoft-Dynamics-NAV-Web-Services-Overview.md)   
  [How to: Publish a Web Service](How-to--Publish-a-Web-Service.md)   
- [Walkthrough: Configuring Web Services to Use SSL \(SOAP and OData\)](Walkthrough:-Configuring-Web-Services-to-Use-SSL-\(SOAP-and-OData\).md)   
+ [Walkthrough: Configuring Web Services to Use SSL \(SOAP and OData\)](Walkthrough--Configuring-Web-Services-to-Use-SSL-\(SOAP-and-OData\).md)   
  [Web Service Alternatives: SOAP and OData](Web-Service-Alternatives:-SOAP-and-OData.md)

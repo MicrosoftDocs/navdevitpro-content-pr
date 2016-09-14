@@ -65,5 +65,5 @@ Specifies the text encoding format to use when you use an XMLport to export or i
  [XMLports](XMLports.md)   
  [How to: Create XMLports](How-to--Create-XMLports.md)   
  [Format Property \(XMLports\)](Format-Property--XMLports-.md)   
- [Walkthrough: Importing Data from Text Files to Tables](Walkthrough:-Importing-Data-from-Text-Files-to-Tables.md)   
+ [Walkthrough: Importing Data from Text Files to Tables](Walkthrough--Importing-Data-from-Text-Files-to-Tables.md)   
  [Text Encoding](Text-Encoding.md)

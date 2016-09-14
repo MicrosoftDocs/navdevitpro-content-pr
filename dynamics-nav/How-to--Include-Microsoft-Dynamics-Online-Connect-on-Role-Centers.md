@@ -26,7 +26,7 @@ The RoleTailored client installation includes a control add-in that you can use 
   
 1.  Create the Role Center page that has a part that targets the page **9175 Connect**.  
   
-     For more information, see [Walkthrough: Creating a Role Center](Walkthrough:-Creating-a-Role-Center.md).  
+     For more information, see [Walkthrough: Creating a Role Center](Walkthrough--Creating-a-Role-Center.md).  
   
 2.  Assign the Role Center to a profile that is supported by Connect.  
   
@@ -52,7 +52,7 @@ The RoleTailored client installation includes a control add-in that you can use 
   
 3.  Create the Role Center page and include a part that uses the Connect page from step 2.  
   
-     For more information, see [Walkthrough: Creating a Role Center](Walkthrough:-Creating-a-Role-Center.md).  
+     For more information, see [Walkthrough: Creating a Role Center](Walkthrough--Creating-a-Role-Center.md).  
   
 4.  Define the Role Center profile that is supported by Connect and assign it your Role Center.  
   

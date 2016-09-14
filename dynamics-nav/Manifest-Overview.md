@@ -11,7 +11,7 @@ ms.assetid: 939606f2-3092-4f14-9faf-c99a3499a58d
 caps.latest.revision: 17
 ---
 # Manifest Overview
-For a control add-in to work on all display targets there has to be a manifest. The manifest contains a declarative description of the control add-in and is written in XML. The manifest is added together with any resource files in a .zip file and registered with the control add-in resources in the **Client Add-in** page. This topic explains the structure of a manifest by using an example of the manifest for the Bing Maps control add-in. For more information about the implementation of the Bing Maps control add-in, see [Walkthrough: Creating and Using a Client Control Add-in](Walkthrough:-Creating-and-Using-a-Client-Control-Add-in.md).  
+For a control add-in to work on all display targets there has to be a manifest. The manifest contains a declarative description of the control add-in and is written in XML. The manifest is added together with any resource files in a .zip file and registered with the control add-in resources in the **Client Add-in** page. This topic explains the structure of a manifest by using an example of the manifest for the Bing Maps control add-in. For more information about the implementation of the Bing Maps control add-in, see [Walkthrough: Creating and Using a Client Control Add-in](Walkthrough--Creating-and-Using-a-Client-Control-Add-in.md).  
   
 ## Example of a Manifest  
  The syntax of a manifest file is illustrated in the following example. All tags inside the `<manifest>` tag are optional. Inside the `<Manifest>` tag, the `<ScriptUrls>` tag references other JavaScripts from the manifest. In this case the `<ScriptUrls>` tag points to online map controls. Inside the `<Resources>` tag, all of the resources such as the script, style sheet, and images that are required to display the Bing Maps control add-in are listed.  
@@ -236,4 +236,4 @@ int RequestedWidth()
  [Extending Microsoft Dynamics NAV Using Control Add-ins](Extending-Microsoft-Dynamics-NAV-Using-Control-Add-ins.md)   
  [Extending the Windows Client Using Control Add-ins](Extending-the-Windows-Client-Using-Control-Add-ins.md)   
  [Extending Any Microsoft Dynamics NAV Client Using Control Add-ins](Extending-Any-Microsoft-Dynamics-NAV-Client-Using-Control-Add-ins.md)   
- [Walkthrough: Creating and Using a Client Control Add-in](Walkthrough:-Creating-and-Using-a-Client-Control-Add-in.md)
+ [Walkthrough: Creating and Using a Client Control Add-in](Walkthrough--Creating-and-Using-a-Client-Control-Add-in.md)

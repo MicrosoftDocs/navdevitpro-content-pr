@@ -26,7 +26,7 @@ In this walkthrough, you will learn how to add a new item to an **Action** tab a
 -   Modify the Sales Order action so it creates a new sales order for the customer currently selected in the customer list.  
   
 ### Prerequisites  
- This walkthrough builds on the steps described in [Walkthrough: Creating a Customer List in Page Designer](Walkthrough:-Creating-a-Customer-List-in-Page-Designer.md). If you have not created a customer list page, you must create it before you continue this walkthrough.  
+ This walkthrough builds on the steps described in [Walkthrough: Creating a Customer List in Page Designer](Walkthrough--Creating-a-Customer-List-in-Page-Designer.md). If you have not created a customer list page, you must create it before you continue this walkthrough.  
   
 ## Story  
  Simon shows the customer list page that he created to Kevin, the Sales Manager at CRONUS International Ltd. who contracted him to create this page. Kevin likes how the customer list looks, but he would like Simon to add a menu item on the **Actions** tab to create a new sales order for the currently selected customer.  
@@ -152,5 +152,5 @@ In this walkthrough, you will learn how to add a new item to an **Action** tab a
  Next, Simon will add a FactBox to the customer list page. Simon will use this FactBox to display additional information about the currently selected customer in the list.  
   
 ## See Also  
- [Walkthrough: Adding a FactBox to the Customer List Page](Walkthrough:-Adding-a-FactBox-to-the-Customer-List-Page.md)   
- [Walkthrough: Creating a Customer List in Page Designer](Walkthrough:-Creating-a-Customer-List-in-Page-Designer.md)
+ [Walkthrough: Adding a FactBox to the Customer List Page](Walkthrough--Adding-a-FactBox-to-the-Customer-List-Page.md)   
+ [Walkthrough: Creating a Customer List in Page Designer](Walkthrough--Creating-a-Customer-List-in-Page-Designer.md)

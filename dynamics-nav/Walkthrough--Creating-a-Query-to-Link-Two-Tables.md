@@ -127,7 +127,7 @@ SELECT C.Name, C.'No.' SL.AmountFROM Customer AS C, 'Sales Line' AS SL WHERE C.'
      ![The result of running Customer&#95;SalesQuantity query](media/Query_WalkthroughJoin_Run.png "Query\_WalkthroughJoin\_Run")  
   
 ## Next Steps  
- Viktor’s next steps are to create more complex queries. For more information, see  [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](Walkthrough:-Creating-a-Query-That-Uses-a-Totaling-Method-and-Sorting.md) and [Walkthrough: Creating a Query to Link Three Tables](Walkthrough:-Creating-a-Query-to-Link-Three-Tables.md).  
+ Viktor’s next steps are to create more complex queries. For more information, see  [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](Walkthrough--Creating-a-Query-That-Uses-a-Totaling-Method-and-Sorting.md) and [Walkthrough: Creating a Query to Link Three Tables](Walkthrough--Creating-a-Query-to-Link-Three-Tables.md).  
   
 ## See Also  
  [Queries](Queries.md)
