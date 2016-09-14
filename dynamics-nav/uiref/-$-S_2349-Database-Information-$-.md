@@ -23,7 +23,7 @@ Shows information about the database. The only field that you can change is the 
 |**Database Server**|The full name of the SQL Server where the [!INCLUDE[navnow](../includes/navnow_md.md)] database is stored.<br /><br /> [!INCLUDE[bp_fieldnoneditable](../includes/bp_fieldnoneditable_md.md)]|  
 |**Database Name**|The name of the [!INCLUDE[navnow](../includes/navnow_md.md)] database that is currently open.<br /><br /> [!INCLUDE[bp_fieldnoneditable](../includes/bp_fieldnoneditable_md.md)]|  
 |**SQL Edition**|The edition of SQL Server that is running on the database server.<br /><br /> [!INCLUDE[bp_fieldnoneditable](../includes/bp_fieldnoneditable_md.md)]|  
-|**Server Instance**|The server instance name and server port of [!INCLUDE[nav_server](../includes/nav_server_md.md)]. This is the server that is used to run objects in the current database. Choose the drop-down arrow to change the server instance. You can choose a server instance from the [\($ S\_2347 Available Server Instances $\)](-$-S_2347-Available-Server-Instances-$-.md) window.<br /><br /> You can also change the server instance from the [\($ S\_2355 Options $\)](-$-S_2355-Options-$-.md) window.<br /><br /> For more information, see [Managing Microsoft Dynamics NAV Server Instances](../Managing-Microsoft-Dynamics-NAV-Server-Instances.md) and [How to: Change the Microsoft Dynamics NAV Server Instance](../How%20to:%20Change%20the%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).|  
+|**Server Instance**|The server instance name and server port of [!INCLUDE[nav_server](../includes/nav_server_md.md)]. This is the server that is used to run objects in the current database. Choose the drop-down arrow to change the server instance. You can choose a server instance from the [\($ S\_2347 Available Server Instances $\)](-$-S_2347-Available-Server-Instances-$-.md) window.<br /><br /> You can also change the server instance from the [\($ S\_2355 Options $\)](-$-S_2355-Options-$-.md) window.<br /><br /> For more information, see [Managing Microsoft Dynamics NAV Server Instances](../Managing-Microsoft-Dynamics-NAV-Server-Instances.md) and [How to: Change the Microsoft Dynamics NAV Server Instance](../How-to:-Change-the-Microsoft-Dynamics-NAV-Server-Instance.md).|  
 
 ## Sessions Tab  
 
@@ -34,4 +34,4 @@ Shows information about the database. The only field that you can change is the 
 ## See Also  
  [\($ S\_2347 Available Server Instances $\)](-$-S_2347-Available-Server-Instances-$-.md)   
  [Managing Microsoft Dynamics NAV Server Instances](../Managing-Microsoft-Dynamics-NAV-Server-Instances.md)   
- [How to: Change the Microsoft Dynamics NAV Server Instance](../How%20to:%20Change%20the%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)
+ [How to: Change the Microsoft Dynamics NAV Server Instance](../How-to:-Change-the-Microsoft-Dynamics-NAV-Server-Instance.md)

@@ -20,16 +20,16 @@ You can specify if the debugger breaks on the next error. If the debugger is set
   
 ### To break on errors  
   
-1.  Activate the debugger. For more information, see [How to: Activate the Debugger from the Development Environment](How-to--Activate%20the%20Debugger%20from%20the%20Development%20Environment.md) or [How to: Activate the Debugger at the Command Prompt](How-to--Activate%20the%20Debugger%20at%20the%20Command%20Prompt.md).  
+1.  Activate the debugger. For more information, see [How to: Activate the Debugger from the Development Environment](How-to--Activate-the-Debugger-from-the-Development-Environment.md) or [How to: Activate the Debugger at the Command Prompt](How-to--Activate-the-Debugger-at-the-Command-Prompt.md).  
   
 2.  In the **Debugger** window, on the **Home** tab, in the **Breakpoints** group, choose **Break Rules**.  
   
 3.  In the **Debugger Break Rules** window, select the **Break On Error** check box, and then choose the **OK** button.  
   
 ## See Also  
- [How to: Manage Breakpoints from the Development Environment](How-to--Manage%20Breakpoints%20from%20the%20Development%20Environment.md)   
- [How to: Manage Breakpoints from the Debugger Breakpoint List](How-to--Manage%20Breakpoints%20from%20the%20Debugger%20Breakpoint%20List.md)   
- [How to: Break on the Next Statement](How-to--Break%20on%20the%20Next%20Statement.md)   
- [How to: Break on Record Changes](How-to--Break%20on%20Record%20Changes.md)   
- [How to: Set Conditional Breakpoints](How-to--Set%20Conditional%20Breakpoints.md)   
+ [How to: Manage Breakpoints from the Development Environment](How-to--Manage-Breakpoints-from-the-Development-Environment.md)   
+ [How to: Manage Breakpoints from the Debugger Breakpoint List](How-to--Manage-Breakpoints-from-the-Debugger-Breakpoint-List.md)   
+ [How to: Break on the Next Statement](How-to--Break-on-the-Next-Statement.md)   
+ [How to: Break on Record Changes](How-to--Break-on-Record-Changes.md)   
+ [How to: Set Conditional Breakpoints](How-to--Set-Conditional-Breakpoints.md)   
  [Breakpoints](Breakpoints.md)

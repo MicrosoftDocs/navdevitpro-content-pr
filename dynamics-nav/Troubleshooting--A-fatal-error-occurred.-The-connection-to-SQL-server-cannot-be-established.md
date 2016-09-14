@@ -37,12 +37,12 @@ When you try to open [!INCLUDE[nav_web](includes/nav_web_md.md)], you get the fo
   
     -   SQL Server executable file is allowed through the Windows Firewall.  
   
-    -   SQL Server Browser Service is running. This is required only when [!INCLUDE[navnow](includes/navnow_md.md)] used a named database instance, such as NAVDEMO, and [!INCLUDE[nav_server](includes/nav_server_md.md)] is on a different computer than SQL Server. For more information, see [How to: Start SQL Browser Service](How-to--Start%20SQL%20Browser%20Service.md).  
+    -   SQL Server Browser Service is running. This is required only when [!INCLUDE[navnow](includes/navnow_md.md)] used a named database instance, such as NAVDEMO, and [!INCLUDE[nav_server](includes/nav_server_md.md)] is on a different computer than SQL Server. For more information, see [How to: Start SQL Browser Service](How-to--Start-SQL-Browser-Service.md).  
   
-     For more information, see [Troubleshooting: SQL Server Connection Problems](Troubleshooting:%20SQL%20Server%20Connection%20Problems.md).  
+     For more information, see [Troubleshooting: SQL Server Connection Problems](Troubleshooting:-SQL-Server-Connection-Problems.md).  
   
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
  [Troubleshooting the Microsoft Dynamics NAV Web Client Installation](Troubleshooting-the-Microsoft-Dynamics-NAV-Web-Client-Installation.md)   
- [How to: Install the Web Server Components](How-to--Install%20the%20Web%20Server%20Components.md)   
- [Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on Three Computers](Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Three%20Computers.md)
+ [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md)   
+ [Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on Three Computers](Walkthrough:-Installing-the-Microsoft-Dynamics-NAV-Web-Server-Components-on-Three-Computers.md)

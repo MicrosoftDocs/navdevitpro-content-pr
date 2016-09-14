@@ -17,4 +17,4 @@ Selects the computer running SQL Server on which you want to create a new databa
  To open this window, on the **File** menu, choose **Database**, and then choose **New**.  
 
 ## See Also  
- [How to: Create Databases](../How%20to:%20Create%20Databases.md)
+ [How to: Create Databases](../How-to:-Create-Databases.md)

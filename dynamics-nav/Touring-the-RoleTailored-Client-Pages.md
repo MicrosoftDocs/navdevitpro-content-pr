@@ -68,8 +68,8 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display 
   
 |To|See|  
 |--------|---------|  
-|Learn how to create a page.|[How to: Create a Page](How-to--Create%20a%20Page.md)|  
-|Go through an example of how to create a Role Center page.|[Walkthrough: Creating a Role Center](Walkthrough:%20Creating%20a%20Role%20Center.md)|  
+|Learn how to create a page.|[How to: Create a Page](How-to--Create-a-Page.md)|  
+|Go through an example of how to create a Role Center page.|[Walkthrough: Creating a Role Center](Walkthrough:-Creating-a-Role-Center.md)|  
 |Get more information about Cues.|[Cue](#Cue)|  
   
 ##  <a name="CardPage"></a> Card Page Type  
@@ -83,8 +83,8 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display 
   
 |To|See|  
 |--------|---------|  
-|Learn how to create a page.|[How to: Create a Page](How-to--Create%20a%20Page.md)|  
-|Go through an example of how to create a card page.|[Walkthrough: Creating a Customer Card Page in Page Designer](Walkthrough:%20Creating%20a%20Customer%20Card%20Page%20in%20Page%20Designer.md)|  
+|Learn how to create a page.|[How to: Create a Page](How-to--Create-a-Page.md)|  
+|Go through an example of how to create a card page.|[Walkthrough: Creating a Customer Card Page in Page Designer](Walkthrough:-Creating-a-Customer-Card-Page-in-Page-Designer.md)|  
 |Get more information about FactBoxes.|[Adding a FactBox to Page](Adding-a-FactBox-to-Page.md)|  
 |Get more information about FastTabs.|[FastTab](#FastTab)|  
   
@@ -97,10 +97,10 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display 
   
 |To|See|  
 |--------|---------|  
-|Learn how to create a page.|[How to: Create a Page](How-to--Create%20a%20Page.md)|  
-|Go through an example of how to use a card part on a Role Center page.|[Walkthrough: Creating a Role Center](Walkthrough:%20Creating%20a%20Role%20Center.md)|  
-|Go through an example of how to use a Card Part page in a FactBox.|[How to: Create a CardPart Page For Displaying Customer Data in a FactBox](How-to--Create%20a%20CardPart%20Page%20For%20Displaying%20Customer%20Data%20in%20a%20FactBox.md)|  
-|Get more information about FactBoxes.|[How to: Add a FactBox to a Page](How-to--Add%20a%20FactBox%20to%20a%20Page.md)|  
+|Learn how to create a page.|[How to: Create a Page](How-to--Create-a-Page.md)|  
+|Go through an example of how to use a card part on a Role Center page.|[Walkthrough: Creating a Role Center](Walkthrough:-Creating-a-Role-Center.md)|  
+|Go through an example of how to use a Card Part page in a FactBox.|[How to: Create a CardPart Page For Displaying Customer Data in a FactBox](How-to--Create-a-CardPart-Page-For-Displaying-Customer-Data-in-a-FactBox.md)|  
+|Get more information about FactBoxes.|[How to: Add a FactBox to a Page](How-to--Add-a-FactBox-to-a-Page.md)|  
 |Get more information about FastTabs.|[FastTab](#FastTab)|  
 |See a Card Part page in Object Designer.|The page called Customer Details FactBox with ID 9084.|  
   
@@ -115,7 +115,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display 
   
 |To|See|  
 |--------|---------|  
-|Learn how to create a page.|[How to: Create a Page](How-to--Create%20a%20Page.md)|  
+|Learn how to create a page.|[How to: Create a Page](How-to--Create-a-Page.md)|  
 |See a Confirmation page in Object Designer.|The page called Check Availability with ID 342.|  
   
 ##  <a name="DocumentPage"></a> Document Page Type  
@@ -129,8 +129,8 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display 
   
 |To|See|  
 |--------|---------|  
-|Learn how to create a page.|[How to: Create a Page](How-to--Create%20a%20Page.md)|  
-|Go through an example of how to create a Document page.|[Walkthrough: Creating a Document Page](Walkthrough:%20Creating%20a%20Document%20Page.md)|  
+|Learn how to create a page.|[How to: Create a Page](How-to--Create-a-Page.md)|  
+|Go through an example of how to create a Document page.|[Walkthrough: Creating a Document Page](Walkthrough:-Creating-a-Document-Page.md)|  
 |Get more information about FastTabs.|[FastTab](#FastTab)|  
 |See a Document page in Object Designer|The page called Sales Order with ID 42.|  
   
@@ -145,8 +145,8 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display 
   
 |To|See|  
 |--------|---------|  
-|Learn how to create a page.|[How to: Create a Page](How-to--Create%20a%20Page.md)|  
-|Go through an example of how to create a List page.|[Walkthrough: Creating a Customer List in Page Designer](Walkthrough:%20Creating%20a%20Customer%20List%20in%20Page%20Designer.md)|  
+|Learn how to create a page.|[How to: Create a Page](How-to--Create-a-Page.md)|  
+|Go through an example of how to create a List page.|[Walkthrough: Creating a Customer List in Page Designer](Walkthrough:-Creating-a-Customer-List-in-Page-Designer.md)|  
 |Learn more about List Places.|[Touring the RoleTailored Client Windows](Touring-the-RoleTailored-Client-Windows.md)|  
 |Get more information about FactBoxes.|[Adding a FactBox to Page](Adding-a-FactBox-to-Page.md)|  
 |See a List page in Object Designer.|The page called Sales Order List with ID 9305.|  
@@ -160,8 +160,8 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display 
   
 |To|See|  
 |--------|---------|  
-|Learn how to create a page.|[How to: Create a Page](How-to--Create%20a%20Page.md)|  
-|Get more information about FactBoxes.|[How to: Add a FactBox to a Page](How-to--Add%20a%20FactBox%20to%20a%20Page.md)|  
+|Learn how to create a page.|[How to: Create a Page](How-to--Create-a-Page.md)|  
+|Get more information about FactBoxes.|[How to: Add a FactBox to a Page](How-to--Add-a-FactBox-to-a-Page.md)|  
   
 ##  <a name="ListPartPage"></a> List Part Page Type  
  Similar to a List page, a List Part page displays content from a table in a list format. The difference is that you use the List part page as another page in a FactBox or as a part of the Role Center page. The following illustration shows a List Part page that is used in the Role Center for viewing a list of the user's customers.  
@@ -172,7 +172,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display 
   
 |To|See|  
 |--------|---------|  
-|Learn how to create a page.|[How to: Create a Page](How-to--Create%20a%20Page.md)|  
+|Learn how to create a page.|[How to: Create a Page](How-to--Create-a-Page.md)|  
 |Get more information about FactBoxes.|[Adding a FactBox to Page](Adding-a-FactBox-to-Page.md)|  
 |See how a List Part page is used on a Role Center page.|The page called Order Processor Role Center with ID 9006.|  
   
@@ -187,8 +187,8 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display 
   
 |To|See|  
 |--------|---------|  
-|Learn how to create a page.|[How to: Create a Page](How-to--Create%20a%20Page.md)|  
-|Go through an example that creates a Navigate page.|[Walkthrough: Creating a Wizard Page](Walkthrough:%20Creating%20a%20Wizard%20Page.md)|  
+|Learn how to create a page.|[How to: Create a Page](How-to--Create-a-Page.md)|  
+|Go through an example that creates a Navigate page.|[Walkthrough: Creating a Wizard Page](Walkthrough:-Creating-a-Wizard-Page.md)|  
 |Learn more about task pages.|[Touring the RoleTailored Client Windows](Touring-the-RoleTailored-Client-Windows.md)|  
 |See a Navigate page that is used as a wizard in Object Designer.|The page called Create To-do with ID 5097.|  
   
@@ -209,7 +209,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display 
   
 |To|See|  
 |--------|---------|  
-|Learn how to create a StandardDialog type page.|[How to: Create a Page](How-to--Create%20a%20Page.md)|  
+|Learn how to create a StandardDialog type page.|[How to: Create a Page](How-to--Create-a-Page.md)|  
 |See an example of a StandardDialog type page.|The page called Page 511, Change Exchange Rate.|  
   
 ##  <a name="WorksheetPage"></a> Worksheet Page  
@@ -223,8 +223,8 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display 
   
 |To|See|  
 |--------|---------|  
-|Learn how to create a page.|[How to: Create a Page](How-to--Create%20a%20Page.md)|  
-|Go through an example that creates a Worksheet page.|[Walkthrough: Creating a Worksheet Page](Walkthrough:%20Creating%20a%20Worksheet%20Page.md)|  
+|Learn how to create a page.|[How to: Create a Page](How-to--Create-a-Page.md)|  
+|Go through an example that creates a Worksheet page.|[Walkthrough: Creating a Worksheet Page](Walkthrough:-Creating-a-Worksheet-Page.md)|  
 |Get more information about FactBoxes.|[Adding a FactBox to Page](Adding-a-FactBox-to-Page.md)|  
 |See a Worksheet page.|The page called Standard Cost Worksheet with ID 5841.|  
   
@@ -242,7 +242,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display 
 |To|See|  
 |--------|---------|  
 |Learn more about actions and navigation.|[Adding Actions to Pages](Adding-Actions-to-Pages.md)|  
-|Learn how to promote actions to the action page.|[How to: Promote Actions on Pages](How-to--Promote%20Actions%20on%20Pages.md)|  
+|Learn how to promote actions to the action page.|[How to: Promote Actions on Pages](How-to--Promote-Actions-on-Pages.md)|  
 |See a page that promotes actions to the ribbon.|The page called Customer List with ID 22.|  
   
 ###  <a name="Cue"></a> Cue  
@@ -256,8 +256,8 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display 
   
 |To|See|  
 |--------|---------|  
-|Learn how to create a Cue.|[Walkthrough: Creating a Cue Based on a FlowField](Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20FlowField.md)|  
-|Go through an example that uses a Cue on the Role Center.|[Walkthrough: Creating a Role Center](Walkthrough:%20Creating%20a%20Role%20Center.md)|  
+|Learn how to create a Cue.|[Walkthrough: Creating a Cue Based on a FlowField](Walkthrough:-Creating-a-Cue-Based-on-a-FlowField.md)|  
+|Go through an example that uses a Cue on the Role Center.|[Walkthrough: Creating a Role Center](Walkthrough:-Creating-a-Role-Center.md)|  
 |See a page that uses Cues.|The page called SO Processor Activities with ID 9060.|  
   
 ### Chart Pane  
@@ -296,7 +296,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display 
   
 |To|See|  
 |--------|---------|  
-|Go through an example that uses a FactBox.|[Walkthrough: Adding a FactBox to the Customer List Page](Walkthrough:%20Adding%20a%20FactBox%20to%20the%20Customer%20List%20Page.md)|  
+|Go through an example that uses a FactBox.|[Walkthrough: Adding a FactBox to the Customer List Page](Walkthrough:-Adding-a-FactBox-to-the-Customer-List-Page.md)|  
 |See a page that uses a FactBox.|The page called Sales Order List with ID 9305.|  
   
 ###  <a name="FastTab"></a> FastTabs  
@@ -310,7 +310,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display 
   
 |To|See|  
 |--------|---------|  
-|Learn how to add a FastTab to a page.|[How to: Add FastTabs to a Customer Card Page](How-to--Add%20FastTabs%20to%20a%20Customer%20Card%20Page.md)|  
+|Learn how to add a FastTab to a page.|[How to: Add FastTabs to a Customer Card Page](How-to--Add-FastTabs-to-a-Customer-Card-Page.md)|  
 |See a page that uses a FastTabs.|The page called Sales Order with ID 42.|  
   
 ### Filter Pane  
@@ -333,7 +333,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display 
   
 |To|See|  
 |--------|---------|  
-|Go through an example that uses My Notes.|[Walkthrough: Creating a Role Center](Walkthrough:%20Creating%20a%20Role%20Center.md)|  
+|Go through an example that uses My Notes.|[Walkthrough: Creating a Role Center](Walkthrough:-Creating-a-Role-Center.md)|  
 |See a page that uses the My Notifications part.|The page called Order Processor Role Center with ID 9006.|  
   
 ### Notes  

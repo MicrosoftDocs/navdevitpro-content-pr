@@ -29,4 +29,4 @@ Sets whether the fields in Group controls are arranged horizontally in a row or 
  You use a Group control to arrange fields in rows and columns. To define the rows and columns of fields, you add **SubType** Group controls to the Group control. Each **SubType** control contains the fields that you want to display. You can use the **Layout** property to specify whether the fields in a group are arranged in rows or columns.  
   
 ## See Also  
- [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](How-to--Arrange%20Fields%20in%20Rows%20and%20Columns%20Using%20the%20GridLayout%20Control.md)
+ [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](How-to--Arrange-Fields-in-Rows-and-Columns-Using-the-GridLayout-Control.md)

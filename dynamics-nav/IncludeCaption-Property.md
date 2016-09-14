@@ -27,4 +27,4 @@ Sets whether to include the caption of a field in the dataset of a report.
   
 ## See Also  
  [Caption Property-duplicate](Caption-Property-duplicate.md)   
- [How to: Create Labels for a Report](How-to--Create%20Labels%20for%20a%20Report.md)
+ [How to: Create Labels for a Report](How-to--Create-Labels-for-a-Report.md)

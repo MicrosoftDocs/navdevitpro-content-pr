@@ -41,7 +41,7 @@ Query.CLOSE
   
 -   Create a query called **Customer\_SalesQuantity** that is links table **18 Customer** with table  **37 Sales Lines** from the [!INCLUDE[demolong](includes/demolong_md.md)]. Include columns for the **Name** and **No.** fields from the Customer table and the **Quantity** field from Sales Lines table.  
   
-     For step-by-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
+     For step-by-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:-Creating-a-Query-to-Link-Two-Tables.md).  
   
 -   Create the following variable and text constant  
   
@@ -70,6 +70,6 @@ MyQuery.CLOSE;
 ```  
   
 ## See Also  
- [How to: Create Queries](How-to--Create%20Queries.md)   
+ [How to: Create Queries](How-to--Create-Queries.md)   
  [Working with Queries in C-AL](Working-with-Queries-in-C-AL.md)   
  [Queries](Queries.md)

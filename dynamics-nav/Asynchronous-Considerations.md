@@ -19,6 +19,6 @@ Writing control add-ins that work on all display targets, you have to consider s
   
 ## See Also  
  [Extending Microsoft Dynamics NAV Using Control Add-ins](Extending-Microsoft-Dynamics-NAV-Using-Control-Add-ins.md)   
- [Walkthrough: Creating and Using a Client Control Add-in](Walkthrough:%20Creating%20and%20Using%20a%20Client%20Control%20Add-in.md)   
+ [Walkthrough: Creating and Using a Client Control Add-in](Walkthrough:-Creating-and-Using-a-Client-Control-Add-in.md)   
  [InvokeExtensibilityMethod Method](InvokeExtensibilityMethod-Method.md)   
  [GetImageResource Method](GetImageResource-Method.md)

@@ -29,7 +29,7 @@ To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tabl
 
 -   Install Internet Information Services 7.0 at a minimum.  
 
-     Make sure that the required features are enabled. For more information, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How-to--Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md)  
+     Make sure that the required features are enabled. For more information, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md)  
 
      Instead of installing and configuring IIS manually, you can use [!INCLUDE[navnow](includes/navnow_md.md)] Setup to install IIS and enable the required features. If IIS is already installed, then Setup will enable any required features that are not currently enabled.  
 
@@ -41,10 +41,10 @@ To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tabl
 
     -   Obtain the certificate's thumbprint.  
 
-     For more information about these procedures, see [Walkthrough: Configuring Web Services to Use SSL \(SOAP and OData\)](Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md).  
+     For more information about these procedures, see [Walkthrough: Configuring Web Services to Use SSL \(SOAP and OData\)](Walkthrough:-Configuring-Web-Services-to-Use-SSL-\(SOAP-and-OData\).md).  
 
     > [!NOTE]  
-    >  If you do not want to configure SSL when you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], you can configure it after installation. For more information, see [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
+    >  If you do not want to configure SSL when you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], you can configure it after installation. For more information, see [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md).  
 
 ## Installing the Microsoft Dynamics NAV Web Server  
  To install the [!INCLUDE[nav_web](includes/nav_web_md.md)], you run [!INCLUDE[navnow](includes/navnow_md.md)] Setup on a computer that is running IIS, and then choose the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] option.  
@@ -110,25 +110,25 @@ To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tabl
 
     -   Open a web browser, and then in the address box, type **http://localhost:port/DynamicsNAV90/WebClient**. Replace port with the TCP port number that you chose during Setup.  
 
-     For more information, see [How to: Open the Microsoft Dynamics NAV Web Client](How-to--Open%20the%20Microsoft%20Dynamics%20NAV%20Web%20Client.md). If you get an error when trying to open the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [Troubleshooting the Microsoft Dynamics NAV Web Client Installation](Troubleshooting-the-Microsoft-Dynamics-NAV-Web-Client-Installation.md) for information about resolving the problem.  
+     For more information, see [How to: Open the Microsoft Dynamics NAV Web Client](How-to--Open-the-Microsoft-Dynamics-NAV-Web-Client.md). If you get an error when trying to open the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [Troubleshooting the Microsoft Dynamics NAV Web Client Installation](Troubleshooting-the-Microsoft-Dynamics-NAV-Web-Client-Installation.md) for information about resolving the problem.  
 
 #### Next Steps  
 
 -   If [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] was installed on Windows 7, create an inbound rule in the Windows Firewall to allow communication on the TCP port that you chose during Setup.  
 
-     For more information, see [How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client](How-to--Create%20an%20Inbound%20Rule%20in%20Windows%20Firewall%20for%20the%20Port%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
+     For more information, see [How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client](How-to--Create-an-Inbound-Rule-in-Windows-Firewall-for-the-Port-of-Microsoft-Dynamics-NAV-Web-Client.md).  
 
 -   If the [!INCLUDE[nav_web](includes/nav_web_md.md)] is installed on a different computer than [!INCLUDE[nav_server](includes/nav_server_md.md)], set up delegation on [!INCLUDE[nav_server](includes/nav_server_md.md)] from the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
 
-     For more information, see [How to: Configure Delegation for Microsoft Dynamics NAV Web Client](How-to--Configure%20Delegation%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
+     For more information, see [How to: Configure Delegation for Microsoft Dynamics NAV Web Client](How-to--Configure-Delegation-for-Microsoft-Dynamics-NAV-Web-Client.md).  
 
 -   If you want to change the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that the [!INCLUDE[nav_web](includes/nav_web_md.md)] connects to, then modify the web.config file for the [!INCLUDE[nav_web](includes/nav_web_md.md)] website.  
 
-     For more information, see [How to: Change the Microsoft Dynamics NAV Server for the Microsoft NAV Web Client](How-to--Change%20the%20Microsoft%20Dynamics%20NAV%20Server%20for%20the%20Microsoft%20NAV%20Web%20Client.md).  
+     For more information, see [How to: Change the Microsoft Dynamics NAV Server for the Microsoft NAV Web Client](How-to--Change-the-Microsoft-Dynamics-NAV-Server-for-the-Microsoft-NAV-Web-Client.md).  
 
 -   If you want to help secure the communication with the [!INCLUDE[nav_web](includes/nav_web_md.md)], configure SSL.  
 
-     For more information, see [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
+     For more information, see [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md).  
 
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   

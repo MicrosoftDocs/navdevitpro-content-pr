@@ -32,5 +32,5 @@ Specifies which changes to the database to roll back after the tests in the test
 >  If you specify that you want to roll back database changes, then all database changes are rolled back, including changes that were explicitly committed to the database during the test by using the **COMMIT** function.  
   
 ## See Also  
- [How to: Create a Test Runner Codeunit](How-to--Create%20a%20Test%20Runner%20Codeunit.md)   
+ [How to: Create a Test Runner Codeunit](How-to--Create-a-Test-Runner-Codeunit.md)   
  [Testing the Application](Testing-the-Application.md)

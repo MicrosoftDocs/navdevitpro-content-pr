@@ -26,4 +26,4 @@ When you try start debugger from the [!INCLUDE[nav_dev_long](includes/nav_dev_lo
   
 ## See Also  
  [Debugging](Debugging.md)   
- [How to: Activate the Debugger from the Development Environment](How-to--Activate%20the%20Debugger%20from%20the%20Development%20Environment.md)
+ [How to: Activate the Debugger from the Development Environment](How-to--Activate-the-Debugger-from-the-Development-Environment.md)

@@ -29,7 +29,7 @@ Specifies how the report opens when you preview it.
  Regardless of your choice, users can change the display mode in the **\($ S\_7109 Print Preview $\)** window. For example, if you choose the default mode, users can choose the **Print Layout** button. However, if the C/AL code for the report uses the PREVIEW function to disable printing from the preview, then users cannot change the display mode to print layout.  
   
 ## See Also  
- [\($ S\_7109 Print Preview $\)](\($%20S_7109%20Print%20Preview%20$\).md)   
+ [\($ S\_7109 Print Preview $\)](\($-S_7109-Print-Preview-$\).md)   
  [Report Design Overview](Report-Design-Overview.md)   
  [Designing Reports](Designing-Reports.md)   
  [Printing Reports](Printing-Reports.md)   

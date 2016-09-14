@@ -27,4 +27,4 @@ Sets the value that indicates whether the selected action is promoted, which mea
   
 ## See Also  
  [PromotedIsBig Property](PromotedIsBig-Property.md)   
- [How to: Promote Actions on Pages](How-to--Promote%20Actions%20on%20Pages.md)
+ [How to: Promote Actions on Pages](How-to--Promote-Actions-on-Pages.md)

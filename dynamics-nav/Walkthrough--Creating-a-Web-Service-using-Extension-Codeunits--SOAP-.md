@@ -121,7 +121,7 @@ This walkthrough shows how to publish and consume a [!INCLUDE[navnow](includes/n
   
      For example:  
   
-     **http://localhost:7047/DynamicsNAV/WS/CRONUS%20International%20Ltd./services**  
+     **http://localhost:7047/DynamicsNAV/WS/CRONUS-International-Ltd./services**  
   
     > [!NOTE]  
     >  The company name is case-sensitive.  

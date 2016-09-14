@@ -15,7 +15,7 @@ manager: edupont
 To enable customized translation of profiles, the **\($ N\_9171 Profile List $\)** window has actions for exporting and importing resources \(.resx\) files. This topic explains the process of exporting .resx files for translation, and then importing the translated .resx files for one or more profiles. Any imported translation can also be removed from the **\($ N\_9171 Profile List $\)** window.  
   
 > [!NOTE]  
->  When installing a language module, we recommend that you import the profile resource files for all of the profiles. For more information, see [How to: Install Language Modules](How-to--Install%20Language%20Modules.md).  
+>  When installing a language module, we recommend that you import the profile resource files for all of the profiles. For more information, see [How to: Install Language Modules](How-to--Install-Language-Modules.md).  
   
 ### To export a profile resource file  
   
@@ -69,5 +69,5 @@ To enable customized translation of profiles, the **\($ N\_9171 Profile List $\)
 3.  Choose the **OK** button.  
   
 ## See Also  
- [How to: Install Language Modules](How-to--Install%20Language%20Modules.md)   
- [How to: Uninstall Language Modules](How-to--Uninstall%20Language%20Modules.md)
+ [How to: Install Language Modules](How-to--Install-Language-Modules.md)   
+ [How to: Uninstall Language Modules](How-to--Uninstall-Language-Modules.md)

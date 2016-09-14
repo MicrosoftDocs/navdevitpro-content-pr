@@ -95,7 +95,7 @@ manager: edupont
 7.  Close the page properties and save the page.  
   
 ## See Also  
- [How to: Promote Actions on Pages](How-to--Promote%20Actions%20on%20Pages.md)   
+ [How to: Promote Actions on Pages](How-to--Promote-Actions-on-Pages.md)   
  [Actions Overview](Actions-Overview.md)   
- [How to: Add Actions to a Page](How-to--Add%20Actions%20to%20a%20Page.md)   
- [How to: Set an Icon on an Action](How-to--Set%20an%20Icon%20on%20an%20Action.md)
+ [How to: Add Actions to a Page](How-to--Add-Actions-to-a-Page.md)   
+ [How to: Set an Icon on an Action](How-to--Set-an-Icon-on-an-Action.md)

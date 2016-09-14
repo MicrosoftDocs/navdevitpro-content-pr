@@ -15,7 +15,7 @@ manager: edupont
 Microsoft is committed to making its products and services easier for everyone to use. This topic provides information about features of the [!INCLUDE[navnow](includes/navnow_md.md)] that makes the product more accessible for people with disabilities.  
   
 ## Keyboard Shortcuts  
- Instead of using a mouse or another pointing device, the keyboard can sometimes be a faster way to perform a task. For a list of the keyboard shortcuts that can be used in the [!INCLUDE[navnow](includes/navnow_md.md)], see [Keyboard Shortcuts](Keyboard%20Shortcuts.md).  
+ Instead of using a mouse or another pointing device, the keyboard can sometimes be a faster way to perform a task. For a list of the keyboard shortcuts that can be used in the [!INCLUDE[navnow](includes/navnow_md.md)], see [Keyboard Shortcuts](Keyboard-Shortcuts.md).  
   
 ## Assistive technologies  
  [!INCLUDE[navnow](includes/navnow_md.md)] supports various assistive technologies such as screen readers and voice recognition software.  

@@ -20,7 +20,7 @@ Before you deploy [!INCLUDE[navnow](includes/navnow_md.md)] on Microsoft Azure, 
 
  We recommend that you use an image Azure Marketplace, because no preparation is needed. By default, the Set-PartnerSetting.ps1 file that is used by the Example-1VM.ps1 and Example-2VM.ps1 scripts is configured to use valid Azure Marketplace images.  
 
- For information about how to create your own image, see [How to: Create a Microsoft Azure Virtual Machine Operating System Image for Microsoft Dynamics NAV](How-to--Create%20a%20Microsoft%20Azure%20Virtual%20Machine%20Operating%20System%20Image%20for%20Microsoft%20Dynamics%20NAV.md).  
+ For information about how to create your own image, see [How to: Create a Microsoft Azure Virtual Machine Operating System Image for Microsoft Dynamics NAV](How-to--Create-a-Microsoft-Azure-Virtual-Machine-Operating-System-Image-for-Microsoft-Dynamics-NAV.md).  
 
 ##  <a name="ImageRequirements"></a> Images Requirements  
  Depending on the network topology that you deploy on Azure, you will need one or two images. Example-1VM.ps1 deploys [!INCLUDE[navnow](includes/navnow_md.md)] on one virtual machine and requires a single image. Example-2VM.ps1 deploys [!INCLUDE[navnow](includes/navnow_md.md)] on two virtual machines, where one virtual machine is for the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)], and the other virtual machine is for SQL Server and the [!INCLUDE[navnow](includes/navnow_md.md)] database. The Example-2VM.ps1 script requires that you specify an image for each virtual machine. Depending on the script that you use, the images must meet the requirements that are described in the following table.  

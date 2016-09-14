@@ -48,7 +48,7 @@ You can specify filters in a query to restrict the data in the resulting dataset
   
  You use filters on a column to filter on fields that are included in the dataset. To apply a filter on a column, you set the [ColumnFilter Property](ColumnFilter-Property.md) of the column. You can apply a filter on any column, including aggregated columns that are applied a totals method by the [Method Property](Method-Property.md).  
   
- You use filters on a filter row to filter on fields that you do not want included in the dataset. To set up a filter row, you add a row of the type Filter in Query Designer that specifies a field, and then set its ColumnFilter property. For more information about how to set up filter rows, see [How to: Set Up Filter Rows in Query Designer](How-to--Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md).  
+ You use filters on a filter row to filter on fields that you do not want included in the dataset. To set up a filter row, you add a row of the type Filter in Query Designer that specifies a field, and then set its ColumnFilter property. For more information about how to set up filter rows, see [How to: Set Up Filter Rows in Query Designer](How-to--Set-Up-Filter-Rows-in-Query-Designer.md).  
   
  The following illustration shows Query Designer for a query that links the Customer table and the Sales Line table and retrieves the total quantity of items ordered for each customer. The query includes the following filters, as shown by the **Properties** windows in the illustration.  
   
@@ -132,8 +132,8 @@ currQuery.SETFILTER(Location_Code, '=RED');
 ```  
   
 ## See Also  
- [How to: Create Queries](How-to--Create%20Queries.md)   
- [How to: Set Up Filter Rows in Query Designer](How-to--Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md)   
+ [How to: Create Queries](How-to--Create-Queries.md)   
+ [How to: Set Up Filter Rows in Query Designer](How-to--Set-Up-Filter-Rows-in-Query-Designer.md)   
  [Understanding Data Item Links](Understanding-Data-Item-Links.md)   
  [Understanding Query Totals and Grouping](Understanding-Query-Totals-and-Grouping.md)   
  [Working with Queries in C-AL](Working-with-Queries-in-C-AL.md)   

@@ -51,4 +51,4 @@ Sets either a date method for retrieving the year, month, or day from a date fie
  [MethodType Property](MethodType-Property.md)   
  [Using the Date Method to Retrieve Day, Month, and Year Data](Using-the-Date-Method-to-Retrieve-Day--Month--and-Year-Data.md)   
  [Understanding Query Totals and Grouping](Understanding-Query-Totals-and-Grouping.md)   
- [How to: Create Queries](How-to--Create%20Queries.md)
+ [How to: Create Queries](How-to--Create-Queries.md)

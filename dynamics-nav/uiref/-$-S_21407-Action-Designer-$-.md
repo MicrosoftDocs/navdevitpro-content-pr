@@ -19,7 +19,7 @@ Adds actions to the menu bar of a page.
  In the [!INCLUDE[rtc](../includes/rtc_md.md)] for [!INCLUDE[navnow](../includes/navnow_md.md)], menu items are called *actions*.  
 
 > [!NOTE]  
->  Actions can only be linked to a page or to a group control that has a subtype of **CueGroup**. Actions cannot be linked to fields, containers, or parts on a page. For more information about adding actions to a **CueGroup** control, see [Adding an Action to the Cue](../Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20FlowField.md#AddingActionToCue).  
+>  Actions can only be linked to a page or to a group control that has a subtype of **CueGroup**. Actions cannot be linked to fields, containers, or parts on a page. For more information about adding actions to a **CueGroup** control, see [Adding an Action to the Cue](../Walkthrough:-Creating-a-Cue-Based-on-a-FlowField.md#AddingActionToCue).  
 
 ## Fields and Controls  
 

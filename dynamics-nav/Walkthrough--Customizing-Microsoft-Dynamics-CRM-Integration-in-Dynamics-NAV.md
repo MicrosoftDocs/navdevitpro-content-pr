@@ -34,7 +34,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
 
     -   [!INCLUDE[crm](includes/crm_md.md)] integration enabled, including the default synchronization setup and a working connection from [!INCLUDE[navnow](includes/navnow_md.md)] to [!INCLUDE[crm](includes/crm_md.md)].  
 
-         For more information, see [How to: Set Up a Microsoft Dynamics CRM Connection](How-to--Set%20Up%20a%20Microsoft%20Dynamics%20CRM%20Connection.md).  
+         For more information, see [How to: Set Up a Microsoft Dynamics CRM Connection](How-to--Set-Up-a-Microsoft-Dynamics-CRM-Connection.md).  
 
     -   [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
 
@@ -124,7 +124,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
 
 4.  Restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
 
-     For more information, see [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How-to--Start,%20Stop,%20Restart,%20or%20Remove%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md).  
+     For more information, see [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How-to--Start,-Stop,-Restart,-or-Remove-a-Microsoft-Dynamics-NAV-Server-Instance.md).  
 
  When changes occur in the table **5071 Campaign**, an integration record will be created or updated with a timestamp. You can now use the table to create a page for coupling [!INCLUDE[navnow](includes/navnow_md.md)] records with [!INCLUDE[crm](includes/crm_md.md)] records.  
 
@@ -187,7 +187,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
 
 1.  Open page **5086 Campaign Card** in Page Designer, and then open Action Designer.  
 
-     For more information about how to add actions, see [How to: Add Actions to a Page](How-to--Add%20Actions%20to%20a%20Page.md).  
+     For more information about how to add actions, see [How to: Add Actions to a Page](How-to--Add-Actions-to-a-Page.md).  
 
 2.  Add an **ActionGroup** control that is caption **Dynamics CRM**.  
 

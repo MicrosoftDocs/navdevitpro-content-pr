@@ -50,4 +50,4 @@ You use a Filter row in Query Designer when you want to filter the query on a fi
 ## See Also  
  [Understanding Query Filters](Understanding-Query-Filters.md)   
  [ColumnFilter Property](ColumnFilter-Property.md)   
- [How to: Create Queries](How-to--Create%20Queries.md)
+ [How to: Create Queries](How-to--Create-Queries.md)

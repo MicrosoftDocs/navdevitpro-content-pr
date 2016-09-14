@@ -48,7 +48,7 @@ An activity button in the navigation pane displays a menu of links to additional
 7.  In the **Caption** field, type the text to display on the activity button in the RoleTailored client.  
   
     > [!NOTE]  
-    >  You can also include an image on the activity button. For more information, see [How to: Set an Icon on an Activity Button](How-to--Set%20an%20Icon%20on%20an%20Activity%20Button.md)  
+    >  You can also include an image on the activity button. For more information, see [How to: Set an Icon on an Activity Button](How-to--Set-an-Icon-on-an-Activity-Button.md)  
   
 8.  Use the RIGHT ARROW and LEFT ARROW keys to indent the row one level from the **ActivityButtons** container row.  
   
@@ -74,5 +74,5 @@ An activity button in the navigation pane displays a menu of links to additional
 ## See Also  
  [Creating Activity Buttons for the Navigation Pane](Creating-Activity-Buttons-for-the-Navigation-Pane.md)   
  [Adding Actions to Pages](Adding-Actions-to-Pages.md)   
- [Walkthrough: Creating a Role Center](Walkthrough:%20Creating%20a%20Role%20Center.md)   
+ [Walkthrough: Creating a Role Center](Walkthrough:-Creating-a-Role-Center.md)   
  [Pages](Pages.md)

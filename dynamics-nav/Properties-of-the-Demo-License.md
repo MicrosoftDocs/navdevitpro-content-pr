@@ -48,4 +48,4 @@ The demo license is automatically installed when you install the Demo Option. Th
   
 ## See Also  
  [Demo Option](Demo-Option.md)   
- [Walkthrough: Installing the Demo Version](Walkthrough:%20Installing%20the%20Demo%20Version.md)
+ [Walkthrough: Installing the Demo Version](Walkthrough:-Installing-the-Demo-Version.md)

@@ -25,5 +25,5 @@ Cues are used on the UI to visually provide a way to show the number of entities
 |[!INCLUDE[nav_web](includes/nav_web_md.md)]|-   CueGroup fields are always shown as Cue tiles.<br />-   Actions are only shown if there are no Cue fields and then they are shown as Action tiles.|  
   
 ## See Also  
- [Adding the Cue CardPart Page on the Role Center Page](Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20FlowField.md#AddingCuePartToRoleCenter)   
- [Walkthrough: Creating a Role Center](Walkthrough:%20Creating%20a%20Role%20Center.md)
+ [Adding the Cue CardPart Page on the Role Center Page](Walkthrough:-Creating-a-Cue-Based-on-a-FlowField.md#AddingCuePartToRoleCenter)   
+ [Walkthrough: Creating a Role Center](Walkthrough:-Creating-a-Role-Center.md)

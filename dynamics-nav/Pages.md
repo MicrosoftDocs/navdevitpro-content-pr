@@ -29,19 +29,19 @@ The following sections provide an overview of how to locate [!INCLUDE[navnow](in
   
 |To|See|  
 |--------|---------|  
-|Learn how to create a card page|[Walkthrough: Creating a Customer Card Page in Page Designer](Walkthrough:%20Creating%20a%20Customer%20Card%20Page%20in%20Page%20Designer.md)|  
-|Learn how to create a list page|[Walkthrough: Creating a Customer List in Page Designer](Walkthrough:%20Creating%20a%20Customer%20List%20in%20Page%20Designer.md)|  
-|Learn how to create a Role Center|[Walkthrough: Creating a Role Center](Walkthrough:%20Creating%20a%20Role%20Center.md)|  
-|Learn how to create a document page|[Walkthrough: Creating a Document Page](Walkthrough:%20Creating%20a%20Document%20Page.md)|  
-|Learn how to create a worksheet page|[Walkthrough: Creating a Worksheet Page](Walkthrough:%20Creating%20a%20Worksheet%20Page.md)|  
-|Learn how to create a wizard using the navigate page type|[Walkthrough: Creating a Wizard Page](Walkthrough:%20Creating%20a%20Wizard%20Page.md)|  
+|Learn how to create a card page|[Walkthrough: Creating a Customer Card Page in Page Designer](Walkthrough:-Creating-a-Customer-Card-Page-in-Page-Designer.md)|  
+|Learn how to create a list page|[Walkthrough: Creating a Customer List in Page Designer](Walkthrough:-Creating-a-Customer-List-in-Page-Designer.md)|  
+|Learn how to create a Role Center|[Walkthrough: Creating a Role Center](Walkthrough:-Creating-a-Role-Center.md)|  
+|Learn how to create a document page|[Walkthrough: Creating a Document Page](Walkthrough:-Creating-a-Document-Page.md)|  
+|Learn how to create a worksheet page|[Walkthrough: Creating a Worksheet Page](Walkthrough:-Creating-a-Worksheet-Page.md)|  
+|Learn how to create a wizard using the navigate page type|[Walkthrough: Creating a Wizard Page](Walkthrough:-Creating-a-Wizard-Page.md)|  
   
 ## Modifying Pages  
   
 |To|See|  
 |--------|---------|  
-|Add actions to a customer list page|[Walkthrough: Adding Actions to a Customer List Page](Walkthrough:%20Adding%20Actions%20to%20a%20Customer%20List%20Page.md)|  
-|Add a FactBox to a customer list page|[Walkthrough: Adding a FactBox to the Customer List Page](Walkthrough:%20Adding%20a%20FactBox%20to%20the%20Customer%20List%20Page.md)|  
+|Add actions to a customer list page|[Walkthrough: Adding Actions to a Customer List Page](Walkthrough:-Adding-Actions-to-a-Customer-List-Page.md)|  
+|Add a FactBox to a customer list page|[Walkthrough: Adding a FactBox to the Customer List Page](Walkthrough:-Adding-a-FactBox-to-the-Customer-List-Page.md)|  
   
 ## Adding Actions to Pages  
   
@@ -49,15 +49,15 @@ The following sections provide an overview of how to locate [!INCLUDE[navnow](in
 |--------|---------|  
 |Find the appropriate actions topic|[Adding Actions to Pages](Adding-Actions-to-Pages.md)|  
 |Understand how actions are intended to be used in the RoleTailored client|[Actions Overview](Actions-Overview.md)|  
-|Learn how to add actions to a page|[How to: Add Actions to a Page](How-to--Add%20Actions%20to%20a%20Page.md)|  
-|Learn how to promote actions to the ribbon|[How to: Promote Actions on Pages](How-to--Promote%20Actions%20on%20Pages.md)|  
-|Learn how to create action submenus|[How to: Add Action Submenus to Pages](How-to--Add%20Action%20Submenus%20to%20Pages.md)|  
+|Learn how to add actions to a page|[How to: Add Actions to a Page](How-to--Add-Actions-to-a-Page.md)|  
+|Learn how to promote actions to the ribbon|[How to: Promote Actions on Pages](How-to--Promote-Actions-on-Pages.md)|  
+|Learn how to create action submenus|[How to: Add Action Submenus to Pages](How-to--Add-Action-Submenus-to-Pages.md)|  
   
 ## Running Pages  
   
 |To|See|  
 |--------|---------|  
-|Preview a page in the RoleTailored client|[How to: Run a Page](How-to--Run%20a%20Page.md)|  
+|Preview a page in the RoleTailored client|[How to: Run a Page](How-to--Run-a-Page.md)|  
   
 ## See Also  
  [Page Designer Troubleshooting](Page-Designer-Troubleshooting.md)   

@@ -69,11 +69,11 @@ Word report layouts are built on *custom XML parts*. A custom XML part is struct
   
 -   The language of the label that is displayed when you run the report depends on the language setting of the report object. For more information, see [Multiple Document Languages](Multiple-Document-Languages.md) and [Viewing the Application in Different Languages](Viewing-the-Application-in-Different-Languages.md).  
   
- For information about how to open the custom XML part in Word and add fields, see [How to: Add Fields to a Word Report Layout](How-to--Add%20Fields%20to%20a%20Word%20Report%20Layout.md).  
+ For information about how to open the custom XML part in Word and add fields, see [How to: Add Fields to a Word Report Layout](How-to--Add-Fields-to-a-Word-Report-Layout.md).  
   
 ## See Also  
- [Managing Report Layouts From the Microsoft Dynamics NAV Clients](Managing%20Report%20Layouts%20From%20the%20Microsoft%20Dynamics%20NAV%20Clients.md)   
- [About Report Layouts](About%20Report%20Layouts.md)   
- [How to: Create a Custom Report Layout](How-to--Create%20a%20Custom%20Report%20Layout.md)   
- [How to: Add Fields to a Word Report Layout](How-to--Add%20Fields%20to%20a%20Word%20Report%20Layout.md)   
- [How to: Modify a Custom Report Layout](How-to--Modify%20a%20Custom%20Report%20Layout.md)
+ [Managing Report Layouts From the Microsoft Dynamics NAV Clients](Managing-Report-Layouts-From-the-Microsoft-Dynamics-NAV-Clients.md)   
+ [About Report Layouts](About-Report-Layouts.md)   
+ [How to: Create a Custom Report Layout](How-to--Create-a-Custom-Report-Layout.md)   
+ [How to: Add Fields to a Word Report Layout](How-to--Add-Fields-to-a-Word-Report-Layout.md)   
+ [How to: Modify a Custom Report Layout](How-to--Modify-a-Custom-Report-Layout.md)

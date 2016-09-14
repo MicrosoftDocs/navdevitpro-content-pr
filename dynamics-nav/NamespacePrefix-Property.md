@@ -25,4 +25,4 @@ Specifies the namespace prefix on an XMLport element.
   
 ## See Also  
  [Designing XMLports](Designing-XMLports.md)   
- [How to: Create XMLports](How-to--Create%20XMLports.md)
+ [How to: Create XMLports](How-to--Create-XMLports.md)

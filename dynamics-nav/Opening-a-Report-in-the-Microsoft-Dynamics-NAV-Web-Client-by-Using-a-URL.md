@@ -31,7 +31,7 @@ You can open a specific report in the [!INCLUDE[nav_web](includes/nav_web_md.md)
  The following address displays report 5 Receivables – Payables for the [!INCLUDE[demoname](includes/demoname_md.md)] company. The page is displayed in a [!INCLUDE[nav_web](includes/nav_web_md.md)] that is running on port 8080 of a computer that has the name MyWebServer.  
   
 ```  
-http://MyWebServer:8080/nav_server_instance/WebClient/default.aspx?report=5&company=CRONUS%20International%20Ltd.   
+http://MyWebServer:8080/nav_server_instance/WebClient/default.aspx?report=5&company=CRONUS-International-Ltd.   
 ```  
   
  There are several parameters that define the URL for the report. These parameters are described in the [URL Parameters](Opening-a-Page-in-the-Microsoft-Dynamics-NAV-Web-Client-by-Using-a-URL.md#Paramters) section of this topic.  
@@ -59,21 +59,21 @@ http://MyWebServer:8080/nav_server_instance/WebClient/default.aspx?report=5&comp
 ###  <a name="Building"></a> Building the Report Address  
  Use the following guidelines to write report URL syntax and create a URL:  
   
--   Place parameters in any order after `.aspx?` because the order is not important. For example, `default.aspx?company=CRONUS%20International%20Ltd.&report=5` yields the same as `default.aspx? report=5&company=CRONUS%20International%20Ltd.`.  
+-   Place parameters in any order after `.aspx?` because the order is not important. For example, `default.aspx?company=CRONUS-International-Ltd.&report=5` yields the same as `default.aspx? report=5&company=CRONUS-International-Ltd.`.  
   
 -   Separate parameters after `aspx?` with the ampersand symbol \(`&`\).  
   
--   Use `%20` for any spaces in values and names.  
+-   Use `-` for any spaces in values and names.  
   
 ##  <a name="Paramters"></a> Report Address Parameters  
  The following table describes the parameters of the URL for displaying a report.  
   
 |Parameter|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------|---------------------------------------|  
-|`http&#124;https`|Specifies the Internet protocol to use. Valid options are `http` and `https`.<br /><br /> The `https` protocol helps secure the [!INCLUDE[navnow](includes/navnow_md.md)] data that is transmitted over the Internet. To use https, Secure Sockets Layer \(SSL\) must be enabled on the connection to [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).|  
+|`http&#124;https`|Specifies the Internet protocol to use. Valid options are `http` and `https`.<br /><br /> The `https` protocol helps secure the [!INCLUDE[navnow](includes/navnow_md.md)] data that is transmitted over the Internet. To use https, Secure Sockets Layer \(SSL\) must be enabled on the connection to [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md).|  
 |`webserver`|Specifies the name of the computer that is running [!INCLUDE[nav_web](includes/nav_web_md.md)].|  
 |`port`|Specifies the server port on which the [!INCLUDE[nav_web](includes/nav_web_md.md)] is running. The default port is 8080.|  
-|`webserverinstance`|Specifies the name of the web server instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. On IIS, this is the alias of the virtual directory of the web server instance.<br /><br /> When you install the [!INCLUDE[nav_web](includes/nav_web_md.md)] using [!INCLUDE[navnow](includes/navnow_md.md)] Setup, the web server instance is given the same name as the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that it connects to. If you use the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVWebServerInstance](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVWebServerInstance) cmdlet to add [!INCLUDE[nav_web](includes/nav_web_md.md)] instances, then you specify the web server instance name. For more information, see [How to: Set Up Multiple Web Server Instances for the Microsoft Dynamics NAV Web Client](How-to--Set%20Up%20Multiple%20Web%20Server%20Instances%20for%20the%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).|  
+|`webserverinstance`|Specifies the name of the web server instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. On IIS, this is the alias of the virtual directory of the web server instance.<br /><br /> When you install the [!INCLUDE[nav_web](includes/nav_web_md.md)] using [!INCLUDE[navnow](includes/navnow_md.md)] Setup, the web server instance is given the same name as the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that it connects to. If you use the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVWebServerInstance](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVWebServerInstance) cmdlet to add [!INCLUDE[nav_web](includes/nav_web_md.md)] instances, then you specify the web server instance name. For more information, see [How to: Set Up Multiple Web Server Instances for the Microsoft Dynamics NAV Web Client](How-to--Set-Up-Multiple-Web-Server-Instances-for-the-Microsoft-Dynamics-NAV-Web-Client.md).|  
 |`default.aspx`|Specifies the name of the active server page \(.aspx\) file to use to display the report.|  
 |`ID`|The ID of the report in [!INCLUDE[navnow](includes/navnow_md.md)].|  
 |tenant|Specifies the ID of the tenant to connect to. You must provide this parameter when [!INCLUDE[navnow](includes/navnow_md.md)] is deployed in multitenant architecture. The tenant that you specify must be mounted on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that the [!INCLUDE[nav_web](includes/nav_web_md.md)] connects to. For more information, see [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md).|  
@@ -81,6 +81,6 @@ http://MyWebServer:8080/nav_server_instance/WebClient/default.aspx?report=5&comp
   
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
- [How to: Install the Web Server Components](How-to--Install%20the%20Web%20Server%20Components.md)   
+ [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md)   
  [Developing for the Microsoft Dynamics NAV Web Client](Developing-for-the-Microsoft-Dynamics-NAV-Web-Client.md)   
- [How to: Open the Microsoft Dynamics NAV Web Client](How-to--Open%20the%20Microsoft%20Dynamics%20NAV%20Web%20Client.md)
+ [How to: Open the Microsoft Dynamics NAV Web Client](How-to--Open-the-Microsoft-Dynamics-NAV-Web-Client.md)

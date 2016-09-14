@@ -21,8 +21,8 @@ If the debugger is attached to a session, then you can specify that the debugger
 -   In the **Debugger** window, on the **Home** tab, in the **Running Code** group, choose **Break**.  
   
 ## See Also  
- [How to: Manage Breakpoints from the Debugger Breakpoint List](How-to--Manage%20Breakpoints%20from%20the%20Debugger%20Breakpoint%20List.md)   
- [How to: Manage Breakpoints from the Development Environment](How-to--Manage%20Breakpoints%20from%20the%20Development%20Environment.md)   
- [How to: Break on Errors](How-to--Break%20on%20Errors.md)   
- [How to: Set Conditional Breakpoints](How-to--Set%20Conditional%20Breakpoints.md)   
+ [How to: Manage Breakpoints from the Debugger Breakpoint List](How-to--Manage-Breakpoints-from-the-Debugger-Breakpoint-List.md)   
+ [How to: Manage Breakpoints from the Development Environment](How-to--Manage-Breakpoints-from-the-Development-Environment.md)   
+ [How to: Break on Errors](How-to--Break-on-Errors.md)   
+ [How to: Set Conditional Breakpoints](How-to--Set-Conditional-Breakpoints.md)   
  [Breakpoints](Breakpoints.md)

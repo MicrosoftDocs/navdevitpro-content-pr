@@ -123,7 +123,7 @@ This topic lists some common problems that can occur when you use the Microsoft 
   
  In the message, \<DatabaseTier> is the server name of the SQL Server, \<ServiceTier> is the server name of the Microsoft Dynamics NAV Server, and \<CompanyName> is the company name.  
   
- These errors can occur if [!INCLUDE[navnow](includes/navnow_md.md)] web services are not set up with the correct Service Principal Names \(SPN\) and delegation information. They can also occur if the web service path is not set correctly in the **Connection** tab. For more information, see [Walkthrough: Installing the Three Tiers on Three Computers](Walkthrough:%20Installing%20the%20Three%20Tiers%20on%20Three%20Computers.md). You can also see the [NAV 2009 Web Services on a three machine setup](http://go.microsoft.com/fwlink/?LinkID=154453) blog post in the [!INCLUDE[navnow](includes/navnow_md.md)] Team Blog on MSDN.  
+ These errors can occur if [!INCLUDE[navnow](includes/navnow_md.md)] web services are not set up with the correct Service Principal Names \(SPN\) and delegation information. They can also occur if the web service path is not set correctly in the **Connection** tab. For more information, see [Walkthrough: Installing the Three Tiers on Three Computers](Walkthrough:-Installing-the-Three-Tiers-on-Three-Computers.md). You can also see the [NAV 2009 Web Services on a three machine setup](http://go.microsoft.com/fwlink/?LinkID=154453) blog post in the [!INCLUDE[navnow](includes/navnow_md.md)] Team Blog on MSDN.  
   
 ## Configuring the Outlook Profile in an Environment Other than Microsoft Exchange  
  When you add and configure a new user Outlook profile in an environment other than Microsoft Exchange and are working with the TASK entity, you must make sure that the name of the Active Directory user \(Full name\) or name of the Mailbox owner matches the Salesperson as configured on the **Salesperson/Purchaser** card.  
@@ -160,6 +160,6 @@ This topic lists some common problems that can occur when you use the Microsoft 
  For additional information about the set up and configuration of the Microsoft Dynamics Synchronization Add-in, see the [!INCLUDE[navnow](includes/navnow_md.md)] Help. You can search for the "Set Up Outlook Synchronization" topic as a starting point. In addition, see the [Outlook Integration Installation & Setup Technical White Paper](http://go.microsoft.com/fwlink/?LinkID=154449) \(requires PartnerSource account\). Although this document describes installation for [!INCLUDE[nav_5](includes/nav_5_md.md)], much of the information applies to [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. You can also find troubleshooting information on the [NAV Developer's Blog](http://go.microsoft.com/fwlink/?LinkId=154870) on MSDN.  
   
 ## See Also  
- [Walkthrough: Setting Up Outlook Synchronization](Walkthrough:%20Setting%20Up%20Outlook%20Synchronization.md)   
- [Walkthrough: Synchronizing Information Between Outlook and Microsoft Dynamics NAV](Walkthrough:%20Synchronizing%20Information%20Between%20Outlook%20and%20Microsoft%20Dynamics%20NAV.md)   
+ [Walkthrough: Setting Up Outlook Synchronization](Walkthrough:-Setting-Up-Outlook-Synchronization.md)   
+ [Walkthrough: Synchronizing Information Between Outlook and Microsoft Dynamics NAV](Walkthrough:-Synchronizing-Information-Between-Outlook-and-Microsoft-Dynamics-NAV.md)   
  [Installation Options](Installation-Options.md)

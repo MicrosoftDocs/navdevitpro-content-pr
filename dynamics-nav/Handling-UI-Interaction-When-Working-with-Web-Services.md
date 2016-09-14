@@ -56,4 +56,4 @@ Whether you are publishing or consuming web services, exceptions and dialog boxe
   
 ## See Also  
  [Microsoft Dynamics NAV Web Services Overview](Microsoft-Dynamics-NAV-Web-Services-Overview.md)   
- [How to: Publish a Web Service](How-to--Publish%20a%20Web%20Service.md)
+ [How to: Publish a Web Service](How-to--Publish-a-Web-Service.md)

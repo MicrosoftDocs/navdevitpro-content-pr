@@ -186,9 +186,9 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], creating new reports is di
 
 ## Next Step  
 
--   Now you have created a report that lists customers by customer number or country/region code, and you have added changes to the report layout in Visual Studio. The next step is to add the customer list report to a page in the [!INCLUDE[rtc](includes/rtc_md.md)] from where it can be run. For more information, see [How to: Make a Report Available from a Page](How-to--Make%20a%20Report%20Available%20from%20a%20Page.md).  
+-   Now you have created a report that lists customers by customer number or country/region code, and you have added changes to the report layout in Visual Studio. The next step is to add the customer list report to a page in the [!INCLUDE[rtc](includes/rtc_md.md)] from where it can be run. For more information, see [How to: Make a Report Available from a Page](How-to--Make-a-Report-Available-from-a-Page.md).  
 
 ## See Also  
- [How to: Make a Report Available from a Page](How-to--Make%20a%20Report%20Available%20from%20a%20Page.md)   
- [Walkthrough: Creating a Link from a Report to a Page](Walkthrough:%20Creating%20a%20Link%20from%20a%20Report%20to%20a%20Page.md)   
- [Walkthrough: Designing a Report with Images, Interactive Sorting, and Visibility Toggle](Walkthrough:%20Designing%20a%20Report%20with%20Images,%20Interactive%20Sorting,%20and%20Visibility%20Toggle.md)
+ [How to: Make a Report Available from a Page](How-to--Make-a-Report-Available-from-a-Page.md)   
+ [Walkthrough: Creating a Link from a Report to a Page](Walkthrough:-Creating-a-Link-from-a-Report-to-a-Page.md)   
+ [Walkthrough: Designing a Report with Images, Interactive Sorting, and Visibility Toggle](Walkthrough:-Designing-a-Report-with-Images,-Interactive-Sorting,-and-Visibility-Toggle.md)

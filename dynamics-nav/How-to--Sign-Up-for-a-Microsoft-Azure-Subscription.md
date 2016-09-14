@@ -37,7 +37,7 @@ To gain access to the Microsoft Azure management portal, you must have an Azure 
  You can now use the [Azure management portal](http://manage.windowsazure.com) to manage Azure accounts, subscriptions, hosted services, virtual machines, storage accounts, databases, and more.  
   
 ## See Also  
- [How to: Sign Up for a Microsoft Account](How-to--Sign%20Up%20for%20a%20Microsoft%20Account.md)   
+ [How to: Sign Up for a Microsoft Account](How-to--Sign-Up-for-a-Microsoft-Account.md)   
  [Authenticating Users with Microsoft Azure Access Control Service](Authenticating-Users-with-Microsoft-Azure-Access-Control-Service.md)   
  [Authenticating Users with Azure Active Directory](Authenticating-Users-with-Azure-Active-Directory.md)   
  [Users and Credential Types](Users-and-Credential-Types.md)   

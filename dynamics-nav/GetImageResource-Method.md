@@ -28,7 +28,7 @@ Used to get the URL for an image resource specified in the control add-in manife
  Returns a URL for the specified image resource.  
   
 ## Example  
- For a detailed code example, see [Walkthrough: Creating and Using a Client Control Add-in](Walkthrough:%20Creating%20and%20Using%20a%20Client%20Control%20Add-in.md)  
+ For a detailed code example, see [Walkthrough: Creating and Using a Client Control Add-in](Walkthrough:-Creating-and-Using-a-Client-Control-Add-in.md)  
   
 ```  
 var map = new VEMap('controlAddIn');  

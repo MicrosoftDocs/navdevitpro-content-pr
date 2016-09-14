@@ -50,7 +50,7 @@ The protocol handler for the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)]
 -   *ms-dynamicsnav://myserver/myinstance/?tenant=myTenant2&company=MyCompany2*  
   
 > [!IMPORTANT]  
->  The *ms-dynamicsnav* scheme only translates to a secure server connection. Therefore the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLUDE[nav_phone](includes/nav_phone_md.md)] must be exposed through an https connection. For more information, see [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
+>  The *ms-dynamicsnav* scheme only translates to a secure server connection. Therefore the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLUDE[nav_phone](includes/nav_phone_md.md)] must be exposed through an https connection. For more information, see [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md).  
   
 ### Adding Username to the URL  
  The *ms-dynamicsnav* scheme also supports sending the user name in the URL for prefilling the user name. The password must be entered by the user. To send the user name, you must URL encode the value and prefix the server address by using *\<encoded username>@*. Examples are as follows:  
@@ -64,4 +64,4 @@ The protocol handler for the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)]
   
 ## See Also  
  [Developing for the Microsoft Dynamics NAV Universal App](Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)   
- [How to: Open the Microsoft Dynamics NAV Tablet or Phone Client from a Browser](How-to--Open%20the%20Microsoft%20Dynamics%20NAV%20Tablet%20or%20Phone%20Client%20from%20a%20Browser.md)
+ [How to: Open the Microsoft Dynamics NAV Tablet or Phone Client from a Browser](How-to--Open-the-Microsoft-Dynamics-NAV-Tablet-or-Phone-Client-from-a-Browser.md)
