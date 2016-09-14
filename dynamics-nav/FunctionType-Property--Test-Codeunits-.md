@@ -53,4 +53,4 @@ Sets the type of function in a test codeunit.
  [Testing the Application](Testing-the-Application.md)   
  [How to: Create Test Codeunits and Test Functions](How-to--Create-Test-Codeunits-and-Test-Functions.md)   
  [How to: Create Handler Functions](How-to--Create-Handler-Functions.md)   
- [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough:-Testing-Purchase-Invoice-Discounts.md)
+ [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough--Testing-Purchase-Invoice-Discounts.md)

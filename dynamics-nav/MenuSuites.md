@@ -35,7 +35,7 @@ MenuSuites contain menus that enable users to navigate and perform actions in th
 |To|See|  
 |--------|---------|  
 |Learn about how to design MenuSuites.|[Designing MenuSuites](Designing-MenuSuites.md)|  
-|Learn about how to create a new MenuSuite.|[Walkthrough: Creating MenuSuites for the Microsoft Dynamics NAV Windows Client](Walkthrough:-Creating-MenuSuites-for-the-Microsoft-Dynamics-NAV-Windows-Client.md)|  
+|Learn about how to create a new MenuSuite.|[Walkthrough: Creating MenuSuites for the Microsoft Dynamics NAV Windows Client](Walkthrough--Creating-MenuSuites-for-the-Microsoft-Dynamics-NAV-Windows-Client.md)|  
 |Learn about how create a menu for a department.|[How to: Create a Menu for a Department in a MenuSuite](How-to--Create-a-Menu-for-a-Department-in-a-MenuSuite.md)|  
 |Learn about how to make changes to a menu that opens a department.|[How to: Modify a Department Menu in a MenuSuite](How-to--Modify-a-Department-Menu-in-a-MenuSuite.md)|  
 |Learn about how to make changes to menu items.|[How to: Modify Menu Items in a MenuSuite](How-to--Modify-Menu-Items-in-a-MenuSuite.md)|  

@@ -46,7 +46,7 @@ By default, the rows in the resulting dataset of query are not necessarily arran
      When you sort by multiple columns, the sort order is determined by the column’s position in the **Order By** window, where the query sorts the results by the first listed column, then the second column, and so on.  
   
 ## Example  
- This section includes a simple example of how you can set the **OrderBy** property to sort the resulting dataset of a query. For a detailed step-by-step example of sorting a query dataset, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:-Creating-a-Query-to-Link-Two-Tables.md).  
+ This section includes a simple example of how you can set the **OrderBy** property to sort the resulting dataset of a query. For a detailed step-by-step example of sorting a query dataset, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough--Creating-a-Query-to-Link-Two-Tables.md).  
   
  This following table shows the results of a query that retrieves the quantity of items in every open sales order for each customer.  
   
@@ -84,4 +84,4 @@ OrderBy Name,Quantity
 ```  
   
 ## See Also  
- [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:-Creating-a-Query-to-Link-Two-Tables.md)
+ [Walkthrough: Creating a Query to Link Two Tables](Walkthrough--Creating-a-Query-to-Link-Two-Tables.md)

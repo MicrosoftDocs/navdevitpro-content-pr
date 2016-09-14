@@ -29,4 +29,4 @@ Stops execution as if the code hits an error.
   
 ## See Also  
  [Debugger](Debugger.md)   
- [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough:-Debugging-the-Microsoft-Dynamics-NAV-Windows-Client.md)
+ [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough--Debugging-the-Microsoft-Dynamics-NAV-Windows-Client.md)

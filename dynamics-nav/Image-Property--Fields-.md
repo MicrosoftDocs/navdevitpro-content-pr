@@ -29,4 +29,4 @@ Specifies the image to display on a Cue.
 ## See Also  
  [How to: Set Up an Image on a Cue](How-to--Set-Up-an-Image-on-a-Cue.md)   
  [Properties](Properties.md)   
- [Walkthrough: Creating a Cue Based on a FlowField](Walkthrough:-Creating-a-Cue-Based-on-a-FlowField.md)
+ [Walkthrough: Creating a Cue Based on a FlowField](Walkthrough--Creating-a-Cue-Based-on-a-FlowField.md)

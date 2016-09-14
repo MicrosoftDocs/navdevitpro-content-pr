@@ -36,11 +36,11 @@ The [!INCLUDE[navnowlong](includes/navnowlong_md.md)] architecture comprises thr
   
  Some common configurations are:  
   
--   All three components on the same computer. This is the configuration for a demo install, and is also typical for a development environment, so that a developer can work on [!INCLUDE[navnow](includes/navnow_md.md)] applications without worrying about network connections and inter-component security. See [Walkthrough: Installing the Demo Version](Walkthrough:-Installing-the-Demo-Version.md).  
+-   All three components on the same computer. This is the configuration for a demo install, and is also typical for a development environment, so that a developer can work on [!INCLUDE[navnow](includes/navnow_md.md)] applications without worrying about network connections and inter-component security. See [Walkthrough: Installing the Demo Version](Walkthrough--Installing-the-Demo-Version.md).  
   
--   [!INCLUDE[rtc](includes/rtc_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)] on the same computer, data tier on a separate computer. This scenario is described in [Walkthrough: Installing the Three Tiers On Two Computers](Walkthrough:-Installing-the-Three-Tiers-On-Two-Computers.md).  
+-   [!INCLUDE[rtc](includes/rtc_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)] on the same computer, data tier on a separate computer. This scenario is described in [Walkthrough: Installing the Three Tiers On Two Computers](Walkthrough--Installing-the-Three-Tiers-On-Two-Computers.md).  
   
--   Each of the three tiers on a separate computer. This scenario is described in [Walkthrough: Installing the Three Tiers on Three Computers](Walkthrough:-Installing-the-Three-Tiers-on-Three-Computers.md).  
+-   Each of the three tiers on a separate computer. This scenario is described in [Walkthrough: Installing the Three Tiers on Three Computers](Walkthrough--Installing-the-Three-Tiers-on-Three-Computers.md).  
   
 ## Additional Components  
  In addition to the three core components, there are additional components that enhance or supplement the core components.  

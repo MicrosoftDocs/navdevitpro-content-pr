@@ -41,7 +41,7 @@ This section describes how to develop for the [!INCLUDE[nav_uni_app](includes/na
   
 -   [Linking to the Microsoft Dynamics NAV Universal App](Linking-to-the-Microsoft-Dynamics-NAV-Universal-App.md)  
   
--   [Walkthrough: Developing a Sales Rep Role Center for the Microsoft Dynamics NAV Tablet Client](Walkthrough:-Developing-a-Sales-Rep-Role-Center-for-the-Microsoft-Dynamics-NAV-Tablet-Client.md)  
+-   [Walkthrough: Developing a Sales Rep Role Center for the Microsoft Dynamics NAV Tablet Client](Walkthrough--Developing-a-Sales-Rep-Role-Center-for-the-Microsoft-Dynamics-NAV-Tablet-Client.md)  
   
 -   [Adding Help to the Microsoft Dynamics NAV Universal App](Adding-Help-to-the-Microsoft-Dynamics-NAV-Universal-App.md)  
   

@@ -42,4 +42,4 @@ Specifies the handler functions that are used by the test function.
  [Testing the Application](Testing-the-Application.md)   
  [How to: Create Test Codeunits and Test Functions](How-to--Create-Test-Codeunits-and-Test-Functions.md)   
  [How to: Create Handler Functions](How-to--Create-Handler-Functions.md)   
- [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough:-Testing-Purchase-Invoice-Discounts.md)
+ [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough--Testing-Purchase-Invoice-Discounts.md)

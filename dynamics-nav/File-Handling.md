@@ -24,5 +24,5 @@ The walkthroughs in this section provide step-by-step instructions for handling 
 ## See Also  
  [How to: Use Streams to Write to Text Files](How-to--Use-Streams-to-Write-to-Text-Files.md)   
  [How to: Use Streams to Read from Text Files](How-to--Use-Streams-to-Read-from-Text-Files.md)   
- [Walkthrough: Uploading a File from a Client to Microsoft Dynamics NAV Server](Walkthrough:-Uploading-a-File-from-a-Client-to-Microsoft-Dynamics-NAV-Server.md)   
- [Walkthrough: Transferring a File from Microsoft Dynamics NAV Server to the Client](Walkthrough:-Transferring-a-File-from-Microsoft-Dynamics-NAV-Server-to-the-Client.md)
+ [Walkthrough: Uploading a File from a Client to Microsoft Dynamics NAV Server](Walkthrough--Uploading-a-File-from-a-Client-to-Microsoft-Dynamics-NAV-Server.md)   
+ [Walkthrough: Transferring a File from Microsoft Dynamics NAV Server to the Client](Walkthrough--Transferring-a-File-from-Microsoft-Dynamics-NAV-Server-to-the-Client.md)

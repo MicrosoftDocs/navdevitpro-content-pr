@@ -25,7 +25,7 @@ In this walkthrough, you will install [!INCLUDE[navnowlong](includes/navnowlong_
 
  The key characteristic of this walkthrough is that the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], [!INCLUDE[nav_server](includes/nav_server_md.md)], and SQL Server are installed on separate computers. In a production environment, you may have multiple computers running SQL Server, multiple computers running [!INCLUDE[nav_server](includes/nav_server_md.md)], and multiple computers running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. When any client user is accessing [!INCLUDE[nav_server](includes/nav_server_md.md)] on a remote computer and SQL Server on a different remote computer, the procedures and issues presented in this walkthrough apply.  
 
- For information about how to configure deployments where [!INCLUDE[nav_server](includes/nav_server_md.md)] and SQL Server are installed on a single computer, see [Walkthrough: Installing the Three Tiers On Two Computers](Walkthrough:-Installing-the-Three-Tiers-On-Two-Computers.md).  
+ For information about how to configure deployments where [!INCLUDE[nav_server](includes/nav_server_md.md)] and SQL Server are installed on a single computer, see [Walkthrough: Installing the Three Tiers On Two Computers](Walkthrough--Installing-the-Three-Tiers-On-Two-Computers.md).  
 
 ## Domain User Account vs. Network Service  
  In this walkthrough, the SQL Server service and [!INCLUDE[nav_server](includes/nav_server_md.md)] share a domain user account. No other application or service uses this account.  

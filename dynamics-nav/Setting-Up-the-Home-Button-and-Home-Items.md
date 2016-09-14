@@ -27,7 +27,7 @@ manager: edupont
   
 -   Add Cues on the Role Center page.  
   
-     Items from Cues are added to the **Home** button automatically. When you add a cue, you set the [DrillDownPageID Property](DrillDownPageID-Property.md) to a list page for displaying the data. If there is a relevant parent entity to place the Cue item under, that link is automatically added in the navigation pane. For example, if you have a Cue named **Sales Return Orders – Open**, this item will be added under the parent item **Sales Return Orders** in the navigation pane. For more information, see [Walkthrough: Creating a Cue Based on a FlowField](Walkthrough:-Creating-a-Cue-Based-on-a-FlowField.md).  
+     Items from Cues are added to the **Home** button automatically. When you add a cue, you set the [DrillDownPageID Property](DrillDownPageID-Property.md) to a list page for displaying the data. If there is a relevant parent entity to place the Cue item under, that link is automatically added in the navigation pane. For example, if you have a Cue named **Sales Return Orders – Open**, this item will be added under the parent item **Sales Return Orders** in the navigation pane. For more information, see [Walkthrough: Creating a Cue Based on a FlowField](Walkthrough--Creating-a-Cue-Based-on-a-FlowField.md).  
   
 ### Child Items  
  An item is automatically positioned as a child to another item according to the following conditions:  

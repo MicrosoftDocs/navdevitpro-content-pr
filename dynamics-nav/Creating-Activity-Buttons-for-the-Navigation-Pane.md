@@ -30,7 +30,7 @@ An *activity button* is a navigation pane button that displays links to addition
   
  The following guidelines apply when working with activity buttons:  
   
--   Activity buttons are only valid on pages that have the type **RoleCenter**. For more information, see [Walkthrough: Creating a Role Center](Walkthrough:-Creating-a-Role-Center.md).  
+-   Activity buttons are only valid on pages that have the type **RoleCenter**. For more information, see [Walkthrough: Creating a Role Center](Walkthrough--Creating-a-Role-Center.md).  
   
 -   All activity buttons are set up under a single action of the type **ActionContainer** and the subtype **ActivityButtons**. The container's location with respect to other action containers is not significant. Activity buttons are always displayed after the **Home** button in the navigation pane.  
   
@@ -42,4 +42,4 @@ An *activity button* is a navigation pane button that displays links to addition
  [How to: Create an Activity Button and Page Links in the Navigation Pane](How-to--Create-an-Activity-Button-and-Page-Links-in-the-Navigation-Pane.md)   
  [How to: Set an Icon on an Activity Button](How-to--Set-an-Icon-on-an-Activity-Button.md)   
  [Setting Up the Home Button and Home Items](Setting-Up-the-Home-Button-and-Home-Items.md)   
- [Walkthrough: Creating a Role Center](Walkthrough:-Creating-a-Role-Center.md)
+ [Walkthrough: Creating a Role Center](Walkthrough--Creating-a-Role-Center.md)

@@ -122,6 +122,6 @@ END;
 ```  
   
 ## See Also  
- [Walkthrough: Adding Actions to a Customer List Page](Walkthrough:-Adding-Actions-to-a-Customer-List-Page.md)   
+ [Walkthrough: Adding Actions to a Customer List Page](Walkthrough--Adding-Actions-to-a-Customer-List-Page.md)   
  [How to: Add Actions to a Page](How-to--Add-Actions-to-a-Page.md)   
  [How to: Promote Actions on Pages](How-to--Promote-Actions-on-Pages.md)

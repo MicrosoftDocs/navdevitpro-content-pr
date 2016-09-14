@@ -26,5 +26,5 @@ A Cue is a tile on a page in the [!INCLUDE[navnow](includes/navnow_md.md)] clien
 |Set up an indicator on a Cue that changes color based on the value in the Cue.|[Setting Up Colored Indicators on Cues](Setting-Up-Colored-Indicators-on-Cues.md)|  
 |Change the icon that appears on the Cue.|[How to: Set Up an Image on a Cue](How-to--Set-Up-an-Image-on-a-Cue.md)|  
 |Change the format of data in the Cue.|[Formatting the Data in a Field](Formatting-the-Data-in-a-Field.md)|  
-|Learn how to create a Cue by using a FlowField.|[Walkthrough: Creating a Cue Based on a FlowField](Walkthrough:-Creating-a-Cue-Based-on-a-FlowField.md)|  
-|Learn how to create a Cue by using a query object.|[Walkthrough: Creating a Cue Based on a Normal Field and a Query](Walkthrough:-Creating-a-Cue-Based-on-a-Normal-Field-and-a-Query.md)|
+|Learn how to create a Cue by using a FlowField.|[Walkthrough: Creating a Cue Based on a FlowField](Walkthrough--Creating-a-Cue-Based-on-a-FlowField.md)|  
+|Learn how to create a Cue by using a query object.|[Walkthrough: Creating a Cue Based on a Normal Field and a Query](Walkthrough--Creating-a-Cue-Based-on-a-Normal-Field-and-a-Query.md)|

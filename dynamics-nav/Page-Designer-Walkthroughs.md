@@ -19,23 +19,23 @@ The walkthroughs in this section provide step-by-step instructions on how to cre
  Page controls contain properties, triggers, functions, and codeunits in just the same way as forms but for the purposes of these walkthroughs, creating the basic structure of the page is the focus, not how to add codeunits or triggers. For more detailed information about these issues, see the appropriate section in the [Getting Started](Getting-Started.md).  
   
 ## In This Section  
- [Walkthrough: Creating a Customer Card Page in Page Designer](Walkthrough:-Creating-a-Customer-Card-Page-in-Page-Designer.md)  
+ [Walkthrough: Creating a Customer Card Page in Page Designer](Walkthrough--Creating-a-Customer-Card-Page-in-Page-Designer.md)  
   
- [Walkthrough: Creating a Customer List in Page Designer](Walkthrough:-Creating-a-Customer-List-in-Page-Designer.md)  
+ [Walkthrough: Creating a Customer List in Page Designer](Walkthrough--Creating-a-Customer-List-in-Page-Designer.md)  
   
- [Walkthrough: Adding Actions to a Customer List Page](Walkthrough:-Adding-Actions-to-a-Customer-List-Page.md)  
+ [Walkthrough: Adding Actions to a Customer List Page](Walkthrough--Adding-Actions-to-a-Customer-List-Page.md)  
   
- [Walkthrough: Adding a FactBox to the Customer List Page](Walkthrough:-Adding-a-FactBox-to-the-Customer-List-Page.md)  
+ [Walkthrough: Adding a FactBox to the Customer List Page](Walkthrough--Adding-a-FactBox-to-the-Customer-List-Page.md)  
   
- [Walkthrough: Creating a Role Center](Walkthrough:-Creating-a-Role-Center.md)  
+ [Walkthrough: Creating a Role Center](Walkthrough--Creating-a-Role-Center.md)  
   
- [Walkthrough: Creating a Wizard Page](Walkthrough:-Creating-a-Wizard-Page.md)  
+ [Walkthrough: Creating a Wizard Page](Walkthrough--Creating-a-Wizard-Page.md)  
   
- [Walkthrough: Creating a Document Page](Walkthrough:-Creating-a-Document-Page.md)  
+ [Walkthrough: Creating a Document Page](Walkthrough--Creating-a-Document-Page.md)  
   
- [Walkthrough: Creating a Worksheet Page](Walkthrough:-Creating-a-Worksheet-Page.md)  
+ [Walkthrough: Creating a Worksheet Page](Walkthrough--Creating-a-Worksheet-Page.md)  
   
- [Walkthrough: Creating a Cue Based on a FlowField](Walkthrough:-Creating-a-Cue-Based-on-a-FlowField.md)  
+ [Walkthrough: Creating a Cue Based on a FlowField](Walkthrough--Creating-a-Cue-Based-on-a-FlowField.md)  
   
 ## See Also  
  [Pages Overview](Pages-Overview.md)   

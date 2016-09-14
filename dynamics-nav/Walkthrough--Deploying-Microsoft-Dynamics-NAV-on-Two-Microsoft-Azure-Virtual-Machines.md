@@ -20,13 +20,13 @@ The following walkthrough demonstrates how to use the Example-2VM.ps1 script of 
 ## About This Walkthrough  
  This walkthrough illustrates the following tasks:  
   
-1.  [Start Windows PowerShell ISE](Walkthrough:-Deploying-Microsoft-Dynamics-NAV-on-a-Microsoft-Azure-Virtual-Machine.md#StartPowerShell)  
+1.  [Start Windows PowerShell ISE](Walkthrough--Deploying-Microsoft-Dynamics-NAV-on-a-Microsoft-Azure-Virtual-Machine.md#StartPowerShell)  
   
-2.  [Modifying the Set-PartnerSettings File](Walkthrough:-Deploying-Microsoft-Dynamics-NAV-on-a-Microsoft-Azure-Virtual-Machine.md#ModSetPartnerSettings)  
+2.  [Modifying the Set-PartnerSettings File](Walkthrough--Deploying-Microsoft-Dynamics-NAV-on-a-Microsoft-Azure-Virtual-Machine.md#ModSetPartnerSettings)  
   
-3.  [Running the Example-1VM Script](Walkthrough:-Deploying-Microsoft-Dynamics-NAV-on-a-Microsoft-Azure-Virtual-Machine.md#RunExampleScript)  
+3.  [Running the Example-1VM Script](Walkthrough--Deploying-Microsoft-Dynamics-NAV-on-a-Microsoft-Azure-Virtual-Machine.md#RunExampleScript)  
   
-4.  [Opening the Microsoft Dynamics NAV Clients](Walkthrough:-Deploying-Microsoft-Dynamics-NAV-on-a-Microsoft-Azure-Virtual-Machine.md#OpenRTCs)  
+4.  [Opening the Microsoft Dynamics NAV Clients](Walkthrough--Deploying-Microsoft-Dynamics-NAV-on-a-Microsoft-Azure-Virtual-Machine.md#OpenRTCs)  
   
  This walkthrough sets up a [!INCLUDE[navnow](includes/navnow_md.md)] environment on Azure that has the following characteristics.  
   
@@ -296,4 +296,4 @@ The following walkthrough demonstrates how to use the Example-2VM.ps1 script of 
  [Planning and Preparing](Planning-and-Preparing.md)   
  [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
  [Deploying Microsoft Dynamics NAV on Two Virtual Machines Using Example-2VM Script](Deploying-Microsoft-Dynamics-NAV-on-Two-Virtual-Machines-Using-Example-2VM-Script.md)   
- [Walkthrough: Deploying Microsoft Dynamics NAV on a Microsoft Azure Virtual Machine](Walkthrough:-Deploying-Microsoft-Dynamics-NAV-on-a-Microsoft-Azure-Virtual-Machine.md)
+ [Walkthrough: Deploying Microsoft Dynamics NAV on a Microsoft Azure Virtual Machine](Walkthrough--Deploying-Microsoft-Dynamics-NAV-on-a-Microsoft-Azure-Virtual-Machine.md)

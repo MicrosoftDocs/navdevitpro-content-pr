@@ -74,5 +74,5 @@ An activity button in the navigation pane displays a menu of links to additional
 ## See Also  
  [Creating Activity Buttons for the Navigation Pane](Creating-Activity-Buttons-for-the-Navigation-Pane.md)   
  [Adding Actions to Pages](Adding-Actions-to-Pages.md)   
- [Walkthrough: Creating a Role Center](Walkthrough:-Creating-a-Role-Center.md)   
+ [Walkthrough: Creating a Role Center](Walkthrough--Creating-a-Role-Center.md)   
  [Pages](Pages.md)

@@ -24,7 +24,7 @@ You can use service certificates to help secure [!INCLUDE[rtc](includes/rtc_md.m
 >  This implementation does not use *Secure Sockets Layer \(SSL\)*. Although these implementations do use the public and private key infrastructure of SSL and SSL certificates, they use Windows Communication Foundation \(WCF\) transport-level security \(TLS\) over the TCP/IP protocol instead of https. This means that these are not strict SSL implementations.  
   
 ## Certificates for Test and Production  
- In a production environment, you should obtain an certificate from a certification authority or trusted provider. Some large organizations may have their own certification authorities, and other organizations can request a certificate from a third-party organization. In a test environment, if you do not have certificate, then you can create your own self-signed certificate. For information about using self-signed certificates in a text environment, see [Walkthrough: Implementing Security Certificates in a Test Environment](Walkthrough:-Implementing-Security-Certificates-in-a-Test-Environment.md).  
+ In a production environment, you should obtain an certificate from a certification authority or trusted provider. Some large organizations may have their own certification authorities, and other organizations can request a certificate from a third-party organization. In a test environment, if you do not have certificate, then you can create your own self-signed certificate. For information about using self-signed certificates in a text environment, see [Walkthrough: Implementing Security Certificates in a Test Environment](Walkthrough--Implementing-Security-Certificates-in-a-Test-Environment.md).  
   
 ###  <a name="AboutProdCerts"></a> About Certificates for Production Environment  
  In a production environment, you implement chain trust by obtaining X.509 service certificates from a trusted provider. These certificates and their root certification authority \(CA\) certificates must be installed in the certificates store on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)]. The CA certificate must also be installed in the certificate store on computers that are running the [!INCLUDE[rtc](includes/rtc_md.md)] so that clients can validate the server.  
@@ -35,4 +35,4 @@ You can use service certificates to help secure [!INCLUDE[rtc](includes/rtc_md.m
   
 ## See Also  
  [Connecting the Microsoft Dynamics NAV Clients over a Wide Area Network](Connecting-the-Microsoft-Dynamics-NAV-Clients-over-a-Wide-Area-Network.md)   
- [Walkthrough: Implementing Security Certificates in a Test Environment](Walkthrough:-Implementing-Security-Certificates-in-a-Test-Environment.md)
+ [Walkthrough: Implementing Security Certificates in a Test Environment](Walkthrough--Implementing-Security-Certificates-in-a-Test-Environment.md)

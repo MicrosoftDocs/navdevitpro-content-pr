@@ -81,11 +81,11 @@ You can write application tests in C/AL and run them individually or collectivel
 ```  
   
 #### Putting It All Together  
- For an example of how you can use the \[FEATURE\], \[SCENARIO\], and GIVEN-WHEN-THEN tags, see [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough:-Testing-Purchase-Invoice-Discounts.md). You can also search for \[FEATURE\] or \[SCENARIO\] in the test codeunits that are available on [!INCLUDE[navnowlong](includes/navnowlong_md.md)] product media.  
+ For an example of how you can use the \[FEATURE\], \[SCENARIO\], and GIVEN-WHEN-THEN tags, see [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough--Testing-Purchase-Invoice-Discounts.md). You can also search for \[FEATURE\] or \[SCENARIO\] in the test codeunits that are available on [!INCLUDE[navnowlong](includes/navnowlong_md.md)] product media.  
   
 ## See Also  
  [How to: Create a Test Runner Codeunit](How-to--Create-a-Test-Runner-Codeunit.md)   
- [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough:-Testing-Purchase-Invoice-Discounts.md)   
+ [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough--Testing-Purchase-Invoice-Discounts.md)   
  [Random Test Data](Random-Test-Data.md)   
  [Testing the Application](Testing-the-Application.md)   
  [\($ N\_9990 Code Coverage $\)](-$-N_9990-Code-Coverage-$-.md)

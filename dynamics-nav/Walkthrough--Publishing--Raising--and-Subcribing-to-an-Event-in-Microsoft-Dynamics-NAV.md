@@ -152,7 +152,7 @@ This walkthrough uses a simple example scenario to demonstrate how to program ev
   
 -   In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], create a new codeunit that has the ID **50001** and the name **My Subscribers**.  
   
-     For more information, see [To create a new codeunit](Walkthrough:-Publishing,-Raising,-and-Subcribing-to-an-Event-in-Microsoft-Dynamics-NAV.md#CreateCU).  
+     For more information, see [To create a new codeunit](Walkthrough--Publishing,-Raising,-and-Subcribing-to-an-Event-in-Microsoft-Dynamics-NAV.md#CreateCU).  
   
 #### To create the event subscriber function to subscribe to and handle the event  
   

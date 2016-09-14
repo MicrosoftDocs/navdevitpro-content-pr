@@ -34,4 +34,4 @@ You can use the Watches FactBox to view the values of variables. Variables that 
   
 ## See Also  
  [How to: Remove Variables from the Watches FactBox](How-to--Remove-Variables-from-the-Watches-FactBox.md)   
- [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough:-Debugging-the-Microsoft-Dynamics-NAV-Windows-Client.md)
+ [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough--Debugging-the-Microsoft-Dynamics-NAV-Windows-Client.md)

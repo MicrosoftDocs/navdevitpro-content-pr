@@ -337,7 +337,7 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
      The **Synchronization Progress** message is displayed. When synchronization is complete, you can view the details for the synchronization.  
 
 ## Next Steps  
- You have completed the required setup for synchronizing information between [!INCLUDE[navnow](includes/navnow_md.md)] and Outlook. To test your setup, see [Walkthrough: Synchronizing Information Between Outlook and Microsoft Dynamics NAV](Walkthrough:-Synchronizing-Information-Between-Outlook-and-Microsoft-Dynamics-NAV.md).  
+ You have completed the required setup for synchronizing information between [!INCLUDE[navnow](includes/navnow_md.md)] and Outlook. To test your setup, see [Walkthrough: Synchronizing Information Between Outlook and Microsoft Dynamics NAV](Walkthrough--Synchronizing-Information-Between-Outlook-and-Microsoft-Dynamics-NAV.md).  
 
 ## See Also  
  [Configuring Microsoft Dynamics NAV](Configuring-Microsoft-Dynamics-NAV.md)   

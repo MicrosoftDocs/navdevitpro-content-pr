@@ -14,9 +14,9 @@ manager: edupont
 # Walkthrough: Importing Data from Text Files to Tables
 XMLports are used to export data from a [!INCLUDE[navnow](includes/navnow_md.md)] database to a file or import data from a file to a [!INCLUDE[navnow](includes/navnow_md.md)] database. The file format can be an XML document, fixed width text file, or CSV \(Comma Separated Value\) file. Exporting or importing data by using these file formats enables seamless exchange of data between different computer systems. When importing files to a [!INCLUDE[navnow](includes/navnow_md.md)] database, you can replace an entire record or update specific fields in records that already exist in the database. You can also automatically save the data you are importing or you can manipulate the data in code before you save it.  
   
- In this walkthrough, you will import data from a fixed width text file to a [!INCLUDE[navnow](includes/navnow_md.md)] database. The text file contains data will be used to update specific fields in an existing record. The data in text file will be automatically saved into the database. For information about how to export data to XML file format, see [Walkthrough: Exporting Data from Tables to XML Documents](Walkthrough:-Exporting-Data-from-Tables-to-XML-Documents.md). For information about how to export CSV files, see [Walkthrough: Exporting Data from Tables to CSV Files](Walkthrough:-Exporting-Data-from-Tables-to-CSV-Files.md).  
+ In this walkthrough, you will import data from a fixed width text file to a [!INCLUDE[navnow](includes/navnow_md.md)] database. The text file contains data will be used to update specific fields in an existing record. The data in text file will be automatically saved into the database. For information about how to export data to XML file format, see [Walkthrough: Exporting Data from Tables to XML Documents](Walkthrough--Exporting-Data-from-Tables-to-XML-Documents.md). For information about how to export CSV files, see [Walkthrough: Exporting Data from Tables to CSV Files](Walkthrough--Exporting-Data-from-Tables-to-CSV-Files.md).  
   
- XMLports can be called and run from codeunits or run from Object Designer. In this walkthrough, you will run the XMLport from Object Designer. For information about how to run XMLports from codeunits, see [Walkthrough: Exporting Data from Tables to XML Documents](Walkthrough:-Exporting-Data-from-Tables-to-XML-Documents.md).  
+ XMLports can be called and run from codeunits or run from Object Designer. In this walkthrough, you will run the XMLport from Object Designer. For information about how to run XMLports from codeunits, see [Walkthrough: Exporting Data from Tables to XML Documents](Walkthrough--Exporting-Data-from-Tables-to-XML-Documents.md).  
   
 ## About This Walkthrough  
  This walkthrough shows you how to import data from a fixed width text file and update existing records in a [!INCLUDE[navnow](includes/navnow_md.md)] table. The walkthrough illustrates the following tasks:  
@@ -163,7 +163,7 @@ LS-10PC     59.59
     >  You can write code in the [OnBeforeModifyRecord Trigger](OnBeforeModifyRecord-Trigger.md) in the C/AL code editor to indicate that the records have been updated.  
   
 ## Next Steps  
- You might want to try importing a CSV file or exporting a fixed width text file. For information about how to import CSV files, see [Walkthrough: Exporting Data from Tables to CSV Files](Walkthrough:-Exporting-Data-from-Tables-to-CSV-Files.md).  
+ You might want to try importing a CSV file or exporting a fixed width text file. For information about how to import CSV files, see [Walkthrough: Exporting Data from Tables to CSV Files](Walkthrough--Exporting-Data-from-Tables-to-CSV-Files.md).  
   
 ## See Also  
  [Designing XMLports](Designing-XMLports.md)   

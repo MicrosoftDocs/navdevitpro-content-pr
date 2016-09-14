@@ -229,4 +229,4 @@ In this walkthrough, you will transfer data from the **G/L Entry** table to Micr
   
 ## See Also  
  [How to: Create an Automation Controller](How-to--Create-an-Automation-Controller.md)   
- [Walkthrough: Using Automation to Write a Letter in Microsoft Office Word](Walkthrough:-Using-Automation-to-Write-a-Letter-in-Microsoft-Office-Word.md)
+ [Walkthrough: Using Automation to Write a Letter in Microsoft Office Word](Walkthrough--Using-Automation-to-Write-a-Letter-in-Microsoft-Office-Word.md)

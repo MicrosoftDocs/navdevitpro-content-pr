@@ -79,5 +79,5 @@ A FactBox displays additional information to the user in a pane located on the r
 12. To run your page, in Object Designer, select the page, and then choose the **Run** button. The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] opens and displays your new FactBox page.  
   
 ## See Also  
- [Walkthrough: Adding a FactBox to the Customer List Page](Walkthrough:-Adding-a-FactBox-to-the-Customer-List-Page.md)   
+ [Walkthrough: Adding a FactBox to the Customer List Page](Walkthrough--Adding-a-FactBox-to-the-Customer-List-Page.md)   
  [Page Designer Troubleshooting](Page-Designer-Troubleshooting.md)
