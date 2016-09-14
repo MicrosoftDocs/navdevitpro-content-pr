@@ -33,7 +33,7 @@ navBinding := navBinding.BasicHttpBinding;
 // Set security mode to BasicHttpSecurityMode.TransportCredentialOnly  
 navBinding.Security.Mode := 4;   
 address :=   
-    'http://localhost:7047/DynamicsNAV70/WS/CRONUS-International-Ltd./Page/SalesOrder';  
+    'http://localhost:7047/DynamicsNAV70/WS/CRONUS%20International%20Ltd./Page/SalesOrder';  
   
 // Set client credential type to HttpClientCredentialType.Windows  
 navBinding.Security.Transport.ClientCredentialType := 4;  

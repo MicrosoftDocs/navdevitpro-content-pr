@@ -27,5 +27,5 @@ Creates a FastTab control on a **Card** page.
 |**Finish** button|Opens Page Designer.|  
 
 ## See Also  
- [How to: Add FastTabs to a Customer Card Page](../How-to:-Add-FastTabs-to-a-Customer-Card-Page.md)   
+ [How to: Add FastTabs to a Customer Card Page](../How-to--Add-FastTabs-to-a-Customer-Card-Page.md)   
  [\($ S\_11150 Page Designer Wizard, Available Fields $\)](-$-S_11150-Page-Designer-Wizard--Available-Fields-$-.md)

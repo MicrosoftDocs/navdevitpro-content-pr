@@ -26,4 +26,4 @@ Modifies a menu for a department. The menu represents a department in a company.
 
 ## See Also  
  [\($ S\_2401 Navigation Pane Designer $\)](-$-S_2401-Navigation-Pane-Designer-$-.md)   
- [How to: Modify a Department Menu in a MenuSuite](../How-to:-Modify-a-Department-Menu-in-a-MenuSuite.md)
+ [How to: Modify a Department Menu in a MenuSuite](../How-to--Modify-a-Department-Menu-in-a-MenuSuite.md)

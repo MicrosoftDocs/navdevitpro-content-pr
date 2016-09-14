@@ -27,4 +27,4 @@ Groups menu items in a department. A group is a folder that you use to group rel
 
 ## See Also  
  [\($ S\_2401 Navigation Pane Designer $\)](-$-S_2401-Navigation-Pane-Designer-$-.md)   
- [How to: Modify Menu Items in a MenuSuite](../How-to:-Modify-Menu-Items-in-a-MenuSuite.md)
+ [How to: Modify Menu Items in a MenuSuite](../How-to--Modify-Menu-Items-in-a-MenuSuite.md)

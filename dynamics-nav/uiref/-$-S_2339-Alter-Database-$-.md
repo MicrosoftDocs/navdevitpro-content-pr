@@ -33,4 +33,4 @@ Modifies a database.
 -   [Altering Databases - Advanced Tab](Altering-Databases---Advanced-Tab.md)  
 
 ## See Also  
- [How to: Alter Databases](../How-to:-Alter-Databases.md)
+ [How to: Alter Databases](../How-to--Alter-Databases.md)
