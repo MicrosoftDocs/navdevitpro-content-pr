@@ -16,7 +16,7 @@ Shows the available [!INCLUDE[nav_server](../includes/nav_server_md.md)] instanc
 
  To open this window, on the **File** menu, choose **Database**, and then choose **Information** to open the **Database Information** window. On the **General** tab, choose the **Down Arrow** button in the **Server Instance** field.  
 
- The available [!INCLUDE[nav_server](../includes/nav_server_md.md)] instances are stored in table 2000000112, the **\($ T\_2000000112 Server Instance $\)** table. For more information, see [\($ T\_2000000112 Server Instance $\)](../($-T_2000000112-Server-Instance-$\).md).  
+ The available [!INCLUDE[nav_server](../includes/nav_server_md.md)] instances are stored in table 2000000112, the **Server Instance** table.  
 
 ## See Also  
  [\($ S\_2349 Database Information $\)](-$-S_2349-Database-Information-$-.md)   
