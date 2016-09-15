@@ -169,7 +169,7 @@ If a business scenario requires a workflow event or a workflow response that is 
     WorkflowManagement.HandleEvent(MyWorkflowEventCode,PurchaseHeader);  
     ```  
 
- Another task that you can perform at this point is to specify which filter fields appear in the **\($ N\_1526 Workflow Event Conditions $\)** window. For more information, see [\($ T\_1515 Dynamic Request Page Entity $\)](\($-T_1515-Dynamic-Request-Page-Entity-$\).md).  
+ Another task that you can perform at this point is to specify which filter fields appear in the **Workflow Event Conditions** window.  
 
  For more information, see [Subscribing to Events](Subscribing-to-Events.md).  
 
@@ -463,8 +463,6 @@ If a business scenario requires a workflow event or a workflow response that is 
  You have now enabled a new workflow scenario by implementing the required workflow event and response in the application code. The workflow administrator can now select the workflow event and workflow response from the **\($ N\_1501 Workflow $\)** window to define new or edit existing workflows. For more information, see [How to: Create Workflows](How-to--Create-Workflows.md).  
 
 ## See Also  
- [\($ T\_1520 Workflow Event $\)](\($-T_1520-Workflow-Event-$\).md)   
- [\($ T\_1521 Workflow Response $\)](\($-T_1521-Workflow-Response-$\).md)   
  [How to: Create Workflows](How-to--Create-Workflows.md)   
  [Workflow](Workflow.md)   
  [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)   
