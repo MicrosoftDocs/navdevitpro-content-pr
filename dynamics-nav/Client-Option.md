@@ -1,7 +1,9 @@
 ---
 title: "Client Option"
+description: "Describing the different client options"
+author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 15/09/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -49,11 +51,12 @@ Help Server and Help Server port     |Specifies the name and port of the server 
 Choose **Apply** when you have finished entering values on the **Specify parameters** page in Setup. If you want to change the configuration after installation, you can modify the ClientUserSettings.config file for each client. For more information, see [Configuring the Windows Client](Configuring-the-Windows-Client.md).
 
 ### See Also
-[How to: Choose Components to Install](How-to--Choose-Components-to-Install.md)
-[Installation Options](Installation-Options.md)
-[Working with Microsoft Dynamics NAV Setup](Working-with-Microsoft-Dynamics-NAV-Setup.md)
-[Configuring the Windows Client](Configuring-the-Windows-Client.md)
-[Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)
-[Configuring Microsoft Dynamics NAV Help Server](Configuring-Microsoft-Dynamics-NAV-Help-Server.md)
-[Users and Credential Types](Users-and-Credential-Types.md)
-[Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)
+[How to: Choose Components to Install](How-to--Choose-Components-to-Install.md)  
+[Installation Options](Installation-Options.md)  
+[Working with Microsoft Dynamics NAV Setup](Working-with-Microsoft-Dynamics-NAV-Setup.md)  
+[Configuring the Windows Client](Configuring-the-Windows-Client.md)  
+[Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)  
+[Configuring Microsoft Dynamics NAV Help Server](Configuring-Microsoft-Dynamics-NAV-Help-Server.md)  
+[Users and Credential Types](Users-and-Credential-Types.md)  
+[Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)  
+

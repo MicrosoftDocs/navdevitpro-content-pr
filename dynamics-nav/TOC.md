@@ -1357,7 +1357,7 @@
 # [How to: Create a CardPart Page For Displaying Customer Data in a FactBox](How-to--Create-a-CardPart-Page-For-Displaying-Customer-Data-in-a-FactBox.md)
 # [How to: Skip Codeunit 1](How-to--Skip-Codeunit-1.md)
 # [Managing Companies](Managing-Companies.md)
-# [Style Property-duplicate](Style-Property-duplicate.md)
+# [Style Property](Style-Property.md)
 # [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)
 # [ExportObjects](ExportObjects.md)
 # [SETRANGE Function (Record)](SETRANGE-Function--Record-.md)
