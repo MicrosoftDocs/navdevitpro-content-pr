@@ -13,22 +13,21 @@ manager: edupont
 ---
 # Integration Triggers
 The following triggers have been added to support integration with Microsoft Dynamics CRM:  
-  
+
 -   **OnDatabaseCreate**  
-  
+
 -   **OnDatabaseModify**  
-  
+
 -   **OnDatabaseRename**  
-  
+
 -   **OnDatabaseDelete**  
-  
+
 ## Applies To  
  Pages  
-  
+
  Tables  
-  
+
 ## Remarks  
  These triggers are called whenever a record changes through code or user interaction.  
-  
+
 ## See Also  
- [\($ T\_5151\_3  Record ID $\)](\($-T_5151_3--Record-ID-$\).md)
