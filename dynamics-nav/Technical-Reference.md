@@ -12,13 +12,13 @@ caps.latest.revision: 8
 manager: edupont
 ---
 # Technical Reference
-This section provides reference information for [!INCLUDE[navnow](includes/navnow_md.md)] objects. For more reference information, see [C-SIDE Reference Guide](C-SIDE-Reference-Guide.md).  
-  
+This section provides reference information for [!INCLUDE[navnow](includes/navnow_md.md)] objects. For more reference information, see [C/SIDE Reference Guide](C-SIDE-Reference-Guide.md).  
+
 ## See Also  
- [C-SIDE Reference Guide](C-SIDE-Reference-Guide.md)   
+ [C/SIDE Reference Guide](C-SIDE-Reference-Guide.md)   
  [Object Specifications and Limitations](Object-Specifications-and-Limitations.md)   
  [Special Tables](Special-Tables.md)   
- [Development Environment \(C-SIDE\)](Development-Environment--C-SIDE-.md)   
+ [Development Environment (C/SIDE)](Development-Environment--C-SIDE-.md)   
  [Development Environment Commands](Development-Environment-Commands.md)   
  [Window Overviews](Window-Overviews.md)   
  [Administration Cmdlets for Microsoft Dynamics NAV](http://go.microsoft.com/fwlink/?LinkID=510539)   
