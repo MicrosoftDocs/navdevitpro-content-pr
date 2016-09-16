@@ -189,7 +189,7 @@ If you set up a SharePoint site using SharePoint Online or SharePoint on-premise
  [Integrating with Office 365 and SharePoint Online](Integrating-with-Office-365-and-SharePoint-Online.md)   
  [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md)   
  [Embedding Microsoft Dynamics NAV Web Client Pages in Other Websites](Embedding-Microsoft-Dynamics-NAV-Web-Client-Pages-in-Other-Websites.md)   
- [Troubleshooting: Microsoft Dynamics NAV and SharePoint](Troubleshooting:-Microsoft-Dynamics-NAV-and-SharePoint.md)   
+ [Troubleshooting: Microsoft Dynamics NAV and SharePoint](Troubleshooting--Microsoft-Dynamics-NAV-and-SharePoint.md)   
  [Select an Office 365 plan for business](http://go.microsoft.com/fwlink/?LinkId=309050)   
  [How to: Create a basic provider-hosted app](http://go.microsoft.com/fwlink/?LinkId=308938)   
  [Use the App Catalog to make custom business apps available for your SharePoint Online environment](http://go.microsoft.com/fwlink/?LinkId=309795)

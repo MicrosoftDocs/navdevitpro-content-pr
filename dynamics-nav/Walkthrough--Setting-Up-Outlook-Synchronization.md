@@ -342,4 +342,4 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
 ## See Also  
  [Configuring Microsoft Dynamics NAV](Configuring-Microsoft-Dynamics-NAV.md)   
  [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)   
- [Troubleshooting: Microsoft Office Outlook Integration and Synchronization](Troubleshooting:-Microsoft-Office-Outlook-Integration-and-Synchronization.md)
+ [Troubleshooting: Microsoft Office Outlook Integration and Synchronization](Troubleshooting--Microsoft-Office-Outlook-Integration-and-Synchronization.md)

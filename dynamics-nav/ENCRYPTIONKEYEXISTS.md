@@ -13,21 +13,21 @@ manager: edupont
 ---
 # ENCRYPTIONKEYEXISTS
 Checks whether an encryption key for the current tenant is present on the server tenant.  
-  
+
 ## Syntax  
-  
+
 ```  
 Bool ENCRYPTIONKEYEXISTS()  
 ```  
-  
+
 ## Property Value/Return Value  
  Value: Boolean  
-  
+
  Returns **true** if the encryption key exists, otherwise **false**.  
-  
+
 ## Example  
  This code example performs checks to determine if an encryption key already exists.  
-  
+
 ```  
 IF ENCRYPTIONENABLED THEN  
         IF ENCRYPTIONKEYEXISTS THEN  
@@ -37,8 +37,8 @@ IF ENCRYPTIONENABLED THEN
       ELSE  
         MESSAGE('Encryption has not been enabled')  
 ```  
-  
+
 ## See Also  
  [System](System.md)   
  [Technical Reference](Technical-Reference.md)   
- [C-SIDE Reference Guide](C-SIDE-Reference-Guide.md)
+ [C/SIDE Reference Guide](C-SIDE-Reference-Guide.md)

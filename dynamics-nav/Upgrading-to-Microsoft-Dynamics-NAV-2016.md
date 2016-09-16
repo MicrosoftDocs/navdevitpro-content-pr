@@ -38,7 +38,7 @@ This section describes how to upgrade from [!INCLUDE[nav7long](includes/nav7long
 -   [Automating the Upgrade Process using Sample Windows PowerShell Scripts](Automating-the-Upgrade-Process-using-Sample-Windows-PowerShell-Scripts.md)  
   
 > [!IMPORTANT]  
->  If you upgrade from [!INCLUDE[nav2009r2](includes/nav2009r2_md.md)] or earlier to [!INCLUDE[nav7long](includes/nav7long_md.md)] or later, the link between interaction records and logged email messages is lost. To resolve this issue, the administrator has to log all mails again to restore the links. For more information, see [Logging Interaction Links are Lost When You Upgrade from Microsoft Dynamics NAV 2009 R2](Troubleshooting:-Email-Logging.md#LoggingInteractionLinks).  
+>  If you upgrade from [!INCLUDE[nav2009r2](includes/nav2009r2_md.md)] or earlier to [!INCLUDE[nav7long](includes/nav7long_md.md)] or later, the link between interaction records and logged email messages is lost. To resolve this issue, the administrator has to log all mails again to restore the links. For more information, see [Logging Interaction Links are Lost When You Upgrade from Microsoft Dynamics NAV 2009 R2](Troubleshooting--Email-Logging.md#LoggingInteractionLinks).  
   
 ## Related Sections  
  [Product and Architecture Overview](Product-and-Architecture-Overview.md)  

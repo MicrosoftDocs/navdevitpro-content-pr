@@ -18,7 +18,7 @@ The topics in this section describe actions that you can take after installing [
   
 -   [How to: Start SQL Browser Service](How-to--Start-SQL-Browser-Service.md)  
   
--   [Troubleshooting: SQL Server Connection Problems](Troubleshooting:-SQL-Server-Connection-Problems.md)  
+-   [Troubleshooting: SQL Server Connection Problems](Troubleshooting--SQL-Server-Connection-Problems.md)  
   
 ## See Also  
  [Installation and Configuration Walkthroughs](Installation-and-Configuration-Walkthroughs.md)   
