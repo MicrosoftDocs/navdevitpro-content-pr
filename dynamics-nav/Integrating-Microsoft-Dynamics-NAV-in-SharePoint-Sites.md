@@ -66,5 +66,5 @@ You can set up [!INCLUDE[navnow](includes/navnow_md.md)] to be available as an a
  [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md)   
  [Developing and Installing a Microsoft Dynamics NAV Apps for SharePoint](Developing-and-Installing-a-Microsoft-Dynamics-NAV-Apps-for-SharePoint.md)   
  [Authenticating Users with Azure Active Directory](Authenticating-Users-with-Azure-Active-Directory.md)   
- [Troubleshooting: Microsoft Dynamics NAV and SharePoint](Troubleshooting:-Microsoft-Dynamics-NAV-and-SharePoint.md)   
+ [Troubleshooting: Microsoft Dynamics NAV and SharePoint](Troubleshooting--Microsoft-Dynamics-NAV-and-SharePoint.md)   
  [Configuring Authentication and Single Sign-On Between Microsoft Dynamics NAV and SharePoint](Configuring-Authentication-and-Single-Sign-On-Between-Microsoft-Dynamics-NAV-and-SharePoint.md)

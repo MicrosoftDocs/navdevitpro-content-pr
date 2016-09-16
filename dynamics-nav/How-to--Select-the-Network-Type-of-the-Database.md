@@ -26,4 +26,4 @@ The default setting allows \($ P\_1 Product Name $\) to connect to a server usin
   
 ## See Also  
  [\($ S\_2335 Open Database $\)](-$-S_2335-Open-Database-$-.md)   
- [Troubleshooting: SQL Server Connection Problems](Troubleshooting:-SQL-Server-Connection-Problems.md)
+ [Troubleshooting: SQL Server Connection Problems](Troubleshooting--SQL-Server-Connection-Problems.md)

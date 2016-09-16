@@ -23,7 +23,7 @@ You can activate the debugger from the development environment. After you activa
     >   
     >  **Microsoft.Dynamics.Nav.Client has stopped working.**  
     >   
-    >  To fix this error, see [Troubleshooting: "Microsoft.Dynamics.Nav.Client has stopped working" error when starting debugger](Troubleshooting:-%22Microsoft.Dynamics.Nav.Client-has-stopped-working%22-error-when-starting-debugger.md).  
+    >  To fix this error, see [Troubleshooting: "Microsoft.Dynamics.Nav.Client has stopped working" error when starting debugger](Troubleshooting--%22Microsoft.Dynamics.Nav.Client-has-stopped-working%22-error-when-starting-debugger.md).  
   
 2.  On the **Session List** page, do one of the following:  
   

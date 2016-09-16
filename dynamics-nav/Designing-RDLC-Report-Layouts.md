@@ -55,4 +55,4 @@ To create an RDLC layout, you use Visual Studio Report Designer or Microsoft SQL
  [How to: Use Option Strings in Multilanguage Implementations](How-to--Use-Option-Strings-in-Multilanguage-Implementations.md)   
  [How to: Reset Report Page Numbers](How-to--Reset-Report-Page-Numbers.md)   
  [How to: Specify Rounding Precision](How-to--Specify-Rounding-Precision.md)   
- [Troubleshooting: Visual Studio Report Designer provided metadata is not valid](Troubleshooting:-Visual-Studio-Report-Designer-provided-metadata-is-not-valid.md)
+ [Troubleshooting: Visual Studio Report Designer provided metadata is not valid](Troubleshooting--Visual-Studio-Report-Designer-provided-metadata-is-not-valid.md)

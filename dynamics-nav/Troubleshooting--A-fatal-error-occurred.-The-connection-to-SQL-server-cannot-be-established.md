@@ -39,7 +39,7 @@ When you try to open [!INCLUDE[nav_web](includes/nav_web_md.md)], you get the fo
   
     -   SQL Server Browser Service is running. This is required only when [!INCLUDE[navnow](includes/navnow_md.md)] used a named database instance, such as NAVDEMO, and [!INCLUDE[nav_server](includes/nav_server_md.md)] is on a different computer than SQL Server. For more information, see [How to: Start SQL Browser Service](How-to--Start-SQL-Browser-Service.md).  
   
-     For more information, see [Troubleshooting: SQL Server Connection Problems](Troubleshooting:-SQL-Server-Connection-Problems.md).  
+     For more information, see [Troubleshooting: SQL Server Connection Problems](Troubleshooting--SQL-Server-Connection-Problems.md).  
   
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
