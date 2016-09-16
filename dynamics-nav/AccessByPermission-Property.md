@@ -12,7 +12,7 @@ caps.latest.revision: 12
 manager: edupont
 ---
 # AccessByPermission Property
-Sets a value for a table field or UI element that determines the permission mask for an object that a user must have to see and access the related page fields or UI element in the client. The UI element will be removed at runtime if the user does not have permissions to a certain object as specified in the **\($ S\_2180 Access By Permission $\)** window. For more information, see [How to: Remove UI Elements Using the AccessByPermission Property](How-to--Remove-UI-Elements-Using-the-AccessByPermission-Property.md).  
+Sets a value for a table field or UI element that determines the permission mask for an object that a user must have to see and access the related page fields or UI element in the client. The UI element will be removed at runtime if the user does not have permissions to a certain object as specified in the **Access By Permission** window. For more information, see [How to: Remove UI Elements Using the AccessByPermission Property](How-to--Remove-UI-Elements-Using-the-AccessByPermission-Property.md).  
 
  All types of UI elements will be removed if they relate to an object to which the user does not have the required permissions:  
 
@@ -38,7 +38,7 @@ Sets a value for a table field or UI element that determines the permission mask
 -   Page parts, such as a **Lines** FastTab  
 
 ## Property Value  
- When you choose the **AssistEdit** button, the **\($ S\_2180 Access By Permission $\)** window opens. Fill the fields as described in the following table.  
+ When you choose the **AssistEdit** button, the **Access By Permission** window opens. Fill the fields as described in the following table.  
 
 |[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
@@ -61,7 +61,7 @@ Sets a value for a table field or UI element that determines the permission mask
 
 3.  For the **AccessByPermission** property, choose the **AssistEdit** button in the **Value** field.  
 
-4.  In the **\($ S\_2180 Access By Permission $\)** window, fill the fields as described in the following table.  
+4.  In the **Access By Permission** window, fill the fields as described in the following table.  
 
     |[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
     |---------------------------------|---------------------------------------|  
@@ -73,7 +73,7 @@ Sets a value for a table field or UI element that determines the permission mask
     |**Delete**|Leave blank|  
     |**Execute**|Leave blank|  
 
-5.  Close the **\($ S\_2180 Access By Permission $\)** window and save the changes on table 27.  
+5.  Close the **Access By Permission** window and save the changes on table 27.  
 
  All instances of the **Unit Price** field on pages are now removed if the user does have Read or Insert permission to the **Sales Price** table.  
 
@@ -89,8 +89,7 @@ Sets a value for a table field or UI element that determines the permission mask
 
 ## See Also  
  [How to: Remove UI Elements Using the AccessByPermission Property](How-to--Remove-UI-Elements-Using-the-AccessByPermission-Property.md)   
- [How to: Specify When UI Elements Are Removed](How-to--Specify-When-UI-Elements-Are-Removed.md)   
- [\($ S\_2180 Access By Permission $\)](-$-S_2180-Access-By-Permission-$-.md)   
+ [How to: Specify When UI Elements Are Removed](How-to--Specify-When-UI-Elements-Are-Removed.md)    
  [How to: Try Out the UI Elements Removal Feature Based on Demonstration Permission Sets](How-to--Try-Out-the-UI-Elements-Removal-Feature-Based-on-Demonstration-Permission-Sets.md)   
  [Removing Elements from the User Interface According to Permissions](Removing-Elements-from-the-User-Interface-According-to-Permissions.md)   
  [Properties](Properties.md)   
