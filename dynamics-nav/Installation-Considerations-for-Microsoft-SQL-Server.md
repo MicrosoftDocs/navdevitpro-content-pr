@@ -50,5 +50,5 @@ This topic describes the requirements for installing and configuring Microsoft S
 ## See Also  
  [Data Access](Data-Access.md)   
  [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)   
- [Troubleshooting: SQL Server Connection Problems](Troubleshooting:-SQL-Server-Connection-Problems.md)   
+ [Troubleshooting: SQL Server Connection Problems](Troubleshooting--SQL-Server-Connection-Problems.md)   
  [Deployment](Deployment.md)

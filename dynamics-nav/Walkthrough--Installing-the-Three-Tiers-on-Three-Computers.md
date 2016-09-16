@@ -203,7 +203,7 @@ In this walkthrough, you will install [!INCLUDE[navnowlong](includes/navnowlong_
 ## Establishing a Connection  
  The configuration is now complete. You should be able to start the RoleTailored client and connect to the [!INCLUDE[demolong](includes/demolong_md.md)].  
 
- If you cannot connect the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] to [!INCLUDE[nav_server](includes/nav_server_md.md)] after completing this procedure, then the problem may be that [!INCLUDE[nav_server](includes/nav_server_md.md)] is not able to establish a connection to SQL Server. For more information, see [Troubleshooting: SQL Server Connection Problems](Troubleshooting:-SQL-Server-Connection-Problems.md).  
+ If you cannot connect the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] to [!INCLUDE[nav_server](includes/nav_server_md.md)] after completing this procedure, then the problem may be that [!INCLUDE[nav_server](includes/nav_server_md.md)] is not able to establish a connection to SQL Server. For more information, see [Troubleshooting: SQL Server Connection Problems](Troubleshooting--SQL-Server-Connection-Problems.md).  
 
 ## Next Steps  
  You have now installed all [!INCLUDE[navnow](includes/navnow_md.md)] components. When you start the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], it connects to [!INCLUDE[nav_server](includes/nav_server_md.md)] and to [!INCLUDE[demoname](includes/demoname_md.md)], which is the demonstration company that is associated with the demonstration database.  

@@ -43,7 +43,7 @@ When the client device, [!INCLUDE[nav_web](includes/nav_web_md.md)], and [!INCLU
 5.  On the **Delegation** tab, choose **Trust this user for delegation to specified services only**, and then choose **Use Kerberos only**.  
   
     > [!NOTE]  
-    >  The **Use Kerberos Only** option does not work for some network configurations with [!INCLUDE[navnow](includes/navnow_md.md)]. If you get a server error when you try open the [!INCLUDE[nav_web](includes/nav_web_md.md)], then disable the **Use Kerberos Only** option and see whether this fixes the error. For more information about this error, see [Troubleshooting: A server error occurred and the content cannot be displayed](Troubleshooting:-A-server-error-occurred-and-the-content-cannot-be-displayed.md).  
+    >  The **Use Kerberos Only** option does not work for some network configurations with [!INCLUDE[navnow](includes/navnow_md.md)]. If you get a server error when you try open the [!INCLUDE[nav_web](includes/nav_web_md.md)], then disable the **Use Kerberos Only** option and see whether this fixes the error. For more information about this error, see [Troubleshooting: A server error occurred and the content cannot be displayed](Troubleshooting--A-server-error-occurred-and-the-content-cannot-be-displayed.md).  
   
 6.  You must add the following service entries for the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)], where **NAVSERVER** indicates the name of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
