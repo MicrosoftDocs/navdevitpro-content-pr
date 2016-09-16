@@ -42,7 +42,7 @@ The **Install Demo** option is available on the first page after you accept the 
 
 -   [Microsoft Dynamics NAV Server](Microsoft-Dynamics-NAV-Server.md).  
 
--   [Development Environment \(C-SIDE\)](Development-Environment--C-SIDE-.md).  
+-   [Development Environment (C/SIDE)](Development-Environment--C-SIDE-.md).  
 
 -   Microsoft Office Excel Add-In.  
 

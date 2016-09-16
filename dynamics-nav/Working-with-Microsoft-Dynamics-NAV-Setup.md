@@ -47,7 +47,7 @@ manager: edupont
 
  [Running Setup on the Command Line](Running-Setup-on-the-Command-Line.md)  
 
- [How to: Install C-SIDE Development Environment](How-to--Install-C-SIDE-Development-Environment.md)  
+ [How to: Install C/SIDE Development Environment](How-to--Install-C-SIDE-Development-Environment.md)  
 
  [How to: Upload the License File](How-to--Upload-the-License-File.md)  
 

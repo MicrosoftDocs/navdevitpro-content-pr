@@ -11,7 +11,7 @@ ms.topic: article
 ms-prod: "dynamics-nav-2017"
 ---
 # Welcome to the Developer and IT-Pro Help for Microsoft Dynamics NAV
-[!INCLUDE[navnowlong](includes/navnowlong_md.md)] is a complete enterprise resource planning (ERP) software solution for mid-sized organizations that is fast to implement, easy to configure, and simple to use. Right from the start, simplicity has guided—and continues to guide—innovations in product design, development, implementation, and usability. In this section, you can find information about deployment and administration, and you can find information about developing for [!INCLUDE[navnow](includes/navn...(line truncated)...
+[!INCLUDE[navnowlong](includes/navnowlong_md.md)] is a complete enterprise resource planning (ERP) software solution for mid-sized organizations that is fast to implement, easy to configure, and simple to use. Right from the start, simplicity has guided—and continues to guide—innovations in product design, development, implementation, and usability. In this section, you can find information about deployment and administration, and you can find information about developing for [!INCLUDE[navnow](includes/navnow_md.md).
 
 |To|See|  
 |--|---|  
