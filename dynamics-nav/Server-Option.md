@@ -23,7 +23,7 @@ The Server option is available on the **Choose an installation option** page in 
   
 -   The [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. For more information, see [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
   
--   Microsoft Office Outlook integration. For more information, see [Outlook Add-in-\($ P\_1 Product Name $\) Synchronization Add-in](Outlook-Add-in-\($-P_1-Product-Name-$\)-Synchronization-Add-in.md).  
+-   Microsoft Office Outlook integration.  
   
 -   SharePoint Online integration. For more information, see [Integrating with Microsoft Office](Integrating-with-Microsoft-Office.md).  
   
