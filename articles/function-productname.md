@@ -1,6 +1,6 @@
 <properties
-                pageTitle="MESSAGE Function (Notification) | Dynamics NAV"
-                description="Describes the MESSAGE function of the Notification data type for sending notifications"
+                pageTitle="PRODUCTNAME Functions | Dynamics NAV"
+                description="Describes the functions of the PRODUCTNAME type"
                 services=""
                 documentationCenter=""
                 authors="jswymer"/>
