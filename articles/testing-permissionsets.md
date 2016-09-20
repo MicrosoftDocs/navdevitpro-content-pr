@@ -1,17 +1,16 @@
-<properties
-                pageTitle="Testing Permission Sets | Dynamics NAV"
-                description="Describes how you can test permission sets that are used in the application."
-                services=""
-                documentationCenter="NAV"
-                authors="jswymer"/>
-<tags
-    ms.service="dynamics-nav"
-    ms.topic="article"
-    ms.devlang="na"
-    ms.tgt_pltfrm="na"
-    ms.workload="NAV"
-    ms.date="06/16/2016"
-    ms.author="jswymer" />
+---
+title: "Testing With Permission Sets"
+ms.custom: na
+ms.date: 09/20/2016
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: article
+ms-prod: "dynamics-nav-2017"
+ms.author:"jswymer"
+manager: edupont
+---
+
 
 # Testing With Permission Sets
 You can write application tests in C/AL that use specific permission sets when the test is run. The permission sets define the access rights (such as read, write, and execute ) on tables, reports, functions, and other objects in the database. Without applying any permission sets, a test will run with full permissions, similar to the rights that are granted by the SUPER permission set.

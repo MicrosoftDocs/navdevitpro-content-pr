@@ -1,17 +1,15 @@
-<properties
-                pageTitle="RECALL Function (Notification) | Dynamics NAV"
-                description="Describes the RECALL function of the Notification data type for recalling notifications"
-                services=""
-                documentationCenter=""
-                authors="SusanneWindfeldPedersen"/>
-<tags
-    ms.prod="dynamics-nav-2017"
-    ms.topic="article"
-    ms.devlang="na"
-    ms.tgt_pltfrm="na"
-    ms.workload="na"
-    ms.date="07/12/2016"
-    ms.author="SusanneWindfeldPedersen" />
+--
+title: "SEND Function (Notification)"
+ms.custom: na
+ms.date: 09/20/2016
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: article
+ms-prod: "dynamics-nav-2017"
+ms.author="SusanneWindfeldPedersen"
+manager: edupont
+---
 
 # RECALL Function (Notification)
 Recall a sent notification.
