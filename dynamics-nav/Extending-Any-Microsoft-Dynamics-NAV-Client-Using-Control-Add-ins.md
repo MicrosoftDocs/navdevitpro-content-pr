@@ -27,7 +27,6 @@ With [!INCLUDE[navnow](includes/navnow_md.md)] you can write control add-ins tha
 |Review an example of a manifest file.|[Manifest Overview](Manifest-Overview.md)|  
 |Get reference Help on the available methods for the extensibility framework.|[InvokeExtensibilityMethod Method](InvokeExtensibilityMethod-Method.md), [GetImageResource Method](GetImageResource-Method.md), and [GetEnvironment Method](GetEnvironment-Method.md).|  
   
-## See Also  
- [\($ S\_2150 Control Add-ins $\)](-$-S_2150-Control-Add-ins-$-.md)   
+## See Also    
  [Developing for the Microsoft Dynamics NAV Universal App](Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)   
  [Developing for the Microsoft Dynamics NAV Web Client](Developing-for-the-Microsoft-Dynamics-NAV-Web-Client.md)
