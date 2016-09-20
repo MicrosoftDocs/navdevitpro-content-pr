@@ -11,8 +11,10 @@
     ms.tgt_pltfrm="na"
     ms.workload="na"
     ms.date="06/16/2016"
-    ms.author="jswymer" />
+    ms.author="jswymer" /
 
+    <!-- This article can be deleted because the content has been upodated in the Understanding Session Timeout.md topic in dynamics-nav folder.-->
+    ## Remarks
 # Understanding Session Timeouts
 When you start the Dynamics NAV Windows client or Dynamics NAV Web client, a connection is established with the Dynamics NAV Server instance, and a corresponding session is added on Dynamics NAV Server.
 
