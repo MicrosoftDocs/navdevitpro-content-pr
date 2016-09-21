@@ -1,7 +1,7 @@
 ---
 title: "Gesture Property"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 09/21/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
