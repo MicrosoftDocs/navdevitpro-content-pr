@@ -14,11 +14,14 @@ caps.latest.revision: 17
 For a control add-in to work on all display targets there has to be a manifest. The manifest contains a declarative description of the control add-in and is written in XML. The manifest is added together with any resource files in a .zip file and registered with the control add-in resources in the **Client Add-in** page. This topic explains the structure of a manifest by using an example of the manifest for the Bing Maps control add-in. For more information about the implementation of the Bing Maps control add-in, see [Walkthrough: Creating and Using a Client Control Add-in](Walkthrough--Creating-and-Using-a-Client-Control-Add-in.md).  
   
 ## Example of a Manifest  
- The syntax of a manifest file is illustrated in the following example. All tags inside the `<manifest>` tag are optional. Inside the `<Manifest>` tag, the `<ScriptUrls>` tag references other JavaScripts from the manifest. In this case the `<ScriptUrls>` tag points to online map controls. Inside the `<Resources>` tag, all of the resources such as the script, style sheet, and images that are required to display the Bing Maps control add-in are listed.  
+ The syntax of a manifest file is illustrated in the following example. All tags inside the `<manifest>` tag are optional. Inside the `<Manifest>` tag, the `<ScriptUrls>` tag references other JavaScripts from the manifest. In this case the `<ScriptUrls>` tag points to online map controls. The `<StyleSheetUrls>` tag contains references to style sheets from external web sites. 
+ Inside the `<Resources>` tag, all of the resources such as the script, style sheet, and images that are required to display the Bing Maps control add-in are listed.  
   
- The \<Script> tag contains the actual initialization code for the control add-in. The code must be written inside a `<![CDATA[]]>` tag to be parsed as code. The `Microsoft.Dynamics.NAV.InvokeExtensibilityMethod` is described in more detail in the reference documentation. For more information, see [InvokeExtensibilityMethod Method](InvokeExtensibilityMethod-Method.md).  
-  
- Inside the \<Manifest> tag, at the end of the script, the `<RequestedHeight>` and the `<RequestedWidth>` tags are set to definite sizes. It is recommended to apply some size to the add-in using these tags. The properties `<VerticalStretch>` and `<HorizontalStretch>` determine how the control add-in behaves in the client when the window it is displayed in is resized. The default value is **false** which means that the control add-in is not resized vertically, or horizontally. The value **true** means that the control add-in is resized vertically, or horizontally. The values in `<RequestedHeight>` and `<RequestedWidth>` determine the minimum resize value of the control add-in.  
+ The `<Script>` tag contains the actual initialization code for the control add-in. The code must be written inside a `<![CDATA[]]>` tag to be parsed as code. The `Microsoft.Dynamics.NAV.InvokeExtensibilityMethod` is described in more detail in the reference documentation. For more information, see [InvokeExtensibilityMethod Method](InvokeExtensibilityMethod-Method.md).  
+
+ The `<RefreshScript>` tag is used for refreshing the control add-in when the user refreshes the page using F5 or if the [RefreshOnActivate](RefreshOnActivate-Property.md) is called from code. 
+   
+ Inside the `<Manifest>` tag, at the end of the script, the `<RequestedHeight>` and the `<RequestedWidth>` tags are set to definite sizes. It is recommended to apply some size to the add-in using these tags. The properties `<VerticalStretch>` and `<HorizontalStretch>` determine how the control add-in behaves in the client when the window it is displayed in is resized. The default value is **false** which means that the control add-in is not resized vertically, or horizontally. The value **true** means that the control add-in is resized vertically, or horizontally. The values in `<RequestedHeight>` and `<RequestedWidth>` determine the minimum resize value of the control add-in.  
   
 ```  
 <?xml version="1.0" encoding="utf-8"?>  
@@ -30,10 +33,14 @@ For a control add-in to work on all display targets there has to be a manifest. 
         <Script>Script.js</Script>  
         <StyleSheet>StyleSheet.css</StyleSheet>  
     </Resources>  
-  
+
     <ScriptUrls>  
         <ScriptUrl>http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=6.3</ScriptUrl>  
     </ScriptUrls>  
+  
+    <StyleSheetUrls>
+        <StyleSheetUrl>http://www.microsoft.com/stylesheets/colors.css</StyleSheetUrl>
+    </StyleSheetUrls>
   
     <Script>  
         <![CDATA[  
@@ -41,6 +48,13 @@ For a control add-in to work on all display targets there has to be a manifest. 
             Microsoft.Dynamics.NAV.InvokeExtensibilityMethod('ControlAddInReady', null);  
         ]]>  
     </Script>  
+
+    <RefreshScript>
+        <![CDATA[
+             Microsoft.Dynamics.NAV.InvokeExtensibilityMethod('Refresh', null);
+        ]]>
+    </RefreshScript>
+
   
     <RequestedHeight>300</RequestedHeight>  
     <RequestedWidth>700</RequestedWidth>  
