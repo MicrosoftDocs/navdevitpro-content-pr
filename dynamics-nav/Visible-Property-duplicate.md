@@ -16,7 +16,7 @@ Sets whether to display the page or control.
   
 ## Applies To  
   
--   Page fields  
+-   Page fields and action controls 
   
 -   Group and part controls on pages  
   

@@ -1,17 +1,15 @@
-<properties
-                pageTitle="SETDATA Function (Notification) | Dynamics NAV"
-                description="Describes the SETDATA function of the Notification data type for sending notifications"
-                services=""
-                documentationCenter=""
-                authors="jswymer"/>
-<tags
-    ms.prod="dynamics-nav-2017"
-    ms.topic="article"
-    ms.devlang="na"
-    ms.tgt_pltfrm="na"
-    ms.workload="na"
-    ms.date="06/16/2016"
-    ms.author="jswymer" />
+---
+title: "SETDATA Function (Notification)"
+ms.custom: na
+ms.date: 09/20/2016
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: article
+ms-prod: "dynamics-nav-2017"
+ms.author:"jswymer"
+manager: edupont
+---
 
 # SETDATA Function (Notification)
 Specifies a data property value for the notification. The data is specified as text in a key-value pair.
