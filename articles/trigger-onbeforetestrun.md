@@ -1,17 +1,15 @@
-<properties
-                pageTitle="OnBeforeTestRun Trigger | Dynamics NAV"
-                description="Describes the OnBeforeTestRun trigger on test runner codeunits"
-                services=""
-                documentationCenter=""
-                authors="jswymer"/>
-<tags
-    ms.prod="dynamics-nav-2017"
-    ms.topic="article"
-    ms.devlang="na"
-    ms.tgt_pltfrm="na"
-    ms.workload="na"
-    ms.date="06/16/2016"
-    ms.author="jswymer" />
+---
+title: "OnBeforeTestRun Trigger"
+ms.custom: na
+ms.date: 06/05/2016
+ms.reviewer: na
+ms.suite: na
+ms.tgt_pltfrm: na
+ms.topic: article
+ms-prod: "dynamics-nav-2017"
+ms.author:"jswymer"
+manager: edupont
+---
 
 # OnBeforeTestRun Trigger
 Executed before a test function of a test codeunit is run.
