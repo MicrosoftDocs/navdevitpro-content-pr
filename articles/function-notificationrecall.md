@@ -8,7 +8,6 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms-prod: "dynamics-nav-2017"
 ms.author="SusanneWindfeldPedersen"
-manager: edupont
 ---
 
 # RECALL Function (Notification)
