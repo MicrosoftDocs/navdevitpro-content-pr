@@ -12,7 +12,7 @@ manager: edupont
 ---
 
 # Gesture Property
-Specifies a gesture that runs the action on a device with a touch interface (such as a tablet and phone).
+Specifies a gesture that runs the action on a device with a touch interface, such as the phone client.
 
 ## Applies to
 *  Page Action controls
@@ -27,9 +27,9 @@ The property has the following values:
 |**RightSwipe**|Swipe in from the left edge of the touch interface.  |
 
 ## Remarks
-If you swipe in and hold, then the action appears in a context menu.
+You typically use the Gesture property on list type pages for executing an action on items in a repeater control.
 
-In Action Designer, the **Gesture** column lets you view the Gesture property value for all page actions. If the **Gesture** column is not visible, then on the **View** menu, choose **Show Column**, and then select **Gesture**.  
+In Action Designer, you can use the **Gesture** column to view the Gesture property value for all page actions. If the **Gesture** column is not visible, then on the **View** menu, choose **Show Column**, and then select **Gesture**.  
 ## See Also
 [Developing for the Microsoft Dynamics NAV Universal App](Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)  
 [Adding Actions to Pages](Adding-Actions-to-Pages.md)
