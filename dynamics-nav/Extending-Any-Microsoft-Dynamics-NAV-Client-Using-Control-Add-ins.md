@@ -1,5 +1,7 @@
 ---
 title: "Extending Any Microsoft Dynamics NAV Client Using Control Add-ins"
+author: SusanneWindfeldPedersen
+manager: edupont04
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -25,7 +27,7 @@ With [!INCLUDE[navnow](includes/navnow_md.md)] you can write control add-ins tha
 |Get a general overview about client control add-ins and where they fit in the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] architecture.|[Extending Any Microsoft Dynamics NAV Client Using Control Add-ins](Extending-Any-Microsoft-Dynamics-NAV-Client-Using-Control-Add-ins.md)|  
 |Go through an example of how to implement a simple control add-in, creating a .NET assembly, a manifest file, and a page to display the control add-in from.|[Walkthrough: Creating and Using a Client Control Add-in](Walkthrough--Creating-and-Using-a-Client-Control-Add-in.md)|  
 |Review an example of a manifest file.|[Manifest Overview](Manifest-Overview.md)|  
-|Get reference Help on the available methods for the extensibility framework.|[InvokeExtensibilityMethod Method](InvokeExtensibilityMethod-Method.md), [GetImageResource Method](GetImageResource-Method.md), and [GetEnvironment Method](GetEnvironment-Method.md).|  
+|Get reference Help on the available methods for the extensibility framework.|[InvokeExtensibilityMethod Method](InvokeExtensibilityMethod-Method.md), [GetImageResource Method](GetImageResource-Method.md), [GetEnvironment Method](GetEnvironment-Method.md), and [OpenWindow Method](Open-Window-Method.md).|  
   
 ## See Also    
  [Developing for the Microsoft Dynamics NAV Universal App](Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)   
