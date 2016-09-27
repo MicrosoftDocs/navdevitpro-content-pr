@@ -30,7 +30,8 @@ The protocol handler for the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)]
 |Tenant|Optional. The tenant that you want to connect to. If not provided, the default tenant is used.|  
 |Company|Optional. The company that you want to connect to. If not provided, the default company is used.|  
 |Profile|Optional. The profile that you want to connect with. If not provided, the default profile is used.|  
-|Page|Optional. The ID of the page that you want to open directly.|  
+|Page|Optional. The ID of the page that you want to open directly.|
+|Redirect|Optional. When users run the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] in a browser, they will be presented with an option to download the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] instead in order to improve the user experience. However, if this is not a wanted scenario, this experience can be manually overridden by adding the parameter ```?redirect=0``` to the URL.|  
   
 > [!NOTE]  
 >  It is not possible to specify which client type to open up the URL in; the last used client will open up when clicking the URL.  
