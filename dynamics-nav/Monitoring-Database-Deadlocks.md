@@ -14,10 +14,7 @@ You can set up the system to log deadlocks that occur in the SQL database. The d
 ## About Deadlocks
 Deadlocks can prevent users from completing tasks in the [!INCLUDE[navnow](includes/navnow_md.md)] client. A deadlock occurs when two or more processes or transactions block each other from continuing because each has locked a database resource that the other transaction needs. SQL Server handles deadlocks by terminating and rolling back transactions that were started after the first transaction.
 
-For more information about deadlocks, see:
-
--   [How to monitor deadlock using extended events in SQL Server 2008 and later](https://aka.ms/vp7f5k).
-
+For general information about deadlocks, see [Detecting and Ending Deadlocks](https://aka.ms/detectingendingdeadlocks).
 
 ## Setting Up Deadlock Logging
 Setting up deadlock logging requires you to configure the SQL Server instance and the [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)].
