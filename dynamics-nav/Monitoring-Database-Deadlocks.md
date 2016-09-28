@@ -12,7 +12,7 @@ ms-prod: "dynamics-nav-2017"
 You can set up the system to log deadlocks that occur in the SQL database. The deadlocks are recorded in the Windows Event Log of computer running [!INCLUDE[nav_server](includes/nav_server_md.md)]. The log entries provide information about the C/AL code that was run when the deadlock occurred, along with the deadlock report from SQL Server. This information can help you identify and resolve problem areas in the application design, .
 
 ## About Deadlocks
-Deadlocks can prevent users from completing tasks in the [!INCLUDE[navnow](includes/navnow_md.md)] clent. A deadlock occurs when two or more processes or transactions block each other from continuing because each has locked a database resource that the other transaction needs. SQL Server handles deadlocks by terminating and rolling back transactions that were started after the first transaction.
+Deadlocks can prevent users from completing tasks in the [!INCLUDE[navnow](includes/navnow_md.md)] client. A deadlock occurs when two or more processes or transactions block each other from continuing because each has locked a database resource that the other transaction needs. SQL Server handles deadlocks by terminating and rolling back transactions that were started after the first transaction.
 
 For more information about deadlocks, see:
 
@@ -34,7 +34,7 @@ In SQL Server Management Studio, connect to the SQL server instance for [!INCLUD
 -   On the server instance level, grant the login both **Alter any event session** and **View server state** permissions.
 
     To do this, go to **Security**>**Logins**, and then open the properties for the login. On the **Securables** page, on the **Explicit** tab, select the **Alter any event session** and **View server state** check boxes.
-    
+
     A session for monitoring the [!INCLUDE[navnow](includes/navnow_md.md)] database appears under  **Management**, **Extended Events**.  
 
 
@@ -73,28 +73,25 @@ Deadlock event log entries have the event ID 705 and task category 33 (Telemetry
 **Note:**  The system cannot record information about C/AL code that was executed on a different  [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md].
 
 ### View a graphical representation of the deadlock event
-To view a graphical reprentation of the deadlock event, perform the following steps:
+To view a graphical representation of the deadlock event, perform the following steps:
 1.  Open the deadlock event in Event Viewer.
 2.  On the General tab, go to the SQL Server deadlock xml report section, and then copy the text in the <deadlock></deadlock> and its content to a text editor such as Notepad.
 3.  Save the file as a .xdl type.
 4.  Open the file in SQL Server Management Studio.
 
 ### Filter on deadlocklock events
-All deadlock events use a trace tag that is equal to **00000DI**. If you only want to see deadlocks events in the event log, you can use this tag in an XML path filter on the log, as shown in the following example:
+All deadlock events use **00000DI** as a trace tag. If you only want to see deadlocks events in the log, you can use this tag in an XML path filter on the log as shown in the following example:
 
 ```
 <QueryList>
   <Query Id="0" Path="Microsoft-DynamicsNAV-Server/Admin">
-    <Select Path="Microsoft-DynamicsNAV-Server/Admin"> 
-                 *[EventData[Data[@Name='tag'] and (Data='00000DI')]] 
+    <Select Path="Microsoft-DynamicsNAV-Server/Admin">
+                 *[EventData[Data[@Name='tag'] and (Data='00000DI')]]
                </Select>
   </Query>
 </QueryList>
 ```
 
-## In this section  
-
--   [Tools for Monitoring Performance Counters and Events](Tools-for-Monitoring-Performance-Counters-and-Events.md)  
--   [Monitoring Microsoft Dynamics NAV Server Using Performance Counters](Monitoring-Microsoft-Dynamics-NAV-Server-Using-Performance-Counters.md)  
--   [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)
--   [Monitoring Deadlocks in SQL Server Database](Monitoring-Deadlocks-in-SQL-Server-Database.md)
+##  See Also
+[Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)  
+[Configuring Microsoft Dynamics NAV Server](Monitoring-Microsoft-Dynamics-NAV-Server.md)
