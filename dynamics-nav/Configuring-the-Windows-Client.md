@@ -13,38 +13,38 @@ manager: edupont
 ---
 # Configuring the Windows Client
 When you install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the **Specify Parameters** page in [!INCLUDE[navnow](includes/navnow_md.md)] Setup prompts you for configuration information to enable the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] to connect to [!INCLUDE[nav_server](includes/nav_server_md.md)]. This information is then saved in the default ClientUserSettings.config file.  
-  
+
  A separate instance of the ClientUserSettings.config file is maintained for each user of the computer. The default location for this file is C:\\Users\\\<username>\\AppData\\Roaming\\Microsoft\\Microsoft Dynamics NAV\\90, where \<username> is the name of the user. This folder and file are hidden by default. Change your folder options in Windows Explorer to view hidden files before you attempt to modify the ClientUserSettings.config file.  
-  
+
 ## Configuring the Microsoft Dynamics NAV Windows Client in Setup  
  If you install the [Demo Option](Demo-Option.md), you are not prompted for configuration information, because all [!INCLUDE[navnow](includes/navnow_md.md)] components are automatically installed on the local computer. If you install using any other installation option, you must provide some initial configuration information to enable the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] to establish a connection with an instance of [!INCLUDE[nav_server](includes/nav_server_md.md)].  
-  
+
  In Setup, select one of the following [Installation Options](Installation-Options.md) to install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]:  
-  
+
 -   [Client Option](Client-Option.md)  
-  
+
 -   [Developer Option](Developer-Option.md)  
-  
+
  You can also customize your installation and customize the list of components to install. For more information, see [How to: Choose Components to Install](How-to--Choose-Components-to-Install.md).  
-  
+
  After you specify an installation option or customize your component list, the **Specify parameters** pane is displayed in Setup. The list of parameters that you see in the **Specify parameters** pane depends on which components that you have selected for configuration. Setup provides a short description for each parameter. For a description of the most important parameters for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], see [Client Option](Client-Option.md).  
-  
+
  Choose **Apply** when you have finished entering values on the **Specify parameters** page in Setup. If you want to change the configuration after installation, you can modify the ClientUserSettings.config file for each client.  
-  
+
 ##  <a name="afterset"></a> Configuring the Microsoft Dynamics NAV Windows Client After Installation  
  [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup installs ClientUserSettings.config, the default configuration file, with the values that you provided as you ran Setup. This file is stored in C:\\ProgramData\\Microsoft\\Microsoft Dynamics NAV\\90. The first time a user runs the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], a copy of ClientUserSettings.config is copied to C:\\Users\\\<username>\\AppData\\Roaming\\Microsoft\\Microsoft Dynamics NAV\\90, where \<username> is the name of the user. This folder and file are hidden by default.  
-  
+
  If you want to change default [!INCLUDE[nav_windows](includes/nav_windows_md.md)] settings for all future users on this computer, edit the default ClientUserSettings.config file in C:\\ProgramData\\Microsoft\\Microsoft Dynamics NAV\\90. You must run your text editor with Administrator permissions when you do this.  
-  
+
  If you want to change [!INCLUDE[nav_windows](includes/nav_windows_md.md)] settings for an existing user, edit the ClientUserSettings.config file in that user’s C:\\Users\\\<username>\\AppData\\Roaming\\Microsoft\\Microsoft Dynamics NAV\\90 folder. After you modify a user’s ClientUserSettings.config file, you must restart the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] for changes to take effect.  
-  
+
  In addition to the settings that you can configure in Setup, the ClientUserSettings.config file contains other settings for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
-  
+
 ### Settings in the ClientUserSettings.config File  
  The ClientUserSettings.config file is an .xml file that you can edit with any text editor. Quotation marks are required for all values.  
-  
+
  The following settings are available.  
-  
+
 |Setting|Description|  
 |-------------|-----------------|  
 |Server|Specifies the name of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] for this client.<br /><br /> Default value: Empty string if you installed by using the Client installation option, or **localhost** if you installed by using the Developer Environment installation option or a custom installation.|  
@@ -55,7 +55,6 @@ When you install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the **
 |UrlHistory|Specifies a comma-delimited list of [!INCLUDE[nav_server](includes/nav_server_md.md)] connections that is displayed in the **Select Server** window when you choose the drop-down arrow in the **Server name** field.<br /><br /> This parameter is not available after you install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], but it is created and populated after the user enters a server name in the field.<br /><br /> You can create and populate this field after you install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. This gives the user a list of servers from which to choose.<br /><br /> Example:<br /><br /> `<add key="UrlHistory" value="localhost, dev:7046/nav_server_instance, sales:7046/nav_server_instance"/>`<br /><br /> Each value must contain a computer name and can optionally also include a port number and a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. Defaults are assumed if either value is missing.|  
 |ClientServicesCompressionThreshold|Specifies the threshold in memory consumption at which the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] starts compressing datasets, in kilobytes.<br /><br /> Default: 64|  
 |ClientServicesChunkSize|Specifies the default size for a chunk, in kilobytes.<br /><br /> Default: 28.<br /><br /> The range of values is from 4 to 80.|  
-|ClientServicesKeepAliveInterval|Specifies the time \(in seconds\) between reliable session messages that are automatically sent to [!INCLUDE[nav_server](includes/nav_server_md.md)] to keep the session alive during periods of inactivity.<br /><br /> If [!INCLUDE[nav_server](includes/nav_server_md.md)] is located behind a load balancer, then we recommend that you set this value to approximately half of the load balancer's idle timeout.<br /><br /> Default: 120|  
 |MaxNoOfXMLRecordsToSend|Specifies the maximum number of data rows that can be sent as XML during export to Word or Excel.<br /><br /> Default: 5000<br /><br /> **Note:** This setting does not pertain to data in lists. The limit for list type pages is configured on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. For more information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).|  
 |MaxImageSize|Specifies the maximum image size \(in bytes\) allowed by validation.<br /><br /> Default: 26214400|  
 |ClientServicesCredentialType|Specifies how [!INCLUDE[nav_windows](includes/nav_windows_md.md)] users are authenticated when they connect to [!INCLUDE[nav_server](includes/nav_server_md.md)].<br /><br /> For more information, see [Users and Credential Types](Users-and-Credential-Types.md).<br /><br /> This parameter value must be the same as the Credential Type setting for the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that the client is configured to connect to. For more information, see [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md).<br /><br /> Default value: Windows|  
@@ -67,7 +66,7 @@ When you install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], the **
 |HelpServer|Specifies the name of the computer than hosts the [!INCLUDE[navnow](includes/navnow_md.md)] Help Server.|  
 |HelpServerPort|Specifies the TCP listening port for the [!INCLUDE[navnow](includes/navnow_md.md)] Help Server.<br /><br /> Default: 49000|  
 |UnknownSpnHint|Specifies whether to use server principal name when establishing the connection between the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_server](includes/nav_server_md.md)]. This setting is used to authenticate the [!INCLUDE[nav_server](includes/nav_server_md.md)]. You set the values that are based on the value of the **ServicePrincipalNameRequired** key.<br /><br /> Value: The value has the following format.<br /><br /> \* \(net.tcp://NavServer:Port/ServerInstance/Service\)=NoSpn&#124;SPN<br /><br /> \* NavServer is the name of the computer that is running the [!INCLUDE[nav_server](includes/nav_server_md.md)].<br /><br /> \* Port is the port number on which the [!INCLUDE[nav_server](includes/nav_server_md.md)] is running.<br /><br /> \* ServerInstance is the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.<br /><br /> \* NoSpn&#124;SPN specifies whether to use an SPN. If the ServicePrincipalNameRequired key is set to **false**, then set this value to NoSpn. If the ServicePrincipalNameRequired key is set to **true**, then set this value to Spn.<br /><br /> Default value: \(net.tcp://localhost:7046/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/Service\)=NoSpn<br /><br /> This setting is updated automatically.|  
-  
+
 ## See Also  
  [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)   
  [Configuring Microsoft Dynamics NAV Help Server](Configuring-Microsoft-Dynamics-NAV-Help-Server.md)   

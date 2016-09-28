@@ -13,7 +13,7 @@ ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
 caps.latest.revision: 18
 ---
 # Getting Started Developing
-To get started developing extensions for Dynamics 365 for Financials there are a number of prerequisites...
+To get started developing extensions for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] there are a number of prerequisites...
 
 + Download Visual Studio Code https://code.visualstudio.com/ 
 + Developer license to Dynamics NAV 2017

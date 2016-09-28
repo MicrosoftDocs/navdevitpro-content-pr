@@ -10,10 +10,10 @@ ms-prod: "dynamics-nav-2017"
 ---
 # Monitoring Microsoft Dynamics NAV Server
 This section describes the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] features for monitoring [!INCLUDE[nav_server](includes/nav_server_md.md)].  
-  
+
 ## In this section  
-  
+
 -   [Tools for Monitoring Performance Counters and Events](Tools-for-Monitoring-Performance-Counters-and-Events.md)  
 -   [Monitoring Microsoft Dynamics NAV Server Using Performance Counters](Monitoring-Microsoft-Dynamics-NAV-Server-Using-Performance-Counters.md)  
--   [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)
--   [Monitoring Deadlocks in SQL Server Database](Monitoring-Deadlocks-in-SQL-Server-Database.md)
+-   [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)  
+-   [Monitoring SQL Database Deadlocks](Monitoring-Database-Deadlocks.md)
