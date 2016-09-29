@@ -70,7 +70,7 @@ To view a graphical representation of the deadlock event, perform the following 
 3.  Save the file as a .xdl type.
 4.  Open the file in SQL Server Management Studio.
 
-### Filter on deadlocklock events
+### Filter on deadlock events
 All deadlock events have the trace tag **00000DI**. If you only want to see deadlocks events in the log, you can use this tag in an XML path filter on the log, as shown in the following example:
 
 ```
