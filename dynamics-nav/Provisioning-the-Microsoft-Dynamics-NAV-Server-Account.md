@@ -155,7 +155,7 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] account is used by [!INCLU
 
     11. Choose **OK** to exit the Database Properties dialog box for your [!INCLUDE[navnow](includes/navnow_md.md)] database.  
 
-Alternatively, you can these steps in SQL Server Management Studio, as shown in the following example:  
+Alternatively, you can script these steps in SQL Server Management Studio, as shown in the following example:  
 
 ```  
 USE [master]  
@@ -170,6 +170,8 @@ CREATE USER [domain\accountname] FOR LOGIN [domain\accountname]
 ALTER ROLE [db_owner] ADD MEMBER [domain\accountname]  
 GRANT VIEW DATABASE STATE TO [domain\accountname]  
 
+GRANT VIEW SERVER STATE TO [domain\accountname]
+GRANT ALTER ANY EVENT SESSION TO [domain\accountname]
 ```  
 
 ##  <a name="NSA"></a> Provisioning the Network Service Account  
