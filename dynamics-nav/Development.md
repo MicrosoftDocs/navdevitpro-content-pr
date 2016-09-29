@@ -30,9 +30,9 @@ Before you begin developing code for [!INCLUDE[navnowlong](includes/navnowlong_m
   
 |To|See|  
 |--------|---------|  
-|Learn what you can do with C/AL and where to add C/AL code.|[Programming in C-AL](Programming-in-C-AL.md)|  
-|Learn what the C/AL data types are.|[C-AL Data Types](C-AL-Data-Types.md)|  
-|Learn how to write C/AL statements and expressions.|-   [Statements and Expressions](Statements-and-Expressions.md)<br />-   [Elements of C-AL Expressions](Elements-of-C-AL-Expressions.md)<br />-   [C-AL Simple Statements](C-AL-Simple-Statements.md)<br />-   [C-AL Control Statements](C-AL-Control-Statements.md)|  
+|Learn what you can do with C/AL and where to add C/AL code.|[Programming in C/AL](Programming-in-C-AL.md)|  
+|Learn what the C/AL data types are.|[C/AL Data Types](C-AL-Data-Types.md)|  
+|Learn how to write C/AL statements and expressions.|-   [Statements and Expressions](Statements-and-Expressions.md)<br />-   [Elements of C/AL Expressions](Elements-of-C-AL-Expressions.md)<br />-   [C/AL Simple Statements](C-AL-Simple-Statements.md)<br />-   [C/AL Control Statements](C-AL-Control-Statements.md)|  
 |Learn about how to debug C/AL.|[Debugging](Debugging.md)|  
 |Learn about how to use custom controls with C/AL.|[Extending Microsoft Dynamics NAV Using COM](Extending-Microsoft-Dynamics-NAV-Using-COM.md)|  
 |Learn about the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] and designing applications.|[Application Design Overview](Application-Design-Overview.md)|  
@@ -41,6 +41,6 @@ Before you begin developing code for [!INCLUDE[navnowlong](includes/navnowlong_m
 |Learn how to use display language-specific strings without modifying code.|[CaptionClass Functionality](CaptionClass-Functionality.md)|  
 |Learn about how to develop [!INCLUDE[nav_web](includes/nav_web_md.md)] applications.|[Developing for the Microsoft Dynamics NAV Web Client](Developing-for-the-Microsoft-Dynamics-NAV-Web-Client.md)|  
 |Learn about how to develop the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)].|[Developing for the Microsoft Dynamics NAV Universal App](Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)|  
-|Learn about differences between developing in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] and earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)].|[Changes in C-AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV](Changes-in-C-AL-Behavior-and-Support-from-Earlier-Versions-of-Microsoft-Dynamics-NAV.md)|  
+|Learn about differences between developing in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] and earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)].|[Changes in C/AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV](Changes-in-C-AL-Behavior-and-Support-from-Earlier-Versions-of-Microsoft-Dynamics-NAV.md)|  
 |Learn about how to transfer files between the client and the server.|[File Handling](File-Handling.md)|  
 |Learn about how to test an application.|[Testing the Application](Testing-the-Application.md)|
