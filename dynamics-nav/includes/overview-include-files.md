@@ -15,7 +15,7 @@ manager: edupont
 
 # Include Files
 
-This table contains the INCLUDE expressions associated with the content of the include file for easier copy/paste in documentation. [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]
+This table contains the INCLUDE expressions associated with the content of the include file for easier copy/paste in documentation.
 
 |File Name   |Content  |
 |------------|---------|
