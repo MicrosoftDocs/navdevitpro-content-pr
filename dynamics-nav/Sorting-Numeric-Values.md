@@ -58,3 +58,6 @@ This topic explains how items, such as documents, are numbered in [!INCLUDE[navn
 -   If you do not follow the numbering principles when you apply a filter, for example, 2...10, the result will contain no records. This is because 2, comes after 10.  
   
 -   You have followed the numbering principles and are using three-digit numbers. If you forget to follow the same principles when you apply a filter, for example, 10...20, the result will be 100,101,102...199.
+
+## See Also
+[Development](development.md)
