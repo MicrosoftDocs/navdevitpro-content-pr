@@ -37,7 +37,7 @@ To log deadlocks, you must enable deadlock logging on the [!INCLUDE[nav_server](
 
 -   To enable deadlock logging by using the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], open the server instance for editing, and then select the **Enable Deadlock Monitoring** check box in the **Database** section.
 
-    For more information about how to use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], see [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)
+    For more information about how to use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], see [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md).
 
 -   To enable logging by using the Set-NAVServerConfiguration cmdlet, include the *keyname EnableDeadlockMonitoring keyvalue true* parameters in the command, such as:
 
@@ -47,21 +47,21 @@ To log deadlocks, you must enable deadlock logging on the [!INCLUDE[nav_server](
     For more information about how to use the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], see [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md) and [Set-NAVServerConfiguration Cmdlet](https://go.microsoft.com/fwlink/?linkid=401394).
 
 ## Viewing Deadlocks in the Windows Event Log
-Similar to other errors and events in [!INCLUDE[navnow](includes/navnow_md.md)], you can monitor deadlocks by using Event Viewer on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)]. Deadlocks are recorded as warnings in the [!INCLUDE[nav_server](includes/nav_server_md.md)] **Admin** channel log of the **Applications and Services Logs**. For general information about how to view the [!INCLUDE[nav_server](includes/nav_server_md.md)] logs, see [Monitoring Microsoft Dynamics NAV Server Events in the Windows Event Log](Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log.md).
+Similar to other errors and events in [!INCLUDE[navnow](includes/navnow_md.md)], you can monitor deadlocks by using Event Viewer on the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)]. Deadlocks are recorded as warnings in the [!INCLUDE[nav_server](includes/nav_server_md.md)]  **Admin** channel log in the **Applications and Services Logs**. For general information about how to view the [!INCLUDE[nav_server](includes/nav_server_md.md)] logs, see [Monitoring Microsoft Dynamics NAV Server Events in the Windows Event Log](Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log.md).
 
 ### Deadlock Event Overview
 Deadlock event log entries have the event ID 705 and task category 33 (TelemetryData). The following table describes some of important information that is included in deadlock log entry:
 
 |  Information |  Description  |
 |--------------|---------------|
-|serverInstanceName|Specifies the [!INCLUDE[nav_server](includes/nav_server_md.md] instance on which the event occurred.|
+|serverInstanceName|Specifies the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance on which the event occurred.|
 |user|Specifies the [!INCLUDE[navnow](includes/navnow_md.md)] user account that ran the transaction that caused the event.|
 |AL ObjectType|Specifies the [!INCLUDE[navnow](includes/navnow_md.md)] object in C/AL that ran the transaction, such as a page or report.|
 |AL ObjectNumber|Specifies the ID of the object that was run.|
 |AL ScopeName|Specifies the C/AL function that ran the transaction that caused the event.|
 |SQL Server deadlock XML report|Includes the deadlock report that was recieved from SQL Server. For more information, see [Analyze Deadlocks](https://aka.ms/analyzedeadlocks).|
 
-**Note:**  The system cannot record information about C/AL code that was executed on a different  [!INCLUDE[nav_server](includes/nav_server_md.md].
+**Note:**  The system cannot record information about C/AL code that was executed on a different  [!INCLUDE[nav_server](includes/nav_server_md.md)].
 
 ### View a graphical representation of the deadlock event
 To view a graphical representation of the deadlock event, perform the following steps:
@@ -71,7 +71,7 @@ To view a graphical representation of the deadlock event, perform the following 
 4.  Open the file in SQL Server Management Studio.
 
 ### Filter on deadlocklock events
-All deadlock events use **00000DI** as a trace tag. If you only want to see deadlocks events in the log, you can use this tag in an XML path filter on the log as shown in the following example:
+All deadlock events have the trace tag **00000DI**. If you only want to see deadlocks events in the log, you can use this tag in an XML path filter on the log, as shown in the following example:
 
 ```
 <QueryList>
