@@ -13,6 +13,7 @@
     ms.date="07/13/2016"
     ms.author="edupont04" />
 
+<!-- This article can be deleted because the changes to the original topic have been included. -->
 # COUNT Function (Record)
 Counts the number of records in a table.
 <!-- This topic represents changes to the topic for COUNT that is pending migration from CAPS -->

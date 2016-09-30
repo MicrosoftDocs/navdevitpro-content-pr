@@ -7,7 +7,7 @@
 
 
 
-<!-- These updates have been done!! -->
+<!-- These updates have been done!! This article can be deleted. -->
 <!-- The content in this article supports Madeira changes to the Dynamics NAV Server settings (NAV Administration Tool and CustomeSettings.config file). The content here becomes part of the ""Configuring Microsoft Dynamics NAV Server". -->
 
 <!-- Change 1: In the section "Configuring Microsoft Dynamics NAV Server After Installation" section, in the last bullet, update the path CustomSetting.config file as follows:-->
