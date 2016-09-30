@@ -13,6 +13,8 @@
     ms.date="06/16/2016"
     ms.author="jswymer" />
 
+<!-- This topic can be deleted becasue the changes have been implemented.-->
+
 <!-- The content in this article supports Madeira task 169219, which adds a new parameter (showalldesignercolumns) to the finsql.exe. The content should be added to the Using the Development Environment from the Command Prompt article as described.-->
 
 <!-- Change 1: In the "Finsql.exe Command Syntax" section, update the code to include the showalldesignercolumns as follows:-->
