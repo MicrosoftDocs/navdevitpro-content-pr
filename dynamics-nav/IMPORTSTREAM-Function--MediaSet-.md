@@ -72,7 +72,7 @@ Adds a media file, such as a jpeg image, from an InStream object to the MediaSet
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
 |item|Record|Item|  
-|myIinStream|InStream||  
+|myInStream|InStream||  
 
  This code iterates over records in the **Items** table. For each record, it looks in the *C:\\images* folder for a file whose name matches the **No.** field of the record. If there is a match the file, an InStream object is created for the file, and then imported into the record.  
 
