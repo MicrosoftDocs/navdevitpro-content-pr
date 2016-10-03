@@ -50,7 +50,7 @@ Exports the media objects in the current media set of a record to individual fil
  The number of media files that were generated and stored in the output file path.  
 
 ## Remarks  
- The exported media files will be of the same media file type as when they were imported, such as .jpg or .gif. For more information about the media types, see [Supported Media Types](Working-With-Media-on-Records.md#SupportedMediaTypes).
+ The exported media files will be of the same media file type as when they were imported. For more information about the media types, see [Supported Media Types](Working-With-Media-on-Records.md#SupportedMediaTypes).
 
 The function has the following behavior:  
 

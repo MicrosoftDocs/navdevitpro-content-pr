@@ -11,9 +11,9 @@ ms.assetid: 4e4b21e5-d738-4db6-b78b-218a48b96e09
 caps.latest.revision: 2
 ---
 # EXPORTSTREAM Function (Media)
-Export the current media type \(such as jpeg image\) that is used on record to an OUTSTREAM object  
+Export the current media type \(such as a jpeg image\) that is used on record to an OUTSTREAM object.  
 
- . The OUTSTREAM object can be created from a BLOB field, a FILE or from a .NET Framework interoperability object. In the record, the media is referenced in a **Media** data type field.  
+The OUTSTREAM object can be created from a BLOB field, a FILE or from a .NET Framework interoperability object. In the record, the media is referenced in a **Media** data type field.  
 
 ## Syntax  
 
@@ -48,7 +48,7 @@ Export the current media type \(such as jpeg image\) that is used on record to a
 ## Example  
  This example uses the EXPORTSTREAM to iterate over the **Items** table and export any media that is used on records to an OutStream that is created on a file object.  
 
- This example assumes that **Item** table contains a **Media** data type field that is named **itemPicture**, and that you have imported some image files on records. For information about importing media, see [IMPORTFILE Function \(Media\)](IMPORTFILE-Function--Media-.md).  
+ This example assumes that the **Item** table contains a **Media** data type field that is named **itemPicture**, and that you have imported some image files on records. For information about importing media, see [IMPORTFILE Function \(Media\)](IMPORTFILE-Function--Media-.md).  
 
  The example code requires that you create the following variables:  
 
