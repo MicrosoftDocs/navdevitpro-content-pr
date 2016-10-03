@@ -22,18 +22,18 @@ This topic describes how you can upload media files, such as images, to the data
 
      This method enables you to store media objects \(images\) in system tables of the database, and then reference the images from application records. For applications that are developed for the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)], you can use this method to display images with records in list type pages when the page is viewed in the Brick layout.  
 
- Using the Media or MediaSet data type provides better performance than using a BLOB data type and is more flexible in its design. With a BLOB data type, each time the media is rendered in the client, it is retrieved from the SQL database server, which requires extra bandwidth and affects performance. With the Media and MediaSet data types, the client uses media ID to cache the media data, which in turn improves the response time for rendering the media in the user interface.  
+Using the Media or MediaSet data type provides better performance than using a BLOB data type and is more flexible in its design. With a BLOB data type, each time the media is rendered in the client, it is retrieved from the SQL database server, which requires extra bandwidth and affects performance. With the Media and MediaSet data types, the client uses media ID to cache the media data, which in turn improves the response time for rendering the media in the user interface.  
 
 ## Using Media and Media Sets on Records  
 Table fields support two data types for adding media to records: **Media** and **MediaSet**.  
 
 -   The **Media** data type associates a record with a single media file.  
 
-     For example, you can use this function to display an image with each record in a list type page.  
+     For example, you can use this data type to display an image with each record in a list type page.  
 
 -   The **MediaSet** data type associates a record with one or more media files, which lets you set up a collection or catalog of media for a record.  
 
-     For example, you can use this function to set up a slide show of images for a record in a card type page.
+     For example, you can use this data type to set up a slide show of images for a record in a card type page.
 
      If a **MediaSet** data type field is used in a report object, then only the first associated media file is displayed in the generated report.
 
