@@ -81,7 +81,7 @@ Adds a media type, such as a jpeg image, from a file to a **Media** data type fi
 |Item|Record|Item|  
 |FileName|Text||  
 
- This code iterates over records in the **Items** table. For each record, it looks in the *C:\\images* folder for a file whose name matches the No. field of the record. If there is a match the file is imported; otherwise, nothing happens.  
+ This code iterates over records in the **Items** table. For each record, it looks in the *C:\\images* folder for a file whose name matches the **No.** field of the record. If there is a match, the file is imported; otherwise, nothing happens.  
 
 ```  
 IF Item.FINDFIRST() THEN  

@@ -16,7 +16,6 @@ Adds a media file, such as a jpeg image, to the **MediaSet** data type field of 
 ## Syntax  
 
 ```  
-
 [GUID] := ]Record.Media.IMPORTFILE(FileName ,Description[, MimeType])  
 ```  
 
@@ -61,7 +60,7 @@ Adds a media file, such as a jpeg image, to the **MediaSet** data type field of 
 ## Example  
  This example uses the IMPORTFILE function to add images to records in table **27 Item** of the [!INCLUDE[demolong](includes/demolong_md.md)]. To support the example code that follows, you also have to complete these tasks:  
 
--   Add item image files for records of table 27 Item.to the and save them on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] instance  
+-   Add item image files for records of table **27 Item** to the and save them on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.
 
      Save the images as .jpg type, and give them names that correspond to item numbers \(as specified by the **No.** field\), such as, 1000-v1.jpg, 1000-v2.jpg, 1001-v1.jpg, 1001-v2.jpg and so on. For this example, save the files in the folder *C:\\images*.  
 
