@@ -11,12 +11,12 @@ ms.assetid: 59f38aea-d525-4df8-ba51-9375b2697761
 caps.latest.revision: 5
 ---
 # IMPORTFILE Function (MediaSet)
-Adds a media file, such as a jpeg image, to the **MediaSet** data type field of a record for displaying the media with the record in the client. The media is imported to the database and included in a MediaSet for the record. The MediaSet defines a collection of media.  
+Adds a media file, such as a jpeg image, to the **MediaSet** data type field of a record for displaying the media in the client. The media is imported to the database and included in a MediaSet for the record. The MediaSet defines a collection of media.  
 
 ## Syntax  
 
 ```  
-[GUID] := ]Record.Media.IMPORTFILE(FileName ,Description[, MimeType])  
+[GUID] := ]Record.MediaSet.IMPORTFILE(FileName ,Description[, MimeType])  
 ```  
 
 #### Parameters  
@@ -38,7 +38,7 @@ Adds a media file, such as a jpeg image, to the **MediaSet** data type field of 
  *Description*  
  Type: Text  
 
- Specifies text that can be used in the client describe the media.  
+ Specifies text that can be used in the client to describe the media.  
 
  *MimeType*  
  Type: Text  
