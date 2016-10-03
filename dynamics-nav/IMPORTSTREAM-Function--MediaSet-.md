@@ -16,7 +16,7 @@ Adds a media file, such as a jpeg image, from an InStream object to the MediaSet
 ## Syntax  
 
 ```  
-[GUID] := ]Record.Media.IMPORTSTREAM(InStream ,Description[, MimeType])  
+[GUID] := ]Record.MediaSet.IMPORTSTREAM(InStream ,Description[, MimeType])  
 ```  
 
 #### Parameters  
