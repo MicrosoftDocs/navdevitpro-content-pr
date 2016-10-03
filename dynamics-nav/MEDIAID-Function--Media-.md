@@ -42,7 +42,7 @@ Guid := Record.Media.MEDIAID
 ## Example  
  This example uses the MEDIAID function to get the GUID of a media that is used on item **No. 1000** in the table **27 Item**.  
 
- This code requires you to create the following variable.  
+ This code requires you to create the following variables.  
 
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
@@ -53,7 +53,7 @@ Guid := Record.Media.MEDIAID
 
 |Text constant|ENU value|  
 |-------------------|---------------|  
-|Text000|The GUID of media is: %1|  
+|Text000|The GUID of the media is: %1|  
 
 ```  
 item.GET('1000');  
