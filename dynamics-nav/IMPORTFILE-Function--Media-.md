@@ -72,7 +72,7 @@ Adds a media type, such as a jpeg image, from a file to a **Media** data type fi
 
 -   In the **Item List** page, add a column for the **Media** field.  
 
- With these tasks in place, you can add and run the following C/AL code to import the images. For this code example, create a codeunit and add the code to the OnRun trigger. But, you could also add the code other places instead, such as on an action in the **Item List** page.  
+ With these tasks in place, you can add and run the following C/AL code to import the images. For this code example, create a codeunit and add the code to the **OnRun** trigger. But, you could also add the code other places instead, such as on an action in the **Item List** page.  
 
  The code requires that you create the following variables:  
 
