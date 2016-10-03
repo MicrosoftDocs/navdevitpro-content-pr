@@ -13,46 +13,46 @@ manager: edupont
 ---
 # HASVALUE Function (Media)
 Checks whether a **Media** data type field in a record has been initialized with a media object and that the specified media object exists in the database.  
-  
+
 ## Syntax  
-  
+
 ```  
-HasValue := Record.Media.Media.HASVALUE  
+HasValue := Record.Media.HASVALUE  
 ```  
-  
+
 #### Parameters  
  *Record*  
  Type: Record  
-  
+
  Specifies the record that includes the media set.  
-  
+
  *Media*  
  Type: Media  
-  
- Specifies the **MediaSet** data type field of the record that includes the media.  
-  
+
+ Specifies the **Media** data type field of the record that includes the media.  
+
 ## Property Value/Return Value  
  Type: Boolean  
-  
+
  **true** if the **Media** data type field has media data; otherwise, **false**.  
-  
+
 ## Exceptions  
-  
+
 ## Remarks  
-  
+
 ## Example  
  This example uses the HASVALUE function to iterate over the **Item** table to determine whether media objects are available on records.  
-  
+
  This example assumes that **Item** table contains a **Media** data type field that is named **itemPicture**, and that you have imported some image files on records. For information about importing media, see [IMPORTFILE Function \(Media\)](IMPORTFILE-Function--Media-.md).  
-  
+
  The example code requires that you create the following variable:  
-  
+
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
 |Item|Record|Item|  
-  
+
  The following code returns a message if a record does not include a media object.  
-  
+
 ```  
 IF Item.FINDFIRST() THEN  
 BEGIN  
@@ -62,7 +62,7 @@ BEGIN
   UNTIL Item.NEXT < 1;  
 END;  
 ```  
-  
+
 ## See Also  
  [Working With Media on Records](Working-With-Media-on-Records.md)   
  [IMPORTSTREAM Function \(Media\)](IMPORTSTREAM-Function--Media-.md)   

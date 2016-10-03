@@ -12,7 +12,7 @@ caps.latest.revision: 8
 manager: edupont
 ---
 # IMPORTSTREAM Function (Media)
-Adds a media type \(MIME\), such as jpeg image, from an InStream object to a **Media** data type field of a record for displaying the media with the record in the client. The media file is imported to the application database and a reference to the media is included in the **Media** data type field.  
+Adds a media type \(MIME\), such as jpeg image, from an InStream object to a **Media** data type field of a record for displaying the media in the client. The media file is imported to the application database and a reference to the media is included in the **Media** data type field.  
 
 ## Syntax  
 
@@ -46,7 +46,7 @@ Adds a media type \(MIME\), such as jpeg image, from an InStream object to a **M
 ## Property Value/Return Value  
  Type: GUID  
 
- The unique ID assigned to this media file instance in the database table field. This ID can be retrieved by using the [MEDIAID Function \(Media\)](MEDIAID-Function--Media-.md).  
+ Specifies the unique ID that is assigned to this media file instance in the database table field. This ID can be retrieved by using the [MEDIAID Function \(Media\)](MEDIAID-Function--Media-.md).  
 
 ## Remarks  
  You can use this function to upload a media file that is associated with a record to the database. For example, you can upload an image of all items in table **27 Item**. When a media is imported, the object is stored in the system table **2000000184 Tenant Media** of the application database.  
@@ -56,9 +56,9 @@ Adds a media type \(MIME\), such as jpeg image, from an InStream object to a **M
 ## Example  
  This example uses the IMPORTSTREAM function to add images to records in table **27 Item** of the [!INCLUDE[demolong](includes/demolong_md.md)]. After the images are imported, they will be displayed with items on page **31 Item List** when the page is opened in the [!INCLUDE[nav_web](includes/nav_web_md.md)] and viewed in a brick layout. The example uses C/AL code to iterate over records in the **Items** table and import an image file for records from a local folder. To support the example code that follows, you also have to complete these tasks:  
 
--   Create the item image files and save them on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] instance  
+-   Create the item image files and save them on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
 
-     Save the images as .jpg type, and give them names that correspond to item numbers \(as specified by the **No.** field\), such as, 1000.jpg, 1001.jpg, 1100.jpg, and so on. For this example, save the files in the folder *C:\\images*.  
+     Save the images as .jpg type, and give them names that correspond to item numbers \(as specified by the **No.** field\), such as 1000.jpg, 1001.jpg, 1100.jpg, and so on. For this example, save the files in the folder *C:\\images*.  
 
 -   In the **Item** table, add a new field that has the data type **Media**.  
 
