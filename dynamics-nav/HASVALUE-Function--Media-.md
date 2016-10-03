@@ -24,7 +24,7 @@ HasValue := Record.Media.HASVALUE
  *Record*  
  Type: Record  
 
- Specifies the record that includes the media set.  
+ Specifies the record that includes the media.  
 
  *Media*  
  Type: Media  

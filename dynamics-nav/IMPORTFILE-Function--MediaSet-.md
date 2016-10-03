@@ -11,12 +11,12 @@ ms.assetid: 59f38aea-d525-4df8-ba51-9375b2697761
 caps.latest.revision: 5
 ---
 # IMPORTFILE Function (MediaSet)
-Adds a media file, such as a jpeg image, to the **MediaSet** data type field of a record for displaying the media with the record in the client. The media is imported to the database and included in a MediaSet for the record. The MediaSet defines a collection of media.  
+Adds a media file, such as a jpeg image, to the **MediaSet** data type field of a record for displaying the media in the client. The media is imported to the database and included in a MediaSet for the record. The MediaSet defines a collection of media.  
 
 ## Syntax  
 
 ```  
-[GUID] := ]Record.Media.IMPORTFILE(FileName ,Description[, MimeType])  
+[GUID] := ]Record.MediaSet.IMPORTFILE(FileName ,Description[, MimeType])  
 ```  
 
 #### Parameters  
@@ -38,7 +38,7 @@ Adds a media file, such as a jpeg image, to the **MediaSet** data type field of 
  *Description*  
  Type: Text  
 
- Specifies text that can be used in the client describe the media.  
+ Specifies text that can be used in the client to describe the media.  
 
  *MimeType*  
  Type: Text  
@@ -68,7 +68,7 @@ Adds a media file, such as a jpeg image, to the **MediaSet** data type field of 
 
 -   In the **Item List** page, add a column for the **MediaSet** field.  
 
- With these tasks in place, you can add and run the following C/AL code to import the images. For this code example, create a codeunit and add the code to the OnRun trigger. But, you could also add the code other places instead, such as on an action in the **Item List** page.  
+ With these tasks in place, you can add and run the following C/AL code to import the images. For this code example, create a codeunit and add the code to the **OnRun** trigger. But, you could also add the code other places instead, such as on an action in the **Item List** page.  
 
  The code requires that you create the following variables:  
 
@@ -77,7 +77,7 @@ Adds a media file, such as a jpeg image, to the **MediaSet** data type field of 
 |item|Record|Item|  
 |fileName|Text||  
 
- This code iterates over records in the **Items** table. For each record, it looks in the *C:\\images* folder for a file whose name matches the **No.** field of the record. If there is a match the file is imported.  
+ This code iterates over records in the **Items** table. For each record, it looks in the *C:\\images* folder for a file whose name matches the **No.** field of the record. If there is a match, the file is imported.  
 
 ```  
 IF item.FINDFIRST() THEN  
