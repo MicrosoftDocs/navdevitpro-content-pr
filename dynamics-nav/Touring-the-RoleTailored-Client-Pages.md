@@ -14,10 +14,7 @@ manager: edupont
 # Touring the RoleTailored Client Pages
 In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display and organize data in the [!INCLUDE[rtc](includes/rtc_md.md)]. You can create pages to offer users a visual experience that is closely aligned to Microsoft Office and Windows. There are different page types that you use for different situations. The page type that you choose depends on the application task that you want to support, the content that you want to display, and how you want to display it. For example, the Role Center page is the main page of the [!INCLUDE[rtc](includes/rtc_md.md)] and it displays when the [!INCLUDE[rtc](includes/rtc_md.md)] opens. The Role Center page is similar to a home page that helps users focus on their most important daily activities, by giving an overview of the information relevant to their tasks on one page. Other types of pages, such as List pages, display lists of customers or sales orders, while others such as Document task pages, focus on user tasks.  
   
-> [!NOTE]  
->  The term [!INCLUDE[rtc](includes/rtc_md.md)], which in [!INCLUDE[nav_2009_long](includes/nav_2009_long_md.md)] referred only to the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], now the [!INCLUDE[rtc](includes/rtc_md.md)] includes either the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
-  
- You can choose from the following page types:  
+You can choose from the following page types:  
   
 -   [Role Center Page Type](#RoleCenterPage)  
   
