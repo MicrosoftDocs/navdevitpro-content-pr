@@ -26,7 +26,7 @@ Number := Record.MediaSet.COUNT
 
  Specifies the record.  
 
- MediaSet  
+ *MediaSet*  
  Type: MediaSet  
 
  Specifies the MediaSet data type field for the record.  
