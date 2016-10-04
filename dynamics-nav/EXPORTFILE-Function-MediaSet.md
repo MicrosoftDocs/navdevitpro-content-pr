@@ -29,7 +29,7 @@ Exports the media objects in the current media set of a record to individual fil
  *MediaSet*  
  Type: MediaSet  
 
- Specifies the **MediaSet** data type field of the record that includes the media.  
+ Specifies the **MediaSet** data type field of the record that includes the media objects.  
 
  *FileNamePrefix*  
  Type: Text  

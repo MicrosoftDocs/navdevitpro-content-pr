@@ -14,7 +14,7 @@ manager: edupont
 # Media Data Type
 A complex type that encapsulates media files, such as image .jpg and .png files, in application database tables. The Media data type can be used as a table field data type, but cannot be used as a variable or parameter.  
 
- The Media data type enables you to import a media file to the database and reference the file from records, making it possible to display the media file in the client user interface.  
+ The Media data type enables you to import a media file to the application database and reference the file from records, making it possible to display the media file in the client user interface. You can also export media from the database to files and streams. 
 
 ## See Also  
  [Working With Media on Records](Working-With-Media-on-Records.md)  

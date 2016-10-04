@@ -36,10 +36,6 @@ HasValue := Record.Media.HASVALUE
 
  **true** if the **Media** data type field has media data; otherwise, **false**.  
 
-## Exceptions  
-
-## Remarks  
-
 ## Example  
  This example uses the HASVALUE function to iterate over the **Item** table to determine whether media objects are available on records.  
 

@@ -61,6 +61,6 @@ item.GET('1000');
 ```  
 
 ## See Also  
- [IMPORTFILE Function \(MediaSet\)](IMPORTFILE-Function--MediaSet-.md)   
+[Working With Media on Records](Working-With-Media-on-Records.md)   [IMPORTFILE Function \(MediaSet\)](IMPORTFILE-Function--MediaSet-.md)   
  [IMPORTSTREAM Function \(MediaSet\)](IMPORTSTREAM-Function--MediaSet-.md)   
  [MediaSet Data Type](MediaSet-Data-Type.md)
