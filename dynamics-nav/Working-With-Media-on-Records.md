@@ -73,11 +73,12 @@ Table fields support two data types for adding media to records: **Media** and *
 |  |[MEDIAID Function \(Media\)](MEDIAID-Function--Media-.md)|Gets the unique identifier \(GUID\) that is assigned to the media object in the application database.|  
 |  |[EXPORTFILE Function \(Media\)](EXPORTFILE-Function--Media-.md)|Exports a media object that is set up on a record to a file.|  
 |  |[EXPORTSTREAM Function \(Media\)](EXPORTSTREAM-Function--Media-.md)|Exports a media object that is set up on a record to an OutStream object.|  
-|MediaSet|[IMPORTFILE Function \(MediaSet\)](IMPORTFILE-Function--MediaSet-.md)|Sets up an image on a record from a file and assigns the image to a media set. The media file is imported to the application database.|  
+| MediaSet  |[EXPORTFILE Function \(MediaSet\)](EXPORTFILE-Function.md)|Exports the media objects that included in a media set to individual files.|  
+||[IMPORTFILE Function \(MediaSet\)](IMPORTFILE-Function--MediaSet-.md)|Sets up an image on a record from a file and assigns the image to a media set. The media file is imported to the application database.|  
 |  |[IMPORTSTREAM Function \(MediaSet\)](IMPORTSTREAM-Function--MediaSet-.md)|Sets up an image on a record from an InStream object and assigns it to a media set. The media file is imported to the application database.|  
 |  |[MEDIAID Function \(MediaSet\)](MEDIAID-Function--MediaSet-.md)|Gets the unique identifier \(GUID\) that is assigned to the media set on a record.|  
 |  |[COUNT Function \(MediaSet\)](COUNT-Function--MediaSet-.md)|Gets the total number of media objects that are included in the media set on a record.|  
-|  |[EXPORTFILE Function](EXPORTFILE-Function.md)|Exports the media objects that included in a media set to individual files.|  
+
 
 ## See Also  
  [Media Data Type](Media-Data-Type.md)   

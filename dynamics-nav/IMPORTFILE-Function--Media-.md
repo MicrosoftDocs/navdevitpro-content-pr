@@ -47,17 +47,17 @@ Adds a media type, such as a jpeg image, from a file to a **Media** data type fi
 
  Specifies the content type of the media file. The *MimeType* value must be a two-part string that consists of a type and subtype, such as *image/jpeg*, *image/gif*, or *video/mpeg*. For more information, see [Supported Media Types](Working-With-Media-on-Records.md#SupportedMediaTypes).  
 
- If this parameter is not specified, the IMPORTFILE function will deduct the MIME type from the file extension. For example the MIME type for a .jpg file is image/jpeg.  
+ If this parameter is not specified, the IMPORTFILE function will deduct the MIME type from the file extension. For example, the MIME type for a .jpg file is image/jpeg.  
 
 ## Property Value/Return Value  
  Type: GUID  
 
- The unique ID assigned to this media instance in the database. You can also get the ID by using the [MEDIAID Function \(Media\)](MEDIAID-Function--Media-.md).  
+ The unique ID that is assigned to this media instance in the database. You can also get the ID by using the [MEDIAID Function \(Media\)](MEDIAID-Function--Media-.md).  
 
 ## Remarks  
- You use this function to upload a media file, which you want to associate with a record, to the database. For example, you can upload an image of all items in table **27 Item**. When a media file is imported, it is assigned a unique identifier \(GUID\) and stored in the system table **2000000183 Tenant Media** of the application database. The GUID is then included in the **Media** data type field as a reference to the media file.  
+ You use this function to upload a media file, which you want to associate with a record, to the database. For example, you can upload an image for an item in table **27 Item**. When a media file is imported, it is assigned a unique identifier \(GUID\) and stored in the system table **2000000183 Tenant Media** of the application database. The GUID is then included in the **Media** data type field as a reference to the media file.  
 
- If you import a media file into a record that already has a media object, and the modify operation is performed, the previous media object will be permanently deleted, unless there are other references to the media object in the same table field.  
+ If you import a media file into a record that already has a media object, and a modify operation is performed, the previous media object will be permanently deleted, unless there are other references to the media object in the same table field.  
 
 ## Example  
  This example uses the IMPORTFILE function to add images to records in table **27 Item** of the [!INCLUDE[demolong](includes/demolong_md.md)]. After the images are imported, they will be displayed with items on page **31 Item List**, when the page is opened in the [!INCLUDE[nav_web](includes/nav_web_md.md)] and viewed in a brick layout. The example uses C/AL code to iterate over records in the **Items** table and import an image file for records from a local folder. To support the example code that follows, you have to complete these tasks:  
@@ -72,7 +72,7 @@ Adds a media type, such as a jpeg image, from a file to a **Media** data type fi
 
 -   In the **Item List** page, add a column for the **Media** field.  
 
- With these tasks in place, you can add and run the following C/AL code to import the images. For this code example, create a codeunit and add the code to the OnRun trigger. But, you could also add the code other places instead, such as on an action in the **Item List** page.  
+ With these tasks in place, you can add and run the following C/AL code to import the images. For this code example, create a codeunit and add the code to the **OnRun** trigger. But, you could also add the code other places instead, such as on an action in the **Item List** page.  
 
  The code requires that you create the following variables:  
 
