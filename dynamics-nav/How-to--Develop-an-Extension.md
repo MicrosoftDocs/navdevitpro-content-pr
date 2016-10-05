@@ -16,7 +16,7 @@ You can build extension packages that add functionality to a [!INCLUDE[navnow](i
 > [!TIP]  
 >  We recommend that you create a folder structure that can be leveraged by the cmdlets that you use when you build the extension package. That structure should contain folders for the ORIGINAL object files, MODIFIED object files, and DELTA files. These names match those used as parameters in the application merge utilities. For more information, see [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md). In addition, you may want to create additional folders for any .NET add-ins, language files, or data files that you are going to include in the package  
 
-### To create an extension  
+## To create an extension  
 
 1.  Establish the BASE as TXT files.  
 
@@ -82,6 +82,9 @@ You can build extension packages that add functionality to a [!INCLUDE[navnow](i
 
      For more information, see [How to: Create an Extension Package](How-to--Create-an-Extension-Package.md).  
 
+### Debugging extensions
+Debugging your extension is no different than debugging any other customization that you do. But if you have to debug your way through a deployed extension, then you must set your breakpoint and debug from within the runtime environment for the tenant.  
+
 ## Extending Other Extensions  
  You can extend the functionality that another extension has made available. When you do that, you create a dependency between the original extension and the one extending it. This dependency must be verified and compiled when the new extension is published.  
 
@@ -90,7 +93,7 @@ You can build extension packages that add functionality to a [!INCLUDE[navnow](i
 > [!NOTE]  
 >  If you do not identify a dependency when you build your extension package, publishing your extension results in errors that are caused by base objects missing, and the publish operation will fail.  
 
-#### To create a dependent extension  
+### To create a dependent extension  
 
 1.  Import and compile the source code for the extension that you want to extend.  
 
@@ -101,6 +104,7 @@ You can build extension packages that add functionality to a [!INCLUDE[navnow](i
 4.  Use the [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Export-NAVApplicationObjectLanguage](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Export-NAVApplicationObjectLanguage) and the [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Compare-NAVApplicationObject](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Compare-NAVApplicationObject) cmdlets to export and create the deltas for your app. Since you are comparing against a base that has the functionality that you are extending, you should only see deltas for your changes.  
 
 5.  Create the package for your extension using the `New-NAVAppManifest`, `Get-NAVAppInfo`, and `New-NAVAppPackage` cmdlets making sure to use the *–Dependencies* parameter on the `New-NAVAppManifest` to identify the NAV extensions that you dependent on.  
+
 
 ## See Also  
 [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)  

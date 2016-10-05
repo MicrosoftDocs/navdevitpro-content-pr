@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Dynamics NAV Extention Packages"
+title: "Microsoft Dynamics NAV Extension Packages"
 author: edupont04
 ms.custom: na
 ms.date: 09/16/2016
@@ -11,7 +11,7 @@ ms-prod: "dynamics-nav-2017"
 ms.assetid: f7a66201-dc01-4221-8aa4-6ba1e7a4ef6a
 caps.latest.revision: 2
 ---
-# Microsoft Dynamics NAV Extention Packages
+# Microsoft Dynamics NAV Extension Packages
 You deploy your [!INCLUDE[navnow](includes/navnow_md.md)] extensions as packages.  
 
  A package file can contain a number of different artifacts that are needed for the extension, such as DELTA files and full application object .TXT files. The package also contains a manifest with metadata such as name, version, publisher and, most importantly, a globally unique identifier, the extension ID. [!INCLUDE[navnow](includes/navnow_md.md)] uses the extension ID to uniquely identify the extension. This ID must be maintained consistently across versions of an extension in order to upgrade properly. The [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets that you use to create the manifest generate an ID for you, but you can also specify an ID.  

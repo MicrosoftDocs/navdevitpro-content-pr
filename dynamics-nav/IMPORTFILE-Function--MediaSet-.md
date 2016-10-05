@@ -11,12 +11,12 @@ ms.assetid: 59f38aea-d525-4df8-ba51-9375b2697761
 caps.latest.revision: 5
 ---
 # IMPORTFILE Function (MediaSet)
-Adds a media file, such as a jpeg image, to the **MediaSet** data type field of a record for displaying the media in the client. The media is imported to the database and included in a MediaSet for the record. The MediaSet defines a collection of media.  
+Adds a media, such as a JPEG image, to the **MediaSet** data type field of a record for displaying the media in the client. The media is imported to the database and included in a MediaSet for the record.  
 
 ## Syntax  
 
 ```  
-[GUID] := ]Record.MediaSet.IMPORTFILE(FileName ,Description[, MimeType])  
+[Guid := ]Record.MediaSetField.IMPORTFILE(FileName, Description[, MimeType])  
 ```  
 
 #### Parameters  
@@ -25,7 +25,7 @@ Adds a media file, such as a jpeg image, to the **MediaSet** data type field of 
 
  Specifies the record that you want to add the media to.  
 
- MediaSet  
+*MediaSetField*  
  Type: MediaSet  
 
  Specifies the field that you want to add the media to. The field has the **MediaSet** data type.  
@@ -43,41 +43,41 @@ Adds a media file, such as a jpeg image, to the **MediaSet** data type field of 
  *MimeType*  
  Type: Text  
 
- Specifies the media content type. MIME type is used by browsers, and is an Internet standard to describe the contents of a file. The *MimeType* value must be a two-part string that consists of a type and subtype, such as *image/jpeg*, *image/gif*, or *video/mpeg*.  
-
- If this parameter is not specified, the IMPORTFILE function will deduct the MIME type from the file extension. For example the MIME type for a .jpg file is image/jpeg.  
+[!INCLUDE[mimetype](includes/MimeType.md)]
 
 ## Property Value/Return Value  
  Type: GUID  
 
- The unique ID assigned to the MediaSet of the record. This ID can be retrieved by using the [MEDIAID Function \(MediaSet\)](MEDIAID-Function--MediaSet-.md).  
+Specifies the unique ID that is assigned to the MediaSet of the record. You can also get this ID by using the [MEDIAID Function \(MediaSet\)](MEDIAID-Function--MediaSet-.md).  
 
 ## Remarks  
- You can use this function to upload a media file as part of a collection of media files that you want to associate with a record. For example, you can upload images of items in table **27 Item**. The function is similar to the [IMPORTFILE Function \(Media\)](IMPORTFILE-Function--Media-.md) except that this function enables you to import multiple media files for the same record.  
+ You use this function to upload a media file as part of a collection of media objects that you want to associate with a record. The function is similar to the [IMPORTFILE Function \(Media\)](IMPORTFILE-Function--Media-.md) except that this function enables you to import multiple media files for the same record. For example, you can add multiple images for an item in table **27 Item**.
 
- When a media file is imported, it is assigned a unique identifier \(GUID\) and stored in the system table **2000000181 Tenant Media** of the application database. In addition, the media file is assigned to a MediaSet GUID. This GUID is included in the MediaSet data type field as a reference to the media files. The MediaSet GUID is created with the first file that you import. All additional media files for the record are then associated with the same MediaSet GUID. This information is stored in table **2000000183 Tenant Media Set**.  
+ When a media file is imported, a media object is created and stored in the system table **2000000181 Tenant Media** of the application database. The media object is assigned a unique identifier \(GUID\).
+
+ In addition, the media object is assigned to a MediaSet which also has a specific GUID. This GUID is included in the MediaSet data type field as a reference to the media objects. The MediaSet and its GUID are created with the first media that is imported, and the information is stored in table **2000000183 Tenant Media Set**. All additional media objects for the record are then associated with the same MediaSet GUID.  
 
 ## Example  
- This example uses the IMPORTFILE function to add images to records in table **27 Item** of the [!INCLUDE[demolong](includes/demolong_md.md)]. To support the example code that follows, you also have to complete these tasks:  
+This example uses the IMPORTFILE function to add images to records in table **27 Item** of the [!INCLUDE[demolong](includes/demolong_md.md)].
 
--   Add item image files for records of table **27 Item** to the and save them on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.
+In support of the example code, you also have to complete these tasks:  
 
-     Save the images as .jpg type, and give them names that correspond to item numbers \(as specified by the **No.** field\), such as, 1000-v1.jpg, 1000-v2.jpg, 1001-v1.jpg, 1001-v2.jpg and so on. For this example, save the files in the folder *C:\\images*.  
+-   Create sample image files that you want to use on a items in table **27 Item**. Save the files on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.
 
--   In the **Item** table, add a new field that has the data type **MediaSet**.  
+     Save the images as JPEG type, and give them names that correspond to actual item numbers \(as specified by the **No.** field in the **Item** table\). For example, you can create a 1000-v1.jpg and  1000-v2.jpg file for item 1000, a 1001-v1.jpg and 1001-v2.jpg file for item 1001, and so on. For the example, save the files in the  *C:\images* folder.  
 
--   In the **Item List** page, add a column for the **MediaSet** field.  
+-   Verify that table **27 Item** has a field that is called **Picture** and has the data type **MediaSet**.
 
- With these tasks in place, you can add and run the following C/AL code to import the images. For this code example, create a codeunit and add the code to the **OnRun** trigger. But, you could also add the code other places instead, such as on an action in the **Item List** page.  
+    This is field on which you will add the images. If the field is not present, then add it.
 
- The code requires that you create the following variables:  
+With these tasks in place, you can add the following C/AL code for importing the images. For this code example, create a codeunit, and add the code to the **OnRun** trigger. However, you could also add the code other places instead, such as on an action in the **Item List** page.  
 
-|Variable name|DataType|Subtype|  
-|-------------------|--------------|-------------|  
+The code requires that you create the following variables:  
+
+|  Variable name  |  DataType  |  Subtype  |  
+|-----------------|------------|-----------|  
 |item|Record|Item|  
 |fileName|Text||  
-
- This code iterates over records in the **Items** table. For each record, it looks in the *C:\\images* folder for a file whose name matches the **No.** field of the record. If there is a match, the file is imported.  
 
 ```  
 IF item.FINDFIRST() THEN  
@@ -85,14 +85,14 @@ BEGIN
   REPEAT  
     fileName := 'C:\images\' + FORMAT(item."No.") + '.jpg';  
     IF FILE.EXISTS(fileName) THEN BEGIN  
-      item.MediaSet.IMPORTFILE(fileName, 'Demo image for item ' + FORMAT(item."No."));  
+      item.Picture.IMPORTFILE(fileName, 'Demo image for item ' + FORMAT(item."No."));  
       item.MODIFY;  
     END;  
   UNTIL item.NEXT < 1;  
 END;  
 
 ```  
-
+The code iterates over records in the **Items** table. For each record, it looks in the *C:\images* folder for a file whose name matches the **No.** field of the record. If there is a match, the file is imported.  
 ## See Also  
  [Working With Media on Records](Working-With-Media-on-Records.md)  
  [IMPORTSTREAM Function \(MediaSet\)](IMPORTSTREAM-Function--MediaSet-.md)   
