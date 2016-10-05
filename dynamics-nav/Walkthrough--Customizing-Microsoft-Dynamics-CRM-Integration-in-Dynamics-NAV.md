@@ -130,63 +130,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
 
  When changes occur in the table **5071 Campaign**, an integration record will be created or updated with a timestamp. You can now use the table to create a page for coupling [!INCLUDE[navnow](includes/navnow_md.md)] records with [!INCLUDE[crm](includes/crm_md.md)] records.  
 
-<!-- Commented out by CRM team
-#### To create coupling page for campaigns  
-
-1.  In [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], open the page **5241 CRM Coupling Customer** in Page Designer.  
-
-     Because the coupling pages contain a lot of logic in C/AL code, you will use a copy of this page as a starting point for creating the coupling page for campaigns.  
-
-2.  Save and compile the page as a new page that has the ID **50002** and the name **CRM Coupling Campaign**.  
-
-3.  Change the page's source table to table **5071 Campaign**.  
-
-4.  Open the [\($ S\_10204 C-AL Globals $\)](-$-S_10204-C-AL-Globals-$-.md) window and change all variables, text constants, and functions that reference *CRM Account* to reference *CRM Campaign* instead. For record type variables, this means changing the name and setting the subtype to point to the integration table **50001 CRM Campaign**. The following table includes the required changes.  
-
-    ||Current setting|New setting|  
-    |-|---------------------|-----------------|  
-    |Variable|Name: CRMAccount<br /><br /> Subtype: CRM Account|Name: CRMCampaign<br /><br /> Subtype: CRM Campaign|  
-    ||Name: OriginalCRMAccount<br /><br /> Subtype: CRM Account|Name: OriginalCRMCampaign<br /><br /> Subtype: CRM Campaign|  
-    ||Name: OriginalCRMAccount<br /><br /> Subtype: CRM Account|Name: OriginalCRMCampaign<br /><br /> Subtype: CRM Campaign|  
-    ||Name: SavedCRMAccount<br /><br /> Subtype: CRM Account|Name: SavedCRMCampaign<br /><br /> Subtype: CRM Campaign|  
-    |Text Constants|Name: NoSuchCRMRecordErr<br /><br /> ConstValue: Account with name %1 does not exist in [!INCLUDE[crm](includes/crm_md.md)].|Name: NoSuchCRMRecordErr<br /><br /> ConstValue: Campaign with name %1 does not exist in [!INCLUDE[crm](includes/crm_md.md)].|  
-    |Functions|Name: HandleNewCRMAccount|Name: HandleNewCRMCampaign|  
-
-5.  In Page Designer, follow these steps:  
-
-    1.  In the **Dynamics NAV** group control, change the field that has the SourceExpr **Name** to have the SourceExpr **Description** and change its caption from **Customer** to **Campaign**.  
-
-    2.  In the **Dynamics CRM** group, change the field that has the SourceExpr **CRMAccount.Name** to have the SourceExpr **CRMCampaign.Name**, and change its caption from **Account** to **Campaign**.  
-
-    3.  Rename the **Dynamics NAV Customer** group to **Dynamics NAV Campaign** and replace the fields in the group with fields from the Campaign table \(ID 5071\). These fields will help users compare the [!INCLUDE[navnow](includes/navnow_md.md)] record and the [!INCLUDE[crm](includes/crm_md.md)] record.  
-
-    4.  Rename the **Dynamics CRM Account** group to **Dynamics CRM Campaign** and replace the fields in the group with fields from the **CRMCampaign** variable that match fields in the **Dynamics NAV Campaign** group.  
-
-6.  Open the C/AL code, and follow these steps to change all references to [!INCLUDE[crm](includes/crm_md.md)] accounts with references to [!INCLUDE[crm](includes/crm_md.md)] campaigns:  
-
-    1.  Change the local variables on the following triggers. For record type variables, you change the name and set the subtype to point to the integration table **50001 CRM Campaign**.  
-
-        |Trigger|Current variable|New variable|  
-        |-------------|----------------------|------------------|  
-        |CRM Campaign Name - OnValidate|Name: ManualCRMAccount<br /><br /> Subtype: CRM Account|Name: ManualCRMCampaign<br /><br /> Subtype: CRM Campaign|  
-        ||Name: PreviouslySelectedCRMAccount<br /><br /> Subtype: CRM Account|Name: PreviouslySelectedCRMCampaign<br /><br /> Subtype: CRM Campaign|  
-        ||Name: CRMAccountFound|Name: CRMCampaignFound|  
-        |CRM Campaign Name - OnLookup|Name: PreviouslySelectedCRMAccount<br /><br /> Subtype: CRM Account|Name: PreviouslySelectedCRMCampaign<br /><br /> Subtype: CRM Campaign|  
-        ||Name: CRMAccountList<br /><br /> Subtype: CRM Account|Name: CRMCampaignList<br /><br /> Subtype: CRM Campaign List \(ID 50001\)|  
-
-    2.  Remove calls to **SetCurrentlyCoupledCRMAccount**.  
-
-         This function call is originally used for color-coding the [!INCLUDE[crm](includes/crm_md.md)] Account list, but you will not implement color coding in this example.  
-
-    3.  Replace all references to *CRMAccount* with references to *CRMCampaign*.  
-
-    4.  Replace all references to *AccountId* with *CampaignId*.  
-
-7.  Save and compile the page.  
-
- The coupling page can now be used to create a link between a [!INCLUDE[navnow](includes/navnow_md.md)] campaign record and a [!INCLUDE[crm](includes/crm_md.md)] campaign record. To give users access to this page, the next step is to add actions that open the coupling page from the [!INCLUDE[navnow](includes/navnow_md.md)] campaign card page.  
--->
-
+<!--section deleted by CRM team -->  
 #### To create actions on the campaign page for managing the coupling  
 
 1.  Open page **5086 Campaign Card** in Page Designer, and then open Action Designer.  
@@ -200,7 +144,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
 4.  In the **Coupling** action group, add the following actions:  
 
     |Name|Caption|  
-    |----------|-------------|  
+    |----|-------|  
     |ManageCRMCoupling|Manage Coupling|  
     |DeleteCRMCoupling|Delete Coupling|  
 
@@ -221,34 +165,8 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
 
 6.  Save and compile the page.  
 
- The coupling page is now available from the Campaign page. <!-- Commented out by the CRM team The next step is to modify codeunit **5331 CRM Coupling Management** to include a function that performs the coupling operation.  
-
-#### To modify codeunit 5331 CRM Coupling Management  
-
-1.  Open codeunit **5331 CRM Coupling Management** in Codeunit Designer.  
-
-2.  Create a new local function that is called **CreateOrUpdateCouplingCampaign**. Design the function based on the existing coupling function **CreateOrUpdateCouplingCustomer**, replicating the parameters, variables, and return values, except with the following differences:  
-
-    1.  Change the page variable **CRMCouplingCustomer** to *CRMCouplingCustomer* and set the Subtype to the new campaign coupling page **50002 CRM Coupling Campaign**.  
-
-    2.  Change the record variable **Customer** to *Campaign* and set the Subtype to the table **5071 Campaign**.  
-
-    3.  Copy the code from the `CreateOrUpdateCouplingCustomer`, and replace all references to `Customer` with `Campaign`.  
-
-3.  In the `CreateOrUpdateCoupling` function, add a `Case` for the **Campaign** table as follows:  
-
-    ```  
-    CASE RecordID.TABLENO OF  
-      DATABASE::Campaign:  
-        EXIT(CreateOrUpdateCouplingCampaign(RecordID,CRMID,CreateNew,Synchronize,Direction));  
-    ...  
-
-    ```  
-
-4.  Save and compile the codeunit.  
-
- The coupling between [!INCLUDE[navnow](includes/navnow_md.md)] Campaigns and [!INCLUDE[crm](includes/crm_md.md)] Campaigns is complete, and users can configure the coupling by using the new actions and coupling page.  
--->
+ The coupling page is now available from the Campaign page.  
+<!--section deleted by CRM team -->  
 
  To enable users to open the [!INCLUDE[crm](includes/crm_md.md)] Campaign record from the [!INCLUDE[navnow](includes/navnow_md.md)] Campaign, the next step is to add an additional action to the Campaign Card page.  
 
