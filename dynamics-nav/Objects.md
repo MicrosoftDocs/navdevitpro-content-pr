@@ -31,6 +31,7 @@ This section contains topics that describe all of the objects that make up the [
 |To|See|  
 |--------|---------|  
 |Learn about codeunits, modifying codeunits, adding variables, and functions.|[Codeunits](Codeunits.md)|  
+|Read more about C/AL, the programming language that you use in [!INCLUDE[navnow](includes/navnow_md.md)].|[Programming in C/AL](Programming-in-C-AL.md)|  
 |Learn how to extend [!INCLUDE[navnow](includes/navnow_md.md)].|[Extending Microsoft Dynamics NAV](Extending-Microsoft-Dynamics-NAV.md)|  
   
 ## Getting Data In and Out of the Database  
