@@ -11,7 +11,7 @@ ms.author:"jswymer"
 ---
 
 # PRODUCTNAME Functions
-The PRODUCTNAME functions get the name of the application in three variations: full, marketing, and short.
+An application can be assigned a name in three variations: full, marketing, and short. The PRODUCTNAME functions in C/AL enable you to retrieve these name variations.
 
 ```
 String := PRODUCTNAME.FULL
@@ -36,4 +36,4 @@ Type: Code or text
 The product name.
 
 ## Remarks
-Each application is assigned a full name, marketing name, and short name. These functions are useful when you include the application name in UI text. Instead of using static text for the name, you use one of the PRODUCTNAME functions. This lets you use the same text string across different applications, and makes it easier if the application is ever renamed.
+These functions are useful when you have to include the application name in UI text. Instead of using static text for the name, you use one of the PRODUCTNAME functions. This lets you reuse the same text string across different applications, and makes it easier if the application is ever renamed.

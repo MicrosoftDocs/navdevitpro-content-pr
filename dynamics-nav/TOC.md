@@ -25,7 +25,7 @@
 ## [Installation and Configuration Walkthroughs](Installation-and-Configuration-Walkthroughs.md)
 # [Development](Development.md)
 ## [Application Design Overview](Application-Design-Overview.md)
-## [Programming in C-AL](Programming-in-C-AL.md)
+## [Programming in C/AL](Programming-in-C-AL.md)
 ## [Objects](Objects.md)
 ## [Web Services](Web-Services.md)
 ## [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)
