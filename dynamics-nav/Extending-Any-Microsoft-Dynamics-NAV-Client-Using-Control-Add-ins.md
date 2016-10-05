@@ -19,6 +19,10 @@ With [!INCLUDE[navnow](includes/navnow_md.md)] you can write control add-ins tha
   
 > [!NOTE]  
 >  Javascript-based client add-ins in repeater controls, such as lists, listparts, list subpages, and worksheets, are not supported on any of the [!INCLUDE[navnow](includes/navnow_md.md)] clients.  
+
+> [!NOTE]  
+>  To support control add-ins running in IE7 mode, you can enable a key in the ClientUserSettings.config file. For more information, see the **Settings in the ClientUserSettings.config file** section in [Configuring the Windows Client](Configuring-the-Windows-Client.md).
+
   
 ## Getting an Overview of Client Control Add-ins  
   

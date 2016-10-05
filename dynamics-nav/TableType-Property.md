@@ -32,7 +32,7 @@ Specifies the table type.
  Tables that are marked as **CRM** or **ExternalSQL** are considered to external tables that are not managed by [!INCLUDE[navnow](includes/navnow_md.md)]. These tables use a different SQL Server connection than the normal tables in the [!INCLUDE[navnow](includes/navnow_md.md)] database. For more information, see [External Tables](External-Tables.md).  
 
 > [!IMPORTANT]  
->  We advise against creating tables of type CRM manually. Instead, use the integration mapping functionality. For more information, see [Integration Concepts and Terminology](Integration-Concepts-and-Terminology.md).  
+>  We advise against creating tables of type CRM manually. Instead, use the integration mapping functionality. For more information, see [Introduction to Dynamics CRM Integration Customization in Dynamics NAV](Introduction-to-Dynamics-CRM-Integration-Customization-in-Dynamics-NAV.md).  
 
 ## See Also  
  [External Tables](External-Tables.md)   
