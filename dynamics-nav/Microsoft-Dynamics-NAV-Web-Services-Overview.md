@@ -1,7 +1,9 @@
 ---
 title: "Microsoft Dynamics NAV Web Services Overview"
+author: edupont04
+manager: edupont04
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,7 +11,6 @@ ms.topic: article
 ms-prod: "dynamics-nav-2017"
 ms.assetid: 78068a59-b1a0-4a14-8f77-575bcbb557c8
 caps.latest.revision: 48
-manager: edupont
 ---
 # Microsoft Dynamics NAV Web Services Overview
 Web services are a lightweight, industry-standard way to make application functionality available to a variety of external systems and users. [!INCLUDE[navnowlong](includes/navnowlong_md.md)] supports creation and publishing of [!INCLUDE[navnow](includes/navnow_md.md)] functionality as web services. You can expose pages, codeunits, or queries as web services, and even enhance a page web service by using an extension codeunit. When you publish [!INCLUDE[navnow](includes/navnow_md.md)] objects as web services, they are immediately available on the network.  
@@ -20,7 +21,7 @@ Web services are a lightweight, industry-standard way to make application functi
 
 -   [OData Web Services](OData-Web-Services.md). You can publish either pages or queries as OData services.  
 
- [!INCLUDE[navnowlong](includes/navnowlong_md.md)] web services are stateless and do not preserve the values of global variables or single-instance codeunits between calls.  
+ [!INCLUDE[navnow](includes/navnow_md.md)] web services are stateless and do not preserve the values of global variables or single-instance codeunits between calls.  
 
 ## Web Service Protocols  
  The following table shows the types of web service applications that you can create for the web service protocols supported in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
