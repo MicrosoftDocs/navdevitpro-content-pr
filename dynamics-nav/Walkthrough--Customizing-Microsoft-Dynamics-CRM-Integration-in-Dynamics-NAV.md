@@ -65,7 +65,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
 2.  At the command prompt, run the New-NAVCrmTable cmdlet as shown in the following example. Include parameters that specify the [!INCLUDE[crm](includes/crm_md.md)] Server URL, the logical names of the [!INCLUDE[crm](includes/crm_md.md)]**Systemuser** and **Campaign** entities, the ID and name of the corresponding business data table objects in [!INCLUDE[navnow](includes/navnow_md.md)], and the path in which to store the generated text files for the table objects.  
 
     ```  
-    New-NAVCRMTable – CRMServer MyOrg.Crm4.Dynamics.Com –EntityLogicalName systemuser,campaign –ObjectId 5340,50001 –Name “CRM Systemuser”,“CRM Campaign” –OutputPath c:\CRMObjects  
+    New-NAVCRMTable –CRMServer MyOrg.Crm4.Dynamics.Com –EntityLogicalName systemuser,campaign –ObjectId 5340,50001 –Name “CRM Systemuser”,“CRM Campaign” –OutputPath c:\CRMObjects  
     ```  
 
      Replace *MyOrg.Crm4.Dynamics.Com* with the URL to your [!INCLUDE[crm](includes/crm_md.md)] Server. Replace *c:\CRMObjects* with the path on your computer or network where you want to save the .txt files for the created tables.  
@@ -208,100 +208,100 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
 
  You can create the integration table mapping directly in table **5335 Integration Table Mapping** and integration field mappings directly in table **5336 Integration Field Mappings** or you can add the mappings by modifying codeunit **5334 CRM Setup Defaults**. For a repeatable solution, we recommend that you integrate your changes in codeunit **5334 CRM Setup Defaults**.  
 
-#### To create an Integration Table Mapping  
+#### To Create an Integration Table Mapping  
 
--   To create an integration table mapping directly in the table **5335 Integration Table Mapping**, follow these steps:  
+To create an integration table mapping directly in the table **5335 Integration Table Mapping**, follow these steps:  
 
-    1.  Open the integration table **50001 CRM Campaign** in Table Designer, and then make a note the field numbers of the **CampaignId** and **ModifiedOn** fields. You will use these numbers later in this procedure.  
+1.  Open the integration table **50001 CRM Campaign** in Table Designer, and then make a note the field numbers of the **CampaignId** and **ModifiedOn** fields. You will use these numbers later in this procedure.  
 
-    2.  From Object Designer in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], run table **5335 Integration Table Mapping** to open it in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
+2.  From Object Designer in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], run table **5335 Integration Table Mapping** to open it in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
 
-    3.  Add a new record and fill in the following fields:  
+3.  Add a new record and fill in the following fields:  
 
-        |Field|Value|  
-        |-----------|-----------|  
-        |Name|CAMPAIGN|  
-        |Table ID|5071|  
-        |Integration Table ID|50001|  
-        |Synch. Codeunit ID|5340 \(CRM Integration Table Synch.\)|  
-        |Integration Table UID Fld. No.|\[The field number of the primary key field **CampaignId** in table **CRM Campaign**\]|  
-        |Int. Tbl. Modified On Fld. No.|\[The field number of the **ModifiedOn** field in the integration table **CRM Campaign**\]|  
-        |Direction|Bidirectional \(synchronizes from [!INCLUDE[navnow](includes/navnow_md.md)] to [!INCLUDE[crm](includes/crm_md.md)] and from [!INCLUDE[crm](includes/crm_md.md)] to [!INCLUDE[navnow](includes/navnow_md.md)]\).|  
+    |Field|Value|  
+    |-----------|-----------|  
+    |Name|CAMPAIGN|  
+    |Table ID|5071|  
+    |Integration Table ID|50001|  
+    |Synch. Codeunit ID|5340 \(CRM Integration Table Synch.\)|  
+    |Integration Table UID Fld. No.|\[The field number of the primary key field **CampaignId** in table **CRM Campaign**\]|  
+    |Int. Tbl. Modified On Fld. No.|\[The field number of the **ModifiedOn** field in the integration table **CRM Campaign**\]|  
+    |Direction|Bidirectional \(synchronizes from [!INCLUDE[navnow](includes/navnow_md.md)] to [!INCLUDE[crm](includes/crm_md.md)] and from [!INCLUDE[crm](includes/crm_md.md)] to [!INCLUDE[navnow](includes/navnow_md.md)]\).|  
 
--   To add an integration table mapping in codeunit **5334 CRM Setup Defaults**, follow these steps:  
+To add an integration table mapping in codeunit **5334 CRM Setup Defaults**, follow these steps:  
 
-    1.  Open the codeunit in Codeunit Designer.  
+1.  Open the codeunit in Codeunit Designer.  
 
-    2.  Add a local function called **ResetCampaignMapping** with the following parameters:  
+2.  Add a local function called **ResetCampaignMapping** with the following parameters:  
 
-        |Name|DataType|SubType|Length|  
-        |----|--------|-------|------|  
-        |IntegrationTableMappingName|Code| |20|  
-        |EnqueueJobQueEntry|Boolean| | |  
+    |Name|DataType|SubType|Length|  
+    |----|--------|-------|------|  
+    |IntegrationTableMappingName|Code| |20|  
+    |EnqueueJobQueEntry|Boolean| | |  
 
-    3.  Add the following local variables:  
+3.  Add the following local variables:  
 
-        |Name|DataType|SubType|  
-        |----------|--------------|-------------|  
-        |IntegrationTableMapping|Record|Integration Table Mapping|  
-        |IntegrationFieldMapping|Record|Integration Field Mapping|  
-        |CRMCampaign|Record|CRM Campaign|  
-        |Campaign|Record|Campaign|  
+    |Name|DataType|SubType|  
+    |----------|--------------|-------------|  
+    |IntegrationTableMapping|Record|Integration Table Mapping|  
+    |IntegrationFieldMapping|Record|Integration Field Mapping|  
+    |CRMCampaign|Record|CRM Campaign|  
+    |Campaign|Record|Campaign|  
 
-    4.  Add the following code to the function:  
+4.  Add the following code to the function:  
 
-        ```  
-        InsertIntegrationTableMapping(
-          IntegrationTableMapping,IntegrationTableMappingName,
-          DATABASE::Campaign,DATABASE::"CRM Campaign",
-          CRMCampaign.FIELDNO(CampaignId),CRMCampaign.FIELDNO(ModifiedOn),
-          '','',TRUE);
+    ```  
+    InsertIntegrationTableMapping(
+      IntegrationTableMapping,IntegrationTableMappingName,
+      DATABASE::Campaign,DATABASE::"CRM Campaign",
+      CRMCampaign.FIELDNO(CampaignId),CRMCampaign.FIELDNO(ModifiedOn),
+      '','',TRUE);
 
-        RecreateJobQueueEntry(IntegrationTableMapping,30,EnqueueJobQueEntry);
-        ```  
+    RecreateJobQueueEntry(IntegrationTableMapping,30,EnqueueJobQueEntry);
+    ```  
 
  For each integration table mapping entry, there must be integration field mapping entries to map the individual fields of the records in the business table and integration table. The next step is to add integration field mappings for each field in the [!INCLUDE[navnow](includes/navnow_md.md)] Campaign table that you want to map to the [!INCLUDE[crm](includes/crm_md.md)] Campaign entity.  
 
-#### To create Integration Fields Mappings  
+#### To Create Integration Fields Mappings  
 
 To create an integration field mapping directly in table **5336 Integration Field Mapping**, follow these steps:  
 
-    1.  From Object Designer, run table **5336 Integration Field Mapping** to open it in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
+1.  From Object Designer, run table **5336 Integration Field Mapping** to open it in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
 
-    2.  Add a new record and fill in the following fields:  
+2.  Add a new record and fill in the following fields:  
 
-        |Field|Value|  
-        |-----------|-----------|  
-        |No.|\[An identification number for the field mapping entry, such as 1\]|  
-        |Integration Table Map Name|CAMPAIGN|  
-        |Field No.|\[Field number for the **Description** field of the table **Campaign**, for example **2**\]|  
-        |Integration Table Field No.|\[Field number for the **Name** field of the integration table **CRM Campaign**, for example **3**\]|  
-        |Direction|Bidirectional|  
+    |Field|Value|  
+    |-----------|-----------|  
+    |No.|\[An identification number for the field mapping entry, such as 1\]|  
+    |Integration Table Map Name|CAMPAIGN|  
+    |Field No.|\[Field number for the **Description** field of the table **Campaign**, for example **2**\]|  
+    |Integration Table Field No.|\[Field number for the **Name** field of the integration table **CRM Campaign**, for example **3**\]|  
+    |Direction|Bidirectional|  
 
-    3.  Repeat these steps for each field that you want to map.  
+3.  Repeat these steps for each field that you want to map.  
 
-        > [!TIP]  
-        >  If a field in one of the tables does not have a corresponding field in the other table, you can use a constant value. For an example of this, see the **CONTACTS Integration Table Mapping**.  
+    > [!TIP]  
+    >  If a field in one of the tables does not have a corresponding field in the other table, you can use a constant value. For an example of this, see the **CONTACTS Integration Table Mapping**.  
 
 To add an integration field mapping in codeunit **5334 CRM Setup Defaults**, follow these steps:  
 
-    1.  Open the codeunit in Codeunit Designer.  
+1.  Open the codeunit in Codeunit Designer.  
 
-    2.  In the function **ResetCampaignMapping**, add the following code. As an example, this code maps the `Description` field in the **Campaign** table to the `Name` field in the **CRM Campaign** integration table.  
+2.  In the function **ResetCampaignMapping**, add the following code. As an example, this code maps the `Description` field in the **Campaign** table to the `Name` field in the **CRM Campaign** integration table.  
 
-        ```  
-        InsertIntegrationFieldMap(  
-          IntegrationTableMapName,  
-          Campaign.FIELDNO("Description"),  
-          CRMCampaign.FIELDNO(Name),  
-          IntegrationFieldMap.Direction::Bidrectional,  
-          '',FALSE,FALSE);  
+    ```  
+    InsertIntegrationFieldMap(  
+      IntegrationTableMapName,  
+      Campaign.FIELDNO("Description"),  
+      CRMCampaign.FIELDNO(Name),  
+      IntegrationFieldMap.Direction::Bidrectional,  
+      '',FALSE,FALSE);  
 
-        ```  
+    ```  
 
-         Repeat this step for all fields that you want to map.  
+     Repeat this step for all fields that you want to map.  
 
-    3.  After you make the changes to the CRM Setup Defaults, you can update the mappings by running the **[!INCLUDE[crm](includes/crm_md.md)] Connection Setup** page and choosing **Use Default Synchronization Setup**.  
+3.  After you make the changes to the CRM Setup Defaults, you can update the mappings by running the **[!INCLUDE[crm](includes/crm_md.md)] Connection Setup** page and choosing **Use Default Synchronization Setup**.  
 
  The next step is to add an action on page **5086  Campaign Card** that lets users to manually synchronize data between coupled campaign records in [!INCLUDE[navnow](includes/navnow_md.md)] and [!INCLUDE[crm](includes/crm_md.md)].  
 
@@ -340,6 +340,7 @@ To add an integration field mapping in codeunit **5334 CRM Setup Defaults**, fol
 |OnAfterInsertRecord|Occurs after new destination record is inserted, and can be used to perform post-insert operations such as updating related data.|  
 |OnBeforeModifyRecord|Occurs before modifying an existing destination record, and can be used to validate/change data before modification.|  
 |OnAfterModifyRecord|Occurs after an existing destination record is modified, and can be used to perform post-modify operations such as updating related data.|  
+|OnTransferFieldData|Occurs before an existing destination field value is going to be transferred to a source field, and can be used to perform specific transformations of data when types of the source and the destination field are different but can be mapped.|  
 
  For the synchronization of campaigns, you will use an event to create a custom rule that sets the **Comment** field in a [!INCLUDE[navnow](includes/navnow_md.md)] campaign to **TRUE** if the **Message** field in a [!INCLUDE[crm](includes/crm_md.md)] campaign has data. You do this by subscribing to the **OnAfterTransferRecordFields** event that is published by codeunit **5335 Integration Table Synch**.  
 
@@ -358,17 +359,7 @@ To add an integration field mapping in codeunit **5334 CRM Setup Defaults**, fol
     |CRMCampaign|Record|CRM Campaign|  
     |Campaign|Record|Campaign|  
 
-4.  Add the following code to function to exit if the event is not trigged during synchronization between the **Campaign** table and **CRM Campaign** table.  
-
-    ```  
-    IF IntegrationTableMapping.NAME <> ‘CAMPAIGN’ THEN  
-      EXIT; // Synchronization is not on the CAMPAIGN mapping  
-    IF SourceRecordRef.NUMBER <> DATABASE::”CRM Campaign” THEN  
-      EXIT; // The synch. direction is not from CRM Campaign to Campaign  
-
-    ```  
-
-5.  Add the following code to implement the logic to determine whether the **Message** field has a value:  
+4.  Add the following code to implement the logic to determine whether the **Message** field has a value:  
 
     ```  
     SourceRecordRef.SETTABLE(CRMCampaign);  
@@ -388,7 +379,7 @@ To add an integration field mapping in codeunit **5334 CRM Setup Defaults**, fol
       DestinationRecordRef.GETTABLE(Campaign);
     ```  
 
-6.  Locate the **OnAfterTransferRecordFields** function, which is an EventSubscriber. Add the following code as a case after the Unit of Measure case:  
+5.  Locate the **OnAfterTransferRecordFields** function, which is an EventSubscriber. Add the following code as a case after the Unit of Measure case:  
 
     ```  
     'CRM Campaign-Campaign':
@@ -397,7 +388,7 @@ To add an integration field mapping in codeunit **5334 CRM Setup Defaults**, fol
 
     ```
 
-7.  Save and compile the codeunit.  
+6.  Save and compile the codeunit.  
 
  When you choose **Synchronize Now** on the **Campaign** page, and then choose to synchronize from [!INCLUDE[crm](includes/crm_md.md)] to [!INCLUDE[navnow](includes/navnow_md.md)], the **Comment** field should be updated to indicate whether the **Message** field in the [!INCLUDE[crm](includes/crm_md.md)] campaign has a value.  
 
