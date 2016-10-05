@@ -72,8 +72,8 @@ Adds a media type \(MIME\), such as jpeg image, from an InStream object to a **M
 
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
-|Item|Record|Item|  
-|InStream|InStream||  
+|item|Record|Item|  
+|inStreamObject|InStream||  
 |ImportFile|File||  
 
  This code iterates over records in the **Items** table. For each record, it looks in the *C:\\images* folder for a file whose name matches the **No.** field of the record. If there is a match the file, an InStream object is created for the file, and then imported into the record.  
