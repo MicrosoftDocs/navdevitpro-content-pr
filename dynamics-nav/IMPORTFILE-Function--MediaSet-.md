@@ -28,7 +28,7 @@ Adds a media, such as a JPEG image, to the **MediaSet** data type field of a rec
 *MediaSetField*  
  Type: MediaSet  
 
- Specifies the field that you want to add the media to. The field has the **MediaSet** data type.  
+ Specifies the field that you want to add the media to. The field must have the **MediaSet** data type.  
 
  *FileName*  
  Type: Text  
@@ -62,37 +62,37 @@ This example uses the IMPORTFILE function to add images to records in table **27
 
 In support of the example code, you also have to complete these tasks:  
 
--   Create sample image files that you want to use on a items in table **27 Item**. Save the files on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.
+-   Create two sample image files that you want to use on item no. 1000 in table **27 Item**.
 
-     Save the images as JPEG type, and give them names that correspond to actual item numbers \(as specified by the **No.** field in the **Item** table\). For example, you can create a 1000-v1.jpg and  1000-v2.jpg file for item 1000, a 1001-v1.jpg and 1001-v2.jpg file for item 1001, and so on. For the example, save the files in the  *C:\images* folder.  
+    Save the images as JPEG type, and give them the names 1000-v1.jpg and  1000-v2.jpg. Save the files in the *C:\images* folder on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.
 
 -   Verify that table **27 Item** has a field that is called **Picture** and has the data type **MediaSet**.
 
     This is field on which you will add the images. If the field is not present, then add it.
 
-With these tasks in place, you can add the following C/AL code for importing the images. For this code example, create a codeunit, and add the code to the **OnRun** trigger. However, you could also add the code other places instead, such as on an action in the **Item List** page.  
+With these tasks in place, you can add the following C/AL code for importing the images. For this code example, create a codeunit, and add the code to the **OnRun** trigger.  
 
-The code requires that you create the following variables:  
+The code requires that you create the following variables and text constant:  
 
 |  Variable name  |  DataType  |  Subtype  |  
 |-----------------|------------|-----------|  
 |item|Record|Item|  
-|fileName|Text||  
+|count|Integer||  
+|mediasetId|GUID||  
 
+|  Text constant name  |  ConstValue  |  
+|----------------------|--------------|  
+|Text000|The files have been imported. Item %1 has %2 pictures in MediaSet: %3|  
 ```  
-IF item.FINDFIRST() THEN  
-BEGIN  
-  REPEAT  
-    fileName := 'C:\images\' + FORMAT(item."No.") + '.jpg';  
-    IF FILE.EXISTS(fileName) THEN BEGIN  
-      item.Picture.IMPORTFILE(fileName, 'Demo image for item ' + FORMAT(item."No."));  
-      item.MODIFY;  
-    END;  
-  UNTIL item.NEXT < 1;  
-END;  
+item.GET('1000');
+item.Picture.IMPORTFILE('C:\images\1000-v1.jpg', 'Demo image for item ' + FORMAT(item."No."));
+item.Picture.IMPORTFILE('C:\images\1000-v2.jpg', 'Demo image for item ' + FORMAT(item."No."));
+count := (item.Picture.COUNT);
+mediasetId := item.Picture.MEDIAID;  
+MESSAGE(Text000,item."No.",count,mediasetId);   
+```  
+If you run system table **2000000181 Tenant Media** from the  [!INCLUDE[nav_dev_short_md](includes/nav_dev_short_md.md)], you should see the new images in the list.  
 
-```  
-The code iterates over records in the **Items** table. For each record, it looks in the *C:\images* folder for a file whose name matches the **No.** field of the record. If there is a match, the file is imported.  
 ## See Also  
  [Working With Media on Records](Working-With-Media-on-Records.md)  
  [IMPORTSTREAM Function \(MediaSet\)](IMPORTSTREAM-Function--MediaSet-.md)   
