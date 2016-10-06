@@ -109,6 +109,5 @@ If you run system table **2000000181 Tenant Media** from the  [!INCLUDE[nav_dev_
 
 ## See Also  
  [Working With Media on Records](Working-With-Media-on-Records.md)  
- [Working With Media on Records](Working-With-Media-on-Records.md)  
  [IMPORTFILE Function \(MediaSet\)](IMPORTFILE-Function--MediaSet-.md)   
  [MediaSet Data Type](MediaSet-Data-Type.md)
