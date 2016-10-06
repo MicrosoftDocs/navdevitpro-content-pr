@@ -62,7 +62,7 @@ This example uses the IMPORTFILE function to add images to records in table **27
 
 In support of the example code, you also have to complete these tasks:  
 
--   Create two sample image files that you want to use on a item no. 1000 in table **27 Item**.
+-   Create two sample image files that you want to use on item no. 1000 in table **27 Item**.
 
     Save the images as JPEG type, and give them the names 1000-v1.jpg and  1000-v2.jpg. Save the files in the *C:\images* folder on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.
 
