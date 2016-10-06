@@ -55,8 +55,6 @@ The media type, sometimes referred to as the MIME type, is an Internet standard 
 -   EMF
 -   EXIF
 -   GIF
--   GUID
--   Icon
 -   JPEG
 -   PNG
 -   TIFF
@@ -96,7 +94,7 @@ The following table provides an overview of the C/AL functions that are related 
 
 |  Function  |  Description  |  
 |------------|- -------------|
-|[EXPORTFILE Function \(MediaSet\)](EXPORTFILE-Function.md)|Exports the media objects that included in a media set to individual files.|  
+|[EXPORTFILE Function \(MediaSet\)](EXPORTFILE-Function-MediaSet.md)|Exports the media objects that included in a media set to individual files.|  
 |[IMPORTFILE Function \(MediaSet\)](IMPORTFILE-Function--MediaSet-.md)|Adds media from a file to a record, and assigns the imported media object to a media set. The media object is stored in the application database.|  
 |[IMPORTSTREAM Function \(MediaSet\)](IMPORTSTREAM-Function--MediaSet-.md)|Adds media from an InStream object to a record. The imported media object is stored in the application database.|  
 |[MEDIAID Function \(MediaSet\)](MEDIAID-Function--MediaSet-.md)|Gets the unique identifier \(GUID\) that is assigned to the media set on a record.|  
