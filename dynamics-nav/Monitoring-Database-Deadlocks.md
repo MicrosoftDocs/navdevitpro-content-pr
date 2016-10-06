@@ -39,7 +39,7 @@ To log deadlocks, you must enable deadlock logging on the [!INCLUDE[nav_server](
 
     For more information about how to use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], see [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md).
 
--   To enable logging by using the Set-NAVServerConfiguration cmdlet, set the key *EnableDeadlockMonitoring* to *true* in the command, such as:
+-   To enable logging by using the Set-NAVServerConfiguration cmdlet, include the *keyname EnableDeadlockMonitoring keyvalue true* parameters in the command, such as:
 
     ```
     Set-NAVServerConfiguration -ServerInstance DynamicsNAV -KeyName EnableDeadlockMonitoring -KeyValue true
@@ -61,10 +61,10 @@ Deadlock event log entries have the event ID 705 and task category 33 (Telemetry
 |AL ScopeName|Specifies the C/AL function that ran the transaction that caused the event.|
 |SQL Server deadlock XML report|Includes the deadlock report that was recieved from SQL Server. For more information, see [Analyze Deadlocks](https://aka.ms/analyzedeadlocks).|
 
-**Note:**  The system cannot record information about C/AL code that was executed on a different  [!INCLUDE[nav_server](includes/nav_server_md.md)].
+**Note:**  The system cannot record information about C/AL code that was executed on a different  [!INCLUDE[nav_server](includes/nav_server_md.md)]. Therefore, the three attributes *AL ObjectType*, *AL ObjectNumber* and *AL ScopeName* might be empty in a given event log entry.
 
 ### View a graphical representation of the deadlock event
-To view a graphical representation of the deadlock event, perform the following steps:
+To view a graphical representation of the deadlock, perform the following steps:
 1.  Open the deadlock event in Event Viewer.
 2.  On the General tab, go to the SQL Server deadlock xml report section, and then copy the text in the <deadlock></deadlock> and its content to a text editor such as Notepad.
 3.  Save the file as a .xdl type.
