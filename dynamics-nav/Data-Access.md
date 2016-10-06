@@ -43,14 +43,15 @@ The SQL Server interface from [!INCLUDE[nav_server](includes/nav_server_md.md)] 
 -   ISEMPTY  
   
 -   CALCFIELDS  
-  
- There are two types of caches:  
+
+
+There are two types of caches:  
   
 -   Global cache – for all users connected to a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
   
 -   Private cache – per user, per company, in a transactional scope. Data in a private cache for a given table and company are flushed when a transaction ends.  
   
- The cache that is used is determined by the lock state of a table. If a table is not locked than the global cache is queried for data; otherwise, the private cache is queried.  
+The cache that is used is determined by the lock state of a table. If a table is not locked than the global cache is queried for data; otherwise, the private cache is queried.  
   
  Results from query objects are not cached.  
   
@@ -77,7 +78,7 @@ The SQL Server interface from [!INCLUDE[nav_server](includes/nav_server_md.md)] 
   
 -   You specify **Validated** for the [SecurityFiltering Property](SecurityFiltering-Property.md) on a record. This value for the **SecurityFiltering** property means that each record that is part of the calculation must be verified for inclusion in the security filter.  
   
- In most cases, calling the FIND or NEXT functions after you have set the view to include only marked records issues a single SQL statement. In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], calling FIND or NEXT functions that have marked records issued an SQL statement for each mark. There are some exceptions if many records are marked. For more information, see [MARKEDONLY Function \(Record\)](MARKEDONLY-Function--Record-.md).  
+In most cases, calling the FIND or NEXT functions after you have set the view to include only marked records issues a single SQL statement. In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], calling FIND or NEXT functions that have marked records issued an SQL statement for each mark. There are some exceptions if many records are marked. For more information, see [MARKEDONLY Function \(Record\)](MARKEDONLY-Function--Record-.md).  
   
 ## See Also  
  [Changes in C-AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV](Changes-in-C-AL-Behavior-and-Support-from-Earlier-Versions-of-Microsoft-Dynamics-NAV.md)   
