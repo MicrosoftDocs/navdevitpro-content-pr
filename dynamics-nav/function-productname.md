@@ -7,11 +7,9 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms-prod: "dynamics-nav-2017"
-ms.author:"jswymer"
 ---
-
 # PRODUCTNAME Functions
-An application can be assigned a name in three variations: full, marketing, and short. The PRODUCTNAME functions in C/AL enable you to retrieve these name variations.
+An application have full name, marketing name, and short name. The PRODUCTNAME functions in C/AL enable you to retrieve these name variations.
 
 ```
 String := PRODUCTNAME.FULL
