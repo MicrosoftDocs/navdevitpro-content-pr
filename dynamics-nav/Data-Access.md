@@ -43,14 +43,15 @@ The SQL Server interface from [!INCLUDE[nav_server](includes/nav_server_md.md)] 
 -   ISEMPTY  
   
 -   CALCFIELDS  
-  
- There are two types of caches:  
+
+
+There are two types of caches:  
   
 -   Global cache – for all users connected to a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
   
 -   Private cache – per user, per company, in a transactional scope. Data in a private cache for a given table and company are flushed when a transaction ends.  
   
- The cache that is used is determined by the lock state of a table. If a table is not locked than the global cache is queried for data; otherwise, the private cache is queried.  
+The cache that is used is determined by the lock state of a table. If a table is not locked than the global cache is queried for data; otherwise, the private cache is queried.  
   
  Results from query objects are not cached.  
   
