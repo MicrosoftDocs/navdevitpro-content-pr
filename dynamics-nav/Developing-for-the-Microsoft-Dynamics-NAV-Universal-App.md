@@ -29,9 +29,9 @@ This section describes how to develop for the [!INCLUDE[nav_uni_app](includes/na
   
 -   [Using HTTPS and Certificates](Using-HTTPS-and-Certificates.md)  
   
--   [How to: Implement the Camera in C-AL](How-to--Implement-the-Camera-in-C-AL.md)  
+-   [How to: Implement the Camera in C/AL](How-to--Implement-the-Camera-in-C-AL.md)  
   
--   [How to: Implement Location in C-AL](How-to--Implement-Location-in-C-AL.md)  
+-   [How to: Implement Location in C/AL](How-to--Implement-Location-in-C-AL.md)  
   
 -   [How to: Display Data as Bricks](How-to--Display-Data-as-Bricks.md)  
   
