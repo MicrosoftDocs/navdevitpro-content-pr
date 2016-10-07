@@ -6,9 +6,8 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms.author: jswymer
 ms-prod: "dynamics-nav-2017"
-ms.assetid: be024339-53bf-4458-a67f-d0c0abeef80b
-caps.latest.revision: 12
 ---
 # OnBeforeTestRun Trigger
 Executed before a test function of a test codeunit is run.  
@@ -38,6 +37,11 @@ OnBeforeTestRun(CodeunitID : Integer;CodeunitName : Text[30];FunctionName : Text
   
 > [!NOTE]  
 >  This parameter is empty when the **OnBeforeTestRun** trigger is called for the entire test codeunit.  
+  
+*Permissions*  
+ Type: Text  
+  
+ The permission set level to use on the test run. The level is retrieved from the [TestPermissions property](testing-permissionsets.md) of the test codeunit or test function that is run. For more information, see [Testing With Permission Sets](testing-permissionsets.md).    
   
 ## Return Value  
  *Ok*  

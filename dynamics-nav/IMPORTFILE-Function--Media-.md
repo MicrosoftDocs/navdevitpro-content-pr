@@ -6,13 +6,12 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms.author: jswymer
 ms-prod: "dynamics-nav-2017"
-ms.assetid: aeffd2de-fe20-4900-9253-de23b58e7696
-caps.latest.revision: 6
 manager: edupont
 ---
 # IMPORTFILE Function (Media)
-Adds a media type, such as a jpeg image, from a file to a **Media** data type field of a record for displaying the media with the record in the client. The media file is imported to the application database and a reference to the media is included in the **Media** data type field.  
+Adds a media type, such as a JPEG image, from a file to a **Media** data type field of a record for displaying the media with the record in the client. The media file is imported to the application database, and a reference to the media is included in the **Media** data type field.  
 
 ## Syntax  
 
@@ -50,12 +49,12 @@ Adds a media type, such as a jpeg image, from a file to a **Media** data type fi
 ## Property Value/Return Value  
  Type: GUID  
 
- The unique ID that is assigned to this media object in the database. You can also get the ID by using the [MEDIAID Function \(Media\)](MEDIAID-Function--Media-.md).  
+ Specifies the unique ID that is assigned to the media object in the database. You can also get the ID by using the [MEDIAID Function \(Media\)](MEDIAID-Function--Media-.md).  
 
 ## Remarks  
  You use this function to upload a media file, which you want to associate with a record, to the database. For example, you can upload an image for an item in table **27 Item**. When a media file is imported, it is assigned a unique identifier \(GUID\) and stored in the system table **2000000183 Tenant Media** of the application database. The GUID is then included in the **Media** data type field as a reference to the media file.  
 
- If you import a media file into a record that already has a media object, and a modify operation is performed, the previous media object will be permanently deleted from the database. unless there are other references to the media object in the same table field. In this case the previous media object remains in the database.
+ If you import a media file into a record that already has a media object, and a modify operation is performed, the original media object will be permanently deleted from the database. However, if there are other fields in the same table that reference the original media object, the original media object is not deleted from the database.
 
 ## Example  
  This example uses the IMPORTFILE function to add images to records in table **27 Item** of the [!INCLUDE[demolong](includes/demolong_md.md)]. After the images are imported, they will be displayed with items on page **31 Item List**, when the page is opened in the [!INCLUDE[nav_web](includes/nav_web_md.md)] and viewed in a brick layout. The example uses C/AL code to iterate over records in the **Items** table and import an image file for records from a local folder. To support the example code that follows, you have to complete these tasks:  
