@@ -21,4 +21,4 @@ This section describes how to optimize performance in [!INCLUDE[navnowlong](incl
  [C-AL Database Functions and Performance on SQL Server](C-AL-Database-Functions-and-Performance-on-SQL-Server.md)   
  [Query Objects and Performance](Query-Objects-and-Performance.md)   
  [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)   
- [Microsoft SQL Server](http://go.microsoft.com/fwlink/?LinkId=253107)
+ [Microsoft SQL Server documentation](http://go.microsoft.com/fwlink/?LinkId=253107)

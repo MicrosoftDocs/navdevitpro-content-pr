@@ -21,7 +21,7 @@ This topic describes how you can upload media, such as an image, to the database
 -   Use a Media or MediaSet data type  
 
     This method enables you to store media in system tables of the database, and then reference the media from application records. For applications that are developed for the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)], you can use this method to:
-    -   Display media with records in list type pages, when the page is viewed in the Brick layout, or in a report.  
+    -   Display media with records in list type pages, when the page is viewed in the Brick layout.  
     -   Display media on a card type page for a record.
     -   Display media in a report.
 
@@ -41,7 +41,7 @@ Table fields support two data types for adding media to records: **Media** and *
     If a **MediaSet** data type field is used in a report object, then only the first associated media file is displayed in the generated report.
 
 > [!NOTE]  
->  Currently, only image media types, such as jpeg, png, or gif, are supported. For more information, see [Supported Media Types](Working-With-Media-on-Records.md#SupportedMediaTypes).  
+>  Currently, only image media types, such as JPEG or PNG, are supported. For more information, see [Supported Media Types](Working-With-Media-on-Records.md#SupportedMediaTypes).  
 
  With a field set to **Media** or **MediaSet** data type, you can add media to the record. You can import the media directly from a file, or it can be passed to the record in an InStream object. Imported media is stored as an object in the system table **2000000184 Tenant Media** of the application database. Each media object is assigned a unique identifier \(ID\).  
 
@@ -72,9 +72,9 @@ The general procedure for setting up media on records is as follows:
 
 3.  Add C/AL code that imports the media on the field.  
 
-     The **Media** and **MediaSet** data types support several C/AL functions that you can use to manage the media on records. See the next section for a complete list of functions with a link to more details, such as usage, parameters and sample code.  
+    The **Media** and **MediaSet** data types support several C/AL functions that you can use to manage the media on records. See the next section for a complete list of functions with a link to more details, such as usage, parameters and sample code.  
 
-     For example, you can create a codeunit that calls one of the import functions, or add a page action that calls one of the functions.  
+    For example, you can create a codeunit that calls one of the import functions, or add a page action that calls one of the functions.  
 
 ### C/AL Functions  
 The following table provides an overview of the C/AL functions that are related to the Media and MediaSet data types.  
@@ -99,7 +99,6 @@ The following table provides an overview of the C/AL functions that are related 
 |[IMPORTSTREAM Function \(MediaSet\)](IMPORTSTREAM-Function--MediaSet-.md)|Adds media from an InStream object to a record. The imported media object is stored in the application database.|  
 |[MEDIAID Function \(MediaSet\)](MEDIAID-Function--MediaSet-.md)|Gets the unique identifier \(GUID\) that is assigned to the media set on a record.|  
 |[COUNT Function \(MediaSet\)](COUNT-Function--MediaSet-.md)|Gets the total number of media objects that are included in the media set on a record.|  
-
 
 ## See Also  
  [Media Data Type](Media-Data-Type.md)   
