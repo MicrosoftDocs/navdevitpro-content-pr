@@ -6,8 +6,9 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms.author: jswymer
 ms-prod: "dynamics-nav-2017"
-ms.author:"jswymer"
+
 ---
 # Gesture Property
 Specifies a gesture that runs the action on a device with a touch interface, such as the phone client.
