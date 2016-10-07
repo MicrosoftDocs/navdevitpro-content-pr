@@ -21,14 +21,14 @@ To test with permission sets, you modify test codeunits or test functions and te
     Test codeunits and test functions include the **TestPermissions** property. This  property has the following values: **Disabled**, **Restrictive**, **NonRestrictive**, **InheritFromCodeunit**. At runtime, the property value is passed on to the **OnBeforeTestRun** and **OnAfterTestRun** triggers of test runner codeunits. The values alone do not do anything. You define which permission sets are applied to the test for each value by coding the **OnBeforeTestRun** and **OnAfterTestRun** triggers of a test runner codeunit.
 *   Test runner codeunits
 
-    You use test runner codeunits apply the permission sets to the test by adding code to the **OnBeforeTestRun** and **OnAfterTestRun** triggers. These triggers include the *FunctionTestPermissions* parameter (data type TestPermissions) that takes the value of the **TestPermissions** property that is passed on from the test codeunit or test function that is run. You add code on these triggers to define what permission sets to use for the test based on the value of the *FunctionTestPermissions* parameter.
+    You use test runner codeunits to apply the permission sets to the test. You do this by adding code to the **OnBeforeTestRun** and **OnAfterTestRun** triggers of the test runner codeunit. These triggers include the *FunctionTestPermissions* parameter, which has the data type TestPermissions. The *FunctionTestPermissions* parameter takes the value of the **TestPermissions** property that is passed on from the test codeunit or test function that is run. You add code on the triggers to define what permission sets to use for the test, based on the value of the *FunctionTestPermissions* parameter.
 
     Typically, you code the **OnBeforeTestRun** trigger to assign the permission sets to the test, and the **OnAfterTestRun** trigger to clear the permission sets.
 
 ## Example
-This simple code example illustrates how to test with permission sets. It uses a test runner code unit to apply permissions sets to test functions based on the different values of the **TestPermissions** property of the test function.
+This simple code example illustrates how to test with permission sets. It uses a test runner code unit to apply permission sets to test functions. The applied permission sets are determined by the different values of the **TestPermissions** property of the test function.
 
-For applying permission sets, the code uses DotNet data type variable for **Microsoft.Dynamics.Nav.PermissionTestHelper** assembly. This assembly is provided as a server add-in with the Dynamics NAV Server installation.
+For applying permission sets, the code uses a DotNet data type variable for **Microsoft.Dynamics.Nav.PermissionTestHelper** assembly. This assembly is provided as a server add-in with the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] installation.
 
 The OnBeforeTestRun trigger will apply one of three permission sets, which have the Role IDs **O365 BASIC**, **O365 BUS FULL ACCESS**, and **SUPER**.
 
@@ -51,7 +51,7 @@ OBJECT Codeunit 90000 MyTestPermissionsTestRunner
   CODE
   {
     VAR
-      PermissionTestHelper@1000 : DotNet "'Microsoft.Dynamics.Nav.PermissionTestHelper, Version=9.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.Microsoft.Dynamics.Nav.Runtime.PermissionTestHelper";
+      PermissionTestHelper@1000 : DotNet "'Microsoft.Dynamics.Nav.PermissionTestHelper, Version=10.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.Microsoft.Dynamics.Nav.Runtime.PermissionTestHelper";
 
     PROCEDURE OnBeforeTestRun@1102601000(CodeunitId@1102601000 : Integer;CodeunitName@1102601001 : Text[30];FunctionName@1102601002 : Text[128];Permissions@1000 : TestPermissions) : Boolean;
     BEGIN
@@ -74,7 +74,7 @@ OBJECT Codeunit 90000 MyTestPermissionsTestRunner
 
     PROCEDURE OnAfterTestRun@1102601002(CodeunitId@1003 : Integer;CodeunitName@1002 : Text[30];FunctionName@1001 : Text[128];Permissions@1000 : TestPermissions;Success@1102601003 : Boolean);
     VAR
-      PermissionTestHelper@1004 : DotNet "'Microsoft.Dynamics.Nav.PermissionTestHelper, Version=9.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.Microsoft.Dynamics.Nav.Runtime.PermissionTestHelper";
+      PermissionTestHelper@1004 : DotNet "'Microsoft.Dynamics.Nav.PermissionTestHelper, Version=10.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.Microsoft.Dynamics.Nav.Runtime.PermissionTestHelper";
     BEGIN
       IF ISNULL(PermissionTestHelper) THEN
         PermissionTestHelper := PermissionTestHelper.PermissionTestHelper;
