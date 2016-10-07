@@ -6,11 +6,9 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
 ms.author:"jswymer"
+ms-prod: "dynamics-nav-2017"
 ---
-
-
 # TestPermissions Property
 Specifies a value that can be used to determine which permission sets are used on tests that are run by test codunits or test functions.
 
