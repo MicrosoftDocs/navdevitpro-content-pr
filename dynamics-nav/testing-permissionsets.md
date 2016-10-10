@@ -6,18 +6,16 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms.author: jswymer
 ms-prod: "dynamics-nav-2017"
-ms.author:"jswymer"
 ---
-
-
 # Testing With Permission Sets
 You can write application tests in C/AL that use specific permission sets when the test is run. The permission sets define the access rights (such as read, write, and execute ) on tables, reports, functions, and other objects in the database.
 
-Without applying any permission sets, a test will run with full permissions, similar to the rights that are granted by the SUPER permission set. This is probably satisfactory for testing the functionality in general. However, in most cases, users will be running with a permission set that limits their access to only the functionality they need to do their work.
+Without applying any permission sets, a test will run with full permissions, similar to the rights that are granted by the SUPER permission set. This is probably satisfactory for testing the functionality in general. However, in most cases, users will be running with a permission set that limits their access to the functionality they need to do their work.
 
 ## Overview
-To run tests with permission sets requires the use of a test codeunits and/or test functions and test runner codeunits.
+To run tests with permission sets requires that you work with test codeunits and/or test functions and test runner codeunits.
 
 -   Test codeunits and test functions
 
@@ -39,11 +37,11 @@ To summarize, a test codeunit or test function defines a general permission set 
     Set the TestPermissions property to the desired permission set level.
 3.  Add or modify test runner codeunits that run the test codeunits and test functions.
 
-    Add logic to the **OnBeforeTestRun** and **OnAfterTestRun** triggers to apply/clear the permission sets for the test. 
+    Add logic to the **OnBeforeTestRun** and **OnAfterTestRun** triggers to apply and clear the permission sets for the test. 
  
 
 ## Example
-This simple code example illustrates how to test with permission sets. It uses a test runner codeunit to apply permission sets to test functions. The applied permission sets are determined by the different values of the **TestPermissions** property of the test function.
+This simple code example illustrates how to test with permission sets. It uses a test runner codeunit to apply permission sets to test functions. The applied permission sets are determined by the different values of the **TestPermissions** property of the test function. 
 
 For applying permission sets, the code uses a DotNet data type variable for **Microsoft.Dynamics.Nav.PermissionTestHelper** assembly. This assembly is provided as a server add-in with the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] installation.
 
