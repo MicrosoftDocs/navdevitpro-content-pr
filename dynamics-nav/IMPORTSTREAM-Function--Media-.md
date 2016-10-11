@@ -25,6 +25,11 @@ Adds a media type \(MIME\), such as jpeg image, from an InStream object to a **M
 
  Specifies the record that you want to add the media to.  
 
+*MediaField*  
+Type: Media
+
+ Specifies the field that you want to add the media to. This field must be a **Media** data type.
+
  *InStream*  
  Type: InStream  
 
@@ -81,7 +86,7 @@ To support the example code that follows, create the following objects:
 **Code**  
 With the objects in place, you can add and run the following C/AL code to import the images. For this code example, create a codeunit and add the code to the **OnRun** trigger of the codeunit.
 
-This code iterates over records in the **Items** table. For each record, it looks in the *C:\\images* folder for a file whose name matches the **No.** field of the record. If there is a match the file, an InStream object is created for the file, the media is imported into the record, and a confirmation message is returned. 
+This code iterates over records in the **Items** table. For each record, it looks in the *C:\\images* folder for a file whose name matches the **No.** field of the record. If there is a match the file, an InStream object is created for the file, the media is imported into the record, and a confirmation message is returned.
 
 The code requires that you create the following variable and text constants:
 
