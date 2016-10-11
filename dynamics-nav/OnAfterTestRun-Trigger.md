@@ -6,10 +6,9 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
-ms.assetid: 3900632d-03d8-4b47-9e19-4907bf418380
-caps.latest.revision: 14
+ms.author: jswymer
 manager: edupont
+ms-prod: "dynamics-nav-2017"
 ---
 # OnAfterTestRun Trigger
 Executed after a test function of a test codeunit has been run.  
@@ -18,27 +17,32 @@ Executed after a test function of a test codeunit has been run.
   
 ```  
   
-OnAfterTestRun(CodeunitID : Integer;CodeunitName : Text[30];FunctionName : Text[128];Success : Boolean)  
+OnAfterTestRun(CodeunitID : Integer;CodeunitName : Text[30];FunctionName : Text[128];Permissions : TestPermissions; Success : Boolean)  
 ```  
   
 #### Parameters  
- *CodeunitID*  
- Type: Integer  
+*CodeunitID*  
+Type: Integer  
   
- The ID of the codeunit that has run.  
+The ID of the codeunit that has run.  
   
- *CodeunitName*  
- Type: Text  
+*CodeunitName*  
+Type: Text  
   
- The name of the test codeunit that has run.  
+The name of the test codeunit that has run.  
   
- *FunctionName*  
- Type: Text  
+*FunctionName*  
+Type: Text  
   
- The name of the test function that has run.  
+The name of the test function that has run.  
   
 > [!NOTE]  
 >  This parameter is empty when the **OnAfterTestRun** trigger is called for the whole test codeunit.  
+  
+*Permissions*  
+ Type: Text  
+  
+ The permission set level to use on the test run. The level is retrieved from the [TestPermissions property](testing-permissionsets.md) of the test codeunit or test function that is run. For more information, see [Testing With Permission Sets](testing-permissionsets.md).    
   
  *Success*  
  Type: Boolean  

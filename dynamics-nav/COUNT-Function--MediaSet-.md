@@ -11,13 +11,13 @@ ms.assetid: 4dab6c93-efcd-47ae-bf85-9cbcaf94b994
 caps.latest.revision: 4
 ---
 # COUNT Function (MediaSet)
-Counts the number of media objects that are included in the MediaSet of a record. The MediaSet defines a collection of media objects that are assigned to a record.
+Counts the number of media objects that are included in the MediaSet of a record.
 
 ## Syntax  
 
 ```  
 
-Number := Record.MediaSet.COUNT  
+Number := Record.MediaSetField.COUNT  
 ```  
 
 #### Parameters  
@@ -26,7 +26,7 @@ Number := Record.MediaSet.COUNT
 
  Specifies the record.  
 
- *MediaSet*  
+ *MediaSetField*  
  Type: MediaSet  
 
  Specifies the MediaSet data type field for the record.  
@@ -34,10 +34,10 @@ Number := Record.MediaSet.COUNT
 ## Property Value/Return Value  
  Type: Integer  
 
- Specifies the number of media objects that are included in the MediaSet of the record.  
+ Specifies the number of media objects that are associated with the MediaSet field of the record.  
 
 ## Example  
- This example counts the number of media objects for item No. 1000 in table **27 Item**. In this example, the field in the **Item** table that is used for the MediaSet data type is **MediaSetField**.  
+ This example counts the number of media objects that are available for item No. 1000 in table **27 Item**. In this example, the field in the **Item** table that is used for the MediaSet data type is **Picture**.  
 
 This code requires you to create the following variables.
 
@@ -54,13 +54,10 @@ This code requires you to create the following variables.
 
 ```  
 Item.GET('1000');  
-    count := (item.MediaSetField.COUNT);  
+    count := (item.Picture.COUNT);  
     MESSAGE(Text000,count);  
 ```  
 
 ## See Also  
 [Working With Media on Records](Working-With-Media-on-Records.md)  
- [MediaSet Data Type](MediaSet-Data-Type.md)   
- [MEDIAID Function \(MediaSet\)](MEDIAID-Function--MediaSet-.md)   
- [IMPORTFILE Function \(MediaSet\)](IMPORTFILE-Function--MediaSet-.md)   
- [IMPORTSTREAM Function \(MediaSet\)](IMPORTSTREAM-Function--MediaSet-.md)
+[MediaSet Data Type](MediaSet-Data-Type.md)  
