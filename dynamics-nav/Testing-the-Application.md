@@ -27,6 +27,10 @@ Before you release your [!INCLUDE[navnow](includes/navnow_md.md)] application, y
 
 -   ASSERTERROR statement.  
 
+-   Test with permission sets
+
+    For more information, see [Testing with Permission Sets](testing-permissionsets.md).
+
 ### Test Codeunits  
  You write test functions as C/AL code in the test codeunits. When a test codeunit runs, it executes the OnRun function, and then executes each test function in the codeunit. By default, each test function runs in a separate database transaction, but you can use the [TransactionModel Property](TransactionModel-Property.md) on test functions and the [TestIsolation Property](TestIsolation-Property.md) on test runner codeunits to control the transactional behavior. By default, the results of a test codeunit are displayed in a message window, but you can use the [OnAfterTestRun Trigger](OnAfterTestRun-Trigger.md) on a test runner codeunit to capture the results. The outcome of a test function is either SUCCESS or FAILURE. If any error is raised by either the code that is being tested or the test code, then the outcome is FAILURE and the error is included in the results log file.  
 
