@@ -63,7 +63,7 @@ This example uses the IMPORTFILE function to import a JPEG image from file to a 
 
 To support the example code that follows, create the following objects:
 
--   A table that has the name **My Items** and the following characteristics (as a minimum):
+-   A table that is named **My Items** and has the following characteristics (as a minimum):
     -   An **Integer** data type field that has the name **No.**.
 
         This field is used to give an item a number.
@@ -73,7 +73,7 @@ To support the example code that follows, create the following objects:
     - A field group that has the name **Brick** and includes the **No.** and **Image** fields.
 
         The field group is used to display the image on a page in the brick layout. For more information, see [How to: Display Data as Bricks](How-to--Display-Data-as-Bricks.md).
--   A page that has the name **My Items** and the following characteristics:
+-   A page that is named **My Items** and has the following characteristics:
 
     -   List type page that uses the **My Items** table as its source.
     -   A repeater control that contains the fields of the the **My Items** table.
@@ -93,7 +93,7 @@ With the objects in place, you can add and run the following C/AL code to import
 
 The example code iterates over records in the **My Items** table. For each record, it looks in the *C:\images* folder for a file whose name matches the **No.** field of the record. If there is a match, the file is imported and a message appears; otherwise, nothing happens.
 
-The code requires that you create the following variable and text constants:
+The code requires that you create the following variable and text constant:
 
 |  Variable name  |  DataType  |  Subtype  |
 |-----------------|------------|-----------|
