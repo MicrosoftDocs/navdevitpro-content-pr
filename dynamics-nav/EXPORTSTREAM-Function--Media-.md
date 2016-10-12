@@ -17,7 +17,7 @@ The OUTSTREAM object can be created from a BLOB field, a FILE or from a .NET Fra
 ## Syntax  
 
 ```  
-[Ok := ] Record.MediaField.EXPORTSTREAM(OutStream)  
+[Ok := ]Record.MediaField.EXPORTSTREAM(OutStream)  
 ```  
 
 #### Parameters  
