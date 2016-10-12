@@ -6,9 +6,8 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms.author: jswymer
 ms-prod: "dynamics-nav-2017"
-ms.assetid: 59f38aea-d525-4df8-ba51-9375b2697761
-caps.latest.revision: 5
 ---
 # IMPORTFILE Function (MediaSet)
 Adds a media, such as a JPEG image, to the **MediaSet** data type field of a record for displaying the media in the client. The media is imported to the database and included in a MediaSet for the record.  
@@ -76,7 +75,7 @@ The code requires that you create the following variables and text constant:
 
 |  Variable name  |  DataType  |  Subtype  |  
 |-----------------|------------|-----------|  
-|item|Record|Item|  
+|itemRec|Record|Item|  
 |count|Integer||  
 |mediasetId|GUID||  
 
@@ -84,12 +83,12 @@ The code requires that you create the following variables and text constant:
 |----------------------|--------------|  
 |Text000|The files have been imported. Item %1 has %2 pictures in MediaSet: %3|  
 ```  
-item.GET('1000');
-item.Picture.IMPORTFILE('C:\images\1000-v1.jpg', 'Demo image for item ' + FORMAT(item."No."));
-item.Picture.IMPORTFILE('C:\images\1000-v2.jpg', 'Demo image for item ' + FORMAT(item."No."));
-count := (item.Picture.COUNT);
-mediasetId := item.Picture.MEDIAID;  
-MESSAGE(Text000,item."No.",count,mediasetId);   
+itemRec.GET('1000');
+itemRec.Picture.IMPORTFILE('C:\images\1000-v1.jpg', 'Demo image for item ' + FORMAT(itemRec."No."));
+itemRec.Picture.IMPORTFILE('C:\images\1000-v2.jpg', 'Demo image for item ' + FORMAT(itemRec."No."));
+count := (itemRec.Picture.COUNT);
+mediasetId := itemRec.Picture.MEDIAID;  
+MESSAGE(Text000,item."No.", count, mediasetId);   
 ```  
 If you run system table **2000000181 Tenant Media** from the  [!INCLUDE[nav_dev_short_md](includes/nav_dev_short_md.md)], you should see the new images in the list.  
 

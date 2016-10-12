@@ -6,9 +6,8 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms.author: jswymer
 ms-prod: "dynamics-nav-2017"
-ms.assetid: 88c17900-5351-40db-a39c-a9322e5f5256
-caps.latest.revision: 4
 ---
 # IMPORTSTREAM Function (MediaSet)
 Adds a media file, such as a JPEG image, from an InStream object to the MediaSet of record for displaying in the client. The media is imported to the database and included in a MediaSet for the record.
@@ -74,7 +73,7 @@ The code requires that you create the following variables and text constant:
 
 |  Variable name  |  DataType  |  Subtype  |  
 |-----------------|------------|-----------|  
-|item|Record|Item|  
+|itemRec|Record|Item|  
 |inStreamObject|InStream||  
 |importFile|File||
 |count|Integer||  
@@ -85,25 +84,25 @@ The code requires that you create the following variables and text constant:
 |Text000|The files have been imported. Item %1 has %2 pictures in MediaSet: %3|
 
 ```  
-item.GET('1155');
+itemRec.GET('1000');
 
 fileName := 'C:\images\1000-v1.jpg';
 importFile.OPEN(fileName);  
 importFile.CREATEINSTREAM(inStreamObject);  
-item.Picture.IMPORTSTREAM(inStreamObject, 'Demo image for item ' + FORMAT(item."No."));  
-item.MODIFY;  
+itemRec.Picture.IMPORTSTREAM(inStreamObject, 'Demo image for item ' + FORMAT(itemRec."No."));  
+itemRec.MODIFY;  
 importFile.CLOSE;  
 
 fileName := 'C:\images\1000-v2.jpg';
 importFile.OPEN(fileName);  
 importFile.CREATEINSTREAM(inStreamObject);  
-item.Picture.IMPORTSTREAM(inStreamObject, 'Demo image for item ' + FORMAT(item."No."));  
-item.MODIFY;  
+itemRec.Picture.IMPORTSTREAM(inStreamObject, 'Demo image for item ' + FORMAT(itemRec."No."));  
+itemRec.MODIFY;  
 importFile.CLOSE;
 
-count := (item.Picture.COUNT);
-mediasetId := item.Picture.MEDIAID;  
-MESSAGE(Text000,item."No.",count,mediasetId);  
+count := (itemRec.Picture.COUNT);
+mediasetId := itemRec.Picture.MEDIAID;  
+MESSAGE(Text000,itemRec."No.",count,mediasetId);  
 ```  
 If you run system table **2000000181 Tenant Media** from the  [!INCLUDE[nav_dev_short_md](includes/nav_dev_short_md.md)], you should see the new images in the list.
 
