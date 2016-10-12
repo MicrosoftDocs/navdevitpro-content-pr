@@ -60,10 +60,11 @@ The function has the following behavior:
 -   If a media in the media set cannot be found in the database, no file will be generated for this object.  
 
 ## Example  
-This example first imports two media files \(JPEG image files\) from a local folder to the media set of a record in the table **27 Item** of the  [!INCLUDE[demolonglight_md](includes/demolonglight_md.md)]. Then, using the EXPORTFile function, the media objects are exported to files again in another local folder.
+This example first imports two media files \(JPEG image files\) from a local folder to the media set of a record in the table **27 Item** of the [!INCLUDE[demolonglight_md](includes/demolonglight_md.md)]. Then, using the EXPORTFile function, the media objects are exported to files again in another local folder.
 
-For using media sets on records, the **Item** table includes contains a **MediaSet** data type field that is named **Picture**.  
- The example code requires that you create the following variables and text constant:  
+For using media sets on records, the **Item** table includes a **MediaSet** data type field that is named **Picture**.  
+
+The example code requires that you create the following variables and text constant:  
 
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
@@ -74,7 +75,7 @@ For using media sets on records, the **Item** table includes contains a **MediaS
 |----------------------|--------------|
 |Text000|%1 media files were exported.|
 
- This code imports the JPEG image files \(.jpg\)from the folder *C:\images* to the first record in the **Item** table, and then exports the media files to the folder *C:\images\export*.  
+ The code imports the JPEG image files \(.jpg\) from the folder *C:\images* to record *1000* in the **Item** table, and then exports the media files to the folder *C:\images\export*.  
 
 ```  
 // Import image files the C:\images folder.  
@@ -89,7 +90,6 @@ itemRec.GET('1000');
 count := itemRec.Picture.EXPORTFILE('C:\images\export\' + 'Item1000Image.jpg');   
 Message('%1 files exported.', count);
 ```  
-
 
 ## See Also  
  [Working With Media on Records](Working-With-Media-on-Records.md)   
