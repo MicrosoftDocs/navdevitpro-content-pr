@@ -67,18 +67,18 @@ The OUTSTREAM object can be created from a BLOB field, a FILE or from a .NET Fra
 ```  
 IF myItemRec.FINDFIRST() THEN  
 BEGIN  
- REPEAT  
-   IF myItemRec.Image.HASVALUE THEN
-     BEGIN
-     fileName := 'C:\images\export\' + 'ItemPictureFromStream' + FORMAT(myItemRec."No.") + '.jpg';  
-     exportFile.CREATE(fileName);  
-     exportFile.CREATEOUTSTREAM(dataOutStream);
-     myItemRec.Image.EXPORTSTREAM(dataOutStream);
-     count := count + 1;  
-     exportFile.CLOSE;
-     END  
- UNTIL myItemRec.NEXT < 1;
- MESSAGE(Text005, count);
+  REPEAT  
+    IF myItemRec.Image.HASVALUE THEN
+    BEGIN
+      fileName := 'C:\images\export\' + 'ItemPictureFromStream' + FORMAT(myItemRec."No.") + '.jpg';  
+      exportFile.CREATE(fileName);  
+      exportFile.CREATEOUTSTREAM(dataOutStream);
+      myItemRec.Image.EXPORTSTREAM(dataOutStream);
+      count := count + 1;  
+      exportFile.CLOSE;
+    END  
+  UNTIL myItemRec.NEXT < 1;
+  MESSAGE(Text000, count);
 END;  
 
 ```  
