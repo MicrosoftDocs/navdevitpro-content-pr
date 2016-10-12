@@ -6,9 +6,8 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms.author: jswymer
 ms-prod: "dynamics-nav-2017"
-ms.assetid: 59f38aea-d525-4df8-ba51-9375b2697761
-caps.latest.revision: 5
 ---
 # IMPORTFILE Function (MediaSet)
 Adds a media, such as a JPEG image, to the **MediaSet** data type field of a record for displaying the media in the client. The media is imported to the database and included in a MediaSet for the record.  
@@ -58,9 +57,9 @@ Specifies the unique ID that is assigned to the MediaSet of the record. You can 
  In addition, the media object is assigned to a MediaSet which also has a specific GUID. This GUID is included in the MediaSet data type field as a reference to the media objects. The MediaSet and its GUID are created with the first media that is imported, and the information is stored in table **2000000183 Tenant Media Set**. All additional media objects for the record are then associated with the same MediaSet GUID.  
 
 ## Example  
-This example uses the IMPORTFILE function to add images to records in table **27 Item** of the [!INCLUDE[demolong](includes/demolong_md.md)].
+This example uses the IMPORTFILE function to add images to records in table **27 Item** of the [!INCLUDE[demolonglight_md](includes/demolonglight_md.md)].
 
-In support of the example code, you also have to complete these tasks:  
+In support of the example code, you alsmust complete these tasks:  
 
 -   Create two sample image files that you want to use on item no. 1000 in table **27 Item**.
 
@@ -76,7 +75,7 @@ The code requires that you create the following variables and text constant:
 
 |  Variable name  |  DataType  |  Subtype  |  
 |-----------------|------------|-----------|  
-|item|Record|Item|  
+|itemRec|Record|Item|  
 |count|Integer||  
 |mediasetId|GUID||  
 
@@ -84,12 +83,12 @@ The code requires that you create the following variables and text constant:
 |----------------------|--------------|  
 |Text000|The files have been imported. Item %1 has %2 pictures in MediaSet: %3|  
 ```  
-item.GET('1000');
-item.Picture.IMPORTFILE('C:\images\1000-v1.jpg', 'Demo image for item ' + FORMAT(item."No."));
-item.Picture.IMPORTFILE('C:\images\1000-v2.jpg', 'Demo image for item ' + FORMAT(item."No."));
-count := (item.Picture.COUNT);
-mediasetId := item.Picture.MEDIAID;  
-MESSAGE(Text000,item."No.",count,mediasetId);   
+itemRec.GET('1000');
+itemRec.Picture.IMPORTFILE('C:\images\1000-v1.jpg', 'Demo image for item ' + FORMAT(itemRec."No."));
+itemRec.Picture.IMPORTFILE('C:\images\1000-v2.jpg', 'Demo image for item ' + FORMAT(itemRec."No."));
+count := (itemRec.Picture.COUNT);
+mediasetId := itemRec.Picture.MEDIAID;  
+MESSAGE(Text000,item."No.", count, mediasetId);   
 ```  
 If you run system table **2000000181 Tenant Media** from the  [!INCLUDE[nav_dev_short_md](includes/nav_dev_short_md.md)], you should see the new images in the list.  
 
