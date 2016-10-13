@@ -20,8 +20,8 @@ Specifies the database that you want to open.
 
 |Field|Description|  
 |-----------|-----------------|  
-|**Server Name**|The name of the SQL Server instance. You can choose the up arrow to select the server from the [\($ S\_2341 Available Microsoft SQL Servers $\)](uiref/-$-S_2341-Available-Microsoft-SQL-Servers-$-.md) window, or you can enter the server name manually.|  
-|**Database Name**|The name of the database that you want to open. You can choose the up arrow to select the server from the [\($ S\_2342 Available Databases $\)](uiref/-$-S_2342-Available-Databases-$-.md) window, or you can enter the database name manually.|  
+|**Server Name**|The name of the SQL Server instance. You can choose the up arrow to select the server from the [\($ S\_2341 Available Microsoft SQL Servers $\)](-$-S_2341-Available-Microsoft-SQL-Servers-$-.md) window, or you can enter the server name manually.|  
+|**Database Name**|The name of the database that you want to open. You can choose the up arrow to select the server from the [\($ S\_2342 Available Databases $\)](-$-S_2342-Available-Databases-$-.md) window, or you can enter the database name manually.|  
 |**Authentication**|The authentication type that you want to use to connect to the server. You can select **Database Server Authentication** or **Windows Authentication**.|  
 |**User ID**|If you have selected **Database Server Authentication** in the **Authentication** field, then you must enter a user ID.|  
 |**Password**|If you have selected **Database Server Authentication** in the **Authentication** field, then you must enter a password.|  

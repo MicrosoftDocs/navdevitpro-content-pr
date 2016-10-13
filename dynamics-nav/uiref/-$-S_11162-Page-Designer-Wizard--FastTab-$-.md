@@ -28,4 +28,4 @@ Creates a FastTab control on a **Card** page.
 
 ## See Also  
  [How to: Add FastTabs to a Customer Card Page](../How-to--Add-FastTabs-to-a-Customer-Card-Page.md)   
- [\($ S\_11150 Page Designer Wizard, Available Fields $\)](uiref/-$-S_11150-Page-Designer-Wizard--Available-Fields-$-.md)
+ [\($ S\_11150 Page Designer Wizard, Available Fields $\)](-$-S_11150-Page-Designer-Wizard--Available-Fields-$-.md)

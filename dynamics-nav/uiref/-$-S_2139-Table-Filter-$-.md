@@ -14,7 +14,7 @@ manager: edupont
 # ($ S_2139 Table Filter $)
 Sets a filter on a field. The filter can be a constant expression, a filter, or a field.  
   
- For more information about how to open this window, see [\($ S\_2139 Table Filter $\)](uiref/-$-S_2139-Table-Filter-$-.md).  
+ For more information about how to open this window, see [\($ S\_2139 Table Filter $\)](-$-S_2139-Table-Filter-$-.md).  
   
 ## Fields  
   
