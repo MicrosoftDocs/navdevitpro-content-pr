@@ -42,7 +42,7 @@ The following sections provide an overview of the documentation for web services
 |To|See|  
 |--------|---------|  
 |Use OData to obtain an AtomPub document.|[How to: Use OData to Return-Obtain an AtomPub Document](How-to--Use-OData-to-Return-Obtain-an-AtomPub-Document.md)|  
-|Use OData to obtain a service metadata \(EDMX\) document.|[How to: Use OData to Return-Obtain a Service Metadata \(EDMX\) Document](How-to--Use-OData-to-Return-Obtain-a-Service-Metadata-\(EDMX\)-Document.md)|  
+|Use OData to obtain a service metadata \(EDMX\) document.|[How to: Use OData to Return-Obtain a Service Metadata \(EDMX\) Document](How-to--Use-OData-to-Return-Obtain-a-Service-Metadata--EDMX--Document.md)|  
 |Use OData to obtain a JavaScript Object Notation \(JSON\) document.|[How to: Use OData to Return-Obtain a JSON Document](How-to--Use-OData-to-Return-Obtain-a-JSON-Document.md)|  
 |Write to the database through an OData web service that exposes a writable page|[Using OData Web Services to Modify Data](Using-OData-Web-Services-to-Modify-Data.md)|  
 |Use filter expressions in OData URIs.|[Using Filter Expressions in OData URIs](Using-Filter-Expressions-in-OData-URIs.md)|  
@@ -54,10 +54,10 @@ The following sections provide an overview of the documentation for web services
   
 |To|See|  
 |--------|---------|  
-|Create an extension codeunit for an existing page, expose the page, and then write code that calls the page.|[Walkthrough: Creating a Web Service using Extension Codeunits \(SOAP\)](Walkthrough--Creating-a-Web-Service-using-Extension-Codeunits-\(SOAP\).md)|  
-|Create and consume a simple codeunit web service.|[Walkthrough: Creating and Using a Codeunit Web Service \(SOAP\)](Walkthrough--Creating-and-Using-a-Codeunit-Web-Service-\(SOAP\).md)|  
-|Create and consume a page as a SOAP web service.|[Walkthrough: Registering and Using a Page Web Service \(SOAP\)](Walkthrough--Registering-and-Using-a-Page-Web-Service-\(SOAP\).md)|  
+|Create an extension codeunit for an existing page, expose the page, and then write code that calls the page.|[Walkthrough: Creating a Web Service using Extension Codeunits \(SOAP\)](Walkthrough--Creating-a-Web-Service-using-Extension-Codeunits--SOAP-.md)|  
+|Create and consume a simple codeunit web service.|[Walkthrough: Creating and Using a Codeunit Web Service \(SOAP\)](Walkthrough--Creating-and-Using-a-Codeunit-Web-Service--SOAP-.md)|  
+|Create and consume a page as a SOAP web service.|[Walkthrough: Registering and Using a Page Web Service \(SOAP\)](Walkthrough--Registering-and-Using-a-Page-Web-Service--SOAP-.md)|  
 |Create and consume a page as an OData web service.|[Walkthrough: Creating and Interacting with a Page Web Service \(OData\)](Walkthrough--Creating-and-Interacting-with-a-Page-Web-Service-\(OData\).md)|  
-|View and analyze [!INCLUDE[navnow](includes/navnow_md.md)] page data in Microsoft Excel using Microsoft PowerPivot for Excel, which is a data analysis add-in.|[Walkthrough: Viewing Page Data in Excel Using PowerPivot \(OData\)](Walkthrough--Viewing-Page-Data-in-Excel-Using-PowerPivot-\(OData\).md)|  
-|Make web service communication more secure.|[Walkthrough: Configuring Web Services to Use SSL \(SOAP and OData\)](Walkthrough--Configuring-Web-Services-to-Use-SSL-\(SOAP-and-OData\).md)|  
-|Combine data from [!INCLUDE[navnowlong](includes/navnowlong_md.md)] with data from Microsoft Azure Marketplace.|[Walkthrough: Combining Data from Microsoft Dynamics NAV Queries and Pages with Data from Azure DataMarket \(OData\)](Walkthrough--Combining-Data-from-Microsoft-Dynamics-NAV-Queries-and-Pages-with-Data-from-Azure-DataMarket-\(OData\).md)|
+|View and analyze [!INCLUDE[navnow](includes/navnow_md.md)] page data in Microsoft Excel using Microsoft PowerPivot for Excel, which is a data analysis add-in.|[Walkthrough: Viewing Page Data in Excel Using PowerPivot \(OData\)](Walkthrough--Viewing-Page-Data-in-Excel-Using-PowerPivot--OData-.md)|  
+|Make web service communication more secure.|[Walkthrough: Configuring Web Services to Use SSL \(SOAP and OData\)](Walkthrough--Configuring-Web-Services-to-Use-SSL--SOAP-and-OData-.md)|  
+|Combine data from [!INCLUDE[navnowlong](includes/navnowlong_md.md)] with data from Microsoft Azure Marketplace.|[Walkthrough: Combining Data from Microsoft Dynamics NAV Queries and Pages with Data from Azure DataMarket \(OData\)](Walkthrough--Combining-Data-from-Microsoft-Dynamics-NAV-Queries-and-Pages-with-Data-from-Azure-DataMarket--OData-.md)|

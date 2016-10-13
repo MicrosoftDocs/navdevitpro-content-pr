@@ -34,6 +34,6 @@ To change an icon that is displayed with a department on the Departments page of
   
 ## See Also  
  [Bitmap Property](Bitmap-Property.md)   
- [\($ S\_2490 Menu Properties $\)](-$-S_2490-Menu-Properties-$-.md)   
+ [\($ S\_2490 Menu Properties $\)](uiref/-$-S_2490-Menu-Properties-$-.md)   
  [Designing MenuSuites](Designing-MenuSuites.md)   
  [How to: Modify a Department Menu in a MenuSuite](How-to--Modify-a-Department-Menu-in-a-MenuSuite.md)

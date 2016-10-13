@@ -13,16 +13,16 @@ manager: edupont
 ---
 # Bitmap Property
 Sets a bitmap icon to be shown with a department on the Department page of the [!INCLUDE[rtc](includes/rtc_md.md)].  
-  
+
 ## Applies To  
-  
+
 -   MenuSuite buttons  
-  
+
 ## Remarks  
  You can choose among eleven predefined bitmap icons. To specify a file, you enter an ID number from 0 to 15.  
-  
+
 ## See Also  
  [How to: Change Department Icons in the Windows Client](How-to--Change-Department-Icons-in-the-Windows-Client.md)   
  [How to: Modify a Department Menu in a MenuSuite](How-to--Modify-a-Department-Menu-in-a-MenuSuite.md)   
- [\($ S\_2490 Menu Properties $\)](-$-S_2490-Menu-Properties-$-.md)   
- [\($ S\_2420 Create Menu $\)](-$-S_2420-Create-Menu-$-.md)
+ [\($ S\_2490 Menu Properties $\)](uiref/-$-S_2490-Menu-Properties-$-.md)   
+ [\($ S\_2420 Create Menu $\)](uiref/-$-S_2420-Create-Menu-$-.md)

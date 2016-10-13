@@ -12,7 +12,7 @@ caps.latest.revision: 18
 manager: edupont
 ---
 # MenuSuites
-MenuSuites contain menus that enable users to navigate and perform actions in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. [!INCLUDE[navnow](includes/navnow_md.md)] provides a basic MenuSuite that can be modified. You can also create your own MenusSuites. You create MenuSuites in Object Designer and modify them in Navigation Pane Designer. For information about Navigation Pane Designer, see [\($ S\_2401 Navigation Pane Designer $\)](-$-S_2401-Navigation-Pane-Designer-$-.md).  
+MenuSuites contain menus that enable users to navigate and perform actions in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. [!INCLUDE[navnow](includes/navnow_md.md)] provides a basic MenuSuite that can be modified. You can also create your own MenusSuites. You create MenuSuites in Object Designer and modify them in Navigation Pane Designer. For information about Navigation Pane Designer, see [\($ S\_2401 Navigation Pane Designer $\)](uiref/-$-S_2401-Navigation-Pane-Designer-$-.md).  
   
 > [!NOTE]  
 >  MenuSuites are not supported by [!INCLUDE[nav_web](includes/nav_web_md.md)]. They are used only to build the Department page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  

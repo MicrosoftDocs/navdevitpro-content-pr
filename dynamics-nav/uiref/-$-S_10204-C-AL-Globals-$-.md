@@ -17,7 +17,7 @@ Declares global variables, text constants, and functions in [!INCLUDE[navnow](..
  To open this window, on the **Tools** menu, choose **Object Designer**. In Object Designer, choose **Table**, **Page**, **Report**, **Codeunit**, **Query** or **XMLport**, choose the **Design** button, and then on the **View** menu, choose **C/AL Globals**.  
   
 ## Variables Tab  
- You can declare global user-defined variables or system-defined variables. For more information about variables, see [C-AL Variables](C-AL-Variables.md).  
+ You can declare global user-defined variables or system-defined variables. For more information about variables, see [C-AL Variables](../C-AL-Variables.md).  
   
 |[!INCLUDE[bp_tablefield](../includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  

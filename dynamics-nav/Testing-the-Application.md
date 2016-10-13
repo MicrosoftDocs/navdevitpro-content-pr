@@ -129,7 +129,7 @@ Before you release your [!INCLUDE[navnow](includes/navnow_md.md)] application, y
 
 -   Only use hardcoded values in tests when you really need it. For all other data, consider using random data. For example, you want to test the **Ext. Doc. No. Mandatory** field in the **Purchases &amp; Payables Setup** table. To do this you need to create and post typical purchase invoice. The typical purchase invoice line specifies an amount. For most tests, it does not matter exactly what amount. For inspiration, see the use of the `GenerateRandomCode` function in the tests that are included in the **TestToolkit** folder on the [!INCLUDE[navnow](includes/navnow_md.md)] product media. For more information, see [Random Test Data](Random-Test-Data.md).  
 
--   Monitor code coverage. For more information, see [\($ N\_9990 Code Coverage $\)](-$-N_9990-Code-Coverage-$-.md).  
+-   Monitor code coverage. For more information, see [\($ N\_9990 Code Coverage $\)](uiref/-$-N_9990-Code-Coverage-$-.md).  
 
 ## See Also  
  [Application Test Automation](Application-Test-Automation.md)   

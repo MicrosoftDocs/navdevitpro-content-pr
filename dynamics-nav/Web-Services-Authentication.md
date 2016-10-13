@@ -24,7 +24,7 @@ When users send a request for a web service, they are authenticated according to
 |Learn about OAuth authentication on [!INCLUDE[navnow](includes/navnow_md.md)] web services.|[Using OAuth to Authenticate Microsoft Dynamics NAV Web Services \(Odata and SOAP\)](http://go.microsoft.com/fwlink/?LinkID=510894)|  
   
 > [!IMPORTANT]  
->  If the [!INCLUDE[nav_server](includes/nav_server_md.md)] is configured to use NavUserPassword or AccessControlService authentication, then the username, password, and access key can be exposed if the SOAP or OData data traffic is intercepted and the connection string is decoded. To avoid this condition, configure SOAP and OData web services to use Secure Socket Layer \(SSL\). For more information, see [Walkthrough: Configuring Web Services to Use SSL \(SOAP and OData\)](Walkthrough--Configuring-Web-Services-to-Use-SSL-\(SOAP-and-OData\).md)  
+>  If the [!INCLUDE[nav_server](includes/nav_server_md.md)] is configured to use NavUserPassword or AccessControlService authentication, then the username, password, and access key can be exposed if the SOAP or OData data traffic is intercepted and the connection string is decoded. To avoid this condition, configure SOAP and OData web services to use Secure Socket Layer \(SSL\). For more information, see [Walkthrough: Configuring Web Services to Use SSL \(SOAP and OData\)](Walkthrough--Configuring-Web-Services-to-Use-SSL--SOAP-and-OData-.md)  
   
  When [!INCLUDE[navnow](includes/navnow_md.md)] data is consumed by a web service, users cannot be authenticated if their user name or password contains Unicode characters. This is a limitation in the basic authentication mechanism that is defined in the HTTP/1.1 specification.  
   

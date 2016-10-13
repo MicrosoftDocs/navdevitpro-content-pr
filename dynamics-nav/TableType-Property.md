@@ -36,5 +36,5 @@ Specifies the table type.
 
 ## See Also  
  [External Tables](External-Tables.md)   
- [\($ S\_2102 Table Designer $\)](-$-S_2102-Table-Designer-$-.md)   
+ [\($ S\_2102 Table Designer $\)](uiref/-$-S_2102-Table-Designer-$-.md)   
  [Properties](Properties.md)

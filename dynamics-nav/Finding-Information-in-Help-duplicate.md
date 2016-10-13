@@ -26,7 +26,7 @@ There are several ways to access Help information in [!INCLUDE[navnow](includes/
 |Help option|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-----------------|---------------------------------------|  
 |Developer and IT Pro Help|Opens a Compiled HTML Help \(CHM\) window that contains the Developer and IT Pro Help.|  
-|About [!INCLUDE[navnow](includes/navnow_md.md)]|Displays product information, including the version number of [!INCLUDE[navnow](includes/navnow_md.md)].<br /><br /> For more information, see [\($ S\_2091 About $\)](-$-S_2091-About-$-.md).|  
+|About [!INCLUDE[navnow](includes/navnow_md.md)]|Displays product information, including the version number of [!INCLUDE[navnow](includes/navnow_md.md)].<br /><br /> For more information, see [\($ S\_2091 About $\)](uiref/-$-S_2091-About-$-.md).|  
   
  In the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], you can locate the Help options on the **Application** menu ![Application Menu button in menu bar](media/ApplicationMenuIcon.png "ApplicationMenuIcon").  
   
@@ -37,7 +37,7 @@ There are several ways to access Help information in [!INCLUDE[navnow](includes/
 |[!INCLUDE[navnow](includes/navnow_md.md)] Help|Opens a topic related to the window or page that you are working in.|  
 |Page Notes|Opens the OneNote page that has been shared across a company.<br /><br /> For more information, see [How to: Set up OneNote Integration for a Group of Users](How-to--Set-up-OneNote-Integration-for-a-Group-of-Users.md).|  
 |About This Page|Provides information about all fields and values that are in the table on which a table or report is based.<br /><br /> For more information, see [How to: View All Table Fields for a Record](How-to--View-All-Table-Fields-for-a-Record.md).|  
-|About [!INCLUDE[navnow](includes/navnow_md.md)]|Displays product information, including the version number of [!INCLUDE[navnow](includes/navnow_md.md)].<br /><br /> For more information, see [\($ S\_2091 About $\)](-$-S_2091-About-$-.md).|  
+|About [!INCLUDE[navnow](includes/navnow_md.md)]|Displays product information, including the version number of [!INCLUDE[navnow](includes/navnow_md.md)].<br /><br /> For more information, see [\($ S\_2091 About $\)](uiref/-$-S_2091-About-$-.md).|  
   
 ## [!INCLUDE[navnow](includes/navnow_md.md)] Help Server  
  When you access Help from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)], Help opens in a browser that shows the content from the [!INCLUDE[navnow](includes/navnow_md.md)] Help Server. The [!INCLUDE[navnow](includes/navnow_md.md)] Help Server is a website with a high-level navigation in the left pane, and a Search box to help you find exactly what you are looking for.  

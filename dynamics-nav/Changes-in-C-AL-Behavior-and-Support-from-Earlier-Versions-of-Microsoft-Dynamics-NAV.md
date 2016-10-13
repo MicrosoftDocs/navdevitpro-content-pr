@@ -40,7 +40,7 @@ See the C/AL Functions section for a description of the data type functions.|
 |[CHANGECOMPANY Function \(RecordRef\)](CHANGECOMPANY-Function--RecordRef-.md)|Redirects references to table data from one company to another.|  
 |[COUNT Function \(MediaSet\)](COUNT-Function--MediaSet-.md)|Gets the number of media files that are included in a media set of a record.|  
 |[EXPORTFILE Function \(Media\)](EXPORTFILE-Function--Media-.md)|Exports a media object that is set up on a record to a file.|  
-|[EXPORTFILE Function](EXPORTFILE-Function.md)|Exports the media objects that included in a media set to individual files.|  
+|[EXPORTFILE Function](EXPORTFILE-Function--MediaSet-.md)|Exports the media objects that included in a media set to individual files.|  
 |[EXPORTSTREAM Function \(Media\)](EXPORTSTREAM-Function--Media-.md)|Exports a media object that is set up on a record to an OutStream object.|  
 |[HASVALUE Function \(Media\)](HASVALUE-Function--Media-.md)|Detects whether a record has a media object in the **Media** data type field.|  
 |[IMPORTFILE Function \(Media\)](IMPORTFILE-Function--Media-.md)|Adds media from a file to a media set of a record.|  
