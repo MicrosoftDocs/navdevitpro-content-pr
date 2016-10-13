@@ -6,9 +6,8 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms.author: jswymer
 ms-prod: "dynamics-nav-2017"
-ms.assetid: 62c90423-764c-451b-ad12-8d8e6c0dd4e1
-caps.latest.revision: 3
 manager: edupont
 ---
 # EXPORTFILE Function (MediaSet)
@@ -17,7 +16,7 @@ Exports the media objects in the current media set of a record to individual fil
 ## Syntax  
 
 ```  
-[Count := ]Record.MediaSet.EXPORTFILE(FileNamePrefix)  
+[count := ]Record.MediaSetField.EXPORTFILE(FileNamePrefix)  
 ```  
 
 #### Parameters  
@@ -47,7 +46,7 @@ Exports the media objects in the current media set of a record to individual fil
 ## Property Value/Return Value  
  Type: Integer  
 
- The number of media files that were generated and stored in the output file path.  
+ Specifies the number of media files that were generated and stored in the output file path.  
 
 ## Remarks  
  The exported media files will be of the same media file type as when they were imported. For more information about the media types, see [Supported Media Types](Working-With-Media-on-Records.md#SupportedMediaTypes).
@@ -61,37 +60,36 @@ The function has the following behavior:
 -   If a media in the media set cannot be found in the database, no file will be generated for this object.  
 
 ## Example  
- This example imports three image files from a local folder into the media set of a record in the **Item** table. Then, the media objects are exported to another local folder. This example assumes that **Item** table contains a **MediaSet** data type field that is named **itemGallery**.  
+This example first imports two media files \(JPEG image files\) from a local folder to the media set of a record in the table **27 Item** of the [!INCLUDE[demolonglight_md](includes/demolonglight_md.md)]. Then, using the EXPORTFILE function, the media objects are exported to files again in another local folder.
 
- The example code requires that you create the following variables:  
+For using media sets on records, the **Item** table includes a **MediaSet** data type field that is named **Picture**.  
+
+The example code requires that you create the following variables and text constant:  
 
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
-|Item|Record|Item|  
-|MediaCount|Boolean| |  
+|itemRec|Record|Item|  
+|count|Boolean| |  
 
- This code imports the image \(.jpg\) files from the folder *C:\\images* to the first record in the **Item** table, and then exports the media files to the folder *C:\\images\\export*.  
+|  Text constant name  |  ConstValue  |
+|----------------------|--------------|
+|Text000|%1 media files were exported.|
+
+ The code imports the JPEG image files \(.jpg\) from the folder *C:\images* to record *1000* in the **Item** table, and then exports the media files to the folder *C:\images\export*.  
 
 ```  
-// Import three image files the C:\images folder.  
-IF Item.FINDFIRST() THEN  
-BEGIN  
-  Item.ItemGallery.IMPORTFILE('C:\images\FirstItemA.jpg', 'Gallery A');  
-  item.ItemGallery.IMPORTFILE('C:\images\FirstItemA.jpg', 'Gallery B');  
-  item.ItemGallery.IMPORTFILE('C:\images\FirstItemC.jpg', 'Gallery C');  
-  Item.MODIFY;  
-END;  
-COMMIT;  
+// Import image files the C:\images folder.  
+itemRec.GET('1000');
+itemRec.Picture.IMPORTFILE('C:\images\1000-v1.jpg', 'Demo image for item ' + FORMAT(itemRec."No."));
+itemRec.Picture.IMPORTFILE('C:\images\1000-v2.jpg', 'Demo image for item ' + FORMAT(itemRec."No."));
+itemRec.MODIFY;
+COMMIT;
 
-// Export the MediaSet to three separate image files in the c:\images\export folder.  
-IF Item.FINDFIRST() THEN  
-BEGIN  
-  MediaCount := Item.ItemGallery.EXPORTFILE('C:\images\export\' + 'FirstItemGallery.jpg');  
-END;  
-Message('Exported %1 files', MediaCount);  
+// Export the MediaSet to two separate image files in the c:\images\export folder.  
+itemRec.GET('1000');
+count := itemRec.Picture.EXPORTFILE('C:\images\export\' + 'Item1000Image.jpg');   
+Message('%1 files exported.', count);
 ```  
-
- The folder *C:\\images\\export* will contain these files: FirstItemGallery-1.jpg, FirstItemGallery-2.jpg, and FirstItemGallery-3.jpg.  
 
 ## See Also  
  [Working With Media on Records](Working-With-Media-on-Records.md)   

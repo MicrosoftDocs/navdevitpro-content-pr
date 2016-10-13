@@ -97,7 +97,7 @@ If your current solution is based on [!INCLUDE[nav7long](includes/nav7long_md.md
   
 6.  Run the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] as an administrator, and then set the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] to use the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that connects to the database.  
   
-     For more information, see [How to: Change the Microsoft Dynamics NAV Server Instance](How-to--Change-the-Microsoft-Dynamics-NAV-Server-Instance.md) or [\($ S\_2349 Database Information $\)](-$-S_2349-Database-Information-$-.md).  
+     For more information, see [How to: Change the Microsoft Dynamics NAV Server Instance](How-to--Change-the-Microsoft-Dynamics-NAV-Server-Instance.md) or [\($ S\_2349 Database Information $\)](uiref/-$-S_2349-Database-Information-$-.md).  
   
 7.  Run the schema synchronization to complete the database conversion.  
   

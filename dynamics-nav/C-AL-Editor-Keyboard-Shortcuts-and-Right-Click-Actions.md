@@ -45,6 +45,6 @@ This topic describes the keyboard shortcuts and right-click actions in the C/AL 
   
 ## See Also  
  [Programming in C-AL](Programming-in-C-AL.md)   
- [\($ S\_10203\_1 C-AL Editor $\)](-$-S_10203_1-C-AL-Editor-$-.md)   
- [\($ S\_10204 C-AL Globals $\)](-$-S_10204-C-AL-Globals-$-.md)   
- [\($ S\_10205 C-AL Locals $\)](-$-S_10205-C-AL-Locals-$-.md)
+ [\($ S\_10203\_1 C-AL Editor $\)](uiref/-$-S_10203_1-C-AL-Editor-$-.md)   
+ [\($ S\_10204 C-AL Globals $\)](uiref/-$-S_10204-C-AL-Globals-$-.md)   
+ [\($ S\_10205 C-AL Locals $\)](uiref/-$-S_10205-C-AL-Locals-$-.md)

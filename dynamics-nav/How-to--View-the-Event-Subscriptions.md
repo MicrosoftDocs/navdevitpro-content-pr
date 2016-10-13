@@ -26,7 +26,7 @@ You can view information about all the subscribers to events in an application f
   
 3.  On the **Home** tab, in the **Events** group, choose **Subscriptions**.  
   
- The **9510 Event Subscriptions** page lists the event subscribers in the application. For information about the fields for each entry, see [\($ N\_9510 Event Subscriptions $\)](-$-N_9510-Event-Subscriptions-$-.md)  
+ The **9510 Event Subscriptions** page lists the event subscribers in the application. For information about the fields for each entry, see [\($ N\_9510 Event Subscriptions $\)](uiref/-$-N_9510-Event-Subscriptions-$-.md)  
   
 ## See Also  
  [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)   

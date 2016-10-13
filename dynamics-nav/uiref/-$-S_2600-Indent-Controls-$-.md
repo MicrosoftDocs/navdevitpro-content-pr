@@ -14,7 +14,7 @@ manager: edupont
 # ($ S_2600 Indent Controls $)
 Specifies whether a column or columns \(controls\) are indented in a Repeater subtype control on a page.  
   
- To open this window, open Page Designer, select a control, and then on the **View** menu, choose **Properties**. Locate the **IndentationControls** property, and then choose the **AssistEdit** button in the **Value** field. For more information about how to open Page Designer, see [\($ S\_21401 Page Designer $\)](-$-S_21401-Page-Designer-$-.md).  
+ To open this window, open Page Designer, select a control, and then on the **View** menu, choose **Properties**. Locate the **IndentationControls** property, and then choose the **AssistEdit** button in the **Value** field. For more information about how to open Page Designer, see [\($ S\_21401 Page Designer $\)](uiref/-$-S_21401-Page-Designer-$-.md).  
   
 > [!IMPORTANT]  
 >  When indentation is specified, it is no longer possible to use sorting on the columns in the repeater control.  

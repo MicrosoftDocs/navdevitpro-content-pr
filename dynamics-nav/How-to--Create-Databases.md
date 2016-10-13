@@ -36,7 +36,7 @@ You can create new [!INCLUDE[navnow](includes/navnow_md.md)] databases in the [!
   
 7.  Choose **OK** to connect to the server and open the **\($ S\_2338 New Database $\)** window.  
   
-     In the [\($ S\_2338 New Database $\)](-$-S_2338-New-Database-$-.md) window, enter the information about the database that you want to create. The window contains the same tabs as the **\($ S\_2339 Alter Database $\)** window. The tabs are the following:  
+     In the [\($ S\_2338 New Database $\)](uiref/-$-S_2338-New-Database-$-.md) window, enter the information about the database that you want to create. The window contains the same tabs as the **\($ S\_2339 Alter Database $\)** window. The tabs are the following:  
   
     -   [Altering Databases - General Tab](Altering-Databases---General-Tab.md)  
   

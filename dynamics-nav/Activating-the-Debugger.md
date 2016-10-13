@@ -36,7 +36,7 @@ You can use the [!INCLUDE[navnow](includes/navnow_md.md)] Debugger to debug your
   
  Selecting **Debug Next** is useful if you want to debug web services. A web service call exists as a session only for the duration of the web service call, which typically is not long enough for you to select the specific session on the **Session List** page. To debug a web service, we recommend that you set your breakpoint, select **Debug Next**, and then make the web service call.  
   
- If the session that you want to debug is connected to a different [!INCLUDE[nav_server](includes/nav_server_md.md)] instance than the one that is currently specified in the [\($ S\_2355 Options $\)](-$-S_2355-Options-$-.md) window, then you can change to a different instance, and then activate the debugger in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. For more information, see [How to: Change the Microsoft Dynamics NAV Server Instance](How-to--Change-the-Microsoft-Dynamics-NAV-Server-Instance.md).  
+ If the session that you want to debug is connected to a different [!INCLUDE[nav_server](includes/nav_server_md.md)] instance than the one that is currently specified in the [\($ S\_2355 Options $\)](uiref/-$-S_2355-Options-$-.md) window, then you can change to a different instance, and then activate the debugger in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. For more information, see [How to: Change the Microsoft Dynamics NAV Server Instance](How-to--Change-the-Microsoft-Dynamics-NAV-Server-Instance.md).  
   
 ## See Also  
  [Debugging](Debugging.md)

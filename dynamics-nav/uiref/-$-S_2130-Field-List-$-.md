@@ -16,7 +16,7 @@ Selects fields in the table.
 
  To open this window, open Table Designer, and then on the **View** menu, choose **Keys**. In the **Keys** window, choose the **AssistEdit** button in the **Key** field.  
 
- In this window, choose the **Up Arrow** button to open the [\($ S\_2122 Field List $\)](-$-S_2122-Field-List-$-.md) window.  
+ In this window, choose the **Up Arrow** button to open the [\($ S\_2122 Field List $\)](uiref/-$-S_2122-Field-List-$-.md) window.  
 
 ## See Also  
  [Table Keys](../Table-Keys.md)
