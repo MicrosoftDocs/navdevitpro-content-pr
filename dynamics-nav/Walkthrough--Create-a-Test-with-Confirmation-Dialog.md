@@ -147,4 +147,4 @@ Most tests run automatically without a dependency on the user interface. However
  [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough--Testing-Purchase-Invoice-Discounts.md)   
  [Testing the Application](Testing-the-Application.md)   
  [Application Test Automation](Application-Test-Automation.md)   
- [\($ N\_9990 Code Coverage $\)](-$-N_9990-Code-Coverage-$-.md)
+ [\($ N\_9990 Code Coverage $\)](uiref/-$-N_9990-Code-Coverage-$-.md)
