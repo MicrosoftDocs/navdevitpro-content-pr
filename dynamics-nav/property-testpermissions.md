@@ -40,10 +40,10 @@ The TestPermissions property works together with the **OnBeforeTestRun** and **O
 
 ## See Also
 [Testing With Permission Sets](testing-permissionsets.md)  
-[Testing the Application](testing-testingapplication.md)  
-[How to: Create a Test Runner Codeunit](testing-howcreatetestrunnercodeunit)  
-[How to: Create Test Codeunits and Test Functions](testing-howcreatetestcodeunitsfunctions.md)  
-[How to: Create Handler Functions](howcreatehandlerfunctions.md)  
-[Walkthrough: Testing Purchase Invoice Discounts](testing-walkthroughtestingpurchaseinvoice.md)  
+[Testing the Application](Testing-the-Application.md)  
+[How to: Create a Test Runner Codeunit](How-to--Create-a-Test-Runner-Codeunit.md)  
+[How to: Create Test Codeunits and Test Functions](How-to--Create-Test-Codeunits-and-Test-Functions.md)  
+[How to: Create Handler Functions](How-to--Create-Handler-Functions.md)  
+[Walkthrough: Testing Purchase Invoice Discounts](Walkthrough--Testing-Purchase-Invoice-Discounts.md)  
 [OnAfterTestRun Trigger](trigger-onaftertestrun.md)  
 [OnBeforeTestRun Trigger](trigger-onbeforetestrun.md)  

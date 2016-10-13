@@ -90,7 +90,7 @@ This topic describes how to configure SQL Server Authentication between the [!IN
   
 10. If you want to enable encryption on SQL Server connections, in the **Action** pane, choose **Configuration**, and then choose the **Edit** button. In the **Database** tab, select **Enable Encryption on SQL Connections**, choose the **Save** button, and then the **OK** button.  
   
-11. Restart the server instance. For more information, see [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How-to--Start,-Stop,-Restart,-or-Remove-a-Microsoft-Dynamics-NAV-Server-Instance.md).  
+11. Restart the server instance. For more information, see [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How-to--Start--Stop--Restart--or-Remove-a-Microsoft-Dynamics-NAV-Server-Instance.md).  
   
 #### To configure SQL Authentication on Microsoft NAV Server Instance using [!INCLUDE[nav_shell](includes/nav_shell_md.md)]  
   
@@ -143,7 +143,7 @@ This topic describes how to configure SQL Server Authentication between the [!IN
   
      For more information see [How to: Mount or Dismount a Tenant on a Microsoft Dynamics Server Instance](How-to--Mount-or-Dismount-a-Tenant-on-a-Microsoft-Dynamics-Server-Instance.md).  
   
-5.  Restart the server instance. For more information, see [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How-to--Start,-Stop,-Restart,-or-Remove-a-Microsoft-Dynamics-NAV-Server-Instance.md).  
+5.  Restart the server instance. For more information, see [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How-to--Start--Stop--Restart--or-Remove-a-Microsoft-Dynamics-NAV-Server-Instance.md).  
   
 #### To configure SQL Authentication on Microsoft NAV Server Instance using [!INCLUDE[nav_shell](includes/nav_shell_md.md)]  
   

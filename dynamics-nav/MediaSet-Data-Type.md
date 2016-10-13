@@ -21,4 +21,4 @@ The **MediaSet** data type enables you to import media to the application databa
  [IMPORTFILE Function \(MediaSet\)](IMPORTFILE-Function--MediaSet-.md)   
  [IMPORTSTREAM Function \(MediaSet\)](IMPORTSTREAM-Function--MediaSet-.md)   
  [MEDIAID Function \(MediaSet\)](MEDIAID-Function--MediaSet-.md)   
- [EXPORTFILE Function](EXPORTFILE-Function--MediaSet-.md)
+ [EXPORTFILE Function](EXPORTFILE-Function-MediaSet.md)

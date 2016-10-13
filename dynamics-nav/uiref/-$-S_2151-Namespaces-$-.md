@@ -26,7 +26,7 @@ Specifies namespaces for the XMLport that imports or exports data as XML.
  To specify the default namespace, leave the **Prefix** field blank.  
 
 > [!NOTE]  
->  You can only define one default namespace. You can also define a space by specifying the namespace in the [DefaultNamespace Property](../DefaultNamespace-Property.md) and setting the [UseDefaultNamespace Property](Use../DefaultNamespace-Property.md) to **Yes**. If you want to specify the default namespace in this window, then you must set the **UseDefaultNamespace** Property to **No**.  
+>  You can only define one default namespace. You can also define a space by specifying the namespace in the [DefaultNamespace Property](../DefaultNamespace-Property.md) and setting the [UseDefaultNamespace Property](../DefaultNamespace-Property.md) to **Yes**. If you want to specify the default namespace in this window, then you must set the **UseDefaultNamespace** Property to **No**.  
 
  For more information about namespaces with XMLports, see [Using Namespaces with XMLports](../Using-Namespaces-with-XMLports.md).  
 

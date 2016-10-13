@@ -126,7 +126,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
 
 4.  Restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
 
-     For more information, see [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How-to--Start,-Stop,-Restart,-or-Remove-a-Microsoft-Dynamics-NAV-Server-Instance.md).  
+     For more information, see [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How-to--Start--Stop--Restart--or-Remove-a-Microsoft-Dynamics-NAV-Server-Instance.md).  
 
  When changes occur in the table **5071 Campaign**, an integration record will be created or updated with a timestamp. You can now use the table to create a page for coupling [!INCLUDE[navnow](includes/navnow_md.md)] records with [!INCLUDE[crm](includes/crm_md.md)] records.  
 

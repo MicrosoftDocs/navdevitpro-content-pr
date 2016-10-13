@@ -68,7 +68,7 @@ This topic describes how you can deploy a [!INCLUDE[navnow](includes/navnow_md.m
 
      In the Azure Management Portal, create a virtual machine on which you will later install the [!INCLUDE[nav_server](includes/nav_server_md.md)].  
 
-    1.  Choose an image for an operating system that is supported by the [!INCLUDE[nav_server](includes/nav_server_md.md)]. For more information, see [Microsoft Dynamics NAV Server Requirements](System-Requirements-for-Microsoft-Dynamics-NAV-2016.md#NavServerReqs) supported  
+    1.  Choose an image for an operating system that is supported by the [!INCLUDE[nav_server](includes/nav_server_md.md)]. For more information, see [Microsoft Dynamics NAV Server Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#NavServerReqs) supported  
 
     2.  Make a note of the Cloud Service DNS Name and the user name and password that you specified because you will need this later.  
 
