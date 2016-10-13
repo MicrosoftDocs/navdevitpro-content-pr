@@ -22,5 +22,5 @@ Designs the **Options** FastTab of a request page. Request pages let users speci
 
 ## See Also  
  [Request Pages](../Request-Pages.md)   
- [Visible Property-duplicate](../Visible-Property-duplicate.md)   
- [ApplicationArea Property](../ApplicationArea-Property.md)
+ [Visible Property-duplicate](../../Visible-Property-duplicate.md)   
+ [ApplicationArea Property](../../ApplicationArea-Property.md)

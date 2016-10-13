@@ -29,7 +29,7 @@ The Open Data Protocol \(OData\) is a web protocol that is designed for querying
 |To|See|  
 |--------|---------|  
 |Use OData to obtain an AtomPub document.|[How to: Use OData to Return-Obtain an AtomPub Document](How-to--Use-OData-to-Return-Obtain-an-AtomPub-Document.md)|  
-|Use OData to obtain a service metadata \(EDMX\) document.|[How to: Use OData to Return-Obtain a Service Metadata \(EDMX\) Document](How-to--Use-OData-to-Return-Obtain-a-Service-Metadata-\(EDMX\)-Document.md)|  
+|Use OData to obtain a service metadata \(EDMX\) document.|[How to: Use OData to Return-Obtain a Service Metadata \(EDMX\) Document](How-to--Use-OData-to-Return-Obtain-a-Service-Metadata--EDMX--Document.md)|  
 |Use OData to obtain a JavaScript Object Notation \(JSON\) document.|[How to: Use OData to Return-Obtain a JSON Document](How-to--Use-OData-to-Return-Obtain-a-JSON-Document.md)|  
 |Use filter expressions in OData URIs.|[Using Filter Expressions in OData URIs](Using-Filter-Expressions-in-OData-URIs.md)|  
 |Use FlowFilters in OData URIs.|[How to: Use FlowFilters in OData URIs](How-to--Use-FlowFilters-in-OData-URIs.md)|  
