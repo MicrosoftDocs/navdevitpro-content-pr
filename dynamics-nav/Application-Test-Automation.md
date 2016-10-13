@@ -88,4 +88,4 @@ You can write application tests in C/AL and run them individually or collectivel
  [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough--Testing-Purchase-Invoice-Discounts.md)   
  [Random Test Data](Random-Test-Data.md)   
  [Testing the Application](Testing-the-Application.md)   
- [\($ N\_9990 Code Coverage $\)](-$-N_9990-Code-Coverage-$-.md)
+ [\($ N\_9990 Code Coverage $\)](uiref/-$-N_9990-Code-Coverage-$-.md)
