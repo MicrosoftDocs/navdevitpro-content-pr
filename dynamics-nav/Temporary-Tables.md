@@ -40,13 +40,13 @@ A temporary table is a temporary variable that holds a table. A temporary table 
   
      If you choose **C/AL Globals**, the **C/AL Globals** window appears.  
   
-     ![C&#47;AL Globals window](media/NAV_ADG_8_Table_31.gif "NAV\_ADG\_8\_Table\_31")  
+     ![C&#47;AL Globals window](media/NAV_ADG_8_Table_31.png "NAV\_ADG\_8\_Table\_31")  
   
 3.  Enter a name for the temporary table variable, and enter or select **Record** as the data type. Use the up arrow in the **Subtype** field to select the table to copy.  
   
 4.  With the cursor still on the line that defines the temporary table, choose **View**, and then choose **Properties** \(Shift+F4\) to display the **Properties** window.  
   
-     ![Properties window](media/NAV_ADG_8_Table_32.gif "NAV\_ADG\_8\_Table\_32")  
+     ![Properties window](media/NAV_ADG_8_Table_32.png "NAV\_ADG\_8\_Table\_32")  
   
 5.  Change the value of the **Temporary** property to Yes.  
   

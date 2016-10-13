@@ -41,7 +41,7 @@ You can choose from the following page types:
 ## Designing Pages  
  You create page objects using Page Designer. In Page Designer, a page is basically an XML object comprised of a number of XML elements that determine the layout and the page content. The following illustration shows an example of Page Designer.  
   
- ![Page Designer overview](media/NAV_PageDesigner.gif "NAV\_PageDesigner")  
+ ![Page Designer overview](media/NAV_PageDesigner.png "NAV\_PageDesigner")  
   
  To add content to a page, you add containers that divide the page into separate areas which add different parts and content to the page. Each page type has a specific set of controls that can be used with that page type. For example, Cues can only be used on Role Center pages and FastTabs can only be used on Card and Document pages. The card page type shows a number of different controls used on one page type. It includes FastTabs, FactBoxes, Actions, and ribbon controls.  
   
