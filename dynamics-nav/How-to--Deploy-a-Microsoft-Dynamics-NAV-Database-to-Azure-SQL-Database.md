@@ -28,7 +28,8 @@ This topic describes how you can deploy a [!INCLUDE[navnow](includes/navnow_md.m
 
     -   [!INCLUDE[navnow](includes/navnow_md.md)] database is installed on a SQL Server Database Engine instance. SQL Server Manager is also installed on the same computer.  
 
-        Make sure the database does not contain users with Windows credentials. Only users with SQL authentication are allowed.
+        Make sure the database does not contain users with Windows credentials. Only users with SQL authentication are allowed.  
+
         Also, you must have saved a valid [!INCLUDE[navnow](includes/navnow_md.md)] license file in the database before you upload it to Azure SQL Database. For more information, see [Uploading a License File for a Specific Database](How-to--Upload-the-License-File.md#UploadtoDatabase).  
 
     -   Access to the [!INCLUDE[navnow](includes/navnow_md.md)] installation media \(DVD\).  
