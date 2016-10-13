@@ -74,7 +74,7 @@ If a business scenario requires a workflow event or a workflow response that is 
 
 2.  Create a global function in the codeunit. Name the function to reflect that it is used to identify the workflow event, such as MyWorkflowEventCode. For more information, see [How to: Add a Function to a Codeunit](How-to--Add-a-Function-to-a-Codeunit.md).  
 
-3.  Open the **C/AL Locals** window to add a local return value. For more information, see [\($ S\_10205 C-AL Locals $\)](-$-S_10205-C-AL-Locals-$-.md).  
+3.  Open the **C/AL Locals** window to add a local return value. For more information, see [\($ S\_10205 C-AL Locals $\)](uiref/-$-S_10205-C-AL-Locals-$-.md).  
 
 4.  On the **Return Value** tab, fill the fields as described in the following table.  
 

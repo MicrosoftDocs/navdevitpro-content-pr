@@ -40,4 +40,4 @@ Specifies the system setup options for the current database.
  [How to: Change the Microsoft Dynamics NAV Server Instance](../How-to:-Change-the-Microsoft-Dynamics-NAV-Server-Instance.md)   
  [Managing Microsoft Dynamics NAV Server Instances](../Managing-Microsoft-Dynamics-NAV-Server-Instances.md)   
  [Locking and Unlocking Objects](../Locking-and-Unlocking-Objects.md)   
- [\($ S\_11001 Find $\)](-$-S_11001-Find-$-.md)
+ [\($ S\_11001 Find $\)](uiref/-$-S_11001-Find-$-.md)

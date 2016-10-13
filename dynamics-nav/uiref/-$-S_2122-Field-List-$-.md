@@ -17,5 +17,5 @@ Specifies all fields in the table that you selected.
  To open this window, open Table Designer, and then on the **View** menu, choose **Keys**. In the **Keys** window, choose the **Up Arrow** button in the **Key** field.  
 
 ## See Also  
- [\($ S\_2130 Field List $\)](-$-S_2130-Field-List-$-.md)   
+ [\($ S\_2130 Field List $\)](uiref/-$-S_2130-Field-List-$-.md)   
  [Table Keys](../Table-Keys.md)

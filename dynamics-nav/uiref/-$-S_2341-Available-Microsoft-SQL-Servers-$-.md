@@ -14,7 +14,7 @@ manager: edupont
 # ($ S_2341 Available Microsoft SQL Servers $)
 Shows a list of the SQL Server instances that are currently available in the domain. The **Server Name** field contains the names of the SQL Server instances that are currently available.  
 
- To open this window, open the **Open Database** window, and then on the **General** tab, choose the **Up Arrow** button in the **Server Name** field. For more information about how to open the **Open Database** window, see [\($ S\_2335 Open Database $\)](-$-S_2335-Open-Database-$-.md).  
+ To open this window, open the **Open Database** window, and then on the **General** tab, choose the **Up Arrow** button in the **Server Name** field. For more information about how to open the **Open Database** window, see [\($ S\_2335 Open Database $\)](uiref/-$-S_2335-Open-Database-$-.md).  
 
  To choose a server that is on the list, either select it and then choose the **OK** button or double-click the server name.  
 

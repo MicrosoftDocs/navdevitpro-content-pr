@@ -14,4 +14,4 @@ manager: edupont
 # ($ S_2155 Chart List $)
 Contains a list of charts that can be added to a page. The name and ID of the chart is listed in this window. When you select a chart, a link is created to the selected chart.  
   
- To open this window, open Page Designer, select a **Part** control, and then on the **View** menu, choose **Properties**. In the **Properties** window, locate the **ChartPartID** property, and then choose the **Up Arrow** button in the **Value** field. For more information about how to open Page Designer, see [\($ S\_21401 Page Designer $\)](-$-S_21401-Page-Designer-$-.md).
+ To open this window, open Page Designer, select a **Part** control, and then on the **View** menu, choose **Properties**. In the **Properties** window, locate the **ChartPartID** property, and then choose the **Up Arrow** button in the **Value** field. For more information about how to open Page Designer, see [\($ S\_21401 Page Designer $\)](uiref/-$-S_21401-Page-Designer-$-.md).

@@ -44,7 +44,7 @@ In order to work in the application, you must always open a database and a compa
 >  \($ P\_1 Product Name $\) will automatically open the database and company that you were last working on when you reopen the program.  
   
 ## See Also  
- [\($ S\_2341 Available Microsoft SQL Servers $\)](-$-S_2341-Available-Microsoft-SQL-Servers-$-.md)   
+ [\($ S\_2341 Available Microsoft SQL Servers $\)](uiref/-$-S_2341-Available-Microsoft-SQL-Servers-$-.md)   
  [How to: Create Databases](How-to--Create-Databases.md)   
  [How to: Create Companies](How-to--Create-Companies.md)   
  [\($ S\_COMPANY How to: Select a Company $\)](\($-S_COMPANY-How-to--Select-a-Company-$\).md)   

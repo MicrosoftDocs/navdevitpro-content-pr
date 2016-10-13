@@ -19,5 +19,5 @@ Shows the available [!INCLUDE[nav_server](../includes/nav_server_md.md)] instanc
  The available [!INCLUDE[nav_server](../includes/nav_server_md.md)] instances are stored in table 2000000112, the **\($ T\_2000000112 Server Instance $\)** table. For more information, see [\($ T\_2000000112 Server Instance $\)](../($-T_2000000112-Server-Instance-$\).md).  
 
 ## See Also  
- [\($ S\_2349 Database Information $\)](-$-S_2349-Database-Information-$-.md)   
+ [\($ S\_2349 Database Information $\)](uiref/-$-S_2349-Database-Information-$-.md)   
  [How to: Change the Microsoft Dynamics NAV Server Instance](../How-to--Change-the-Microsoft-Dynamics-NAV-Server-Instance.md)

@@ -30,7 +30,7 @@ In some cases, you may want to change the [!INCLUDE[nav_server](includes/nav_ser
 3.  Select a server instance, and then choose the **OK** button.  
   
     > [!NOTE]  
-    >  The instance that you select is also displayed in the [\($ S\_2355 Options $\)](-$-S_2355-Options-$-.md) window.  
+    >  The instance that you select is also displayed in the [\($ S\_2355 Options $\)](uiref/-$-S_2355-Options-$-.md) window.  
   
 ### To change the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance by specifying the field in the Database Options window  
   
@@ -39,7 +39,7 @@ In some cases, you may want to change the [!INCLUDE[nav_server](includes/nav_ser
 2.  In the **Options** window, in the **Server Instance** field, enter the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The format is \<*servername*>:\<*port*>/\<*ServerInstance*>.  
   
     > [!NOTE]  
-    >  The value that you set is also displayed in the [\($ S\_2349 Database Information $\)](-$-S_2349-Database-Information-$-.md) window.  
+    >  The value that you set is also displayed in the [\($ S\_2349 Database Information $\)](uiref/-$-S_2349-Database-Information-$-.md) window.  
   
 ## See Also  
  [Running Objects from the Development Environment](Running-Objects-from-the-Development-Environment.md)   

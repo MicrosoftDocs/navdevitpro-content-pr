@@ -14,7 +14,7 @@ manager: edupont
 # How to: Alter Databases
 You can change the database property settings that you selected when you created the database.  
   
- The **Alter Database** window gives you access to the same settings as the [\($ S\_2338 New Database $\)](-$-S_2338-New-Database-$-.md) window.  
+ The **Alter Database** window gives you access to the same settings as the [\($ S\_2338 New Database $\)](uiref/-$-S_2338-New-Database-$-.md) window.  
   
 > [!NOTE]  
 >  You cannot alter a database by using the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] if the database is deployed on Azure SQL Database.  
@@ -84,4 +84,4 @@ You can change the database property settings that you selected when you created
      For more information, see [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How-to--Start,-Stop,-Restart,-or-Remove-a-Microsoft-Dynamics-NAV-Server-Instance.md).  
   
 ## See Also  
- [\($ S\_2339 Alter Database $\)](-$-S_2339-Alter-Database-$-.md)
+ [\($ S\_2339 Alter Database $\)](uiref/-$-S_2339-Alter-Database-$-.md)
