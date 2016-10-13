@@ -21,7 +21,7 @@ Modifies a menu for a department. The menu represents a department in a company.
 |Property|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
 |**Caption**|The caption of the menu.|  
-|**CaptionML**|The string that is used to identify the menu in the user interface. The [CaptionML Property](CaptionML-Property.md) is multilanguage enabled. Therefore, it can contain a list of text strings in different languages. The string that is used is selected according to the language settings on your computer.|  
+|**CaptionML**|The string that is used to identify the menu in the user interface. The [CaptionML Property](../CaptionML-Property.md) is multilanguage enabled. Therefore, it can contain a list of text strings in different languages. The string that is used is selected according to the language settings on your computer.|  
 |**Bitmap**|The bitmap that is displayed on the menu button in Navigation Pane Designer. The valid bitmap values are from 0 to 15. The number represents the bitmap.|  
 
 ## See Also  
