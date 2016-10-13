@@ -14,7 +14,7 @@ manager: edupont
 # ($ S_2148 Column Filter $)
 Sets a filter on the Column row of a query.  
   
- To open this window, open Query Designer, and then select a column in the designer. On the **View** menu, choose **Properties**, locate the **ColumnFilter** property, and then choose the **AssistEdit** button in the **Value** field. For more information about how to open Query Designer, see [\($ S\_22401 Query Designer $\)](-$-S_22401-Query-Designer-$-.md).  
+ To open this window, open Query Designer, and then select a column in the designer. On the **View** menu, choose **Properties**, locate the **ColumnFilter** property, and then choose the **AssistEdit** button in the **Value** field. For more information about how to open Query Designer, see [\($ S\_22401 Query Designer $\)](uiref/-$-S_22401-Query-Designer-$-.md).  
   
 > [!NOTE]  
 >  The filter on a Column row is similar to a filter on a data item except that the filter of a Column row can be programmatically overwritten by calling the [SETFILTER Function \(Query\)](SETFILTER-Function--Query-.md) and [SETRANGE Function \(Query\)](SETRANGE-Function--Query-.md) from C/AL code.  

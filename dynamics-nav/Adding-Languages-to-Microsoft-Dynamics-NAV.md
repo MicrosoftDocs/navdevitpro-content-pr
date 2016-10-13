@@ -22,7 +22,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can display the user interface
   
      For more information, see [Developing Multilanguage-Enabled Applications](Developing-Multilanguage-Enabled-Applications.md).  
   
--   Text messages that are defined in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], such as text constants and error messages that are defined in the [\($ S\_10204 C-AL Globals $\)](-$-S_10204-C-AL-Globals-$-.md) window or the **C/AL Locals** window.  
+-   Text messages that are defined in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], such as text constants and error messages that are defined in the [\($ S\_10204 C-AL Globals $\)](uiref/-$-S_10204-C-AL-Globals-$-.md) window or the **C/AL Locals** window.  
   
 -   Text messages and strings that are defined in [!INCLUDE[nav_server](includes/nav_server_md.md)] and [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   

@@ -23,7 +23,7 @@ XMLports are used to export or import data between an external source and a [!IN
   
 |To|See|  
 |--------|---------|  
-|Read about the XMLport Designer window.|[\($ S\_21001 XMLport Designer $\)](-$-S_21001-XMLport-Designer-$-.md)|  
+|Read about the XMLport Designer window.|[\($ S\_21001 XMLport Designer $\)](uiref/-$-S_21001-XMLport-Designer-$-.md)|  
 |Read about triggers available for XMLports and XMLport elements.|[XMLport Triggers](XMLport-Triggers.md)|  
 |Learn how to design an XMLport for import or export.|-   [Designing XMLports](Designing-XMLports.md)<br />-   [How to: Create XMLports](How-to--Create-XMLports.md)|  
 |Learn how to create codeunits to run XMLports.|[How to: Create Codeunits to Run XMLports](How-to--Create-Codeunits-to-Run-XMLports.md)|  

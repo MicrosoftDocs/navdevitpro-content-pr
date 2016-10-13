@@ -16,7 +16,7 @@ Designs the **Options** FastTab of a request page. Request pages let users speci
 
  To open this window, on the **Tools** menu, choose **Object Designer**, choose **Report**, choose the **Design** button, and then on the **View** menu, choose **Request Page**.  
 
- This window behaves similarly to Page Designer. For more information, see [\($ S\_21401 Page Designer $\)](-$-S_21401-Page-Designer-$-.md).  
+ This window behaves similarly to Page Designer. For more information, see [\($ S\_21401 Page Designer $\)](uiref/-$-S_21401-Page-Designer-$-.md).  
 
  To show or hide a column, on the **View** menu, choose **Show Column** or **Hide Column**.  
 

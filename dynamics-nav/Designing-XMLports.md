@@ -12,7 +12,7 @@ caps.latest.revision: 32
 manager: edupont
 ---
 # Designing XMLports
-XMLports are used to export data from or import data to a [!INCLUDE[navnow](includes/navnow_md.md)] database. The import or export is between the database and an external file. XMLports enable seamless exchange of data between different computer systems. XMLports are used to import and export data to and from text files, CSV, and XML files. You can use XMLports to export or import data from multiple tables in the database. Although you can design an XMLport for both import and export, XMLports are typically designed for either import or export. To use an XMLport, you first design it in **XMLport Designer** and set properties for the XMLport. For more information about the **XMLport Designer** window, see [\($ S\_21001 XMLport Designer $\)](-$-S_21001-XMLport-Designer-$-.md). After the XMLport is designed, you create a codeunit to run the XMLport or run it from **Object Designer**.  
+XMLports are used to export data from or import data to a [!INCLUDE[navnow](includes/navnow_md.md)] database. The import or export is between the database and an external file. XMLports enable seamless exchange of data between different computer systems. XMLports are used to import and export data to and from text files, CSV, and XML files. You can use XMLports to export or import data from multiple tables in the database. Although you can design an XMLport for both import and export, XMLports are typically designed for either import or export. To use an XMLport, you first design it in **XMLport Designer** and set properties for the XMLport. For more information about the **XMLport Designer** window, see [\($ S\_21001 XMLport Designer $\)](uiref/-$-S_21001-XMLport-Designer-$-.md). After the XMLport is designed, you create a codeunit to run the XMLport or run it from **Object Designer**.  
   
 ## Designing an XMLport  
  To create an XMLport that exports or imports data, you first specify the root of the file that you want to import or export and then specify the data items and the fields. For example, to create an XMLport that exports data from a [!INCLUDE[navnow](includes/navnow_md.md)] database to an XML document, you first specify the root of the XML document by using the `<Root></Root>` element, specify all the XML node names, and then choose the type for each node to indicate whether it represents an element or an attribute. You then map these node names to corresponding data structures, such as tables, text, or fields. For more information, see [How to: Create XMLports](How-to--Create-XMLports.md).  
@@ -96,5 +96,5 @@ XMLports are used to export data from or import data to a [!INCLUDE[navnow](incl
   
 ## See Also  
  [XMLport Walkthroughs](XMLport-Walkthroughs.md)   
- [\($ S\_21001 XMLport Designer $\)](-$-S_21001-XMLport-Designer-$-.md)   
+ [\($ S\_21001 XMLport Designer $\)](uiref/-$-S_21001-XMLport-Designer-$-.md)   
  [XMLports](XMLports.md)

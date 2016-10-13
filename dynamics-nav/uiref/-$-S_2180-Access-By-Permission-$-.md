@@ -31,6 +31,6 @@ Specifies an object to which users must have certain permissions before the rela
  [How to: Specify When UI Elements Are Removed](../How-to--Specify-When-UI-Elements-Are-Removed.md)   
  [Removing Elements from the User Interface According to Permissions](../Removing-Elements-from-the-User-Interface-According-to-Permissions.md)   
  [How to: Try Out the UI Elements Removal Feature Based on Demonstration Permission Sets](../How-to--Try-Out-the-UI-Elements-Removal-Feature-Based-on-Demonstration-Permission-Sets.md)   
- [\($ S\_2180 Access By Permission $\)](-$-S_2180-Access-By-Permission-$-.md)   
+ [\($ S\_2180 Access By Permission $\)](uiref/-$-S_2180-Access-By-Permission-$-.md)   
  [How to: Define Permissions for Users](../How-to--Define-Permissions-for-Users.md)   
  [Managing Permissions and Permission Sets](../Managing-Permissions-and-Permission-Sets.md)
