@@ -1104,7 +1104,7 @@
 # [How to: Break on the Next Statement](How-to--Break-on-the-Next-Statement.md)
 # [($ S_2342 Available Databases $)](uiref/-$-S_2342-Available-Databases-$-.md)
 # [Deploying Microsoft Dynamics NAV Using the Example Scripts](Deploying-Microsoft-Dynamics-NAV-Using-the-Example-Scripts.md)
-# [EXPORTFILE Function](EXPORTFILE-Function.md)
+# [EXPORTFILE Function](EXPORTFILE-Function--MediaSet-.md)
 # [TableFilter Data Type](TableFilter-Data-Type.md)
 # [C-AL BREAK Statement](C-AL-BREAK-Statement.md)
 # [PaperSourceDefaultPage Property](PaperSourceDefaultPage-Property.md)
