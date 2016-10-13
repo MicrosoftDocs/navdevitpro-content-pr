@@ -23,7 +23,7 @@ This section contains information to help you resolve problems with [!INCLUDE[na
   
 -   [Troubleshooting: 401 - Unauthorized: Access is denied due to invalid credentials.](Troubleshooting--401---Unauthorized:-Access-is-denied-due-to-invalid-credentials..md)  
   
--   [Troubleshooting: HTTP Error 500 \(or 500.21\) - Internal Server Error Handler](Troubleshooting--HTTP-Error-500-\(or-500.21\)---Internal-Server-Error-Handler.md)  
+-   [Troubleshooting: HTTP Error 500 \(or 500.21\) - Internal Server Error Handler](Troubleshooting--HTTP-Error-500--or-500.21----Internal-Server-Error-Handler.md)  
   
 -   [Troubleshooting: HTTP 500.13 - The request cannot be processed because the amount of traffic exceeds the Web site's configured capacity](Troubleshooting--HTTP-500.13---The-request-cannot-be-processed-because-the-amount-of-traffic-exceeds-the-Web-site's-configured-capacity.md)  
   

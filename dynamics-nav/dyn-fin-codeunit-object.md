@@ -29,6 +29,6 @@ The codeunit object contains a definition of ... A codeunit definition can conta
 ## Remarks  
   
 ## See Also  
- [Pages](../dynamics-nav/Pages.md)   
- [How to: Create a Page](../dynamics-nav/How%20to:%20Create%20a%20Page.md)   
- [Properties](../dynamics-nav/Properties.md)
+ [Pages](Pages.md)   
+ [How to: Create a Page](How-to--Create-a-Page.md)   
+ [Properties](Properties.md)

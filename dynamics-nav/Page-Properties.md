@@ -200,7 +200,7 @@ This topic lists properties that apply to the page object, controls, and actions
 
 -   [SourceExpr Property](SourceExpr-Property.md)  
 
--   [Style Property](Style-Property.md)  
+-   [Style Property](Style-Property-duplicate.md)  
 
 -   [StyleExpr Property](StyleExpr-Property.md)  
 

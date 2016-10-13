@@ -191,4 +191,4 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], creating new reports is di
 ## See Also  
  [How to: Make a Report Available from a Page](How-to--Make-a-Report-Available-from-a-Page.md)   
  [Walkthrough: Creating a Link from a Report to a Page](Walkthrough--Creating-a-Link-from-a-Report-to-a-Page.md)   
- [Walkthrough: Designing a Report with Images, Interactive Sorting, and Visibility Toggle](Walkthrough--Designing-a-Report-with-Images,-Interactive-Sorting,-and-Visibility-Toggle.md)
+ [Walkthrough: Designing a Report with Images, Interactive Sorting, and Visibility Toggle](Walkthrough--Designing-a-Report-with-Images--Interactive-Sorting--and-Visibility-Toggle.md)
