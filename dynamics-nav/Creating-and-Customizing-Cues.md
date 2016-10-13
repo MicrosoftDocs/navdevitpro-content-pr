@@ -65,7 +65,7 @@ This topic provides an overview of Cues and the tasks involved in creating and c
   
 2.  Set the [FieldClass Property](FieldClass-Property.md) to **FlowField** or **Normal**.  
   
-     If field is a FlowField, then set the [CalcFormula Property](CalcFormula-Property.md) to calculate the Cue data. For more information, see and [How to: Create, View, and Edit a Calculation Formula](How-to--Create,-View,-and-Edit-a-Calculation-Formula.md).  
+     If field is a FlowField, then set the [CalcFormula Property](CalcFormula-Property.md) to calculate the Cue data. For more information, see and [How to: Create, View, and Edit a Calculation Formula](How-to--Create--View--and-Edit-a-Calculation-Formula.md).  
   
 ### Adding a Primary Key Field for FlowFields  
  A table must have at least one data field. Because a **FlowField** is based on a calculation, it not considered an actual data field. Therefore, if the Cue table only includes FlowFields, you must add "dummy" primary key field that does not yield any data.  
