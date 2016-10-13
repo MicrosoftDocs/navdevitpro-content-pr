@@ -23,5 +23,5 @@ Sorts rows in a dataset from a query in ascending or descending order by a colum
   
 |[!INCLUDE[bp_tablefield](../includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
-|**Column**|The name of the query column as specified by its [Name Property-duplicate](../Name-Property-duplicate.md).|  
+|**Column**|The name of the query column as specified by its [Name Property-duplicate](../../Name-Property-duplicate.md).|  
 |**Direction**|The direction of the sort. You can choose **Ascending** or **Descending**.|
