@@ -38,5 +38,5 @@ Depending on which version you are upgrading from, and the degree to which your 
  [Upgrading the Application Code](Upgrading-the-Application-Code.md)   
  [Upgrading the Data](Upgrading-the-Data.md)   
  [Changes in C-AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV](Changes-in-C-AL-Behavior-and-Support-from-Earlier-Versions-of-Microsoft-Dynamics-NAV.md)   
- [What's New: Developer and IT Pro Changes for Microsoft Dynamics NAV](What's-New:-Developer-and-IT-Pro-Changes-for-Microsoft-Dynamics-NAV.md)   
+ [What's New: Developer and IT Pro Changes for Microsoft Dynamics NAV](What-s-New--Developer-and-IT-Pro-Changes-for-Microsoft-Dynamics-NAV.md)   
  [What’s New: Application Changes for Microsoft Dynamics NAV](What%E2%80%99s-New:-Application-Changes-for-Microsoft-Dynamics-NAV.md)

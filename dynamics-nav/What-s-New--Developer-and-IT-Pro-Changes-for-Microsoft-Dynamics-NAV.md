@@ -175,4 +175,4 @@ manager: edupont
  For a list of new, changed, or removed Windows PowerShell cmdlets, see [Changes to Microsoft Dynamics NAV Cmdlets From Previous Release](Changes-to-Microsoft-Dynamics-NAV-Cmdlets-From-Previous-Release.md).  
   
 ## See Also  
- [What’s New: Application Changes for Microsoft Dynamics NAV](What%E2%80%99s-New:-Application-Changes-for-Microsoft-Dynamics-NAV.md)
+ [What’s New: Application Changes for Microsoft Dynamics NAV](What-s-New:-Application-Changes-for-Microsoft-Dynamics-NAV.md)

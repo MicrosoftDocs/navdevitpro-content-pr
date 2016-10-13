@@ -16,7 +16,7 @@ To get started developing in [!INCLUDE[navnowlong](includes/navnowlong_md.md)], 
   
 |To|See|  
 |--------|---------|  
-|Learn about new features in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].|-   [What's New: Developer and IT Pro Changes for Microsoft Dynamics NAV](What's-New:-Developer-and-IT-Pro-Changes-for-Microsoft-Dynamics-NAV.md)<br />-   [What’s New: Application Changes for Microsoft Dynamics NAV](What%E2%80%99s-New:-Application-Changes-for-Microsoft-Dynamics-NAV.md)|  
+|Learn about new features in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].|-   [What's New: Developer and IT Pro Changes for Microsoft Dynamics NAV](What-s-New--Developer-and-IT-Pro-Changes-for-Microsoft-Dynamics-NAV.md)<br />-   [What’s New: Application Changes for Microsoft Dynamics NAV](What-s-New:-Application-Changes-for-Microsoft-Dynamics-NAV.md)|  
 |Find documentation about developer or IT pro tasks.|[Finding Information in Help-duplicate](Finding-Information-in-Help-duplicate.md)|  
 |Learn about the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] from the perspective of a developer.|[Touring the RoleTailored Client for Developers](Touring-the-RoleTailored-Client-for-Developers.md)|  
 |Learn about the [!INCLUDE[nav_web](includes/nav_web_md.md)] from the perspective of a developer.|[Microsoft Dynamics NAV Web Client](Microsoft-Dynamics-NAV-Web-Client.md)|  
