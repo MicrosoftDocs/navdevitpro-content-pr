@@ -20,19 +20,19 @@ Creates a database.
 
  The **\($ S2338 New Database $\)** window contains the same tabs as the [\($ S\_2339 Alter Database $\)](-$-S_2339-Alter-Database-$-.md) window. The window contains the following tabs:  
 
--   [Altering Databases - General Tab](Altering-Databases---General-Tab.md)  
+-   [Altering Databases - General Tab](../Altering-Databases---General-Tab.md)  
 
--   [Altering Databases - Database Files Tab](Altering-Databases---Database-Files-Tab.md)  
+-   [Altering Databases - Database Files Tab](../Altering-Databases---Database-Files-Tab.md)  
 
--   [Altering Databases - Transaction Log Files Tab](Altering-Databases---Transaction-Log-Files-Tab.md)  
+-   [Altering Databases - Transaction Log Files Tab](../Altering-Databases---Transaction-Log-Files-Tab.md)  
 
--   [Altering Databases - Collation Tab](Altering-Databases---Collation-Tab.md)  
+-   [Altering Databases - Collation Tab](../Altering-Databases---Collation-Tab.md)  
 
--   [Altering Databases - Options Tab](Altering-Databases---Options-Tab.md)  
+-   [Altering Databases - Options Tab](../Altering-Databases---Options-Tab.md)  
 
--   [Altering Databases - Integration Tab](Altering-Databases---Integration-Tab.md)  
+-   [Altering Databases - Integration Tab](../Altering-Databases---Integration-Tab.md)  
 
--   [Altering Databases - Advanced Tab](Altering-Databases---Advanced-Tab.md)  
+-   [Altering Databases - Advanced Tab](../Altering-Databases---Advanced-Tab.md)  
 
 ## See Also  
  [How to: Create Databases](../How-to--Create-Databases.md)
