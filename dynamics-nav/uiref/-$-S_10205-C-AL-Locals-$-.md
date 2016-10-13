@@ -12,7 +12,7 @@ caps.latest.revision: 16
 manager: eliotgra
 ---
 # ($ S_10205 C/AL Locals $)
-Declares local variables and text constants in [!INCLUDE[navnow](../includes/navnow_md.md)]. Local variables can only exist in the scope of triggers or functions. For more information about variables, see [C-AL Variables](../C-AL-Variables.md).  
+Declares local variables and text constants in [!INCLUDE[navnow](../includes/navnow_md.md)]. Local variables can only exist in the scope of triggers or functions. For more information about variables, see [C-AL Variables](../../C-AL-Variables.md).  
 
  To open this window, on the **Tools** menu, choose **Object Designer**, choose **Codeunit**, and then on the **View** menu, choose **C/AL Locals**.  
 
