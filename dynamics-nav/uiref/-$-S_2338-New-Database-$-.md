@@ -14,11 +14,11 @@ manager: edupont
 # ($ S_2338 New Database $)
 Creates a database.  
 
- Before you can enter any information in this window, you must enter the correct information in the [\($ S\_2345 Select Server $\)](uiref/-$-S_2345-Select-Server-$-.md) window.  
+ Before you can enter any information in this window, you must enter the correct information in the [\($ S\_2345 Select Server $\)](-$-S_2345-Select-Server-$-.md) window.  
 
  To open this window, on the **File** menu, choose **Database**, choose **New**, and then in the **Select Server** window, choose the **OK** button.  
 
- The **\($ S2338 New Database $\)** window contains the same tabs as the [\($ S\_2339 Alter Database $\)](uiref/-$-S_2339-Alter-Database-$-.md) window. The window contains the following tabs:  
+ The **\($ S2338 New Database $\)** window contains the same tabs as the [\($ S\_2339 Alter Database $\)](-$-S_2339-Alter-Database-$-.md) window. The window contains the following tabs:  
 
 -   [Altering Databases - General Tab](Altering-Databases---General-Tab.md)  
 

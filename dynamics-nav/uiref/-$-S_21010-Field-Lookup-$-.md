@@ -14,7 +14,7 @@ manager: edupont
 # ($ S_21010 Field Lookup $)
 Creates a lookup for a field in an XMLport.  
   
- To open this window, open XMLport Designer, select a field attribute, and then choose the **Up Arrow** button in the **Data source** field. For more information about how to open XMLport Designer, see [\($ S\_21001 XMLport Designer $\)](uiref/-$-S_21001-XMLport-Designer-$-.md).  
+ To open this window, open XMLport Designer, select a field attribute, and then choose the **Up Arrow** button in the **Data source** field. For more information about how to open XMLport Designer, see [\($ S\_21001 XMLport Designer $\)](-$-S_21001-XMLport-Designer-$-.md).  
   
 ## Controls  
   

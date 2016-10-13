@@ -33,4 +33,4 @@ Shows variables, functions, and objects that are defined in the **\($ S\_10204 C
  For example, if you select **DATABASE** in the left column, then the middle column displays **Functions** and **Tables** as subcategories. If you select **Functions** in the middle column, then all database functions are displayed. If you select **Tables** in the middle column, then all tables in the database are displayed.  
   
 ## See Also  
- [\($ S\_10203\_1 C-AL Editor $\)](uiref/-$-S_10203_1-C-AL-Editor-$-.md)
+ [\($ S\_10203\_1 C-AL Editor $\)](-$-S_10203_1-C-AL-Editor-$-.md)

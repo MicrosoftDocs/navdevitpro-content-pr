@@ -39,5 +39,5 @@ When you publish a page as a SOAP web service, it has a set of default operation
 |[UpdateMultiple Operation](UpdateMultiple-Operation.md)|Updates a set of records.<br /><br /> `void UpdateMultiple(ref Entity[] entity)`|  
   
 ## See Also  
- [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](Walkthrough--Registering-and-Using-a-Page-Web-Service-\(SOAP\).md)   
- [Walkthrough: Creating a Web Service using Extension Codeunits \(SOAP\)](Walkthrough--Creating-a-Web-Service-using-Extension-Codeunits-\(SOAP\).md)
+ [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](Walkthrough--Registering-and-Using-a-Page-Web-Service--SOAP-.md)   
+ [Walkthrough: Creating a Web Service using Extension Codeunits \(SOAP\)](Walkthrough--Creating-a-Web-Service-using-Extension-Codeunits--SOAP-.md)
