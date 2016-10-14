@@ -12,12 +12,12 @@ caps.latest.revision: 22
 ---
 # Field Data Types
 After you select an identification number and name for a field, you have to select an appropriate data type. Each of the different field types is designed to hold a specific kind of information, such as text, numbers, or dates. Each field type has a specific size.  
-  
+
 > [!NOTE]  
 >  Sizes are rounded up to the nearest 4 bytes.  
-  
+
  Fields in a record can be of the following types.  
-  
+
 |Data type|Description|Size|  
 |---------------|-----------------|----------|  
 |[BigInteger Data Type](BigInteger-Data-Type.md)|A 64-bit integer.|8 bytes|  
@@ -36,18 +36,18 @@ After you select an identification number and name for a field, you have to sele
 |[TableFilter Data Type](TableFilter-Data-Type.md)|This data type is used to apply a filter to another table.<br /><br /> Currently, this can only be used to apply security filters from the **Permission** table.||  
 |[Text Data Type](Text-Data-Type.md)|Any alphanumeric string. The field must be defined to be between 1 and 250 characters. The number of bytes used by a text field equals \(number of characters + 1\) \* 2. The additional character is used for the string terminating character, which is '0' in Unicode. The size of a Unicode character is 2 bytes. Therefore, you multiply the number of characters by two to get the size.<br /><br /> For example, if a Text value is 6 characters, then the number of bytes used is the following:<br /><br /> \(6+1\)\*2 = 14 bytes, rounded up to the nearest 4 bytes = 16 bytes used.<br /><br /> An empty text string has the length zero.|\(Number of characters+ 1 character\) \* 2 bytes per character|  
 |[Time Data Type](Time-Data-Type.md)|Any time in the range 00:00:00 to 23:59:59.999. A time field contains 1 plus the number of milliseconds since 00:00:00 o'clock, or 0 \(zero\), an undefined time. A time value is calculated in the following way:<br /><br /> `Time = 1 + (number of milliseconds since 00:00:00).`<br /><br /> The size of the corresponding SQL data type, **DATETIME**, is 8 bytes. <sup>(A)(B)</sup>|A time field is stored as an integer \(four bytes\)|  
-  
+
  \(A\) The calculation of the size of a specific SQL Server record requires more than just summing the sizes of the field values. Refer to Microsoft SQL Server documentation for more information.  
-  
+
  \(B\) This is the SQL Server data type that [!INCLUDE[navnow](includes/navnow_md.md)] uses when it creates the [!INCLUDE[navnow](includes/navnow_md.md)] data type. For more information, see [Identifiers, Data Types, and Data Formats](Identifiers--Data-Types--and-Data-Formats.md).  
-  
+
  In addition to the fields discussed in this section, tables can include the following special types of fields that are used to retrieve data:  
-  
+
 -   FlowField  
-  
+
 -   FlowFilter  
-  
+
  For more information, see [FlowFields](FlowFields.md) and [FlowFilter Overview](FlowFilter-Overview.md).  
-  
+
 ## See Also  
- [C-AL Functions](C-AL-Functions.md)
+ [C/AL Functions](C-AL-Functions.md)

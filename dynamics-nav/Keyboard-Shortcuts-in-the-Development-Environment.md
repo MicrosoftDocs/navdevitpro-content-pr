@@ -13,7 +13,7 @@ manager: edupont
 ---
 # Keyboard Shortcuts in the Development Environment
 The following table provides an overview of shortcut key combinations in the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
-  
+
 |**Keyboard Shortcut**|**Action**|  
 |---------------------------|----------------|  
 |Right Arrow|Move to the next field or character|  
@@ -39,7 +39,7 @@ The following table provides an overview of shortcut key combinations in the [!I
 |Esc|Save and close window \(equivalent to choosing the OK button\)|  
 |F3|Insert new line|  
 |Alt+F4|Close window or close program|  
-  
+
 ## See Also  
  [Keyboard Shortcuts](Keyboard-Shortcuts.md)   
- [C-AL Editor Keyboard Shortcuts and Right-Click Actions](C-AL-Editor-Keyboard-Shortcuts-and-Right-Click-Actions.md)
+ [C/AL Editor Keyboard Shortcuts and Right-Click Actions](C-AL-Editor-Keyboard-Shortcuts-and-Right-Click-Actions.md)

@@ -13,10 +13,10 @@ manager: edupont
 ---
 # Differences and Limitations When Developing Pages for the Microsoft Dynamics NAV Universal App
 Developing for the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLUDE[nav_phone](includes/nav_phone_md.md)] is not much different from developing for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], or [!INCLUDE[nav_web](includes/nav_web_md.md)]. There are, however, some natural limitations on tablets and phones, such as not having a physical keyboard and mouse, as well as a smaller screen. In addition to this, there are some differences and limitations in developing pages for [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLUDE[nav_phone](includes/nav_phone_md.md)]. The differences and limitations listed are additional to the differences and limitations that exist on the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)].  
-  
+
 ## Differences and Limitations Overview  
  The following table describes some of the most common differences and limitations that you might experience when developing for [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLUDE[nav_phone](includes/nav_phone_md.md)].  
-  
+
 |Concept|On Tablet|On Phone|Example|Recommendation|  
 |-------------|---------------|--------------|-------------|--------------------|  
 |Activity buttons|Only the Home activity button is shown.|Only the Home activity button is shown.|**Home**, **Departments**, and **Posted Documents** on the Sales Order Processor Role Center.|Design pages to expose the workflows needed by the user. For example, configure the profile to show the important list pages under the Home activity button. Alternatively, consider designing a new Role Center if the activities for the activity button greatly vary from activities in other activity buttons.|  
@@ -39,11 +39,11 @@ Developing for the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLU
 |Indentation in repeater controls|Available.|Not available. The repeater control will be rendered as a regular flat brick layout.|Chart of Accounts and Contacts List pages.||  
 |Scope of actions|Available.|Available, but there are some behavioral differences regarding the [Scope Property](Scope-Property.md). Also, see [Defining Action Scope for Microsoft Dynamics NAV Pages](Defining-Action-Scope-for-Microsoft-Dynamics-NAV-Pages.md).|||  
 |Use of camera and location|Available in the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] on devices with a camera and GPS capabilities.<br /><br /> **NOTE:** Not available on [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)].|Available in the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] on devices with a camera and GPS capabilities.<br /><br /> **NOTE:** Not available on [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)].|On the Accounting Manager profile, under **Incoming Documents**.||  
-  
+
 ## See Also  
  [Developing for the Microsoft Dynamics NAV Universal App](Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)   
  [Developing for the Microsoft Dynamics NAV Web Client](Developing-for-the-Microsoft-Dynamics-NAV-Web-Client.md)   
  [Role Center Behaviors](Role-Center-Behaviors.md)   
  [How to: Display Data as Bricks](How-to--Display-Data-as-Bricks.md)   
- [How to: Implement the Camera in C-AL](How-to--Implement-the-Camera-in-C-AL.md)   
- [How to: Implement Location in C-AL](How-to--Implement-Location-in-C-AL.md)
+ [How to: Implement the Camera in C/AL](How-to--Implement-the-Camera-in-C-AL.md)   
+ [How to: Implement Location in C/AL](How-to--Implement-Location-in-C-AL.md)

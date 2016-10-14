@@ -13,19 +13,19 @@ manager: edupont
 ---
 # System
 This section contains the following topics:  
-  
+
 -   [Array Functions](Array-Functions.md)  
-  
+
 -   [Error Handling](Error-Handling.md)  
-  
+
 -   [Language Functions](Language-Functions.md)  
-  
+
 -   [Operating System Functions](Operating-System-Functions.md)  
-  
+
 -   [Variable Functions](Variable-Functions.md)  
-  
+
 -   [Encryption Functions](Encryption-Functions.md)  
-  
+
 ## See Also  
- [C-AL Functions](C-AL-Functions.md)   
+ [C/AL Functions](C-AL-Functions.md)   
  [Technical Reference](Technical-Reference.md)
