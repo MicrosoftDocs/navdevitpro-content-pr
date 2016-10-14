@@ -6,9 +6,9 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
-ms.author:"jswymer"
+ms.author: jswymer
 manager: edupont
+ms-prod: "dynamics-nav-2017"
 ---
 # Notification Data Type
 A complex type for publishing and consuming notifications in the application. Notifications provide a programmatic way to send non-intrusive information to the user interface (UI).

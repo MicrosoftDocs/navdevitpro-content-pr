@@ -6,10 +6,9 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms.author: jswymer
 ms-prod: "dynamics-nav-2017"
-ms.author:"jswymer"
 ---
-
 # OnBeforeTestRun Trigger
 Executed before a test function of a test codeunit is run.
 
@@ -23,32 +22,35 @@ OnBeforeTestRun(CodeunitID : Integer;CodeunitName : Text[30];FunctionName : Text
 
 Type: Integer
 
-The ID of the codeunit that has run.
+Specifies the ID of the codeunit that has run.
 
 *CodeunitName*
 
 Type: Text
 
-The name of the test codeunit that has run.
+Specifies the name of the test codeunit to be run.
 
 *FunctionName*
 
 Type: Text
 
-The name of the test function that has run.
+Specifies the name of the test function to be run.
 
-**Note:**  This parameter is empty when the OnAfterTestRun trigger is called for the whole test codeunit.
+> [!NOTE]  
+>  This parameter is empty when the **OnBeforeTestRun** trigger is called for the entire test codeunit.  
 
-*TestPermissions*
+*Permissions*
 
 Type: TestPermissions
 
-The value of the **TestPermissions** property of the test function for determining which permission sets to test. The parameter accepts the following values:
+Specifies the permission set level to use on the test run. The value is retrieved from the [TestPermissions property](testing-permissionsets.md) of the test codeunit or test function that is run. The parameter accepts the following values:
 
 *   **Disabled**
 *   **Restrictive**
 *   **NonRestrictive**
 *   **InheritFromTestCodunit** - Specifies that a test the function uses the **TestPermissions** property setting of the test codeunit to which it belongs.
+
+For more information, see [Testing With Permission Sets](testing-permissionsets.md). 
 
 ## Return Value
 *Ok*
@@ -71,7 +73,7 @@ By using the *TestPermissions* parameter, you can add code to control which perm
 
 The **OnBeforeTestRun** trigger is run in its own database transaction.
 
-For more information, see Testing the Application and How to: Create a Test Runner Codeunit.
+For more information, see [Testing the Application](Testing-the-Application.md) and [How to: Create a Test Runner Codeunit](How-to--Create-a-Test-Runner-Codeunit.md).  
 
 ## Example
 The following **OnBeforeTestRun** trigger code initializes a logging variable and returns true to indicate that the test function should execute. This example requires that you create the following global variable.
