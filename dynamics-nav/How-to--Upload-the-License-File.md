@@ -29,7 +29,7 @@ After an administrator or a Microsoft Certified Partner initially installs [!INC
 1.  Start the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
 
     > [!NOTE]  
-    >  On a computer running any version of Windows with User Access Control enabled, you must start the development environment with administrator privileges. In the **Start** menu, right-click **[!INCLUDE[navnow](includes/navnow_md.md)] Development Environment** in the Start menu, and then choose **Run as administrator**.  
+    >  On a computer running any version of Windows with User Access Control enabled, you must start the development environment with administrator privileges. In the **Start** menu, right-click **[!INCLUDE[navnow](includes/navnow_md.md)] Development Environment**, and then choose **Run as administrator**.  
 
 2.  Verify that you are connected to your database. On the **File** menu, point to **Database**, and then choose **Open**.  
 
