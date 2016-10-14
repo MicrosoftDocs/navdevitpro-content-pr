@@ -35,7 +35,7 @@ To make your extension available to users, the package must be published to a sp
   
 ### To install an extension  
   
--   In the BROKEN-INCLUDE-nav_admin_shell, use the `Install-NAVApp` cmdlet. The following example installs the MyExtension for Tenant1 and Tenant3. In single-tenant deployments, you either specify default as the tenant ID, or you omit the *–Tenant* parameter.  
+-   In the `nav_admin_shell` <!-- LINK CMDLET -->, use the `Install-NAVApp` cmdlet. The following example installs the MyExtension for Tenant1 and Tenant3. In single-tenant deployments, you either specify default as the tenant ID, or you omit the *–Tenant* parameter.  
   
     ```  
     Install-NAVApp -ServerInstance YourDynamicsNAVServer -Name ”My Extension” –Tenant Tenant1, Tenant3  
