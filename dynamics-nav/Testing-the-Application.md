@@ -100,7 +100,7 @@ Before you release your [!INCLUDE[navnow](includes/navnow_md.md)] application, y
 ### ASSERTERROR Keyword  
  When you test your application, you should test that your code performs as expected under both successful and failing conditions. These are called positive and negative tests. To test how your application performs under failing conditions, you can use the ASSERTERROR keyword. The ASSERTERROR keyword specifies that an error is expected at run time in the statement that follows the ASSERTERROR keyword. If a simple or compound statement that follows the ASSERTERROR keyword causes an error, then execution successfully continues to the next statement in the test function. If a statement that follows the ASSERTERROR keyword does not cause an error, then the ASSERTERROR statement itself fails with an error, and the test function that is running produces a FAILURE result.  
 
- For more information, see [C-AL ASSERTERROR Statements](C-AL-ASSERTERROR-Statements.md).  
+ For more information, see [C/AL ASSERTERROR Statements](C-AL-ASSERTERROR-Statements.md).  
 
 ## Testing Best Practices  
  We recommend the following best practices for designing your application tests:  

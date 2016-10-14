@@ -13,20 +13,20 @@ manager: edupont
 ---
 # Triggers
 Triggers are available for the different objects in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] as described in the following sections:  
-  
+
 -   [Report and Data Item Triggers](Report-and-Data-Item-Triggers.md)  
-  
+
 -   [Table and Field Triggers](Table-and-Field-Triggers.md)  
-  
+
 -   [XMLport Triggers](XMLport-Triggers.md)  
-  
+
 -   [Page and Action Triggers](Page-and-Action-Triggers.md)  
-  
+
 -   [Codeunit Triggers](Codeunit-Triggers.md)  
-  
+
 -   [Query Triggers](Query-Triggers.md)  
-  
+
 ## See Also  
- [C-AL Functions](C-AL-Functions.md)   
+ [C/AL Functions](C-AL-Functions.md)   
  [Properties](Properties.md)   
  [Triggers Overview](Triggers-Overview.md)

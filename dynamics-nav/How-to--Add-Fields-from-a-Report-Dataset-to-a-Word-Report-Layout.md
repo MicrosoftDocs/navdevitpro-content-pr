@@ -28,7 +28,7 @@ A report dataset can consist of fields that display labels, data, and images. Th
   
      urn:microsoft-dynamics-nav/reports/*report\_name*/*ID*  
   
-     *report\_name* is the name that is assigned to the report as specified by the report's [Name Property-duplicate](Name-Property-duplicate.md).  
+     *report\_name* is the name that is assigned to the report as specified by the report's [Name Property](Name-Property-duplicate.md).  
   
      *ID* is the identification number of the report.  
   

@@ -17,7 +17,7 @@ This topic lists properties of the XMLport object, element, and attribute.
 ## XMLport Object Properties  
  The following properties apply to the **XMLport** object.  
   
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
   
 -   [CaptionML Property](CaptionML-Property.md)  
   
@@ -41,7 +41,7 @@ This topic lists properties of the XMLport object, element, and attribute.
   
 -   [InlineSchema Property](InlineSchema-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [NamespacePrefix Property](NamespacePrefix-Property.md)  
   

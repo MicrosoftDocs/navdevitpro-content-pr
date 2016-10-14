@@ -42,7 +42,7 @@ NAS services are a middle-tier server component that executes business logic wit
   
 1.  Start the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], and open the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance configuration.  
   
-     For more information, see [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)  
+     For more information, see [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md).  
   
 2.  On the **NAS Services** tab, fill in the settings.  
   
@@ -51,7 +51,7 @@ NAS services are a middle-tier server component that executes business logic wit
     > [!IMPORTANT]  
     >  On the **General** tab, the **Services Default Company** specifies the default company that is used by NAS Services and also other types of client connections.  
     >   
-    >  NAS services sessions execute in the time zone specified by the **ServicesDefaultTimeZone** parameter for [!INCLUDE[nav_server](includes/nav_server_md.md)]. See.  
+    >  NAS services sessions execute in the time zone specified by the **ServicesDefaultTimeZone** parameter for [!INCLUDE[nav_server](includes/nav_server_md.md)].  
     >   
     >  For more information about these settings, see [General Tab Settings](Configuring-Microsoft-Dynamics-NAV-Server.md#General).  
   

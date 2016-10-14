@@ -27,7 +27,7 @@ Precise and consistent terminology helps the end user work with the application.
 ## Visible Named Items  
  This section describes naming all visible items in an application, such as table fields. This includes all items that are presented to an end user.  
   
--   When you develop your application, set the application language to English \(United States\) so that the [Name Property-duplicate](Name-Property-duplicate.md) is the same as the caption in English \(United States\). This will make it easier to upgrade and reuse modifications. The end user sees the value of the [Caption Property-duplicate](Caption-Property-duplicate.md) but not the **Name** property.  
+-   When you develop your application, set the application language to English \(United States\) so that the [Name Property](Name-Property-duplicate.md) is the same as the caption in English \(United States\). This will make it easier to upgrade and reuse modifications. The end user sees the value of the [Caption Property](Caption-Property-duplicate.md) but not the **Name** property.  
   
 -   You must follow the naming convention both for the name in English \(United States\) and for the caption in your local language.  
   

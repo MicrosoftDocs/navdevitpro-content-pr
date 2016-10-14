@@ -13,12 +13,12 @@ manager: edupont
 ---
 # Optimizing SQL Server Performance with Microsoft Dynamics NAV
 This section describes how to optimize performance in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] when accessing data from the SQL Server database.  
-  
+
 ## See Also  
  [Data Access](Data-Access.md)   
  [Table Keys and Performance](Table-Keys-and-Performance.md)   
  [Bulk Inserts](Bulk-Inserts.md)   
- [C-AL Database Functions and Performance on SQL Server](C-AL-Database-Functions-and-Performance-on-SQL-Server.md)   
+ [C/AL Database Functions and Performance on SQL Server](C-AL-Database-Functions-and-Performance-on-SQL-Server.md)   
  [Query Objects and Performance](Query-Objects-and-Performance.md)   
  [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)   
  [Microsoft SQL Server documentation](http://go.microsoft.com/fwlink/?LinkId=253107)

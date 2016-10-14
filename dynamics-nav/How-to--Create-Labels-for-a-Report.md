@@ -51,7 +51,7 @@ Whether you are using an RDLC report layout in Visual Studio or a Word report la
 6.  In the **Caption** field, enter the caption.  
   
     > [!NOTE]  
-    >  The default language of the caption depends on the current language of the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. For more information, see [Caption Property-duplicate](Caption-Property-duplicate.md).  
+    >  The default language of the caption depends on the current language of the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. For more information, see [Caption Property](Caption-Property-duplicate.md).  
   
 7.  On the **View** menu, choose **Properties**.  
   
@@ -70,4 +70,4 @@ Whether you are using an RDLC report layout in Visual Studio or a Word report la
  [Designing Reports](Designing-Reports.md)   
  [IncludeCaption Property](IncludeCaption-Property.md)   
  [CaptionML Property](CaptionML-Property.md)   
- [Caption Property-duplicate](Caption-Property-duplicate.md)
+ [Caption Property](Caption-Property-duplicate.md)

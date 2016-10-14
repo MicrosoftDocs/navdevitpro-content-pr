@@ -75,4 +75,4 @@ END;
 ```  
   
 ## See Also  
- [C-AL Function Statements](C-AL-Function-Statements.md)
+ [C/AL Function Statements](C-AL-Function-Statements.md)

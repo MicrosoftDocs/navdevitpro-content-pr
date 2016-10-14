@@ -32,7 +32,7 @@ manager: edupont
  Before you start working in a multilanguage-enabled database, you should set the language to English \(United States\). In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Language**, choose **English \(United States\)**, and then choose **OK**.  
   
 ##  <a name="Name"></a> Name Property  
- In [!INCLUDE[navnow](includes/navnow_md.md)], the code base is in English \(United States\). This means that the [Name Property-duplicate](Name-Property-duplicate.md) of objects must always be in English \(United States\).  
+ In [!INCLUDE[navnow](includes/navnow_md.md)], the code base is in English \(United States\). This means that the [Name Property](Name-Property-duplicate.md) of objects must always be in English \(United States\).  
   
  The code base in English \(United States\) includes the following:  
   
@@ -68,7 +68,7 @@ manager: edupont
  When you are working in the C/AL Editor, if you place the cursor on a text constant, then the value of the text constant in the current language is shown in the message line in the language that you have selected as the language.  
   
 ##  <a name="Caption"></a> Caption and CaptionML Properties  
- Everything that is displayed to the user must have a [Caption Property-duplicate](Caption-Property-duplicate.md). The **Name** property must always be English \(United States\), but you use the **Caption** property to show the name in the language of the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. The **Caption** property copies the value for the language that you have specified for the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] from the [CaptionML Property](CaptionML-Property.md).  
+ Everything that is displayed to the user must have a [Caption Property](Caption-Property-duplicate.md). The **Name** property must always be English \(United States\), but you use the **Caption** property to show the name in the language of the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. The **Caption** property copies the value for the language that you have specified for the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] from the [CaptionML Property](CaptionML-Property.md).  
   
  The **CaptionML** property allows you to add captions in multiple languages. An example is table 37, field 1, which has the following **CaptionML** values:  
   

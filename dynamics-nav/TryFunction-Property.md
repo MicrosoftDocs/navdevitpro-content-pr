@@ -26,4 +26,4 @@ Specifies the function to be try function, which can be used to catch and handle
  For more information, see [Handling Errors by Using Try Functions](Handling-Errors-by-Using-Try-Functions.md).  
   
 ## See Also  
- [C-AL Function Statements](C-AL-Function-Statements.md)
+ [C/AL Function Statements](C-AL-Function-Statements.md)

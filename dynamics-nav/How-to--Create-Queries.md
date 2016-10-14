@@ -43,7 +43,7 @@ A query describes a dataset of [!INCLUDE[navnow](includes/navnow_md.md)] data. Q
   
 8.  In the **Name** column, enter a CLS-compliant name for the field.  
   
-9. In the user interface for the query results, such as in a chart, the name of the underlying table field is displayed for the query column. If you want to display a different name for the column, then change the [Caption Property-duplicate](Caption-Property-duplicate.md) or [CaptionML Property](CaptionML-Property.md).  
+9. In the user interface for the query results, such as in a chart, the name of the underlying table field is displayed for the query column. If you want to display a different name for the column, then change the [Caption Property](Caption-Property-duplicate.md) or [CaptionML Property](CaptionML-Property.md).  
   
     > [!NOTE]  
     >  When you run the query from Object Designer, the **About This Query** window that opens in the [!INCLUDE[rtc](includes/rtc_md.md)] displays the name that is defined by the **Name** property of the column, not the **Caption** property or **CaptionML** property.  

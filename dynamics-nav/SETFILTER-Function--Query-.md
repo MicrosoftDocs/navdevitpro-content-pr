@@ -27,7 +27,7 @@ Query.SETFILTER(Column, String[, Value],...)
  *Column*  
  Type: Text  
   
- The name of the column in the query that you want to filter. The name is defined by the column's [Name Property-duplicate](Name-Property-duplicate.md) in Query Designer.  
+ The name of the column in the query that you want to filter. The name is defined by the column's [Name Property](Name-Property-duplicate.md) in Query Designer.  
   
  *String*  
  Type: Text or code  
