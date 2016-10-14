@@ -20,7 +20,7 @@ The following tables provide an overview of the new, removed, or changed C/AL da
 |Media|A complex type that encapsulates media (such as images) in the application database for displaying the media with associated records. The data type can be used on table fields and supports the following functions:<br /><br /> -   ImportFile<br />-   ImportInStream<br />-   MEDIAID<br />-   HASVALUE<br />-   EXPORTFILE<br />-   EXPORTSTREAM<br /><br />|  
 |MediaSet|A complex type that encapsulates media files, such as images, in application database for displaying the media with associated records. The **MediaSet** data type enables you to include multiple media files as part of a collection on a record. The **MediaSet** data type can be used on table fields and supports the following functions:<br /><br /> -   ImportFile<br />-   ImportInStream<br />-   MEDIAID<br />-   COUNT<br />-   EXPORTMEDIASET<br /><br />|  
 |Notification| complex type for publishing and consuming notifications in the application. Notifications provide a programmatic way to send non-intrusive information to the user interface (UI). The **Notification** data type supports the following functions:<br /><br /> -   ADDACTION<br />-   GETDATA<br />-   ID<br />-   MESSAGE<br />-   RECALL<br />- SCOPE<br />- SEND<br />- SETDATA<br />
-See the C/AL Functions section for a description of the data type functions.|
+See the C/AL Functions section that follows for a description of the data type functions.|
 
 ## C/AL Functions  
  The following table lists the new functions in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
@@ -40,7 +40,7 @@ See the C/AL Functions section for a description of the data type functions.|
 |[CHANGECOMPANY Function \(RecordRef\)](CHANGECOMPANY-Function--RecordRef-.md)|Redirects references to table data from one company to another.|  
 |[COUNT Function \(MediaSet\)](COUNT-Function--MediaSet-.md)|Gets the number of media files that are included in a media set of a record.|  
 |[EXPORTFILE Function \(Media\)](EXPORTFILE-Function--Media-.md)|Exports a media object that is set up on a record to a file.|  
-|[EXPORTFILE Function](EXPORTFILE-Function--MediaSet-.md)|Exports the media objects that included in a media set to individual files.|  
+|[EXPORTFILE Function](EXPORTFILE-Function-MediaSet.md)|Exports the media objects that included in a media set to individual files.|  
 |[EXPORTSTREAM Function \(Media\)](EXPORTSTREAM-Function--Media-.md)|Exports a media object that is set up on a record to an OutStream object.|  
 |[HASVALUE Function \(Media\)](HASVALUE-Function--Media-.md)|Detects whether a record has a media object in the **Media** data type field.|  
 |[IMPORTFILE Function \(Media\)](IMPORTFILE-Function--Media-.md)|Adds media from a file to a media set of a record.|  
@@ -64,12 +64,12 @@ See the C/AL Functions section for a description of the data type functions.|
 |[PromotedOnly Property](PromotedOnly-Property.md)|Specifies whether a page action will appear only on the **Home** tab in the ribbon and not on the tab where it is defined.|    
 
 ## C/AL Triggers  
- The following table lists the new triggers in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
+ The following table lists the changed triggers in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
 
 |Trigger|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
-|[OnAfterTestRun Trigger](trigger-onaftertestrun.md)|Executed after a test function of a test codeunit has been run.|
-|[OnBeforeTestRun Trigger](trigger-onbeforetestrun.md)|Executed before a test function of a test codeunit is run.|    
+|[OnAfterTestRun Trigger](trigger-onaftertestrun.md)|Includes a TestPermissions data type parameter for running tests with permission sets.|
+|[OnBeforeTestRun Trigger](trigger-onbeforetestrun.md)|Includes a TestPermissions data type parameter for running tests with permission sets.|    
 
 ## See Also  
  [Functions Not Supported by Microsoft Dynamics NAV Web Client](Functions-Not-Supported-by-Microsoft-Dynamics-NAV-Web-Client.md)   

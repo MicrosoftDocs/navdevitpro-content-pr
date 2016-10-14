@@ -104,7 +104,7 @@ In this walkthrough, you will learn how to create a basic page that displays a l
   
      The following illustration shows the Page Designer window.  
   
-     ![Page Designer window](media/RTCPage_Customerlist.gif "RTCPage\_Customerlist")  
+     ![Page Designer window](media/RTCPage_Customerlist.png "RTCPage\_Customerlist")  
   
 ## Saving and Running the Page  
  Now that Simon's page is complete, he wants to see how it looks. Eventually, he will add an action to another page so Kevin can access the page. But while he is still working on it, Simon can save the page and then quickly run it in the [!INCLUDE[rtc](includes/rtc_md.md)] using the following procedure.  

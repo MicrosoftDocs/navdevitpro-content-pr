@@ -18,7 +18,7 @@ This section describes the CaptionClass functionality and explains how the Capti
   
  [!INCLUDE[navnow](includes/navnow_md.md)] passes the value of the CaptionClass property to the CaptionClassTranslate function trigger, which has ID 15 on Codeunit 1. This function translates the CaptionClass to a caption that users can see. The following illustration shows this sequence.  
   
- ![Sequence to get value of CaptionClass property](media/CSIDE_CaptionClass.gif "CSIDE\_CaptionClass")  
+ ![Sequence to get value of CaptionClass property](media/CSIDE_CaptionClass.png "CSIDE\_CaptionClass")  
   
  Codeunit 1, function trigger ID 15 is called by using a language and a CaptionClass. The trigger converts the CaptionClass into the specific caption for that language and returns it as a string. Language is specified as an integer. CaptionClass is a text.  
   

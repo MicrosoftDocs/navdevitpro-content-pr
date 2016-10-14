@@ -46,7 +46,7 @@ CheckNumber :=STRCHECKSUM(String[, WeightString][, Modulus])
   
  The checksum, which is calculated using this formula:  
   
- ![STRCHECKSUM formula](media/NAV_STRCHECKSUM_Formula.gif "NAV\_STRCHECKSUM\_Formula")  
+ ![STRCHECKSUM formula](media/NAV_STRCHECKSUM_Formula.png "NAV\_STRCHECKSUM\_Formula")  
   
 ## Example  
  This example shows how to use the STRCHECKSUM function to calculate a checksum.  

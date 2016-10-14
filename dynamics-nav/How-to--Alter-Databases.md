@@ -41,7 +41,7 @@ You can change the database property settings that you selected when you created
   
 2.  Restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
   
-     The changes will not take effect until you restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. For more information, see [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How-to--Start,-Stop,-Restart,-or-Remove-a-Microsoft-Dynamics-NAV-Server-Instance.md).  
+     The changes will not take effect until you restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. For more information, see [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How-to--Start--Stop--Restart--or-Remove-a-Microsoft-Dynamics-NAV-Server-Instance.md).  
   
 ## Changing Database Collation  
  You cannot change the collation directly in the current database. To change the collation, you must create a new database that uses the correct collation, and then export the data from the old database and import it to the new database. You can do this by using SQL Server Management Studio and the [!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell as outlined in the following procedure.  
@@ -81,7 +81,7 @@ You can change the database property settings that you selected when you created
   
 6.  Restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
   
-     For more information, see [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How-to--Start,-Stop,-Restart,-or-Remove-a-Microsoft-Dynamics-NAV-Server-Instance.md).  
+     For more information, see [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How-to--Start--Stop--Restart--or-Remove-a-Microsoft-Dynamics-NAV-Server-Instance.md).  
   
 ## See Also  
  [\($ S\_2339 Alter Database $\)](uiref/-$-S_2339-Alter-Database-$-.md)

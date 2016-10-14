@@ -41,7 +41,7 @@ Exports the media object \(such as an image\) that is currently used on record t
  **true** if the media was successfully exported; otherwise, **false**.  
 
 ## Remarks  
- The exported media file will be of the same media type, such as JPEG \(.jpg\) or GIF \(.gif), as it was when imported.  For more information about the media types, see [Supported Media Types](Working-With-Media-on-Records.md#SupportedMediaTypes).  
+ The exported media file will be of the same media type, such as JPEG \(.jpg\) or GIF \(.gif\), as it was when imported.  For more information about the media types, see [Supported Media Types](Working-With-Media-on-Records.md#SupportedMediaTypes).  
 
  If a file with the same name as the exported file already exists in the target folder and the current session has write access on the file, the existing file will be automatically replaced by the new file. If the export fails, the existing file will be erased.  
 
