@@ -1,7 +1,8 @@
 ---
 title: "Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on Three Computers"
+author: jswymer
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/14/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,7 +10,7 @@ ms.topic: article
 ms-prod: "dynamics-nav-2017"
 ms.assetid: 48551073-e32c-4184-8abf-6a00d30d60cb
 caps.latest.revision: 52
-manager: edupont
+manager: edupont04
 ---
 # Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on Three Computers
 In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] in a four tier production environment, with the [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_server](includes/nav_server_md.md)], and Microsoft SQL Server with [!INCLUDE[navnow](includes/navnow_md.md)] database components on three separate computers as shown in the following illustration.  
@@ -105,7 +106,7 @@ In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)
 
 9. On the **Specify parameters** page, set the **Server account** to the domain user account that you created for and the [!INCLUDE[navnow](includes/navnow_md.md)] database and [!INCLUDE[nav_server](includes/nav_server_md.md)].  
 
-10. In the **SQL Database** box, type a name for the [!INCLUDE[navnow](includes/navnow_md.md)] database. For this walkthrough, type **Demo Database NAV \(9-0\)**.  
+10. In the **SQL Database** box, type a name for the [!INCLUDE[navnow](includes/navnow_md.md)] database. For this walkthrough, type **Demo Database NAV \(10-0\)**.  
 
      You can keep the default values for the other parameters.  
 
@@ -115,7 +116,7 @@ In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)
 
 12. After the installation is complete, choose **Close**.  
 
- A database instance that is named **NAVDEMO** has been created on the SQL Server. The database instance includes the **Demo Database NAV \(9-0\)** database.  
+ A database instance that is named **NAVDEMO** has been created on the SQL Server. The database instance includes the **Demo Database NAV \(10-0\)** database.  
 
 ##  <a name="SQLBrowser"></a> Starting the SQL Server Browser Service on the SQL Server  
  When you installed the [!INCLUDE[navnow](includes/navnow_md.md)] database components, the [!INCLUDE[demolong](includes/demolong_md.md)] was installed on a database instance named **NAVDEMO**. Because you are using a named database instance and [!INCLUDE[nav_server](includes/nav_server_md.md)] is on a separate computer, you must enable and run the SQL Server Browser Service on the SQL Server to ensure the [!INCLUDE[nav_server](includes/nav_server_md.md)] can connect to the database instance.  
@@ -166,7 +167,7 @@ In this walkthrough, you will install [!INCLUDE[nav_web](includes/nav_web_md.md)
     |---------------|-----------|  
     |SQL Server|NAVSQL|  
     |SQL Server Instance|NAVDEMO|  
-    |SQL Database|Demo Database NAV \(9-0\)|  
+    |SQL Database|Demo Database NAV \(10-0\)|  
 
     > [!NOTE]  
     >  Substitute the values in the table with the values for your installation as needed.  

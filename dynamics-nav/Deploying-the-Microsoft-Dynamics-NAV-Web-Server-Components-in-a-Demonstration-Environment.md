@@ -1,7 +1,8 @@
 ---
 title: "Deploying the Microsoft Dynamics NAV Web Server Components in a Demonstration Environment"
+author: edupont04
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/14/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -56,7 +57,7 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
 
     -   Service instance: NAVDEMO  
 
-    -   Database: Demo Database NAV \(9-0\)  
+    -   Database: Demo Database NAV \(10-0\)  
 
 -   NETWORK SERVICE account is used as the service account for [!INCLUDE[nav_server](includes/nav_server_md.md)] and [!INCLUDE[navnow](includes/navnow_md.md)] database.  
 
@@ -82,7 +83,7 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
 
     -   [!INCLUDE[navnow](includes/navnow_md.md)] Setup will create a website on IIS for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. During Setup, you will have to choose the port to use for the site. The default port that is used in [!INCLUDE[navnow](includes/navnow_md.md)] Setup is port 8080. If you are not sure of which port to use, then use the default port.  
 
-    -   If your computer is running Windows 7 or Windows 8, then you have to create an inbound rule that allows communication on the port.  
+    -   If your computer is running Windows 7 or later, then you have to create an inbound rule that allows communication on the port.  
 
          For information about how to create an inbound rule, see [How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client](How-to--Create-an-Inbound-Rule-in-Windows-Firewall-for-the-Port-of-Microsoft-Dynamics-NAV-Web-Client.md).  
 
