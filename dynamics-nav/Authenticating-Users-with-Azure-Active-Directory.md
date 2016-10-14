@@ -27,7 +27,7 @@ Azure Active Directory \(Azure AD\) is a cloud service that provides identity an
 
  When you create a directory in the Azure management portal, you must specify a domain name that identifies your Azure AD tenant, such as *solutions.onmicrosoft.com*. You will use the domain name when you add users to your Azure AD.  
 
- When you have created the Azure AD tenant, you must add users. For more information, see [User account management](http://go.microsoft.com/fwlink/?LinkId=317435).  
+ When you have created the Azure AD tenant, you must add users. For more information, see [Add new users or users with Microsoft accounts to Azure Active Directory](http://go.microsoft.com/fwlink/?LinkId=317435). 
 
 ### Configuring [!INCLUDE[nav_server](includes/nav_server_md.md)] for Azure AD  
  The [!INCLUDE[nav_server](includes/nav_server_md.md)] instances that must support Azure AD must be configured to use AccessControlService as the credential type. The AccessControlService credential type for the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance includes support for Azure AD so that you can achieve single sign-on between the SharePoint site and [!INCLUDE[navnow](includes/navnow_md.md)].  

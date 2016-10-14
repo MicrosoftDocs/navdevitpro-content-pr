@@ -24,7 +24,7 @@ You use the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to develop [!I
 >  If you see this error message, download and install the [Microsoft Visual C++ 2010 Redistributable Package \(x86\)](http://go.microsoft.com/fwlink/?LinkId=253073). You can then run the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)].  
 
 ## Object Designer  
- When you open the development environment, you can open Object Designer, which gives you access to [!INCLUDE[navnow](includes/navnow_md.md)] objects. You use Object Designer to modify the application or to create new application areas. For more information, see [\($ S\_2051 Object Designer $\)](uiref/-$-S_2051-Object-Designer-$-.md).  
+ When you open the development environment, you can open Object Designer, which gives you access to [!INCLUDE[navnow](includes/navnow_md.md)] objects. You use Object Designer to modify the application or to create new application areas. For more information, see [Object Designer)](uiref/-$-S_2051-Object-Designer-$-.md).  
 
  If you migrate your solution to a multitenant deployment architecture, [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] can only access the application database. For more information, see [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md).  
 
