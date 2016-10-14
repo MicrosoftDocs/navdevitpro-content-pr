@@ -62,7 +62,7 @@ You can install the Demo version of [!INCLUDE[navnowlong](includes/navnowlong_md
 
 6.  When the installation is complete, choose **Close**.  
 
-7.  Choose **Start**, choose **All Programs**, and then choose **Microsoft Dynamics NAV 2013** to open the [!INCLUDE[rtc](includes/rtc_md.md)].  
+7.  Choose **Start**, choose **All Programs**, and then choose [!INCLUDE[navnowlong](includes/navnowlong_md.md) to open the [!INCLUDE[rtc](includes/rtc_md.md)].  
 
 ## Next Steps  
  You can now work with the [!INCLUDE[demolong](includes/demolong_md.md)] to try the different features with demonstration data.  
