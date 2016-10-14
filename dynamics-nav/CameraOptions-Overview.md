@@ -12,12 +12,12 @@ caps.latest.revision: 8
 manager: edupont
 ---
 # CameraOptions Overview
-When implementing camera access from C/AL, there are some options; `Microsoft.Dynamics.Nav.Client.Capabilities.CameraOptions` found in the `Microsoft.Dynamics.Nav.ClientExtensions` dll, that you can use to additionally specify picture quality, source type, and so on. These can optionally be passed to `CameraProvider.RequestPictureAsync(options)`. Some of the options described in this article have been implemented in the example in the [How to: Implement the Camera in C-AL](How-to--Implement-the-Camera-in-C-AL.md) topic.  
-  
+When implementing camera access from C/AL, there are some options; `Microsoft.Dynamics.Nav.Client.Capabilities.CameraOptions` found in the `Microsoft.Dynamics.Nav.ClientExtensions` dll, that you can use to additionally specify picture quality, source type, and so on. These can optionally be passed to `CameraProvider.RequestPictureAsync(options)`. Some of the options described in this article have been implemented in the example in the [How to: Implement the Camera in C/AL](How-to--Implement-the-Camera-in-C-AL.md) topic.  
+
  For most scenarios it is not necessary to specify options.  
-  
+
 ## CameraOptions  
-  
+
 ||  
 |-|  
 |`int Quality`<br /><br /> The quality of the saved image expressed as a range from 0 to 100, where 100 is typically full resolution without loss from file compression. Default is 50. `Quality` is only used if `EncodingType` is `JPEG`. **Note:**  The `Quality` option is currently not supported on Windows phone.|  
@@ -25,6 +25,6 @@ When implementing camera access from C/AL, there are some options; `Microsoft.Dy
 |`string MediaType`<br /><br /> The type of media to select from. The `SourceType` option must be `PhotoLibrary`. Possible values are as follows: `Picture`, `Video`, `AllMedia`. The `PhotoLibrary` option will pick an already existing picture on the device.|  
 |`string EncodingType`<br /><br /> The encoding of the returned image file. Supported values are as follows: `JPEG`, `PNG`. Default is `JPEG`.|  
 |`bool AllowEdit`<br /><br /> A value indicating whether to enable simple editing of image before selection. Default is `FALSE`. **Note:**  The `AllowEdit` option is currently not supported on Windows phone.|  
-  
+
 ## See Also  
- [How to: Implement the Camera in C-AL](How-to--Implement-the-Camera-in-C-AL.md)
+ [How to: Implement the Camera in C/AL](How-to--Implement-the-Camera-in-C-AL.md)

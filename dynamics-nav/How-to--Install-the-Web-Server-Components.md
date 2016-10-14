@@ -41,7 +41,7 @@ To deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tabl
 
     -   Obtain the certificate's thumbprint.  
 
-     For more information about these procedures, see [Walkthrough: Configuring Web Services to Use SSL \(SOAP and OData\)](Walkthrough--Configuring-Web-Services-to-Use-SSL-\(SOAP-and-OData\).md).  
+     For more information about these procedures, see [Walkthrough: Configuring Web Services to Use SSL \(SOAP and OData\)](Walkthrough--Configuring-Web-Services-to-Use-SSL--SOAP-and-OData-.md).  
 
     > [!NOTE]  
     >  If you do not want to configure SSL when you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], you can configure it after installation. For more information, see [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md).  

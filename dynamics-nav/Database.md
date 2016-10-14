@@ -56,6 +56,6 @@ This section contains the following topics:
 -   [USERID Function \(Sessions\)](USERID-Function--Sessions-.md)  
 
 ## See Also  
- [C-AL Functions](C-AL-Functions.md)   
+ [C/AL Functions](C-AL-Functions.md)   
  [C/SIDE Reference Guide](C-SIDE-Reference-Guide.md)   
  [Development](Development.md)

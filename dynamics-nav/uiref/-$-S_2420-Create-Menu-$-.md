@@ -21,8 +21,8 @@ Creates a new menu for a department. This menu represents a department in a comp
 |Property|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
 |**Caption**|The caption of the menu you want to create.|  
-|**CaptionML**|The string that is used to identify the menu in the user interface. The [CaptionML Property](CaptionML-Property.md) is multilanguage enabled. Therefore, it can contain a list of text strings in different languages. The string that is used is selected according to the language settings on your computer.|  
-|**Bitmap**|The bitmap that you want to display on the menu button for the department. The number you enter represents the bitmap. You can enter numbers from 0 to 15. For more information, see [Bitmap Property](Bitmap-Property.md).|  
+|**CaptionML**|The string that is used to identify the menu in the user interface. The [CaptionML Property](../CaptionML-Property.md) is multilanguage enabled. Therefore, it can contain a list of text strings in different languages. The string that is used is selected according to the language settings on your computer.|  
+|**Bitmap**|The bitmap that you want to display on the menu button for the department. The number you enter represents the bitmap. You can enter numbers from 0 to 15. For more information, see [Bitmap Property](../Bitmap-Property.md).|  
 
 ## See Also  
  [\($ S\_2401 Navigation Pane Designer $\)](-$-S_2401-Navigation-Pane-Designer-$-.md)   

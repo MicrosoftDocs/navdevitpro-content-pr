@@ -30,4 +30,4 @@ Lists the objects that can be selected. This list can contain any kind of object
 |**XMLport List**|List the XMLports that are available.|  
   
 ## See Also  
- [Window Overviews](Window-Overviews.md)
+ [Window Overviews](../Window-Overviews.md)

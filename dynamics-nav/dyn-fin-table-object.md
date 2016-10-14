@@ -15,8 +15,8 @@ caps.latest.revision: 18
 # Table Object
 The table object contains the definition of fields, groups, triggers, and metadata. A table object definition can contain the following elements (mandatory marked):
 
-+ 
-+ 
++
++
 +  
 
 
@@ -46,7 +46,7 @@ table 50000 Address
         field(4;County;Text[30])
         {
             Description='County retrieved by Service';
-        } 
+        }
     }
     keys
     {
@@ -56,11 +56,11 @@ table 50000 Address
         }
     }
 }
-``` 
-  
+```
+
 ## Remarks  
-  
+
 ## See Also  
- [Pages](../dynamics-nav/Pages.md)   
- [How to: Create a Page](../dynamics-nav/How%20to:%20Create%20a%20Page.md)   
- [Properties](../dynamics-nav/Properties.md)
+ [Pages](Pages.md)   
+ [How to: Create a Page](How-to--Create-a-Page.md)   
+ [Properties](Properties.md)

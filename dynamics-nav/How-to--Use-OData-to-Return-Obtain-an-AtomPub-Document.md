@@ -22,7 +22,7 @@ When you register an OData web service, you expose an OData service that can be 
   
 #### To obtain an AtomPub document or feed  
   
-1.  Register and publish a page web service by using the [!INCLUDE[rtc](includes/rtc_md.md)]. For more information, see [Walkthrough: Creating and Interacting with a Page Web Service \(OData\)](Walkthrough--Creating-and-Interacting-with-a-Page-Web-Service-\(OData\).md).  
+1.  Register and publish a page web service by using the [!INCLUDE[rtc](includes/rtc_md.md)]. For more information, see [Walkthrough: Creating and Interacting with a Page Web Service \(OData\)](Walkthrough--Creating-and-Interacting-with-a-Page-Web-Service--OData-.md).  
   
      The AtomPub documents that are shown in the walkthrough are based on the page 21, the **Customer Card** page, with **Customer** as the service name. The concepts and steps are the same for any [!INCLUDE[rtc](includes/rtc_md.md)] page that you register and publish as a web service.  
   

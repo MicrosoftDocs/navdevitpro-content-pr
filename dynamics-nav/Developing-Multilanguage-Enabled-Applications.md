@@ -32,7 +32,7 @@ manager: edupont
  Before you start working in a multilanguage-enabled database, you should set the language to English \(United States\). In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Language**, choose **English \(United States\)**, and then choose **OK**.  
   
 ##  <a name="Name"></a> Name Property  
- In [!INCLUDE[navnow](includes/navnow_md.md)], the code base is in English \(United States\). This means that the [Name Property-duplicate](Name-Property-duplicate.md) of objects must always be in English \(United States\).  
+ In [!INCLUDE[navnow](includes/navnow_md.md)], the code base is in English \(United States\). This means that the [Name Property](Name-Property-duplicate.md) of objects must always be in English \(United States\).  
   
  The code base in English \(United States\) includes the following:  
   

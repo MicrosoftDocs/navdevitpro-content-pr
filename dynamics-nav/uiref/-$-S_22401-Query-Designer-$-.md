@@ -26,7 +26,7 @@ Retrieves records from one or more tables and combines the records into rows and
 |**Type**|Specifies the type of data to include in the dataset. You can choose one of the following types of data:<br /><br /> -   DataItem<br />-   Column<br />-   Filter|  
 |**Data Source**|Specifies the table to retrieve the dataset from.|  
 |**Name**|Specifies the name of the data item, column, or filter element.|  
-|**Method Type**|Specifies the date or totals type method on the query column. For more information, see [MethodType Property](MethodType-Property.md).|  
+|**Method Type**|Specifies the date or totals type method on the query column. For more information, see [MethodType Property](../MethodType-Property.md).|  
 |**Method**|Specifies either a date method for retrieving the year, month, or day from a Date field or a totals method for performing calculations on field values. For more information, see [Method Property](../Method-Property.md).|  
 |**Group By**|Specifies that records are grouped by this column. [!INCLUDE[bp_fieldnoneditable](../includes/bp_fieldnoneditable_md.md)] It is automatically calculated from the defined columns. All columns where **Method Type** is not **Totals** are used for grouping.|  
 

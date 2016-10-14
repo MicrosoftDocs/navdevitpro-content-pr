@@ -26,7 +26,7 @@ Specifies the system setup options for the current database.
 |**Close Forms on Esc**|Specifies if the active window in the [!INCLUDE[nav_dev_short](../includes/nav_dev_short_md.md)] closes when you press Esc.<br /><br /> Values: Yes, No<br /><br /> Default: Yes|  
 |**Marquee Full Selection**|Not relevant in [!INCLUDE[navnowlong](../includes/navnowlong_md.md)].|  
 |**Quick Find**|Specifies whether quick find is enabled. If quick find is enabled, then you can search for an entry in any non-editable field in the [!INCLUDE[nav_dev_short](../includes/nav_dev_short_md.md)] by typing a letter or number. You can also type the complete name of the element you are looking for. When you type a letter or number, the **Find** window opens automatically and the first row that matches what you typed becomes the active row.<br /><br /> If quick find is not enabled, then you can open the **Find** window by choosing the **Edit** menu, and then choosing **Find**.<br /><br /> Values: Yes, No<br /><br /> Default: Yes|  
-|**Max. no. of XML records to send**|Not relevant in [!INCLUDE[navnowlong](../includes/navnowlong_md.md)]. For more information about similar functionality, see the MaxNoOfXMLRecordsToSend setting in [Configuring the Windows Client](Configuring-the-Windows-Client.md).|  
+|**Max. no. of XML records to send**|Not relevant in [!INCLUDE[navnowlong](../includes/navnowlong_md.md)]. For more information about similar functionality, see the MaxNoOfXMLRecordsToSend setting in [Configuring the Windows Client](../Configuring-the-Windows-Client.md).|  
 |**Auto-Lock on Design**|Specifies if you want to automatically lock objects when you open them for design in the [!INCLUDE[nav_dev_short](../includes/nav_dev_short_md.md)].<br /><br /> Values: Yes, No<br /><br /> Default: No|  
 |**Server Name**|Specifies the server that hosts the [!INCLUDE[nav_server](../includes/nav_server_md.md)] instance, such as *MyServer*.|  
 |**Server Instance Name**|Specifies the [!INCLUDE[nav_server](../includes/nav_server_md.md)] instance that is being used, such as [!INCLUDE[nav_server_instance](../includes/nav_server_instance_md.md)].|  
@@ -37,7 +37,7 @@ Specifies the system setup options for the current database.
 |**Use Report Builder**|Specifies if you want to use SQL Server Report Builder to design the layout for reports. To continue to use Visual Studio Report Designer, do not change the value of this field.<br /><br /> SQL Server Report Builder is included when you install the [!INCLUDE[nav_dev_short](../includes/nav_dev_short_md.md)].|  
 
 ## See Also  
- [How to: Change the Microsoft Dynamics NAV Server Instance](../How-to:-Change-the-Microsoft-Dynamics-NAV-Server-Instance.md)   
+ [How to: Change the Microsoft Dynamics NAV Server Instance](../How-to--Change-the-Microsoft-Dynamics-NAV-Server-Instance.md)   
  [Managing Microsoft Dynamics NAV Server Instances](../Managing-Microsoft-Dynamics-NAV-Server-Instances.md)   
  [Locking and Unlocking Objects](../Locking-and-Unlocking-Objects.md)   
  [\($ S\_11001 Find $\)](-$-S_11001-Find-$-.md)

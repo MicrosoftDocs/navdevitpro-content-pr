@@ -54,4 +54,4 @@ This topic describes how to work with [!INCLUDE[nav_server](includes/nav_server_
   
 ## See Also  
  [How to: Configure a Microsoft Dynamics NAV Server Instance](How-to--Configure-a-Microsoft-Dynamics-NAV-Server-Instance.md)   
- [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How-to--Start,-Stop,-Restart,-or-Remove-a-Microsoft-Dynamics-NAV-Server-Instance.md)
+ [How to: Start, Stop, Restart, or Remove a Microsoft Dynamics NAV Server Instance](How-to--Start--Stop--Restart--or-Remove-a-Microsoft-Dynamics-NAV-Server-Instance.md)

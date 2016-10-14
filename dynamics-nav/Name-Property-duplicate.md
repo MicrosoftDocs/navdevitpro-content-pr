@@ -1,5 +1,5 @@
 ---
-title: "Name Property-duplicate"
+title: "Name Property"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: ead6388f-9985-451d-91d5-6d1e42bb5620
 caps.latest.revision: 10
 manager: edupont
 ---
-# Name Property-duplicate
+# Name Property
 Sets the name of the object. The name is used for internal identification of the objects, controls, and other elements in C/AL code and the development environment.  
   
 ## Applies To  

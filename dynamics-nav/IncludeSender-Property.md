@@ -37,4 +37,4 @@ Specifies whether global functions in the object that contains the event publish
  [Raising Events](Raising-Events.md)   
  [Subscribing to Events](Subscribing-to-Events.md)   
  [GlobalVarAccess Property](GlobalVarAccess-Property.md)   
- [C-AL Function Statements](C-AL-Function-Statements.md)
+ [C/AL Function Statements](C-AL-Function-Statements.md)
