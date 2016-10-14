@@ -19,7 +19,7 @@ This topic lists properties that apply to the page object, controls, and actions
 
 -   [AutoSplitKey Property](AutoSplitKey-Property.md)  
 
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
 
 -   [CaptionML Property](CaptionML-Property.md)  
 
@@ -74,7 +74,7 @@ This topic lists properties that apply to the page object, controls, and actions
 ## Container Control Properties  
  The following properties apply to **Container** controls on a page.  
 
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
 
 -   [CaptionML Property](CaptionML-Property.md)  
 
@@ -89,7 +89,7 @@ This topic lists properties that apply to the page object, controls, and actions
 ## Group Control Properties  
  The following properties apply to **Group** controls on a page.  
 
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
 
 -   [CaptionML Property](CaptionML-Property.md)  
 
@@ -134,7 +134,7 @@ This topic lists properties that apply to the page object, controls, and actions
 
 -   [BlankZero Property](BlankZero-Property.md)  
 
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
 
 -   [CaptionClass Property](CaptionClass-Property.md)  
 
@@ -221,7 +221,7 @@ This topic lists properties that apply to the page object, controls, and actions
 
 -   [AccessByPermission Property](AccessByPermission-Property.md)  
 
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
 
 -   [CaptionML Property](CaptionML-Property.md)  
 
@@ -262,7 +262,7 @@ This topic lists properties that apply to the page object, controls, and actions
 ## ActionContainer Properties  
  The following properties apply to **ActionContainer** on a page.  
 
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
 
 -   [CaptionML Property](CaptionML-Property.md)  
 
@@ -275,7 +275,7 @@ This topic lists properties that apply to the page object, controls, and actions
 ## ActionGroup Properties  
  The following properties apply to **ActionGroups**.  
 
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
 
 -   [CaptionML Property](CaptionML-Property.md)  
 
@@ -296,7 +296,7 @@ This topic lists properties that apply to the page object, controls, and actions
 
 -   [AccessByPermission Property](AccessByPermission-Property.md)  
 
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
 
 -   [CaptionML Property](CaptionML-Property.md)  
 
@@ -345,7 +345,7 @@ This topic lists properties that apply to the page object, controls, and actions
 ## Separator Properties  
  The following properties apply to **Separators**.  
 
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
 
 -   [CaptionML Property](CaptionML-Property.md)  
 
