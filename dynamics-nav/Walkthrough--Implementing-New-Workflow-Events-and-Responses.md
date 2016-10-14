@@ -466,4 +466,4 @@ If a business scenario requires a workflow event or a workflow response that is 
  [How to: Create Workflows](How-to--Create-Workflows.md)   
  [Workflow](Workflow.md)   
  [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)   
- [Developer and IT Pro Help for Madeira](Developer-and-IT-Pro-Help-for-Madeira.md)
+ [Welcome to the Developer and IT-Pro Help for Microsoft Dynamics NAV](index.md)

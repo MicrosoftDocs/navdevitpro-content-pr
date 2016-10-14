@@ -17,7 +17,7 @@ This topic lists properties of the report object.
 ## Report Object Properties  
  The following properties apply to the report object.  
   
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
   
 -   [CaptionML Property](CaptionML-Property.md)  
   
@@ -116,7 +116,7 @@ This topic lists properties of the report object.
 ## Report Label Properties  
  The following properties apply to **Report Labels** of a report object.  
   
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
   
 -   [CaptionML Property](CaptionML-Property.md)  
   

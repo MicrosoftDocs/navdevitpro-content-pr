@@ -14,7 +14,7 @@ caps.latest.revision: 4
 You can build extension packages that add functionality to a [!INCLUDE[navnow](includes/navnow_md.md)] deployment. Unlike the familiar development and deployment of [!INCLUDE[navnow](includes/navnow_md.md)] functionality, building an extension relies on the exported version of an application to .TXT files. You can export the application from the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], use the development environment commands, or use the [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlet that is available in the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)], `Export-NAVApplicationObjectLanguage`.  
 
 > [!TIP]  
->  We recommend that you create a folder structure that can be leveraged by the cmdlets that you use when you build the extension package. That structure should contain folders for the ORIGINAL object files, MODIFIED object files, and DELTA files. These names match those used as parameters in the application merge utilities. For more information, see [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md). In addition, you may want to create additional folders for any .NET add-ins, language files, or data files that you are going to include in the package  
+>  We recommend that you create a folder structure that can be leveraged by the cmdlets that you use when you build the extension package. That structure should contain folders for the ORIGINAL object files, MODIFIED object files, and DELTA files. These names match those used as parameters in the application merge utilities. For more information, see [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md). In addition, you may want to create additional folders for any .NET add-ins, language files, or data files that you are going to include in the package.  
 
 ## To create an extension  
 
@@ -37,11 +37,11 @@ You can build extension packages that add functionality to a [!INCLUDE[navnow](i
 
     1.  Use the development environment as usual to create new objects or modify ones to the extent your license allows you. Keep in mind the following rules:  
 
-        -   DO NOT make C/AL code modifications  
+        -   DO NOT make C/AL code modifications.  
 
         -   DO use subscribing to events to execute code.  
 
-        -   DO NOT create new or modified XMLPorts, Queries, or Report. For more information, see [Extension Packages Capability Support Matrix](Extension-Packages-Capability-Support-Matrix.md).  
+        -   DO NOT create new or modified XMLPorts, Queries, or Reports. For more information, see [Extension Packages Capability Support Matrix](Extension-Packages-Capability-Support-Matrix.md).  
 
         -   DO NOT change restricted page and table properties.  
 
@@ -49,7 +49,7 @@ You can build extension packages that add functionality to a [!INCLUDE[navnow](i
 
     2. Write extension upgrade code for new or modified tables. For more information, see [How to: Write Extension Upgrade Code](how-to--write-extension-upgrade-code.md).
 
-    3. If you want to extension to support the multilanguage functionality, add CaptionML captions using the development environment or to a copy of the language export file using the directions for translating multilanguage files in [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How-to--Add-Translated-Strings-By-Importing-and-Exporting-Multilanguage-Files.md)  
+    3. If you want your extension to support the multilanguage functionality, add CaptionML captions using the development environment or to a copy of the language export file using the directions for translating multilanguage files in [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How-to--Add-Translated-Strings-By-Importing-and-Exporting-Multilanguage-Files.md).  
 
     4.  Test your application with the extension added.  
 
