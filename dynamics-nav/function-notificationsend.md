@@ -6,11 +6,9 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms.author: jswymer
 ms-prod: "dynamics-nav-2017"
-ms.author: "jswymer"
 ---
-
-
 # SEND Function (Notification)
 Sends the notification to the client, where it will display in the UI.
 
