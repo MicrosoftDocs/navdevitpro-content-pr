@@ -16,7 +16,7 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] account is used by [!INCLU
 
  We recommend that you create a domain user account for running [!INCLUDE[nav_server](includes/nav_server_md.md)]. The Network Service account is considered less secure because it is a shared account that can be used by other unrelated network services. Any users who have rights to this account have rights to all services that are running on this account. If you create a domain user account to run [!INCLUDE[nav_server](includes/nav_server_md.md)], you can use the same account to run SQL Server, whether or not SQL Server is on the same computer.  
 
-> [!NOTE]  
+*> [!NOTE]  
 >  Because [!INCLUDE[navnow](includes/navnow_md.md)] Setup and the New-NavDatabase cmdlet configure the required permissions for the [!INCLUDE[nav_server](includes/nav_server_md.md)] account, you will typically use the procedures in this topic when you change the [!INCLUDE[nav_server](includes/nav_server_md.md)] account for an existing installation.  
 
  To provision a [!INCLUDE[nav_server](includes/nav_server_md.md)] account, complete the following procedures as described in this topic:  
@@ -26,7 +26,7 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] account is used by [!INCLU
 -   [Provisioning the Network Service Account](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md#NSA)  
 
 ##  <a name="DUA"></a> Provisioning a Domain User Account  
- If you are running the [!INCLUDE[nav_server](includes/nav_server_md.md)] under a domain user account, you must:  
+* If you are running the [!INCLUDE[nav_server](includes/nav_server_md.md)] under a domain user account, you must:  
 
 -   Enable the account to log in as a service  
 
@@ -62,7 +62,7 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] account is used by [!INCLU
 
 5.  Choose **SELF** in the **Group or user names** list.  
 
-6.  Under **Permissions for SELF**, in the lower part of the panel, scroll down to **Write public information** and select the Allow column.  
+6.  Under **Permissions for SELF**, in the lower part of the panel, scroll down to **Write public information** and select the **Allow** column.  
 
 7.  Choose **OK** to exit the Properties panel, and close **Active Directory Users and Computers**.  
 
@@ -141,7 +141,7 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] account is used by [!INCLU
 
     4.  Select the login you created for the [!INCLUDE[nav_server](includes/nav_server_md.md)] account name and choose **OK**.  
 
-    5.  Under **Database role membership**, select the **db\_owner** check boxe.  
+    5.  Under **Database role membership**, select the **db\_owner** check box.  
 
     6.  Choose **OK** to exit the **Database User – New** dialog box.  
 
