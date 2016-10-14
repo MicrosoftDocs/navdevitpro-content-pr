@@ -17,7 +17,7 @@ This topic lists properties that apply to the query object.
 ## Query Object Properties  
  The following properties apply to the query object as a whole.  
   
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
   
 -   [CaptionML Property](CaptionML-Property.md)  
   
@@ -57,7 +57,7 @@ This topic lists properties that apply to the query object.
 ## Query Column Properties  
  The following properties apply to the **Column** control of a query.  
   
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
   
 -   [CaptionML Property](CaptionML-Property.md)  
   
@@ -82,7 +82,7 @@ This topic lists properties that apply to the query object.
 ## Query Filter Control Properties  
  The following properties apply to the **Filter** control of a query.  
   
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
   
 -   [CaptionML Property](CaptionML-Property.md)  
   

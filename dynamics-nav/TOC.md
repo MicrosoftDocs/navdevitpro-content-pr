@@ -713,7 +713,7 @@
 # [Touring the RoleTailored Client Windows](Touring-the-RoleTailored-Client-Windows.md)
 # [ImportTranslate](ImportTranslate.md)
 # [How to: Add New Transaction Log Files](How-to--Add-New-Transaction-Log-Files.md)
-# [Caption Property-duplicate](Caption-Property-duplicate.md)
+# [Caption Property](Caption-Property-duplicate.md)
 # [Walkthrough: Creating a Link from a Report to a Report](Walkthrough--Creating-a-Link-from-a-Report-to-a-Report.md)
 # [How to: Deploy a Microsoft Dynamics NAV Database to Azure SQL Database](How-to--Deploy-a-Microsoft-Dynamics-NAV-Database-to-Azure-SQL-Database.md)
 # [PREVIOUS Function (TestPage)](PREVIOUS-Function--TestPage-.md)

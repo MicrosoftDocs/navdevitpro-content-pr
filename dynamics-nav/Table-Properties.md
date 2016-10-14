@@ -17,7 +17,7 @@ The following topic lists properties that apply to the table object.
 ## Table Object Properties  
  The following properties apply to a **Table** object.  
   
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
   
 -   [CaptionML Property](CaptionML-Property.md)  
   
@@ -48,7 +48,7 @@ The following topic lists properties that apply to the table object.
   
 -   [AccessByPermission Property](AccessByPermission-Property.md)  
   
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
   
 -   [CaptionML Property](CaptionML-Property.md)  
   
@@ -85,7 +85,7 @@ The following topic lists properties that apply to the table object.
   
 -   [BlankZero Property](BlankZero-Property.md)  
   
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -142,7 +142,7 @@ The following topic lists properties that apply to the table object.
   
 -   [BlankZero Property](BlankZero-Property.md)  
   
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -193,7 +193,7 @@ The following topic lists properties that apply to the table object.
   
 -   [AutoFormatType Property](AutoFormatType-Property.md)  
   
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -252,7 +252,7 @@ The following topic lists properties that apply to the table object.
   
 -   [BlankNumbers Property](BlankNumbers-Property.md)  
   
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -305,7 +305,7 @@ The following topic lists properties that apply to the table object.
   
 -   [AutoFormatType Property](AutoFormatType-Property.md)  
   
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -352,7 +352,7 @@ The following topic lists properties that apply to the table object.
   
 -   [BlankNumbers Property](BlankNumbers-Property.md)  
   
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -407,7 +407,7 @@ The following topic lists properties that apply to the table object.
   
 -   [BlankZero Property](BlankZero-Property.md)  
   
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -464,7 +464,7 @@ The following topic lists properties that apply to the table object.
   
 -   [BlankZero Property](BlankZero-Property.md)  
   
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -519,7 +519,7 @@ The following topic lists properties that apply to the table object.
   
 -   [AutoFormatType Property](AutoFormatType-Property.md)  
   
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -568,7 +568,7 @@ The following topic lists properties that apply to the table object.
   
 -   [BlankZero Property](BlankZero-Property.md)  
   
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -621,7 +621,7 @@ The following topic lists properties that apply to the table object.
   
 -   [AutoFormatType Property](AutoFormatType-Property.md)  
   
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -680,7 +680,7 @@ The following topic lists properties that apply to the table object.
   
 -   [AutoFormatType Property](AutoFormatType-Property.md)  
   
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -739,7 +739,7 @@ The following topic lists properties that apply to the table object.
   
 -   [BlankZero Property](BlankZero-Property.md)  
   
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -796,7 +796,7 @@ The following topic lists properties that apply to the table object.
   
 -   [AutoFormatType Property](AutoFormatType-Property.md)  
   
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -835,7 +835,7 @@ The following topic lists properties that apply to the table object.
   
 -   [AccessByPermission Property](AccessByPermission-Property.md)  
   
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
   
 -   [CaptionML Property](CaptionML-Property.md)  
   
@@ -862,7 +862,7 @@ The following topic lists properties that apply to the table object.
   
 -   [AutoFormatType Property](AutoFormatType-Property.md)  
   
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
@@ -923,7 +923,7 @@ The following topic lists properties that apply to the table object.
   
 -   [BlankNumbers Property](BlankNumbers-Property.md)  
   
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
   
 -   [CaptionClass Property](CaptionClass-Property.md)  
   
