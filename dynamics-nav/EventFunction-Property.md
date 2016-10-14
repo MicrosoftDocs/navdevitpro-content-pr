@@ -13,25 +13,25 @@ manager: edupont
 ---
 # EventFunction Property
 Specifies the event publisher function that the event subscriber function subscribes to.  
-  
+
 ## Applies to  
-  
+
 -   C/AL functions.  
-  
+
      This property is only available when the [Event Property](Event-Property.md) is set to **Subscriber**.  
-  
+
 ## Property Value  
  An event publisher function in the object that is specified in the [EventPublisherObject Property](EventPublisherObject-Property.md).  
-  
+
 ## Remarks  
  You use this property to set up an event subscriber function to respond to the event that is declared by the event publisher function. When the event is raised in the application, the event subscriber function is called.  
-  
+
  You add C/AL code to this function that defines the logic to handle the event when it is called.  
-  
+
  For more information about events, see [Subscribing to Events](Subscribing-to-Events.md)..  
-  
+
 ## See Also  
  [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)   
  [Publishing Events](Publishing-Events.md)   
  [Raising Events](Raising-Events.md)   
- [C-AL Function Statements](C-AL-Function-Statements.md)
+ [C/AL Function Statements](C-AL-Function-Statements.md)
