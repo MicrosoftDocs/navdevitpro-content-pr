@@ -1,7 +1,9 @@
 ---
 title: "COPYCOMPANY Function (Database)"
+author: edupont04
+manager: edupont04
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/14/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -33,7 +35,7 @@ Creates a new company and copies all data from an existing company in the same d
  The company name can have a maximum of 30 characters. If the database collation is case-sensitive, you can have one company called COMPANY and another called Company. However, if the database is case-insensitive, you cannot create companies with names that differ only by case.  
 
 ## Example  
- The following example is based on the **\($ B\_357 Copy Company $\)** batch job, which is part of the [!INCLUDE[demolong](includes/demolong_md.md)]. The batch job takes the Company system table as a data item and uses the **Name** field as the value of the *SourceName* parameter. The value of the *DestinationName* parameter is specified in the **New Company Name** field in the request page, which is represented by the `NewCompanyName` variable.  
+ The following example is based on the **Copy Company** batch job, which is part of the [!INCLUDE[demo](includes/demo_md.md)]. The batch job takes the Company system table as a data item and uses the **Name** field as the value of the *SourceName* parameter. The value of the *DestinationName* parameter is specified in the **New Company Name** field in the request page, which is represented by the `NewCompanyName` variable.  
 
 ```  
 COPYCOMPANY(Name, NewCompanyName);  
