@@ -44,13 +44,13 @@ In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can create extensions 
  - XMLports
  - Queries
  - Codeunits
- - Menu suites
+ - Menu suites  
 For more information, see [Extension Packages Capabilities Support Matrix](Extension-Packages-Capability-Support-Matrix.md).
 
 Code modifications are not allowed in extension packages. This is intended to remove the code-merge task during upgrade, and to increase the probability that different extensions can coexist. Changes to a Microsoft Dynamics NAV deployment by an extension are treated differently than if you had manually added them to your code base. User interface modifications are in their simplest form just the differences or deltas from the base application code. These are applied at runtime. Changes in business logic are encapsulated through the use of events and stored in new codeunits. You cannot modify any existing code or add code to existing objects in an extension package; you must use events. For more information, see [Introducing Events](introducing-events.md).  
 
 ### Licensing Considerations  
-   Licensing is the same for functionality that is made available in an extension package as in an. fob file. You must have the relevant license to create and export objects as TXT files. Similarly, your consumers must also have the appropriate licensing to use your extension.  
+   Licensing is the same for functionality that is made available in an extension package as in a .fob file. You must have the relevant license to create and export objects as TXT files. Similarly, your consumers must also have the appropriate licensing to use your extension.  
 
   > [!WARNING]  
   >  We strongly advise against using object IDs in the customization range \(50,000-99,000\) for objects that are intended to be distributed to multiple end customers.  
@@ -96,7 +96,7 @@ Uninstall-NAVApp -ServerInstance YourDynamicsNAVServer -Path MyNAVExtension.navx
 ```  
 
 ### Move Tenants from One Server to Another  
- In multitenant deployments, moving a tenant from one server to another requires some evaluation with regards to your extension packages. The data for any extension is stored within the schema for each company in the tenant database so that will move without any extra steps. The tenant database also stores information about which extensions are installed for that tenant. Moving a tenant requires an examination of the destination server to validate that all extensions for the tenant are published on the on the destination server.  
+ In multitenant deployments, moving a tenant from one server to another requires some evaluation with regards to your extension packages. The data for any extension is stored within the schema for each company in the tenant database so that will move without any extra steps. The tenant database also stores information about which extensions are installed for that tenant. Moving a tenant requires an examination of the destination server to validate that all extensions for the tenant are published on the destination server.  
 
  As part of your preparations to move a tenant, review all installed extension packages for the tenant to make sure the same extensions are available on the destination server. You can use the [Get-NAVAppInfo](http://go.microsoft.com/fwlink/?LinkID=618058) cmdlet to accomplish this. If the apps are available then you can simply unmount the tenant and move it, as part of the mount tenant process all installed extensions for the tenant being moved will be re-installed. Please note that the applications that the two servers use must of course also be identical for this process to succeed.  
 
@@ -140,7 +140,7 @@ Uninstall-NAVApp -ServerInstance YourDynamicsNAVServer -Path MyNAVExtension.navx
 |Area|PowerShell Cmdlets|  
 |----------|------------------------|  
 |Manifest|-   New-NAVAppManifest<br />-   Set-NAVAppManifest<br />-   Get-NAVAppManifest<br />-   New-NAVAppManifestFile|  
-|Permissions|-   Export- NAVAppPermissionSet|  
+|Permissions|-   Export-NAVAppPermissionSet|  
 |Packaging|-   New-NAVAppPackage|  
 
  For more information, see [Development Cmdlets for Microsoft Dynamics NAV Extensions](http://go.microsoft.com/fwlink/?LinkID=626875).  
@@ -160,7 +160,7 @@ Uninstall-NAVApp -ServerInstance YourDynamicsNAVServer -Path MyNAVExtension.navx
 [How to: Develop an Extension](How-to--Develop-an-Extension.md)  
 [How to: Create an Extension Package](How-to--Create-an-Extension-Package.md)  
 [How to: Publish and Install an Extension](How-to--Publish-and-Install-an-Extension.md)  
-[Microsoft Dynamics NAV Extention Packages](microsoft-dynamics-nav-extensions-packages.md)
+[Microsoft Dynamics NAV Extension Packages](microsoft-dynamics-nav-extensions-packages.md)    
 [Extension Packages Capability Support Matrix](Extension-Packages-Capability-Support-Matrix.md)  
 [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)  
 [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)
