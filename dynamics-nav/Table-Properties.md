@@ -35,7 +35,7 @@ The following topic lists properties that apply to the table object.
   
 -   [LookupPageID Property](LookupPageID-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [PasteIsValid Property](PasteIsValid-Property.md)  
   
@@ -62,7 +62,7 @@ The following topic lists properties that apply to the table object.
   
 -   [Field No. Property](Field-No.-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [Owner Property](Owner-Property.md)  
   
@@ -111,7 +111,7 @@ The following topic lists properties that apply to the table object.
   
 -   [MinValue Property](MinValue-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -168,7 +168,7 @@ The following topic lists properties that apply to the table object.
   
 -   [MinValue Property](MinValue-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -221,7 +221,7 @@ The following topic lists properties that apply to the table object.
   
 -   [InitValue Property](InitValue-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -280,7 +280,7 @@ The following topic lists properties that apply to the table object.
   
 -   [MinValue Property](MinValue-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -327,7 +327,7 @@ The following topic lists properties that apply to the table object.
   
 -   [InitValue Property](InitValue-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -378,7 +378,7 @@ The following topic lists properties that apply to the table object.
   
 -   [MinValue Property](MinValue-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -433,7 +433,7 @@ The following topic lists properties that apply to the table object.
   
 -   [MinValue Property](MinValue-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -490,7 +490,7 @@ The following topic lists properties that apply to the table object.
   
 -   [MinValue Property](MinValue-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -541,7 +541,7 @@ The following topic lists properties that apply to the table object.
   
 -   [InitValue Property](InitValue-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -594,7 +594,7 @@ The following topic lists properties that apply to the table object.
   
 -   [MinValue Property](MinValue-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -649,7 +649,7 @@ The following topic lists properties that apply to the table object.
   
 -   [InitValue Property](InitValue-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -708,7 +708,7 @@ The following topic lists properties that apply to the table object.
   
 -   [InitValue Property](InitValue-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -765,7 +765,7 @@ The following topic lists properties that apply to the table object.
   
 -   [MinValue Property](MinValue-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -818,7 +818,7 @@ The following topic lists properties that apply to the table object.
   
 -   [InitValue Property](InitValue-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -847,7 +847,7 @@ The following topic lists properties that apply to the table object.
   
 -   [Field No. Property](Field-No.-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [TableIDExpr Property](TableIDExpr-Property.md)  
   
@@ -890,7 +890,7 @@ The following topic lists properties that apply to the table object.
   
 -   [InitValue Property](InitValue-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   
@@ -949,7 +949,7 @@ The following topic lists properties that apply to the table object.
   
 -   [MinValue Property](MinValue-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [NotBlank Property](NotBlank-Property.md)  
   

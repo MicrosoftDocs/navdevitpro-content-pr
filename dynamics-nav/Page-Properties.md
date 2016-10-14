@@ -49,7 +49,7 @@ This topic lists properties that apply to the page object, controls, and actions
 
 -   [MultipleNewLines Property](MultipleNewLines-Property.md)  
 
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
 
 -   [PageType Property](PageType-Property.md)  
 
@@ -84,7 +84,7 @@ This topic lists properties that apply to the page object, controls, and actions
 
 -   [ID Property](ID-Property.md)  
 
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
 
 ## Group Control Properties  
  The following properties apply to **Group** controls on a page.  
@@ -113,7 +113,7 @@ This topic lists properties that apply to the page object, controls, and actions
 
 -   [Layout Property](Layout-Property.md)  
 
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
 
 -   [ShowAsTree Property](ShowAsTree-Property.md)  
 
@@ -180,7 +180,7 @@ This topic lists properties that apply to the page object, controls, and actions
 
 -   [MultiLine Property](MultiLine-Property.md)  
 
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
 
 -   [NotBlank Property](NotBlank-Property.md)  
 
@@ -235,7 +235,7 @@ This topic lists properties that apply to the page object, controls, and actions
 
 -   [ID Property](ID-Property.md)  
 
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
 
 -   [PagePartID Property](PagePartID-Property.md)  
 
@@ -270,7 +270,7 @@ This topic lists properties that apply to the page object, controls, and actions
 
 -   [ID Property](ID-Property.md)  
 
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
 
 ## ActionGroup Properties  
  The following properties apply to **ActionGroups**.  
@@ -287,7 +287,7 @@ This topic lists properties that apply to the page object, controls, and actions
 
 -   [Image Property](Image-Property.md)  
 
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
 
 -   [Visible Property-duplicate](Visible-Property-duplicate.md)  
 
@@ -312,7 +312,7 @@ This topic lists properties that apply to the page object, controls, and actions
 
 -   [InFooterBar Property](InFooterBar-Property.md)  
 
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
 
 -   [Promoted Property](Promoted-Property.md)  
 
