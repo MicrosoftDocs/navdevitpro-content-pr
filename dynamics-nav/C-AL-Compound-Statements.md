@@ -15,10 +15,10 @@ manager: edupont
 ---
 # C/AL Compound Statements
 A compound statement is one type of control structure in C/AL.  
-  
+
 ## Using Compound Statements  
  In some cases, the C/AL syntax only lets you use a single statement. However, if you have to execute more than one simple statement, the statements can be written as a compound statement by enclosing the statements between the BEGIN and END keywords.  
-  
+
 ```  
 BEGIN  
   <Statement 1>;  
@@ -27,25 +27,25 @@ BEGIN
   <Statement n>;  
 END  
 ```  
-  
+
  The individual statements are separated by a semicolon. In C/AL, a semicolon is used to separate statements and not, as in other programming languages, as a terminator symbol for a statement. Nevertheless, an extra semicolon before an END does not cause an error because it is interpreted by the compiler as an empty statement.  
-  
+
 ## Blocks  
  The BEGIN-END structure is also called a *block*. Blocks can be very useful to refer to the other control structures in C/AL.  
-  
+
  When BEGIN follows THEN, ELSE, or DO, it should be on the same line and preceded by one space character.  
-  
+
 ### Example  
-  
+
 ```  
 IF (x = y) AND (a = b) THEN BEGIN  
   x := a;  
   y := b;  
 END;   
 ```  
-  
+
 ### Example  
-  
+
 ```  
 IF (xxx = yyyyyyyyyy) AND   
    (aaaaaaaaaa = bbb)  
@@ -58,8 +58,8 @@ END ELSE BEGIN
   y := a;  
 END;  
 ```  
-  
+
 ## See Also  
- [C-AL Conditional Statements](C-AL-Conditional-Statements.md)   
- [C-AL Repetitive Statements](C-AL-Repetitive-Statements.md)   
- [C-AL WITH Statements](C-AL-WITH-Statements.md)
+ [C/AL Conditional Statements](C-AL-Conditional-Statements.md)   
+ [C/AL Repetitive Statements](C-AL-Repetitive-Statements.md)   
+ [C/AL WITH Statements](C-AL-WITH-Statements.md)
