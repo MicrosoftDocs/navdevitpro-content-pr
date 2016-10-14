@@ -41,7 +41,7 @@ This topic lists properties of the XMLport object, element, and attribute.
   
 -   [InlineSchema Property](InlineSchema-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [NamespacePrefix Property](NamespacePrefix-Property.md)  
   

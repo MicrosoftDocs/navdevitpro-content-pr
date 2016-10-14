@@ -31,7 +31,7 @@ This topic lists properties of the report object.
   
 -   [ID Property](ID-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [PaperSourceDefaultPage Property](PaperSourceDefaultPage-Property.md)  
   
@@ -72,7 +72,7 @@ This topic lists properties of the report object.
   
 -   [MaxIteration Property](MaxIteration-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [PrintOnlyIfDetail Property](PrintOnlyIfDetail-Property.md)  
   
@@ -103,7 +103,7 @@ This topic lists properties of the report object.
   
 -   [Indentation Property \(Reports\)](Indentation-Property--Reports-.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [OptionCaption Property](OptionCaption-Property.md)  
   
@@ -124,7 +124,7 @@ This topic lists properties of the report object.
   
 -   [ID Property](ID-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 ## See Also  
  [Properties](Properties.md)

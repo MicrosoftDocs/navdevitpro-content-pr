@@ -25,7 +25,7 @@ This topic lists properties that apply to the query object.
   
 -   [ID Property](ID-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [OrderBy Property](OrderBy-Property.md)  
   
@@ -52,7 +52,7 @@ This topic lists properties that apply to the query object.
   
 -   [Indentation Property \(Query\)](Indentation-Property--Query-.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 ## Query Column Properties  
  The following properties apply to the **Column** control of a query.  
@@ -75,7 +75,7 @@ This topic lists properties that apply to the query object.
   
 -   [MethodType Property](MethodType-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [ReverseSign Property](ReverseSign-Property.md)  
   
@@ -96,4 +96,4 @@ This topic lists properties that apply to the query object.
   
 -   [Indentation Property \(Query\)](Indentation-Property--Query-.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)
+-   [Name Property](Name-Property-duplicate.md)

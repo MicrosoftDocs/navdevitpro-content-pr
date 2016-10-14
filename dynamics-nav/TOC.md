@@ -205,7 +205,7 @@
 # [Description Property](Description-Property.md)
 # [OnInsertRecord Trigger](OnInsertRecord-Trigger.md)
 # [INCSTR Function (Code, Text)](INCSTR-Function--Code--Text-.md)
-# [Name Property-duplicate](Name-Property-duplicate.md)
+# [Name Property](Name-Property-duplicate.md)
 # [MenuItemType Property](MenuItemType-Property.md)
 # [Walkthrough: Creating a Customer List in Page Designer](Walkthrough--Creating-a-Customer-List-in-Page-Designer.md)
 # [How to: Add Fields to a Table](How-to--Add-Fields-to-a-Table.md)

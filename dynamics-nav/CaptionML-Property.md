@@ -56,7 +56,7 @@ Sets the string that is used to identify a control or other object in the user i
  When you export objects as XML, the CaptionML property values are included.  
   
 > [!NOTE]  
->  For query columns, when you run the query from Object Designer, the About This Query window that opens in the [!INCLUDE[rtc](includes/rtc_md.md)] displays the value for the [Name Property-duplicate](Name-Property-duplicate.md) of the query column, not the [CaptionML Property](CaptionML-Property.md).  
+>  For query columns, when you run the query from Object Designer, the About This Query window that opens in the [!INCLUDE[rtc](includes/rtc_md.md)] displays the value for the [Name Property](Name-Property-duplicate.md) of the query column, not the [CaptionML Property](CaptionML-Property.md).  
   
 ## Default Values  
  The following table shows how the default caption is determined for the various objects in [!INCLUDE[navnow](includes/navnow_md.md)].  
@@ -75,4 +75,4 @@ Sets the string that is used to identify a control or other object in the user i
   
 ## See Also  
  [Caption Property-duplicate](Caption-Property-duplicate.md)   
- [Name Property-duplicate](Name-Property-duplicate.md)
+ [Name Property](Name-Property-duplicate.md)
