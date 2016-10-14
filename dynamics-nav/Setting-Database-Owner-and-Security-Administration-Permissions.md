@@ -26,7 +26,7 @@ Permissions are required in SQL Server to create and manage [!INCLUDE[navnow](in
   
 1.  Expand the **Security** node, right-click **Logins**, and choose **New Login**.  
   
-     If the administrator already has a Login, right-click the user and choose **Properties**. Then go to step 4.  
+     If the administrator already has a login, right-click the user and choose **Properties**. Then go to step 4.  
   
 2.  In the **Login – New** dialog box, select **Search**.  
   
@@ -43,7 +43,7 @@ Permissions are required in SQL Server to create and manage [!INCLUDE[navnow](in
   
  To grant permission to manage companies, objects, and licenses in [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to additional administrators, assign those administrators the db\_owner database role for all relevant [!INCLUDE[navnow](includes/navnow_md.md)] databases.  
   
- To grant the db\_owner role on a [!INCLUDE[navnow](includes/navnow_md.md)] database in SQL Server Management Studio, follow these steps:  
+ To grant the db_owner role on a [!INCLUDE[navnow](includes/navnow_md.md)] database in SQL Server Management Studio, follow these steps:  
   
 1.  If the administrator is not already a SQL Server login, add the administrator as a login by following the first three steps in the procedure above.  
   
@@ -51,7 +51,7 @@ Permissions are required in SQL Server to create and manage [!INCLUDE[navnow](in
   
      Choose the button at the right of the **Login Name** field to open the **Select Login** dialog box.  
   
-3.  Choose the **Browse** button, select the check box for the relevant Login, and then choose the **OK** button.  
+3.  Choose the **Browse** button, select the check box for the relevant login, and then choose the **OK** button.  
   
 4.  Choose the **OK** button to exit the **Select Login** dialog box.  
   
@@ -61,7 +61,7 @@ Permissions are required in SQL Server to create and manage [!INCLUDE[navnow](in
   
 6.  In the **Database User - New** dialog box, under **Select a Page**, choose In the **Database role membership**.  
   
-7.  Select the **db\_owner** check box.  
+7.  Select the **db_owner** check box.  
   
 8.  Choose the **OK** button to exit the **Database User – New** dialog box.  
   
