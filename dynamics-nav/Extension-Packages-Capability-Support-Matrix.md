@@ -34,10 +34,10 @@ An extension package can contain both new and modified objects. In [!INCLUDE[nav
 > [!IMPORTANT]  
 >  You cannot modify any existing C/AL code, including code in codeunits and in triggers on existing objects. If you want to modify existing code, use the new C/AL eventing model. This restriction is only on existing code and objects. New pages, tables, and so on, can contain C/AL code as it is considered part of the new object.  
   
-## Restricted Properties  
+## Restricted properties  
  There are restrictions on certain property changes for modified objects. The following sections list the properties you cannot change. The cmdlets that create and install packages will halt with errors if any of these properties are changed in your extension.  
   
-### Restricted Properties on Existing Page Modifications  
+### Restricted properties on existing page modifications  
  You cannot change the values for the following properties for existing [!INCLUDE[navnow](includes/navnow_md.md)] pages in an extension.  
   
 -   AccessByPermission  
@@ -136,7 +136,7 @@ An extension package can contain both new and modified objects. In [!INCLUDE[nav
   
  Most of these are typically not properties changed through customization as they can have a negative effect on the [!INCLUDE[navnow](includes/navnow_md.md)] deployment.  
   
-### Restricted Properties on Existing Table Modifications  
+### Restricted properties on existing table modifications  
  You cannot change the values for the following properties for existing tables and fields in an extension.  
   
 |Table Properties|Field Properties|  

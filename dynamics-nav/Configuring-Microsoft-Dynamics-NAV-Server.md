@@ -1,7 +1,8 @@
 ---
 title: "Configuring Microsoft Dynamics NAV Server"
+author: edupont04
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/14/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -9,7 +10,7 @@ ms.topic: article
 ms-prod: "dynamics-nav-2017"
 ms.assetid: 3ab77291-9515-4817-851e-48a4ffc7e38f
 caps.latest.revision: 132
-manager: edupont
+manager: edupont04
 ---
 # Configuring Microsoft Dynamics NAV Server
 When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install [!INCLUDE[nav_server](includes/nav_server_md.md)], you can provide configuration information that is then used as the configuration for the default [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
@@ -97,7 +98,7 @@ When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install
 |-------------|---------------------------------------|  
 |Close Inactive SQL Connections|Specifies when to close inactive SQL Server connections. The value specifies the age at which to close connections. While a connection is inactive, starting from zero, the age is increased by one every 30 seconds. When the age of the inactive connection reaches the specified value, the connection is closed. A value of **0** means that inactive SQL connections will not be closed.<br /><br /> Default: 10|  
 |Database Instance|The name of the SQL Server database instance to connect to. If the value is a null string \(""\), [!INCLUDE[nav_server](includes/nav_server_md.md)] instance connects to the default database instance of SQL Server.<br /><br /> If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured as a multitenant server instance, then this setting specifies the SQL Server database instance that hosts the application database.<br /><br /> Default: NAVDEMO|  
-|Database Name|The name of the [!INCLUDE[navnow](includes/navnow_md.md)] database in SQL Server.<br /><br /> If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured as multi-tenant server instance, then this setting specifies the application database.<br /><br /> Default: "Demo Database NAV \(9-0\)"|  
+|Database Name|The name of the [!INCLUDE[navnow](includes/navnow_md.md)] database in SQL Server.<br /><br /> If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured as multi-tenant server instance, then this setting specifies the application database.<br /><br /> Default: "Demo Database NAV \(10-0\)"|  
 |Database Server|A valid network name for the computer that is running SQL Server.<br /><br /> If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured as multi-tenant server instance, then this setting specifies the computer that hosts the application database.<br /><br /> Default: The computer that you selected in [!INCLUDE[navnow](includes/navnow_md.md)] Setup.|  
 |Disable Smart SQL|Specifies whether the SmartSql performance optimization feature is disabled.<br /><br /> SmartSql converts FIND calls and FlowField calculations into a single SQL statement. This can improve performance when running pages that contain FlowFields. However, it can be helpful to disable SmartSQL when troubleshooting database queries because statements are separated into more discrete statements.<br /><br /> Default: Disabled \(check box is selected\)|  
 |Enable Buffered Insert|Specifies whether to buffer rows that are being inserted into a SQL Server database table.<br /><br /> When this parameter is enabled, up to 5 rows will be buffered in the table queue before they are inserted into the table.<br /><br /> To optimize performance in a production environment, you should enable this parameter. In a test environment, you can disable this parameter to help debug failures that occur when you insert rows in an SQL database table. For more information, see [Bulk Inserts](Bulk-Inserts.md).<br /><br /> Default: Enabled|  
