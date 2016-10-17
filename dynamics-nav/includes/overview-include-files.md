@@ -63,6 +63,7 @@ This table contains the INCLUDE expressions associated with the content of the i
 |`[!INCLUDE[nav2009sp1_md](includes/nav2009sp1_md.md)]`|Microsoft Dynamics NAV 2009 SP1|
 |`[!INCLUDE[navcorfu_md](includes/navcorfu_md.md)]`|Microsoft Dynamics NAV 2016|
 |`[!INCLUDE[navcrete_md](includes/navcrete_md.md)]`|Microsoft Dynamics NAV 2015|
+|`[!INCLUDE[nav2017](includes/nav2017.md)]`|Microsoft Dynamics NAV 2017|
 |`[!INCLUDE[navnow_install_md](includes/navnow_install_md.md)]`|C:\\Program Files\\Microsoft Dynamics NAV\\100|
 |`[!INCLUDE[navnow_md](includes/navnow_md.md)]`|Microsoft Dynamics NAV|
 |`[!INCLUDE[navnow_x86install_md](includes/navnow_x86install_md.md)]`|C:\\Program Files \(x86\)\\Microsoft Dynamics NAV\\100|
