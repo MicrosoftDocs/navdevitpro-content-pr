@@ -42,14 +42,14 @@ If you are installing Microsoft SQL Server for use with [!INCLUDE[navnow](includ
 ### Setup Options for Microsoft SQL Server  
 When you are running Microsoft SQL Server Setup, you must provide additional information. Your responses can affect how you use SQL Server with [!INCLUDE[navnow_md](includes/navnow_md.md)].  
 
-### TempDB database configuration
+#### TempDB database configuration
 For servers with less than 8 cores, create as many datafiles for the TempDB database as the number of cores. For servers with more than 8 cores, start with 8 datafiles, and increment with 4 files at a time, if needed.
 
 Make sure that all datafiles for the TempDB database are of the same size.
 
 Consider putting data and log files for TempDB on a local SSD drive if you are using SAN storage.
 
-### Instance Configuration  
+#### Instance Configuration  
  If you plan on installing the [!INCLUDE[navnow](includes/navnow_md.md)] Demo database, and you want [!INCLUDE[navnow](includes/navnow_md.md)] Setup to use an already installed version of SQL Server \(and not to install SQL Server Express\), you must create a SQL Server instance named **NAVDEMO** in SQL Server before you run Setup. Otherwise, Setup will install SQL Server Express automatically, even if there is a valid version of SQL Server already on the computer. If you do not plan to install the Demo database, or if you have no objection to using SQL Server Express, you are free to use the **default instance** and **Instance ID** on the **Instance Configuration** page, or to specify any instance name.  
 
 ### Database Engine Service Startup Options
