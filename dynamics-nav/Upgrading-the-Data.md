@@ -10,13 +10,19 @@ ms.author: jswymer
 manager: edupont
 ms-prod: "dynamics-nav-2017"
 ---
-# Upgrading the Data
+# Upgrading the Data to Dynamics 
 This topic describes the tasks required for upgrading a [!INCLUDE[nav7long](includes/nav7long_md.md)], [!INCLUDE[navsicily](includes/navsicily_md.md)], [!INCLUDE[navcrete](includes/navcrete_md.md)], or [!INCLUDE[navcorfu](includes/navcorfu_md.md)] database to [!INCLUDE[nav2017](includes/nav2017.md)].  
   
  You use data conversion tools provided with [!INCLUDE[navcorfu](includes/navcorfu_md.md)] to convert the old data with the old version’s table and field structure, so that it functions together with the new version’s table and field structure.  
   
 ##  <a name="Prereqs"></a> Prerequisites  
-  
+
+-   Your computer uses the same codepage as the data that will be upgraded.
+
+    If you use conflicting codepages, some characters will not display in captions, and you might not be able to access the upgraded database. This is because [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)]  must remove incorrect metadata characters to complete the data upgrade. In this case, after upgrade, you must open the database in the development environment on a computer with the relevant codepage and compile all objects. This adds the missing characters again.
+    
+    Optionally, you can export the captions before the upgrade. For more information, see [How to: Add Translated Strings for Conflicting Text Encoding Formats](languages-howaddtranslatedstrings.md).
+
 -   A FOB file that contains the upgraded application code and upgrade toolkit. The upgrade toolkit can also be in a separate FOB file.  
   
     For more information, see [Upgrading the Application Code](Upgrading-the-Application-Code.md).  
@@ -39,7 +45,7 @@ This topic describes the tasks required for upgrading a [!INCLUDE[nav7long](incl
   
 -   Permissions XML files of permission sets have been updated.  
   
--   If the old database includes test runner codeunits, you must change the signature of the OnBeforeTestRun and OnAfterTestRun triggers of the test runner codeunits to include the TestPermission parameter, as shown in the following examples:
+-   If the old database includes test runner codeunits, modify the signature of the OnBeforeTestRun and OnAfterTestRun triggers of the test runner codeunits to include the TestPermission parameter, as shown in the following examples:
 
     ```
     OnBeforeTestRun(CodeunitID : Integer;CodeunitName : Text[30];FunctionName : Text[128]; TestPermissions : Text) Ok : Boolean)
@@ -48,12 +54,6 @@ This topic describes the tasks required for upgrading a [!INCLUDE[nav7long](incl
     ```
     OnAfterTestRun(CodeunitID : Integer;CodeunitName : Text[30];FunctionName : Text[128]; FunctionTestPermissions : TestPermissions; Success : Boolean)
     ```
--   Your computer uses the same codepage as the data that will be upgraded.
-
-    If you use conflicting codepages, some characters will not display in captions, and you might not be able to access the upgraded database. This is because [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)]  must remove incorrect metadata characters to complete the data upgrade. In this case, after upgrade, you must open the database in the development environment on a computer with the relevant codepage and compile all objects. This adds the missing characters again.
-    
-    Optionally, you can export the captions before the upgrade. For more information, see [How to: Add Translated Strings for Conflicting Text Encoding Formats](languages-howaddtranslatedstrings.md).
-
 -   \(Optional\) If the old [!INCLUDE[navnow](includes/navnow_md.md)] application uses data encryption, export the encryption key file that it used for the data encryption.  
   
     For more information, see [How to: Export and Import Encryption Keys](How-to--Export-and-Import-Encryption-Keys.md).  
