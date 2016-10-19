@@ -23,6 +23,7 @@ The following sections provide an overview of the new, changed, and removed cmdl
 |Get-NAVServerAppConfiguration|Returns the settings in an application-specific configuration file of a Dynamics NAV Server instance.|  
 |New-NAVServerAppConfiguration|Creates a new server application specific configuration file.|  
 |Set-NAVServerAppConfiguration|Specifies a setting in an application-specific configuration file for a Dynamics NAV Server instance.|  
+|Import-NAVConfigurationPackage|Imports a configuration package file into the application database.|  
 |Update-NAVScheduledTaskList|Updates the application-wide list of scheduled tasks with the information from the tenant database.|  
 
 > [!NOTE]  
