@@ -23,7 +23,7 @@ Operators can be used in expressions to combine, investigate, and adjust values 
 |--------------------|-------------|  
 |.|Fields in records, controls on pages, and reports|  
 |()|Parentheses|  
-|\[\]|Indexing|  
+|\[ \]|Indexing|  
 |::|Scope|  
 |+|Addition|  
 |-|Subtraction or negation|  
@@ -77,7 +77,7 @@ string + string
 ## Operator Hierarchy  
  Operators are organized in a hierarchy that determines the order in which the operands in a given expression are evaluated. The following list shows the order of precedence of the C/AL operators:  
 
-1.  .(fields in records), [] (indexing), () (parentheses), :: (scope)  
+1.  .(fields in records), \[ \] \(indexing\), () (parentheses), :: (scope)  
 
 2.  NOT, - (unary), + (unary)  
 
