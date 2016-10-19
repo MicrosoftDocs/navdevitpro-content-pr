@@ -6,9 +6,9 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms.author: jswymer
+manager: edupont
 ms-prod: "dynamics-nav-2017"
-ms.assetid: 0a76957e-38e0-4323-b167-6ba48340f58d
-caps.latest.revision: 12
 ---
 # Upgrading the Application Code
 Typically, customers want all the customizations that have been implemented in their existing [!INCLUDE[navnow](includes/navnow_md.md)] databases to be migrated to their new [!INCLUDE[navnowlong](includes/navnowlong_md.md)] databases. Depending on the version of [!INCLUDE[navnow](includes/navnow_md.md)] that a database is being upgraded from, the amount of code changes between the two versions is large or small. To upgrade the application code, you must merge code from different versions of the application. This merge process is known as a *code upgrade* or *application upgrade*. You must upgrade the application before you upgrade the data.  
@@ -99,7 +99,7 @@ Depending on the number of objects that you are merging and the number of differ
  Depending on the application that you are upgrading, you can choose to analyze the conflicting code before you import the merged objects into the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. The conflicts are shown in the merged text files but are also identified in .CONFLICT files in the RESULT folder. Subfolders then contain copies of the source files from the versions that have conflicting code. You can analyze the conflicts in any tool, make the relevant changes, and then run the merge operation again. Alternatively, you can import the merged files into the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], and resolve the conflicts there. For more information, see [Handling Merge Conflicts](Handling-Merge-Conflicts.md).  
 
 ## Importing and Compiling Merged Objects  
-After you have completed the merge, import the new custom version into the new [!INCLUDE[navnowlong](includes/navnowlong_md.md)] database, and then compile all objects. You must resolve any compilation errors before you can continue. The text files with the merged application objects include successfully merged code, and code that is partially merged. You can import the partially merged objects into the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] development environment and resolve the conflicts there.  
+After you have completed the merge, create a new (empty) [!INCLUDE[navnowlong](includes/navnowlong_md.md)] database for the new upgraded application. Make sure the database includes a valid [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. With the database in place, import the new customized (merged) application objects into the database, and then compile all objects. You must resolve any compilation errors before you can continue. The text files with the merged application objects include successfully merged code, and code that is partially merged. You can import the partially merged objects into the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] development environment and resolve the conflicts there.  
 
 For example, the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] and Microsoft.Dynamics.NAV.Model.Tools.psd1 module include a **Join-NAVApplicationObjectFile** cmdlet and a **Import-NAVApplicationObject** function. The **Join-NAVApplicationObjectFile** cmdlet combines multiple application object files into one text file. The **Import-NAVApplicationObject** function runs the [ImportObjects](ImportObjects.md) [!INCLUDE[nav_dev_short_md](includes/nav_dev_short_md.md)] command to import an object file. This means that you can run a command such as the following:  
 
@@ -119,5 +119,6 @@ Now, you must export all objects of the new database to an **objects.fob** file 
 This completes the upgrade of the application code. Next, you must upgrade the data in the database. For more information, see [Upgrading the Data](Upgrading-the-Data.md).  
 
 ## See Also  
- [Upgrading the Data](Upgrading-the-Data.md)   
- [Upgrading to Microsoft Dynamics NAV 2016](Upgrading-to-Microsoft-Dynamics-NAV-2016.md)
+[Upgrading the Data](Upgrading-the-Data.md)   
+[Upgrading to Microsoft Dynamics NAV 2016](Upgrading-to-Microsoft-Dynamics-NAV-2016.md)  
+[How to: Create Databases.md](How-to--Create-Databases.md)  
