@@ -6,10 +6,10 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
-ms.assetid: 015dd873-0887-4ac6-a5cd-809778286099
-caps.latest.revision: 16
+ms.author: jswymer
 manager: edupont
+ms-prod: "dynamics-nav-2017"
+
 ---
 # Upgrading to [!INCLUDE[nav2017](includes/nav2017.md)]
 This topic provides an overview of how to upgrade to [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. The upgrade process depends on different factors, such as the version of [!INCLUDE[navnow](includes/navnow_md.md)] that you are upgrading from, and the degree to which your solution differs from the standard version of [!INCLUDE[navnow](includes/navnow_md.md)]. The mains tasks range from converting the database to upgrading application code and data.
