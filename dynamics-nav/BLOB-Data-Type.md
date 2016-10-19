@@ -39,6 +39,6 @@ A binary large object \(BLOB\) is a complex data type. Variables of this data ty
 ## See Also  
 [CREATEINSTREAM Function \(BLOB\)](CREATEINSTREAM-Function--BLOB-.md)  
 [CREATEOUTSTREAM Function \(BLOB\)](CREATEOUTSTREAM-Function--BLOB-.md)  
-[EXPORT Function \(BLOB)\](EXPORT-Function--BLOB.md)  
+[EXPORT Function \(BLOB\)](EXPORT-Function--BLOB.md)  
 [HASVALUE Function \(BLOB\)](HASVALUE-Function--BLOB-.md)   
 [Variant Data Type](Variant-Data-Type.md)
