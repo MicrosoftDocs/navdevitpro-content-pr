@@ -28,7 +28,7 @@ Before you begin the upgrade process, see [Upgrade Considerations](Upgrade-Consi
 
 ## Automating the Upgrade Process using Sample Windows PowerShell Scripts
 You can use [!INCLUDE[wps_2](includes/wps_2_md.md)] scripts to help you upgrade to [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. You can use automation to upgrade a single [!INCLUDE[navnow](includes/navnow_md.md)] database as well as multiple [!INCLUDE[navnow](includes/navnow_md.md)] databases that use the same application. [!INCLUDE[navnowlong](includes/navnowlong_md.md)] provides sample scripts that you can adapt for your deployment architecture.
-For more information, see [Automating the Upgrade Process using Sample Windows PowerShell Scripts](Automating-the-Upgrade-Process-using-Sample-Windows-PowerShell-Scripts.md)  
+For more information, see [Automating the Upgrade Process using Sample Windows PowerShell Scripts](Automating-the-Upgrade-Process-using-Sample-Windows-PowerShell-Scripts.md).  
 
 ## See Also  
 [Product and Architecture Overview](Product-and-Architecture-Overview.md)   
