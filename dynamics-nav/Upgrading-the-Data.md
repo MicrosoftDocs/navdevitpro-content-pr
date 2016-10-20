@@ -173,20 +173,20 @@ Start-NavDataUpgrade -ServerInstance <ServerInstanceName> -Force
 ##  <a name="SetLang"></a> Task 14: Set the language of the customer database  
  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], choose **Tools**, choose **Language**, and then select the language of the original customer database.  
 
-##  <a name="AddControlAddins"></a> Task 15: Add new control add-ins  
- The database is now fully upgraded and is ready for use. However, you may want to add the new client control add-ins that are included in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. These are not added by the upgrade process. The following client control add-ins are available from the [!INCLUDE[navnow](includes/navnow_md.md)] product media:  
-
+##  <a name="AddControlAddins"></a> Task 15: Add client control add-ins  
+ The database is now fully upgraded and is ready for use. However, [!INCLUDE[navnowlong](includes/navnowlong_md.md)] includes the following client control add-ins.
 -   Microsoft.Dynamics.Nav.Client.BusinessChart  
-
+-   Microsoft.Dynamics.Nav.Client.CodeViewer
+-   Microsoft.Dynamics.Nav.Client.DynamicsOnlineConnect
+-   Microsoft.Dynamics.Nav.Client.OAuthIntegration
 -   Microsoft.Dynamics.Nav.Client.PageReady  
-
 -   Microsoft.Dynamics.Nav.Client.PingPong  
-
--   Microsoft.Dynamics.Nav.Client.VideoPlayer  
-
 -   Microsoft.Dynamics.Nav.Client.SocialListening  
+-   Microsoft.Dynamics.Nav.Client.TimelineVisualization
+-   Microsoft.Dynamics.Nav.Client.VideoPlayer  
+-   Microsoft.Dynamics.Nav.Client.WebPageViewer
 
- You can add control add-ins in the **Control Add-ins** window in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information, see [How to: Register a Windows Client Control Add-in](How-to--Register-a-Windows-Client-Control-Add-in.md).  
+To use these add-ins, they must be registered in table **2000000069 Client Add-in**. Depending on the version that you upgraded from, all the add-ins might not be registered after the upgrade process. You can register missing control add-ins in the **Control Add-ins** page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information, see [How to: Register a Windows Client Control Add-in](How-to--Register-a-Windows-Client-Control-Add-in.md).  
 
 <!-- deprecated ##  <a name="UploadEncryptionKeys"></a> Task 16: Import Payment Services and Data Encryption Key \(Optional\)  
 
@@ -197,7 +197,7 @@ Start-NavDataUpgrade -ServerInstance <ServerInstanceName> -Force
 -   If you want to use data encryption as before, you must import the data encryption key file that was exported previously.  
 
      For more information, see [How to: Export and Import Encryption Keys](How-to--Export-and-Import-Encryption-Keys.md).  -->
-
+     
 ## See Also  
  [Upgrading the Application Code](Upgrading-the-Application-Code.md)   
  [Automating the Upgrade Process using Sample Windows PowerShell Scripts](Automating-the-Upgrade-Process-using-Sample-Windows-PowerShell-Scripts.md)   
