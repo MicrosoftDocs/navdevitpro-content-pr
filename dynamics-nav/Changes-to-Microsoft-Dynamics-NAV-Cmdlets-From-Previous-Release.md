@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.author: jswymer
+author: jswymer
 manager: edupont
 ms-prod: "dynamics-nav-2017"
 ---
@@ -20,10 +20,10 @@ The following sections provide an overview of the new, changed, and removed cmdl
 
 |Cmdlet|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |------------|---------------------------------------|  
-|Get-NAVServerAppConfiguration|Returns the settings in an application-specific configuration file of a Dynamics NAV Server instance.|  
+|Get-NAVServerAppConfiguration|Returns the settings in an application-specific configuration file of a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|  
 |New-NAVServerAppConfiguration|Creates a new server application specific configuration file.|  
-|Set-NAVServerAppConfiguration|Specifies a setting in an application-specific configuration file for a Dynamics NAV Server instance.|  
-|Get-NavTableSyncSetupForDataUpgrade|Gets information about the tables that will be modified, added, or removed during a tenant data upgrade on the specified  [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance|
+|Set-NAVServerAppConfiguration|Specifies a setting in an application-specific configuration file for a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|  
+|Get-NavTableSyncSetupForDataUpgrade|Gets information about the tables that will be modified, added, or removed during a tenant data upgrade on the specified [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
 |Import-NAVConfigurationPackageFile|Imports a configuration package file into the application database.|  
 |Remove-NAVConfigurationPackageFile| Removes a configuration package file from the application database.|  
 |Import-NAVMembershipEntitlement|Imports the license entitlement data for a membership association.|  
@@ -35,7 +35,7 @@ The following sections provide an overview of the new, changed, and removed cmdl
 
 |Cmdlet|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |------------|---------------------------------------|  
-|Get-NAVAppTableModification|Gets information about the tabled added or modified by an extension based on the specified [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance|
+|Get-NAVAppTableModification|Gets information about the tabled added or modified by an extension based on the specified [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
 |Remove-NAVAppsForTenant| Removes all NAV Apps from the specified, unmounted tenant. This cmdlet should be run against tenants that are not mounted.|
 
 ### Changed Cmdlets  
@@ -43,9 +43,9 @@ The following sections provide an overview of the new, changed, and removed cmdl
 
 |Cmdlet|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |------------|---------------------------------------|  
-|[Mount-NAVTenant](http://go.microsoft.com/fwlink/?LinkID=401372)|*ExchangeAuthenticationMetadataLocation* parameter added.|  
-|[Start-NAVTenant](http://go.microsoft.com/fwlink/?LinkID=401399)|*Language* parameter added.|  
-|[Sync-NAVTenant](http://go.microsoft.com/fwlink/?LinkID=401399)|*CommitPerTable* parameter added.|  
+|Mount-NAVTenant|*ExchangeAuthenticationMetadataLocation* parameter added.|  
+[Start-NAVTenant|*Language* parameter added.|  
+|Sync-NAVTenant|*CommitPerTable* parameter added.|  
 
 ## Changes to [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] Cmdlets  
 
@@ -54,7 +54,7 @@ The following sections provide an overview of the new, changed, and removed cmdl
 
 |Cmdlet|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |------------|---------------------------------------|  
-|Get-NavTableSyncSetupForDataUpgrade|Gets information about the tables that will be modified, added, or removed during a tenant data upgrade on the specified  [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance|
+|Get-NavTableSyncSetupForDataUpgrade|Gets information about the tables that will be modified, added, or removed during a tenant data upgrade on the specified  [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
 
 ### New Cmdlets for Microsoft Dynamics NAV Extensions
  The following table includes the new cmdlets in the current release.  
