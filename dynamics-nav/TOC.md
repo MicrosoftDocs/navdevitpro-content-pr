@@ -42,7 +42,7 @@
 # [Administration](Administration.md)
 ## [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)
 ## [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)
-## [Managing Users and Permissions](Managing-Users-and-Permissions.md)
+## [Managing Users](Managing-Users.md)
 ## [Managing Companies](Managing-Companies.md)
 ## [Administration in the Development Environment](Administration-in-the-Development-Environment.md)
 ## [Optimizing SQL Server Performance with Microsoft Dynamics NAV](Optimizing-SQL-Server-Performance-with-Microsoft-Dynamics-NAV.md)
