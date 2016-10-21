@@ -1,4 +1,4 @@
-S--
+---
 title: "Installing and Configuring Windows Client Control Add-ins on Pages"
 ms.custom: na
 ms.date: 06/05/2016
