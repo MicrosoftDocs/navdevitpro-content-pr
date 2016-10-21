@@ -74,12 +74,12 @@ For information about other ways of upgrading your code, see [Upgrading the Appl
     Export-NAVApplicationObject –DatabaseServer MyServer –DatabaseName "Demo Database NAV (7-0)" –Path C:\Upgrade\ORIGINAL\OldBaseVersion.txt  
     ```  
 
-3.  Export all relevant application objects from the modified version, such as the customized [!INCLUDE[nav7long](includes/nav7long_md.md)] database. Do not export system tables. Name the file **OldCustomVersion.txt**, and then save the file in the MODIFIED folder that you created earlier.  
+3.  Export all  application objects, except system tables, from the modified version, such as the customer's customized [!INCLUDE[nav7long](includes/nav7long_md.md)] database. Name the file **OldCustomVersion.txt**, and then save the file in the MODIFIED folder that you created earlier.  
 
     > [!TIP]  
     >  In some cases, existing customizations might be irrelevant after the upgrade because they correspond to new functionality in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].
 
-4.  Export all application objects from the new base version, such as the original [!INCLUDE[navnowlong](includes/navnowlong_md.md)] database. Do not export system tables. Name the file **NewBaseVersion.txt**, and then save the file in the TARGET folder that you created earlier.  
+4.  Export all application objects, except system tables, from the new base version, such as the original [!INCLUDE[navnowlong](includes/navnowlong_md.md)] database. Name the file **NewBaseVersion.txt**, and then save the file in the TARGET folder that you created earlier.  
 
 Optionally, you can use the [Split-NAVApplicationObjectFile](https://go.microsoft.com/fwlink/?linkid=398885) cmdlet to split each text file into separate text files for each application object. This can make it easier to keep track of the process. The end result at this stage is three folders with one or more text files that contain the three sets of application objects that you want to merge.  
 
@@ -100,9 +100,11 @@ Depending on the number of objects that you are merging and the number of differ
  Depending on the application that you are upgrading, you can choose to analyze the conflicting code before you import the merged objects into the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. The conflicts are shown in the merged text files but are also identified in .CONFLICT files in the RESULT folder. Subfolders then contain copies of the source files from the versions that have conflicting code. You can analyze the conflicts in any tool, make the relevant changes, and then run the merge operation again. Alternatively, you can import the merged files into the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], and resolve the conflicts there. For more information, see [Handling Merge Conflicts](Handling-Merge-Conflicts.md).  
 
 ## Importing and Compiling Merged Objects  
-After you have completed the merge, create a new (empty) [!INCLUDE[navnowlong](includes/navnowlong_md.md)] database for the new upgraded application. Make sure the database includes a valid [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. With the database in place, import the new customized (merged) application objects into the database, and then compile all objects. You must resolve any compilation errors before you can continue. The text files with the merged application objects include successfully merged code, and code that is partially merged. You can import the partially merged objects into the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] development environment and resolve the conflicts there.  
+After you have completed the merge, create a new (empty) [!INCLUDE[navnowlong](includes/navnowlong_md.md)] database for the new upgraded application. Make sure the database includes a valid [!INCLUDE[navnowlong](includes/navnowlong_md.md)] license.
 
-For example, the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] and Microsoft.Dynamics.NAV.Model.Tools.psd1 module include a **Join-NAVApplicationObjectFile** cmdlet and a **Import-NAVApplicationObject** function. The **Join-NAVApplicationObjectFile** cmdlet combines multiple application object files into one text file. The **Import-NAVApplicationObject** function runs the [ImportObjects](ImportObjects.md) [!INCLUDE[nav_dev_short_md](includes/nav_dev_short_md.md)] command to import an object file. This means that you can run a command such as the following:  
+With the database in place, import the new customized (merged) application objects into the database, and then compile all objects. You must resolve any compilation errors before you can continue. The text files with the merged application objects include successfully merged code, and code that is partially merged. You can import the partially merged objects into the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] development environment and resolve the conflicts there.  
+
+For example, the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] and Microsoft.Dynamics.NAV.Model.Tools.psd1 module include a **Join-NAVApplicationObjectFile** cmdlet and a **Import-NAVApplicationObject** function. The **Join-NAVApplicationObjectFile** cmdlet combines multiple application object files into one text file. The **Import-NAVApplicationObject** function runs the [ImportObjects](ImportObjects.md) command to import an object file. This means that you can run a command such as the following:  
 
 ```  
 Join-NAVApplicationObjectFile –Source C:\Upgrade\RESULT\*.txt -Destination C:\Upgrade\all-merged.txt   
