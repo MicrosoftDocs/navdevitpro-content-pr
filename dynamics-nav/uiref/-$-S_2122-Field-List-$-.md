@@ -1,5 +1,5 @@
 ---
-title: "($ S_2122 Field List $)"
+title: "Field List"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 23b55a7b-f57e-4cb3-94ec-2cbdebdb8fe1
 caps.latest.revision: 7
 manager: edupont
 ---
-# ($ S_2122 Field List $)
+# Field List
 Specifies all fields in the table that you selected.  
 
  To open this window, open Table Designer, and then on the **View** menu, choose **Keys**. In the **Keys** window, choose the **Up Arrow** button in the **Key** field.  

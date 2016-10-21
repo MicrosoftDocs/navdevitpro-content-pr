@@ -77,7 +77,7 @@ For information about other ways of upgrading your code, see [Upgrading the Appl
 3.  Export all relevant application objects from the modified version, such as the customized [!INCLUDE[nav7long](includes/nav7long_md.md)] database. Do not export system tables. Name the file **OldCustomVersion.txt**, and then save the file in the MODIFIED folder that you created earlier.  
 
     > [!TIP]  
-    >  In some cases, existing customizations might be irrelevant after the upgrade because they correspond to new functionality in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. For a description of new application functionality in [!INCLUDE[navnowlong](includes/navnowlong_md.md)], see [What’s New: Application Changes for Microsoft Dynamics NAV](What-s-New:-Application-Changes-for-Microsoft-Dynamics-NAV.md).
+    >  In some cases, existing customizations might be irrelevant after the upgrade because they correspond to new functionality in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].
 
 4.  Export all application objects from the new base version, such as the original [!INCLUDE[navnowlong](includes/navnowlong_md.md)] database. Do not export system tables. Name the file **NewBaseVersion.txt**, and then save the file in the TARGET folder that you created earlier.  
 
