@@ -2,7 +2,7 @@
 title: "Configuring Microsoft Dynamics NAV Server"
 author: edupont04
 ms.custom: na
-ms.date: 10/19/2016
+ms.date: 10/21/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,7 +10,7 @@ ms.topic: article
 ms-prod: "dynamics-nav-2017"
 ms.assetid: 3ab77291-9515-4817-851e-48a4ffc7e38f
 caps.latest.revision: 132
-manager: edupont04
+manager: edupont
 ---
 # Configuring Microsoft Dynamics NAV Server
 When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install [!INCLUDE[nav_server](includes/nav_server_md.md)], you can provide configuration information that is then used as the configuration for the default [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
@@ -201,8 +201,7 @@ The settings in this tab configure the [!INCLUDE[nav_server](includes/nav_server
 |  Application Client Secret|  Specifies the secret to use with **Application Client ID** for Azure AD authentication. |
 |  Azure AD App ID URI |  Specifies the App ID URI that is registered for Dynamics NAV in the Azure AD tenant.<BR /><BR />The App ID URI is a logical identifier for [!INCLUDE[navnow](includes/navnow_md.md)]. It is used to validate the security tokens that the server instance receives in SOAP and OData calls when the server instance is configured with Access Control Service (ACS) credential type. |
 |  Enable Membership Entitlement|  Configures the server instance to use membership entitlement for controlling access the [!INCLUDE[navnow](includes/navnow_md.md)].<BR /><BR />This setting is typically only used for software as a service (SaaS) solutions.|
-|  Excel Add-in AAD Client App ID|  Specifies the Excel add-in Azure Active Directory client app ID to use for authentication.|
-|  Excel add-in AAD client app ID |  Specifies the ID of the Azure AD tenant for the Excel add-in. The Excel add-in requires a separate Azure AD tenant. |
+|  Excel add-in AAD client app ID |  Specifies the client ID of the Azure AD tenant for the Excel add-in. The Excel add-in requires a separate Azure AD tenant. For more information, see [Configuring Dynamics NAV and the Excel Add-In](configuring-dynamics-nav-excel-addin.md).|
 |  WS-Federation Login Endpoint  |  Specifies the URL for the federation sign-on page that [!INCLUDE[navnow](includes/navnow_md.md)] redirects to when configured for single sign-on.<BR /><BR />You must specify a URL in the following format:<BR /><BR /> https://login.windows.net/[AADTENANTID]/wsfed?wa=wsignin1.0%26wtrealm=...%26wreply=....<BR /><BR /> The placeholder [AADTENANTID] represents the GUID of your Azure AD tenant. If the server instance has to support multiple Azure AD tenants, then the **Azure AD Tenant ID** parameter that is specified when mounting a tenant replaces the placeholder.|
 |  WS-Federation Metadata Location  |  Specifies the URL for the federation metadata document that describes the configuration information for your Azure AD tenant. The federation metadata document is used to validate the security tokens that the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] receive.<BR /><BR /> You must specify a URL in the following format:<BR /><BR />https://login.windows.net/[AADTENANTID]/FederationMetadata/2007-06/FederationMetadata.xml<BR /><BR />The placeholder [AADTENANTID] represents the GUID of your Azure AD tenant. If the server instance has to support multiple Azure AD tenants, then the Azure AD Tenant ID parameter that is specified when mounting a tenant replaces the placeholder.|
 
