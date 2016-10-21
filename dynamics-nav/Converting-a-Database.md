@@ -30,7 +30,7 @@ If your current solution is based on [!INCLUDE[nav7long](includes/nav7long_md.md
 
 1.  Make a copy of the old database or create full database backup.  
 
-     For more information, see [Create a Full Database Backup \(SQL Server\)](http://go.microsoft.com/fwlink/?LinkID=296465){:target="_blank"}.  
+     For more information, see [Create a Full Database Backup \(SQL Server\)](http://go.microsoft.com/fwlink/?LinkID=296465).  
 
 2.  Clear all [!INCLUDE[nav_server](includes/nav_server_md.md)] instance records from the **dbo.Server Instance** table in the database on SQL Server.  
 
