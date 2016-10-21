@@ -62,8 +62,8 @@ MESSAGE(FORMAT(Date1));
 > [!NOTE]  
 >  When you assign a value to a date variable, the value that you assign must be in the correct format for the regional setting of the computer. For example, if the computer is set to English \(United States\), then `Date1 := 271108D;` results in a compiler error.  
   
-## Changes from Previous Versions of Microsoft Dynamics NAV  
- This topic has been updated to specify the SQL Server requirement for the earliest DateTime rather than the internal [!INCLUDE[navnow](includes/navnow_md.md)] date. In SQL Server, the earliest DateTime is January 1, 1753, 00:00:00.000. [!INCLUDE[navnow](includes/navnow_md.md)] can handle dates as early as January 3, 0001, but such dates cannot be stored in the database.  
+<!-- Removed for 2017 ## Changes from Previous Versions of Microsoft Dynamics NAV  
+ This topic has been updated to specify the SQL Server requirement for the earliest DateTime rather than the internal [!INCLUDE[navnow](includes/navnow_md.md)] date. In SQL Server, the earliest DateTime is January 1, 1753, 00:00:00.000. [!INCLUDE[navnow](includes/navnow_md.md)] can handle dates as early as January 3, 0001, but such dates cannot be stored in the database. --> 
   
 ## See Also  
  [CALCDATE Function \(Date\)](CALCDATE-Function--Date-.md)   
