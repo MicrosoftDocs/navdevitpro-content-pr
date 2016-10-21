@@ -29,7 +29,7 @@ caps.latest.revision: 22
   
      Any permission sets that are already assigned to the user are displayed in the **User Permission Sets** area.  
   
-3.  To assign a new permission set to the user, click to position the cursor on a blank line in the in the **User Permission Sets** area and then choose the Assist button in the **Permission Set** column to display a list of existing permission sets.  
+3.  To assign a new permission set to the user, click to position the cursor on a blank line in the in the **User Permission Sets** area and then choose the **Assist** button in the **Permission Set** column to display a list of existing permission sets.  
   
 4.  Click to select a permission set.  
   

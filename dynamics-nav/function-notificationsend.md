@@ -1,4 +1,4 @@
---
+---
 title: "SEND Function (Notification)"
 ms.custom: na
 ms.date: 09/20/2016
@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.author: jswymer
+author: jswymer
 ms-prod: "dynamics-nav-2017"
 ---
 # SEND Function (Notification)
@@ -34,7 +34,7 @@ The following code creates a notification and sends it to the client in the loca
 ```
 MyNotification.MESSAGE := 'This is a notification';
 MyNotification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
-MyNotification.SEND
+MyNotification.SEND;
 ```
 
 ## See Also  
