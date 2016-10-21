@@ -40,7 +40,7 @@ The following code creates a notification and sends it in the local scope.
 ```
 MyNotification.MESSAGE := 'This is a notification';
 MyNotification.SCOPE := NOTIFICATIONSCOPE::LocalScope;
-MyNotification.SEND
+MyNotification.SEND;
 ```
 
 ## See Also  
