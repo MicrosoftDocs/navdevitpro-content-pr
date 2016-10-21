@@ -24,9 +24,9 @@ Shows a list of the SQL Server databases that you can access from [!INCLUDE[navn
 
 -   The type of replication that is being used.  
 
- [!INCLUDE[bp_windownoneditable](../includes/bp_windownoneditable_md.md)]  
+[!INCLUDE[bp_windownoneditable](../includes/bp_windownoneditable_md.md)]  
 
- To open this window, open the **Open Database** window, and then on the **General** tab, choose the **Up Arrow** button in the **Database Name** field. For information about how to open the **Open Database** window, see [Open Database](-$-S_2335-Open-Database-$-.md).  
+To open this window, open the **Open Database** window, and then on the **General** tab, choose the **Up Arrow** button in the **Database Name** field. For information about how to open the **Open Database** window, see [Open Database](-$-S_2335-Open-Database-$-.md).  
 
 > [!NOTE]  
 >  You must select a SQL Server instance before you can select a database.  
