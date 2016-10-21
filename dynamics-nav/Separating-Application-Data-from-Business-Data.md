@@ -23,7 +23,7 @@ caps.latest.revision: 11
  [!INCLUDE[navnow](includes/navnow_md.md)] includes [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlets that help you export application tables to a dedicated database, and other cmdlets to help you maintain a multitenant deployment. For more information, see [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md).  
   
 ### Distribution of the System Tables in Each Database  
- The application tables are system tables that define the application. Other system tables remain in the business data database. The following table describes which system tables are moved to the application database when you run the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.Export-NAVApplication](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.Export-NAVApplication) cmdlet and which tables remain in the business data database.  
+ The application tables are system tables that define the application. Other system tables remain in the business data database. The following table describes which system tables are moved to the application database when you run the Export-NAVApplication cmdlet and which tables remain in the business data database.  
   
 |Application database|Business data database|  
 |--------------------------|----------------------------|  
