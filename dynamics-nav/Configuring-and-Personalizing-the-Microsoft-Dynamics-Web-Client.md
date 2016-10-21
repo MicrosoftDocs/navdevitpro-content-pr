@@ -23,7 +23,7 @@ A [!INCLUDE[navnow](includes/navnow_md.md)] page can consist of several differen
 
 -   [How to: Open Microsoft Dynamics NAV in Configuration Mode](How-to--Open-Microsoft-Dynamics-NAV-in-Configuration-Mode.md)  
 
--   [Working with Role Centers](Working-with-Role-Centers.md)  
+-   [Profiles and Role Centers](Profiles-and-Role-Centers.md)  
 
 -   [Walkthrough: Configuring UI for the Order Processor Profile](Walkthrough--Configuring-UI-for-the-Order-Processor-Profile.md)  
 
@@ -34,5 +34,5 @@ A [!INCLUDE[navnow](includes/navnow_md.md)] page can consist of several differen
 >  Performing this task affects the users in [!INCLUDE[nav_windows](includes/nav_windows_md.md)] and [!INCLUDE[nav_web](includes/nav_web_md.md)].  
 
 ## See Also  
- [Configure the User Interface](Configure-the-User-Interface.md)   
+ [Profiles and Role Centers](Profiles-and-Role-Centers.md)   
  [Personalize the User Interface](\($-S_PERSONALIZATION-Personalize-the-User-Interface-$\).md)

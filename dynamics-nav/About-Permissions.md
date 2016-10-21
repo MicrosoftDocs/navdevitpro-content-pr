@@ -37,5 +37,5 @@ Each permission set in [!INCLUDE[navnow](includes/navnow_md.md)] describes a set
 [How to: Work with the BASIC Permission Set](how-to-work-with-the-basic-permission-set.md)  
 [How to: Define Permissions for Users](How-to--Define-Permissions-for-Users.md)   
 [Security and Protection](Security-and-Protection.md)   
-[Customize the User Interface](Customize-the-User-Interface.md)   
+[Profiles and Role Centers](Profiles-and-Role-Centers.md)   
 [Removing Elements from the User Interface According to Permissions](Removing-Elements-from-the-User-Interface-According-to-Permissions.md)
