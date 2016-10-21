@@ -19,8 +19,8 @@ The following tables provide an overview of the new, removed, or changed C/AL da
 |---------------|---------------------------------------|  
 |Media|A complex type that encapsulates media (such as images) in the application database for displaying the media with associated records. The data type can be used on table fields and supports the following functions:<br /><br /> -   ImportFile<br />-   ImportInStream<br />-   MEDIAID<br />-   HASVALUE<br />-   EXPORTFILE<br />-   EXPORTSTREAM<br /><br />|  
 |MediaSet|A complex type that encapsulates media files, such as images, in application database for displaying the media with associated records. The **MediaSet** data type enables you to include multiple media files as part of a collection on a record. The **MediaSet** data type can be used on table fields and supports the following functions:<br /><br /> -   ImportFile<br />-   ImportInStream<br />-   MEDIAID<br />-   COUNT<br />-   EXPORTMEDIASET<br /><br />|  
-|Notification| A complex type for publishing and consuming notifications in the application. Notifications provide a programmatic way to send non-intrusive information to the user interface (UI). The **Notification** data type supports the following functions:<br /><br /> -   ADDACTION<br />-   GETDATA<br />-   ID<br />-   MESSAGE<br />-   RECALL<br />- SCOPE<br />- SEND<br />- SETDATA<br />
-See the C/AL Functions section that follows for a description of the data type functions.|
+|Notification| A complex type for publishing and consuming notifications in the application. Notifications provide a programmatic way to send non-intrusive information to the user interface (UI). The **Notification** data type supports the following functions:<br /><br /> -   ADDACTION<br />-   GETDATA<br />-   ID<br />-   MESSAGE<br />-   RECALL<br />- SCOPE<br />- SEND<br />- SETDATA|  
+See the C/AL Functions section that follows for a description of the data type functions.
 
 ## C/AL Functions  
  The following table lists the new functions in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
