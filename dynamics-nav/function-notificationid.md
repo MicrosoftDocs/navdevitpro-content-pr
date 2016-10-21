@@ -16,8 +16,8 @@ Specifies the identifier for a notification.
 [CurrID := ] MyNotification.ID
 ```
 ## Return Value
-*Value*
-**unique identifier** for the notification.
+*Value*  
+The unique identifier for the notification.
 
 ## Remarks
 If left unassigned the notification will be assigned an ID when the SEND method is called. For more information, see [SEND Function (Notification)](function-notificationsend.md).
