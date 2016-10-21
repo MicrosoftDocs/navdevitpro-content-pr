@@ -1,5 +1,5 @@
 ---
-title: "($ S_2141 Multilanguage Editor $)"
+title: "Multilanguage Editor"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 32c146f5-e5c8-4089-a0aa-acbe6a4b8baa
 caps.latest.revision: 7
 manager: edupont
 ---
-# ($ S_2141 Multilanguage Editor $)
+# Multilanguage Editor
 Specifies text in multiple languages.  
   
  To open this window, open a designer such as Page Designer, and then on the **View** menu, choose **Properties**. Locate the **CaptionML** property, and then choose the **AssistEdit** button in the **Value** field.  

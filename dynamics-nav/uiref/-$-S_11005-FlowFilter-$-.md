@@ -1,5 +1,5 @@
 ---
-title: "($ S_11005 FlowFilter $)"
+title: "FlowFilter"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: c6ffa571-cc40-4cf3-ad63-af95b928153b
 caps.latest.revision: 6
 manager: edupont
 ---
-# ($ S_11005 FlowFilter $)
+# FlowFilter
 Sets a FlowFilter.  
 
  To open this window, on the **Tools** menu, choose **Object Designer**, and then on the **View** menu, choose **FlowFilter**.  

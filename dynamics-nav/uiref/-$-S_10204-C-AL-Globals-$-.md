@@ -1,5 +1,5 @@
 ---
-title: "($ S_10204 C/AL Globals $)"
+title: "C/AL Globals"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 13a27442-9682-4007-97dd-bbea133d0996
 caps.latest.revision: 17
 manager: edupont
 ---
-# ($ S_10204 C/AL Globals $)
+# C/AL Globals
 Declares global variables, text constants, and functions in [!INCLUDE[navnow](../includes/navnow_md.md)]. The scope of the global variables, text constants, and functions is limited to the object.  
 
  To open this window, on the **Tools** menu, choose **Object Designer**. In Object Designer, choose **Table**, **Page**, **Report**, **Codeunit**, **Query** or **XMLport**, choose the **Design** button, and then on the **View** menu, choose **C/AL Globals**.  

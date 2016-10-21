@@ -1,5 +1,5 @@
 ---
-title: "($ S_2342 Available Databases $)"
+title: "Available Databases"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 63035dba-0101-45f0-b502-ab4da8fc146a
 caps.latest.revision: 6
 manager: edupont
 ---
-# ($ S_2342 Available Databases $)
+# Available Databases
 Shows a list of the SQL Server databases that you can access from [!INCLUDE[navnow](../includes/navnow_md.md)] and that are currently available on this SQL Server instance. This window displays the following information:  
 
 -   Name of the database.  

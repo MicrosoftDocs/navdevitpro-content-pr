@@ -1,5 +1,5 @@
 ---
-title: "($ S_11150 Page Designer Wizard, Available Fields $)"
+title: "Page Designer Wizard, Available Fields
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na

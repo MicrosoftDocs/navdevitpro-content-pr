@@ -1,5 +1,5 @@
 ---
-title: "($ S_2420 Create Menu $)"
+title: "Create Menu"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 87789673-dd42-44cb-ae00-35357240bfa1
 caps.latest.revision: 9
 manager: edupont
 ---
-# ($ S_2420 Create Menu $)
+# Create Menu
 Creates a new menu for a department. This menu represents a department in a company.  
 
  To open this window, open Navigation Pane Designer, right-click the department area, and then choose **Create Menu**. For more information about how to open Navigation Pane Designer, see [\($ S\_2401 Navigation Pane Designer $\)](-$-S_2401-Navigation-Pane-Designer-$-.md).  

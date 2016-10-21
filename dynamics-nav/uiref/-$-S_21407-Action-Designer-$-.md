@@ -1,5 +1,5 @@
 ---
-title: "($ S_21407 Action Designer $)"
+title: "Action Designer"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -9,7 +9,7 @@ ms.topic: article
 ms-prod: "dynamics-nav-2017"
 manager: edupont
 ---
-# ($ S_21407 Action Designer $)
+# Action Designer
 Adds actions to the menu bar of a page.  
 
  To open this window, open Page Designer, and then on the **View** menu, choose **Page Actions**. For more information about how to open Page Designer, see [\($ S\_21401 Page Designer $\)](-$-S_21401-Page-Designer-$-.md).  

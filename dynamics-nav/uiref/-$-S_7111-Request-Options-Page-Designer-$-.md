@@ -1,5 +1,5 @@
 ---
-title: "($ S_7111 Request Options Page Designer $)"
+title: "Request Options Page Designer"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 1109ba48-b9dd-473c-b92d-e85c7c8047f2
 caps.latest.revision: 15
 manager: edupont
 ---
-# ($ S_7111 Request Options Page Designer $)
+# Request Options Page Designer
 Designs the **Options** FastTab of a request page. Request pages let users specify options and filters for a report before the report runs.  
 
  To open this window, on the **Tools** menu, choose **Object Designer**, choose **Report**, choose the **Design** button, and then on the **View** menu, choose **Request Page**.  

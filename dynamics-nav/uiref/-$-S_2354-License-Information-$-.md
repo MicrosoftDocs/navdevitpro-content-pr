@@ -1,5 +1,5 @@
 ---
-title: "($ S_2354 License Information $)"
+title: "License Information"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: ee25a540-338d-483a-9a54-cf9e2dc32db9
 caps.latest.revision: 12
 manager: edupont
 ---
-# ($ S_2354 License Information $)
+# License Information
 Shows the contents of the current license file. The information includes the license number, the name of the license owner, which application granules are included, and when the license expires. Typically, your serial number and the name of your company appear in the window. If your license file is not is shown in the window, then you must upload your own file by choosing the **Upload** button.  
 
  You generally do not have to use the **\($ S\_2354 License Information $\)** window. However, if you want to make any modifications or if you have problems with your license file, then you may have to open it.  

@@ -1,5 +1,5 @@
 ---
-title: "($ S_2162 Error List $)"
+title: "Error List"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: de65fafc-8cf8-437d-85b6-8fdf71c1a0e9
 caps.latest.revision: 10
 manager: edupont
 ---
-# ($ S_2162 Error List $)
+# Error List
 Shows a list of errors and warnings, including obsolete constructs, that occur in your C/AL code.  
 
  To open this window, on the **Tools** menu, choose **Error List**.  

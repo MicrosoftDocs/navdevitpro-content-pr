@@ -1,5 +1,5 @@
 ---
-title: "($ S_7113 Report Dataset Designer $)"
+title: "Report Dataset Designer"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 9387ce5d-5b68-4d1b-86ee-b88f15d8537b
 caps.latest.revision: 8
 manager: edupont
 ---
-# ($ S_7113 Report Dataset Designer $)
+# Report Dataset Designer
 Designs the dataset of a report.  
 
  To open this window, on the **Tools** menu, choose **Object Designer**, choose **Report**, and then choose the **Design** button. You can choose the **New** button instead of the **Design** button to design a new report.  

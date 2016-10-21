@@ -1,5 +1,5 @@
 ---
-title: "($ S_2139 Table Filter $)"
+title: "Table Filter"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 026914f6-d259-469e-881a-c94d9ad9498d
 caps.latest.revision: 6
 manager: edupont
 ---
-# ($ S_2139 Table Filter $)
+# Table Filter
 Sets a filter on a field. The filter can be a constant expression, a filter, or a field.  
   
  For more information about how to open this window, see [\($ S\_2139 Table Filter $\)](-$-S_2139-Table-Filter-$-.md).  

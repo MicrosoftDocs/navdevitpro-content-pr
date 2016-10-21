@@ -1,5 +1,5 @@
 ---
-title: "($ S_10209 C/AL Symbol Menu $)"
+title: "C/AL Symbol Menu"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: cc6315d2-4719-4230-8ba8-adfc2e230b08
 caps.latest.revision: 14
 manager: edupont
 ---
-# ($ S_10209 C/AL Symbol Menu $)
+# C/AL Symbol Menu
 Shows variables, functions, and objects that are defined in the **\($ S\_10204 C/AL Globals $\)** window and provides information about the syntax and description of the variables, functions, and objects.  
   
  To open this window, on the **Tools** menu, choose **Object Designer**. In Object Designer, choose **Table**, **Page**, **Report**, **Codeunit**, **Query** or **XMLport**, choose the **Design** button, and then on the **View** menu, choose **C/AL Symbol Menu**.  

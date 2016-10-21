@@ -1,5 +1,5 @@
 ---
-title: "($ S_2135 Table View $)"
+title: "Table View"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: a21f8728-9759-49a2-8f4b-a45223cfa8d5
 caps.latest.revision: 8
 manager: edupont
 ---
-# ($ S_2135 Table View $)
+# Table View
 Specifies the sorting and filtering for the data item.  
 
  To open this window, on the **Tools** menu, choose **Object Designer**, choose **Report**, choose the **Design** button, choose a DataItem, and then on the **View** menu, choose **Properties**. Locate the **DataItemTableView** property, and then choose the **AssistButton** in the **Value** column.  
