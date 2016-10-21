@@ -1,21 +1,20 @@
 ---
 title: "Developing for the Microsoft Dynamics NAV Universal App"
+author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/21/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms-prod: "dynamics-nav-2017"
 ms.assetid: 802d9c94-37a5-4446-a25f-ff491b33d89e
-caps.latest.revision: 16
 manager: edupont
 ---
 # Developing for the Microsoft Dynamics NAV Universal App
-This section describes how to develop for the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)].  
+The [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] is targeted at users in small and medium sized businesses that want to access data from a tablet or a phone. This section describes how to develop for the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)].  
   
-## In This Section  
- This section provides an overview of developing for the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)].  
+The following list provides an overview of developing for the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)].  
   
 -   [Introducing the Microsoft Dynamics NAV Universal App](Introducing-the-Microsoft-Dynamics-NAV-Universal-App.md)  
   
@@ -46,3 +45,6 @@ This section describes how to develop for the [!INCLUDE[nav_uni_app](includes/na
 -   [Adding Help to the Microsoft Dynamics NAV Universal App](Adding-Help-to-the-Microsoft-Dynamics-NAV-Universal-App.md)  
   
 -   [Troubleshooting the Microsoft Dynamics NAV Universal App](Troubleshooting-the-Microsoft-Dynamics-NAV-Universal-App.md)
+
+## See Also
+[Development](Development.md)  

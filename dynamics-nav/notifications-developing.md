@@ -38,7 +38,7 @@ By using the **Notification** and **NotificationScope** data types and functions
 You create a notification by using the **MESSAGE** and **SEND** functions. The **MESSAGE** function defines the message part of the notification. When the **SEND** function is called, the notification is sent to the client and content of the message is displayed.
 ```
 MyNotification.MESSAGE := 'This is a notification';
-MyNotification.SEND
+MyNotification.SEND;
 ```
 The **SEND** function call should be the last statement in the notification code, after any **ADDACTION** or **SETDATA** function calls for the notification instance.
 
@@ -74,7 +74,8 @@ The basic steps for adding an action are as follows:
 2. Add C/AL code to the function for handling the action.
 3. Specify the codeunit and function in the **ADDACTION** function call.
 
-Important: You can can have more than one action on a notification. A LocalScope notification, you can have up to 3 actions. A GlobalScope notification can have up to 2 actions.
+>[!Important]
+>You can can have more than one action on a notification. A LocalScope notification can have up to 3 actions. A GlobalScope notification can have up to 2 actions.
 
 ## Sending data with a notification
 You use the **SETDATA** and **GETDATA** functions to add data to a notification, which is typically needed when actions are invoked. The **SETDATA** function sets, or adds, data to the notification. The data is defined as text in a key-value pair. With the **GETDATA** function, you can then retrieve the data again.
@@ -102,6 +103,7 @@ This simple example illustrates how notifications work and provides some insight
 *   The notification includes an action, which has the caption **Change credit limit**, that opens page **21 Customer Card**. This enables the user to increase the credit limit.
 
 To complete the example, follow these steps:
+
 1. In C/AL code for page **42 Sales Order**, add the following variables and text constants:
 <table>
   <tr>
