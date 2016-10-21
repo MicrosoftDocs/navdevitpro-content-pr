@@ -192,7 +192,7 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
 
 -   If you want to set up Payment Services for Microsoft Dynamics ERP as before, you must upload the payment service encryption key file that was downloaded previously.  
 
-     You upload the encryption key from the **\($ N\_825 DO Payment Connection Setup $\)** window in the [!INCLUDE[navnow](includes/navnow_md.md)] client. For more information, see [\($ N\_825 DO Payment Connection Setup $\)](assetId:///58e1ceda-e705-41f4-9f28-a027d8b816f9).  
+     You upload the encryption key from the **DO Payment Connection Setup** window in the [!INCLUDE[navnow](includes/navnow_md.md)] client. For more information, see [DO Payment Connection Setup](assetId:///58e1ceda-e705-41f4-9f28-a027d8b816f9).  
 
 -   If you want to use data encryption as before, you must import the data encryption key file that was exported previously.  
 

@@ -41,7 +41,7 @@ You can add any user as a user of an Automated Data Capture System \(ADCS\). Whe
 
 ### To add an ADCS user  
 
-1.  In the **Search** box, enter **\($ N\_7710 ADCS Users $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **ADCS Users**, and then choose the related link.  
 
 2.  On the **Home** tab, choose **New** to add a new user.  
 
@@ -63,6 +63,6 @@ You can add any user as a user of an Automated Data Capture System \(ADCS\). Whe
     >  The default warehouse for the employee should be one that uses ADCS. For more information, see [How to: Set Up a Warehouse to Use ADCS](How-to--Set-Up-a-Warehouse-to-Use-ADCS.md).  
 
 ## See Also  
- [\($ N\_7710 ADCS Users $\)](\($-N_7710-ADCS-Users-$\).md)   
+ [ADCS Users](\($-N_7710-ADCS-Users-$\).md)   
  [How to: Test the ADCS Connection](How-to--Test-the-ADCS-Connection.md)   
  [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md)

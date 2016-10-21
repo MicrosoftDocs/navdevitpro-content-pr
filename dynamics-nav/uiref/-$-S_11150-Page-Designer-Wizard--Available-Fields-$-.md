@@ -11,7 +11,7 @@ ms.assetid: 3cd28130-476f-4f8b-872f-1f43636aae16
 caps.latest.revision: 9
 manager: edupont
 ---
-# ($ S_11150 Page Designer Wizard, Available Fields $)
+# Page Designer Wizard, Available Fields
 Creates a List page and adds fields with the page wizard. List pages display multiple records on a page.  
 
  To open this window, on the **Tools** menu, choose **Object Designer**, choose **Page**, and then choose the **New** button. In the  **New Page** window, select a table from the list, select **Create a Page using a wizard**, select **List**, and then choose the **OK** button.  

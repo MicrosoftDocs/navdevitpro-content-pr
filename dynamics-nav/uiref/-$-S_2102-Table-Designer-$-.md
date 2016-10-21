@@ -31,4 +31,4 @@ Provides functionality for designing tables.
 |**Description**|Specifies the description of the field.|  
 
 ## See Also  
- [\($ S\_2051 Object Designer $\)](-$-S_2051-Object-Designer-$-.md)
+ [Object Designer](-$-S_2051-Object-Designer-$-.md)

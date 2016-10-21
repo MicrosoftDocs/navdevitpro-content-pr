@@ -14,7 +14,7 @@ manager: edupont
 # Menu Properties
 Modifies a menu for a department. The menu represents a department in a company.  
 
- To open this window, open Navigation Pane Designer, right-click the department that you want to modify, and then choose **Properties**. For information about how to open Navigation Pane Designer, see [\($ S\_2401 Navigation Pane Designer $\)](-$-S_2401-Navigation-Pane-Designer-$-.md).  
+ To open this window, open Navigation Pane Designer, right-click the department that you want to modify, and then choose **Properties**. For information about how to open Navigation Pane Designer, see [Navigation Pane Designer](-$-S_2401-Navigation-Pane-Designer-$-.md).  
 
 ## Properties  
 
@@ -25,5 +25,5 @@ Modifies a menu for a department. The menu represents a department in a company.
 |**Bitmap**|The bitmap that is displayed on the menu button in Navigation Pane Designer. The valid bitmap values are from 0 to 15. The number represents the bitmap.|  
 
 ## See Also  
- [\($ S\_2401 Navigation Pane Designer $\)](-$-S_2401-Navigation-Pane-Designer-$-.md)   
+ [Navigation Pane Designer](-$-S_2401-Navigation-Pane-Designer-$-.md)   
  [How to: Modify a Department Menu in a MenuSuite](../How-to--Modify-a-Department-Menu-in-a-MenuSuite.md)

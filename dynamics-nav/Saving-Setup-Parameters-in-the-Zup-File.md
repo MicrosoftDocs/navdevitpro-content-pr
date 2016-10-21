@@ -22,7 +22,7 @@ Setup parameters for running the [!INCLUDE[nav_dev_long](includes/nav_dev_long_m
   
 -   Database server name.  
   
--   The parameters that are available in the [\($ S\_2355 Options $\)](uiref/-$-S_2355-Options-$-.md) window.  
+-   The parameters that are available in the [Options](uiref/-$-S_2355-Options-$-.md) window.  
   
 -   User-specified personalization of [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] windows, such as window size, window position, column order, column visibility, and column width.  
   

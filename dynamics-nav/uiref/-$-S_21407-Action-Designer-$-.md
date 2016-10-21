@@ -12,7 +12,7 @@ manager: edupont
 # Action Designer
 Adds actions to the menu bar of a page.  
 
- To open this window, open Page Designer, and then on the **View** menu, choose **Page Actions**. For more information about how to open Page Designer, see [\($ S\_21401 Page Designer $\)](-$-S_21401-Page-Designer-$-.md).  
+ To open this window, open Page Designer, and then on the **View** menu, choose **Page Actions**. For more information about how to open Page Designer, see [Page Designer](-$-S_21401-Page-Designer-$-.md).  
 
  In the [!INCLUDE[rtc](../includes/rtc_md.md)] for [!INCLUDE[navnow](../includes/navnow_md.md)], menu items are called *actions*.  
 
