@@ -55,7 +55,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can export the tables that def
      At this stage, the original database still contains the application tables, and you can still access it using the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. Next, you must remove the application tables from the original database to make it a tenant database.  
 
     > [!TIP]  
-    >  Optionally, you can combine the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.Export-NAVApplication](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.Export-NAVApplication) and [T:Microsoft.Dynamics.Nav.Management.Cmdlets.Remove-NAVApplication](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.Remove-NAVApplication) cmdlets. For an example of how you can combine the two cmdlets, see the **Example** section.  
+    >  Optionally, you can combine the Export-NAVApplication and Remove-NAVApplication cmdlets. For an example of how you can combine the two cmdlets, see the **Example** section.  
 
 5.  To remove the application tables from the original database, type the following command:  
 

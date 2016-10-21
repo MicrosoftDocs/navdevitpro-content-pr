@@ -105,6 +105,7 @@
 ### [Table Properties](Table-Properties.md)
 ## [Development Environment Commands](Development-Environment-Commands.md)
 # [Upgrading to Microsoft Dynamics NAV 2017](Upgrading-to-Microsoft-Dynamics-NAV-2017.md)
+# [Legal Artefacts for Dynamics NAV 2017](terms/legal.md)
 <!--# [OnInit Trigger](OnInit-Trigger.md)
 # [Closing the Debugger](Closing-the-Debugger.md)
 # [OnBeforePassVariable Trigger](OnBeforePassVariable-Trigger.md)

@@ -41,5 +41,5 @@ caps.latest.revision: 22
  [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md)   
  [How to: Assign a User to a Profile](How-to--Assign-a-User-to-a-Profile.md)   
  [Managing Permissions and Permission Sets](Managing-Permissions-and-Permission-Sets.md)   
- [Customize the User Interface](Customize-the-User-Interface.md)   
+ [Profiles and Role Centers](Profiles-and-Role-Centers.md)   
  [Removing Elements from the User Interface According to Permissions](Removing-Elements-from-the-User-Interface-According-to-Permissions.md)
