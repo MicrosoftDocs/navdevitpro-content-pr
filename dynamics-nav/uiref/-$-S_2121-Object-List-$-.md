@@ -13,5 +13,5 @@ manager: edupont
 ---
 # Object List
 Lists the available objects to which you can assign permissions.  
-  
- To open this window, open the **Permissions** window, and then choose the **Up Arrow** button in the **Object ID** column. For more information about how to open the **Permissions** window, see [\($ S\_2136 Permissions $\)](-$-S_2136-Permissions-$-.md).
+
+ To open this window, open the **Permissions** window, and then choose the **Up Arrow** button in the **Object ID** column. For more information about how to open the **Permissions** window, see [Permissions](-$-S_2136-Permissions-$-.md).

@@ -12,8 +12,8 @@ caps.latest.revision: 5
 manager: edupont
 ---
 # Debugger Keyboard Shortcuts
-The following table describes the keyboard shortcuts that are available from the **\($ N\_9500 Debugger $\)** window.  
-  
+The following table describes the keyboard shortcuts that are available from the **Debugger** window.  
+
 |Keystroke|Action|  
 |---------------|------------|  
 |F11|Step into|  
@@ -30,6 +30,6 @@ The following table describes the keyboard shortcuts that are available from the
 |Ctrl+Alt+Q|Show the tooltip for the variable on which the cursor is located|  
 |Enter \(when tooltip is displayed\)|Add a variable to the **Watches** FactBox|  
 |Esc \(when tooltip is displayed\)|Hide tooltip|  
-  
+
 ## See Also  
  [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough--Debugging-the-Microsoft-Dynamics-NAV-Windows-Client.md)

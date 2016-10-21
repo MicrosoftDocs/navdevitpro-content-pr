@@ -1,5 +1,5 @@
 ---
-title: "($ S_11004 Table Filter $)"
+title: "Table Filter"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 5da595c5-b0e7-4a18-882e-dd60314c8024
 caps.latest.revision: 5
 manager: edupont
 ---
-# ($ S_11004 Table Filter $)
+# Table Filter
 Sets a table filter.  
 
  To open this window, on the **Tools** menu, choose **Object Designer**, and then on the **View** menu, choose **Table Filter**.  

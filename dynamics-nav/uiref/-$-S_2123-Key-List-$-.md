@@ -13,5 +13,5 @@ manager: edupont
 ---
 # Key List
 Sets the key field or fields on which to sort the data. The window lists the fields in the selected table.  
-  
- To open this window, open the **Table View** window. In the **Table View** window, choose the **Up Arrow** button in the **Key** field. For more information about how to open the **Table View** window, see [\($ S\_2135 Table View $\)](-$-S_2135-Table-View-$-.md).
+
+ To open this window, open the **Table View** window. In the **Table View** window, choose the **Up Arrow** button in the **Key** field. For more information about how to open the **Table View** window, see [Table View](-$-S_2135-Table-View-$-.md).

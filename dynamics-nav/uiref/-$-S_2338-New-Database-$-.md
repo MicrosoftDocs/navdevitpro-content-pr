@@ -1,5 +1,5 @@
 ---
-title: "($ S_2338 New Database $)"
+title: "New Database"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,14 +11,14 @@ ms.assetid: 75985a49-ab9d-4baf-8033-0f68888bda3f
 caps.latest.revision: 8
 manager: edupont
 ---
-# ($ S_2338 New Database $)
+# New Database
 Creates a database.  
 
- Before you can enter any information in this window, you must enter the correct information in the [\($ S\_2345 Select Server $\)](-$-S_2345-Select-Server-$-.md) window.  
+ Before you can enter any information in this window, you must enter the correct information in the [Select Server](-$-S_2345-Select-Server-$-.md) window.  
 
  To open this window, on the **File** menu, choose **Database**, choose **New**, and then in the **Select Server** window, choose the **OK** button.  
 
- The **\($ S2338 New Database $\)** window contains the same tabs as the [\($ S\_2339 Alter Database $\)](-$-S_2339-Alter-Database-$-.md) window. The window contains the following tabs:  
+ The **\($ S2338 New Database $\)** window contains the same tabs as the [Alter Database](-$-S_2339-Alter-Database-$-.md) window. The window contains the following tabs:  
 
 -   [Altering Databases - General Tab](../Altering-Databases---General-Tab.md)  
 

@@ -1,5 +1,5 @@
 ---
-title: "($ S_21001 XMLport Designer $)"
+title: "XMLport Designer"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 20e88fa4-d0a7-4bf7-9949-034e1d18b0b2
 caps.latest.revision: 7
 manager: edupont
 ---
-# ($ S_21001 XMLport Designer $)
+# XMLport Designer
 Provides functionality for designing XMLports.  
 
  XMLport Designer contains the following column fields:  

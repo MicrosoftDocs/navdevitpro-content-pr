@@ -1,5 +1,5 @@
 ---
-title: "($ S_2134 Table Relation $)"
+title: "Table Relation"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 066eeba8-7632-4c0a-9378-22c8fd2b1fb1
 caps.latest.revision: 9
 manager: edupont
 ---
-# ($ S_2134 Table Relation $)
+# Table Relation
 Sets up a lookup into another table.  
   
  When you create table relations, you can define a simple or an advanced table relationship. A typical simple table relationship consists of a table name and an optional field name. An advanced table relationship can also contain conditions and filters.  

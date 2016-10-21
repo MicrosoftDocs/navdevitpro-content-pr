@@ -1,5 +1,5 @@
 ---
-title: "($ S_22401 Query Designer $)"
+title: "Query Designer"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 55c32886-94cc-45ef-8034-f9db6c718b3a
 caps.latest.revision: 12
 manager: edupont
 ---
-# ($ S_22401 Query Designer $)
+# Query Designer
 Retrieves records from one or more tables and combines the records into rows and columns in a single dataset. You create queries in the development environment with Query Designer.  
 
  To open this window, on the **Tools** menu, choose **Object Designer**, choose **Query**, and then choose the **Design** button. Choose the **New** button instead of the **Design** button to design a new query.  
