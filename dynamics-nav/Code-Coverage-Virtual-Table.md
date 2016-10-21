@@ -17,4 +17,4 @@ The Code Coverage virtual table \(ID 2000000049\) contains data about automated 
   
 ## See Also  
  [Application Test Automation](Application-Test-Automation.md)   
- [\($ N\_9990 Code Coverage $\)](uiref/-$-N_9990-Code-Coverage-$-.md)
+ [Code Coverage](uiref/-$-N_9990-Code-Coverage-$-.md)

@@ -1,5 +1,5 @@
 ---
-title: "($ S_2131 Table Filter $)"
+title: "Table Filter"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,10 +11,10 @@ ms.assetid: add4e082-4657-4457-ba0e-77d48c77913f
 caps.latest.revision: 5
 manager: edupont
 ---
-# ($ S_2131 Table Filter $)
+# Table Filter
 Sets a filter on a DataItem. The filter can be a constant expression or a filter expression. The filter that you set is not displayed on the request page, but it is used with filters that the end user specifies on the request page.  
   
- To open this window, open the **Table View** window. In the **Table View** window, choose the **AssistEdit** button in the **Table Filter** field. For more information about how to open the **Table View** window, see [\($ S\_2135 Table View $\)](-$-S_2135-Table-View-$-.md).  
+ To open this window, open the **Table View** window. In the **Table View** window, choose the **AssistEdit** button in the **Table Filter** field. For more information about how to open the **Table View** window, see [Table View](-$-S_2135-Table-View-$-.md).  
   
 ## Fields  
   

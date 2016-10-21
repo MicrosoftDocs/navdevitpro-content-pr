@@ -1,5 +1,5 @@
 ---
-title: "($ S_2092 Toolbar $)"
+title: "Toolbar"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: d39aaf69-82d7-42be-88a5-ef6ffd9ff7a2
 caps.latest.revision: 6
 manager: edupont
 ---
-# ($ S_2092 Toolbar $)
+# Toolbar
 Specifies whether the toolbar is displayed in the [!INCLUDE[nav_dev_short](../includes/nav_dev_short_md.md)]. If the toolbar is displayed, then you can specify options for how it is displayed.  
   
  To open this window, on the **View** menu, choose **Toolbar**.  

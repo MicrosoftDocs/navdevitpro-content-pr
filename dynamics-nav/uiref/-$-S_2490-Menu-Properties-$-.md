@@ -1,5 +1,5 @@
 ---
-title: "($ S_2490 Menu Properties $)"
+title: "Menu Properties"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,10 +11,10 @@ ms.assetid: 5e0d5fb4-d559-4cfe-86da-a4d34067349a
 caps.latest.revision: 9
 manager: edupont
 ---
-# ($ S_2490 Menu Properties $)
+# Menu Properties
 Modifies a menu for a department. The menu represents a department in a company.  
 
- To open this window, open Navigation Pane Designer, right-click the department that you want to modify, and then choose **Properties**. For information about how to open Navigation Pane Designer, see [\($ S\_2401 Navigation Pane Designer $\)](-$-S_2401-Navigation-Pane-Designer-$-.md).  
+ To open this window, open Navigation Pane Designer, right-click the department that you want to modify, and then choose **Properties**. For information about how to open Navigation Pane Designer, see [Navigation Pane Designer](-$-S_2401-Navigation-Pane-Designer-$-.md).  
 
 ## Properties  
 
@@ -25,5 +25,5 @@ Modifies a menu for a department. The menu represents a department in a company.
 |**Bitmap**|The bitmap that is displayed on the menu button in Navigation Pane Designer. The valid bitmap values are from 0 to 15. The number represents the bitmap.|  
 
 ## See Also  
- [\($ S\_2401 Navigation Pane Designer $\)](-$-S_2401-Navigation-Pane-Designer-$-.md)   
+ [Navigation Pane Designer](-$-S_2401-Navigation-Pane-Designer-$-.md)   
  [How to: Modify a Department Menu in a MenuSuite](../How-to--Modify-a-Department-Menu-in-a-MenuSuite.md)

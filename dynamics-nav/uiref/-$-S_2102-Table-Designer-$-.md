@@ -1,5 +1,5 @@
 ---
-title: "($ S_2102 Table Designer $)"
+title: "Table Designer"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 452bd6f5-37f5-47c6-a3c2-8cc00e263527
 caps.latest.revision: 10
 manager: edupont
 ---
-# ($ S_2102 Table Designer $)
+# Table Designer
 Provides functionality for designing tables.  
 
  Table Designer is part of Object Designer. You use Object Designer to access the [!INCLUDE[nav_dev_long](../includes/nav_dev_long_md.md)]. You use the [!INCLUDE[nav_dev_short](../includes/nav_dev_short_md.md)] to modify the application or to create new application areas.  
@@ -31,4 +31,4 @@ Provides functionality for designing tables.
 |**Description**|Specifies the description of the field.|  
 
 ## See Also  
- [\($ S\_2051 Object Designer $\)](-$-S_2051-Object-Designer-$-.md)
+ [Object Designer](-$-S_2051-Object-Designer-$-.md)

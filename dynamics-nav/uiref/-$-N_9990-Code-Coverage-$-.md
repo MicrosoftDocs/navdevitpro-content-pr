@@ -35,9 +35,9 @@ translation.priority.ht:
   - sv-se
 ---
 # ($ N_9990 Code Coverage $)
-Specifies the extent to which the application code is covered by tests. You use the **\($ N\_9990 Code Coverage $\)** window to track code coverage after you have run one or more test suites in the **CAL Test Tool** window. You can run both pages from the [!INCLUDE[nav_dev_short](../includes/nav_dev_short_md.md)], or from the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)] or the [!INCLUDE[nav_web](../includes/nav_web_md.md)].  
+Specifies the extent to which the application code is covered by tests. You use the **Code Coverage** window to track code coverage after you have run one or more test suites in the **CAL Test Tool** window. You can run both pages from the [!INCLUDE[nav_dev_short](../includes/nav_dev_short_md.md)], or from the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)] or the [!INCLUDE[nav_web](../includes/nav_web_md.md)].  
 
- In the **\($ N\_9990 Code Coverage $\)** window, you can start, refresh, and stop the code coverage recorder.  
+ In the **Code Coverage** window, you can start, refresh, and stop the code coverage recorder.  
 
 > [!IMPORTANT]  
 >  Code coverage is recorded globally for all sessions, so make sure that you run the tool in a controlled environment so you do not have any activity from unaccounted sessions.  

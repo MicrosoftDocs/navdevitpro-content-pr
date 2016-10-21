@@ -1,5 +1,5 @@
 ---
-title: "($ S_2181 Start Data Upgrade $)"
+title: "Start Data Upgrade"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 683e7fbe-d29d-4556-b743-f72d34edbecb
 caps.latest.revision: 2
 manager: edupont
 ---
-# ($ S_2181 Start Data Upgrade $)
+# Start Data Upgrade
 Specifies how to run the data upgrade.  
 
  To open this window, on the **Tools** menu, choose  **Data Upgrade**, and then choose the **Start**.  

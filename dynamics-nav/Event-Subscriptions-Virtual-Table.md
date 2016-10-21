@@ -12,7 +12,7 @@ caps.latest.revision: 2
 manager: edupont
 ---
 # Event Subscriptions Virtual Table
-The **Event Subscriptions** virtual table \(ID 2000000140\) contains data about the event subscriber functions that subscribe to published event functions. For more information about the fields in the table, see [\($ N\_9510 Event Subscriptions $\)](uiref/-$-N_9510-Event-Subscriptions-$-.md).  
+The **Event Subscriptions** virtual table \(ID 2000000140\) contains data about the event subscriber functions that subscribe to published event functions. For more information about the fields in the table, see [Event Subscriptions](uiref/-$-N_9510-Event-Subscriptions-$-.md).  
   
 ## See Also  
  [Virtual Tables](Virtual-Tables.md)

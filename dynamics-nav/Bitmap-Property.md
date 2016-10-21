@@ -24,5 +24,5 @@ Sets a bitmap icon to be shown with a department on the Department page of the [
 ## See Also  
  [How to: Change Department Icons in the Windows Client](How-to--Change-Department-Icons-in-the-Windows-Client.md)   
  [How to: Modify a Department Menu in a MenuSuite](How-to--Modify-a-Department-Menu-in-a-MenuSuite.md)   
- [\($ S\_2490 Menu Properties $\)](uiref/-$-S_2490-Menu-Properties-$-.md)   
- [\($ S\_2420 Create Menu $\)](uiref/-$-S_2420-Create-Menu-$-.md)
+ [Menu Properties](uiref/-$-S_2490-Menu-Properties-$-.md)   
+ [Create Menu](uiref/-$-S_2420-Create-Menu-$-.md)

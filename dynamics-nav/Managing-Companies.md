@@ -24,7 +24,7 @@ In this section, you can read more about how to manage companies in [!INCLUDE[na
  [How to: Delete Companies](How-to--Delete-Companies.md)  
   
 ### Related Sections  
- [Managing Users and Permissions](Managing-Users-and-Permissions.md)  
+ [Managing Users](Managing-Users.md)  
   
  [Profiles and Role Centers](Profiles-and-Role-Centers.md)  
   

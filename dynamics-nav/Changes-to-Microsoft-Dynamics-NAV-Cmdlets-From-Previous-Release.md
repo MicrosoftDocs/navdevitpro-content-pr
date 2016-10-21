@@ -61,9 +61,9 @@ The following sections provide an overview of the new, changed, and removed cmdl
 
 |Cmdlet|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |------------|---------------------------------------|  
-|Export-NAVAppReportLayout|Exports the specified custom report layout from a Microsoft Dynamics NAV.database to a file.|  
+|Export-NAVAppReportLayout|Exports the specified custom report layout from the database to a file.|  
 |Export-NAVAppTableData | Exports data from a Microsoft Dynamics NAV database table to file.|  
-|Export-NAVAppTenantWebService| Exports the specified web service from a Microsoft Dynamics NAV database to a file.|
+|Export-NAVAppTenantWebService| Exports the specified web service from the database to a file.|
 |Get-NAVAppTableModification|Gets information about the tabled added or modified by an extension based on the specified [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
 |Remove-NAVAppsForTenant| Removes all NAV Apps from the specified, unmounted tenant. This cmdlet should be run against tenants that are not mounted.|
 
