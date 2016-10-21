@@ -16,7 +16,7 @@ Declares local variables and text constants in [!INCLUDE[navnow](../includes/nav
 
  To open this window, on the **Tools** menu, choose **Object Designer**, choose **Codeunit**, and then on the **View** menu, choose **C/AL Locals**.  
 
- You can also open the **C/AL Globals** window, choose the **Functions** tab, and then choose the **Locals** button. For more information about how to open the **C/AL Globals** windows, see [\($ S\_10204 C-AL Globals $\)](-$-S_10204-C-AL-Globals-$-.md).  
+ You can also open the **C/AL Globals** window, choose the **Functions** tab, and then choose the **Locals** button. For more information about how to open the **C/AL Globals** windows, see [C-AL Globals](-$-S_10204-C-AL-Globals-$-.md).  
 
 ## Parameters Tab  
 
@@ -55,4 +55,4 @@ Declares local variables and text constants in [!INCLUDE[navnow](../includes/nav
 |**ConstValue**|The value of the character string that is declared as a constant. You can open the **Multilanguage Editor** window by choosing the **AssistEdit** button in the **ConstValue** field.|  
 
 ## See Also  
- [\($ S\_10204 C-AL Globals $\)](-$-S_10204-C-AL-Globals-$-.md)
+ [C-AL Globals](-$-S_10204-C-AL-Globals-$-.md)

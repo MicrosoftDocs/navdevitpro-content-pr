@@ -222,4 +222,4 @@ MenuSuites display menus on the Departments page in the [!INCLUDE[nav_windows](i
  [Designing MenuSuites](Designing-MenuSuites.md)   
  [How to: Modify a Department Menu in a MenuSuite](How-to--Modify-a-Department-Menu-in-a-MenuSuite.md)   
  [Bitmap Property](Bitmap-Property.md)   
- [\($ S\_2490 Menu Properties $\)](uiref/-$-S_2490-Menu-Properties-$-.md)
+ [Menu Properties](uiref/-$-S_2490-Menu-Properties-$-.md)

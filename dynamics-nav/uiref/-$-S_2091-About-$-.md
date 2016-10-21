@@ -17,4 +17,4 @@ Shows version, license, and copyright information about [!INCLUDE[navnow](../inc
  To open this window, on the **Help** menu, choose **About Microsoft Dynamics NAV Development Environment**.  
 
 ## See Also  
- [\($ S\_2354 License Information $\)](-$-S_2354-License-Information-$-.md)
+ [License Information](-$-S_2354-License-Information-$-.md)

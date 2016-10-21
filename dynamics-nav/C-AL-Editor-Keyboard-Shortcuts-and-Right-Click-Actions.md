@@ -15,12 +15,12 @@ manager: edupont
 This topic describes the keyboard shortcuts and right-click actions in the C/AL Editor.  
 
 ## Keyboard Shortcuts  
- The following table describes the keyboard shortcuts that are available from the **\($ S\_10203\_1 C/AL Editor $\)** window.  
+ The following table describes the keyboard shortcuts that are available from the **C/AL Editor** window.  
 
 |Keystroke|Action|  
 |---------------|------------|  
-|Ctrl+G|Open the **\($ S\_10204 C/AL Globals $\)** window to view and declare the global variables, text constants, and functions in the object.|  
-|Ctrl+L|Open **\($ S\_10205 C/AL Locals $\)** window to view and declare local variables and text constants for the current function or trigger.|  
+|Ctrl+G|Open the **C/AL Globals** window to view and declare the global variables, text constants, and functions in the object.|  
+|Ctrl+L|Open **C/AL Locals** window to view and declare local variables and text constants for the current function or trigger.|  
 |Ctrl+Z|Undo the last action.|  
 |Ctrl+Y|Redo the last action.|  
 |Ctrl+J|List all members (as IntelliSense) for the local scope.|  
@@ -33,7 +33,7 @@ This topic describes the keyboard shortcuts and right-click actions in the C/AL 
 |Ctrl+F12|Go to a definition of function or object. For more information, see [Viewing the Definition of a Function or Object by Using Go To Definition](Viewing-the-Definition-of-a-Function-or-Object-by-Using-Go-To-Definition.md).|  
 
 ## Right-Click Actions  
- The following table describes the actions that you can perform by right-clicking code in the **\($ S\_10203\_1 C/AL Editor $\)** window.  
+ The following table describes the actions that you can perform by right-clicking code in the **C/AL Editor** window.  
 
 |Keystroke|Action|  
 |---------------|------------|  
@@ -45,6 +45,6 @@ This topic describes the keyboard shortcuts and right-click actions in the C/AL 
 
 ## See Also  
  [Programming in C/AL](Programming-in-C-AL.md)   
- [\($ S\_10203\_1 C-AL Editor $\)](uiref/-$-S_10203_1-C-AL-Editor-$-.md)   
- [\($ S\_10204 C-AL Globals $\)](uiref/-$-S_10204-C-AL-Globals-$-.md)   
- [\($ S\_10205 C-AL Locals $\)](uiref/-$-S_10205-C-AL-Locals-$-.md)
+ [C-AL Editor](uiref/-$-S_10203_1-C-AL-Editor-$-.md)   
+ [C-AL Globals](uiref/-$-S_10204-C-AL-Globals-$-.md)   
+ [C-AL Locals](uiref/-$-S_10205-C-AL-Locals-$-.md)

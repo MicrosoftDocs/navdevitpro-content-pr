@@ -45,4 +45,4 @@ manager: edupont
  [Designing MenuSuites](Designing-MenuSuites.md)   
  [How to: Change Department Icons in the Windows Client](How-to--Change-Department-Icons-in-the-Windows-Client.md)   
  [Bitmap Property](Bitmap-Property.md)   
- [\($ S\_2490 Menu Properties $\)](uiref/-$-S_2490-Menu-Properties-$-.md)
+ [Menu Properties](uiref/-$-S_2490-Menu-Properties-$-.md)

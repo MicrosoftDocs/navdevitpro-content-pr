@@ -12,9 +12,9 @@ caps.latest.revision: 6
 manager: edupont
 ---
 # Name
-Contains the names of the available languages that are included in your license and that are installed on your computer. This field is located in the **\($ S\_2356 Application Languages $\)** window.  
-  
- For more information about how to open the **\($ S\_2356 Application Languages $\)** window, see [\($ S\_2356 Application Languages $\)](-$-S_2356-Application-Languages-$-.md).  
-  
+Contains the names of the available languages that are included in your license and that are installed on your computer. This field is located in the **Application Languages** window.  
+
+ For more information about how to open the **Application Languages** window, see [Application Languages](-$-S_2356-Application-Languages-$-.md).  
+
 ## Example  
  English \(United States\)

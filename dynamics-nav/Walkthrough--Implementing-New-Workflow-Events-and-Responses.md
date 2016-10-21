@@ -13,9 +13,9 @@ caps.latest.revision: 14
 # Walkthrough: Implementing New Workflow Events and Responses
 If a business scenario requires a workflow event or a workflow response that is not supported in a Microsoft Dynamics NAV solution, you must implement it by customizing the application code.  
 
- In the **\($ N\_1501 Workflow $\)** window, the workflow administrator creates a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, customized by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [How to: Create Workflows](How-to--Create-Workflows.md) in Application Help.  
+ In the **Workflow** window, the workflow administrator creates a workflow by listing the involved steps on the lines. Each step consists of a workflow event, moderated by event conditions, and a workflow response, customized by response options. You define workflow steps by filling fields on workflow lines from fixed lists of event and response values representing scenarios that are supported by the application code. For more information, see [How to: Create Workflows](How-to--Create-Workflows.md) in Application Help.  
 
- The following procedure describes how to add a new workflow event and a new workflow response to the application code and then register the involved object relations, so that the new elements can be used in workflows. The workflow administrator can then select the new workflow event and response from the **\($ N\_1501 Workflow $\)** window to incorporate them in new or existing workflow steps.  
+ The following procedure describes how to add a new workflow event and a new workflow response to the application code and then register the involved object relations, so that the new elements can be used in workflows. The workflow administrator can then select the new workflow event and response from the **Workflow** window to incorporate them in new or existing workflow steps.  
 
 > [!IMPORTANT]  
 >  To ensure that custom workflow records are upgraded correctly, you must add new workflow events, workflow responses, and workflow table relations to dedicated extension points, as described in this procedure. During an upgrade to the next version, the libraries of workflow events, responses, and table relations are removed and then recreated with the latest content from Microsoft. By adding your custom workflow records using subscriptions to the Microsoft-provided extension points, you ensure that your custom record library gets recreated after an upgrade.  
@@ -23,7 +23,7 @@ If a business scenario requires a workflow event or a workflow response that is 
 > [!NOTE]  
 >  This topic refers to two types of events:  
 >   
->  -   *Workflow Event*: An occurrence in the application that users can select from the **\($ N\_1501 Workflow $\)** window to define workflow steps. For more information, see [Workflow](Workflow.md) in Application Help.  
+>  -   *Workflow Event*: An occurrence in the application that users can select from the **Workflow** window to define workflow steps. For more information, see [Workflow](Workflow.md) in Application Help.  
 > -   *Event*: The declaration of the occurrence or change in the application. Workflow events typically subscribe to events. For more information, see [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md).  
 
  The development work involved in creating a new workflow event and a related workflow response consists of the following tasks, as a minimum:  
@@ -74,7 +74,7 @@ If a business scenario requires a workflow event or a workflow response that is 
 
 2.  Create a global function in the codeunit. Name the function to reflect that it is used to identify the workflow event, such as MyWorkflowEventCode. For more information, see [How to: Add a Function to a Codeunit](How-to--Add-a-Function-to-a-Codeunit.md).  
 
-3.  Open the **C/AL Locals** window to add a local return value. For more information, see [\($ S\_10205 C-AL Locals $\)](uiref/-$-S_10205-C-AL-Locals-$-.md).  
+3.  Open the **C/AL Locals** window to add a local return value. For more information, see [C-AL Locals](uiref/-$-S_10205-C-AL-Locals-$-.md).  
 
 4.  On the **Return Value** tab, fill the fields as described in the following table.  
 
@@ -273,7 +273,7 @@ If a business scenario requires a workflow event or a workflow response that is 
 
 2.  Add a field that reflects your new response option, such as **My New Response Option**. For more information, see [How to: Add Fields to a Table](How-to--Add-Fields-to-a-Table.md).  
 
-3.  Open page 1523, **\($ N\_1523 Workflow Response Options $\)**, in design mode.  
+3.  Open page 1523, **Workflow Response Options**, in design mode.  
 
 4.  Add a group and a control for the new field.  
 
@@ -318,7 +318,7 @@ If a business scenario requires a workflow event or a workflow response that is 
  You have now created the actual workflow event and response. Proceed to perform various tasks that enable them to be used in workflows.  
 
 ## Registering Workflow Event/Response Combinations Needed for the New Workflow Response  
- Add new workflow event/response combinations to the **\($ T\_1509 WF Event/Response Combination $\)** table so that they appear correctly in the **\($ N\_1520 Workflow Events $\)** and **\($ N\_1521 Workflow Responses $\)** windows.  
+ Add new workflow event/response combinations to the **\($ T\_1509 WF Event/Response Combination $\)** table so that they appear correctly in the **Workflow Events** and **Workflow Responses** windows.  
 
 ### To register workflow event/response combinations needed for the new workflow response  
 
@@ -354,10 +354,10 @@ If a business scenario requires a workflow event or a workflow response that is 
     END;  
     ```  
 
- You can also do this work from the user interface. For more information, see [\($ N\_1507 Workflow Event-Response Combinations  $\)](\($-N_1507-Workflow-Event-Response-Combinations--$\).md).  
+ You can also do this work from the user interface. For more information, see [Workflow Event-Response Combinations](\($-N_1507-Workflow-Event-Response-Combinations--$\).md).  
 
 ## Registering Workflow Event Hierarchies Needed for the New Workflow Event  
- Add new workflow event/event combinations to the **\($ T\_1509 WF Event/Response Combination $\)** table so that they workflow events appear in the correct hierarchy in the **\($ N\_1520 Workflow Events $\)** window.  
+ Add new workflow event/event combinations to the **\($ T\_1509 WF Event/Response Combination $\)** table so that they workflow events appear in the correct hierarchy in the **Workflow Events** window.  
 
 ### To register workflow event hierarchies needed for the new workflow event  
 
@@ -394,7 +394,7 @@ If a business scenario requires a workflow event or a workflow response that is 
     END;  
     ```  
 
- You can also do this work from the user interface. For more information, see [\($ N\_1506 Workflow Event Hierarchies $\)](\($-N_1506-Workflow-Event-Hierarchies-$\).md).  
+ You can also do this work from the user interface. For more information, see [Workflow Event Hierarchies](\($-N_1506-Workflow-Event-Hierarchies-$\).md).  
 
 ## Creating Table Relations Between Entities Used when the New Workflow Event and Response are Used  
  Workflows events can be executed on different types of records. To keep track of these, you must define relations between the involved records.  
@@ -429,7 +429,7 @@ If a business scenario requires a workflow event or a workflow response that is 
     WorkflowSetup.InsertTableRelation(DATABASE::”Purchase Header”,1,DATABASE::”Approval Entry”,2);  
     ```  
 
- You can also do this work from the user interface. For more information, see [\($ N\_1509 Workflow - Table Relations $\)](\($-N_1509-Workflow---Table-Relations-$\).md).  
+ You can also do this work from the user interface. For more information, see [Workflow - Table Relations](\($-N_1509-Workflow---Table-Relations-$\).md).  
 
 ## Adding a FactBox that Shows How a Record Participates in a Workflow  
  Add a FactBox to relevant pages so that users can view when and how the new workflow event and response participate in workflows for records shown on the page.  
@@ -460,7 +460,7 @@ If a business scenario requires a workflow event or a workflow response that is 
     ShowWorkflowStatus := CurrPage.WorkflowStatus.PAGE.SetFilterOnWorkflowRecord(RECORDID);  
     ```  
 
- You have now enabled a new workflow scenario by implementing the required workflow event and response in the application code. The workflow administrator can now select the workflow event and workflow response from the **\($ N\_1501 Workflow $\)** window to define new or edit existing workflows. For more information, see [How to: Create Workflows](How-to--Create-Workflows.md).  
+ You have now enabled a new workflow scenario by implementing the required workflow event and response in the application code. The workflow administrator can now select the workflow event and workflow response from the **Workflow** window to define new or edit existing workflows. For more information, see [How to: Create Workflows](How-to--Create-Workflows.md).  
 
 ## See Also  
  [How to: Create Workflows](How-to--Create-Workflows.md)   

@@ -12,16 +12,16 @@ caps.latest.revision: 9
 manager: edupont
 ---
 # Insert Items
-Inserts a menu item into a department menu. You can insert a menu item that is already created in \($ S\_2401 Navigation Pane Designer $\). When you insert a menu item, you select the menu item from a list of menu items that are located in other departments or group folders. The \($ S\_2460 Insert Items $\) window lists all menu items that you can insert. The menu items are listed by the department where they were created and then alphabetically by menu item name.  
-  
- To open this window, open Navigation Pane Designer, and then choose a department. In the department menus, right-click a folder, and then choose **Insert Item**. For more information about how to open Navigation Pane Designer, see [\($ S\_2401 Navigation Pane Designer $\)](-$-S_2401-Navigation-Pane-Designer-$-.md).  
-  
+Inserts a menu item into a department menu. You can insert a menu item that is already created in Navigation Pane Designer. When you insert a menu item, you select the menu item from a list of menu items that are located in other departments or group folders. The **Insert Items** window lists all menu items that you can insert. The menu items are listed by the department where they were created and then alphabetically by menu item name.  
+
+ To open this window, open Navigation Pane Designer, and then choose a department. In the department menus, right-click a folder, and then choose **Insert Item**. For more information about how to open Navigation Pane Designer, see [Navigation Pane Designer](-$-S_2401-Navigation-Pane-Designer-$-.md).  
+
 ## Fields  
-  
+
 |Field|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|  
 |-----------|---------------------------------------|  
 |**Insert**|The menu item to insert.|  
 |**Item**|The name of the menu item to insert.|  
-  
+
 ## See Also  
- [\($ S\_2401 Navigation Pane Designer $\)](-$-S_2401-Navigation-Pane-Designer-$-.md)
+ [Navigation Pane Designer](-$-S_2401-Navigation-Pane-Designer-$-.md)

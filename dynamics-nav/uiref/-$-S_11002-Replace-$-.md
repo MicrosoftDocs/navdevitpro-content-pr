@@ -13,11 +13,11 @@ manager: edupont
 ---
 # Replace
 Replaces text that you find with other text. You can only replace information that can be changed. If you try to replace an entry that you cannot change, then you receive an error message.  
-  
+
  To open this window, on the **Edit** menu, choose **Replace**. To open this window another way, on the **Edit** menu, choose **Find**, and then choose the **Replace** button in the **Find** window.  
-  
+
 > [!IMPORTANT]  
 >  If you have replaced the contents of a field, then you cannot undo the replacement by choosing **Undo** on the **Edit** menu.  
-  
+
 ## See Also  
- [\($ S\_11001 Find $\)](-$-S_11001-Find-$-.md)
+ [Find](-$-S_11001-Find-$-.md)

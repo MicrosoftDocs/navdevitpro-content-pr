@@ -45,7 +45,7 @@ You open the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using a web browser 
 
     -   **TenantID** with the name of the tenant that you want to connect to. This parameter is only required when [!INCLUDE[navnow](includes/navnow_md.md)] is deployed in a multitenant architecture. The tenant that you specify must be mounted on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that the [!INCLUDE[nav_web](includes/nav_web_md.md)] connects to. For more information, see [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md).  
 
-    -   **CompanyName** with the name of the company in [!INCLUDE[navnow](includes/navnow_md.md)]. This parameter is optional and is only needed if you want to open a different company than the one specified in [\($ N\_9176 My Settings $\)](\($-N_9176-My-Settings-$\).md).  
+    -   **CompanyName** with the name of the company in [!INCLUDE[navnow](includes/navnow_md.md)]. This parameter is optional and is only needed if you want to open a different company than the one specified in [My Settings](\($-N_9176-My-Settings-$\).md).  
 
     -   **ID** with the ID that is assigned to the page or report object in [!INCLUDE[navnow](includes/navnow_md.md)].  
 

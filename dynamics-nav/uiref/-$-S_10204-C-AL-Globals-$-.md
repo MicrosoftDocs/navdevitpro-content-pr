@@ -32,14 +32,14 @@ Declares global variables, text constants, and functions in [!INCLUDE[navnow](..
 |[!INCLUDE[bp_tablefield](../includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
 |**Name**|The name of the text constant.|  
-|**ConstValue**|The value of the character string that is declared as a constant. You can open the **\($ S\_2141 Multilanguage Editor $\)** window by choosing the **AssistEdit** button in the **ConstValue** field.|  
+|**ConstValue**|The value of the character string that is declared as a constant. You can open the **Multilanguage Editor** window by choosing the **AssistEdit** button in the **ConstValue** field.|  
 
 ## Functions Tab  
 
 |[!INCLUDE[bp_tablefield](../includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
 |**Name**|The name of the function.|  
-|**Locals** button|Opens the **\($ S\_10205 C/AL Locals $\)** window. The window contains parameters, return values, variables, and text constants that are declared for local functions or triggers. For more information, see [\($ S\_10205 C-AL Locals $\)](-$-S_10205-C-AL-Locals-$-.md).|  
+|**Locals** button|Opens the **C/AL Locals** window. The window contains parameters, return values, variables, and text constants that are declared for local functions or triggers. For more information, see [C-AL Locals](-$-S_10205-C-AL-Locals-$-.md).|  
 
 ## See Also  
- [\($ S\_10205 C-AL Locals $\)](-$-S_10205-C-AL-Locals-$-.md)
+ [C-AL Locals](-$-S_10205-C-AL-Locals-$-.md)

@@ -14,7 +14,7 @@ manager: edupont
 # Page Designer Wizard, FactBox
 Adds a FactBox to a List page or Card page. A FactBox is an area on the page that allows you to display another page that displays targeted, related information about a selection on the main page. A FactBox can include only CardPart and ListPart page types.  
   
- To open this window, open the **List Page Wizard** window, select the fields that you want on the page, and then choose the **Next** button. For more information about how to open List Page Designer, see [\($ S\_11150 Page Designer Wizard, Available Fields $\)](-$-S_11150-Page-Designer-Wizard--Available-Fields-$-.md).  
+ To open this window, open the **List Page Wizard** window, select the fields that you want on the page, and then choose the **Next** button. For more information about how to open List Page Designer, see [Page Designer Wizard, Available Fields](-$-S_11150-Page-Designer-Wizard--Available-Fields-$-.md).  
   
 ## List Page Wizard, FactBoxes  
   

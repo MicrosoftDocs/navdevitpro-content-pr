@@ -14,7 +14,7 @@ manager: edupont
 # Create Menu
 Creates a new menu for a department. This menu represents a department in a company.  
 
- To open this window, open Navigation Pane Designer, right-click the department area, and then choose **Create Menu**. For more information about how to open Navigation Pane Designer, see [\($ S\_2401 Navigation Pane Designer $\)](-$-S_2401-Navigation-Pane-Designer-$-.md).  
+ To open this window, open Navigation Pane Designer, right-click the department area, and then choose **Create Menu**. For more information about how to open Navigation Pane Designer, see [Navigation Pane Designer](-$-S_2401-Navigation-Pane-Designer-$-.md).  
 
 ## Properties  
 
@@ -25,8 +25,8 @@ Creates a new menu for a department. This menu represents a department in a comp
 |**Bitmap**|The bitmap that you want to display on the menu button for the department. The number you enter represents the bitmap. You can enter numbers from 0 to 15. For more information, see [Bitmap Property](../Bitmap-Property.md).|  
 
 ## See Also  
- [\($ S\_2401 Navigation Pane Designer $\)](-$-S_2401-Navigation-Pane-Designer-$-.md)   
+ [Navigation Pane Designer](-$-S_2401-Navigation-Pane-Designer-$-.md)   
  [How to: Create a Menu for a Department in a MenuSuite](../How-to--Create-a-Menu-for-a-Department-in-a-MenuSuite.md)   
- [\($ S\_2420 Create Menu $\)](-$-S_2420-Create-Menu-$-.md)   
+ [Create Menu](-$-S_2420-Create-Menu-$-.md)   
  [Bitmap Property](../Bitmap-Property.md)   
  [Walkthrough: Creating MenuSuites for the Microsoft Dynamics NAV Windows Client](../Walkthrough--Creating-MenuSuites-for-the-Microsoft-Dynamics-NAV-Windows-Client.md)

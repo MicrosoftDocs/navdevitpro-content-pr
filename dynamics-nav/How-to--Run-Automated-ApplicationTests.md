@@ -78,4 +78,4 @@ You can run the automated application tests that are included on the [!INCLUDE[n
   
 ## See Also  
  [Application Test Automation](Application-Test-Automation.md)   
- [\($ N\_9990 Code Coverage $\)](uiref/-$-N_9990-Code-Coverage-$-.md)
+ [Code Coverage](uiref/-$-N_9990-Code-Coverage-$-.md)

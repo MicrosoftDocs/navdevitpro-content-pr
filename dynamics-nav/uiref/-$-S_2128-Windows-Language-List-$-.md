@@ -17,4 +17,4 @@ Lists all Windows languages. You can add string translations for UI elements in 
 > [!NOTE]  
 >  If you have customized objects in the application, then you must also add translations for those objects.  
   
- To open this window, in the **Multilanguage Editor** window, choose the **Up Arrow** button in the **Language** field. For more information about how to open the Multilanguage Editor window, see [\($ S\_2141 Multilanguage Editor $\)](-$-S_2141-Multilanguage-Editor-$-.md).
+ To open this window, in the **Multilanguage Editor** window, choose the **Up Arrow** button in the **Language** field. For more information about how to open the Multilanguage Editor window, see [Multilanguage Editor](-$-S_2141-Multilanguage-Editor-$-.md).

@@ -14,7 +14,7 @@ manager: edupont
 # Access By Permission
 Specifies an object to which users must have certain permissions before the related UI element is accessible to the user.  
 
- The **AccessByPermission** property sets a value for a table field or UI element that determines the permission mask for an object that a user must have to see and access the related page fields or UI element in the client. The UI element will be removed at runtime if the user does not have permissions to a certain object as specified in the **\($ S\_2180 Access By Permission $\)** window. For more information, see [How to: Remove UI Elements Using the AccessByPermission Property](../How-to--Remove-UI-Elements-Using-the-AccessByPermission-Property.md).  
+ The **AccessByPermission** property sets a value for a table field or UI element that determines the permission mask for an object that a user must have to see and access the related page fields or UI element in the client. The UI element will be removed at runtime if the user does not have permissions to a certain object as specified in the **Access By Permission** window. For more information, see [How to: Remove UI Elements Using the AccessByPermission Property](../How-to--Remove-UI-Elements-Using-the-AccessByPermission-Property.md).  
 
  To use the **AccessByPermission** property, the **UI Elements Removal** field in the [!INCLUDE[nav_admin](../includes/nav_admin_md.md)] must be set to **LicenseFile** or **LicenseFileAndUserPermissions**. For more information, see [How to: Specify When UI Elements Are Removed](../How-to--Specify-When-UI-Elements-Are-Removed.md).  
 
@@ -31,6 +31,6 @@ Specifies an object to which users must have certain permissions before the rela
  [How to: Specify When UI Elements Are Removed](../How-to--Specify-When-UI-Elements-Are-Removed.md)   
  [Removing Elements from the User Interface According to Permissions](../Removing-Elements-from-the-User-Interface-According-to-Permissions.md)   
  [How to: Try Out the UI Elements Removal Feature Based on Demonstration Permission Sets](../How-to--Try-Out-the-UI-Elements-Removal-Feature-Based-on-Demonstration-Permission-Sets.md)   
- [\($ S\_2180 Access By Permission $\)](-$-S_2180-Access-By-Permission-$-.md)   
+ [Access By Permission](-$-S_2180-Access-By-Permission-$-.md)   
  [How to: Define Permissions for Users](../How-to--Define-Permissions-for-Users.md)   
  [Managing Permissions and Permission Sets](../Managing-Permissions-and-Permission-Sets.md)
