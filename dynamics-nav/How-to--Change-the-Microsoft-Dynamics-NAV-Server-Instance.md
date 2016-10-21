@@ -30,7 +30,7 @@ In some cases, you may want to change the [!INCLUDE[nav_server](includes/nav_ser
 3.  Select a server instance, and then choose the **OK** button.  
 
     > [!NOTE]  
-    >  The instance that you select is also displayed in the [Options)](uiref/-$-S_2355-Options-$-.md) window.  
+    >  The instance that you select is also displayed in the [Options](uiref/-$-S_2355-Options-$-.md) window.  
 
 ### To change the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance by specifying the field in the Database Options window  
 
