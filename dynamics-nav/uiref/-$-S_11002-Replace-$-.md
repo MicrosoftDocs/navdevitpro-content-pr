@@ -1,5 +1,5 @@
 ---
-title: "($ S_11002 Replace $)"
+title: "Replace"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: b644e98c-880f-4a83-b2f9-308ecd447cda
 caps.latest.revision: 7
 manager: edupont
 ---
-# ($ S_11002 Replace $)
+# Replace
 Replaces text that you find with other text. You can only replace information that can be changed. If you try to replace an entry that you cannot change, then you receive an error message.  
   
  To open this window, on the **Edit** menu, choose **Replace**. To open this window another way, on the **Edit** menu, choose **Find**, and then choose the **Replace** button in the **Find** window.  

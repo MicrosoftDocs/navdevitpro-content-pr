@@ -1,5 +1,5 @@
 ---
-title: "($ S_2355 Options $)"
+title: "Options"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: ecc5ba6a-772d-4d2f-9b2e-4fdbb4a7b029
 caps.latest.revision: 20
 manager: edupont
 ---
-# ($ S_2355 Options $)
+# Options
 Specifies the system setup options for the current database.  
 
  To open this window, in the [!INCLUDE[nav_dev_long](../includes/nav_dev_long_md.md)], on the **Tools** menu, choose **Options**.  

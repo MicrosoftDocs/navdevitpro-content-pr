@@ -1,5 +1,5 @@
 ---
-title: "($ S_11162 Page Designer Wizard, FastTab $)"
+title: "Page Designer Wizard, FastTab"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: c0df329e-201f-4f8c-9f29-111490a6195f
 caps.latest.revision: 10
 manager: edupont
 ---
-# ($ S_11162 Page Designer Wizard, FastTab $)
+# Page Designer Wizard, FastTab
 Creates a FastTab control on a **Card** page.  
 
  You can use FastTab controls to add data in groups on **Card** or **Task** pages. If a group is expanded, then you see all fields in a group. If it is collapsed, then you only see the summary line. When you organize data with FastTabs, you help users find key information quickly, and you give them an overview of areas that would otherwise remain hidden.  

@@ -1,5 +1,5 @@
 ---
-title: "($ S_2148 Column Filter $)"
+title: "Column Filter"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 46f68d4a-aedc-42cf-a032-508b64fb9aaf
 caps.latest.revision: 8
 manager: edupont
 ---
-# ($ S_2148 Column Filter $)
+# Column Filter
 Sets a filter on the Column row of a query.  
   
  To open this window, open Query Designer, and then select a column in the designer. On the **View** menu, choose **Properties**, locate the **ColumnFilter** property, and then choose the **AssistEdit** button in the **Value** field. For more information about how to open Query Designer, see [\($ S\_22401 Query Designer $\)](-$-S_22401-Query-Designer-$-.md).  

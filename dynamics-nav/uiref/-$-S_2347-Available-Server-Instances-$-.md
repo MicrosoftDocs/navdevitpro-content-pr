@@ -1,5 +1,5 @@
 ---
-title: "($ S_2347 Available Server Instances $)"
+title: "Available Server Instances"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 601f93dd-6ed0-4e61-a949-72b595a40cd7
 caps.latest.revision: 15
 manager: edupont
 ---
-# ($ S_2347 Available Server Instances $)
+# Available Server Instances
 Shows the available [!INCLUDE[nav_server](../includes/nav_server_md.md)] instances that can connect to the database. You select the instance that you want to use. For more information, see [Managing Microsoft Dynamics NAV Server Instances](../Managing-Microsoft-Dynamics-NAV-Server-Instances.md).  
 
  To open this window, on the **File** menu, choose **Database**, and then choose **Information** to open the **Database Information** window. On the **General** tab, choose the **Down Arrow** button in the **Server Instance** field.  

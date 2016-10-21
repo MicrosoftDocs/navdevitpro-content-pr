@@ -1,5 +1,5 @@
 ---
-title: "($ S_7112 Report Label Designer $)"
+title: "Report Label Designer
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na

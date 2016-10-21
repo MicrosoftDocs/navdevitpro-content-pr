@@ -1,5 +1,5 @@
 ---
-title: "($ S_7002 Save As $)"
+title: "Save As"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -10,7 +10,7 @@ ms-prod: "dynamics-nav-2017"
 ms.assetid: d7dc06fb-138d-4d9f-b651-e3b57439e070
 caps.latest.revision: 3
 ---
-# ($ S_7002 Save As $)
+# Save As
 Creates a new [!INCLUDE[navnow](../includes/navnow_md.md)] object by copying the selected object.  
 
  The following table describes the options on the **Save As** window.  

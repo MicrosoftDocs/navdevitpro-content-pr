@@ -1,5 +1,5 @@
 ---
-title: "($ S_2335 Open Database $)"
+title: "Open Database"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 54444e73-bd9f-46c8-ae39-9a1d7c20e8a6
 caps.latest.revision: 7
 manager: edupont
 ---
-# ($ S_2335 Open Database $)
+# Open Database
 Specifies the database that you want to open.  
 
  To open this window, on the **File** menu, choose **Database**, and then choose **Open**.  

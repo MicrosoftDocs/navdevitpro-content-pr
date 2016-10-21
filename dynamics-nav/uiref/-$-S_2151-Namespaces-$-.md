@@ -1,5 +1,5 @@
 ---
-title: "($ S_2151 Namespaces $)"
+title: "Namespaces"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: f18c2b4f-cb15-4ca6-b6af-ba91f71fb47a
 caps.latest.revision: 6
 manager: edupont
 ---
-# ($ S_2151 Namespaces $)
+# Namespaces
 Specifies namespaces for the XMLport that imports or exports data as XML.  
 
  To open this window, open an XMLport in XMLport Designer, and then on the **View** menu, choose **Properties**. Locate the **Namespaces** property, and then choose the **AssistEdit** button in the **Value** field.  

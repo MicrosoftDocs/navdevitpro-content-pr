@@ -1,5 +1,5 @@
 ---
-title: "($ S_2401 Navigation Pane Designer $)"
+title: "Navigation Pane Designer"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 8d51d73f-0e56-4efb-8823-73d0bde4d3a2
 caps.latest.revision: 13
 manager: edupont
 ---
-# ($ S_2401 Navigation Pane Designer $)
+# Navigation Pane Designer
 Creates and customizes MenuSuite objects. \($ S\_2401 Navigation Pane Designer $\) contains menus that represent departments in a company. It also contains menu items for each department. You modify the menus and menu items in \($ S\_2401 Navigation Pane Designer $\).  
 
  You can modify a basic MenuSuite object, or you can create new objects from the basic MenuSuite object. You select the MenuSuite object that you to want to modify in [\($ S\_2051 Object Designer $\)](-$-S_2051-Object-Designer-$-.md) and then make your changes in \($ S\_2401 Navigation Pane Designer $\).  

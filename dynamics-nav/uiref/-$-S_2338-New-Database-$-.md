@@ -1,5 +1,5 @@
 ---
-title: "($ S_2338 New Database $)"
+title: "New Database"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 75985a49-ab9d-4baf-8033-0f68888bda3f
 caps.latest.revision: 8
 manager: edupont
 ---
-# ($ S_2338 New Database $)
+# New Database
 Creates a database.  
 
  Before you can enter any information in this window, you must enter the correct information in the [\($ S\_2345 Select Server $\)](-$-S_2345-Select-Server-$-.md) window.  
