@@ -33,8 +33,10 @@ A binary large object \(BLOB\) is a complex data type. Variables of this data ty
 
  It is not supported for a page to access a BLOB field from a table other than the SourceTable of the page.  
 
-## Differences Between [!INCLUDE[navnowlong](includes/navnowlong_md.md)] and Previous Versions  
- In previous versions of [!INCLUDE[navnow](includes/navnow_md.md)], if you wrote to a BLOB OutStream but did not insert or modify the record in the database, and then called the CALCFIELDS function on the BLOB field, you would get the value of the BLOB based on what you wrote to the OutStream, not based on what was currently in the database. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)] in the same scenario, you get the value of the BLOB that is in the database. Similarly, in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] if you call the CALCFIELDS Function on a new record that has not been inserted into the database, then you clear the BLOB field from the record.  
+## Different Behavior in Versions Prior to  [!INCLUDE[nav7long_md](includes/nav7long_md.md)]
+In product versions earlier than  [!INCLUDE[nav7long_md](includes/nav7long_md.md)], if you wrote to a BLOB OutStream but did not insert or modify the record in the database, and then called the CALCFIELDS function on the BLOB field, you would get the value of the BLOB based on what you wrote to the OutStream, not based on what was currently in the database.
+
+In versions [!INCLUDE[nav7long_md](includes/nav7long_md.md)] and later, for the same scenario, you get the value of the BLOB that is in the database. Similarly, if you call the CALCFIELDS Function on a new record that has not been inserted into the database, then you clear the BLOB field from the record.  
 
 ## See Also  
 [CREATEINSTREAM Function \(BLOB\)](CREATEINSTREAM-Function--BLOB-.md)  
