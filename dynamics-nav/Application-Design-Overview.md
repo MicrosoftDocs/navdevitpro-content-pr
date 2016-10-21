@@ -42,7 +42,7 @@ Carefully planning the details of your database application will help to ensure 
 
 -   Other constraints that are specific to your application.  
 
- For more information about data integrity, see the following topics:  
+For more information about data integrity, see the following topics:  
 
 -   [Data Integrity \(SQL Server\)](http://go.microsoft.com/fwlink/?LinkId=240057)  
 

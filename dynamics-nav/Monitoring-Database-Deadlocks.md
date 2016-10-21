@@ -85,5 +85,6 @@ All deadlock events have the trace tag **00000DI**. If you only want to see dead
 For more information about XML filtering, see [Advanced XML filtering in the Windows Event Viewer](https://aka.ms/advancedxmlfilteringeventviewer).
 ##  See Also
 [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)  
+[Monitoring SQL Database Locks](Monitoring-Database-Locks.md)  
 [Configuring Microsoft Dynamics NAV Server](Monitoring-Microsoft-Dynamics-NAV-Server.md)  
 [Use SQL Server Management Studio](https://aka.ms/usesqlservermanagementstudio)

@@ -17,3 +17,6 @@ This section describes the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] fea
 -   [Monitoring Microsoft Dynamics NAV Server Using Performance Counters](Monitoring-Microsoft-Dynamics-NAV-Server-Using-Performance-Counters.md)  
 -   [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)  
 -   [Monitoring SQL Database Deadlocks](Monitoring-Database-Deadlocks.md)
+
+## See Als0
+[Monitoring SQL Database Locks](Monitoring-Database-Locks.md)  

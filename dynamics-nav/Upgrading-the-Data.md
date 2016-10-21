@@ -13,17 +13,17 @@ ms-prod: "dynamics-nav-2017"
 # Upgrading the Data to Dynamics
 This topic describes the tasks required for upgrading a [!INCLUDE[nav7long](includes/nav7long_md.md)], [!INCLUDE[navsicily](includes/navsicily_md.md)], [!INCLUDE[navcrete](includes/navcrete_md.md)], or [!INCLUDE[navcorfu](includes/navcorfu_md.md)] database to [!INCLUDE[nav2017](includes/nav2017.md)].  
 
- You use data conversion tools provided with [!INCLUDE[navcorfu](includes/navcorfu_md.md)] to convert the old data with the old version’s table and field structure, so that it functions together with the new version’s table and field structure.  
+ You use data conversion tools provided with [!INCLUDE[nav2017](includes/nav2017.md)] to convert the old data with the old version’s table and field structure, so that it functions together with the new version’s table and field structure.  
 
 ##  <a name="Prereqs"></a> Prerequisites  
-
+Before you gein the upgrade tasks, make sure you meet the following prerequisites:
 -   Your computer uses the same codepage as the data that will be upgraded.
 
     If you use conflicting codepages, some characters will not display in captions, and you might not be able to access the upgraded database. This is because [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)]  must remove incorrect metadata characters to complete the data upgrade. In this case, after upgrade, you must open the database in the development environment on a computer with the relevant codepage and compile all objects. This adds the missing characters again.
 
-    Optionally, you can export the captions before the upgrade. For more information, see [How to: Add Translated Strings for Conflicting Text Encoding Formats](languages-howaddtranslatedstrings.md).
+    Optionally, you can export the captions before the upgrade. For more information, see [How to: Add Translated Strings for Conflicting Text Encoding Formats](How-to--Add-Translated-Strings-for-Conflicting-Text-Encoding-Formats.md).
 
--   A FOB file that contains the upgraded application code and upgrade toolkit. The upgrade toolkit can also be in a separate FOB file.  
+-   You have a FOB file that contains the upgraded application code and upgrade toolkit. The upgrade toolkit can also be in a separate FOB file.  
 
     For more information, see [Upgrading the Application Code](Upgrading-the-Application-Code.md).  
 
@@ -31,7 +31,7 @@ This topic describes the tasks required for upgrading a [!INCLUDE[nav7long](incl
 
     For more information, see [How to: Build Server Application Objects](How-to--Build-Server-Application-Objects.md).  
 
--   All application objects are unlocked.  
+-   All application objects in the old database are unlocked.  
 
     For more information, see [How to: Unlock an Object](How-to--Unlock-an-Object.md).  
 
@@ -45,7 +45,7 @@ This topic describes the tasks required for upgrading a [!INCLUDE[nav7long](incl
 
 -   Permissions XML files of permission sets have been updated.  
 
--   If the old database includes test runner codeunits, modify the signature of the OnBeforeTestRun and OnAfterTestRun triggers of the test runner codeunits to include the TestPermission parameter, as shown in the following examples:
+-   If the old database includes test runner codeunits, you have modified the signature of the OnBeforeTestRun and OnAfterTestRun triggers of the test runner codeunits to include the TestPermission parameter, as shown in the following examples:
 
     ```
     OnBeforeTestRun(CodeunitID : Integer;CodeunitName : Text[30];FunctionName : Text[128]; TestPermissions : Text) Ok : Boolean)
@@ -65,8 +65,8 @@ This topic describes the tasks required for upgrading a [!INCLUDE[nav7long](incl
 
  For more information, see [Create a Full Database Backup \(SQL Server\)](http://msdn.microsoft.com/en-us/library/ms187510.aspx).  
 
-##  <a name="UploadLicense"></a> Task 2: Upload the Microsoft Dynamics NAV 2016 license to the old database  
- By using the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] that matches the old database, upload the [!INCLUDE[navcorfu](includes/nav2017.md)] license to the database. For more information, see [Uploading a License File for a Specific Database](How-to--Upload-the-License-File.md#UploadtoDatabase).  
+##  <a name="UploadLicense"></a> Task 2: Upload the [!INCLUDE[nav2017](includes/nav2017.md)] license to the old database  
+ By using the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] that matches the old database, upload the [!INCLUDE[nav2017](includes/nav2017.md)] license to the database. For more information, see [Uploading a License File for a Specific Database](How-to--Upload-the-License-File.md#UploadtoDatabase).  
 
 ##  <a name="DeleteObjects"></a> Task 3: Delete all objects except tables from the old database   
  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] version that matches the database, open the old database, open Object Designer, and then delete all objects except tables.  

@@ -36,7 +36,7 @@ Sets the application areas that apply to the control.
  You can get an overview of the application areas that are tagged on all controls of an object by displaying the **ApplicationArea** column in the designer.  
   
 > [!NOTE]  
->  Currently, this property is intended for the application areas that are defined in **table 9178 Application Ares Setup**. You can define your own application areas but the implementation might change in future release.  
+>  Currently, this property is intended for the application areas that are defined in **table 9178 Application Area Setup**. You can define your own application areas but the implementation might change in future release.  
   
 ## See Also  
  [APPLICATIONAREA Function](APPLICATIONAREA-Function.md)

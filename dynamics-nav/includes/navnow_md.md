@@ -1,1 +1,1 @@
-Microsoft Dynamics NAV
+Dynamics NAV
