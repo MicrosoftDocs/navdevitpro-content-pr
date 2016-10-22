@@ -12,12 +12,12 @@ manager: edupont
 ---
 
 ## Managing Report Layouts
-A report layout controls content and format of the report, including which data fields of a report dataset appear on the report and how they are arranged, text style, images, and more. From the [!INCLUDE[navnow](../Token/navnow_md.md)] clients, you can change which layout is used on a report, create new layout, or modify the existing layouts.  
+A report layout controls content and format of the report, including which data fields of a report dataset appear on the report and how they are arranged, text style, images, and more. From the [!INCLUDE[navnow](includes/navnow_md.md)] clients, you can change which layout is used on a report, create new layout, or modify the existing layouts.  
 
 ## About Report Layouts
-A report layout is a document that acts as a template that defines the appearance of a [!INCLUDE[navnow](../Token/navnow_md.md)] report when viewing, printing, or saving the report. In particular, a report layout sets up the following:  
+A report layout is a document that acts as a template that defines the appearance of a [!INCLUDE[navnow](includes/navnow_md.md)] report when viewing, printing, or saving the report. In particular, a report layout sets up the following:  
 
--   The label and data fields to include from the dataset of the [!INCLUDE[navnow](../Token/navnow_md.md)] report.  
+-   The label and data fields to include from the dataset of the [!INCLUDE[navnow](includes/navnow_md.md)] report.  
 
 -   The text format, such as font type, size and color.  
 
@@ -48,7 +48,7 @@ By default, a report will have a built\-in report layout, which can be either an
 
 To create a custom layout, you can either make a copy of an existing custom layout or add a new custom layout, which in most cases is based on a built\-in layout. When you add a new custom layout, you can choose to add an RDLC report layout type, Word report layout type, or both. The new custom layout will automatically be based on the built\-in layout for the report if one is available. If there is no built\-in layout for the type, then a new blank layout is a created, which you will have to modify and design from scratch.
 
- A [!INCLUDE[navnow](../Token/navnow_md.md)] report can be set up with multiple report layouts, which you can switch among as required. You can use one of the built\-in report layouts or you can create custom report layouts and assign them to your reports as needed.  
+ A [!INCLUDE[navnow](includes/navnow_md.md)] report can be set up with multiple report layouts, which you can switch among as required. You can use one of the built\-in report layouts or you can create custom report layouts and assign them to your reports as needed.  
 
  There are two types of report layouts that you can use on reports, *Word* and *RDLC*.  
 
