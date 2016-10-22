@@ -4,7 +4,7 @@ author: edupont04
 manager: edupont
 ms.author: edupont
 ms.custom: na
-ms.date: 10/21/2016
+ms.date: 10/22/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -35,9 +35,9 @@ When you access your Azure AD tenant in the Azure management portal at [http://m
 |3|Directory Access|Choose **Single Sign-On**.|  
 
 ### Grant access to your [!INCLUDE[navnow](includes/navnow_md.md)] application
-When you have created the Excel add-in application, you must give it permission to access the [!INCLUDE[navnow](includes/navnow_md.md) application in Azure AD. This allows users of the Excel add-in to access the OData web services to read and write data.  
+When you have created the Excel add-in application, you must give it permission to access the [!INCLUDE[navnow](includes/navnow_md.md)] application in Azure AD. This allows users of the Excel add-in to access the OData web services to read and write data.  
 
-In the configuration page for your new Azure AD application, in the section for permissions to other application, you can add the application for your [!INCLUDE[navnow](includes/navnow_md.md) application. You must set delegated permission to the [!INCLUDE[navnow](includes/navnow_md.md) application.  
+In the configuration page for your new Azure AD application, in the section for permissions to other application, you can add the application for your [!INCLUDE[navnow](includes/navnow_md.md)] application. You must set delegated permission to the [!INCLUDE[navnow](includes/navnow_md.md)] application.  
 
 ### Configure OAuth2 authentication
 The Excel add-in requires OAuth2 implicit grant flow to be enabled on the application. In the Azure portal, in the application's Configure page, the Manage Manifest button is used to download the manifest, make the necessary changes, and upload the manifest back to Azure.
@@ -54,7 +54,7 @@ Finally, you must copy the values of the **Client ID** field for the Excel add-i
 This completes the work you have to do in the Azure Management Portal. The final configuration is to add the Excel add-in to the [!INCLUDE[nav_server](includes/nav_server_md.md) instances.
 
 ## Configuring the [!INCLUDE[nav_server](includes/nav_server_md.md)] Instances
-You can use either [!INCLUDE[nav_admin](includes/nav_admin_md.md) or [!INCLUDE[nav_shell](includes/nav_shell_md.md)] to add the Excel add-in to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instances in your deployment.
+You can use either [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or [!INCLUDE[nav_shell](includes/nav_shell_md.md)] to add the Excel add-in to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instances in your deployment.
 
 In the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], you must set the **Excel add-in AAD client ID** field to the client ID that you copied from the Azure Management Portal. In the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], use the **Set-NAVServerConfiguration** cmdlet to set the ```ExcelAddInAzureActiveDirectoryClientId``` key to the  value that you copied from the Azure Management Portal.
 
