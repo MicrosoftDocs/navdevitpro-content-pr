@@ -21,7 +21,7 @@ To get started developing in [!INCLUDE[navnowlong](includes/navnowlong_md.md)], 
 |Learn about the [!INCLUDE[nav_web](includes/nav_web_md.md)] from the perspective of a developer.|[Microsoft Dynamics NAV Web Client](Microsoft-Dynamics-NAV-Web-Client.md)|  
 |Learn about developing for the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] from the perspective of a developer.|[Developing for the Microsoft Dynamics NAV Universal App](Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)|  
 |Learn how to install, deploy, and configure [!INCLUDE[navnowlong](includes/navnowlong_md.md)].|[Deployment](Deployment.md)|  
-|Learn how to upgrade from an earlier version to [!INCLUDE[navnowlong](includes/navnowlong_md.md)].|[Upgrading to Microsoft Dynamics NAV 2016](Upgrading-to-Microsoft-Dynamics-NAV-2016.md)|  
+|Learn how to upgrade from an earlier version to [!INCLUDE[navnowlong](includes/navnowlong_md.md)].|[Upgrading to Microsoft Dynamics NAV 2017](Upgrading-to-Microsoft-Dynamics-NAV-2017.md)|  
 |Learn about development options for [!INCLUDE[navnowlong](includes/navnowlong_md.md)].|[Development](Development.md)|  
 |Develop tables, codeunits, pages, reports, queries, XMLports, and MenuSuites in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].|[Objects](Objects.md)|  
 |Learn about administration tools and processes for [!INCLUDE[navnowlong](includes/navnowlong_md.md)].|[Administration](Administration.md)|  

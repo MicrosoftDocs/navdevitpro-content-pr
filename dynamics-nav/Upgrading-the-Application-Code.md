@@ -123,5 +123,5 @@ This completes the upgrade of the application code. Next, you must upgrade the d
 
 ## See Also  
 [Upgrading the Data](Upgrading-the-Data.md)   
-[Upgrading to Microsoft Dynamics NAV 2016](Upgrading-to-Microsoft-Dynamics-NAV-2016.md)  
+[Upgrading to Microsoft Dynamics NAV 2017](Upgrading-to-Microsoft-Dynamics-NAV-2017.md)  
 [How to: Create Databases.md](How-to--Create-Databases.md)  

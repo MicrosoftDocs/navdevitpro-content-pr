@@ -44,5 +44,5 @@ If you want to use reports from earlier versions of [!INCLUDE[navnow](includes/n
 ## See Also  
  [Designing Reports](Designing-Reports.md)   
  [How to: Integrate Report Dataset Designer and Visual Studio Report Designer](How-to--Integrate-Report-Dataset-Designer-and-Visual-Studio-Report-Designer.md)   
- [Upgrading to Microsoft Dynamics NAV 2016](Upgrading-to-Microsoft-Dynamics-NAV-2016.md)   
+ [Upgrading to Microsoft Dynamics NAV 2017](Upgrading-to-Microsoft-Dynamics-NAV-2017.md)   
  [How to: Export Objects](How-to--Export-Objects.md)

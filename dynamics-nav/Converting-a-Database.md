@@ -150,5 +150,5 @@ Next, you will convert the old database so that it can be used in [!INCLUDE[nav2
 ## See Also  
  [Upgrading the Application Code](Upgrading-the-Application-Code.md)   
  [Upgrading the Data](Upgrading-the-Data.md)   
- [Upgrading to Microsoft Dynamics NAV 2016](Upgrading-to-Microsoft-Dynamics-NAV-2016.md)   
+ [Upgrading to Microsoft Dynamics NAV 2017](Upgrading-to-Microsoft-Dynamics-NAV-2017.md)   
  [Automating the Upgrade Process using Sample Windows PowerShell Scripts](Automating-the-Upgrade-Process-using-Sample-Windows-PowerShell-Scripts.md)
