@@ -202,4 +202,4 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
  [Upgrading the Application Code](Upgrading-the-Application-Code.md)   
  [Automating the Upgrade Process using Sample Windows PowerShell Scripts](Automating-the-Upgrade-Process-using-Sample-Windows-PowerShell-Scripts.md)   
  [Synchronizing Table Schemas](Synchronizing-Table-Schemas.md)   
- [Upgrading to Microsoft Dynamics NAV 2016](Upgrading-to-Microsoft-Dynamics-NAV-2016.md)
+ [Upgrading to Microsoft Dynamics NAV 2017](Upgrading-to-Microsoft-Dynamics-NAV-2017.md)

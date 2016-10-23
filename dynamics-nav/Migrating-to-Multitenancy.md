@@ -49,5 +49,5 @@ You can choose to migrate your [!INCLUDE[navnow](includes/navnow_md.md)] solutio
  [Creating Tenants from Companies](Creating-Tenants-from-Companies.md)   
  [Upgrading the Application Code-duplicate](Upgrading-the-Application-Code-duplicate.md)   
  [Upgrading the Data](Upgrading-the-Data.md)   
- [Upgrading to Microsoft Dynamics NAV 2016](Upgrading-to-Microsoft-Dynamics-NAV-2016.md)   
+ [Upgrading to Microsoft Dynamics NAV 2017](Upgrading-to-Microsoft-Dynamics-NAV-2017.md)   
  [Merging an Application Database with a Tenant Database](Merging-an-Application-Database-with-a-Tenant-Database.md)
