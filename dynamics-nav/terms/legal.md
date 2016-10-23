@@ -12,7 +12,7 @@ manager: edupont
 ---
 # Legal Artefacts for Dynamics NAV 2017
 -	[MBS EULA - NAV 2017 - RTM License - FINAL French - Oct 2016](MBSEULA-NAV-2016-RTM-License-FINAL-French-Oct2016.rtf)  
--	[MBS EULA NAV 2017 RTM License FINAL Czech Oct 2016](MBSEULA-NAV-2017-RTM-License-FINAL-Czech-Oct2016.rtf)  
+-	[MBS EULA - NAV 2017 RTM License FINAL Czech Oct 2016](MBSEULA-NAV-2017-RTM-License-FINAL-Czech-Oct2016.rtf)  
 -	[MBS EULA - NAV 2017 - RTM License - FINAL Danish Oct 2016](MBSEULA-NAV-2017-RTM-License-FINAL-Danish-Oct2016.rtf)  
 -	[MBS EULA - NAV 2017 - RTM License - FINAL Dutch Oct 2016](MBSEULA-NAV-2017-RTM-License-FINAL-Dutch-Oct2016.rtf)  
 -	[MBS EULA - NAV 2017 - RTM License - FINAL English Oct 2016](MBSEULA-NAV-2017-RTM-License-FINAL-English-Oct2016.rtf)  
@@ -24,8 +24,7 @@ manager: edupont
 -	[MBS EULA - NAV 2017 - RTM License - FINAL Russian Oct 2016](MBSEULA-NAV-2017-RTM-License-FINAL-Russian-Oct2016.rtf)  
 -	[MBS EULA - NAV 2017 - RTM License - FINAL Spanish Oct 2016](MBSEULA-NAV-2017-RTM-License-FINAL-Spanish-Oct2016.rtf)  
 -	[MBS EULA - NAV 2017 - RTM License - FINAL Swedish Oct 2916](MBSEULA-NAV-2017-RTM-License-FINAL-Swedish-Oct2017.rtf)  
-  
+
 
 ## See Also
-[Welcome to the Developer and IT-Pro Help for Microsoft Dynamics NAV](.\index.md)  
-
+[Welcome to the Developer and IT-Pro Help for Microsoft Dynamics NAV](..\index.md)  

@@ -1,9 +1,9 @@
 ---
 title: "Welcome to the Developer and IT-Pro Help for Microsoft Dynamics NAV"
 author: edupont04
-manager: edupont04
+manager: edupont
 ms.custom: na
-ms.date: 09/15/2016
+ms.date: 10/23/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -27,3 +27,4 @@ ms-prod: "dynamics-nav-2017"
 [System Requirements for Microsoft Dynamics NAV 2017](System-Requirements-for-Microsoft-Dynamics-NAV.md)  
 [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)  
 [Accessibility](Accessibility.md)  
+[Terms of Use](/terms/legal.md)  
