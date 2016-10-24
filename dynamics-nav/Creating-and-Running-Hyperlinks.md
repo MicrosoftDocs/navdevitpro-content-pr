@@ -116,7 +116,7 @@ DynamicsNAV://///navigate?node=Home/Items
 |Programmatically|Use the GETURL function to generate a URL that opens objects in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], [!INCLUDE[nav_web](includes/nav_web_md.md)], or a SOAP or OData web service and automatically inserts the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration. For more information, see [GETURL Function](GETURL-Function.md).|  
   
 ## See Also  
- [Starting the Windows Client at the Command Prompt](Starting-the-Windows-Client-at-the-Command-Prompt.md)   
+ <!--[Starting the Windows Client at the Command Prompt](Starting-the-Windows-Client-at-the-Command-Prompt.md)-->   
  [How to: Run Reports](How-to--Run-Reports.md)   
  [GETURL Function](GETURL-Function.md)   
  [SOAP Web Services](SOAP-Web-Services.md)   

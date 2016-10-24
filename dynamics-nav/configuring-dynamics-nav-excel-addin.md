@@ -51,7 +51,7 @@ https://az689774.vo.msecnd.net/dynamicsofficeapp/v1.3.0.0/*
 
 Finally, you must copy the values of the **Client ID** field for the Excel add-in application. You'll need that in the last step.
 
-This completes the work you have to do in the Azure Management Portal. The final configuration is to add the Excel add-in to the [!INCLUDE[nav_server](includes/nav_server_md.md) instances.
+This completes the work you have to do in the Azure Management Portal. The final configuration is to add the Excel add-in to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instances.
 
 ## Configuring the [!INCLUDE[nav_server](includes/nav_server_md.md)] Instances
 You can use either [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or [!INCLUDE[nav_shell](includes/nav_shell_md.md)] to add the Excel add-in to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instances in your deployment.

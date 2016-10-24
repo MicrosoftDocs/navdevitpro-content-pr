@@ -39,8 +39,8 @@ In product versions earlier than  [!INCLUDE[nav7long_md](includes/nav7long_md.md
 In versions [!INCLUDE[nav7long_md](includes/nav7long_md.md)] and later, for the same scenario, you get the value of the BLOB that is in the database. Similarly, if you call the CALCFIELDS Function on a new record that has not been inserted into the database, then you clear the BLOB field from the record.  
 
 ## See Also  
-[CREATEINSTREAM Function \(BLOB\)](CREATEINSTREAM-Function--BLOB-.md)  
-[CREATEOUTSTREAM Function \(BLOB\)](CREATEOUTSTREAM-Function--BLOB-.md)  
-[EXPORT Function \(BLOB\)](EXPORT-Function--BLOB.md)  
-[HASVALUE Function \(BLOB\)](HASVALUE-Function--BLOB-.md)   
+[CREATEINSTREAM Function (BLOB)](CREATEINSTREAM-Function--BLOB-.md)  
+[CREATEOUTSTREAM Function (BLOB)](CREATEOUTSTREAM-Function--BLOB-.md)  
+[EXPORT Function (BLOB)](EXPORT-Function--BLOB-.md)  
+[HASVALUE Function (BLOB)](HASVALUE-Function--BLOB-.md)   
 [Variant Data Type](Variant-Data-Type.md)
