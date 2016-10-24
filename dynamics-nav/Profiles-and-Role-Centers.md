@@ -38,5 +38,5 @@ In addition to UI customization that you perform in the **Customize** window, yo
 <!-- [Managing Users](../Topic/Administration%20in%20the%20Clients.md)   
  [Profiles and Role Centers](../Topic/Customize%20the%20User%20Interface.md)  -->
 [Managing Users](Managing-Users.md)  
-[Managing User Groups](managing-.md)  
+[Managing User Groups](managing-user-groups.md)  
 [Security Overview](Security-Overview.md)  
