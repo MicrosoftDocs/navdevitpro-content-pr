@@ -25,7 +25,7 @@ You can choose to migrate your [!INCLUDE[navnow](includes/navnow_md.md)] solutio
 > [!NOTE]  
 >  The email logging functionality in [!INCLUDE[navnow](includes/navnow_md.md)] requires the [!INCLUDE[nav_server](includes/nav_server_md.md)] service account to have access to the Exchange server. But in a multitenant deployment, this is not always possible.  
   
- In multitenant deployments of [!INCLUDE[navnow](includes/navnow_md.md)], permission sets are stored centrally in the application database, so only the administrator of the central application can add, remove, or modify permission sets. Instead, the tenants can use user groups to manage permissions. For more information, see [User Groups](User-Groups.md).  
+ In multitenant deployments of [!INCLUDE[navnow](includes/navnow_md.md)], permission sets are stored centrally in the application database, so only the administrator of the central application can add, remove, or modify permission sets. Instead, the tenants can use user groups to manage permissions. For more information, see [Managing User Groups](managing-user-groups.md).  
   
 ### Migration Process  
  If you decide to move to a multitenant architecture, you must complete the following steps:  
@@ -47,7 +47,7 @@ You can choose to migrate your [!INCLUDE[navnow](includes/navnow_md.md)] solutio
 ## See Also  
  [Separating Application Data from Business Data](Separating-Application-Data-from-Business-Data.md)   
  [Creating Tenants from Companies](Creating-Tenants-from-Companies.md)   
- [Upgrading the Application Code-duplicate](Upgrading-the-Application-Code-duplicate.md)   
+ [Upgrading the Application Code-duplicate](Upgrading-the-Application-Code.md)   
  [Upgrading the Data](Upgrading-the-Data.md)   
  [Upgrading to Microsoft Dynamics NAV 2017](Upgrading-to-Microsoft-Dynamics-NAV-2017.md)   
  [Merging an Application Database with a Tenant Database](Merging-an-Application-Database-with-a-Tenant-Database.md)

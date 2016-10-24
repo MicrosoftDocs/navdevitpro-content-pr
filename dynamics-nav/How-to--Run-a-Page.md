@@ -27,12 +27,10 @@ When you are developing pages, you may want to see how the pages look in the [!I
   
 ### To run a page at the command prompt  
   
-1.  At the command prompt, change to the RoleTailored client directory with the following `cd` command:  
-  
-    ```  
-    cd navnow_install\RoleTailored Client  
-    ```  
-  
+1.  At the command prompt, change to the RoleTailored Client directory of the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] installation on your computer. By default, the directory is:
+
+    [!INCLUDE[navnow_x86install_md](includes/navnow_x86install_md.md)]\RoleTailored Client  
+   
 2.  Type the following command:  
   
     ```  

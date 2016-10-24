@@ -40,7 +40,6 @@ You can rename companies in the [!INCLUDE[nav_windows](includes/nav_windows_md.m
 >  When you work in the [!INCLUDE[demolonglight](includes/demolonglight_md.md)] and use the Cronus.flf license file, you can only change the company name to one that starts with CRONUS with uppercase letters.  
 
 ## See Also  
- [How to: Select a Company](\($-S_COMPANY-How-to--Select-a-Company-$\).md)   
  [How to: Delete Companies](How-to--Delete-Companies.md)   
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   
  [How to: Create Companies](How-to--Create-Companies.md)
