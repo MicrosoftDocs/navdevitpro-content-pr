@@ -15,7 +15,7 @@ caps.latest.revision: 14
 In [!INCLUDE[navnow](includes/navnow_md.md)], you can export the tables that define the application to a dedicated database. To export the application tables from an existing database, [!INCLUDE[navnow](includes/navnow_md.md)] provides a [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlet as part of the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
 
 > [!IMPORTANT]  
->  Before you can run the script, you must upgrade to [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. For more information, see [Upgrading to Microsoft Dynamics NAV 2016](Upgrading-to-Microsoft-Dynamics-NAV-2016.md).  
+>  Before you can run the script, you must upgrade to [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. For more information, see [Upgrading to Microsoft Dynamics NAV 2017](Upgrading-to-Microsoft-Dynamics-NAV-2017.md).  
 
  The following procedure illustrates how you can separate the application tables in an existing database into two databases: an application database and a business data database. You can automate this process and combine it with the use of other cmdlets. For more information, see the samples in the Windows PowerShell scripts in the **…\\WindowsPowerShellScripts\\Multitenancy\\** folder on the [!INCLUDE[navnow](includes/navnow_md.md)] product media.  
 
@@ -107,7 +107,7 @@ PS C:\Windows\System32> Mount-NAVTenant –ServerInstance ‘nav_server_instance
 ## See Also  
  [Separating Application Data from Business Data](Separating-Application-Data-from-Business-Data.md)   
  [Migrating to Multitenancy](Migrating-to-Multitenancy.md)   
- [Upgrading to Microsoft Dynamics NAV 2016](Upgrading-to-Microsoft-Dynamics-NAV-2016.md)   
+ [Upgrading to Microsoft Dynamics NAV 2017](Upgrading-to-Microsoft-Dynamics-NAV-2017.md)   
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   
  [Creating Tenants from Companies](Creating-Tenants-from-Companies.md)   
  [Merging an Application Database with a Tenant Database](Merging-an-Application-Database-with-a-Tenant-Database.md)
