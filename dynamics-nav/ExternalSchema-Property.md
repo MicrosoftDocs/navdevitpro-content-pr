@@ -31,4 +31,4 @@ Specifies the name of the database schema of the external database.
  [Properties](Properties.md)   
  [Table Designer](uiref/-$-S_2102-Table-Designer-$-.md)   
  [External Tables](External-Tables.md)   
- [Integrating Microsoft Dynamics CRM in Microsoft Dynamics NAV](Integrating-Microsoft-Dynamics-CRM-in-Microsoft-Dynamics-NAV.md)
+ [Customizing Dynamics CRM and Dynamics NAV Integration](Customizing-Dynamics-CRM-and-Dynamics-NAV-Integration.md)
