@@ -42,8 +42,6 @@ You can create as many companies as you want in a database. You can create compa
  You can create as many companies as your license allows for.  
 
 ## See Also  
- [Companies](\($-N_357-Companies-$\).md)   
- [How to: Select a Company](\($-S_COMPANY-How-to--Select-a-Company-$\).md)   
  [How to: Rename Companies](How-to--Rename-Companies.md)   
  [How to: Delete Companies](How-to--Delete-Companies.md)   
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)
