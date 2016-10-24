@@ -28,5 +28,4 @@ The Icon font is missing on the [!INCLUDE[nav_web](includes/nav_web_md.md)], [!I
 5.  In the **Internet Options** window, choose the **OK** button.  
   
 ## See Also  
- [Troubleshooting the Microsoft Dynamics NAV Universal App](Troubleshooting-the-Microsoft-Dynamics-NAV-Universal-App.md)   
- [Troubleshooting Using Microsoft Dynamics NAV](Troubleshooting-Using-Microsoft-Dynamics-NAV.md)
+ [Troubleshooting the Microsoft Dynamics NAV Universal App](Troubleshooting-the-Microsoft-Dynamics-NAV-Universal-App.md)  
