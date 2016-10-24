@@ -34,7 +34,7 @@ Whether you are using an RDLC report layout in Visual Studio or a Word report la
   
     -   [How to: Add Labels to an RDLC Report Layout](How-to--Add-Labels-to-an-RDLC-Report-Layout.md)  
   
-    -   [How to: Add Fields to a Word Report Layout](How-to--Add-Fields-to-a-Word-Report-Layout.md)  
+    -   [Managing Report Layouts](managing-report-layouts.md)  
   
 ### To add a label that is not related to a column of data item  
   
@@ -63,7 +63,7 @@ Whether you are using an RDLC report layout in Visual Studio or a Word report la
   
     -   [How to: Add Labels to an RDLC Report Layout](How-to--Add-Labels-to-an-RDLC-Report-Layout.md)  
   
-    -   [How to: Add Fields to a Word Report Layout](How-to--Add-Fields-to-a-Word-Report-Layout.md)  
+    -   [Managing Report Layouts](managing-report-layouts.md)  
   
 ## See Also  
  [How to: Create a Report Dataset](How-to--Create-a-Report-Dataset.md)   

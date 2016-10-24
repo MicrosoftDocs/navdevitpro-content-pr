@@ -12,7 +12,7 @@ caps.latest.revision: 9
 manager: edupont
 ---
 # How to: Create Databases
-You can create new [!INCLUDE[navnow](includes/navnow_md.md)] databases in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] and by using the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVDatabase](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVDatabase)[!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlet.  
+You can create new [!INCLUDE[navnow](includes/navnow_md.md)] databases in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] and by using the New-NAVDatabase[!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlet.  
   
  When you create a database you must specify the SQL Server instance for the database and the authentication type.  
   
@@ -34,9 +34,9 @@ You can create new [!INCLUDE[navnow](includes/navnow_md.md)] databases in the [!
   
 6.  To set the network type to be used when connecting to the server, choose the **Advanced** tab and select the net type from the drop down list box in the **Net Type** field. However, it is not usually necessary to change the network type from the default setting. The **Default** net type setting allows \($ P\_1 Product Name $\) to connect to a server using the default client network type assigned by SQL Server. You can change the net type with the Client Network Utility, which is part of the SQL Server Client Utilities, if they have been installed on the client computer.  
   
-7.  Choose **OK** to connect to the server and open the **\($ S\_2338 New Database $\)** window.  
+7.  Choose **OK** to connect to the server and open the **New Database** window.  
   
-     In the [\($ S\_2338 New Database $\)](uiref/-$-S_2338-New-Database-$-.md) window, enter the information about the database that you want to create. The window contains the same tabs as the **\($ S\_2339 Alter Database $\)** window. The tabs are the following:  
+     In the [New Database](uiref/-$-S_2338-New-Database-$-.md) window, enter the information about the database that you want to create. The window contains the same tabs as the **Alter Database** window. The tabs are the following:  
   
     -   [Altering Databases - General Tab](Altering-Databases---General-Tab.md)  
   

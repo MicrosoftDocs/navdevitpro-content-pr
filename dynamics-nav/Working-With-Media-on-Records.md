@@ -16,7 +16,7 @@ This topic describes how you can upload media, such as an image, to the database
 
 -   Use a BLOB data type  
 
-     You add media to a BLOB data type field on the record.  
+     You add media to a BLOB data type field on the record.  For more information, see [BLOB Data Type](BLOB-Data-Type.md).
 
 -   Use a Media or MediaSet data type  
 

@@ -3,7 +3,7 @@ title: "System Requirements for Microsoft Dynamics NAV 2017"
 author: edupont04
 manager: edupont04
 ms.custom: na
-ms.date: 10/11/2016
+ms.date: 10/19/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -104,7 +104,7 @@ The following sections list the minimum hardware and software requirements to in
 
 |||  
 |-|-|  
-|Supported operating systems|-   Windows 10 Home, Pro, Enterprise, or Education \(32-bit and 64-bit editions\).<br />-   Android 5.0 or higher (tablet and phone).<br />-   iOS 9.0 or higher (iPad and iPhone).<br />-   Windows Phone 10.0 or higher.<br />|  
+|Supported operating systems|-   Windows 10 Home, Pro, Enterprise, or Education \(32-bit and 64-bit editions\).<br />-   Android 5.0 or higher (tablet and phone).<br />-   iOS 9.0 or higher (iPad and iPhone).<br />-   Windows Phone 8.1 or higher.<br />|  
 |Additional hardware|-   1 GB RAM for Android and Windows.|  
 |Additional software|-   A third-party telephony or VoIP app such as Skype or Lync is required for placing calls from [!INCLUDE[navnow](includes/navnow_md.md)].<br />-   A third-party email program such as Outlook is required for sending emails from [!INCLUDE[navnow](includes/navnow_md.md)].<br />-   Microsoft Office 2013 SP1 or Microsoft Office 365 is required for sending data to Microsoft Excel or to Microsoft Word.|  
 |Additional information|-   Device diagonal screen size 7” for tablets.<br />-   Screen resolution 960 × 510 for tablets.<br /> -   Device diagonal screen size 4” for phones.<br />-   Screen resolution 854 x 480 for phones.|  
@@ -136,10 +136,10 @@ The following sections list the minimum hardware and software requirements to in
 
 |||  
 |-|-|  
-|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(64-bit edition\).<br />-   Windows 8.1 Professional or Enterprise \(64-bit edition\).<br />-   Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64-bit edition\).<br /><br /> For more information, see [Hardware and Software Requirements for Installing SQL Server 2016](http://go.microsoft.com/fwlink/?LinkId=622999). From this page, you can access requirements for other versions of SQL Server.|  
-|Hardware resources|-   Hard disk space: 500 MB.<br />-   Memory: 2 GB.|  
+|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(64-bit edition\).<br />-   Windows 8.1 Professional or Enterprise \(64-bit edition\).<br />-   Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64-bit edition\). |  
+|Hardware resources|For more information, see [Hardware and Software Requirements for Installing SQL Server 2016](http://go.microsoft.com/fwlink/?LinkId=622999). From this page, you can also access requirements for other versions of SQL Server.|  
 |SQL Server|-   Microsoft SQL Server 2016 Express, Standard or Enterprise.<br/>-   Microsoft SQL Server 2014 Express, Standard or Enterprise.<br />-   Microsoft SQL Server 2012 Service Pack 2 Express, Standard, or Enterprise \(64-bit editions only\).<br />-   Azure SQL Database V12 Standard and Premium service tiers.<br /><br /> For more information, see [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md).|  
-|Additional information|<ul><li>[!INCLUDE[navnow](includes/navnow_md.md)] Setup installs the following software if it is not already present on the target computer.<br /><br /> <ul><li>SQL Server 2016 Express \(64-bit edition\).</li></ul></li><li>If the operating system on the target computer does not support SQL Server 2016 Express, Setup displays a pre-requisite warning. In this case you should exit Setup and then update the operating system on the computer to one that does support SQL Server 2016 Express. Then run Setup again.</li></ul>|  
+|Additional information|[!INCLUDE[navnow](includes/navnow_md.md)] Setup installs the following software if it is not already present on the target computer:<br /><br /> <ul><li>SQL Server 2016 Express \(64-bit edition\).<br>If the operating system on the target computer does not support SQL Server 2016 Express, Setup displays a pre-requisite warning. In this case you should exit Setup and then update the operating system on the computer to one that does support SQL Server 2016 Express. Then run Setup again.</li></ul>|  
 
 ##  <a name="HelpServer"></a> Microsoft Dynamics NAV Help Server Requirements  
  The following table shows the minimum system requirements for the [!INCLUDE[navnow](includes/navnow_md.md)] Help Server.  
@@ -178,7 +178,7 @@ The following table shows the minimum system requirements for the [!INCLUDE[navn
 
 |||  
 |-|-|  
-|Additional software|Microsoft Dynamics CRM Online 2015 Update, Microsoft Dynamics CRM Online 2015 Update 1, or Microsoft Dynamics CRM 2015.|  
+|Additional software|-   Microsoft Dynamics CRM Online 2016, Microsoft Dynamics CRM Online 2016 Update 1, or Microsoft Dynamics CRM 2016. <br/>-   Microsoft Dynamics CRM Online 2015, Microsoft Dynamics CRM Online 2015 Update 1, or Microsoft Dynamics CRM 2015.|  
 
 ##  <a name="SharePointApp"></a> Microsoft Dynamics NAV as an App for SharePoint Requirements  
  The following table shows the minimum system requirements for [!INCLUDE[navnow](includes/navnow_md.md)] as an App for SharePoint.  

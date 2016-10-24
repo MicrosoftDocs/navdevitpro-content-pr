@@ -1,4 +1,4 @@
---
+---
 title: "SEND Function (Notification)"
 ms.custom: na
 ms.date: 09/20/2016
@@ -7,9 +7,8 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms-prod: "dynamics-nav-2017"
-ms.author="SusanneWindfeldPedersen"
+author: SusanneWindfeldPedersen
 ---
-
 # RECALL Function (Notification)
 Recall a sent notification.
 
@@ -18,6 +17,7 @@ Recall a sent notification.
 ```
 ## Return Value
 *Value*
+
 **true** if the notification was recalled; otherwise, **false**.
 
 If you omit this optional return value and if the notification cannot be recalled, then a run-time error occurs that states that the notification cannot be recalled. If you include a return value, then it is assumed that you will handle any errors and no run-time error occurs, even if the notification is not recalled.

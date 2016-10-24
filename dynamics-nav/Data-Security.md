@@ -30,7 +30,7 @@ The [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] security sys
   
 -   Record  
   
- Graphically, these can be represented as the layers, where the central layer is the records in the database.  
+Graphically, these can be represented as the layers, where the central layer is the records in the database.  
   
 ## See Also  
  [Database-Level Security](Database-Level-Security.md)   

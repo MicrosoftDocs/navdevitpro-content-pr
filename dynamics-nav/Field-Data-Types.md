@@ -47,7 +47,7 @@ After you select an identification number and name for a field, you have to sele
 
 -   FlowFilter  
 
- For more information, see [FlowFields](FlowFields.md) and [FlowFilter Overview](FlowFilter-Overview.md).  
+For more information, see [FlowFields](FlowFields.md) and [FlowFilter Overview](FlowFilter-Overview.md).  
 
 ## See Also  
  [C/AL Functions](C-AL-Functions.md)

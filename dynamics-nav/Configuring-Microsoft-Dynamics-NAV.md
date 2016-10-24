@@ -41,5 +41,5 @@ This section identifies components that you can preconfigure in [!INCLUDE[navnow
  [Walkthrough: Setting Up Outlook Synchronization](Walkthrough--Setting-Up-Outlook-Synchronization.md)   
  [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md)   
  [Removing Elements from the User Interface According to Permissions](Removing-Elements-from-the-User-Interface-According-to-Permissions.md)   
- [Customize the User Interface](Customize-the-User-Interface.md)   
+ [Profiles and Role Centers](Profiles-and-Role-Centers.md)   
  [Walkthrough: Setting Up and Using a Purchase Approval Workflow](Walkthrough--Setting-Up-and-Using-a-Purchase-Approval-Workflow.md)

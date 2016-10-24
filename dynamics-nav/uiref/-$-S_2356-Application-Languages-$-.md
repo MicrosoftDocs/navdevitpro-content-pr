@@ -1,5 +1,5 @@
 ---
-title: "($ S_2356 Application Languages $)"
+title: "Application Languages"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: c5be1e67-a7f2-4190-b86a-33d19e12f4a5
 caps.latest.revision: 5
 manager: edupont
 ---
-# ($ S_2356 Application Languages $)
+# Application Languages
 Lists the languages that are included in your license and installed on your computer.  
 
  To open this window, on the **Tools** menu, choose **Language**.  

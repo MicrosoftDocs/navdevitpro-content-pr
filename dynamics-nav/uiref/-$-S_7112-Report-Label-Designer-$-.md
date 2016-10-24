@@ -1,5 +1,5 @@
 ---
-title: "($ S_7112 Report Label Designer $)"
+title: "Report Label Designer
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: 04163202-1fdc-4306-aa46-5651ce1bd61b
 caps.latest.revision: 11
 manager: edupont
 ---
-# ($ S_7112 Report Label Designer $)
+# Report Label Designer
 Adds labels to reports. You add labels that are not related to a data item in this window.  
 
  To open this window, on the **Tools** menu, choose **Object Designer**, choose **Report**, choose the **Design** button, and then on the **View** menu, choose **Labels**.  

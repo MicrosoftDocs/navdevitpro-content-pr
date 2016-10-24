@@ -1,5 +1,5 @@
 ---
-title: "($ N_9510 Event Subscriptions $)"
+title: "Event Subscriptions"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -35,7 +35,7 @@ translation.priority.ht:
   - ru-ru
   - sv-se
 ---
-# ($ N_9510 Event Subscriptions $)
+# Event Subscriptions
 Specifies the current subscriptions to published events.  
   
  A subscription is defined by an event subscriber function and an event publisher function that event subscriber function subscribes to. When a published event is raised in the application, the event subscriber function is called.  

@@ -1,5 +1,5 @@
 ---
-title: "($ N_534_4 Name $)"
+title: "Name"
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
@@ -11,10 +11,10 @@ ms.assetid: 747b8228-5179-4f92-9873-ee0255f144e7
 caps.latest.revision: 6
 manager: edupont
 ---
-# ($ N_534_4 Name $)
-Contains the names of the available languages that are included in your license and that are installed on your computer. This field is located in the **\($ S\_2356 Application Languages $\)** window.  
-  
- For more information about how to open the **\($ S\_2356 Application Languages $\)** window, see [\($ S\_2356 Application Languages $\)](-$-S_2356-Application-Languages-$-.md).  
-  
+# Name
+Contains the names of the available languages that are included in your license and that are installed on your computer. This field is located in the **Application Languages** window.  
+
+ For more information about how to open the **Application Languages** window, see [Application Languages](-$-S_2356-Application-Languages-$-.md).  
+
 ## Example  
  English \(United States\)

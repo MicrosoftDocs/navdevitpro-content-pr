@@ -1,5 +1,5 @@
 ---
-title: "($ S_2410 Create Item $)"
+title: "Create Item"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,10 +11,10 @@ ms.assetid: e786405f-5076-46b0-b978-8f30c1314344
 caps.latest.revision: 8
 manager: edupont
 ---
-# ($ S_2410 Create Item $)
+# Create Item
 Creates menu items in a department. In the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)], menus items link to specific objects that you select from this window.  
 
- To open this window, open Navigation Pane Designer, choose a department, right-click the area where you want to create the item, and then choose **Create Item**. For more information about how to open Navigation Pane Designer, see [\($ S\_2401 Navigation Pane Designer $\)](-$-S_2401-Navigation-Pane-Designer-$-.md).  
+ To open this window, open Navigation Pane Designer, choose a department, right-click the area where you want to create the item, and then choose **Create Item**. For more information about how to open Navigation Pane Designer, see [Navigation Pane Designer](-$-S_2401-Navigation-Pane-Designer-$-.md).  
 
 ## Properties  
 
@@ -27,5 +27,5 @@ Creates menu items in a department. In the [!INCLUDE[nav_windows](../includes/na
 |**Department**|The category in the department menu where you want the menu item to be displayed in the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)]. You can select from the following categories:<br /><br /> -   List<br />-   Tasks<br />-   Reports and Analysis<br />-   Documents<br />-   History<br />-   Administration|  
 
 ## See Also  
- [\($ S\_2401 Navigation Pane Designer $\)](-$-S_2401-Navigation-Pane-Designer-$-.md)   
+ [Navigation Pane Designer](-$-S_2401-Navigation-Pane-Designer-$-.md)   
  [How to: Modify Menu Items in a MenuSuite](../How-to--Modify-Menu-Items-in-a-MenuSuite.md)

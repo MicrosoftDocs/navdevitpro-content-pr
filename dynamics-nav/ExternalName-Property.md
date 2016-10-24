@@ -13,24 +13,24 @@ manager: edupont
 ---
 # ExternalName Property
 Specifies the name of the original table in the external database.  
-  
+
  Specify this property if the original name is different from the name that you specify in the **Name** property. This means that you can use a different name for the table in [!INCLUDE[navnow](includes/navnow_md.md)].  
-  
+
 ## Applies To  
-  
+
 -   Tables  
-  
+
 ## Property Value  
  The name of the table in the external database.  
-  
+
 ## Remarks  
  This property appears when you specify **CRM** or **ExternalSQL** in the **TableType** property. These tables use a different SQL Server connection than the normal tables in the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
-  
+
 ## See Also  
  [TableType Property](TableType-Property.md)   
  [ExternalSchema Property](ExternalSchema-Property.md)   
  [Name Property](Name-Property-duplicate.md)   
  [Properties](Properties.md)   
- [\($ S\_2102 Table Designer $\)](uiref/-$-S_2102-Table-Designer-$-.md)   
+ [Table Designer](uiref/-$-S_2102-Table-Designer-$-.md)   
  [External Tables](External-Tables.md)   
  [Integrating Microsoft Dynamics CRM in Microsoft Dynamics NAV](Integrating-Microsoft-Dynamics-CRM-in-Microsoft-Dynamics-NAV.md)

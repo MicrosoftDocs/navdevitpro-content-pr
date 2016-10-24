@@ -90,16 +90,19 @@ Before a user can access [!INCLUDE[navnow](includes/navnow_md.md)], you must hav
 
          When you specify an email address, the **Authentication Status** field changes to **Inactive**. When the user logs in to Office 365, the authentication status changes to **Active**.  
 
-8.  Open the **User Permission Sets** FastTab to define permission sets for the user. Choose the first row under **Permission Sets** and then select a permission set. Choose additional permission sets as needed. For more information, see [How to: Define Permissions for Users](How-to--Define-Permissions-for-Users.md).  
+8.  Open the **User Groups** FastTab to define which user groups the user is a member of. User groups are an easy way to manage permissions. For more information, see [Managing  User Groups](managing-user-groups.md).  
 
-9. Add any Notes or Links for the user in the respective FactBoxes.  
+9. Optionally, open the **User Permission Sets** FastTab to review permission sets for the user.  
 
-10. Choose the **OK** button to close the window.  
+10. Add any Notes or Links for the user in the respective FactBoxes.  
+
+11. Choose the **OK** button to close the window.  
 
  To update the settings for an already existing user in the **Users** window, select the user and then, on the **Home** tab, choose **Edit**.  
 
 ## See Also  
- [How to: Create a Profile](How-to--Create-a-Profile.md)   
- [How to: Define Permissions for Users](How-to--Define-Permissions-for-Users.md)   
- [Users and Credential Types](Users-and-Credential-Types.md)   
- [License Types](License-Types.md)
+[How to: Create a Profile](How-to--Create-a-Profile.md)  
+[Managing  User Groups](managing-user-groups.md)  
+[How to: Define Permissions for Users](How-to--Define-Permissions-for-Users.md)   
+[Users and Credential Types](Users-and-Credential-Types.md)   
+[License Types](License-Types.md)

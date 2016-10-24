@@ -9,7 +9,7 @@ ms.topic: article
 ms-prod: "dynamics-nav-2017"
 ---
 # Monitoring SQL Database Deadlocks
-You can set up the system to log deadlocks that occur in the SQL database. The deadlocks are recorded in the Windows Event Log of computer running [!INCLUDE[nav_server](includes/nav_server_md.md)]. The log entries provide information about the C/AL code that was run when the deadlock occurred, along with the deadlock report from SQL Server. This information can help you identify and resolve problem areas in the application design, .
+You can set up the system to log deadlocks that occur in the SQL database. The deadlocks are recorded in the Windows Event Log of computer running [!INCLUDE[nav_server](includes/nav_server_md.md)]. The log entries provide information about the C/AL code that was run when the deadlock occurred, along with the deadlock report from SQL Server. This information can help you identify and resolve problem areas in the application design.
 
 ## About Deadlocks
 Deadlocks can prevent users from completing tasks in the [!INCLUDE[navnow](includes/navnow_md.md)] client. A deadlock occurs when two or more processes or transactions block each other from continuing because each has locked a database resource that the other transaction needs. SQL Server handles deadlocks by terminating and rolling back transactions that were started after the first transaction.
@@ -85,5 +85,6 @@ All deadlock events have the trace tag **00000DI**. If you only want to see dead
 For more information about XML filtering, see [Advanced XML filtering in the Windows Event Viewer](https://aka.ms/advancedxmlfilteringeventviewer).
 ##  See Also
 [Monitoring Microsoft Dynamics NAV Server Events](Monitoring-Microsoft-Dynamics-NAV-Server-Events.md)  
+[Monitoring SQL Database Locks](Monitoring-Database-Locks.md)  
 [Configuring Microsoft Dynamics NAV Server](Monitoring-Microsoft-Dynamics-NAV-Server.md)  
 [Use SQL Server Management Studio](https://aka.ms/usesqlservermanagementstudio)

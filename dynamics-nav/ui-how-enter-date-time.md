@@ -232,7 +232,7 @@ The following example shows how you can use a minus sign to indicate a date in t
 |\-1Y|1 year ago from today|
 
 > [!CAUTION]
->  If the location uses a base calendar, then the date formula that you enter in, for example, the **\($ T\_36\_5792 Shipping Time $\)** field is interpreted according to the calendar working days. For example, **1W**  means seven working days. For more information, see [\($ N\_7600 Base Calendar Card $\)](../Topic/\($%20N_7600%20Base%20Calendar%20Card%20$\).md).
+>  If the location uses a base calendar, then the date formula that you enter in, for example, the **\($ T\_36\_5792 Shipping Time $\)** field is interpreted according to the calendar working days. For example, **1W**  means seven working days. For more information, see [Base Calendar Card](../Topic/\($%20N_7600%20Base%20Calendar%20Card%20$\).md).
 
 ## See Also
 <!-- [Working with \($ P\_1 Product Name $\)](../Topic/Working%20with%20\($%20P_1%20Product%20Name%20$\).md)

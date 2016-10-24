@@ -1,5 +1,5 @@
 ---
-title: "($ S_2339 Alter Database $)"
+title: "Alter Database"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,7 +11,7 @@ ms.assetid: d898ddcc-a318-4035-8c10-11f75fd5ac32
 caps.latest.revision: 8
 manager: edupont
 ---
-# ($ S_2339 Alter Database $)
+# Alter Database
 Modifies a database.  
 
  To open this window, on the **File** menu, choose **Database**, and then choose **Alter**.  

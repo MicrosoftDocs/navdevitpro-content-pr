@@ -29,7 +29,7 @@ caps.latest.revision: 22
   
      Any permission sets that are already assigned to the user are displayed in the **User Permission Sets** area.  
   
-3.  To assign a new permission set to the user, click to position the cursor on a blank line in the in the **User Permission Sets** area and then choose the Assist button in the **Permission Set** column to display a list of existing permission sets.  
+3.  To assign a new permission set to the user, click to position the cursor on a blank line in the in the **User Permission Sets** area and then choose the **Assist** button in the **Permission Set** column to display a list of existing permission sets.  
   
 4.  Click to select a permission set.  
   
@@ -41,5 +41,5 @@ caps.latest.revision: 22
  [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md)   
  [How to: Assign a User to a Profile](How-to--Assign-a-User-to-a-Profile.md)   
  [Managing Permissions and Permission Sets](Managing-Permissions-and-Permission-Sets.md)   
- [Customize the User Interface](Customize-the-User-Interface.md)   
+ [Profiles and Role Centers](Profiles-and-Role-Centers.md)   
  [Removing Elements from the User Interface According to Permissions](Removing-Elements-from-the-User-Interface-According-to-Permissions.md)
