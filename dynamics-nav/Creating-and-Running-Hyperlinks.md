@@ -12,7 +12,7 @@ caps.latest.revision: 41
 manager: edupont
 ---
 # Creating and Running Hyperlinks
-Hyperlinks enable users to send or save quick links to specific pages in [!INCLUDE[navnow](includes/navnow_md.md)]. For example, you can create a hyperlink to a specific list page, such as Customers. You can also use hyperlinks to specify parameters, such as server name, server service, or company. You can enter hyperlinks in the Command Prompt window, in a browser window, or directly in the **Run**window. You can also generate hyperlinks programmatically as part of your [!INCLUDE[navnow](includes/navnow_md.md)] functionality.  
+Hyperlinks enable users to send or save quick links to specific pages in [!INCLUDE[navnow](includes/navnow_md.md)]. For example, you can create a hyperlink to a specific list page, such as Customers. You can also use hyperlinks to specify parameters, such as server name, server service, or company. You can enter hyperlinks in the Command Prompt window, in a browser window, or directly in the **Run** window. You can also generate hyperlinks programmatically as part of your [!INCLUDE[navnow](includes/navnow_md.md)] functionality.  
   
 ## Creating Hyperlinks  
  You can use hyperlinks as URLs or at a command prompt as arguments to the command to start the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. At the command prompt, type the name of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] executable and then, in quotation marks, type the hyperlink. For example:  
