@@ -181,7 +181,7 @@ If you set up a SharePoint site using SharePoint Online or SharePoint on-premise
   
  If you want to preconfigure your users’ sites, you can deploy the app to one or more site templates. For more information, see the **Deploy a custom app** section in [Use the App Catalog to make custom business apps available for the SharePoint Online environment](http://go.microsoft.com/fwlink/?LinkId=309795) in the SharePoint Online admin center.  
   
- In both cases, you can provide the users with SharePoint sites that give them access to view and modify [!INCLUDE[navnow](includes/navnow_md.md)] data and any other information that you want them to have access to. You can choose to combine this with the document library functionality in SharePoint so that documents that are exported from [!INCLUDE[navnow](includes/navnow_md.md)] are stored on the SharePoint site. For more information, see [Integrating with Office 365 and SharePoint Online](Integrating-with-Office-365-and-SharePoint-Online.md).  
+ In both cases, you can provide the users with SharePoint sites that give them access to view and modify [!INCLUDE[navnow](includes/navnow_md.md)] data and any other information that you want them to have access to. You can choose to combine this with the document library functionality in SharePoint so that documents that are exported from [!INCLUDE[navnow](includes/navnow_md.md)] are stored on the SharePoint site. <!-- For more information, see [Integrating with Office 365 and SharePoint Online](Integrating-with-Office-365-and-SharePoint-Online.md).-->  
   
 ## See Also  
  [Authenticating Users with Azure Active Directory](Authenticating-Users-with-Azure-Active-Directory.md)   

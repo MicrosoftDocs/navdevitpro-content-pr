@@ -57,7 +57,7 @@ The process of finding and correcting errors is called *debugging*. [!INCLUDE[na
 ## Troubleshooting Protocol Mismatch Errors  
  We recommend that you do not use the *settings* parameter when you start a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] if you later want to use that [!INCLUDE[nav_windows](includes/nav_windows_md.md)] to start the debugger. When you start the debugger from **Sessions** page, it uses some information from the default ClientUserSettings.config file, not the config file that you specified with the *settings* parameter when you started the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. There can be differences in the connection properties, which causes a protocol mismatch error.  
   
- For more information about the *settings* parameter, see [Starting the Windows Client at the Command Prompt](Starting-the-Windows-Client-at-the-Command-Prompt.md).  
+ <!--For more information about the *settings* parameter, see [Starting the Windows Client at the Command Prompt](Starting-the-Windows-Client-at-the-Command-Prompt.md).-->  
   
 ## See Also  
  [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough--Debugging-the-Microsoft-Dynamics-NAV-Windows-Client.md)   
