@@ -45,7 +45,7 @@ Depending on the setting in the **UI Elements Removal** field in the [!INCLUDE[n
     |**LicenseFileAndUserPermissions**|A UI element is removed if the related object is not included in the license file and the user does not have permissions to the object as defined in the **AccessByPermission** property for the related UI element.<br /><br /> By default, this option is selected.|  
   
 > [!TIP]  
->  When you configure user interfaces in [!INCLUDE[dyn_nav](includes/dyn_nav_md.md)], you should make sure that the **UI Elements Removal** field is set to its default, **LicenseFileAndUserPermissions**, so that you only see the relevant UI elements in the **Customize** window. For more information, see [Configure the User Interface](Configure-the-User-Interface.md).  
+>  When you configure user interfaces in [!INCLUDE[dyn_nav](includes/dyn_nav_md.md)], you should make sure that the **UI Elements Removal** field is set to its default, **LicenseFileAndUserPermissions**, so that you only see the relevant UI elements in the **Customize** window. For more information, see [Profiles and Role Centers](Profiles-and-Role-Centers.md).  
 >   
 >  When you develop in [!INCLUDE[dyn_nav](includes/dyn_nav_md.md)], you should make sure that the **UI Elements Removal** field is set to its default, **None**, to make sure that all UI elements are visible when you review your development in the UI.  
   
@@ -57,5 +57,5 @@ Depending on the setting in the **UI Elements Removal** field in the [!INCLUDE[n
  [How to: Create or Modify Permission Sets](How-to--Create-or-Modify-Permission-Sets.md)   
  [Special Permission Sets](Special-Permission-Sets.md)   
  [How to: Define Permissions for Users](How-to--Define-Permissions-for-Users.md)   
- [Configure the User Interface](Configure-the-User-Interface.md)   
- [Administration in the Clients](Administration-in-the-Clients.md)
+ [Profiles and Role Centers](Profiles-and-Role-Centers.md)   
+ [Managing Users](Managing-Users.md)

@@ -53,7 +53,7 @@ UI elements that are directly related to an object through the **TableRelation**
 >  If you defined the property for a table field, then all instances of the field on pages are removed from the user’s view. To override the property on an individual page field, delete the permission value after the **=** sign in the **Value** field. Do not delete the whole string as that will be replicated on the property of the table field.  
   
 > [!TIP]  
->  When you configure user interfaces in [!INCLUDE[dyn_nav](includes/dyn_nav_md.md)], you should make sure that the **UI Elements Removal** field is set to its default, **LicenseFileAndUserPermissions**, so that you only see the relevant UI elements in the **Customize** window. For more information, see [Configure the User Interface](Configure-the-User-Interface.md).  
+>  When you configure user interfaces in [!INCLUDE[dyn_nav](includes/dyn_nav_md.md)], you should make sure that the **UI Elements Removal** field is set to its default, **LicenseFileAndUserPermissions**, so that you only see the relevant UI elements in the **Customize** window. For more information, see [Profiles and Role Centers](Profiles-and-Role-Centers.md).  
 >   
 >  When you develop in [!INCLUDE[dyn_nav](includes/dyn_nav_md.md)], you should make sure that the **UI Elements Removal** field is set to its default, **None**, to make sure that all UI elements are visible when you review your development in the UI.  
   

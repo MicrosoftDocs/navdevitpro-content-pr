@@ -96,7 +96,7 @@ If the default permission sets that are provided with [!INCLUDE[navnow](includes
  [How to: Work with the BASIC Permission Set](how-to-work-with-the-basic-permission-set.md)   
  [Object-Level Security](Object-Level-Security.md)   
  [User Groups](User-Groups.md)   
- [Customize the User Interface](Customize-the-User-Interface.md)   
+ [Profiles and Role Centers](Profiles-and-Role-Centers.md)   
  [How to: Try Out the UI Elements Removal Feature Based on Demonstration Permission Sets](How-to--Try-Out-the-UI-Elements-Removal-Feature-Based-on-Demonstration-Permission-Sets.md)   
  [Removing Elements from the User Interface According to Permissions](Removing-Elements-from-the-User-Interface-According-to-Permissions.md)   
  [How to: Specify When UI Elements Are Removed](How-to--Specify-When-UI-Elements-Are-Removed.md)   

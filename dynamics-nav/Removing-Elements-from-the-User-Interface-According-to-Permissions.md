@@ -41,4 +41,4 @@ A couple of permission sets in the [!INCLUDE[demo](includes/demo_md.md)] demonst
 
 ## See Also  
  [Configuring Microsoft Dynamics NAV](Configuring-Microsoft-Dynamics-NAV.md)   
- [Customize the User Interface](Customize-the-User-Interface.md)
+ [Profiles and Role Centers](Profiles-and-Role-Centers.md)
