@@ -20,7 +20,6 @@ This section provides reference information for [!INCLUDE[navnow](includes/navno
  [Special Tables](Special-Tables.md)   
  [Development Environment (C/SIDE)](Development-Environment--C-SIDE-.md)   
  [Development Environment Commands](Development-Environment-Commands.md)   
- [Window Overviews](Window-Overviews.md)   
  [Administration Cmdlets for Microsoft Dynamics NAV](http://go.microsoft.com/fwlink/?LinkID=510539)   
  [Development Cmdlets for Microsoft Dynamics NAV](http://go.microsoft.com/fwlink/?LinkID=510540)   
  [Development Cmdlets for Microsoft Dynamics NAV Extensions](http://go.microsoft.com/fwlink/?LinkID=626875)   

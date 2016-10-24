@@ -24,7 +24,6 @@ The following permission sets have special definitions that you should be aware 
 |FOUNDATION|A prerequisite for all other permission sets. The FOUNDATION permission set grants access to system tables and application setup tables that are required for most application features to work. **Note:**  This permission set is recommended when using the UI Elements Removal feature to automatically remove UI elements according to user permissions. For more information, see [Removing Elements from the User Interface According to Permissions](Removing-Elements-from-the-User-Interface-According-to-Permissions.md).|  
 
 ## See Also  
- [Administration Outside of the Clients](Administration-Outside-of-the-Clients.md)   
  [Security Overview](Security-Overview.md)   
  [Removing Elements from the User Interface According to Permissions](Removing-Elements-from-the-User-Interface-According-to-Permissions.md)   
  [About Permissions](About-Permissions.md)   
@@ -33,4 +32,5 @@ The following permission sets have special definitions that you should be aware 
  [Profiles and Role Centers](Profiles-and-Role-Centers.md)   
  [How to: Specify When UI Elements Are Removed](How-to--Specify-When-UI-Elements-Are-Removed.md)   
  [Removing Elements from the User Interface According to Permissions](Removing-Elements-from-the-User-Interface-According-to-Permissions.md)   
- [How to: Try Out the UI Elements Removal Feature Based on Demonstration Permission Sets](How-to--Try-Out-the-UI-Elements-Removal-Feature-Based-on-Demonstration-Permission-Sets.md)
+ [How to: Try Out the UI Elements Removal Feature Based on Demonstration Permission Sets](How-to--Try-Out-the-UI-Elements-Removal-Feature-Based-on-Demonstration-Permission-Sets.md)  
+ <!-- [Administration Outside of the Clients](Administration-Outside-of-the-Clients.md) -->
