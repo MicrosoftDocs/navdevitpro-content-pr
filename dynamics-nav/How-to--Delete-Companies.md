@@ -44,6 +44,4 @@ You can delete companies in the [!INCLUDE[nav_windows](includes/nav_windows_md.m
  This deletes the company. The action cannot be undone.  
   
 ## See Also  
- [How to: Select a Company](\($-S_COMPANY-How-to--Select-a-Company-$\).md)   
- [How to: Create a New Company](How-to--Create-a-New-Company.md)   
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)

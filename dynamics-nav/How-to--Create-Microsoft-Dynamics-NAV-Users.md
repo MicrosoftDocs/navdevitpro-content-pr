@@ -101,7 +101,7 @@ Before a user can access [!INCLUDE[navnow](includes/navnow_md.md)], you must hav
  To update the settings for an already existing user in the **Users** window, select the user and then, on the **Home** tab, choose **Edit**.  
 
 ## See Also  
-[How to: Create a Profile](How-to--Create-a-Profile.md)  
+<!-- [How to: Create a Profile](How-to--Create-a-Profile.md) -->  
 [Managing  User Groups](managing-user-groups.md)  
 [How to: Define Permissions for Users](How-to--Define-Permissions-for-Users.md)   
 [Users and Credential Types](Users-and-Credential-Types.md)   

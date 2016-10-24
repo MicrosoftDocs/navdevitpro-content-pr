@@ -58,6 +58,5 @@ To use Automated Data Capture System, you must enable the ADCS web service.
 
 ## See Also  
  [Configuring Automated Data Capture System](Configuring-Automated-Data-Capture-System.md)   
- [Miniforms](\($-N_7703-Miniforms-$\).md)   
  [How to: Configure ADCS Options](How-to--Configure-ADCS-Options.md)   
  [SOAP Web Services](SOAP-Web-Services.md)
