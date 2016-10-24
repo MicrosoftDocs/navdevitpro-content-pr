@@ -53,5 +53,5 @@ To create a custom layout, you can either make a copy of an existing custom layo
  There are two types of report layouts that you can use on reports, *Word* and *RDLC*.  
 
 ## See Also
-[Designing Report Layouts from the Microsoft Dynamics NAV Development Environment](Designing-Report-Layouts-from-the Microsoft-Dynamics-NAV-Development-Environment.md)  
+[Designing Report Layouts from the Microsoft Dynamics NAV Development Environment](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md)  
 [How to: Change Which Layout is Currently Used on a Report](How-to--Change-Which-Layout-is-Currently-Used-on-a-Report.md)  
