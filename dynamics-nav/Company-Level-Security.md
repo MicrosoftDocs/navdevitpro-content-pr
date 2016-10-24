@@ -15,7 +15,7 @@ manager: edupont
 After you have gained access to the database, you can open the company that you want to work with.  
 
 ## Opening a Company  
- Use the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] to open a company. For more information, see [How to: Select a Company](\($-S_COMPANY-How-to--Select-a-Company-$\).md). The **Select Company** window lists all of the companies that have been created in the current database and that you have been given permission to access. A [!INCLUDE[navnow](includes/navnow_md.md)] database can contain several companies. Each company can use its own tables and can also share tables with other companies.  
+ Use [!INCLUDE[navnow](includes/navnow_md.md)] to open a company. The **Select Company** window lists all of the companies that have been created in the current database and that you have been given permission to access. A [!INCLUDE[navnow](includes/navnow_md.md)] database can contain several companies. Each company can use its own tables and can also share tables with other companies.  
 
  Select the company that you want to open, choose **OK**, and the company opens. If there are companies in the database that you have not been given permissions to access, you will not be able to see them in this window.  
 

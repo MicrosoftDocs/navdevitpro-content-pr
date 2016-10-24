@@ -17,11 +17,15 @@ The functions that support cryptography in [!INCLUDE[navnow](includes/navnow_md.
  ![Flow between plain text and encrypted text](media/NAV_Encryption.jpg "NAV\_Encryption")  
 
 ## Encryption Keys  
- To encrypt and decrypt text, we use an encryption key. [!INCLUDE[navnow](includes/navnow_md.md)] stores the key in a secure location and accesses it at runtime when needed. Additional functionality is provided to export and import keys, which is important when moving solutions from one location to another. For more information, see [Encryption Key Management](Encryption-Key-Management.md) and [Encryption Functions](Encryption-Functions.md).  
+ To encrypt and decrypt text, we use an encryption key. [!INCLUDE[navnow](includes/navnow_md.md)] stores the key in a secure location and accesses it at runtime when needed. Additional functionality is provided to export and import keys, which is important when moving solutions from one location to another. 
+
+ More information about Encryption Management and Encryption Keys is coming soon.
+ 
+ <!-- For more information, see [Encryption Key Management](Encryption-Key-Management.md) and [Encryption Functions](Encryption-Functions.md).-->  
 
 ## See Also  
- [Encryption Key Management](Encryption-Key-Management.md)   
+ <!--[Encryption Key Management](Encryption-Key-Management.md)-->   
  [Programming in C/AL](Programming-in-C-AL.md)   
- [How to: Export and Import Encryption Keys](How-to--Export-and-Import-Encryption-Keys.md)   
+ <!--[How to: Export and Import Encryption Keys](How-to--Export-and-Import-Encryption-Keys.md)   
  [How to: Enable and Disable Encryption Keys](How-to--Enable-and-Disable-Encryption-Keys.md)   
- [Manage Data Encryption](Manage-Data-Encryption.md)
+ [Manage Data Encryption](Manage-Data-Encryption.md)-->

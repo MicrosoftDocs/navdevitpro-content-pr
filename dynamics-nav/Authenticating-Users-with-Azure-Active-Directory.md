@@ -23,7 +23,7 @@ Azure Active Directory \(Azure AD\) is a cloud service that provides identity an
 
  If you want to sign up for an Office 365 plan, you can use a plan such as Office 365 Enterprise E1 as your test site, or sign up for a trial developer plan. A trial plan includes an administrative account which you will use to access the Azure management portal. For example, if your Office 365 site is *Solutions.onmicrosoft.com*, your administrative account can be *admin@solutions.onmicrosoft.com*. For more information, see [Select an Office 365 plan for business](http://go.microsoft.com/fwlink/?LinkId=309050).  
 
- Alternatively, you can sign up for an Azure subscription that is not associated with an Office 365 subscription. You can sign up in the Azure management portal at [http://manage.windowsazure.com](http://manage.windowsazure.com). Then, you can configure an Active Directory, which creates an Azure AD tenant. For more information, see [Administering your Azure AD tenant](http://go.microsoft.com/fwlink/?LinkId=317423){:target="_blank"}.  
+ Alternatively, you can sign up for an Azure subscription that is not associated with an Office 365 subscription. You can sign up in the Azure management portal at [http://manage.windowsazure.com](http://manage.windowsazure.com). Then, you can configure an Active Directory, which creates an Azure AD tenant. For more information, see [Administering your Azure AD tenant](http://go.microsoft.com/fwlink/?LinkId=317423).  
 
  When you create a directory in the Azure management portal, you must specify a domain name that identifies your Azure AD tenant, such as *solutions.onmicrosoft.com*. You will use the domain name when you add users to your Azure AD.  
 
@@ -79,6 +79,5 @@ Azure Active Directory \(Azure AD\) is a cloud service that provides identity an
  [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md)   
  [How to: Sign Up for a Microsoft Account](How-to--Sign-Up-for-a-Microsoft-Account.md)   
  [How to: Sign Up for a Microsoft Azure Subscription](How-to--Sign-Up-for-a-Microsoft-Azure-Subscription.md)   
- [Integrating with Office 365 and SharePoint Online](Integrating-with-Office-365-and-SharePoint-Online.md)   
  [How to: Set up Microsoft Dynamics NAV for Single Sign-on With Office 365 using Windows PowerShell](How-to--Set-up-Microsoft-Dynamics-NAV-for-Single-Sign-on-With-Office-365-using-Windows-PowerShell.md)  
  [Configuring Dynamics NAV and the Excel Add-In](configuring-dynamics-nav-excel-addin.md)  

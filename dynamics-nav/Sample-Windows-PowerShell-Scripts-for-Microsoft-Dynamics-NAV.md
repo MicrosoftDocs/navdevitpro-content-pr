@@ -28,7 +28,7 @@ The [!INCLUDE[navnow](includes/navnow_md.md)] product media includes a folder th
 ||NAVRemoteAdministration|Illustrates how [!INCLUDE[wps_2](includes/wps_2_md.md)] can be used to automate the provisioning and management of [!INCLUDE[navnow](includes/navnow_md.md)] installations on Azure VMs.|  
 ||NAVRemoteAdministrationSamples|Provides examples of a fully automated deployment of [!INCLUDE[navnow](includes/navnow_md.md)] on Azure.|  
 |Multitenancy|NAVMultitenancySamples|Illustrates how you can automate the steps that are required to migrate to a multitenant deployment architecture.<br /><br /> For more information, see [Migrating to Multitenancy](Migrating-to-Multitenancy.md).|  
-|Upgrade|NAVUpgradeModule|Illustrates how you can automate the upgrade of a [!INCLUDE[nav7long](includes/nav7long_md.md)] database to [!INCLUDE[navnowlong](includes/navnowlong_md.md)].<br /><br /> For more information, see [Upgrading to Microsoft Dynamics NAV 2016](Upgrading-to-Microsoft-Dynamics-NAV-2016.md).|  
+|Upgrade|NAVUpgradeModule|Illustrates how you can automate the upgrade of a [!INCLUDE[nav7long](includes/nav7long_md.md)] database to [!INCLUDE[navnowlong](includes/navnowlong_md.md)].<br /><br /> For more information, see [Upgrading to Microsoft Dynamics NAV 2017](Upgrading-to-Microsoft-Dynamics-NAV-2017.md).|  
   
 ### Running the Sample Scripts  
  The sample scripts are designed to be run from the context of the Windows PowerShell module that is part of each collection of sample scripts. For example, to run the scripts for upgrading to [!INCLUDE[navnow](includes/navnow_md.md)], import the NAVUpgradeSamples.psm1 module into the [!INCLUDE[nav_shell](includes/nav_shell_md.md)]. Similarly, to run the sample scripts for merging application objects, open the HowTo-Start-Import-NAV-Module.ps1 script in the [!INCLUDE[wps_2](includes/wps_2_md.md)] IDE, navigate the command prompt to the folder where you placed the samples, and then run the script.  
@@ -39,5 +39,5 @@ The [!INCLUDE[navnow](includes/navnow_md.md)] product media includes a folder th
  [Administration](Administration.md)   
  [Deployment](Deployment.md)   
  [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)   
- [Upgrading to Microsoft Dynamics NAV 2016](Upgrading-to-Microsoft-Dynamics-NAV-2016.md)   
+ [Upgrading to Microsoft Dynamics NAV 2017](Upgrading-to-Microsoft-Dynamics-NAV-2017.md)   
  [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)
