@@ -34,7 +34,7 @@ A *query* object enables you to specify a set of data from the [!INCLUDE[navnow]
 ## Using Queries  
  The following examples show how you can use queries in your [!INCLUDE[navnow](includes/navnow_md.md)] application.  
 
--   Creating charts that are based on a query instead of a table. For more information, see [How to: Create Generic Charts](How-to--Create-Generic-Charts.md) in the Application Help for [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
+-   Creating charts that are based on a query instead of a table.  
 
 -   Saving a query as an .xml or .csv file. You can use the [SAVEASXML Function](SAVEASXML-Function.md) to create an .xml file that contains the resulting dataset of a query. You can use the .xml file to integrate with external applications.  
 
