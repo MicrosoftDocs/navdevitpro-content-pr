@@ -45,5 +45,5 @@ This topic describes how to couple [!INCLUDE[navnow_md](includes/navnow_md.md)] 
 ## See Also  
 [Synchronizing Microsoft Dynamics NAV and Dynamics CRM](Synchronizing-Dynamics-NAV-and-Dynamics-CRM.md)   
 [Scheduled Synchronization Using the Synchronization Job Queue Entries](Scheduled-Synchronization-Using-the-Synchronization-Job-Queue-Entries.md)   
-[Setting Up Dynamics CRM Integration in Dynamics NAV](Setting-Up-Dynamics-CRM-Integration-in-Dynamics-NAV.md)   
-[How to: View Microsoft Dynamics CRM Synchronization Status](How-to-View-Microsoft-Dynamics-CRM-Synchronization-Status.md)
+[Setting Up Dynamics CRM Integration in Dynamics NAV](Setting-Up-Dynamics-CRM-Integration.md)   
+[How to: View Microsoft Dynamics CRM Synchronization Status](how-to-view-synchronization-status.md)  

@@ -47,7 +47,7 @@ To integrate with [!INCLUDE[crm_md](includes/crm_md.md)], you must set up a conn
 
      Setting up synchronization provides the capability to keep data in records that are common to [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)] up\-to\-date. If you want enable to default data synchronization, choose the **Yes** button; otherwise choose the **No** button.  
 
-     We recommend that you set up synchronization now. However, you can always set up the connection to use the default synchronization settings later. For more information, see [How to: Enable Default Dynamics CRM Synchronization Setup](How-to-Enable-Default-ynamics-CRM-Synchronization-Setup.md).  
+     We recommend that you set up synchronization now. However, you can always set up the connection to use the default synchronization settings later. For more information, see [How to: Enable Default Dynamics CRM Synchronization Setup](How-to-Enable-Default-Dynamics-CRM-Synchronization-Setup.md).  
 
 6.  The connection to [!INCLUDE[crm_md](includes/crm_md.md)] is now configured and [!INCLUDE[crm_md](includes/crm_md.md)] integration is enabled. You can begin to work [!INCLUDE[crm_md](includes/crm_md.md)] data in [!INCLUDE[navnow_md](includes/navnow_md.md)]. There are several advanced settings which you can view and set to enhance security and enable [!INCLUDE[crm_md](includes/crm_md.md)] sales order processing.  
 
@@ -100,7 +100,7 @@ To integrate with [!INCLUDE[crm_md](includes/crm_md.md)], you must set up a conn
  Users will not be able to access [!INCLUDE[crm_md](includes/crm_md.md)] data from [!INCLUDE[navnow_md](includes/navnow_md.md)].  
 
 ## See Also  
- [Integrating Microsoft Dynamics CRM in Microsoft Dynamics NAV](Integrating-Microsoft-Dynamics-CRM-in-Microsoft-Dynamics-NAV.md)   
- [How to: View the Microsoft Dynamics CRM Connection Status](How-to-View-the-Microsoft-Dynamics-CRM-Connection-Status.md)   
+ [Integrating Microsoft Dynamics CRM in Microsoft Dynamics NAV](Integrating-Dynamics-CRM-in-Dynamics-NAV.md)   
+ [How to: View the Microsoft Dynamics CRM Connection Status](How-to-view-dynamics-crm-connection-status.md)   
  [Synchronizing Microsoft Dynamics NAV and Dynamics CRM](Synchronizing-Dynamics-NAV-and-Dynamics-CRM.md)   
  [How to: Set Up Microsoft Dynamics CRM for Integration with Dynamics NAV](How-to-prepare-Dynamics-CRM-for-Integration.md)

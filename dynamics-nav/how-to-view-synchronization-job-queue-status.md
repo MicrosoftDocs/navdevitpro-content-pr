@@ -54,4 +54,4 @@ You can set up and run synchronization jobs when integrating [!INCLUDE[navnow_md
 ## See Also  
  [Integrating Dynamics CRM in Dynamics NAV](Integrating-Dynamics-CRM-in-Dynamics-NAV.md)   
  [How to: Set Up a Dynamics CRM Connection](How-to-Set-Up-a-Dynamics-CRM-Connection.md)   
- [How to: View the Dynamics CRM Connection Status](How-to-View-the-Dynamics-CRM-Connection-Status.md)
+ [How to: View the Dynamics CRM Connection Status](How-to-view-dynamics-crm-connection-status.md)

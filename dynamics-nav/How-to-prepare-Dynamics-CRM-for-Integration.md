@@ -18,7 +18,7 @@ This topic describes how to set up and configure [!INCLUDE[crm_md](includes/crm_
 
 2.  Install the [!INCLUDE[navnow_md](includes/navnow_md.md)] integration solution for [!INCLUDE[crm_md](includes/crm_md.md)].  
 
-     This task is optional. You only need to complete this task if you want the functionality that is provided by the [!INCLUDE[navnow_md](includes/navnow_md.md)] integration solution. For more information, see [Install the Microsoft Dynamics NAV Integration Solution](.how-to-prepare-Dynamics-CRM-for-Integration.md#InstallNavSolution).  
+     This task is optional. You only need to complete this task if you want the functionality that is provided by the [!INCLUDE[navnow_md](includes/navnow_md.md)] integration solution. For more information, see [Install the Microsoft Dynamics NAV Integration Solution](how-to-prepare-Dynamics-CRM-for-Integration.md#InstallNavSolution).  
 
 > [!IMPORTANT]  
 >  To perform the tasks in this topic, you must have the System Administrator security role or equivalent privileges in [!INCLUDE[crm_md](includes/crm_md.md)].  
