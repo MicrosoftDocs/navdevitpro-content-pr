@@ -16,5 +16,3 @@ Sets a field filter.
 
  To open this window, on the **Tools** menu, choose **Object Designer**, and then on the **View** menu, choose **Field Filter**.  
 
-## See Also  
- [How to: Set Filters](../How-to--Set-Filters.md)

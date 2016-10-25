@@ -42,4 +42,4 @@ This section identifies components that you can preconfigure in [!INCLUDE[navnow
  [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md)   
  [Removing Elements from the User Interface According to Permissions](Removing-Elements-from-the-User-Interface-According-to-Permissions.md)   
  [Profiles and Role Centers](Profiles-and-Role-Centers.md)   
- [Walkthrough: Setting Up and Using a Purchase Approval Workflow](Walkthrough--Setting-Up-and-Using-a-Purchase-Approval-Workflow.md)
+ <!--[Walkthrough: Setting Up and Using a Purchase Approval Workflow](Walkthrough--Setting-Up-and-Using-a-Purchase-Approval-Workflow.md)-->
