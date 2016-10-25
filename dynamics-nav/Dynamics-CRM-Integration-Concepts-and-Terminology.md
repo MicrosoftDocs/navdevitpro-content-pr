@@ -27,7 +27,7 @@ Couplings can be set up automatically by using the synchronization jobs or manua
  A field mapping associates a field in a [!INCLUDE[crm_md](includes/crm_md.md)] entity record with a field in a [!INCLUDE[navnow_md](includes/navnow_md.md)] record. The mapping is used to determine which data to synchronize between [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)] records. The field mappings define which field in [!INCLUDE[navnow_md](includes/navnow_md.md)] corresponds to which field in [!INCLUDE[crm_md](includes/crm_md.md)]. For example a [!INCLUDE[navnow_md](includes/navnow_md.md)] customer includes some fields that are either not supported in [!INCLUDE[crm_md](includes/crm_md.md)] accounts, or you just do not want the data to be synchronized. Integration field mappings are defined in table **5336 Integration Field Map**.
 
 ## See Also
-[Integrating Microsoft Dynamics CRM in Microsoft Dynamics NAV](Integrating-Dynamics-CRM-in-Microsoft-DynamicsNAV.md)  
+[Integrating Dynamics CRM in Dynamics NAV](Integrating-Dynamics-CRM-in-Dynamics-NAV.md)  
 [Setting Up Dynamics CRM Integration in Dynamics NAV](Setting-Up-Dynamics-CRM-Integration.md)  
-[How to: Set Up a Microsoft Dynamics CRM Connection](How-to-Set-Up-Dynamics-CRM-Connection.md)  
+[How to: Set Up a Dynamics CRM Connection](How-to-Set-Up-a-Dynamics-CRM-Connection.md)  
 [How to: Enable Default Dynamics CRM Synchronization Setup](How-to-Enable-Default-Dynamics-CRM-Synchronization-Setup.md)  
