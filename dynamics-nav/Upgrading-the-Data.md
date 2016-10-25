@@ -56,7 +56,7 @@ Before you gein the upgrade tasks, make sure you meet the following prerequisite
     ```
 -   \(Optional\) If the old [!INCLUDE[navnow](includes/navnow_md.md)] application uses data encryption, export the encryption key file that it used for the data encryption.  
 
-    For more information, see [How to: Export and Import Encryption Keys](How-to--Export-and-Import-Encryption-Keys.md).  
+    For more information, see [How to: Export and Import Encryption Keys](how-to-export-and-import-encryption-keys.md).  
 
 -   \(Optional\) If the old Microsoft Dynamics NAV application uses Payment Services for Microsoft Dynamics ERP, note that this is discontinued in [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)].
 

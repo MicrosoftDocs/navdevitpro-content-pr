@@ -33,7 +33,7 @@ You can delete companies in the [!INCLUDE[nav_windows](includes/nav_windows_md.m
   
 ### To delete a company in [!INCLUDE[nav_windows](includes/nav_windows_md.md)]  
   
-1.  In the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], open a different company than the company that you want to delete. For more information, see [How to: Select a Company](\($-S_COMPANY-How-to--Select-a-Company-$\).md).  
+1.  In the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], open a different company than the company that you want to delete. <!--For more information, see [How to: Select a Company](\($-S_COMPANY-How-to--Select-a-Company-$\).md).-->  
   
 2.  In the **Search** box, enter **Companies**, and then choose the related link.  
   
