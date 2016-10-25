@@ -16,7 +16,7 @@ A Word report layout is a based on Word document \(.docx file type\) that acts a
   
  From the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], you can create and modify built-in Word report layouts on reports. The layouts that you create on reports in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] become part of the report objects in the database.  
   
- From the [!INCLUDE[navnow](includes/navnow_md.md)] clients, [!INCLUDE[navnow](includes/navnow_md.md)] users you can manage the Word report layouts that are used on reports. This includes adding a built-in Word report layout, creating custom Word report layouts on a report, and changing which report layout is currently active on a report. For more information about how to manage Word report layouts from the [!INCLUDE[navnow](includes/navnow_md.md)] clients, see [Managing Report Layouts](managing-report-layouts.md).  
+ From the [!INCLUDE[navnow](includes/navnow_md.md)] clients, [!INCLUDE[navnow](includes/navnow_md.md)] users you can manage the Word report layouts that are used on reports. This includes adding a built-in Word report layout, creating custom Word report layouts on a report, and changing which report layout is currently active on a report. For more information about how to manage Word report layouts from the [!INCLUDE[navnow](includes/navnow_md.md)] clients, see [Managing Report Layouts in the Clients](managing-report-layouts.md).  
   
 ## See Also  
  [Built-in and Custom Report Layouts](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md#BuilinCustomLayouts)   
