@@ -199,7 +199,7 @@
 # [Calling External Web Services](Calling-External-Web-Services.md)
 # [InlineSchema Property](InlineSchema-Property.md)
 # [Working with Queries in C/AL](Working-with-Queries-in-C-AL.md)
-# [Finding Information in Help-duplicate](Finding-Information-in-Help-duplicate.md)
+# [Finding Information in Help](Finding-Information-in-Help.md)
 # [ExtendedDataType Property](ExtendedDataType-Property.md)
 # [ApplicationArea Property](ApplicationArea-Property.md)
 # [Importing and Exporting Objects](Importing-and-Exporting-Objects.md)
