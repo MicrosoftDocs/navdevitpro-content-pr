@@ -37,4 +37,3 @@ Administrators can define periods of time during which specified users are able 
 
 ## See Also  
  [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md)   
- [How to: Set Up Time Sheet Administration and Approval](How-to--Set-Up-Time-Sheet-Administration-and-Approval.md)
