@@ -32,7 +32,7 @@ You can create new [!INCLUDE[navnow](includes/navnow_md.md)] databases in the [!
   
 5.  In the **Password** field, enter your password if you have selected **Database Server Authentication**.  
   
-6.  To set the network type to be used when connecting to the server, choose the **Advanced** tab and select the net type from the drop down list box in the **Net Type** field. However, it is not usually necessary to change the network type from the default setting. The **Default** net type setting allows \($ P\_1 Product Name $\) to connect to a server using the default client network type assigned by SQL Server. You can change the net type with the Client Network Utility, which is part of the SQL Server Client Utilities, if they have been installed on the client computer.  
+6.  To set the network type to be used when connecting to the server, choose the **Advanced** tab and select the net type from the drop down list box in the **Net Type** field. However, it is not usually necessary to change the network type from the default setting. The **Default** net type setting allows [!INCLUDE[navnow](includes/navnow_md.md)] to connect to a server using the default client network type assigned by SQL Server. You can change the net type with the Client Network Utility, which is part of the SQL Server Client Utilities, if they have been installed on the client computer.  
   
 7.  Choose **OK** to connect to the server and open the **New Database** window.  
   
