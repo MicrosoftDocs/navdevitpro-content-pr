@@ -18,7 +18,9 @@
       "build_entry_point": "op"
     }
   ],
-  "notification_subscribers": [],
+  "notification_subscribers": [
+    "edupont@microsoft.com"
+  ],
   "branches_to_filter": [],
   "skip_source_output_uploading": false,
   "dependent_repositories": [
