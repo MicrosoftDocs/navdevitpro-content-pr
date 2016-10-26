@@ -72,7 +72,7 @@ To support the example code that follows, create the following objects:
 -   A page that is named **My Items** and has the following characteristics:
 
     -   List type page that uses the **My Items** table as its source.
-    -   A repeater control that contains the fields of the the **My Items** table.
+    -   A repeater control that contains the fields of the **My Items** table.
 
         >[!NOTE]
         >It is not necessary to include the **Media** data type field on the page.
