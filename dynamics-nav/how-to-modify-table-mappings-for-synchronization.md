@@ -26,7 +26,7 @@ An integration table mapping links the [!INCLUDE[navnow_md](includes/navnow_md.m
 ## Creating New Records  
  By default, only records in [!INCLUDE[navnow_md](includes/navnow_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)] that are coupled will be synchronized by the integration synchronization jobs. You can set up table mappings so that new records will be created in the destination \(for example, [!INCLUDE[navnow_md](includes/navnow_md.md)]\) for each record in the source \(for example, [!INCLUDE[crm_md](includes/crm_md.md)]\) that is not already coupled.  
 
- For example, the SALESPEOPLE \- Dynamics CRM synchronization job uses the table mapping SALESPEOPLE. The synchronization job copies data from user records in [!INCLUDE[crm_md](includes/crm_md.md)] to salesperson records in [!INCLUDE[navnow_md](includes/navnow_md.md)]. If you set up the table mapping to create new records, for every user in [!INCLUDE[crm_md](includes/crm_md.md)] that is not already coupled to a salesperson in [!INCLUDE[navnow_md](includes/navnow_md.md)], a new salesperson record is created in [!INCLUDE[navnow_md](includes/navnow_md.md)].  
+ For example, the SALESPEOPLE - Dynamics CRM synchronization job uses the table mapping SALESPEOPLE. The synchronization job copies data from user records in [!INCLUDE[crm_md](includes/crm_md.md)] to salesperson records in [!INCLUDE[navnow_md](includes/navnow_md.md)]. If you set up the table mapping to create new records, for every user in [!INCLUDE[crm_md](includes/crm_md.md)] that is not already coupled to a salesperson in [!INCLUDE[navnow_md](includes/navnow_md.md)], a new salesperson record is created in [!INCLUDE[navnow_md](includes/navnow_md.md)].  
 
 #### To create new records during synchronization  
 
@@ -41,13 +41,13 @@ An integration table mapping links the [!INCLUDE[navnow_md](includes/navnow_md.m
 
 -   **CRMCUST** is used to create and synchronize new customers in [!INCLUDE[navnow_md](includes/navnow_md.md)] based on an account in [!INCLUDE[crm_md](includes/crm_md.md)].  
 
-     This template is created by copying an existing configuration template for customers in the application. The **CRMCUST** is only created if there is an existing configuration template and the **Currency Code** field in the template is blank. If a field in the configuration template contains a value, the value will be used instead of the value in the mapped field in [!INCLUDE[crm_md](includes/crm_md.md)] account. For example, if the **Country\/Region** field in a [!INCLUDE[crm_md](includes/crm_md.md)] account is *U.S.* and the **Country\/Region** field in the configuration template is *GB*, then *GB* is used as the **Country\/Region** in the created customer in [!INCLUDE[navnow_md](includes/navnow_md.md)].  
+     This template is created by copying an existing configuration template for customers in the application. The **CRMCUST** is only created if there is an existing configuration template and the **Currency Code** field in the template is blank. If a field in the configuration template contains a value, the value will be used instead of the value in the mapped field in [!INCLUDE[crm_md](includes/crm_md.md)] account. For example, if the **Country/Region** field in a [!INCLUDE[crm_md](includes/crm_md.md)] account is *U.S.* and the **Country/Region** field in the configuration template is *GB*, then *GB* is used as the **Country/Region** in the created customer in [!INCLUDE[navnow_md](includes/navnow_md.md)].  
 
 -   **CRMACCOUNT** is used to create and synchronize new accounts in [!INCLUDE[crm_md](includes/crm_md.md)] based on an account in [!INCLUDE[navnow_md](includes/navnow_md.md)].  
 
 #### To specify configuration templates on a table mapping  
 
-1.  In the **Search** box, enter **\($ N\_5338 Integration Table Mappings $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Integration Table Mappings**, and then choose the related link.  
 
 2.  In the table mapping entry in the list, set the **Table Config Template Code** field to the configuration template to use for new records in [!INCLUDE[navnow_md](includes/navnow_md.md)].  
 
