@@ -46,10 +46,10 @@ For more information, see [How to: Modify Table Mappings for Synchronization](Ho
 
      For more information, see [How to: Set Up Job Queues](../Topic/How-to:-Set-Up-Job-Queues.md).  -->
 
-The jobs are now ready to run and scheduled synchronization with [!INCLUDE[crm_md](includes/crm_md.md)] is now fully enabled. For more information, see [How to: View the Dynamics CRM Synchronization Job Queue Status](How-to-View-the-Dynamics-CRM-Synchronization-Job-Queue-Status.md).  
+The jobs are now ready to run and scheduled synchronization with [!INCLUDE[crm_md](includes/crm_md.md)] is now fully enabled. For more information, see [How to: View the Dynamics CRM Synchronization Job Queue Status](How-to-View-Synchronization-Job-Queue-Status.md).  
 
 ## See Also  
 [Synchronizing Microsoft Dynamics NAV and Dynamics CRM](Synchronizing-Dynamics-NAV-and-Dynamics-CRM.md)   
-[Setting Up Dynamics CRM Integration in Dynamics NAV](Setting-Up-Dynamics-CRM-Integration-in-Dynamics-NAV.md)   
+[Setting Up Dynamics CRM Integration in Dynamics NAV](Setting-Up-Dynamics-CRM-Integration.md )   
 [How to: Set Up a Dynamics CRM Connection](How-to-Set-Up-a-Dynamics-CRM-Connection.md)    
 [Integrating Dynamics CRM in Dynamics NAV](Integrating-Dynamics-CRM-in-Dynamics-NAV.md)   

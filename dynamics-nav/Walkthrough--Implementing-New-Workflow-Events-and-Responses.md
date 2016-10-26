@@ -23,7 +23,7 @@ If a business scenario requires a workflow event or a workflow response that is 
 > [!NOTE]  
 >  This topic refers to two types of events:  
 >   
->  -   *Workflow Event*: An occurrence in the application that users can select from the **Workflow** window to define workflow steps. For more information, see [Workflow](Workflow.md) in Application Help.  
+>  -   *Workflow Event*: An occurrence in the application that users in the client can select from the **Workflow** page to define workflow steps. <!--For more information, see [Workflow](Workflow.md) in Application Help.-->  
 > -   *Event*: The declaration of the occurrence or change in the application. Workflow events typically subscribe to events. For more information, see [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md).  
 
  The development work involved in creating a new workflow event and a related workflow response consists of the following tasks, as a minimum:  
@@ -460,7 +460,7 @@ If a business scenario requires a workflow event or a workflow response that is 
     ShowWorkflowStatus := CurrPage.WorkflowStatus.PAGE.SetFilterOnWorkflowRecord(RECORDID);  
     ```  
 
- You have now enabled a new workflow scenario by implementing the required workflow event and response in the application code. The workflow administrator can now select the workflow event and workflow response from the **Workflow** window to define new or edit existing workflows. For more information, see [How to: Create Workflows](How-to--Create-Workflows.md).  
+ You have now enabled a new workflow scenario by implementing the required workflow event and response in the application code. The workflow administrator can now select the workflow event and workflow response from the **Workflow** page to define new or edit existing workflows. <!--For more information, see [How to: Create Workflows](How-to--Create-Workflows.md).-->   
 
 ## See Also  
 <!-- [How to: Create Workflows](How-to--Create-Workflows.md)   

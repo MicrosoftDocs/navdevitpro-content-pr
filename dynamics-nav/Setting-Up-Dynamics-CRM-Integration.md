@@ -19,7 +19,7 @@ This article provides an overview of how to set up [!INCLUDE[crm_md](includes/cr
 
      You must set up users for connecting to and synchronizing [!INCLUDE[crm_md](includes/crm_md.md)]. Optionally, you can also install the [!INCLUDE[navnow_md](includes/navnow_md.md)] integration solution that enables viewing [!INCLUDE[navnow_md](includes/navnow_md.md)] customer statistics, and navigating to customers from directly from [!INCLUDE[crm_md](includes/crm_md.md)] accounts, contacts, users, and products.  
 
-     For more information, see [How to: Prepare Dynamics CRM for Integration with Dynamics NAV](How-to-Prepare-Dynamics-CRM-for-Integration-with-Dynamics-NAV.md).  
+     For more information, see [How to: Prepare Dynamics CRM for Integration with Dynamics NAV](How-to-prepare-Dynamics-CRM-for-Integration.md).  
 
 2.  Set up a connection to [!INCLUDE[crm_md](includes/crm_md.md)].  
 

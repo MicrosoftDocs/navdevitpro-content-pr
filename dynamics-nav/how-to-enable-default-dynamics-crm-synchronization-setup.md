@@ -50,5 +50,5 @@ This topic describes how to enable the default synchronization setup between [!I
 3.  Choose the **OK** button when done.  
 
 ## See Also   
- [Setting Up Dynamics CRM Integration in Dynamics NAV](Setting-Up-Dynamics-CRM-Integration-in-Dynamics-NAV.md)   
+ [Setting Up Dynamics CRM Integration in Dynamics NAV](Setting-Up-Dynamics-CRM-Integration.md )   
  [How to: Set Up a Dynamics CRM Connection](How-to-Set-Up-a-Dynamics-CRM-Connection.md)   

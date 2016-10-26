@@ -35,6 +35,6 @@ This is helpful when troubleshooting synchronization problem because it enables 
 -   In the **Search** box, enter **Integration Synchronization Errors** and then choose the related link.  
 
 ## See Also  
-[Setting Up Dynamics CRM Integration in Dynamics NAV](Setting-Up-Dynamics-CRM-Integration-in-Dynamics-NAV.md)   
+[Setting Up Dynamics CRM Integration in Dynamics NAV](Setting-Up-Dynamics-CRM-Integration.md )   
  [How to: Enable Default Dynamics CRM Synchronization Setup](How-to-Enable-Default-Dynamics-CRM-Synchronization-Setup.md)   
  [How to: Set Up Scheduled Synchronization by Using the Job Queue](How-to-Set-Up-Scheduled-Synchronization-by-Using-the-Job-Queue.md)  

@@ -54,6 +54,6 @@ An integration table mapping links the [!INCLUDE[navnow_md](includes/navnow_md.m
 3.  Set the **Int. Tbl. Config Template Code** field to the configuration template to use for new records in [!INCLUDE[crm_md](includes/crm_md.md)].  
 
 ## See Also  
-[Setting Up Dynamics CRM Integration in Dynamics NAV](Setting-Up-Dynamics-CRM-Integration-in-Dynamics-NAV.md)   
+[Setting Up Dynamics CRM Integration in Dynamics NAV](Setting-Up-Dynamics-CRM-Integration.md )   
 [Synchronizing Microsoft Dynamics NAV and Dynamics CRM](Synchronizing-Dynamics-NAV-and-Dynamics-CRM.md)   
 [How to: Set Up Scheduled Synchronization by Using the Job Queue](How-to-Set-Up-Scheduled-Synchronization-by-Using-the-Job-Queue.md)  
