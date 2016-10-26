@@ -1,1 +1,1 @@
-# Index test file for Open Publishing
+# Welcome to the Developer and IT-Pro Help for Microsoft Dynamics NAV
