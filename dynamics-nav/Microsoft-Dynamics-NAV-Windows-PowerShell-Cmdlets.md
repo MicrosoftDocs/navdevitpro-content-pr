@@ -56,8 +56,8 @@ Get-Help Get-NAVServerInstance
 Get-Help <cmd name> -online  
 ```  
 
-[!NOTE]
-The cmdlet help for [!INCLUDE[navnowlong](includes/navnowlong_md.md)] is currently not available in the MSDN Libary. The *-online* switch parameter will open the [!INCLUDE[navcorfu](includes/navcorfu_md.md)] version of the help in the the MSDN Library. So for now, to get the latest help, use the help that is available in the command-line interface by omitting *-online* switch parameter.
+>[!NOTE]
+>The cmdlet help for [!INCLUDE[nav2017](includes/nav2017.md)] is currently not available in the MSDN Library. The *-online* switch parameter will open the [!INCLUDE[navcorfu](includes/navcorfu_md.md)] version of the help in the the MSDN Library. So for now, to get the latest help, use the help that is available in the command-line interface by omitting *-online* switch parameter.
 
 For more information about [!INCLUDE[nav_shell](includes/nav_shell_md.md)] cmdlets, see [Administration Cmdlets for Microsoft Dynamics NAV](http://go.microsoft.com/fwlink/?LinkID=510539) and [Administration Cmdlets for Microsoft Dynamics NAV Extensions](http://go.microsoft.com/fwlink/?LinkID=626874).  
 
