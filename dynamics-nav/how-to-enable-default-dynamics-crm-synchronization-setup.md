@@ -12,7 +12,7 @@ ms-prod: "dynamics-nav-2017"
 # How to: Enable Default Configuration Setup
 With [!INCLUDE[crm_md](includes/crm_md.md)] integration, you can decide whether to synchronize data between [!INCLUDE[crm_md](includes/crm_md.md)] and [!INCLUDE[navnow_md](includes/navnow_md.md)].
 
-This topic describes how to enable the default synchronization setup between [!INCLUDE[navnow_md](includes/navnow_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)]. You can use the default synchronization set up to get [!INCLUDE[crm_md](includes/crm_md.md)] integration up and running for the first time, out\-of\-the\-box. You can also perform this task to revert your synchronization set up back to the default setup. The default synchronization setup specifies the following items:  
+This topic describes how to enable the default synchronization setup between [!INCLUDE[navnow_md](includes/navnow_md.md)] and [!INCLUDE[crm_md](includes/crm_md.md)]. You can use the default synchronization set up to get [!INCLUDE[crm_md](includes/crm_md.md)] integration up and running for the first time, out-of-the-box. You can also perform this task to revert your synchronization set up back to the default setup. The default synchronization setup specifies the following items:  
 
 -   Integration table mappings that map [!INCLUDE[navnow_md](includes/navnow_md.md)] tables, such as salespeople and customers, to [!INCLUDE[crm_md](includes/crm_md.md)] entities, such as users and accounts.  
 
@@ -36,7 +36,7 @@ This topic describes how to enable the default synchronization setup between [!I
 
 4.  Choose the **OK** button when done.  
 
- You can now synchronize coupled [!INCLUDE[crm_md](includes/crm_md.md)] records and [!INCLUDE[navnow_md](includes/navnow_md.md)] records. You can perform this manually on an individual record basis or automatically on a scheduled time interval by using the default [!INCLUDE[crm_md](includes/crm_md.md)] synchronization jobs. For more information, see [How to: Couple and Synchronize Records Manually](/How-to-Couple-and-Synchronize-Records-Manually.md) and [Scheduled Synchronization Using the Synchronization Job Queue Entries](Scheduled-Synchronization-Using-the-Synchronization-Job-Queue-Entries.md).  
+ You can now synchronize coupled [!INCLUDE[crm_md](includes/crm_md.md)] records and [!INCLUDE[navnow_md](includes/navnow_md.md)] records. You can perform this manually on an individual record basis or automatically on a scheduled time interval by using the default [!INCLUDE[crm_md](includes/crm_md.md)] synchronization jobs. For more information, see [How to: Couple and Synchronize Records Manually](How-to-Couple-and-Synchronize-Records-Manually.md) and [Scheduled Synchronization Using the Synchronization Job Queue Entries](Scheduled-Synchronization-Using-the-Synchronization-Job-Queue-Entries.md).  
 
 ##  <a name="GenIntIds"></a> Generating Integration IDs for New Records  
  To synchronize records in [!INCLUDE[navnow_md](includes/navnow_md.md)], such as customers or contacts, with [!INCLUDE[crm_md](includes/crm_md.md)] entity records, the [!INCLUDE[navnow_md](includes/navnow_md.md)] record must have an integration ID. When a [!INCLUDE[crm_md](includes/crm_md.md)] connection is enabled, integration IDs for new records are automatically generated. However, in some cases, you may temporarily disable the [!INCLUDE[crm_md](includes/crm_md.md)] connection. If you want to integrate [!INCLUDE[navnow_md](includes/navnow_md.md)] records that were added while the [!INCLUDE[crm_md](includes/crm_md.md)] was disabled, you must generate integration IDs for the records. Complete the following procedure to populate the integration IDs for the new records.  
@@ -50,5 +50,5 @@ This topic describes how to enable the default synchronization setup between [!I
 3.  Choose the **OK** button when done.  
 
 ## See Also   
- [Setting Up Dynamics CRM Integration in Dynamics NAV](Setting-Up-Dynamics-CRM-Integration-in-Dynamics-NAV.md)   
+ [Setting Up Dynamics CRM Integration in Dynamics NAV](Setting-Up-Dynamics-CRM-Integration.md )   
  [How to: Set Up a Dynamics CRM Connection](How-to-Set-Up-a-Dynamics-CRM-Connection.md)   

@@ -34,7 +34,7 @@ This walkthrough introduces customizing the integration of [!INCLUDE[navnow](inc
 
     -   [!INCLUDE[crm](includes/crm_md.md)] integration enabled, including the default synchronization setup and a working connection from [!INCLUDE[navnow](includes/navnow_md.md)] to [!INCLUDE[crm](includes/crm_md.md)].  
 
-         For more information, see [How to: Set Up a Microsoft Dynamics CRM Connection](How-to--Set-Up-a-Microsoft-Dynamics-CRM-Connection.md).  
+         For more information, see [How to: Set Up a Microsoft Dynamics CRM Connection](How-to-Set-Up-a-Dynamics-CRM-Connection.md).  
 
     -   [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].  
 

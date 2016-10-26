@@ -26,7 +26,7 @@ This is helpful when troubleshooting synchronization problem because it enables 
 
 ### To view synchronization job log from the Table Mappings  
 
-1.  In the **Search** box, enter **\($ N\_5335 Integration Table Mappings $\)**, and then choose the related link.  
+1.  In the **Search** box, enter **Integration Table Mappings**, and then choose the related link.  
 
 2.  In the **Integration Table Mappings** window, select an entry, and then on the **Home** tab, in the **Process** group, choose **Integration Synch. Job Log**.  
 
@@ -35,6 +35,6 @@ This is helpful when troubleshooting synchronization problem because it enables 
 -   In the **Search** box, enter **Integration Synchronization Errors** and then choose the related link.  
 
 ## See Also  
-[Setting Up Dynamics CRM Integration in Dynamics NAV](Setting-Up-Dynamics-CRM-Integration-in-Dynamics-NAV.md)   
+[Setting Up Dynamics CRM Integration in Dynamics NAV](Setting-Up-Dynamics-CRM-Integration.md )   
  [How to: Enable Default Dynamics CRM Synchronization Setup](How-to-Enable-Default-Dynamics-CRM-Synchronization-Setup.md)   
  [How to: Set Up Scheduled Synchronization by Using the Job Queue](How-to-Set-Up-Scheduled-Synchronization-by-Using-the-Job-Queue.md)  

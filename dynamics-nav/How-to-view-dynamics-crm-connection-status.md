@@ -59,5 +59,5 @@ When [!INCLUDE[navnow_md](includes/navnow_md.md)] is set up to integrate with [!
          The **CRM Connection Failures** window appears, which shows a log of connection failures. Use the **Last Occurrence** column to identify the cause of the current connection failure.  
 
 ## See Also  
- [Integrating Dynamics CRM in Dynamics NAV](Integrating-Microsoft-Dynamics-CRM-in-Microsoft-Dynamics-NAV.md)   
+ [Integrating Dynamics CRM in Dynamics NAV](Integrating-Dynamics-CRM-in-Dynamics-NAV.md)   
  [How to: Set Up a Dynamics CRM Connection](How-to-Set-Up-a-Dynamics-CRM-Connection.md)
