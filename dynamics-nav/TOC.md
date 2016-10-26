@@ -30,6 +30,7 @@
 ## [Objects](Objects.md)
 ## [Web Services](Web-Services.md)
 ## [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)
+## [Notifications](notifications-developing.md)
 ## [Extending Microsoft Dynamics NAV](Extending-Microsoft-Dynamics-NAV.md)
 ## [Developing for the Microsoft Dynamics NAV Web Client](Developing-for-the-Microsoft-Dynamics-NAV-Web-Client.md)
 ## [Developing for the Microsoft Dynamics NAV Universal App](Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)
