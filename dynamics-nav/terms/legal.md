@@ -12,7 +12,7 @@ manager: edupont
 ---
 # Legal Artefacts for Dynamics NAV 2017
 -	[MBS EULA - NAV 2017 - RTM License - French - Oct 2016](MBS-EULA-NAV2016-RTM-License-French-Oct2016.md)  
--	[MBS EULA - NAV 2017 RTM License Czech Oct 2016](MBS-EULA-NAV2017-RTM-License-Czech-Oct2016.md)  
+-	[MBS EULA - NAV 2017 - RTM License - Czech Oct 2016](MBS-EULA-NAV2017-RTM-License-Czech-Oct2016.md)  
 -	[MBS EULA - NAV 2017 - RTM License - Danish Oct 2016](MBS-EULA-NAV2017-RTM-License-Danish-Oct2016.md)  
 -	[MBS EULA - NAV 2017 - RTM License - Dutch Oct 2016](MBS-EULA-NAV2017-RTM-License-Dutch-Oct2016.md)  
 -	[MBS EULA - NAV 2017 - RTM License - English Oct 2016](MBS-EULA-NAV2017-RTM-License-English-Oct2016.md)  
