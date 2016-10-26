@@ -35,8 +35,6 @@ You can record multiple customizations of the same page based on different acces
 In addition to UI customization that you perform in the **Customize** window, you can make basic changes of your view of the UI. You can adjust the size and position of any window, expand the width of columns and increase the height of column headers, and change the sorting of data in columns. You also perform a type of personalization, when you select default options on dialog boxes that you are presented with when [!INCLUDE[navnow](includes/navnow_md.md)] receives external files or must run automation objects. You can cancel such basic UI changes and default settings for handling files and automation objects with different functions than those for canceling UI customizations.  
 
 ## See Also  
-<!-- [Managing Users](../Topic/Administration%20in%20the%20Clients.md)   
- [Profiles and Role Centers](../Topic/Customize%20the%20User%20Interface.md)  -->
 [Managing Users](Managing-Users.md)  
-[Managing User Groups](managing-.md)  
+[Managing User Groups](managing-user-groups.md)  
 [Security Overview](Security-Overview.md)  

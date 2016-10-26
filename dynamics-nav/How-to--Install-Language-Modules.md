@@ -133,4 +133,3 @@ To install language modules in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]
   
 ## See Also  
  [Language Modules](Language-Modules.md)   
- [Manage Profiles](Manage-Profiles.md)
