@@ -66,16 +66,16 @@ b. Licensiering. Programvaran licensieras baserat på:
 
 -   ytterligare ERP-komponenter som du licensierar.  
 
-> **c. Licensmodell.** Programvaran licensieras enligt två modeller:
+**c. Licensmodell.** Programvaran licensieras enligt två modeller:
 
--   **Modell med eviga licenser** – Enligt denna modell har du
+    -   **Modell med eviga licenser** – Enligt denna modell har du
     licensierat programvaran under villkoren för evig licens som kod
     installerad i dina lokaler eller som en tredje man som agerar som
     ditt ombud är värd för (”Modell med eviga licenser”).
 
 <!-- -->
 
--   **Modell med prenumerationslicenser** – Enligt denna modell har du
+    -   **Modell med prenumerationslicenser** – Enligt denna modell har du
     licensierat programvaran per användare under en begränsad tidsperiod
     vilket beskrivs mer ingående i ditt partneravtal. Programvaran kan
     vara installerad i dina lokaler med daglig hantering och kontroll
@@ -93,29 +93,29 @@ b. Licensiering. Programvaran licensieras baserat på:
 ================
 
 -   ”**koncernbolag**” avser en juridisk person som direkt eller
-    > indirekt äger, ägs direkt eller indirekt av eller som är direkt
-    > eller indirekt under gemensamma ägare med en part i detta avtal.
+    -   indirekt äger, ägs direkt eller indirekt av eller som är direkt
+    -   eller indirekt under gemensamma ägare med en part i detta avtal.
 
 -   **”Additive SAL”** avser en SAL som måste används i kombination med
-    > en bas-SAL.
+    -   en bas-SAL.
 
 -   ”**affärsprocesser på entreprenad**” avser att för en specifik
-    > kritisk eller icke kritisk affärsuppgift, funktion eller process
-    > anlita en tredjepartstjänsteleverantör där tjänsterna som
-    > tillhandahålls omfattar direkt eller indirekt åtkomst
-    > till programvaran.
+    -   kritisk eller icke kritisk affärsuppgift, funktion eller process
+    -   anlita en tredjepartstjänsteleverantör där tjänsterna som
+    -   tillhandahålls omfattar direkt eller indirekt åtkomst
+    -   till programvaran.
 
 -   ”**CAL**” avser klientåtkomstlicens.
 
 <!-- -->
 
--   ### ”klientprogramvara” avser komponenterna i programvaran som beviljar en enhet åtkomst till eller rätten att använda serverprogramvaran eller att använda vissa aspekter av serverprogramvaran.
+-   ”klientprogramvara” avser komponenterna i programvaran som beviljar en enhet åtkomst till eller rätten att använda serverprogramvaran eller att använda vissa aspekter av serverprogramvaran.
 
 <!-- -->
 
 -   ”**enhet**” avser en enskild persondator, arbetsstation, terminal,
-    > handdator, mobiltelefon, personlig digital assistent eller annan
-    > elektronisk enhet.
+    -   handdator, mobiltelefon, personlig digital assistent eller annan
+    -   elektronisk enhet.
 
 <!-- -->
 
@@ -147,7 +147,7 @@ b. Licensiering. Programvaran licensieras baserat på:
 <!-- -->
 
 -   Med ”**Interna affärssyften**” avses att hantera ditt företag, men
-    > inte en oberoende tredje parts företag.
+    -   inte en oberoende tredje parts företag.
 
 -   ”**Begränsad användare**” avser en användare som bereder sig åtkomst
     > till din ERP-lösning direkt eller indirekt endast i syfte att
