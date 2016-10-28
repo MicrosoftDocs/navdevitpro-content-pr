@@ -24,12 +24,11 @@ You configure the [!INCLUDE[nav_web](includes/nav_web_md.md)] for Access Control
     > [!CAUTION]  
     >  To ensure that your edits to web.config are saved, first open Notepad as an Administrator and then, in Notepad, open the settings file. To open Notepad as an Administrator, from the **Start** menu, right-click **Notepad**, and then choose **Run as Administrator**.  
 
-2.  In the web.config file, modify the following settings.  
+2.  In the web.config file, modify the following setting.  
 
-    |Setting|Value|  
-    |-------------|-----------|  
+    | Setting | Value |  
+    |---------|-------|  
     |ClientServicesCredentialType|"AccessControlService"|  
-    |ACSUri|Use the URI for your relying party application from the **Application Integration** section of the Access Control configuration. For more information, see [How to: Configure a Deployment for ACS](How-to--Configure-a-Deployment-for-ACS.md).|  
 
 3.  After updating the values, save ClientUserSettings.config.  
 
