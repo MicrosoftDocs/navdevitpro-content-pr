@@ -7,7 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 author: jswymer
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ---
 #Dynamics NAV Windows PowerShell Cmdlet Help
 The cmdlet help for [!INCLUDE[navnowlong](includes/nav2017.md)] is currently not available in the MSDN Libary. However, the cmdlet help in the PowerShell command-line interface is up-to-date with [!INCLUDE[nav2017](includes/nav2017.md)], so you can use that instead. For more information, see [Getting Help on [!INCLUDE[navnow](includes/navnow_md.md)] Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md#GetHelp).
