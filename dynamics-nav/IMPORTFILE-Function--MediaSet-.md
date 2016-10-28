@@ -7,7 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.author: jswymer
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ---
 # IMPORTFILE Function (MediaSet)
 Adds a media, such as a JPEG image, to the **MediaSet** data type field of a record for displaying the media in the client. The media is imported to the database and included in a MediaSet for the record.  

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 4a2d24b4-adef-4d7a-be37-e9d1022eb758
 caps.latest.revision: 8
 manager: edupont

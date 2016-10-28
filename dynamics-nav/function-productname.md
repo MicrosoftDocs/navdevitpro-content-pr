@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ---
 # PRODUCTNAME Functions
 An application can have a full name, marketing name, and short name. The PRODUCTNAME functions in C/AL enable you to retrieve these name variations.

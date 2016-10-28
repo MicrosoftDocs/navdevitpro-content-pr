@@ -7,7 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 author: jswymer
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ---
 # Setting Up Dynamics CRM Integration
 This article provides an overview of how to set up [!INCLUDE[crm_md](includes/crm_md.md)] integration in  [!INCLUDE[navnow_md](includes/navnow_md.md)]. You can use default integration, or you can configure the integration manually.  

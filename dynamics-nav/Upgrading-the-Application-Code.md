@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.author: jswymer
 manager: edupont
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 
 ---
 # Upgrading the Application Code

@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.author: jswymer
 manager: edupont
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ---
 # Converting a Database
 If your current solution is based on [!INCLUDE[nav7long](includes/nav7long_md.md)], [!INCLUDE[navsicily](includes/navsicily_md.md)], or [!INCLUDE[navcrete](includes/navcrete_md.md)], you must convert the database to the [!INCLUDE[navcorfu](includes/navcorfu_md.md)] technical requirements as part of the data upgrade process to [!INCLUDE[navcorfu](includes/navcorfu_md.md)] and then upgrade the application and data later. In this topic, the [!INCLUDE[nav7long](includes/nav7long_md.md)], [!INCLUDE[navsicily](includes/navsicily_md.md)], or [!INCLUDE[navcrete](includes/navcrete_md.md)] databases are sometimes referred to as the old database.  
