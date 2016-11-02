@@ -7,7 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.author: SusanneWindfeldPedersen
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 31a1fbeb-a4b4-452d-8cf4-4937c0f87479
 caps.latest.revision: 4
 manager: edupont

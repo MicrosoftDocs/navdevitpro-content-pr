@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ---
 # Monitoring Microsoft Dynamics NAV Server
 This section describes the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] features for monitoring [!INCLUDE[nav_server](includes/nav_server_md.md)].  

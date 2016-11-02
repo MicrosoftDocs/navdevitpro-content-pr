@@ -9,7 +9,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ---
 # Configuring Dynamics NAV and the Excel Add-In
 In [!INCLUDE[navnow](includes/navnow_md.md)], users can work with data in Excel, get fresh data from [!INCLUDE[navnow](includes/navnow_md.md)], and update the data in [!INCLUDE[navnow](includes/navnow_md.md)] based on their work in Excel. But this requires you to configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance in your deployment first.  

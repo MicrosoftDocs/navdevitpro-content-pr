@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 author: jswymer
 manager: edupont
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ---
 # Changes to Microsoft Dynamics NAV Cmdlets From Previous Release
 The following sections provide an overview of the new, changed, and removed cmdlets in the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] and [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] since the previous release.  

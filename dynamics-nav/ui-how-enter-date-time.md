@@ -8,7 +8,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ---
 # How to: Enter Dates and Time
 You can enter dates and times in all the fields that are specifically assigned to dates \(date fields, time fields and datetime fields\).

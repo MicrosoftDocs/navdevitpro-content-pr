@@ -7,7 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 author: jswymer
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ---
 # How to: Prepare Dynamics CRM for Integration
 This topic describes how to set up and configure [!INCLUDE[crm_md](includes/crm_md.md)] for integrating with [!INCLUDE[navnow_md](includes/navnow_md.md)]. You must complete the following tasks:  
