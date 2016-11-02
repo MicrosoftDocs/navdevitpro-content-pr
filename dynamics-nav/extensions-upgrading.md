@@ -22,7 +22,7 @@ To upgrade an extension, you simply uninstall the old package and then install a
 
 When an extension package is uninstalled, all data for the extension is archived into a set of special tables, so while the extension is now removed from the system, the data is still preserved. This becomes important when you install an update because at that time, it invokes code designed to upgrade or restore any data from the old version.  
 
-When uninstalling the extension, you can choose to not archive the data from the extension. This is accomplished by use of the DoNotSaveData switch parameter. Similarly, when an extension package is installed, you can choose to not load any previous version archived data by use of the DoNotLoadData switch parameter. Regardless of the switch parameter, the upgrade code is called.
+When uninstalling the extension, you can choose to not archive the data from the extension. This is accomplished by use of the *DoNotSaveData* switch parameter. Similarly, when an extension package is installed, you can choose to not load any previous version archived data by use of the *DoNotLoadData* switch parameter. Regardless of the switch parameter, the upgrade code is called.
 The following example illustrates how you can uninstall an extension and not archive its data.  
 
 ```  
@@ -34,11 +34,11 @@ When you develop an extension, you must write logic that actively upgrades or re
 
 Your extension is upgraded if you implement global functions with the following names:  
 
--   `OnNavAppUpgradePerDatabase\(\)`
+-   `OnNavAppUpgradePerDatabase()`
 
     Called only once in the installation process.  
 
--   `OnNavAppUpgradePerCompany\(\)`  
+-   `OnNavAppUpgradePerCompany()`  
 
     Called once for each company in the tenant currently being installed to.  
 
@@ -60,7 +60,7 @@ You must include `OnNavAppUpgradePerDatabase` or `OnNavAppUpgradePerCompany` fun
 *The package contains changes to the database schema that are not handled in upgrade code.*
 
 > [!NOTE]  
->  An extension package that was created by using !INCLUDE[navcorfu](includes/navcorfu_md.md)] prior to Cumulative Update 1 may have been successfully created without the handling of archive data. This package can be published successfully for !INCLUDE[navcorfu](includes/navcorfu_md.md)], but it may fail on a re-install if there is archive data. You will need to use the –DoNotLoadData parameter or create a new version of the extension package with upgrade code in order to successfully re-install this extension.  
+>  An extension package that was created by using [!INCLUDE[navcorfu](includes/navcorfu_md.md)] prior to Cumulative Update 1 may have been successfully created without the handling of archive data. This package can be published successfully for [!INCLUDE[navcorfu](includes/navcorfu_md.md)], but it may fail on a re-install if there is archive data. You will need to use the –DoNotLoadData parameter or create a new version of the extension package with upgrade code in order to successfully re-install this extension.  
 
 For detailed instructions about how to write upgrade code, see [How to: Write Extension Upgrade Code](extensions-upgrade-howto.md).
 

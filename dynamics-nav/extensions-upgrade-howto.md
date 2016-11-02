@@ -22,9 +22,9 @@ For more information about upgrading extensions, see [Upgrading Extensions](exte
 
 2.  Add the following global functions to the codeunit:  
 
-  -   If the extension contains non-company-specific tables, add the `OnNavAppUpgradePerDatabase\(\)` function to upgrade these tables.  
+  -   If the extension contains non-company-specific tables, add the `OnNavAppUpgradePerDatabase()` function to upgrade these tables.  
 
-  - If the extension contains company-specific tables that pertain to a specific company, add the `OnNavAppUpgradePerCompany\(\)` function to upgrade these tables.
+  - If the extension contains company-specific tables that pertain to a specific company, add the `OnNavAppUpgradePerCompany()` function to upgrade these tables.
 
   Make sure that the **Local** property of the functions is set to **No**.
 3.  Add the upgrade code to the appropriate function.  
@@ -111,7 +111,7 @@ END;
 >  The preceding sample code uses a strongly typed instance of the record for the destination. The other option is to use a RecordRef for both the source and destination. The sample code also assumes that any version 2 build of the extension uses the same table schema. If this is not true for your extension, you may have to use more specific version checks.  
 
 > [!TIP]  
->  It is a best practice to use the `IF NAVAPP.GETARCHIVERECORDREF\(50003, ArchiveRecRef\) THEN BEGIN` construct to catch any exception that is thrown, for example, if a non-valid table was passed.  
+>  It is a best practice to use the `IF NAVAPP.GETARCHIVERECORDREF(50003, ArchiveRecRef) THEN BEGIN` construct to catch any exception that is thrown, for example, if a non-valid table was passed.  
 
 ## See Also  
 [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)  
@@ -119,4 +119,4 @@ END;
 [GETARCHIVEVERSION Function](GETARCHIVEVERSION-Function.md)  
 [GETARCHIVERECORDREF Function](GETARCHIVERECORDREF-Function.md)  
 [RESTOREARCHIVEDATA Function](restorearchivedata-function.md)  
-[DELETEARCHIVEDATA](deletearchivedata-function.md)  
+[DELETEARCHIVEDATA Function](deletearchivedata-function.md)  
