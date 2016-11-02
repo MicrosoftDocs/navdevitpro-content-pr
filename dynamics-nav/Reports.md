@@ -1,7 +1,7 @@
 ---
-title: "Reports-duplicate 20"
+title: "Reports"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/02/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -11,7 +11,7 @@ ms.assetid: 8c0412c2-3750-4681-b8b0-fa00d2a9fea2
 caps.latest.revision: 36
 manager: edupont
 ---
-# Reports-duplicate 20
+# Reports
 You can use reports to print or display information from a database. You can use a report to structure and summarize information and to print documents, such as invoices. For example, you can create a report that lists all customers and all orders that have been added by each customer. You can also create a report that is automatically filled with the relevant information for an invoice.  
 
  You can also use reports to process data without printing or displaying content. For example, you can use a report to automate updating all prices in an item list. It can be easier to create a report to process data instead of a codeunit to do the same processing because you can use:  
