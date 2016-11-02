@@ -1,8 +1,8 @@
 ---
-title: "Legal Artefacts for Dynamics NAV 2017"
+title: "Legal Resources for Microsoft Dynamics NAV"
 author: tsiggaar
 ms.custom: na
-ms.date: 10/26/2016
+ms.date: 10/29/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -10,21 +10,17 @@ ms.topic: article
 ms-prod: "dynamics-nav-2017"
 manager: edupont
 ---
-# Legal Artefacts for Dynamics NAV 2017
--	[MBS EULA - NAV 2017 - RTM License - French - Oct 2016](MBS-EULA-NAV2016-RTM-License-French-Oct2016.md)  
--	[MBS EULA - NAV 2017 - RTM License - Czech Oct 2016](MBS-EULA-NAV2017-RTM-License-Czech-Oct2016.md)  
--	[MBS EULA - NAV 2017 - RTM License - Danish Oct 2016](MBS-EULA-NAV2017-RTM-License-Danish-Oct2016.md)  
--	[MBS EULA - NAV 2017 - RTM License - Dutch Oct 2016](MBS-EULA-NAV2017-RTM-License-Dutch-Oct2016.md)  
--	[MBS EULA - NAV 2017 - RTM License - English Oct 2016](MBS-EULA-NAV2017-RTM-License-English-Oct2016.md)  
--	[MBS EULA - NAV 2017 - RTM License - Finish Oct 2016](MBS-EULA-NAV2017-RTM-License-Finish-Oct2016.md)  
--	[MBS EULA - NAV 2017 - RTM License - German Oct 2016](MBS-EULA-NAV2017-RTM-License-German-Oct2016.md)  
--	[MBS EULA - NAV 2017 - RTM License - Icelandic Oct 2016](MBS-EULA-NAV2017-RTM-License-Icelandic-Oct2016.md)  
--	[MBS EULA - NAV 2017 - RTM License - Italian Oct 2016](MBS-EULA-NAV2017-RTM-License-Italian-Oct2016.md)  
--	[MBS EULA - NAV 2017 - RTM License - Norwegian Oct 2016](MBS-EULA-NAV2017-RTM-License-Norwegian-Oct2016.md)  
--	[MBS EULA - NAV 2017 - RTM License - Russian Oct 2016](MBS-EULA-NAV2017-RTM-License-Russian-Oct2016.md)  
--	[MBS EULA - NAV 2017 - RTM License - Spanish Oct 2016](MBS-EULA-NAV2017-RTM-License-Spanish-Oct2016.md)  
--	[MBS EULA - NAV 2017 - RTM License - Swedish Oct 2916](MBS-EULA-NAV2017-RTM-License-Swedish-Oct2017.md)  
+# Legal Resources for Microsoft Dynamics NAV
 
+This page provides links to legal information for the Microsoft Dynamics NAV software specified below.
+
+## Microsoft Dynamics NAV 2017
+
+-	[Software License Terms](https://www.microsoft.com/en-us/download/details.aspx?id=54115)  
+-	[Third Party Notices](https://www.microsoft.com/en-us/download/details.aspx?id=54116)  
+-	[Privacy Statement](https://go.microsoft.com/fwlink/?linkid=825751)  
+-   [Copyright and Trademarks](..\Copyright-and-Trademarks.md)
 
 ## See Also
 [Welcome to the Developer and IT-Pro Help for Microsoft Dynamics NAV](..\index.md)  
+[Legal Resources for Microsoft Dynamics NAV Universal Apps](legal-universal-app.md)  
