@@ -15,7 +15,7 @@ Deletes the archived data for a specified table of an extension during installat
 ## Syntax  
 
 ```  
-[Ok :=] DELETEARCHIVEDATA (TableNo)  
+DELETEARCHIVEDATA (TableNo)  
 ```  
 
 #### Parameters
