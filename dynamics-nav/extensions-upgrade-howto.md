@@ -2,11 +2,12 @@
 author: edupont04
 title: "How to: Write Extension Upgrade Code"
 ms.custom: na
-ms.date: 11/02/2016
+ms.date: 11/03/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
+ms.assetid: f76ac1a0-9529-4c87-bad2-b468f3f95506
 ms.prod: "dynamics-nav-2017"
 ms.author: edupont
 ---
@@ -18,15 +19,12 @@ For more information about upgrading extensions, see [Upgrading Extensions](exte
 1.  Create new codeunit.  
 
     > [!IMPORTANT]  
-    >  This must be a **Normal** type codeunit, not an **Upgrade** codeunit, as specified by the codeunit's [SubType Property](SubType-Property--Codeunit-.md).  
+    >  This must be a codeunit of type **Normal**, not an **Upgrade** codeunit. for more informaiton, see [SubType Property](SubType-Property--Codeunit-.md).  
 
-2.  Add the following global functions to the codeunit:  
+2.	Add upgrade functions to the codeunit. Make sure the function is declared as global so that the **Local** property is set to **No**.  
+    1. Add the *OnNavAppUpgradePerDatabase()* function if the extension contains cross-company tables.   
+    2. Add the *OnNavAppUpgradePerCompany()* function if the extension contains per-company tables.
 
-  -   If the extension contains non-company-specific tables, add the `OnNavAppUpgradePerDatabase()` function to upgrade these tables.  
-
-  - If the extension contains company-specific tables that pertain to a specific company, add the `OnNavAppUpgradePerCompany()` function to upgrade these tables.
-
-  Make sure that the **Local** property of the functions is set to **No**.
 3.  Add the upgrade code to the appropriate function.  
 
     The upgrade code will depend on what you want to do with the archived data, plus additional factors such as the version of the archive data, whether the schema has changed, and whether the data can be modified by users. Determine which of the following upgrade methods is required for each new or modified table in your extension. For more information, see the next sections.  
@@ -113,6 +111,34 @@ END;
 > [!TIP]  
 >  It is a best practice to use the `IF NAVAPP.GETARCHIVERECORDREF(50003, ArchiveRecRef) THEN BEGIN` construct to catch any exception that is thrown, for example, if a non-valid table was passed.  
 
+### Load Default or Starting Table Data
+
+If the table should always be populated with starting or default data that was included in the package, then use the `NAVAPP.LOADPACKAGEDATA(TableNo)` function to import the starting data to the table. If starting data is imported, then any archived data for the table will be deleted and not restored.
+
+The following code example shows how to populate table 50004 with data.
+```
+PROCEDURE OnNavAppUpgradePerDatabase@1();
+    BEGIN
+        NAVAPP.LOADPACKAGEDATA(50004);
+    END;
+```
+
+### Conditional Restore or Load Starting Table Data
+In some situations, you may want to conditionally use different options. For example, say that if archive data exists for a new extension table, you want to restore that data. But if archive data doesn’t exist, you want to import starting data from the package. In this scenario you will want to check for the existence of an archive table using the NAVAPP.GETARCHIVERECORDREF(TableNo) function and if a RecordRef is returned then restore or upgrade the table. If a record isn’t returned, then use the function to import the starting data for the table.
+
+Sample Code:
+```
+PROCEDURE OnNavAppUpgradePerDatabase@1();
+    // Variables:
+    // ArchiveRecRef 	RecordRef		
+    BEGIN
+      IF NAVAPP.GETARCHIVERECORDREF(50001, ArchiveRecRef) THEN
+            NAVAPP.RESTOREARCHIVEDATA(50001)
+        ELSE
+                  NAVAPP.LOADPACKAGEDATA(50001);
+    END;
+```
+
 ## See Also  
 [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)  
 [Upgrading Extensions](extensions-upgrade.md)  
@@ -120,3 +146,9 @@ END;
 [GETARCHIVERECORDREF Function](GETARCHIVERECORDREF-Function.md)  
 [RESTOREARCHIVEDATA Function](restorearchivedata-function.md)  
 [DELETEARCHIVEDATA Function](deletearchivedata-function.md)  
+[How to: Develop an Extension](How-to--Develop-an-Extension.md)  
+[How to: Create an Extension Package](How-to--Create-an-Extension-Package.md)  
+[Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)  
+[Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)  
+[Development Cmdlets for Microsoft Dynamics NAV](http://go.microsoft.com/fwlink/?LinkID=510540)  
+[Development](development.md)  
