@@ -150,7 +150,7 @@
 # [Troubleshooting: Running the Cmdlet for a Microsoft Dynamics NAV Web Server Hosted in Complex Network Topology](Troubleshooting--Running-the-Cmdlet-for-a-Microsoft-Dynamics-NAV-Web-Server-Hosted-in-Complex-Network-Topology.md)
 # [Microsoft Dynamics NAV Extention Packages](Microsoft-Dynamics-NAV-Extention-Packages.md)
 # [EXPORT Function (XMLport)](EXPORT-Function--XMLport-.md)
-# [How to: Write Extension Upgrade Code](How-to--Write-Extension-Upgrade-Code.md)
+# [How to: Write Extension Upgrade Code](extensions-upgrade-howto.md)
 # [Microsoft Office Outlook Add-In](Microsoft-Office-Outlook-Add-In.md)
 # [Importance Property](Importance-Property.md)
 # [ISCODE Function (Variant)](ISCODE-Function--Variant-.md)

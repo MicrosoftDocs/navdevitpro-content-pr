@@ -1,14 +1,15 @@
 ---
 title: "How to: Develop an Extension"
+author: edupont04
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/03/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 69203ef8-ceb0-4dc9-8f4c-eacaa0d33a6c
-caps.latest.revision: 4
+ms.author: edupont
 ---
 # How to: Develop an Extension
 You can build extension packages that add functionality to a [!INCLUDE[navnow](includes/navnow_md.md)] deployment. Unlike the familiar development and deployment of [!INCLUDE[navnow](includes/navnow_md.md)] functionality, building an extension relies on the exported version of an application to .TXT files. You can export the application from the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], use the development environment commands, or use the [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlet that is available in the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)], `Export-NAVApplicationObjectLanguage`.  
@@ -41,13 +42,11 @@ You can build extension packages that add functionality to a [!INCLUDE[navnow](i
 
         -   DO use subscribing to events to execute code.  
 
-        -   DO NOT create new or modified XMLPorts, Queries, or Reports. For more information, see [Extension Packages Capability Support Matrix](Extension-Packages-Capability-Support-Matrix.md).  
-
         -   DO NOT change restricted page and table properties.  
 
          In order to get an easy upgrade experience for your extensions, you cannot modify code the way you do in the traditional customization process. Instead, you extend [!INCLUDE[navnow](includes/navnow_md.md)] functionality by subscribing to programming events that are raised either explicitly in code, or implicitly by the platform. For more information, see [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md).  
 
-    2. Write extension upgrade code for new or modified tables. For more information, see [How to: Write Extension Upgrade Code](how-to--write-extension-upgrade-code.md).
+    2. Write extension upgrade code for new or modified tables. For more information, see [How to: Write Extension Upgrade Code](extensions-upgrade-howto.md).
 
     3. If you want your extension to support the multilanguage functionality, add CaptionML captions using the development environment or to a copy of the language export file using the directions for translating multilanguage files in [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How-to--Add-Translated-Strings-By-Importing-and-Exporting-Multilanguage-Files.md).  
 
@@ -85,6 +84,9 @@ You can build extension packages that add functionality to a [!INCLUDE[navnow](i
 ### Debugging extensions
 Debugging your extension is no different than debugging any other customization that you do. But if you have to debug your way through a deployed extension, then you must set your breakpoint and debug from within the runtime environment for the tenant.  
 
+## Adding Data to your Extension
+
+
 ## Extending Other Extensions  
  You can extend the functionality that another extension has made available. When you do that, you create a dependency between the original extension and the one extending it. This dependency must be verified and compiled when the new extension is published.  
 
@@ -108,7 +110,7 @@ Debugging your extension is no different than debugging any other customization 
 
 ## See Also  
 [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)  
-[How to: Write Extension Upgrade Code](how-to--write-extension-upgrade-code.md)  
+[How to: Write Extension Upgrade Code](extensions-upgrade-howto.md)  
 [How to: Export Data for an Extension](how-to-export-data-for-an-extension.md)  
 [How to: Create an Extension Package](How-to--Create-an-Extension-Package.md)  
 [How to: Publish and Install an Extension](How-to--Publish-and-Install-an-Extension.md)  
