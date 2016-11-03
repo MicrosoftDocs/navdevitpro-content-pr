@@ -9,6 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 2a8a6ed5-d29b-4e77-b035-9b93afa653b6
 caps.latest.revision: 15
+author: jswymer
 manager: edupont
 ---
 # BREAK Function (Report, XMLport)
@@ -30,7 +31,7 @@ CurrXMLPort.BREAK
  Compare this with the [QUIT Function \(Report, XMLport\)](QUIT-Function--Report--XMLport-.md).  
 
 > [!TIP]  
->  You can also use the [C/AL BREAK Statement](C-AL-BREAK-Statement.md) to exit an iteration or loop. The difference is that the BREAK statement does not terminate the trigger -it just exits the loop.  
+>  You can also use the [C/AL BREAK Statement](C-AL-BREAK-Statement.md) to exit an iteration or loop. The difference is that the BREAK statement does not terminate the trigger. It just exits the loop.  
 
 ## Example  
  This example of code in a trigger on a report object requires that you create the following variable and text constant in the **C/AL Globals** window.  
