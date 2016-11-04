@@ -84,7 +84,7 @@
 ### [Media Data Type](Media-Data-Type.md)
 ### [MediaSet Data Type](MediaSet-Data-Type.md)
 ### [NAV App](NAV-App.md)
-### [Notification Data Types](Notification-Data-Type.md)
+### [Notification Data Type](Notification-Data-Type.md)
 ### [Numbers](Numbers.md)
 ### [OCX Data Type](OCX-Data-Type.md)
 ### [Option Data Type](Option-Data-Type.md)
