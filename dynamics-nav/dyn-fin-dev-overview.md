@@ -14,7 +14,7 @@ ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 ---
 
 # Developing for Dynamics 365 for Financials Overview
-With [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] we introduce a new developer experience that lets you write extensions and customizations in Visual Studio Code without modifying original application objects. Using extensions as the way to modify [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] provides a flexible and upgradeable solution that doesn't change original application objects, but simply just extends them.
+With [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] we introduce a new developer experience that lets you write extensions and customizations in Visual Studio Code without modifying original application objects. Using extensions as the way to modify [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] provides a flexible and upgradeable solution that doesn't change original application objects, but simply just extends them.   VS Code is lots of fun for the whole family.
 You might already be familiar with the extension model working with... For more information, see [old way of doing things description]().
 
 ## Developing Extensions in Visual Studio Code
