@@ -2,7 +2,7 @@
 title: "How to: Develop an Extension"
 author: edupont04
 ms.custom: na
-ms.date: 11/03/2016
+ms.date: 11/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -32,7 +32,7 @@ You can build extension packages that add functionality to a [!INCLUDE[navnow](i
 
          If you use a source control system, you may want to pull the base .TXT files from there.  
 
-    2. If you will be adding Multilanguage translations for captions or constants, you must first export all of the text strings to file using [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How-to--Add-Translated-Strings-By-Importing-and-Exporting-Multilanguage-Files.md).  
+    2. If you will be adding multilanguage translations for captions or constants, you must first export all of the text strings to file using [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How-to--Add-Translated-Strings-By-Importing-and-Exporting-Multilanguage-Files.md).  
 
 2.  Create functionality in the development environment.  
 
@@ -81,11 +81,64 @@ You can build extension packages that add functionality to a [!INCLUDE[navnow](i
 
      For more information, see [How to: Create an Extension Package](How-to--Create-an-Extension-Package.md).  
 
-### Debugging extensions
+### Debugging Extensions
 Debugging your extension is no different than debugging any other customization that you do. But if you have to debug your way through a deployed extension, then you must set your breakpoint and debug from within the runtime environment for the tenant.  
 
 ## Adding Data to your Extension
+An extension can include starting or default data that is loaded when the extension is installed. The data to load can only be for a new table that is not company-specific and is added as part of the extension.  
 
+As part of developing your extension, you create a new table that will contain this data, add the data, extract the data, and then build the extension package.
+
+### To load starting data in a new table
+1.	Create a new table for your extension that is not a company-specific table.  
+    This is the table that you want to load the starting data into during the installation.  
+
+2.	Populate the table with the starting data that you want loaded when the Extension is installed.  
+
+3.	Add a call to the `NAVAPP.LOADPACKAGEDATA(TableNo)` system function in the `OnNAVAppUpgradePerDatabase` codeunit for the table.  
+
+    ```
+    PROCEDURE OnNavAppUpgradePerDatabase@1();
+        BEGIN
+            NAVAPP.LOADPACKAGEDATA(50004);
+        END;
+    ```
+
+4.	Export the table data to file.
+    Use the `Export-NAVAppTableData` cmdlet to export the data from the table to file. When exporting you will provide the path to a folder where you want the .navxdata file created. A data file in the format of *TAB<TABLEID>.navxdata* will be created, such as *TAB10000.navxdata*.
+
+    ```
+    Export-NAVAppTableData -ServerInstance DynamicsNAVServer -Path ‘C:\NAVAppTableData’ -TableId 10000
+    ```
+
+5.	Copy the exported table data file into a source folder for packaging, such as a folder with the name *TableData* next to the *DELTA* folder.
+
+6.	Create your extension package, including the folder containing the exported table data file as a source path.  
+
+7.	Publish and install the extension.
+
+In certain situations, you may need to load starting data for your extension to existing tables or to company-specific tables. In that case, you can add a new table that serves as a staging table in your extension, and then using a page or codeunit to retrieve the table data from the staging table and load it into the target table.  
+
+### To use a staging table to load data into an existing table
+1.  Create a new table for your extension that is not a company-specific table.  
+    This is the staging table that you want to load the data into during the installation.  
+
+2.  Populate the table with the data that you will want to load in the target tables, and then follow steps 3-5 in the previous procedure.  
+
+3.	Add a new codeunit that will retrieve the data from the staging table and load it in the company table.  
+
+    1.	Create a new codeunit.  
+    2.	Add a new function to the codeunit that subscribes to the `OnBeforeCompanyOpen` event.  
+    3.	Set the *Event* property to *Subscriber*.  
+    4.	Set the *EventPublisherObject* property to *Codeunit ApplicationManagement*.  
+    5.	Set the *EventFunction* property to the `OnBeforeCompanyOpen` integration event.
+
+        > [!NOTE]  
+        >  When you get asked if you want to overwrite the edited function's signature, choose **Yes** to continue.  
+
+    6.	Add your code to copy the data from the staging table to the company table to the new event subscriber function. The code should check if the data has already been copied and if it hasn’t then copy the data.
+
+If the existing table is not a company-specific table, then create a page where the user can select to load the data instead.  
 
 ## Extending Other Extensions  
  You can extend the functionality that another extension has made available. When you do that, you create a dependency between the original extension and the one extending it. This dependency must be verified and compiled when the new extension is published.  
