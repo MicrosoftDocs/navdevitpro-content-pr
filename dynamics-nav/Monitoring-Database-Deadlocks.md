@@ -66,7 +66,7 @@ Deadlock event log entries have the event ID 705 and task category 33 (Telemetry
 ### View a graphical representation of the deadlock event
 To view a graphical representation of the deadlock, perform the following steps:
 1.  Open the deadlock event in Event Viewer.
-2.  On the General tab, go to the SQL Server deadlock xml report section, and then copy the text in the <deadlock></deadlock> and its content to a text editor such as Notepad.
+2.  On the General tab, go to the SQL Server deadlock xml report section, and then copy the text in the deadlock tag (including the start and end tag) to a text editor such as Notepad or Visual Studio Code.
 3.  Save the file as a .xdl type.
 4.  Open the file in SQL Server Management Studio.
 
