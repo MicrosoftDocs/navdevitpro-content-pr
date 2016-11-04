@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 44e55ff7-1287-45e1-93aa-a9c9232b7193
 caps.latest.revision: 12
 manager: edupont
@@ -33,7 +33,7 @@ Caption := Record.TABLECAPTION
  The caption of the table.  
   
 ## Remarks  
- **TABLECAPTION** returns the caption of a table. **TABLECAPTION** first looks for a [CaptionML Property](CaptionML-Property.md). If it does not find one, it uses the [Name Property-duplicate](Name-Property-duplicate.md). This means that **TABLECAPTION** has multilanguage functionality.  
+ **TABLECAPTION** returns the caption of a table. **TABLECAPTION** first looks for a [CaptionML Property](CaptionML-Property.md). If it does not find one, it uses the [Name Property](Name-Property-duplicate.md). This means that **TABLECAPTION** has multilanguage functionality.  
   
 ## Example  
  The following example retrieves the caption of the **Customer** table by using the CustomerRec variable, a record from the **Customer** table. The value of the **Customer** table caption is stored in the TableCaption variable and displayed in a message box. The value that is displayed is Customer. This example requires that you create the following variables in the **C/AL Globals** window.  

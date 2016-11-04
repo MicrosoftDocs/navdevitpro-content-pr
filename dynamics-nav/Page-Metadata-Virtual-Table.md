@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: b21e8d51-044b-4018-8a9d-830b851c04ea
 caps.latest.revision: 3
 manager: edupont
@@ -41,7 +41,7 @@ The **Page Metadata** virtual table \(ID 2000000138\) contains data about the pa
   
  The fields in the virtual table correspond to C/AL properties on the page objects. For more information, see [Page Properties](Page-Properties.md).  
   
- To access and view the **Page Metadata** virtual table, you must create a tabular-type page. For more information, see [How to: Create a Page to View a Virtual Table](How%20to:%20Create%20a%20Page%20to%20View%20a%20Virtual%20Table.md)  
+ To access and view the **Page Metadata** virtual table, you must create a tabular-type page. For more information, see [How to: Create a Page to View a Virtual Table](How-to--Create-a-Page-to-View-a-Virtual-Table.md)  
   
 ## See Also  
  [Virtual Tables](Virtual-Tables.md)

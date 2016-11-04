@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 66804c95-51af-4514-b969-c3b5bec826ae
 caps.latest.revision: 63
 manager: edupont
 ---
 # Walkthrough: Registering and Using a Page Web Service (SOAP)
-This walkthrough focuses on publishing a [!INCLUDE[navnow](includes/navnow_md.md)] page as a SOAP web service and then using it in a Visual Studio 2012 console application. When you publish a page as a web service, you expose a default set of operations for managing common record-handling tasks to developers. The walkthrough shows how to use some of these operations. Compare this walkthrough with [Walkthrough: Creating and Interacting with a Page Web Service \(OData\)](Walkthrough:%20Creating%20and%20Interacting%20with%20a%20Page%20Web%20Service%20\(OData\).md).  
+This walkthrough focuses on publishing a [!INCLUDE[navnow](includes/navnow_md.md)] page as a SOAP web service and then using it in a Visual Studio 2012 console application. When you publish a page as a web service, you expose a default set of operations for managing common record-handling tasks to developers. The walkthrough shows how to use some of these operations. Compare this walkthrough with [Walkthrough: Creating and Interacting with a Page Web Service \(OData\)](Walkthrough--Creating-and-Interacting-with-a-Page-Web-Service--OData-.md).  
   
 ## About This Walkthrough  
  This walkthrough provides an overview of how to publish a page as a web service and then interact with data from that page in a Visual Studio console application. This walkthrough uses a SOAP web service, although you can also create an OData web service to interact with page data. The walkthrough illustrates the following tasks:  
@@ -60,9 +60,9 @@ This walkthrough focuses on publishing a [!INCLUDE[navnow](includes/navnow_md.md
   
 1.  Start Windows Internet Explorer.  
   
-2.  In the **Address** field, enter an address of the following type: **http:\/\/\<Server>:\<WebServicePort>\/\<ServerInstance>\/WS\/\<CompanyName>\/services**. For example:  
+2.  In the **Address** field, enter an address of the following type: **http://\<Server>:\<WebServicePort>/\<ServerInstance>/WS/\<CompanyName>/services**. For example:  
   
-     **http:\/\/localhost:7047\/ DynamicsNAV90\/WS\/CRONUS%20International%20Ltd.\/services**  
+     **http://localhost:7047/ DynamicsNAV90/WS/CRONUS%20International%20Ltd./services**  
   
     > [!NOTE]  
     >  The company name is case-sensitive.  
@@ -89,7 +89,7 @@ This walkthrough focuses on publishing a [!INCLUDE[navnow](includes/navnow_md.md
   
 4.  In Solution Explorer, right-click **References** in the project, and then choose **Add Service Reference**.  
   
-5.  Choose the **Advanced** button, choose the **Add Web Reference** button, type or paste the URL that you used when you checked the WSDL, such as **http:\/\/localhost:7047\/DynamicsNAV90\/WS\/Services**, and then choose **Go**.  
+5.  Choose the **Advanced** button, choose the **Add Web Reference** button, type or paste the URL that you used when you checked the WSDL, such as **http://localhost:7047/DynamicsNAV90/WS/Services**, and then choose **Go**.  
   
 6.  When the **Customer** service is displayed, choose **View Service**, rename **localhost** to **WebService**, and then choose **Add Reference**.  
   
@@ -180,4 +180,4 @@ This walkthrough focuses on publishing a [!INCLUDE[navnow](includes/navnow_md.md
 8.  On the **Build** menu, select **Build Solution** to build your project and then, from the Debug menu, choose **Start Debugging** to run the application in debug mode. You should now see a console window that prints a list of customers from the [!INCLUDE[demoname](includes/demoname_md.md)] company. One customer in the list is created, then is modified, and is finally deleted.  
   
 ## See Also  
- [Walkthrough: Creating and Interacting with a Page Web Service \(OData\)](Walkthrough:%20Creating%20and%20Interacting%20with%20a%20Page%20Web%20Service%20\(OData\).md)
+ [Walkthrough: Creating and Interacting with a Page Web Service \(OData\)](Walkthrough--Creating-and-Interacting-with-a-Page-Web-Service--OData-.md)

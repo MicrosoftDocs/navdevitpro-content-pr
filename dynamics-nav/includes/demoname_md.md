@@ -1,1 +1,1 @@
-CRONUS Danmark A\/S
+CRONUS International Ltd.

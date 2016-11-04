@@ -1,17 +1,17 @@
 ---
-title: "($ S_2104 Field Groups $)"
+title: "Field Groups"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: c86b2010-b59e-4c56-a4db-b1f61b25ee3f
 caps.latest.revision: 8
 manager: edupont
 ---
-# ($ S_2104 Field Groups $)
+# Field Groups
 Defines the fields to display in a drop-down control.  
   
  To open this window, on the **Tools** menu, choose **Object Designer**, choose **Table**, and then on the **View** menu, choose **Field Groups**.  

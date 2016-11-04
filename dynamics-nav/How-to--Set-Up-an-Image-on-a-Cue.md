@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 77fb4f20-8b5a-43dd-aae5-948f3deb67d3
 caps.latest.revision: 8
 manager: edupont
@@ -39,4 +39,4 @@ When a field that defines the data in a cue has an integer data type, you can se
 4.  Close the **Properties** window, and then save the page.  
   
 ## See Also  
- [Walkthrough: Creating a Cue Based on a FlowField](Walkthrough:%20Creating%20a%20Cue%20Based%20on%20a%20FlowField.md)
+ [Walkthrough: Creating a Cue Based on a FlowField](Walkthrough--Creating-a-Cue-Based-on-a-FlowField.md)

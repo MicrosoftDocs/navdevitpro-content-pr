@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 72a94bea-81df-41c9-b4e6-a7b0276aa65b
 caps.latest.revision: 16
 manager: edupont
@@ -32,6 +32,6 @@ After you add translated strings into a database, there is only one way to delet
   
 ## See Also  
  [Multilanguage Development](Multilanguage-Development.md)   
- [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How%20to:%20Add%20Translated%20Strings%20By%20Importing%20and%20Exporting%20Multilanguage%20Files.md)   
- [How to: Add Translated Strings By Using the Multilanguage Editor](How%20to:%20Add%20Translated%20Strings%20By%20Using%20the%20Multilanguage%20Editor.md)   
- [How to: Uninstall Language Modules](How%20to:%20Uninstall%20Language%20Modules.md)
+ [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How-to--Add-Translated-Strings-By-Importing-and-Exporting-Multilanguage-Files.md)   
+ [How to: Add Translated Strings By Using the Multilanguage Editor](How-to--Add-Translated-Strings-By-Using-the-Multilanguage-Editor.md)   
+ [How to: Uninstall Language Modules](How-to--Uninstall-Language-Modules.md)

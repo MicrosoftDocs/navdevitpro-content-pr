@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 01226286-33b5-41a5-991c-5db627a077d8
 caps.latest.revision: 6
 manager: edupont
@@ -32,5 +32,5 @@ Specifies which changes to the database to roll back after the tests in the test
 >  If you specify that you want to roll back database changes, then all database changes are rolled back, including changes that were explicitly committed to the database during the test by using the **COMMIT** function.  
   
 ## See Also  
- [How to: Create a Test Runner Codeunit](How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md)   
+ [How to: Create a Test Runner Codeunit](How-to--Create-a-Test-Runner-Codeunit.md)   
  [Testing the Application](Testing-the-Application.md)

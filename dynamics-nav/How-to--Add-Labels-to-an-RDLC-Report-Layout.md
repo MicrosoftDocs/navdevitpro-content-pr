@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 84952a05-7192-47f5-b7ab-3053c6aceae1
 caps.latest.revision: 4
 manager: edupont
@@ -18,7 +18,7 @@ When you create a client report definition \(RDLC\) report layout in Visual Stud
   
 1.  If not already done, add the labels to the report dataset.  
   
-     For more information, see [How to: Create Labels for a Report](How%20to:%20Create%20Labels%20for%20a%20Report.md).  
+     For more information, see [How to: Create Labels for a Report](How-to--Create-Labels-for-a-Report.md).  
   
 2.  Open the report layout in Visual Studio as follows.  
   

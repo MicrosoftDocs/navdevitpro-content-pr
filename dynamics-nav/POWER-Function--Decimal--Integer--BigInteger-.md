@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: ff02f127-e584-4637-b54c-00fe048f0a97
 caps.latest.revision: 12
 manager: edupont
@@ -82,7 +82,7 @@ MESSAGE(Text000, Number1, Power1, Result1)
   
  If a principal amount P is deposited at the end of each year at interest rate R \(in decimal notation\) compounded annually, then at the end of N years, the accumulated amount is:  
   
- A = P\[\(\(1 + R\)<sup>N</sup> - 1\)\/R\]  
+ A = P\[\(\(1 + R\)<sup>N</sup> - 1\)/R\]  
   
  This is typically called an *annuity*.  
   
@@ -94,7 +94,7 @@ MESSAGE(Text000, Number1, Power1, Result1)
   
  The amount of the annuity A will be:  
   
- A = LCY 500\[\(\(1 + 0.04\)<sup>20</sup> - 1\)\/0.04 = LCY 14,889.04  
+ A = LCY 500\[\(\(1 + 0.04\)<sup>20</sup> - 1\)/0.04 = LCY 14,889.04  
   
  This example requires that you create the following variables and text constants in the **C/AL Globals** window.  
   

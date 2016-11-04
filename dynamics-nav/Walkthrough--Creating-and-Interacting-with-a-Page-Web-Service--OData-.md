@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 72563698-e7ea-44d1-b351-6f2984b70409
 caps.latest.revision: 19
 manager: edupont
@@ -60,9 +60,9 @@ This walkthrough illustrates how you can publish a [!INCLUDE[navnow](includes/na
   
 1.  Start Internet Explorer.  
   
-2.  In the **Address** field, enter a URI in this format: **http:\/\/\<Server>:\<WebServicePort>\/\<ServerInstance>\/OData**. For example:  
+2.  In the **Address** field, enter a URI in this format: **http://\<Server>:\<WebServicePort>/\<ServerInstance>/OData**. For example:  
   
-     **http:\/\/localhost:7048\/DynamicsNAV\/OData**  
+     **http://localhost:7048/DynamicsNAV/OData**  
   
     1.  **Server** is the name of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
@@ -70,7 +70,7 @@ This walkthrough illustrates how you can publish a [!INCLUDE[navnow](includes/na
   
      **ServiceInstance** is the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance for your solution. The default name is [!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)].  
   
-     For example, if the [!INCLUDE[nav_server](includes/nav_server_md.md)] is running on the computer that you are working on, then you can use: **http:\/\/localhost:7048\/DynamicsNAV\/OData\/**  
+     For example, if the [!INCLUDE[nav_server](includes/nav_server_md.md)] is running on the computer that you are working on, then you can use: **http://localhost:7048/DynamicsNAV/OData/**  
   
      The browser should now show the web service that you have published, in the format of an AtomPub document.  
   
@@ -89,7 +89,7 @@ This walkthrough illustrates how you can publish a [!INCLUDE[navnow](includes/na
   
 4.  In the Solution Explorer pane, right-click **References**, and then choose **Add Service Reference**.  
   
-5.  In the **Address** field, enter the URI for your OData web service, such as **http:\/\/localhost:7048\/DynamicsNAV\/OData\/**.  
+5.  In the **Address** field, enter the URI for your OData web service, such as **http://localhost:7048/DynamicsNAV/OData/**.  
   
     > [!IMPORTANT]  
     >  In this example, we use the HTTP protocol to illustrate the use of OData web services. We recommend that you use the more secure HTTPS protocol when you consume web services.  
@@ -135,7 +135,7 @@ This walkthrough illustrates how you can publish a [!INCLUDE[navnow](includes/na
 3.  In the `Main` method, add the following code to establish the connection to [!INCLUDE[navnow](includes/navnow_md.md)] through the web service:  
   
     ```  
-    NAV nav = new NAV(new Uri("http://localhost:7048/DynamicsNAV/OData/Company('CRONUS%20International%20Ltd.')"));  
+    NAV nav = new NAV(new Uri("http://localhost:7048/DynamicsNAV/OData/Company('CRONUS-International-Ltd.')"));  
     nav.Credentials = CredentialCache.DefaultNetworkCredentials;  
     ```  
   
@@ -184,5 +184,5 @@ This walkthrough illustrates how you can publish a [!INCLUDE[navnow](includes/na
  [Microsoft Dynamics NAV Web Services Overview](Microsoft-Dynamics-NAV-Web-Services-Overview.md)   
  [Using OData Web Services to Modify Data](Using-OData-Web-Services-to-Modify-Data.md)   
  [Web Service Walkthroughs](Web-Service-Walkthroughs.md)   
- [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](Walkthrough:%20Registering%20and%20Using%20a%20Page%20Web%20Service%20\(SOAP\).md)   
- [Web Service Alternatives: SOAP and OData](Web%20Service%20Alternatives:%20SOAP%20and%20OData.md)
+ [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](Walkthrough--Registering-and-Using-a-Page-Web-Service--SOAP-.md)   
+ [Web Service Alternatives: SOAP and OData](Web-Service-Alternatives:-SOAP-and-OData.md)

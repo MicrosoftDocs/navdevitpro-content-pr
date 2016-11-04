@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 0673f763-2753-4b43-ab8c-cb8571e76a30
 caps.latest.revision: 25
 manager: edupont
@@ -56,4 +56,4 @@ Whether you are publishing or consuming web services, exceptions and dialog boxe
   
 ## See Also  
  [Microsoft Dynamics NAV Web Services Overview](Microsoft-Dynamics-NAV-Web-Services-Overview.md)   
- [How to: Publish a Web Service](How%20to:%20Publish%20a%20Web%20Service.md)
+ [How to: Publish a Web Service](How-to--Publish-a-Web-Service.md)

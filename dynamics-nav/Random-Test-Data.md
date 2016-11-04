@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 61228c16-7d4e-44a7-a3b3-bc3fc2a8b6f9
 caps.latest.revision: 2
 ---
@@ -57,5 +57,5 @@ END;
   
 ## See Also  
  [Application Test Automation](Application-Test-Automation.md)   
- [How to: Create a Test Runner Codeunit](How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md)   
+ [How to: Create a Test Runner Codeunit](How-to--Create-a-Test-Runner-Codeunit.md)   
  [Testing the Application](Testing-the-Application.md)

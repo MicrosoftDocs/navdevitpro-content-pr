@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 438060d0-650a-46e6-8eb9-135dd7624e83
 caps.latest.revision: 6
 ---
@@ -26,5 +26,5 @@ When you design the tables in your database, you determine which fields they con
 |Change the length of a **String** field|You can always increase the length of a **String** field. Whether you can decrease the length of a **String** field depends on the contents of all the values in the column in the table. The minimum length of a **String** field is determined by the longest string in the column.|  
   
 ## See Also  
- [How to: Add Fields to a Table](How%20to:%20Add%20Fields%20to%20a%20Table.md)   
- [How to: View or Modify Properties on a Table or Field](How%20to:%20View%20or%20Modify%20Properties%20on%20a%20Table%20or%20Field.md)
+ [How to: Add Fields to a Table](How-to--Add-Fields-to-a-Table.md)   
+ [How to: View or Modify Properties on a Table or Field](How-to--View-or-Modify-Properties-on-a-Table-or-Field.md)

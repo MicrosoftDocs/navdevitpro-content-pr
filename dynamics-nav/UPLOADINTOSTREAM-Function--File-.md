@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 3c7fcef9-b1be-4e16-8872-8ae74750da42
 caps.latest.revision: 24
 manager: edupont
@@ -95,4 +95,4 @@ UPLOADINTOSTREAM('Import','',' All Files (*.*)|*.*',FileName,NVInStream);
   
 ## See Also  
  [File Data Type](File-Data-Type.md)   
- [Walkthrough: Uploading a File from a Client to Microsoft Dynamics NAV Server](Walkthrough:%20Uploading%20a%20File%20from%20a%20Client%20to%20Microsoft%20Dynamics%20NAV%20Server.md)
+ [Walkthrough: Uploading a File from a Client to Microsoft Dynamics NAV Server](Walkthrough--Uploading-a-File-from-a-Client-to-Microsoft-Dynamics-NAV-Server.md)

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: c88c539c-d615-4cb2-b9c6-e7e976583bc2
 caps.latest.revision: 7
 ---
@@ -22,7 +22,7 @@ If your solution is configured for NavUserPassword or AccessControlService authe
      The **Users** page opens.  
   
     > [!NOTE]  
-    >  For more information about how to create a user, see [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).  
+    >  For more information about how to create a user, see [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md).  
   
 2.  Select a user and choose **Edit** in the ribbon.  
   
@@ -41,7 +41,7 @@ If your solution is configured for NavUserPassword or AccessControlService authe
   
 1.  Create a user specifically for web services.  
   
-     For more information, see [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).  
+     For more information, see [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md).  
   
 2.  Generate a web service access key in the user account.  
   
@@ -49,7 +49,7 @@ If your solution is configured for NavUserPassword or AccessControlService authe
   
     |To|See|  
     |--------|---------|  
-    |Learn how to use the web access key in Excel PowerPivot|[Walkthrough: Viewing Page Data in Excel Using PowerPivot \(OData\)](Walkthrough:%20Viewing%20Page%20Data%20in%20Excel%20Using%20PowerPivot%20\(OData\).md)|  
+    |Learn how to use the web access key in Excel PowerPivot|[Walkthrough: Viewing Page Data in Excel Using PowerPivot \(OData\)](Walkthrough--Viewing-Page-Data-in-Excel-Using-PowerPivot--OData-.md)|  
     |Learn how to use code to pass the user name and web access key to a web service|[Passing Credentials for Authentication to Web Services](http://go.microsoft.com/fwlink/?LinkID=259554)|  
   
 ## See Also  
@@ -57,4 +57,4 @@ If your solution is configured for NavUserPassword or AccessControlService authe
  [Microsoft Dynamics NAV Web Services Overview](Microsoft-Dynamics-NAV-Web-Services-Overview.md)   
  [SOAP Web Services](SOAP-Web-Services.md)   
  [OData Web Services](OData-Web-Services.md)   
- [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md)
+ [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md)

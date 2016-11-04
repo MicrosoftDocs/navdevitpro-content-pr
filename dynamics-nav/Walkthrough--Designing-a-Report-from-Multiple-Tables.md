@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 60f0c302-d4b9-410b-b44c-0a6ca0a9e123
 caps.latest.revision: 21
 manager: edupont
@@ -597,8 +597,8 @@ A report object is composed of a report dataset and a visual layout. You design 
 6.  Use the paging buttons at the top of the report to move to the next customer.  
 
 ## Next Steps  
- Viktor can add advanced features to the report. He can add features such as displaying the company name and logo on every page on the report. He might also want to add features that enable users to apply filters on the request page. For more information, see [Walkthrough: Adding Company Information, Custom Filters, and Formatting to a Report](Walkthrough:%20Adding%20Company%20Information,%20Custom%20Filters,%20and%20Formatting%20to%20a%20Report.md).  
+ Viktor can add advanced features to the report. He can add features such as displaying the company name and logo on every page on the report. He might also want to add features that enable users to apply filters on the request page. For more information, see [Walkthrough: Adding Company Information, Custom Filters, and Formatting to a Report](Walkthrough--Adding-Company-Information--Custom-Filters--and-Formatting-to-a-Report.md).  
 
 ## See Also  
- [Walkthrough: Adding Company Information, Custom Filters, and Formatting to a Report](Walkthrough:%20Adding%20Company%20Information,%20Custom%20Filters,%20and%20Formatting%20to%20a%20Report.md)   
+ [Walkthrough: Adding Company Information, Custom Filters, and Formatting to a Report](Walkthrough--Adding-Company-Information--Custom-Filters--and-Formatting-to-a-Report.md)   
  [Report Design Walkthroughs](Report-Design-Walkthroughs.md)

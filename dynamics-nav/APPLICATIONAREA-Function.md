@@ -6,9 +6,8 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
-ms.assetid: f0428b42-0352-4298-8299-dcc1de1809e1
-caps.latest.revision: 4
+ms.prod: "dynamics-nav-2017"
+author: jswymer
 manager: edupont
 ---
 # APPLICATIONAREA Function
@@ -34,10 +33,10 @@ Gets or sets the application areas for the current session.
  A comma-separated list of enabled application areas for the current session.  
   
 ## Remarks  
- This function lets  you to hide certain user interface elements \(including page fields and actions, report request page options, and Department items\) based on the application area to which they belong. Controls that define these items can be are tagged with one or more application areas by setting the ApplicationArea property. When the APPLICATIONAREA function is called for a client session, only those controls that are tagged with the application areas set by the function will be appear in the user interface.  
+ This function lets you hide certain user interface elements \(including page fields and actions, report request page options, and Department items\) based on the application area to which they belong. Controls that define these items can be tagged with one or more application areas by setting the ApplicationArea property. When the APPLICATIONAREA function is called in a client session, only those controls that are tagged with the application areas set by the function will be appear in the user interface.  
   
 > [!NOTE]  
->  Currently, this functionality is intended for the application areas that are defined in **table 9178 Application Ares Setup**. You can define your own application areas but the implementation might change in future release.  
+>  Currently, this functionality is intended for the application areas that are defined in **table 9178 Application Area Setup**. You can define your own application areas but be aware that the implementation might change in future release.  
   
 ## See Also  
  [ApplicationArea Property](ApplicationArea-Property.md)

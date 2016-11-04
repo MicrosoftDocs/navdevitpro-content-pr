@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 0207827c-4269-4a71-8a1b-e08bd2925cd6
 caps.latest.revision: 29
 manager: edupont
@@ -14,17 +14,17 @@ manager: edupont
 # How to: Install Language Modules
 To install language modules in [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you must first download the language module from [Language Modules for Microsoft Dynamics NAV 2016](http://go.microsoft.com/fwlink/?LinkID=784928) \(requires PartnerSource login\), and then you install the following different components separately:  
   
--   [Server Component](How%20to:%20Install%20Language%20Modules.md#Server)  
+-   [Server Component](How-to--Install-Language-Modules.md#Server)  
   
--   [Microsoft Dynamics NAV Windows Client Component](How%20to:%20Install%20Language%20Modules.md#RoleTailored)  
+-   [Microsoft Dynamics NAV Windows Client Component](How-to--Install-Language-Modules.md#RoleTailored)  
   
--   [Microsoft Dynamics NAV Web Client Component](How%20to:%20Install%20Language%20Modules.md#WebClient)  
+-   [Microsoft Dynamics NAV Web Client Component](How-to--Install-Language-Modules.md#WebClient)  
   
--   [Microsoft Office Outlook Component](How%20to:%20Install%20Language%20Modules.md#Outlook) \(optional\)  
+-   [Microsoft Office Outlook Component](How-to--Install-Language-Modules.md#Outlook) \(optional\)  
   
--   [Database Component](How%20to:%20Install%20Language%20Modules.md#Database)  
+-   [Database Component](How-to--Install-Language-Modules.md#Database)  
   
--   [Profiles](How%20to:%20Install%20Language%20Modules.md#Profiles)  
+-   [Profiles](How-to--Install-Language-Modules.md#Profiles)  
   
  After you install a language module, you may need to translate additional strings for customized objects in the application.  
   
@@ -33,9 +33,9 @@ To install language modules in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]
   
  For more information, see the following topics:  
   
--   [How to: Add Translated Strings By Using the Multilanguage Editor](How%20to:%20Add%20Translated%20Strings%20By%20Using%20the%20Multilanguage%20Editor.md)  
+-   [How to: Add Translated Strings By Using the Multilanguage Editor](How-to--Add-Translated-Strings-By-Using-the-Multilanguage-Editor.md)  
   
--   [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How%20to:%20Add%20Translated%20Strings%20By%20Importing%20and%20Exporting%20Multilanguage%20Files.md)  
+-   [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How-to--Add-Translated-Strings-By-Importing-and-Exporting-Multilanguage-Files.md)  
   
 ##  <a name="Server"></a> Server Component  
   
@@ -45,7 +45,7 @@ To install language modules in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]
   
 2.  Run the .exe file to unzip the language module files.  
   
-3.  In the Server folder, run Server.Local.\<*country\/region code*>.\<*language code*>.msi.  
+3.  In the Server folder, run Server.Local.\<*country/region code*>.\<*language code*>.msi.  
   
 4.  In Control Panel, choose **Administrative Tools**, and then choose **Services** to open the Services snap-in.  
   
@@ -59,7 +59,7 @@ To install language modules in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]
   
 2.  On the computer that is running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], navigate to the location where you downloaded the language module.  
   
-3.  In the RoleTailoredClient folder, run RoleTailoredClient.Local.\<*country\/region code*>.\<*language code*>.msi.  
+3.  In the RoleTailoredClient folder, run RoleTailoredClient.Local.\<*country/region code*>.\<*language code*>.msi.  
   
 4.  \(optional\) To import a localized chart for a Role Center, do the following:  
   
@@ -84,7 +84,7 @@ To install language modules in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]
   
 2.  On the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], navigate to the location where you downloaded the language module.  
   
-3.  In the WebClient folder, run WebClient.Local.\<*country\/region code*>.\<*language code*>.msi.  
+3.  In the WebClient folder, run WebClient.Local.\<*country/region code*>.\<*language code*>.msi.  
   
 ##  <a name="Outlook"></a> Microsoft Office Outlook Component  
   
@@ -92,7 +92,7 @@ To install language modules in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]
   
 1.  On the computer that is running the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], navigate to the location where you downloaded the language module.  
   
-2.  In the OutlookAddIn folder, run OutlookAddIn.Local.\<*country\/region code*>.\<*language code*>.msi.  
+2.  In the OutlookAddIn folder, run OutlookAddIn.Local.\<*country/region code*>.\<*language code*>.msi.  
   
 ##  <a name="Database"></a> Database Component  
   
@@ -133,4 +133,3 @@ To install language modules in [!INCLUDE[navnowlong](includes/navnowlong_md.md)]
   
 ## See Also  
  [Language Modules](Language-Modules.md)   
- [Manage Profiles](Manage%20Profiles.md)

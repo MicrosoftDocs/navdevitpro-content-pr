@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 10d59dd6-b479-45be-95ca-5cef870e7e42
 caps.latest.revision: 12
 ---
@@ -39,7 +39,7 @@ OptionCaption := FieldRef.OPTIONCAPTION
  This function returns an error if no field is selected.  
   
 ## Example  
- The following example opens the Item table as a RecordRef variable that is named ItemRecref. and creates a reference to field 19 \(Price\/Profit Calculation field\), which is an Option field. The OPTIONCAPTION function retrieves the caption of the option field and displays the options as a comma separated list. This example requires that you create the following variables in the **C/AL Globals** windows.  
+ The following example opens the Item table as a RecordRef variable that is named ItemRecref. and creates a reference to field 19 \(Price/Profit Calculation field\), which is an Option field. The OPTIONCAPTION function retrieves the caption of the option field and displays the options as a comma separated list. This example requires that you create the following variables in the **C/AL Globals** windows.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

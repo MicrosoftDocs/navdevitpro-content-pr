@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: c77df30b-332a-4d7f-9754-a8fa131a3f9e
 caps.latest.revision: 17
 manager: edupont
@@ -41,11 +41,11 @@ The demo license is automatically installed when you install the Demo Option. Th
 > [!IMPORTANT]  
 >  The demo license can only be used with demonstration companies such as [!INCLUDE[demoname](includes/demoname_md.md)].  
   
-## Country\/Region Versions  
- When you run a country\/region version of [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)], the license must correspond with the country\/region version that you have installed.  
+## Country/Region Versions  
+ When you run a country/region version of [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)], the license must correspond with the country/region version that you have installed.  
   
- Any license can be available in different country\/region versions.  
+ Any license can be available in different country/region versions.  
   
 ## See Also  
  [Demo Option](Demo-Option.md)   
- [Walkthrough: Installing the Demo Version](Walkthrough:%20Installing%20the%20Demo%20Version.md)
+ [Walkthrough: Installing the Demo Version](Walkthrough--Installing-the-Demo-Version.md)

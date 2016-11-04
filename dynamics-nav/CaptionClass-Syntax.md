@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 9396c266-ed85-4cc9-ab5a-d968b01bfbdd
 caps.latest.revision: 14
 manager: edupont
@@ -41,7 +41,7 @@ This topic describes the syntax of the CaptionClass functionality.
  For example, if the active language in [!INCLUDE[navnow](includes/navnow_md.md)] is English \(United States\), `LANGUAGE` will hold the value `1033`.  
   
 ### CAPTIONEXPR  
- The `CAPTIONEXPR` parameter contains the value of the **CaptionClass** property of the field or control. An example is in table 13 Salesperson\/Purchaser, the **Global Dimension 1 Code** field \(Field No. 5050\) has the string `'1,1,1'` as its **CaptionClass**. You can use the debugger to view the value of the `CAPTIONEXPR` parameter. Set a breakpoint on the `CaptionClassTranslate` function in codeunit 1, activate the debugger, and then run page 14, Salespeople\/Purchasers. The debugger breaks in the CaptionClassTranslate function. In the debugger, choose **Variables**. In the **Debugger Variable List**, you can see that the `CAPTIONEXPR` parameter holds the string `'1,1,1'`. For more information about the debugger, see [Debugging](Debugging.md).  
+ The `CAPTIONEXPR` parameter contains the value of the **CaptionClass** property of the field or control. An example is in table 13 Salesperson/Purchaser, the **Global Dimension 1 Code** field \(Field No. 5050\) has the string `'1,1,1'` as its **CaptionClass**. You can use the debugger to view the value of the `CAPTIONEXPR` parameter. Set a breakpoint on the `CaptionClassTranslate` function in codeunit 1, activate the debugger, and then run page 14, Salespeople/Purchasers. The debugger breaks in the CaptionClassTranslate function. In the debugger, choose **Variables**. In the **Debugger Variable List**, you can see that the `CAPTIONEXPR` parameter holds the string `'1,1,1'`. For more information about the debugger, see [Debugging](Debugging.md).  
   
 > [!NOTE]  
 >  In the **About This Page** window, you will not find the Global Dimension 1 Code field. Instead you find the Department Code field, which represents the **CaptionClass** property and the `CaptionClassTranslate` function trigger.  

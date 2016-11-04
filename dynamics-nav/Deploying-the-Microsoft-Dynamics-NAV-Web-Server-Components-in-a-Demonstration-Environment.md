@@ -1,12 +1,13 @@
 ---
 title: "Deploying the Microsoft Dynamics NAV Web Server Components in a Demonstration Environment"
+author: edupont04
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/14/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 111991f8-4bd9-4596-b1bd-efd877353774
 caps.latest.revision: 29
 ---
@@ -31,7 +32,7 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
 
 -   [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)  
 
--   [Development Environment \(C-SIDE\)](Development-Environment--C-SIDE-.md)  
+-   [Development Environment (C/SIDE)](Development-Environment--C-SIDE-.md)  
 
 -   [!INCLUDE[demolong](includes/demolong_md.md)], including a demo license.  
 
@@ -56,7 +57,7 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
 
     -   Service instance: NAVDEMO  
 
-    -   Database: Demo Database NAV \(9-0\)  
+    -   Database: Demo Database NAV \(10-0\)  
 
 -   NETWORK SERVICE account is used as the service account for [!INCLUDE[nav_server](includes/nav_server_md.md)] and [!INCLUDE[navnow](includes/navnow_md.md)] database.  
 
@@ -73,7 +74,7 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
 
 3.  Install Internet Information Services 7.0 or Internet Information Services 8.0.  
 
-     For more information, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
+     For more information, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md).  
 
     > [!NOTE]  
     >  Instead of installing and configuring Internet Information Services \(IIS\) manually, you can use [!INCLUDE[navnow](includes/navnow_md.md)] Setup to install IIS and enable the required features. If IIS is already installed, then Setup will enable any required features that are not currently enabled.  
@@ -82,9 +83,9 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
 
     -   [!INCLUDE[navnow](includes/navnow_md.md)] Setup will create a website on IIS for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. During Setup, you will have to choose the port to use for the site. The default port that is used in [!INCLUDE[navnow](includes/navnow_md.md)] Setup is port 8080. If you are not sure of which port to use, then use the default port.  
 
-    -   If your computer is running Windows 7 or Windows 8, then you have to create an inbound rule that allows communication on the port.  
+    -   If your computer is running Windows 7 or later, then you have to create an inbound rule that allows communication on the port.  
 
-         For information about how to create an inbound rule, see [How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client](How%20to:%20Create%20an%20Inbound%20Rule%20in%20Windows%20Firewall%20for%20the%20Port%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
+         For information about how to create an inbound rule, see [How to: Create an Inbound Rule in Windows Firewall for the Port of Microsoft Dynamics NAV Web Client](How-to--Create-an-Inbound-Rule-in-Windows-Firewall-for-the-Port-of-Microsoft-Dynamics-NAV-Web-Client.md).  
 
     -   If your computer is running Windows Server 2012, then an inbound rule is already created and no action is required.  
 
@@ -106,7 +107,7 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
 
 7.  On the **Customize the Installation** page, choose the box next to **Web Server Components**, choose **Run from My Computer**, and then choose **Next**.  
 
-8.  On the **Specify Parameters** page, under **Web Server Components**, set the **Port** parameter to the TCP\/IP port to use for the [!INCLUDE[nav_web](includes/nav_web_md.md)] connection or use the default port 8080.  
+8.  On the **Specify Parameters** page, under **Web Server Components**, set the **Port** parameter to the TCP/IP port to use for the [!INCLUDE[nav_web](includes/nav_web_md.md)] connection or use the default port 8080.  
 
 9. Set the **Install IIS prerequisites** parameter to **Install**.  
 
@@ -154,4 +155,4 @@ In this scenario, you install the major components of the [!INCLUDE[navnowlong](
 
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
- [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md)
+ [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md)

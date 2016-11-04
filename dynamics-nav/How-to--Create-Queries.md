@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: c9c64bd7-d950-4a5d-bfd3-f25f97adb5fb
 caps.latest.revision: 21
 manager: edupont
@@ -43,7 +43,7 @@ A query describes a dataset of [!INCLUDE[navnow](includes/navnow_md.md)] data. Q
   
 8.  In the **Name** column, enter a CLS-compliant name for the field.  
   
-9. In the user interface for the query results, such as in a chart, the name of the underlying table field is displayed for the query column. If you want to display a different name for the column, then change the [Caption Property-duplicate](Caption-Property-duplicate.md) or [CaptionML Property](CaptionML-Property.md).  
+9. In the user interface for the query results, such as in a chart, the name of the underlying table field is displayed for the query column. If you want to display a different name for the column, then change the [Caption Property](Caption-Property-duplicate.md) or [CaptionML Property](CaptionML-Property.md).  
   
     > [!NOTE]  
     >  When you run the query from Object Designer, the **About This Query** window that opens in the [!INCLUDE[rtc](includes/rtc_md.md)] displays the name that is defined by the **Name** property of the column, not the **Caption** property or **CaptionML** property.  
@@ -98,7 +98,7 @@ A query describes a dataset of [!INCLUDE[navnow](includes/navnow_md.md)] data. Q
 2.  In the **Save As** window, in the **ID** field, enter an ID for the query object. The ID must be in a valid range for your solution. In the **Name** field, enter a name for the query, verify that the **Compiled** check box is selected, and then choose the **OK** button.  
   
 ## See Also  
- [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md)   
+ [Walkthrough: Creating a Query to Link Two Tables](Walkthrough--Creating-a-Query-to-Link-Two-Tables.md)   
  [SQLJoinType Property](SQLJoinType-Property.md)   
- [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](Walkthrough:%20Creating%20a%20Query%20That%20Uses%20a%20Totaling%20Method%20and%20Sorting.md)   
+ [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](Walkthrough--Creating-a-Query-That-Uses-a-Totaling-Method-and-Sorting.md)   
  [Understanding Data Item Links](Understanding-Data-Item-Links.md)

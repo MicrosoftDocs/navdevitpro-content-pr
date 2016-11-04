@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 030da0c5-dc31-4002-8f2f-b47de752c201
 caps.latest.revision: 4
 manager: edupont
@@ -41,5 +41,5 @@ From the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], you can import a
 ## See Also  
  [Built-in and Custom Report Layouts](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md#BuilinCustomLayouts)   
  [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)   
- [How to: Modify a Word Report Layout](How%20to:%20Modify%20a%20Word%20Report%20Layout.md)   
- [How to: Create a Word Report Layout for a Report](How%20to:%20Create%20a%20Word%20Report%20Layout%20for%20a%20Report.md)
+ [How to: Modify a Word Report Layout](How-to--Modify-a-Word-Report-Layout.md)   
+ [How to: Create a Word Report Layout for a Report](How-to--Create-a-Word-Report-Layout-for-a-Report.md)

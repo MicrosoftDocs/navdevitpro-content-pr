@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 5c929ff4-72c2-4d81-999b-e7bb013f0efc
 caps.latest.revision: 7
 manager: edupont
@@ -25,5 +25,5 @@ With a multlanguage-enabled database you can automatically  get the languages ne
   
 ## See Also  
  [Multilanguage Development](Multilanguage-Development.md)   
- [How to: Add Translated Strings By Using the Multilanguage Editor](How%20to:%20Add%20Translated%20Strings%20By%20Using%20the%20Multilanguage%20Editor.md)   
- [How to: Delete Translated Strings](How%20to:%20Delete%20Translated%20Strings.md)
+ [How to: Add Translated Strings By Using the Multilanguage Editor](How-to--Add-Translated-Strings-By-Using-the-Multilanguage-Editor.md)   
+ [How to: Delete Translated Strings](How-to--Delete-Translated-Strings.md)

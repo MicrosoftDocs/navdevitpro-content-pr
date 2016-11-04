@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 13049d00-80d4-4835-897b-396ac5aedede
 caps.latest.revision: 7
 ---
@@ -85,7 +85,7 @@ This topic contains the following information and recommendations about the secu
   
 -   Open port 443 through Windows Firewall of the virtual machine and add the port to the Azure service endpoints.  
   
- For more information about SSL for the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How%20to:%20Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
+ For more information about SSL for the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md).  
   
 ### Microsoft Dynamics NAV Windows Client  
  The [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)] configure a ClickOnce website from which users can install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. To secure the ClickOnce installation, the [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)] implement a security certificate on the website. When you deploy [!INCLUDE[navnow](includes/navnow_md.md)] with the [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)], you can specify the certificate in the Set-PartnerSetting file that is used by the example scripts. There are no specific security considerations for using the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] that is deployed by the [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)]. The [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)] automatically configure the connection to [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that is used by the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. The communication port that is used by a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is opened through Windows Firewall and added as an endpoint in Azure.  
@@ -96,7 +96,7 @@ This topic contains the following information and recommendations about the secu
  For more information, see [Remote Desktop Services and Windows Firewall](http://go.microsoft.com/fwlink/?LinkID=299451).  
   
 ###  <a name="PSRemote"></a> Windows PowerShell Remoting  
- To deploy [!INCLUDE[navnow](includes/navnow_md.md)] by using the [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)], Window PowerShell Remoting must be enabled on the Azure virtual machines. If you use an Azure Gallery image when you deploy [!INCLUDE[navnow](includes/navnow_md.md)], then Windows PowerShell Remoting is enabled by default. If you are using a custom image, then make sure that Windows PowerShell Remoting is enabled on the image. For more information, see [How to: Create a Microsoft Azure Virtual Machine Operating System Image for Microsoft Dynamics NAV](How%20to:%20Create%20a%20Microsoft%20Azure%20Virtual%20Machine%20Operating%20System%20Image%20for%20Microsoft%20Dynamics%20NAV.md).  
+ To deploy [!INCLUDE[navnow](includes/navnow_md.md)] by using the [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)], Window PowerShell Remoting must be enabled on the Azure virtual machines. If you use an Azure Gallery image when you deploy [!INCLUDE[navnow](includes/navnow_md.md)], then Windows PowerShell Remoting is enabled by default. If you are using a custom image, then make sure that Windows PowerShell Remoting is enabled on the image. For more information, see [How to: Create a Microsoft Azure Virtual Machine Operating System Image for Microsoft Dynamics NAV](How-to--Create-a-Microsoft-Azure-Virtual-Machine-Operating-System-Image-for-Microsoft-Dynamics-NAV.md).  
   
  When [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)] scripts are executed at provisioning, a Windows PowerShell remote session is established from the provisioning computer to the Azure virtual machine. To help secure the communication, the [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)] implement a Windows Remote Management \(WinRM\) session that uses an HTTPS listener with a SSL certificate.  
   
@@ -108,11 +108,11 @@ This topic contains the following information and recommendations about the secu
 ##  <a name="CustomImage"></a> Custom Images for Azure Virtual Machines  
  The [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)] example scripts create virtual machines based on a VHD image that you specify in the Set-PartnerSettings.ps1 file when you run the scripts. Instead of using an image from the Azure Marketplace, you can create a custom image. If you are using a custom image, then you should make sure that the image aligns with Microsoft solution accelerators. For more information, see [Microsoft Solution Accelerators](http://go.microsoft.com/fwlink/?LinkID=294849).  
   
- For more information about how to create an image, see [How to: Create a Microsoft Azure Virtual Machine Operating System Image for Microsoft Dynamics NAV](How%20to:%20Create%20a%20Microsoft%20Azure%20Virtual%20Machine%20Operating%20System%20Image%20for%20Microsoft%20Dynamics%20NAV.md).  
+ For more information about how to create an image, see [How to: Create a Microsoft Azure Virtual Machine Operating System Image for Microsoft Dynamics NAV](How-to--Create-a-Microsoft-Azure-Virtual-Machine-Operating-System-Image-for-Microsoft-Dynamics-NAV.md).  
   
 ##  <a name="Virus"></a> Antivirus Software  
  Virtual machines that are created by the [!INCLUDE[nav_prov_short](includes/nav_prov_short_md.md)] are standard Windows machines and should be protected by using common protection mechanisms. Azure provides virtual machines as an Infrastructure as a Service \(IaaS\), which means that you are responsible for the day-to-day protection of the virtual machine. We recommended that you use antivirus software and keep the software updated.  
   
 ## See Also  
  [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
- [How to: Deploy Microsoft Dynamics NAV on Microsoft Azure by Using the Example Scripts](How%20to:%20Deploy%20Microsoft%20Dynamics%20NAV%20on%20Microsoft%20Azure%20by%20Using%20the%20Example%20Scripts.md)
+ [How to: Deploy Microsoft Dynamics NAV on Microsoft Azure by Using the Example Scripts](How-to--Deploy-Microsoft-Dynamics-NAV-on-Microsoft-Azure-by-Using-the-Example-Scripts.md)

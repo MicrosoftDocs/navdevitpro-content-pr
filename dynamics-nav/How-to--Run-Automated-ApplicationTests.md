@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 4209d5ac-3bf6-4e61-bb8c-8e3b221bd6ea
 caps.latest.revision: 3
 ---
@@ -15,7 +15,7 @@ You can run the automated application tests that are included on the [!INCLUDE[n
   
  To run tests in the CAL Test Tool window, you must import the objects in the .fob files in the **TestToolkit** folder that is included on the [!INCLUDE[navnow](includes/navnow_md.md)] product media. For more information, see [Application Test Automation](Application-Test-Automation.md).  
   
- Any changes done to the database by running tests are automatically rolled back using the Test Isolation testability functionality. For more information, see [How to: Create a Test Runner Codeunit](How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md).  
+ Any changes done to the database by running tests are automatically rolled back using the Test Isolation testability functionality. For more information, see [How to: Create a Test Runner Codeunit](How-to--Create-a-Test-Runner-Codeunit.md).  
   
 ### To run an application test suite  
   
@@ -78,4 +78,4 @@ You can run the automated application tests that are included on the [!INCLUDE[n
   
 ## See Also  
  [Application Test Automation](Application-Test-Automation.md)   
- [\($ N\_9990 Code Coverage $\)](-$-N_9990-Code-Coverage-$-.md)
+ [Code Coverage](uiref/-$-N_9990-Code-Coverage-$-.md)

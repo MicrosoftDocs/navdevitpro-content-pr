@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 263b313f-935b-4eb9-b0d6-171f3b08f9c1
 caps.latest.revision: 8
 ---
@@ -45,7 +45,7 @@ Invokes a C/AL trigger on the [!INCLUDE[nav_server](includes/nav_server_md.md)] 
 |**true**|**true**|No method call.|  
   
 ## Example  
- For a detailed code example, see [Walkthrough: Creating and Using a Client Control Add-in](Walkthrough:%20Creating%20and%20Using%20a%20Client%20Control%20Add-in.md)  
+ For a detailed code example, see [Walkthrough: Creating and Using a Client Control Add-in](Walkthrough--Creating-and-Using-a-Client-Control-Add-in.md)  
   
 ```  
 var map = new VEMap('controlAddIn');  

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: cd014621-799b-42ed-9042-bed46a86f965
 caps.latest.revision: 7
 manager: edupont
@@ -28,4 +28,4 @@ You can associate items in a list page with a related card page so that when a u
   
 ## See Also  
  [CardPageID Property](CardPageID-Property.md)   
- [Walkthrough: Creating a Customer List in Page Designer](Walkthrough:%20Creating%20a%20Customer%20List%20in%20Page%20Designer.md)
+ [Walkthrough: Creating a Customer List in Page Designer](Walkthrough--Creating-a-Customer-List-in-Page-Designer.md)

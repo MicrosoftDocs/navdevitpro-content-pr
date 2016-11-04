@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: ff8ed675-00d3-4d11-af67-3ffc0621d3a7
 caps.latest.revision: 18
 ---
@@ -60,7 +60,7 @@ MESSAGE(Text000, Date1, CloDate);
   
  The following message is displayed:  
   
- **The closing date for 04\/04\/14 is C04\/04\/14.**  
+ **The closing date for 04/04/14 is C04/04/14.**  
   
 ## Example  
  The second example shows some statements that do not work and explains why they do not work. This example requires that you create the following variables and text constants in the C/AL Globals window.  
@@ -97,7 +97,7 @@ MESSAGE(Text001, CloDate1, CloDate2);
   
  The following message is displayed:  
   
- **The closing date for C04\/04\/14 is C04\/04\/14.**  
+ **The closing date for C04/04/14 is C04/04/14.**  
   
 ## See Also  
  [Date and Time Functions](Date-and-Time-Functions.md)

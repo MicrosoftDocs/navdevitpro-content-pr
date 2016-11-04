@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 6fb765df-55e3-45eb-a4a3-cb3fb5bb8abc
 caps.latest.revision: 32
 manager: edupont
@@ -108,7 +108,7 @@ This walkthrough demonstrates how to add a Cue on the [!INCLUDE[rtc](includes/rt
      ![Shows the table filter setup for a Cue](media/NAVRTCCueTableFilterExample.PNG "NAVRTCCueTableFilterExample")  
 
     > [!IMPORTANT]  
-    >  You cannot define a table filter that filters explicitly on a date because you will get an error when you try to open the Cue group in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For example, you cannot define a field that has the **Type** set to **CONST** or **FILTER** and the **Value** set to 21\/03\/2011. If you do, when you try to open the Cue group from the page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], you get an error that states that ‘2011-03-21’ is not a valid date.  
+    >  You cannot define a table filter that filters explicitly on a date because you will get an error when you try to open the Cue group in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For example, you cannot define a field that has the **Type** set to **CONST** or **FILTER** and the **Value** set to 21/03/2011. If you do, when you try to open the Cue group from the page in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], you get an error that states that ‘2011-03-21’ is not a valid date.  
 
 13. Choose the **OK** button until you return to the **Properties** window, and then close the **Properties** window to return to Table Designer.  
 
@@ -274,5 +274,5 @@ This walkthrough demonstrates how to add a Cue on the [!INCLUDE[rtc](includes/rt
 ## See Also  
  [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
  [Pages Overview](Pages-Overview.md)   
- [Tables-duplicate 20](Tables-duplicate-20.md)   
- [Walkthrough: Creating a Role Center](Walkthrough:%20Creating%20a%20Role%20Center.md)
+ [Tables](Tables.md)   
+ [Walkthrough: Creating a Role Center](Walkthrough--Creating-a-Role-Center.md)

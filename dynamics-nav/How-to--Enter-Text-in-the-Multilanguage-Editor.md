@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 3c540ffa-7dfb-4b1e-af82-899fedc6b071
 caps.latest.revision: 10
 manager: edupont
@@ -37,5 +37,5 @@ When you enter captions or text constants for a multilanguage-enabled applicatio
     >  A comment is useful to provide help or instructions for a translator.  
   
 ## See Also  
- [How to: Add Translated Strings By Using the Multilanguage Editor](How%20to:%20Add%20Translated%20Strings%20By%20Using%20the%20Multilanguage%20Editor.md)   
- [How to: Add a Text Constant to a Codeunit](How%20to:%20Add%20a%20Text%20Constant%20to%20a%20Codeunit.md)
+ [How to: Add Translated Strings By Using the Multilanguage Editor](How-to--Add-Translated-Strings-By-Using-the-Multilanguage-Editor.md)   
+ [How to: Add a Text Constant to a Codeunit](How-to--Add-a-Text-Constant-to-a-Codeunit.md)

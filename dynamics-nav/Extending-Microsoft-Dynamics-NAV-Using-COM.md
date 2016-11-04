@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: b28a3cb1-b8be-4cf7-b6a8-c69afd8ad45b
 caps.latest.revision: 9
 manager: edupont
@@ -17,4 +17,4 @@ This section describes how you can extend the [!INCLUDE[nav_windows](includes/na
 ## See Also  
  [COM Overview](COM-Overview.md)   
  [Using COM Technologies in Microsoft Dynamics NAV](Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md)   
- [How to: Create an Automation Controller](How%20to:%20Create%20an%20Automation%20Controller.md)
+ [How to: Create an Automation Controller](How-to--Create-an-Automation-Controller.md)

@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: a412f52a-b5c8-496c-ac02-f6f1bf85df3d
 caps.latest.revision: 8
 manager: edupont
 ---
 # Request Pages (XMLPorts)
-A request page is a dialog box that appears when an XMLport is run from Object Designer. It enables the user to set a filter on the data, sort the data, and choose whether the XMLport imports or exports the data. For more information about how to run XMLports from Object Designer, see [How to: Run an XMLport from Object Designer](How%20to:%20Run%20an%20XMLport%20from%20Object%20Designer.md).  
+A request page is a dialog box that appears when an XMLport is run from Object Designer. It enables the user to set a filter on the data, sort the data, and choose whether the XMLport imports or exports the data. For more information about how to run XMLports from Object Designer, see [How to: Run an XMLport from Object Designer](How-to--Run-an-XMLport-from-Object-Designer.md).  
   
  The filters are located on the **Options** FastTab. You design the **Options** FastTab of a request page by using Request Options Page Designer in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. To access Request Options Page Designer, open XMLport Designer, choose **View**, and then choose **Request Page**.  
   
@@ -52,4 +52,4 @@ A request page is a dialog box that appears when an XMLport is run from Object D
 ## See Also  
  [Designing XMLports](Designing-XMLports.md)   
  [XMLport Walkthroughs](XMLport-Walkthroughs.md)   
- [How to: Run an XMLport from Object Designer](How%20to:%20Run%20an%20XMLport%20from%20Object%20Designer.md)
+ [How to: Run an XMLport from Object Designer](How-to--Run-an-XMLport-from-Object-Designer.md)

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: d8cd18ba-702c-47aa-a52e-260799937fe2
 caps.latest.revision: 18
 manager: edupont
@@ -95,7 +95,7 @@ manager: edupont
 7.  Close the page properties and save the page.  
   
 ## See Also  
- [How to: Promote Actions on Pages](How%20to:%20Promote%20Actions%20on%20Pages.md)   
+ [How to: Promote Actions on Pages](How-to--Promote-Actions-on-Pages.md)   
  [Actions Overview](Actions-Overview.md)   
- [How to: Add Actions to a Page](How%20to:%20Add%20Actions%20to%20a%20Page.md)   
- [How to: Set an Icon on an Action](How%20to:%20Set%20an%20Icon%20on%20an%20Action.md)
+ [How to: Add Actions to a Page](How-to--Add-Actions-to-a-Page.md)   
+ [How to: Set an Icon on an Action](How-to--Set-an-Icon-on-an-Action.md)

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 28566a8f-eccf-4344-bc00-1df9b6918783
 caps.latest.revision: 29
 manager: edupont
@@ -14,7 +14,7 @@ manager: edupont
 # How to: Set Up Multiple Web Server Instances for the Microsoft Dynamics NAV Web Client
 When you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], a website with a web server instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)] is added on Internet Information Services \(IIS\). There may be scenarios when you want to set up multiple [!INCLUDE[nav_web](includes/nav_web_md.md)] instances on the [!INCLUDE[nav_web](includes/nav_web_md.md)] website. For example, you could set up a separate [!INCLUDE[nav_web](includes/nav_web_md.md)] instance for the different companies.  
   
- To add a new [!INCLUDE[nav_web](includes/nav_web_md.md)] application, you use the [!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell and run the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVWebServerInstance](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVWebServerInstance) cmdlet to add a new web server instance. The resultant [!INCLUDE[navnow](includes/navnow_md.md)] web server has the following characteristics:  
+ To add a new [!INCLUDE[nav_web](includes/nav_web_md.md)] application, you use the [!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell and run the New-NAVWebServerInstance cmdlet to add a new web server instance. The resultant [!INCLUDE[navnow](includes/navnow_md.md)] web server has the following characteristics:  
   
 -   A virtual directory instance with an underlying web application is added to the [!INCLUDE[nav_web](includes/nav_web_md.md)] website. The [!INCLUDE[nav_web](includes/nav_web_md.md)] application has its own web.config file that you can modify to change the configuration of the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
@@ -22,7 +22,7 @@ When you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], 
   
 -   The new web server instance has the same URL as other instances under the parent website, except that it includes the instance name that you specify with the New-NavWebServerInstance cmdlet.  
   
-     For example, the URL for the default [!INCLUDE[nav_web](includes/nav_web_md.md)] is http:\/\/MyNavWebServer:8080\/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\/WebClient. The URL for the new [!INCLUDE[nav_web](includes/nav_web_md.md)] instance, which you name MyCompany, would be http:\/\/MyNavWebServer:8080\/MyCompany\/WebClient.  
+     For example, the URL for the default [!INCLUDE[nav_web](includes/nav_web_md.md)] is http://MyNavWebServer:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/WebClient. The URL for the new [!INCLUDE[nav_web](includes/nav_web_md.md)] instance, which you name MyCompany, would be http://MyNavWebServer:8080/MyCompany/WebClient.  
   
  You can run the cmdlet multiple times to create additional [!INCLUDE[navnow](includes/navnow_md.md)] web server instances on the server.  
   
@@ -35,7 +35,7 @@ When you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], 
   
 1.  \(Optional\) Modify the instanceweb.config file.  
   
-     For more information, see [Modifying the Microsoft Dynamics NAV Settings in the Instanceweb.config File](How%20to:%20Set%20Up%20Multiple%20Web%20Server%20Instances%20for%20the%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#ModifyInstanceweb)  
+     For more information, see [Modifying the Microsoft Dynamics NAV Settings in the Instanceweb.config File](How-to--Set-Up-Multiple-Web-Server-Instances-for-the-Microsoft-Dynamics-NAV-Web-Client.md#ModifyInstanceweb)  
   
     > [!NOTE]  
     >  You would typically follow this step if you were adding multiple [!INCLUDE[nav_web](includes/nav_web_md.md)] instances to save time configuring each instance.  
@@ -50,14 +50,14 @@ When you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], 
     New-NAVWebServerInstance -WebServerInstance MyWebApp -Server NAVServer -ServerInstance NAVServerInstance  
     ```  
   
-    -   Change *MyWebApp* to the name that you want to give the virtual directory for the web server instance. This name will become part of the URL for the [!INCLUDE[nav_web](includes/nav_web_md.md)] application, for example, http:\/\/MyWebServer:8080\/MyWebApp\/WebClient.  
+    -   Change *MyWebApp* to the name that you want to give the virtual directory for the web server instance. This name will become part of the URL for the [!INCLUDE[nav_web](includes/nav_web_md.md)] application, for example, http://MyWebServer:8080/MyWebApp/WebClient.  
   
     -   Change *NAVServer* to the name of the computer that is running the [!INCLUDE[nav_server](includes/nav_server_md.md)] to which you want to connect.  
   
     -   Change *NAVServerInstance* to the name of the instance on the [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   
     > [!NOTE]  
-    >  This command only sets the required parameters of the NAVWebServerInstance cmdlet. The cmdlet has several other parameters that can use to configure the web server instance. For more information about the syntax and parameters, see [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVWebServerInstance](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVWebServerInstance).  
+    >  This command only sets the required parameters of the NAVWebServerInstance cmdlet. The cmdlet has several other parameters that can use to configure the web server instance. For more information about the syntax and parameters, see New-NAVWebServerInstance.  
   
 4.  Press Enter to run the cmdlet.  
   
@@ -85,5 +85,5 @@ When you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], 
   
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
- [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md)   
+ [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md)   
  [Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md)

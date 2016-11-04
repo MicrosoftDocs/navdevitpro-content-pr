@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 801dacf4-db90-4457-84cf-272cf9262dc7
 caps.latest.revision: 12
 manager: edupont
@@ -27,5 +27,5 @@ The keys associated with a table have properties that describe their behavior, j
 |[SQLIndex Property](SQLIndex-Property.md)|Sets the actual fields that are used in the corresponding index on SQL Server.|  
   
 ## See Also  
- [How to: View or Modify Properties on a Key](How%20to:%20View%20or%20Modify%20Properties%20on%20a%20Key.md)   
+ [How to: View or Modify Properties on a Key](How-to--View-or-Modify-Properties-on-a-Key.md)   
  [Table Keys](Table-Keys.md)

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 44c9f5c2-5bd2-4f26-85f5-7accb25c2112
 caps.latest.revision: 18
 manager: edupont
@@ -41,7 +41,7 @@ A dataset determines the data that displays on a generated report. You build the
   
 9. In Report Dataset Designer, enter data items and columns until you have added all fields from all the tables that you want to include in the report.  
   
-10. If you want to add a label to the report, such as a caption for a table header or a title for the report, then add a label to the dataset. For more information, see [How to: Create Labels for a Report](How%20to:%20Create%20Labels%20for%20a%20Report.md).  
+10. If you want to add a label to the report, such as a caption for a table header or a title for the report, then add a label to the dataset. For more information, see [How to: Create Labels for a Report](How-to--Create-Labels-for-a-Report.md).  
   
 11. If you want to include a variable in the report dataset, then do the following:  
   

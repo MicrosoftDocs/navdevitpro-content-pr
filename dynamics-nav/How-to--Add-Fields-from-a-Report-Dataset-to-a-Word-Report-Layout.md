@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 6ea719bd-b8d3-4bef-81d2-4d7784294a8d
 caps.latest.revision: 5
 manager: edupont
@@ -26,9 +26,9 @@ A report dataset can consist of fields that display labels, data, and images. Th
   
 4.  In the **XML Mapping** pane, in **the Custom XML Part** list, choose the XML part for [!INCLUDE[navnow](includes/navnow_md.md)] report. The name of the XML part has the following format:  
   
-     urn:microsoft-dynamics-nav\/reports\/*report\_name*\/*ID*  
+     urn:microsoft-dynamics-nav/reports/*report\_name*/*ID*  
   
-     *report\_name* is the name that is assigned to the report as specified by the report's [Name Property-duplicate](Name-Property-duplicate.md).  
+     *report\_name* is the name that is assigned to the report as specified by the report's [Name Property](Name-Property-duplicate.md).  
   
      *ID* is the identification number of the report.  
   
@@ -84,5 +84,5 @@ A report dataset can consist of fields that display labels, data, and images. Th
   
 ## See Also  
  [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)   
- [How to: Modify a Word Report Layout](How%20to:%20Modify%20a%20Word%20Report%20Layout.md)   
- [How to: Create a Word Report Layout for a Report](How%20to:%20Create%20a%20Word%20Report%20Layout%20for%20a%20Report.md)
+ [How to: Modify a Word Report Layout](How-to--Modify-a-Word-Report-Layout.md)   
+ [How to: Create a Word Report Layout for a Report](How-to--Create-a-Word-Report-Layout-for-a-Report.md)

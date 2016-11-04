@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 9a76b82f-c9fa-40a0-9f47-9bbb27deb809
 caps.latest.revision: 6
 manager: edupont
@@ -45,9 +45,9 @@ Sets a reference between one or more fields of the data item table and data item
 Salesperson Code=Salesperson.Code  
 ```  
   
- For a detailed step-by-step example of the DataItemLink property, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
+ For a detailed step-by-step example of the DataItemLink property, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough--Creating-a-Query-to-Link-Two-Tables.md).  
   
 ## See Also  
- [How to: Create Queries](How%20to:%20Create%20Queries.md)   
+ [How to: Create Queries](How-to--Create-Queries.md)   
  [Understanding Data Item Links](Understanding-Data-Item-Links.md)   
  [DataItemLinkType Property](DataItemLinkType-Property.md)

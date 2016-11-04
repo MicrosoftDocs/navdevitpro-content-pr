@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: baafbe33-37a8-41e7-a8d8-dd1f90475984
 caps.latest.revision: 29
 manager: edupont
@@ -65,7 +65,7 @@ You can create reports that provide dynamic data with Visual Studio Report Desig
 
 4.  In the **Properties** window, select the **Action** tab.  
 
-5.  Select the **Go to URL** check box and enter the following line in the **Select URL** field: `="dynamicsnav://///runpage?page=21&$filter=Customer.'No.'%20IS%20'''%40" + Fields!No_Cust.Value + "*'''"`  
+5.  Select the **Go to URL** check box and enter the following line in the **Select URL** field: `="dynamicsnav://///runpage?page=21&$filter=Customer.'No.'-IS-'''%40" + Fields!No_Cust.Value + "*'''"`  
 
      This opens page 21, the **Customer Card** page, and filters on which customer card to open.  
 
@@ -88,10 +88,10 @@ You can create reports that provide dynamic data with Visual Studio Report Desig
 
 3.  On the Windows taskbar, choose **Start**, and then choose **Run**.  
 
-4.  In the **Run** window, enter the following text: **dynamicsnav:\/\/\/\/runreport?report=107**, and then choose **OK**. For more information about the syntax for running a report from the **Run** window, see [Creating and Running Hyperlinks](Creating-and-Running-Hyperlinks.md).  
+4.  In the **Run** window, enter the following text: **dynamicsnav:////runreport?report=107**, and then choose **OK**. For more information about the syntax for running a report from the **Run** window, see [Creating and Running Hyperlinks](Creating-and-Running-Hyperlinks.md).  
 
 5.  Choose **Preview** to view the report. The report shows the order detail \(the quantity not yet shipped\) for each customer in three periods of 30 days each, starting from a selected date. If you select the customer name, then the specific Customer card opens. This makes it possible to drill down into the customer's data.  
 
 ## See Also  
- [Walkthrough: Designing a Report with Images, Interactive Sorting, and Visibility Toggle](Walkthrough:%20Designing%20a%20Report%20with%20Images,%20Interactive%20Sorting,%20and%20Visibility%20Toggle.md)   
- [Walkthrough: Designing a Customer List Report](Walkthrough:%20Designing%20a%20Customer%20List%20Report.md)
+ [Walkthrough: Designing a Report with Images, Interactive Sorting, and Visibility Toggle](Walkthrough--Designing-a-Report-with-Images--Interactive-Sorting--and-Visibility-Toggle.md)   
+ [Walkthrough: Designing a Customer List Report](Walkthrough--Designing-a-Customer-List-Report.md)

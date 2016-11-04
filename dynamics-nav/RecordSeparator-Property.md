@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 88f67ba0-2aa4-42c3-a6fb-f5546b31b22d
 caps.latest.revision: 10
 ---
@@ -23,7 +23,7 @@ Sets the string that is to be used to separate records.
 |---------------|---------------------|  
 |**\<None>**|There will no be RecordSeparator.|  
 |**\<NewLine> \(default\)**|Any combination of CR and LF characters.|  
-|**\<CR\/LF>**|CR followed by LF.|  
+|**\<CR/LF>**|CR followed by LF.|  
 |**\<CR>**|CR alone.|  
 |**\<LF>**|LF alone.|  
 |**\<TAB>**|Tabulator alone.|  

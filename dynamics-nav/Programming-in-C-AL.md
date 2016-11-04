@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 5ee737ae-3914-47e7-b61d-486309b7fa8f
 caps.latest.revision: 19
 manager: edupont
@@ -16,7 +16,7 @@ This section describes where to write C/AL code and how to reuse code.
   
  For more information about how to use system-defined variables, see [System-Defined Variables](System-Defined-Variables.md).  
   
- For more information about the most frequently used C/AL functions, see [Essential C-AL Functions](Essential-C-AL-Functions.md).  
+ For more information about the most frequently used C/AL functions, see [Essential C/AL Functions](Essential-C-AL-Functions.md).  
   
 ## Where to Write C/AL Code  
  Almost every object in [!INCLUDE[navnow](includes/navnow_md.md)] contains triggers where you can add your C/AL code. Triggers exist for the following objects:  
@@ -58,4 +58,4 @@ This section describes where to write C/AL code and how to reuse code.
   
 ## See Also  
  [System-Defined Variables](System-Defined-Variables.md)   
- [Essential C-AL Functions](Essential-C-AL-Functions.md)
+ [Essential C/AL Functions](Essential-C-AL-Functions.md)

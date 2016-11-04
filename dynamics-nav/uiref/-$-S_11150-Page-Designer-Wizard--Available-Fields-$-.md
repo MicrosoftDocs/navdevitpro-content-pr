@@ -1,17 +1,17 @@
 ---
-title: "($ S_11150 Page Designer Wizard, Available Fields $)"
+title: "Page Designer Wizard, Available Fields
 ms.custom: na
 ms.date: 06/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 3cd28130-476f-4f8b-872f-1f43636aae16
 caps.latest.revision: 9
 manager: edupont
 ---
-# ($ S_11150 Page Designer Wizard, Available Fields $)
+# Page Designer Wizard, Available Fields
 Creates a List page and adds fields with the page wizard. List pages display multiple records on a page.  
 
  To open this window, on the **Tools** menu, choose **Object Designer**, choose **Page**, and then choose the **New** button. In the  **New Page** window, select a table from the list, select **Create a Page using a wizard**, select **List**, and then choose the **OK** button.  
@@ -36,4 +36,4 @@ Creates a List page and adds fields with the page wizard. List pages display mul
 |**Finish** button|Opens Page Designer.|  
 
 ## See Also  
- [Walkthrough: Creating a Wizard Page](../Walkthrough:%20Creating%20a%20Wizard%20Page.md)
+ [Walkthrough: Creating a Wizard Page](../Walkthrough--Creating-a-Wizard-Page.md)

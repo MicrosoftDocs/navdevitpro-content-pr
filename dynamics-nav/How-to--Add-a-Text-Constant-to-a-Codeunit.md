@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: b05d4942-6240-4c3f-9fe9-bf6333525f32
 caps.latest.revision: 12
 ---
@@ -18,7 +18,7 @@ To add a text constant to a codeunit, use the following procedure.
 1.  Select the C/AL Editor, choose **View**, and then choose **C/AL Globals**.  
   
     > [!NOTE]  
-    >  For more information about how to open the C/AL Editor, see [How to: Modify an Existing Codeunit](How%20to:%20Modify%20an%20Existing%20Codeunit.md).  
+    >  For more information about how to open the C/AL Editor, see [How to: Modify an Existing Codeunit](How-to--Modify-an-Existing-Codeunit.md).  
   
 2.  In the **C/AL Globals** window, choose the **Text Constants** tab.  
   
@@ -33,7 +33,7 @@ To add a text constant to a codeunit, use the following procedure.
   
 6.  In the **ConstValue** field, choose the **AssistEdit** button.  
   
-7.  In the **Multilanguage Editor** window, enter **ENU** for the language and then enter the text. For more information, see [How to: Enter Text in the Multilanguage Editor](How%20to:%20Enter%20Text%20in%20the%20Multilanguage%20Editor.md)  
+7.  In the **Multilanguage Editor** window, enter **ENU** for the language and then enter the text. For more information, see [How to: Enter Text in the Multilanguage Editor](How-to--Enter-Text-in-the-Multilanguage-Editor.md)  
   
     > [!NOTE]  
     >  If you set the application language to English \(United States\) before opening Object Designer, you can enter the message string directly into the **ConstValue** field in the C/AL Globals window. Open the Multilanguage Editor to be sure that the text is saved as English \(United States\).  

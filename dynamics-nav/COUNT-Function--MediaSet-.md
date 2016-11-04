@@ -6,60 +6,57 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
-ms.assetid: 4dab6c93-efcd-47ae-bf85-9cbcaf94b994
-caps.latest.revision: 4
+ms.author: jswymer
+ms.prod: "dynamics-nav-2017"
 ---
 # COUNT Function (MediaSet)
-Counts the number of media files that are included in the MediaSet of a record. The MediaSet defines a collection of media files that are assigned to a record which can be displayed in the client.  
-  
+Counts the number of media objects that are included in the MediaSet of a record.
+
 ## Syntax  
-  
+
 ```  
-  
-Number := Record.MediaSet.COUNT  
+
+Number := Record.MediaSetField.COUNT  
 ```  
-  
+
 #### Parameters  
  *Record*  
  Type: Record  
-  
+
  Specifies the record.  
-  
- MediaSet  
+
+ *MediaSetField*  
  Type: MediaSet  
-  
+
  Specifies the MediaSet data type field for the record.  
-  
+
 ## Property Value/Return Value  
  Type: Integer  
-  
- The number of media files that are associated with the MediaSet of the record.  
-  
+
+ Specifies the number of media objects that are associated with the MediaSet field of the record.  
+
 ## Example  
- This example is counts the number of media files for item No. 1000 in the **Item** table. The field in the **Item** table that is used for the MediaSet data type is **MediaSetField**.  
-  
- This code requires you to create the following variables..  
-  
+ This example counts the number of media objects that are available for item No. 1000 in table **27 Item** of the  [!INCLUDE[demolonglight_md](includes/demolonglight_md.md)]. In this example, the field in the **Item** table that is used for the MediaSet data type is **Picture**.  
+
+This code requires you to create the following variables.
+
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
-|item|Record|Item|  
+|itemRec|Record|Item|  
 |count|Integer||  
-  
- This code requires you to create the following text constants.  
-  
-|Text constant|ENU value|  
-|-------------------|---------------|  
+
+ This code requires you to create the following text constant.  
+
+|  Text constant  |  ConstValue  |  
+|-----------------|--------------|  
 |Text000|The number of media files: %1|  
-  
+
 ```  
-Item.GET('1000');  
-    count := (item.MediaSetField.COUNT);  
-    MESSAGE(Text001,count);  
+itemRec.GET('1000');  
+    count := (itemRec.Picture.COUNT);  
+    MESSAGE(Text000,count);  
 ```  
-  
+
 ## See Also  
- [MediaSet Data Type](MediaSet-Data-Type.md)   
- [MEDIAID Function \(MediaSet\)](MEDIAID-Function--MediaSet-.md)   
- [IMPORTFILE Function \(MediaSet\)](IMPORTFILE-Function--MediaSet-.md)   
- [IMPORTSTREAM Function \(MediaSet\)](IMPORTSTREAM-Function--MediaSet-.md)
+[Working With Media on Records](Working-With-Media-on-Records.md)  
+[MediaSet Data Type](MediaSet-Data-Type.md)  

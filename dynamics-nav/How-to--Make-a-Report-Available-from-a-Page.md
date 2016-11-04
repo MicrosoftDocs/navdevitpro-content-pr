@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 1b723ebd-fb79-4ea3-856f-059618a64e52
 caps.latest.revision: 27
 manager: edupont
@@ -14,7 +14,7 @@ manager: edupont
 # How to: Make a Report Available from a Page
 After you have created and designed a report, you can add the report to the interface of the page so that users can view the report.  
   
- For more information about other ways to run reports, see [How to: Run Reports](How%20to:%20Run%20Reports.md).  
+ For more information about other ways to run reports, see [How to: Run Reports](How-to--Run-Reports.md).  
   
  The following procedure explains how to make a report available from the **Customer List** page by adding the report to the promoted actions pane.  
   
@@ -52,4 +52,4 @@ After you have created and designed a report, you can add the report to the inte
   
 ## See Also  
  [Designing Reports](Designing-Reports.md)   
- [Walkthrough: Designing a Customer List Report](Walkthrough:%20Designing%20a%20Customer%20List%20Report.md)
+ [Walkthrough: Designing a Customer List Report](Walkthrough--Designing-a-Customer-List-Report.md)

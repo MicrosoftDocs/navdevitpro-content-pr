@@ -1,17 +1,17 @@
 ---
-title: "($ S_7112 Report Label Designer $)"
+title: "Report Label Designer
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 04163202-1fdc-4306-aa46-5651ce1bd61b
 caps.latest.revision: 11
 manager: edupont
 ---
-# ($ S_7112 Report Label Designer $)
+# Report Label Designer
 Adds labels to reports. You add labels that are not related to a data item in this window.  
 
  To open this window, on the **Tools** menu, choose **Object Designer**, choose **Report**, choose the **Design** button, and then on the **View** menu, choose **Labels**.  
@@ -24,4 +24,4 @@ Adds labels to reports. You add labels that are not related to a data item in th
 |**Caption**|The caption of the label. The captions are available in the **Parameters** section in the Report Data pane in Visual Studio.|  
 
 ## See Also  
- [How to: Create Labels for a Report](../How%20to:%20Create%20Labels%20for%20a%20Report.md)
+ [How to: Create Labels for a Report](../How-to--Create-Labels-for-a-Report.md)

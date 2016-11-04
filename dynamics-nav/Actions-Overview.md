@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: cb249654-c9be-482b-9a25-c26d7f229fc2
 caps.latest.revision: 44
 manager: edupont
@@ -92,7 +92,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], actions are displayed at the top o
   
  The Home tab is always displayed first so promoted actions provide quick access to common tasks, because users do not have to browse through a menu to access them. You can promote any command from the existing actions menus to the ribbon. If there are no promoted actions, the ribbon remains hidden.  
   
- Promoted actions can be grouped. For more information, see [How to: Define Promoted Action Categories Captions for the Ribbon](How%20to:%20Define%20Promoted%20Action%20Categories%20Captions%20for%20the%20Ribbon.md).  
+ Promoted actions can be grouped. For more information, see [How to: Define Promoted Action Categories Captions for the Ribbon](How-to--Define-Promoted-Action-Categories-Captions-for-the-Ribbon.md).  
   
  Each promoted action has an icon associated with it. You can accept a default icon for your promoted action or decide to use a larger icon that makes it more prominent to the user. Use the Properties window in the Action Designer to set the size and location of an icon.  
   
@@ -122,6 +122,6 @@ END;
 ```  
   
 ## See Also  
- [Walkthrough: Adding Actions to a Customer List Page](Walkthrough:%20Adding%20Actions%20to%20a%20Customer%20List%20Page.md)   
- [How to: Add Actions to a Page](How%20to:%20Add%20Actions%20to%20a%20Page.md)   
- [How to: Promote Actions on Pages](How%20to:%20Promote%20Actions%20on%20Pages.md)
+ [Walkthrough: Adding Actions to a Customer List Page](Walkthrough--Adding-Actions-to-a-Customer-List-Page.md)   
+ [How to: Add Actions to a Page](How-to--Add-Actions-to-a-Page.md)   
+ [How to: Promote Actions on Pages](How-to--Promote-Actions-on-Pages.md)

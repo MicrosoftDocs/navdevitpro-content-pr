@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 3e7f90bb-2758-494c-86b0-8a5e5c44cd00
 caps.latest.revision: 3
 ---
@@ -21,4 +21,4 @@ Returns the version of the [!INCLUDE[navnow](includes/navnow_md.md)] extension t
   
 ## See Also  
  [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)   
- [How to: Develop an Extension](How%20to:%20Develop%20an%20Extension.md)
+ [How to: Develop an Extension](How-to--Develop-an-Extension.md)

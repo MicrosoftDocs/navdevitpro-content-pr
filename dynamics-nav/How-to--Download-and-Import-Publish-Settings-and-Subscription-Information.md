@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 7a45d42f-a80b-47cf-b1e6-4fcf968ebe24
 caps.latest.revision: 8
 ---
@@ -29,7 +29,7 @@ Before you start using the Microsoft Azure cmdlets to automate deployments, you 
     Get-AzurePublishSettingsFile  
     ```  
   
-     A web browser opens at [http:\/\/go.microsoft.com\/fwlink\/?LinkID=294709](http://go.microsoft.com/fwlink/?LinkID=294709).  
+     A web browser opens at [http://go.microsoft.com/fwlink/?LinkID=294709](http://go.microsoft.com/fwlink/?LinkID=294709).  
   
 4.  When prompted, download and save the publishing settings file as a .publishsettings type file to your computer.  
   
@@ -52,4 +52,4 @@ Before you start using the Microsoft Azure cmdlets to automate deployments, you 
   
 ## See Also  
  [Preparing for Deploying Microsoft Dynamics NAV on Microsoft Azure](Preparing-for-Deploying-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
- [How to: Install the Microsoft Azure Cmdlets Module](How%20to:%20Install%20the%20Microsoft%20Azure%20Cmdlets%20Module.md)
+ [How to: Install the Microsoft Azure Cmdlets Module](How-to--Install-the-Microsoft-Azure-Cmdlets-Module.md)

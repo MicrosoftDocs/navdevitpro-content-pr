@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: bfd8ea82-13d1-48fb-8b94-52bf72f6d9f1
 caps.latest.revision: 18
 manager: edupont
@@ -34,6 +34,6 @@ To change an icon that is displayed with a department on the Departments page of
   
 ## See Also  
  [Bitmap Property](Bitmap-Property.md)   
- [\($ S\_2490 Menu Properties $\)](-$-S_2490-Menu-Properties-$-.md)   
+ [Menu Properties](uiref/-$-S_2490-Menu-Properties-$-.md)   
  [Designing MenuSuites](Designing-MenuSuites.md)   
- [How to: Modify a Department Menu in a MenuSuite](How%20to:%20Modify%20a%20Department%20Menu%20in%20a%20MenuSuite.md)
+ [How to: Modify a Department Menu in a MenuSuite](How-to--Modify-a-Department-Menu-in-a-MenuSuite.md)

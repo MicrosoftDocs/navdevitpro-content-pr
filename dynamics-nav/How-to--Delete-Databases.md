@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: a3e15f0b-0de8-4f48-bd38-f39b5437a85b
 caps.latest.revision: 7
 manager: edupont
@@ -24,5 +24,5 @@ Typically, you take as many precautions as possible to avoid deleting a database
 -   In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **Delete**.  
   
 ## See Also  
- [How to: Open Databases](How%20to:%20Open%20Databases.md)   
- [How to: Close Databases](How%20to:%20Close%20Databases.md)
+ [How to: Open Databases](How-to--Open-Databases.md)   
+ [How to: Close Databases](How-to--Close-Databases.md)

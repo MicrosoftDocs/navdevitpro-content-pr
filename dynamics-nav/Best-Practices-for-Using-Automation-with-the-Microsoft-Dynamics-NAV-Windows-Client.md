@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 7340ea80-58cb-4ded-8ab8-4540c07e0050
 caps.latest.revision: 20
 manager: edupont
@@ -87,8 +87,8 @@ automationObject.CallObjectMember();
   
 ## See Also  
  [COM Overview](COM-Overview.md)   
- [How to: Create an Automation Controller](How%20to:%20Create%20an%20Automation%20Controller.md)   
+ [How to: Create an Automation Controller](How-to--Create-an-Automation-Controller.md)   
  [Programming Best Practices](Programming-Best-Practices.md)   
- [Walkthrough: Using Automation to Write a Letter in Microsoft Office Word](Walkthrough:%20Using%20Automation%20to%20Write%20a%20Letter%20in%20Microsoft%20Office%20Word.md)   
- [Walkthrough: Using Automation to Create a Graph in Microsoft Excel](Walkthrough:%20Using%20Automation%20to%20Create%20a%20Graph%20in%20Microsoft%20Excel.md)   
+ [Walkthrough: Using Automation to Write a Letter in Microsoft Office Word](Walkthrough--Using-Automation-to-Write-a-Letter-in-Microsoft-Office-Word.md)   
+ [Walkthrough: Using Automation to Create a Graph in Microsoft Excel](Walkthrough--Using-Automation-to-Create-a-Graph-in-Microsoft-Excel.md)   
  [Security and Protection](Security-and-Protection.md)

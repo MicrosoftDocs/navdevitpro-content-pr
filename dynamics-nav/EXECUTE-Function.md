@@ -8,7 +8,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: f0268c2e-bbd6-493e-9ffd-08eac5df435d
 caps.latest.revision: 6
 ---
@@ -48,7 +48,7 @@ REPORT.EXECUTE (Number, Parameters[,RecordRef])
  For a simple example that illustrates how to use the EXECUTE function, see example in the [RUNREQUESTPAGE Function](RUNREQUESTPAGE-Function.md) function topic.  
 
 ## See Also  
- [Reports-duplicate 20](Reports-duplicate-20.md)   
+ [Reports](Reports.md)   
  [Request Pages](Request-Pages.md)   
  [SAVEAS Function](SAVEAS-Function.md)   
  [PRINT Function](PRINT-Function.md)

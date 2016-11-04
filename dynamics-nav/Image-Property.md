@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 33bb844b-f09c-4286-951f-d1c7efa96b6e
 caps.latest.revision: 13
 manager: edupont
@@ -23,6 +23,6 @@ Specifies the icon that you want to associate with an action or an activity butt
   
 ## See Also  
  [Properties](Properties.md)   
- [How to: Promote Actions on Pages](How%20to:%20Promote%20Actions%20on%20Pages.md)   
- [How to: Set an Icon on an Activity Button](How%20to:%20Set%20an%20Icon%20on%20an%20Activity%20Button.md)   
- [How to: Set an Icon on an Action](How%20to:%20Set%20an%20Icon%20on%20an%20Action.md)
+ [How to: Promote Actions on Pages](How-to--Promote-Actions-on-Pages.md)   
+ [How to: Set an Icon on an Activity Button](How-to--Set-an-Icon-on-an-Activity-Button.md)   
+ [How to: Set an Icon on an Action](How-to--Set-an-Icon-on-an-Action.md)

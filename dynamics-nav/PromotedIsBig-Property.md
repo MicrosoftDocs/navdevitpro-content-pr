@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: e83bfe80-9c0e-468e-80b6-c9d184e64afe
 caps.latest.revision: 10
 manager: edupont
@@ -19,8 +19,8 @@ Sets a value that indicates whether the promoted action is displayed on the ribb
 -   Page Actions  
   
 ## Remarks  
- Available options are Yes\/No \(Boolean\).  
+ Available options are Yes/No \(Boolean\).  
   
 ## See Also  
  [Promoted Property](Promoted-Property.md)   
- [How to: Promote Actions on Pages](How%20to:%20Promote%20Actions%20on%20Pages.md)
+ [How to: Promote Actions on Pages](How-to--Promote-Actions-on-Pages.md)

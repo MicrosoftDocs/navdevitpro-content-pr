@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 0ea708dc-6fd4-499f-b24f-a981173cfdde
 caps.latest.revision: 8
 ---
@@ -32,4 +32,4 @@ Sets the number of columns that a field spans in a GridLayout control.
 >  The ColumnSpan property is not supported by the [!INCLUDE[nav_web](includes/nav_web_md.md)]. If the page displays in the [!INCLUDE[nav_web](includes/nav_web_md.md)], the property is ignored and the field will not span any columns.  
   
 ## See Also  
- [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](How%20to:%20Arrange%20Fields%20in%20Rows%20and%20Columns%20Using%20the%20GridLayout%20Control.md)
+ [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](How-to--Arrange-Fields-in-Rows-and-Columns-Using-the-GridLayout-Control.md)

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 066aa86d-86d8-4757-857a-00d992cccffd
 caps.latest.revision: 11
 manager: edupont
@@ -53,7 +53,7 @@ manager: edupont
 |[!INCLUDE[navnow](includes/navnow_md.md)] - Brazil|1,300,000|1,309,999|  
 |[!INCLUDE[navnow](includes/navnow_md.md)] - Mexico|1,310,000|1,319,999|  
 |[!INCLUDE[navnow](includes/navnow_md.md)] - Croatia|1,320,000|1,329,999|  
-|[!INCLUDE[navnow](includes/navnow_md.md)] - North Africa\/Middle East|1,330,000|1,339,999|  
+|[!INCLUDE[navnow](includes/navnow_md.md)] - North Africa/Middle East|1,330,000|1,339,999|  
 |[!INCLUDE[navnow](includes/navnow_md.md)] - Thailand|1,340,000|1,349,999|  
 |[!INCLUDE[navnow](includes/navnow_md.md)] - Malaysia|1,350,000|1,359,999|  
 |[!INCLUDE[navnow](includes/navnow_md.md)] - Hungary|1,360,000|1,369,999|  

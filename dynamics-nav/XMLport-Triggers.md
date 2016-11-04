@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: bc6beaeb-07bb-4a5e-b84a-3c48b17f3c54
 caps.latest.revision: 5
 manager: edupont
@@ -33,4 +33,4 @@ The following triggers apply to XMLports.
 |[OnPreXMLItem Trigger](OnPreXMLItem-Trigger.md)|Executed after the table is initialized and before you start exporting data to an XML object. This trigger only applies to XMLport elements that have a source type of Table.<br /><br /> This trigger is only used to export data.|  
   
 ## See Also  
- [How to: Define or Modify Table or Field Triggers](How%20to:%20Define%20or%20Modify%20Table%20or%20Field%20Triggers.md)
+ [How to: Define or Modify Table or Field Triggers](How-to--Define-or-Modify-Table-or-Field-Triggers.md)

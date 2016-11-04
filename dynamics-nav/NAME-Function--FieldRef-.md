@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 644334ea-8769-4466-bd5c-4b0a06666fff
 caps.latest.revision: 11
 ---
@@ -30,7 +30,7 @@ Name := FieldRef.NAME
  The name of the field given as input.  
   
 ## Remarks  
- The [CAPTION Function \(FieldRef, TestPage Field\)](CAPTION-Function--FieldRef--TestPage-Field-.md) function retrieves the [Caption Property-duplicate](Caption-Property-duplicate.md) of a field. To enable your application for multilanguage functionality, you must use the [FIELDCAPTION Function \(Record\)](FIELDCAPTION-Function--Record-.md) instead.  
+ The [CAPTION Function \(FieldRef, TestPage Field\)](CAPTION-Function--FieldRef--TestPage-Field-.md) function retrieves the [Caption Property](Caption-Property-duplicate.md) of a field. To enable your application for multilanguage functionality, you must use the [FIELDCAPTION Function \(Record\)](FIELDCAPTION-Function--Record-.md) instead.  
   
  This function is similar to the [FIELDNAME Function \(Record\)](FIELDNAME-Function--Record-.md) function.  
   

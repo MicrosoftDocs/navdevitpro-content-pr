@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 40de1a1b-a7cd-4cd6-8de4-7d14b87f6876
 caps.latest.revision: 9
 manager: edupont
@@ -30,7 +30,7 @@ The **Table Metadata** virtual table \(ID 2000000136\) contains data about the t
   
  Except for the **DataIsExternal** field, the fields in the virtual table correspond directly to C/AL properties on the table objects. For more information, see [Table Properties](Table-Properties.md).  
   
- To access and view the **Table Metadata** virtual table, you must create a tabular-type page. For more information, see [How to: Create a Page to View a Virtual Table](How%20to:%20Create%20a%20Page%20to%20View%20a%20Virtual%20Table.md)  
+ To access and view the **Table Metadata** virtual table, you must create a tabular-type page. For more information, see [How to: Create a Page to View a Virtual Table](How-to--Create-a-Page-to-View-a-Virtual-Table.md)  
   
 ## See Also  
  [Virtual Tables](Virtual-Tables.md)

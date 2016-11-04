@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 692b5780-53c7-4747-9c2d-9b97afefeb81
 caps.latest.revision: 21
 manager: edupont
@@ -24,7 +24,7 @@ This walkthrough demonstrates how to modify an existing query, which links two t
 -   Running the query to view the data that this query describes.  
   
 ## Prerequisites  
- This walkthrough builds on the steps that are described in [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
+ This walkthrough builds on the steps that are described in [Walkthrough: Creating a Query to Link Two Tables](Walkthrough--Creating-a-Query-to-Link-Two-Tables.md).  
   
 ## Story  
  Viktor is a Microsoft Certified Partner working for [!INCLUDE[demoname](includes/demoname_md.md)] He wants to create a dataset that contains the total number of items in open sales orders for each customer. Viktor has already created a query that contains the quantity of items of every open sales order for each customer. He can modify that query so that it displays the sum of quantity of items for each customer.  
@@ -63,7 +63,7 @@ ORDER BY Quantity
      ![Query with Sum column](media/Query_WalkthroughTotals.png "Query\_WalkthroughTotals")  
   
     > [!NOTE]  
-    >  When you set the **Method** column to **Totals**, the name of the column is automatically changed from **Quantity** to **\<Sum\_Quantity>**. The column name is specified by its [Name Property-duplicate](Name-Property-duplicate.md). The **OrderBy** property identifies a column by the **Name** property.  
+    >  When you set the **Method** column to **Totals**, the name of the column is automatically changed from **Quantity** to **\<Sum\_Quantity>**. The column name is specified by its [Name Property](Name-Property-duplicate.md). The **OrderBy** property identifies a column by the **Name** property.  
   
 ## Sorting the Query Results  
  Viktor wants the resulting dataset to display records according to the item quantity in descending order from highest value to lowest value. To achieve this, he will set the [OrderBy Property](OrderBy-Property.md) on the query object.  
@@ -102,7 +102,7 @@ ORDER BY Quantity
      ![The result of running Customer&#95;SumQuantity query](media/Query_WalkthroughTotals_Run.png "Query\_WalkthroughTotals\_Run")  
   
 ## Next Steps  
- Viktor’s next step is to create a more complex query. For more information, see [Walkthrough: Creating a Query to Link Three Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Three%20Tables.md).  
+ Viktor’s next step is to create a more complex query. For more information, see [Walkthrough: Creating a Query to Link Three Tables](Walkthrough--Creating-a-Query-to-Link-Three-Tables.md).  
   
 ## See Also  
  [Understanding Query Totals and Grouping](Understanding-Query-Totals-and-Grouping.md)

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: d16b1998-7b14-4aca-9848-3882ca5a92f0
 caps.latest.revision: 9
 ---
@@ -42,6 +42,6 @@ Reads from or writes to files and BLOBs.
   
 -   [COPYSTREAM Function](COPYSTREAM-Function.md)  
   
--   [OutStream.WRITE Function](OutStream.WRITE-Function.md)  
+-   [OutStream.WRITE Function](OutStream-WRITE-Function.md)  
   
--   [OutStream.WRITETEXT Function](OutStream.WRITETEXT-Function.md)
+-   [OutStream.WRITETEXT Function](OutStream-WRITETEXT-Function.md)

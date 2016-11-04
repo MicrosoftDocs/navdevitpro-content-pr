@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 4f09f7f0-e353-4793-8cb6-679c0571711a
 caps.latest.revision: 34
 manager: edupont
@@ -17,8 +17,8 @@ With [!INCLUDE[navnow](includes/navnow_md.md)] queries, you can retrieve records
 ## Sample Tables and Query  
  This topic uses the following sample tables and query to demonstrate data item links.  
   
-### Salesperson\/Purchaser Table  
- The Salesperson\/Purchaser table contains a list of salespersons. Each salesperson is identified by a unique code  
+### Salesperson/Purchaser Table  
+ The Salesperson/Purchaser table contains a list of salespersons. Each salesperson is identified by a unique code  
   
 |Code|Name|  
 |----------|----------|  
@@ -38,7 +38,7 @@ With [!INCLUDE[navnow](includes/navnow_md.md)] queries, you can retrieve records
 |4000|New Concepts||  
   
 ### Sample Query  
- The following illustration shows the Query Designer for a query that links the Sale Header table with the Salesperson\/Purchaser table on the **Salesperson\_Code** and **Code** columns, as specified by the DataItemLink property. In the illustration, the DataItemLinkType property is set to **Exclude Row If No Match**. You can set the property to **Always Include** to change the resulting dataset as described in this topic.  
+ The following illustration shows the Query Designer for a query that links the Sale Header table with the Salesperson/Purchaser table on the **Salesperson\_Code** and **Code** columns, as specified by the DataItemLink property. In the illustration, the DataItemLinkType property is set to **Exclude Row If No Match**. You can set the property to **Always Include** to change the resulting dataset as described in this topic.  
   
  ![Query Designer inner join](media/QueryJoin_InnerJoin.png "QueryJoin\_InnerJoin")  
   
@@ -54,7 +54,7 @@ With [!INCLUDE[navnow](includes/navnow_md.md)] queries, you can retrieve records
 > [!NOTE]  
 >  By default, the DataItemLinkType property is set to **Use Default Values If No Match**.  
   
- For example, the following illustration shows the Query Designer and **Properties** window for linking the Sales Header table to the Salesperson\/Purchaser table. You set the DataItemLink property and the DataItemLinkType property on the Sales Header data item because it is the lower data item in Query Designer.  
+ For example, the following illustration shows the Query Designer and **Properties** window for linking the Sales Header table to the Salesperson/Purchaser table. You set the DataItemLink property and the DataItemLinkType property on the Sales Header data item because it is the lower data item in Query Designer.  
   
  ![Query Designer showing link between 2 data items](media/NAV_Query_Designer_Sample_DataItemLink.png "NAV\_Query\_Designer\_Sample\_DataItemLink")  
   
@@ -113,7 +113,7 @@ With [!INCLUDE[navnow](includes/navnow_md.md)] queries, you can retrieve records
  The record for **Bart** in the Salesperson table does not have a matching record in the Sales Header table, so a row is included but the columns from the Sale Header table are given a null value. The record in the Sale Header table for **New Concepts** is not included in the resulting dataset because it does not have a matching column in the Salesperson table.  
   
 ## See Also  
- [How to: Create Queries](How%20to:%20Create%20Queries.md)   
- [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md)   
- [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](Walkthrough:%20Creating%20a%20Query%20That%20Uses%20a%20Totaling%20Method%20and%20Sorting.md)   
- [Walkthrough: Creating a Query to Link Three Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Three%20Tables.md)
+ [How to: Create Queries](How-to--Create-Queries.md)   
+ [Walkthrough: Creating a Query to Link Two Tables](Walkthrough--Creating-a-Query-to-Link-Two-Tables.md)   
+ [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](Walkthrough--Creating-a-Query-That-Uses-a-Totaling-Method-and-Sorting.md)   
+ [Walkthrough: Creating a Query to Link Three Tables](Walkthrough--Creating-a-Query-to-Link-Three-Tables.md)

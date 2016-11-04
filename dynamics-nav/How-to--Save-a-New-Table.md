@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 585c2a3f-1d84-4538-a872-1b2e71e1e85f
 caps.latest.revision: 11
 ---
@@ -32,4 +32,4 @@ When you design the fields and keys for a new table, you need to save the table 
 4.  Clear the **Compiled** check box if you do not want the table to be compiled when it is saved.  
   
 ## See Also  
- [How to: Create a Table](How%20to:%20Create%20a%20Table.md)
+ [How to: Create a Table](How-to--Create-a-Table.md)

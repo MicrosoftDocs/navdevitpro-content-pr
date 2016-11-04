@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 3db4a1d0-3356-426d-ab49-c8e65a4b7186
 caps.latest.revision: 9
 manager: edupont
@@ -26,8 +26,8 @@ This complex data type stores reports.
  [PRINTONLYIFDETAIL Function \(Report\)](PRINTONLYIFDETAIL-Function--Report-.md)   
  [QUIT Function \(Report, XMLport\)](QUIT-Function--Report--XMLport-.md)   
  [RDLCLAYOUT Function](RDLCLAYOUT-Function.md)   
- [REPORT.RUN Function](REPORT.RUN-Function.md)   
- [REPORT.RUNMODAL Function](REPORT.RUNMODAL-Function.md)   
+ [REPORT.RUN Function](REPORT-RUN-Function.md)   
+ [REPORT.RUNMODAL Function](REPORT-RUNMODAL-Function.md)   
  [RUN Function \(Report\)](RUN-Function--Report-.md)   
  [RUNMODAL Function \(Report\)](RUNMODAL-Function--Report-.md)   
  [RUNREQUESTPAGE Function](RUNREQUESTPAGE-Function.md)   

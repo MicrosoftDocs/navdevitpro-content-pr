@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 4134e6f3-54ec-48e0-9f28-6b2e3a0e49d7
 caps.latest.revision: 22
 manager: edupont
@@ -35,5 +35,5 @@ This topic contains information about how to implement a secure [!INCLUDE[nav_wi
 |To|See|  
 |--------|---------|  
 |Read about the certificate security implementation that is presented in this implementation.|[Using Certificates to Secure a Remote Client Connection](Using-Certificates-to-Secure-a-Remote-Client-Connection.md)|  
-|Follow a detailed demonstration of how to set up an environment for testing secure connections over a WAN by using the chain trust configuration.|[Walkthrough: Implementing Security Certificates in a Test Environment](Walkthrough:%20Implementing%20Security%20Certificates%20in%20a%20Test%20Environment.md)|  
-|Learn how to implement security certificates in a production environment.|[How to: Implement Security Certificates in a Production Environment](How%20to:%20Implement%20Security%20Certificates%20in%20a%20Production%20Environment.md)|
+|Follow a detailed demonstration of how to set up an environment for testing secure connections over a WAN by using the chain trust configuration.|[Walkthrough: Implementing Security Certificates in a Test Environment](Walkthrough--Implementing-Security-Certificates-in-a-Test-Environment.md)|  
+|Learn how to implement security certificates in a production environment.|[How to: Implement Security Certificates in a Production Environment](How-to--Implement-Security-Certificates-in-a-Production-Environment.md)|

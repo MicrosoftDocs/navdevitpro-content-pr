@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: c20b44d9-1863-4aab-999d-2ea3b756a41f
 caps.latest.revision: 11
 manager: edupont
@@ -17,4 +17,4 @@ The **Microsoft Software License Terms** page in [!INCLUDE[navnowlong](includes/
  To print the software license terms, choose **Print**.  
   
 ## See Also  
- [How to: Upload the License File](How%20to:%20Upload%20the%20License%20File.md)
+ [How to: Upload the License File](How-to--Upload-the-License-File.md)

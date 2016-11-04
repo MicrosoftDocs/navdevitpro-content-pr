@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 1b65a764-c293-4153-9e3d-f30930789e71
 caps.latest.revision: 6
 manager: edupont
@@ -37,4 +37,4 @@ manager: edupont
 |[OnLookup \(Fields\) Trigger](OnLookup--Fields--Trigger.md)|Lookup is activated.|  
   
 ## See Also  
- [How to: Define or Modify Table or Field Triggers](How%20to:%20Define%20or%20Modify%20Table%20or%20Field%20Triggers.md)
+ [How to: Define or Modify Table or Field Triggers](How-to--Define-or-Modify-Table-or-Field-Triggers.md)

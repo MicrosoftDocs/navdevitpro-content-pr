@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: e757a8ef-8299-4229-aa44-059341100e0d
 caps.latest.revision: 19
 manager: edupont
@@ -56,7 +56,7 @@ Action submenus can be placed on pages in the [!INCLUDE[nav_windows](includes/na
   
 8.  Use the right and left indentation arrows to indent your new action one space below **ActionGroup**.  
   
-     For more information, see [How to: Add Actions to a Page](How%20to:%20Add%20Actions%20to%20a%20Page.md).  
+     For more information, see [How to: Add Actions to a Page](How-to--Add-Actions-to-a-Page.md).  
   
 9. Save and compile the page.  
   
@@ -64,4 +64,4 @@ Action submenus can be placed on pages in the [!INCLUDE[nav_windows](includes/na
   
 ## See Also  
  [Actions Overview](Actions-Overview.md)   
- [How to: Add Actions to a Page](How%20to:%20Add%20Actions%20to%20a%20Page.md)
+ [How to: Add Actions to a Page](How-to--Add-Actions-to-a-Page.md)

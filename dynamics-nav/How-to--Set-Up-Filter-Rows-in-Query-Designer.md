@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: ec853cd5-b6cd-493d-b7b2-9ad5e3bd6ac4
 caps.latest.revision: 10
 manager: edupont
@@ -50,4 +50,4 @@ You use a Filter row in Query Designer when you want to filter the query on a fi
 ## See Also  
  [Understanding Query Filters](Understanding-Query-Filters.md)   
  [ColumnFilter Property](ColumnFilter-Property.md)   
- [How to: Create Queries](How%20to:%20Create%20Queries.md)
+ [How to: Create Queries](How-to--Create-Queries.md)

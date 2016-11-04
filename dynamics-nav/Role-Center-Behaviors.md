@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 04cff7a2-2d36-4975-be75-efa052da348b
 caps.latest.revision: 11
 ---
@@ -15,7 +15,7 @@ This section describes in which areas the Role Center pages have a different beh
   
 ## Behavioral Differences  
   
-|Concept|On Tablet\/Phone|  
+|Concept|On Tablet/Phone|  
 |-------------|----------------------|  
 |Tiles|The app bar will automatically show tiles in two or three columns depending on the total number of tiles. A Role Center with many tiles only displays the tiles that fit vertically on the screen; other tiles are not shown and will not be available.<br /><br /> On the phone, the Home page will automatically show tiles in one or two columns depending on the total number of tiles and these can be scrolled.|  
 |Actions|Actions that are added under an **ActionContainer** of the subtype **HomeItems** are always shown in the navigation pane.|  

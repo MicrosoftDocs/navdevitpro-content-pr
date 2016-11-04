@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 884e9de1-c83d-4c78-a6c4-ab0e18956a61
 caps.latest.revision: 17
 manager: edupont
@@ -65,7 +65,7 @@ Containments and associations are relationships between pages in [!INCLUDE[navno
  When you publish a page that has a subpage, you can identify that subpage in the AtomPub document that is returned for the published page. For example, when you publish page 42, Sales Order, you can access a single record on the page using a URI such as the following:  
   
 ```  
-http://localhost:7048/nav_server_instance/OData/Company('CRONUS%20International%20Ltd.')/SalesOrder(Document_Type='Order',No='101005')/  
+http://localhost:7048/nav_server_instance/OData/Company('CRONUS-International-Ltd.')/SalesOrder(Document_Type='Order',No='101005')/  
 ```  
   
  The following line in the returned AtomPub document for the record provides link information for a containment:  
@@ -80,7 +80,7 @@ http://localhost:7048/nav_server_instance/OData/Company('CRONUS%20International%
  Notice the `type=feed` in the line above. To access the subpage data feed, use a URI that incorporates the link that was identified in the previous document:  
   
 ```  
-http://localhost:7048/nav_server_instance/OData/Company('CRONUS%20International%20Ltd.')/SalesOrder(Document_Type='Order',No='101005')/SalesOrderSalesLines  
+http://localhost:7048/nav_server_instance/OData/Company('CRONUS-International-Ltd.')/SalesOrder(Document_Type='Order',No='101005')/SalesOrderSalesLines  
 ```  
   
 ## Using Associations  
@@ -99,7 +99,7 @@ http://localhost:7048/nav_server_instance/OData/Company('CRONUS%20International%
  If you publish pages 42 and 22 as web services, then you can return an AtomPub document for the Sales Order page. The following URI returns data for a single record on the page, which is order number 101005:  
   
 ```  
-http://localhost:7048/nav_server_instance/OData/Company('CRONUS%20International%20Ltd.')/SalesOrder(Document_Type='Order',No='101005')/  
+http://localhost:7048/nav_server_instance/OData/Company('CRONUS-International-Ltd.')/SalesOrder(Document_Type='Order',No='101005')/  
 ```  
   
  A set of three tags near the top of the returned document show one containment \(**SalesOrderSalesLines**\) and two associations \(**Sell\_to\_Customer\_No** and **Bill\_to\_Customer\_No**\) on the page. Notice the `type=entry` in the following lines:  
@@ -120,7 +120,7 @@ http://localhost:7048/nav_server_instance/OData/Company('CRONUS%20International%
  This information provides the necessary information to create a URI to access a record on the Customer List page by using an association:  
   
 ```  
-http://localhost:7048/nav_server_instance/OData/Company('CRONUS%20International%20Ltd.')  
+http://localhost:7048/nav_server_instance/OData/Company('CRONUS-International-Ltd.')  
              /SalesOrder(Document_Type='Order',No='101005')/Sell_to_Customer_No_Link  
 ```  
   

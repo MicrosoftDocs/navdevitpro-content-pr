@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 890e4a5b-2f43-4cb8-bc7a-18261eaf8139
 caps.latest.revision: 19
 manager: edupont
@@ -34,13 +34,13 @@ This topic describes how to install and configure Internet Information Service \
   
  The procedure is slightly different for the different versions of Windows. For more information, see the following sections:  
   
--   [Installing IIS Features on Windows 7](How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#Win7)  
+-   [Installing IIS Features on Windows 7](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md#Win7)  
   
--   [Installing IIS Features on Windows Server 2008 and Windows Server 2008 R2](How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#ws2008)  
+-   [Installing IIS Features on Windows Server 2008 and Windows Server 2008 R2](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md#ws2008)  
   
--   [Installing IIS Features on Windows 8 and Windows 10](How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#Win8)  
+-   [Installing IIS Features on Windows 8 and Windows 10](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md#Win8)  
   
--   [Installing IIS Features on Windows Server 2012](How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#WS2012)  
+-   [Installing IIS Features on Windows Server 2012](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md#WS2012)  
   
 > [!NOTE]  
 >  Instead of manually installing IIS, you can use the [!INCLUDE[navnow](includes/navnow_md.md)] Setup wizard to install and enable the IIS features. For more information, see [Using Microsoft Dynamics NAV Setup to Install IIS Features](Using-Microsoft-Dynamics-NAV-Setup-to-Install-IIS-Features.md).  
@@ -82,7 +82,7 @@ This topic describes how to install and configure Internet Information Service \
   
 9. In the **Windows features** list, expand **Microsoft .NET Framework**, and then select **Windows Communication Foundation HTTP Activation**.  
   
-10. To verify that the web server has been installed correctly, start your browser, and then type **http:\/\/localhost** in the address.  
+10. To verify that the web server has been installed correctly, start your browser, and then type **http://localhost** in the address.  
   
      The default web site opens and should display an IIS 7 image. If the IIS 7 image does not appear, then verify that you have configured static content on IIS, as described in step 6.  
   
@@ -134,7 +134,7 @@ This topic describes how to install and configure Internet Information Service \
   
 10. When the installation is complete, choose the **Close** button.  
   
-11. To verify that the web server has been installed correctly, start your browser, and then type **http:\/\/localhost** in the address.  
+11. To verify that the web server has been installed correctly, start your browser, and then type **http://localhost** in the address.  
   
      The default website opens and should display an IIS 7 image. If the IIS 7 image does not appear, then verify that you have configured static content on IIS, as described in step 5.  
   
@@ -207,7 +207,7 @@ This topic describes how to install and configure Internet Information Service \
   
 7.  Choose the **OK** button to complete the installation.  
   
-8.  To verify that the web server has been installed correctly, start your browser, and then type **http:\/\/localhost** in the address.  
+8.  To verify that the web server has been installed correctly, start your browser, and then type **http://localhost** in the address.  
   
      The default web site opens and should display an IIS 8 image.  
   
@@ -306,10 +306,10 @@ This topic describes how to install and configure Internet Information Service \
   
 17. On the **Installation progress** page, confirm that your installation completed successfully, and then choose the **Close** button.  
   
-18. To verify that the web server has been installed correctly, start your browser, and then type **http:\/\/localhost** in the address.  
+18. To verify that the web server has been installed correctly, start your browser, and then type **http://localhost** in the address.  
   
      The default website opens and should display an IIS 8 image.  
   
 ## See Also  
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
- [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md)
+ [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md)

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 9677f4f9-1053-45b3-8837-d667324f16fb
 caps.latest.revision: 21
 manager: edupont
@@ -43,16 +43,16 @@ To create an RDLC layout, you use Visual Studio Report Designer or Microsoft SQL
   
 ## See Also  
  [Understanding Headers and Footers](Understanding-Headers-and-Footers.md)   
- [How to: Add and Identify Hidden Fields](How%20to:%20Add%20and%20Identify%20Hidden%20Fields.md)   
- [How to: Add Totals in Visual Studio](How%20to:%20Add%20Totals%20in%20Visual%20Studio.md)   
- [How to: Apply Conditional Visibility Controls](How%20to:%20Apply%20Conditional%20Visibility%20Controls.md)   
- [How to: Conditionally Change a Row to Bold Font](How%20to:%20Conditionally%20Change%20a%20Row%20to%20Bold%20Font.md)   
- [How to: Change the Printed Values of Boolean Variables](How%20to:%20Change%20the%20Printed%20Values%20of%20Boolean%20Variables.md)   
- [How to: Create New Pages per Record](How%20to:%20Create%20New%20Pages%20per%20Record.md)   
- [How to: Format Date Values](How%20to:%20Format%20Date%20Values.md)   
- [How to: Conditionally Display Filter Headers](How%20to:%20Conditionally%20Display%20Filter%20Headers.md)   
- [How to: Print Report Header Information on Multiple Pages](How%20to:%20Print%20Report%20Header%20Information%20on%20Multiple%20Pages.md)   
- [How to: Use Option Strings in Multilanguage Implementations](How%20to:%20Use%20Option%20Strings%20in%20Multilanguage%20Implementations.md)   
- [How to: Reset Report Page Numbers](How%20to:%20Reset%20Report%20Page%20Numbers.md)   
- [How to: Specify Rounding Precision](How%20to:%20Specify%20Rounding%20Precision.md)   
- [Troubleshooting: Visual Studio Report Designer provided metadata is not valid](Troubleshooting:%20Visual%20Studio%20Report%20Designer%20provided%20metadata%20is%20not%20valid.md)
+ [How to: Add and Identify Hidden Fields](How-to--Add-and-Identify-Hidden-Fields.md)   
+ [How to: Add Totals in Visual Studio](How-to--Add-Totals-in-Visual-Studio.md)   
+ [How to: Apply Conditional Visibility Controls](How-to--Apply-Conditional-Visibility-Controls.md)   
+ [How to: Conditionally Change a Row to Bold Font](How-to--Conditionally-Change-a-Row-to-Bold-Font.md)   
+ [How to: Change the Printed Values of Boolean Variables](How-to--Change-the-Printed-Values-of-Boolean-Variables.md)   
+ [How to: Create New Pages per Record](How-to--Create-New-Pages-per-Record.md)   
+ [How to: Format Date Values](How-to--Format-Date-Values.md)   
+ [How to: Conditionally Display Filter Headers](How-to--Conditionally-Display-Filter-Headers.md)   
+ [How to: Print Report Header Information on Multiple Pages](How-to--Print-Report-Header-Information-on-Multiple-Pages.md)   
+ [How to: Use Option Strings in Multilanguage Implementations](How-to--Use-Option-Strings-in-Multilanguage-Implementations.md)   
+ [How to: Reset Report Page Numbers](How-to--Reset-Report-Page-Numbers.md)   
+ [How to: Specify Rounding Precision](How-to--Specify-Rounding-Precision.md)   
+ [Troubleshooting: Visual Studio Report Designer provided metadata is not valid](Troubleshooting--Visual-Studio-Report-Designer-provided-metadata-is-not-valid.md)

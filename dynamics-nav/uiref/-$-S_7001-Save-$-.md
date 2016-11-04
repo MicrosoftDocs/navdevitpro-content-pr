@@ -1,17 +1,17 @@
 ---
-title: "($ S_7001 Save $)"
+title: "Save"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 37fa7c9d-4f59-46df-b621-37e46302a7ba
 caps.latest.revision: 4
 manager: edupont
 ---
-# ($ S_7001 Save $)
+# Save
 Saves changes that have been made to a [!INCLUDE[navnow](../includes/navnow_md.md)] object.  
 
  The following table describes the options on the **Save** window.  

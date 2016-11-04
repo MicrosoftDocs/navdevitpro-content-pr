@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 4a0ae945-1a46-46b3-b025-8bd3707128fd
 caps.latest.revision: 8
 manager: edupont
@@ -48,7 +48,7 @@ SETRANGE("Sell-to Customer No.",Customer."No.");
   
  You must set the **LinkTable** property of the Sales Header XML item to point to the Customer table and set the [LinkFields Property](LinkFields-Property.md) of the Sales Header XML item so that the Sell-to Customer No. field points to the No. field in the Customer table. This ensures that the customer numbers in the incoming data stream are inserted into both the Customer table and the Sales Header table. The incoming data stream must conform to the XML schema that you have defined for your XMLport.  
   
- In this example, the information you are importing has a header\/line relationship—each customer can place many orders. The customer information is the parent of the sales header information. In this kind of relationship the parent information generally functions as a kind of wrapper that encapsulates the information about the children.  
+ In this example, the information you are importing has a header/line relationship—each customer can place many orders. The customer information is the parent of the sales header information. In this kind of relationship the parent information generally functions as a kind of wrapper that encapsulates the information about the children.  
   
  The schema typically starts by supplying some of the parent information, followed by the information about the children, and it finishes by supplying the last of the parent information.  
   

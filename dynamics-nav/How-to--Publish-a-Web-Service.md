@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: ec2afaf4-94cd-41ea-a1f0-11bd55462919
 caps.latest.revision: 42
 manager: edupont
@@ -82,8 +82,8 @@ Web services are a lightweight way to make application functionality available t
   
     |Web service type|Syntax|Example|  
     |----------------------|------------|-------------|  
-    |SOAP|https:\/\/*Server*:*SOAPWebServicePort*\/*ServerInstance*\/WS\/*CompanyName*\/services\/|https:\/\/localhost:7047\/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\/WS\/CRONUS International Ltd.\/services\/|  
-    |OData|https:\/\/*Server*:*ODataWebServicePort*\/*ServerInstance*\/OData\/Company\('*CompanyName*'\)|https:\/\/localhost:7048\/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\/OData\/Company\('CRONUS International Ltd.'\)|  
+    |SOAP|https://*Server*:*SOAPWebServicePort*/*ServerInstance*/WS/*CompanyName*/services/|https://localhost:7047/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/WS/CRONUS International Ltd./services/|  
+    |OData|https://*Server*:*ODataWebServicePort*/*ServerInstance*/OData/Company\('*CompanyName*'\)|https://localhost:7048/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/OData/Company\('CRONUS International Ltd.'\)|  
   
      The company name is case-sensitive.  
   
@@ -100,5 +100,4 @@ https://localhost:7048/nav_server_instance/OData/Customer?company='CRONUS Intern
 ```  
   
 ## See Also  
- [\($ N\_810 Web Services $\)](\($%20N_810%20Web%20Services%20$\).md)   
- [Web Service Walkthroughs](Web-Service-Walkthroughs.md)
+[Web Service Walkthroughs](Web-Service-Walkthroughs.md)

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 8bfff70e-a3ac-4a5e-aa04-092473a1559e
 caps.latest.revision: 14
 manager: edupont
@@ -33,8 +33,8 @@ With queries, you can link data items together to combine records from two or mo
 ## Sample Tables and Query  
  This topic uses the following sample tables and query to demonstrate the SQL Advanced Options for data item links.  
   
-### Salesperson\/Purchaser Table  
- The Salesperson\/Purchaser table contains a list of salespersons. Each salesperson is identified by a unique code.  
+### Salesperson/Purchaser Table  
+ The Salesperson/Purchaser table contains a list of salespersons. Each salesperson is identified by a unique code.  
   
 |Code|Name|  
 |----------|----------|  
@@ -54,7 +54,7 @@ With queries, you can link data items together to combine records from two or mo
 |4000|New Concepts||  
   
 ### Sample Query  
- The following illustration shows the Query Designer for a query that links the Sale Header table with the Salesperson\/Purchaser table on the **Salesperson\_code** and **Code** columns, as specified by the DataItemLink property. In the illustration, the SQL Advanced Options property is set to **Inner Join**. For each of the data item links types discussed in the following sections, you change the SQL Advanced Options property to the appropriate type.  
+ The following illustration shows the Query Designer for a query that links the Sale Header table with the Salesperson/Purchaser table on the **Salesperson\_code** and **Code** columns, as specified by the DataItemLink property. In the illustration, the SQL Advanced Options property is set to **Inner Join**. For each of the data item links types discussed in the following sections, you change the SQL Advanced Options property to the appropriate type.  
   
  ![Query Designer for an SQL Inner link type](media/NAV_Query_Designer_SQL_Inner_Join.png "NAV\_Query\_Designer\_SQL\_Inner\_Join")  
   
@@ -70,7 +70,7 @@ With queries, you can link data items together to combine records from two or mo
  ![Visualization of SQL inner join between two tables](media/NAV_Query_SQL_Inner_Join.png "NAV\_Query\_SQL\_Inner\_Join")  
   
 ### Dataset Example  
- The following table shows the resulting dataset for an Inner Join between the Sales Header table and Salesperson\/Purchaser table in sample query.  
+ The following table shows the resulting dataset for an Inner Join between the Sales Header table and Salesperson/Purchaser table in sample query.  
   
 |Name|Sell\_to\_Customer\_No|Sell\_to\_Customer\_Name|  
 |----------|----------------------------|------------------------------|  
@@ -87,7 +87,7 @@ With queries, you can link data items together to combine records from two or mo
   
 -   Use the INNER JOIN condition with an ON clause.  
   
- The following two examples show how to create an inner join on the Salesperson\/Purchaser and Sales Header tables with SQL statements. These two statements result in the same dataset.  
+ The following two examples show how to create an inner join on the Salesperson/Purchaser and Sales Header tables with SQL statements. These two statements result in the same dataset.  
   
 ```  
 SELECT "Salesperson/Purchaser".Name, "Sales Header"."No.", "Sales Header"."Sell-to Customer Name"  
@@ -108,12 +108,12 @@ WHERE "Salesperson/Purchaser".Code = "Sales Header"."Salesperson Code"
   
 -   When a record in the upper data item table has no matching record in the lower data item table, columns coming from the lower data item table have null values.  
   
- The following illustration shows a **Left Outer Join** type between tables A and B. The shaded area indicates the records that are included in the resulting dataset. In the sample query, the Salesperson\/Purchaser table is considered the left table.  
+ The following illustration shows a **Left Outer Join** type between tables A and B. The shaded area indicates the records that are included in the resulting dataset. In the sample query, the Salesperson/Purchaser table is considered the left table.  
   
  ![Visualization of SQL left outer join](media/NAV_Query_SQL_Left_Outer_Join.png "NAV\_Query\_SQL\_Left\_Outer\_Join")  
   
 ### Dataset Example  
- The following table shows the resulting dataset for a Left Outer Join between the Sales Header table and Salesperson\/Purchaser table in sample query.  
+ The following table shows the resulting dataset for a Left Outer Join between the Sales Header table and Salesperson/Purchaser table in sample query.  
   
 |Name|No|Sell\_to\_Customer\_Name|  
 |----------|--------|------------------------------|  
@@ -122,12 +122,12 @@ WHERE "Salesperson/Purchaser".Code = "Sales Header"."Salesperson Code"
 |Debra|2000|Blanemark|  
 |John|3000|Candoxy|  
   
- The record for **Bart** in the Salesperson\/Purchaser table does not have a matching record in the Sales Header table, so a row is included but the columns from the Sale Header table are given null values. The record for **New Concepts** in the Sale Header table is not included in the resulting dataset because it does not have a matching column in the Salesperson\/Purchaser table.  
+ The record for **Bart** in the Salesperson/Purchaser table does not have a matching record in the Sales Header table, so a row is included but the columns from the Sale Header table are given null values. The record for **New Concepts** in the Sale Header table is not included in the resulting dataset because it does not have a matching column in the Salesperson/Purchaser table.  
   
 ### SQL SELECT Statement for Left Outer Join  
  To specify a left outer join with an SQL statement, you use the LEFT OUTER JOIN condition.  
   
- The following example shows how to create a left outer join on the Salesperson\/Purchaser and Sales Header tables by using a SQL statement.  
+ The following example shows how to create a left outer join on the Salesperson/Purchaser and Sales Header tables by using a SQL statement.  
   
 ```  
 SELECT "Salesperson/Purchaser".Name, "Sales Header"."No.", "Sales Header"."Sell-to Customer Name"  
@@ -147,7 +147,7 @@ FROM "Salesperson/Purchaser" LEFT OUTER JOIN "Sales Header"
  ![Visualization of SQL right outer join](media/NAV_Query_SQL_Right_Outer_Join.png "NAV\_Query\_SQL\_Right\_Outer\_Join")  
   
 ### Dataset Example  
- The following table shows the resulting dataset for a Right Outer Join between the Salesperson\/Purchaser table and Sales Header table in the sample query. The Sales Header table is considered the right table.  
+ The following table shows the resulting dataset for a Right Outer Join between the Salesperson/Purchaser table and Sales Header table in the sample query. The Sales Header table is considered the right table.  
   
 |Name|No|Sell\_to\_Customer\_Name|  
 |----------|--------|------------------------------|  
@@ -156,12 +156,12 @@ FROM "Salesperson/Purchaser" LEFT OUTER JOIN "Sales Header"
 |John|3000|Candoxy|  
 |null|4000|New Concept|  
   
- The record for **New Concepts** in the Sales Header table does not have a matching record in the Salesperson\/Purchaser table, so a row is included but the columns from the Salesperson\/Purchaser table are given null values. The record for **Bart** in the Salesperson\/Purchaser table is not included in the resulting dataset because it does not have a matching column in the Sales Header table.  
+ The record for **New Concepts** in the Sales Header table does not have a matching record in the Salesperson/Purchaser table, so a row is included but the columns from the Salesperson/Purchaser table are given null values. The record for **Bart** in the Salesperson/Purchaser table is not included in the resulting dataset because it does not have a matching column in the Sales Header table.  
   
 ### SQL SELECT Statement for Right Outer Join  
  To specify a left outer join with an SQL statement, you use the RIGHT OUTER JOIN condition.  
   
- The following example shows how to create a right outer join on the Salesperson\/Purchaser and Sales Header tables by using a SQL statement.  
+ The following example shows how to create a right outer join on the Salesperson/Purchaser and Sales Header tables by using a SQL statement.  
   
 ```  
 SELECT "Salesperson/Purchaser".Name, "Sales Header"."No.", "Sales Header"."Sell-to Customer Name"  
@@ -183,7 +183,7 @@ FROM "Salesperson/Purchaser" RIGHT OUTER JOIN "Sales Header"
  ![Visualization of an SQL full outer join](media/NAV_Query_SQL_Full_Outer_Join.png "NAV\_Query\_SQL\_Full\_Outer\_Join")  
   
 ### Dataset Example  
- The following table shows the resulting dataset for a Full Outer Join between the Sales Header table and Salesperson\/Purchaser table in sample query.  
+ The following table shows the resulting dataset for a Full Outer Join between the Sales Header table and Salesperson/Purchaser table in sample query.  
   
 |Name|No|Sell\_to\_Customer\_Name|  
 |----------|--------|------------------------------|  
@@ -193,12 +193,12 @@ FROM "Salesperson/Purchaser" RIGHT OUTER JOIN "Sales Header"
 |John|3000|Candoxy|  
 |null|4000|New Concept|  
   
- The records for **Bart** in the Salesperson\/Purchaser table and **New Concepts** in the Sales Header table are included in a row, even though they not have matching values for columns.  
+ The records for **Bart** in the Salesperson/Purchaser table and **New Concepts** in the Sales Header table are included in a row, even though they not have matching values for columns.  
   
 ### SQL SELECT Statement for Full Outer Join  
  To specify a left outer join with an SQL statement, you use the FULL OUTER JOIN condition.  
   
- The following example shows how to create a full outer join on the Salesperson\/Purchaser and Sales Header tables by using a SQL statement.  
+ The following example shows how to create a full outer join on the Salesperson/Purchaser and Sales Header tables by using a SQL statement.  
   
 ```  
 SELECT "Salesperson/Purchaser".Name, "Sales Header"."No.", "Sales Header"."Sell-to Customer Name"  
@@ -210,7 +210,7 @@ FROM "Salesperson/Purchaser" FULL OUTER JOIN "Sales Header"
  A *cross join* contains rows that combine each row from the upper data item table with each row from a lower data item table. Cross joins are also called Cartesian products. A cross join does not apply any comparisons between columns of data items, so the DataItemLink property is left blank.  
   
 ### Dataset Example  
- The following table shows the resulting dataset for a Cross Join between the Sales Header table and Salesperson\/Purchaser table in sample query.  
+ The following table shows the resulting dataset for a Cross Join between the Sales Header table and Salesperson/Purchaser table in sample query.  
   
 |Name|No|Sell\_to\_Customer\_Name|  
 |----------|--------|------------------------------|  
@@ -238,7 +238,7 @@ FROM "Salesperson/Purchaser" FULL OUTER JOIN "Sales Header"
   
 -   Create an implicit join, which has no join condition, without using a WHERE clause  
   
- The following examples shows how to create a cross join of the Salesperson\/Purchaser and Sales Header tables by using a SQL statement.  
+ The following examples shows how to create a cross join of the Salesperson/Purchaser and Sales Header tables by using a SQL statement.  
   
 ```  
 SELECT "Salesperson/Purchaser".Name, "Sales Header"."No.", "Sales Header"."Sell-to Customer Name"  

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: be638302-3a50-41a3-a231-c18da1977a9f
 caps.latest.revision: 10
 manager: edupont
@@ -19,8 +19,8 @@ Sets a category for a promoted action.
 -   Page actions  
   
 ## Remarks  
- Promoted actions appear in the ribbon on a page. You promote an action by setting the [Promoted Property](Promoted-Property.md). Categories allow you to group similar actions under a common caption. You can choose between 10 categories: New, Process, Report, and Category4 through Category10. By default, the category names are used as the captions in the ribbon. For information about changing the captions, see [How to: Define Promoted Action Categories Captions for the Ribbon](How%20to:%20Define%20Promoted%20Action%20Categories%20Captions%20for%20the%20Ribbon.md).  
+ Promoted actions appear in the ribbon on a page. You promote an action by setting the [Promoted Property](Promoted-Property.md). Categories allow you to group similar actions under a common caption. You can choose between 10 categories: New, Process, Report, and Category4 through Category10. By default, the category names are used as the captions in the ribbon. For information about changing the captions, see [How to: Define Promoted Action Categories Captions for the Ribbon](How-to--Define-Promoted-Action-Categories-Captions-for-the-Ribbon.md).  
   
 ## See Also  
  [Properties](Properties.md)   
- [How to: Promote Actions on Pages](How%20to:%20Promote%20Actions%20on%20Pages.md)
+ [How to: Promote Actions on Pages](How-to--Promote-Actions-on-Pages.md)

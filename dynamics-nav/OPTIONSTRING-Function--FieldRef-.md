@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: ec2d3585-1585-4b5a-a4f7-aee88e799ba0
 caps.latest.revision: 12
 manager: edupont
@@ -40,7 +40,7 @@ OptionString := FieldRef.OPTIONSTRING
  If the field is not an option an empty string is returned  
   
 ## Example  
- The following example opens the Item table with RecordRef variable that is named ItemRecref and creates a reference to field 19 \(Price\/Profit Calculation\), which is an Options field. The OPTIONSTRING function retrieves the options in the field and displays them as a comma separated list. This example requires that you create the following variables in the **C/AL Globals** windows.  
+ The following example opens the Item table with RecordRef variable that is named ItemRecref and creates a reference to field 19 \(Price/Profit Calculation\), which is an Options field. The OPTIONSTRING function retrieves the options in the field and displays them as a comma separated list. This example requires that you create the following variables in the **C/AL Globals** windows.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  

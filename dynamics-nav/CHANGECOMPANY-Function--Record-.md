@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: e50d0b45-9556-42a0-9efa-e23c88f1b152
 caps.latest.revision: 9
 manager: edupont
@@ -73,7 +73,7 @@ Record.CHANGECOMPANY(NewCompany);
 "G/L Entry".DELETE; // Deletes this entry in 'New Company'  
 ```  
   
- This example shows that after the **CHANGECOMPANY** function has been called, all future references to the G\/L Account and G\/L Entry tables will refer to the table data in New Company.  
+ This example shows that after the **CHANGECOMPANY** function has been called, all future references to the G/L Account and G/L Entry tables will refer to the table data in New Company.  
   
 ## Example  
  This example shows that CHANGECOMPANY only changes the company on a data level. Triggers and functions will still run in the context of the current company.  

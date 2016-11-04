@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 8a8c59dd-acd3-4f22-a7c3-ca5faaf1af40
 caps.latest.revision: 9
 ---
@@ -27,7 +27,7 @@ This topic describes how to install the Microsoft Azure PowerShell module on the
   
 ## See Also  
  [Preparing for Deploying Microsoft Dynamics NAV on Microsoft Azure](Preparing-for-Deploying-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
- [How to: Download and Import Publish Settings and Subscription Information](How%20to:%20Download%20and%20Import%20Publish%20Settings%20and%20Subscription%20Information.md)   
+ [How to: Download and Import Publish Settings and Subscription Information](How-to--Download-and-Import-Publish-Settings-and-Subscription-Information.md)   
  [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
  [Deploying Microsoft Dynamics NAV Using the Example Scripts](Deploying-Microsoft-Dynamics-NAV-Using-the-Example-Scripts.md)   
  [Network Topologies for Microsoft Dynamics NAV on Azure](Network-Topologies-for-Microsoft-Dynamics-NAV-on-Azure.md)

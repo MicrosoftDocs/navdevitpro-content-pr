@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 8bd17701-ec33-4448-9074-9817343d353b
 caps.latest.revision: 10
 manager: edupont
@@ -25,5 +25,5 @@ By default, page fields are arranged automatically in two columns. For more info
 |Field appearance|Shaded with a border.|No shading or border.|  
   
 ## See Also  
- [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](How%20to:%20Arrange%20Fields%20in%20Rows%20and%20Columns%20Using%20the%20GridLayout%20Control.md)   
- [How to: Arrange Page Fields in Rows and Columns Using a FixedLayout Control](How%20to:%20Arrange%20Page%20Fields%20in%20Rows%20and%20Columns%20Using%20a%20FixedLayout%20Control.md)
+ [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](How-to--Arrange-Fields-in-Rows-and-Columns-Using-the-GridLayout-Control.md)   
+ [How to: Arrange Page Fields in Rows and Columns Using a FixedLayout Control](How-to--Arrange-Page-Fields-in-Rows-and-Columns-Using-a-FixedLayout-Control.md)

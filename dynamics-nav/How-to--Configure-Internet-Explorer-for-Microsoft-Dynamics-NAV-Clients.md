@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 0c43029c-6c85-41b4-9107-bbb4f384e357
 caps.latest.revision: 12
 manager: edupont
@@ -75,4 +75,4 @@ To open the [!INCLUDE[nav_web](includes/nav_web_md.md)], Internet Explorer must 
 ## See Also  
  [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md)   
  [Microsoft Dynamics NAV Web Client](Microsoft-Dynamics-NAV-Web-Client.md)   
- [How to: Configure Mozilla Firefox for Microsoft Dynamics NAV Clients](How%20to:%20Configure%20Mozilla%20Firefox%20for%20Microsoft%20Dynamics%20NAV%20Clients.md)
+ [How to: Configure Mozilla Firefox for Microsoft Dynamics NAV Clients](How-to--Configure-Mozilla-Firefox-for-Microsoft-Dynamics-NAV-Clients.md)

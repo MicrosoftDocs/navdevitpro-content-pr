@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 1642b1c4-7147-4c55-8663-a4dc8b64d450
 caps.latest.revision: 13
 manager: edupont
@@ -73,7 +73,7 @@ MESSAGE(Text000 + Text001 + Text002 + Text003, InputDate, DayOfWeek, WeekNumber,
   
  The message window displays the following:  
   
- **The date 01\/01\/14 corresponds to:**  
+ **The date 01/01/14 corresponds to:**  
   
  **The day of the week: 4**  
   
@@ -81,7 +81,7 @@ MESSAGE(Text000 + Text001 + Text002 + Text003, InputDate, DayOfWeek, WeekNumber,
   
  **The year: 2014**  
   
- This example shows that the date 01\/01\/14 is regarded as day number 4 \(Thursday\) in week number 1 in the year 2014.  
+ This example shows that the date 01/01/14 is regarded as day number 4 \(Thursday\) in week number 1 in the year 2014.  
   
 ## See Also  
  [Date and Time Functions](Date-and-Time-Functions.md)

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 75b2a3a2-d2e6-4099-980c-1f4a343c79b6
 caps.latest.revision: 7
 manager: edupont
@@ -19,8 +19,8 @@ This complex data type stores pages.
   
 ## See Also  
  [OBJECTID Function \(Page\)](OBJECTID-Function--Page-.md)   
- [PAGE.RUN Function](PAGE.RUN-Function.md)   
- [PAGE.RUNMODAL Function](PAGE.RUNMODAL-Function.md)   
+ [PAGE.RUN Function](PAGE-RUN-Function.md)   
+ [PAGE.RUNMODAL Function](PAGE-RUNMODAL-Function.md)   
  [RUN Function \(Page\)](RUN-Function--Page-.md)   
  [RUNMODAL Function \(Page\)](RUNMODAL-Function--Page-.md)   
  [SETRECORD Function \(Page\)](SETRECORD-Function--Page-.md)   

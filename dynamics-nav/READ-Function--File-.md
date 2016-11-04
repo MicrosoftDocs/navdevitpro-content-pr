@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 7e3a92ab-6042-484b-8243-055c2c76d984
 caps.latest.revision: 12
 manager: edupont
@@ -50,7 +50,7 @@ Reads from an MS-DOS encoded file or binary file.
  This return value is optional.  
   
 ## Remarks  
- To read from a file that is larger than 1024 bytes, use streams instead of the **File.READ** function. For more information, see [How to: Use Streams to Read from Text Files](How%20to:%20Use%20Streams%20to%20Read%20from%20Text%20Files.md).  
+ To read from a file that is larger than 1024 bytes, use streams instead of the **File.READ** function. For more information, see [How to: Use Streams to Read from Text Files](How-to--Use-Streams-to-Read-from-Text-Files.md).  
   
  MS-DOS encoding, which is also referred to as OEM encoding, is an older format than UTF-8 and UTF-16, but it is still widely supported. MS-DOS encoding was the only format that was supported by earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)].  
   

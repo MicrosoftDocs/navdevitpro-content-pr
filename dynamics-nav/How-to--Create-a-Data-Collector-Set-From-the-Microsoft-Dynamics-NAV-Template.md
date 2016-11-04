@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: d1c5bdd0-a254-4cd9-8784-3590918398a3
 caps.latest.revision: 11
 ---
@@ -37,10 +37,10 @@ caps.latest.revision: 11
   
      To see the new Data Collector Set, in the navigation pane, expand **Data Collector Sets**, and then expand **User Defined**.  
   
- For information about how to start the Data Collector Set, see [To start and stop a Data Collector Set](How%20to:%20Create%20a%20Data%20Collector%20for%20Microsoft%20Dynamics%20NAV%20Performance%20Counters.md#StartDataCollectorSet).  
+ For information about how to start the Data Collector Set, see [To start and stop a Data Collector Set](How-to--Create-a-Data-Collector-for-Microsoft-Dynamics-NAV-Performance-Counters.md#StartDataCollectorSet).  
   
 ## See Also  
  [Working with Data Collector Sets](Working-with-Data-Collector-Sets.md)   
  [Microsoft Dynamics NAV Performance Counters](Microsoft-Dynamics-NAV-Performance-Counters.md)   
- [How to: View Performance Counter Data for a Data Collector Set](How%20to:%20View%20Performance%20Counter%20Data%20for%20a%20Data%20Collector%20Set.md)   
+ [How to: View Performance Counter Data for a Data Collector Set](How-to--View-Performance-Counter-Data-for-a-Data-Collector-Set.md)   
  [Microsoft Dynamics NAV Performance Counters](Microsoft-Dynamics-NAV-Performance-Counters.md)

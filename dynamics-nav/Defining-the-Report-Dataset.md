@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 1c928d15-a4d6-4b64-a2a1-99ac57b95cdd
 caps.latest.revision: 3
 manager: edupont
@@ -37,7 +37,7 @@ You use Report Dataset Designer in the [!INCLUDE[nav_dev_long](includes/nav_dev_
   
  You indent the second data item, which is the **Sales Order** table. As the report works through the records in the **Customer** table, it finds each customer's sales orders by examining the records in the **Sales Order** table.  
   
- For more information about how to create a dataset, see [How to: Create a Report Dataset](How%20to:%20Create%20a%20Report%20Dataset.md).  
+ For more information about how to create a dataset, see [How to: Create a Report Dataset](How-to--Create-a-Report-Dataset.md).  
   
 ## See Also  
  [Designing Report Layouts from the Microsoft Dynamics NAV Development Environment](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md)

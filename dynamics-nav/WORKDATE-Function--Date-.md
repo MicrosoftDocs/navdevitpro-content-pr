@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 8b0806a4-0972-483a-a356-7298708925e5
 caps.latest.revision: 13
 manager: edupont
@@ -51,7 +51,7 @@ MESSAGE(Text000, WORKDATE);
   
  The first line of code sets the work date to January 1, 2014. In the second line of code, the WORKDATE function returns the current work date. On a computer that has the regional format set to English \(United States\), the message window displays the following:  
   
- **The work date is: 01\/01\/14**  
+ **The work date is: 01/01/14**  
   
 ## See Also  
  [Date and Time Functions](Date-and-Time-Functions.md)

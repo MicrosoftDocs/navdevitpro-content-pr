@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: b256a000-e9fe-4050-b54c-1c618d78431b
 caps.latest.revision: 30
 manager: edupont
@@ -130,8 +130,8 @@ Automation lets you use the capabilities and features of Microsoft Office produc
   
     |Name|Data type|Subtype|Class|  
     |----------|---------------|-------------|-----------|  
-    |wdDoc|Automation|Microsoft Word 14.0\/15.0 Object Library|Document|  
-    |wdRange|Automation|Microsoft Word 14.0\/15.0  Object Library|Range|  
+    |wdDoc|Automation|Microsoft Word 14.0/15.0 Object Library|Document|  
+    |wdRange|Automation|Microsoft Word 14.0/15.0  Object Library|Range|  
   
 8.  Add the following variables.  
   
@@ -303,6 +303,6 @@ Automation lets you use the capabilities and features of Microsoft Office produc
  The letter that you have just created only contains six fields and no body text. Before you can use this letter in an actual situation, you will need to add some more fields, such as the name and address of your own company, the date, and the currency code, and the main text of the letter. It will also need some formatting to make it look more attractive. If you alter the order in which the fields appear in the template, you must change the numbering of the fields in the codeunit to ensure that the correct data is inserted into the appropriate fields.  
   
 ## See Also  
- [How to: Create an Automation Controller](How%20to:%20Create%20an%20Automation%20Controller.md)   
+ [How to: Create an Automation Controller](How-to--Create-an-Automation-Controller.md)   
  [Using COM Technologies in Microsoft Dynamics NAV](Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md)   
  [COM Overview](COM-Overview.md)

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 79a0cbce-3147-4992-a062-18a98e0257f7
 caps.latest.revision: 32
 manager: edupont
@@ -34,7 +34,7 @@ If you want to use reports from earlier versions of [!INCLUDE[navnow](includes/n
   
  In Object Designer, when the upgrade is complete, the **Modified** flag is set to **Yes**. All other properties for the report are not changed.  
   
- After the upgrade, you can open the layout in Visual Studio. For more information, see [How to: Integrate Report Dataset Designer and Visual Studio Report Designer](How%20to:%20Integrate%20Report%20Dataset%20Designer%20and%20Visual%20Studio%20Report%20Designer.md). You must compile the imported report before you can run it.  
+ After the upgrade, you can open the layout in Visual Studio. For more information, see [How to: Integrate Report Dataset Designer and Visual Studio Report Designer](How-to--Integrate-Report-Dataset-Designer-and-Visual-Studio-Report-Designer.md). You must compile the imported report before you can run it.  
   
 ## Importing RDLC 2010 Reports  
  You can import reports that have RDLC 2010 format to [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. Upgrading the reports is an automated process. SQL Server Report Builder first validates that the reports have the correct RDLC 2010 format and then imports them.  
@@ -43,6 +43,6 @@ If you want to use reports from earlier versions of [!INCLUDE[navnow](includes/n
   
 ## See Also  
  [Designing Reports](Designing-Reports.md)   
- [How to: Integrate Report Dataset Designer and Visual Studio Report Designer](How%20to:%20Integrate%20Report%20Dataset%20Designer%20and%20Visual%20Studio%20Report%20Designer.md)   
- [Upgrading to Microsoft Dynamics NAV 2016](Upgrading-to-Microsoft-Dynamics-NAV-2016.md)   
- [How to: Export Objects](How%20to:%20Export%20Objects.md)
+ [How to: Integrate Report Dataset Designer and Visual Studio Report Designer](How-to--Integrate-Report-Dataset-Designer-and-Visual-Studio-Report-Designer.md)   
+ [Upgrading to Microsoft Dynamics NAV 2017](Upgrading-to-Microsoft-Dynamics-NAV-2017.md)   
+ [How to: Export Objects](How-to--Export-Objects.md)

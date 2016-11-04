@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 2f99ed56-44ef-40fa-951e-9990443df153
 caps.latest.revision: 18
 manager: edupont
@@ -162,7 +162,7 @@ This walkthrough illustrates the following tasks:
      You can run the **Items** table, look at the unit prices and run to report again using an adjustment factor of 10. If you look at the unit prices in the **Item** table again, you will notice that the unit prices have increased by a multiple of 10. You can also set the filters to select specific records to modify.  
   
 ## Next Steps  
- You might consider designing a report that has a layout and can be printed. For more information, see [Walkthrough: Designing a Customer List Report](Walkthrough:%20Designing%20a%20Customer%20List%20Report.md).  
+ You might consider designing a report that has a layout and can be printed. For more information, see [Walkthrough: Designing a Customer List Report](Walkthrough--Designing-a-Customer-List-Report.md).  
   
 ## See Also  
  [Report Design Walkthroughs](Report-Design-Walkthroughs.md)

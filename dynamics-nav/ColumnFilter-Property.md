@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: d8dc69ca-ba8f-4f9b-82fd-4976e26817f2
 caps.latest.revision: 14
 manager: edupont
@@ -44,6 +44,6 @@ Quantity=FILTER(>20&<50)
   
 ## See Also  
  [Understanding Query Filters](Understanding-Query-Filters.md)   
- [How to: Set Up Filter Rows in Query Designer](How%20to:%20Set%20Up%20Filter%20Rows%20in%20Query%20Designer.md)   
- [How to: Create Queries](How%20to:%20Create%20Queries.md)   
+ [How to: Set Up Filter Rows in Query Designer](How-to--Set-Up-Filter-Rows-in-Query-Designer.md)   
+ [How to: Create Queries](How-to--Create-Queries.md)   
  [Queries](Queries.md)

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 1b00de44-adbd-4c8e-ad19-bee606f69f48
 caps.latest.revision: 5
 manager: edupont
@@ -23,7 +23,7 @@ Sets which printer is suggested when the report is run.
 ## Remarks  
  The user will be able to select another printer at runtime if the [UseRequestPage Property](UseRequestPage-Property.md) is **Yes**.  
   
- If the UseSystemPrinter property is set to **No**, but there is no specific printer defined for the User\/Report combination, the system default printer will be suggested.  
+ If the UseSystemPrinter property is set to **No**, but there is no specific printer defined for the User/Report combination, the system default printer will be suggested.  
   
 ## See Also  
  [UseRequestPage Property](UseRequestPage-Property.md)

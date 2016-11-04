@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: da4d2148-9846-43f6-a12f-d0af70f23d70
 caps.latest.revision: 5
 manager: tsiggaar
@@ -30,7 +30,7 @@ You configure the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] for Access
     |Setting|Value|  
     |-------------|-----------|  
     |ClientServicesCredentialType|"AccessControlService"|  
-    |ACSUri|Use the URI for your relying party application from the **Application Integration** section of the Access Control configuration. For more information, see [How to: Configure a Deployment for ACS](How%20to:%20Configure%20a%20Deployment%20for%20ACS.md).|  
+    |ACSUri|Use the URI for your relying party application from the **Application Integration** section of the Access Control configuration. For more information, see [How to: Configure a Deployment for ACS](How-to--Configure-a-Deployment-for-ACS.md).|  
   
 3.  After updating the values, save ClientUserSettings.config.  
   

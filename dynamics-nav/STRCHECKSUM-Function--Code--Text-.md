@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 2c19a082-ec78-4910-afcc-766c718d3431
 caps.latest.revision: 10
 manager: edupont
@@ -46,7 +46,7 @@ CheckNumber :=STRCHECKSUM(String[, WeightString][, Modulus])
   
  The checksum, which is calculated using this formula:  
   
- ![STRCHECKSUM formula](media/NAV_STRCHECKSUM_Formula.gif "NAV\_STRCHECKSUM\_Formula")  
+ ![STRCHECKSUM formula](media/NAV_STRCHECKSUM_Formula.png "NAV\_STRCHECKSUM\_Formula")  
   
 ## Example  
  This example shows how to use the STRCHECKSUM function to calculate a checksum.  

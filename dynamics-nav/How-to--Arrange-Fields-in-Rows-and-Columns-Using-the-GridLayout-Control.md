@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: b094eaa8-73a7-43f1-aaa2-a2735f1ddd09
 caps.latest.revision: 35
 manager: edupont
@@ -71,7 +71,7 @@ By default, fields in a FastTab are arranged automatically in two columns that a
     3.  To include a caption for the field, type the text in the **Caption** column.  
   
         > [!NOTE]  
-        >  By default, field captions display above the field. If you want to hide or reposition the caption, then see [Hiding Field Captions](How%20to:%20Arrange%20Fields%20in%20Rows%20and%20Columns%20Using%20the%20GridLayout%20Control.md#position).  
+        >  By default, field captions display above the field. If you want to hide or reposition the caption, then see [Hiding Field Captions](How-to--Arrange-Fields-in-Rows-and-Columns-Using-the-GridLayout-Control.md#position).  
   
 ## Setting Fields to Span Multiple Rows and Columns  
  You can set a field to span multiple rows or columns. When you set a field to span multiple rows, the field occupies the cells in the rows below it, and existing fields in the occupied cells are moved to the right. For example, the following figure illustrates a **GridLayout** control that consists of six fields arranged in three rows.  

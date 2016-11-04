@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 8491853b-e9e4-4a8d-9619-07a813c04735
 caps.latest.revision: 2
 manager: edupont
@@ -27,8 +27,8 @@ Specifies the name of the database schema of the external database.
 ## See Also  
  [TableType Property](TableType-Property.md)   
  [ExternalSchema Property](ExternalSchema-Property.md)   
- [Name Property-duplicate](Name-Property-duplicate.md)   
+ [Name Property](Name-Property-duplicate.md)   
  [Properties](Properties.md)   
- [\($ S\_2102 Table Designer $\)](-$-S_2102-Table-Designer-$-.md)   
+ [Table Designer](uiref/-$-S_2102-Table-Designer-$-.md)   
  [External Tables](External-Tables.md)   
- [Integrating Microsoft Dynamics CRM in Microsoft Dynamics NAV](Integrating%20Microsoft%20Dynamics%20CRM%20in%20Microsoft%20Dynamics%20NAV.md)
+ [Customizing Dynamics CRM and Dynamics NAV Integration](Customizing-Dynamics-CRM-and-Dynamics-NAV-Integration.md)

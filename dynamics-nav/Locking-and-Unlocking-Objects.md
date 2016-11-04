@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 295f6231-82dd-4265-9942-97e7a3a5ee9f
 caps.latest.revision: 10
 manager: edupont
@@ -35,5 +35,5 @@ You can lock an object in Object Designer so that other developers cannot save d
 -   A developer locks an object. A second developer opens the locked object in read-only mode, and then the first developer unlocks the object. The second developer still cannot save design changes to the object even though the object is now unlocked because it is open in read-only mode.  
   
 ## See Also  
- [How to: Lock an Object](How%20to:%20Lock%20an%20Object.md)   
- [How to: Unlock an Object](How%20to:%20Unlock%20an%20Object.md)
+ [How to: Lock an Object](How-to--Lock-an-Object.md)   
+ [How to: Unlock an Object](How-to--Unlock-an-Object.md)

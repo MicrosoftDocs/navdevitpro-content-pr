@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 42036b7e-e8c6-4d8e-a81c-f755506ed5b5
 caps.latest.revision: 16
 ---
@@ -46,13 +46,13 @@ When you deploy for the first time, you will have a [!INCLUDE[navnow](includes/n
 ## How to Scale the Network Topology  
  To scale the network topology, depending on the task, you use can use [!INCLUDE[nav_shell](includes/nav_shell_md.md)], [!INCLUDE[nav_admin](includes/nav_admin_md.md)], [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)]. The following table lists the tasks and the methods that you can use to perform the tasks.  
   
-|Task|Administration Shell|Administration Tool|Development Environment|Windows\/Web client|For more information, see|  
+|Task|Administration Shell|Administration Tool|Development Environment|Windows/Web client|For more information, see|  
 |----------|--------------------------|-------------------------|-----------------------------|-------------------------|-------------------------------|  
-|Add [!INCLUDE[nav_server](includes/nav_server_md.md)] instance|X|X|||[How to: Add a Microsoft Dynamics NAV Server Instance](How%20to:%20Add%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md) \(Administration Shell\)<br /><br /> [How to: Create a Microsoft Dynamics NAV Server Instance](How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md) \(Administration Tool\)|  
-|Add [!INCLUDE[navnow](includes/navnow_md.md)] web server instance|X||||[How to: Add a Microsoft Dynamics NAV Web Server Instance](How%20to:%20Add%20a%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Instance.md)|  
-|Mount a tenant on a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance|X|X|||[How to: Mount a Tenant](How%20to:%20Mount%20a%20Tenant.md) \(Administration Shell\)<br /><br /> [How to: Mount or Dismount a Tenant on a Microsoft Dynamics Server Instance](How%20to:%20Mount%20or%20Dismount%20a%20Tenant%20on%20a%20Microsoft%20Dynamics%20Server%20Instance.md) \(Administration Tool\)|  
-|Add [!INCLUDE[navnow](includes/navnow_md.md)] database|X||X||[How to: Add a Microsoft Dynamics NAV Database](How%20to:%20Add%20a%20Microsoft%20Dynamics%20NAV%20Database.md) \(Administration Shell\)<br /><br /> [How to: Create Databases](How%20to:%20Create%20Databases.md) \(Development Environment\)|  
-|Add [!INCLUDE[navnow](includes/navnow_md.md)] company|X|||X|[How to: Add a Microsoft Dynamics NAV Company](How%20to:%20Add%20a%20Microsoft%20Dynamics%20NAV%20Company.md) \(Administration Shell\)<br /><br /> [How to: Create a New Company](How%20to:%20Create%20a%20New%20Company.md) \(Windows or Web client\)|  
+|Add [!INCLUDE[nav_server](includes/nav_server_md.md)] instance|X|X|||[How to: Add a Microsoft Dynamics NAV Server Instance](How-to--Add-a-Microsoft-Dynamics-NAV-Server-Instance.md) \(Administration Shell\)<br /><br /> [How to: Create a Microsoft Dynamics NAV Server Instance](How-to--Create-a-Microsoft-Dynamics-NAV-Server-Instance.md) \(Administration Tool\)|  
+|Add [!INCLUDE[navnow](includes/navnow_md.md)] web server instance|X||||[How to: Add a Microsoft Dynamics NAV Web Server Instance](How-to--Add-a-Microsoft-Dynamics-NAV-Web-Server-Instance.md)|  
+|Mount a tenant on a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance|X|X|||[How to: Mount a Tenant](How-to--Mount-a-Tenant.md) \(Administration Shell\)<br /><br /> [How to: Mount or Dismount a Tenant on a Microsoft Dynamics Server Instance](How-to--Mount-or-Dismount-a-Tenant-on-a-Microsoft-Dynamics-Server-Instance.md) \(Administration Tool\)|  
+|Add [!INCLUDE[navnow](includes/navnow_md.md)] database|X||X||[How to: Add a Microsoft Dynamics NAV Database](How-to--Add-a-Microsoft-Dynamics-NAV-Database.md) \(Administration Shell\)<br /><br /> [How to: Create Databases](How-to--Create-Databases.md) \(Development Environment\)|  
+|Add [!INCLUDE[navnow](includes/navnow_md.md)] company|X|||X|[How to: Add a Microsoft Dynamics NAV Company](How-to--Add-a-Microsoft-Dynamics-NAV-Company.md) \(Administration Shell\)<br /><br /> [How to: Create Companies](How-to--Create-Companies.md) \(Windows or Web client\)|  
   
 > [!NOTE]  
 >  For [!INCLUDE[navnow](includes/navnow_md.md)] deployment on Microsoft Azure, we recommend that you establish a remote desktop connection to the virtual machines.  

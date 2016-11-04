@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 0431dd5f-98d1-47e4-b426-8dbe97b19fe2
 caps.latest.revision: 17
 manager: edupont
 ---
 # How to: Administer Multiple Microsoft Dynamics NAV Server Computers
-This procedure describes how to administer multiple [!INCLUDE[nav_server](includes/nav_server_md.md)] computers from a single instance of the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. In this procedure, you start the Microsoft Management Console \(MMC\) and then configure it to administer multiple [!INCLUDE[nav_server](includes/nav_server_md.md)] computers. If you start the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] from Control Panel or the Start menu, then you can only connect to a single [!INCLUDE[nav_server](includes/nav_server_md.md)] computer at a time. For more information, see [How to: Administer a Remote Microsoft Dynamics NAV Server Computer](How%20to:%20Administer%20a%20Remote%20Microsoft%20Dynamics%20NAV%20Server%20Computer.md)  
+This procedure describes how to administer multiple [!INCLUDE[nav_server](includes/nav_server_md.md)] computers from a single instance of the [!INCLUDE[nav_admin](includes/nav_admin_md.md)]. In this procedure, you start the Microsoft Management Console \(MMC\) and then configure it to administer multiple [!INCLUDE[nav_server](includes/nav_server_md.md)] computers. If you start the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] from Control Panel or the Start menu, then you can only connect to a single [!INCLUDE[nav_server](includes/nav_server_md.md)] computer at a time. For more information, see [How to: Administer a Remote Microsoft Dynamics NAV Server Computer](How-to--Administer-a-Remote-Microsoft-Dynamics-NAV-Server-Computer.md)  
   
 ### To configure MMC to connect to multiple [!INCLUDE[nav_server](includes/nav_server_md.md)] computers  
   
@@ -30,7 +30,7 @@ This procedure describes how to administer multiple [!INCLUDE[nav_server](includ
     mmc  
     ```  
   
-5.  In the Management Console, on the **File** menu, choose **Add\/Remove Snap-in** to open the **Add or remove Snap-ins** dialog box.  
+5.  In the Management Console, on the **File** menu, choose **Add/Remove Snap-in** to open the **Add or remove Snap-ins** dialog box.  
   
 6.  In the **Available snap-ins** list, double-click **Microsoft Dynamics NAV**.  
   

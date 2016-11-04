@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 5533f7c8-364a-441c-8cbe-75864460ee39
 caps.latest.revision: 8
 manager: tsiggaar
@@ -37,7 +37,7 @@ To gain access to the Microsoft Azure management portal, you must have an Azure 
  You can now use the [Azure management portal](http://manage.windowsazure.com) to manage Azure accounts, subscriptions, hosted services, virtual machines, storage accounts, databases, and more.  
   
 ## See Also  
- [How to: Sign Up for a Microsoft Account](How%20to:%20Sign%20Up%20for%20a%20Microsoft%20Account.md)   
+ [How to: Sign Up for a Microsoft Account](How-to--Sign-Up-for-a-Microsoft-Account.md)   
  [Authenticating Users with Microsoft Azure Access Control Service](Authenticating-Users-with-Microsoft-Azure-Access-Control-Service.md)   
  [Authenticating Users with Azure Active Directory](Authenticating-Users-with-Azure-Active-Directory.md)   
  [Users and Credential Types](Users-and-Credential-Types.md)   

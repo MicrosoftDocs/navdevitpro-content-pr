@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: dff1ed92-0a1d-4191-a443-c159c2cdc9a1
 caps.latest.revision: 11
 manager: edupont
@@ -33,4 +33,4 @@ You cannot open Visual Studio Report Designer and get the following error:
 2.  In the **Properties** window, on the **Compatibility** tab, in the **Privilege Level** section, select **Run this program as an administrator**.  
   
 ## See Also  
- [How to: Integrate Report Dataset Designer and Visual Studio Report Designer](How%20to:%20Integrate%20Report%20Dataset%20Designer%20and%20Visual%20Studio%20Report%20Designer.md)
+ [How to: Integrate Report Dataset Designer and Visual Studio Report Designer](How-to--Integrate-Report-Dataset-Designer-and-Visual-Studio-Report-Designer.md)

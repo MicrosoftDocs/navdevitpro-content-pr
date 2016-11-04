@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 9f1b5e9e-4167-4d57-bb0f-498587530ec7
 caps.latest.revision: 18
 manager: edupont
@@ -58,7 +58,7 @@ CurrPage.ControlName.MyMethod(parameter)
 CurrPage.ControlName.MyProperty  
 ```  
   
- `ControlName` is the name of the field control that is applied with the control add-in. The name is specified by the [Name Property-duplicate](Name-Property-duplicate.md). `MyMethod` and `MyProperty` are the names of method and property of the control add-in to be invoked.  
+ `ControlName` is the name of the field control that is applied with the control add-in. The name is specified by the [Name Property](Name-Property-duplicate.md). `MyMethod` and `MyProperty` are the names of method and property of the control add-in to be invoked.  
   
 ### Triggers That Are Not Supported  
  You cannot invoke control add-in methods and properties from the following triggers because the triggers are invoked before the page is instantiated:  
@@ -70,6 +70,6 @@ CurrPage.ControlName.MyProperty
 -   [OnNewRecord Trigger](OnNewRecord-Trigger.md)  
   
 ## See Also  
- [How to: Create a Windows Client Control Add-in](How%20to:%20Create%20a%20Windows%20Client%20Control%20Add-in.md)   
+ [How to: Create a Windows Client Control Add-in](How-to--Create-a-Windows-Client-Control-Add-in.md)   
  [Extending the Windows Client Using Control Add-ins](Extending-the-Windows-Client-Using-Control-Add-ins.md)   
  [Extending Microsoft Dynamics NAV Using Microsoft .NET Framework Interoperability](Extending-Microsoft-Dynamics-NAV-Using-Microsoft-.NET-Framework-Interoperability.md)

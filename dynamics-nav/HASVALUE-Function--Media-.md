@@ -6,67 +6,60 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
-ms.assetid: 0ab5b55d-2fb7-493c-93f4-8c88eec28acd
-caps.latest.revision: 3
+ms.author: jswymer
+ms.prod: "dynamics-nav-2017"
 manager: edupont
 ---
 # HASVALUE Function (Media)
 Checks whether a **Media** data type field in a record has been initialized with a media object and that the specified media object exists in the database.  
-  
+
 ## Syntax  
-  
+
 ```  
-HasValue := Record.Media.Media.HASVALUE  
+HasValue := Record.MediaField.HASVALUE  
 ```  
-  
+
 #### Parameters  
  *Record*  
  Type: Record  
-  
- Specifies the record that includes the media set.  
-  
- *Media*  
+
+ Specifies the record that includes the media.  
+
+ *MediaField*  
  Type: Media  
-  
- Specifies the **MediaSet** data type field of the record that includes the media.  
-  
+
+ Specifies the **Media** data type field of the record that includes the media.  
+
 ## Property Value/Return Value  
  Type: Boolean  
-  
+
  **true** if the **Media** data type field has media data; otherwise, **false**.  
-  
-## Exceptions  
-  
-## Remarks  
-  
+
 ## Example  
- This example uses the HASVALUE function to iterate over the **Item** table to determine whether media objects are available on records.  
-  
- This example assumes that **Item** table contains a **Media** data type field that is named **itemPicture**, and that you have imported some image files on records. For information about importing media, see [IMPORTFILE Function \(Media\)](IMPORTFILE-Function--Media-.md).  
-  
- The example code requires that you create the following variable:  
-  
+This example uses the HASVALUE function to iterate over the **My Items** table to determine whether media objects are available on records in the table.  
+
+The example assumes that **My Items** table exists and contains a **Media** data type field that is named **Image**. For information about importing media, see [IMPORTFILE Function \(Media\)](IMPORTFILE-Function--Media-.md).  
+
+The code returns a message if a record does not include a media object. To support the code, you must create the following variable:  
+
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  
-|Item|Record|Item|  
-  
- The following code returns a message if a record does not include a media object.  
-  
+|myItemRec|Record|My Items|  
+
 ```  
-IF Item.FINDFIRST() THEN  
+IF myItemRec.FINDFIRST() THEN  
 BEGIN  
   REPEAT  
-    If NOT Item.ItemPicture.HASVALUE THEN  
-      ERROR('Item %1 does not have a valid media attached', Item."No.");  
-  UNTIL Item.NEXT < 1;  
+    If NOT myItemRec.Image.HASVALUE THEN  
+      ERROR('Item %1 does not have a valid image', myItemRec."No.");  
+  UNTIL myItemRec.NEXT < 1;  
 END;  
 ```  
-  
+
 ## See Also  
  [Working With Media on Records](Working-With-Media-on-Records.md)   
+ [IMPORTFILE Function \(Media\)](IMPORTFILE-Function--Media-.md)   
  [IMPORTSTREAM Function \(Media\)](IMPORTSTREAM-Function--Media-.md)   
- [IMPORTFILE Function \(MediaSet\)](IMPORTFILE-Function--MediaSet-.md)   
- [IMPORTSTREAM Function \(MediaSet\)](IMPORTSTREAM-Function--MediaSet-.md)   
- [MediaSet Data Type](MediaSet-Data-Type.md)   
- [EXPORTSTREAM Function \(Media\)](EXPORTSTREAM-Function--Media-.md)
+ [EXPORTFILE Function \(Media\)](EXPORTFILE-Function--Media-.md)  
+ [EXPORTSTREAM Function \(Media\)](EXPORTSTREAM-Function--Media-.md)  
+ [MediaSet Data Type](MediaSet-Data-Type.md)  

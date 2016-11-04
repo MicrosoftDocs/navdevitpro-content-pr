@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: dd9f9a1d-27b2-4c6d-ba91-d4a2a201f9b7
 caps.latest.revision: 9
 manager: edupont
@@ -39,10 +39,10 @@ Finds the last record in a table based on the current key and filter.
 ## Remarks  
  This function should be used instead of FIND\('+'\) when you only need the last record.  
   
- You should only use this function when you explicitly want to find the last record in a table\/set. Do not use this function in combination with REPEAT...UNTIL.  
+ You should only use this function when you explicitly want to find the last record in a table/set. Do not use this function in combination with REPEAT...UNTIL.  
   
 ## Example  
- This example requires that you create a Record variable named GLEntryRec for the G\/L Entry table.  
+ This example requires that you create a Record variable named GLEntryRec for the G/L Entry table.  
   
 ```  
 // Read the last record only.   

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 670a6589-05e7-4289-9bb4-a3c0015f2442
 caps.latest.revision: 51
 manager: edupont
@@ -281,10 +281,10 @@ The following walkthrough demonstrates how to develop a [!INCLUDE[nav_windows](i
  [Developing Windows Client Control Add-ins](Developing-Windows-Client-Control-Add-ins.md)   
  [Client Extensibility API Overview](Client-Extensibility-API-Overview.md)   
  [Binding a Windows Client Control Add-in to the Database](Binding-a-Windows-Client-Control-Add-in-to-the-Database.md)   
- [Exposing Events and Calling Respective C-AL Triggers from a Windows Client Control Add-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md)   
- [How to: Create a Windows Client Control Add-in](How%20to:%20Create%20a%20Windows%20Client%20Control%20Add-in.md)   
- [How to: Determine the Public Key Token of the Windows Client Control Add-in and .NET Framework Assembly](How%20to:%20Determine%20the%20Public%20Key%20Token%20of%20the%20Windows%20Client%20Control%20Add-in%20and%20.NET%20Framework%20Assembly.md)   
+ [Exposing Events and Calling Respective C/AL Triggers from a Windows Client Control Add-in](Exposing-Events-and-Calling-Respective-C-AL-Triggers-from-a-Windows-Client-Control-Add-in.md)   
+ [How to: Create a Windows Client Control Add-in](How-to--Create-a-Windows-Client-Control-Add-in.md)   
+ [How to: Determine the Public Key Token of the Windows Client Control Add-in and .NET Framework Assembly](How-to--Determine-the-Public-Key-Token-of-the-Windows-Client-Control-Add-in-and-.NET-Framework-Assembly.md)   
  [Installing and Configuring Windows Client Control Add-ins on Pages](Installing-and-Configuring-Windows-Client-Control-Add-ins-on-Pages.md)   
- [How to: Install a Windows Client Control Add-in Assembly](How%20to:%20Install%20a%20Windows%20Client%20Control%20Add-in%20Assembly.md)   
- [How to: Register a Windows Client Control Add-in](How%20to:%20Register%20a%20Windows%20Client%20Control%20Add-in.md)   
- [How to: Set Up a Windows Client Control Add-in on a Page](How%20to:%20Set%20Up%20a%20Windows%20Client%20Control%20Add-in%20on%20a%20Page.md)
+ [How to: Install a Windows Client Control Add-in Assembly](How-to--Install-a-Windows-Client-Control-Add-in-Assembly.md)   
+ [How to: Register a Windows Client Control Add-in](How-to--Register-a-Windows-Client-Control-Add-in.md)   
+ [How to: Set Up a Windows Client Control Add-in on a Page](How-to--Set-Up-a-Windows-Client-Control-Add-in-on-a-Page.md)

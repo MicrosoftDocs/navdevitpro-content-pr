@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: cda49471-7eef-450e-8907-d63654c2b9a6
 caps.latest.revision: 16
 manager: edupont
@@ -16,7 +16,7 @@ If you apply a filter to the data in a report, then we recommend that you create
   
  To conditionally display the filter header, you must add a filter variable to the report dataset. Next, in the RDLC report layout, you must create a conditional expression on the visibility of the filter header that uses the filter variable that you added to the dataset.  
   
- An example of a report that has additional header rows to display filter information is report 113, **Customer\/Item Sales**.  
+ An example of a report that has additional header rows to display filter information is report 113, **Customer/Item Sales**.  
   
 ### To hide non-filtered headers  
   
@@ -64,7 +64,7 @@ If you apply a filter to the data in a report, then we recommend that you create
     IIF(First(Fields!ItemLedgEntryFilter.Value) = "",TRUE,FALSE)  
     ```  
   
-16. Save and compile the report. For more information, see [How to: Integrate Report Dataset Designer and Visual Studio Report Designer](How%20to:%20Integrate%20Report%20Dataset%20Designer%20and%20Visual%20Studio%20Report%20Designer.md).  
+16. Save and compile the report. For more information, see [How to: Integrate Report Dataset Designer and Visual Studio Report Designer](How-to--Integrate-Report-Dataset-Designer-and-Visual-Studio-Report-Designer.md).  
   
 ## See Also  
  [Designing Reports](Designing-Reports.md)

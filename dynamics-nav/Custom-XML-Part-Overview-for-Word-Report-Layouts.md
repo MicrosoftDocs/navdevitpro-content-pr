@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 8b29a095-5d4b-40de-8498-3f89994c9633
 caps.latest.revision: 14
 translation.priority.ht: 
@@ -47,8 +47,8 @@ Word report layouts are built on *custom XML parts*. A custom XML part is struct
 |------------------|-----------------|  
 |`<?xml version="1.0" encoding="utf-16"?>`|Header|  
 |`<NavWordReportXmlPart xmlns="urn:microsoft-../report/<reportname>/<id>/"`|XML namespace specification. `<reportname>` is the name that is assigned to the report object in [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. `<id>` is the ID that is assigned to the report.|  
-|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Contains all the labels for the report. The element includes labels that are related to columns that have the [IncludeCaption Property](IncludeCaption-Property.md) set to **Yes** and labels that are defined in **Report Label Designer**.<br /><br /> -   Label elements that are related to columns have the format `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`, where `ColumnName` is determined by the column's [Name Property-duplicate](Name-Property-duplicate.md).<br />-   Label elements from Report Label Designer have the format `<LabelName>LabelName</LableName`, where `LabelName` is determined by the label's [Name Property-duplicate](Name-Property-duplicate.md).<br />-   Labels are listed in alphabetical order.|  
-|`..<DataItem1>`<br /><br /> `....<DataItem1Column1>DataItem1Column1</DataItem1Column1>`|Top-level data item and columns. Columns are listed in alphabetical order.<br /><br /> The element names and values are determined by the [Name Property-duplicate](Name-Property-duplicate.md) of the data item or column.|  
+|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Contains all the labels for the report. The element includes labels that are related to columns that have the [IncludeCaption Property](IncludeCaption-Property.md) set to **Yes** and labels that are defined in **Report Label Designer**.<br /><br /> -   Label elements that are related to columns have the format `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`, where `ColumnName` is determined by the column's [Name Property](Name-Property-duplicate.md).<br />-   Label elements from Report Label Designer have the format `<LabelName>LabelName</LableName`, where `LabelName` is determined by the label's [Name Property](Name-Property-duplicate.md).<br />-   Labels are listed in alphabetical order.|  
+|`..<DataItem1>`<br /><br /> `....<DataItem1Column1>DataItem1Column1</DataItem1Column1>`|Top-level data item and columns. Columns are listed in alphabetical order.<br /><br /> The element names and values are determined by the [Name Property](Name-Property-duplicate.md) of the data item or column.|  
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Data items and columns that are nested in the top-level data item. Columns are listed in alphabetical order under the respective data item.|  
 |`..</DataItem1>`<br /><br /> `</NavWordReportXmlPart>`|Closing element.|  
   
@@ -69,11 +69,9 @@ Word report layouts are built on *custom XML parts*. A custom XML part is struct
   
 -   The language of the label that is displayed when you run the report depends on the language setting of the report object. For more information, see [Multiple Document Languages](Multiple-Document-Languages.md) and [Viewing the Application in Different Languages](Viewing-the-Application-in-Different-Languages.md).  
   
- For information about how to open the custom XML part in Word and add fields, see [How to: Add Fields to a Word Report Layout](How%20to:%20Add%20Fields%20to%20a%20Word%20Report%20Layout.md).  
+ For information about how to open the custom XML part in Word and add fields, see [Managing Report Layouts](managing-report-layouts.md).  
   
 ## See Also  
- [Managing Report Layouts From the Microsoft Dynamics NAV Clients](Managing%20Report%20Layouts%20From%20the%20Microsoft%20Dynamics%20NAV%20Clients.md)   
- [About Report Layouts](About%20Report%20Layouts.md)   
- [How to: Create a Custom Report Layout](How%20to:%20Create%20a%20Custom%20Report%20Layout.md)   
- [How to: Add Fields to a Word Report Layout](How%20to:%20Add%20Fields%20to%20a%20Word%20Report%20Layout.md)   
- [How to: Modify a Custom Report Layout](How%20to:%20Modify%20a%20Custom%20Report%20Layout.md)
+ [Managing Report Layouts](managing-report-layouts.md)   
+ [Managing Report Layouts](managing-report-layouts.md)   
+ [Managing Report Layouts](managing-report-layouts.md)

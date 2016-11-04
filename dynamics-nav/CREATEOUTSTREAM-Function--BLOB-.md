@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: d643906e-0dc6-4e44-a33f-79beaf6c8b94
 caps.latest.revision: 16
 manager: edupont
@@ -46,5 +46,5 @@ MyTable.MyBLOBfield.CREATEOUTSTREAM(MyStream, TextEncoding.WINDOWS)
 ## See Also  
  [BLOB Data Type](BLOB-Data-Type.md)   
  [InStream and OutStream Data Types](InStream-and-OutStream-Data-Types.md)   
- [How to: Use Streams to Write to Text Files](How%20to:%20Use%20Streams%20to%20Write%20to%20Text%20Files.md)   
+ [How to: Use Streams to Write to Text Files](How-to--Use-Streams-to-Write-to-Text-Files.md)   
  [Text Encoding](Text-Encoding.md)

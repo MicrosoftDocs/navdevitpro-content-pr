@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 89d7a1a1-f0ac-4998-b1c4-e47fb118932f
 caps.latest.revision: 8
 ---
@@ -25,7 +25,7 @@ If you have an application that performs some processing which can take a long t
   
 4.  On the **Variables** tab, in the **Name** field, enter **ProgressWindow**. In the **Data Type** field, select **Dialog** from the drop-down list.  
   
-5.  On the **Variables** tab, on a new line in the **Name** field, enter **ChartOfAcc**. In the **Data Type** field, select **Record** from the drop-down list. In the **Subtype** field, select **G\/L Account** from the table list.  
+5.  On the **Variables** tab, on a new line in the **Name** field, enter **ChartOfAcc**. In the **Data Type** field, select **Record** from the drop-down list. In the **Subtype** field, select **G/L Account** from the table list.  
   
 6.  In the **C/AL Editor** for the dialog, add the following code.  
   
@@ -41,7 +41,7 @@ If you have an application that performs some processing which can take a long t
   
      The first line defines the string that will be displayed in the progress window. The part of the string that contains the number signs \(\#\) and a number defines the field that will be displayed in the window. The number \(1\) refers to the field.  
   
-     In this example, each entry in the **G\/L Account** table is updated and the number of each account is displayed as it is updated.  
+     In this example, each entry in the **G/L Account** table is updated and the number of each account is displayed as it is updated.  
   
      The `SLEEP(1000);` function is necessary only to slow the processing so that you can see the progress window.  
   

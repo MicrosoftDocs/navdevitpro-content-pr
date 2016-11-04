@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: ca45e3a6-48a9-43b2-a6bd-81cf09298c8b
 caps.latest.revision: 11
 manager: edupont
@@ -19,7 +19,7 @@ To add a function to a codeunit, use the following procedure.
 1.  Select the C/AL Editor, choose **View**, and then choose **C/AL Globals**.  
   
     > [!NOTE]  
-    >  For more information about how to open the C/AL Editor, see [How to: Modify an Existing Codeunit](How%20to:%20Modify%20an%20Existing%20Codeunit.md).  
+    >  For more information about how to open the C/AL Editor, see [How to: Modify an Existing Codeunit](How-to--Modify-an-Existing-Codeunit.md).  
   
 2.  In the **C/AL Globals** window, choose the **Functions** tab.  
   

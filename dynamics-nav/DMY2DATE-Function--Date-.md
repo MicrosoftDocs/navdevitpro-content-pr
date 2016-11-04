@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: d065665e-4272-427d-8147-7105c7cc8b84
 caps.latest.revision: 9
 manager: edupont
@@ -66,7 +66,7 @@ MESSAGE(Text000, Day, Month, Year, OutputDate);
   
  On a computer that has the regional format set to English \(United States\), the message window displays the following:  
   
- **Day number 17, month number 2, and year number 2014 corresponds to the date 02\/17\/14.**  
+ **Day number 17, month number 2, and year number 2014 corresponds to the date 02/17/14.**  
   
 ## See Also  
  [Date and Time Functions](Date-and-Time-Functions.md)   

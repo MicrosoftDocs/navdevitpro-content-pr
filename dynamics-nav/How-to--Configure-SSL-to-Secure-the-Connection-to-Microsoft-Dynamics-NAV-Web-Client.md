@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 8079f309-e5ca-4d23-a6b9-412892a565ad
 caps.latest.revision: 23
 manager: edupont
@@ -18,14 +18,14 @@ We recommend that you secure [!INCLUDE[navnow](includes/navnow_md.md)] data that
   
  To configure SSL, you must follow these steps.  
   
--   [Obtaining an SSL Certificate](How%20to:%20Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#Cert)  
+-   [Obtaining an SSL Certificate](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md#Cert)  
   
--   [Adding an HTTPS Binding That Uses the Certificate on the Microsoft Dynamics NAV Web Client Site](How%20to:%20Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#Binding)  
+-   [Adding an HTTPS Binding That Uses the Certificate on the Microsoft Dynamics NAV Web Client Site](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md#Binding)  
   
--   [Redirecting HTTP to HTTPS (Optional)](How%20to:%20Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md#Redirect)  
+-   [Redirecting HTTP to HTTPS (Optional)](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md#Redirect)  
   
 > [!NOTE]  
->  You can configure SSL for the [!INCLUDE[nav_web](includes/nav_web_md.md)] when you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. For more information, see [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md).  
+>  You can configure SSL for the [!INCLUDE[nav_web](includes/nav_web_md.md)] when you install the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. For more information, see [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md).  
   
 ##  <a name="Cert"></a> Obtaining an SSL Certificate  
  In a production environment, you should obtain an SSL certificate from a certification authority. Some large organizations may have their own certification authorities, and other organizations can request a certificate from a third-party organization. In a test environment or development environment, you can create your own self-signed certificate.  
@@ -68,7 +68,7 @@ We recommend that you secure [!INCLUDE[navnow](includes/navnow_md.md)] data that
 7.  Choose the **OK** button, and then choose the **Close** button.  
   
 ##  <a name="Redirect"></a> Redirecting HTTP to HTTPS \(Optional\)  
- To ensure that users always access the site that is secured with SSL, you can automatically redirect HTTP requests to HTTPS. This means that users do not have to explicitly include https in the URL in the browser. For example, the nonsecure URL of the [!INCLUDE[nav_web](includes/nav_web_md.md)] could be http:\/\/MyWebclient:8080\/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\/WebClient and the secure URL could be https:\/\/MyWebclient:443\/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\/WebClient. If a user types http:\/\/MyWebclient:8080\/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\/WebClient, the browser automatically redirects to **https:\/\/MyWebclient:443\/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\/WebClient**.  
+ To ensure that users always access the site that is secured with SSL, you can automatically redirect HTTP requests to HTTPS. This means that users do not have to explicitly include https in the URL in the browser. For example, the nonsecure URL of the [!INCLUDE[nav_web](includes/nav_web_md.md)] could be http://MyWebclient:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/WebClient and the secure URL could be https://MyWebclient:443/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/WebClient. If a user types http://MyWebclient:8080/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/WebClient, the browser automatically redirects to **https://MyWebclient:443/[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]/WebClient**.  
   
  There are different ways to redirect HTTP requests to HTTPS. The following procedure describes how to redirect HTTP requests to HTTPS by installing the Microsoft Application Request Routing for IIS 7 and modifying the web.config file for the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
@@ -106,4 +106,4 @@ We recommend that you secure [!INCLUDE[navnow](includes/navnow_md.md)] data that
 ## See Also  
  [Microsoft Dynamics NAV Web Client](Microsoft-Dynamics-NAV-Web-Client.md)   
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
- [How to: Install the Web Server Components](How%20to:%20Install%20the%20Web%20Server%20Components.md)
+ [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md)

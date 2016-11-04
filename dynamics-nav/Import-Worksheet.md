@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 823b5ae0-a87d-4b5b-9ea7-f57be064c598
 caps.latest.revision: 12
 manager: edupont
@@ -16,7 +16,7 @@ When you import objects from a binary file \(.fob\), if there are conflicts with
   
  If you import objects from a .txt file, then the objects in the file overwrite any existing objects in the database.  
   
- You use the Import Worksheet when you import objects by using the UI in the development environment. For more information about how to import objects, see [How to: Import Objects](How%20to:%20Import%20Objects.md).  
+ You use the Import Worksheet when you import objects by using the UI in the development environment. For more information about how to import objects, see [How to: Import Objects](How-to--Import-Objects.md).  
   
 ## Default Actions in the Import File  
  The value of the **Action** column for each object in the Import Worksheet can be saved in the .fob file with the objects by choosing the **Save As** button in the Import Worksheet. When you import a .fob file, in the dialog box, you can choose the **Yes** button to import all objects and use the actions that are saved in the .fob file, or choose the **No** button to open the Import Worksheet and revise the action for any object in the file.  

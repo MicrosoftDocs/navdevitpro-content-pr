@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 6474c6f9-115a-42e3-944c-153b14d32e67
 caps.latest.revision: 4
 manager: edupont
@@ -24,7 +24,7 @@ The **Codeunit Metadata** virtual table \(ID 2000000137\) contains information a
   
  The fields in the virtual table correspond to properties on the codeunit objects. For more information, see [Codeunit Properties](Codeunit-Properties.md).  
   
- To access and view the **Codeunit Metadata** virtual table, you must create a tabular-type page. For more information, see [How to: Create a Page to View a Virtual Table](How%20to:%20Create%20a%20Page%20to%20View%20a%20Virtual%20Table.md)  
+ To access and view the **Codeunit Metadata** virtual table, you must create a tabular-type page. For more information, see [How to: Create a Page to View a Virtual Table](How-to--Create-a-Page-to-View-a-Virtual-Table.md)  
   
 ## See Also  
  [Virtual Tables](Virtual-Tables.md)

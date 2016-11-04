@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: ca39f91c-d1e5-47f4-8411-baad6af0a411
 caps.latest.revision: 47
 manager: edupont
@@ -56,7 +56,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use the NavigatePage page 
  Simon must first create a new page of the type NavigatePage in Page Designer.  
   
 > [!NOTE]  
->  In this walkthrough, to learn about the properties and controls of a NavigatePage page, you will first create a blank page. Object Designer also includes a wizard that you can use to create a NavigatePage page that sets up many properties and controls for you. For more information about the wizard, see [How to: Create a Page](How%20to:%20Create%20a%20Page.md).  
+>  In this walkthrough, to learn about the properties and controls of a NavigatePage page, you will first create a blank page. Object Designer also includes a wizard that you can use to create a NavigatePage page that sets up many properties and controls for you. For more information about the wizard, see [How to: Create a Page](How-to--Create-a-Page.md).  
   
 #### To create a wizard page  
   
@@ -276,8 +276,8 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can use the NavigatePage page 
  For more information about adding variables, constants, and functions, see [Codeunits](Codeunits.md).  
   
 ## See Also  
- [How to: Add Actions to a Page](How%20to:%20Add%20Actions%20to%20a%20Page.md)   
- [How to: Promote Actions on Pages](How%20to:%20Promote%20Actions%20on%20Pages.md)   
- [How to: Create a Page](How%20to:%20Create%20a%20Page.md)   
+ [How to: Add Actions to a Page](How-to--Add-Actions-to-a-Page.md)   
+ [How to: Promote Actions on Pages](How-to--Promote-Actions-on-Pages.md)   
+ [How to: Create a Page](How-to--Create-a-Page.md)   
  [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
- [How to: Run a Page](How%20to:%20Run%20a%20Page.md)
+ [How to: Run a Page](How-to--Run-a-Page.md)

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: b129d096-1826-4e6a-9350-5efa307df9b0
 caps.latest.revision: 16
 manager: edupont
@@ -26,6 +26,6 @@ Headers and footers in client report definition \(RDLC\) report layouts have the
   
  The following topic describes modifications that require creating a new hidden text box so that the data can be used in a header or footer:  
   
--   [How to: Print Report Header Information on Multiple Pages](How%20to:%20Print%20Report%20Header%20Information%20on%20Multiple%20Pages.md)  
+-   [How to: Print Report Header Information on Multiple Pages](How-to--Print-Report-Header-Information-on-Multiple-Pages.md)  
   
  For more information about Visual Studio report layouts, see [Defining a Report Layout](http://go.microsoft.com/fwlink/?linkid=126035).

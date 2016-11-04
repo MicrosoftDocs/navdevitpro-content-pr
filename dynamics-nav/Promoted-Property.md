@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: be3af957-fdba-42ed-8630-a75031303f8a
 caps.latest.revision: 14
 manager: edupont
@@ -21,10 +21,10 @@ Sets the value that indicates whether the selected action is promoted, which mea
 ## Remarks  
  This feature allows you to make a copy of an action and place it on the Home tab so that it is easier to find.  
   
- Available options are Yes\/No \(Boolean\).  
+ Available options are Yes/No \(Boolean\).  
   
  On [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLUDE[nav_phone](includes/nav_phone_md.md)] only promoted actions are displayed.  
   
 ## See Also  
  [PromotedIsBig Property](PromotedIsBig-Property.md)   
- [How to: Promote Actions on Pages](How%20to:%20Promote%20Actions%20on%20Pages.md)
+ [How to: Promote Actions on Pages](How-to--Promote-Actions-on-Pages.md)

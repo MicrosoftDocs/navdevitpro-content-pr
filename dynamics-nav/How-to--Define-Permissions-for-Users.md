@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: a8018367-db1d-45fd-b086-0b8fe714b709
 caps.latest.revision: 22
 ---
@@ -29,7 +29,7 @@ caps.latest.revision: 22
   
      Any permission sets that are already assigned to the user are displayed in the **User Permission Sets** area.  
   
-3.  To assign a new permission set to the user, click to position the cursor on a blank line in the in the **User Permission Sets** area and then choose the Assist button in the **Permission Set** column to display a list of existing permission sets.  
+3.  To assign a new permission set to the user, click to position the cursor on a blank line in the in the **User Permission Sets** area and then choose the **Assist** button in the **Permission Set** column to display a list of existing permission sets.  
   
 4.  Click to select a permission set.  
   
@@ -38,8 +38,8 @@ caps.latest.revision: 22
 6.  Choose the **OK** button to exit the **Edit – User Card** page.  
   
 ## See Also  
- [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md)   
- [How to: Assign a User to a Profile](How%20to:%20Assign%20a%20User%20to%20a%20Profile.md)   
+ [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md)   
+ [How to: Assign a User to a Profile](how-to-assign-a-user-to-a-profile.md)   
  [Managing Permissions and Permission Sets](Managing-Permissions-and-Permission-Sets.md)   
- [Customize the User Interface](Customize%20the%20User%20Interface.md)   
+ [Profiles and Role Centers](Profiles-and-Role-Centers.md)   
  [Removing Elements from the User Interface According to Permissions](Removing-Elements-from-the-User-Interface-According-to-Permissions.md)

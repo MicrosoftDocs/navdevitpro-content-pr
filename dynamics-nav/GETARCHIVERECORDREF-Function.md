@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: c974ffb7-9d99-47d4-a16a-b29de54d071b
 caps.latest.revision: 3
 ---
@@ -32,4 +32,4 @@ Returns a RecordRef for the specified table.
   
 ## See Also  
  [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)   
- [How to: Develop an Extension](How%20to:%20Develop%20an%20Extension.md)
+ [How to: Develop an Extension](How-to--Develop-an-Extension.md)

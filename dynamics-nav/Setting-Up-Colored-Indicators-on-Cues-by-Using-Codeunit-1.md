@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: dc009e79-2dcf-41c6-8d83-85e225879a91
 caps.latest.revision: 8
 manager: edupont
@@ -66,7 +66,7 @@ ELSE
     Color := 'Ambiguous';  
 ```  
   
- To see how you can achieve the same results by using the **Style** and **StyleExpr** properties for comparison, see [How to: Set Up Colored Indicators on Cues by Using the Style and StyleExpr Property](How%20to:%20Set%20Up%20Colored%20Indicators%20on%20Cues%20by%20Using%20the%20Style%20and%20StyleExpr%20Property.md).  
+ To see how you can achieve the same results by using the **Style** and **StyleExpr** properties for comparison, see [How to: Set Up Colored Indicators on Cues by Using the Style and StyleExpr Property](How-to--Set-Up-Colored-Indicators-on-Cues-by-Using-the-Style-and-StyleExpr-Property.md).  
   
 > [!NOTE]  
 >  This is a simple example to illustrate how to use the **GetCueSetup** trigger to configure colored indicators on a Cues. This example sets up the colored indicators to behave the same for Cues on all Role Centers. In a production environment, you will typically add logic that sets the colored indicators differently for each Cue.  

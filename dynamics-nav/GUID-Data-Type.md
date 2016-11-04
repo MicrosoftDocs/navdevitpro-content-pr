@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 1f61afd5-7017-408b-83d7-3277ddccf384
 caps.latest.revision: 11
 ---
@@ -61,7 +61,7 @@ AutoSplitKey
   
  CREATEGUID takes no arguments and returns a valid 16-byte GUID value. If the result is assigned to a TEXT variable or field, the value is converted to a string and follows the syntax explained earlier. The algorithm that generates the new GUID value uses Microsoft's CoCreateGuid function.  
   
- ISNULLGUID takes a GUID value as a required argument and returns TRUE\/FALSE depending on whether the GUID value is NULL. This function does not accept a Text value as an argument.  
+ ISNULLGUID takes a GUID value as a required argument and returns TRUE/FALSE depending on whether the GUID value is NULL. This function does not accept a Text value as an argument.  
   
  CLEAR is the standard CLEAR function and takes one required argument. It nullifies the GUID value in the same way as it resets any other value.  
   

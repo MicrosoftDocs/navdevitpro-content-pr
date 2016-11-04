@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: ea74bd60-14a4-4ae0-bd56-9ee23fd32edd
 caps.latest.revision: 46
 ---
@@ -56,7 +56,7 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
 
 -   Microsoft Office Outlook Add-in, installed with the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
 
- For more information, see [How to: Choose Components to Install](How%20to:%20Choose%20Components%20to%20Install.md) and [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).  
+ For more information, see [How to: Choose Components to Install](How-to--Choose-Components-to-Install.md) and [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).  
 
 ## Setting Up Synchronization for a Single User on a Single Computer  
  This walkthrough describes how to set up and use the Outlook add-in for a single user on a single computer. You can also set up and use the Outlook add-in for multiple users on a single computer, using tools such as Terminal Services. You should follow these steps before you use the Outlook add-in in this environment.  
@@ -77,9 +77,9 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
 
 1.  Start the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
 
-2.  In the **Search** box, enter **\($ N\_9800 Users $\)**, and then choose the related link.  
+2.  In the **Search** box, enter **Users**, and then choose the related link.  
 
-3.  If you are not already listed in the **\($ N\_9800 Users $\)** window, then create a new user.  
+3.  If you are not already listed in the **Users** window, then create a new user.  
 
 4.  On the **User** card, in the **User Permission Sets** FastTab, specify the SUPER permission set. Choose the **OK** button.  
 
@@ -89,7 +89,7 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
 
 1.  In the **Search** box, enter **Salespeople**, and then choose the related link.  
 
-2.  On the **Home** tab, choose **New**, and then fill in the following fields in the **\($ N\_5116 Salesperson\/Purchaser $\)** card.  
+2.  On the **Home** tab, choose **New**, and then fill in the following fields in the **Salesperson/Purchaser** card.  
 
      The following table describes the fields.  
 
@@ -100,15 +100,15 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
     |**\($ T\_13\_5052 E-mail $\)**|Your email address as defined in your Outlook profile.|  
 
 ## Mapping Microsoft Dynamics NAV Entities to Outlook Items  
- You start synchronization setup by identifying the [!INCLUDE[navnow](includes/navnow_md.md)] objects to synchronize. When you open the **\($ N\_5302 Outlook Synch. Entities $\)** window for the first time, you may receive a message that asks for permission to connect to a .dll file that is installed with the Outlook add-in. You should choose the option that lets you connect: Allow for this session.  
+ You start synchronization setup by identifying the [!INCLUDE[navnow](includes/navnow_md.md)] objects to synchronize. When you open the **Outlook Synch. Entities** window for the first time, you may receive a message that asks for permission to connect to a .dll file that is installed with the Outlook add-in. You should choose the option that lets you connect: Allow for this session.  
 
- For this walkthrough, you can use the synchronization entities that come with [!INCLUDE[navnow](includes/navnow_md.md)] by default. But you can also customize and add entities. For more information, see [How to: Set Up Outlook Synchronization Entities](How%20to:%20Set%20Up%20Outlook%20Synchronization%20Entities.md) and [Define Synchronization with Outlook Items](Define%20Synchronization%20with%20Outlook%20Items.md).  
+ For this walkthrough, you can use the synchronization entities that come with [!INCLUDE[navnow](includes/navnow_md.md)] by default. But you can also customize and add entities. For more information, see [How to: Set Up Outlook Synchronization Entities](How-to--Set-Up-Outlook-Synchronization-Entities.md) and [Define Synchronization with Outlook Items](Define-Synchronization-with-Outlook-Items.md).  
 
 #### To set up default synchronization entities  
 
 1.  In the **Search** box, enter **Outlook Synch. Entities**, and then choose the related link.  
 
-2.  In the dialog box asking for permissions, choose **Allow for this session**, and then choose the **OK** button. The **\($ N\_5302 Outlook Synch. Entity List $\)** window opens.  
+2.  In the dialog box asking for permissions, choose **Allow for this session**, and then choose the **OK** button. The **Outlook Synch. Entity List** window opens.  
 
      The following table lists the default [!INCLUDE[navnow](includes/navnow_md.md)] entities and the Outlook item types to which they map.  
 
@@ -126,9 +126,9 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
 
 #### To assign synchronization entities to users  
 
-1.  In the **Search** box, enter **Outlook Sync. User Setup**, and then choose the related link. The **\($ N\_5305 Outlook Synch. User Setup $\)** window opens.  
+1.  In the **Search** box, enter **Outlook Sync. User Setup**, and then choose the related link. The **Outlook Synch. User Setup** window opens.  
 
-2.  Choose **New**. In the **\($ N\_5305 Outlook Synch. User Setup $\)** window, choose the **\($ T\_5305\_1 User ID $\)** field, and then choose your user ID.  
+2.  Choose **New**. In the **Outlook Synch. User Setup** window, choose the **\($ T\_5305\_1 User ID $\)** field, and then choose your user ID.  
 
 3.  Choose the **\($ T\_5305\_2 Synch Entity Code $\)** field, and then add synchronization entities in the following order with your user ID:  
 
@@ -140,11 +140,11 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
 
     4.  Add **APP**.  
 
-        1.  Choose the **\($ T\_5305\_8 No. of Elements $\)** field to open the **\($ N\_5310 Outlook Synch. Setup Details $\)** window.  
+        1.  Choose the **\($ T\_5305\_8 No. of Elements $\)** field to open the **Outlook Synch. Setup Details** window.  
 
         2.  On the **Home** tab, choose **New**, choose the line under **\($ T\_5310\_4 Outlook Collection $\)**, choose **Recipients**, and then choose the **OK** button.  
 
-        3.  Choose the **Close** button to close the **\($ N\_5310 Outlook Synch. Setup Details $\)** window.  
+        3.  Choose the **Close** button to close the **Outlook Synch. Setup Details** window.  
 
         4.  Choose the **\($ T\_5305\_4 Condition $\)** field, and enter information in the **Filter** window.  
 
@@ -152,7 +152,7 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
 
             |Column|Value|  
             |------------|-----------|  
-            |**\($ N\_5303\_2 Field Name $\)**|Salesperson Code|  
+            |**Field Name**|Salesperson Code|  
             |**\($ T\_5303\_7 Type $\)**|CONST|  
             |**\($ T\_5303\_8 Value $\)**|\<salesperson code>|  
 
@@ -160,7 +160,7 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
 
     5.  Add **Task**.  
 
-        1.  Choose the **\($ T\_5305\_8 No. of Elements $\)** field to open the **\($ N\_5310 Outlook Synch. Setup Details $\)** window.  
+        1.  Choose the **\($ T\_5305\_8 No. of Elements $\)** field to open the **Outlook Synch. Setup Details** window.  
 
         2.  Choose **New**, choose the line under **\($ T\_5310\_4 Outlook Collection $\)**, choose **Links**, and then choose the **OK** button. Choose the **OK** button again to close the window.  
 
@@ -170,7 +170,7 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
 
             |Column|Value|  
             |------------|-----------|  
-            |**\($ N\_5303\_2 Field Name $\)**|Salesperson Code|  
+            |**Field Name**|Salesperson Code|  
             |**\($ T\_5303\_7 Type $\)**|CONST|  
             |**\($ T\_5303\_8 Value $\)**|\<salesperson code>|  
 
@@ -180,7 +180,7 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
 
 #### To apply change log settings  
 
-1.  In the **\($ N\_5305 Outlook Synch. User Setup $\)** window, on the **Navigate** tab, in the **Setup** group, choose **Register in Change Log Setup**. The **\($ B\_5300 Outlook Synch. Change Log Set. $\)** window opens.  
+1.  In the **Outlook Synch. User Setup** window, on the **Navigate** tab, in the **Setup** group, choose **Register in Change Log Setup**. The **\($ B\_5300 Outlook Synch. Change Log Set. $\)** window opens.  
 
 2.  Clear the filter value for **Code**. This lets you enable the change log for all entities at the same time.  
 
@@ -198,7 +198,7 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
 
 2.  Select the line with the APP entity, and then choose the **Condition** field.  
 
-3.  In the **\($ N\_5303 Outlook Synch. Filters – Condition $\)** window, in the **\($ N\_5303\_2 Field Name $\)** field, select **Salesperson Code**. In the **\($ T\_5303\_8 Value $\)** field, enter the code for the salesperson.  
+3.  In the **Outlook Synch. Filters – Condition** window, in the **Field Name** field, select **Salesperson Code**. In the **\($ T\_5303\_8 Value $\)** field, enter the code for the salesperson.  
 
 4.  Repeat these steps for the TASK entity.  
 
@@ -207,13 +207,13 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
 ## Setting Up Web Services Connections  
  You must set up a web services connection between [!INCLUDE[navnow](includes/navnow_md.md)] and Outlook.  
 
- Before starting the next procedure, make sure that you have previously opened the **\($ N\_5302 Outlook Sync. Entities $\)** window. When you do this, there is preparation in the background that is needed for the web service to appear in the later steps.  
+ Before starting the next procedure, make sure that you have previously opened the **Outlook Sync. Entities** window. When you do this, there is preparation in the background that is needed for the web service to appear in the later steps.  
 
 #### To set up a web services connection  
 
 1.  On the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)], verify that web services are running. The web service has to run in English for locale 1033.  
 
-2.  In the **Search** box, enter **\($ N\_810 Web Services $\)**, and then choose the related link.  
+2.  In the **Search** box, enter **Web Services**, and then choose the related link.  
 
 3.  On the **Home** tab, in the **Manage** group, choose **Edit List**.  
 
@@ -266,11 +266,11 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
 
      Specify a Web service path in the **Web Service Path** text box:  
 
-     On premises \(default\): http:\/\/localhost:7047\/DynamicsNAV71\/WS\/Codeunit\/DynamicsNAVsynchOutlook  
+     On premises \(default\): http://localhost:7047/DynamicsNAV71/WS/Codeunit/DynamicsNAVsynchOutlook  
 
      -or-  
 
-     Azure: https:\/\/\<cloud NST URL>:7047\/DynamicsNAV71\/WS\/Codeunit\/DynamicsNAVsynchOutlook  
+     Azure: https://\<cloud NST URL>:7047/DynamicsNAV71/WS/Codeunit/DynamicsNAVsynchOutlook  
 
 2.  Select an authentication type:  
 
@@ -337,9 +337,9 @@ You can synchronize data, such as to-dos, contacts, and tasks, between [!INCLUDE
      The **Synchronization Progress** message is displayed. When synchronization is complete, you can view the details for the synchronization.  
 
 ## Next Steps  
- You have completed the required setup for synchronizing information between [!INCLUDE[navnow](includes/navnow_md.md)] and Outlook. To test your setup, see [Walkthrough: Synchronizing Information Between Outlook and Microsoft Dynamics NAV](Walkthrough:%20Synchronizing%20Information%20Between%20Outlook%20and%20Microsoft%20Dynamics%20NAV.md).  
+ You have completed the required setup for synchronizing information between [!INCLUDE[navnow](includes/navnow_md.md)] and Outlook. To test your setup, see [Walkthrough: Synchronizing Information Between Outlook and Microsoft Dynamics NAV](Walkthrough--Synchronizing-Information-Between-Outlook-and-Microsoft-Dynamics-NAV.md).  
 
 ## See Also  
  [Configuring Microsoft Dynamics NAV](Configuring-Microsoft-Dynamics-NAV.md)   
  [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)   
- [Troubleshooting: Microsoft Office Outlook Integration and Synchronization](Troubleshooting:%20Microsoft%20Office%20Outlook%20Integration%20and%20Synchronization.md)
+ [Troubleshooting: Microsoft Office Outlook Integration and Synchronization](Troubleshooting--Microsoft-Office-Outlook-Integration-and-Synchronization.md)

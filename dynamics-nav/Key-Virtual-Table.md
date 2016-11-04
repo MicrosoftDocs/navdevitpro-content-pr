@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: e6241267-0114-4bb6-8994-918a18dcaa62
 caps.latest.revision: 11
 manager: edupont
@@ -29,7 +29,7 @@ The **Key** virtual table contains information about the keys that are defined i
 |**MaintainSIFTIndex**|Whether the MaintainSIFTIndex property has been activated. This field can be modified.|  
 |**Clustered**|Whether the key is clustered. This field can be modified.|  
   
- You must create a tabular-type page to access the **Key** virtual table. For more information, see [How to: Create a Page to View a Virtual Table](How%20to:%20Create%20a%20Page%20to%20View%20a%20Virtual%20Table.md).  
+ You must create a tabular-type page to access the **Key** virtual table. For more information, see [How to: Create a Page to View a Virtual Table](How-to--Create-a-Page-to-View-a-Virtual-Table.md).  
   
 ## See Also  
  [Virtual Tables](Virtual-Tables.md)

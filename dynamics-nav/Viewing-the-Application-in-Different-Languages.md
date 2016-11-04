@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: c8d9df64-66c1-464f-9803-f1b9f4aca228
 caps.latest.revision: 9
 manager: edupont
@@ -19,7 +19,7 @@ In a multilanguage-enabled application, you can view the text in any language th
   
  When you change the language of the application from the user interface \(UI\) in either the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or the [!INCLUDE[rtc](includes/rtc_md.md)], you are changing the *global language*.  
   
- For more information, see [How to: Change the Language in the User Interface](How%20to:%20Change%20the%20Language%20in%20the%20User%20Interface.md).  
+ For more information, see [How to: Change the Language in the User Interface](How-to--Change-the-Language-in-the-User-Interface.md).  
   
 ## Changing the Language from C/AL Code  
  You can change the global language from C/AL code, which is the same as changing the language from the UI. To change the global language from C/AL code, use the GLOBALLANGUAGE function.  

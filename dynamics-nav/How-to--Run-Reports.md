@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 8162ff34-d59f-4771-b942-702d3027cf05
 caps.latest.revision: 28
 manager: edupont
@@ -28,7 +28,7 @@ You can run reports:
   
 ### To run a report from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]  
   
--   Add an action for running the report to a page. For more information, see [How to: Make a Report Available from a Page](How%20to:%20Make%20a%20Report%20Available%20from%20a%20Page.md).  
+-   Add an action for running the report to a page. For more information, see [How to: Make a Report Available from a Page](How-to--Make-a-Report-Available-from-a-Page.md).  
   
 ### To run a report from the [!INCLUDE[nav_web](includes/nav_web_md.md)]  
   
@@ -36,7 +36,7 @@ You can run reports:
   
     -   Open a report directly by using its Internet address. For more information, see [Opening a Report in the Microsoft Dynamics NAV Web Client by Using a URL](Opening-a-Report-in-the-Microsoft-Dynamics-NAV-Web-Client-by-Using-a-URL.md)  
   
-    -   Add an action for running the report to a page. For more information, see [How to: Make a Report Available from a Page](How%20to:%20Make%20a%20Report%20Available%20from%20a%20Page.md).  
+    -   Add an action for running the report to a page. For more information, see [How to: Make a Report Available from a Page](How-to--Make-a-Report-Available-from-a-Page.md).  
   
 ### To run a report from Object Designer  
   
@@ -47,7 +47,7 @@ You can run reports:
 3.  Select the report that you want to run, and then choose **Run**.  
   
 ## Running Reports Using Command-Line Arguments  
- To run a report using command-line arguments, you must know the ID of the report. By using command-line arguments, you have various options for opening the [!INCLUDE[rtc](includes/rtc_md.md)] and pages and reports in different modes. For example, you can specify a specific server or specific language, or you can create hyperlinks to specific reports. For more information, see [Starting the Windows Client at the Command Prompt](Starting%20the%20Windows%20Client%20at%20the%20Command%20Prompt.md) and [Creating and Running Hyperlinks](Creating-and-Running-Hyperlinks.md).  
+ To run a report using command-line arguments, you must know the ID of the report. By using command-line arguments, you have various options for opening the [!INCLUDE[rtc](includes/rtc_md.md)] and pages and reports in different modes. For example, you can specify a specific server or specific language, or you can create hyperlinks to specific reports. For more information, see [Starting the Windows Client at the Command Prompt](Starting-the-Windows-Client-at-the-Command-Prompt.md) and [Creating and Running Hyperlinks](Creating-and-Running-Hyperlinks.md).  
   
  When you run a report using command-line arguments, you can filter the data in the report by adding a filter string to the command. The filter string has the following format:  
   
@@ -89,7 +89,7 @@ DynamicsNAV:////runreport?report=101&filter=Customer.City:G*&filter=Customer.Nam
   
 2.  Type the following command:  
   
-     **Microsoft.Dynamics.Nav.Client.exe DynamicsNAV:\/\/\/\/runreport?report=** *\<ReportID>* **\[&filter=** *\<table>* **.** *\<field>* **:** *\<value>* **\]**  
+     **Microsoft.Dynamics.Nav.Client.exe DynamicsNAV:////runreport?report=** *\<ReportID>* **\[&filter=** *\<table>* **.** *\<field>* **:** *\<value>* **\]**  
   
      Replace *\<ReportID>* with the report ID that you want to run. If you want to filter the data, then replace *\<table>*, *\<field>*, and *\<value>* with the appropriate values.  
   
@@ -97,7 +97,7 @@ DynamicsNAV:////runreport?report=101&filter=Customer.City:G*&filter=Customer.Nam
   
 1.  In Windows, on the taskbar, choose **Start** and then choose **Run**.  
   
-2.  In the **Run** window, enter the following command: **DynamicsNAV:\/\/\/\/runreport?report=***\<ReportID>***\[&filter=***\<table>***.***\<field>***:***\<value>***\]**  
+2.  In the **Run** window, enter the following command: **DynamicsNAV:////runreport?report=***\<ReportID>***\[&filter=***\<table>***.***\<field>***:***\<value>***\]**  
   
      Replace *\<ReportID>* with the report ID that you want to run. If you want to filter the data, then replace *\<table>*, *\<field>*, and *\<value>* with the appropriate values.  
   
@@ -107,7 +107,7 @@ DynamicsNAV:////runreport?report=101&filter=Customer.City:G*&filter=Customer.Nam
   
 1.  Open a web browser window.  
   
-2.  In the address bar, enter the following command: **DynamicsNAV:\/\/\/\/runreport?report=***\<ReportID>***\[&filter=***\<table>***.***\<field>***:***\<value>***\]**  
+2.  In the address bar, enter the following command: **DynamicsNAV:////runreport?report=***\<ReportID>***\[&filter=***\<table>***.***\<field>***:***\<value>***\]**  
   
      Replace *\<ReportID>* with the report ID that you want to run. If you want to filter the data, then replace *\<table>*, *\<field>*, and *\<value>* with the appropriate values.  
   

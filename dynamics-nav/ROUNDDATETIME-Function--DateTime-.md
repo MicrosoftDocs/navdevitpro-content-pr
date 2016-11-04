@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 8b2508f9-db40-41b9-b8f3-0ff9d224f476
 caps.latest.revision: 13
 manager: edupont
@@ -76,7 +76,7 @@ MESSAGE(TEXT000, Format(DateTimeToRound,0,FormatString), Precision, Format(Resul
   
  The message window displays the following:  
   
- **ROUNDDATETIME\(11\/27\/08 09:35:24.567, 1000\) returns 11\/27\/08 09:35:25.000.**  
+ **ROUNDDATETIME\(11/27/08 09:35:24.567, 1000\) returns 11/27/08 09:35:25.000.**  
   
 ## See Also  
  [DateTime Functions](DateTime-Functions.md)   

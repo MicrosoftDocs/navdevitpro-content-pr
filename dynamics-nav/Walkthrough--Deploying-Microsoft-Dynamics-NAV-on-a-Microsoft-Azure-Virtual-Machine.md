@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 8f2aaf49-d3c0-42a1-997e-8f65fc42eda7
 caps.latest.revision: 26
 manager: tsiggaar
@@ -21,13 +21,13 @@ The following walkthrough demonstrates how to use the Example-1VM.ps1 script of 
 ## About This Walkthrough  
  This walkthrough illustrates the following tasks:  
   
-1.  [Start Windows PowerShell ISE](Walkthrough:%20Deploying%20Microsoft%20Dynamics%20NAV%20on%20a%20Microsoft%20Azure%20Virtual%20Machine.md#StartPowerShell)  
+1.  [Start Windows PowerShell ISE](Walkthrough--Deploying-Microsoft-Dynamics-NAV-on-a-Microsoft-Azure-Virtual-Machine.md#StartPowerShell)  
   
-2.  [Modifying the Set-PartnerSettings File](Walkthrough:%20Deploying%20Microsoft%20Dynamics%20NAV%20on%20a%20Microsoft%20Azure%20Virtual%20Machine.md#ModSetPartnerSettings)  
+2.  [Modifying the Set-PartnerSettings File](Walkthrough--Deploying-Microsoft-Dynamics-NAV-on-a-Microsoft-Azure-Virtual-Machine.md#ModSetPartnerSettings)  
   
-3.  [Running the Example-1VM Script](Walkthrough:%20Deploying%20Microsoft%20Dynamics%20NAV%20on%20a%20Microsoft%20Azure%20Virtual%20Machine.md#RunExampleScript)  
+3.  [Running the Example-1VM Script](Walkthrough--Deploying-Microsoft-Dynamics-NAV-on-a-Microsoft-Azure-Virtual-Machine.md#RunExampleScript)  
   
-4.  [Opening the Microsoft Dynamics NAV Clients](Walkthrough:%20Deploying%20Microsoft%20Dynamics%20NAV%20on%20a%20Microsoft%20Azure%20Virtual%20Machine.md#OpenRTCs)  
+4.  [Opening the Microsoft Dynamics NAV Clients](Walkthrough--Deploying-Microsoft-Dynamics-NAV-on-a-Microsoft-Azure-Virtual-Machine.md#OpenRTCs)  
   
  This walkthrough sets up a [!INCLUDE[navnow](includes/navnow_md.md)] environment on Azure that has the following characteristics.  
   
@@ -35,7 +35,7 @@ The following walkthrough demonstrates how to use the Example-1VM.ps1 script of 
 |----------|-----------|  
 |Azure virtual machine name|MyNavVM|  
 |Domain name|.cloudapp.net<br /><br /> This value is combined with the Azure virtual machine name so that the fully qualified domain name of the virtual machine becomes *MyNAVVM.cloudapp.net*.|  
-|Administrator account on Azure virtual name|User name: NavVmAdmin<br /><br /> Password: This walkthrough uses an automatically generated password. **Important:**  If you are using a custom image to create the virtual machine, then the user name must match the administrator account user name that was specified when the custom image was created. For more information, see [How to: Create a Microsoft Azure Virtual Machine Operating System Image for Microsoft Dynamics NAV](How%20to:%20Create%20a%20Microsoft%20Azure%20Virtual%20Machine%20Operating%20System%20Image%20for%20Microsoft%20Dynamics%20NAV.md).|  
+|Administrator account on Azure virtual name|User name: NavVmAdmin<br /><br /> Password: This walkthrough uses an automatically generated password. **Important:**  If you are using a custom image to create the virtual machine, then the user name must match the administrator account user name that was specified when the custom image was created. For more information, see [How to: Create a Microsoft Azure Virtual Machine Operating System Image for Microsoft Dynamics NAV](How-to--Create-a-Microsoft-Azure-Virtual-Machine-Operating-System-Image-for-Microsoft-Dynamics-NAV.md).|  
 |Azure region|North Europe|  
 |Virtual machine size|Small|  
 |User authentication credential type|NavUserPassword|  
@@ -255,7 +255,7 @@ The following walkthrough demonstrates how to use the Example-1VM.ps1 script of 
   
 2.  In the address, type the following address:  
   
-     **http:\/\/MyNavVm.cloudapp.net:9004**  
+     **http://MyNavVm.cloudapp.net:9004**  
   
 3.  Follow the instructions on the webpage to install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
   
@@ -265,7 +265,7 @@ The following walkthrough demonstrates how to use the Example-1VM.ps1 script of 
   
 2.  In the address, type the following address:  
   
-     **https:\/\/MyNavVm.cloudapp.net\/DynamicsNAV72\_Instance1**  
+     **https://MyNavVm.cloudapp.net/DynamicsNAV72\_Instance1**  
   
 ## Next Steps  
  [Scaling the Microsoft Dynamics NAV Network Topology](Scaling-the-Microsoft-Dynamics-NAV-Network-Topology.md)  
@@ -276,4 +276,4 @@ The following walkthrough demonstrates how to use the Example-1VM.ps1 script of 
  [Planning and Preparing](Planning-and-Preparing.md)   
  [Deploying and Managing Microsoft Dynamics NAV on Microsoft Azure](Deploying-and-Managing-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md)   
  [Deploying Microsoft Dynamics NAV on Two Virtual Machines Using Example-2VM Script](Deploying-Microsoft-Dynamics-NAV-on-Two-Virtual-Machines-Using-Example-2VM-Script.md)   
- [Walkthrough: Deploying Microsoft Dynamics NAV on Two Microsoft Azure Virtual Machines](Walkthrough:%20Deploying%20Microsoft%20Dynamics%20NAV%20on%20Two%20Microsoft%20Azure%20Virtual%20Machines.md)
+ [Walkthrough: Deploying Microsoft Dynamics NAV on Two Microsoft Azure Virtual Machines](Walkthrough--Deploying-Microsoft-Dynamics-NAV-on-Two-Microsoft-Azure-Virtual-Machines.md)

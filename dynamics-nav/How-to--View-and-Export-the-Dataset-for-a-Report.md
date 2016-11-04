@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 88eb2f13-580e-4be7-8094-fead853f99c5
 caps.latest.revision: 14
 manager: edupont
@@ -69,5 +69,5 @@ You use the About This Report feature to view the dataset on which the report is
   
 ## See Also  
  [Using About This Page and About This Report](Using-About-This-Page-and-About-This-Report.md)   
- [How to: View All Table Fields for a Record](How%20to:%20View%20All%20Table%20Fields%20for%20a%20Record.md)   
- [Walkthrough: Running a Report Offline](Walkthrough:%20Running%20a%20Report%20Offline.md)
+ [How to: View All Table Fields for a Record](How-to--View-All-Table-Fields-for-a-Record.md)   
+ [Walkthrough: Running a Report Offline](Walkthrough--Running-a-Report-Offline.md)

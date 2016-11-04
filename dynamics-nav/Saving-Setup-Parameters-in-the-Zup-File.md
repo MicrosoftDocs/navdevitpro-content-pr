@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 9c7cf52b-8128-45af-a7d9-0482457cb4df
 caps.latest.revision: 7
 manager: edupont
@@ -22,7 +22,7 @@ Setup parameters for running the [!INCLUDE[nav_dev_long](includes/nav_dev_long_m
   
 -   Database server name.  
   
--   The parameters that are available in the [\($ S\_2355 Options $\)](-$-S_2355-Options-$-.md) window.  
+-   The parameters that are available in the [Options](uiref/-$-S_2355-Options-$-.md) window.  
   
 -   User-specified personalization of [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] windows, such as window size, window position, column order, column visibility, and column width.  
   

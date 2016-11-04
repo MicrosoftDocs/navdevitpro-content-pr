@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: f1f23b4f-22bd-4a7c-8b4d-0fab7d6ddc5a
 caps.latest.revision: 11
 manager: edupont
@@ -40,4 +40,4 @@ A FactBox is the area that is located on the right-most side of a page. This are
 -   Worksheet  
   
 ## See Also  
- [How to: Add a FactBox to a Page](How%20to:%20Add%20a%20FactBox%20to%20a%20Page.md)
+ [How to: Add a FactBox to a Page](How-to--Add-a-FactBox-to-a-Page.md)

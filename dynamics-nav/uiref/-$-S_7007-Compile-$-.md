@@ -1,17 +1,17 @@
 ---
-title: "($ S_7007 Compile $)"
+title: "Compile"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 2006a9a2-08c5-4b5c-8a7b-3b9239018634
 caps.latest.revision: 4
 manager: edupont
 ---
-# ($ S_7007 Compile $)
+# Compile
 Compiles the [!INCLUDE[navnow](../includes/navnow_md.md)] table object.  
 
  Compiling the table object will check for syntax errors and obsolete construct errors in C/AL code.  

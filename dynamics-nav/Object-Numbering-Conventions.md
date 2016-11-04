@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: d6add43c-5e40-4a6d-9de9-27f5b09f2eeb
 caps.latest.revision: 14
 manager: edupont
@@ -20,7 +20,7 @@ Each object and field in [!INCLUDE[navnow](includes/navnow_md.md)] is identified
 |Object number interval|Description|  
 |----------------------------|-----------------|  
 |1 - 9,999|[!INCLUDE[demolong](includes/demolong_md.md)] design area|  
-|10,000 - 49,999|Country\/region design area|  
+|10,000 - 49,999|Country/region design area|  
 |50,000 - 99,999|Customer design area|  
 |100,000 - 999,999,999|Microsoft Certified Partner design area|  
   
@@ -32,15 +32,15 @@ Each object and field in [!INCLUDE[navnow](includes/navnow_md.md)] is identified
 |Table number|Field numbers|Description|  
 |------------------|-------------------|-----------------|  
 |1 - 9,999|1 - 9999|[!INCLUDE[demolong](includes/demolong_md.md)] design area|  
-|1 - 9,999|10,000 - 49,000|Country\/region design area|  
+|1 - 9,999|10,000 - 49,000|Country/region design area|  
 |1 - 9,999|50,0000 - 99,999|Customer design area|  
 |1 - 9,999|100,000 - 999,999,999|Microsoft Certified Partner design area|  
-|10,000 - 49,999|1 - 49,999|Country\/region design area|  
+|10,000 - 49,999|1 - 49,999|Country/region design area|  
 |10,000 - 49,999|50,000 - 99,999|Customer design area|  
 |10,000 - 49,999|100,000 - 999,999,999|Microsoft Certified Partner design area|  
 |50,000 - 99,999|1 - 999,999,999|Customer design area|  
 |100,000 - 99,999,999|1 - 9,999|Microsoft Certified Partner design area|  
-|100,000 - 99,999,999|10,000 - 49,999|Country\/region design area|  
+|100,000 - 99,999,999|10,000 - 49,999|Country/region design area|  
 |100,000 - 99,999,999|50,000 - 99,999|Customer design area|  
 |100,000 - 99,999,999|100,000 - 999,999,999|Microsoft Certified Partner design area|  
   
@@ -122,11 +122,11 @@ Each object and field in [!INCLUDE[navnow](includes/navnow_md.md)] is identified
   
  Codeunits for posting invoices also follow a pattern, which is displayed in the following table.  
   
-|Codeunit final digit|Sales\/Purchase Posting Codeunits|  
+|Codeunit final digit|Sales/Purchase Posting Codeunits|  
 |--------------------------|---------------------------------------|  
-|0|Sales\/Purchase Post|  
-|1|Sales\/Purchase Post \(Yes\/No\)|  
-|2|Sales\/Purchase Post+Print|  
+|0|Sales/Purchase Post|  
+|1|Sales/Purchase Post \(Yes/No\)|  
+|2|Sales/Purchase Post+Print|  
   
  When you create codeunits for the sales application areas, use the same final digit for similar purchase application areas.  
   

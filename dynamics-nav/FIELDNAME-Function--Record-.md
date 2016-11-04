@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 63760b9b-4131-41cd-b9d2-4bf5867c2516
 caps.latest.revision: 12
 manager: edupont
@@ -38,7 +38,7 @@ Name := Record.FIELDNAME(Field)
  The name of the field specified.  
   
 ## Remarks  
- The [FIELDCAPTION Function \(Record\)](FIELDCAPTION-Function--Record-.md) retrieves the [Caption Property-duplicate](Caption-Property-duplicate.md) of a field. If you want to enable your application for multilanguage functionality now or in the future, you must use the **FIELDCAPTION** function instead of the **FIELDNAME** function.  
+ The [FIELDCAPTION Function \(Record\)](FIELDCAPTION-Function--Record-.md) retrieves the [Caption Property](Caption-Property-duplicate.md) of a field. If you want to enable your application for multilanguage functionality now or in the future, you must use the **FIELDCAPTION** function instead of the **FIELDNAME** function.  
   
 ## Example  
  This example requires that you create the following variables.  

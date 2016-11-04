@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 121a43fb-8514-4d0d-a20d-331c413bd77c
 caps.latest.revision: 12
 manager: edupont
@@ -30,11 +30,11 @@ Specifies how locking is handled in the database and specifies the start ID for 
 |**Start ID \(UidOffset\)**|Specifies the start ID for elements on new objects. When you create a new table, page, report, codeunit, query, or XMLport, the elements have IDs that are offset by the **Start ID \(UidOffset\)** value that you specify. Object elements include containers, groups, fields, parts, DataItems, columns, filters, variables, functions, or text constants.<br /><br /> You must specify an Integer that is greater than or equal to 0.<br /><br /> The default value is 1.|  
   
 ## See Also  
- [How to: Alter Databases](How%20to:%20Alter%20Databases.md)   
+ [How to: Alter Databases](How-to--Alter-Databases.md)   
  [Altering Databases - General Tab](Altering-Databases---General-Tab.md)   
  [Altering Databases - Database Files Tab](Altering-Databases---Database-Files-Tab.md)   
  [Altering Databases - Transaction Log Files Tab](Altering-Databases---Transaction-Log-Files-Tab.md)   
  [Altering Databases - Collation Tab](Altering-Databases---Collation-Tab.md)   
  [Altering Databases - Options Tab](Altering-Databases---Options-Tab.md)   
  [Altering Databases - Integration Tab](Altering-Databases---Integration-Tab.md)   
- [How to: Specify the Start ID Offset of Elements on Objects](How%20to:%20Specify%20the%20Start%20ID%20Offset%20of%20Elements%20on%20Objects.md)
+ [How to: Specify the Start ID Offset of Elements on Objects](How-to--Specify-the-Start-ID-Offset-of-Elements-on-Objects.md)

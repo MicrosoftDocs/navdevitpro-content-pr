@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: cf121aea-8230-4496-b57c-fd3f85230cc9
 caps.latest.revision: 10
 manager: edupont
@@ -142,7 +142,7 @@ ELSE
  The following examples show how to format comments.  
   
 ### Example  
- Always start comments with \/\/ and one space character. Never use braces \({ and }\). To emphasize a comment, put it on a separate line and insert one empty line before it.  
+ Always start comments with // and one space character. Never use braces \({ and }\). To emphasize a comment, put it on a separate line and insert one empty line before it.  
   
 ```  
 x := x + 1;  

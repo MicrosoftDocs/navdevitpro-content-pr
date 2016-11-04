@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: cf31b59c-3436-48cb-ae78-c8e03a80ca92
 caps.latest.revision: 10
 manager: edupont
@@ -54,4 +54,4 @@ A maximum of 20 distinct fields can be used to define a primary key. The number 
   
 ## See Also  
  [Table Keys](Table-Keys.md)   
- [How to: View or Modify Properties on a Key](How%20to:%20View%20or%20Modify%20Properties%20on%20a%20Key.md)
+ [How to: View or Modify Properties on a Key](How-to--View-or-Modify-Properties-on-a-Key.md)

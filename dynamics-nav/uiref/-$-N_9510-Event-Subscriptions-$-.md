@@ -1,12 +1,12 @@
 ---
-title: "($ N_9510 Event Subscriptions $)"
+title: "Event Subscriptions"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 0131069b-3daa-44ac-abb1-309493767502
 caps.latest.revision: 3
 manager: edupont
@@ -35,7 +35,7 @@ translation.priority.ht:
   - ru-ru
   - sv-se
 ---
-# ($ N_9510 Event Subscriptions $)
+# Event Subscriptions
 Specifies the current subscriptions to published events.  
   
  A subscription is defined by an event subscriber function and an event publisher function that event subscriber function subscribes to. When a published event is raised in the application, the event subscriber function is called.  

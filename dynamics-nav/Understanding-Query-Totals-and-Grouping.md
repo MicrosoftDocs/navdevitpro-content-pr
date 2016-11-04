@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: fbb49b5d-2d48-4030-a066-fef631355152
 caps.latest.revision: 17
 manager: edupont
@@ -17,7 +17,7 @@ In a query, you use a totals method to perform a calculation on the fields of a 
 |Value|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-----------|---------------------------------------|  
 |[Sum](Understanding-Query-Totals-and-Grouping.md#Sum)|Calculates the sum of the values of the field in the designated column for all records that are selected as part of the grouped set.|  
-|[Average](Understanding-Query-Totals-and-Grouping.md#Average)|Calculates the average value of the field in the designated column for all records that are selected as part of the grouped set.<br /><br /> When averaging fields that have an integer data type \(such as **Integer** or **BigInteger**\), integer division is used. This means that result is not rounded, and the remainder is discarded. For example, 5÷2=2 instead of 2.5 \(or 2 1\/2\).|  
+|[Average](Understanding-Query-Totals-and-Grouping.md#Average)|Calculates the average value of the field in the designated column for all records that are selected as part of the grouped set.<br /><br /> When averaging fields that have an integer data type \(such as **Integer** or **BigInteger**\), integer division is used. This means that result is not rounded, and the remainder is discarded. For example, 5÷2=2 instead of 2.5 \(or 2 1/2\).|  
 |[Min](Understanding-Query-Totals-and-Grouping.md#Minimum)|Retrieves the lowest value of the field in the designated column for all records that are selected as part of the grouped set.|  
 |[Max](Understanding-Query-Totals-and-Grouping.md#Maximum)|Retrieves the highest value of the field in the designated column for all records that are selected as part of the grouped set.|  
 |[Count](Understanding-Query-Totals-and-Grouping.md#Count)|Returns the number of records that are selected as part of the grouped set.|  
@@ -67,7 +67,7 @@ In a query, you use a totals method to perform a calculation on the fields of a 
 |30000|Blanemark Hifi|500|  
 |40000|Deerfield Graphics|250|  
   
- For step-by-step instructions about how to create this query, see [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](Walkthrough:%20Creating%20a%20Query%20That%20Uses%20a%20Totaling%20Method%20and%20Sorting.md).  
+ For step-by-step instructions about how to create this query, see [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](Walkthrough--Creating-a-Query-That-Uses-a-Totaling-Method-and-Sorting.md).  
   
 ##  <a name="Average"></a> Average  
  The Average method calculates the average value of the fields in the column within a group. To set up an Average method on the **Quantity** column of the sample query, set the MethodType property to **Totals** and the Method property to **Sum**. The name of the **Quantity** column automatically changes to **Ave\_Quantity** and the query is automatically grouped by the **No.** and **Name** columns.  
@@ -139,5 +139,5 @@ GROUP BY Customer."No.", Customer.Name
 ```  
   
 ## See Also  
- [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](Walkthrough:%20Creating%20a%20Query%20That%20Uses%20a%20Totaling%20Method%20and%20Sorting.md)   
+ [Walkthrough: Creating a Query That Uses a Totaling Method and Sorting](Walkthrough--Creating-a-Query-That-Uses-a-Totaling-Method-and-Sorting.md)   
  [Method Property](Method-Property.md)

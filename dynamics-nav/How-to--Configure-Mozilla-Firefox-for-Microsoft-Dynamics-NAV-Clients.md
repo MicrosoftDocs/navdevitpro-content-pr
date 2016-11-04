@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 5e12c815-a749-45e1-8a5c-92a8ec5a7f85
 caps.latest.revision: 22
 manager: edupont
@@ -14,11 +14,11 @@ manager: edupont
 # How to: Configure Mozilla Firefox for Microsoft Dynamics NAV Clients
 This topic describes how to configure Mozilla Firefox web browser to work with the [!INCLUDE[nav_web](includes/nav_web_md.md)]. To open the client, Firefox must be configured to allow cookies and JavaScript. In addition, the address of the [!INCLUDE[nav_web](includes/nav_web_md.md)] must be configured as a trusted unified resource identifier \(URI\) in Firefox.  
 
--   [Enabling Cookies in Firefox](How%20to:%20Configure%20Mozilla%20Firefox%20for%20Microsoft%20Dynamics%20NAV%20Clients.md#Cookies)  
+-   [Enabling Cookies in Firefox](How-to--Configure-Mozilla-Firefox-for-Microsoft-Dynamics-NAV-Clients.md#Cookies)  
 
--   [Enabling JavaScript in Firefox](How%20to:%20Configure%20Mozilla%20Firefox%20for%20Microsoft%20Dynamics%20NAV%20Clients.md#Java)  
+-   [Enabling JavaScript in Firefox](How-to--Configure-Mozilla-Firefox-for-Microsoft-Dynamics-NAV-Clients.md#Java)  
 
--   [Configuring the Microsoft Dynamics NAV Web Client Address as a Trusted URI in Firefox](How%20to:%20Configure%20Mozilla%20Firefox%20for%20Microsoft%20Dynamics%20NAV%20Clients.md#Address)  
+-   [Configuring the Microsoft Dynamics NAV Web Client Address as a Trusted URI in Firefox](How-to--Configure-Mozilla-Firefox-for-Microsoft-Dynamics-NAV-Clients.md#Address)  
 
 ##  <a name="Cookies"></a> Enabling Cookies in Firefox  
  Cookies are small files that are stored on your computer. Cookies contain small amounts of data that is specific to a website, or in this case, the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
@@ -38,7 +38,7 @@ This topic describes how to configure Mozilla Firefox web browser to work with t
     |If you want to|Then|  
     |--------------------|----------|  
     |Allow cookies from all websites|1.  Select **Accept cookies from sites**.<br />2.  Choose the **OK** button.|  
-    |Allow cookies only from the [!INCLUDE[nav_web](includes/nav_web_md.md)] site|1.  Select **Exceptions**.<br />2.  In the **Address of the website** box, type the address of the [!INCLUDE[nav_web](includes/nav_web_md.md)], for example: **http:\/\/myNAVServer:8080\/\/DynamicsNAV90\/WebClient**.<br />3.  Choose **Allow**.<br />     The [!INCLUDE[nav_web](includes/nav_web_md.md)] address appears in the **Site** list.<br />4.  Choose **Close**, and then choose the **OK** button.|  
+    |Allow cookies only from the [!INCLUDE[nav_web](includes/nav_web_md.md)] site|1.  Select **Exceptions**.<br />2.  In the **Address of the website** box, type the address of the [!INCLUDE[nav_web](includes/nav_web_md.md)], for example: **http://myNAVServer:8080//DynamicsNAV90/WebClient**.<br />3.  Choose **Allow**.<br />     The [!INCLUDE[nav_web](includes/nav_web_md.md)] address appears in the **Site** list.<br />4.  Choose **Close**, and then choose the **OK** button.|  
 
 ##  <a name="Java"></a> Enabling JavaScript in Firefox  
  JavaScript is a programming language for making web pages interactive.  
@@ -80,7 +80,7 @@ This topic describes how to configure Mozilla Firefox web browser to work with t
 
     1.  In the **Search** box, enter **network.automatic**, and then double-click the line **network.automatic-ntlm-auth.trusted-uris**.  
 
-    2.  In the **Enter string value** dialog box, type the address that you use to open the [!INCLUDE[nav_web](includes/nav_web_md.md)], for example, **http:\/\/myNAVServer:8080\/DynamicsNAV90\/WebClient**.  
+    2.  In the **Enter string value** dialog box, type the address that you use to open the [!INCLUDE[nav_web](includes/nav_web_md.md)], for example, **http://myNAVServer:8080/DynamicsNAV90/WebClient**.  
 
     3.  Choose the **OK** button.  
 
@@ -91,7 +91,7 @@ This topic describes how to configure Mozilla Firefox web browser to work with t
 
     1.  In the **Search box**, enter **network.negotiate**, and then double-click the line **network.negotiate-auth.trusted-uris**.  
 
-    2.  In the **Enter string value** dialog box, type the address that you use to open the [!INCLUDE[nav_web](includes/nav_web_md.md)], for example, **http:\/\/myNAVServer:8080\/DynamicsNAV90\/WebClient**.  
+    2.  In the **Enter string value** dialog box, type the address that you use to open the [!INCLUDE[nav_web](includes/nav_web_md.md)], for example, **http://myNAVServer:8080/DynamicsNAV90/WebClient**.  
 
     3.  Choose the **OK** button.  
 
@@ -99,6 +99,6 @@ This topic describes how to configure Mozilla Firefox web browser to work with t
 
 ## See Also  
  [Microsoft Dynamics NAV Web Client](Microsoft-Dynamics-NAV-Web-Client.md)   
- [How to: Configure Authentication of Microsoft Dynamics NAV Web Client Users](How%20to:%20Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md)   
+ [How to: Configure Authentication of Microsoft Dynamics NAV Web Client Users](How-to--Configure-Authentication-of-Microsoft-Dynamics-NAV-Web-Client-Users.md)   
  [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md)   
- [How to: Configure Internet Explorer for Microsoft Dynamics NAV Clients](How%20to:%20Configure%20Internet%20Explorer%20for%20Microsoft%20Dynamics%20NAV%20Clients.md)
+ [How to: Configure Internet Explorer for Microsoft Dynamics NAV Clients](How-to--Configure-Internet-Explorer-for-Microsoft-Dynamics-NAV-Clients.md)

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 22168a6c-9034-4503-bc82-1cae9497762d
 caps.latest.revision: 9
 manager: edupont
@@ -190,7 +190,7 @@ Record.VALIDATE(Field [, NewValue])
   
 |Variable|Data type|Subtype|  
 |--------------|---------------|-------------|  
-|GeneralLedgerEntry|Record|G\/L Entry|  
+|GeneralLedgerEntry|Record|G/L Entry|  
   
 ```  
 GeneralLedgerEntry.VALIDATE("G/L AccountNo", '100');  

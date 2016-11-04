@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: e9c72d0e-24c9-4f8f-88ea-cc89b836954b
 caps.latest.revision: 67
 manager: edupont
@@ -117,11 +117,11 @@ This walkthrough shows how to publish and consume a [!INCLUDE[navnow](includes/n
   
 1.  Start Windows Internet Explorer.  
   
-2.  In the **Address** field, enter the following address where the keys are replaced with the values that are specified in the CustomSettings.config file: **http:\/\/\<Server>:\<WebServicePort>\/\<ServerInstance>\/WS\/\<CompanyName>\/services**.  
+2.  In the **Address** field, enter the following address where the keys are replaced with the values that are specified in the CustomSettings.config file: **http://\<Server>:\<WebServicePort>/\<ServerInstance>/WS/\<CompanyName>/services**.  
   
      For example:  
   
-     **http:\/\/localhost:7047\/DynamicsNAV\/WS\/CRONUS%20International%20Ltd.\/services**  
+     **http://localhost:7047/DynamicsNAV/WS/CRONUS-International-Ltd./services**  
   
     > [!NOTE]  
     >  The company name is case-sensitive.  
@@ -148,7 +148,7 @@ This walkthrough shows how to publish and consume a [!INCLUDE[navnow](includes/n
   
 5.  In Solution Explorer, right-click the **References** node in the project, and then choose **Add Service Reference**.  
   
-6.  In the **Add Service Reference** dialog box, choose the **Advanced** button, choose the **Add Web Reference** button, in the URL text box, type or paste the URL that you used when checking the WSDL, such as **http:\/\/localhost:7047\/DynamicsNAV\/WS\/Services**, and then choose **Go**.  
+6.  In the **Add Service Reference** dialog box, choose the **Advanced** button, choose the **Add Web Reference** button, in the URL text box, type or paste the URL that you used when checking the WSDL, such as **http://localhost:7047/DynamicsNAV/WS/Services**, and then choose **Go**.  
   
 7.  When the services are displayed, select the Page service \(`Page/PageWithCapitalization`. Then choose **View Service**.  
   

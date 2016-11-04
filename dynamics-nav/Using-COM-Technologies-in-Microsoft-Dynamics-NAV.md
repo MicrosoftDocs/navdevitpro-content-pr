@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 032fac86-f68a-4871-a08f-3c87f193d2d4
 caps.latest.revision: 17
 manager: edupont
@@ -63,7 +63,7 @@ manager: edupont
 |DATE \(VT\_DATE\)|[Date Data Type](Date-Data-Type.md)<br /><br /> [DateTime Data Type](DateTime-Data-Type.md)|The COM DATE type contains both a date and a time value. C/AL has Date and Time as separate data types. Therefore, the time part of a COM DATE type will be lost when the COM DATE type is mapped to the Date C/AL data type.<br /><br /> To keep the date and the time, map the COM Date type to the C/AL DateTime data type.|  
 |BSTR \(VT\_BSTR\)|[Text Data Type](Text-Data-Type.md)||  
 |VARIANT\_BOOL<br /><br /> \(VT\_BOOL\)|[Boolean Data Type](Boolean-Data-Type.md)||  
-|TypedObject\/<br /><br /> UntypedObject<br /><br /> \(VT\_DISPATCH\)|[Automation Data Type](Automation-Data-Type.md)<br /><br /> [OCX Data Type](OCX-Data-Type.md)||  
+|TypedObject/<br /><br /> UntypedObject<br /><br /> \(VT\_DISPATCH\)|[Automation Data Type](Automation-Data-Type.md)<br /><br /> [OCX Data Type](OCX-Data-Type.md)||  
 |VT\_EMPTY|[Text Data Type](Text-Data-Type.md)||  
 |VARIANT<br /><br /> \(VT\_VARIANT\)|[Variant Data Type](Variant-Data-Type.md)||  
   

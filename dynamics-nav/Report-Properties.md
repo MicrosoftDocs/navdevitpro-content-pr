@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: a9518144-46ef-4cd9-b260-1d232895f2d2
 caps.latest.revision: 12
 manager: edupont
@@ -17,7 +17,7 @@ This topic lists properties of the report object.
 ## Report Object Properties  
  The following properties apply to the report object.  
   
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
   
 -   [CaptionML Property](CaptionML-Property.md)  
   
@@ -31,7 +31,7 @@ This topic lists properties of the report object.
   
 -   [ID Property](ID-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [PaperSourceDefaultPage Property](PaperSourceDefaultPage-Property.md)  
   
@@ -72,7 +72,7 @@ This topic lists properties of the report object.
   
 -   [MaxIteration Property](MaxIteration-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [PrintOnlyIfDetail Property](PrintOnlyIfDetail-Property.md)  
   
@@ -103,7 +103,7 @@ This topic lists properties of the report object.
   
 -   [Indentation Property \(Reports\)](Indentation-Property--Reports-.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 -   [OptionCaption Property](OptionCaption-Property.md)  
   
@@ -116,7 +116,7 @@ This topic lists properties of the report object.
 ## Report Label Properties  
  The following properties apply to **Report Labels** of a report object.  
   
--   [Caption Property-duplicate](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property-duplicate.md)  
   
 -   [CaptionML Property](CaptionML-Property.md)  
   
@@ -124,7 +124,7 @@ This topic lists properties of the report object.
   
 -   [ID Property](ID-Property.md)  
   
--   [Name Property-duplicate](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property-duplicate.md)  
   
 ## See Also  
  [Properties](Properties.md)

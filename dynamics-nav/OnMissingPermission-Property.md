@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 8f682697-4113-4530-af1a-b4ee1ca4b63a
 caps.latest.revision: 3
 manager: edupont
@@ -36,4 +36,4 @@ Specifies what happens to the subscriber function call when the [!INCLUDE[navnow
  [Publishing Events](Publishing-Events.md)   
  [Raising Events](Raising-Events.md)   
  [Subscribing to Events](Subscribing-to-Events.md)   
- [C-AL Function Statements](C-AL-Function-Statements.md)
+ [C/AL Function Statements](C-AL-Function-Statements.md)

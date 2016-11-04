@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 6e38c751-e2bc-4db9-adb3-6cddc63c8266
 caps.latest.revision: 3
 manager: edupont
@@ -14,7 +14,7 @@ manager: edupont
 # Setting up Hyperlinks in Word Report Layouts
 In a report that is based on a Word report layout, you can set up hyperlinks on controls for text and picture fields. For example, on your invoice reports, let's imagine that you want to add a link that targets the URL of a payment service. To achieve this, you add a field to the Customer table for storing payments URLs. Then, you can modify the report dataset and layout to include a link to payment services URL. You can set up the following types of links:  
   
--   A text link that uses either the URL as its display name \(for example, http:\/\/www.contuso.com\/payments\) or some custom text \(for example, *Click here to make a payment*\).  
+-   A text link that uses either the URL as its display name \(for example, http://www.contuso.com/payments\) or some custom text \(for example, *Click here to make a payment*\).  
   
 -   A logo of the payment service that links to the payments services URL.  
   
@@ -63,12 +63,12 @@ In a report that is based on a Word report layout, you can set up hyperlinks on 
   
     -   A column whose source is the field that stores the picture. You give this column any valid name that you want, such as *Picture*.  
   
-    -   A column whose source is the field that stores the URL. The name of the column must start with the name of the column for the picture source and followed by\/ending with **\_Url**. **\_Url** is case sensitive. For example, if the picture source column is called **Picture**, this column must be named **Picture\_Url**.  
+    -   A column whose source is the field that stores the URL. The name of the column must start with the name of the column for the picture source and followed by/ending with **\_Url**. **\_Url** is case sensitive. For example, if the picture source column is called **Picture**, this column must be named **Picture\_Url**.  
   
 3.  In the Word report layout, add a picture control for the picture source column.  
   
 ## See Also  
- [How to: Modify a Word Report Layout](How%20to:%20Modify%20a%20Word%20Report%20Layout.md)   
- [How to: Add Fields from a Report Dataset to a Word Report Layout](How%20to:%20Add%20Fields%20from%20a%20Report%20Dataset%20to%20a%20Word%20Report%20Layout.md)   
+ [How to: Modify a Word Report Layout](How-to--Modify-a-Word-Report-Layout.md)   
+ [How to: Add Fields from a Report Dataset to a Word Report Layout](How-to--Add-Fields-from-a-Report-Dataset-to-a-Word-Report-Layout.md)   
  [Designing Word Report Layouts](Designing-Word-Report-Layouts.md)   
  [Defining the Report Dataset](Defining-the-Report-Dataset.md)

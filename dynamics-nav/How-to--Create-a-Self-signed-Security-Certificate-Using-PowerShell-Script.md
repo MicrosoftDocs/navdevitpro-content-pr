@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 227a75d5-2eed-4a88-acea-1a280aaef027
 caps.latest.revision: 13
 manager: edupont
@@ -36,7 +36,7 @@ With the `New-NavSelfSignedCertificate` PowerShell cmdlet, you can create a self
     |Parameter name|Type|Description|  
     |--------------------|----------|-----------------|  
     |`-TestCertificateName`|Type:String|The name that identifies your test certificate. The default value is `TestCertificate`. This parameter is optional.|  
-    |`-TestCertificateServerAddress`|Type:String|The authority\/entity that this certificate is issued for. Default is the computer host name. Specify this value if the [!INCLUDE[nav_server](includes/nav_server_md.md)] is accessed by using an address that differs from the computer name. This parameter is optional.|  
+    |`-TestCertificateServerAddress`|Type:String|The authority/entity that this certificate is issued for. Default is the computer host name. Specify this value if the [!INCLUDE[nav_server](includes/nav_server_md.md)] is accessed by using an address that differs from the computer name. This parameter is optional.|  
     |`-TestCertificateRootCertificateAuthorityName`|Type:String|The root certificate authority name. The name will identify the root certificate issuer. The default value is the `TestCertificate` parameter value prefixed `RootCA`. This parameter is optional.|  
     |`-Outputfolder`|Type:String|Specifies the output folder for the certificates. Default is the location where the script was executed from. This parameter is optional.|  
     |`-MakeCertExePath`|Type:String|The path of the Windows SDK MakeCert.exe tool. Default is the specified `Outputfolder`. This parameter is optional.|  
@@ -48,4 +48,4 @@ With the `New-NavSelfSignedCertificate` PowerShell cmdlet, you can create a self
   
 ## See Also  
  [Using Certificates to Secure a Remote Client Connection](Using-Certificates-to-Secure-a-Remote-Client-Connection.md)   
- [Walkthrough: Implementing Security Certificates in a Test Environment](Walkthrough:%20Implementing%20Security%20Certificates%20in%20a%20Test%20Environment.md)
+ [Walkthrough: Implementing Security Certificates in a Test Environment](Walkthrough--Implementing-Security-Certificates-in-a-Test-Environment.md)

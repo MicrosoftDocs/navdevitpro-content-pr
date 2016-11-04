@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: c20c0f86-3eb9-4b29-ac43-c569614162c8
 caps.latest.revision: 6
 ---
@@ -46,5 +46,5 @@ Sets the values of a C/AL text constant for the different languages that are ava
 3.  To save the changes, choose the **OK** button.  
   
 ## See Also  
- [How to: Change the Language in the User Interface](How%20to:%20Change%20the%20Language%20in%20the%20User%20Interface.md)   
+ [How to: Change the Language in the User Interface](How-to--Change-the-Language-in-the-User-Interface.md)   
  [Multilanguage Development](Multilanguage-Development.md)

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 16380cad-3f90-4ad2-90e7-9eca2795d84e
 caps.latest.revision: 7
 manager: edupont
@@ -46,7 +46,7 @@ By default, the rows in the resulting dataset of query are not necessarily arran
      When you sort by multiple columns, the sort order is determined by the column’s position in the **Order By** window, where the query sorts the results by the first listed column, then the second column, and so on.  
   
 ## Example  
- This section includes a simple example of how you can set the **OrderBy** property to sort the resulting dataset of a query. For a detailed step-by-step example of sorting a query dataset, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
+ This section includes a simple example of how you can set the **OrderBy** property to sort the resulting dataset of a query. For a detailed step-by-step example of sorting a query dataset, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough--Creating-a-Query-to-Link-Two-Tables.md).  
   
  This following table shows the results of a query that retrieves the quantity of items in every open sales order for each customer.  
   
@@ -84,4 +84,4 @@ OrderBy Name,Quantity
 ```  
   
 ## See Also  
- [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md)
+ [Walkthrough: Creating a Query to Link Two Tables](Walkthrough--Creating-a-Query-to-Link-Two-Tables.md)

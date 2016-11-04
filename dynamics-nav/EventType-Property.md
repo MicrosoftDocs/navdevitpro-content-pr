@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 0d10d3d0-071f-4241-8f07-58a15a0ee1b4
 caps.latest.revision: 4
 manager: edupont
@@ -36,4 +36,4 @@ Specifies the type of event that is published by the event publisher function.
  [Publishing Events](Publishing-Events.md)   
  [Raising Events](Raising-Events.md)   
  [Subscribing to Events](Subscribing-to-Events.md)   
- [C-AL Function Statements](C-AL-Function-Statements.md)
+ [C/AL Function Statements](C-AL-Function-Statements.md)

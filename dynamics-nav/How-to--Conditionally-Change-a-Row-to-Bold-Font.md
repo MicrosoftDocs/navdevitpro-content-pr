@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: f4dff8b9-66fe-4b5c-8f6a-8c4797714f39
 caps.latest.revision: 19
 manager: edupont
@@ -22,7 +22,7 @@ In some reports, you may want to format rows as bold based on the value of a fie
   
 3.  On the **View** menu, choose **Layout**.  
   
-4.  In Visual Studio, create a hidden text box. The hidden text box should contain the field on which you will determine whether the row is bold. For example, in the Chart of Accounts report, the hidden field contains the account type field. For more information, see [How to: Add and Identify Hidden Fields](How%20to:%20Add%20and%20Identify%20Hidden%20Fields.md).  
+4.  In Visual Studio, create a hidden text box. The hidden text box should contain the field on which you will determine whether the row is bold. For example, in the Chart of Accounts report, the hidden field contains the account type field. For more information, see [How to: Add and Identify Hidden Fields](How-to--Add-and-Identify-Hidden-Fields.md).  
   
 5.  In design view, select the data row that you want to appear as bold.  
   

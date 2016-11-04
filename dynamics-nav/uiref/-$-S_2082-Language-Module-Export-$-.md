@@ -1,18 +1,18 @@
 ---
-title: "($ S_2082 Language Module Export $)"
+title: "Language Module Export"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: a2e614f1-5f22-4ed8-96c6-3b8ba7cb9075
 caps.latest.revision: 8
 manager: edupont
 ---
-# ($ S_2082 Language Module Export $)
-Exports a language module. [!INCLUDE[navnowlong](../includes/navnowlong_md.md)] is multilanguage enabled, which means that you can display the user interface \(UI\) in different languages. To view [!INCLUDE[navnow](../includes/navnow_md.md)] content in multiple languages, you must install the module for the languages. You can uninstall a language if it is no longer supported. For more information, see [How to: Uninstall Language Modules](../How%20to:%20Uninstall%20Language%20Modules.md).  
+# Language Module Export
+Exports a language module. [!INCLUDE[navnowlong](../includes/navnowlong_md.md)] is multilanguage enabled, which means that you can display the user interface \(UI\) in different languages. To view [!INCLUDE[navnow](../includes/navnow_md.md)] content in multiple languages, you must install the module for the languages. You can uninstall a language if it is no longer supported. For more information, see [How to: Uninstall Language Modules](../How-to--Uninstall-Language-Modules.md).  
 
  To open this window, on the **Tools** menu, choose **Language Module**, and then choose **Export**.  
 
@@ -25,4 +25,4 @@ Exports a language module. [!INCLUDE[navnowlong](../includes/navnowlong_md.md)] 
 |**Delete Language**|Specifies whether the language should be uninstalled.|  
 
 ## See Also  
- [Microsoft Dynamics NAV Windows Client Component](../How%20to:%20Install%20Language%20Modules.md#RoleTailored)
+ [Microsoft Dynamics NAV Windows Client Component](../How-to--Install-Language-Modules.md)

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: f04a4b9b-b440-4472-81a3-66a1069c54b1
 caps.latest.revision: 6
 manager: edupont
@@ -19,9 +19,9 @@ Increases the size of the existing transaction log files or adds new files to en
  You can also delete existing transaction log files that are empty. The first transaction log file that is listed is the primary file. You cannot delete the primary transaction log file.  
   
 ## See Also  
- [How to: Increase the Size of Transaction Log Files](How%20to:%20Increase%20the%20Size%20of%20Transaction%20Log%20Files.md)   
- [How to: Add New Transaction Log Files](How%20to:%20Add%20New%20Transaction%20Log%20Files.md)   
- [How to: Alter Databases](How%20to:%20Alter%20Databases.md)   
+ [How to: Increase the Size of Transaction Log Files](How-to--Increase-the-Size-of-Transaction-Log-Files.md)   
+ [How to: Add New Transaction Log Files](How-to--Add-New-Transaction-Log-Files.md)   
+ [How to: Alter Databases](How-to--Alter-Databases.md)   
  [Altering Databases - General Tab](Altering-Databases---General-Tab.md)   
  [Altering Databases - Database Files Tab](Altering-Databases---Database-Files-Tab.md)   
  [Altering Databases - Collation Tab](Altering-Databases---Collation-Tab.md)   

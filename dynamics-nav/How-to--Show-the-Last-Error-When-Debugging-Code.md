@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 9514a2b5-e621-4925-928e-053cfbc1e8a9
 caps.latest.revision: 6
 manager: edupont
@@ -20,4 +20,4 @@ On the **Debugger** page, if code execution has paused and an error has occurred
   
 ## See Also  
  [Debugging](Debugging.md)   
- [How to: View Variables That Are in Scope](How%20to:%20View%20Variables%20That%20Are%20in%20Scope.md)
+ [How to: View Variables That Are in Scope](How-to--View-Variables-That-Are-in-Scope.md)

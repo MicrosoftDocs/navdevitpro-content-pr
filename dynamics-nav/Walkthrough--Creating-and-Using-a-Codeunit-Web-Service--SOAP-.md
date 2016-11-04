@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: efcf5eaf-b129-469d-b4f7-b8681574483e
 caps.latest.revision: 90
 manager: edupont
@@ -100,11 +100,11 @@ Web services provide easy communication and data exchange in a secured environme
   
 1.  Start Windows Internet Explorer.  
   
-2.  In the **Address** field, enter an address in the following format: **http:\/\/\<Server>:\<WebServicePort>\/\<ServerInstance>\/WS\/\<CompanyName>\/services**.  
+2.  In the **Address** field, enter an address in the following format: **http://\<Server>:\<WebServicePort>/\<ServerInstance>/WS/\<CompanyName>/services**.  
   
      For example:  
   
-     **http:\/\/localhost:7047\/DynamicsNAV\/WS\/CRONUS%20International%20Ltd.\/services**  
+     **http://localhost:7047/DynamicsNAV/WS/CRONUS%20International%20Ltd./services**  
   
     > [!NOTE]  
     >  The company name is case-sensitive.  
@@ -126,7 +126,7 @@ Web services provide easy communication and data exchange in a secured environme
   
 5.  In the **Add Service Reference** window, choose the **Advanced** button.  
   
-6.  In the **Service Reference Settings** window, choose the **Add Web Reference** button, type or paste the URL that you used when you checked the WSDL, such as **http:\/\/localhost:7047\/DynamicsNAV\/WS\/Services**, and then choose **Go** \(the green button with the arrow\).  
+6.  In the **Service Reference Settings** window, choose the **Add Web Reference** button, type or paste the URL that you used when you checked the WSDL, such as **http://localhost:7047/DynamicsNAV/WS/Services**, and then choose **Go** \(the green button with the arrow\).  
   
 7.  When the **Letters** service is displayed on the discovery Page, choose **View Service**, then in the **Web reference name** text box, rename **localhost** to **WebService**, and then choose **Add Reference**.  
   
@@ -176,12 +176,12 @@ Web services provide easy communication and data exchange in a secured environme
 10. Press Enter to close the application.  
   
 ## Next Steps  
- This walkthrough illustrated how you can publish a codeunit as a web service from [!INCLUDE[navnow](includes/navnow_md.md)] and write a program that uses the web service. The next step is to expose a page as a web service and then interact with data from that page. For details, see [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](Walkthrough:%20Registering%20and%20Using%20a%20Page%20Web%20Service%20\(SOAP\).md).  
+ This walkthrough illustrated how you can publish a codeunit as a web service from [!INCLUDE[navnow](includes/navnow_md.md)] and write a program that uses the web service. The next step is to expose a page as a web service and then interact with data from that page. For details, see [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](Walkthrough--Registering-and-Using-a-Page-Web-Service--SOAP-.md).  
   
 ## See Also  
  [Web Services](Web-Services.md)   
  [SOAP Web Services](SOAP-Web-Services.md)   
  [Microsoft Dynamics NAV Web Services Overview](Microsoft-Dynamics-NAV-Web-Services-Overview.md)   
- [How to: Publish a Web Service](How%20to:%20Publish%20a%20Web%20Service.md)   
- [Walkthrough: Configuring Web Services to Use SSL \(SOAP and OData\)](Walkthrough:%20Configuring%20Web%20Services%20to%20Use%20SSL%20\(SOAP%20and%20OData\).md)   
- [Web Service Alternatives: SOAP and OData](Web%20Service%20Alternatives:%20SOAP%20and%20OData.md)
+ [How to: Publish a Web Service](How-to--Publish-a-Web-Service.md)   
+ [Walkthrough: Configuring Web Services to Use SSL \(SOAP and OData\)](Walkthrough--Configuring-Web-Services-to-Use-SSL--SOAP-and-OData-.md)   
+ [Web Service Alternatives: SOAP and OData](Web-Service-Alternatives:-SOAP-and-OData.md)

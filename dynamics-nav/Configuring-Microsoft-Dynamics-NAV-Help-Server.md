@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 95087fdf-28ee-4d6b-9153-87f6857325bc
 caps.latest.revision: 10
 ---
@@ -30,7 +30,7 @@ caps.latest.revision: 10
   
 |[!INCLUDE[bp_tablefield](includes/bp_tablefield_md.md)]|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------------------------|---------------------------------------|  
-|Server|Specifies the location of the computer that hosts the [!INCLUDE[navnow](includes/navnow_md.md)] Help Server, such as *MyWebServer*.<br /><br /> If the value of the HelpServer setting starts with "http," then the HelpServer port setting is ignored and the entire value is used to create the base of the help url. This enable you to set up a server that uses https or that includes a subpath, as in the following examples:<br /><br /> https:\/\/myserver.com<br /><br /> -or-<br /><br /> http:\/\/myserver.com:45672\/navhelp\/financeapp<br /><br /> If the Help Server setting does not begin with "http," then [!INCLUDE[navnow](includes/navnow_md.md)] will format the url as follows: http:\/\/\<HelpServer value>:\<HelpServerPort value>.|  
+|Server|Specifies the location of the computer that hosts the [!INCLUDE[navnow](includes/navnow_md.md)] Help Server, such as *MyWebServer*.<br /><br /> If the value of the HelpServer setting starts with "http," then the HelpServer port setting is ignored and the entire value is used to create the base of the help url. This enable you to set up a server that uses https or that includes a subpath, as in the following examples:<br /><br /> https://myserver.com<br /><br /> -or-<br /><br /> http://myserver.com:45672/navhelp/financeapp<br /><br /> If the Help Server setting does not begin with "http," then [!INCLUDE[navnow](includes/navnow_md.md)] will format the url as follows: http://\<HelpServer value>:\<HelpServerPort value>.|  
 |Port|Specifies the TCP listening port for the [!INCLUDE[navnow](includes/navnow_md.md)] Help Server, such as 49000.|  
   
  For [!INCLUDE[nav_windows](includes/nav_windows_md.md)] users, this configuration is stored in the ClientUserSetting.config file. For more information, see [Configuring the Windows Client](Configuring-the-Windows-Client.md).  

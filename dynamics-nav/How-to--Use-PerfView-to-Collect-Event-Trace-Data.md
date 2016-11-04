@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 0a53dde8-c139-46d0-a13c-56391eed7f95
 caps.latest.revision: 14
 ---
@@ -15,7 +15,7 @@ This topic describes how to use PerfView to collect event trace data for [!INCLU
   
 ### To install PerfView  
   
--   Go to [http:\/\/go.microsoft.com\/fwlink\/?LinkID=313428](http://go.microsoft.com/fwlink/?LinkID=313428), and then follow the instructions to download and install PerfView.  
+-   Go to [http://go.microsoft.com/fwlink/?LinkID=313428](http://go.microsoft.com/fwlink/?LinkID=313428), and then follow the instructions to download and install PerfView.  
   
 ### To collect event trace data  
   
@@ -43,7 +43,7 @@ This topic describes how to use PerfView to collect event trace data for [!INCLU
   
 8.  To stop recording data, choose the **Stop Collection** button.  
   
- The collected event trace data is stored in an event trace log \(.etl\) file in the location that you specified. You can view the data in the log file by using various industry-standard tools, such as PerfView. For information about how to use PerfView to view the event trace data, see [How to: Use PerfView to View Event Trace Data](How%20to:%20Use%20PerfView%20to%20View%20Event%20Trace%20Data.md).  
+ The collected event trace data is stored in an event trace log \(.etl\) file in the location that you specified. You can view the data in the log file by using various industry-standard tools, such as PerfView. For information about how to use PerfView to view the event trace data, see [How to: Use PerfView to View Event Trace Data](How-to--Use-PerfView-to-View-Event-Trace-Data.md).  
   
 ##  <a name="ViewDataPerfView"></a> To view event trace data from an event trace log file  
   

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: c6cc9c70-5a11-4097-8e7b-ae671b349afb
 caps.latest.revision: 24
 manager: edupont
@@ -45,9 +45,9 @@ When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup, you can in
   
     |Component node|Description|  
     |--------------------|-----------------|  
-    |![White Node](media/install_WhiteNode.gif "install\_WhiteNode")|The component and all its subcomponents are selected for installation.|  
-    |![Gray node](media/install_GrayNode.gif "install\_GrayNode")|The component is selected for installation. Some or none but not all of the subcomponents are also selected. Only items on the top or second level can be gray because only these nodes can have subcomponents.|  
-    |![Red node](media/install_RedNode.gif "install\_RedNode")|Neither the component nor any of its subcomponents is selected for installation.|  
+    |![White Node](media/install_WhiteNode.png "install\_WhiteNode")|The component and all its subcomponents are selected for installation.|  
+    |![Gray node](media/install_GrayNode.png "install\_GrayNode")|The component is selected for installation. Some or none but not all of the subcomponents are also selected. Only items on the top or second level can be gray because only these nodes can have subcomponents.|  
+    |![Red node](media/install_RedNode.png "install\_RedNode")|Neither the component nor any of its subcomponents is selected for installation.|  
   
 3.  Choose a component to open a menu of options for that component. You must click in the box. The following options are available.  
   
@@ -59,10 +59,10 @@ When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup, you can in
   
      For second-level nodes without subcomponents and third-level nodes, the only options are **Run from My Computer** and **Not Available**.  
   
-4.  After you have selected the set of components and subcomponents that you want to install, choose **Next** to continue to the **Specify parameters** page. For more information, see [How to: Preconfigure Components](How%20to:%20Preconfigure%20Components.md).  
+4.  After you have selected the set of components and subcomponents that you want to install, choose **Next** to continue to the **Specify parameters** page. For more information, see [How to: Preconfigure Components](How-to--Preconfigure-Components.md).  
   
 ## See Also  
- [How to: Run Setup](How%20to:%20Run%20Setup.md)   
+ [How to: Run Setup](How-to--Run-Setup.md)   
  [Custom Option](Custom-Option.md)   
  [Installation and Configuration Walkthroughs](Installation-and-Configuration-Walkthroughs.md)   
  [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)   

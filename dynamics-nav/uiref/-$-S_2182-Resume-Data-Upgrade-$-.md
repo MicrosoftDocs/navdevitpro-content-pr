@@ -1,17 +1,17 @@
 ---
-title: "($ S_2182 Resume Data Upgrade $)"
+title: "Resume Data Upgrade"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 2f7bcbf6-25b1-4e61-96b9-09d45e954100
 caps.latest.revision: 2
 manager: edupont
 ---
-# ($ S_2182 Resume Data Upgrade $)
+# Resume Data Upgrade
 Specifies which **Upgrade** functions to rerun when you resume a data upgrade process that has been suspended.  
 
  To open this window, on the **Tools** menu, choose  **Data Upgrade**, and then choose the **Resume**.  

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: ae634c9a-855b-4c96-b591-9ded3fd9f25a
 caps.latest.revision: 7
 manager: edupont
@@ -49,4 +49,4 @@ A FlowField is always associated with a calculation formula that determines how 
 ## See Also  
  [FlowFields](FlowFields.md)   
  [FlowFilter Overview](FlowFilter-Overview.md)   
- [How to: Create, View, and Edit a Calculation Formula](How%20to:%20Create,%20View,%20and%20Edit%20a%20Calculation%20Formula.md)
+ [How to: Create, View, and Edit a Calculation Formula](How-to--Create--View--and-Edit-a-Calculation-Formula.md)

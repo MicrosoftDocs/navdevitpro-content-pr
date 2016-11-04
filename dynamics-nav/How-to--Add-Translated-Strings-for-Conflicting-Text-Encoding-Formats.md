@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: cf0de1f9-a072-4c94-9110-e31e3cfc6a04
 caps.latest.revision: 4
 ---
@@ -17,7 +17,7 @@ You can configure your [!INCLUDE[navnow](includes/navnow_md.md)] solution so tha
   
 ### To add translated strings for a conflicting text encoding format  
   
-1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], export the strings for the objects that you want to translate. For more information, see [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How%20to:%20Add%20Translated%20Strings%20By%20Importing%20and%20Exporting%20Multilanguage%20Files.md).  
+1.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], export the strings for the objects that you want to translate. For more information, see [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How-to--Add-Translated-Strings-By-Importing-and-Exporting-Multilanguage-Files.md).  
   
      The resulting text file contains user interface strings in English and Dutch.  
   
@@ -45,4 +45,4 @@ You can configure your [!INCLUDE[navnow](includes/navnow_md.md)] solution so tha
 ## See Also  
  [Adding Languages to Microsoft Dynamics NAV](Adding-Languages-to-Microsoft-Dynamics-NAV.md)   
  [Multilanguage Development](Multilanguage-Development.md)   
- [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How%20to:%20Add%20Translated%20Strings%20By%20Importing%20and%20Exporting%20Multilanguage%20Files.md)
+ [How to: Add Translated Strings By Importing and Exporting Multilanguage Files](How-to--Add-Translated-Strings-By-Importing-and-Exporting-Multilanguage-Files.md)

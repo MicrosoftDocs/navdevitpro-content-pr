@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 65cd2256-1463-4f6d-9ed3-9918336b61d5
 caps.latest.revision: 5
 manager: edupont
@@ -44,5 +44,5 @@ RecordVar.SecurityFiltering := SecurityFilter::<Disallowed|Filtered|Ignored|Vali
   
 ## See Also  
  [Record-Level Security](Record-Level-Security.md)   
- [How to: Set Security Filters](How%20to:%20Set%20Security%20Filters.md)   
+ [How to: Set Security Filters](How-to--Set-Security-Filters.md)   
  [Security Filter Modes](Security-Filter-Modes.md)

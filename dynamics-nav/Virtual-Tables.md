@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: da3a6da3-f4d5-4f06-ba1e-fd6d21ef1ab1
 caps.latest.revision: 16
 manager: edupont
@@ -31,4 +31,4 @@ A virtual table contains system information. You cannot change the data in virtu
   
 -   Overview of the operating system files that store the database.  
   
- Because virtual tables are not stored in the database, you cannot view them directly. To view a virtual table, you must create a list page based on the virtual table. For more information, see [How to: Create a Page to View a Virtual Table](How%20to:%20Create%20a%20Page%20to%20View%20a%20Virtual%20Table.md).
+ Because virtual tables are not stored in the database, you cannot view them directly. To view a virtual table, you must create a list page based on the virtual table. For more information, see [How to: Create a Page to View a Virtual Table](How-to--Create-a-Page-to-View-a-Virtual-Table.md).

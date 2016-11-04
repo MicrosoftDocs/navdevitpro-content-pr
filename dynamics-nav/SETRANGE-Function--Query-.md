@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 5699fdbe-9216-436b-ae2d-0628f788a48e
 caps.latest.revision: 12
 manager: edupont
@@ -30,7 +30,7 @@ Query.SETRANGE(Column[, FromValue][, ToValue])
  *Column*  
  Type: Text  
   
- The name of the column in the query that you want to filter. The name is defined by the column's [Name Property-duplicate](Name-Property-duplicate.md) in Query Designer.  
+ The name of the column in the query that you want to filter. The name is defined by the column's [Name Property](Name-Property-duplicate.md) in Query Designer.  
   
  *FromValue*  
  Type: Any  
@@ -98,7 +98,7 @@ Query.READ;
   
     -   Includes columns for the **Name** and **No.** fields from the Customer table and the **Quantity** field from Sales Lines table.  
   
-         For step-by-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough:%20Creating%20a%20Query%20to%20Link%20Two%20Tables.md).  
+         For step-by-step instructions for creating this query, see [Walkthrough: Creating a Query to Link Two Tables](Walkthrough--Creating-a-Query-to-Link-Two-Tables.md).  
   
 2.  Create the following C/AL variables and text constant in the object that will run the query, such as a codeunit.  
   

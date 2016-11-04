@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 1947a79f-ea51-4e9a-b814-0d126ffffbca
 caps.latest.revision: 8
 manager: edupont
@@ -35,4 +35,4 @@ Specifies which paper source to use when printing the last page of the report.
 ## See Also  
  [PaperSourceDefaultPage Property](PaperSourceDefaultPage-Property.md)   
  [PaperSourceFirstPage Property](PaperSourceFirstPage-Property.md)   
- [How to: Add GetPaperTrayForReport Procedure in Codeunit 1](How%20to:%20Add%20GetPaperTrayForReport%20Procedure%20in%20Codeunit%201.md)
+ [How to: Add GetPaperTrayForReport Procedure in Codeunit 1](How-to--Add-GetPaperTrayForReport-Procedure-in-Codeunit-1.md)

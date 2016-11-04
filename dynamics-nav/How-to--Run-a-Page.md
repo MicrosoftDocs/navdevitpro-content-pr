@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 441db9f0-d70b-4ec7-bb8c-cddccf6cf032
 caps.latest.revision: 24
 manager: edupont
 ---
 # How to: Run a Page
-When you are developing pages, you may want to see how the pages look in the [!INCLUDE[rtc](includes/rtc_md.md)]. You can run and view a page from Object Designer, or you can use command-line arguments at the command prompt, in the **Run** window, or in a browser. For each method, the [!INCLUDE[rtc](includes/rtc_md.md)] starts and opens the selected page. For command-line arguments, you have various options for opening the [!INCLUDE[rtc](includes/rtc_md.md)] and its pages in different modes. For example, you can specify a specific server or specific language, or you can create hyperlinks to specific pages in [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)]. For more information, see [Starting the Windows Client at the Command Prompt](Starting%20the%20Windows%20Client%20at%20the%20Command%20Prompt.md) and [Creating and Running Hyperlinks](Creating-and-Running-Hyperlinks.md).  
+When you are developing pages, you may want to see how the pages look in the [!INCLUDE[rtc](includes/rtc_md.md)]. You can run and view a page from Object Designer, or you can use command-line arguments at the command prompt, in the **Run** window, or in a browser. For each method, the [!INCLUDE[rtc](includes/rtc_md.md)] starts and opens the selected page. For command-line arguments, you have various options for opening the [!INCLUDE[rtc](includes/rtc_md.md)] and its pages in different modes. For example, you can specify a specific server or specific language, or you can create hyperlinks to specific pages in [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)]. For more information, see [Starting the Windows Client at the Command Prompt](Starting-the-Windows-Client-at-the-Command-Prompt.md) and [Creating and Running Hyperlinks](Creating-and-Running-Hyperlinks.md).  
   
 > [!NOTE]  
 >  ConfirmationDialog pages cannot be run and previewed by using the methods described in this topic. You can only view ConfirmationDialog pages by invoking them in the [!INCLUDE[rtc](includes/rtc_md.md)].  
@@ -27,12 +27,10 @@ When you are developing pages, you may want to see how the pages look in the [!I
   
 ### To run a page at the command prompt  
   
-1.  At the command prompt, change to the RoleTailored client directory with the following `cd` command:  
-  
-    ```  
-    cd navnow_install\RoleTailored Client  
-    ```  
-  
+1.  At the command prompt, change to the RoleTailored Client directory of the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] installation on your computer. By default, the directory is:
+
+    [!INCLUDE[navnow_x86install_md](includes/navnow_x86install_md.md)]\RoleTailored Client  
+   
 2.  Type the following command:  
   
     ```  
@@ -78,5 +76,5 @@ When you are developing pages, you may want to see how the pages look in the [!I
      The RoleTailored client opens and displays the page.  
   
 ## See Also  
- [Starting the Windows Client at the Command Prompt](Starting%20the%20Windows%20Client%20at%20the%20Command%20Prompt.md)   
+ [Starting the Windows Client at the Command Prompt](Starting-the-Windows-Client-at-the-Command-Prompt.md)   
  [Creating and Running Hyperlinks](Creating-and-Running-Hyperlinks.md)

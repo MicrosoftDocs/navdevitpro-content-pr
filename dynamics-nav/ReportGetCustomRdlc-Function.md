@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 77da162a-e857-4af2-91a2-5aa347697ff0
 caps.latest.revision: 5
 manager: edupont
@@ -52,7 +52,7 @@ EXIT(ReportLayout.GetCustomRdlc(ReportId));
   
 ## See Also  
  [Customizing Report Layout Implementation in Codeunit 1](Customizing-Report-Layout-Implementation-in-Codeunit-1.md)   
- [REPORT.RUN Function](REPORT.RUN-Function.md)   
+ [REPORT.RUN Function](REPORT-RUN-Function.md)   
  [SAVEASWORD Function \(REPORT\)](SAVEASWORD-Function--REPORT-.md)   
  [SAVEASPDF Function \(Report\)](SAVEASPDF-Function--Report-.md)   
  [SAVEASEXCEL Function \(Report\)](SAVEASEXCEL-Function--Report-.md)

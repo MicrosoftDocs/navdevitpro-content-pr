@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: c2042afd-b4c1-4753-9fba-cf069857fb08
 caps.latest.revision: 7
 manager: edupont
@@ -42,7 +42,7 @@ MESSAGE(Text000, TODAY);
   
  The message window could display the following:  
   
- **The current date is: 05\/27\/08**  
+ **The current date is: 05/27/08**  
   
 ## See Also  
  [Date and Time Functions](Date-and-Time-Functions.md)

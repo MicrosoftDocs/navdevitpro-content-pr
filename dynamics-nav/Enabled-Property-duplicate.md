@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: e54c1bbb-2070-40cb-b633-4be7738cd3d6
 caps.latest.revision: 13
 ---
@@ -33,7 +33,7 @@ Sets a value that indicates whether a field or key is enabled or disabled, or wh
   
  For controls, the Enabled setting for the container that contains this control overrides what is entered here.  
   
- On pages, you use the **Enabled** property for group, part, field, and action controls. You can enable or disable the control either statically by setting the property to **true** or **false**, or dynamically by using a Boolean variable or a Boolean field on the page. The Boolean field on the page can be either a true\/false Boolean or a Boolean expression, such as “Credit Limit > Sales YTD”.  
+ On pages, you use the **Enabled** property for group, part, field, and action controls. You can enable or disable the control either statically by setting the property to **true** or **false**, or dynamically by using a Boolean variable or a Boolean field on the page. The Boolean field on the page can be either a true/false Boolean or a Boolean expression, such as “Credit Limit > Sales YTD”.  
   
 ## Example: Dynamic Property Change Using a Boolean Field  
  To disable the **Credit Limit \(LCY\)** field on customer cards unless line discounts are allowed, follow these steps:  

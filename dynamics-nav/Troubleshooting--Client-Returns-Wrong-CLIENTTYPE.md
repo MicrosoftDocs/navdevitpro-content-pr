@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 703de4b4-115c-4d7e-ae80-57761a996fbf
 caps.latest.revision: 3
 ---
@@ -16,7 +16,7 @@ Running, for example, the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and 
  If you have implemented code that checks for the `CURRENTCLIENTTYPE`, you must run each of the different clients in separate browser windows to make sure that the correct client type is returned for each of the clients.  
   
 ## See Also  
- [Troubleshooting: Client Returns Wrong CLIENTTYPE](Troubleshooting:%20Client%20Returns%20Wrong%20CLIENTTYPE.md)   
+ [Troubleshooting: Client Returns Wrong CLIENTTYPE](Troubleshooting--Client-Returns-Wrong-CLIENTTYPE.md)   
  [Designing for Different Screen Sizes on Tablet and Phone](Designing-for-Different-Screen-Sizes-on-Tablet-and-Phone.md)   
  [CURRENTCLIENTTYPE Function](CURRENTCLIENTTYPE-Function.md)   
  [DEFAULTCLIENTTYPE Function](DEFAULTCLIENTTYPE-Function.md)

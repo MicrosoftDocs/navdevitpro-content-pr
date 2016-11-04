@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: dfd9bab5-eb17-4e12-b5de-3acafc336d60
 caps.latest.revision: 10
 ---
@@ -34,7 +34,7 @@ Evaluates a string representation of a value into its typical representation. Th
  *Number*  
  Type: Integer  
   
- This optional value can be used when exporting data with an XMLport. The only valid value is 9, which indicates that the data must be converted from XML format to C\/SIDE format.  
+ This optional value can be used when exporting data with an XMLport. The only valid value is 9, which indicates that the data must be converted from XML format to C/SIDE format.  
   
 ## Property Value/Return Value  
  Type: Boolean  
@@ -83,7 +83,7 @@ MESSAGE(Text000 + Text001 + Text002 + Text003, VarInteger, Ok1, VarDate, Ok2, Va
   
  **VarInteger = 10196   . The return code is: Yes.**  
   
- **VarDate = 01\/01\/96. The return code is: Yes.**  
+ **VarDate = 01/01/96. The return code is: Yes.**  
   
  **VarYesNo = No      . The return code is: No.**  
   

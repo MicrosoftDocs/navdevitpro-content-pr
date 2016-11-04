@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 108a99d5-ecf0-4365-ad61-6da9c28e9138
 caps.latest.revision: 4
 manager: edupont
@@ -54,7 +54,7 @@ When using the XMLport to import or export an XML document, you can set up multi
   
      For more information, see [NamespacePrefix Property](NamespacePrefix-Property.md).  
   
- For detailed steps about how to set these properties, see [How to: Create XMLports](How%20to:%20Create%20XMLports.md).  
+ For detailed steps about how to set these properties, see [How to: Create XMLports](How-to--Create-XMLports.md).  
   
 ## Adding a Default Namespace to an XMLport  
  A default namespace is a namespace that does not include a prefix. When you set up a default namespace, any elements that are note applied a prefix are assumed to belong to the default namespace. You can set up a default namespace one of the following ways:  

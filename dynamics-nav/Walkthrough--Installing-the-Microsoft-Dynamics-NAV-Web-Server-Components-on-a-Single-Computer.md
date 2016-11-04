@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 4248618b-1606-453c-a849-6af5687a4304
 caps.latest.revision: 25
 ---
@@ -22,11 +22,11 @@ In this walkthrough, you will install the tiers of [!INCLUDE[nav_web](includes/n
 
 -   Using a domain user account as the service account for [!INCLUDE[nav_server](includes/nav_server_md.md)] and the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
 
--   [Installing the Microsoft Dynamics NAV Database Components and Microsoft Dynamics NAV Server](Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Two%20Computers.md#InstallDatabase)  
+-   [Installing the Microsoft Dynamics NAV Database Components and Microsoft Dynamics NAV Server](Walkthrough--Installing-the-Microsoft-Dynamics-NAV-Web-Server-Components-on-Two-Computers.md#InstallDatabase)  
 
--   [Allowing Inbound Communication on the Microsoft Dynamics NAV Web Client Port Through the Windows Firewall](Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Three%20Computers.md#Firewall)  
+-   [Allowing Inbound Communication on the Microsoft Dynamics NAV Web Client Port Through the Windows Firewall](Walkthrough--Installing-the-Microsoft-Dynamics-NAV-Web-Server-Components-on-Three-Computers.md#Firewall)  
 
--   [Opening the Microsoft Dynamics NAV Web client](Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20a%20Single%20Computer.md#Opening)  
+-   [Opening the Microsoft Dynamics NAV Web client](Walkthrough--Installing-the-Microsoft-Dynamics-NAV-Web-Server-Components-on-a-Single-Computer.md#Opening)  
 
 ### Prerequisites  
  To complete this walkthrough, you will need:  
@@ -45,7 +45,7 @@ In this walkthrough, you will install the tiers of [!INCLUDE[nav_web](includes/n
 
     -   Internet Information Services 7 or Internet Information Services 8.  
 
-         You must enable IIS with the required features for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
+         You must enable IIS with the required features for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md).  
 
         > [!NOTE]  
         >  Instead of installing and configuring IIS manually, you can use [!INCLUDE[navnow](includes/navnow_md.md)] Setup to install IIS and enable the required features, as described in this walkthrough.  
@@ -157,7 +157,7 @@ In this walkthrough, you will install the tiers of [!INCLUDE[nav_web](includes/n
 
 2.  In the address box, type the following URL:  
 
-     **http:\/\/ComputerName:PortNumber\/DynamicsNAV90\/WebClient\/Default.aspx**  
+     **http://ComputerName:PortNumber/DynamicsNAV90/WebClient/Default.aspx**  
 
     -   Substitute **ComputerName** with the name of the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. If you are working on the computer where you installed [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], then you can use **localhost**.  
 
@@ -167,7 +167,7 @@ In this walkthrough, you will install the tiers of [!INCLUDE[nav_web](includes/n
 
      For example, if the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] is installed on port 8080 and the computer has the name NavWeb, then you can use the following URL:  
 
-     **http:\/\/NavWeb:8080\/DynamicsNAV90\/WebClient\/Default.aspx**  
+     **http://NavWeb:8080/DynamicsNAV90/WebClient/Default.aspx**  
 
 ### Troubleshooting  
  If you are cannot connect the [!INCLUDE[nav_web](includes/nav_web_md.md)] or you are experiencing problems, see [Troubleshooting the Microsoft Dynamics NAV Web Client Installation](Troubleshooting-the-Microsoft-Dynamics-NAV-Web-Client-Installation.md).  
@@ -175,7 +175,7 @@ In this walkthrough, you will install the tiers of [!INCLUDE[nav_web](includes/n
 ## Next Steps  
  The following is a list of typical tasks to perform after you install [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)].  
 
--   Upload your license. For more information, see [How to: Upload the License File](How%20to:%20Upload%20the%20License%20File.md).  
+-   Upload your license. For more information, see [How to: Upload the License File](How-to--Upload-the-License-File.md).  
 
 -   Create users and integrate them into the [!INCLUDE[navnow](includes/navnow_md.md)] security system. For more information, see [Managing Users](Managing-Users.md).  
 
@@ -183,7 +183,7 @@ In this walkthrough, you will install the tiers of [!INCLUDE[nav_web](includes/n
  [Deploying the Microsoft Dynamics NAV Web Server Components](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components.md)   
  [Deploying the Microsoft Dynamics NAV Web Server Components in a Three Computer Environment](Deploying-the-Microsoft-Dynamics-NAV-Web-Server-Components-in-a-Three-Computer-Environment.md)   
  [Microsoft Dynamics NAV Web Client Network Architecture](Microsoft-Dynamics-NAV-Web-Client-Network-Architecture.md)   
- [Walkthrough: Installing the Microsoft Dynamics NAV Web Client Tiers on One Computer](Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20a%20Single%20Computer.md)   
- [Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on Two Computers](Walkthrough:%20Installing%20the%20Microsoft%20Dynamics%20NAV%20Web%20Server%20Components%20on%20Two%20Computers.md)   
+ [Walkthrough: Installing the Microsoft Dynamics NAV Web Client Tiers on One Computer](Walkthrough--Installing-the-Microsoft-Dynamics-NAV-Web-Server-Components-on-a-Single-Computer.md)   
+ [Walkthrough: Installing the Microsoft Dynamics NAV Web Server Components on Two Computers](Walkthrough--Installing-the-Microsoft-Dynamics-NAV-Web-Server-Components-on-Two-Computers.md)   
  [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)   
  [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)

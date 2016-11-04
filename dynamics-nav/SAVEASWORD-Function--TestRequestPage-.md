@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: ce0db67c-c64c-4520-aa85-e810c072f190
 caps.latest.revision: 7
 manager: edupont
@@ -40,11 +40,11 @@ TestRequestPage.SAVEASWORD(Filename)
 ## Example  
  The following example shows the code for a test function to run a report and a request page handler function to test the request page. This example requires that you create the following:  
   
--   A test codeunit called SaveAsWord. For more information, see [How to: Create Test Codeunits and Test Functions](How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md).  
+-   A test codeunit called SaveAsWord. For more information, see [How to: Create Test Codeunits and Test Functions](How-to--Create-Test-Codeunits-and-Test-Functions.md).  
   
--   A test function in the test codeunit called TestSaveAsWord. For more information, see [How to: Create Test Codeunits and Test Functions](How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md).  
+-   A test function in the test codeunit called TestSaveAsWord. For more information, see [How to: Create Test Codeunits and Test Functions](How-to--Create-Test-Codeunits-and-Test-Functions.md).  
   
--   A handler function of type RequestPageHandler called ReqPageHandler. This handler function has one parameter called RequestPage of Type TestRequestPage and Subtype Customer – Top 10 List. The RequestPage parameter is specified as VAR and is passed by reference to the handler function. For more information, see [How to: Create Handler Functions](How%20to:%20Create%20Handler%20Functions.md).  
+-   A handler function of type RequestPageHandler called ReqPageHandler. This handler function has one parameter called RequestPage of Type TestRequestPage and Subtype Customer – Top 10 List. The RequestPage parameter is specified as VAR and is passed by reference to the handler function. For more information, see [How to: Create Handler Functions](How-to--Create-Handler-Functions.md).  
   
  This example also requires that you create the following variable in the **C/AL Globals** window of the SaveAsWord codeunit.  
   

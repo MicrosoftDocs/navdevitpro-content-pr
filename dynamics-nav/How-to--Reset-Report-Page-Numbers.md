@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 2b216c40-4293-4dd9-b076-0bfb6ee701a6
 caps.latest.revision: 17
 manager: edupont
@@ -72,7 +72,7 @@ On some reports, you may want to group sets of data together and reset the page 
   
 7.  Choose the **OK** button.  
   
-8.  In Visual Studio, in the Report.rdlc file, create a hidden text box in the data region that contains the data on which you have a group. For example, create a hidden text box on the table or list that contains the sales invoice number. For more information, see [How to: Add and Identify Hidden Fields](How%20to:%20Add%20and%20Identify%20Hidden%20Fields.md).  
+8.  In Visual Studio, in the Report.rdlc file, create a hidden text box in the data region that contains the data on which you have a group. For example, create a hidden text box on the table or list that contains the sales invoice number. For more information, see [How to: Add and Identify Hidden Fields](How-to--Add-and-Identify-Hidden-Fields.md).  
   
 9. Right-click the text box, and then choose **Text Box Properties**. In the **Properties** window, on the **General** tab, set the name of the text box to **NewPage**.  
   

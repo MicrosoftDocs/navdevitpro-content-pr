@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: cd589e34-0250-47e7-825f-1b0b56361f14
 caps.latest.revision: 16
 manager: edupont
@@ -40,7 +40,7 @@ FieldRef.VALIDATE([NewValue])
  This function is like the [VALIDATE Function \(Record\)](VALIDATE-Function--Record-.md).  
   
 ## Example  
- The following example opens table 17 \(G\/L Entry\) as a RecordRef that is named EntryRecref. The [FINDFIRST Function \(RecordRef\)](FINDFIRST-Function--RecordRef-.md) searches for the first record in the table. The [FIELD Function \(RecordRef\)](FIELD-Function--RecordRef-.md) sets the field to 3, which is the G\/L Account No. field. The **VALIDATE** function validates and inserts the specified value \(1210\) into the field. The [MODIFY Function \(RecordRef\)](MODIFY-Function--RecordRef-.md) modifies the table. A message that indicates the G\/L Account No. field has changed is displayed. To show that the code in the **OnValidate** trigger is executed, design the **G\/L Entry** table and add the following code to the **G\/L Account No. – OnValidate** trigger: `MESSAGE('The OnValidate trigger is called.');`  
+ The following example opens table 17 \(G/L Entry\) as a RecordRef that is named EntryRecref. The [FINDFIRST Function \(RecordRef\)](FINDFIRST-Function--RecordRef-.md) searches for the first record in the table. The [FIELD Function \(RecordRef\)](FIELD-Function--RecordRef-.md) sets the field to 3, which is the G/L Account No. field. The **VALIDATE** function validates and inserts the specified value \(1210\) into the field. The [MODIFY Function \(RecordRef\)](MODIFY-Function--RecordRef-.md) modifies the table. A message that indicates the G/L Account No. field has changed is displayed. To show that the code in the **OnValidate** trigger is executed, design the **G/L Entry** table and add the following code to the **G/L Account No. – OnValidate** trigger: `MESSAGE('The OnValidate trigger is called.');`  
   
  This example requires that you create the following variables and text constants in the **C/AL Globals** windows.  
   
@@ -51,8 +51,8 @@ FieldRef.VALIDATE([NewValue])
   
 |Text constant|ConstValue|  
 |-------------------|----------------|  
-|Text000|The G\/L Account No. for record %1 is %2.|  
-|Text001|The G\/L Account No. for record %1 has changed to %2.|  
+|Text000|The G/L Account No. for record %1 is %2.|  
+|Text001|The G/L Account No. for record %1 has changed to %2.|  
   
 ```  
 EntryRecref.OPEN(17);  

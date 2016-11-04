@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 317e9a6d-581d-453a-b69b-70eba225df75
 caps.latest.revision: 30
 ---
@@ -28,7 +28,7 @@ You can use the SystemService service in a SOAP web service application to retri
   
 4.  In Solution Explorer, right-click the **References** node in the project, and then choose **Add Service Reference**.  
   
-5.  In the **Add Service Reference** dialog box, choose the **Advanced** button, choose the **Add Web Reference** button, type or paste the URL that you used when checking the WSDL, such as **http:\/\/localhost:7047\/DynamicsNAV\/WS\/Services**, and then choose the green arrow to visit the URL.  
+5.  In the **Add Service Reference** dialog box, choose the **Advanced** button, choose the **Add Web Reference** button, type or paste the URL that you used when checking the WSDL, such as **http://localhost:7047/DynamicsNAV/WS/Services**, and then choose the green arrow to visit the URL.  
   
 6.  When the **SystemService** service is displayed, choose **View Service**, wait for the service to be displayed, and then choose **Add Reference**. Rename the Web reference name from **localhost** to **NavSOAPService**.  
   
@@ -79,7 +79,7 @@ You can use the SystemService service in a SOAP web service application to retri
      A list of all companies in the current database is presented in a command session.  
   
 ## See Also  
- [Walkthrough: Creating a Web Service using Extension Codeunits \(SOAP\)](Walkthrough:%20Creating%20a%20Web%20Service%20using%20Extension%20Codeunits%20\(SOAP\).md)   
- [Walkthrough: Creating and Using a Codeunit Web Service \(SOAP\)](Walkthrough:%20Creating%20and%20Using%20a%20Codeunit%20Web%20Service%20\(SOAP\).md)   
- [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](Walkthrough:%20Registering%20and%20Using%20a%20Page%20Web%20Service%20\(SOAP\).md)   
+ [Walkthrough: Creating a Web Service using Extension Codeunits \(SOAP\)](Walkthrough--Creating-a-Web-Service-using-Extension-Codeunits--SOAP-.md)   
+ [Walkthrough: Creating and Using a Codeunit Web Service \(SOAP\)](Walkthrough--Creating-and-Using-a-Codeunit-Web-Service--SOAP-.md)   
+ [Walkthrough: Registering and Using a Page Web Service \(SOAP\)](Walkthrough--Registering-and-Using-a-Page-Web-Service--SOAP-.md)   
  [SOAP Web Services](SOAP-Web-Services.md)

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 58a94a2c-fbdd-404e-9760-9bfede48f36e
 caps.latest.revision: 5
 manager: edupont
@@ -31,4 +31,4 @@ Sets the actual fields that are used in the corresponding index on SQL Server.
  If you use this property to define an index for the primary key, it must include all the fields defined in the primary key. You can add extra fields and you can rearrange the fields to suit your needs.  
   
 ## See Also  
- [How to: Define Primary and Secondary Keys](How%20to:%20Define%20Primary%20and%20Secondary%20Keys.md)
+ [How to: Define Primary and Secondary Keys](How-to--Define-Primary-and-Secondary-Keys.md)

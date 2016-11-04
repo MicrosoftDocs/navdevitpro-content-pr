@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 7f78321e-0493-4ac2-8bd1-500c4bf53efb
 caps.latest.revision: 19
 manager: edupont
@@ -47,4 +47,4 @@ The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] includes images that you
 >  If the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is currently open, you will not see your changes until you close and restart.  
   
 ## See Also  
- [How to: Create an Activity Button and Page Links in the Navigation Pane](How%20to:%20Create%20an%20Activity%20Button%20and%20Page%20Links%20in%20the%20Navigation%20Pane.md)
+ [How to: Create an Activity Button and Page Links in the Navigation Pane](How-to--Create-an-Activity-Button-and-Page-Links-in-the-Navigation-Pane.md)

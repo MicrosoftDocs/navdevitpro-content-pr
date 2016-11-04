@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 2f6560a1-33a5-4fee-beac-fa6a3100c85a
 caps.latest.revision: 11
 manager: edupont
@@ -31,4 +31,4 @@ The following procedure describes how to set up a FlowField.
 6.  \(optional\) In the **Editable** field, select **No**.  
   
 ## See Also  
- [How to: Create, View, and Edit a Calculation Formula](How%20to:%20Create,%20View,%20and%20Edit%20a%20Calculation%20Formula.md)
+ [How to: Create, View, and Edit a Calculation Formula](How-to--Create--View--and-Edit-a-Calculation-Formula.md)

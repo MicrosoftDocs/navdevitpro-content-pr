@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 1b045348-3ba0-4dbd-80dd-0ff88049f65f
 caps.latest.revision: 17
 manager: edupont
@@ -68,5 +68,5 @@ MESSAGE(Text000, numChars, varChars);
 ## See Also  
  [InStream.EOS Function](InStream.EOS-Function.md)   
  [InStream.READTEXT Function](InStream.READTEXT-Function.md)   
- [OutStream.WRITE Function](OutStream.WRITE-Function.md)   
+ [OutStream.WRITE Function](OutStream-WRITE-Function.md)   
  [InStream and OutStream Data Types](InStream-and-OutStream-Data-Types.md)

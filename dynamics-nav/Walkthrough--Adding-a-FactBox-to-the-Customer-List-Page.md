@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 0f088e64-b1bb-4b17-8617-2b1b6ccfa000
 caps.latest.revision: 23
 manager: edupont
@@ -26,7 +26,7 @@ In this walkthrough, you will learn how to add a FactBox to the customer list pa
 -   Associate the selection in the customer list with the information displayed in CardPart page in the FactBox.  
   
 ### Prerequisites  
- This walkthrough builds on the steps described in [Walkthrough: Creating a Customer List in Page Designer](Walkthrough:%20Creating%20a%20Customer%20List%20in%20Page%20Designer.md) and [Walkthrough: Adding Actions to a Customer List Page](Walkthrough:%20Adding%20Actions%20to%20a%20Customer%20List%20Page.md).  
+ This walkthrough builds on the steps described in [Walkthrough: Creating a Customer List in Page Designer](Walkthrough--Creating-a-Customer-List-in-Page-Designer.md) and [Walkthrough: Adding Actions to a Customer List Page](Walkthrough--Adding-Actions-to-a-Customer-List-Page.md).  
   
 ## Story  
  Kevin reviews the Customer List page that Simon has created and has one last request. Kevin decides that he would like to display the credit limit and other relevant information for each customer when selected.  
@@ -35,7 +35,7 @@ In this walkthrough, you will learn how to add a FactBox to the customer list pa
  Simon knows that he can use a FactBox to display the type of information Kevin is asking for on the customer list page. Simon creates a new CardPart page based on the card part page type. He associates the page with the **Customer** table and then adds the **Credit Limit \(LCY\)**, **Payment Terms Code**, and **Blocked** fields to the CardPart page.  
   
 > [!NOTE]  
->  In this walkthrough, to learn about the properties and controls of a FactBox, you will create a CardPart page from a blank page. Object Designer also includes a wizard that you can use to create a CardPart page that sets up many properties and controls for you. For more information about the wizard, see [How to: Create a Page](How%20to:%20Create%20a%20Page.md).  
+>  In this walkthrough, to learn about the properties and controls of a FactBox, you will create a CardPart page from a blank page. Object Designer also includes a wizard that you can use to create a CardPart page that sets up many properties and controls for you. For more information about the wizard, see [How to: Create a Page](How-to--Create-a-Page.md).  
   
 #### To create a CardPart page to display credit information  
   
@@ -83,7 +83,7 @@ In this walkthrough, you will learn how to add a FactBox to the customer list pa
      The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] opens and displays the new FactBox page.  
   
 ## Adding a FactBox to the Customer List Page  
- Simon is now ready to add the FactBox to the customer list page that he created in [Walkthrough: Creating a Customer List in Page Designer](Walkthrough:%20Creating%20a%20Customer%20List%20in%20Page%20Designer.md). To do this, he first needs to open the Customer List page in Page Designer and then add the FactBox to the bottom of the Customer List page.  
+ Simon is now ready to add the FactBox to the customer list page that he created in [Walkthrough: Creating a Customer List in Page Designer](Walkthrough--Creating-a-Customer-List-in-Page-Designer.md). To do this, he first needs to open the Customer List page in Page Designer and then add the FactBox to the bottom of the Customer List page.  
   
 #### To add a FactBox to the customer list page  
   
@@ -134,8 +134,8 @@ In this walkthrough, you will learn how to add a FactBox to the customer list pa
 7.  Save the page and run the page to verify that the FactBox is displayed.  
   
 ## See Also  
- [Walkthrough: Creating a Customer List in Page Designer](Walkthrough:%20Creating%20a%20Customer%20List%20in%20Page%20Designer.md)   
- [Walkthrough: Adding Actions to a Customer List Page](Walkthrough:%20Adding%20Actions%20to%20a%20Customer%20List%20Page.md)   
- [How to: Create a Page](How%20to:%20Create%20a%20Page.md)   
+ [Walkthrough: Creating a Customer List in Page Designer](Walkthrough--Creating-a-Customer-List-in-Page-Designer.md)   
+ [Walkthrough: Adding Actions to a Customer List Page](Walkthrough--Adding-Actions-to-a-Customer-List-Page.md)   
+ [How to: Create a Page](How-to--Create-a-Page.md)   
  [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
- [How to: Run a Page](How%20to:%20Run%20a%20Page.md)
+ [How to: Run a Page](How-to--Run-a-Page.md)

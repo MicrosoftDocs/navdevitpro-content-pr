@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: c3403c71-52c4-4cd9-a8c4-22499bd78cd1
 caps.latest.revision: 6
 ---
@@ -15,7 +15,7 @@ When you have developed a [!INCLUDE[navnow](includes/navnow_md.md)] extension, t
   
 ### To create the extension manifest  
   
--   The extension manifest describes characteristics about your extension. All characteristics have a parameter in the BROKEN-INCLUDE-wps_2](includes/wps_2_md.md)] cmdlet that you use to create the manifest, [!INCLUDE[New-NAVAppManifest. The following table describes the data in the manifest:  
+-   The extension manifest describes characteristics about your extension. All characteristics have a parameter in the [!INCLUDE[wps_2_md](includes/wps_2_md.md)] cmdlet that you use to create the manifest. The following table describes the data in the manifest:  
   
     |Data|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
     |----------|---------------------------------------|  
@@ -25,8 +25,8 @@ When you have developed a [!INCLUDE[navnow](includes/navnow_md.md)] extension, t
     |Description|Specifies the description for the extension.|  
     |Id|Specifies the unique identifier for the extension. A unique identifier will be generated if a value is not provided. The same unique identifier should be used for each new version of the extension.|  
     |CompatibilityId|Specifies the compatibility ID of the extension. The compatibility ID is a version string in the format of Major.Minor.Build.Revision, with a default value of 1.0.0.0. The value is used to indicate whether there are compatibility related code changes between different versions of the extension. If a new version of the extension does not break compatibility, leave the compatibility ID the same as the previous version.|  
-    |Dependencies|Specifies the path to a package file \(.navx\) for another extension that this extension depends on. Use a comma \(,\) to separate the paths to multiple .navx files., such as in the following example: `C:\Proseware\SmartAppBase.navx, C:\Proseware\ProsewareBase.navx`|  
-    |Prequisites|Specifies the objects that must exist in order to deploy the extension to a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The prerequisites is a string in the format of type=ID, where type can be any object type such as Table, CodeUnit, or Page. Use a comma \(,\) to separate the prerequisites, such as in the following example: Table=397, CodeUnit=78.|  
+    |Dependencies|Specifies the path to a package file (.navx) for another extension that this extension depends on. Use a comma (,) to separate the paths to multiple .navx files., such as in the following example: `C:\Proseware\SmartAppBase.navx, C:\Proseware\ProsewareBase.navx`|  
+    |Prerequisites|Specifies the objects that must exist in order to deploy the extension to a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The prerequisites is a string in the format of type=ID, where type can be any object type such as Table, CodeUnit, or Page. Use a comma (,) to separate the prerequisites, such as in the following example: Table=397, CodeUnit=78.|  
   
      For more information, see [Manifest Overview](Manifest-Overview.md).  
   
@@ -36,7 +36,8 @@ When you have developed a [!INCLUDE[navnow](includes/navnow_md.md)] extension, t
     New-NAVAppManifest -Name "Proseware SmartStuff" -Publisher "Proseware, Inc." -Version "1.5.0.12"  
     ```  
   
-     You can either persist this object to a file and then check it in to source control by using `New-NAVAppManifestFile`, or you can pass it directly to BROKEN-INCLUDE-New-NAVAppPackage as described in the next step.  
+     You can either persist this object to a file and then check it in to source control by using `New-NAVAppManifestFile`, or you can pass it directly to [!INCLUDE[wps_2_md](includes/wps_2_md.md)] `New-NAVAppPackage` <!-- LINK CMDLET --> as described in the next step.
+       
   
     ```  
     New-NAVAppManifest -Name "Proseware SmartStuff" -Publisher "Proseware, Inc." -Version "1.5.0.12" | New-NavAppManifestFile -Path proseware.xml  
@@ -90,8 +91,8 @@ When you have developed a [!INCLUDE[navnow](includes/navnow_md.md)] extension, t
 ## See Also  
  [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)   
  [Manifest Overview](Manifest-Overview.md)   
- [How to: Develop an Extension](How%20to:%20Develop%20an%20Extension.md)   
- [How to: Publish and Install an Extension](How%20to:%20Publish%20and%20Install%20an%20Extension.md)   
+ [How to: Develop an Extension](How-to--Develop-an-Extension.md)   
+ [How to: Publish and Install an Extension](How-to--Publish-and-Install-an-Extension.md)   
  [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)   
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   
  [Development Cmdlets for Microsoft Dynamics NAV Extensions](http://go.microsoft.com/fwlink/?LinkID=626875)

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 33ba7a28-9f72-4950-9c6e-2ab687161c17
 caps.latest.revision: 7
 manager: edupont
@@ -27,6 +27,6 @@ When you first create a table, it does not contain any data. Nevertheless, when 
  In the Table Designer, for each field you add to the table, you enter the field number, name, data type, and optionally, a length and a description.  
   
 ## See Also  
- [How to: Add Fields to a Table](How%20to:%20Add%20Fields%20to%20a%20Table.md)   
+ [How to: Add Fields to a Table](How-to--Add-Fields-to-a-Table.md)   
  [Field Data Types](Field-Data-Types.md)   
  [Table Properties](Table-Properties.md)

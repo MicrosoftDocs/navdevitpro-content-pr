@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 7eebb2b9-5ba8-4c3d-8af7-f22137387698
 caps.latest.revision: 4
 manager: edupont
@@ -35,4 +35,4 @@ Ok := ISACTIVE
   
 ## See Also  
  [Activating the Debugger](Activating-the-Debugger.md)   
- [How to: Activate the Debugger from the Development Environment](How%20to:%20Activate%20the%20Debugger%20from%20the%20Development%20Environment.md)
+ [How to: Activate the Debugger from the Development Environment](How-to--Activate-the-Debugger-from-the-Development-Environment.md)

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: bf55f101-a925-4b56-9968-c4607522f965
 caps.latest.revision: 24
 ---
@@ -32,9 +32,9 @@ You can set up [!INCLUDE[navnow](includes/navnow_md.md)] to be available as an a
   
 -   The [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] instance that you want to use for your app for SharePoint must be configured to be able to run in the SharePoint site. The default configuration prevents the [!INCLUDE[nav_web](includes/nav_web_md.md)] from running inside an iframe in an external website. If you want to show [!INCLUDE[navnow](includes/navnow_md.md)] data in app parts, you must remove the X-FRAME-OPTIONS setting in the web.config file. For more information, see [Embedding the Microsoft Dynamics NAV Web Client in a Website on Another Web Server](Embedding-Microsoft-Dynamics-NAV-Web-Client-Pages-in-Other-Websites.md#EmbedWebClient).  
   
-     The [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] instance must be configured to use secure authentication and SSL. For more information, see [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How%20to:%20Configure%20SSL%20to%20Secure%20the%20Connection%20to%20Microsoft%20Dynamics%20NAV%20Web%20Client.md).  
+     The [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] instance must be configured to use secure authentication and SSL. For more information, see [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md).  
   
--   Each user who will access [!INCLUDE[navnow](includes/navnow_md.md)] from your app for SharePoint must be set up in [!INCLUDE[navnow](includes/navnow_md.md)]. For example, create the users with Windows authentication or with user name\/password authentication, depending on your deployment scenario. But you must also specify an authentication email address on the **Office 365 Authentication** FastTab in the **User Card** window. The authentication email address must be the same account that the users log on to Office 365 or SharePoint Online with. If you set up this account in your Microsoft Azure AD tenant, you achieve a deeper integration between SharePoint and [!INCLUDE[navnow](includes/navnow_md.md)]. By creating the users of the SharePoint site as users in [!INCLUDE[navnow](includes/navnow_md.md)] with this authentication email address, they achieve single sign-on when they access [!INCLUDE[nav_web](includes/nav_web_md.md)] from the SharePoint site, for example. For more information, see [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).  
+-   Each user who will access [!INCLUDE[navnow](includes/navnow_md.md)] from your app for SharePoint must be set up in [!INCLUDE[navnow](includes/navnow_md.md)]. For example, create the users with Windows authentication or with user name/password authentication, depending on your deployment scenario. But you must also specify an authentication email address on the **Office 365 Authentication** FastTab in the **User Card** window. The authentication email address must be the same account that the users log on to Office 365 or SharePoint Online with. If you set up this account in your Microsoft Azure AD tenant, you achieve a deeper integration between SharePoint and [!INCLUDE[navnow](includes/navnow_md.md)]. By creating the users of the SharePoint site as users in [!INCLUDE[navnow](includes/navnow_md.md)] with this authentication email address, they achieve single sign-on when they access [!INCLUDE[nav_web](includes/nav_web_md.md)] from the SharePoint site, for example. For more information, see [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md).  
   
 ## Building an App for SharePoint  
  In order to add [!INCLUDE[navnow](includes/navnow_md.md)] as an app to a SharePoint site, you must create a provider-hosted app for SharePoint in Visual Studio. This includes configuring an appManifest.xml file, so that the app can be added to a site. The app manifest describes metadata such as the title, the publisher, and the URL of start page for the [!INCLUDE[nav_web](includes/nav_web_md.md)] so that the app will open the relevant [!INCLUDE[nav_web](includes/nav_web_md.md)] address. Also, you can add one or more client web parts for the [!INCLUDE[navnow](includes/navnow_md.md)] pages that you want to show on the SharePoint site. You can choose to use an already existing page, or you can create specific pages that are only used for SharePoint. For example, you can create a part that is based on page ID 9305, **Sales Order List**. Then, you deploy the app to your SharePoint site, and you add the part as an app part that will show the page in the [!INCLUDE[nav_web](includes/nav_web_md.md)] as a list of sales orders without navigation elements. The list resembles any other list in SharePoint, but it is the [!INCLUDE[nav_web](includes/nav_web_md.md)], and the data is current. For more information, see [Embedding Microsoft Dynamics NAV Web Client Pages in Other Websites](Embedding-Microsoft-Dynamics-NAV-Web-Client-Pages-in-Other-Websites.md) and [Developing and Installing a Microsoft Dynamics NAV Apps for SharePoint](Developing-and-Installing-a-Microsoft-Dynamics-NAV-Apps-for-SharePoint.md).  
@@ -42,18 +42,18 @@ You can set up [!INCLUDE[navnow](includes/navnow_md.md)] to be available as an a
 ### Apps for SharePoint and Multitenant Deployments of [!INCLUDE[navnow](includes/navnow_md.md)]  
  You can deploy [!INCLUDE[navnow](includes/navnow_md.md)] in a multitenant deployment architecture. When you create an app for SharePoint that will access the [!INCLUDE[nav_web](includes/nav_web_md.md)], you must decide if you want to deploy the app for a specific tenant, or if the app can be used by all tenants that are mounted against a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. Then, in the app manifest for the app, you include a *tenant* parameter in start page URL according to the following:  
   
--   If you want the app to apply to a specific tenant only, then set the *tenant* parameter to the tenant ID, such as *https:\/\/www.solutions.com\/DynamicsNAV\/WebClient\/?tenant=tenant1*. In this example, the tenant ID is *tenant1*. The value of the tenant parameter must be included in tenants list of alternative IDs.  
+-   If you want the app to apply to a specific tenant only, then set the *tenant* parameter to the tenant ID, such as *https://www.solutions.com/DynamicsNAV/WebClient/?tenant=tenant1*. In this example, the tenant ID is *tenant1*. The value of the tenant parameter must be included in tenants list of alternative IDs.  
   
-     Alternatively, if you have configured the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] to accept host names, you can specify the host name in the URL in the app manifest. For more information, see [How to: Configure the Microsoft Dynamics NAV Web client to Accept Host Names for Tenants](How%20to:%20Configure%20the%20Microsoft%20Dynamics%20NAV%20Web%20client%20to%20Accept%20Host%20Names%20for%20Tenants.md).  
+     Alternatively, if you have configured the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] to accept host names, you can specify the host name in the URL in the app manifest. For more information, see [How to: Configure the Microsoft Dynamics NAV Web client to Accept Host Names for Tenants](How-to--Configure-the-Microsoft-Dynamics-NAV-Web-client-to-Accept-Host-Names-for-Tenants.md).  
   
--   If you want the app to apply to all tenants, then set the *tenant* parameter to *{HostUrl}*, such as *https:\/\/www.solutions.com\/DynamicsNAV\/WebClient\/?tenant={HostUrl}*.  
+-   If you want the app to apply to all tenants, then set the *tenant* parameter to *{HostUrl}*, such as *https://www.solutions.com/DynamicsNAV/WebClient/?tenant={HostUrl}*.  
   
      When the app accesses the [!INCLUDE[nav_web](includes/nav_web_md.md)], *HostUrl* is automatically replaced by the SharePoint site address where the app is installed. Because the SharePoint site is tenant-specific, this parameter identifies the tenant.  
   
      You must include all SharePoint site addresses that can access a tenant in the tenant's list of alternative IDs.  
   
 > [!NOTE]  
->  For more information about how to set alternate IDs for tenants, see [How to: Mount or Dismount a Tenant on a Microsoft Dynamics Server Instance](How%20to:%20Mount%20or%20Dismount%20a%20Tenant%20on%20a%20Microsoft%20Dynamics%20Server%20Instance.md).  
+>  For more information about how to set alternate IDs for tenants, see [How to: Mount or Dismount a Tenant on a Microsoft Dynamics Server Instance](How-to--Mount-or-Dismount-a-Tenant-on-a-Microsoft-Dynamics-Server-Instance.md).  
   
 ## Installing [!INCLUDE[navnow](includes/navnow_md.md)] as an App  
  When you have built your app for SharePoint in Visual Studio, you must publish it in order to create the deployment package. Depending on your scenario, you can deploy the app to SharePoint in different ways.  
@@ -66,5 +66,5 @@ You can set up [!INCLUDE[navnow](includes/navnow_md.md)] to be available as an a
  [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md)   
  [Developing and Installing a Microsoft Dynamics NAV Apps for SharePoint](Developing-and-Installing-a-Microsoft-Dynamics-NAV-Apps-for-SharePoint.md)   
  [Authenticating Users with Azure Active Directory](Authenticating-Users-with-Azure-Active-Directory.md)   
- [Troubleshooting: Microsoft Dynamics NAV and SharePoint](Troubleshooting:%20Microsoft%20Dynamics%20NAV%20and%20SharePoint.md)   
+ [Troubleshooting: Microsoft Dynamics NAV and SharePoint](Troubleshooting--Microsoft-Dynamics-NAV-and-SharePoint.md)   
  [Configuring Authentication and Single Sign-On Between Microsoft Dynamics NAV and SharePoint](Configuring-Authentication-and-Single-Sign-On-Between-Microsoft-Dynamics-NAV-and-SharePoint.md)

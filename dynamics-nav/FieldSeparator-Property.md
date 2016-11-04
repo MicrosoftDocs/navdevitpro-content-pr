@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 1fde9a2c-75c6-45b2-8cb9-8eeaa8491521
 caps.latest.revision: 12
 ---
@@ -23,7 +23,7 @@ Sets the string that is to be used to separate fields.
 |---------------|---------------------|  
 |**\<None>**|There is no field separator.|  
 |**\<NewLine>**|Any combination of CR and LF characters.|  
-|**\<CR\/LF>**|CR followed by LF.|  
+|**\<CR/LF>**|CR followed by LF.|  
 |**\<CR>**|CR alone.|  
 |**\<LF>**|LF alone.|  
 |**\<TAB>**|Tabulator alone.|  

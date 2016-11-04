@@ -1,1 +1,1 @@
-CRONUS Danmark A\/S demonstration database
+CRONUS International Ltd. demonstration database

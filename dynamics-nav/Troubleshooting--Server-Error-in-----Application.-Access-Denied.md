@@ -6,14 +6,14 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: beabce4e-95ad-4767-a8bd-781d8b83ebe5
 caps.latest.revision: 11
 ---
 # Troubleshooting: Server Error in &#39;-&#39; Application. Access Denied
 When you try to access the [!INCLUDE[nav_web](includes/nav_web_md.md)], you get an error that is similar to the following:  
   
- **Server Error in '\/' Application.**  
+ **Server Error in '/' Application.**  
   
  **Access is denied**.  
   
@@ -29,11 +29,11 @@ When you try to access the [!INCLUDE[nav_web](includes/nav_web_md.md)], you get 
 -   When you use forms authentication, both forms authentication and anonymous authentication must be enabled on the website for [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
 > [!NOTE]  
->  For more information about authentication with the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [How to: Configure Authentication of Microsoft Dynamics NAV Web Client Users](How%20to:%20Configure%20Authentication%20of%20Microsoft%20Dynamics%20NAV%20Web%20Client%20Users.md).  
+>  For more information about authentication with the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [How to: Configure Authentication of Microsoft Dynamics NAV Web Client Users](How-to--Configure-Authentication-of-Microsoft-Dynamics-NAV-Web-Client-Users.md).  
   
 #### To turn on the Windows Authentication feature in IIS  
   
--   Use Internet Information Services \(IIS\) Manager to turn on Windows authentication on IIS. For more information, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How%20to:%20Install%20and%20Configure%20Internet%20Information%20Services%20for%20Microsoft%20Dynamics%20NAV%20Web%20Client.md)  
+-   Use Internet Information Services \(IIS\) Manager to turn on Windows authentication on IIS. For more information, see [How to: Install and Configure Internet Information Services for Microsoft Dynamics NAV Web Client](How-to--Install-and-Configure-Internet-Information-Services-for-Microsoft-Dynamics-NAV-Web-Client.md)  
   
 #### To enable an authentication method on the [!INCLUDE[nav_web](includes/nav_web_md.md)] website  
   

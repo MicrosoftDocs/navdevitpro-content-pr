@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 9188c6ec-bcd2-42cb-a7c9-2f2b36be1b0d
 caps.latest.revision: 19
 manager: edupont
@@ -37,7 +37,7 @@ Creates, opens, and closes a page that you specify. When a page is run modally, 
   
 -   RUNMODAL  
   
- Unlike the [PAGE.RUN Function](PAGE.RUN-Function.md), the variable is not automatically cleared after this function runs.  
+ Unlike the [PAGE.RUN Function](PAGE-RUN-Function.md), the variable is not automatically cleared after this function runs.  
   
  If the page that you specify does not exist, then a compile-time error occurs.  
   
@@ -60,9 +60,9 @@ Creates, opens, and closes a page that you specify. When a page is run modally, 
 ## Remarks  
  If you know the specific page that you want to run when you are designing your application, then you can create a Page variable, set the Subtype of the variable to a specific page, and then use this function or the [RUN Function \(Page\)](RUN-Function--Page-.md).  
   
- If you do not know the specific page that you want to run, then use the [PAGE.RUN Function](PAGE.RUN-Function.md) or the [PAGE.RUNMODAL Function](PAGE.RUNMODAL-Function.md) and specify the page in the *Number* parameter.  
+ If you do not know the specific page that you want to run, then use the [PAGE.RUN Function](PAGE-RUN-Function.md) or the [PAGE.RUNMODAL Function](PAGE-RUNMODAL-Function.md) and specify the page in the *Number* parameter.  
   
- After you define the page variable, you can use it before and after you run the page. If you use the [PAGE.RUN Function](PAGE.RUN-Function.md), then you can only use the variable before you run the page.  
+ After you define the page variable, you can use it before and after you run the page. If you use the [PAGE.RUN Function](PAGE-RUN-Function.md), then you can only use the variable before you run the page.  
   
 ## Example  
  This example shows how to use this function. Assume that the *SomePage* variable has been defined as `Page 1`.  

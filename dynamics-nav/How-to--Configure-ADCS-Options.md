@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 8e1e399e-a538-4438-bca4-06c5b7090e38
 caps.latest.revision: 24
 manager: edupont
@@ -88,5 +88,5 @@ Before you can work with Automated Data Capture Systems \(ADCS\), you have to co
   
 ## See Also  
  [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)   
- [How to: Create a Microsoft Dynamics NAV Server Instance](How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)   
- [How to: Enable Web Services for ADCS](How%20to:%20Enable%20Web%20Services%20for%20ADCS.md)
+ [How to: Create a Microsoft Dynamics NAV Server Instance](How-to--Create-a-Microsoft-Dynamics-NAV-Server-Instance.md)   
+ [How to: Enable Web Services for ADCS](How-to--Enable-Web-Services-for-ADCS.md)

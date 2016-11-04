@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: cea1b445-58fe-4c4d-9843-7700e64bb46f
 caps.latest.revision: 8
 manager: edupont
@@ -16,8 +16,8 @@ All the C/AL programs that you create consist of one or more statements, which a
   
  The control structures in C/AL are divided into the following main groups:  
   
--   [C-AL Compound Statements](C-AL-Compound-Statements.md)  
+-   [C/AL Compound Statements](C-AL-Compound-Statements.md)  
   
--   [C-AL Conditional Statements](C-AL-Conditional-Statements.md)  
+-   [C/AL Conditional Statements](C-AL-Conditional-Statements.md)  
   
--   [C-AL Repetitive Statements](C-AL-Repetitive-Statements.md)
+-   [C/AL Repetitive Statements](C-AL-Repetitive-Statements.md)

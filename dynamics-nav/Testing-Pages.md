@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 006974e4-4cfb-4c92-9683-10e160ef057c
 caps.latest.revision: 13
 manager: edupont
@@ -95,4 +95,4 @@ CustomerCard.OK.INVOKE;
   
 ## See Also  
  [Testing the Application](Testing-the-Application.md)   
- [How to: Create a Test Page](How%20to:%20Create%20a%20Test%20Page.md)
+ [How to: Create a Test Page](How-to--Create-a-Test-Page.md)

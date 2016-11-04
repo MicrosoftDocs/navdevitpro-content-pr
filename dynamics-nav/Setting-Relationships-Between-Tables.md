@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 547b41cd-e0ca-4288-94c0-4143928b2c30
 caps.latest.revision: 11
 ---
@@ -70,14 +70,14 @@ It is common to distinguish among the following types of relationships between t
 ## Examples of Table Relationships  
  For example, you have an **Orders** table that stores orders and a **Salesperson** table that stores the names of all salespeople in your company. In the **Orders** table, you can include a **Salesperson** field that identifies the salesperson. By setting up a relationship between these two tables, you can check whether the **Salesperson** field in the **Orders** table contains a valid code.  
   
- ![](media/NAV_ADG_7_Diag_7.gif "NAV\_ADG\_7\_Diag\_7")  
+ ![](media/NAV_ADG_7_Diag_7.png "NAV\_ADG\_7\_Diag\_7")  
   
  For example, you have a **Vendors** table with all your vendors and a **Currency Code** table. You can create a relationship between a **Currency Code** field in the **Vendors** table and the **Currency Code** table. This will allow users to look up information about valid currency codes.  
   
  Furthermore, if you change one of the currency codes in the **Currency Code** table, then the change is automatically propagated to all tables that refer to this code.  
   
 ## See Also  
- [How to: Create a Table Relationship](How%20to:%20Create%20a%20Table%20Relationship.md)   
+ [How to: Create a Table Relationship](How-to--Create-a-Table-Relationship.md)   
  [Maintaining Table Relationships on SQL Server](Maintaining-Table-Relationships-on-SQL-Server.md)   
- [How to: Synchronize Table and SQL Server Relationships](How%20to:%20Synchronize%20Table%20and%20SQL%20Server%20Relationships.md)   
+ [How to: Synchronize Table and SQL Server Relationships](How-to--Synchronize-Table-and-SQL-Server-Relationships.md)   
  [Overview of Tables](Overview-of-Tables.md)

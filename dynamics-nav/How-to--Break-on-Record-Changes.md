@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 4a443cec-f31c-4c74-a9e5-5be8d6ca9cc0
 caps.latest.revision: 7
 manager: edupont
@@ -31,9 +31,9 @@ You can specify if the debugger breaks on record changes. If the debugger is set
 2.  In the **Debugger Break Rules** window, select the **Break On Record Changes** check box, and then choose the **OK** button.  
   
 ## See Also  
- [How to: Manage Breakpoints from the Development Environment](How%20to:%20Manage%20Breakpoints%20from%20the%20Development%20Environment.md)   
- [How to: Manage Breakpoints from the Debugger Breakpoint List](How%20to:%20Manage%20Breakpoints%20from%20the%20Debugger%20Breakpoint%20List.md)   
- [How to: Break on the Next Statement](How%20to:%20Break%20on%20the%20Next%20Statement.md)   
- [How to: Break on Errors](How%20to:%20Break%20on%20Errors.md)   
- [How to: Set Conditional Breakpoints](How%20to:%20Set%20Conditional%20Breakpoints.md)   
+ [How to: Manage Breakpoints from the Development Environment](How-to--Manage-Breakpoints-from-the-Development-Environment.md)   
+ [How to: Manage Breakpoints from the Debugger Breakpoint List](How-to--Manage-Breakpoints-from-the-Debugger-Breakpoint-List.md)   
+ [How to: Break on the Next Statement](How-to--Break-on-the-Next-Statement.md)   
+ [How to: Break on Errors](How-to--Break-on-Errors.md)   
+ [How to: Set Conditional Breakpoints](How-to--Set-Conditional-Breakpoints.md)   
  [Breakpoints](Breakpoints.md)

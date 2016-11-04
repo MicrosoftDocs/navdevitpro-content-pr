@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: aee81285-2312-4cb1-8d51-3bf82c28806b
 caps.latest.revision: 5
 ---
@@ -35,7 +35,7 @@ To make your extension available to users, the package must be published to a sp
   
 ### To install an extension  
   
--   In the BROKEN-INCLUDE-nav_admin_shell, use the `Install-NAVApp` cmdlet. The following example installs the MyExtension for Tenant1 and Tenant3. In single-tenant deployments, you either specify default as the tenant ID, or you omit the *–Tenant* parameter.  
+-   In the `nav_admin_shell` <!-- LINK CMDLET -->, use the `Install-NAVApp` cmdlet. The following example installs the MyExtension for Tenant1 and Tenant3. In single-tenant deployments, you either specify default as the tenant ID, or you omit the *–Tenant* parameter.  
   
     ```  
     Install-NAVApp -ServerInstance YourDynamicsNAVServer -Name ”My Extension” –Tenant Tenant1, Tenant3  
@@ -48,8 +48,8 @@ To make your extension available to users, the package must be published to a sp
   
 ## See Also  
  [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)   
- [How to: Develop an Extension](How%20to:%20Develop%20an%20Extension.md)   
- [How to: Create an Extension Package](How%20to:%20Create%20an%20Extension%20Package.md)   
+ [How to: Develop an Extension](How-to--Develop-an-Extension.md)   
+ [How to: Create an Extension Package](How-to--Create-an-Extension-Package.md)   
  [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)   
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   
  [Administration Cmdlets for Microsoft Dynamics NAV](http://go.microsoft.com/fwlink/?LinkID=510540)

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 2ca013c1-f142-4679-8c09-876841c83029
 caps.latest.revision: 10
 manager: edupont
@@ -47,7 +47,7 @@ If you print a report from a background session that you started by using the [S
 -   If the report should be printed on the printer that is specified in the **Printer Selections** page entry but the **Printer Name** field is blank for the entry, then the report is printed to the default printer of the computer on which the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is installed.  
   
 ## See Also  
- [How to: Specify Printer Selection for Reports](How%20to:%20Specify%20Printer%20Selection%20for%20Reports.md)   
+ [How to: Specify Printer Selection for Reports](How-to--Specify-Printer-Selection-for-Reports.md)   
  [Printing Reports](Printing-Reports.md)   
  [Configuring NAS Services](Configuring-NAS-Services.md)   
  [Managing Microsoft Dynamics NAV Server Instances](Managing-Microsoft-Dynamics-NAV-Server-Instances.md)

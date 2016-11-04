@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 1e736685-20f8-44d2-830a-7e4ebdbe4463
 caps.latest.revision: 13
 manager: edupont
@@ -28,7 +28,7 @@ After you accept the software license terms and choose **Next**, you come to the
      When you choose this option, Setup moves to the **Choose an Installation Option** page, where you select from a set of predefined installation configurations.  
   
 ## See Also  
- [How to: Run Setup](How%20to:%20Run%20Setup.md)   
+ [How to: Run Setup](How-to--Run-Setup.md)   
  [Installation Options](Installation-Options.md)   
  [Demo Option](Demo-Option.md)   
  [Working with Microsoft Dynamics NAV Setup](Working-with-Microsoft-Dynamics-NAV-Setup.md)

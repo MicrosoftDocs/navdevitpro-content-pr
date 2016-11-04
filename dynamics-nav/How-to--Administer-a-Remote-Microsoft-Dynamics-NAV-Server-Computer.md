@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 11c18e22-79be-49d4-b068-c5d664665824
 caps.latest.revision: 10
 manager: edupont
@@ -15,7 +15,7 @@ manager: edupont
 You can use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] to connect to other computers on your network where [!INCLUDE[navnowlong](includes/navnowlong_md.md)] is installed and manage [!INCLUDE[nav_server](includes/nav_server_md.md)] instances on those computers.  
   
 > [!NOTE]  
->  In this procedure, you only administer one [!INCLUDE[nav_server](includes/nav_server_md.md)] computer at a time. To administer multiple [!INCLUDE[nav_server](includes/nav_server_md.md)] computers from a single instance of [!INCLUDE[nav_admin](includes/nav_admin_md.md)], see [How to: Administer Multiple Microsoft Dynamics NAV Server Computers](How%20to:%20Administer%20Multiple%20Microsoft%20Dynamics%20NAV%20Server%20Computers.md).  
+>  In this procedure, you only administer one [!INCLUDE[nav_server](includes/nav_server_md.md)] computer at a time. To administer multiple [!INCLUDE[nav_server](includes/nav_server_md.md)] computers from a single instance of [!INCLUDE[nav_admin](includes/nav_admin_md.md)], see [How to: Administer Multiple Microsoft Dynamics NAV Server Computers](How-to--Administer-Multiple-Microsoft-Dynamics-NAV-Server-Computers.md).  
   
 ### To connect to a remote [!INCLUDE[nav_server](includes/nav_server_md.md)] computer  
   

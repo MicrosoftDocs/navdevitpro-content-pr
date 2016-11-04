@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: b2d8557a-0153-4340-98be-15aff3caf2d3
 caps.latest.revision: 6
 ---
@@ -18,7 +18,7 @@ When you deploy a solution where [!INCLUDE[navnow](includes/navnow_md.md)] is em
   
  If you deploy the [!INCLUDE[nav_web](includes/nav_web_md.md)] on an intranet machine, and you access the [!INCLUDE[nav_web](includes/nav_web_md.md)] in full-screen mode, such as if you open the [!INCLUDE[nav_web](includes/nav_web_md.md)] directly in a browser, Internet Explorer applies the Local Intranet security zone to the website and stores the cookie at a more trusted integrity level. In contrast, if the [!INCLUDE[nav_web](includes/nav_web_md.md)] is embedded in an IFRAME element in a web part in SharePoint Online, Internet Explorer considers both SharePoint Online and the [!INCLUDE[nav_web](includes/nav_web_md.md)] to be in the Internet zone. The two security zones, Internet and Local Intranet, do not share the same cookie store, and as a result, the [!INCLUDE[nav_web](includes/nav_web_md.md)] will initiate two separate sessions.  
   
- For example, a user opens a SharePoint Online site, such as *https:\/\/Fabrikam.SharePoint.com\/Financials*, in Internet Explorer. This website has the [!INCLUDE[nav_web](includes/nav_web_md.md)] embedded in web parts with IFRAME elements that access the [!INCLUDE[nav_web](includes/nav_web_md.md)] at *https:\/\/MyLocalServer\/NAV*. When the user accesses the page with the web part, the [!INCLUDE[nav_web](includes/nav_web_md.md)] starts a new session. Then, when the user chooses one of the web parts to access the [!INCLUDE[nav_web](includes/nav_web_md.md)] in full-screen mode, the [!INCLUDE[nav_web](includes/nav_web_md.md)] starts a new session.  
+ For example, a user opens a SharePoint Online site, such as *https://Fabrikam.SharePoint.com/Financials*, in Internet Explorer. This website has the [!INCLUDE[nav_web](includes/nav_web_md.md)] embedded in web parts with IFRAME elements that access the [!INCLUDE[nav_web](includes/nav_web_md.md)] at *https://MyLocalServer/NAV*. When the user accesses the page with the web part, the [!INCLUDE[nav_web](includes/nav_web_md.md)] starts a new session. Then, when the user chooses one of the web parts to access the [!INCLUDE[nav_web](includes/nav_web_md.md)] in full-screen mode, the [!INCLUDE[nav_web](includes/nav_web_md.md)] starts a new session.  
   
 ### Resolution  
  Make sure all websites that the user accesses as part of your [!INCLUDE[navnow](includes/navnow_md.md)] deployment are placed in the same security zone by Internet Explorer.  

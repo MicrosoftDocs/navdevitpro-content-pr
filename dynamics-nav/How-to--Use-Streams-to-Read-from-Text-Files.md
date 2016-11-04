@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: c7bfffb1-db3a-4538-847a-8d79d10a6317
 caps.latest.revision: 10
 manager: edupont
 ---
 # How to: Use Streams to Read from Text Files
-The [InStream](InStream.md) \(input stream\) and [OutStream](OutStream.md) \(output stream\) data types are generic stream objects that you can use to read from or write to files. This topic shows you how to use [InStream](InStream.md) to read from a text file. For information about how to use streams to write text files, see [How to: Use Streams to Write to Text Files](How%20to:%20Use%20Streams%20to%20Write%20to%20Text%20Files.md). You create a codeunit to accomplish this task.  
+The [InStream](InStream.md) \(input stream\) and [OutStream](OutStream.md) \(output stream\) data types are generic stream objects that you can use to read from or write to files. This topic shows you how to use [InStream](InStream.md) to read from a text file. For information about how to use streams to write text files, see [How to: Use Streams to Write to Text Files](How-to--Use-Streams-to-Write-to-Text-Files.md). You create a codeunit to accomplish this task.  
   
 ### To use a stream to read from a text file  
   
@@ -73,4 +73,4 @@ MESSAGE('End of stream is reached.');
   
 ## See Also  
  [File Handling](File-Handling.md)   
- [How to: Use Streams to Write to Text Files](How%20to:%20Use%20Streams%20to%20Write%20to%20Text%20Files.md)
+ [How to: Use Streams to Write to Text Files](How-to--Use-Streams-to-Write-to-Text-Files.md)

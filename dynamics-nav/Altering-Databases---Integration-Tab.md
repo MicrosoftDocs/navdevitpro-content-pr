@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 97f21877-f8b1-4d61-ac6c-89be487cb489
 caps.latest.revision: 10
 manager: edupont
@@ -29,7 +29,7 @@ Specifies database settings that determine how [!INCLUDE[navnow](includes/navnow
 |**Save license in database**|Specifies that the license file is uploaded and stored in the database instead of on the server. This is useful if you are hosting several databases with separate license files on the same server.|  
   
 ## See Also  
- [How to: Alter Databases](How%20to:%20Alter%20Databases.md)   
+ [How to: Alter Databases](How-to--Alter-Databases.md)   
  [Altering Databases - General Tab](Altering-Databases---General-Tab.md)   
  [Altering Databases - Database Files Tab](Altering-Databases---Database-Files-Tab.md)   
  [Altering Databases - Transaction Log Files Tab](Altering-Databases---Transaction-Log-Files-Tab.md)   

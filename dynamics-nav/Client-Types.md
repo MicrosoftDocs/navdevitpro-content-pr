@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: b2ec4d43-d798-4a37-bc36-91f05fc53418
 caps.latest.revision: 24
 manager: edupont
@@ -21,9 +21,6 @@ The following [!INCLUDE[navnow](includes/navnow_md.md)] clients interact with th
 -   [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] and [!INCLUDE[nav_phone](includes/nav_phone_md.md)]  
   
  Of these client types, the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] is the only one that you explicitly install and configure with [!INCLUDE[navnow](includes/navnow_md.md)] Setup.  
-  
-> [!NOTE]  
->  The term [!INCLUDE[rtc](includes/rtc_md.md)], which in [!INCLUDE[nav2009](includes/nav2009_md.md)] referred only to the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], now can designate either the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
   
  In addition, the following service types also interact with the [!INCLUDE[navnow](includes/navnow_md.md)] database through [!INCLUDE[nav_server](includes/nav_server_md.md)]:  
   
@@ -60,5 +57,5 @@ The following [!INCLUDE[navnow](includes/navnow_md.md)] clients interact with th
 ## See Also  
  [Product and Architecture Overview](Product-and-Architecture-Overview.md)   
  [Installation Options](Installation-Options.md)   
- [Web Service Alternatives: SOAP and OData](Web%20Service%20Alternatives:%20SOAP%20and%20OData.md)   
+ [Web Service Alternatives: SOAP and OData](Web-Service-Alternatives:-SOAP-and-OData.md)   
  [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 286df8aa-d122-4e80-bd2f-3efdb84c7781
 caps.latest.revision: 6
 ---
@@ -30,8 +30,8 @@ If C/AL code references a table whose name starts with a number, followed by a s
   
      This is the recommended resolution.  
   
--   Rename the table by either removing the number or the space between the number and the rest of the name. The name is specified by the table's [Name Property-duplicate](Name-Property-duplicate.md).  
+-   Rename the table by either removing the number or the space between the number and the rest of the name. The name is specified by the table's [Name Property](Name-Property-duplicate.md).  
   
 ## See Also  
- [How to: Create a Table](How%20to:%20Create%20a%20Table.md)   
- [How to: Save a New Table](How%20to:%20Save%20a%20New%20Table.md)
+ [How to: Create a Table](How-to--Create-a-Table.md)   
+ [How to: Save a New Table](How-to--Save-a-New-Table.md)

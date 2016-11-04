@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 27e06f03-185e-49d2-8c81-841ecf53ef28
 caps.latest.revision: 16
 manager: edupont
@@ -44,4 +44,4 @@ In the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], some fields are enab
      Follow the same procedure to remove fields, or to change the order of fields displayed in the drop-down control.  
   
 ## See Also  
- [Walkthrough: Creating a Customer Card Page in Page Designer](Walkthrough:%20Creating%20a%20Customer%20Card%20Page%20in%20Page%20Designer.md)
+ [Walkthrough: Creating a Customer Card Page in Page Designer](Walkthrough--Creating-a-Customer-Card-Page-in-Page-Designer.md)

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 4e583092-9d42-459f-b18f-bb80d4754e21
 caps.latest.revision: 13
 manager: edupont
@@ -28,6 +28,6 @@ You create or load Setup configuration files using [!INCLUDE[navnowlong](include
 > -   You can load it into Setup, make the desired modifications, and then save it. You do not need to install any software during this process.  
   
 ## See Also  
- [How to: Choose Components to Install](How%20to:%20Choose%20Components%20to%20Install.md)   
- [How to: Preconfigure Components](How%20to:%20Preconfigure%20Components.md)   
- [How to: Create or Load a Setup Configuration File](How%20to:%20Create%20or%20Load%20a%20Setup%20Configuration%20File.md)
+ [How to: Choose Components to Install](How-to--Choose-Components-to-Install.md)   
+ [How to: Preconfigure Components](How-to--Preconfigure-Components.md)   
+ [How to: Create or Load a Setup Configuration File](How-to--Create-or-Load-a-Setup-Configuration-File.md)

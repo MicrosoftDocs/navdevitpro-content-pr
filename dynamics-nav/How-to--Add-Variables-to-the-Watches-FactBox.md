@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: adb2feaa-d2ff-4112-a8ab-d14afeafcc62
 caps.latest.revision: 10
 manager: edupont
@@ -33,5 +33,5 @@ You can use the Watches FactBox to view the values of variables. Variables that 
     2.  On the **Debugger Variable List** page, select a variable that you want to add to the **Watches** FactBox, and then choose **Add Watch**.  
   
 ## See Also  
- [How to: Remove Variables from the Watches FactBox](How%20to:%20Remove%20Variables%20from%20the%20Watches%20FactBox.md)   
- [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough:%20Debugging%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client.md)
+ [How to: Remove Variables from the Watches FactBox](How-to--Remove-Variables-from-the-Watches-FactBox.md)   
+ [Walkthrough: Debugging the Microsoft Dynamics NAV Windows Client](Walkthrough--Debugging-the-Microsoft-Dynamics-NAV-Windows-Client.md)

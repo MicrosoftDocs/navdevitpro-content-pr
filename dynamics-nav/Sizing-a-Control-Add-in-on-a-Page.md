@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 4070244f-e203-4c2f-b157-628ce4f871a2
 caps.latest.revision: 13
 manager: edupont
@@ -59,4 +59,4 @@ this.ApplySize(DisplaySize.Default, new DisplaySize(10, 20, 200));
   
 ## See Also  
  [Extending the Windows Client Using Control Add-ins](Extending-the-Windows-Client-Using-Control-Add-ins.md)   
- [How to: Create a Windows Client Control Add-in](How%20to:%20Create%20a%20Windows%20Client%20Control%20Add-in.md)
+ [How to: Create a Windows Client Control Add-in](How-to--Create-a-Windows-Client-Control-Add-in.md)

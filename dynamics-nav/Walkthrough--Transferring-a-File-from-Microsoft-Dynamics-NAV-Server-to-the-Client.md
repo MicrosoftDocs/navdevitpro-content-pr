@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 93eb2594-bbb5-4f0a-b529-aa011029ad50
 caps.latest.revision: 17
 manager: edupont
@@ -112,4 +112,4 @@ This walkthrough demonstrates how to develop a codeunit that creates a file on [
 7.  Note that the file contains the text 'abc'.  
   
 ## See Also  
- [Walkthrough: Uploading a File from a Client to Microsoft Dynamics NAV Server](Walkthrough:%20Uploading%20a%20File%20from%20a%20Client%20to%20Microsoft%20Dynamics%20NAV%20Server.md)
+ [Walkthrough: Uploading a File from a Client to Microsoft Dynamics NAV Server](Walkthrough--Uploading-a-File-from-a-Client-to-Microsoft-Dynamics-NAV-Server.md)

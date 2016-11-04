@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: dd9e5a21-eb54-498d-9222-c31317d2050f
 caps.latest.revision: 4
 manager: edupont
@@ -17,7 +17,7 @@ Shows the name of the currently opened database and the name of the SQL Server i
  To open this window, on the **File** menu, choose **Database**, choose **Alter**, and then choose the **General** tab.  
   
 ## See Also  
- [How to: Alter Databases](How%20to:%20Alter%20Databases.md)   
+ [How to: Alter Databases](How-to--Alter-Databases.md)   
  [Altering Databases - Database Files Tab](Altering-Databases---Database-Files-Tab.md)   
  [Altering Databases - Transaction Log Files Tab](Altering-Databases---Transaction-Log-Files-Tab.md)   
  [Altering Databases - Collation Tab](Altering-Databases---Collation-Tab.md)   

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 631f5c0e-5be3-4e24-87b0-6d01278e0786
 caps.latest.revision: 8
 manager: edupont
@@ -25,5 +25,5 @@ To extend a [!INCLUDE[navnow](includes/navnow_md.md)] object by using .NET Frame
 -   If the client-side and server-side objects will share data, such as return values and parameters, then the .NET Framework types that define the objects must be capable of being serialized.  
   
 ## See Also  
- [How to: Set .NET Framework Types to Run on the Microsoft Dynamics NAV Windows Client or Microsoft Dynamics NAV Server Computers](How%20to:%20Set%20.NET%20Framework%20Types%20to%20Run%20on%20the%20Microsoft%20Dynamics%20NAV%20Windows%20Client%20or%20Microsoft%20Dynamics%20NAV%20Server%20Computers.md)   
+ [How to: Set .NET Framework Types to Run on the Microsoft Dynamics NAV Windows Client or Microsoft Dynamics NAV Server Computers](How-to--Set-.NET-Framework-Types-to-Run-on-the-Microsoft-Dynamics-NAV-Windows-Client-or-Microsoft-Dynamics-NAV-Server-Computers.md)   
  [Serializing .NET Framework Types](Serializing-.NET-Framework-Types.md)

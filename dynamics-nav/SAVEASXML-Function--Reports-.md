@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 734be992-db50-4100-8c1d-2b09d3b67643
 caps.latest.revision: 3
 manager: edupont
@@ -64,7 +64,7 @@ Saves a report as an .xml file on the computer that is running [!INCLUDE[nav_ser
   
  If the file that you specify in *FileName* is being used, then you get the following error:  
   
- **An I\/O exception occurred during the operation.**  
+ **An I/O exception occurred during the operation.**  
   
  If the [!INCLUDE[nav_server](includes/nav_server_md.md)] does not have permission to write to the file that you specify in *FileName*, then you get the following error:  
   

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 24e1ba11-dc05-4aab-8609-8bb3f963a471
 caps.latest.revision: 5
 manager: edupont
@@ -34,7 +34,7 @@ finsql.exe command=createlanguage, langid=<langid>, [servername=<server>,] [data
 > [!NOTE]  
 >  When you first specify a database server and database to open, either from a command at a command prompt or from a client, the database server and database are stored in the fin.zup file. By default, the fin.zup file is located at C:\\users\\\<*user name*>\\AppData\\Roaming\\.  
   
- If you do not specify the *servername* parameter but you do specify the *database* parameter, then the [\($ S\_2335 Open Database $\)](-$-S_2335-Open-Database-$-.md) window opens so that you can specify the database server name.  
+ If you do not specify the *servername* parameter but you do specify the *database* parameter, then the [Open Database](uiref/-$-S_2335-Open-Database-$-.md) window opens so that you can specify the database server name.  
   
 > [!TIP]  
 >  To view the name of the server on which the current database is stored, on the **File** menu, choose **Database**, and then choose **Information**. Use the value of the **Database Server** field for the *servername* parameter.  
@@ -57,7 +57,7 @@ finsql.exe command=createlanguage, langid=<langid>, [servername=<server>,] [data
 |Name|Any valid object name|"Name=Cost Entry"|  
 |Modified|yes, no, 1, 0|Modified=yes|  
 |Compiled|yes, no, 1, 0|Compiled=0|  
-|Date|Date, in the numeric format determined by your regional settings|"Date=12\/1\/2012"|  
+|Date|Date, in the numeric format determined by your regional settings|"Date=12/1/2012"|  
 |Time|Time, in the numeric format determined by your regional settings|"Time=12:00:00"|  
 |Version List|Any valid version|"Version List=NAVW17.00"|  
 |Caption|Any valid caption|"Caption=Company Information"|  
@@ -100,7 +100,7 @@ finsql.exe command=createlanguage, langid=<langid>, [servername=<server>,] [data
  Specifies if you want to use NT authentication. The possible values are **yes**, **no**, **1**, or **0**. If you specify the *username* and *password* parameters, then you must specify **ntauthentication=no** or **ntauthentication=0**.  
   
 ## Remarks  
- The CreateLanguage command adds a language caption entry in the [CaptionML Property](CaptionML-Property.md) of the controls in the objects that you specify. By default, the caption is the same value as the [Name Property-duplicate](Name-Property-duplicate.md) of the control.  
+ The CreateLanguage command adds a language caption entry in the [CaptionML Property](CaptionML-Property.md) of the controls in the objects that you specify. By default, the caption is the same value as the [Name Property](Name-Property-duplicate.md) of the control.  
   
 > [!NOTE]  
 >  After you run the command, you must to compile the modified objects. For more information, see [Compiling Objects](Compiling-Objects.md).  

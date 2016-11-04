@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: c5b62613-565d-47ed-b47b-1c734a599d65
 caps.latest.revision: 20
 manager: edupont
@@ -128,13 +128,13 @@ MESSAGE(Text000 + Text001 + Text002 + Text003,
   
  The message window displays the following text:  
   
- **The reference date is: 05\/21\/96**  
+ **The reference date is: 05/21/96**  
   
- **The expression: CQ+1M-10D returns 07\/20\/96**  
+ **The expression: CQ+1M-10D returns 07/20/96**  
   
- **The expression: -WD2 returns 05\/14\/96**  
+ **The expression: -WD2 returns 05/14/96**  
   
- **The expression: CM+30D returns 06\/30\/96**  
+ **The expression: CM+30D returns 06/30/96**  
   
 ## See Also  
  [Date and Time Functions](Date-and-Time-Functions.md)   

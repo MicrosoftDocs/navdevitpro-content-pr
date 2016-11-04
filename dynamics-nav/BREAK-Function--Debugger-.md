@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: e0b2c3ac-950b-44f5-a291-268ab70d8a96
 caps.latest.revision: 6
 manager: edupont
@@ -29,5 +29,5 @@ Breaks code execution of a debugging session.
   
 ## See Also  
  [Breakpoints](Breakpoints.md)   
- [How to: Break on the Next Statement](How%20to:%20Break%20on%20the%20Next%20Statement.md)   
- [How to: Manage Breakpoints from the Development Environment](How%20to:%20Manage%20Breakpoints%20from%20the%20Development%20Environment.md)
+ [How to: Break on the Next Statement](How-to--Break-on-the-Next-Statement.md)   
+ [How to: Manage Breakpoints from the Development Environment](How-to--Manage-Breakpoints-from-the-Development-Environment.md)

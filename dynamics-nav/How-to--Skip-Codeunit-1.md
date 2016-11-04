@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 3b5317c7-b7b1-4604-95c1-67800c544ca7
 caps.latest.revision: 8
 manager: edupont
@@ -30,5 +30,5 @@ Many of the triggers in codeunit 1, Application Management, are not important fo
   
 ## See Also  
  [Breakpoints](Breakpoints.md)   
- [How to: Break on Errors](How%20to:%20Break%20on%20Errors.md)   
- [How to: Break on Record Changes](How%20to:%20Break%20on%20Record%20Changes.md)
+ [How to: Break on Errors](How-to--Break-on-Errors.md)   
+ [How to: Break on Record Changes](How-to--Break-on-Record-Changes.md)

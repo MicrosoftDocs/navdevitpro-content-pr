@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: a1895add-b902-4fd6-b90e-27e251301aa6
 caps.latest.revision: 23
 manager: edupont
@@ -54,4 +54,4 @@ This topic describes how to use a FixedLayout group control on a page to arrange
   
 ## See Also  
  [Arranging Fields in Rows and Columns](Arranging-Fields-in-Rows-and-Columns.md)   
- [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](How%20to:%20Arrange%20Fields%20in%20Rows%20and%20Columns%20Using%20the%20GridLayout%20Control.md)
+ [How to: Arrange Fields in Rows and Columns Using the GridLayout Control](How-to--Arrange-Fields-in-Rows-and-Columns-Using-the-GridLayout-Control.md)

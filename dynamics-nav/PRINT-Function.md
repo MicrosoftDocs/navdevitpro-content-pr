@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 06451de1-2618-4fda-94b0-03974fccafb5
 caps.latest.revision: 6
 manager: edupont
@@ -49,7 +49,7 @@ REPORT.PRINT(Number, Parameters[,PrinterName][, RecordRef])
  For a simple example that illustrates how to use the PRINT function, see example in the [RUNREQUESTPAGE Function](RUNREQUESTPAGE-Function.md) function topic.  
   
 ## See Also  
- [Reports-duplicate 20](Reports-duplicate-20.md)   
+ [Reports-duplicate 20](Reports.md)   
  [Request Pages](Request-Pages.md)   
  [SAVEAS Function](SAVEAS-Function.md)   
  [EXECUTE Function](EXECUTE-Function.md)

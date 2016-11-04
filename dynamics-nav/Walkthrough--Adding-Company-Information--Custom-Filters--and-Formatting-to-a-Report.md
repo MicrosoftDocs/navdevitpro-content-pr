@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 6ff83384-54f1-49b3-bc99-ae397e5766b5
 caps.latest.revision: 15
 manager: edupont
 ---
 # Walkthrough: Adding Company Information, Custom Filters, and Formatting to a Report
-When you create a report, you can add features such as formatting, custom filters, company logo, and company name to the report. Adding these features make the report readable and improves the visual presentation of the report. You will add these features to the report that you created in [Walkthrough: Designing a Report from Multiple Tables](Walkthrough:%20Designing%20a%20Report%20from%20Multiple%20Tables.md).  
+When you create a report, you can add features such as formatting, custom filters, company logo, and company name to the report. Adding these features make the report readable and improves the visual presentation of the report. You will add these features to the report that you created in [Walkthrough: Designing a Report from Multiple Tables](Walkthrough--Designing-a-Report-from-Multiple-Tables.md).  
 
 ## About This Walkthrough  
  This walkthrough shows you how to add custom filters, add company information, and format a report.  
@@ -36,7 +36,7 @@ When you create a report, you can add features such as formatting, custom filter
 ### Prerequisites  
  To complete this walkthrough, you will need:  
 
--   To create a report by using [Walkthrough: Designing a Report from Multiple Tables](Walkthrough:%20Designing%20a%20Report%20from%20Multiple%20Tables.md). If you have not created this report, you must create it before you start this walkthrough.  
+-   To create a report by using [Walkthrough: Designing a Report from Multiple Tables](Walkthrough--Designing-a-Report-from-Multiple-Tables.md). If you have not created this report, you must create it before you start this walkthrough.  
 
 -   [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installed with a developer license.  
 
@@ -45,14 +45,14 @@ When you create a report, you can add features such as formatting, custom filter
 -   Microsoft Visual Studio installed. For more information about which version of Microsoft Visual Studio you need, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md). This walkthrough assumes that Microsoft Visual Studio 2012 or Microsoft Visual Studio 2013 is used.  
 
 ## Story  
- Viktor has created the report that was assigned to him in [Walkthrough: Designing a Report from Multiple Tables](Walkthrough:%20Designing%20a%20Report%20from%20Multiple%20Tables.md). Viktor wants to improve the visual presentation of the report by adding the company name and company logo to the report. He will format the data and the layout of the report. The company name and the logo must be displayed on every page. On the request page, Viktor wants to enable users to filter the data by customer number and provide the option to hide or show detailed customer information.  
+ Viktor has created the report that was assigned to him in [Walkthrough: Designing a Report from Multiple Tables](Walkthrough--Designing-a-Report-from-Multiple-Tables.md). Viktor wants to improve the visual presentation of the report by adding the company name and company logo to the report. He will format the data and the layout of the report. The company name and the logo must be displayed on every page. On the request page, Viktor wants to enable users to filter the data by customer number and provide the option to hide or show detailed customer information.  
 
 ## Declaring the Required Variables  
  First, Viktor will declare the variables that are that are required to create the custom filter and add the company name and logo to the report.  
 
 #### To declare the variables  
 
-1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], in Object Designer, select the report that you created by using [Walkthrough: Designing a Report from Multiple Tables](Walkthrough:%20Designing%20a%20Report%20from%20Multiple%20Tables.md) \(Report for Multiple Tables \(50001\). Choose **Design** to open Report Dataset Designer.  
+1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], in Object Designer, select the report that you created by using [Walkthrough: Designing a Report from Multiple Tables](Walkthrough--Designing-a-Report-from-Multiple-Tables.md) \(Report for Multiple Tables \(50001\). Choose **Design** to open Report Dataset Designer.  
 
 2.  On the **View** menu, choose **C/AL Globals** to open the **C/AL Globals** window.  
 
@@ -160,7 +160,7 @@ When you create a report, you can add features such as formatting, custom filter
 
     |Property|Value|  
     |--------------|-----------|  
-    |**MIMEType**|Image\/bmp|  
+    |**MIMEType**|Image/bmp|  
     |**Value**|=First\(Fields\!Picture.Value, "DataSet\_Result"\)|  
     |**Source**|Database|  
 
@@ -228,7 +228,7 @@ When you create a report, you can add features such as formatting, custom filter
 18. Run the report again. This time, on the Request Page, do not select the **Show Customer Details** option. Note that only the customer ID and the customer name are displayed on the report.  
 
 ## Formatting the Data  
- By default, the **DateTime** fields in the report display the date in the 1\/20\/2013 12:00 am format, **Boolean** fields are displayed as true or false, and the amounts fields are displayed without commas. Viktor will format the **DateTime** values so that they are displayed in the 01\/20\/2012 \(mm\/dd\/yyyy\) format,  Boolean values are displayed as **Yes** or **No**, and all the amounts are displayed in the \#,\#\#\#.\#\# format. For example, 2,222.00.  Later, the cells that display the amount values will be formatted to hide zero decimal values.  
+ By default, the **DateTime** fields in the report display the date in the 1/20/2013 12:00 am format, **Boolean** fields are displayed as true or false, and the amounts fields are displayed without commas. Viktor will format the **DateTime** values so that they are displayed in the 01/20/2012 \(mm/dd/yyyy\) format,  Boolean values are displayed as **Yes** or **No**, and all the amounts are displayed in the \#,\#\#\#.\#\# format. For example, 2,222.00.  Later, the cells that display the amount values will be formatted to hide zero decimal values.  
 
 #### To format dates value  
 
@@ -371,5 +371,5 @@ When you create a report, you can add features such as formatting, custom filter
      ![Formatted report](media/MicrosoftDynamicsNAV_FormatedReport.jpg "MicrosoftDynamicsNAV\_FormatedReport")  
 
 ## See Also  
- [Walkthrough: Designing a Report from Multiple Tables](Walkthrough:%20Designing%20a%20Report%20from%20Multiple%20Tables.md)   
+ [Walkthrough: Designing a Report from Multiple Tables](Walkthrough--Designing-a-Report-from-Multiple-Tables.md)   
  [Report Design Walkthroughs](Report-Design-Walkthroughs.md)

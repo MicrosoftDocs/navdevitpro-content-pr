@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: c77a75d8-8bff-42fd-8b1a-4eaf745be70f
 caps.latest.revision: 10
 manager: edupont
@@ -25,7 +25,7 @@ Sets the option values for a field, text box, or variable. OptionString is multi
   
  This allows you to present strings to users in different languages. The strings that are displayed to users are selected according to the user's current language setting. For more information, see [Multilanguage Development](Multilanguage-Development.md). If the [OptionCaptionML Property](OptionCaptionML-Property.md) is not set, then users will see the values from OptionString.  
   
- For other multilanguage enabled properties \([Caption Property-duplicate](Caption-Property-duplicate.md), [ToolTip Property](ToolTip-Property.md), and [ReqFilterHeading Property](ReqFilterHeading-Property.md)\), there is a relationship between the property itself and the multilanguage counterpart. The only connection between the OptionString and OptionCaptionML properties is that if the OptionCaptionML property is not set, then the strings displayed are taken from the OptionString property.  
+ For other multilanguage enabled properties \([Caption Property](Caption-Property-duplicate.md), [ToolTip Property](ToolTip-Property.md), and [ReqFilterHeading Property](ReqFilterHeading-Property.md)\), there is a relationship between the property itself and the multilanguage counterpart. The only connection between the OptionString and OptionCaptionML properties is that if the OptionCaptionML property is not set, then the strings displayed are taken from the OptionString property.  
   
  For Option fields and variables, use this property to list the options you want to be accepted \(and displayed, if OptionCaptionML is not set\). You can enter a maximum of 250 characters. Separate the options with a comma. For example: option1,option2,option3.  
   

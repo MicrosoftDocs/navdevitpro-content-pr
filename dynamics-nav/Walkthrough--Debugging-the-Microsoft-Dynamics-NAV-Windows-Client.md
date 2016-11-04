@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 4b04afaa-d09e-46ea-82bb-f7524e703252
 caps.latest.revision: 23
 manager: edupont
@@ -162,9 +162,9 @@ This walkthrough demonstrates debugging an action in the [!INCLUDE[nav_windows](
 ## Next Steps  
  After Isaac is finished debugging, some possible next steps are:  
   
--   Delete or disable all breakpoints. For more information, see [How to: Manage Breakpoints from the Debugger Breakpoint List](How%20to:%20Manage%20Breakpoints%20from%20the%20Debugger%20Breakpoint%20List.md).  
+-   Delete or disable all breakpoints. For more information, see [How to: Manage Breakpoints from the Debugger Breakpoint List](How-to--Manage-Breakpoints-from-the-Debugger-Breakpoint-List.md).  
   
--   Delete watches. For more information, see [How to: Remove Variables from the Watches FactBox](How%20to:%20Remove%20Variables%20from%20the%20Watches%20FactBox.md).  
+-   Delete watches. For more information, see [How to: Remove Variables from the Watches FactBox](How-to--Remove-Variables-from-the-Watches-FactBox.md).  
   
  Isaac can also keep the breakpoints and watches in his breakpoint list so that he can use them in a future debugging session.  
   

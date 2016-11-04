@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 97330892-fc4a-4413-91da-c22f5f19903e
 caps.latest.revision: 6
 manager: edupont
@@ -34,4 +34,4 @@ You can expand your transaction log by increasing the size of one or more of its
   
 ## See Also  
  [Altering Databases - Transaction Log Files Tab](Altering-Databases---Transaction-Log-Files-Tab.md)   
- [How to: Add New Transaction Log Files](How%20to:%20Add%20New%20Transaction%20Log%20Files.md)
+ [How to: Add New Transaction Log Files](How-to--Add-New-Transaction-Log-Files.md)

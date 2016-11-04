@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 4addc78b-44ac-43ac-861e-d7e848b32414
 caps.latest.revision: 18
 ---
@@ -42,7 +42,7 @@ Caption := TestPageField.CAPTION
 ## Remarks  
  CAPTION returns the caption of a field. CAPTION first looks for a [CaptionML Property](CaptionML-Property.md).  
   
- If it does not find one, it will use the [Name Property-duplicate](Name-Property-duplicate.md). This means that CAPTION is enabled for multilanguage functionality.  
+ If it does not find one, it will use the [Name Property](Name-Property-duplicate.md). This means that CAPTION is enabled for multilanguage functionality.  
   
  This function is similar to the [FIELDCAPTION Function \(Record\)](FIELDCAPTION-Function--Record-.md) function.  
   

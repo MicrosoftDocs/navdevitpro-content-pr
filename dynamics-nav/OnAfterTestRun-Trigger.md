@@ -6,10 +6,9 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
-ms.assetid: 3900632d-03d8-4b47-9e19-4907bf418380
-caps.latest.revision: 14
+ms.author: jswymer
 manager: edupont
+ms.prod: "dynamics-nav-2017"
 ---
 # OnAfterTestRun Trigger
 Executed after a test function of a test codeunit has been run.  
@@ -18,27 +17,40 @@ Executed after a test function of a test codeunit has been run.
   
 ```  
   
-OnAfterTestRun(CodeunitID : Integer;CodeunitName : Text[30];FunctionName : Text[128];Success : Boolean)  
+OnAfterTestRun(CodeunitID : Integer;CodeunitName : Text[30];FunctionName : Text[128];Permissions : TestPermissions; Success : Boolean)  
 ```  
   
 #### Parameters  
- *CodeunitID*  
- Type: Integer  
+*CodeunitID*  
+Type: Integer  
   
- The ID of the codeunit that has run.  
+Specifies the ID of the codeunit that has run.  
   
- *CodeunitName*  
- Type: Text  
+*CodeunitName*  
+Type: Text  
   
- The name of the test codeunit that has run.  
+Specifies the name of the test codeunit that has run.  
   
- *FunctionName*  
- Type: Text  
+*FunctionName*  
+Type: Text  
   
- The name of the test function that has run.  
+Specifies the name of the test function that has run.  
   
 > [!NOTE]  
 >  This parameter is empty when the **OnAfterTestRun** trigger is called for the whole test codeunit.  
+  
+*Permissions*
+
+Type: TestPermissions
+
+Specifies the permission set level to use on the test run. The value is retrieved from the [TestPermissions property](testing-permissionsets.md) of the test codeunit or test function that is run. The parameter accepts the following values:
+
+*   **Disabled**
+*   **Restrictive**
+*   **NonRestrictive**
+*   **InheritFromTestCodunit** - Specifies that a test the function uses the **TestPermissions** property setting of the test codeunit to which it belongs.
+
+For more information, see [Testing With Permission Sets](testing-permissionsets.md). 
   
  *Success*  
  Type: Boolean  
@@ -52,18 +64,20 @@ OnAfterTestRun(CodeunitID : Integer;CodeunitName : Text[30];FunctionName : Text[
 >  This trigger is optional and not available on a test runner codeunit by default. To implement this trigger, you must manually add it as a function.  
   
 ## Remarks  
- A test runner codeunit manages the execution of test codeunits that are run from its **OnRun** function. When a test codeunit runs, it executes each test function one at a time in the codeunit. When implemented, the **OnAfterTestRun** trigger is called after each test function has run and after all of the test codeunit has run.  
-  
- The **OnAfterTestRun** trigger suppresses the automatic display of the results message after the test codeunit runs.  
-  
+ A test runner codeunit manages the execution of test codeunits that are run from its **OnRun** function. When a test codeunit runs, it executes each test function one at a time in the codeunit. When implemented, the **OnAfterTestRun** trigger is called after each test function has run and after all of the test codeunit has run.
+
+The **OnAfterTestRun** trigger suppresses the automatic display of the results message after the test codeunit runs.
+
 > [!NOTE]  
 >  To return the error message for a failed test function run, use the [GETLASTERRORTEXT Function](GETLASTERRORTEXT-Function.md).  
   
- You can use the **OnAfterTestRun** trigger to perform post-processing, such as logging, or to automate tests by integrating the test runner codeunit with a test management framework.  
-  
- The **OnAfterTestRun** trigger is run in its own database transaction.  
-  
- For more information, see [Testing the Application](Testing-the-Application.md) and [How to: Create a Test Runner Codeunit](How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md).  
+
+You can use the **OnAfterTestRun** trigger to perform post-processing, such as logging, or to automate tests by integrating the test runner codeunit with a test management framework.
+
+The *TestPermissions* parameter, enables you can control how to handle applied permission sets, if any, after the test is run. For more information about testing with permision sets, including an example, see [Testing With Permission Sets](testing-permissionsets.md).
+
+The **OnAfterTestRun** trigger is run in its own database transaction.
+
   
 ## Example  
  The following **OnAfterTestRun** trigger code logs test results to a test reporting system. This example requires that you create a record variable named *log*.  
@@ -89,8 +103,8 @@ log.INSERT(true);
   
 ## See Also  
  [Testing the Application](Testing-the-Application.md)   
- [How to: Create a Test Runner Codeunit](How%20to:%20Create%20a%20Test%20Runner%20Codeunit.md)   
- [How to: Create Test Codeunits and Test Functions](How%20to:%20Create%20Test%20Codeunits%20and%20Test%20Functions.md)   
- [How to: Create Handler Functions](How%20to:%20Create%20Handler%20Functions.md)   
- [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough:%20Testing%20Purchase%20Invoice%20Discounts.md)   
+ [How to: Create a Test Runner Codeunit](How-to--Create-a-Test-Runner-Codeunit.md)   
+ [How to: Create Test Codeunits and Test Functions](How-to--Create-Test-Codeunits-and-Test-Functions.md)   
+ [How to: Create Handler Functions](How-to--Create-Handler-Functions.md)   
+ [Walkthrough: Testing Purchase Invoice Discounts](Walkthrough--Testing-Purchase-Invoice-Discounts.md)   
  [OnBeforeTestRun Trigger](OnBeforeTestRun-Trigger.md)

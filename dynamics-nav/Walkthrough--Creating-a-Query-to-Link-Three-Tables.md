@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: b8433081-ff30-40eb-81a2-9832fb4caf56
 caps.latest.revision: 22
 manager: edupont
@@ -49,13 +49,13 @@ GROUP BY SP.Name
 ```  
   
 ## Creating the Query with Three Tables  
- Viktor must create a query with Query Designer. The salesperson name is stored in the **Salesperson\/Purchaser** table. The salesperson code for sales orders is stored in the **Sales Header** table. The quantity of items in sales orders is stored in the **Sales Line** table. To create this query, Viktor must do the following:  
+ Viktor must create a query with Query Designer. The salesperson name is stored in the **Salesperson/Purchaser** table. The salesperson code for sales orders is stored in the **Sales Header** table. The quantity of items in sales orders is stored in the **Sales Line** table. To create this query, Viktor must do the following:  
   
 -   Add tables and fields by specifying data items and columns.  
   
 -   Set up a **Totals** method on the **Quantity** of the **Sales Line** table to return the total number of items in each sales order for each salesperson.  
   
--   Link the **Salesperson\/Purchase** table and the **Sales Header** table on the condition that the salesperson code matches, and then link the resulting dataset with the **Sales Line** table to find all sales lines for each sales header.  
+-   Link the **Salesperson/Purchase** table and the **Sales Header** table on the condition that the salesperson code matches, and then link the resulting dataset with the **Sales Line** table to find all sales lines for each sales header.  
   
 #### To add tables and fields to the query  
   
@@ -67,7 +67,7 @@ GROUP BY SP.Name
   
     |Line No.|Type|Data Source|Name|  
     |--------------|----------|-----------------|----------|  
-    |Line 1|DataItem|Salesperson\/Purchaser|**SP**|  
+    |Line 1|DataItem|Salesperson/Purchaser|**SP**|  
     |Line 2|Column|Name|\<Name>|  
     |Line 3|DataItem|Sales Header|**SH**|  
     |Line 4|DataItem|Sales Line|**SL**|  
@@ -76,7 +76,7 @@ GROUP BY SP.Name
 >  The **Name** column in Query Designer is equivalent to using the AS keyword in an SQL statement. It defines an alias for the data item. Type a value in this column when you want to replace the default value with an alias.  
   
 > [!NOTE]  
->  The Sales Header data item is indented. This indicates that this data item, which is the **Sales Header** table, is linked to the upper data item, which is the **Salesperson\/Purchaser** table.  
+>  The Sales Header data item is indented. This indicates that this data item, which is the **Sales Header** table, is linked to the upper data item, which is the **Salesperson/Purchaser** table.  
   
 > [!NOTE]  
 >  The Sales Line data item is indented. This indicates that this data item, which is the **Sales Line** table, is joined to the parent data item, which is the result of the previous join.  
@@ -90,7 +90,7 @@ GROUP BY SP.Name
 3.  In the **Method Type** column, choose **Totals** from the drop-down list box.  
   
     > [!NOTE]  
-    >  You want the query results to group by the **Name** field of the **Salesperson\/Purchaser** table. This is automatically done for you. The query groups all fields that are not totals fields. In Query Designer, grouped fields are indicated by a check mark in the **Group By** column. In this example, the only column that is grouped is the **Name** field under the **Salesperson\/Purchaser** data item.  
+    >  You want the query results to group by the **Name** field of the **Salesperson/Purchaser** table. This is automatically done for you. The query groups all fields that are not totals fields. In Query Designer, grouped fields are indicated by a check mark in the **Group By** column. In this example, the only column that is grouped is the **Name** field under the **Salesperson/Purchaser** data item.  
   
 4.  In the **Method** column, choose **Sum** from the drop-down list box.  
   
@@ -103,13 +103,13 @@ GROUP BY SP.Name
   
 -   Only salespersons who have sales orders.  
   
-     The **Salesperson\/Purchase** table and the **Sales Header** table have a field for the sales person's code in common. Viktor will link the **Salesperson\/Purchase** table and the **Sales Header** table on the condition that the code for the salesperson in the two tables matches. This will exclude any salesperson who is not assigned a sales order.  
+     The **Salesperson/Purchase** table and the **Sales Header** table have a field for the sales person's code in common. Viktor will link the **Salesperson/Purchase** table and the **Sales Header** table on the condition that the code for the salesperson in the two tables matches. This will exclude any salesperson who is not assigned a sales order.  
   
 -   Only sales headers that have sales lines.  
   
      The **Sales Header** table and the **Sales Lines** table have a field for the document number in common. Viktor will link the **Sales Header** table and **Sales Line** table on the condition that the document number in the two tables matches. This will exclude any sales headers that do not have sales lines.  
   
-#### To link the Salesperson\/Purchase table and the Sales Header table  
+#### To link the Salesperson/Purchase table and the Sales Header table  
   
 1.  In Query Designer, select the **SH** data item row.  
   
@@ -117,7 +117,7 @@ GROUP BY SP.Name
   
 3.  In the **Value** field of the **DataItemLink** property, choose the **AssistEdit** button.  
   
-     The **DataItem Link** window opens. You use this window to create a reference link between the **Salesperson Code** field of the **Sales Header** table and the **Code** field of the **Salesperson\/Purchaser** table.  
+     The **DataItem Link** window opens. You use this window to create a reference link between the **Salesperson Code** field of the **Sales Header** table and the **Code** field of the **Salesperson/Purchaser** table.  
   
 4.  In the **DataItem Link** window, in the **Field** column, choose the up arrow.  
   
@@ -125,13 +125,13 @@ GROUP BY SP.Name
   
 6.  In the **Reference DataItem** field, choose the up arrow.  
   
-     The **DataItem List – Table** window opens. You use this window to create a link to the **Salesperson\/Purchaser** table.  
+     The **DataItem List – Table** window opens. You use this window to create a link to the **Salesperson/Purchaser** table.  
   
 7.  In the **DataItem List – Table** window, select the **SP** data item, and then choose the **OK** button.  
   
 8.  In the **Reference Field**, choose the up arrow.  
   
-9. In the **Salesperson\/Purchaser – Field List** window, select **Code**, and then choose the **OK** button.  
+9. In the **Salesperson/Purchaser – Field List** window, select **Code**, and then choose the **OK** button.  
   
 10. Choose the **OK** button to close the **DataItem Link** window.  
   

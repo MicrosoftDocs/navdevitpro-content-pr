@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 1e330b20-3806-4877-a1a6-f39acead3fa0
 caps.latest.revision: 4
 manager: edupont
@@ -28,6 +28,6 @@ You can start, stop, restart, or remove a [!INCLUDE[nav_server](includes/nav_ser
   
 ## See Also  
  [Managing Microsoft Dynamics NAV Server Instances](Managing-Microsoft-Dynamics-NAV-Server-Instances.md)   
- [How to: Configure a Microsoft Dynamics NAV Server Instance](How%20to:%20Configure%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)   
- [How to: Create a Microsoft Dynamics NAV Server Instance](How%20to:%20Create%20a%20Microsoft%20Dynamics%20NAV%20Server%20Instance.md)   
+ [How to: Configure a Microsoft Dynamics NAV Server Instance](How-to--Configure-a-Microsoft-Dynamics-NAV-Server-Instance.md)   
+ [How to: Create a Microsoft Dynamics NAV Server Instance](How-to--Create-a-Microsoft-Dynamics-NAV-Server-Instance.md)   
  [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)

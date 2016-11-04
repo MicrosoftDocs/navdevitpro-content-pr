@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 948cdeb0-07cf-4e89-800d-5ead0addd263
 caps.latest.revision: 13
 manager: edupont
@@ -42,7 +42,7 @@ In Visual Studio Report Designer, you can use the **ROUND** function to round a 
   
 6.  Choose the **OK** button to close the **Expression** window.  
   
-7.  Save and compile the report. For more information, see [How to: Integrate Report Dataset Designer and Visual Studio Report Designer](How%20to:%20Integrate%20Report%20Dataset%20Designer%20and%20Visual%20Studio%20Report%20Designer.md).  
+7.  Save and compile the report. For more information, see [How to: Integrate Report Dataset Designer and Visual Studio Report Designer](How-to--Integrate-Report-Dataset-Designer-and-Visual-Studio-Report-Designer.md).  
   
 ### To add code to specify rounding precision  
   
@@ -63,7 +63,7 @@ In Visual Studio Report Designer, you can use the **ROUND** function to round a 
     Return ROUND(100*Pct)/100  
     ```  
   
-7.  Save and compile the report. For more information, see [How to: Integrate Report Dataset Designer and Visual Studio Report Designer](How%20to:%20Integrate%20Report%20Dataset%20Designer%20and%20Visual%20Studio%20Report%20Designer.md).  
+7.  Save and compile the report. For more information, see [How to: Integrate Report Dataset Designer and Visual Studio Report Designer](How-to--Integrate-Report-Dataset-Designer-and-Visual-Studio-Report-Designer.md).  
   
 ## Example  
  The following code example shows a function that calls the **ROUND** function and uses the preceding procedure to specify precision.  

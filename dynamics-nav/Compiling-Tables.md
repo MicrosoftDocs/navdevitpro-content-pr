@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 238f8e66-249f-479b-8e8a-f07454318308
 caps.latest.revision: 4
 manager: edupont
@@ -32,7 +32,7 @@ This topic describes requirements and restrictions for compiling a table object 
   
 -   You can be authenticated by the [!INCLUDE[nav_server](includes/nav_server_md.md)] according to one of the following conditions:  
   
-    -   You are set up as a [!INCLUDE[navnow](includes/navnow_md.md)] user on your Windows account in the [!INCLUDE[navnow](includes/navnow_md.md)]database. This is the recommended option. For more information about setting up a user, see [How to: Create Microsoft Dynamics NAV Users](How%20to:%20Create%20Microsoft%20Dynamics%20NAV%20Users.md).  
+    -   You are set up as a [!INCLUDE[navnow](includes/navnow_md.md)] user on your Windows account in the [!INCLUDE[navnow](includes/navnow_md.md)]database. This is the recommended option. For more information about setting up a user, see [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md).  
   
     -   You are set up as an administrator on the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)].  
   

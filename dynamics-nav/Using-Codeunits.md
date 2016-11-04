@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 0456b0e3-873e-427b-8ef5-b9bb0ac7ba6e
 caps.latest.revision: 17
 manager: edupont
@@ -75,7 +75,7 @@ Codeunit Variables
   
  A single instance codeunit is instantiated when you use it for the first time. Typically, codeunit instances \(codeunits that do not have the SingleInstance property set\) are deleted when the last codeunit variable that uses that codeunit instance goes out of scope. However, single instance codeunits remain instantiated until you close the company.  
   
- For an example of a single instance codeunit, see [Walkthrough: Using Codeunits](Walkthrough:%20Using%20Codeunits.md).  
+ For an example of a single instance codeunit, see [Walkthrough: Using Codeunits](Walkthrough--Using-Codeunits.md).  
   
 ## Limitations on Codeunits  
  Global variables and temporary tables in a codeunit cannot be accessed directly from other application objects. The only way to access these values is through the functions that you have created in the codeunit.  

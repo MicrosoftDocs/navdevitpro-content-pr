@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 5b206aa1-9538-4349-a192-8e30a4ede9f4
 caps.latest.revision: 14
 ---
@@ -46,7 +46,7 @@ This topic explains how items, such as documents, are numbered in [!INCLUDE[navn
      The values in this kind of series always begin with a letter and the sorting is always the same, regardless of the SQL data type.  
   
 > [!IMPORTANT]  
->  As a rule, data types that are used in fields that are related to each other must be compatible. Therefore, when you use a SQL data type in a field, you will usually have to change the SQL data type settings of related fields in other tables. For example, in the general ledger application area, if you change the SQL data type of the **No**. field in the **G\/L Account** table from Varchar to Integer \(or if you change the data type from Code to Text\), you must change the data type of the **G\/L Account No**. fields in the **G\/L Entry** and **G\/L Budget Entry** tables to the corresponding data type. Failure to do this results in the display of incorrect totals, based on these tables, in the chart of accounts and elsewhere.  
+>  As a rule, data types that are used in fields that are related to each other must be compatible. Therefore, when you use a SQL data type in a field, you will usually have to change the SQL data type settings of related fields in other tables. For example, in the general ledger application area, if you change the SQL data type of the **No**. field in the **G/L Account** table from Varchar to Integer \(or if you change the data type from Code to Text\), you must change the data type of the **G/L Account No**. fields in the **G/L Entry** and **G/L Budget Entry** tables to the corresponding data type. Failure to do this results in the display of incorrect totals, based on these tables, in the chart of accounts and elsewhere.  
   
 ### Filters  
  If you do not follow the numbering principles, problems will occur when you apply filters that involve numbers.  
@@ -58,3 +58,6 @@ This topic explains how items, such as documents, are numbered in [!INCLUDE[navn
 -   If you do not follow the numbering principles when you apply a filter, for example, 2...10, the result will contain no records. This is because 2, comes after 10.  
   
 -   You have followed the numbering principles and are using three-digit numbers. If you forget to follow the same principles when you apply a filter, for example, 10...20, the result will be 100,101,102...199.
+
+## See Also
+[Development](development.md)

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: d551118d-e8fd-40ab-bc08-c920b611ef8f
 caps.latest.revision: 4
 manager: edupont
@@ -25,6 +25,6 @@ Each table in [!INCLUDE[navnow](includes/navnow_md.md)] includes a hidden timest
 2.  Open the field properties, and then set the **SQL Timestamp** property to **Yes**.  
   
 ## See Also  
- [How to: Create a Table](How%20to:%20Create%20a%20Table.md)   
- [How to: Add Fields to a Table](How%20to:%20Add%20Fields%20to%20a%20Table.md)   
+ [How to: Create a Table](How-to--Create-a-Table.md)   
+ [How to: Add Fields to a Table](How-to--Add-Fields-to-a-Table.md)   
  [SQL Timestamp Property](SQL-Timestamp-Property.md)

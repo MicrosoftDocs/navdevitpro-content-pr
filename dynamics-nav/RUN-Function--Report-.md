@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: d707fe21-fedc-4593-8987-14ce3f14a5ba
 caps.latest.revision: 13
 manager: edupont
@@ -28,7 +28,7 @@ Report.RUN
  After you define this variable, you can run this function or the Report.RUNMODAL function on the variable. The variable is automatically cleared after it executes this function.  
   
 ## Remarks  
- Use this function or the [RUNMODAL Function \(Report\)](RUNMODAL-Function--Report-.md) if you know at design time the exact report that you want to run. Otherwise, use the [REPORT.RUNMODAL Function](REPORT.RUNMODAL-Function.md) or [REPORT.RUN Function](REPORT.RUN-Function.md).  
+ Use this function or the [RUNMODAL Function \(Report\)](RUNMODAL-Function--Report-.md) if you know at design time the exact report that you want to run. Otherwise, use the [REPORT.RUNMODAL Function](REPORT-RUNMODAL-Function.md) or [REPORT.RUN Function](REPORT-RUN-Function.md).  
   
  If the report you specify does not exist, then a compile error occurs.  
   

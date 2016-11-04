@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 97d79fa5-bb51-4bf5-b473-345a22532ca9
 caps.latest.revision: 17
 manager: edupont
@@ -41,4 +41,4 @@ You can use the **About This Page** feature to view all fields for the current r
 4.  \(optional\) On the **About This Page** page, on the **Actions** tab, in the **General** group, choose **Print Page** to open the **Print** window and send the information to a printer.  
   
 ## See Also  
- [How to: View and Export the Dataset for a Report](How%20to:%20View%20and%20Export%20the%20Dataset%20for%20a%20Report.md)
+ [How to: View and Export the Dataset for a Report](How-to--View-and-Export-the-Dataset-for-a-Report.md)

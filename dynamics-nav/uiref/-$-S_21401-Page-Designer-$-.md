@@ -1,17 +1,17 @@
 ---
-title: "($ S_21401 Page Designer $)"
+title: "Page Designer"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 2b06b436-9379-4b2e-9c64-84123ff90083
 caps.latest.revision: 10
 manager: edupont
 ---
-# ($ S_21401 Page Designer $)
+# Page Designer
 Provides functionality for designing pages.  
 
  Page Designer is part of Object Designer. Object Designer gives you access to the [!INCLUDE[nav_dev_long](../includes/nav_dev_long_md.md)]. You use the [!INCLUDE[nav_dev_short](../includes/nav_dev_short_md.md)] to modify the application or to create new application areas.  
@@ -29,8 +29,8 @@ Provides functionality for designing pages.
 |**SourceExpr**|Specifies an expression that defines where to find the value of the control.|  
 |**Name**|Specifies the name of the control or field to display on the page. The name cannot contain spaces.|  
 |**Caption**|Specifies the caption of the control or field.|  
-|**Visible**|Sets whether to display the page or control. For more information, see  [Visible Property-duplicate](Visible-Property-duplicate.md).|  
-|**ApplicationArea**|Sets the application areas that apply to the control. For more information, see [ApplicationArea Property](ApplicationArea-Property.md).|  
+|**Visible**|Sets whether to display the page or control. For more information, see  [Visible Property-duplicate](../Visible-Property-duplicate.md).|  
+|**ApplicationArea**|Sets the application areas that apply to the control. For more information, see [ApplicationArea Property](../ApplicationArea-Property.md).|  
 
 ## See Also  
- [How to: Create a Page](../How%20to:%20Create%20a%20Page.md)
+ [How to: Create a Page](../How-to--Create-a-Page.md)

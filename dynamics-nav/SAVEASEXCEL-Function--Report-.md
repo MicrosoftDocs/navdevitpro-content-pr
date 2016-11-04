@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 536c0682-bf9e-4214-98b2-3db528aeeab1
 caps.latest.revision: 20
 ---
@@ -60,7 +60,7 @@ Saves a report on the computer that is running [!INCLUDE[nav_server](includes/na
   
  If the file that you specify in *FileName* is being used, then you get the following error:  
   
- **An I\/O exception occurred during the operation.**  
+ **An I/O exception occurred during the operation.**  
   
  If the [!INCLUDE[nav_server](includes/nav_server_md.md)] process does not have permission to write to the file that you specify in *FileName*, then you get the following error:  
   

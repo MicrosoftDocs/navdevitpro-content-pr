@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 9d74d7e1-2409-4c2a-96f1-280a4d47c7f1
 caps.latest.revision: 23
 manager: edupont
@@ -80,7 +80,7 @@ This walkthrough illustrates how to set up a report to include a link from the *
     ="dynamicsnav:////runreport?report=104&filter=Customer.%22No.%22:"+Fields!No_Customer.Value  
     ```  
 
-     For more information about creating filters in a URL to run a report, see [How to: Run Reports](How%20to:%20Run%20Reports.md).  
+     For more information about creating filters in a URL to run a report, see [How to: Run Reports](How-to--Run-Reports.md).  
 
 8.  Choose **OK** to close the window.  
 
@@ -112,7 +112,7 @@ This walkthrough illustrates how to set up a report to include a link from the *
     ="dynamicsnav:////runreport?report=104 &filter=Customer.%22No.%22:"+Fields!No_Customer.Value  
     ```  
 
-     For more information about creating filters in a URL to run a report, see [How to: Run Reports](How%20to:%20Run%20Reports.md).  
+     For more information about creating filters in a URL to run a report, see [How to: Run Reports](How-to--Run-Reports.md).  
 
 3.  Choose the **OK** button to close the **Series Properties** window.  
 
@@ -143,8 +143,8 @@ This walkthrough illustrates how to set up a report to include a link from the *
 
 8.  On the Windows taskbar, choose **Start**, and then choose **Run**.  
 
-9. In the **Run** window, enter the following text: **dynamicsnav:\/\/\/\/runreport?report=111**, and then choose the **OK** button.  
+9. In the **Run** window, enter the following text: **dynamicsnav:////runreport?report=111**, and then choose the **OK** button.  
 
 ## See Also  
- [Walkthrough: Creating a Link from a Report to a Page](Walkthrough:%20Creating%20a%20Link%20from%20a%20Report%20to%20a%20Page.md)   
+ [Walkthrough: Creating a Link from a Report to a Page](Walkthrough--Creating-a-Link-from-a-Report-to-a-Page.md)   
  [Report Design Walkthroughs](Report-Design-Walkthroughs.md)

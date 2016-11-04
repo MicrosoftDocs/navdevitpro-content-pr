@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 017f2aa5-5d9a-4dde-819c-53ef702f2f62
 caps.latest.revision: 6
 manager: edupont
@@ -18,8 +18,8 @@ There are several different web browsers that you can use to open the [!INCLUDE[
 
 |Browser|See|  
 |-------------|---------|  
-|Internet Explorer|[How to: Configure Internet Explorer for Microsoft Dynamics NAV Clients](How%20to:%20Configure%20Internet%20Explorer%20for%20Microsoft%20Dynamics%20NAV%20Clients.md)|  
-|Mozilla Firefox|[How to: Configure Mozilla Firefox for Microsoft Dynamics NAV Clients](How%20to:%20Configure%20Mozilla%20Firefox%20for%20Microsoft%20Dynamics%20NAV%20Clients.md)|  
+|Internet Explorer|[How to: Configure Internet Explorer for Microsoft Dynamics NAV Clients](How-to--Configure-Internet-Explorer-for-Microsoft-Dynamics-NAV-Clients.md)|  
+|Mozilla Firefox|[How to: Configure Mozilla Firefox for Microsoft Dynamics NAV Clients](How-to--Configure-Mozilla-Firefox-for-Microsoft-Dynamics-NAV-Clients.md)|  
 |Google Chrome|[Managing cookies](http://go.microsoft.com/fwlink/?LinkID=262171)<br /><br /> [Adjust JavaScript](http://go.microsoft.com/fwlink/?LinkID=262172)|  
 |Safari|[Manage cookies](http://go.microsoft.com/fwlink/?LinkID=262173)<br /><br /> [Enabling JavaScript](http://go.microsoft.com/fwlink/?LinkID=262174)|  
 

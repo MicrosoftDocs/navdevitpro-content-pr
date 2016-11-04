@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 055f76ec-ef51-4320-b5e5-983f469f3dd8
 caps.latest.revision: 3
 ---
@@ -15,7 +15,7 @@ You can publish a page as a web service and consume it using JavaScript Object N
   
 ### To obtain a document based on JSON  
   
-1.  You can build applications that consume and display [!INCLUDE[navnow](includes/navnow_md.md)] data using JSON. This example assumes that you have registered and published a page web service in [!INCLUDE[navnow](includes/navnow_md.md)]. For more information, see [Walkthrough: Creating and Interacting with a Page Web Service \(OData\)](Walkthrough:%20Creating%20and%20Interacting%20with%20a%20Page%20Web%20Service%20\(OData\).md).  
+1.  You can build applications that consume and display [!INCLUDE[navnow](includes/navnow_md.md)] data using JSON. This example assumes that you have registered and published a page web service in [!INCLUDE[navnow](includes/navnow_md.md)]. For more information, see [Walkthrough: Creating and Interacting with a Page Web Service \(OData\)](Walkthrough--Creating-and-Interacting-with-a-Page-Web-Service--OData-.md).  
   
 2.  Start Windows Internet Explorer. In the **Address** field, enter a URI in this format:  
   
@@ -36,7 +36,7 @@ You can publish a page as a web service and consume it using JavaScript Object N
   
      If you want to consume the web service as JSON-P, you can add the `?$callback=<callback function name>` parameter.  
   
-     You can use a similar URI to return the web service as an AtomPub document, in which case the attribute is `?$format=atom`. For more information, see [How to: Use OData to Return-Obtain an AtomPub Document](How%20to:%20Use%20OData%20to%20Return-Obtain%20an%20AtomPub%20Document.md).  
+     You can use a similar URI to return the web service as an AtomPub document, in which case the attribute is `?$format=atom`. For more information, see [How to: Use OData to Return-Obtain an AtomPub Document](How-to--Use-OData-to-Return-Obtain-an-AtomPub-Document.md).  
   
 ## See Also  
  [Using OData Web Services to Modify Data](Using-OData-Web-Services-to-Modify-Data.md)
