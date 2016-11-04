@@ -22,5 +22,7 @@ This section contains the following topics:
 
 -   [DELETEARCHIVEDATA Function](deletearchivedata-function.md)  
 
+-   [LOADPACKAGEDATA Function](loadpackagedata-function.md)  
+
 ## See Also  
  [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)

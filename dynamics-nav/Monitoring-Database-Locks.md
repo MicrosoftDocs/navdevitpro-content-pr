@@ -19,12 +19,12 @@ For general information about database locks in SQL Server, see [Locking in the 
 ## View Database Locks
 You can use the [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)] to view the current locks in the database. On the **Tools** menu, choose **Debugger**, and then choose **Database Locks**.
 
-The **Database Locks** page displays all the active locks on tables in [!INCLUDE[navnow_md](includes/navnow_md.md)] database in SQL Server, providing details that can help you better understand the locking condition.
+The **Database Locks** page displays all the active locks on tables in the [!INCLUDE[navnow_md](includes/navnow_md.md)] database in SQL Server, providing details that can help you better understand the locking condition.
 
 |  Field |  Description  |
 |--------------|---------------|
 |Table Name|Specifies the name of the [!INCLUDE[navnow_md](includes/navnow_md.md)] table affected by the lock.|
-|SQL Lock Resource Type|Specifies the database resource affected by the lock,such as DATABASE, FILE, OBJECT, PAGE, KEY, and more.|  
+|SQL Lock Resource Type|Specifies the database resource affected by the lock, such as DATABASE, FILE, OBJECT, PAGE, KEY, and more.|  
 |SQL Lock Request Mode|Specifies the lock mode that determines how concurrent transactions can access the resource. For more information, see [Lock Modes](https://aka.ms/sqldatabaselockmodes).|
 |SQL Lock Request Status|Specifies the current status of the lock, which can be one of the following:</br></br>**CNVRT** means that the lock is transitioning from another mode, but the conversion is blocked by another process that holds a lock with a conflicting mode.</br>**GRANT** means that the lock is active.</br>**WAIT** means that the lock is blocked by another process that holds a lock with a conflicting mode.|
 |Executing AL Object Type|Specifies the [!INCLUDE[navnow](includes/navnow_md.md)] object in C/AL that is running the transaction, such as a page or report.|
