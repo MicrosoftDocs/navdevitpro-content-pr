@@ -32,7 +32,7 @@ In practice, this means that you should not include the following function calls
 
 If you want to change this behavior, you can set the **DisableWriteInsideTryFunctions** setting in the CustomSettings.config file of the server instance to **false**. However, we recommended that you design your code to suit the default behavior instead.
 
-### Handline errors and using a return value
+### Handling errors with a return value
 A function that is designated as a try function has a Boolean return value \(true or false\), and has the construction `OK:= MyTryFunction`. A try function cannot have a user-defined return value.
 
 - If a try function call does not use the return value, the try function operates like an ordinary function and errors are exposed as usual.  
