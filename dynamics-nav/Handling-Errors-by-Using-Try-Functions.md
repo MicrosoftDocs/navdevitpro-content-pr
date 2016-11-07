@@ -17,7 +17,7 @@ Try functions in C/AL enable you to handle errors that occur in the application 
 ## Behavior and Usage  
 The main purpose of try functions is to catch errors/exceptions that are thrown by [!INCLUDE[navnow](includes/navnow_md.md)] or exceptions that are thrown during .NET Framework interoperability operations. Try functions catch errors similar to a conditional Codeunit.Run function call, except try function calls do not require that write transactions are committed to the database, and changes to the database that are made with a try function are not rolled back.
 
-### Database write transactions in try functions
+### <a name="DbWriteTransactions"></a>Database write transactions in try functions
 Because database changes made by a try function are not rolled back, you should not include database write transactions within a try function. By default, the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration prevents you from doing this. If a try function contains a database write transaction, a runtime error occurs.
 
 >[!Note]
