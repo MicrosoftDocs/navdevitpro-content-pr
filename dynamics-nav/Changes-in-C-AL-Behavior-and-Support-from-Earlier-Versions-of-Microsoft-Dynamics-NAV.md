@@ -8,6 +8,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 manager: edupont
+author: jswymer
 ---
 # Changes in C/AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV
 The following tables provide an overview of the new, removed, or changed C/AL data types, functions, properties, and triggers in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] since the previous version of [!INCLUDE[navnow](includes/navnow_md.md)]. For more information about the changes, see the specific topic about the data type, function, property, or trigger.  
@@ -23,7 +24,8 @@ The following tables provide an overview of the new, removed, or changed C/AL da
 See the C/AL Functions section that follows for a description of the data type functions.
 
 ## C/AL Functions  
- The following table lists the new functions in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
+### New functions
+The following table lists the new functions in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
 
 |Function|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
@@ -52,6 +54,13 @@ See the C/AL Functions section that follows for a description of the data type f
 |[MEDIAID Function \(Media\)](MEDIAID-Function--Media-.md)|Get the ID that is assigned to media in the database.|  
 |[MEDIAID Function \(MediaSet\)](MEDIAID-Function--MediaSet-.md)|Gets the ID that is assigned to the media set of a record.|  
 |[PRODUCTNAME Functions](function-productname.md)|Get the name of the application in three variations: full, marketing, and short.|  
+
+### Changed functions
+The following table lists the changed functions in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
+
+|Function|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
+|--------------|---------------------------------------|  
+|Try function|By default, database write transactions in a try function are not allowed. For more information, see [Database write transactions in try functions](Handling-Errors-by-Using-Try-Functions.md#DbWriteTransactions).|  
 
 ## C/AL Properties  
  The following table lists the new properties in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
