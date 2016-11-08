@@ -60,7 +60,7 @@ The following table lists the changed functions in [!INCLUDE[navnowlong](include
 
 |Function|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
-|Try function|By default, database write transactions in a try function are not allowed. For more information, see [Database write transactions in try functions](Handling-Errors-by-Using-Try-Functions.md#DbWriteTransactions).|  
+|TryFunction|By default, database write transactions in a try function are not allowed. For more information, see [Database write transactions in try functions](Handling-Errors-by-Using-Try-Functions.md#DbWriteTransactions).|  
 
 ## C/AL Properties  
  The following table lists the new properties in [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
