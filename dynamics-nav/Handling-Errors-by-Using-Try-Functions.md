@@ -23,14 +23,14 @@ Because changes made to the database by a try function are not rolled back, you 
 >[!Note]
 >This behavior is different from the behavior in [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)], which did not include this restriction by default. Therefore, you might encounter errors if you have application code that was written for [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)] and you run the code in [!INCLUDE[nav2017](includes/nav2017.md)].
 
-In practice, this means that you should not include the following function calls inside a try function scope:  
+>In practice, this means that you should not include the following function calls inside a try function scope:  
 
-|Data Type|Function|  
-|---------------|--------------|  
-|Record and RecordRef|-   INSERT<br />-   MODIFY<br />-   MODIFYALL<br />-   RENAME<br />-   DELETE<br />-   DELETEALL<br />-   ADDLINK<br />-   DELETELINK<br />-   DELETELINKS|  
-|Database|-   COMMIT|
+>|Data Type|Function|  
+>|---------------|--------------|  
+>|Record and RecordRef|-   INSERT<br />-   MODIFY<br />-   MODIFYALL<br />-   RENAME<br />-   DELETE<br />-   DELETEALL<br />-   >ADDLINK<br />-   DELETELINK<br />-   DELETELINKS|  
+>|Database|-   COMMIT|
 
-If you want to change this behavior, you can set the **DisableWriteInsideTryFunctions** setting in the CustomSettings.config file of the server instance to **false**. However, we recommend that you design your code to suit the default behavior instead.
+>If you want to change this behavior, you can set the **DisableWriteInsideTryFunctions** setting in the CustomSettings.config file of the server instance to **false**. However, we recommend that you design your code to suit the default behavior instead.
 
 ### Handling errors with a return value
 A function that is designated as a try function has a Boolean return value \(true or false\), and has the construction `OK:= MyTryFunction`. A try function cannot have a user-defined return value.
