@@ -2,7 +2,7 @@
 title: "Extension Packages Capability Support Matrix"
 author: edupont04
 ms.custom: na
-ms.date: 11/02/2016
+ms.date: 11/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -138,15 +138,43 @@ In addition to the object types described above, you are also able to include pe
  Most of these are typically not properties changed through customization as they can have a negative effect on the [!INCLUDE[navnow](includes/navnow_md.md)] deployment.  
 
 ### Restricted properties on existing table modifications  
- You cannot change the values for the following properties for existing tables and fields in an extension.  
+You cannot change the values for the following properties for existing tables and fields in an extension.  
 
-|Table Properties|Field Properties|  
-|----------------------|----------------------|  
-|-   Name<br />-   DataPerCompany<br />-   Permissions<br />-   LookupPageID<br />-   DrillDownPageID<br />-   PasteIsValid<br />-   LinkedObject<br />-   TableType|-   Name<br />-   AccessByPermission<br />-   Compressed<br />-   Data Type<br />-   DataLength<br />-   DateFormula<br />-   ExtendedDataType<br />-   FieldClass<br />-   MaxValue<br />-   MinValue<br />-   NotBlank<br />-   Numeric<br />-   Owner<br />-   SQL Data Type<br />-   SubType \(BLOB\)<br />-   TableIDExpr<br />-   TableRelation<br />-   TestTableRelation<br />-   ValidateTableRelation<br />-   ValuesAllowed Width|  
+#### Table Properties
+-   Name  
+-   DataPerCompany  
+-   Permissions  
+-   LookupPageID  
+-   DrillDownPageID  
+-   PasteIsValid  
+-   LinkedObject  
+-   TableType  
 
- You can add table keys, but you cannot delete or modify existing keys.  
+You can add table keys, but you cannot delete or modify existing keys.  
 
- You can add fields to a table group, but you cannot remove fields or groups.  
+#### Field Properties
+-   Name  
+-   AccessByPermission  
+-   Compressed  
+-   Data Type  
+-   DataLength  
+-   DateFormula  
+-   ExtendedDataType  
+-   FieldClass  
+-   MaxValue  
+-   MinValue  
+-   NotBlank  
+-   Numeric  
+-   Owner  
+-   SQL Data Type  
+-   SubType \(BLOB\)  
+-   TableIDExpr  
+-   TableRelation  
+-   TestTableRelation  
+-   ValidateTableRelation  
+-   ValuesAllowed Width  
+
+You can add fields to a table group, but you cannot remove fields or groups.  
 
 ## See Also  
  [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)   

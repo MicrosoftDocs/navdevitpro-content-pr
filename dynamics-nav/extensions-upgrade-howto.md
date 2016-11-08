@@ -2,7 +2,7 @@
 author: edupont04
 title: "How to: Write Extension Upgrade Code"
 ms.custom: na
-ms.date: 11/03/2016
+ms.date: 11/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -19,7 +19,7 @@ For more information about upgrading extensions, see [Upgrading Extensions](exte
 1.  Create new codeunit.  
 
     > [!IMPORTANT]  
-    >  This must be a codeunit of type **Normal**, not an **Upgrade** codeunit. for more informaiton, see [SubType Property](SubType-Property--Codeunit-.md).  
+    >  This must be a codeunit of type **Normal**, not an **Upgrade** codeunit. For more information, see [SubType Property](SubType-Property--Codeunit-.md).  
 
 2.	Add upgrade functions to the codeunit. Make sure the function is declared as global so that the **Local** property is set to **No**.  
     1. Add the *OnNavAppUpgradePerDatabase()* function if the extension contains cross-company tables.   
@@ -141,7 +141,7 @@ PROCEDURE OnNavAppUpgradePerDatabase@1();
 
 ## See Also  
 [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)  
-[Upgrading Extensions](extensions-upgrade.md)  
+[Upgrading Extensions](extensions-upgrading.md)  
 [GETARCHIVEVERSION Function](GETARCHIVEVERSION-Function.md)  
 [GETARCHIVERECORDREF Function](GETARCHIVERECORDREF-Function.md)  
 [RESTOREARCHIVEDATA Function](restorearchivedata-function.md)  

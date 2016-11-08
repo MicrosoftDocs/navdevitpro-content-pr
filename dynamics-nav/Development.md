@@ -41,9 +41,12 @@ Before you begin developing code for [!INCLUDE[navnowlong](includes/navnowlong_m
 |Learn how to use display language-specific strings without modifying code.|[CaptionClass Functionality](CaptionClass-Functionality.md)|  
 |Learn about how to develop [!INCLUDE[nav_web](includes/nav_web_md.md)] applications.|[Developing for the Microsoft Dynamics NAV Web Client](Developing-for-the-Microsoft-Dynamics-NAV-Web-Client.md)|  
 |Learn about how to develop the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)].|[Developing for the Microsoft Dynamics NAV Universal App](Developing-for-the-Microsoft-Dynamics-NAV-Universal-App.md)|  
-|Learn about differences between developing in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] and earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)].|[Changes in C/AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV](Changes-in-C-AL-Behavior-and-Support-from-Earlier-Versions-of-Microsoft-Dynamics-NAV.md)|  
-|Learn about how to transfer files between the client and the server.|[File Handling](File-Handling.md)|  
+|Learn about how to use events to design the application to react to specific actions or behavior that occur and to separate customized functionality from the application business logic.|[Events in Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md)|
+|Learn about how to display non-intrusive, contextual messages to client users.|[Notifications](notifications-developing.md)|
+|Learn about how to transfer files between the client and the server.|[File Handling](File-Handling.md)|
+|Learn about how to upload media, such as a JPEG or PNG image, on table records for displaying on pages and reports in the client.|[Working with Media on Records](Working-With-Media-on-Records.md)|
 |Learn about how to test an application.|[Testing the Application](Testing-the-Application.md)|
+|Learn about differences between developing in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] and earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)].|[Changes in C/AL Behavior and Support from Earlier Versions of Microsoft Dynamics NAV](Changes-in-C-AL-Behavior-and-Support-from-Earlier-Versions-of-Microsoft-Dynamics-NAV.md)|  
 
 ## See Also
 [Deployment](Deployment.md)  
