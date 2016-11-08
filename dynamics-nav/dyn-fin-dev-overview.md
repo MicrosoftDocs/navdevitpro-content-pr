@@ -14,22 +14,39 @@ ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 ---
 
 # Developing for Dynamics 365 for Financials Overview
-With [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] we introduce a new developer experience that lets you write extensions and customizations in Visual Studio Code without modifying original application objects. Using extensions as the way to modify [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] provides a flexible and upgradeable solution that doesn't change original application objects, but simply just extends them.
+Developing for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] is done by creating an extension to a [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] solution.  Extensions are a programming model where functionality is defined as an addition to existing objects and defines how they are different or modify the behaviour of the solution. 
 You might already be familiar with the extension model working with... For more information, see [old way of doing things description]().
 
-## Developing Extensions in Visual Studio Code
-Having installed Visual Studio Code and the AL(?) extension, you are ready to write your first extension to [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. For more information on getting up and running, see [Getting Started Developing for Dynamics 365 for Financials](dyn-fin-geting-started-dev-env.md).
+If you're new to building extensions for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], we recommend that you read this document to get an understanding of the basics and terms you will encounter while working. Next, follow the [Getting Started Developing for Dynamics 365 for Financials](dyn-fin-geting-started-dev-env.md) to setup your system and then jump straight into your first extension - Hello World [link to hello world]().
 
-The AL(?) extension to Visual Studio Code gives you the object structure providing snippets that you can use when you start creating new .al files. The project structure is flat and each object is a file saved as an .al extension file. Inside each object file you define and declare metadata, fields, triggers, events, and functions. A number of new extension object types are ready for this preview. You will be able to write ```PageExtension``` objects and ```TableExtension``` objects to extend ```Page``` and ```Table``` objects. And you can, of course, also add new objects of the following types:
-- Page
-- Table
-- Codeunit ...
+## Understanding Objects in Dynamics 365 for Financials
+All functionality in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] is coded in an object.  Table objects define the table schema that hold data, Page objects represent the forms seen in the user interface and codeunits contain code for logical calculations and for the application behaviour.  These objects are stored as code, known as AL code, and are saved in files with the ```.al``` file extension.  Note that a single AL file may contain multiple objects.      
+
+There are two other special objects which are specifially used for building extensions.  Table Extension objects and Page Extension Objects are used for defining additive or overriding changes to Page or Table objects.  For example, an extension for managing a business that sells organic food may define a Table Extension object for the Item table that contains an additional field ```Organic``` and ```Produced Locally```.  The ```Organic``` and ```Produced Locally``` fields aren't normally present in the Item table but through the Table Extension these data fields will now be available to store data in and to access from code.
+
+For more information, see [Page Extension Objects]() and [Table Extension Objects]().
+
+## Developing Extensions in Visual Studio Code
+Using the AL extension for Visual Studio Code and the AL(?) extension, you'll get the benefits of a modern development environment along with seamless publishing and execution integration with your [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] tenant. For more information on getting up and running, see [Getting Started Developing for Dynamics 365 for Financials](dyn-fin-geting-started-dev-env.md).
+
+Visual Studio Code and the AL Extension lets you do all the following tasks, easily.
+- New files for your solution
+- Assistance with creating the appropriate configuration and setting files 
+- Code snippets that provide templates for coding application objects
+- Compiler validation while coding
+- F5 to publish your changes and see your code running
 
 For more information, see []().
 
 ## Syntax
-Developing extensions using the AL extension in Visual Studio Code lets you use the AL language, which means that there is no ramp-up time required to learn a new coding language. You will notice that the syntax is more strict. There are a couple of optimizations to provide a more consistent developer experience. To assist you the IntelliSense will provide lookup and autocomplete on, for example, core application objects, ...  
-Unicode support...
+The syntax of the AL language is designed to assist in building business applications. The AL language is an evolution from the original programming languge used in Dynamics NAV and resembles it very closely.  The changes from the Dynamics NAV langague and AL can be found in links in this section.
+
+- Table Object Syntax
+- Table Extension Object Syntax
+- Page Object Syntax
+- Page Extension Object Syntax
+- Codeunit Object Syntax
+
 For more information, see []().
 
 ## Compiling and Deploying
