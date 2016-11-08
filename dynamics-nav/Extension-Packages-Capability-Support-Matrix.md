@@ -16,10 +16,10 @@ An extension package can contain both new and modified objects. In [!INCLUDE[nav
 
 - Pages
 - Tables
+- Codeunits
 - Reports
 - XMLports
 - Queries
-- Codeunits
 - Menu suites  
 
  You cannot add or modify any other object types in this version. Also, you cannot delete any existing objects.  
@@ -27,7 +27,13 @@ An extension package can contain both new and modified objects. In [!INCLUDE[nav
 > [!IMPORTANT]  
 >  You cannot modify any existing C/AL code, including code in codeunits and in triggers on existing objects. If you want to modify existing code, use the new C/AL eventing model. This restriction is only on existing code and objects. New pages, tables, and so on, can contain C/AL code as it is considered part of the new object.  
 
-In addition to the object types described above, you are also able to include .NET Interop server add-ins, client-side JavaScript, WinForms extensibility control add-ins, starting data, permission sets, per-tenant web services, and multilanguage files.
+In addition to the object types described above, you are also able to include per-tenant web services, multilanguage files, and the following types of data:
+
+-	Permission sets  
+-	Web services  
+-	Table data  
+-	Custom report layouts  
+
 
 ## Restricted properties  
  There are restrictions on certain property changes for modified objects. The following sections list the properties you cannot change. The cmdlets that create and install packages will halt with errors if any of these properties are changed in your extension.  

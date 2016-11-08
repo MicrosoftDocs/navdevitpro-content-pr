@@ -109,6 +109,10 @@ If your destination server does not have the required extensions, you can altern
 |Manifest|-   New-NAVAppManifest<br />-   Set-NAVAppManifest<br />-   Get-NAVAppManifest<br />-   New-NAVAppManifestFile|  
 |Permissions|-   Export-NAVAppPermissionSet|  
 |Packaging|-   New-NAVAppPackage|  
+|Table data|-   Export-NAVAppTableData|  
+|Web services|-   Export-NAVAppTenantWebService|  
+|Custom report layouts|-   Export-NAVAppReportLayout|  
+|Multilanguage files|-   Compare-NAVAppApplicationObjectLanguage|  
 
  For more information, see [Development Cmdlets for Microsoft Dynamics NAV Extensions](http://go.microsoft.com/fwlink/?LinkID=626875).  
 
@@ -119,7 +123,7 @@ If your destination server does not have the required extensions, you can altern
 |----------|------------------------|  
 |Publishing|-   Publish-NAVApp<br />-   Unpublish-NAVApp|  
 |Installing|-   Install-NAVApp<br />-   Uninstall-NAVApp|  
-|Managing|-   Get-NAVAppInfo<br />-   Get-NAVAppTenant<br />-   Repair-NAVApp|  
+|Managing|-   Get-NAVAppInfo<br />-   Get-NAVAppTenant<br />-   Repair-NAVApp<br />-    Remove-NAVAppsForTenant|  
 
  For more information, see [Administration Cmdlets for Microsoft Dynamics NAV Extensions](http://go.microsoft.com/fwlink/?LinkID=626874).  
 

@@ -3,7 +3,7 @@ title: "Getting Started Developing for Dynamics 365 for Financials"
 description: "Description of the prerequisites and setup."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 10/19/2016
+ms.date: 11/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
