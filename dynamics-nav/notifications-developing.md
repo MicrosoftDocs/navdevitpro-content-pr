@@ -32,6 +32,7 @@ By using the **Notification** and **NotificationScope** data types and functions
 |[ADDACTION](function-notificationaddaction.md)  |Adds an action on the notification.|
 |[SETDATA](function-notificationsetdata.md)  |Sets a data property value for the notification|
 |[GETDATA](function-notificationgetdata.md)  |Gets a data property value from the notification.|
+|[RECALL](function-notificationrecall.md)|Recalls a sent notification.|
 
 
 ## Creating and sending a notification
@@ -75,7 +76,7 @@ The basic steps for adding an action are as follows:
 3. Specify the codeunit and function in the **ADDACTION** function call.
 
 >[!Important]
->You can can have more than one action on a notification. A LocalScope notification can have up to 3 actions. A GlobalScope notification can have up to 2 actions.
+>You can have more than one action on a notification. A LocalScope notification can have up to 3 actions. A GlobalScope notification can have up to 2 actions.
 
 ## Sending data with a notification
 You use the **SETDATA** and **GETDATA** functions to add data to a notification, which is typically needed when actions are invoked. The **SETDATA** function sets, or adds, data to the notification. The data is defined as text in a key-value pair. With the **GETDATA** function, you can then retrieve the data again.
