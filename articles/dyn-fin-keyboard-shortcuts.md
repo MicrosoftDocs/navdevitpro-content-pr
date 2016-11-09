@@ -32,5 +32,5 @@ The following table provides an overview of shortcut key combinations that you c
 |Ctrl+Shift+Space|Method signature help|
 
 ## See Also
-[Getting Started Developing for Dynamics 365 for Financials](dyn-fin-geting-started-dev-env.md)
+[Getting Started Developing for Dynamics 365 for Financials](../dynamics-nav/dyn-fin-geting-started-dev-env.md)
 
