@@ -29,7 +29,7 @@ There are two other special objects which are specifially used for building exte
 For more information, see [Page Extension Objects]() and [Table Extension Objects]().
 
 ## Developing Extensions in Visual Studio Code
-Using the AL extension for Visual Studio Code, you'll get the benefits of a modern development environment along with seamless publishing and execution integration with your [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] tenant. For more information on getting up and running, see [Getting Started Developing for Dynamics 365 for Financials](dyn-fin-geting-started-dev-env.md).
+Using the AL extension for Visual Studio Code, you'll get the benefits of a modern development environment along with seamless publishing and execution integration with your [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] tenant. For more information on getting up and running, see [Getting Started Developing for Dynamics 365 for Financials](../dynamics-nav/dyn-fin-geting-started-dev-env.md).
 
 Visual Studio Code and the AL Extension lets you do all the following tasks, easily:
 
@@ -65,7 +65,6 @@ Visual Designer – to work side-by-side with VS Code.
 
 
 ## See Also
-[Getting Started Developing for Dynamics 365 for Financials](dyn-fin-geting-started-dev-env.md)  
+[Getting Started Developing for Dynamics 365 for Financials](../dynamics-nav/dyn-fin-geting-started-dev-env.md)  
 [Page Extension Object](dyn-fin-page-ext-object.md)  
-[Table Extension Object](dyn-fin-table-ext-object.md)  
 [Keyboard Shortcuts](dyn-fin-keyboard-shortcuts.md)
