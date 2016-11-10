@@ -13,6 +13,8 @@ ms.author: solsen
 ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 ---
 
+[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/dyn_fin_dev_preview.md)]
+
 # Differences from the Dynamics NAV Development Environment
 
 ## Data types
@@ -30,3 +32,5 @@ ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 ## Functions
 
 ## See Also
+[Getting Started](dyn-fin-get-started.md)
+<!--[Technical Reference for Dynamics NAV](technical-reference.md)-->
