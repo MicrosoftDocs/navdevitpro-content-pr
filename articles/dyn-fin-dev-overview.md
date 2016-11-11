@@ -44,11 +44,13 @@ For more information, see []().
 ## Syntax
 The syntax of the AL language is designed to assist in building business applications. The AL language is an evolution from the original programming languge used in [!INCLUDE[navnow_md](includes/navnow_md.md)] and resembles it very closely. The changes from the [!INCLUDE[navnow_md](includes/navnow_md.md)] language and AL can be found in links in this section.
 
-- Table Object Syntax
-- Table Extension Object Syntax
-- Page Object Syntax
+- [Table Object]()
+- [Table Extension Object](dyn-fin-table-ext-object.md)
+- [Page Object]()
 - [Page Extension Object](dyn-fin-page-ext-object.md)
-- Codeunit Object Syntax
+- [Codeunit Object](dyn-fin-codeunit-object.md)
+
+For information about AL language changes, see [Differences from the Dynamics NAV Development Environment](dyn-fin-differences.md)
 
 ## Compiling and Deploying
 Extensions are compiled as .navm package files. 
