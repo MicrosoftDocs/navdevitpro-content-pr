@@ -38,9 +38,7 @@ pageextension 50080 CustomerCardExtension extends "Customer Card"
 ``` 
 
 ## Applies To  
- Pages  
-  
-## Remarks  
+Pages  
   
 ## See Also  
  [Pages](Pages.md)   

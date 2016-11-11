@@ -27,7 +27,17 @@ ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 ## Syntax
 |C/SIDE|New Development Environment|
 |------|---------------------------|
-|Token for multilanguage comment is @@@| Token for a multilanguage comment is Comment|
+|The token for multilanguage comment is @@@|A multilanguage comment is marked with Comment|
+||<!--Property values are considered syntax elements, thus they should obey the standard AL escaping rules.-->  |
+
+Several properties have been renamed, to mention some:
+
+|C/SIDE|New Development Environment|
+|------|---------------------------|
+|AutoFormatExpr|AutoFormatExpression|
+|DataCaptionExpr|DataCaptionExpression|
+|Layout|GridLayout|
+|||
 
 ## Functions
 
