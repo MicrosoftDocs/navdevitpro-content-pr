@@ -13,7 +13,7 @@ ms.author: solsen
 ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 ---
 
-# Keyboard Shortcuts for the Development Environment
+# Keyboard Shortcuts for the Dynamics 365 for Financials Development Environment
 The following table provides an overview of shortcut key combinations that you can use when you're working with [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] in Visual Studio Code.
 
 |Keyboard Shortcut| Action|
