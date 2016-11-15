@@ -3,7 +3,7 @@ title: "Page Object"
 description: "Description of the page object."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/11/2016
+ms.date: 11/15/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -17,20 +17,18 @@ caps.latest.revision: 18
 [!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/dyn_fin_dev_preview.md)]
 
 # Page Object
- 
-## Page Overview ##
+Pages are the main way to display and organize visual data in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. They are the primary object that a user will interact with and have a different behavior based on the type you choose. Pages are designed independently of the device they are to be rendered on, and in this way the same page can be reused across phone, tablet, and web clients.
 
-Pages are the main way to display and organize visual data in Dynamics 365 for Financials. They are the primary object that a user will interact with and have a different behavior based on the type you choose. Pages are designed independantly of the device they are to be rendered on, and in this way the same page can be reused across phone, tablet and web clients.
+The structure of a page is hierarchical and breaks down in to three sections. The first block contains metadata for the overall page; the type of the page and the source table it is showing data from. The next section; the layout, describes the visual parts on the page. The final section details the actions that are published on the page.
 
-The structure of a page is heirarchical and breaks down in to three sections.  The first block contains metadata for the overall page; which type the page is and which source table it is showing the data from.  The next section - the layout - describes the visual parts on the page.  The final section details the actions that are published on the page.
+When developing a solution for Financials, you will follow the code layout for a page as shown in the page example below, but for more details on the individual controls and properties that are available, see [Pages](pages.md) in the online help for [!INCLUDE[navnow_md](includes/navnow_md.md)]. 
 
-In developing a solution for Dynamics 365 for Financials, you will follow the code layout for a page as shown in the Page Example, but for more details on the individual controls and properties you can use, see the [Pages Overview](https://msdn.microsoft.com/en-us/dynamics-nav/pages-overview) section in the online help for Dynamics NAV. 
+## Snippet support
+Typing the shortcut 'pp' will create the basic layout for a page object when using the AL Extension for Financials in Visual Studio Code.
 
-## Snippet support ##
-Typing the shortcut 'pp' will create the basic layout for a page object when using the AL Extension for Dyanmics 365 for Financials in Visual Studio Code.
+## Page example
 
-## Page Example
-
+```
 page 50088 SimpleCustomerCard
 {
     PageType = Card;
@@ -52,6 +50,7 @@ page 50088 SimpleCustomerCard
         // Actions //
     }
 }
+```
 
 ## See Also
 [Tables](tables.md)
