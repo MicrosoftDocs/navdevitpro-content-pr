@@ -3,31 +3,27 @@ title: "Table Object"
 description: "Description of the table object."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 09/07/2016
+ms.date: 11/11/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
+ms.author: solsen
 caps.latest.revision: 18
 ---
+
+[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/dyn_fin_dev_preview.md)]
+
 # Table Object
-The table object contains the definition of fields, groups, triggers, and metadata. A table object definition can contain the following elements (mandatory marked):
+Tables are fundamental objects that lets you store and manipulate data.     
 
-+
-+
-+  
-
-
-
-## Examples
+## Table Example
+This table stores address information and has four fields; Address, Locality, Town/City, and County.
 
 ```
-
-
-
-table 50000 Address
+table 51000 Address
 {
     fields
     {
@@ -55,12 +51,14 @@ table 50000 Address
             Clustered=TRUE;
         }
     }
+
+    procedure MyOrgMethod();
+    begin
+        Message('Hello from the original method');
+    end;
 }
 ```
 
-## Remarks  
-
-## See Also  
- [Pages](Pages.md)   
- [How to: Create a Page](How-to--Create-a-Page.md)   
- [Properties](Properties.md)
+## See Also
+[Tables](tables.md)  
+[Table Keys](table-keys.md)
