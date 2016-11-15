@@ -18,7 +18,7 @@ Returns a string in the "Page xxx" format, where xxx is the name or ID of the ap
   
 ```  
   
-String := Page.OBJECTID([UseNames])  
+String := Page.OBJECTID([UseCaptions])  
 ```  
   
 #### Parameters  
@@ -27,10 +27,10 @@ String := Page.OBJECTID([UseNames])
   
  The page for which you want to get the name or object ID.  
   
- *UseNames*  
+ *UseCaptions*  
  Type: Boolean  
   
- Set this parameter to **true** if you want the returned string to contain the name of the page. Set this parameter to **false** if you want the returned string to contain the page ID.  
+ Set this parameter to **true** if you want the returned string to contain the caption of the page. Set this parameter to **false** if you want the returned string to contain the page ID.  
   
  The default value is **true**.  
   

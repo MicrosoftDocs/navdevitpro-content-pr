@@ -17,7 +17,7 @@ Gets a string that contains the primary key of the current record.
   
 ```  
   
-String := RecordRef.GETPOSITION([UseNames])  
+String := RecordRef.GETPOSITION([UseCaptions])  
 ```  
   
 #### Parameters  
@@ -29,11 +29,9 @@ String := RecordRef.GETPOSITION([UseNames])
  *UseNames*  
  Type: Boolean  
   
- Indicates whether a reference to the field name or the field number should be returned.  
-  
- If this parameter is **true** \(default\) or if it is empty, the returned string contains references to field names in the table with which the record is associated. If the parameter is **false**, the returned string contains references to field numbers in the table with which the record is associated.  
-  
- This parameter is optional.  
+ Indicates whether a reference to the field caption or the field number should be returned.  
+ 
+ The *UseCaptions* parameter is optional. If it is set to **true** \(default value\) or if it is empty, then the returned string contains references to field captions in the table with which the record is associated. If the parameter is set to **false**, then field numbers are used instead.   
   
 ## Property Value/Return Value  
  Type: Text or code  
@@ -44,7 +42,7 @@ String := RecordRef.GETPOSITION([UseNames])
  This function works just like the [GETPOSITION Function \(Record\)](GETPOSITION-Function--Record-.md).  
   
 ## Example  
- The following example opens the Customer table as a RecodRef that is named RecRef. The RecordRef variable uses the GETPOSITION function to retrieve the position of the primary key. The *UseNames* parameter is set to **true** so the name of the field that contains the primary key is returned. If you set *UseNames* to **false**, the number of the field is returned. This example requires that you create the following variables in the **C/AL Globals** window.  
+ The following example opens the Customer table as a RecodRef that is named RecRef. The RecordRef variable uses the GETPOSITION function to retrieve the position of the primary key. The *UseCaptions* parameter is set to **true** so the caption of the field that contains the primary key is returned. If you set *UseCaptions* to **false**, the number of the field is returned. This example requires that you create the following variables in the **C/AL Globals** window.  
   
 |Variable name|DataType|  
 |-------------------|--------------|  
