@@ -17,7 +17,17 @@ caps.latest.revision: 18
 [!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/dyn_fin_dev_preview.md)]
 
 # Table Object
-Tables are fundamental objects that lets you store and manipulate data.     
+
+## Table Overview ##
+ 
+Pages are the core object used to store data  in Dynamics 365 for Financials. Regardless of how data is inputted to the product - from a web service to a finger swipe on the phone app, the results of that transaction will be recorded in a table.
+
+The structure of a page is covered in to four sections.  The first block contains metadata for the overall table; which type the table is.  The fields section describes the data elements that make up the table; their name and the type of data they can store.  Keys section contains the definitions of they keys the table needs to support.  The final section details the triggers and code that can run on the table.
+
+In developing a solution for Dynamics 365 for Financials, you will follow the code layout for a table as shown in the Table Example, but for more details on the individual controls and properties you can use, see the [Tables](https://msdn.microsoft.com/en-us/dynamics-nav/tables) section in the online help for Dynamics NAV. 
+
+## Snippet support ##
+Typing the shortcut 'tt' will create the basic layout for a table object when using the AL Extension for Dyanmics 365 for Financials in Visual Studio Code.
 
 ## Table Example
 This table stores address information and has four fields; Address, Locality, Town/City, and County.
