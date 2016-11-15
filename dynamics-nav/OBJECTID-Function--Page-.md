@@ -12,7 +12,7 @@ caps.latest.revision: 6
 manager: edupont
 ---
 # OBJECTID Function (Page)
-Returns a string in the "Page xxx" format, where xxx is the name or ID of the application object.  
+Returns a string in the "Page xxx" format, where xxx is the caption or ID of the application object.  
   
 ## Syntax  
   
@@ -25,7 +25,7 @@ String := Page.OBJECTID([UseCaptions])
  *Page*  
  Type: Page  
   
- The page for which you want to get the name or object ID.  
+ The page for which you want to get the caption or object ID.  
   
  *UseCaptions*  
  Type: Boolean  
