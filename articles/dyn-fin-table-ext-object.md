@@ -17,20 +17,37 @@ caps.latest.revision: 18
 [!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/dyn_fin_dev_preview.md)]
 
 # Table Extension Object
-The table extension object extends a [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] table object and adds or overrides the functionality. 
+The table extension object allow you to add additional fields or to change some properties on a table provided by the  [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] service.  In this way, you can add data to the same table and treat it as a single table.  For example, you may wish to create a table extension for a retail winter sports store.  In your solution you want to have ```Ski Size``` as an additional field on the customer table.  Adding this as an extension allows you to write code for the customer record and also include values for the ```Ski Size```.
+
+Along with defining other fields, the table extension is where you write trigger code for your additional fields.
+
+When developing a solution for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], you will follow the code layout for a table extension as shown in the example below, but for more details on the individual controls and properties that are available, see [Tables](pages.md) in the online help for !!!!! replace with link !!!!!!. 
+
+## Snippet support ##
+Typing the shortcut 'te' will create the basic layout for a table extension object when using the AL Extension for Financials in Visual Studio Code.
+
+## Properties ##
+Using a table extension allows you to overwrite some properties on fields in the base table.  The following properties can be changed:
+- optioncaptionML
+- closing date
+- description
+- width
 
 ## Table Extension example
-This table extension object extends the Customer table object by adding a field ```ShoeSize```, with ID 50090 and the data type ```Decimal```. It also contains a procedure to check if the ShoeSize field is filled in. 
+This table extension object extends the Customer table object by adding a field ```Ski Size```, with ID 50090 and the data type ```Integer```. It also contains a procedure to check if the ShoeSize field is filled in. 
 
 ```
-tableextension 50090 CustomerExtension extends Customer
+tableextension 50090 RetailWinterSportsStore extends Customer
 {
     fields
     {
-        field(50090;ShoeSize;Decimal) {}
+        field(50090;SkiSize;Integer) {}
+        //how do I set description property?
+
+        //how do I change a property (like description) on an existing field?
     }
 
-    procedure HasShoeSize() : Boolean;
+    procedure HasSkiSize() : Boolean;
     begin
         exit(ShoeSize <> 0);
     end;
