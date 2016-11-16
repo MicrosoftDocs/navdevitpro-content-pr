@@ -39,6 +39,18 @@ Several properties have been renamed, to mention some:
 |Layout|GridLayout|
 |||
 
+## Properties
+Some properties require that you set another property. An example is ```PromotedCategory```, which requires that you have enabled the property ```Promoted```.
+The following table lists some of properties that have this dependency:
+
+|Property|Depends on...|
+|--------|-------------|
+|PromotedCategory|Promoted|
+|PromotedIsBig|Promoted|
+|ValidateTableRelation|TableRelation|
+|SourceTableTemporary|SourceTable|
+|RunPageMode|RunObject| 
+
 ## Functions
 
 ## See Also
