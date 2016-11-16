@@ -1,13 +1,15 @@
 ---
 title: "Walkthrough: Creating and Using a Client Control Add-in"
+author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/07/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 758fd34e-e77d-4d35-bea9-7dcef8f7ea40
+ms.author: solsen
 caps.latest.revision: 27
 ---
 # Walkthrough: Creating and Using a Client Control Add-in
@@ -311,7 +313,7 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
 
  Now you have created a page skeleton. The next step is to add code and call the control add-in from a control on the page.  
 
-###### To add variables and properties  
+##### To add variables and properties  
 
 1.  In the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)], in Object Designer, choose **Page**, and then choose the **Bing Maps** page.  
 
@@ -335,7 +337,7 @@ This walkthrough demonstrates how to create a [!INCLUDE[navnow](includes/navnow_
 
 11. Choose the **OK** button to close the **Client Add-In** window. The public key token is inserted into the **Value** field. Close the **Properties** window.  
 
-###### To add C/AL triggers  
+##### To add C/AL triggers  
 
 1.  With the **Bing Maps** page open in Object Designer, on the **View** menu, choose **C/AL Code**.  
 

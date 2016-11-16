@@ -10,6 +10,7 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: e0011034-f0e8-4439-8d76-05761696f284
 caps.latest.revision: 5
 manager: edupont
+author: jswymer
 ---
 # GETVIEW function (FilterPageBuilder)
 Gets the filter view \(which defines the sort order, key, and filters\) for the record in the specified filter control of a filter page.  
@@ -20,7 +21,7 @@ Gets the filter view \(which defines the sort order, key, and filters\) for the 
   
 ```  
   
-View := FilterPageBuilder.GETVIEW(ItemName[,UseNames])  
+View := FilterPageBuilder.GETVIEW(ItemName[, UseCaptions])  
 ```  
   
 #### Parameters  
@@ -31,7 +32,7 @@ View := FilterPageBuilder.GETVIEW(ItemName[,UseNames])
   
  This value must match the value of the *ItemName* parameter that was specified by ADDTABLE, ADDRECORD, or ADDRECORDREF function that adds the table to the filter control.  
   
- *UseNames*  
+ *UseCaptions*  
  Type: Boolean  
   
  Specifies whether a field caption or field number should be returned.  
