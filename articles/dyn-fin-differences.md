@@ -55,5 +55,7 @@ The following table lists some of properties that have this dependency:
 ## Functions
 
 ## See Also
-[Getting Started](dyn-fin-get-started.md)
+[Getting Started](dyn-fin-get-started.md)  
+[Developer Reference](dyn-fin-reference-overview.md)
+
 <!--[Technical Reference for Dynamics NAV](technical-reference.md)-->

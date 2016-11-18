@@ -42,5 +42,7 @@ The following table provides an overview of some of the shortcut key combination
 |F5|Deploy|
 
 ## See Also
-[Getting Started Developing for Dynamics 365 for Financials](../dynamics-nav/dyn-fin-geting-started-dev-env.md)
+[Getting Started Developing for Dynamics 365 for Financials](../dynamics-nav/dyn-fin-geting-started-dev-env.md)  
+[Developer Reference](dyn-fin-reference-overview.md)
+
 

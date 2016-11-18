@@ -67,6 +67,7 @@ A .navm package contains the various artifacts that deliver the new functionalit
 Visual Designer – to work side-by-side with VS Code.
 
 ## See Also
-[Getting Started Developing for Dynamics 365 for Financials](../dynamics-nav/dyn-fin-geting-started-dev-env.md)  
-[Page Extension Object](dyn-fin-page-ext-object.md)  
-[Keyboard Shortcuts](dyn-fin-keyboard-shortcuts.md)
+[Getting Started Developing for Dynamics 365 for Financials](../dynamics-nav/dyn-fin-geting-started-dev-env.md) 
+[Keyboard Shortcuts](dyn-fin-keyboard-shortcuts.md)  
+[Developer Reference](dyn-fin-reference-overview.md)
+

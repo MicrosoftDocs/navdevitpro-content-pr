@@ -17,7 +17,7 @@ caps.latest.revision: 18
 [!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/dyn_fin_dev_preview.md)]
 
 # Getting Started
-To get started writing extensions in code for the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] you will need a [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] tenant, and Visual Studio Code. Visual Studio Code is a cross platform editor that you will use for coding and debugging. But you can also 
+To get started writing extensions in code for the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] you will need a [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] tenant, and Visual Studio Code. Visual Studio Code is a cross platform editor that you will use for coding and debugging.
 
 ## To do
 
@@ -32,3 +32,4 @@ I already have a Dynamics 365 for Financials account and want to get a free deve
 [Developing for Dynamics 365 for Financials Overview](dyn-fin-dev-overview.md)  
 [Differences from the Dynamics NAV Development Environment](dyn-fin-differences.md)  
 [Page Extension Object](dyn-fin-page-ext-object.md)  
+[Developer Reference](dyn-fin-reference-overview.md)

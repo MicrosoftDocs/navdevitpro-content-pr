@@ -53,6 +53,8 @@ page 50088 SimpleCustomerCard
 ```
 
 ## See Also
-[Developing for Dynamics 365 for Financials Overview](dyn-fin-dev-overview.md)
-[Pages](pages.md)
+[Developing for Dynamics 365 for Financials Overview](dyn-fin-dev-overview.md)  
+[Developer Reference](dyn-fin-reference-overview.md)  
+[Page Extension Object](dyn-fin-page-ext-object.md)  
+[Pages](pages.md)  
 [Tables](tables.md)
