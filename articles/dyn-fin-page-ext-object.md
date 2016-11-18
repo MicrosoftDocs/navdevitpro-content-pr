@@ -45,4 +45,4 @@ Pages
 [Developer Reference](dyn-fin-reference-overview.md)  
 [Pages](Pages.md)   
 [How to: Create a Page](How-to--Create-a-Page.md)   
-[Properties](Properties.md)
+[Page Properties](page-properties.md)
