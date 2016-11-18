@@ -61,4 +61,4 @@ Tables
 [Table Object](dyn-fin-table-object.md)  
 [Developer Reference](dyn-fin-reference-overview.md)  
 [Tables](tables.md)  
-[Properties](Properties.md)
+[Table Properties](table-properties.md)

@@ -58,3 +58,4 @@ page 50088 SimpleCustomerCard
 [Page Extension Object](dyn-fin-page-ext-object.md)  
 [Pages](pages.md)  
 [Tables](tables.md)
+[Page Properties](page-properties.md)
