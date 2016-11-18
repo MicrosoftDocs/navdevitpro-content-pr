@@ -17,7 +17,7 @@ caps.latest.revision: 18
 [!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/dyn_fin_dev_preview.md)]
 
 # Page Object
-Pages are the main way to display and organize visual data in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. They are the primary object that a user will interact with and have a different behavior based on the type you choose. Pages are designed independently of the device they are to be rendered on, and in this way the same page can be reused across phone, tablet, and web clients.
+Pages are the main way to display and organize visual data in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. They are the primary object that a user will interact with and have a different behavior based on the type that you choose. Pages are designed independently of the device they are to be rendered on, and in this way the same page can be reused across phone, tablet, and web clients.
 
 The structure of a page is hierarchical and breaks down in to three sections. The first block contains metadata for the overall page; the type of the page and the source table it is showing data from. The next section; the layout, describes the visual parts on the page. The final section details the actions that are published on the page.
 
@@ -53,5 +53,6 @@ page 50088 SimpleCustomerCard
 ```
 
 ## See Also
+[Developing for Dynamics 365 for Financials Overview](dyn-fin-dev-overview.md)
+[Pages](pages.md)
 [Tables](tables.md)
-[Sample code online](http://whatabouthosting10pagesinasamplepack.com)
