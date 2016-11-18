@@ -58,5 +58,7 @@ tableextension 50090 RetailWinterSportsStore extends Customer
 Tables
 
 ## See Also
- [Tables](tables.md)  
- [Properties](Properties.md)
+[Table Object](dyn-fin-table-object.md)  
+[Developer Reference](dyn-fin-reference-overview.md)  
+[Tables](tables.md)  
+[Properties](Properties.md)

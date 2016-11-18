@@ -33,3 +33,6 @@ codeunit 50040 CreateCustomer
 }
 
 ## See Also
+[Table Extension Object](dyn-fin-table-ext-object.md)  
+[Page Extension Object](dyn-fin-page-ext-object.md)  
+[Developer Reference](dyn-fin-reference-overview.md)
