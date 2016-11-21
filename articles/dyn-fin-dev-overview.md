@@ -26,7 +26,7 @@ All functionality in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] is
 
 There are two other special objects which are specifically used for building extensions. Table Extension objects and Page Extension Objects are used for defining additive or overriding changes to Page or Table objects. For example, an extension for managing a business that sells organic food may define a Table Extension object for the Item table that contains an additional field ```Organic``` and ```Produced Locally```. The ```Organic``` and ```Produced Locally``` fields aren't usually present in the Item table, but through the Table Extension these data fields will now be available to store data in and to access from code.
 
-For more information, see [Page Extension Object](dyn-fin-page-ext-object.md) and [Table Extension Objects]().
+For more information, see [Page Extension Object](dyn-fin-page-ext-object.md) and [Table Extension Objects](dyn-fin-table-ext-object.md).
 
 ## Developing Extensions in Visual Studio Code
 Using the AL extension for Visual Studio Code, you'll get the benefits of a modern development environment along with seamless publishing and execution integration with your [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] tenant. For more information on getting up and running, see [Getting Started Developing for Dynamics 365 for Financials](../dynamics-nav/dyn-fin-getting-started-dev-env.md).
