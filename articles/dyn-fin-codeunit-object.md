@@ -21,6 +21,7 @@ caps.latest.revision: 18
 ## Codeunit Example
 This codeunit example  
 
+```
 codeunit 50040 CreateCustomer
 {
     trigger OnRun();
@@ -31,6 +32,8 @@ codeunit 50040 CreateCustomer
             r.ShoeSize :=  42;  
     end;
 }
+
+```
 
 ## See Also
 [Table Extension Object](dyn-fin-table-ext-object.md)  
