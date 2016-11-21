@@ -41,6 +41,8 @@ pageextension 50080 CustomerCardExtension extends "Customer Card"
 Pages  
   
 ## See Also  
- [Pages](Pages.md)   
- [How to: Create a Page](How-to--Create-a-Page.md)   
- [Properties](Properties.md)
+[Page Object](dyn-fin-page-object.md)  
+[Developer Reference](dyn-fin-reference-overview.md)  
+[Pages](Pages.md)   
+[How to: Create a Page](How-to--Create-a-Page.md)   
+[Page Properties](page-properties.md)
