@@ -21,11 +21,11 @@ Coming from the [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)], there 
 ## Data types
 |C/SIDE|New Development Environment|
 |------|---------------------------|
-|Dates are parsed based on culture settings.| Locale independent and supports only: ```ddMMyy``` and ```ddMMyyyy```|
+|Dates are parsed based on culture settings.| Locale independent and supports only: ```ddmmyy``` and ```ddmmyyyy```|
 |Boolean values could be expressed as **yes**/**no**| Boolean values are expressed as **true**/**false**.|
 |Min, Max, and Init-Value decimal numbers without a fraction, for example ```5.0```, are implicitly converted to an integer in C/SIDE. Decimal numbers with fractions, for example, ```5.4``` compiled, but threw an error at runtime.|A decimal number is not accepted as an integer, for example ```5.0```, will give a compilation error.|
 
-## Syntax
+## Syntax updates
 |C/SIDE|New Development Environment|
 |------|---------------------------|
 |The token for multilanguage comment is @@@|A multilanguage comment is marked with Comment|
@@ -40,9 +40,8 @@ Several properties have been renamed, to mention some:
 |Layout|GridLayout|
 |||
 
-## Properties
-Some properties require that you set another property. An example is ```PromotedCategory```, which requires that you have enabled the property ```Promoted```.
-The following table lists some of properties that have this dependency:
+## Property dependencies
+Some properties require that you set another property. An example is ```PromotedCategory```, which requires that you have enabled the property ```Promoted```. The following table lists some of properties that have this dependency:
 
 |Property|Depends on...|
 |--------|-------------|
@@ -52,10 +51,7 @@ The following table lists some of properties that have this dependency:
 |SourceTableTemporary|SourceTable|
 |RunPageMode|RunObject| 
 
-## Functions
-
 ## See Also
 [Getting Started](dyn-fin-get-started.md)  
 [Developer Reference](dyn-fin-reference-overview.md)
-
-<!--[Technical Reference for Dynamics NAV](technical-reference.md)-->
+[Technical Reference for Dynamics NAV](technical-reference.md)
