@@ -52,9 +52,9 @@ The task scheduler enables you to control when certain operations or processes \
 
 -   The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance restarted while the task was being run.  
 
- You can view these errors in the event log of the computer that is running the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. For more information, see [Monitoring Microsoft Dynamics NAV Server Events in the Windows Event Log](Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log.md).  
+You can view these errors in the event log of the computer that is running the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. For more information, see [Monitoring Microsoft Dynamics NAV Server Events in the Windows Event Log](Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log.md).  
 
- When an error occurs, unless the task is interrupted by the failure codeunit, the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance will rerun the task according to the following flow:  
+When an error occurs, unless the task is interrupted by the failure codeunit, the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance will rerun the task according to the following retry flow:  
 
 1.  Two minutes after the first failure  
 

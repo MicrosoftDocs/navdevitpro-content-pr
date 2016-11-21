@@ -31,9 +31,12 @@ You can create as many companies as you want in a database. You can create compa
 
          The company name can have a maximum of 30 characters. If the database collation is case-sensitive, you can have one company called COMPANY and another called Company. However, if the database is case-insensitive, you cannot create companies with names that differ only by case.  
 
+        >[!TIP]
+        >The company name appears in the certain places of user interface, such as at the top of the Home page and its list pages. If you want to display a different name for the company, use the **Display Name** field. This field does not apply to the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].
+
     2.  To create a copy of an existing company, choose a company, and then, on the **Home** tab, in the **New** group, choose **Copy**.  
 
-         Then, in the **\($ B\_357 Copy Company $\)** window, in the **Company Name** field, enter the name of the new company.  
+         Then, in the **Copy Company** window, in the **Company Name** field, enter the name of the new company.  
 
          Choose the **OK** button to create the company.  
 
