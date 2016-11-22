@@ -36,7 +36,7 @@ Type: Integer
 
 Specifies the index number that is assigned to the media object in the MediaSet.
 
-For more information about indexes, see xxx.
+For more information about indexes, see [Indexing of media objects in a media set](Working-With-Media-on-Records.md#Indexing).
 
 
 ## Property Value/Return Value  

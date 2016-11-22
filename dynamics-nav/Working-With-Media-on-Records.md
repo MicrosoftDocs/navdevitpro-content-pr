@@ -40,8 +40,8 @@ The **MediaSet** data type associates a record with one or more media objects. T
 
 If a media object is added to **MediaSet** data type field, the media object is assigned to a media set in the system table **2000000183 Tenant Media Set**. The media set is assigned a unique identifier, which is then referenced from the field. The media set is created with the first file media object that you add on the record. Any additional media objects for the record are then associated with the same media set.
 
-#### Indexing of media Objects in a media set
-A media set is an ordered list of media objects, determined by the order in which the media objects were added to the media set. This order cannot be changed. To identify this order, each media object is assigned an index number, starting a 1. This means that the first media added gets the index 1, the second media gets the index 2, and so on. If a media object is removed from the set, the list is re-indexed accordingly. 
+#### <a name="Indexing"></a>Indexing of media objects in a media set
+A media set is an ordered list of media objects, determined by the order in which the media objects were added to the media set. This order cannot be changed. To identify this order, each media object is assigned an index number, starting a 1. This means that the first media added gets the index 1, the second media gets the index 2, and so on. If a media object is removed from the set, the list is re-indexed accordingly.
 
 > [!NOTE]  
 > If a **MediaSet** data type field is used in a report object, then only the first associated media file is displayed in the generated report.
