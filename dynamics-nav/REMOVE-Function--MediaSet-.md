@@ -11,7 +11,7 @@ ms.assetid: 270d2955-8330-466e-b7d3-46eb0901d42d
 caps.latest.revision: 4
 author: jswymer
 ---
-# INSERT Function (MediaSet)
+# REMOVE Function (MediaSet)
 Removes a media object from a MediaSet of a record.
 
 ## Syntax  
