@@ -71,7 +71,7 @@ A .navm package contains the various artifacts that deliver the new functionalit
 <!-- (Future: You manage .navm packages with a series of Windows PowerShell cmdlets that are available in the Microsoft Dynamics NAV 2017 Administration Shell. There are also cmdlets available to ISVs and developers in the Microsoft Dynamics NAV 2017 Development Shell that help create packages.) --> 
 
 ## See Also
-[Getting Started Developing for Dynamics 365 for Financials](../dynamics-nav/dyn-fin-geting-started-dev-env.md) 
+[Getting Started Developing for Dynamics 365 for Financials](../dynamics-nav/dyn-fin-geting-started-dev-env.md)  
 [Keyboard Shortcuts](dyn-fin-keyboard-shortcuts.md)  
 [Developer Reference](dyn-fin-reference-overview.md)
 
