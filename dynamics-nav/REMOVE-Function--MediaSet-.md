@@ -12,7 +12,7 @@ caps.latest.revision: 4
 author: jswymer
 ---
 # INSERT Function (MediaSet)
-Removes a media object that is assigned to a MediaSet in a record.
+Removes a media object from a MediaSet of a record.
 
 ## Syntax  
 
@@ -44,7 +44,7 @@ Type: Boolean
 **true** if the media is successfully added to the MediaSet; otherwise, **false**.
 
 ## Remarks  
-The REMOVE function unassigns or disasociates the media object from the MediaSet. It does not delete the media object from the database.  database.
+The REMOVE function disassociates the media object from the MediaSet. It does not delete the media object from the database.
 
 ## Example  
 This example uses the REMOVE function and [Item Function \(MediaSet\)](Item-Function--MediaSet-.md) to remove a media object from the MediaSet for record '1000' in the table called TableA. This example assumes the following about TableA:
