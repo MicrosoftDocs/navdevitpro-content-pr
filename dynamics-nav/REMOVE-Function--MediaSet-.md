@@ -41,7 +41,7 @@ Existing media objects are stored in the system table **2000000184 Tenant Media*
 ## Property Value/Return Value  
 Type: Boolean  
 
-**true** if the media is successfully added to the MediaSet; otherwise, **false**.
+**true** if the media is successfully removed from the MediaSet; otherwise, **false**.
 
 ## Remarks  
 The REMOVE function disassociates the media object from the MediaSet. It does not delete the media object from the database.
