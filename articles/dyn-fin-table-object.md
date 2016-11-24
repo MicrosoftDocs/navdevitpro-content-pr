@@ -67,5 +67,8 @@ table 51000 Address
 ```
 
 ## See Also
+[Table Extension Object](dyn-fin-table-ext-object.md)  
+[Developer Reference](dyn-fin-reference-overview.md)  
 [Tables](tables.md)  
-[Table Keys](table-keys.md)
+[Table Keys](table-keys.md)  
+[Table Properties](table-properties.md)

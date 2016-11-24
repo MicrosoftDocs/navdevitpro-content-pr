@@ -17,10 +17,13 @@ caps.latest.revision: 18
 [!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/dyn_fin_dev_preview.md)]
 
 # Codeunit Object
+A codeunit is a container for AL code that you can use in many application objects. For more information, see [Understanding Codeunits](understanding-codeunits.md).
+
 
 ## Codeunit Example
 This codeunit example  
 
+```
 codeunit 50040 CreateCustomer
 {
     trigger OnRun();
@@ -32,4 +35,9 @@ codeunit 50040 CreateCustomer
     end;
 }
 
+```
+
 ## See Also
+[Table Extension Object](dyn-fin-table-ext-object.md)  
+[Page Extension Object](dyn-fin-page-ext-object.md)  
+[Developer Reference](dyn-fin-reference-overview.md)
