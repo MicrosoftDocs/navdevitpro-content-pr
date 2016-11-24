@@ -2,7 +2,7 @@
 title: "How to: Develop an Extension"
 author: edupont04
 ms.custom: na
-ms.date: 11/04/2016
+ms.date: 11/24/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -45,6 +45,8 @@ You can build extension packages that add functionality to a [!INCLUDE[navnow](i
         -   DO NOT change restricted page and table properties.  
 
          In order to get an easy upgrade experience for your extensions, you cannot modify code the way you do in the traditional customization process. Instead, you extend [!INCLUDE[navnow](includes/navnow_md.md)] functionality by subscribing to programming events that are raised either explicitly in code, or implicitly by the platform. For more information, see [Events in Microsoft Dynamics NAV](Events-in-Microsoft-Dynamics-NAV.md).  
+         > [!IMPORTANT]  
+         >  Do not add inline comments to your code. Such comments are helpful as internal documentation, but they will cause the extension to fail when you build the extension package.  
 
     2. Write extension upgrade code for new or modified tables. For more information, see [How to: Write Extension Upgrade Code](extensions-upgrade-howto.md).
 
