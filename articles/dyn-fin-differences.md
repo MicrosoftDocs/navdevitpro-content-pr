@@ -16,7 +16,7 @@ ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 [!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/dyn_fin_dev_preview.md)]
 
 # Differences from the Dynamics NAV Development Environment
-Coming from the [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)], there are some differences and optimizations to be aware of. The following sections go through these changes.  
+Coming from the [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)], there are some differences and optimizations that you should familiarize yourself with. The following sections go through these changes.  
 
 ## Data types
 |C/SIDE|New Development Environment|
@@ -52,6 +52,6 @@ Some properties require that you set another property. An example is ```Promoted
 |RunPageMode|RunObject| 
 
 ## See Also
-[Getting Started](dyn-fin-get-started.md)  
-[Developer Reference](dyn-fin-reference-overview.md)
+[Getting Started](dyn-fin-get-started.md)    
+[Developer Reference](dyn-fin-reference-overview.md)  
 [Technical Reference for Dynamics NAV](technical-reference.md)
