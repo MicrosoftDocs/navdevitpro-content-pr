@@ -3,7 +3,7 @@ title: "Table Extension Object"
 description: "Description of the table extension object."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/11/2016
+ms.date: 11/25/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -17,14 +17,14 @@ caps.latest.revision: 18
 [!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/dyn_fin_dev_preview.md)]
 
 # Table Extension Object
-The table extension object allows you to add additional fields or to change some properties on a table provided by the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] service. In this way, you can add data to the same table and treat it as a single table. For example, you may wish to create a table extension for a retail winter sports store. In your solution you want to have ```Ski Size``` as an additional field on the customer table. Adding this as an extension allows you to write code for the customer record and also include values for the ```Ski Size```.
+The table extension object allows you to add additional fields or to change some properties on a table provided by the [!INCLUDE[navnow_md](includes/navnow_md.md)] service. In this way, you can add data to the same table and treat it as a single table. For example, you may wish to create a table extension for a retail winter sports store. In your solution you want to have ```Ski Size``` as an additional field on the customer table. Adding this as an extension allows you to write code for the customer record and also include values for the ```Ski Size```.
 
 Along with defining other fields, the table extension is where you write trigger code for your additional fields.
 
-When developing a solution for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], you will follow the code layout for a table extension as shown in the example below, but for more details on the individual controls and properties that are available, see [Tables](tables.md). 
+When developing a solution for [!INCLUDE[navnow_md](includes/navnow_md.md)], you will follow the code layout for a table extension as shown in the example below, but for more details on the individual controls and properties that are available, see [Tables](tables.md). 
 
 ## Snippet support ##
-Typing the shortcut 'te' will create the basic layout for a table extension object when using the AL Extension for Financials in Visual Studio Code.
+Typing the shortcut 'te' will create the basic layout for a table extension object when using the AL Extension in Visual Studio Code.
 
 ## Properties ##
 Using a table extension allows you to overwrite some properties on fields in the base table. The following properties can be changed:
