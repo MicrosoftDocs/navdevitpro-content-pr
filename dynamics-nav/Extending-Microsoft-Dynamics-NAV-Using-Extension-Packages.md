@@ -2,13 +2,14 @@
 title: "Extending Microsoft Dynamics NAV Using Extension Packages"
 author: edupont04
 ms.custom: na
-ms.date: 11/02/2016
+ms.date: 11/24/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 8fdc480a-bc28-4b78-8656-f27480779ff8
+ms.author: edupont
 ---
 # Extending Microsoft Dynamics NAV Using Extension Packages
 
