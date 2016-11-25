@@ -3,7 +3,7 @@ title: "Developing for Dynamics 365 for Financials Overview"
 description: "Overview of the new development experience."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/02/2016
+ms.date: 11/25/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -17,7 +17,8 @@ ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 Developing for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] is done by creating an extension to a [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] solution. Extensions are a programming model where functionality is defined as an addition to existing objects and defines how they are different or modify the behaviour of the solution. 
 You might already be familiar with the extension model working with [!INCLUDE[navnow_md](includes/navnow_md.md)]. For more information, see [Extending Microsoft Dynamics NAV Using Extension Packages](../dynamics-nav/extending-microsoft-dynamics-nav-using-extension-packages.md).
 
-If you're new to building extensions for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], we recommend that you read this document to get an understanding of the basics and terms you will encounter while working. Next, follow the [Getting Started Developing for Dynamics 365 for Financials](dyn-fin-geting-started-dev-env.md) to set up your system and then jump straight into your first extension - Hello World [link to hello world]().
+If you're new to building extensions for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], we recommend that you read this document to get an understanding of the basics and terms you will encounter while working. Next, follow the [Getting Started Developing for Dynamics 365 for Financials](dyn-fin-geting-started-dev-env.md) to set up your system. 
+<!-- and then jump straight into your first extension - Hello World [link to hello world]().-->
 
 ## Understanding Objects in Dynamics 365 for Financials
 All functionality in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] is coded in an object. Table objects define the table schema that holds data, Page objects represent the pages seen in the user interface and codeunits contain code for logical calculations and for the application behavior. These objects are stored as code, known as AL code, and are saved in files with the ```.al``` file extension.  
@@ -64,9 +65,7 @@ The in-client designer works in the client itself allowing design of pages using
 
 
 ## Compiling and Deploying
-Extensions are compiled as .navm package files. 
-<!-- The .navm package file can be deployed to the NAV server ()... 
-A .navm package contains the various artifacts that deliver the new functionality to the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] deployment as well as a manifest that specifies the name, publisher, version, and other attributes of the extension. .json file? -->
+Extensions are compiled as .navm package files. The .navm package file can be deployed to the [!INCLUDE[nav_server_md](includes/nav_server_md.md)]. A .navm package contains the various artifacts that deliver the new functionality to the [!INCLUDE[navnow_md](includes/navnow_md.md)] deployment as well as a manifest that specifies the name, publisher, version, and other attributes of the extension.
 
 <!-- (Future: You manage .navm packages with a series of Windows PowerShell cmdlets that are available in the Microsoft Dynamics NAV 2017 Administration Shell. There are also cmdlets available to ISVs and developers in the Microsoft Dynamics NAV 2017 Development Shell that help create packages.) --> 
 
