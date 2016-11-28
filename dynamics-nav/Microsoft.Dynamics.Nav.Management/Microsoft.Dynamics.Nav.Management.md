@@ -1,8 +1,8 @@
 ---
 Module Name: Microsoft.Dynamics.Nav.Management
 Module Guid: 00000000-0000-0000-0000-000000000000
-Download Help Link: {{Please enter FwLink manually}}
-Help Version: {{Please enter version of help manually (X.X.X.X) format}}
+Download Help Link: http://www.microsoft.com
+Help Version: 1.0.0.0
 Locale: en-US
 ---
 
