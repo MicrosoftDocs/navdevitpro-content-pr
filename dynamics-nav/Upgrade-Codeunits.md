@@ -20,9 +20,9 @@ You use upgrade codeunits when you make changes to a table definition, either fr
 
 -   Provides instructions for updating custom report layouts to dataset changes. For more information, see [Updating Custom Report Layouts by Using Upgrade Codeunits](Updating-Custom-Report-Layouts-by-Using-Upgrade-Codeunits.md).  
 
- A typical example of when to use an upgrade codeunit is when you remove a field from a table definition and you do not want to lose the existing data in the business data table. Instead, you want to use it somewhere else in the new application.  
+A typical example of when to use an upgrade codeunit is when you remove a field from a table definition and you do not want to lose the existing data in the business data table. Instead, you want to use it somewhere else in the new application.  
 
- You implement upgrade codeunits when you make destructive changes to tables in [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. For more information about destructive changes, see [Handling Destructive Changes With Table Schema Synchronization](Synchronizing-Table-Schemas.md#HandlingDestChanges). After you have created an upgrade codeunit to handle table changes, you can use it when you upgrade data from an earlier version of [!INCLUDE[navnow](includes/navnow_md.md)] to the current version. A single upgrade codeunit will typically contain table schema synchronization instructions and data migration logic for multiple tables that have changed from one version of [!INCLUDE[navnow](includes/navnow_md.md)] to another.  
+You implement upgrade codeunits when you make destructive changes to tables in [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. For more information about destructive changes, see [Handling Destructive Changes With Table Schema Synchronization](Synchronizing-Table-Schemas.md#HandlingDestChanges). After you have created an upgrade codeunit to handle table changes, you can use it when you upgrade data from an earlier version of [!INCLUDE[navnow](includes/navnow_md.md)] to the current version. A single upgrade codeunit will typically contain table schema synchronization instructions and data migration logic for multiple tables that have changed from one version of [!INCLUDE[navnow](includes/navnow_md.md)] to another.  
 
 > [!NOTE]  
 >  For an example that explains how to create and implement upgrade codeunits, see the [!INCLUDE[navnow](includes/navnow_md.md)] Upgrade Demo Script document at [http://go.microsoft.com/fwlink/?LinkID=509977](http://go.microsoft.com/fwlink/?LinkID=509977). This document provides step-by-step instructions that support the concepts discussed in this topic.  
@@ -36,12 +36,12 @@ You use upgrade codeunits when you make changes to a table definition, either fr
 
 3.  Logic for migrating the data from the old table structure into the new table structure and any additional data upgrade logic as required. This logic is included in an upgrade functions, which are functions of the type **UpgradePerCompany** and **UpgradePerDatabase**.  
 
- To create an upgrade codeunit, you set the [SubType Property \(Codeunit\)](SubType-Property--Codeunit-.md) of a codeunit to **Upgrade**. You can create multiple upgrade codeunits.  
+To create an upgrade codeunit, you set the [SubType Property \(Codeunit\)](SubType-Property--Codeunit-.md) of a codeunit to **Upgrade**. You can create multiple upgrade codeunits.  
 
 ### Upgrade Codeunit Design and Flow  
- Upgrade codeunits are run by [!INCLUDE[nav_server](includes/nav_server_md.md)] when you synchronize table schemas and when you start the data upgrade process. The following describes the upgrade codeunit process for these operations.  
+ Upgrade codeunits are used by [!INCLUDE[nav_server](includes/nav_server_md.md)] when you synchronize table schemas and when you start the data upgrade process. The following describes the upgrade codeunit process for these operations.  
 
- **Table Schema Synchronization**  
+**Table Schema Synchronization**  
 
  When [!INCLUDE[nav_server](includes/nav_server_md.md)] detects an update to a table definition \(metadata\) that changes the table schema in the database in SQL Server, it will search the **TableSyncSetup** functions in the upgrade codeunits to collect the schema synchronization instructions for changed tables.  
 
@@ -61,29 +61,29 @@ You use upgrade codeunits when you make changes to a table definition, either fr
 
     -   If the changes are not destructive, they will be applied to the table.  
 
- **Data Upgrade**  
+**Data Upgrade**  
 
- After schema synchronization is completed, you must run the data upgrade process to remap any data that was saved in upgrade tables to the new application. If no data was saved during table schema synchronization, then running the data upgrade is not required.  
+After schema synchronization is completed, you must run the data upgrade process to remap any data that was saved in upgrade tables to the new application. If no data was saved during table schema synchronization, then running the data upgrade is not required.  
 
- You can start the data upgrade from the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or by using the data upgrade cmdlets from the [!INCLUDE[nav_shell](includes/nav_shell_md.md)]. Data upgrade process consists of two phases: running the CheckPrecondition functions and running the upgrade functions \(**UpgradePerCompany** and **UpgradePerDatabase** type functions\) that migrate data from the upgrade tables into the new locations in the application and perform other data upgrade manipulations that are required by the new version of the application.  
+You can start the data upgrade from the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or by using the data upgrade cmdlets from the [!INCLUDE[nav_shell](includes/nav_shell_md.md)]. Data upgrade process consists of two phases: running the CheckPrecondition functions and running the upgrade functions \(**UpgradePerCompany** and **UpgradePerDatabase** type functions\). These phases migrate data from the upgrade tables into the new locations in the application and perform other data upgrade manipulations that are required by the new version of the application, according to the following:  
 
 1.  Running the CheckPrecondition functions.  
 
-     When you start the data upgrade, [!INCLUDE[nav_server](includes/nav_server_md.md)] runs the **CheckPrecondition** functions in upgrade codeunits for all companies in the database. By default, the functions are run in parallel mode, which means that they are run at the same time. If none of the **CheckPrecondition** functions return errors, then [!INCLUDE[nav_server](includes/nav_server_md.md)] proceeds to run the **Upgrade** functions in the upgrade codeunit.  
+    When you start the data upgrade, [!INCLUDE[nav_server](includes/nav_server_md.md)] runs the **CheckPrecondition** functions in upgrade codeunits for all companies in the database. By default, the functions are run in parallel mode, which means that they are run at the same time. If none of the **CheckPrecondition** functions return errors, then [!INCLUDE[nav_server](includes/nav_server_md.md)] proceeds to run the **Upgrade** functions in the upgrade codeunit.  
 
 2.  Running Upgrade functions.  
 
-     After the **CheckPrecondition** functions are run, the upgrade functions are run as follows:  
+    After the **CheckPrecondition** functions are run, the upgrade functions are run as follows:  
 
     -   **UpgradePerCompany** functions are run for all companies in the database, where each function is executed within its own system session on [!INCLUDE[nav_server](includes/nav_server_md.md)] that connects to the company.  
 
     -   **UpgradePerDatabase** functions are executed once, in a single system session on [!INCLUDE[nav_server](includes/nav_server_md.md)] that does not open any company.  
 
-         For more information about these type function types, see [Upgrade Function Types](Upgrade-Codeunits.md#upgradedunctions).  
+    For more information about these two function types, see [Upgrade Function Types](Upgrade-Codeunits.md#upgradedunctions).  
 
-     By default, like the **CheckPrecondition** functions, the **UpgradePerCompany** and **UpgradePerDatabase** functions are run in parallel mode. Because these functions run in parallel, you should design them so that they are independent of each other and do not write to the same table. Running data upgrade functions in parallel can significantly improve the upgrade performance, especially when you have multiple companies in your database. If the functions must be run in a specific order or they write to the same tables, you can change the functions to **Normal** function types within the upgrade codeunit. Then, create a single **UpgradePerCompany** or **UpgradePerDatabase** function that calls the **Normal** functions in the desired order. With this implementation, you can achieve the same performance level as running multiple upgrade  functions in parallel.  
+By default, like the **CheckPrecondition** functions, the **UpgradePerCompany** and **UpgradePerDatabase** functions are run in parallel mode. Because these functions run in parallel, you should design them so that they are independent of each other and do not write to the same table. Running data upgrade functions in parallel can significantly improve the upgrade performance, especially when you have multiple companies in your database. If the functions must be run in a specific order or they write to the same tables, you can change the functions to **Normal** function types within the upgrade codeunit. Then, create a single **UpgradePerCompany** or **UpgradePerDatabase** function that calls the **Normal** functions in the desired order. With this implementation, you can achieve the same performance level as running multiple upgrade  functions in parallel.  
 
-     You can choose to run the data upgrade in serial mode, where all functions will be executed one after another. This can be useful, for example, when you are debugging the data upgrade code. For more information about parallel and serial function execution, see [Parallel and Serial Execution Modes for Upgrade Codeunit Functions](Upgrading-Data.md#ParallelSerial).  
+You can choose to run the data upgrade in serial mode, where all functions will be executed one after another. This can be useful, for example, when you are debugging the data upgrade code. For more information about parallel and serial function execution, see [Parallel and Serial Execution Modes for Upgrade Codeunit Functions](Upgrading-Data.md#ParallelSerial).  
 
 > [!NOTE]  
 >  You cannot run upgrade codeunits directly. Upgrade codeunits can only be invoked by [!INCLUDE[nav_server](includes/nav_server_md.md)] during a data upgrade.  
