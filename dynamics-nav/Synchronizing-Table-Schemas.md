@@ -16,22 +16,6 @@ When you design a table in [!INCLUDE[navnow](includes/navnow_md.md)], you define
 
  Depending on the changes to a table definition, you might have to consider how to handle the existing data in the business data table when synchronizing the schema. For example, you must decide whether to keep or delete the data. Some table definition changes, such as adding and renaming a field, adding a new table, or modifying C/AL code to a table, do not affect data in the database table and are considered to be non-destructive changes. With non-destructive changes, you can synchronize the schema without any special data handling considerations. However, if you make destructive changes to the table definition, such as removing a field, then you will be warned by the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] when you try to save the changes, and you must specify how to handle the data when synchronizing the schema. For more information about destructive table changes, see [Handling Destructive Changes With Table Schema Synchronization](Synchronizing-Table-Schemas.md#HandlingDestChanges).  
 
- This topic contains the following sections:  
-
--   [Synchronizing Table Schemas with SQL Server](Synchronizing-Table-Schemas.md#SyncTable)  
-
--   [Synchronizing the Table Schema for Specific Tables From the Development Environment](Synchronizing-Table-Schemas.md#SyncSpecTableDevEnv)  
-
--   [Synchronizing All Table Schemas From the Development Environment](Synchronizing-Table-Schemas.md#SyncAllTablesDevEnv)  
-
--   [Synchronizing Table Schemas When Importing FOB Files](Synchronizing-Table-Schemas.md#SyncFOBImport)  
-
--   [Handling Destructive Changes With Table Schema Synchronization](Synchronizing-Table-Schemas.md#HandlingDestChanges)  
-
--   [How Microsoft Dynamics NAV Server Validates Table Schema Changes](Synchronizing-Table-Schemas.md#ServerValidation)  
-
--   [Monitoring the Business (Tenant) Database State During and After Schema Synchronization](Synchronizing-Table-Schemas.md#MonitorDatabase)  
-
 ##  <a name="SyncTable"></a> Synchronizing Table Schemas with SQL Server  
  You can synchronize table schemas from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] or by using the Sync-NAVTenant cmdlet in the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
 
@@ -97,29 +81,21 @@ When you design a table in [!INCLUDE[navnow](includes/navnow_md.md)], you define
 
 -   If there is an upgrade codeunit to handle destructive table changes, then the changes are applied.  
 
- When you import objects in FOB files by using the Import-NAVApplicationObjects cmdlet, table schema synchronization is controlled by the *SynchronizeSchemaChanges* parameter of this cmdlet. By default, the *SynchronizeSchemaChanges* parameter is set to **Yes**. This means that during the import process, each table will be checked for destructive changes. If destructive changes are detected, the FOB file import will be canceled, even if an upgrade codeunit for handling the changes is included the FOB file. Therefore, if you want to import a FOB file that contains tables that have destructive changes and upgrade codeunits to handle the changes, you must set *SynchronizeSchemaChanges* parameter to **No**, and then call Sync-NAVTenant cmdlet that is available in the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] to synchronize the changes.  
+When you import objects in FOB files by using the Import-NAVApplicationObjects cmdlet, table schema synchronization is controlled by the *SynchronizeSchemaChanges* parameter of this cmdlet. By default, the *SynchronizeSchemaChanges* parameter is set to **Yes**. This means that during the import process, each table will be checked for destructive changes. If destructive changes are detected, the FOB file import will be canceled, even if an upgrade codeunit for handling the changes is included the FOB file. Therefore, if you want to import a FOB file that contains tables that have destructive changes and upgrade codeunits to handle the changes, you must set *SynchronizeSchemaChanges* parameter to **No**, and then call Sync-NAVTenant cmdlet that is available in the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] to synchronize the changes.  
 
 ##  <a name="HandlingDestChanges"></a> Handling Destructive Changes With Table Schema Synchronization  
  Destructive changes to a table definition are changes that can potentially affect the existing data in the business data table. The following table definition changes are considered destructive changes.  
 
--   Deleting a table.  
+-   Deleting a table.
+-   Deleting a field.
+-   Changing a field's data type.
+-   Changing a field's class.
+-   Changing the SQL data type of a field.
+-   Decreasing the length of data in a field.
+-   Changing the primary key of a table, such as removing a field from the key.
+-   Changing the ID of a table field.
 
--   Deleting a field.  
-
--   Changing a field's data type.  
-
--   Changing a field's class.  
-
--   Changing the SQL data type of a field.  
-
--   Decreasing the length of data in a field.  
-
--   Changing the primary key of a table, such as removing a field from the key.  
-
--   Changing the ID of a table field.  
-
- To synchronize the business data table with destructive changes to table definition, you must do one of following:  
-
+To synchronize the business data table with destructive changes to table definition, you must do one of following:
 -   Create or import an upgrade codeunit that includes synchronization instructions for the table. For more information, see [Upgrade Codeunits](Upgrade-Codeunits.md).  
 
 -   Use the **Force** option to synchronize the schema. This will apply the table definition changes regardless of existing data the data. Data in fields that are affected by the table definition changes will be deleted.  
@@ -128,9 +104,9 @@ When you design a table in [!INCLUDE[navnow](includes/navnow_md.md)], you define
 >  When you synchronize destructive changes to a table by using the **Now – with validation** schema synchronization option, an error occurs and will not let you save the changes. The validation process for destructive change does not consider whether there is data in the fields that are affected by the changes. The validation process determines whether the change is destructive by analyzing actual metadata changes. This implementation helps prevent you from overlooking a destructive change and neglecting to create data upgrade codeunits to handle the changes when you work with development or test databases that do not contain data.  
 
 ##  <a name="ServerValidation"></a> How Microsoft Dynamics NAV Server Validates Table Schema Changes  
- When you synchronize a table schema and choose a synchronization option that validates the changes, [!INCLUDE[nav_server](includes/nav_server_md.md)] verifies whether the changes can be applied to the business data table without affecting the data in changed columns that are affected by the changes.  
+When you synchronize a table schema and choose a synchronization option that validates the changes, [!INCLUDE[nav_server](includes/nav_server_md.md)] verifies whether the changes can be applied to the business data table without affecting the data in changed columns that are affected by the changes.  
 
- The following describes the [!INCLUDE[nav_server](includes/nav_server_md.md)] process for validating the table schema changes:  
+The following describes the [!INCLUDE[nav_server](includes/nav_server_md.md)] process for validating the table schema changes:  
 
 1.  Compares the content of the **Object Metadata** and **Object Metadata Snapshot** system tables to identify differences in the database schemas.  
 
@@ -140,7 +116,7 @@ When you design a table in [!INCLUDE[navnow](includes/navnow_md.md)], you define
 
 4.  Applies the relevant changes according to the upgrade instructions.  
 
- During the schema synchronization, each change is applied based on the synchronization mode that was specified in the upgrade codeunits. For more information about the synchronization modes, see [TableSyncSetup Modes](Upgrade-Codeunits.md#TblModes).  
+During the schema synchronization, each change is applied based on the synchronization mode that was specified in the upgrade codeunits. For more information about the synchronization modes, see [TableSyncSetup Modes](Upgrade-Codeunits.md#TblModes).  
 
 > [!NOTE]  
 >  If the change is not a destructive change and has not been handled with an upgrade instruction in an upgrade codeunit, then the default mode is Check.  
@@ -157,8 +133,8 @@ When you design a table in [!INCLUDE[navnow](includes/navnow_md.md)], you define
 |Mounted|Indicates that the business \(tenant\) database is mounted on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance but is not yet operational. This can occur when [!INCLUDE[nav_server](includes/nav_server_md.md)] is started or when the Mount-NavTenant cmdlet is run from the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].<br /><br /> You should consider the **Mounted** state as an intermediate state that only exists right after mount operation is executed. The purpose of this state is to indicate that the [!INCLUDE[nav_server](includes/nav_server_md.md)] knows about this database but has not yet brought the database into an operational state, which includes verifying whether table schemas are synchronized.<br /><br /> With the exception running the Get-NavTenant and Dismount-NavTenant cmdlet, all other operations that access the database will initiate the process of bringing the database into the operational state. This means that the first operation on the database can take some time to complete while the database is validated. The result of the validation will be that the database will change state to **Operational**, **OperationalWithSyncPending**, or **OperationalWithSyncFailure**.<br /><br /> This design enables the [!INCLUDE[nav_server](includes/nav_server_md.md)] to start with multiple tenants. However, if there are only few tenants on the [!INCLUDE[nav_server](includes/nav_server_md.md)], then you should consider including the `Get-NavTenant &#124; Sync-NavTenant` command into the script that mounts the database to make sure all the databases reach the operational state at the same time.|  
 |Operational|Indicates that the database is fully operational and the table schemas are up to date. This is the normal operating state of a database.|  
 |OperationalWithSyncPending|Indicates that the database is operational but schema synchronization is pending on one or more tables. If a table that is pending schema synchronization is accessed by [!INCLUDE[nav_server](includes/nav_server_md.md)] \(for example, when user tries to access the table from the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]\) an error will be displayed. The error informs the user that the metadata for the table has not been synchronized.<br /><br /> To synchronize table schemas, you can run the Sync-NAVTenant cmdlet from the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] or use the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], for example, by saving a table and choosing the **Now-with validation** synchronize schema option. Either of these operations will initiate the schema synchronization process. If the process is successful, the state will change to **Operational**. If the process is not successful, the state will change to **OperationWithSyncFailure**.<br /><br /> In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], the **Detailed State** field on the **Synchronize Schema Changes** window will contain the errors that occurred during synchronization. The Sync-NAVTenant cmdlet provides you a more detailed list of any synchronization errors.|  
-|OperationalWithSyncInProgress|Indicates that table schemas in database are currently being synchronized. You can use the Get-NAVTenant from the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] to track progress.<br /><br /> Users can continue to work with the application from the [!INCLUDE[navnow](includes/navnow_md.md)] clients. However, if they try to access a table whose schema has not been synchronized, an error will occur. While the synchronization process is running on a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, the following restrictions apply:<br /><br /> \* Other [!INCLUDE[nav_server](includes/nav_server_md.md)] instances will not be able to start the synchronization process on the same database.<br /><br /> \* If a user changes a table definition in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], he will not be able to save the changes until the synchronization process is finished.|  
-|OperationalWithSyncFailure|Indicates that the database is operational but the last attempt to synchronize the table schemas failed.<br /><br /> If [!INCLUDE[nav_server](includes/nav_server_md.md)] tries to access a table that has not been synchronized, an error occurs. For example, this can occur when destructive changes have been made to a table and there is no upgrade codeunit available to handle the changes.<br /><br /> You can run the Get-NAVTenant cmdlet to retrieve a list of all the destructive changes that were detected during the schema synchronization process. The changes are listed in the `Detailed State` field.<br /><br /> To get the database back to **Operational** state, you can do one of the following:<br /><br /> 1. Create an upgrade codeunit that has instructions for how to handle the data in the tables where destructive changes were made, then run Sync-NAVTenant cmdlet again.<br /><br /> 2. Run the Sync-NavTenant cmdlet in the `Force` mode as follows:<br /><br /> `Sync-NavTenant <serverinstance> –Mode Force.`<br /><br /> This operation will apply changes without validation and delete the data in the table columns that are affected by the changes.<br /><br /> 3. Revert the table to its original structure, and then run the  Sync-NavTenant cmdlet.<br /><br /> `Sync-NavTenant <serverinstance> –Mode Sync`|  
+|OperationalWithSyncInProgress|Indicates that table schemas in database are currently being synchronized. You can use the Get-NAVTenant from the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] to track progress.<br /><br /> Users can continue to work with the application from the [!INCLUDE[navnow](includes/navnow_md.md)] clients. However, if they try to access a table whose schema has not been synchronized, an error will occur. While the synchronization process is running on a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, the following restrictions apply:<br /><ul><li>Other [!INCLUDE[nav_server](includes/nav_server_md.md)] instances will not be able to start the synchronization process on the same database.</li><li>If a user changes a table definition in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], he will not be able to save the changes until the synchronization process is finished.</li></ul>|  
+|OperationalWithSyncFailure|Indicates that the database is operational but the last attempt to synchronize the table schemas failed.<br /><br />If [!INCLUDE[nav_server](includes/nav_server_md.md)] tries to access a table that has not been synchronized, an error occurs. For example, this can occur when destructive changes have been made to a table and there is no upgrade codeunit available to handle the changes.<br /><br /> You can run the Get-NAVTenant cmdlet to retrieve a list of all the destructive changes that were detected during the schema synchronization process. The changes are listed in the `Detailed State` field.<br /><br /> To get the database back to **Operational** state, you can do one of the following:<ul><li>Create an upgrade codeunit that has instructions for how to handle the data in the tables where destructive changes were made, then run Sync-NAVTenant cmdlet again.</li><li>Run the Sync-NavTenant cmdlet in the `Force` mode as follows:<br /><br /> `Sync-NavTenant <serverinstance> –Mode Force`<br /><br /> This operation will apply changes without validation and delete the data in the table columns that are affected by the changes.</li><li>Revert the table to its original structure, and then run the  Sync-NavTenant cmdlet.<br /><br /> `Sync-NavTenant <serverinstance> –Mode Sync`</li></ul>|  
 
  For more information about the Get-NAVTenant cmdlet and how to use the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], see [Get-NAVTenant](http://go.microsoft.com/fwlink/?LinkID=401366) and [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md).  
 
