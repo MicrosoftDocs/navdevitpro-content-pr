@@ -17,7 +17,7 @@ caps.latest.revision: 2
   
 -   [Development Cmdlets for Microsoft Dynamics NAV](http://go.microsoft.com/fwlink/?LinkID=510540)  
   
--   [Administration Cmdlets for Microsoft Dynamics NAV](/Microsoft.Dynamics.Nav.Management/Microsoft.Dynamics.Nav.Management.md)  
+-   [Administration Cmdlets for Microsoft Dynamics NAV](Microsoft.Dynamics.Nav.Management/Microsoft.Dynamics.Nav.Management.md)  
   
 -   [Development Cmdlets for Microsoft Dynamics NAV Extensions](http://go.microsoft.com/fwlink/?LinkID=626875)  
   
