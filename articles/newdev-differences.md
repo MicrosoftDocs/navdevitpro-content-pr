@@ -13,7 +13,7 @@ ms.author: solsen
 ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 ---
 
-[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/dyn_fin_dev_preview.md)]
+[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/newdev_dev_preview.md)]
 
 # Differences from the Dynamics NAV Development Environment
 Coming from the [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)], there are some differences and optimizations that you should familiarize yourself with. The following sections go through these changes.  
@@ -38,7 +38,9 @@ Several properties have been renamed, to mention some:
 |AutoFormatExpr|AutoFormatExpression|
 |DataCaptionExpr|DataCaptionExpression|
 |Layout|GridLayout|
-|||
+
+## Naming
+Controls, actions, and methods names must be unique on pages. In C/SIDE you could create a Part control with the same name as a method, which would give you a compilation error at runtime. This is now prevented, by disallowing duplicates. Likewise, actions and fields could have same names before, but that would have prevented page testability access, and will now throw a compilation error. <!-- check if this is correctly interpreted -->
 
 ## Property dependencies
 Some properties require that you set another property. An example is ```PromotedCategory```, which requires that you have enabled the property ```Promoted```. The following table lists some of properties that have this dependency:
@@ -52,6 +54,6 @@ Some properties require that you set another property. An example is ```Promoted
 |RunPageMode|RunObject| 
 
 ## See Also
-[Getting Started](dyn-fin-get-started.md)    
-[Developer Reference](dyn-fin-reference-overview.md)  
+[Getting Started](newdev-get-started.md)    
+[Developer Reference](newdev-reference-overview.md)  
 [Technical Reference for Dynamics NAV](technical-reference.md)

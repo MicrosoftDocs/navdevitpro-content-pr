@@ -14,13 +14,13 @@ ms.author: solsen
 caps.latest.revision: 18
 ---
 
-[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/dyn_fin_dev_preview.md)]
+[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/newdev_dev_preview.md)]
 
 # Codeunit Object
 A codeunit is a container for AL code that you can use in many application objects. For more information, see [Understanding Codeunits](understanding-codeunits.md).
 
 ## Codeunit Example
-This codeunit example  
+This codeunit example checks whether a given customer has registered a shoesize. If not, the customer is assigned a shoesize of 42.
 
 ```
 codeunit 50040 CreateCustomer
@@ -37,6 +37,6 @@ codeunit 50040 CreateCustomer
 ```
 
 ## See Also
-[Table Extension Object](dyn-fin-table-ext-object.md)  
-[Page Extension Object](dyn-fin-page-ext-object.md)  
-[Developer Reference](dyn-fin-reference-overview.md)
+[Table Extension Object](newdev-table-ext-object.md)  
+[Page Extension Object](newdev-page-ext-object.md)  
+[Developer Reference](newdev-reference-overview.md)
