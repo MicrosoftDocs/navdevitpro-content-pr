@@ -3,7 +3,7 @@ title: "Developer Reference"
 description: "Overview of the objects."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/18/2016
+ms.date: 11/25/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -17,7 +17,7 @@ caps.latest.revision: 18
 [!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/dyn_fin_dev_preview.md)]
 
 # Developer Reference
-This section describes all of the objects that are available with [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. For additional reference and information, see [Objects](objects.md).
+This section describes all of the objects that are available with [!INCLUDE[navnow_md](includes/navnow_md.md)]. For additional reference and information, see [Objects](objects.md).
 
 ## Defining the Data Model
 |To | See |

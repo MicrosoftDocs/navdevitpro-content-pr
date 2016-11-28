@@ -3,7 +3,7 @@ title: "Codeunit Object"
 description: "Description of the codeunit object."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/11/2016
+ms.date: 11/25/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -18,7 +18,6 @@ caps.latest.revision: 18
 
 # Codeunit Object
 A codeunit is a container for AL code that you can use in many application objects. For more information, see [Understanding Codeunits](understanding-codeunits.md).
-
 
 ## Codeunit Example
 This codeunit example  
