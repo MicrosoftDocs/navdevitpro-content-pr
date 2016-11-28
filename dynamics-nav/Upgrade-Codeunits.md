@@ -39,7 +39,7 @@ You implement upgrade codeunits when you make destructive changes to tables in [
 To create an upgrade codeunit, you set the [SubType Property \(Codeunit\)](SubType-Property--Codeunit-.md) of a codeunit to **Upgrade**. You can create multiple upgrade codeunits.  
 
 ### Upgrade Codeunit Design and Flow  
- Upgrade codeunits are run by [!INCLUDE[nav_server](includes/nav_server_md.md)] when you synchronize table schemas and when you start the data upgrade process. The following describes the upgrade codeunit process for these operations.  
+ Upgrade codeunits are used by [!INCLUDE[nav_server](includes/nav_server_md.md)] when you synchronize table schemas and when you start the data upgrade process. The following describes the upgrade codeunit process for these operations.  
 
 **Table Schema Synchronization**  
 
