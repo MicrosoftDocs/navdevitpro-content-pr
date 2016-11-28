@@ -23,15 +23,10 @@ To create an empty company, use the New-NAVCompany cmdlet.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Copy-NAVCompany -ServerInstance DynamicsNAV -Tenant CRONUS -DestinationCompanyName 'Cronus Subsidiary' -SourceCompanyName 'Cronus International Ltd.'
 ```
-
-Description
-
------------
-
 This example creates a copy of the Cronus International Ltd.
 company in the database that has the tenant ID CRONUS and which is mounted against the DynamicsNAV server instance.
 
