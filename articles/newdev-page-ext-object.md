@@ -13,7 +13,7 @@ ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
 ms.author: solsen
 caps.latest.revision: 18
 ---
-[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/dyn_fin_dev_preview.md)]
+[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/newdev_dev_preview.md)]
 
 # Page Extension Object
 The page extension object extends a [!INCLUDE[navnow_md](includes/navnow_md.md)] page object and adds or overrides the functionality. 
@@ -41,8 +41,8 @@ pageextension 50080 CustomerCardExtension extends "Customer Card"
 Pages  
   
 ## See Also  
-[Page Object](dyn-fin-page-object.md)  
-[Developer Reference](dyn-fin-reference-overview.md)  
+[Page Object](newdev-page-object.md)  
+[Developer Reference](newdev-reference-overview.md)  
 [Pages](Pages.md)   
 [How to: Create a Page](How-to--Create-a-Page.md)   
 [Page Properties](page-properties.md)
