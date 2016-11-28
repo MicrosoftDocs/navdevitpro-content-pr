@@ -8,11 +8,11 @@ Locale: en-US
 
 # Microsoft.Dynamics.Nav.Management Module
 ## Description
-{{Manually Enter Description Here}}
+The [!INCLUDE[nav_shell_md](../includes/nav_shell_md.md)] includes cmdlets for administering the  deployment, such as adding and configuring [!INCLUDE[nav_server_md](../includes/nav_server_md.md)]  instances, databases, and users. Also included are cmdlets for administering extension packages. [!INCLUDE[nav_shell_md](../includes/nav_shell_md.md)] is installed with the [!INCLUDE[nav_server_md](../includes/nav_server_md.md).
 
 ## Microsoft.Dynamics.Nav.Management Cmdlets
 ### [Copy-NAVCompany](Copy-NAVCompany.md)
-{{Manually Enter Copy-NAVCompany Description Here}}
+Creates a new company and copies all data from an existing company in the same tenant database.
 
 ### [Dismount-NAVTenant](Dismount-NAVTenant.md)
 {{Manually Enter Dismount-NAVTenant Description Here}}
