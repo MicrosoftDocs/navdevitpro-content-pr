@@ -14,7 +14,7 @@ ms.author: solsen
 caps.latest.revision: 18
 ---
 
-[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/dyn_fin_dev_preview.md)]
+[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/newdev_dev_preview.md)]
 
 # Page Object
 Pages are the main way to display and organize visual data in [!INCLUDE[navnow_md](includes/navnow_md.md)]. They are the primary object that a user will interact with and have a different behavior based on the type that you choose. Pages are designed independently of the device they are to be rendered on, and in this way the same page can be reused across phone, tablet, and web clients.
@@ -53,9 +53,9 @@ page 50088 SimpleCustomerCard
 ```
 
 ## See Also
-[Developing for Dynamics 365 for Financials Overview](dyn-fin-dev-overview.md)  
-[Developer Reference](dyn-fin-reference-overview.md)  
-[Page Extension Object](dyn-fin-page-ext-object.md)  
+[Developing for Dynamics 365 for Financials Overview](newdev-dev-overview.md)  
+[Developer Reference](newdev-reference-overview.md)  
+[Page Extension Object](newdev-page-ext-object.md)  
 [Pages](pages.md)  
 [Tables](tables.md)
 [Page Properties](page-properties.md)

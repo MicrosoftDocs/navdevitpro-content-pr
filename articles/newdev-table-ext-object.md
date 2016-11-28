@@ -14,7 +14,7 @@ ms.author: solsen
 caps.latest.revision: 18
 ---
 
-[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/dyn_fin_dev_preview.md)]
+[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/newdev_dev_preview.md)]
 
 # Table Extension Object
 The table extension object allows you to add additional fields or to change some properties on a table provided by the [!INCLUDE[navnow_md](includes/navnow_md.md)] service. In this way, you can add data to the same table and treat it as a single table. For example, you may wish to create a table extension for a retail winter sports store. In your solution you want to have ```Ski Size``` as an additional field on the customer table. Adding this as an extension allows you to write code for the customer record and also include values for the ```Ski Size```.
@@ -58,7 +58,7 @@ tableextension 50090 RetailWinterSportsStore extends Customer
 Tables
 
 ## See Also
-[Table Object](dyn-fin-table-object.md)  
-[Developer Reference](dyn-fin-reference-overview.md)  
+[Table Object](newdev-table-object.md)  
+[Developer Reference](newdev-reference-overview.md)  
 [Tables](tables.md)  
 [Table Properties](table-properties.md)
