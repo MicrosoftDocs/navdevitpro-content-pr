@@ -1,9 +1,9 @@
 ---
-title: "Differences from the Dynamics NAV Development Environment"
+title: "Differences from the Existing Dynamics NAV Development Environment"
 description: "Describes the various differences between the old and the new development environment"
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/18/2016
+ms.date: 11/29/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -15,7 +15,7 @@ ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 
 [!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/newdev_dev_preview.md)]
 
-# Differences from the Dynamics NAV Development Environment
+# Differences from the Existing Dynamics NAV Development Environment
 Coming from the [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)], there are some differences and optimizations that you should familiarize yourself with. The following sections go through these changes.  
 
 ## Data types
