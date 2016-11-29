@@ -124,6 +124,8 @@ This topic lists properties that apply to the page object, controls, and actions
 
 -   [AccessByPermission Property](AccessByPermission-Property.md)  
 
+-	[ApplicationArea Property](ApplicationArea-Property.md)  
+
 -   [AssistEdit Property](AssistEdit-Property.md)  
 
 -   [AutoFormatExpr Property](AutoFormatExpr-Property.md)  
@@ -221,6 +223,8 @@ This topic lists properties that apply to the page object, controls, and actions
 
 -   [AccessByPermission Property](AccessByPermission-Property.md)  
 
+-	[ApplicationArea Property](ApplicationArea-Property.md)  
+
 -   [Caption Property](Caption-Property-duplicate.md)  
 
 -   [CaptionML Property](CaptionML-Property.md)  
@@ -295,6 +299,8 @@ This topic lists properties that apply to the page object, controls, and actions
  The following properties apply to **Actions**.  
 
 -   [AccessByPermission Property](AccessByPermission-Property.md)  
+
+-	[ApplicationArea Property](ApplicationArea-Property.md)  
 
 -   [Caption Property](Caption-Property-duplicate.md)  
 
