@@ -21,7 +21,7 @@ You create an application-specific configuration file by using the New-NAVServer
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Get-NAVServerAppConfiguration -ServerInstance DynamicsNAV  -ApplicationId FIN
 ```

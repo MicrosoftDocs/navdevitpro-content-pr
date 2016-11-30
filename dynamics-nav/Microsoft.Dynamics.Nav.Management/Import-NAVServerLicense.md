@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -31,7 +31,7 @@ After importing a new license, restart all Microsoft Dynamics NAV Server instanc
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Import-NAVServerLicense DynamicsNAV -LicenseData ([Byte[]]$(Get-Content -Path "fin.flf" -Encoding Byte))
 ```
@@ -42,7 +42,7 @@ Description
 
 This example imports a license file that is named "fin.flf" from the current directory into the default database.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Import-NAVServerLicense MyInstance -LicenseData ([Byte[]]$(Get-Content -Path "fin.flf" -Encoding Byte)) -Database NavDatabase
 ```
@@ -53,7 +53,7 @@ Description
 
 This example imports a license file that is named "fin.flf" from the current directory into the local Microsoft Dynamics NAV database that is used by the MyInstance Microsoft Dynamics NAV Server instance.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### EXAMPLE 3
 ```
 Import-NAVServerLicense 'MicrosoftDynamicsNavServer$MyInstance' -LicenseData ([Byte[]]$(Get-Content -Path "fin.flf" -Encoding Byte)) -Database Master
 ```
@@ -64,7 +64,7 @@ Description
 
 This example imports a license file that is named "fin.flf" from the current directory into the master database.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### EXAMPLE 4
 ```
 Import-NAVServerLicense 'MicrosoftDynamicsNavServer$MyInstance' -LicenseData ([Byte[]]$(Get-Content -Path "fin.flf" -Encoding Byte)) -Database Tenant -Tenant Tenant1
 ```
@@ -92,7 +92,7 @@ Forces the license file to be local and stored in the Microsoft Dynamics NAV dat
 ```yaml
 Type: LicenseDatabase
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -108,7 +108,7 @@ For more information, see the examples.
 ```yaml
 Type: Byte[]
 Parameter Sets: LicenseDataSet
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -123,7 +123,7 @@ The LicenseFile parameter specifies the path to the Microsoft Dynamics NAV licen
 ```yaml
 Type: String
 Parameter Sets: LicenseFileSet
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -139,7 +139,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -200,7 +200,7 @@ Accept wildcard characters: False
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -217,4 +217,3 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
-

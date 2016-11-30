@@ -30,7 +30,7 @@ Use New-NAVServerConfiguration with the -ServerInstance and -ServerSettingsDocum
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Set-NAVServerConfiguration MyInstance -KeyName DatabaseServer -KeyValue DatabaseServer.Domain.Com
 ```

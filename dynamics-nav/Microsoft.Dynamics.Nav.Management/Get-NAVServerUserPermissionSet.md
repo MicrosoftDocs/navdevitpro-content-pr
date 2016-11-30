@@ -29,7 +29,7 @@ You can also use any one of these values, or any combination of these values, to
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Get-NAVServerUserPermissionSet DynamicsNAV
 ```
@@ -40,7 +40,7 @@ Description
 
 This example returns permission sets for all current nav_now users.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Get-NAVServerUserPermissionSet DynamicsNAV -WindowsAccount cronus\chris
 

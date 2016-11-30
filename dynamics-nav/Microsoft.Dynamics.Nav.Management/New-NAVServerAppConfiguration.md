@@ -39,7 +39,7 @@ The server instance will load the correct application-specific configuration fil
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 New-NAVServerAppConfiguration -ApplicationId FIN -ServerInstance DynamicsNAV
 ```

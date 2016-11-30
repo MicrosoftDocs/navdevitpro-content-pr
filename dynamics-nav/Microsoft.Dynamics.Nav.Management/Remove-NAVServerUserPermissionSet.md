@@ -45,7 +45,7 @@ You can use the Get-NAVServerUserPermissionSet cmdlet to determine which permiss
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Remove-NAVServerUserPermissionSet DynamicsNAV -Sid S-1-5-20 -PermissionSetId AVOCADO
 ```

@@ -23,7 +23,7 @@ The tenant database must contain the SQL Server tables that the application pres
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Sync-NAVTenant -ServerInstance DynamicsNAV -Tenant 'Tenant1'
 ```

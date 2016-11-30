@@ -28,7 +28,7 @@ You use the parameters to filter the returned information on specific add-ins.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Get-NAVAddIn -ServerInstance DynamicsNAV -Category dotnetcontroladdin
 ```

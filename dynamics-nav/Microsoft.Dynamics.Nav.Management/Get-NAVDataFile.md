@@ -31,7 +31,7 @@ ExportDateTime
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Get-NAVDataFile -FilePath C:\file\Customer.navdata
 ```

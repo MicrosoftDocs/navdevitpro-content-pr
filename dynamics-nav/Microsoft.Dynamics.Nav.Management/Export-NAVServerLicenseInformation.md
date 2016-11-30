@@ -22,7 +22,7 @@ Check the Windows Event Log on the Microsoft Dynamics NAV Server computer to see
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Export-NAVServerLicenseInformation MyInstance
 

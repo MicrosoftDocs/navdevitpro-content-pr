@@ -32,7 +32,7 @@ You can use this cmdlet to restore a database to a remote SQL Server instance.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 New-NavDatabase C:\Backups\backup1.bak -DatabaseName NewDatabase -Verbose | fl
 
@@ -53,7 +53,7 @@ Description
 
 This example restores a database and preserves the original file names and locations.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 New-NAVDatabase C:\Backups\backup.bak -DestinationPath c:\newdestination -DatabaseName NewDatabase -Verbose
 

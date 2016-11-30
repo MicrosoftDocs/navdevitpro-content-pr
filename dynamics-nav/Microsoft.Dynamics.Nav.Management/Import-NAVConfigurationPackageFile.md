@@ -24,7 +24,7 @@ Set the -Force parameter to overwrite an existing package.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Import-NAVConfigurationPackageFile -Path C:\Documents\NAV9.00.W1.ENU.TRIAL.rapidstart -ServerInstance 'MyCompNAV'
 
@@ -39,7 +39,7 @@ This example imports the configuration package file that is called NAV9.00.W1.EN
 The file is located in the C:\Documents folder.
 It imports the contents as a Company setup type configuration package into the application database of the Dynamics NAV Server instance MyCompNAV.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Get-NAVServerInstance | Import-NAVConfigurationPackageFile -Path MyPack.rapidstart -Type Other
 ```

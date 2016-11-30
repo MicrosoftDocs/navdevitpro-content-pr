@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -40,7 +40,7 @@ Use the Remove-NAVServerUser cmdlet to delete a Microsoft Dynamics NAV user from
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Remove-NAVServerUser MicrosoftDynamicsNavServer -Sid S-1-5-20
 ```
@@ -52,7 +52,7 @@ Description
 This example deletes a Microsoft Dynamics NAV user from the database that is connected to the Microsoft Dynamics NAV Server server instance that has the name MicrosoftDynamicsNavServer.
 The user is identified by the security identifier.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Remove-NAVServerUser MicrosoftDynamicsNavServer -WindowsAccount cronus\chris
 ```
@@ -64,7 +64,7 @@ Description
 This example deletes a Microsoft Dynamics NAV.
 The user is identified by the Windows account user name.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### EXAMPLE 3
 ```
 Remove-NAVServerUser MicrosoftDynamicsNavServer -UserName USER2
 ```
@@ -76,7 +76,7 @@ Description
 This example deletes a Microsoft Dynamics NAV.
 The user is identified by the user name in Microsoft Dynamics NAV.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### EXAMPLE 4
 ```
 Get-NAVServerUser MicrosoftDynamicsNavServer | Remove-NAVServerUser MicrosoftDynamicsNavServer
 ```
@@ -96,7 +96,7 @@ You can pass this object from the Get-NAVServerUser cmdlet.
 ```yaml
 Type: DataRow
 Parameter Sets: InputObject
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -112,7 +112,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -130,7 +130,7 @@ If you use the Sid parameter, then do not set the UserName or WindowsAccount par
 ```yaml
 Type: String
 Parameter Sets: Sid
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -164,7 +164,7 @@ If you use the Username parameter, then you cannot use the Windows Account or Si
 ```yaml
 Type: String
 Parameter Sets: UserName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -182,7 +182,7 @@ If you use the WindowsAccount parameter, then you cannot use the UserName or Sid
 ```yaml
 Type: String
 Parameter Sets: WindowsAccount
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -227,7 +227,7 @@ Accept wildcard characters: False
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -244,4 +244,3 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
-

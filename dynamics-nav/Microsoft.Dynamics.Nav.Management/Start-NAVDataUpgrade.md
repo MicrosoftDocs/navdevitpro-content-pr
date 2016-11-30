@@ -34,7 +34,7 @@ The progress of the running process can be monitored using Get-NAVDataUpgrade cm
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Start-NAVDataUpgrade -ServerInstance DynamicsNAV -Force
 ```
@@ -45,7 +45,7 @@ Description
 
 This example starts new data upgrade process that runs upgrade functions in parallel.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Start-NAVDataUpgrade -ServerInstance DynamicsNAV -ContinueOnError -Force
 ```
@@ -56,7 +56,7 @@ Description
 
 This example starts new data upgrade process that runs upgrade functions run in parallel and is set to continue running when errors occur.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### EXAMPLE 3
 ```
 Start-NAVDataUpgrade -ServerInstance DynamicsNAV -FunctionExecutionMode Serial -Force
 ```

@@ -66,7 +66,7 @@ To export data to a file, use the Export-NAVData cmdlet.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Import-NAVData -ServerInstance DynamicsNAV -CompanyName "CRONUS International Ltd.", "My Company" -IncludeGlobalData -FilePath C:\file\CompaniesAndGlobalData.navdata
 ```
@@ -77,7 +77,7 @@ Description
 
 This example imports the two named companies into the database that is mounted against the specified Microsoft Dynamics NAV Server instance in a single-tenant deployment of Microsoft Dynamics NAV.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Import-NAVData -DatabaseServer 'MyServer' -DatabaseName 'Tenant 1 Database' -ApplicationDatabaseServer 'MyServer' -ApplicationDatabase 'NAV App' -CompanyName "CRONUS International Ltd." -FilePath C:\file\Company.navdata
 ```
@@ -88,7 +88,7 @@ Description
 
 This example imports a named company into the specified tenant database that uses the specified application database in a multitenant deployment of Microsoft Dynamics NAV.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### EXAMPLE 3
 ```
 Import-NAVData -DatabaseServer 'MyServer' -DatabaseName 'Tenant 1 Database' DatabaseCredentials (Get-Credential)-ApplicationDatabaseServer 'MyServer' -ApplicationDatabase 'NAV App' -CompanyName "CRONUS International Ltd." ApplicationDatabaseCredentials (Get-Credential) -FilePath C:\file\Company.navdata
 ```

@@ -27,7 +27,7 @@ Return values are ignored.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Invoke-NAVCodeunit -ServerInstance DynamicsNAV -CompanyName 'CRONUS International Ltd.' -CodeunitId 100000 -Language 'da-DK'
 ```
@@ -40,7 +40,7 @@ This example invokes codeunit 100000 and calls the OnRun trigger because no othe
 The code runs with Danish language settings in the CRONUS International Ltd.
 company in the Microsoft Dynamics NAV Server instance DynamicsNAV.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Invoke-NAVCodeunit -ServerInstance DynamicsNAV -Tenant Tenant1 -CompanyName MyCompanyName -CodeunitId 2
 ```
@@ -51,7 +51,7 @@ Description
 
 The example invokes codeunit 2, which initializes the MyCompanyName company.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### EXAMPLE 3
 ```
 Invoke-NAVCodeunit -ServerInstance DynamicsNAV -Tenant Tenant1 -CompanyName MyCompanyName -CodeunitId 104048 -MethodName "UpgradeStep2"
 ```
