@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
 # New-NAVServerAppConfiguration
 
 ## SYNOPSIS
-Creates a new server application specific configuration file.
+Creates a new application-specific configuration file for the Dynamics NAV Server instance.
 
 ## SYNTAX
 
@@ -20,12 +20,12 @@ You can have more than one application running on a single Dynamics NAV Server i
 By default, the server instance will use the settings in the CustomSettings.config for all applications.
 This cmdlet enables you to create an additional configuration file that is only used by a specific application.
 The application-specific configuration file can be used to configure the following settings.
- 
+
 
 AppProtocolName - Specifies the protocol to use in URL links to the application, similar to the http protocol in web page links.
 For example, with Dynamics 365 for Financials, by setting the parameter to "ms-financials"  means that "ms-financials:///?page=31" would open the items list page 31.
 
-AppIdUri - Specifies the APP ID URI that is assigned to the Dynamics NAV application in Azure Active Directory (Azure AD). 
+AppIdUri - Specifies the APP ID URI that is assigned to the Dynamics NAV application in Azure Active Directory (Azure AD).
 
 AzureActiveDirectoryClientApplicationId - Specifies the CLIENT ID that is assigned to the Dynamics NAV application in Azure AD.
 
@@ -60,7 +60,7 @@ The value is used in the name of the new configuration file, which has the forma
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -76,7 +76,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -106,7 +106,7 @@ Accept wildcard characters: False
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -137,4 +137,3 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
-

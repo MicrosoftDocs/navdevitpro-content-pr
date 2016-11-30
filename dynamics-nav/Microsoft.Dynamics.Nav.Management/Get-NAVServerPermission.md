@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
 # Get-NAVServerPermission
 
 ## SYNOPSIS
-Returns information about the permissions that are applied to Microsoft Dynamics NAV objects for the specified Microsoft Dynamics NAV Server instance.
+Returns information about the permissions that are applied to Dynamics NAV objects for the specified Dynamics NAV Server instance.
 
 ## SYNTAX
 
@@ -65,7 +65,7 @@ Specifies an Object ID, such as 7702.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -106,7 +106,7 @@ FieldNumber = 11
 ```yaml
 Type: ObjectType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -121,7 +121,7 @@ Specifies the ID for a permission set, such as SUPER or BASIC.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -137,7 +137,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -152,7 +152,7 @@ Accept wildcard characters: False
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -169,4 +169,3 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
-
