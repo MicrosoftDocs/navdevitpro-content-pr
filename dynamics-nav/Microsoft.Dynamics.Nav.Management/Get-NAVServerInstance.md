@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
 # Get-NAVServerInstance
 
 ## SYNOPSIS
-Obtains service details for the specified Microsoft Dynamics NAV Server instance.
+Gets service details for the specified Dynamics NAV Server instance.
 
 ## SYNTAX
 
@@ -48,7 +48,7 @@ Formats the cmdlet output as an XML document.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -64,7 +64,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 1
@@ -79,7 +79,7 @@ Accept wildcard characters: False
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -96,4 +96,3 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
-
