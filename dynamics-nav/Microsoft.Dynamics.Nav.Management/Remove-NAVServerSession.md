@@ -22,7 +22,7 @@ You can use the Get-NAVServerSession cmdlet to obtain information about current 
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Remove-NAVServerSession -ServerInstance DynamicsNAV -Tenant default -SessionId 11
 ```

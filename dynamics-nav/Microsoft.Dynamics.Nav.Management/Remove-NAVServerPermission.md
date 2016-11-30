@@ -22,7 +22,7 @@ You must specify a Permission Set ID, Object Type, and Object ID with the cmdlet
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Remove-NAVServerPermission DynamicsNAV -PermissionSetId AVOCADO -ObjectType TableData -ObjectId 18
 ```

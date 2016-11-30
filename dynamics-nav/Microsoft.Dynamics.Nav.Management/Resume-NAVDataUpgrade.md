@@ -30,7 +30,7 @@ It is not possible to resume the data upgrade process if it was stopped by the S
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Resume-NAVDataUpgrade -ServerInstance DynamicsNAV
 ```
@@ -41,7 +41,7 @@ Description
 
 This example resumes a currently suspended data upgrade process.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Resume-NAVDataUpgrade -ServerInstance DynamicsNAV -CodeunitId 111111 -FunctionName Upg1 -CompanyName
 ```

@@ -22,7 +22,7 @@ The service details include the name of the instance (for example, MicrosoftDyna
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Get-NavServerInstance MyInstance
 

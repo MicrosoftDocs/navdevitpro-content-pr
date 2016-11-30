@@ -22,7 +22,7 @@ Changes made by completed upgrade functions will not be rolled back.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Stop-NAVDataUpgrade -ServerInstance DynamicsNAV -Force
 ```

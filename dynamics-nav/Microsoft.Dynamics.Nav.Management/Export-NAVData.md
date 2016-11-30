@@ -60,7 +60,7 @@ To import data from a file, use the Import-NAVData cmdlet.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Export-NAVData -DatabaseServer 'MyServer' -DatabaseName 'Demo Database NAV' -AllCompanies -FilePath C:\file\Companies.navdata
 ```
@@ -71,7 +71,7 @@ Description
 
 This example exports all companies from the specified database that is mounted against the specified Microsoft Dynamics NAV Server instance in a single-tenant deployment of Microsoft Dynamics NAV.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Export-NAVData -ServerInstance DynamicsNAV -Tenant "Tenant1" -CompanyName "Company A, Company B" -FilePath C:\file\Companies.navdata -DatabaseCredentials (Get-Credential)
 ```

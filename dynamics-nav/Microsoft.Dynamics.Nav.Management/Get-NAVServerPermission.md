@@ -22,7 +22,7 @@ You can filter the information permission set ID, object type, and/or object ID.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Get-NavServerPermission nav_server_instance -ObjectId 7700
 

@@ -21,7 +21,7 @@ Use the Remove-NAVWebService cmdlet to delete the web services that have been cr
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Remove-NAVWebService -ServerInstance DynamicsNAV -ServiceName Customer -ObjectType Page
 ```

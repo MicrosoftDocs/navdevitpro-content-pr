@@ -21,7 +21,7 @@ Use the Set-NAVServerPermissionSet cmdlet to change the name of an existing a Mi
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Set-NAVServerPermissionSet DynamicsNAV -PermissionSetId Original -NewPermissionSetId Improved
 ```

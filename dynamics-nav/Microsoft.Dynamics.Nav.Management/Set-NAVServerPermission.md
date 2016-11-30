@@ -23,7 +23,7 @@ Use the Set-NAVServerPermission cmdlet to change the permissions that are grante
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Set-NAVServerPermission DynamicsNAV -PermissionSetId BASIC -ObjectType Page -ObjectId 21 -Read Indirect
 ```

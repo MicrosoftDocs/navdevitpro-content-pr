@@ -20,7 +20,7 @@ Use the Get-NAVServerPermissionSet cmdlet to return a list of permission sets fo
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Get-NAVServerPermissionSet MicrosoftDynamicsNavServer
 

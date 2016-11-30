@@ -28,7 +28,7 @@ Use this cmdlet to change the settings of an existing add-in the database.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Set-NAVAddIn -ServerInstance DynamicsNAV -AddinName MyNavAddin -PublicKeyToken 31bf3856ad364e35 -ResourceFile 'c:\addins\MyNavAddin.zip'
 ```

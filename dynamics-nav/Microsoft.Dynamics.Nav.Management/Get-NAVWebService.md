@@ -20,7 +20,7 @@ Use the Get-NAVWebService cmdlet to see all web services that have been created 
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Get-NAVWebService DynamicsNAV
 

@@ -20,7 +20,7 @@ The Remove-NAVWebServerInstance cmdlet deletes all virtual folders, web applicat
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Remove-NAVWebServerInstance -WebServerInstance MyNavApp
 ```

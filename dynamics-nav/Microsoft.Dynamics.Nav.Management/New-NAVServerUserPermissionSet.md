@@ -39,7 +39,7 @@ Use the PermissionSetID parameter to identify the permission set.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 New-NAVServerUserPermissionSet DynamicsNAV -WindowsAccount cronus\chris -PermissionSetId BASIC
 ```
