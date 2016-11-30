@@ -21,7 +21,7 @@ You can then use the Set-NAVApplicationObjectProperty cmdlet to change the relev
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 PS C:\>Get-NAVApplicationObjectProperty -Source .\SOURCE\COD1.txt
 ```

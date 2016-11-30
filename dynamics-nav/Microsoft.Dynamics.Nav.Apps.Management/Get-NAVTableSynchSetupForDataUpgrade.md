@@ -21,7 +21,7 @@ The list of table changes is specific to the given tenant and will contain the u
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Get-NAVTableSynchSetupForDataUpgrade -ServerInstance DynamicsNAV91 -Tenant 'Tenant1'
 

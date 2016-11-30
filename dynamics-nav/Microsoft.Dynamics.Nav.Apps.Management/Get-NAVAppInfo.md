@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Apps.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -33,7 +33,7 @@ The list of deployed NAV Apps can include all NAV Apps that have been published 
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Get-NAVAppInfo -ServerInstance DynamicsNAV90
 
@@ -49,7 +49,7 @@ Description
 
 This example returns information about all of the NAV Apps published on the DynamicsNAV90 server instance.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Get-NAVAppInfo -ServerInstance DynamicsNAV90 -Name 'Proseware SmartApp' -Version 2.3.4.500
 
@@ -77,7 +77,7 @@ Description
 
 This example returns information about the NAV App with the specified name and version on the DynamicsNAV90 server instance.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### EXAMPLE 3
 ```
 Get-NAVAppInfo -ServerInstance DynamicsNAV90 -Publisher 'Proseware, Inc.'
 
@@ -93,7 +93,7 @@ Description
 
 This example returns information about all of the NAV Apps published on the DynamicsNAV90 server instance that are published by Proseware, Inc.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### EXAMPLE 4
 ```
 Get-NAVAppInfo -ServerInstance DynamicsNAV90 -Tenant 'Tenant1'
 
@@ -121,7 +121,7 @@ Description
 
 This example returns information about all of the NAV Apps installed for the tenant with an ID of Tenant1 on the DynamicsNAV90 server instance.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### EXAMPLE 5
 ```
 Get-NAVAppInfo -Path '.\Proseware SmartApp.navx'
 
@@ -149,7 +149,7 @@ Description
 
 This example returns information about the NAV App from the package file provided.
 
-### -------------------------- EXAMPLE 6 --------------------------
+### EXAMPLE 6
 ```
 Get-NAVAppInfo -ServerInstance DynamicsNAV90 -Tenant default
 
@@ -232,7 +232,7 @@ Specifies the path to a NAV App Package file that you want to return.
 ```yaml
 Type: String
 Parameter Sets: Path
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -262,7 +262,7 @@ Specifies the Microsoft Dynamics NAV Server instance to which the NAV App is dep
 ```yaml
 Type: String
 Parameter Sets: Properties, Tenant
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -308,4 +308,3 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
-

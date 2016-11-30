@@ -20,7 +20,7 @@ Use the Join-NAVApplicationObjectFile to combine the application objects in the 
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 PS C:\>Join-NAVApplicationObjectFile -Source C:\Solution\TXT\COD*.txt -Destination C:\Solution\all-codeunits.txt
 ```

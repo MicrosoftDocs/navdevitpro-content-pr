@@ -33,7 +33,7 @@ Use the SandboxDatabaseName, SandboxDatabaseServer, and SandboxDatabaseCredentia
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Repair-NAVApp -ServerInstance DynamicsNAV90 -Name 'Proseware SmartApp' -Version 2.3.4.500
 ```
@@ -44,7 +44,7 @@ Description
 
 This example repairs the NAV App with a name of Proseware SmartApp and version of 2.3.4.500.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Get-NAVAppInfo -ServerInstance DynamicsNAV90 | Repair-NAVApp
 ```

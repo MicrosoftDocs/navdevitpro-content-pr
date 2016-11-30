@@ -51,7 +51,7 @@ The Merge-NAVApplicationObject cmdlet compares OriginalPath to ModifiedPath, app
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 PS C:\>Merge-NAVApplicationObject -OriginalPath C:\Microsoft\NAV2016\DE\RTM\*.TXT -TargetPath C:\Microsoft\NAV2016\DE\CU1\*.TXT -ModifiedPath C:\Solution\NAV2016\DE\RTM\*.TXT -ResultPath C:\Solution\NAV2016\DE\CU1\
           Processed 14 objects:
@@ -75,7 +75,7 @@ The result of the comparison is applied to the German version of Microsoft Dynam
 The final result is stored in the folder that is specified in the -ResultPath parameter.
 When the merge completes, the summary of the result is shown.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 PS C:\>Merge-NAVApplicationObject -OriginalPath C:\Solution\ORIGINAL\COD1-RTM.TXT -ModifiedPath C:\Solution\MODIFIED\My-COD1-RTM.txt -TargetPath C:\Solution\TARGET\COD1-CU1.TXT -ResultPath C:\Solution\RESULT\My-COD1-CU1.TXT - -PassThru
 ```
@@ -89,7 +89,7 @@ The result of the comparison is applied to a version of codeunit 1 from Cumulati
 The final result is stored in the file that is specified in the -ResultPath parameter.
 When the merge completes, the summary of the result is shown.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### EXAMPLE 3
 ```
 PS C:\>Merge-NAVApplicationObject -OriginalPath C:\Solution\ORIGINAL\*.TXT -ModifiedPath C:\Solution\MODIFIED\*.txt -TargetPath C:\Solution\TARGET\*.TXT -ResultPath C:\Solution\RESULT\ |
           Sort-Object ObjectType, Id |
@@ -115,7 +115,7 @@ This example compares two sets of text files and applies the result of the compa
 The final result is stored in the folder that is specified in the -ResultPath parameter.
 When the merge completes, the summary of the result is shown as a table.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### EXAMPLE 4
 ```
 PS C:\>$myVariable = Merge-NAVApplicationObject -OriginalPath .\ORIGINAL\*.txt -TargetPath .\TARGET\*.txt
           -ModifiedPath .\MODIFIED\*.txt -ResultPath .\RESULT -Force
@@ -152,7 +152,7 @@ This example compares two sets of text files and applies the result of the compa
 The final result is stored in the folder that is specified in the -ResultPath parameter.
 When the merge completes, the files with conflicting code are shown in a list.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### EXAMPLE 5
 ```
 PS C:\>Merge-NAVApplicationObject -OriginalPath .\ORIGINAL\*.txt -TargetPath .\TARGET\*.txt
           -ModifiedPath .\MODIFIED\*.txt -ResultPath .\RESULT -Force -PassThru |
@@ -169,7 +169,7 @@ This example compares two sets of text files and applies the result of the compa
 The final result is stored in the folder that is specified in the -ResultPath parameter.
 When the merge completes, the files with conflicting code are opened in Notepad.
 
-### -------------------------- EXAMPLE 6 --------------------------
+### EXAMPLE 6
 ```
 PS C:\>Merge-NAVApplicationObject -OriginalPath .\ORIGINAL\pag9999.txt -ModifiedPath .\MODIFIED\pag9999.txt `
           -TargetPath .\TARGET\pag9999.txt -ResultPath .\RESULT\pag9999a.txt -Force -DocumentationConflict Strict
