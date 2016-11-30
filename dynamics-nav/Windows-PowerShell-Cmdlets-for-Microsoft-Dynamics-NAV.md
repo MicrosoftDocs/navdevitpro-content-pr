@@ -15,13 +15,13 @@ caps.latest.revision: 2
   
 ## In This Section  
   
--   [Development Cmdlets for Microsoft Dynamics NAV](http://go.microsoft.com/fwlink/?LinkID=510540)  
+-   [Development Cmdlets for Microsoft Dynamics NAV](Microsoft.Dynamics.Nav.Model.Tools/Microsoft.Dynamics.Nav.Model.Tools.md)  
   
 -   [Administration Cmdlets for Microsoft Dynamics NAV](Microsoft.Dynamics.Nav.Management/Microsoft.Dynamics.Nav.Management.md)  
   
 -   [Development Cmdlets for Microsoft Dynamics NAV Extensions](http://go.microsoft.com/fwlink/?LinkID=626875)  
   
--   [Administration Cmdlets for Microsoft Dynamics NAV Extensions](http://go.microsoft.com/fwlink/?LinkID=626874)  
+-   [Administration Cmdlets for Microsoft Dynamics NAV Extensions](Microsoft.Dynamics.Nav.Apps.Management/Microsoft.Dynamics.Nav.Apps.Management.md)  
   
 ## See Also  
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   
