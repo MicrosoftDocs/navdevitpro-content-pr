@@ -8,7 +8,7 @@ Locale: en-US
 
 # Microsoft.Dynamics.Nav.Management Module
 ## Description
-The [!INCLUDE[nav_shell_md](../includes/nav_shell_md.md)] includes cmdlets for administering the  deployment, such as adding and configuring [!INCLUDE[nav_server_md](../includes/nav_server_md.md)]  instances, databases, and users. Also included are cmdlets for administering extension packages. [!INCLUDE[nav_shell_md](../includes/nav_shell_md.md)] is installed with the [!INCLUDE[nav_server_md](../includes/nav_server_md.md).
+The [!INCLUDE[nav_shell_md](../includes/nav_shell_md.md)] includes cmdlets for administering the Dynamics NAV deployment, such as adding and configuring [!INCLUDE[nav_server_md](../includes/nav_server_md.md)]  instances, databases, and users. Also included are cmdlets for administering extension packages. [!INCLUDE[nav_shell_md](../includes/nav_shell_md.md)] is installed with the [!INCLUDE[nav_server_md](../includes/nav_server_md.md)].
 
 ## Microsoft.Dynamics.Nav.Management Cmdlets
 ### [Copy-NAVCompany](Copy-NAVCompany.md)
