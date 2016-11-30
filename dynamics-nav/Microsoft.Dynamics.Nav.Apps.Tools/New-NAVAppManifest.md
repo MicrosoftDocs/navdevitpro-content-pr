@@ -25,7 +25,7 @@ The manifest property values can be changed using the Set-NAVAppManifest cmdlet.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1
 ```
 New-NavAppManifest -Name "Proseware SmartApp" -Publisher "Proseware, Inc." -Description "First NAV App by Proseware"
 
@@ -53,7 +53,7 @@ Description
 
 This example creates a new in-memory manifest object with the provided property values and defaults for properties not provided.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### Example 2
 ```
 New-NavAppManifest -Name "Proseware SmartApp" -Publisher "Proseware, Inc." -Brief "First Proseware App" -Description "The first NAV App created by Proseware" -Version "2.3.4.500" -CompatibilityId "2.0.0.0" -Id 384ed42e-534b-491f-9c4b-dfc8140bbc38 -Dependencies C:\Proseware\SmartAppBase.navx, C:\Proseware\ProsewareBase.navx -Prerequisites Table=397, CodeUnit=78 -PrivacyStatement http://www.proseware.com/SmartApp/privacypolicy.aspx -Ula http://www.proseware.com/SmartApp/ULA.aspx -Help http://www.proseware.com/SmartApp/Support.aspx -Url http://www.proseware.com/SmartApp/
 
@@ -81,7 +81,7 @@ Description
 
 This example creates a new in-memory manifest object with values provided for all properties.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### Example 3
 ```
 New-NavAppManifest -Name "Proseware SmartApp" -Publisher "Proseware, Inc." -Description "First NAV App by Proseware" | New-NavAppManifestFile -Path ".\Manifest-Proseware SmartApp.xml"
 ```
@@ -93,7 +93,7 @@ Description
 This example uses New-NAVAPPManifestFile cmdlet to persist the new in-memory manifest to a file.
 This can then be saved under source control for later use.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### Example 4
 ```
 New-NAVAppManifest -Name "Proseware SmartApp" -Publisher "Proseware, Inc." -Description "First NAV App by Proseware" | New-NAVAppPackage -Path 'C:\Proseware SmartApp.navx' -SourcePath C:\NavAppFiles
 ```

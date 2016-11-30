@@ -30,7 +30,7 @@ The tables have the following characteristics:
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 PS C:\>New-NavCrmTable -Server myserver.crm.dynamics.com -Credential (Get-Credential -UserName user@myserver.onmicrosoft.com -Message "Enter Password") -EntityLogicalName account -Name "CRM Account" -ObjectId 50500 -OutputPath c:\CrmObjects
           FileName    : c:\CrmObjects\TAB50500.TXT
@@ -49,7 +49,7 @@ Description
 This example creates a single Microsoft Dynamics NAV table object based on the account entity in Microsoft Dynamics CRM.
 The created table has the ID 50500 and name CRM Account.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 PS C:\>New-NavCrmTable -Server myserver.crm.dynamics.com -Credential (Get-Credential -UserName user@myserver.onmicrosoft.com -Message "Enter Password") -Entity account,contact -Name "CRM Account","CRM Contact" -ObjectId 50500,50501 -OutputPath c:\CrmObjects
           FileName    : C:\CrmObjects\TAB50500.TXT

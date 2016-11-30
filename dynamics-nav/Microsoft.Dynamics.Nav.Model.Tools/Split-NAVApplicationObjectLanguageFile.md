@@ -22,7 +22,7 @@ For example, if you have exported captions for tables 18 and 27 to a single text
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 PS C:\>Split-NAVApplicationObjectLanguageFile -Source single.txt -Destination .\RESULT\
 ```

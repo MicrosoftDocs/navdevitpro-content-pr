@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Model.Tools.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -34,7 +34,7 @@ Then, you use the Update-NAVApplicationObject cmdlet to apply the delta to targe
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Compare-NAVApplicationObject -OriginalPath .\demodata\ORIGINAL\*.txt -ModifiedPath .\demodata\MODIFIED\*.txt -DeltaPath .\demodata\DELTA\
 
@@ -54,7 +54,7 @@ This example compares the text files in the MODIFIED folder to the baseline in t
 The result of the comparison is put into the DELTA folder.
 When the comparison completes, a summary is shown.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Compare-NAVApplicationObject -OriginalPath .\demodata\ORIGINAL\*.txt -ModifiedPath .\demodata\MODIFIED\*.txt -DeltaPath .\demodata\DELTA -Force -PassThru |
           Update-NAVApplicationObject -TargetPath .\demodata\TARGET\*.txt -ResultPath .\demodata\RESULT -Force
@@ -116,7 +116,7 @@ Forces the cmdlet to overwrite any existing files in the Delta folder.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -131,7 +131,7 @@ Use to ignore deltas that would be created by documentation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -179,7 +179,7 @@ Specifies if the files that are the result of the comparison must not be compres
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -212,7 +212,7 @@ If you do not set this parameter, the cmdlet returns a list of the files.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -247,4 +247,3 @@ Otherwise, this cmdlet does not generate any output.
 
 ## NOTES
 ## RELATED LINKS
-

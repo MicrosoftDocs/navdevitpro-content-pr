@@ -20,7 +20,7 @@ Use the New-NAVAppManifestFile cmdlet to create a file with metadata for a NAV A
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1
 ```
 New-NavAppManifest -Name "Proseware SmartApp" -Publisher "Proseware, Inc." -Description "First NAV App by Proseware" | New-NavAppManifestFile -Path ".\Manifest-Proseware SmartApp.xml" -Force
 ```

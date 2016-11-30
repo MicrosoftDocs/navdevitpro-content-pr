@@ -28,7 +28,7 @@ Use the Uninstall-NAVApp cmdlet to uninstall a NAV App for one or more tenants.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Uninstall-NAVApp -ServerInstance DynamicsNAV90 -Name 'Proseware SmartApp' -Version 2.3.4.500 -Tenant 'Tenant1'
 ```
@@ -40,7 +40,7 @@ Description
 This example uninstalls the NAV App with the provided name and version for the tenant with the ID Tenant1.
 If the NAV App contains a schema change, the tenant database will be synchronized.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Get-NAVAppInfo -ServerInstance DynamicsNAV90 -Name 'Proseware SmartApp' -Version 2.3.4.500 | Uninstall-NAVApp -Tenant 'Tenant1'
 ```
@@ -52,7 +52,7 @@ Description
 This example uninstalls the NAV App returned from the Get-NAVAppInfo cmdlet for the tenant with the ID Tenant1.
 If the NAV App contains a schema change, the tenant database will be synchronized.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### EXAMPLE 3
 ```
 Uninstall-NAVApp -ServerInstance DynamicsNAV90 -Path '.\Proseware SmartApp.navx' -Tenant 'Tenant1'
 ```
@@ -64,7 +64,7 @@ Description
 This example uninstalls the NAV App at the provided path for the tenant with the ID Tenant1.
 If the NAV App contains a schema change, the tenant database will be synchronized.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### EXAMPLE 4
 ```
 Get-NAVAppInfo -ServerInstance DynamicsNAV90 -Tenant 'Tenant1' | Uninstall-NAVApp -Tenant 'Tenant1'
 ```
@@ -76,7 +76,7 @@ Description
 This example uninstalls all of the NAV Apps that have been installed for the tenant with the ID Tenant1.
 If the NAV App contains a schema change, the tenant database will be synchronized.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### EXAMPLE 5
 ```
 Uninstall-NAVApp -ServerInstance DynamicsNAV90 -Name 'Proseware SmartApp' -Version 2.3.4.500 -Tenant 'Tenant1' -DoNotSaveData
 ```
@@ -88,7 +88,7 @@ Description
 This example uninstalls the NAV App with the provided name and version for the tenant with the ID Tenant1.
 If the NAV App contains a schema change, the tenant database will be synchronized but since the DoNotSaveData switch was used any data in the NAV App fields being removed will not be saved.
 
-### -------------------------- EXAMPLE 6 --------------------------
+### EXAMPLE 6
 ```
 Uninstall-NAVApp -ServerInstance DynamicsNAV90 -Name 'Proseware SmartApp' -Version 2.3.4.500
 ```

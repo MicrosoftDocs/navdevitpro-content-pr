@@ -22,7 +22,7 @@ You can then use the package file to deploy the NAV App to a Microsoft Dynamics 
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1
 ```
 New-NavAppManifest -Name 'Proseware SmartApp' -Publisher 'Proseware, Inc.' -Version 2.3.4.500 | New-NAVAppPackage -Path 'C:\Proseware SmartApp.navx' -SourcePath 'C:\NavAppFiles'
 ```
@@ -33,7 +33,7 @@ Description
 
 This example creates a new NAV App package using new in-memory NAV App manifest metadata and the source files in the C:\NavAppFiles folder.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### Example 2
 ```
 Get-NAVAppManifest -Path '.\Manifest-Proseware SmartApp.xml' | New-NAVAppPackage -Path 'C:\Proseware SmartApp.navx' -SourcePath 'C:\NavAppFiles'
 ```
@@ -44,7 +44,7 @@ Description
 
 This example creates a new NAV App package using the NAV App manifest file and source files in the C:\NavAppFiles folder.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### Example 3
 ```
 Get-NAVApApManifest -Path '.\Manifest-Proseware SmartStuff.xml' | New-NAVAppPackage -Path 'C:\Proseware SmartStuff.navx' -SourcePath C:\NavAppFiles, 'C:\permissions.xml'
 ```
@@ -55,7 +55,7 @@ Description
 
 This example creates a new NAV App package using the NAV App manifest file and source files in the C:\NavAppFiles folder and an exported permission set file in the location provided.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### Example 4
 ```
 Get-NAVApApManifest -Path '.\Manifest-Proseware SmartStuff.xml' | New-NAVAppPackage -Path 'C:\Proseware SmartStuff.navx' -SourcePath C:\NavAppFiles, 'C:\permissions.xml' -Logo C:\SmartLogo.png -ScreenShots C:\SmartScreenShots
 ```
