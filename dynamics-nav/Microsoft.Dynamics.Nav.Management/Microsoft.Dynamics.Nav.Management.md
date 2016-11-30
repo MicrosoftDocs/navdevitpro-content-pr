@@ -1,7 +1,7 @@
 ---
 Module Name: Microsoft.Dynamics.Nav.Management
 Module Guid: 00000000-0000-0000-0000-000000000000
-Download Help Link: http://www.microsoft.com
+Download Help Link:
 Help Version: 1.0.0.0
 Locale: en-US
 ---
@@ -15,215 +15,214 @@ The [!INCLUDE[nav_shell_md](../includes/nav_shell_md.md)] includes cmdlets for a
 Creates a new company and copies all data from an existing company in the same tenant database.
 
 ### [Dismount-NAVTenant](Dismount-NAVTenant.md)
-{{Manually Enter Dismount-NAVTenant Description Here}}
+Dismounts a tenant on the specified Dynamics NAV Server instance.
 
 ### [Export-NAVApplication](Export-NAVApplication.md)
-{{Manually Enter Export-NAVApplication Description Here}}
+Extracts the application tables in a Microsoft Dynamics NAV database to a separate database.
 
 ### [Export-NAVData](Export-NAVData.md)
-{{Manually Enter Export-NAVData Description Here}}
+Exports data from a Dynamics NAV database.
 
 ### [Export-NAVEncryptionKey](Export-NAVEncryptionKey.md)
-{{Manually Enter Export-NAVEncryptionKey Description Here}}
+Exports the encryption key to a file in a specified path on the computer or network.
 
 ### [Export-NAVServerLicenseInformation](Export-NAVServerLicenseInformation.md)
-{{Manually Enter Export-NAVServerLicenseInformation Description Here}}
+Exports license information from the Dynamics NAV database.
 
 ### [Get-NAVAddIn](Get-NAVAddIn.md)
-{{Manually Enter Get-NAVAddIn Description Here}}
+Returns information about add-ins that are registered in the table 2000000069 Add-ins of the  Dynamics NAV database.
 
 ### [Get-NAVApplication](Get-NAVApplication.md)
-{{Manually Enter Get-NAVApplication Description Here}}
+{Gets information about the application database that is mounted against the specified Dynamics NAV Server instance.
 
 ### [Get-NAVCompany](Get-NAVCompany.md)
-{{Manually Enter Get-NAVCompany Description Here}}
+Gets a list of the Dynamics NAV companies in the specified tenant database.
 
 ### [Get-NAVDataFile](Get-NAVDataFile.md)
-{{Manually Enter Get-NAVDataFile Description Here}}
+Gets information from a Dynamics NAV data file.
 
 ### [Get-NAVDataUpgrade](Get-NAVDataUpgrade.md)
-{{Manually Enter Get-NAVDataUpgrade Description Here}}
+Gets information about a data upgrade process that is currently running, or the last completed data upgrade process.
 
 ### [Get-NAVServerAppConfiguration](Get-NAVServerAppConfiguration.md)
-{{Manually Enter Get-NAVServerAppConfiguration Description Here}}
+Gets the settings in an application-specific configuration file of a Dynamics NAV Server instance.
 
 ### [Get-NAVServerConfiguration](Get-NAVServerConfiguration.md)
-{{Manually Enter Get-NAVServerConfiguration Description Here}}
+Gets configuration settings for the specified Dynamics NAV Server instance.
 
 ### [Get-NAVServerInstance](Get-NAVServerInstance.md)
-{{Manually Enter Get-NAVServerInstance Description Here}}
+Gets service details for the specified Dynamics NAV Server instance.
 
 ### [Get-NAVServerPermission](Get-NAVServerPermission.md)
-{{Manually Enter Get-NAVServerPermission Description Here}}
+Gets information about the permissions that are applied to Dynamics NAV objects for the specified Dynamics NAV Server instance.
 
 ### [Get-NAVServerPermissionSet](Get-NAVServerPermissionSet.md)
-{{Manually Enter Get-NAVServerPermissionSet Description Here}}
+Gets a list of permission sets for the specified Dynamics NAV Server instance.
 
 ### [Get-NAVServerSession](Get-NAVServerSession.md)
-{{Manually Enter Get-NAVServerSession Description Here}}
+Gets information about active sessions for a Microsoft Dynamics NAV Server instance.
 
 ### [Get-NAVServerUser](Get-NAVServerUser.md)
-{{Manually Enter Get-NAVServerUser Description Here}}
+Gets information about all users created in the current Microsoft Dynamics NAV database.
 
 ### [Get-NAVServerUserPermissionSet](Get-NAVServerUserPermissionSet.md)
-{{Manually Enter Get-NAVServerUserPermissionSet Description Here}}
+Gets permission set information for Dynamics NAV users.
 
 ### [Get-NAVTableConnection](Get-NAVTableConnection.md)
-{{Manually Enter Get-NAVTableConnection Description Here}}
+Gets a list of connections to external database tables from a Dynamics NAV application.
 
 ### [Get-NAVTenant](Get-NAVTenant.md)
-{{Manually Enter Get-NAVTenant Description Here}}
+Gets the tenants that are mounted against the specified Dynamics NAV Server instance.
 
 ### [Get-NAVWebServerInstance](Get-NAVWebServerInstance.md)
-{{Manually Enter Get-NAVWebServerInstance Description Here}}
+Gets the information about the Dynamics NAV Web Server instances that are registered on a computer.
 
 ### [Get-NAVWebService](Get-NAVWebService.md)
-{{Manually Enter Get-NAVWebService Description Here}}
+Gets a list of all web services that are created in the application on the specified Dynamics NAV Server instance.
 
 ### [Import-NAVConfigurationPackageFile](Import-NAVConfigurationPackageFile.md)
-{{Manually Enter Import-NAVConfigurationPackageFile Description Here}}
+Imports a configuration package file into the Dynamics NAV application database.
 
 ### [Import-NAVData](Import-NAVData.md)
-{{Manually Enter Import-NAVData Description Here}}
+Imports data from a file that has been exported from a Dynamics NAV database.
 
 ### [Import-NAVEncryptionKey](Import-NAVEncryptionKey.md)
-{{Manually Enter Import-NAVEncryptionKey Description Here}}
+Imports an encryption key from a file to a Dynamics NAV Server instance and database in SQL Server.
 
 ### [Import-NAVMembershipEntitlement](Import-NAVMembershipEntitlement.md)
-{{Manually Enter Import-NAVMembershipEntitlement Description Here}}
+Imports the license entitlement data for a membership association.
 
 ### [Import-NAVServerLicense](Import-NAVServerLicense.md)
-{{Manually Enter Import-NAVServerLicense Description Here}}
+Imports a license file into a Microsoft Dynamics NAV database.
 
 ### [Invoke-NAVCodeunit](Invoke-NAVCodeunit.md)
-{{Manually Enter Invoke-NAVCodeunit Description Here}}
+Invokes the specified codeunit with the specified parameters.
 
 ### [Mount-NAVApplication](Mount-NAVApplication.md)
-{{Manually Enter Mount-NAVApplication Description Here}}
+Mounts the Dynamics NAV application against the specified server instance.
 
 ### [Mount-NAVTenant](Mount-NAVTenant.md)
-{{Manually Enter Mount-NAVTenant Description Here}}
+Mounts a tenant database against the specified Dynamics NAV Server instance.
 
 ### [New-NAVAddIn](New-NAVAddIn.md)
-{{Manually Enter New-NAVAddIn Description Here}}
+Registers an add-in the system table 2000000069 Add-ins of the Dynamics NAV database.
 
 ### [New-NAVCompany](New-NAVCompany.md)
-{{Manually Enter New-NAVCompany Description Here}}
+Creates a new Dynamics NAV company in the specified database.
 
 ### [New-NAVDatabase](New-NAVDatabase.md)
-{{Manually Enter New-NAVDatabase Description Here}}
+Creates a new Dynamics NAV database from a backup file.
 
 ### [New-NAVEncryptionKey](New-NAVEncryptionKey.md)
-{{Manually Enter New-NAVEncryptionKey Description Here}}
+Create an encryption key and stores it in a file in a specified path on the computer or network.
 
 ### [New-NAVServerAppConfiguration](New-NAVServerAppConfiguration.md)
-{{Manually Enter New-NAVServerAppConfiguration Description Here}}
+Creates a new application-specific configuration file for the Dynamics NAV Server instance.
 
 ### [New-NAVServerConfiguration](New-NAVServerConfiguration.md)
-{{Manually Enter New-NAVServerConfiguration Description Here}}
+Creates a new configuration with default values, or to replace the existing configuration for a Dynamics NAV Server instance.
 
 ### [New-NAVServerInstance](New-NAVServerInstance.md)
-{{Manually Enter New-NAVServerInstance Description Here}}
+Creates a new Dynamics NAV Server instance.
 
 ### [New-NAVServerPermission](New-NAVServerPermission.md)
-{{Manually Enter New-NAVServerPermission Description Here}}
+Adds a new permission to a permission set.
 
 ### [New-NAVServerPermissionSet](New-NAVServerPermissionSet.md)
-{{Manually Enter New-NAVServerPermissionSet Description Here}}
+Creates a new permission set.
 
 ### [New-NAVServerUser](New-NAVServerUser.md)
-{{Manually Enter New-NAVServerUser Description Here}}
+Creates a new Dynamics NAV user.
 
 ### [New-NAVServerUserPermissionSet](New-NAVServerUserPermissionSet.md)
-{{Manually Enter New-NAVServerUserPermissionSet Description Here}}
+Assigns a permission set to a Dynamics NAV user.
 
 ### [New-NAVTableConnection](New-NAVTableConnection.md)
-{{Manually Enter New-NAVTableConnection Description Here}}
+Registers a connection to an external database table so the table can be used by the Dynamics NAV application.
 
 ### [New-NAVWebServerInstance](New-NAVWebServerInstance.md)
-{{Manually Enter New-NAVWebServerInstance Description Here}}
+Creates a new Dynamics NAV Web Server instance and binds this instance to a Dynamics NAV Server instance.
 
 ### [New-NAVWebService](New-NAVWebService.md)
-{{Manually Enter New-NAVWebService Description Here}}
+Creates a new Dynamics NAV web service.
 
 ### [Remove-NAVAddIn](Remove-NAVAddIn.md)
-{{Manually Enter Remove-NAVAddIn Description Here}}
+Removes an add-in that is registered in the system table 2000000069 Add-ins of the Dynamics NAV database.
 
 ### [Remove-NAVApplication](Remove-NAVApplication.md)
-{{Manually Enter Remove-NAVApplication Description Here}}
+Removes the tables that define the application from a Dynamics NAV database.
 
 ### [Remove-NAVCompany](Remove-NAVCompany.md)
-{{Manually Enter Remove-NAVCompany Description Here}}
+Removes a company from a Dynamics NAV database.
 
 ### [Remove-NAVConfigurationPackageFile](Remove-NAVConfigurationPackageFile.md)
-{{Manually Enter Remove-NAVConfigurationPackageFile Description Here}}
+Removes a configuration package file from the Dynamics NAV app database.
 
 ### [Remove-NAVServerInstance](Remove-NAVServerInstance.md)
-{{Manually Enter Remove-NAVServerInstance Description Here}}
+Removes a Dynamics NAV Server instance.
 
 ### [Remove-NAVServerPermission](Remove-NAVServerPermission.md)
-{{Manually Enter Remove-NAVServerPermission Description Here}}
+Removes a permission from a permission set.
 
 ### [Remove-NAVServerPermissionSet](Remove-NAVServerPermissionSet.md)
-{{Manually Enter Remove-NAVServerPermissionSet Description Here}}
+Removes a Dynamics NAV permission set.
 
 ### [Remove-NAVServerSession](Remove-NAVServerSession.md)
-{{Manually Enter Remove-NAVServerSession Description Here}}
+Closes the specified client connection to a Dynamics NAV Server instance.
 
 ### [Remove-NAVServerUser](Remove-NAVServerUser.md)
-{{Manually Enter Remove-NAVServerUser Description Here}}
+Deletes a Microsoft Dynamics NAV user.
 
 ### [Remove-NAVServerUserPermissionSet](Remove-NAVServerUserPermissionSet.md)
-{{Manually Enter Remove-NAVServerUserPermissionSet Description Here}}
+Removes a permission set from the list of permission sets that are assigned to a Dynamics NAV user.
 
 ### [Remove-NAVTableConnection](Remove-NAVTableConnection.md)
-{{Manually Enter Remove-NAVTableConnection Description Here}}
+Removes a connection to an external database table from the Dynamics NAV application.
 
 ### [Remove-NAVWebServerInstance](Remove-NAVWebServerInstance.md)
-{{Manually Enter Remove-NAVWebServerInstance Description Here}}
+Removes an existing Dynamics NAV Web Server instance.
 
 ### [Remove-NAVWebService](Remove-NAVWebService.md)
-{{Manually Enter Remove-NAVWebService Description Here}}
+Removes the specified web services from the application that is mounted against the specified  Dynamics NAV Server instance.
 
 ### [Rename-NAVCompany](Rename-NAVCompany.md)
-{{Manually Enter Rename-NAVCompany Description Here}}
+Renames a company in a Dynamics NAV database.
 
 ### [Resume-NAVDataUpgrade](Resume-NAVDataUpgrade.md)
-{{Manually Enter Resume-NAVDataUpgrade Description Here}}
+Resumes a suspended data upgrade process.
 
 ### [Set-NAVAddIn](Set-NAVAddIn.md)
-{{Manually Enter Set-NAVAddIn Description Here}}
+Specifies the description, category, resource or resourcefile of an add-in that is registered in the system table 2000000069 Add-ins of the Dynamics NAV database.
 
 ### [Set-NAVServerAppConfiguration](Set-NAVServerAppConfiguration.md)
-{{Manually Enter Set-NAVServerAppConfiguration Description Here}}
+Specifies a setting in an application-specific configuration file for a Dynamics NAV Server instance.
 
 ### [Set-NAVServerConfiguration](Set-NAVServerConfiguration.md)
-{{Manually Enter Set-NAVServerConfiguration Description Here}}
+Specifies settings for a Dynamics NAV Server instance.
 
 ### [Set-NAVServerInstance](Set-NAVServerInstance.md)
-{{Manually Enter Set-NAVServerInstance Description Here}}
+Specifies the service state of a Dynamics NAV Server instance.
 
 ### [Set-NAVServerPermission](Set-NAVServerPermission.md)
-{{Manually Enter Set-NAVServerPermission Description Here}}
+Specifies the values for an existing permission set.
 
 ### [Set-NAVServerPermissionSet](Set-NAVServerPermissionSet.md)
-{{Manually Enter Set-NAVServerPermissionSet Description Here}}
+Specifies a new name for a Dynamics NAV permission set.
 
 ### [Set-NAVServerUser](Set-NAVServerUser.md)
-{{Manually Enter Set-NAVServerUser Description Here}}
+Specifies configuration settings of an existing Dynamics NAV user.
 
 ### [Set-NAVWebServerInstanceConfiguration](Set-NAVWebServerInstanceConfiguration.md)
-{{Manually Enter Set-NAVWebServerInstanceConfiguration Description Here}}
+Specifies configuration values for a named web server instance.
 
 ### [Start-NAVDataUpgrade](Start-NAVDataUpgrade.md)
-{{Manually Enter Start-NAVDataUpgrade Description Here}}
+Starts the process for upgrading the data in the tenant database.
 
 ### [Stop-NAVDataUpgrade](Stop-NAVDataUpgrade.md)
-{{Manually Enter Stop-NAVDataUpgrade Description Here}}
+Stops the data upgrade process that is currently running or suspended.
 
 ### [Sync-NAVTenant](Sync-NAVTenant.md)
-{{Manually Enter Sync-NAVTenant Description Here}}
+Synchronizes a tenant database schema with an application database.
 
 ### [Update-NAVScheduledTaskList](Update-NAVScheduledTaskList.md)
-{{Manually Enter Update-NAVScheduledTaskList Description Here}}
-
+Updates the application-wide list of scheduled tasks with the information from the tenant database.
