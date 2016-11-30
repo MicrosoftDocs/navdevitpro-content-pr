@@ -21,7 +21,7 @@ Use the Remove-NAVApplicationObjectLanguage cmdlet to remove a language from a s
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 PS C:\>Remove-NAVApplicationObjectLanguage -Source TAB14.TXT, PAG9.TXT -Destination .\RESULT
 ```

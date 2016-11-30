@@ -21,7 +21,7 @@ Use the Export-NAVAppPermissionSet cmdlet to export a permission set (or multipl
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1
 ```
 Export-NAVAppPermissionSet -ServerInstance DynamicsNAV90 -Path '.\PermissionSet.xml' -PermissionSetId PSA-VIEW
 ```
@@ -32,7 +32,7 @@ Description
 
 This example exports the permission set with the ID "PSA-VIEW" in the database that is used by the DynamicsNAV90 server instance to the PermissionSet.xml file.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### Example 2
 ```
 $PermissionSetFile=Export-NAVAppPermissionSet -ServerInstance DynamicsNAV90 -Path '.\PermissionSet.xml' -PermissionSetId PSA-VIEW -PassThru
 

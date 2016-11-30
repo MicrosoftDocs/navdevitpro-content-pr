@@ -22,7 +22,7 @@ You can use the Get-NAVApplicationObjectProperty cmdlet to extract information a
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 PS C:\>Set-NAVApplicationObjectProperty -TargetPath .\COD1.txt -VersionListProperty "DemoV1" -ModifiedProperty Yes -DateTimeProperty (Get-Date -Format g)
 ```
@@ -35,7 +35,7 @@ This example sets new the values for the Version List, Date, Time, and Modified 
 The date and time is set to the current date and time.
 When the update completes, the status is shown, including the updated values of the properties.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 PS C:\>Set-NAVApplicationObjectProperty -TargetPath .\COD1.TXT -DateTimeProperty (Get-Date -Year 2016 -Month 1 -Day 1 -Hour 0 -Minute 0 -Format g) }
 ```
@@ -48,7 +48,7 @@ This example sets a new value for the Date and Time properties in the specified 
 The date and time is set to a specific, locale-agnostic date and time, January 1st, 2015.
 When the update completes, the status is shown, including the updated values of the properties.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### EXAMPLE 3
 ```
 PS C:\>Merge-NAVApplicationObject -OriginalPath .\ORIGINAL\*.txt -ModifiedPath .\MODIFIED\*.txt -TargetPath .\TARGET\*.txt -ResultPath .\RESULT -Force -PassThru |
           Where-Object MergeResult -eq 'Merged' |
@@ -63,7 +63,7 @@ This example sets a new value for the Date and Time properties in the target fil
 The date and time is set to a specific, locale-agnostic date and time, January 1st, 2016.
 When the update completes, the status is shown, including the updated values of the properties.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### EXAMPLE 4
 ```
 PS C:\>$result = Merge-NAVApplicationObject -OriginalPath .\ORIGINAL\*.txt -ModifiedPath .\MODIFIED\*.txt -TargetPath .\TARGET\*.txt -ResultPath .\RESULT -Force
           $result |

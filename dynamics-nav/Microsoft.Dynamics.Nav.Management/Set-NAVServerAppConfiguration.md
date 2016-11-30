@@ -25,7 +25,7 @@ The settings that you add in the application-specific configuration file will be
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Set-NAVServerAppConfiguration -ServerInstance DynamicsNAV  -ApplicationId FIN -KeyName AppProtocolName 
 -KeyValue 'ms-financials'

@@ -32,7 +32,7 @@ By default, encryption keys are stored in the C:\ProgramData\Microsoft\Microsoft
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Import-NAVEncryptionKey -ServerInstance DynamicsNAV -KeyPath "C:\Keys\nav.key" - ApplicationDatabaseServer MyNavSQLServer\MyNAV -ApplicationDatabaseName MyNavDB -Password (Get-Credential).Password
 ```

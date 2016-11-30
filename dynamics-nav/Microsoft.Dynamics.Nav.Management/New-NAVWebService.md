@@ -23,7 +23,7 @@ In a multitenant deployment of Microsoft Dynamics NAV, web services are created 
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 New-NAVWebService -ServerInstance DynamicsNAV -ServiceName Customer -ObjectType Page -ObjectId 21 -Published 1
 ```

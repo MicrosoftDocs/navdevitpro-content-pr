@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Apps.Tools.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -34,7 +34,7 @@ Then when using the NEW-NAVAppPackage cmdlet to create the NAV App package, the 
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1
 ```
 Compare-NAVAppApplicationObjectLanguage -OriginalPath /MLORIGINAL -ModifiedPath /MLMODIFIED -DeltaPath /MLDELTA
 
@@ -49,7 +49,7 @@ Description
 This example compares the language text files in the MLORIGINAL and MLMODIFIED folders, creating the resulting delta language text files in the MLDELTA folder.
 When the comparison completes, a summary is shown.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### Example 2
 ```
 Compare-NAVAppApplicationObjectLanguage -OriginalPath /MLORIGINAL -ModifiedPath /MLMODIFIED -DeltaPath /MLDELTA -Confirm
 
@@ -65,7 +65,7 @@ This example compares the language text files in the MLORIGINAL and MLMODIFIED f
 The -Confirm parameter specifies that the user must confirm the process.
 When the comparison completes, a summary is shown.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### Example 3
 ```
 Compare-NAVAppApplicationObjectLanguage -OriginalPath /MLORIGINAL -ModifiedPath /MLMODIFIED -DeltaPath /MLDELTA -Confirm
 
@@ -81,7 +81,7 @@ This example compares the language text files in the MLORIGINAL and MLMODIFIED f
 The -Force parameter specifies that an existing file in the delta folder with the same name will be overwritten without prompting the user.
 When the comparison completes, a summary is shown.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### Example 4
 ```
 Compare-NAVAppApplicationObjectLanguage -OriginalPath /MLORIGINAL -ModifiedPath /MLMODIFIED -DeltaPath /MLDELTA -PassThru
 
@@ -135,7 +135,7 @@ Forces the command to run without asking for user confirmation to overwrite an e
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -196,4 +196,3 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
-

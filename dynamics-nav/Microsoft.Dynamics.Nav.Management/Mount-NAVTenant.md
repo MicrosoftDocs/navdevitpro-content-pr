@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -43,7 +43,7 @@ To synchronize the tenant database against the application database, you must us
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Mount-NAVTenant DynamicsNAV -Id 'Test' -DatabaseName 'Test_Database'
 ```
@@ -54,7 +54,7 @@ Description
 
 This example mounts a tenant, 'Test', that is based on the tenant database 'Test_Database' on the specified Microsoft Dynamics NAV Server instance.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Mount-NAVTenant DynamicsNAV Test Test_Database
 ```
@@ -66,7 +66,7 @@ Description
 This example mounts a tenant, 'Test', that is based on the tenant database 'Test_Database' on the specified Microsoft Dynamics NAV Server instance.
 The example uses positional arguments for the parameter values.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### EXAMPLE 3
 ```
 Mount-NAVTenant DynamicsNAV -Id 'Test' -DatabaseName 'Test_Database' -DatabaseCredentials (Get-Credential)
 ```
@@ -78,7 +78,7 @@ Description
 This example mounts a tenant, 'Test', that is based on the tenant database 'Test_Database' on the specified Microsoft Dynamics NAV Server instance.
 The example configures SQL authentication on the connection to the database with credentials that are obtained from the Get-Credential cmdlet.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### EXAMPLE 4
 ```
 Get-NAVTenant Server1 | Mount-NAVTenant Server2
 ```
@@ -90,7 +90,7 @@ Description
 This example gets information about the tenants that are mounted against the Server1 Microsoft Dynamics NAV Server instance and mounts them against the Server2 instance.
 You must then dismount the tenants from the Server1 instance.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### EXAMPLE 5
 ```
 Get-NAVTenant Server1 | Dismount-NavTenant Server1 -Force | Mount-NAVTenant Server2
 ```
@@ -101,7 +101,7 @@ Description
 
 This example gets information about the tenants that are mounted against the Server1 Microsoft Dynamics NAV Server instance, dismounts them, and then mounts them against the Server2 instance.
 
-### -------------------------- EXAMPLE 6 --------------------------
+### EXAMPLE 6
 ```
 Mount-NAVTenant DynamicsNAV -Id 'Test' -DatabaseName 'Test_Database'-AlternateId @( "test.mydomain.com", "http://mydomain.sharepoint.com/sites/teamsite" )
 ```
@@ -112,7 +112,7 @@ Description
 
 This example mounts a tenant, 'Test', that is based on the tenant database 'Test_Database' on the specified Microsoft Dynamics NAV Server instance and adds a domain name and a SharePoint host URL to the alternative IDs.
 
-### -------------------------- EXAMPLE 7 --------------------------
+### EXAMPLE 7
 ```
 Mount-NAVTenant -Id 'Test' -DatabaseName 'Test_Database' -DatabaseCredentials (Get-Credential) -ApplicationDatabaseServer 'MySQLServer\NAV' -ApplicationDatabaseName 'MyNavAppDatabase' -ApplicationDatabaseCredentials (Get-Credential) -KeyFilePath 'C:\key\nav.key' -KeyFilePassword (Get-Credential).Password
 ```
@@ -133,13 +133,13 @@ Specifies the the GUID of the tenant in Azure Active Directory for the Dynamics 
 The tenant ID is used for authenticating Dynamics NAV users with Azure AD.
 
 The Azure AD Tenant ID identities the directory for the Microsoft Dynamics NAV application in Azure AD.
-The tenant ID can be the tenant's domain name or GUID. 
+The tenant ID can be the tenant's domain name or GUID.
 You can get the domain name from the Domain settings for the AD tenant (directory) in the Azure Management Portal.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -155,7 +155,7 @@ The default value is false.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -171,7 +171,7 @@ If you use alternative IDs for tenant resolution in the Microsoft Dynamics NAV W
 ```yaml
 Type: System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -189,7 +189,7 @@ This parameter is only relevant when you set with the ApplicationDatabaseServer 
 ```yaml
 Type: PSCredential
 Parameter Sets: UseDatabase
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -206,7 +206,7 @@ This parameter, together with the ApplicationDatabaseServer parameter, enables y
 ```yaml
 Type: String
 Parameter Sets: UseDatabase
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -222,7 +222,7 @@ This parameter, together with the ApplicationDatabaseName parameter, enables you
 ```yaml
 Type: String
 Parameter Sets: UseDatabase
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -239,7 +239,7 @@ The login account must be a member of the db_owner role on the database.
 ```yaml
 Type: PSCredential
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -255,7 +255,7 @@ You can also specify the instance in the DatabaseServer parameter, such as MySer
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -270,7 +270,7 @@ Specifies the name of the Microsoft Dynamics NAV database that you want to mount
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 3
@@ -285,7 +285,7 @@ Specifies the name of the database server that hosts the Microsoft Dynamics NAV 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -300,7 +300,7 @@ Specifies the name of the company that NAS services, OData web services, and SOA
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -321,7 +321,7 @@ If this parameter is not specified, the value is taken from the ServicesDefaultT
 ```yaml
 Type: TimeZoneInfo
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -336,7 +336,7 @@ Specifies the name of the encryption provider.
 ```yaml
 Type: EncryptionProvider
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -346,7 +346,7 @@ Accept wildcard characters: False
 ```
 
 ### -ExchangeAuthenticationMetadataLocation
-Specifies the URL for Microsoft Exchange authentication metadata document of the service or authority that is trusted to sign Exchange identity tokens. 
+Specifies the URL for Microsoft Exchange authentication metadata document of the service or authority that is trusted to sign Exchange identity tokens.
 This URL is compared to the Exchange authentication metadata document URL in the Exchange identity token.
 The scheme and host part of the two URLs must match to pass authentication.
 Paths in the URLs require only partial match.
@@ -354,7 +354,7 @@ Paths in the URLs require only partial match.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -385,7 +385,7 @@ The default value is false.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -401,7 +401,7 @@ If this is false, and the tenant database has previously been mounted with a dif
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -418,7 +418,7 @@ The default is false.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -434,7 +434,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: UseNST
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -451,7 +451,7 @@ The list of scheduled tasks can be updated with the Update-NavScheduledTaskList 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -496,7 +496,7 @@ Accept wildcard characters: False
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -513,4 +513,3 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
-

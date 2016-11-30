@@ -21,7 +21,7 @@ The data must be for a new non-company table created as part of the extension pa
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1
 ```
 Export-NAVAppTableData -ServerInstance DynamicsNAV90 -Path '.\' -TableId 10000
 ```

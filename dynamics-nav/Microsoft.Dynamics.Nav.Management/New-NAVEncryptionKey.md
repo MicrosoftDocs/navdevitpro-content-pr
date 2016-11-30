@@ -26,7 +26,7 @@ The New-NAVEncryptionKey cmdlet enables you to specify a destination file for th
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Export-NAVEncryptionKey -ServerInstance DynamicsNAV -KeyPath "C:\Keys\nav.key" -Password (Get-Credential).Password
 ```

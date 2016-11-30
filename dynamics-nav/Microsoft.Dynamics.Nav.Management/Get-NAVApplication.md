@@ -23,7 +23,7 @@ If you have not exported the application tables to a dedicated application datab
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Get-NAVApplication -ServerInstance DynamicsNAV
 ```

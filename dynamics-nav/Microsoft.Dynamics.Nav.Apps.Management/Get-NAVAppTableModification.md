@@ -28,7 +28,7 @@ The list of deployed Extensions can include all Extensions that have been publis
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Get-NavAppTableModifications -ServerInstance DynamicsNAV91
 
@@ -55,7 +55,7 @@ Description
 
 This example returns table modifications from all of the Extensions published on the DynamicsNAV91 server instance.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Get-NavAppTableModifications -ServerInstance DynamicsNAV91 -Name 'Proseware SmartApp' -Version 2.3.4.500
 
@@ -74,7 +74,7 @@ Description
 
 This example returns table modifications from the Extension with the specified name and version on the DynamicsNAV91 server instance.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### EXAMPLE 3
 ```
 Get-NavAppTableModifications -ServerInstance DynamicsNAV91 -Publisher 'Proseware, Inc.'
 
@@ -101,7 +101,7 @@ Description
 
 This example returns table modifications from the Extensions on the DynamicsNAV91 server instance that are published by Proseware, Inc.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### EXAMPLE 4
 ```
 Get-NavAppTableModifications -ServerInstance DynamicsNAV91 -Tenant 'Tenant1'
 
@@ -120,7 +120,7 @@ Description
 
 This example returns table modifications from the Extensions installed for Tenant1 on the DynamicsNAV91 server instance.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### EXAMPLE 5
 ```
 Get-NavAppTableModifications -ServerInstance DynamicsNAV91 -Tenant default
 

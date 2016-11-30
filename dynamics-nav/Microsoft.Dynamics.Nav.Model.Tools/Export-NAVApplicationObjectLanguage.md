@@ -30,7 +30,7 @@ Or you can choose to store the languages in memory so that you can pipe the resu
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 PS C:\>Export-NAVApplicationObjectLanguage -Source .\ORIGINAL\ -LanguageId "DEU","FRA" -Destination .\RESULT\
 ```
@@ -42,7 +42,7 @@ Description
 This example exports the DEU and FRA languages from the Microsoft Dynamics NAV application objects that are in the ORIGINAL folder.
 The result of the export is a separate text file for each object and for each language, such as TAB18-DEU.txt and TAB18-FRA.txt.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 PS C:\>Export-NAVApplicationObjectLanguage -Source .\ORIGINAL\ -LanguageId "DEU","FRA" -Destination .\RESULT\languages.txt
 ```
@@ -54,7 +54,7 @@ Description
 This example exports the DEU and FRA languages from the Microsoft Dynamics NAV application objects that are in the ORIGINAL folder.
 The result of the export is a single text file in the RESULT folder that lists all strings for all objects in one language first and then the other language.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### EXAMPLE 3
 ```
 PS C:\>Export-NAVApplicationObjectLanguage -Source .\ORIGINAL\ -LanguageId "DEU","FRA" -Destination .\RESULT\languages.txt
           Get-Content .\RESULT\languages.txt |
@@ -70,7 +70,7 @@ This example is similar to example 2 and exports the DEU and FRA languages to a 
 The exported captions are read into memory, sorted by object ID so that the DEU and FRA captions for the same object are listed together.
 This new result is saved to a new file.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### EXAMPLE 4
 ```
 PS C:\>foreach ($lang in ('DEU', 'FRA'))
           {

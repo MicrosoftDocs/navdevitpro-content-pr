@@ -34,7 +34,7 @@ You can use the Mount-NAVTenant and Dismount-NAVTenant cmdlets to mount and dism
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Get-NAVTenant -ServerInstance 'DynamicsNAV'
 

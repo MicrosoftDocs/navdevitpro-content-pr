@@ -31,7 +31,7 @@ Login Datetime
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Get-NAVServerSession -ServerInstance DynamicsNAV -Tenant default
 

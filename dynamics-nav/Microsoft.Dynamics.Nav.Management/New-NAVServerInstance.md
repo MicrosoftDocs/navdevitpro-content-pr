@@ -29,7 +29,7 @@ All permissions that are required for the instance to start are configured autom
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 New-NAVServerInstance NewInstance -ManagementServicesPort 8099 -ClientServicesPort 8100 -SOAPServicesPort 8101 -ODataServicesPort 8102 -verbose
 
@@ -49,7 +49,7 @@ Description
 This example creates a new Microsoft Dynamics NAV Server instance.
 It configures the necessary firewall exceptions and performs the necessary Access Control List registrations.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Get-Credential | New-NAVServerInstance NewInstance -ServiceAccount User -ManagementServicesPort 8099 -ClientServicesPort 8100 -SOAPServicesPort 8101 -ODataServicesPort 8102 -verbose
 

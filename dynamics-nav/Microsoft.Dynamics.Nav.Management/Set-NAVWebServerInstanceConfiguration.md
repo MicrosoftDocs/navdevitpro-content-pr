@@ -24,7 +24,7 @@ When the application pool is recycled by the IIS, static state such as client se
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Set-NAVWebServerInstanceConfiguration -WebServerInstance DynamicsNAV -KeyName CompanyName -KeyValue "CRONUS International Ltd."
 ```

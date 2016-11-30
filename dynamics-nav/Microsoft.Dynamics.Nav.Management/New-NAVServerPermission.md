@@ -23,7 +23,7 @@ Use the New-NAVServerPermission cmdlet to add a permission to a permission set.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Set-NAVServerPermission DynamicsNAV -PermissionSetId BASIC -ObjectType Page -ObjectId 21 -Read Indirect
 ```

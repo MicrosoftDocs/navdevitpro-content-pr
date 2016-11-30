@@ -21,7 +21,7 @@ Use the Export-NAVAppReportLayout cmdlet to export a custom report layout from a
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1
 ```
 Export-NAVAppReportLayout -ServerInstance DynamicsNAV91 -Path .\ReportLayout.layoutdata -LayoutId MS-1016-DEFAULT
 ```
@@ -32,7 +32,7 @@ Description
 
 This example exports the report layout with the code 'MS-1016-DEFAULT' in the database that is used by the DynamicsNAV91 server instance to the ReportLayout.layoutdata file.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### Example 2
 ```
 Export-NAVAppReportLayout -ServerInstance DynamicsNAV91 -Path .\ReportLayout.layoutdata -LayoutId MS-1016-DEFAULT -PassThru
 

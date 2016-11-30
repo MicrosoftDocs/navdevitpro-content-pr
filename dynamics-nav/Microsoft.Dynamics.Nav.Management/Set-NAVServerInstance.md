@@ -23,7 +23,7 @@ You can also use this cmdlet to change the service account for a server instance
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Set-NAVServerInstance MyInstance -Restart -Verbose
 

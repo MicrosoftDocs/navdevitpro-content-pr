@@ -32,7 +32,7 @@ Then, you use Update-NAVApplicationObject cmdlet to apply the delta to target fi
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 PS C:\>Update-NAVApplicationObject -TargetPath C:\Solution\TARGET\*.txt -DeltaPath C:\Solution\DELTA\*.txt -ResultPath C:\Solution\RESULT\
 ```

@@ -33,7 +33,7 @@ Use the SandboxDatabaseName, SandboxDatabaseServer, and SandboxDatabaseCredentia
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Publish-NAVApp -ServerInstance DynamicsNAV91 -Path '.\Proseware SmartApp.navx'
 ```
@@ -44,7 +44,7 @@ Description
 
 This example publishes the Extension from the Proseware SmartApp.navx package to the DynamicsNAV91 server instance.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Publish-NAVApp -ServerInstance DynamicsNAV91 -Path '.\Proseware SmartApp.navx' -PassThru
 
@@ -59,7 +59,7 @@ Description
 
 This example publishes the Extension from the Proseware SmartApp.navx package to the DynamicsNAV91 server instance and then returns an Extension object.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### EXAMPLE 3
 ```
 Publish-NAVApp -ServerInstance DynamicsNAV91 -Path '.\Proseware SmartApp.navx' -LogPath c:\temp\myerror.log
 ```
@@ -72,7 +72,7 @@ This example will attempt to publish the Extension from the Proseware SmartApp.n
 The -LogPath will specify the path to a file where errors will be written.
 If the file exists then errors will be appended.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### EXAMPLE 4
 ```
 Publish-NAVApp -ServerInstance DynamicsNAV91 -Path '.\Proseware SmartApp.navx' -SandboxDatabaseName DynamicsNAV90_Sandbox -SandboxDatabaseServer NAV_SQLServer -SandboxDatabaseCredentials (Get-Credential)
 ```
@@ -84,7 +84,7 @@ Description
 This example publishes the Extension from the Proseware SmartApp.navx package to the DynamicsNAV91 server instance by using the DynamicsNAV90_Sandbox database on the NAV_SQLServer in Azure as a sandbox.
 All data within the DynamicsNAV91_Sandbox database will be overwritten.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### EXAMPLE 5
 ```
 Publish-NAVApp -ServerInstance DynamicsNAV91 -Path '.\Proseware SmartApp.navm' -PackageType SymbolsOnly
 ```

@@ -21,7 +21,7 @@ Use the Rename-NAVCompany cmdlet to rename a company in a Microsoft Dynamics NAV
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Rename-NAVCompany -ServerInstance 'DynamicsNAV' -CompanyName 'CRONUS International Ltd.' -NewCompanyName 'MyCompany' -Verbose
 
@@ -40,7 +40,7 @@ Description
 This example renames the CRONUS International Ltd.
 in the CRONUS database to MyCompany.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Rename-NAVCompany -ServerInstance 'DynamicsNAV' -CompanyName 'CRONUS International Ltd.' -NewCompanyName 'MyCompany' -ErrorLogFileName C:\NavDatabases\ErrorLog.txt
 ```

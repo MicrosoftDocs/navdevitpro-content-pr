@@ -30,7 +30,7 @@ You can connect to a Microsoft Dynamics NAV database by specifying the Microsoft
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 
 ```

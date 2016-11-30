@@ -29,7 +29,7 @@ Company name, Evaluation Company
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Get-NAVCompany -ServerInstance DynamicsNAV -Tenant CRONUS
 ```
@@ -40,7 +40,7 @@ Description
 
 This example shows a list of companies in the tenant database that has the tenant ID CRONUS and which is mounted against the DynamicsNAV server instance.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Get-NAVCompany -FilePath c:\file\my-exported.navdata
 ```

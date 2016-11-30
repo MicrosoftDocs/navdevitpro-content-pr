@@ -25,7 +25,7 @@ The default setting is to recreate the object, but you can change this by settin
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 PS C:\>Split-NAVApplicationObjectFile -Source C:\Solution\All.txt -Destination C:\Solution\TXT\
 ```
@@ -36,7 +36,7 @@ Description
 
 This example creates separate text files for each application object in the All.txt file, such as TAB18.TXT and TAB27.TXT.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 PS C:\>Split-NAVApplicationObjectFile -Source C:\Solution\All.txt -Destination C:\Solution\TXT\ -PreserveFormatting
 ```

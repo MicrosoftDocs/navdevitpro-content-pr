@@ -20,7 +20,7 @@ Use the Get-NAVAppManifest cmdlet to load a manifest from an NAV App from an ext
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1
 ```
 Get-NAVAppManifest -Path '.\Manifest-Proseware SmartApp.xml'
 
@@ -47,7 +47,7 @@ Description
 
 This example gets a NAV App manifest from an XML manifest file.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### Example 2
 ```
 Get-NAVAppManifest -Path '.\Manifest-Proseware SmartApp.xml' | New-NAVAppPackage -Path 'C:\Proseware SmartApp.navx' -SourcePath C:\NavAppFiles
 ```

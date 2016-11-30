@@ -40,7 +40,7 @@ Use the Get-NAVTableConnection cmdlet to get a list of table connections from th
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 
 ```

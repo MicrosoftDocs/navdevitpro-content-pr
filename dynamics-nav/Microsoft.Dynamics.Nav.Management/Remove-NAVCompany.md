@@ -24,7 +24,7 @@ You must also make sure that you are the only active user for the company before
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Remove-NAVCompany -ServerInstance DynamicsNAV -Tenant CRONUS -CompanyName 'CRONUS International Ltd.'
 ```

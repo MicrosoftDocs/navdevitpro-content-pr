@@ -22,7 +22,7 @@ For example, if you have exported multilanguage files in the Microsoft Dynamics 
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 PS C:\>Import-NAVApplicationObjectLanguage -Source .\TAB14.TXT -LanguageId "ESP" -LanguagePath .\ALL-ESP.TXT -Destination .\RESULT\
 ```

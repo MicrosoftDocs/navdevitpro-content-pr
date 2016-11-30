@@ -34,7 +34,7 @@ For an add-in to be deployed automatically, it must have the same name as the as
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 New-NAVAddIn -ServerInstance DynamicsNAV -Category dotnetcontroladdin -PublicKeyToken 31bf3856ad364e35 -ResourceFile 'c:\addins\MyNavAddin.zip'
 ```

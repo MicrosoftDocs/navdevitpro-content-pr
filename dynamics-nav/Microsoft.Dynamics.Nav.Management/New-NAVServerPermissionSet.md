@@ -22,7 +22,7 @@ After you create a permission set with New-NAVServerPermissionSet, use New-NAVSe
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 New-NAVServerPermissionSet MicrosoftDynamicsNavServer -PermissionSetId TEST -PermissionSetName 'This is a set for TEST.'
 ```
