@@ -1,43 +1,42 @@
 ---
 Module Name: Microsoft.Dynamics.Nav.Apps.Management
 Module Guid: 00000000-0000-0000-0000-000000000000
-Download Help Link: 
+Download Help Link:
 Help Version: 1.0.0.0
 Locale: en-US
 ---
 
 # Microsoft.Dynamics.Nav.Apps.Management Module
 ## Description
-{{Manually Enter Description Here}}
+The Dynamics NAV Administration Shell includes cmdlets for administering the Dynamics NAV deployment, such as adding and configuring Microsoft Dynamics NAV server instances, databases, and users. Also included are cmdlets for administering extension packages. The Dynamics NAV Administration Shell is installed with the Dynamics NAV Server.
 
 ## Microsoft.Dynamics.Nav.Apps.Management Cmdlets
 ### [Get-NAVAppInfo](Get-NAVAppInfo.md)
-{{Manually Enter Get-NAVAppInfo Description Here}}
+Gets information about an NAV App based on the specified package file or the specified Dynamics NAV Server instance.
 
 ### [Get-NAVAppTableModification](Get-NAVAppTableModification.md)
-{{Manually Enter Get-NAVAppTableModification Description Here}}
+Gets information about the tabled added or modified by an Extension based on the specified Dynamics NAV Server instance.
 
 ### [Get-NAVAppTenant](Get-NAVAppTenant.md)
-{{Manually Enter Get-NAVAppTenant Description Here}}
+Gets the tenants where the specified NAV App is installed.
 
 ### [Get-NAVTableSynchSetupForDataUpgrade](Get-NAVTableSynchSetupForDataUpgrade.md)
-{{Manually Enter Get-NAVTableSynchSetupForDataUpgrade Description Here}}
+Gets information about the tables that will be modified, added, or removed during a tenant data upgrade on the specified Microsoft Dynamics NAV Server instance for the specified tenant.
 
 ### [Install-NAVApp](Install-NAVApp.md)
-{{Manually Enter Install-NAVApp Description Here}}
+Installs a published NAV App for a tenant.
 
 ### [Publish-NAVApp](Publish-NAVApp.md)
-{{Manually Enter Publish-NAVApp Description Here}}
+Publishes an Extension to the app catalog of the specified Dynamics NAV Server instance.
 
 ### [Remove-NAVAppsForTenant](Remove-NAVAppsForTenant.md)
-{{Manually Enter Remove-NAVAppsForTenant Description Here}}
+Removes all NAV Apps from the specified, unmounted tenant.
 
 ### [Repair-NAVApp](Repair-NAVApp.md)
-{{Manually Enter Repair-NAVApp Description Here}}
+Repairs a NAV App by recompiling it against the current base application.
 
 ### [Uninstall-NAVApp](Uninstall-NAVApp.md)
-{{Manually Enter Uninstall-NAVApp Description Here}}
+Uninstall a NAV App for a tenant.
 
 ### [Unpublish-NAVApp](Unpublish-NAVApp.md)
-{{Manually Enter Unpublish-NAVApp Description Here}}
-
+Unpublishes a NAV App from the app catalog of the specified Dynamics NAV Server instance.
