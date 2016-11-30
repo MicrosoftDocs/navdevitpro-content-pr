@@ -39,7 +39,7 @@
 ## [Testing the Application](Testing-the-Application.md)
 ## [Debugging](Debugging.md)
 ## [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)
-# [Developing for Dynamics 365 for Financials](newdev-getting-started-dev-env.md)
+# [Developing Extensions Using the New Development Environment](newdev-develop-extensions.md)
 # [Administration](Administration.md)
 ## [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)
 ## [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)

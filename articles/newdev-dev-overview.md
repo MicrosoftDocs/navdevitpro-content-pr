@@ -1,9 +1,9 @@
 ---
-title: "Developing Extensions for Dynamics NAV Overview"
+title: "Developing Extensions Using the New Development Environment"
 description: "Overview of the new development experience."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/25/2016
+ms.date: 11/30/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,14 +14,14 @@ ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 ---
 
 # Developing Extensions for Dynamics NAV Overview
-Developing for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] is done by creating an extension to a [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] solution. Extensions are a programming model where functionality is defined as an addition to existing objects and defines how they are different or modify the behaviour of the solution. 
+Developing for [!INCLUDE[navnow_md](includes/navnow_md.md)] is done by creating an extension to a [!INCLUDE[navnow_md](includes/navnow_md.md)] solution. Extensions are a programming model where functionality is defined as an addition to existing objects and defines how they are different or modify the behaviour of the solution. 
 You might already be familiar with the extension model working with [!INCLUDE[navnow_md](includes/navnow_md.md)]. For more information, see [Extending Microsoft Dynamics NAV Using Extension Packages](../dynamics-nav/extending-microsoft-dynamics-nav-using-extension-packages.md).
 
-If you're new to building extensions for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], we recommend that you read this document to get an understanding of the basics and terms you will encounter while working. Next, follow the [Getting Started Developing for Dynamics 365 for Financials](newdev-geting-started-dev-env.md) to set up your system. 
+If you're new to building extensions for [!INCLUDE[navnow_md](includes/navnow_md.md)], we recommend that you read this document to get an understanding of the basics and terms you will encounter while working. Next, follow the [Getting Started Developing for Dynamics NAV](newdev-getting-started-dev-env.md) to set up your system. 
 <!-- and then jump straight into your first extension - Hello World [link to hello world]().-->
 
-## Understanding Objects in Dynamics 365 for Financials
-All functionality in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] is coded in an object. Table objects define the table schema that holds data, Page objects represent the pages seen in the user interface and codeunits contain code for logical calculations and for the application behavior. These objects are stored as code, known as AL code, and are saved in files with the ```.al``` file extension.  
+## Understanding Objects in Dynamics NAV
+All functionality in [!INCLUDE[navnow_md](includes/navnow_md.md)] is coded in an object. Table objects define the table schema that holds data, Page objects represent the pages seen in the user interface and codeunits contain code for logical calculations and for the application behavior. These objects are stored as code, known as AL code, and are saved in files with the ```.al``` file extension.  
     
     **Note:** A single .al file may contain multiple objects.      
 
@@ -30,7 +30,7 @@ There are two other special objects which are specifically used for building ext
 For more information, see [Page Extension Object](newdev-page-ext-object.md) and [Table Extension Objects](newdev-table-ext-object.md).
 
 ## Developing Extensions in Visual Studio Code
-Using the AL extension for Visual Studio Code, you'll get the benefits of a modern development environment along with seamless publishing and execution integration with your [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] tenant. For more information on getting up and running, see [Getting Started Developing for Dynamics 365 for Financials](../dynamics-nav/newdev-getting-started-dev-env.md).
+Using the AL extension for Visual Studio Code, you'll get the benefits of a modern development environment along with seamless publishing and execution integration with your [!INCLUDE[navnow_md](includes/navnow_md.md)] tenant. For more information on getting up and running, see [Getting Started Developing for Dynamics NAV](../dynamics-nav/newdev-getting-started-dev-env.md).
 
 Visual Studio Code and the AL Extension lets you do the following tasks:
 
@@ -63,14 +63,12 @@ The in-client designer works in the client itself allowing design of pages using
 - Add new fields (for limited types)
 - Save as “MyExtension” which is tenant wide in scope
 
-
 ## Compiling and Deploying
 Extensions are compiled as .navm package files. The .navm package file can be deployed to the [!INCLUDE[nav_server_md](includes/nav_server_md.md)]. A .navm package contains the various artifacts that deliver the new functionality to the [!INCLUDE[navnow_md](includes/navnow_md.md)] deployment as well as a manifest that specifies the name, publisher, version, and other attributes of the extension.
 
-<!-- (Future: You manage .navm packages with a series of Windows PowerShell cmdlets that are available in the Microsoft Dynamics NAV 2017 Administration Shell. There are also cmdlets available to ISVs and developers in the Microsoft Dynamics NAV 2017 Development Shell that help create packages.) --> 
-
 ## See Also
-[Getting Started Developing for Dynamics 365 for Financials](../dynamics-nav/newdev-geting-started-dev-env.md)  
+[Developing Extensions Using the New Development Environment](../dynamics-nav/newdev-develop-extensions.md)  
 [Keyboard Shortcuts](newdev-keyboard-shortcuts.md)  
 [Developer Reference](newdev-reference-overview.md)
+  
 

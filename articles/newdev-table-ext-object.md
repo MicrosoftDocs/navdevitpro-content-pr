@@ -3,7 +3,7 @@ title: "Table Extension Object"
 description: "Description of the table extension object."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/25/2016
+ms.date: 11/30/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -23,10 +23,10 @@ Along with defining other fields, the table extension is where you write trigger
 
 When developing a solution for [!INCLUDE[navnow_md](includes/navnow_md.md)], you will follow the code layout for a table extension as shown in the example below, but for more details on the individual controls and properties that are available, see [Tables](tables.md). 
 
-## Snippet support ##
+## Snippet support
 Typing the shortcut 'te' will create the basic layout for a table extension object when using the AL Extension in Visual Studio Code.
 
-## Properties ##
+## Properties
 Using a table extension allows you to overwrite some properties on fields in the base table. The following properties can be changed:
 
 - optioncaptionML
@@ -58,7 +58,7 @@ tableextension 50090 RetailWinterSportsStore extends Customer
 Tables
 
 ## See Also
-[Table Object](newdev-table-object.md)  
 [Developer Reference](newdev-reference-overview.md)  
+[Table Object](newdev-table-object.md)
 [Tables](tables.md)  
 [Table Properties](table-properties.md)

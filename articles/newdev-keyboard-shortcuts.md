@@ -14,7 +14,7 @@ ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 ---
 
 # Keyboard Shortcuts for the Dynamics 365 for Financials Development Environment
-The following table provides an overview of some of the shortcut key combinations that you can use when you're working with [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] in Visual Studio Code. For a complete overview, see [Key Bindings for Visual Studio Code](https://code.visualstudio.com/docs/customization/keybindings)
+The following table provides an overview of some of the shortcut key combinations that you can use when you're working with [!INCLUDE[navnow_md](includes/navnow_md.md)] in Visual Studio Code. For a complete overview, see [Key Bindings for Visual Studio Code](https://code.visualstudio.com/docs/customization/keybindings)
 
 ## Editing
 |Keyboard Shortcut| Action|
@@ -42,7 +42,7 @@ The following table provides an overview of some of the shortcut key combination
 |F5|Deploy|
 
 ## See Also
-[Getting Started Developing for Dynamics 365 for Financials](../dynamics-nav/newdev-geting-started-dev-env.md)  
+[Developing Extensions Using the New Development Environment](../dynamics-nav/newdev-develop-extensions.md)  
 [Developer Reference](newdev-reference-overview.md)
 
 
