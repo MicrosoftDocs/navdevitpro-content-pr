@@ -146,3 +146,8 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
+[Get-NAVCompany](Get-NAVCompany.md)  
+
+[New-NAVCompany](New-NAVCompany.md)  
+
+[Remove-NAVCompany](Get-NAVCompany.md)
