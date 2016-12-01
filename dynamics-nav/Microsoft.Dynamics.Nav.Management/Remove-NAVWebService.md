@@ -128,4 +128,4 @@ Accept wildcard characters: False
 ## RELATED LINKS
 [Get-NAVWebService](Get-NAVWebService.md)  
 
-[New-NAVWebService](New-NAVWebServer.md)  
+[New-NAVWebService](New-NAVWebService.md)  

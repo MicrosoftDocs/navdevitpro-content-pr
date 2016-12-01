@@ -96,4 +96,4 @@ Returns the Microsoft Dynamics NAV Web Server instance information as a row.
 
 [Remove-NAVWebServerInstance](Remove-NAVWebServerInstance.md)  
 
-[Set-NAVWebServerInstanceConfiguration](Get-NAVWebServerInstanceConfiguration.md)  
+[Set-NAVWebServerInstanceConfiguration](Set-NAVWebServerInstanceConfiguration.md)  

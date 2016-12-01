@@ -104,4 +104,4 @@ You can pipe a string that contains a Microsoft Dynamics NAV Web Server instance
 
 [New-NAVWebServerInstance](New-NAVWebServerInstance.md)  
 
-[Set-NAVWebServerInstanceConfiguration](Get-NAVWebServerInstanceConfiguration.md)  
+[Set-NAVWebServerInstanceConfiguration](Set-NAVWebServerInstanceConfiguration.md)  

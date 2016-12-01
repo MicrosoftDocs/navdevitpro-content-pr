@@ -75,6 +75,6 @@ Accept wildcard characters: False
 ## NOTES
 ## RELATED LINKS
 
-[New-NAVWebService](New-NAVWebServer.md)  
+[New-NAVWebService](New-NAVWebService.md)  
 
 [Remove-NAVWebService](Remove-NAVWebService.md)  

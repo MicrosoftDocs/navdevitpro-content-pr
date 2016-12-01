@@ -135,4 +135,4 @@ Get-NAVWebServerInstance](Get-NAVWebServerInstance.md)
 
 [New-NAVWebServerInstance](New-NAVWebServerInstance.md)  
 
-[Remove-NAVWebServerInstanceConfiguration](Remove-NAVWebServerInstanceConfiguration.md)
+[Remove-NAVWebServerInstance](Remove-NAVWebServerInstance.md)

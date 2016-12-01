@@ -204,4 +204,4 @@ You can pipe a string that contains a Microsoft Dynamics NAV Server instance nam
 
 ## NOTES
 ## RELATED LINKS
-[Get-NAVServerLicenseInformation](Get-NAVServerLicenseInformation.md)
+[Export-NAVServerLicenseInformation](Export-NAVServerLicenseInformation.md)
