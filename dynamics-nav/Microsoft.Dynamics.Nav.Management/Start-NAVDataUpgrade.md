@@ -201,7 +201,7 @@ Accept wildcard characters: False
 ```
 
 ### -Language
-Specifies the language version of Dynamics NAV on which to run the upgrade. The value must be a valid culture name for a language in Microsoft Dynamics NAV, such as en-US or da-DK. If the specified language does not exist on the Microsoft Dynamics NAV Server instance, the codeunit will run in en-US.
+Specifies the language version of Dynamics NAV on which to run the upgrade. The value must be a valid culture name for a language in Microsoft Dynamics NAV, such as en-US or da-DK. If the specified language does not exist on the Microsoft Dynamics NAV Server instance, the language en-US will be used.
 
 ```yaml
 Type: LanguageSetting
