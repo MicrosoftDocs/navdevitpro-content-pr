@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -65,20 +65,12 @@ To import data from a file, use the Import-NAVData cmdlet.
 Export-NAVData -DatabaseServer 'MyServer' -DatabaseName 'Demo Database NAV' -AllCompanies -FilePath C:\file\Companies.navdata
 ```
 
-Description
-
------------
-
 This example exports all companies from the specified database that is mounted against the specified Microsoft Dynamics NAV Server instance in a single-tenant deployment of Microsoft Dynamics NAV.
 
 ### EXAMPLE 2
 ```
 Export-NAVData -ServerInstance DynamicsNAV -Tenant "Tenant1" -CompanyName "Company A, Company B" -FilePath C:\file\Companies.navdata -DatabaseCredentials (Get-Credential)
 ```
-
-Description
-
------------
 
 This example exports the two specified companies from the specified tenant database in a multitenant deployment of Microsoft Dynamics NAV.
 The Microsoft Dynamics NAV Server instance is configured for SQL authentication with the database.
@@ -91,7 +83,7 @@ Specifies if you want to export all companies in the database to the specified f
 ```yaml
 Type: SwitchParameter
 Parameter Sets: UseNST_AllCompanies, UseDatabase_AllCompanies
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -109,7 +101,7 @@ The login account must be a member of the db_owner role on the database.
 ```yaml
 Type: PSCredential
 Parameter Sets: UseDatabase_SomeCompanies, UseDatabase_AllCompanies, UseDatabase_NoCompanies
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -126,7 +118,7 @@ Even if you are not exporting data from the application database, you must speci
 ```yaml
 Type: String
 Parameter Sets: UseDatabase_SomeCompanies, UseDatabase_AllCompanies, UseDatabase_NoCompanies
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -142,7 +134,7 @@ Even if you are not exporting data from the application database, you must speci
 ```yaml
 Type: String
 Parameter Sets: UseDatabase_SomeCompanies, UseDatabase_AllCompanies
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -158,7 +150,7 @@ If the company does not exist in the file, the operation fails.
 ```yaml
 Type: String[]
 Parameter Sets: UseDatabase_SomeCompanies, UseNST_SomeCompanies
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -176,7 +168,7 @@ The login account must be a member of the db_owner role on the database.
 ```yaml
 Type: PSCredential
 Parameter Sets: UseDatabase_SomeCompanies, UseDatabase_AllCompanies, UseDatabase_NoCompanies
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -222,7 +214,7 @@ Specifies a description of the data that you want to export, such as 'My Applica
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -256,7 +248,7 @@ If you do not set the parameter, application objects are not included in the exp
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -272,7 +264,7 @@ If you do not set the parameter, application data is not included in the export.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -288,7 +280,7 @@ If you do not set the parameter, global data is not included in the export.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -304,7 +296,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: UseNST_AllCompanies, UseNST_SomeCompanies
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -335,7 +327,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -350,4 +342,4 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
-
+[Import-NAVData](Import-NAVData.md)
