@@ -53,15 +53,8 @@ The syntax of the AL language is designed to assist in building business applica
 
 For information about AL language changes, see [Differences from the Dynamics NAV Development Environment](newdev-differences.md)
 
-## Visual designer
-The in-client designer works in the client itself allowing design of pages using a drag-and-drop interface. With this preview of the in-client designer, you can:
-
-- Enter and exit design mode
-- Move fields around
-- Preview design on device (Phone, Tablet previewer)
-- Add existing fields (those that exist in the source table)
-- Add new fields (for limited types)
-- Save as “MyExtension” which is tenant wide in scope
+## In-client designer
+The in-client designer works in the client itself allowing design of pages using a drag-and-drop interface. The in-client designer allows building extensions in the client itself by rearranging fields, adding existing fields, and previewing the page design. For more information, see [Using the Dynamics NAV In-Client Designer](newdev-visual-designer.md).
 
 ## Compiling and Deploying
 Extensions are compiled as .navm package files. The .navm package file can be deployed to the [!INCLUDE[nav_server_md](includes/nav_server_md.md)]. A .navm package contains the various artifacts that deliver the new functionality to the [!INCLUDE[navnow_md](includes/navnow_md.md)] deployment as well as a manifest that specifies the name, publisher, version, and other attributes of the extension.
