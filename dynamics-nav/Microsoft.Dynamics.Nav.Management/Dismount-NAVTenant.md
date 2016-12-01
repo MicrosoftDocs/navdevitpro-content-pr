@@ -45,10 +45,6 @@ All active user sessions that access the tenant will end.
 Dismount-NAVTenant DynamicsNAV -Tenant 'Test'
 ```
 
-Description
-
------------
-
 This example dismounts the tenant Test from the specified server instance.
 
 ### EXAMPLE 2
@@ -56,20 +52,12 @@ This example dismounts the tenant Test from the specified server instance.
 Dismount-NAVTenant DynamicsNAV Test
 ```
 
-Description
-
------------
-
 This example dismounts the tenant Test from the specified server instance without being explicit about parameter names.
 
 ### EXAMPLE 3
 ```
 Get-NAVTenant DynamicsNAV | Dismount-NAVTenant
 ```
-
-Description
-
------------
 
 This example gets the tenant information from the DynamicsNAV90Microsoft Dynamics NAV Server instance and passes the information to the Dismount-NAVTenant cmdlet.
 The tenant default is then dismounted.
@@ -79,10 +67,6 @@ The output is a list of the tenant information about all dismounted tenants.
 ```
 Dismount-NAVTenant -Tenant 'Test' -ApplicationDatabaseServer 'MySQLServer\NAV' -ApplicationDatabaseName 'MyNavAppDatabase' -ApplicationDatabaseCredentials (Get-Credential)
 ```
-
-Description
-
------------
 
 This example mounts a tenant, 'Test' by specifying an application database instead of the Microsoft Dynamics NAV Server instance.
 The application database server and instance is 'MySQLServer\NAV', and the application database is 'MyNavAppDatabase'.
@@ -249,9 +233,21 @@ Accept wildcard characters: False
 
 ## INPUTS
 
+### System.String
+You can pass the value of the ServerInstance parameter as a string to this cmdlet.
+
+### Microsoft.Dynamics.Nav.Types.NavTenantRuntimeSettings
+You can pass a Microsoft.Dynamics.Nav.Types.NavTenantRuntimeSettings object from the Tenant parameter on the Get-NAVTenant cmdlet to the Dismount-NAVTenant cmdlet.
+
+### Microsoft.Dynamics.Nav.Types.NavTenantSettings
+You can pass a Microsoft.Dynamics.Nav.Types.NavTenantSettings object from the Tenant parameter on the Get-NAVTenant cmdlet to the Dismount-NAVTenant cmdlet.
+
 ## OUTPUTS
 
 ### Microsoft.Dynamics.Nav.Types.NavTenantSetting
+If the InputObject parameter has been bound to a value, it will be passed through to the pipeline. Otherwise no output value is returned.
 
 ## NOTES
+
 ## RELATED LINKS
+[Mount-NAVTenant](Mount-NAVTenant.md)  
