@@ -1,15 +1,15 @@
 ---
 title: "Using the Development Environment from the Command Prompt"
+author: edupont04
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 12/01/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: cab838ef-0247-4d36-ac42-5c2fd5d7ebbe
-caps.latest.revision: 29
-manager: edupont
+ms.author: edupont
 ---
 # Using the Development Environment from the Command Prompt
 You can start the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] by running finsql.exe at the command prompt. You can also use the finsql.exe command to perform the following development tasks without using the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]:  
@@ -39,6 +39,8 @@ You can start the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] by runni
 -   Set the object cache.  
 
 -   Set the temporary file location.  
+
+-   Enable Unicode for the development environment  
 
 -   Set the path and file name of the ZUP file for storing setup parameters.  
 
@@ -94,6 +96,7 @@ Finsql.exe [command=<command> | designobject=<object type> <object ID>,] [server
 |synchronizeschemachanges|Synchronizes table schema changes for all tables in the database. This is useful when you upgrade from an earlier version of [!INCLUDE[navnow](includes/navnow_md.md)] or when you made changes to a table or multiple tables previously and chose to synchronize later. For more information, see [Synchronizing Table Schemas](Synchronizing-Table-Schemas.md).|All|  
 |temppath|Specifies the path of the location to store temporary files that are created while [!INCLUDE[navnow](includes/navnow_md.md)] runs. These files are automatically deleted when [!INCLUDE[navnow](includes/navnow_md.md)] is closed.<br /><br /> By default, these files are put in the Temp folder for the user, such as \<C:\\Users\\*\<user name>*\\AppData\\Local\\Temp>.<br /><br /> For example, the following command sets the temporary file path to C:\\Temp:<br /><br /> `finsql.exe temppath="c:\temp"`<br /><br /> You can also set the temporary file path from the **Options** window in the Tools menu of the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. For more information, see [Options](uiref/-$-S_2355-Options-$-.md),|None. You use this as a stand-alone parameter with the finsql.exe.|  
 |tenant|Specifies the ID of the tenant that is accessed when you run objects from the development environment. If your solution is not set up to deploy in a multitenant deployment architecture, leave the parameter empty.|[CompileObjects](CompileObjects.md)<br /><br /> [DeleteObjects](DeleteObjects.md)<br /><br /> [ImportObjects](ImportObjects.md)|  
+|unicode|Specifies if you want to open the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] with Unicode enabled.<br /><br />Add the `unicode=1` parameter to finsql.exe if your application objects contain strings such as €, and you want to be able to compile and use the objects on computers with different codepages. |None. This parameter is not relevant when you use command because the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] does not open.|  
 |useoldeditor|Specifies whether to use the C/AL Editor that was available in [!INCLUDE[navcrete](includes/navcrete_md.md)] and earlier versions. The C/AL Editor was redesigned in [!INCLUDE[navcorfu](includes/navcorfu_md.md)].<br /><br /> To use the old editor, specify the parameter as `useoldeditor=yes` or `useoldeditor`.<br /><br /> To use the new editor, omit the parameter or specify it as `useoldeditor=no`.|None. This parameter is not relevant when you use command because the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] does not open.|  
 |username|The user name to use to authenticate to the database. The user name must exist in the database. If you do not specify a user name and password, then the command uses the Windows user name and password of the current user to authenticate to the database.<br /><br /> **Alert:** If User Access Control \(UAC\) is turned on and you do not specify to run the Command Prompt window as Administrator, then the Command Prompt window runs as a standard user. In this case, if you do not specify the *username* parameter and the current Windows user is an Administrator, then the command is run as the standard user.<br /><br /> If you specify the *username* parameter, then you must also specify the *password* parameter and the *ntauthentication* parameter must be **no** or **0**.<br /><br /> For more information about database users and permissions, see [Setting Database Owner and Security Administration Permissions](Setting-Database-Owner-and-Security-Administration-Permissions.md).|All|  
 |  showalldesignercolumns |  Specifies whether to hide or show the **Visible** and **ApplicationArea** columns in Page Designer. The possible values are: **no**, **0**, **yes**, and **1**.</br></br> **no** or **0** - Hides the columns. This is the default setting.</br></br>**yes** or **1** - Shows the column. </br></br>**Note** This parameter is only relevant the very first time the development environment is opened for a new installation. If the development environment has been opened before, this parameter is ignored, and the  column setup parameters are retrieved from the fin.zup file that is used by the development environment. By default, the fin.zup file is located in the  C:\Users\[username]\AppData\Roaming folder.|  All|
