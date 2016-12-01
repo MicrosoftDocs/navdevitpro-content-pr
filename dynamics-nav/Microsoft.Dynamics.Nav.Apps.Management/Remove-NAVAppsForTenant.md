@@ -1,14 +1,13 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Apps.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
 # Remove-NAVAppsForTenant
 
 ## SYNOPSIS
-Removes all NAV Apps from the specified, unmounted tenant.
-This cmdlet should be run against tenants that are not mounted.
+Removes all NAV Apps from the specified, unmounted tenant. This cmdlet should be run against tenants that are not mounted.
 
 ## SYNTAX
 
@@ -27,7 +26,7 @@ This may change the database schema so you must specify if you do not want to sa
 
 ### EXAMPLE 1
 ```
-Remove-NAVAppsForTenant -ApplicationDatabaseName 'Demo Database NAV (9-0)' -ApplicationDatabaseServer NAVSQLServer -DatabaseName Tenant1 -DatabaseServer NAVSQLServer
+Remove-NAVAppsForTenant -ApplicationDatabaseName 'Demo Database NAV' -ApplicationDatabaseServer NAVSQLServer -DatabaseName Tenant1 -DatabaseServer NAVSQLServer
 ```
 
 Description
@@ -39,7 +38,7 @@ If the NAV App contains a schema change, the tenant database will be synchronize
 
 ### EXAMPLE 2
 ```
-Remove-NAVAppsForTenant -ApplicationDatabaseName 'Demo Database NAV (9-0)' -ApplicationDatabaseServer NAVSQLServer -DatabaseName Tenant1 -DatabaseServer NAVSQLServer -DoNotSaveData
+Remove-NAVAppsForTenant -ApplicationDatabaseName 'Demo Database NAV)' -ApplicationDatabaseServer NAVSQLServer -DatabaseName Tenant1 -DatabaseServer NAVSQLServer -DoNotSaveData
 ```
 
 Description
@@ -52,7 +51,7 @@ If the NAV App contains a schema change, the tenant database will be synchronize
 ## PARAMETERS
 
 ### -ApplicationDatabaseCredentials
-Specifies the user name and password of a SQL Server Authentication login account that provides access to the Microsoft Dynamics NAV application database in SQL Server. 
+Specifies the user name and password of a SQL Server Authentication login account that provides access to the Microsoft Dynamics NAV application database in SQL Server.
 
 You use this parameter to access the database by using SQL Server Authentication.
 If you want to use Windows Authentication, then you can omit this parameter.
@@ -62,7 +61,7 @@ The login account must be a member of the db_owner role on the database.
 ```yaml
 Type: PSCredential
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -79,7 +78,7 @@ You must also set the ApplicationDatabaseServer parameter.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -95,7 +94,7 @@ The default value is "." for the current machine.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -105,7 +104,7 @@ Accept wildcard characters: False
 ```
 
 ### -DatabaseCredentials
-Specifies the user name and password for a SQL Server Authentication login account that provides access to the database or tenant database (in a multitenant deployment) in SQL Server. 
+Specifies the user name and password for a SQL Server Authentication login account that provides access to the database or tenant database (in a multitenant deployment) in SQL Server.
 
 You use this parameter to access the database by using SQL Server Authentication.
 If you want to use Windows Authentication, then you can omit this parameter.
@@ -115,7 +114,7 @@ The login account must be a member of the db_owner role on the database.
 ```yaml
 Type: PSCredential
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -125,7 +124,7 @@ Accept wildcard characters: False
 ```
 
 ### -DatabaseName
-Specifies the name of the Microsoft Dynamics NAV database, such as 'Demo Database NAV (9-0)', that stores the business data.
+Specifies the name of the Microsoft Dynamics NAV database, such as 'Demo Database NAV', that stores the business data.
 
 In a multitenant deployment, this is the name of the tenant database.
 
@@ -158,13 +157,13 @@ Accept wildcard characters: False
 ```
 
 ### -DoNotSaveData
-Specifies that you do not want to copy data to an archive table if the removal of a NAV App changes the database schema. 
+Specifies that you do not want to copy data to an archive table if the removal of a NAV App changes the database schema.
 if you set this parameter, the data will not be archived and you will not be able to restore it if you need to reinstall the NAV App.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -179,7 +178,7 @@ Forces the command to run without asking for user confirmation about the tenant 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -194,4 +193,14 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
+[Get-NavAppTenant](Get-NavAppTenant.md)
 
+[Install-NAVApp](Install-NAVApp.md)  
+
+[Publish-NAVApp](Publish-NAVApp.md)  
+
+[Repair-NAVApp](Repair-NAVApp.md)
+
+[Uninstall-NAVApp](Uninstall-NAVApp.md)  
+
+[Unpublish-NAVApp](Unpublish-NAVApp.md)  
