@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -31,10 +31,6 @@ Also, if you migrate to a multitenant deployment architecture, you can use the E
 Remove-NAVApplication -DatabaseName 'Demo Database NAV'
 ```
 
-Description
-
------------
-
 This example removes the application tables from the specified database on the local server.
 
 ### EXAMPLE 2
@@ -42,20 +38,12 @@ This example removes the application tables from the specified database on the l
 Remove-NAVApplication -DatabaseServer 'MyServer' -DatabaseInstance 'NAVDemo' -DatabaseName 'Demo Database NAV'
 ```
 
-Description
-
------------
-
 This example shows how to remove the application-wide tables from the demonstration database on the specified server and instance.
 
 ### EXAMPLE 3
 ```
 Export-NAVApplication -DatabaseServer 'MyServer' -DatabaseInstance 'NAVDEMO' -DatabaseName 'Demo Database NAV' -DestinationDatabaseName 'NAV App'| Remove-NAVApplication -DatabaseName 'Demo Database NAV' -Force
 ```
-
-Description
-
------------
 
 This example shows how you can combine the Export-NAVApplication cmdlet and the Remove-NAVApplication cmdlet when you set up the application and tenant databases.
 The example extracts the application tables to a new database, NAV App, and then removes the tables from the original database.
@@ -70,7 +58,7 @@ The default value is MSSQLSERVER.
 ```yaml
 Type: DatabaseInstance
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -85,7 +73,7 @@ Specifies the name of the database that the application tables must be removed f
 ```yaml
 Type: DatabaseName
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -101,7 +89,7 @@ The default value is localhost.
 ```yaml
 Type: DatabaseServer
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -146,7 +134,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -159,8 +147,17 @@ Accept wildcard characters: False
 
 ## OUTPUTS
 
-### System.Object[]
+### System.String ServerName
+Returns the value of the DatabaseServer parameter.
+
+### System.String ServerInstance
+Returns the value of the DatabaseInstance parameter.
+
+### System.String DatabaseName
+Returns the value of the DatabaseName parameter.
 
 ## NOTES
 ## RELATED LINKS
+[Export-NAVApplication](Export-NAVApplication.md)  
 
+[Mount-NAVTenant](Mount-NAVTenant.md)  
