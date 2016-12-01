@@ -26,10 +26,6 @@ Use the Set-NAVServerPermissionSet cmdlet to change the name of an existing a Mi
 Set-NAVServerPermissionSet DynamicsNAV -PermissionSetId Original -NewPermissionSetId Improved
 ```
 
-Description
-
------------
-
 This example renames an existing permission set.
 
 ## PARAMETERS
@@ -127,9 +123,25 @@ Accept wildcard characters: False
 
 ## INPUTS
 
+### System.String
+You can pipe a string that contains a Microsoft Dynamics NAV Server instance name to the cmdlet.
+
 ## OUTPUTS
 
 ### None
 
 ## NOTES
 ## RELATED LINKS
+[Get-NAVServerPermissionSet](Get-NAVServerPermissionSet.md)  
+
+[New-NAVServerPermissionSet](New-NAVServerPermissionSet.md)  
+
+[Remove-NAVServerPermissionSet](Remove-NAVServerPermissionSet.md)  
+
+[New-NAVServerPermission](New-NAVServerPermission.md)  
+
+[Get-NAVServerPermission](Get-NAVServerPermission.md)  
+
+[Remove-NAVServerPermission](Remove-NAVServerPermission.md)  
+
+[Set-NAVServerPermission](Set-NAVServerPermission.md)  

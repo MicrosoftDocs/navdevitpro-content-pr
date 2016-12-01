@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -18,8 +18,8 @@ Mount-NAVApplication [-DatabaseServer <String>] [-DatabaseInstance <DatabaseInst
 ```
 
 ## DESCRIPTION
-Use the Mount-NAVApplication cmdlet to mount a Microsoft Dynamics NAV database that contains the application tables against a Microsoft Dynamics NAV Server instance.
-You can only mount one Microsoft Dynamics NAV application at a time.
+Use the Mount-NAVApplication cmdlet to mount a Microsoft Dynamics NAV database that contains the application tables against a Microsoft Dynamics NAV Server instance. You can only mount one Microsoft Dynamics NAV application at a time.
+
 The database can be a dedicated application database, or a database that contains all Microsoft Dynamics NAV tables.
 
 ## EXAMPLES
@@ -29,10 +29,6 @@ The database can be a dedicated application database, or a database that contain
 Mount-NAVApplication DynamicsNAV -DatabaseServer dbserver1 -DatabaseName 'NAV App'
 ```
 
-Description
-
------------
-
 This example mounts the Microsoft Dynamics NAV application on the DynamicsNAV server instance.
 The application is contained in the NAV App database, which is hosted on the dbserver1 database server.
 
@@ -41,12 +37,7 @@ The application is contained in the NAV App database, which is hosted on the dbs
 Mount-NAVApplication DynamicsNAV -DatabaseServer dbserver1 -DatabaseName 'NAV App' -DatabaseCredentials (Get-Credential)
 ```
 
-Description
-
------------
-
-This example mounts the Microsoft Dynamics NAV application on the DynamicsNAV server instance and configures the Microsoft Dynamics NAV Server instance to use SQL authentication with the application database.
-The database credentials (user name and password) are provided in a dialog box that results from the call to the Get-Credential cmdlet.
+This example mounts the Microsoft Dynamics NAV application on the DynamicsNAV server instance and configures the Microsoft Dynamics NAV Server instance to use SQL authentication with the application database. The database credentials (user name and password) are provided in a dialog box that results from the call to the Get-Credential cmdlet.
 
 ## PARAMETERS
 
@@ -58,7 +49,7 @@ The login account must be a member of the db_owner role on the database.
 ```yaml
 Type: PSCredential
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -74,7 +65,7 @@ You can also specify the instance in the DatabaseServer parameter, such as like 
 ```yaml
 Type: DatabaseInstance
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -89,7 +80,7 @@ Specifies the name of the application database that you want to mount against th
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -104,7 +95,7 @@ Specifies the name of the database server that hosts the application database th
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -120,7 +111,7 @@ If the parameter is not set, the configuration settings are automatically saved.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -136,7 +127,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -181,7 +172,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -192,6 +183,9 @@ Accept wildcard characters: False
 
 ## INPUTS
 
+### System.String
+You can pipe the value of the ServerInstance parameter as a string to this cmdlet.
+
 ## OUTPUTS
 
 ### None
@@ -199,3 +193,8 @@ Accept wildcard characters: False
 ## NOTES
 ## RELATED LINKS
 
+[Export-NAVApplication](Export-NAVApplication.md)  
+
+[Get-NAVApplication](Get-NAVApplication.md)  
+
+[Remove-NAVApplication](Remove-NAVApplication.md)  

@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -17,10 +17,7 @@ Set-NAVWebServerInstanceConfiguration [-WebServerInstance] <String> -KeyName <St
 ```
 
 ## DESCRIPTION
-Use this cmdlet to change configuration values for a named web server instance.
-These values are written directly to the configuration file.
-The changes will be applied to the web server automatically since the application pool detects the configuration change and performs a recycle.
-When the application pool is recycled by the IIS, static state such as client sessions in the Microsoft Dynamics NAV Web client will be lost.
+Use this cmdlet to change configuration values for a named web server instance. These values are written directly to the configuration file. The changes will be applied to the web server automatically since the application pool detects the configuration change and performs a recycle. When the application pool is recycled by the IIS, static state such as client sessions in the Microsoft Dynamics NAV Web client will be lost.
 
 ## EXAMPLES
 
@@ -28,10 +25,6 @@ When the application pool is recycled by the IIS, static state such as client se
 ```
 Set-NAVWebServerInstanceConfiguration -WebServerInstance DynamicsNAV -KeyName CompanyName -KeyValue "CRONUS International Ltd."
 ```
-
-Description
-
------------
 
 This example sets the web server instance configuration.
 
@@ -43,7 +36,7 @@ Specifies the configuration key name.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -58,7 +51,7 @@ Specifies the configuration key value.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -73,7 +66,7 @@ Specifies the name of a Dynamics NAV web server instance for which to return the
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -118,7 +111,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -129,10 +122,17 @@ Accept wildcard characters: False
 
 ## INPUTS
 
+###System.String
+You can pipe a string that contains a Microsoft Dynamics NAV web server instance name to the cmdlet.
+
 ## OUTPUTS
 
 ### None
 
 ## NOTES
 ## RELATED LINKS
+Get-NAVWebServerInstance](Get-NAVWebServerInstance.md)  
 
+[New-NAVWebServerInstance](New-NAVWebServerInstance.md)  
+
+[Remove-NAVWebServerInstanceConfiguration](Remove-NAVWebServerInstanceConfiguration.md)

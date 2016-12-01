@@ -160,4 +160,6 @@ Returns the value of the DatabaseName parameter.
 ## RELATED LINKS
 [Export-NAVApplication](Export-NAVApplication.md)  
 
+[Get-NAVApplication](Get-NAVApplication.md)  
+
 [Mount-NAVTenant](Mount-NAVTenant.md)  

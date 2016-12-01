@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -44,13 +44,8 @@ FA-INS REGISTER                         Read insurance registers
 ...
 ```
 
-Description
-
------------
-
 Returns all the PermissionSets for the default ServerInstance.
-...
-means that are more data that shown in the console window.
+The ellipse ... means that are more data than is shown in the console window.
 
 ## PARAMETERS
 
@@ -61,7 +56,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -76,7 +71,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -87,10 +82,25 @@ Accept wildcard characters: False
 
 ## INPUTS
 
+### System.String
+You can pipe a string that contains a Microsoft Dynamics NAV Server instance name to the cmdlet.
+
 ## OUTPUTS
 
 ### System.Data.DataTable
-
+Returns the permission sets as a table.
 ## NOTES
 ## RELATED LINKS
+[New-NAVServerPermissionSet](New-NAVServerPermissionSet.md)  
 
+[Remove-NAVServerPermissionSet](Remove-NAVServerPermissionSet.md)  
+
+[Set-NAVServerPermissionSet](Set-NAVServerPermissionSet.md)  
+
+[New-NAVServerPermission](New-NAVServerPermission.md)  
+
+[Get-NAVServerPermission](Get-NAVServerPermission.md)  
+
+[Remove-NAVServerPermission](Remove-NAVServerPermission.md)  
+
+[Set-NAVServerPermission](Set-NAVServerPermission.md)  

@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -17,8 +17,7 @@ Stop-NAVDataUpgrade [[-Tenant] <TenantId>] [-ServerInstance] <String> [-Force] [
 
 ## DESCRIPTION
 You cannot resume a data upgrade process after you have run the Stop-NavDataUpgrade cmdlet.
-Stop-NavDataUpgrade cmdlet will rollback changes that were made by upgrade function that were not completed.
-Changes made by completed upgrade functions will not be rolled back.
+Stop-NavDataUpgrade cmdlet will rollback changes that were made by upgrade function that were not completed. Changes made by completed upgrade functions will not be rolled back.
 
 ## EXAMPLES
 
@@ -26,10 +25,6 @@ Changes made by completed upgrade functions will not be rolled back.
 ```
 Stop-NAVDataUpgrade -ServerInstance DynamicsNAV -Force
 ```
-
-Description
-
------------
 
 This example stops the currently running data upgrade process.
 
@@ -43,7 +38,7 @@ You must include the name within single quotation marks.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -53,8 +48,7 @@ Accept wildcard characters: False
 ```
 
 ### -Tenant
-Specifies the ID of the tenant that you want to synchronize with the application, such as Tenant1.
-This parameter is required unless the specified service instance is not configured to run multiple tenants.
+Specifies the ID of the tenant that you want to synchronize with the application, such as Tenant1. This parameter is required unless the specified service instance is not configured to run multiple tenants.
 
 ```yaml
 Type: TenantId
@@ -104,7 +98,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -115,8 +109,15 @@ Accept wildcard characters: False
 
 ## INPUTS
 
+### System.String 
+You can pass the value of the ServerInstance and Tenant parameters as a string to this cmdlet.
+
 ## OUTPUTS
 
 ## NOTES
 ## RELATED LINKS
+[Get-NAVDataUpgrade](Get-NAVDataUpgrade.md)
 
+[Resume-NAVDataUpgrade](Resume-NAVDataUpgrade.md)
+
+[Start-NAVDataUpgrade](Start-NAVDataUpgrade.md)

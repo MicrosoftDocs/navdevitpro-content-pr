@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -27,15 +27,11 @@ Rename-NAVCompany -ServerInstance 'DynamicsNAV' -CompanyName 'CRONUS Internation
 
 VERBOSE: NavCommand.BeginProcessing
 VERBOSE: NavCommand.ProcessRecord
-VERBOSE: Renaming company 'CRONUS International Ltd.' to 'MyCompany' ... 
+VERBOSE: Renaming company 'CRONUS International Ltd.' to 'MyCompany' ...
 
-VERBOSE: Renaming of company 'CRONUS International Ltd.' to 'MyCompany' has completed successfully. 
+VERBOSE: Renaming of company 'CRONUS International Ltd.' to 'MyCompany' has completed successfully.
 VERBOSE: NavCommand.EndProcessing
 ```
-
-Description
-
------------
 
 This example renames the CRONUS International Ltd.
 in the CRONUS database to MyCompany.
@@ -45,10 +41,6 @@ in the CRONUS database to MyCompany.
 Rename-NAVCompany -ServerInstance 'DynamicsNAV' -CompanyName 'CRONUS International Ltd.' -NewCompanyName 'MyCompany' -ErrorLogFileName C:\NavDatabases\ErrorLog.txt
 ```
 
-Description
-
------------
-
 This example renames the company CRONUS International Ltd.
 in the CRONUS database to MyCompany.
 Errors are logged to the file C:\NavDatabases\ErrorLog.txt.
@@ -56,13 +48,12 @@ Errors are logged to the file C:\NavDatabases\ErrorLog.txt.
 ## PARAMETERS
 
 ### -CompanyName
-Specifies the name of the company that you want to rename.
-This must be an existing company in the specified Microsoft Dynamics NAV database.
+Specifies the name of the company that you want to rename. This must be an existing company in the specified Microsoft Dynamics NAV database.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -77,7 +68,7 @@ Specifies the new name of the company.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 3
@@ -87,13 +78,12 @@ Accept wildcard characters: False
 ```
 
 ### -ServerInstance
-Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
-You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
+Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance. You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -104,6 +94,7 @@ Accept wildcard characters: False
 
 ### -Tenant
 Specifies the ID of the tenant that the company is stored in, such as Tenant1.
+
 This parameter is required unless the specified service instance is not configured to run multiple tenants.
 
 ```yaml
@@ -154,7 +145,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -170,3 +161,10 @@ Accept wildcard characters: False
 ## NOTES
 ## RELATED LINKS
 
+[Copy-NAVCompany](Copy-NAVCompany.md)  
+
+[Get-NAVCompany](Get-NAVCompany.md)  
+
+[New-NAVCompany](New-NAVCompany.md)
+
+[Remove-NAVCompany](Remove-NAVCompany.md)  

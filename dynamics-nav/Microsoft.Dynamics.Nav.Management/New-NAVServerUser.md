@@ -56,20 +56,12 @@ Anonymous accounts such as S-1-1-0 (Everyone) and S-1-5-7 (Anonymous) are not al
 New-NAVServerUser DynamicsNAV -Sid S-1-5-20
 ```
 
-Description
-
------------
-
 This example creates a new Microsoft Dynamics NAV user based on the built-in NT AUTHORITY\NETWORK SERVICE account in Windows.
 
 ### EXAMPLE 2
 ```
 New-NAVServerUser MicrosoftDynamicsNavServer -WindowsAccount Cronus\Chris
 ```
-
-Description
-
------------
 
 This example creates a new Microsoft Dynamics NAV user based on a Windows user account that has the user name Chris from the domain Cronus.
 
@@ -88,10 +80,6 @@ VERBOSE: Closing admin connection to ServerInstance 'MicrosoftDynamicsNavServer$
 VERBOSE: Admin connection to ServerInstance 'MicrosoftDynamicsNavServer$navserver1' has been closed
 ```
 
-Description
-
------------
-
 This example creates a new Microsoft Dynamics NAV user that has the user name Chris and a password that is entered as a secure string (****).
 
 ### EXAMPLE 4
@@ -99,20 +87,12 @@ This example creates a new Microsoft Dynamics NAV user that has the user name Ch
 New-NAVServerUser navserver1 -UserName Chris -Password (ConvertTo-SecureString 'Password1234' -AsPlainText -Force)
 ```
 
-Description
-
------------
-
 This example creates a new Microsoft Dynamics NAV user that has the user name Chris and password Password1234.
 
 ### EXAMPLE 5
 ```
 New-NAVServerUser navserver1 -CreateWebServicesKey -UserName Chris -WebServicesKeyExpiryDate '01-01-2014'
 ```
-
-Description
-
------------
 
 This example creates a new Microsoft Dynamics NAV user that has the user name Chris and a web services access key for logging on to Microsoft Dynamics NAV.
 The web services acces key expires on 01-01-2014.
@@ -153,9 +133,7 @@ Accept wildcard characters: False
 ```
 
 ### -AuthenticationKey
-Specifies the authentication key for authentication with Windows Azure Access Control Service (ACS).
-This key must be at least 8 characters and contain combination of uppercase and lowercase letters and numbers.
-The authentication key is entered by the user the first time that the user logs on to Microsoft Dynamics NAV.
+Specifies the authentication key for authentication with Windows Azure Access Control Service (ACS). This key must be at least 8 characters and contain combination of uppercase and lowercase letters and numbers. The authentication key is entered by the user the first time that the user logs on to Microsoft Dynamics NAV.
 
 ```yaml
 Type: String
@@ -200,9 +178,7 @@ Accept wildcard characters: False
 ```
 
 ### -CreateWebServicesKey
-Creates a web services access key for the user.
-The web service access key is automatically generated.
-This parameter is relevant only when Microsoft Dynamics NAV is configured to use either the NavUserPassword or AccessControlService credential type for authenticating users.
+Creates a web services access key for the user. The web service access key is automatically generated. This parameter is relevant only when Microsoft Dynamics NAV is configured to use either the NavUserPassword or AccessControlService credential type for authenticating users.
 The web service access key is used instead of a password to authenticate web service requests, such as SOAP and OData.
 
 ```yaml
@@ -253,16 +229,15 @@ Accept wildcard characters: False
 ### -LicenseType
 Specifies the license type to assign the user.
 The parameter has the following values (you can use either the text value or the integer in parenthesis):
+
 Full (0)
 
 Limited (1)
 
 DeviceOnly (2)
 
-WindowsGroup (3) - Use this license type if the Microsoft Dynamics NAV user is based on a Windows group in Active Directory.
-This user account cannot log on to Microsoft Dynamics NAV.
-Instead, it is used to map the permission set to the individual Windows users in the Windows user group.
-You must apply the license type to the individual users in the Windows user group.
+WindowsGroup (3) - Use this license type if the Microsoft Dynamics NAV user is based on a Windows group in Active Directory. This user account cannot log on to Microsoft Dynamics NAV.
+Instead, it is used to map the permission set to the individual Windows users in the Windows user group. You must apply the license type to the individual users in the Windows user group.
 
 External (4)
 
@@ -326,10 +301,7 @@ Accept wildcard characters: False
 ```
 
 ### -Sid
-Specifies the security identifier (SID) of the Windows user account for the user that you want to set up as a Microsoft Dynamics NAV user.
-The SID is a unique value that identifies a Windows user account.
-You can use the Sid, UserName, or WindowsAccount parameters to create the user.
-If you use the Sid parameter, then you cannot set the UserName or WindowsAccount parameters.
+Specifies the security identifier (SID) of the Windows user account for the user that you want to set up as a Microsoft Dynamics NAV user. The SID is a unique value that identifies a Windows user account. You can use the Sid, UserName, or WindowsAccount parameters to create the user. If you use the Sid parameter, then you cannot set the UserName or WindowsAccount parameters.
 
 ```yaml
 Type: String
@@ -348,6 +320,7 @@ Specifies the state of the user's account and access to Microsoft Dynamics NAV.
 The parameters has the following values (you can use either the text value of the integer value in parenthesis:
 
 Enabled (0)
+
 Disabled (1)
 
 ```yaml
@@ -363,8 +336,7 @@ Accept wildcard characters: False
 ```
 
 ### -Tenant
-Specifies the ID of the tenant of the Microsoft Dynamics NAV Server instance on which to add the user.
-You can omit the Tenant parameter only if the Microsoft Dynamics NAV Server instance is not configured to run multiple tenants.
+Specifies the ID of the tenant of the Microsoft Dynamics NAV Server instance on which to add the user. You can omit the Tenant parameter only if the Microsoft Dynamics NAV Server instance is not configured to run multiple tenants.
 
 ```yaml
 Type: TenantId
@@ -379,10 +351,7 @@ Accept wildcard characters: False
 ```
 
 ### -UserName
-Specifies the user name for the new Microsoft Dynamics NAV user.
-The user name appears in the User Name field in a user's account in Microsoft Dynamics NAV.
-You can use the UserName, WindowsAccount or Sid parameters to identify the user.
-If you use the Username parameter, then you cannot use the Windows Account or Sid parameters.
+Specifies the user name for the new Microsoft Dynamics NAV user. The user name appears in the User Name field in a user's account in Microsoft Dynamics NAV. You can use the UserName, WindowsAccount or Sid parameters to identify the user. If you use the Username parameter, then you cannot use the Windows Account or Sid parameters.
 
 ```yaml
 Type: String
@@ -412,10 +381,7 @@ Accept wildcard characters: False
 ```
 
 ### -WindowsAccount
-Specifies the Windows account user name of the user that you want to set up as a Microsoft Dynamics NAV user.
-The value has the domain\username format.
-You can use the WindowsAccount, UserName, or Sid parameters to create the user.
-If you use the WindowsAccount parameter, then you cannot use the UserName or Sid parameters.
+Specifies the Windows account user name of the user that you want to set up as a Microsoft Dynamics NAV user. The value has the domain\username format. You can use the WindowsAccount, UserName, or Sid parameters to create the user. If you use the WindowsAccount parameter, then you cannot use the UserName or Sid parameters.
 
 ```yaml
 Type: String
@@ -476,9 +442,23 @@ Accept wildcard characters: False
 
 ## INPUTS
 
+### System.String
+You can pipe a string that contains a Microsoft Dynamics NAV Server instance name to the cmdlet.
+
 ## OUTPUTS
 
 ### None
 
 ## NOTES
 ## RELATED LINKS
+[Get-NAVServerUser](Get-NAVServerUser.md)  
+
+[Remove-NAVServerUser](Remove-NAVServerUser.md)  
+
+[Set-NAVServerUser](Set-NAVServerUser.md)  
+
+[Get-NAVServerUserPermissionSet](Get-NAVServerUserPermissionSet.md)  
+
+[New-NAVServerPermissionSet](New-NAVServerPermissionSet.md)  
+
+[Remove-NAVServerUserPermissionSet](Remove-NAVServerUserPermissionSet.md)  

@@ -8,7 +8,10 @@ Locale: en-US
 
 # Microsoft.Dynamics.Nav.Apps.Management Module
 ## Description
-The Dynamics NAV Administration Shell includes cmdlets for administering the Dynamics NAV deployment, such as adding and configuring Microsoft Dynamics NAV server instances, databases, and users. Also included are cmdlets for administering extension packages. The Dynamics NAV Administration Shell is installed with the Dynamics NAV Server.
+The [!INCLUDE[nav_shell_md](../includes/nav_shell_md.md)] includes cmdlets for administering extension packages in the [!INCLUDE[navnow_md](includes/navnow_md.md)]. These cmdlets are included in the Microsoft.Dynamics.Nav.Apps.Management module that is installed as part of the [!INCLUDE[nav_shell_md](../includes/nav_shell_md.md)] when you install the [!INCLUDE[nav_server_md](../includes/nav_server_md.md)].
+
+>[!NOTE]
+>Also included in the [!INCLUDE[nav_shell_md](../includes/nav_shell_md.md)] are cmdlets for administering the [!INCLUDE[navnow_md](includes/navnow_md.md)] deployment, such as adding and configuring [!INCLUDE[nav_server_md](../includes/nav_server_md.md)] instances, databases, and users. For more information about these cmdlets, see [Microsoft.Dynamics.Nav.Management](Microsoft.Dynamics.Nav.Management.md).
 
 ## Microsoft.Dynamics.Nav.Apps.Management Cmdlets
 ### [Get-NAVAppInfo](Get-NAVAppInfo.md)
