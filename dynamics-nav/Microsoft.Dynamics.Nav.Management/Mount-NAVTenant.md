@@ -489,3 +489,7 @@ You can pipe the ServerInstance as a string to this cmdlet.
 ## NOTES
 ## RELATED LINKS
 [Dismount-NAVTenant](Dismount-NAVTenant.md)  
+
+[Get-NAVTenant](Get-NAVTenant.md)  
+
+[Sync-NAVTenant](Sync-NAVTenant.md)  

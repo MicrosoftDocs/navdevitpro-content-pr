@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -23,10 +23,9 @@ Resume-NAVDataUpgrade [[-Tenant] <TenantId>] [-CodeunitId] <Int32> [-FunctionNam
 ```
 
 ## DESCRIPTION
-You can choose to re-run all previously failed and cancelled upgrade functions or choose a specific upgrade function.
-Only failed or cancelled upgrade functions can be re-run.
-To get a list of invoked functions, use the Get-NAVDataUpgrade cmdlet.
-It is not possible to resume the data upgrade process if it was stopped by the Stop-NAVDataUpgrade cmdlet.
+You can choose to re-run all previously failed and cancelled upgrade functions or choose a specific upgrade function. Only failed or cancelled upgrade functions can be re-run.
+
+To get a list of invoked functions, use the Get-NAVDataUpgrade cmdlet. It is not possible to resume the data upgrade process if it was stopped by the Stop-NAVDataUpgrade cmdlet.
 
 ## EXAMPLES
 
@@ -35,20 +34,12 @@ It is not possible to resume the data upgrade process if it was stopped by the S
 Resume-NAVDataUpgrade -ServerInstance DynamicsNAV
 ```
 
-Description
-
------------
-
 This example resumes a currently suspended data upgrade process.
 
 ### EXAMPLE 2
 ```
 Resume-NAVDataUpgrade -ServerInstance DynamicsNAV -CodeunitId 111111 -FunctionName Upg1 -CompanyName
 ```
-
-Description
-
------------
 
 This example resumes currently suspended data upgrade process by invoking a specific upgrade function that previously failed or was cancelled.
 This approach can be useful for gradually fixing and rerunning upgrade functions without having to restore the full database and start from beginning.
@@ -61,7 +52,7 @@ Specifies the ID of the upgrade codeunit to run.
 ```yaml
 Type: Int32
 Parameter Sets: SingleMethod
-Aliases: 
+Aliases:
 
 Required: True
 Position: 3
@@ -76,7 +67,7 @@ Specifies the name of the company for which to run the upgrade codeunit function
 ```yaml
 Type: String
 Parameter Sets: SingleMethod
-Aliases: 
+Aliases:
 
 Required: False
 Position: 5
@@ -91,7 +82,7 @@ Specifies the name of the upgrade function to run.
 ```yaml
 Type: String
 Parameter Sets: SingleMethod
-Aliases: 
+Aliases:
 
 Required: True
 Position: 4
@@ -108,7 +99,7 @@ Include the name in single-quotes.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -169,7 +160,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -180,8 +171,15 @@ Accept wildcard characters: False
 
 ## INPUTS
 
+### System.String 
+You can pass the value of the CodunitId, CompanyName, FunctionName, ServerInstance and Tenant parameters as a string to this cmdlet.
+
 ## OUTPUTS
 
 ## NOTES
 ## RELATED LINKS
+[Get-NAVDataUpgrade](Get-NAVDataUpgrade.md)
 
+[Start-NAVDataUpgrade](Start-NAVDataUpgrade.md)
+
+[Stop-NAVDataUpgrade](Stop-NAVDataUpgrade.md)

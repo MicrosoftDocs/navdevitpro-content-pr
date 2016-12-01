@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -42,16 +42,12 @@ VERBOSE: Removing UrlAcl Rule for Server Instance MicrosoftDynamicsNavServer$myI
 
 VERBOSE: Removing UrlAcl Rule for Server Instance MicrosoftDynamicsNavServer$myInstance
 
-VERBOSE: Un-installing Server Instance MicrosoftDynamicsNavServer$myInstance 
+VERBOSE: Un-installing Server Instance MicrosoftDynamicsNavServer$myInstance
 
 VERBOSE: Removing Instance directory C:\Program Files\Microsoft Dynamics NAV\80\Service\Instances\myInstance
 
 VERBOSE: NavCommand.EndProcessing
 ```
-
-Description
-
------------
 
 This example removes the Microsoft Dynamics NAV Server instance myInstance.
 
@@ -64,7 +60,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -109,7 +105,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -120,10 +116,17 @@ Accept wildcard characters: False
 
 ## INPUTS
 
+### System.String
+You can pipe a string that contains a Microsoft Dynamics NAV Server instance name to the cmdlet.
+
 ## OUTPUTS
 
 ### None
 
 ## NOTES
 ## RELATED LINKS
+[Get-NAVServerInstance](Get-NAVServerInstance.md)  
 
+[New-NAVServerInstance](New-NAVServerInstance.md)
+
+[Set-NAVServerInstance](Set-NAVServerInstance.md)

@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -25,10 +25,6 @@ Removes a configuration package file from the Microsoft Dynamics NAV app databas
 Remove-NAVConfigurationPackageFile -Code GB.ENU.TRIAL -ServerInstance DynamicsNAV
 ```
 
-Description
-
------------
-
 If a package with code GB.ENU.TRIAL is present in the application database of the DynamicsNAV90 instance, it will be removed.
 
 ## PARAMETERS
@@ -39,7 +35,7 @@ Specifies the code of the configuration package file, uniquely identifying it.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -49,13 +45,12 @@ Accept wildcard characters: False
 ```
 
 ### -ServerInstance
-Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
-You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
+Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance. You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -100,7 +95,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -114,5 +109,6 @@ Accept wildcard characters: False
 ## OUTPUTS
 
 ## NOTES
-## RELATED LINKS
 
+## RELATED LINKS
+[Import-NavConfigurationPackageFile](Import-NavConfigurationPackageFile.md)  

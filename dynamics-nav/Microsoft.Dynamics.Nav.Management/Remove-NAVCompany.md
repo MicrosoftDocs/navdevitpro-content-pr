@@ -138,3 +138,5 @@ Accept wildcard characters: False
 [Get-NAVCompany](Get-NAVCompany.md)  
 
 [New-NAVCompany](New-NAVCompany.md)
+
+[Rename-NAVCompany](Rename-NAVCompany.md)  

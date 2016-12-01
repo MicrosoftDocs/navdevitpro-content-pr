@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -38,10 +38,6 @@ VERBOSE: Service MicrosoftDynamicsNavServer$NewInstance is running
 VERBOSE: NavCommand.EndProcessing
 ```
 
-Description
-
------------
-
 This example uses the Set-NAVServerInstance cmdlet to restart a Microsoft Dynamics NAV Server instance.
 The Verbose parameter specifies that progress information is to be written to the console.
 
@@ -53,7 +49,7 @@ Restarts the Microsoft Dynamics NAV Server instance.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -69,7 +65,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -85,7 +81,7 @@ Only NetworkService and Windows User values are supported.
 ```yaml
 Type: ServiceAccount
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -100,7 +96,7 @@ Specifies a set of security credentials that must be used when configuring the s
 ```yaml
 Type: PSCredential
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -115,7 +111,7 @@ Starts the Microsoft Dynamics NAV Server instance.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -130,7 +126,7 @@ Stops the Microsoft Dynamics NAV Server instance.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -175,7 +171,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -186,10 +182,17 @@ Accept wildcard characters: False
 
 ## INPUTS
 
+### System.String
+You can pipe a string that contains a Microsoft Dynamics NAV Server instance name to the cmdlet.
+
 ## OUTPUTS
 
 ### None
 
 ## NOTES
 ## RELATED LINKS
+[Get-NAVServerInstance](Get-NAVServerInstance.md)  
 
+[Remove-NAVServerInstance](Remove-NAVServerInstance.md)
+
+[Set-NAVServerInstance](Set-NAVServerInstance.md)

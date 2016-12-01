@@ -17,10 +17,7 @@ New-NAVServerAppConfiguration -ApplicationId <String> -ServerInstance <String> [
 
 ## DESCRIPTION
 You can have more than one application running on a single Dynamics NAV Server instance.
-By default, the server instance will use the settings in the CustomSettings.config for all applications.
-This cmdlet enables you to create an additional configuration file that is only used by a specific application.
-The application-specific configuration file can be used to configure the following settings.
-
+By default, the server instance will use the settings in the CustomSettings.config for all applications. This cmdlet enables you to create an additional configuration file that is only used by a specific application. The application-specific configuration file can be used to configure the following settings.
 
 AppProtocolName - Specifies the protocol to use in URL links to the application, similar to the http protocol in web page links.
 For example, with Dynamics 365 for Financials, by setting the parameter to "ms-financials"  means that "ms-financials:///?page=31" would open the items list page 31.
@@ -29,13 +26,11 @@ AppIdUri - Specifies the APP ID URI that is assigned to the Dynamics NAV applica
 
 AzureActiveDirectoryClientApplicationId - Specifies the CLIENT ID that is assigned to the Dynamics NAV application in Azure AD.
 
-The application-specific file is saved in the same location as the CustomSettings.config file for the Dynamics NAV Server installation.
-For example, by default, the location is C:\Program Files\Microsoft Dynamics NAV\NN\Service, where NN is the server version number.
-The generated configuration file does not contain any settings.
-To add settings, use the Set-NAVServerAppConfiguration cmdlet.
+The application-specific file is saved in the same location as the CustomSettings.config file for the Dynamics NAV Server installation. For example, by default, the location is C:\Program Files\Microsoft Dynamics NAV\NN\Service, where NN is the server version number.
 
-The application-specific configuration file is used to supplement the CustomSettings.config file of the server instance.
-The server instance will load the correct application-specific configuration file for an application based on the application ID that is specified by the ApplicationId parameter.
+The generated configuration file does not contain any settings. To add settings, use the Set-NAVServerAppConfiguration cmdlet.
+
+The application-specific configuration file is used to supplement the CustomSettings.config file of the server instance. The server instance will load the correct application-specific configuration file for an application based on the application ID that is specified by the ApplicationId parameter.
 
 ## EXAMPLES
 
@@ -43,10 +38,6 @@ The server instance will load the correct application-specific configuration fil
 ```
 New-NAVServerAppConfiguration -ApplicationId FIN -ServerInstance DynamicsNAV
 ```
-
-Description
-
------------
 
 This example creates a new application-specific configuration file for the FIN application.
 The generated file has the name CustomerSettings.FIN.config.
@@ -137,3 +128,6 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
+[Get-NAVServerAppConfiguration](Get-NAVServerAppConfiguration.md)
+
+[Set-NAVServerAppConfiguration](Set-NAVServerAppConfiguration.md)

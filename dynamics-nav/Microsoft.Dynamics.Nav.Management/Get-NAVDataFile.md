@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -17,17 +17,17 @@ Get-NAVDataFile [-FilePath] <String> [-Force]
 
 ## DESCRIPTION
 Use the Get-NAVDataFile cmdlet to extract information from a Microsoft Dynamics NAV data file.
-The file must have been exported from a Microsoft Dynamics NAV database and can contain company-specific data, global data, application data, and application objects.
-The following information is returned from the .navdata file:
-ExportVersion
-DatabaseVersion
-Description
-IncludeApplication
-IncludeApplicationData
-TenantId
-IncludeGlobalData
-CompanyName
-ExportDateTime
+The file must have been exported from a Microsoft Dynamics NAV database and can contain company-specific data, global data, application data, and application objects. The following information is returned from the .navdata file:
+
+ExportVersion  
+DatabaseVersion  
+Description  
+IncludeApplication  
+IncludeApplicationData  
+TenantId  
+IncludeGlobalData  
+CompanyName  
+ExportDateTime  
 
 ## EXAMPLES
 
@@ -36,13 +36,7 @@ ExportDateTime
 Get-NAVDataFile -FilePath C:\file\Customer.navdata
 ```
 
-Description
-
------------
-
-This example extracts information from the specified file to show an overview of what is in the file (*.navdata).
-The extracted information includes a list of the companies and specifies if global data, application data, or application objects are included.
-If a description was added to the file when the data was exported, this description is also shown.
+This example extracts information from the specified file to show an overview of what is in the file (\*.navdata).The extracted information includes a list of the companies and specifies if global data, application data, or application objects are included. If a description was added to the file when the data was exported, this description is also shown.
 
 ## PARAMETERS
 
@@ -68,7 +62,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -83,4 +77,3 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
-

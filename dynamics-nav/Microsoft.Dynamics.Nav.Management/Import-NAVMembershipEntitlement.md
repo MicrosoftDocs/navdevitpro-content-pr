@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -27,11 +27,7 @@ Import license entitlement data for a membership association.
 Import-NAVAzureADEntitlement -Path C:\License\ADPlanEntitlement.csv -Type 'Azure AD Plan' -Id '0000-0001' -Name 'My Service Plan' -EntitlementSetId 'MyPlanEntitlement' -EntitlementSetName 'Entitlements for My Service Plan' -ServerInstance 'DynamicsNAV'
 ```
 
-Description
-
------------
-
-This example imports an Azure AD entitlement of the type 'Azure AD Plan' to the entitlement set 'Entitments for My Service Plan'.
+This example imports an Azure AD entitlement of the type 'Azure AD Plan' to the entitlement set 'Entitlements for My Service Plan'.
 
 ## PARAMETERS
 
@@ -41,7 +37,7 @@ Specifies the ID of the entitlement set in which to load the entitlements.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -56,7 +52,7 @@ Specifies the name of the entitlement set in which to load the entitlements.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -71,7 +67,7 @@ Specifies the ID of the membership.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -86,7 +82,7 @@ Specifies the name of the membership.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -102,7 +98,7 @@ These files typically have a .csv extension.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -112,14 +108,13 @@ Accept wildcard characters: False
 ```
 
 ### -ServerInstance
-Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
-You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
+Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance. You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
 Include the name in single-quotes.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -134,7 +129,7 @@ Specifies the membership type., such as  'Azure AD Plan' or 'Azure AD Role'.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 3
@@ -174,12 +169,12 @@ Accept wildcard characters: False
 ```
 
 ### -Evaluation
-{{Fill Evaluation Description}}
+Specifies the entitlement to be for evaluation purposes, which means it has limited use and is not a paid entitlement. 
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -194,7 +189,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -209,4 +204,3 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
-

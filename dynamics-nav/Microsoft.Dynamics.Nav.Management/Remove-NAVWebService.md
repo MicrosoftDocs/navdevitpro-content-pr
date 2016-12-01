@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -26,25 +26,17 @@ Use the Remove-NAVWebService cmdlet to delete the web services that have been cr
 Remove-NAVWebService -ServerInstance DynamicsNAV -ServiceName Customer -ObjectType Page
 ```
 
-Description
-
------------
-
 This example uses the Remove-NAVWebService cmdlet to remove a web service that is based on a page object and has the name Customer.
 
 ## PARAMETERS
 
 ### -ObjectType
-Specifies the type of the object that the web service exposes.
-SOAP web services and ODATA web services support Create, Read, Update, and Delete operations for page objects.
-SOAP web services support codeunit objects.
-ODATA web services support query objects as read-only.
-For more information, see "Overview of Microsoft Dynamics NAV Web Services" in the Developer and ITPro documentation for Microsoft Dynamics NAV.
+Specifies the type of the object that the web service exposes. SOAP web services and ODATA web services support Create, Read, Update, and Delete operations for page objects. SOAP web services support codeunit objects. ODATA web services support query objects as read-only. For more information, see "Overview of Microsoft Dynamics NAV Web Services" in the Developer and ITPro documentation for Microsoft Dynamics NAV.
 
 ```yaml
 Type: ObjectType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -54,13 +46,12 @@ Accept wildcard characters: False
 ```
 
 ### -ServerInstance
-Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
-You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
+Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance. You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -75,7 +66,7 @@ The name of the web service that you want to remove.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -120,7 +111,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -135,4 +126,6 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
+[Get-NAVWebService](Get-NAVWebService.md)  
 
+[New-NAVWebService](New-NAVWebService.md)  
