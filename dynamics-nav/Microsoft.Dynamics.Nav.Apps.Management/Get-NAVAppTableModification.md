@@ -237,4 +237,4 @@ Accept wildcard characters: False
 
 [Publish-NAVApp](Publish-NAVApp.md)  
 
-[Get-NAVAppTableSynchSetupForDataUpgrade](Get-NAVAppTableSynchSetupForDataUpgrade.md)  
+[Get-NAVTableSynchSetupForDataUpgrade](Get-NAVTableSynchSetupForDataUpgrade.md)  
