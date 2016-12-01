@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -29,10 +29,6 @@ You must also make sure that you are the only active user for the company before
 Remove-NAVCompany -ServerInstance DynamicsNAV -Tenant CRONUS -CompanyName 'CRONUS International Ltd.'
 ```
 
-Description
-
------------
-
 This example removes the CRONUS International Ltd.
 company from the database that has the tenant ID CRONUS and which is mounted against the DynamicsNAV server instance.
 
@@ -45,7 +41,7 @@ If the company does not exist in the Microsoft Dynamics NAV database, the operat
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -61,7 +57,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -122,7 +118,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -137,4 +133,8 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
+[Copy-NAVCompany](Copy-NAVCompany.md)  
 
+[Get-NAVCompany](Get-NAVCompany.md)  
+
+[New-NAVCompany](New-NAVCompany.md)
