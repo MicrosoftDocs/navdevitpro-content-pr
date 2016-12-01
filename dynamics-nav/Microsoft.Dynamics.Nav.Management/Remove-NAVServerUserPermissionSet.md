@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -64,7 +64,7 @@ Specifies the name of the Dynamics NAV extension.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -79,7 +79,7 @@ Specifies the publisher of the Dynamics NAV extension.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -95,7 +95,7 @@ The specified user permission sets are removed for that company only.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -111,7 +111,7 @@ You can pass this object from the Get-NAVServerUserPermissionSet cmdlet.
 ```yaml
 Type: DataRow
 Parameter Sets: InputObject
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -126,7 +126,7 @@ Specifies the ID of a permission set, which is a string such as RES-JOURNAL or S
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -141,7 +141,7 @@ Not Specified.
 ```yaml
 Type: PermissionScope
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -157,7 +157,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -175,7 +175,7 @@ If you use the Sid parameter, then do not set the UserName or WindowsAccount par
 ```yaml
 Type: String
 Parameter Sets: Sid
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -209,7 +209,7 @@ If you use the Username parameter, then you cannot use the Windows Account or Si
 ```yaml
 Type: String
 Parameter Sets: UserName
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -227,7 +227,7 @@ If you use the WindowsAccount parameter, then you cannot use the UserName or Sid
 ```yaml
 Type: String
 Parameter Sets: WindowsAccount
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -267,12 +267,12 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -289,4 +289,3 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
-
