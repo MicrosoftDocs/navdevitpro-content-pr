@@ -177,6 +177,8 @@ You can pass the value of the CodunitId, CompanyName, FunctionName, ServerInstan
 ## OUTPUTS
 
 ## NOTES
+The Resume-NAVUpgrade cmdlet runs in the same language that was used in the Start-NAVUpgrade cmdlet, as specified by the -Language parameter. 
+
 ## RELATED LINKS
 [Get-NAVDataUpgrade](Get-NAVDataUpgrade.md)
 
