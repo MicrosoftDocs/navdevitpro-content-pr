@@ -227,7 +227,7 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
-[Import-NAVApplicationObjectLanguage](Import-NAVApplicationObjectLanguage)  
+[Import-NAVApplicationObjectLanguage](Import-NAVApplicationObjectLanguage.md)  
 
 [Remove-NAVApplicationObjectLanguage](Remove-NAVApplicationObjectLanguage.md)  
 

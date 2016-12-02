@@ -504,6 +504,6 @@ Otherwise, an object representing just a summary is returned.
 ## NOTES
 
 ## RELATED LINKS
-[Compare-NAVApplicationObject](C-NAVApplicationObject.md)  
+[Compare-NAVApplicationObject](Compare-NAVApplicationObject.md)  
 
 [Update-NAVApplicationObject](Update-NAVApplicationObject.md)  

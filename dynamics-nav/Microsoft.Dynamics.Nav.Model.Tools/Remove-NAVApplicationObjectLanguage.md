@@ -180,6 +180,6 @@ Accept wildcard characters: False
 ## RELATED LINKS
 [Export-NAVApplicationObjectLanguage](Export-NAVApplicationObjectLanguage.md)  
 
-[Import-NAVApplicationObjectLanguage](Import-NAVApplicationObjectLanguage)  
+[Import-NAVApplicationObjectLanguage](Import-NAVApplicationObjectLanguage.md)  
 
 [Test-NAVApplicationObjectLanguage](Test-NAVApplicationObjectLanguage.md)

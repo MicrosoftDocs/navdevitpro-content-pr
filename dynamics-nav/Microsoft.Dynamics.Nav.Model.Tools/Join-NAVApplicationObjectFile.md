@@ -121,4 +121,4 @@ Accept wildcard characters: False
 
 [Merge-NAVApplicationObject](Merge-NAVApplicationObject.md)  
 
-[Split-NAVApplicationObjectFile](Split-NAVApplicationObjectFile) 
+[Split-NAVApplicationObjectFile](Split-NAVApplicationObjectFile.md) 
