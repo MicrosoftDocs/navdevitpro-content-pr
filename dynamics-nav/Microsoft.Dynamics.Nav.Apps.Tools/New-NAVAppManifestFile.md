@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Apps.Tools.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -25,10 +25,6 @@ Use the New-NAVAppManifestFile cmdlet to create a file with metadata for a NAV A
 New-NavAppManifest -Name "Proseware SmartApp" -Publisher "Proseware, Inc." -Description "First NAV App by Proseware" | New-NavAppManifestFile -Path ".\Manifest-Proseware SmartApp.xml" -Force
 ```
 
-Description
-
------------
-
 This example creates an in-memory manifest and then writes it to disk.
 The -Force parameter will overwrite the file if it already exists.
 
@@ -40,7 +36,7 @@ Forces the command to run without asking for user confirmation to overwrite an e
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -56,7 +52,7 @@ You can pass this object from the New-NAVAppManifest or Get-NAVAppManifest cmdle
 ```yaml
 Type: NavAppManifest
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 3
@@ -71,7 +67,7 @@ Returns the path to the manifest file.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -86,7 +82,7 @@ Specifies the path to the NAV App manifest file to create.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -131,4 +127,8 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
+[Get-NAVAppManifest](Get-NAVAppManifest.md)
 
+[New-NavAppManifest](New-NAVAppManifest.md)  
+
+[Set-NAVAppManifest](Set-NAVAppManifest.md)

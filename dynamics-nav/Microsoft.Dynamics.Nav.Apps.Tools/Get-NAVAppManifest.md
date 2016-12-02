@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Apps.Tools.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -41,20 +41,12 @@ Get-NAVAppManifest -Path '.\Manifest-Proseware SmartApp.xml'
                     Dependencies       : {}
 ```
 
-Description
-
------------
-
 This example gets a NAV App manifest from an XML manifest file.
 
 ### Example 2
 ```
 Get-NAVAppManifest -Path '.\Manifest-Proseware SmartApp.xml' | New-NAVAppPackage -Path 'C:\Proseware SmartApp.navx' -SourcePath C:\NavAppFiles
 ```
-
-Description
-
------------
 
 This example gets a NAV App manifest from an XML manifest file and then passes the manifest to the New-NAVAppPackage cmdlet to create a new NAV App package.
 
@@ -66,7 +58,7 @@ Specifies the path to a file with an NAV App manifest.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -83,4 +75,10 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
+[New-NAVAppManifest](New-NAVAppManifest.md)
 
+[New-NavAppManifestFile](New-NAVAppManifestFile.md)  
+
+[New-NAVAppPackage](New-NAVAppPackage.md)  
+
+[Save-NAVAppManifest](Save-NAVAppManifest.md)
