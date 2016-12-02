@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Apps.Tools.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -23,29 +23,25 @@ Use the Export-NAVAppReportLayout cmdlet to export a custom report layout from a
 
 ### Example 1
 ```
-Export-NAVAppReportLayout -ServerInstance DynamicsNAV91 -Path .\ReportLayout.layoutdata -LayoutId MS-1016-DEFAULT
+Export-NAVAppReportLayout -ServerInstance DynamicsNAV -Path .\ReportLayout.layoutdata -LayoutId MS-1016-DEFAULT
 ```
 
-Description
-
------------
-
-This example exports the report layout with the code 'MS-1016-DEFAULT' in the database that is used by the DynamicsNAV91 server instance to the ReportLayout.layoutdata file.
+This example exports the report layout with the code 'MS-1016-DEFAULT' in the database that is used by the DynamicsNAV server instance to the ReportLayout.layoutdata file.
 
 ### Example 2
 ```
-Export-NAVAppReportLayout -ServerInstance DynamicsNAV91 -Path .\ReportLayout.layoutdata -LayoutId MS-1016-DEFAULT -PassThru
+Export-NAVAppReportLayout -ServerInstance DynamicsNAV -Path .\ReportLayout.layoutdata -LayoutId MS-1016-DEFAULT -PassThru
 
           Mode             LastWriteTime            Length Name
           ----             -------------            ------ ----
-          -a---            11/25/2015   11:47 AM       450 ReportLayout.xml
+          -a---            11/25/2017   11:47 AM       450 ReportLayout.xml
 ```
 
 Description
 
 -----------
 
-This example exports the report layout with the code 'MS-1016-DEFAULT' in the database that is used by the DynamicsNAV91 server instance to the ReportLayout.layoutdata file, then returns the location of the file.
+This example exports the report layout with the code 'MS-1016-DEFAULT' in the database that is used by the DynamicsNAV server instance to the ReportLayout.layoutdata file, then returns the location of the file.
 
 ## PARAMETERS
 
@@ -55,7 +51,7 @@ Forces the command to run without asking for user confirmation to overwrite an e
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -70,7 +66,7 @@ Specifies the Code of the report layout that will be exported.
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -85,7 +81,7 @@ Returns the path to the report layout file.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -100,7 +96,7 @@ Specifies the name and location of the file that the report layout is exported t
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -110,12 +106,12 @@ Accept wildcard characters: False
 ```
 
 ### -ServerInstance
-Specifies the Microsoft Dynamics NAV Server instance that the report layout will be exported from, such as DynamicsNAV91.
+Specifies the Microsoft Dynamics NAV Server instance that the report layout will be exported from, such as DynamicsNAV.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -131,7 +127,7 @@ If the server instance is configured for single tenant, do not set the parameter
 ```yaml
 Type: TenantId
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -146,4 +142,3 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
-

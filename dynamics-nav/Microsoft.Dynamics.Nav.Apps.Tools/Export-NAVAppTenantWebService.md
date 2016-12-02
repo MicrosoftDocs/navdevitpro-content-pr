@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Apps.Tools.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -23,29 +23,21 @@ Use the Export-NAVAppTenantWebService cmdlet to export a web service from a Micr
 
 ### Example 1
 ```
-Export-NAVAppTenantWebService -ServerInstance DynamicsNAV90 -Path .\TenantWebService.xml -ServiceName Customer -ObjectType Page -ObjectId 21
+Export-NAVAppTenantWebService -ServerInstance DynamicsNAV -Path .\TenantWebService.xml -ServiceName Customer -ObjectType Page -ObjectId 21
 ```
 
-Description
-
------------
-
-This example exports the web service with the name "Customer" on the Page 21 object in the database that is used by the DynamicsNAV90 server instance to the TenantWebService.xml file.
+This example exports the web service with the name "Customer" on the Page 21 object in the database that is used by the DynamicsNAV server instance to the TenantWebService.xml file.
 
 ### Example 2
 ```
-Export-NAVAppTenantWebService -ServerInstance DynamicsNAV90 -Path .\TenantWebService.xml -ServiceName Customer -ObjectType Page -ObjectId 21 -PassThru
+Export-NAVAppTenantWebService -ServerInstance DynamicsNAV -Path .\TenantWebService.xml -ServiceName Customer -ObjectType Page -ObjectId 21 -PassThru
 
           Mode             LastWriteTime            Length Name
           ----             -------------            ------ ----
-          -a---            11/25/2015   11:47 AM         450 TenantWebService.xml
+          -a---            11/25/2017   11:47 AM         450 TenantWebService.xml
 ```
 
-Description
-
------------
-
-This example exports the web service with the name "Customer" on the Page 21 object in the database that is used by the DynamicsNAV90 server instance to the TenantWebService.xml file, then returns the location of the file.
+This example exports the web service with the name "Customer" on the Page 21 object in the database that is used by the DynamicsNAV server instance to the TenantWebService.xml file, then returns the location of the file.
 
 ## PARAMETERS
 
@@ -55,7 +47,7 @@ Forces the command to run without asking for user confirmation to overwrite an e
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -70,7 +62,7 @@ Specifies the object ID of the web service that will be exported.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -85,7 +77,7 @@ Specifies the object type of the web service that will be exported.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -100,7 +92,7 @@ Returns the path to the web service file.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -115,7 +107,7 @@ Specifies the name and location of the file that the web service is exported to.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -125,12 +117,12 @@ Accept wildcard characters: False
 ```
 
 ### -ServerInstance
-Specifies the Microsoft Dynamics NAV Server instance that the web service will be exported from, such as DynamicsNAV90.
+Specifies the Microsoft Dynamics NAV Server instance that the web service will be exported from, such as DynamicsNAV.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -145,7 +137,7 @@ Specifies the service name of the web service that will be exported.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -176,4 +168,3 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
-
