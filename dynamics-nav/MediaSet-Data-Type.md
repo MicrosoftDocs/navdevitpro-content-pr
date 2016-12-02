@@ -17,8 +17,10 @@ The **MediaSet** data type enables you to import media to the application databa
 
 ## See Also  
 [Working With Media on Records](Working-With-Media-on-Records.md)  
- [COUNT Function \(MediaSet\)](COUNT-Function--MediaSet-.md)   
- [IMPORTFILE Function \(MediaSet\)](IMPORTFILE-Function--MediaSet-.md)   
- [IMPORTSTREAM Function \(MediaSet\)](IMPORTSTREAM-Function--MediaSet-.md)   
- [MEDIAID Function \(MediaSet\)](MEDIAID-Function--MediaSet-.md)   
- [EXPORTFILE Function](EXPORTFILE-Function-MediaSet.md)
+[COUNT Function \(MediaSet\)](COUNT-Function--MediaSet-.md)  
+[IMPORTFILE Function \(MediaSet\)](IMPORTFILE-Function--MediaSet-.md)   
+[IMPORTSTREAM Function \(MediaSet\)](IMPORTSTREAM-Function--MediaSet-.md)  
+[INSERT Function \(MediaSet\)](INSERT-Function--MediaSet-.md)  
+[ITEM Function \(MediaSet\)](ITEM-Function--MediaSet-.md)  
+[MEDIAID Function \(MediaSet\)](MEDIAID-Function--MediaSet-.md)  
+[EXPORTFILE Function](EXPORTFILE-Function-MediaSet.md)  

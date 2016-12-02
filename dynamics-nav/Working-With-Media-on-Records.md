@@ -28,26 +28,23 @@ This topic describes how you can upload media, such as an image, to the database
 Using the Media or MediaSet data type provides better performance than using a BLOB data type and is more flexible in its design. With a BLOB data type, each time the media is rendered in the client, it is retrieved from the SQL database server, which requires extra bandwidth and affects performance. With the Media and MediaSet data types, the client uses media ID to cache the media data, which in turn improves the response time for rendering the media in the user interface.  
 
 ## Using Media and Media Sets on Records  
-Table fields support two data types for adding media to records: **Media** and **MediaSet**.  
+Table fields support two data types for adding media to records: **Media** and **MediaSet**. With these data types, you can import media directly from a file to a record, or media can be passed to the record in an InStream object. Imported media is stored as an object in the system table **2000000184 Tenant Media** of the application database. Each media object is assigned a unique identifier \(ID\).
 
--   The **Media** data type associates a record with a single media object.  
+### Media data type
+The **Media** data type associates a record with a single media object. For example, you can use this data type to display an image with each record in a list type page.
 
-    For example, you can use this data type to display an image with each record in a list type page.  
+If a media object is added to Media data type field, the field references the media object by its ID.
 
--   The **MediaSet** data type associates a record with one or more media objects. This enables you to set up a collection or catalog of media for a record.  
+### MediaSet data type
+The **MediaSet** data type associates a record with one or more media objects. This enables you to set up a collection or catalog of media for a record. For example, you can use this data type to set up a slide show of images for a record in a card type page.
 
-     For example, you can use this data type to set up a slide show of images for a record in a card type page.
+If a media object is added to **MediaSet** data type field, the media object is assigned to a media set in the system table **2000000183 Tenant Media Set**. The media set is assigned a unique identifier, which is then referenced from the field. The media set is created with the first file media object that you add on the record. Any additional media objects for the record are then associated with the same media set.
 
-    If a **MediaSet** data type field is used in a report object, then only the first associated media file is displayed in the generated report.
+#### <a name="Indexing"></a>Indexing of media objects in a media set
+A media set is an ordered list of media objects, determined by the order in which the media objects were added to the media set. This order cannot be changed. To identify this order, each media object is assigned an index number, starting a 1. This means that the first media added gets the index 1, the second media gets the index 2, and so on. If a media object is removed from the set, the list is re-indexed accordingly.
 
 > [!NOTE]  
->  Currently, only image media types, such as JPEG or PNG, are supported. For more information, see [Supported Media Types](Working-With-Media-on-Records.md#SupportedMediaTypes).  
-
- With a field set to **Media** or **MediaSet** data type, you can add media to the record. You can import the media directly from a file, or it can be passed to the record in an InStream object. Imported media is stored as an object in the system table **2000000184 Tenant Media** of the application database. Each media object is assigned a unique identifier \(ID\).  
-
--   If a media object is added to **Media** data type field, the field references the media object by its ID.  
-
--   If a media object is added to **MediaSet** data type field, the media object is assigned to a media set in the system table **2000000183 Tenant Media Set**. The media set is assigned a unique identifier, which is then referenced from the field. The media set is created with the first file media object that you add on the record. Any additional media objects for the record are then associated with the same media set.  
+> If a **MediaSet** data type field is used in a report object, then only the first associated media file is displayed in the generated report.
 
 ###  <a name="SupportedMediaTypes"></a> Supported Media Types  
 The media type, sometimes referred to as the MIME type, is an Internet standard to describe the contents of a file. Internet browsers use the media types to determine how to handle the file. There are several media types, such as image, audio, and video. Currently, [!INCLUDE[navnow](includes/navnow_md.md)] only supports image types. More specifically, you can only use image types that are supported by the System.Drawing.Image class of the .NET Framework, which include:
