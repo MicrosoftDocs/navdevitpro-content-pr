@@ -150,4 +150,6 @@ Accept wildcard characters: False
 
 [New-NAVCompany](New-NAVCompany.md)  
 
-[Remove-NAVCompany](Get-NAVCompany.md)
+[Remove-NAVCompany](Remove-NAVCompany.md)
+
+[Rename-NAVCompany](Rename-NAVCompany.md)

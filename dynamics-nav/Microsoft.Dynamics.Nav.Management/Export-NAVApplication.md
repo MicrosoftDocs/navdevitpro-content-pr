@@ -198,4 +198,9 @@ The value of the DatabaseName parameter.
 ## NOTES
 
 ## RELATED LINKS
+
+[Get-NAVApplication](Get-NAVApplication.md)  
+
+[Mount-NAVApplication](Mount-NAVApplication.md)  
+
 [Remove-NAVApplication](Remove-NAVApplication.md)  

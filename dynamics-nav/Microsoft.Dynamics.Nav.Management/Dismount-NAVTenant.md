@@ -251,3 +251,7 @@ If the InputObject parameter has been bound to a value, it will be passed throug
 
 ## RELATED LINKS
 [Mount-NAVTenant](Mount-NAVTenant.md)  
+
+[Get-NAVTenant](Get-NAVTenant.md)  
+
+[Sync-NAVTenant](Sync-NAVTenant.md)  

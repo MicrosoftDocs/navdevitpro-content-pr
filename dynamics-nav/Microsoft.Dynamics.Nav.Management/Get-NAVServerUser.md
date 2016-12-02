@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -58,10 +58,6 @@ Get-NAVServerUser DynamicsNAV
  ProfileID                : BOOKKEEPER
 ```
 
-Description
-
------------
-
 This example returns information about Microsoft Dynamics NAV users.
 
 ### EXAMPLE 2
@@ -85,10 +81,6 @@ WebServicesKeyExpiryDate : 1/1/0001 12:00:00 AM
 ProfileID                : BOOKKEEPER
 ```
 
-Description
-
------------
-
 This example returns information about Microsoft Dynamics NAV users who belong to the tenant Tenant1 on the Microsoft Dynamics NAV Server instance.
 
 ## PARAMETERS
@@ -100,7 +92,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -131,7 +123,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -142,10 +134,24 @@ Accept wildcard characters: False
 
 ## INPUTS
 
+### System.String
+You can pipe a string that contains a Microsoft Dynamics NAV Server instance name and tenant ID, if applicable) to the cmdlet.
+
 ## OUTPUTS
 
 ### System.Data.DataRow
+Returns the user information as a row.
 
 ## NOTES
 ## RELATED LINKS
+[New-NAVServerUser](New-NAVServerUser.md)  
 
+[Remove-NAVServerUser](Remove-NAVServerUser.md)  
+
+[Set-NAVServerUser](Set-NAVServerUser.md)  
+
+[Get-NAVServerUserPermissionSet](Get-NAVServerUserPermissionSet.md)  
+
+[New-NAVServerPermissionSet](New-NAVServerPermissionSet.md)  
+
+[Remove-NAVServerUserPermissionSet](Remove-NAVServerUserPermissionSet.md)  
