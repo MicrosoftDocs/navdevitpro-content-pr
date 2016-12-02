@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Apps.Tools.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -75,7 +75,7 @@ Specifies the manifest object on which the properties are to be set by the cmdle
 ```yaml
 Type: NavAppManifest
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -189,7 +189,7 @@ Use a comma (,) to separate the prerequisites.
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -205,7 +205,7 @@ Use a comma (,) to separate the paths to multiple .navx files, such as in the fo
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -295,4 +295,10 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
+[Get-NAVAppManifest](Get-NAVAppManifest.md)
 
+[New-NAVAppManifest](New-NAVAppManifest.md)
+
+[New-NavAppManifestFile](New-NAVAppManifestFile.md)  
+
+[NEW-NAVAppPackage](New-NAVAppPackage.md)

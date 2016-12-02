@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Model.Tools.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -30,20 +30,12 @@ The default setting is to recreate the object, but you can change this by settin
 PS C:\>Split-NAVApplicationObjectFile -Source C:\Solution\All.txt -Destination C:\Solution\TXT\
 ```
 
-Description
-
------------
-
 This example creates separate text files for each application object in the All.txt file, such as TAB18.TXT and TAB27.TXT.
 
 ### EXAMPLE 2
 ```
 PS C:\>Split-NAVApplicationObjectFile -Source C:\Solution\All.txt -Destination C:\Solution\TXT\ -PreserveFormatting
 ```
-
-Description
-
------------
 
 This example creates separate text files for each application object in the All.txt file, such as TAB18.TXT and TAB27.TXT.
 By setting the PreserveFormatting parameter, each object is an exact copy, including extra line breaks or potential syntax errors.
@@ -59,7 +51,7 @@ For example, to use the TXT folder that is a subfolder to the current folder, ty
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 3
@@ -74,7 +66,7 @@ Forces the cmdlet to overwrite any existing files in the Destination folder.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -90,7 +82,7 @@ If you do not set this parameter, the cmdlet returns a list of the files.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -109,7 +101,7 @@ As a result, the object in the generated text file can look different from the s
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -173,4 +165,6 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
+[Join-NAVApplicationObjectFile](Join-NAVApplicationObjectFile.md)  
 
+[Split-NAVApplicationObjectLanguageFile](Split-NAVApplicationObjectLanguageFile.md)  
