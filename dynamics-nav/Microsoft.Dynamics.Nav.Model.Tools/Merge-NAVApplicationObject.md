@@ -124,10 +124,6 @@ PS C:\>$myVariable = Merge-NAVApplicationObject -OriginalPath .\ORIGINAL\*.txt -
           TargetPath   : C:\Solution\TARGET\COD8.TXT
 ```
 
-Description
-
------------
-
 This example compares two sets of text files and applies the result of the comparison to a third version.
 The final result is stored in the folder that is specified in the -ResultPath parameter.
 When the merge completes, the files with conflicting code are shown in a list.
@@ -140,10 +136,6 @@ PS C:\>Merge-NAVApplicationObject -OriginalPath .\ORIGINAL\*.txt -TargetPath .\T
           Where-Object MergeResult -eq 'Conflict' |
           foreach { NOTEPAD.EXE $_.Conflict }
 ```
-
-Description
-
------------
 
 This example compares two sets of text files and applies the result of the comparison to a third version.
 The final result is stored in the folder that is specified in the -ResultPath parameter.
@@ -179,9 +171,6 @@ PS C:\>Merge-NAVApplicationObject -OriginalPath .\ORIGINAL\pag9999.txt -Modified
           % Merged   100,00
 ```
 
-Description
-
------------
 
 This example compares the documentation triggers in two versions of a page object and applies the result of the comparison to a third version.
 The final result is stored in the file that is specified in the -ResultPath parameter.
@@ -515,3 +504,6 @@ Otherwise, an object representing just a summary is returned.
 ## NOTES
 
 ## RELATED LINKS
+[Compare-NAVApplicationObject](C-NAVApplicationObject.md)  
+
+[Update-NAVApplicationObject](Update-NAVApplicationObject.md)  
