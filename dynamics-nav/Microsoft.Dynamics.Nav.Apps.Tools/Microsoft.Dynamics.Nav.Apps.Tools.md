@@ -11,7 +11,7 @@ Locale: en-US
 The [!INCLUDE[nav_dev_shell_md](../includes/nav_dev_shell_md.md)] includes cmdlets for creating extension packages. These cmdlets are included in the Microsoft.Dynamics.Nav.App.Tools module that is installed as part of the [!INCLUDE[nav_dev_shell_md](../includes/nav_dev_shell_md.md)] when you install the [!INCLUDE[nav_dev_long_md](../includes/nav_dev_long_md.md)].
 
 >[!NOTE]
->Also included in the [!INCLUDE[nav_dev_shell_md](../includes/nav_dev_shell_md.md)] are cmdlets for merging and modifying application object files. For more information about these cmdlets, see [Microsoft.Dynamics.Nav.Model.Tools](../Microsoft.Dynamics.Nav.Apps.Tools/Microsoft.Dynamics.Nav.Model.Tools.md).
+>Also included in the [!INCLUDE[nav_dev_shell_md](../includes/nav_dev_shell_md.md)] are cmdlets for merging and modifying application object files. For more information about these cmdlets, see [Microsoft.Dynamics.Nav.Model.Tools](../Microsoft.Dynamics.Nav.Model.Tools/Microsoft.Dynamics.Nav.Model.Tools.md).
 
 ## Microsoft.Dynamics.Nav.Apps.Tools Cmdlets
 ### [Compare-NAVAppApplicationObjectLanguage](Compare-NAVAppApplicationObjectLanguage.md)
