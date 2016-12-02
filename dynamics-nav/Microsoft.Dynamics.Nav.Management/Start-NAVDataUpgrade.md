@@ -201,7 +201,11 @@ Accept wildcard characters: False
 ```
 
 ### -Language
-Specifies the language version of Dynamics NAV on which to run the upgrade. The value must be a valid culture name for a language in Microsoft Dynamics NAV, such as en-US or da-DK. If the specified language does not exist on the Microsoft Dynamics NAV Server instance, the language en-US will be used.
+Specifies the language in which the upgrade, specifically codeunits, will run. The value must be a valid culture name for a language in Microsoft Dynamics NAV, such as en-US or da-DK. If the specified language does not exist on the Microsoft Dynamics NAV Server instance, the language en-US will be used.
+
+The Resume-NAVDataUpgrade function will also run in the language that was used by bthe Start-NAV DataUpgrade cmdlet. 
+
+This parameter is similar -Language paramter of the Invoke-NAVCodeunit cmdlet.
 
 ```yaml
 Type: LanguageSetting
@@ -227,6 +231,8 @@ Because the functions in the steps are called in random order, you should design
 
 ## RELATED LINKS
 [Get-NAVDataUpgrade](Get-NAVDataUpgrade.md)
+
+[Invoke-NAVCodeunit](Invoke-NAVCodeunit.md)  
 
 [Resume-NAVDataUpgrade](Resume-NAVDataUpgrade.md)
 
