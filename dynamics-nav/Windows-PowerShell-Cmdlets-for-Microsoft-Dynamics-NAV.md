@@ -26,7 +26,7 @@ author: jswymer
 
 |  Description  |  See module  |
 |---------------|--------------|
-|  Development Cmdlets for Dynamics NAV  |[Microsoft.Dynamics.Nav.Model.Tools](Microsoft.Dynamics.Nav.Management/Microsoft.Dynamics.Nav.Model.Tools.md)  |
+|  Development Cmdlets for Dynamics NAV  |[Microsoft.Dynamics.Nav.Model.Tools](Microsoft.Dynamics.Nav.Model.Tools/Microsoft.Dynamics.Nav.Model.Tools.md)  |
 | Development Cmdlets for Dynamics NAV Extensions |[Microsoft.Dynamics.Nav.Apps.Tools](Microsoft.Dynamics.Nav.Apps.Tools/Microsoft.Dynamics.Nav.Apps.Tools.md)  |
 
 ## See Also  
