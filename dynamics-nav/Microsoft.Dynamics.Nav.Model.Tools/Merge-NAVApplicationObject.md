@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Model.Tools.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -31,21 +31,13 @@ Any conflicts that the cmdlet cannot merge are identified in conflict files.
 For example, you can use the cmdlet to apply changes from an update to your version of Microsoft Dynamics NAV.
 The following list provides examples of the parameter values that you can specify when you merge versions of Microsoft Dynamics NAV:
 
-OriginalPath
+OriginalPath - Objects from the Microsoft release of Microsoft Dynamics NAV.
 
-Objects from the Microsoft release of Microsoft Dynamics NAV.
+ModifiedPath - Objects from your solution based on Microsoft Dynamics NAV, such as MySolution.
 
-ModifiedPath
+TargetPath - Objects from the updated version of Microsoft Dynamics NAV, such as Cumulative Update 1.
 
-Objects from your solution based on Microsoft Dynamics NAV, such as MySolution.
-
-TargetPath
-
-Objects from the updated version of Microsoft Dynamics NAV, such as Cumulative Update 1.
-
-ResultPath
-
-Text files with the result of the merge, such as MySolution upgraded to Microsoft Dynamics NAV 2016 Cumulative Update 1.
+ResultPath - Text files with the result of the merge, such as MySolution upgraded to Microsoft Dynamics NAV 2017 Cumulative Update 1.
 
 The Merge-NAVApplicationObject cmdlet compares OriginalPath to ModifiedPath, applies as many changes as possible to TargetPath, and the resulting text files are stored in the folder that is specified by the ResultPath parameter.
 
@@ -53,7 +45,7 @@ The Merge-NAVApplicationObject cmdlet compares OriginalPath to ModifiedPath, app
 
 ### EXAMPLE 1
 ```
-PS C:\>Merge-NAVApplicationObject -OriginalPath C:\Microsoft\NAV2016\DE\RTM\*.TXT -TargetPath C:\Microsoft\NAV2016\DE\CU1\*.TXT -ModifiedPath C:\Solution\NAV2016\DE\RTM\*.TXT -ResultPath C:\Solution\NAV2016\DE\CU1\
+PS C:\>Merge-NAVApplicationObject -OriginalPath C:\Microsoft\NAV2017\DE\RTM\*.TXT -TargetPath C:\Microsoft\NAV2017\DE\CU1\*.TXT -ModifiedPath C:\Solution\NAV2017\DE\RTM\*.TXT -ResultPath C:\Solution\NAV2017\DE\CU1\
           Processed 14 objects:
           Inserted   0 objects
           Deleted    0 objects
@@ -66,12 +58,9 @@ PS C:\>Merge-NAVApplicationObject -OriginalPath C:\Microsoft\NAV2016\DE\RTM\*.TX
           % Merged   80,00
 ```
 
-Description
 
------------
-
-This example compares the application objects from the German version of Microsoft Dynamics NAV 2015 to a customized solution that modified that version.
-The result of the comparison is applied to the German version of Microsoft Dynamics NAV 2015 Cumulative Update 1.
+This example compares the application objects from the German version of Microsoft Dynamics NAV 2017 to a customized solution that modified that version.
+The result of the comparison is applied to the German version of Microsoft Dynamics NAV 2017 Cumulative Update 1.
 The final result is stored in the folder that is specified in the -ResultPath parameter.
 When the merge completes, the summary of the result is shown.
 
@@ -80,10 +69,6 @@ When the merge completes, the summary of the result is shown.
 PS C:\>Merge-NAVApplicationObject -OriginalPath C:\Solution\ORIGINAL\COD1-RTM.TXT -ModifiedPath C:\Solution\MODIFIED\My-COD1-RTM.txt -TargetPath C:\Solution\TARGET\COD1-CU1.TXT -ResultPath C:\Solution\RESULT\My-COD1-CU1.TXT - -PassThru
 ```
 
-Description
-
------------
-
 This example compares a text file with codeunit 1 from the original release of Microsoft Dynamics NAV to a modified version of codeunit 1.
 The result of the comparison is applied to a version of codeunit 1 from Cumulative Update 1.
 The final result is stored in the file that is specified in the -ResultPath parameter.
@@ -91,25 +76,20 @@ When the merge completes, the summary of the result is shown.
 
 ### EXAMPLE 3
 ```
-PS C:\>Merge-NAVApplicationObject -OriginalPath C:\Solution\ORIGINAL\*.TXT -ModifiedPath C:\Solution\MODIFIED\*.txt -TargetPath C:\Solution\TARGET\*.TXT -ResultPath C:\Solution\RESULT\ |
-          Sort-Object ObjectType, Id |
-          Format-Table
-          ObjectType                               Id           MergeResult Original              Target                Modified              Result                Conflict              Error
-          ----------                               --           ----------- --------              ------                --------              ------                --------              -----
-          Codeunit                                  1              Conflict C:\Solution\ORIGIN... C:\Solution\TARGET... C:\Solution\MODIFI... C:\Solution\RESULT... C:\Solution\CONFLI...
-          Codeunit                                  6                Merged C:\Solution\ORIGIN... C:\Solution\TARGET... C:\Solution\MODIFI... C:\Solution\RESULT...
-          Codeunit                                  7             Identical C:\Solution\ORIGIN... C:\Solution\TARGET... C:\Solution\MODIFI... C:\Solution\RESULT...
-          Codeunit                                  8              Conflict C:\Solution\ORIGIN... C:\Solution\TARGET... C:\Solution\MODIFI... C:\Solution\RESULT... C:\Solution\CONFLI...
-          Codeunit                               9999                Merged C:\Solution\ORIGIN... C:\Solution\TARGET... C:\Solution\MODIFI... C:\Solution\RESULT...
-          Page                                      6             Identical C:\Solution\ORIGIN... C:\Solution\TARGET... C:\Solution\MODIFI... C:\Solution\RESULT...
-          Page                                      7             Identical C:\Solution\ORIGIN... C:\Solution\TARGET... C:\Solution\MODIFI... C:\Solution\RESULT...
-          Table                                     4             Identical C:\Solution\ORIGIN... C:\Solution\TARGET... C:\Solution\MODIFI... C:\Solution\RESULT...
-          Table                                    14             Identical C:\Solution\ORIGIN... C:\Solution\TARGET... C:\Solution\MODIFI... C:\Solution\RESULT...
+PS C:\>Merge-NAVApplicationObject -OriginalPath C:\Solution\ORIGINAL\*.TXT -ModifiedPath C:\Solution\MODIFIED\*.txt -TargetPath C:\Solution\TARGET\*.TXT -ResultPath C:\Solution\RESULT\ | Sort-Object ObjectType, Id | Format-Table
+
+ObjectType  Id  MergeResult  Original              Target                 Modified               Result                 Conflict               Error  
+----------  --  -----------  --------              ------                 --------               ------                 --------               -----  
+Codeunit    1   Conflict     C:\Solution\ORIGIN...  C:\Solution\TARGET...  C:\Solution\MODIFI...  C:\Solution\RESULT...  C:\Solution\CONFLI...  
+Codeunit    6   Merged       C:\Solution\ORIGIN...  C:\Solution\TARGET...  C:\Solution\MODIFI...  C:\Solution\RESULT...  
+Codeunit    7   Identical    C:\Solution\ORIGIN...  C:\Solution\TARGET...  C:\Solution\MODIFI...  C:\Solution\RESULT...  
+Codeunit    8   Conflict     C:\Solution\ORIGIN...  C:\Solution\TARGET...  C:\Solution\MODIFI...  C:\Solution\RESULT...  C:\Solution\CONFLI...  
+Codeunit    9   Merged       C:\Solution\ORIGIN...  C:\Solution\TARGET...  C:\Solution\MODIFI...  C:\Solution\RESULT...  
+Page        6   Identical    C:\Solution\ORIGIN...  C:\Solution\TARGET...  C:\Solution\MODIFI...  C:\Solution\RESULT...  
+Page        7   Identical    C:\Solution\ORIGIN...  C:\Solution\TARGET...  C:\Solution\MODIFI...  C:\Solution\RESULT...  
+Table       4   Identical    C:\Solution\ORIGIN...  C:\Solution\TARGET...  C:\Solution\MODIFI...  C:\Solution\RESULT...
+Table       14  Identical    C:\Solution\ORIGIN...  C:\Solution\TARGET...  C:\Solution\MODIFI...  C:\Solution\RESULT...
 ```
-
-Description
-
------------
 
 This example compares two sets of text files and applies the result of the comparison to a third version.
 The final result is stored in the folder that is specified in the -ResultPath parameter.
@@ -236,7 +216,7 @@ In the result of the application merge, the Date and Time properties are set to 
 ```yaml
 Type: DateTimePropertyAction
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -255,7 +235,7 @@ Code can be commented out if the merge results in unbalanced BEGIN and END state
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -321,7 +301,7 @@ Use this value when the objects contain version history in the documentation tri
 ```yaml
 Type: DocumentationConflictAction
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 Accepted values: Strict, ModifiedFirst, TargetFirst
 
 Required: False
@@ -337,7 +317,7 @@ Forces the cmdlet to overwrite any existing files in the Result folder.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -370,7 +350,7 @@ In the result of the application merge, the Modified property is set to the valu
 ```yaml
 Type: ModifiedPropertyAction
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -403,7 +383,7 @@ If you do not set this parameter, the cmdlet returns a list of the files.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -437,7 +417,7 @@ If this parameter is not set, these conflicts are suppressed to reduce "noise".
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -484,7 +464,7 @@ In the result of the application merge, the Version List property is set to the 
 ```yaml
 Type: VersionListPropertyAction
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -535,4 +515,3 @@ Otherwise, an object representing just a summary is returned.
 ## NOTES
 
 ## RELATED LINKS
-

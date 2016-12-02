@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Model.Tools.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -27,40 +27,28 @@ You can use the Get-NAVApplicationObjectProperty cmdlet to extract information a
 PS C:\>Set-NAVApplicationObjectProperty -TargetPath .\COD1.txt -VersionListProperty "DemoV1" -ModifiedProperty Yes -DateTimeProperty (Get-Date -Format g)
 ```
 
-Description
-
------------
-
 This example sets new the values for the Version List, Date, Time, and Modified properties in the specified target file.
 The date and time is set to the current date and time.
 When the update completes, the status is shown, including the updated values of the properties.
 
 ### EXAMPLE 2
 ```
-PS C:\>Set-NAVApplicationObjectProperty -TargetPath .\COD1.TXT -DateTimeProperty (Get-Date -Year 2016 -Month 1 -Day 1 -Hour 0 -Minute 0 -Format g) }
+PS C:\>Set-NAVApplicationObjectProperty -TargetPath .\COD1.TXT -DateTimeProperty (Get-Date -Year 2017 -Month 1 -Day 1 -Hour 0 -Minute 0 -Format g) }
 ```
 
-Description
-
------------
-
 This example sets a new value for the Date and Time properties in the specified target file.
-The date and time is set to a specific, locale-agnostic date and time, January 1st, 2015.
+The date and time is set to a specific, locale-agnostic date and time, January 1st, 2017.
 When the update completes, the status is shown, including the updated values of the properties.
 
 ### EXAMPLE 3
 ```
 PS C:\>Merge-NAVApplicationObject -OriginalPath .\ORIGINAL\*.txt -ModifiedPath .\MODIFIED\*.txt -TargetPath .\TARGET\*.txt -ResultPath .\RESULT -Force -PassThru |
           Where-Object MergeResult -eq 'Merged' |
-          foreach { Set-NAVApplicationObjectProperty -TargetPath $_.ResultPath -DateTimeProperty (Get-Date -Year 2016 -Month 1 -Day 1 -Hour 0 -Minute 0 -Format g) }
+          foreach { Set-NAVApplicationObjectProperty -TargetPath $_.ResultPath -DateTimeProperty (Get-Date -Year 2017 -Month 1 -Day 1 -Hour 0 -Minute 0 -Format g) }
 ```
 
-Description
-
------------
-
 This example sets a new value for the Date and Time properties in the target files that are passed through by the Merge-NAVApplicationObject cmdlet.
-The date and time is set to a specific, locale-agnostic date and time, January 1st, 2016.
+The date and time is set to a specific, locale-agnostic date and time, January 1st, 2017.
 When the update completes, the status is shown, including the updated values of the properties.
 
 ### EXAMPLE 4
@@ -76,18 +64,14 @@ PS C:\>$result = Merge-NAVApplicationObject -OriginalPath .\ORIGINAL\*.txt -Modi
           Get-NAVApplicationObjectProperty -Source $_.Result }
 ```
 
-Description
-
------------
-
 This example merges application objects, gets the VersionList property for the same application object in three different versions, and then sets a new value for the version list.
 When the update completes, the status is shown, including the updated values of the properties.
 
 ## PARAMETERS
 
 ### -DateTimeProperty
-Specifies the value of the Date and Time properties that you want to apply to the specified application objects, such as 01-01-2016.
-You must specify date and time according to the locale of the computer that you are running Microsoft Dynamics NAV 2016 Development Shell on.
+Specifies the value of the Date and Time properties that you want to apply to the specified application objects, such as 01-01-2017.
+You must specify date and time according to the locale of the computer that you are running Microsoft Dynamics NAV 2017 Development Shell on.
 For example, you can use the Get-Date Windows PowerShell cmdlet to get the date before you set the parameter, such as by typing the following command:
 
 Get-Date -Format g
@@ -97,7 +81,7 @@ For more information, see the example section.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -121,7 +105,7 @@ The Modified property is set to No.
 ```yaml
 Type: SetModifiedPropertyAction
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -137,7 +121,7 @@ If you do not set this parameter, the cmdlet returns a list of the changes.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -174,7 +158,7 @@ Alternatively, you can get the property values from the objects first and then a
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -221,4 +205,4 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
-
+[Get-NAVApplicationObjectProperty](Get-NAVApplicationObjectProperty.md)  

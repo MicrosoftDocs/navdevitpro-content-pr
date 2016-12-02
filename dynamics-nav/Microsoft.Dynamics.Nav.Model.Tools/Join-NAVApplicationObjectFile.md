@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Model.Tools.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -25,10 +25,6 @@ Use the Join-NAVApplicationObjectFile to combine the application objects in the 
 PS C:\>Join-NAVApplicationObjectFile -Source C:\Solution\TXT\COD*.txt -Destination C:\Solution\all-codeunits.txt
 ```
 
-Description
-
------------
-
 This example merges a list of files with application objects, such as COD1.TXT and COD2.TXT, into a single, larger file, all-codeunits.txt.
 When the merge completes, the status is shown with information about the file that was created.
 
@@ -42,7 +38,7 @@ For example, to generate the MyObjects.txt file in the current folder, type .\My
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 3
@@ -57,7 +53,7 @@ Forces the cmdlet to overwrite any existing files in the Result folder.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -121,4 +117,8 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
+[Join-NAVApplicationObjectLanguageFile](Join-NAVApplicationObjectLanguageFile.md)  
 
+[Merge-NAVApplicationObject](Merge-NAVApplicationObject.md)  
+
+[Split-NAVApplicationObjectFile](Split-NAVApplicationObjectFile) 

@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Model.Tools.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -26,10 +26,6 @@ The cmdlet tests all multilanguage strings to verify if the objects have transla
 PS C:\>Test-NAVApplicationObjectLanguage -Source TAB14.TXT -LanguageId ESP
 ```
 
-Description
-
------------
-
 This example tests the application object in the TAB14.txt file for captions in Spanish.
 If nothing is returned, the object has captions in ESP.
 If one or more captions in ESP are missing, a technical error is shown.
@@ -38,10 +34,6 @@ If one or more captions in ESP are missing, a technical error is shown.
 ```
 PS C:\>Test-NAVApplicationObjectLanguage -Source .\RESULT\*.TXT -LanguageId DAN
 ```
-
-Description
-
------------
 
 This example tests the application objects in the RESULT folder for captions in Danish.
 If nothing is returned, the object has captions in DAN.
@@ -62,10 +54,6 @@ PS C:\>   Test-NAVApplicationObjectLanguage -Source TAB14.TXT -LanguageId ESP -E
           }
 ```
 
-Description
-
------------
-
 This example tests the application object in the TAB14.txt file for captions in Spanish.
 If nothing is returned, the object has captions in ESP.
 If one or more captions in ESP are missing, an error is shown with the text that you specified.
@@ -79,7 +67,7 @@ If you do not set this parameter, all available languages are tested.
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 3
@@ -94,7 +82,7 @@ Specifies if you want to return a collection of objects that describe the missin
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -126,4 +114,8 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
+[Export-NAVApplicationObjectLanguage](Export-NAVApplicationObjectLanguage.md)  
 
+[Import-NAVApplicationObjectLanguage](Import-NAVApplicationObjectLanguage)  
+
+[Reove-NAVApplicationObjectLanguage](Remove-NAVApplicationObjectLanguage.md)

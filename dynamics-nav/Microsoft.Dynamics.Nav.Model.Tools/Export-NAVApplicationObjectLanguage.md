@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Model.Tools.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -35,10 +35,6 @@ Or you can choose to store the languages in memory so that you can pipe the resu
 PS C:\>Export-NAVApplicationObjectLanguage -Source .\ORIGINAL\ -LanguageId "DEU","FRA" -Destination .\RESULT\
 ```
 
-Description
-
------------
-
 This example exports the DEU and FRA languages from the Microsoft Dynamics NAV application objects that are in the ORIGINAL folder.
 The result of the export is a separate text file for each object and for each language, such as TAB18-DEU.txt and TAB18-FRA.txt.
 
@@ -46,10 +42,6 @@ The result of the export is a separate text file for each object and for each la
 ```
 PS C:\>Export-NAVApplicationObjectLanguage -Source .\ORIGINAL\ -LanguageId "DEU","FRA" -Destination .\RESULT\languages.txt
 ```
-
-Description
-
------------
 
 This example exports the DEU and FRA languages from the Microsoft Dynamics NAV application objects that are in the ORIGINAL folder.
 The result of the export is a single text file in the RESULT folder that lists all strings for all objects in one language first and then the other language.
@@ -61,10 +53,6 @@ PS C:\>Export-NAVApplicationObjectLanguage -Source .\ORIGINAL\ -LanguageId "DEU"
           Sort-Object |
           Set-Content .\RESULT\languages-sorted.txt
 ```
-
-Description
-
------------
 
 This example is similar to example 2 and exports the DEU and FRA languages to a single text file in the RESULT folder that lists all strings for all objects in one language first and then the other language.
 The exported captions are read into memory, sorted by object ID so that the DEU and FRA captions for the same object are listed together.
@@ -79,10 +67,6 @@ PS C:\>foreach ($lang in ('DEU', 'FRA'))
           }
 ```
 
-Description
-
------------
-
 When used in a script, this code snippet exports the DEU and FRA languages from the Microsoft Dynamics NAV application objects that are in the SOURCE folder.
 The result of the export is two text files in the RESULT folder that each lists all strings for all objects in that language.
 In this example, the resulting text files are ALL-DEU.txt and ALL-FRA.txt.
@@ -96,7 +80,7 @@ If you do not set this parameter, captions are stored in memory and can be piped
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 3
@@ -113,7 +97,7 @@ The default value is OEM, which is the default encoding for the Microsoft Dynami
 ```yaml
 Type: FileEncoding
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -130,7 +114,7 @@ The default value is ENU because the base development language in Microsoft Dyna
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -145,7 +129,7 @@ Skips confirmation prompts when the cmdlet is run.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -165,7 +149,7 @@ If a language is not present on a property that is translated into another langu
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 4
@@ -180,7 +164,7 @@ Specifies if you want to return an object for each application object and langua
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -243,4 +227,8 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
+[Import-NAVApplicationObjectLanguage](Import-NAVApplicationObjectLanguage)  
 
+[Remove-NAVApplicationObjectLanguage](Remove-NAVApplicationObjectLanguage.md)  
+
+[Test-NAVApplicationObjectLanguage](Test-NAVApplicationObjectLanguage.md)

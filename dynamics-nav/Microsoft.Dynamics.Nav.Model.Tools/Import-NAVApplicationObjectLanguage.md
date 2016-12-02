@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Model.Tools.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -27,10 +27,6 @@ For example, if you have exported multilanguage files in the Microsoft Dynamics 
 PS C:\>Import-NAVApplicationObjectLanguage -Source .\TAB14.TXT -LanguageId "ESP" -LanguagePath .\ALL-ESP.TXT -Destination .\RESULT\
 ```
 
-Description
-
------------
-
 This example imports the ESP language into the Microsoft Dynamics NAV application object that is specified in the -Source parameter, TAB14.txt.
 The strings are imported from the text files in the ALL-ESP.txt file, and the result of the command is a text file in the RESULT folder, TAB14.txt, that includes captions in Spanish.
 
@@ -42,7 +38,7 @@ Specifies the text file or folder where you want the result of the import to be 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 4
@@ -59,7 +55,7 @@ The default value is OEM, which is the default encoding for the Microsoft Dynami
 ```yaml
 Type: FileEncoding
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -74,7 +70,7 @@ Skips confirmation prompts when the cmdlet is run.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -106,7 +102,7 @@ If you do not set this parameter, all available languages are imported.
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 5
@@ -121,7 +117,7 @@ Specifies if you want to return an object for each application object and langua
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -137,7 +133,7 @@ The cmdlet does not modify these text files.
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -184,4 +180,8 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
+[Export-NAVApplicationObjectLanguage](Export-NAVApplicationObjectLanguage.md)  
 
+[Remove-NAVApplicationObjectLanguage](Remove-NAVApplicationObjectLanguage.md)  
+
+[Test-NAVApplicationObjectLanguage](Test-NAVApplicationObjectLanguage.md)

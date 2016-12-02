@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Model.Tools.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -27,10 +27,6 @@ For example, if you have exported captions for tables 18 and 27 to a single text
 PS C:\>Split-NAVApplicationObjectLanguageFile -Source single.txt -Destination .\RESULT\
 ```
 
-Description
-
------------
-
 This example splits the single.txt file into separate text files for each Microsoft Dynamics NAV application object that the file contains captions for, such as TAB18.txt and TAB27.txt.
 
 ## PARAMETERS
@@ -42,7 +38,7 @@ Optionally, do not set this parameter so that you can pipe the result to another
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 3
@@ -57,7 +53,7 @@ Skips confirmation prompts when the cmdlet is run.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -72,7 +68,7 @@ Specifies if you want to return an object for each application object and langua
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -135,4 +131,6 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
+[Join-NAVApplicationObjectLanguageFile](Join-NAVApplicationObjectLanguageFile.md)  
 
+[Split-NAVApplicationObjectFile](Split-NAVApplicationObjectFile.md)  
