@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Apps.Tools.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=616073
 schema: 2.0.0
 ---
 
