@@ -1,13 +1,13 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
 # Get-NAVServerPermission
 
 ## SYNOPSIS
-Returns information about the permissions that are applied to Microsoft Dynamics NAV objects for the specified Microsoft Dynamics NAV Server instance.
+Returns information about the permissions that are applied to Dynamics NAV objects for the specified Dynamics NAV Server instance.
 
 ## SYNTAX
 
@@ -18,6 +18,7 @@ Get-NAVServerPermission [-PermissionSetId <String>] [-ObjectType <ObjectType>] [
 
 ## DESCRIPTION
 Use the Get-NAVServerPermission cmdlet to return a list of Microsoft Dynamics NAV permissions that are applied to Microsoft Dynamics NAV objects for the specified Microsoft Dynamics NAV Server instance.
+
 You can filter the information permission set ID, object type, and/or object ID.
 
 ## EXAMPLES
@@ -51,10 +52,6 @@ PermissionSet Name : ADCS Set-up
 Object Name        : Miniform Header
 ```
 
-Description
-
------------
-
 This example returns information about all permission sets that include permissions for object 7700.
 
 ## PARAMETERS
@@ -65,7 +62,7 @@ Specifies an Object ID, such as 7702.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -106,7 +103,7 @@ FieldNumber = 11
 ```yaml
 Type: ObjectType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -121,7 +118,7 @@ Specifies the ID for a permission set, such as SUPER or BASIC.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -137,7 +134,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -147,12 +144,12 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -163,10 +160,26 @@ Accept wildcard characters: False
 
 ## INPUTS
 
+### System.String
+You can pipe a string that contains a Microsoft Dynamics NAV Server instance name to the cmdlet.
+
 ## OUTPUTS
 
 ### System.Data.DataTable
+Returns the Microsoft Dynamics NAV Server permissions information as a table.
 
 ## NOTES
 ## RELATED LINKS
+[New-NAVServerPermission](New-NAVServerPermission.md)  
 
+[Remove-NAVServerPermission](Remove-NAVServerPermission.md)  
+
+[Set-NAVServerPermission](Set-NAVServerPermission.md)  
+
+[Get-NAVServerPermissionSet](Get-NAVServerPermissionSet.md)  
+
+[New-NAVServerPermissionSet](New-NAVServerPermissionSet.md)  
+
+[Remove-NAVServerPermissionSet](Remove-NAVServerPermissionSet.md)  
+
+[Set-NAVServerPermissionSet](Set-NAVServerPermissionSet.md)  

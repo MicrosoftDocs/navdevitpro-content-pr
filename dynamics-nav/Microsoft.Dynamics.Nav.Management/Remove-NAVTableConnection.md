@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -25,32 +25,29 @@ Remove-NAVTableConnection [-ApplicationDatabaseServer <String>] -ApplicationData
 ```
 
 ## DESCRIPTION
-Use the Remove-NAVTableConnection cmdlet to remove an external table connection from the application/service.
-You can connect to a Microsoft Dynamics NAV database by specifying the Microsoft Dynamics NAV Server instance or the application database.
+Use the Remove-NAVTableConnection cmdlet to remove an external table connection from the application/service. You can connect to a Microsoft Dynamics NAV database by specifying the Microsoft Dynamics NAV Server instance or the application database.
 
 ## EXAMPLES
 
 ### EXAMPLE 1
 ```
-
+Remove-NAVTableConnection -ServerInstance DynamicsNAV -ConnectionType CRM
+ -ConnectionId myCRM
 ```
 
-Description
-
------------
+This example removes a connection to a Dynamics CRM table from a Dynamics NAV Server instance.
 
 ## PARAMETERS
 
 ### -ApplicationDatabaseCredentials
 Specifies the user name and password of an SQL Server Authentication login account that provides access to the Microsoft Dynamics NAV application database in SQL Server.
-You use this parameter to access the database by using SQL Server Authentication.
-If you want to use Windows Authentication, then you can omit this parameter
-The login account must be a member of the db_owner role on the database.
+
+You use this parameter to access the database by using SQL Server Authentication. If you want to use Windows Authentication, then you can omit this parameter The login account must be a member of the db_owner role on the database.
 
 ```yaml
 Type: PSCredential
 Parameter Sets: UseDatabase
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -65,7 +62,7 @@ Specifies the name of the Microsoft Dynamics NAV database that contains the appl
 ```yaml
 Type: String
 Parameter Sets: UseDatabase
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -80,7 +77,7 @@ Specifies the name of the computer on which the SQL Server instance for the Micr
 ```yaml
 Type: String
 Parameter Sets: UseDatabase
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -95,7 +92,7 @@ Specifies the name of the table connection.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -111,7 +108,7 @@ In Microsoft Dynamics NAV 2016, you can specify two types of connection: CRM or 
 ```yaml
 Type: TableConnectionType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -127,7 +124,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: UseNST
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -167,12 +164,12 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -187,4 +184,6 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
+[Get-NAVTableConnection](Get-NAVTableConnection.md)  
 
+[New-NAVTableConnection](New-NAVTableConnection.md)  

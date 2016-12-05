@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -24,9 +24,7 @@ Set-NAVServerConfiguration -DatabaseCredentials <PSCredential> [-ServerInstance]
 ```
 
 ## DESCRIPTION
-Use the Set-NAVServerConfiguration cmdlet to configure settings for a Microsoft Dynamics NAV Server instance.
-Values are written directly to the configuration file for the instance (CustomSettings.config).
-New setting values do not take effect until you restart the server instance.
+Use the Set-NAVServerConfiguration cmdlet to configure settings for a Microsoft Dynamics NAV Server instance. Values are written directly to the configuration file for the instance (CustomSettings.config). New setting values do not take effect until you restart the server instance.
 
 ## EXAMPLES
 
@@ -34,10 +32,6 @@ New setting values do not take effect until you restart the server instance.
 ```
 Set-NAVServerConfiguration MyInstance -KeyName DatabaseServer -KeyValue DatabaseServer.Domain.Com
 ```
-
-Description
-
------------
 
 In this example, the Set-NAVServerConfiguration cmdlet sets the value for the 'DatabaseServer' key to 'DatabaseServer.Domain.Com' for a Microsoft Dynamics NAV Server instance, MyInstance.
 
@@ -51,7 +45,7 @@ The login account must be a member of the db_owner role on the database.
 ```yaml
 Type: PSCredential
 Parameter Sets: DatabaseCredentials
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -66,7 +60,7 @@ Specifies the navigation path from the root element to the appSettings section o
 ```yaml
 Type: String
 Parameter Sets: KeyValuePairSettings
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -82,7 +76,7 @@ Examine the CustomSettings.config file to determine the correct key name.
 ```yaml
 Type: String
 Parameter Sets: KeyValuePairSettings
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -93,13 +87,12 @@ Accept wildcard characters: False
 
 ### -KeyValue
 The configuration key value.
-For more information about supported values, see "Configuring Microsoft Dynamics NAV Server" in the Microsoft Dynamics NAV Developer and IT Pro Help.
-A version of this topic is available online at: http://go.microsoft.com/fwlink/?LinkID=163750.
+For more information about supported values, see "Configuring Microsoft Dynamics NAV Server" in the Microsoft Dynamics NAV Developer and IT Pro Help. A version of this topic is available online at: http://go.microsoft.com/fwlink/?LinkID=163750.
 
 ```yaml
 Type: String
 Parameter Sets: KeyValuePairSettings
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -115,7 +108,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -155,12 +148,12 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -171,10 +164,15 @@ Accept wildcard characters: False
 
 ## INPUTS
 
+### System.String
+You can pipe a string that contains a Microsoft Dynamics NAV Server instance name to the cmdlet.
+
 ## OUTPUTS
 
 ### None
 
 ## NOTES
 ## RELATED LINKS
+[Get-NAVServerConfiguration](Get-NAVServerConfiguration.md)  
 
+[New-NAVServerConfiguration](Set-NAVServerConfiguration.md)

@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -108,7 +108,7 @@ ClientServicesMaxItemsInObjectGraph     512
 
 ClientServicesChunkSize                 28
 
-ClientServicesProhibitedFileTypes       ade;adp;app;asp;bas;bat;chm;cmd;com;... 
+ClientServicesProhibitedFileTypes       ade;adp;app;asp;bas;bat;chm;cmd;com;...
 
 NASServicesStartupCodeunit
 
@@ -126,7 +126,7 @@ UIElementRemovalOption                  LicenseFileAndUserPermissions
 
 ClientServicesTokenSigningKey
 
-ClientServicesFederationMetadataLoca... 
+ClientServicesFederationMetadataLoca...
 
 AppIdUri
 
@@ -183,10 +183,6 @@ UseResultSetCache                       True
 EnableTempTableSizeReporting            False
 ```
 
-Description
-
------------
-
 This example returns configuration details for the Microsoft Dynamics NAV Server instance server named MyInstance on the Microsoft Dynamics NAV Server computer.
 
 ### EXAMPLE 2
@@ -222,10 +218,6 @@ value = My Database
 
 }
 ```
-
-Description
-
------------
 
 This example returns configuration details for the Microsoft Dynamics NAV Server instance named MyInstance on the Microsoft Dynamics NAV Server computer in XML format.
 
@@ -341,10 +333,6 @@ enabled = true
 }
 ```
 
-Description
-
------------
-
 This example returns an XML document that contains the details for the Microsoft Dynamics NAV Server instance named MyInstance on the Microsoft Dynamics NAV Server computer.
 
 ## PARAMETERS
@@ -355,7 +343,7 @@ Formats the cmdlet output as an XML document.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -371,7 +359,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -381,12 +369,12 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -397,10 +385,19 @@ Accept wildcard characters: False
 
 ## INPUTS
 
+### System.String
+You can pipe a string that contains a Microsoft Dynamics NAV Server instance name to the cmdlet.
+
 ## OUTPUTS
 
-### System.Object[]
+### System.Xml.XPathNodeList
+Returns the configuration settings as well-formatted text.
+
+### System.Xml.XmlDocument
+If you use the AsXml parameter, then the cmdlet returns the configuration settings as an XML document.
 
 ## NOTES
 ## RELATED LINKS
+[New-NAVServerConfiguration](New-NAVServerConfiguration.md)  
 
+[Set-NAVServerConfiguration](Set-NAVServerConfiguration.md)

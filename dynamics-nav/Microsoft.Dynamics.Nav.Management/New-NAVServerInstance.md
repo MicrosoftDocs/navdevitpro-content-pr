@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -24,8 +24,8 @@ New-NAVServerInstance -ManagementServicesPort <ServicePort> [-ClientServicesPort
 Use the New-NAVServerInstance cmdlet to create a new Microsoft Dynamics NAV Server instance.
 You must specify a name for the instance, in addition to values for the four port parameters.
 All other configuration values for the new instance are based on default values.
-Make sure that you verify the DatabaseServer and DatabaseName values after the instance is created, to ensure that the instance can accept client requests.
-All permissions that are required for the instance to start are configured automatically.
+
+Make sure that you verify the DatabaseServer and DatabaseName values after the instance is created, to ensure that the instance can accept client requests. All permissions that are required for the instance to start are configured automatically.
 
 ## EXAMPLES
 
@@ -41,10 +41,6 @@ VERBOSE: Adding Windows Firewall (and UrlAcl) rules for Server Instance Microsof
 VERBOSE: Adding Windows Firewall (and UrlAcl) rules for Server Instance MicrosoftDynamicsNavServer$NewNAVServer
 VERBOSE: NavCommand.EndProcessing
 ```
-
-Description
-
------------
 
 This example creates a new Microsoft Dynamics NAV Server instance.
 It configures the necessary firewall exceptions and performs the necessary Access Control List registrations.
@@ -65,10 +61,6 @@ VERBOSE: Setting service parameter: 'ODataServicesPort' to value: '8102'
 VERBOSE: NavCommand.EndProcessing
 ```
 
-Description
-
------------
-
 This example prompts for ServiceAccount credentials and then creates a new Microsoft Dynamics NAV Server instance.
 
 ## PARAMETERS
@@ -76,6 +68,7 @@ This example prompts for ServiceAccount credentials and then creates a new Micro
 ### -ClientServicesCredentialType
 The type of client credential used for client authentication.
 Possible values are: Windows, Username, NavUserPassword and AccessControlService.
+
 If you use the Windows credential type, then the client connects with current user.
 This user must be known to both the server and the client.
 This is the default credential type.
@@ -103,7 +96,7 @@ This credential type is used by Windows Azure Marketplace.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -118,7 +111,7 @@ Specifies the listening TCP port for clients such as Microsoft Dynamics NAV Wind
 ```yaml
 Type: ServicePort
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -131,12 +124,13 @@ Accept wildcard characters: False
 The user name and password of the login account that the Microsoft Dynamics NAV Server instance will use to connect to the Microsoft Dynamics NAV database in SQL Server.
 This parameter configures the Microsoft Dynamics NAV Server instance to use SQL Server Authentication instead of Windows Authentication on the connection to the database.
 If the Microsoft Dynamics NAV Server instance is configured for multitenancy, then parameter configure SQL Authentication on the connection to the application database, not the tenant database.
+
 The login account must be a member of the db_owner role on the database.
 
 ```yaml
 Type: PSCredential
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -151,7 +145,7 @@ Specifies the SQL Server instance on which the Microsoft Dynamics NAV database i
 ```yaml
 Type: DatabaseInstance
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -166,7 +160,7 @@ Specifies the name of the Microsoft Dynamics NAV database.
 ```yaml
 Type: DatabaseName
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -181,7 +175,7 @@ Specifies the name of the computer on which the SQL Server instance for the Micr
 ```yaml
 Type: DatabaseServer
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -192,13 +186,12 @@ Accept wildcard characters: False
 
 ### -ManagementServicesPort
 Specifies the TCP port that is used to manage the Microsoft Dynamics NAV Server instance.
-The Management Services port has no exceptions in the firewall, and will only be accessed from the local computer.
-The port is used by Windows PowerShell for access Microsoft Dynamics NAV Server management data.
+The Management Services port has no exceptions in the firewall, and will only be accessed from the local computer. The port is used by Windows PowerShell for access Microsoft Dynamics NAV Server management data.
 
 ```yaml
 Type: ServicePort
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -213,7 +206,7 @@ Specifies the Microsoft Dynamics NAV Server instance to be a multitenant instanc
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -228,7 +221,7 @@ Specifies the listening HTTP port for Microsoft Dynamics NAV OData web services.
 ```yaml
 Type: ServicePort
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -244,7 +237,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -262,7 +255,7 @@ This parameter accepts values from the enum System.ServiceProcess.ServiceAccount
 ```yaml
 Type: ServiceAccount
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -277,7 +270,7 @@ Specifies a set of security credentials that you must use when configuring the s
 ```yaml
 Type: PSCredential
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -288,16 +281,21 @@ Accept wildcard characters: False
 
 ### -ServicesCertificateThumbprint
 Specifies the certificate thumbprint for the x509 certificate that is going to be used for securing communication with the server.
+
 The certificate must be stored in the local machine store and in the personal sub-store in the certificate store.
+
 The private key of the certificate must be present and exchangeable.
+
 The certificate must be in .pfx format, not .cer format.
+
 The certificate can be either self-signed or issued by a trusted certification authority (CA).
+
 When specifying a ServicesCertificateThumbprint, SOAP web services and OData web services become HTTPS.
 
 ```yaml
 Type: ClientServicesCertificateThumbprint
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -312,7 +310,7 @@ Specifies the listening HTTP port for Microsoft Dynamics NAV SOAP web services.
 ```yaml
 Type: ServicePort
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -352,12 +350,12 @@ Accept wildcard characters: False
 ```
 
 ### -DeveloperServicesPort
-{{Fill DeveloperServicesPort Description}}
+Specifies the listening HTTP port for Dynamics NAV Developer web services.
 
 ```yaml
 Type: ServicePort
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -367,12 +365,12 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -383,10 +381,17 @@ Accept wildcard characters: False
 
 ## INPUTS
 
+## System.String
+You can pipe a string that contains a Dynamics NAV Server instance name or the security credentials to the cmdlet.
+
 ## OUTPUTS
 
 ### None
 
 ## NOTES
 ## RELATED LINKS
+[Get-NAVServerInstance](Get-NAVServerInstance.md)  
 
+[Remove-NAVServerInstance](Remove-NAVServerInstance.md)
+
+[Set-NAVServerInstance](Set-NAVServerInstance.md)

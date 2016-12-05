@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -34,20 +34,12 @@ Company name, Evaluation Company
 Get-NAVCompany -ServerInstance DynamicsNAV -Tenant CRONUS
 ```
 
-Description
-
------------
-
 This example shows a list of companies in the tenant database that has the tenant ID CRONUS and which is mounted against the DynamicsNAV server instance.
 
 ### EXAMPLE 2
 ```
 Get-NAVCompany -FilePath c:\file\my-exported.navdata
 ```
-
-Description
-
------------
 
 This example shows a list of companies that are contained in the my-exported.navdata file that is located in the c:\file folder.
 
@@ -75,7 +67,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: NavServerSet
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -101,12 +93,12 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -117,10 +109,20 @@ Accept wildcard characters: False
 
 ## INPUTS
 
+### System.string
+You can pipe the value of the ServerInstance parameter as a string to this cmdlet.
+
 ## OUTPUTS
 
 ### System.Data.DataRow
+Returns the company information as a data row for each company.
 
 ## NOTES
 ## RELATED LINKS
+[Copy-NAVCompany](Copy-NAVCompany.md)  
 
+[New-NAVCompany](New-NAVCompany.md)  
+
+[Remove-NAVCompany](Remove-NAVCompany.md)
+
+[Rename-NAVCompany](Rename-NAVCompany.md)  

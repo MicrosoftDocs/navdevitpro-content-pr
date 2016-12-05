@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -50,16 +50,15 @@ Import-NAVData [-DatabaseName <String>] [-DatabaseCredentials <PSCredential>]
 ```
 
 ## DESCRIPTION
-Use the Import-NAVData cmdlet to import data into a Microsoft Dynamics NAV database from a file.
-You can choose to import all data in the file, and you can choose to import only company-specific data, global data, application data, or application objects.
+Use the Import-NAVData cmdlet to import data into a Microsoft Dynamics NAV database from a file. You can choose to import all data in the file, and you can choose to import only company-specific data, global data, application data, or application objects.
 You can use the Import-NAVData cmdlet in a classic single-tenant deployment of Microsoft Dynamics NAV, and you can use it in multitenant deployments.
-You can only import an application into an empty database.
-If you import application data but not the application, you cannot access the database from Microsoft Dynamics NAV.
-Similarly, if you import global data into a database that does not contain a company, you cannot open Microsoft Dynamics NAV.
-Also, we recommend that you do not import an application into a database that users are accessing.
-A new application often defines a new database schema that changes the structure of the business data.
-The cmdlet takes different parameter sets depending on how you connect to the database that you want to import data into.
-You can access the database through the Microsoft Dynamics NAV Server instance, or you can access the database directly.
+
+You can only import an application into an empty database. If you import application data but not the application, you cannot access the database from Microsoft Dynamics NAV. Similarly, if you import global data into a database that does not contain a company, you cannot open Microsoft Dynamics NAV.
+
+Also, we recommend that you do not import an application into a database that users are accessing. A new application often defines a new database schema that changes the structure of the business data.
+
+The cmdlet takes different parameter sets depending on how you connect to the database that you want to import data into. You can access the database through the Microsoft Dynamics NAV Server instance, or you can access the database directly.
+
 You can use the Import-NAVData cmdlet to transfer data between installations.
 We recommend that you use SQL Server management tools to back up and restore databases.
 To export data to a file, use the Export-NAVData cmdlet.
@@ -71,20 +70,12 @@ To export data to a file, use the Export-NAVData cmdlet.
 Import-NAVData -ServerInstance DynamicsNAV -CompanyName "CRONUS International Ltd.", "My Company" -IncludeGlobalData -FilePath C:\file\CompaniesAndGlobalData.navdata
 ```
 
-Description
-
------------
-
 This example imports the two named companies into the database that is mounted against the specified Microsoft Dynamics NAV Server instance in a single-tenant deployment of Microsoft Dynamics NAV.
 
 ### EXAMPLE 2
 ```
 Import-NAVData -DatabaseServer 'MyServer' -DatabaseName 'Tenant 1 Database' -ApplicationDatabaseServer 'MyServer' -ApplicationDatabase 'NAV App' -CompanyName "CRONUS International Ltd." -FilePath C:\file\Company.navdata
 ```
-
-Description
-
------------
 
 This example imports a named company into the specified tenant database that uses the specified application database in a multitenant deployment of Microsoft Dynamics NAV.
 
@@ -93,12 +84,7 @@ This example imports a named company into the specified tenant database that use
 Import-NAVData -DatabaseServer 'MyServer' -DatabaseName 'Tenant 1 Database' DatabaseCredentials (Get-Credential)-ApplicationDatabaseServer 'MyServer' -ApplicationDatabase 'NAV App' -CompanyName "CRONUS International Ltd." ApplicationDatabaseCredentials (Get-Credential) -FilePath C:\file\Company.navdata
 ```
 
-Description
-
------------
-
-This example imports the named into the specified tenant database that uses the specified application database in a multitenant deployment of Microsoft Dynamics NAV.
-The example configures SQL Server Authentication on the nav_server instance for accessing the tenant and application databases.
+This example imports the named into the specified tenant database that uses the specified application database in a multitenant deployment of Microsoft Dynamics NAV. The example configures SQL Server Authentication on the Dynamics NAV Server instance for accessing the tenant and application databases.
 
 ## PARAMETERS
 
@@ -108,7 +94,7 @@ Specifies if you want to import all companies from the specified file.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: UseNST_AllCompanies, UseDatabase_AllCompanies
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -126,7 +112,7 @@ The login account must be a member of the db_owner role on the database.
 ```yaml
 Type: PSCredential
 Parameter Sets: UseDatabase_SomeCompanies, UseDatabase_AllCompanies, UseDatabase_NoCompanies
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -142,7 +128,7 @@ Even if you are not importing application data to the application database, you 
 ```yaml
 Type: String
 Parameter Sets: UseDatabase_SomeCompanies, UseDatabase_AllCompanies, UseDatabase_NoCompanies
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -158,7 +144,7 @@ Even if you are not importing application data to the application database, you 
 ```yaml
 Type: String
 Parameter Sets: UseDatabase_SomeCompanies, UseDatabase_AllCompanies, UseDatabase_NoCompanies
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -173,7 +159,7 @@ Specifies the data changes are committed per table.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -189,7 +175,7 @@ If the company does not exist in the file, the operation fails.
 ```yaml
 Type: String[]
 Parameter Sets: UseDatabase_SomeCompanies, UseNST_SomeCompanies
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -207,7 +193,7 @@ The login account must be a member of the db_owner role on the database.
 ```yaml
 Type: PSCredential
 Parameter Sets: UseDatabase_SomeCompanies, UseDatabase_AllCompanies, UseDatabase_NoCompanies
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -274,7 +260,7 @@ You can only set this parameter when you access the Microsoft Dynamics NAV datab
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -291,7 +277,7 @@ Application data is tables that describe the application as opposed to being bus
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -307,7 +293,7 @@ If you do not set the parameter, global data is not included in the import.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -323,7 +309,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: UseNST_AllCompanies, UseNST_SomeCompanies
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -379,12 +365,12 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -399,4 +385,4 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
-
+[Export-NAVData](Export-NAVData.md)

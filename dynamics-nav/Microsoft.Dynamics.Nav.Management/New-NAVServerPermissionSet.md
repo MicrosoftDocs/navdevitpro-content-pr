@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -27,10 +27,6 @@ After you create a permission set with New-NAVServerPermissionSet, use New-NAVSe
 New-NAVServerPermissionSet MicrosoftDynamicsNavServer -PermissionSetId TEST -PermissionSetName 'This is a set for TEST.'
 ```
 
-Description
-
------------
-
 This example creates a new Microsoft Dynamics NAV permission set with Permission Set ID TEST and Permission Set Name 'This is a set for TEST.'
 
 ## PARAMETERS
@@ -43,7 +39,7 @@ Avoid using the ID of an already existing permission set, otherwise the cmdlet r
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -59,7 +55,7 @@ Remember to use quotation marks around this string.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -75,7 +71,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -115,12 +111,12 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -131,10 +127,25 @@ Accept wildcard characters: False
 
 ## INPUTS
 
+### System.String
+You can pipe a string that contains a Microsoft Dynamics NAV Server instance name to the cmdlet.
+
 ## OUTPUTS
 
 ### None
 
 ## NOTES
 ## RELATED LINKS
+[Get-NAVServerPermissionSet](Get-NAVServerPermissionSet.md)  
 
+[Remove-NAVServerPermissionSet](Remove-NAVServerPermissionSet.md)  
+
+[Set-NAVServerPermissionSet](Set-NAVServerPermissionSet.md)  
+
+[New-NAVServerPermission](New-NAVServerPermission.md)  
+
+[Get-NAVServerPermission](Get-NAVServerPermission.md)  
+
+[Remove-NAVServerPermission](Remove-NAVServerPermission.md)  
+
+[Set-NAVServerPermission](Set-NAVServerPermission.md)  

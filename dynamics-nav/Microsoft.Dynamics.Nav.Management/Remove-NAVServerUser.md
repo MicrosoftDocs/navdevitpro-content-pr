@@ -45,10 +45,6 @@ Use the Remove-NAVServerUser cmdlet to delete a Microsoft Dynamics NAV user from
 Remove-NAVServerUser MicrosoftDynamicsNavServer -Sid S-1-5-20
 ```
 
-Description
-
------------
-
 This example deletes a Microsoft Dynamics NAV user from the database that is connected to the Microsoft Dynamics NAV Server server instance that has the name MicrosoftDynamicsNavServer.
 The user is identified by the security identifier.
 
@@ -56,10 +52,6 @@ The user is identified by the security identifier.
 ```
 Remove-NAVServerUser MicrosoftDynamicsNavServer -WindowsAccount cronus\chris
 ```
-
-Description
-
------------
 
 This example deletes a Microsoft Dynamics NAV.
 The user is identified by the Windows account user name.
@@ -69,10 +61,6 @@ The user is identified by the Windows account user name.
 Remove-NAVServerUser MicrosoftDynamicsNavServer -UserName USER2
 ```
 
-Description
-
------------
-
 This example deletes a Microsoft Dynamics NAV.
 The user is identified by the user name in Microsoft Dynamics NAV.
 
@@ -80,10 +68,6 @@ The user is identified by the user name in Microsoft Dynamics NAV.
 ```
 Get-NAVServerUser MicrosoftDynamicsNavServer | Remove-NAVServerUser MicrosoftDynamicsNavServer
 ```
-
-Description
-
------------
 
 This example uses piping to delete all Microsoft Dynamics NAV users for the Microsoft Dynamics NAV Server instance with the name MicrosoftDynamicsNavServer.
 
@@ -106,8 +90,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServerInstance
-Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
-You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
+Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance. You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
 
 ```yaml
 Type: String
@@ -122,10 +105,7 @@ Accept wildcard characters: False
 ```
 
 ### -Sid
-A security identifier (SID) for the Microsoft Dynamics NAV user to delete.
-The SID is a unique value that identifies a Windows user account.
-You can use the Sid, UserName, or WindowsAccount parameters to identify the  user.
-If you use the Sid parameter, then do not set the UserName or WindowsAccount parameters.
+A security identifier (SID) for the Microsoft Dynamics NAV user to delete. The SID is a unique value that identifies a Windows user account. You can use the Sid, UserName, or WindowsAccount parameters to identify the  user. If you use the Sid parameter, then do not set the UserName or WindowsAccount parameters.
 
 ```yaml
 Type: String
@@ -140,8 +120,7 @@ Accept wildcard characters: False
 ```
 
 ### -Tenant
-Specifies the ID of the tenant that the user is stored in, such as Tenant1.
-This parameter is required unless the specified service instance is not configured to run multiple tenants.
+Specifies the ID of the tenant that the user is stored in, such as Tenant1. This parameter is required unless the specified service instance is not configured to run multiple tenants.
 
 ```yaml
 Type: TenantId
@@ -156,10 +135,7 @@ Accept wildcard characters: False
 ```
 
 ### -UserName
-Specifies the user name of a Microsoft Dynamics NAV user to delete.
-The user name is defined by the User Name field in a user's account in Microsoft Dynamics NAV.
-You can use the UserName, WindowsAccount or Sid parameters to identify the user.
-If you use the Username parameter, then you cannot use the Windows Account or Sid parameters.
+Specifies the user name of a Microsoft Dynamics NAV user to delete. The user name is defined by the User Name field in a user's account in Microsoft Dynamics NAV. You can use the UserName, WindowsAccount or Sid parameters to identify the user. If you use the Username parameter, then you cannot use the Windows Account or Sid parameters.
 
 ```yaml
 Type: String
@@ -174,10 +150,7 @@ Accept wildcard characters: False
 ```
 
 ### -WindowsAccount
-Specifies the Windows user name of the Microsoft Dynamics NAV user to delete.
-The value has the domain\username format.
-You can use the WindowsAccount, UserName, or Sid parameters to identify the user.
-If you use the WindowsAccount parameter, then you cannot use the UserName or Sid parameters.
+Specifies the Windows user name of the Microsoft Dynamics NAV user to delete. The value has the domain\username format. You can use the WindowsAccount, UserName, or Sid parameters to identify the user. If you use the WindowsAccount parameter, then you cannot use the UserName or Sid parameters.
 
 ```yaml
 Type: String
@@ -222,7 +195,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
@@ -238,9 +211,27 @@ Accept wildcard characters: False
 
 ## INPUTS
 
+### System.String
+You can pipe a string that contains a Microsoft Dynamics NAV Server instance name and tenant ID, if applicable, to the cmdlet.
+
+### System.Data.DataRow
+You can pass this object from the Get-NAVServerUser cmdlet to remove a user.
+
+
 ## OUTPUTS
 
 ### None
 
 ## NOTES
 ## RELATED LINKS
+[Get-NAVServerUser](Get-NAVServerUser.md)  
+
+[New-NAVServerUser](New-NAVServerUser.md)  
+
+[Set-NAVServerUser](Set-NAVServerUser.md)  
+
+[Get-NAVServerUserPermissionSet](Get-NAVServerUserPermissionSet.md)  
+
+[New-NAVServerPermissionSet](New-NAVServerPermissionSet.md)  
+
+[Remove-NAVServerUserPermissionSet](Remove-NAVServerUserPermissionSet.md)  

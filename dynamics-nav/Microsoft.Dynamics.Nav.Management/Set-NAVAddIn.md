@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -33,12 +33,7 @@ Use this cmdlet to change the settings of an existing add-in the database.
 Set-NAVAddIn -ServerInstance DynamicsNAV -AddinName MyNavAddin -PublicKeyToken 31bf3856ad364e35 -ResourceFile 'c:\addins\MyNavAddin.zip'
 ```
 
-Description
-
------------
-
-This example changes the MyNavAddin add-in that is registered in the system table 2000000069 Add-ins.
-The example specifies the add-in files that are contained in the MyNavAddin.zip file that is located in the folder path c:\addin, which can be used for automatic deployment of the add-in to the Microsoft Dynamics NAV Server and clients.
+This example changes the MyNavAddin add-in that is registered in the system table 2000000069 Add-ins. The example specifies the add-in files that are contained in the MyNavAddin.zip file that is located in the folder path c:\addin, which can be used for automatic deployment of the add-in to the Microsoft Dynamics NAV Server and clients.
 
 ## PARAMETERS
 
@@ -48,7 +43,7 @@ Specifies the name of the add-in that you want to change.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -64,7 +59,7 @@ There are four categories that you can specify: DotNet Control Add-in, DotNet In
 ```yaml
 Type: AddInCategory
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -79,7 +74,7 @@ Specifies a description of the add-in for identification purposes.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -95,7 +90,7 @@ The public key token is a 16-character key that is given to the add-in assembly 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -111,7 +106,7 @@ the resource file can be used to stream the add-in to the Microsoft Dynamics NAV
 ```yaml
 Type: Byte[]
 Parameter Sets: AddInResource
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -128,7 +123,7 @@ Use this parameter to set up the automatic deployment of the add-in files to Mic
 ```yaml
 Type: String
 Parameter Sets: AddInResourceFile
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -144,7 +139,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -161,7 +156,7 @@ This version number must match the version number that is assigned to the assemb
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -201,12 +196,12 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -221,4 +216,8 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
+[Get-NAVAddIn](Get-NAVAddIn.md)
 
+[New-NAVAddIn](New-NAVAddIn.md)
+
+[Remove-NAVAddIn](Remove-NAVAddIn.md)

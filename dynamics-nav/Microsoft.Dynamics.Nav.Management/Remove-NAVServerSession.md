@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -17,8 +17,7 @@ Remove-NAVServerSession [-Tenant <TenantId>] -SessionId <Int32> [-ServerInstance
 ```
 
 ## DESCRIPTION
-Use the Remove-NAVServerSession cmdlet to close a client connection, as identified by the SessionId parameter.
-You can use the Get-NAVServerSession cmdlet to obtain information about current Microsoft Dynamics NAV sessions.
+Use the Remove-NAVServerSession cmdlet to close a client connection, as identified by the SessionId parameter. You can use the Get-NAVServerSession cmdlet to obtain information about current Microsoft Dynamics NAV sessions.
 
 ## EXAMPLES
 
@@ -26,10 +25,6 @@ You can use the Get-NAVServerSession cmdlet to obtain information about current 
 ```
 Remove-NAVServerSession -ServerInstance DynamicsNAV -Tenant default -SessionId 11
 ```
-
-Description
-
------------
 
 This example closes the session with Session ID 11 in the on the DynamicsNAV90 instance.
 
@@ -42,7 +37,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -58,7 +53,7 @@ You can obtain a list of current sessions using the Get-NAVServerSession cmdlet.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -114,12 +109,12 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -130,10 +125,13 @@ Accept wildcard characters: False
 
 ## INPUTS
 
+### System.String
+You can pipe a string that contains a Microsoft Dynamics NAV Server instance name to the cmdlet.
+
 ## OUTPUTS
 
 ### None
 
 ## NOTES
 ## RELATED LINKS
-
+[Remove-NAVServerSession](Remove-NAVServerSession.md)

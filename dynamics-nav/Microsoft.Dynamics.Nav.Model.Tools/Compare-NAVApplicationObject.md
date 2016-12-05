@@ -7,9 +7,7 @@ schema: 2.0.0
 # Compare-NAVApplicationObject
 
 ## SYNOPSIS
-Compares text files with Microsoft Dynamics NAV application objects and then calculates the delta between the two versions.
-The result of the comparison is a number of text files with the calculated delta.
-          The deltas can later be applied to a third version by using the Update-NAVApplicationObject cmdlet.
+Compares text files with Microsoft Dynamics NAV application objects and then calculates the delta between the two versions. The result of the comparison is a number of text files with the calculated delta. The deltas can later be applied to a third version by using the Update-NAVApplicationObject cmdlet.
 
 ## SYNTAX
 
@@ -19,17 +17,12 @@ Compare-NAVApplicationObject [-OriginalPath] <String[]> [-ModifiedPath] <String[
 ```
 
 ## DESCRIPTION
-Use the Compare-NAVApplicationObject cmdlet to calculate the delta between one version of Microsoft Dynamics NAV application objects and another version.
-The deltas can later be applied to a third version by using the Update-NAVApplicationObject cmdlet.
+Use the Compare-NAVApplicationObject cmdlet to calculate the delta between one version of Microsoft Dynamics NAV application objects and another version. The deltas can later be applied to a third version by using the Update-NAVApplicationObject cmdlet.
 
-        The Compare-NAVApplicationObject cmdlet compares the text files in the two specified folders and creates .delta files that describe the difference between the two versions.
-The text files must contain Microsoft Dynamics NAV application objects that have been exported from the Microsoft Dynamics NAV Development Environment.
+The Compare-NAVApplicationObject cmdlet compares the text files in the two specified folders and creates .delta files that describe the difference between the two versions. The text files must contain Microsoft Dynamics NAV application objects that have been exported from the Microsoft Dynamics NAV Development Environment.
 You can compare two text files that contain multiple application objects, and you can compare text files in two folders where each text file can contain one or more application objects.
-The cmdlet creates a text file for each application object that is different between the two versions.
 
-        For example, you compare two versions of table 27: an original version and a modified version.
-The modified version has added a field to the table compared to the original version.
-In this example, the Compare-NAVApplicationObject cmdlet creates a delta file,TAB27.delta, that describes the difference that the extra field must be inserted into the table.
+The cmdlet creates a text file for each application object that is different between the two versions. For example, you compare two versions of table 27: an original version and a modified version. The modified version has added a field to the table compared to the original version. In this example, the Compare-NAVApplicationObject cmdlet creates a delta file,TAB27.delta, that describes the difference that the extra field must be inserted into the table.
 Then, you use the Update-NAVApplicationObject cmdlet to apply the delta to target files.
 
 ## EXAMPLES
@@ -46,13 +39,7 @@ Compare-NAVApplicationObject -OriginalPath .\demodata\ORIGINAL\*.txt -ModifiedPa
           Failed     0 objects
 ```
 
-Description
-
------------
-
-This example compares the text files in the MODIFIED folder to the baseline in the ORIGINAL folder.
-The result of the comparison is put into the DELTA folder.
-When the comparison completes, a summary is shown.
+This example compares the text files in the MODIFIED folder to the baseline in the ORIGINAL folder. The result of the comparison is put into the DELTA folder. When the comparison completes, a summary is shown.
 
 ### EXAMPLE 2
 ```
@@ -68,13 +55,7 @@ Compare-NAVApplicationObject -OriginalPath .\demodata\ORIGINAL\*.txt -ModifiedPa
           Failed     0 objects
 ```
 
-Description
-
------------
-
-This example compares the text files in the MODIFIED folder to the baseline in the ORIGINAL folder.
-The result of the comparison is put into the DELTA folder and also piped to the Update-NAVApplicationObject cmdlet, which applies the updates.
-When the comparison completes, a summary is shown.
+This example compares the text files in the MODIFIED folder to the baseline in the ORIGINAL folder. The result of the comparison is put into the DELTA folder and also piped to the Update-NAVApplicationObject cmdlet, which applies the updates. When the comparison completes, a summary is shown.
 
 ## PARAMETERS
 
@@ -94,9 +75,7 @@ Accept wildcard characters: False
 ```
 
 ### -DeltaPath
-Specifies the folder where the result of the comparison between the two versions of application objects must be put.
-
-            For example, to place the result of the comparison in the DELTA folder that is a subfolder to the current folder, type .\DELTA\*.txt.
+Specifies the folder where the result of the comparison between the two versions of application objects must be put. For example, to place the result of the comparison in the DELTA folder that is a subfolder to the current folder, type .\DELTA\*.txt.
 
 ```yaml
 Type: String
@@ -159,7 +138,7 @@ Accept wildcard characters: False
 ### -ModifiedPath
 Specifies the application objects that you want to compare to the original version.
 
-            For example, to compare all text files in the MODIFIED folder that is a subfolder to the current folder, type .\MODIFIED\*.txt.
+For example, to compare all text files in the MODIFIED folder that is a subfolder to the current folder, type .\MODIFIED\*.txt.
 
 ```yaml
 Type: String[]
@@ -191,7 +170,7 @@ Accept wildcard characters: False
 ### -OriginalPath
 Specifies the application objects that are the baseline of the file comparison.
 
-            For example, to use all text files in the ORIGINAL folder that is a subfolder to the current folder, type .\ORIGINAL\*.txt.
+For example, to use all text files in the ORIGINAL folder that is a subfolder to the current folder, type .\ORIGINAL\*.txt.
 
 ```yaml
 Type: String[]
@@ -242,8 +221,10 @@ Accept wildcard characters: False
 ## OUTPUTS
 
 ### None or an object representing the .DELTA file that was created.
-When you set the PassThru parameter, the Compare-NavApplicationObject cmdlet returns a FileInfo object for each created .DELTA file.
-Otherwise, this cmdlet does not generate any output.
+When you set the PassThru parameter, the Compare-NavApplicationObject cmdlet returns a FileInfo object for each created .DELTA file. Otherwise, this cmdlet does not generate any output.
 
 ## NOTES
 ## RELATED LINKS
+[Merge-NAVApplicationObject](Merge-NAVApplicationObject.md)  
+
+[Update-NAVApplicationObject](Update-NAVApplicationObject.md)  

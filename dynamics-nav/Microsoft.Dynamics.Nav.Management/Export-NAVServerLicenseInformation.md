@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ Export-NAVServerLicenseInformation [-Tenant <TenantId>] [-ServerInstance] <Strin
 
 ## DESCRIPTION
 Use the Export-NAVServerLicenseInformation cmdlet to export license information from the Microsoft Dynamics NAV database.
-If theMicrosoft Dynamics NAV Server account does not have access to the location where the global license file is stored, an error results.
-Check the Windows Event Log on the Microsoft Dynamics NAV Server computer to see what permissions are required.
+
+If theMicrosoft Dynamics NAV Server account does not have access to the location where the global license file is stored, an error results. Check the Windows Event Log on the Microsoft Dynamics NAV Server computer to see what permissions are required.
 
 ## EXAMPLES
 
@@ -31,10 +31,6 @@ Export-NAVServerLicenseInformation MyInstance
 *************************
 ```
 
-Description
-
------------
-
 This example exports license info to the console window.
 
 ## PARAMETERS
@@ -46,7 +42,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -72,12 +68,12 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -88,10 +84,14 @@ Accept wildcard characters: False
 
 ## INPUTS
 
+### System.String
+You can pipe a string that contains a Microsoft Dynamics NAV Server instance name to the cmdlet.
+
 ## OUTPUTS
 
 ### System.String
+Returns license information as well-formatted text.
 
 ## NOTES
 ## RELATED LINKS
-
+[Import-NAVServerLicense](Import-NAVServerLicense.md)

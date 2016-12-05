@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Model.Tools.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -42,7 +42,7 @@ Optionally, do not set this parameter so that you can pipe the result to another
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 3
@@ -57,7 +57,7 @@ Skips confirmation prompts when the cmdlet is run.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -72,7 +72,7 @@ Specifies if you want to return an object for each application object and langua
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -135,4 +135,8 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
+[Import-NAVApplicationObjectLanguage](Import-NAVApplicationObjectLanguage.md)  
 
+[Join-NAVApplicationObjectFile](Join-NAVApplicationObjectFile.md)  
+
+[Merge-NAVApplicationObject](Merge-NAVApplicationObject.md)  

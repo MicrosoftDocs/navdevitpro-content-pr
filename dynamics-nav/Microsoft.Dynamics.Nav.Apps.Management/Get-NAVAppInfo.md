@@ -28,8 +28,7 @@ Get-NAVAppInfo -Path <String>
 ```
 
 ## DESCRIPTION
-Use the Get-NAVAppInfo cmdlet to get information about a specific NAV App, or to get a list of NAV Apps that have been deployed.
-The list of deployed NAV Apps can include all NAV Apps that have been published to a Microsoft Dynamics NAV Server instance, filtered by NAV App properties, or NAV Apps that are installed for a specific tenant.
+Use the Get-NAVAppInfo cmdlet to get information about a specific NAV App, or to get a list of NAV Apps that have been deployed. The list of deployed NAV Apps can include all NAV Apps that have been published to a Microsoft Dynamics NAV Server instance, filtered by NAV App properties, or NAV Apps that are installed for a specific tenant.
 
 ## EXAMPLES
 
@@ -42,10 +41,6 @@ Get-NAVAppInfo -ServerInstance DynamicsNAV90
                     9a47a833-e22f-4812-ade314219c53          SmartApp Base        2.0.0.300  Proseware, Inc.
                     3c88160c-e0eb-4fe1-b4f6-011e45d74b10     Proseware SmartApp   2.3.4.500  Proseware, Inc.
 ```
-
-Description
-
------------
 
 This example returns information about all of the NAV Apps published on the DynamicsNAV90 server instance.
 
@@ -71,10 +66,6 @@ Get-NAVAppInfo -ServerInstance DynamicsNAV90 -Name 'Proseware SmartApp' -Version
                     Dependencies       :
 ```
 
-Description
-
------------
-
 This example returns information about the NAV App with the specified name and version on the DynamicsNAV90 server instance.
 
 ### EXAMPLE 3
@@ -86,10 +77,6 @@ Get-NAVAppInfo -ServerInstance DynamicsNAV90 -Publisher 'Proseware, Inc.'
                     9a47a833-e22f-4812-ade314219c53          SmartApp Base        2.0.0.300  Proseware, Inc.
                     3c88160c-e0eb-4fe1-b4f6-011e45d74b10     Proseware SmartApp   2.3.4.500  Proseware, Inc.
 ```
-
-Description
-
------------
 
 This example returns information about all of the NAV Apps published on the DynamicsNAV90 server instance that are published by Proseware, Inc.
 
@@ -115,10 +102,6 @@ Get-NAVAppInfo -ServerInstance DynamicsNAV90 -Tenant 'Tenant1'
                     Dependencies       :
 ```
 
-Description
-
------------
-
 This example returns information about all of the NAV Apps installed for the tenant with an ID of Tenant1 on the DynamicsNAV90 server instance.
 
 ### EXAMPLE 5
@@ -142,10 +125,6 @@ Get-NAVAppInfo -Path '.\Proseware SmartApp.navx'
                     Prerequisites      :
                     Dependencies       :
 ```
-
-Description
-
------------
 
 This example returns information about the NAV App from the package file provided.
 
@@ -171,18 +150,12 @@ Get-NAVAppInfo -ServerInstance DynamicsNAV90 -Tenant default
                     Dependencies       :
 ```
 
-Description
-
------------
-
 This example returns information about all of the NAV Apps installed in a single tenant NAV server instance.
 
 ## PARAMETERS
 
 ### -CompatibilityId
-Specifies the compatibility ID of the NAV App.
-The compatibility ID is a version string in the format of  Major.Minor.Build.Revision such as 1.0.0.0.
-The value is used to indicate if there are compatibility-related code changes between different versions of the NAV App.
+Specifies the compatibility ID of the NAV App. The compatibility ID is a version string in the format of  Major.Minor.Build.Revision such as 1.0.0.0. The value is used to indicate if there are compatibility-related code changes between different versions of the NAV App.
 
 ```yaml
 Type: Version
@@ -272,8 +245,7 @@ Accept wildcard characters: False
 ```
 
 ### -Tenant
-Specifies the ID of the tenant that you want to get the installed NAV Apps for, such as Tenant1.
-Provide a value of 'default' if the specified server instance is not configured to run multiple tenants.
+Specifies the ID of the tenant that you want to get the installed NAV Apps for, such as Tenant1. Provide a value of 'default' if the specified server instance is not configured to run multiple tenants.
 
 ```yaml
 Type: String
@@ -308,3 +280,14 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
+[Install-NAVApp](Install-NAVApp.md)  
+
+[Get-NavAppTenant](Get-NavAppTenant.md)
+
+[Publish-NAVApp](Publish-NAVApp.md)  
+
+[Remove-NAVAppsForTenant](Remove-NAVAppsForTenant.md)  
+
+[Uninstall-NAVApp](Uninstall-NAVApp.md)  
+
+[Unpublish-NAVApp](Unpublish-NAVApp.md)  

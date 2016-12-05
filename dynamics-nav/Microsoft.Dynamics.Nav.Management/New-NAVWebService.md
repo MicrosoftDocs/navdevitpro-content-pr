@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ New-NAVWebService -ObjectType <ObjectType> -ObjectId <Int32> -ServiceName <Strin
 ```
 
 ## DESCRIPTION
-Use the New-NAVWebService cmdlet to create and optionally publish web services that are based on Microsoft Dynamics NAV application objects.
-You can see which web services have already been created by running the Get-NAVWebService cmdlet.
+Use the New-NAVWebService cmdlet to create and optionally publish web services that are based on Microsoft Dynamics NAV application objects. You can see which web services have already been created by running the Get-NAVWebService cmdlet.
+
 In a multitenant deployment of Microsoft Dynamics NAV, web services are created in the application database, and they apply to all tenants that are mounted against that Microsoft Dynamics NAV Server instance.
 
 ## EXAMPLES
@@ -27,10 +27,6 @@ In a multitenant deployment of Microsoft Dynamics NAV, web services are created 
 ```
 New-NAVWebService -ServerInstance DynamicsNAV -ServiceName Customer -ObjectType Page -ObjectId 21 -Published 1
 ```
-
-Description
-
------------
 
 This example uses the New-NAVWebService cmdlet to create and publish a web service that is based on page 21, Customer Card.
 
@@ -42,7 +38,7 @@ Specifies the ID of the object that you want to publish as a web service.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -53,17 +49,18 @@ Accept wildcard characters: False
 
 ### -ObjectType
 Specifies the type of the object that you want to publish as a web service.
-You can publish two types of web services from Microsoft Dynamics NAV objects:
---SOAP Web Services.
-You can publish either Microsoft Dynamics NAV pages or codeunits as SOAP services.
---OData Web Services.
-You can publish either pages or queries as OData services.
+You can publish two types of web services from Microsoft Dynamics NAV objects: SOAP Web Services and OData Web Services
+
+With SOAP Web Services, you can publish either Microsoft Dynamics NAV pages or codeunits.
+
+With OData Web Services, you can publish either pages or queries.
+
 For more information, see "Overview of Microsoft Dynamics NAV Web Services" in the Developer and ITPro documentation for Microsoft Dynamics NAV 2016.
 
 ```yaml
 Type: ObjectType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -78,7 +75,7 @@ Specifies if the web service must be published immediately.
 ```yaml
 Type: Boolean
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -88,13 +85,12 @@ Accept wildcard characters: False
 ```
 
 ### -ServerInstance
-Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
-You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
+Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance. You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -109,7 +105,7 @@ Specifies the name of the web service.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -149,12 +145,12 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -171,4 +167,6 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
+[Get-NAVWebService](Get-NAVWebService.md)  
 
+[Remove-NAVWebService](Remove-NAVWebService.md)  

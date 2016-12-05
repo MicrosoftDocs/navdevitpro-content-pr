@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -17,8 +17,10 @@ Get-NAVApplication [-ServerInstance] <String> [-Force]
 
 ## DESCRIPTION
 Use the Get-NAVApplication cmdlet to get information about the application database that is mounted against the specified Microsoft Dynamics NAV Server instance.
+
 If no application is mounted, use the Mount-NAVApplication cmdlet to mount an application.
 The cmdlet returs the name of the database server and the name of the application database.
+
 If you have not exported the application tables to a dedicated application database, the Get-NAVApplication cmdlet returns the database that contains the application tables, such as 'Demo Database NAV (10-0)'.
 
 ## EXAMPLES
@@ -27,10 +29,6 @@ If you have not exported the application tables to a dedicated application datab
 ```
 Get-NAVApplication -ServerInstance DynamicsNAV
 ```
-
-Description
-
------------
 
 This example returns information about the application database that is mounted against the DynamicsNAV server instance.
 
@@ -43,7 +41,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -53,12 +51,12 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -69,10 +67,16 @@ Accept wildcard characters: False
 
 ## INPUTS
 
+### System.String
+You can pass the value of the ServerInstance parameter as a string to this cmdlet.
+
 ## OUTPUTS
 
 ### System.Data.DataRow
+The cmdlet returns the name of the database server and the name of the application database as a data row.
 
 ## NOTES
 ## RELATED LINKS
+[Mount-NAVApplication](Mount-NAVApplication.md)  
 
+[Remove-NAVApplication](Remove-NAVApplication.md)  

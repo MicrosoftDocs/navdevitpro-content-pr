@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -16,12 +16,12 @@ Export-NAVEncryptionKey [-KeyPath] <String> [-Password <SecureString>] [-ServerI
 ```
 
 ## DESCRIPTION
-When using SQL Server authentication between the Microsoft Dynamics NAV Server instance and database in SQL Server, Microsoft Dynamics NAV encrypts passwords that are used by a Microsoft Dynamics NAV Server instance to access to Microsoft Dynamics NAV databases in SQL Server.
-This includes, for example, the Microsoft Dynamics NAV Server service account credentials and the database credentials.
-To encrypt and decrypt the passwords, an encryption key is used.
-Microsoft Dynamics NAV uses a single encryption key per server instance.
-The same encryption must be included in the Microsoft Dynamics NAV database to which the server instance connects.
+When using SQL Server authentication between the Microsoft Dynamics NAV Server instance and database in SQL Server, Microsoft Dynamics NAV encrypts passwords that are used by a Microsoft Dynamics NAV Server instance to access to Microsoft Dynamics NAV databases in SQL Server.This includes, for example, the Microsoft Dynamics NAV Server service account credentials and the database credentials.
+
+To encrypt and decrypt the passwords, an encryption key is used. Microsoft Dynamics NAV uses a single encryption key per server instance. The same encryption must be included in the Microsoft Dynamics NAV database to which the server instance connects.
+
 In some cases, such as when you upgrade or migrate a system from one set of hardware to another, you might need to copy of the encryption key to use it on another Microsoft Dynamics NAV Server instance.
+
 By using the Export-NAVEncryptionKey cmdlet, you can export the encryption key from one Microsoft Dynamics NAV Server instance to a file, and then use the Import-NAVEncryptionKey cmdlet to import the exported key into another Microsoft Dynamics NAV Server instance.
 The Export-NAVEncryptionKey cmdlet enables you to specify a destination file for the key and specify a password to protect the file.
 
@@ -32,22 +32,14 @@ The Export-NAVEncryptionKey cmdlet enables you to specify a destination file for
 Export-NAVEncryptionKey -ServerInstance DynamicsNAV -KeyPath "C:\Keys\nav.key" -Password (Get-Credential).Password
 ```
 
-Description
-
------------
-
-The following example exports an encryption key from a Microsoft Dynamics NAV Server instance to a password protected file.
+The example exports an encryption key from a Microsoft Dynamics NAV Server instance to a password protected file.
 
 ### EXAMPLE 2
 ```
 Export-NAVEncryptionKey -ServerInstance DynamicsNAV -KeyPath "C:\Keys\nav.key" | Import-NAVEncryptionKey -ServerInstance NewInstance
 ```
 
-Description
-
------------
-
-The following example exports an encryption key from a Microsoft Dynamics NAV Server instance, and then imports that key into another Microsoft Dynamics NAV Server instance on the same computer.
+The example exports an encryption key from a Microsoft Dynamics NAV Server instance, and then imports that key into another Microsoft Dynamics NAV Server instance on the same computer.
 
 ## PARAMETERS
 
@@ -60,7 +52,7 @@ The file will be created that has the given file name.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -75,7 +67,7 @@ Specifies a password that protects the encryption key file.
 ```yaml
 Type: SecureString
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -91,7 +83,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -101,12 +93,12 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -120,7 +112,9 @@ Accept wildcard characters: False
 ## OUTPUTS
 
 ### System.String KeyPath
+Returns the value of the KeyPath parameter.
 
 ## NOTES
-## RELATED LINKS
 
+## RELATED LINKS
+[Import-NAVEncryptionKey](Import-NAVEncryptionKey.md)

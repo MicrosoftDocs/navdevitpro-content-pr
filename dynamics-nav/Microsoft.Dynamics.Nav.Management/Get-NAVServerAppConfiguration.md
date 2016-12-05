@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -16,7 +16,7 @@ Get-NAVServerAppConfiguration -ApplicationId <String> -ServerInstance <String> [
 ```
 
 ## DESCRIPTION
-The Get-NAVServerAppConfiguration cmdlet retrieves the settings in the application-specific configuration file. 
+The Get-NAVServerAppConfiguration cmdlet retrieves the settings in the application-specific configuration file.
 You create an application-specific configuration file by using the New-NAVServerApplicationConfiguration cmdlet.
 
 ## EXAMPLES
@@ -26,24 +26,19 @@ You create an application-specific configuration file by using the New-NAVServer
 Get-NAVServerAppConfiguration -ServerInstance DynamicsNAV  -ApplicationId FIN
 ```
 
-Description
-
------------
-
 This example returns the settings in the application-specific configuration file for the FIN application.
 
 ## PARAMETERS
 
 ### -ApplicationId
-Specifies the application-specific configuration file for the Dynamics NAV Server instance that you want to view. 
-The value corresponds to the ID of the application.
+Specifies the application-specific configuration file for the Dynamics NAV Server instance that you want to view.  The value corresponds to the ID of the application.
 You can determine the ApplicationId from the name application-specific configuration file.
 For example, if the file name is CustomSettings.FIN.config, then the ApplicationId is FIN.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -59,7 +54,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -69,12 +64,12 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -88,7 +83,10 @@ Accept wildcard characters: False
 ## OUTPUTS
 
 ### System.Xml.XmlNode
+An XML document containing key value pairs of the application specific server configuration.
 
 ## NOTES
 ## RELATED LINKS
+[New-NAVServerAppConfiguration](New-NAVServerAppConfiguration.md)
 
+[Set-NAVServerAppConfiguration](Set-NAVServerAppConfiguration.md)

@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -26,10 +26,6 @@ Removes an add-in that is registered in the system table 2000000069 Add-ins of t
 Remove-NAVAddIn -ServerInstance DynamicsNAV -AddinName MyNavAddin -PublicKeyToken 31bf3856ad364e35
 ```
 
-Description
-
------------
-
 This example removes the MyNavAddin add-in from the system table 2000000069 Add-ins.
 
 ## PARAMETERS
@@ -40,7 +36,7 @@ Specifies the name of the add-in that you want to remove.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -56,7 +52,7 @@ The public key token is a 16-character key that is given to the add-in assembly 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -72,7 +68,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -89,7 +85,7 @@ Use this parameter when there is more than one version of the add-in and you wan
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -129,12 +125,12 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -149,4 +145,8 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
+[Get-NAVAddIn](Get-NAVAddIn.md)
 
+[New-NAVAddIn](New-NAVAddIn.md)
+
+[Set-NAVAddIn](Set-NAVAddIn.md)

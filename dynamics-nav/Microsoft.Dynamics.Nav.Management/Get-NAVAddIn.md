@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -18,13 +18,16 @@ Get-NAVAddIn [-AddInName <String>] [-Version <String>] [-PublicKeyToken <String>
 
 ## DESCRIPTION
 The cmdlet displays the following information about the add-ins:
+
 AddInName - The name of the add-in as it appears in the database table.
+
 PublicTokenKey - A 16-character key that is given to the add-in assembly when it is built.
+
 Version - The version number of the add-in.
-Category - The category that add-in is assigned to.
-There are four different categories: Javascript Control Addin, DotNet Control Add-in, DotNet Interoperability, and Language Resource.
-Resource (optional) - the resource binaries of the add-in.
-You use the parameters to filter the returned information on specific add-ins.
+
+Category - The category that add-in is assigned to. There are four different categories: Javascript Control Addin, DotNet Control Add-in, DotNet Interoperability, and Language Resource.
+
+Resource (optional) - The resource binaries of the add-in. You use the parameters to filter the returned information on specific add-ins.
 
 ## EXAMPLES
 
@@ -32,10 +35,6 @@ You use the parameters to filter the returned information on specific add-ins.
 ```
 Get-NAVAddIn -ServerInstance DynamicsNAV -Category dotnetcontroladdin
 ```
-
-Description
-
------------
 
 This example returns a list of add-ins of the category DotNet Control Add-in that are registered in the database that is connected to the DynamicsNAV.
 
@@ -48,7 +47,7 @@ The name must match the name as it appears in the database table.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -63,7 +62,7 @@ Specifies that category to filter the results on.
 ```yaml
 Type: AddInCategory
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -78,7 +77,7 @@ Specifies to include the resource binaries with each add-in that is returned.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -94,7 +93,7 @@ The public key token is a 16-character key that is given to the assembly when it
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -110,7 +109,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -125,7 +124,7 @@ Specifies the add-in version number to filter on.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -135,12 +134,12 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -155,4 +154,8 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
+[New-NAVAddIn](New-NAVAddIn.md)
 
+[Remove-NAVAddIn](Remove-NAVAddIn.md)
+
+[Set-NAVAddIn](Set-NAVAddIn.md)

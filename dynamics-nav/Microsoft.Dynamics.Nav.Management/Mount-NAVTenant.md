@@ -48,20 +48,12 @@ To synchronize the tenant database against the application database, you must us
 Mount-NAVTenant DynamicsNAV -Id 'Test' -DatabaseName 'Test_Database'
 ```
 
-Description
-
------------
-
 This example mounts a tenant, 'Test', that is based on the tenant database 'Test_Database' on the specified Microsoft Dynamics NAV Server instance.
 
 ### EXAMPLE 2
 ```
 Mount-NAVTenant DynamicsNAV Test Test_Database
 ```
-
-Description
-
------------
 
 This example mounts a tenant, 'Test', that is based on the tenant database 'Test_Database' on the specified Microsoft Dynamics NAV Server instance.
 The example uses positional arguments for the parameter values.
@@ -71,10 +63,6 @@ The example uses positional arguments for the parameter values.
 Mount-NAVTenant DynamicsNAV -Id 'Test' -DatabaseName 'Test_Database' -DatabaseCredentials (Get-Credential)
 ```
 
-Description
-
------------
-
 This example mounts a tenant, 'Test', that is based on the tenant database 'Test_Database' on the specified Microsoft Dynamics NAV Server instance.
 The example configures SQL authentication on the connection to the database with credentials that are obtained from the Get-Credential cmdlet.
 
@@ -82,10 +70,6 @@ The example configures SQL authentication on the connection to the database with
 ```
 Get-NAVTenant Server1 | Mount-NAVTenant Server2
 ```
-
-Description
-
------------
 
 This example gets information about the tenants that are mounted against the Server1 Microsoft Dynamics NAV Server instance and mounts them against the Server2 instance.
 You must then dismount the tenants from the Server1 instance.
@@ -95,10 +79,6 @@ You must then dismount the tenants from the Server1 instance.
 Get-NAVTenant Server1 | Dismount-NavTenant Server1 -Force | Mount-NAVTenant Server2
 ```
 
-Description
-
------------
-
 This example gets information about the tenants that are mounted against the Server1 Microsoft Dynamics NAV Server instance, dismounts them, and then mounts them against the Server2 instance.
 
 ### EXAMPLE 6
@@ -106,20 +86,12 @@ This example gets information about the tenants that are mounted against the Ser
 Mount-NAVTenant DynamicsNAV -Id 'Test' -DatabaseName 'Test_Database'-AlternateId @( "test.mydomain.com", "http://mydomain.sharepoint.com/sites/teamsite" )
 ```
 
-Description
-
------------
-
 This example mounts a tenant, 'Test', that is based on the tenant database 'Test_Database' on the specified Microsoft Dynamics NAV Server instance and adds a domain name and a SharePoint host URL to the alternative IDs.
 
 ### EXAMPLE 7
 ```
 Mount-NAVTenant -Id 'Test' -DatabaseName 'Test_Database' -DatabaseCredentials (Get-Credential) -ApplicationDatabaseServer 'MySQLServer\NAV' -ApplicationDatabaseName 'MyNavAppDatabase' -ApplicationDatabaseCredentials (Get-Credential) -KeyFilePath 'C:\key\nav.key' -KeyFilePassword (Get-Credential).Password
 ```
-
-Description
-
------------
 
 This example mounts a tenant, 'Test', which is based on the tenant database 'Test_Database', by specifying an application database instead of the Microsoft Dynamics NAV Server instance.
 The application database server and instance is 'MySQLServer\NAV', and the application database is 'MyNavAppDatabase'.
@@ -491,7 +463,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
@@ -507,9 +479,17 @@ Accept wildcard characters: False
 
 ## INPUTS
 
+### System.String
+You can pipe the ServerInstance as a string to this cmdlet.
+
 ## OUTPUTS
 
 ### None
 
 ## NOTES
 ## RELATED LINKS
+[Dismount-NAVTenant](Dismount-NAVTenant.md)  
+
+[Get-NAVTenant](Get-NAVTenant.md)  
+
+[Sync-NAVTenant](Sync-NAVTenant.md)  

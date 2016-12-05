@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -28,10 +28,6 @@ To create a company that includes the data from an existing company, use the Cop
 New-NAVCompany -ServerInstance DynamicsNAV -Tenant CRONUS -CompanyName 'CRONUS Subsidiary'
 ```
 
-Description
-
------------
-
 This example creates the company CRONUS Subsidiary in the CRONUS tenant database, which is mounted against the DynamicsNAV server instance.
 
 ## PARAMETERS
@@ -43,7 +39,7 @@ If a company with that name already exists in the Microsoft Dynamics NAV databas
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -58,7 +54,7 @@ Specifies whether the company that you want to create is an evaluation company.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 3
@@ -74,7 +70,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -130,12 +126,12 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -150,4 +146,10 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
+[Copy-NAVCompany](Copy-NAVCompany.md)  
 
+[Get-NAVCompany](Get-NAVCompany.md)  
+
+[Remove-NAVCompany](Remove-NAVCompany.md)
+
+[Rename-NAVCompany](Rename-NAVCompany.md)  

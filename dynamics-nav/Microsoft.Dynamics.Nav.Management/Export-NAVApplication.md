@@ -31,20 +31,12 @@ Before you use the Export-NavApplication cmdlet, we recommend that you create a 
 Export-Application -DatabaseName 'Demo Database NAV' -DestinationDatabaseName NAVApp
 ```
 
-Description
-
------------
-
 This example extracts the application tables from the specified database to a new application database on the local server.
 
 ### EXAMPLE 2
 ```
 Export-Application -DatabaseName 'Demo Database NAV' -DestinationDatabaseName NAVApp -ServiceAccount 'mydomain\navdbaccount'
 ```
-
-Description
-
------------
 
 This example extracts the application tables from the specified database to a new application database on the local server.
 
@@ -53,20 +45,12 @@ This example extracts the application tables from the specified database to a ne
 Export-NAVApplication -DatabaseServer 'MyServer' -DatabaseInstance 'NavDemo' -DatabaseName 'Demo Database NAV' -DestinationDatabaseName 'NAV App'
 ```
 
-Description
-
------------
-
 This example extracts the application tables from the specified database to a new application database on the specified server and instance.
 
 ### EXAMPLE 4
 ```
 Export-NAVApplication -DatabaseServer 'MyServer' -DatabaseInstance 'NavDemo' -DatabaseName 'Demo Database NAV' -DestinationDatabaseName 'NAV App' | Remove-NAVApplication -Force
 ```
-
-Description
-
------------
 
 This example extracts the application tables from the specified database to a new application database on the specified server and instance.
 It then pipes the name of the database to the Remove-NAVApplication cmdlet, which removes the application tables from the original database.
@@ -184,7 +168,7 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
@@ -202,7 +186,21 @@ Accept wildcard characters: False
 
 ## OUTPUTS
 
-### System.Object[]
+### System.String ServerName
+The value of the DatabaseServer parameter.
+
+### System.String ServerInstance
+The value of the ServerInstance parameter.
+
+### System.String DatabaseName
+The value of the DatabaseName parameter.
 
 ## NOTES
+
 ## RELATED LINKS
+
+[Get-NAVApplication](Get-NAVApplication.md)  
+
+[Mount-NAVApplication](Mount-NAVApplication.md)  
+
+[Remove-NAVApplication](Remove-NAVApplication.md)  

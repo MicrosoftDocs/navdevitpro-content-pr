@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -24,12 +24,11 @@ New-NAVAddIn -AddInName <String> [-Version <String>] -PublicKeyToken <String> [-
 ```
 
 ## DESCRIPTION
-Add-ins must be registered in table 2000000069 Add-ins before they can be used in a Microsoft Dynamics NAV client or on the Microsoft Dynamics NAV Server instance.
-The New-NAVAddin cmdlet creates an entry for the add-in in the table.
+Add-ins must be registered in table 2000000069 Add-ins before they can be used in a Microsoft Dynamics NAV client or on the Microsoft Dynamics NAV Server instance. The New-NAVAddin cmdlet creates an entry for the add-in in the table.
+
 An add-in typically consists of one or more .NET Framework assemblies and support files.
-These files must be installed either on the computer running the Microsoft Dynamics NAV Server or client.
-Instead of manually installing the add-in files, you can use the -ResourceFile parameter of the cmdlet to set up the system to automatically deploy the add-in the first time that it is requested.
-To do this, before you run the New-NAVAddin cmdlet, create a compressed (.zip type) file that contains the files (in the desired folder structure) that are associated with the add-in.
+These files must be installed either on the computer running the Microsoft Dynamics NAV Server or client. Instead of manually installing the add-in files, you can use the -ResourceFile parameter of the cmdlet to set up the system to automatically deploy the add-in the first time that it is requested. To do this, before you run the New-NAVAddin cmdlet, create a compressed (.zip type) file that contains the files (in the desired folder structure) that are associated with the add-in.
+
 For an add-in to be deployed automatically, it must have the same name as the assembly that contains it.
 
 ## EXAMPLES
@@ -38,10 +37,6 @@ For an add-in to be deployed automatically, it must have the same name as the as
 ```
 New-NAVAddIn -ServerInstance DynamicsNAV -Category dotnetcontroladdin -PublicKeyToken 31bf3856ad364e35 -ResourceFile 'c:\addins\MyNavAddin.zip'
 ```
-
-Description
-
------------
 
 This example registers an add-in of the DotNet Control Add-in category in the system table 2000000069 Add-ins.
 The example also uploads the add-in files that are contained in the MyNavAddin.zip file that is located in the folder path c:\addin.
@@ -54,7 +49,7 @@ Specifies the name of the add-in.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -64,13 +59,13 @@ Accept wildcard characters: False
 ```
 
 ### -Category
-Specifies the category of the add-in.
-There are four categories that you can specify: DotNet Control Add-in, DotNet Interoperability, Javascript Control Add-in, and Language Resource.
+
+Specifies the category of the add-in. There are four categories that you can specify: DotNet Control Add-in, DotNet Interoperability, Javascript Control Add-in, and Language Resource.
 
 ```yaml
 Type: AddInCategory
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -85,7 +80,7 @@ Specifies a description of the add-in for identification purposes.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -101,7 +96,7 @@ The public key token is a 16-character key that is given to the add-in assembly 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -117,7 +112,7 @@ the resource file can be used to stream the add-in to the Microsoft Dynamics NAV
 ```yaml
 Type: Byte[]
 Parameter Sets: AddInResource
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -127,14 +122,13 @@ Accept wildcard characters: False
 ```
 
 ### -ResourceFile
-Specifies the full path to a compressed file (.zip type) that contains the add-in assembly and associated files.
-The full path includes the drive, folders and file name.
+Specifies the full path to a compressed file (.zip type) that contains the add-in assembly and associated files.The full path includes the drive, folders and file name.
 Use this parameter to set up the automatic deployment of the add-in files to Microsoft Dynamics NAV Server instances instead of manually deploying the files.
 
 ```yaml
 Type: String
 Parameter Sets: AddInResourceFile
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -150,7 +144,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -167,7 +161,7 @@ This version number must match the version number that is assigned to the assemb
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -207,12 +201,12 @@ Accept wildcard characters: False
 ```
 
 ### -Force
-{{Fill Force Description}}
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -227,4 +221,8 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
+[Get-NAVAddIn](Get-NAVAddIn.md)
 
+[Remove-NAVAddIn](Remove-NAVAddIn.md)
+
+[Set-NAVAddIn](Set-NAVAddIn.md)

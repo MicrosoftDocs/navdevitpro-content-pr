@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Model.Tools.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -25,10 +25,6 @@ You can then use the Set-NAVApplicationObjectProperty cmdlet to change the relev
 ```
 PS C:\>Get-NAVApplicationObjectProperty -Source .\SOURCE\COD1.txt
 ```
-
-Description
-
------------
 
 This example gets the value of the object properties from the COD1.txt file in the SOURCE folder.
 The values of the properties are also shown.
@@ -57,4 +53,4 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
-
+[Set-NAVApplicationObjectProperty](Set-NAVApplicationObjectProperty.md)  
