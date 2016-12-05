@@ -24,7 +24,7 @@ The database can be a dedicated application database, or a database that contain
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Mount-NAVApplication DynamicsNAV -DatabaseServer dbserver1 -DatabaseName 'NAV App'
 ```
@@ -36,7 +36,7 @@ Description
 This example mounts the Microsoft Dynamics NAV application on the DynamicsNAV server instance.
 The application is contained in the NAV App database, which is hosted on the dbserver1 database server.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Mount-NAVApplication DynamicsNAV -DatabaseServer dbserver1 -DatabaseName 'NAV App' -DatabaseCredentials (Get-Credential)
 ```

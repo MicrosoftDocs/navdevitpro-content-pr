@@ -22,7 +22,7 @@ The service is unregistered.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Remove-NAVServerInstance myInstance -VERBOSE
 

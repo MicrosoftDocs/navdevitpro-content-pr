@@ -21,7 +21,7 @@ The cmdlet tests all multilanguage strings to verify if the objects have transla
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 PS C:\>Test-NAVApplicationObjectLanguage -Source TAB14.TXT -LanguageId ESP
 ```
@@ -34,7 +34,7 @@ This example tests the application object in the TAB14.txt file for captions in 
 If nothing is returned, the object has captions in ESP.
 If one or more captions in ESP are missing, a technical error is shown.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 PS C:\>Test-NAVApplicationObjectLanguage -Source .\RESULT\*.TXT -LanguageId DAN
 ```
@@ -47,7 +47,7 @@ This example tests the application objects in the RESULT folder for captions in 
 If nothing is returned, the object has captions in DAN.
 If one or more captions in DAN are missing, a technical error is shown.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### EXAMPLE 3
 ```
 PS C:\>   Test-NAVApplicationObjectLanguage -Source TAB14.TXT -LanguageId ESP -ErrorAction Stop
 

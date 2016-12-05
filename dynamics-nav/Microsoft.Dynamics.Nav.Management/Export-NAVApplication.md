@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -26,7 +26,7 @@ Before you use the Export-NavApplication cmdlet, we recommend that you create a 
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Export-Application -DatabaseName 'Demo Database NAV' -DestinationDatabaseName NAVApp
 ```
@@ -37,7 +37,7 @@ Description
 
 This example extracts the application tables from the specified database to a new application database on the local server.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Export-Application -DatabaseName 'Demo Database NAV' -DestinationDatabaseName NAVApp -ServiceAccount 'mydomain\navdbaccount'
 ```
@@ -48,7 +48,7 @@ Description
 
 This example extracts the application tables from the specified database to a new application database on the local server.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### EXAMPLE 3
 ```
 Export-NAVApplication -DatabaseServer 'MyServer' -DatabaseInstance 'NavDemo' -DatabaseName 'Demo Database NAV' -DestinationDatabaseName 'NAV App'
 ```
@@ -59,7 +59,7 @@ Description
 
 This example extracts the application tables from the specified database to a new application database on the specified server and instance.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### EXAMPLE 4
 ```
 Export-NAVApplication -DatabaseServer 'MyServer' -DatabaseInstance 'NavDemo' -DatabaseName 'Demo Database NAV' -DestinationDatabaseName 'NAV App' | Remove-NAVApplication -Force
 ```
@@ -80,7 +80,7 @@ The new application database will be created on the same SQL Server instance as 
 ```yaml
 Type: DatabaseInstance
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -96,7 +96,7 @@ This database is the original database that application tables will be extracted
 ```yaml
 Type: DatabaseName
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -111,7 +111,7 @@ Specifies the name of the computer on which the SQL Server instance for the Micr
 ```yaml
 Type: DatabaseServer
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -127,7 +127,7 @@ If a database with that name does not exist, a new database is created on the sa
 ```yaml
 Type: DatabaseName
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -144,7 +144,7 @@ If this parameter is not specified, the Export-NAVApplication cmdlet will use th
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -189,7 +189,7 @@ Accept wildcard characters: False
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -206,4 +206,3 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
-

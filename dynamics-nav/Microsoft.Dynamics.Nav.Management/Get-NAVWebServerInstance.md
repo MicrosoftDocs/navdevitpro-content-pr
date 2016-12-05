@@ -33,7 +33,7 @@ Configuration file: The location of the web.config file that is used by the Micr
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Get-NAVWebServerInstance -WebServerInstance DynamicsNAV
 ```

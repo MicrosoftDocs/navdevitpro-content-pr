@@ -27,7 +27,7 @@ The NAV App cannot be unpublished if it is currently installed for a tenant of t
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Unpublish-NAVApp -ServerInstance DynamicsNAV90 -Name 'Proseware SmartApp'
 ```
@@ -38,7 +38,7 @@ Description
 
 This example removes the NAV App with the specified name from the DynamicsNAV90 server instance's app catalog.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Get-NAVAppInfo -ServerInstance DynamicsNAV90 -Name 'Proseware SmartApp' -Version 2.3.4.500 | Unpublish-NAVApp
 ```
@@ -49,7 +49,7 @@ Description
 
 This example removes the NAV App returned from the Get-NAVAppInfo cmdlet from the DynamicsNAV90 server instance's app catalog.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### EXAMPLE 3
 ```
 Unpublish-NAVApp -ServerInstance DynamicsNAV90 -Path '.\Proseware SmartApp.navx'
 ```

@@ -23,7 +23,7 @@ To create a company that includes the data from an existing company, use the Cop
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 New-NAVCompany -ServerInstance DynamicsNAV -Tenant CRONUS -CompanyName 'CRONUS Subsidiary'
 ```

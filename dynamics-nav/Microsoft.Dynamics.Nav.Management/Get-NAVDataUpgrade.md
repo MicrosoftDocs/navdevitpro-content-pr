@@ -36,7 +36,7 @@ This information is available until the Microsoft Dynamics NAV Server instance i
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Get-NAVDataUpgrade -ServerInstance DynamicsNAV
 
@@ -67,7 +67,7 @@ Description
 
 This example gets information about the data upgrade process that is currently running or the last completed data upgrade process.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Get-NAVDataUpgrade -ServerInstance DynamicsNAV -Progress -Interval 2
 
@@ -86,7 +86,7 @@ Description
 
 This example monitors progress of current data upgrade process by requesting the Microsoft Dynamics NAV Server for status every 2 seconds (the default is every second).
 
-### -------------------------- EXAMPLE 3 --------------------------
+### EXAMPLE 3
 ```
 Get-NAVDataUpgrade -ServerInstance DynamicsNAV -Details
 

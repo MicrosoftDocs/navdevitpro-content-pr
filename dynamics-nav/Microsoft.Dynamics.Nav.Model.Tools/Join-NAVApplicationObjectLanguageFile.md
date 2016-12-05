@@ -21,7 +21,7 @@ Use the Join-NAVApplicationObjectLanguageFile cmdlet to combine multiple text fi
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 PS C:\>Join-NAVApplicationObjectLanguageFile -Source "*-ESP.TXT" -Destination .\RESULT\All-ESP.txt
 ```

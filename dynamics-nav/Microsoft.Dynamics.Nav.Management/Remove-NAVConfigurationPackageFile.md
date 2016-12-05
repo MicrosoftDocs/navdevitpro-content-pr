@@ -20,7 +20,7 @@ Removes a configuration package file from the Microsoft Dynamics NAV app databas
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Remove-NAVConfigurationPackageFile -Code GB.ENU.TRIAL -ServerInstance DynamicsNAV
 ```

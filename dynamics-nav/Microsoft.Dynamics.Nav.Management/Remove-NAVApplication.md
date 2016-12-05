@@ -26,7 +26,7 @@ Also, if you migrate to a multitenant deployment architecture, you can use the E
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Remove-NAVApplication -DatabaseName 'Demo Database NAV'
 ```
@@ -37,7 +37,7 @@ Description
 
 This example removes the application tables from the specified database on the local server.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Remove-NAVApplication -DatabaseServer 'MyServer' -DatabaseInstance 'NAVDemo' -DatabaseName 'Demo Database NAV'
 ```
@@ -48,7 +48,7 @@ Description
 
 This example shows how to remove the application-wide tables from the demonstration database on the specified server and instance.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### EXAMPLE 3
 ```
 Export-NAVApplication -DatabaseServer 'MyServer' -DatabaseInstance 'NAVDEMO' -DatabaseName 'Demo Database NAV' -DestinationDatabaseName 'NAV App'| Remove-NAVApplication -DatabaseName 'Demo Database NAV' -Force
 ```

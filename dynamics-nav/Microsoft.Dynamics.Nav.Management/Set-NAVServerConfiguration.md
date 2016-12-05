@@ -30,7 +30,7 @@ New setting values do not take effect until you restart the server instance.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Set-NAVServerConfiguration MyInstance -KeyName DatabaseServer -KeyValue DatabaseServer.Domain.Com
 ```

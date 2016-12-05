@@ -26,7 +26,7 @@ The manifest is required when creating the NAV App package file (.navx) using th
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1
 ```
 New-NavAppManifest -Name "Proseware SmartApp" -Publisher "Proseware, Inc." -Description "First NAV App by Proseware" |
                     Set-NavAppManifest -Version 2.3.4.500 -CompatibilityId 2.0.0.0
@@ -55,7 +55,7 @@ Description
 
 This example creates a new manifest with a few properties and then passes the created manifest to the Set-NAVAppManifest cmdlet in order to set the version and compatibilityId properties.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### Example 2
 ```
 Get-NAVAppManifest -Path '.\Manifest-Proseware SmartApp.xml' | Set-NavAppManifest -Version 2.3.4.500 -CompatibilityId 2.0.0.0 | New-NavAppManifestFile -Path ".\Manifest-Proseware SmartApp.xml" -Force
 ```

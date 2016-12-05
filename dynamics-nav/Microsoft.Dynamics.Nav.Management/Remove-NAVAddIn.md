@@ -21,7 +21,7 @@ Removes an add-in that is registered in the system table 2000000069 Add-ins of t
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Remove-NAVAddIn -ServerInstance DynamicsNAV -AddinName MyNavAddin -PublicKeyToken 31bf3856ad364e35
 ```

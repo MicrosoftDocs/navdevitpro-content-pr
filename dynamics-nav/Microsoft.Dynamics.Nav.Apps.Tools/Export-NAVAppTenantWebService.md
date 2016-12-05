@@ -21,7 +21,7 @@ Use the Export-NAVAppTenantWebService cmdlet to export a web service from a Micr
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### Example 1
 ```
 Export-NAVAppTenantWebService -ServerInstance DynamicsNAV90 -Path .\TenantWebService.xml -ServiceName Customer -ObjectType Page -ObjectId 21
 ```
@@ -32,7 +32,7 @@ Description
 
 This example exports the web service with the name "Customer" on the Page 21 object in the database that is used by the DynamicsNAV90 server instance to the TenantWebService.xml file.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### Example 2
 ```
 Export-NAVAppTenantWebService -ServerInstance DynamicsNAV90 -Path .\TenantWebService.xml -ServiceName Customer -ObjectType Page -ObjectId 21 -PassThru
 

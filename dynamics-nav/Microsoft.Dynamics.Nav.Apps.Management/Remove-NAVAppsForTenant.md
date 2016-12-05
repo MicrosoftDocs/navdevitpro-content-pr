@@ -25,7 +25,7 @@ This may change the database schema so you must specify if you do not want to sa
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Remove-NAVAppsForTenant -ApplicationDatabaseName 'Demo Database NAV (9-0)' -ApplicationDatabaseServer NAVSQLServer -DatabaseName Tenant1 -DatabaseServer NAVSQLServer
 ```
@@ -37,7 +37,7 @@ Description
 This example uninstalls all of the NAV Apps in the unmounted tenant database with the name of Tenant1.
 If the NAV App contains a schema change, the tenant database will be synchronized and the data will be saved.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Remove-NAVAppsForTenant -ApplicationDatabaseName 'Demo Database NAV (9-0)' -ApplicationDatabaseServer NAVSQLServer -DatabaseName Tenant1 -DatabaseServer NAVSQLServer -DoNotSaveData
 ```

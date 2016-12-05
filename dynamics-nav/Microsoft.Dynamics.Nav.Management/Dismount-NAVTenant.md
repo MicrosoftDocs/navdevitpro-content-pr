@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -40,7 +40,7 @@ All active user sessions that access the tenant will end.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Dismount-NAVTenant DynamicsNAV -Tenant 'Test'
 ```
@@ -51,7 +51,7 @@ Description
 
 This example dismounts the tenant Test from the specified server instance.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Dismount-NAVTenant DynamicsNAV Test
 ```
@@ -62,7 +62,7 @@ Description
 
 This example dismounts the tenant Test from the specified server instance without being explicit about parameter names.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### EXAMPLE 3
 ```
 Get-NAVTenant DynamicsNAV | Dismount-NAVTenant
 ```
@@ -75,7 +75,7 @@ This example gets the tenant information from the DynamicsNAV90Microsoft Dynamic
 The tenant default is then dismounted.
 The output is a list of the tenant information about all dismounted tenants.
 
-### -------------------------- EXAMPLE 4 --------------------------
+### EXAMPLE 4
 ```
 Dismount-NAVTenant -Tenant 'Test' -ApplicationDatabaseServer 'MySQLServer\NAV' -ApplicationDatabaseName 'MyNavAppDatabase' -ApplicationDatabaseCredentials (Get-Credential)
 ```
@@ -97,7 +97,7 @@ This parameter is only relevant when you set with the ApplicationDatabaseServer 
 ```yaml
 Type: PSCredential
 Parameter Sets: UseDatabaseSqlAuth
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -114,7 +114,7 @@ This parameter, together with the ApplicationDatabaseServer parameter, enables y
 ```yaml
 Type: String
 Parameter Sets: UseDatabase, UseDatabaseSqlAuth
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -130,7 +130,7 @@ This parameter, together with the ApplicationDatabaseName parameter, enables you
 ```yaml
 Type: String
 Parameter Sets: UseDatabase, UseDatabaseSqlAuth
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -146,7 +146,7 @@ You can pass this object from the Tenant parameter on the Get-NAVTenant cmdlet t
 ```yaml
 Type: NavTenantRuntimeSettings
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -162,7 +162,7 @@ You can pass this object from the Tenant parameter on the Get-NAVTenant cmdlet t
 ```yaml
 Type: NavTenantSettings
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -178,7 +178,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: UseNST
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -238,7 +238,7 @@ Accept wildcard characters: False
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -255,4 +255,3 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
-

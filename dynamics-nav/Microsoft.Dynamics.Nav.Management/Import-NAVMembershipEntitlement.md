@@ -22,7 +22,7 @@ Import license entitlement data for a membership association.
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Import-NAVAzureADEntitlement -Path C:\License\ADPlanEntitlement.csv -Type 'Azure AD Plan' -Id '0000-0001' -Name 'My Service Plan' -EntitlementSetId 'MyPlanEntitlement' -EntitlementSetName 'Entitlements for My Service Plan' -ServerInstance 'DynamicsNAV'
 ```

@@ -20,7 +20,7 @@ Use the Get-NAVServerConfiguration cmdlet to return configuration settings for t
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Get-NAVServerConfiguration MyInstance
 
@@ -189,7 +189,7 @@ Description
 
 This example returns configuration details for the Microsoft Dynamics NAV Server instance server named MyInstance on the Microsoft Dynamics NAV Server computer.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 (Get-NAVServerConfiguration MyInstance -AsXml).configuration.appSettings | fc
 
@@ -229,7 +229,7 @@ Description
 
 This example returns configuration details for the Microsoft Dynamics NAV Server instance named MyInstance on the Microsoft Dynamics NAV Server computer in XML format.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### EXAMPLE 3
 ```
 Get-NAVServerConfiguration MyInstance -AsXml | fc
 

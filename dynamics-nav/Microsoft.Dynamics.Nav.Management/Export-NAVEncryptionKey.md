@@ -27,7 +27,7 @@ The Export-NAVEncryptionKey cmdlet enables you to specify a destination file for
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Export-NAVEncryptionKey -ServerInstance DynamicsNAV -KeyPath "C:\Keys\nav.key" -Password (Get-Credential).Password
 ```
@@ -38,7 +38,7 @@ Description
 
 The following example exports an encryption key from a Microsoft Dynamics NAV Server instance to a password protected file.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Export-NAVEncryptionKey -ServerInstance DynamicsNAV -KeyPath "C:\Keys\nav.key" | Import-NAVEncryptionKey -ServerInstance NewInstance
 ```

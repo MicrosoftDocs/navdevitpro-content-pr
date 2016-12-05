@@ -37,7 +37,7 @@ For more information about these values, see the Help for the User page in the M
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 Get-NAVServerUser DynamicsNAV
 
@@ -64,7 +64,7 @@ Description
 
 This example returns information about Microsoft Dynamics NAV users.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 Get-NAVServerUser DynamicsNAV90 -Tenant "Tenant1"
 

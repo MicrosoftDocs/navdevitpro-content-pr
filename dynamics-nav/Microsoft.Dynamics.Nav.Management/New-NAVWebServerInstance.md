@@ -26,7 +26,7 @@ For more information, see How to: Set Up Multiple Web Server Instances for the M
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 New-NAVWebServerInstance MyNavApp -Server MyNavServer -ServerInstance DynamicsNAV -Company MyNavCompany
 ```

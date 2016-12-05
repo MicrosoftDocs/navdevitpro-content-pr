@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -51,7 +51,7 @@ Anonymous accounts such as S-1-1-0 (Everyone) and S-1-5-7 (Anonymous) are not al
 
 ## EXAMPLES
 
-### -------------------------- EXAMPLE 1 --------------------------
+### EXAMPLE 1
 ```
 New-NAVServerUser DynamicsNAV -Sid S-1-5-20
 ```
@@ -62,7 +62,7 @@ Description
 
 This example creates a new Microsoft Dynamics NAV user based on the built-in NT AUTHORITY\NETWORK SERVICE account in Windows.
 
-### -------------------------- EXAMPLE 2 --------------------------
+### EXAMPLE 2
 ```
 New-NAVServerUser MicrosoftDynamicsNavServer -WindowsAccount Cronus\Chris
 ```
@@ -73,7 +73,7 @@ Description
 
 This example creates a new Microsoft Dynamics NAV user based on a Windows user account that has the user name Chris from the domain Cronus.
 
-### -------------------------- EXAMPLE 3 --------------------------
+### EXAMPLE 3
 ```
 New-NAVServerUser navserver1 -UserName Chris -Password (Read-Host "Enter password for User1" -AsSecureString) -Verbose
 
@@ -94,7 +94,7 @@ Description
 
 This example creates a new Microsoft Dynamics NAV user that has the user name Chris and a password that is entered as a secure string (****).
 
-### -------------------------- EXAMPLE 4 --------------------------
+### EXAMPLE 4
 ```
 New-NAVServerUser navserver1 -UserName Chris -Password (ConvertTo-SecureString 'Password1234' -AsPlainText -Force)
 ```
@@ -105,7 +105,7 @@ Description
 
 This example creates a new Microsoft Dynamics NAV user that has the user name Chris and password Password1234.
 
-### -------------------------- EXAMPLE 5 --------------------------
+### EXAMPLE 5
 ```
 New-NAVServerUser navserver1 -CreateWebServicesKey -UserName Chris -WebServicesKeyExpiryDate '01-01-2014'
 ```
@@ -127,7 +127,7 @@ The application is identified by its "client id" in Azure Active Directory.
 ```yaml
 Type: Guid
 Parameter Sets: AppId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -143,7 +143,7 @@ The authentication email address must be the Microsoft account that the users lo
 ```yaml
 Type: String
 Parameter Sets: WindowsAccount, Sid, UserName
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -160,7 +160,7 @@ The authentication key is entered by the user the first time that the user logs 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -175,7 +175,7 @@ Forces the user to change the password the next time that the user logs on.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: WindowsAccount, Sid, UserName
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -190,7 +190,7 @@ Specifies the contact email address for the Microsoft Dynamics NAV user.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -208,7 +208,7 @@ The web service access key is used instead of a password to authenticate web ser
 ```yaml
 Type: SwitchParameter
 Parameter Sets: WindowsAccount, Sid, UserName
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -223,7 +223,7 @@ Specifies when the user's access to Microsoft Dynamics NAV expires.
 ```yaml
 Type: DateTime
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -241,7 +241,7 @@ The value typically includes the user's first and last name.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -269,7 +269,7 @@ External (4)
 ```yaml
 Type: LicenseType
 Parameter Sets: WindowsAccount, Sid, UserName
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -285,7 +285,7 @@ The password is only used when the credential type for authenticating users who 
 ```yaml
 Type: SecureString
 Parameter Sets: WindowsAccount, Sid, UserName
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -300,7 +300,7 @@ Specifies the ID of the profile to assign the user.
 ```yaml
 Type: String
 Parameter Sets: WindowsAccount, Sid, UserName
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -316,7 +316,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -334,7 +334,7 @@ If you use the Sid parameter, then you cannot set the UserName or WindowsAccount
 ```yaml
 Type: String
 Parameter Sets: Sid
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -353,7 +353,7 @@ Disabled (1)
 ```yaml
 Type: NavUserState
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -387,7 +387,7 @@ If you use the Username parameter, then you cannot use the Windows Account or Si
 ```yaml
 Type: String
 Parameter Sets: UserName, AppId
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -402,7 +402,7 @@ Specifies the date and time that the user's web services access key expires.
 ```yaml
 Type: DateTime
 Parameter Sets: WindowsAccount, Sid, UserName
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -420,7 +420,7 @@ If you use the WindowsAccount parameter, then you cannot use the UserName or Sid
 ```yaml
 Type: String
 Parameter Sets: WindowsAccount
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -465,7 +465,7 @@ Accept wildcard characters: False
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -482,4 +482,3 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
-
