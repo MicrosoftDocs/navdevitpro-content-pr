@@ -40,7 +40,7 @@ Visual Studio Code and the AL Extension lets you do the following tasks:
 
 - Create new files for your solution
 - Get assistance with creating the appropriate configuration and setting files
-- Use code snippets that provide templates for coding application objects, use 
+- Use code snippets that provide templates for coding application objects 
 - Get compiler validation while coding
 - Press F5 to publish your changes and see your code running
 
@@ -72,5 +72,6 @@ The in-client designer works in the client itself allowing design of pages using
 Extensions are compiled as .navm package files. The .navm package file can be deployed to the [!INCLUDE[nav_server_md](includes/nav_server_md.md)]. A .navm package contains the various artifacts that deliver the new functionality to the [!INCLUDE[navnow_md](includes/navnow_md.md)] deployment as well as a manifest that specifies the name, publisher, version, and other attributes of the extension.
 
 ## See Also
+[Getting Started](newdev-get-started.md)
 [Keyboard Shortcuts](newdev-keyboard-shortcuts.md)  
 [Developer Reference](newdev-reference-overview.md)
