@@ -42,7 +42,6 @@ The following table provides an overview of some of the shortcut key combination
 |F5|Deploy|
 
 ## See Also
-[Developing Extensions Using the New Development Environment](../dynamics-nav/newdev-develop-extensions.md)  
 [Developer Reference](newdev-reference-overview.md)
 
 
