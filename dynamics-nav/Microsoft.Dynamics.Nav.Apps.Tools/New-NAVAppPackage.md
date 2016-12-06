@@ -200,6 +200,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## NOTES
 ## RELATED LINKS
-[Get-NAVAppManifest](Get-NAVAppManifest.md)
 
-[New-NAVAppManifest](New-NAVAppManifest.md)
+[Get-NAVAppManifest](https://go.microsoft.com/fwlink/?linkid=616072)
+
+[New-NAVAppManifest](https://go.microsoft.com/fwlink/?linkid=616071)
