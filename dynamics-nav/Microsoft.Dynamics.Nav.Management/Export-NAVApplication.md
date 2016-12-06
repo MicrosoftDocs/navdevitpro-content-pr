@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=401355
 schema: 2.0.0
 ---
 
@@ -182,6 +182,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ## OUTPUTS
@@ -199,8 +202,8 @@ The value of the DatabaseName parameter.
 
 ## RELATED LINKS
 
-[Get-NAVApplication](Get-NAVApplication.md)  
+[Get-NAVApplication](Get-NAVApplication.md)
 
-[Mount-NAVApplication](Mount-NAVApplication.md)  
+[Mount-NAVApplication](Mount-NAVApplication.md)
 
-[Remove-NAVApplication](Remove-NAVApplication.md)  
+[Remove-NAVApplication](Remove-NAVApplication.md)

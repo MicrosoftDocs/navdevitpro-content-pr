@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=403851
 schema: 2.0.0
 ---
 
@@ -169,17 +169,21 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
-### System.String 
+### System.String
 You can pass the value of the CodunitId, CompanyName, FunctionName, ServerInstance and Tenant parameters as a string to this cmdlet.
 
 ## OUTPUTS
 
 ## NOTES
-The Resume-NAVUpgrade cmdlet runs in the same language that was used in the Start-NAVUpgrade cmdlet, as specified by the -Language parameter. 
+The Resume-NAVUpgrade cmdlet runs in the same language that was used in the Start-NAVUpgrade cmdlet, as specified by the -Language parameter.
 
 ## RELATED LINKS
+
 [Get-NAVDataUpgrade](Get-NAVDataUpgrade.md)
 
 [Start-NAVDataUpgrade](Start-NAVDataUpgrade.md)

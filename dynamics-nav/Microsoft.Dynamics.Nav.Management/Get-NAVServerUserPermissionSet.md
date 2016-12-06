@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=401365
 schema: 2.0.0
 ---
 
@@ -215,6 +215,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ### System.String
@@ -228,14 +231,14 @@ Returns the permission set information as a table.
 ## NOTES
 ## RELATED LINKS
 
-[New-NAVServerPermissionSet](New-NAVServerPermissionSet.md)  
+[New-NAVServerPermissionSet](New-NAVServerPermissionSet.md)
 
-[Remove-NAVServerUserPermissionSet](Remove-NAVServerUserPermissionSet.md)  
+[Remove-NAVServerUserPermissionSet](Remove-NAVServerUserPermissionSet.md)
 
-[Get-NAVServerUser](Get-NAVServerUser.md)  
+[Get-NAVServerUser](Get-NAVServerUser.md)
 
-[New-NAVServerUser](New-NAVServerUser.md)  
+[New-NAVServerUser](New-NAVServerUser.md)
 
-[Remove-NAVServerUser](Remove-NAVServerUser.md)  
+[Remove-NAVServerUser](Remove-NAVServerUser.md)
 
-[Set-NAVServerUser](Set-NAVServerUser.md)  
+[Set-NAVServerUser](Set-NAVServerUser.md)
