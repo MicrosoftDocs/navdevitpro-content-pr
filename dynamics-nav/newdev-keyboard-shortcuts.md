@@ -1,6 +1,6 @@
 ---
-title: "Keyboard Shortcuts for the Development Environment"
-description: "List of keyboard shortcuts for the development environment."
+title: "Keyboard Shortcuts for the New Development Environment"
+description: "List of keyboard shortcuts for the new development environment."
 author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 11/04/2016
@@ -13,7 +13,7 @@ ms.author: solsen
 ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 ---
 
-# Keyboard Shortcuts for the Dynamics NAV Development Environment
+# Keyboard Shortcuts for the New Development Environment
 The following table provides an overview of some of the shortcut key combinations that you can use when you're working with [!INCLUDE[navnow_md](includes/navnow_md.md)] in Visual Studio Code. For a complete overview, see [Key Bindings for Visual Studio Code](https://code.visualstudio.com/docs/customization/keybindings)
 
 ## Editing
