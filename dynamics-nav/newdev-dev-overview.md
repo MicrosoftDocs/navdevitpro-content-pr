@@ -15,7 +15,7 @@ ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 
 [!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/newdev_dev_preview.md)]
 
-# Developing Extensions for Dynamics NAV Overview
+# Developing Extensions Using the New Development Environment
 
 Developing for [!INCLUDE[navnow_md](includes/navnow_md.md)] is done by creating an extension to a [!INCLUDE[navnow_md](includes/navnow_md.md)] solution. Extensions are a programming model where functionality is defined as an addition to existing objects and defines how they are different or modify the behaviour of the solution.
 You might already be familiar with the extension model working with [!INCLUDE[navnow_md](includes/navnow_md.md)]. For more information, see [Extending Microsoft Dynamics NAV Using Extension Packages](extending-microsoft-dynamics-nav-using-extension-packages.md).

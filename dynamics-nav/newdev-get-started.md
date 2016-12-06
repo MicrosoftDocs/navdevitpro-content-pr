@@ -20,7 +20,7 @@ caps.latest.revision: 18
 To get started writing extensions for [!INCLUDE[navnow_md](includes/navnow_md.md)] you will need a [!INCLUDE[navnow_md](includes/navnow_md.md)] tenant, and Visual Studio Code. Visual Studio Code is a cross platform editor that you will use for coding and debugging. For the preview, you will download a VM from the Microsoft Azure Gallery which is set up for trying out the new development environment.
 
 ## Steps
-1) First, you will need an Azure subscription. Sign up for a [free subscription](https://azure.microsoft.com/en-us/free/).   
+1) First, you will need an Azure subscription. You can sign up for a [free subscription](https://azure.microsoft.com/en-us/free/).   
 2) Go to [Microsoft Azure Marketplace](https://ms.portal.azure.com/#blade/Microsoft_Azure_Marketplace/GalleryFeaturedMenuItemBlade/selectedMenuItemId/home) and search for the **Microsoft Dynamics Developer Preview**.  
 3) Follow the instructions on the screen to deploy and run. 
 <!-- do we need to copy/paste a URL? -->
