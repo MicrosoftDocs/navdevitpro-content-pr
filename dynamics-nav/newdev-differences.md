@@ -3,7 +3,7 @@ title: "Differences in the Dynamics NAV Development Environments"
 description: "Describes the various differences between the old and the new development environment"
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/29/2016
+ms.date: 12/06/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na

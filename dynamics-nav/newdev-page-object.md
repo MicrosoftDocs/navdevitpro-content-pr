@@ -3,7 +3,7 @@ title: "Page Object"
 description: "Description of the page object."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/25/2016
+ms.date: 12/06/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -53,7 +53,7 @@ page 50088 SimpleCustomerCard
 ```
 
 ## See Also
-[Developing for Dynamics 365 for Financials Overview](newdev-dev-overview.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)  
 [Developer Reference](newdev-reference-overview.md)  
 [Page Extension Object](newdev-page-ext-object.md)  
 [Pages](pages.md)  

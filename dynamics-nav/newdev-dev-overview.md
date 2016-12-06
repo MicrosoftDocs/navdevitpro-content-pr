@@ -3,7 +3,7 @@ title: "Developing Extensions Using the New Development Environment"
 description: "Overview of the new development experience."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/30/2016
+ms.date: 12/06/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -77,5 +77,8 @@ Extensions are compiled as .navm package files. The .navm package file can be de
 
 ## See Also
 [Getting Started](newdev-get-started.md)  
-[Keyboard Shortcuts for the New Development Environment](newdev-keyboard-shortcuts.md)    
+[Keyboard Shortcuts](newdev-keyboard-shortcuts.md)    
 [Developer Reference](newdev-reference-overview.md)
+[Extending Microsoft Dynamics NAV Using Extension Packages](extending-microsoft-dynamics-nav-using-extension-packages.md)  
+[Development](development.md)
+

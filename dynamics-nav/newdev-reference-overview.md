@@ -1,9 +1,9 @@
---
+---
 title: "Developer Reference"
 description: "Overview of the objects."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/30/2016
+ms.date: 12/06/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -37,6 +37,6 @@ This section describes all of the objects that are available with [!INCLUDE[navn
 |Learn about writing codeunits for your extension.|[Codeunit Object](newdev-codeunit-object.md)|
 
 ## See Also
-[Getting Started with the New Development Environment](newdev-get-started.md)
+[Getting Started](newdev-get-started.md)  
 [Tables](tables.md)  
 [Pages](pages.md)
