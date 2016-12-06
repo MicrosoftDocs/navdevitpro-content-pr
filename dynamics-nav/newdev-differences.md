@@ -45,7 +45,7 @@ Controls, actions, and methods names must be unique on pages. In C/SIDE you coul
 ## Property dependencies
 Some properties require that you set another property. An example is ```PromotedCategory```, which requires that you have enabled the property ```Promoted```. The following table lists some of properties that have this dependency:
 
-|Property|Depends on...|
+|Property|Depends on the property...|
 |--------|-------------|
 |PromotedCategory|Promoted|
 |PromotedIsBig|Promoted|

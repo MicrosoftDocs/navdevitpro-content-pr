@@ -44,7 +44,7 @@
 ## [Using the Dynamics NAV In-Client Designer](newdev-inclient-designer.md)
 ## [Differences in the Dynamics NAV Development Environments](newdev-differences.md)
 ## [Keyboard Shortcuts for the New Development Environment](newdev-keyboard-shortcuts.md)
-## [Developer Reference](newdef-reference-overview.md)
+## [Developer Reference](newdev-reference-overview.md)
 # [Administration](Administration.md)
 ## [Microsoft Dynamics NAV Server Administration Tool](Microsoft-Dynamics-NAV-Server-Administration-Tool.md)
 ## [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)
