@@ -384,7 +384,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-## System.String
+### System.String
 You can pipe a string that contains a Dynamics NAV Server instance name or the security credentials to the cmdlet.
 
 ## OUTPUTS

@@ -340,4 +340,4 @@ Otherwise, this cmdlet does not generate any output.
 ## NOTES
 
 ## RELATED LINKS
-[Compare-NAVApplicationObject](Compare-NAVApplicationObject.md)  
+[Compare-NAVApplicationObject](Compare-NAVApplicationObject.md)

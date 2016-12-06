@@ -125,7 +125,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## INPUTS
 
-###System.String
+### System.String
 You can pipe a string that contains a Microsoft Dynamics NAV web server instance name to the cmdlet.
 
 ## OUTPUTS
@@ -135,7 +135,7 @@ You can pipe a string that contains a Microsoft Dynamics NAV web server instance
 ## NOTES
 ## RELATED LINKS
 
-Get-NAVWebServerInstance](Get-NAVWebServerInstance.md)
+[Get-NAVWebServerInstance](Get-NAVWebServerInstance.md)
 
 [New-NAVWebServerInstance](New-NAVWebServerInstance.md)
 
