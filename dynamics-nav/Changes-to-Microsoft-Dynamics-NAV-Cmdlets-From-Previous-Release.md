@@ -43,6 +43,7 @@ The following sections provide an overview of the new, changed, and removed cmdl
 |------------|---------------------------------------|  
 |[Install-NAVApp](Microsoft.Dynamics.Nav.Apps.Management/Install-NAVApp.md)|*ExchangeAuthenticationMetadataLocation* parameter added.|
 |[Mount-NAVTenant](Microsoft.Dynamics.Nav.Management/Mount-NAVTenant.md)|*ExchangeAuthenticationMetadataLocation* parameter added.|
+[Get-NAVTenant](Microsoft.Dynamics.Nav.Management/Mount-NAVTenant.md)|*ExchangeAuthenticationMetadataLocation* is returned.|
 |[Start-NAVDataUpgrade](Microsoft.Dynamics.Nav.Management/Start-NAVDataUpgrade.md)|*Language* parameter added.|
 |[Sync-NAVTenant](Microsoft.Dynamics.Nav.Management/Sync-NAVTenant.md)|*CommitPerTable* parameter added.|
 
