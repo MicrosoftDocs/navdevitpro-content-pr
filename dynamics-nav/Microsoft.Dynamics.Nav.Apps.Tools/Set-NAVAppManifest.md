@@ -49,20 +49,12 @@ New-NavAppManifest -Name "Proseware SmartApp" -Publisher "Proseware, Inc." -Desc
                     Dependencies       : {}
 ```
 
-Description
-
------------
-
 This example creates a new manifest with a few properties and then passes the created manifest to the Set-NAVAppManifest cmdlet in order to set the version and compatibilityId properties.
 
 ### Example 2
 ```
 Get-NAVAppManifest -Path '.\Manifest-Proseware SmartApp.xml' | Set-NavAppManifest -Version 2.3.4.500 -CompatibilityId 2.0.0.0 | New-NavAppManifestFile -Path ".\Manifest-Proseware SmartApp.xml" -Force
 ```
-
-Description
-
------------
 
 This example gets a manifest from file, sets the version and compatibilityId properties and then saves the updated manifest back to file.
 The -Force parameter overwrites the existing file.
@@ -298,10 +290,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## NOTES
 ## RELATED LINKS
+
 [Get-NAVAppManifest](Get-NAVAppManifest.md)
 
 [New-NAVAppManifest](New-NAVAppManifest.md)
-
-[New-NavAppManifestFile](New-NAVAppManifestFile.md)  
-
-[NEW-NAVAppPackage](New-NAVAppPackage.md)

@@ -283,14 +283,15 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## NOTES
 ## RELATED LINKS
-[Install-NAVApp](Install-NAVApp.md)  
+
+[Install-NAVApp](Install-NAVApp.md)
 
 [Get-NavAppTenant](Get-NavAppTenant.md)
 
-[Publish-NAVApp](Publish-NAVApp.md)  
+[Publish-NAVApp](Publish-NAVApp.md)
 
-[Remove-NAVAppsForTenant](Remove-NAVAppsForTenant.md)  
+[Remove-NAVAppsForTenant](Remove-NAVAppsForTenant.md)
 
-[Uninstall-NAVApp](Uninstall-NAVApp.md)  
+[Uninstall-NAVApp](Uninstall-NAVApp.md)
 
-[Unpublish-NAVApp](Unpublish-NAVApp.md)  
+[Unpublish-NAVApp](Unpublish-NAVApp.md)

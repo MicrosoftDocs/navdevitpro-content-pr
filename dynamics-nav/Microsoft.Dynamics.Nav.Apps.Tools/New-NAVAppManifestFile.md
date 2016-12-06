@@ -130,8 +130,9 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## NOTES
 ## RELATED LINKS
+
 [Get-NAVAppManifest](Get-NAVAppManifest.md)
 
-[New-NavAppManifest](New-NAVAppManifest.md)  
+[New-NAVAppManifest](New-NAVAppManifest.md)
 
 [Set-NAVAppManifest](Set-NAVAppManifest.md)

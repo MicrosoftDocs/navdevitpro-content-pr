@@ -29,10 +29,6 @@ This may change the database schema so you must specify if you do not want to sa
 Remove-NAVAppsForTenant -ApplicationDatabaseName 'Demo Database NAV' -ApplicationDatabaseServer NAVSQLServer -DatabaseName Tenant1 -DatabaseServer NAVSQLServer
 ```
 
-Description
-
------------
-
 This example uninstalls all of the NAV Apps in the unmounted tenant database with the name of Tenant1.
 If the NAV App contains a schema change, the tenant database will be synchronized and the data will be saved.
 
@@ -40,10 +36,6 @@ If the NAV App contains a schema change, the tenant database will be synchronize
 ```
 Remove-NAVAppsForTenant -ApplicationDatabaseName 'Demo Database NAV)' -ApplicationDatabaseServer NAVSQLServer -DatabaseName Tenant1 -DatabaseServer NAVSQLServer -DoNotSaveData
 ```
-
-Description
-
------------
 
 This example uninstalls all of the NAV Apps in the unmounted tenant database with the name of Tenant1.
 If the NAV App contains a schema change, the tenant database will be synchronized and the data will not be saved since the -DoNotSaveData parameter switch was provided.
@@ -196,14 +188,15 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## NOTES
 ## RELATED LINKS
+
 [Get-NavAppTenant](Get-NavAppTenant.md)
 
-[Install-NAVApp](Install-NAVApp.md)  
+[Install-NAVApp](Install-NAVApp.md)
 
-[Publish-NAVApp](Publish-NAVApp.md)  
+[Publish-NAVApp](Publish-NAVApp.md)
 
 [Repair-NAVApp](Repair-NAVApp.md)
 
-[Uninstall-NAVApp](Uninstall-NAVApp.md)  
+[Uninstall-NAVApp](Uninstall-NAVApp.md)
 
-[Unpublish-NAVApp](Unpublish-NAVApp.md)  
+[Unpublish-NAVApp](Unpublish-NAVApp.md)
