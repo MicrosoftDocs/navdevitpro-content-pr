@@ -40,8 +40,7 @@ Remove-NAVServerUserPermissionSet [-Scope <PermissionScope>] [-AppName <String>]
 ```
 
 ## DESCRIPTION
-Use the Remove-NAVServerUserPermissionSet cmdlet to remove a permission set that is assigned to a Microsoft Dynamics NAV user.
-You can use the Get-NAVServerUserPermissionSet cmdlet to determine which permission sets are currently assigned to a particular user.
+Use the Remove-NAVServerUserPermissionSet cmdlet to remove a permission set that is assigned to a Microsoft Dynamics NAV user. You can use the Get-NAVServerUserPermissionSet cmdlet to determine which permission sets are currently assigned to a particular user.
 
 ## EXAMPLES
 
@@ -49,10 +48,6 @@ You can use the Get-NAVServerUserPermissionSet cmdlet to determine which permiss
 ```
 Remove-NAVServerUserPermissionSet DynamicsNAV -Sid S-1-5-20 -PermissionSetId AVOCADO
 ```
-
-Description
-
------------
 
 This example removes the built-in account (Network Service) from the AVOCADO permission set.
 
@@ -89,8 +84,7 @@ Accept wildcard characters: False
 ```
 
 ### -CompanyName
-Specifies the name of a company in the Microsoft Dynamics NAV database.
-The specified user permission sets are removed for that company only.
+Specifies the name of a company in the Microsoft Dynamics NAV database. The specified user permission sets are removed for that company only.
 
 ```yaml
 Type: String
@@ -105,8 +99,7 @@ Accept wildcard characters: False
 ```
 
 ### -InputObject
-Specifies the DataRow object that identifies the user to remove the permission set from.
-You can pass this object from the Get-NAVServerUserPermissionSet cmdlet.
+Specifies the DataRow object that identifies the user to remove the permission set from. You can pass this object from the Get-NAVServerUserPermissionSet cmdlet.
 
 ```yaml
 Type: DataRow
@@ -151,8 +144,7 @@ Accept wildcard characters: False
 ```
 
 ### -ServerInstance
-Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
-You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
+Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance. You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
 
 ```yaml
 Type: String
@@ -167,10 +159,9 @@ Accept wildcard characters: False
 ```
 
 ### -Sid
-Specifies a security identifier (SID) of the Microsoft Dynamics NAV user.
-The SID is a unique value that identifies a Windows user account.
-You can use the Sid, UserName, or WindowsAccount parameters to identify the  user.
-If you use the Sid parameter, then do not set the UserName or WindowsAccount parameters.
+Specifies a security identifier (SID) of the Microsoft Dynamics NAV user. The SID is a unique value that identifies a Windows user account.
+
+You can use the Sid, UserName, or WindowsAccount parameters to identify the  user. If you use the Sid parameter, then do not set the UserName or WindowsAccount parameters.
 
 ```yaml
 Type: String
@@ -186,6 +177,7 @@ Accept wildcard characters: False
 
 ### -Tenant
 Specifies the ID of the tenant that is mounted of the Microsoft Dynamics NAV Server instance to which the user belongs.
+
 You can omit the Tenant parameter only if the Microsoft Dynamics NAV Server instance is not configured to run multiple tenants.
 
 ```yaml
@@ -201,8 +193,8 @@ Accept wildcard characters: False
 ```
 
 ### -UserName
-Specifies the user name of the Microsoft Dynamics NAV user.
-The user name is defined by the User Name field in a user's account in Microsoft Dynamics NAV.
+Specifies the user name of the Microsoft Dynamics NAV user. The user name is defined by the User Name field in a user's account in Microsoft Dynamics NAV.
+
 You can use the UserName, WindowsAccount or Sid parameters to identify the user.
 If you use the Username parameter, then you cannot use the Windows Account or Sid parameters.
 
@@ -219,8 +211,8 @@ Accept wildcard characters: False
 ```
 
 ### -WindowsAccount
-Specifies the Windows user name of the Microsoft Dynamics NAV user.
-The value has the domain\username format.
+Specifies the Windows user name of the Microsoft Dynamics NAV user. The value has the domain\username format.
+
 You can use either the WindowsAccount, UserName, or Sid parameters to identify the user.
 If you use the WindowsAccount parameter, then you cannot use the UserName or Sid parameters.
 
@@ -283,9 +275,25 @@ Accept wildcard characters: False
 
 ## INPUTS
 
+### System.String
+You can pipe a string that contains a Microsoft Dynamics NAV Server instance name to the cmdlet.
+
+### System.Data.DataRow
+You can pass this object from the Get-NAVServerUserPermissionSet cmdlet to remove a permission set from a user.
+
 ## OUTPUTS
 
 ### None
 
 ## NOTES
 ## RELATED LINKS
+
+[Get-NAVServerUserPermissionSet](Get-NAVServerUserPermissionSet.md)  
+
+[New-NAVServerPermissionSet](New-NAVServerPermissionSet.md)  
+
+[Get-NAVServerUser](Get-NAVServerUser.md)  
+
+[New-NAVServerUser](New-NAVServerUser.md)  
+
+[Remove-NAVServerUser](Remove-NAVServerUser.md)  

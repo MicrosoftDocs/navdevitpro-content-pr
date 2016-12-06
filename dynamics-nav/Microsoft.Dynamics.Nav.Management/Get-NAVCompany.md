@@ -124,3 +124,5 @@ Returns the company information as a data row for each company.
 [New-NAVCompany](New-NAVCompany.md)  
 
 [Remove-NAVCompany](Remove-NAVCompany.md)
+
+[Rename-NAVCompany](Rename-NAVCompany.md)  

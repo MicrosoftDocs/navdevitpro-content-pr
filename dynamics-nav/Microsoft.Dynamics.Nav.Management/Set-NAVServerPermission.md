@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -27,11 +27,6 @@ Use the Set-NAVServerPermission cmdlet to change the permissions that are grante
 ```
 Set-NAVServerPermission DynamicsNAV -PermissionSetId BASIC -ObjectType Page -ObjectId 21 -Read Indirect
 ```
-
-Description
-
------------
-
 This example updates the Read permission for the specified page object to Indirect for the BASIC permission set.
 
 ## PARAMETERS
@@ -49,7 +44,7 @@ Indirect = 2
 ```yaml
 Type: PermissionOption
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -71,7 +66,7 @@ Indirect = 2
 ```yaml
 Type: PermissionOption
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -93,7 +88,7 @@ Indirect = 2
 ```yaml
 Type: PermissionOption
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -115,7 +110,7 @@ Indirect = 2
 ```yaml
 Type: PermissionOption
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -130,7 +125,7 @@ Specifies the ID of the object that the permission applies to.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -170,7 +165,7 @@ FieldNumber = 11
 ```yaml
 Type: ObjectType
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -185,7 +180,7 @@ The ID of the permission set that you are updating, such as BASIC or SUPER.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -207,7 +202,7 @@ Indirect = 2
 ```yaml
 Type: PermissionOption
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -222,7 +217,7 @@ Specifies a security filter for the permission.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -238,7 +233,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -283,7 +278,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -294,10 +289,25 @@ Accept wildcard characters: False
 
 ## INPUTS
 
+### System.String
+You can pipe a string that contains a Microsoft Dynamics NAV Server instance name to the cmdlet.
+
 ## OUTPUTS
 
 ### None
 
 ## NOTES
 ## RELATED LINKS
+[Get-NAVServerPermission](Get-NAVServerPermission.md)  
 
+[New-NAVServerPermission](New-NAVServerPermission.md)  
+
+[Remove-NAVServerPermission](Remove-NAVServerPermission.md)  
+
+[Get-NAVServerPermissionSet](Get-NAVServerPermissionSet.md)  
+
+[New-NAVServerPermissionSet](New-NAVServerPermissionSet.md)  
+
+[Remove-NAVServerPermissionSet](Remove-NAVServerPermissionSet.md)  
+
+[Set-NAVServerPermissionSet](Set-NAVServerPermissionSet.md)  

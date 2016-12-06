@@ -25,17 +25,12 @@ The Remove-NAVWebServerInstance cmdlet deletes all virtual folders, web applicat
 Remove-NAVWebServerInstance -WebServerInstance MyNavApp
 ```
 
-Description
-
------------
-
 This example removes the Microsoft Dynamics NAV Server instance that is named MyNavApp.
 
 ## PARAMETERS
 
 ### -WebServerInstance
-Specifies the name of the Microsoft Dynamics NAV Web Server instance to delete.
-This is the name that is used by the web application on IIS and is specified as the virtual directory alias for the Microsoft Dynamics NAV Web Server instance.
+Specifies the name of the Microsoft Dynamics NAV Web Server instance to delete. This is the name that is used by the web application on IIS and is specified as the virtual directory alias for the Microsoft Dynamics NAV Web Server instance.
 
 ```yaml
 Type: String
@@ -96,9 +91,17 @@ Accept wildcard characters: False
 
 ## INPUTS
 
+### System.String
+You can pipe a string that contains a Microsoft Dynamics NAV Web Server instance name to the cmdlet.
+
 ## OUTPUTS
 
 ### None
 
 ## NOTES
 ## RELATED LINKS
+[Get-NAVWebServerInstance](Get-NAVWebServerInstance.md)  
+
+[New-NAVWebServerInstance](New-NAVWebServerInstance.md)  
+
+[Set-NAVWebServerInstanceConfiguration](Set-NAVWebServerInstanceConfiguration.md)  

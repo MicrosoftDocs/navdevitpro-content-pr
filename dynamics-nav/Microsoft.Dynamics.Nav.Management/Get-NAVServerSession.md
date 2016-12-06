@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -18,16 +18,17 @@ Get-NAVServerSession [-Tenant <TenantId>] [-ServerInstance] <String> [-Force]
 ## DESCRIPTION
 Use the Get-NAVServerSession cmdlet to return information about active sessions for a Microsoft Dynamics NAV Server instance.
 The following information is returned for each session:
-Server Instance ID
-Session ID
-User SID
-Server Instance Name
-Server Computer Name
-User ID
-Client Type
-Client Computer Name
-Login Datetime
- Database Name
+
+Server Instance ID  
+Session ID  
+User SID  
+Server Instance Name  
+Server Computer Name  
+User ID  
+Client Type  
+Client Computer Name  
+Login Datetime  
+Database Name  
 
 ## EXAMPLES
 
@@ -36,50 +37,46 @@ Login Datetime
 Get-NAVServerSession -ServerInstance DynamicsNAV -Tenant default
 
 ServerInstanceID   : 1
-                       
+
 SessionID                 : 1
-                       
+
 UserSID                   : DE8B398E-C154-45BC-931A-3A74A8AF5A85
-                       
+
 ServerInstanceName : DynamicsNAV90
-                       
+
 ServerComputerName : MyServer
-                       
+
 UserID                    : CRONUSNavUser1
-                       
+
 ClientType                : WindowsClient
-                       
+
 ClientComputerName : MyComputer
-                       
+
 LoginDatetime             : 21-09-2013 13:06:24
-                       
+
 DatabaseName              : Demo Database NAV
 
-                       
+
 ServerInstanceID   : 1
-                       
+
 SessionID                 : 2
-                       
+
 UserSID                   : DE8B398E-C154-45BC-931A-3A74A8AF5A85
-                       
+
 ServerInstanceName : DynamicsNAV90
-                       
+
 ServerComputerName : MyServer
-                       
+
 UserID                    : CRONUSNavUser2
-                       
+
 ClientType                : WindowsClient
-                       
+
 ClientComputerName : MyOtherComputer
-                       
+
 LoginDatetime             : 21-09-2013 10:28:40
-                       
+
 DatabaseName              : Demo Database NAV
 ```
-
-Description
-
------------
 
 The example returns a list of all client connections for the Microsoft Dynamics NAV Server instance DynamicsNAV.
 The return data shows two Windows client users.
@@ -93,7 +90,7 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -124,7 +121,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -135,10 +132,14 @@ Accept wildcard characters: False
 
 ## INPUTS
 
+### System.String
+You can pipe a string that contains a Microsoft Dynamics NAV Server instance name to the cmdlet.
+
 ## OUTPUTS
 
 ### System.Data.DataTable
+Returns the active session information as a table.
 
 ## NOTES
 ## RELATED LINKS
-
+[Remove-NAVServerSession](Remove-NAVServerSession.md)  

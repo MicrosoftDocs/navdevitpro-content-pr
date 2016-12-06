@@ -18,6 +18,7 @@ Get-NAVServerPermission [-PermissionSetId <String>] [-ObjectType <ObjectType>] [
 
 ## DESCRIPTION
 Use the Get-NAVServerPermission cmdlet to return a list of Microsoft Dynamics NAV permissions that are applied to Microsoft Dynamics NAV objects for the specified Microsoft Dynamics NAV Server instance.
+
 You can filter the information permission set ID, object type, and/or object ID.
 
 ## EXAMPLES
@@ -50,10 +51,6 @@ Security Filter    :
 PermissionSet Name : ADCS Set-up
 Object Name        : Miniform Header
 ```
-
-Description
-
------------
 
 This example returns information about all permission sets that include permissions for object 7700.
 
@@ -163,9 +160,26 @@ Accept wildcard characters: False
 
 ## INPUTS
 
+### System.String
+You can pipe a string that contains a Microsoft Dynamics NAV Server instance name to the cmdlet.
+
 ## OUTPUTS
 
 ### System.Data.DataTable
+Returns the Microsoft Dynamics NAV Server permissions information as a table.
 
 ## NOTES
 ## RELATED LINKS
+[New-NAVServerPermission](New-NAVServerPermission.md)  
+
+[Remove-NAVServerPermission](Remove-NAVServerPermission.md)  
+
+[Set-NAVServerPermission](Set-NAVServerPermission.md)  
+
+[Get-NAVServerPermissionSet](Get-NAVServerPermissionSet.md)  
+
+[New-NAVServerPermissionSet](New-NAVServerPermissionSet.md)  
+
+[Remove-NAVServerPermissionSet](Remove-NAVServerPermissionSet.md)  
+
+[Set-NAVServerPermissionSet](Set-NAVServerPermissionSet.md)  
