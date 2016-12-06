@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=401378
 schema: 2.0.0
 ---
 
@@ -125,6 +125,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ### System.String
@@ -136,16 +139,17 @@ You can pipe a string that contains a Microsoft Dynamics NAV Server instance nam
 
 ## NOTES
 ## RELATED LINKS
-[Get-NAVServerPermissionSet](Get-NAVServerPermissionSet.md)  
 
-[Remove-NAVServerPermissionSet](Remove-NAVServerPermissionSet.md)  
+[Get-NAVServerPermissionSet](Get-NAVServerPermissionSet.md)
 
-[Set-NAVServerPermissionSet](Set-NAVServerPermissionSet.md)  
+[Remove-NAVServerPermissionSet](Remove-NAVServerPermissionSet.md)
 
-[New-NAVServerPermission](New-NAVServerPermission.md)  
+[Set-NAVServerPermissionSet](Set-NAVServerPermissionSet.md)
 
-[Get-NAVServerPermission](Get-NAVServerPermission.md)  
+[New-NAVServerPermission](New-NAVServerPermission.md)
 
-[Remove-NAVServerPermission](Remove-NAVServerPermission.md)  
+[Get-NAVServerPermission](Get-NAVServerPermission.md)
 
-[Set-NAVServerPermission](Set-NAVServerPermission.md)  
+[Remove-NAVServerPermission](Remove-NAVServerPermission.md)
+
+[Set-NAVServerPermission](Set-NAVServerPermission.md)

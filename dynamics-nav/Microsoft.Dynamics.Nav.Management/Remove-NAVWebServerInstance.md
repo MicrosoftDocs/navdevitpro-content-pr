@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=517208
 schema: 2.0.0
 ---
 
@@ -89,6 +89,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ### System.String
@@ -100,8 +103,9 @@ You can pipe a string that contains a Microsoft Dynamics NAV Web Server instance
 
 ## NOTES
 ## RELATED LINKS
-[Get-NAVWebServerInstance](Get-NAVWebServerInstance.md)  
 
-[New-NAVWebServerInstance](New-NAVWebServerInstance.md)  
+[Get-NAVWebServerInstance](Get-NAVWebServerInstance.md)
 
-[Set-NAVWebServerInstanceConfiguration](Set-NAVWebServerInstanceConfiguration.md)  
+[New-NAVWebServerInstance](New-NAVWebServerInstance.md)
+
+[Set-NAVWebServerInstanceConfiguration](Set-NAVWebServerInstanceConfiguration.md)
