@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Apps.Tools.dll-Help.xml
-online version:
+online version: http://go.microsoft.com/fwlink?linkid=398882 
 schema: 2.0.0
 ---
 
@@ -21,16 +21,11 @@ Compare-NAVAppApplicationObjectLanguage [-OriginalPath] <String[]> [-ModifiedPat
 Use the Compare-NAVAppApplicationObjectLanguage cmdlet to calculate the delta between an original version and modified version of language text files.
 The resulting delta language text files can then be included in a NAV App package by using the New-NAVAppPackage cmdlet.
 
-        The Compare-NAVAppApplicationObjectLanguage cmdlet compares all of the language text files in the two specified folders and creates a delta language text file per object that includes the differences.
-The language text files to compare must be in the format of exported multilanguage files created by using the Export-NAVApplicationObjectLanguage cmdlet or the Microsoft Dynamics NAV Development Environment.
-You can compare two language text files that contain multiple application objects or multiple language text files containing a single object, or any combination therein.
-The cmdlet will compare the translations for all objects across all of the language text files in the specified folders.
-The cmdlet creates a language text file per object that includes all of the translated *ML properties and text constants (deltas) for that object.
+The Compare-NAVAppApplicationObjectLanguage cmdlet compares all of the language text files in the two specified folders and creates a delta language text file per object that includes the differences. The language text files to compare must be in the format of exported multilanguage files created by using the Export-NAVApplicationObjectLanguage cmdlet or the Microsoft Dynamics NAV Development Environment. You can compare two language text files that contain multiple application objects or multiple language text files containing a single object, or any combination therein. The cmdlet will compare the translations for all objects across all of the language text files in the specified folders.
 
-        For example, you export the text strings for the Microsoft Dynamics NAV objects that you will be providing translations for to text files in a MLORIGINAL folder.
-You then put a copy of the exported text file into a MLMODIFIED folder and add your translated strings directly to the file.
-You then use the Compare-NAVAppApplicationObjectLanguage cmdlet to compare the language text files in the MLORIGINAL and MLMODIFIED folders, saving the resulting delta language text files to a MLDELTA folder.
-Then when using the NEW-NAVAppPackage cmdlet to create the NAV App package, the MLDELTA folder is provided for the -SourcePath parameter.
+The cmdlet creates a language text file per object that includes all of the translated \*ML properties and text constants (deltas) for that object. For example, you export the text strings for the Microsoft Dynamics NAV objects that you will be providing translations for to text files in a MLORIGINAL folder. You then put a copy of the exported text file into a MLMODIFIED folder and add your translated strings directly to the file.
+
+You then use the Compare-NAVAppApplicationObjectLanguage cmdlet to compare the language text files in the MLORIGINAL and MLMODIFIED folders, saving the resulting delta language text files to a MLDELTA folder. Then when using the New-NAVAppPackage cmdlet to create the NAV App package, the MLDELTA folder is provided for the -SourcePath parameter.
 
 ## EXAMPLES
 
@@ -42,10 +37,6 @@ Compare-NAVAppApplicationObjectLanguage -OriginalPath /MLORIGINAL -ModifiedPath 
           Table 70006: Modified
 ```
 
-Description
-
------------
-
 This example compares the language text files in the MLORIGINAL and MLMODIFIED folders, creating the resulting delta language text files in the MLDELTA folder.
 When the comparison completes, a summary is shown.
 
@@ -56,10 +47,6 @@ Compare-NAVAppApplicationObjectLanguage -OriginalPath /MLORIGINAL -ModifiedPath 
           Page 70001: Added
           Table 70006: Modified
 ```
-
-Description
-
------------
 
 This example compares the language text files in the MLORIGINAL and MLMODIFIED folders, creating the resulting delta language text files in the MLDELTA folder.
 The -Confirm parameter specifies that the user must confirm the process.
@@ -73,10 +60,6 @@ Compare-NAVAppApplicationObjectLanguage -OriginalPath /MLORIGINAL -ModifiedPath 
           Table 70006: Modified
 ```
 
-Description
-
------------
-
 This example compares the language text files in the MLORIGINAL and MLMODIFIED folders, creating the resulting delta language text files in the MLDELTA folder.
 The -Force parameter specifies that an existing file in the delta folder with the same name will be overwritten without prompting the user.
 When the comparison completes, a summary is shown.
@@ -88,10 +71,6 @@ Compare-NAVAppApplicationObjectLanguage -OriginalPath /MLORIGINAL -ModifiedPath 
           Page 70001: Added
           Table 70006: Modified
 ```
-
-Description
-
------------
 
 This example compares the language text files in the MLORIGINAL and MLMODIFIED folders, creating the resulting delta language text files in the MLDELTA folder.
 The -PassThru parameter returns a FileInfo object for each delta language file that is created by the comparison.
@@ -190,9 +169,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ## OUTPUTS
 
 ## NOTES
-## RELATED LINKS
+## RELATED LINKS 
+ 
+[New-NAVAppPackage](New-NAVAppPackage.md)

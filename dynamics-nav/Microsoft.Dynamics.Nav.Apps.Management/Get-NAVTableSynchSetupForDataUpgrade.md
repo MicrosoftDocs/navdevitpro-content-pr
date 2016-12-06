@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Apps.Management.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -16,7 +16,8 @@ Get-NAVTableSynchSetupForDataUpgrade [-Tenant <String>] [-ServerInstance] <Strin
 ```
 
 ## DESCRIPTION
-Use the Get-NAVTableSynchSetupForDataUpgrade cmdlet to get information about tables that will be added, modified, or removed during a tenant data upgrade. 
+Use the Get-NAVTableSynchSetupForDataUpgrade cmdlet to get information about tables that will be added, modified, or removed during a tenant data upgrade.
+
 The list of table changes is specific to the given tenant and will contain the unsynchronized changes between the tenant and application databases.
 
 ## EXAMPLES
@@ -45,21 +46,17 @@ Get-NAVTableSynchSetupForDataUpgrade -ServerInstance DynamicsNAV91 -Tenant 'Tena
           Indexes and Changes       :
 ```
 
-Description
-
------------
-
-This example returns the table modifications of a data upgrade for the tenant with the ID 'Tenant1' on the DynamicsNAV91 server instance.
+This example returns the table modifications of a data upgrade for the tenant with the ID 'Tenant1' on the DynamicsNAV server instance.
 
 ## PARAMETERS
 
 ### -ServerInstance
-Specifies the Microsoft Dynamics NAV Server instance, such as DynamicsNAV91.
+Specifies the Microsoft Dynamics NAV Server instance, such as DynamicsNAV.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -84,10 +81,12 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ## OUTPUTS
 
 ## NOTES
 ## RELATED LINKS
-

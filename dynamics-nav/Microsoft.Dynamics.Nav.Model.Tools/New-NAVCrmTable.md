@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Model.Tools.dll-Help.xml
-online version: 
+online version:
 schema: 2.0.0
 ---
 
@@ -68,10 +68,6 @@ PS C:\>New-NavCrmTable -Server myserver.crm.dynamics.com -Credential (Get-Creden
           Modified    : False
 ```
 
-Description
-
------------
-
 This example creates two Microsoft Dynamics NAV table objects based on the account and contact entities in Microsoft Dynamics CRM.
 
 ## PARAMETERS
@@ -82,7 +78,7 @@ Specifies a user name and password for accessing Microsoft Dynamics CRM.
 ```yaml
 Type: PSCredential
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 3
@@ -100,7 +96,7 @@ For connecting to Microsoft Dynamics CRM Online, the format is typically scheme:
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 2
@@ -118,7 +114,7 @@ Each entity logical name must have a corresponding value in the ObjectID paramet
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 4
@@ -129,12 +125,12 @@ Accept wildcard characters: False
 
 ### -Force
 Specifies that existing files of the same name in the OutputPath folder are to be overwritten.
-Forces the command to run without asking for user confirmation..
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -155,7 +151,7 @@ If you do not specify names, then the tables get the entity logical names as spe
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -173,7 +169,7 @@ Each ID must have a corresponding value in the EntityLogicalName parameter, and 
 ```yaml
 Type: Int32[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 5
@@ -189,7 +185,7 @@ If the folder path does not already exist, it will be created.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -235,7 +231,7 @@ Accept wildcard characters: False
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -251,4 +247,3 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
-

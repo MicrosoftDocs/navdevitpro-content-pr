@@ -8,7 +8,11 @@ Locale: en-US
 
 # Microsoft.Dynamics.Nav.Model.Tools Module
 ## Description
-The Dynamics NAV 2016 Development Shell includes cmdlets for merging and modifying application object files. Also included are cmdlets for creating extension packages. The Microsoft Dynamics NAV 2016 Development Shell is installed with the Microsoft Dynamics NAV Development Environment.
+The [!INCLUDE[nav_dev_shell_md](../includes/nav_dev_shell_md.md)] includes cmdlets for merging and modifying application object files. These cmdlets are included in the Microsoft.Dynamics.Nav.Model.Tools module that is installed as part of the [!INCLUDE[nav_dev_shell_md](../includes/nav_dev_shell_md.md)] when you install the [!INCLUDE[nav_dev_long_md](../includes/nav_dev_long_md.md)].
+
+>[!NOTE]
+>Also included in the [!INCLUDE[nav_dev_shell_md](../includes/nav_dev_shell_md.md)] are cmdlets for creating extension packages. For more information about these cmdlets, see [Microsoft.Dynamics.Nav.Apps.Tools](../Microsoft.Dynamics.Nav.Apps.Tools/Microsoft.Dynamics.Nav.Apps.Tools.md).
+
 
 ## Microsoft.Dynamics.Nav.Model.Tools Cmdlets
 ### [Compare-NAVApplicationObject](Compare-NAVApplicationObject.md)

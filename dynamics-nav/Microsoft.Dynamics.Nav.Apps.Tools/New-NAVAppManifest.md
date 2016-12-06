@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Apps.Tools.dll-Help.xml
-online version: 
+online version: https://go.microsoft.com/fwlink/?linkid=616071
 schema: 2.0.0
 ---
 
@@ -47,10 +47,6 @@ New-NavAppManifest -Name "Proseware SmartApp" -Publisher "Proseware, Inc." -Desc
                     Dependencies       : {}
 ```
 
-Description
-
------------
-
 This example creates a new in-memory manifest object with the provided property values and defaults for properties not provided.
 
 ### Example 2
@@ -75,20 +71,12 @@ New-NavAppManifest -Name "Proseware SmartApp" -Publisher "Proseware, Inc." -Brie
                     Dependencies       : {SmartApp Base, Proseware Inc., 2.0.0.300, Proseware Base, Proseware Inc, 2.0.0.0}
 ```
 
-Description
-
------------
-
 This example creates a new in-memory manifest object with values provided for all properties.
 
 ### Example 3
 ```
 New-NavAppManifest -Name "Proseware SmartApp" -Publisher "Proseware, Inc." -Description "First NAV App by Proseware" | New-NavAppManifestFile -Path ".\Manifest-Proseware SmartApp.xml"
 ```
-
-Description
-
------------
 
 This example uses New-NAVAPPManifestFile cmdlet to persist the new in-memory manifest to a file.
 This can then be saved under source control for later use.
@@ -97,10 +85,6 @@ This can then be saved under source control for later use.
 ```
 New-NAVAppManifest -Name "Proseware SmartApp" -Publisher "Proseware, Inc." -Description "First NAV App by Proseware" | New-NAVAppPackage -Path 'C:\Proseware SmartApp.navx' -SourcePath C:\NavAppFiles
 ```
-
-Description
-
------------
 
 This example shows how to pass the in-memory manifest to New-NAVAppPackage cmdlet to get a .navx file.
 
@@ -210,7 +194,7 @@ Use a comma (,) to separate the paths to multiple .navx files., such as in the f
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -227,7 +211,7 @@ Use a comma (,) to separate the prerequisites, such as in the following example:
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -311,6 +295,9 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ## OUTPUTS
@@ -319,4 +306,10 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
+[Get-NAVAppManifest](Get-NAVAppManifest.md)
 
+[New-NavAppManifestFile](New-NAVAppManifestFile.md)  
+
+[NEW-NAVAppPackage](New-NAVAppPackage.md)  
+
+[Set-NAVAppManifest](Set-NAVAppManifest.md)

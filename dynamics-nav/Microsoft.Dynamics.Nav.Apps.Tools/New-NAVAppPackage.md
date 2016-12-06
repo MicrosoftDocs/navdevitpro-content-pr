@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Apps.Tools.dll-Help.xml
-online version: 
+online version: https://go.microsoft.com/fwlink/?linkid=616078
 schema: 2.0.0
 ---
 
@@ -27,10 +27,6 @@ You can then use the package file to deploy the NAV App to a Microsoft Dynamics 
 New-NavAppManifest -Name 'Proseware SmartApp' -Publisher 'Proseware, Inc.' -Version 2.3.4.500 | New-NAVAppPackage -Path 'C:\Proseware SmartApp.navx' -SourcePath 'C:\NavAppFiles'
 ```
 
-Description
-
------------
-
 This example creates a new NAV App package using new in-memory NAV App manifest metadata and the source files in the C:\NavAppFiles folder.
 
 ### Example 2
@@ -38,31 +34,19 @@ This example creates a new NAV App package using new in-memory NAV App manifest 
 Get-NAVAppManifest -Path '.\Manifest-Proseware SmartApp.xml' | New-NAVAppPackage -Path 'C:\Proseware SmartApp.navx' -SourcePath 'C:\NavAppFiles'
 ```
 
-Description
-
------------
-
 This example creates a new NAV App package using the NAV App manifest file and source files in the C:\NavAppFiles folder.
 
 ### Example 3
 ```
-Get-NAVApApManifest -Path '.\Manifest-Proseware SmartStuff.xml' | New-NAVAppPackage -Path 'C:\Proseware SmartStuff.navx' -SourcePath C:\NavAppFiles, 'C:\permissions.xml'
+Get-NAVAppManifest -Path '.\Manifest-Proseware SmartStuff.xml' | New-NAVAppPackage -Path 'C:\Proseware SmartStuff.navx' -SourcePath C:\NavAppFiles, 'C:\permissions.xml'
 ```
-
-Description
-
------------
 
 This example creates a new NAV App package using the NAV App manifest file and source files in the C:\NavAppFiles folder and an exported permission set file in the location provided.
 
 ### Example 4
 ```
-Get-NAVApApManifest -Path '.\Manifest-Proseware SmartStuff.xml' | New-NAVAppPackage -Path 'C:\Proseware SmartStuff.navx' -SourcePath C:\NavAppFiles, 'C:\permissions.xml' -Logo C:\SmartLogo.png -ScreenShots C:\SmartScreenShots
+Get-NAVAppManifest -Path '.\Manifest-Proseware SmartStuff.xml' | New-NAVAppPackage -Path 'C:\Proseware SmartStuff.navx' -SourcePath C:\NavAppFiles, 'C:\permissions.xml' -Logo C:\SmartLogo.png -ScreenShots C:\SmartScreenShots
 ```
-
-Description
-
------------
 
 This example creates a new NAV App package using the NAV App manifest file and source files in the C:\NavAppFiles folder, an exported permission set file in the location provided, a logo image in the location provided, and screen shot images files in the C:\SmartScreenShots folder.
 
@@ -74,7 +58,7 @@ Forces the command to run without asking for user confirmation to overwrite an e
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -89,7 +73,7 @@ Specifies the path to and image file to use as the logo when creating this Nav A
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 5
@@ -105,7 +89,7 @@ You can pass this object from the New-NAVAppManifest or Get-NAVAppManifest cmdle
 ```yaml
 Type: NavAppManifest
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 3
@@ -120,7 +104,7 @@ Returns the path of the created package file.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -152,7 +136,7 @@ Use a comma (,) to separate multiple paths.
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: 6
@@ -168,7 +152,7 @@ Use a comma (,) to separate multiple paths as in the following example: C:\NavAp
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 4
@@ -207,10 +191,15 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ## OUTPUTS
 
 ## NOTES
 ## RELATED LINKS
+[Get-NAVAppManifest](Get-NAVAppManifest.md)
 
+[New-NAVAppManifest](New-NAVAppManifest.md)

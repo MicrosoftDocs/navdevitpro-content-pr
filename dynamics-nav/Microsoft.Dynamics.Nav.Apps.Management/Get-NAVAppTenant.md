@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Apps.Management.dll-Help.xml
-online version: 
+online version: https://go.microsoft.com/fwlink/?linkid=616076
 schema: 2.0.0
 ---
 
@@ -22,8 +22,8 @@ Get-NAVAppTenant [-ServerInstance] <String> -Path <String>
 ```
 
 ## DESCRIPTION
-Use the Get-NAVAppTenant cmdlet to get the tenants where the specified NAV App is installed.
-You can specify the NAV App by name, publisher, or version.
+Use the Get-NAVAppTenant cmdlet to get the tenants where the specified NAV App is installed. You can specify the NAV App by name, publisher, or version.
+
 You can use the returned list of tenants to apply general changes, such as uninstalling the NAV App for all tenants that currently have it installed.
 
 ## EXAMPLES
@@ -39,20 +39,12 @@ Get-NavAppTenant -ServerInstance DynamicsNAV90 -Name 'ProseWare SmartApp' -Versi
           Tenant4               Mounted
 ```
 
-Description
-
------------
-
 This example gets the tenants on the DynamicsNAV90 server instance that have the version 2.3.4.500 of the Proseware SmartApp installed.
 
 ### EXAMPLE 2
 ```
 Get-NavAppTenant -ServerInstance DynamicsNAV90 -Name 'ProseWare SmartApp' -Version 2.3.4.500 | Uninstall-NAVApp -ServerInstance DynamicsNAV90 -Name 'Proseware SmartApp' -Version 2.3.4.500
 ```
-
-Description
-
------------
 
 This example gets the tenants on the DynamicsNAV90 server instance that have the version 2.3.4.500 of the Proseware SmartApp installed and then uninstalls that NAV App for each of those tenants by passing the tenants to the Uninstall-NAVApp cmdlet.
 
@@ -79,7 +71,7 @@ Specifies the path to a NAV App package file for the NAV App that you want to se
 ```yaml
 Type: String
 Parameter Sets: Path
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -104,12 +96,12 @@ Accept wildcard characters: False
 ```
 
 ### -ServerInstance
-Specifies the Microsoft Dynamics NAV server instance that the NAV App is deployed to, such as DynamicsNAV90.
+Specifies the Microsoft Dynamics NAV server instance that the NAV App is deployed to, such as DynamicsNAV.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -133,10 +125,17 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ## OUTPUTS
 
 ## NOTES
 ## RELATED LINKS
+[Install-NAVApp](Install-NAVApp.md)  
 
+[Publish-NAVApp](Publish-NAVApp.md)  
+
+[Get-NAVAppInfo](Get-NAVAppInfo.md)  

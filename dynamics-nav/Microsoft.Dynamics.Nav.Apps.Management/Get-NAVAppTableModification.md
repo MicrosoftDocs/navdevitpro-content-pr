@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Apps.Management.dll-Help.xml
-online version: 
+online version: https://go.microsoft.com/fwlink/?linkid=827845
 schema: 2.0.0
 ---
 
@@ -24,6 +24,7 @@ Get-NAVAppTableModification -Tenant <String> [-ServerInstance] <String>
 
 ## DESCRIPTION
 Use the Get-NAVAppTableModifications cmdlet to get information about tables modified or added by  one or more Extension that have been deployed.
+
 The list of deployed Extensions can include all Extensions that have been published to a Microsoft Dynamics NAV Server instance, filtered by Extension properties, or Extensions that are installed for a specific tenant.
 
 ## EXAMPLES
@@ -49,10 +50,6 @@ Get-NavAppTableModifications -ServerInstance DynamicsNAV91
           Dependencies   : {SmartApp Base}
 ```
 
-Description
-
------------
-
 This example returns table modifications from all of the Extensions published on the DynamicsNAV91 server instance.
 
 ### EXAMPLE 2
@@ -67,10 +64,6 @@ Get-NavAppTableModifications -ServerInstance DynamicsNAV91 -Name 'Proseware Smar
           TablesAdded    : {42002}
           Dependencies   : {SmartApp Base}
 ```
-
-Description
-
------------
 
 This example returns table modifications from the Extension with the specified name and version on the DynamicsNAV91 server instance.
 
@@ -95,10 +88,6 @@ Get-NavAppTableModifications -ServerInstance DynamicsNAV91 -Publisher 'Proseware
           Dependencies   : {SmartApp Base}
 ```
 
-Description
-
------------
-
 This example returns table modifications from the Extensions on the DynamicsNAV91 server instance that are published by Proseware, Inc.
 
 ### EXAMPLE 4
@@ -113,10 +102,6 @@ Get-NavAppTableModifications -ServerInstance DynamicsNAV91 -Tenant 'Tenant1'
           TablesAdded    : {42002}
           Dependencies   : {SmartApp Base}
 ```
-
-Description
-
------------
 
 This example returns table modifications from the Extensions installed for Tenant1 on the DynamicsNAV91 server instance.
 
@@ -133,18 +118,12 @@ Get-NavAppTableModifications -ServerInstance DynamicsNAV91 -Tenant default
           Dependencies   : {SmartApp Base}
 ```
 
-Description
-
------------
-
 This example returns table modifications from the Extensions installed in a single tenant NAV server instance.
 
 ## PARAMETERS
 
 ### -CompatibilityId
-Specifies the compatibility ID of the Extension.
-The compatibility ID is a version string in the format of  Major.Minor.Build.Revision such as 1.0.0.0.
-The value is used to indicate if there are compatibility-related code changes between different versions of the Extension.
+Specifies the compatibility ID of the Extension. The compatibility ID is a version string in the format of  Major.Minor.Build.Revision such as 1.0.0.0. The value is used to indicate if there are compatibility-related code changes between different versions of the Extension.
 
 ```yaml
 Type: Version
@@ -209,7 +188,7 @@ Specifies the Microsoft Dynamics NAV Server instance to which the Extension is d
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -219,8 +198,7 @@ Accept wildcard characters: False
 ```
 
 ### -Tenant
-Specifies the ID of the tenant whose installed Extensions you want to get table modifications for, such as Tenant1.
-Provide a value of 'default' if the specified server instance is not configured to run multiple tenants.
+Specifies the ID of the tenant whose installed Extensions you want to get table modifications for, such as Tenant1. Provide a value of 'default' if the specified server instance is not configured to run multiple tenants.
 
 ```yaml
 Type: String
@@ -249,10 +227,17 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ## OUTPUTS
 
 ## NOTES
 ## RELATED LINKS
+[Install-NAVApp](Install-NAVApp.md)  
 
+[Publish-NAVApp](Publish-NAVApp.md)  
+
+[Get-NAVTableSynchSetupForDataUpgrade](Get-NAVTableSynchSetupForDataUpgrade.md)  
