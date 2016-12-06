@@ -13,6 +13,8 @@ ms.author: solsen
 ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 ---
 
+[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/newdev_dev_preview.md)]
+
 # Using the Dynamics NAV In-Client Designer
 
 With the [!INCLUDE[navnow_md](includes/navnow_md.md)] in-client designer, you can create extensions using drag-and-drop inside the client. With this preview of the in-client designer, you can:
@@ -28,13 +30,15 @@ With the [!INCLUDE[navnow_md](includes/navnow_md.md)] in-client designer, you ca
 
 The in-client designer is switched on by choosing the design icon in the ribbon top right corner from any page that you want to make modifications to, and then choose **More**. In design mode you modify the current page; you can add new and existing table fields, move fields around, or remove fields from the page.
        
-    **Note**: With this preview you can only add new and existing table fields. Adding pages and actions is not yet supported.
+> [!NOTE]  
+> With this preview you can only add new and existing table fields. Adding pages and actions is not yet supported.
 
 Use the add field functionality to add a field to the page. You will get a pane to the right where you can see all of the table fields that are available for the specific page. The table fields displayed are based on the underlying table or tables. The field can have a status of **Placed**, which means that the field already exists on the page. A status of **Ready** means that the field doesn't already exist on the page, and that you can place it.
  
 If you want to add a new field, use the plus sign in the right pane and a wizard will guide you through that process. The field is now available and has a status of **Ready**.
 
-    **Note:** When you have finished the wizard, you have to search to find the new field. 
+> [!NOTE]  
+> When you have finished the wizard, you have to search to find the new field. 
 
 ## Other things to be aware of
 When you modify subpages on a given page, a square is displayed to mark the area that you can move a field within. This is also true for FactBoxes.
