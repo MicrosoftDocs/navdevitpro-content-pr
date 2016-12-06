@@ -3,7 +3,7 @@ title: "Keyboard Shortcuts for the New Development Environment"
 description: "List of keyboard shortcuts for the new development environment."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/04/2016
+ms.date: 12/06/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -42,6 +42,7 @@ The following table provides an overview of some of the shortcut key combination
 |F5|Deploy|
 
 ## See Also
+[Getting Started](newdev-get-started.md)
 [Developer Reference](newdev-reference-overview.md)
 
 

@@ -3,7 +3,7 @@ title: "Developing Extensions Using the New Development Environment"
 description: "Overview of the new development experience."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 11/30/2016
+ms.date: 12/06/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -13,7 +13,9 @@ ms.author: solsen
 ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 ---
 
-# Developing Extensions for Dynamics NAV Overview
+[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/newdev_dev_preview.md)]
+
+# Developing Extensions Using the New Development Environment
 
 Developing for [!INCLUDE[navnow_md](includes/navnow_md.md)] is done by creating an extension to a [!INCLUDE[navnow_md](includes/navnow_md.md)] solution. Extensions are a programming model where functionality is defined as an addition to existing objects and defines how they are different or modify the behaviour of the solution.
 You might already be familiar with the extension model working with [!INCLUDE[navnow_md](includes/navnow_md.md)]. For more information, see [Extending Microsoft Dynamics NAV Using Extension Packages](extending-microsoft-dynamics-nav-using-extension-packages.md).
@@ -28,7 +30,8 @@ If you're new to building extensions for [!INCLUDE[navnow_md](includes/navnow_md
 ## Understanding Objects in Dynamics NAV
 All functionality in [!INCLUDE[navnow_md](includes/navnow_md.md)] is coded in an object. Table objects define the table schema that holds data, Page objects represent the pages seen in the user interface and codeunits contain code for logical calculations and for the application behavior. These objects are stored as code, known as AL code, and are saved in files with the ```.al``` file extension.  
 
-    **Note:** A single .al file may contain multiple objects.      
+> [!NOTE]  
+> A single .al file may contain multiple objects.      
 
 There are two other special objects which are specifically used for building extensions. Table Extension objects and Page Extension Objects are used for defining additive or overriding changes to Page or Table objects. For example, an extension for managing a business that sells organic food may define a Table Extension object for the Item table that contains an additional field ```Organic``` and ```Produced Locally```. The ```Organic``` and ```Produced Locally``` fields aren't usually present in the Item table, but through the Table Extension these data fields will now be available to store data in and to access from code.
 
@@ -64,7 +67,7 @@ The changes from the [!INCLUDE[navnow_md](includes/navnow_md.md)] language and A
 - [Page Extension Object](newdev-page-ext-object.md)
 - [Codeunit Object](newdev-codeunit-object.md)
 
-For information about AL language changes, see [Differences from the Dynamics NAV Development Environment](newdev-differences.md)
+For information about AL language changes, see [Differences in the Dynamics NAV Development Environments](newdev-differences.md)
 
 ## In-client designer
 The in-client designer works in the client itself allowing design of pages using a drag-and-drop interface. The in-client designer allows building extensions in the client itself by rearranging fields, adding existing fields, and previewing the page design. For more information, see [Using the Dynamics NAV In-Client Designer](newdev-inclient-designer.md).
@@ -73,6 +76,9 @@ The in-client designer works in the client itself allowing design of pages using
 Extensions are compiled as .navm package files. The .navm package file can be deployed to the [!INCLUDE[nav_server_md](includes/nav_server_md.md)]. A .navm package contains the various artifacts that deliver the new functionality to the [!INCLUDE[navnow_md](includes/navnow_md.md)] deployment as well as a manifest that specifies the name, publisher, version, and other attributes of the extension.
 
 ## See Also
-[Getting Started](newdev-get-started.md)
-[Keyboard Shortcuts](newdev-keyboard-shortcuts.md)  
+[Getting Started](newdev-get-started.md)  
+[Keyboard Shortcuts](newdev-keyboard-shortcuts.md)    
 [Developer Reference](newdev-reference-overview.md)
+[Extending Microsoft Dynamics NAV Using Extension Packages](extending-microsoft-dynamics-nav-using-extension-packages.md)  
+[Development](development.md)
+

@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Apps.Tools.dll-Help.xml
-online version: https://go.microsoft.com/fwlink/?linkid=398882 
+online version: http://go.microsoft.com/fwlink?linkid=398882 
 schema: 2.0.0
 ---
 
@@ -177,7 +177,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
-## RELATED LINKS
-[Export-NAVApplicationObjectLanguage](../Microsoft.Dynamics.Nav.Model.Tools/Export-NAVApplicationObjectLanguage.md)  
-
+## RELATED LINKS 
+ 
 [New-NAVAppPackage](New-NAVAppPackage.md)
