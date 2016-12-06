@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=401354
 schema: 2.0.0
 ---
 
@@ -231,6 +231,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ### System.String
@@ -250,8 +253,9 @@ If the InputObject parameter has been bound to a value, it will be passed throug
 ## NOTES
 
 ## RELATED LINKS
-[Mount-NAVTenant](Mount-NAVTenant.md)  
 
-[Get-NAVTenant](Get-NAVTenant.md)  
+[Mount-NAVTenant](Mount-NAVTenant.md)
 
-[Sync-NAVTenant](Sync-NAVTenant.md)  
+[Get-NAVTenant](Get-NAVTenant.md)
+
+[Sync-NAVTenant](Sync-NAVTenant.md)
