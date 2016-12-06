@@ -174,7 +174,8 @@ AlternateId
 AllowAppDatabaseWrite  
 NasServicesEnabled  
 DefaultCompany  
-DefaultTimeZone  
+DefaultTimeZone
+ExchangeAuthenticationMetadataLocation  
 
 ## NOTES
 ## RELATED LINKS
