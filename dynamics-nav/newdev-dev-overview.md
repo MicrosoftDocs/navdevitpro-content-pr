@@ -33,7 +33,7 @@ All functionality in [!INCLUDE[navnow_md](includes/navnow_md.md)] is coded in ob
 > [!NOTE]  
 > A single .al file may contain multiple objects.      
 
-There are two other special objects which are specifically used for building extensions. Table Extension objects and Page Extension Objects are used for defining additive or overriding changes to Page or Table objects. For example, an extension for managing a business that sells organic food may define a Table Extension object for the Item table that contains an additional field ```Organic``` and ```Produced Locally```. The ```Organic``` and ```Produced Locally``` fields aren't usually present in the Item table, but through the Table Extension these data fields will now be available to store data in and to access from code.
+There are two other special objects which are specifically used for building extensions. Table extension objects and page extension objects are used for defining additive or overriding changes to page or table objects. For example, an extension for managing a business that sells organic food may define a table extension object for the Item table that contains an additional field ```Organic``` and ```Produced Locally```. The ```Organic``` and ```Produced Locally``` fields aren't usually present in the Item table, but through the table extension these data fields will now be available to store data in and to access from code.
 
 For more information, see [Page Extension Object](newdev-page-ext-object.md) and [Table Extension Object](newdev-table-ext-object.md).
 
@@ -70,7 +70,7 @@ The changes from the existing [!INCLUDE[navnow_md](includes/navnow_md.md)] langu
 For information about AL language changes, see [Differences in the Dynamics NAV Development Environments](newdev-differences.md)
 
 ## In-client designer
-The in-client designer works in the client itself allowing design of pages using a drag-and-drop interface. The in-client designer allows building extensions in the client itself by rearranging fields, adding existing fields, and previewing the page design. For more information, see [Using the Dynamics NAV In-Client Designer](newdev-inclient-designer.md).
+The in-client designer works in the client itself allowing design of pages using a drag-and-drop interface. The in-client designer allows building extensions in the client itself by rearranging fields, adding fields, and previewing the page design. For more information, see [Using the Dynamics NAV In-Client Designer](newdev-inclient-designer.md).
 
 ## Compiling and deploying
 Extensions are compiled as .navm package files. The .navm package file can be deployed to the [!INCLUDE[nav_server_md](includes/nav_server_md.md)]. A .navm package contains the various artifacts that deliver the new functionality to the [!INCLUDE[navnow_md](includes/navnow_md.md)] deployment as well as a manifest that specifies the name, publisher, version, and other attributes of the extension.

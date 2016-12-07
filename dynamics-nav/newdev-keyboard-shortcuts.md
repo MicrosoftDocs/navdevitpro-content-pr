@@ -23,23 +23,22 @@ The following table provides an overview of some of the shortcut key combination
 |Ctrl+X|Cut|
 |Ctrl+C|Copy|
 |Ctrl+V|Paste|
-|Ctrl+F2|Change all occurrences|
+|Ctrl+F2|Select all occurrences|
 |F12|Go to definition|
 |Alt+F12|Peek definition|
 |Shift+F12|Find all references|
-|Ctrl+Shift+Space|Method signature help|
+|Ctrl+Shift+Space|Look up parameter hints|
 
 ## Debug
 |Keyboard Shortcut| Action|
 |----|----|
-|F8|Move to the next error|
-|Shift+F8|Move to the previous error|
+|F8|Move to the next error or warning|
+|Shift+F8|Move to the previous error or warning|
 
-## Compile and deploy
+## Compile
 |Keyboard Shortcut| Action|
 |----|----|
 |Ctrl+Shift+B|Compile and build the solution|
-|F5|Deploy|
 
 ## See Also
 [Getting Started](newdev-get-started.md)
