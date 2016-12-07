@@ -29,10 +29,10 @@ Exports data from a Dynamics NAV database table to file.
 ### [Export-NAVAppTenantWebService](Export-NAVAppTenantWebService.md)
 Exports the specified web service from a Dynamics NAV database to a file.
 
-### [Get-NAVAppManifest](Get-NAVAppManifest.md)
+### [Get-NAVAppManifest](https://go.microsoft.com/fwlink/?linkid=616072)
 Loads a manifest for an NAV App from an external source.
 
-### [New-NAVAppManifest](New-NAVAppManifest.md)
+### [New-NAVAppManifest](https://go.microsoft.com/fwlink/?linkid=616071)
 Creates a new in-memory manifest object with the specified NAV App metadata.
 
 ### [New-NAVAppManifestFile](New-NAVAppManifestFile.md)
@@ -41,5 +41,5 @@ Creates a file with metadata for a NAV App package.
 ### [New-NAVAppPackage](New-NAVAppPackage.md)
 Creates a NAV App package file (.navx) at the specified location based on the specified manifest file and source files.
 
-### [Set-NAVAppManifest](Set-NAVAppManifest.md)
+### [Set-NAVAppManifest](https://go.microsoft.com/fwlink/?linkid=616073)
 Sets one or more available properties on an in-memory manifest.

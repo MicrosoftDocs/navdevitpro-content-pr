@@ -306,10 +306,11 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## NOTES
 ## RELATED LINKS
+
 [Get-NAVAppManifest](Get-NAVAppManifest.md)
 
-[New-NavAppManifestFile](New-NAVAppManifestFile.md)  
+[New-NavAppManifestFile](New-NavAppManifestFile.md)
 
-[NEW-NAVAppPackage](New-NAVAppPackage.md)  
+[New-NAVAppPackage](New-NAVAppPackage.md)
 
 [Set-NAVAppManifest](Set-NAVAppManifest.md)

@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Model.Tools.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=398886
 schema: 2.0.0
 ---
 
@@ -326,6 +326,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ## OUTPUTS
@@ -337,4 +340,4 @@ Otherwise, this cmdlet does not generate any output.
 ## NOTES
 
 ## RELATED LINKS
-[Compare-NAVApplicationObject](Compare-NAVApplicationObject.md)  
+[Compare-NAVApplicationObject](Compare-NAVApplicationObject.md)

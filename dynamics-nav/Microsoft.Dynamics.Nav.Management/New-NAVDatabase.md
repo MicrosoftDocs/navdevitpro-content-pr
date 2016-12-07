@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version: 
+online version: https://go.microsoft.com/fwlink/?linkid=401374
 schema: 2.0.0
 ---
 
@@ -82,7 +82,7 @@ Specifies the name of the SQL Server instance that the database is restored to.
 ```yaml
 Type: DatabaseInstance
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -97,7 +97,7 @@ Specifies the name that you want to use for the restored database.
 ```yaml
 Type: DatabaseName
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: Named
@@ -112,7 +112,7 @@ Specifies the name of the computer that is running SQL Server.
 ```yaml
 Type: DatabaseServer
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -135,7 +135,7 @@ If you specify the local computer for the DatabaseServer parameter, then if the 
 ```yaml
 Type: String
 Parameter Sets: MultipleDestinations
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -155,7 +155,7 @@ If you specify the local computer for the DatabaseServer parameter, then if the 
 ```yaml
 Type: String
 Parameter Sets: SingleDestination
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -171,7 +171,7 @@ The backup file must be located on the same computer as SQL Server.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 1
@@ -194,7 +194,7 @@ If you specify the local computer for the DatabaseServer parameter, then if the 
 ```yaml
 Type: String
 Parameter Sets: MultipleDestinations
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -211,7 +211,7 @@ For more information, see "Provisioning the Microsoft Dynamics NAV Server Accoun
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -226,7 +226,7 @@ The time (in seconds) to wait before terminating an attempt to execute a command
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -271,7 +271,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: False
 Position: Named
@@ -279,6 +279,9 @@ Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -288,4 +291,3 @@ Accept wildcard characters: False
 
 ## NOTES
 ## RELATED LINKS
-
