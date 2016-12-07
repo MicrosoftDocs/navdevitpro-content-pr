@@ -39,6 +39,7 @@ The following table provides an overview of some of the shortcut key combination
 |Keyboard Shortcut| Action|
 |----|----|
 |Ctrl+Shift+B|Compile and build the solution|
+|F5|Build and deploy|
 
 ## See Also
 [Getting Started](newdev-get-started.md)
