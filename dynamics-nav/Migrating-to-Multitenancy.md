@@ -47,7 +47,7 @@ You can choose to migrate your [!INCLUDE[navnow](includes/navnow_md.md)] solutio
 ## See Also  
  [Separating Application Data from Business Data](Separating-Application-Data-from-Business-Data.md)   
  [Creating Tenants from Companies](Creating-Tenants-from-Companies.md)   
- [Upgrading the Application Code-duplicate](Upgrading-the-Application-Code.md)   
+ [Upgrading the Application Code](Upgrading-the-Application-Code.md)   
  [Upgrading the Data](Upgrading-the-Data.md)   
  [Upgrading to Microsoft Dynamics NAV 2017](Upgrading-to-Microsoft-Dynamics-NAV-2017.md)   
  [Merging an Application Database with a Tenant Database](Merging-an-Application-Database-with-a-Tenant-Database.md)

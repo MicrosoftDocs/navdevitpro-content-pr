@@ -95,7 +95,7 @@ The following topic lists properties that apply to the table object.
 
 -   [Description Property](Description-Property.md)  
 
--   [Editable Property-duplicate](Editable-Property.md)  
+-   [Editable Property](Editable-Property.md)  
 
 -   [Enabled Property](Enabled-Property.md)  
 
@@ -152,7 +152,7 @@ The following topic lists properties that apply to the table object.
 
 -   [Description Property](Description-Property.md)  
 
--   [Editable Property-duplicate](Editable-Property.md)  
+-   [Editable Property](Editable-Property.md)  
 
 -   [Enabled Property](Enabled-Property.md)  
 
@@ -209,7 +209,7 @@ The following topic lists properties that apply to the table object.
 
 -   [Description Property](Description-Property.md)  
 
--   [Editable Property-duplicate](Editable-Property.md)  
+-   [Editable Property](Editable-Property.md)  
 
 -   [Enabled Property](Enabled-Property.md)  
 
@@ -264,7 +264,7 @@ The following topic lists properties that apply to the table object.
 
 -   [Description Property](Description-Property.md)  
 
--   [Editable Property-duplicate](Editable-Property.md)  
+-   [Editable Property](Editable-Property.md)  
 
 -   [Enabled Property](Enabled-Property.md)  
 
@@ -315,7 +315,7 @@ The following topic lists properties that apply to the table object.
 
 -   [Description Property](Description-Property.md)  
 
--   [Editable Property-duplicate](Editable-Property.md)  
+-   [Editable Property](Editable-Property.md)  
 
 -   [Enabled Property](Enabled-Property.md)  
 
@@ -362,7 +362,7 @@ The following topic lists properties that apply to the table object.
 
 -   [Description Property](Description-Property.md)  
 
--   [Editable Property-duplicate](Editable-Property.md)  
+-   [Editable Property](Editable-Property.md)  
 
 -   [Enabled Property](Enabled-Property.md)  
 
@@ -417,7 +417,7 @@ The following topic lists properties that apply to the table object.
 
 -   [Description Property](Description-Property.md)  
 
--   [Editable Property-duplicate](Editable-Property.md)  
+-   [Editable Property](Editable-Property.md)  
 
 -   [Enabled Property](Enabled-Property.md)  
 
@@ -474,7 +474,7 @@ The following topic lists properties that apply to the table object.
 
 -   [Description Property](Description-Property.md)  
 
--   [Editable Property-duplicate](Editable-Property.md)  
+-   [Editable Property](Editable-Property.md)  
 
 -   [Enabled Property](Enabled-Property.md)  
 
@@ -529,7 +529,7 @@ The following topic lists properties that apply to the table object.
 
 -   [Description Property](Description-Property.md)  
 
--   [Editable Property-duplicate](Editable-Property.md)  
+-   [Editable Property](Editable-Property.md)  
 
 -   [Enabled Property](Enabled-Property.md)  
 
@@ -578,7 +578,7 @@ The following topic lists properties that apply to the table object.
 
 -   [Description Property](Description-Property.md)  
 
--   [Editable Property-duplicate](Editable-Property.md)  
+-   [Editable Property](Editable-Property.md)  
 
 -   [Enabled Property](Enabled-Property.md)  
 
@@ -637,7 +637,7 @@ The following topic lists properties that apply to the table object.
 
 -   [Description Property](Description-Property.md)  
 
--   [Editable Property-duplicate](Editable-Property.md)  
+-   [Editable Property](Editable-Property.md)  
 
 -   [Enabled Property](Enabled-Property.md)  
 
@@ -696,7 +696,7 @@ The following topic lists properties that apply to the table object.
 
 -   [Description Property](Description-Property.md)  
 
--   [Editable Property-duplicate](Editable-Property.md)  
+-   [Editable Property](Editable-Property.md)  
 
 -   [Enabled Property](Enabled-Property.md)  
 
@@ -749,7 +749,7 @@ The following topic lists properties that apply to the table object.
 
 -   [Description Property](Description-Property.md)  
 
--   [Editable Property-duplicate](Editable-Property.md)  
+-   [Editable Property](Editable-Property.md)  
 
 -   [Enabled Property](Enabled-Property.md)  
 
@@ -806,7 +806,7 @@ The following topic lists properties that apply to the table object.
 
 -   [Description Property](Description-Property.md)  
 
--   [Editable Property-duplicate](Editable-Property.md)  
+-   [Editable Property](Editable-Property.md)  
 
 -   [Enabled Property](Enabled-Property.md)  
 
@@ -878,7 +878,7 @@ The following topic lists properties that apply to the table object.
 
 -   [Description Property](Description-Property.md)  
 
--   [Editable Property-duplicate](Editable-Property.md)  
+-   [Editable Property](Editable-Property.md)  
 
 -   [Enabled Property](Enabled-Property.md)  
 
@@ -933,7 +933,7 @@ The following topic lists properties that apply to the table object.
 
 -   [Description Property](Description-Property.md)  
 
--   [Editable Property-duplicate](Editable-Property.md)  
+-   [Editable Property](Editable-Property.md)  
 
 -   [Enabled Property](Enabled-Property.md)  
 
