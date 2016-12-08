@@ -109,7 +109,7 @@ After you have registered a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] 
         CurrPage.ControlName.MyProperty  
         ```  
 
-     `ControlName` is the name of the field control that is applied with the control add-in. The name is specified by the [Name Property](Name-Property-duplicate.md). `MyMethod` and `MyProperty` are the names of the method and property of the control add-in to be invoked.  
+     `ControlName` is the name of the field control that is applied with the control add-in. The name is specified by the [Name Property](Name-Property.md). `MyMethod` and `MyProperty` are the names of the method and property of the control add-in to be invoked.  
 
 3.  Save the page.  
 

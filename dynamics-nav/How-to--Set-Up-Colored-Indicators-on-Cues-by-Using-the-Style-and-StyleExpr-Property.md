@@ -22,7 +22,7 @@ You can configure a cue with a colored indicator that appears along its top bord
 
      This is the most typical behavior. When the data in the cue hits a specified value, the indicator changes color. There are 4 colors to choose from, which enables you to configure different colors for different data intervals. For more information, see [Configuring Conditional Color Indication on a Cue](How-to--Set-Up-Colored-Indicators-on-Cues-by-Using-the-Style-and-StyleExpr-Property.md#ConditionColor).  
 
- You set up the indicator by using the [StyleExpr Property](StyleExpr-Property.md) and [Style Property](Style-Property-duplicate.md) for the field that defines the cue and, in most cases, by adding C/AL code to the page object.  
+ You set up the indicator by using the [StyleExpr Property](StyleExpr-Property.md) and [Style Property](Style-Property.md) for the field that defines the cue and, in most cases, by adding C/AL code to the page object.  
 
  The following table describes the values of the **Style** property and the corresponding indicator color. You will need to know these values for whichever behavior that you implement.  
 
@@ -102,6 +102,6 @@ You can configure a cue with a colored indicator that appears along its top bord
      For the example in the step 1, you set the property to **ColorVar**.  
 
 ## See Also  
- [Style Property](Style-Property-duplicate.md)   
+ [Style Property](Style-Property.md)   
  [StyleExpr Property](StyleExpr-Property.md)   
  [IncludeInDataSet Property](IncludeInDataSet-Property.md)

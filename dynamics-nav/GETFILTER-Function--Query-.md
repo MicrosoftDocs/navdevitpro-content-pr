@@ -27,7 +27,7 @@ Filter := Query.GETFILTER(Column)
  *Column*  
  Type: Text  
   
- The name of the column in the query. A column name is defined by the [Name Property](Name-Property-duplicate.md) in Query Designer.  
+ The name of the column in the query. A column name is defined by the [Name Property](Name-Property.md) in Query Designer.  
   
 ## Return Value  
  Type: Text  
