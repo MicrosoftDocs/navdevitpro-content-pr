@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=401404
 schema: 2.0.0
 ---
 
@@ -203,7 +203,7 @@ Accept wildcard characters: False
 ### -Language
 Specifies the language in which the upgrade, specifically codeunits, will run. The value must be a valid culture name for a language in Microsoft Dynamics NAV, such as en-US or da-DK. If the specified language does not exist on the Microsoft Dynamics NAV Server instance, the language en-US will be used.
 
-The Resume-NAVDataUpgrade function will also run in the language that was used by bthe Start-NAV DataUpgrade cmdlet. 
+The Resume-NAVDataUpgrade function will also run in the language that was used by bthe Start-NAV DataUpgrade cmdlet.
 
 This parameter is similar -Language paramter of the Invoke-NAVCodeunit cmdlet.
 
@@ -219,6 +219,9 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ### System.String
@@ -230,9 +233,10 @@ You can pass the value of the ServerInstance and Tenant parameters as a string t
 Because the functions in the steps are called in random order, you should design the functions so that they are independent from each other.
 
 ## RELATED LINKS
+
 [Get-NAVDataUpgrade](Get-NAVDataUpgrade.md)
 
-[Invoke-NAVCodeunit](Invoke-NAVCodeunit.md)  
+[Invoke-NAVCodeunit](Invoke-NAVCodeunit.md)
 
 [Resume-NAVDataUpgrade](Resume-NAVDataUpgrade.md)
 

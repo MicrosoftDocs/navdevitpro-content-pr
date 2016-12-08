@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=723414
 schema: 2.0.0
 ---
 
@@ -169,7 +169,7 @@ Accept wildcard characters: False
 ```
 
 ### -Evaluation
-Specifies the entitlement to be for evaluation purposes, which means it has limited use and is not a paid entitlement. 
+Specifies the entitlement to be for evaluation purposes, which means it has limited use and is not a paid entitlement.
 
 ```yaml
 Type: SwitchParameter
@@ -197,6 +197,9 @@ Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 

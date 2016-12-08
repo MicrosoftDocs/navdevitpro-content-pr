@@ -78,10 +78,11 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## NOTES
 ## RELATED LINKS
+
 [New-NAVAppManifest](New-NAVAppManifest.md)
 
-[New-NavAppManifestFile](New-NAVAppManifestFile.md)  
+[New-NavAppManifestFile](New-NavAppManifestFile.md)
 
-[New-NAVAppPackage](New-NAVAppPackage.md)  
+[New-NAVAppPackage](New-NAVAppPackage.md)
 
 [Set-NAVAppManifest](Set-NAVAppManifest.md)
