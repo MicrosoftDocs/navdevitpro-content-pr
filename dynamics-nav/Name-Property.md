@@ -9,7 +9,7 @@ ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: ead6388f-9985-451d-91d5-6d1e42bb5620
 caps.latest.revision: 10
-manager: edupont
+ms.author: edupont
 ---
 # Name Property
 Sets the name of the object. The name is used for internal identification of the objects, controls, and other elements in C/AL code and the development environment.  
@@ -25,7 +25,7 @@ Sets the name of the object. The name is used for internal identification of the
 -   Pages  
 
 -   Queries  
-  
+
 -   Reports  
 
 -   Tables  
@@ -37,10 +37,10 @@ Sets the name of the object. The name is used for internal identification of the
 
  When you use the Name in C/AL code, it is automatically converted to the value of the [ID Property](ID-Property.md) when the C/AL code is compiled.  
 
- For report, page, XMLport, and query objects, the name is the default for the [Caption Property](Caption-Property-duplicate.md).  
+ For report, page, XMLport, and query objects, the name is the default for the [Caption Property](Caption-Property.md).  
 
  For controls, the default name is based on the ID.  
 
 ## See Also  
  [ID Property](ID-Property.md)   
- [Caption Property](Caption-Property-duplicate.md)
+ [Caption Property](Caption-Property.md)

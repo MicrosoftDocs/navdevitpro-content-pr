@@ -27,7 +27,7 @@ Specifies the name of the database schema of the external database.
 ## See Also  
  [TableType Property](TableType-Property.md)   
  [ExternalSchema Property](ExternalSchema-Property.md)   
- [Name Property](Name-Property-duplicate.md)   
+ [Name Property](Name-Property.md)   
  [Properties](Properties.md)   
  [Table Designer](uiref/-$-S_2102-Table-Designer-$-.md)   
  [External Tables](External-Tables.md)   

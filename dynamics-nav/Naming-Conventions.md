@@ -13,50 +13,50 @@ manager: edupont
 ---
 # Naming Conventions
 Precise and consistent terminology helps the end user work with the application. Rules for naming and abbreviating objects also help developers to understand the [!INCLUDE[demolong](includes/demolong_md.md)] and develop new features faster. This topic contains guidelines for naming objects, table fields, and variables. These guidelines describe naming conventions in English \(United States\).  
-  
+
  The following general guidelines apply throughout your application:  
-  
+
 -   Use existing terminology, if possible.  
-  
+
 -   Name everything in a set of objects in the same language.  
-  
+
 -   When you review the terminology in a set of objects, use the **Translate Export** and **Translate Import** items on the **Tools** menu in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]. Export the text strings to a text file to review them, and then import the text file back into the application.  
-  
+
 -   Most names in a [!INCLUDE[navnow](includes/navnow_md.md)] application have a limit of 128 characters. This limit applies to the names of objects, functions, variables, properties, COM methods, and text constants. Table field names have a limit of 30 characters.  
-  
+
 ## Visible Named Items  
  This section describes naming all visible items in an application, such as table fields. This includes all items that are presented to an end user.  
-  
--   When you develop your application, set the application language to English \(United States\) so that the [Name Property](Name-Property-duplicate.md) is the same as the caption in English \(United States\). This will make it easier to upgrade and reuse modifications. The end user sees the value of the [Caption Property](Caption-Property-duplicate.md) but not the **Name** property.  
-  
+
+-   When you develop your application, set the application language to English \(United States\) so that the [Name Property](Name-Property.md) is the same as the caption in English \(United States\). This will make it easier to upgrade and reuse modifications. The end user sees the value of the [Caption Property](Caption-Property.md) but not the **Name** property.  
+
 -   You must follow the naming convention both for the name in English \(United States\) and for the caption in your local language.  
-  
+
 -   Two objects of the same type must not have the same name.  
-  
+
 -   Each object must be named in a way that leaves no doubt as to what it applies to. For example, an object can be specifically related to customers, items, or resources. Do not give a table the name “Status,” because the word Status is too general and could refer to something in most tables.  
-  
+
 ### Table Objects  
  Always make the names of table objects singular. The table name corresponds to what one record in the table is called.  
-  
+
 ### Page Objects  
  The name of a page depends on the page type. Use the singular form of the table name for a card page. Use the plural form of the table name for a tabular page. This informs end users about the type of page. If you can access a table with both a card page and a tabular page, then the page names should explicitly describe the types. For example, the **Item Card** and **Item List** pages both access the **Item** table and describe the page types. This tells the user that there is more than one way to access the table. Other page types, such as statistics pages, are given names that are as descriptive as possible.  
-  
+
 ### Report Objects  
  Make the English caption and name of a report descriptive and do not include abbreviations. End users see the caption of a report object in the following instances:  
-  
+
 -   On the request page.  
-  
+
 -   When they modify a report.  
-  
+
 -   When they want to identify an item, such as a sales invoice.  
-  
+
  We recommend that you make the caption the same as the heading in the report.  
-  
+
 ### Table Fields  
  Make the name and caption of a field descriptive. The end user should not have to see the caption in the context of other fields to understand what it is.  
-  
+
  Describe the field contents and the field type in the caption. We recommend the following guidelines.  
-  
+
 |Guideline|Examples|  
 |---------------|--------------|  
 |Include **Date** when you include a date field. **Note:**  Do not include **Date** for a date interval field.|-   **Posting Date** field<br />-   **Allow Posting From** field|  
@@ -75,25 +75,25 @@ Precise and consistent terminology helps the end user work with the application.
 |Use **Starting Date** to specify the date from which something is valid. Use **Ending Date** to specify the date until something is valid.|**Starting Date** field in the **Accounting Period** table|  
 |Use **First** to mean earliest. Use **Last** to mean latest.|**Last Sales Inv. No.** field|  
 |Use **Before** with an amount before a calculation. Use **After** with an amount after a calculation.|**Amount Added Before** field|  
-  
+
 ### Page Buttons and Menu Items  
  Captions for command buttons, menu buttons, and menu items depend on whether the control is used as a routing choice to open another page or as a control to activate something.  
-  
+
  When a control is used to open another page, its name signifies the page that the control opens. The first menu button on a card, tabular, or list page typically has the name of the corresponding table. We recommend that you name menu items on the menu button with the second part of the full name of the page that will be opened when a user selects the item.  
-  
+
  For example, the caption for a menu button on a **Customer** card page is "Customer.” The caption for one of the menu items is on the **Customer** menu button is “Statistics.” The **Statistics** menu item opens the **Customer Statistics**  page. When option buttons are used on the main menu page with the Border property set to **Yes**, the caption for these controls is the name of the application module.  
-  
+
  When a control is used to activate something, the caption for it must be an imperative verb. An example is a control with the caption **Check**. If a page has many action controls, then they can be gathered as menu items on one menu button, such as **Function** or **Posting**.  
-  
+
 ## Other Named Items  
  This section describes naming of internal items that are not visible to an end user. Because they are never shown to users, they do not have captions.  
-  
+
 ### Codeunit Objects  
  The name of a codeunit starts with the object that the codeunit processes. The object is usually a record abbreviated as a variable. You can follow the object name with a dash and a description. Write the description of the codeunit in imperative voice without abbreviations. An example is the **Purch-Explode BOM** codeunit.  
-  
+
 ### Variables  
  We recommend the following guidelines for naming variables.  
-  
+
 |Guideline|Examples|  
 |---------------|--------------|  
 |Omit spaces, periods, and other characters such as parentheses that make quotation marks around a variable necessary.|GenJnlBatch|  
@@ -113,20 +113,20 @@ Precise and consistent terminology helps the end user work with the application.
 |Use "Starting" or "Ending" with dates and positions.||  
 |Use "First" or "Last" with the first or last record in a table or line in a journal. You can also use it as a flag to indicate that this is the first record that is processed.|FirstOrder|  
 |When a variable is a Record, Page, Report, XMLport, Query, or Codeunit data type and the object has a name that also functions as a field name or local function name, add the suffix Rec, Page, Report, XMLport, Query, or Codeunit.|SourceCodeRec \(for a record variable from the **Source Code** table\) **Note:**  Because "Source Code" is the name of a table and the name of a field in other tables, you should not use "SourceCode" for variables that hold the two different types of information.|  
-  
+
 ### User-Defined Functions  
  When you name user-defined functions, start with an imperative verb, such as ApplyCustLedgEntry. Use the following function name prefixes:  
-  
+
 -   If the code posts something, then use “Post” as a prefix.  
-  
+
 -   If the code makes something, then use “Make” as a prefix.  
-  
+
 -   If the code inserts something, then use “Insert” as a prefix.  
-  
+
 -   If something is selected, then use “Check” as a prefix.  
-  
+
 ### Page Controls  
  Do not give a page control a name unless you want to refer to it in your C/AL code. If you name a page control, then add a prefix to the name with the abbreviated name of the associated table or page.  
-  
+
 ## See Also  
  [Object Numbering Conventions](Object-Numbering-Conventions.md)

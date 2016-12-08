@@ -13,24 +13,24 @@ manager: edupont
 ---
 # MenuSuite Properties
 This topic lists properties that apply to the MenuSuite object.  
-  
+
 ## Menu Properties  
  The following properties apply to menus on a MenuSuite object.  
-  
+
 -   [Bitmap Property](Bitmap-Property.md)  
-  
--   [Caption Property](Caption-Property-duplicate.md)  
-  
+
+-   [Caption Property](Caption-Property.md)  
+
 -   [CaptionML Property](CaptionML-Property.md)  
-  
+
 ## Menu Item Properties  
-  
+
 1.  [AccessByPermission Property](AccessByPermission-Property.md)  
-  
-2.  [Caption Property](Caption-Property-duplicate.md)  
-  
+
+2.  [Caption Property](Caption-Property.md)  
+
 3.  [CaptionML Property](CaptionML-Property.md)  
-  
+
 ## See Also  
  [Properties](Properties.md)   
  [MenuSuites](MenuSuites.md)
