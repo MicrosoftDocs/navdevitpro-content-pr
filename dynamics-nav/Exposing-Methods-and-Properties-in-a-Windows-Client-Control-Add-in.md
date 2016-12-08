@@ -58,7 +58,7 @@ CurrPage.ControlName.MyMethod(parameter)
 CurrPage.ControlName.MyProperty  
 ```  
   
- `ControlName` is the name of the field control that is applied with the control add-in. The name is specified by the [Name Property](Name-Property-duplicate.md). `MyMethod` and `MyProperty` are the names of method and property of the control add-in to be invoked.  
+ `ControlName` is the name of the field control that is applied with the control add-in. The name is specified by the [Name Property](Name-Property.md). `MyMethod` and `MyProperty` are the names of method and property of the control add-in to be invoked.  
   
 ### Triggers That Are Not Supported  
  You cannot invoke control add-in methods and properties from the following triggers because the triggers are invoked before the page is instantiated:  

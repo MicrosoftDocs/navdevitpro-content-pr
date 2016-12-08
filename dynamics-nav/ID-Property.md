@@ -31,9 +31,9 @@ Sets a unique numeric ID for this codeunit, table, page, report, XMLport, or con
 ## Remarks  
  The ID must be unique within the scope of the object. For example, two code units, tables, or page cannot have the same ID, and no control can have the same ID as another control on that object.  
   
- The ID is used for reference purposes. As a result, you can use the value of the [Name Property](Name-Property-duplicate.md) to reference objects in your code. The Name is automatically converted to the ID when the code is compiled.  
+ The ID is used for reference purposes. As a result, you can use the value of the [Name Property](Name-Property.md) to reference objects in your code. The Name is automatically converted to the ID when the code is compiled.  
   
  If you do not set the **ID** property, you will be prompted for one when you save the object. For controls, a numeric ID is assigned based on the next available number for the page or the report. You can change this ID.  
   
 ## See Also  
- [Name Property](Name-Property-duplicate.md)
+ [Name Property](Name-Property.md)
