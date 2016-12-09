@@ -43,10 +43,7 @@ tableextension 50090 RetailWinterSportsStore extends Customer
     fields
     {
         field(50090;SkiSize;Integer) {}
-        
-        // How do I set description property?
-
-        // How do I change a property (like description) on an existing field?
+            
     }
 
     procedure HasSkiSize() : Boolean;
