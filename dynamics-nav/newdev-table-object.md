@@ -59,9 +59,9 @@ table 51000 Address
         }
     }
 
-    procedure MyOrgMethod();
+    procedure MyMethod();
     begin
-        Message('Hello from the original method');
+        Message('Hello from my method');
     end;
 }
 ```
