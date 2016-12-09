@@ -35,7 +35,7 @@ This topic lists properties that apply to the page object, controls, and actions
 
 -   [Description Property](Description-Property.md)  
 
--   [Editable Property-duplicate](Editable-Property.md)  
+-   [Editable Property](Editable-Property.md)  
 
 -   [InsertAllowed Property](InsertAllowed-Property.md)  
 
@@ -95,7 +95,7 @@ This topic lists properties that apply to the page object, controls, and actions
 
 -   [Description Property](Description-Property.md)  
 
--   [Editable Property-duplicate](Editable-Property.md)  
+-   [Editable Property](Editable-Property.md)  
 
 -   [Enabled Property](Enabled-Property.md)  
 
@@ -117,7 +117,7 @@ This topic lists properties that apply to the page object, controls, and actions
 
 -   [ShowAsTree Property](ShowAsTree-Property.md)  
 
--   [Visible Property-duplicate](Visible-Property.md)  
+-   [Visible Property](Visible-Property.md)  
 
 ## Field Control Properties  
  The following properties apply to **Field** controls on a page.  
@@ -160,7 +160,7 @@ This topic lists properties that apply to the page object, controls, and actions
 
 -   [DrillDownPageID Property](DrillDownPageID-Property.md)  
 
--   [Editable Property-duplicate](Editable-Property.md)  
+-   [Editable Property](Editable-Property.md)  
 
 -   [Enabled Property](Enabled-Property.md)  
 
@@ -214,7 +214,7 @@ This topic lists properties that apply to the page object, controls, and actions
 
 -   [ValuesAllowed Property](ValuesAllowed-Property.md)  
 
--   [Visible Property-duplicate](Visible-Property.md)  
+-   [Visible Property](Visible-Property.md)  
 
 -   [Width Property](Width-Property.md)  
 
@@ -233,7 +233,7 @@ This topic lists properties that apply to the page object, controls, and actions
 
 -   [Description Property](Description-Property.md)  
 
--   [Editable Property-duplicate](Editable-Property.md)  
+-   [Editable Property](Editable-Property.md)  
 
 -   [Enabled Property](Enabled-Property.md)  
 
@@ -261,7 +261,7 @@ This topic lists properties that apply to the page object, controls, and actions
 
 -   [UpdatePropagation Property](UpdatePropagation-Property.md)  
 
--   [Visible Property-duplicate](Visible-Property.md)  
+-   [Visible Property](Visible-Property.md)  
 
 ## ActionContainer Properties  
  The following properties apply to **ActionContainer** on a page.  
@@ -293,7 +293,7 @@ This topic lists properties that apply to the page object, controls, and actions
 
 -   [Name Property](Name-Property.md)  
 
--   [Visible Property-duplicate](Visible-Property.md)  
+-   [Visible Property](Visible-Property.md)  
 
 ## Action Properties  
  The following properties apply to **Actions**.  
@@ -346,7 +346,7 @@ This topic lists properties that apply to the page object, controls, and actions
 
 -   [ToolTipML Property](ToolTipML-Property.md)  
 
--   [Visible Property-duplicate](Visible-Property.md)  
+-   [Visible Property](Visible-Property.md)  
 
 ## Separator Properties  
  The following properties apply to **Separators**.  
