@@ -22,7 +22,7 @@ manager: edupont
  The following table lists the Role Center profiles that are supported by Connect and the Role Centers that use the profiles by default when you install the [!INCLUDE[navnow](includes/navnow_md.md)] demo database.  
   
 > [!NOTE]  
->  Whether the Connect part is visible on a Role Center is specified by the [Visible Property-duplicate](Visible-Property-duplicate.md) of the Role Center page.  
+>  Whether the Connect part is visible on a Role Center is specified by the [Visible Property](Visible-Property.md) of the Role Center page.  
   
 |Role Center ID|Profile ID|Visible by default|  
 |--------------------|----------------|------------------------|  
