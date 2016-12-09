@@ -21,13 +21,13 @@ With the [!INCLUDE[navnow_md](includes/navnow_md.md)] in-client designer, you ca
 
 - Enter and exit design mode
 - Move fields around
+- Add existing fields
 - Preview your design (desktop, tablet, and phone preview)
-- Add new fields (for limited types)
 - Save the extension for the tenant
  
 ## Adding a field
 
-The in-client designer is switched on by choosing the design icon in the ribbon top right corner from any page that you want to make modifications to, and then choose **More**. In design mode you modify the current page; you can add new and existing table fields, move fields around, or remove fields from the page.
+The in-client designer is switched on by choosing the design icon in the ribbon top right corner from any page that you want to make modifications to, and then choose **More**. In design mode you modify the current page; you can add existing table fields, move fields around, or remove fields from the page.
        
 > [!NOTE]  
 > With this preview you can only add new and existing table fields. Adding pages and actions is not yet supported.
@@ -46,7 +46,12 @@ Change a FastTab caption by clicking the caption and start writing.
 
 The display type icons let you preview the changes you made on desktop, tablet, and phone clients. This way you can make sure that your design will work on the intended display target(s). You can flip to display tablet and phone designs in landscape as well.
 
-When you choose **Stop designing** a wizard will guide you through saving the changes you made as an extension. <!-- more? -->
+<!--
+> [!NOTE]  
+> With this preview, page fields that have the property **Visible** set to **false** still show up in the pane of fields you can add to a page. You can drag this type of field to the page, but it does not have any effect. --> 
+
+<!--
+When you choose **Stop designing** a wizard will guide you through saving the changes you made as an extension. -->
 
 ## See Also
 [Developing Extensions Using the New Development Environment](newdev-dev-overview.md)  
