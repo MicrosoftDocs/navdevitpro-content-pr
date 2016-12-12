@@ -22,7 +22,6 @@ With the [!INCLUDE[navnow_md](includes/navnow_md.md)] in-client designer, you ca
 - Enter and exit design mode
 - Move fields around
 - Preview your design (desktop, tablet, and phone preview)
-- Add existing fields
 - Add new fields (for limited types)
 - Save the extension for the tenant
  
