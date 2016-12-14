@@ -53,6 +53,7 @@ Settings in the ```launch.json``` file:
 
 
 ## List of objects in the platform symbol file
+The followinng lists object symbols contained in the platform symbol package file.
 
 ### System tables
 
