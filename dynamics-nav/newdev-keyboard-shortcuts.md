@@ -26,10 +26,9 @@ The following table provides an overview of some of the shortcut key combination
 |Ctrl+F2|Select all occurrences|
 |F12|Go to definition|
 |Alt+F12|Peek definition|
-|Shift+F12|Find all references|
 |Ctrl+Shift+Space|Look up parameter hints|
 
-## Debug
+## Errors
 |Keyboard Shortcut| Action|
 |----|----|
 |F8|Move to the next error or warning|
