@@ -18,11 +18,33 @@ caps.latest.revision: 18
 # Page Extension Object
 The page extension object extends a [!INCLUDE[navnow_md](includes/navnow_md.md)] page object and adds or overrides the functionality. 
 
+The structure of a page is hierarchical and breaks down in to three sections. The first block contains metadata for the overall page; the type of the page and the source table it is showing data from. The next section; the layout, describes the visual parts on the page. The final section details the actions that are published on the page.
+
+In the layout section, you can use the following functions to place controls in the ribbon on the page: 
+
+|Function example|Applies to...|
+|--------|-------------|
+|```addfirst(General)```|Groups only|
+|```addlast(General)```|Groups only|
+|```addafter(AddressDetails; "Post Code")```|Fields and groups|
+|```addbefore(AddressDetails; "Post Code")```|Fields and groups|
+|```movefirst(General)```|Groups only|
+|```movelast(General)```|Groups only|
+|```moveafter(AddressDetails; "Post Code")```|Fields and groups|
+|```movebefore(AddressDetails; "Post Code")```|Fields and groups|
+
+If you want to modify existing fields and groups on a page, you use the ```modify()``` function. See the code example below for syntax. 
+
+For more information about changes, see [Differences in the Dynamics NAV Development Environments](newdev-differences.md).
+
+## Snippet support
+Typing the shortcut ```tpageext``` will create the basic layout for a table object when using the AL Extension in Visual Studio Code.
+
 ## Page Extension example
-The following page extension object extends the Customer Card page object by adding a field control ```ShoeSize``` to the ```General``` group on the page. The field control is added as the last control in the group using the ```addlast``` function. 
+The following page extension object extends the Customer Card page object by adding a field control ```ShoeSize``` to the ```General``` group on the page. The field control is added as the last control in the group using the ```addlast``` function. In the actions area, you can see what the syntax looks like for actions that execute triggers and actions that run objects. 
 
 ```
-pageextension 50080 CustomerCardExtension extends "Customer Card"
+pageextension 70000020 CustomerCardExtension extends "Customer Card"
 {
     layout
     {
@@ -30,10 +52,53 @@ pageextension 50080 CustomerCardExtension extends "Customer Card"
         {
             field("Shoe Size"; ShoeSize)
             {
-                
+                CaptionML = ENU='ShoeSize';
+
+                trigger OnValidate();
+                begin
+                    if ShoeSize < 10 then
+                        Error('Feet too small');
+                end;
+            }
+        }
+
+        modify("Address 2")
+        {
+            CaptionML = ENU='New Address 2';
+        }
+    }
+
+    actions
+    {
+        addlast(Creation)
+        {
+            group(MyActionGroup)
+            {
+                Action(MyAction1)
+                {
+                    CaptionML = ENU = 'Hello!';
+
+                    trigger OnAction();
+                    begin
+                        Message('My message');
+                    end;
+                }
+
+                Action(MyAction2)
+                {
+                    RunObject = codeunit "Activities Mgt.";
+                }
             }
         }
     }
+
+   var
+        Msg : TextConst ENU='Hello from my method';
+
+    trigger OnOpenPage();
+    begin
+        Message(Msg);
+    end;
 } 
 ``` 
 

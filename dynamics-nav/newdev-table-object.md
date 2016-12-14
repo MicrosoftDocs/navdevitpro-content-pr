@@ -24,14 +24,17 @@ The structure of a table has four sections. The first block contains metadata fo
 When developing a solution for [!INCLUDE[navnow_md](includes/navnow_md.md)], you will follow the code layout for a table as shown in the table example below, but for more details on the individual controls and properties that you can use, see [Tables](tables.md) in the online help for [!INCLUDE[navnow_md](includes/navnow_md.md)].
 
 ## Snippet support
-Typing the shortcut ```tt``` will create the basic layout for a table object when using the AL Extension in Visual Studio Code.
+Typing the shortcut ```ttable``` will create the basic layout for a table object when using the AL Extension in Visual Studio Code.
 
 ## Table Example
 This table stores address information and has four fields; Address, Locality, Town/City, and County.
 
 ```
-table 51000 Address
+table 70000030 Address
 {
+    captionML = ENU='Sample table';
+    DataPerCompany = true;
+
     fields
     {
         field(1;Address;Text[50])
@@ -49,6 +52,12 @@ table 51000 Address
         field(4;County;Text[30])
         {
             Description='County retrieved by Service';
+            
+            trigger OnValidate();
+            begin
+                ValidateCounty(County);
+            end;
+
         }
     }
     keys
@@ -59,9 +68,17 @@ table 51000 Address
         }
     }
 
+    var
+        Msg : TextConst ENU='Hello from my method';
+
+    trigger OnInsert();
+    begin
+        
+    end;
+    
     procedure MyMethod();
     begin
-        Message('Hello from my method');
+        Message(Msg);
     end;
 }
 ```

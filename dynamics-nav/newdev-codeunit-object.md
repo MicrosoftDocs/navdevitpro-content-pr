@@ -3,7 +3,7 @@ title: "Codeunit Object"
 description: "Description of the codeunit object."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 12/06/2016
+ms.date: 12/14/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -20,13 +20,13 @@ caps.latest.revision: 18
 A codeunit is a container for AL code that you can use in many application objects. For more information, see [Understanding Codeunits](understanding-codeunits.md).
 
 ## Snippet support
-Typing the shortcut ```cc``` will create the basic layout for a codeunit object when using the AL Extension in Visual Studio Code.
+Typing the shortcut ```tcodeunit``` will create the basic layout for a codeunit object when using the AL Extension in Visual Studio Code.
 
 ## Codeunit Example
 This codeunit example checks whether a given customer has registered a shoesize. If not, the customer is assigned a shoesize of 42.
 
 ```
-codeunit 50040 CreateCustomer
+codeunit 70000100 CreateCustomer
 {
     trigger OnRun();
     var
