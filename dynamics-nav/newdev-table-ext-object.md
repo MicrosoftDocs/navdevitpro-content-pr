@@ -24,7 +24,7 @@ Along with defining other fields, the table extension is where you write trigger
 When developing a solution for [!INCLUDE[navnow_md](includes/navnow_md.md)], you will follow the code layout for a table extension as shown in the example below, but for more details on the individual controls and properties that are available, see [Tables](tables.md). 
 
 ## Snippet support
-Typing the shortcut 'ttableext' will create the basic layout for a table extension object when using the AL Extension in Visual Studio Code.
+Typing the shortcut ```ttableext``` will create the basic layout for a table extension object when using the AL Extension in Visual Studio Code.
 
 ## Properties
 Using a table extension allows you to overwrite some properties on fields in the base table. The following properties can be changed:
