@@ -38,7 +38,7 @@ There are two other special objects which are specifically used for building ext
 For more information, see [Page Extension Object](newdev-page-ext-object.md) and [Table Extension Object](newdev-table-ext-object.md).
 
 ## Developing Extensions in Visual Studio Code
-Using the AL extension for Visual Studio Code, you'll get the benefits of a modern development environment along with seamless publishing and execution integration with your [!INCLUDE[navnow_md](includes/navnow_md.md)] tenant. For more information on getting up and running, see [Getting Started Developing for Dynamics NAV](newdev-get-started.md). 
+Using the AL extension for Visual Studio Code, you'll get the benefits of a modern development environment along with seamless publishing and execution integration with your [!INCLUDE[navnow_md](includes/navnow_md.md)] tenant. For more information on getting up and running, see [Getting Started](newdev-get-started.md). 
 
 Visual Studio Code and the AL Extension lets you do the following tasks:
 
