@@ -1,9 +1,9 @@
---
+---
 title: "Page Object"
 description: "Description of the page object."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 12/06/2016
+ms.date: 12/14/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -74,5 +74,5 @@ page 70000200 SimpleCustomerCard
 [Developer Reference](newdev-reference-overview.md)  
 [Page Extension Object](newdev-page-ext-object.md)  
 [Pages](pages.md)  
-[Tables](tables.md)
+[Tables](tables.md)  
 [Page Properties](page-properties.md)

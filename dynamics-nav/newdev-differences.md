@@ -40,7 +40,7 @@ Several properties have been renamed, to mention some:
 ## Pages
 ```Container``` and ```ContainerType``` elements in C/SIDE have been renamed to ```area(Content|FactBoxes|RoleCenter)``` and can be defined inside the ```layout``` section of the page.
 
-The ```ActionContainer``` element in C/SIDE is renamed to ```area(Creation|Embedding|Navigation|Processing|Reporting|Sections) and can be defined inside the ```actions``` section of the page.
+The ```ActionContainer``` element in C/SIDE is renamed to ```area(Creation|Embedding|Navigation|Processing|Reporting|Sections)``` and can be defined inside the ```actions``` section of the page.
 
 For syntax examples, see [Page Object](newdev-page-object.md).
 
