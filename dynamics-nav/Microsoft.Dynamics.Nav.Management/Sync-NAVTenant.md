@@ -60,8 +60,7 @@ Sync = 2
 The database schema in the tenant database will be updated unless data is lost. For example, if a table or a field has been deleted in the current application, and it contains data in the tenant database, the tenant cannot be mounted against the Microsoft Dynamics NAV Server instance.
 
 CheckOnly = 3  
-Microsoft Dynamics NAV Server tests if a change in the current application will result in data loss in the tenant database if the tenant is mounted with Mode set to ForceSync. An example of this is when a table or a field has been deleted in the current application.
-and it contains data in the tenant database.
+Microsoft Dynamics NAV Server tests if a change in the current application will result in data loss in the tenant database if the tenant is mounted with Mode set to ForceSync. An example of this is when a table or a field has been deleted in the current application, and it contains data in the tenant database.
 
 ```yaml
 Type: SyncMode
