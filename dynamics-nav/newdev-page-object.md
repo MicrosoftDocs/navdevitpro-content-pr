@@ -1,9 +1,9 @@
---
+---
 title: "Page Object"
 description: "Description of the page object."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 12/06/2016
+ms.date: 12/14/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -24,12 +24,12 @@ The structure of a page is hierarchical and breaks down in to three sections. Th
 When developing a solution for [!INCLUDE[navnow_md](includes/navnow_md.md)], you will follow the code layout for a page as shown in the page example below, but for more details on the individual controls and properties that are available, see [Pages](pages.md) in the online help for [!INCLUDE[navnow_md](includes/navnow_md.md)]. 
 
 ## Snippet support
-Typing the shortcut ```pp``` will create the basic layout for a page object when using the AL Extension in Visual Studio Code.
+Typing the shortcut ```tpage``` will create the basic layout for a page object when using the AL Extension in Visual Studio Code.
 
 ## Page example
 
 ```
-page 50088 SimpleCustomerCard
+page 70000200 SimpleCustomerCard
 {
     PageType = Card;
     SourceTable = Customer;
@@ -40,14 +40,31 @@ page 50088 SimpleCustomerCard
         {
             group(General)
             {
-                field("No.";"No.") {}
+                field("No.";"No.") 
+                {
+                    CaptionML = ENU='Hello'
+                    
+                    trigger OnValidate()
+                    begin
+                        if "No." < 20
+                            Message('Number too small')
+                    end;
+                }
+
                 field(Name;Name) {}
                 field(Address;Address) {}
             }
         }
     }
+    actions
     {
-        // Actions //
+        area(Navigation)
+        {
+            action(NewAction)
+            {
+                RunObject = codeunit "Document Totals";
+            }         
+        }
     }
 }
 ```
@@ -57,5 +74,5 @@ page 50088 SimpleCustomerCard
 [Developer Reference](newdev-reference-overview.md)  
 [Page Extension Object](newdev-page-ext-object.md)  
 [Pages](pages.md)  
-[Tables](tables.md)
+[Tables](tables.md)  
 [Page Properties](page-properties.md)

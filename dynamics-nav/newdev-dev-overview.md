@@ -38,7 +38,7 @@ There are two other special objects which are specifically used for building ext
 For more information, see [Page Extension Object](newdev-page-ext-object.md) and [Table Extension Object](newdev-table-ext-object.md).
 
 ## Developing Extensions in Visual Studio Code
-Using the AL extension for Visual Studio Code, you'll get the benefits of a modern development environment along with seamless publishing and execution integration with your [!INCLUDE[navnow_md](includes/navnow_md.md)] tenant. For more information on getting up and running, see [Getting Started Developing for Dynamics NAV](newdev-get-started.md). 
+Using the AL extension for Visual Studio Code, you'll get the benefits of a modern development environment along with seamless publishing and execution integration with your [!INCLUDE[navnow_md](includes/navnow_md.md)] tenant. For more information on getting up and running, see [Getting Started](newdev-get-started.md). 
 
 Visual Studio Code and the AL Extension lets you do the following tasks:
 
@@ -55,9 +55,26 @@ The syntax of the AL language is designed to assist in building business applica
 
 |Type... | To get a... |
 |--------|-------------|
-|```tt```| Table object structure|
-|```pp```| Page object structure|
-|```cc```| Codeunit object structure|
+|```ttable```| Table object structure|
+|```tpage```| Page object structure|
+|```tcodeunit```| Codeunit object structure|
+|```tpageext```| Page extension structure|
+|```ttableext```| Table extension structure|
+|```tfield```| Table field structure|
+|```tfieldpage```| Page field structure|
+|```ttrigger```| Trigger structure|
+|```tprocedure```| Procedure structure|
+|```tassert```| Assert error structure|
+|```twithdo```| With do structure|
+|```tif```| If structure|
+|```tifelse```| If else structure|
+|```tcaseof```| Case of structure|
+|```tcaseelse```| Case else structure|
+|```tfor```| For structure|
+|```twhile```| While structure|
+|```trepeat```| Repeat until structure|
+|```[EventSubscriber("```| EventSubscriber structure|
+
 
 The changes from the existing [!INCLUDE[navnow_md](includes/navnow_md.md)] language and AL can be found in links in this section.
 
@@ -73,7 +90,7 @@ For information about AL language changes, see [Differences in the Dynamics NAV 
 The in-client designer works in the client itself allowing design of pages using a drag-and-drop interface. The in-client designer allows building extensions in the client itself by rearranging fields, adding fields, and previewing the page design. For more information, see [Using the Dynamics NAV In-Client Designer](newdev-inclient-designer.md).
 
 ## Compiling and deploying
-Extensions are compiled as .navm package files. The .navm package file can be deployed to the [!INCLUDE[nav_server_md](includes/nav_server_md.md)]. A .navm package contains the various artifacts that deliver the new functionality to the [!INCLUDE[navnow_md](includes/navnow_md.md)] deployment as well as a manifest that specifies the name, publisher, version, and other attributes of the extension.
+Extensions are compiled as .navx package files. The .navx package file can be deployed to the [!INCLUDE[nav_server_md](includes/nav_server_md.md)]. A .navx package contains the various artifacts that deliver the new functionality to the [!INCLUDE[navnow_md](includes/navnow_md.md)] deployment as well as a manifest that specifies the name, publisher, version, and other attributes of the extension.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  
