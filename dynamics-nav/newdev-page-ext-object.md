@@ -3,7 +3,7 @@ title: "Page Extension Object"
 description: "Description of the page extension object."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 12/06/2016
+ms.date: 12/15/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -20,7 +20,7 @@ The page extension object extends a [!INCLUDE[navnow_md](includes/navnow_md.md)]
 
 The structure of a page is hierarchical and breaks down in to three sections. The first block contains metadata for the overall page; the type of the page and the source table it is showing data from. The next section; the layout, describes the visual parts on the page. The final section details the actions that are published on the page.
 
-In the layout section, you can use the following functions to place controls in the ribbon on the page: 
+In the ```layout``` section, you can use the following functions to place page fields and groups on the page. Similarly, in the ```actions``` section, you use these functions to place actions in the ribbon.   
 
 |Function example|Applies to...|
 |--------|-------------|
