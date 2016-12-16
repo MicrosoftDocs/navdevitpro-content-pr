@@ -38,16 +38,6 @@ You can use the Mount-NAVTenant and Dismount-NAVTenant cmdlets to mount and dism
 ```
 Get-NAVTenant -ServerInstance 'DynamicsNAV'
 
-State                  : Mounted
-ServerInstance         : MicrosoftDynamicsNavServer$DynamicsNAV
-Id                     : Tenant1
-DatabaseName           : Demo Database NAV
-DatabaseServer         : localhost
-AlternateIds           : {}
-AllowAppDatabaseWrites : True
-NasServicesEnabled     : False
-DefaultCompany         :
-DefaultTimeZone        : UTC
 ```
 
 This example gets the tenant information from the Dynamics NAV Server instance called DynamicsNAV. The output is a list of the tenant information about all mounted tenants.

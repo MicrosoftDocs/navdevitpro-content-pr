@@ -19,7 +19,7 @@ Get-NAVApplication [-ServerInstance] <String> [-Force]
 Use the Get-NAVApplication cmdlet to get information about the application database that is mounted against the specified Microsoft Dynamics NAV Server instance.
 
 If no application is mounted, use the Mount-NAVApplication cmdlet to mount an application.
-The cmdlet returs the name of the database server and the name of the application database.
+The cmdlet returns the name of the database server and the name of the application database.
 
 If you have not exported the application tables to a dedicated application database, the Get-NAVApplication cmdlet returns the database that contains the application tables, such as 'Demo Database NAV (10-0)'.
 

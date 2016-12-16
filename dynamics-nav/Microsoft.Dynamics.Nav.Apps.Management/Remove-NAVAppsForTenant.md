@@ -1,5 +1,5 @@
 ---
-external help file: Microsoft.Dynamics.Nav.Apps.Management.dll-Help.xml
+external help file: Microsoft.Dynamics.Nav.apps.Management.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=616077
 schema: 2.0.0
 ---
@@ -15,6 +15,7 @@ Removes all NAV Apps from the specified, unmounted tenant. This cmdlet should be
 Remove-NAVAppsForTenant [-DatabaseServer <String>] [-DatabaseName <String>]
  [-DatabaseCredentials <PSCredential>] [-ApplicationDatabaseServer <String>]
  [-ApplicationDatabaseName <String>] [-ApplicationDatabaseCredentials <PSCredential>] [-DoNotSaveData] [-Force]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -53,7 +54,7 @@ The login account must be a member of the db_owner role on the database.
 ```yaml
 Type: PSCredential
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -70,7 +71,7 @@ You must also set the ApplicationDatabaseServer parameter.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -86,7 +87,7 @@ The default value is "." for the current machine.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -106,7 +107,7 @@ The login account must be a member of the db_owner role on the database.
 ```yaml
 Type: PSCredential
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -155,7 +156,7 @@ if you set this parameter, the data will not be archived and you will not be abl
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -170,7 +171,7 @@ Forces the command to run without asking for user confirmation about the tenant 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -187,6 +188,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
+
 ## RELATED LINKS
 
 [Get-NavAppTenant](Get-NavAppTenant.md)
