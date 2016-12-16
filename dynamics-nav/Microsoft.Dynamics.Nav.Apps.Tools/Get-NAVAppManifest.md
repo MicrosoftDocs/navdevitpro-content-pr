@@ -12,7 +12,7 @@ Loads a manifest for an NAV App from an external source.
 ## SYNTAX
 
 ```
-Get-NAVAppManifest [-Path] <String>
+Get-NAVAppManifest [-Path] <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -58,10 +58,10 @@ Specifies the path to a file with an NAV App manifest.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 2
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
@@ -77,6 +77,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ### NavAppManifest
 
 ## NOTES
+
 ## RELATED LINKS
 
 [New-NAVAppManifest](New-NAVAppManifest.md)
