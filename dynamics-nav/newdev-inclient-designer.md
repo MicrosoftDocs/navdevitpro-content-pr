@@ -28,10 +28,6 @@ With the [!INCLUDE[navnow_md](includes/navnow_md.md)] in-client designer, you ca
 ## Adding a field
 
 The in-client designer is switched on by choosing the design icon in the ribbon top right corner from any page that you want to make modifications to, and then choose **More**. In design mode you modify the current page; you can add existing table fields, move fields around, or remove fields from the page.
-
-
-![Design](media/start-design.gif)
-
        
 > [!NOTE]  
 > With this preview you can only add existing table fields. Adding pages, groups, parts, and actions is not yet supported.
