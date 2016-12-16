@@ -14,7 +14,7 @@ Returns permission set information for Microsoft Dynamics NAV users.
 ```
 Get-NAVServerUserPermissionSet [-AppName <String>] [-AppPublisher <String>] [-Tenant <TenantId>]
  [-CompanyName <String>] [-PermissionSetId <String>] [-Sid <String>] [-WindowsAccount <String>]
- [-UserName <String>] [-ServerInstance] <String> [-Force]
+ [-UserName <String>] [-ServerInstance] <String> [-Force] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -59,7 +59,7 @@ Specifies the name of the Dynamics NAV extension.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -74,71 +74,7 @@ Specifies the publisher of the Dynamics NAV extension, such as Microsoft.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -CompanyName
-The name of a company in the Microsoft Dynamics NAV database. If this argument is not included in the cmdlet, users in the default company are returned.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -PermissionSetId
-The ID of a permission set, such as RES-JOURNAL or SUPER.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ServerInstance
-Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
-You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -Sid
-Specifies a security identifier (SID) of a Microsoft Dynamics NAV user. The SID is a unique value that identifies a Windows user account.
-
-You can use the Sid, UserName, or WindowsAccount parameters to identify the user.
-If you use the Sid parameter, then do not set the UserName or WindowsAccount parameters.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -164,16 +100,46 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -UserName
-Specifies the user name of a Microsoft Dynamics NAV user. The user name is defined by the User Name field in a user's account in Microsoft Dynamics NAV.
-
-You can use the UserName, WindowsAccount or Sid parameters to identify the user.
-If you use the Username parameter, then you cannot use the Windows Account or Sid parameters.
+### -CompanyName
+The name of a company in the Microsoft Dynamics NAV database. If this argument is not included in the cmdlet, users in the default company are returned.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -PermissionSetId
+The ID of a permission set, such as RES-JOURNAL or SUPER.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Sid
+Specifies a security identifier (SID) of a Microsoft Dynamics NAV user. The SID is a unique value that identifies a Windows user account.
+
+You can use the Sid, UserName, or WindowsAccount parameters to identify the user.
+If you use the Sid parameter, then do not set the UserName or WindowsAccount parameters.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
 
 Required: False
 Position: Named
@@ -191,12 +157,46 @@ If you use the WindowsAccount parameter, then you cannot use the UserName or Sid
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -UserName
+Specifies the user name of a Microsoft Dynamics NAV user. The user name is defined by the User Name field in a user's account in Microsoft Dynamics NAV.
+
+You can use the UserName, WindowsAccount or Sid parameters to identify the user.
+If you use the Username parameter, then you cannot use the Windows Account or Sid parameters.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ServerInstance
+Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
+You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
@@ -206,7 +206,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -229,6 +229,7 @@ You can pipe a string that contains a Microsoft Dynamics NAV Server instance nam
 Returns the permission set information as a table.
 
 ## NOTES
+
 ## RELATED LINKS
 
 [New-NAVServerPermissionSet](New-NAVServerPermissionSet.md)

@@ -12,7 +12,7 @@ Gets information from a Microsoft Dynamics NAV data file.
 ## SYNTAX
 
 ```
-Get-NAVDataFile [-FilePath] <String> [-Force]
+Get-NAVDataFile [-FilePath] <String> [-Force] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -50,7 +50,7 @@ Parameter Sets: (All)
 Aliases: FileName
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
@@ -62,7 +62,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -79,4 +79,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
+
 ## RELATED LINKS
+

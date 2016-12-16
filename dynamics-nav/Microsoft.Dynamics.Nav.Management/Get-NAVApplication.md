@@ -12,7 +12,7 @@ Gets information about the application database that is mounted against the spec
 ## SYNTAX
 
 ```
-Get-NAVApplication [-ServerInstance] <String> [-Force]
+Get-NAVApplication [-ServerInstance] <String> [-Force] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -41,10 +41,10 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
@@ -56,7 +56,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -79,6 +79,7 @@ You can pass the value of the ServerInstance parameter as a string to this cmdle
 The cmdlet returns the name of the database server and the name of the application database as a data row.
 
 ## NOTES
+
 ## RELATED LINKS
 
 [Mount-NAVApplication](Mount-NAVApplication.md)

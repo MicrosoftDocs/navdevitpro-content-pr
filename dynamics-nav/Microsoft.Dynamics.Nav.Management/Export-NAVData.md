@@ -16,19 +16,21 @@ Exports data from a Microsoft Dynamics NAV database.
 Export-NAVData [-DatabaseServer <String>] [-DatabaseName <String>] [-DatabaseCredentials <PSCredential>]
  [-ApplicationDatabaseServer <String>] [-ApplicationDatabaseCredentials <PSCredential>]
  [-ApplicationDatabaseName <String>] -FilePath <String> [-Description <String>] [-IncludeApplication]
- [-IncludeApplicationData] [-IncludeGlobalData] [-CompanyName <String[]>] [-Force]
+ [-IncludeApplicationData] [-IncludeGlobalData] [-CompanyName <String[]>] [-Force] [<CommonParameters>]
 ```
 
 ### UseNST_AllCompanies
 ```
 Export-NAVData [-ServerInstance] <String> [[-Tenant] <TenantId>] -FilePath <String> [-Description <String>]
  [-IncludeApplication] [-IncludeApplicationData] [-IncludeGlobalData] [-AllCompanies] [-Force]
+ [<CommonParameters>]
 ```
 
 ### UseNST_SomeCompanies
 ```
 Export-NAVData [-ServerInstance] <String> [[-Tenant] <TenantId>] -FilePath <String> [-Description <String>]
  [-IncludeApplication] [-IncludeApplicationData] [-IncludeGlobalData] [-CompanyName <String[]>] [-Force]
+ [<CommonParameters>]
 ```
 
 ### UseDatabase_AllCompanies
@@ -36,7 +38,7 @@ Export-NAVData [-ServerInstance] <String> [[-Tenant] <TenantId>] -FilePath <Stri
 Export-NAVData [-DatabaseServer <String>] [-DatabaseName <String>] [-DatabaseCredentials <PSCredential>]
  [-ApplicationDatabaseServer <String>] [-ApplicationDatabaseCredentials <PSCredential>]
  [-ApplicationDatabaseName <String>] -FilePath <String> [-Description <String>] [-IncludeApplication]
- [-IncludeApplicationData] [-IncludeGlobalData] [-AllCompanies] [-Force]
+ [-IncludeApplicationData] [-IncludeGlobalData] [-AllCompanies] [-Force] [<CommonParameters>]
 ```
 
 ### UseDatabase_NoCompanies
@@ -44,6 +46,7 @@ Export-NAVData [-DatabaseServer <String>] [-DatabaseName <String>] [-DatabaseCre
 Export-NAVData [-DatabaseServer <String>] [-DatabaseName <String>] [-DatabaseCredentials <PSCredential>]
  [-ApplicationDatabaseCredentials <PSCredential>] [-ApplicationDatabaseName <String>] -FilePath <String>
  [-Description <String>] [-IncludeApplication] [-IncludeApplicationData] [-IncludeGlobalData] [-Force]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -77,98 +80,45 @@ The Microsoft Dynamics NAV Server instance is configured for SQL authentication 
 
 ## PARAMETERS
 
-### -AllCompanies
-Specifies if you want to export all companies in the database to the specified file.
+### -ServerInstance
+Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
+You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
 
 ```yaml
-Type: SwitchParameter
-Parameter Sets: UseNST_AllCompanies, UseDatabase_AllCompanies
-Aliases:
+Type: String
+Parameter Sets: UseNST_AllCompanies, UseNST_SomeCompanies
+Aliases: 
 
 Required: True
-Position: Named
+Position: 0
 Default value: None
-Accept pipeline input: True (ByPropertyName)
+Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -ApplicationDatabaseCredentials
-Specifies the user name and password of an SQL Server Authentication login account that provides access to the application database in SQL Server.
-You use this parameter to access the database by using SQL Server Authentication.
-If you want to use Windows Authentication, then you can omit this parameter.
-The login account must be a member of the db_owner role on the database.
+### -Tenant
+Specifies the ID of the tenant that the company is imported into, such as Tenant1.
+This parameter is required in multitenant deployments of Microsoft Dynamics NAV.
 
 ```yaml
-Type: PSCredential
-Parameter Sets: UseDatabase_SomeCompanies, UseDatabase_AllCompanies, UseDatabase_NoCompanies
-Aliases:
+Type: TenantId
+Parameter Sets: UseNST_AllCompanies, UseNST_SomeCompanies
+Aliases: Id
 
 Required: False
-Position: Named
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ApplicationDatabaseName
-Specifies the name of the Microsoft Dynamics NAV database that contains the application tables in a multitenant deployment.
-You must also set the ApplicationDatabaseServer parameter.
-Even if you are not exporting data from the application database, you must specify this parameter.
+### -DatabaseServer
+Specifies the name of the computer on which the SQL Server instance for the Microsoft Dynamics NAV database is installed.
 
 ```yaml
 Type: String
 Parameter Sets: UseDatabase_SomeCompanies, UseDatabase_AllCompanies, UseDatabase_NoCompanies
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -ApplicationDatabaseServer
-Specifies the name of the computer on which the SQL Server instance for the Microsoft Dynamics NAV database that contains the application tables is installed in a multitenant deployment.
-Even if you are not exporting data from the application database, you must specify this parameter.
-
-```yaml
-Type: String
-Parameter Sets: UseDatabase_SomeCompanies, UseDatabase_AllCompanies
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -CompanyName
-Specifies the name of the company or the companies that you want to import.
-If the company does not exist in the file, the operation fails.
-
-```yaml
-Type: String[]
-Parameter Sets: UseDatabase_SomeCompanies, UseNST_SomeCompanies
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -DatabaseCredentials
-Specifies the user name and password for an SQL Server Authentication login account that provides access to the database or tenant database (in a multitenant deployment) in SQL Server.
-You use this parameter to access the database by using SQL Server Authentication.
-If you want to use Windows Authentication, then you can omit this parameter.
-The login account must be a member of the db_owner role on the database.
-
-```yaml
-Type: PSCredential
-Parameter Sets: UseDatabase_SomeCompanies, UseDatabase_AllCompanies, UseDatabase_NoCompanies
-Aliases:
+Aliases: TenantDatabaseServer
 
 Required: False
 Position: Named
@@ -193,13 +143,16 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -DatabaseServer
-Specifies the name of the computer on which the SQL Server instance for the Microsoft Dynamics NAV database is installed.
+### -DatabaseCredentials
+Specifies the user name and password for an SQL Server Authentication login account that provides access to the database or tenant database (in a multitenant deployment) in SQL Server.
+You use this parameter to access the database by using SQL Server Authentication.
+If you want to use Windows Authentication, then you can omit this parameter.
+The login account must be a member of the db_owner role on the database.
 
 ```yaml
-Type: String
+Type: PSCredential
 Parameter Sets: UseDatabase_SomeCompanies, UseDatabase_AllCompanies, UseDatabase_NoCompanies
-Aliases: TenantDatabaseServer
+Aliases: 
 
 Required: False
 Position: Named
@@ -208,13 +161,49 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Description
-Specifies a description of the data that you want to export, such as 'My Application Database'.
+### -ApplicationDatabaseServer
+Specifies the name of the computer on which the SQL Server instance for the Microsoft Dynamics NAV database that contains the application tables is installed in a multitenant deployment.
+Even if you are not exporting data from the application database, you must specify this parameter.
 
 ```yaml
 Type: String
-Parameter Sets: (All)
-Aliases:
+Parameter Sets: UseDatabase_SomeCompanies, UseDatabase_AllCompanies
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ApplicationDatabaseCredentials
+Specifies the user name and password of an SQL Server Authentication login account that provides access to the application database in SQL Server.
+You use this parameter to access the database by using SQL Server Authentication.
+If you want to use Windows Authentication, then you can omit this parameter.
+The login account must be a member of the db_owner role on the database.
+
+```yaml
+Type: PSCredential
+Parameter Sets: UseDatabase_SomeCompanies, UseDatabase_AllCompanies, UseDatabase_NoCompanies
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ApplicationDatabaseName
+Specifies the name of the Microsoft Dynamics NAV database that contains the application tables in a multitenant deployment.
+You must also set the ApplicationDatabaseServer parameter.
+Even if you are not exporting data from the application database, you must specify this parameter.
+
+```yaml
+Type: String
+Parameter Sets: UseDatabase_SomeCompanies, UseDatabase_AllCompanies, UseDatabase_NoCompanies
+Aliases: 
 
 Required: False
 Position: Named
@@ -241,6 +230,21 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
+### -Description
+Specifies a description of the data that you want to export, such as 'My Application Database'.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
 ### -IncludeApplication
 Specifies that you want to include application objects in the export.
 If you do not set the parameter, application objects are not included in the export.
@@ -248,7 +252,7 @@ If you do not set the parameter, application objects are not included in the exp
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -264,7 +268,7 @@ If you do not set the parameter, application data is not included in the export.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -280,7 +284,7 @@ If you do not set the parameter, global data is not included in the export.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -289,33 +293,32 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ServerInstance
-Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
-You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
+### -CompanyName
+Specifies the name of the company or the companies that you want to import.
+If the company does not exist in the file, the operation fails.
 
 ```yaml
-Type: String
-Parameter Sets: UseNST_AllCompanies, UseNST_SomeCompanies
-Aliases:
+Type: String[]
+Parameter Sets: UseDatabase_SomeCompanies, UseNST_SomeCompanies
+Aliases: 
 
-Required: True
-Position: 1
+Required: False
+Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Tenant
-Specifies the ID of the tenant that the company is imported into, such as Tenant1.
-This parameter is required in multitenant deployments of Microsoft Dynamics NAV.
+### -AllCompanies
+Specifies if you want to export all companies in the database to the specified file.
 
 ```yaml
-Type: TenantId
-Parameter Sets: UseNST_AllCompanies, UseNST_SomeCompanies
-Aliases: Id
+Type: SwitchParameter
+Parameter Sets: UseNST_AllCompanies, UseDatabase_AllCompanies
+Aliases: 
 
-Required: False
-Position: 2
+Required: True
+Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -327,7 +330,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -344,6 +347,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
+
 ## RELATED LINKS
 
 [Import-NAVData](Import-NAVData.md)

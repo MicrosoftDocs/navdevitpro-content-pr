@@ -15,7 +15,7 @@ The new application database is created on the same SQL Server instance as the o
 ```
 Export-NAVApplication [-DatabaseServer <DatabaseServer>] [-DatabaseInstance <DatabaseInstance>]
  -DatabaseName <DatabaseName> -DestinationDatabaseName <DatabaseName> [-ServiceAccount <String>] [-Force]
- [-WhatIf] [-Confirm]
+ [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -57,6 +57,21 @@ It then pipes the name of the database to the Remove-NAVApplication cmdlet, whic
 
 ## PARAMETERS
 
+### -DatabaseServer
+Specifies the name of the computer on which the SQL Server instance for the Microsoft Dynamics NAV database is installed.
+
+```yaml
+Type: DatabaseServer
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
 ### -DatabaseInstance
 Specifies the SQL Server instance on which the Microsoft Dynamics NAV database is installed.
 The new application database will be created on the same SQL Server instance as the original database.
@@ -64,7 +79,7 @@ The new application database will be created on the same SQL Server instance as 
 ```yaml
 Type: DatabaseInstance
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -80,24 +95,9 @@ This database is the original database that application tables will be extracted
 ```yaml
 Type: DatabaseName
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -DatabaseServer
-Specifies the name of the computer on which the SQL Server instance for the Microsoft Dynamics NAV database is installed.
-
-```yaml
-Type: DatabaseServer
-Parameter Sets: (All)
-Aliases:
-
-Required: False
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
@@ -111,7 +111,7 @@ If a database with that name does not exist, a new database is created on the sa
 ```yaml
 Type: DatabaseName
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -128,12 +128,27 @@ If this parameter is not specified, the Export-NAVApplication cmdlet will use th
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Force
+Forces the command to run without asking for user confirmation.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -159,21 +174,6 @@ Describes what would happen if you executed the command without actually executi
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: wi
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Force
-Forces the command to run without asking for user confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
 
 Required: False
 Position: Named

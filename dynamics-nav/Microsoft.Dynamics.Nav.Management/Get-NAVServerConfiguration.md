@@ -12,7 +12,7 @@ Returns configuration settings for the specified Microsoft Dynamics NAV Server i
 ## SYNTAX
 
 ```
-Get-NAVServerConfiguration [-AsXml] [-ServerInstance] <String> [-Force]
+Get-NAVServerConfiguration [-AsXml] [-ServerInstance] <String> [-Force] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -343,7 +343,7 @@ Formats the cmdlet output as an XML document.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -359,10 +359,10 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
@@ -374,7 +374,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -400,6 +400,7 @@ Returns the configuration settings as well-formatted text.
 If you use the AsXml parameter, then the cmdlet returns the configuration settings as an XML document.
 
 ## NOTES
+
 ## RELATED LINKS
 
 [New-NAVServerConfiguration](New-NAVServerConfiguration.md)
