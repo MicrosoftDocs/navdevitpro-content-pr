@@ -13,7 +13,7 @@ Compares text files with Microsoft Dynamics NAV application objects and then cal
 
 ```
 Compare-NAVApplicationObject [-OriginalPath] <String[]> [-ModifiedPath] <String[]> [-DeltaPath] <String>
- [-PassThru] [-Legacy] [-NoCodeCompression] [-IgnoreDocumentation] [-Force] [-WhatIf] [-Confirm]
+ [-PassThru] [-Legacy] [-NoCodeCompression] [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -83,7 +83,7 @@ Parameter Sets: (All)
 Aliases: Delta
 
 Required: True
-Position: 4
+Position: 3
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -95,22 +95,7 @@ Forces the cmdlet to overwrite any existing files in the Delta folder.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -IgnoreDocumentation
-Use to ignore deltas that would be created by documentation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -146,7 +131,7 @@ Parameter Sets: (All)
 Aliases: Modified
 
 Required: True
-Position: 3
+Position: 2
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -158,7 +143,7 @@ Specifies if the files that are the result of the comparison must not be compres
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -178,7 +163,7 @@ Parameter Sets: (All)
 Aliases: Original
 
 Required: True
-Position: 2
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -191,7 +176,7 @@ If you do not set this parameter, the cmdlet returns a list of the files.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -227,6 +212,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 When you set the PassThru parameter, the Compare-NavApplicationObject cmdlet returns a FileInfo object for each created .DELTA file. Otherwise, this cmdlet does not generate any output.
 
 ## NOTES
+
 ## RELATED LINKS
 
 [Merge-NAVApplicationObject](Merge-NAVApplicationObject.md)

@@ -18,7 +18,7 @@ Merge-NAVApplicationObject [-OriginalPath] <String[]> [-ModifiedPath] <String[]>
  [-ResultPath] <String> [-PassThru] [-Legacy] [-DateTimeProperty <DateTimePropertyAction>]
  [-ModifiedProperty <ModifiedPropertyAction>] [-VersionListProperty <VersionListPropertyAction>]
  [-DocumentationConflict <DocumentationConflictAction>] [-Strict] [-Force] [-DisableCommentOut] [-WhatIf]
- [-Confirm]
+ [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -57,7 +57,6 @@ PS C:\>Merge-NAVApplicationObject -OriginalPath C:\Microsoft\NAV2017\DE\RTM\*.TX
           Conflict   1 changes
           % Merged   80,00
 ```
-
 
 This example compares the application objects from the German version of Microsoft Dynamics NAV 2017 to a customized solution that modified that version.
 The result of the comparison is applied to the German version of Microsoft Dynamics NAV 2017 Cumulative Update 1.
@@ -171,7 +170,6 @@ PS C:\>Merge-NAVApplicationObject -OriginalPath .\ORIGINAL\pag9999.txt -Modified
           % Merged   100,00
 ```
 
-
 This example compares the documentation triggers in two versions of a page object and applies the result of the comparison to a third version.
 The final result is stored in the file that is specified in the -ResultPath parameter.
 This is then repeated.
@@ -180,6 +178,21 @@ In the second command, the conflicting entries are both inserted into the result
 When the merge completes, a summary of the merge is shown.
 
 ## PARAMETERS
+
+### -Confirm
+Prompts you for confirmation before running the cmdlet.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: cf
+
+Required: False
+Position: Named
+Default value: False
+Accept pipeline input: False
+Accept wildcard characters: False
+```
 
 ### -DateTimeProperty
 Specifies the value of the Date and Time properties for the merged application objects.
@@ -205,7 +218,8 @@ In the result of the application merge, the Date and Time properties are set to 
 ```yaml
 Type: DateTimePropertyAction
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+Accepted values: Now, Clear, FromTarget, FromModified
 
 Required: False
 Position: Named
@@ -224,7 +238,56 @@ Code can be commented out if the merge results in unbalanced BEGIN and END state
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -DocumentationConflict
+Specifies how conflicting lines in documentation triggers are merged.
+Set this parameter when you are merging objects with the same type of content in the documentation trigger, such as technical descriptions or a version list.
+The following options are available:
+
+Strict
+
+Conflicting lines of documentation are reported as conflicts in the same way as all other conflicts.
+Use this value when the objects contain technical descriptions in the documentation triggers.
+
+ModifiedFirst
+
+Conflicting lines of documentation are merged into the result file with the content from the modified object listed first.
+Use this value when the objects contain version history in the documentation triggers.
+This is the default value.
+
+TargetFirst
+
+Conflicting lines of documentation are merged into the result file with the content from the target object listed first.
+Use this value when the objects contain version history in the documentation triggers.
+
+```yaml
+Type: DocumentationConflictAction
+Parameter Sets: (All)
+Aliases: 
+Accepted values: Strict, ModifiedFirst, TargetFirst
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Force
+Forces the cmdlet to overwrite any existing files in the Result folder.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
 
 Required: False
 Position: Named
@@ -260,56 +323,7 @@ Parameter Sets: (All)
 Aliases: Modified
 
 Required: True
-Position: 3
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -DocumentationConflict
-Specifies how conflicting lines in documentation triggers are merged.
-Set this parameter when you are merging objects with the same type of content in the documentation trigger, such as technical descriptions or a version list.
-The following options are available:
-
-Strict
-
-Conflicting lines of documentation are reported as conflicts in the same way as all other conflicts.
-Use this value when the objects contain technical descriptions in the documentation triggers.
-
-ModifiedFirst
-
-Conflicting lines of documentation are merged into the result file with the content from the modified object listed first.
-Use this value when the objects contain version history in the documentation triggers.
-This is the default value.
-
-TargetFirst
-
-Conflicting lines of documentation are merged into the result file with the content from the target object listed first.
-Use this value when the objects contain version history in the documentation triggers.
-
-```yaml
-Type: DocumentationConflictAction
-Parameter Sets: (All)
-Aliases:
-Accepted values: Strict, ModifiedFirst, TargetFirst
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Force
-Forces the cmdlet to overwrite any existing files in the Result folder.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
+Position: 2
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -339,7 +353,8 @@ In the result of the application merge, the Modified property is set to the valu
 ```yaml
 Type: ModifiedPropertyAction
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+Accepted values: Yes, No, FromTarget, FromModified
 
 Required: False
 Position: Named
@@ -359,7 +374,7 @@ Parameter Sets: (All)
 Aliases: Original
 
 Required: True
-Position: 2
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -372,7 +387,7 @@ If you do not set this parameter, the cmdlet returns a list of the files.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -393,7 +408,7 @@ Parameter Sets: (All)
 Aliases: Result
 
 Required: True
-Position: 5
+Position: 4
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -406,7 +421,7 @@ If this parameter is not set, these conflicts are suppressed to reduce "noise".
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -426,7 +441,7 @@ Parameter Sets: (All)
 Aliases: Target
 
 Required: True
-Position: 4
+Position: 3
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -453,26 +468,12 @@ In the result of the application merge, the Version List property is set to the 
 ```yaml
 Type: VersionListPropertyAction
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+Accepted values: Clear, FromTarget, FromModified
 
 Required: False
 Position: Named
 Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Confirm
-Prompts you for confirmation before running the cmdlet.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: cf
-
-Required: False
-Position: Named
-Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
