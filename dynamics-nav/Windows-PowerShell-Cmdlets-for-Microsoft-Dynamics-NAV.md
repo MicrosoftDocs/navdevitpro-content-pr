@@ -30,7 +30,7 @@ author: jswymer
 | Development Cmdlets for Dynamics NAV Extensions |[Microsoft.Dynamics.Nav.Apps.Tools](Microsoft.Dynamics.Nav.Apps.Tools/Microsoft.Dynamics.Nav.Apps.Tools.md)  |
 
 >[!TIP]
->For a list of new and changed cmdlets since [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)], see [Changes to Dynamics NAV Cmdlets From Previous Release](Changes-to-Microsoft-Dynamics-NAV-Cmdlets-From-Previous-Release.md)
+>For a list of new and changed cmdlets since [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)], see [Changes to Dynamics NAV Cmdlets From Previous Release](Changes-to-Microsoft-Dynamics-NAV-Cmdlets-From-Previous-Release.md).
 
 ## See Also  
 [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)  
