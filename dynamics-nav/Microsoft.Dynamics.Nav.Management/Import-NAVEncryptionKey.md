@@ -14,7 +14,7 @@ Imports an encryption key from a file to a Microsoft Dynamics NAV Server instanc
 ```
 Import-NAVEncryptionKey [[-ServerInstance] <String>] -ApplicationDatabaseServer <String>
  [-ApplicationDatabaseCredentials <PSCredential>] -ApplicationDatabaseName <String> [-KeyPath] <String>
- [-Password <SecureString>] [-Force] [-WhatIf] [-Confirm]
+ [-Password <SecureString>] [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -44,13 +44,45 @@ The encryption key is imported to the MyNavDB database on the MyNavSQLServer\MyN
 
 ## PARAMETERS
 
+### -ServerInstance
+Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
+You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### -ApplicationDatabaseServer
+Specifies the SQL Server name and instance, such as MyServer\MyInstance, that hosts the Microsoft Dynamics NAV database in which you want to import the encryption key.
+In a multitenant deployment, this is the application database, which contains a list of mounted tenants.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
 ### -ApplicationDatabaseCredentials
 Specifies the user name and password of the login account to use to access the application database in SQL Server by using SQL Server authentication
 
 ```yaml
 Type: PSCredential
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -66,23 +98,7 @@ In a multitenant deployment, this is the application database, which contains a 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -ApplicationDatabaseServer
-Specifies the SQL Server name and instance, such as MyServer\MyInstance, that hosts the Microsoft Dynamics NAV database in which you want to import the encryption key.
-In a multitenant deployment, this is the application database, which contains a list of mounted tenants.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -98,10 +114,10 @@ The full path includes the drive, folders and file name.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 2
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -113,7 +129,7 @@ Specifies a password that protects the encryption key file that are importing.
 ```yaml
 Type: SecureString
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -122,19 +138,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ServerInstance
-Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
-You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
+### -Force
+Forces the command to run without asking for user confirmation.
 
 ```yaml
-Type: String
+Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
-Position: 1
+Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -168,21 +183,6 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Forces the command to run without asking for user confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
@@ -196,6 +196,7 @@ You can pipe the ServerInstance and KeyPath as strings to this cmdlet.
 ### None
 
 ## NOTES
+
 ## RELATED LINKS
 
 [Export-NAVEncryptionKey](Export-NAVEncryptionKey.md)

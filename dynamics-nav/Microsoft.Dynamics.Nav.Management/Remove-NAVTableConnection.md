@@ -14,14 +14,14 @@ Removes a connection to an external database table from the Microsoft Dynamics N
 ### UseNST
 ```
 Remove-NAVTableConnection [-ServerInstance] <String> -ConnectionType <TableConnectionType>
- -ConnectionId <String> [-Force] [-WhatIf] [-Confirm]
+ -ConnectionId <String> [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### UseDatabase
 ```
 Remove-NAVTableConnection [-ApplicationDatabaseServer <String>] -ApplicationDatabaseName <String>
  [-ApplicationDatabaseCredentials <PSCredential>] -ConnectionType <TableConnectionType> -ConnectionId <String>
- [-Force] [-WhatIf] [-Confirm]
+ [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -39,15 +39,29 @@ This example removes a connection to a Dynamics CRM table from a Dynamics NAV Se
 
 ## PARAMETERS
 
-### -ApplicationDatabaseCredentials
-Specifies the user name and password of an SQL Server Authentication login account that provides access to the Microsoft Dynamics NAV application database in SQL Server.
-
-You use this parameter to access the database by using SQL Server Authentication. If you want to use Windows Authentication, then you can omit this parameter The login account must be a member of the db_owner role on the database.
+### -ServerInstance
+Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
+You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
 
 ```yaml
-Type: PSCredential
+Type: String
+Parameter Sets: UseNST
+Aliases: 
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ApplicationDatabaseServer
+Specifies the name of the computer on which the SQL Server instance for the Microsoft Dynamics NAV database that contains the application tables is installed in the multitenant deployment.
+
+```yaml
+Type: String
 Parameter Sets: UseDatabase
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -62,7 +76,7 @@ Specifies the name of the Microsoft Dynamics NAV database that contains the appl
 ```yaml
 Type: String
 Parameter Sets: UseDatabase
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -71,30 +85,17 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ApplicationDatabaseServer
-Specifies the name of the computer on which the SQL Server instance for the Microsoft Dynamics NAV database that contains the application tables is installed in the multitenant deployment.
+### -ApplicationDatabaseCredentials
+Specifies the user name and password of an SQL Server Authentication login account that provides access to the Microsoft Dynamics NAV application database in SQL Server.
+
+You use this parameter to access the database by using SQL Server Authentication. If you want to use Windows Authentication, then you can omit this parameter The login account must be a member of the db_owner role on the database.
 
 ```yaml
-Type: String
+Type: PSCredential
 Parameter Sets: UseDatabase
-Aliases:
+Aliases: 
 
 Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -ConnectionId
-Specifies the name of the table connection.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: True
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
@@ -108,7 +109,8 @@ In Microsoft Dynamics NAV 2016, you can specify two types of connection: CRM or 
 ```yaml
 Type: TableConnectionType
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+Accepted values: CRM, ExternalSQL, Exchange, MicrosoftGraph
 
 Required: True
 Position: Named
@@ -117,19 +119,33 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ServerInstance
-Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
-You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
+### -ConnectionId
+Specifies the name of the table connection.
 
 ```yaml
 Type: String
-Parameter Sets: UseNST
-Aliases:
+Parameter Sets: (All)
+Aliases: 
 
 Required: True
-Position: 1
+Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Force
+Forces the command to run without asking for user confirmation.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -163,21 +179,6 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Forces the command to run without asking for user confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
@@ -186,6 +187,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
+
 ## RELATED LINKS
 
 [Get-NAVTableConnection](Get-NAVTableConnection.md)
