@@ -14,7 +14,7 @@ The result of the comparison is a language text file per object with the calcula
 
 ```
 Compare-NAVAppApplicationObjectLanguage [-OriginalPath] <String[]> [-ModifiedPath] <String[]>
- [-DeltaPath] <String> [-Force] [-WhatIf] [-Confirm]
+ [-DeltaPath] <String> [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -102,7 +102,7 @@ Parameter Sets: (All)
 Aliases: Delta
 
 Required: True
-Position: 4
+Position: 3
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -114,7 +114,7 @@ Forces the command to run without asking for user confirmation to overwrite an e
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -132,7 +132,7 @@ Parameter Sets: (All)
 Aliases: Modified
 
 Required: True
-Position: 3
+Position: 2
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -147,7 +147,7 @@ Parameter Sets: (All)
 Aliases: Original
 
 Required: True
-Position: 2
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -177,6 +177,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
+
 ## RELATED LINKS
 
 [New-NAVAppPackage](https://go.microsoft.com/fwlink/?linkid=616078)
