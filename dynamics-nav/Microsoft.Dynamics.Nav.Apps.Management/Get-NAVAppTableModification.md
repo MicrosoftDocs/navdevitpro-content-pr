@@ -1,5 +1,5 @@
 ---
-external help file: Microsoft.Dynamics.Nav.Apps.Management.dll-Help.xml
+external help file: Microsoft.Dynamics.Nav.apps.Management.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=827845
 schema: 2.0.0
 ---
@@ -14,12 +14,12 @@ Gets information about the tabled added or modified by an Extension based on the
 ### Properties (Default)
 ```
 Get-NAVAppTableModification [-Id <Guid>] [-Name <String>] [-Publisher <String>] [-Version <Version>]
- [-CompatibilityId <Version>] [-ServerInstance] <String>
+ [-CompatibilityId <Version>] [-ServerInstance] <String> [<CommonParameters>]
 ```
 
 ### Tenant
 ```
-Get-NAVAppTableModification -Tenant <String> [-ServerInstance] <String>
+Get-NAVAppTableModification -Tenant <String> [-ServerInstance] <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -188,10 +188,10 @@ Specifies the Microsoft Dynamics NAV Server instance to which the Extension is d
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
@@ -235,6 +235,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
+
 ## RELATED LINKS
 
 [Install-NAVApp](Install-NAVApp.md)
