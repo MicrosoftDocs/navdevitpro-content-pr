@@ -188,7 +188,7 @@ Specifies the Microsoft Dynamics NAV Server instance to which the Extension is d
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: 
+Aliases:
 
 Required: True
 Position: 0
@@ -242,4 +242,4 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 [Publish-NAVApp](Publish-NAVApp.md)
 
-[Get-NAVTableSynchSetupForDataUpgrade](Get-NAVTableSynchSetupForDataUpgrade.md)
+<!--[Get-NAVTableSynchSetupForDataUpgrade](Get-NAVTableSynchSetupForDataUpgrade.md)-->
