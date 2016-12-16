@@ -35,6 +35,10 @@ All functionality in [!INCLUDE[navnow_md](includes/navnow_md.md)] is coded in ob
 
 There are two other special objects which are specifically used for building extensions. Table extension objects and page extension objects are used for defining additive or overriding changes to page or table objects. For example, an extension for managing a business that sells organic food may define a table extension object for the Item table that contains an additional field ```Organic``` and ```Produced Locally```. The ```Organic``` and ```Produced Locally``` fields aren't usually present in the Item table, but through the table extension these data fields will now be available to store data in and to access from code.
 
+> [!NOTE]  
+> Table and page extension objects can have a name with a maximum length of 30 characters.      
+
+
 For more information, see [Page Extension Object](newdev-page-ext-object.md) and [Table Extension Object](newdev-table-ext-object.md).
 
 ## Developing Extensions in Visual Studio Code
