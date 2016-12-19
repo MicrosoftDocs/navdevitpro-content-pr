@@ -14,13 +14,13 @@ Imports a license file into a Microsoft Dynamics NAV database.
 ### LicenseFileSet (Default)
 ```
 Import-NAVServerLicense [-Tenant <TenantId>] [-LicenseFile] <String> [-Database <LicenseDatabase>]
- [-ServerInstance] <String> [-Force] [-WhatIf] [-Confirm]
+ [-ServerInstance] <String> [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### LicenseDataSet
 ```
 Import-NAVServerLicense [-LicenseData] <Byte[]> [-Tenant <TenantId>] [-Database <LicenseDatabase>]
- [-ServerInstance] <String> [-Force] [-WhatIf] [-Confirm]
+ [-ServerInstance] <String> [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -62,6 +62,51 @@ This example imports a license file that is named "fin.flf" from the current dir
 
 ## PARAMETERS
 
+### -LicenseData
+Specifies the content retrieved from the certificate file by using the Get-Content cmdlet. For more information, see the examples.
+
+```yaml
+Type: Byte[]
+Parameter Sets: LicenseDataSet
+Aliases: 
+
+Required: True
+Position: 1
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Tenant
+Specifies the ID of the tenant in which you want to import the license, such as Tenant1. This parameter is required unless the specified service instance is not configured to run multiple tenants.
+
+```yaml
+Type: TenantId
+Parameter Sets: (All)
+Aliases: Id
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -LicenseFile
+The LicenseFile parameter specifies the path to the Microsoft Dynamics NAV license file.
+
+```yaml
+Type: String
+Parameter Sets: LicenseFileSet
+Aliases: 
+
+Required: True
+Position: 1
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -Database
 Specifies the database into which to import the license file.
 The possible values are described in the following list:
@@ -81,40 +126,11 @@ Forces the license file to be local and stored in the Microsoft Dynamics NAV dat
 ```yaml
 Type: LicenseDatabase
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+Accepted values: Default, Master, NavDatabase, Tenant
 
 Required: False
 Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -LicenseData
-Specifies the content retrieved from the certificate file by using the Get-Content cmdlet. For more information, see the examples.
-
-```yaml
-Type: Byte[]
-Parameter Sets: LicenseDataSet
-Aliases:
-
-Required: True
-Position: 2
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -LicenseFile
-The LicenseFile parameter specifies the path to the Microsoft Dynamics NAV license file.
-
-```yaml
-Type: String
-Parameter Sets: LicenseFileSet
-Aliases:
-
-Required: True
-Position: 2
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -126,27 +142,27 @@ Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV o
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -Tenant
-Specifies the ID of the tenant in which you want to import the license, such as Tenant1. This parameter is required unless the specified service instance is not configured to run multiple tenants.
+### -Force
+Forces the command to run without asking for user confirmation.
 
 ```yaml
-Type: TenantId
+Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: Id
+Aliases: 
 
 Required: False
 Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -180,21 +196,6 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Forces the command to run without asking for user confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
@@ -206,6 +207,7 @@ You can pipe a string that contains a Microsoft Dynamics NAV Server instance nam
 ## OUTPUTS
 
 ## NOTES
+
 ## RELATED LINKS
 
 [Export-NAVServerLicenseInformation](Export-NAVServerLicenseInformation.md)

@@ -14,6 +14,7 @@ Changes the service state of a Microsoft Dynamics NAV Server instance.
 ```
 Set-NAVServerInstance [-Stop] [-Start] [-Restart] [-ServiceAccount <ServiceAccount>]
  [-ServiceAccountCredential <PSCredential>] [-ServerInstance] <String> [-Force] [-WhatIf] [-Confirm]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -43,13 +44,13 @@ The Verbose parameter specifies that progress information is to be written to th
 
 ## PARAMETERS
 
-### -Restart
-Restarts the Microsoft Dynamics NAV Server instance.
+### -Stop
+Stops the Microsoft Dynamics NAV Server instance.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -58,19 +59,33 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -ServerInstance
-Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
-You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
+### -Start
+Starts the Microsoft Dynamics NAV Server instance.
 
 ```yaml
-Type: String
+Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
-Required: True
-Position: 1
+Required: False
+Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Restart
+Restarts the Microsoft Dynamics NAV Server instance.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -81,7 +96,8 @@ Only NetworkService and Windows User values are supported.
 ```yaml
 Type: ServiceAccount
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+Accepted values: LocalService, NetworkService, LocalSystem, User
 
 Required: False
 Position: Named
@@ -96,7 +112,7 @@ Specifies a set of security credentials that must be used when configuring the s
 ```yaml
 Type: PSCredential
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -105,28 +121,29 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -Start
-Starts the Microsoft Dynamics NAV Server instance.
+### -ServerInstance
+Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
+You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
 
 ```yaml
-Type: SwitchParameter
+Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
-Required: False
-Position: Named
+Required: True
+Position: 0
 Default value: None
-Accept pipeline input: False
+Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -Stop
-Stops the Microsoft Dynamics NAV Server instance.
+### -Force
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -165,21 +182,6 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Forces the command to run without asking for user confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
@@ -193,6 +195,7 @@ You can pipe a string that contains a Microsoft Dynamics NAV Server instance nam
 ### None
 
 ## NOTES
+
 ## RELATED LINKS
 
 [Get-NAVServerInstance](Get-NAVServerInstance.md)

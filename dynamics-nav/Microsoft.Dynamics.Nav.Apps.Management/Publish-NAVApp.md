@@ -1,5 +1,5 @@
 ---
-external help file: Microsoft.Dynamics.Nav.Apps.Management.dll-Help.xml
+external help file: Microsoft.Dynamics.Nav.apps.Management.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=616079
 schema: 2.0.0
 ---
@@ -13,15 +13,15 @@ Publishes an Extension to the app catalog of the specified Microsoft Dynamics NA
 
 ### None (Default)
 ```
-Publish-NAVApp [-Path] <String> [-PassThru] [[-LogPath] <String>] [-SkipVerification] [[-PackageType] <String>]
- [-ServerInstance] <String> [-WhatIf] [-Confirm]
+Publish-NAVApp [-Path] <String> [-PassThru] [[-LogPath] <String>] [-SkipVerification]
+ [-ServerInstance] <String> [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### SandboxDB
 ```
-Publish-NAVApp [-Path] <String> [-PassThru] [[-LogPath] <String>] [-SkipVerification] [[-PackageType] <String>]
+Publish-NAVApp [-Path] <String> [-PassThru] [[-LogPath] <String>] [-SkipVerification]
  -SandboxDatabaseName <String> [-SandboxDatabaseServer <String>] [-SandboxDatabaseCredentials <PSCredential>]
- [-SqlTimeout <UInt32>] [-Force] [-ServerInstance] <String> [-WhatIf] [-Confirm]
+ [-SqlTimeout <UInt32>] [-Force] [-ServerInstance] <String> [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -80,13 +80,28 @@ This example publishes the Symbols package from the Proseware SmartApp.navm pack
 
 ## PARAMETERS
 
+### -Confirm
+Prompts you for confirmation before executing the command.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: cf
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -Force
 Forces the command to run without asking for user confirmation about the data in the provided sandbox database being overwritten.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: SandboxDB
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -102,25 +117,10 @@ If the file exists, any errors are added to the log file.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
-Position: 41
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -PackageType
-Specifies the Extension Package type that you want to publish  to the Microsoft Dynamics NAV Server instance.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: 246944
+Position: 40
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -133,10 +133,10 @@ The Extension object contains the properties of the Extension, such as name, pub
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
-Position: 22
+Position: 21
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -148,10 +148,10 @@ Specifies the path to the Extension Package file that you want to publish to the
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 21
+Position: 20
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
@@ -170,7 +170,7 @@ If the sandbox database is an Azure SQL Database, the user name must follow the 
 ```yaml
 Type: PSCredential
 Parameter Sets: SandboxDB
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -188,7 +188,7 @@ The current content of the sandbox database will be overwritten.
 ```yaml
 Type: String
 Parameter Sets: SandboxDB
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -203,7 +203,7 @@ Specifies the name of the computer on which the SQL Server instance for the sand
 ```yaml
 Type: String
 Parameter Sets: SandboxDB
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -218,10 +218,10 @@ Specifies the Microsoft Dynamics NAV server instance that the Extension will be 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
@@ -233,10 +233,10 @@ Forces the command to run without verifying the authenticode signature.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
-Position: 246943
+Position: 246942
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -248,22 +248,7 @@ The time (in seconds) to wait before terminating an attempt to execute a command
 ```yaml
 Type: UInt32
 Parameter Sets: SandboxDB
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Confirm
-Prompts you for confirmation before executing the command.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: cf
+Aliases: 
 
 Required: False
 Position: Named
@@ -295,6 +280,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
+
 ## RELATED LINKS
 
 [Get-NavAppTenant](Get-NavAppTenant.md)

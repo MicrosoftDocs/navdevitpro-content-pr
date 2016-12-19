@@ -1,5 +1,5 @@
 ---
-external help file: Microsoft.Dynamics.Nav.Apps.Management.dll-Help.xml
+external help file: Microsoft.Dynamics.Nav.apps.Management.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=618057
 schema: 2.0.0
 ---
@@ -14,13 +14,13 @@ Uninstall a NAV App for a tenant.
 ### Properties (Default)
 ```
 Uninstall-NAVApp [-ServerInstance] <String> -Name <String> [-Publisher <String>] [-Version <Version>]
- [-Tenant <TenantId>] [-PassThru] [-DoNotSaveData] [-Force]
+ [-Tenant <TenantId>] [-PassThru] [-DoNotSaveData] [-Force] [<CommonParameters>]
 ```
 
 ### Path
 ```
 Uninstall-NAVApp [-ServerInstance] <String> [-Tenant <TenantId>] -Path <String> [-PassThru] [-DoNotSaveData]
- [-Force]
+ [-Force] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -40,6 +40,7 @@ If the NAV App contains a schema change, the tenant database will be synchronize
 ```
 Get-NAVAppInfo -ServerInstance DynamicsNAV -Name 'Proseware SmartApp' -Version 2.3.4.500 | Uninstall-NAVApp -Tenant 'Tenant1'
 ```
+
 This example uninstalls the NAV App returned from the Get-NAVAppInfo cmdlet for the tenant with the ID Tenant1.
 If the NAV App contains a schema change, the tenant database will be synchronized.
 
@@ -83,7 +84,7 @@ Specifies that the install should be executed without saving the NAV App data fo
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -98,7 +99,7 @@ Forces the command to run without asking for user confirmation to uninstall NAV 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -131,7 +132,7 @@ The NAV App object contains the properties of the NAV App, such as name, publish
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -147,7 +148,7 @@ The NAV App must have already been published to the server instance before unins
 ```yaml
 Type: String
 Parameter Sets: Path
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -179,10 +180,10 @@ Specifies the Microsoft Dynamics NAV Server instance that the NAV App is publish
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
@@ -228,6 +229,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
+
 ## RELATED LINKS
 
 [Get-NavAppTenant](Get-NavAppTenant.md)

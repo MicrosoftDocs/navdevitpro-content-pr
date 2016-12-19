@@ -13,7 +13,7 @@ Returns information about add-ins that are registered in the table 2000000069 Ad
 
 ```
 Get-NAVAddIn [-AddInName <String>] [-Version <String>] [-PublicKeyToken <String>] [-Category <AddInCategory>]
- [-IncludeResource] [-ServerInstance] <String> [-Force]
+ [-IncludeResource] [-ServerInstance] <String> [-Force] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -47,7 +47,7 @@ The name must match the name as it appears in the database table.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -56,28 +56,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Category
-Specifies that category to filter the results on.
+### -Version
+Specifies the add-in version number to filter on.
 
 ```yaml
-Type: AddInCategory
+Type: String
 Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -IncludeResource
-Specifies to include the resource binaries with each add-in that is returned.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -93,7 +78,38 @@ The public key token is a 16-character key that is given to the assembly when it
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Category
+Specifies that category to filter the results on.
+
+```yaml
+Type: AddInCategory
+Parameter Sets: (All)
+Aliases: 
+Accepted values: JavaScriptControlAddIn, DotNetControlAddIn, DotNetInteroperability, LanguageResource
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -IncludeResource
+Specifies to include the resource binaries with each add-in that is returned.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
 
 Required: False
 Position: Named
@@ -109,27 +125,12 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -Version
-Specifies the add-in version number to filter on.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
@@ -139,7 +140,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -156,6 +157,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
+
 ## RELATED LINKS
 
 [New-NAVAddIn](New-NAVAddIn.md)

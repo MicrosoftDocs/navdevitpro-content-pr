@@ -12,7 +12,7 @@ Gets a list of all web services that are created in the application on the speci
 ## SYNTAX
 
 ```
-Get-NAVWebService [-ServerInstance] <String> [-Force]
+Get-NAVWebService [-ServerInstance] <String> [-Force] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -44,10 +44,10 @@ Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV o
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
@@ -59,7 +59,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -76,6 +76,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
+
 ## RELATED LINKS
 
 [New-NAVWebService](New-NAVWebService.md)

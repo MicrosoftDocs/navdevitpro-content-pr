@@ -15,7 +15,7 @@ Make sure that you have a full backup available.
 
 ```
 Remove-NAVApplication [-DatabaseServer <DatabaseServer>] [-DatabaseInstance <DatabaseInstance>]
- -DatabaseName <DatabaseName> [-Force] [-WhatIf] [-Confirm]
+ -DatabaseName <DatabaseName> [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -51,6 +51,22 @@ Next, you mount the two databases against a Microsoft Dynamics NAV Server instan
 
 ## PARAMETERS
 
+### -DatabaseServer
+Specifies the name of the computer that is running SQL Server.
+The default value is localhost.
+
+```yaml
+Type: DatabaseServer
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
 ### -DatabaseInstance
 Specifies the name of the SQL Server instance where the Microsoft Dynamics NAV database is located.
 The default value is MSSQLSERVER.
@@ -58,7 +74,7 @@ The default value is MSSQLSERVER.
 ```yaml
 Type: DatabaseInstance
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -73,7 +89,7 @@ Specifies the name of the database that the application tables must be removed f
 ```yaml
 Type: DatabaseName
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -82,19 +98,18 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -DatabaseServer
-Specifies the name of the computer that is running SQL Server.
-The default value is localhost.
+### -Force
+Forces the command to run without asking for user confirmation.
 
 ```yaml
-Type: DatabaseServer
+Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -128,21 +143,6 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Forces the command to run without asking for user confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
@@ -160,6 +160,7 @@ Returns the value of the DatabaseInstance parameter.
 Returns the value of the DatabaseName parameter.
 
 ## NOTES
+
 ## RELATED LINKS
 
 [Export-NAVApplication](Export-NAVApplication.md)

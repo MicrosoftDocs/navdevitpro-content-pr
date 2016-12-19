@@ -16,13 +16,14 @@ Creates a new Microsoft Dynamics NAV database from a backup file.
 New-NAVDatabase [-DatabaseServer <DatabaseServer>] [-DatabaseInstance <DatabaseInstance>]
  -DatabaseName <DatabaseName> [-ServiceAccount <String>] [-Timeout <Int32>] [-FilePath] <String>
  [-DataFilesDestinationPath <String>] [-LogFilesDestinationPath <String>] [-Force] [-WhatIf] [-Confirm]
+ [<CommonParameters>]
 ```
 
 ### SingleDestination
 ```
 New-NAVDatabase [-DatabaseServer <DatabaseServer>] [-DatabaseInstance <DatabaseInstance>]
  -DatabaseName <DatabaseName> [-ServiceAccount <String>] [-Timeout <Int32>] [-FilePath] <String>
- [-DestinationPath <String>] [-Force] [-WhatIf] [-Confirm]
+ [-DestinationPath <String>] [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -76,13 +77,28 @@ This example restores a database, moves transaction log files and data files to 
 
 ## PARAMETERS
 
+### -DatabaseServer
+Specifies the name of the computer that is running SQL Server.
+
+```yaml
+Type: DatabaseServer
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
 ### -DatabaseInstance
 Specifies the name of the SQL Server instance that the database is restored to.
 
 ```yaml
 Type: DatabaseInstance
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -97,7 +113,7 @@ Specifies the name that you want to use for the restored database.
 ```yaml
 Type: DatabaseName
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -106,13 +122,66 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -DatabaseServer
-Specifies the name of the computer that is running SQL Server.
+### -ServiceAccount
+Specifies the logon account that runs the Microsoft Dynamics NAV Server instance.
+This account is given the appropriate permissions to the database when you run the cmdlet.
+For more information, see "Provisioning the Microsoft Dynamics NAV Server Account" in the MSDN Library at http://go.microsoft.com/fwlink/?LinkID=281888.
 
 ```yaml
-Type: DatabaseServer
+Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Timeout
+The time (in seconds) to wait before terminating an attempt to execute a command on SQL Server, such as reading content or restoring the database from a .bak file.
+
+```yaml
+Type: Int32
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -FilePath
+Specifies the path to the database backup file.
+The backup file must be located on the same computer as SQL Server.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### -DestinationPath
+Specifies the destination path for both data files and transaction log files for the restored database.
+The path can be a UNC path or a path on the local computer.
+You must specify a directory path.
+If you specify a file path, then the restore operation fails.
+If you do not specify the following parameters, then the database files are restored to their original locations: DestinationPath, DataFilesDestinationPath, LogFilesDestinationPath.
+If you specify the local computer for the DatabaseServer parameter, then if the directory that you specify does not exist, it is created automatically.
+
+```yaml
+Type: String
+Parameter Sets: SingleDestination
+Aliases: 
 
 Required: False
 Position: Named
@@ -135,48 +204,12 @@ If you specify the local computer for the DatabaseServer parameter, then if the 
 ```yaml
 Type: String
 Parameter Sets: MultipleDestinations
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -DestinationPath
-Specifies the destination path for both data files and transaction log files for the restored database.
-The path can be a UNC path or a path on the local computer.
-You must specify a directory path.
-If you specify a file path, then the restore operation fails.
-If you do not specify the following parameters, then the database files are restored to their original locations: DestinationPath, DataFilesDestinationPath, LogFilesDestinationPath.
-If you specify the local computer for the DatabaseServer parameter, then if the directory that you specify does not exist, it is created automatically.
-
-```yaml
-Type: String
-Parameter Sets: SingleDestination
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -FilePath
-Specifies the path to the database backup file.
-The backup file must be located on the same computer as SQL Server.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
@@ -194,7 +227,7 @@ If you specify the local computer for the DatabaseServer parameter, then if the 
 ```yaml
 Type: String
 Parameter Sets: MultipleDestinations
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -203,30 +236,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ServiceAccount
-Specifies the logon account that runs the Microsoft Dynamics NAV Server instance.
-This account is given the appropriate permissions to the database when you run the cmdlet.
-For more information, see "Provisioning the Microsoft Dynamics NAV Server Account" in the MSDN Library at http://go.microsoft.com/fwlink/?LinkID=281888.
+### -Force
+Forces the command to run without asking for user confirmation.
 
 ```yaml
-Type: String
+Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Timeout
-The time (in seconds) to wait before terminating an attempt to execute a command on SQL Server, such as reading content or restoring the database from a .bak file.
-
-```yaml
-Type: Int32
-Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -265,21 +281,6 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Forces the command to run without asking for user confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
@@ -290,4 +291,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ### MDF and LDF
 
 ## NOTES
+
 ## RELATED LINKS
+

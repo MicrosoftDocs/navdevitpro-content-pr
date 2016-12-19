@@ -1,5 +1,5 @@
 ---
-external help file: Microsoft.Dynamics.Nav.Apps.Management.dll-Help.xml
+external help file: Microsoft.Dynamics.Nav.apps.Management.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=616076
 schema: 2.0.0
 ---
@@ -14,11 +14,12 @@ Gets the tenants where the specified NAV App is installed.
 ### Properties (Default)
 ```
 Get-NAVAppTenant [-ServerInstance] <String> [-Name <String>] [-Publisher <String>] [-Version <Version>]
+ [<CommonParameters>]
 ```
 
 ### Path
 ```
-Get-NAVAppTenant [-ServerInstance] <String> -Path <String>
+Get-NAVAppTenant [-ServerInstance] <String> -Path <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -71,7 +72,7 @@ Specifies the path to a NAV App package file for the NAV App that you want to se
 ```yaml
 Type: String
 Parameter Sets: Path
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -101,10 +102,10 @@ Specifies the Microsoft Dynamics NAV server instance that the NAV App is deploye
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
@@ -133,6 +134,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
+
 ## RELATED LINKS
 
 [Install-NAVApp](Install-NAVApp.md)

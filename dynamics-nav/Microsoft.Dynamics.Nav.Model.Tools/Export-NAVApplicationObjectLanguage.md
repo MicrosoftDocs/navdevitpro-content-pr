@@ -15,6 +15,7 @@ The captions are exported to text files.
 ```
 Export-NAVApplicationObjectLanguage [-Source] <String[]> [-Destination] <String> [[-LanguageId] <String[]>]
  [-Encoding <FileEncoding>] [-DevelopmentLanguageId <String>] [-PassThru] [-Force] [-WhatIf] [-Confirm]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -73,6 +74,21 @@ In this example, the resulting text files are ALL-DEU.txt and ALL-FRA.txt.
 
 ## PARAMETERS
 
+### -Confirm
+Prompts you for confirmation before running the cmdlet.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: cf
+
+Required: False
+Position: Named
+Default value: False
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -Destination
 Specifies the text file or folder where the result of the export must be put.
 If you do not set this parameter, captions are stored in memory and can be piped to another Windows PowerShell cmdlet such as Import-NAVApplicationObjectLanguage.
@@ -80,27 +96,10 @@ If you do not set this parameter, captions are stored in memory and can be piped
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 3
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Encoding
-Specifies the encoding for the exported file.
-Valid values are Unicode, UTF7, UTF8, ASCII, UTF32, BigEndianUnicode, Default, and OEM.
-The default value is OEM, which is the default encoding for the Microsoft Dynamics NAV Development Environment.
-
-```yaml
-Type: FileEncoding
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
+Position: 2
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -114,7 +113,25 @@ The default value is ENU because the base development language in Microsoft Dyna
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Encoding
+Specifies the encoding for the exported file.
+Valid values are Unicode, UTF7, UTF8, ASCII, UTF32, BigEndianUnicode, Default, and OEM.
+The default value is OEM, which is the default encoding for the Microsoft Dynamics NAV Development Environment.
+
+```yaml
+Type: FileEncoding
+Parameter Sets: (All)
+Aliases: 
+Accepted values: OEM, Unicode, UTF7, UTF8, UTF32, ASCII, BigEndianUnicode, Default
 
 Required: False
 Position: Named
@@ -129,7 +146,7 @@ Skips confirmation prompts when the cmdlet is run.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -149,10 +166,10 @@ If a language is not present on a property that is translated into another langu
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
-Position: 4
+Position: 3
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -164,7 +181,7 @@ Specifies if you want to return an object for each application object and langua
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -183,24 +200,9 @@ Parameter Sets: (All)
 Aliases: PSPath
 
 Required: True
-Position: 2
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -Confirm
-Prompts you for confirmation before running the cmdlet.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: cf
-
-Required: False
-Position: Named
-Default value: False
-Accept pipeline input: False
 Accept wildcard characters: False
 ```
 

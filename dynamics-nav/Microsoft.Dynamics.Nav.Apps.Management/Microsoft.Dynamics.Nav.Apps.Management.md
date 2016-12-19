@@ -1,6 +1,6 @@
 ---
 Module Name: Microsoft.Dynamics.Nav.Apps.Management
-Module Guid: 00000000-0000-0000-0000-000000000000
+Module Guid: 1405f736-a2d8-455e-b296-f66594a2fc1e
 Download Help Link:
 Help Version: 1.0.0.0
 Locale: en-US
@@ -23,8 +23,8 @@ Gets information about the tabled added or modified by an Extension based on the
 ### [Get-NAVAppTenant](Get-NAVAppTenant.md)
 Gets the tenants where the specified NAV App is installed.
 
-### [Get-NAVTableSynchSetupForDataUpgrade](Get-NAVTableSynchSetupForDataUpgrade.md)
-Gets information about the tables that will be modified, added, or removed during a tenant data upgrade on the specified Microsoft Dynamics NAV Server instance for the specified tenant.
+<!--### [Get-NAVTableSynchSetupForDataUpgrade](Get-NAVTableSynchSetupForDataUpgrade.md)
+Gets information about the tables that will be modified, added, or removed during a tenant data upgrade on the specified Microsoft Dynamics NAV Server instance for the specified tenant.-->
 
 ### [Install-NAVApp](Install-NAVApp.md)
 Installs a published NAV App for a tenant.

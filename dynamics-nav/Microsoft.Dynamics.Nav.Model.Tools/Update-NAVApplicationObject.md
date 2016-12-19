@@ -15,7 +15,7 @@ Applies a set of deltas to the specified application objects. The files that des
 Update-NAVApplicationObject [-TargetPath] <String[]> [-DeltaPath] <String[]> [-ResultPath] <String> [-PassThru]
  [-Legacy] [-DateTimeProperty <DateTimePropertyAction>] [-ModifiedProperty <ModifiedPropertyAction>]
  [-VersionListProperty <VersionListPropertyAction>] [-DocumentationConflict <DocumentationConflictAction>]
- [-Strict] [-Force] [-DisableCommentOut] [-WhatIf] [-Confirm]
+ [-Strict] [-Force] [-DisableCommentOut] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -33,6 +33,21 @@ PS C:\>Update-NAVApplicationObject -TargetPath C:\Solution\TARGET\*.txt -DeltaPa
 This example updates the text files in the TARGET folder with the delta files in the DELTA folder. The resulting text files are stored in the RESULT folder. When the update completes, a summary is shown.
 
 ## PARAMETERS
+
+### -Confirm
+Prompts you for confirmation before running the cmdlet.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: cf
+
+Required: False
+Position: Named
+Default value: False
+Accept pipeline input: False
+Accept wildcard characters: False
+```
 
 ### -DateTimeProperty
 Specifies the value of the Date and Time properties for the updated application objects.
@@ -59,7 +74,8 @@ In the result of the update, the Date and Time properties are set to the value f
 ```yaml
 Type: DateTimePropertyAction
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+Accepted values: Now, Clear, FromTarget, FromModified
 
 Required: False
 Position: Named
@@ -79,7 +95,7 @@ Parameter Sets: (All)
 Aliases: PSPath, Delta
 
 Required: True
-Position: 3
+Position: 2
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -95,23 +111,7 @@ Code can be commented out if the merge results in unbalanced BEGIN and END state
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Legacy
-Reduces the scope of the cmdlet.
-Do not set this parameter.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: DevBaseCompatibility
+Aliases: 
 
 Required: False
 Position: Named
@@ -145,7 +145,7 @@ Use this value when the objects contain version history in the documentation tri
 ```yaml
 Type: DocumentationConflictAction
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 Accepted values: Strict, ModifiedFirst, TargetFirst
 
 Required: False
@@ -161,7 +161,23 @@ Forces the cmdlet to overwrite any existing files in the Result folder.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Legacy
+Reduces the scope of the cmdlet.
+Do not set this parameter.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: DevBaseCompatibility
 
 Required: False
 Position: Named
@@ -194,7 +210,8 @@ In the result of the update, the Modified property is set to the value from the 
 ```yaml
 Type: ModifiedPropertyAction
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+Accepted values: Yes, No, FromTarget, FromModified
 
 Required: False
 Position: Named
@@ -210,7 +227,7 @@ If you do not set this parameter, the cmdlet returns a list of the files.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -229,7 +246,7 @@ Parameter Sets: (All)
 Aliases: Result
 
 Required: True
-Position: 4
+Position: 3
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -242,7 +259,7 @@ If this parameter is not set, these conflicts are suppressed to reduce "noise".
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -260,7 +277,7 @@ Parameter Sets: (All)
 Aliases: Target
 
 Required: True
-Position: 2
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -286,26 +303,12 @@ In the result of the update, the Version List property is set to the value from 
 ```yaml
 Type: VersionListPropertyAction
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+Accepted values: Clear, FromTarget, FromModified
 
 Required: False
 Position: Named
 Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Confirm
-Prompts you for confirmation before running the cmdlet.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: cf
-
-Required: False
-Position: Named
-Default value: False
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -340,4 +343,5 @@ Otherwise, this cmdlet does not generate any output.
 ## NOTES
 
 ## RELATED LINKS
+
 [Compare-NAVApplicationObject](Compare-NAVApplicationObject.md)
