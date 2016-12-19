@@ -25,7 +25,6 @@ You might already be familiar with the extension model working with [!INCLUDE[na
 
 
 If you're new to building extensions for [!INCLUDE[navnow_md](includes/navnow_md.md)], we recommend that you read this document to get an understanding of the basics and terms you will encounter while working. Next, follow the [Getting Started](newdev-get-started.md) to set up your system.
-<!-- and then jump straight into your first extension - Hello World [link to hello world]().-->
 
 ## Understanding Objects in Dynamics NAV
 All functionality in [!INCLUDE[navnow_md](includes/navnow_md.md)] is coded in objects. Table objects define the table schema that holds data, page objects represent the pages seen in the user interface and codeunits contain code for logical calculations and for the application behavior. These objects are stored as code, known as AL code, and are saved in files with the ```.al``` file extension.  
@@ -33,11 +32,10 @@ All functionality in [!INCLUDE[navnow_md](includes/navnow_md.md)] is coded in ob
 > [!NOTE]  
 > A single .al file may contain multiple objects.      
 
-There are two other special objects which are specifically used for building extensions. Table extension objects and page extension objects are used for defining additive or overriding changes to table or page objects. For example, an extension for managing a business that sells organic food may define a table extension object for the Item table that contains an additional field ```Organic``` and ```Produced Locally```. The ```Organic``` and ```Produced Locally``` fields aren't usually present in the Item table, but through the table extension these data fields will now be available to store data in and to access from code. <!-- Maybe add a line about the page extension, such as "you can then use the page extension object to display the fields". -->
+There are two other special objects which are specifically used for building extensions. Table extension objects and page extension objects are used for defining additive or overriding changes to table or page objects. For example, an extension for managing a business that sells organic food may define a table extension object for the Item table that contains an additional field ```Organic``` and ```Produced Locally```. The ```Organic``` and ```Produced Locally``` fields aren't usually present in the Item table, but through the table extension these data fields will now be available to store data in and to access from code. You can then use the page page extension object to display the fields that you added to the table object.
 
 > [!NOTE]  
 > Table and page extension objects can have a name with a maximum length of 30 characters.      
-
 
 For more information, see [Page Extension Object](newdev-page-ext-object.md) and [Table Extension Object](newdev-table-ext-object.md).
 
@@ -67,7 +65,7 @@ The syntax of the AL language is designed to assist in building business applica
 |```tfield```| Table field structure|
 |```tfieldpage```| Page field structure|
 |```ttrigger```| Trigger structure|
-|```tprocedure```| Procedure structure <!-- Is a "procedure" what is known as a "function" is in the AL in the classic dev? Might be worth mentioning if so.-->|
+|```tprocedure```| Function structure | 
 |```tassert```| Assert error structure|
 |```twithdo```| With do structure|
 |```tif```| If structure|
@@ -80,7 +78,7 @@ The syntax of the AL language is designed to assist in building business applica
 |```[EventSubscriber("```| EventSubscriber structure|
 
 
-The changes from the existing [!INCLUDE[navnow_md](includes/navnow_md.md)] language and AL can be found in links in this section <!-- Suggestion: Instead of "links in this section" how about "these links:". Also, do the link topics highight differences from C\SIDE?-->.
+The changes from the existing [!INCLUDE[navnow_md](includes/navnow_md.md)] language and AL can be found in these topics:
 
 - [Table Object](newdev-table-object.md)
 - [Table Extension Object](newdev-table-ext-object.md)
