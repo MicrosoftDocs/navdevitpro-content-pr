@@ -33,7 +33,7 @@ All functionality in [!INCLUDE[navnow_md](includes/navnow_md.md)] is coded in ob
 > [!NOTE]  
 > A single .al file may contain multiple objects.      
 
-There are two other special objects which are specifically used for building extensions. Table extension objects and page extension objects are used for defining additive or overriding changes to page or table objects. For example, an extension for managing a business that sells organic food may define a table extension object for the Item table that contains an additional field ```Organic``` and ```Produced Locally```. The ```Organic``` and ```Produced Locally``` fields aren't usually present in the Item table, but through the table extension these data fields will now be available to store data in and to access from code.
+There are two other special objects which are specifically used for building extensions. Table extension objects and page extension objects are used for defining additive or overriding changes to table or page objects. For example, an extension for managing a business that sells organic food may define a table extension object for the Item table that contains an additional field ```Organic``` and ```Produced Locally```. The ```Organic``` and ```Produced Locally``` fields aren't usually present in the Item table, but through the table extension these data fields will now be available to store data in and to access from code. <!-- Maybe add a line about the page extension, such as "you can then use the page extension object to display the fields". -->
 
 > [!NOTE]  
 > Table and page extension objects can have a name with a maximum length of 30 characters.      
@@ -55,7 +55,7 @@ Visual Studio Code and the AL Extension lets you do the following tasks:
 For more information, see [Visual Studio Code Docs](https://code.visualstudio.com/docs).
 
 ## Syntax
-The syntax of the AL language is designed to assist in building business applications. The AL language is an evolution from the original programming languge used in [!INCLUDE[navnow_md](includes/navnow_md.md)] and resembles it very closely. From code, you have access to various snippets that will give you a template for a specific object type. 
+The syntax of the AL language is designed to assist in building business applications. The AL language is an evolution from the original programming language used in [!INCLUDE[navnow_md](includes/navnow_md.md)] and resembles it very closely. From code, you have access to various snippets that will give you a template for a specific object type. 
 
 |Type... | To get a... |
 |--------|-------------|
@@ -67,7 +67,7 @@ The syntax of the AL language is designed to assist in building business applica
 |```tfield```| Table field structure|
 |```tfieldpage```| Page field structure|
 |```ttrigger```| Trigger structure|
-|```tprocedure```| Procedure structure|
+|```tprocedure```| Procedure structure <!-- Is a "procedure" what is known as a "function" is in the AL in the classic dev? Might be worth mentioning if so.-->|
 |```tassert```| Assert error structure|
 |```twithdo```| With do structure|
 |```tif```| If structure|
@@ -80,7 +80,7 @@ The syntax of the AL language is designed to assist in building business applica
 |```[EventSubscriber("```| EventSubscriber structure|
 
 
-The changes from the existing [!INCLUDE[navnow_md](includes/navnow_md.md)] language and AL can be found in links in this section.
+The changes from the existing [!INCLUDE[navnow_md](includes/navnow_md.md)] language and AL can be found in links in this section <!-- Suggestion: Instead of "links in this section" how about "these links:". Also, do the link topics highight differences from C\SIDE?-->.
 
 - [Table Object](newdev-table-object.md)
 - [Table Extension Object](newdev-table-ext-object.md)
@@ -88,7 +88,7 @@ The changes from the existing [!INCLUDE[navnow_md](includes/navnow_md.md)] langu
 - [Page Extension Object](newdev-page-ext-object.md)
 - [Codeunit Object](newdev-codeunit-object.md)
 
-For information about AL language changes, see [Differences in the Dynamics NAV Development Environments](newdev-differences.md)
+For information about AL language changes, see [Differences in the Dynamics NAV Development Environments](newdev-differences.md).
 
 ## In-client designer
 The in-client designer works in the client itself allowing design of pages using a drag-and-drop interface. The in-client designer allows building extensions in the client itself by rearranging fields, adding fields, and previewing the page design. For more information, see [Using the Dynamics NAV In-Client Designer](newdev-inclient-designer.md).
