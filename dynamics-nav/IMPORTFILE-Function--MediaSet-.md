@@ -42,7 +42,7 @@ Adds a media, such as a JPEG image, to the **MediaSet** data type field of a rec
  *MimeType*  
  Type: Text  
 
-[!INCLUDE[mimetype](includes/MimeType.md)]
+[!INCLUDE[mimetype](includes/mimetype_md.md)]
 
 ## Property Value/Return Value  
  Type: GUID  
