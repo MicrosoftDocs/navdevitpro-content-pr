@@ -22,8 +22,8 @@ The following sections provide an overview of the new, changed, and removed cmdl
 |[Get-NAVServerAppConfiguration](Microsoft.Dynamics.Nav.Management/Get-NAVServerAppConfiguration.md)|Returns the settings in an application-specific configuration file of a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
 |[New-NAVServerAppConfiguration](Microsoft.Dynamics.Nav.Management/New-NAVServerAppConfiguration.md)|Creates a new server application specific configuration file.|
 |[Set-NAVServerAppConfiguration](Microsoft.Dynamics.Nav.Management/Set-NAVServerAppConfiguration.md)|Specifies a setting in an application-specific configuration file for a [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
-|[Import-NAVConfigurationPackageFile]((Microsoft.Dynamics.Nav.Management/Import-NAVConfigurationPackageFile.md)|Imports a configuration package file into the application database.|
-|[Remove-NAVConfigurationPackageFile]((Microsoft.Dynamics.Nav.Management/Remove-NAVConfigurationPackageFile.md)| Removes a configuration package file from the application database.|
+|[Import-NAVConfigurationPackageFile](Microsoft.Dynamics.Nav.Management/Import-NAVConfigurationPackageFile.md)|Imports a configuration package file into the application database.|
+|[Remove-NAVConfigurationPackageFile](Microsoft.Dynamics.Nav.Management/Remove-NAVConfigurationPackageFile.md)| Removes a configuration package file from the application database.|
 |[Import-NAVMembershipEntitlement](Microsoft.Dynamics.Nav.Management/Import-NAVMembershipEntitlement.md)|Imports the license entitlement data for a membership association.|
 |[Update-NAVScheduledTaskList](Microsoft.Dynamics.Nav.Management/Update-NAVScheduledTaskList.md)|Updates the application-wide list of scheduled tasks with the information from the tenant database.|
 
@@ -35,7 +35,8 @@ The following sections provide an overview of the new, changed, and removed cmdl
 |------------|---------------------------------------|  
 |[Get-NAVAppTableModification](Microsoft.Dynamics.Nav.Apps.Management/Get-NAVAppTableModification.md)|Gets information about the tabled added or modified by an extension based on the specified [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
 |[Remove-NAVAppsForTenant](Microsoft.Dynamics.Nav.Apps.Management/Remove-NAVAppsForTenant.md)| Removes all NAV Apps from the specified, unmounted tenant. This cmdlet should be run against tenants that are not mounted.|
-|[Get-NAVTableSynchSetupForDataUpgrade](Microsoft.Dynamics.Nav.Apps.Management/Get-NAVTableSynchSetupForDataUpgrade.md)|Gets information about the tables that will be modified, added, or removed during a tenant data upgrade on the specified  [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|
+
+<!--|[Get-NAVTableSynchSetupForDataUpgrade](Microsoft.Dynamics.Nav.Apps.Management/Get-NAVTableSynchSetupForDataUpgrade.md)|Gets information about the tables that will be modified, added, or removed during a tenant data upgrade on the specified  [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance.|-->
 
 ### Changed cmdlets  
 

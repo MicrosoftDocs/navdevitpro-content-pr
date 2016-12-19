@@ -13,7 +13,7 @@ Creates a NAV App package file (.navx) at the specified location based on the sp
 
 ```
 New-NAVAppPackage [-Path] <String> [-Manifest] <NavAppManifest> [-SourcePath] <String[]> [[-Logo] <String>]
- [[-ScreenShots] <String[]>] [-PassThru] [-Force] [-WhatIf] [-Confirm]
+ [[-ScreenShots] <String[]>] [-PassThru] [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -52,13 +52,28 @@ This example creates a new NAV App package using the NAV App manifest file and s
 
 ## PARAMETERS
 
+### -Confirm
+Prompts you for confirmation before executing the command.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: cf
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -Force
 Forces the command to run without asking for user confirmation to overwrite an existing package file at the given path.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -73,10 +88,10 @@ Specifies the path to and image file to use as the logo when creating this Nav A
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
-Position: 5
+Position: 4
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -89,10 +104,10 @@ You can pass this object from the New-NAVAppManifest or Get-NAVAppManifest cmdle
 ```yaml
 Type: NavAppManifest
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 3
+Position: 2
 Default value: None
 Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
@@ -104,7 +119,7 @@ Returns the path of the created package file.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -122,7 +137,7 @@ Parameter Sets: (All)
 Aliases: OutputPath, Output
 
 Required: True
-Position: 2
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -136,13 +151,13 @@ Use a comma (,) to separate multiple paths.
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
-Position: 6
+Position: 5
 Default value: None
 Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: True
+Accept wildcard characters: False
 ```
 
 ### -SourcePath
@@ -152,27 +167,12 @@ Use a comma (,) to separate multiple paths as in the following example: C:\NavAp
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 4
+Position: 3
 Default value: None
 Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: True
-```
-
-### -Confirm
-Prompts you for confirmation before executing the command.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: cf
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -199,6 +199,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
+
 ## RELATED LINKS
 
 [Get-NAVAppManifest](https://go.microsoft.com/fwlink/?linkid=616072)
