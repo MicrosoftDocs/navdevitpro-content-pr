@@ -44,7 +44,7 @@ Type: Media
  *MimeType*  
  Type: Text
 
-[!INCLUDE[mimetype](includes/mimetype-md.md)]
+[!INCLUDE[mimetype](includes/mimetype_md.md)]
 
 ## Property Value/Return Value
  Type: GUID
