@@ -3,7 +3,7 @@ title: "Table Extension Object"
 description: "Description of the table extension object."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 12/14/2016
+ms.date: 12/19/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -29,10 +29,10 @@ Typing the shortcut ```ttableext``` will create the basic layout for a table ext
 ## Properties
 Using a table extension allows you to overwrite some properties on fields in the base table. The following properties can be changed:
 
-- optioncaptionML
-- closing date
-- description
-- width
+- OptionCaptionML
+- ClosingDates
+- Description
+- Width
 
 ## Table Extension example
 This table extension object extends the Customer table object by adding a field ```ShoeSize```, with ID 70000900 and the data type ```Integer```. It also contains a procedure to check if the ```ShoeSize``` field is filled in. 
@@ -72,6 +72,6 @@ Tables
 
 ## See Also
 [Developer Reference](newdev-reference-overview.md)  
-[Table Object](newdev-table-object.md)
+[Table Object](newdev-table-object.md)  
 [Tables](tables.md)  
 [Table Properties](table-properties.md)
