@@ -12,7 +12,7 @@ Gets service details for the specified Dynamics NAV Server instance.
 ## SYNTAX
 
 ```
-Get-NAVServerInstance [[-ServerInstance] <String>] [-AsXml] [-Force]
+Get-NAVServerInstance [[-ServerInstance] <String>] [-AsXml] [-Force] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -39,21 +39,6 @@ This example returns status information for the MyInstance Microsoft Dynamics NA
 
 ## PARAMETERS
 
-### -AsXml
-Formats the cmdlet output as an XML document.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -ServerInstance
 Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
 You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
@@ -61,12 +46,27 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### -AsXml
+Formats the cmdlet output as an XML document.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -76,7 +76,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -102,6 +102,7 @@ Returns the Microsoft Dynamics NAV Server instances as well-formatted text.
 If you use the AsXml parameter, then the cmdlet returns the Microsoft Dynamics NAV Server instances as an XML document
 
 ## NOTES
+
 ## RELATED LINKS
 
 [New-NAVServerInstance](New-NAVServerInstance.md)

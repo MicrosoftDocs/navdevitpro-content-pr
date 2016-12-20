@@ -35,6 +35,9 @@ Finds the specified record in a dataset on a test page.
  Type: Boolean  
   
  **true** if the specified record is found; otherwise, **false**. The return value is optional.  
-  
+
+## Remarks
+The GOTORECORD function loops over all records until it finds the identifies record.  For each record, the [OnAfterGetCurrentRecord trigger](OnAfterGetCurrRecord-Trigger.md) is executed.  
+
 ## See Also  
  [TestPage Functions](TestPage-Functions.md)

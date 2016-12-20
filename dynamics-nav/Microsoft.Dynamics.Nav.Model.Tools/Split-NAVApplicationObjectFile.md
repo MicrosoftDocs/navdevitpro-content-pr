@@ -13,7 +13,7 @@ Splits a text file that contains two or more application objects into separate t
 
 ```
 Split-NAVApplicationObjectFile [-Source] <String> [[-Destination] <String>] [-PassThru] [-PreserveFormatting]
- [-Force] [-WhatIf] [-Confirm]
+ [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -43,6 +43,21 @@ This makes it easier to compare files afterwards, for example.
 
 ## PARAMETERS
 
+### -Confirm
+Prompts you for confirmation before running the cmdlet.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: cf
+
+Required: False
+Position: Named
+Default value: False
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -Destination
 Specifies the folder where the resulting text files must be put.
 
@@ -51,10 +66,10 @@ For example, to use the TXT folder that is a subfolder to the current folder, ty
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
-Position: 3
+Position: 2
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -66,7 +81,7 @@ Forces the cmdlet to overwrite any existing files in the Destination folder.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -82,7 +97,7 @@ If you do not set this parameter, the cmdlet returns a list of the files.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -101,7 +116,7 @@ As a result, the object in the generated text file can look different from the s
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -121,24 +136,9 @@ Parameter Sets: (All)
 Aliases: PSPath
 
 Required: True
-Position: 2
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -Confirm
-Prompts you for confirmation before running the cmdlet.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: cf
-
-Required: False
-Position: Named
-Default value: False
-Accept pipeline input: False
 Accept wildcard characters: False
 ```
 

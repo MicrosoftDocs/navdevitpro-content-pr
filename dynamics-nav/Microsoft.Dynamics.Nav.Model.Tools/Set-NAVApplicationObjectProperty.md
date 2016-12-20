@@ -14,6 +14,7 @@ Sets Microsoft Dynamics NAV application object properties in the specified appli
 ```
 Set-NAVApplicationObjectProperty [-TargetPath] <String[]> [-VersionListProperty <String>]
  [-ModifiedProperty <SetModifiedPropertyAction>] [-DateTimeProperty <String>] [-PassThru] [-WhatIf] [-Confirm]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -69,6 +70,21 @@ When the update completes, the status is shown, including the updated values of 
 
 ## PARAMETERS
 
+### -Confirm
+Prompts you for confirmation before running the cmdlet.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: cf
+
+Required: False
+Position: Named
+Default value: False
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -DateTimeProperty
 Specifies the value of the Date and Time properties that you want to apply to the specified application objects, such as 01-01-2017.
 You must specify date and time according to the locale of the computer that you are running Microsoft Dynamics NAV 2017 Development Shell on.
@@ -81,7 +97,7 @@ For more information, see the example section.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -105,7 +121,8 @@ The Modified property is set to No.
 ```yaml
 Type: SetModifiedPropertyAction
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+Accepted values: Yes, No
 
 Required: False
 Position: Named
@@ -121,7 +138,7 @@ If you do not set this parameter, the cmdlet returns a list of the changes.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -140,7 +157,7 @@ Parameter Sets: (All)
 Aliases: PSPath, Target
 
 Required: True
-Position: 2
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
@@ -158,27 +175,12 @@ Alternatively, you can get the property values from the objects first and then a
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Confirm
-Prompts you for confirmation before running the cmdlet.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: cf
-
-Required: False
-Position: Named
-Default value: False
-Accept pipeline input: False
 Accept wildcard characters: False
 ```
 

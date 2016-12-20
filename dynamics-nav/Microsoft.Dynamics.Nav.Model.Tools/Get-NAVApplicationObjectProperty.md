@@ -12,7 +12,7 @@ Gets Microsoft Dynamics NAV application object properties from the specified app
 ## SYNTAX
 
 ```
-Get-NAVApplicationObjectProperty [-Source] <String[]>
+Get-NAVApplicationObjectProperty [-Source] <String[]> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -40,7 +40,7 @@ Parameter Sets: (All)
 Aliases: PSPath
 
 Required: True
-Position: 2
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False

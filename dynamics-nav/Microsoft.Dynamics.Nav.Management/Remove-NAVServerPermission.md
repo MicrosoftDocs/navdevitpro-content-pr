@@ -13,7 +13,7 @@ Removes a permission from a permission set.
 
 ```
 Remove-NAVServerPermission -PermissionSetId <String> -ObjectType <ObjectType> -ObjectId <Int32>
- [-ServerInstance] <String> [-Force] [-WhatIf] [-Confirm]
+ [-ServerInstance] <String> [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -31,13 +31,13 @@ This example removes a permission from the permission set AVOCADO.
 
 ## PARAMETERS
 
-### -ObjectId
-Specifies the ID of the object that the permission applies to.
+### -PermissionSetId
+Specifies the ID for a permission set, such as SUPER or BASIC.
 
 ```yaml
-Type: Int32
+Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -82,7 +82,8 @@ TablePage = 13
 ```yaml
 Type: ObjectType
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+Accepted values: TableData, Table, Form, Report, Dataport, CodeUnit, XmlPort, MenuSuite, Page, Query, System, FieldNumber, LimitedUsageTableData, TablePage, PageExtension, TableExtension
 
 Required: True
 Position: Named
@@ -91,13 +92,13 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -PermissionSetId
-Specifies the ID for a permission set, such as SUPER or BASIC.
+### -ObjectId
+Specifies the ID of the object that the permission applies to.
 
 ```yaml
-Type: String
+Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -113,12 +114,27 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### -Force
+Forces the command to run without asking for user confirmation.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -152,21 +168,6 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Forces the command to run without asking for user confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
@@ -180,6 +181,7 @@ You can pipe a string that contains a Microsoft Dynamics NAV Server instance nam
 ### None
 
 ## NOTES
+
 ## RELATED LINKS
 
 [Get-NAVServerPermission](Get-NAVServerPermission.md)

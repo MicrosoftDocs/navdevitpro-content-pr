@@ -1,5 +1,5 @@
 ---
-external help file: Microsoft.Dynamics.Nav.Apps.Management.dll-Help.xml
+external help file: Microsoft.Dynamics.Nav.apps.Management.dll-Help.xml
 online version: https://go.microsoft.com/fwlink/?linkid=618056
 schema: 2.0.0
 ---
@@ -14,13 +14,13 @@ Installs a published NAV App for a tenant.
 ### Properties (Default)
 ```
 Install-NAVApp [-ServerInstance] <String> -Name <String> [-Publisher <String>] [-Version <Version>]
- [-Tenant <TenantId>] [-Language <LanguageSetting>] [-PassThru] [-DoNotLoadData] [-Force]
+ [-Tenant <TenantId>] [-Language <LanguageSetting>] [-PassThru] [-DoNotLoadData] [-Force] [<CommonParameters>]
 ```
 
 ### Path
 ```
 Install-NAVApp [-ServerInstance] <String> [-Tenant <TenantId>] -Path <String> [-Language <LanguageSetting>]
- [-PassThru] [-DoNotLoadData] [-Force]
+ [-PassThru] [-DoNotLoadData] [-Force] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -83,7 +83,7 @@ Specifies that the installation must run without loading any NAV App data that w
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -98,7 +98,7 @@ Forces the command to run without asking for user confirmation to install a depe
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -113,7 +113,7 @@ Specifies the language version of Dynamics NAV app. The value must be a valid cu
 ```yaml
 Type: LanguageSetting
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -143,7 +143,7 @@ Returns a NAV App object for the installed NAV App. The NAV App object contains 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -158,7 +158,7 @@ Specifies the path to a NAV App package file that you want to install for the te
 ```yaml
 Type: String
 Parameter Sets: Path
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -188,10 +188,10 @@ Specifies the Microsoft Dynamics NAV Server instance that the NAV App is publish
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
@@ -235,6 +235,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
+
 ## RELATED LINKS
 
 [Get-NavAppTenant](Get-NavAppTenant.md)

@@ -12,7 +12,7 @@ Returns the settings in an application-specific configuration file of a Dynamics
 ## SYNTAX
 
 ```
-Get-NAVServerAppConfiguration -ApplicationId <String> -ServerInstance <String> [-Force]
+Get-NAVServerAppConfiguration -ApplicationId <String> [-ServerInstance] <String> [-Force] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -38,7 +38,7 @@ For example, if the file name is CustomSettings.FIN.config, then the Application
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -54,10 +54,10 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: Named
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
@@ -69,7 +69,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -89,6 +89,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 An XML document containing key value pairs of the application specific server configuration.
 
 ## NOTES
+
 ## RELATED LINKS
 
 [New-NAVServerAppConfiguration](New-NAVServerAppConfiguration.md)

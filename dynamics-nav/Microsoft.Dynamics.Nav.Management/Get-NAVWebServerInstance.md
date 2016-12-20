@@ -12,7 +12,7 @@ Gets the information about the Microsoft Dynamics NAV Web Server instances that 
 ## SYNTAX
 
 ```
-Get-NAVWebServerInstance [[-WebServerInstance] <String>] [-Force]
+Get-NAVWebServerInstance [[-WebServerInstance] <String>] [-Force] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -56,10 +56,10 @@ If you omit this parameter, then the cmdlet returns information about all Micros
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -71,7 +71,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -94,6 +94,7 @@ You can pipe a string that contains a Microsoft Dynamics NAV Web Server instance
 Returns the Microsoft Dynamics NAV Web Server instance information as a row.
 
 ## NOTES
+
 ## RELATED LINKS
 
 [New-NAVWebServerInstance](New-NAVWebServerInstance.md)

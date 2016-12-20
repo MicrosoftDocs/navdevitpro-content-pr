@@ -13,7 +13,7 @@ Exports the specified custom report layout from a Microsoft Dynamics NAV databas
 
 ```
 Export-NAVAppReportLayout -LayoutCode <String[]> [-Tenant <TenantId>] -Path <String> [-ServerInstance] <String>
- [-PassThru] [-Force]
+ [-PassThru] [-Force] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -51,7 +51,7 @@ Forces the command to run without asking for user confirmation to overwrite an e
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -66,7 +66,7 @@ Specifies the Code of the report layout that will be exported.
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -81,7 +81,7 @@ Returns the path to the report layout file.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -96,7 +96,7 @@ Specifies the name and location of the file that the report layout is exported t
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -111,10 +111,10 @@ Specifies the Microsoft Dynamics NAV Server instance that the report layout will
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
@@ -127,7 +127,7 @@ If the server instance is configured for single tenant, do not set the parameter
 ```yaml
 Type: TenantId
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -135,6 +135,7 @@ Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
+
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
@@ -143,4 +144,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
+
 ## RELATED LINKS
+

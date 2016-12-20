@@ -15,7 +15,7 @@ Adds a permission to a permission set.
 New-NAVServerPermission -PermissionSetId <String> -ObjectType <ObjectType> -ObjectId <Int32>
  [-SecurityFilter <String>] [-Read <PermissionOption>] [-Insert <PermissionOption>]
  [-Modify <PermissionOption>] [-Delete <PermissionOption>] [-Execute <PermissionOption>]
- [-ServerInstance] <String> [-Force] [-WhatIf] [-Confirm]
+ [-ServerInstance] <String> [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -32,101 +32,13 @@ This example updates the Read permission for the specified page object to Indire
 
 ## PARAMETERS
 
-### -Delete
-Specifies whether the permission includes delete permission for the object.
-You can use either a string value (such as No) or a numeric value (such as 0).
-
-No = 0
-
-Yes = 1
-
-Indirect = 2
+### -PermissionSetId
+The ID of the permission set that you are updating, such as BASIC or SUPER.
 
 ```yaml
-Type: PermissionOption
+Type: String
 Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Execute
-Specifies whether the permission includes execute permission for the object.
-You can use either a string value (such as No) or a numeric value (such as 0).
-
-No = 0
-
-Yes = 1
-
-Indirect = 2
-
-```yaml
-Type: PermissionOption
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Insert
-Specifies whether the permission includes insert permission for the object.
-You can use either a string value (such as No) or a numeric value (such as 0).
-
-No = 0
-
-Yes = 1
-
-Indirect = 2
-
-```yaml
-Type: PermissionOption
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Modify
-Specifies whether the permission includes modify permission for the object.
-You can use either a string value (such as No) or a numeric value (such as 0).
-
-No = 0
-
-Yes = 1
-
-Indirect = 2
-
-```yaml
-Type: PermissionOption
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ObjectId
-Specifies the ID of the object the permission applies to.
-
-```yaml
-Type: Int32
-Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -166,7 +78,8 @@ FieldNumber = 11
 ```yaml
 Type: ObjectType
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+Accepted values: TableData, Table, Form, Report, Dataport, CodeUnit, XmlPort, MenuSuite, Page, Query, System, FieldNumber, LimitedUsageTableData, TablePage, PageExtension, TableExtension
 
 Required: True
 Position: Named
@@ -175,15 +88,30 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PermissionSetId
-The ID of the permission set that you are updating, such as BASIC or SUPER.
+### -ObjectId
+Specifies the ID of the object the permission applies to.
+
+```yaml
+Type: Int32
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -SecurityFilter
+Specifies a security filter for the permission.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
@@ -203,7 +131,8 @@ Indirect = 2
 ```yaml
 Type: PermissionOption
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+Accepted values: No, Yes, Indirect
 
 Required: False
 Position: Named
@@ -212,13 +141,90 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -SecurityFilter
-Specifies a security filter for the permission.
+### -Insert
+Specifies whether the permission includes insert permission for the object.
+You can use either a string value (such as No) or a numeric value (such as 0).
+
+No = 0
+
+Yes = 1
+
+Indirect = 2
 
 ```yaml
-Type: String
+Type: PermissionOption
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+Accepted values: No, Yes, Indirect
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Modify
+Specifies whether the permission includes modify permission for the object.
+You can use either a string value (such as No) or a numeric value (such as 0).
+
+No = 0
+
+Yes = 1
+
+Indirect = 2
+
+```yaml
+Type: PermissionOption
+Parameter Sets: (All)
+Aliases: 
+Accepted values: No, Yes, Indirect
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Delete
+Specifies whether the permission includes delete permission for the object.
+You can use either a string value (such as No) or a numeric value (such as 0).
+
+No = 0
+
+Yes = 1
+
+Indirect = 2
+
+```yaml
+Type: PermissionOption
+Parameter Sets: (All)
+Aliases: 
+Accepted values: No, Yes, Indirect
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Execute
+Specifies whether the permission includes execute permission for the object.
+You can use either a string value (such as No) or a numeric value (such as 0).
+
+No = 0
+
+Yes = 1
+
+Indirect = 2
+
+```yaml
+Type: PermissionOption
+Parameter Sets: (All)
+Aliases: 
+Accepted values: No, Yes, Indirect
 
 Required: False
 Position: Named
@@ -234,12 +240,27 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### -Force
+Forces the command to run without asking for user confirmation.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -273,21 +294,6 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Forces the command to run without asking for user confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
@@ -301,6 +307,7 @@ You can pipe a string that contains a Microsoft Dynamics NAV Server instance nam
 ### None
 
 ## NOTES
+
 ## RELATED LINKS
 
 [Get-NAVServerPermission](Get-NAVServerPermission.md)

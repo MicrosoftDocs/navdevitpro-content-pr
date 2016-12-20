@@ -13,7 +13,7 @@ Exports the specified web service from a Microsoft Dynamics NAV database to a fi
 
 ```
 Export-NAVAppTenantWebService -ServiceName <String> -ObjectType <String> -ObjectId <Int32> [-Tenant <TenantId>]
- -Path <String> [-ServerInstance] <String> [-PassThru] [-Force]
+ -Path <String> [-ServerInstance] <String> [-PassThru] [-Force] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -47,7 +47,7 @@ Forces the command to run without asking for user confirmation to overwrite an e
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -62,7 +62,7 @@ Specifies the object ID of the web service that will be exported.
 ```yaml
 Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -77,7 +77,8 @@ Specifies the object type of the web service that will be exported.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+Accepted values: CodeUnit, Page, Query
 
 Required: True
 Position: Named
@@ -92,7 +93,7 @@ Returns the path to the web service file.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -107,7 +108,7 @@ Specifies the name and location of the file that the web service is exported to.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -122,10 +123,10 @@ Specifies the Microsoft Dynamics NAV Server instance that the web service will b
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
@@ -137,7 +138,7 @@ Specifies the service name of the web service that will be exported.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -170,4 +171,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
+
 ## RELATED LINKS
+

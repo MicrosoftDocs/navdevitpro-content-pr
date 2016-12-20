@@ -13,7 +13,7 @@ Removes the specified web services from the application that is mounted against 
 
 ```
 Remove-NAVWebService -ObjectType <ObjectType> -ServiceName <String> [-ServerInstance] <String> [-Force]
- [-WhatIf] [-Confirm]
+ [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -36,7 +36,23 @@ Specifies the type of the object that the web service exposes. SOAP web services
 ```yaml
 Type: ObjectType
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+Accepted values: TableData, Table, Form, Report, Dataport, CodeUnit, XmlPort, MenuSuite, Page, Query, System, FieldNumber, LimitedUsageTableData, TablePage, PageExtension, TableExtension
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ServiceName
+The name of the web service that you want to remove.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
 
 Required: True
 Position: Named
@@ -51,27 +67,27 @@ Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV o
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -ServiceName
-The name of the web service that you want to remove.
+### -Force
+Forces the command to run without asking for user confirmation.
 
 ```yaml
-Type: String
+Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
-Required: True
+Required: False
 Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -105,21 +121,6 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Forces the command to run without asking for user confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### CommonParameters
 This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
@@ -128,6 +129,7 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 ## OUTPUTS
 
 ## NOTES
+
 ## RELATED LINKS
 
 [Get-NAVWebService](Get-NAVWebService.md)

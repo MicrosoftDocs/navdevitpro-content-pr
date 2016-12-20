@@ -13,6 +13,7 @@ Exports license information from the Microsoft Dynamics NAV database.
 
 ```
 Export-NAVServerLicenseInformation [-Tenant <TenantId>] [-ServerInstance] <String> [-Force]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -35,22 +36,6 @@ This example exports license info to the console window.
 
 ## PARAMETERS
 
-### -ServerInstance
-Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
-You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
 ### -Tenant
 Specifies the ID of the tenant that the license is stored in, such as Tenant1.
 This parameter is required unless the specified service instance is not configured to run multiple tenants.
@@ -67,13 +52,29 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
+### -ServerInstance
+Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
+You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
 ### -Force
 Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -96,6 +97,7 @@ You can pipe a string that contains a Microsoft Dynamics NAV Server instance nam
 Returns license information as well-formatted text.
 
 ## NOTES
+
 ## RELATED LINKS
 
 [Import-NAVServerLicense](Import-NAVServerLicense.md)

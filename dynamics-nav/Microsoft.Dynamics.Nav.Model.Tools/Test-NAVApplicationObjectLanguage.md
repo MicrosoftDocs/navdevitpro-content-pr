@@ -13,6 +13,7 @@ Tests captions in Microsoft Dynamics NAV application objects to test to validate
 
 ```
 Test-NAVApplicationObjectLanguage [-Source] <String[]> [-LanguageId] <String[]> [-PassThru]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -67,10 +68,10 @@ If you do not set this parameter, all available languages are tested.
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 3
+Position: 2
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -82,7 +83,7 @@ Specifies if you want to return a collection of objects that describe the missin
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -101,7 +102,7 @@ Parameter Sets: (All)
 Aliases: PSPath
 
 Required: True
-Position: 2
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
