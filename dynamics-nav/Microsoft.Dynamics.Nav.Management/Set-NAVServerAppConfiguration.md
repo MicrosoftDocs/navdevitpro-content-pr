@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=827798
 schema: 2.0.0
 ---
 
@@ -13,7 +13,7 @@ Specifies a setting in an application-specific configuration file for a Dynamics
 
 ```
 Set-NAVServerAppConfiguration -ApplicationId <String> -KeyName <String> [-KeyValue <String>]
- -ServerInstance <String> [-Force] [-WhatIf] [-Confirm]
+ [-ServerInstance] <String> [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -48,7 +48,7 @@ For example, if the file name is CustomSettings.FIN.config, then the Application
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -66,14 +66,14 @@ This parameter is used by the GETURL function on the server-side to produce the 
 
 Currently, the supported values are: ms-financials and ms-dynamicsnav.
 
-AppIdUri - Specifies the APP ID URI that is assigned to the Dynamics NAV application in Azure Active Directory (Azure AD). 
+AppIdUri - Specifies the APP ID URI that is assigned to the Dynamics NAV application in Azure Active Directory (Azure AD).
 
 AzureActiveDirectoryClientApplicationId - Specifies the CLIENT ID that is assigned to the Dynamics NAV application in Azure AD.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -88,7 +88,7 @@ Specifies the value for the configuration setting that is defined by the KeyName
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -104,12 +104,27 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: Named
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### -Force
+Forces the command to run without asking for user confirmation.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -120,21 +135,6 @@ Prompts you for confirmation before running the cmdlet.
 Type: SwitchParameter
 Parameter Sets: (All)
 Aliases: cf
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Force
-Forces the command to run without asking for user confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
 
 Required: False
 Position: Named
@@ -159,12 +159,17 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ## OUTPUTS
 
 ## NOTES
+
 ## RELATED LINKS
+
 [Get-NAVServerAppConfiguration](Get-NAVServerAppConfiguration.md)
 
 [New-NAVServerAppConfiguration](New-NAVServerAppConfiguration.md)

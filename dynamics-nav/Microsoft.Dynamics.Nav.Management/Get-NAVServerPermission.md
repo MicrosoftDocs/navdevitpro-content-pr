@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=401361
 schema: 2.0.0
 ---
 
@@ -13,7 +13,7 @@ Returns information about the permissions that are applied to Dynamics NAV objec
 
 ```
 Get-NAVServerPermission [-PermissionSetId <String>] [-ObjectType <ObjectType>] [-ObjectId <Int32>]
- [-ServerInstance] <String> [-Force]
+ [-ServerInstance] <String> [-Force] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -56,13 +56,13 @@ This example returns information about all permission sets that include permissi
 
 ## PARAMETERS
 
-### -ObjectId
-Specifies an Object ID, such as 7702.
+### -PermissionSetId
+Specifies the ID for a permission set, such as SUPER or BASIC.
 
 ```yaml
-Type: Int32
+Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -103,7 +103,8 @@ FieldNumber = 11
 ```yaml
 Type: ObjectType
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+Accepted values: TableData, Table, Form, Report, Dataport, CodeUnit, XmlPort, MenuSuite, Page, Query, System, FieldNumber, LimitedUsageTableData, TablePage, PageExtension, TableExtension
 
 Required: False
 Position: Named
@@ -112,13 +113,13 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -PermissionSetId
-Specifies the ID for a permission set, such as SUPER or BASIC.
+### -ObjectId
+Specifies an Object ID, such as 7702.
 
 ```yaml
-Type: String
+Type: Int32
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -134,10 +135,10 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
@@ -149,7 +150,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -157,6 +158,9 @@ Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -169,17 +173,19 @@ You can pipe a string that contains a Microsoft Dynamics NAV Server instance nam
 Returns the Microsoft Dynamics NAV Server permissions information as a table.
 
 ## NOTES
+
 ## RELATED LINKS
-[New-NAVServerPermission](New-NAVServerPermission.md)  
 
-[Remove-NAVServerPermission](Remove-NAVServerPermission.md)  
+[New-NAVServerPermission](New-NAVServerPermission.md)
 
-[Set-NAVServerPermission](Set-NAVServerPermission.md)  
+[Remove-NAVServerPermission](Remove-NAVServerPermission.md)
 
-[Get-NAVServerPermissionSet](Get-NAVServerPermissionSet.md)  
+[Set-NAVServerPermission](Set-NAVServerPermission.md)
 
-[New-NAVServerPermissionSet](New-NAVServerPermissionSet.md)  
+[Get-NAVServerPermissionSet](Get-NAVServerPermissionSet.md)
 
-[Remove-NAVServerPermissionSet](Remove-NAVServerPermissionSet.md)  
+[New-NAVServerPermissionSet](New-NAVServerPermissionSet.md)
 
-[Set-NAVServerPermissionSet](Set-NAVServerPermissionSet.md)  
+[Remove-NAVServerPermissionSet](Remove-NAVServerPermissionSet.md)
+
+[Set-NAVServerPermissionSet](Set-NAVServerPermissionSet.md)

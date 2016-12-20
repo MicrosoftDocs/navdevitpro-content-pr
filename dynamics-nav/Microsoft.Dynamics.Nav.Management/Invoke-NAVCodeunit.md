@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=401370
 schema: 2.0.0
 ---
 
@@ -14,7 +14,7 @@ Invokes the specified codeunit with the specified parameters.
 ```
 Invoke-NAVCodeunit [-Tenant <TenantId>] [-CompanyName <String>] -CodeunitId <Int32> [-MethodName <String>]
  [-Argument <String>] [-Language <LanguageSetting>] [-TimeZone <InvokeCodeunitTimeZone>]
- [-ServerInstance] <String> [-Force]
+ [-ServerInstance] <String> [-Force] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -52,96 +52,6 @@ The example runs the UpgradeStep2 method in codeunit 104048, which is part of th
 
 ## PARAMETERS
 
-### -Argument
-Specifies a string argument that is passed to the specified method on the codeunit.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -CodeunitId
-Specifies the ID of the codeunit that you want to invoke. The Invoke-NAVCodeunit cmdlet calls the OnRun trigger in the specified codeunit. You can call another method if you specify it in the MethodName parameter.
-
-```yaml
-Type: Int32
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -CompanyName
-Specifies the name of the company that you want to run the codeunit in. If you do not set this parameter, the codeunit will run in the default company for the Microsoft Dynamics NAV Server instance.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Language
-Specifies the language that the codeunit will run in. You must specify a valid culture name for a language in Microsoft Dynamics NAV, such as en-US or da-DK. If the specified language does not exist on the Microsoft Dynamics NAV Server instance, the codeunit will run in en-US.
-
-```yaml
-Type: LanguageSetting
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -MethodName
-Specifies the method that will be called. If no method is specified, the OnRun trigger is called.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -ServerInstance
-Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance. You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
 ### -Tenant
 Specifies the ID of the tenant that you want to invoke the codeunit in, such as Tenant1.
 
@@ -159,18 +69,78 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Force
-Forces the command to run without asking for user confirmation.
+### -CompanyName
+Specifies the name of the company that you want to run the codeunit in. If you do not set this parameter, the codeunit will run in the default company for the Microsoft Dynamics NAV Server instance.
 
 ```yaml
-Type: SwitchParameter
+Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
 Default value: None
-Accept pipeline input: False
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -CodeunitId
+Specifies the ID of the codeunit that you want to invoke. The Invoke-NAVCodeunit cmdlet calls the OnRun trigger in the specified codeunit. You can call another method if you specify it in the MethodName parameter.
+
+```yaml
+Type: Int32
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -MethodName
+Specifies the method that will be called. If no method is specified, the OnRun trigger is called.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Argument
+Specifies a string argument that is passed to the specified method on the codeunit.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Language
+Specifies the language that the codeunit will run in. You must specify a valid culture name for a language in Microsoft Dynamics NAV, such as en-US or da-DK. If the specified language does not exist on the Microsoft Dynamics NAV Server instance, the codeunit will run in en-US.
+
+```yaml
+Type: LanguageSetting
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
@@ -191,7 +161,8 @@ ServicesDefaultTimeZone - Uses the default time zone that is configured web serv
 ```yaml
 Type: InvokeCodeunitTimeZone
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+Accepted values: Utc, ClientTimeZone, TenantTimeZone, ServicesDefaultTimeZone
 
 Required: False
 Position: Named
@@ -200,9 +171,44 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -ServerInstance
+Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance. You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### -Force
+Forces the command to run without asking for user confirmation.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ## OUTPUTS
 
 ## NOTES
+
 ## RELATED LINKS
+

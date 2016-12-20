@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=401404
 schema: 2.0.0
 ---
 
@@ -14,7 +14,7 @@ Starts the process for upgrading the data in the tenant database.
 ```
 Start-NAVDataUpgrade [[-Tenant] <TenantId>] [-Language <LanguageSetting>]
  [[-FunctionExecutionMode] <FunctionExecutionModeValue>] [-ContinueOnError] [-SkipCompanyInitialization]
- [-ServerInstance] <String> [-Force] [-WhatIf] [-Confirm]
+ [-ServerInstance] <String> [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -58,6 +58,61 @@ Failure in an upgrade function will suspend the upgrade process, which can then 
 
 ## PARAMETERS
 
+### -Tenant
+Specifies the ID of the tenant that you want to synchronize with the application, such as Tenant1.
+This parameter is required unless the specified service instance is not configured to run multiple tenants.
+
+```yaml
+Type: TenantId
+Parameter Sets: (All)
+Aliases: Id
+
+Required: False
+Position: 1
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Language
+Specifies the language in which the upgrade, specifically codeunits, will run. The value must be a valid culture name for a language in Microsoft Dynamics NAV, such as en-US or da-DK. If the specified language does not exist on the Microsoft Dynamics NAV Server instance, the language en-US will be used.
+
+The Resume-NAVDataUpgrade function will also run in the language that was used by bthe Start-NAV DataUpgrade cmdlet.
+
+This parameter is similar -Language paramter of the Invoke-NAVCodeunit cmdlet.
+
+```yaml
+Type: LanguageSetting
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -FunctionExecutionMode
+Specifies whether the Microsoft Dynamics NAV Server instance executes upgrade functions in series or parallel.
+
+If the parameter is set to Serial, then CheckPrecondition and Upgrade type functions for each company are executed in series (one after another).
+
+If the parameter is set to Parallel, then CheckPrecondition type functions will be executed for all companies in parallel (starting at the same time), and if completed successfully, then all Upgrade type functions for all companies will be executed in parallel.
+
+```yaml
+Type: FunctionExecutionModeValue
+Parameter Sets: (All)
+Aliases: 
+Accepted values: Parallel, Serial
+
+Required: False
+Position: 2
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -ContinueOnError
 Specifies whether the Microsoft Dynamics NAV Server instance continues to execute other upgrade functions when an error occurs while executing an upgrade function.
 
@@ -79,29 +134,25 @@ When upgrading a large database, you should increase the SQL Command Timeout set
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
-Position: 4
+Position: 3
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -FunctionExecutionMode
-Specifies whether the Microsoft Dynamics NAV Server instance executes upgrade functions in series or parallel.
-
-If the parameter is set to Serial, then CheckPrecondition and Upgrade type functions for each company are executed in series (one after another).
-
-If the parameter is set to Parallel, then CheckPrecondition type functions will be executed for all companies in parallel (starting at the same time), and if completed successfully, then all Upgrade type functions for all companies will be executed in parallel.
+### -SkipCompanyInitialization
+Specifies not to run codeunit 2 Company Initialization during the data upgrade.
 
 ```yaml
-Type: FunctionExecutionModeValue
+Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
-Position: 3
+Position: Named
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -115,43 +166,27 @@ You must include the name within single quotation marks.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -SkipCompanyInitialization
-Specifies not to run codeunit 2 Company Initialization during the data upgrade.
+### -Force
+Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Tenant
-Specifies the ID of the tenant that you want to synchronize with the application, such as Tenant1.
-This parameter is required unless the specified service instance is not configured to run multiple tenants.
-
-```yaml
-Type: TenantId
-Parameter Sets: (All)
-Aliases: Id
-
-Required: False
-Position: 2
-Default value: None
-Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
@@ -185,39 +220,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Forces the command to run without asking for user confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Language
-Specifies the language in which the upgrade, specifically codeunits, will run. The value must be a valid culture name for a language in Microsoft Dynamics NAV, such as en-US or da-DK. If the specified language does not exist on the Microsoft Dynamics NAV Server instance, the language en-US will be used.
-
-The Resume-NAVDataUpgrade function will also run in the language that was used by bthe Start-NAV DataUpgrade cmdlet. 
-
-This parameter is similar -Language paramter of the Invoke-NAVCodeunit cmdlet.
-
-```yaml
-Type: LanguageSetting
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -230,9 +234,10 @@ You can pass the value of the ServerInstance and Tenant parameters as a string t
 Because the functions in the steps are called in random order, you should design the functions so that they are independent from each other.
 
 ## RELATED LINKS
+
 [Get-NAVDataUpgrade](Get-NAVDataUpgrade.md)
 
-[Invoke-NAVCodeunit](Invoke-NAVCodeunit.md)  
+[Invoke-NAVCodeunit](Invoke-NAVCodeunit.md)
 
 [Resume-NAVDataUpgrade](Resume-NAVDataUpgrade.md)
 

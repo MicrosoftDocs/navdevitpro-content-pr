@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Model.Tools.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=398883
 schema: 2.0.0
 ---
 
@@ -13,6 +13,7 @@ Combines multiple application object files into one text file.
 
 ```
 Join-NAVApplicationObjectFile [-Source] <String[]> [-Destination] <String> [-Force] [-WhatIf] [-Confirm]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -30,6 +31,21 @@ When the merge completes, the status is shown with information about the file th
 
 ## PARAMETERS
 
+### -Confirm
+Prompts you for confirmation before running the cmdlet.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: cf
+
+Required: False
+Position: Named
+Default value: False
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -Destination
 Specifies the name and location of the generated text file.
 
@@ -38,10 +54,10 @@ For example, to generate the MyObjects.txt file in the current folder, type .\My
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 3
+Position: 2
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -53,7 +69,7 @@ Forces the cmdlet to overwrite any existing files in the Result folder.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -73,24 +89,9 @@ Parameter Sets: (All)
 Aliases: Result, PSPath
 
 Required: True
-Position: 2
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -Confirm
-Prompts you for confirmation before running the cmdlet.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: cf
-
-Required: False
-Position: Named
-Default value: False
-Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -110,6 +111,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ## OUTPUTS
@@ -117,8 +121,9 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
-[Join-NAVApplicationObjectLanguageFile](Join-NAVApplicationObjectLanguageFile.md)  
 
-[Merge-NAVApplicationObject](Merge-NAVApplicationObject.md)  
+[Join-NAVApplicationObjectLanguageFile](Join-NAVApplicationObjectLanguageFile.md)
 
-[Split-NAVApplicationObjectFile](Split-NAVApplicationObjectFile.md) 
+[Merge-NAVApplicationObject](Merge-NAVApplicationObject.md)
+
+[Split-NAVApplicationObjectFile](Split-NAVApplicationObjectFile.md)

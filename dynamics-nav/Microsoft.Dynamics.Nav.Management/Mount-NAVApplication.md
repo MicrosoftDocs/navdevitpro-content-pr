@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=401371
 schema: 2.0.0
 ---
 
@@ -14,7 +14,7 @@ Mounts the Microsoft Dynamics NAV application against the specified server insta
 ```
 Mount-NAVApplication [-DatabaseServer <String>] [-DatabaseInstance <DatabaseInstance>] -DatabaseName <String>
  [-DatabaseCredentials <PSCredential>] [-DoNotSaveConfiguration] [-ServerInstance] <String> [-Force] [-WhatIf]
- [-Confirm]
+ [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -41,15 +41,13 @@ This example mounts the Microsoft Dynamics NAV application on the DynamicsNAV se
 
 ## PARAMETERS
 
-### -DatabaseCredentials
-The user name and password of the login account that the Microsoft Dynamics NAV Server instance will use to connect to the Microsoft Dynamics NAV database in SQL Server.
-Setting parameter is configures the Microsoft Dynamics NAV Server instance to use SQL Server Authentication instead of Windows Authentication on the connection to the application database.
-The login account must be a member of the db_owner role on the database.
+### -DatabaseServer
+Specifies the name of the database server that hosts the application database that you want to mount against the Microsoft Dynamics NAV Server instance.
 
 ```yaml
-Type: PSCredential
+Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -65,7 +63,7 @@ You can also specify the instance in the DatabaseServer parameter, such as like 
 ```yaml
 Type: DatabaseInstance
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -80,7 +78,7 @@ Specifies the name of the application database that you want to mount against th
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -89,13 +87,15 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -DatabaseServer
-Specifies the name of the database server that hosts the application database that you want to mount against the Microsoft Dynamics NAV Server instance.
+### -DatabaseCredentials
+The user name and password of the login account that the Microsoft Dynamics NAV Server instance will use to connect to the Microsoft Dynamics NAV database in SQL Server.
+Setting parameter is configures the Microsoft Dynamics NAV Server instance to use SQL Server Authentication instead of Windows Authentication on the connection to the application database.
+The login account must be a member of the db_owner role on the database.
 
 ```yaml
-Type: String
+Type: PSCredential
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -111,7 +111,7 @@ If the parameter is not set, the configuration settings are automatically saved.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -127,12 +127,27 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### -Force
+Forces the command to run without asking for user confirmation.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -166,20 +181,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Forces the command to run without asking for user confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -191,10 +194,11 @@ You can pipe the value of the ServerInstance parameter as a string to this cmdle
 ### None
 
 ## NOTES
+
 ## RELATED LINKS
 
-[Export-NAVApplication](Export-NAVApplication.md)  
+[Export-NAVApplication](Export-NAVApplication.md)
 
-[Get-NAVApplication](Get-NAVApplication.md)  
+[Get-NAVApplication](Get-NAVApplication.md)
 
-[Remove-NAVApplication](Remove-NAVApplication.md)  
+[Remove-NAVApplication](Remove-NAVApplication.md)

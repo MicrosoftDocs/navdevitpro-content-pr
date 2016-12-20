@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=401358
 schema: 2.0.0
 ---
 
@@ -13,12 +13,12 @@ Gets a list of the Microsoft Dynamics NAV companies in the specified tenant data
 
 ### NavServerSet (Default)
 ```
-Get-NAVCompany [-ServerInstance] <String> [[-Tenant] <TenantId>] [-Force]
+Get-NAVCompany [-ServerInstance] <String> [[-Tenant] <TenantId>] [-Force] [<CommonParameters>]
 ```
 
 ### FileSet
 ```
-Get-NAVCompany -FilePath <String> [-Force]
+Get-NAVCompany -FilePath <String> [-Force] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -45,21 +45,6 @@ This example shows a list of companies that are contained in the my-exported.nav
 
 ## PARAMETERS
 
-### -FilePath
-Specifies the path and name of the exported file that you want to get the company information from.
-
-```yaml
-Type: String
-Parameter Sets: FileSet
-Aliases: FileName
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
 ### -ServerInstance
 Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
 You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
@@ -67,10 +52,10 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: NavServerSet
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
@@ -86,7 +71,22 @@ Parameter Sets: NavServerSet
 Aliases: Id
 
 Required: False
-Position: 2
+Position: 1
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### -FilePath
+Specifies the path and name of the exported file that you want to get the company information from.
+
+```yaml
+Type: String
+Parameter Sets: FileSet
+Aliases: FileName
+
+Required: True
+Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
@@ -98,7 +98,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -106,6 +106,9 @@ Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -118,11 +121,13 @@ You can pipe the value of the ServerInstance parameter as a string to this cmdle
 Returns the company information as a data row for each company.
 
 ## NOTES
-## RELATED LINKS
-[Copy-NAVCompany](Copy-NAVCompany.md)  
 
-[New-NAVCompany](New-NAVCompany.md)  
+## RELATED LINKS
+
+[Copy-NAVCompany](Copy-NAVCompany.md)
+
+[New-NAVCompany](New-NAVCompany.md)
 
 [Remove-NAVCompany](Remove-NAVCompany.md)
 
-[Rename-NAVCompany](Rename-NAVCompany.md)  
+[Rename-NAVCompany](Rename-NAVCompany.md)

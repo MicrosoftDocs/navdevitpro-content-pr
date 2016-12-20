@@ -1,6 +1,6 @@
 ---
-external help file: Microsoft.Dynamics.Nav.Apps.Management.dll-Help.xml
-online version:
+external help file: Microsoft.Dynamics.Nav.apps.Management.dll-Help.xml
+online version: https://go.microsoft.com/fwlink/?linkid=616077
 schema: 2.0.0
 ---
 
@@ -15,6 +15,7 @@ Removes all NAV Apps from the specified, unmounted tenant. This cmdlet should be
 Remove-NAVAppsForTenant [-DatabaseServer <String>] [-DatabaseName <String>]
  [-DatabaseCredentials <PSCredential>] [-ApplicationDatabaseServer <String>]
  [-ApplicationDatabaseName <String>] [-ApplicationDatabaseCredentials <PSCredential>] [-DoNotSaveData] [-Force]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -29,10 +30,6 @@ This may change the database schema so you must specify if you do not want to sa
 Remove-NAVAppsForTenant -ApplicationDatabaseName 'Demo Database NAV' -ApplicationDatabaseServer NAVSQLServer -DatabaseName Tenant1 -DatabaseServer NAVSQLServer
 ```
 
-Description
-
------------
-
 This example uninstalls all of the NAV Apps in the unmounted tenant database with the name of Tenant1.
 If the NAV App contains a schema change, the tenant database will be synchronized and the data will be saved.
 
@@ -40,10 +37,6 @@ If the NAV App contains a schema change, the tenant database will be synchronize
 ```
 Remove-NAVAppsForTenant -ApplicationDatabaseName 'Demo Database NAV)' -ApplicationDatabaseServer NAVSQLServer -DatabaseName Tenant1 -DatabaseServer NAVSQLServer -DoNotSaveData
 ```
-
-Description
-
------------
 
 This example uninstalls all of the NAV Apps in the unmounted tenant database with the name of Tenant1.
 If the NAV App contains a schema change, the tenant database will be synchronized and the data will not be saved since the -DoNotSaveData parameter switch was provided.
@@ -61,7 +54,7 @@ The login account must be a member of the db_owner role on the database.
 ```yaml
 Type: PSCredential
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -78,7 +71,7 @@ You must also set the ApplicationDatabaseServer parameter.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -94,7 +87,7 @@ The default value is "." for the current machine.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -114,7 +107,7 @@ The login account must be a member of the db_owner role on the database.
 ```yaml
 Type: PSCredential
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -163,7 +156,7 @@ if you set this parameter, the data will not be archived and you will not be abl
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -178,7 +171,7 @@ Forces the command to run without asking for user confirmation about the tenant 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -187,20 +180,25 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ## OUTPUTS
 
 ## NOTES
+
 ## RELATED LINKS
+
 [Get-NavAppTenant](Get-NavAppTenant.md)
 
-[Install-NAVApp](Install-NAVApp.md)  
+[Install-NAVApp](Install-NAVApp.md)
 
-[Publish-NAVApp](Publish-NAVApp.md)  
+[Publish-NAVApp](Publish-NAVApp.md)
 
 [Repair-NAVApp](Repair-NAVApp.md)
 
-[Uninstall-NAVApp](Uninstall-NAVApp.md)  
+[Uninstall-NAVApp](Uninstall-NAVApp.md)
 
-[Unpublish-NAVApp](Unpublish-NAVApp.md)  
+[Unpublish-NAVApp](Unpublish-NAVApp.md)

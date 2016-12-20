@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Apps.Tools.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=616075
 schema: 2.0.0
 ---
 
@@ -13,7 +13,7 @@ Exports the specified permission set(s) from a Microsoft Dynamics NAV database t
 
 ```
 Export-NAVAppPermissionSet -PermissionSetId <String[]> -Path <String> [-ServerInstance] <String> [-PassThru]
- [-Force]
+ [-Force] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -49,7 +49,7 @@ Forces the command to run without asking for user confirmation to overwrite an e
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -64,7 +64,7 @@ Returns the path to the permission set file.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -79,7 +79,7 @@ Specifies the name and location of the file that the permissions set is exported
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -94,7 +94,7 @@ Specifies the permission set ID(s) that will be exported.
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -109,18 +109,23 @@ Specifies the Microsoft Dynamics NAV Server instance that the permission set wil
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
 ## OUTPUTS
 
 ## NOTES
+
 ## RELATED LINKS
+

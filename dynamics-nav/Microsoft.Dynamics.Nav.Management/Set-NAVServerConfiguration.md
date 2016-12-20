@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=401394
 schema: 2.0.0
 ---
 
@@ -14,13 +14,13 @@ Configures settings for a Microsoft Dynamics NAV Server instance.
 ### KeyValuePairSettings (Default)
 ```
 Set-NAVServerConfiguration -KeyName <String> [-KeyValue <String>] [-Element <String>]
- [-ServerInstance] <String> [-Force] [-WhatIf] [-Confirm]
+ [-ServerInstance] <String> [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### DatabaseCredentials
 ```
 Set-NAVServerConfiguration -DatabaseCredentials <PSCredential> [-ServerInstance] <String> [-Force] [-WhatIf]
- [-Confirm]
+ [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -37,38 +37,6 @@ In this example, the Set-NAVServerConfiguration cmdlet sets the value for the 'D
 
 ## PARAMETERS
 
-### -DatabaseCredentials
-The user name and password of the login account that the Microsoft Dynamics NAV Server instance will use to connect to the Microsoft Dynamics NAV database in SQL Server.
-This parameter is configures the Microsoft Dynamics NAV Server instance to use SQL Server Authentication instead of Windows Authentication on the connection to the database.
-The login account must be a member of the db_owner role on the database.
-
-```yaml
-Type: PSCredential
-Parameter Sets: DatabaseCredentials
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Element
-Specifies the navigation path from the root element to the appSettings section of the configuration document.
-
-```yaml
-Type: String
-Parameter Sets: KeyValuePairSettings
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
 ### -KeyName
 The configuration key name.
 Examine the CustomSettings.config file to determine the correct key name.
@@ -76,7 +44,7 @@ Examine the CustomSettings.config file to determine the correct key name.
 ```yaml
 Type: String
 Parameter Sets: KeyValuePairSettings
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -92,7 +60,39 @@ For more information about supported values, see "Configuring Microsoft Dynamics
 ```yaml
 Type: String
 Parameter Sets: KeyValuePairSettings
-Aliases:
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -DatabaseCredentials
+The user name and password of the login account that the Microsoft Dynamics NAV Server instance will use to connect to the Microsoft Dynamics NAV database in SQL Server.
+This parameter is configures the Microsoft Dynamics NAV Server instance to use SQL Server Authentication instead of Windows Authentication on the connection to the database.
+The login account must be a member of the db_owner role on the database.
+
+```yaml
+Type: PSCredential
+Parameter Sets: DatabaseCredentials
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Element
+Specifies the navigation path from the root element to the appSettings section of the configuration document.
+
+```yaml
+Type: String
+Parameter Sets: KeyValuePairSettings
+Aliases: 
 
 Required: False
 Position: Named
@@ -108,12 +108,27 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### -Force
+Forces the command to run without asking for user confirmation.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -147,20 +162,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Forces the command to run without asking for user confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -172,7 +175,9 @@ You can pipe a string that contains a Microsoft Dynamics NAV Server instance nam
 ### None
 
 ## NOTES
+
 ## RELATED LINKS
-[Get-NAVServerConfiguration](Get-NAVServerConfiguration.md)  
+
+[Get-NAVServerConfiguration](Get-NAVServerConfiguration.md)
 
 [New-NAVServerConfiguration](Set-NAVServerConfiguration.md)

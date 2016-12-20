@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Model.Tools.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=400544
 schema: 2.0.0
 ---
 
@@ -13,6 +13,7 @@ Tests captions in Microsoft Dynamics NAV application objects to test to validate
 
 ```
 Test-NAVApplicationObjectLanguage [-Source] <String[]> [-LanguageId] <String[]> [-PassThru]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -67,10 +68,10 @@ If you do not set this parameter, all available languages are tested.
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 3
+Position: 2
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -82,7 +83,7 @@ Specifies if you want to return a collection of objects that describe the missin
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -101,11 +102,14 @@ Parameter Sets: (All)
 Aliases: PSPath
 
 Required: True
-Position: 2
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -114,8 +118,9 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
-[Export-NAVApplicationObjectLanguage](Export-NAVApplicationObjectLanguage.md)  
 
-[Import-NAVApplicationObjectLanguage](Import-NAVApplicationObjectLanguage.md)  
+[Export-NAVApplicationObjectLanguage](Export-NAVApplicationObjectLanguage.md)
+
+[Import-NAVApplicationObjectLanguage](Import-NAVApplicationObjectLanguage.md)
 
 [Reove-NAVApplicationObjectLanguage](Remove-NAVApplicationObjectLanguage.md)

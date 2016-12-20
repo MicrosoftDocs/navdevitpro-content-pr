@@ -1,6 +1,6 @@
 ---
-external help file: Microsoft.Dynamics.Nav.Apps.Management.dll-Help.xml
-online version:
+external help file: Microsoft.Dynamics.Nav.apps.Management.dll-Help.xml
+online version: https://go.microsoft.com/fwlink/?linkid=616080
 schema: 2.0.0
 ---
 
@@ -14,11 +14,12 @@ Unpublishes a NAV App from the app catalog of the specified Microsoft Dynamics N
 ### Properties (Default)
 ```
 Unpublish-NAVApp [-Name] <String> [[-Publisher] <String>] [[-Version] <Version>] [-ServerInstance] <String>
+ [<CommonParameters>]
 ```
 
 ### Path
 ```
-Unpublish-NAVApp [-Path] <String> [-ServerInstance] <String>
+Unpublish-NAVApp [-Path] <String> [-ServerInstance] <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -58,10 +59,10 @@ The results must return only a single NAV App to successfully unpublished.
 ```yaml
 Type: String
 Parameter Sets: Properties
-Aliases:
+Aliases: 
 
 Required: True
-Position: 21
+Position: 20
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -73,10 +74,10 @@ Specifies the path to a NAV App Package file that you want to unpublish.
 ```yaml
 Type: String
 Parameter Sets: Path
-Aliases:
+Aliases: 
 
 Required: True
-Position: 21
+Position: 20
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -90,10 +91,10 @@ The results must return only a single NAV App to successfully unpublish.
 ```yaml
 Type: String
 Parameter Sets: Properties
-Aliases:
+Aliases: 
 
 Required: False
-Position: 22
+Position: 21
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -105,10 +106,10 @@ Specifies the Microsoft Dynamics NAV Server instance that the NAV App will be un
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
@@ -122,29 +123,34 @@ The results must return only a single NAV App to successfully unpublish.
 ```yaml
 Type: Version
 Parameter Sets: Properties
-Aliases:
+Aliases: 
 
 Required: False
-Position: 23
+Position: 22
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
 ## OUTPUTS
 
 ## NOTES
+
 ## RELATED LINKS
+
 [Get-NavAppTenant](Get-NavAppTenant.md)
 
-[Install-NAVApp](Install-NAVApp.md)  
+[Install-NAVApp](Install-NAVApp.md)
 
-[Publish-NAVApp](Publish-NAVApp.md)  
+[Publish-NAVApp](Publish-NAVApp.md)
 
-[Remove-NAVAppsForTenant](Remove-NAVAppsForTenant.md)  
+[Remove-NAVAppsForTenant](Remove-NAVAppsForTenant.md)
 
-[Repair-NAVApp](Repair-NAVApp.md)  
+[Repair-NAVApp](Repair-NAVApp.md)
 
-[Uninstall-NAVApp](Uninstall-NAVApp.md)  
+[Uninstall-NAVApp](Uninstall-NAVApp.md)

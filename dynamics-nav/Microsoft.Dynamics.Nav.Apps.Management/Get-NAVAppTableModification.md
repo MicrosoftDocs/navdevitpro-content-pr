@@ -1,6 +1,6 @@
 ---
-external help file: Microsoft.Dynamics.Nav.Apps.Management.dll-Help.xml
-online version:
+external help file: Microsoft.Dynamics.Nav.apps.Management.dll-Help.xml
+online version: https://go.microsoft.com/fwlink/?linkid=827845
 schema: 2.0.0
 ---
 
@@ -14,12 +14,12 @@ Gets information about the tabled added or modified by an Extension based on the
 ### Properties (Default)
 ```
 Get-NAVAppTableModification [-Id <Guid>] [-Name <String>] [-Publisher <String>] [-Version <Version>]
- [-CompatibilityId <Version>] [-ServerInstance] <String>
+ [-CompatibilityId <Version>] [-ServerInstance] <String> [<CommonParameters>]
 ```
 
 ### Tenant
 ```
-Get-NAVAppTableModification -Tenant <String> [-ServerInstance] <String>
+Get-NAVAppTableModification -Tenant <String> [-ServerInstance] <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -191,7 +191,7 @@ Parameter Sets: (All)
 Aliases:
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
@@ -227,14 +227,19 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ## OUTPUTS
 
 ## NOTES
+
 ## RELATED LINKS
-[Install-NAVApp](Install-NAVApp.md)  
 
-[Publish-NAVApp](Publish-NAVApp.md)  
+[Install-NAVApp](Install-NAVApp.md)
 
-[Get-NAVTableSynchSetupForDataUpgrade](Get-NAVTableSynchSetupForDataUpgrade.md)  
+[Publish-NAVApp](Publish-NAVApp.md)
+
+<!--[Get-NAVTableSynchSetupForDataUpgrade](Get-NAVTableSynchSetupForDataUpgrade.md)-->

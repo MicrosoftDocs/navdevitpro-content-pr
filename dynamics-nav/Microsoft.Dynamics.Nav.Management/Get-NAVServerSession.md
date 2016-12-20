@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=401363
 schema: 2.0.0
 ---
 
@@ -12,7 +12,7 @@ Returns information about active sessions for a Microsoft Dynamics NAV Server in
 ## SYNTAX
 
 ```
-Get-NAVServerSession [-Tenant <TenantId>] [-ServerInstance] <String> [-Force]
+Get-NAVServerSession [-Tenant <TenantId>] [-ServerInstance] <String> [-Force] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -83,22 +83,6 @@ The return data shows two Windows client users.
 
 ## PARAMETERS
 
-### -ServerInstance
-Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
-You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
 ### -Tenant
 Specifies the ID of the tenant that you want to get the active sessions for, such as Tenant1.
 This parameter is required unless the specified service instance is not configured to run multiple tenants.
@@ -115,13 +99,29 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
+### -ServerInstance
+Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
+You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
 ### -Force
 Forces the command to run without asking for user confirmation.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -129,6 +129,9 @@ Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -141,5 +144,7 @@ You can pipe a string that contains a Microsoft Dynamics NAV Server instance nam
 Returns the active session information as a table.
 
 ## NOTES
+
 ## RELATED LINKS
-[Remove-NAVServerSession](Remove-NAVServerSession.md)  
+
+[Remove-NAVServerSession](Remove-NAVServerSession.md)

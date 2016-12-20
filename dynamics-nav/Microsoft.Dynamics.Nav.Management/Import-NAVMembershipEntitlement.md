@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=723414
 schema: 2.0.0
 ---
 
@@ -14,7 +14,7 @@ Imports the license entitlement data for a membership association.
 ```
 Import-NAVMembershipEntitlement [-Path] <String> [[-Type] <String>] -Id <String> -Name <String>
  -EntitlementSetId <String> -EntitlementSetName <String> [-Evaluation] [-ServerInstance] <String> [-Force]
- [-WhatIf] [-Confirm]
+ [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -31,31 +31,32 @@ This example imports an Azure AD entitlement of the type 'Azure AD Plan' to the 
 
 ## PARAMETERS
 
-### -EntitlementSetId
-Specifies the ID of the entitlement set in which to load the entitlements.
+### -Path
+Specifies the folder path and file name to the entitlement package file.
+These files typically have a .csv extension.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: Named
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -EntitlementSetName
-Specifies the name of the entitlement set in which to load the entitlements.
+### -Type
+Specifies the membership type., such as  'Azure AD Plan' or 'Azure AD Role'.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
-Required: True
-Position: Named
+Required: False
+Position: 2
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -67,7 +68,7 @@ Specifies the ID of the membership.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -82,7 +83,7 @@ Specifies the name of the membership.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -91,17 +92,46 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Path
-Specifies the folder path and file name to the entitlement package file.
-These files typically have a .csv extension.
+### -EntitlementSetId
+Specifies the ID of the entitlement set in which to load the entitlements.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 2
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -EntitlementSetName
+Specifies the name of the entitlement set in which to load the entitlements.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Evaluation
+Specifies the entitlement to be for evaluation purposes, which means it has limited use and is not a paid entitlement.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -114,27 +144,27 @@ Include the name in single-quotes.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -Type
-Specifies the membership type., such as  'Azure AD Plan' or 'Azure AD Role'.
+### -Force
+Forces the command to run without asking for user confirmation.
 
 ```yaml
-Type: String
+Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
-Position: 3
+Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -168,39 +198,14 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Evaluation
-Specifies the entitlement to be for evaluation purposes, which means it has limited use and is not a paid entitlement. 
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Force
-Forces the command to run without asking for user confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
 ## OUTPUTS
 
 ## NOTES
+
 ## RELATED LINKS
+

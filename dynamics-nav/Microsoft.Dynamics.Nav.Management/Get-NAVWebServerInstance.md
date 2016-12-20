@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=401367
 schema: 2.0.0
 ---
 
@@ -12,7 +12,7 @@ Gets the information about the Microsoft Dynamics NAV Web Server instances that 
 ## SYNTAX
 
 ```
-Get-NAVWebServerInstance [[-WebServerInstance] <String>] [-Force]
+Get-NAVWebServerInstance [[-WebServerInstance] <String>] [-Force] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -56,10 +56,10 @@ If you omit this parameter, then the cmdlet returns information about all Micros
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -71,7 +71,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -79,6 +79,9 @@ Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -91,9 +94,11 @@ You can pipe a string that contains a Microsoft Dynamics NAV Web Server instance
 Returns the Microsoft Dynamics NAV Web Server instance information as a row.
 
 ## NOTES
+
 ## RELATED LINKS
-[New-NAVWebServerInstance](New-NAVWebServerInstance.md)  
 
-[Remove-NAVWebServerInstance](Remove-NAVWebServerInstance.md)  
+[New-NAVWebServerInstance](New-NAVWebServerInstance.md)
 
-[Set-NAVWebServerInstanceConfiguration](Set-NAVWebServerInstanceConfiguration.md)  
+[Remove-NAVWebServerInstance](Remove-NAVWebServerInstance.md)
+
+[Set-NAVWebServerInstanceConfiguration](Set-NAVWebServerInstanceConfiguration.md)

@@ -29,7 +29,7 @@ Provides functionality for designing pages.
 |**SourceExpr**|Specifies an expression that defines where to find the value of the control.|  
 |**Name**|Specifies the name of the control or field to display on the page. The name cannot contain spaces.|  
 |**Caption**|Specifies the caption of the control or field.|  
-|**Visible**|Sets whether to display the page or control. For more information, see  [Visible Property-duplicate](../Visible-Property-duplicate.md).|  
+|**Visible**|Sets whether to display the page or control. For more information, see  [Visible Property](../Visible-Property.md).|  
 |**ApplicationArea**|Sets the application areas that apply to the control. For more information, see [ApplicationArea Property](../ApplicationArea-Property.md).|  
 
 ## See Also  

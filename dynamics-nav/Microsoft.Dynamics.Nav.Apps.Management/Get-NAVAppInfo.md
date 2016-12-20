@@ -1,6 +1,6 @@
 ---
-external help file: Microsoft.Dynamics.Nav.Apps.Management.dll-Help.xml
-online version:
+external help file: Microsoft.Dynamics.Nav.apps.Management.dll-Help.xml
+online version: https://go.microsoft.com/fwlink/?linkid=618058
 schema: 2.0.0
 ---
 
@@ -14,17 +14,17 @@ Gets information about an NAV App based on the specified package file or the spe
 ### Properties (Default)
 ```
 Get-NAVAppInfo [-Id <Guid>] [-Name <String>] [-Publisher <String>] [-Version <Version>]
- [-CompatibilityId <Version>] [-ServerInstance] <String>
+ [-CompatibilityId <Version>] [-ServerInstance] <String> [<CommonParameters>]
 ```
 
 ### Tenant
 ```
-Get-NAVAppInfo -Tenant <String> [-ServerInstance] <String>
+Get-NAVAppInfo -Tenant <String> [-ServerInstance] <String> [<CommonParameters>]
 ```
 
 ### Path
 ```
-Get-NAVAppInfo -Path <String>
+Get-NAVAppInfo -Path <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -205,7 +205,7 @@ Specifies the path to a NAV App Package file that you want to return.
 ```yaml
 Type: String
 Parameter Sets: Path
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -235,10 +235,10 @@ Specifies the Microsoft Dynamics NAV Server instance to which the NAV App is dep
 ```yaml
 Type: String
 Parameter Sets: Properties, Tenant
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
@@ -274,20 +274,25 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ## OUTPUTS
 
 ## NOTES
+
 ## RELATED LINKS
-[Install-NAVApp](Install-NAVApp.md)  
+
+[Install-NAVApp](Install-NAVApp.md)
 
 [Get-NavAppTenant](Get-NavAppTenant.md)
 
-[Publish-NAVApp](Publish-NAVApp.md)  
+[Publish-NAVApp](Publish-NAVApp.md)
 
-[Remove-NAVAppsForTenant](Remove-NAVAppsForTenant.md)  
+[Remove-NAVAppsForTenant](Remove-NAVAppsForTenant.md)
 
-[Uninstall-NAVApp](Uninstall-NAVApp.md)  
+[Uninstall-NAVApp](Uninstall-NAVApp.md)
 
-[Unpublish-NAVApp](Unpublish-NAVApp.md)  
+[Unpublish-NAVApp](Unpublish-NAVApp.md)

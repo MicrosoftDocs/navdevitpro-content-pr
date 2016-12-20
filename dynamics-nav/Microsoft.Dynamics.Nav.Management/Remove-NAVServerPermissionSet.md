@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=401387
 schema: 2.0.0
 ---
 
@@ -13,7 +13,7 @@ Removes a Microsoft Dynamics NAV permission set.
 
 ```
 Remove-NAVServerPermissionSet -PermissionSetId <String> [-ServerInstance] <String> [-Force] [-WhatIf]
- [-Confirm]
+ [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -36,7 +36,7 @@ Specifies the ID of a permission set, which is a string such as RES-JOURNAL or S
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -52,12 +52,27 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### -Force
+Forces the command to run without asking for user confirmation.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -91,20 +106,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Forces the command to run without asking for user confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -116,17 +119,19 @@ You can pipe a string that contains a Microsoft Dynamics NAV Server instance nam
 ### None
 
 ## NOTES
+
 ## RELATED LINKS
-[Get-NAVServerPermissionSet](Get-NAVServerPermissionSet.md)  
 
-[New-NAVServerPermissionSet](New-NAVServerPermissionSet.md)  
+[Get-NAVServerPermissionSet](Get-NAVServerPermissionSet.md)
 
-[Set-NAVServerPermissionSet](Set-NAVServerPermissionSet.md)  
+[New-NAVServerPermissionSet](New-NAVServerPermissionSet.md)
 
-[New-NAVServerPermission](New-NAVServerPermission.md)  
+[Set-NAVServerPermissionSet](Set-NAVServerPermissionSet.md)
 
-[Get-NAVServerPermission](Get-NAVServerPermission.md)  
+[New-NAVServerPermission](New-NAVServerPermission.md)
 
-[Remove-NAVServerPermission](Remove-NAVServerPermission.md)  
+[Get-NAVServerPermission](Get-NAVServerPermission.md)
 
-[Set-NAVServerPermission](Set-NAVServerPermission.md)  
+[Remove-NAVServerPermission](Remove-NAVServerPermission.md)
+
+[Set-NAVServerPermission](Set-NAVServerPermission.md)

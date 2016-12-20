@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Apps.Tools.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=616072
 schema: 2.0.0
 ---
 
@@ -12,7 +12,7 @@ Loads a manifest for an NAV App from an external source.
 ## SYNTAX
 
 ```
-Get-NAVAppManifest [-Path] <String>
+Get-NAVAppManifest [-Path] <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -58,14 +58,17 @@ Specifies the path to a file with an NAV App manifest.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 2
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -74,11 +77,13 @@ Accept wildcard characters: False
 ### NavAppManifest
 
 ## NOTES
+
 ## RELATED LINKS
+
 [New-NAVAppManifest](New-NAVAppManifest.md)
 
-[New-NavAppManifestFile](New-NAVAppManifestFile.md)  
+[New-NavAppManifestFile](New-NavAppManifestFile.md)
 
-[New-NAVAppPackage](New-NAVAppPackage.md)  
+[New-NAVAppPackage](New-NAVAppPackage.md)
 
-[Save-NAVAppManifest](Save-NAVAppManifest.md)
+[Set-NAVAppManifest](Set-NAVAppManifest.md)

@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=401354
 schema: 2.0.0
 ---
 
@@ -16,14 +16,14 @@ All active user sessions that access the tenant will end.
 ```
 Dismount-NAVTenant [-Tenant] <TenantId> [-ServerInstance] <String>
  [-InputTenantRuntimeSettings <NavTenantRuntimeSettings>] [-InputTenantSettings <NavTenantSettings>] [-Force]
- [-WhatIf] [-Confirm]
+ [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### UseDatabase
 ```
 Dismount-NAVTenant [-Tenant] <TenantId> -ApplicationDatabaseServer <String> -ApplicationDatabaseName <String>
  [-InputTenantRuntimeSettings <NavTenantRuntimeSettings>] [-InputTenantSettings <NavTenantSettings>] [-Force]
- [-WhatIf] [-Confirm]
+ [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### UseDatabaseSqlAuth
@@ -31,7 +31,7 @@ Dismount-NAVTenant [-Tenant] <TenantId> -ApplicationDatabaseServer <String> -App
 Dismount-NAVTenant [-Tenant] <TenantId> -ApplicationDatabaseServer <String>
  -ApplicationDatabaseCredentials <PSCredential> -ApplicationDatabaseName <String>
  [-InputTenantRuntimeSettings <NavTenantRuntimeSettings>] [-InputTenantSettings <NavTenantSettings>] [-Force]
- [-WhatIf] [-Confirm]
+ [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -74,6 +74,53 @@ SQL Server authentication is configured for accessing the application database.
 
 ## PARAMETERS
 
+### -Tenant
+Specifies the ID of the tenant that you want to dismount from the Microsoft Dynamics NAV Server instance, such as Tenant1.
+
+```yaml
+Type: TenantId
+Parameter Sets: (All)
+Aliases: Id
+
+Required: True
+Position: 1
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ServerInstance
+Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
+You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
+
+```yaml
+Type: String
+Parameter Sets: UseNST
+Aliases: 
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ApplicationDatabaseServer
+Specifies the SQL Server name and instance, such as MyServer\MyInstance, that hosts the application database that you want to use with the tenant database.
+This parameter, together with the ApplicationDatabaseName parameter, enables you to dismount a tenant from a Microsoft Dynamics NAV Server instance without having a running connection to the Microsoft Dynamics NAV Server instance.
+
+```yaml
+Type: String
+Parameter Sets: UseDatabase, UseDatabaseSqlAuth
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
 ### -ApplicationDatabaseCredentials
 Specifies the user name and password of the login account that the Microsoft Dynamics NAV Server instance uses to access the application database in SQL Server when using SQL Server Authentication.
 This parameter is only relevant when you set with the ApplicationDatabaseServer and ApplicationDatabaseName parameters
@@ -81,7 +128,7 @@ This parameter is only relevant when you set with the ApplicationDatabaseServer 
 ```yaml
 Type: PSCredential
 Parameter Sets: UseDatabaseSqlAuth
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -98,23 +145,7 @@ This parameter, together with the ApplicationDatabaseServer parameter, enables y
 ```yaml
 Type: String
 Parameter Sets: UseDatabase, UseDatabaseSqlAuth
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -ApplicationDatabaseServer
-Specifies the SQL Server name and instance, such as MyServer\MyInstance, that hosts the application database that you want to use with the tenant database.
-This parameter, together with the ApplicationDatabaseName parameter, enables you to dismount a tenant from a Microsoft Dynamics NAV Server instance without having a running connection to the Microsoft Dynamics NAV Server instance.
-
-```yaml
-Type: String
-Parameter Sets: UseDatabase, UseDatabaseSqlAuth
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -130,7 +161,7 @@ You can pass this object from the Tenant parameter on the Get-NAVTenant cmdlet t
 ```yaml
 Type: NavTenantRuntimeSettings
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -146,7 +177,7 @@ You can pass this object from the Tenant parameter on the Get-NAVTenant cmdlet t
 ```yaml
 Type: NavTenantSettings
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -155,34 +186,18 @@ Accept pipeline input: True (ByValue)
 Accept wildcard characters: False
 ```
 
-### -ServerInstance
-Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
-You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
+### -Force
+Forces the command to run without asking for user confirmation.
 
 ```yaml
-Type: String
-Parameter Sets: UseNST
-Aliases:
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Tenant
-Specifies the ID of the tenant that you want to dismount from the Microsoft Dynamics NAV Server instance, such as Tenant1.
-
-```yaml
-Type: TenantId
+Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: Id
+Aliases: 
 
-Required: True
-Position: 2
+Required: False
+Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -216,20 +231,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Forces the command to run without asking for user confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -250,8 +253,9 @@ If the InputObject parameter has been bound to a value, it will be passed throug
 ## NOTES
 
 ## RELATED LINKS
-[Mount-NAVTenant](Mount-NAVTenant.md)  
 
-[Get-NAVTenant](Get-NAVTenant.md)  
+[Mount-NAVTenant](Mount-NAVTenant.md)
 
-[Sync-NAVTenant](Sync-NAVTenant.md)  
+[Get-NAVTenant](Get-NAVTenant.md)
+
+[Sync-NAVTenant](Sync-NAVTenant.md)

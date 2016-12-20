@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=403851
 schema: 2.0.0
 ---
 
@@ -14,12 +14,13 @@ Resumes a suspended data upgrade process.
 ### AllMethods (Default)
 ```
 Resume-NAVDataUpgrade [[-Tenant] <TenantId>] [-ServerInstance] <String> [-Force] [-WhatIf] [-Confirm]
+ [<CommonParameters>]
 ```
 
 ### SingleMethod
 ```
 Resume-NAVDataUpgrade [[-Tenant] <TenantId>] [-CodeunitId] <Int32> [-FunctionName] <String>
- [[-CompanyName] <String>] [-ServerInstance] <String> [-Force] [-WhatIf] [-Confirm]
+ [[-CompanyName] <String>] [-ServerInstance] <String> [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -46,13 +47,44 @@ This approach can be useful for gradually fixing and rerunning upgrade functions
 
 ## PARAMETERS
 
+### -Tenant
+Specifies the ID of a tenant on the Microsoft Dynamics NAV Server instance.
+You can omit the Tenant parameter only if the Microsoft Dynamics NAV Server instance is not configured to run multiple tenants.
+
+```yaml
+Type: TenantId
+Parameter Sets: (All)
+Aliases: Id
+
+Required: False
+Position: 1
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
 ### -CodeunitId
 Specifies the ID of the upgrade codeunit to run.
 
 ```yaml
 Type: Int32
 Parameter Sets: SingleMethod
-Aliases:
+Aliases: 
+
+Required: True
+Position: 2
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -FunctionName
+Specifies the name of the upgrade function to run.
+
+```yaml
+Type: String
+Parameter Sets: SingleMethod
+Aliases: 
 
 Required: True
 Position: 3
@@ -67,24 +99,9 @@ Specifies the name of the company for which to run the upgrade codeunit function
 ```yaml
 Type: String
 Parameter Sets: SingleMethod
-Aliases:
+Aliases: 
 
 Required: False
-Position: 5
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -FunctionName
-Specifies the name of the upgrade function to run.
-
-```yaml
-Type: String
-Parameter Sets: SingleMethod
-Aliases:
-
-Required: True
 Position: 4
 Default value: None
 Accept pipeline input: False
@@ -99,28 +116,27 @@ Include the name in single-quotes.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
 ```
 
-### -Tenant
-Specifies the ID of a tenant on the Microsoft Dynamics NAV Server instance.
-You can omit the Tenant parameter only if the Microsoft Dynamics NAV Server instance is not configured to run multiple tenants.
+### -Force
+Forces the command to run without asking for user confirmation.
 
 ```yaml
-Type: TenantId
+Type: SwitchParameter
 Parameter Sets: (All)
-Aliases: Id
+Aliases: 
 
 Required: False
-Position: 2
+Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -154,32 +170,21 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Forces the command to run without asking for user confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
-### System.String 
+### System.String
 You can pass the value of the CodunitId, CompanyName, FunctionName, ServerInstance and Tenant parameters as a string to this cmdlet.
 
 ## OUTPUTS
 
 ## NOTES
-The Resume-NAVUpgrade cmdlet runs in the same language that was used in the Start-NAVUpgrade cmdlet, as specified by the -Language parameter. 
+The Resume-NAVUpgrade cmdlet runs in the same language that was used in the Start-NAVUpgrade cmdlet, as specified by the -Language parameter.
 
 ## RELATED LINKS
+
 [Get-NAVDataUpgrade](Get-NAVDataUpgrade.md)
 
 [Start-NAVDataUpgrade](Start-NAVDataUpgrade.md)

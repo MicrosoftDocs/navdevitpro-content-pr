@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=401362
 schema: 2.0.0
 ---
 
@@ -12,7 +12,7 @@ Returns a list of permission sets for the specified Microsoft Dynamics NAV Serve
 ## SYNTAX
 
 ```
-Get-NAVServerPermissionSet [-ServerInstance] <String> [-Force]
+Get-NAVServerPermissionSet [-ServerInstance] <String> [-Force] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -56,10 +56,10 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
 Accept wildcard characters: False
@@ -71,7 +71,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -79,6 +79,9 @@ Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -89,18 +92,21 @@ You can pipe a string that contains a Microsoft Dynamics NAV Server instance nam
 
 ### System.Data.DataTable
 Returns the permission sets as a table.
+
 ## NOTES
+
 ## RELATED LINKS
-[New-NAVServerPermissionSet](New-NAVServerPermissionSet.md)  
 
-[Remove-NAVServerPermissionSet](Remove-NAVServerPermissionSet.md)  
+[New-NAVServerPermissionSet](New-NAVServerPermissionSet.md)
 
-[Set-NAVServerPermissionSet](Set-NAVServerPermissionSet.md)  
+[Remove-NAVServerPermissionSet](Remove-NAVServerPermissionSet.md)
 
-[New-NAVServerPermission](New-NAVServerPermission.md)  
+[Set-NAVServerPermissionSet](Set-NAVServerPermissionSet.md)
 
-[Get-NAVServerPermission](Get-NAVServerPermission.md)  
+[New-NAVServerPermission](New-NAVServerPermission.md)
 
-[Remove-NAVServerPermission](Remove-NAVServerPermission.md)  
+[Get-NAVServerPermission](Get-NAVServerPermission.md)
 
-[Set-NAVServerPermission](Set-NAVServerPermission.md)  
+[Remove-NAVServerPermission](Remove-NAVServerPermission.md)
+
+[Set-NAVServerPermission](Set-NAVServerPermission.md)

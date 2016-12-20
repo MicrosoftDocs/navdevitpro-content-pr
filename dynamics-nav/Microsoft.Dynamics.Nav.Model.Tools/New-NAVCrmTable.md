@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Model.Tools.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=524402
 schema: 2.0.0
 ---
 
@@ -15,7 +15,7 @@ The table objects are saved as .txt files.
 ```
 New-NAVCrmTable [-CRMServer] <Uri> [-Credential] <PSCredential> [-EntityLogicalName] <String[]>
  [-ObjectId] <Int32[]> [-Name <String[]>] [-AuthenticationType <String>] [-OutputPath <String>] [-Force]
- [-WhatIf] [-Confirm]
+ [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -72,16 +72,16 @@ This example creates two Microsoft Dynamics NAV table objects based on the accou
 
 ## PARAMETERS
 
-### -Credential
-Specifies a user name and password for accessing Microsoft Dynamics CRM.
+### -AuthenticationType
+{{Fill AuthenticationType Description}}
 
 ```yaml
-Type: PSCredential
+Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
-Required: True
-Position: 3
+Required: False
+Position: Named
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -96,99 +96,10 @@ For connecting to Microsoft Dynamics CRM Online, the format is typically scheme:
 ```yaml
 Type: Uri
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 2
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -EntityLogicalName
-Specifies the logical names of the Microsoft Dynamics CRM entities for which to create a Microsoft Dynamics NAV table.
-This parameter is a comma-separated list.
-So when you are creating tables for multiple entities, separate each entity logical name with a comma.
-Each entity logical name must have a corresponding value in the ObjectID parameter based on its position is the list.
-
-```yaml
-Type: String[]
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: 4
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Force
-Specifies that existing files of the same name in the OutputPath folder are to be overwritten.
-Forces the command to run without asking for user confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Name
-Specifies the names of the new tables to be created.
-This parameter is a comma-separated list.
-So when creating multiple tables, separate each table name by a comma.
-Each individual name must have a corresponding item in the ObjectID and the EntityLogicalName parameters, based on its position in the list.
-
-The Name parameter is optional, but if you use it, you must specify the names of all new tables, not just one.
-If you do not specify names, then the tables get the entity logical names as specified by the EntityLogicalName parameter.
-
-```yaml
-Type: String[]
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ObjectId
-Specifies the IDs of the table objects to be created.
-This parameter is a comma-separated list.
-So when you are creating multiple table objects, separate each ID with a comma.
-Each ID must have a corresponding value in the EntityLogicalName parameter, and optionally in the Name parameter, based on its position is the list.
-
-```yaml
-Type: Int32[]
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: 5
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -OutputPath
-Specifies the folder path to where the generated .txt files for tables will be saved, such as "c:\CRMObjects".
-If the folder path does not already exist, it will be created.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
+Position: 1
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -209,6 +120,110 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### -Credential
+Specifies a user name and password for accessing Microsoft Dynamics CRM.
+
+```yaml
+Type: PSCredential
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 2
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -EntityLogicalName
+Specifies the logical names of the Microsoft Dynamics CRM entities for which to create a Microsoft Dynamics NAV table.
+This parameter is a comma-separated list.
+So when you are creating tables for multiple entities, separate each entity logical name with a comma.
+Each entity logical name must have a corresponding value in the ObjectID parameter based on its position is the list.
+
+```yaml
+Type: String[]
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 3
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Force
+Specifies that existing files of the same name in the OutputPath folder are to be overwritten.
+Forces the command to run without asking for user confirmation.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Name
+Specifies the names of the new tables to be created.
+This parameter is a comma-separated list.
+So when creating multiple tables, separate each table name by a comma.
+Each individual name must have a corresponding item in the ObjectID and the EntityLogicalName parameters, based on its position in the list.
+
+The Name parameter is optional, but if you use it, you must specify the names of all new tables, not just one.
+If you do not specify names, then the tables get the entity logical names as specified by the EntityLogicalName parameter.
+
+```yaml
+Type: String[]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ObjectId
+Specifies the IDs of the table objects to be created.
+This parameter is a comma-separated list.
+So when you are creating multiple table objects, separate each ID with a comma.
+Each ID must have a corresponding value in the EntityLogicalName parameter, and optionally in the Name parameter, based on its position is the list.
+
+```yaml
+Type: Int32[]
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 4
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -OutputPath
+Specifies the folder path to where the generated .txt files for tables will be saved, such as "c:\CRMObjects".
+If the folder path does not already exist, it will be created.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -WhatIf
 Shows what would happen if the cmdlet runs.
 The cmdlet is not run.
@@ -225,20 +240,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -AuthenticationType
-{{Fill AuthenticationType Description}}
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -247,3 +250,4 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
+

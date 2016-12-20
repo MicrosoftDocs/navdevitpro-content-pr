@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=401403
 schema: 2.0.0
 ---
 
@@ -13,7 +13,7 @@ Changes configuration values for a named web server instance.
 
 ```
 Set-NAVWebServerInstanceConfiguration [-WebServerInstance] <String> -KeyName <String> -KeyValue <String>
- [-Force] [-WhatIf] [-Confirm]
+ [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -30,13 +30,28 @@ This example sets the web server instance configuration.
 
 ## PARAMETERS
 
+### -WebServerInstance
+Specifies the name of a Dynamics NAV web server instance for which to return the information.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
 ### -KeyName
 Specifies the configuration key name.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -51,7 +66,7 @@ Specifies the configuration key value.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
 Position: Named
@@ -60,18 +75,18 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -WebServerInstance
-Specifies the name of a Dynamics NAV web server instance for which to return the information.
+### -Force
+Forces the command to run without asking for user confirmation.
 
 ```yaml
-Type: String
+Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
-Required: True
-Position: 1
+Required: False
+Position: Named
 Default value: None
-Accept pipeline input: True (ByPropertyName)
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -105,24 +120,12 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Forces the command to run without asking for user confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
-###System.String
+### System.String
 You can pipe a string that contains a Microsoft Dynamics NAV web server instance name to the cmdlet.
 
 ## OUTPUTS
@@ -130,9 +133,11 @@ You can pipe a string that contains a Microsoft Dynamics NAV web server instance
 ### None
 
 ## NOTES
-## RELATED LINKS
-Get-NAVWebServerInstance](Get-NAVWebServerInstance.md)  
 
-[New-NAVWebServerInstance](New-NAVWebServerInstance.md)  
+## RELATED LINKS
+
+[Get-NAVWebServerInstance](Get-NAVWebServerInstance.md)
+
+[New-NAVWebServerInstance](New-NAVWebServerInstance.md)
 
 [Remove-NAVWebServerInstance](Remove-NAVWebServerInstance.md)

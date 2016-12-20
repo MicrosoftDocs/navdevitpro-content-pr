@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=401372
 schema: 2.0.0
 ---
 
@@ -15,10 +15,11 @@ Mounts a tenant database against the specified Microsoft Dynamics NAV Server ins
 ```
 Mount-NAVTenant [-OverwriteTenantIdInDatabase] [-SkipUpdateScheduledTaskList]
  [-DatabaseCredentials <PSCredential>] [-ServerInstance] <String> [-EncryptionProvider <EncryptionProvider>]
- [-Force] [-WhatIf] [-Confirm] [-Id] <String> [-DatabaseName] <String> [-DatabaseServer <String>]
+ [-Force] [-WhatIf] [-Confirm] -Id <String> -DatabaseName <String> [-DatabaseServer <String>]
  [-AlternateId <System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]>] [-AllowAppDatabaseWrite]
  [-NasServicesEnabled] [-RunNasWithAdminRights] [-DefaultCompany <String>] [-DefaultTimeZone <TimeZoneInfo>]
  [-ExchangeAuthenticationMetadataLocation <String>] [-AadTenantId <String>] [-DatabaseInstance <String>]
+ [<CommonParameters>]
 ```
 
 ### UseDatabase
@@ -26,11 +27,11 @@ Mount-NAVTenant [-OverwriteTenantIdInDatabase] [-SkipUpdateScheduledTaskList]
 Mount-NAVTenant [-OverwriteTenantIdInDatabase] [-SkipUpdateScheduledTaskList]
  [-DatabaseCredentials <PSCredential>] [-ApplicationDatabaseServer <String>]
  [-ApplicationDatabaseCredentials <PSCredential>] [-ApplicationDatabaseName <String>]
- [-EncryptionProvider <EncryptionProvider>] [-Force] [-WhatIf] [-Confirm] [-Id] <String>
- [-DatabaseName] <String> [-DatabaseServer <String>]
- [-AlternateId <System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]>] [-AllowAppDatabaseWrite]
- [-NasServicesEnabled] [-RunNasWithAdminRights] [-DefaultCompany <String>] [-DefaultTimeZone <TimeZoneInfo>]
- [-ExchangeAuthenticationMetadataLocation <String>] [-AadTenantId <String>] [-DatabaseInstance <String>]
+ [-EncryptionProvider <EncryptionProvider>] [-Force] [-WhatIf] [-Confirm] -Id <String> -DatabaseName <String>
+ [-DatabaseServer <String>] [-AlternateId <System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]>]
+ [-AllowAppDatabaseWrite] [-NasServicesEnabled] [-RunNasWithAdminRights] [-DefaultCompany <String>]
+ [-DefaultTimeZone <TimeZoneInfo>] [-ExchangeAuthenticationMetadataLocation <String>] [-AadTenantId <String>]
+ [-DatabaseInstance <String>] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -100,50 +101,80 @@ This example requires that you export the encryption key that is used by the Mic
 
 ## PARAMETERS
 
-### -AadTenantId
-Specifies the the GUID of the tenant in Azure Active Directory for the Dynamics NAV application.
-The tenant ID is used for authenticating Dynamics NAV users with Azure AD.
-
-The Azure AD Tenant ID identities the directory for the Microsoft Dynamics NAV application in Azure AD.
-The tenant ID can be the tenant's domain name or GUID.
-You can get the domain name from the Domain settings for the AD tenant (directory) in the Azure Management Portal.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -AllowAppDatabaseWrite
-Specifies if the tenant can write to the application database.
-The default value is false.
+### -OverwriteTenantIdInDatabase
+Specifies if the Mount-NAVTenant cmdlet must overwrite the tenant ID in the database if the database has been mounted as a tenant earlier.
+If this is false, and the tenant database has previously been mounted with a different tenant ID, an exception is thrown.
 
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -SkipUpdateScheduledTaskList
+Specifies if the Mount-NAVTenant cmdlet Should update the list of scheduled tasks when mounted.
+If this is false the scheduled task list will not be updated.
+The list of scheduled tasks can be updated with the Update-NavScheduledTaskList cmdlet
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -DatabaseCredentials
+Specifies the user name and password of the login account that the Microsoft Dynamics NAV Server instance will use to access the tenant database in SQL Server.
+This parameter configures the Microsoft Dynamics NAV Server instance to use SQL Server Authentication instead of Windows Authentication on the connection to the database.
+The login account must be a member of the db_owner role on the database.
+
+```yaml
+Type: PSCredential
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -ServerInstance
+Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
+You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
+
+```yaml
+Type: String
+Parameter Sets: UseNST
+Aliases: 
+
+Required: True
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -AlternateId
-Specifies the alternative IDs for the tenant, such as host names for the Microsoft Dynamics NAV Web client, SOAP web services, OData web services, or the Microsoft Dynamics NAV Windows client.
-If you use alternative IDs for tenant resolution in the Microsoft Dynamics NAV Web client, you must also enable some of the UrlRewrite rules in the Web.Config file for the Microsoft Dynamics NAV Web Server components.
+### -ApplicationDatabaseServer
+Specifies the SQL Server name and instance, such as MyServer\MyInstance, that hosts the application database that you want to use with the tenant database,.
+This parameter, together with the ApplicationDatabaseName parameter, enables you to mount a tenant to the same Microsoft Dynamics NAV Server instance as the application database without having to connect to a running Microsoft Dynamics NAV Server instance.
 
 ```yaml
-Type: System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]
-Parameter Sets: (All)
-Aliases:
+Type: String
+Parameter Sets: UseDatabase
+Aliases: 
 
 Required: False
 Position: Named
@@ -161,7 +192,7 @@ This parameter is only relevant when you set with the ApplicationDatabaseServer 
 ```yaml
 Type: PSCredential
 Parameter Sets: UseDatabase
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -178,7 +209,7 @@ This parameter, together with the ApplicationDatabaseServer parameter, enables y
 ```yaml
 Type: String
 Parameter Sets: UseDatabase
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -187,14 +218,49 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -ApplicationDatabaseServer
-Specifies the SQL Server name and instance, such as MyServer\MyInstance, that hosts the application database that you want to use with the tenant database,.
-This parameter, together with the ApplicationDatabaseName parameter, enables you to mount a tenant to the same Microsoft Dynamics NAV Server instance as the application database without having to connect to a running Microsoft Dynamics NAV Server instance.
+### -EncryptionProvider
+Specifies the name of the encryption provider.
+
+```yaml
+Type: EncryptionProvider
+Parameter Sets: (All)
+Aliases: 
+Accepted values: LocalKeyFile, AzureKeyVault
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Force
+Forces the command to run without asking for user confirmation.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -AadTenantId
+Specifies the the GUID of the tenant in Azure Active Directory for the Dynamics NAV application.
+The tenant ID is used for authenticating Dynamics NAV users with Azure AD.
+
+The Azure AD Tenant ID identities the directory for the Microsoft Dynamics NAV application in Azure AD.
+The tenant ID can be the tenant's domain name or GUID.
+You can get the domain name from the Domain settings for the AD tenant (directory) in the Azure Management Portal.
 
 ```yaml
 Type: String
-Parameter Sets: UseDatabase
-Aliases:
+Parameter Sets: (All)
+Aliases: 
 
 Required: False
 Position: Named
@@ -203,15 +269,45 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -DatabaseCredentials
-Specifies the user name and password of the login account that the Microsoft Dynamics NAV Server instance will use to access the tenant database in SQL Server.
-This parameter configures the Microsoft Dynamics NAV Server instance to use SQL Server Authentication instead of Windows Authentication on the connection to the database.
-The login account must be a member of the db_owner role on the database.
+### -AllowAppDatabaseWrite
+Specifies if the tenant can write to the application database.
+The default value is false.
 
 ```yaml
-Type: PSCredential
+Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -AlternateId
+Specifies the alternative IDs for the tenant, such as host names for the Microsoft Dynamics NAV Web client, SOAP web services, OData web services, or the Microsoft Dynamics NAV Windows client.
+If you use alternative IDs for tenant resolution in the Microsoft Dynamics NAV Web client, you must also enable some of the UrlRewrite rules in the Web.Config file for the Microsoft Dynamics NAV Web Server components.
+
+```yaml
+Type: System.Collections.ObjectModel.ReadOnlyCollection`1[System.String]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Confirm
+Prompts you for confirmation before executing the command.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: cf
 
 Required: False
 Position: Named
@@ -227,7 +323,7 @@ You can also specify the instance in the DatabaseServer parameter, such as MySer
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -242,10 +338,10 @@ Specifies the name of the Microsoft Dynamics NAV database that you want to mount
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 3
+Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -257,7 +353,7 @@ Specifies the name of the database server that hosts the Microsoft Dynamics NAV 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -272,7 +368,7 @@ Specifies the name of the company that NAS services, OData web services, and SOA
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -293,22 +389,7 @@ If this parameter is not specified, the value is taken from the ServicesDefaultT
 ```yaml
 Type: TimeZoneInfo
 Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -EncryptionProvider
-Specifies the name of the encryption provider.
-
-```yaml
-Type: EncryptionProvider
-Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -326,7 +407,7 @@ Paths in the URLs require only partial match.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -344,7 +425,7 @@ Parameter Sets: (All)
 Aliases: Tenant
 
 Required: True
-Position: 2
+Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -357,28 +438,12 @@ The default value is false.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -OverwriteTenantIdInDatabase
-Specifies if the Mount-NAVTenant cmdlet must overwrite the tenant ID in the database if the database has been mounted as a tenant earlier.
-If this is false, and the tenant database has previously been mounted with a different tenant ID, an exception is thrown.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -390,60 +455,12 @@ The default is false.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -ServerInstance
-Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
-You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
-
-```yaml
-Type: String
-Parameter Sets: UseNST
-Aliases:
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -SkipUpdateScheduledTaskList
-Specifies if the Mount-NAVTenant cmdlet Should update the list of scheduled tasks when mounted.
-If this is false the scheduled task list will not be updated.
-The list of scheduled tasks can be updated with the Update-NavScheduledTaskList cmdlet
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Confirm
-Prompts you for confirmation before executing the command.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: cf
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -462,20 +479,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Forces the command to run without asking for user confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -487,9 +492,11 @@ You can pipe the ServerInstance as a string to this cmdlet.
 ### None
 
 ## NOTES
+
 ## RELATED LINKS
-[Dismount-NAVTenant](Dismount-NAVTenant.md)  
 
-[Get-NAVTenant](Get-NAVTenant.md)  
+[Dismount-NAVTenant](Dismount-NAVTenant.md)
 
-[Sync-NAVTenant](Sync-NAVTenant.md)  
+[Get-NAVTenant](Get-NAVTenant.md)
+
+[Sync-NAVTenant](Sync-NAVTenant.md)

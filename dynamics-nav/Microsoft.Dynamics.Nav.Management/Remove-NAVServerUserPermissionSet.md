@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=401390
 schema: 2.0.0
 ---
 
@@ -15,28 +15,28 @@ Removes a permission set from the list of permission sets that are assigned to a
 ```
 Remove-NAVServerUserPermissionSet [-Scope <PermissionScope>] [-AppName <String>] [-AppPublisher <String>]
  [-Tenant <TenantId>] [-CompanyName <String>] -PermissionSetId <String> -WindowsAccount <String>
- [-ServerInstance] <String> [-Force] [-WhatIf] [-Confirm]
+ [-ServerInstance] <String> [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### Sid
 ```
 Remove-NAVServerUserPermissionSet [-Scope <PermissionScope>] [-AppName <String>] [-AppPublisher <String>]
  [-Tenant <TenantId>] [-CompanyName <String>] -PermissionSetId <String> -Sid <String>
- [-ServerInstance] <String> [-Force] [-WhatIf] [-Confirm]
+ [-ServerInstance] <String> [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### UserName
 ```
 Remove-NAVServerUserPermissionSet [-Scope <PermissionScope>] [-AppName <String>] [-AppPublisher <String>]
  [-Tenant <TenantId>] [-CompanyName <String>] -PermissionSetId <String> -UserName <String>
- [-ServerInstance] <String> [-Force] [-WhatIf] [-Confirm]
+ [-ServerInstance] <String> [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ### InputObject
 ```
 Remove-NAVServerUserPermissionSet [-Scope <PermissionScope>] [-AppName <String>] [-AppPublisher <String>]
  [-Tenant <TenantId>] [-CompanyName <String>] -PermissionSetId <String> -InputObject <DataRow>
- [-ServerInstance] <String> [-Force] [-WhatIf] [-Confirm]
+ [-ServerInstance] <String> [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -53,13 +53,29 @@ This example removes the built-in account (Network Service) from the AVOCADO per
 
 ## PARAMETERS
 
+### -Scope
+Not Specified.
+
+```yaml
+Type: PermissionScope
+Parameter Sets: (All)
+Aliases: 
+Accepted values: System, Tenant
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -AppName
 Specifies the name of the Dynamics NAV extension.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -74,101 +90,9 @@ Specifies the publisher of the Dynamics NAV extension.
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -CompanyName
-Specifies the name of a company in the Microsoft Dynamics NAV database. The specified user permission sets are removed for that company only.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -InputObject
-Specifies the DataRow object that identifies the user to remove the permission set from. You can pass this object from the Get-NAVServerUserPermissionSet cmdlet.
-
-```yaml
-Type: DataRow
-Parameter Sets: InputObject
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByValue)
-Accept wildcard characters: False
-```
-
-### -PermissionSetId
-Specifies the ID of a permission set, which is a string such as RES-JOURNAL or SUPER.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Scope
-Not Specified.
-
-```yaml
-Type: PermissionScope
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -ServerInstance
-Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance. You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -Sid
-Specifies a security identifier (SID) of the Microsoft Dynamics NAV user. The SID is a unique value that identifies a Windows user account.
-
-You can use the Sid, UserName, or WindowsAccount parameters to identify the  user. If you use the Sid parameter, then do not set the UserName or WindowsAccount parameters.
-
-```yaml
-Type: String
-Parameter Sets: Sid
-Aliases:
-
-Required: True
 Position: Named
 Default value: None
 Accept pipeline input: False
@@ -192,16 +116,45 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -UserName
-Specifies the user name of the Microsoft Dynamics NAV user. The user name is defined by the User Name field in a user's account in Microsoft Dynamics NAV.
-
-You can use the UserName, WindowsAccount or Sid parameters to identify the user.
-If you use the Username parameter, then you cannot use the Windows Account or Sid parameters.
+### -CompanyName
+Specifies the name of a company in the Microsoft Dynamics NAV database. The specified user permission sets are removed for that company only.
 
 ```yaml
 Type: String
-Parameter Sets: UserName
-Aliases:
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -PermissionSetId
+Specifies the ID of a permission set, which is a string such as RES-JOURNAL or SUPER.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Sid
+Specifies a security identifier (SID) of the Microsoft Dynamics NAV user. The SID is a unique value that identifies a Windows user account.
+
+You can use the Sid, UserName, or WindowsAccount parameters to identify the  user. If you use the Sid parameter, then do not set the UserName or WindowsAccount parameters.
+
+```yaml
+Type: String
+Parameter Sets: Sid
+Aliases: 
 
 Required: True
 Position: Named
@@ -219,9 +172,72 @@ If you use the WindowsAccount parameter, then you cannot use the UserName or Sid
 ```yaml
 Type: String
 Parameter Sets: WindowsAccount
-Aliases:
+Aliases: 
 
 Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -UserName
+Specifies the user name of the Microsoft Dynamics NAV user. The user name is defined by the User Name field in a user's account in Microsoft Dynamics NAV.
+
+You can use the UserName, WindowsAccount or Sid parameters to identify the user.
+If you use the Username parameter, then you cannot use the Windows Account or Sid parameters.
+
+```yaml
+Type: String
+Parameter Sets: UserName
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -InputObject
+Specifies the DataRow object that identifies the user to remove the permission set from. You can pass this object from the Get-NAVServerUserPermissionSet cmdlet.
+
+```yaml
+Type: DataRow
+Parameter Sets: InputObject
+Aliases: 
+
+Required: True
+Position: Named
+Default value: None
+Accept pipeline input: True (ByValue)
+Accept wildcard characters: False
+```
+
+### -ServerInstance
+Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance. You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### -Force
+Forces the command to run without asking for user confirmation.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
 Position: Named
 Default value: None
 Accept pipeline input: False
@@ -258,20 +274,8 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Forces the command to run without asking for user confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -286,14 +290,15 @@ You can pass this object from the Get-NAVServerUserPermissionSet cmdlet to remov
 ### None
 
 ## NOTES
+
 ## RELATED LINKS
 
-[Get-NAVServerUserPermissionSet](Get-NAVServerUserPermissionSet.md)  
+[Get-NAVServerUserPermissionSet](Get-NAVServerUserPermissionSet.md)
 
-[New-NAVServerPermissionSet](New-NAVServerPermissionSet.md)  
+[New-NAVServerPermissionSet](New-NAVServerPermissionSet.md)
 
-[Get-NAVServerUser](Get-NAVServerUser.md)  
+[Get-NAVServerUser](Get-NAVServerUser.md)
 
-[New-NAVServerUser](New-NAVServerUser.md)  
+[New-NAVServerUser](New-NAVServerUser.md)
 
-[Remove-NAVServerUser](Remove-NAVServerUser.md)  
+[Remove-NAVServerUser](Remove-NAVServerUser.md)

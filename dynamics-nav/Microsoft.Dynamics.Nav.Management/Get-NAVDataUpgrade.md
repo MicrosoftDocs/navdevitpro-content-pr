@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=403850
 schema: 2.0.0
 ---
 
@@ -13,22 +13,23 @@ Gets information about a data upgrade process that is currently running, or the 
 
 ### None (Default)
 ```
-Get-NAVDataUpgrade [[-Tenant] <TenantId>] [-ServerInstance] <String> [-Force]
+Get-NAVDataUpgrade [[-Tenant] <TenantId>] [-ServerInstance] <String> [-Force] [<CommonParameters>]
 ```
 
 ### ErrorOnly
 ```
-Get-NAVDataUpgrade [[-Tenant] <TenantId>] [-ErrorOnly] [-ServerInstance] <String> [-Force]
+Get-NAVDataUpgrade [[-Tenant] <TenantId>] [-ErrorOnly] [-ServerInstance] <String> [-Force] [<CommonParameters>]
 ```
 
 ### Detailed
 ```
-Get-NAVDataUpgrade [[-Tenant] <TenantId>] [-Detailed] [-ServerInstance] <String> [-Force]
+Get-NAVDataUpgrade [[-Tenant] <TenantId>] [-Detailed] [-ServerInstance] <String> [-Force] [<CommonParameters>]
 ```
 
 ### Progress
 ```
 Get-NAVDataUpgrade [[-Tenant] <TenantId>] [-Progress] [[-Interval] <Int32>] [-ServerInstance] <String> [-Force]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -158,19 +159,19 @@ This example returns a detailed status of a currently running or completed data 
 
 ## PARAMETERS
 
-### -Detailed
-Lists details about all the upgrade function that were invoked during the data upgrade process.
-You can format the output as a table by appending the command with "| ft" or "| ogv".
+### -Tenant
+Specifies the ID of a tenant on the Microsoft Dynamics NAV Server instance.
+You can omit the Tenant parameter only if the Microsoft Dynamics NAV Server instance is not configured to run multiple tenants.
 
 ```yaml
-Type: SwitchParameter
-Parameter Sets: Detailed
-Aliases:
+Type: TenantId
+Parameter Sets: (All)
+Aliases: Id
 
 Required: False
-Position: 4
+Position: 1
 Default value: None
-Accept pipeline input: False
+Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
@@ -180,10 +181,41 @@ Lists errors that occurred during the data upgrade process.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: ErrorOnly
-Aliases:
+Aliases: 
+
+Required: False
+Position: 2
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Detailed
+Lists details about all the upgrade function that were invoked during the data upgrade process.
+You can format the output as a table by appending the command with "| ft" or "| ogv".
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: Detailed
+Aliases: 
 
 Required: False
 Position: 3
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -Progress
+Provides live progress indication about the data upgrade process that is currently running.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: Progress
+Aliases: 
+
+Required: True
+Position: 4
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -196,24 +228,9 @@ The default value is 1 second.
 ```yaml
 Type: Int32
 Parameter Sets: Progress
-Aliases:
+Aliases: 
 
 Required: False
-Position: 6
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
-
-### -Progress
-Provides live progress indication about the data upgrade process that is currently running.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: Progress
-Aliases:
-
-Required: True
 Position: 5
 Default value: None
 Accept pipeline input: False
@@ -227,28 +244,12 @@ You can specify either the full name of an instance, such as MicrosoftDynamicsNa
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 1
+Position: 0
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -Tenant
-Specifies the ID of a tenant on the Microsoft Dynamics NAV Server instance.
-You can omit the Tenant parameter only if the Microsoft Dynamics NAV Server instance is not configured to run multiple tenants.
-
-```yaml
-Type: TenantId
-Parameter Sets: (All)
-Aliases: Id
-
-Required: False
-Position: 2
-Default value: None
-Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
@@ -258,7 +259,7 @@ Forces the command to run without asking for user confirmation.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -266,6 +267,9 @@ Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -277,7 +281,9 @@ You can pass the value of the ServerInstance and Tenant parameters as a string t
 ### Microsoft.Dynamics.Nav.Types.NavUpgradeProcessExecutionDetails
 
 ## NOTES
+
 ## RELATED LINKS
+
 [Resume-NAVDataUpgrade](Resume-NAVDataUpgrade.md)
 
 [Start-NAVDataUpgrade](Start-NAVDataUpgrade.md)

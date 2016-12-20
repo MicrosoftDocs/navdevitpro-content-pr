@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Apps.Tools.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=616071
 schema: 2.0.0
 ---
 
@@ -15,6 +15,7 @@ Creates a new in-memory manifest object with the specified NAV App metadata.
 New-NAVAppManifest [-Name] <String> [-Publisher] <String> [[-Id] <Guid>] [[-Brief] <String>]
  [[-Description] <String>] [[-Version] <Version>] [[-CompatibilityId] <Version>] [[-PrivacyStatement] <String>]
  [[-Eula] <String>] [[-Help] <String>] [[-Url] <String>] [-Prerequisites <String[]>] [-Dependencies <String[]>]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -90,81 +91,17 @@ This example shows how to pass the in-memory manifest to New-NAVAppPackage cmdle
 
 ## PARAMETERS
 
-### -Id
-Specifies the unique identifier for the NAV App.
-A unique identifier will be generated if a value is not provided.
-The same unique identifier should be used for each new version of the NAV App.
+### -Brief
+Specifies the brief description for the NAV App.
 
 ```yaml
-Type: Guid
+Type: String
 Parameter Sets: (All)
-Aliases: AppId
+Aliases: AppBrief
 
 Required: False
 Position: 4
 Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Publisher
-Specifies the publisher of the NAV App, such as your company name.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: AppPublisher
-
-Required: True
-Position: 3
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Name
-Specifies the name of the NAV App.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: AppName
-
-Required: True
-Position: 2
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Description
-Specifies the description for the NAV App.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: AppDescription
-
-Required: False
-Position: 6
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Version
-Specifies the version of the NAV App.
-The version is a string in the format of Major.Minor.Build.Revision, with a default value of 1.0.0.0 if not provided.
-The value should be incremented for each new version of the NAV App.
-
-```yaml
-Type: Version
-Parameter Sets: (All)
-Aliases: AppVersion
-
-Required: False
-Position: 7
-Default value: 1.0.0.0
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
@@ -181,7 +118,7 @@ Parameter Sets: (All)
 Aliases: AppCompatibilityId
 
 Required: False
-Position: 8
+Position: 7
 Default value: 1.0.0.0
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -194,7 +131,7 @@ Use a comma (,) to separate the paths to multiple .navx files., such as in the f
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -203,48 +140,16 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
-### -Prerequisites
-Specifies the objects that must exist in order to deploy the NAV App to a Microsoft Dynamics NAV server instance.
-The prerequisites is a string in the format of type=ID, where type can be any NAV object type such as Table, CodeUnit, or Page.
-Use a comma (,) to separate the prerequisites, such as in the following example: Table=397, CodeUnit=78
-
-```yaml
-Type: String[]
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Brief
-Specifies the brief description for the NAV App.
+### -Description
+Specifies the description for the NAV App.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases: AppBrief
+Aliases: AppDescription
 
 Required: False
 Position: 5
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -PrivacyStatement
-Specifies a hyperlink to the NAV App Privacy Statement.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: AppPrivacyStatment
-
-Required: False
-Position: 9
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -259,22 +164,7 @@ Parameter Sets: (All)
 Aliases: AppEula
 
 Required: False
-Position: 10
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -Url
-Specifies a generic hyperlink.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: AppUrl
-
-Required: False
-Position: 12
+Position: 9
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
@@ -289,11 +179,125 @@ Parameter Sets: (All)
 Aliases: AppHelp
 
 Required: False
+Position: 10
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Id
+Specifies the unique identifier for the NAV App.
+A unique identifier will be generated if a value is not provided.
+The same unique identifier should be used for each new version of the NAV App.
+
+```yaml
+Type: Guid
+Parameter Sets: (All)
+Aliases: AppId
+
+Required: False
+Position: 3
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Name
+Specifies the name of the NAV App.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: AppName
+
+Required: True
+Position: 1
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Prerequisites
+Specifies the objects that must exist in order to deploy the NAV App to a Microsoft Dynamics NAV server instance.
+The prerequisites is a string in the format of type=ID, where type can be any NAV object type such as Table, CodeUnit, or Page.
+Use a comma (,) to separate the prerequisites, such as in the following example: Table=397, CodeUnit=78
+
+```yaml
+Type: String[]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -PrivacyStatement
+Specifies a hyperlink to the NAV App Privacy Statement.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: AppPrivacyStatment
+
+Required: False
+Position: 8
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Publisher
+Specifies the publisher of the NAV App, such as your company name.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: AppPublisher
+
+Required: True
+Position: 2
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -Url
+Specifies a generic hyperlink.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: AppUrl
+
+Required: False
 Position: 11
 Default value: None
 Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
+
+### -Version
+Specifies the version of the NAV App.
+The version is a string in the format of Major.Minor.Build.Revision, with a default value of 1.0.0.0 if not provided.
+The value should be incremented for each new version of the NAV App.
+
+```yaml
+Type: Version
+Parameter Sets: (All)
+Aliases: AppVersion
+
+Required: False
+Position: 6
+Default value: 1.0.0.0
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
@@ -302,11 +306,13 @@ Accept wildcard characters: False
 ### NavAppManifest
 
 ## NOTES
+
 ## RELATED LINKS
+
 [Get-NAVAppManifest](Get-NAVAppManifest.md)
 
-[New-NavAppManifestFile](New-NAVAppManifestFile.md)  
+[New-NavAppManifestFile](New-NavAppManifestFile.md)
 
-[NEW-NAVAppPackage](New-NAVAppPackage.md)  
+[New-NAVAppPackage](New-NAVAppPackage.md)
 
-[Save-NAVAppManifest](Save-NAVAppManifest.md)
+[Set-NAVAppManifest](Set-NAVAppManifest.md)

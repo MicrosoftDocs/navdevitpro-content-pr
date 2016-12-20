@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Model.Tools.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=400542
 schema: 2.0.0
 ---
 
@@ -14,6 +14,7 @@ Imports strings in the specified language into text files that contain Microsoft
 ```
 Import-NAVApplicationObjectLanguage [-Source] <String[]> [-LanguagePath] <String[]> [-Destination] <String>
  [[-LanguageId] <String[]>] [-Encoding <FileEncoding>] [-PassThru] [-Force] [-WhatIf] [-Confirm]
+ [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -32,16 +33,31 @@ The strings are imported from the text files in the ALL-ESP.txt file, and the re
 
 ## PARAMETERS
 
+### -Confirm
+Prompts you for confirmation before running the cmdlet.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: cf
+
+Required: False
+Position: Named
+Default value: False
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
 ### -Destination
 Specifies the text file or folder where you want the result of the import to be put.
 
 ```yaml
 Type: String
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 4
+Position: 3
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -55,7 +71,8 @@ The default value is OEM, which is the default encoding for the Microsoft Dynami
 ```yaml
 Type: FileEncoding
 Parameter Sets: (All)
-Aliases:
+Aliases: 
+Accepted values: OEM, Unicode, UTF7, UTF8, UTF32, ASCII, BigEndianUnicode, Default
 
 Required: False
 Position: Named
@@ -70,10 +87,26 @@ Skips confirmation prompts when the cmdlet is run.
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### -LanguageId
+Specifies the language or list of languages that you want to import, such as "DEU".
+If you do not set this parameter, all available languages are imported.
+
+```yaml
+Type: String[]
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: 4
 Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
@@ -89,25 +122,9 @@ Parameter Sets: (All)
 Aliases: PSPath, Language
 
 Required: True
-Position: 3
+Position: 2
 Default value: None
 Accept pipeline input: True (ByValue)
-Accept wildcard characters: False
-```
-
-### -LanguageId
-Specifies the language or list of languages that you want to import, such as "DEU".
-If you do not set this parameter, all available languages are imported.
-
-```yaml
-Type: String[]
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: 5
-Default value: None
-Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -117,7 +134,7 @@ Specifies if you want to return an object for each application object and langua
 ```yaml
 Type: SwitchParameter
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: False
 Position: Named
@@ -133,27 +150,12 @@ The cmdlet does not modify these text files.
 ```yaml
 Type: String[]
 Parameter Sets: (All)
-Aliases:
+Aliases: 
 
 Required: True
-Position: 2
+Position: 1
 Default value: None
 Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -Confirm
-Prompts you for confirmation before running the cmdlet.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases: cf
-
-Required: False
-Position: Named
-Default value: False
-Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -173,6 +175,9 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ## OUTPUTS
@@ -180,8 +185,9 @@ Accept wildcard characters: False
 ## NOTES
 
 ## RELATED LINKS
-[Export-NAVApplicationObjectLanguage](Export-NAVApplicationObjectLanguage.md)  
 
-[Remove-NAVApplicationObjectLanguage](Remove-NAVApplicationObjectLanguage.md)  
+[Export-NAVApplicationObjectLanguage](Export-NAVApplicationObjectLanguage.md)
+
+[Remove-NAVApplicationObjectLanguage](Remove-NAVApplicationObjectLanguage.md)
 
 [Test-NAVApplicationObjectLanguage](Test-NAVApplicationObjectLanguage.md)

@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Apps.Management.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=828776
 schema: 2.0.0
 ---
 
@@ -81,14 +81,12 @@ Accept pipeline input: True (ByPropertyName)
 Accept wildcard characters: False
 ```
 
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
 ## INPUTS
 
 ## OUTPUTS
 
 ## NOTES
 ## RELATED LINKS
-[Install-NAVApp](Install-NAVApp.md)  
-
-[Publish-NAVApp](Publish-NAVApp.md)  
-
-[Get-NAVAppTableModification](Get-NAVAppTableModification.md)  

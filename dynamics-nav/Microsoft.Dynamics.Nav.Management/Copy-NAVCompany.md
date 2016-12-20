@@ -1,6 +1,6 @@
 ---
 external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
-online version:
+online version: https://go.microsoft.com/fwlink/?linkid=401353
 schema: 2.0.0
 ---
 
@@ -13,7 +13,7 @@ Creates a new company and copies all data from an existing company in the same t
 
 ```
 Copy-NAVCompany [-Tenant <TenantId>] [-DestinationCompanyName] <String> [-SourceCompanyName] <String>
- [-ServerInstance] <String> [-Force] [-WhatIf] [-Confirm]
+ [-ServerInstance] <String> [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
 ```
 
 ## DESCRIPTION
@@ -27,57 +27,11 @@ To create an empty company, use the New-NAVCompany cmdlet.
 ```
 Copy-NAVCompany -ServerInstance DynamicsNAV -Tenant CRONUS -DestinationCompanyName 'Cronus Subsidiary' -SourceCompanyName 'Cronus International Ltd.'
 ```
+
 This example creates a copy of the Cronus International Ltd.
 company in the database that has the tenant ID CRONUS and which is mounted against the DynamicsNAV server instance.
 
 ## PARAMETERS
-
-### -DestinationCompanyName
-Specifies the name of the company that you want to create.
-If a company with that name already exists in the Microsoft Dynamics NAV database, the cmdlet fails.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: 3
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
-
-### -ServerInstance
-Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
-You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: 1
-Default value: None
-Accept pipeline input: True (ByPropertyName, ByValue)
-Accept wildcard characters: False
-```
-
-### -SourceCompanyName
-Specifies the name of the company that you want to copy.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases:
-
-Required: True
-Position: 2
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
 
 ### -Tenant
 Specifies the ID of the tenant that the company is stored in, such as Tenant1.
@@ -92,6 +46,68 @@ Required: False
 Position: Named
 Default value: None
 Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -DestinationCompanyName
+Specifies the name of the company that you want to create.
+If a company with that name already exists in the Microsoft Dynamics NAV database, the cmdlet fails.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 2
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -SourceCompanyName
+Specifies the name of the company that you want to copy.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 1
+Default value: None
+Accept pipeline input: True (ByPropertyName)
+Accept wildcard characters: False
+```
+
+### -ServerInstance
+Specifies the name of a Dynamics NAV Server instance, for example, DynamicsNAV or myinstance.
+You can specify either the full name of an instance, such as MicrosoftDynamicsNavServer$myinstance or the short name such as myinstance.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: 
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### -Force
+Forces the command to run without asking for user confirmation.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
@@ -125,30 +141,20 @@ Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
-### -Force
-Forces the command to run without asking for user confirmation.
-
-```yaml
-Type: SwitchParameter
-Parameter Sets: (All)
-Aliases:
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: False
-Accept wildcard characters: False
-```
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
 
 ## INPUTS
 
 ## OUTPUTS
 
 ## NOTES
-## RELATED LINKS
-[Get-NAVCompany](Get-NAVCompany.md)  
 
-[New-NAVCompany](New-NAVCompany.md)  
+## RELATED LINKS
+
+[Get-NAVCompany](Get-NAVCompany.md)
+
+[New-NAVCompany](New-NAVCompany.md)
 
 [Remove-NAVCompany](Remove-NAVCompany.md)
 
