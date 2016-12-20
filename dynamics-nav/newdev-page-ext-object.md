@@ -76,7 +76,7 @@ pageextension 70000020 CustomerCardExtension extends "Customer Card"
             {
                 Action(MyAction1)
                 {
-                    CaptionML = ENU = 'Hello!';
+                    CaptionML = ENU='Hello!';
 
                     trigger OnAction();
                     begin
