@@ -42,7 +42,7 @@ Adds a media file, such as a JPEG image, from an InStream object to the MediaSet
  *MimeType*  
  Type: Text  
 
- [!INCLUDE[mimetype](includes/MimeType.md)]
+ [!INCLUDE[mimetype](includes/mimetype_md.md)]
 
 ## Property Value/Return Value  
  Type: GUID  
