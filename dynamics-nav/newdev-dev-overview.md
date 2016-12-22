@@ -17,12 +17,14 @@ ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 
 # Developing Extensions Using the New Development Environment
 
-Developing for [!INCLUDE[navnow_md](includes/navnow_md.md)] is done by creating an extension to a [!INCLUDE[navnow_md](includes/navnow_md.md)] solution. Extensions are a programming model where functionality is defined as an addition to existing objects and defines how they are different or modify the behavior of the solution.
+Extensions are a programming model where functionality is defined as an addition to existing objects and defines how they are different or modify the behavior of the solution. This section explains how you can develop extensions using the new development environment for [!INCLUDE[navnow_md](includes/navnow_md.md)].
+ 
 You might already be familiar with the extension model working with [!INCLUDE[navnow_md](includes/navnow_md.md)]. For more information, see [Extending Microsoft Dynamics NAV Using Extension Packages](extending-microsoft-dynamics-nav-using-extension-packages.md).
 
+<!--
 > [!NOTE]  
 > To get started developing extensions for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] read more about building them here [Extending Microsoft Dynamics NAV Using Extension Packages](extending-microsoft-dynamics-nav-using-extension-packages.md). For [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], you have to sign up for [AppSource](https://appsource.microsoft.com/en-us/) and upload your extensions there. For more information, see [Extend Dynamics 365 for Financials](https://madeira.microsoft.com/en-us/documentation/madeira-develop-extensions/). 
-
+-->
 
 If you're new to building extensions for [!INCLUDE[navnow_md](includes/navnow_md.md)], we recommend that you read this document to get an understanding of the basics and terms you will encounter while working. Next, follow the [Getting Started](newdev-get-started.md) to set up your system.
 
@@ -32,7 +34,7 @@ All functionality in [!INCLUDE[navnow_md](includes/navnow_md.md)] is coded in ob
 > [!NOTE]  
 > A single .al file may contain multiple objects.      
 
-There are two other special objects which are specifically used for building extensions. Table extension objects and page extension objects are used for defining additive or overriding changes to table or page objects. For example, an extension for managing a business that sells organic food may define a table extension object for the Item table that contains an additional field ```Organic``` and ```Produced Locally```. The ```Organic``` and ```Produced Locally``` fields aren't usually present in the Item table, but through the table extension these data fields will now be available to store data in and to access from code. You can then use the page page extension object to display the fields that you added to the table object.
+There are two other special objects which are specifically used for building extensions. Table extension objects and page extension objects are used for defining additive or overriding changes to table or page objects. For example, an extension for managing a business that sells organic food may define a table extension object for the Item table that contains an additional field ```Organic``` and ```Produced Locally```. The ```Organic``` and ```Produced Locally``` fields aren't usually present in the Item table, but through the table extension these data fields will now be available to store data in and to access from code. You can then use the page extension object to display the fields that you added to the table object.
 
 > [!NOTE]  
 > Table and page extension objects can have a name with a maximum length of 30 characters.      
