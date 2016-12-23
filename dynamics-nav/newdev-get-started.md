@@ -17,7 +17,7 @@ caps.latest.revision: 18
 [!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/newdev_dev_preview.md)]
 
 # Getting Started
-To get started writing extensions for [!INCLUDE[navnow_md](includes/navnow_md.md)] you will need a [!INCLUDE[navnow_md](includes/navnow_md.md)] tenant, and Visual Studio Code. Visual Studio Code is a cross platform editor that you will use for coding and debugging. For the preview, you will download a VM from the Microsoft Azure Gallery which is set up for trying out the new development environment.
+To get started writing extensions for [!INCLUDE[navnow_md](includes/navnow_md.md)] you will need a [!INCLUDE[navnow_md](includes/navnow_md.md)] tenant, and Visual Studio Code. Visual Studio Code is a cross platform editor that you will use for coding and debugging. For the preview, you will download a VM (virtual machine) from the Microsoft Azure Gallery. The VM is set up for trying out the new development environment.
 
 ## Steps
 1) First, you will need an Azure subscription. You can sign up for a [free subscription](https://azure.microsoft.com/en-us/free/).   
@@ -36,8 +36,8 @@ Settings in the ```app.json``` file:
 |id|Yes|The unique ID of the extension. When app.json file is automatically created, the ID is set to a new GUID value.|
 |name|Yes|The unique extension name.|
 |publisher|Yes|The name of your publisher, for example: **NAV Partner**, **LLC** |
-|application|Yes, if base application objects are extended or referenced |The minimal supported version and locale of the base application to extend, for example: ```{  "version": "10.0.0.0",  "locale": "W1"  }```|
-|platform|Yes, if system tables are referenced in the extension|The minimal supported version of the platform symbol package file, for example: "10.0.0.0". See the **List of objects in the platform symbol file section** below for the list of object symbols contained in the platform symbol package file.|
+|application|Yes, if base application objects are extended or referenced |The minimum supported version and locale of the base application to extend, for example: ```{  "version": "10.0.0.0",  "locale": "W1"  }```|
+|platform|Yes, if system tables are referenced in the extension|The minimum supported version of the platform symbol package file, for example: "10.0.0.0". See the **List of objects in the platform symbol file section** below for the list of object symbols contained in the platform symbol package file.|
 |packageCachePath|Yes, if base application is extended or system tables are referenced| The path to the folder where referenced symbol package files are located. The path could either be absolute or relative to the current extension working directory, for example: "../../resources"|
 
 Settings in the ```launch.json``` file:
@@ -53,7 +53,7 @@ Settings in the ```launch.json``` file:
 
 
 ## List of objects in the platform symbol file
-The following lists object symbols contained in the platform symbol package file.
+The following table lists object symbols contained in the platform symbol package file.
 
 ### System tables
 
