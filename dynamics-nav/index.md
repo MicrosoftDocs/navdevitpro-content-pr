@@ -1,9 +1,8 @@
 ---
 title: "Welcome to the Developer and IT-Pro Help for Microsoft Dynamics NAV"
 author: edupont04
-manager: edupont
 ms.custom: na
-ms.date: 10/23/2016
+ms.date: 12/23/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -21,7 +20,7 @@ ms.prod: "dynamics-nav-2017"
 |Learn about development options for [!INCLUDE[navnowlong](includes/navnowlong_md.md)]|[Development](Development.md)|  
 |Learn about administration tools and processes for [!INCLUDE[navnowlong](includes/navnowlong_md.md)]|[Administration](Administration.md)|  
 |Find reference information, including C/AL functions, triggers, properties, [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] commands, and [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] windows|[Technical Reference](Technical-Reference.md)|  
-|Learn how to develop for [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]|[Getting Started Developing for Dynamics 365 for Financials](dyn-fin-getting-started-dev-env.md) |
+|Learn how to develop with the new development environment]|[Getting Started](newdev-get-started.md) |
 
 ## See Also
 [System Requirements for Microsoft Dynamics NAV 2017](System-Requirements-for-Microsoft-Dynamics-NAV.md)  
