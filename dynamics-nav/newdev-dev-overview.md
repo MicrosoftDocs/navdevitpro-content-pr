@@ -3,7 +3,7 @@ title: "Developing Extensions Using the New Development Environment"
 description: "Overview of the new development experience."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 12/06/2016
+ms.date: 12/23/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -28,7 +28,7 @@ You might already be familiar with the extension model from working with [!INCLU
 
 If you're new to building extensions for [!INCLUDE[navnow_md](includes/navnow_md.md)], we recommend that you read this document to get an understanding of the basics and terms you will encounter while working. Next, follow the [Getting Started](newdev-get-started.md) to set up your system.
 
-## Understanding Objects in Dynamics NAV
+## Understanding objects in Dynamics NAV
 All functionality in [!INCLUDE[navnow_md](includes/navnow_md.md)] is coded in objects. Table objects define the table schema that holds data, page objects represent the pages seen in the user interface and codeunits contain code for logical calculations and for the application behavior. These objects are stored as code, known as AL code, and are saved in files with the ```.al``` file extension.  
 
 > [!NOTE]  
@@ -41,7 +41,7 @@ There are two other special objects which are specifically used for building ext
 
 For more information, see [Page Extension Object](newdev-page-ext-object.md) and [Table Extension Object](newdev-table-ext-object.md).
 
-## Developing Extensions in Visual Studio Code
+## Developing extensions in Visual Studio Code
 Using the AL extension for Visual Studio Code, you'll get the benefits of a modern development environment along with seamless publishing and execution integration with your [!INCLUDE[navnow_md](includes/navnow_md.md)] tenant. For more information on getting up and running, see [Getting Started](newdev-get-started.md). 
 
 Visual Studio Code and the AL extension lets you do the following tasks:
