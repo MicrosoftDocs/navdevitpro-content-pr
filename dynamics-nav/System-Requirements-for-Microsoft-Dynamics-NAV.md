@@ -43,7 +43,9 @@ The following sections list the minimum hardware and software requirements to in
 
 -   [Automated Data Capture System Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#ADCS)  
 
--   [Microsoft Office Outlook Add-In Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#Outlook)  
+-   [Business Inbox in Microsoft Outlook Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#BusInboxOutlook)  
+
+-   [Microsoft Outlook Add-In Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#Outlook)  
 
 -   [Microsoft Dynamics CRM Integration Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#CRM)  
 
@@ -160,17 +162,25 @@ The following sections list the minimum hardware and software requirements to in
 |Additional software|-   MSXML version 6.0.<br />-   Telnet or Microsoft Windows HyperTerminal.<br />-   VT100 Plug-in for each computer on which you install ADCS.<br />-   Microsoft Loopback Adapter.|  
 |Additional information|-   HyperTerminal is no longer included with Windows. For more information, see [What happened to HyperTerminal?](http://go.microsoft.com/fwlink/?LinkId=222571) in the Windows Help.<br />-   VT100 Plug-in acts as a virtual Telnet server.|  
 
-##  <a name="Outlook"></a> Microsoft Office Outlook Add-In Requirements  
-The following table shows the minimum system requirements for the [!INCLUDE[navnow_md](includes/navnow_md.md)] Add-In for Outlook.
+##  <a name="BusInboxOutlook"></a> Business Inbox in Microsoft Outlook Requirements  
+The following table shows the minimum system requirements for using [!INCLUDE[navnow_md](includes/navnow_md.md)] as your business inbox in Outlook.
 
 |||  
 |-|-|  
 |Supported Outlook Applications |Outlook 2013 or later, Outlook Web App, OWA for iPad, OWA for iPhone, and OWA for Android.|
-|Supported Exchange Servers|Exchange Online.|
-|Supported Authentication|The [!INCLUDE[nav_server_md](includes/nav_server_md.md)] must be configured to run with NavUserPassword, ACS, or AAD Credentials Type.|
-|Supported Browsers|When using the Add-In on Outlook Web App or Outlook, your computer must be running a supported browser listed in the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] Requirements.|
-|Supported Operating Systems|When using the Add-In on OWA for iPad, OWA for iPad, or OWA for Android, your mobile device must use a supported Operating System listed in [!INCLUDE[nav_uni_app_md](includes/nav_uni_app_md.md)] Requirements.|
-|Additional software|Microsoft Office 2016, Microsoft Office 2013 SP1, or Microsoft Office 2010 SP2 \(32-bit edition\).|  
+|Supported Exchange Servers|Exchange Server 2013, Exchange Server 2016, or Exchange Online.|
+|Supported Authentication|The [!INCLUDE[nav_server_md](includes/nav_server_md.md)] must be configured to run with NavUserPassword, ACS, or AAD Credentials Type.<br /> Also, the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] must be configured for Secure Sockets Layer (SSL).|
+|Supported Browsers|When using the Outlook Web App (OWA), your computer must be running a supported browser listed in the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] Requirements.|
+|Supported Operating Systems|When using OWA for iPad, OWA for iPad, or OWA for Android, your mobile device must use a supported Operating System listed in [!INCLUDE[nav_uni_app_md](includes/nav_uni_app_md.md)] Requirements.|
+|Additional software|The Exchange PowerShell endpoint must be accessible by [!INCLUDE[nav_server](includes/nav_server_md.md).|  
+
+##  <a name="Outlook"></a> Microsoft Outlook Add-In Requirements  
+The following table shows the minimum system requirements for the [!INCLUDE[navnow_md](includes/navnow_md.md)] Add-In for Outlook for synchronization with Outlook.
+
+|||  
+|-|-|  
+|Supported Outlook Applications |Outlook 2016, Outlook 2013 SP1, or Outlook 2010 SP2 \(32-bit edition\).|
+|Supported Exchange Servers|Exchange Server 2016, Exchange Server 2013, or Exchange Online.|  
 
 
 ##  <a name="CRM"></a> Microsoft Dynamics CRM Integration Requirements  
@@ -196,3 +206,4 @@ The following table shows the minimum system requirements for the [!INCLUDE[navn
 [Product and Architecture Overview](Product-and-Architecture-Overview.md)  
 [Installation Options](Installation-Options.md)  
 [Client Types](Client-Types.md)  
+[How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md)  
