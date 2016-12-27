@@ -1,16 +1,15 @@
 ---
 title: "System Requirements for Microsoft Dynamics NAV 2017"
 author: edupont04
-manager: edupont04
 ms.custom: na
-ms.date: 10/19/2016
+ms.date: 12/27/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 014e3285-02be-459c-9a54-eae45ea71e04
-caps.latest.revision: 138
+
 ---
 # System Requirements for Microsoft Dynamics NAV 2017
 The following sections list the minimum hardware and software requirements to install and run [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. **Minimum** means that later versions \(such as SP1, SP2, or R2 versions\) of a required software product are also supported.  
@@ -172,7 +171,7 @@ The following table shows the minimum system requirements for using [!INCLUDE[na
 |Supported Authentication|The [!INCLUDE[nav_server_md](includes/nav_server_md.md)] must be configured to run with NavUserPassword, ACS, or AAD Credentials Type.<br /> Also, the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] must be configured for Secure Sockets Layer (SSL).|
 |Supported Browsers|When using the Outlook Web App (OWA), your computer must be running a supported browser listed in the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] Requirements.|
 |Supported Operating Systems|When using OWA for iPad, OWA for iPad, or OWA for Android, your mobile device must use a supported Operating System listed in [!INCLUDE[nav_uni_app_md](includes/nav_uni_app_md.md)] Requirements.|
-|Additional software|The Exchange PowerShell endpoint must be accessible by [!INCLUDE[nav_server](includes/nav_server_md.md).|  
+|Additional software|The Exchange PowerShell endpoint must be accessible by [!INCLUDE[nav_server](includes/nav_server_md.md)].|  
 
 ##  <a name="Outlook"></a> Microsoft Outlook Add-In Requirements  
 The following table shows the minimum system requirements for the [!INCLUDE[navnow_md](includes/navnow_md.md)] Add-In for Outlook for synchronization with Outlook.
