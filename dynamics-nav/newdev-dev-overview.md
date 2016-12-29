@@ -44,6 +44,8 @@ For more information, see [Page Extension Object](newdev-page-ext-object.md) and
 ## Developing extensions in Visual Studio Code
 Using the AL extension for Visual Studio Code, you'll get the benefits of a modern development environment along with seamless publishing and execution integration with your [!INCLUDE[navnow_md](includes/navnow_md.md)] tenant. For more information on getting up and running, see [Getting Started](newdev-get-started.md). 
 
+<!-- ![Visual Studio Code](media/vs-code.gif)  -->
+
 Visual Studio Code and the AL extension lets you do the following tasks:
 
 - Create new files for your solution
