@@ -2,15 +2,13 @@
 title: "Configuring Microsoft Dynamics NAV Server"
 author: edupont04
 ms.custom: na
-ms.date: 10/21/2016
+ms.date: 12/29/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 3ab77291-9515-4817-851e-48a4ffc7e38f
-caps.latest.revision: 132
-manager: edupont
 ---
 # Configuring Microsoft Dynamics NAV Server
 When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install [!INCLUDE[nav_server](includes/nav_server_md.md)], you can provide configuration information that is then used as the configuration for the default [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
@@ -123,7 +121,7 @@ When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install
 |Max Number of Orphaned Connections|Specifies the maximum number of orphaned connections to be kept alive at the same time for the time that is specified by **ReconnectPeriod**.<br /><br /> A connection is orphaned when the client is involuntarily disconnected from [!INCLUDE[nav_server](includes/nav_server_md.md)].<br /><br /> Default: 20<br /><br /> You can also use **MaxValue** as a value to indicate no limit.|  
 |Max Upload Size|The maximum size of files that can be uploaded to or downloaded from [!INCLUDE[nav_server](includes/nav_server_md.md)], in megabytes. Use this setting to avoid out-of-memory errors.<br /><br /> Default: 5|  
 |Operation Timeout|The maximum time that [!INCLUDE[nav_server](includes/nav_server_md.md)] can take to return a call from the client.<br /><br /> Time span format: \[dd.\]hh:mm:ss\[.ff\]<br /><br /> Where:<br /><br />dd: days<br /><br />hh: hours<br /><br /> mm: minutes<br /><br />ss: seconds<br /><br />ff: hundredths of a second<br /><br /> You can also use **MaxValue** as a value to indicate no time-out. This is the default value.|  
-|Port|The listening HTTP port for client services.<br /><br /> Default: 704<br /><br /> Valid range: 1 - 65535|  
+|Port|The listening HTTP port for client services.<br /><br /> Default: 7046<br /><br /> Valid range: 1 - 65535|  
 |Prohibited File Types|Specifies a series of file name extensions, delimited by semi-colons. [!INCLUDE[nav_server](includes/nav_server_md.md)] will not store files of any of the specified types when requested by clients.<br /><br /> Example values:<br /><br />\* \(asterisk\): All file types are prohibited.<br /><br /> Empty string \(""\): All file types are allowed.<br /><br /> List of file types separated by semi-colons. For example, "txt;xml;pdf":<br /><br /> [!INCLUDE[nav_server](includes/nav_server_md.md)] will not store files of any of the specified types when requested by clients.|  
 |Protection Level|Specifies the security services for protecting the data stream between clients and [!INCLUDE[nav_server](includes/nav_server_md.md)].<br /><br /> All [!INCLUDE[nav_windows](includes/nav_windows_md.md)] clients connecting to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must have the same ProtectionLevel value in their ClientUserSettings.config files. For more information, see [Configuring the Windows Client](Configuring-the-Windows-Client.md).<br /><br /> For background information about transport security, see [Understanding Protection Level](http://msdn.microsoft.com/en-us/library/aa347692.aspx) \(links to MSDN Library\).<br /><br /> Default: EncryptAndSign<br /><br /> Values: EncryptAndSign, Sign, None|  
 |Reconnect Period|The time during which a client can reconnect to a running instance of [!INCLUDE[nav_server](includes/nav_server_md.md)].<br /><br /> Time span format: \[dd.\]hh:mm:ss\[.ff\]<br /><br /> Where:<br /><br /> dd: days<br /><br /> hh: hours<br /><br /> mm: minutes<br /><br /> ss: seconds<br /><br /> ff: hundredths of a second<br /><br /> Default: 00:10:00<br /><br /> You can also use **MaxValue** as a value to indicate no time limit.|  
@@ -162,12 +160,13 @@ When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install
 
 |Setting|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |-------------|---------------------------------------|  
-|Enable Debugging|Specifies if the [!INCLUDE[navnow](includes/navnow_md.md)] Debugger must attach to the NAS Services session. When this is enabled, the NAS Services session waits 60 seconds before the first C/AL statement is run.|  
-|Retry Attempts per Day|Specifies the maximum number of times that a [!INCLUDE[navnow](includes/navnow_md.md)] NAS Service session can restart after a failure. After the next failure, the NAS Service session stops.|  
+|Enable Debugging|Specifies if the [!INCLUDE[navnow](includes/navnow_md.md)] Debugger must attach to the NAS Services session. When this is enabled, the NAS Services session waits 60 seconds before the first C/AL statement is run.|
 |Run NAS Services with Admin Rights|Specifies whether NAS services run operations with administrator rights instead of the rights granted to the [!INCLUDE[nav_server](includes/nav_server_md.md)] service account.<br /><br /> If you select this setting, NAS services will have full permissions in [!INCLUDE[navnow](includes/navnow_md.md)], similar to the permissions that are granted by the SUPER permission set. The [!INCLUDE[nav_server](includes/nav_server_md.md)] service account is not required to be set up as a user in [!INCLUDE[navnow](includes/navnow_md.md)].<br /><br />If you clear this setting, the [!INCLUDE[nav_server](includes/nav_server_md.md)] service account must be added as a user in [!INCLUDE[navnow](includes/navnow_md.md)] and assigned the permissions that are required to perform the operations.|  
 |Startup Argument|Specifies a string argument that will be used when NAS services start. The argument typically specifies an application type, sometimes with additional configuration information.<br /><br /> Example value:*`"OSYNCH"`*|  
 |Startup Codeunit|Specifies the codeunit that contains the method that will be called by the **NASStartupMethod** setting.<br /><br /> Example values:<br /><br /> **0**<br /> When **NASStartupCodeunit** is set to 0, NAS Services do not start. This is the default value.<br /><br />**1**<br /> When NAS services start, they run the trigger specified by the NAS Startup Method in codeunit 1.<br /><br /> **Note:** When the codeunit specified by **NASStartupCodeunit** is a single instance codeunit, the NAS service session will remain alive even after you run all code in the specified **NASStartupMethod**. For information about single instance codeunits, see [Using Codeunits](Using-Codeunits.md).|  
 |Startup Method|Specifies the method that will be called in the **NASStartupCodeunit**.<br /><br /> Example values:<br /><br />                      **""**<br /> If no start method is specified \(null string\), the OnRun trigger is called.<br /><br />**StartNAS**<br /> NAS services runs the StartNAS method in the NAS Startup Codeunit.|  
+
+For more information, see [Configuring NAS Services](configuring-nas-services.md).
 
 ###  <a name="ManagementServices"></a> Management Services Tab Settings  
  The following table describes fields on the **Management Services** tab in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)].  
