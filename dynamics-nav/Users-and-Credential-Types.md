@@ -1,7 +1,7 @@
 ---
 title: "Users and Credential Types"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 01/02/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -39,7 +39,7 @@ caps.latest.revision: 32
 > [!IMPORTANT]  
 >  When [!INCLUDE[nav_server](includes/nav_server_md.md)] services are deployed on Azure, you must configure them on Azure. For more information, see [How to: Open Microsoft Dynamics NAV Clients that Connect to Microsoft Dynamics NAV on Microsoft Azure](How-to--Open-Microsoft-Dynamics-NAV-Clients-that-Connect-to-Microsoft-Dynamics-NAV-on-Microsoft-Azure.md).  
   
- For each [!INCLUDE[nav_windows](includes/nav_windows_md.md)] user, you must modify the ClientUserSettings.config file. The default location for this file is **C:\\Users\\\<username>\\AppData\\Roaming\\Microsoft\\Microsoft Dynamics NAV\\90**, where *\<username>* is the name of the user. For the [!INCLUDE[nav_web](includes/nav_web_md.md)] users, you must modify the web.config file for the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. For information, see [Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md). In the relevant configuration file, find the **ClientServicesCredentialType** parameter and change the value to one of the options listed earlier.  
+ For each [!INCLUDE[nav_windows](includes/nav_windows_md.md)] user, you must modify the ClientUserSettings.config file. The default location for this file is **C:\\Users\\\<username>\\AppData\\Roaming\\Microsoft\\Microsoft Dynamics NAV\\100**, where *\<username>* is the name of the user. For the [!INCLUDE[nav_web](includes/nav_web_md.md)] users, you must modify the web.config file for the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. For information, see [Configuring Microsoft Dynamics NAV Web Client by Modifying the Web.config File](Configuring-Microsoft-Dynamics-NAV-Web-Client-by-Modifying-the-Web.config-File.md). In the relevant configuration file, find the **ClientServicesCredentialType** parameter and change the value to one of the options listed earlier.  
   
  When you change the credential type for a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and the relevant client configurations, the changes take effect when you restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and users connect to the instance again.  
   
