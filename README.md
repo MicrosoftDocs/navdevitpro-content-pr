@@ -56,6 +56,7 @@ Each topic must contain YAML section at the top of the file with the following i
 ```
 ---
 title: "A Topic"
+author: MyGitHubAccount
 ms.custom: na
 ms.date: 08/19/2016
 ms.reviewer: na
@@ -64,8 +65,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 143a477f-63a9-4a95-b6b0-b4b4dfec5a61
-caps.latest.revision: 9
-manager: edupont
+ms.author: MyDomainAccount
 ---
 ```
 
