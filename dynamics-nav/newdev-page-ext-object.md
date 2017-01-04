@@ -26,12 +26,12 @@ In the ```layout``` section, you can use the following functions to place page f
 |--------|-------------|
 |```addfirst(General)```|Groups only|
 |```addlast(General)```|Groups only|
-|```addafter(AddressDetails; "Post Code")```|Fields and groups|
-|```addbefore(AddressDetails; "Post Code")```|Fields and groups|
+|```addafter(AddressDetails)```|Fields and groups|
+|```addbefore(AddressDetails)```|Fields and groups|
 |```movefirst(General)```|Groups only|
 |```movelast(General)```|Groups only|
-|```moveafter(AddressDetails; "Post Code")```|Fields and groups|
-|```movebefore(AddressDetails; "Post Code")```|Fields and groups|
+|```moveafter(AddressDetails)```|Fields and groups|
+|```movebefore(AddressDetails)```|Fields and groups|
 
 If you want to modify existing fields and groups on a page, you use the ```modify()``` function. See the code example below for syntax. 
 
