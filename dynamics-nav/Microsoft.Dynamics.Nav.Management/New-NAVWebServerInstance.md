@@ -67,58 +67,13 @@ Accept wildcard characters: False
 ```
 
 ### -RegionFormat
-Specifies the culture name that is used to format dates, times, numbers, and currency in the Microsoft Dynamics NAV Web client.
-
-A language culture name that has the format: nn-NN. nn is a lowercase two-letter code for the language and NN is an uppercase two-letter code for the country or region. For example, en-US is for English (United States), en-GB is for English (United Kingdom), and da-DK is for Danish (Denmark).
-
-There are some languages that use a three-letter language code or a suffix to the region code.
-The culture name must follow the RFC 1766 standard. For a list of the most common culture names, see http://go.microsoft.com/fwlink/?LinkID=255174.
-
-```yaml
-Type: LanguageSetting
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
+This parameter is deprecated.
 
 ### -Language
-Sets the language version of the Microsoft Dynamics NAV Web client.
-The value must be a valid culture name for a language in Microsoft Dynamics NAV, such as en-US or da-DK. The culture name has the format: nn-NN, where nn is a lowercase two-letter code for the language and NN is an uppercase two-letter code for the country or region. For example, en-US is for English (United States) and en-GB is for English (United Kingdom), and da-DK is for Danish (Denmark).
-
-There are some languages that use a three-letter language code or a suffix to the region code.
-The culture name must follow the RFC 1766 standard. For a list of the most common culture names, see http://go.microsoft.com/fwlink/?LinkID=255174. For the Spanish version of Microsoft Dynamics NAV, you must set the value to es-ES_tradnl.
-
-```yaml
-Type: LanguageSetting
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
+This parameter is deprecated.
 
 ### -Company
-Specifies the name of the Microsoft Dynamics NAV company to connect to.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
+This parameter is deprecated.
 
 ### -DnsIdentity
 Identifies a certificate in the local certificate store that must be used when signing in to Microsoft Dynamics NAV Server.
