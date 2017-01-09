@@ -33,7 +33,7 @@ If your organization uses Exchange Server or Exchange Online (alone or part of O
  Setting up the Office add-in involves two procedures. First, you configure the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance to work with the add-ins. Then, you deploy the add-ins from the [[!INCLUDE[navnow](includes/navnow_md.md)] client to users' Outlook. Before you begin, make sure that the deployment environment meets the prerequisites.
  
 ## Prerequisites
-1.	[[!INCLUDE[navnow](includes/navnow_md.md)] deployment prerequisites
+1.	[!INCLUDE[navnow](includes/navnow_md.md)] deployment prerequisites
 
 	-	[!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)] installed and configured to use SSL (https).
 	
@@ -55,10 +55,10 @@ If your organization uses Exchange Server or Exchange Online (alone or part of O
 ## Configure the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance to work with the Office Add-ins
 1.	Set the **Exchange Auth. Metadata Location** setting to the URL for the Exchange authentication metadata document of the authority that is allowed to sign the Exchange identity token.
 
-	This is used to confirm the identity of the signing authority when using Exchange authentication. In part, this includes the URL of the Exchange mail server. The field accepts a wild card URLs. So for example, if the URL of the Exchange mail server is https://mail.cronus.com, then you can set this to *https://mail.cronus.com** . The default value is https://outlook.office365.com/. 
+	This is used to confirm the identity of the signing authority when using Exchange authentication. In part, this includes the URL of the Exchange mail server. The field accepts a wild card URL. So for example, if the URL of the Exchange mail server is ```https://mail.cronus.com```, then you can set this to ```https://mail.cronus.com*```. The default value is ```https://outlook.office365.com/```. 
 2.	Set the **Web Client Base URL** setting to the base URL of the [!INCLUDE[nav_web_md](includes/nav_web_md.md)].
 
-	This is the root portion of all URLs that are used to access pages in the web client. This must have the format *https://[hostname:port]/[instance]/WebClient*, such as https://MyNavWebServer:443/DynamicsNAV/WebClient/.
+	This is the root portion of all URLs that are used to access pages in the web client. This must have the format ```https://[hostname:port]/[instance]/WebClient```, such as ```https://MyNavWebServer:443/DynamicsNAV/WebClient/```.
 
 ## Deploy the Office Add-ins to Outlook accounts 
 The Office add-ins are deployed to Outlook from the [!INCLUDE[navnow](includes/navnow_md.md)] client. The add-ins can be deployed by the users themselves to their own Outlook accounts. Or, as an Exchange administrator, the add-ins can be deployed to Outlook for all users in the organization or tenant.
