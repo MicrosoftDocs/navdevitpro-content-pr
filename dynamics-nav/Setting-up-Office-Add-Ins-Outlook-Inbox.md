@@ -16,7 +16,7 @@ author: jswymer
 
 If your organization uses Exchange Server or Exchange Online (alone or part of Office 365), [!INCLUDE[navnow](includes/navnow_md.md)] includes add-ins for Outlook that enable users to complete [!INCLUDE[navnow](includes/navnow_md.md)] business tasks from their Outlook inbox. 
 
-## About the Office Add-ins
+## Overview
 
 [!INCLUDE[navnow](includes/navnow_md.md)] includes the following add-ins for Outlook:
 
@@ -26,17 +26,13 @@ If your organization uses Exchange Server or Exchange Online (alone or part of O
 
 -	Document View
 
-	When a business document is sent as an email, this add-in provides a direct link from email to the actual business document in [!INCLUDE[navnow](includes/navnow_md.md)]. The add-in places a Document Links action in the email header, which a user can select to display the document.  
+	When a business document is sent as an email, this add-in provides a direct link from email to the actual business document in [!INCLUDE[navnow](includes/navnow_md.md)]. The add-in adds a **Document Links** action in the email header, which a user can select to display the document.  
 
-![Office Add-ins for Outlook](media/OutlookAddins.png "Office Add-ins for Outlook")
-
-## Setting up the Office Add-Ins  
- Setting up the Office add-in involves two procedures. First, you configure the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance to work with the add-ins. Then, you deploy the add-ins from the [[!INCLUDE[navnow](includes/navnow_md.md)] client to users' Outlook. Before you begin, make sure that the [[!INCLUDE[navnow](includes/navnow_md.md)] deployment environment meets the prerequisites.
+![Office Add-ins for Outlook](media/OutlookAddinsCallouts.png "Office Add-ins for Outlook")
  
-## [[!INCLUDE[navnow](includes/navnow_md.md)] deployment prerequisites
-
-
-
+ Setting up the Office add-in involves two procedures. First, you configure the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance to work with the add-ins. Then, you deploy the add-ins from the [[!INCLUDE[navnow](includes/navnow_md.md)] client to users' Outlook. Before you begin, make sure that the deployment environment meets the prerequisites.
+ 
+## Prerequisites
 1.	[[!INCLUDE[navnow](includes/navnow_md.md)] deployment prerequisites
 
 	-	[!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)] installed and configured to use SSL (https).
@@ -54,7 +50,7 @@ If your organization uses Exchange Server or Exchange Online (alone or part of O
 		[Using Certificates to Secure a Remote Client Connection](Using-Certificates-to-Secure-a-Remote-Client-Connection.md)
 2.	Exchange prerequisites
 	
-	If you are using Exchange Server, configure it to allow access to Exchange Web Services (EWS). For more information, see [How to: Control access to EWS in Exchange](https://msdn.microsoft.com/en-us/library/office/dn467892(v=exchg.150).aspx) 
+	If you are using Exchange Server, configure it to allow access to Exchange Web Services (EWS). For more information, see [How to: Control access to EWS in Exchange](https://msdn.microsoft.com/en-us/library/office/dn467892(v=exchg.150).aspx). 
 
 ## Configure the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance to work with the Office Add-ins
 1.	Set the **Exchange Auth. Metadata Location** setting to the URL for the Exchange authentication metadata document of the authority that is allowed to sign the Exchange identity token.
@@ -65,7 +61,7 @@ If your organization uses Exchange Server or Exchange Online (alone or part of O
 	This is the root portion of all URLs that are used to access pages in the web client. This must have the format *https://[hostname:port]/[instance]/WebClient*, such as https://MyNavWebServer:443/DynamicsNAV/WebClient/.
 
 ## Deploy the Office Add-ins to Outlook accounts 
-The Office add-ins are deployed to Outlook from the [!INCLUDE[navnow](includes/navnow_md.md)] client. The add-ins can be deployed by the users themselves, to their own Outlook account. Or, as an Exchange administrator, they can be deployed to Outlook for all users in the organization or tenant.
+The Office add-ins are deployed to Outlook from the [!INCLUDE[navnow](includes/navnow_md.md)] client. The add-ins can be deployed by the users themselves to their own Outlook accounts. Or, as an Exchange administrator, the add-ins can be deployed to Outlook for all users in the organization or tenant.
 
 ### Individual user deployment
 
@@ -96,7 +92,5 @@ Exchange Web Services (EWS) and Autodiscover will try to find the local Exchange
 
   
 ## See Also  
- [Walkthrough: Setting Up Outlook Synchronization](Walkthrough--Setting-Up-Outlook-Synchronization.md)   
- [Web Services](Web-Services.md)   
- [Installation and Configuration Walkthroughs](Installation-and-Configuration-Walkthroughs.md)   
- [Installation Options](Installation-Options.md)
+[Installation and Configuration Walkthroughs](Installation-and-Configuration-Walkthroughs.md)   
+[Installation Options](Installation-Options.md)
