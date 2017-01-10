@@ -37,8 +37,6 @@ If your organization uses Exchange Server or Exchange Online (alone or part of O
 
 	-	[!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)] installed and configured to use SSL (https).
 	
-		The Office add-ins display [!INCLUDE[navnow](includes/navnow_md.md)] information in Outlook by embedding the [!INCLUDE[nav_web_md](includes/nav_web_md.md)]. For more information, see the following articles:
-		
 		[How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md)  	
 		[How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md)
 
@@ -53,12 +51,19 @@ If your organization uses Exchange Server or Exchange Online (alone or part of O
 	If you are using Exchange Server, configure it to allow access to Exchange Web Services (EWS). For more information, see [How to: Control access to EWS in Exchange](https://msdn.microsoft.com/en-us/library/office/dn467892(v=exchg.150).aspx). 
 
 ## Configure the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance to work with the Office Add-ins
-1.	Set the **Exchange Auth. Metadata Location** setting to the URL for the Exchange authentication metadata document of the authority that is allowed to sign the Exchange identity token.
 
-	This is used to confirm the identity of the signing authority when using Exchange authentication. In part, this includes the URL of the Exchange mail server. The field accepts a wild card URL. So for example, if the URL of the Exchange mail server is ```https://mail.cronus.com```, then you can set this to ```https://mail.cronus.com*```. The default value is ```https://outlook.office365.com/```. 
+You can use either the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or **Set-NAVServerConfiguration** cmdlet in the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].
+
+1.	In the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], in the **Client Services** section, set the **Exchange Auth. Metadata Location** setting to the URL for the Exchange authentication metadata document of the authority that is allowed to sign the Exchange identity token.
+
+	This is used to confirm the identity of the signing authority when using Exchange authentication. In part, this includes the URL of the Exchange mail server. The field accepts a wild card URL. So for example, if the URL of the Exchange mail server is ```https://mail.cronus.com```, then you can set this to ```https://mail.cronus.com*```. The default value is ```https://outlook.office365.com/```.
+	
+	 With the Set-NAVServerConfiguration cmdlet, set the ```ExchangeAuthenticationMetadataLocation``` key.
 2.	Set the **Web Client Base URL** setting to the base URL of the [!INCLUDE[nav_web_md](includes/nav_web_md.md)].
 
 	This is the root portion of all URLs that are used to access pages in the web client. This must have the format ```https://[hostname:port]/[instance]/WebClient```, such as ```https://MyNavWebServer:443/DynamicsNAV/WebClient/```.
+
+	With the **Set-NAVServerConfiguration** cmdlet, set the ```PublicWebBaseUrl``` key.
 
 ## Deploy the Office Add-ins to Outlook accounts 
 The Office add-ins are deployed to Outlook from the [!INCLUDE[navnow](includes/navnow_md.md)] client. The add-ins can be deployed by the users themselves to their own Outlook accounts. Or, as an Exchange administrator, the add-ins can be deployed to Outlook for all users in the organization or tenant.
