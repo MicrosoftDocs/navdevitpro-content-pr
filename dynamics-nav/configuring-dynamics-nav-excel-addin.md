@@ -1,5 +1,5 @@
 ---
-title: "Setting up the Excel Add-In"
+title: "Setting up the Excel Add-In for Editing Data"
 author: jswymer
 manager: edupont
 ms.author: edupont
