@@ -39,7 +39,7 @@ Your deployment must meet the following prerequisites:
 
 - [!INCLUDE[navnow](includes/navnow_md.md)] client computers have a supported version of Excel.
 
-    For more information, see [System Requirements for Microsoft Dynamics NAV 2017](System-Requirements-for-Microsoft-Dynamics-NAV.md).
+    For more information, see [System Requirements for Microsoft Dynamics NAV 2017](System-Requirements-for-Microsoft-Dynamics-NAV.md#WebClient).
 
 ## Register and configure an Azure AD Application for the Excel Add-in in Microsoft Azure
 When Azure AD authentication was set up for your [!INCLUDE[navnow](includes/navnow_md.md)] deployment, an Azure AD tenant was created in Microsoft Azure, and an application for [!INCLUDE[navnow](includes/navnow_md.md)] was registered in the tenant. The Excel add-in requires that you add (or register) a separate Azure AD application in the tenant.
