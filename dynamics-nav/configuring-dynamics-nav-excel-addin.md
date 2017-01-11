@@ -16,7 +16,7 @@ You can set up the [!INCLUDE[navnow](includes/navnow_md.md)] deployment to suppo
 
 Without this add-in, users can open a list page in Excel from the **Open in Excel** action on the page, which does not allow them to push changed data back to [!INCLUDE[navnow](includes/navnow_md.md)]. When this add-in is set up, the **Open in Excel** action is replaced by the **Edit in Excel** action.
 
->[! NOTE]
+>[!NOTE]
 >This Excel add-in is different than the Microsoft Office Excel Add-in that can be installed with  the [!INCLUDE[navnow](includes/navnow_md.md)] client by using the the [!INCLUDE[navnow](includes/navnow_md.md)] Setup. For more information about Microsoft Office Excel Add-in, see [Client Option](client-option.md).
 
 ## Prerequisites
