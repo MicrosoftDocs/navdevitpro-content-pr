@@ -1,5 +1,5 @@
 ---
-title: "Setting up the Excel Add-In"
+title: "Setting up the Excel Add-In for Editing Data"
 author: jswymer
 manager: edupont
 ms.author: edupont
@@ -22,9 +22,6 @@ Without this add-in, users can open a list page in Excel from the **Open in Exce
 ## Prerequisites
 Your deployment must meet the following prerequisites:
 
--   [!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)] installed and configured to use SSL (https).
-    
-    For more information, see [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md) and [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md) 
 -   Azure Active Directory (Azure AD) used to authenticate users.
 
     The [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance, clients, and users must be configured for NavUserPassword, Azure Access Control Service (ACS), or Azure Active Directory (Azure AD) authentication.
@@ -33,13 +30,18 @@ Your deployment must meet the following prerequisites:
 -   OData enabled and uses Secure Sockets Layer (SSL) for authentication.
 
     For more information, see [Walkthrough: Configuring Web Services to Use SSL (SOAP and OData)](Walkthrough--Configuring-Web-Services-to-Use-SSL--SOAP-and-OData-.md).  
+    
+-   [!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)] installed and configured to use SSL (https).
+    
+    For more information, see [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md) and [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md) 
+
 -   If your deployment is multitenant, [!INCLUDE[nav_web](includes/nav_web_md.md)] must accept host names for tenants.
 
     For more information, see [How to: Configure the Microsoft Dynamics NAV Web client to Accept Host Names for Tenants](How-to--Configure-the-Microsoft-Dynamics-NAV-Web-client-to-Accept-Host-Names-for-Tenants.md).  
 
 - [!INCLUDE[navnow](includes/navnow_md.md)] client computers have a supported version of Excel.
 
-    For more information, see [System Requirements for Microsoft Dynamics NAV 2017](System-Requirements-for-Microsoft-Dynamics-NAV.md).
+    For more information, see [System Requirements for Microsoft Dynamics NAV 2017](System-Requirements-for-Microsoft-Dynamics-NAV.md#WebClient).
 
 ## Register and configure an Azure AD Application for the Excel Add-in in Microsoft Azure
 When Azure AD authentication was set up for your [!INCLUDE[navnow](includes/navnow_md.md)] deployment, an Azure AD tenant was created in Microsoft Azure, and an application for [!INCLUDE[navnow](includes/navnow_md.md)] was registered in the tenant. The Excel add-in requires that you add (or register) a separate Azure AD application in the tenant.
