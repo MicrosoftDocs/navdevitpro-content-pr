@@ -22,9 +22,6 @@ Without this add-in, users can open a list page in Excel from the **Open in Exce
 ## Prerequisites
 Your deployment must meet the following prerequisites:
 
--   [!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)] installed and configured to use SSL (https).
-    
-    For more information, see [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md) and [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md) 
 -   Azure Active Directory (Azure AD) used to authenticate users.
 
     The [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance, clients, and users must be configured for NavUserPassword, Azure Access Control Service (ACS), or Azure Active Directory (Azure AD) authentication.
@@ -33,6 +30,11 @@ Your deployment must meet the following prerequisites:
 -   OData enabled and uses Secure Sockets Layer (SSL) for authentication.
 
     For more information, see [Walkthrough: Configuring Web Services to Use SSL (SOAP and OData)](Walkthrough--Configuring-Web-Services-to-Use-SSL--SOAP-and-OData-.md).  
+    
+-   [!INCLUDE[nav_web_server_md](includes/nav_web_server_md.md)] installed and configured to use SSL (https).
+    
+    For more information, see [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md) and [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md) 
+
 -   If your deployment is multitenant, [!INCLUDE[nav_web](includes/nav_web_md.md)] must accept host names for tenants.
 
     For more information, see [How to: Configure the Microsoft Dynamics NAV Web client to Accept Host Names for Tenants](How-to--Configure-the-Microsoft-Dynamics-NAV-Web-client-to-Accept-Host-Names-for-Tenants.md).  
