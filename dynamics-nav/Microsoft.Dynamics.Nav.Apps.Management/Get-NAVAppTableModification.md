@@ -241,5 +241,3 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 [Install-NAVApp](Install-NAVApp.md)
 
 [Publish-NAVApp](Publish-NAVApp.md)
-
-<!--[Get-NAVTableSynchSetupForDataUpgrade](Get-NAVTableSynchSetupForDataUpgrade.md)-->
