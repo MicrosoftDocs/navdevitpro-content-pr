@@ -2,15 +2,13 @@
 title: "Configuring Microsoft Dynamics NAV Server"
 author: edupont04
 ms.custom: na
-ms.date: 10/21/2016
+ms.date: 12/29/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 3ab77291-9515-4817-851e-48a4ffc7e38f
-caps.latest.revision: 132
-manager: edupont
 ---
 # Configuring Microsoft Dynamics NAV Server
 When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install [!INCLUDE[nav_server](includes/nav_server_md.md)], you can provide configuration information that is then used as the configuration for the default [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
@@ -123,7 +121,7 @@ When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup and install
 |Max Number of Orphaned Connections|Specifies the maximum number of orphaned connections to be kept alive at the same time for the time that is specified by **ReconnectPeriod**.<br /><br /> A connection is orphaned when the client is involuntarily disconnected from [!INCLUDE[nav_server](includes/nav_server_md.md)].<br /><br /> Default: 20<br /><br /> You can also use **MaxValue** as a value to indicate no limit.|  
 |Max Upload Size|The maximum size of files that can be uploaded to or downloaded from [!INCLUDE[nav_server](includes/nav_server_md.md)], in megabytes. Use this setting to avoid out-of-memory errors.<br /><br /> Default: 5|  
 |Operation Timeout|The maximum time that [!INCLUDE[nav_server](includes/nav_server_md.md)] can take to return a call from the client.<br /><br /> Time span format: \[dd.\]hh:mm:ss\[.ff\]<br /><br /> Where:<br /><br />dd: days<br /><br />hh: hours<br /><br /> mm: minutes<br /><br />ss: seconds<br /><br />ff: hundredths of a second<br /><br /> You can also use **MaxValue** as a value to indicate no time-out. This is the default value.|  
-|Port|The listening HTTP port for client services.<br /><br /> Default: 704<br /><br /> Valid range: 1 - 65535|  
+|Port|The listening HTTP port for client services.<br /><br /> Default: 7046<br /><br /> Valid range: 1 - 65535|  
 |Prohibited File Types|Specifies a series of file name extensions, delimited by semi-colons. [!INCLUDE[nav_server](includes/nav_server_md.md)] will not store files of any of the specified types when requested by clients.<br /><br /> Example values:<br /><br />\* \(asterisk\): All file types are prohibited.<br /><br /> Empty string \(""\): All file types are allowed.<br /><br /> List of file types separated by semi-colons. For example, "txt;xml;pdf":<br /><br /> [!INCLUDE[nav_server](includes/nav_server_md.md)] will not store files of any of the specified types when requested by clients.|  
 |Protection Level|Specifies the security services for protecting the data stream between clients and [!INCLUDE[nav_server](includes/nav_server_md.md)].<br /><br /> All [!INCLUDE[nav_windows](includes/nav_windows_md.md)] clients connecting to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must have the same ProtectionLevel value in their ClientUserSettings.config files. For more information, see [Configuring the Windows Client](Configuring-the-Windows-Client.md).<br /><br /> For background information about transport security, see [Understanding Protection Level](http://msdn.microsoft.com/en-us/library/aa347692.aspx) \(links to MSDN Library\).<br /><br /> Default: EncryptAndSign<br /><br /> Values: EncryptAndSign, Sign, None|  
 |Reconnect Period|The time during which a client can reconnect to a running instance of [!INCLUDE[nav_server](includes/nav_server_md.md)].<br /><br /> Time span format: \[dd.\]hh:mm:ss\[.ff\]<br /><br /> Where:<br /><br /> dd: days<br /><br /> hh: hours<br /><br /> mm: minutes<br /><br /> ss: seconds<br /><br /> ff: hundredths of a second<br /><br /> Default: 00:10:00<br /><br /> You can also use **MaxValue** as a value to indicate no time limit.|  

@@ -64,6 +64,7 @@ The following sections list the minimum hardware and software requirements to in
 |Instant messaging and Telephony API|-   Microsoft Lync 2013 or Microsoft Lync 2010.|  
 |Outlook client integration and mail merge|-   Microsoft Office 365, Microsoft Office 2016, Microsoft Office 2013 Service Pack 1 \(SP1\), or Microsoft Office 2010 Service Pack 2 \(SP2\).|  
 |Import and export with Microsoft Excel and Office XML, and SharePoint links|-   Microsoft Office 2016, Microsoft Office 2013 SP1, Microsoft Office 2010 SP2, or Microsoft Office 365.|  
+|Editing in Excel using the Excel Add-in |Excel 2016,<br /><br />For more information, see [Setting up the Excel Add-In for Editing Dynamics NAV Data](configuring-dynamics-nav-excel-addin.md).|  
 |OneNote integration|-   Microsoft Office 2016, Microsoft Office 2013 SP1, or Microsoft Office 2010 SP2.|  
 |Email logging|-   Active Directory and Microsoft Exchange Server 2010 or Microsoft Exchange Server 2013.<br />-   Microsoft Exchange Online, or Exchange Online as part of an Office 365 subscription.|  
 |Additional software|-   Microsoft .NET Framework 4.5.2.|  
@@ -88,6 +89,7 @@ The following sections list the minimum hardware and software requirements to in
 |Supported browsers|-   Microsoft Edge.<br />-   Internet Explorer 11.<br />-   Google Chrome 53.0 for Windows.<br />-   Mozilla Firefox 49.0 for Windows.<br />-   Safari 9.0 and 10.0 on OSX.<br /><br /> For a list of browser limitations, see [Browser Limitations with the Microsoft Dynamics NAV Web Client](Browser-Limitations-with-the-Microsoft-Dynamics-NAV-Web-Client.md).|  
 |Business inbox in Outlook|-   Microsoft Office 365.|  
 |Sending data to Excel|-   Microsoft Office 2016, Microsoft Office 2013 SP1, Microsoft Office 2010 SP2, or Microsoft Office 365.|  
+|Editing in Excel using the Excel Add-in |Excel 2016.<br /><br />For more information, see [Setting up the Excel Add-In for Editing Dynamics NAV Data](configuring-dynamics-nav-excel-addin.md).|  
 |SharePoint Online links|-   Microsoft Office 2016, Microsoft Office 2013 SP1, Microsoft Office 2010 SP2, or Microsoft Office 365.|  
 |Printing reports to Excel or Word|-   Microsoft Office 2016, Microsoft Office 2013 SP1, Microsoft Office 2010 SP2, or Microsoft Office 365.|  
 |Additional information|-   The browser must be able to install the Report Viewer ActiveX control to be able to print.<br />-   If you experience problems using the [!INCLUDE[nav_web](includes/nav_web_md.md)], you can try to turn off browser tools, such as translator tools that may run in the background.|  

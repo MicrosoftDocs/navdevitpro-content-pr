@@ -3,7 +3,7 @@ title: "Page Extension Object"
 description: "Description of the page extension object."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 12/15/2016
+ms.date: 01/06/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -26,12 +26,12 @@ In the ```layout``` section, you can use the following functions to place page f
 |--------|-------------|
 |```addfirst(General)```|Groups only|
 |```addlast(General)```|Groups only|
-|```addafter(AddressDetails; "Post Code")```|Fields and groups|
-|```addbefore(AddressDetails; "Post Code")```|Fields and groups|
+|```addafter(AddressDetails)```|Fields and groups|
+|```addbefore(AddressDetails)```|Fields and groups|
 |```movefirst(General)```|Groups only|
 |```movelast(General)```|Groups only|
-|```moveafter(AddressDetails; "Post Code")```|Fields and groups|
-|```movebefore(AddressDetails; "Post Code")```|Fields and groups|
+|```moveafter(AddressDetails)```|Fields and groups|
+|```movebefore(AddressDetails)```|Fields and groups|
 
 If you want to modify existing fields and groups on a page, you use the ```modify()``` function. See the code example below for syntax. 
 
@@ -40,7 +40,7 @@ For more information about changes, see [Differences in the Dynamics NAV Develop
 ## Snippet support
 Typing the shortcut ```tpageext``` will create the basic layout for a table object when using the AL Extension in Visual Studio Code.
 
-## Page Extension example
+## Page Extension examples
 The following page extension object extends the Customer Card page object by adding a field control ```ShoeSize``` to the ```General``` group on the page. The field control is added as the last control in the group using the ```addlast``` function. In the actions area, you can see what the syntax looks like for actions that execute triggers and actions that run objects. 
 
 ```
@@ -101,6 +101,39 @@ pageextension 70000020 CustomerCardExtension extends "Customer Card"
     end;
 } 
 ``` 
+
+The next page extension object extends the Customer List page object by adding two actions; the first action calls the **Customer - List** report, the second action calls the **Export Contact** xmlport. 
+
+```
+pageextension 70000030 AddCustomerReport extends "Customer List"
+{
+    actions
+    {
+        AddLast("&Customer")
+        {
+            action("Customer List Report")
+            {
+                trigger OnAction();
+                var
+                    rep : Report "Customer - List";
+                begin
+                    rep.Run;
+                end;
+            }
+            
+            action("Export Contact List")
+            {
+                trigger OnAction();
+                var
+                    xml : XmlPort "Export Contact";
+                begin
+                    xml.Run;
+                end;
+            }
+        }
+    }
+}
+```
 
 ## Applies To  
 Pages  
