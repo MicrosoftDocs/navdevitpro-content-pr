@@ -102,7 +102,7 @@ pageextension 70000020 CustomerCardExtension extends "Customer Card"
 } 
 ``` 
 
-The next page extension object extends the Customer List page object by adding two actions; the first action calls the **Customer - List** report, the second action calls the **Export Contact** xmlport. 
+You can reference Report and XMLPort objects and use these objects in the **RunObject** property, as well as, declare variables of the types **Report** and **XMLPort** and call AL functions on them. This page extension object extends the Customer List page object by adding two actions; the first action calls the **Customer - List** report, the second action calls the **Export Contact** xmlport. 
 
 ```
 pageextension 70000030 AddCustomerReport extends "Customer List"
