@@ -17,6 +17,7 @@ You can use test pages to mimic actual pages so that you can test the code the p
 -   TestPage  
   
 -   TestRequestPage  
+
   
  You use the [TestPage Functions](TestPage-Functions.md) to:  
   
@@ -34,7 +35,8 @@ You can use test pages to mimic actual pages so that you can test the code the p
   
 -   Get validation errors and error counts.  
   
- You use the [TestPage Field Functions](TestPage-Field-Functions.md) to:  
+
+You use the [TestPage Field Functions](TestPage-Field-Functions.md) to:  
   
 -   Set the focus on a specific field.  
   
