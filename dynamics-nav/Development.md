@@ -35,6 +35,7 @@ Before you begin developing code for [!INCLUDE[navnowlong](includes/navnowlong_m
 |Learn how to write C/AL statements and expressions.|-   [Statements and Expressions](Statements-and-Expressions.md)<br />-   [Elements of C/AL Expressions](Elements-of-C-AL-Expressions.md)<br />-   [C/AL Simple Statements](C-AL-Simple-Statements.md)<br />-   [C/AL Control Statements](C-AL-Control-Statements.md)|  
 |Learn about how to debug C/AL.|[Debugging](Debugging.md)|  
 |Learn about how to use custom controls with C/AL.|[Extending Microsoft Dynamics NAV Using Control Add-ins](Extending-Microsoft-Dynamics-NAV-Using-Control-Add-ins.md)|  
+|Learn about how to use the new development environment using Visual Studio Code.|[Developing Extensions Using the New Development Environment - Preview](newdev-dev-overview.md)|
 |Learn about the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] and designing applications.|[Application Design Overview](Application-Design-Overview.md)|  
 |Learn about how to use multilanguage functionality.|[Multilanguage Development](Multilanguage-Development.md)|  
 |Learn the differences in how numeric values are sorted.|[Sorting Numeric Values](Sorting-Numeric-Values.md)|  
