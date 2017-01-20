@@ -40,7 +40,7 @@ Azure Active Directory \(Azure AD\) is a cloud service that provides identity an
 |-----------------|---------------------------------|---------------------------------------|
 |Name|The name of your application as it will display to your users, such as **Financial App by Solutions**.|
 |Type|Choose **Web application and/or web app**.|
-|Sign-on URL (App URL)|The URI for signing on to the [!INCLUDE[nav_web](includes/nav_web.md)], such as ```https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV/WebClient/```.|
+|Sign-on URL (App URL)|The URI for signing on to the [!INCLUDE[nav_web](includes/nav_web_md.md)], such as ```https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV/WebClient/```.|
 |App ID URI|The URI to a domain in your Azure AD tenant, such as **https://CRONUSInternationLtd.onmicrosoft.com/Financials**. <BR /><BR />**Important:**  The App ID URI must be unique within the Azure AD tenant. However, if you want to share your [!INCLUDE[navnow](includes/navnow_md.md)] solution with other Azure AD tenants, the App ID URI must be unique in Azure AD. <br /><br /> This URI is appended to the **WS-Federation Login Endpoint** setting in the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration and **ACSURI** setting in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] configuration. Additionally, in the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration, it must be specified in the **Azure AD App ID URI** setting for SOAP and OData web services.|
 |Directory Access|Choose **Single Sign-On**.|
 
