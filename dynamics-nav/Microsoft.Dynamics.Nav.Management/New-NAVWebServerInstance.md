@@ -142,7 +142,7 @@ Accept wildcard characters: False
 ```
 
 ### -AcsUri
-This parameter is no longer used. It was deprecated in [!INCLUDE[nav2017](includes/nav2017.md)]. It has been replaced by the **WSFederationLoginEndpoint** key in the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration file, which you can set by using the [Set-NAVServerConfiguration cmdlet](Set-NAVServerConfiguration.md).
+This parameter is no longer used. It was deprecated in [!INCLUDE[nav2017](../includes/nav2017.md)]. It has been replaced by the **WSFederationLoginEndpoint** key in the [!INCLUDE[nav_server_md](../includes/nav_server_md.md)] configuration file, which you can set by using the [Set-NAVServerConfiguration cmdlet](Set-NAVServerConfiguration.md).
 
 ### -Force
 Forces the command to run without asking for user confirmation.
