@@ -142,33 +142,7 @@ Accept wildcard characters: False
 ```
 
 ### -AcsUri
-Specifies the Uniform Resource Identifier (URI) of Windows Azure Access Control Service (ACS) or Windows Azure Active Directory (AAD) that is used for authenticating Microsoft Dynamics NAV users.
-
-This parameter is only relevant when the ClientServicesCredentialType parameter is set to AccessControlService.
-
-With AccessControlService, users are authenticated by using either Windows Azure Access Control Service (ACS) or Windows Azure Active Directory (AAD).
-When using ACS authentication, the ACSUri parameter specifies the URI of the ACS login page for relying party applications. An example of a URI is:  
-
-https://CRONUSInternationalLtd.accesscontrol.windows.net/v2/wsfederation?wa=wsignin1.0%26wtrealm=https%3a%2f%2flocalhost%2f
-
-For more information, see For more information about ACS, see How to: Configure the Microsoft Dynamics NAV Web Client for ACS in the Microsoft Dynamics NAV Developer and IT Pro Help in the MSDN Library.
-
-When using AAD authentication, the ACSUri specifies the URI of the AAD authentication page, which is specific to an AAD tenant for signing on users. An example of a URI is:  
-https://login.windows.net/\[Tenant_ID\]/wsfed?wa=wsignin1.0%26wtrealm=https%3a%2f%2flocalhost%2f
-
-where \[Tenant_ID\] specifies the AAD tenant. For more information, see Authenticate Users with Windows Azure Active Directory in the Microsoft Dynamics NAV Developer and IT Pro Help in the MSDN Library.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
+This parameter is no longer used. It was deprecated in [!INCLUDE[nav2017](../includes/nav2017.md)]. It has been replaced by the **WSFederationLoginEndpoint** key in the [!INCLUDE[nav_server_md](../includes/nav_server_md.md)] configuration file, which you can set by using the [Set-NAVServerConfiguration cmdlet](Set-NAVServerConfiguration.md).
 
 ### -Force
 Forces the command to run without asking for user confirmation.
