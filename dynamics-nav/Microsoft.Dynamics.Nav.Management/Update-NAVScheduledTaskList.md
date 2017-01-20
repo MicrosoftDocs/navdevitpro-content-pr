@@ -24,15 +24,15 @@ Update-NAVScheduledTaskList -ApplicationDatabaseServer <String> -ApplicationData
 ```
 
 ## DESCRIPTION
+The task scheduler controls when certain operations or processes are run. Basically, a task is a codeunit or report that is scheduled to run at a specific data and time. Tasks run in a background session between the Dynamics NAV Server instance and database. Behind the scenes, the task scheduler is used by the job queue to process job queue entries that are created and managed from the clients.
 
 ## EXAMPLES
 
 ### Example 1
 ```
-PS C:\> {{ Add example code here }}
+Update-NAVScheduledTaskList -ApplicationDatabaseServer MyAppDBServer -ServerInstance DynamicsNAV -Tenant Tenant1
 ```
-
-{{ Add example description here }}
+This example updates the application database connected to the Dynamics NAV Server instance with the scheduled task information from *Tenant1*.
 
 ## PARAMETERS
 

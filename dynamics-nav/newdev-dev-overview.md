@@ -77,7 +77,6 @@ The syntax of the AL language is designed to assist in building business applica
 |```tfor```| For structure|
 |```twhile```| While structure|
 |```trepeat```| Repeat until structure|
-|```[EventSubscriber("```| EventSubscriber structure|
 
 
 The changes from the existing [!INCLUDE[navnow_md](includes/navnow_md.md)] language and AL can be found in these topics:
