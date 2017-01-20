@@ -47,7 +47,7 @@ The following sections provide an overview of the new, changed, and removed cmdl
 |[Get-NAVTenant](Microsoft.Dynamics.Nav.Management/Mount-NAVTenant.md)|*ExchangeAuthenticationMetadataLocation* is returned.|
 |[Start-NAVDataUpgrade](Microsoft.Dynamics.Nav.Management/Start-NAVDataUpgrade.md)|*Language* parameter added.|
 |[Sync-NAVTenant](Microsoft.Dynamics.Nav.Management/Sync-NAVTenant.md)|*CommitPerTable* parameter added.|
-|[New-NAVWebServerInstance](Microsoft.Dynamics.Nav.Management/New-NAVWebServerInstance.md)|The parameters *Language*, *RegionFormat*, and *Company* are deprecated.|
+|[New-NAVWebServerInstance](Microsoft.Dynamics.Nav.Management/New-NAVWebServerInstance.md)|The parameters *ACSUri*, *Language*, *RegionFormat*, and *Company* are deprecated.<BR /><BR />The *ACSUri* has been replaced by the **WSFederationLoginEndpoint** key in the [!INCLUDE[nav_server](includes/nav_server_md.md)] configuration file, which you can set by using the [Set-NAVServerConfiguration cmdlet](Microsoft.Dynamics.Nav.Management/Set-NAVServerConfiguration.md).|
 
 ## Changes to [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)] Cmdlets  
 
