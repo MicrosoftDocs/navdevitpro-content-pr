@@ -90,15 +90,19 @@ If you are running the [!INCLUDE[nav_server](includes/nav_server_md.md)] under a
 
     You will find the SMSvcHost.exe.config file in the installation folder for the latest :NET Framework version on the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer; for example, ```C:\Windows\Microsoft.NET\Framework\v4.0.30319```.
 3. Add the SID to the <allowAccounts> element as follows, and then save the file: 
-    ```<system.serviceModel.activation>
+
+    ```
+    <system.serviceModel.activation>
         <net.tcp listenBacklog="10" maxPendingConnections="100" maxPendingAccepts="2" receiveTimeout="00:00:10" teredoEnabled="false">
             <allowAccounts>
                 // Your NAV Server account
                 <add securityIdentifier="N-N-N-N"/>
             </allowAccounts>
-        </net.tcp>```
+        </net.tcp>
+    ```
 
-For more information about SMSvcHost.exe and the SMSvcHost.exe.config file, see [Configuring the Net.TCP Port Sharing Service)(https://msdn.microsoft.com/en-us/library/aa702669%28v=vs.110%29.aspx)        
+For more information about SMSvcHost.exe and the SMSvcHost.exe.config file, see [Configuring the Net.TCP Port Sharing Service](https://msdn.microsoft.com/en-us/library/aa702669%28v=vs.110%29.aspx).
+
 ###  <a name="dbo"></a> Giving the account necessary database privileges in SQL Server  
  The [!INCLUDE[nav_server](includes/nav_server_md.md)] account must be a member of the db\_owner database role on the [!INCLUDE[navnow](includes/navnow_md.md)] database. When you install the [!INCLUDE[navnow](includes/navnow_md.md)] database by using [!INCLUDE[navnow](includes/navnow_md.md)] Setup or the New-NAVDatabase PowerShell cmdlet, you can specify the [!INCLUDE[nav_server](includes/nav_server_md.md)] account. In these cases, the server account that you specify should already have the necessary privileges in SQL Server. If you change the [!INCLUDE[nav_server](includes/nav_server_md.md)] account for an existing installation, then you should verify the account has the required privileges in SQL Server.  
 
