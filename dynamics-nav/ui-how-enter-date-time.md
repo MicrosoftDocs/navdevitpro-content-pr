@@ -3,7 +3,7 @@ title: "How to: Enter Dates and Time"
 author: jswymer
 manager: edupont04
 ms.custom: na
-ms.date: 09/16/2016
+ms.date: 01/24/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -72,8 +72,8 @@ The following table contains examples of dates using all the formats. It assumes
 |w or workdate|the working date|
 |m or Monday|Monday of the work date week|
 |tu or Tuesday|Tuesday of the work date week|
-|s or Saturday|Saturday of the work date week|
-|su or Sunday|Sunday of the work date week|
+|sa or Saturday|Saturday of the work date week|
+|s or Sunday|Sunday of the work date week|
 |t23|Tuesday of week 23 of the work date year|
 |t 23|Tuesday of week 23 of the work date year|
 |t\-1|Tuesday of week 1 of the work date year|
