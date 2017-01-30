@@ -73,7 +73,7 @@ If you are running the [!INCLUDE[nav_server](includes/nav_server_md.md)] under a
 7.  Choose **OK** to exit the Properties panel, and close **Active Directory Users and Computers**. 
 
 ### Add the account to the SMSvcHost.exe.config file
-[!INCLUDE[navnow](includes/navnow_md.md)] uses Net.TCP Port Sharing Service that is managed by SMSvcHost.exe. The SMSvcHost.exe.config contains information about the identities (or accounts) that can use the service. These accounts are specified as security identifiers (SIDs) in the <allowAccounts> section of the SMSvcHost.exe.config file. By default, permission is implicitly granted to system accounts, such as NetworkService. For other accounts, you must  explicitly add the SID for the account to the SMSvcHost.exe.config file as follows:
+[!INCLUDE[navnow](includes/navnow_md.md)] uses Net.TCP Port Sharing Service, which is managed by SMSvcHost.exe. The SMSvcHost.exe.config contains information about the identities (or accounts) that can use the service. These accounts are specified as security identifiers (SIDs) in the <allowAccounts> section of the SMSvcHost.exe.config file. By default, permission is implicitly granted to system accounts, such as NetworkService. For other accounts, you must  explicitly add the SID for the account to the SMSvcHost.exe.config file as follows:
 
 1. Get the SID of the user account.
 
