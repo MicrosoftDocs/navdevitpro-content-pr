@@ -22,7 +22,7 @@ If your organization uses Exchange Server or Exchange Online (alone or part of O
 
 -	Contact Insights
 
-	This add-in provides users with [!INCLUDE[navnow](includes/navnow_md.md)] customer or vendor information in Outlook emails and calendar appointments. It also enables users to create and send [!INCLUDE[navnow](includes/navnow_md.md)] business documents, such a sales quotes and invoices to a contact. These actions are added to the Outlook ribbon in the **Dynamics NAV** group. 
+	This add-in provides users with [!INCLUDE[navnow](includes/navnow_md.md)] customer or vendor information in Outlook emails and calendar appointments. It also enables users to create and send [!INCLUDE[navnow](includes/navnow_md.md)] business documents, such a sales quotes and invoices to a contact. To support these task, the add-in adds actions to the Outlook ribbon, in the **Dynamics NAV** group. 
 
 -	Document View
 
@@ -30,7 +30,7 @@ If your organization uses Exchange Server or Exchange Online (alone or part of O
 
 ![Office Add-ins for Outlook](media/OutlookAddinsCallouts.png "Office Add-ins for Outlook")
  
- Setting up the Office add-in involves two procedures. First, you configure the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance to work with the add-ins. Then, you deploy the add-ins from the [[!INCLUDE[navnow](includes/navnow_md.md)] client to users' Outlook. Before you begin, make sure that the deployment environment meets the prerequisites.
+ Setting up the Office add-in involves two procedures. First, you configure the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance to work with the add-ins. Then, you deploy the add-ins from the [!INCLUDE[navnow](includes/navnow_md.md)] client to users' Outlook. Before you begin, make sure that the deployment environment meets the prerequisites.
  
 ## Prerequisites
 1.	[!INCLUDE[navnow](includes/navnow_md.md)] deployment prerequisites
@@ -52,7 +52,7 @@ If your organization uses Exchange Server or Exchange Online (alone or part of O
 
 ## Configure the [!INCLUDE[nav_server_md](includes/nav_server_md.md)] instance to work with the Office Add-ins
 
-You can use either the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or **Set-NAVServerConfiguration** cmdlet in the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].
+You can use either the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or the **Set-NAVServerConfiguration** cmdlet in the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].
 
 1.	In the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], in the **Client Services** section, set the **Exchange Auth. Metadata Location** setting to the URL for the Exchange authentication metadata document of the authority that is allowed to sign the Exchange identity token.
 

@@ -1,7 +1,7 @@
 ---
 title: "Pages Overview"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 01/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -131,4 +131,5 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], pages are the main way to display 
   
 ## See Also  
  [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md)   
- [Actions Overview](Actions-Overview.md)
+ [Actions Overview](Actions-Overview.md)  
+ [Developing Extensions Using the New Development Environment - Preview](newdev-dev-overview.md)

@@ -58,7 +58,7 @@ The following sections list the minimum hardware and software requirements to in
 
 |||  
 |-|-|  
-|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(32-bit and 64-bit editions\).<br />-   Windows 8.1 Professional or Enterprise \(32-bit and 64-bit editions\).<br />-   Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64-bit edition\).|  
+|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(32-bit and 64-bit editions\).<br />-   Windows 8.1 Professional or Enterprise \(32-bit and 64-bit editions\).<br />-   Windows Server 2016 Standard, Essentials, or Datacenter.<br />-   Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64-bit edition\).|  
 |Hardware resources|-   Hard disk space: 200 MB.<br />-   Memory: 1 GB.|  
 |Reports|-   Microsoft Report Viewer 2015 to run reports that use RDLC report layouts.<br />-   SQL Server Report Builder 3.0 for Microsoft SQL Server 2014 or Microsoft SQL Server 2012 SP1 to edit RDLC report layouts.<br />-   Microsoft Word 2013 or later to edit the layouts.|  
 |Instant messaging and Telephony API|-   Microsoft Lync 2013 or Microsoft Lync 2010.|  
@@ -75,7 +75,7 @@ The following sections list the minimum hardware and software requirements to in
 
 |||  
 |-|-|  
-|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(32-bit and 64-bit editions\).<br />-   Windows 8.1 Professional or Enterprise \(32-bit and 64-bit editions\).<br />-   Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64-bit edition\).|  
+|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(32-bit and 64-bit editions\).<br />-   Windows 8.1 Professional or Enterprise \(32-bit and 64-bit editions\).<br />-   Windows Server 2016 Standard, Essentials, or Datacenter.<br />-   Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64-bit edition\).|  
 |Hardware resources|-   Hard disk space: 200 MB.<br />-   Memory: 1 GB.|  
 |Reports|<ul><li>Microsoft Report Viewer 2015 to run reports that use RDLC report layouts.</li><li>Microsoft Visual Studio or SQL Server Report Builder for creating and editing RDLC report layouts. The following versions and editions are supported:<br /><br /> <ul><li>Microsoft Visual Studio 2015 Professional or Enterprise edition with SQL Server Data Tools installed. **Important:**          Before you install Visual Studio, install Microsoft .NET Framework 4.6; otherwise, an error will occur when you compile or run RDLC reports. For more information, see [Report error "Visual Basic Command Line Compiler has stopped working"](http://go.microsoft.com/fwlink/?LinkID=722862).</li><li>Microsoft Visual Studio 2013 Professional, Premium, or Ultimate edition.</li><li>Microsoft Visual Studio 2012 Professional, Premium, or Ultimate edition.</li><li>SQL Server Report Builder 3.0 for Microsoft SQL Server 2014 or Microsoft SQL Server 2012 SP1.</li></ul></li><li>SQL Server Report Builder 3.0 for Microsoft SQL Server 2014 or Microsoft SQL Server 2012 SP1 to upgrade reports.</li><li>Word 2013 or later to create Word report layouts.</li></ul>|  
 |Additional software|-   Microsoft .NET Framework 4.5.2.|  
@@ -117,7 +117,7 @@ The following sections list the minimum hardware and software requirements to in
 
 |||  
 |-|-|  
-|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(64-bit edition\).<br />-   Windows 8.1 Professional or Enterprise \(64-bit edition\).<br />-   Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64-bit edition\).|  
+|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(64-bit edition\).<br />-   Windows 8.1 Professional or Enterprise \(64-bit edition\).<br />-   Windows Server 2016 Standard, Essentials, or Datacenter.<br />-   Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64-bit edition\).|  
 |Hardware resources|-   Hard disk space: 500 MB.<br />-   Memory: 2 GB.|  
 |Reports|-   Microsoft Report Viewer 2015 for Save as Excel, Save as PDF, and Save as Word functionality.|  
 |[!INCLUDE[crm](includes/crm_md.md)] integration|-   Windows Identity Framework.<br />     For a list of supported [!INCLUDE[crm](includes/crm_md.md)] versions, see [Microsoft Dynamics CRM Integration Requirements](System-Requirements-for-Microsoft-Dynamics-NAV.md#CRM).|  
@@ -128,7 +128,7 @@ The following sections list the minimum hardware and software requirements to in
 
 |||  
 |-|-|  
-|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(64-bit edition\).<br />-   Windows 8.1 Professional or Enterprise \(64-bit edition\).<br />-   Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64-bit edition\).|  
+|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(64-bit edition\).<br />-   Windows 8.1 Professional or Enterprise \(64-bit edition\).<br />-   Windows Server 2016 Standard, Essentials, or Datacenter.<br />-   Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64-bit edition\).|  
 |Web server|<ul><li>Internet Information Server 10, Internet Information Server 8.5, Internet Information Server 8.0, or Internet Information Server 7.5 with the following features enabled:<br /><br /> <ul><li>.NET Extensibility 4.5.2.</li><li>ASP .NET 4.5.2.</li><li>ISAPI Extensions.</li><li>ISAPI Filters.</li><li>Request Filtering.</li><li>Windows Authentication.</li><li>Static Content.</li><li>HTTP Activation.</li></ul></li></ul>|  
 |Reports|-   Microsoft Report Viewer 2015 to run reports that use RDLC report layouts.|  
 |Additional software|-   Microsoft .NET Framework 4.5.2.<br />-   Windows PowerShell 3.0.|  
@@ -139,7 +139,7 @@ The following sections list the minimum hardware and software requirements to in
 
 |||  
 |-|-|  
-|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(64-bit edition\).<br />-   Windows 8.1 Professional or Enterprise \(64-bit edition\).<br />-   Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64-bit edition\). |  
+|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(64-bit edition\).<br />-   Windows 8.1 Professional or Enterprise \(64-bit edition\).<br />-   Windows Server 2016 Standard, Essentials, or Datacenter.<br />-   Windows Server 2012 R2 Standard or Essentials \(64-bit edition\).<br />-   Windows Server 2012 Standard or Essentials \(64-bit edition\). |  
 |Hardware resources|For more information, see [Hardware and Software Requirements for Installing SQL Server 2016](http://go.microsoft.com/fwlink/?LinkId=622999). From this page, you can also access requirements for other versions of SQL Server.|  
 |SQL Server|-   Microsoft SQL Server 2016 Express, Standard or Enterprise.<br/>-   Microsoft SQL Server 2014 Express, Standard or Enterprise.<br />-   Microsoft SQL Server 2012 Service Pack 2 Express, Standard, or Enterprise \(64-bit editions only\).<br />-   Azure SQL Database V12 Standard and Premium service tiers.<br /><br /> For more information, see [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md).|  
 |Additional information|[!INCLUDE[navnow](includes/navnow_md.md)] Setup installs the following software if it is not already present on the target computer:<br /><br /> <ul><li>SQL Server 2016 Express \(64-bit edition\).<br>If the operating system on the target computer does not support SQL Server 2016 Express, Setup displays a pre-requisite warning. In this case you should exit Setup and then update the operating system on the computer to one that does support SQL Server 2016 Express. Then run Setup again.</li></ul>|  
@@ -149,7 +149,7 @@ The following sections list the minimum hardware and software requirements to in
 
 |||  
 |-|-|  
-|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(64-bit editions\).<br />-   Windows 8.1 Professional or Enterprise \(64-bit edition\).<br />-   Windows Server 2012.<br />-   Windows Server 2012 Essentials.|  
+|Supported operating systems|-   Windows 10 Pro, Enterprise, or Education \(64-bit editions\).<br />-   Windows 8.1 Professional or Enterprise \(64-bit edition\).<br />-   Windows Server 2016 Standard, Essentials, or Datacenter.<br />-   Windows Server 2012.<br />-   Windows Server 2012 Essentials.|  
 |Hardware resource|-   Hard disk space: 500 MB.<br />-   Memory: 2 GB.|  
 |Web server|<ul><li>Internet Information Server 10, Internet Information Server 8.5, Internet Information Server 8.0, or Internet Information Server 7.5. The following features must be enabled:<br /><br /> <ul><li>.NET Extensibility 4.5.2.</li><li>ASP .NET 4.5.</li><li>ISAPI Extensions.</li><li>ISAPI Filters.</li><li>Request Filtering.</li><li>Windows Authentication.</li><li>Static Content.</li><li>HTTP Activation.</li></ul></li></ul>|  
 |Additional software|-   Microsoft .NET Framework 4.5.2.|  
@@ -195,7 +195,7 @@ The following table shows the minimum system requirements for the [!INCLUDE[navn
 
 |||  
 |-|-|  
-|Supported operating systems|-   Windows Server 2012 R2 Standard or Datacenter \(64-bit edition\).<br />-   Windows Server 2012 Standard or Datacenter \(64-bit edition\).|  
+|Supported operating systems|-   Windows Server 2016 Standard, Essentials, or Datacenter.<br />- Windows Server 2012 R2 Standard or Datacenter \(64-bit edition\).<br />-   Windows Server 2012 Standard or Datacenter \(64-bit edition\).|  
 |Additional software|-   SharePoint 2013 Service Pack 1.<br />-   SharePoint Online.|  
 
 ##  <a name="Azure"></a> Automated Deployment on Microsoft Azure Requirements  

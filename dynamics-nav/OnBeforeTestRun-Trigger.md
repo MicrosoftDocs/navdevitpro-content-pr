@@ -1,7 +1,7 @@
 ---
 title: "OnBeforeTestRun Trigger"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 01/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -88,7 +88,6 @@ EXIT(true);
 
 ## See Also  
  [Testing the Application](Testing-the-Application.md)  
-
  [How to: Create a Test Runner Codeunit](How-to--Create-a-Test-Runner-Codeunit.md)   
  [How to: Create Test Codeunits and Test Functions](How-to--Create-Test-Codeunits-and-Test-Functions.md)   
  [How to: Create Handler Functions](How-to--Create-Handler-Functions.md)   
