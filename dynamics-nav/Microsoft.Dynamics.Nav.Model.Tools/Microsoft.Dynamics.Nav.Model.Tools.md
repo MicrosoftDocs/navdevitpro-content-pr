@@ -1,7 +1,7 @@
 ---
 Module Name: Microsoft.Dynamics.Nav.Model.Tools
-Module Guid: 00000000-0000-0000-0000-000000000000
-Download Help Link:
+Module Guid: c8ae8501-4f45-4695-81a4-f9d00c1da14f
+Download Help Link: http://go.microsoft.com/fwlink/?linkid=838889
 Help Version: 1.0.0.0
 Locale: en-US
 ---
@@ -57,3 +57,4 @@ Tests captions in Dynamics NAV application objects to test to validate if they h
 
 ### [Update-NAVApplicationObject](Update-NAVApplicationObject.md)
 Applies a set of deltas to the specified application objects.
+
