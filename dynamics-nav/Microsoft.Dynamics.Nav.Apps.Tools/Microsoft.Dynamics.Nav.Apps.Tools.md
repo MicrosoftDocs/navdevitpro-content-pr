@@ -1,7 +1,7 @@
 ---
 Module Name: Microsoft.Dynamics.Nav.Apps.Tools
-Module Guid: 00000000-0000-0000-0000-000000000000
-Download Help Link:
+Module Guid: c984a4f8-0db5-4a85-ace1-c8748fd430a5
+Download Help Link: http://go.microsoft.com/fwlink/?linkid=838889
 Help Version: 1.0.0.0
 Locale: en-US
 ---
@@ -43,3 +43,4 @@ Creates a NAV App package file (.navx) at the specified location based on the sp
 
 ### [Set-NAVAppManifest](https://go.microsoft.com/fwlink/?linkid=616073)
 Sets one or more available properties on an in-memory manifest.
+
