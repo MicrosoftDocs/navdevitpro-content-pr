@@ -1,7 +1,7 @@
 ---
 Module Name: Microsoft.Dynamics.Nav.Apps.Management
-Module Guid: 1405f736-a2d8-455e-b296-f66594a2fc1e
-Download Help Link:
+Module Guid: f0496709-161e-4345-9cbd-351014c42f48
+Download Help Link: http://go.microsoft.com/fwlink/?linkid=838889
 Help Version: 1.0.0.0
 Locale: en-US
 ---
@@ -43,3 +43,4 @@ Uninstall a NAV App for a tenant.
 
 ### [Unpublish-NAVApp](Unpublish-NAVApp.md)
 Unpublishes a NAV App from the app catalog of the specified Dynamics NAV Server instance.
+
