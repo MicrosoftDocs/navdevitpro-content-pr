@@ -1,7 +1,7 @@
 ---
 Module Name: Microsoft.Dynamics.Nav.Management
-Module Guid: 00000000-0000-0000-0000-000000000000
-Download Help Link:
+Module Guid: e769a1e6-182d-44c7-ae59-7b51c226ec73
+Download Help Link: http://go.microsoft.com/fwlink/?linkid=838889
 Help Version: 1.0.0.0
 Locale: en-US
 ---
@@ -230,3 +230,7 @@ Synchronizes a tenant database schema with an application database.
 
 ### [Update-NAVScheduledTaskList](Update-NAVScheduledTaskList.md)
 Updates the application-wide list of scheduled tasks with the information from the tenant database.
+
+
+
+

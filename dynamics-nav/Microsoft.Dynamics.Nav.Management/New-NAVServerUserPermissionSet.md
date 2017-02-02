@@ -49,7 +49,7 @@ This example adds the BASIC permission set for Windows user Cronus\Chris.
 ## PARAMETERS
 
 ### -Scope
-Not Specified
+Specifies whether the permission set that you want to apply is a System or Tenant permission set. A System permission set is a permission set that is stored in table 2000000004 Permission Set of the application database, and will apply to all tenants in the system. A Tenant permission set is a permission set that is stored in table 2000000166 Tenant Permission Set of the tenant database, and will apply to specific tenants. Tenant permission sets are primarily used with NAV extensions.
 
 ```yaml
 Type: PermissionScope

@@ -67,58 +67,13 @@ Accept wildcard characters: False
 ```
 
 ### -RegionFormat
-Specifies the culture name that is used to format dates, times, numbers, and currency in the Microsoft Dynamics NAV Web client.
-
-A language culture name that has the format: nn-NN. nn is a lowercase two-letter code for the language and NN is an uppercase two-letter code for the country or region. For example, en-US is for English (United States), en-GB is for English (United Kingdom), and da-DK is for Danish (Denmark).
-
-There are some languages that use a three-letter language code or a suffix to the region code.
-The culture name must follow the RFC 1766 standard. For a list of the most common culture names, see http://go.microsoft.com/fwlink/?LinkID=255174.
-
-```yaml
-Type: LanguageSetting
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
+This parameter is deprecated. The region format is now stored in a system table per user. Users can change the region format by using the **My Settings** page in the client. Administrators can globally change the region format by using User Personalization pages in the client. If the region format is unspecified, it is auto-assigned on first session based on browser\device settings.
 
 ### -Language
-Sets the language version of the Microsoft Dynamics NAV Web client.
-The value must be a valid culture name for a language in Microsoft Dynamics NAV, such as en-US or da-DK. The culture name has the format: nn-NN, where nn is a lowercase two-letter code for the language and NN is an uppercase two-letter code for the country or region. For example, en-US is for English (United States) and en-GB is for English (United Kingdom), and da-DK is for Danish (Denmark).
-
-There are some languages that use a three-letter language code or a suffix to the region code.
-The culture name must follow the RFC 1766 standard. For a list of the most common culture names, see http://go.microsoft.com/fwlink/?LinkID=255174. For the Spanish version of Microsoft Dynamics NAV, you must set the value to es-ES_tradnl.
-
-```yaml
-Type: LanguageSetting
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
+This parameter is deprecated. The language setting is now stored in a system table per user. Users can the language by by using the **My Settings** page in the client. Administrators can globally change the language by using User Personalization pages in the client. If the language is unspecified, it is auto-assigned on first session based on browser\device settings, which is subject to an explicit fallback algorithm depending on local build (for example, en-GB falls back to en-CA on CA builds).
 
 ### -Company
-Specifies the name of the Microsoft Dynamics NAV company to connect to.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
+This parameter is deprecated. The company setting is now stored in a system table per user. Users can the company by by using the **My Settings** page in the client. Administrators can globally change the company by using User Personalization pages in the client. If unspecified it is auto-assigned on first session based on companies to which the user has permissions.
 
 ### -DnsIdentity
 Identifies a certificate in the local certificate store that must be used when signing in to Microsoft Dynamics NAV Server.
@@ -187,33 +142,7 @@ Accept wildcard characters: False
 ```
 
 ### -AcsUri
-Specifies the Uniform Resource Identifier (URI) of Windows Azure Access Control Service (ACS) or Windows Azure Active Directory (AAD) that is used for authenticating Microsoft Dynamics NAV users.
-
-This parameter is only relevant when the ClientServicesCredentialType parameter is set to AccessControlService.
-
-With AccessControlService, users are authenticated by using either Windows Azure Access Control Service (ACS) or Windows Azure Active Directory (AAD).
-When using ACS authentication, the ACSUri parameter specifies the URI of the ACS login page for relying party applications. An example of a URI is:  
-
-https://CRONUSInternationalLtd.accesscontrol.windows.net/v2/wsfederation?wa=wsignin1.0%26wtrealm=https%3a%2f%2flocalhost%2f
-
-For more information, see For more information about ACS, see How to: Configure the Microsoft Dynamics NAV Web Client for ACS in the Microsoft Dynamics NAV Developer and IT Pro Help in the MSDN Library.
-
-When using AAD authentication, the ACSUri specifies the URI of the AAD authentication page, which is specific to an AAD tenant for signing on users. An example of a URI is:  
-https://login.windows.net/\[Tenant_ID\]/wsfed?wa=wsignin1.0%26wtrealm=https%3a%2f%2flocalhost%2f
-
-where \[Tenant_ID\] specifies the AAD tenant. For more information, see Authenticate Users with Windows Azure Active Directory in the Microsoft Dynamics NAV Developer and IT Pro Help in the MSDN Library.
-
-```yaml
-Type: String
-Parameter Sets: (All)
-Aliases: 
-
-Required: False
-Position: Named
-Default value: None
-Accept pipeline input: True (ByPropertyName)
-Accept wildcard characters: False
-```
+This parameter is no longer used. It was deprecated in [!INCLUDE[nav2017](../includes/nav2017.md)]. It has been replaced by the **WSFederationLoginEndpoint** key in the [!INCLUDE[nav_server_md](../includes/nav_server_md.md)] configuration file, which you can set by using the [Set-NAVServerConfiguration cmdlet](Set-NAVServerConfiguration.md).
 
 ### -Force
 Forces the command to run without asking for user confirmation.

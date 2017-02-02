@@ -16,21 +16,28 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] account is used by [!INCLU
 
  We recommend that you create a domain user account for running [!INCLUDE[nav_server](includes/nav_server_md.md)]. The Network Service account is considered less secure because it is a shared account that can be used by other unrelated network services. Any users who have rights to this account have rights to all services that are running on this account. If you create a domain user account to run [!INCLUDE[nav_server](includes/nav_server_md.md)], you can use the same account to run SQL Server, whether or not SQL Server is on the same computer.  
 
-*> [!NOTE]  
+> [!NOTE]  
 >  Because [!INCLUDE[navnow](includes/navnow_md.md)] Setup and the New-NavDatabase cmdlet configure the required permissions for the [!INCLUDE[nav_server](includes/nav_server_md.md)] account, you will typically use the procedures in this topic when you change the [!INCLUDE[nav_server](includes/nav_server_md.md)] account for an existing installation.  
 
- To provision a [!INCLUDE[nav_server](includes/nav_server_md.md)] account, complete the following procedures as described in this topic:  
+To provision a [!INCLUDE[nav_server](includes/nav_server_md.md)] account, complete the following procedures as described in this topic:  
 
 -   [Provisioning a Domain User Account](#DUA)  
 
 -   [Provisioning the Network Service Account](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md#NSA)  
 
+## Prerequisite
+Delete the **Microsoft Dynamics NAV** folder in the **ProgramData** folder of your system drive, for example, ```C:\ProgramData\Microsoft\Microsoft Dynamics NAV```. 
+
+The **ProgramData** is folder is typically hidden, so you might have to change the folder options for your system drive to show hidden files, folders, and drives.
+
 ##  <a name="DUA"></a> Provisioning a Domain User Account  
-* If you are running the [!INCLUDE[nav_server](includes/nav_server_md.md)] under a domain user account, you must:  
+If you are running the [!INCLUDE[nav_server](includes/nav_server_md.md)] under a domain user account, you must:  
 
 -   Enable the account to log in as a service  
 
--   Enable the account to register an SPN on itself  
+-   Enable the account to register an SPN on itself
+
+-   Add the account to the SMSvcHost.exe.config file
 
 -   Give the account necessary database privileges in SQL Server  
 
@@ -46,13 +53,12 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] account is used by [!INCLU
 
 ##### To enable the [!INCLUDE[nav_server](includes/nav_server_md.md)] account to register an SPN on itself  
 
-1.  Start the Active Directory Users and Computers snap-in in Microsoft Management Console \(MMC\):  
+1.  Start the Active Directory Users and Computers snap-in in Microsoft Management Console \(MMC\): 
 
-    1.  Choose **Run** on the Start menu, type **mmc** on the command line, and the choose **OK**.  
-
+    1.  Choose **Run** on the Start menu, type **mmc** on the command line, and the choose **OK**.
     2.  When the console opens, select **Add/Remove Snap-In** from the File menu, select **Active Directory Users and Computers**, and choose **Add**.  
 
-         If you do not see **Active Directory Users and Computers** in the list of available snap-ins, you may need to use Server Manager to install the **Active Directory Domain Services** role on your server computer.  
+        If you do not see **Active Directory Users and Computers** in the list of available snap-ins, you may need to use Server Manager to install the **Active Directory Domain Services** role on your server computer.  
 
 2.  In MMC, select **Active Directory Users and Computers** in the tree view and choose **Advanced Features** from the View menu.  
 
@@ -64,7 +70,38 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] account is used by [!INCLU
 
 6.  Under **Permissions for SELF**, in the lower part of the panel, scroll down to **Write public information** and select the **Allow** column.  
 
-7.  Choose **OK** to exit the Properties panel, and close **Active Directory Users and Computers**.  
+7.  Choose **OK** to exit the Properties panel, and close **Active Directory Users and Computers**. 
+
+### Add the account to the SMSvcHost.exe.config file
+[!INCLUDE[navnow](includes/navnow_md.md)] uses Net.TCP Port Sharing Service, which is managed by SMSvcHost.exe. The SMSvcHost.exe.config contains information about the identities (or accounts) that can use the service. These accounts are specified as security identifiers (SIDs) in the <allowAccounts> section of the SMSvcHost.exe.config file. By default, permission is implicitly granted to system accounts, such as NetworkService. For other accounts, you must  explicitly add the SID for the account to the SMSvcHost.exe.config file as follows:
+
+1. Get the SID of the user account.
+
+    The SID is an alphanumeric character string, such as S-1-5-20 or S-1-5-32-544. There are different ways to get the SID, such using Windows Management Instrumentation Control Command-line (WMIC) or the computer's registry.
+    -   To use WMIC, open a command prompt, and run the following command:
+    
+    ```wmic useraccount get name,sid```
+    
+        This will display a list of user accounts and their SIDs. 
+    
+    -   To use the registry, run regedit, and then go to the *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList* folder. This folder list the SIDs for each user account. To find the SID that corresponds to the user account that you want, look at the *ProfileImagePath* key data.
+
+2. Using a text editor, open the SMSvcHost.exe.config file.
+
+    You will find the SMSvcHost.exe.config file in the installation folder for the latest :NET Framework version on the [!INCLUDE[nav_server](includes/nav_server_md.md)] computer; for example, ```C:\Windows\Microsoft.NET\Framework\v4.0.30319```.
+3. Add the SID to the <allowAccounts> element as follows, and then save the file: 
+
+    ```
+    <system.serviceModel.activation>
+        <net.tcp listenBacklog="10" maxPendingConnections="100" maxPendingAccepts="2" receiveTimeout="00:00:10" teredoEnabled="false">
+            <allowAccounts>
+                // Your NAV Server account
+                <add securityIdentifier="N-N-N-N"/>
+            </allowAccounts>
+        </net.tcp>
+    ```
+
+For more information about SMSvcHost.exe and the SMSvcHost.exe.config file, see [Configuring the Net.TCP Port Sharing Service](https://msdn.microsoft.com/en-us/library/aa702669%28v=vs.110%29.aspx).
 
 ###  <a name="dbo"></a> Giving the account necessary database privileges in SQL Server  
  The [!INCLUDE[nav_server](includes/nav_server_md.md)] account must be a member of the db\_owner database role on the [!INCLUDE[navnow](includes/navnow_md.md)] database. When you install the [!INCLUDE[navnow](includes/navnow_md.md)] database by using [!INCLUDE[navnow](includes/navnow_md.md)] Setup or the New-NAVDatabase PowerShell cmdlet, you can specify the [!INCLUDE[nav_server](includes/nav_server_md.md)] account. In these cases, the server account that you specify should already have the necessary privileges in SQL Server. If you change the [!INCLUDE[nav_server](includes/nav_server_md.md)] account for an existing installation, then you should verify the account has the required privileges in SQL Server.  
