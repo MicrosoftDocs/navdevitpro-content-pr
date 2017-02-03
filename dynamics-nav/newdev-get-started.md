@@ -26,8 +26,17 @@ To get started writing extensions for [!INCLUDE[navnow_md](includes/navnow_md.md
 4) When you have a virtual machine set up, you will see a welcome text and here you can choose to try out the developer preview following the instructions on the screen.
 
 # Getting started with Visual Studio Code
-With the developer preview, you get sample code that compiles and runs. When you want to start creating your own project, you will need to create a new project to contain it. Visual Studio Code manages projects by including all files from a directory. Whatever files exist in that directory are then part of your project. In addition there are two other configuration files; ```app.json``` and ```launch.json```. You can define these yourself, either by copying the files from sample code or you can have the system autogenerate them for you. Building the solution (Ctrl+Shift+B) will create the ```app.json``` file and publishing (F5) will generate the ```launch.json``` file.
-Within these files, you’ll need to set up some parameters to connect to your server. The following table shows these settings.
+With the developer preview, you get sample code that compiles and runs by following a few steps.  
+
+1) In Visual Studio Code, press **Ctrl**+**Shift**+**P** to show all commands.  
+2) Type **AL: Go** (case-insensitive) and select a project folder.  
+
+You now have a HelloWorld sample that compiles and runs. The JSON files in the project are automatically updated with the settings that allows you to press **F5** to build and deploy the solution. 
+
+> [!NOTE] If symbols are missing, you will be prompted to download them.
+
+## JSON file settings
+The following table describes the settings in the JSON files.
 
 Settings in the ```app.json``` file:
 
@@ -53,7 +62,7 @@ Settings in the ```launch.json``` file:
 
 
 ## List of objects in the platform symbol file
-The following table lists object symbols contained in the platform symbol package file.
+The following table lists object symbols contained in the platform symbol package file. If the symbols are not present, you will prompted to download them.
 
 ### System tables
 

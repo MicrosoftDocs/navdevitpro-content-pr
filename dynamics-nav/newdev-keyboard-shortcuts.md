@@ -31,6 +31,7 @@ The following table provides an overview of some of the shortcut key combination
 |Ctrl+Shift+Space|Look up parameter hints|
 |Ctrl+K Ctrl+C|Add line comment|
 |Ctrl+K Ctrl+U|Remove line comment|
+|Ctrl+Shift+P|Show All Commands|
 
 ## Errors
 |Keyboard Shortcut| Action|
