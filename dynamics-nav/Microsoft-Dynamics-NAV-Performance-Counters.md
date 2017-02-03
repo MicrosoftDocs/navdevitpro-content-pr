@@ -42,12 +42,34 @@ The following table describes the performance counters that are available in [!I
 |<br />|\# Rows in all temporary tables|Count of number of rows in all temporary tables.|
 |Scheduled Tasks<br /><br />These pertain to tasks that are run by Task Scheduler. See [Task scheduler metrics](#TaskSchedulerMetrics).|# Available tasks|Remaining number of tasks that can potentially run simultaneously before the maximum number of tasks is reached. The value of this counter is the value the **Maximum # of tasks** counter minus the value of the **# Running tasks** counter.|
 |<br />|# of task errors/sec|Number of errors per second that are caused by running tasks. The task are causing errors in C/AL or exceptions on the server instance. If the value is greater than zero for an extended period of time, this typically indicates a failing task that keeps getting rescheduled.|
-|<br />|# Total # Pending tasks|The total number of tasks in the shared task list that are waiting to be picked up by server instances connected to this application database. The tasks counted are those that are ready and have been scheduled to run now or earlier and that are not currently running.|
 |<br />|# Running tasks|Number of tasks that are currently running on the server instance. The  value is limited to the value of the **Maximum # of tasks** counter.|
 |<br />|Average task execution time|The average time (in ticks) that tasks have taken to complete.  Task execution time is counted regardless of whether the task completed successfully or raised an error. <br /><br />There is no general rule for what the normal operations level is. To analyze this counter, look for large spikes to identify long-running tasks.<br /><br />**Note:** A tick is the smallest unit that the your system uses for time measurements, and it is typically determined by the operating system. For example, in Windows, a single tick represents one hundred nanoseconds, which means that there are 10,000 ticks in a millisecond. Tick durations can differ bewteen systems, so be aware of this fact when comparing absolute values across systems.|
 |<br />|Maximum # of tasks|The maximum number of tasks that can run simultaneously. This value is defined by the **Maximum Concurrent Running** (TasksTaskSchedulerMaxConcurrentRunningTasks) setting in the server instance configuration. Therefore, this  value is constant until the server instance setting is changed and the instance is restarted. |
+|<br />|Total # Pending tasks|The total number of tasks in the shared task list that are waiting to be picked up by server instances connected to this application database. The tasks counted are those that are ready and have been scheduled to run now or earlier and that are not currently running.|
 |<br />|Total # Running tasks|Total number of tasks in the shared task list that are currently running by any server instance connected to this application database. |
 |<br />|Time (ms) since the list of running tasks last had capacity for new tasks|The time (ms) since the list of running tasks last had capacity for new tasks.|
+
+## Investigating poor client performance 
+If you are experiencing poor or degraded performance of the clients, perform the following tasks:
+
+1.  Monitor the ‘CPU usage %’ (% Processor Time counter).
+
+    If the value consistently matches ‘logical cores’ – 1 (50% on 1-core machines, 75% on 2-core machines), this indicates that the thread dispatcher constantly has threads waiting to execute.
+
+2.  Monitor the **# Active sessions** counter
+    High ‘CPU usage %’ can be caused by background tasks or client sessions. Looking at **# Active sessions** gives an indication of whether the load is because of the large number of sessions (see notes below).
+
+3. Monitor the **Total # Pending Tasks** counter
+
+    Another strong indicator of an overloaded CPU is a persistently high **Total # Pending Tasks** value. If **Total # Pending Tasks** is high, take a look at the scheduled task performance counters to help identify possible cause.
+4.  Monitor the **Heartbeat time \(ms\)** counter
+
+    The **Heartbeat time \(ms\)** counter can indicate whether there is high latency to the database server.
+
+## Investigating database connection failures
+If you are experiencing significant instances where the server instance cannot establish a session with the database, monitor **# Open application connections** and **# Open tenant database connections**.
+
+Each database has a limit on the number of connections/sessions that can be made to it. When the limit for the database is reached, new connections are denied. 
 
 ##  <a name="TaskSchedulerMetrics"></a>Task scheduler metrics
 The task scheduler controls when certain operations or processes (tasks) are run. Tasks are run in a background session between the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and database.  Every two seconds, the task scheduler performs the following operations : 
