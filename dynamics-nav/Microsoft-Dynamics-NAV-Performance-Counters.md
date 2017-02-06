@@ -19,11 +19,11 @@ The following table describes the performance counters that are available in [!I
 These counters pertain to sessions from the clients, NAS, and web services, to the server instance.
 |  Counter  |  [!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]  |
 |-----------|-----------------------------------------------------------------------|
-|\# Active sessions|Number of active sessions on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.<br /><br /> An active session is a connection to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance from a [!INCLUDE[navnow](includes/navnow_md.md)] client, such as the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)], NAS, or Web services.|
-|<br />|Server operations/sec|Number of operations that have started on the [!INCLUDE[nav_server](includes/nav_server_md.md)] per second.<br /><br /> An operation is a call to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance from a [!INCLUDE[navnow](includes/navnow_md.md)] client to run [!INCLUDE[navnow](includes/navnow_md.md)] objects. **Note:**  OData and SOAP requests are not included.|
-|<br />|Average server operation time \(ms\)|Average duration of server operations in milliseconds.|
+|\# Active sessions|Number of active sessions on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.<br /><br /> An active session is a connection to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance from a [!INCLUDE[navnow](includes/navnow_md.md)] client, such as the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or [!INCLUDE[nav_web](includes/nav_web_md.md)], and Web services (OData and SOAP).|
+|Server operations/sec|Number of operations that have started on the [!INCLUDE[nav_server](includes/nav_server_md.md)] per second.<br /><br /> An operation is a call to the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance from a [!INCLUDE[navnow](includes/navnow_md.md)] client to run [!INCLUDE[navnow](includes/navnow_md.md)] objects.<br /><br />Note: OData and SOAP requests are not included.|
+|Average server operation time \(ms\)|Average duration of server operations in milliseconds.|
 
-### Investigating poor client performance 
+### Analyzing poor client performance 
 If you are experiencing poor or degraded performance of the clients, perform the following tasks:
 
 1.  Monitor the ‘CPU usage %’ (% Processor Time counter).
@@ -40,26 +40,48 @@ If you are experiencing poor or degraded performance of the clients, perform the
 
     The **Heartbeat time \(ms\)** counter can indicate whether there is high latency to the database server.
 
+### Analyzing # Active sessions
+-   Prior to [!INCLUDE[nav2017](includes/nav2017.md)], NAS services would keep sessions open to run background jobs, so you would see a lot of active sessions. Now, jobs are run in system sessions, so they do not influence this performance counter. Therefore, you would expect that the number of active sessions is occasionally 0. If you expect that there should be no active sessions, but the counter is indicating otherwise, this could be caused by a deadlock situation that is keeping sessions alive.
+
+-  To get a view of how many customers are hitting a server instance, you should aggregate over an hour, for example, and then look at either the maximum or average values. If you see large values, use TelemetryInformation tag *000007R* to find which client types are using the sessions.  but notice that “000007R” also includes system sessions.
+
+> [!NOTE]
+>System sessions are not counted. Sessions are incremented just before writing to the event log.
+
 ## SQL Server connection counters
 These counters pertain to the connection from the server instance to the SQL Server instance and databases.
 |  Counter  |  [!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]  |
 |-----------|-----------------------------------------------------------------------|
-|\# Mounted tenants|Number of tenants that are mounted on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.<br /><br />For more information about tenants, see [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md).|
-|\# Open connections|The current number of open connections from the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to [!INCLUDE[navnow](includes/navnow_md.md)] databases on SQL Servers.|
-|# Open application connections|The current number of open application connections from the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to the [!INCLUDE[navnow](includes/navnow_md.md)] application database on SQL Servers.|
-|\# Open tenant connections|The current number of open tenant connections from the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to [!INCLUDE[navnow](includes/navnow_md.md)] databases on SQL Servers.|
+|\# Mounted tenants|Number of tenants that are mounted on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. This counter is relevant with a multitenant server instance, where tenants are often mounted and dismounted.<br /><br />For more information, see [Analyzing # Mounted Tenants](#MountedTenants).|
+|\# Open connections|The current number of open connections from the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to [!INCLUDE[navnow](includes/navnow_md.md)] databases on SQL Servers.<br /><br />The value is always equal to the sum of the **# Open tenant connections** counter and the **# Open application connections** counter. -We recommend that you use these counters instead.|
+|# Open application connections|Current number of open application connections from the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to the [!INCLUDE[navnow](includes/navnow_md.md)] application database on SQL Servers.<br /><br />Because all connections are to only one application database, you will see failures when the total number of connections for all server instances exceeds the maximum number of connections allowed to the database.<br /><br />This value should be fairly low at all times (most likely in the single-digits). Pay particular attention to startup and shutdown scenarios.|
+|\# Open tenant connections|Current number of open tenant connections from the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to [!INCLUDE[navnow](includes/navnow_md.md)] tenant databases on SQL Servers.<br /><br />If there are multiple tenant databases, you cannot see the distribution of opened connections per database (or database pool).<br /><br />With Azure SQL Database, connections are denied if the throttling limit is reached. The limit depends on the database configuration. Be aware that in clusters, other server instances will also have connections to the same database, so the total load on a database requires that you look at multiple server instances.<br /><br />You can expect the number to be up to twice that of **# Active Sessions** counter. <!-- High numbers on SharedDB or elastic database pool can cause connection failures on Azure SQL, in which case we will have to either move tenants out of the SharedDB / elastic pool, or increase the database tier.-->|
 |% Query repositioning rate|Percentage of queries that are re-executed when fetching the query result.|
 |Hard throttled connections|*tbd*|
 |Soft throttled connections|*tbd*|
 |Transient errors|*tbd*|
-|Heartbeat time \(ms\)|The time that it takes to complete a single write to a system table. Every 30 seconds, the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance writes a record to indicate that the instance is "alive."<br /><br />You can use this counter to indicate if there is network latency between the [!INCLUDE[nav_server](includes/nav_server_md.md)] and the SQL Server.|
+|Heartbeat time \(ms\)|The time that it takes to complete a single write to a system table. Conceptually, this counter measures the time it takes to call the application database server to update the 'last active' field the **dbo.Service Instance** table for the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. Every 30 seconds, the instance writes a record to indicate that the instance is "alive."<br /><br />You can use this counter to indicate if there is network latency between the [!INCLUDE[nav_server](includes/nav_server_md.md)] and the database.
+|
 |\# Preferred connection total requests|Count of the total number of requests to the preferred connection cache. The preferred connection cache contains requests from the SQL connection pool that was last used by a [!INCLUDE[navnow](includes/navnow_md.md)] user.|
 |% Preferred connection cache hit rate|Percentage of hits in the preferred connection cache, compared to the total number of requests.|
 
-### Investigating database connection failures
+### Analyzing database connection failures
 If you are experiencing significant instances where the server instance cannot establish a session with the database, monitor **# Open application connections** and **# Open tenant database connections**.
 
 Each database has a limit on the number of connections/sessions that can be made to it. When the limit for the database is reached, new connections are denied. 
+
+### <a name="MountedTenants"></a>Analyzing # Mounted Tenants
+If operating successfully, when a server instance starts, the counter value will increase until is reaches a steady value. Sharp drop-offs indicate that a server instance is stopping (and possibly restarting again). 
+
+Example:
+
+The following figure shows an example of the **# Mounted Tenants** counter for a cluster of server instances. 
+
+![# Mounted Tenants Counter](media/Nav_Mounted_Tenants_Perf_Counter_Example.png "NAV\Nav_Mounted_Tenants_Perf_Counter_Example")
+
+In this example, several server instances were unstable, which resulted in constant restarts. This is indicated by the erratic behavior in the chart. To resolve this issue, the density of the cluster was lowered by moving tenants from server instances represented by blue/green lines to the server instance represented by the orange lines. 
+
+<br /><br />For more information about tenants, see [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md).
 
 ## Data and caching counters
 These counters pertain to the data caching on the server instance.
