@@ -24,7 +24,9 @@ The following triggers apply to XMLports.
 |[OnAfterGetRecord \(XMLports\) Trigger](OnAfterGetRecord--XMLports--Trigger.md)|Executed after a record is retrieved from a table and before it is exported to the XML document.<br /><br /> This trigger is only used to export data.|  
 |[OnAfterInitRecord Trigger](OnAfterInitRecord-Trigger.md)|Executed after a record is loaded.<br /><br /> This trigger is only used to import data.|  
 |[OnAfterInsertRecord Trigger](OnAfterInsertRecord-Trigger.md)|Executed after a record has been inserted into a database table.<br /><br /> This trigger is only used to import data.|  
+|[OnAfterModifyRecord Trigger](OnAfterModifyRecord-Trigger.md)|Executed after a record has been modified. <br /><br /> The trigger is used to import data.|
 |[OnBeforeInsertRecord Trigger](OnBeforeInsertRecord-Trigger.md)|Executed after a record has been loaded and before it is inserted into a database table.<br /><br /> This trigger is only used to import data.|  
+|[OnBeforeModifyRecord Trigger](OnBeforeModifyRecord-Trigger.md)|Executed before a record is modified.<br /><br />This trigger is used to import data.|
 |[OnBeforePassField Trigger](OnBeforePassField-Trigger.md)|Executed before a field is passed to the XML document.<br /><br /> This trigger is only used to export data.|  
 |[OnBeforePassVariable Trigger](OnBeforePassVariable-Trigger.md)|Executed after the source expression has been formatted into a text variable and before the text variable is passed to the XML document.<br /><br /> This trigger is only used to export data.|  
 |[OnInitXMLport Trigger](OnInitXMLport-Trigger.md)|Executes when the XMLport is loaded and before any table views and filters are set.|  
