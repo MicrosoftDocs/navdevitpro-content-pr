@@ -53,7 +53,7 @@ If you are experiencing poor or degraded performance of the clients, perform the
 These counters pertain to the connection from the server instance to the SQL Server instance and databases.
 |  Counter  |  [!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]  |
 |-----------|-----------------------------------------------------------------------|
-|\# Mounted tenants|Number of tenants that are mounted on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. This counter is relevant with a multitenant server instance, where tenants are often mounted and dismounted.<br /><br />For more information, see [Analyzing # Mounted Tenants](#MountedTenants).|
+|\# Mounted tenants|Number of tenants that are mounted on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. This counter is relevant with a multitenant server instance, where tenants are often mounted and dismounted.<br /><br />|
 |\# Open connections|The current number of open connections from the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to [!INCLUDE[navnow](includes/navnow_md.md)] databases on SQL Servers.<br /><br />The value is always equal to the sum of the **# Open tenant connections** counter and the **# Open application connections** counter. -We recommend that you use these counters instead.|
 |# Open application connections|Current number of open application connections from the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to the [!INCLUDE[navnow](includes/navnow_md.md)] application database on SQL Servers.<br /><br />Because all connections are to only one application database, you will see failures when the total number of connections for all server instances exceeds the maximum number of connections allowed to the database.<br /><br />This value should be fairly low at all times (most likely in the single-digits). Pay particular attention to startup and shutdown scenarios.|
 |\# Open tenant connections|Current number of open tenant connections from the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to [!INCLUDE[navnow](includes/navnow_md.md)] tenant databases on SQL Servers.<br /><br />If there are multiple tenant databases, you cannot see the distribution of opened connections per database (or database pool).<br /><br />With Azure SQL Database, connections are denied if the throttling limit is reached. The limit depends on the database configuration. Be aware that in clusters, other server instances will also have connections to the same database, so the total load on a database requires that you look at multiple server instances.<br /><br />You can expect the number to be up to twice that of **# Active Sessions** counter. <!-- High numbers on SharedDB or elastic database pool can cause connection failures on Azure SQL, in which case we will have to either move tenants out of the SharedDB / elastic pool, or increase the database tier.-->|
@@ -99,7 +99,7 @@ These counters pertain to the data caching on the server instance.
 |\# Rows in all temporary tables|Count of number of rows in all temporary tables.|
 
 ## Scheduled task counters
-These pertain to tasks that are run by Task Scheduler. See [Task scheduler metrics](#TaskSchedulerMetrics).
+These pertain to tasks that are run by Task Scheduler.
 
 |  Counter  |  [!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]  |
 |-----------|-----------------------------------------------------------------------|
