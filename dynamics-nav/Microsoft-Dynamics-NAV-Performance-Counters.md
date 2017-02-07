@@ -24,7 +24,7 @@ These counters pertain to sessions from the clients, NAS, and web services, to t
 |Average server operation time \(ms\)|Average duration of server operations in milliseconds.|
 
 <!-- This information is for SRE and should be added to the Runbooks
-### Analyzing poor client performance 
+### Analyzing poor client performance
 If you are experiencing poor or degraded performance of the clients, perform the following tasks:
 
 1.  Monitor the ‘CPU usage %’ (% Processor Time counter).
@@ -58,9 +58,9 @@ These counters pertain to the connection from the server instance to the SQL Ser
 |# Open application connections|Current number of open application connections from the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to the [!INCLUDE[navnow](includes/navnow_md.md)] application database on SQL Servers.<br /><br />Because all connections are to only one application database, you will see failures when the total number of connections for all server instances exceeds the maximum number of connections allowed to the database.<br /><br />This value should be fairly low at all times (most likely in the single-digits). Pay particular attention to startup and shutdown scenarios.|
 |\# Open tenant connections|Current number of open tenant connections from the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to [!INCLUDE[navnow](includes/navnow_md.md)] tenant databases on SQL Servers.<br /><br />If there are multiple tenant databases, you cannot see the distribution of opened connections per database (or database pool).<br /><br />With Azure SQL Database, connections are denied if the throttling limit is reached. The limit depends on the database configuration. Be aware that in clusters, other server instances will also have connections to the same database, so the total load on a database requires that you look at multiple server instances.<br /><br />You can expect the number to be up to twice that of **# Active Sessions** counter. <!-- High numbers on SharedDB or elastic database pool can cause connection failures on Azure SQL, in which case we will have to either move tenants out of the SharedDB / elastic pool, or increase the database tier.-->|
 |% Query repositioning rate|Percentage of queries that are re-executed when fetching the query result.|
-|Hard throttled connections|*tbd*|
-|Soft throttled connections|*tbd*|
-|Transient errors|*tbd*|
+|Hard throttled connections|Number of connections that were hard-throttled.|
+|Soft throttled connections|Number of connections that were soft-throttled.|
+|Transient errors|Number of transient errors.|
 |Heartbeat time \(ms\)|The time that it takes to complete a single write to a system table. Conceptually, this counter measures the time it takes to call the application database server to update the 'last active' field the **dbo.Service Instance** table for the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. Every 30 seconds, the instance writes a record to indicate that the instance is "alive."<br /><br />You can use this counter to indicate if there is network latency between the [!INCLUDE[nav_server](includes/nav_server_md.md)] and the database.|
 |\# Preferred connection total requests|Count of the total number of requests to the preferred connection cache. The preferred connection cache contains requests from the SQL connection pool that was last used by a [!INCLUDE[navnow](includes/navnow_md.md)] user.|
 |% Preferred connection cache hit rate|Percentage of hits in the preferred connection cache, compared to the total number of requests.|
@@ -68,18 +68,18 @@ These counters pertain to the connection from the server instance to the SQL Ser
 <!-- This info is for SRE and should be added to the Runbooks ### Analyzing database connection failures
 If you are experiencing significant instances where the server instance cannot establish a session with the database, monitor **# Open application connections** and **# Open tenant database connections**.
 
-Each database has a limit on the number of connections/sessions that can be made to it. When the limit for the database is reached, new connections are denied. 
+Each database has a limit on the number of connections/sessions that can be made to it. When the limit for the database is reached, new connections are denied.
 
 ### <a name="MountedTenants"></a>Analyzing # Mounted Tenants
-If operating successfully, when a server instance starts, the counter value will increase until is reaches a steady value. Sharp drop-offs indicate that a server instance is stopping (and possibly restarting again). 
+If operating successfully, when a server instance starts, the counter value will increase until is reaches a steady value. Sharp drop-offs indicate that a server instance is stopping (and possibly restarting again).
 
 Example:
 
-The following figure shows an example of the **# Mounted Tenants** counter for a cluster of server instances. 
+The following figure shows an example of the **# Mounted Tenants** counter for a cluster of server instances.
 
 ![# Mounted Tenants Counter](media/Nav_Mounted_Tenants_Perf_Counter_Example.png "NAV\Nav_Mounted_Tenants_Perf_Counter_Example")
 
-In this example, several server instances were unstable, which resulted in constant restarts. This is indicated by the erratic behavior in the chart. To resolve this issue, the density of the cluster was lowered by moving tenants from server instances represented by blue/green lines to the server instance represented by the orange lines. 
+In this example, several server instances were unstable, which resulted in constant restarts. This is indicated by the erratic behavior in the chart. To resolve this issue, the density of the cluster was lowered by moving tenants from server instances represented by blue/green lines to the server instance represented by the orange lines.
 
 <br /><br />For more information about tenants, see [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md).-->
 
@@ -114,11 +114,11 @@ These pertain to tasks that are run by Task Scheduler.
 
 <!-- This infor is for SRE and should be added to the Runbooks
 ###  <a name="TaskSchedulerMetrics"></a>Task scheduler metrics
-The task scheduler controls when certain operations or processes (tasks) are run. Tasks are run in a background session between the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and database.  Every two seconds, the task scheduler performs the following operations : 
+The task scheduler controls when certain operations or processes (tasks) are run. Tasks are run in a background session between the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance and database.  Every two seconds, the task scheduler performs the following operations :
 *   Reads the list of tasks from the database (shared with other server tasks) and find all tasks running or ready to run (candidate tasks)
 *   Removes the completed tasks from the list of active tasks on this server instance
 *   Keeps the running tasks in the list of active tasks, and adds new tasks as they they are ready, until the maximum number of tasks is met.
-    *   New tasks are run using the specified user account. 
+    *   New tasks are run using the specified user account.
 *   Updates all performance counters.-->
 
 For more information about task scheduler, see [Task Scheduler](task-scheduler.md).
