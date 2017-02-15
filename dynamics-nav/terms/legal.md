@@ -23,3 +23,4 @@ This page provides links to legal information for the Microsoft Dynamics NAV sof
 
 ## See Also
 [Welcome to the Developer and IT-Pro Help for Microsoft Dynamics NAV](..\index.md)  
+[Legal Resources for Microsoft Dynamics NAV Universal Apps](legal-universal-app.md)  

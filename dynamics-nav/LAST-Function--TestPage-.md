@@ -31,7 +31,9 @@ OK := TestPage.LAST
  **true** if a record exists in the dataset and the current row was successfully set to the last row in the dataset; otherwise, **false**.  
   
 ## Remarks  
- If *TestPage* is closed or has never been opened, then the function call fails.  
+If *TestPage* is closed or has never been opened, then the function call fails.  
+
+The LAST function loops over all records until it sets  the identifies the current record.  For each record, the [OnAfterGetCurrentRecord trigger](OnAfterGetCurrRecord-Trigger.md) is executed.  
   
 ## Example  
  This example sets the current row to the last customer in the dataset. It requires that you create a TestPage variable named CustomerList with a Subtype of Customer List.  

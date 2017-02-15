@@ -12,7 +12,7 @@ caps.latest.revision: 5
 manager: edupont
 ---
 # AltSearchField Property
-In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], set the [Name Property](Name-Property-duplicate.md) of an alternative field used to perform lookups on the current field.  
+In earlier versions of [!INCLUDE[navnow](includes/navnow_md.md)], set the [Name Property](Name-Property.md) of an alternative field used to perform lookups on the current field.  
   
 ## Applies To  
  Fields  

@@ -28,9 +28,9 @@ OnOpenPage()
 ## Remarks  
  This trigger is executed after the [OnInit Trigger](OnInit-Trigger.md).  
   
- You use the OnOpenPage trigger to change dynamic properties, including those which can only be changed when the page is opened, such as the [Visible Property-duplicate](Visible-Property-duplicate.md). You can also write to the database from the trigger.  
+ You use the OnOpenPage trigger to change dynamic properties, including those which can only be changed when the page is opened, such as the [Visible Property](Visible-Property.md). You can also write to the database from the trigger.  
   
- The `OnOpenPage` trigger is the only trigger that can toggle the [Visible Property-duplicate](Visible-Property-duplicate.md) and the property can only be toggled on columns. This is true for all of the [!INCLUDE[navnow](includes/navnow_md.md)] clients.  
+ The `OnOpenPage` trigger is the only trigger that can toggle the [Visible Property](Visible-Property.md) and the property can only be toggled on columns. This is true for all of the [!INCLUDE[navnow](includes/navnow_md.md)] clients.  
   
  If an error occurs in the trigger execution, then the page closes.  
   

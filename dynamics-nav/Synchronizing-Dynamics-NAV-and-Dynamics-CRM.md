@@ -1,12 +1,13 @@
 ---
 title: "Synchronizing Dynamics NAV and Dynamics CRM"
 ms.custom: na
-ms.date: 24/10/2016
+ms.date: 11/26/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 author: jswymer
+ms.author: jswymer
 ms.prod: "dynamics-nav-2017"
 ---
 # Synchronizing Dynamics NAV and Dynamics CRM
@@ -44,7 +45,7 @@ The [!INCLUDE[crm_md](includes/crm_md.md)] entities and [!INCLUDE[navnow_md](inc
 
 |  |  |  
 |--|--|  
-|General|Modifications to data in [!INCLUDE[crm_md](includes/crm_md.md)] that are performed by the [!INCLUDE[crm_md](includes/crm_md.md)] connection account are ignored. The changes will not be synchronized. Therefore, it is a recommended that you do not modify data by using the [!INCLUDE[crm_md](includes/crm_md.md)] connection account.|  
+|General|Modifications to data in [!INCLUDE[crm_md](includes/crm_md.md)] that are performed by the [!INCLUDE[crm_md](includes/crm_md.md)] connection account are ignored. The changes will not be synchronized. Therefore, it is a recommended that you do not modify data by using the [!INCLUDE[crm_md](includes/crm_md.md)] connection account.<br />Deleting a coupled record on either end will create error messages that the product is unable to update the deleted records. In order to avoid such situations, make sure that you decouple coupled records before deleting them in either [!INCLUDE[crm_md](includes/crm_md.md)] or  [!INCLUDE[navnow_md](includes/navnow_md.md)] . |  
 |Customers|-   Before a customer can be synchronized to an account, the salesperson that is assigned to customer must be coupled to a user in [!INCLUDE[crm_md](includes/crm_md.md)]. Therefore, when you are running the CUSTOMERS \- Dynamics CRM synchronization job and you set it up to create new records, make sure that you synchronize salespeople with [!INCLUDE[crm_md](includes/crm_md.md)] users before you synchronize customers with [!INCLUDE[crm_md](includes/crm_md.md)] accounts.<br />-   The CUSTOMERS \- Dynamics CRM synchronization job only synchronizes [!INCLUDE[crm_md](includes/crm_md.md)] accounts that have the relationship type **Customer**.|  
 |Contacts|Only contacts in [!INCLUDE[crm_md](includes/crm_md.md)] that are associated with an account will be created in [!INCLUDE[navnow_md](includes/navnow_md.md)].|  
 |Currencies|Currencies are coupled to transaction currencies in [!INCLUDE[crm_md](includes/crm_md.md)] based on ISO codes. Only currencies that have a standard ISO code will be coupled and synchronized with transaction currencies.|  
