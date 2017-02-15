@@ -2,7 +2,7 @@
 title: "How to: Create an Extension Package"
 author: edupont04
 ms.custom: na
-ms.date: 11/04/2016
+ms.date: 02/15/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -17,7 +17,7 @@ When you have developed a [!INCLUDE[navnow](includes/navnow_md.md)] extension, t
 
 ### To create the extension manifest  
 
--   The extension manifest describes characteristics about your extension. All characteristics have a parameter in the [!INCLUDE[wps_2_md](includes/wps_2_md.md)] cmdlet that you use to create the manifest. The following table describes the data in the manifest:  
+The extension manifest describes characteristics about your extension. All characteristics have a parameter in the [!INCLUDE[wps_2_md](includes/wps_2_md.md)] cmdlet that you use to create the manifest. The following table describes the data in the manifest:  
 
     |Data|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
     |----------|---------------------------------------|  
@@ -35,29 +35,28 @@ When you have developed a [!INCLUDE[navnow](includes/navnow_md.md)] extension, t
     |Dependencies|Specifies the path to a package file (.navx) for another extension that this extension depends on. Use a comma (,) to separate the paths to multiple .navx files., such as in the following example: `C:\Proseware\SmartAppBase.navx, C:\Proseware\ProsewareBase.navx`|  
     |Prerequisites|Specifies the objects that must exist in order to deploy the extension to a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. The prerequisites is a string in the format of type=ID, where type can be any object type such as Table, CodeUnit, or Page. Use a comma (,) to separate the prerequisites, such as in the following example: Table=397, CodeUnit=78.|  
 
-     For more information, see [Manifest Overview](Manifest-Overview.md).  
+For more information, see [Manifest Overview](Manifest-Overview.md).  
 
-     The New-NAVAppManifest cmdlet creates an in-memory Manifest object.  
+The New-NAVAppManifest cmdlet creates an in-memory Manifest object.  
 
-    ```  
-    New-NAVAppManifest -Name "Proseware SmartStuff" -Publisher "Proseware, Inc." -Version "1.5.0.12"  
-    ```  
+```  
+New-NAVAppManifest -Name "Proseware SmartStuff" -Publisher "Proseware, Inc." -Version "1.5.0.12"  
+```  
 
-     You can either persist this object to a file and then check it in to source control by using `New-NAVAppManifestFile`, or you can pass it directly to [!INCLUDE[wps_2_md](includes/wps_2_md.md)] `New-NAVAppPackage` <!-- LINK CMDLET --> as described in the next step.
+You can either persist this object to a file and then check it in to source control by using `New-NAVAppManifestFile`, or you can pass it directly to [!INCLUDE[wps_2_md](includes/wps_2_md.md)] `New-NAVAppPackage` <!-- LINK CMDLET --> as described in the next step.
 
+```  
+New-NAVAppManifest -Name "Proseware SmartStuff" -Publisher "Proseware, Inc." -Version "1.5.0.12" | New-NavAppManifestFile -Path proseware.xml  
+```  
 
-    ```  
-    New-NAVAppManifest -Name "Proseware SmartStuff" -Publisher "Proseware, Inc." -Version "1.5.0.12" | New-NavAppManifestFile -Path proseware.xml  
-    ```  
-
-     Related cmdlets are `Get-NAVAppManifest` and `Set-NAVAppManifest`. For more information, use the Get-Help command in the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)].  
+Related cmdlets are `Get-NAVAppManifest` and `Set-NAVAppManifest`. For more information, use the Get-Help command in the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)].  
 
     > [!TIP]  
     >  For any [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlet, you can get help and sample usages, such as the following command:  
 
      `Get-Help Set-NAVAppManifest -Examples`  
 
- Next, you can choose to include permission sets and other data in your package. This is optional, but at a minimum, an extension must include one permission set that grants permission to use the objects contained in the extension. An administrator must map users this permission set ID once it has been imported. For more information, see [How to: Export Data for an Extension Package](extensions-export-data-howto.md).  
+Next, you can choose to include permission sets and other data in your package. This is optional, but at a minimum, an extension must include one permission set that grants permission to use the objects contained in the extension. An administrator must map users this permission set ID once it has been imported. For more information, see [How to: Export Data for an Extension Package](extensions-export-data-howto.md).  
 
     > [!IMPORTANT]  
     >  If you do not include a permission set with your extension, only users with the SUPER permission set will be able to use the extension.  
@@ -66,21 +65,20 @@ When you have developed a [!INCLUDE[navnow](includes/navnow_md.md)] extension, t
 
 ### To build the extension package  
 
--   Use the `New-NAVAppManifest` and `New-NAVAppPackage` cmdlets to build the manifest and package file.  
-
-     The following is an example of how to create a new extension .NAVX package file with a new manifest.  
+Use the `New-NAVAppManifest` and `New-NAVAppPackage` cmdlets to build the manifest and package file.  
+The following is an example of how to create a new extension .NAVX package file with a new manifest.  
 
     ```  
     New-NAVAppManifest -Name "Proseware SmartStuff" -Publisher "Proseware, Inc." -Version "1.5.0.12" | New-NAVAppPackage -Path MyExtension.navx -SourcePath DELTA  
     ```  
 
-     Alternatively, if you created a manifest file, you can use directly from that file:  
+Alternatively, if you created a manifest file, you can use directly from that file:  
 
     ```  
     Get-NAVAppManifest -Path '.\Manifest-Proseware SmartStuff.xml' | New-NAVAppPackage -Path MyExtension.navx -SourcePath DELTA   
     ```  
 
-     You have packaged your extension so it is ready to be published and installed on a target server.  
+You have packaged your extension so it is ready to be published and installed on a target server.  
 
     > [!NOTE]  
     >  The packaging process adds a description of the extension to the manifest, such as whether it changes pages or adds tables. While not explicitly being enforced currently, this can be used to determine whether to install an extension, or not. Use `Get-NAVAppManifest –Path` to see capabilities.  
