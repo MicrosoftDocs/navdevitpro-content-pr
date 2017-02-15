@@ -56,7 +56,7 @@ Related cmdlets are `Get-NAVAppManifest` and `Set-NAVAppManifest`. For more info
 
      `Get-Help Set-NAVAppManifest -Examples`  
 
-Next, you can choose to include permission sets and other data in your package. This is optional, but at a minimum, an extension must include one permission set that grants permission to use the objects contained in the extension. An administrator must map users this permission set ID once it has been imported. For more information, see [How to: Export Data for an Extension Package](extensions-export-data-howto.md).  
+Next, you can choose to include permission sets and other data in your package. This is optional, but at a minimum, an extension must include one permission set that grants permission to use the objects contained in the extension. An administrator must map users this permission set ID once it has been imported. For more information, see [How to: Export Data for an Extension Package](how-to-export-data-for-an-extension.md).  
 
     > [!IMPORTANT]  
     >  If you do not include a permission set with your extension, only users with the SUPER permission set will be able to use the extension.  
@@ -129,7 +129,6 @@ SignTool sign /n Prosewaretest “C:\NAV\Extension\Proseware.navx”
  [How to: Develop an Extension](How-to--Develop-an-Extension.md)  
  [How to: Export Data for an Extension](how-to-export-data-for-an-extension.md)  
  [How to: Publish and Install an Extension](How-to--Publish-and-Install-an-Extension.md)  
- [How to: Sign an Extension Package](extensions-sign-package-howto.md)  
  [Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)  
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)  
  [Development Cmdlets for Microsoft Dynamics NAV Extensions](http://go.microsoft.com/fwlink/?LinkID=626875)  
