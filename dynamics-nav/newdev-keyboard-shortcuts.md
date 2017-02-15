@@ -28,6 +28,7 @@ The following table provides an overview of some of the shortcut key combination
 |Ctrl+F2|Select all occurrences|
 |F12|Go to definition|
 |Alt+F12|Peek definition|
+|Shift+F12|Show References|
 |Ctrl+Shift+Space|Look up parameter hints|
 |Ctrl+K Ctrl+C|Add line comment|
 |Ctrl+K Ctrl+U|Remove line comment|
