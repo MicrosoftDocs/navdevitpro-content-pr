@@ -66,15 +66,15 @@ Next, you can choose to include permission sets and other data in your package. 
 Use the `New-NAVAppManifest` and `New-NAVAppPackage` cmdlets to build the manifest and package file.  
 The following is an example of how to create a new extension .NAVX package file with a new manifest.  
 
-    ```  
-    New-NAVAppManifest -Name "Proseware SmartStuff" -Publisher "Proseware, Inc." -Version "1.5.0.12" | New-NAVAppPackage -Path MyExtension.navx -SourcePath DELTA  
-    ```  
+```  
+New-NAVAppManifest -Name "Proseware SmartStuff" -Publisher "Proseware, Inc." -Version "1.5.0.12" | New-NAVAppPackage -Path MyExtension.navx -SourcePath DELTA  
+```  
 
 Alternatively, if you created a manifest file, you can use directly from that file:  
 
-    ```  
-    Get-NAVAppManifest -Path '.\Manifest-Proseware SmartStuff.xml' | New-NAVAppPackage -Path MyExtension.navx -SourcePath DELTA   
-    ```  
+```  
+Get-NAVAppManifest -Path '.\Manifest-Proseware SmartStuff.xml' | New-NAVAppPackage -Path MyExtension.navx -SourcePath DELTA   
+```  
 
 You have packaged your extension so it is ready to be published and installed on a target server.  
 
