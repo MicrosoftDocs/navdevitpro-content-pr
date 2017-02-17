@@ -62,13 +62,24 @@ Auto-growth of the database and/or transaction log files in production can degra
 #### Instance Configuration  
  If you plan on installing the [!INCLUDE[navnow](includes/navnow_md.md)] Demo database, and you want [!INCLUDE[navnow](includes/navnow_md.md)] Setup to use an already installed version of SQL Server \(and not to install SQL Server Express\), you must create a SQL Server instance named **NAVDEMO** in SQL Server before you run Setup. Otherwise, Setup will install SQL Server Express automatically, even if there is a valid version of SQL Server already on the computer. If you do not plan to install the Demo database, or if you have no objection to using SQL Server Express, you are free to use the **default instance** and **Instance ID** on the **Instance Configuration** page, or to specify any instance name.  
 
-### Database Engine Service Startup Options
- Enable trace flags 1117 and 1118 as startup options for SQL Server versions 2012 and 2014 (they are enabled by default in SQL Server 2016.). For SQL Server 2016 these trace flags are enabled by default.
+### Database Engine Service 
+Each SQL Server instance is run by its own windows service. The following two things are important to configure for these services
+
+#### Startup Options
+Enable trace flags 1117 and 1118 as startup options for SQL Server versions 2012 and 2014 (they are enabled by default in SQL Server 2016.). For SQL Server 2016 these trace flags are enabled by default.
 
  Startup options can be set by using SQL Server Configuration Manager, see the SQL Server documentation for details.
 
-#### Statistics 
- The databases used by Dynamics NAV should have set the options AUTO_CREATE_STATISTICS and AUTO_UPDATE_STATISTICS to the value ON (this is the default behavior and should not be changed)
+#### Service account
+ We recommend that you use dedicated domain user accounts for the windows services running your [!INCLUDE[nav_server](includes/nav_server_md.md)] NAV instances and your [!INCLUDE[navnow](includes/navnow_md.md)] SQL Server instances, instead of a Local System account or the Network Service account.  
+
+For installations on SQL Server 2012 and 2014, consider adding the service account for then SQL Server engine to the **Perform Volume Maintenance Tasks** security policy. For SQL Server 2016, it is possible to do this from the installer.
+
+### Database configurations
+After Dynamics NAV has been installed, it is important to check a few settings on the NAV database(s). This is especially important for databases, which have been upgraded from previous versions of SQL Server.
+
+#### Statistics ####
+The databases used by Dynamics NAV should have set the options AUTO_CREATE_STATISTICS and AUTO_UPDATE_STATISTICS to the value ON (this is the default behavior and should not be changed)
 
  SQL Server (2014 and earlier) uses a threshold based on the percent of rows changed before triggering an update of the statistics for a table regardless of the number of rows in the table. It is possible to change this behaviour by setting trace flag 2371 as a startup option for the instance. See Knowledge Base article ID 2754171, https://support.microsoft.com/en-gb/help/2754171/controlling-autostat-auto-update-statistics-behavior-in-sql-server for more information about when to set this trace flag.
 
@@ -79,10 +90,6 @@ Auto-growth of the database and/or transaction log files in production can degra
 #### Other database options 
  We recommend to set the database option PAGE_VERIFY to the value CHECKSUM for all databases (including TEMPDB) as this is the most robust method of detecting physical database corruption. This is the default setting for new installations. 
 
-### SQL Server engine service account
- We recommend that you use a dedicated domain user account that you create specifically for your [!INCLUDE[nav_server](includes/nav_server_md.md)] instances and for your [!INCLUDE[navnow](includes/navnow_md.md)] instance on SQL Server, instead of a Local System account or the Network Service account.  
-
-For installations on SQL Server 2012 and 2014, consider adding the SQL Server engine service account to the **Perform Volume Maintenance Tasks** security policy. For SQL Server 2016, it is possible to do this from the installer.
 
 ### Backup
 Do remember to setup backup of both system and user databases. Remember also to test restore procedures regularly.
