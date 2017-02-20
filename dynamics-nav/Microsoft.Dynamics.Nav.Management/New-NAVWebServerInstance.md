@@ -67,13 +67,13 @@ Accept wildcard characters: False
 ```
 
 ### -RegionFormat
-This parameter is deprecated.
+This parameter is deprecated. The region format is now stored in a system table per user. Users can change the region format by using the **My Settings** page in the client. Administrators can globally change the region format by using User Personalization pages in the client. If the region format is unspecified, it is auto-assigned on first session based on browser\device settings.
 
 ### -Language
-This parameter is deprecated.
+This parameter is deprecated. The language setting is now stored in a system table per user. Users can the language by by using the **My Settings** page in the client. Administrators can globally change the language by using User Personalization pages in the client. If the language is unspecified, it is auto-assigned on first session based on browser\device settings, which is subject to an explicit fallback algorithm depending on local build (for example, en-GB falls back to en-CA on CA builds).
 
 ### -Company
-This parameter is deprecated.
+This parameter is deprecated. The company setting is now stored in a system table per user. Users can the company by by using the **My Settings** page in the client. Administrators can globally change the company by using User Personalization pages in the client. If unspecified it is auto-assigned on first session based on companies to which the user has permissions.
 
 ### -DnsIdentity
 Identifies a certificate in the local certificate store that must be used when signing in to Microsoft Dynamics NAV Server.

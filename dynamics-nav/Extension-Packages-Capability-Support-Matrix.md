@@ -2,7 +2,7 @@
 title: "Extension Packages Capability Support Matrix"
 author: edupont04
 ms.custom: na
-ms.date: 11/04/2016
+ms.date: 02/03/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -12,7 +12,7 @@ ms.assetid: 83351319-ce8a-4a84-9831-f68ed9f14835
 ms.author: edupont
 ---
 # Extension Packages Capability Support Matrix
-An extension package can contain both new and modified objects. In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], the following object types can be added and included in an extension:  
+In [!INCLUDE[navnowlong](includes/navnowlong_md.md)], you can add new objects of the following object types to an extension:  
 
 - Pages
 - Tables
@@ -22,10 +22,15 @@ An extension package can contain both new and modified objects. In [!INCLUDE[nav
 - Queries
 - Menu suites  
 
- You cannot add or modify any other object types in this version. Also, you cannot delete any existing objects.  
+An extension package can also contain modifications of objects of the following object types:  
+
+- Pages
+- Tables
+
+You cannot delete any existing objects. Also, certain properties cannot be modified by an extension as described in the [Restricted Properties](#RestrictedProperties) section.  
 
 > [!IMPORTANT]  
->  You cannot modify any existing C/AL code, including code in codeunits and in triggers on existing objects. If you want to modify existing code, use the new C/AL eventing model. This restriction is only on existing code and objects. New pages, tables, and so on, can contain C/AL code as it is considered part of the new object.  
+>  You cannot modify any existing C/AL code, including code in codeunits and in triggers on existing objects. You cannot include any modifications of codeunits in an extension package. If you want to modify existing code, use the new C/AL eventing model. This restriction is only on existing code and objects. New pages, tables, and so on, can contain C/AL code as it is considered part of the new object.  
 
 In addition to the object types described above, you are also able to include per-tenant web services, multilanguage files, and the following types of data:
 
@@ -35,7 +40,7 @@ In addition to the object types described above, you are also able to include pe
 -	Custom report layouts  
 
 
-## Restricted properties  
+## <a name="RestrictedProperties"></a> Restricted properties  
  There are restrictions on certain property changes for modified objects. The following sections list the properties you cannot change. The cmdlets that create and install packages will halt with errors if any of these properties are changed in your extension.  
 
 ### Restricted properties on existing page modifications  
