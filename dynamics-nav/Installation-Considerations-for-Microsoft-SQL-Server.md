@@ -1,6 +1,5 @@
 ---
 title: "Installation Considerations for Microsoft SQL Server and Microsoft Dynamics NAV"
-author: kennieNP
 ms.custom: na
 ms.date: 02/20/2017
 ms.reviewer: na
@@ -9,7 +8,6 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 0c1e0c2f-e8c1-412e-86a8-6a2ba944af24
-caps.latest.revision: 31
 ms.author: kepontop
 manager: edupont
 ---

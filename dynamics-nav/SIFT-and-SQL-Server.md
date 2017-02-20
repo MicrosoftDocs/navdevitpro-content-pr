@@ -1,6 +1,6 @@
 ---
 title: "SIFT and SQL Server"
-author:kennieNP
+author: kennieNP
 ms.custom: na
 ms.date: 02/20/2017
 ms.reviewer: na
@@ -9,6 +9,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 6a0cc8fb-74eb-4636-a173-86b9adc3af73
+ms.author: kepontop
 manager: edupont
 ---
 # SIFT and SQL Server
@@ -63,4 +64,3 @@ AND PostingDate<=?
  [Tuning and Tracing](Tuning-and-Tracing.md)   
  [SIFT and Performance](SIFT-and-Performance.md)   
  [SumIndexField Technology \(SIFT\)](SumIndexField-Technology--SIFT-.md)  
- 
