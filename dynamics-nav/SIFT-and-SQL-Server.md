@@ -22,15 +22,20 @@ A SumIndexField is always associated with a key and each key can have a maximum 
   
  [!INCLUDE[navnowlong](includes/navnowlong_md.md)] creates one indexed view for each SIFT key that is enabled. When you create a SIFT key for a table, you must set the **MaintainSIFTIndex** property for that key to **Yes** to enable the SIFT key and create the indexed view. After SQL Server has created the indexed view, it maintains the contents of the view when any changes are made to the base table. If you set the **MaintainSIFTIndex** property for that key to **No**, SQL Server drops the indexed view and stops maintaining the totals.  
   
- The indexed view that is used for a SIFT key is always created at the level of finest granularity. Therefore, if you create a SIFT key for AccountNo.,PostingDate, the database will store an aggregated value for each account for each date. This means that in the worst case scenario, 365 records must be summed to generate the total for each account for a year.  
+ The indexed view generated for a SIFT key is always created at the level of finest granularity. Therefore, if you create a SIFT key for AccountNo., PostingDate, the database will store an aggregated value for each account for each date. This means that in the worst case scenario, 365 records must be summed to generate the total for each account for a year.  
   
- The following is an example of how [!INCLUDE[navnowlong](includes/navnowlong_md.md)] creates an indexed view for a SIFT key that consists of the AccountNo., PostingDate fields and generates the total for the Amount field.  
+ The following is an example of how [!INCLUDE[navnowlong](includes/navnowlong_md.md)] creates an indexed view for a SIFT key consisting of fields AccountNo and PostingDate and with a total for the Amount field. 
   
 ```  
-CREATE VIEW GLEntry$VSIFT$1 AS SELECT SUM(Amount) as SUM$Amount,  
-AccountNo, PostingDate FROM GLEntry GROUP BY AccountNo,PostingDate*  
+CREATE VIEW GLEntry$VSIFT$1 AS 
+SELECT SUM(Amount) as SUM$Amount, AccountNo, PostingDate 
+FROM GLEntry 
+GROUP BY AccountNo, PostingDate
+;
+
 CREATE UNIQUE CLUSTERED INDEX VSIFTIDX ON  
-GLEntry$VSIFT$1(AccountNo,PostingDate)*  
+GLEntry$VSIFT$1(AccountNo, PostingDate)
+;
 ```  
   
  The following C/AL code example retrieves a total.  
@@ -46,8 +51,11 @@ GLEntry.CALCSUMS(Amount);
  The following code example shows how the same total is retrieved through an indexed view.  
   
 ```  
-SELECT SUM(SUM$Amount) FROM GLEntry$VSIFT$1 WITH(NOEXPAND) WHERE  
-AccountNo=? AND PostingDate>=? AND PostingDate<=?  
+SELECT SUM(SUM$Amount) 
+FROM GLEntry$VSIFT$1 WITH(NOEXPAND) 
+WHERE AccountNo=? 
+AND PostingDate>=? 
+AND PostingDate<=?  
 ```  
   
 ## See Also  
