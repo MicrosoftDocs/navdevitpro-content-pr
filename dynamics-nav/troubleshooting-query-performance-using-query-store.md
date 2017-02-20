@@ -17,4 +17,5 @@ manager: edupont
 Text from KennieNP
 
 ## See Also
+[Configuring Microsoft SQL Server](configuring-microsoft-sql-server.md)  
 [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md)  
