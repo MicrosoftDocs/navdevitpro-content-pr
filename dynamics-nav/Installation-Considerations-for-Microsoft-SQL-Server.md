@@ -66,14 +66,14 @@ Auto-growth of the database and/or transaction log files in production can degra
 Each SQL Server instance is run by its own windows service. The following two things are important to configure for these services
 
 #### Startup Options
-Enable trace flags 1117 and 1118 as startup options for SQL Server versions 2012 and 2014 (they are enabled by default in SQL Server 2016.). For SQL Server 2016 these trace flags are enabled by default.
+Enable trace flags 1117 and 1118 as startup options for SQL Server versions 2012 or 2014. For SQL Server 2016 these trace flags are enabled by default.
 
  Startup options can be set by using SQL Server Configuration Manager, see the SQL Server documentation for details.
 
 #### Service account
- We recommend that you use dedicated domain user accounts for the windows services running your [!INCLUDE[nav_server](includes/nav_server_md.md)] NAV instances and your [!INCLUDE[navnow](includes/navnow_md.md)] SQL Server instances, instead of a Local System account or the Network Service account.  
+ We recommend that you use dedicated domain user accounts for the windows services running your [!INCLUDE[nav_server](includes/nav_server_md.md)] instances and your [!INCLUDE[navnow](includes/navnow_md.md)] SQL Server instances, instead of a Local System account or the Network Service account.  
 
-For installations on SQL Server 2012 and 2014, consider adding the service account for then SQL Server engine to the **Perform Volume Maintenance Tasks** security policy. For SQL Server 2016, it is possible to do this from the installer.
+For installations on SQL Server 2012 or 2014, consider adding the service account for the SQL Server engine to the **Perform Volume Maintenance Tasks** security policy. For SQL Server 2016, it is possible to do this from the installer.
 
 ### Database configurations
 After Dynamics NAV has been installed, it is important to check a few settings on the NAV database(s). This is especially important for databases, which have been upgraded from previous versions of SQL Server.
