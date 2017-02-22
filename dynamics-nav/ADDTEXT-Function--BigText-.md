@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 5106e410-d146-4cf1-a006-1670639a6631
 caps.latest.revision: 23
 ---
@@ -46,7 +46,7 @@ BigText.ADDTEXT(Variable[, Position])
 > [!NOTE]  
 >  If you use ADDTEXT to add multiple BigText strings to what is presented as a single string, you can experience performance problems. The same applies to other repetitive uses of ADDTEXT. This is due to the implementation of the BigText data type, which relies on a String object that is immutable. You can avoid this issue by refactoring the code to reduce the number of additions or deletions. Alternatively, you can change your implementation to use the [System.Text.StringBuilder](http://go.microsoft.com/fwlink/?LinkId=285730) class instead. For more information, see [Immutability and the StringBuilder Class](http://go.microsoft.com/fwlink/?LinkId=285727) in the MSDN Library.  
   
-## Example  
+## Example 1  
  The following examples show how to use the ADDTEXT function. The specified text is inserted into the BigText string at the specified position. In these examples, the initial content of the *BigText* variable is `ABCDEFG`. These examples require that you create the following variables.  
   
 |Variable name|DataType|  
@@ -62,7 +62,7 @@ MyBigText.ADDTEXT('ZZZ', 3); // Returns the subtext ABZZZCDEFG.
   
 ```  
   
-## Example  
+## Example 2 
  The following example appends the string 'ZZZ' at the end of the MyBigText variable because the number specified for *Position* is greater than the length of the MyBigText variable.  
   
 ```  
@@ -72,7 +72,7 @@ MyBigText.ADDTEXT('ZZZ', 15); // Returns the subtext ABCDEFGZZZ.
   
 ```  
   
-## Example  
+## Example 3  
  In the following example, the content of the MyBigText variable is unchanged because the specified variable is an empty string.  
   
 ```  
@@ -81,7 +81,7 @@ MyBigText.ADDTEXT('ABCDEFG');
 MyBigText.ADDTEXT('', 1); // Returns the subtext ABCDEFG.  
 ```  
   
-## Example  
+## Example 4  
  In the following example, the function returns an error because 0 is specified for *Position*.  
   
 ```  

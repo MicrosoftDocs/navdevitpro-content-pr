@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 3ff41005-9430-4fb9-84e8-33b4c056f61d
 caps.latest.revision: 41
 manager: edupont
@@ -101,7 +101,7 @@ Before a user can access [!INCLUDE[navnow](includes/navnow_md.md)], you must hav
  To update the settings for an already existing user in the **Users** window, select the user and then, on the **Home** tab, choose **Edit**.  
 
 ## See Also  
-[How to: Create a Profile](How-to--Create-a-Profile.md)  
+[How to: Create a Profile](how-to-create-a-profile.md)  
 [Managing  User Groups](managing-user-groups.md)  
 [How to: Define Permissions for Users](How-to--Define-Permissions-for-Users.md)   
 [Users and Credential Types](Users-and-Credential-Types.md)   

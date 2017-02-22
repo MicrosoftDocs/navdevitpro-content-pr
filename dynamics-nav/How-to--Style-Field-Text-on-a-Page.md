@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 6221826a-8c26-42c0-b1cb-affdf81dbfaa
 caps.latest.revision: 20
 manager: edupont
 ---
 # How to: Style Field Text on a Page
-A page field control includes the [Style Property](Style-Property-duplicate.md) that you use to format the text that displays in a page field. The **Style** property has ten values that apply different formats to field text.  
+A page field control includes the [Style Property](Style-Property.md) that you use to format the text that displays in a page field. The **Style** property has ten values that apply different formats to field text.  
 
  The following table describes the values and the corresponding format.  
 
@@ -76,6 +76,6 @@ A page field control includes the [Style Property](Style-Property-duplicate.md) 
 3.  Set the **StyleExpr** property value to the variable that you defined in the previous procedure.  
 
 ## See Also  
- [Style Property](Style-Property-duplicate.md)   
+ [Style Property](Style-Property.md)   
  [StyleExpr Property](StyleExpr-Property.md)   
  [IncludeInDataSet Property](IncludeInDataSet-Property.md)

@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.author: jswymer
 manager: edupont
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 
 ---
 # Upgrading the Application Code
@@ -123,5 +123,5 @@ This completes the upgrade of the application code. Next, you must upgrade the d
 
 ## See Also  
 [Upgrading the Data](Upgrading-the-Data.md)   
-[Upgrading to Microsoft Dynamics NAV 2016](Upgrading-to-Microsoft-Dynamics-NAV-2016.md)  
+[Upgrading to Microsoft Dynamics NAV 2017](Upgrading-to-Microsoft-Dynamics-NAV-2017.md)  
 [How to: Create Databases.md](How-to--Create-Databases.md)  

@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 2263326d-f1b1-459f-9c82-a94be9eaef6a
 caps.latest.revision: 9
 manager: edupont
 ---
 # How to: Create Databases
-You can create new [!INCLUDE[navnow](includes/navnow_md.md)] databases in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] and by using the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVDatabase](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVDatabase)[!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlet.  
+You can create new [!INCLUDE[navnow](includes/navnow_md.md)] databases in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] and by using the New-NAVDatabase[!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlet.  
   
  When you create a database you must specify the SQL Server instance for the database and the authentication type.  
   
@@ -32,7 +32,7 @@ You can create new [!INCLUDE[navnow](includes/navnow_md.md)] databases in the [!
   
 5.  In the **Password** field, enter your password if you have selected **Database Server Authentication**.  
   
-6.  To set the network type to be used when connecting to the server, choose the **Advanced** tab and select the net type from the drop down list box in the **Net Type** field. However, it is not usually necessary to change the network type from the default setting. The **Default** net type setting allows \($ P\_1 Product Name $\) to connect to a server using the default client network type assigned by SQL Server. You can change the net type with the Client Network Utility, which is part of the SQL Server Client Utilities, if they have been installed on the client computer.  
+6.  To set the network type to be used when connecting to the server, choose the **Advanced** tab and select the net type from the drop down list box in the **Net Type** field. However, it is not usually necessary to change the network type from the default setting. The **Default** net type setting allows [!INCLUDE[navnow](includes/navnow_md.md)] to connect to a server using the default client network type assigned by SQL Server. You can change the net type with the Client Network Utility, which is part of the SQL Server Client Utilities, if they have been installed on the client computer.  
   
 7.  Choose **OK** to connect to the server and open the **New Database** window.  
   

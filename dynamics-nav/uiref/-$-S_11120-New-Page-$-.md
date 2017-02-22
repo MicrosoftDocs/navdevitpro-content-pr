@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 94bb373d-9248-4d4a-90b5-ea2b4e6f9bab
 caps.latest.revision: 11
 manager: edupont
@@ -36,5 +36,5 @@ Creates a new page. Pages are objects for viewing and editing data in the [!INCL
 |**List box**|Lists the type of pages that be created.|  
 
 ## See Also  
- [Working with Role Centers](../Working-with-Role-Centers.md)   
+ [Profiles and Role Centers](../Profiles-and-Role-Centers.md)   
  [Page Designer Walkthroughs](../Page-Designer-Walkthroughs.md)

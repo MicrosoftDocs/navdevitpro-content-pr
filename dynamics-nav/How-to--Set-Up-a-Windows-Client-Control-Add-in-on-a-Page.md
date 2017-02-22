@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 8113aa5f-6d1c-4a14-a486-f6691c6f6c36
 caps.latest.revision: 21
 manager: edupont
@@ -109,7 +109,7 @@ After you have registered a [!INCLUDE[nav_windows](includes/nav_windows_md.md)] 
         CurrPage.ControlName.MyProperty  
         ```  
 
-     `ControlName` is the name of the field control that is applied with the control add-in. The name is specified by the [Name Property](Name-Property-duplicate.md). `MyMethod` and `MyProperty` are the names of the method and property of the control add-in to be invoked.  
+     `ControlName` is the name of the field control that is applied with the control add-in. The name is specified by the [Name Property](Name-Property.md). `MyMethod` and `MyProperty` are the names of the method and property of the control add-in to be invoked.  
 
 3.  Save the page.  
 

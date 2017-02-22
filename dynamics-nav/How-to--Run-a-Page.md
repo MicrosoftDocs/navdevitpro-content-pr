@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 441db9f0-d70b-4ec7-bb8c-cddccf6cf032
 caps.latest.revision: 24
 manager: edupont
@@ -27,12 +27,10 @@ When you are developing pages, you may want to see how the pages look in the [!I
   
 ### To run a page at the command prompt  
   
-1.  At the command prompt, change to the RoleTailored client directory with the following `cd` command:  
-  
-    ```  
-    cd navnow_install\RoleTailored Client  
-    ```  
-  
+1.  At the command prompt, change to the RoleTailored Client directory of the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] installation on your computer. By default, the directory is:
+
+    [!INCLUDE[navnow_x86install_md](includes/navnow_x86install_md.md)]\RoleTailored Client  
+   
 2.  Type the following command:  
   
     ```  

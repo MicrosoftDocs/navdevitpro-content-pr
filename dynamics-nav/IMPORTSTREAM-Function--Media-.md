@@ -7,7 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.author: jswymer
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 manager: edupont
 ---
 # IMPORTSTREAM Function (Media)
@@ -43,7 +43,7 @@ Type: Media
  *MimeType*  
  Type: Text  
 
-[!INCLUDE[mimetype](includes/MimeType.md)]
+[!INCLUDE[mimetype](includes/mimetype_md.md)]
 
 ## Property Value/Return Value  
  Type: GUID  
@@ -72,7 +72,7 @@ To support the example code that follows, create the following objects:
 -   A page that is named **My Items** and has the following characteristics:
 
     -   List type page that uses the **My Items** table as its source.
-    -   A repeater control that contains the fields of the the **My Items** table.
+    -   A repeater control that contains the fields of the **My Items** table.
 
         >[!NOTE]
         >It is not necessary to include the **Media** data type field on the page.

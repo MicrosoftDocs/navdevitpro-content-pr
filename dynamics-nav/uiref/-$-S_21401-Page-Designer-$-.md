@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 2b06b436-9379-4b2e-9c64-84123ff90083
 caps.latest.revision: 10
 manager: edupont
@@ -29,7 +29,7 @@ Provides functionality for designing pages.
 |**SourceExpr**|Specifies an expression that defines where to find the value of the control.|  
 |**Name**|Specifies the name of the control or field to display on the page. The name cannot contain spaces.|  
 |**Caption**|Specifies the caption of the control or field.|  
-|**Visible**|Sets whether to display the page or control. For more information, see  [Visible Property-duplicate](../Visible-Property-duplicate.md).|  
+|**Visible**|Sets whether to display the page or control. For more information, see  [Visible Property](../Visible-Property.md).|  
 |**ApplicationArea**|Sets the application areas that apply to the control. For more information, see [ApplicationArea Property](../ApplicationArea-Property.md).|  
 
 ## See Also  

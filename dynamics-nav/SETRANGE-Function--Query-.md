@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 5699fdbe-9216-436b-ae2d-0628f788a48e
 caps.latest.revision: 12
 manager: edupont
@@ -30,7 +30,7 @@ Query.SETRANGE(Column[, FromValue][, ToValue])
  *Column*  
  Type: Text  
   
- The name of the column in the query that you want to filter. The name is defined by the column's [Name Property](Name-Property-duplicate.md) in Query Designer.  
+ The name of the column in the query that you want to filter. The name is defined by the column's [Name Property](Name-Property.md) in Query Designer.  
   
  *FromValue*  
  Type: Any  

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 17340569-ee99-49bb-8c84-da6978b01437
 caps.latest.revision: 29
 manager: edupont
@@ -28,7 +28,7 @@ The [!INCLUDE[nav_web](includes/nav_web_md.md)], [!INCLUDE[nav_tablet](includes/
 >  By default, the **Field Group** named **DropDown** is interpreted as **Brick** when a **Brick** definition has not been set. The **DropDown** is typically set on entities such as Customer, Vendor, and Items.  
 
 > [!TIP]  
->  The brick layout supports using the [Style Property](Style-Property-duplicate.md) and [StyleExpr Property](StyleExpr-Property.md) that lets you mark, for example, numbers as favorable or unfavorable.  
+>  The brick layout supports using the [Style Property](Style-Property.md) and [StyleExpr Property](StyleExpr-Property.md) that lets you mark, for example, numbers as favorable or unfavorable.  
 
 ### To display data as bricks  
 

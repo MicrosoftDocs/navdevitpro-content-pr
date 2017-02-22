@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 7715e99d-ebf2-4443-a426-6b2b0a72d148
 caps.latest.revision: 4
 manager: edupont
@@ -52,15 +52,15 @@ The task scheduler enables you to control when certain operations or processes \
 
 -   The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance restarted while the task was being run.  
 
- You can view these errors in the event log of the computer that is running the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. For more information, see [Monitoring Microsoft Dynamics NAV Server Events in the Windows Event Log](Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log.md).  
+You can view these errors in the event log of the computer that is running the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. For more information, see [Monitoring Microsoft Dynamics NAV Server Events in the Windows Event Log](Monitoring-Microsoft-Dynamics-NAV-Server-Events-in-the-Windows-Event-Log.md).  
 
- When an error occurs, unless the task is interrupted by the failure codeunit, the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance will rerun the task according to the following flow:  
+When an error occurs, unless the task is interrupted by the failure codeunit, the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance will rerun the task according to the following retry flow:  
 
-1.  Two minutes after the first failure  
+1.  Two minutes after the first failure.  
 
-2.  Four minutes after the second failure  
+2.  Four minutes after the second failure.  
 
-3.  Fifteen minutes after the third failure and subsequent failures.  
+3.  Fifteen minutes after the third failure and any subsequent failures up to a maximum of 10 times, after which the task is cancelled.  
 
 ## About Task Sessions and Permissions  
  The task runs in a background session, which means that there is no user interface. The behavior is similar to that of the STARTSESSION function, where any dialog boxes that would normally appear are suppressed. For more information about specific dialog boxes, see [STARTSESSION Function \(Sessions\)](STARTSESSION-Function--Sessions-.md).  

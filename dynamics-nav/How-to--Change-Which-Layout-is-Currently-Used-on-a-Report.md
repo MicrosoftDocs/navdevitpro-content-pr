@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 7bb42186-1105-4c43-bb7a-cf0e2f5bdc03
 caps.latest.revision: 6
 manager: edupont
@@ -39,7 +39,7 @@ translation.priority.ht:
 # How to: Change Which Layout is Currently Used on a Report
 This procedure describes how to change the layout that is used by a report. A report can be set up with more than one report layout, which you can then switch among as needed.  
 
- Depending on the layouts that are available for a report, you can choose to use a built-in RDLC report layout, a built-in Word report layout, or a custom layout. For more information about RDLC and Word report layouts, built-in and custom layouts, and more, see [About Report Layouts](About-Report-Layouts.md).  
+ Depending on the layouts that are available for a report, you can choose to use a built-in RDLC report layout, a built-in Word report layout, or a custom layout. For more information about RDLC and Word report layouts, built-in and custom layouts, and more, see [Managing Report Layouts](managing-report-layouts.md).  
 
 ### To change the layout that is used on a report  
 
@@ -73,7 +73,7 @@ This procedure describes how to change the layout that is used by a report. A re
  You return to the **\Report Layout Selection** window. The name of the selected custom layout displays in the **Report Description** field. The custom layout will be used the next time that you run the report.  
 
 ## See Also  
- [Managing Report Layouts From the Microsoft Dynamics NAV Clients](Managing-Report-Layouts-From-the-Microsoft-Dynamics-NAV-Clients.md)   
+ [Managing Report Layouts](managing-report-layouts.md)   
  [Designing Report Layouts from the Microsoft Dynamics NAV Development Environment](Designing-Report-Layouts-from-the-Microsoft-Dynamics-NAV-Development-Environment.md)   
- [How to: Modify a Custom Report Layout](How-to--Modify-a-Custom-Report-Layout.md)   
- [How to: Create a Custom Report Layout](How-to--Create-a-Custom-Report-Layout.md)
+ [Managing Report Layouts](managing-report-layouts.md)   
+

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 7e0817eb-59cd-411c-ab81-bf3d8e17844d
 caps.latest.revision: 4
 manager: edupont
@@ -17,11 +17,15 @@ The functions that support cryptography in [!INCLUDE[navnow](includes/navnow_md.
  ![Flow between plain text and encrypted text](media/NAV_Encryption.jpg "NAV\_Encryption")  
 
 ## Encryption Keys  
- To encrypt and decrypt text, we use an encryption key. [!INCLUDE[navnow](includes/navnow_md.md)] stores the key in a secure location and accesses it at runtime when needed. Additional functionality is provided to export and import keys, which is important when moving solutions from one location to another. For more information, see [Encryption Key Management](Encryption-Key-Management.md) and [Encryption Functions](Encryption-Functions.md).  
+ To encrypt and decrypt text, we use an encryption key. [!INCLUDE[navnow](includes/navnow_md.md)] stores the key in a secure location and accesses it at runtime when needed. Additional functionality is provided to export and import keys, which is important when moving solutions from one location to another. 
+
+ More information about Encryption Management and Encryption Keys is coming soon.
+ 
+ For more information, see [Encryption Key Management](encryption-key-management.md) and [Encryption Functions](encryption-functions.md).  
 
 ## See Also  
- [Encryption Key Management](Encryption-Key-Management.md)   
+ [Encryption Key Management](encryption-key-management.md)   
  [Programming in C/AL](Programming-in-C-AL.md)   
- [How to: Export and Import Encryption Keys](How-to--Export-and-Import-Encryption-Keys.md)   
- [How to: Enable and Disable Encryption Keys](How-to--Enable-and-Disable-Encryption-Keys.md)   
- [Manage Data Encryption](Manage-Data-Encryption.md)
+ [How to: Export and Import Encryption Keys](how-to-export-and-import-encryption-keys.md)   
+ [How to: Enable and Disable Encryption Keys](how-to-enable-and-disable-encryption-keys.md)   
+ [Manage Data Encryption](manage-data-encryption.md)

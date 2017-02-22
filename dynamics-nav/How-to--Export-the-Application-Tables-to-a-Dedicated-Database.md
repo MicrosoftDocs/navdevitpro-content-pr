@@ -7,7 +7,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 0f5cdab3-c8f9-4a02-9f81-837f2f1a39e8
 caps.latest.revision: 14
 ---
@@ -15,7 +15,7 @@ caps.latest.revision: 14
 In [!INCLUDE[navnow](includes/navnow_md.md)], you can export the tables that define the application to a dedicated database. To export the application tables from an existing database, [!INCLUDE[navnow](includes/navnow_md.md)] provides a [!INCLUDE[wps_2](includes/wps_2_md.md)] cmdlet as part of the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
 
 > [!IMPORTANT]  
->  Before you can run the script, you must upgrade to [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. For more information, see [Upgrading to Microsoft Dynamics NAV 2016](Upgrading-to-Microsoft-Dynamics-NAV-2016.md).  
+>  Before you can run the script, you must upgrade to [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. For more information, see [Upgrading to Microsoft Dynamics NAV 2017](Upgrading-to-Microsoft-Dynamics-NAV-2017.md).  
 
  The following procedure illustrates how you can separate the application tables in an existing database into two databases: an application database and a business data database. You can automate this process and combine it with the use of other cmdlets. For more information, see the samples in the Windows PowerShell scripts in the **…\\WindowsPowerShellScripts\\Multitenancy\\** folder on the [!INCLUDE[navnow](includes/navnow_md.md)] product media.  
 
@@ -55,7 +55,7 @@ In [!INCLUDE[navnow](includes/navnow_md.md)], you can export the tables that def
      At this stage, the original database still contains the application tables, and you can still access it using the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)]. Next, you must remove the application tables from the original database to make it a tenant database.  
 
     > [!TIP]  
-    >  Optionally, you can combine the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.Export-NAVApplication](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.Export-NAVApplication) and [T:Microsoft.Dynamics.Nav.Management.Cmdlets.Remove-NAVApplication](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.Remove-NAVApplication) cmdlets. For an example of how you can combine the two cmdlets, see the **Example** section.  
+    >  Optionally, you can combine the Export-NAVApplication and Remove-NAVApplication cmdlets. For an example of how you can combine the two cmdlets, see the **Example** section.  
 
 5.  To remove the application tables from the original database, type the following command:  
 
@@ -107,7 +107,7 @@ PS C:\Windows\System32> Mount-NAVTenant –ServerInstance ‘nav_server_instance
 ## See Also  
  [Separating Application Data from Business Data](Separating-Application-Data-from-Business-Data.md)   
  [Migrating to Multitenancy](Migrating-to-Multitenancy.md)   
- [Upgrading to Microsoft Dynamics NAV 2016](Upgrading-to-Microsoft-Dynamics-NAV-2016.md)   
+ [Upgrading to Microsoft Dynamics NAV 2017](Upgrading-to-Microsoft-Dynamics-NAV-2017.md)   
  [Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   
  [Creating Tenants from Companies](Creating-Tenants-from-Companies.md)   
  [Merging an Application Database with a Tenant Database](Merging-an-Application-Database-with-a-Tenant-Database.md)

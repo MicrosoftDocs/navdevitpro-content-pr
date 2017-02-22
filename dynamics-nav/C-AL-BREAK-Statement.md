@@ -6,9 +6,10 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 625e29a8-963e-4ef1-971d-c96cf19e1ccb
 caps.latest.revision: 8
+author: jswymer
 manager: edupont
 ---
 # C/AL BREAK Statement
@@ -21,7 +22,7 @@ BREAK;
  You typically use the BREAK statement in the repeating statements such as FOR, FOREACH, WHILE, or REPEAT to stop an iteration or loop when certain conditions are met.  
 
 > [!NOTE]  
->  The BREAK statement is different than the [BREAK Function \(Report, XMLport\)](BREAK-Function--Report--XMLport-.md). Although both stop an iteration or loop, the BREAK function will also terminate the trigger is which it is run.  
+>  The BREAK statement is different than the [BREAK Function \(Report, XMLport\)](BREAK-Function--Report--XMLport-.md). Although both stop an iteration or loop, the BREAK function will also terminate the trigger in which it is run.  
 
 ## Example  
  The following code example loops through a .NET Framework collection that contains a generic list of elements and returns each element as text in a message. However, the BREAK statement terminates the iteration when the text equivalent of the element is *Item 2*.  

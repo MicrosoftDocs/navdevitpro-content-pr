@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 14d0b7d7-c9e4-47e5-8113-908c39f864c9
 caps.latest.revision: 18
 manager: edupont
@@ -34,7 +34,7 @@ A *query* object enables you to specify a set of data from the [!INCLUDE[navnow]
 ## Using Queries  
  The following examples show how you can use queries in your [!INCLUDE[navnow](includes/navnow_md.md)] application.  
 
--   Creating charts that are based on a query instead of a table. For more information, see [How to: Create Generic Charts](How-to--Create-Generic-Charts.md) in the Application Help for [!INCLUDE[navnowlong](includes/navnowlong_md.md)].  
+-   Creating charts that are based on a query instead of a table.  
 
 -   Saving a query as an .xml or .csv file. You can use the [SAVEASXML Function](SAVEASXML-Function.md) to create an .xml file that contains the resulting dataset of a query. You can use the .xml file to integrate with external applications.  
 

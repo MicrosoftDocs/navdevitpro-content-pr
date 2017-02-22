@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 1133907a-448b-434e-bfbc-8761cdb9b069
 caps.latest.revision: 8
 manager: edupont
@@ -20,7 +20,6 @@ This section provides reference information for [!INCLUDE[navnow](includes/navno
  [Special Tables](Special-Tables.md)   
  [Development Environment (C/SIDE)](Development-Environment--C-SIDE-.md)   
  [Development Environment Commands](Development-Environment-Commands.md)   
- [Window Overviews](Window-Overviews.md)   
  [Administration Cmdlets for Microsoft Dynamics NAV](http://go.microsoft.com/fwlink/?LinkID=510539)   
  [Development Cmdlets for Microsoft Dynamics NAV](http://go.microsoft.com/fwlink/?LinkID=510540)   
  [Development Cmdlets for Microsoft Dynamics NAV Extensions](http://go.microsoft.com/fwlink/?LinkID=626875)   

@@ -1,14 +1,14 @@
 ---
 title: "Walkthrough: Installing the Demo Version"
+author: edupont04
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 10/22/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 1ad0b37b-6d38-4c92-9ca6-14888864fb6b
-caps.latest.revision: 29
 manager: edupont
 ---
 # Walkthrough: Installing the Demo Version
@@ -22,13 +22,13 @@ You can install the Demo version of [!INCLUDE[navnowlong](includes/navnowlong_md
 
 -   The [!INCLUDE[nav_windows](includes/nav_windows_md.md)]  
 
--   [Microsoft Dynamics NAV Server](Microsoft-Dynamics-NAV-Server.md)  
+-   [Microsoft Dynamics NAV Server](Microsoft-Dynamics-NAV-Server.md)]  
 
--   [Development Environment (C/SIDE)](Development-Environment--C-SIDE-.md)  
+-   [Development Environment (C/SIDE)](Development-Environment--C-SIDE-.md)]  
 
 -   Microsoft Office Outlook Add-in for Microsoft Dynamics NAV  
 
--   [SQL Server Database Components](SQL-Server-Database-Components.md)  
+-   [SQL Server Database Components](SQL-Server-Database-Components.md)]  
 
 -   [!INCLUDE[demolong](includes/demolong_md.md)]  
 
@@ -62,7 +62,7 @@ You can install the Demo version of [!INCLUDE[navnowlong](includes/navnowlong_md
 
 6.  When the installation is complete, choose **Close**.  
 
-7.  Choose **Start**, choose **All Programs**, and then choose [!INCLUDE[navnowlong](includes/navnowlong_md.md) to open the [!INCLUDE[rtc](includes/rtc_md.md)].  
+7.  Choose **Start**, choose **All Programs**, and then choose [!INCLUDE[navnowlong](includes/navnowlong_md.md)] to open the [!INCLUDE[rtc](includes/rtc_md.md)].  
 
 ## Next Steps  
  You can now work with the [!INCLUDE[demolong](includes/demolong_md.md)] to try the different features with demonstration data.  
@@ -71,4 +71,5 @@ You can install the Demo version of [!INCLUDE[navnowlong](includes/navnowlong_md
 >  When you uninstall [!INCLUDE[navnowlong](includes/navnowlong_md.md)], the demonstration database is not removed. You have to remove it manually. For more information, see "Removing the Demo Database" in [Modifying, Uninstalling, or Repairing Microsoft Dynamics NAV](Modifying--Uninstalling--or-Repairing-Microsoft-Dynamics-NAV.md).  
 
 ## See Also  
- [Properties of the Demo License](Properties-of-the-Demo-License.md)
+[Properties of the Demo License](Properties-of-the-Demo-License.md)
+[Deployment](Deployment.md)  

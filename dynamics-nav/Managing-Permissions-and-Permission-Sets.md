@@ -8,7 +8,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 392ea3d8-e127-4a7a-8404-c558aa8fef50
 ---
 # Managing Permissions and Permission Sets
@@ -35,5 +35,5 @@ The BASIC permission set primarily functions as a prerequisite to open the clien
 [First User Is Automatically Assigned the SUPER Permission Set](First-User-Is-Automatically-Assigned-the-SUPER-Permission-Set.md)  
 [How to: Create or Modify Permission Sets](How-to--Create-or-Modify-Permission-Sets.md)  
 [Special Permission Sets](Special-Permission-Sets.md)  
-[Customize the User Interface](Customize-the-User-Interface.md)   
+[Profiles and Role Centers](Profiles-and-Role-Centers.md)   
 [Removing Elements from the User Interface According to Permissions](Removing-Elements-from-the-User-Interface-According-to-Permissions.md)

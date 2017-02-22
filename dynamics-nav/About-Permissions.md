@@ -7,7 +7,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 0adbd6ea-16d6-4030-9f3b-d9b02b447191
 caps.latest.revision: 14
 ---
@@ -37,5 +37,5 @@ Each permission set in [!INCLUDE[navnow](includes/navnow_md.md)] describes a set
 [How to: Work with the BASIC Permission Set](how-to-work-with-the-basic-permission-set.md)  
 [How to: Define Permissions for Users](How-to--Define-Permissions-for-Users.md)   
 [Security and Protection](Security-and-Protection.md)   
-[Customize the User Interface](Customize-the-User-Interface.md)   
+[Profiles and Role Centers](Profiles-and-Role-Centers.md)   
 [Removing Elements from the User Interface According to Permissions](Removing-Elements-from-the-User-Interface-According-to-Permissions.md)

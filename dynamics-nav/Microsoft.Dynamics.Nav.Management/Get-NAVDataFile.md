@@ -1,0 +1,84 @@
+---
+external help file: Microsoft.Dynamics.Nav.Management.dll-Help.xml
+online version: https://go.microsoft.com/fwlink/?linkid=401401
+schema: 2.0.0
+---
+
+# Get-NAVDataFile
+
+## SYNOPSIS
+Gets information from a Microsoft Dynamics NAV data file.
+
+## SYNTAX
+
+```
+Get-NAVDataFile [-FilePath] <String> [-Force] [<CommonParameters>]
+```
+
+## DESCRIPTION
+Use the Get-NAVDataFile cmdlet to extract information from a Microsoft Dynamics NAV data file.
+The file must have been exported from a Microsoft Dynamics NAV database and can contain company-specific data, global data, application data, and application objects. The following information is returned from the .navdata file:
+
+ExportVersion  
+DatabaseVersion  
+Description  
+IncludeApplication  
+IncludeApplicationData  
+TenantId  
+IncludeGlobalData  
+CompanyName  
+ExportDateTime  
+
+## EXAMPLES
+
+### EXAMPLE 1
+```
+Get-NAVDataFile -FilePath C:\file\Customer.navdata
+```
+
+This example extracts information from the specified file to show an overview of what is in the file (\*.navdata).The extracted information includes a list of the companies and specifies if global data, application data, or application objects are included. If a description was added to the file when the data was exported, this description is also shown.
+
+## PARAMETERS
+
+### -FilePath
+Specifies the path and name of the file that you want to import data from.
+The file must be a .navdata file type that has been exported from Microsoft Dynamics NAV.
+
+```yaml
+Type: String
+Parameter Sets: (All)
+Aliases: FileName
+
+Required: True
+Position: 0
+Default value: None
+Accept pipeline input: True (ByPropertyName, ByValue)
+Accept wildcard characters: False
+```
+
+### -Force
+Forces the command to run without asking for user confirmation.
+
+```yaml
+Type: SwitchParameter
+Parameter Sets: (All)
+Aliases: 
+
+Required: False
+Position: Named
+Default value: None
+Accept pipeline input: False
+Accept wildcard characters: False
+```
+
+### CommonParameters
+This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable, -InformationAction, -InformationVariable, -OutVariable, -OutBuffer, -PipelineVariable, -Verbose, -WarningAction, and -WarningVariable. For more information, see about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216).
+
+## INPUTS
+
+## OUTPUTS
+
+## NOTES
+
+## RELATED LINKS
+

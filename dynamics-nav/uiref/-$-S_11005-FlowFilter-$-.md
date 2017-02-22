@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: c6ffa571-cc40-4cf3-ad63-af95b928153b
 caps.latest.revision: 6
 manager: edupont
@@ -18,4 +18,3 @@ Sets a FlowFilter.
 
 ## See Also  
  [FlowFilter Overview](../FlowFilter-Overview.md)   
- [FlowFilters](../FlowFilters.md)

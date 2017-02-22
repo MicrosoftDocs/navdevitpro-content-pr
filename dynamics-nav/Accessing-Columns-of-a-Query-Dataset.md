@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 261c896a-4b7b-4b46-b874-2c032e7096be
 caps.latest.revision: 9
 manager: edupont
@@ -22,7 +22,7 @@ ColumnValue := QueryVariable.ColumnName
 
 -   *QueryVariable* is a variable of the Query data type that specifies the query object.  
 
--   *ColumnName* is the name of the column in the query as specified by the [Name Property](Name-Property-duplicate.md) of the column.  
+-   *ColumnName* is the name of the column in the query as specified by the [Name Property](Name-Property.md) of the column.  
 
 ## Return Value  
  Type: The data type of the field that is used by the column, unless the column applies a totaling method as specified by the [Method Property](Method-Property.md). If the column applies a totaling method, then data type is an integer for the Count method and a decimal for all other totaling methods  

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 5f81cec5-34bc-4530-b1b3-6ae99b9d31ae
 caps.latest.revision: 14
 manager: edupont
@@ -58,6 +58,5 @@ To use Automated Data Capture System, you must enable the ADCS web service.
 
 ## See Also  
  [Configuring Automated Data Capture System](Configuring-Automated-Data-Capture-System.md)   
- [Miniforms](\($-N_7703-Miniforms-$\).md)   
  [How to: Configure ADCS Options](How-to--Configure-ADCS-Options.md)   
  [SOAP Web Services](SOAP-Web-Services.md)

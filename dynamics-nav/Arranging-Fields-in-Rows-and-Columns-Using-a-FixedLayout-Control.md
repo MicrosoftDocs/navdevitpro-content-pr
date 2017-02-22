@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 71cfa27c-b7c5-4d34-8ff2-618eae92dded
 caps.latest.revision: 13
 manager: edupont
@@ -51,7 +51,7 @@ This topic describes the layout and behavior of fields in a FixedLayout control 
 >  The fields in the FixedLayout controls in the illustration are not in a group control. If they were in a group control, then they would follow the same principle as described in the previous section about how to group fields.  
   
 ## Editing Fields in a Fixed Layout  
- Fields in a fixed layout are not editable even if the [Editable Property-duplicate](Editable-Property-duplicate.md) property is set to **TRUE**. However, if the field drills down to a page where the field source is defined, then you can modify the field.  
+ Fields in a fixed layout are not editable even if the [Editable Property](Editable-Property.md) property is set to **TRUE**. However, if the field drills down to a page where the field source is defined, then you can modify the field.  
   
 ## See Also  
  [How to: Arrange Page Fields in Rows and Columns Using a FixedLayout Control](How-to--Arrange-Page-Fields-in-Rows-and-Columns-Using-a-FixedLayout-Control.md)   

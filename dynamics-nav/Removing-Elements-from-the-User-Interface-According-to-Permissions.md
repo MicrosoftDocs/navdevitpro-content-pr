@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ---
 # Removing Elements from the User Interface According to Permissions
 You can configure [!INCLUDE[dyn_nav](includes/dyn_nav_md.md)] to show and hide user interface \(UI\) elements based on the license or the user's permissions to the underlying tables. All elements, fields, actions, and page parts, can be removed from the user’s view of [!INCLUDE[dyn_nav](includes/dyn_nav_md.md)].
@@ -41,4 +41,4 @@ A couple of permission sets in the [!INCLUDE[demo](includes/demo_md.md)] demonst
 
 ## See Also  
  [Configuring Microsoft Dynamics NAV](Configuring-Microsoft-Dynamics-NAV.md)   
- [Customize the User Interface](Customize-the-User-Interface.md)
+ [Profiles and Role Centers](Profiles-and-Role-Centers.md)

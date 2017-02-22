@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 53086760-566b-4bc9-97d4-e3ac74f0b818
 caps.latest.revision: 13
 manager: edupont
@@ -14,7 +14,7 @@ manager: edupont
 # How to: Use FlowFilters in OData URIs
 You can set FlowFilters on the data that your OData web service extracts from the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
   
- FlowFilters are a special kind of filter that you use to set ranges on calculations that are shown in FlowFields. For more information, see [FlowFilters](FlowFilters.md). FlowFilters for a page are included in the metadata for that page when it is published as a web service. You can then use FlowFilters as filters in a URI that specifies a query against page data. However, only those FlowFilters that are required to calculate the FlowFields that are exposed on the page as controls are included.  
+ FlowFilters are a special kind of filter that you use to set ranges on calculations that are shown in FlowFields. For more information, see [FlowFilter Overview](FlowFilter-Overview.md). FlowFilters for a page are included in the metadata for that page when it is published as a web service. You can then use FlowFilters as filters in a URI that specifies a query against page data. However, only those FlowFilters that are required to calculate the FlowFields that are exposed on the page as controls are included.  
   
 ## Using FlowFilters to Query Data on the Item Card Page  
  In this procedure, you create and publish a web service from the **Item Card** page in [!INCLUDE[navnow](includes/navnow_md.md)] and then query the data in that web service by using a FlowFilter.  

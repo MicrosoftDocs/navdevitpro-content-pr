@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 1c8d76d0-27e6-409a-b7ec-057763c9d2c7
 caps.latest.revision: 9
 manager: edupont
@@ -17,7 +17,7 @@ This topic lists properties of the XMLport object, element, and attribute.
 ## XMLport Object Properties  
  The following properties apply to the **XMLport** object.  
   
--   [Caption Property](Caption-Property-duplicate.md)  
+-   [Caption Property](Caption-Property.md)  
   
 -   [CaptionML Property](CaptionML-Property.md)  
   
@@ -41,7 +41,7 @@ This topic lists properties of the XMLport object, element, and attribute.
   
 -   [InlineSchema Property](InlineSchema-Property.md)  
   
--   [Name Property](Name-Property-duplicate.md)  
+-   [Name Property](Name-Property.md)  
   
 -   [NamespacePrefix Property](NamespacePrefix-Property.md)  
   

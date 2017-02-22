@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: a8018367-db1d-45fd-b086-0b8fe714b709
 caps.latest.revision: 22
 ---
@@ -39,7 +39,7 @@ caps.latest.revision: 22
   
 ## See Also  
  [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md)   
- [How to: Assign a User to a Profile](How-to--Assign-a-User-to-a-Profile.md)   
+ [How to: Assign a User to a Profile](how-to-assign-a-user-to-a-profile.md)   
  [Managing Permissions and Permission Sets](Managing-Permissions-and-Permission-Sets.md)   
- [Customize the User Interface](Customize-the-User-Interface.md)   
+ [Profiles and Role Centers](Profiles-and-Role-Centers.md)   
  [Removing Elements from the User Interface According to Permissions](Removing-Elements-from-the-User-Interface-According-to-Permissions.md)

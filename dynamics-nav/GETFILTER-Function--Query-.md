@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 3baf4cbe-97ee-449f-b9ba-9c8947a4998c
 caps.latest.revision: 18
 manager: edupont
@@ -27,7 +27,7 @@ Filter := Query.GETFILTER(Column)
  *Column*  
  Type: Text  
   
- The name of the column in the query. A column name is defined by the [Name Property](Name-Property-duplicate.md) in Query Designer.  
+ The name of the column in the query. A column name is defined by the [Name Property](Name-Property.md) in Query Designer.  
   
 ## Return Value  
  Type: Text  

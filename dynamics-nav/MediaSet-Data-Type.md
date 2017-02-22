@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: f9d59da2-cc6c-43ae-8d67-3d0f123ab931
 caps.latest.revision: 4
 ---
@@ -17,8 +17,10 @@ The **MediaSet** data type enables you to import media to the application databa
 
 ## See Also  
 [Working With Media on Records](Working-With-Media-on-Records.md)  
- [COUNT Function \(MediaSet\)](COUNT-Function--MediaSet-.md)   
- [IMPORTFILE Function \(MediaSet\)](IMPORTFILE-Function--MediaSet-.md)   
- [IMPORTSTREAM Function \(MediaSet\)](IMPORTSTREAM-Function--MediaSet-.md)   
- [MEDIAID Function \(MediaSet\)](MEDIAID-Function--MediaSet-.md)   
- [EXPORTFILE Function](EXPORTFILE-Function-MediaSet.md)
+[COUNT Function \(MediaSet\)](COUNT-Function--MediaSet-.md)  
+[IMPORTFILE Function \(MediaSet\)](IMPORTFILE-Function--MediaSet-.md)   
+[IMPORTSTREAM Function \(MediaSet\)](IMPORTSTREAM-Function--MediaSet-.md)  
+[INSERT Function \(MediaSet\)](INSERT-Function--MediaSet-.md)  
+[ITEM Function \(MediaSet\)](ITEM-Function--MediaSet-.md)  
+[MEDIAID Function \(MediaSet\)](MEDIAID-Function--MediaSet-.md)  
+[EXPORTFILE Function](EXPORTFILE-Function-MediaSet.md)  

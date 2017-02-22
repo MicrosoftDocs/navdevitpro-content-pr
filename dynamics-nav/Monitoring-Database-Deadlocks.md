@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ---
 # Monitoring SQL Database Deadlocks
 You can set up the system to log deadlocks that occur in the SQL database. The deadlocks are recorded in the Windows Event Log of computer running [!INCLUDE[nav_server](includes/nav_server_md.md)]. The log entries provide information about the C/AL code that was run when the deadlock occurred, along with the deadlock report from SQL Server. This information can help you identify and resolve problem areas in the application design.
@@ -66,7 +66,7 @@ Deadlock event log entries have the event ID 705 and task category 33 (Telemetry
 ### View a graphical representation of the deadlock event
 To view a graphical representation of the deadlock, perform the following steps:
 1.  Open the deadlock event in Event Viewer.
-2.  On the General tab, go to the SQL Server deadlock xml report section, and then copy the text in the <deadlock></deadlock> and its content to a text editor such as Notepad.
+2.  On the General tab, go to the SQL Server deadlock xml report section, and then copy the text in the deadlock tag (including the start and end tag) to a text editor such as Notepad or Visual Studio Code.
 3.  Save the file as a .xdl type.
 4.  Open the file in SQL Server Management Studio.
 

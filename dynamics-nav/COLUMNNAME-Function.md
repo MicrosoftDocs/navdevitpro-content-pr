@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 8fb7efe1-b56e-4901-b21b-80d5fc501eef
 caps.latest.revision: 7
 manager: edupont
@@ -30,7 +30,7 @@ Name := Query.COLUMNNAME(Column)
  *Column*  
  Type: Text  
   
- Refers to the name of the query column. The name of a query column is specified by the [Name Property](Name-Property-duplicate.md) of the column in Query Designer.  
+ Refers to the name of the query column. The name of a query column is specified by the [Name Property](Name-Property.md) of the column in Query Designer.  
   
 ## Property Value/Return Value  
  Type: Text  

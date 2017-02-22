@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 21a88c17-da4e-4e3a-9cb5-2f8c4cfe2131
 caps.latest.revision: 21
 manager: edupont
@@ -83,7 +83,7 @@ Saves the resulting dataset of a query as a comma separated values \(CSV\) file.
  **true** if the query was saved; otherwise, **false**.  
   
 ## Remarks  
- A CSV file stores data in a plain text format. When you save a query dataset as a CSV file, each row of the dataset is stored on a separate line in the file, and each column in a row is separated by a comma or another delimiter of your choice. The first line of the file will contain the column names of the query. A query column name is specified by its [Name Property](Name-Property-duplicate.md).  
+ A CSV file stores data in a plain text format. When you save a query dataset as a CSV file, each row of the dataset is stored on a separate line in the file, and each column in a row is separated by a comma or another delimiter of your choice. The first line of the file will contain the column names of the query. A query column name is specified by its [Name Property](Name-Property.md).  
   
  When the **SAVEASCSV** function is called the query dataset is generated and then saved in CSV format to the file that is designated by the *FileName* parameter.  
   

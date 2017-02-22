@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 87918c6d-eb00-48bf-aaa8-b995ba718b5e
 caps.latest.revision: 4
 manager: edupont
@@ -19,7 +19,7 @@ This topic provides an overview about customizing [!INCLUDE[crm](includes/crm_md
 
 |Object|Description|  
 |------------|-----------------|  
-|Integration table|Table that represents an entity in [!INCLUDE[crm](includes/crm_md.md)]. The integration table includes fields that correspond to fields in the entity. The integration table acts as a link or connector between the [!INCLUDE[navnow](includes/navnow_md.md)] table and the [!INCLUDE[crm](includes/crm_md.md)] entity. For example, for integrating the [!INCLUDE[crm](includes/crm_md.md)] accounts entity, the [!INCLUDE[navnow](includes/navnow_md.md)] database includes the integration table **\($ T\_5341 CRM\_Accounts $\)**. There must be an integration table for each [!INCLUDE[crm](includes/crm_md.md)] entity that you want to integrate in [!INCLUDE[navnow](includes/navnow_md.md)].<br /><br /> You create an integration table by using the [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.New-NAVCrmTable](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.New-NAVCrmTable) in the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)].|  
+|Integration table|Table that represents an entity in [!INCLUDE[crm](includes/crm_md.md)]. The integration table includes fields that correspond to fields in the entity. The integration table acts as a link or connector between the [!INCLUDE[navnow](includes/navnow_md.md)] table and the [!INCLUDE[crm](includes/crm_md.md)] entity. For example, for integrating the [!INCLUDE[crm](includes/crm_md.md)] accounts entity, the [!INCLUDE[navnow](includes/navnow_md.md)] database includes the integration table **\($ T\_5341 CRM\_Accounts $\)**. There must be an integration table for each [!INCLUDE[crm](includes/crm_md.md)] entity that you want to integrate in [!INCLUDE[navnow](includes/navnow_md.md)].<br /><br /> You create an integration table by using the New-NAVCrmTable in the [!INCLUDE[nav_dev_shell](includes/nav_dev_shell_md.md)].|  
 |Business data table|Table for [!INCLUDE[navnow](includes/navnow_md.md)] record type that will integrate with the [!INCLUDE[crm](includes/crm_md.md)] entity. For example, to integrate with the [!INCLUDE[crm](includes/crm_md.md)] Campaign entity, this would be the table **5071 \($ T\_5071 Campaign $\)**.|  
 |Table **5335 \($ T\_5335 Integration Table Mappings $\)**|Contains the integration table mappings that link the business data table to the integration table for the [!INCLUDE[crm](includes/crm_md.md)] entity. For each entity in [!INCLUDE[crm](includes/crm_md.md)] that you want to synchronize with data in [!INCLUDE[navnow](includes/navnow_md.md)], there must be a corresponding integration table mapping.|  
 |Table **5336 \($ T\_5335 Integration Field Mappings $\)**|Contains the integration field mappings that associate fields in [!INCLUDE[crm](includes/crm_md.md)] entity record with fields in a [!INCLUDE[navnow](includes/navnow_md.md)] record. The mapping is used to determine which data to synchronize between [!INCLUDE[crm](includes/crm_md.md)] and [!INCLUDE[navnow](includes/navnow_md.md)] records. The field mappings define which field in [!INCLUDE[navnow](includes/navnow_md.md)] corresponds to which field in [!INCLUDE[crm](includes/crm_md.md)].|  

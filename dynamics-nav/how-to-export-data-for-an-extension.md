@@ -2,12 +2,13 @@
 title: "How to: Export data for an Extension"
 author: edupont04
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 11/04/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
+ms.author: edupont
 ---
 # How to: Export Data for an Extension
 An extension package may include required configuration and starting data for your extension to run properly. An extension can include the following types of data that can be imported for the tenant during the installation of the extension.  
@@ -15,7 +16,7 @@ An extension package may include required configuration and starting data for yo
 - Permission sets
 - Web services
 - Starting table data
-- Custom Report Layouts
+- Custom report layouts
 
 The data must be exported from [!INCLUDE[navnow](includes/navnow_md.md)] into files to be included in the extension package.
 
@@ -69,10 +70,10 @@ The data must be exported from [!INCLUDE[navnow](includes/navnow_md.md)] into fi
 3.	Copy the exported files into a source folder for packaging, such as a *ReportLayouts* folder at the same level at the next to the DELTA folder.
 
 ## See Also  
-[Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)   
+[Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)  
 [How to: Develop an Extension](How-to--Develop-an-Extension.md)  
-[How to: Create an Extension Package](How-to--Create-an-Extension-Package.md)   
+[How to: Create an Extension Package](How-to--Create-an-Extension-Package.md)  
 [How to: Publish and Install an Extension](How-to--Publish-and-Install-an-Extension.md)   
-[Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)   
-[Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)   
+[Comparing and Merging Application Object Source Files](Comparing-and-Merging-Application-Object-Source-Files.md)  
+[Microsoft Dynamics NAV Windows PowerShell Cmdlets](Microsoft-Dynamics-NAV-Windows-PowerShell-Cmdlets.md)  
 [Development Cmdlets for Microsoft Dynamics NAV](http://go.microsoft.com/fwlink/?LinkID=510540)

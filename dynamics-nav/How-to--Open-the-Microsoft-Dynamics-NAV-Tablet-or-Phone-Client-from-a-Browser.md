@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 1675e815-0674-41b5-93b2-2ed8912f1575
 caps.latest.revision: 16
 manager: edupont
@@ -46,7 +46,7 @@ You can open the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] or the [!INCL
 
     -   **TenantID** with the name of the tenant that you want to connect to. This parameter is only required when [!INCLUDE[navnow](includes/navnow_md.md)] is deployed in a multitenant architecture. The tenant that you specify must be mounted on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that the [!INCLUDE[nav_web](includes/nav_web_md.md)] connects to. For more information, see [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md).  
 
-    -   **CompanyName** with the name of the company in [!INCLUDE[navnow](includes/navnow_md.md)]. This parameter is optional and is only needed if you want to open a different company than the one specified in [My Settings](\($-N_9176-My-Settings-$\).md).  
+    -   **CompanyName** with the name of the company in [!INCLUDE[navnow](includes/navnow_md.md)]. This parameter is optional and is only needed if you want to open a different company than the one specified in **My Settings**.  
 
     -   **ID** with the ID that is assigned to the page or report in [!INCLUDE[navnow](includes/navnow_md.md)].  
 

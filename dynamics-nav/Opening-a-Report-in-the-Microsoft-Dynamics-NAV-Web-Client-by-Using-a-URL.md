@@ -1,12 +1,12 @@
 ---
 title: "Opening a Report in the Microsoft Dynamics NAV Web Client by Using a URL"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 12/22/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 2c2b3120-69ce-4c40-bf22-8e385fefd64f
 caps.latest.revision: 16
 manager: edupont
@@ -52,16 +52,16 @@ http://MyWebServer:8080/nav_server_instance/WebClient/default.aspx?report=5&comp
 |Notation|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |--------------|---------------------------------------|  
 |Text without brackets|Parameters that you must type as shown.|  
-|\<>|A placeholder for values that you must supply. Do not include the brackets in the address.|  
-|\[ \]|Optional parameters. Do not include the brackets in the address.|  
-|&#124;|A set of values from which to choose. Use one of the options and do not include `&#124;` in the address.|  
+|<>|A placeholder for values that you must supply. Do not include the brackets in the address.|  
+|[]|Optional parameters. Do not include the brackets in the address.|  
+|&#124;|A set of values from which to choose. Use one of the options and do not include &#124; in the address.|  
   
 ###  <a name="Building"></a> Building the Report Address  
  Use the following guidelines to write report URL syntax and create a URL:  
   
 -   Place parameters in any order after `.aspx?` because the order is not important. For example, `default.aspx?company=CRONUS%20International%20Ltd.&report=5` yields the same as `default.aspx? report=5&company=CRONUS%20International%20Ltd.`.  
   
--   Separate parameters after `aspx?` with the ampersand symbol \(`&`\).  
+-   Separate parameters after `aspx?` with the ampersand symbol (`&`).  
   
 -   Use `-` for any spaces in values and names.  
   
@@ -70,13 +70,13 @@ http://MyWebServer:8080/nav_server_instance/WebClient/default.aspx?report=5&comp
   
 |Parameter|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
 |---------------|---------------------------------------|  
-|`http&#124;https`|Specifies the Internet protocol to use. Valid options are `http` and `https`.<br /><br /> The `https` protocol helps secure the [!INCLUDE[navnow](includes/navnow_md.md)] data that is transmitted over the Internet. To use https, Secure Sockets Layer \(SSL\) must be enabled on the connection to [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md).|  
+|`http`&#124;`https`|Specifies the Internet protocol to use. Valid options are `http` and `https`.<br /><br /> The `https` protocol helps secure the [!INCLUDE[navnow](includes/navnow_md.md)] data that is transmitted over the Internet. To use https, Secure Sockets Layer \(SSL\) must be enabled on the connection to [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information, see [How to: Configure SSL to Secure the Connection to Microsoft Dynamics NAV Web Client](How-to--Configure-SSL-to-Secure-the-Connection-to-Microsoft-Dynamics-NAV-Web-Client.md).|  
 |`webserver`|Specifies the name of the computer that is running [!INCLUDE[nav_web](includes/nav_web_md.md)].|  
 |`port`|Specifies the server port on which the [!INCLUDE[nav_web](includes/nav_web_md.md)] is running. The default port is 8080.|  
-|`webserverinstance`|Specifies the name of the web server instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. On IIS, this is the alias of the virtual directory of the web server instance.<br /><br /> When you install the [!INCLUDE[nav_web](includes/nav_web_md.md)] using [!INCLUDE[navnow](includes/navnow_md.md)] Setup, the web server instance is given the same name as the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that it connects to. If you use the [T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVWebServerInstance](assetId:///T:Microsoft.Dynamics.Nav.Management.Cmdlets.New-NAVWebServerInstance) cmdlet to add [!INCLUDE[nav_web](includes/nav_web_md.md)] instances, then you specify the web server instance name. For more information, see [How to: Set Up Multiple Web Server Instances for the Microsoft Dynamics NAV Web Client](How-to--Set-Up-Multiple-Web-Server-Instances-for-the-Microsoft-Dynamics-NAV-Web-Client.md).|  
+|`webserverinstance`|Specifies the name of the web server instance for the [!INCLUDE[nav_web](includes/nav_web_md.md)]. On IIS, this is the alias of the virtual directory of the web server instance.<br /><br /> When you install the [!INCLUDE[nav_web](includes/nav_web_md.md)] using [!INCLUDE[navnow](includes/navnow_md.md)] Setup, the web server instance is given the same name as the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that it connects to. If you use the New-NAVWebServerInstance cmdlet to add [!INCLUDE[nav_web](includes/nav_web_md.md)] instances, then you specify the web server instance name. For more information, see [How to: Set Up Multiple Web Server Instances for the Microsoft Dynamics NAV Web Client](How-to--Set-Up-Multiple-Web-Server-Instances-for-the-Microsoft-Dynamics-NAV-Web-Client.md).|  
 |`default.aspx`|Specifies the name of the active server page \(.aspx\) file to use to display the report.|  
 |`ID`|The ID of the report in [!INCLUDE[navnow](includes/navnow_md.md)].|  
-|tenant|Specifies the ID of the tenant to connect to. You must provide this parameter when [!INCLUDE[navnow](includes/navnow_md.md)] is deployed in multitenant architecture. The tenant that you specify must be mounted on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that the [!INCLUDE[nav_web](includes/nav_web_md.md)] connects to. For more information, see [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md).|  
+|`tenant`|Specifies the ID of the tenant to connect to. You must provide this parameter when [!INCLUDE[navnow](includes/navnow_md.md)] is deployed in multitenant architecture. The tenant that you specify must be mounted on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that the [!INCLUDE[nav_web](includes/nav_web_md.md)] connects to. For more information, see [Multitenant Deployment Architecture](Multitenant-Deployment-Architecture.md).|  
 |`company`|The name of the company in [!INCLUDE[navnow](includes/navnow_md.md)] for which you want to display the page.<br /><br /> If you do not choose a company, then [!INCLUDE[nav_web](includes/nav_web_md.md)] uses the company that is defined in the web.config file. If no company is defined in the web.config file, then the last company opened by the user is displayed.|  
   
 ## See Also  

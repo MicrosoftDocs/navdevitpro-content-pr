@@ -8,29 +8,37 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.author: jswymer
 manager: edupont
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ---
 # Converting a Database
-If your current solution is based on [!INCLUDE[nav7long](includes/nav7long_md.md)], [!INCLUDE[navsicily](includes/navsicily_md.md)], or [!INCLUDE[navcrete](includes/navcrete_md.md)], you must convert the database to the [!INCLUDE[navcorfu](includes/navcorfu_md.md)] technical requirements as part of the data upgrade process to [!INCLUDE[navcorfu](includes/navcorfu_md.md)] and then upgrade the application and data later. In this topic, the [!INCLUDE[nav7long](includes/nav7long_md.md)], [!INCLUDE[navsicily](includes/navsicily_md.md)], or [!INCLUDE[navcrete](includes/navcrete_md.md)] databases are sometimes referred to as the old database.  
+This article describes how to convert a [!INCLUDE[navnow](includes/navnow_md.md)] database from one of the following versions to [!INCLUDE[nav2017](includes/nav2017.md)]: 
 
- Similarly, when you upgrade from one [!INCLUDE[navcorfu](includes/navcorfu_md.md)] cumulative update to the next cumulative update, you can be required to convert the database as described in task 2. This occurs when the cumulative update introduces changes to system tables. This type of database conversion is less complicated than the conversion from [!INCLUDE[nav7long](includes/nav7long_md.md)], [!INCLUDE[navsicily](includes/navsicily_md.md)], or [!INCLUDE[navcrete](includes/navcrete_md.md)] to [!INCLUDE[navcorfu](includes/navcorfu_md.md)].  
+-   [!INCLUDE[nav7long](includes/nav7long_md.md)]
+-   [!INCLUDE[navsicily](includes/navsicily_md.md)]
+-   [!INCLUDE[navcrete](includes/navcrete_md.md)]
+-   [!INCLUDE[navcorfu](includes/navcorfu_md.md)]
 
-> [!WARNING]  
->  You can choose to convert the old database and not upgrade your application. However, we recommend that you upgrade the application objects as well so that your solution includes important application fixes and new functionality that is introduced in [!INCLUDE[nav2017](includes/nav2017.md)]. Upgrading the application will also reduce the amount of merging required to upgrade to the next major version of [!INCLUDE[navnow](includes/navnow_md.md)], bringing you to the latest version of the product faster.  
+## About database conversion
+Converting a database, which is often referred to as a *technical upgrade*, changes the database so that it works on the new [!INCLUDE[nav2017](includes/nav2017.md)] platform. The conversion updates the system tables of the old database to the new schema (data structure), and upgrades of all reports to support Report Viewer 2012. It provides you with the latest platform features and performance enhancements.
+
+You typically convert a database, as described in this article, when you want to upgrade an existing [!INCLUDE[nav2017](includes/nav2017.md)] database to a new platform version that does not include application changes. A database conversion is typically what is required for a cummulative update. 
+
+Converting a database does not upgrade the application objects (like pages, reports, and codeunits) or the business data to [!INCLUDE[nav2017](includes/nav2017.md)]. So performing a database conversion alone is usually not sufficient when upgrading from an earlier version of [!INCLUDE[navnow](includes/navnow_md.md)] to [!INCLUDE[nav2017](includes/nav2017.md)] or when upgrading an existing [!INCLUDE[nav2017](includes/nav2017.md)] installation to new platform and application versions. For these upgrade scenarios, you should perform a full upgrade by completing the tasks [Upgrading the Application Code](Upgrading-the-Application-Code.md) and [Upgrading the Data](Upgrading-the-Data.md), which will also cover the database conversion. You can choose to convert the old database and not upgrade your application. However, we recommend that you upgrade the application objects as well so that your solution includes important application fixes and new functionality that is introduced in [!INCLUDE[nav2017](includes/nav2017.md)]. Upgrading the application will also reduce the amount of merging required to upgrade to the next major version of [!INCLUDE[navnow](includes/navnow_md.md)], bringing you to the latest version of the product faster.  
 
 > [!IMPORTANT]  
 >  Before you start, make sure that you have applied the changes that are described in KB 2804640 [Code corrections for some Microsoft Dynamics NAV 2013 reports to prevent compilation errors with Report Viewer 2012 when upgrading to later versions of Microsoft Dynamics NAV](https://mbs.microsoft.com/knowledgebase/KBDisplay.aspx?scid=kb;EN-US;2804640).  
 
- To convert the old database to a [!INCLUDE[navcorfu](includes/navcorfu_md.md)] database, complete tasks 1 and 2. To convert the database from one cumulative update of [!INCLUDE[navcorfu](includes/navcorfu_md.md)] to the next cumulative update, complete task 2.  
-
 ## Task 1: Preparing the Old Database  
- The first task is to back up the old database and then prepare to convert it.  
+To convert the old database to a [!INCLUDE[nav2017](includes/nav2017.md)] database, the first task is to back up the old database and then prepare to convert it.
+
+> [!NOTE]  
+>  Do not perform this task if you are converting the database from one cumulative update of [!INCLUDE[nav2017](includes/nav2017.md)] to the next cumulative update. In this case, you only have to complete task 2.
 
 #### To prepare the old database  
 
 1.  Make a copy of the old database or create full database backup.  
 
-     For more information, see [Create a Full Database Backup \(SQL Server\)](http://go.microsoft.com/fwlink/?LinkID=296465){:target="_blank"}.  
+     For more information, see [Create a Full Database Backup \(SQL Server\)](http://go.microsoft.com/fwlink/?LinkID=296465).  
 
 2.  Clear all [!INCLUDE[nav_server](includes/nav_server_md.md)] instance records from the **dbo.Server Instance** table in the database on SQL Server.  
 
@@ -150,5 +158,5 @@ Next, you will convert the old database so that it can be used in [!INCLUDE[nav2
 ## See Also  
  [Upgrading the Application Code](Upgrading-the-Application-Code.md)   
  [Upgrading the Data](Upgrading-the-Data.md)   
- [Upgrading to Microsoft Dynamics NAV 2016](Upgrading-to-Microsoft-Dynamics-NAV-2016.md)   
+ [Upgrading to Microsoft Dynamics NAV 2017](Upgrading-to-Microsoft-Dynamics-NAV-2017.md)   
  [Automating the Upgrade Process using Sample Windows PowerShell Scripts](Automating-the-Upgrade-Process-using-Sample-Windows-PowerShell-Scripts.md)

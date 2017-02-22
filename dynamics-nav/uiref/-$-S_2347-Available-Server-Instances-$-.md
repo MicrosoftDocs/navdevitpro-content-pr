@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 601f93dd-6ed0-4e61-a949-72b595a40cd7
 caps.latest.revision: 15
 manager: edupont
@@ -16,7 +16,7 @@ Shows the available [!INCLUDE[nav_server](../includes/nav_server_md.md)] instanc
 
  To open this window, on the **File** menu, choose **Database**, and then choose **Information** to open the **Database Information** window. On the **General** tab, choose the **Down Arrow** button in the **Server Instance** field.  
 
- The available [!INCLUDE[nav_server](../includes/nav_server_md.md)] instances are stored in table 2000000112, the **\($ T\_2000000112 Server Instance $\)** table. For more information, see [\($ T\_2000000112 Server Instance $\)](../($-T_2000000112-Server-Instance-$\).md).  
+ The available [!INCLUDE[nav_server](../includes/nav_server_md.md)] instances are stored in table **2000000112 Server Instance**.  
 
 ## See Also  
  [Database Information](-$-S_2349-Database-Information-$-.md)   

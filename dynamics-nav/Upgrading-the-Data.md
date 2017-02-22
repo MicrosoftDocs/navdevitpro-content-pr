@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.author: jswymer
 manager: edupont
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ---
 # Upgrading the Data to Dynamics
 This topic describes the tasks required for upgrading a [!INCLUDE[nav7long](includes/nav7long_md.md)], [!INCLUDE[navsicily](includes/navsicily_md.md)], [!INCLUDE[navcrete](includes/navcrete_md.md)], or [!INCLUDE[navcorfu](includes/navcorfu_md.md)] database to [!INCLUDE[nav2017](includes/nav2017.md)].  
@@ -56,7 +56,7 @@ Before you gein the upgrade tasks, make sure you meet the following prerequisite
     ```
 -   \(Optional\) If the old [!INCLUDE[navnow](includes/navnow_md.md)] application uses data encryption, export the encryption key file that it used for the data encryption.  
 
-    For more information, see [How to: Export and Import Encryption Keys](How-to--Export-and-Import-Encryption-Keys.md).  
+    For more information, see [How to: Export and Import Encryption Keys](how-to-export-and-import-encryption-keys.md).  
 
 -   \(Optional\) If the old Microsoft Dynamics NAV application uses Payment Services for Microsoft Dynamics ERP, note that this is discontinued in [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)].
 
@@ -202,4 +202,4 @@ To use these add-ins, they must be registered in table **2000000069 Client Add-i
  [Upgrading the Application Code](Upgrading-the-Application-Code.md)   
  [Automating the Upgrade Process using Sample Windows PowerShell Scripts](Automating-the-Upgrade-Process-using-Sample-Windows-PowerShell-Scripts.md)   
  [Synchronizing Table Schemas](Synchronizing-Table-Schemas.md)   
- [Upgrading to Microsoft Dynamics NAV 2016](Upgrading-to-Microsoft-Dynamics-NAV-2016.md)
+ [Upgrading to Microsoft Dynamics NAV 2017](Upgrading-to-Microsoft-Dynamics-NAV-2017.md)

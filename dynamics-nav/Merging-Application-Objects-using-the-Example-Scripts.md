@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 8a8c8a05-5876-489f-9ecc-5922fbb23185
 caps.latest.revision: 4
 ---
@@ -30,7 +30,7 @@ Get-Help "NAV"
   
  Now you can see the Help for the cmdlets and take a closer look at the examples for how to use them.  
   
- The **ApplicationMergeUtilities** folder contains four subfolders that can help you start working with the scripts. The demonstration data in the ORIGINAL, MODIFIED, and TARGET folders illustrate the text files that are the input to the cmdlets. The demonstration data uses separate text files for each application object, but you can configure the text files in the way that works better for you. For example, you can use the [T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Join-NAVApplicationObjectFile](assetId:///T:Microsoft.Dynamics.Nav.Model.Tools.Cmdlets.Join-NAVApplicationObjectFile) cmdlet to combine all the text files in the MODIFIED folder in a single file, for example, before you run the script.  
+ The **ApplicationMergeUtilities** folder contains four subfolders that can help you start working with the scripts. The demonstration data in the ORIGINAL, MODIFIED, and TARGET folders illustrate the text files that are the input to the cmdlets. The demonstration data uses separate text files for each application object, but you can configure the text files in the way that works better for you. For example, you can use the Join-NAVApplicationObjectFile cmdlet to combine all the text files in the MODIFIED folder in a single file, for example, before you run the script.  
   
  The HowTo-Start-Import-NAV-Module.ps1 script imports the Microsoft.Dynamics.Nav.Model.Tools.psd1 module into the [!INCLUDE[wps_2](includes/wps_2_md.md)] ISE. The \_\_Run-Application-Merge-Utilities.ps1 and \_\_Reset-HowTo-Sample.ps1 scripts enable you to run the sample scripts repeatedly.  
   

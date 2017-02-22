@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 2e01ac2b-e6e4-4d93-8495-0fc7739d3173
 caps.latest.revision: 8
 manager: edupont
@@ -25,8 +25,7 @@ A user may want to limit calculations to include only those values in a column t
  FlowFilter fields are not saved in the database. Instead, they are stored for each window on an individual computer so users have their own filters.  
   
  You cannot have a FlowFilter field as the **SourceExpr** value for a control on a page. If you do, then the control on the page is not editable, and you cannot select a value and filter the data that is displayed in the page.  
-  
- To enable filtering data on a page, you can add a Filter pane to the page and use limit totals. For more information, see the Page Controls and Parts section of [Touring the RoleTailored Client Pages](Touring-the-RoleTailored-Client-Pages.md).  
+   
   
 ## See Also  
- [FlowFields](FlowFields.md)
+ [FEntering Criteria in Filters](Entering-Criteria-in-Filters.md)

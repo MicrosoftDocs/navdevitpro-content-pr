@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: fd529da0-fd56-4b8f-9c1c-345a9a2dd9ab
 caps.latest.revision: 2
 ---
@@ -22,7 +22,7 @@ When you try start debugger from the [!INCLUDE[nav_dev_long](includes/nav_dev_lo
   
  **HKEY\_CLASSES\_ROOT\\DYNAMICSNAV\\Shell\\Open\\Command**  
   
- To work around this issue, before you start debugger, change the data value of the registry key entry to the path of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] that you want to use for debugging. For example, to start the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] version of the the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], set the value to [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\Microsoft.Dynamics.Nav.Client.exe -protocolhandler "%1".  
+ To work around this issue, before you start debugger, change the data value of the registry key entry to the path of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] that you want to use for debugging. For example, to start the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] version of the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], set the value to [!INCLUDE[navnow_x86install](includes/navnow_x86install_md.md)]\\Microsoft.Dynamics.Nav.Client.exe -protocolhandler "%1".  
   
 ## See Also  
  [Debugging](Debugging.md)   

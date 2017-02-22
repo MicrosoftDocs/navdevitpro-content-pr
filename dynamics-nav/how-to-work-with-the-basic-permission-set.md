@@ -8,7 +8,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 7cb71f04-d703-44c4-8f39-6b8d99c2d649
 ---
 # How to: Work with the BASIC Permission Set
@@ -53,7 +53,7 @@ When a user creates a new database, that user is assigned only one permission se
 
 9. On the **Home** tab, in the **Process** group, choose **Apply Package**.  
 
- You can also modify permission sets directly in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information, see [How to: Create or Modify Permission Sets](How-to--Create-or-Modify-Permission-Sets.md). In addition, if you are upgrading from an earlier version of [!INCLUDE[navnow](includes/navnow_md.md)], you can upgrade permissions and roles as part of the upgrade process. For more information, see [Upgrading Data Common to All Companies](Upgrading-Data-Common-to-All-Companies.md).  
+ You can also modify permission sets directly in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. For more information, see [How to: Create or Modify Permission Sets](How-to--Create-or-Modify-Permission-Sets.md). In addition, if you are upgrading from an earlier version of [!INCLUDE[navnow](includes/navnow_md.md)], you can upgrade permissions and roles as part of the upgrade process. For more information, see [Upgrading the Data](Upgrading-the-Data.md).  
 
 > [!NOTE]  
 >  Depending on the setting in the **UI Elements Removal** field in the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], only UI elements that the user has permissions for will appear in the user interface. For more information, see [How to: Specify When UI Elements Are Removed](How-to--Specify-When-UI-Elements-Are-Removed.md).  

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: e79b25b8-4582-450b-93e0-5ec01110e9fc
 caps.latest.revision: 3
 ---
@@ -29,7 +29,6 @@ Specifies how the report opens when you preview it.
  Regardless of your choice, users can change the display mode in the **Print Preview** window. For example, if you choose the default mode, users can choose the **Print Layout** button. However, if the C/AL code for the report uses the PREVIEW function to disable printing from the preview, then users cannot change the display mode to print layout.  
 
 ## See Also  
- [Print Preview](\($-S_7109-Print-Preview-$\).md)   
  [Report Design Overview](Report-Design-Overview.md)   
  [Designing Reports](Designing-Reports.md)   
  [Printing Reports](Printing-Reports.md)   

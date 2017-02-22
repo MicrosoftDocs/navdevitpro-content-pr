@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: d10fca47-106f-4f6d-be2e-37cbdae201ee
 caps.latest.revision: 10
 manager: edupont
@@ -29,7 +29,7 @@ The [!INCLUDE[nav_web](includes/nav_web_md.md)] gives users access to [!INCLUDE[
 ## Administering Users of Microsoft Dynamics NAV Web Client  
  Like the [!INCLUDE[nav_web](includes/nav_web_md.md)], you control access to the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[navnow](includes/navnow_md.md)] data by creating user accounts, permission sets, and profiles. You do not have to set up separate user accounts for the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. The permissions that are granted to a specific user account apply to all [!INCLUDE[rtc](includes/rtc_md.md)]s.  
 
- For more information about how to manage users of the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [Administration in the Clients](Administration-in-the-Clients.md).  
+ For more information about how to manage users of the [!INCLUDE[nav_web](includes/nav_web_md.md)], see [Managing Users](Managing-Users.md).  
 
 ## See Also  
  [Feature Limitations of the Microsoft Dynamics NAV Web Client](Feature-Limitations-of-the-Microsoft-Dynamics-NAV-Web-Client.md)   

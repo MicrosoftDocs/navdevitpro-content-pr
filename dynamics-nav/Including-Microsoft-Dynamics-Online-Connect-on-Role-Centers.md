@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: c681174e-8cf3-49f1-8ac5-cc4b37322bf4
 caps.latest.revision: 20
 manager: edupont
@@ -22,7 +22,7 @@ manager: edupont
  The following table lists the Role Center profiles that are supported by Connect and the Role Centers that use the profiles by default when you install the [!INCLUDE[navnow](includes/navnow_md.md)] demo database.  
   
 > [!NOTE]  
->  Whether the Connect part is visible on a Role Center is specified by the [Visible Property-duplicate](Visible-Property-duplicate.md) of the Role Center page.  
+>  Whether the Connect part is visible on a Role Center is specified by the [Visible Property](Visible-Property.md) of the Role Center page.  
   
 |Role Center ID|Profile ID|Visible by default|  
 |--------------------|----------------|------------------------|  

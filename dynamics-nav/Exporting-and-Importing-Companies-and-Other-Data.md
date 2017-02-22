@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 5e56d72d-3b98-4f9c-b8ac-1617ed363d3e
 caps.latest.revision: 13
 ---
@@ -29,7 +29,7 @@ You can export a company from a [!INCLUDE[navnow](includes/navnow_md.md)] databa
  This means that you must import a company into a database that is based on the same application as in the database that the company was exported from.  
   
 > [!IMPORTANT]  
->  If you export companies and other data that is secured by data encryption, then remember to also export the encryption key so that you can access the data after you import it into another database, for example when you restore a backup. For more information, see [Manage Data Encryption](Manage-Data-Encryption.md).  
+>  If you export companies and other data that is secured by data encryption, then remember to also export the encryption key so that you can access the data after you import it into another database, for example when you restore a backup. For more information, see <!-- [Manage Data Encryption](Manage-Data-Encryption.md). --> [Manage Data Encryption](https://msdn.microsoft.com/en-us/library/dn757244.aspx)
   
 ### What to Export  
  You can export specific sets of data, such as a company or other data. The following table describes what is exported depending on your choices.  

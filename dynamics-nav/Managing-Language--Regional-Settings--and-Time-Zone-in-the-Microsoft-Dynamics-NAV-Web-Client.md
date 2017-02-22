@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 4f022e27-6073-4b86-a836-eb0aa80fc877
 caps.latest.revision: 10
 ---
@@ -25,8 +25,6 @@ This topic describes how to set the language, regional settings, and time zone f
  You change the language, the region, and the time zone in the [!INCLUDE[nav_web](includes/nav_web_md.md)] by using the **My Settings** page located in the upper right corner under the user name that you are signed in with. The regional settings determine the format of data such as dates, times, numbers, currency, and so on. The time zone specifies the time zone that is applied to date and time data that a user views or enters in the [!INCLUDE[nav_web](includes/nav_web_md.md)]. You need to sign out and sign in again for the change to take effect.  
   
 ## See Also  
- [My Settings](\($-N_9176-My-Settings-$\).md)   
  [How to: Install the Web Server Components](How-to--Install-the-Web-Server-Components.md)   
- [Language Modules](Language-Modules.md)   
- [Selecting a Language](Selecting-a-Language.md)   
+ [Language Modules](Language-Modules.md)  
  [How to: Change the Language in the User Interface](How-to--Change-the-Language-in-the-User-Interface.md)

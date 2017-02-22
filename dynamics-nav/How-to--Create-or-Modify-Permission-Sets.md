@@ -8,7 +8,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: e5b80343-d193-467f-8259-d6090cffcd76
 caps.latest.revision: 23
 ---
@@ -95,8 +95,8 @@ If the default permission sets that are provided with [!INCLUDE[navnow](includes
  [About Permissions](About-Permissions.md)   
  [How to: Work with the BASIC Permission Set](how-to-work-with-the-basic-permission-set.md)   
  [Object-Level Security](Object-Level-Security.md)   
- [User Groups](User-Groups.md)   
- [Customize the User Interface](Customize-the-User-Interface.md)   
+ <!-- [User Groups](User-Groups.md) -->   
+ [Profiles and Role Centers](Profiles-and-Role-Centers.md)   
  [How to: Try Out the UI Elements Removal Feature Based on Demonstration Permission Sets](How-to--Try-Out-the-UI-Elements-Removal-Feature-Based-on-Demonstration-Permission-Sets.md)   
  [Removing Elements from the User Interface According to Permissions](Removing-Elements-from-the-User-Interface-According-to-Permissions.md)   
  [How to: Specify When UI Elements Are Removed](How-to--Specify-When-UI-Elements-Are-Removed.md)   

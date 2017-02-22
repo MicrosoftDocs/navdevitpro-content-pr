@@ -1,15 +1,15 @@
 ---
 title: "How to: Configure a Deployment for ACS"
+author: jswymer
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: e863d17a-0bab-48e9-bf64-f21b8b74f19e
-caps.latest.revision: 6
-manager: tsiggaar
+ms.author: jswymer
 ---
 # How to: Configure a Deployment for ACS
 To configure your [!INCLUDE[navnow](includes/navnow_md.md)] deployment to use Microsoft Azure Access Control service \(ACS\) authentication requires the following series of configuration procedures in the Azure management portal:  
@@ -123,5 +123,5 @@ To configure your [!INCLUDE[navnow](includes/navnow_md.md)] deployment to use Mi
      You will need these values for the next stage in the ACS configuration process, which is configuring your [!INCLUDE[navnow](includes/navnow_md.md)] components for ACS.  
 
 ## See Also  
- [Configure Microsoft Dynamics NAV Components for ACS](Configure-Microsoft-Dynamics-NAV-Components-for-ACS.md)   
- [How to: Set up Microsoft Dynamics NAV for Single Sign-on With Office 365 using Windows PowerShell](How-to--Set-up-Microsoft-Dynamics-NAV-for-Single-Sign-on-With-Office-365-using-Windows-PowerShell.md)
+[Configure Microsoft Dynamics NAV Components for ACS](Configure-Microsoft-Dynamics-NAV-Components-for-ACS.md)  
+[How to: Set up Microsoft Dynamics NAV for Single Sign-on With Office 365 using Windows PowerShell](How-to--Set-up-Microsoft-Dynamics-NAV-for-Single-Sign-on-With-Office-365-using-Windows-PowerShell.md)  

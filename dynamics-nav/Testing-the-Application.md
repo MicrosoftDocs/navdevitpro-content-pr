@@ -1,12 +1,12 @@
 ---
 title: "Testing the Application"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 01/19/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 7f7961ce-7256-43e9-9dc5-7fd93e65ee3a
 caps.latest.revision: 32
 manager: edupont
@@ -17,15 +17,15 @@ Before you release your [!INCLUDE[navnow](includes/navnow_md.md)] application, y
 ## Test Features  
  [!INCLUDE[navnowlong](includes/navnowlong_md.md)] includes the following features to help you test your application:  
 
--   Test codeunits.  
+-   Test codeunits  
 
--   Test runner codeunits.  
+-   Test runner codeunits  
 
--   Test pages.  
+-   Test pages  
 
--   UI handlers.  
+-   UI handlers  
 
--   ASSERTERROR statement.  
+-   ASSERTERROR statement  
 
 -   Test with permission sets
 
@@ -38,11 +38,11 @@ Before you release your [!INCLUDE[navnow](includes/navnow_md.md)] application, y
 
  The functions in a test codeunit are one of the following types:  
 
--   Test function.  
+-   Test function  
 
--   Handler function.  
+-   Handler function  
 
--   Normal function.  
+-   Normal function  
 
  For more information, see [How to: Create Test Codeunits and Test Functions](How-to--Create-Test-Codeunits-and-Test-Functions.md).  
 

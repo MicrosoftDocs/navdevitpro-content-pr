@@ -6,9 +6,10 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 270d2955-8330-466e-b7d3-46eb0901d42d
 caps.latest.revision: 4
+author: jswymer
 ---
 # MEDIAID Function (MediaSet)
 Gets the unique identifier that is assigned to a MediaSet of a record. The MediaSet is a collection of media objects that are used on the record that can be displayed in the client.  
@@ -61,6 +62,7 @@ item.GET('1000');
 ```  
 
 ## See Also  
-[Working With Media on Records](Working-With-Media-on-Records.md)   [IMPORTFILE Function \(MediaSet\)](IMPORTFILE-Function--MediaSet-.md)   
- [IMPORTSTREAM Function \(MediaSet\)](IMPORTSTREAM-Function--MediaSet-.md)   
- [MediaSet Data Type](MediaSet-Data-Type.md)
+[Working With Media on Records](Working-With-Media-on-Records.md)  
+[IMPORTFILE Function \(MediaSet\)](IMPORTFILE-Function--MediaSet-.md)   
+[IMPORTSTREAM Function \(MediaSet\)](IMPORTSTREAM-Function--MediaSet-.md)   
+[MediaSet Data Type](MediaSet-Data-Type.md)

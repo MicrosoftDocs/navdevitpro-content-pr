@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 5e093f0e-7e9c-4bb0-af90-ec8dc9ea5595
 caps.latest.revision: 8
 manager: edupont
@@ -20,7 +20,7 @@ Sorts rows in the resulting dataset of a query in ascending or descending order 
 ## Property Value  
  *Column*=**Ascending**&#124;**Descending**  
   
--   *Column* is the name of the query column as specified by its [Name Property](Name-Property-duplicate.md).  
+-   *Column* is the name of the query column as specified by its [Name Property](Name-Property.md).  
   
 -   **Ascending** sorts the column from lowest value to the highest value \(A to Z, 0 to 9\).  
   

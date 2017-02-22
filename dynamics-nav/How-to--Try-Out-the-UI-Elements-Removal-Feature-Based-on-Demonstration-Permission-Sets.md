@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: c649c320-5c76-436d-8c91-317e4f81caa6
 caps.latest.revision: 8
 ---
@@ -20,7 +20,7 @@ Depending on the setting in the **UI Elements Removal** field in the [!INCLUDE[n
 
 ### Prepare a permissions-based ORDER PROCESSOR UI that only shows UI elements for creating and editing a customer  
 
-1.  Create a test user who has the ORDER PROCESSOR profile. For more information, see [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md) and [How to: Assign Users to Profiles](How-to--Assign-Users-to-Profiles.md).  
+1.  Create a test user who has the ORDER PROCESSOR profile. For more information, see [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md) and [Managing Users](Managing-Users.md).  
 
 2.  Assign the FOUNDATION permission set. For more information, see [How to: Define Permissions for Users](How-to--Define-Permissions-for-Users.md).  
 

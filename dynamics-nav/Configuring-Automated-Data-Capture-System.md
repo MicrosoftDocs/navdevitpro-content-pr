@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 9516b1e6-fc36-4b4e-9918-4250cf09c95d
 caps.latest.revision: 24
 manager: edupont
@@ -34,4 +34,4 @@ The Automated Data Capture System \(ADCS\) is a [!INCLUDE[navnow](includes/navno
  [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md)   
  [How to: Enable Web Services for ADCS](How-to--Enable-Web-Services-for-ADCS.md)   
  [How to: Create a Microsoft Dynamics NAV Server Instance](How-to--Create-a-Microsoft-Dynamics-NAV-Server-Instance.md)   
- [Use Automated Data Capture Systems \(ADCS\)](Use-Automated-Data-Capture-Systems-\(ADCS\).md)
+ [Use Automated Data Capture Systems (ADCS)](Automated-Data-Capture-System.md)

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: ddde23c8-cc94-4b5b-a5d7-83595ea4943a
 caps.latest.revision: 2
 manager: edupont
@@ -29,8 +29,8 @@ Specifies the name of the original table in the external database.
 ## See Also  
  [TableType Property](TableType-Property.md)   
  [ExternalSchema Property](ExternalSchema-Property.md)   
- [Name Property](Name-Property-duplicate.md)   
+ [Name Property](Name-Property.md)   
  [Properties](Properties.md)   
  [Table Designer](uiref/-$-S_2102-Table-Designer-$-.md)   
  [External Tables](External-Tables.md)   
- [Integrating Microsoft Dynamics CRM in Microsoft Dynamics NAV](Integrating-Microsoft-Dynamics-CRM-in-Microsoft-Dynamics-NAV.md)
+ [Customizing Dynamics CRM and Dynamics NAV Integration](Customizing-Dynamics-CRM-and-Dynamics-NAV-Integration.md)

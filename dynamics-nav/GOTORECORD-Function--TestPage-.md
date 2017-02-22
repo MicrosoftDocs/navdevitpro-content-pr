@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms-prod: "dynamics-nav-2017"
+ms.prod: "dynamics-nav-2017"
 ms.assetid: 8015dfd8-1584-455e-82fb-de6f2560a094
 caps.latest.revision: 3
 manager: edupont
@@ -35,6 +35,9 @@ Finds the specified record in a dataset on a test page.
  Type: Boolean  
   
  **true** if the specified record is found; otherwise, **false**. The return value is optional.  
-  
+
+## Remarks
+The GOTORECORD function loops over all records until it finds the identifies record.  For each record, the [OnAfterGetCurrentRecord trigger](OnAfterGetCurrRecord-Trigger.md) is executed.  
+
 ## See Also  
  [TestPage Functions](TestPage-Functions.md)
