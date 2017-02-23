@@ -157,7 +157,7 @@ In this walkthrough, you will install the tiers of [!INCLUDE[nav_web](includes/n
 
 2.  In the address box, type the following URL:  
 
-     **http://ComputerName:PortNumber/DynamicsNAV90/WebClient/Default.aspx**  
+     **http://ComputerName:PortNumber/DynamicsNAV100/WebClient/Default.aspx**  
 
     -   Substitute **ComputerName** with the name of the computer that is running the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)]. If you are working on the computer where you installed [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)], then you can use **localhost**.  
 
@@ -167,7 +167,7 @@ In this walkthrough, you will install the tiers of [!INCLUDE[nav_web](includes/n
 
      For example, if the [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] is installed on port 8080 and the computer has the name NavWeb, then you can use the following URL:  
 
-     **http://NavWeb:8080/DynamicsNAV90/WebClient/Default.aspx**  
+     **http://NavWeb:8080/DynamicsNAV100/WebClient/Default.aspx**  
 
 ### Troubleshooting  
  If you are cannot connect the [!INCLUDE[nav_web](includes/nav_web_md.md)] or you are experiencing problems, see [Troubleshooting the Microsoft Dynamics NAV Web Client Installation](Troubleshooting-the-Microsoft-Dynamics-NAV-Web-Client-Installation.md).  
