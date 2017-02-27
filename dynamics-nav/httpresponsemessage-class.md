@@ -16,7 +16,7 @@ author: solsen
 
 # HttpResponseMessage Class
 
-The following methods are available on the HttpResponseMessage class.
+The following methods are available on the **HttpResponseMessage** class.
 
 |Method name|Description|
 |-----------|-----------|
@@ -30,3 +30,5 @@ The following methods are available on the HttpResponseMessage class.
 ## Remarks
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

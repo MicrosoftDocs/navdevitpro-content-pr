@@ -16,7 +16,7 @@ author: solsen
 
 # HttpRequestMessage Class
 
-The following methods are available on the HttpRequestMessage class.
+The following methods are available on the **HttpRequestMessage** class.
 
 |Method name|Description|
 |-----------|-----------|
@@ -30,3 +30,5 @@ The following methods are available on the HttpRequestMessage class.
 ## Remarks
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

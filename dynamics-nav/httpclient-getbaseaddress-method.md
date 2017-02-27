@@ -17,7 +17,8 @@ author: solsen
 # GetBaseAddress Method
 Gets the base address of Uniform Resource Identifier (URI) of the Internet resource used when sending requests.
 
-
 ## Remarks
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)
