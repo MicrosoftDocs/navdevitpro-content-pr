@@ -17,7 +17,7 @@ author: solsen
 # HttpHeaders Class
 The HttpHeaders...
 
-The following methods are available on the HttpHeaders class.
+The following methods are available on the **HttpHeaders** class.
 
 |Method name|Description|
 |-----------|-----------|
@@ -31,3 +31,5 @@ The following methods are available on the HttpHeaders class.
 
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

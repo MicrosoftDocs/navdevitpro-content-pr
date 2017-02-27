@@ -35,3 +35,5 @@ Type: Boolean
 **true** if the operation was successful; otherwise, **false**. 
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)
