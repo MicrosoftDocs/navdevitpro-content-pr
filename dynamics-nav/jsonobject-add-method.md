@@ -11,7 +11,7 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: 620f0e32-eadc-43e9-8f6e-8fc0b12c3aaf
 caps.latest.revision: 9
 manager: edupont
-author: solsen
+author: SusanneWindfeldPedersen
 ---
 
 Adds a new property to a JsonObject.
