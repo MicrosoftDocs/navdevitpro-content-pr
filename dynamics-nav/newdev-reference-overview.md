@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
-ms.author: solsen
+ms.author: SusanneWindfeldPedersen
 caps.latest.revision: 18
 ---
 
@@ -35,6 +35,20 @@ This section describes all of the objects that are available with [!INCLUDE[navn
 |To |See |
 |---|----|
 |Learn about writing codeunits for your extension.|[Codeunit Object](newdev-codeunit-object.md)|
+
+## REST API
+|Class|
+|-----|
+|[HttpClient](httpclient-class.md)|
+|[HttpContent](httpcontent-class-md)|
+|[HttpHeaders](httpheaders-class.md)|
+|[HttpRequestMessage](httprequestmessage-class.md)|
+|[HttpReponseMessage](httpresponsemessage-class.md)|
+|[JsonAray](jsonarray-class.md)|
+|[JsonObject](jsonobject-class.md)|
+|[JsonToken](jsontoken-class.md)|
+|[JsonValue](jsonvalue-class.md)|
+
 
 ## See Also
 [Getting Started](newdev-get-started.md)  
