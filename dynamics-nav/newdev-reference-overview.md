@@ -40,7 +40,7 @@ This section describes all of the objects that are available with [!INCLUDE[navn
 |Class|
 |-----|
 |[HttpClient](httpclient-class.md)|
-|[HttpContent](httpcontent-class-md)|
+|[HttpContent](httpcontent-class.md)|
 |[HttpHeaders](httpheaders-class.md)|
 |[HttpRequestMessage](httprequestmessage-class.md)|
 |[HttpReponseMessage](httpresponsemessage-class.md)|
