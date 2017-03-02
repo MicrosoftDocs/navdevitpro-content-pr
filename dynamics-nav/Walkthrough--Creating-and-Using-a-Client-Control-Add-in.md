@@ -9,7 +9,7 @@ ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
 ms.assetid: 758fd34e-e77d-4d35-bea9-7dcef8f7ea40
-ms.author: solsen
+ms.author: SusanneWindfeldPedersen
 caps.latest.revision: 27
 ---
 # Walkthrough: Creating and Using a Client Control Add-in
