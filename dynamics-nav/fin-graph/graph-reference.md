@@ -29,6 +29,4 @@ In this section, you can find API documentation for Microsoft Graph.
 |complex types JSON|[Complex Types JSON](complex-types.md)|
 
 ## See Also
-[Working With Financials](../financials/ui-work-product.md)  
-[Setting Up Financials](../financials/setup.md)  
-[Customizing Financials Using Extensions](../financials/ui-extensions.md)  
+
