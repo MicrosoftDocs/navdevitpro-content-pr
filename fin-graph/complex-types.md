@@ -51,12 +51,11 @@ ms.author: solsen
  
 "PostalAddress" 
 { 
-"line1": "String", 
-"line2": "String", 
+"street": "String",
 "city": "String", 
 "state": "String", 
-"countryCode": "String", 
-"postCode": "String" 
+"countryLetterCode": "String", 
+"postalCode": "String" 
 } 
  
 "ShipmentMethod" 
