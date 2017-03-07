@@ -20,28 +20,31 @@ ms.author: solsen
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-||||
+|GET Sales Invoice Line|Sales Invoice Line|Get Sales Invoice Line object|
+|POST Sales Invoice Line|Sales Invoice Line|Create Sales Invoice Line object|
+|PATCH Sales Invoice Line|Sales Invoice Line|Update Sales Invoice Line object|
+|DELETE Sales Invoice Line|none|Delete Sales Invoice Line object|
 
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|sequence|||
-|itemDisplayName||Specifies a name of the entry.|
-|itemDescription||Specifies a description of the entry, which is based on the contents of the Type and No. fields.|
-|quantity||Specifies how many units are being sold.|
-|unitPrice||Specifies the price for one unit on the sales line.|
-|discountAmount||Specifies the net amount, excluding any invoice discount amount, that must be paid for products on the line.|
-|discountPercent||Specifies the discount percentage that is granted for the item on the line.|
-|discountAppliedBeforeTax|Specifies the total discount applied before tax.|
-|lineAmount|||
-|expectedShipDate||Specifies the date the items on the sales document are expected to ship.|
-|totalTaxAmount||Specifies the sum of tax amounts on all lines in the document|
-|amountExcludingTax|||
-|amountIncludingTax||Specifies the sum of the amounts in the Amount Including Tax fields on the associated sales lines.|
-|itemNumber|||
-|taxPercentage|||
-|itemId|||
-|expectedShipDates|||
+|Document_Id|GUID|The id of the parent invoice.|
+|Line_No|numeric|The line sequence number.|
+|itemId|GUID|The id of the item in the invoice line.|
+|itemNumber|string|The number of the item in the invoice line.|
+|itemDisplayName|string|The display name of the item in the invoice line.|
+|itemDescription|string|A description of the item in the invoice line.|
+|quantity|numeric|The quantity of the item in the invoice line.|
+|unitPrice|numeric|The unit price of each individual item in the invoice line.|
+|discountAmount|numeric|The line discount amount.|
+|discountPercent|numeric|The line discount percent.|
+|discountAppliedBeforeTax|boolean|Specified if the discount is applied before tax.|
+|amountExcludingTax|numeric|The line amount excluding the tax.|
+|taxCode|string|The tax code for the line.|
+|taxPercent|numeric|The tax percent for the line.|
+|totalTaxAmount|numeric|The total tax amount for the line.|
+|amountIncludingTax|numeric|The total amount for the line including tax.|
+|expectedShipDate|date|The date the item in the line is expected to ship.|
 
 ## Relationships
 None
@@ -52,9 +55,27 @@ Here is a JSON representation of the resource.
 
 
 ```json
-{
-  
-}
+  "value": [
+      {
+      "Document_Id": "GUID",
+      "Line_No": decimal,
+      "itemId": "GUID",
+      "itemNumber": "String",
+      "itemDisplayName": "String",
+      "itemDescription": "",
+      "quantity": decimal,
+      "unitPrice": decimal,
+      "discountAmount": 0,
+      "discountPercent": 0,
+      "discountAppliedBeforeTax": false,
+      "amountExcludingTax": decimal,
+      "taxCode": "String",
+      "taxPercent": decimal,
+      "totalTaxAmount": decimal,
+      "amountIncludingTax": decimal,
+      "expectedShipDate": "Date"
+      }
+]
 
 ```
 
