@@ -16,7 +16,7 @@ This topic describes the tasks required for upgrading a [!INCLUDE[nav7long](incl
  You use data conversion tools provided with [!INCLUDE[nav2017](includes/nav2017.md)] to convert the old data with the old version’s table and field structure, so that it functions together with the new version’s table and field structure.  
 
 ##  <a name="Prereqs"></a> Prerequisites  
-Before you gein the upgrade tasks, make sure you meet the following prerequisites:
+Before you start the upgrade tasks, make sure you meet the following prerequisites:
 -   Your computer uses the same codepage as the data that will be upgraded.
 
     If you use conflicting codepages, some characters will not display in captions, and you might not be able to access the upgraded database. This is because [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)]  must remove incorrect metadata characters to complete the data upgrade. In this case, after upgrade, you must open the database in the development environment on a computer with the relevant codepage and compile all objects. This adds the missing characters again.
