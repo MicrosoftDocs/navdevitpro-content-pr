@@ -21,7 +21,7 @@ Coming from the existing [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)
 ## Data types
 |C/SIDE|New Development Environment|
 |------|---------------------------|
-|Dates are parsed based on culture settings.| Locale independent and supports only: ```ddmmyy``` and ```ddmmyyyy```.|
+|Dates are parsed based on culture settings.| Locale independent and supports only: ```yyyy-mm-ddD```.|
 |Boolean values could be expressed as **yes**/**no**.| Boolean values are expressed as **true**/**false**.|
 
 ## Syntax updates
