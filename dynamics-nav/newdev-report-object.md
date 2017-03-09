@@ -24,11 +24,47 @@ Creating a report consists of two primary tasks; the first task is to create the
 You build the layout of a report by arranging data items and columns, and specifying the general format, such as text font and size. There are two types of report layouts; client report definition, also called RDCL layouts and Word layouts. RDLC layouts are defined in Visual Studio Report Designer or Microsoft SQL Server Reporting Services Report Builder. Word layouts are created using Word 20?. Word layouts are based on a Word document that includes a custom XML part representing the report dataset.
 
 ## Snippet support
-Typing the shortcut ```?``` will create the basic layout for a report object when using the AL Extension in Visual Studio Code.
+Typing the shortcut ```treport``` will create the basic layout for a report object when using the AL Extension in Visual Studio Code.
 
 ## Report example
 
 ```
+report 70033222 HelloWordReport
+{
+    WordLayout = 'HelloWord.docx';
+    DefaultLayout = Word;
+
+    dataset
+    {
+        dataitem(Customer;Customer)
+        {
+            column(ID;"No.") { }
+            column(Name;Name) { }
+            column(Budget;"Budgeted Amount")
+            {
+                DecimalPlaces = 2:6;
+            }
+        }
+    }
+
+    requestpage
+    {
+        layout
+        {
+            // Enter your code for the layout.
+        }
+    
+        actions
+        {
+            // Enter your code for the actions.
+        }
+    }
+
+    labels
+    {
+        label(Title; ENU='Customer list')
+    }
+}
 
 ```
 
