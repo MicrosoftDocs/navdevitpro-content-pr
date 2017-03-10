@@ -20,12 +20,12 @@ ms.author: solsen
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|Get account|||
+|GET account|account|Get account object.|
 
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique Id of the account.|
+|id|GUID|The unique ID of the account.|
 |number|string|The number of the account.|
 |displayName|string|The display name of the account.|
 |category|string|The name of the category that the account belongs to.|

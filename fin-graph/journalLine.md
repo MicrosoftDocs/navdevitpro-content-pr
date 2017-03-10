@@ -20,16 +20,16 @@ ms.author: solsen
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|Get journal line|journal line|Get journal line object.|
-|Create journal line|journal line|Create journal line object.|
-|Update journal line|journal line|Update journal line object.|
-|Delete journal line|none|Delete journal line object.|
+|GET journal line|journal line|Get journal line object.|
+|CREATE journal line|journal line|Create journal line object.|
+|UPDATE journal line|journal line|Update journal line object.|
+|DELETE journal line|none|Delete journal line object.|
 
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |id|GUID|The unique ID of the journal line. Read only.|
-|accountId|GUID|The unique id of the account that the journal line is related to.|
+|accountId|GUID|The unique ID of the account that the journal line is related to.|
 |accountNumber|string|The number of the account that the journal line is related to.|
 |amount|decimal|Specifies the total amount (including VAT) that the journal line consists of.|
 |lineNumber|string|The number of the journal line.|

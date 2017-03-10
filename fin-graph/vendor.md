@@ -28,7 +28,7 @@ ms.author: solsen
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The vendor id.|
+|id|GUID|The vendor ID.|
 |number|string|The vendor number.|
 |displayName|string|The vendor description.|
 |address|complex|The vendor's address.|
@@ -44,7 +44,7 @@ ms.author: solsen
 |taxLiable|boolean|Specifies if the vendor is liable for tax.|
 |blocked|string|Specifies which transactions with the vendor that cannot be posted.|
 |balance|decimal|The vendor's balance.|
-|lastModifiedDateTime|datetime||  
+|lastModifiedDateTime|datetime|The last datetime the vendor was modified.|  
 
 
 ## Relationships

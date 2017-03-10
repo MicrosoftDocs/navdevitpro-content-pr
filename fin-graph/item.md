@@ -20,17 +20,17 @@ ms.author: solsen
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|Get item|item|Get item object.|
-|Create item|item|Create item object.|
-|Update item|item|Update item object.|
-|Delete item|none|Delete item object.|
+|GET item|item|Get item object.|
+|CREATE item|item|Create item object.|
+|UPDATE item|item|Update item object.|
+|DELETE item|none|Delete item object.|
 
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |number|string|The item number.|
 |displayName|string|Specifies a description of the item.|
-|id|string||
+|id|GUID|The unique ID of the item.|
 |type|numeric||
 |blocked|boolean|Specifies that transactions with the item cannot be posted, for example, because the item is in quarantine.|
 |baseUnitOfMeasure|string|Specifies the unit in which the item is held in inventory.|
@@ -41,7 +41,7 @@ ms.author: solsen
 |priceIncludesTax|boolean||
 |unitCost|numeric|Specifies the cost per unit of the item.|
 |taxGroupCode|numeric||
-|lastModifiedDateTime|datetime||  
+|lastModifiedDateTime|datetime|The last datetime the item was modified.|  
 
 
 ## Relationships

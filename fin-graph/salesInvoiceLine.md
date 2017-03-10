@@ -28,9 +28,9 @@ ms.author: solsen
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|Document_Id|GUID|The id of the parent invoice.|
+|Document_Id|GUID|The ID of the parent invoice.|
 |Line_No|numeric|The line sequence number.|
-|itemId|GUID|The id of the item in the invoice line.|
+|itemId|GUID|The ID of the item in the invoice line.|
 |itemNumber|string|The number of the item in the invoice line.|
 |itemDisplayName|string|The display name of the item in the invoice line.|
 |itemDescription|string|A description of the item in the invoice line.|
