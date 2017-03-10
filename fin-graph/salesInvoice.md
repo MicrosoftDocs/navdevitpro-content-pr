@@ -28,16 +28,16 @@ ms.author: solsen
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The invoice id.|
+|id|GUID|The invoice ID.|
 |number|string|The invoice number.|
-|invoiceDate|date|The invoice Date|
+|invoiceDate|date|The invoice date|
 |customerPurchaseOrderReference|string|The customer purchase order reference for the invoice|
 |dueDate|date|The date the invoice is due.|
 |customerNumber|string|The customer number for the invoice.|
 |customerId|GUID|The id of the invoice customer.|
 |customerName|string|The full name of the customer.|
 |currencyCode|string|The currency code for the invoice.|
-|status|string|The invoice status. Can be one of:  ,Draft,In Review,Open,Paid,Canceled or Corrective|
+|status|string|The invoice status. Status can be: Draft, In Review, Open, Paid, Canceled, or Corrective.|
 |discountAmount|numeric|The invoice discount amount|
 |discountAppliedBeforeTax|boolean|Specifies whether the discount is applied before tax.|
 |totalAmountExcludingTax|numeric|The total amount excluding tax.|
@@ -47,7 +47,7 @@ ms.author: solsen
 |paymentTerms|string|The payment terms of the invoice.|
 |shipmentMethod|string|The shipment method of the invoice.|
 |salesperson|string|The salesperson code for the invoice.|
-|lastModifiedDateTime|datetime|The last datetime the account was modified.|
+|lastModifiedDateTime|datetime|The last datetime the sales invoice was modified.|
 
 
 ## Relationships
