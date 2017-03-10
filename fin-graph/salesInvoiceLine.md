@@ -20,7 +20,7 @@ ms.author: solsen
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|GET Sales Invoice Line|Sales Invoice Line|Get Sales Invoice Line object|
+|[GET Sales Invoice Line](get-salesinvoiceline.md)|Sales Invoice Line|Get Sales Invoice Line object|
 |POST Sales Invoice Line|Sales Invoice Line|Create Sales Invoice Line object|
 |PATCH Sales Invoice Line|Sales Invoice Line|Update Sales Invoice Line object|
 |DELETE Sales Invoice Line|none|Delete Sales Invoice Line object|
