@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # CREATE Vendor Method
-Creates...
+Creates a new vendor.
 
 ## Prerequisites
 
