@@ -34,9 +34,6 @@ RecordRef := RecordID.GETRECORD
 ## Remarks  
  No data is read from the database when you run this function and therefore, no other fields in the record are set. Furthermore, no filters are set on the record.
 
-> [!NOTE]  
-> You cannot use the GETRECORD function to retrieve a record in a table by its primary key value if the primary key field in the table has the data type RecordID. In this case, you can retrieve the record by using the Record.SETRANGE(<FieldName>, FieldValue).
-
 ## Example  
  The following example opens table number 18 \(Customer table\) and sets a reference to the table. The [FINDLAST Function \(RecordRef\)](FINDLAST-Function--RecordRef-.md) selects the last record in the table. The [RECORDID Function \(RecordRef\)](RECORDID-Function--RecordRef-.md) retrieves the ID of the currently selected record. In this case, it is the last record in the table. The [GETRECORD Function \(RECORDID\)](GETRECORD-Function--RecordID-.md) uses the retrieved record ID to determine the RecordRef of the selected record \(the last record\). This example requires that you create the following variables and text constant in the **C/AL Globals** window.  
 
