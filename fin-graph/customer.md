@@ -20,10 +20,10 @@ ms.author: solsen
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|Get customer|customer|Get customer object.|
-|Create customer|customer|Create customer object.|
-|Update customer|customer|Update customer object.|
-|Delete customer|none|Delete customer object.|
+|GET customer|customer|Get customer object.|
+|CREATE customer|customer|Create customer object.|
+|UPDATE customer|customer|Update customer object.|
+|DELETE customer|none|Delete customer object.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -46,7 +46,7 @@ ms.author: solsen
 |shipmentMethod|numberic|Specifies which shipment method to use when you ship items to the customer.|
 |blocked|boolean|Specifies which transactions with the customer that cannot be blocked, for example, because the customer is insolvent.|
 |balance|numeric|Specifies the payment amount that the customer owes for completed sales. This value is also known as the customer's balance.|
-|lastModifiedDateTime|datetime||  
+|lastModifiedDateTime|datetime|The last datetime the customer was modified.|  
 
 
 ## Relationships
