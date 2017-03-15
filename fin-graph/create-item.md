@@ -40,6 +40,7 @@ If successful, this method returns 201, Created response code and items object i
 
 ## Example
 **Request**
+
 Here is an example of a request.
 
 ```
