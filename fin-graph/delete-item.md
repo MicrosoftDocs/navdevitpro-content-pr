@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # DELETE Item Method
-Delete an item.
+Delete an item from Dynamics 365 Financials.
 
 ## Prerequisites
 
@@ -32,9 +32,11 @@ DELETE /financials/companies/{id}/items/{id}
 |Authorization|Bearer . Required.|
 
 ## Request body
+
 Do not supply a request body for this method.
 
 ## Reponse
+
 If successful, this method returns 204, No Content response code. It does not return anything in the response body.
 
 ## Example
@@ -46,6 +48,7 @@ DELETE https://graph.microsoft.com/beta/financials/companies/{id}/items/{id}
 ```
 
 **Response**
+
 Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
 ```
