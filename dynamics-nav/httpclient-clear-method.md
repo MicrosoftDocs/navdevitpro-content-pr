@@ -15,7 +15,6 @@ author: SusanneWindfeldPedersen
 ---
 
 # Clear Method
-Clears...
 
 ```
 HttpClient.Clear

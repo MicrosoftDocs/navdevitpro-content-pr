@@ -86,6 +86,7 @@ The changes from the existing [!INCLUDE[navnow_md](includes/navnow_md.md)] langu
 - [Page Object](newdev-page-object.md)
 - [Page Extension Object](newdev-page-ext-object.md)
 - [Codeunit Object](newdev-codeunit-object.md)
+- [Report Object](newdev-report-object.md)
 
 For information about AL language changes, see [Differences in the Dynamics NAV Development Environments](newdev-differences.md).
 

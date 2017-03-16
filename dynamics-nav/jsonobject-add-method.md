@@ -14,6 +14,8 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+# Add Method
+
 Adds a new property to a JsonObject.
 
 ```
