@@ -20,10 +20,10 @@ ms.author: solsen
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|GET item|item|Get item object.|
-|CREATE item|item|Create item object.|
-|UPDATE item|item|Update item object.|
-|DELETE item|none|Delete item object.|
+|[GET item](get-item.md)|item|Get item object.|
+|[CREATE item](create-item.md)|item|Create item object.|
+|[UPDATE item](update-item.md)|item|Update item object.|
+|[DELETE item](delete-item.md)|none|Delete item object.|
 
 ## Properties
 | Property	   | Type	|Description|

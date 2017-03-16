@@ -15,8 +15,7 @@ ms.author: solsen
 ---
 
 # DELETE Vendor Method
-
-Delete a vendor from Dynamics 365 Financials.
+Delete a vendor from [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Prerequisites
 

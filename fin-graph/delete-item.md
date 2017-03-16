@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # DELETE Item Method
-Delete an item from Dynamics 365 Financials.
+Delete an item from [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Prerequisites
 

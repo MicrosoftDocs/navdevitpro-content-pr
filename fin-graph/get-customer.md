@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # GET Customer Method
-Retrieve the properties and relationships of an customers object for Dynamics 365 Financials.
+Retrieve the properties and relationships of a customer object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Prerequisites
 

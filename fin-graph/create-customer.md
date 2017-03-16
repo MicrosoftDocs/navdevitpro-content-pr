@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/13/2017
+ms.date: 03/16/2017
 ms.author: solsen
 ---
 
@@ -36,9 +36,10 @@ POST /financials/companies/{id}/customers
 In the request body, supply a JSON representation of customers object.
 
 ## Reponse
-If successful, this method returns 201, Created response code and customers object in the response body.
+If successful, this method returns ```201, Created``` response code and customers object in the response body.
 
 ## Example
+
 **Request**
 
 Here is an example of a request.
