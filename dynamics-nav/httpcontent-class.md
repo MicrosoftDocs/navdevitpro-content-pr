@@ -21,8 +21,8 @@ The following methods are available on the **HttpContent** class.
 
 |Method name|Description|
 |-----------|-----------|
-|[Clear](httpcontent-clear-method.md)|Clears..|
-|[Create](httpcontent-create-method.md)|Creates....|
+|[Clear](httpcontent-clear-method.md)||
+|[Create](httpcontent-create-method.md)||
 |[GetHeaders](httpcontent-getheaders-method.md)||
 |[ReadAs](httpcontent-readas-method.md)||
 |[WriteFrom](httpcontent-writefrom-method.md)||

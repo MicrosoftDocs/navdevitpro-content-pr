@@ -15,6 +15,18 @@ author: SusanneWindfeldPedersen
 ---
 
 # Content Method
+Gets or sets the contents of the HTTP message.
+
+```
+CurrentContent := HttpResponseMessage.Content
+```
+## Parameters
+*SetContent*
+Type: HttpContent
+
+## Return Value
+*CurrentContent*
+Type: HttpContent
 
 ## Remarks
 

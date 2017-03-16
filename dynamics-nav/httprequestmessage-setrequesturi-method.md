@@ -15,6 +15,18 @@ author: SusanneWindfeldPedersen
 ---
 
 # SetRequestUri Method
+Sets the Uri used for the HTTP request.
+
+```
+RequestUri := HttpRequestMessage.SetRequestUri
+```
+## Parameters
+*SetRequestUri*
+Type: HttpRequestMessage
+
+## Return Value
+*RequestUri*
+Type: String
 
 ## Remarks
 

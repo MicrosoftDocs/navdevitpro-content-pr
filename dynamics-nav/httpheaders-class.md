@@ -20,11 +20,11 @@ The following methods are available on the **HttpHeaders** class.
 
 |Method name|Description|
 |-----------|-----------|
-|[Add](httpheaders-add-method.md)|Adds|
-|[Clear](httpheaders-clear-method.md)|Clears...|
-|[Contains](httpheaders-contains-method.md)|Checks...|
-|[GetValues](httpheaders-getvalues-method.md)|Gets..|
-|[Remove](httpheaders-remove-method.md)|Removes..|
+|[Add](httpheaders-add-method.md)||
+|[Clear](httpheaders-clear-method.md)||
+|[Contains](httpheaders-contains-method.md)|Verifies if an **HttpHeaders** contains a property with a given key.|
+|[GetValues](httpheaders-getvalues-method.md)||
+|[Remove](httpheaders-remove-method.md)||
 
 ## Remarks
 
