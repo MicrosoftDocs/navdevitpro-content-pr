@@ -15,13 +15,13 @@ ms.author: solsen
 ---
 
 # UPDATE Customer Method
-Update the properties of a customers object.
+Update the properties of a customer object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Prerequisites
 
 ## HTTP request
 
-A customer from Dynamics 365 Financials.
+A customer from [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ```
 PATCH /financials/companies/{id}/customers/{id}

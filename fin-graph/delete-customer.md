@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # DELETE Customer Method
-Delete a customer from Dynamics 365 Financials.
+Delete a customer from [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Prerequisites
 

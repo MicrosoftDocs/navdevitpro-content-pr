@@ -20,10 +20,10 @@ ms.author: solsen
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|GET customer|customer|Get a customer object.|
-|CREATE customer|customer|Create a customer object.|
-|UPDATE customer|customer|Update a customer object.|
-|DELETE customer|none|Delete a customer object.|
+|[GET customer](get-customer.md)|customer|Get a customer object.|
+|[CREATE customer](create-customer.md)|customer|Create a customer object.|
+|[UPDATE customer](update-customer.md)|customer|Update a customer object.|
+|[DELETE customer](delete-customer.md)|none|Delete a customer object.|
 
 ## Properties
 | Property	   | Type	|Description|

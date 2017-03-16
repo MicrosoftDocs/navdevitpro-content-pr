@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # GET Journal Line Method
-Gets...
+Retrieve the properties and relationships of a journal line object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Prerequisites
 

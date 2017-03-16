@@ -15,13 +15,12 @@ ms.author: solsen
 ---
 
 # UPDATE Journal Line Method
-
-Update the properties of a vendors object.
+Update the properties of a vendor object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Prerequisites
 
 ## HTTP request
-A vendor from Dynamics 365 Financials.
+A vendor from [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ```
 PATCH /financials/companies/{id}/vendors/{id}

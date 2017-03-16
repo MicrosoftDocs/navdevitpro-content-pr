@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # DELETE Account Method
-Deletes...
+Delete an account from [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Prerequisites
 

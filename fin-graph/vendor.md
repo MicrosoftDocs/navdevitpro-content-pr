@@ -20,10 +20,10 @@ ms.author: solsen
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|Get vendor|vendor|Get a vendor object.|
-|Create vendor|vendor|Create a vendor object.|
-|Update vendor|vendor|Update a vendor object.|
-|Delete vendor|none|Delete a vendor object.|
+|[GET vendor](get-vendor.md)|vendor|Get a vendor object.|
+|[CREATE vendor](create-vendor.md)|vendor|Create a vendor object.|
+|[UPDATE vendor](update-vendor.md)|vendor|Update a vendor object.|
+|[DELETE vendor](delete-vendor.md)|none|Delete a vendor object.|
 
 ## Properties
 | Property	   | Type	|Description|

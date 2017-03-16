@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # DELETE Journal LineMethod
-Deletes ...
+Delete a journal line from [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Prerequisites
 

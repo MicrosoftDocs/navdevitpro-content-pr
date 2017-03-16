@@ -15,12 +15,12 @@ ms.author: solsen
 ---
 
 # UPDATE Item Method
-Update the properties of an items object.
+Update the properties of an item object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Prerequisites
 
 ## HTTP request
-An item from Dynamics 365 Financials.
+An item from [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 ```
 PATCH /financials/companies/{id}/items/{id}
 ```

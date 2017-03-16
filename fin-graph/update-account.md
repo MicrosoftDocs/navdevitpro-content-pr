@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # UPDATE Account Method
-Updates...
+Update the properties of an account object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Prerequisites
 
