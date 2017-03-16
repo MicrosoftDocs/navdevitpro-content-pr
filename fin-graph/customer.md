@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/08/2017
+ems.date: 02/08/2017
 ms.author: solsen
 ---
 
@@ -20,61 +20,63 @@ ms.author: solsen
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|GET customer|customer|Get customer object.|
-|CREATE customer|customer|Create customer object.|
-|UPDATE customer|customer|Update customer object.|
-|DELETE customer|none|Delete customer object.|
+|GET customer|customer|Get a customer object.|
+|CREATE customer|customer|Create a customer object.|
+|UPDATE customer|customer|Update a customer object.|
+|DELETE customer|none|Delete a customer object.|
 
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
+|id|GUID|The unique ID of the item. This is a read-only property.|
 |number|string|The customer number.|
 |displayName|string|Specifies the customer's name. This name will appear on all sales documents for the customer. You can enter a maximum of 50 characters, both numbers and letters.|
 |address|string|Specifies the customer's address. This address will appear on all sales documents for the customer.|
-|address2|string|Specifies additional address information.|
-|city|string|Specifies the customer's city.|
-|state|string|Specifies the state as a part of the address.|
-|countryRegionCode|numeric|Specifies the country/region of the address.|
-|zipCode|numeric|Specifies the ZIP code.|
 |phoneNumber|numeric|Specifies the customer's telephone number.|
 |email|string|Specifies the customer's email address.|
 |website|string|Specifies the customer's home page address.|
-|taxLiable|boolean|Specifies if the customer or vendor is liable for sales tax.|
+|taxLiable|boolean|Specifies if the customer or vendor is liable for sales tax. Set to **true** if the customer is tax liable.|
 |currencyCode|numeric|The default currency code for the customer.|
 |paymentTerms|numeric|Specifies a code that indicates the payment terms that you require of the customer.|
 |paymentMethod|numeric|Specifies how the customer usually submits payment, such as bank transfer or check.|
 |shipmentMethod|numberic|Specifies which shipment method to use when you ship items to the customer.|
-|blocked|boolean|Specifies which transactions with the customer that cannot be blocked, for example, because the customer is insolvent.|
+|blocked|boolean|Specifies that transactions with the customer cannot be posted. Set to **true** if the customer is blocked.|
 |balance|numeric|Specifies the payment amount that the customer owes for completed sales. This value is also known as the customer's balance.|
-|lastModifiedDateTime|datetime|The last datetime the customer was modified.|  
+|lastModifiedDateTime|datetime|The last datetime the customer was modified. Read-Only.|  
 
 
 ## Relationships
-None
+A Currency(currencyCode) must exist in the Currencies table.
+
+A Payment Term(paymentTerms) must exist in the Payment Terms table.
+
+A Shipment Method(shipmentMethod) must exist in the Shipment Method table.
+
+A Payment Method(paymentMethod) must exist in the Payment Method table.
 
 ## JSON representation
 
 Here is a JSON representation of the resource.
 
 
-```json
+```
 {
-      "id": "GUID",
-      "number": "String",
-     "displayName": "String",
-      "address": {NAV.PostalAddress},
-      "phoneNumber": "String",
-      "email": "String",
-      "website": "String",
-      "taxLiable": boolean,
-      "currencyCode": "String",
-      "paymentTerms": {NAV.PaymentTerms},
-      "shipmentMethod": {NAV.ShipmentMethod},
-      "paymentMethod": {NAV.PaymentMethod},
-      "blocked": "String",
-      "balance": Decimal,
-      "lastModifiedDateTime": "DateTime",
-    }
+    "id": "GUID",
+    "number": "string",
+    "displayName": "string",
+    "address": {NAV.PostalAddress}
+    "phoneNumber": "string",
+    "email": "string",
+    "website": "string",
+    "taxLiable": "boolean",
+    "currencyCode": "string",
+    "paymentTerms": {NAV.PaymentTermsType},
+    "shipmentMethod": {NAV.ShipmentMethod},
+    "paymentMethod":  {NAV.PaymentMethod},
+    "blocked": "boolean",
+    "balance": "decimal",
+    "lastModifiedDateTime": "datetime"
+}
 
 
 ```
