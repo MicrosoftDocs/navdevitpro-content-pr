@@ -22,7 +22,7 @@ The following methods are available on the **HttpClient** class.
 |Method name|Description|
 |-----------|-----------|
 |[Clear](httpclient-clear-method.md)||
-|[Create](httphttpclient-create-method.md)||
+|[Create](httpclient-create-method.md)||
 |[DefaultRequestHeaders](httpclient-defaultrequestheaders-method.md)|Gets the headers which should be sent with each request.|
 |[Delete](httpclient-delete-method.md)||
 |[Get](httpclient-get-method.md)||
