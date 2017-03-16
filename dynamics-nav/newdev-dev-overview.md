@@ -9,7 +9,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.author: solsen
+ms.author: SusanneWindfeldPedersen
 ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 ---
 
@@ -18,12 +18,12 @@ ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 # Developing Extensions Using the New Development Environment
 
 Extensions are a programming model where functionality is defined as an addition to existing objects and defines how they are different or modify the behavior of the solution. This section explains how you can develop extensions using the new development environment for [!INCLUDE[navnow_md](includes/navnow_md.md)].
- 
+
 You might already be familiar with the extension model from working with [!INCLUDE[navnow_md](includes/navnow_md.md)]. For more information, see [Extending Microsoft Dynamics NAV Using Extension Packages](extending-microsoft-dynamics-nav-using-extension-packages.md).
 
 <!--
 > [!NOTE]  
-> To get started developing extensions for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] read more about building them here [Extending Microsoft Dynamics NAV Using Extension Packages](extending-microsoft-dynamics-nav-using-extension-packages.md). For [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], you have to sign up for [AppSource](https://appsource.microsoft.com/en-us/) and upload your extensions there. For more information, see [Extend Dynamics 365 for Financials](https://madeira.microsoft.com/en-us/documentation/madeira-develop-extensions/). 
+> To get started developing extensions for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] read more about building them here [Extending Microsoft Dynamics NAV Using Extension Packages](extending-microsoft-dynamics-nav-using-extension-packages.md). For [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], you have to sign up for [AppSource](https://appsource.microsoft.com/en-us/) and upload your extensions there. For more information, see [Extend Dynamics 365 for Financials](https://madeira.microsoft.com/en-us/documentation/madeira-develop-extensions/).
 -->
 
 If you're new to building extensions for [!INCLUDE[navnow_md](includes/navnow_md.md)], we recommend that you read this document to get an understanding of the basics and terms you will encounter while working. Next, follow the [Getting Started](newdev-get-started.md) to set up your system.
@@ -42,42 +42,42 @@ There are two other special objects which are specifically used for building ext
 For more information, see [Page Extension Object](newdev-page-ext-object.md) and [Table Extension Object](newdev-table-ext-object.md).
 
 ## Developing extensions in Visual Studio Code
-Using the AL extension for Visual Studio Code, you'll get the benefits of a modern development environment along with seamless publishing and execution integration with your [!INCLUDE[navnow_md](includes/navnow_md.md)] tenant. For more information on getting up and running, see [Getting Started](newdev-get-started.md). 
+Using the AL extension for Visual Studio Code, you'll get the benefits of a modern development environment along with seamless publishing and execution integration with your [!INCLUDE[navnow_md](includes/navnow_md.md)] tenant. For more information on getting up and running, see [Getting Started](newdev-get-started.md).
 
 Visual Studio Code and the AL extension lets you do the following tasks:
 
 - Create new files for your solution
 - Get assistance with creating the appropriate configuration and setting files
-- Use code snippets that provide templates for coding application objects 
+- Use code snippets that provide templates for coding application objects
 - Get compiler validation while coding
 - Press F5 to publish your changes and see your code running
 
 For more information, see [Visual Studio Code Docs](https://code.visualstudio.com/docs).
 
 ## Syntax
-The syntax of the AL language is designed to assist in building business applications. The AL language is an evolution from the original programming language used in [!INCLUDE[navnow_md](includes/navnow_md.md)] and resembles it very closely. From code, you have access to various snippets that will give you a template for a specific object type. 
+The syntax of the AL language is designed to assist in building business applications. The AL language is an evolution from the original programming language used in [!INCLUDE[navnow_md](includes/navnow_md.md)] and resembles it very closely. From code, you have access to various snippets that will give you a template for a specific object type.
 
 |Type... | To get a... |
 |--------|-------------|
-|```ttable```| Table object structure|
-|```tpage```| Page object structure|
-|```tcodeunit```| Codeunit object structure|
-|```tpageext```| Page extension structure|
-|```ttableext```| Table extension structure|
-|```tfield```| Table field structure|
-|```tfieldpage```| Page field structure|
-|```ttrigger```| Trigger structure|
-|```tprocedure```| Function structure | 
 |```tassert```| Assert error structure|
-|```twithdo```| With do structure|
-|```tif```| If structure|
-|```tifelse```| If else structure|
 |```tcaseof```| Case of structure|
 |```tcaseelse```| Case else structure|
+|```tcodeunit```| Codeunit object structure|
+|```tfield```| Table field structure|
+|```tfieldpage```| Page field structure|
 |```tfor```| For structure|
-|```twhile```| While structure|
+|```tif```| If structure|
+|```tifelse```| If else structure|
+|```tpage```| Page object structure|
+|```tpageext```| Page extension structure|
+|```tprocedure```| Function structure |
 |```trepeat```| Repeat until structure|
-
+|```treport```| Report object structure|
+|```ttable```| Table object structure|
+|```ttableext```| Table extension structure|
+|```ttrigger```| Trigger structure|
+|```twithdo```| With do structure|
+|```twhile```| While structure|
 
 The changes from the existing [!INCLUDE[navnow_md](includes/navnow_md.md)] language and AL can be found in these topics:
 
@@ -101,4 +101,3 @@ Extensions are compiled as .navx package files. The .navx package file can be de
 [Developer Reference](newdev-reference-overview.md)  
 [Extending Microsoft Dynamics NAV Using Extension Packages](extending-microsoft-dynamics-nav-using-extension-packages.md)  
 [Development](development.md)
-
