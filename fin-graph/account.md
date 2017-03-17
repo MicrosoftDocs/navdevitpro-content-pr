@@ -20,18 +20,18 @@ ms.author: solsen
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET account](get-account.md)|account|Get account object.|
+|[GET accounts](get-account.md)|accounts|Get accounts object.|
 
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the account.|
-|number|string|The number of the account.|
-|displayName|string|The display name of the account.|
-|category|string|The name of the category that the account belongs to.|
-|subCategory|string|The name of the subCategory that the account belongs to.|
-|blocked|boolean|The state of the account.|
-|lastModifiedDateTime|datetime|The last datetime the account was modified.|
+|id|GUID|The unique ID of the account. Read-Only.|
+|number|string|Specifies the number of the G/L account.|
+|displayName|string|Specifies the name of the G/L account.|
+|category|Specifies the category of the G/L account.|
+|subCategory|string|Specifies the subcategory of the account category of the G/L account.|
+|blocked|boolean|Specifies that entries cannot be posted to the G/L account. **True** indicates account is blocked and posting is not allowed.|
+|lastModifiedDateTime|datetime|The last datetime the account was modified. Read-Only.|
 
 
 ## Relationships
@@ -44,13 +44,13 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-  "id": "d5f85f49-746c-4f76-8c85-01b691c7cdfc",
-  "number": "2340",
-  "displayName": "Other Receivables",
-  "category": "Assets",
-  "subCategory": "Accounts Receivable",
-  "blocked": false,
-  "lastModifiedDateTime": "0001-01-01T00:00:00Z"
+  "id": "GUID",
+  "number": "string",
+  "displayName": "string",
+  "category": "string",
+  "subCategory": "string",
+  "blocked": "boolean",
+  "lastModifiedDateTime": "datetime"
 }
 
 ```

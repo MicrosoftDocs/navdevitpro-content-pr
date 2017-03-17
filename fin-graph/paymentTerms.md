@@ -1,6 +1,6 @@
 ---
-title: paymentTerms resource type | Microsoft Docs
-description: A paymentTerms object.
+title: Payment Terms resource type | Microsoft Docs
+description: A Payment Terms object.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,16 +14,16 @@ ms.date: 02/08/2017
 ms.author: solsen
 ---
 
-# paymentTerms resource type
+# Payment Terms resource type
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|Get paymentTerms|paymentTerms|Get a paymentTerms object.|
-|Create paymentTerms|paymentTerms|Create a paymentTerms object.|
-|Update paymentTerms|paymentTerms|Update a paymentTerms object.|
-|Delete paymentTerms|none|Delete a paymentTerms object.|
+|[Get paymentTerms](get-paymentTerms.md)|paymentTerms|Get a paymentTerms object.|
+|[Create paymentTerms](create-paymentTerms.md)|paymentTerms|Create a paymentTerms object.|
+|[Update paymentTerms](update-paymentTerms.md)|paymentTerms|Update a paymentTerms object.|
+|[Delete paymentTerms](delete-paymentTerms.md)|none|Delete a paymentTerms object.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -46,7 +46,7 @@ None
 Here is a JSON representation of the paymentTerms.
 
 
-```
+```json
 {
   "code": "string",
   "displayName": "string",

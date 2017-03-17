@@ -1,6 +1,6 @@
 ---
 title: CREATE item method | Microsoft Docs
-description: Gets a sales invoice line.
+description: Creates an item.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -29,21 +29,21 @@ POST /financials/companies/{id}/items
 
 |Header|Value|
 |------|-----|
-|Authorization|Bearer. Required.|
-|Content-Type|application/json|
+|Authorization  |Bearer. Required.  |
+|Content-Type |application/json |
 
 ## Request body
 In the request body, supply a JSON representation of items object.
 
 ## Reponse
-If successful, this method returns 201, Created response code and items object in the response body.
+If successful, this method returns ```201, Created``` response code and items object in the response body.
 
 ## Example
 **Request**
 
 Here is an example of a request.
 
-```
+```json
 POST https://graph.microsoft.com/beta/finacials/companies/{id}/items
 Content-type: application/json
 
@@ -71,13 +71,12 @@ Content-type: application/json
     } 
 
 ```
-In the request body, supply a JSON representation of items object.
 
 **Response**
 
 Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
-```
+```json
 HTTP/1.1 201 Created
 Content-type: application/json
 

@@ -1,6 +1,6 @@
 ---
 title: CREATE customer method | Microsoft Docs
-description: Gets a sales invoice line.
+description: Creates a customer.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -44,7 +44,7 @@ If successful, this method returns ```201, Created``` response code and customer
 
 Here is an example of a request.
 
-```
+```json
 POST https://graph.microsoft.com/beta/finacials/companies/{id}/customers
 Content-type: application/json
 
@@ -72,19 +72,16 @@ Content-type: application/json
     "code": "BANK",
     "description": "Bank Transfer"
   },
-  "blocked": " ",
-  "balance": 0
+  "blocked": " "
 }
 
 ```
-
-In the request body, supply a JSON representation of items object.
 
 **Response**
 
 Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
-```
+```json
 HTTP/1.1 201 Created
 Content-type: application/json
 
@@ -115,7 +112,7 @@ Content-type: application/json
       },
       "blocked": " ",
       "balance": 0,
-      "lastModifiedDateTime": "2017-03-07T00:35:28.983Z",
+      "lastModifiedDateTime": "2017-03-07T00:35:28.983Z"
     }
 
 ```

@@ -36,7 +36,7 @@ DELETE /financials/companies/{id}/customers/{id}
 Do not supply a request body for this method.
 
 ## Reponse
-If successful, this method returns 204, No Content response code. It does not return anything in the response body.
+If successful, this method returns ```204, No Content``` response code. It does not return anything in the response body.
 
 
 ## Example
@@ -44,13 +44,18 @@ If successful, this method returns 204, No Content response code. It does not re
 **Request**
 
 Here is an example of the request.
-DELETE https://graph.microsoft.com/beta/financials/companies/{id}/customers/{id}
 
+```json
+DELETE https://graph.microsoft.com/beta/financials/companies/{id}/customers/{id}
+```
 
 **Response** 
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+Here is an example of the response. 
+
+```json
 HTTP/1.1 204 No Content
+```
 
 
 

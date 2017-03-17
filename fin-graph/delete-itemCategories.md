@@ -1,6 +1,6 @@
 ---
-title: DELETE itemCategories method | Microsoft Docs
-description: Deletes an itemCategory.
+title: DELETE Item Categories method | Microsoft Docs
+description: Deletes an Item Category.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,9 +14,9 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# DELETE itemCategories Method
+# DELETE Item Categories Method
 
-Delete an itemCategory from Dynamics 365 Financials.
+Delete an itemCategories from [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Prerequisites
 
@@ -38,7 +38,7 @@ Do not supply a request body for this method.
 
 ## Response
 
-If successful, this method returns 204, No Content response code. It does not return anything in the response body.
+If successful, this method returns ```204, No Content``` response code. It does not return anything in the response body.
 
 ## Example
 
@@ -46,7 +46,7 @@ If successful, this method returns 204, No Content response code. It does not re
 
 Here is an example of the request.
 
-```
+```json
 DELETE https://graph.microsoft.com/beta/financials/companies/{id}/itemCategories/{id}
 ```
 
@@ -54,7 +54,7 @@ DELETE https://graph.microsoft.com/beta/financials/companies/{id}/itemCategories
 
 Here is an example of the response. 
 
-```
+```json
 HTTP/1.1 204 No Content
 ```
 

@@ -33,9 +33,9 @@ ms.author: solsen
 |displayName|string|Specifies a description of the item.|
 |type|numeric|The inventory type for the item. 1 = inventory item, 2 = service item. This is a required property.|
 |blocked|boolean|Specifies that transactions with the item cannot be posted, for example, because the item is in quarantine. Set to **true** if item is blocked.|
-|baseUnitOfMeasure|string|Specifies the unit in which the item is held in inventory.|
+|baseUnitOfMeasure|[NAV.UnitOfMeasure](complex-types.md)|Specifies the unit in which the item is held in inventory.|
 |gtin|numeric|This is the Global Trade Item Number.|
-|itemCategoryCode|numeric|Specifies the category that the item belongs to. Item categories also contain any assigned item attributes.|
+|itemCategoryCode|[NAV.ItemCategory](complex-types.md)|Specifies the category that the item belongs to. Item categories also contain any assigned item attributes.|
 |inventory|decimal|Specifies how many units, such as pieces, boxes, or cans, of the item are in inventory. Read-Only.|
 |unitPrice|decimal|Specifies the price for one unit of the item in the specified currency.|
 |priceIncludesTax|boolean|Specifies that the unitPrice includes tax. Set to **true** if unitPrice includes tax.|
@@ -67,7 +67,7 @@ Here is a JSON representation of the resource.
       "priceIncludesTax": "boolean",
       "unitCost": "decimal",
       "taxGroupCode": "string",
-      "lastModifiedDateTime": "datetime",
+      "lastModifiedDateTime": "datetime"
 }
 
 ```

@@ -1,5 +1,5 @@
 ---
-title: companyInformation resource type | Microsoft Docs
+title: Company Information resource type | Microsoft Docs
 description: Company Information.
 services: project-madeira
 documentationcenter: ''
@@ -14,32 +14,32 @@ ms.date: 02/08/2017
 ms.author: solsen
 ---
 
-# companyInformation resource type
+# Company Information resource type
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|Get companyInformation|companyInformation|Get a companyInformation object.|
-|Update companyInformation|companyInformation|Update a companyInformation object.|
+|[GET companyInformation](get-companyInformation.md)|companyInformation|Get a companyInformation object.|
+|[Update companyInformation](update-companyInformation.md)|companyInformation|Update a companyInformation object.|
 
 
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the companyInformation. Read-Only.|
-|displayName|string|The companyInformation's display name.|
-|address|NAV.PostalAddress|The companyInformation's address.|
-|phoneNumber|string|The companyInformation's telephone number.|
-|faxNumber|string|The companyInformation's fax number.|
-|email|string|The companyInformation's email address.|
-|website|string|The companyInformation's website address.|
-|taxRegistrationNumber|string|The companyInformation's tax registration number.|
-|currencyCode|string|The currency the company does business in. Read-Only.|
-|currentFiscalYearStartDate|date|The companies current fiscal year start date. Read-Only.|
-|industry|string|The industry the company is part of.|
-|picture|stream|The company logo. Read-Only.|
-|lastModifiedDateTime|datetime|The last datetime the companyInformation was modified. Read-Only.|  
+|id|GUID|The unique ID of the Company. Read-Only.|
+|displayName|string|The Company's display name.|
+|address|[NAV.PostalAddress](complex-types.md)|The Company's address. View the complex type for additional detail.|
+|phoneNumber|string|The Company's telephone number.|
+|faxNumber|string|The Company's fax number.|
+|email|string|The Company's email address.|
+|website|string|The Company's website address.|
+|taxRegistrationNumber|string|The Company's tax registration number.|
+|currencyCode|string|The currency the Company does business in. Read-Only.|
+|currentFiscalYearStartDate|date|The Company's current fiscal year start date. Read-Only.|
+|industry|string|The industry the Company is part of.|
+|picture|stream|The Company logo. Read-Only.|
+|lastModifiedDateTime|datetime|The last datetime the Company was modified. Read-Only.|  
 
 
 ## Relationships
@@ -47,13 +47,12 @@ None
 
 ## JSON representation
 
-Here is a JSON representation of the vendor.
-
-
-```
+Here is a JSON representation of the companyInformation
+```json
 {
+  "id": "GUID",
   "displayName": "string",
-  "address": {NAV.PostalAddress},
+  "address": NAV.PostalAddress,
   "phoneNumber": "string",
   "faxNumber": "string",
   "email": "string",
