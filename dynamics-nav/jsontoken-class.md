@@ -29,9 +29,9 @@ The following methods are available on the **JsonToken** class.
 |[IsArray](jsontoken-isarray-method.md)|Sets..|
 |[IsObject](jsontoken-isobject-method.md)|Inserts|
 |[Path](jsontoken-path-method.md)|Removes|
-|[ReadFromStream](jsontoken-readfrom-stream-method.md)|Removes|
+|[ReadFrom_Stream](jsontoken-readfrom-stream-method.md)|Removes|
 |[SelectToken](jsontoken-selecttoken-method.md)|Removes|
-|[WriteToStream](jsontoken-writeto-stream-method.md)|Removes|
-|[WriteToString](jsontoken-writeto-string-method.md)|Removes|
+|[WriteTo_Stream](jsontoken-writeto-stream-method.md)|Removes|
+|[WriteTo_String](jsontoken-writeto-string-method.md)|Removes|
 
 ## See Also

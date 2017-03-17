@@ -10,12 +10,12 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/13/2017
+ms.date: 03/16/2017
 ms.author: solsen
 ---
 
 # CREATE Item Method
-Create an item in Dynamics 365 Financials for use on invoices, quotes, etc.
+Create an item in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)] for use on invoices, quotes, etc.
 
 ## Prerequisites
 
@@ -40,6 +40,7 @@ If successful, this method returns 201, Created response code and items object i
 
 ## Example
 **Request**
+
 Here is an example of a request.
 
 ```

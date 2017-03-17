@@ -15,7 +15,7 @@ author: SusanneWindfeldPedersen
 ---
 
 # Clear Method
-Clears...
+
 
 ```
 HttpContent.Clear

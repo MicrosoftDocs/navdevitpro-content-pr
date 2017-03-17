@@ -15,13 +15,13 @@ ms.author: solsen
 ---
 
 # DELETE Vendor Method
-Deletes...
+Delete a vendor from [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Prerequisites
 
 ## HTTP request
 ```
-DELETE //
+DELETE /financials/companies/{id}/vendors/{id}
 ```
 ## Optional query parameters
 
@@ -29,13 +29,33 @@ DELETE //
 
 |Header|Value|
 |------|-----|
-|||
+|Authorization  |Bearer . Required. |
 
 ## Request body
 
-## Reponse
+Do not supply a request body for this method.
+
+## Response
+
+If successful, this method returns 204, No Content response code. It does not return anything in the response body.
 
 ## Example
+
+**Request**
+
+Here is an example of the request.
+
+```
+DELETE https://graph.microsoft.com/beta/financials/companies/{id}/vendors/{id}
+```
+
+**Response** 
+
+Here is an example of the response. 
+
+```
+HTTP/1.1 204 No Content
+```
 
 ## See Also
 [Microsoft Graph Reference](graph-reference.md)  

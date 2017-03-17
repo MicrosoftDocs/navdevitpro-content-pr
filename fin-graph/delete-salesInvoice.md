@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # DELETE Sales Invoice Method
-Deletes ...
+Delete a sales invoice from [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Prerequisites
 

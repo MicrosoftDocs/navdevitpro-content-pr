@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # UPDATE Journal Line Method
-Updates...
+Update the properties of a journal line object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Prerequisites
 

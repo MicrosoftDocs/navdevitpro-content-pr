@@ -21,11 +21,11 @@ The following methods are available on the **HttpClient** class.
 
 |Method name|Description|
 |-----------|-----------|
-|[Clear](httpclient-clear-method.md)|Clears...|
-|[Create](httphttpclient-create-method.md)|Creates...|
+|[Clear](httpclient-clear-method.md)||
+|[Create](httpclient-create-method.md)||
 |[DefaultRequestHeaders](httpclient-defaultrequestheaders-method.md)|Gets the headers which should be sent with each request.|
-|[Delete](httpclient-delete-method.md)|Deletes|
-|[Get](httpclient-get-method.md)|Retrieves the value of a.....|
+|[Delete](httpclient-delete-method.md)||
+|[Get](httpclient-get-method.md)||
 |[GetBaseAddress](httpclient-getbaseaddress-method.md)|Gets the base address of Uniform Resource Identifier (URI) of the Internet resource used when sending requests.|
 |[Post](httpclient-post-method.md)|Sends a POST request to the specified Uri as an asynchronous operation.|
 |[Put](httpclient-put-method.md)|Sends a PUT request to the specified Uri as an asynchronous operation.|

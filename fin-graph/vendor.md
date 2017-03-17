@@ -20,31 +20,30 @@ ms.author: solsen
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|Get vendor|vendor|Get vendor object.|
-|Create vendor|vendor|Create vendor object.|
-|Update vendor|vendor|Update vendor object.|
-|Delete vendor|none|Delete vendor object.|
+|[GET vendor](get-vendor.md)|vendor|Get a vendor object.|
+|[CREATE vendor](create-vendor.md)|vendor|Create a vendor object.|
+|[UPDATE vendor](update-vendor.md)|vendor|Update a vendor object.|
+|[DELETE vendor](delete-vendor.md)|none|Delete a vendor object.|
 
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The vendor ID.|
+|id|GUID|The unique ID of the vendor. Read-Only.|
 |number|string|The vendor number.|
-|displayName|string|The vendor description.|
-|address|complex|The vendor's address.|
-|zipCode|numeric|The zip code of the address.|
+|displayName|string|The vendor's display name.|
+|address|NAV.PostalAddress|The vendor's address.|
 |phoneNumber|string|The vendor's telephone number.|
 |email|string|The vendor's email address.|
 |website|string|The vendor's website address.|
 |taxRegistrationNumber|string|The vendor's tax registration number.|
 |currencyCode|string|The default currency code for the vendor.|
-|irs1099Code|string||
-|paymentTerms|complex|The default payment terms for the vendor.|
-|paymentMethod|complex|The default payment method for the vendor.|
+|irs1099Code|string|Specifies a 1099 code for the vendor. US tenants only, blank for other countries.|
+|paymentTerms|NAV.PaymentTerms|The default payment terms for the vendor.|
+|paymentMethod|NAV.PaymentMethod|The default payment method for the vendor.|
 |taxLiable|boolean|Specifies if the vendor is liable for tax.|
-|blocked|string|Specifies which transactions with the vendor that cannot be posted.|
-|balance|decimal|The vendor's balance.|
-|lastModifiedDateTime|datetime|The last datetime the vendor was modified.|  
+|blocked|string|Specifies which transactions with the vendor that cannot be posted. Accepted values are blank, Payment or All|
+|balance|decimal|The vendor's balance. Read-Only.|
+|lastModifiedDateTime|datetime|The last datetime the vendor was modified. Read-Only.|  
 
 
 ## Relationships
@@ -52,27 +51,26 @@ None
 
 ## JSON representation
 
-Here is a JSON representation of the resource.
+Here is a JSON representation of the vendor.
 
 
-```json
+```
 {
-      "id": "GUID",
-      "number": "String",
-      "displayName": "String",
-      "address": {NAV.PostalAddress}
-      "phoneNumber": "String",
-      "email": "String",
-      "website": "String",
-      "taxRegistrationNumber": "String",
-      "currencyCode": "String",
-      "irs1099Code": "String",
-      "paymentTerms": {NAV.PaymentTerms},
-      "paymentMethod": {NAV.PaymentMethod},
-      "taxLiable": Boolean,
-      "blocked": "String",
-      "balance": decimal,
-      "lastModifiedDateTime": "DateTime",
+  "number": "string",
+  "displayName": "string",
+  "address": {NAV.PostalAddress},
+  "phoneNumber": "string",
+  "email": "string",
+  "website": "string",
+  "taxRegistrationNumber": "string",
+  "currencyCode": "string",
+  "irs1099Code": "string",
+  "paymentTerms": {NAV.PaymentTermsType},
+  "paymentMethod": {NAV.PaymentMethod},
+  "taxLiable": "boolean",
+  "blocked": "string",
+  "balance": "decimal",
+  "lastModifiedDateTime": "datetime"
 }
 
 ```

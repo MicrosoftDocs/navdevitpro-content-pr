@@ -16,7 +16,7 @@ author: SusanneWindfeldPedersen
 
 # SetValue Method
 
-Set the contents of the JsonValue variable to the JSON representation of the given variable.
+Set the contents of the **JsonValue** variable to the JSON representation of the given variable.
 
 ```
 JsonValue.SetValue(Value)

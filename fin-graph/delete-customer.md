@@ -15,13 +15,13 @@ ms.author: solsen
 ---
 
 # DELETE Customer Method
-Deletes...
+Delete a customer from [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Prerequisites
 
 ## HTTP request
 ```
-DELETE //
+DELETE /financials/companies/{id}/customers/{id}
 ```
 ## Optional query parameters
 
@@ -29,13 +29,30 @@ DELETE //
 
 |Header|Value|
 |------|-----|
-|||
+|Authorization  |Bearer . Required. |
 
 ## Request body
 
+Do not supply a request body for this method.
+
 ## Reponse
+If successful, this method returns 204, No Content response code. It does not return anything in the response body.
+
 
 ## Example
+
+**Request**
+
+Here is an example of the request.
+DELETE https://graph.microsoft.com/beta/financials/companies/{id}/customers/{id}
+
+
+**Response** 
+
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+HTTP/1.1 204 No Content
+
+
 
 ## See Also
 [Microsoft Graph Reference](graph-reference.md)  

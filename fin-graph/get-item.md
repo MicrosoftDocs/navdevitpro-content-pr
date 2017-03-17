@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # GET Item Method
-Retrieve the properties and relationships of an items object.
+Retrieve the properties and relationships of an item object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Prerequisites
 
@@ -43,7 +43,7 @@ If successful, this method returns a 200 OK response code and items object in th
 
 Here is an example of the request.
 ```
-GET https://graph.microsoft.com/v1.0/me/contacts/{id}
+GET https://graph.microsoft.com/v1.0/financials/companies/{id}/items/{id}
 ```
 
 **Response**

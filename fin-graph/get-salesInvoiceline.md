@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # GET Sales Invoice Line Method
-Gets...
+Retrieve the properties and relationships of a sales invoice line object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Prerequisites
 
