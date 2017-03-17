@@ -34,3 +34,5 @@ Type: JsonToken
 The returned JsonToken contains the same data as the JsonArray, but allows for treating the data in a generic manner.
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

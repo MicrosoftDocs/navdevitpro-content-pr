@@ -35,5 +35,5 @@ The following methods are available on the HttpClient class.
 
 
 ## See Also
-[Getting Started](newdev-get-started.md)
+[Getting Started](newdev-get-started.md)  
 [Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

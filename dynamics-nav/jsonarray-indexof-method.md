@@ -16,7 +16,7 @@ author: SusanneWindfeldPedersen
 
 # IndexOf Method
 
-Replaces the value at the given index with a new value. 
+Replaces the value at the given index with a new value.
 
 ```
 Index := JsonArray.IndexOf(Value)
@@ -35,6 +35,8 @@ Type: Integer
 The position of the value in the **JsonArray**. -1 will be returned if the Value cannot be found in the array.
 
 ## Remarks
-//TODO: Big notice about the fact that JsonArray is 0 based.
+<!-- //TODO: Big notice about the fact that JsonArray is 0 based.-->
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

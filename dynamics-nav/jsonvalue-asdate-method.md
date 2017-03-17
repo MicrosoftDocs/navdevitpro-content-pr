@@ -31,8 +31,10 @@ Type: JsonValue
 Type : Date
 
 ## Remarks
-If the JsonValue does not contain a string of the format "yyyy-MM-dd" e.g. "2017-01-17" (2017-Janury-17), the operation will fail with a run-time error. 
+If the JsonValue does not contain a string of the format "yyyy-MM-dd" e.g. "2017-01-17" (2017-Janury-17), the operation will fail with a run-time error.
 
-//TODO:Link to example about custom parsing.
+<!-- //TODO:Link to example about custom parsing.-->
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)
