@@ -20,11 +20,11 @@ The following methods are available on the **HttpResponseMessage** class.
 
 |Method name|Description|
 |-----------|-----------|
-|[Content](httpresponsemessage-content-method.md)|Checks|
-|[Headers](httpresponsemessage-headers-method.md)|Creates...|
-|[HttpStatusCode](httpresponsemessage-httpstatuscode-method.md)|Gets...|
-|[IsSuccessStatusCode](httpresponsemessage-issuccessstatuscode-method.md)|..|
-|[SetRequestUri](httpresponsemessage-setrequesturi-method.md)|Sets..|
+|[Content](httpresponsemessage-content-method.md)|Gets or sets the contents of the HTTP message.|
+|[Headers](httpresponsemessage-headers-method.md)||
+|[HttpStatusCode](httpresponsemessage-httpstatuscode-method.md)||
+|[IsSuccessStatusCode](httpresponsemessage-issuccessstatuscode-method.md)||
+|[SetRequestUri](httpresponsemessage-setrequesturi-method.md)||
 
 
 ## Remarks
