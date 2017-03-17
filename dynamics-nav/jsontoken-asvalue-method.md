@@ -34,3 +34,5 @@ Type : JsonValue
 The returned JsonValue contains the same data as the JsonToken, but allows value-specific operations to be performed on it (the data).
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

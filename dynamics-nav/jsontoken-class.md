@@ -35,5 +35,5 @@ The following methods are available on the **JsonToken** class.
 |[WriteTo_String](jsontoken-writeto-string-method.md)|Serializes and writes the JSON data of the JsonToken to a given Text object.|
 
 ## See Also
-[Getting Started](newdev-get-started.md)
+[Getting Started](newdev-get-started.md)  
 [Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

@@ -34,8 +34,8 @@ The String object from which we read the JSON data.
 ## Property Value/Return Value
 Type : Boolean
 
-**true** if the read was successful; otherwise, **false**. 
-If you omit this optional return value and if the read does not execute successfully, then a run-time error occurs. 
+**true** if the read was successful; otherwise, **false**.
+If you omit this optional return value and if the read does not execute successfully, then a run-time error occurs.
 
 ## Remarks
 This method can fail if JSON data is malformed.
@@ -59,3 +59,5 @@ end;
 ```
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

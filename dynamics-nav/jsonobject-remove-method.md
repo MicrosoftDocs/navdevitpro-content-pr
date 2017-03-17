@@ -29,6 +29,8 @@ Type: String
 ## Return Value
 Type : Boolean
 
-**true** if a property with the given key was present on the object; otherwise, **false**. 
+**true** if a property with the given key was present on the object; otherwise, **false**.
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

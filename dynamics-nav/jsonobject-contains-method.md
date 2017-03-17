@@ -32,6 +32,8 @@ Type: String
 ## Return Value
 Type : Boolean
 
-**true** if the object contains a property with the given key; otherwise, **false**. 
+**true** if the object contains a property with the given key; otherwise, **false**.
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

@@ -43,3 +43,5 @@ Type: Boolean | Char | Byte | Option | Integer | BigInteger | Decimal | Duration
 7. When **Value** is a **DateTime** type, it will be serialized as *o* (*o* as specified https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx)
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

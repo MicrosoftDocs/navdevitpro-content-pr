@@ -34,12 +34,12 @@ The InStream object from which we read the JSON data.
 ## Property Value/Return Value
 Type : Boolean
 
-**true** if the read was successful; otherwise, **false**. 
-If you omit this optional return value and if the read does not execute successfully, then a run-time error occurs. 
+**true** if the read was successful; otherwise, **false**.
+If you omit this optional return value and if the read does not execute successfully, then a run-time error occurs.
 
 ## Remarks
 1. This method can fail if the stream is in a non valid state or if the JSON data is malformed.
-2. If the operation succeeds, the data contained by the JsonToken will be replaced with the new value. 
+2. If the operation succeeds, the data contained by the JsonToken will be replaced with the new value.
 3. To delete the contents in a JsonToken variable use the Clear function.
 
 ```
@@ -55,5 +55,6 @@ begin
 end;
 
 ```
-
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)
