@@ -22,16 +22,18 @@ The following methods are available on the **JsonToken** class.
 
 |Method name|Description|
 |-----------|-----------|
-|[AsArray](jsontoken-asarray-method.md)|Adds|
-|[AsObject](jsontoken-asobject-method.md)|Creates...|
-|[AsValue](jsontoken-asvalue-method.md)|...|
-|[Clone](jsontoken-clone-method.md)|Gets..|
-|[IsArray](jsontoken-isarray-method.md)|Sets..|
-|[IsObject](jsontoken-isobject-method.md)|Inserts|
-|[Path](jsontoken-path-method.md)|Removes|
-|[ReadFrom_Stream](jsontoken-readfrom-stream-method.md)|Removes|
-|[SelectToken](jsontoken-selecttoken-method.md)|Removes|
-|[WriteTo_Stream](jsontoken-writeto-stream-method.md)|Removes|
-|[WriteTo_String](jsontoken-writeto-string-method.md)|Removes|
+|[AsArray](jsontoken-asarray-method.md)|Converts the value in a JsonToken to a **JsonArray** data type.|
+|[AsObject](jsontoken-asobject-method.md)|Converts the value in a JsonToken to a **JsonObject** data type.|
+|[AsValue](jsontoken-asvalue-method.md)|Converts the value in a JsonToken to a **JsonValue** data type.|
+|[Clone](jsontoken-clone-method.md)|Creates a deep-copy of the JsonToken value.|
+|[IsArray](jsontoken-isarray-method.md)|Indicates whether a JsonToken represents/contains a JSON object.|
+|[IsObject](jsontoken-isobject-method.md)|Indicates whether a JsonToken represents/contains a JSON object.|
+|[Path](jsontoken-path-method.md)|Retrieves the JSON path of the token relative to its containing tree.|
+|[ReadFrom_Stream](jsontoken-readfrom-stream-method.md)|Reads the JSON data from the stream into a JsonToken variable.|
+|[SelectToken](jsontoken-selecttoken-method.md)|Selects a **JsonToken** using a JPath expression.|
+|[WriteTo_Stream](jsontoken-writeto-stream-method.md)|Serializes and writes the JSON data of the **JsonToken** to a given **Text** object.|
+|[WriteTo_String](jsontoken-writeto-string-method.md)|Serializes and writes the JSON data of the JsonToken to a given Text object.|
 
 ## See Also
+[Getting Started](newdev-get-started.md)
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)
