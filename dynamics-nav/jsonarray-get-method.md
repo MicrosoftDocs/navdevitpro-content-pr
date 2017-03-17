@@ -33,10 +33,12 @@ A variable of type **JsonToken** that will contain the result if the operation i
 ## Return Value
 Type: Boolean
 
-**true** if the operation was successful; otherwise, **false**. 
+**true** if the operation was successful; otherwise, **false**.
 If you omit this optional return value and if the select does not execute successfully, then a run-time error occurs.
 
 ## Remarks
 The operation will fail if the *Index* is smaller than 0 or (greater or equal) than JsonArray.Count.
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

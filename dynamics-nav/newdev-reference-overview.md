@@ -30,7 +30,7 @@ This section describes all of the objects that are available with [!INCLUDE[navn
 |---|----|
 |Learn about how to create new page objects for your extension.|[Page Object](newdev-page-object.md)|
 |Learn about how to modify and extend existing page objects. |[Page Extension Object](newdev-page-ext-object.md)|
-<!-- |Learn about how to create report objects|[Report Object](newdev-report-object.md)| -->
+|Learn about how to create report objects|[Report Object](newdev-report-object.md)|
 
 ## Writing code
 |To |See |
@@ -45,7 +45,7 @@ This section describes all of the objects that are available with [!INCLUDE[navn
 |[HttpHeaders](httpheaders-class.md)|
 |[HttpRequestMessage](httprequestmessage-class.md)|
 |[HttpReponseMessage](httpresponsemessage-class.md)|
-|[JsonAray](jsonarray-class.md)|
+|[JsonArray](jsonarray-class.md)|
 |[JsonObject](jsonobject-class.md)|
 |[JsonToken](jsontoken-class.md)|
 |[JsonValue](jsonvalue-class.md)|

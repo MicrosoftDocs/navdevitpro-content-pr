@@ -33,6 +33,8 @@ Type : Code
 ## Remarks
 The operation will fail with a run-time error if the JsonValue contains NULL or UNDEFINED.
 
-//TODO:Link to example about custom parsing.
+<!-- //TODO:Link to example about custom parsing.-->
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

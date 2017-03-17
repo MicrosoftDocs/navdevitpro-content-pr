@@ -36,6 +36,8 @@ If the JsonValue does not contain a string of the format "o" as specified https:
 If there is no timezone specifier, the value will be treated as UTC DateTime. If the timezone specifier is local, it will be treated as local to the server's timezone and converted to UTC.
 We recommend using UTC time to prevent unexpected behavior.
 
-//TODO:Link to example about custom parsing.
+<!-- //TODO:Link to example about custom parsing.-->
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

@@ -21,9 +21,9 @@ ms.author: solsen
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
 |[GET Sales Invoice Line](get-salesinvoiceline.md)|Sales Invoice Line|Get Sales Invoice Line object|
-|POST Sales Invoice Line|Sales Invoice Line|Create Sales Invoice Line object|
-|PATCH Sales Invoice Line|Sales Invoice Line|Update Sales Invoice Line object|
-|DELETE Sales Invoice Line|none|Delete Sales Invoice Line object|
+|[POST Sales Invoice Line](post-salesinvoiceline.md)|Sales Invoice Line|Create Sales Invoice Line object|
+|[PATCH Sales Invoice Line](patch-salesinvoiceline.md)|Sales Invoice Line|Update Sales Invoice Line object|
+|[DELETE Sales Invoice Line](delete-salesinvoiceline.md)|none|Delete Sales Invoice Line object|
 
 ## Properties
 | Property	   | Type	|Description|

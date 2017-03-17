@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/02/2017
+ms.date: 03/16/2017
 ms.author: solsen
 ---
 
@@ -20,7 +20,7 @@ ms.author: solsen
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|GET account|account|Get account object.|
+|[GET account](get-account.md)|account|Get account object.|
 
 ## Properties
 | Property	   | Type	|Description|

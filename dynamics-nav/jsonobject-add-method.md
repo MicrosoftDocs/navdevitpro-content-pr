@@ -14,6 +14,8 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
+# Add Method
+
 Adds a new property to a JsonObject.
 
 ```
@@ -31,10 +33,12 @@ Type: JsonToken | JsonObject | JsonValue | JsonArray | Boolean | Char | Byte | I
 ## Return Value
 Type: Boolean
 
-**true** if the operation was successful; otherwise, **false**. 
+**true** if the operation was successful; otherwise, **false**.
 If you omit this optional return value and if the select does not execute successfully, then a run-time error occurs.
 
 ## Remarks
 The operation will fail if the object already contains a property with the given key.
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

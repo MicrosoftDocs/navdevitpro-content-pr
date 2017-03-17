@@ -31,8 +31,10 @@ Type: JsonValue
 Type : Integer
 
 ## Remarks
-If the JsonValue does not contain a number which can be converted without loss of precision to an Integer, the operation will fail with a run-time error. 
+If the JsonValue does not contain a number which can be converted without loss of precision to an Integer, the operation will fail with a run-time error.
 
-//TODO:Link to example about custom parsing.
+<!-- //TODO:Link to example about custom parsing.-->
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)
