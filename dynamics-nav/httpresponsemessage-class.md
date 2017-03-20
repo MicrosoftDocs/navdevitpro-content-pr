@@ -16,7 +16,7 @@ author: SusanneWindfeldPedersen
 
 # HttpResponseMessage Class
 
-Represents a HTTP response message.
+Represents an HTTP response message.
 
 The following methods are available on the **HttpResponseMessage** class.
 
