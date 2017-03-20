@@ -45,7 +45,7 @@ This section describes all of the objects that are available with [!INCLUDE[navn
 |[HttpHeaders](httpheaders-class.md)|
 |[HttpRequestMessage](httprequestmessage-class.md)|
 |[HttpReponseMessage](httpresponsemessage-class.md)|
-|[JsonAray](jsonarray-class.md)|
+|[JsonArray](jsonarray-class.md)|
 |[JsonObject](jsonobject-class.md)|
 |[JsonToken](jsontoken-class.md)|
 |[JsonValue](jsonvalue-class.md)|

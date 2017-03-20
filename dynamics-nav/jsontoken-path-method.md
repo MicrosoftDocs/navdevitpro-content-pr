@@ -16,7 +16,7 @@ author: SusanneWindfeldPedersen
 
 # Path Method
 
-Retrieves the JSON path of the token relative to its containing tree. 
+Retrieves the JSON path of the token relative to its containing tree.
 
 ```
 String := JsonToken.Path
@@ -32,7 +32,10 @@ Type : String
 The path of the token relative to its containing JSON tree.
 If the token is the root of the JSON tree, the path will be empty.
 
-//TODO:Link to JSONPath
+<!-- //TODO:Link to JSONPath
 [http://goessner.net/articles/JsonPath/](http://goessner.net/articles/JsonPath/)
+-->
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)
