@@ -16,6 +16,8 @@ author: SusanneWindfeldPedersen
 
 # HttpRequestMessage Class
 
+Represents an HTTP request message.
+
 The following methods are available on the **HttpRequestMessage** class.
 
 |Method name|Description|
