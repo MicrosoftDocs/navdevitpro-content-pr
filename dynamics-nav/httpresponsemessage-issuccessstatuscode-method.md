@@ -15,6 +15,19 @@ author: SusanneWindfeldPedersen
 ---
 
 # IsSuccessStatusCode Method
+Gets a value that indicates if the HTTP response was successful.
+
+```
+syntax
+```
+## Parameters
+*SetContent*
+Type: HttpContent
+
+## Return Value
+*CurrentContent*
+Type: HttpContent
+
 
 ## Remarks
 

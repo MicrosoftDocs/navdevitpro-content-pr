@@ -16,6 +16,23 @@ author: SusanneWindfeldPedersen
 
 # SetBaseAddress Method
 
+Sets the base address of Uniform Resource Identifier (URI) of the Internet resource used when sending requests.
+
+```
+[Ok := ] HttpClient.SetBaseAddress(Path, Response)
+```
+## Parameters
+*Path*
+Type: String
+
+*Response*
+Type: HttpReponseMessage
+
+## Return value
+*Ok*
+Type: Boolean
+
+
 ## Remarks
 
 ## See Also

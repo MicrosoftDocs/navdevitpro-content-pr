@@ -15,10 +15,9 @@ author: SusanneWindfeldPedersen
 ---
 
 # Clear Method
-Clears...
 
 ```
-HttpHeaders.Clear
+HttpHeaders.Clear()
 ```
 
 ## Remarks

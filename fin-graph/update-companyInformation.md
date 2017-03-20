@@ -1,6 +1,6 @@
 ---
-title: UPDATE companyInformation method | Microsoft Docs
-description: Updates companyInformation.
+title: UPDATE Company Information method | Microsoft Docs
+description: Updates Company Information.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,15 +14,13 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# UPDATE companyInformation Method
+# UPDATE Company Information Method
 
-Update the properties of a companyInformation object.
+Update the properties of a companyInformation object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Prerequisites
 
 ## HTTP request
-companyInformation from Dynamics 365 Financials.
-
 ```
 PATCH /financials/companies/{id}/companyInformation/{id}
 ```
@@ -34,7 +32,7 @@ PATCH /financials/companies/{id}/companyInformation/{id}
 |------|-----|
 |Authorization|Bearer . Required.|
 |Content-Type|application/json|
-|If-Match   |Required. When this request header is included and the eTag (or cTag) provided does not match the current tag on the companyInformation, the companyInformation will not be updated. |
+|If-Match   |Required. When this request header is included and the eTag provided does not match the current tag on the companyInformation, the companyInformation will not be updated. |
 
 ## Request body
 
@@ -42,14 +40,14 @@ In the request body, supply the values for relevant fields that should be update
 
 ## Response
 
-If successful, this method returns a 200 OK response code and an updated companyInformation object in the response body.
+If successful, this method returns a ```200 OK``` response code and an updated companyInformation object in the response body.
 
 ## Example
 
 **Request**
 
 Here is an example of the request.
-```
+```json
 PATCH https://graph.microsoft.com/beta/financials/companies/{id}/companyInformation{id}
 Content-type: application/json
 
@@ -63,7 +61,7 @@ Content-type: application/json
 
 Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
-```
+```json
 HTTP/1.1 200 OK
 Content-type: application/json
 

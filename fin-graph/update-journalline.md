@@ -1,6 +1,6 @@
 ---
-title: UPDATE journal line method | Microsoft Docs
-description: Updates a journal line.
+title: UPDATE journal lines method | Microsoft Docs
+description: Updates a journal lines.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,14 +14,15 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# UPDATE Journal Line Method
-Update the properties of a journal line object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
+# UPDATE Journal Lines Method
+Update the properties of a journalLines object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Prerequisites
 
 ## HTTP request
+
 ```
-UPDATE //
+PATCH /financials/companies/{id}/journalLines/{id}
 ```
 ## Optional query parameters
 
@@ -29,13 +30,53 @@ UPDATE //
 
 |Header|Value|
 |------|-----|
-|||
+|Authorization|Bearer . Required.|
+|Content-Type|application/json|
+|If-Match   |Required. When this request header is included and the eTag provided does not match the current tag on the journalLines, the journalLines will not be updated. |
 
 ## Request body
 
-## Reponse
+In the request body, supply the values for relevant fields that should be updated. Existing properties that are not included in the request body will maintain their previous values or be recalculated based on changes to other property values. For best performance you shouldn't include existing values that haven't changed.
+
+## Response
+
+If successful, this method returns a ```200 OK``` response code and an updated journalLines object in the response body.
 
 ## Example
 
+**Request**
+
+Here is an example of the request.
+```json
+PATCH https://graph.microsoft.com/beta/financials/companies/{id}/journalLines{id}
+Content-type: application/json
+
+{
+  "amount": 2000
+}
+```
+
+**Response**
+
+Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
+
+```json
+HTTP/1.1 200 OK
+Content-type: application/json
+
+{
+    "id": "id-value",
+    "accountId": "id-value",
+    "accountNumber": "10400",
+    "amount": 2000,
+    "lineNumber": 10000,
+    "documentNumber": "1234",
+    "externalDocumentNumber": "",
+    "description": "Accounts Receivable",
+    "comment": "",
+    "postingDate": "2015-12-31",
+    "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
+  }
+```
 ## See Also
 [Microsoft Graph Reference](graph-reference.md)  

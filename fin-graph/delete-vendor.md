@@ -37,7 +37,7 @@ Do not supply a request body for this method.
 
 ## Response
 
-If successful, this method returns 204, No Content response code. It does not return anything in the response body.
+If successful, this method returns ```204, No Content``` response code. It does not return anything in the response body.
 
 ## Example
 
@@ -45,7 +45,7 @@ If successful, this method returns 204, No Content response code. It does not re
 
 Here is an example of the request.
 
-```
+```json
 DELETE https://graph.microsoft.com/beta/financials/companies/{id}/vendors/{id}
 ```
 
@@ -53,7 +53,7 @@ DELETE https://graph.microsoft.com/beta/financials/companies/{id}/vendors/{id}
 
 Here is an example of the response. 
 
-```
+```json
 HTTP/1.1 204 No Content
 ```
 
