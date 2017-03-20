@@ -1,6 +1,6 @@
 ---
-title: shipmentMethod resource type | Microsoft Docs
-description: A shipmentMethod.
+title: Shipment Method resource type | Microsoft Docs
+description: A Shipment Method.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,16 +14,16 @@ ms.date: 02/08/2017
 ms.author: solsen
 ---
 
-# shipmentMethod resource type
+# Shipment Method resource type
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|Get shipmentMethod|shipmentMethod|Get a shipmentMethod object.|
-|Create shipmentMethod|shipmentMethod|Create a shipmentMethod object.|
-|Update shipmentMethod|shipmentMethod|Update a shipmentMethod object.|
-|Delete shipmentMethod|none|Delete a shipmentMethod object.|
+|[Get shipmentMethod](get-shipmentMethod.md)|shipmentMethod|Get a shipmentMethod object.|
+|[Create shipmentMethod](create-shipmentMethod.md)|shipmentMethod|Create a shipmentMethod object.|
+|[Update shipmentMethod](update-shipmentMethod.md)|shipmentMethod|Update a shipmentMethod object.|
+|[Delete shipmentMethod](delete-shipmentMethod.md)|none|Delete a shipmentMethod object.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -41,8 +41,7 @@ None
 
 Here is a JSON representation of the shipmentMethod.
 
-
-```
+```json
 {
   "id": "GUID",
   "code": "string",

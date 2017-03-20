@@ -1,6 +1,6 @@
 ---
-title: unitsOfMeasure resource type | Microsoft Docs
-description: An unitsOfMeasure.
+title: Unit of Measure resource type | Microsoft Docs
+description: An Unit of Measure.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,16 +14,16 @@ ms.date: 02/08/2017
 ms.author: solsen
 ---
 
-# unitsOfMeasure resource type
+# Unit of Measure resource type
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|Get unitsOfMeasure|unitsOfMeasure|Get an unitsOfMeasure object.|
-|Create unitsOfMeasure|unitsOfMeasure|Create an unitsOfMeasure object.|
-|Update unitsOfMeasure|unitsOfMeasure|Update an unitsOfMeasure object.|
-|Delete unitsOfMeasure|none|Delete an unitsOfMeasure object.|
+|[Get unitsOfMeasure](get-unitsOfMeasure.md)|unitsOfMeasure|Get an unitsOfMeasure object.|
+|[Create unitsOfMeasure](create-unitsOfMeasure.md)|unitsOfMeasure|Create an unitsOfMeasure object.|
+|[Update unitsOfMeasure](update-unitsOfMeasure.md)|unitsOfMeasure|Update an unitsOfMeasure object.|
+|[Delete unitsOfMeasure](delete-unitsOfMeasure.md)|none|Delete an unitsOfMeasure object.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -42,8 +42,7 @@ None
 
 Here is a JSON representation of the unitsOfMeasure.
 
-
-```
+```json
 {
   "id": "GUID",
   "code": "string",

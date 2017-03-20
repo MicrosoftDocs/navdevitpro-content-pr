@@ -1,6 +1,6 @@
 ---
 title: Item Categories resource type | Microsoft Docs
-description: An itemCategory.
+description: An Item Categories.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,16 +14,16 @@ ms.date: 02/08/2017
 ms.author: solsen
 ---
 
-# itemCategory resource type
+# Item Categories resource type
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|Get itemCategories|itemCategories|Get a itemCategories object.|
-|Create itemCategories|itemCategories|Create a itemCategories object.|
-|Update itemCategories|itemCategories|Update a itemCategories object.|
-|Delete itemCategories|none|Delete a itemCategories object.|
+|[Get itemCategories](get-itemCategories.md)|itemCategories|Get a itemCategories object.|
+|[Create itemCategories](create-itemCategories.md)|itemCategories|Create a itemCategories object.|
+|[Update itemCategories](update-itemCategories)|itemCategories|Update a itemCategories object.|
+|[Delete itemCategories](delete-itemCategories)|none|Delete a itemCategories object.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -41,8 +41,7 @@ None
 
 Here is a JSON representation of the itemCategories.
 
-
-```
+```json
 {
   "id": "GUID",
   "code": "string",

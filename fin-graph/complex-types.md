@@ -16,52 +16,52 @@ ms.author: solsen
 
 # Complex Types JSON
 
-```
+```json
 "ItemCategory" 
 { 
-"categoryId": "String", 
-"description": "String" 
+"categoryId": "string", 
+"description": "string" 
 } 
             
 "UnitOfMeasure" 
 {  
-"unitCode":  "String", 
-"unitName": "String", 
-"symbol": "String", 
+"unitCode":  "string", 
+"unitName": "string", 
+"symbol": "string", 
 "unitConversion": "NAV.ItemUnitOfMeasureConversion" 
   } 
  
 "ItemUnitOfMeasureConversion" 
 { 
-"toUnitOfMeasure": "String", 
-"fromToConversionRate": "Decimal" 
+"toUnitOfMeasure": "string", 
+"fromToConversionRate": "decimal" 
 } 
  
 "PaymentMethod" 
 { 
-"code": "String", 
-"description": "String" 
+"code": "string", 
+"description": "string" 
 } 
  
 "PaymentTerms" 
 { 
-"code": "String", 
-"description": "String" 
+"code": "string", 
+"description": "string" 
 } 
  
 "PostalAddress" 
 { 
-"street": "String",
-"city": "String", 
-"state": "String", 
-"countryLetterCode": "String", 
-"postalCode": "String" 
+"street": "string",
+"city": "string", 
+"state": "string", 
+"countryLetterCode": "string", 
+"postalCode": "string" 
 } 
  
 "ShipmentMethod" 
 { 
-"code": "String", 
-"description": "String" 
+"code": "string", 
+"description": "string" 
 } 
 ```
 

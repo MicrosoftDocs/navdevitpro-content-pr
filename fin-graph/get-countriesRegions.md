@@ -1,6 +1,6 @@
 ---
-title: GET countriesRegions method | Microsoft Docs
-description: Gets a countriesRegions.
+title: GET Countries/Regions method | Microsoft Docs
+description: Gets a Countries/Regions.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,16 +14,13 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET countriesRegions Method
+# GET Countries/Regions Method
 
-Retrieve the properties and relationships of a countriesRegions object.
+Retrieve the properties and relationships of an countriesRegions object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Prerequisites
 
 ## HTTP request
-
-A countriesRegions from Dynamics 365 Financials.
-
 ```
 GET /financials/companies/{id}/countriesRegions/{id}
 ```
@@ -41,14 +38,14 @@ Do not supply a request body for this method.
 
 ## Reponse
 
-If successful, this method returns a 200 OK response code and countriesRegions object in the response body.
+If successful, this method returns a ```200 OK``` response code and countriesRegions object in the response body.
 
 ## Example
 
 **Request**
 
 Here is an example of the request.
-```
+```json
 GET https://graph.microsoft.com/beta/financials/companies/{id}/countriesRegions/{id}
 ```
 
@@ -56,7 +53,7 @@ GET https://graph.microsoft.com/beta/financials/companies/{id}/countriesRegions/
 
 Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
-```
+```json
 {
   "id": "id-value",
   "code": "US",
