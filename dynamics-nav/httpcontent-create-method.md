@@ -15,7 +15,6 @@ author: SusanneWindfeldPedersen
 ---
 
 # Create Method
-Creates...
 
 ```
 HttpContent.Create(Value)
