@@ -16,6 +16,20 @@ author: SusanneWindfeldPedersen
 
 # GetValues Method
 
+
+```
+Ok := HttpHeaders.GetValues(String)
+```
+## Parameters
+*HttpHeaders*
+Type: HttpHeaders
+
+*String*
+Type: String
+
+## Return Value
+Type : Boolean
+
 ## Remarks
 
 ## See Also

@@ -16,15 +16,17 @@ author: SusanneWindfeldPedersen
 
 # HttpResponseMessage Class
 
+Represents a HTTP response message.
+
 The following methods are available on the **HttpResponseMessage** class.
 
 |Method name|Description|
 |-----------|-----------|
-|[Content](httpresponsemessage-content-method.md)|Checks|
-|[Headers](httpresponsemessage-headers-method.md)|Creates...|
-|[HttpStatusCode](httpresponsemessage-httpstatuscode-method.md)|Gets...|
-|[IsSuccessStatusCode](httpresponsemessage-issuccessstatuscode-method.md)|..|
-|[SetRequestUri](httpresponsemessage-setrequesturi-method.md)|Sets..|
+|[Content](httpresponsemessage-content-method.md)|Gets or sets the contents of the HTTP message.|
+|[Headers](httpresponsemessage-headers-method.md)||
+|[HttpStatusCode](httpresponsemessage-httpstatuscode-method.md)|Gets or sets the status code of the HTTP response.|
+|[IsSuccessStatusCode](httpresponsemessage-issuccessstatuscode-method.md)|Gets a value that indicates if the HTTP response was successful.|
+|[SetRequestUri](httpresponsemessage-setrequesturi-method.md)|Sets the Uri used for the HTTP request.|
 
 
 ## Remarks

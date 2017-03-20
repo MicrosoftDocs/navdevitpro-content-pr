@@ -15,6 +15,15 @@ author: SusanneWindfeldPedersen
 ---
 
 # ReasonPhrase Method
+Gets or sets the reason phrase which typically is sent by servers together with the status code.
+
+```
+syntax
+```
+## Parameters
+**
+Type:
+
 
 ## Remarks
 

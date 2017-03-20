@@ -15,7 +15,7 @@ author: SusanneWindfeldPedersen
 ---
 
 # Delete Method
-Deletes..
+Sends a DELETE request to delete the resource identified by the request URL.
 
 ```
 [Ok := ] HttpClient.Delete(Path, Response)
@@ -25,14 +25,14 @@ Deletes..
 Type: String
 
 *Response*
-Type: HttpReponseMessage 
+Type: HttpReponseMessage
 
 ## Return value
 *Ok*
 Type: Boolean
 
 ## Remarks
-**true** if the operation was successful; otherwise, **false**. 
+**true** if the operation was successful; otherwise, **false**.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

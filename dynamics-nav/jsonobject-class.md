@@ -28,7 +28,7 @@ The following methods are available on the JsonObject class.
 |[JsonArray](jsonobject-jsonarray-method.md)|Adds a new property to a JsonObject.|
 |[Remove](jsonobject-remove-method.md)|Removes the property with the given key from the object.|
 |[RemoveAll](jsonobject-removeall-method.md)|Removes all the properties of the given object.|
-|[Replace](jsonarray-replace-method.md)|Replaces the value of the property with the given key with the new value.|
+|[Replace](jsonobject-replace-method.md)|Replaces the value of the property with the given key with the new value.|
 
 <!-- //TODO:
 Copy and adapt from JsonToken:

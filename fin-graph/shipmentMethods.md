@@ -20,10 +20,10 @@ ms.author: solsen
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[Get shipmentMethod](get-shipmentMethod.md)|shipmentMethod|Get a shipmentMethod object.|
-|[Create shipmentMethod](create-shipmentMethod.md)|shipmentMethod|Create a shipmentMethod object.|
-|[Update shipmentMethod](update-shipmentMethod.md)|shipmentMethod|Update a shipmentMethod object.|
-|[Delete shipmentMethod](delete-shipmentMethod.md)|none|Delete a shipmentMethod object.|
+|[Get shipmentMethod](get-shipmentMethods.md)|shipmentMethod|Get a shipmentMethod object.|
+|[Create shipmentMethod](create-shipmentMethods.md)|shipmentMethod|Create a shipmentMethod object.|
+|[Update shipmentMethod](update-shipmentMethods.md)|shipmentMethod|Update a shipmentMethod object.|
+|[Delete shipmentMethod](delete-shipmentMethods.md)|none|Delete a shipmentMethod object.|
 
 ## Properties
 | Property	   | Type	|Description|

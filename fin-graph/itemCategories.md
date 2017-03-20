@@ -22,8 +22,8 @@ ms.author: solsen
 |:---------------|:--------|:----------|
 |[Get itemCategories](get-itemCategories.md)|itemCategories|Get a itemCategories object.|
 |[Create itemCategories](create-itemCategories.md)|itemCategories|Create a itemCategories object.|
-|[Update itemCategories](update-itemCategories)|itemCategories|Update a itemCategories object.|
-|[Delete itemCategories](delete-itemCategories)|none|Delete a itemCategories object.|
+|[Update itemCategories](update-itemCategories.md)|itemCategories|Update a itemCategories object.|
+|[Delete itemCategories](delete-itemCategories.md)|none|Delete a itemCategories object.|
 
 ## Properties
 | Property	   | Type	|Description|
