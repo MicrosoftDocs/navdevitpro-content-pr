@@ -1,6 +1,6 @@
 ---
-title: countriesRegions resource type | Microsoft Docs
-description: A countriesRegions.
+title: Countries/Regions resource type | Microsoft Docs
+description: A Countries/Regions.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,16 +14,16 @@ ms.date: 02/08/2017
 ms.author: solsen
 ---
 
-# countriesRegions resource type
+# Countries/Regions resource type
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|Get countriesRegions|countriesRegions|Get a countriesRegions object.|
-|Create countriesRegions|countriesRegions|Create a countriesRegions object.|
-|Update countriesRegions|countriesRegions|Update a countriesRegions object.|
-|Delete countriesRegions|none|Delete a countriesRegions object.|
+|[Get countriesRegions](get-countriesRegions.md)|countriesRegions|Get a countriesRegions object.|
+|[Create countriesRegions](create-countriesRegions.md)|countriesRegions|Create a countriesRegions object.|
+|[Update countriesRegions](update-countriesRegions.md)|countriesRegions|Update a countriesRegions object.|
+|[Delete countriesRegions](delete-countriesRegions.md)|none|Delete a countriesRegions object.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -43,7 +43,7 @@ None
 Here is a JSON representation of the countriesRegions.
 
 
-```
+```json
 {
   "id": "GUID",
   "code": "string",

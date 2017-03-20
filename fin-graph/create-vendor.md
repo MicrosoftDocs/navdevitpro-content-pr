@@ -46,7 +46,7 @@ If successful, this method returns ```201, Created``` response code and vendors 
 
 Here is an example of a request.
 
-```
+```json
 POST https://graph.microsoft.com/beta/finacials/companies/{id}/vendors
 Content-type: application/json
 
@@ -75,8 +75,7 @@ Content-type: application/json
     "description": "Bank Transfer"
   },
   "taxLiable": true,
-  "blocked": " ",
-  "balance": 0 
+  "blocked": " "
 }
 ```
 
@@ -84,7 +83,7 @@ Content-type: application/json
 
 Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
-```
+```json
 HTTP/1.1 201 Created
 Content-type: application/json
 
@@ -96,8 +95,6 @@ Content-type: application/json
 }
 
 ```
-
-
 
 ## See Also
 [Microsoft Graph Reference](graph-reference.md)  

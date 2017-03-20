@@ -20,8 +20,6 @@ Retrieve the properties and relationships of a customer object for [!INCLUDE[d36
 ## Prerequisites
 
 ## HTTP request
-
-A customer from Dynamics 365 Financials.
 ```
 GET /financials/companies/{id}/customers/{id}
 ```
@@ -40,13 +38,13 @@ Do not supply a request body for this method.
 
 ## Reponse
 
-If successful, this method returns a 200 OK response code and customers object in the response body.
+If successful, this method returns a ```200 OK``` response code and customers object in the response body.
 
 **Request**
 
 Here is an example of the request.
 
-```
+```json
 GET https://graph.microsoft.com/beta/financials/companies/{id}/customers/{id}
 ```
 
@@ -54,36 +52,36 @@ GET https://graph.microsoft.com/beta/financials/companies/{id}/customers/{id}
 
 Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
-```
-    {
-      "id": "e7bf4477-00f0-4cf3-8aea-abfa5a1524f3",
-      "number": "10000",
-      "displayName": "Coho Winery",
-      "address": {
-        "street": "192 Market Square",
-        "city": "Atlanta",
-        "state": "GA",
-        "countryLetterCode": "US",
-        "postalCode": "31772"
-      },
-      "phoneNumber": "",
-      "email": "jim.glynn@cronuscorp.net",
-      "website": "",
-      "taxLiable": true,
-      "currencyCode": "USD",
-      "paymentTerms": {
-        "code": "1M(8D)",
-        "description": "1 Month/2% 8 days"
-      },
-      "shipmentMethod": null,
-      "paymentMethod": {
-        "code": "BANK",
-        "description": "Bank Transfer"
-      },
-      "blocked": " ",
-      "balance": 0,
-      "lastModifiedDateTime": "2017-03-07T00:35:28.983Z"
-    }
+```json
+{
+  "id": "id-value",
+  "number": "10000",
+  "displayName": "Coho Winery",
+  "address": {
+    "street": "192 Market Square",
+    "city": "Atlanta",
+    "state": "GA",
+    "countryLetterCode": "US",
+    "postalCode": "31772"
+  },
+  "phoneNumber": "",
+  "email": "jim.glynn@cronuscorp.net",
+  "website": "",
+  "taxLiable": true,
+  "currencyCode": "USD",
+  "paymentTerms": {
+    "code": "1M(8D)",
+    "description": "1 Month/2% 8 days"
+  },
+  "shipmentMethod": null,
+  "paymentMethod": {
+    "code": "BANK",
+    "description": "Bank Transfer"
+  },
+  "blocked": " ",
+  "balance": 0,
+  "lastModifiedDateTime": "2017-03-07T00:35:28.983Z"
+}
 ```
 
 ## See Also
