@@ -28,7 +28,7 @@ ms.author: solsen
 |id|GUID|The unique ID of the account. Read-Only.|
 |number|string|Specifies the number of the G/L account.|
 |displayName|string|Specifies the name of the G/L account.|
-|category|Specifies the category of the G/L account.|
+|category|string|Specifies the category of the G/L account.|
 |subCategory|string|Specifies the subcategory of the account category of the G/L account.|
 |blocked|boolean|Specifies that entries cannot be posted to the G/L account. **True** indicates account is blocked and posting is not allowed.|
 |lastModifiedDateTime|datetime|The last datetime the account was modified. Read-Only.|
