@@ -23,8 +23,8 @@ JsonValue := JsonToken.AsValue
 ```
 
 ### Parameters
-*JsonToken*
-Type: JsonToken
+*JsonToken*  
+&emsp;Type: JsonToken
 
 A JsonToken for which **IsValue** returns **true**. If the JsonToken does not represent a fundamental JSON value, a run-time error occurs.
 

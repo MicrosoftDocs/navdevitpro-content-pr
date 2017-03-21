@@ -23,8 +23,8 @@ String := JsonToken.Path
 ```
 
 ## Parameters
-*JsonToken*
-Type: JsonToken
+*JsonToken*  
+&emsp;Type: JsonToken
 
 ## Property Value/Return Value
 Type : String

@@ -16,20 +16,20 @@ author: SusanneWindfeldPedersen
 
 # WriteTo_String Method
 
-Serializes and writes the JSON data of the JsonToken to a given Text object.
+Serializes and writes the JSON data of the **JsonToken** to a given **Text** object.
 
 ```
-[Ok := ] JsonToken.WriteTo(var String)
+[Ok := ] JsonToken.WriteTo(var Text)
 ```
 
 ## Parameters
-*JsonToken*
-Type: JsonToken
+*JsonToken*  
+&emsp;Type: JsonToken
 
-*String*
-Type: String
+*String*  
+&emsp;Type: Text
 
-The String object to which the JSON data will be written.
+The **Text** object to which the JSON data will be written.
 
 ## Property Value/Return Value
 Type : Boolean

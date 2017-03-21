@@ -22,13 +22,12 @@ Retrieves the value of a property with a given key from a JsonObject.
 ```
 
 ## Parameters
-*Key*
-Type: String
+*Key*  
+&emsp;Type: String
 
-*Result*
-Type: JsonToken
-
-A variable of type JsonToken that will contain the result if the operation is successful.
+*Result*  
+&emsp;Type: JsonToken  
+&emsp;A variable of type JsonToken that will contain the result if the operation is successful.
 
 ## Return Value
 Type : Boolean

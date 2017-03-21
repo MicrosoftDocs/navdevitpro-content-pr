@@ -17,10 +17,13 @@ author: SusanneWindfeldPedersen
 # JsonArray Class
 **JsonArray** is a container for any well-formed JSON array. A default **JsonArray** contains an empty JSON array.
 
-The following methods are available on the HttpClient class.
+The following methods are available on the JsonArray class.
 
 |Method name|Description|
 |-----------|-----------|
+|[Path](jsonarray-path-property.md)|Gets the path of the **JsonArray**.|
+|[ReadFrom](jsonarray-readfrom-method.md)|Read and set the contents of the **JsonArray** from a data source.|
+|[WriteTo](jsonarray-writeto-method.md)|Serialize and write the contents of the **JsonArray** to a destination.|
 |[Add](jsonarray-add-method.md)|Adds a new value at the end of the **JsonArray**.|
 |[AsToken](jsonarray-astoken-method.md)|Converts the value in a JsonArray to a **JsonToken** data type.|
 |[Count](jsonarray-count-method.md)|Gets the number of elements in the **JsonArray**.|

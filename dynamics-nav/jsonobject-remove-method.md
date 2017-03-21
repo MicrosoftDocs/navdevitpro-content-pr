@@ -23,11 +23,11 @@ Removes the property with the given key from the object.
 ```
 
 ## Parameters
-*Key*
-Type: String
+*Key*  
+&emsp;Type: String
 
-## Return Value
-Type : Boolean
+## Return Value  
+&emsp;Type : Boolean
 
 **true** if a property with the given key was present on the object; otherwise, **false**.
 
