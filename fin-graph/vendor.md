@@ -15,6 +15,7 @@ ms.author: solsen
 ---
 
 # vendor resource type
+Represents a vendor resource type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Methods
 

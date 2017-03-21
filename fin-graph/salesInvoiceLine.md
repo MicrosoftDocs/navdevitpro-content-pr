@@ -15,6 +15,7 @@ ms.author: solsen
 ---
 
 # salesInvoiceLine resource type
+Represents a salesInvoiceLine resource type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Methods
 
