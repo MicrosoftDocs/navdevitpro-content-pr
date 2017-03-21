@@ -1,5 +1,5 @@
 ---
-title: "Count Method"
+title: "Path Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 02/21/2017
@@ -14,21 +14,23 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# Count Method
+# Path Method
 
-Gets the number of elements in the JsonArray.
+Retrieves the JSON path of the array relative to its containing tree.
 
 ```
-Integer := JsonArray.Count
+String := JsonArray.Path
 ```
 
-### Parameters
+## Parameters
 *JsonArray*  
 &emsp;Type: JsonArray
 
 ## Property Value/Return Value
-Type: Integer
-The number of elements in the JsonArray.
+Type : String
+
+The path of the array relative to its containing JSON tree.
+If the object is the root of the JSON tree, the path will be empty.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

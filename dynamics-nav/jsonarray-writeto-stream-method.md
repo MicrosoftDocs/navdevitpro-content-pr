@@ -1,5 +1,5 @@
 ---
-title: "Count Method"
+title: "WriteTo_Stream Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 02/21/2017
@@ -14,21 +14,28 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# Count Method
+# WriteTo_Stream Method
 
-Gets the number of elements in the JsonArray.
+Serializes and writes the JSON data of the JsonArray to a given OutStream object.
 
 ```
-Integer := JsonArray.Count
+[Ok := ] JsonArray.WriteTo(var OutStream)
 ```
 
 ### Parameters
 *JsonArray*  
 &emsp;Type: JsonArray
 
+*OutStream*  
+&emsp;Type: OutStream
+
+The OutStream object to which the JSON data will be written.
+
 ## Property Value/Return Value
-Type: Integer
-The number of elements in the JsonArray.
+Type : Boolean
+
+**true** if the write was successful; otherwise, **false**.
+If you omit this optional return value and if the write does not execute successfully, then a run-time error occurs.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

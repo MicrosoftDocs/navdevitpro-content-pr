@@ -27,7 +27,7 @@ Removes the property with the given key from the object.
 &emsp;Type: String
 
 ## Return Value  
-&emsp;Type : Boolean
+Type : Boolean
 
 **true** if a property with the given key was present on the object; otherwise, **false**.
 

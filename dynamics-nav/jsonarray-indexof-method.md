@@ -22,20 +22,16 @@ Replaces the value at the given index with a new value.
 Index := JsonArray.IndexOf(Value)
 ```
 ## Parameters
-*JsonArray*
-Type: JsonArray
+*JsonArray*  
+&emsp;Type: JsonArray
 
-*Value*
-Type: JsonToken | sonToken | JsonObject | JsonValue | JsonArray | Boolean | Char | Byte | Integer | BigInteger | Decimal | Duration | String | Date | Time | DateTime
+*Value*  
+&emsp;Type: JsonToken | sonToken | JsonObject | JsonValue | JsonArray | Boolean | Char | Byte | Integer | BigInteger | Decimal | Duration | String | Date | Time | DateTime
 
 ## Return Value
-*Index*
-Type: Integer
+&emsp;Type: Integer
 
-The position of the value in the **JsonArray**. -1 will be returned if the Value cannot be found in the array.
-
-## Remarks
-<!-- //TODO: Big notice about the fact that JsonArray is 0 based.-->
+The position of the value in the JsonArray. -1 will be returned if *Value* cannot be found in the array.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  
