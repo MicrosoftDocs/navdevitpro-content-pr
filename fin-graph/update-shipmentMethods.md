@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# UPDATE Shipment Method Method
+# PATCH Shipment Method Method
 Update the properties of a shipmentMethods object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## HTTP request
@@ -45,7 +45,7 @@ PATCH https://graph.microsoft.com/beta/financials/companies/{id}/shipmentMethods
 Content-type: application/json
 
 {
-  "displayName": "Pickup at Store Location",
+  "displayName": "Pickup at Store Location"
 }
 ```
 

@@ -21,20 +21,20 @@ Represents a paymentTerms resource type in [!INCLUDE[d365fin_long_md](../dynamic
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[Get paymentTerms](get-paymentTerms.md)|paymentTerms|Get a paymentTerms object.|
-|[Create paymentTerms](create-paymentTerms.md)|paymentTerms|Create a paymentTerms object.|
-|[Update paymentTerms](update-paymentTerms.md)|paymentTerms|Update a paymentTerms object.|
-|[Delete paymentTerms](delete-paymentTerms.md)|none|Delete a paymentTerms object.|
+|[GET paymentTerms](get-paymentTerms.md)|paymentTerms|Get a Payment Terms.|
+|[POST paymentTerms](create-paymentTerms.md)|paymentTerms|Create a Payment Terms.|
+|[PATCH paymentTerms](update-paymentTerms.md)|paymentTerms|Update a Payment Terms.|
+|[DELETE paymentTerms](delete-paymentTerms.md)|none|Delete a Payment Terms.|
 
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |id|GUID|The unique ID of the paymentTerms. Read-Only.|
-|code|string|Specify the payment term code. This code is printed where the payment terms are used.|
-|displayName|string|Specify the payment term display name. This is printed where the payment terms are used.|
-|dueDateCalculation|string|Specify the formula that is used to calculate the date that a payment must be made.|
-|discountDateCalculation|string|Specify the formula that is used to calculate the date that a payment must be made in order to obtain a discount.|
-|discountPercent|decimal|Specify the discount percentage that is applied for early payment of an invoice amount.|
+|code|string|Specifies the payment term code. |
+|displayName|string|Specifies the payment term display name.|
+|dueDateCalculation|string|Specifies the formula that is used to calculate the date that a payment must be made.|
+|discountDateCalculation|string|Specifies the formula that is used to calculate the date that a payment must be made in order to obtain a discount.|
+|discountPercent|decimal|Specifies the discount percentage that is applied for early payment of an invoice amount.|
 |calculateDiscountOnCreditMemos|boolean|Specifies if the discount should be applied to credit memos. **True** indicates a discount will be given, **False** indicates a discount will not be given.|
 |lastModifiedDateTime|datetime|The last datetime the paymentTerms was modified. Read-Only.|  
 

@@ -30,7 +30,7 @@ GET /financials/companies/{id}/companyInformation/{id}
 ## Request body
 Do not supply a request body for this method.
 
-## Reponse
+## Response
 If successful, this method returns a ```200 OK``` response code and companyInformation object in the response body.
 
 ## Example

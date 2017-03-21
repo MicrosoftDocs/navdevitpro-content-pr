@@ -14,17 +14,17 @@ ms.date: 02/08/2017
 ms.author: solsen
 ---
 
-# vendor resource type
+# Vendor resource type
 Represents a vendor resource type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET vendor](get-vendor.md)|vendor|Get a vendor object.|
-|[CREATE vendor](create-vendor.md)|vendor|Create a vendor object.|
-|[UPDATE vendor](update-vendor.md)|vendor|Update a vendor object.|
-|[DELETE vendor](delete-vendor.md)|none|Delete a vendor object.|
+|[GET vendor](get-vendor.md)|vendor|Get a vendor.|
+|[POST vendor](create-vendor.md)|vendor|Create a vendor.|
+|[PATCH vendor](update-vendor.md)|vendor|Update a vendor.|
+|[DELETE vendor](delete-vendor.md)|none|Delete a vendor.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -38,7 +38,7 @@ Represents a vendor resource type in [!INCLUDE[d365fin_long_md](../dynamics-nav/
 |website|string|The vendor's website address.|
 |taxRegistrationNumber|string|The vendor's tax registration number.|
 |currencyCode|string|The default currency code for the vendor.|
-|irs1099Code|string|Specifies a 1099 code for the vendor. US tenants only, blank for other countries.|
+|irs1099Code|string|Specifies a 1099 code for the vendor. US only.|
 |paymentTerms|[NAV.PaymentTerms](complex-types.md)|The default payment terms for the vendor.|
 |paymentMethod|[NAV.PaymentMethod](complex-types.md)|The default payment method for the vendor.|
 |taxLiable|boolean|Specifies if the vendor is liable for tax.|
@@ -56,17 +56,18 @@ Here is a JSON representation of the vendor.
 
 ```json
 {
+  "id": "GUID",
   "number": "string",
   "displayName": "string",
-  "address": NAV.PostalAddress,
+  "address": "NAV.PostalAddress",
   "phoneNumber": "string",
   "email": "string",
   "website": "string",
   "taxRegistrationNumber": "string",
   "currencyCode": "string",
   "irs1099Code": "string",
-  "paymentTerms": NAV.PaymentTermsType,
-  "paymentMethod": NAV.PaymentMethod,
+  "paymentTerms": "NAV.PaymentTermsType",
+  "paymentMethod": "NAV.PaymentMethod",
   "taxLiable": "boolean",
   "blocked": "string",
   "balance": "decimal",
