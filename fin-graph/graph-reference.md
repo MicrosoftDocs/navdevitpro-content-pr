@@ -26,7 +26,7 @@ In this section, you can find API documentation for Microsoft Graph.
 |salesInvoiceLine resource type|[salesInvoiceLine](salesInvoiceLine.md)|
 |journalLine resource type|[journalLine](journalLine.md)|
 |account resource type|[account](account.md)|
+|unitsOfMeasure resource type|[unitsOfMeasure](unitsOfMeasure.md)|
 |complex types JSON|[Complex Types JSON](complex-types.md)|
 
 ## See Also
-
