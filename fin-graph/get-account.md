@@ -29,7 +29,7 @@ GET /financials/companies/{id}/accounts/{id}
 
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer . Required. |
+|Authorization  |Bearer. Required. |
 
 ## Request body
 
