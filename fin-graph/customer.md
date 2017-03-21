@@ -41,7 +41,7 @@ Represents a customer resource type in [!INCLUDE[d365fin_long_md](../dynamics-na
 |paymentTerms|[NAV.PaymentTermsType](complex-types.md)|Specifies a code that indicates the payment terms that you require of the customer.|
 |paymentMethod|[NAV.PaymentMethod](complex-types.md)|Specifies how the customer usually submits payment, such as bank transfer or check.|
 |shipmentMethod|[NAV.ShipmentMethod](complex-types.md)|Specifies which shipment method to use when you ship items to the customer.|
-|blocked|boolean|Specifies that transactions with the customer cannot be posted. Set to **"All"** if the customer is blocked, set to blank if not blocked.|
+|blocked|string|Specifies that transactions with the customer cannot be posted. Set to **"All"** if the customer is blocked, set to blank if not blocked.|
 |balance|numeric|Specifies the payment amount that the customer owes for completed sales. This value is also known as the customer's balance. Read-Only.|
 |lastModifiedDateTime|datetime|The last datetime the customer was modified. Read-Only.|  
 
