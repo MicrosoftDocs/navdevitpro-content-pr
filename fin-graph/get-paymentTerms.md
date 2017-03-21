@@ -15,30 +15,23 @@ ms.author: solsen
 ---
 
 # GET Payment Terms Method
-
 Retrieve the properties and relationships of a paymentTerms object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
-
-## Prerequisites
 
 ## HTTP request
 
 ```
 GET /financials/companies/{id}/paymentTerms/{id}
 ```
-## Optional query parameters
 
 ## Request headers
-
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer . Required. |
+|Authorization  |Bearer. Required. |
 
 ## Request body
-
 Do not supply a request body for this method.
 
 ## Reponse
-
 If successful, this method returns a ```200 OK``` response code and paymentTerms object in the response body.
 
 ## Example

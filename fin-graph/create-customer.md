@@ -17,16 +17,12 @@ ms.author: solsen
 # CREATE Customer Method
 Create a customer in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
-## Prerequisites
-
 ## HTTP request
 ```
 POST /financials/companies/{id}/customers
 ```
-## Optional query parameters
 
 ## Request headers
-
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer. Required.  |

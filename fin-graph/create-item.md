@@ -17,16 +17,12 @@ ms.author: solsen
 # CREATE Item Method
 Create an item in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)] for use on invoices, quotes, etc.
 
-## Prerequisites
-
 ## HTTP request
 ```
 POST /financials/companies/{id}/items
 ```
-## Optional query parameters
 
 ## Request headers
-
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer. Required.  |

@@ -14,7 +14,8 @@ ms.date: 02/08/2017
 ms.author: solsen
 ---
 
-# Countries/Regions resource type
+# countriesRegions resource type
+Represents a countriesRegions resource type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Methods
 

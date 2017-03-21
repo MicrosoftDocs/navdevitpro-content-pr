@@ -15,6 +15,7 @@ ms.author: solsen
 ---
 
 # Company Information resource type
+Represents a companyInformation resource type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Methods
 
@@ -27,19 +28,19 @@ ms.author: solsen
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the Company. Read-Only.|
-|displayName|string|The Company's display name.|
-|address|[NAV.PostalAddress](complex-types.md)|The Company's address. View the complex type for additional detail.|
-|phoneNumber|string|The Company's telephone number.|
-|faxNumber|string|The Company's fax number.|
-|email|string|The Company's email address.|
-|website|string|The Company's website address.|
-|taxRegistrationNumber|string|The Company's tax registration number.|
-|currencyCode|string|The currency the Company does business in. Read-Only.|
-|currentFiscalYearStartDate|date|The Company's current fiscal year start date. Read-Only.|
-|industry|string|The industry the Company is part of.|
-|picture|stream|The Company logo. Read-Only.|
-|lastModifiedDateTime|datetime|The last datetime the Company was modified. Read-Only.|  
+|id|GUID|The unique ID of the company. Read-Only.|
+|displayName|string|The company's display name.|
+|address|[NAV.PostalAddress](complex-types.md)|The company's address. View the complex type for additional detail.|
+|phoneNumber|string|The company's telephone number.|
+|faxNumber|string|The company's fax number.|
+|email|string|The company's email address.|
+|website|string|The company's website address.|
+|taxRegistrationNumber|string|The company's tax registration number.|
+|currencyCode|string|The currency the company does business in. Read-Only.|
+|currentFiscalYearStartDate|date|The company's current fiscal year start date. Read-Only.|
+|industry|string|The industry the company is part of.|
+|picture|stream|The company logo. Read-Only.|
+|lastModifiedDateTime|datetime|The last datetime the company was modified. Read-Only.|  
 
 
 ## Relationships
