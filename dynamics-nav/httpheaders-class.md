@@ -14,7 +14,7 @@ manager: edupont
 ---
 
 # HttpHeaders Class
-The HttpHeaders...
+The HttpHeaders class contains a collection of headers and their values.
 
 The following methods are available on the **HttpHeaders** class.
 

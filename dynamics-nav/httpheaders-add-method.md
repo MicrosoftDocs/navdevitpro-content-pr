@@ -16,6 +16,18 @@ author: SusanneWindfeldPedersen
 
 # Add Method
 
+## Parameters
+*Name*
+Type: String
+
+*Value*
+Type: String
+
+## Return value
+*Ok*
+Type: Boolean
+
+
 ## Remarks
 
 ## See Also

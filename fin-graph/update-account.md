@@ -17,28 +17,23 @@ ms.author: solsen
 # UPDATE Account Method
 Update the properties of an accounts object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
-## Prerequisites
 
 ## HTTP request
 ```
 PATCH /financials/companies/{id}/accounts/{id}
 ```
-## Optional query parameters
 
 ## Request headers
-
 |Header|Value|
 |------|-----|
-|Authorization|Bearer . Required.|
-|Content-Type|application/json|
-|If-Match   |Required. When this request header is included and the eTag provided does not match the current tag on the accounts, the accounts will not be updated. |
+|Authorization |Bearer. Required.|
+|Content-Type  |application/json|
+|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the accounts, the accounts will not be updated.|
 
 ## Request body
-
 In the request body, supply the values for relevant fields that should be updated. Existing properties that are not included in the request body will maintain their previous values or be recalculated based on changes to other property values. For best performance you shouldn't include existing values that haven't changed.
 
 ## Response
-
 If successful, this method returns a ```200 OK``` response code and an updated accounts object in the response body.
 
 ## Example

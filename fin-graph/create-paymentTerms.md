@@ -17,27 +17,21 @@ ms.author: solsen
 # CREATE Payment Terms Method
 Create a paymentTerms in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
-## Prerequisites
-
 ## HTTP request
 ```
 POST /financials/companies/{id}/paymentTerms
 ```
-## Optional query parameters
 
 ## Request headers
-
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer. Required.    |
 |Content-Type  |application/json    |
 
 ## Request body
-
 In the request body, supply a JSON representation of paymentTerms object.
 
 ## Reponse
-
 If successful, this method returns ```201, Created``` response code and paymentTerms object in the response body.
 
 ## Example

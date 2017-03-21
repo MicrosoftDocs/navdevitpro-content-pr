@@ -17,8 +17,6 @@ ms.author: solsen
 # CREATE Shipment Method Method
 Create a shipmentMethod in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
-## Prerequisites
-
 ## HTTP request
 ```
 POST /financials/companies/{id}/shipmentMethods
@@ -29,15 +27,13 @@ POST /financials/companies/{id}/shipmentMethods
 
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer. Required.    |
-|Content-Type  |application/json    |
+|Authorization  |Bearer. Required. |
+|Content-Type  |application/json   |
 
 ## Request body
-
 In the request body, supply a JSON representation of shipmentMethods object.
 
 ## Reponse
-
 If successful, this method returns ```201, Created``` response code and shipmentMethods object in the response body.
 
 ## Example

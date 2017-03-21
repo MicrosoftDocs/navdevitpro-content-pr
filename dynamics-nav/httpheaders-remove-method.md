@@ -15,6 +15,18 @@ author: SusanneWindfeldPedersen
 ---
 
 # Remove Method
+```
+Ok := HttpHeaders.Remove(String)
+```
+## Parameters
+*HttpHeaders*
+Type: HttpHeaders
+
+*String*
+Type: String
+
+## Return Value
+Type : Boolean
 
 ## Remarks
 

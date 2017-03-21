@@ -15,7 +15,7 @@ author: SusanneWindfeldPedersen
 ---
 
 # Get Method
-Retrieves the value of a.....
+Sends a GET request to get the resource identified by the request URL.
 
 ```
 [Ok := ] HttpClient.Get(Path, Response)
@@ -25,14 +25,14 @@ Retrieves the value of a.....
 Type: String
 
 *Response*
-Type: HttpReponseMessage 
+Type: HttpReponseMessage
 
 ## Return value
 *Ok*
 Type: Boolean
 
 ## Remarks
-**true** if the operation was successful; otherwise, **false**. 
+**true** if the operation was successful; otherwise, **false**.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

@@ -15,6 +15,8 @@ author: SusanneWindfeldPedersen
 ---
 
 # HttpStatusCode Method
+Gets or sets the status code of the HTTP response.
+
 
 ## Remarks
 

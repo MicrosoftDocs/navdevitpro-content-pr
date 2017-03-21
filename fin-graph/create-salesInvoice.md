@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # CREATE Sales Invoice Method
-Creates...
+Create a salesInvoice in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Prerequisites
 
