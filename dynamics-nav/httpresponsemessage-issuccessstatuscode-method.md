@@ -21,11 +21,11 @@ Gets a value that indicates if the HTTP response was successful.
 syntax
 ```
 ## Parameters
-*SetContent*
+*SetContent*  
 Type: HttpContent
 
 ## Return Value
-*CurrentContent*
+*CurrentContent*  
 Type: HttpContent
 
 

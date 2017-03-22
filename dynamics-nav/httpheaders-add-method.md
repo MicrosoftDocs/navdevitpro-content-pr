@@ -17,14 +17,14 @@ author: SusanneWindfeldPedersen
 # Add Method
 
 ## Parameters
-*Name*
+*Name*  
 Type: String
 
-*Value*
+*Value*  
 Type: String
 
 ## Return value
-*Ok*
+*Ok*  
 Type: Boolean
 
 

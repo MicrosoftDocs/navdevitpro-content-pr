@@ -22,17 +22,17 @@ Sends a PUT request to the specified Uri as an asynchronous operation.
 ```
 
 ## Parameters
-*Path*
+*Path*  
 Type: String
 
-*Content*
+*Content*  
 Type: HttpContent
 
-*Response*
+*Response*  
 Type: HttpResponseMessage
 
 ## Return Value
-*Ok*
+*Ok*  
 Type: Boolean
 
 **true** if the operation was successful; otherwise, **false**.

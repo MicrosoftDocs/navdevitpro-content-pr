@@ -17,7 +17,7 @@ author: SusanneWindfeldPedersen
 # HttpContent Class
 A base class representing an HTTP entity body and content headers.
 
-The following methods are available on the **HttpContent** class.
+The following methods are available on the HttpContent class.
 
 |Method name|Description|
 |-----------|-----------|

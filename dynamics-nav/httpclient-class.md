@@ -17,7 +17,7 @@ author: SusanneWindfeldPedersen
 # HttpClient Class
 Provides a base class for sending HTTP requests and receiving HTTP responses from a resource identified by a Uri.
 
-The following methods are available on the **HttpClient** class.
+The following methods are available on the HttpClient class.
 
 |Method name|Description|
 |-----------|-----------|

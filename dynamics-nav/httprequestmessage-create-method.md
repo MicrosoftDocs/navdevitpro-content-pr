@@ -23,11 +23,11 @@ CurrentContent := HttpRequestMessage.Content
 ```
 
 ## Parameters
-*SetContent*
+*SetContent*  
 Type: HttpContent
 
 ## Return Value
-*CurrentContent*
+*CurrentContent*  
 Type: HttpContent
 
 ## Remarks
