@@ -1,5 +1,5 @@
 ---
-title: "SetValueToUndefined Method"
+title: "Path Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 02/21/2017
@@ -14,16 +14,23 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# SetValueToUndefined Method
+# Path Method
 
-Set the contents of the JsonValue variable to the JSON representation of UNDEFINED.
+Retrieves the JSON path of the value relative to its containing tree.
 
 ```
-JsonValue.SetValueToUndefined()
+String := JsonValue.Path
 ```
 
-# Remarks
-1. The JsonValue will be disconnected from its current JSON tree and the data contained by the JsonValue will be replaced with the new value.
+## Parameters
+*JsonValue*  
+&emsp;Type: JsonValue
+
+## Property Value/Return Value
+Type : String
+
+The path of the value relative to its containing JSON tree.
+If the object is the root of the JSON tree, the path will be empty.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

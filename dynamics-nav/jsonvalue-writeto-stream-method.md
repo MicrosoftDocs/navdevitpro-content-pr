@@ -1,5 +1,5 @@
 ---
-title: "AsBoolean Method"
+title: "WriteTo_Stream Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 02/21/2017
@@ -14,26 +14,29 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# AsBoolean Method
+# WriteTo_Stream Method
 
-Converts the value in a JsonValue to a Boolean data type.
+Serializes and writes the JSON data of the JsonValue to a given OutStream object.
 
 ```
-Boolean := JsonValue.AsBoolean
+[Ok := ] JsonValue.WriteTo(var OutStream)
 ```
 
 ### Parameters
 *JsonValue*  
 &emsp;Type: JsonValue
 
-## Return Value
+*OutStream*  
+&emsp;Type: OutStream
+
+The OutStream object to which the JSON data will be written.
+
+## Property Value/Return Value
 Type : Boolean
 
-## Remarks
-The operation will succeed if the value was created from a Boolean using *SetValue* or if the value was parsed from a string containing one of the values : "true" or "false".
-The operation will fail with a run-time error otherwise.
-
-[Getting Started](newdev-get-started.md)  
-[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)
+**true** if the write was successful; otherwise, **false**.
+If you omit this optional return value and if the write does not execute successfully, then a run-time error occurs.
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

@@ -1,5 +1,5 @@
 ---
-title: "AsDecimal Method"
+title: "WriteTo_String Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 02/21/2017
@@ -14,23 +14,28 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# AsDecimal Method
+# WriteTo_String Method
 
-Converts the value in a JsonValue to a Decimal data type.
+Serializes and writes the JSON data of the JsonValue to a given Text object.
 
 ```
-Decimal := JsonValue.AsDecimal
+[Ok := ] JsonValue.WriteTo(var Text)
 ```
 
 ## Parameters
 *JsonValue*  
 &emsp;Type: JsonValue
 
-## Return Value
-Type : Decimal
+*String*  
+&emsp;Type: Text
 
-## Remarks
-If the JsonValue does not contain a number or a string which can be converted without loss of precision to a Decimal, the operation will fail with a run-time error.
+The Text object to which the JSON data will be written.
+
+## Property Value/Return Value
+Type : Boolean
+
+**true** if the write was successful; otherwise, **false**.
+If you omit this optional return value and if the write does not execute successfully, then a run-time error occurs.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  
