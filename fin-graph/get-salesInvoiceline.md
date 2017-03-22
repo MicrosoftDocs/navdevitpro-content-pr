@@ -33,7 +33,7 @@ GET //
 
 ## Request body
 
-## Reponse
+## Response
 
 ## Example
 

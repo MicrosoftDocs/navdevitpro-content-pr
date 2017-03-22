@@ -16,27 +16,24 @@ author: SusanneWindfeldPedersen
 
 # AsDateTime Method
 
-Converts the value in a JsonValue to a **DateTime** data type.
+Converts the value in a JsonValue to a DateTime data type.
 
 ```
 DateTime := JsonValue.AsDateTime
 ```
 
 ## Parameters
-*JsonValue*
-
-Type: JsonValue
+*JsonValue*  
+&emsp;Type: JsonValue
 
 ## Return Value
 Type : DateTime
 
 ## Remarks
-If the JsonValue does not contain a string of the format "o" as specified https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx the operation will fail.
+If the JsonValue does not contain a string of the format "o" as specified [here](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) the operation will fail with a run-time error.
 
-If there is no timezone specifier, the value will be treated as UTC DateTime. If the timezone specifier is local, it will be treated as local to the server's timezone and converted to UTC.
+If there is no timezone specifier, the value will be treated as a UTC DateTime. If the timezone specifier is local, it will be treated as local to the server's timezone and converted to UTC.
 We recommend using UTC time to prevent unexpected behavior.
-
-<!-- //TODO:Link to example about custom parsing.-->
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

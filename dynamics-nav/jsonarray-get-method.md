@@ -15,20 +15,20 @@ author: SusanneWindfeldPedersen
 ---
 
 # Get Method
-Retrieves the value at the given index in the **JsonArray**.
+Retrieves the value at the given index in the JsonArray.
 
 ```
 [Ok := ] JsonArray.Get(Index, Result)
 ```
 
 ## Parameters
-*Index*
-Type: Integer
+*Index*  
+&emsp;Type: Integer
 
-*Result*
-Type: JsonToken
+*Result*  
+&emsp;Type: JsonToken
 
-A variable of type **JsonToken** that will contain the result if the operation is successful.
+A variable of type JsonToken that will contain the result if the operation is successful.
 
 ## Return Value
 Type: Boolean
@@ -37,7 +37,7 @@ Type: Boolean
 If you omit this optional return value and if the select does not execute successfully, then a run-time error occurs.
 
 ## Remarks
-The operation will fail if the *Index* is smaller than 0 or (greater or equal) than JsonArray.Count.
+The operation will fail if the *Index* is smaller than 0 or greater or equal than JsonArray.Count.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

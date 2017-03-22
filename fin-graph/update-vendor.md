@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# UPDATE Vendor Method
+# PATCH Vendor Method
 Update the properties of a vendor object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## HTTP request
@@ -59,7 +59,7 @@ HTTP/1.1 200 OK
 Content-type: application/json
 
 {
-  "id": "8a487d16-7457-4bf9-903c-02d3d789400d",
+  "id": "id-value",
   "number": "40000",
   "displayName": "Wide World Importers Inc.",
   "address": {
@@ -87,7 +87,7 @@ Content-type: application/json
   "blocked": "Payment",
   "balance": 0,
   "lastModifiedDateTime": "2017-03-07T00:35:29.667Z"
-  }
+}
 ```
 
 

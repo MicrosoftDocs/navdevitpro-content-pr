@@ -19,18 +19,18 @@ author: SusanneWindfeldPedersen
 Creates a deep-copy of the JsonToken value.
 
 ```
-Result := Value.Clone()
+Result := JsonToken.Clone()
 ```
 
 ### Parameters
-*Value*
-Type: JsonToken
+*JsonToken*  
+&emsp;Type: JsonToken
 
 ## Return Value
 Type : JsonToken
 
 The *Result* will be a full, deep-copy of the *Value*.
 
-#¤ See Also
+## See Also
 [Getting Started](newdev-get-started.md)  
 [Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

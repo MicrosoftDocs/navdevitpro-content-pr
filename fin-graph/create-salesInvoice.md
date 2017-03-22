@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# CREATE Sales Invoice Method
+# POST Sales Invoice Method
 Create a salesInvoice in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Prerequisites
@@ -33,7 +33,7 @@ CREATE //
 
 ## Request body
 
-## Reponse
+## Response
 
 ## Example
 

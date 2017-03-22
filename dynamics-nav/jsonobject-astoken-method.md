@@ -16,19 +16,19 @@ author: SusanneWindfeldPedersen
 
 # AsToken Method
 
-Converts the value in a JsonObject to a **JsonToken** data type.
+Converts the value in a JsonObject to a JsonToken data type.
 
 ```
 JsonToken := JsonObject.AsToken
 ```
 
 ### Parameters
-*JsonObject*
-Type: JsonObject
+*JsonObject*  
+&emsp;Type: JsonObject
 
 ## Return Value
-*JsonToken*
-Type : JsonToken
+*JsonToken*  
+&emsp;Type : JsonToken
 
 The returned JsonToken contains the same data as the JsonObject, but allows for treating the data in a generic manner.
 

@@ -33,7 +33,7 @@ POST //
 
 ## Request body
 
-## Reponse
+## Response
 
 ## Example
 

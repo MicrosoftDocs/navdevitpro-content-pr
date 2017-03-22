@@ -23,11 +23,11 @@ Adds a new property to a JsonObject.
 ```
 
 ## Parameters
-*Key*
-Type: String
+*Key*  
+&emsp;Type: String
 
-*Value*
-Type: JsonToken | JsonObject | JsonValue | JsonArray | Boolean | Char | Byte | Integer | BigInteger | Decimal | Duration | String | Date | Time | DateTime
+*Value*  
+&emsp;Type: JsonToken | JsonObject | JsonValue | JsonArray | Boolean | Char | Byte | Integer | BigInteger | Decimal | Duration | String | Date | Time | DateTime
 
 
 ## Return Value

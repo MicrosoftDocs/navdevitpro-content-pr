@@ -16,24 +16,21 @@ author: SusanneWindfeldPedersen
 
 # AsCode Method
 
-Converts the value in a JsonValue to a **Code** data type.
+Converts the value in a JsonValue to a Code data type.
 
 ```
 Code := JsonValue.AsCode
 ```
 
 ### Parameters
-*JsonValue*
-
-Type: JsonValue
+*JsonValue*  
+&emsp;Type: JsonValue
 
 ## Return Value
 Type : Code
 
 ## Remarks
 The operation will fail with a run-time error if the JsonValue contains NULL or UNDEFINED.
-
-<!-- //TODO:Link to example about custom parsing.-->
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

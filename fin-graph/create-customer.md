@@ -14,7 +14,7 @@ ms.date: 03/16/2017
 ms.author: solsen
 ---
 
-# CREATE Customer Method
+# POST Customer Method
 Create a customer in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## HTTP request
@@ -31,8 +31,8 @@ POST /financials/companies/{id}/customers
 ## Request body
 In the request body, supply a JSON representation of customers object.
 
-## Reponse
-If successful, this method returns ```201, Created``` response code and customers object in the response body.
+## Response
+If successful, this method returns ```201 Created``` response code and customers object in the response body.
 
 ## Example
 
@@ -81,35 +81,35 @@ Here is an example of the response. Note: The response object shown here may be 
 HTTP/1.1 201 Created
 Content-type: application/json
 
-    {
-      "id": "id-value",
-      "number": "10000",
-      "displayName": "Coho Winery",
-      "address": {
-        "street": "192 Market Square",
-        "city": "Atlanta",
-        "state": "GA",
-        "countryLetterCode": "US",
-        "postalCode": "31772"
-      },
-      "phoneNumber": "",
-      "email": "jim.glynn@cronuscorp.net",
-      "website": "",
-      "taxLiable": true,
-      "currencyCode": "USD",
-      "paymentTerms": {
-        "code": "1M(8D)",
-        "description": "1 Month/2% 8 days"
-      },
-      "shipmentMethod": null,
-      "paymentMethod": {
-        "code": "BANK",
-        "description": "Bank Transfer"
-      },
-      "blocked": " ",
-      "balance": 0,
-      "lastModifiedDateTime": "2017-03-07T00:35:28.983Z"
-    }
+{
+  "id": "id-value",
+  "number": "10000",
+  "displayName": "Coho Winery",
+  "address": {
+    "street": "192 Market Square",
+    "city": "Atlanta",
+    "state": "GA",
+    "countryLetterCode": "US",
+    "postalCode": "31772"
+  },
+  "phoneNumber": "",
+  "email": "jim.glynn@cronuscorp.net",
+  "website": "",
+  "taxLiable": true,
+  "currencyCode": "USD",
+  "paymentTerms": {
+    "code": "1M(8D)",
+    "description": "1 Month/2% 8 days"
+  },
+  "shipmentMethod": null,
+  "paymentMethod": {
+    "code": "BANK",
+    "description": "Bank Transfer"
+  },
+  "blocked": " ",
+  "balance": 0,
+  "lastModifiedDateTime": "2017-03-07T00:35:28.983Z"
+}
 
 ```
 

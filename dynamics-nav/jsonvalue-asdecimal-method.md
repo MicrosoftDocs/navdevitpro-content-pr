@@ -16,24 +16,21 @@ author: SusanneWindfeldPedersen
 
 # AsDecimal Method
 
-Converts the value in a JsonValue to a **Decimal** data type.
+Converts the value in a JsonValue to a Decimal data type.
 
 ```
 Decimal := JsonValue.AsDecimal
 ```
 
 ## Parameters
-*JsonValue*
-
-Type: JsonValue
+*JsonValue*  
+&emsp;Type: JsonValue
 
 ## Return Value
 Type : Decimal
 
 ## Remarks
-If the **JsonValue** does not contain a number or a string which can be converted without loss of precision to a Decimal, the operation will fail with a run-time error.
-
-<!-- //TODO:Link to example about custom parsing. -->
+If the JsonValue does not contain a number or a string which can be converted without loss of precision to a Decimal, the operation will fail with a run-time error.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# UPDATE Item Categories Method
+# PATCH Item Categories Method
 Update the properties of an itemCategories object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## HTTP request
@@ -63,7 +63,7 @@ Content-type: application/json
   "code": "CHAIR",
   "displayName": "Office Chair - swivel",
   "lastModifiedDateTime": "2017-03-15T02:21:24.047Z"
-  }
+}
 ```
 
 

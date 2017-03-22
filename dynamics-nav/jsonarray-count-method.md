@@ -16,15 +16,15 @@ author: SusanneWindfeldPedersen
 
 # Count Method
 
-Gets the number of elements in the **JsonArray**.
+Gets the number of elements in the JsonArray.
 
 ```
 Integer := JsonArray.Count
 ```
 
 ### Parameters
-*JsonArray*
-Type: JsonArray
+*JsonArray*  
+&emsp;Type: JsonArray
 
 ## Property Value/Return Value
 Type: Integer

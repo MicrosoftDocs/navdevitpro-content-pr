@@ -21,15 +21,15 @@ Represents a journalLine resource type in [!INCLUDE[d365fin_long_md](../dynamics
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET journalLine](get-journalLine.md)|journalLines|Get journalLine object.|
-|[CREATE journalLine](create-journalLine.md)|journalLines|Create journalLine object.|
-|[UPDATE journalLine](update-journalLine.md)|journalLines|Update journalLine object.|
-|[DELETE journalLine](delete-journalLine.md)|none|Delete journalLine object.|
+|[GET journalLine](get-journalLine.md)|journalLines|Get Journal Line.|
+|[POST journalLine](create-journalLine.md)|journalLines|Create Journal Line.|
+|[PATCH journalLine](update-journalLine.md)|journalLines|Update Journal Line.|
+|[DELETE journalLine](delete-journalLine.md)|none|Delete Journal Line.|
 
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the journal line. Read only.|
+|id|GUID|The unique ID of the journal line. Read-Only.|
 |accountId|GUID|The unique ID of the account that the journal line is related to.|
 |accountNumber|string|The number of the account that the journal line is related to.|
 |amount|decimal|Specifies the total amount (including VAT) that the journal line consists of.|
@@ -39,7 +39,7 @@ Represents a journalLine resource type in [!INCLUDE[d365fin_long_md](../dynamics
 |description|string|The description of the journal line, provided by the user or autocreated.|
 |comment|string|A user specified comment on the journal line.|
 |postingDate|date|The date that the journal line is posted. Read-Only.|
-|lastModifiedDateTime|datetime|The last datetime the journal line was modified. Read only.|
+|lastModifiedDateTime|datetime|The last datetime the journal line was modified. Read-Only.|
 
 
 ## Relationships

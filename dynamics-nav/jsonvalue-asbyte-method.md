@@ -16,23 +16,20 @@ author: SusanneWindfeldPedersen
 
 # AsByte Method
 
-Converts the value in a JsonValue to a **Byte** data type.
+Converts the value in a JsonValue to a Byte data type.
 
 ```
 Byte := JsonValue.AsByte
 ```
 ## Parameters
-*JsonValue*
-
-Type: JsonValue
+*JsonValue*  
+&emsp;Type: JsonValue
 
 ## Return Value
 Type : Byte
 
 ## Remarks
 If the JsonValue does not contain a number which can be converted without loss of precision to a Byte, the operation will fail with a run-time error.
-
-<!-- //TODO:Link to example about custom parsing.-->
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

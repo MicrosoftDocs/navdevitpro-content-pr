@@ -14,7 +14,7 @@ ms.date: 03/21/2017
 ms.author: solsen
 ---
 
-# CREATE Journal Line Method
+# POST Journal Line Method
 Creates a journal line in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## HTTP request
@@ -32,7 +32,7 @@ POST /financials/companies/{id}/journalLines/{id}
 In the request body, supply a JSON representation of journalLine object.
 
 ## Response
-If successful, this method returns ```201, Created``` response code and journalLine object in the response body.
+If successful, this method returns ```201 Created``` response code and journalLine object in the response body.
 
 ## Example
 

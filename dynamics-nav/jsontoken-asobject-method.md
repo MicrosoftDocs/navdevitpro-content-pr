@@ -31,7 +31,7 @@ A JsonToken for which **IsObject** returns **true**. If the JsonToken does not r
 ## Return Value
 Type : JsonObject
 
-The returned JsonObject contains the same data as the JsonToken, but allows object-specific operations to be performed on it(the data).
+The returned JsonObject contains the same data as the JsonToken, but allows object-specific operations to be performed on it.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

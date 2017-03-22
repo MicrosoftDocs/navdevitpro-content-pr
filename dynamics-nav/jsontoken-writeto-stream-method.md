@@ -16,18 +16,18 @@ author: SusanneWindfeldPedersen
 
 # WriteTo_Stream Method
 
-Serializes and writes the JSON data of the **JsonToken** to a given **Text** object.
+Serializes and writes the JSON data of the **JsonToken** to a given **OutStream** object.
 
 ```
 [Ok := ] JsonToken.WriteTo(var OutStream)
 ```
 
 ### Parameters
-*JsonToken*
-Type: JsonToken
+*JsonToken*  
+&emsp;Type: JsonToken
 
-*OutStream*
-Type: OutStream
+*OutStream*  
+&emsp;Type: OutStream
 
 The **OutStream** object to which the JSON data will be written.
 
