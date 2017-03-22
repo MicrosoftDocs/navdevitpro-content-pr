@@ -33,7 +33,7 @@ PATCH //
 
 ## Request body
 
-## Reponse
+## Response
 
 ## Example
 

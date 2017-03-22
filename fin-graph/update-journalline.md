@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# UPDATE Journal Lines Method
+# PATCH Journal Lines Method
 Update the properties of a journalLines object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## HTTP request
@@ -59,18 +59,18 @@ HTTP/1.1 200 OK
 Content-type: application/json
 
 {
-    "id": "id-value",
-    "accountId": "id-value",
-    "accountNumber": "10400",
-    "amount": 2000,
-    "lineNumber": 10000,
-    "documentNumber": "1234",
-    "externalDocumentNumber": "",
-    "description": "Accounts Receivable",
-    "comment": "",
-    "postingDate": "2015-12-31",
-    "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
-  }
+  "id": "id-value",
+  "accountId": "id-value",
+  "accountNumber": "10400",
+  "amount": 2000,
+  "lineNumber": 10000,
+  "documentNumber": "1234",
+  "externalDocumentNumber": "",
+  "description": "Accounts Receivable",
+  "comment": "",
+  "postingDate": "2015-12-31",
+  "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
+}
 ```
 ## See Also
 [Microsoft Graph Reference](graph-reference.md)  

@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# UPDATE Unit of Measure Method
+# PATCH Unit of Measure Method
 Update the properties of a unitsOfMeasure object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 
@@ -47,8 +47,7 @@ PATCH https://graph.microsoft.com/beta/financials/companies/{id}/unitsOfMeasure{
 Content-type: application/json
 
 {
-  "displayName": "One Piece",
-  
+  "displayName": "One Piece"
 }
 ```
 

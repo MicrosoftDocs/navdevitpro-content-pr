@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# UPDATE Countries/Regions Method
+# PATCH Countries/Regions Method
 Update the properties of a countriesRegions object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## HTTP request
@@ -33,7 +33,7 @@ PATCH /financials/companies/{id}/countriesRegions/{id}
 In the request body, supply the values for relevant fields that should be updated. Existing properties that are not included in the request body will maintain their previous values or be recalculated based on changes to other property values. For best performance you shouldn't include existing values that haven't changed.
 
 ## Response
-If successful, this method returns a 200 OK response code and an updated countriesRegions object in the response body.
+If successful, this method returns a ```200 OK``` response code and an updated countriesRegions object in the response body.
 
 ## Example
 
@@ -46,7 +46,7 @@ PATCH https://graph.microsoft.com/beta/financials/companies/{id}/countriesRegion
 Content-type: application/json
 
 {
-  "displayName": "United States of America",
+  "displayName": "United States of America"
 }
 ```
 
@@ -64,7 +64,7 @@ Content-type: application/json
   "displayName": "United States of America",
   "addressFormat": "City+County+Post Code",
   "lastModifiedDateTime": "2017-03-16T15:22:31.753Z"
-  }
+}
 ```
 
 
