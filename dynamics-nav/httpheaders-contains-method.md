@@ -15,21 +15,21 @@ author: SusanneWindfeldPedersen
 ---
 
 # Contains Method
-Verifies if an **HttpHeaders** contains a property with a given key.
+Verifies if an HttpHeaders contains a property with a given key.
 
 ```
 Ok := HttpHeaders.Contains(String)
 ```
 
 ## Parameters
-*HttpHeaders*
+*HttpHeaders*  
 Type: HttpHeaders
 
-*String*
+*String*  
 Type: String
 
 ## Return Value
-Type : Boolean
+Type: Boolean
 
 **true** if the object contains a property with the given key; otherwise, **false**.
 

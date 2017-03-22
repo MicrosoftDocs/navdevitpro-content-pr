@@ -21,11 +21,11 @@ Gets or sets the contents of the HTTP message.
 CurrentContent := HttpResponseMessage.Content
 ```
 ## Parameters
-*SetContent*
+*SetContent*  
 Type: HttpContent
 
 ## Return Value
-*CurrentContent*
+*CurrentContent*  
 Type: HttpContent
 
 ## Remarks

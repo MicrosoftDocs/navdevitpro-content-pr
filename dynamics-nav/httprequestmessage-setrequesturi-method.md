@@ -21,11 +21,11 @@ Sets the Uri used for the HTTP request.
 RequestUri := HttpRequestMessage.SetRequestUri
 ```
 ## Parameters
-*SetRequestUri*
+*SetRequestUri*  
 Type: HttpRequestMessage
 
 ## Return Value
-*RequestUri*
+*RequestUri*  
 Type: String
 
 ## Remarks

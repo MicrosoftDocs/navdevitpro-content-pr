@@ -21,14 +21,14 @@ Gets the base address of Uniform Resource Identifier (URI) of the Internet resou
 [Ok := ] HttpClient.GetBaseAddress(Path, Response)
 ```
 ## Parameters
-*Path*
+*Path*  
 Type: String
 
-*Response*
+*Response*  
 Type: HttpReponseMessage
 
 ## Return value
-*Ok*
+*Ok*  
 Type: Boolean
 
 ## Remarks

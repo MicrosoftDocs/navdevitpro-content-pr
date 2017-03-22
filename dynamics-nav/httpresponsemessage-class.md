@@ -18,7 +18,7 @@ author: SusanneWindfeldPedersen
 
 Represents an HTTP response message.
 
-The following methods are available on the **HttpResponseMessage** class.
+The following methods are available on the HttpResponseMessage class.
 
 |Method name|Description|
 |-----------|-----------|

@@ -21,14 +21,14 @@ Sends a GET request to get the resource identified by the request URL.
 [Ok := ] HttpClient.Get(Path, Response)
 ```
 ## Parameters
-*Path*
+*Path*  
 Type: String
 
-*Response*
+*Response*  
 Type: HttpReponseMessage
 
 ## Return value
-*Ok*
+*Ok*  
 Type: Boolean
 
 ## Remarks

@@ -22,11 +22,11 @@ Gets the Uri used for the HTTP request.
 RequestUri := HttpRequestMessage.GetRequestUri
 ```
 ## Parameters
-*GetRequestUri*
+*GetRequestUri*  
 Type: HttpRequestMessage
 
 ## Return Value
-*RequestUri*
+*RequestUri*  
 Type: String
 
 ## Remarks

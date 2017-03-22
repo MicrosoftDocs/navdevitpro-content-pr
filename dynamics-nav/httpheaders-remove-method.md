@@ -19,14 +19,14 @@ author: SusanneWindfeldPedersen
 Ok := HttpHeaders.Remove(String)
 ```
 ## Parameters
-*HttpHeaders*
+*HttpHeaders*  
 Type: HttpHeaders
 
-*String*
+*String*  
 Type: String
 
 ## Return Value
-Type : Boolean
+Type: Boolean
 
 ## Remarks
 
