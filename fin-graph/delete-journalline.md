@@ -17,19 +17,15 @@ ms.author: solsen
 # DELETE Journal Line Method
 Delete a journal line from [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
-## Prerequisites
-
 ## HTTP request
 ```
 DELETE /financials/companies/{id}/journalLines/{id}
 ```
-## Optional query parameters
 
 ## Request headers
-
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer . Required. |
+|Authorization  |Bearer. Required. |
 
 ## Request body
 

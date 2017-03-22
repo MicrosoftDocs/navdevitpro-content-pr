@@ -15,6 +15,7 @@ ms.author: solsen
 ---
 
 # Unit of Measure resource type
+Represents a unitOfMeasure resource type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Methods
 

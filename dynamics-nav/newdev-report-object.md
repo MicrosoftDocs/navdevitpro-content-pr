@@ -27,13 +27,13 @@ You build the layout of a report by arranging data items and columns, and specif
 Typing the shortcut ```treport``` will create the basic layout for a report object when using the AL Extension in Visual Studio Code.
 
 ## Report example
-The following example is a report that prints the list of customers. The report object defines a dataset of columns from the Customer table.
+The following example is a report that prints the list of customers. The report object defines a dataset of columns from the Customer table. For more information on creating a report, see [How to: Create a Report](newdev-howto-report-layout.md).
 
 ```
 report 70010101 "Customer List"
 {
   CaptionML=ENU='Customer List';
-  RDLCLayout = 'Customer List Report.rdlc';
+  RDLCLayout = 'Customer List Report.rdlc'; // if Word use WordLayout property
   dataset
   {
     dataitem(Customer;Customer)
@@ -221,6 +221,7 @@ report 70010101 "Customer List"
 ## See Also
 [Developing Extensions Using the New Development Environment](newdev-dev-overview.md)  
 [Developer Reference](newdev-reference-overview.md)  
+[How to: Create a Report](newdev-howto-report-layout.md)
 [Page Extension Object](newdev-page-ext-object.md)  
 [Pages](pages.md)  
 [Tables](tables.md)  

@@ -15,6 +15,7 @@ ms.author: solsen
 ---
 
 # Item Categories resource type
+Represents an itemCategories resource type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Methods
 

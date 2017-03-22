@@ -15,29 +15,22 @@ ms.author: solsen
 ---
 
 # CREATE countriesRegions Method
-Create a Countries/Regions in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
-
-## Prerequisites
+Create a countriesRegions in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
 POST /financials/companies/{id}/countriesRegions
 ```
-## Optional query parameters
-
 ## Request headers
-
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer. Required.    |
-|Content-Type  |application/json    |
+|Authorization  |Bearer. Required. |
+|Content-Type  |application/json   |
 
 ## Request body
-
 In the request body, supply a JSON representation of countriesRegions object.
 
 ## Reponse
-
 If successful, this method returns ```201, Created``` response code and countriesRegions object in the response body.
 
 ## Example

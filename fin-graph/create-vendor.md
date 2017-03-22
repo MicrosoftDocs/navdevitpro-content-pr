@@ -17,27 +17,21 @@ ms.author: solsen
 # CREATE Vendor Method
 Create a vendor in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
-## Prerequisites
-
 ## HTTP request
 ```
 POST /financials/companies/{id}/vendors
 ```
-## Optional query parameters
 
 ## Request headers
-
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer. Required.    |
-|Content-Type  |application/json    |
+|Authorization  |Bearer. Required. |
+|Content-Type  |application/json   |
 
 ## Request body
-
 In the request body, supply a JSON representation of vendors object.
 
 ## Reponse
-
 If successful, this method returns ```201, Created``` response code and vendors object in the response body.
 
 ## Example
