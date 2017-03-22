@@ -16,20 +16,20 @@ author: SusanneWindfeldPedersen
 
 # IsValue Method
 
-Indicates whether a JsonToken represents/contains a JSON array.
+Indicates whether a JsonToken represents a JSON value.
 
 ```
-Ok := JsonToken.IsArray
+Ok := JsonToken.IsValue
 ```
 
 ### Parameters
-*JsonToken*
-Type: JsonToken
+*JsonToken*  
+&emsp;Type: JsonToken
 
 ## Property Value/Return Value
 Type : Boolean
 
-**true** if the JsonToken represents a JSON array; otherwise, **false**.
+**true** if the JsonToken represents a JSON value; otherwise, **false**.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

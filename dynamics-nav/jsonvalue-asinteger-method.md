@@ -23,17 +23,14 @@ Integer := JsonValue.AsInteger
 ```
 
 ## Parameters
-*JsonValue*
-
-Type: JsonValue
+*JsonValue*  
+&emsp;Type: JsonValue
 
 ## Return Value
 Type : Integer
 
 ## Remarks
 If the JsonValue does not contain a number which can be converted without loss of precision to an Integer, the operation will fail with a run-time error.
-
-<!-- //TODO:Link to example about custom parsing.-->
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

@@ -16,24 +16,21 @@ author: SusanneWindfeldPedersen
 
 # AsBigInteger Method
 
-Converts the value in a JsonValue to an **BigInteger** data type.
+Converts the value in a JsonValue to an BigInteger data type.
 
 ```
 BigInteger := JsonValue.AsBigInteger
 ```
 
 ## Parameters
-*JsonValue*
-
-Type: JsonValue
+*JsonValue*  
+&emsp;Type: JsonValue
 
 ## Return Value
 Type : BigInteger
 
 ## Remarks
 If the JsonValue does not contain number or a string which can be converted without loss of precision to an BigInteger, the operation will fail with a run-time error.
-
-<!-- //TODO:Link to example about custom parsing.-->
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

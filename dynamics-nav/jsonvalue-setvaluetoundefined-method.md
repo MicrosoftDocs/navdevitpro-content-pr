@@ -22,6 +22,9 @@ Set the contents of the JsonValue variable to the JSON representation of UNDEFIN
 JsonValue.SetValueToUndefined()
 ```
 
+# Remarks
+1. The JsonValue will be disconnected from its current JSON tree and the data contained by the JsonValue will be replaced with the new value.
+
 ## See Also
 [Getting Started](newdev-get-started.md)  
 [Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

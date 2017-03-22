@@ -16,21 +16,21 @@ author: SusanneWindfeldPedersen
 
 # Insert Method
 
-Inserts the value at the given index in the array while shifting all the values to the right by one position (to the right).
+Inserts the value at the given index in the array while shifting all the values to the right by one position.
 
 ```
 [Ok := ] JsonArray.Insert(Index, Value)
 ```
 
 ## Parameters
-*JsonArray*
-Type: JsonArray
+*JsonArray*  
+&emsp;Type: JsonArray
 
-*Index*
-Type: Integer
+*Index*  
+&emsp;Type: Integer
 
-*Value*
-Type: JsonToken | JsonObject | JsonValue | JsonArray | Boolean | Char | Byte | Integer | BigInteger | Decimal | Duration | String | Date | Time | DateTime
+*Value*  
+&emsp;Type: JsonToken | JsonObject | JsonValue | JsonArray | Boolean | Char | Byte | Integer | BigInteger | Decimal | Duration | String | Date | Time | DateTime
 
 ## Return Value
 Type : Boolean

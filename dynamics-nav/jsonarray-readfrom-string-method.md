@@ -16,15 +16,15 @@ author: SusanneWindfeldPedersen
 
 # ReadFrom_String Method
 
-Reads the JSON data from the string into a JsonToken variable.
+Reads the JSON data from the string into a JsonArray variable.
 
 ```
-[Ok := ] JsonToken.ReadFrom(String)
+[Ok := ] JsonArray.ReadFrom(String)
 ```
 
 ## Parameters
-*JsonToken*  
-&emsp;Type: JsonToken
+*JsonArray*  
+&emsp;Type: JsonArray
 
 *String*  
 &emsp;Type: String
@@ -39,20 +39,20 @@ If you omit this optional return value and if the read does not execute successf
 
 ## Remarks
 1. This method can fail if the JSON data is malformed..
-2. If the operation succeeds, the JsonToken will be disconnected from its current JSON tree and the data contained by the JsonToken will be replaced with the new value.
-3. To delete the contents in a JsonToken variable use the Clear function.
+2. If the operation succeeds, the JsonArray will be disconnected from its current JSON tree and the data contained by the JsonArray will be replaced with the new value.
+3. To delete the contents in a JsonArray variable use the Clear function.
 
-To delete the contents in a JsonToken variable use the **Clear** function.
+To delete the contents in a JsonArray variable use the **Clear** function.
 
 ```
-Clear(JsonToken)
+Clear(JsonArray)
 ```
 
 ## Example
-This example shows how to read JSON data from a string into a **JsonToken** variable.
+This example shows how to read JSON data from a string into a **JsonArray** variable.
 
 ```
-local procedure ReadJson(data : Text) result : JsonToken;
+local procedure ReadJson(data : Text) result : JsonArray;
 begin
     result.ReadFrom(data);    
 end;

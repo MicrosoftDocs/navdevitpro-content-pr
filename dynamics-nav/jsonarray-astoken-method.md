@@ -16,15 +16,15 @@ author: SusanneWindfeldPedersen
 
 # AsToken Method
 
-Converts the value in a JsonArray to a **JsonToken** data type.
+Converts the value in a JsonArray to a JsonToken data type.
 
 ```
 JsonToken := JsonArray.AsToken
 ```
 
 ### Parameters
-*JsonArray*
-Type: JsonArray
+*JsonArray*  
+&emsp;Type: JsonArray
 
 ## Return Value
 *JsonToken*

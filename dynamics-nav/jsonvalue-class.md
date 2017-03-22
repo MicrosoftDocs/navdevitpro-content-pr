@@ -15,44 +15,34 @@ author: SusanneWindfeldPedersen
 ---
 
 # JsonValue Class
-JsonValue object is a container for any well-formed JSON object. A default JsonValue is set to the JSON value of NULL.
+**JsonValue** is a container for any well-formed fundamental JSON value. A default JsonValue is set to the JSON value of NULL.
 
-<!-- //TODO:
-Copy and adapt from JsonToken:
-Path,
-ReadFrom_Stream,
-ReadFrom_String,
-SelectToken,
-WriteTo_Stream,
-WriteTo_String.
-
-//TODO: Document serialization for Decimal, BigInteger, Date, DateTime, Time
-//TODO: Add guidance for working with unsupported types
-
--->
-
-**JsonValue** object is a container for any well-formed JSON data. A default **JsonValue** contains the JSON value of NULL.
-
-The following methods are available on the **JsonValue** class.
+The following methods are available on the JsonValue class.
 
 |Method name|Description|
 |-----------|-----------|
-|[AsBigInteger](jsonvalue-asbiginteger-method.md)|Converts the value in a JsonValue to an **BigInteger** data type.|
-|[AsBoolean](jsonvalue-asboolean-method.md)|Converts the value in a JsonValue to a **Boolean** data type.|
-|[AsByte](jsonvalue-asbyte-method.md)|Converts the value in a JsonValue to a **Byte** data type.|
-|[AsChar](jsonvalue-aschar-method.md)|Converts the value in a JsonValue to a **Char** data type.|
-|[AsCode](jsonvalue-ascode-method.md)|Converts the value in a JsonValue to a **Code** data type.|
-|[AsDate](jsonvalue-asdate-method.md)|Converts the value in a JsonValue to a **Date** data type.|
-|[AsDateTime](jsonvalue-asdatetime-method.md)|Converts the value in a JsonValue to a **DateTime** data type.|
-|[AsDecimal](jsonvalue-asdecimal-method.md)|Converts the value in a JsonValue to a **Decimal** data type.|
-|[AsDuration](jsonvalue-asduration-method.md)|Converts the value in a JsonValue to a **Duration** data type.|
-|[AsInteger](jsonvalue-asinteger-method.md)|Converts the value in a JsonValue to a **Integer** data type.|
-|[AsOption](jsonvalue-asoption-method.md)|Converts the value in a JsonValue to a **Option** data type.|
-|[AsText](jsonvalue-astext-method.md)|Converts the value in a JsonValue to a **Text** data type.|
-|[AsTime](jsonvalue-astime-method.md)|Converts the value in a JsonValue to a **Time** data type.|
-|[AsToken](jsonvalue-astoken-method.md)|Converts the value in a JsonValue to a **JsonToken** data type.|
+|[Path](jsonvalue-path-method.md)|Retrieves the JSON path of the value relative to the root of its containing tree.|
+|[ReadFrom_Stream](jsonvalue-readfrom-stream-method.md)|Reads the JSON data from the stream into a JsonValue variable.|
+|[ReadFrom_String](jsonvalue-readfrom-string-method.md)|Reads the JSON data from the string into a JsonValue variable.|
+|[WriteTo_Stream](jsonvalue-writeto-stream-method.md)|Serializes and writes the JSON data of the JsonValue to a given OutStream object.|
+|[WriteTo_String](jsonvalue-writeto-string-method.md)|Serializes and writes the JSON data of the JsonValue to a given Text object.|
+|[Clone](jsontoken-clone-method.md)|Creates a deep-copy of the JsonValue value.|
+|[AsToken](jsonvalue-astoken-method.md)|Converts the value in the JsonValue to a JsonToken data type.|
 |[IsNull](jsonvalue-isnull-method.md)|Indicates whether the JsonValue contains the JSON value of NULL.|
 |[IsUndefined](jsonvalue-isundefined-method.md)|Indicates whether the JsonValue contains the JSON value of UNDEFINED.|
+|[AsBoolean](jsonvalue-asboolean-method.md)|Converts the value in a JsonValue to a Boolean data type.|
+|[AsByte](jsonvalue-asbyte-method.md)|Converts the value in a JsonValue to a Byte data type.|
+|[AsChar](jsonvalue-aschar-method.md)|Converts the value in a JsonValue to a Char data type.|
+|[AsOption](jsonvalue-asoption-method.md)|Converts the value in a JsonValue to an Option data type.|
+|[AsInteger](jsonvalue-asinteger-method.md)|Converts the value in a JsonValue to an Integer data type.|
+|[AsBigInteger](jsonvalue-asbiginteger-method.md)|Converts the value in a JsonValue to an BigInteger data type.|
+|[AsDecimal](jsonvalue-asdecimal-method.md)|Converts the value in a JsonValue to a Decimal data type.|
+|[AsDuration](jsonvalue-asduration-method.md)|Converts the value in a JsonValue to a Duration data type.|
+|[AsCode](jsonvalue-ascode-method.md)|Converts the value in a JsonValue to a Code data type.|
+|[AsText](jsonvalue-astext-method.md)|Converts the value in a JsonValue to a Text data type.|
+|[AsDate](jsonvalue-asdate-method.md)|Converts the value in a JsonValue to a Date data type.|
+|[AsDateTime](jsonvalue-asdatetime-method.md)|Converts the value in a JsonValue to a DateTime data type.|
+|[AsTime](jsonvalue-astime-method.md)|Converts the value in a JsonValue to a Time data type.|
 |[SetValue](jsonvalue-setvalue-method.md)|Set the contents of the JsonValue variable to the JSON representation of the given variable.|
 |[SetValueToNull](jsonvalue-setvaluetonull-method.md)|Set the contents of the JsonValue variable to the JSON representation of NULL.|
 |[SetValueToUndefined](jsonvalue-setvaluetoundefined-method.md)|Set the contents of the JsonValue variable to the JSON representation of UNDEFINED.|

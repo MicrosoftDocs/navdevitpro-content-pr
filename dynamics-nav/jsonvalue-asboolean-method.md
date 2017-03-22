@@ -16,16 +16,15 @@ author: SusanneWindfeldPedersen
 
 # AsBoolean Method
 
-Converts the value in a JsonValue to a **Boolean** data type.
+Converts the value in a JsonValue to a Boolean data type.
 
 ```
 Boolean := JsonValue.AsBoolean
 ```
 
 ### Parameters
-*JsonValue*
-
-Type: JsonValue
+*JsonValue*  
+&emsp;Type: JsonValue
 
 ## Return Value
 Type : Boolean
@@ -34,7 +33,6 @@ Type : Boolean
 The operation will succeed if the value was created from a Boolean using *SetValue* or if the value was parsed from a string containing one of the values : "true" or "false".
 The operation will fail with a run-time error otherwise.
 
-<!-- //TODO:Link to example about custom parsing.-->
 [Getting Started](newdev-get-started.md)  
 [Developing Extensions Using the New Development Environment](newdev-dev-overview.md)
 

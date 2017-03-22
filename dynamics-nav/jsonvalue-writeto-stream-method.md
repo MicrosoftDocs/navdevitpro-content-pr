@@ -1,5 +1,5 @@
 ---
-title: "IsArray Method"
+title: "WriteTo_Stream Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 02/21/2017
@@ -14,22 +14,28 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# IsArray Method
+# WriteTo_Stream Method
 
-Indicates whether a JsonToken represents a JSON array.
+Serializes and writes the JSON data of the JsonValue to a given OutStream object.
 
 ```
-Ok := JsonToken.IsArray
+[Ok := ] JsonValue.WriteTo(var OutStream)
 ```
 
 ### Parameters
-*JsonToken*  
-&emsp;Type: JsonToken
+*JsonValue*  
+&emsp;Type: JsonValue
+
+*OutStream*  
+&emsp;Type: OutStream
+
+The OutStream object to which the JSON data will be written.
 
 ## Property Value/Return Value
 Type : Boolean
 
-**true** if the JsonToken represents a JSON array; otherwise, **false**.
+**true** if the write was successful; otherwise, **false**.
+If you omit this optional return value and if the write does not execute successfully, then a run-time error occurs.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

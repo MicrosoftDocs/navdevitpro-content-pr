@@ -1,5 +1,5 @@
 ---
-title: "AsToken Method"
+title: "Path Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 02/21/2017
@@ -14,23 +14,23 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# AsToken Method
+# Path Method
 
-Converts the value in a JsonObject to a JsonToken data type.
+Retrieves the JSON path of the value relative to its containing tree.
 
 ```
-JsonToken := JsonObject.AsToken
+String := JsonValue.Path
 ```
 
-### Parameters
-*JsonObject*  
-&emsp;Type: JsonObject
+## Parameters
+*JsonValue*  
+&emsp;Type: JsonValue
 
-## Return Value
-*JsonToken*  
-&emsp;Type : JsonToken
+## Property Value/Return Value
+Type : String
 
-The returned JsonToken contains the same data as the JsonObject, but allows for treating the data in a generic manner.
+The path of the value relative to its containing JSON tree.
+If the object is the root of the JSON tree, the path will be empty.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  
