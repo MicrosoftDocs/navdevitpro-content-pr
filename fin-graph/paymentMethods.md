@@ -21,10 +21,10 @@ Represents a paymentMethods resource type in [!INCLUDE[d365fin_long_md](../dynam
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET paymentMethods](get-paymentMethods.md)|paymentMethods|Get a Payment Method.|
-|[POST paymentMethods](create-paymentMethods.md)|paymentMethods|Create a Payment Method.|
-|[PATCH paymentMethods](update-paymentMethods.md)|paymentMethods|Update a Payment Method.|
-|[DELETE paymentMethods](delete-paymentMethods.md)|none|Delete a Payment Method.|
+|[GET paymentMethods](get-paymentmethods.md)|paymentMethods|Get a Payment Method.|
+|[POST paymentMethods](create-paymentmethods.md)|paymentMethods|Create a Payment Method.|
+|[PATCH paymentMethods](update-paymentmethods.md)|paymentMethods|Update a Payment Method.|
+|[DELETE paymentMethods](delete-paymentmethods.md)|none|Delete a Payment Method.|
 
 ## Properties
 | Property	   | Type	|Description|

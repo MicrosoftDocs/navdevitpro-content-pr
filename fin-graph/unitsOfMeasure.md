@@ -21,10 +21,10 @@ Represents a unitsOfMeasure resource type in [!INCLUDE[d365fin_long_md](../dynam
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET unitsOfMeasure](get-unitsOfMeasure.md)|unitsOfMeasure|Get a Unit of Measure.|
-|[POST unitsOfMeasure](create-unitsOfMeasure.md)|unitsOfMeasure|Create a Unit of Measure.|
-|[PATCH unitsOfMeasure](update-unitsOfMeasure.md)|unitsOfMeasure|Update a Unit of Measure.|
-|[DELETE unitsOfMeasure](delete-unitsOfMeasure.md)|none|Delete a Unit of Measure.|
+|[GET unitsOfMeasure](get-unitsofmeasure.md)|unitsOfMeasure|Get a Unit of Measure.|
+|[POST unitsOfMeasure](create-unitsofmeasure.md)|unitsOfMeasure|Create a Unit of Measure.|
+|[PATCH unitsOfMeasure](update-unitsofmeasure.md)|unitsOfMeasure|Update a Unit of Measure.|
+|[DELETE unitsOfMeasure](delete-unitsofmeasure.md)|none|Delete a Unit of Measure.|
 
 ## Properties
 | Property	   | Type	|Description|

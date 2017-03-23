@@ -21,10 +21,10 @@ Represents a countriesRegions resource type in [!INCLUDE[d365fin_long_md](../dyn
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET countriesRegions](get-countriesRegions.md)|countriesRegions|Get a Countries/Regions.|
-|[POST countriesRegions](create-countriesRegions.md)|countriesRegions|Create a Countries/Regions.|
-|[PATCH countriesRegions](update-countriesRegions.md)|countriesRegions|Update a Countries/Regions.|
-|[DELETE countriesRegions](delete-countriesRegions.md)|none|Delete a Countries/Regions.|
+|[GET countriesRegions](get-countriesregions.md)|countriesRegions|Get a Countries/Regions.|
+|[POST countriesRegions](create-countriesregions.md)|countriesRegions|Create a Countries/Regions.|
+|[PATCH countriesRegions](update-countriesregions.md)|countriesRegions|Update a Countries/Regions.|
+|[DELETE countriesRegions](delete-countriesregions.md)|none|Delete a Countries/Regions.|
 
 ## Properties
 | Property	   | Type	|Description|

@@ -21,10 +21,10 @@ Represents a journalLine resource type in [!INCLUDE[d365fin_long_md](../dynamics
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET journalLine](get-journalLine.md)|journalLines|Get Journal Line.|
-|[POST journalLine](create-journalLine.md)|journalLines|Create Journal Line.|
-|[PATCH journalLine](update-journalLine.md)|journalLines|Update Journal Line.|
-|[DELETE journalLine](delete-journalLine.md)|none|Delete Journal Line.|
+|[GET journalLine](get-journalline.md)|journalLines|Get Journal Line.|
+|[POST journalLine](create-journalline.md)|journalLines|Create Journal Line.|
+|[PATCH journalLine](update-journalline.md)|journalLines|Update Journal Line.|
+|[DELETE journalLine](delete-journalline.md)|none|Delete Journal Line.|
 
 ## Properties
 | Property	   | Type	|Description|

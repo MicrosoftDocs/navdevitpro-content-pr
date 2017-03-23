@@ -21,10 +21,10 @@ Represents an itemCategories resource type in [!INCLUDE[d365fin_long_md](../dyna
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET itemCategories](get-itemCategories.md)|itemCategories|Get an Item Category.|
-|[POST itemCategories](create-itemCategories.md)|itemCategories|Create an Item Category.|
-|[PATCH itemCategories](update-itemCategories.md)|itemCategories|Update an Item Category.|
-|[DELETE itemCategories](delete-itemCategories.md)|none|Delete an Item Category.|
+|[GET itemCategories](get-itemcategories.md)|itemCategories|Get an Item Category.|
+|[POST itemCategories](create-itemcategories.md)|itemCategories|Create an Item Category.|
+|[PATCH itemCategories](update-itemcategories.md)|itemCategories|Update an Item Category.|
+|[DELETE itemCategories](delete-itemcategories.md)|none|Delete an Item Category.|
 
 ## Properties
 | Property	   | Type	|Description|
