@@ -49,6 +49,7 @@ Here is a JSON representation of the paymentTerms.
 
 ```json
 {
+  "id": "GUID",
   "code": "string",
   "displayName": "string",
   "dueDateCalculation": "string",
