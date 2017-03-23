@@ -45,9 +45,9 @@ This section describes all of the objects that are available with [!INCLUDE[navn
 |[HttpHeaders](httpheaders-class.md)|The HttpHeaders class contains a collection of headers and their values.|
 |[HttpRequestMessage](httprequestmessage-class.md)|Represents an HTTP request message.|
 |[HttpReponseMessage](httpresponsemessage-class.md)|Represents an HTTP response message.|
-|[JsonArray](jsonarray-class.md)|**JsonArray** is a container for any well-formed JSON array. A default **JsonArray** contains an empty JSON array.|
+|[JsonArray](jsonarray-class.md)|JsonArray is a container for any well-formed JSON array. A default JsonArray contains an empty JSON array.|
 |[JsonObject](jsonobject-class.md)|JsonObject object is a container for any well-formed JSON object. A default JsonObject contains an empty JSON object.|
-|[JsonToken](jsontoken-class.md)|**JsonToken** object is a container for any well-formed JSON data. A default **JsonToken** contains the JSON value of NULL.|
+|[JsonToken](jsontoken-class.md)|JsonToken*object is a container for any well-formed JSON data. A default JsonToken contains the JSON value of NULL.|
 |[JsonValue](jsonvalue-class.md)|JsonValue object is a container for any well-formed JSON object. A default JsonValue is set to the JSON value of NULL.|
 
 
