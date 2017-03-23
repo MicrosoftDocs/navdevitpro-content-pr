@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and unitsOfMe
 Here is an example of a request.
 
 ```json
-POST https://graph.microsoft.com/beta/finacials/companies/{id}/unitsOfMeasure
+POST https://graph.microsoft.com/beta/financials/companies/{id}/unitsOfMeasure
 Content-type: application/json
 
 {

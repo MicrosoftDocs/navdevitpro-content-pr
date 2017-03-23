@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and paymentMe
 Here is an example of a request.
 
 ```json
-POST https://graph.microsoft.com/beta/finacials/companies/{id}/paymentMethods
+POST https://graph.microsoft.com/beta/financials/companies/{id}/paymentMethods
 Content-type: application/json
 
 {
