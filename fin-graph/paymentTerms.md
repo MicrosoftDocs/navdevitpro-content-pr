@@ -21,10 +21,10 @@ Represents a paymentTerms resource type in [!INCLUDE[d365fin_long_md](../dynamic
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET paymentTerms](get-paymentTerms.md)|paymentTerms|Get a Payment Terms.|
-|[POST paymentTerms](create-paymentTerms.md)|paymentTerms|Create a Payment Terms.|
-|[PATCH paymentTerms](update-paymentTerms.md)|paymentTerms|Update a Payment Terms.|
-|[DELETE paymentTerms](delete-paymentTerms.md)|none|Delete a Payment Terms.|
+|[GET paymentTerms](get-paymentterms.md)|paymentTerms|Get a Payment Terms.|
+|[POST paymentTerms](create-paymentterms.md)|paymentTerms|Create a Payment Terms.|
+|[PATCH paymentTerms](update-paymentterms.md)|paymentTerms|Update a Payment Terms.|
+|[DELETE paymentTerms](delete-paymentterms.md)|none|Delete a Payment Terms.|
 
 ## Properties
 | Property	   | Type	|Description|

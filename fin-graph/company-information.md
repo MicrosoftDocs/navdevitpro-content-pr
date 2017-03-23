@@ -21,8 +21,8 @@ Represents a companyInformation resource type in [!INCLUDE[d365fin_long_md](../d
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET companyInformation](get-companyInformation.md)|companyInformation|Get Company Information.|
-|[PATCH companyInformation](update-companyInformation.md)|companyInformation|Update Company Information.|
+|[GET companyInformation](get-companyinformation.md)|companyInformation|Get Company Information.|
+|[PATCH companyInformation](update-companyinformation.md)|companyInformation|Update Company Information.|
 
 
 ## Properties
