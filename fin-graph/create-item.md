@@ -40,7 +40,7 @@ If successful, this method returns ```201 Created``` response code and items obj
 Here is an example of a request.
 
 ```json
-POST https://graph.microsoft.com/beta/finacials/companies/{id}/items
+POST https://graph.microsoft.com/beta/financials/companies/{id}/items
 Content-type: application/json
 
 {

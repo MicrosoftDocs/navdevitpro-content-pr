@@ -43,7 +43,7 @@ If successful, this method returns ```201 Created``` response code and shipmentM
 Here is an example of a request.
 
 ```json
-POST https://graph.microsoft.com/beta/finacials/companies/{id}/shipmentMethods
+POST https://graph.microsoft.com/beta/financials/companies/{id}/shipmentMethods
 Content-type: application/json
 
 {

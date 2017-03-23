@@ -41,7 +41,7 @@ If successful, this method returns ```201 Created``` response code and itemCateg
 Here is an example of a request.
 
 ```json
-POST https://graph.microsoft.com/beta/finacials/companies/{id}/itemCategories
+POST https://graph.microsoft.com/beta/financials/companies/{id}/itemCategories
 Content-type: application/json
 
 {
