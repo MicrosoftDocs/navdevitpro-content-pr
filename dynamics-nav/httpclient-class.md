@@ -25,11 +25,11 @@ The following methods are available on the HttpClient class.
 |[DefaultRequestHeaders](httpclient-defaultrequestheaders-method.md)|Gets the default request headers which should be sent with each request.|
 |[Delete](httpclient-delete-method.md)Sends a DELETE request to delete the resource identified by the request URL.|
 |[Get](httpclient-get-method.md)|Sends a GET request to get the resource identified by the request URL.|
-|[GetBaseAddress](httpclient-getbaseaddress-method.md)|Gets the base address of Uniform Resource Identifier (URI) of the Internet resource used when sending requests.|
+|[GetBaseAddress](httpclient-getbaseaddress-method.md)|Gets the base address of Uniform Resource Identifier (Uri) of the Internet resource used when sending requests.|
 |[Post](httpclient-post-method.md)|Sends a POST request to the specified Uri as an asynchronous operation.|
 |[Put](httpclient-put-method.md)|Sends a PUT request to the specified Uri as an asynchronous operation.|
 |[Send](httpclient-send-method.md)|Sends an HTTP request as an asynchronous operation.|
-|[SetBaseAddress](httpclient-setbaseaddress-method.md)|Sets the base address of Uniform Resource Identifier (URI) of the Internet resource used when sending requests.|
+|[SetBaseAddress](httpclient-setbaseaddress-method.md)|Sets the base address of Uniform Resource Identifier (Uri) of the Internet resource used when sending requests.|
 |[Timeout](httpclient-timeout-method.md)|Gets or sets the duration in seconds to wait before the request times out.|
 
 ## See Also

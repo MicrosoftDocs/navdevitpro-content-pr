@@ -31,7 +31,7 @@ Sets the Uri used for the HTTP request.
 ## Return Value
 *Ok*
 &esmp;Type: Boolean
-&emsp;**true** if the URI was valid; otherwise, **false**.
+&emsp;**true** if the Uri was valid; otherwise, **false**.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

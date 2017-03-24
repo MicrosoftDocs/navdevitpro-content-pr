@@ -32,7 +32,8 @@ Reads the content into the provided text.
 *Ok*
 &emsp;Type: Boolean
 &emsp;**true** if the operation was successful; otherwise, **false**.
-&emsp;Accessing the HttpContent property of HttpResponseMessage in case when the request failed will result in an error.
+&emsp;Accessing the HttpContent property of the HttpResponseMessage class when the request fails will result in an error.
+
 ## See Also
 [Getting Started](newdev-get-started.md)  
 [Developing Extensions Using the New Development Environment](newdev-dev-overview.md)
