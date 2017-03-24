@@ -30,7 +30,6 @@ Type: String
 ## Return Value
 Type: Boolean
 
-## Remarks
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

@@ -26,8 +26,6 @@ The following methods are available on the HttpHeaders class.
 |[GetValues](httpheaders-getvalues-method.md)||
 |[Remove](httpheaders-remove-method.md)||
 
-## Remarks
-
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

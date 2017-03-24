@@ -29,8 +29,6 @@ The following methods are available on the HttpRequestMessage class.
 |[SetRequestUri](httprequestmessage-setrequesturi-method.md)|Sets the Uri used for the HTTP request.|
 
 
-## Remarks
-
 ## See Also
 [Getting Started](newdev-get-started.md)  
 [Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

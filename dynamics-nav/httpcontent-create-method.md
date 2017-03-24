@@ -21,14 +21,6 @@ HttpContent.Create(Value)
 ```
 
 ## Parameters
-*JsonArray*  
-Type: JsonArray
-
-*Value*  
-Type: JsonToken | JsonObject | JsonValue | JsonArray | Boolean | Char | Byte | Integer | BigInteger | Decimal | Duration | String | Date | Time | DateTime
-
-
-## Remarks
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

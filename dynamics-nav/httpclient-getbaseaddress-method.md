@@ -31,7 +31,6 @@ Type: HttpReponseMessage
 *Ok*  
 Type: Boolean
 
-## Remarks
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

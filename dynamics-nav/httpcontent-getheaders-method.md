@@ -16,7 +16,6 @@ author: SusanneWindfeldPedersen
 
 # GetHeaders Method
 
-## Remarks
 
 
 ## See Also

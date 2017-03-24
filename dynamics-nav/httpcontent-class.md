@@ -27,7 +27,6 @@ The following methods are available on the HttpContent class.
 |[ReadAs](httpcontent-readas-method.md)||
 |[WriteFrom](httpcontent-writefrom-method.md)||
 
-## Remarks
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

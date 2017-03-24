@@ -16,7 +16,6 @@ author: SusanneWindfeldPedersen
 
 # WriteFrom Method
 
-## Remarks
 
 
 ## See Also

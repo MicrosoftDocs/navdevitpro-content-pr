@@ -29,8 +29,6 @@ The following methods are available on the HttpResponseMessage class.
 |[SetRequestUri](httpresponsemessage-reasonphrase-method.md)|Gets or sets the reason phrase which typically is sent by servers together with the status code.|
 
 
-## Remarks
-
 ## See Also
 [Getting Started](newdev-get-started.md)  
 [Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

@@ -28,7 +28,6 @@ Type: HttpRequestMessage
 *RequestUri*  
 Type: String
 
-## Remarks
 
 ## See Also
 [Getting Started](newdev-get-started.md)  
