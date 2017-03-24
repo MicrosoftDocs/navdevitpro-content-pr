@@ -30,7 +30,6 @@ Type: HttpContent
 *CurrentContent*  
 Type: HttpContent
 
-## Remarks
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

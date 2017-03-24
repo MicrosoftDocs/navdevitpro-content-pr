@@ -16,7 +16,9 @@ author: SusanneWindfeldPedersen
 
 # Create Method
 
-## Remarks
+```
+HttpClient.Create
+```
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

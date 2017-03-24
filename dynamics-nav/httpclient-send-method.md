@@ -34,7 +34,6 @@ Type: Boolean
 
 **true** if the operation was successful; otherwise, **false**.
 
-## Remarks
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

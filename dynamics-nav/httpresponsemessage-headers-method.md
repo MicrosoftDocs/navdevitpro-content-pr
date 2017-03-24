@@ -16,7 +16,6 @@ author: SusanneWindfeldPedersen
 
 # Headers Method
 
-## Remarks
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

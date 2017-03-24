@@ -20,7 +20,7 @@ author: SusanneWindfeldPedersen
 ```
 HttpContent.Clear
 ```
-## Remarks
+
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

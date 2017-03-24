@@ -33,8 +33,6 @@ The following methods are available on the HttpClient class.
 |[SetBaseAddress](httpclient-setbaseaddress-method.md)|Sets the base address of Uniform Resource Identifier (URI) of the Internet resource used when sending requests.|
 |[TimeOut](httpclient-timeout-method.md)|Gets or sets the timespan to wait before the request times out.|
 
-## Remarks
-
 ## See Also
 [Getting Started](newdev-get-started.md)  
 [Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

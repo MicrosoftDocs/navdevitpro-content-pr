@@ -20,7 +20,6 @@ author: SusanneWindfeldPedersen
 HttpHeaders.Clear()
 ```
 
-## Remarks
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

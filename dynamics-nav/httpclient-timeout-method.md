@@ -17,7 +17,6 @@ author: SusanneWindfeldPedersen
 # TimeOut Method
 Gets or sets the timespan to wait before the request times out.
 
-## Remarks
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

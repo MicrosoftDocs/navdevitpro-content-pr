@@ -17,7 +17,6 @@ author: SusanneWindfeldPedersen
 # DefaultRequestHeaders Method
 Gets the headers which should be sent with each request.
 
-## Remarks
 
 ## See Also
 [Getting Started](newdev-get-started.md)  
