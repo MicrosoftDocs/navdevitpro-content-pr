@@ -16,13 +16,13 @@ manager: edupont
 # HttpHeaders Class
 The HttpHeaders class contains a collection of headers and their values.
 
-The following methods are available on the **HttpHeaders** class.
+The following methods are available on the HttpHeaders class.
 
 |Method name|Description|
 |-----------|-----------|
 |[Add](httpheaders-add-method.md)||
 |[Clear](httpheaders-clear-method.md)||
-|[Contains](httpheaders-contains-method.md)|Verifies if an **HttpHeaders** contains a property with a given key.|
+|[Contains](httpheaders-contains-method.md)|Verifies if an HttpHeaders contains a property with a given key.|
 |[GetValues](httpheaders-getvalues-method.md)||
 |[Remove](httpheaders-remove-method.md)||
 

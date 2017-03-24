@@ -16,21 +16,20 @@ author: SusanneWindfeldPedersen
 
 # IsArray Method
 
-Indicates whether a JsonToken represents/contains a JSON object.
+Indicates whether a JsonToken represents a JSON array.
 
 ```
-Ok := JsonToken.IsObject
+Ok := JsonToken.IsArray
 ```
 
 ### Parameters
-*JsonToken*
-
-Type: JsonToken
+*JsonToken*  
+&emsp;Type: JsonToken
 
 ## Property Value/Return Value
 Type : Boolean
 
-**true** if the JsonToken represents a JSON object; otherwise, **false**.
+**true** if the JsonToken represents a JSON array; otherwise, **false**.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

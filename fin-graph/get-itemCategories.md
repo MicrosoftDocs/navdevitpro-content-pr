@@ -31,7 +31,7 @@ GET /financials/companies/{id}/itemCategories/{id}
 ## Request body
 Do not supply a request body for this method.
 
-## Reponse
+## Response
 If successful, this method returns a ```200 OK``` response code and itemCategories object in the response body.
 
 ## Example
@@ -53,6 +53,7 @@ Here is an example of the response. Note: The response object shown here may be 
   "code": "CHAIR",
   "displayName": "Office Chair",
   "lastModifiedDateTime": "2017-03-15T02:21:24.047Z"
+}
 ```
 
 

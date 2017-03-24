@@ -31,7 +31,7 @@ GET /financials/companies/{id}/journalLines/{id}
 ## Request body
 Do not supply a request body for this method.
 
-## Reponse
+## Response
 If successful, this method returns a ```200 OK``` response code and journalLines object in the response body.
 
 ## Example
@@ -50,7 +50,7 @@ Here is an example of the response. Note: The response object shown here may be 
 ```json
 {
     "id": "id-value",
-    "accountId": "ae123e63-b39f-45bf-b3ee-4e6bb5793dd8",
+    "accountId": "id-value",
     "accountNumber": "10400",
     "amount": 1500,
     "lineNumber": 10000,
@@ -60,6 +60,7 @@ Here is an example of the response. Note: The response object shown here may be 
     "comment": "",
     "postingDate": "2015-12-31",
     "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
+    }
 ```
 
 ## See Also

@@ -23,14 +23,12 @@ Removes the token at the given index.
 ```
 
 ## Parameters
-*JsonArray*
-Type: JsonArray
+*JsonArray*  
+&emsp;Type: JsonArray
 
-*Index*
-Type: Integer
-
-*Value*
-Type: JsonToken | JsonObject | JsonValue | JsonArray | Boolean | Char | Byte | Integer | BigInteger | Decimal | Duration | String | Date | Time | DateTime
+*Index*  
+&emsp;Type: Integer  
+&emsp;The position of the element that will be removed.
 
 ## Return Value
 Type : Boolean
@@ -39,7 +37,9 @@ Type : Boolean
 If you omit this optional return value and if the select does not execute successfully, then a run-time error occurs.
 
 ## Remarks
-The operation will fail if the *Index* is smaller than 0 or (greater or equal) than JsonArray.Count.
+1. The operation will fail if the *Index* is smaller than 0 or (greater or equal) than JsonArray.Count.
+
+2. Objects of type JsonArray represent a 0-based array.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

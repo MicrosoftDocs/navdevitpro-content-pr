@@ -16,24 +16,21 @@ author: SusanneWindfeldPedersen
 
 # AsDate Method
 
-Converts the value in a JsonValue to a **Date** data type.
+Converts the value in a JsonValue to a Date data type.
 
 ```
 Date := JsonValue.AsDate
 ```
 
 ### Parameters
-*JsonValue*
-
-Type: JsonValue
+*JsonValue*  
+&emsp;Type: JsonValue
 
 ## Return Value
 Type : Date
 
 ## Remarks
 If the JsonValue does not contain a string of the format "yyyy-MM-dd" e.g. "2017-01-17" (2017-Janury-17), the operation will fail with a run-time error.
-
-<!-- //TODO:Link to example about custom parsing.-->
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

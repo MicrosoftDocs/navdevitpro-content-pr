@@ -21,8 +21,8 @@ Represents a companyInformation resource type in [!INCLUDE[d365fin_long_md](../d
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET companyInformation](get-companyInformation.md)|companyInformation|Get a companyInformation object.|
-|[Update companyInformation](update-companyInformation.md)|companyInformation|Update a companyInformation object.|
+|[GET companyInformation](get-companyInformation.md)|companyInformation|Get Company Information.|
+|[PATCH companyInformation](update-companyInformation.md)|companyInformation|Update Company Information.|
 
 
 ## Properties
@@ -53,7 +53,7 @@ Here is a JSON representation of the companyInformation
 {
   "id": "GUID",
   "displayName": "string",
-  "address": NAV.PostalAddress,
+  "address": "NAV.PostalAddress",
   "phoneNumber": "string",
   "faxNumber": "string",
   "email": "string",

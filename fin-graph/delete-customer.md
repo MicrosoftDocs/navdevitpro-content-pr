@@ -30,8 +30,8 @@ DELETE /financials/companies/{id}/customers/{id}
 ## Request body
 Do not supply a request body for this method.
 
-## Reponse
-If successful, this method returns ```204, No Content``` response code. It does not return anything in the response body.
+## Response
+If successful, this method returns ```204 No Content``` response code. It does not return anything in the response body.
 
 ## Example
 

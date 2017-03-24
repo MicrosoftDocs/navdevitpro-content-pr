@@ -22,14 +22,14 @@ Sends an HTTP request as an asynchronous operation.
 ```
 
 ## Parameters
-*Content*
+*Content*  
 Type: HttpContent
 
-*Response*
+*Response*  
 Type: HttpResponseMessage
 
 ## Return Value
-*Ok*
+*Ok*  
 Type: Boolean
 
 **true** if the operation was successful; otherwise, **false**.

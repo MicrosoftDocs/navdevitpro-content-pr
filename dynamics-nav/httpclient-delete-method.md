@@ -21,14 +21,14 @@ Sends a DELETE request to delete the resource identified by the request URL.
 [Ok := ] HttpClient.Delete(Path, Response)
 ```
 ## Parameters
-*Path*
+*Path*  
 Type: String
 
-*Response*
+*Response*  
 Type: HttpReponseMessage
 
 ## Return value
-*Ok*
+*Ok*  
 Type: Boolean
 
 ## Remarks

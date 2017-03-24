@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# UPDATE Customer Method
+# PATCH Customer Method
 Update the properties of a customers object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 
@@ -34,7 +34,7 @@ PATCH /financials/companies/{id}/customers/{id}
 ## Request body
 In the request body, supply the values for relevant fields that should be updated. Existing properties that are not included in the request body will maintain their previous values or be recalculated based on changes to other property values. For best performance you shouldn't include existing values that haven't changed.
 
-## Reponse
+## Response
 If successful, this method returns a ```200 OK``` response code and an updated customers object in the response body.
 
 ## Example
@@ -49,7 +49,7 @@ Content-type: application/json
 
 {
   "displayName": "Coho Winery Inc.",
-  "phoneNumber": "5555551234"
+  "phoneNumber": "(555) 555-1234"
 }
 ```
 
@@ -72,7 +72,7 @@ Content-type: application/json
     "countryLetterCode": "US",
     "postalCode": "31772"
   },
-  "phoneNumber": "5555551234",
+  "phoneNumber": "(555) 555-1234",
   "email": "jim.glynn@cronuscorp.net",
   "website": "",
   "taxLiable": true,
@@ -89,7 +89,7 @@ Content-type: application/json
   "blocked": " ",
   "balance": 0,
   "lastModifiedDateTime": "2017-03-07T00:35:28.983Z"
-    }
+}
 ```
 
 
