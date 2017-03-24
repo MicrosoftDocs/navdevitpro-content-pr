@@ -19,19 +19,16 @@ author: SusanneWindfeldPedersen
 Sets the base address of Uniform Resource Identifier (URI) of the Internet resource used when sending requests.
 
 ```
-[Ok := ] HttpClient.SetBaseAddress(Path, Response)
+[Ok := ] HttpClient.SetBaseAddress(Path)
 ```
 ## Parameters
 *Path*  
 Type: String
 
-*Response*  
-Type: HttpReponseMessage
-
 ## Return value
 *Ok*  
-Type: Boolean
-
+&emsp;Type: Boolean
+&emsp;**true** if the operation was successful; otherwise, **false**.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

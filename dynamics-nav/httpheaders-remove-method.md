@@ -15,18 +15,22 @@ author: SusanneWindfeldPedersen
 ---
 
 # Remove Method
+Removes the key and the related values from the HttpHeaders object.
+
 ```
-Ok := HttpHeaders.Remove(String)
+[Ok := ] HttpHeaders.Remove(Key)
 ```
+
 ## Parameters
 *HttpHeaders*  
-Type: HttpHeaders
+&emsp;Type: HttpHeaders
 
-*String*  
-Type: String
+*Key*  
+&emsp;Type: Text
 
 ## Return Value
-Type: Boolean
+&emsp;Type: Boolean
+&emsp;**true** if key exists; **false** otherwise.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

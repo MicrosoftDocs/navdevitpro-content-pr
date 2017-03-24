@@ -14,8 +14,16 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# Headers Method
+# Headers Property
+Gets the HTTP request's HTTP headers.
 
+```
+Headers := HttpContent.Headers
+```
+
+## Property Value
+*Headers*
+&emsp;Type: HttpHeaders
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

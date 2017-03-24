@@ -14,20 +14,16 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# IsSuccessStatusCode Method
+# IsSuccessStatusCode Property
 Gets a value that indicates if the HTTP response was successful.
 
 ```
-syntax
+HttpResponseMessage.IsSuccessStatusCode
 ```
-## Parameters
-*SetContent*  
-Type: HttpContent
 
-## Return Value
-*CurrentContent*  
-Type: HttpContent
-
+## Property Value
+&emsp;Type: Boolean
+**true** if the status code is 200; **false** otherwise.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

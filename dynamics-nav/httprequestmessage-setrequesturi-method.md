@@ -18,16 +18,20 @@ author: SusanneWindfeldPedersen
 Sets the Uri used for the HTTP request.
 
 ```
-RequestUri := HttpRequestMessage.SetRequestUri
+[Ok := ] HttpRequestMessage.SetRequestUri(RequestUri)
 ```
+
 ## Parameters
-*SetRequestUri*  
-Type: HttpRequestMessage
+*HttpRequestMessage*  
+&emsp;Type: HttpRequestMessage
+
+*RequestUri*  
+&emsp;Type: Text
 
 ## Return Value
-*RequestUri*  
-Type: String
-
+*Ok*
+&esmp;Type: Boolean
+&emsp;**true** if the URI was valid; otherwise, **false**.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

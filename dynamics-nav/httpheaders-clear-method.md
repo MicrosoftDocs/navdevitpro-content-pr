@@ -15,11 +15,15 @@ author: SusanneWindfeldPedersen
 ---
 
 # Clear Method
+Sets the HttpHeaders variable to the default value.
 
 ```
-HttpHeaders.Clear()
+HttpHeaders.Clear
 ```
 
+## Parameters
+*HttpHeaders*
+&emsp;Type: HttpHeaders
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

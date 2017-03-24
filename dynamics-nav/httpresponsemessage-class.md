@@ -22,11 +22,11 @@ The following methods are available on the HttpResponseMessage class.
 
 |Method name|Description|
 |-----------|-----------|
-|[Content](httpresponsemessage-content-method.md)|Gets or sets the contents of the HTTP message.|
-|[Headers](httpresponsemessage-headers-method.md)||
-|[HttpStatusCode](httpresponsemessage-httpstatuscode-method.md)|Gets or sets the status code of the HTTP response.|
+|[Content](httpresponsemessage-content-method.md)|Gets the contents of the HTTP message.|
+|[Headers](httpresponsemessage-headers-method.md)|Gets the HTTP request's HTTP headers.|
+|[HttpStatusCode](httpresponsemessage-httpstatuscode-method.md)|Gets the status code of the HTTP response.|
 |[IsSuccessStatusCode](httpresponsemessage-issuccessstatuscode-method.md)|Gets a value that indicates if the HTTP response was successful.|
-|[SetRequestUri](httpresponsemessage-reasonphrase-method.md)|Gets or sets the reason phrase which typically is sent by servers together with the status code.|
+|[SetRequestUri](httpresponsemessage-reasonphrase-method.md)|Gets the reason phrase which typically is sent by servers together with the status code.|
 
 
 ## See Also

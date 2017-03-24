@@ -15,12 +15,16 @@ author: SusanneWindfeldPedersen
 ---
 
 # Clear Method
-
+Sets the HttpContent object to a default value.
+The content contains an empty string and empty headers.
 
 ```
 HttpContent.Clear
 ```
 
+## Parameters
+*HttpContent*
+&emsp;Type: HttpContent
 
 ## See Also
 [Getting Started](newdev-get-started.md)  
