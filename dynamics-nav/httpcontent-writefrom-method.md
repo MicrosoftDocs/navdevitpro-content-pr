@@ -15,8 +15,19 @@ author: SusanneWindfeldPedersen
 ---
 
 # WriteFrom Method
+Sets HttpContent content to the provided text or stream.
 
+```
+HttpContent.WriteFrom(Value)
+```
 
+## Parameters
+*HttpContent*
+&emsp;Type: HttpContent
+
+*Value*
+&emsp;Type: Text or InStream
+&emsp;A new HttpContent is constructed with this value and headers from before.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

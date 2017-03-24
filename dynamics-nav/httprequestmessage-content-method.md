@@ -14,22 +14,15 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# Content Method
-
+# Content Property
 Gets or sets the contents of the HTTP message.
 
 ```
-CurrentContent := HttpRequestMessage.Content
+HttpRequestMessage.Content
 ```
 
-## Parameters
-*SetContent*  
-Type: HttpContent
-
-## Return Value
-*CurrentContent*  
-Type: HttpContent
-
+## Property Value
+&emsp;Type: HttpContent
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

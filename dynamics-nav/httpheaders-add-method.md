@@ -15,18 +15,26 @@ author: SusanneWindfeldPedersen
 ---
 
 # Add Method
+Adds sets the provided value for the provided header name.
+
+```
+[Ok := ] HttpHeaders.Add(Key, Value)
+```
 
 ## Parameters
-*Name*  
-Type: String
+*HttpHeaders*  
+&emsp;Type: HttpHeaders
 
-*Value*  
-Type: String
+*Key*
+&emsp;Type: Text
 
-## Return value
-*Ok*  
-Type: Boolean
+*Value*
+&emsp;Type: Text
 
+## Return Value
+*Ok*
+&emsp;Type: Boolean
+&emsp;**true** if the operation was successful; otherwise, **false**.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

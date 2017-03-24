@@ -14,9 +14,16 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# TimeOut Method
-Gets or sets the timespan to wait before the request times out.
+# Timeout Property
+Gets or sets the duration in seconds to wait before the request times out.
 
+```
+HttpClient.Timeout
+```
+
+## Property Value
+&emsp;Type: Integer
+&emsp;The number of seconds before the request times out.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

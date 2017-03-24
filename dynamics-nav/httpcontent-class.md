@@ -21,11 +21,10 @@ The following methods are available on the HttpContent class.
 
 |Method name|Description|
 |-----------|-----------|
-|[Clear](httpcontent-clear-method.md)||
-|[Create](httpcontent-create-method.md)||
-|[GetHeaders](httpcontent-getheaders-method.md)||
-|[ReadAs](httpcontent-readas-method.md)||
-|[WriteFrom](httpcontent-writefrom-method.md)||
+|[Clear](httpcontent-clear-method.md)|Sets the HttpContent object to a default value.|
+|[GetHeaders](httpcontent-getheaders-method.md)|Gets the content's Http headers.|
+|[ReadAs](httpcontent-readas-method.md)|Reads the content into the provided text.|
+|[WriteFrom](httpcontent-writefrom-method.md)|Sets HttpContent content to the provided text or stream.|
 
 
 ## See Also

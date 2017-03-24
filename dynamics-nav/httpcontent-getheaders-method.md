@@ -15,8 +15,24 @@ author: SusanneWindfeldPedersen
 ---
 
 # GetHeaders Method
+Gets the content's Http headers.
 
+```
+[Ok := ] HttpContent.GetHeaders(Result)
+```
 
+## Parameters
+*HttpContent*
+&emsp;Type: HttpContent
+
+*Result*
+&emsp;Type: HttpHeaders
+
+## Return Value
+*Ok*
+&emsp;Type: Boolean
+&emsp;**true** if the operation was successful; otherwise, **false**.
+&emsp;Accessing the HttpContent property of HttpResponseMessage in case when the request failed will result in an error.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

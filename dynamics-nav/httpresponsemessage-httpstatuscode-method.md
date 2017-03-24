@@ -14,9 +14,15 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# HttpStatusCode Method
-Gets or sets the status code of the HTTP response.
+# HttpStatusCode Property
+Gets the status code of the HTTP response.
 
+```
+HttpResponseMessage.HttpStatusCode
+```
+
+## Property Value
+&emsp;Type: Integer
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

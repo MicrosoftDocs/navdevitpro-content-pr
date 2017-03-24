@@ -20,19 +20,20 @@ Sends a DELETE request to delete the resource identified by the request URL.
 ```
 [Ok := ] HttpClient.Delete(Path, Response)
 ```
+
 ## Parameters
 *Path*  
-Type: String
+&emsp;Type: String
 
 *Response*  
-Type: HttpReponseMessage
+&emsp;Type: HttpReponseMessage
 
 ## Return value
 *Ok*  
-Type: Boolean
+&emsp;Type: Boolean
 
-## Remarks
-**true** if the operation was successful; otherwise, **false**.
+&emsp;**true** if the operation was successful; otherwise, **false**.
+&emsp;Accessing the HttpContent property of HttpResponseMessage in case when the request failed will result in an error.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  
