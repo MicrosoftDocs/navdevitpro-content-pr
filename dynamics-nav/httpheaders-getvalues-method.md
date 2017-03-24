@@ -15,21 +15,26 @@ author: SusanneWindfeldPedersen
 ---
 
 # GetValues Method
-
+Gets the values for the specified key.
 
 ```
-Ok := HttpHeaders.GetValues(String)
+[Ok := ] HttpHeaders.GetValues(Key, Result)
 ```
+
 ## Parameters
 *HttpHeaders*  
-Type: HttpHeaders
+&emsp;Type: HttpHeaders
 
-*String*  
-Type: String
+*Key*  
+&emsp;Type: Text
+
+*Result*
+&emsp;Type: Array of Text
 
 ## Return Value
-Type: Boolean
-
+*Ok*
+&emsp;Type: Boolean
+&emsp;**true** if headers contain the key; **false** otherwise.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

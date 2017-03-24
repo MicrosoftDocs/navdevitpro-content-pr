@@ -15,7 +15,24 @@ author: SusanneWindfeldPedersen
 ---
 
 # ReadAs Method
+Reads the content into the provided text.
 
+```
+[Ok := ] HttpContent.ReadAs(Result)
+```
+
+## Parameters
+*HttpContent*
+&emsp;Type: HttpContent
+
+*Result*
+&emsp;Type: Text or InStream
+
+## Return Value
+*Ok*
+&emsp;Type: Boolean
+&emsp;**true** if the operation was successful; otherwise, **false**.
+&emsp;Accessing the HttpContent property of HttpResponseMessage in case when the request failed will result in an error.
 ## See Also
 [Getting Started](newdev-get-started.md)  
 [Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

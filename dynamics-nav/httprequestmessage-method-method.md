@@ -14,8 +14,11 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# Method Method
+# Method Property
+Gets or sets the method type as defined in the HTTP standard.
 
+## Property Value
+Type: Text
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

@@ -15,10 +15,15 @@ author: SusanneWindfeldPedersen
 ---
 
 # Clear Method
+Sets the HttpClient variable to the default value.
 
 ```
 HttpClient.Clear
 ```
+
+## Parameters
+*HttpClient*
+&emsp;Type: HttpClient
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

@@ -18,19 +18,15 @@ author: SusanneWindfeldPedersen
 Gets the base address of Uniform Resource Identifier (URI) of the Internet resource used when sending requests.
 
 ```
-[Ok := ] HttpClient.GetBaseAddress(Path, Response)
+[Ok := ] HttpClient.GetBaseAddress
 ```
 ## Parameters
-*Path*  
-Type: String
-
-*Response*  
-Type: HttpReponseMessage
+&emsp;HttpClient: The HttpClient whose BaseAddress we are trying to get.
 
 ## Return value
-*Ok*  
-Type: Boolean
-
+*Address*  
+&emsp;Type: Boolean
+&emsp;The base address of Uniform Resource Identifier (URI) of the Internet resource used when sending requests.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

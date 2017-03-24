@@ -22,13 +22,12 @@ Gets the Uri used for the HTTP request.
 RequestUri := HttpRequestMessage.GetRequestUri
 ```
 ## Parameters
-*GetRequestUri*  
-Type: HttpRequestMessage
+*HttpRequestMessage*  
+&emsp;Type: HttpRequestMessage
 
 ## Return Value
 *RequestUri*  
-Type: String
-
+&emsp;Type: String
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

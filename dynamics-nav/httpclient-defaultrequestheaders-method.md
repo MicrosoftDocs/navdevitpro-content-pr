@@ -15,8 +15,18 @@ author: SusanneWindfeldPedersen
 ---
 
 # DefaultRequestHeaders Method
-Gets the headers which should be sent with each request.
+Gets the default request headers which should be sent with each request.
 
+```
+HttpHeaders := HttpClient.DefaultRequestHeaders
+```
+
+## Property Value
+*HttpHeaders*
+&emsp;Type: HttpHeaders
+
+Since the headers variable is a reference type, when you add a header to it the default headers for the Http client from which the headers were gotten are changed.
+You can not set some other HttpHeaders object as default headers, you have to update the one fetched from Http client.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  
