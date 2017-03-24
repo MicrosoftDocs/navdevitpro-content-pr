@@ -38,6 +38,8 @@ Represents a journalLine resource type in [!INCLUDE[d365fin_long_md](../dynamics
 |externalDocumentNumber|string|Specifies an external document number for the journal line.|
 |description|string|The description of the journal line, provided by the user or autocreated.|
 |comment|string|A user specified comment on the journal line.|
+|financialDimension1|string| ??? |
+|financialDimension2|string| ??? |
 |postingDate|date|The date that the journal line is posted. Read-Only.|
 |lastModifiedDateTime|datetime|The last datetime the journal line was modified. Read-Only.|
 
@@ -55,12 +57,14 @@ Here is a JSON representation of the resource.
 "id": "GUID",
 "accountId": "GUID",
 "accountNumber": "string",
-"amount": "decimal",
+"amount": decimal,
 "lineNumber": "string",
 "documentNumber": "string",
 "externalDocumentNumber": "string",
 "description": "string",
 "comment": "string",
+"financialDimension1": "string",
+"financialDimension2": "string",
 "postingDate": "date",
 "lastModifiedDateTime": "datetime"
 }
