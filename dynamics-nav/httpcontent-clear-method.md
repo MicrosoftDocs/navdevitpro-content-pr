@@ -15,8 +15,7 @@ author: SusanneWindfeldPedersen
 ---
 
 # Clear Method
-Sets the HttpContent object to a default value.
-The content contains an empty string and empty headers.
+Sets the HttpContent object to a default value. The content contains an empty string and empty headers.
 
 ```
 HttpContent.Clear

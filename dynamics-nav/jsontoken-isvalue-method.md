@@ -1,5 +1,5 @@
 ---
-title: "IsValue Method"
+title: "IsValue Property"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 02/21/2017
@@ -14,8 +14,7 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# IsValue Method
-
+# IsValue Property
 Indicates whether a JsonToken represents a JSON value.
 
 ```
@@ -27,7 +26,7 @@ Ok := JsonToken.IsValue
 &emsp;Type: JsonToken
 
 ## Property Value/Return Value
-Type : Boolean
+Type: Boolean
 
 **true** if the JsonToken represents a JSON value; otherwise, **false**.
 

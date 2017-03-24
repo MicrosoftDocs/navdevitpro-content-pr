@@ -1,5 +1,5 @@
 ---
-title: "TimeOut Method"
+title: "TimeOut Property"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 02/21/2017

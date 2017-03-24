@@ -1,5 +1,5 @@
 ---
-title: "Path Method"
+title: "Path Property"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 02/21/2017
@@ -14,7 +14,7 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# Path Method
+# Path Property
 
 Retrieves the JSON path of the array relative to its containing tree.
 
