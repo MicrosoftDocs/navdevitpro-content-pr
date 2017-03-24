@@ -25,8 +25,9 @@ HttpHeaders := HttpClient.DefaultRequestHeaders
 *HttpHeaders*
 &emsp;Type: HttpHeaders
 
-Since the headers variable is a reference type, when you add a header to it the default headers for the Http client from which the headers were gotten are changed.
-You can not set some other HttpHeaders object as default headers, you have to update the one fetched from Http client.
+## Remarks
+The HttpHeaders variable is a reference type. When you add a header to this variable, the default headers are changed.
+You cannot set another HttpHeaders object as a default header, you have to update the header fetched from HttpClient.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  
