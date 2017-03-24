@@ -49,19 +49,19 @@ Here is an example of the response. Note: The response object shown here may be 
 
 ```json
 {
-    "id": "GUID",
-    "accountId": "GUID",
-    "accountNumber": "string",
-    "amount": decimal,
-    "lineNumber": "string",
-    "documentNumber": "string",
-    "externalDocumentNumber": "string",
-    "description": "string",
-    "comment": "string",
-    "financialDimension1": "string",
-    "financialDimension2": "string",
-    "postingDate": "date",
-    "lastModifiedDateTime": "datetime"
+  "id": "id-value",
+  "accountId": "id-value",
+  "accountNumber": "10400",
+  "amount": 1500,
+  "lineNumber": 10000,
+  "documentNumber": "1234",
+  "externalDocumentNumber": "",
+  "description": "Accounts Receivable",
+  "comment": "",
+  "financialDimension1": "PROD",
+  "financialDimension1": "SW",
+  "postingDate": "2015-12-31",
+  "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
 }
 ```
 
