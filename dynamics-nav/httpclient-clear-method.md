@@ -22,7 +22,7 @@ HttpClient.Clear
 ```
 
 ## Parameters
-*HttpClient*
+*HttpClient*  
 &emsp;Type: HttpClient
 
 ## See Also

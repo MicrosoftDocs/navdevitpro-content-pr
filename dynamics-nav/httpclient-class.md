@@ -23,7 +23,7 @@ The following methods are available on the HttpClient class.
 |-----------|-----------|
 |[Clear](httpclient-clear-method.md)|Sets the HttpClient variable to the default value.|
 |[DefaultRequestHeaders](httpclient-defaultrequestheaders-method.md)|Gets the default request headers which should be sent with each request.|
-|[Delete](httpclient-delete-method.md)Sends a DELETE request to delete the resource identified by the request URL.|
+|[Delete](httpclient-delete-method.md)|Sends a DELETE request to delete the resource identified by the request URL.|
 |[Get](httpclient-get-method.md)|Sends a GET request to get the resource identified by the request URL.|
 |[GetBaseAddress](httpclient-getbaseaddress-method.md)|Gets the base address of Uniform Resource Identifier (Uri) of the Internet resource used when sending requests.|
 |[Post](httpclient-post-method.md)|Sends a POST request to the specified Uri as an asynchronous operation.|
