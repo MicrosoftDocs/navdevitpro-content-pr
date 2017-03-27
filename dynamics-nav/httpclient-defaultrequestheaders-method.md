@@ -22,7 +22,7 @@ HttpHeaders := HttpClient.DefaultRequestHeaders
 ```
 
 ## Property Value
-*HttpHeaders*
+*HttpHeaders*  
 &emsp;Type: HttpHeaders
 
 ## Remarks
