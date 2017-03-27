@@ -38,8 +38,8 @@ Represents a journalLine resource type in [!INCLUDE[d365fin_long_md](../dynamics
 |externalDocumentNumber|string|Specifies an external document number for the journal line.|
 |description|string|The description of the journal line, provided by the user or autocreated.|
 |comment|string|A user specified comment on the journal line.|
-|financialDimension1|string| ??? |
-|financialDimension2|string| ??? |
+|financialDimension1|string|Specifies the dimension 1 value code that the journal line is linked to.|
+|financialDimension2|string|Specifies the dimension 2 value code that the journal line is linked to.|
 |postingDate|date|The date that the journal line is posted. Read-Only.|
 |lastModifiedDateTime|datetime|The last datetime the journal line was modified. Read-Only.|
 
