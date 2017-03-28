@@ -15,9 +15,9 @@ author: SusanneWindfeldPedersen
 ---
 
 # JsonObject Class
-A **JsonObject** object is a container for any well-formed JSON object. A default **JsonObject** contains an empty JSON object.
+A JsonObject object is a container for any well-formed JSON object. A default JsonObject contains an empty JSON object.
 
-The following methods are available on **JsonObject** objects.
+The following methods are available on JsonObject objects.
 
 |Method name|Description|
 |-----------|-----------|

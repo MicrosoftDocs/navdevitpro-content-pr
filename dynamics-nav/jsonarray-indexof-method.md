@@ -2,7 +2,7 @@
 title: "IndexOf Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 03/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -15,7 +15,6 @@ author: SusanneWindfeldPedersen
 ---
 
 # IndexOf Method
-
 Replaces the value at the given index with a new value.
 
 ```

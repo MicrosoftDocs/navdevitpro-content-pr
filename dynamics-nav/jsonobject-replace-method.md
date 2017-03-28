@@ -31,9 +31,10 @@ Type: JsonToken | JsonObject | JsonValue | JsonArray | Boolean | Char | Byte | I
 
 
 ## Return Value
-Type : Boolean
+Type: Boolean
 
-**true** if the operation was successful; otherwise, **false**.
+&emsp;**true** if the operation was successful; otherwise, **false**.
+
 If you omit this optional return value and if the select does not execute successfully, then a run-time error occurs.
 
 ## Remarks

@@ -2,7 +2,7 @@
 title: "Insert Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 03/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -35,7 +35,8 @@ Inserts the value at the given index in the array while shifting all the values 
 ## Return Value
 Type : Boolean
 
-**true** if the operation was successful; otherwise, **false**.
+&emsp;**true** if the operation was successful; otherwise, **false**.
+
 If you omit this optional return value and if the select does not execute successfully, then a run-time error occurs.
 
 ## Remarks

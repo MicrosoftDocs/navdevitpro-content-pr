@@ -2,7 +2,7 @@
 title: "ReadFrom_String Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 03/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -15,7 +15,6 @@ author: SusanneWindfeldPedersen
 ---
 
 # ReadFrom_String Method
-
 Reads the JSON data from the string into a JsonObject variable.
 
 ```
@@ -32,9 +31,10 @@ Reads the JSON data from the string into a JsonObject variable.
 The String object from which the JSON data will be read.
 
 ## Property Value/Return Value
-Type : Boolean
+Type: Boolean
 
-**true** if the read was successful; otherwise, **false**.
+&emsp;**true** if the read was successful; otherwise, **false**.
+
 If you omit this optional return value and if the read does not execute successfully, then a run-time error occurs.
 
 ## Remarks
