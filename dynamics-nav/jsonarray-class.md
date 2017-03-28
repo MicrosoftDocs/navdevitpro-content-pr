@@ -2,7 +2,7 @@
 title: "JsonArray Class"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 03/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -15,7 +15,7 @@ author: SusanneWindfeldPedersen
 ---
 
 # JsonArray Class
-**JsonArray** is a container for any well-formed JSON array. A default **JsonArray** contains an empty JSON array.
+JsonArray is a container for any well-formed JSON array. A default JsonArray contains an empty JSON array.
 
 The following methods are available on the JsonArray class.
 
