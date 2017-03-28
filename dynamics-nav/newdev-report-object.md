@@ -221,7 +221,7 @@ report 70010101 "Customer List"
 ## See Also
 [Developing Extensions Using the New Development Environment](newdev-dev-overview.md)  
 [Developer Reference](newdev-reference-overview.md)  
-[How to: Create a Report](newdev-howto-report-layout.md)
+[How to: Create a Report](newdev-howto-report-layout.md)  
 [Page Extension Object](newdev-page-ext-object.md)  
 [Pages](pages.md)  
 [Tables](tables.md)  

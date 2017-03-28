@@ -1,8 +1,8 @@
 ---
-title: "HttpStatusCode Method"
+title: "HttpStatusCode Property"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 03/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,11 +14,15 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# HttpStatusCode Method
-Gets or sets the status code of the HTTP response.
+# HttpStatusCode Property
+Gets the status code of the HTTP response.
 
+```
+HttpResponseMessage.HttpStatusCode
+```
 
-## Remarks
+## Property Value
+&emsp;Type: Integer
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

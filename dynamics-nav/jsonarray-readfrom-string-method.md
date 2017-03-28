@@ -2,7 +2,7 @@
 title: "ReadFrom_String Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 03/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -15,7 +15,6 @@ author: SusanneWindfeldPedersen
 ---
 
 # ReadFrom_String Method
-
 Reads the JSON data from the string into a JsonArray variable.
 
 ```
@@ -32,9 +31,10 @@ Reads the JSON data from the string into a JsonArray variable.
 The String object from which the JSON data will be read.
 
 ## Property Value/Return Value
-Type : Boolean
+Type: Boolean
 
-**true** if the read was successful; otherwise, **false**.
+&emsp;**true** if the read was successful; otherwise, **false**.
+
 If you omit this optional return value and if the read does not execute successfully, then a run-time error occurs.
 
 ## Remarks
@@ -42,14 +42,12 @@ If you omit this optional return value and if the read does not execute successf
 2. If the operation succeeds, the JsonArray will be disconnected from its current JSON tree and the data contained by the JsonArray will be replaced with the new value.
 3. To delete the contents in a JsonArray variable use the Clear function.
 
-To delete the contents in a JsonArray variable use the **Clear** function.
-
 ```
 Clear(JsonArray)
 ```
 
 ## Example
-This example shows how to read JSON data from a string into a **JsonArray** variable.
+This example shows how to read JSON data from a string into a JsonArray variable.
 
 ```
 local procedure ReadJson(data : Text) result : JsonArray;

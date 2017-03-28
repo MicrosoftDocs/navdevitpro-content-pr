@@ -2,7 +2,7 @@
 title: "Clear Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 03/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -15,12 +15,15 @@ author: SusanneWindfeldPedersen
 ---
 
 # Clear Method
+Sets the HttpHeaders variable to the default value.
 
 ```
-HttpHeaders.Clear()
+HttpHeaders.Clear
 ```
 
-## Remarks
+## Parameters
+*HttpHeaders*
+&emsp;Type: HttpHeaders
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

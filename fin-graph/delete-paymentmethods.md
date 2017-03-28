@@ -1,6 +1,6 @@
 ---
-title: DELETE account method | Microsoft Docs
-description: Deletes an account.
+title: DELETE Payment Method method | Microsoft Docs
+description: Deletes a Payment Method.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,16 +14,16 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# DELETE Account Method
-Delete an account from [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
-
+# DELETE Payment Method Method
+Delete a paymentMethods from [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
-DELETE /financials/companies/{id}/accounts/{id}
+DELETE /financials/companies/{id}/paymentMethods/{id}
 ```
 
 ## Request headers
+
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer. Required. |
@@ -41,7 +41,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://graph.microsoft.com/beta/financials/companies/{id}/accounts/{id}
+DELETE https://graph.microsoft.com/beta/financials/companies/{id}/paymentMethods/{id}
 ```
 
 **Response** 

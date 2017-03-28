@@ -1,8 +1,8 @@
 ---
-title: "Path Method"
+title: "Path Property"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 03/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,8 +14,7 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# Path Method
-
+# Path Property
 Retrieves the JSON path of the object relative to its containing tree.
 
 ```
@@ -27,7 +26,7 @@ String := JsonObject.Path
 &emsp;Type: JsonObject
 
 ## Property Value/Return Value
-Type : String
+Type: String
 
 The path of the object relative to its containing JSON tree.
 If the object is the root of the JSON tree, the path will be empty.

@@ -1,5 +1,5 @@
 ---
-title: "IsObject Method"
+title: "IsObject Property"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 02/21/2017
@@ -14,8 +14,7 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# IsObject Method
-
+# IsObject Property
 Indicates whether a JsonToken represents a JSON object.
 
 ```
@@ -27,7 +26,7 @@ Ok := JsonToken.IsObject
 &emsp;Type: JsonToken
 
 ## Property Value/Return Value
-Type : Boolean
+Type: Boolean
 
 **true** if the JsonToken represents a JSON object; otherwise, **false**.
 

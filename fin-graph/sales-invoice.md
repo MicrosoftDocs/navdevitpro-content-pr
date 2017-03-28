@@ -21,10 +21,10 @@ Represents a salesInvoice resource type in [!INCLUDE[d365fin_long_md](../dynamic
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|GET Sales Invoice|Sales Invoice|Get Sales Invoice object|
-|POST Sales Invoice|Sales Invoice|Create Sales Invoice object|
-|PATCH Sales Invoice|Sales Invoice|Update Sales Invoice object|
-|DELETE Sales Invoice|none|Delete Sales Invoice object|
+|[GET Sales Invoice](get-salesinvoice.md)|Sales Invoice|Get Sales Invoice object|
+|[POST Sales Invoice](post-salesinvoice.md)|Sales Invoice|Create Sales Invoice object|
+|[PATCH Sales Invoice](patch-salesinvoice.md)|Sales Invoice|Update Sales Invoice object|
+|[DELETE Sales Invoice](delete-salesinvoice.md)|none|Delete Sales Invoice object|
 
 ## Properties
 | Property	   | Type	|Description|

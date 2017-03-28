@@ -22,11 +22,11 @@ In this section, you can find API documentation for Microsoft Graph.
 |item resource type|[item](item.md)|
 |customer resource type|[customer](customer.md)|
 |vendor resource type|[vendor](vendor.md)|
-|salesInvoice resource type|[salesInvoice](salesInvoice.md)|
-|salesInvoiceLine resource type|[salesInvoiceLine](salesInvoiceLine.md)|
-|journalLine resource type|[journalLine](journalLine.md)|
+|salesInvoice resource type|[salesInvoice](salesinvoice.md)|
+|salesInvoiceLine resource type|[salesInvoiceLine](salesinvoiceline.md)|
+|journalLine resource type|[journalLine](journalline.md)|
 |account resource type|[account](account.md)|
-|unitsOfMeasure resource type|[unitsOfMeasure](unitsOfMeasure.md)|
+|unitsOfMeasure resource type|[unitsOfMeasure](unitsofmeasure.md)|
 |complex types JSON|[Complex Types JSON](complex-types.md)|
 
 ## See Also

@@ -1,6 +1,6 @@
 ---
-title: UPDATE account  method | Microsoft Docs
-description: Updates an account.
+title: UPDATE Payment Method method | Microsoft Docs
+description: Updates a Payment Method.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,13 +14,12 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# PATCH Account Method
-Update the properties of an accounts object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
-
+# PATCH Payment Method Method
+Update the properties of a paymentMethods object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
-PATCH /financials/companies/{id}/accounts/{id}
+PATCH /financials/companies/{id}/paymentMethods/{id}
 ```
 
 ## Request headers
@@ -28,13 +27,13 @@ PATCH /financials/companies/{id}/accounts/{id}
 |------|-----|
 |Authorization |Bearer. Required.|
 |Content-Type  |application/json|
-|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the accounts, the accounts will not be updated.|
+|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the paymentMethods, the paymentMethods will not be updated. |
 
 ## Request body
 In the request body, supply the values for relevant fields that should be updated. Existing properties that are not included in the request body will maintain their previous values or be recalculated based on changes to other property values. For best performance you shouldn't include existing values that haven't changed.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and an updated accounts object in the response body.
+If successful, this method returns a ```200 OK``` response code and an updated paymentMethods object in the response body.
 
 ## Example
 
@@ -42,12 +41,11 @@ If successful, this method returns a ```200 OK``` response code and an updated a
 
 Here is an example of the request.
 ```json
-PATCH https://graph.microsoft.com/beta/financials/companies/{id}/accounts{id}
+PATCH https://graph.microsoft.com/beta/financials/companies/{id}/paymentMethods{id}
 Content-type: application/json
 
 {
-  "displayName": "Inventory - blocked",
-  "blocked": true
+  "displayName": "Personal Check Payment",
 }
 ```
 
@@ -60,15 +58,13 @@ HTTP/1.1 200 OK
 Content-type: application/json
 
 {
-    "id": "id-value",
-    "number": "10700",
-    "displayName": "Inventory - blocked",
-    "category": "Assets",
-    "subCategory": "Inventory",
-    "blocked": true,
-    "lastModifiedDateTime": "2017-03-17T02:20:58.747Z"
-  }
+  "id": "id-value",
+  "code": "CHECK",
+  "displayName": "Personal Check Payment",
+  "lastModifiedDateTime": "2017-03-22T08:35:48.33Z"
+}
 ```
+
 
 ## See Also
 [Microsoft Graph Reference](graph-reference.md)  

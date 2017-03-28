@@ -1,3 +1,4 @@
+
 ---
 title: CREATE journal line method | Microsoft Docs
 description: Creates a journal line.
@@ -41,9 +42,24 @@ If successful, this method returns ```201 Created``` response code and journalLi
 Here is an example of a request.
 
 ```json
-POST https://graph.microsoft.com/beta/finacials/companies/{id}/journalLine
+POST https://graph.microsoft.com/beta/financials/companies/{id}/journalLine
 Content-type: application/json
 
+{
+  "id": "id-value",
+  "accountId": "id-value",
+  "accountNumber": "10400",
+  "amount": 1500,
+  "lineNumber": 10000,
+  "documentNumber": "1234",
+  "externalDocumentNumber": "",
+  "description": "Accounts Receivable",
+  "comment": "",
+  "financialDimension1": "PROD",
+  "financialDimension1": "SW",
+  "postingDate": "2015-12-31",
+  "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
+}
 ```
 **Response**
 ```

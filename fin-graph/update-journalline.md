@@ -60,14 +60,16 @@ Content-type: application/json
 
 {
   "id": "id-value",
-  "accountId": "id-value",
-  "accountNumber": "10400",
+  "accountId": "",
+  "accountNumber": "",
   "amount": 2000,
   "lineNumber": 10000,
-  "documentNumber": "1234",
+  "documentNumber": "D00001",
   "externalDocumentNumber": "",
-  "description": "Accounts Receivable",
+  "description": "",
   "comment": "",
+  "financialDimension1": "",
+  "financialDimension1": "",
   "postingDate": "2015-12-31",
   "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
 }

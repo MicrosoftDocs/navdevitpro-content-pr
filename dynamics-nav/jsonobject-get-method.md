@@ -2,7 +2,7 @@
 title: "Get Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 03/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -26,13 +26,15 @@ Retrieves the value of a property with a given key from a JsonObject.
 &emsp;Type: String
 
 *Result*  
-&emsp;Type: JsonToken  
-&emsp;A variable of type JsonToken that will contain the result if the operation is successful.
+&emsp;Type: JsonToken
+
+A variable of type JsonToken that will contain the result if the operation is successful.
 
 ## Return Value
-Type : Boolean
+Type: Boolean
 
-**true** if the operation was successful; otherwise, **false**.
+&emsp;**true** if the operation was successful; otherwise, **false**.
+
 If you omit this optional return value and if the select does not execute successfully, then a run-time error occurs.
 
 ## Remarks

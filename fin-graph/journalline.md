@@ -21,10 +21,10 @@ Represents a journalLine resource type in [!INCLUDE[d365fin_long_md](../dynamics
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET journalLine](get-journalLine.md)|journalLines|Get Journal Line.|
-|[POST journalLine](create-journalLine.md)|journalLines|Create Journal Line.|
-|[PATCH journalLine](update-journalLine.md)|journalLines|Update Journal Line.|
-|[DELETE journalLine](delete-journalLine.md)|none|Delete Journal Line.|
+|[GET journalLine](get-journalline.md)|journalLines|Get Journal Line.|
+|[POST journalLine](create-journalline.md)|journalLines|Create Journal Line.|
+|[PATCH journalLine](update-journalline.md)|journalLines|Update Journal Line.|
+|[DELETE journalLine](delete-journalline.md)|none|Delete Journal Line.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -38,6 +38,8 @@ Represents a journalLine resource type in [!INCLUDE[d365fin_long_md](../dynamics
 |externalDocumentNumber|string|Specifies an external document number for the journal line.|
 |description|string|The description of the journal line, provided by the user or autocreated.|
 |comment|string|A user specified comment on the journal line.|
+|financialDimension1|string|Specifies the dimension 1 value code that the journal line is linked to.|
+|financialDimension2|string|Specifies the dimension 2 value code that the journal line is linked to.|
 |postingDate|date|The date that the journal line is posted. Read-Only.|
 |lastModifiedDateTime|datetime|The last datetime the journal line was modified. Read-Only.|
 
@@ -55,12 +57,14 @@ Here is a JSON representation of the resource.
 "id": "GUID",
 "accountId": "GUID",
 "accountNumber": "string",
-"amount": "decimal",
+"amount": decimal,
 "lineNumber": "string",
 "documentNumber": "string",
 "externalDocumentNumber": "string",
 "description": "string",
 "comment": "string",
+"financialDimension1": "string",
+"financialDimension2": "string",
 "postingDate": "date",
 "lastModifiedDateTime": "datetime"
 }

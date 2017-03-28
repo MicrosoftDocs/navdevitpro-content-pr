@@ -2,7 +2,7 @@
 title: "SetRequestUri Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 03/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -18,17 +18,20 @@ author: SusanneWindfeldPedersen
 Sets the Uri used for the HTTP request.
 
 ```
-RequestUri := HttpRequestMessage.SetRequestUri
+[Ok := ] HttpRequestMessage.SetRequestUri(RequestUri)
 ```
+
 ## Parameters
-*SetRequestUri*  
-Type: HttpRequestMessage
+*HttpRequestMessage*  
+&emsp;Type: HttpRequestMessage
+
+*RequestUri*  
+&emsp;Type: Text
 
 ## Return Value
-*RequestUri*  
-Type: String
-
-## Remarks
+*Ok*
+&esmp;Type: Boolean
+&emsp;**true** if the Uri was valid; otherwise, **false**.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

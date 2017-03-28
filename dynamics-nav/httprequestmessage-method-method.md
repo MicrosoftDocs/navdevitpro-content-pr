@@ -1,8 +1,8 @@
 ---
-title: "Method Method"
+title: "Method Property"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 03/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,9 +14,11 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# Method Method
+# Method Property
+Gets or sets the method type as defined in the HTTP standard.
 
-## Remarks
+## Property Value
+Type: Text
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

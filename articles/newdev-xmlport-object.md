@@ -1,9 +1,9 @@
 ---
-title: "Xmlport Object"
+title: "XMLport Object"
 description: "Description of the xmlport object."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 03/14/2017
+ms.date: 03/24/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -16,16 +16,61 @@ caps.latest.revision: 18
 
 [!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/newdev_dev_preview.md)]
 
-# Xmlport Object
+# XMLport Object
+XMLports are used to export and import data between an external source and a Dynamics for Financials database. 
 
 ## Snippet support
-Typing the shortcut ```???``` will create the basic layout for an xmlport object when using the AL Extension in Visual Studio Code.
+Typing the shortcut ```txmlport``` will create the basic layout for an XMLport object when using the AL Extension in Visual Studio Code.
 
-## Xmlport example
+## XMLport example
 The following example is a ...
 
 ```
-example of an xmlport
+xmlport id MyXmlport
+{
+    schema
+    {
+        textelement(NodeName1)
+        {
+            tableelement(NodeName2; TableName)
+            {
+                fieldattribute(NodeName3; TableName.FieldName)
+                {
+                }
+            }
+        }
+    }
+
+    requestpage
+    {
+        layout
+        {
+            area(content)
+            {
+                group(GroupName)
+                {
+                    field(Name;NameSource)
+                    {
+                        
+                    }
+                }
+            }
+        }
+    
+        actions
+        {
+            area(processing)
+            {
+                action(ActionName)
+                {
+                    trigger OnAction();
+                    begin
+                    end;
+                }
+            }
+        }
+    }
+}
 ```
 
 ## See Also

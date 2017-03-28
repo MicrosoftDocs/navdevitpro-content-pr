@@ -1,8 +1,8 @@
 ---
-title: "ReasonPhrase Method"
+title: "ReasonPhrase Property"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 03/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,18 +14,15 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# ReasonPhrase Method
-Gets or sets the reason phrase which typically is sent by servers together with the status code.
+# ReasonPhrase Property
+Gets the reason phrase which typically is sent by servers together with the status code.
 
 ```
-syntax
+HttpResponseMessage.ReasonPhrase
 ```
-## Parameters
-**
-Type:
+## Property Value
+Type: Text
 
-
-## Remarks
 
 ## See Also
 [Getting Started](newdev-get-started.md)  
