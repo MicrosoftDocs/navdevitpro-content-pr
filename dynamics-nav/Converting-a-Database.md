@@ -11,7 +11,7 @@ manager: edupont
 ms.prod: "dynamics-nav-2017"
 ---
 # Converting a Database
-This article describes how to convert a [!INCLUDE[navnow](includes/navnow_md.md)] database from one of the following versions to [!INCLUDE[nav2017](includes/nav2017.md)]: 
+This article describes how to convert a [!INCLUDE[navnow](includes/navnow_md.md)] database from one of the following versions to [!INCLUDE[nav2017](includes/nav2017.md)]:
 
 -   [!INCLUDE[nav7long](includes/nav7long_md.md)]
 -   [!INCLUDE[navsicily](includes/navsicily_md.md)]
@@ -21,7 +21,7 @@ This article describes how to convert a [!INCLUDE[navnow](includes/navnow_md.md)
 ## About database conversion
 Converting a database, which is often referred to as a *technical upgrade*, changes the database so that it works on the new [!INCLUDE[nav2017](includes/nav2017.md)] platform. The conversion updates the system tables of the old database to the new schema (data structure), and upgrades of all reports to support Report Viewer 2012. It provides you with the latest platform features and performance enhancements.
 
-You typically convert a database, as described in this article, when you want to upgrade an existing [!INCLUDE[nav2017](includes/nav2017.md)] database to a new platform version that does not include application changes. A database conversion is typically what is required for a cummulative update. 
+You typically convert a database, as described in this article, when you want to upgrade an existing [!INCLUDE[nav2017](includes/nav2017.md)] database to a new platform version that does not include application changes. A database conversion is typically what is required for a cummulative update.
 
 Converting a database does not upgrade the application objects (like pages, reports, and codeunits) or the business data to [!INCLUDE[nav2017](includes/nav2017.md)]. So performing a database conversion alone is usually not sufficient when upgrading from an earlier version of [!INCLUDE[navnow](includes/navnow_md.md)] to [!INCLUDE[nav2017](includes/nav2017.md)] or when upgrading an existing [!INCLUDE[nav2017](includes/nav2017.md)] installation to new platform and application versions. For these upgrade scenarios, you should perform a full upgrade by completing the tasks [Upgrading the Application Code](Upgrading-the-Application-Code.md) and [Upgrading the Data](Upgrading-the-Data.md), which will also cover the database conversion. You can choose to convert the old database and not upgrade your application. However, we recommend that you upgrade the application objects as well so that your solution includes important application fixes and new functionality that is introduced in [!INCLUDE[nav2017](includes/nav2017.md)]. Upgrading the application will also reduce the amount of merging required to upgrade to the next major version of [!INCLUDE[navnow](includes/navnow_md.md)], bringing you to the latest version of the product faster.  
 
@@ -76,7 +76,7 @@ Next, you will convert the old database so that it can be used in [!INCLUDE[nav2
 1. If the old database includes test runner codeunits, you must change the signature of the OnBeforeTestRun and OnAfterTestRun triggers of the test runner codeunits to include the TestPermission parameter, as shown in the following examples:
 
     ```
-    OnBeforeTestRun(CodeunitID : Integer;CodeunitName : Text[30];FunctionName : Text[128]; TestPermissions : Text) Ok : Boolean)
+    OnBeforeTestRun(CodeunitID : Integer;CodeunitName : Text[30];FunctionName : Text[128]; TestPermissions : TestPermissions) Ok : Boolean)
     ```
 
     ```
