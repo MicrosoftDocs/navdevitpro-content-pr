@@ -16,7 +16,7 @@ This data type contains the table number and the primary key of a table.
 You can store a RecordID in the database. You can set filters on the full RecordID values, but you cannot set filters on partial values, which means wildcard (*) filters are not supported.
 
 > [!NOTE]  
-> You cannot use the GET function to retrieve a record in a table by its primary key value if the primary key field in the table has the data type RecordID. In this case, you can retrieve the record by using the Record.SETRANGE(<FieldName>, FieldValue).
+> You cannot use the GET function to retrieve a record in a table by its primary key value if the primary key field in the table has the data type RecordID. In this case, you can retrieve the record by using  the Record.SETRANGE(FieldName, FieldValue) function.
 
 ## See Also  
  [GETRECORD Function \(RecordID\)](GETRECORD-Function--RecordID-.md)   
