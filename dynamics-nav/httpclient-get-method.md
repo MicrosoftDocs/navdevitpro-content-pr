@@ -33,7 +33,7 @@ Sends a GET request to get the resource identified by the request URL.
 
 &emsp;**true** if the operation was successful; otherwise, **false**. 
 
-Accessing the HttpContent property of HttpResponseMessage in case when the request failed will result in an error.
+Accessing the HttpContent property of HttpResponseMessage in a case when the request fails will result in an error.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  
