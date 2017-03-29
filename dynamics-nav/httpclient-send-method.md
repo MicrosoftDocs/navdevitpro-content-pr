@@ -33,7 +33,7 @@ Sends an HTTP request as an asynchronous operation.
 &emsp;Type: Boolean
 &emsp;**true** if the operation was successful; otherwise, **false**.
 
-Accessing the HttpContent property of HttpResponseMessage in case when the request failed will result in an error.
+Accessing the HttpContent property of HttpResponseMessage in a case when the request fails will result in an error.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  
