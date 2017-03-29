@@ -22,7 +22,7 @@ HttpContent.Clear
 ```
 
 ## Parameters
-*HttpContent*
+*HttpContent*  
 &emsp;Type: HttpContent
 
 ## See Also

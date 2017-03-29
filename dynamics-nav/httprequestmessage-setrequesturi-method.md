@@ -29,7 +29,7 @@ Sets the Uri used for the HTTP request.
 &emsp;Type: Text
 
 ## Return Value
-*Ok*
+*Ok*  
 &esmp;Type: Boolean
 &emsp;**true** if the Uri was valid; otherwise, **false**.
 
