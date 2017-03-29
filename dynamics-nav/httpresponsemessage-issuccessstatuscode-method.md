@@ -22,8 +22,8 @@ HttpResponseMessage.IsSuccessStatusCode
 ```
 
 ## Property Value
-&emsp;Type: Boolean
-**true** if the status code is 200; **false** otherwise.
+&emsp;Type: Boolean  
+&emsp;**true** if the status code is 200; **false** otherwise.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

@@ -22,7 +22,7 @@ Headers := HttpContent.Headers
 ```
 
 ## Property Value
-*Headers*
+*Headers*  
 &emsp;Type: HttpHeaders
 
 ## See Also

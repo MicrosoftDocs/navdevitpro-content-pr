@@ -25,14 +25,14 @@ Adds sets the provided value for the provided header name.
 *HttpHeaders*  
 &emsp;Type: HttpHeaders
 
-*Key*
+*Key*  
 &emsp;Type: Text
 
-*Value*
+*Value*  
 &emsp;Type: Text
 
 ## Return Value
-*Ok*
+*Ok*  
 &emsp;Type: Boolean
 &emsp;**true** if the operation was successful; otherwise, **false**.
 

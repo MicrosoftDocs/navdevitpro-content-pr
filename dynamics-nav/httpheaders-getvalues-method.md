@@ -28,11 +28,11 @@ Gets the values for the specified key.
 *Key*  
 &emsp;Type: Text
 
-*Result*
+*Result*  
 &emsp;Type: Array of Text
 
 ## Return Value
-*Ok*
+*Ok*  
 &emsp;Type: Boolean
 &emsp;**true** if headers contain the key; **false** otherwise.
 
