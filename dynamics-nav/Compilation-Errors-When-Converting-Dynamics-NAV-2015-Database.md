@@ -61,7 +61,7 @@ OnAfterTestRun(CodeunitID : Integer;CodeunitName : Text[30];FunctionName : Text[
 If you do not change the signature, you will get errors when you compile these objects.
 
 ## <a name="DOL"></a>Resolving Dynamics Online Payment Service related errors
-These errors occur because Dynamics Online Payment Service has been discontunied in [!INCLUDE[nav2017](includes/nav2017.md)]. To resolve these errors and other issues related Dynamics Online Payment Services, replace the codunits that are listed in the table with mock codunits  that is available from the link.
+These errors occur because Dynamics Online Payment Service has been discontunied in [!INCLUDE[nav2017](includes/nav2017.md)]. To resolve these errors and other issues related Dynamics Online Payment Services, replace the codunits that are listed in the table with mock codunits  that are available from the provided links.
 
 |  Codunit  |  Mock Code  |
 |-----------|-------------|

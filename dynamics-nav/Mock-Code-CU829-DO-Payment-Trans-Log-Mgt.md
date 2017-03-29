@@ -70,5 +70,5 @@ OBJECT Codeunit 829 DO Payment Trans. Log Mgt.
 ```
 
 ## See Also  
- [Converting a Database](Converting-a-Database.md)
+ [Converting a Database](Converting-a-Database.md)  
  [How to: Import-Objects](How-to--Import-Objects.md)

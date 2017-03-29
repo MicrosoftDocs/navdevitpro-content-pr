@@ -159,14 +159,15 @@ Next, you will convert the old database so that it can be used in [!INCLUDE[nav2
 
     You can find all objects which did not compile in the **Object Designer** window, by setting a field filter on the **Compiled** field.  
 
-11.  If you converted a [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)], you will have to modify C/AL code to ensure that the **My Settings** page works properly in the [!INCLUDE[nav_web_md](includes/nav_web_md.md)].
+11.  If you converted a [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)], you will have to modify C/AL code to ensure that the **My Settings** page works properly in the [!INCLUDE[nav_web_md](includes/nav_web_md.md)].  
 
     For more information, see [Resolving My Settings Page Implementation After a Database Conversion](Resolve-MySettings-Page-After-Upgrade.md).
-11. Upload the customer license to the converted database.  
 
-     For more information, see [Uploading a License File for a Specific Database](How-to--Upload-the-License-File.md#UploadtoDatabase).  
+12. Upload the customer license to the converted database.  
 
- You have now completed the conversion of the database to be accessed from [!INCLUDE[navcorfu](includes/navcorfu_md.md)]. To test the converted database, you can connect it to the [!INCLUDE[nav2017](includes/nav2017.md)] Server instance that is used by [!INCLUDE[navnow](includes/navnow_md.md)] clients, and then open a client.  
+    For more information, see [Uploading a License File for a Specific Database](How-to--Upload-the-License-File.md#UploadtoDatabase).  
+
+ You have now completed the conversion of the database to be accessed from [!INCLUDE[nav2017](includes/nav2017.md)]. To test the converted database, you can connect it to the [!INCLUDE[nav2017](includes/nav2017.md)] Server instance that is used by [!INCLUDE[navnow](includes/navnow_md.md)] clients, and then open a client.  
 
 ## See Also  
  [Upgrading the Application Code](Upgrading-the-Application-Code.md)   
