@@ -85,13 +85,13 @@ To convert the old database to a [!INCLUDE[nav2017](includes/nav2017.md)] databa
 
     For information about the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], see [How to: Start, Stop, Restart, or Remove a Dynamics NAV Server Instance](How-to--Start--Stop--Restart--or-Remove-a-Microsoft-Dynamics-NAV-Server-Instance.md)].
 
-    To use the Set-NAVServerInstance cmldet, run the following command:
+    To use the Set-NAVServerInstance cmdlet, run the following command:
     ```
     Set-NAVServerInstance –ServerInstance <ServerInstanceName> -Stop
     ```
 9.  Clear all [!INCLUDE[nav_server](includes/nav_server_md.md)] instance records from the **dbo.Server Instance** table in the database on SQL Server.  
 
-    You can do this by using SQL Server Management Studio to open and clear the table. For example, you can run the following SQL query:
+    You can do this by using SQL Server Management Studio to clear the table. For example, you can run the following SQL query:
     ```
     DELETE FROM [My NAV Database Name].[dbo].[Server Instance]
     ```
