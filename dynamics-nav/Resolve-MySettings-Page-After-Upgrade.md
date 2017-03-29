@@ -12,35 +12,38 @@ caps.latest.revision: 4
 manager: edupont
 ---
 # Resolving My Settings Page Implementation After a Database Conversion
-When you convert a [!INCLUDE[navcorfu](includes/navcorfu_md.md)] database, the My Settings page in the  [!INCLUDE[nav_web_md](includes/nav_web_md.md)] will not work properly. This article explains how to reolve the problem.
+When you convert a [!INCLUDE[navcorfu](includes/navcorfu_md.md)] database, the My Settings page in the  [!INCLUDE[nav_web_md](includes/nav_web_md.md)] will not work properly. This article explains how to resolve the problem.
 
 
-1.  Modify Codeunit 1 Application Management.
+1.  Modify Codeunit 1 Application Management:
 
-    In the C/AL code, add a global function that has the following properties
+    1.  In the C/AL code, add a global function that has the following properties
 
-    <table>
-  <tr>
-    <th>Property</th>
-    <th>Value</th>
-  </tr>
-  <tr>
-    <td>Name</td>
+        <table>
+        <tr>
+        <th>Property</th>
+        <th>Value</th>
+        </tr>
+        <tr>
+        <td>Name</td>
     <td>OpenSettings</td>
-  </tr>
-  <tr>
-    <td>ID</td>
-    <td>65</td>
-  </tr>
-  <tr>
-    <td>Local</td>
-    <td>No</td>
-  </tr>
-</table>
+    </tr>
+    <tr>
+        <td>ID</td>
+        <td>65</td>
+        </tr>
+        <tr>
+        <td>Local</td>
+        <td>No</td>
+        </tr>
+        </table>
+    2.  Add the following code to the OpenSettings function:
+        ```
+        PAGE.RUN(PAGE::"My Settings");
+        ```
+1. Modify page **9176 My Settings**:
 
-1. Modify page **9176 My Settings**.
-
-    In C/AL code, replace the code on and local function **GetTimeZone** with the following code.
+    In C/AL code, replace the code on the local function **GetTimeZone** with the following code.
     ```
     TimeZone.SETRANGE(ID,TimeZoneID);
     IF TimeZone.FINDFIRST THEN
