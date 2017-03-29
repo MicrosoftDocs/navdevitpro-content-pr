@@ -17,7 +17,7 @@ When you convert a [!INCLUDE[navcorfu](includes/navcorfu_md.md)] database, the M
 
 1.  Modify Codeunit 1 Application Management:
 
-    1.  In the C/AL code, add a global function that has the following properties
+    1.  In the C/AL code, add a global function that has the following properties:
 
         <table>
         <tr>
@@ -37,11 +37,11 @@ When you convert a [!INCLUDE[navcorfu](includes/navcorfu_md.md)] database, the M
         <td>No</td>
         </tr>
         </table>
-    2.  Add the following code to the OpenSettings function:
+    2.  Add the following code to the **OpenSettings** function:
         ```
         PAGE.RUN(PAGE::"My Settings");
         ```
-1. Modify page **9176 My Settings**:
+2. Modify page **9176 My Settings**:
 
     In C/AL code, replace the code on the local function **GetTimeZone** with the following code.
     ```
