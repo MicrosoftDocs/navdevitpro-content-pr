@@ -48,7 +48,7 @@ OnBeforeTestRun(CodeunitID : Integer;CodeunitName : Text[30];FunctionName : Text
 ```
 OnBeforeTestRun trigger after change:
 ```
-OnBeforeTestRun(CodeunitID : Integer;CodeunitName : Text[30];FunctionName : Text[128];TestPermissions : TestPermissions) Ok : Boolean)
+OnBeforeTestRun(CodeunitID : Integer;CodeunitName : Text[30];FunctionName : Text[128];FunctionTestPermissions : TestPermissions) Ok : Boolean)
 ```
 OnAfterTestRun trigger before change:
 ```

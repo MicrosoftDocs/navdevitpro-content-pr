@@ -43,7 +43,10 @@ To convert the old database to a [!INCLUDE[nav2017](includes/nav2017.md)] databa
 
 2.  Clear all [!INCLUDE[nav_server](includes/nav_server_md.md)] instance records from the **dbo.Server Instance** table in the database on SQL Server.  
 
-     You can do this by using SQL Server Management Studio to open and clear the table.  
+    You can do this by using SQL Server Management Studio to open and clear the table. For example, you can run the following SQL query:
+    ```
+    DELETE FROM [My NAV Database Name].[dbo].[Server Instance]
+    ```
 
 3.  Open the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] that matches the [!INCLUDE[navnow](includes/navnow_md.md)] version of the old database, and then connect to the old database.  
 
@@ -148,10 +151,16 @@ Next, you will convert the old database so that it can be used in [!INCLUDE[nav2
 
 10. Fix compilation errors.  
 
-     If any errors occur, they are shown in the **Error List** window. For information about compilation errors when you are converting a [!INCLUDE[nav7long](includes/nav7long_md.md)] database, see [Compilation Errors When Converting a Microsoft Dynamics NAV 2013 Database](Compilation-Errors-When-Converting-a-Microsoft-Dynamics-NAV-2013-Database.md).  
+    If any errors occur, they are shown in the **Error List** window.
+
+    For information about compilation errors when you are converting a [!INCLUDE[nav7long](includes/nav7long_md.md)] database, see [Resolving Compilation Errors When Converting a Microsoft Dynamics NAV 2013 Database](Compilation-Errors-When-Converting-a-Microsoft-Dynamics-NAV-2013-Database.md).  
+    For information about compilation errors when you are converting a  [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)] database, see [Resolving Compilation Errors When Converting a Microsoft Dynamics NAV 2016 Database](Compilation-Errors-When-Converting-Microsoft-Dynamics-NAV-2015-Database.md).  
 
      You can find all objects which did not compile in the **Object Designer** window, by setting a field filter on the **Compiled** field.  
 
+11.  If you converted a [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)], you will have to modify C/AL code to ensure that the **My Settings** page works properly in the [!INCLUDE[nav_web_md](includes/nav_web_md.md)].
+
+    For more information, see [Resolving My Settings Page Implementation After a Database Conversion](Resolve-MySettings-Page-After-Upgrade.md).
 11. Upload the customer license to the converted database.  
 
      For more information, see [Uploading a License File for a Specific Database](How-to--Upload-the-License-File.md#UploadtoDatabase).  
