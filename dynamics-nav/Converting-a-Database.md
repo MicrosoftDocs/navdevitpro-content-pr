@@ -119,7 +119,7 @@ Next, you will convert the old database so that it can be used in [!INCLUDE[nav2
 
      For more information, see [How to: Connect a Microsoft Dynamics NAV Server Instance to a Database](How-to--Connect-a-Microsoft-Dynamics-NAV-Server-Instance-to-a-Database.md) and [Giving the account necessary database privileges in SQL Server](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md#dbo).  
 
-6.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], and set it to use the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that connects to the database.  
+6.  Go to the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], and set it to use the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that connects to the database.  
 
      For more information, see [How to: Change the Microsoft Dynamics NAV Server Instance](How-to--Change-the-Microsoft-Dynamics-NAV-Server-Instance.md) or [Database Information](uiref/-$-S_2349-Database-Information-$-.md).  
 

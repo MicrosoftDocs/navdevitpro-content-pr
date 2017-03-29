@@ -1,5 +1,5 @@
 ---
-title: "Compilation Errors When Converting a Microsoft Dynamics NAV 2013 Database"
+title: "Resolving Compilation Errors When Converting a Microsoft Dynamics NAV 2013 Database"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,9 +11,9 @@ ms.assetid: 6ea75b39-cf7d-4c88-868b-86fa0be2426b
 caps.latest.revision: 4
 manager: edupont
 ---
-# Compilation Errors When Converting a Microsoft Dynamics NAV 2013 Database
+# Resolving Compilation Errors When Converting a Microsoft Dynamics NAV 2013 Database
 If you converted a [!INCLUDE[nav7long](includes/nav7long_md.md)] database, then after the database conversion has completed, you will receive compilation errors in several standard [!INCLUDE[navnow](includes/navnow_md.md)] objects. The following table provides guidance to help you resolve these errors.  
-  
+
 |Object Type|Object ID|Object Name|Compilation Status|Solution|  
 |-----------------|---------------|-----------------|------------------------|--------------|  
 |Table|5540|Timeline Event|Error|Update the **Subtype** property of the variables that reference the **DataVisualization** add-in with references to the new version of the add-in.|  
@@ -34,14 +34,14 @@ If you converted a [!INCLUDE[nav7long](includes/nav7long_md.md)] database, then 
 |Table|79|Company Information|Warning|Several warnings. See the solution in the following section.|  
 |Codeunit|40|LogInManagement|Warning|See the solution in the following section.|  
 |Codeunit|43|LanguageManagement|Warning|See the solution in the following section.|  
-  
+
  The following 3 sections provide before and after code that will help you resolve the warnings you receive when you compile the objects.  
-  
+
 ## Before and After Code for Warnings in Table 79  
  The following table describes the before and after code that will help you resolve the warnings that you receive when you compile table 79 **Company Information**.  
-  
+
  **Before**  
-  
+
 ```  
 LOCAL PROCEDURE GetDatabaseIndicatorText@9(IncludeCompany@1003 : Boolean) : Text[250];  
 VAR  
@@ -58,9 +58,9 @@ BEGIN
   EXIT(Text)  
 END;  
 ```  
-  
+
  **After**  
-  
+
 ```  
 LOCAL PROCEDURE GetDatabaseIndicatorText@9(IncludeCompany@1003 : Boolean) : Text[250];  
 VAR  
@@ -78,27 +78,27 @@ BEGIN
   EXIT(Text)  
 END;  
 ```  
-  
+
 ## Before and After Code for Codeunit 40  
  The following tables describe the before and after code that will help you resolve the warnings that you receive when you compile codeunit 40 **LogInManagement**.  
-  
+
 |||  
 |-|-|  
 |Before|`User@1003 : Record 2000000120;`|  
 |After|`User@1003 : Record 2000000120 SECURITYFILTERING(Filtered);`|  
-  
+
 |||  
 |-|-|  
 |Before|`Language.SETRANGE("STX File Exist",TRUE);`|  
 |After|`Language.SETRANGE("Localization Exist",TRUE);`|  
-  
+
 ## Before and After Code for Codeunit 43  
  The following table describes the before and after code that will help you resolve the warnings that you receive when you compile codeunit 43 **LanguageManagement**.  
-  
+
 |||  
 |-|-|  
 |Before|`Language.SETRANGE("STX File Exist",TRUE);`|  
 |After|`Language.SETRANGE("Localization Exist",TRUE);`|  
-  
+
 ## See Also  
  [Converting a Database](Converting-a-Database.md)
