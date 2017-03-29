@@ -41,36 +41,29 @@ To convert the old database to a [!INCLUDE[nav2017](includes/nav2017.md)] databa
 
      For more information, see [Create a Full Database Backup \(SQL Server\)](http://go.microsoft.com/fwlink/?LinkID=296465).  
 
-2.  Clear all [!INCLUDE[nav_server](includes/nav_server_md.md)] instance records from the **dbo.Server Instance** table in the database on SQL Server.  
-
-    You can do this by using SQL Server Management Studio to open and clear the table. For example, you can run the following SQL query:
-    ```
-    DELETE FROM [My NAV Database Name].[dbo].[Server Instance]
-    ```
-
-3.  Open the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] that matches the [!INCLUDE[navnow](includes/navnow_md.md)] version of the old database, and then connect to the old database.  
+2.  Open the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] that matches the [!INCLUDE[navnow](includes/navnow_md.md)] version of the old database, and then connect to the old database.  
 
      For more information, see [How to: Open Databases](How-to--Open-Databases.md).  
 
-4.  In Object Designer, verify that no objects are locked.  
+3.  In Object Designer, verify that no objects are locked.  
 
      If one or more objects are locked, the conversion process cannot update the database version number. As a result, the conversion does not complete.  
 
-5.  On the **Tools** menu, choose **Build Server Application Objects**, and then choose the **Yes** button.  
+4.  On the **Tools** menu, choose **Build Server Application Objects**, and then choose the **Yes** button.  
 
     > [!NOTE]  
     >  This step does not compile objects in the old database that have not been compiled before.  
 
-6.  If any errors occur, they are shown in the **Error List** window. Make sure that you address all compilation errors before you continue.  
+5.  If any errors occur, they are shown in the **Error List** window. Make sure that you address all compilation errors before you continue.  
 
-7.  Upload the [!INCLUDE[nav2017](includes/nav2017.md)] Partner license to the database  
+6.  Upload the [!INCLUDE[nav2017](includes/nav2017.md)] Partner license to the database  
 
      For more information, see [Uploading a License File for a Specific Database](How-to--Upload-the-License-File.md#UploadtoDatabase).  
 
     > [!IMPORTANT]  
     >  The license that you upload must be a developer license. During the conversion, the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] will convert the report objects that are stored in the old database to the RDL 2012 format.  
 
-8.  Run the schema synchronization to synchronize the database schema changes.  
+7.  Run the schema synchronization to synchronize the database schema changes.  
 
     You can run the schema synchronization from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] or [!INCLUDE[nav_shell](includes/nav_shell_md.md)] version that matches the database.  
 
@@ -86,8 +79,24 @@ To convert the old database to a [!INCLUDE[nav2017](includes/nav2017.md)] databa
     ```  
     Replace `<ServerInstanceName>` with the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that is connected to the database. For more information, see [How to: Run the Sync-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database](How-to--Run-the-Sync-NAVTenant-Cmdlet-to-Synchronize-the-Tenant-Database-with-the-Application-Database.md).  
 
-9.  (Optional) Before you start the following procedure, you can uninstall the old version of [!INCLUDE[navnow_md](includes/navnow_md.md)]. When you uninstall [!INCLUDE[navnow_md](includes/navnow_md.md)], the database is still attached to the instance of SQL Server, which you can verify using SQL Server Management Studio.
+8.  Stop the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.
 
+    You can use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or [Set-NAVServerInstance](https://go.microsoft.com/fwlink/?linkid=401395) cmdlet of the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].
+
+    For information about the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], see [How to: Start, Stop, Restart, or Remove a Dynamics NAV Server Instance](How-to--Start--Stop--Restart--or-Remove-a-Microsoft-Dynamics-NAV-Server-Instance.md)].
+
+    To use the Set-NAVServerInstance cmldet, run the following command:
+    ```
+    Set-NAVServerInstance –ServerInstance <ServerInstanceName> -Stop
+    ```
+9.  Clear all [!INCLUDE[nav_server](includes/nav_server_md.md)] instance records from the **dbo.Server Instance** table in the database on SQL Server.  
+
+    You can do this by using SQL Server Management Studio to open and clear the table. For example, you can run the following SQL query:
+    ```
+    DELETE FROM [My NAV Database Name].[dbo].[Server Instance]
+    ```
+
+10.  (Optional) Before you start the following procedure, you can uninstall the old version of [!INCLUDE[navnow_md](includes/navnow_md.md)]. When you uninstall [!INCLUDE[navnow_md](includes/navnow_md.md)], the database is still attached to the instance of SQL Server, which you can verify using SQL Server Management Studio.
 
 ## Task 2: Converting the Old Database  
 Next, you will convert the old database so that it can be used in [!INCLUDE[nav2017](includes/nav2017.md)].
@@ -159,9 +168,7 @@ Next, you will convert the old database so that it can be used in [!INCLUDE[nav2
 
     You can find all objects which did not compile in the **Object Designer** window, by setting a field filter on the **Compiled** field.  
 
-11.  If you converted a [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)], you will have to modify C/AL code to ensure that the **My Settings** page works properly in the [!INCLUDE[nav_web_md](includes/nav_web_md.md)].  
-
-    For more information, see [Resolving My Settings Page Implementation After a Database Conversion](Resolve-MySettings-Page-After-Upgrade.md).
+11.  If you converted a [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)], you will have to modify C/AL code to ensure that the **My Settings** page works properly in the [!INCLUDE[nav_web_md](includes/nav_web_md.md)]. For more information, see [Resolving My Settings Page Implementation After a Database Conversion](Resolve-MySettings-Page-After-Upgrade.md).
 
 12. Upload the customer license to the converted database.  
 
