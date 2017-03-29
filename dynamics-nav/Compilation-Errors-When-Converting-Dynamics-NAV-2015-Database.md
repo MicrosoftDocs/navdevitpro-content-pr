@@ -11,8 +11,8 @@ ms.assetid: 6ea75b39-cf7d-4c88-868b-86fa0be2426b
 caps.latest.revision: 4
 manager: edupont
 ---
-# Fixing Compilation Errors and Code After Converting a Dynamics NAV 2016 Database
-If you converted a [!INCLUDE[navcorfu](includes/navcorfu_md.md)] database, then after the database conversion has completed, you will receive compilation errors in several standard [!INCLUDE[navnow](includes/navnow_md.md)] objects. In addition, you will have to make some changes to C/AL to ensure that all features work as they should.
+# Resolving Compilation Errors When Converting a Dynamics NAV 2016 Database
+When you convert a [!INCLUDE[navcorfu](includes/navcorfu_md.md)] database, you will receive compilation errors in several standard [!INCLUDE[navnow](includes/navnow_md.md)] objects. This artile descibes how to resolve these errors.
 
 ## Compilation Errors
 The following table lists the compilation errors that might occur when build the server application objects during the database conversion, with a link to a solution for fixing the problem.
@@ -30,7 +30,7 @@ The following table lists the compilation errors that might occur when build the
 |Codeunit|130402|CAL Command Line Test Runner|OnAfterTestRun|The OnAfterTestRun trigger signature is not valid.|See [Resolving OnBeforeTestRun and OnAfterTestRun trigger errors](#TestRunnerTriggers).|
 
 ## <a name="CU1410"></a>Resolving Codeunit 1410 Doc. Exch. Service Mgt. error  
-You must change the DotNet data type variables of the local function **Initialize** to the use Microsoft.Dynamics.Nav.OAuth.dll version 10.0.0.0, as shown in the following table.
+Use the [!INCLUDE[nav_dev_short_md](includes/nav_dev_short_md.md)] to change the **DotNet** data type variables of the local function **Initialize** to the use Microsoft.Dynamics.Nav.OAuth version 10.0.0.0 assembly, as shown in the following table.
 
 |  Variable  |  DatType  |  Subtype  |
 |------------|-----------|-----------|
@@ -38,7 +38,7 @@ You must change the DotNet data type variables of the local function **Initializ
 |OAuthConsumer|DotNet|Microsoft.Dynamics.Nav.OAuthHelper.Consumer.'Microsoft.Dynamics.Nav.OAuth, Version=10.0.0.0'|
 |OAuthToken|DotNet|Microsoft.Dynamics.Nav.OAuthHelper.Token.'Microsoft.Dynamics.Nav.OAuth, Version=10.0.0.0'|
 
-## <a name="TextRunnerTriggers"></a>Resolving OnBeforeTestRun and OnAfterTestRun trigger errors
+## <a name="TestRunnerTriggers"></a>Resolving OnBeforeTestRun and OnAfterTestRun trigger errors
 
 Use the [!INCLUDE[nav_dev_short_md](includes/nav_dev_short_md.md)] to change the signature of the C/AL OnBeforeTestRun and OnAfterTestRun trigger functions of the test runner codeunits to include the *TestPermission* parameter.
 
@@ -61,7 +61,7 @@ OnAfterTestRun(CodeunitID : Integer;CodeunitName : Text[30];FunctionName : Text[
 If you do not change the signature, you will get errors when you compile these objects.
 
 ## <a name="DOL"></a>Resolving Dynamics Online Payment Service related errors
-These errors occur because Dynamics Online Payment Service has been discontunied in [!INCLUDE[nav2017](includes/nav2017.md)]. To resolve these errors and other issues related Dynamics Online Payment Services, replace the code for the codunits that are listed in the table with the mock code that is available from the link.
+These errors occur because Dynamics Online Payment Service has been discontunied in [!INCLUDE[nav2017](includes/nav2017.md)]. To resolve these errors and other issues related Dynamics Online Payment Services, replace the codunits that are listed in the table with mock codunits  that is available from the link.
 
 |  Codunit  |  Mock Code  |
 |-----------|-------------|
