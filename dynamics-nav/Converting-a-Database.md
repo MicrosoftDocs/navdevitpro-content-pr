@@ -43,7 +43,10 @@ To convert the old database to a [!INCLUDE[nav2017](includes/nav2017.md)] databa
 
 2.  Clear all [!INCLUDE[nav_server](includes/nav_server_md.md)] instance records from the **dbo.Server Instance** table in the database on SQL Server.  
 
-     You can do this by using SQL Server Management Studio to open and clear the table.  
+    You can do this by using SQL Server Management Studio to open and clear the table. For example, you can run the following SQL query:
+    ```
+    DELETE FROM [My NAV Database Name].[dbo].[Server Instance]
+    ```
 
 3.  Open the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] that matches the [!INCLUDE[navnow](includes/navnow_md.md)] version of the old database, and then connect to the old database.  
 
@@ -98,7 +101,7 @@ Next, you will convert the old database so that it can be used in [!INCLUDE[nav2
 
      Run the [!INCLUDE[nav2017](includes/nav2017.md)] Setup, and choose to install the **Developer** option.  
 
-2.  Open the [!INCLUDE[nav2017](includes/nav2017.md)] development environment, and then connect to the database that you prepared in the previous task.  
+2.  Run the [!INCLUDE[nav2017](includes/nav2017.md)] development environment as an administrator, and then connect to the database that you prepared in the previous task.  
 
      For more information, see [How to: Open Databases](How-to--Open-Databases.md).  
 
@@ -116,7 +119,7 @@ Next, you will convert the old database so that it can be used in [!INCLUDE[nav2
 
      For more information, see [How to: Connect a Microsoft Dynamics NAV Server Instance to a Database](How-to--Connect-a-Microsoft-Dynamics-NAV-Server-Instance-to-a-Database.md) and [Giving the account necessary database privileges in SQL Server](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md#dbo).  
 
-6.  Run the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] as an administrator, and then set it to use the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that connects to the database.  
+6.  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], and set it to use the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that connects to the database.  
 
      For more information, see [How to: Change the Microsoft Dynamics NAV Server Instance](How-to--Change-the-Microsoft-Dynamics-NAV-Server-Instance.md) or [Database Information](uiref/-$-S_2349-Database-Information-$-.md).  
 
@@ -148,10 +151,17 @@ Next, you will convert the old database so that it can be used in [!INCLUDE[nav2
 
 10. Fix compilation errors.  
 
-     If any errors occur, they are shown in the **Error List** window. For information about compilation errors when you are converting a [!INCLUDE[nav7long](includes/nav7long_md.md)] database, see [Compilation Errors When Converting a Microsoft Dynamics NAV 2013 Database](Compilation-Errors-When-Converting-a-Microsoft-Dynamics-NAV-2013-Database.md).  
+    If any errors occur, they are shown in the **Error List** window.
 
-     You can find all objects which did not compile in the **Object Designer** window, by setting a field filter on the **Compiled** field.  
+    For information about compilation errors when you are converting a [!INCLUDE[nav7long](includes/nav7long_md.md)] database, see [Resolving Compilation Errors When Converting a Microsoft Dynamics NAV 2013 Database](Compilation-Errors-When-Converting-a-Microsoft-Dynamics-NAV-2013-Database.md).  
 
+    For information about compilation errors when you are converting a [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)] database, see [Resolving Compilation Errors When Converting a Microsoft Dynamics NAV 2016 Database](Compilation-Errors-When-Converting-Dynamics-NAV-2015-Database.md).  
+
+    You can find all objects which did not compile in the **Object Designer** window, by setting a field filter on the **Compiled** field.  
+
+11.  If you converted a [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)], you will have to modify C/AL code to ensure that the **My Settings** page works properly in the [!INCLUDE[nav_web_md](includes/nav_web_md.md)].
+
+    For more information, see [Resolving My Settings Page Implementation After a Database Conversion](Resolve-MySettings-Page-After-Upgrade.md).
 11. Upload the customer license to the converted database.  
 
      For more information, see [Uploading a License File for a Specific Database](How-to--Upload-the-License-File.md#UploadtoDatabase).  
