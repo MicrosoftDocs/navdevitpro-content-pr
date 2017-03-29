@@ -71,15 +71,5 @@ These errors occur because Dynamics Online Payment Service has been discontunied
 |827|[Mock Code for Codeunit 827 DO Payment Card Validation](Mock-Code-CU827-DO-Payment-Card-Validation.md)|
 |829|[Mock Code for Codeunit 829 DO Payment Trans. Log Mgt.](Mock-Code-CU829-DO-Payment-Trans-Log-Mgt.md)|
 
-## Resolving My Settings errors
-After the database conversion, you will have to mocThe following table describes the before and after code that will help you resolve the warnings that you receive when you compile codeunit 43 **LanguageManagement**.
-1. In the C/AL code of codunit 1 Application Management, add a global function  
-1. In the C/AL code for page 9176 My Settings, and replace the code on the
-
-|||  
-|-|-|  
-|Before|`Language.SETRANGE("STX File Exist",TRUE);`|  
-|After|`Language.SETRANGE("Localization Exist",TRUE);`|  
-
 ## See Also  
  [Converting a Database](Converting-a-Database.md)
