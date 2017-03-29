@@ -21,10 +21,10 @@ HttpContent.Create(Value)
 ```
 
 ## Parameters
-*HttpContent*
+*HttpContent*  
 &emsp;Type: HttpContent
 
-*Value*
+*Value*  
 &emsp;Type: Text or InStream
 
 ## See Also

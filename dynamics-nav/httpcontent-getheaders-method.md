@@ -22,16 +22,16 @@ Gets the content's Http headers.
 ```
 
 ## Parameters
-*HttpContent*
+*HttpContent*  
 &emsp;Type: HttpContent
 
-*Result*
+*Result*  
 &emsp;Type: HttpHeaders
 
 ## Return Value
-*Ok*
+*Ok*  
 &emsp;Type: Boolean
-&emsp;**true** if the operation was successful; otherwise, **false**. 
+&emsp;**true** if the operation was successful; otherwise, **false**.
 
 Accessing the HttpContent property of HttpResponseMessage in a case when the request fails will result in an error.
 

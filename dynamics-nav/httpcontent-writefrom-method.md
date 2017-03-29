@@ -22,10 +22,10 @@ HttpContent.WriteFrom(Value)
 ```
 
 ## Parameters
-*HttpContent*
+*HttpContent*  
 &emsp;Type: HttpContent
 
-*Value*
+*Value*  
 &emsp;Type: Text or InStream
 
 A new HttpContent is constructed with this value and headers from before.

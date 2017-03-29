@@ -22,7 +22,7 @@ HttpHeaders.Clear
 ```
 
 ## Parameters
-*HttpHeaders*
+*HttpHeaders*  
 &emsp;Type: HttpHeaders
 
 ## See Also
