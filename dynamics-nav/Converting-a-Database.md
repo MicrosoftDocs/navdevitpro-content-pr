@@ -26,8 +26,10 @@ You typically convert a database, as described in this article, when you want to
 
 Converting a database does not upgrade the application objects (like pages, reports, and codeunits) or the business data to [!INCLUDE[nav2017](includes/nav2017.md)]. So performing a database conversion alone is usually not sufficient when upgrading from an earlier version of [!INCLUDE[navnow](includes/navnow_md.md)] to [!INCLUDE[nav2017](includes/nav2017.md)] or when upgrading an existing [!INCLUDE[nav2017](includes/nav2017.md)] installation to new platform and application versions. For these upgrade scenarios, you should perform a full upgrade by completing the tasks [Upgrading the Application Code](Upgrading-the-Application-Code.md) and [Upgrading the Data](Upgrading-the-Data.md), which will also cover the database conversion. You can choose to convert the old database and not upgrade your application. However, we recommend that you upgrade the application objects as well so that your solution includes important application fixes and new functionality that is introduced in [!INCLUDE[nav2017](includes/nav2017.md)]. Upgrading the application will also reduce the amount of merging required to upgrade to the next major version of [!INCLUDE[navnow](includes/navnow_md.md)], bringing you to the latest version of the product faster.  
 
+<!--
 > [!IMPORTANT]  
->  Before you start, make sure that you have applied the changes that are described in KB 2804640 [Code corrections for some Microsoft Dynamics NAV 2013 reports to prevent compilation errors with Report Viewer 2012 when upgrading to later versions of Microsoft Dynamics NAV](https://mbs.microsoft.com/knowledgebase/KBDisplay.aspx?scid=kb;EN-US;2804640).  
+>  Before you start, make sure that you have applied the changes that are described in KB 2804640 [Code corrections for some Microsoft Dynamics NAV 2013 reports to prevent compilation errors with Report Viewer 2012 when upgrading to later versions of Microsoft Dynamics NAV](https://mbs.microsoft.com/knowledgebase/KBDisplay.aspx?scid=kb;EN-US;2804640).
+-->
 
 ## Task 1: Preparing the Old Database  
 To convert the old database to a [!INCLUDE[nav2017](includes/nav2017.md)] database, the first task is to back up the old database and then prepare to convert it.
