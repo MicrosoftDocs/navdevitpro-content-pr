@@ -17,7 +17,7 @@ This article describes how to convert a  [!INCLUDE[navnow](includes/navnow_md.md
 -   [!INCLUDE[navsicily](includes/navsicily_md.md)]
 -   [!INCLUDE[navcrete](includes/navcrete_md.md)]
 -   [!INCLUDE[navcorfu](includes/navcorfu_md.md)]
--   [!INCLUDE[nav2017](includes/nav2017_md.md)] (cumulative update)
+-   [!INCLUDE[nav2017](includes/nav2017.md)] (cumulative update)
 
 ## About database conversion
 Converting a database, which is often referred to as a *technical upgrade*, changes the database so that it works on the new [!INCLUDE[nav2017](includes/nav2017.md)] platform. The conversion updates the system tables of the old database to the new schema (data structure), and upgrades of all reports to support Report Viewer 2012. It provides you with the latest platform features and performance enhancements.
