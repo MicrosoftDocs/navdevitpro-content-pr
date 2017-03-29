@@ -13,7 +13,7 @@ author: jswymer
 ---
 ## Mock Code for Codeunit 829 DO Payment Trans. Log Mgt.
 
-The following code is replacement code for Codeunit **829 DO Payment Trans. Log Mgt.** after converting a [!INCLUDE[navcorfu](includes/navcorfu_md.md)] database to [!INCLUDE[nav2017](includes/nav2017.md)]. Copy the code to a text editor, save as a .txt file type, and then use !INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to import the file and compile the object.
+The following code is replacement code for Codeunit **829 DO Payment Trans. Log Mgt.** after converting a [!INCLUDE[navcorfu](includes/navcorfu_md.md)] database to [!INCLUDE[nav2017](includes/nav2017.md)]. Copy the code to a text editor, save as a .txt file type, and then use  [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)] to import the file and compile the object.
 ```
 OBJECT Codeunit 829 DO Payment Trans. Log Mgt.
 {
