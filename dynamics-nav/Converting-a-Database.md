@@ -1,4 +1,4 @@
----
+ ---
 title: "Converting a Database - Technical Upgrade"
 ms.custom: na
 ms.date: 06/05/2016
@@ -22,9 +22,9 @@ This article describes how to convert a  [!INCLUDE[navnow](includes/navnow_md.md
 ## About database conversion
 Converting a database, which is often referred to as a *technical upgrade*, changes the database so that it works on the new [!INCLUDE[nav2017](includes/nav2017.md)] platform. The conversion updates the system tables of the old database to the new schema (data structure), and upgrades of all reports to support Report Viewer 2012. It provides you with the latest platform features and performance enhancements.
 
-You typically convert a database, as described in this article, when you want to upgrade an existing [!INCLUDE[nav2017](includes/nav2017.md)] database to a new platform version that does not include application changes. A database conversion is typically what is required for a cummulative update.
+You typically convert a database, as described in this article, when you want to upgrade an existing [!INCLUDE[nav2017](includes/nav2017.md)] database to a new platform version that does not include application changes. A database conversion is typically what is required for a cumulative update.
 
-Converting a database does not upgrade the application objects (like pages, reports, and codeunits) or the business data to [!INCLUDE[nav2017](includes/nav2017.md)]. So performing a database conversion alone is usually not sufficient when upgrading from an earlier version of [!INCLUDE[navnow](includes/navnow_md.md)] to [!INCLUDE[nav2017](includes/nav2017.md)] or when upgrading an existing [!INCLUDE[nav2017](includes/nav2017.md)] installation to new platform and application versions. For these upgrade scenarios, you should perform a full upgrade by completing the tasks [Upgrading the Application Code](Upgrading-the-Application-Code.md) and [Upgrading the Data](Upgrading-the-Data.md), which will also cover the database conversion. You can choose to convert the old database and not upgrade your application. However, we recommend that you upgrade the application objects as well so that your solution includes important application fixes and new functionality that is introduced in [!INCLUDE[nav2017](includes/nav2017.md)]. Upgrading the application will also reduce the amount of merging required to upgrade to the next major version of [!INCLUDE[navnow](includes/navnow_md.md)], bringing you to the latest version of the product faster.  
+Converting a database does not upgrade the application objects (like pages, reports, and codeunits) or the business data to [!INCLUDE[nav2017](includes/nav2017.md)]. Therefore, performing a database conversion alone is usually not sufficient when upgrading from an earlier version of [!INCLUDE[navnow](includes/navnow_md.md)] to [!INCLUDE[nav2017](includes/nav2017.md)] or when upgrading an existing [!INCLUDE[nav2017](includes/nav2017.md)] installation to new platform and application versions. For these upgrade scenarios, you should perform a full upgrade by completing the tasks [Upgrading the Application Code](Upgrading-the-Application-Code.md) and [Upgrading the Data](Upgrading-the-Data.md), which will also cover the database conversion. You can choose to convert the old database and not upgrade your application. However, we recommend that you upgrade the application objects as well so that your solution includes important application fixes and new functionality that is introduced in [!INCLUDE[nav2017](includes/nav2017.md)]. Upgrading the application will also reduce the amount of merging required to upgrade to the next major version of [!INCLUDE[navnow](includes/navnow_md.md)], bringing you to the latest version of the product faster.  
 
 <!--
 > [!IMPORTANT]  
@@ -67,13 +67,13 @@ To convert the old database to a [!INCLUDE[nav2017](includes/nav2017.md)] databa
 
 7.  Run the schema synchronization to synchronize the database schema changes.  
 
-    You can run the schema synchronization from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] or [!INCLUDE[nav_shell](includes/nav_shell_md.md)] version that matches the database.  
+    You can run the schema synchronization from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] or Dynamics NAV Administration Shell version that matches the database.  
 
     **From the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]**:  
 
     Open [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] as an administrator. On the **Tools** menu, choose **Sync. Schema For All Tables**, and then choose **With Validation** and follow the schema synchronization instructions.  
 
-    **From the [!INCLUDE[nav_shell](includes/nav_shell_md.md)]:**  
+    **From the Dynamics NAV Administration Shell:**  
 
     Open the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] as an administrator, and then run Sync-NavTenant cmdlet as follows:  
     ```  
@@ -166,7 +166,7 @@ Next, you will convert the old database so that it can be used in [!INCLUDE[nav2
 
     For information about compilation errors when you are converting a [!INCLUDE[nav7long](includes/nav7long_md.md)] database, see [Resolving Compilation Errors When Converting a Microsoft Dynamics NAV 2013 Database](Compilation-Errors-When-Converting-a-Microsoft-Dynamics-NAV-2013-Database.md).  
 
-    For information about compilation errors when you are converting a [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)] database, see [Resolving Compilation Errors When Converting a Microsoft Dynamics NAV 2016 Database](Compilation-Errors-When-Converting-Dynamics-NAV-2015-Database.md).  
+    For information about compilation errors when you are converting a [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)] database, see [Resolving Compilation Errors When Converting a Microsoft Dynamics NAV 2016 Database](Resolve-Compile-Errors-When-Converting-Dynamics-NAV-2016-Database.md).  
 
     You can find all objects which did not compile in the **Object Designer** window, by setting a field filter on the **Compiled** field.  
 

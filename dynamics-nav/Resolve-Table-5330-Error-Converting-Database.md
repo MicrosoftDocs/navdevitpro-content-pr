@@ -1,5 +1,5 @@
 ---
-title: "Updated Code for Table 5330 CRM Connection Setup"
+title: "Resolving Table 5330 CRM Connection Setup Error When Converting a Database"
 ms.custom: na
 ms.date: 20/03/2017
 ms.reviewer: na
@@ -11,9 +11,12 @@ ms.assetid: 6ea75b39-cf7d-4c88-868b-86fa0be2426b
 caps.latest.revision: 4
 author: jswymer
 ---
-## Updated Code for Table 5330 CRM Connection Setup
+## Resolving Table 5330 CRM Connection Setup Error When Converting a Database
+This article explains how to resolve the compilation error that you get for Table **5330 CRM Connection Setup** when converting a [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)] database to [!INCLUDE[nav2017](includes/nav2017.md)].
 
-The following code is replacement code for Table **5330 CRM Connection Setup** after converting a [!INCLUDE[navcorfu](includes/navcorfu_md.md)] database to [!INCLUDE[nav2017](includes/nav2017.md)]. Copy the code to a text editor, save as a .txt file type, and then import the file to the database by using the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)].
+To resolve this error, you must update Table **5330 CRM Connection Setup**  to support the latest Microsoft Dynamics CRM Software Development KIT (SDK). You can do this by replacing Table **5330 CRM Connection Setup** in the converted database by using the code that follows.
+1. Copy the code to a text editor, and save it as a .txt file type.
+2.  Use the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to import the file to the converted database, which replaces the existing table.
 
 ```
 OBJECT Table 5330 CRM Connection Setup
@@ -268,4 +271,5 @@ OBJECT Table 5330 CRM Connection Setup
 
 ## See Also  
  [Converting a Database](Converting-a-Database.md)  
+ [Resolving Compilation Errors When Converting a Dynamics NAV 2016 Database](Resolve-Compile-Errors-When-Converting-Dynamics-NAV-2016-Database.md)  
  [How to: Import-Objects](How-to--Import-Objects.md)
