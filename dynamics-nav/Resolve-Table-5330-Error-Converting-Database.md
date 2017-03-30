@@ -15,7 +15,7 @@ author: jswymer
 This article explains how to resolve the compilation error that you get for Table **5330 CRM Connection Setup** when converting a [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)] database to [!INCLUDE[nav2017](includes/nav2017.md)].
 
 To resolve this error, you must update Table **5330 CRM Connection Setup**  to support the latest Microsoft Dynamics CRM Software Development KIT (SDK). You can do this by replacing Table **5330 CRM Connection Setup** in the converted database by using the code that follows.
-1. Copy the code to a text editor, and save it as a .txt file type
+1. Copy the code to a text editor, and save it as a .txt file type.
 2.  Use the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] to import the file to the converted database, which replaces the existing table.
 
 ```
