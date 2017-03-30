@@ -15,7 +15,7 @@ author: SusanneWindfeldPedersen
 ---
 
 # JsonValue Class
-**JsonValue** is a container for any well-formed fundamental JSON value. A default JsonValue is set to the JSON value of NULL.
+JsonValue is a container for any well-formed fundamental JSON value. A default JsonValue is set to the JSON value of NULL.
 
 The following methods are available on the JsonValue class.
 

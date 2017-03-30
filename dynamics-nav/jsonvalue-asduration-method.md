@@ -27,7 +27,7 @@ Duration := JsonValue.AsDuration
 &emsp;Type: JsonValue
 
 ## Return Value
-Type : Duration
+Type: Duration
 
 ## Remarks
 If the JsonValue does not contain a number or a string which can be converted without loss of precision to a BigInteger, the operation will fail with a run-time error.

@@ -27,13 +27,12 @@ DateTime := JsonValue.AsDateTime
 &emsp;Type: JsonValue
 
 ## Return Value
-Type : DateTime
+Type: DateTime
 
 ## Remarks
 If the JsonValue does not contain a string of the format "o" as specified [here](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) the operation will fail with a run-time error.
 
-If there is no timezone specifier, the value will be treated as a UTC DateTime. If the timezone specifier is local, it will be treated as local to the server's timezone and converted to UTC.
-We recommend using UTC time to prevent unexpected behavior.
+If there is no timezone specifier, the value will be treated as a UTC DateTime. If the timezone specifier is local, it will be treated as local to the server's timezone and converted to UTC. We recommend using UTC time to prevent unexpected behavior.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

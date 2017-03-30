@@ -27,7 +27,7 @@ JsonToken := JsonObject.AsToken
 
 ## Return Value
 *JsonToken*  
-&emsp;Type : JsonToken
+&emsp;Type: JsonToken
 
 The returned JsonToken contains the same data as the JsonObject, but allows for treating the data in a generic manner.
 

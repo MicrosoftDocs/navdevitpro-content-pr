@@ -26,7 +26,7 @@ Char := JsonValue.AsChar
 &emsp;Type: JsonValue
 
 ## Return Value
-Type : Char
+Type: Char
 
 ## Remarks
 If the JsonValue does not contain a number which can be converted without loss of precision to a Char, the operation will fail with a run-time error.

@@ -15,8 +15,7 @@ author: SusanneWindfeldPedersen
 ---
 
 # SelectToken Method
-
-Selects a **JsonToken** using a JPath expression.
+Selects a JsonToken using a JPath expression.
 
 ```
 [Ok := ] Value.SelectToken(Path, Result)
@@ -35,9 +34,10 @@ Selects a **JsonToken** using a JPath expression.
 &emsp;A **JsonToken** variable that will contain the result if the operation is successful.
 
 ## Property Value/Return Value
-Type : Boolean
+Type: Boolean
 
 **true** if the operation was successful; otherwise, **false**.
+
 If you omit this optional return value and if the select does not execute successfully, then a run-time error occurs.
 
 ## Remarks
