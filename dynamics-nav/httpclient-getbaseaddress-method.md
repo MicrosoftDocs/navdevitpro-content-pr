@@ -21,7 +21,9 @@ Gets the base address of Uniform Resource Identifier (URI) of the Internet resou
 [Ok := ] HttpClient.GetBaseAddress
 ```
 ## Parameters
-&emsp;HttpClient: The HttpClient whose BaseAddress we are trying to get.
+*HttpClient*  
+&emsp;Type: HttpClient  
+&emsp;The HttpClient whose BaseAddress we are trying to get.
 
 ## Return value
 *Address*  

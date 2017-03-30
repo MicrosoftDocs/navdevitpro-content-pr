@@ -33,7 +33,7 @@ Gets the values for the specified key.
 
 ## Return Value
 *Ok*  
-&emsp;Type: Boolean
+&emsp;Type: Boolean  
 &emsp;**true** if headers contain the key; **false** otherwise.
 
 ## See Also

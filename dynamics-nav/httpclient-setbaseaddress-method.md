@@ -27,7 +27,7 @@ Type: String
 
 ## Return value
 *Ok*  
-&emsp;Type: Boolean
+&emsp;Type: Boolean  
 &emsp;**true** if the operation was successful; otherwise, **false**.
 
 ## See Also
