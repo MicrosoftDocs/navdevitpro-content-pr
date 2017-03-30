@@ -1,8 +1,8 @@
 ---
-title: "Clone Method"
+title: "AddCertificate Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 03/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,22 +14,24 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# Clone Method
-
-Creates a deep-copy of the JsonToken value.
+# AddCertificate Method
 
 ```
-Result := JsonToken.Clone()
+HttpClient.AddCertificate(certificate, password)
 ```
+## Parameters
+*HttpClient*  
+&emsp;Type: HttpClient
 
-### Parameters
-*JsonToken*  
-&emsp;Type: JsonToken
+*certificate*
+&emsp;Type: Text
 
-## Return Value
-Type: JsonToken
+*password*
+&emsp;Type: Text
 
-The *Result* will be a full, deep-copy of the *Value*.
+## Remarks
+
+The certificate must be in base 64 format.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  
