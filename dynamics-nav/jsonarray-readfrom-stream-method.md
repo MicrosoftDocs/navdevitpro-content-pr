@@ -15,7 +15,6 @@ author: SusanneWindfeldPedersen
 ---
 
 # ReadFrom_Stream Method
-
 Reads the JSON data from the stream into a JsonArray variable.
 
 ```
@@ -32,9 +31,9 @@ Reads the JSON data from the stream into a JsonArray variable.
 The InStream object from which the JSON data will be read.
 
 ## Property Value/Return Value
-Type : Boolean
+Type: Boolean
 
-&emsp;**true** if the read was successful; otherwise, **false**.
+**true** if the read was successful; otherwise, **false**.
 
 If you omit this optional return value and if the read does not execute successfully, then a run-time error occurs.
 

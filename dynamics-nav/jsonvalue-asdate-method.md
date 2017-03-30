@@ -27,7 +27,7 @@ Date := JsonValue.AsDate
 &emsp;Type: JsonValue
 
 ## Return Value
-Type : Date
+Type: Date
 
 ## Remarks
 If the JsonValue does not contain a string of the format "yyyy-MM-dd" e.g. "2017-01-17" (2017-Janury-17), the operation will fail with a run-time error.

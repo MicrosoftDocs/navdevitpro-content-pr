@@ -22,17 +22,17 @@ Adds a new property to a JsonObject.
 ```
 
 ## Parameters
-*Key*
+*Key*  
 Type: String
 
-*Value*
+*Value*  
 Type: JsonToken | JsonObject | JsonValue | JsonArray | Boolean | Char | Byte | Integer | BigInteger | Decimal | Duration | String | Date | Time | DateTime
 
 
 ## Return Value
 Type: Boolean
 
-&emsp;**true** if the operation was successful; otherwise, **false**.
+**true** if the operation was successful; otherwise, **false**.
 
 If you omit this optional return value and if the select does not execute successfully, then a run-time error occurs.
 

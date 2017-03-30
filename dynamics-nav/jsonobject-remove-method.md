@@ -28,7 +28,7 @@ Removes the property with the given key from the object.
 ## Return Value  
 Type: Boolean
 
-&emsp;**true** if a property with the given key was present on the object; otherwise, **false**.
+**true** if a property with the given key was present on the object; otherwise, **false**.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

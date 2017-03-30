@@ -22,7 +22,7 @@ JsonValue.SetValueToNull()
 ```
 
 # Remarks
-1. The JsonValue will be disconnected from its current JSON tree and the data contained by the JsonValue will be replaced with the new value.
+The JsonValue will be disconnected from its current JSON tree and the data contained by the JsonValue will be replaced with the new value.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

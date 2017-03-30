@@ -27,7 +27,7 @@ Ok := JsonValue.IsNull
 &emsp;Type: JsonValue
 
 ## Property Value/Return Value
-Type : Boolean
+Type: Boolean
 
 **true** if the JsonValue contains the JSON value of NULL; otherwise, **false**.
 

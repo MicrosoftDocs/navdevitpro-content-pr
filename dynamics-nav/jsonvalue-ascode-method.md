@@ -27,7 +27,7 @@ Code := JsonValue.AsCode
 &emsp;Type: JsonValue
 
 ## Return Value
-Type : Code
+Type: Code
 
 ## Remarks
 The operation will fail with a run-time error if the JsonValue contains NULL or UNDEFINED.

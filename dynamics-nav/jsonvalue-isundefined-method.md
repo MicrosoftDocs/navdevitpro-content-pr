@@ -27,7 +27,7 @@ Ok := JsonValue.IsUndefined
 &emsp;Type: JsonValue
 
 ## Property Value/Return Value
-Type : Boolean
+Type: Boolean
 
 **true** if the JsonValue contains the JSON value of UNDEFINED; otherwise, **false**.
 

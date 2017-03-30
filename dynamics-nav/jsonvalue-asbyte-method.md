@@ -26,7 +26,7 @@ Byte := JsonValue.AsByte
 &emsp;Type: JsonValue
 
 ## Return Value
-Type : Byte
+Type: Byte
 
 ## Remarks
 If the JsonValue does not contain a number which can be converted without loss of precision to a Byte, the operation will fail with a run-time error.

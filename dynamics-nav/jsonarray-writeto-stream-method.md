@@ -31,9 +31,9 @@ Serializes and writes the JSON data of the JsonArray to a given OutStream object
 The OutStream object to which the JSON data will be written.
 
 ## Property Value/Return Value
-Type : Boolean
+Type: Boolean
 
-&emsp;**true** if the write was successful; otherwise, **false**.
+**true** if the write was successful; otherwise, **false**.
 
 If you omit this optional return value and if the write does not execute successfully, then a run-time error occurs.
 

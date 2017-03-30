@@ -22,11 +22,11 @@ JsonToken := JsonArray.AsToken
 ```
 
 ### Parameters
-*JsonArray*  
+*JsonArray*   
 &emsp;Type: JsonArray
 
 ## Return Value
-*JsonToken*
+*JsonToken*  
 Type: JsonToken
 
 ## Remarks

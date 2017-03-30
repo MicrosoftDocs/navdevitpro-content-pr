@@ -27,7 +27,7 @@ Decimal := JsonValue.AsDecimal
 &emsp;Type: JsonValue
 
 ## Return Value
-Type : Decimal
+Type: Decimal
 
 ## Remarks
 If the JsonValue does not contain a number or a string which can be converted without loss of precision to a Decimal, the operation will fail with a run-time error.
