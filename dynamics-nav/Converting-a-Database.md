@@ -1,4 +1,4 @@
----
+ ---
 title: "Converting a Database - Technical Upgrade"
 ms.custom: na
 ms.date: 06/05/2016
@@ -166,7 +166,7 @@ Next, you will convert the old database so that it can be used in [!INCLUDE[nav2
 
     For information about compilation errors when you are converting a [!INCLUDE[nav7long](includes/nav7long_md.md)] database, see [Resolving Compilation Errors When Converting a Microsoft Dynamics NAV 2013 Database](Compilation-Errors-When-Converting-a-Microsoft-Dynamics-NAV-2013-Database.md).  
 
-    For information about compilation errors when you are converting a [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)] database, see [Resolving Compilation Errors When Converting a Microsoft Dynamics NAV 2016 Database](Compilation-Errors-When-Converting-Dynamics-NAV-2015-Database.md).  
+    For information about compilation errors when you are converting a [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)] database, see [Resolving Compilation Errors When Converting a Microsoft Dynamics NAV 2016 Database](Resolve-Compile-Errors-When-Converting-Dynamics-NAV-2016-Database.md).  
 
     You can find all objects which did not compile in the **Object Designer** window, by setting a field filter on the **Compiled** field.  
 
