@@ -15,7 +15,6 @@ author: SusanneWindfeldPedersen
 ---
 
 # AsToken Method
-
 Converts the value in a JsonValue to a JsonToken data type.
 
 ```

@@ -27,7 +27,7 @@ Integer := JsonValue.AsInteger
 &emsp;Type: JsonValue
 
 ## Return Value
-Type : Integer
+Type: Integer
 
 ## Remarks
 If the JsonValue does not contain a number which can be converted without loss of precision to an Integer, the operation will fail with a run-time error.

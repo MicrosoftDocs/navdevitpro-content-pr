@@ -33,9 +33,9 @@ Inserts the value at the given index in the array while shifting all the values 
 &emsp;Type: JsonToken | JsonObject | JsonValue | JsonArray | Boolean | Char | Byte | Integer | BigInteger | Decimal | Duration | String | Date | Time | DateTime
 
 ## Return Value
-Type : Boolean
+Type: Boolean
 
-&emsp;**true** if the operation was successful; otherwise, **false**.
+**true** if the operation was successful; otherwise, **false**.
 
 If you omit this optional return value and if the select does not execute successfully, then a run-time error occurs.
 

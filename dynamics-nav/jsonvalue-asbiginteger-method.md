@@ -27,7 +27,7 @@ BigInteger := JsonValue.AsBigInteger
 &emsp;Type: JsonValue
 
 ## Return Value
-Type : BigInteger
+Type: BigInteger
 
 ## Remarks
 If the JsonValue does not contain number or a string which can be converted without loss of precision to an BigInteger, the operation will fail with a run-time error.

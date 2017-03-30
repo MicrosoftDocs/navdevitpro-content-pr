@@ -16,9 +16,9 @@ author: SusanneWindfeldPedersen
 
 # JsonToken Class
 
-A **JsonToken** object is a container for any well-formed JSON data. A default **JsonToken** object contains the JSON value of NULL.
+A JsonToken object is a container for any well-formed JSON data. A default JsonToken object contains the JSON value of NULL.
 
-The following methods are available on **JsonToken** objects.
+The following methods are available on JsonToken objects.
 
 |Method name|Description|
 |-----------|-----------|

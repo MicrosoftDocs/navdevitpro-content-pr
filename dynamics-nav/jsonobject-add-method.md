@@ -31,7 +31,7 @@ Adds a new property to a JsonObject.
 ## Return Value
 Type: Boolean
 
-&emsp;**true** if the operation was successful; otherwise, **false**.
+**true** if the operation was successful; otherwise, **false**.
 
 If you omit this optional return value and if the select does not execute successfully, then a run-time error occurs.
 

@@ -27,7 +27,7 @@ Option := JsonValue.AsOption
 &emsp;Type: JsonValue
 
 ## Return Value
-Type : Option
+Type: Option
 
 ## Remarks
 If the JsonValue does not contain a number which can be converted without loss of precision to an Option, the operation will fail with a run-time error.

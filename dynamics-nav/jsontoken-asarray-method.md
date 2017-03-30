@@ -16,7 +16,7 @@ author: SusanneWindfeldPedersen
 
 # AsArray Method
 
-Converts the value in a JsonToken to a **JsonArray** data type.
+Converts the value in a JsonToken to a JsonArray data type.
 
 ```
 JsonArray := JsonToken.AsArray
@@ -26,7 +26,7 @@ JsonArray := JsonToken.AsArray
 *JsonToken*  
 &emsp;Type: JsonToken
 
-A JsonToken for which **IsArray** returns **true**. If the JsonToken does not represent a JSON array, a run-time error occurs.
+A JsonToken for which IsArray returns **true**. If the JsonToken does not represent a JSON array, a run-time error occurs.
 
 ## Return Value
 Type: JsonArray

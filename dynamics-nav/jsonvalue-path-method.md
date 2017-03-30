@@ -27,7 +27,7 @@ String := JsonValue.Path
 &emsp;Type: JsonValue
 
 ## Property Value/Return Value
-Type : String
+Type: String
 
 The path of the value relative to its containing JSON tree.
 If the object is the root of the JSON tree, the path will be empty.

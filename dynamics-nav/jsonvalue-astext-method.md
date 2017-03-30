@@ -27,7 +27,7 @@ Text := JsonValue.AsText
 &emsp;Type: JsonValue
 
 ## Return Value
-Type : Text
+Type: Text
 
 ## Remarks
 The operation will fail with a run-time error if the JsonValue contains NULL or UNDEFINED.

@@ -31,7 +31,7 @@ Ok := JsonObject.Contains(String)
 ## Return Value
 Type: Boolean
 
-&emsp;**true** if the object contains a property with the given key; otherwise, **false**.
+**true** if the object contains a property with the given key; otherwise, **false**.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  
