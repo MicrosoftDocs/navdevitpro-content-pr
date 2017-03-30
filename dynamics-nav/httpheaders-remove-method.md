@@ -29,7 +29,7 @@ Removes the key and the related values from the HttpHeaders object.
 &emsp;Type: Text
 
 ## Return Value
-&emsp;Type: Boolean
+&emsp;Type: Boolean  
 &emsp;**true** if key exists; **false** otherwise.
 
 ## See Also

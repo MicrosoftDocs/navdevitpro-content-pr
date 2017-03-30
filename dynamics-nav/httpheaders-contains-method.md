@@ -30,7 +30,7 @@ Result := HttpHeaders.Contains(Key)
 
 ## Return Value
 *Result*  
-&emsp;Type: Boolean
+&emsp;Type: Boolean  
 &emsp;**true** if the object contains a property with the given key; otherwise, **false**.
 
 ## See Also

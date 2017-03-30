@@ -22,7 +22,7 @@ Sends a DELETE request to delete the resource identified by the request URL.
 ```
 
 ## Parameters
-*Path*    
+*Path*  
 &emsp;Type: String
 
 *Response*  

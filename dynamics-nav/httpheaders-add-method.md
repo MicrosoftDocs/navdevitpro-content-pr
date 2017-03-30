@@ -33,7 +33,7 @@ Adds sets the provided value for the provided header name.
 
 ## Return Value
 *Ok*  
-&emsp;Type: Boolean
+&emsp;Type: Boolean  
 &emsp;**true** if the operation was successful; otherwise, **false**.
 
 ## See Also
