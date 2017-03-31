@@ -24,11 +24,11 @@ CurrentContent := HttpRequestMessage.Content
 
 ## Parameters
 *SetContent*  
-Type: HttpContent
+&emsp;Type: HttpContent
 
 ## Return Value
 *CurrentContent*  
-Type: HttpContent
+&emsp;Type: HttpContent
 
 
 ## See Also

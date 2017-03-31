@@ -33,7 +33,7 @@ Sends a PUT request to the specified Uri as an asynchronous operation.
 
 ## Return Value
 *Ok*  
-&emsp;Type: Boolean
+&emsp;Type: Boolean  
 &emsp;**true** if the operation was successful; otherwise, **false**.
 
 Accessing the HttpContent property of HttpResponseMessage in a case when the request fails will result in an error.

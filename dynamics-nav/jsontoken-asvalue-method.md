@@ -31,7 +31,7 @@ A JsonToken for which IsValue returns **true**. If the JsonToken does not repres
 ## Return Value
 Type: JsonValue
 
-The returned JsonValue contains the same data as the JsonToken, but allows value-specific operations to be performed on it (the data).
+The returned JsonValue contains the same data as the JsonToken, but allows value-specific operations to be performed on the data.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

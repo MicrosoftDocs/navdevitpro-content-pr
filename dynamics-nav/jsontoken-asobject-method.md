@@ -23,7 +23,7 @@ JsonObject := JsonToken.AsObject
 ```
 
 ## Parameters
-*JsonToken*
+*JsonToken*  
 Type: JsonToken
 
 A JsonToken for which IsObject returns **true**. If the JsonToken does not represent a JSON object, a run-time error occurs.

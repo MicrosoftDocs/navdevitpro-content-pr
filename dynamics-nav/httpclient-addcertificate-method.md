@@ -1,5 +1,5 @@
 ---
-title: "GetValues Method"
+title: "AddCertificate Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 03/28/2017
@@ -14,27 +14,24 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# GetValues Method
-Gets the values for the specified key.
+# AddCertificate Method
 
 ```
-[Ok := ] HttpHeaders.GetValues(Key, Result)
+HttpClient.AddCertificate(certificate, password)
 ```
-
 ## Parameters
-*HttpHeaders*  
-&emsp;Type: HttpHeaders
+*HttpClient*  
+&emsp;Type: HttpClient
 
-*Key*  
+*certificate*  
 &emsp;Type: Text
 
-*Result*  
-&emsp;Type: Array of Text
+*password*  
+&emsp;Type: Text
 
-## Return Value
-*Ok*  
-&emsp;Type: Boolean  
-&emsp;**true** if headers contain the key; **false** otherwise.
+## Remarks
+
+The certificate must be in base 64 format.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

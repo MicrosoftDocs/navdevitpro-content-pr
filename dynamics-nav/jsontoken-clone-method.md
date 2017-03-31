@@ -27,7 +27,7 @@ Result := JsonToken.Clone()
 &emsp;Type: JsonToken
 
 ## Return Value
-Type : JsonToken
+Type: JsonToken
 
 The *Result* will be a full, deep-copy of the *Value*.
 

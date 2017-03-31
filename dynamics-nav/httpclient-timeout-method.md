@@ -22,7 +22,7 @@ HttpClient.Timeout
 ```
 
 ## Property Value
-&emsp;Type: Integer
+&emsp;Type: Integer  
 &emsp;The number of seconds before the request times out.
 
 ## See Also
