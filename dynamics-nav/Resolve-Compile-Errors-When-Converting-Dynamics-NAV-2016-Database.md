@@ -10,12 +10,13 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: 6ea75b39-cf7d-4c88-868b-86fa0be2426b
 caps.latest.revision: 4
 manager: edupont
+author: jswymer
 ---
 # Resolving Compilation Errors When Converting a Dynamics NAV 2016 Database
 When you convert a [!INCLUDE[navcorfu](includes/navcorfu_md.md)] database, you will receive compilation errors in several standard [!INCLUDE[navnow](includes/navnow_md.md)] objects. This article describes how to resolve these errors.
 
 ## Compilation Errors
-The following table lists the compilation errors that might occur when build the server application objects during the database conversion, with a link to a solution for fixing the problem.
+The following table lists the compilation errors that might occur when you build the server application objects during the database conversion, with a link to a solution for fixing the problem.
 
 |  Object Type  |  Object ID  |  Object Name  |  Function/Trigger  |  Error Message  |  Solution  |
 |---------------|-------------|---------------|--------------------|------------|------------|
