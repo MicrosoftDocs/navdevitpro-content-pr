@@ -23,13 +23,14 @@ Ok := JsonValue.IsNull
 ```
 
 ## Parameters
-*JsonJsonValueToken*
-
-Type: JsonValue
+*JsonValue*  
+&emsp;Type: JsonValue
 
 ## Property Value/Return Value
-Type : Boolean
+Type: Boolean
 
-**true** the JsonValue contains the JSON value of NULL; otherwise, **false**.
+**true** if the JsonValue contains the JSON value of NULL; otherwise, **false**.
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

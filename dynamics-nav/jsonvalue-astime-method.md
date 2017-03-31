@@ -16,24 +16,22 @@ author: SusanneWindfeldPedersen
 
 # AsTime Method
 
-Converts the value in a JsonValue to a **Time** data type.
+Converts the value in a JsonValue to a Time data type.
 
 ```
 Time := JsonValue.AsTime
 ```
 
 ## Parameters
-*JsonValue*
-
-Type: JsonValue
+*JsonValue*  
+&emsp;Type: JsonValue
 
 ## Return Value
-Type : Time
+Type: Time
 
 ## Remarks
-If the JsonValue does not contain a string of the format "HH:mm:ss.FFFFFFF" (https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx) the operation will fail with a run-time error. 
-
-//TODO:Link to example about custom parsing.
+If the JsonValue does not contain a string of the format "HH:mm:ss.FFFFFFF" ( see [Custom Date and Time Format Strings](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)) the operation will fail with a run-time error.
 
 ## See Also
-
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

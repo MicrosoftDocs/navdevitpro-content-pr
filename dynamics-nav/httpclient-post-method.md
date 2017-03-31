@@ -22,22 +22,21 @@ Sends a POST request to the specified Uri as an asynchronous operation.
 ```
 
 ## Parameters
-*Path*
-Type: String
+*Path*  
+&emsp;Type: String
 
-*Content*
-Type: HttpContent
+*Content*  
+&emsp;Type: HttpContent
 
-*Response*
-Type: HttpResponseMessage
+*Response*  
+&emsp;Type: HttpResponseMessage
 
 ## Return Value
-*Ok*
-Type: Boolean
+*Ok*  
+&emsp;Type: Boolean  
+&emsp;**true** if the operation was successful; otherwise, **false**.
 
-**true** if the operation was successful; otherwise, **false**.
-
-## Remarks
+Accessing the HttpContent property of HttpResponseMessage in a case when the request fails will result in an error.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

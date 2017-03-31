@@ -16,24 +16,22 @@ author: SusanneWindfeldPedersen
 
 # AsDuration Method
 
-Converts the value in a JsonValue to a **Duration** data type.
+Converts the value in a JsonValue to a Duration data type.
 
 ```
 Duration := JsonValue.AsDuration
 ```
 
 ## Parameters
-*JsonValue*
-
-Type: JsonValue
+*JsonValue*  
+&emsp;Type: JsonValue
 
 ## Return Value
-Type : Duration
+Type: Duration
 
 ## Remarks
-If the JsonValue does not contain a number or a string which can be converted without loss of precision to a BigInteger, the operation will fail with a run-time error. 
-
-//TODO:Link to example about custom parsing.
+If the JsonValue does not contain a number or a string which can be converted without loss of precision to a BigInteger, the operation will fail with a run-time error.
 
 ## See Also
-
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

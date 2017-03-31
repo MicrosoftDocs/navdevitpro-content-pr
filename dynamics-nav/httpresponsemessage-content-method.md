@@ -1,8 +1,8 @@
 ---
-title: "Content Method"
+title: "Content Property"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 03/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,9 +14,15 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# Content Method
+# Content Property
+Gets the contents of the HTTP request.
 
-## Remarks
+```
+HttpResponseMessage.Content
+```
+
+## Property Value
+Type: HttpContent
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

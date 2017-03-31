@@ -2,7 +2,7 @@
 title: "HttpHeaders Class"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 03/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -14,19 +14,17 @@ manager: edupont
 ---
 
 # HttpHeaders Class
-The HttpHeaders...
+The HttpHeaders class contains a collection of headers and their values.
 
-The following methods are available on the **HttpHeaders** class.
+The following methods are available on the HttpHeaders class.
 
 |Method name|Description|
 |-----------|-----------|
-|[Add](httpheaders-add-method.md)|Adds|
-|[Clear](httpheaders-clear-method.md)|Clears...|
-|[Contains](httpheaders-contains-method.md)|Checks...|
-|[GetValues](httpheaders-getvalues-method.md)|Gets..|
-|[Remove](httpheaders-remove-method.md)|Removes..|
-
-## Remarks
+|[Add](httpheaders-add-method.md)|Adds sets the provided value for the provided header name.|
+|[Clear](httpheaders-clear-method.md)|Sets the HttpHeaders variable to the default value.|
+|[Contains](httpheaders-contains-method.md)|Checks if an HttpHeaders contains a property with a given key.|
+|[GetValues](httpheaders-getvalues-method.md)|Gets the values for the specified key.|
+|[Remove](httpheaders-remove-method.md)|Removes the key and the related values from the HttpHeaders object.|
 
 
 ## See Also

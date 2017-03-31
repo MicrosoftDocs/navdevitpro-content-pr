@@ -2,7 +2,7 @@
 title: "SetBaseAddress Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 03/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -16,7 +16,19 @@ author: SusanneWindfeldPedersen
 
 # SetBaseAddress Method
 
-## Remarks
+Sets the base address of Uniform Resource Identifier (URI) of the Internet resource used when sending requests.
+
+```
+[Ok := ] HttpClient.SetBaseAddress(Path)
+```
+## Parameters
+*Path*  
+Type: String
+
+## Return value
+*Ok*  
+&emsp;Type: Boolean  
+&emsp;**true** if the operation was successful; otherwise, **false**.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

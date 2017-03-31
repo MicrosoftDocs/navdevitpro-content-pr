@@ -2,7 +2,7 @@
 title: "Remove Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 03/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -15,8 +15,22 @@ author: SusanneWindfeldPedersen
 ---
 
 # Remove Method
+Removes the key and the related values from the HttpHeaders object.
 
-## Remarks
+```
+[Ok := ] HttpHeaders.Remove(Key)
+```
+
+## Parameters
+*HttpHeaders*  
+&emsp;Type: HttpHeaders
+
+*Key*  
+&emsp;Type: Text
+
+## Return Value
+&emsp;Type: Boolean  
+&emsp;**true** if key exists; **false** otherwise.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

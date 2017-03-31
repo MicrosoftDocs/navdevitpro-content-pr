@@ -2,7 +2,7 @@
 title: "Add Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 03/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -15,7 +15,7 @@ author: SusanneWindfeldPedersen
 ---
 
 # Add Method
-Adds a new value at the end of the **JsonArray**.
+Adds a new value at the end of the JsonArray.
 
 ```
 JsonArray.Add(Value)
@@ -23,9 +23,11 @@ JsonArray.Add(Value)
 
 ## Parameters
 *JsonArray*  
-Type: JsonArray
+&emsp;Type: JsonArray
 
 *Value*  
-Type: JsonToken | JsonObject | JsonValue | JsonArray | Boolean | Char | Byte | Integer | BigInteger | Decimal | Duration | String | Date | Time | DateTime
+&emsp;Type: JsonToken | JsonObject | JsonValue | JsonArray | Boolean | Char | Byte | Integer | BigInteger | Decimal | Duration | String | Date | Time | DateTime
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

@@ -2,7 +2,7 @@
 title: "AsToken Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 03/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -15,22 +15,23 @@ author: SusanneWindfeldPedersen
 ---
 
 # AsToken Method
-
-Converts the value in a JsonArray to a **JsonToken** data type.
+Converts the value in a JsonArray to a JsonToken data type.
 
 ```
 JsonToken := JsonArray.AsToken
 ```
 
 ### Parameters
-*JsonArray*
-Type: JsonArray
+*JsonArray*   
+&emsp;Type: JsonArray
 
 ## Return Value
-*JsonToken*
+*JsonToken*  
 Type: JsonToken
 
 ## Remarks
 The returned JsonToken contains the same data as the JsonArray, but allows for treating the data in a generic manner.
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

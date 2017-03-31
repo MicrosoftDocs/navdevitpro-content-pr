@@ -2,7 +2,7 @@
 title: "Insert Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 03/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -16,29 +16,32 @@ author: SusanneWindfeldPedersen
 
 # Insert Method
 
-Inserts the value at the given index in the array while shifting all the values to the right by one position (to the right). 
+Inserts the value at the given index in the array while shifting all the values to the right by one position.
 
 ```
 [Ok := ] JsonArray.Insert(Index, Value)
 ```
 
 ## Parameters
-*JsonArray*
-Type: JsonArray
+*JsonArray*  
+&emsp;Type: JsonArray
 
-*Index*
-Type: Integer
+*Index*  
+&emsp;Type: Integer
 
-*Value*
-Type: JsonToken | JsonObject | JsonValue | JsonArray | Boolean | Char | Byte | Integer | BigInteger | Decimal | Duration | String | Date | Time | DateTime
+*Value*  
+&emsp;Type: JsonToken | JsonObject | JsonValue | JsonArray | Boolean | Char | Byte | Integer | BigInteger | Decimal | Duration | String | Date | Time | DateTime
 
 ## Return Value
-Type : Boolean
+Type: Boolean
 
-**true** if the operation was successful; otherwise, **false**. 
+**true** if the operation was successful; otherwise, **false**.
+
 If you omit this optional return value and if the select does not execute successfully, then a run-time error occurs.
 
 ## Remarks
 The operation will fail if the *Index* is smaller than 0 or greater than JsonArray.Count.
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

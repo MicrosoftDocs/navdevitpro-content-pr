@@ -16,23 +16,22 @@ author: SusanneWindfeldPedersen
 
 # AsText Method
 
-Converts the value in a JsonValue to a **Text** data type.
+Converts the value in a JsonValue to a Text data type.
 
 ```
 Text := JsonValue.AsText
 ```
 
 ## Parameters
-*JsonValue*
-
-Type: JsonValue
+*JsonValue*  
+&emsp;Type: JsonValue
 
 ## Return Value
-Type : Text
+Type: Text
 
 ## Remarks
 The operation will fail with a run-time error if the JsonValue contains NULL or UNDEFINED.
 
-//TODO:Link to example about custom parsing.
-
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

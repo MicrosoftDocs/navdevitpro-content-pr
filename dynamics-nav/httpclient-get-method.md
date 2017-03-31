@@ -15,24 +15,25 @@ author: SusanneWindfeldPedersen
 ---
 
 # Get Method
-Retrieves the value of a.....
+Sends a GET request to get the resource identified by the request URL.
 
 ```
 [Ok := ] HttpClient.Get(Path, Response)
 ```
 ## Parameters
-*Path*
-Type: String
+*Path*  
+&emsp;Type: String
 
-*Response*
-Type: HttpReponseMessage 
+*Response*  
+&emsp;Type: HttpReponseMessage
 
 ## Return value
-*Ok*
-Type: Boolean
+*Ok*  
+&emsp;Type: Boolean
 
-## Remarks
-**true** if the operation was successful; otherwise, **false**. 
+&emsp;**true** if the operation was successful; otherwise, **false**. 
+
+Accessing the HttpContent property of HttpResponseMessage in a case when the request fails will result in an error.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

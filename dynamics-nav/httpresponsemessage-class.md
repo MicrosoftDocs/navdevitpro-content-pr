@@ -2,7 +2,7 @@
 title: "HttpResponseMessage Class"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 03/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -16,18 +16,18 @@ author: SusanneWindfeldPedersen
 
 # HttpResponseMessage Class
 
-The following methods are available on the **HttpResponseMessage** class.
+Represents an HTTP response message.
+
+The following methods are available on the HttpResponseMessage class.
 
 |Method name|Description|
 |-----------|-----------|
-|[Content](httpresponsemessage-content-method.md)|Checks|
-|[Headers](httpresponsemessage-headers-method.md)|Creates...|
-|[HttpStatusCode](httpresponsemessage-httpstatuscode-method.md)|Gets...|
-|[IsSuccessStatusCode](httpresponsemessage-issuccessstatuscode-method.md)|..|
-|[SetRequestUri](httpresponsemessage-setrequesturi-method.md)|Sets..|
+|[Content](httpresponsemessage-content-method.md)|Gets the contents of the HTTP message.|
+|[Headers](httpresponsemessage-headers-method.md)|Gets the HTTP request's HTTP headers.|
+|[HttpStatusCode](httpresponsemessage-httpstatuscode-method.md)|Gets the status code of the HTTP response.|
+|[IsSuccessStatusCode](httpresponsemessage-issuccessstatuscode-method.md)|Gets a value that indicates if the HTTP response was successful.|
+|[SetRequestUri](httpresponsemessage-reasonphrase-method.md)|Gets the reason phrase which typically is sent by servers together with the status code.|
 
-
-## Remarks
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

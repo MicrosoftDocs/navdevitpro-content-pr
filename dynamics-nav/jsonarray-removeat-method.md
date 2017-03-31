@@ -2,7 +2,7 @@
 title: "RemoveAt Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 03/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -15,7 +15,6 @@ author: SusanneWindfeldPedersen
 ---
 
 # RemoveAt Method
-
 Removes the token at the given index.
 
 ```
@@ -23,22 +22,24 @@ Removes the token at the given index.
 ```
 
 ## Parameters
-*JsonArray*
-Type: JsonArray
+*JsonArray*  
+&emsp;Type: JsonArray
 
-*Index*
-Type: Integer
-
-*Value*
-Type: JsonToken | JsonObject | JsonValue | JsonArray | Boolean | Char | Byte | Integer | BigInteger | Decimal | Duration | String | Date | Time | DateTime
+*Index*  
+&emsp;Type: Integer  
+&emsp;The position of the element that will be removed.
 
 ## Return Value
-Type : Boolean
+Type: Boolean
 
-**true** if the operation was successful; otherwise, **false**. 
+**true** if the operation was successful; otherwise, **false**.
+
 If you omit this optional return value and if the select does not execute successfully, then a run-time error occurs.
 
 ## Remarks
-The operation will fail if the *Index* is smaller than 0 or (greater or equal) than JsonArray.Count.
+1. The operation will fail if the *Index* is smaller than 0 or (greater or equal) than JsonArray.Count.
+2. Objects of type JsonArray represent a 0-based array.
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

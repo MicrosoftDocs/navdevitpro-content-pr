@@ -2,7 +2,7 @@
 title: "HttpContent Class"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 03/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -17,17 +17,15 @@ author: SusanneWindfeldPedersen
 # HttpContent Class
 A base class representing an HTTP entity body and content headers.
 
-The following methods are available on the **HttpContent** class.
+The following methods are available on the HttpContent class.
 
 |Method name|Description|
 |-----------|-----------|
-|[Clear](httpcontent-clear-method.md)|Clears..|
-|[Create](httpcontent-create-method.md)|Creates....|
-|[GetHeaders](httpcontent-getheaders-method.md)||
-|[ReadAs](httpcontent-readas-method.md)||
-|[WriteFrom](httpcontent-writefrom-method.md)||
+|[Clear](httpcontent-clear-method.md)|Sets the HttpContent object to a default value.|
+|[GetHeaders](httpcontent-getheaders-method.md)|Gets the content's Http headers.|
+|[ReadAs](httpcontent-readas-method.md)|Reads the content into the provided text.|
+|[WriteFrom](httpcontent-writefrom-method.md)|Sets HttpContent content to the provided text or stream.|
 
-## Remarks
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

@@ -1,5 +1,5 @@
 ---
-title: "Path Method"
+title: "Path Property"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
 ms.date: 02/21/2017
@@ -14,25 +14,22 @@ manager: edupont
 author: SusanneWindfeldPedersen
 ---
 
-# Path Method
-
-Retrieves the JSON path of the token relative to its containing tree. 
+# Path Property
+Retrieves the JSON path of the token relative to its containing tree.
 
 ```
 String := JsonToken.Path
 ```
 
 ## Parameters
-*JsonToken*
-Type: JsonToken
+*JsonToken*  
+&emsp;Type: JsonToken
 
 ## Property Value/Return Value
-Type : String
+Type: String
 
-The path of the token relative to its containing JSON tree.
-If the token is the root of the JSON tree, the path will be empty.
-
-//TODO:Link to JSONPath
-[http://goessner.net/articles/JsonPath/](http://goessner.net/articles/JsonPath/)
+The path of the token relative to its containing JSON tree. If the token is the root of the JSON tree, the path will be empty.
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

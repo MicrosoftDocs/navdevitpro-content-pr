@@ -16,21 +16,23 @@ author: SusanneWindfeldPedersen
 
 # AsObject Method
 
-Converts the value in a JsonToken to a **JsonObject** data type.
+Converts the value in a JsonToken to a JsonObject data type.
 
 ```
 JsonObject := JsonToken.AsObject
 ```
 
 ## Parameters
-*JsonToken*
+*JsonToken*  
 Type: JsonToken
 
-A JsonToken for which **IsObject** returns **true**. If the JsonToken does not represent a JSON object, a run-time error occurs.
+A JsonToken for which IsObject returns **true**. If the JsonToken does not represent a JSON object, a run-time error occurs.
 
 ## Return Value
-Type : JsonObject
+Type: JsonObject
 
-The returned JsonObject contains the same data as the JsonToken, but allows object-specific operations to be performed on it(the data).
+The returned JsonObject contains the same data as the JsonToken, but allows object-specific operations to be performed on it.
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)
