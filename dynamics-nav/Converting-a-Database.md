@@ -1,4 +1,4 @@
- ---
+---
 title: "Converting a Database - Technical Upgrade"
 ms.custom: na
 ms.date: 06/05/2016
@@ -9,6 +9,7 @@ ms.topic: article
 ms.author: jswymer
 manager: edupont
 ms.prod: "dynamics-nav-2017"
+author: jswymer
 ---
 # Converting a Database - Technical Upgrade
 This article describes how to convert a  [!INCLUDE[navnow](includes/navnow_md.md)] database from one of the following versions to [!INCLUDE[nav2017](includes/nav2017.md)]:
