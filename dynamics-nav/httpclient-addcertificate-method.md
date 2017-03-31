@@ -23,10 +23,10 @@ HttpClient.AddCertificate(certificate, password)
 *HttpClient*  
 &emsp;Type: HttpClient
 
-*certificate*
+*certificate*  
 &emsp;Type: Text
 
-*password*
+*password*  
 &emsp;Type: Text
 
 ## Remarks
