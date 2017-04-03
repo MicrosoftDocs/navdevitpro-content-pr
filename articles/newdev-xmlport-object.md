@@ -23,49 +23,108 @@ XMLports are used to export and import data between an external source and a Dyn
 Typing the shortcut ```txmlport``` will create the basic layout for an XMLport object when using the AL Extension in Visual Studio Code.
 
 ## XMLport example
-The following example is a ...
+The following example shows a page extension of the **Permission Sets** page that adds an action to the specified page calling the XMLport **ExportPermissionSet**. The XMLport exports the permission set data to an XML file. 
 
 ```
-xmlport id MyXmlport
-{
-    schema
-    {
-        textelement(NodeName1)
-        {
-            tableelement(NodeName2; TableName)
-            {
-                fieldattribute(NodeName3; TableName.FieldName)
-                {
-                }
+pageextension 70000987 PermissionSetExporter extends "Permission Sets"{
+    actions{
+        addafter(Permissions){
+            action(ExportPermissionSet){
+                Promoted=true;
+                PromotedCategory=New;
+                trigger OnAction();
+                begin
+                    Xmlport.Run(70000124, false, false);
+                end;
             }
         }
     }
+}
 
-    requestpage
-    {
-        layout
-        {
-            area(content)
-            {
-                group(GroupName)
-                {
-                    field(Name;NameSource)
-                    {
-                        
+xmlport 70000124 ExportPermissionSet {
+    Format=xml;
+
+    schema{
+        textelement(PermissionSets){
+            tableElement(PSet; "Aggregate Permission Set"){
+                SourceTableView=WHERE("App Name"=FILTER(<>''));
+                XmlName='PermissionSet';
+                fieldattribute(RoleID; pset."Role ID"){}
+                fieldattribute(RoleName; pset.Name){}
+                tableelement(P; "Tenant Permission"){
+                    XmlName='Permission';
+                    LinkTable=pset;
+                    LinkFields="Role ID"=FIELD("Role ID");
+                    
+                    textelement(ObjectType){
+                        trigger onbeforePassvariable();
+                        var
+                            int : Integer;
+                        begin
+                            int := p."Object Type";
+                            ObjectType := format(int);
+                        end;
                     }
-                }
-            }
-        }
-    
-        actions
-        {
-            area(processing)
-            {
-                action(ActionName)
-                {
-                    trigger OnAction();
-                    begin
-                    end;
+                    textelement(ObjectID){
+                        trigger onbeforePassvariable();
+                        var
+                            int : Integer;
+                        begin
+                            int := p."Object ID";
+                            ObjectID := format(int);
+                        end;
+                    }
+                    textelement(ReadPermission){
+                        trigger onbeforePassvariable();
+                        var
+                            int : Integer;
+                        begin
+                            int := p."Read Permission";
+                            ReadPermission := format(int);
+                        end;
+                    }
+                    textelement(InsertPermission){
+                        trigger onbeforePassvariable();
+                        var
+                            int : Integer;
+                        begin
+                            int := p."Insert Permission";
+                            InsertPermission := format(int);
+                        end;
+                    }
+                    textelement(ModifyPermission){
+                        trigger onbeforePassvariable();
+                        var
+                            int : Integer;
+                        begin
+                            int := p."Modify Permission";
+                            ModifyPermission := format(int);
+                        end;
+                    }
+                    textelement(DeletePermission){
+                        trigger onbeforePassvariable();
+                        var
+                            int : Integer;
+                        begin
+                            int := p."Delete Permission";
+                            DeletePermission := format(int);
+                        end;
+                    }
+                    textelement(ExecutePermission){
+                        trigger onbeforePassvariable();
+                        var
+                            int : Integer;
+                        begin
+                            int := p."Execute Permission";
+                            ExecutePermission := format(int);
+                        end;
+                    }
+                    textelement(SecurityFilter){
+                        trigger onbeforePassvariable();
+                        begin
+                            SecurityFilter := format(p."Security Filter");
+                        end;
+                    }
                 }
             }
         }
