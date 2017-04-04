@@ -14,38 +14,39 @@ ms.date: 02/08/2017
 ms.author: solsen
 ---
 
-# item resource type
+# Item resource type
+Represents an item resource type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|Get item|item|Get item object.|
-|Create item|item|Create item object.|
-|Update item|item|Update item object.|
-|Delete item|none|Delete item object.|
+|[GET item](get-item.md)|item|Get item.|
+|[POST item](create-item.md)|item|Create item.|
+|[PATCH item](update-item.md)|item|Update item.|
+|[DELETE item](delete-item.md)|none|Delete item.|
 
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
+|id|GUID|The unique ID of the item. Read-Only.|
 |number|string|The item number.|
 |displayName|string|Specifies a description of the item.|
-|id|string||
-|type|numeric||
-|blocked|boolean|Specifies that transactions with the item cannot be posted, for example, because the item is in quarantine.|
-|baseUnitOfMeasure|string|Specifies the unit in which the item is held in inventory.|
-|gtin|string||
-|itemCategoryCode|numeric|Specifies the category that the item belongs to. Item categories also contain any assigned item attributes.|
-|inventory|numeric|Specifies how many units, such as pieces, boxes, or cans, of the item are in inventory.|
-|unitPrice|numeric|Specifies the price for one unit of the item in the specified currency.|
-|priceIncludesTax|boolean||
-|unitCost|numeric|Specifies the cost per unit of the item.|
-|taxGroupCode|numeric||
-|lastModifiedDateTime|datetime||  
+|type|numeric|The inventory type for the item. 1 = inventory item, 2 = service item. This is a required property.|
+|blocked|boolean|Specifies that transactions with the item cannot be posted, for example, because the item is in quarantine. Set to **True** if item is blocked.|
+|baseUnitOfMeasure|[NAV.UnitOfMeasure](complex-types.md)|Specifies the unit in which the item is held in inventory.|
+|gtin|numeric|This is the Global Trade Item Number.|
+|itemCategoryCode|[NAV.ItemCategory](complex-types.md)|Specifies the category that the item belongs to. Item categories also contain any assigned item attributes.|
+|inventory|decimal|Specifies how many units, such as pieces, boxes, or cans, of the item are in inventory. Read-Only.|
+|unitPrice|decimal|Specifies the price for one unit of the item in the specified currency.|
+|priceIncludesTax|boolean|Specifies that the unitPrice includes tax. Set to **True** if unitPrice includes tax.|
+|unitCost|decimal|Specifies the cost per unit of the item.|
+|taxGroupCode|numeric|A Tax Group represents a group of inventory items or resources that are subject to identical tax terms.|
+|lastModifiedDateTime|datetime|The last datetime the item was modified. Read-Only.|  
 
 
 ## Relationships
-None
+A Tax Group(taxGroupCode) must exist in the Tax Group table.
 
 ## JSON representation
 
@@ -57,17 +58,17 @@ Here is a JSON representation of the resource.
       "id": "GUID",
       "number": "string",
       "displayName": "string",
-      "type": "String",
-      "blocked": boolean,
-      "baseUnitOfMeasure": {NAV.UnitOfMeasure},
-      "gtin": "String",
-      "itemCategory": NAV.ItemCategory,
-      "inventory": Decimal,
-      "unitPrice": Decimal,
-      "priceIncludesTax": Boolean,
-      "unitCost": Decimal,
-      "taxGroupCode": "String",
-      "lastModifiedDateTime": "DateTime",
+      "type": "string",
+      "blocked": "boolean",
+      "baseUnitOfMeasure": "NAV.UnitOfMeasure",
+      "gtin": "numeric",
+      "itemCategory": "NAV.ItemCategory",
+      "inventory": "decimal",
+      "unitPrice": "decimal",
+      "priceIncludesTax": "boolean",
+      "unitCost": "decimal",
+      "taxGroupCode": "string",
+      "lastModifiedDateTime": "datetime"
 }
 
 ```

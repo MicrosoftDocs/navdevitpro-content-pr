@@ -22,8 +22,11 @@ You can use reports to print or display information from a database. You can use
 
 -   Data modeling, which is available when you design reports.  
 
+
+## Creating reports
  Creating a report involves two primary tasks. First you design the data model, or dataset, by using Report Dataset Designer. The dataset determines the data that is extracted or calculated from the [!INCLUDE[navnow](includes/navnow_md.md)] database tables that can be used in a report. After the dataset has been designed, you design the visual layout of the report. There are two types of report layouts that you can create: client report definition \(RDLC\) report layouts and Word report layouts. You create RDLC report layouts by using Visual Studio Report Designer or SQL Server Report Builder. You create Word report layouts by using Microsoft Word 2013.  
 
+## Getting started
  The following table includes links to information to help you get started designing reports.  
 
 |To|See|  

@@ -34,7 +34,7 @@ Combines multiple application object files into one text file.
 Combines multiple text files with captions for Dynamics NAV application objects into one text file.
 
 ### [Merge-NAVApplicationObject](Merge-NAVApplicationObject.md)
-ompares the changes that have been made to application objects between two versions of Dynamics NAV, and applies the difference to a third set of application objects.
+Compares the changes that have been made to application objects between two versions of Dynamics NAV, and applies the difference to a third set of application objects.
 
 ### [New-NAVCrmTable](New-NAVCrmTable.md)
 Creates Dynamics NAV table objects that are based on Dynamics CRM entities.
@@ -57,4 +57,3 @@ Tests captions in Dynamics NAV application objects to test to validate if they h
 
 ### [Update-NAVApplicationObject](Update-NAVApplicationObject.md)
 Applies a set of deltas to the specified application objects.
-
