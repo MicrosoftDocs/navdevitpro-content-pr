@@ -19,6 +19,7 @@ ms.author: solsen
 Creates a journal line in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## HTTP request
+
 ```
 POST /financials/companies/{id}/journalLines/{id}
 ```
