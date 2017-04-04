@@ -1,7 +1,7 @@
 
 ---
-title: CREATE journal line method | Microsoft Docs
-description: Creates a journal line.
+title: CREATE customer payment method | Microsoft Docs
+description: Creates a customer payment.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -15,12 +15,12 @@ ms.date: 03/21/2017
 ms.author: solsen
 ---
 
-# POST Journal Line Method
-Creates a journal line in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
+# POST Customer Payment Method
+Creates a customer payment in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
-POST /financials/companies/{id}/journalLines/{id}
+POST /financials/companies/{id}/customerPayments/{id}
 ```
 
 ## Request headers
@@ -30,10 +30,10 @@ POST /financials/companies/{id}/journalLines/{id}
 |Content-Type  |application/json    |
 
 ## Request body
-In the request body, supply a JSON representation of journalLine object.
+In the request body, supply a JSON representation of customerPayment object.
 
 ## Response
-If successful, this method returns ```201 Created``` response code and journalLine object in the response body.
+If successful, this method returns ```201 Created``` response code and customerPayment object in the response body.
 
 ## Example
 
@@ -42,19 +42,21 @@ If successful, this method returns ```201 Created``` response code and journalLi
 Here is an example of a request.
 
 ```json
-POST https://graph.microsoft.com/beta/financials/companies/{id}/journalLine
+POST https://graph.microsoft.com/beta/financials/companies/{id}/customerPayment
 Content-type: application/json
 
 {
   "id": "id-value",
   "lineNumber": 10000,
-  "accountId": "id-value",
-  "accountNumber": "10400",
+  "customerId": "customerId-value",
+  "customerNumber": "10400",
   "postingDate": "2015-12-31",
   "documentNumber": "1234",
   "externalDocumentNumber": "",
-  "amount": 1500,
-  "description": "Accounts Receivable",
+  "amount": -1500,
+  "appliesToInvoiceId": "appliesToInvoiceId-value",
+  "appliesToInvoiceNumber": "100000",
+  "description": "",
   "comment": "",
   "financialDimension1": "PROD",
   "financialDimension1": "SW",

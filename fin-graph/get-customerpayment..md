@@ -1,6 +1,6 @@
 ---
-title: GET journal line method | Microsoft Docs
-description: Gets a journal line.
+title: GET customer payment method | Microsoft Docs
+description: Gets a customer payment.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,13 +14,13 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET Journal Line Method
-Retrieve the properties and relationships of a journalLines object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
+# GET Customer Payment Method
+Retrieve the properties and relationships of a customerPayments object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## HTTP request
 
 ```
-GET /financials/companies/{id}/journalLines/{id}
+GET /financials/companies/{id}/customerPayments/{id}
 ```
 
 ## Request headers
@@ -32,7 +32,7 @@ GET /financials/companies/{id}/journalLines/{id}
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and journalLines object in the response body.
+If successful, this method returns a ```200 OK``` response code and customerPayments object in the response body.
 
 ## Example
 
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and journalLines
 
 Here is an example of the request.
 ```json
-GET https://graph.microsoft.com/beta/financials/companies/{id}/journalLines/{id}
+GET https://graph.microsoft.com/beta/financials/companies/{id}/customerPayments/{id}
 ```
 
 **Response**
@@ -51,13 +51,15 @@ Here is an example of the response. Note: The response object shown here may be 
 {
   "id": "id-value",
   "lineNumber": 10000,
-  "accountId": "id-value",
-  "accountNumber": "10400",
+  "customerId": "customerId-value",
+  "customerNumber": "10400",
   "postingDate": "2015-12-31",
   "documentNumber": "1234",
   "externalDocumentNumber": "",
   "amount": 1500,
-  "description": "Accounts Receivable",
+  "appliesToInvoiceId": "appliesToInvoiceId-value",
+  "appliesToInvoiceNumber": "100000",
+  "description": "",
   "comment": "",
   "financialDimension1": "PROD",
   "financialDimension1": "SW",
