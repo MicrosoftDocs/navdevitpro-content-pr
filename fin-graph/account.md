@@ -27,10 +27,10 @@ Represents an account resource type in [!INCLUDE[d365fin_long_md](../dynamics-na
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |id|GUID|The unique ID of the account. Read-Only.|
-|number|string|Specifies the number of the G/L account.|
-|displayName|string|Specifies the name of the G/L account.|
-|category|string|Specifies the category of the G/L account.|
-|subCategory|string|Specifies the subcategory of the account category of the G/L account.|
+|number|string, maximum size 20|Specifies the number of the G/L account.|
+|displayName|string, maximum size 50|Specifies the name of the G/L account.|
+|category|string, maximum size 20|Specifies the category of the G/L account.|
+|subCategory|string, maximum size 80|Specifies the subcategory of the account category of the G/L account.|
 |blocked|boolean|Specifies that entries cannot be posted to the G/L account. **True** indicates account is blocked and posting is not allowed.|
 |lastModifiedDateTime|datetime|The last datetime the account was modified. Read-Only.|
 

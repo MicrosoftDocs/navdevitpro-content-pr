@@ -30,17 +30,17 @@ Represents a journalLine resource type in [!INCLUDE[d365fin_long_md](../dynamics
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |id|GUID|The unique ID of the journal line. Read-Only.|
+|lineNumber|integer|The number of the journal line.|
 |accountId|GUID|The unique ID of the account that the journal line is related to.|
-|accountNumber|string|The number of the account that the journal line is related to.|
-|amount|decimal|Specifies the total amount (including VAT) that the journal line consists of.|
-|lineNumber|string|The number of the journal line.|
-|documentNumber|string|Specifies a document number for the journal line.|
-|externalDocumentNumber|string|Specifies an external document number for the journal line.|
-|description|string|The description of the journal line, provided by the user or autocreated.|
-|comment|string|A user specified comment on the journal line.|
-|financialDimension1|string|Specifies the dimension 1 value code that the journal line is linked to.|
-|financialDimension2|string|Specifies the dimension 2 value code that the journal line is linked to.|
+|accountNumber|string, maximum size 20|The number of the account that the journal line is related to.|
 |postingDate|date|The date that the journal line is posted. Read-Only.|
+|documentNumber|string, maximum size 20|Specifies a document number for the journal line.|
+|externalDocumentNumber|string, maximum size 20|Specifies an external document number for the journal line.|
+|amount|decimal|Specifies the total amount (including VAT) that the journal line consists of.|
+|description|string, maximum size 50|The description of the journal line, provided by the user or autocreated.|
+|comment|string, maximum size 250|A user specified comment on the journal line.|
+|financialDimension1|string, maximum size 20|Specifies the dimension 1 value code that the journal line is linked to.|
+|financialDimension2|string, maximum size 20|Specifies the dimension 2 value code that the journal line is linked to.|
 |lastModifiedDateTime|datetime|The last datetime the journal line was modified. Read-Only.|
 
 
@@ -55,17 +55,17 @@ Here is a JSON representation of the resource.
 ```json
 {
 "id": "GUID",
+"lineNumber": integer,
 "accountId": "GUID",
 "accountNumber": "string",
-"amount": decimal,
-"lineNumber": "string",
+"postingDate": "date",
 "documentNumber": "string",
 "externalDocumentNumber": "string",
+"amount": decimal,
 "description": "string",
 "comment": "string",
 "financialDimension1": "string",
 "financialDimension2": "string",
-"postingDate": "date",
 "lastModifiedDateTime": "datetime"
 }
 ```
