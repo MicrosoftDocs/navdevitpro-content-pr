@@ -27,6 +27,7 @@ Represents an Item Category complex type in [!INCLUDE[d365fin_long_md](../dynami
   "description": "string" 
 } 
 ```
+
 # Unit of Measure
 
 Represents a Unit of Measure complex type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].       
@@ -39,6 +40,7 @@ Represents a Unit of Measure complex type in [!INCLUDE[d365fin_long_md](../dynam
   "unitConversion": "NAV.ItemUnitOfMeasureConversion" 
 } 
 ```
+
 # Unit of Measure Conversion
 
 Represents a Unit of Measure Conversion complex type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].       
@@ -49,9 +51,11 @@ Represents a Unit of Measure Conversion complex type in [!INCLUDE[d365fin_long_m
 "fromToConversionRate": "decimal" 
 } 
  ```
-# Payment Method
+
+ # Payment Method
 
 Represents a Payment Method complex type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].       
+
 ```json
 "PaymentMethod" 
 { 
@@ -59,7 +63,8 @@ Represents a Payment Method complex type in [!INCLUDE[d365fin_long_md](../dynami
 "description": "string" 
 } 
  ```
-# Payment Terms
+
+ # Payment Terms
 
 Represents a Payment Terms complex type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].       
 ```json
@@ -69,7 +74,8 @@ Represents a Payment Terms complex type in [!INCLUDE[d365fin_long_md](../dynamic
 "description": "string" 
 } 
  ```
-# Postal Address
+
+ # Postal Address
 
 Represents a Postal Address complex type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].       
 ```json
@@ -82,13 +88,26 @@ Represents a Postal Address complex type in [!INCLUDE[d365fin_long_md](../dynami
 "postalCode": "string" 
 } 
  ```
-# Shipment Method
+
+ # Shipment Method
 
 Represents a Shipment Method complex type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].       
 ```json
 "ShipmentMethod" 
 { 
 "code": "string", 
+"description": "string" 
+} 
+```
+
+# Line Details
+
+Represents a Line Details complex type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].       
+```json
+"documentLineObjectDetails" 
+{ 
+"number": "string", 
+"displayName": "string" 
 "description": "string" 
 } 
 ```
