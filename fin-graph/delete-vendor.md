@@ -17,27 +17,22 @@ ms.author: solsen
 # DELETE Vendor Method
 Delete a vendor from [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
-## Prerequisites
-
 ## HTTP request
 ```
 DELETE /financials/companies/{id}/vendors/{id}
 ```
-## Optional query parameters
 
 ## Request headers
-
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer . Required. |
+|Authorization  |Bearer. Required. |
+|If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the customer, the customer will not be updated. |
 
 ## Request body
-
 Do not supply a request body for this method.
 
 ## Response
-
-If successful, this method returns 204, No Content response code. It does not return anything in the response body.
+If successful, this method returns ```204 No Content``` response code. It does not return anything in the response body.
 
 ## Example
 
@@ -45,7 +40,7 @@ If successful, this method returns 204, No Content response code. It does not re
 
 Here is an example of the request.
 
-```
+```json
 DELETE https://graph.microsoft.com/beta/financials/companies/{id}/vendors/{id}
 ```
 
@@ -53,7 +48,7 @@ DELETE https://graph.microsoft.com/beta/financials/companies/{id}/vendors/{id}
 
 Here is an example of the response. 
 
-```
+```json
 HTTP/1.1 204 No Content
 ```
 
