@@ -56,11 +56,11 @@ Represents a salesInvoice resource type in [!INCLUDE[d365fin_long_md](../dynamic
 
 
 ## Relationships
-A Currency(currencyCode) must exist in the Currencies table.
+A Currency (currencyCode) must exist in the Currencies table.
 
-A Payment Term(paymentTerms) must exist in the Payment Terms table.
+A Payment Term (paymentTerms) must exist in the Payment Terms table.
 
-A Shipment Method(shipmentMethod) must exist in the Shipment Method table.
+A Shipment Method (shipmentMethod) must exist in the Shipment Method table.
 
 A Customer (customerId) must exist in the Customer table.
 

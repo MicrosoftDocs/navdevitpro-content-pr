@@ -71,7 +71,6 @@ Content-type: application/json
   "comment": "",
   "financialDimension1": "",
   "financialDimension1": "",
-
   "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
 }
 ```
