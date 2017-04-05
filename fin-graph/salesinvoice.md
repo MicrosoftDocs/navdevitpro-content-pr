@@ -30,18 +30,18 @@ Represents a salesInvoice resource type in [!INCLUDE[d365fin_long_md](../dynamic
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |id|GUID|The invoice ID. Read-Only.|
-|number|string|The invoice number. Read-Only.|
+|number|string, maximum size 20|The invoice number. Read-Only.|
 |invoiceDate|date|The invoice date|
-|customerPurchaseOrderReference|string|The customer purchase order reference for the invoice|
+|customerPurchaseOrderReference|string, maximum size 35|The customer purchase order reference for the invoice|
 |dueDate|date|The date the invoice is due.|
-|customerNumber|string|The customer number for the invoice.|
-|contactId|GUID|The exchange contact id for the given customer. If a customer id is not specified, we will use the contact id to find it.|
+|customerNumber|string, maximum size 20|The customer number for the invoice.|
+|contactId|string, maximum size 250|The exchange contact id for the given customer. If a customer id is not specified, we will use the contact id to find it.|
 |customerId|GUID|The id of the invoice customer.|
-|customerName|string|The full name of the customer. Read-Only.|
-|currencyCode|string|The currency code for the invoice.|
+|customerName|string, maximum size 50|The full name of the customer. Read-Only.|
+|currencyCode|string, maximum size 10|The currency code for the invoice.|
 |orderId|GUID|The unique id of the order to which the invoice is associated to. Read-Only.|
-|orderNumber|string|The number of the order to which the invoice is associated to. Read-Only.|
-|status|string|The invoice status. Status can be: Draft, In Review, Open, Paid, Canceled, or Corrective. Read-Only.|
+|orderNumber|string, maximum size 20|The number of the order to which the invoice is associated to. Read-Only.|
+|status|string, maximum size 20|The invoice status. Status can be: Draft, In Review, Open, Paid, Canceled, or Corrective. Read-Only.|
 |discountAmount|numeric|The invoice discount amount|
 |discountAppliedBeforeTax|boolean|Specifies whether the discount is applied before tax.|
 |totalAmountExcludingTax|numeric|The total amount excluding tax. Read-Only.|
@@ -49,9 +49,9 @@ Represents a salesInvoice resource type in [!INCLUDE[d365fin_long_md](../dynamic
 |totalAmountIncludingTax|numeric|The total amount for the invoice, including tax. Read-Only.|
 |pricesIncludeTax|boolean|Specifies whether the prices include Tax or not. Read-Only.|
 |billingPostalAddress|complex|The billing postal address for the invoice.|  
-|paymentTerms|string|The payment terms of the invoice.|
-|shipmentMethod|string|The shipment method of the invoice.|
-|salesperson|string|The salesperson code for the invoice.|
+|paymentTerms|string, maximum size 10|The payment terms of the invoice.|
+|shipmentMethod|string, maximum size 10|The shipment method of the invoice.|
+|salesperson|string, maximum size 20|The salesperson code for the invoice.|
 |lastModifiedDateTime|datetime|The last datetime the sales invoice was modified. Read-Only.|
 
 
@@ -74,18 +74,18 @@ Here is a JSON representation of the resource.
 ```json
 {
       "id": "GUID",
-      "number": "String",
+      "number": "string",
       "invoiceDate": "Date",
       "dueDate": "Date",
-      "customerPurchaseOrderReference": "String",
+      "customerPurchaseOrderReference": "string",
       "customerId": "GUID",
-      "contactId": "GUID",
-      "customerNumber": "String",
-      "customerName": "String",
-      "currencyCode": "String",
-      "status": "String",
+      "contactId": "string",
+      "customerNumber": "string",
+      "customerName": "string",
+      "currencyCode": "string",
+      "status": "string",
       "orderId": "GUID",
-      "orderNumber": "String",
+      "orderNumber": "string",
       "discountAmount": decimal,
       "discountAppliedBeforeTax": boolean,
       "totalAmountExcludingTax": decimal,
@@ -93,9 +93,9 @@ Here is a JSON representation of the resource.
       "totalTaxAmount": decimal,
       "totalAmountIncludingTax": decimal,
       "billingPostalAddress": {NAV.PostalAddress},
-      "paymentTerms": "String",
-      "shipmentMethod": "String",
-      "salesperson": "String",
+      "paymentTerms": "string",
+      "shipmentMethod": "string",
+      "salesperson": "string",
       "lastModifiedDateTime": "DateTime"
 }
 

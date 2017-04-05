@@ -30,17 +30,17 @@ Represents a salesOrder resource type in [!INCLUDE[d365fin_long_md](../dynamics-
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |id|GUID|The order ID. Read-Only.|
-|number|string|The order number. Read-Only.|
+|number|string, maximum size 20|The order number. Read-Only.|
 |orderDate|date|The order date|
 |customerId|GUID|The id of the order customer.|
-|contactId|GUID|The exchange contact id for the given customer. If a customer id is not specified, we will use the contact id to find it.|
-|customerNumber|string|The customer number for the order.|
-|customerName|string|The full name of the customer. Read-Only.|
+|contactId|string, maximum size 250|The exchange contact id for the given customer. If a customer id is not specified, we will use the contact id to find it.|
+|customerNumber|string, maximum size 20|The customer number for the order.|
+|customerName|string, maximum size 50|The full name of the customer. Read-Only.|
 |billingPostalAddress|complex|The billing postal address for the order.|  
-|currencyCode|string|The currency code for the order.|
+|currencyCode|string, maximum size 10|The currency code for the order.|
 |pricesIncludeTax|boolean|Specifies whether the prices include Tax or not. Read-Only.|
-|paymentTerms|string|The payment terms of the order.|
-|salesperson|string|The salesperson code for the order.|
+|paymentTerms|string, maximum size 10|The payment terms of the order.|
+|salesperson|string, maximum size 20|The salesperson code for the order.|
 |partialShipping|boolean|Specifies whether partial shipping of items is preferred or not.|
 |requestedDeliveryDate|Date|The requested delivery date.|
 |discountAmount|numeric|The order discount amount|
@@ -49,7 +49,7 @@ Represents a salesOrder resource type in [!INCLUDE[d365fin_long_md](../dynamics-
 |totalTaxAmount|numeric|The total tax amount for the order. Read-Only.|
 |totalAmountIncludingTax|numeric|The total amount for the order, including tax. Read-Only.|
 |fullyShipped|boolean|Specifies whether the items of the order were fully shipped or not.|
-|status|string|The order status. Status can be: Cancelled, Paid, On hold, Created. Read-Only.|
+|status|string, maximum size 20|The order status. Status can be: Cancelled, Paid, On hold, Created. Read-Only.|
 |lastModifiedDateTime|datetime|The last datetime the sales order was modified. Read-Only.|
 
 
@@ -70,17 +70,17 @@ Here is a JSON representation of the resource.
 ```json
 {
       "id": "GUID",
-      "number": "String",
+      "number": "string",
       "orderDate": "Date",
       "customerId": "GUID",
-      "contactId": "GUID",
-      "customerNumber": "String",
-      "customerName": "String",
+      "contactId": "string",
+      "customerNumber": "string",
+      "customerName": "string",
       "billingPostalAddress": {NAV.PostalAddress},
-      "currencyCode": "String",
+      "currencyCode": "string",
       "pricesIncludeTax": boolean,
-      "paymentTerms": "String",
-      "salesperson": "String",
+      "paymentTerms": "string",
+      "salesperson": "string",
       "partialShipping": boolean,
       "requestedDeliveryDate": "Date",
       "discountAmount": decimal,
@@ -89,7 +89,7 @@ Here is a JSON representation of the resource.
       "totalTaxAmount": decimal,
       "totalAmountIncludingTax": decimal,
       "fullyShipped": boolean,
-      "status": "String",
+      "status": "string",
       "lastModifiedDateTime": "DateTime"
 }
 
