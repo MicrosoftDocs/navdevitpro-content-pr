@@ -1,6 +1,6 @@
 ---
-title: CREATE Sales Invoice method | Microsoft Docs
-description: Creates a sales invoice.
+title: CREATE Sales Invoice Line method | Microsoft Docs
+description: Creates a sales invoice line.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,13 +14,13 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# POST Sales Invoice Method
+# POST Sales Invoice Line Method
 Create a salesInvoice in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## HTTP request
 
 ```
-POST /financials/companies/{id}/salesInvoices
+POST /financials/companies/{id}/salesInvoices/{id}/salesInvoiceLines
 ```
 
 ## Request headers
@@ -43,17 +43,14 @@ If successful, this method returns ```201 Created``` response code and a salesIn
 Here is an example of a request.
 
 ```json
-POST https://graph.microsoft.com/beta/financials/companies/{id}/salesInvoices
+POST https://graph.microsoft.com/beta/financials/companies/{id}/salesInvoices/{id}/salesInvoiceLines
 Content-type: application/json
 
 {
-  "id": "id-value",
-  "number": "1009",
-  "invoiceDate": "2015-12-31",
-  "customerNumber": "GL00000008",
-  "currencyCode": "GBP",
-  "paymentTerms": "COD"
+"itemId": "id-value",
+"lineType": "Item",
+"quantity": 9
 }
 
 ## See Also
-[Microsoft Graph Reference](graph-reference.md)  
+[Microsoft Graph Reference](graph-reference.md)

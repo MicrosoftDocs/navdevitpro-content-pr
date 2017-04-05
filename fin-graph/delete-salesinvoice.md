@@ -20,13 +20,14 @@ Delete a sales invoice from [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/
 
 ## HTTP request
 ```
-DELETE /financials/companies/{id}/salesInvoice/{id}
+DELETE /financials/companies/{id}/salesInvoices/{id}
 ```
 
 ## Request headers
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer. Required. |
+|If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the customer, the customer will not be updated. |
 
 ## Request body
 Do not supply a request body for this method.
@@ -41,7 +42,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://graph.microsoft.com/beta/financials/companies/{id}/salesInvoice/{id}
+DELETE https://graph.microsoft.com/beta/financials/companies/{id}/salesInvoices/{id}
 ```
 
 **Response** 

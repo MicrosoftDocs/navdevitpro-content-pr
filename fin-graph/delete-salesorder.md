@@ -1,6 +1,6 @@
 ---
-title: DELETE Sales Invoice Line method | Microsoft Docs
-description: Deletes a sales invoice line.
+title: DELETE sales order method | Microsoft Docs
+description: Deletes a sales order.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,19 +14,20 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET Sales Invoice Line Method
-Delete a sales invoice line from [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
+# DELETE Sales Order Method
+Delete a sales order from [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
+
 
 ## HTTP request
 ```
-DELETE /financials/companies/{id}/salesInvoices/{id}/salesInvoiceLines(documentId={id},sequence={number})
+DELETE /financials/companies/{id}/salesOrders/{id}
 ```
 
 ## Request headers
 |Header|Value|
 |------|-----|
 |Authorization  |Bearer. Required. |
-|If-Match       |Required. When this request header is included and the eTag provided does not match the current tag on the customer, the customer will not be updated. |
+|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the shipmentMethods, the shipmentMethods will not be updated. |
 
 ## Request body
 Do not supply a request body for this method.
@@ -41,7 +42,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://graph.microsoft.com/beta/financials/companies/{id}/salesInvoices/{id}/salesInvoiceLines(documentId={id},sequence={number})
+DELETE https://graph.microsoft.com/beta/financials/companies/{id}/salesOrders/{id}
 ```
 
 **Response** 
