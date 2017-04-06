@@ -32,7 +32,7 @@ Type: Boolean
 ## Remarks
 The operation will succeed if the value was created from a Boolean using *SetValue* or if the value was parsed from a string containing one of the values : "true" or "false". The operation will fail with a run-time error otherwise.
 
-[Getting Started](newdev-get-started.md)  
-[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)
+[Getting Started](devenv-get-started.md)  
+[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)
 
 ## See Also

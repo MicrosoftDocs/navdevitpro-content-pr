@@ -13,7 +13,7 @@ ms.author: SusanneWindfeldPedersen
 ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 ---
 
-[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/newdev_dev_preview.md)]
+[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/devenv_dev_preview.md)]
 
 # Using the Dynamics NAV In-Client Designer
 
@@ -49,6 +49,6 @@ The display type icons let you preview the changes you made on desktop, tablet, 
 > With this preview, page fields that have the property **Visible** set to **false** still show up in the pane of fields you can add to a page. You can drag this type of field to the page, but it does not have any effect. --> 
 
 ## See Also
-[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)  
-[Getting Started](newdev-get-started.md)  
-[Developer Reference](newdev-reference-overview.md)
+[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)  
+[Getting Started](devenv-get-started.md)  
+[Developer Reference](devenv-reference-overview.md)

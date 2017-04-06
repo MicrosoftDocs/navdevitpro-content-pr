@@ -13,7 +13,7 @@ ms.author: SusanneWindfeldPedersen
 ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 ---
 
-[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/newdev_dev_preview.md)]
+[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/devenv_dev_preview.md)]
 
 # Differences in the Dynamics NAV Development Environments
 Coming from the existing [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)] (C/SIDE), there are some differences and optimizations that you should familiarize yourself with. The following sections go through these changes.  
@@ -42,7 +42,7 @@ Several properties have been renamed, to mention some:
 
 The ```ActionContainer``` element in C/SIDE is renamed to ```area(Creation|Embedding|Navigation|Processing|Reporting|Sections)``` and can be defined inside the ```actions``` section of the page.
 
-For syntax examples, see [Page Object](newdev-page-object.md).
+For syntax examples, see [Page Object](devenv-page-object.md).
 
 ## Naming
 Controls, actions, and methods names must be unique on pages. In C/SIDE you could create a Part control with the same name as a method, which would give you an error at runtime. This is now prevented, by disallowing duplicates. Likewise, actions and fields could have same names before, but that would have prevented page testability access, and will now throw a compilation error.
@@ -59,6 +59,6 @@ Some properties require that you set another property. An example is ```Promoted
 |RunPageMode|RunObject| 
 
 ## See Also
-[Getting Started](newdev-get-started.md)    
-[Developer Reference](newdev-reference-overview.md)  
+[Getting Started](devenv-get-started.md)    
+[Developer Reference](devenv-reference-overview.md)  
 [Technical Reference for Dynamics NAV](technical-reference.md)

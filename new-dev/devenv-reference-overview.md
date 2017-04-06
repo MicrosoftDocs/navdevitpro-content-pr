@@ -14,7 +14,7 @@ ms.author: SusanneWindfeldPedersen
 caps.latest.revision: 18
 ---
 
-[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/newdev_dev_preview.md)]
+[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/devenv_dev_preview.md)]
 
 # Developer Reference
 This section describes all of the objects that are available with [!INCLUDE[navnow_md](includes/navnow_md.md)]. For additional reference and information, see [Objects](objects.md).
@@ -22,20 +22,20 @@ This section describes all of the objects that are available with [!INCLUDE[navn
 ## Defining the data model
 |To | See |
 |---|-----|
-|Learn about how to define new table objects for your extension.|[Table Object](newdev-table-object.md)|
-|Learn about how to modify and extend existing table objects. |[Table Extension Object](newdev-table-ext-object.md)|
+|Learn about how to define new table objects for your extension.|[Table Object](devenv-table-object.md)|
+|Learn about how to modify and extend existing table objects. |[Table Extension Object](devenv-table-ext-object.md)|
 
 ## Presenting the data
 |To |See |
 |---|----|
-|Learn about how to create new page objects for your extension.|[Page Object](newdev-page-object.md)|
-|Learn about how to modify and extend existing page objects. |[Page Extension Object](newdev-page-ext-object.md)|
-|Learn about how to create report objects|[Report Object](newdev-report-object.md)|
+|Learn about how to create new page objects for your extension.|[Page Object](devenv-page-object.md)|
+|Learn about how to modify and extend existing page objects. |[Page Extension Object](devenv-page-ext-object.md)|
+|Learn about how to create report objects|[Report Object](devenv-report-object.md)|
 
 ## Writing code
 |To |See |
 |---|----|
-|Learn about writing codeunits for your extension.|[Codeunit Object](newdev-codeunit-object.md)|
+|Learn about writing codeunits for your extension.|[Codeunit Object](devenv-codeunit-object.md)|
 
 ## REST API
 |Class|Description|
@@ -52,6 +52,6 @@ This section describes all of the objects that are available with [!INCLUDE[navn
 
 
 ## See Also
-[Getting Started](newdev-get-started.md)  
+[Getting Started](devenv-get-started.md)  
 [Tables](tables.md)  
 [Pages](pages.md)

@@ -14,7 +14,7 @@ ms.author: SusanneWindfeldPedersen
 caps.latest.revision: 18
 ---
 
-[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/newdev_dev_preview.md)]
+[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/devenv_dev_preview.md)]
 
 # Table Object
 Tables are the core objects used to store data in [!INCLUDE[navnow_md](includes/navnow_md.md)]. Regardless of how data is inputted to the product - from a web service to a finger swipe on the phone app, the results of that transaction will be recorded in a table. <!-- Note whether this has the ame meaning but,here is a suggestion: Regardless of how data is inputted to the product - from a web service or a finger swipe on the phone app - the results of that transaction will be recorded in a table.-->
@@ -84,8 +84,8 @@ table 70000030 Address
 ```
 
 ## See Also
-[Table Extension Object](newdev-table-ext-object.md)  
-[Developer Reference](newdev-reference-overview.md)  
+[Table Extension Object](devenv-table-ext-object.md)  
+[Developer Reference](devenv-reference-overview.md)  
 [Tables](tables.md)  
 [Table Keys](table-keys.md)  
 [Table Properties](table-properties.md)

@@ -13,7 +13,7 @@ ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
 ms.author: SusanneWindfeldPedersen
 caps.latest.revision: 18
 ---
-[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/newdev_dev_preview.md)]
+[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/devenv_dev_preview.md)]
 
 # Page Extension Object
 The page extension object extends a [!INCLUDE[navnow_md](includes/navnow_md.md)] page object and adds or overrides the functionality. 
@@ -35,7 +35,7 @@ In the ```layout``` section, you can use the following functions to place page f
 
 If you want to modify existing fields and groups on a page, you use the ```modify()``` function. See the code example below for syntax. 
 
-For more information about changes, see [Differences in the Dynamics NAV Development Environments](newdev-differences.md).
+For more information about changes, see [Differences in the Dynamics NAV Development Environments](devenv-differences.md).
 
 ## Snippet support
 Typing the shortcut ```tpageext``` will create the basic layout for a table object when using the AL Extension in Visual Studio Code.
@@ -139,7 +139,7 @@ pageextension 70000030 AddCustomerReport extends "Customer List"
 Pages  
   
 ## See Also  
-[Page Object](newdev-page-object.md)  
-[Developer Reference](newdev-reference-overview.md)  
+[Page Object](devenv-page-object.md)  
+[Developer Reference](devenv-reference-overview.md)  
 [Pages](Pages.md)   
 [Page Properties](page-properties.md)

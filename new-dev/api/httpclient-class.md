@@ -34,5 +34,5 @@ The following methods are available on the HttpClient class.
 |[AddCertificate](httpclient-addcertificate-method.md)|Adds a certificate to the HttpClient class.| 
 
 ## See Also
-[Getting Started](newdev-get-started.md)  
-[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)
+[Getting Started](devenv-get-started.md)  
+[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)

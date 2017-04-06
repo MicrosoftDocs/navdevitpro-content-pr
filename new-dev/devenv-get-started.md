@@ -14,7 +14,7 @@ ms.author: SusanneWindfeldPedersen
 caps.latest.revision: 18
 ---
 
-[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/newdev_dev_preview.md)]
+[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/devenv_dev_preview.md)]
 
 # Getting Started
 To get started writing extensions for [!INCLUDE[navnow_md](includes/navnow_md.md)] you will need a [!INCLUDE[navnow_md](includes/navnow_md.md)] tenant, and Visual Studio Code. Visual Studio Code is a cross platform editor that you will use for coding and debugging. For the preview, you will download a VM (virtual machine) from the Microsoft Azure Gallery. The VM is set up for trying out the new development environment.
@@ -171,5 +171,5 @@ The following table lists object symbols contained in the platform symbol packag
 |Windows Language.al|
 
 ## See Also 
-[Differences in the Dynamics NAV Development Environments](newdev-differences.md)  
-[Developer Reference](newdev-reference-overview.md)
+[Differences in the Dynamics NAV Development Environments](devenv-differences.md)  
+[Developer Reference](devenv-reference-overview.md)

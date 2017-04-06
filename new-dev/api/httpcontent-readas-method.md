@@ -36,5 +36,5 @@ Reads the content into the provided text.
 Accessing the HttpContent property of HttpResponseMessage in a case when the request fails will result in an error.
 
 ## See Also
-[Getting Started](newdev-get-started.md)  
-[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)
+[Getting Started](devenv-get-started.md)  
+[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)
