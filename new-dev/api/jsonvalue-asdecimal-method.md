@@ -33,5 +33,5 @@ Type: Decimal
 If the JsonValue does not contain a number or a string which can be converted without loss of precision to a Decimal, the operation will fail with a run-time error.
 
 ## See Also
-[Getting Started](newdev-get-started.md)  
-[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)
+[Getting Started](devenv-get-started.md)  
+[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)

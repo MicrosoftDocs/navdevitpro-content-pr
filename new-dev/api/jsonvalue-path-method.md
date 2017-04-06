@@ -33,5 +33,5 @@ The path of the value relative to its containing JSON tree.
 If the object is the root of the JSON tree, the path will be empty.
 
 ## See Also
-[Getting Started](newdev-get-started.md)  
-[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)
+[Getting Started](devenv-get-started.md)  
+[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)

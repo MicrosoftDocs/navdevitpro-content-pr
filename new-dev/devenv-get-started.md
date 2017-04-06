@@ -31,7 +31,7 @@ With the developer preview, you get sample code that compiles and runs by follow
 1) In Visual Studio Code, press **Ctrl**+**Shift**+**P** to show all commands.  
 2) Type **AL: Go** (case-insensitive) and select a project folder.  
 
-You now have a HelloWorld sample that compiles and runs. The JSON files in the project are automatically updated with the settings that allows you to press **F5** to build and deploy the solution. 
+You now have a HelloWorld sample that compiles and runs. The JSON files in the project are automatically updated with the settings that allows you to press **F5** to build and deploy the solution.
 
 > [!NOTE] If symbols are missing, you will be prompted to download them.
 
@@ -170,6 +170,6 @@ The following table lists object symbols contained in the platform symbol packag
 |Time Zone.al|
 |Windows Language.al|
 
-## See Also 
-[Differences in the Dynamics NAV Development Environments](newdev-differences.md)  
-[Developer Reference](newdev-reference-overview.md)
+## See Also
+[Differences in the Dynamics NAV Development Environments](devenv-differences.md)  
+[Developer Reference](devenv-reference-overview.md)
