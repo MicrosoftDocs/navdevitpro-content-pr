@@ -13,7 +13,7 @@ ms.author: SusanneWindfeldPedersen
 ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 ---
 
-[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/devenv_dev_preview.md)]
+[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/newdev_dev_preview.md)]
 
 # Differences in the Dynamics NAV Development Environments
 Coming from the existing [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)] (C/SIDE), there are some differences and optimizations that you should familiarize yourself with. The following sections go through these changes.  
@@ -56,7 +56,7 @@ Some properties require that you set another property. An example is ```Promoted
 |PromotedIsBig|Promoted|
 |ValidateTableRelation|TableRelation|
 |SourceTableTemporary|SourceTable|
-|RunPageMode|RunObject| 
+|RunPageMode|RunObject|
 
 ## See Also
 [Getting Started](devenv-get-started.md)    
