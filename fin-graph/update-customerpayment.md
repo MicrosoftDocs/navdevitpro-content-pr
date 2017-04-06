@@ -61,7 +61,7 @@ Content-type: application/json
 {
   "id": "id-value",
   "lineNumber": 10000,
-  "customerId": "",
+  "customerId": "customerId-value",
   "customerNumber": "",
   "postingDate": "2015-12-31",
   "documentNumber": "D00001",

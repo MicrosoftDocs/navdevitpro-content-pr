@@ -54,7 +54,7 @@ Here is an example of the response. Note: The response object shown here may be 
   "invoiceDate": "2015-12-31",
   "dueDate": "2016-01-31",
   "customerPurchaseOrderReference": "",
-  "customerId": "id-value",
+  "customerId": "customerId-value",
   "contactId": "",
   "customerNumber": "GL00000008",
   "customerName": "GL00000008",
