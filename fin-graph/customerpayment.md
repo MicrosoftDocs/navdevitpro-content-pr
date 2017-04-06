@@ -32,6 +32,7 @@ Represents a customerPayment resource type in [!INCLUDE[d365fin_long_md](../dyna
 |id|GUID|The unique ID of the customer payment. Read-Only.|
 |lineNumber|integer|The number of the customer payment.|
 |customerId|GUID|The unique ID of the customer that the payment is related to.|
+|contactId|string, maximum size 250|The exchange contact id for the given customer. If a customer id is not specified, we will use the contact id to find it.|
 |customerNumber|string, maximum size 20|The number of the customer that the payment is related to.|
 |postingDate|date|The date that the customer payment is posted. Read-Only.|
 |documentNumber|string, maximum size 20|Specifies a document number for the customer payment.|
@@ -56,21 +57,22 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-"id": "GUID",
-"lineNumber": integer,
-"customerId": "GUID",
-"customerNumber": "string",
-"postingDate": "date",
-"documentNumber": "string",
-"externalDocumentNumber": "string",
-"amount": decimal,
-"appliesToInvoiceId": "GUID",
-"appliesToInvoiceNumber": "string",
-"description": "string",
-"comment": "string",
-"financialDimension1": "string",
-"financialDimension2": "string",
-"lastModifiedDateTime": "datetime"
+    "id": "GUID",
+    "lineNumber": integer,
+    "customerId": "GUID",
+    "contactId": "string",
+    "customerNumber": "string",
+    "postingDate": "date",
+    "documentNumber": "string",
+    "externalDocumentNumber": "string",
+    "amount": decimal,
+    "appliesToInvoiceId": "GUID",
+    "appliesToInvoiceNumber": "string",
+    "description": "string",
+    "comment": "string",
+    "financialDimension1": "string",
+    "financialDimension2": "string",
+    "lastModifiedDateTime": "datetime"
 }
 ```
 

@@ -52,7 +52,7 @@ Here is an example of the response. Note: The response object shown here may be 
   "id": "id-value",
   "number": "1006",
   "orderDate": "2019-01-24",
-  "customerId": "id-value",
+  "customerId": "customerId-value",
   "contactId": "",
   "customerNumber": "GL000090",
   "customerName": "GL000090",
