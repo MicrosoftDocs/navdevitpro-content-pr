@@ -14,6 +14,7 @@ ms.author: SusanneWindfeldPedersen
 caps.latest.revision: 18
 ---
 
+[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/newdev_dev_preview.md)]
 
 # Codeunit Object
 A codeunit is a container for AL code that you can use in many application objects. For more information, see [Understanding Codeunits](understanding-codeunits.md).
@@ -39,3 +40,7 @@ codeunit 70000100 CreateCustomer
 ```
 
 ## See Also
+[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)  
+[Table Extension Object](devenv-table-ext-object.md)  
+[Page Extension Object](devenv-page-ext-object.md)  
+[Developer Reference](devenv-reference-overview.md)
