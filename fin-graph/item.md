@@ -14,31 +14,32 @@ ms.date: 02/08/2017
 ms.author: solsen
 ---
 
-# item resource type
+# Item resource type
+Represents an item resource type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET item](get-item.md)|item|Get item object.|
-|[CREATE item](create-item.md)|item|Create item object.|
-|[UPDATE item](update-item.md)|item|Update item object.|
-|[DELETE item](delete-item.md)|none|Delete item object.|
+|[GET item](get-item.md)|item|Get item.|
+|[POST item](create-item.md)|item|Create item.|
+|[PATCH item](update-item.md)|item|Update item.|
+|[DELETE item](delete-item.md)|none|Delete item.|
 
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the item. This is a read-only property.|
+|id|GUID|The unique ID of the item. Read-Only.|
 |number|string|The item number.|
 |displayName|string|Specifies a description of the item.|
 |type|numeric|The inventory type for the item. 1 = inventory item, 2 = service item. This is a required property.|
-|blocked|boolean|Specifies that transactions with the item cannot be posted, for example, because the item is in quarantine. Set to **true** if item is blocked.|
-|baseUnitOfMeasure|string|Specifies the unit in which the item is held in inventory.|
+|blocked|boolean|Specifies that transactions with the item cannot be posted, for example, because the item is in quarantine. Set to **True** if item is blocked.|
+|baseUnitOfMeasure|[NAV.UnitOfMeasure](complex-types.md)|Specifies the unit in which the item is held in inventory.|
 |gtin|numeric|This is the Global Trade Item Number.|
-|itemCategoryCode|numeric|Specifies the category that the item belongs to. Item categories also contain any assigned item attributes.|
+|itemCategoryCode|[NAV.ItemCategory](complex-types.md)|Specifies the category that the item belongs to. Item categories also contain any assigned item attributes.|
 |inventory|decimal|Specifies how many units, such as pieces, boxes, or cans, of the item are in inventory. Read-Only.|
 |unitPrice|decimal|Specifies the price for one unit of the item in the specified currency.|
-|priceIncludesTax|boolean|Specifies that the unitPrice includes tax. Set to **true** if unitPrice includes tax.|
+|priceIncludesTax|boolean|Specifies that the unitPrice includes tax. Set to **True** if unitPrice includes tax.|
 |unitCost|decimal|Specifies the cost per unit of the item.|
 |taxGroupCode|numeric|A Tax Group represents a group of inventory items or resources that are subject to identical tax terms.|
 |lastModifiedDateTime|datetime|The last datetime the item was modified. Read-Only.|  
@@ -59,15 +60,15 @@ Here is a JSON representation of the resource.
       "displayName": "string",
       "type": "string",
       "blocked": "boolean",
-      "baseUnitOfMeasure": NAV.UnitOfMeasure,
+      "baseUnitOfMeasure": "NAV.UnitOfMeasure",
       "gtin": "numeric",
-      "itemCategory": NAV.ItemCategory,
+      "itemCategory": "NAV.ItemCategory",
       "inventory": "decimal",
       "unitPrice": "decimal",
       "priceIncludesTax": "boolean",
       "unitCost": "decimal",
       "taxGroupCode": "string",
-      "lastModifiedDateTime": "datetime",
+      "lastModifiedDateTime": "datetime"
 }
 
 ```

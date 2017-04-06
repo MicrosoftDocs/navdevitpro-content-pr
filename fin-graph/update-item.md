@@ -14,42 +14,38 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# UPDATE Item Method
+# PATCH Item Method
 Update the properties of an item object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
-## Prerequisites
-
 ## HTTP request
-An item from [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 ```
 PATCH /financials/companies/{id}/items/{id}
 ```
-## Optional query parameters
 
 ## Request headers
-
 |Header|Value|
 |------|-----|
-|Authorization|Bearer . Required.|
-|Content-Type|application/json.|
+|Authorization |Bearer. Required.|
+|Content-Type  |application/json.|
+|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the item, the item will not be updated. |
 
 ## Request body
 In the request body, supply the values for relevant fields that should be updated. Existing properties that are not included in the request body will maintain their previous values or be recalculated based on changes to other property values. For best performance you shouldn't include existing values that haven't changed.
 
-## Reponse
-If successful, this method returns a 200 OK response code and an updated items object in the response body.
+## Response
+If successful, this method returns a ```200 OK``` response code and an updated items object in the response body.
 
 ## Example
 **Request**
 
 Here is an example of the request.
-```
+```json
 PATCH https://graph.microsoft.com/beta/financials/companies/{id}/items{id}
 Content-type: application/json
 
 {
   "displayName": "ATHENS Desk - blocked",
-  "blocked": true,
+  "blocked": true
 }
 ```
 
@@ -57,12 +53,12 @@ Content-type: application/json
 
 Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
-```
+```json
 HTTP/1.1 200 OK
 Content-type: application/json
 
 {
-  "id": "4871857e-8a99-45f8-9ef0-2d2f56ef1dba",
+  "id": "id-value",
   "number": "1896-S",
   "displayName": "ATHENS Desk - blocked",
   "type": "Inventory",
@@ -88,5 +84,5 @@ Content-type: application/json
 
 ```
 
-## See Alsoapplication/json.
+## See Also.
 [Microsoft Graph Reference](graph-reference.md)  

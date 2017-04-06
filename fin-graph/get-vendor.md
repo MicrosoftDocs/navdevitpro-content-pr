@@ -17,37 +17,30 @@ ms.author: solsen
 # GET Vendor Method
 Retrieve the properties and relationships of a vendor object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
-## Prerequisites
 
 ## HTTP request
-
-An vendor from Dynamics 365 Financials.
 
 ```
 GET /financials/companies/{id}/vendors/{id}
 ```
-## Optional query parameters
 
 ## Request headers
-
 |Header|Value|
 |------|-----|
-|Authorization  |Bearer . Required. |
+|Authorization  |Bearer. Required. |
 
 ## Request body
-
 Do not supply a request body for this method.
 
-## Reponse
-
-If successful, this method returns a 200 OK response code and vendors object in the response body.
+## Response
+If successful, this method returns a ```200 OK``` response code and vendors object in the response body.
 
 ## Example
 
 **Request**
 
 Here is an example of the request.
-```
+```json
 GET https://graph.microsoft.com/beta/financials/companies/{id}/vendors/{id}
 ```
 
@@ -55,9 +48,9 @@ GET https://graph.microsoft.com/beta/financials/companies/{id}/vendors/{id}
 
 Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
 
-```
+```json
 {
-  "id": "8a487d16-7457-4bf9-903c-02d3d789400d",
+  "id": "id-value",
   "number": "40000",
   "displayName": "Wide World Importers",
   "address": {
