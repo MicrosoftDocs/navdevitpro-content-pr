@@ -146,7 +146,8 @@ After you have completed the merge, you import the new merged application object
         For more information see [To import objects by using the development environment UI](how-to--import-objects.md#ImportObjectsDevEnv).
     -   Use the finsql.exe to run the [ImportObjects](ImportObjects.md) command.
 
-        For more information, see [To import objects by running finsql.exe with the ImportObjects command  ](how-to--export-objects.md#ImportObjectsFinSQL).
+        For more information, see [To import objects by running finsql.exe with the ImportObjects command  ](how-to--import-objects.md#ImportObjectsFinSQL).
+        
     -   Use the [!INCLUDE[nav_dev_shell_md](includes/nav_dev_shell_md.md)] (or Microsoft.Dynamics.NAV.Model.Tools.psd1 module).
 
         The shell includes the **Join-NAVApplicationObjectFile** cmdlet and **Import-NAVApplicationObject** function. The **Join-NAVApplicationObjectFile** cmdlet combines multiple application object text files into one text file. The **Import-NAVApplicationObject** function runs the [ImportObjects](ImportObjects.md) command to import an object file.
