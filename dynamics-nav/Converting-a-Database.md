@@ -68,7 +68,7 @@ To convert the old database to a [!INCLUDE[nav2017](includes/nav2017.md)] databa
 
 7.  Run the schema synchronization with validation to synchronize the database schema changes.  
 
-    For more information, see [How to: Run the Sync-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database](How-to--Run-the-Sync-NAVTenant-Cmdlet-to-Synchronize-the-Tenant-Database-with-the-Application-Database.md).  
+    For more information, see [How to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).  
 
 8.  Stop the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.
 
