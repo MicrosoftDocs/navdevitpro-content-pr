@@ -45,18 +45,18 @@ Before you start the upgrade tasks, make sure you meet the following prerequisit
 
     For more information , see [How to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).  
 
--   All [!INCLUDE[nav_server](includes/nav_server_md.md)] instance records have been cleared from the **dbo.Server Instance** table in the old database in SQL Server.  
+6.   All [!INCLUDE[nav_server](includes/nav_server_md.md)] instance records have been cleared from the **dbo.Server Instance** table in the old database in SQL Server.  
 
     You can do this by using SQL Server Management Studio to open and clear the table. For example, you can run the following SQL query:
     ```
     DELETE FROM [My NAV Database Name].[dbo].[Server Instance]
     ```
 
--   Permission Sets and Permissions XML files of permission sets have been updated and exported.
+7.   Permission Sets and Permissions XML files of permission sets have been updated and exported.
 
     For more information, see [How to: Export and Import Permission Sets and Permissions](how-to--import-export-permission-sets-permissions.md#ExportPerms).
 
--   If the old database includes test runner codeunits, you have modified the signature of the OnBeforeTestRun and OnAfterTestRun triggers of the test runner codeunits to include the TestPermission parameter, as shown in the following examples:
+8.   If the old database includes test runner codeunits, you have modified the signature of the OnBeforeTestRun and OnAfterTestRun triggers of the test runner codeunits to include the *TestPermission* parameter, as shown in the following examples:
 
     ```
     OnBeforeTestRun(CodeunitID : Integer;CodeunitName : Text[30];FunctionName : Text[128]; TestPermissions : Text) Ok : Boolean)
@@ -65,11 +65,13 @@ Before you start the upgrade tasks, make sure you meet the following prerequisit
     ```
     OnAfterTestRun(CodeunitID : Integer;CodeunitName : Text[30];FunctionName : Text[128]; FunctionTestPermissions : TestPermissions; Success : Boolean)
     ```
--   \(Optional\) If the old [!INCLUDE[navnow](includes/navnow_md.md)] application uses data encryption, export the encryption key file that it used for the data encryption.  
+
+    The triggers for codeunit **130400 CAL Test Runner** and **130402 CAL Command Line Test Runner** will be updated for you during the data uprade. For more information, see [Resolving OnBeforeTestRun and OnAfterTestRun Trigger Errors When Converting a Database](Resolve-OnBeforeTestRun-OnAfterTestRun-Compile-Errors.md).
+9.   \(Optional\) If the old [!INCLUDE[navnow](includes/navnow_md.md)] application uses data encryption, export the encryption key file that it used for the data encryption.  
 
     For more information, see [How to: Export and Import Encryption Keys](how-to-export-and-import-encryption-keys.md).  
 
--   If the old Microsoft Dynamics NAV application uses Payment Services for Microsoft Dynamics ERP, be aware that this is discontinued in [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)].
+10.   If the old Microsoft Dynamics NAV application uses Payment Services for Microsoft Dynamics ERP, be aware that this is discontinued in [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)].
 
 ##  <a name="SQLBackup"></a> Task 1: Create a full SQL backup of the old database on SQL Server  
  You must create a full backup of the old database in the SQL Server. Alternatively, you can make a copy of the old database and perform the upgrade tasks on the copy.  
@@ -77,7 +79,9 @@ Before you start the upgrade tasks, make sure you meet the following prerequisit
  For more information, see [Create a Full Database Backup \(SQL Server\)](http://msdn.microsoft.com/en-us/library/ms187510.aspx).  
 
 ##  <a name="UploadLicense"></a> Task 2: Upload the [!INCLUDE[nav2017](includes/nav2017.md)] license to the old database  
-By using the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] that matches the old database, upload the [!INCLUDE[nav2017](includes/nav2017.md)] license to the database. For more information, see [Uploading a License File for a Specific Database](How-to--Upload-the-License-File.md#UploadtoDatabase).  
+By using the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] that matches the old database, upload the [!INCLUDE[nav2017](includes/nav2017.md)] license to the database.
+
+For more information, see [Uploading a License File for a Specific Database](How-to--Upload-the-License-File.md#UploadtoDatabase).  
 
 ##  <a name="DeleteObjects"></a> Task 3: Delete all objects except tables from the old database   
  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] version that matches the database, open the old database, open Object Designer, and then delete all objects except tables.  
@@ -132,10 +136,7 @@ You can run the schema synchronization from the [!INCLUDE[nav_dev_long](includes
 
 For more information, see [How to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).  
 
-
-For more information, see [How to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).  
-
-##  <a name="RunStartNavUpgrade"></a> Task 12: Run the data upgrade process  
+##  <a name="RunStartNavUpgrade"></a> Task 10: Run the data upgrade process  
  A data upgrade runs the upgrade toolkit objects, such as upgrade codeunits and upgrade tables, to migrate business data from the old table structure to the new table structure. You can start the data upgrade from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] or [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
 
 > [!NOTE]  
@@ -161,12 +162,12 @@ Start-NavDataUpgrade -ServerInstance <ServerInstanceName> -Force
 
  The data upgrade process runs CheckPreconditions and Upgrade functions in the upgrade codeunits. If any of the preconditions are not met or an upgrade function fails, you must correct the error and resume the data upgrade process. If CheckPreconditions and Upgrade functions are executed successfully, codeunit 2 is automatically run to initialize all companies in the database unless you set the *SkipCompanyIntitialization* parameter.  
 
-##  <a name="DeleteUpgCodeunits"></a> Task 13: Delete the upgrade objects  
+##  <a name="DeleteUpgCodeunits"></a> Task 11: Delete the upgrade objects  
  At this point, you have upgraded the database to [!INCLUDE[nav2017](includes/nav2017.md)]. Now, you can delete the upgrade codeunits and upgrade table objects that you imported in task 9.  
 
  When you delete tables, on the **Delete** dialog box, set the **Synchronize Schema** option to **Force**.  
 
-##  <a name="ImportPerms"></a> Task 14: Import upgraded permission sets and permissions by using the Roles and Permissions XMLports  
+##  <a name="ImportPerms"></a> Task 12: Import upgraded permission sets and permissions by using the Roles and Permissions XMLports  
 You import the permission sets and permissions XML files.
 
 1.  Delete all permission sets in the database except the SUPER permission set.  
@@ -177,10 +178,10 @@ You import the permission sets and permissions XML files.
 
     For more information, see [How to: Export and Import Permission Sets and Permissions](how-to--import-export-permission-sets-permissions.md#ImportPerms).
 
-##  <a name="SetLang"></a> Task 15: Set the language of the customer database  
+##  <a name="SetLang"></a> Task 13: Set the language of the customer database  
  In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], choose **Tools**, choose **Language**, and then select the language of the original customer database.  
 
-##  <a name="AddControlAddins"></a> Task 16: Register client control add-ins  
+##  <a name="AddControlAddins"></a> Task 14: Register client control add-ins  
  The database is now fully upgraded and is ready for use. However, [!INCLUDE[navnowlong](includes/navnowlong_md.md)] includes the following client control add-ins.
 -   Microsoft.Dynamics.Nav.Client.BusinessChart  
 -   Microsoft.Dynamics.Nav.Client.CodeViewer

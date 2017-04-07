@@ -14,7 +14,7 @@ ms.prod: "dynamics-nav-2017"
 
 This articles describes how to import and export permission sets and permissions as XML files. This is useful when upgrading from one version of [!INCLUDE[navnow](includes/navnow_md.md)] to another.
 
-# <a name="ExportPerms"></a>Export permission sets and permissions  
+## <a name="ExportPerms"></a>Export permission sets and permissions  
 
 1.  To export the permission sets XML fileRun XMLport 9171 **Import/Export Permission Sets** ,  
 
@@ -24,7 +24,7 @@ This articles describes how to import and export permission sets and permissions
 
      In the request page for the XMLport, in the **Direction** field, choose **Export**, choose the **OK** button, and then specify name and location of the permissions XML file.
 
-#### <a name="ImportPerms"></a>Import the permission sets and permissions  
+## <a name="ImportPerms"></a>Import the permission sets and permissions  
 
 1.  To import the permission sets XML fileRun XMLport 9171 **Import/Export Permission Sets** ,  
 
