@@ -33,7 +33,7 @@ Represents a journalLine resource type in [!INCLUDE[d365fin_long_md](../dynamics
 |lineNumber|integer|The number of the journal line.|
 |accountId|GUID|The unique ID of the account that the journal line is related to.|
 |accountNumber|string, maximum size 20|The number of the account that the journal line is related to.|
-|postingDate|date|The date that the journal line is posted. Read-Only.|
+|postingDate|date|The date that the journal line is posted.|
 |documentNumber|string, maximum size 20|Specifies a document number for the journal line.|
 |externalDocumentNumber|string, maximum size 20|Specifies an external document number for the journal line.|
 |amount|decimal|Specifies the total amount (including VAT) that the journal line consists of.|
@@ -54,19 +54,19 @@ Here is a JSON representation of the resource.
 
 ```json
 {
-"id": "GUID",
-"lineNumber": integer,
-"accountId": "GUID",
-"accountNumber": "string",
-"postingDate": "date",
-"documentNumber": "string",
-"externalDocumentNumber": "string",
-"amount": decimal,
-"description": "string",
-"comment": "string",
-"financialDimension1": "string",
-"financialDimension2": "string",
-"lastModifiedDateTime": "datetime"
+    "id": "GUID",
+    "lineNumber": integer,
+    "accountId": "GUID",
+    "accountNumber": "string",
+    "postingDate": "date",
+    "documentNumber": "string",
+    "externalDocumentNumber": "string",
+    "amount": decimal,
+    "description": "string",
+    "comment": "string",
+    "financialDimension1": "string",
+    "financialDimension2": "string",
+    "lastModifiedDateTime": "datetime"
 }
 ```
 

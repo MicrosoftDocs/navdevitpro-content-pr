@@ -21,7 +21,7 @@ The table extension object allows you to add additional fields or to change some
 
 Along with defining other fields, the table extension is where you write trigger code for your additional fields.
 
-When developing a solution for [!INCLUDE[navnow_md](includes/navnow_md.md)], you will follow the code layout for a table extension as shown in the example below, but for more details on the individual controls and properties that are available, see [Tables](tables.md). 
+When developing a solution for [!INCLUDE[navnow_md](includes/navnow_md.md)], you will follow the code layout for a table extension as shown in the example below, but for more details on the individual controls and properties that are available, see [Tables](tables.md).
 
 ## Snippet support
 Typing the shortcut ```ttableext``` will create the basic layout for a table extension object when using the AL Extension in Visual Studio Code.
@@ -35,14 +35,14 @@ Using a table extension allows you to overwrite some properties on fields in the
 - Width
 
 ## Table Extension example
-This table extension object extends the Customer table object by adding a field ```ShoeSize```, with ID 70000900 and the data type ```Integer```. It also contains a procedure to check if the ```ShoeSize``` field is filled in. 
+This table extension object extends the Customer table object by adding a field ```ShoeSize```, with ID 70000900 and the data type ```Integer```. It also contains a procedure to check if the ```ShoeSize``` field is filled in.
 
 ```
 tableextension 70000020 RetailWinterSportsStore extends Customer
 {
     fields
     {
-        field(70000900;ShoeSize;Integer) 
+        field(70000900;ShoeSize;Integer)
         {
             trigger OnValidate();
             begin
@@ -71,7 +71,7 @@ tableextension 70000020 RetailWinterSportsStore extends Customer
 Tables
 
 ## See Also
-[Developer Reference](newdev-reference-overview.md)  
-[Table Object](newdev-table-object.md)  
+[Developer Reference](devenv-reference-overview.md)  
+[Table Object](devenv-table-object.md)  
 [Tables](tables.md)  
 [Table Properties](table-properties.md)
