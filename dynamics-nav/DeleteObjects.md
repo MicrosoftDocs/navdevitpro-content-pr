@@ -38,7 +38,7 @@ finsql.exe command=deleteobjects, [servername=<server>,] [database=<database>,] 
 
  *database*  
 
- The name of the [!INCLUDE[navnow](includes/navnow_md.md)] database in which the objects that you want to delete are stored.  
+The name of the [!INCLUDE[navnow](includes/navnow_md.md)] database in which the objects that you want to delete are stored.  
 
  If you do not specify both the *servername* parameter and the *database* parameter, then the database server and database that are stored in the fin.zup file are used.  
 

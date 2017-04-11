@@ -20,7 +20,7 @@ This topic describes how to synchronize the business data \(tenant\) database sc
 
 2.  On the **Tools** menu, choose **Sync. Schema For All Tables**, and then choose **With Validation** and follow the schema synchronization instructions.
 
-## Synchronize database with the the Sync-NAVTenant cmdlet  
+## Synchronize database with the Sync-NAVTenant cmdlet  
 
 1.  On the computer that is running the [!INCLUDE[nav_server](includes/nav_server_md.md)], run **[!INCLUDE[navnow](includes/navnow_md.md)] Administration Shell** as an Administrator.  
 
