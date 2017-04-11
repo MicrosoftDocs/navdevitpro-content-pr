@@ -19,6 +19,8 @@ This topic describes the tasks required for upgrading the following database ver
 
 You use data conversion tools provided with [!INCLUDE[nav2017](includes/nav2017.md)] to convert the old data with the old version’s table and field structure, so that it functions together with the new version’s table and field structure. Mainly, only table objects and table data are modified during the data upgrade process. Other objects, such as pages, reports, codeunits, and XMLports are upgraded as part of the application code upgrade process.
 
+The data upgrade process described in this article leads you through the database conversion (technical upgrade) and then the upgrade of the actual data, which is achieved by using the upgrade toolkit/upgrade codeunits.
+
 ##  <a name="Prereqs"></a> Prerequisites  
 Before you start the upgrade tasks, make sure you meet the following prerequisites:
 1.  Your computer uses the same codepage as the data that will be upgraded.
@@ -29,9 +31,14 @@ Before you start the upgrade tasks, make sure you meet the following prerequisit
 
 2.  You have a FOB file that contains the upgraded application code and upgrade toolkit. The upgrade toolkit can also be in a separate FOB file.  
 
-    For more information, see [Upgrading the Application Code](Upgrading-the-Application-Code.md).
+    For more information about upgrading the application code, see [Upgrading the Application Code](Upgrading-the-Application-Code.md).
 
-    You can find the default upgrade toolkit objects in the  **UpgradeToolKit\Data Conversion Tools** folder on the [!INCLUDE[nav2017](includes/nav2017.md)] installation media (DVD).
+    You can find the default upgrade toolkit objects in the  **UpgradeToolKit\Data Conversion Tools** folder on the [!INCLUDE[nav2017](includes/nav2017.md)] installation media (DVD). Choose the FOB that matches the [!INCLUDE[navnow](includes/navnow_md.md)] version from which you are upgrading:
+
+    -   Upgrade7001000.FOB for [!INCLUDE[nav7long](includes/nav7long_md.md)]
+    -   Upgrade7101000.FOB and Upgrade710HF1000.FOB for [!INCLUDE[navsicily](includes/navsicily_md.md)]
+    -   Upgrade8001000.FOB for [!INCLUDE[navcrete](includes/navcrete_md.md)]
+    -   Upgrade9001000.FOB for [!INCLUDE[navcorfu](includes/navcorfu_md.md)]
 
 3.   You have exported the permission sets and permissions as XML files.
 
@@ -41,7 +48,8 @@ Before you start the upgrade tasks, make sure you meet the following prerequisit
 
     For more information, see [How to: Export and Import Encryption Keys](how-to-export-and-import-encryption-keys.md).  
 
-5.   If the old Microsoft Dynamics NAV application uses Payment Services for Microsoft Dynamics ERP, be aware that this is discontinued in [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)].
+> [!NOTE]
+>If the old Microsoft Dynamics NAV application uses Payment Services for Microsoft Dynamics ERP, be aware that this is discontinued in [!INCLUDE[navnowlong_md](includes/navnowlong_md.md)]. This means that most of the objects that are associated with this feature will be deleted during the upgrade. Some objects you will have to manually delete.
 
 ## Task 1: Prepare the old database
 
@@ -74,7 +82,9 @@ By using the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] that matches 
 For more information, see [Uploading a License File for a Specific Database](How-to--Upload-the-License-File.md#UploadtoDatabase).  
 
 ##  <a name="DeleteObjects"></a> Task 4: Delete all objects except tables from the old database   
-In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] version that matches the database, open the old database, open Object Designer, and then delete all objects except tables.  
+In the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] version that matches the database, open the old database, open Object Designer, select all objects except tables, and then choose **Delete**.
+
+You can also use the [DeleteObjects](DeleteObjects.md) command of the finsql.exe.
 
 ##  <a name="UninstallOldProduct"></a> Task 5: Uninstall the old product and install the new product (Optional)
  Uninstall the old [!INCLUDE[navnow_md](includes/navnow_md.md)], and then install [!INCLUDE[nav2017](includes/nav2017.md)].  
@@ -131,15 +141,17 @@ Use the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] or finsql.exe to
 
 For example, in Object Designer, choose **Tools**, choose **Compile**, set the **Synchronize Schema** option to **Later**, and then choose **OK**. For more information, see [Compiling Objects](compiling-objects.md).
 
-If you get errors on these table objects, then delete the tables, setting the **Synchronize Schema** option to **Force**:
+If you get errors on the following table objects, then delete the objects because they are no longer used.
 
--   Table 470 Job Queue
+-   Table 470 Job Queue (replaced by the [Task Scheduler](Task-Scheduler.md))
 -   Table 824 DO Payment Connection Details
 -   Table 825 DO Payment Connection Setup
 -   Table 827 DO Payment Credit Card
 -   Table 828 DO Payment Credit Card Number
+-   Table 829 DO Payment Trans. Log Entry
 -   Table 1510 Notification Template
 
+When deleting the table objects, set the **Synchronize Schema** option to **Force**.
 ##  <a name="ConnectToServer"></a> Task 10: Connect a [!INCLUDE[nav2017](includes/nav2017.md)] Server instance to the converted database  
 You use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] to connect a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to the converted database.  
 
