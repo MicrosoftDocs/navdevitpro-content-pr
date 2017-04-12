@@ -47,7 +47,5 @@ The following table provides an overview of some of the shortcut key combination
 |F5|Build and deploy|
 
 ## See Also
-[Getting Started](newdev-get-started.md)  
-[Developer Reference](newdev-reference-overview.md)
-
-
+[Getting Started](devenv-get-started.md)  
+[Developer Reference](devenv-reference-overview.md)

@@ -15,9 +15,9 @@ caps.latest.revision: 18
 ---
 
 # How to: Create a Report Layout
-When you create a new report, there are two things you have to think about; defining the report dataset of data items and columns, and then designing the report layout. The prerequisite for the next steps, is that you have already created a report object. For more information, see [Report Object](newdev-report-object.md).
+When you create a new report, there are two things you have to think about; defining the report dataset of data items and columns, and then designing the report layout. The prerequisite for the next steps, is that you have already created a report object. For more information, see [Report Object](devenv-report-object.md).
 
-1. Define the report object as shown in [Report Object](newdev-report-object.md)
+1. Define the report object as shown in [Report Object](devenv-report-object.md)
 2. Publish the report object to the server by pressing F5.
 3. Open Dynamics NAV, and then search for **Custom Report Layouts**.
 4. Create a new report layout; make sure to check the **Insert Word Layout** check box.
@@ -31,4 +31,4 @@ When you create a new report, there are two things you have to think about; defi
 
 
 ## See Also
-[Report Object](newdev-report-object.md)  
+[Report Object](devenv-report-object.md)  

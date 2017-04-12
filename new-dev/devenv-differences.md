@@ -42,7 +42,7 @@ Several properties have been renamed, to mention some:
 
 The ```ActionContainer``` element in C/SIDE is renamed to ```area(Creation|Embedding|Navigation|Processing|Reporting|Sections)``` and can be defined inside the ```actions``` section of the page.
 
-For syntax examples, see [Page Object](newdev-page-object.md).
+For syntax examples, see [Page Object](devenv-page-object.md).
 
 ## Naming
 Controls, actions, and methods names must be unique on pages. In C/SIDE you could create a Part control with the same name as a method, which would give you an error at runtime. This is now prevented, by disallowing duplicates. Likewise, actions and fields could have same names before, but that would have prevented page testability access, and will now throw a compilation error.
@@ -56,9 +56,9 @@ Some properties require that you set another property. An example is ```Promoted
 |PromotedIsBig|Promoted|
 |ValidateTableRelation|TableRelation|
 |SourceTableTemporary|SourceTable|
-|RunPageMode|RunObject| 
+|RunPageMode|RunObject|
 
 ## See Also
-[Getting Started](newdev-get-started.md)    
-[Developer Reference](newdev-reference-overview.md)  
+[Getting Started](devenv-get-started.md)    
+[Developer Reference](devenv-reference-overview.md)  
 [Technical Reference for Dynamics NAV](technical-reference.md)

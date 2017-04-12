@@ -66,27 +66,15 @@ To convert the old database to a [!INCLUDE[nav2017](includes/nav2017.md)] databa
     > [!IMPORTANT]  
     >  The license that you upload must be a developer license. During the conversion, the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] will convert the report objects that are stored in the old database to the RDL 2012 format.  
 
-7.  Run the schema synchronization to synchronize the database schema changes.  
+7.  Run the schema synchronization with validation to synchronize the database schema changes.  
 
-    You can run the schema synchronization from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] or Dynamics NAV Administration Shell version that matches the database.  
-
-    **From the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]**:  
-
-    Open [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] as an administrator. On the **Tools** menu, choose **Sync. Schema For All Tables**, and then choose **With Validation** and follow the schema synchronization instructions.  
-
-    **From the Dynamics NAV Administration Shell:**  
-
-    Open the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] as an administrator, and then run Sync-NavTenant cmdlet as follows:  
-    ```  
-    Sync-NavTenant –ServerInstance <ServerInstanceName>  
-    ```  
-    Replace `<ServerInstanceName>` with the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that is connected to the database. For more information, see [How to: Run the Sync-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database](How-to--Run-the-Sync-NAVTenant-Cmdlet-to-Synchronize-the-Tenant-Database-with-the-Application-Database.md).  
+    For more information, see [How to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).  
 
 8.  Stop the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.
 
     You can use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or [Set-NAVServerInstance](https://go.microsoft.com/fwlink/?linkid=401395) cmdlet of the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].
 
-    For information about the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], see [How to: Start, Stop, Restart, or Remove a Dynamics NAV Server Instance](How-to--Start--Stop--Restart--or-Remove-a-Microsoft-Dynamics-NAV-Server-Instance.md)].
+    For information about the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], see [How to: Start, Stop, Restart, or Remove a Dynamics NAV Server Instance](How-to--Start--Stop--Restart--or-Remove-a-Microsoft-Dynamics-NAV-Server-Instance.md).
 
     To use the Set-NAVServerInstance cmdlet, run the following command:
     ```
@@ -135,23 +123,9 @@ Next, you will convert the old database so that it can be used in [!INCLUDE[nav2
 
      For more information, see [How to: Change the Microsoft Dynamics NAV Server Instance](How-to--Change-the-Microsoft-Dynamics-NAV-Server-Instance.md) or [Database Information](uiref/-$-S_2349-Database-Information-$-.md).  
 
-7.  Run the schema synchronization to complete the database conversion.  
+7.  Run the schema synchronization with validation to complete the database conversion.  
 
-     You can run the schema synchronization from the [!INCLUDE[nav_dev_long](includes/nav_dev_long_md.md)] or [!INCLUDE[nav_shell](includes/nav_shell_md.md)].  
-
-     **From the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)]**:  
-
-     Open [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)] as an administrator. On the **Tools** menu, choose **Sync. Schema For All Tables**, and then choose **With Validation** and follow the schema synchronization instructions.  
-
-     **From the [!INCLUDE[nav_shell](includes/nav_shell_md.md)]:**  
-
-     Open the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] as an administrator, and then run Sync-NavTenant cmdlet as follows:  
-
-    ```  
-    Sync-NavTenant –ServerInstance <ServerInstanceName>  
-    ```  
-
-     Replace `<ServerInstanceName>` with the name of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance that is connected to the database. For more information, see [How to: Run the Sync-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database](How-to--Run-the-Sync-NAVTenant-Cmdlet-to-Synchronize-the-Tenant-Database-with-the-Application-Database.md).  
+    For more information, see [How to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).  
 
 8.  If the database references any assemblies \(such as client control add-ins\) that are not included on the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installation media \(DVD\), then add the assemblies to the Add-ins folder on [!INCLUDE[nav_server](includes/nav_server_md.md)] or [!INCLUDE[nav_windows](includes/nav_windows_md.md)] computers.  
 

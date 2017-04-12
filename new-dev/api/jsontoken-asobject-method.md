@@ -34,5 +34,5 @@ Type: JsonObject
 The returned JsonObject contains the same data as the JsonToken, but allows object-specific operations to be performed on it.
 
 ## See Also
-[Getting Started](newdev-get-started.md)  
-[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)
+[Getting Started](devenv-get-started.md)  
+[Developing Extensions Using the New Development Environment](devenv-dev-overview.md)

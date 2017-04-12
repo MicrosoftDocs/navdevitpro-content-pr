@@ -52,7 +52,7 @@ table 70000030 Address
         field(4;County;Text[30])
         {
             Description='County retrieved by Service';
-            
+
             trigger OnValidate();
             begin
                 ValidateCounty(County);
@@ -73,9 +73,9 @@ table 70000030 Address
 
     trigger OnInsert();
     begin
-        
+
     end;
-    
+
     procedure MyMethod();
     begin
         Message(Msg);
@@ -84,8 +84,8 @@ table 70000030 Address
 ```
 
 ## See Also
-[Table Extension Object](newdev-table-ext-object.md)  
-[Developer Reference](newdev-reference-overview.md)  
+[Table Extension Object](devenv-table-ext-object.md)  
+[Developer Reference](devenv-reference-overview.md)  
 [Tables](tables.md)  
 [Table Keys](table-keys.md)  
 [Table Properties](table-properties.md)
