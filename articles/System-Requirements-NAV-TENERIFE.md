@@ -1,5 +1,5 @@
 ---
-title: "System Requirements for Microsoft Dynamics NAV 2017"
+title: "System Requirements for Microsoft Dynamics NAV TENERIFE"
 author: edupont04
 ms.custom: na
 ms.date: 12/28/2016
@@ -11,7 +11,7 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: 014e3285-02be-459c-9a54-eae45ea71e04
 
 ---
-# System Requirements for Microsoft Dynamics NAV 2017
+# System Requirements for Microsoft Dynamics NAV TENERIFE
 The following sections list the minimum hardware and software requirements to install and run [!INCLUDE[navnowlong](includes/navnowlong_md.md)]. **Minimum** means that later versions \(such as SP1, SP2, or R2 versions\) of a required software product are also supported.  
 
 **Client components**  
@@ -188,7 +188,7 @@ The following table shows the minimum system requirements for the [!INCLUDE[navn
 
 |||  
 |-|-|  
-|Additional software|- Microsoft Dynamics CRM 2015 or Microsoft Dynamics CRM 2016<BR />&nbsp;&nbsp;Note: AD, IFD and Claims authentication types are supported for above editions.<BR /><BR />-  Microsoft Dynamics CRM Online 2015, Microsoft Dynamics CRM Online 2015 Update 1, or Microsoft Dynamics CRM Online 2016 Update 1 or Microsoft Dynamics 365<BR />&nbsp;&nbsp;Note: Oauth and Office365 authentication types are supported for these editions. <BR /><BR />For more details on authentication types, see [Connection strings in XRM tooling to connect to Dynamics 365](https://msdn.microsoft.com/en-us/library/mt608573.aspx).| 
+|Additional software|- Microsoft Dynamics CRM 2015 or Microsoft Dynamics CRM 2016<BR />&nbsp;&nbsp;Note: AD, IFD and Claims authentication types are supported for above editions.<BR /><BR />-  Microsoft Dynamics CRM Online 2015, Microsoft Dynamics CRM Online 2015 Update 1, or Microsoft Dynamics CRM Online 2016 Update 1 or Microsoft Dynamics 365<BR />&nbsp;&nbsp;Note: Oauth and Office365 authentication types are supported for these editions. <BR /><BR />For more details on authentication types, see [Connection strings in XRM tooling to connect to Dynamics 365](https://msdn.microsoft.com/en-us/library/mt608573.aspx).|
 
 
 
