@@ -15,21 +15,23 @@ author: SusanneWindfeldPedersen
 ---
 
 # AsToken Method
-
-Converts the value in a JsonValue to a **JsonToken** data type.
+Converts the value in a JsonValue to a JsonToken data type.
 
 ```
 JsonToken := JsonValue.AsToken
 ```
 
-## Parameters
-*JsonValue*
-
-Type: JsonValue
+### Parameters
+*JsonValue*  
+&emsp;Type: JsonValue
 
 ## Return Value
-Type : JsonToken
+*JsonToken*
+Type: JsonToken
 
+## Remarks
 The returned JsonToken contains the same data as the JsonValue, but allows for treating the data in a generic manner.
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

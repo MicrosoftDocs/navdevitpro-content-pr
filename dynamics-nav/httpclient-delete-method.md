@@ -2,7 +2,7 @@
 title: "Delete Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 03/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -15,24 +15,26 @@ author: SusanneWindfeldPedersen
 ---
 
 # Delete Method
-Deletes..
+Sends a DELETE request to delete the resource identified by the request URL.
 
 ```
 [Ok := ] HttpClient.Delete(Path, Response)
 ```
-## Parameters
-*Path*
-Type: String
 
-*Response*
-Type: HttpReponseMessage 
+## Parameters
+*Path*  
+&emsp;Type: String
+
+*Response*  
+&emsp;Type: HttpReponseMessage
 
 ## Return value
-*Ok*
-Type: Boolean
+*Ok*  
+&emsp;Type: Boolean
 
-## Remarks
-**true** if the operation was successful; otherwise, **false**. 
+&emsp;**true** if the operation was successful; otherwise, **false**.
+
+Accessing the HttpContent property of HttpResponseMessage in a case when the request fails will result in an error.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

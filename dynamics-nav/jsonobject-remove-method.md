@@ -2,7 +2,7 @@
 title: "Remove Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 03/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -15,7 +15,6 @@ author: SusanneWindfeldPedersen
 ---
 
 # Remove Method
-
 Removes the property with the given key from the object.
 
 ```
@@ -23,12 +22,14 @@ Removes the property with the given key from the object.
 ```
 
 ## Parameters
-*Key*
-Type: String
+*Key*  
+&emsp;Type: String
 
-## Return Value
-Type : Boolean
+## Return Value  
+Type: Boolean
 
-**true** if a property with the given key was present on the object; otherwise, **false**. 
+**true** if a property with the given key was present on the object; otherwise, **false**.
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

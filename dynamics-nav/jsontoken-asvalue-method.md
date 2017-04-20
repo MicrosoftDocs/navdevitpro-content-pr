@@ -16,21 +16,23 @@ author: SusanneWindfeldPedersen
 
 # AsValue Method
 
-Converts the value in a JsonToken to a **JsonValue** data type.
+Converts the value in a JsonToken to a JsonValue data type.
 
 ```
 JsonValue := JsonToken.AsValue
 ```
 
 ### Parameters
-*JsonToken*
-Type: JsonToken
+*JsonToken*  
+&emsp;Type: JsonToken
 
-A JsonToken for which **IsValue** returns **true**. If the JsonToken does not represent a fundamental JSON value, a run-time error occurs.
+A JsonToken for which IsValue returns **true**. If the JsonToken does not represent a fundamental JSON value, a run-time error occurs.
 
 ## Return Value
-Type : JsonValue
+Type: JsonValue
 
-The returned JsonValue contains the same data as the JsonToken, but allows value-specific operations to be performed on it (the data).
+The returned JsonValue contains the same data as the JsonToken, but allows value-specific operations to be performed on the data.
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

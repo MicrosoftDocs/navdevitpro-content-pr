@@ -2,7 +2,7 @@
 title: "Set Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 03/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -15,30 +15,32 @@ author: SusanneWindfeldPedersen
 ---
 
 # Set Method
-
-Replaces the value at the given index with a new value. 
+Replaces the value at the given index with a new value.
 
 ```
 [Ok := ] JsonArray.Set(Index, Value)
 ```
 
 ## Parameters
-*JsonArray*
+*JsonArray*  
 Type: JsonArray
 
-*Index*
+*Index*  
 Type: Integer
 
-*Value*
+*Value*  
 Type: JsonToken | JsonObject | JsonValue | JsonArray | Boolean | Char | Byte | Integer | BigInteger | Decimal | Duration | String | Date | Time | DateTime
 
 ## Return Value
 Type: Boolean
 
-**true** if the operation was successful; otherwise, **false**. 
+**true** if the operation was successful; otherwise, **false**.
+
 If you omit this optional return value and if the select does not execute successfully, then a run-time error occurs.
 
 ## Remarks
 The operation will fail if the *Index* is smaller than 0 or (greater or equal) than JsonArray.Count.
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

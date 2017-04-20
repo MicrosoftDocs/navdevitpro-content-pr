@@ -16,23 +16,21 @@ author: SusanneWindfeldPedersen
 
 # AsChar Method
 
-Converts the value in a JsonValue to a **Char** data type.
+Converts the value in a JsonValue to a Char data type.
 
 ```
 Char := JsonValue.AsChar
 ```
 ### Parameters
-*JsonValue*
-
-Type: JsonValue
+*JsonValue*  
+&emsp;Type: JsonValue
 
 ## Return Value
-Type : Char
+Type: Char
 
 ## Remarks
-If the JsonValue does not contain a number which can be converted without loss of precision to a Char, the operation will fail with a run-time error. 
-
-//TODO:Link to example about custom parsing.
+If the JsonValue does not contain a number which can be converted without loss of precision to a Char, the operation will fail with a run-time error.
 
 ## See Also
-
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

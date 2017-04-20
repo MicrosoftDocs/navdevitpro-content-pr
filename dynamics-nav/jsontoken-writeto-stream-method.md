@@ -16,25 +16,28 @@ author: SusanneWindfeldPedersen
 
 # WriteTo_Stream Method
 
-Serializes and writes the JSON data of the **JsonToken** to a given **Text** object.
+Serializes and writes the JSON data of the JsonToken to a given OutStream object.
 
 ```
 [Ok := ] JsonToken.WriteTo(var OutStream)
 ```
 
 ### Parameters
-*JsonToken*
-Type: JsonToken
+*JsonToken*  
+&emsp;Type: JsonToken
 
-*OutStream*
-Type: OutStream
+*OutStream*  
+&emsp;Type: OutStream
 
 The **OutStream** object to which the JSON data will be written.
 
 ## Property Value/Return Value
-Type : Boolean
+Type: Boolean
 
-**true** if the write was successful; otherwise, **false**. 
-If you omit this optional return value and if the write does not execute successfully, then a run-time error occurs. 
+**true** if the write was successful; otherwise, **false**.
+
+If you omit this optional return value and if the write does not execute successfully, then a run-time error occurs.
 
 ## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)

@@ -18,13 +18,13 @@ When implementing camera access from C/AL, there are some options; `Microsoft.Dy
 
 ## CameraOptions  
 
-||  
-|-|  
-|`int Quality`<br /><br /> The quality of the saved image expressed as a range from 0 to 100, where 100 is typically full resolution without loss from file compression. Default is 50. `Quality` is only used if `EncodingType` is `JPEG`. **Note:**  The `Quality` option is currently not supported on Windows phone.|  
-|`string SourceType`<br /><br /> The source of the picture. Possible values are as follows: `Camera` and `PhotoLibrary`. Default is Camera. The options `Quality`, `EncodingType`, and `AllowEdit` are only used if `SourceType` is `Camera`.|  
-|`string MediaType`<br /><br /> The type of media to select from. The `SourceType` option must be `PhotoLibrary`. Possible values are as follows: `Picture`, `Video`, `AllMedia`. The `PhotoLibrary` option will pick an already existing picture on the device.|  
-|`string EncodingType`<br /><br /> The encoding of the returned image file. Supported values are as follows: `JPEG`, `PNG`. Default is `JPEG`.|  
-|`bool AllowEdit`<br /><br /> A value indicating whether to enable simple editing of image before selection. Default is `FALSE`. **Note:**  The `AllowEdit` option is currently not supported on Windows phone.|  
+|Option|Description|
+|------|-----------|
+|`int Quality`|The quality of the saved image expressed as a range from 0 to 100, where 100 is typically full resolution without loss from file compression. Default is 50. `Quality` is only used if `EncodingType` is `JPEG`. **Note:**  The `Quality` option is currently not supported on Windows phone.|  
+|`string SourceType`|The source of the picture. Possible values are as follows: `Camera` and `PhotoLibrary`. Default is Camera. The options `Quality`, `EncodingType`, and `AllowEdit` are only used if `SourceType` is `Camera`.|  
+|`string MediaType`|The type of media to select from. The `SourceType` option must be `PhotoLibrary`. Possible values are as follows: `Picture`, `Video`, `AllMedia`. The `PhotoLibrary` option will pick an already existing picture on the device.|  
+|`string EncodingType`|The encoding of the returned image file. Supported values are as follows: `JPEG`, `PNG`. Default is `JPEG`.|  
+|`bool AllowEdit`|A value indicating whether to enable simple editing of image before selection. Default is `FALSE`. **Note:**  The `AllowEdit` option is currently not supported on Windows phone.|  
 
 ## See Also  
  [How to: Implement the Camera in C/AL](How-to--Implement-the-Camera-in-C-AL.md)

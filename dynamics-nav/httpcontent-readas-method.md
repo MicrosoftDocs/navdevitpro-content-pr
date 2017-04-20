@@ -2,7 +2,7 @@
 title: "ReadAs Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 03/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -15,8 +15,25 @@ author: SusanneWindfeldPedersen
 ---
 
 # ReadAs Method
+Reads the content into the provided text.
 
-## Remarks
+```
+[Ok := ] HttpContent.ReadAs(Result)
+```
+
+## Parameters
+*HttpContent*  
+&emsp;Type: HttpContent
+
+*Result*  
+&emsp;Type: Text or InStream
+
+## Return Value
+*Ok*  
+&emsp;Type: Boolean  
+&emsp;**true** if the operation was successful; otherwise, **false**.
+
+Accessing the HttpContent property of HttpResponseMessage in a case when the request fails will result in an error.
 
 ## See Also
 [Getting Started](newdev-get-started.md)  

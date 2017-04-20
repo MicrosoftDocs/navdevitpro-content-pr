@@ -2,7 +2,7 @@
 title: "Count Method"
 ms.author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 02/21/2017
+ms.date: 03/28/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -15,17 +15,20 @@ author: SusanneWindfeldPedersen
 ---
 
 # Count Method
-
-Gets the number of elements in the **JsonArray**.
+Gets the number of elements in the JsonArray.
 
 ```
 Integer := JsonArray.Count
 ```
 
 ### Parameters
-*JsonArray*
-Type: JsonArray
+*JsonArray*  
+&emsp;Type: JsonArray
 
 ## Property Value/Return Value
 Type: Integer
 The number of elements in the JsonArray.
+
+## See Also
+[Getting Started](newdev-get-started.md)  
+[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)
