@@ -17,7 +17,7 @@ ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 
 # Using the Dynamics NAV In-Client Designer
 
-With the [!INCLUDE[navnow_md](includes/navnow_md.md)] in-client designer, you can create extensions using drag-and-drop inside the client. With this preview of the in-client designer, you can:
+With the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] in-client designer, you can create extensions using drag-and-drop inside the client. With this preview of the in-client designer, you can:
 
 - Enter and exit design mode
 - Move fields around
@@ -31,7 +31,6 @@ The in-client designer is switched on by choosing the design icon in the ribbon 
 
 ![Design](media/start-design.gif)  
 
-
 > [!NOTE]  
 > With this preview you can only add existing table fields. Adding pages, groups, parts, and actions is not yet supported.
 
@@ -43,10 +42,6 @@ When you modify subpages on a given page, a square is displayed to mark the area
 Change a FastTab caption by clicking the caption and start writing.
 
 The display type icons let you preview the changes you made on desktop, tablet, and phone clients. This way you can make sure that your design will work on the intended display target(s). You can flip to display tablet and phone designs in landscape as well.
-
-<!--
-> [!NOTE]  
-> With this preview, page fields that have the property **Visible** set to **false** still show up in the pane of fields you can add to a page. You can drag this type of field to the page, but it does not have any effect. -->
 
 ## See Also
 [Developing Extensions Using the New Development Environment](devenv-dev-overview.md)  
