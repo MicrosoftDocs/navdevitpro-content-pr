@@ -12,29 +12,34 @@ caps.latest.revision: 15
 manager: edupont
 ---
 # ToolTip Property
-Sets whether tooltips are provided for the given object. The tooltip value is taken from the [ToolTipML Property](ToolTipML-Property.md) if this property is set.  
-  
+Sets whether tooltips are provided for the given control, such as a field or action. The tooltip value is taken from the [ToolTipML Property](ToolTipML-Property.md) if this property is set.
+
+In the client, tooltips appear when you point to caption of the control.
+
 ## Applies To  
-  
+
 -   Actions in the ribbon  
-  
--   Fields on pages  
-  
+
+-   Fields on pages
+
+    > [!NOTE]  
+    >  In the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], tooltips for fields on list pages are not shown. To view these tooltips in the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tablet_md](includes/nav_tablet_md.md)], you right-click the field caption, and then choose **What's This?**.
+
 -   Factboxes  
-  
+
 -   Activity buttons  
-  
+
     > [!NOTE]  
     >  Activity button tooltips are only shown on the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
-  
+
 -   ActionContainers  
-  
+
     > [!WARNING]  
     >  ActionContainers tooltips are only shown on the [!INCLUDE[nav_web](includes/nav_web_md.md)] for the subtype **HomeItems**.  
-  
+
 ## Remarks  
  The default is an empty string, which means there will be no tooltip.  
-  
+
 ## See Also  
  [ToolTipML Property](ToolTipML-Property.md)   
  [Multilanguage Development](Multilanguage-Development.md)

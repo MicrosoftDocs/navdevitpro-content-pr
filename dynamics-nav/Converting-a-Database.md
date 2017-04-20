@@ -74,7 +74,7 @@ To convert the old database to a [!INCLUDE[nav2017](includes/nav2017.md)] databa
 
     You can use the [!INCLUDE[nav_admin](includes/nav_admin_md.md)] or [Set-NAVServerInstance](https://go.microsoft.com/fwlink/?linkid=401395) cmdlet of the [!INCLUDE[nav_shell](includes/nav_shell_md.md)].
 
-    For information about the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], see [How to: Start, Stop, Restart, or Remove a Dynamics NAV Server Instance](How-to--Start--Stop--Restart--or-Remove-a-Microsoft-Dynamics-NAV-Server-Instance.md)].
+    For information about the [!INCLUDE[nav_admin](includes/nav_admin_md.md)], see [How to: Start, Stop, Restart, or Remove a Dynamics NAV Server Instance](How-to--Start--Stop--Restart--or-Remove-a-Microsoft-Dynamics-NAV-Server-Instance.md).
 
     To use the Set-NAVServerInstance cmdlet, run the following command:
     ```
