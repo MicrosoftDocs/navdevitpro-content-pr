@@ -14,6 +14,8 @@ manager: edupont
 # ToolTipML Property
 Sets the text used for the tooltip of an action, a field, a factbox, or an activity button.  
 
+In the client, tooltips appear when you point to caption of the control.
+
 ## Applies To  
 
 -   Actions in the ribbon  
