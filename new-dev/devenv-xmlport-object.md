@@ -17,7 +17,7 @@ caps.latest.revision: 18
 [!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/newdev_dev_preview.md)]
 
 # XMLport Object
-XMLports are used to export and import data between an external source and a Dynamics for Financials database. 
+XMLports are used to export and import data between an external source and a [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] database. 
 
 ## Snippet support
 Typing the shortcut ```txmlport``` will create the basic layout for an XMLport object when using the AL Extension in Visual Studio Code.
