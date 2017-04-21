@@ -104,14 +104,17 @@ If you are running the [!INCLUDE[nav_server](includes/nav_server_md.md)] under a
 For more information about SMSvcHost.exe and the SMSvcHost.exe.config file, see [Configuring the Net.TCP Port Sharing Service](https://msdn.microsoft.com/en-us/library/aa702669%28v=vs.110%29.aspx).
 
 ###  <a name="dbo"></a> Giving the account necessary database privileges in SQL Server  
- The [!INCLUDE[nav_server](includes/nav_server_md.md)] account must be a member of the db\_owner database role on the [!INCLUDE[navnow](includes/navnow_md.md)] database. When you install the [!INCLUDE[navnow](includes/navnow_md.md)] database by using [!INCLUDE[navnow](includes/navnow_md.md)] Setup or the New-NAVDatabase PowerShell cmdlet, you can specify the [!INCLUDE[nav_server](includes/nav_server_md.md)] account. In these cases, the server account that you specify should already have the necessary privileges in SQL Server. If you change the [!INCLUDE[nav_server](includes/nav_server_md.md)] account for an existing installation, then you should verify the account has the required privileges in SQL Server.  
+The [!INCLUDE[nav_server](includes/nav_server_md.md)] account needs two privileges on SQL Server instance used for [!INCLUDE[navnow](includes/navnow_md.md)]:
+1. in order to be able to create databases on the instance, it must have the dbcreator server-level role. This privilege is only needed during database creation.
 
- To verify database privileges after you create your [!INCLUDE[navnow](includes/navnow_md.md)] database, use SQL Server Management Studio and, if necessary, modify database privileges. If you have installed SQL Server with the guidelines in [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md), then SQL Server Management Studio is already installed on your computer. Otherwise, update your SQL Server installation to include the **Management Tools - Complete option for SQL Server**.  
+2. in order to be able to serve client requests and read/write to the [!INCLUDE[navnow](includes/navnow_md.md)] database, it must be member of the db\_owner database role on the [!INCLUDE[navnow](includes/navnow_md.md)] database. 
 
-> [!NOTE]  
->  If you installed the Demo option in [!INCLUDE[navnow](includes/navnow_md.md)] Setup, then the Network Service account already has the necessary database privileges.  
+When you install the [!INCLUDE[navnow](includes/navnow_md.md)] database by using [!INCLUDE[navnow](includes/navnow_md.md)] Setup or the New-NAVDatabase PowerShell cmdlet, you can specify the [!INCLUDE[nav_server](includes/nav_server_md.md)] account. In these cases, the server account that you specify should already have the necessary privileges in SQL Server. If you change the [!INCLUDE[nav_server](includes/nav_server_md.md)] account for an existing installation, then you should verify the account has the required privileges in SQL Server.  
 
-##### To assign necessary database privileges for the [!INCLUDE[nav_server](includes/nav_server_md.md)] account  
+To verify server-level and database-level privileges on SQL Server after you create your [!INCLUDE[navnow](includes/navnow_md.md)] database, use SQL Server Management Studio and, if necessary, modify privileges. If you have installed SQL Server with the guidelines in [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md), then SQL Server Management Studio is already installed on your computer. Otherwise, update your SQL Server installation to include the **Management Tools - Complete option for SQL Server** (for SQL Server 2012/2014.) For SQL Server 2016, SQL Server Management Studio can be downloaded and installed as a standalone application.  
+
+
+##### To assign necessary SQL Server privileges for the [!INCLUDE[nav_server](includes/nav_server_md.md)] account  
 
 1.  Start SQL Server Management Studio and connect to the instance where the [!INCLUDE[navnow](includes/navnow_md.md)] database is installed.  
 
@@ -132,7 +135,15 @@ For more information about SMSvcHost.exe and the SMSvcHost.exe.config file, see 
     3.  Under **Select a page**, choose **Securables**.
     4.  On the **Explicit** tab, select the **Alter any event session** and **View server state** check boxes in the **Grant** column.
     5.  Choose **OK**.    
-4.  Add the login as a user on the master database.  
+
+4. Grant the login the server-level role **dbcreator** 
+    1.  Navigate the tree view: **Security**, **Logins**.  
+    2.  Right-click the [!INCLUDE[nav_server](includes/nav_server_md.md)] account, and then choose **Properties**.
+    3. Click on **Server Roles**.
+    4. Check the **dbcreator** box.
+    5. Choose **OK**. 
+
+5.  Add the login as a user on the master database.  
 
     1.  Navigate the tree view: **Databases**, **System Databases**, **master**, **Security**, **Users**.  
 
@@ -146,7 +157,7 @@ For more information about SMSvcHost.exe and the SMSvcHost.exe.config file, see 
 
     6.  Choose **OK** to exit the **Database User - New** dialog box.  
 
-5.  Grant the [!INCLUDE[nav_server](includes/nav_server_md.md)] login permissions on the master database. In the tree view, right-click **master** and choose **Properties**. Then do the following in the **Database Properties – master** dialog box.  
+6.  Grant the [!INCLUDE[nav_server](includes/nav_server_md.md)] login permissions on the master database. In the tree view, right-click **master** and choose **Properties**. Then do the following in the **Database Properties – master** dialog box.  
 
     1.  Under **Select a Page**, choose **Permissions**.  
 
@@ -168,7 +179,7 @@ For more information about SMSvcHost.exe and the SMSvcHost.exe.config file, see 
 
     10. Choose **OK** to exit the **Table Properties – dbo.$ndo$srvproperty** dialog box.  
 
-6.  Grant the login the necessary database roles on the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
+7.  Grant the login the necessary database roles on the [!INCLUDE[navnow](includes/navnow_md.md)] database.  
 
     1.  Navigate the tree view: **Databases**, **\<your Microsoft Dynamics NAV database>**, **Security**, **Users**.  
 
@@ -200,6 +211,8 @@ GO
 CREATE LOGIN [domain\accountname] FROM WINDOWS   
 CREATE USER [domain\accountname] FOR LOGIN [domain\accountname]   
 GRANT SELECT ON [master].[dbo].[$ndo$srvproperty] TO [domain\accountname]  
+ALTER SERVER ROLE [dbcreator] ADD MEMBER [domain\accountname]
+
 GO  
 USE [Microsoft Dynamics NAV Database]  
 GO  
