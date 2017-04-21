@@ -34,7 +34,7 @@ In the client, tooltips appear when you point to caption of the control.
 
 -   ActionContainers  
 
-    > [!WARNING]  
+    > [!NOTE]  
     >  ActionContainers tooltips are only shown in the [!INCLUDE[nav_web](includes/nav_web_md.md)] for the subtype **HomeItems**.  
 
 ## Remarks  
