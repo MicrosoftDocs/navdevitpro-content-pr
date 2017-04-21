@@ -1,7 +1,7 @@
  ---
 title: "How to: Set Up a Dynamics CRM Connection"
 ms.custom: na
-ms.date: 04/20/2017
+ms.date: 04/21/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
