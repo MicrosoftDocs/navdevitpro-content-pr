@@ -77,10 +77,12 @@ Enable trace flags 1117 and 1118 as startup options for SQL Server 2012 or SQL S
 #### Service account
 We recommend that you use dedicated domain user accounts for the Windows services running your [!INCLUDE[nav_server](includes/nav_server_md.md)] instances and your SQL Server instances, instead of a Local System account or the Network Service account.  
 
+The [!INCLUDE[nav_server](includes/nav_server_md.md)] account must have privileges on the SQL Server instances and on the Dynamics NAV database(s). See [Provisioning the Microsoft Dynamics NAV Server Account](Provisioning-the-microsoft-dynamics-nav-server-account.md) for details.
+
 For installations on SQL Server 2012 or  SQL Server 2014, consider adding the service account for then SQL Server engine to the **Perform Volume Maintenance Tasks** security policy. For SQL Server 2016, it is possible to do this from the installer.
 
 ### Database configurations
-After Dynamics NAV has been installed, it is important to check a few settings on the NAV database(s). This is especially important for databases, which have been upgraded from previous versions of SQL Server.
+After Dynamics NAV has been installed, it is important to check a few settings on the Dynamics NAV database(s). This is especially important for databases, which have been upgraded from previous versions of SQL Server.
 
 #### Statistics ####
 The databases used by Dynamics NAV should have set the options AUTO_CREATE_STATISTICS and AUTO_UPDATE_STATISTICS to the value ON (this is the default behavior and should not be changed)
