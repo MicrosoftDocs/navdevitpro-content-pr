@@ -1,4 +1,4 @@
- ---
+---
 title: "How to: Set Up a Dynamics CRM Connection"
 ms.custom: na
 ms.date: 04/20/2017
@@ -16,7 +16,7 @@ To integrate with [!INCLUDE[crm_md](includes/crm_md.md)], you must set up a conn
 
      You must provide the URL of the [!INCLUDE[crm_md](includes/crm_md.md)] server to connect to. The URL specifies the URI scheme, such as HTTPS or HTTP, and the fully qualified domain name \(FQDN\) that identifies the [!INCLUDE[crm_md](includes/crm_md.md)] organization and the computer where the [!INCLUDE[crm_md](includes/crm_md.md)] server is installed.  
 
-     For connecting to [!INCLUDE[crm_md](includes/crm_md.md)] Online, the format is typically *scheme:\/\/organizationname.domainname*, such as **https://mycrm.crm4.dynamics.com**, where *https* is the scheme, *myorganization* is the organization and *crm4.dynamics.com* is the domain.  
+     For connecting to [!INCLUDE[crm_md](includes/crm_md.md)] Online, the format is typically *scheme://organizationname.domainname*, such as **https://mycrm.crm4.dynamics.com**, where *https* is the scheme, *myorganization* is the organization and *crm4.dynamics.com* is the domain.  
 
 -   User name and password of a dedicated [!INCLUDE[crm_md](includes/crm_md.md)] user account for integrating with [!INCLUDE[navnow_md](includes/navnow_md.md)].  
 
