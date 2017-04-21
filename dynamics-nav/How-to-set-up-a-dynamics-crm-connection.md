@@ -23,7 +23,7 @@ To integrate with [!INCLUDE[crm_md](includes/crm_md.md)], you must set up a conn
      For more information about this user account and additional [!INCLUDE[crm_md](includes/crm_md.md)] setup requirements, see [Create a Dynamics CRM User for Connecting to Microsoft Dynamics NAV](How-to-prepare-dynamics-crm-for-integration.md#createuser).  
 
 ### To set up, test, and enable a connection to [!INCLUDE[crm_md](includes/crm_md.md)]  
-For all authentication types other than Office 365 authentication, you set your CRM connection up in the **CRM Connection Setup** window. For Office 365 authentication, you can also use the **Dynamics CRM Connection Setup** assisted setup, which is a wizard that helps you fill in the required setup fields. The following procedure describes how to work with fill in the fields in the **CRM Connection Setup** window manually.
+For all authentication types other than Office 365 authentication, you set your CRM connection up in the **CRM Connection Setup** window. For Office 365 authentication, you can also use the **Dynamics CRM Connection Setup** assisted setup, which is a wizard that helps you fill in the required setup fields. The following procedure describes how to fill in the fields in the **CRM Connection Setup** window manually.
 
 1. In the **Search** box, enter **CRM Connection Setup**, and then choose the related link.  
 
