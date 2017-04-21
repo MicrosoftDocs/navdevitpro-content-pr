@@ -17,7 +17,7 @@ caps.latest.revision: 18
 [!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/newdev_dev_preview.md)]
 
 # Developer Reference
-This section describes all of the objects that are available with [!INCLUDE[navnow_md](includes/navnow_md.md)]. For additional reference and information, see [Objects](objects.md).
+This section describes all of the objects that are available with [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. For additional reference and information, see [Objects](objects.md).
 
 ## Defining the data model
 |To | See |

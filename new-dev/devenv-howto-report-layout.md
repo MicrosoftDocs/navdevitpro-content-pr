@@ -15,7 +15,7 @@ caps.latest.revision: 18
 ---
 
 # How to: Create a Report Layout
-When you create a new report, there are two things you have to think about; defining the report dataset of data items and columns, and then designing the report layout. The prerequisite for the next steps, is that you have already created a report object. For more information, see [Report Object](devenv-report-object.md).
+When you create a new report for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], there are two things you have to think about; defining the report dataset of data items and columns, and then designing the report layout. The prerequisite for the next steps, is that you have already created a report object. For more information, see [Report Object](devenv-report-object.md).
 
 1. Define the report object as shown in [Report Object](devenv-report-object.md)
 2. Publish the report object to the server by pressing F5.
