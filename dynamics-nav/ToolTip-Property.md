@@ -23,19 +23,19 @@ In the client, tooltips appear when you point to caption of the control.
 -   Fields on pages
 
     > [!NOTE]  
-    >  In the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], tooltips for fields on list pages are not shown. To view these tooltips in the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tablet_md](includes/nav_tablet_md.md)], you right-click the field caption, and then choose **What's This?**.
+    >  List page field tooltips are only shown in the [!INCLUDE[nav_web](includes/nav_web_md.md)] and [!INCLUDE[nav_tablet_md](includes/nav_tablet_md.md)].
 
 -   Factboxes  
 
 -   Activity buttons  
 
     > [!NOTE]  
-    >  Activity button tooltips are only shown on the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
+    >  Activity button tooltips are only shown in the [!INCLUDE[nav_web](includes/nav_web_md.md)].  
 
 -   ActionContainers  
 
     > [!WARNING]  
-    >  ActionContainers tooltips are only shown on the [!INCLUDE[nav_web](includes/nav_web_md.md)] for the subtype **HomeItems**.  
+    >  ActionContainers tooltips are only shown in the [!INCLUDE[nav_web](includes/nav_web_md.md)] for the subtype **HomeItems**.  
 
 ## Remarks  
  The default is an empty string, which means there will be no tooltip.  
