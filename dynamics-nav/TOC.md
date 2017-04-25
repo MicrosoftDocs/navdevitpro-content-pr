@@ -44,6 +44,7 @@
 ## [Using the Dynamics NAV In-Client Designer](newdev-inclient-designer.md)
 ## [Differences in the Dynamics NAV Development Environments](newdev-differences.md)
 ## [Keyboard Shortcuts for the New Development Environment](newdev-keyboard-shortcuts.md)
+## [The Txt2Al Conversion Tool](newdev-txt2al-tool.md)
 ## [Developer Reference](newdev-reference-overview.md)
 # [Integrating Dynamics NAV and Microsoft Office](Integrating Dynamics NAV and Office.md)
 # [Administration](Administration.md)

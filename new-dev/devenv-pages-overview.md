@@ -17,13 +17,8 @@ manager: edupont
 In [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)], pages are the main way to display and organize data. Pages are the primary object that a user will interact with and have a different behavior based on the type of page that you choose. Pages are designed independently of the device they are to be rendered on, and in this way the same page can be reused across phone, tablet, and web clients.
 
 A page is defined in code as an object composed of controls, properties, actions, and triggers. You can also use the in-client designer in [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] to create a page. For more information, see <>.
- 
- <!--
- In Page Designer, you can start by creating a blank page or choose from over 10 page types. Pages can be linked to a source table, unless you want to create a Role Center or a blank page not based on a page type data from a table.  
-  
- In the Page Designer window, you group controls in a hierarchy that reflects the XML structure of the page. To help you to create the correct XML layout, page designer provides you with several new properties called Types and SubTypes. These properties enable you to create controls, specify their position on the page, and how they are grouped. You set types and subtypes using the drop-down menus in Page Designer.  
-  
-  -->
+
+Whether you're creating a new page, or extending en existing page, you will add a new .al file to your project and describe the page object in code. The difference is basically that for a new page, you need to define the entire page, whereas when modifying an existing page, you only add the extra functionality or modify the existing. 
 
 The structure of a page is hierarchical and breaks down in to three sections. The first block contains metadata for the overall page. The metadata describes the page type and the source table it is showing data from. The next section; the layout, describes the visual parts on the page. The final section details the actions that are published on the page.
 
@@ -39,9 +34,12 @@ The structure of a page is hierarchical and breaks down in to three sections. Th
 
 Furthermore, the page has properties. Properties work in the same way for pages as they do for other [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] objects. For more information, see [Page Properties](Page-Properties.md).  
 
-## Page Object
+## Page Metadata
 The page object
 
+## Page Layout
+
+## Page Actions
   
 ## Types of Pages  
 The page type you choose depends on the application task that you want to support, the content that you want to display, and how you want to display it. The Role Center page is the main or home page and it helps the user focus on the most important daily tasks and activities. Other types of pages, such as list pages or card pages are typically linked from the home page for easy access. The following page types are available:  
