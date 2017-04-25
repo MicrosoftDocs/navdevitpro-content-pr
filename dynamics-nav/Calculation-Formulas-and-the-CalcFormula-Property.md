@@ -13,7 +13,7 @@ manager: edupont
 ---
 # Calculation Formulas and the CalcFormula Property
 A FlowField is always associated with a calculation formula that determines how the FlowField is calculated. The following syntax is valid for the CalcFormula property.  
-  
+
 ```  
 <CalculationFormula> ::=  
     [-]Exist(<TableNo> [WHERE (<TableFilters>)]) |  
@@ -33,9 +33,9 @@ A FlowField is always associated with a calculation formula that determines how 
     <DstFieldNo>=FIELD(FILTER(<SrcFieldNo>)) |  
     <DstFieldNo>=FIELD(UPPERLIMIT(FILTER(<SrcFieldNo>)))  
 ```  
-  
+
  Parts of the formula are described in the following table.  
-  
+
 |Symbol|Description|  
 |------------|-----------------|  
 |\<TableNo>|Specifies the table holding the information to be used in the FlowField.|  
@@ -45,8 +45,9 @@ A FlowField is always associated with a calculation formula that determines how 
 |\<DstFieldNo>|Specifies the destination field number.|  
 |\<SrcFieldNo>|Specifies the source field number.|  
 |\<Filter>|A filter expression such as 10&#124;20..30.|  
-  
+
 ## See Also  
  [FlowFields](FlowFields.md)   
  [FlowFilter Overview](FlowFilter-Overview.md)   
- [How to: Create, View, and Edit a Calculation Formula](How-to--Create--View--and-Edit-a-Calculation-Formula.md)
+ [How to: Create, View, and Edit a Calculation Formula](How-to--Create--View--and-Edit-a-Calculation-Formula.md)  
+ [Troubleshooting Long Running SQL Queries Involving FlowFields by Disabling SmartSQL](Troubleshooting-Queries-Involving-FlowFields-By-Disabling-SmartSQL.md)  
