@@ -15,5 +15,6 @@ author: jswymer
 # Tenant Exclusive Access
 -   Blocking callbacks to the client, such as .NET objects, Automation objects, and confirmation dialogs are not supported when tenant has acquired exclusive access..  
 
-1.  In the right corner, select the gear icon  ![Search](media/search.png "NAV\_Search") in the top jejf  fje f efe jew gpoweg pokjg wrjg rj grj gjr g.
+1.  In the right corner, select the gear icon  ![Search](media/search_small.png "Search for page or report") in the top jejf  fje f efe jew gpoweg pokjg wrjg rj grj gjr g.
 2. Select the related link.
+3.  Save changes
