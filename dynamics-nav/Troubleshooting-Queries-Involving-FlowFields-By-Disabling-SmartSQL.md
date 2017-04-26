@@ -19,7 +19,7 @@ If the performance of loading a page that contains FlowFields in [!INCLUDE[nav_c
 Introduced in [!INCLUDE[nav_current_long_md](includes/nav_current_long_md.md)], SmartSQL optimization does all calculations of FlowFields on a page by using a single SQL query. This reduces the number of network roundtrips from the server to the database.
 
 ## How SmartSQL works
-To understand how SQLSmart optimization works, consider this example from the [!INCLUDE[demolonglight_md](includes/demolonglight_md.md)]. The database includes page **22 Customer List**, which has the following FlowFields:
+To understand how SmartSQL optimization works, consider this example from the [!INCLUDE[demolonglight_md](includes/demolonglight_md.md)]. The database includes page **22 Customer List**, which has the following FlowFields:
 -   Balance (LCY)
 -   Balance Due (LCY)
 -   Sales (LCY)
@@ -85,7 +85,7 @@ If you want to see the cost of each of these subqueries, you can disable the Sma
 
 Now, when loading the page, each FlowField calculation is performed as a separate SQL statement, which can be found either in an SQL trace or by using the Query Store feature in SQL Server 2016 (or later).
 
-Once the slow subquery has been identified, you can create an index to improve its performance (or enable the MaintainSIFTIndex property of the key, if it is disabled.)
+Once the slow subquery has been identified, you can create an index to improve its performance (or enable the MaintainSIFTIndex property of the key, if it is disabled).
 
 As you can see, poor performance might not be caused by the SmartSQL optimization. However, the fact that SmartSQL queries are not cached will only amplify the issue. It won’t help to customize the page or change the visibility of the field either. If a FlowField is contained in the metadata of the page, it will be calculated.
 
