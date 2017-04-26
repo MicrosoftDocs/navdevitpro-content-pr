@@ -31,7 +31,7 @@ This section describes all of the objects that are available with [!INCLUDE[navn
 |Learn about how to create new page objects for your extension.|[Page Object](newdev-page-object.md)|
 |Learn about how to modify and extend existing page objects. |[Page Extension Object](newdev-page-ext-object.md)|
 |Learn about how to create report objects|[Report Object](newdev-report-object.md)|
-|Learn about how to create xmlport objects|[XmlPort] Object](newdev-xmlport-object.md)|
+|Learn about how to create xmlport objects|[XmlPort Object](newdev-xmlport-object.md)|
 |Learn about how to create query objects|[Query Object](newdev-query-object.md)|
 
 ## Writing code
