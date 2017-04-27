@@ -15,10 +15,19 @@ author: jswymer
 # Tenant Exclusive Access
 -   Blocking callbacks to the client, such as .NET objects, Automation objects, and confirmation dialogs are not supported when tenant has acquired exclusive access..  
 
-1.  In the right corner, select the gear icon  ![Search](media/search.png "NAV\_Search") in the top jejf  fje f efe jew gpoweg pokjg wrjg rj grj gjr g.
-2. Select the related link.
 
-## test 2
-1.  In the right corner, select the gear icon  ![Search](media/search_small.png "Search for page or report") in the top jejf  fje f efe jew gpoweg pokjg wrjg rj grj gjr g.
-2. Select the related link.
-3.  Save changes
+## Current
+1. In the top right corner, choose the search icon ![Search](media/search_small.png "Search for page or report"), enter **FA G/L Journals**, and then choose the related link.  
+2. Create an initial journal line and fill in the fields as necessary.
+3. In the **FA Posting Type** field, select **Revaluation**.
+
+## Proposal 1:
+1. In the top right corner, choose the search icon ![Search](media/search_small.png "Search for page or report"), enter **FA G/L Journals**, and then choose the related link.  
+2. Create an initial journal line and fill in the fields as necessary.
+3. In the **FA Posting Type** field, select **Revaluation**.
+
+
+## Proposal 2:
+1. In the top right corner, choose the magnifying glass icon, enter **FA G/L Journals**, and then choose the related link.  
+2. Create an initial journal line and fill in the fields as necessary.
+3. In the **FA Posting Type** field, select **Revaluation**.
