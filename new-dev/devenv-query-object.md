@@ -28,13 +28,11 @@ Typing the shortcut ```tquery``` will create the basic layout for a Query object
 ## Query example
 The following example shows a query that displays a list of customers with sales and profit figures. The query primarily retrieves fields from the **Customer** table, but also displays fields from the **Salesperson Purchaser** and **Country Region** tables.
 
-The query also uses the DataItemLink property to create a link between the **Customer** table, **Salesperson Code** field and the **Salesperson Purchaser** table, **Code** fields and a link between the **Customer** table, ***Country/Region Code** field and the **Country/Region** table, **Code** field. 
+The query also uses the DataItemLink property to create a link between the **Customer** table, **Salesperson Code** field and the **Salesperson Purchaser** table, **Code** fields and a link between the **Customer** table, **Country/Region Code** field and the **Country/Region** table, **Code** field. 
 
 ```
 query 100 "Top Customer Overview"
 {
-  // version NAVW19.00
-
   CaptionML=ENU='Top Customer Overview';
 
   elements
