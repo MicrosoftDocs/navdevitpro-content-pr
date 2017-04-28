@@ -15,8 +15,7 @@ caps.latest.revision: 18
 ---
 
 ## The Txt2Al Conversion Tool
-
-The Txt2Al conversion tool allows you to take existing Dynamics NAV objects that have been exported in .txt format and convert them into the new .al format. Converting the objects consists of following two steps:
+The Txt2Al conversion tool allows you to take existing Dynamics NAV objects that have been exported in .txt format and convert them into the new .al format. The .al format is used when developing extensions for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. Converting the objects consists of following two steps:
 
 1. Exporting the objects from C/SIDE in a cleaned format.
 2. Converting the objects to the new syntax.
@@ -39,7 +38,7 @@ To run the Txt2Al conversion tool, follow the steps outlined below.
 |--type|The type of object to convert. Allowed values: Codeunit, Table, Page, Report, Query, XmlPort|
 |--help|Show help screen.|
 
-> NOTE: The conversion tool should only be used for export. Importing objects that have been exported can damage your application!
+> NOTE: It is recommended to only use the conversion tool for export. Importing objects that have been exported can damage your application.
 
 ## See Also
 [Developing Extensions Using the New Development Environment](newdev-dev-overview.md)  
