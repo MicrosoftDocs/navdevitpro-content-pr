@@ -35,6 +35,7 @@ From code, you have access to various snippets that will give you a template for
 |```tpage```| Page object structure|
 |```tpageext```| Page extension structure|
 |```tprocedure```| Function structure |
+|```tquery```| Query object structure | 
 |```trepeat```| Repeat until structure|
 |```treport```| Report object structure|
 |```ttable```| Table object structure|
@@ -42,3 +43,4 @@ From code, you have access to various snippets that will give you a template for
 |```ttrigger```| Trigger structure|
 |```twithdo```| With do structure|
 |```twhile```| While structure|
+|```txmport```| XMLport object structure|
