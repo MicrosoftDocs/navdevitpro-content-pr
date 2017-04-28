@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET BalanceSheet Method
+# GET Balance Sheet Method
 Retrieve the properties and relationships of a BalanceSheet report object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## HTTP request

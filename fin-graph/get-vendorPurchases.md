@@ -14,8 +14,8 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET VendorPurchases Method
-Retrieve the properties and relationships of a VendorPurchases report object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
+# GET Vendor Purchases Method
+Retrieve the properties and relationships of a vendorPurchases report object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
@@ -31,7 +31,7 @@ GET /financials/companies/{id}/vendorPurchases
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and VendorPurchases object in the response body.
+If successful, this method returns a ```200 OK``` response code and vendorPurchases object in the response body.
 
 ## Example
 
@@ -49,9 +49,9 @@ Here is an example of the response. Note: The response object shown here may be 
 ```json
 {
   "vendorId": "id-value",
-  "vendorNumber": "IC1020",
-  "name": "Cronus Cardoxy Sales",
-  "totalPurchaseAmount": 3641.96,
+  "vendorNumber": "10000",
+  "name": "Fabrikam, Inc.",
+  "totalPurchaseAmount": 21632.25,
   "dateFilter_FilterOnly": null
 }
 ```
