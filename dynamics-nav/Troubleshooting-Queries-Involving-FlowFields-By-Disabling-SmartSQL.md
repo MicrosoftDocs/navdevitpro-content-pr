@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting Long Running SQL Queries Involving FlowFields by Disabling SmartSQL"
+title: "Troubleshooting: Long Running SQL Queries Involving FlowFields by Disabling SmartSQL"
 author: jswymer
 ms.custom: na
 ms.date: 12/28/2016
@@ -11,7 +11,7 @@ ms.prod: "dynamics-nav-2017"
 ms.assetid: 014e3285-02be-459c-9a54-eae45ea71e04
 ---
 
-# Troubleshooting Long Running SQL Queries Involving FlowFields by Disabling SmartSQL
+# Troubleshooting: Long Running SQL Queries Involving FlowFields by Disabling SmartSQL
 
 If the performance of loading a page that contains FlowFields in [!INCLUDE[nav_current_long_md](includes/nav_current_long_md.md)] or later is bad, you might want to try isolating and testing FlowField queries separately. This article describes how to troubleshoot this scenario, and hopefully solve the problem.
 

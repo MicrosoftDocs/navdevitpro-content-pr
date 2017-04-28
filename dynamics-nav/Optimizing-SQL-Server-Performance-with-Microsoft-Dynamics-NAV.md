@@ -12,14 +12,22 @@ caps.latest.revision: 3
 author: jswymer
 ---
 # Optimizing SQL Server Performance with Microsoft Dynamics NAV
-This section describes how to optimize performance in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] when accessing data from the SQL Server database.  
+The following articles describe how to optimize performance in [!INCLUDE[navnowlong](includes/navnowlong_md.md)] when accessing data from the SQL Server database.  
+
+[Data Access](Data-Access.md)   
+
+[Table Keys and Performance](Table-Keys-and-Performance.md)   
+
+[Bulk Inserts](Bulk-Inserts.md)   
+
+[C/AL Database Functions and Performance on SQL Server](C-AL-Database-Functions-and-Performance-on-SQL-Server.md)   
+
+[Query Objects and Performance](Query-Objects-and-Performance.md)  
+
+[Troubleshooting: Long Running SQL Queries Involving FlowFields by Disabling SmartSQL](Troubleshooting-Queries-Involving-FlowFields-By-Disabling-SmartSQL.md)  
+
+[Troubleshooting: Using Query Store to Monitor Query Performance in Dynamics NAV](troubleshooting-query-performance-using-query-store.md)
 
 ## See Also  
- [Data Access](Data-Access.md)   
- [Table Keys and Performance](Table-Keys-and-Performance.md)   
- [Bulk Inserts](Bulk-Inserts.md)   
- [C/AL Database Functions and Performance on SQL Server](C-AL-Database-Functions-and-Performance-on-SQL-Server.md)   
- [Query Objects and Performance](Query-Objects-and-Performance.md)  
- [Troubleshooting Long Running SQL Queries Involving FlowFields by Disabling SmartSQL](Troubleshooting-Queries-Involving-FlowFields-By-Disabling-SmartSQL.md)  
  [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)   
  [Microsoft SQL Server documentation](http://go.microsoft.com/fwlink/?LinkId=253107)
