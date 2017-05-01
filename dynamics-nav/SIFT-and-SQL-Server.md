@@ -29,14 +29,13 @@ A SumIndexField is always associated with a key and each key can have a maximum 
 
 ```  
 CREATE VIEW GLEntry$VSIFT$1 AS
-SELECT SUM(Amount) as SUM$Amount,  
-AccountNo, PostingDate
+SELECT SUM(Amount) as SUM$Amount, AccountNo, PostingDate
 FROM GLEntry
-GROUP BY AccountNo,PostingDate*  
+GROUP BY AccountNo, PostingDate  
 ;
 
 CREATE UNIQUE CLUSTERED INDEX VSIFTIDX ON  
-GLEntry$VSIFT$1(AccountNo,PostingDate)*  
+GLEntry$VSIFT$1(AccountNo, PostingDate)  
 ;
 ```  
 
@@ -55,7 +54,7 @@ GLEntry.CALCSUMS(Amount);
 ```  
 SELECT SUM(SUM$Amount)
 FROM GLEntry$VSIFT$1 WITH(NOEXPAND)
-WHERE  AccountNo=?
+WHERE AccountNo=?
 AND PostingDate>=?
 AND PostingDate<=?  
 ```  

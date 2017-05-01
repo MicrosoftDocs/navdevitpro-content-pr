@@ -9,7 +9,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-ms.author: solsen
+ms.author: SusanneWindfeldPedersen
 ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 ---
 
@@ -21,7 +21,7 @@ Coming from the existing [!INCLUDE[nav_dev_long_md](includes/nav_dev_long_md.md)
 ## Data types
 |C/SIDE|New Development Environment|
 |------|---------------------------|
-|Dates are parsed based on culture settings.| Locale independent and supports only: ```ddmmyy``` and ```ddmmyyyy```.|
+|Dates are parsed based on culture settings.| Locale independent and supports only: ```yyyy-mm-ddD```.|
 |Boolean values could be expressed as **yes**/**no**.| Boolean values are expressed as **true**/**false**.|
 
 ## Syntax updates

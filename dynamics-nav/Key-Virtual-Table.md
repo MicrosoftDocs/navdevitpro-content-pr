@@ -13,9 +13,9 @@ manager: edupont
 ---
 # Key Virtual Table
 The **Key** virtual table contains information about the keys that are defined in each table in the database.  
-  
- The **Key** virtual table contains the following fields.  
-  
+
+The **Key** virtual table contains the following fields. These fields cannot be modified.
+
 |Field|Description|  
 |-----------|-----------------|  
 |**TableNo**|The ID number for the table.|  
@@ -24,12 +24,12 @@ The **Key** virtual table contains information about the keys that are defined i
 |**Key**|The fields that make up the key.|  
 |**SumIndexField**|The SumIndexFields that are defined for this key.|  
 |**SQLIndex**|The actual fields that have been defined in [!INCLUDE[nav_current_short](includes/nav_current_short_md.md)] and are used in the corresponding index on SQL Server instead of those defined in the key.|  
-|**Enabled**|Whether the index is enabled. This field can be modified.|  
-|**MaintainSQLIndex**|Whether the MaintainSQLIndex property has been activated. This field can be modified.|  
-|**MaintainSIFTIndex**|Whether the MaintainSIFTIndex property has been activated. This field can be modified.|  
-|**Clustered**|Whether the key is clustered. This field can be modified.|  
-  
+|**Enabled**|Whether the index is enabled.|  
+|**MaintainSQLIndex**|Whether the MaintainSQLIndex property has been activated.|  
+|**MaintainSIFTIndex**|Whether the MaintainSIFTIndex property has been activated.|  
+|**Clustered**|Whether the key is clustered.|  
+
  You must create a tabular-type page to access the **Key** virtual table. For more information, see [How to: Create a Page to View a Virtual Table](How-to--Create-a-Page-to-View-a-Virtual-Table.md).  
-  
+
 ## See Also  
  [Virtual Tables](Virtual-Tables.md)

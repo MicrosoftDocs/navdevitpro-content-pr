@@ -77,7 +77,9 @@ You can change the database property settings that you selected when you created
 
     -   From the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **Tools** menu, choose **Sync. Schema For All Tables**, and then choose **With Validation** and follow the schema synchronization instructions.  
 
-    -   From the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], open the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] as an administrator, and then run the [Sync-NavTenant cmdlet](http://go.microsoft.com/fwlink/?LinkID=401399). For more information, see [How to: Run the Sync-NAVTenant Cmdlet to Synchronize the Tenant Database with the Application Database](How-to--Run-the-Sync-NAVTenant-Cmdlet-to-Synchronize-the-Tenant-Database-with-the-Application-Database.md).  
+    -   From the [!INCLUDE[nav_shell](includes/nav_shell_md.md)], open the [!INCLUDE[nav_shell](includes/nav_shell_md.md)] as an administrator, and then run the [Sync-NavTenant cmdlet](http://go.microsoft.com/fwlink/?LinkID=401399).
+
+    For more information, see [How to: Synchronize the Tenant Database with the Application Database](How-to--Synchronize-the-Tenant-Database-with-the-Application-Database.md).  
 
 6.  Restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.  
 
