@@ -58,8 +58,8 @@ http://localhost:7048/DynamicsNAV/OData/Company('CRONUS International Ltd.')/Cus
 
 -   Numeric values require no delimiters.  
 <!-- Commented out due to bug http://vstfnav:8080/tfs/DYNAMICSNAV/Dynamics%20SMB/_workitems?id=210790&_a=edit
--   DateTime values must be delimited by single quotation marks and preceded by the word **datetime**, such as **datetime'2010-01-25T02:13:40.1374695Z'**.  
--->
+-   DateTime values must be delimited by single quotation marks and preceded by the word **datetime**, such as **datetime'2010-01-25T02:13:40.1374695Z'**.-->  
+
 For more information about data types and other information about conventions and standards for OData URIs, see [Atom Publishing Protocol: URI Conventions](http://go.microsoft.com/fwlink/?LinkId=214635). Conventions for data types are addressed in section 2.2.2, "Abstract Type System."  
 
 ## See Also  
