@@ -3,7 +3,7 @@ title: "Page Extension Properties Overview"
 description: "Description of the available properties on page extensions."
 author: SusanneWindfeldPedersen
 ms.custom: na
-ms.date: 04/28/2017
+ms.date: 05/02/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -21,17 +21,14 @@ This topic lists properties that apply to the [Page Extension Object](devenv-pag
 ## Page Object Properties
 The following properties apply to the page object.
 
-- [Caption Property](devenv-caption-property.md)
 - [CaptionML Property](devenv-captionml-property.md)
 - [DataCaptionExpression Property](devenv-datacaptionexpr-property.md)
-- [Description Property]()
-- [InstructionalTextML Property]()
-- [PromotedActionCategoriesML Property]()
+- [InstructionalTextML Property](devenv-instructionaltextml-property.md)
+- [PromotedActionCategoriesML Property](devenv-promotedactioncategoriesml-property.md)
 
 ## Container Control Properties
 The following properties apply to Container controls on a page.
 
-- Caption Property
 - CaptionML Property
 - ContainerType Property
 - Description Property
@@ -41,29 +38,28 @@ The following properties apply to Container controls on a page.
 ## Group Control Properties
 The following properties apply to Group controls on a page.
 
-- [CaptionML Property]()
-- [Enabled Property]()
-- [FreezeColumn Property]()
-- [InstructionalTextML Property]()
-- [Visible Property]()
+- [CaptionML Property](devenv-captionml-property.md)
+- [Enabled Property](devenv-enabled-property.md)
+- [FreezeColumn Property](devenv-freezecolumnid-property.md)
+- [InstructionalTextML Property](devenv-instructionaltextml-property.md)
+- [Visible Property](devenv-visible-property.md)
 
 ## Field Control Properties
 The following properties apply to Field controls on a page.
 
-
-- [ApplicationArea Property]()
+- [ApplicationArea Property](devenv-applicationarea-property.md)
 - [CaptionClass Property]()
-- [CaptionML Property]()
+- [CaptionML Property](devenv-captionml-property.md)
 - [ClosingDates Property]()
 - [Description Property]()
-- [Enabled Property]()
+- [Enabled Property](devenv-enabled-property.md)
 - [HideValue Property]()
 - [QuickEntry Property]()
 - [ShowCaption Property]()
 - [Style Property]()
 - [StyleExpr Property]()
 - [ToolTipML Property]()
-- [Visible Property]()
+- [Visible Property](devenv-visible-property.md)
 - [Width Property]()
 
 ## Part Control Properties
@@ -72,7 +68,7 @@ The following properties apply to Part controls on a page.
 - AccessByPermission Property
 - ApplicationArea Property
 - Caption Property
-- [CaptionML Property]()
+- [CaptionML Property](devenv-captionml-property.md)
 - ChartPartID Property
 - Description Property
 - Editable Property
@@ -86,31 +82,31 @@ The following properties apply to Part controls on a page.
 - SystemPartID Property 
 - ToolTip Property 
 - [ToolTipML Property]()
-- [Visible Property]()
+- [Visible Property](devenv-visible-property.md)
 
 ## ActionGroup Properties
 The following properties apply to ActionGroups.
 
-- [CaptionML Property]()
+- [CaptionML Property](devenv-captionml-property.md)
 . [ToolTipML Property]()
 - [Description Property]()
-- [Enabled Property]()
-- [Visible Property]()
+- [Enabled Property](devenv-enabled-property.md)
+- [Visible Property](devenv-visible-property.md)
 
 ## Action Properties
 The following properties apply to Actions.
 
 - [ApplicationArea Property]()
-- [CaptionML Property]()
+- [CaptionML Property](devenv-captionml-property.md)
 - [Description Property]()
-- [Enabled Property]()
+- [Enabled Property](devenv-enabled-property.md)
 - [InFooterBar Property]()
 - [Promoted Property]()
 - [PromotedCategory Property]()
 - [PromotedIsBig Property]()
 - [PromotedOnly Property]()
 - [ToolTipML Property]()
-- [Visible Property]()
+- [Visible Property](devenv-visible-property.md)
 
 ## Separator Properties
 The following property applies to Separators.
