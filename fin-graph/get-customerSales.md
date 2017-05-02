@@ -14,8 +14,8 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET CustomerSales Method
-Retrieve the properties and relationships of a CustomerSales report object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
+# GET Customer Sales Method
+Retrieve the properties and relationships of a customerSales report object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
@@ -31,7 +31,7 @@ GET /financials/companies/{id}/customerSales
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and CustomerSales object in the response body.
+If successful, this method returns a ```200 OK``` response code and customerSales object in the response body.
 
 ## Example
 
@@ -49,9 +49,9 @@ Here is an example of the response. Note: The response object shown here may be 
 ```json
 {
   "customerId": "id-value",
-  "customerNumber": "10000",
-  "name": "The Cannon Group PLC",
-  "totalSalesAmount": 17100.96,
+  "customerNumber": "50000",
+  "name": "Relecloud",
+  "totalSalesAmount": 83956.45,
   "dateFilter_FilterOnly": null  
 }
 ```

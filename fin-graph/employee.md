@@ -30,20 +30,20 @@ Represents an employee resource type in [!INCLUDE[d365fin_long_md](../dynamics-n
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |id|GUID|The employee ID. Read-Only.|
-|number|string, maximum size 20|The employee number. Read-Only.|
+|number|string|The employee number. Read-Only.|
 |displayName|string|The employee givenName + surname. Read-Only.|
-|givenName|string, maximum size 30|The given name of the employee.|
-|middleName|string, maximum size 30|The middle name of the employee.|
-|surname|string, maximum size 30|The surname of the employee|
-|jobTitle|string, maximum size 30|The full name of the employee|
+|givenName|string|The given name of the employee.|
+|middleName|string|The middle name of the employee.|
+|surname|string|The surname of the employee|
+|jobTitle|string|The full name of the employee|
 |address|[NAV.PostalAddress](complex-types.md)|Specifies the employee's address. This address will appear on all resource documents for the employee.|
-|phoneNumber|string, maximum size 30|Specifies the employee's telephone number.|
-|mobilePhone|string, maximum size 30|Specifies the employee's mobile telephone number.|
-|email|string, maximum size 80|Specifies the employee's email address.|
-|personalEmail|string, maximum size 80|Specifies the employee's personal email address.|
+|phoneNumber|string|Specifies the employee's telephone number.|
+|mobilePhone|string|Specifies the employee's mobile telephone number.|
+|email|string|Specifies the employee's email address.|
+|personalEmail|string|Specifies the employee's personal email address.|
 |employmentDate|date|Specifies the date when the employee began to work for the company.|
 |terminationDate|date|Specifies the date when the employee was terminated, due to retirement or dismissal, for example.|
-|birthDate|date|Specifies the employee's date of Birth.|
+|birthDate|date|Specifies the employee's date of birth.|
 |picture|stream|The employee picture. Read-Only.|
 |lastModifiedDateTime|datetime|The last datetime the employee was modified. Read-Only.|  
 

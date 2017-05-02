@@ -14,24 +14,24 @@ ms.date: 02/03/2017
 ms.author: solsen
 ---
 
-# BalanceSheet resource type
-Represents an balanceSheet resource type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
+# Balance Sheet resource type
+Represents a balanceSheet resource type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET BalanceSheet](get-balanceSheet.md)|BalanceSheet|Get a BalanceSheet object|
+|[GET balanceSheet](get-balanceSheet.md)|BalanceSheet|Get a BalanceSheet object|
 
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|lineNumber|numeric|The balanceSheet item line number. Read-Only.|
-|display|string, maximum size 250|The balanceSheet item display name. Read-Only.|
-|balance|numeric|The balanceSheet item balance. Read-Only|
-|lineType|string, maximum size 30|The balanceSheet item line type. Read-Only|
-|indentation|numeric|The balanceSheet item indentation. Read-Only|
-|dateFilter|date|The date filter used to calculate the balanceSheet items. Read-Only| 
+|lineNumber|numeric|The balanceSheet item line number.|
+|display|string|The balanceSheet item display name.|
+|balance|numeric|The balanceSheet item balance.|
+|lineType|string|The balanceSheet item line type can be: header, detail, total, or spacer.|
+|indentation|numeric|The balanceSheet item indentation used in report layout.|
+|dateFilter|date|The date filter used to calculate the balanceSheet items.| 
 
 
 ## Relationships

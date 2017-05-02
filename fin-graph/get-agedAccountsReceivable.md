@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET AgedAccountsReceivable Method
+# GET Aged Accounts Receivable Method
 Retrieve the properties and relationships of a AgedAccountsReceivable report object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## HTTP request
@@ -31,7 +31,7 @@ GET /financials/companies/{id}/agedAccountsReceivable
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and AgedAccountsReceivable object in the response body.
+If successful, this method returns a ```200 OK``` response code and agedAccountsReceivable object in the response body.
 
 ## Example
 
@@ -50,7 +50,7 @@ Here is an example of the response. Note: The response object shown here may be 
 {
   "customerId": "id-value",
   "customerNumber": "30000",
-  "name": "Cronus Cardoxy Sales",
+  "name": "Relecloud",
   "currencyCode": "USD",
   "before": 0,
   "period1": 349615.45,
