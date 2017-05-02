@@ -14,25 +14,25 @@ ms.date: 02/03/2017
 ms.author: solsen
 ---
 
-# TrialBalance resource type
+# Trial Balance resource type
 Represents an trialBalance resource type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET TrialBalance](get-trialBalance.md)|TrialBalance|Get a TrialBalance object|
+|[GET trialBalance](get-trialBalance.md)|TrialBalance|Get a TrialBalance object|
 
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|number|string, maximum size 20|The G/L Account number for the trialBalance item. Read-Only.|
-|display|string, maximum size 50|The G/L Account name for the trialBalance item. Read-Only.|
-|netChangeDebit|string, maximum size 30|Represents positive Net Change amount in G/L Account. Read-Only|
-|netChangeCredit|string, maximum size 30|Represents negative Net Change amount in G/L Account. Read-Only|
-|balanceAtDateDebit|string, maximum size 30|Represents positive Balance at Date amount in G/L Account. Read-Only|
-|balanceAtDateCredit|string, maximum size 30|Represents negative Balance at Date amount in G/L Account. Read-Only|
-|dateFilter|date|The date filter used to calculate the trialBalance items. Read-Only| 
+|number|string|The G/L Account number for the trialBalance item|
+|display|string|The G/L Account name for the trialBalance item.|
+|netChangeDebit|string|Represents positive Net Change amount in G/L Account.|
+|netChangeCredit|string|Represents negative Net Change amount in G/L Account.|
+|balanceAtDateDebit|string|Represents positive Balance at Date amount in G/L Account.|
+|balanceAtDateCredit|string|Represents negative Balance at Date amount in G/L Account.|
+|dateFilter|date|The date filter used to calculate the trialBalance items.| 
 
 
 ## Relationships
@@ -47,7 +47,7 @@ Here is a JSON representation of the resource.
 {
     "number": "string",
     "display": "string",
-    "netChangeDebit": "decstringimal",
+    "netChangeDebit": "string",
     "netChangeCredit": "string",
     "balanceAtDateDebit": "string",
     "balanceAtDateCredit": "string",

@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET RetainedEarningsStatement Method
+# GET Retained Earnings Statement Method
 Retrieve the properties and relationships of a RetainedEarningsStatement report object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## HTTP request
@@ -31,7 +31,7 @@ GET /financials/companies/{id}/retainedEarningsStatement
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and RetainedEarningsStatement object in the response body.
+If successful, this method returns a ```200 OK``` response code and retainedEarningsStatement object in the response body.
 
 ## Example
 
@@ -50,10 +50,10 @@ Here is an example of the response. Note: The response object shown here may be 
 {
   "lineNumber": 20000,
   "display": "Net Income",
-  "netChange": 23210.68,
+  "netChange": 77770.94,
   "lineType": "detail",
   "indentation": 0,
-  "dateFilter": "2020-12-31"   
+  "dateFilter": "2016-12-31"   
 }
 ```
 
