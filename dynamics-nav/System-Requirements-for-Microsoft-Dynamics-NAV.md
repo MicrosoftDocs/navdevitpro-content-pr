@@ -188,7 +188,8 @@ The following table shows the minimum system requirements for the [!INCLUDE[navn
 
 |||  
 |-|-|  
-|Additional software|-   Microsoft Dynamics CRM Online 2016, Microsoft Dynamics CRM Online 2016 Update 1, or Microsoft Dynamics CRM 2016. <br/>-   Microsoft Dynamics CRM Online 2015, Microsoft Dynamics CRM Online 2015 Update 1, or Microsoft Dynamics CRM 2015.|  
+|Additional software|-   Microsoft Dynamics CRM Online 2016, Microsoft Dynamics CRM Online 2016 Update 1, or Microsoft Dynamics CRM 2016. <br/>-   Microsoft Dynamics CRM Online 2015, Microsoft Dynamics CRM Online 2015 Update 1, or Microsoft Dynamics CRM 2015.|
+|Additional information|- Item Availability is not supported on Dynamics CRM 2015, versions Update 1 and Online.<BR/> You can obtain the item availability support by running the DynamicsNAVIntegrationSolution.zip file on the Dynanmics NAV 2016 product DVD.<BR/> For more information, see [How to: Prepare Dynamics CRM for Integration](How-to-prepare-Dynamics-CRM-for-Integration.md).      |  
 
 ##  <a name="SharePointApp"></a> Microsoft Dynamics NAV as an App for SharePoint Requirements  
  The following table shows the minimum system requirements for [!INCLUDE[navnow](includes/navnow_md.md)] as an App for SharePoint.  
