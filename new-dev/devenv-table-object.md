@@ -62,7 +62,7 @@ table 70000030 Address
     }
     keys
     {
-        key(1;PrimaryKey;Address)
+        key(PrimaryKey;Address)
         {
             Clustered=TRUE;
         }

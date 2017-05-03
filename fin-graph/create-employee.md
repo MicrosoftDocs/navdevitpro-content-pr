@@ -46,25 +46,22 @@ Content-type: application/json
 
 {
   "id": "id-value",
-  "number": "TS",
-  "givenName": "Timothy",
-  "middleName": "",
-  "surname": "Sneath",
+  "number": "AH",
+  "givenName": "Annette",
+  "surname": "Hill",
   "jobTitle": "Production Assistant",
   "address": {
-    "street": "66B James Road",
-    "city": "London",
+    "street": "677 Fifth Avenue",
+    "city": "New York",
     "state": "",
     "countryLetterCode": "",
-    "postalCode": "N12 5XY"
+    "postalCode": "10022"
   },
-  "phoneNumber": "0678-8712-5466",
-  "mobilePhone": "1234-6545-8799",
-  "email": "",
-  "personalEmail": "ts@cronus-demosite.com",
-  "employmentDate": "1996-03-01",
-  "terminationDate": "0001-01-01",
-  "birthDate": "1963-12-07",  
+  "phoneNumber": "4465-4899-4643",
+  "mobilePhone": "4564-4564-7831",
+  "personalEmail": "ah@cronus-demosite.com",
+  "employmentDate": "2001-06-01",
+  "birthDate": "1973-12-12"  
 }
 
 ```
@@ -79,28 +76,29 @@ Content-type: application/json
 
 {
   "id": "id-value",
-  "number": "TS",
-  "displayName": "Timothy Sneath",
-  "givenName": "Timothy",
+  "number": "AH",
+  "displayName": "Annette Hill",
+  "givenName": "Annette",
   "middleName": "",
-  "surname": "Sneath",
-  "jobTitle": "Production Assistant",
+  "surname": "Hill",
+  "jobTitle": "Secretary",
   "address": {
-    "street": "66B James Road",
-    "city": "London",
+    "street": "677 Fifth Avenue",
+    "city": "New York",
     "state": "",
     "countryLetterCode": "",
-    "postalCode": "N12 5XY"
+    "postalCode": "10022"
   },
-  "phoneNumber": "0678-8712-5466",
-  "mobilePhone": "1234-6545-8799",
+  "phoneNumber": "4465-4899-4643",
+  "mobilePhone": "4564-4564-7831",
   "email": "",
-  "personalEmail": "ts@cronus-demosite.com",
-  "employmentDate": "1996-03-01",
+  "personalEmail": "ah@cronus-demosite.com",
+  "employmentDate": "2001-06-01",
   "terminationDate": "0001-01-01",
-  "birthDate": "1963-12-07",
+  "status": "Active",
+  "birthDate": "1973-12-12",
   "picture@odata.mediaReadLink": "https://graph.microsoft.com/beta/financials/companies/{id}/employees/{id}/picture",
-  "lastModifiedDateTime": "2017-03-16T14:57:19.497Z"
+  "lastModifiedDateTime": "2017-03-16T14:57:19.497Z" 
 }
 
 ```
