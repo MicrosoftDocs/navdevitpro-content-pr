@@ -1,4 +1,5 @@
 ---
+title: GET Dimension Value method | Microsoft Docs
 description: Gets a dimension value.
 services: project-madeira
 documentationcenter: ''
@@ -13,7 +14,8 @@ ms.date: 03/08/2017
 ms.author: solsen
 ---
 
-# GET Sales Order Line Method
+# GET Dimension Value Method
+Retrieve the properties and relationships of a dimension value object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Prerequisites
 
@@ -32,6 +34,7 @@ GET /financials/companies/{id}/dimensions/{id}/dimensionValues{id}
 Do not supply a request body for this method.
 
 ## Response
+If successful, this method returns a ```200 OK``` response code and dimensionValue object in the response body.
 
 ## Example
 

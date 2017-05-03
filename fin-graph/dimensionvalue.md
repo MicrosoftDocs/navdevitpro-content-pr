@@ -14,6 +14,8 @@ ms.date: 03/02/2017
 ms.author: solsen
 ---
 
+# dimensionValue resource type
+Represents a dimensionValue resource type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Methods
 
