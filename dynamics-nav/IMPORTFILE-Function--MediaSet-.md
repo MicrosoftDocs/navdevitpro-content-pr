@@ -88,7 +88,7 @@ itemRec.Picture.IMPORTFILE('C:\images\1000-v1.jpg', 'Demo image for item ' + FOR
 itemRec.Picture.IMPORTFILE('C:\images\1000-v2.jpg', 'Demo image for item ' + FORMAT(itemRec."No."));
 count := (itemRec.Picture.COUNT);
 mediasetId := itemRec.Picture.MEDIAID;  
-MESSAGE(Text000,item."No.", count, mediasetId);   
+MESSAGE(Text000,itemRec."No.", count, mediasetId);   
 ```  
 If you run system table **2000000181 Tenant Media** from the  [!INCLUDE[nav_dev_short_md](includes/nav_dev_short_md.md)], you should see the new images in the list.  
 
