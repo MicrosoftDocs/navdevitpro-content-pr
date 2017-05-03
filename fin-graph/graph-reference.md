@@ -36,6 +36,16 @@ In this section, you can find API documentation for Microsoft Graph.
 |countriesRegions resource type|[countriesRegions](countriesregions.md)|
 |currencies resource type|[currencies](currencies.md)|
 |unitsOfMeasure resource type|[unitsOfMeasure](unitsofmeasure.md)|
+|balance sheet resource type|[balanceSheet](balanceSheet.md)|
+|trial balance resource type|[trialBalance](trialBalance.md)|
+|income statement resource type|[incomeStatement](incomeStatement.md)|
+|cash flow statement resource type|[cashFlowStatement](cashFlowStatement.md)|
+|aged accounts receivable resource type|[agedAccountsReceivable](agedAccountsReceivable.md)|
+|aged accounts payable resource type|[agedAccountsPayable](agedAccountsPayable.md)|
+|retained earnings statement resource type|[retainedEarningsStatement](retainedEarningsStatement.md)|
+|customer sales resource type|[customerSales](customerSales.md)|
+|vendor purchases resource type|[vendorPurchases](vendorPurchases.md)|
+|employee resource type|[employee](employee.md)|
 |complex types JSON|[Complex Types JSON](complex-types.md)|
 
 ## See Also

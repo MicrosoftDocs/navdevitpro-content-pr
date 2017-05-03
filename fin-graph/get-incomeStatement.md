@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET IncomeStatement Method
+# GET Income Statement Method
 Retrieve the properties and relationships of a IncomeStatement report object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## HTTP request
@@ -31,7 +31,7 @@ GET /financials/companies/{id}/incomeStatement
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and IncomeStatement object in the response body.
+If successful, this method returns a ```200 OK``` response code and incomeStatement object in the response body.
 
 ## Example
 
@@ -50,10 +50,10 @@ Here is an example of the response. Note: The response object shown here may be 
 {
   "lineNumber": 30000,
   "display": "Income, Product Sales",
-  "netChange": 82887.72,
+  "netChange": 483040.25,
   "lineType": "detail",
   "indentation": 1,
-  "dateFilter": "2020-12-31"     
+  "dateFilter": "2016-12-31"     
 }
 ```
 

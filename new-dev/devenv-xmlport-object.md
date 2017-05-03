@@ -139,6 +139,3 @@ xmlport 70000124 ExportPermissionSet {
 [Developer Reference](newdev-reference-overview.md)  
 [Page Extension Object](newdev-page-ext-object.md)  
 [Report Object](newdev-report-object.md)  
-[Pages](pages.md)  
-[Tables](tables.md)  
-[Page Properties](page-properties.md)
