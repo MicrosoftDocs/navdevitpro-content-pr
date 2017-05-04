@@ -14,24 +14,24 @@ ms.date: 02/03/2017
 ms.author: solsen
 ---
 
-# CashFlowStatement resource type
+# Cash Flow Statement resource type
 Represents an cashFlowStatement resource type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## Methods
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET CashFlowStatement](get-cashFlowStatement.md)|CashFlowStatement|Get a CashFlowStatement object|
+|[GET cashFlowStatement](get-cashFlowStatement.md)|CashFlowStatement|Get a CashFlowStatement object|
 
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|lineNumber|numeric|The cashFlowStatement item line number. Read-Only.|
-|display|string, maximum size 250|The cashFlowStatement item display name. Read-Only.|
-|netChange|numeric|The cashFlowStatement item Net Change. Read-Only|
-|lineType|string, maximum size 30|The cashFlowStatement item line type. Read-Only|
-|indentation|numeric|The cashFlowStatement item indentation. Read-Only|
-|dateFilter|date|The date filter used to calculate the cashFlowStatement items. Read-Only| 
+|lineNumber|numeric|The cashFlowStatement item line number.|
+|display|string|The cashFlowStatement item display name.|
+|netChange|numeric|The cashFlowStatement item Net Change.|
+|lineType|string|The cashFlowStatement item line type can be: header, detail, total, or spacer.|
+|indentation|numeric|The cashFlowStatement item indentation used in report layout.|
+|dateFilter|date|The date filter used to calculate the cashFlowStatement items.| 
 
 
 ## Relationships

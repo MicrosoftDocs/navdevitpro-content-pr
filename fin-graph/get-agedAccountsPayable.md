@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET AgedAccountsPayable Method
+# GET Aged Accounts Payable Method
 Retrieve the properties and relationships of a agedAccountsPayable report object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## HTTP request
@@ -49,15 +49,15 @@ Here is an example of the response. Note: The response object shown here may be 
 ```json
 {
   "vendorId": "id-value",
-  "vendorNumber": "IC1020",
-  "name": "Cronus Cardoxy Sales",
+  "vendorNumber": "50000",
+  "name": "Nod Publishers",
   "currencyCode": "USD",
   "before": 0,
   "period1": 0,
   "period2": 0,
   "period3": 0,
-  "after": -114357.45,
-  "balance": -114357.45,
+  "after": 17273.87,
+  "balance": 17273.87,
   "periodStartDateFilter": "2019-01-01",
   "periodLengthFilter": "3M"  
 }

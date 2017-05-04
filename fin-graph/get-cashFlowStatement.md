@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET CashFlowStatement Method
+# GET Cash Flow Statement Method
 Retrieve the properties and relationships of a CashFlowStatement report object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## HTTP request
@@ -31,7 +31,7 @@ GET /financials/companies/{id}/cashFlowStatement
 Do not supply a request body for this method.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and CashFlowStatement object in the response body.
+If successful, this method returns a ```200 OK``` response code and cashFlowStatement object in the response body.
 
 ## Example
 
@@ -48,12 +48,12 @@ Here is an example of the response. Note: The response object shown here may be 
 
 ```json
 {
-  "lineNumber": 40000,
-  "display": "Accounts Receivable",
-  "netChange": 158730.77,
-  "lineType": "detail",
+  "lineNumber": 90000,
+  "display": "Net Cash Provided by Operating Activities",
+  "netChange": 39133.89,
+  "lineType": "total",
   "indentation": 1,
-  "dateFilter": "2020-12-31"    
+  "dateFilter": "2016-12-31"    
 }
 ```
 

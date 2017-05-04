@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET TrialBalance Method
+# GET Trial Balance Method
 Retrieve the properties and relationships of a TrialBalance report object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
 
 ## HTTP request
@@ -49,10 +49,10 @@ Here is an example of the response. Note: The response object shown here may be 
 ```json
 {
   "number": "1110",
-  "display": "Land and Buildings",
+  "display": "Accounts Receivable",
   "netChangeDebit": "0.00",
   "netChangeCredit": "0.00",
-  "balanceAtDateDebit": "1,479,480.60",
+  "balanceAtDateDebit": "72,893.84",
   "balanceAtDateCredit": "0.00",
   "dateFilter": "2019-12-31"    
 }
