@@ -54,10 +54,10 @@ The following properties apply to Field controls on a page.
 - [Description Property]()
 - [Enabled Property](devenv-enabled-property.md)
 - [HideValue Property](devenv-hidevalue-property.md)
-- [QuickEntry Property]()
-- [ShowCaption Property]()
-- [Style Property]()
-- [StyleExpr Property]()
+- [QuickEntry Property](devenv-quickentry-property.md)
+- [ShowCaption Property](devenv-showcaption-property.md)
+- [Style Property](devenv-style-property.md)
+- [StyleExpr Property](devenv-styleexpr-property.md)
 - [ToolTipML Property]()
 - [Visible Property](devenv-visible-property.md)
 - [Width Property]()
@@ -72,15 +72,12 @@ The following properties apply to Part controls on a page.
 - ChartPartID Property
 - Description Property
 - Editable Property
-- Enabled Property
+- [Enabled Property](devenv-enabled-property.md)
 - ID Property
 - Name Property
 - PagePartID Property
 - PartType Property
-- ProviderID Property //
-- ShowFilter Property //
 - SystemPartID Property 
-- ToolTip Property 
 - [ToolTipML Property]()
 - [Visible Property](devenv-visible-property.md)
 
@@ -111,7 +108,7 @@ The following properties apply to Actions.
 ## Separator Properties
 The following property applies to Separators.
 
-- CaptionML Property
+- [CaptionML Property](devenv-captionml-property.md)
 
 ## See Also
 [Developing Extensions Using the New Development Environment](newdev-dev-overview.md)  
