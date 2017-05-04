@@ -53,7 +53,7 @@ The following properties apply to Field controls on a page.
 - [ClosingDates Property]()
 - [Description Property]()
 - [Enabled Property](devenv-enabled-property.md)
-- [HideValue Property]()
+- [HideValue Property](devenv-hidevalue-property.md)
 - [QuickEntry Property]()
 - [ShowCaption Property]()
 - [Style Property]()
