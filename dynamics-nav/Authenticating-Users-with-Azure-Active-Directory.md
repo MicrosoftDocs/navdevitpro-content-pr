@@ -88,7 +88,7 @@ You can configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance
 
 	[APP ID URI] is the ID that was assigned to the [!INCLUDE[navnow](includes/navnow_md.md)] application when it was registered in Azure AD, for example ```https://localhost/``` or ```https://CRONUSInternationLtd.onmicrosoft.com/Financials```.
 
-	[APP REPLY URL] is the reply URL that was assigned to the [!INCLUDE[navnow](includes/navnow_md.md)] application when it was registered in the Azure AD tenant. This parameter must point to the SignIn.aspx page of the [!INCLUDE[nav_web](includes/nav_web_md.md)], which in most cases, this is the same as the **Sign-On URL** for tha application. For example, ```https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV/WebClient/SignIn.aspx```. The wreply parameter is optional. The wreply query parameter tells the Azure AD authentication service where to send the authentication token. If you do not specify the wreply parameter, it will be deducted from the URL in the browser.
+	[APP REPLY URL] is the reply URL that was assigned to the [!INCLUDE[navnow](includes/navnow_md.md)] application when it was registered in the Azure AD tenant. This parameter must point to the SignIn.aspx page of the [!INCLUDE[nav_web](includes/nav_web_md.md)], which in most cases, this is the same as the **Sign-On URL** for the application. For example, ```https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV/WebClient/SignIn.aspx```. The wreply parameter is optional. The wreply query parameter tells the Azure AD authentication service where to send the authentication token. If you do not specify the wreply parameter, it will be deducted from the URL in the browser.
 
   >[!IMPORTANT]
   >The query string parameter must be URI-encoded. This means, for example, use "%26" instead of "&".
@@ -107,13 +107,17 @@ For more information see, [Configure Authentication of Dynamics NAV Web Client U
 ## Configure [!INCLUDE[nav_windows](includes/nav_windows_md.md)] for Azure AD  
  The [!INCLUDE[nav_windows](includes/nav_windows_md.md)] must also be configured to use AccessControlService as the credential type in order to support Azure AD. In addition, the **ACSUri** setting for Azure AD authentication must be set. The value should be that same as the **WS-Federation Login Endpoint** setting of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instances, except for the [App REPLY URL] parameter. The *ACSUri* setting has the following format:
 
-```https://login.windows.net/[AAD TENANT ID]/wsfed?wa=wsignin1.0%26wtrealm=[APP ID URI]%26wreply=[APP REPLY URL]```
+```
+https://login.windows.net/[AAD TENANT ID]/wsfed?wa=wsignin1.0%26wtrealm=[APP ID URI]%26wreply=[APP REPLY URL]
+```
 
 The [APP REPLY URL] parameter in the URL must be equal to the sign in page for the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], such as  ```https://dynamicsnavwinclient/```.  
 
 For example:
 
-```<add key="ACSUri" value="https://login.windows.net/CRONUSInternationLtd.onmicrosoft.com/wsfed?wa=wsignin1.0%26wtrealm=https://CRONUSInternationLtd.onmicrosoft.com/Financials%26wreply=http://dynamicsnavwinclient/" />```
+```
+<add key="ACSUri" value="https://login.windows.net/CRONUSInternationLtd.onmicrosoft.com/wsfed?wa=wsignin1.0%26wtrealm=https://CRONUSInternationLtd.onmicrosoft.com/Financials%26wreply=http://dynamicsnavwinclient/" />
+```
 
 ## Associate the Azure AD Accounts with the [!INCLUDE[navnow](includes/navnow_md.md)] User Accounts  
  Each user in your Azure AD tenant that will access [!INCLUDE[navnow](includes/navnow_md.md)] must be set up in [!INCLUDE[navnow](includes/navnow_md.md)]. For example, create the users with Windows authentication or with user name/password authentication, depending on your deployment scenario. But you must also specify an authentication email address on the **Office 365 Authentication** FastTab in the **User Card** window. The authentication email address is the email account for that user in your Azure AD tenant. When you combine this with the relevant configuration of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance, users achieve single sign-on when they access [!INCLUDE[nav_web](includes/nav_web_md.md)] from the SharePoint site, for example. For more information, see [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md).  
