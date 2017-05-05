@@ -29,11 +29,9 @@ The following properties apply to the page object.
 ## Container Control Properties
 The following properties apply to Container controls on a page.
 
-- CaptionML Property
-- ContainerType Property
-- Description Property
-- ID Property
-- Name Property
+- [CaptionML Property](devenv-captionml-property.md)
+- [ContainerType Property](devenv-containertype-property.md)
+- [Description Property](devenv-description-property.md)
 
 ## Group Control Properties
 The following properties apply to Group controls on a page.
@@ -48,61 +46,51 @@ The following properties apply to Group controls on a page.
 The following properties apply to Field controls on a page.
 
 - [ApplicationArea Property](devenv-applicationarea-property.md)
-- [CaptionClass Property]()
+- [CaptionClass Property](devenv-captionclass-property.md)
 - [CaptionML Property](devenv-captionml-property.md)
-- [ClosingDates Property]()
-- [Description Property]()
+- [ClosingDates Property](devenv-closingdates-property.md)
+- [Description Property](devenv-description-property.md)
 - [Enabled Property](devenv-enabled-property.md)
 - [HideValue Property](devenv-hidevalue-property.md)
 - [QuickEntry Property](devenv-quickentry-property.md)
 - [ShowCaption Property](devenv-showcaption-property.md)
 - [Style Property](devenv-style-property.md)
 - [StyleExpr Property](devenv-styleexpr-property.md)
-- [ToolTipML Property]()
+- [ToolTipML Property](devenv-tooltipml-property.md)
 - [Visible Property](devenv-visible-property.md)
-- [Width Property]()
+- [Width Property](devenv-width-property.md)
 
 ## Part Control Properties
 The following properties apply to Part controls on a page.
 
-- AccessByPermission Property
-- ApplicationArea Property
-- Caption Property
+- [ApplicationArea Property](devenv-applicationarea-property.md)
 - [CaptionML Property](devenv-captionml-property.md)
-- ChartPartID Property
-- Description Property
-- Editable Property
 - [Enabled Property](devenv-enabled-property.md)
-- ID Property
-- Name Property
-- PagePartID Property
-- PartType Property
-- SystemPartID Property 
-- [ToolTipML Property]()
+- [ToolTipML Property](devenv-tooltipml-property.md)
 - [Visible Property](devenv-visible-property.md)
 
 ## ActionGroup Properties
 The following properties apply to ActionGroups.
 
 - [CaptionML Property](devenv-captionml-property.md)
-. [ToolTipML Property]()
-- [Description Property]()
+. [ToolTipML Property](devenv-tooltipml-property.md)
+- [Description Property](devenv-description-property.md)
 - [Enabled Property](devenv-enabled-property.md)
 - [Visible Property](devenv-visible-property.md)
 
 ## Action Properties
 The following properties apply to Actions.
 
-- [ApplicationArea Property]()
+- [ApplicationArea Property](devenv-applicationarea-property.md)
 - [CaptionML Property](devenv-captionml-property.md)
-- [Description Property]()
+- [Description Property](devenv-description-property.md)
 - [Enabled Property](devenv-enabled-property.md)
-- [InFooterBar Property]()
-- [Promoted Property]()
-- [PromotedCategory Property]()
-- [PromotedIsBig Property]()
-- [PromotedOnly Property]()
-- [ToolTipML Property]()
+- [InFooterBar Property](devenv-infooterbar-property.md)
+- [Promoted Property](devenv-promoted-property.md)
+- [PromotedCategory Property](devenv-promotedcategory-property.md)
+- [PromotedIsBig Property](devenv-promotedisbig-property.md)
+- [PromotedOnly Property](devenv-promotedonly-property.md)
+- [ToolTipML Property](devenv-tooltipml-property.md)
 - [Visible Property](devenv-visible-property.md)
 
 ## Separator Properties

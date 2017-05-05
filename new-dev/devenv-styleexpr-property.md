@@ -1,7 +1,7 @@
 ---
 title: "StyleExpr Property"
 ms.custom: na
-ms.date: 06/05/2016
+ms.date: 05/03/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -12,7 +12,7 @@ caps.latest.revision: 18
 manager: edupont
 ---
 # StyleExpr Property
-Sets whether the format that is specified in the [Style Property](Style-Property.md) is applied to text in a field. For fields in a **CueGroup** control, this property is used to configure the color of the color indicator on the cue.  
+Sets whether the format that is specified in the [Style Property](devenv-style-property.md) is applied to text in a field. For fields in a **CueGroup** control, this property is used to configure the color of the color indicator on the cue.  
 
 > [!IMPORTANT]  
 >  This note pertains to backward compatibility only. If the property is set to Boolean true or false, it sets whether the format specified in the **Style** property is applied to text in a field.  
