@@ -68,22 +68,27 @@ You can configure the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance
 
 	The WS-federation login endpoint is the URL of the sign-on page that [!INCLUDE[navnow](includes/navnow_md.md)] redirects to when users sign on from a client. You must specify a URL in the following format:
 
-	```https://login.windows.net/[AAD TENANT ID]/wsfed?wa=wsignin1.0%26wtrealm=[APP ID URI]%26wreply=[APP REPLY URL]```
+	```
+    https://login.windows.net/[AAD TENANT ID]/wsfed?wa=wsignin1.0%26wtrealm=[APP ID URI]%26wreply=[APP REPLY URL]
+    ```
 
 	Example:
 
-	```https://login.windows.net/CRONUSInternationLtd.onmicrosoft.com/wsfed?wa=wsignin1.0%26wtrealm=https://CRONUSInternationLtd.onmicrosoft.com/Financials%26wreply=https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV/WebClient/SignIn.aspx```
+	```
+    https://login.windows.net/CRONUSInternationLtd.onmicrosoft.com/wsfed?wa=wsignin1.0%26wtrealm=https://CRONUSInternationLtd.onmicrosoft.com/Financials%26wreply=https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV/WebClient/SignIn.aspx
+    ```
 
 	Description:
 
-	```[AAD TENANT ID]``` is the ID of the Azure AD tenant, for example "CRONUSInternationLtd.onmicrosoft.com". To ensure that [!INCLUDE[navnow](includes/navnow_md.md)] redirects to the right sign-in page, substitute ```[AAD TENANT ID]``` with a value according to the following:
+	[AAD TENANT ID] is the ID of the Azure AD tenant, for example "CRONUSInternationLtd.onmicrosoft.com". To ensure that [!INCLUDE[navnow](includes/navnow_md.md)] redirects to the right sign-in page, substitute [AAD TENANT ID] with a value according to the following:
+
     - If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured for as a single tenant server instance, the value is typically the domain name for the Azure AD tenant, and the URL is similar to the example above.
     - If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured for multitenancy, and each [!INCLUDE[navnow](includes/navnow_md.md)] tenant corresponds to an Azure AD tenant that has a service principal, use ```{AADTENANTID}``` as the value. For example, ```https://login.windows.net/{AADTENANTID}/wsfed?wa=wsignin1.0%26wtrealm=...%26wreply=...```. [!INCLUDE[nav_server](includes/nav_server_md.md)] will automatically replace ```{AADTENANTID}``` with the correct Azure AD tenant.
-    - If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured as a multitenant instance and the corresponding [!INCLUDE[navnow](includes/navnow_md.md)] application in Azure AD has external access and configured as a multitenant application, substitute ```[AAD TENANT ID]``` with ```common```. Tenant ID parameter that is specified when mounting a tenant replaces the placeholder.
+    - If the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance is configured as a multitenant instance and the corresponding [!INCLUDE[navnow](includes/navnow_md.md)] application in Azure AD has external access and configured as a multitenant application, substitute [AAD TENANT ID] with ```common```. Tenant ID parameter that is specified when mounting a tenant replaces the placeholder.
 
-	```[APP ID URI]``` is the ID that was assigned to the [!INCLUDE[navnow](includes/navnow_md.md)] application when it was registered in Azure AD, for example ```https://localhost/``` or ```https://CRONUSInternationLtd.onmicrosoft.com/Financials```.
+	[APP ID URI] is the ID that was assigned to the [!INCLUDE[navnow](includes/navnow_md.md)] application when it was registered in Azure AD, for example ```https://localhost/``` or ```https://CRONUSInternationLtd.onmicrosoft.com/Financials```.
 
-	```[APP REPLY URL]``` is the reply URL that was assigned to the [!INCLUDE[navnow](includes/navnow_md.md)] application when it was registered in the Azure AD tenant. This parameter must point to the SignIn.aspx page of the [!INCLUDE[nav_web](includes/nav_web_md.md)], which in most cases, this is the same as the **Sign-On URL** for tha application. For example, ```https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV/WebClient/SignIn.aspx```. The wreply parameter is optional. The wreply query parameter tells the Azure AD authentication service where to send the authentication token. If you do not specify the wreply parameter, it will be deducted from the URL in the browser.
+	[APP REPLY URL] is the reply URL that was assigned to the [!INCLUDE[navnow](includes/navnow_md.md)] application when it was registered in the Azure AD tenant. This parameter must point to the SignIn.aspx page of the [!INCLUDE[nav_web](includes/nav_web_md.md)], which in most cases, this is the same as the **Sign-On URL** for tha application. For example, ```https://CRONUSInternationLtd.onmicrosoft.com/DynamicsNAV/WebClient/SignIn.aspx```. The wreply parameter is optional. The wreply query parameter tells the Azure AD authentication service where to send the authentication token. If you do not specify the wreply parameter, it will be deducted from the URL in the browser.
 
   >[!IMPORTANT]
   >The query string parameter must be URI-encoded. This means, for example, use "%26" instead of "&".
