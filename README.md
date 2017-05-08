@@ -7,19 +7,21 @@ For more information see the [Code of Conduct FAQ](https://opensource.microsoft.
 
 Welcome to the repository for the developer and itpro content for on-prem &amp; PaaS.
 
-All articles are stored as Markdown files (.md type) in the **dynamics-nav** folder. they publish to MSDN staging here: https://msdnstage.redmond.corp.microsoft.com/en-us/../how-to--publish-and-install-an-extension?branch=master. 
+All articles are stored as Markdown files (.md type) in the **dynamics-nav** folder. They publish to MSDN staging here: https://msdnstage.redmond.corp.microsoft.com/en-us/../how-to--publish-and-install-an-extension?branch=master. 
 
 ======================================
 ## Getting started with GitHub
 ### Set up your account
-1. Get a GitHub account.
-2. Link it to your work account at https://opensourcehub.microsoft.com.
+1. Get a GitHub account
+2. Link it to your work account at https://repos.opensource.microsoft.com/
+3. Join the MicrosoftDocs org at https://repos.opensource.microsoft.com/MicrosoftDocs
+4. Join the Everyone team here: https://repos.opensource.microsoft.com/microsoftdocs/teams/everyone
 
 ### Contributing
-You do not have write access to the master repo microsoft/navdevitpro-content-pr. Any changes that you make will go through UA first. This means that to make changes, you must commit the changes, and then create a pull request to include the changes. A writer (UA) will then review the pull request and pull the content into the master repo.
+You do not have write access to the master repo MicrosoftDocs/navdevitpro-content-pr. Any changes that you make will go through UA first. This means that to make changes, you must commit the changes, and then create a pull request to include the changes. A writer (UA) will then review the pull request and pull the content into the master repo.
 
 There are a few ways to work with the repo:
-- You can edit directly in the Microsoft/navdevitpro-content-pr repo on GitHub.com.
+- You can edit directly in the MicrosoftDocs/navdevitpro-content-pr repo on GitHub.com.
 
     This is the quickest way and is good for tech-review and small edits.
 - You can fork the repo and then work in the fork.
