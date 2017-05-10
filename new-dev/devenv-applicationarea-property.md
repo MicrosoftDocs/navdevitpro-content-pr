@@ -7,7 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.prod: "dynamics-nav-2017"
-author: jswymer
+author: SusanneWindfeldPedersen
 manager: edupont
 ---
 # ApplicationArea Property
@@ -32,11 +32,6 @@ Sets the application areas that apply to the control.
  This property is used together with the APPLICATIONAREA function to hide user interface elements.  
   
  If one or more application areas are enabled in a session, any controls that are not tagged with an application area will not appear in the user interface.  
-  
- You can get an overview of the application areas that are tagged on all controls of an object by displaying the **ApplicationArea** column in the designer.  
-  
-> [!NOTE]  
->  Currently, this property is intended for the application areas that are defined in **table 9178 Application Area Setup**. You can define your own application areas but the implementation might change in future release.  
-  
+   
 ## See Also  
  [APPLICATIONAREA Function](APPLICATIONAREA-Function.md)
