@@ -2,7 +2,7 @@
 title: "Enabled Property"
 author: edupont04
 ms.custom: na
-ms.date: 04/02/2017
+ms.date: 05/10/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
