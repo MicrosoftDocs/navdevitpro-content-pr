@@ -34,9 +34,9 @@ Represents an item resource type in Dynamics 365 for Financials.
 |displayName|string|Specifies a description of the item.|
 |type|numeric|The inventory type for the item. 1 = inventory item, 2 = service item. This is a required property.|
 |blocked|boolean|Specifies that transactions with the item cannot be posted, for example, because the item is in quarantine. Set to **True** if item is blocked.|
-|baseUnitOfMeasure|[NAV.UnitOfMeasure](../api/dynamics_complex_types.md)|Specifies the unit in which the item is held in inventory.|
+|baseUnitOfMeasure|[NAV.UnitOfMeasure](../resource_types/dynamics_complex_types.md)|Specifies the unit in which the item is held in inventory.|
 |gtin|numeric|This is the Global Trade Item Number.|
-|itemCategoryCode|[NAV.ItemCategory](../api/dynamics_complex_types.md)|Specifies the category that the item belongs to. Item categories also contain any assigned item attributes.|
+|itemCategoryCode|[NAV.ItemCategory](../resource_types/dynamics_complex_types.md)|Specifies the category that the item belongs to. Item categories also contain any assigned item attributes.|
 |inventory|decimal|Specifies how many units, such as pieces, boxes, or cans, of the item are in inventory. Read-Only.|
 |unitPrice|decimal|Specifies the price for one unit of the item in the specified currency.|
 |priceIncludesTax|boolean|Specifies that the unitPrice includes tax. Set to **True** if unitPrice includes tax.|
