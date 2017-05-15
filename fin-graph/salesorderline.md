@@ -47,7 +47,7 @@ Represents a salesOrderLine resource type in [!INCLUDE[d365fin_long_md](../dynam
 |taxPercent|numeric|The tax percent for the line. Read-Only.|
 |totalTaxAmount|numeric|The total tax amount for the line. Read-Only.|
 |amountIncludingTax|numeric|The total amount for the line including tax. Read-Only.|
-|orderDiscountAllocation|numeric|The order discount allocation is the order discount distributed on the total amount. Read-Only.|
+|invoiceDiscountAllocation|numeric|The invoice discount allocation is the order discount distributed on the total amount. Read-Only.|
 |netAmount|numeric|The net amount is the amount including all discounts (taken from order header). Read-Only.|
 |netTaxAmount|numeric|The net tax amount is the tax amount calculated from net amount. Read-Only.|
 |netAmountIncludingTax|numeric|The net amount including tax is the total net amount including tax. Read-Only.|
@@ -92,7 +92,7 @@ Here is a JSON representation of the resource.
       "taxPercent": decimal,
       "totalTaxAmount": decimal,
       "amountIncludingTax": decimal,
-      "orderDiscountAllocation": decimal,
+      "invoiceDiscountAllocation": decimal,
       "netAmount": decimal,
       "netTaxAmount": decimal,
       "netAmountIncludingTax": decimal,
