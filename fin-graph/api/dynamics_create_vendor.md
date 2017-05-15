@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # POST Vendor Method
-Create a vendor in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
+Create a vendor in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```

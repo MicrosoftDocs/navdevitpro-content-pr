@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # GET IRS 1099 Code Method
-Retrieve the properties and relationships of a irs1099Codes object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
+Retrieve the properties and relationships of a irs1099Codes object for [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
 
 ## HTTP request
 

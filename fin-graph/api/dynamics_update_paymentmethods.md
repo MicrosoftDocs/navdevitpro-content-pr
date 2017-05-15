@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # PATCH Payment Method Method
-Update the properties of a paymentMethods object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
+Update the properties of a paymentMethods object for [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```

@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # GET Sales Order Line Method
-Retrieve the properties and relationships of a sales order line object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
+Retrieve the properties and relationships of a sales order line object for [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
 
 ## Prerequisites
 

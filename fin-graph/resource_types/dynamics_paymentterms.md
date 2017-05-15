@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Payment Terms resource type
-Represents a paymentTerms resource type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
+Represents a paymentTerms resource type in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
 
 ## Methods
 

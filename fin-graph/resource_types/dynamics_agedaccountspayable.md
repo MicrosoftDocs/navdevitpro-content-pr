@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Aged Accounts Payable resource type
-Represents an agedAccountsPayable resource type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
+Represents an agedAccountsPayable resource type in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
 
 ## Methods
 

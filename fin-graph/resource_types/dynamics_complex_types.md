@@ -15,11 +15,11 @@ ms.author: solsen
 ---
 
 # Complex Types JSON
-These are the various complex types in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)]. You can see usage of these complex types in the various individual methods that make use of them.
+These are the various complex types in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)]. You can see usage of these complex types in the various individual methods that make use of them.
 
 # Item Category
 
-Represents an Item Category complex type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
+Represents an Item Category complex type in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
 ```json
 "ItemCategory" 
 { 
@@ -30,7 +30,7 @@ Represents an Item Category complex type in [!INCLUDE[d365fin_long_md](../dynami
 
 # Unit of Measure
 
-Represents a Unit of Measure complex type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].       
+Represents a Unit of Measure complex type in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].       
 ```json
 "UnitOfMeasure" 
 {  
@@ -43,7 +43,7 @@ Represents a Unit of Measure complex type in [!INCLUDE[d365fin_long_md](../dynam
 
 # Unit of Measure Conversion
 
-Represents a Unit of Measure Conversion complex type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].       
+Represents a Unit of Measure Conversion complex type in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].       
 ```json
 "ItemUnitOfMeasureConversion" 
 { 
@@ -54,7 +54,7 @@ Represents a Unit of Measure Conversion complex type in [!INCLUDE[d365fin_long_m
 
  # Payment Method
 
-Represents a Payment Method complex type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].       
+Represents a Payment Method complex type in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].       
 
 ```json
 "PaymentMethod" 
@@ -66,7 +66,7 @@ Represents a Payment Method complex type in [!INCLUDE[d365fin_long_md](../dynami
 
  # Payment Terms
 
-Represents a Payment Terms complex type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].       
+Represents a Payment Terms complex type in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].       
 ```json
 "PaymentTermsType" 
 { 
@@ -77,7 +77,7 @@ Represents a Payment Terms complex type in [!INCLUDE[d365fin_long_md](../dynamic
 
  # Postal Address
 
-Represents a Postal Address complex type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].       
+Represents a Postal Address complex type in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].       
 ```json
 "PostalAddress" 
 { 
@@ -91,7 +91,7 @@ Represents a Postal Address complex type in [!INCLUDE[d365fin_long_md](../dynami
 
  # Shipment Method
 
-Represents a Shipment Method complex type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].       
+Represents a Shipment Method complex type in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].       
 ```json
 "ShipmentMethod" 
 { 
@@ -102,7 +102,7 @@ Represents a Shipment Method complex type in [!INCLUDE[d365fin_long_md](../dynam
 
 # Line Details
 
-Represents a Line Details complex type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].       
+Represents a Line Details complex type in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].       
 ```json
 "documentLineObjectDetails" 
 { 

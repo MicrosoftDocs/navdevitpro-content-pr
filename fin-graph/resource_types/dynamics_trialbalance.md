@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Trial Balance resource type
-Represents an trialBalance resource type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
+Represents an trialBalance resource type in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
 
 ## Methods
 

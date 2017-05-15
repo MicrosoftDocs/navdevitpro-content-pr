@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # POST Item Category Method
-Create an itemCategories in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
+Create an itemCategories in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```

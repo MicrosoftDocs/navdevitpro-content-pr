@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # PATCH Item Method
-Update the properties of an item object for [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
+Update the properties of an item object for [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```

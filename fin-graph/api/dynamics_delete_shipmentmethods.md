@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # DELETE Shipment Method Method
-Delete a shipmentMethods from [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
+Delete a shipmentMethods from [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```

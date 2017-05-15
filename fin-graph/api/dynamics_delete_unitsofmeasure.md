@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # DELETE Unit of Measure Method
-Delete an unitsOfMeasure from [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
+Delete an unitsOfMeasure from [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```

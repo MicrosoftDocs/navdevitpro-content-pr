@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Cash Flow Statement resource type
-Represents an cashFlowStatement resource type in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
+Represents an cashFlowStatement resource type in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
 
 ## Methods
 

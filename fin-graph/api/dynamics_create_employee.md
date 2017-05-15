@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # POST Employee Method
-Create an employee in [!INCLUDE[d365fin_long_md](../dynamics-nav/includes/d365fin_long_md.md)].
+Create an employee in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
 
 ## HTTP request
 ```
