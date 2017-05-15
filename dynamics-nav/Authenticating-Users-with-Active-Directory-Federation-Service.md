@@ -13,7 +13,7 @@ author: jswymer
 # Authenticating Users with Active Directory Federation Services
 **Applies** to: [!INCLUDE[navcrete_md](includes/navcrete_md.md)] (Cummulative Update 14 and later), [!INCLUDE[navcorfu_md](includes/navcorfu_md.md)] (Cummulative Update 2 and later),  [!INCLUDE[nav2017](includes/nav2017.md)]
 
-[!INCLUDE[navnow](includes/navnow_md.md)] supports Active Directory Federation Services (AD FS) authentication for authenticating users, without having to use the Access Control Service (ACS). This article contains a walkthrough on how to set AD FS authentication in AD FS Management console, and how to configure it in [!INCLUDE[navnow](includes/navnow_md.md)].
+[!INCLUDE[navnow](includes/navnow_md.md)] supports Active Directory Federation Services (AD FS) authentication for authenticating users, without having to use the Access Control Service (ACS). This article walks you through the steps about how to set up AD FS authentication in AD FS Management console, and then how to configure it in [!INCLUDE[navnow](includes/navnow_md.md)].
 
 >[!Note]
 >The steps in this article are based on using the AD FS version on Windows Server 2016, but should also work with earlier versions of AD FS. Be aware that some dialog box references in the steps might be slightly different in earlier versions of AD FS.
@@ -54,10 +54,10 @@ You must complete these steps separately for [!INCLUDE[nav_web_md](includes/nav_
     This assumes that the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] is running https.
 7.  In the **Configure URL** step, select the **Enable support for the WS-federation Passive protocol** check box, and then in **Relying party WS-Federation Passive Control URL** field, enter the URL for the [!INCLUDE[navnow](includes/navnow_md.md)] client according to the following:
 
-    -    If you are setting up AD FS for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)], set this to the full URL for the Web client. This typically has the format  *https://[web-server-computer]:[port]/[web-instance]/WebClient*, such as *https://MyWebServer:8080/DynamicsNAV100/WebClient*.
+    -    If you are setting up AD FS for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)], set this to the full URL for the Web client. The URL typically has the format  *https://[web-server-computer]:[port]/[web-instance]/WebClient*, such as *https://MyWebServer:8080/DynamicsNAV100/WebClient*.
     -   If you are setting up AD FS for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], use base URL for the Web client, which is the full URL without the */[web-instance]/WebClient* part. This typically has the format  *https://[web-server-computer]:[port]/[web-instance]*, such as *https://MyWebServer:8080*.
 
-    Then, choose **Next** to continue.
+    Choose **Next** to continue.
 
     >[!Note]
     >This is the URL to which AD FS will be allowed to issue authentication tokens.
@@ -67,7 +67,7 @@ You must complete these steps separately for [!INCLUDE[nav_web_md](includes/nav_
     -   If you are setting up AD FS for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)], add the URL: *https://dynamicsnavwebclient*.
     -   If you are setting up AD FS for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], add the URL: *https://dynamicsnavwinclient*.
 
-    Then, choose **Next** to continue.
+    Choose **Next** to continue.
 
     >[!Important]
     >This is the URL which is used to identify the relying party, and it has to be unique for the AD FS setup. This URL will be used as the **wtrealm** parameter in the **WSFederationLoginEndpoint** setting of the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance configuration (CustomSettings.config file).
