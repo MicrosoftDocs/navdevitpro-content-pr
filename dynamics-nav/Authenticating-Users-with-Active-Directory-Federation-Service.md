@@ -39,7 +39,7 @@ Your deployment must meet the following prerequisites:
 ## Configure AD FS to allow Dynamics NAV authentication
 These steps are done by using the AD FS Management console on the server where AD FS is running.
 
-## Set up a Relying Party Trust for the Dynamics NAV client
+### Set up a Relying Party Trust for the Dynamics NAV client
 You must complete these steps separately for [!INCLUDE[nav_web_md](includes/nav_web_md.md)] and [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)].
 
 1.  Open **Server Manager** on the computer that is running AD FS, and the choose **AD FS** to start **AD FS Management**.
@@ -112,7 +112,7 @@ Based on whether you will be using SAML tokens or JSON Web Tokens (JWT), which a
 4. Repeat steps 1 to 3 to add another rule, except this time, set the **Claim rule name** to ```objectidentifier```, the **Incoming claim type** to ```Primary SID```, and the **Outgoing claim type** to:
 
     ```
-    http://schemas.microsoft.com/identity/claims/objectidentifier*
+    http://schemas.microsoft.com/identity/claims/objectidentifier
     ```
 
     Choose **OK** when done.
@@ -137,14 +137,14 @@ JWT tokens are not supported by AD FS 2.0 or [!INCLUDE[navcrete_md](includes/nav
 6.  Start Window Powershell, and run the following command to define the token type for the relying party to be JWT:
 
     ```
-    Set-ADFSRelyingPartyTrust –TargetIdentifier “Web Client URL” –EnableJWT $true
+    Set-ADFSRelyingPartyTrust –TargetIdentifier "Web Client URL" –EnableJWT $true
     ```
 
 ## Configure Dynamics NAV to use AD FS authentication
 To setup  [!INCLUDE[navnow_md](includes/navnow_md.md)] for ADFS authentication, you must modify the configuration of the [!INCLUDE[nav_server](includes/nav_server_md.md)], [!INCLUDE[nav_web_md](includes/nav_web_md.md)], and [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)]s.
 
 ### Dynamics NAV Server instance setup
-The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configured to allow claims based authentication. You can do this by using the [!INCLUDE[nav_admin_md](includes/nav_admin_md.md)], the [Set-NAVServerConfiguration cmdlet]((/dynamics-nav/Microsoft.Dynamics.Nav.Management/Set-NAVServerConfiguration.md) in the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)], or by modifying the server instance's CustomSettings.config file directly.
+The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configured to allow claims based authentication. You can do this by using the [!INCLUDE[nav_admin_md](includes/nav_admin_md.md)], the [Set-NAVServerConfiguration cmdlet](Microsoft.Dynamics.Nav.Management/Set-NAVServerConfiguration.md) in the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)], or by modifying the server instance's CustomSettings.config file directly.
 
 1.  Set the **Credential Type** (ClientServicesCredentialType) to ```NavUserPassword``` or ```AccessControlService```.
     -   If you set this to ```NavUserPassword```, client users can use either NavUserPassword or claims based authentication to access [!INCLUDE[navnow](includes/navnow_md.md)]. The CustomSetting.config file should include the following line:
@@ -191,7 +191,7 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configure
 4.  Restart the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.
 
     >[!TIP]
-    >You can use the [Set-NAVServerInstance cmdlet](/dynamics-nav/Microsoft.Dynamics.Nav.Management/Set-NAVServerInstance.md) to restart the service instance.
+    >You can use the [Set-NAVServerInstance cmdlet](Microsoft.Dynamics.Nav.Management/Set-NAVServerInstance.md) to restart the service instance.
 
 ### Dynamics NAV Web Client setup
 You configure the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] by modifying it's web.config file.
@@ -215,7 +215,7 @@ You configure the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] by modifying it
 The configuration changes are automatically picked up by the Internet Information Service (IIS).
 
 >[!TIP]
->Instead of reconfiguring the existing web client, consider using the [New-NAVWebServerInstance cmdlet](/dynamics-nav/Microsoft.Dynamics.Nav.Management/New-NAVWebServerInstance.md) in the Dynamics NAV Administration Shell to add an additional web client instance, and leave the existing instance running NavUserPassword authentication.
+>Instead of reconfiguring the existing web client, consider using the [New-NAVWebServerInstance cmdlet](Microsoft.Dynamics.Nav.Management/New-NAVWebServerInstance.md) in the Dynamics NAV Administration Shell to add an additional web client instance, and leave the existing instance running NavUserPassword authentication.
 
 ### Dynamic NAV Windows client setup (optional)
 You configure the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] by modifying the ClientUserSettings.config file for each client installation.
