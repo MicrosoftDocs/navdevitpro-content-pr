@@ -21,7 +21,7 @@ Represents an agedAccountsReceivable resource type in [!INCLUDE[d365fin_long_md]
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET agedAccountsReceivable](get-agedAccountsReceivable.md)|AgedAccountsReceivable|Get AgedAccountsReceivable object|
+|[GET agedAccountsReceivable](dynamics_get_agedaccountsreceivable.md)|AgedAccountsReceivable|Get AgedAccountsReceivable object|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -66,4 +66,4 @@ Here is a JSON representation of the resource.
 
 ```
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

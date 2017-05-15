@@ -21,7 +21,7 @@ Represents an cashFlowStatement resource type in [!INCLUDE[d365fin_long_md](../d
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET cashFlowStatement](get-cashFlowStatement.md)|CashFlowStatement|Get a CashFlowStatement object|
+|[GET cashFlowStatement](dynamics_get_cashflowstatement.md)|CashFlowStatement|Get a CashFlowStatement object|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -31,7 +31,7 @@ Represents an cashFlowStatement resource type in [!INCLUDE[d365fin_long_md](../d
 |netChange|numeric|The cashFlowStatement item Net Change.|
 |lineType|string|The cashFlowStatement item line type can be: header, detail, total, or spacer.|
 |indentation|numeric|The cashFlowStatement item indentation used in report layout.|
-|dateFilter|date|The date filter used to calculate the cashFlowStatement items.| 
+|dateFilter|date|The date filter used to calculate the cashFlowStatement items.|
 
 
 ## Relationships
@@ -54,4 +54,4 @@ Here is a JSON representation of the resource.
 
 ```
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

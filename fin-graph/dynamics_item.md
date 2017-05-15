@@ -21,10 +21,10 @@ Represents an item resource type in [!INCLUDE[d365fin_long_md](../dynamics-nav/i
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET item](get-item.md)|item|Get item.|
-|[POST item](create-item.md)|item|Create item.|
-|[PATCH item](update-item.md)|item|Update item.|
-|[DELETE item](delete-item.md)|none|Delete item.|
+|[GET item](dynamics_get_item.md)|item|Get item.|
+|[POST item](dynamics_create_item.md)|item|Create item.|
+|[PATCH item](dynamics_update_item.md)|item|Update item.|
+|[DELETE item](dynamics_delete_item.md)|none|Delete item.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -74,4 +74,4 @@ Here is a JSON representation of the resource.
 ```
 
 ## See also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

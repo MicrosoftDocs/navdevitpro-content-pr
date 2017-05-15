@@ -21,7 +21,7 @@ Represents a dimensionValue resource type in [!INCLUDE[d365fin_long_md](../dynam
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET Dimension Value](get-dimensionValue.md)|Dimension Value|Get Dimension Value object|
+|[GET Dimension Value](dynamics_get_dimensionvalue.md)|Dimension Value|Get Dimension Value object|
 
 
 ## Properties
@@ -49,4 +49,4 @@ Here is a JSON representation of the resource.
 ```
 
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

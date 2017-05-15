@@ -21,10 +21,10 @@ Represents a paymentTerms resource type in [!INCLUDE[d365fin_long_md](../dynamic
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET paymentTerms](get-paymentterms.md)|paymentTerms|Get a Payment Terms.|
-|[POST paymentTerms](create-paymentterms.md)|paymentTerms|Create a Payment Terms.|
-|[PATCH paymentTerms](update-paymentterms.md)|paymentTerms|Update a Payment Terms.|
-|[DELETE paymentTerms](delete-paymentterms.md)|none|Delete a Payment Terms.|
+|[GET paymentTerms](dynamics_get_paymentterms.md)|paymentTerms|Get a Payment Terms.|
+|[POST paymentTerms](dynamics_create_paymentterms.md)|paymentTerms|Create a Payment Terms.|
+|[PATCH paymentTerms](dynamics_update_paymentterms.md)|paymentTerms|Update a Payment Terms.|
+|[DELETE paymentTerms](dynamics_delete_paymentterms.md)|none|Delete a Payment Terms.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -62,4 +62,4 @@ Here is a JSON representation of the paymentTerms.
 ```
 
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

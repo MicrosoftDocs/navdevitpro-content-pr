@@ -72,4 +72,4 @@ Content-type: application/json
 
 
 ## See Also
-[Microsoft Graph Reference](graph-reference.md)  
+[Microsoft Graph Reference](dynamics_graph_reference.md)  

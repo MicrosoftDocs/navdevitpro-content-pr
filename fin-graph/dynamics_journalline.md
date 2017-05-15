@@ -21,10 +21,10 @@ Represents a journalLine resource type in [!INCLUDE[d365fin_long_md](../dynamics
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET journalLine](get-journalline.md)|journalLines|Get Journal Line.|
-|[POST journalLine](create-journalline.md)|journalLines|Create Journal Line.|
-|[PATCH journalLine](update-journalline.md)|journalLines|Update Journal Line.|
-|[DELETE journalLine](delete-journalline.md)|none|Delete Journal Line.|
+|[GET journalLine](dynamics_get_journalline.md)|journalLines|Get Journal Line.|
+|[POST journalLine](dynamics_create_journalline.md)|journalLines|Create Journal Line.|
+|[PATCH journalLine](dynamics_update_journalline.md)|journalLines|Update Journal Line.|
+|[DELETE journalLine](dynamics_delete_journalline.md)|none|Delete Journal Line.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -71,4 +71,4 @@ Here is a JSON representation of the resource.
 ```
 
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

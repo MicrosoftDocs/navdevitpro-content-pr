@@ -21,10 +21,10 @@ Represents a salesOrderLine resource type in [!INCLUDE[d365fin_long_md](../dynam
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET Sales Order Line](get-salesorderline.md)|Sales Order Line|Get Sales Order Line object|
-|[POST Sales Order Line](create-salesorderline.md)|Sales Order Line|Create Sales Order Line object|
-|[PATCH Sales Order Line](update-salesorderline.md)|Sales Order Line|Update Sales Order Line object|
-|[DELETE Sales Order Line](delete-salesorderline.md)|none|Delete Sales Order Line object|
+|[GET Sales Order Line](dynamics_get_salesorderline.md)|Sales Order Line|Get Sales Order Line object|
+|[POST Sales Order Line](dynamics_create_salesorderline.md)|Sales Order Line|Create Sales Order Line object|
+|[PATCH Sales Order Line](dynamics_update_salesorderline.md)|Sales Order Line|Update Sales Order Line object|
+|[DELETE Sales Order Line](dynamics_delete_salesorderline.md)|none|Delete Sales Order Line object|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -56,7 +56,7 @@ Represents a salesOrderLine resource type in [!INCLUDE[d365fin_long_md](../dynam
 |invoicedQuantity|numeric|The quantity of items from the order already invoiced.|
 |invoiceQuantity|numeric|The quantity of items from the order to be invoiced.|
 |shipQuantity|numeric|The quantity of items from the order to be shipped.|
-      
+
 ## Relationships
 A Sales Order (documentId) must exist in the Sales Orders table.
 
@@ -107,4 +107,4 @@ Here is a JSON representation of the resource.
 ```
 
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

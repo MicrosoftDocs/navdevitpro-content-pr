@@ -21,10 +21,10 @@ Represents a vendor resource type in [!INCLUDE[d365fin_long_md](../dynamics-nav/
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET vendor](get-vendor.md)|vendor|Get a vendor.|
-|[POST vendor](create-vendor.md)|vendor|Create a vendor.|
-|[PATCH vendor](update-vendor.md)|vendor|Update a vendor.|
-|[DELETE vendor](delete-vendor.md)|none|Delete a vendor.|
+|[GET vendor](dynamics_get_vendor.md)|vendor|Get a vendor.|
+|[POST vendor](dynamics_create_vendor.md)|vendor|Create a vendor.|
+|[PATCH vendor](dynamics_update_vendor.md)|vendor|Update a vendor.|
+|[DELETE vendor](dynamics_delete_vendor.md)|none|Delete a vendor.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -77,4 +77,4 @@ Here is a JSON representation of the vendor.
 ```
 
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

@@ -21,10 +21,10 @@ Represents a irs1099Codes resource type in [!INCLUDE[d365fin_long_md](../dynamic
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET irs1099Codes](get-irs1099.md)|irs1099Codes|Get a Payment Terms.|
-|[POST irs1099Codes](create-irs1099.md)|irs1099Codes|Create a Payment Terms.|
-|[PATCH irs1099Codes](update-irs1099.md)|irs1099Codes|Update a Payment Terms.|
-|[DELETE irs1099Codes](delete-irs1099.md)|none|Delete a Payment Terms.|
+|[GET irs1099Codes](dynamics_get_irs1099.md)|irs1099Codes|Get a Payment Terms.|
+|[POST irs1099Codes](dynamics_create_irs1099.md)|irs1099Codes|Create a Payment Terms.|
+|[PATCH irs1099Codes](dynamics_update_irs1099.md)|irs1099Codes|Update a Payment Terms.|
+|[DELETE irs1099Codes](dynamics_delete_irs1099.md)|none|Delete a Payment Terms.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -56,4 +56,4 @@ Here is a JSON representation of the irs1099Codes.
 ```
 
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

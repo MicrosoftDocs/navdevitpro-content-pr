@@ -21,10 +21,10 @@ Represents a customerPayment resource type in [!INCLUDE[d365fin_long_md](../dyna
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET customerPayment](get-customerpayment.md)|customerPayments|Get Customer Payment.|
-|[POST customerPayment](create-customerpayment.md)|customerPayments|Create Customer Payment.|
-|[PATCH customerPayment](update-customerpayment.md)|customerPayments|Update Customer Payment.|
-|[DELETE customerPayment](delete-customerpayment.md)|none|Delete Customer Payment.|
+|[GET customerPayment](dynamics_get_customerpayment.md)|customerPayments|Get Customer Payment.|
+|[POST customerPayment](dynamics_create_customerpayment.md)|customerPayments|Create Customer Payment.|
+|[PATCH customerPayment](dynamics_update_customerpayment.md)|customerPayments|Update Customer Payment.|
+|[DELETE customerPayment](dynamics_delete_customerpayment.md)|none|Delete Customer Payment.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -77,4 +77,4 @@ Here is a JSON representation of the resource.
 ```
 
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

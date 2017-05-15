@@ -22,10 +22,10 @@ Represents a shipmentMethod resource type in [!INCLUDE[d365fin_long_md](../dynam
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET shipmentMethod](get-shipmentmethods.md)|shipmentMethod|Get a Shipment Method.|
-|[POST shipmentMethod](create-shipmentmethods.md)|shipmentMethod|Create a Shipment Method.|
-|[PATCH shipmentMethod](update-shipmentmethods.md)|shipmentMethod|Update a Shipment Method.|
-|[DELETE shipmentMethod](delete-shipmentmethods.md)|none|Delete a Shipment Method.|
+|[GET shipmentMethod](dynamics_get_shipmentmethods.md)|shipmentMethod|Get a Shipment Method.|
+|[POST shipmentMethod](dynamics_create_shipmentmethods.md)|shipmentMethod|Create a Shipment Method.|
+|[PATCH shipmentMethod](dynamics_update_shipmentmethods.md)|shipmentMethod|Update a Shipment Method.|
+|[DELETE shipmentMethod](dynamics_delete_shipmentmethods.md)|none|Delete a Shipment Method.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -54,4 +54,4 @@ Here is a JSON representation of the shipmentMethod.
 ```
 
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

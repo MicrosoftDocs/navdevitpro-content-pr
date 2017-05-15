@@ -21,7 +21,7 @@ Represents an vendorPurchases resource type in [!INCLUDE[d365fin_long_md](../dyn
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET vendorPurchases](get-vendorPurchases.md)|VendorPurchases|Get a VendorPurchases object|
+|[GET vendorPurchases](dynamics_get_vendorpurchases.md)|VendorPurchases|Get a VendorPurchases object|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -52,4 +52,4 @@ Here is a JSON representation of the resource.
 
 ```
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

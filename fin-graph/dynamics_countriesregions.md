@@ -21,10 +21,10 @@ Represents a countriesRegions resource type in [!INCLUDE[d365fin_long_md](../dyn
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET countriesRegions](get-countriesregions.md)|countriesRegions|Get a Countries/Regions.|
-|[POST countriesRegions](create-countriesregions.md)|countriesRegions|Create a Countries/Regions.|
-|[PATCH countriesRegions](update-countriesregions.md)|countriesRegions|Update a Countries/Regions.|
-|[DELETE countriesRegions](delete-countriesregions.md)|none|Delete a Countries/Regions.|
+|[GET countriesRegions](dynamics_get_countriesregions.md)|countriesRegions|Get a Countries/Regions.|
+|[POST countriesRegions](dynamics_create_countriesregions.md)|countriesRegions|Create a Countries/Regions.|
+|[PATCH countriesRegions](dynamics_update_countriesregions.md)|countriesRegions|Update a Countries/Regions.|
+|[DELETE countriesRegions](dynamics_delete_countriesregions.md)|none|Delete a Countries/Regions.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -56,4 +56,4 @@ Here is a JSON representation of the countriesRegions.
 ```
 
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

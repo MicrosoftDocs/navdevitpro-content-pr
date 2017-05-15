@@ -21,10 +21,10 @@ Represents an employee resource type in [!INCLUDE[d365fin_long_md](../dynamics-n
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET Employee](get-employee.md)|Employee|Get an Employee object|
-|[POST Employee](create-employee.md)|Employee|Create an Employee object|
-|[PATCH Employee](update-employee.md)|Employee|Update an Employee object|
-|[DELETE Employee](delete-employee.md)|none|Delete an Employee object|
+|[GET Employee](dynamics_get_employee.md)|Employee|Get an Employee object|
+|[POST Employee](dynamics_create_employee.md)|Employee|Create an Employee object|
+|[PATCH Employee](dynamics_update_employee.md)|Employee|Update an Employee object|
+|[DELETE Employee](dynamics_delete_employee.md)|none|Delete an Employee object|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -79,4 +79,4 @@ Here is a JSON representation of the resource.
 
 ```
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

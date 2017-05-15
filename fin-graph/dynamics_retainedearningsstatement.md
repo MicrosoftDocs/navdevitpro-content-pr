@@ -21,7 +21,7 @@ Represents an retainedEarningsStatement resource type in [!INCLUDE[d365fin_long_
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET retainedEarningsStatement](get-retainedEarningsStatement.md)|RetainedEarningsStatement|Get a RetainedEarningsStatement object|
+|[GET retainedEarningsStatement](dynamics_get_retainedearningsstatement.md)|RetainedEarningsStatement|Get a RetainedEarningsStatement object|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -31,7 +31,7 @@ Represents an retainedEarningsStatement resource type in [!INCLUDE[d365fin_long_
 |netChange|numeric|The retainedEarningsStatement item Net Change.|
 |lineType|string|The retainedEarningsStatement item line type can be: header, detail, total, or spacer.|
 |indentation|numeric|The retainedEarningsStatement item indentation used in report layout.|
-|dateFilter|date|The date filter used to calculate the retainedEarningsStatement items.| 
+|dateFilter|date|The date filter used to calculate the retainedEarningsStatement items.|
 
 
 ## Relationships
@@ -54,4 +54,4 @@ Here is a JSON representation of the resource.
 
 ```
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

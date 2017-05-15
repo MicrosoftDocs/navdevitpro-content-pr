@@ -21,10 +21,10 @@ Represents a salesInvoiceLine resource type in [!INCLUDE[d365fin_long_md](../dyn
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET Sales Invoice Line](get-salesinvoiceline.md)|Sales Invoice Line|Get Sales Invoice Line object|
-|[POST Sales Invoice Line](create-salesinvoiceline.md)|Sales Invoice Line|Create Sales Invoice Line object|
-|[PATCH Sales Invoice Line](update-salesinvoiceline.md)|Sales Invoice Line|Update Sales Invoice Line object|
-|[DELETE Sales Invoice Line](delete-salesinvoiceline.md)|none|Delete Sales Invoice Line object|
+|[GET Sales Invoice Line](dynamics_get_salesinvoiceline.md)|Sales Invoice Line|Get Sales Invoice Line object|
+|[POST Sales Invoice Line](dynamics_create_salesinvoiceline.md)|Sales Invoice Line|Create Sales Invoice Line object|
+|[PATCH Sales Invoice Line](dynamics_update_salesinvoiceline.md)|Sales Invoice Line|Update Sales Invoice Line object|
+|[DELETE Sales Invoice Line](dynamics_delete_salesinvoiceline.md)|none|Delete Sales Invoice Line object|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -99,4 +99,4 @@ Here is a JSON representation of the resource.
 ```
 
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

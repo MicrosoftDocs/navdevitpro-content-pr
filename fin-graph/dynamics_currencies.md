@@ -21,10 +21,10 @@ Represents a currencies resource type in [!INCLUDE[d365fin_long_md](../dynamics-
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET currencies](get-currencies.md)|currencies|Get a Currency.|
-|[POST currencies](create-currencies.md)|currencies|Create a Currency.|
-|[PATCH currencies](update-currencies.md)|currencies|Update a Currency.|
-|[DELETE currencies](delete-currencies.md)|none|Delete a Currency.|
+|[GET currencies](dynamics_get_currencies.md)|currencies|Get a Currency.|
+|[POST currencies](dynamics_create_currencies.md)|currencies|Create a Currency.|
+|[PATCH currencies](dynamics_update_currencies.md)|currencies|Update a Currency.|
+|[DELETE currencies](dynamics_delete_currencies.md)|none|Delete a Currency.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -60,4 +60,4 @@ Here is a JSON representation of the currencies.
 ```
 
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

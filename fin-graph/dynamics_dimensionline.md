@@ -21,10 +21,10 @@ Represents a dimensionLine resource type in [!INCLUDE[d365fin_long_md](../dynami
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET Dimension Line](get-dimensionline.md)|Dimension Line|Get Dimension Line object|
-|[POST Dimension Line](create-dimensionline.md)|Dimension Line|Create Dimension Line object|
-|[PATCH Dimension Line](update-dimensionline.md)|Dimension Line|Update Dimension Line object|
-|[DELETE Dimension Line](delete-dimensionline.md)|none|Delete Dimension Line object|
+|[GET Dimension Line](dynamics_get_dimensionline.md)|Dimension Line|Get Dimension Line object|
+|[POST Dimension Line](dynamics_create_dimensionline.md)|Dimension Line|Create Dimension Line object|
+|[PATCH Dimension Line](dynamics_update_dimensionline.md)|Dimension Line|Update Dimension Line object|
+|[DELETE Dimension Line](dynamics_delete_dimensionline.md)|none|Delete Dimension Line object|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -65,4 +65,4 @@ Here is a JSON representation of the resource.
 ```
 
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

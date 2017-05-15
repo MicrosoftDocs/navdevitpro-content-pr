@@ -21,7 +21,7 @@ Represents an account resource type in [!INCLUDE[d365fin_long_md](../dynamics-na
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET accounts](get-account.md)|accounts|Get accounts object.|
+|[GET accounts](dynamics_get_account.md)|accounts|Get accounts object.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -56,4 +56,4 @@ Here is a JSON representation of the resource.
 
 ```
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

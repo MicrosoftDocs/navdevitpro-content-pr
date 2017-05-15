@@ -21,8 +21,8 @@ Represents a companyInformation resource type in [!INCLUDE[d365fin_long_md](../d
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET companyInformation](get-companyinformation.md)|companyInformation|Get Company Information.|
-|[PATCH companyInformation](update-companyinformation.md)|companyInformation|Update Company Information.|
+|[GET companyInformation](dynamics_get_companyinformation.md)|companyInformation|Get Company Information.|
+|[PATCH companyInformation](dynamics_update_companyinformation.md)|companyInformation|Update Company Information.|
 
 
 ## Properties
@@ -69,4 +69,4 @@ Here is a JSON representation of the companyInformation
 ```
 
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

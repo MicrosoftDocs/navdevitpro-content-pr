@@ -21,10 +21,10 @@ Represents a unitsOfMeasure resource type in [!INCLUDE[d365fin_long_md](../dynam
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET unitsOfMeasure](get-unitsofmeasure.md)|unitsOfMeasure|Get a Unit of Measure.|
-|[POST unitsOfMeasure](create-unitsofmeasure.md)|unitsOfMeasure|Create a Unit of Measure.|
-|[PATCH unitsOfMeasure](update-unitsofmeasure.md)|unitsOfMeasure|Update a Unit of Measure.|
-|[DELETE unitsOfMeasure](delete-unitsofmeasure.md)|none|Delete a Unit of Measure.|
+|[GET unitsOfMeasure](dynamics_get_unitsofmeasure.md)|unitsOfMeasure|Get a Unit of Measure.|
+|[POST unitsOfMeasure](dynamics_create_unitsofmeasure.md)|unitsOfMeasure|Create a Unit of Measure.|
+|[PATCH unitsOfMeasure](dynamics_update_unitsofmeasure.md)|unitsOfMeasure|Update a Unit of Measure.|
+|[DELETE unitsOfMeasure](dynamics_delete_unitsofmeasure.md)|none|Delete a Unit of Measure.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -55,4 +55,4 @@ Here is a JSON representation of the unitsOfMeasure.
 ```
 
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

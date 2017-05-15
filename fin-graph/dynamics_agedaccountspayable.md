@@ -21,7 +21,7 @@ Represents an agedAccountsPayable resource type in [!INCLUDE[d365fin_long_md](..
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET agedAccountsPayable](get-agedAccountsPayable.md)|AgedAccountsPayable|Get AgedAccountsPayable object|
+|[GET agedAccountsPayable](dynamics_get_agedaccountspayable.md)|AgedAccountsPayable|Get AgedAccountsPayable object|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -66,4 +66,4 @@ Here is a JSON representation of the resource.
 
 ```
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

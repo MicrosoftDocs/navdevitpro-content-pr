@@ -21,10 +21,10 @@ Represents an itemCategories resource type in [!INCLUDE[d365fin_long_md](../dyna
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET itemCategories](get-itemcategories.md)|itemCategories|Get an Item Category.|
-|[POST itemCategories](create-itemcategories.md)|itemCategories|Create an Item Category.|
-|[PATCH itemCategories](update-itemcategories.md)|itemCategories|Update an Item Category.|
-|[DELETE itemCategories](delete-itemcategories.md)|none|Delete an Item Category.|
+|[GET itemCategories](dynamics_get_itemcategories.md)|itemCategories|Get an Item Category.|
+|[POST itemCategories](dynamics_create_itemcategories.md)|itemCategories|Create an Item Category.|
+|[PATCH itemCategories](dynamics_update_itemcategories.md)|itemCategories|Update an Item Category.|
+|[DELETE itemCategories](dynamics_delete_itemcategories.md)|none|Delete an Item Category.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -52,4 +52,4 @@ Here is a JSON representation of the itemCategories.
 ```
 
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

@@ -78,4 +78,4 @@ Here is an example of the response. Note: The response object shown here may be 
 ```
 
 ## See Also
-[Microsoft Graph Reference](graph-reference.md)  
+[Microsoft Graph Reference](dynamics_graph_reference.md)  

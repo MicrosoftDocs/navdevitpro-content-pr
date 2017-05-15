@@ -21,7 +21,7 @@ Represents an incomeStatement resource type in [!INCLUDE[d365fin_long_md](../dyn
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET incomeStatement](get-incomeStatement.md)|IncomeStatement|Get an IncomeStatement object|
+|[GET incomeStatement](dynamics_get_incomestatement.md)|IncomeStatement|Get an IncomeStatement object|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -31,7 +31,7 @@ Represents an incomeStatement resource type in [!INCLUDE[d365fin_long_md](../dyn
 |netChange|numeric|The incomeStatement item Net Change.|
 |lineType|string|The incomeStatement item line type can be: header, detail, total, or spacer.|
 |indentation|numeric|The incomeStatement item indentation used in report layout.|
-|dateFilter|date|The date filter used to calculate the incomeStatement items.| 
+|dateFilter|date|The date filter used to calculate the incomeStatement items.|
 
 
 ## Relationships
@@ -54,4 +54,4 @@ Here is a JSON representation of the resource.
 
 ```
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

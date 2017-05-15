@@ -21,7 +21,7 @@ Represents a dimension resource type in [!INCLUDE[d365fin_long_md](../dynamics-n
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET dimension](get-dimension.md)|dimension|Get a dimension.|
+|[GET dimension](dynamics_get_dimension.md)|dimension|Get a dimension.|
 
 
 ## Properties
@@ -50,4 +50,4 @@ Here is a JSON representation of the resource.
 
 
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

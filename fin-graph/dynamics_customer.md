@@ -21,10 +21,10 @@ Represents a customer resource type in [!INCLUDE[d365fin_long_md](../dynamics-na
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET customer](get-customer.md)|customer|Get a customer.|
-|[CREATE customer](create-customer.md)|customer|Create a customer.|
-|[UPDATE customer](update-customer.md)|customer|Update a customer.|
-|[DELETE customer](delete-customer.md)|none|Delete a customer.|
+|[GET customer](dynamics_get_customer.md)|customer|Get a customer.|
+|[CREATE customer](dynamics_create_customer.md)|customer|Create a customer.|
+|[UPDATE customer](dynamics_update_customer.md)|customer|Update a customer.|
+|[DELETE customer](dynamics_delete_customer.md)|none|Delete a customer.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -82,4 +82,4 @@ Here is a JSON representation of the resource.
 
 ```
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

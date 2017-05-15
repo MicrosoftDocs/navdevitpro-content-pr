@@ -21,10 +21,10 @@ Represents a paymentMethods resource type in [!INCLUDE[d365fin_long_md](../dynam
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET paymentMethods](get-paymentmethods.md)|paymentMethods|Get a Payment Method.|
-|[POST paymentMethods](create-paymentmethods.md)|paymentMethods|Create a Payment Method.|
-|[PATCH paymentMethods](update-paymentmethods.md)|paymentMethods|Update a Payment Method.|
-|[DELETE paymentMethods](delete-paymentmethods.md)|none|Delete a Payment Method.|
+|[GET paymentMethods](dynamics_get_paymentmethods.md)|paymentMethods|Get a Payment Method.|
+|[POST paymentMethods](dynamics_create_paymentmethods.md)|paymentMethods|Create a Payment Method.|
+|[PATCH paymentMethods](dynamics_update_paymentmethods.md)|paymentMethods|Update a Payment Method.|
+|[DELETE paymentMethods](dynamics_delete_paymentmethods.md)|none|Delete a Payment Method.|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -54,4 +54,4 @@ Here is a JSON representation of the paymentMethods.
 ```
 
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

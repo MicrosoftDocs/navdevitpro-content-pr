@@ -21,10 +21,10 @@ Represents a salesOrder resource type in [!INCLUDE[d365fin_long_md](../dynamics-
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET Sales Order](get-salesorder.md)|Sales Order|Get a Sales Order object|
-|[POST Sales Order](create-salesorder.md)|Sales Order|Create a Sales Order object|
-|[PATCH Sales Order](update-salesorder.md)|Sales Order|Update a Sales Order object|
-|[DELETE Sales Order](delete-salesorder.md)|none|Delete a Sales Order object|
+|[GET Sales Order](dynamics_get_salesorder.md)|Sales Order|Get a Sales Order object|
+|[POST Sales Order](dynamics_create_salesorder.md)|Sales Order|Create a Sales Order object|
+|[PATCH Sales Order](dynamics_update_salesorder.md)|Sales Order|Update a Sales Order object|
+|[DELETE Sales Order](dynamics_delete_salesorder.md)|none|Delete a Sales Order object|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -95,4 +95,4 @@ Here is a JSON representation of the resource.
 
 ```
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

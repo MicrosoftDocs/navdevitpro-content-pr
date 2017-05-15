@@ -21,7 +21,7 @@ Represents a balanceSheet resource type in [!INCLUDE[d365fin_long_md](../dynamic
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET balanceSheet](get-balanceSheet.md)|BalanceSheet|Get a BalanceSheet object|
+|[GET balanceSheet](dynamics_get_balancesheet.md)|BalanceSheet|Get a BalanceSheet object|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -31,7 +31,7 @@ Represents a balanceSheet resource type in [!INCLUDE[d365fin_long_md](../dynamic
 |balance|numeric|The balanceSheet item balance.|
 |lineType|string|The balanceSheet item line type can be: header, detail, total, or spacer.|
 |indentation|numeric|The balanceSheet item indentation used in report layout.|
-|dateFilter|date|The date filter used to calculate the balanceSheet items.| 
+|dateFilter|date|The date filter used to calculate the balanceSheet items.|
 
 
 ## Relationships
@@ -54,4 +54,4 @@ Here is a JSON representation of the resource.
 
 ```
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

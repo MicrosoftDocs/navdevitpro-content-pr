@@ -21,7 +21,7 @@ Represents an trialBalance resource type in [!INCLUDE[d365fin_long_md](../dynami
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET trialBalance](get-trialBalance.md)|TrialBalance|Get a TrialBalance object|
+|[GET trialBalance](dynamics_get_trialbalance.md)|TrialBalance|Get a TrialBalance object|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -32,7 +32,7 @@ Represents an trialBalance resource type in [!INCLUDE[d365fin_long_md](../dynami
 |netChangeCredit|string|Represents negative Net Change amount in G/L Account.|
 |balanceAtDateDebit|string|Represents positive Balance at Date amount in G/L Account.|
 |balanceAtDateCredit|string|Represents negative Balance at Date amount in G/L Account.|
-|dateFilter|date|The date filter used to calculate the trialBalance items.| 
+|dateFilter|date|The date filter used to calculate the trialBalance items.|
 
 
 ## Relationships
@@ -56,4 +56,4 @@ Here is a JSON representation of the resource.
 
 ```
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

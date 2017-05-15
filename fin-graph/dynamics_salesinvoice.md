@@ -21,10 +21,10 @@ Represents a salesInvoice resource type in [!INCLUDE[d365fin_long_md](../dynamic
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET Sales Invoice](get-salesinvoice.md)|Sales Invoice|Get a Sales Invoice object|
-|[POST Sales Invoice](create-salesinvoice.md)|Sales Invoice|Create a Sales Invoice object|
-|[PATCH Sales Invoice](update-salesinvoice.md)|Sales Invoice|Update a Sales Invoice object|
-|[DELETE Sales Invoice](delete-salesinvoice.md)|none|Delete a Sales Invoice object|
+|[GET Sales Invoice](dynamics_get_salesinvoice.md)|Sales Invoice|Get a Sales Invoice object|
+|[POST Sales Invoice](dynamics_create_salesinvoice.md)|Sales Invoice|Create a Sales Invoice object|
+|[PATCH Sales Invoice](dynamics_update_salesinvoice.md)|Sales Invoice|Update a Sales Invoice object|
+|[DELETE Sales Invoice](dynamics_delete_salesinvoice.md)|none|Delete a Sales Invoice object|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -101,4 +101,4 @@ Here is a JSON representation of the resource.
 
 ```
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

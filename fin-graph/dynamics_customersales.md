@@ -21,7 +21,7 @@ Represents an customerSales resource type in [!INCLUDE[d365fin_long_md](../dynam
 
 | Method       | Return Type  |Description|
 |:---------------|:--------|:----------|
-|[GET customerSales](get-customerSales.md)|CustomerSales|Get a CustomerSales object|
+|[GET customerSales](dynamics_get_customerSales.md)|CustomerSales|Get a CustomerSales object|
 
 ## Properties
 | Property	   | Type	|Description|
@@ -52,4 +52,4 @@ Here is a JSON representation of the resource.
 
 ```
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  

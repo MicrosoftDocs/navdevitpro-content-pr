@@ -113,4 +113,4 @@ Represents a Line Details complex type in [!INCLUDE[d365fin_long_md](../dynamics
 ```
 
 ## See Also
-[Graph Reference](graph-reference.md)  
+[Graph Reference](dynamics_graph_reference.md)  
