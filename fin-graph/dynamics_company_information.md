@@ -30,7 +30,7 @@ Represents a companyInformation resource type in [!INCLUDE[d365fin_long_md](../d
 |:---------------|:--------|:----------|
 |id|GUID|The unique ID of the company. Read-Only.|
 |displayName|string|The company's display name.|
-|address|[NAV.PostalAddress](complex-types.md)|The company's address. View the complex type for additional detail.|
+|address|[NAV.PostalAddress](dynamics_complex_types.md)|The company's address. View the complex type for additional detail.|
 |phoneNumber|string|The company's telephone number.|
 |faxNumber|string|The company's fax number.|
 |email|string|The company's email address.|

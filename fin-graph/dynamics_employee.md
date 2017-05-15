@@ -36,7 +36,7 @@ Represents an employee resource type in [!INCLUDE[d365fin_long_md](../dynamics-n
 |middleName|string|The middle name of the employee.|
 |surname|string|The surname of the employee|
 |jobTitle|string|The full name of the employee|
-|address|[NAV.PostalAddress](complex-types.md)|Specifies the employee's address. This address will appear on all resource documents for the employee.|
+|address|[NAV.PostalAddress](dynamics_complex_types.md)|Specifies the employee's address. This address will appear on all resource documents for the employee.|
 |phoneNumber|string|Specifies the employee's telephone number.|
 |mobilePhone|string|Specifies the employee's mobile telephone number.|
 |email|string|Specifies the employee's email address.|

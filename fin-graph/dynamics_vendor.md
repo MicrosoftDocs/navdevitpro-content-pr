@@ -32,15 +32,15 @@ Represents a vendor resource type in [!INCLUDE[d365fin_long_md](../dynamics-nav/
 |id|GUID|The unique ID of the vendor. Read-Only.|
 |number|string|The vendor number.|
 |displayName|string|The vendor's display name.|
-|address|[NAV.PostalAddress](complex-types.md)|The vendor's address.|
+|address|[NAV.PostalAddress](dynamics_complex_types.md)|The vendor's address.|
 |phoneNumber|string|The vendor's telephone number.|
 |email|string|The vendor's email address.|
 |website|string|The vendor's website address.|
 |taxRegistrationNumber|string|The vendor's tax registration number.|
 |currencyCode|string|The default currency code for the vendor.|
 |irs1099Code|string|Specifies a 1099 code for the vendor. US only.|
-|paymentTerms|[NAV.PaymentTerms](complex-types.md)|The default payment terms for the vendor.|
-|paymentMethod|[NAV.PaymentMethod](complex-types.md)|The default payment method for the vendor.|
+|paymentTerms|[NAV.PaymentTerms](dynamics_complex_types.md)|The default payment terms for the vendor.|
+|paymentMethod|[NAV.PaymentMethod](dynamics_complex_types.md)|The default payment method for the vendor.|
 |taxLiable|boolean|Specifies if the vendor is liable for tax.|
 |blocked|string|Specifies which transactions with the vendor that cannot be posted. Accepted values are blank, Payment or All|
 |balance|decimal|The vendor's balance. Read-Only.|
