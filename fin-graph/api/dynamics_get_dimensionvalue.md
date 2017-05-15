@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # GET Dimension Value Method
-Retrieve the properties and relationships of a dimension value object for [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Retrieve the properties and relationships of a dimension value object for Dynamics 365 for Financials.
 
 ## Prerequisites
 

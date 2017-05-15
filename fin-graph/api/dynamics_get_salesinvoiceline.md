@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # GET Sales Invoice Line Method
-Retrieve the properties and relationships of a sales invoice line object for [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Retrieve the properties and relationships of a sales invoice line object for Dynamics 365 for Financials.
 
 ## Prerequisites
 

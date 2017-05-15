@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # IRS 1099 Code resource type
-Represents a irs1099Codes resource type in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Represents a irs1099Codes resource type in Dynamics 365 for Financials.
 
 ## Methods
 

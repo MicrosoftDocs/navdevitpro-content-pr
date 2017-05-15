@@ -16,7 +16,7 @@ ms.author: solsen
 ---
 
 # POST Customer Payment Method
-Creates a customer payment in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Creates a customer payment in Dynamics 365 for Financials.
 
 ## HTTP request
 ```

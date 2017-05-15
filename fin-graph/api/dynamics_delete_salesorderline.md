@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # GET Sales Order Line Method
-Delete a sales order line from [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Delete a sales order line from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

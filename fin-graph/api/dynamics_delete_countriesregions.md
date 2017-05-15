@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # DELETE Countries/Regions Method
-Delete a countriesRegions from [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Delete a countriesRegions from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

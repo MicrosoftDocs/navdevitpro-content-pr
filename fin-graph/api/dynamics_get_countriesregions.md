@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # GET Countries/Regions Method
-Retrieve the properties and relationships of an countriesRegions object for [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Retrieve the properties and relationships of an countriesRegions object for Dynamics 365 for Financials.
 
 ## HTTP request
 ```

@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # POST Unit of Measure Method
-Create an unitsOfMeasure in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Create an unitsOfMeasure in Dynamics 365 for Financials.
 
 ## HTTP request
 ```

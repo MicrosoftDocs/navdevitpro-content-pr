@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # DELETE Customer Method
-Delete a customer from [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Delete a customer from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

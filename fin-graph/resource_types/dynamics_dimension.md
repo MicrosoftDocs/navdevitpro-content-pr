@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Dimension resource type
-Represents a dimension resource type in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Represents a dimension resource type in Dynamics 365 for Financials.
 
 ## Methods
 

@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # GET Dimension Line Method
-Delete a dimension line from [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Delete a dimension line from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

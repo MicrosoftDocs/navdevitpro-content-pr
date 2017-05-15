@@ -15,11 +15,11 @@ ms.author: solsen
 ---
 
 # Complex Types JSON
-These are the various complex types in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)]. You can see usage of these complex types in the various individual methods that make use of them.
+These are the various complex types in Dynamics 365 for Financials. You can see usage of these complex types in the various individual methods that make use of them.
 
 # Item Category
 
-Represents an Item Category complex type in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Represents an Item Category complex type in Dynamics 365 for Financials.
 ```json
 "ItemCategory" 
 { 
@@ -30,7 +30,7 @@ Represents an Item Category complex type in [!INCLUDE[d365fin_long_md](../includ
 
 # Unit of Measure
 
-Represents a Unit of Measure complex type in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].       
+Represents a Unit of Measure complex type in Dynamics 365 for Financials.       
 ```json
 "UnitOfMeasure" 
 {  
@@ -43,7 +43,7 @@ Represents a Unit of Measure complex type in [!INCLUDE[d365fin_long_md](../inclu
 
 # Unit of Measure Conversion
 
-Represents a Unit of Measure Conversion complex type in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].       
+Represents a Unit of Measure Conversion complex type in Dynamics 365 for Financials.       
 ```json
 "ItemUnitOfMeasureConversion" 
 { 
@@ -54,7 +54,7 @@ Represents a Unit of Measure Conversion complex type in [!INCLUDE[d365fin_long_m
 
  # Payment Method
 
-Represents a Payment Method complex type in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].       
+Represents a Payment Method complex type in Dynamics 365 for Financials.       
 
 ```json
 "PaymentMethod" 
@@ -66,7 +66,7 @@ Represents a Payment Method complex type in [!INCLUDE[d365fin_long_md](../includ
 
  # Payment Terms
 
-Represents a Payment Terms complex type in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].       
+Represents a Payment Terms complex type in Dynamics 365 for Financials.       
 ```json
 "PaymentTermsType" 
 { 
@@ -77,7 +77,7 @@ Represents a Payment Terms complex type in [!INCLUDE[d365fin_long_md](../include
 
  # Postal Address
 
-Represents a Postal Address complex type in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].       
+Represents a Postal Address complex type in Dynamics 365 for Financials.       
 ```json
 "PostalAddress" 
 { 
@@ -91,7 +91,7 @@ Represents a Postal Address complex type in [!INCLUDE[d365fin_long_md](../includ
 
  # Shipment Method
 
-Represents a Shipment Method complex type in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].       
+Represents a Shipment Method complex type in Dynamics 365 for Financials.       
 ```json
 "ShipmentMethod" 
 { 
@@ -102,7 +102,7 @@ Represents a Shipment Method complex type in [!INCLUDE[d365fin_long_md](../inclu
 
 # Line Details
 
-Represents a Line Details complex type in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].       
+Represents a Line Details complex type in Dynamics 365 for Financials.       
 ```json
 "documentLineObjectDetails" 
 { 

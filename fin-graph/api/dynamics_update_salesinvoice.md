@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # PATCH Sales Invoice Method
-Update the properties of a salesInvoices object for [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Update the properties of a salesInvoices object for Dynamics 365 for Financials.
 
 ## HTTP request
 

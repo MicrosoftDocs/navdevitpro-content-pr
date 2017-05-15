@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Customer resource type
-Represents a customer resource type in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Represents a customer resource type in Dynamics 365 for Financials.
 
 ## Methods
 

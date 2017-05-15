@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # PATCH Countries/Regions Method
-Update the properties of a countriesRegions object for [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Update the properties of a countriesRegions object for Dynamics 365 for Financials.
 
 ## HTTP request
 ```

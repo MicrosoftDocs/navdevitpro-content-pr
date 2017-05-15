@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # DELETE Journal Line Method
-Delete a journal line from [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Delete a journal line from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

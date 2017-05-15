@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # POST Vendor Method
-Create a vendor in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Create a vendor in Dynamics 365 for Financials.
 
 ## HTTP request
 ```

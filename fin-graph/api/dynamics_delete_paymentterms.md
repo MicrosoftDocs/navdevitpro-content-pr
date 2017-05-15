@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # DELETE Payment Terms Method
-Delete a paymentTerms from [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Delete a paymentTerms from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

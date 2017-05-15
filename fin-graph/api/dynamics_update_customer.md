@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # PATCH Customer Method
-Update the properties of a customers object for [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Update the properties of a customers object for Dynamics 365 for Financials.
 
 
 ## HTTP request

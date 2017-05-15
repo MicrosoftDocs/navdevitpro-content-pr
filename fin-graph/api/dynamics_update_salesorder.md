@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # PATCH Sales Order Method
-Update the properties of a salesOrders object for [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Update the properties of a salesOrders object for Dynamics 365 for Financials.
 
 ## HTTP request
 

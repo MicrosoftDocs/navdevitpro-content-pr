@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # PATCH Customer Payments Method
-Update the properties of a customerPayments object for [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Update the properties of a customerPayments object for Dynamics 365 for Financials.
 
 ## HTTP request
 

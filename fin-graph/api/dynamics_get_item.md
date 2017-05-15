@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # GET Item Method
-Retrieve the properties and relationships of an item object for [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Retrieve the properties and relationships of an item object for Dynamics 365 for Financials.
 
 
 ## HTTP request

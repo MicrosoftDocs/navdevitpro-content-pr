@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # DELETE Unit of Measure Method
-Delete an unitsOfMeasure from [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Delete an unitsOfMeasure from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Countries/Regions resource type
-Represents a countriesRegions resource type in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Represents a countriesRegions resource type in Dynamics 365 for Financials.
 
 ## Methods
 

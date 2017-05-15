@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Vendor resource type
-Represents a vendor resource type in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Represents a vendor resource type in Dynamics 365 for Financials.
 
 ## Methods
 

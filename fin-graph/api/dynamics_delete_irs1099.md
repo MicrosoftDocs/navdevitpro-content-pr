@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # DELETE IRS 1099 Code Method
-Delete a irs1099Codes from [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Delete a irs1099Codes from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

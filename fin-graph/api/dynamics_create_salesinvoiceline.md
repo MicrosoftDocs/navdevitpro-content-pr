@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # POST Sales Invoice Line Method
-Create a salesInvoice in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Create a salesInvoice in Dynamics 365 for Financials.
 
 ## HTTP request
 

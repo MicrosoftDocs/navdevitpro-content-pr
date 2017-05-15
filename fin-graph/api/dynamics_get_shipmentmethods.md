@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # GET Shipment Method Method
-Retrieve the properties and relationships of a shipmentMethods object for [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Retrieve the properties and relationships of a shipmentMethods object for Dynamics 365 for Financials.
 
 ## HTTP request
 

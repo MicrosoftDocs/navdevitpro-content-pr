@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # GET Sales Invoice Line Method
-Delete a sales invoice line from [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Delete a sales invoice line from Dynamics 365 for Financials.
 
 ## HTTP request
 ```

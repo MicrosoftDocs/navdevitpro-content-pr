@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # dimensionValue resource type
-Represents a dimensionValue resource type in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Represents a dimensionValue resource type in Dynamics 365 for Financials.
 
 ## Methods
 

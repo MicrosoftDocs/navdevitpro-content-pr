@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # POST Customer Method
-Create a customer in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Create a customer in Dynamics 365 for Financials.
 
 ## HTTP request
 ```

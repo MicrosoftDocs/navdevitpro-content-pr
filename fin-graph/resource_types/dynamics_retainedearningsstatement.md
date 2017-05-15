@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Retained Earnings Statement resource type
-Represents an retainedEarningsStatement resource type in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Represents an retainedEarningsStatement resource type in Dynamics 365 for Financials.
 
 ## Methods
 

@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # PATCH Employee Method
-Update the properties of an employee object for [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Update the properties of an employee object for Dynamics 365 for Financials.
 
 
 ## HTTP request

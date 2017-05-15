@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # POST Item Method
-Create an item in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)] for use on invoices, quotes, etc.
+Create an item in Dynamics 365 for Financials for use on invoices, quotes, etc.
 
 ## HTTP request
 ```

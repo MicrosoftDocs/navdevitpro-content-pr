@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # POST Dimension Line Method
-Create a dimensionLine in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Create a dimensionLine in Dynamics 365 for Financials.
 
 ## HTTP request
 

@@ -16,7 +16,7 @@ ms.author: solsen
 ---
 
 # POST Journal Line Method
-Creates a journal line in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Creates a journal line in Dynamics 365 for Financials.
 
 ## HTTP request
 

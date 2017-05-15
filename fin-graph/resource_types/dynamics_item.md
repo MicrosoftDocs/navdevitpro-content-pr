@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Item resource type
-Represents an item resource type in [!INCLUDE[d365fin_long_md](../includes/d365fin_long_md.md)].
+Represents an item resource type in Dynamics 365 for Financials.
 
 ## Methods
 
