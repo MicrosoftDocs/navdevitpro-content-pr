@@ -54,8 +54,22 @@ You must complete these steps separately for [!INCLUDE[nav_web_md](includes/nav_
     This assumes that the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] is running https.
 7.  In the **Configure URL** step, select the **Enable support for the WS-federation Passive protocol** check box, and then in **Relying party WS-Federation Passive Control URL** field, enter the URL for the [!INCLUDE[navnow](includes/navnow_md.md)] client according to the following:
 
-    -    If you are setting up AD FS for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)], set this to the full URL for the Web client. The URL typically has the format  *https://[web-server-computer]:[port]/[web-instance]/WebClient*, such as *https://MyWebServer:8080/DynamicsNAV100/WebClient*.
-    -   If you are setting up AD FS for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], use base URL for the Web client, which is the full URL without the */[web-instance]/WebClient* part. This typically has the format  *https://[web-server-computer]:[port]/[web-instance]*, such as *https://MyWebServer:8080*.
+    -    If you are setting up AD FS for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)], set this to the full URL for the Web client. The URL typically has the format:
+        ```
+        https://[web-server-computer]:[port]/[web-instance]/WebClient
+        ```
+        For example:
+        ```
+        https://MyWebServer:8080/DynamicsNAV100/WebClient
+        ```
+    -   If you are setting up AD FS for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], use base URL for the Web client, which is the full URL without the ```/[web-instance]/WebClient``` part. This typically has the format:
+        ```
+        https://[web-server-computer]:[port]/[web-instance]
+        ```
+        For example:
+        ```
+        https://MyWebServer:8080
+        ```
 
     Choose **Next** to continue.
 
@@ -64,8 +78,14 @@ You must complete these steps separately for [!INCLUDE[nav_web_md](includes/nav_
 
 8.  In the **Configure Identifiers** step, in the **Relying party trust identifier** field, remove the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] URL, and then add one of the following URL instead:
 
-    -   If you are setting up AD FS for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)], add the URL: *https://dynamicsnavwebclient*.
-    -   If you are setting up AD FS for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], add the URL: *https://dynamicsnavwinclient*.
+    -   If you are setting up AD FS for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)], add the URL:
+        ```
+        https://dynamicsnavwebclient
+        ```
+    -   If you are setting up AD FS for the [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)], add the URL:
+    ```
+    https://dynamicsnavwinclient
+    ```
 
     Choose **Next** to continue.
 
@@ -81,7 +101,13 @@ Based on whether you will be using SAML tokens or JSON Web Tokens (JWT), which a
 1. In the **Edit Claim Rules** dialog box, choose **Add Rule**.
 2. In the **Select Rule Template** step, choose **Transform an incoming Claim** template, and then choose **Next**.
 3. In the **Edit Rule** step, set the **Claim rule name** to *name*, the **Incoming claim type** to *UPN*, and the **Outgoing claim type** to *Name*. Choose **OK** when done.
-4. Repeat steps 1 to 3 to add another rule, except this time, set the **Claim rule name** to * objectidentifier*, the **Incoming claim type** to *Primary SID*, and the **Outgoing claim type** to *http://schemas.microsoft.com/identity/claims/objectidentifier*. Choose **OK** when done.
+4. Repeat steps 1 to 3 to add another rule, except this time, set the **Claim rule name** to * objectidentifier*, the **Incoming claim type** to *Primary SID*, and the **Outgoing claim type** to:
+
+    ```
+    http://schemas.microsoft.com/identity/claims/objectidentifier*
+    ```
+
+    Choose **OK** when done.
 5. Close the **Edit Claim Rules** dialog box.
 
 ### Set up support for JSON Web tokens (JWT)
@@ -129,7 +155,7 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configure
 
     ```
     https://[Public URL for AD FS server]/federationmetadata/2007-06/federationmetadata.xml
-```
+    ```
 
     Replace *[Public URL for AD FS server]* with the URL for your installation.
 
@@ -141,7 +167,7 @@ The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configure
     >[!NOTE]
     >This URL must to be accessible from a browser on the computer running the [!INCLUDE[nav_server](includes/nav_server_md.md)].
 
-3.  To set up the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] in [!INCLUDE[nav2017](includes/nav2017.md)] and later, set the **WSFederationLoginEndpoint** (WSFederationLoginEndpoint) setting to point to the AD FS login page for authenticating users.
+3.  To set up the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] in [!INCLUDE[nav2017](includes/nav2017.md)] and later, set the **WSFederationLoginEndpoint** (WSFederationLoginEndpoint) to point to the AD FS login page for authenticating users.
 
     For example, the CustomSettings file should include the following key:
 
@@ -174,7 +200,7 @@ You configure the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] by modifying it
     <add key="ACSUri" value="https://[Public URL for AD FS server]/adfs/ls/?wa=wsignin1.0%26wtrealm=https://dynamicsnavwebclient%26wreply=[Dynamics NAV Web Client URL]" />
     ```
 
-    Replace *[Dynamics NAV Web Client URL]* with the full URL for your Web client, such as *https://MyWebServer:8080/DynamicsNAV100/WebClient*. This is the same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the client in AD FS.
+    Replace *[Dynamics NAV Web Client URL]* with the full URL for your Web client, such as *https://MyWebServer:8080/DynamicsNAV100/WebClient*.     This is the same value that was specified for **Relying party WS-Federation Passive Control URL** field in the Relying Party Trust set up for the client in AD FS.
 
     This step is not relevant in [!INCLUDE[nav2017](includes/nav2017.md)] and later because the end point is configured in the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance.
 
