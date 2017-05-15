@@ -1,2 +1,2 @@
 # [Welcome](index.md)
-# [Microsoft Graph Reference](graph-reference.md)
+# [Microsoft Graph Reference](dynamics_graph_reference.md)
