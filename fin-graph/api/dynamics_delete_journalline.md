@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# DELETE Journal Line Method
+# Delete journal line
 Delete a journal line from Dynamics 365 for Financials.
 
 ## HTTP request

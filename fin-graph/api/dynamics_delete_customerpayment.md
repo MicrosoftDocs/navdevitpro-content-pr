@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# DELETE Customer Payment Method
+# Delete customer payment
 Delete a customer payment from Dynamics 365 for Financials.
 
 ## HTTP request

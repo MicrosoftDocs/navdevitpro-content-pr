@@ -14,7 +14,7 @@ ms.date: 03/08/2017
 ms.author: solsen
 ---
 
-# PATCH Sales Order Line Method
+# Update sales order line
 Update the properties of a salesOrderLine object for Dynamics 365 for Financials.
 
 ## HTTP request

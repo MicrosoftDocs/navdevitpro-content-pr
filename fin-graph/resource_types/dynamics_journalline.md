@@ -14,7 +14,7 @@ ms.date: 02/03/2017
 ms.author: solsen
 ---
 
-# Journal Line resource type
+# Journal line resource type
 Represents a journalLine resource type in Dynamics 365 for Financials.
 
 ## Methods

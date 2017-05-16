@@ -15,7 +15,7 @@ ms.date: 03/21/2017
 ms.author: solsen
 ---
 
-# POST Journal Line Method
+# Create journal line
 Creates a journal line in Dynamics 365 for Financials.
 
 ## HTTP request

@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# POST Currency Method
+# Create currency
 Create a currencies in Dynamics 365 for Financials.
 
 ## HTTP request

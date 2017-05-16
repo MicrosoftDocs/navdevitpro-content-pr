@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET Trial Balance Method
+# Get trial balance
 Retrieve the properties and relationships of a TrialBalance report object for Dynamics 365 for Financials.
 
 ## HTTP request

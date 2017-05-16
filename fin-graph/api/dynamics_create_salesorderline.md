@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# POST Sales Order Line Method
+# Create sales order line
 Create a salesOrder in Dynamics 365 for Financials.
 
 ## HTTP request

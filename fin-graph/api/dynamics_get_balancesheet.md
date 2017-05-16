@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET Balance Sheet Method
+# Get balance sheet
 Retrieve the properties and relationships of a BalanceSheet report object for Dynamics 365 for Financials.
 
 ## HTTP request

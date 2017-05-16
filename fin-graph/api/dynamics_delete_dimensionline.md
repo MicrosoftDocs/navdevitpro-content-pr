@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET Dimension Line Method
+# Delete dimension line
 Delete a dimension line from Dynamics 365 for Financials.
 
 ## HTTP request

@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# DELETE Countries/Regions Method
+# Delete Countries/Regions Method
 Delete a countriesRegions from Dynamics 365 for Financials.
 
 ## HTTP request

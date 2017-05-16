@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# POST Vendor Method
+# Create vendor
 Create a vendor in Dynamics 365 for Financials.
 
 ## HTTP request

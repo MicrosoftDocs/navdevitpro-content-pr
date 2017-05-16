@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# DELETE Customer Method
+# Delete customer
 Delete a customer from Dynamics 365 for Financials.
 
 ## HTTP request

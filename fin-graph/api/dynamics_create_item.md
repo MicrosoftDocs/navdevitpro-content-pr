@@ -14,7 +14,7 @@ ms.date: 03/16/2017
 ms.author: solsen
 ---
 
-# POST Item Method
+# Create item
 Create an item in Dynamics 365 for Financials for use on invoices, quotes, etc.
 
 ## HTTP request

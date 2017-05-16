@@ -14,7 +14,7 @@ ms.date: 03/08/2017
 ms.author: solsen
 ---
 
-# GET Dimension Line Method
+# Get dimension line
 Retrieve the properties and relationships of a dimension line object for Dynamics 365 for Financials.
 
 ## Prerequisites

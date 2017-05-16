@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET Payment Terms Method
+# Get payment terms
 Retrieve the properties and relationships of a paymentTerms object for Dynamics 365 for Financials.
 
 ## HTTP request

@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET Currency Method
+# Get currency
 Retrieve the properties and relationships of a currencies object for Dynamics 365 for Financials.
 
 ## HTTP request

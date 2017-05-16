@@ -14,7 +14,7 @@ ms.date: 02/10/2017
 ms.author: solsen
 
 ---
-# Microsoft Graph Reference
+# Microsoft graph reference
 In this section, you can find API documentation for Microsoft Graph.
 
 |For Resource Type|See|

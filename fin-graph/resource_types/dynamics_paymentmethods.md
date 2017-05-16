@@ -14,7 +14,7 @@ ms.date: 02/08/2017
 ms.author: solsen
 ---
 
-# Payment Method resource type
+# Payment method resource type
 Represents a paymentMethods resource type in Dynamics 365 for Financials.
 
 ## Methods

@@ -14,7 +14,7 @@ ms.date: 03/02/2017
 ms.author: solsen
 ---
 
-# dimensionLine resource type
+# DimensionLine resource type
 Represents a dimensionLine resource type in Dynamics 365 for Financials.
 
 ## Methods

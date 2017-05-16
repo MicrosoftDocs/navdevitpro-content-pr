@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET Dimensions Method
+# Get dimensions
 Retrieve the properties and relationships of a dimensions object for Dynamics 365 for Financials.
 
 ## HTTP request

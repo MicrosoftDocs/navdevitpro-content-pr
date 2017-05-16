@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# DELETE Employee Method
+# Delete employee
 Delete an employee from Dynamics 365 for Financials.
 
 ## HTTP request

@@ -14,7 +14,7 @@ ms.date: 02/03/2017
 ms.author: solsen
 ---
 
-# Retained Earnings Statement resource type
+# Retained earnings statement resource type
 Represents an retainedEarningsStatement resource type in Dynamics 365 for Financials.
 
 ## Methods

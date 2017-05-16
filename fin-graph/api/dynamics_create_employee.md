@@ -14,7 +14,7 @@ ms.date: 03/16/2017
 ms.author: solsen
 ---
 
-# POST Employee Method
+# Create employee
 Create an employee in Dynamics 365 for Financials.
 
 ## HTTP request

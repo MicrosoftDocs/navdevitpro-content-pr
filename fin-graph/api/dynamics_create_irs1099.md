@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# POST IRS 1099 Code Method
+# Create IRS 1099 code
 Create a irs1099Codes in Dynamics 365 for Financials.
 
 ## HTTP request

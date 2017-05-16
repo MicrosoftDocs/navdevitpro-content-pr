@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# PATCH Sales Invoice Method
+# Update sales invoice
 Update the properties of a salesInvoices object for Dynamics 365 for Financials.
 
 ## HTTP request
