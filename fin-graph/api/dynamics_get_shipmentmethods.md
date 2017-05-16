@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET Shipment Method Method
+# Get shipment method
 Retrieve the properties and relationships of a shipmentMethods object for Dynamics 365 for Financials.
 
 ## HTTP request

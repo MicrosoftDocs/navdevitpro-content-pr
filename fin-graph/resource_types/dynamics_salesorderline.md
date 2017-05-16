@@ -14,7 +14,7 @@ ms.date: 03/02/2017
 ms.author: solsen
 ---
 
-# salesOrderLine resource type
+# SalesOrderLine resource type
 Represents a salesOrderLine resource type in Dynamics 365 for Financials.
 
 ## Methods

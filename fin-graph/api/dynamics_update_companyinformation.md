@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# PATCH Company Information Method
+# Update company information
 Update the properties of a companyInformation object for Dynamics 365 for Financials.
 
 

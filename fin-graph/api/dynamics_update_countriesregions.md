@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# PATCH Countries/Regions Method
+# Update countries/regions
 Update the properties of a countriesRegions object for Dynamics 365 for Financials.
 
 ## HTTP request

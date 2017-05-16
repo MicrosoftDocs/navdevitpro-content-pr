@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# DELETE IRS 1099 Code Method
+# Delete IRS 1099 code
 Delete a irs1099Codes from Dynamics 365 for Financials.
 
 ## HTTP request

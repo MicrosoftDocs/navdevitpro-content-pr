@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET IRS 1099 Code Method
+# Get IRS 1099 code
 Retrieve the properties and relationships of a irs1099Codes object for Dynamics 365 for Financials.
 
 ## HTTP request

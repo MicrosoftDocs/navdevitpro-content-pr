@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# POST Unit of Measure Method
+# Create unit of measure
 Create an unitsOfMeasure in Dynamics 365 for Financials.
 
 ## HTTP request

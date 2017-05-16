@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET Sales Invoice Line Method
+# Delete sales invoice line
 Delete a sales invoice line from Dynamics 365 for Financials.
 
 ## HTTP request

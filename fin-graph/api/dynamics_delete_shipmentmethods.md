@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# DELETE Shipment Method Method
+# Delete shipment method
 Delete a shipmentMethods from Dynamics 365 for Financials.
 
 ## HTTP request

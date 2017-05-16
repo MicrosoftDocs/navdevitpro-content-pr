@@ -14,7 +14,7 @@ ms.date: 03/08/2017
 ms.author: solsen
 ---
 
-# PATCH Dimension Line Method
+# Update cimension line
 Update the properties of a dimensionLine object for Dynamics 365 for Financials.
 
 ## HTTP request

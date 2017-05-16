@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# DELETE Sales Invoice Method
+# Delete sales invoice
 Delete a sales invoice from Dynamics 365 for Financials.
 
 

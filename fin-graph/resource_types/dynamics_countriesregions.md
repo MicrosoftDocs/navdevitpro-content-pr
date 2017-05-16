@@ -14,7 +14,7 @@ ms.date: 02/08/2017
 ms.author: solsen
 ---
 
-# Countries/Regions resource type
+# Countries/regions resource type
 Represents a countriesRegions resource type in Dynamics 365 for Financials.
 
 ## Methods

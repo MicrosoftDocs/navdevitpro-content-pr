@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# PATCH Payment Terms Method
+# Update payment terms
 Update the properties of a paymentTerms object for Dynamics 365 for Financials.
 
 ## HTTP request

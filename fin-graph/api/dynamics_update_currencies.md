@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# PATCH Currency Method
+# Update currency
 Update the properties of a currencies object for Dynamics 365 for Financials.
 
 ## HTTP request

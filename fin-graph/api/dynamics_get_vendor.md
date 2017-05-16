@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET Vendor Method
+# Get vendor
 Retrieve the properties and relationships of a vendor object for Dynamics 365 for Financials.
 
 

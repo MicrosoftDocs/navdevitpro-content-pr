@@ -14,7 +14,7 @@ ms.date: 02/08/2017
 ms.author: solsen
 ---
 
-# IRS 1099 Code resource type
+# IRS 1099 code resource type
 Represents a irs1099Codes resource type in Dynamics 365 for Financials.
 
 ## Methods

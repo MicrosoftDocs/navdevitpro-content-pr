@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# DELETE Sales Order Method
+# Delete sales order
 Delete a sales order from Dynamics 365 for Financials.
 
 

@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# PATCH Customer Payments Method
+# Update customer payments
 Update the properties of a customerPayments object for Dynamics 365 for Financials.
 
 ## HTTP request

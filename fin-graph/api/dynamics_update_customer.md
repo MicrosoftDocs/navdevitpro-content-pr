@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# PATCH Customer Method
+# Update customer
 Update the properties of a customers object for Dynamics 365 for Financials.
 
 

@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# DELETE Payment Terms Method
+# Delete payment terms
 Delete a paymentTerms from Dynamics 365 for Financials.
 
 ## HTTP request

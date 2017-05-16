@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET Item Categories Method
+# Get item categories
 Retrieve the properties and relationships of an itemCategories object for Dynamics 365 for Financials.
 
 ## HTTP request

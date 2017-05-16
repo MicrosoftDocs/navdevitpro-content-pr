@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET Journal Line Method
+# Get journal line
 Retrieve the properties and relationships of a journalLines object for Dynamics 365 for Financials.
 
 ## HTTP request

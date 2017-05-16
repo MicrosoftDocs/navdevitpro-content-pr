@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# PATCH Unit of Measure Method
+# Update unit of measure
 Update the properties of a unitsOfMeasure object for Dynamics 365 for Financials.
 
 

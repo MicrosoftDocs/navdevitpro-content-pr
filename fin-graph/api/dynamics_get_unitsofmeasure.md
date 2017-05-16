@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET Unit of Measure Method
+# Get unit of measure
 Retrieve the properties and relationships of a unitsOfMeasure object for Dynamics 365 for Financials.
 
 ## HTTP request

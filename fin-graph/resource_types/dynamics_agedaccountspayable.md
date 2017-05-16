@@ -14,7 +14,7 @@ ms.date: 02/03/2017
 ms.author: solsen
 ---
 
-# Aged Accounts Payable resource type
+# Aged accounts payable resource type
 Represents an agedAccountsPayable resource type in Dynamics 365 for Financials.
 
 ## Methods
