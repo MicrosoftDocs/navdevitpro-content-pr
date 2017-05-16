@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# PATCH Sales Order Method
+# Update sales order
 Update the properties of a salesOrders object for Dynamics 365 for Financials.
 
 ## HTTP request

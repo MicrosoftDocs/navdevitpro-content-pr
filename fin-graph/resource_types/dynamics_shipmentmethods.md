@@ -14,7 +14,7 @@ ms.date: 02/08/2017
 ms.author: solsen
 ---
 
-# Shipment Method resource type
+# Shipment method resource type
 Represents a shipmentMethod resource type in Dynamics 365 for Financials.
 
 

@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# PATCH IRS 1099 Code Method
+# Update IRS 1099 code
 Update the properties of a irs1099Codes object for Dynamics 365 for Financials.
 
 ## HTTP request

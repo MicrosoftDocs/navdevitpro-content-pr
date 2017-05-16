@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET Employee Method
+# Get employee
 Retrieve the properties and relationships of an employee object for Dynamics 365 for Financials.
 
 ## HTTP request

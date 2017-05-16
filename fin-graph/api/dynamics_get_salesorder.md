@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET Sales Order Method
+# Get sales order
 Retrieve the properties and relationships of a sales object for Dynamics 365 for Financials.
 
 ## HTTP request

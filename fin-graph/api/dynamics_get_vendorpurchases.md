@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET Vendor Purchases Method
+# Get vendor purchases
 Retrieve the properties and relationships of a vendorPurchases report object for Dynamics 365 for Financials.
 
 ## HTTP request

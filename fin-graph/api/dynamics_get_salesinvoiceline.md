@@ -14,7 +14,7 @@ ms.date: 03/08/2017
 ms.author: solsen
 ---
 
-# GET Sales Invoice Line Method
+# Get sales invoice line
 Retrieve the properties and relationships of a sales invoice line object for Dynamics 365 for Financials.
 
 ## Prerequisites

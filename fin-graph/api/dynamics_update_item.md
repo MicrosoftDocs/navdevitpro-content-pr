@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# PATCH Item Method
+# Update item
 Update the properties of an item object for Dynamics 365 for Financials.
 
 ## HTTP request

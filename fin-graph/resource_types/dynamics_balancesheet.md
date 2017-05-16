@@ -14,7 +14,7 @@ ms.date: 02/03/2017
 ms.author: solsen
 ---
 
-# Balance Sheet resource type
+# Balance sheet resource type
 Represents a balanceSheet resource type in Dynamics 365 for Financials.
 
 ## Methods

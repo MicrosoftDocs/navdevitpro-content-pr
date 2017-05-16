@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# DELETE Item Categories Method
+# Delete item categories
 Delete an itemCategories from Dynamics 365 for Financials.
 
 

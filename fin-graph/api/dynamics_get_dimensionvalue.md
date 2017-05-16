@@ -14,7 +14,7 @@ ms.date: 03/08/2017
 ms.author: solsen
 ---
 
-# GET Dimension Value Method
+# Get dimension value
 Retrieve the properties and relationships of a dimension value object for Dynamics 365 for Financials.
 
 ## Prerequisites

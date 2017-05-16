@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# DELETE Currency Method
+# Delete currency
 Delete a currencies from Dynamics 365 for Financials.
 
 ## HTTP request

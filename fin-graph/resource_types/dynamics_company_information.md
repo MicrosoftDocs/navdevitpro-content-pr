@@ -14,7 +14,7 @@ ms.date: 02/08/2017
 ms.author: solsen
 ---
 
-# Company Information resource type
+# Company information resource type
 Represents a companyInformation resource type in Dynamics 365 for Financials.
 
 ## Methods

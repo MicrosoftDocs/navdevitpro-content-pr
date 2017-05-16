@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET Company Information Method
+# Get company information
 Retrieve the properties and relationships of an companyInformation object for Dynamics 365 for Financials.
 
 ## HTTP request

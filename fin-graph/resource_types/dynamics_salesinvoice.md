@@ -14,7 +14,7 @@ ms.date: 02/03/2017
 ms.author: solsen
 ---
 
-# Sales Invoice resource type
+# Sales invoice resource type
 Represents a salesInvoice resource type in Dynamics 365 for Financials.
 
 ## Methods

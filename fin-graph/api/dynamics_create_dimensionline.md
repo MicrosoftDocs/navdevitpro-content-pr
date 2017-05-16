@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# POST Dimension Line Method
+# Create dimension line
 Create a dimensionLine in Dynamics 365 for Financials.
 
 ## HTTP request

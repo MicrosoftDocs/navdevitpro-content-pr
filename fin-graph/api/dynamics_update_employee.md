@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# PATCH Employee Method
+# Update employee
 Update the properties of an employee object for Dynamics 365 for Financials.
 
 

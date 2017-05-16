@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET Sales Order Line Method
+# Delete sales order line
 Delete a sales order line from Dynamics 365 for Financials.
 
 ## HTTP request

@@ -14,7 +14,7 @@ ms.date: 02/03/2017
 ms.author: solsen
 ---
 
-# Aged Accounts Receivable resource type
+# Aged accounts receivable resource type
 Represents an agedAccountsReceivable resource type in Dynamics 365 for Financials.
 
 ## Methods

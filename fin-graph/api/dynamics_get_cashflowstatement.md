@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET Cash Flow Statement Method
+# Get cash flow statement
 Retrieve the properties and relationships of a CashFlowStatement report object for Dynamics 365 for Financials.
 
 ## HTTP request

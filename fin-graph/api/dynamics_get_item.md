@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET Item Method
+# Get item
 Retrieve the properties and relationships of an item object for Dynamics 365 for Financials.
 
 

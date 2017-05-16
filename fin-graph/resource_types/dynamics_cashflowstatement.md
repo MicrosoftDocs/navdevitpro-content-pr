@@ -14,7 +14,7 @@ ms.date: 02/03/2017
 ms.author: solsen
 ---
 
-# Cash Flow Statement resource type
+# Cash flow statement resource type
 Represents an cashFlowStatement resource type in Dynamics 365 for Financials.
 
 ## Methods

@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# DELETE Unit of Measure Method
+# Delete unit of measure
 Delete an unitsOfMeasure from Dynamics 365 for Financials.
 
 ## HTTP request

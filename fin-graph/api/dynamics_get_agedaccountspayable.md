@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET Aged Accounts Payable Method
+# Get aged accounts payable
 Retrieve the properties and relationships of a agedAccountsPayable report object for Dynamics 365 for Financials.
 
 ## HTTP request

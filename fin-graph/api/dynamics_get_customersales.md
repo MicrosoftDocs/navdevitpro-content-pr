@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET Customer Sales Method
+# Get customer sales
 Retrieve the properties and relationships of a customerSales report object for Dynamics 365 for Financials.
 
 ## HTTP request

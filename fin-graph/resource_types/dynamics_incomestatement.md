@@ -14,7 +14,7 @@ ms.date: 02/03/2017
 ms.author: solsen
 ---
 
-# Income Statement resource type
+# Income statement resource type
 Represents an incomeStatement resource type in Dynamics 365 for Financials.
 
 ## Methods

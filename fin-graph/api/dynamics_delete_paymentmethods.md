@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# DELETE Payment Method Method
+# Delete payment method
 Delete a paymentMethods from Dynamics 365 for Financials.
 
 ## HTTP request
