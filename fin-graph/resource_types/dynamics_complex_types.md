@@ -10,7 +10,7 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/16/2017
+ms.date: 05/17/2017
 ms.author: solsen
 ---
 
@@ -45,7 +45,7 @@ Represents a Unit of Measure complex type in Dynamics 365 for Financials.
 |unitCode|string|The unique ID of the unit of measure.|
 |unitName|string|Specifies the description of the unit of measure.|
 |symbol|string|Specifies a graphical representation of the unit of measure.|
-|unitConversion|Specifies how the unit of measure will be converted to the base unit of measure.|
+|unitConversion|Specifies the conversion rate to a different (target) unit of measure.|
 
 ```json
 "UnitOfMeasure" 
@@ -64,8 +64,8 @@ Represents a Unit of Measure Conversion complex type in Dynamics 365 for Financi
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|toUnitOfMeasure|string|Specifies the base unit of measure from the alternate unit of measure.|
-|fromToConversionRate|decimal|Specifies how many units of the item’s base unit of measure are handled at a time in the process that the alternate unit of measure is used in, such as a sales unit of measure used in sales.|
+|toUnitOfMeasure|string|Specifies the unit of measure to convert to.|
+|fromToConversionRate|decimal|Specifies what the (source) base unit of measure is multiplied with in order to convert to the target unit of measure.|
 
 ```json
 "ItemUnitOfMeasureConversion" 
