@@ -55,5 +55,5 @@ Content-type: application/json
   "paymentTerms": "COD"
 }
 
-## See Also
+## See also
 [Microsoft Graph Reference](../api/dynamics_graph_reference.md)  

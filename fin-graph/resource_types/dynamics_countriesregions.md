@@ -55,5 +55,5 @@ Here is a JSON representation of the countriesRegions.
 
 ```
 
-## See Also
+## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  

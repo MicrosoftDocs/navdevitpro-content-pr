@@ -53,5 +53,5 @@ Here is a JSON representation of the paymentMethods.
 
 ```
 
-## See Also
+## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  

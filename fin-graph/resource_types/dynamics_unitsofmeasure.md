@@ -54,5 +54,5 @@ Here is a JSON representation of the unitsOfMeasure.
 
 ```
 
-## See Also
+## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  

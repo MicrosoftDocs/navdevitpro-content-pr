@@ -48,4 +48,4 @@ In this section, you can find API documentation for Microsoft Graph.
 |employee resource type|[employee](../resource_types/dynamics_employee.md)|
 |complex types JSON|[Complex Types JSON](../resource_types/dynamics_complex_types.md)|
 
-## See Also
+## See also
