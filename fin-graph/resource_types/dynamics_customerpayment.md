@@ -32,9 +32,9 @@ Represents a customerPayment resource type in Dynamics 365 for Financials.
 |id|GUID|The unique ID of the customer payment. Read-Only.|
 |lineNumber|integer|The number of the customer payment.|
 |customerId|GUID|The unique ID of the customer that the payment is related to.|
-|contactId|string, maximum size 250|The exchange contact id for the given customer. If a customer id is not specified, we will use the contact id to find it.|
 |customerNumber|string, maximum size 20|The number of the customer that the payment is related to.|
-|postingDate|date|The date that the customer payment is posted. Read-Only.|
+|contactId|string, maximum size 250|The exchange contact id for the given customer. If a customer id is not specified, we will use the contact id to find it.|
+|postingDate|date|The date that the customer payment is posted.|
 |documentNumber|string, maximum size 20|Specifies a document number for the customer payment.|
 |externalDocumentNumber|string, maximum size 20|Specifies an external document number for the customer payment.|
 |amount|decimal|Specifies the total amount (including VAT) that the customer payment consists of.|
@@ -42,26 +42,26 @@ Represents a customerPayment resource type in Dynamics 365 for Financials.
 |appliesToInvoiceNumber|string, maximum size 20|The number of the invoice that the payment is related to.|
 |description|string, maximum size 50|The description of the customer payment, provided by the user or autocreated.|
 |comment|string, maximum size 250|A user specified comment on the customer payment.|
-|financialDimension1|string, maximum size 20|Specifies the dimension 1 value code that the customer payment is linked to.|
-|financialDimension2|string, maximum size 20|Specifies the dimension 2 value code that the customer payment is linked to.|
 |lastModifiedDateTime|datetime|The last datetime the customer payment was modified. Read-Only.|
 
 
 ## Relationships
-None
+A customer payment can be a "Parent Entity" of the dimension lines.
+
+A Customer (customerId) must exist in the Customers table.
+
+An Invoice (appliesToInvoiceId) must exist in the Sales Invoices Table.
+
 
 ## JSON representation
 
 Here is a JSON representation of the resource.
-
-
-```json
 {
     "id": "GUID",
     "lineNumber": integer,
     "customerId": "GUID",
-    "contactId": "string",
     "customerNumber": "string",
+    "contactId": "string",
     "postingDate": "date",
     "documentNumber": "string",
     "externalDocumentNumber": "string",
@@ -70,8 +70,6 @@ Here is a JSON representation of the resource.
     "appliesToInvoiceNumber": "string",
     "description": "string",
     "comment": "string",
-    "financialDimension1": "string",
-    "financialDimension2": "string",
     "lastModifiedDateTime": "datetime"
 }
 ```

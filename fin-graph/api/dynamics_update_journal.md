@@ -1,6 +1,6 @@
 ---
-title: UPDATE customer payments method | Microsoft Docs
-description: Updates a customer payments.
+title: UPDATE journal method | Microsoft Docs
+description: Updates a journal.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,13 +14,13 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# Update customer payments
-Update the properties of a customerPayments object for Dynamics 365 for Financials.
+# Update journal
+Update the properties of a journal object for Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-PATCH /financials/companies/{id}/customerPayments/{id}
+PATCH /financials/companies/{id}/journals/{id}
 ```
 
 ## Request headers
@@ -28,13 +28,13 @@ PATCH /financials/companies/{id}/customerPayments/{id}
 |------|-----|
 |Authorization |Bearer. Required.|
 |Content-Type  |application/json|
-|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the customerPayments, the customerPayments will not be updated. |
+|If-Match      |Required. When this request header is included and the eTag provided does not match the current tag on the journals, the journals will not be updated. |
 
 ## Request body
 In the request body, supply the values for relevant fields that should be updated. Existing properties that are not included in the request body will maintain their previous values or be recalculated based on changes to other property values. For best performance you shouldn't include existing values that haven't changed.
 
 ## Response
-If successful, this method returns a ```200 OK``` response code and an updated customerPayments object in the response body.
+If successful, this method returns a ```200 OK``` response code and an updated journal object in the response body.
 
 ## Example
 
@@ -42,11 +42,12 @@ If successful, this method returns a ```200 OK``` response code and an updated c
 
 Here is an example of the request.
 ```json
-PATCH https://graph.microsoft.com/beta/financials/companies/{id}/customerPayments{id}
+PATCH https://graph.microsoft.com/beta/financials/companies/{id}/journals{id}
 Content-type: application/json
 
 {
-  "amount": 2000
+  "code": "EXPENSE,
+  "displayName": "Expense Batch"
 }
 ```
 
@@ -60,20 +61,11 @@ Content-type: application/json
 
 {
   "id": "id-value",
-  "lineNumber": 10000,
-  "customerId": "customerId-value",
-  "customerNumber": "",
-  "contactId": "contactId-value",
-  "postingDate": "2015-12-31",
-  "documentNumber": "D00001",
-  "externalDocumentNumber": "",
-  "amount": -2000,
-  "appliesToInvoiceId": "appliesToInvoiceId-value",
-  "appliesToInvoiceNumber": "100000",
-  "description": "",
-  "comment": "",
-  "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
+  "code": "EXPENSE",
+  "displayName": "Expense Batch",
+  "lastModifiedDateTime": "2017-05-17T11:30:01.313Z"
 }
 ```
+
 ## See also
 [Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
