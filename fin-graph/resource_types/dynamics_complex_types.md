@@ -162,14 +162,12 @@ Represents a Line Details complex type in Dynamics 365 for Financials.
 |:---------------|:--------|:----------|
 |number|string|The sequence number of the document line details.|
 |displayName|string|The display name of the line.|
-|description|string|The description of the line.|
 
 ```json
 "documentLineObjectDetails" 
 { 
 "number": "string", 
 "displayName": "string" 
-"description": "string" 
 } 
 ```
 
