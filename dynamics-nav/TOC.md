@@ -63,7 +63,7 @@
 ## [Security Overview](Security-Overview.md)
 ## [Enhancing Microsoft Dynamics NAV Server Security](Enhancing-Microsoft-Dynamics-NAV-Server-Security.md)
 ## [Data Security](Data-Security.md)
-## [Configuring User Authentication](Configuring-Authenticaion.md)
+## [Configuring User Authentication](Configuring-Authentication.md)
 ## [Business Areas and Functional Areas](Business-Areas-and-Functional-Areas.md)
 # [Technical Reference](Technical-Reference.md)
 ## [C/SIDE Reference Guide](C-SIDE-Reference-Guide.md)
