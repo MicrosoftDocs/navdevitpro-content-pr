@@ -51,5 +51,5 @@ Here is a JSON representation of the itemCategories.
 }
 ```
 
-## See Also
+## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  

@@ -65,5 +65,5 @@ Content-type: application/json
 **Response**
 ```
 
-## See Also
+## See also
 [Microsoft Graph Reference](../api/dynamics_graph_reference.md)  

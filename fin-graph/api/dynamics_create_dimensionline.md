@@ -53,5 +53,5 @@ Content-type: application/json
   "valueCode" : "SALES"
 }
 
-## See Also
+## See also
 [Microsoft Graph Reference](../api/dynamics_graph_reference.md)

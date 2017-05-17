@@ -44,8 +44,8 @@ Represents a Unit of Measure complex type in Dynamics 365 for Financials.
 |:---------------|:--------|:----------|
 |unitCode|string|The unique ID of the unit of measure.|
 |unitName|string|Specifies the description of the unit of measure.|
-|symbol|string||
-|unitConversion|[NAV.ItemUnitOfMeasureConversion](dynamics_complex_types.md)||
+|symbol|string|Specifies a graphical representation of the unit of measure.|
+|unitConversion|Specifies how the unit of measure will be converted to the base unit of measure.|
 
 ```json
 "UnitOfMeasure" 
@@ -64,8 +64,8 @@ Represents a Unit of Measure Conversion complex type in Dynamics 365 for Financi
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|toUnitOfMeasure|string||
-|fromToConversionRate|decimal||
+|toUnitOfMeasure|string|Specifies the base unit of measure from the alternate unit of measure.|
+|fromToConversionRate|decimal|Specifies how many units of the item’s base unit of measure are handled at a time in the process that the alternate unit of measure is used in, such as a sales unit of measure used in sales.|
 
 ```json
 "ItemUnitOfMeasureConversion" 
@@ -173,5 +173,5 @@ Represents a Line Details complex type in Dynamics 365 for Financials.
 } 
 ```
 
-## See Also
+## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
