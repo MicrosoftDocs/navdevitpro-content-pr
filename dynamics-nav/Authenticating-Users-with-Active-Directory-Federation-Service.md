@@ -48,7 +48,7 @@ You must complete these steps separately for [!INCLUDE[nav_web_md](includes/nav_
     The **Add Relying Party Trust Wizard** appears.
 3.  In the **Welcome** step, choose **Claims aware**, and then choose **Start**.
 4.  In the **Select Data Source** step, choose **Enter data about the relying party manually**, and then choose **Next**.
-5.  In the **Specify Display Name** step, give the relying party a name, such as *Dynamics NAV Web Client* or *Dynamics NAV Windows Client*, and then choose **Next**.
+5.  In the **Specify Display Name** step, give the relying party a name, such as ```Dynamics NAV Web Client``` or ```Dynamics NAV Windows Client```, and then choose **Next**.
 6.  In the **Configure Certificate** step, choose **Next** to skip specifying the token encryption certificate.
 
     This assumes that the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] is running https.
@@ -141,10 +141,10 @@ JWT tokens are not supported by AD FS 2.0 or [!INCLUDE[navcrete_md](includes/nav
     ```
 
 ## Configure Dynamics NAV to use AD FS authentication
-To setup  [!INCLUDE[navnow_md](includes/navnow_md.md)] for ADFS authentication, you must modify the configuration of the [!INCLUDE[nav_server](includes/nav_server_md.md)], [!INCLUDE[nav_web_md](includes/nav_web_md.md)], and [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)]s.
+To setup [!INCLUDE[navnow_md](includes/navnow_md.md)] for ADFS authentication, you must modify the configuration of the [!INCLUDE[nav_server](includes/nav_server_md.md)], [!INCLUDE[nav_web_md](includes/nav_web_md.md)], and [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)]s.
 
 ### Dynamics NAV Server instance setup
-The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configured to allow claims based authentication. You can do this by using the [!INCLUDE[nav_admin_md](includes/nav_admin_md.md)], the [Set-NAVServerConfiguration cmdlet](Microsoft.Dynamics.Nav.Management/Set-NAVServerConfiguration.md) in the [!INCLUDE[nav_shell_md](includes/nav_shell_md.md)], or by modifying the server instance's CustomSettings.config file directly.
+The [!INCLUDE[nav_server](includes/nav_server_md.md)] instance must be configured to allow claims based authentication. You can do this by using the [!INCLUDE[nav_admin_md](includes/nav_admin_md.md)], the [Set-NAVServerConfiguration cmdlet](Microsoft.Dynamics.Nav.Management/Set-NAVServerConfiguration.md) in the [!INCLUDE[navnow_md](includes/navnow_md.md)] Administration Shell, or by modifying the server instance's CustomSettings.config file directly.
 
 1.  Set the **Credential Type** (ClientServicesCredentialType) to ```NavUserPassword``` or ```AccessControlService```.
     -   If you set this to ```NavUserPassword```, client users can use either NavUserPassword or claims based authentication to access [!INCLUDE[navnow](includes/navnow_md.md)]. The CustomSetting.config file should include the following line:
