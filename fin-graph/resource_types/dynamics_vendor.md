@@ -76,5 +76,5 @@ Here is a JSON representation of the vendor.
 
 ```
 
-## See Also
+## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  

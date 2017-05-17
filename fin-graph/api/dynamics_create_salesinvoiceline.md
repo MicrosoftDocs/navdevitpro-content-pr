@@ -52,5 +52,5 @@ Content-type: application/json
 "quantity": 9
 }
 
-## See Also
+## See also
 [Microsoft Graph Reference](../api/dynamics_graph_reference.md)

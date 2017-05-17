@@ -68,5 +68,5 @@ Here is a JSON representation of the companyInformation
 
 ```
 
-## See Also
+## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  

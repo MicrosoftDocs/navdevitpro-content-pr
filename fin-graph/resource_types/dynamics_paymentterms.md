@@ -61,5 +61,5 @@ Here is a JSON representation of the paymentTerms.
 
 ```
 
-## See Also
+## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  

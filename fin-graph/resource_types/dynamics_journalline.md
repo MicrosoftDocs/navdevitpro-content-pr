@@ -70,5 +70,5 @@ Here is a JSON representation of the resource.
 }
 ```
 
-## See Also
+## See also
 [Graph Reference](../api/dynamics_graph_reference.md)  
