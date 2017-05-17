@@ -43,16 +43,23 @@ These steps are done by using the AD FS Management console on the server where A
 You must complete these steps separately for [!INCLUDE[nav_web_md](includes/nav_web_md.md)] and [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)].
 
 1.  Open **Server Manager** on the computer that is running AD FS, and the choose **AD FS** to start **AD FS Management**.
-2.  Right-click **Relying Party Trusts**, and then choose **Add Relying Party Trust**.
 
+    ![AD FS Management](media/ADFS_Console.png "AD FS Management")
+2.  Right-click **Relying Party Trusts**, and then choose **Add Relying Party Trust**.
     The **Add Relying Party Trust Wizard** appears.
 3.  In the **Welcome** step, choose **Claims aware**, and then choose **Start**.
+
+    ![AD FS Relying Trust Wizard](media/ADFS_Relying_Trust_Wizard.png "AD FS Relying Trust Wizard")
 4.  In the **Select Data Source** step, choose **Enter data about the relying party manually**, and then choose **Next**.
 5.  In the **Specify Display Name** step, give the relying party a name, such as ```Dynamics NAV Web Client``` or ```Dynamics NAV Windows Client```, and then choose **Next**.
 6.  In the **Configure Certificate** step, choose **Next** to skip specifying the token encryption certificate.
 
     This assumes that the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] is running https.
-7.  In the **Configure URL** step, select the **Enable support for the WS-federation Passive protocol** check box, and then in **Relying party WS-Federation Passive Control URL** field, enter the URL for the [!INCLUDE[navnow](includes/navnow_md.md)] client according to the following:
+7.  In the **Configure URL** step, select the **Enable support for the WS-federation Passive protocol** check box.
+
+    ![AD FS Configure URL](media/ADFS_Relying_Trust_ConfigureURL.png "AD FS Configure URL")
+
+    Then, in **Relying party WS-Federation Passive Control URL** field, enter the URL for the [!INCLUDE[navnow](includes/navnow_md.md)] client according to the following:
 
     -    If you are setting up AD FS for the [!INCLUDE[nav_web_md](includes/nav_web_md.md)], set this to the full URL for the Web client. The URL typically has the format:
 
@@ -107,6 +114,8 @@ Based on whether you will be using SAML tokens or JSON Web Tokens (JWT), which a
 
 ### Set up support for SAML 1.0 tokens
 1. In the **Edit Claim Rules** dialog box, choose **Add Rule**.
+
+    ![AD FS Edit Claims Rule](media/ADFS_Edit_Claims-Rule.png "AD FS Edit Claims Rule")
 2. In the **Select Rule Template** step, choose **Transform an incoming Claim** template, and then choose **Next**.
 3. In the **Edit Rule** step, set the **Claim rule name** to ```name```, the **Incoming claim type** to ```UPN```, and the **Outgoing claim type** to ```Name```. Choose **OK** when done.
 4. Repeat steps 1 to 3 to add another rule, except this time, set the **Claim rule name** to ```objectidentifier```, the **Incoming claim type** to ```Primary SID```, and the **Outgoing claim type** to:
@@ -118,10 +127,14 @@ Based on whether you will be using SAML tokens or JSON Web Tokens (JWT), which a
     Choose **OK** when done.
 5. Close the **Edit Claim Rules** dialog box.
 
+    ![AD FS Edit Claims Rule Done](media/ADFS_EditClaimsRule2.png "AD FS Edit Claims Rule Done")
+
 ### Set up support for JSON Web tokens (JWT)
 JWT tokens are not supported by AD FS 2.0 or [!INCLUDE[navcrete_md](includes/navcrete_md.md)] (Cummulative Update 14 and earlier).
 
 1.  In the **Edit Claim Rules** dialog box, choose **Add Rule**.
+
+    ![AD FS Edit Claims Rule](media/ADFS_Edit_Claims-Rule.png "AD FS Edit Claims Rule")
 2.  In the **Select Rule Template** step, choose **Send Claims Using a Custom Rule** template, and then choose **Next**.
 3. Set the **Claim rule name** to ```name```, and the  **Custom rule** to:
 
@@ -134,6 +147,7 @@ JWT tokens are not supported by AD FS 2.0 or [!INCLUDE[navcrete_md](includes/nav
     c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"] => issue(Type = "oid", Issuer = c.Issuer, OriginalIssuer = c.OriginalIssuer, Value = c.Value, ValueType = c.ValueType);
     ```
 5.  Close the **Edit Claim Rules** dialog box.
+    ![AD FS Edit Claims Rule Done](media/ADFS_EditClaimsRule2.png "AD FS Edit Claims Rule Done")
 6.  Start Window Powershell, and run the following command to define the token type for the relying party to be JWT:
 
     ```
