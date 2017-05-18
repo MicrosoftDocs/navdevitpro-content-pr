@@ -42,4 +42,4 @@ Cancels and deletes a scheduled task that runs a specific codeunit.
  [TaskScheduler Data Type](TaskScheduler-Data-Type.md)   
  [CREATETASK Function](CREATETASK-Function.md)   
  [TASKEXISTS Function](TASKEXISTS-Function.md)   
- [SETTASKASREADY Function](SETTASKASREADY-Function.md)
+ [SETTASKREADY Function](SETTASKREADY-Function.md)
