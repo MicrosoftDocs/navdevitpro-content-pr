@@ -19,7 +19,7 @@ Read these articles to learn about how to configure [!INCLUDE[navnow](includes/n
 
  [Authenticating Users with Azure Active Directory](Authenticating-Users-with-Azure-Active-Directory.md)  
 
- [Authenticating Users with Active Directory Federation Service](Authenticating-Users-with-Active-Directory-Federation-Service.md)
+ [Authenticating Users with Active Directory Federation Services](Authenticating-Users-with-Active-Directory-Federation-Service.md)
 
 ## See Also  
  [Managing Users](Managing-Users.md)   
