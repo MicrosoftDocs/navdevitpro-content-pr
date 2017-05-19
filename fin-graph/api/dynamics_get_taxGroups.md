@@ -58,4 +58,4 @@ Here is an example of the response. Note: The response object shown here may be 
 
 
 ## See Also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with Dynamics 365 for Financials in Microsoft Graph](../api/dynamics_graph_reference.md)  
