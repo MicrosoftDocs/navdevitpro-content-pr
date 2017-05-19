@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# DELETE Tax Group Method
+# Delete tax groups
 Delete a taxGroups from Dynamics 365 for Financials.
 
 ## HTTP request
