@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# PATCH Tax Groups Method
+# Update tax groups
 Update the properties of a taxGroups object for Dynamics 365 for Financials.
 
 ## HTTP request
@@ -67,4 +67,4 @@ Content-type: application/json
 
 
 ## See Also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with Dynamics 365 for Financials in Microsoft Graph](../api/dynamics_graph_reference.md)  
