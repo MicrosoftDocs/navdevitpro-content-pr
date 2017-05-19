@@ -53,4 +53,4 @@ HTTP/1.1 204 No Content
 ```
 
 ## See Also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with Dynamics 365 for Financials in Microsoft Graph](../api/dynamics_graph_reference.md)  
