@@ -839,7 +839,7 @@
 # [EXPORTDATA Function (Database)](EXPORTDATA-Function--Database-.md)
 # [BlankZero Property](BlankZero-Property.md)
 # [Tools for Monitoring Performance Counters and Events](Tools-for-Monitoring-Performance-Counters-and-Events.md)
-# [SETTASKASREADY Function](SETTASKASREADY-Function.md)
+# [SETTASKREADY Function](SETTASKREADY-Function.md)
 # [Extending Microsoft Dynamics NAV Using Extension Packages](Extending-Microsoft-Dynamics-NAV-Using-Extension-Packages.md)
 # [COLUMNNAME Function](COLUMNNAME-Function.md)
 # [OnMissingPermission Property](OnMissingPermission-Property.md)

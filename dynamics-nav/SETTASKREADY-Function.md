@@ -1,5 +1,5 @@
 ---
-title: "SETTASKASREADY Function"
+title: "SETTASKREADY Function"
 ms.custom: na
 ms.date: 06/05/2016
 ms.reviewer: na
@@ -11,13 +11,13 @@ ms.assetid: 90204123-a179-409d-921e-fc65f240596d
 caps.latest.revision: 3
 manager: edupont
 ---
-# SETTASKASREADY Function
+# SETTASKREADY Function
 Sets a task that runs a codeunit to the ready state. The task will not run unless it is in the ready state.  
 
 ## Syntax  
 
 ```  
-[OK =: ]SETTASKASREADY(Task[,NotBefore])  
+[OK =: ]SETTASKREADY(Task[,NotBefore])  
 ```  
 
 #### Parameters  
@@ -45,7 +45,7 @@ Sets a task that runs a codeunit to the ready state. The task will not run unles
  For more information about tasks and **TASKSCEDULER** data type functions, see managing tasks [Task Scheduler](Task-Scheduler.md).  
 
 ## Example  
- The following example creates a task, and then uses the SETTASKASREADY function to set the task to ready.  
+ The following example creates a task, and then uses the SETTASKREADY function to set the task to ready.  
 
  The code requires that you create the following C/AL variable.  
 
@@ -55,7 +55,7 @@ Sets a task that runs a codeunit to the ready state. The task will not run unles
 
 ```  
 TaskID := TASKSCHEDULER.CREATETASK(CODEUNIT::"Job Queue Dispatcher", CODEUNIT::"Job Queue Error Handler");  
-TASKSCHEDULER.SETTASKASREADY(taskID);  
+TASKSCHEDULER.SETTASKREADY(taskID);  
 ```  
 
 ## See Also  
