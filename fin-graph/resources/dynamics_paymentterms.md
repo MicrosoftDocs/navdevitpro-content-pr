@@ -62,4 +62,4 @@ Here is a JSON representation of the paymentTerms.
 ```
 
 ## See also
-[Working with Dynamics 365 for Finance and Operations, Business Edition in Microsoft Graph](../resources/dynamics_overview.md) 
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
