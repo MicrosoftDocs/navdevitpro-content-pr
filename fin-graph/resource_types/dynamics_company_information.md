@@ -69,4 +69,4 @@ Here is a JSON representation of the companyInformation
 ```
 
 ## See also
-[Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with Dynamics 365 for Finance and Operations, Business Edition in Microsoft Graph](../resource_types/dynamics_overview.md) 
