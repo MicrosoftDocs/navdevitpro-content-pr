@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET Tax Groups Method
+# Get tax groups
 Retrieve the properties and relationships of a taxGroups object for Dynamics 365 for Financials.
 
 ## HTTP request
