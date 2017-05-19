@@ -19,33 +19,33 @@ In this section, you can find API documentation for Microsoft Graph.
 
 |For Resource Type|See|
 |-----------------|---|
-|item resource type|[item](../resource_types/dynamics_item.md)|
-|item categories resource type|[itemCategories](../resource_types/dynamics_itemcategories.md)|
-|customer resource type|[customer](../resource_types/dynamics_customer.md)|
-|vendor resource type|[vendor](../resource_types/dynamics_vendor.md)|
-|salesInvoice resource type|[salesInvoice](../resource_types/dynamics_salesinvoice.md)|
-|salesInvoiceLine resource type|[salesInvoiceLine](../resource_types/dynamics_salesinvoiceline.md)|
-|salesOrder resource type|[salesOrder](../resource_types/dynamics_salesorder.md)|
-|salesOrderLine resource type|[salesOrderLine](../resource_types/dynamics_salesorderline.md)|
-|shipmentMethods resource type|[shipmentMethods](../resource_types/dynamics_shipmentmethods.md)|
-|journalLine resource type|[journalLine](../resource_types/dynamics_journalline.md)|
-|paymentMethods resource type|[paymentMethods](../resource_types/dynamics_paymentmethods.md)|
-|paymentTerms resource type|[paymentTerms](../resource_types/dynamics_paymentterms.md)|
-|irs1099 resource type|[irs1099](../resource_types/dynamics_irs1099.md)|
-|account resource type|[account](../resource_types/dynamics_account.md)|
-|countriesRegions resource type|[countriesRegions](../resource_types/dynamics_countriesregions.md)|
-|currencies resource type|[currencies](../resource_types/dynamics_currencies.md)|
-|unitsOfMeasure resource type|[unitsOfMeasure](../resource_types/dynamics_unitsofmeasure.md)|
-|balance sheet resource type|[balanceSheet](../resource_types/dynamics_balancesheet.md)|
-|trial balance resource type|[trialBalance](../resource_types/dynamics_trialbalance.md)|
-|income statement resource type|[incomeStatement](../resource_types/dynamics_incomestatement.md)|
-|cash flow statement resource type|[cashFlowStatement](../resource_types/dynamics_cashflowstatement.md)|
-|aged accounts receivable resource type|[agedAccountsReceivable](../resource_types/dynamics_agedaccountsreceivable.md)|
-|aged accounts payable resource type|[agedAccountsPayable](../resource_types/dynamics_agedaccountspayable.md)|
-|retained earnings statement resource type|[retainedEarningsStatement](../resource_types/dynamics_retainedearningsstatement.md)|
-|customer sales resource type|[customerSales](../resource_types/dynamics_customersales.md)|
-|vendor purchases resource type|[vendorPurchases](../resource_types/dynamics_vendorpurchases.md)|
-|employee resource type|[employee](../resource_types/dynamics_employee.md)|
-|complex types JSON|[Complex Types JSON](../resource_types/dynamics_complex_types.md)|
+|item resource type|[item](../resources/dynamics_item.md)|
+|item categories resource type|[itemCategories](../resources/dynamics_itemcategories.md)|
+|customer resource type|[customer](../resources/dynamics_customer.md)|
+|vendor resource type|[vendor](../resources/dynamics_vendor.md)|
+|salesInvoice resource type|[salesInvoice](../resources/dynamics_salesinvoice.md)|
+|salesInvoiceLine resource type|[salesInvoiceLine](../resources/dynamics_salesinvoiceline.md)|
+|salesOrder resource type|[salesOrder](../resources/dynamics_salesorder.md)|
+|salesOrderLine resource type|[salesOrderLine](../resources/dynamics_salesorderline.md)|
+|shipmentMethods resource type|[shipmentMethods](../resources/dynamics_shipmentmethods.md)|
+|journalLine resource type|[journalLine](../resources/dynamics_journalline.md)|
+|paymentMethods resource type|[paymentMethods](../resources/dynamics_paymentmethods.md)|
+|paymentTerms resource type|[paymentTerms](../resources/dynamics_paymentterms.md)|
+|irs1099 resource type|[irs1099](../resources/dynamics_irs1099.md)|
+|account resource type|[account](../resources/dynamics_account.md)|
+|countriesRegions resource type|[countriesRegions](../resources/dynamics_countriesregions.md)|
+|currencies resource type|[currencies](../resources/dynamics_currencies.md)|
+|unitsOfMeasure resource type|[unitsOfMeasure](../resources/dynamics_unitsofmeasure.md)|
+|balance sheet resource type|[balanceSheet](../resources/dynamics_balancesheet.md)|
+|trial balance resource type|[trialBalance](../resources/dynamics_trialbalance.md)|
+|income statement resource type|[incomeStatement](../resources/dynamics_incomestatement.md)|
+|cash flow statement resource type|[cashFlowStatement](../resources/dynamics_cashflowstatement.md)|
+|aged accounts receivable resource type|[agedAccountsReceivable](../resources/dynamics_agedaccountsreceivable.md)|
+|aged accounts payable resource type|[agedAccountsPayable](../resources/dynamics_agedaccountspayable.md)|
+|retained earnings statement resource type|[retainedEarningsStatement](../resources/dynamics_retainedearningsstatement.md)|
+|customer sales resource type|[customerSales](../resources/dynamics_customersales.md)|
+|vendor purchases resource type|[vendorPurchases](../resources/dynamics_vendorpurchases.md)|
+|employee resource type|[employee](../resources/dynamics_employee.md)|
+|complex types JSON|[Complex Types JSON](../resources/dynamics_complex_types.md)|
 
 ## See also
