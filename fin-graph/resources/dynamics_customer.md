@@ -32,15 +32,15 @@ Represents a customer resource type in Dynamics 365 for Financials.
 |id|GUID|The unique ID of the item. Read-Only.|
 |number|string|The customer number.|
 |displayName|string|Specifies the customer's name. This name will appear on all sales documents for the customer.|
-|address|[NAV.PostalAddress](../resource_types/dynamics_complex_types.md)|Specifies the customer's address. This address will appear on all sales documents for the customer.|
+|address|[NAV.PostalAddress](../resources/dynamics_complex_types.md)|Specifies the customer's address. This address will appear on all sales documents for the customer.|
 |phoneNumber|string|Specifies the customer's telephone number.|
 |email|string|Specifies the customer's email address.|
 |website|string|Specifies the customer's home page address.|
 |taxLiable|boolean|Specifies if the customer or vendor is liable for sales tax. Set to **True** if the customer is tax liable.|
 |currencyCode|numeric|The default currency code for the customer.|
-|paymentTerms|[NAV.PaymentTermsType](../resource_types/dynamics_complex_types.md)|Specifies a code that indicates the payment terms that you require of the customer.|
-|paymentMethod|[NAV.PaymentMethod](../resource_types/dynamics_complex_types.md)|Specifies how the customer usually submits payment, such as bank transfer or check.|
-|shipmentMethod|[NAV.ShipmentMethod](../resource_types/dynamics_complex_types.md)|Specifies which shipment method to use when you ship items to the customer.|
+|paymentTerms|[NAV.PaymentTermsType](../resources/dynamics_complex_types.md)|Specifies a code that indicates the payment terms that you require of the customer.|
+|paymentMethod|[NAV.PaymentMethod](../resources/dynamics_complex_types.md)|Specifies how the customer usually submits payment, such as bank transfer or check.|
+|shipmentMethod|[NAV.ShipmentMethod](../resources/dynamics_complex_types.md)|Specifies which shipment method to use when you ship items to the customer.|
 |blocked|string|Specifies that transactions with the customer cannot be posted. Set to **"All"** if the customer is blocked, set to blank if not blocked.|
 |balance|numeric|Specifies the payment amount that the customer owes for completed sales. This value is also known as the customer's balance. Read-Only.|
 |lastModifiedDateTime|datetime|The last datetime the customer was modified. Read-Only.|  
@@ -82,4 +82,4 @@ Here is a JSON representation of the resource.
 
 ```
 ## See also
-[Working with Dynamics 365 for Finance and Operations, Business Edition in Microsoft Graph](../resource_types/dynamics_overview.md) 
+[Working with Dynamics 365 for Finance and Operations, Business Edition in Microsoft Graph](../resources/dynamics_overview.md) 

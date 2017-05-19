@@ -30,7 +30,7 @@ Represents a companyInformation resource type in Dynamics 365 for Financials.
 |:---------------|:--------|:----------|
 |id|GUID|The unique ID of the company. Read-Only.|
 |displayName|string|The company's display name.|
-|address|[NAV.PostalAddress](../resource_types/dynamics_complex_types.md)|The company's address. View the complex type for additional detail.|
+|address|[NAV.PostalAddress](../resources/dynamics_complex_types.md)|The company's address. View the complex type for additional detail.|
 |phoneNumber|string|The company's telephone number.|
 |faxNumber|string|The company's fax number.|
 |email|string|The company's email address.|
@@ -69,4 +69,4 @@ Here is a JSON representation of the companyInformation
 ```
 
 ## See also
-[Working with Dynamics 365 for Finance and Operations, Business Edition in Microsoft Graph](../resource_types/dynamics_overview.md) 
+[Working with Dynamics 365 for Finance and Operations, Business Edition in Microsoft Graph](../resources/dynamics_overview.md) 

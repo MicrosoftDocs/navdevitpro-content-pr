@@ -36,7 +36,7 @@ Represents an employee resource type in Dynamics 365 for Financials.
 |middleName|string|The middle name of the employee.|
 |surname|string|The surname of the employee|
 |jobTitle|string|The full name of the employee|
-|address|[NAV.PostalAddress](../resource_types/dynamics_complex_types.md)|Specifies the employee's address. This address will appear on all resource documents for the employee.|
+|address|[NAV.PostalAddress](../resources/dynamics_complex_types.md)|Specifies the employee's address. This address will appear on all resource documents for the employee.|
 |phoneNumber|string|Specifies the employee's telephone number.|
 |mobilePhone|string|Specifies the employee's mobile telephone number.|
 |email|string|Specifies the employee's email address.|
@@ -79,4 +79,4 @@ Here is a JSON representation of the resource.
 
 ```
 ## See also
-[Working with Dynamics 365 for Finance and Operations, Business Edition in Microsoft Graph](../resource_types/dynamics_overview.md) 
+[Working with Dynamics 365 for Finance and Operations, Business Edition in Microsoft Graph](../resources/dynamics_overview.md) 
