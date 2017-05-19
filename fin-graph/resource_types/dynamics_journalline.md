@@ -30,6 +30,7 @@ Represents a journalLine resource type in Dynamics 365 for Financials.
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
 |id|GUID|The unique ID of the journal line. Read-Only.|
+|journalDisplayName|string, maximum size 10|The display name of the journal that this line belongs to. Read-Only.|
 |lineNumber|integer|The number of the journal line.|
 |accountId|GUID|The unique ID of the account that the journal line is related to.|
 |accountNumber|string, maximum size 20|The number of the account that the journal line is related to.|
@@ -39,13 +40,15 @@ Represents a journalLine resource type in Dynamics 365 for Financials.
 |amount|decimal|Specifies the total amount (including VAT) that the journal line consists of.|
 |description|string, maximum size 50|The description of the journal line, provided by the user or autocreated.|
 |comment|string, maximum size 250|A user specified comment on the journal line.|
-|financialDimension1|string, maximum size 20|Specifies the dimension 1 value code that the journal line is linked to.|
-|financialDimension2|string, maximum size 20|Specifies the dimension 2 value code that the journal line is linked to.|
 |lastModifiedDateTime|datetime|The last datetime the journal line was modified. Read-Only.|
 
-
 ## Relationships
-None
+A journal line is a subpage of a journal. It cannot be accessed directly.
+
+A journal line can be a "Parent Entity" of the dimension lines.
+
+An Account (accountId) must exist in the Accounts table.
+
 
 ## JSON representation
 
@@ -55,6 +58,7 @@ Here is a JSON representation of the resource.
 ```json
 {
     "id": "GUID",
+    "journalDisplayName": "string",
     "lineNumber": integer,
     "accountId": "GUID",
     "accountNumber": "string",
@@ -64,8 +68,6 @@ Here is a JSON representation of the resource.
     "amount": decimal,
     "description": "string",
     "comment": "string",
-    "financialDimension1": "string",
-    "financialDimension2": "string",
     "lastModifiedDateTime": "datetime"
 }
 ```
