@@ -21,7 +21,7 @@ Creates a journal line in Dynamics 365 for Financials.
 ## HTTP request
 
 ```
-POST /financials/companies/{id}/journalLines/{id}
+POST /financials/companies/{id}/journals/{ID}/journalLines/{id}
 ```
 
 ## Request headers
@@ -43,11 +43,30 @@ If successful, this method returns ```201 Created``` response code and journalLi
 Here is an example of a request.
 
 ```json
-POST https://graph.microsoft.com/beta/financials/companies/{id}/journalLine
+POST https://graph.microsoft.com/beta/financials/companies/{id}/journals/{ID}/journalLine
+Content-type: application/json
+
+{
+  "lineNumber": 10000,
+  "accountId": "id-value",
+  "accountNumber": "10400",
+  "postingDate": "2015-12-31",
+  "documentNumber": "1234",
+  "externalDocumentNumber": "",
+  "amount": 1500,
+  "description": "Accounts Receivable",
+  "comment": ""
+}
+```
+**Response**
+
+```json
+HTTP/1.1 201 Created
 Content-type: application/json
 
 {
   "id": "id-value",
+  "journalDisplayName": "DEFAULT",
   "lineNumber": 10000,
   "accountId": "id-value",
   "accountNumber": "10400",
@@ -57,12 +76,8 @@ Content-type: application/json
   "amount": 1500,
   "description": "Accounts Receivable",
   "comment": "",
-  "financialDimension1": "PROD",
-  "financialDimension1": "SW",
   "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
 }
-```
-**Response**
 ```
 
 ## See also

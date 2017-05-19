@@ -29,8 +29,8 @@ Represents a dimensionLine resource type in Dynamics 365 for Financials.
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|parentId|GUID|The ID of the parent entity. Read-Only.|
-|id|GUID|The unique ID of the dimension line. Read-Only.|
+|parentId|GUID|The ID of the parent entity. Non editable.|
+|id|GUID|The unique ID of the dimension line. Non editable.|
 |code|string, maximum size 20| The code of the dimension.|
 |displayName|string, maximum size 30| The display name of the dimension. Read-Only.|
 |valueId|GUID|The unique ID of the value of the dimension.|
@@ -38,7 +38,7 @@ Represents a dimensionLine resource type in Dynamics 365 for Financials.
 |valueDisplayName|string, maximum size 50|The display name of the value of the dimension. Read-Only.|
 
 ## Relationships
-A "Parent Entity" (parentId) must exist in the related endpoint.
+A dimension line must have a "Parent Entity" with an Id, that is represented by the parent Id.
 "Parent Entity" can be one of the following:
  1) Journal Line
  2) Customer Payment.
