@@ -14,14 +14,13 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# POST Tax Groups Method
+# Create tax groups method
 Create a taxGroups in Dynamics 365 for Financials.
 
 ## HTTP request
 ```
 POST /financials/companies/{id}/taxGroups
 ```
-## Optional query parameters
 
 ## Request headers
 
