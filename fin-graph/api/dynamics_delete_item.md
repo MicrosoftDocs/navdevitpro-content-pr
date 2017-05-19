@@ -51,4 +51,4 @@ Here is an example of the response.
 HTTP/1.1 204 No Content
 ```
 ## See also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with Dynamics 365 for Finance and Operations, Business Edition in Microsoft Graph](dynamics_overview.md)  
