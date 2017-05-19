@@ -14,7 +14,7 @@ ms.date: 03/17/2017
 ms.author: solsen
 ---
 
-# GET Account Method
+# Get account
 Retrieve the properties and relationships of an account object for Dynamics 365 for Financials.
 
 
@@ -60,5 +60,5 @@ Here is an example of the response. Note: The response object shown here may be 
 ```
 
 
-## See Also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+## See also
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

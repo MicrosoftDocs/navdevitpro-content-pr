@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# POST Payment Terms Method
+# Create payment terms
 Create a paymentTerms in Dynamics 365 for Financials.
 
 ## HTTP request
@@ -77,5 +77,5 @@ Content-type: application/json
 
 
 
-## See Also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+## See also
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

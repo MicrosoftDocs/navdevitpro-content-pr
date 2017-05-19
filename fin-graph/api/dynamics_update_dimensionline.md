@@ -14,13 +14,13 @@ ms.date: 03/08/2017
 ms.author: solsen
 ---
 
-# PATCH Dimension Line Method
+# Update cimension line
 Update the properties of a dimensionLine object for Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-PATCH /financials/companies/{id}/{ParentEntity}/{id}/dimensionLines(parentId={id},id={id})
+PATCH /financials/companies/{id}/dimensionLines(parentId={id},id={id})
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated d
 
 Here is an example of the request.
 ```json
-PATCH https://graph.microsoft.com/beta/financials/companies/{id}/{ParentEntity}/{id}/dimensionLines(parentId={id},id={id})
+PATCH https://graph.microsoft.com/beta/financials/companies/{id}/dimensionLines(parentId={id},id={id})
 Content-type: application/json
 
 {
@@ -69,5 +69,5 @@ Content-type: application/json
 }
 ```
 
-## See Also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+## See also
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

@@ -14,7 +14,7 @@ ms.date: 03/08/2017
 ms.author: solsen
 ---
 
-# GET Sales Order Line Method
+# Get sales order line
 Retrieve the properties and relationships of a sales order line object for Dynamics 365 for Financials.
 
 ## Prerequisites
@@ -90,5 +90,5 @@ Here is an example of the response. Note: The response object shown here may be 
 }
 ```
 
-## See Also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+## See also
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET Vendor Method
+# Get vendor
 Retrieve the properties and relationships of a vendor object for Dynamics 365 for Financials.
 
 
@@ -82,5 +82,5 @@ Here is an example of the response. Note: The response object shown here may be 
 ```
 
 
-## See Also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+## See also
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

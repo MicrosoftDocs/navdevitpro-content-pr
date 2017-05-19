@@ -14,13 +14,13 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# PATCH Journal Lines Method
+# Update journal lines
 Update the properties of a journalLines object for Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-PATCH /financials/companies/{id}/journalLines/{id}
+PATCH /financials/companies/{id}/journals/{ID}/journalLines/{id}
 ```
 
 ## Request headers
@@ -42,7 +42,7 @@ If successful, this method returns a ```200 OK``` response code and an updated j
 
 Here is an example of the request.
 ```json
-PATCH https://graph.microsoft.com/beta/financials/companies/{id}/journalLines{id}
+PATCH https://graph.microsoft.com/beta/financials/companies/{id}/journals/{ID}/journalLines{id}
 Content-type: application/json
 
 {
@@ -52,14 +52,13 @@ Content-type: application/json
 
 **Response**
 
-Here is an example of the response. Note: The response object shown here may be truncated for brevity. All of the properties will be returned from an actual call.
-
 ```json
 HTTP/1.1 200 OK
 Content-type: application/json
 
 {
   "id": "id-value",
+  "journalDisplayName": "DEFAULT",
   "lineNumber": 10000,
   "accountId": "",
   "accountNumber": "",
@@ -69,11 +68,9 @@ Content-type: application/json
   "amount": 2000,
   "description": "",
   "comment": "",
-  "financialDimension1": "",
-  "financialDimension1": "",
   "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
 }
 ```
 
-## See Also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+## See also
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

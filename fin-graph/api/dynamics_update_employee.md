@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# PATCH Employee Method
+# Update employee
 Update the properties of an employee object for Dynamics 365 for Financials.
 
 
@@ -90,5 +90,5 @@ Content-type: application/json
 ```
 
 
-## See Also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+## See also
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

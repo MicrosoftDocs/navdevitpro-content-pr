@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# PATCH Item Categories Method
+# Update item categories
 Update the properties of an itemCategories object for Dynamics 365 for Financials.
 
 ## HTTP request
@@ -67,5 +67,5 @@ Content-type: application/json
 ```
 
 
-## See Also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+## See also
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

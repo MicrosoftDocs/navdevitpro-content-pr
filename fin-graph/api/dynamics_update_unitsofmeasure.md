@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# PATCH Unit of Measure Method
+# Update unit of measure
 Update the properties of a unitsOfMeasure object for Dynamics 365 for Financials.
 
 
@@ -69,5 +69,5 @@ Content-type: application/json
 ```
 
 
-## See Also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+## See also
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

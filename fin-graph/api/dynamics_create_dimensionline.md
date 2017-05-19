@@ -14,13 +14,13 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# POST Dimension Line Method
+# Create dimension line
 Create a dimensionLine in Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-POST /financials/companies/{id}/{ParentEntity}/{id}/dimensionLines
+POST /financials/companies/{id}/dimensionLines
 ```
 
 ## Request headers
@@ -43,15 +43,34 @@ If successful, this method returns ```201 Created``` response code and a dimensi
 Here is an example of a request.
 
 ```json
-POST https://graph.microsoft.com/beta//financials/companies/{id}/{ParentEntity}/{id}/dimensionLines
+POST https://graph.microsoft.com/beta//financials/companies/{id}/dimensionLines
 Content-type: application/json
 
 {
+  "parentId" : "parentId-value",
   "id" : "id-value",
   "code" : "DEPARTMENT",
-  "valueId" : "id-value",
+  "valueId" : "valueId-value",
   "valueCode" : "SALES"
 }
 
-## See Also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)
+```
+**Response**
+
+```json
+HTTP/1.1 201 Created
+Content-type: application/json
+
+{
+  "parentId" : "parentId-value",
+  "id" : "id-value",
+  "code" : "DEPARTMENT",
+  "displayName": "Department",
+  "valueId" : "valueId-value",
+  "valueCode" : "SALES",
+  "valueDisplayName": "Production"
+}
+```
+
+## See also
+[Working with Dynamics 365 for Financials in Microsoft Graph](dynamics_overview.md)

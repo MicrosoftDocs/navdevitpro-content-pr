@@ -51,6 +51,7 @@ If you are experiencing poor or degraded performance of the clients, perform the
 
 ## SQL Server connection counters
 These counters pertain to the connection from the server instance to the SQL Server instance and databases.
+
 |  Counter  |  [!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]  |
 |-----------|-----------------------------------------------------------------------|
 |\# Mounted tenants|Number of tenants that are mounted on the [!INCLUDE[nav_server](includes/nav_server_md.md)] instance. This counter is relevant with a multitenant server instance, where tenants are often mounted and dismounted.<br /><br />|
@@ -95,7 +96,7 @@ These counters pertain to the data caching on the server instance.
 |\# Primary key cache total requests|Count of the total number of requests to the primary key cache. The primary key cache contains the results of requests to get a record by using its primary key.|
 |% Primary key cache hit rate|Percentage of hits in the primary key cache, compared to the total requests to the primary key cache.|  
 |\# Result set cache total requests|Count of the total number of requests to the result set cache. The result set cache contains result sets that are returned from SQL Server.|
-|% Result set cache hit rate|Percentage of hits in the result set cache, compared to the total requests to the result set cache.|
+|% Result set cache hit rate|Percentage of hits in the result set cache, compared to the total requests to the result set cache.<BR /><BR />The value also depends on the usage pattern and which parts of the application are is used. For example, the [SELECTLATESTVERSION function](SELECTLATESTVERSION-Function--Database-.md) will clear the cache, which results in a lower hit rate.<BR /><BR />In general, reading frequently updated values will lower the hit rate because the cache synchronization across [!INCLUDE[nav_server](includes/nav_server_md.md)] instances will remove stale values, which causes re-reads.|
 |\# Rows in all temporary tables|Count of number of rows in all temporary tables.|
 
 ## Scheduled task counters

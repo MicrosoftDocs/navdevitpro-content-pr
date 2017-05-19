@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# PATCH Customer Payments Method
+# Update customer payments
 Update the properties of a customerPayments object for Dynamics 365 for Financials.
 
 ## HTTP request
@@ -63,6 +63,7 @@ Content-type: application/json
   "lineNumber": 10000,
   "customerId": "customerId-value",
   "customerNumber": "",
+  "contactId": "contactId-value",
   "postingDate": "2015-12-31",
   "documentNumber": "D00001",
   "externalDocumentNumber": "",
@@ -71,10 +72,8 @@ Content-type: application/json
   "appliesToInvoiceNumber": "100000",
   "description": "",
   "comment": "",
-  "financialDimension1": "",
-  "financialDimension1": "",
   "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
 }
 ```
-## See Also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+## See also
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

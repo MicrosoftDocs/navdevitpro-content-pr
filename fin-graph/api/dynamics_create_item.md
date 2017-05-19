@@ -14,7 +14,7 @@ ms.date: 03/16/2017
 ms.author: solsen
 ---
 
-# POST Item Method
+# Create item
 Create an item in Dynamics 365 for Financials for use on invoices, quotes, etc.
 
 ## HTTP request
@@ -84,5 +84,5 @@ Content-type: application/json
 }
 ```
 
-## See Also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+## See also
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

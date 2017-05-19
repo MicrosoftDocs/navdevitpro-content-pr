@@ -14,13 +14,13 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET Journal Line Method
-Retrieve the properties and relationships of a journalLines object for Dynamics 365 for Financials.
+# Get journal line
+Retrieve the properties and relationships of a journal line object for Dynamics 365 for Financials.
 
 ## HTTP request
 
 ```
-GET /financials/companies/{id}/journalLines/{id}
+GET /financials/companies/{id}/journals/{ID}/journalLines/{id}
 ```
 
 ## Request headers
@@ -40,7 +40,7 @@ If successful, this method returns a ```200 OK``` response code and journalLines
 
 Here is an example of the request.
 ```json
-GET https://graph.microsoft.com/beta/financials/companies/{id}/journalLines/{id}
+GET https://graph.microsoft.com/beta/financials/companies/{id}/journals/{ID}/journalLines/{id}
 ```
 
 **Response**
@@ -50,6 +50,7 @@ Here is an example of the response. Note: The response object shown here may be 
 ```json
 {
   "id": "id-value",
+  "journalDisplayName": "DEFAULT",
   "lineNumber": 10000,
   "accountId": "id-value",
   "accountNumber": "10400",
@@ -59,11 +60,9 @@ Here is an example of the response. Note: The response object shown here may be 
   "amount": 1500,
   "description": "Accounts Receivable",
   "comment": "",
-  "financialDimension1": "PROD",
-  "financialDimension1": "SW",
   "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
 }
 ```
 
-## See Also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+## See also
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# GET Customer Payment Method
+# Get customer payment
 Retrieve the properties and relationships of a customerPayments object for Dynamics 365 for Financials.
 
 ## HTTP request
@@ -53,6 +53,7 @@ Here is an example of the response. Note: The response object shown here may be 
   "lineNumber": 10000,
   "customerId": "customerId-value",
   "customerNumber": "10400",
+  "contactId": "string",
   "postingDate": "2015-12-31",
   "documentNumber": "1234",
   "externalDocumentNumber": "",
@@ -61,11 +62,9 @@ Here is an example of the response. Note: The response object shown here may be 
   "appliesToInvoiceNumber": "100000",
   "description": "",
   "comment": "",
-  "financialDimension1": "PROD",
-  "financialDimension1": "SW",
   "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
 }
 ```
 
-## See Also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+## See also
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

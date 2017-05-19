@@ -15,7 +15,7 @@ ms.date: 03/21/2017
 ms.author: solsen
 ---
 
-# POST Customer Payment Method
+# Create customer payment
 Creates a customer payment in Dynamics 365 for Financials.
 
 ## HTTP request
@@ -46,10 +46,10 @@ POST https://graph.microsoft.com/beta/financials/companies/{id}/customerPayment
 Content-type: application/json
 
 {
-  "id": "id-value",
   "lineNumber": 10000,
   "customerId": "customerId-value",
   "customerNumber": "10400",
+  "contactId": "contactId-value",
   "postingDate": "2015-12-31",
   "documentNumber": "1234",
   "externalDocumentNumber": "",
@@ -58,13 +58,29 @@ Content-type: application/json
   "appliesToInvoiceNumber": "100000",
   "description": "",
   "comment": "",
-  "financialDimension1": "PROD",
-  "financialDimension1": "SW",
-  "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
 }
 ```
 **Response**
+
+```json
+HTTP/1.1 201 Created
+Content-type: application/json
+
+{
+  "id": "id-value",
+  "journalDisplayName": "DEFAULT",
+  "lineNumber": 10000,
+  "accountId": "id-value",
+  "accountNumber": "10400",
+  "postingDate": "2015-12-31",
+  "documentNumber": "1234",
+  "externalDocumentNumber": "",
+  "amount": 1500,
+  "description": "Accounts Receivable",
+  "comment": "",
+  "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
+}
 ```
 
-## See Also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+## See also
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 

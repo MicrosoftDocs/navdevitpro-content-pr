@@ -14,7 +14,7 @@ ms.date: 03/13/2017
 ms.author: solsen
 ---
 
-# POST Sales Order Method
+# Create sales order
 Create a salesOrder in Dynamics 365 for Financials.
 
 ## HTTP request
@@ -55,5 +55,5 @@ Content-type: application/json
   "paymentTerms": "COD"
 }
 
-## See Also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+## See also
+[Working with Dynamics 365 for Financials in Microsoft Graph](../resources/dynamics_overview.md) 
