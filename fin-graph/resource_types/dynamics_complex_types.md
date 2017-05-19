@@ -172,4 +172,4 @@ Represents a Line Details complex type in Dynamics 365 for Financials.
 ```
 
 ## See also
-[Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with Dynamics 365 for Finance and Operations, Business Edition in Microsoft Graph](dynamics_overview.md)  

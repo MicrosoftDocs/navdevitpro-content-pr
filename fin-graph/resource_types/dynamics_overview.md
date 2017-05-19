@@ -1,6 +1,6 @@
 ---
-title: Dynamics overview| Microsoft Docs
-description: Oveview of the capabilities of Dynamics 365 for Financials Graph API.
+title: Dynamics 365 for Finance and Operations, Business Edition Overview | Microsoft Docs
+description: Oveview of the capabilities of Dynamics 365 for Finance and Operations Graph API.
 services: project-madeira
 documentationcenter: ''
 author: SusanneWindfeldPedersen
@@ -14,18 +14,21 @@ ms.date: 03/16/2017
 ms.author: solsen
 ---
 
-# Working with Dynamics 365 for Financials in Microsoft Graph
-You can use Microsoft Graph to allow your web and mobile applications to get authorized access to read and modify Microsoft Dynamics 365 for Financials data.
+# Working with Dynamics 365 for Finance and Operations, Business Edition in Microsoft Graph
+You can use Microsoft Graph to allow your web and mobile apps to read and modify Microsoft Dynamics 365 for Finance and Operations, Business Edition data. With Microsoft Graph your app gets authorized access to the data and lets you design apps that integrate seamlessly.
 
 
 ## Authorization
 Use the Azure AD v.20 endpoint to authenticate Dynamics 365 for Financials APIs. All APIs require the `Authorization: Bearer {access-token}` request header. For more information about authorization, see [Get access tokens to call Microsoft Graph](https://developer.microsoft.com/en-us/graph/docs/concepts/auth_overview).
+One of the following [permission scopes](https://developer.microsoft.com/en-us/graph/docs/authorization/permission_scopes) is required to use Dynamics 365 for Finance and Operations, Business Edition resource:
+- (?)
+- (?)
 
-## Common Microsoft Dynamics 365 for Financials scenarios
-The Dynamics 365 for Financials API allows you to read and modify business data through apps that are connected and integrated through a single endpoint. Use the API to ..
+
+## Common Dynamics 365 for Finance and Operations, Business Edition scenarios
+The Dynamics 365 for Finance and Operations, Business Edition API allows you to read and modify business data through apps that are connected and integrated through a single endpoint. Use the API to, for example, get access to customer and vendor information, update sales orders, or view overdue payments....
 
 
 
 ## See also
-[Graph Reference](../api/dynamics_graph_reference.md)  
 [Quick Start](https://developer.microsoft.com/en-us/graph/quick-start)
