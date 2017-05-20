@@ -53,6 +53,7 @@ Here is an example of the response. Note: The response object shown here may be 
   "lineNumber": 10000,
   "customerId": "customerId-value",
   "customerNumber": "10400",
+  "contactId": "string",
   "postingDate": "2015-12-31",
   "documentNumber": "1234",
   "externalDocumentNumber": "",
@@ -61,11 +62,9 @@ Here is an example of the response. Note: The response object shown here may be 
   "appliesToInvoiceNumber": "100000",
   "description": "",
   "comment": "",
-  "financialDimension1": "PROD",
-  "financialDimension1": "SW",
   "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
 }
 ```
 
 ## See also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with Dynamics 365 for Finance and Operations, Business Edition in Microsoft Graph](../resources/dynamics_overview.md) 

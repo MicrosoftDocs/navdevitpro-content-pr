@@ -19,7 +19,7 @@ Delete a dimension line from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/{id}/{ParentEntity}/{id}/dimensionLines(parentId={id},id={id})
+DELETE /financials/companies/{id}/dimensionLines(parentId={id},id={id})
 ```
 
 ## Request headers
@@ -41,7 +41,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://graph.microsoft.com/beta/financials/companies/{id}/{ParentEntity}/{id}/dimensionLines(parentId={id},id={id})
+DELETE https://graph.microsoft.com/beta/financials/companies/{id}/dimensionLines(parentId={id},id={id})
 ```
 
 **Response** 
@@ -53,4 +53,4 @@ HTTP/1.1 204 No Content
 ```
 
 ## See also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with Dynamics 365 for Finance and Operations, Business Edition in Microsoft Graph](../resources/dynamics_overview.md) 

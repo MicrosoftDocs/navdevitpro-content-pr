@@ -63,6 +63,7 @@ Content-type: application/json
   "lineNumber": 10000,
   "customerId": "customerId-value",
   "customerNumber": "",
+  "contactId": "contactId-value",
   "postingDate": "2015-12-31",
   "documentNumber": "D00001",
   "externalDocumentNumber": "",
@@ -71,10 +72,8 @@ Content-type: application/json
   "appliesToInvoiceNumber": "100000",
   "description": "",
   "comment": "",
-  "financialDimension1": "",
-  "financialDimension1": "",
   "lastModifiedDateTime": "2017-03-17T19:02:22.043Z"
 }
 ```
 ## See also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with Dynamics 365 for Finance and Operations, Business Edition in Microsoft Graph](../resources/dynamics_overview.md) 

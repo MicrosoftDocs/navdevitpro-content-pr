@@ -19,7 +19,7 @@ Delete a journal line from Dynamics 365 for Financials.
 
 ## HTTP request
 ```
-DELETE /financials/companies/{id}/journalLines/{id}
+DELETE /financials/companies/{id}/journals/{ID}/journalLines/{id}
 ```
 
 ## Request headers
@@ -43,7 +43,7 @@ If successful, this method returns ```204 No Content``` response code. It does n
 Here is an example of the request.
 
 ```json
-DELETE https://graph.microsoft.com/beta/financials/companies/{id}/journalLines/{id}
+DELETE https://graph.microsoft.com/beta/financials/companies/{id}/journals/{ID}/journalLines/{id}
 ```
 
 **Response** 
@@ -55,4 +55,4 @@ HTTP/1.1 204 No Content
 ```
 
 ## See also
-[Microsoft Graph Reference](../api/dynamics_graph_reference.md)  
+[Working with Dynamics 365 for Finance and Operations, Business Edition in Microsoft Graph](../resources/dynamics_overview.md) 
