@@ -22,7 +22,7 @@ In this section, you can find information about developing for Dynamics 365 for 
 
 |To |See |
 |---|----|
-|Find reference documentation for Microsoft Graph integration|[Working with Dynamics 365 for Finance and Operations, Business Edition in Microsoft Graph](dynamics_overview.md)|
+|Find reference documentation for Microsoft Graph integration|[Working with Dynamics 365 for Financials in Microsoft Graph](dynamics_overview.md)|
 
 ## See also
 <!--
