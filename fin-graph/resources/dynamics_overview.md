@@ -15,7 +15,7 @@ ms.author: solsen
 ---
 
 # Working with Dynamics 365 for Financials in Microsoft Graph
-You can use Microsoft Graph to allow your web and mobile apps to read and modify Microsoft Dynamics 365 for Financials data. With Microsoft Graph your app gets authorized access to the data and lets you design apps that integrate seamlessly.
+You can use Microsoft Graph to connect and integrate your web service or SaaS solution with Microsoft Dynamics 365 for Financials. With Microsoft Graph your app gets authorized access to the Microsoft Dynamics 365 for Financials data and lets you design apps that integrate seamlessly. 
 
 
 ## Authorization
@@ -26,8 +26,7 @@ One of the following [permission scopes](https://developer.microsoft.com/en-us/g
 
 
 ## Common Dynamics 365 for Financials scenarios
-The Dynamics 365 for Financials API allows you to read and modify business data through apps that are connected and integrated through a single endpoint. Use the API to, for example, get access to customer and vendor information, update sales orders, or view overdue payments....
-
+The Dynamics 365 for Financials API allows you to read and modify business data through apps that are connected and integrated through a single endpoint. Use the API to, for example, get access to customer and vendor information, update sales orders, or view overdue payments.
 
 
 ## See also
