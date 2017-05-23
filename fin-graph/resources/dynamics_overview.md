@@ -20,9 +20,6 @@ You can use Microsoft Graph to connect and integrate your web service or SaaS so
 
 ## Authorization
 Use the Azure AD v.20 endpoint to authenticate Dynamics 365 for Financials APIs. All APIs require the `Authorization: Bearer {access-token}` request header. For more information about authorization, see [Get access tokens to call Microsoft Graph](https://developer.microsoft.com/en-us/graph/docs/concepts/auth_overview).
-One of the following [permission scopes](https://developer.microsoft.com/en-us/graph/docs/authorization/permission_scopes) is required to use Dynamics 365 for Financials resource:
-- (?)
-- (?)
 
 
 ## Common Dynamics 365 for Financials scenarios
