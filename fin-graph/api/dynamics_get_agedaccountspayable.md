@@ -58,7 +58,7 @@ Here is an example of the response. Note: The response object shown here may be 
   "period3": 0,
   "after": 17273.87,
   "balance": 17273.87,
-  "periodStartDateFilter": "2019-01-02",
+  "periodStartDateFilter": "2019-01-01",
   "periodLengthFilter": "3M"  
 }
 ```
