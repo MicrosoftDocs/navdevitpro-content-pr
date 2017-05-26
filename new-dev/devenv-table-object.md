@@ -26,7 +26,7 @@ When developing a solution for [!INCLUDE[d365fin_long_md](includes/d365fin_long_
 ## Snippet support
 Typing the shortcut ```ttable``` will create the basic layout for a table object when using the AL Extension in Visual Studio Code.
 
-## Table Example
+## Table example
 This table stores address information and has four fields; Address, Locality, Town/City, and County.
 
 ```

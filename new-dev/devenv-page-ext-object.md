@@ -13,7 +13,6 @@ ms.assetid: a0ac492d-e3c8-4a76-87b4-b469e08c58e7
 ms.author: SusanneWindfeldPedersen
 caps.latest.revision: 18
 ---
-[!INCLUDE[dyn_fin_dev_preview](../dynamics-nav/includes/newdev_dev_preview.md)]
 
 # Page Extension Object
 The page extension object extends a [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] page object and adds or overrides the functionality.
@@ -40,7 +39,7 @@ For more information about changes, see [Differences in the Dynamics NAV Develop
 ## Snippet support
 Typing the shortcut ```tpageext``` will create the basic layout for a table object when using the AL Extension in Visual Studio Code.
 
-## Page Extension examples
+## Page extension examples
 The following page extension object extends the Customer Card page object by adding a field control ```ShoeSize``` to the ```General``` group on the page. The field control is added as the last control in the group using the ```addlast``` function. In the actions area, you can see what the syntax looks like for actions that execute triggers and actions that run objects.
 
 ```

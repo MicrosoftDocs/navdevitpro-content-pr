@@ -34,7 +34,7 @@ Using a table extension allows you to overwrite some properties on fields in the
 - Description
 - Width
 
-## Table Extension example
+## Table extension example
 This table extension object extends the Customer table object by adding a field ```ShoeSize```, with ID 70000900 and the data type ```Integer```. It also contains a procedure to check if the ```ShoeSize``` field is filled in.
 
 ```

@@ -18,7 +18,7 @@ caps.latest.revision: 18
 
 This topic lists properties that apply to the [Page Object](devenv-page-object.md) and [Page Extension Object](devenv-page-ext-object.md). 
 
-## Page Object Properties
+## Page object properties
 The following properties apply to the page object.
 
 |Property Name|Page Object|Page Extension Object|
@@ -48,7 +48,7 @@ The following properties apply to the page object.
 |[RefreshOnActivate Property](devenv-refreshonactivate-property.md)|X||
 <!-- |[ODateKeyFields Property]()|X||-->
 
-## Container Control Properties
+## Container control properties
 The following properties apply to Container controls on a page.
 
 |Property Name|Page Object|Page Extension Object|
@@ -57,7 +57,7 @@ The following properties apply to Container controls on a page.
 |[ContainerType Property](devenv-containertype-property.md)|X|X|
 |[Description Property](devenv-description-property.md)|X|X|
 
-## Group Control Properties
+## Group control properties
 The following properties apply to Group controls on a page.
 
 |Property Name|Page Object|Page Extension Object|
@@ -74,7 +74,7 @@ The following properties apply to Group controls on a page.
 |[FreezeColumn Property](devenv-freezecolumnid-property.md)|X|X|
 |[ShowAsTree Property](devenv-showastree-property.md)|X||
 
-## Field Control Properties
+## Field control properties
 The following properties apply to Field controls on a page.
 
 |Property Name|Page Object|Page Extension Object|
@@ -125,17 +125,7 @@ The following properties apply to Field controls on a page.
 |[Image Property](devenv-image-property.md)|X||
 |[ODataEDMType Property]()]|X||
 
-
-<!-- Til overs 
-|[CaptionClass Property](devenv-captionclass-property.md)|X|X|
-|[CaptionML Property](devenv-captionml-property.md)|X|X|
-|[ClosingDates Property](devenv-closingdates-property.md)|X|X|
-|[Description Property](devenv-description-property.md)|X|X|
-|[Width Property](devenv-width-property.md)|X|X| 
-
--->
-
-## Part Control Properties
+## Part control properties
 The following properties apply to Part controls on a page.
 
 |Property Name|Page Object|Page Extension Object|
@@ -155,7 +145,7 @@ The following properties apply to Part controls on a page.
 |[Description Property]()|X||
 
 
-## ActionGroup Properties
+## ActionGroup properties
 The following properties apply to ActionGroups.
 
 |Property Name|Page Object|Page Extension Object|
@@ -167,7 +157,7 @@ The following properties apply to ActionGroups.
 |[Visible Property](devenv-visible-property.md)|X|X|
 |[Image Property]()|X||
 
-## Action Properties
+## Action properties
 The following properties apply to Actions.
 
 |Property Name|Page Object|Page Extension Object|
@@ -196,8 +186,8 @@ The following properties apply to Actions.
 |[Gesture Property]()|X||
 
 
-## Separator Properties
-The following property applies to Separators.
+## Separator properties
+The following properties apply to Separators.
 
 |Property Name|Page Object|Page Extension Object|
 |-------------|-----------|---------------------|
