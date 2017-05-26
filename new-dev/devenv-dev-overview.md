@@ -47,9 +47,7 @@ Visual Studio Code and the AL extension lets you do the following tasks:
 
 For more information, see [Visual Studio Code Docs](https://code.visualstudio.com/docs).
 
-
-
-The changes from the existing [!INCLUDE[navnow_md](includes/navnow_md.md)] language and AL can be found in these topics:
+The extension model is object-based; you create new objects, and extend existing objects depending on what you want your extension to do. The following objects are available with the AL extension for Visual Studio Code:
 
 - [Table Object](devenv-table-object.md)
 - [Table Extension Object](devenv-table-ext-object.md)
@@ -57,6 +55,7 @@ The changes from the existing [!INCLUDE[navnow_md](includes/navnow_md.md)] langu
 - [Page Extension Object](devenv-page-ext-object.md)
 - [Codeunit Object](devenv-codeunit-object.md)
 - [Report Object](devenv-report-object.md)
+- [XmlPort Object](devenv-xmlport-object.md)
 
 For information about AL language changes, see [Differences in the Dynamics NAV Development Environments](devenv-differences.md).
 
@@ -64,7 +63,7 @@ For information about AL language changes, see [Differences in the Dynamics NAV 
 The in-client designer works in the client itself allowing design of pages using a drag-and-drop interface. The in-client designer allows building extensions in the client itself by rearranging fields, adding fields, and previewing the page design. For more information, see [Using the Dynamics NAV In-Client Designer](devenv-inclient-designer.md).
 
 ## Compiling and deploying
-Extensions are compiled as .navx package files. The .navx package file can be deployed to the [!INCLUDE[nav_server_md](includes/nav_server_md.md)]. A .navx package contains the various artifacts that deliver the new functionality to the [!INCLUDE[navnow_md](includes/navnow_md.md)] deployment as well as a manifest that specifies the name, publisher, version, and other attributes of the extension.
+Extensions are compiled as .navx package files. The .navx package file can be deployed to the [!INCLUDE[nav_server_md](includes/nav_server_md.md)]. A .navx package contains the various artifacts that deliver the new functionality to the [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] deployment as well as a manifest that specifies the name, publisher, version, and other attributes of the extension. 
 
 ## See Also
 [Getting Started](devenv-get-started.md)  
