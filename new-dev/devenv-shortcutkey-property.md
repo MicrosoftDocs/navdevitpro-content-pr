@@ -24,7 +24,7 @@ Sets a shortcut key for selecting a menu item.
  Pressing the key you designate with this property provides the same result as clicking the item.  
   
 > [!NOTE]  
->  Some shortcut keys have default assignments—for example, Shift+F12 opens the Object Designer. Do not reuse shortcut keys that are already assigned. For a complete list of shortcut keys, see **Keyboard Shortcuts** in the online Help for your [!INCLUDE[navnow](includes/navnow_md.md)] client.  
+>  Some shortcut keys have default assignments—for example, Shift+F12 opens the Object Designer. Do not reuse shortcut keys that are already assigned.  
   
 ## See Also  
  [Properties](Properties.md)
