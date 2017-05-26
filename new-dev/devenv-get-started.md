@@ -30,145 +30,17 @@ With the developer preview, you get sample code that compiles and runs by follow
 
 1) In Visual Studio Code, press **Ctrl**+**Shift**+**P** to show all commands.  
 2) Type **AL: Go** (case-insensitive) and select a project folder.  
+3) Select between developing on a local server, or a cloud server.
 
 You now have a HelloWorld sample that compiles and runs. The JSON files in the project are automatically updated with the settings that allows you to press **F5** to build and deploy the solution.
 
 > [!NOTE] If symbols are missing, you will be prompted to download them.
 
 ## JSON file settings
-The following table describes the settings in the JSON files.
+There are two JSON files in the project; the `app.json` file and the `launch.json` file. The files are automatically generated for your project. For more information, see [JSON files](devenv-json-files.md).
 
-Settings in the ```app.json``` file:
-
-|Setting|Mandatory|Value|
-|-------|---------|-----|
-|id|Yes|The unique ID of the extension. When app.json file is automatically created, the ID is set to a new GUID value.|
-|name|Yes|The unique extension name.|
-|publisher|Yes|The name of your publisher, for example: **NAV Partner**, **LLC** |
-|application|Yes, if base application objects are extended or referenced |The minimum supported version and locale of the base application to extend, for example: ```{  "version": "10.0.0.0",  "locale": "W1"  }```|
-|platform|Yes, if system tables are referenced in the extension|The minimum supported version of the platform symbol package file, for example: "10.0.0.0". See the **List of objects in the platform symbol file section** below for the list of object symbols contained in the platform symbol package file.|
-|packageCachePath|Yes, if base application is extended or system tables are referenced| The path to the folder where referenced symbol package files are located. The path could either be absolute or relative to the current extension working directory, for example: "../../resources"|
-
-Settings in the ```launch.json``` file:
-
-|Setting|Mandatory|Value|
-|-------|---------|-----|
-|server|Yes, if connecting to an on-premises server|The HTTP URL of your server, for example: http://localhost|
-|serverInstance|Yes, if connecting to an on-premises server|The instance name of your server, for example: NAV|
-|port|No|The port on which the development endpoint is running on the server, default value: 7049|
-|tenant|No|The tenant ID in case the server is configured for multitenancy.|
-|windowsAuthentication|No|Specifies whether Windows or Azure authentication should be used for publishing the extension. Currently only Windows authentication is supported.|
-|startupObjectId|No|The ID of the startup object to launch when you press F5. Currently only objects of type Page are supported.|
-
-
-## List of objects in the platform symbol file
-The following table lists object symbols contained in the platform symbol package file. If the symbols are not present, you will prompted to download them.
-
-### System tables
-
-|Name|
-|----|
-|Access Control.al|
-|Active Session.al|
-|Add-in.al|
-|Chart.al|
-|Company.al|
-|Configuration Package File.al|
-|Debugger Breakpoint.al|
-|Debugger Watch.al|
-|Device.al|
-|Document Service.al|
-|Entitlement Set.al|
-|Entitlement.al|
-|License Permission.al|
-|Media Set.al|
-|Media.al|
-|Membership Entitlement.al|
-|NAV App Capabilities.al|
-|NAV App Data Archive.al|
-|NAV App Dependencies.al|
-|NAV App Installed App.al|
-|NAV App Object Metadata.al|
-|NAV App Object Prerequisites.al|
-|NAV App Tenant Add-In.al|
-|NAV App Tenant App.al|
-|NAV App.al|
-|Object Metadata.al|
-|Object Options.al|
-|Object Tracking.al|
-|Object.al|
-|OData Edm Type.al|
-|Page Data Personalization.al|
-|Page Documentation.al|
-|Permission Set.al|
-|Permission.al|
-|Profile Metadata.al|
-|Profile.al|
-|Record Link.al|
-|Scheduled Task.al|
-|Send-To Program.al|
-|Server Instance.al|
-|Session Event.al|
-|Style Sheet.al|
-|Tenant License State.al|
-|Tenant Media Set.al|
-|Tenant Media Thumbnails.al|
-|Tenant Media.al|
-|Tenant Permission Set.al|
-|Tenant Permission.al|
-|Tenant Web Service.al|
-|Token Cache.al|
-|User Default Style Sheet.al|
-|User Metadata.al|
-|User Personalization.al|
-|User Property.al|
-|User.al|
-|Web Service.al|
-|Webhook Notification.al|
-|Webhook Subscription.al|
-
-### Virtual tables
-|Name|
-|----|
-|Aggregate Permission Set.al|
-|AllObj.al|
-|AllObjWithCaption.al|
-|Automation Server.al|
-|Code Coverage.al|
-|CodeUnit Metadata.al|
-|Database Locks.al|
-|Database.al|
-|Date.al|
-|Debugger Call Stack.al|
-|Debugger Variable.al|
-|Debugger Watch Value.al|
-|Drive.al|
-|Event Subscription.al|
-|Field.al|
-|File.al|
-|Finish design Save Mode.al|
-|Integer.al|
-|Key.al|
-|License Information.al|
-|Monitor.al|
-|New Page Pattern.al|
-|OLE Control.al|
-|Page Metadata.al|
-|Page Table Field.al|
-|Permission Range.al|
-|Printer.al|
-|Report Metadata.al|
-|Server.al|
-|Session.al|
-|SID - Account ID.al|
-|System Object.al|
-|Table Field Types.al|
-|Table Information.al|
-|Table Metadata.al|
-|Table Relations Metadata.al|
-|Table Synch. Setup.al|
-|Time Zone.al|
-|Windows Language.al|
+## The platform symbol file
+The platform symbol file contains all of the base app objects that your extension builds on. If the symbol file is not present, you will be prompted to download it. For more information about the platform symbol file, see [Symbols](devenv-symbols.md).
 
 ## See Also
 [Differences in the Dynamics NAV Development Environments](devenv-differences.md)  
