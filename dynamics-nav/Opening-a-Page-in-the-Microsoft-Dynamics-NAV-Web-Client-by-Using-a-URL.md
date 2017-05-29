@@ -42,9 +42,14 @@ There are several parameters that define the address for the page. These paramet
 The address to open a page in the [!INCLUDE[nav_web](includes/nav_web_md.md)] has the following syntax.
 
 ```
-<http|https>://<webserver>[:<port>]/<webserverinstance>/WebClient/<default|blank>.aspx?<page>=<ID>&[tenant=<tenantID>]&[company=<companyname>]&[mode=<View|Edit|Create>]&[profile=<profileID>]&[bookmark=<bookmark>]&[captionhelpdisabled=<0|1>]&[showribbon=<0|1>]&[shownavigation=<0|1>]&[showuiparts=<0|1>]&[redirect<0|1>]&[extension=<extensionID>]
+<http|https>://<webserver>[:<port>]/<webserverinstance>/WebClient/<default|blank>.aspx?<page>=<ID>&[tenant=<tenantID>]&[company=<companyname>]&[mode=<View|Edit|Create>]&[profile=<profileID>]&[bookmark=<bookmark>]&[captionhelpdisabled=<0|1>]&[showribbon=<0|1>]&[shownavigation=<0|1>]&[showuiparts=<0|1>]&[redirect<0|1>]
 ```
 
+<!-- Tenerife
+```
+<http|https>://<webserver>[:<port>]/<webserverinstance>/WebClient/<default|blank>.aspx?<page>=<ID>&[tenant=<tenantID>]&[company=<companyname>]&[mode=<View|Edit|Create>]&[profile=<profileID>]&[bookmark=<bookmark>]&[captionhelpdisabled=<0|1>]&[showribbon=<0|1>]&[shownavigation=<0|1>]&[showuiparts=<0|1>]&[redirect<0|1>]&[extension=<extensionID>]
+```
+-->
 The URL consists of two parts, the web server part and the [!INCLUDE[navnow](includes/navnow_md.md)] content part. The web server part targets a specific site on the computer that is running [!INCLUDE[nav_web_server](includes/nav_web_server_md.md)] and includes the following syntax.
 
 ```
@@ -103,7 +108,9 @@ Use the following guidelines to write page URL syntax and create a URL:
 |`shownavigation`|Specifies whether to show the navigation pane when the specified page opens. <br /><br />If you want the navigation pane, either omit this parameter or set its value to `1`, such as `shownavigation=1`.<br /><br />If you do not want the navigation pane, set the value to `0`, such as `shownavigation=0`.<br /><br />**Note:** This parameter only works for pages of the list page type.|
 |`showuiparts`|Specifies whether to show UI parts when the specified page opens. The default value, if the parameter is not specified, is `1` which displays the UI parts. Use the value `0` to not show UI parts.<br /><br />If you want the UI parts, either omit this parameter or set its value to `1`, such as `showuiparts=1`.<br /><br />If you do not want the UI parts, set the value to `0`, such as `showuiparts=0`.<br /><br /> **Note:**  This parameter only works for pages of the list page type.|
 |`redirect`|Specifies whether users are presented with an option to download the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)] when they open the [!INCLUDE[nav_web_md](includes/nav_web_md.md)] in a browser in order to improve the user experience.<br /><br />If you want to give users this option, either omit this parameter or set its value to `1`, such as `redirect=1`.<br /><br />If you do not want to give users this option, set the value to `0`, such as `redirect=0`.<br /><br />|
-|```extension```|Specifies the unique identifier (ID) of an extension that is deployed on the tenant. This parameter is mainly used during the development of the specified extension in a non-production environment. When this parameter is set, only the specifed extension is available in the client; all other extensions are ignored and not visible. This enables you to isolate and focus on the behavior of the specified extension only.<br /><br />An extension ID is a 32-digit GUID, such as ```72CC5E27-BD97-4271-AF55-F77E4471E493```. You set this parameter using the format ```extension={GUID}```, for example:<br /><br />`&extension={72CC5E27-BD97-4271-AF55-F77E4471E493}`<br /><br />You can determine an extension ID by opening the extension in Visual Studio Code and looking in the app.json file, or by running the [Get-NAVAppManifest cmdlet](Microsoft.Dynamics.Nav.Apps.Tools/Get-NAVAppManifest.md) on the extension package.|
+
+<!--TENERIFE
+|```extension```|Specifies the unique identifier (ID) of an extension that is deployed on the tenant. This parameter is mainly used during the development of the specified extension in a non-production environment. When this parameter is set, only the specifed extension is available in the client; all other extensions are ignored and not visible. This enables you to isolate and focus on the behavior of the specified extension only.<br /><br />An extension ID is a 32-digit GUID, such as ```72CC5E27-BD97-4271-AF55-F77E4471E493```. You set this parameter using the format ```extension={GUID}```, for example:<br /><br />`&extension={72CC5E27-BD97-4271-AF55-F77E4471E493}`<br /><br />You can determine an extension ID by opening the extension in Visual Studio Code and looking in the app.json file, or by running the [Get-NAVAppManifest cmdlet](Microsoft.Dynamics.Nav.Apps.Tools/Get-NAVAppManifest.md) on the extension package.|-->
 
 For more information about framing the Web client, see [Embedding Microsoft Dynamics NAV Web Client Pages in Other Websites](Embedding-Microsoft-Dynamics-NAV-Web-Client-Pages-in-Other-Websites.md).
 
