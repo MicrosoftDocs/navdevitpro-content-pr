@@ -1,7 +1,7 @@
 ---
 title: "AutoSplitKey Property"
 ms.custom: na
-ms.date: 05/10/2017
+ms.date: 05/29/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
