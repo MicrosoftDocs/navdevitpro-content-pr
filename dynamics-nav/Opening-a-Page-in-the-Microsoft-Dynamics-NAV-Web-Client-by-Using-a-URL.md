@@ -12,7 +12,10 @@ caps.latest.revision: 29
 author: jswymer
 ---
 # Opening a Page in the Microsoft Dynamics NAV Web Client by Using a URL
-You can open a specific page in the [!INCLUDE[nav_web](includes/nav_web_md.md)] by typing the page's URL in the address of a web browser. You can use the URL as a hyperlink to the page, which you can include in other sources, such as emails or Word documents, or you can it send to other users.  
+You can open a specific page in the [!INCLUDE[nav_web](includes/nav_web_md.md)] by typing the page's URL in the address of a web browser. You can use the URL as a hyperlink to the page, which you can include in other sources, such as emails or Word documents, or you can it send to other users.
+
+<blockquote STYLE="background: #2E64FE;"><b>FULL EXPERIENCE</b><br />This is sample text his is sample text his is sample texthis is sample texthis is sample texthis is sample texthis is sample texthis is sample texthis is sample texthis is sample texthis is sample text </blockquote> 
+
 
 
 > [!IMPORTANT]  
@@ -32,12 +35,6 @@ You can open a specific page in the [!INCLUDE[nav_web](includes/nav_web_md.md)] 
 
 ##  <a name="Example"></a> Example
 The following URL displays page 9305 Sales Order List for the [!INCLUDE[demoname](includes/demoname_md.md)] company. The page is displayed in a [!INCLUDE[nav_web](includes/nav_web_md.md)] that is running on port 8080 of a computer that has the name MyWebServer.
-
-> **FULL EXPERIENCE**<BR />
->vhwrihgoir gregjr gjioerjg iorejgirjeg jrei gjireoj goirejg rij  
-vgewrbw
-
-
 
 ```
 http://MyWebServer:8080/nav_server_instance/WebClient/default.aspx?company=CRONUS%20International%20Ltd.&page=9305  
