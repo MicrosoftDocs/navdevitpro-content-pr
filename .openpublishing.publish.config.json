@@ -8,21 +8,22 @@
       "build_source_folder": "dynamics-nav",
       "build_output_subfolder": "dynamics-nav",
       "locale": "en-us",
-      "version": 0,
+      "monikers": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
-      "build_entry_point": "op"
+      "build_entry_point": "op",
+      "version": 0
     },
     {
       "docset_name": "financialssmbgraph",
       "build_source_folder": "fin-graph",
       "build_output_subfolder": "financialssmbgraph",
       "locale": "en-us",
-      "version": 0,
+      "monikers": [],
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content",
@@ -30,7 +31,24 @@
         "RestApi": "Content"
       },
       "build_entry_point": "docs",
-      "template_folder": "_themes"
+      "template_folder": "_themes",
+      "version": 0
+    },
+    {
+      "docset_name": "aldeveloper",
+      "build_source_folder": "financials/developer",
+      "build_output_subfolder": "aldeveloper",
+      "locale": "en-us",
+      "monikers": [],
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes",
+      "version": 0
     }
   ],
   "notification_subscribers": [
