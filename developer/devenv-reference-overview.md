@@ -42,5 +42,3 @@ The REST API for [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] allows
 
 ## See Also
 [Getting Started](devenv-get-started.md)  
-[Tables](tables.md)  
-[Pages](pages.md)
