@@ -1,5 +1,5 @@
 ---
-title: "Differences in the Dynamics NAV Development Environments"
+title: "Differences in the Development Environments"
 description: "Describes the various differences between the old and the new development environment"
 author: SusanneWindfeldPedersen
 ms.custom: na
@@ -13,23 +13,23 @@ ms.author: SusanneWindfeldPedersen
 ms.assetID: be636361-9de8-4efb-ad50-445e4b7b3255
 ---
 
-# Differences in the Dynamics NAV Development Environments
+# Differences in the Development Environments
 Coming from the Dynamics NAV Development Environment and C/SIDE, there are some differences and optimizations that you should familiarize yourself with. The following sections go through these changes.  
 
 ## Data types
-|C/SIDE|New Development Environment|
+|C/SIDE|AL Development Environment|
 |------|---------------------------|
 |Dates are parsed based on culture settings.| Locale independent and supports only: ```yyyy-mm-ddD```.|
 |Boolean values could be expressed as **yes**/**no**.| Boolean values are expressed as **true**/**false**.|
 
 ## Syntax updates
-|C/SIDE|New Development Environment|
+|C/SIDE|AL Development Environment|
 |------|---------------------------|
 |The token for multilanguage comment is @@@.|A multilanguage comment is marked with Comment.|
 
 Several properties have been renamed, to mention some:
 
-|C/SIDE|New Development Environment|
+|C/SIDE|AL Development Environment|
 |------|---------------------------|
 |AutoFormatExpr|AutoFormatExpression|
 |DataCaptionExpr|DataCaptionExpression|
@@ -59,4 +59,3 @@ Some properties require that you set another property. An example is ```Promoted
 ## See Also
 [Getting Started](devenv-get-started.md)    
 [Developer Reference](devenv-reference-overview.md)  
-[Technical Reference for Dynamics NAV](technical-reference.md)
