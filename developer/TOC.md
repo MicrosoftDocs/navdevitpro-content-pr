@@ -1,1 +1,7 @@
-# [Index](index.md)
+# [Developing Extensions](devenv-dev-overview.md)
+## [Getting Started](devenv-get-started.md)
+## [Using the Dynamics NAV In-Client Designer](devenv-inclient-designer.md)
+## [Differences in the Development Environments](devenv-differences.md)
+## [Keyboard Shortcuts](devenv-keyboard-shortcuts.md)
+## [The Txt2Al Conversion Tool](devenv-txt2al-tool.md)
+## [Developer Reference](devenv-reference-overview.md)
