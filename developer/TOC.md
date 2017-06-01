@@ -1,1 +1,7 @@
-# [Index](index.md)
+# [Developing Extensions](newdev-dev-overview.md)
+## [Getting Started](newdev-get-started.md)
+## [Using the Dynamics NAV In-Client Designer](newdev-inclient-designer.md)
+## [Differences in the Development Environments](newdev-differences.md)
+## [Keyboard Shortcuts](newdev-keyboard-shortcuts.md)
+## [The Txt2Al Conversion Tool](newdev-txt2al-tool.md)
+## [Developer Reference](newdev-reference-overview.md)
