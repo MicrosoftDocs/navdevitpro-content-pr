@@ -50,6 +50,7 @@ Here is an example of the response. Note: The response object shown here may be 
   "id": "id-value",
   "number": "10000",
   "displayName": "Coho Winery",
+  "type": "Company",
   "address": {
     "street": "192 Market Square",
     "city": "Atlanta",
@@ -61,6 +62,9 @@ Here is an example of the response. Note: The response object shown here may be 
   "email": "jim.glynn@cronuscorp.net",
   "website": "",
   "taxLiable": true,
+  "taxAreaId": "taxAreaId-value",
+  "taxAreaDisplayName": "tax area",
+  "taxRegistrationNumber": "28012001T",
   "currencyCode": "USD",
   "paymentTerms": {
     "code": "1M(8D)",
@@ -73,6 +77,8 @@ Here is an example of the response. Note: The response object shown here may be 
   },
   "blocked": " ",
   "balance": 0,
+  "overdueAmount": 0
+  "totalSalesExcludingTax": 0,
   "lastModifiedDateTime": "2017-03-07T00:35:28.983Z"
 }
 ```
