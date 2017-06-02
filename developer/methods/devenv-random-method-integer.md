@@ -67,7 +67,7 @@ MESSAGE(Text000, Number1, Number2, Number3);
 ```  
   
 ## See Also  
- [ABS Method \(Decimal, Integer, BigInteger\)](devenv-ABS-Method-Decimal--Integer--BigInteger.md)   
+ [ABS Method \(Decimal, Integer, BigInteger\)](devenv-ABS-Method-Decimal-Integer-BigInteger.md)   
  [POWER Method \(Decimal, Integer, BigInteger\)](devenv-POWER-Method-Decimal--Integer--BigInteger.md)   
  [RANDOMIZE Method \(Integer\)](devenv-RANDOMIZE-Method-Integer.md)   
  [ROUND Method \(Decimal\)](devenv-ROUND-Method-Decimal.md)
