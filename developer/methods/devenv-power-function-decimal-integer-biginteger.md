@@ -147,6 +147,6 @@ MESSAGE(Text001, P, R, N, FORMAT(A,0,FormatString));
   
 ## See Also  
  [ABS Function \(Decimal, Integer, BigInteger\)](devenv-abs-function-decimal-integer-biginteger.md)   
- [RANDOM Function \(Integer\)](devenv-random-function-tnteger-.md)   
+ [RANDOM Function \(Integer\)](devenv-random-function-integer.md)   
  [RANDOMIZE Function \(Integer\)](devenv-randomize-function-integer.md)   
  [ROUND Function \(Decimal\)](devenv-round-function-decimal.md)
