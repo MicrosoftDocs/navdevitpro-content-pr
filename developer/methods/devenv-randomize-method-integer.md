@@ -52,6 +52,6 @@ MESSAGE(Text000, x);
   
 ## See Also  
  [ABS Method \(Decimal, Integer, BigInteger\)](devenv-ABS-Method-Decimal-Integer-BigInteger.md)   
- [POWER Method \(Decimal, Integer, BigInteger\)](devenv-POWER-Method-Decimal--Integer--BigInteger.md)   
+ [POWER Method \(Decimal, Integer, BigInteger\)](devenv-POWER-Method-Decimal-Integer-BigInteger.md)   
  [RANDOM Method \(Integer\)](devenv-RANDOM-Method-Integer.md)   
  [ROUND Method \(Decimal\)](devenv-ROUND-Method-Decimal.md)

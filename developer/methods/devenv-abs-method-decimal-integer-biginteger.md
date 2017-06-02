@@ -57,7 +57,7 @@ MESSAGE(Text000, x, y);
  **x = -10.235, y = 10.235**  
 
 ## See Also  
- [POWER Method \(Decimal, Integer, BigInteger\)](devenv-POWER-Method-Decimal--Integer--BigInteger.md)   
+ [POWER Method \(Decimal, Integer, BigInteger\)](devenv-POWER-Method-Decimal-Integer-BigInteger.md)   
  [RANDOM Method \(Integer\)](devenv-RANDOM-Method-Integer.md)   
  [RANDOMIZE Method \(Integer\)](devenv-RANDOMIZE-Method-Integer.md)   
  [ROUND Method \(Decimal\)](devenv-ROUND-Method-Decimal.md)
