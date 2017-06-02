@@ -29,7 +29,7 @@ HYPERLINK(URL)
 ## Remarks  
  The syntax must be a valid URL, such as *http://www.microsoft.com*, or file path, such as *c:\\temp\\myfile.txt*. If you want the URL to be configurable, you can get the URL from a field or a variable instead. If you pass an empty string, then no browser window is opened.  
   
- If you use this method for an application that runs on the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], then the default Internet browser that is based on the setting in the system registry is used. If the browser is already running, then a new tab opens in the browser window. If you use this method for an application that runs on the [!INCLUDE[nav_web](includes/nav_web_md.md)], then a new tab in the same browser window that is currently hosting the [!INCLUDE[nav_web](includes/nav_web_md.md)] is opened.  
+ If you use this method for an application that runs on the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)], then the default Internet browser that is based on the setting in the system registry is used. If the browser is already running, then a new tab opens in the browser window. If you use this method for an application that runs on the [!INCLUDE[nav_web](../includes/nav_web_md.md)], then a new tab in the same browser window that is currently hosting the [!INCLUDE[nav_web](../includes/nav_web_md.md)] is opened.  
   
  The HYPERLINK method works with different protocols and file types as along as the syntax is valid.  
   

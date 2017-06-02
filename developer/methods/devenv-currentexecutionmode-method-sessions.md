@@ -31,7 +31,7 @@ ExecutionMode := CURRENTEXECUTIONMODE
 -   Standard  
   
 ## Remarks  
- If you start the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] at a command prompt and use the –**debug** parameter, then the execution mode is **Debug**. Otherwise, the execution mode is **Standard**.  
+ If you start the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)] at a command prompt and use the –**debug** parameter, then the execution mode is **Debug**. Otherwise, the execution mode is **Standard**.  
   
 ## Example  
  This example requires that you create a variable named Mode that has a DataType of ExecutionMode.  

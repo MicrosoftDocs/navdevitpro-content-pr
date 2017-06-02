@@ -37,7 +37,7 @@ MESSAGE(String [, Value1, …])
   
  The window is automatically sized to hold the longest line of text and the total number of lines.  
   
- For NAS sessions or [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] sessions \(including NAS\) that are started by the [STARTSESSION Method \(Sessions\)](devenv-STARTSESSION-Method-Sessions.md), messages are recorded in the event log of the computer that is running [!INCLUDE[nav_server](includes/nav_server_md.md)]. The message entries have the ID 100 and type Information.  
+ For NAS sessions or [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] sessions \(including NAS\) that are started by the [STARTSESSION Method \(Sessions\)](devenv-STARTSESSION-Method-Sessions.md), messages are recorded in the event log of the computer that is running [!INCLUDE[nav_server](../includes/nav_server_md.md)]. The message entries have the ID 100 and type Information.  
   
 ## Programming Guidelines  
  We recommend the following guidelines for messages:  

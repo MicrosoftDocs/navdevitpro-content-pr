@@ -12,10 +12,10 @@ caps.latest.revision: 10
 manager: edupont
 ---
 # Methods Not Supported by Microsoft Dynamics NAV Web Client
-This topic lists the AL methods and data types that are not supported or partially supported by [!INCLUDE[nav_web](includes/nav_web_md.md)]. For more information about partially supported methods, see the method topic in the reference section.  
+This topic lists the AL methods and data types that are not supported or partially supported by [!INCLUDE[nav_web](../includes/nav_web_md.md)]. For more information about partially supported methods, see the method topic in the reference section.  
   
 ## Unsupported Methods  
- This section lists the methods that are not supported by the [!INCLUDE[nav_web](includes/nav_web_md.md)]. If you use a method that is not supported, an error occurs at runtime.  
+ This section lists the methods that are not supported by the [!INCLUDE[nav_web](../includes/nav_web_md.md)]. If you use a method that is not supported, an error occurs at runtime.  
   
 -   [CREATE Method \(Automation\)](devenv-CREATE-Method-Automation.md)  
   
@@ -26,7 +26,7 @@ This topic lists the AL methods and data types that are not supported or partial
 -   [UPDATE Method \(Dialog\)](devenv-UPDATE-Method-Dialog.md)  
   
 ## Partially Supported Methods  
- This topic lists the methods that either do not have all the capabilities in the [!INCLUDE[nav_web](includes/nav_web_md.md)] as they do in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] or they behave differently than in the [!INCLUDE[nav_windows](includes/nav_windows_md.md)].  
+ This topic lists the methods that either do not have all the capabilities in the [!INCLUDE[nav_web](../includes/nav_web_md.md)] as they do in the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)] or they behave differently than in the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)].  
   
 -   [DOWNLOAD Method \(File\)](devenv-DOWNLOAD-Method-File.md)  
   

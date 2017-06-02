@@ -114,7 +114,7 @@ Query.READ;
 ```  
 
 ## Example  
- The following example shows how to save the dataset of a query with the name **My Customers Query** as a CSV file. The file is given the name **mycustomers.csv** and is saved on the c: drive of the computer running [!INCLUDE[nav_server](includes/nav_server_md.md)]. The query consists of three columns: No., Name, and City. The file is set to place the columns at the following positions: 1, 10, and 40.  
+ The following example shows how to save the dataset of a query with the name **My Customers Query** as a CSV file. The file is given the name **mycustomers.csv** and is saved on the c: drive of the computer running [!INCLUDE[nav_server](../includes/nav_server_md.md)]. The query consists of three columns: No., Name, and City. The file is set to place the columns at the following positions: 1, 10, and 40.  
 
  This example requires that you do the following:  
 

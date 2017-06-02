@@ -32,7 +32,7 @@ Activates the debugger and attaches the debugger to the next session that is sta
 
  You can call either the **ACTIVATE** method or the [ATTACH Method \(Debugger\)](devenv-ATTACH-Method-Debugger.md) to activate the debugger.  
 
- The **ACTIVATE** method is not supported by the [!INCLUDE[nav_web](../includes/nav_web_md.md)]. If the **ACTIVATE** method is called from a page in the [!INCLUDE[nav_web](../includes/nav_web_md.md)], you receive a runtime error with a message that is similar to the following:  
+ The **ACTIVATE** method is not supported by the [!INCLUDE[nav_web](includes/nav_web_md.md)]. If the **ACTIVATE** method is called from a page in the [!INCLUDE[nav_web](includes/nav_web_md.md)], you receive a runtime error with a message that is similar to the following:  
 
  **The Ribbon Tab with id: "MBSCC.1A7.1A7" has not been made available for this page or does not exist. Use Ribbon.MakeTabAvailable\(\).**  
 
