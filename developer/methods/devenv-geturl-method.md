@@ -27,15 +27,15 @@ Generates a URL for the specified client target that is based on the configurati
   
  Specifies the client that you want to generate the URL for. This parameter is required. If you want to generate a URL that depends on the client that the user is accessing the URL from, choose **Current**. The following table describes the options.  
   
-|Option|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
+|Option|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|  
 |------------|---------------------------------------|  
 |**CURRENTCLIENTTYPE**<br /><br /> or<br /><br /> **ClientType::Current**|The URL is generated based on the client that invokes the code, provided that this is one of the client types that are specified in this list. If the URL is requested by another client type, such as a NAS session, [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] generates a URL based on the default client that is specified for the relevant [!INCLUDE[nav_server](../includes/nav_server_md.md)] instance. **Note:**  If you specify current as the client type, the URL cannot be consumed by an OData web service.|  
 |**DEFAULTCLIENTTYPE**<br /><br /> or<br /><br /> **ClientType::Default**|The URL is generated based on the default client that is specified for the relevant [!INCLUDE[nav_server](../includes/nav_server_md.md)] instance.|  
 |**ClientType::Windows**|The URL is generated based on a request from the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)].|  
 |**ClientType::Web**|The URL is generated based on a request from the [!INCLUDE[nav_web](../includes/nav_web_md.md)].|  
-|**ClientType::Desktop**|The URL is generated based on a request from the [!INCLUDE[nav_web](../includes/nav_web_md.md)] running the [!INCLUDE[nav_uni_app](includes/nav_uni_app_md.md)].|  
-|**ClientType::Tablet**|The URL is generated based on a request from the [!INCLUDE[nav_tablet](includes/nav_tablet_md.md)].|  
-|**ClientType::Phone**|The URL is generated based on a request from the [!INCLUDE[nav_phone](includes/nav_phone_md.md)].|  
+|**ClientType::Desktop**|The URL is generated based on a request from the [!INCLUDE[nav_web](../includes/nav_web_md.md)] running the [!INCLUDE[nav_uni_app](../includes/nav_uni_app_md.md)].|  
+|**ClientType::Tablet**|The URL is generated based on a request from the [!INCLUDE[nav_tablet](../includes/nav_tablet_md.md)].|  
+|**ClientType::Phone**|The URL is generated based on a request from the [!INCLUDE[nav_phone](../includes/nav_phone_md.md)].|  
 |**ClientType::SOAP**|The URL is generated based on a request from a SOAP web service.|  
 |**ClientType::OData**|The URL is generated based on a request from an OData web service.|  
   
@@ -82,13 +82,13 @@ Generates a URL for the specified client target that is based on the configurati
   
 |Client|URL|  
 |------------|---------|  
-|[!INCLUDE[nav_windows](../includes/nav_windows_md.md)]|DynamicsNAV://*server*:*port*/*instance*//[!INCLUDE[demoname](includes/demoname_md.md)]|  
-|[!INCLUDE[nav_web](../includes/nav_web_md.md)]|https://*server*:*port*/*instance*/WebClient?company='[!INCLUDE[demoname](includes/demoname_md.md)]'/|  
-|[!INCLUDE[nav_tablet](includes/nav_tablet_md.md)]|ms-dynamicsnav://*server*:*port*/*instance*?company=’ [!INCLUDE[demoname](includes/demoname_md.md)]’|  
-|[!INCLUDE[nav_phone](includes/nav_phone_md.md)]|ms-dynamicsnav://*server*:*port*/*instance*?company=’ [!INCLUDE[demoname](includes/demoname_md.md)]’|  
-|[!INCLUDE[d365fin_md](../includes/d365fin_md.md)] Desktop client|ms-dynamicsnav://*server*:*port*/*instance*?company=’ [!INCLUDE[demoname](includes/demoname_md.md)]’|  
-|OData|https://*server*:*port*/*instance*/OData/Company\('[!INCLUDE[demoname](includes/demoname_md.md)]'\)/|  
-|SOAP|https://*server*:*port*/*instance*/WS/[!INCLUDE[demoname](includes/demoname_md.md)]|  
+|[!INCLUDE[nav_windows](../includes/nav_windows_md.md)]|DynamicsNAV://*server*:*port*/*instance*//[!INCLUDE[demoname](../includes/demoname_md.md)]|  
+|[!INCLUDE[nav_web](../includes/nav_web_md.md)]|https://*server*:*port*/*instance*/WebClient?company='[!INCLUDE[demoname](../includes/demoname_md.md)]'/|  
+|[!INCLUDE[nav_tablet](../includes/nav_tablet_md.md)]|ms-dynamicsnav://*server*:*port*/*instance*?company=’ [!INCLUDE[demoname](../includes/demoname_md.md)]’|  
+|[!INCLUDE[nav_phone](../includes/nav_phone_md.md)]|ms-dynamicsnav://*server*:*port*/*instance*?company=’ [!INCLUDE[demoname](../includes/demoname_md.md)]’|  
+|[!INCLUDE[d365fin_md](../includes/d365fin_md.md)] Desktop client|ms-dynamicsnav://*server*:*port*/*instance*?company=’ [!INCLUDE[demoname](../includes/demoname_md.md)]’|  
+|OData|https://*server*:*port*/*instance*/OData/Company\('[!INCLUDE[demoname](../includes/demoname_md.md)]'\)/|  
+|SOAP|https://*server*:*port*/*instance*/WS/[!INCLUDE[demoname](../includes/demoname_md.md)]|  
   
  In the example, an empty string for the company name is included for clarity. But an even simpler use of GETURL is to only specify the client type as in `url := GETURL(ClientType::Default);`.  
   

@@ -25,11 +25,11 @@ Gets the client type that is running in current session.
 
  The client type for the current session, which can be one of the following values:  
 
-|Value|[!INCLUDE[bp_tabledescription](includes/bp_tabledescription_md.md)]|  
+|Value|[!INCLUDE[bp_tabledescription](../includes/bp_tabledescription_md.md)]|  
 |-----------|---------------------------------------|  
 |Windows|[!INCLUDE[nav_windows](../includes/nav_windows_md.md)]|  
 |Web|[!INCLUDE[nav_web](../includes/nav_web_md.md)]|  
-|Tablet|[!INCLUDE[nav_tablet](includes/nav_tablet_md.md)] **Note:**  If you are running tablet.aspx in a browser, the ClientType will return Web.|  
+|Tablet|[!INCLUDE[nav_tablet](../includes/nav_tablet_md.md)] **Note:**  If you are running tablet.aspx in a browser, the ClientType will return Web.|  
 |Desktop|[!INCLUDE[nav_web](::/includes/nav_web_md.md)] running in the Dynamics NAV app. In this mode, the [!INCLUDE[nav_web](../includes/nav_web_md.md)] will have, for example, navigation pane and ribbon.|  
 |Phone|[!INCLUDE[nav_phone](../includes/nav_phone_md.md)] **Note:**  If you are running phone.aspx in a browser, the ClientType will return Web.|  
 

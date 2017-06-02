@@ -36,7 +36,7 @@ Number := Record.MediaSetField.COUNT
  Specifies the number of media objects that are associated with the MediaSet field of the record.  
 
 ## Example  
- This example counts the number of media objects that are available for item No. 1000 in table **27 Item** of the  [!INCLUDE[demolonglight_md](includes/demolonglight_md.md)]. In this example, the field in the **Item** table that is used for the MediaSet data type is **Picture**.  
+ This example counts the number of media objects that are available for item No. 1000 in table **27 Item** of the  [!INCLUDE[demolonglight_md](../includes/demolonglight_md.md)]. In this example, the field in the **Item** table that is used for the MediaSet data type is **Picture**.  
 
 This code requires you to create the following variables.
 

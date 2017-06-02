@@ -30,7 +30,7 @@ Ok := CANLOADTYPE(DotNet)
  Returns **true** if the specified type can be accessed by [!INCLUDE[d365fin_md](../includes/d365fin_md.md)]; otherwise **false**.  
 
 ## Example  
- The following code example is based on codeunit 5300 in the [!INCLUDE[demolong](includes/demolong_md.md)]. This example requires that you create the following global variable and text constant.  
+ The following code example is based on codeunit 5300 in the [!INCLUDE[demolong](../includes/demolong_md.md)]. This example requires that you create the following global variable and text constant.  
 
 |Variable name|DataType|Subtype|  
 |-------------------|--------------|-------------|  

@@ -60,7 +60,7 @@ Sends a file from the client computer to the [!INCLUDE[nav_server](../includes/n
   
  If you do not provide a path, or you upload the file that uses [!INCLUDE[nav_web](../includes/nav_web_md.md)], then the file is uploaded to the following folder on the computing that is running [!INCLUDE[nav_server](../includes/nav_server_md.md)]:  
   
- \\ProgramData\\Microsoft\\Microsoft Dynamics NAV\\90\\Server\\MicrosoftDynamicsNAVServer$[!INCLUDE[nav_server_instance](includes/nav_server_instance_md.md)]\\users\\*ServiceAccount*  
+ \\ProgramData\\Microsoft\\Microsoft Dynamics NAV\\90\\Server\\MicrosoftDynamicsNAVServer$[!INCLUDE[nav_server_instance](../includes/nav_server_instance_md.md)]\\users\\*ServiceAccount*  
   
  *ServiceAccount* is the folder for the account for [!INCLUDE[nav_server](../includes/nav_server_md.md)].  
   

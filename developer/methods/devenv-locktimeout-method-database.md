@@ -38,7 +38,7 @@ Determines whether the lock time-out setting is set to **On**. You can also use 
 
  When the AL code has finished running, the default setting is used again. This method does not change the duration of a lock time-out.  
 
-To change the default setting in the [!INCLUDE[nav_dev_short](includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **Alter** to open the **Alter Database** window. Choose the **Advanced** tab and select or clear the **Lock time-out** field.  
+To change the default setting in the [!INCLUDE[nav_dev_short](../includes/nav_dev_short_md.md)], on the **File** menu, choose **Database**, and then choose **Alter** to open the **Alter Database** window. Choose the **Advanced** tab and select or clear the **Lock time-out** field.  
 
 ## See Also  
  [Database](Database.md)

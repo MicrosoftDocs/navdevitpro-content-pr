@@ -15,7 +15,7 @@ caps.latest.revision: 3
 # IMPORTDATA Method (Database)
 Imports data from a file that has been exported from a [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] database.  
 
- For an example of how to use this method, see page 9900, **Import Data**, in the [!INCLUDE[demolong](includes/demolong_md.md)].  
+ For an example of how to use this method, see page 9900, **Import Data**, in the [!INCLUDE[demolong](../includes/demolong_md.md)].  
 
 ## Syntax  
 

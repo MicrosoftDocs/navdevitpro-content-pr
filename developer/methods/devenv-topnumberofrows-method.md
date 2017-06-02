@@ -46,7 +46,7 @@ Specifies the maximum number of rows to include in the resulting dataset of a qu
   
 1.  Create a query called **Customer\_SalesQuantity** that has the following characteristics:  
   
-    -   Links table **18, Customer** with table **37, Sales Lines** from the [!INCLUDE[demolong](includes/demolong_md.md)].  
+    -   Links table **18, Customer** with table **37, Sales Lines** from the [!INCLUDE[demolong](../includes/demolong_md.md)].  
   
     -   Includes columns for the **Name** and **No.** fields from the **Customer** table and the **Quantity** field from **Sales Lines** table.  
   

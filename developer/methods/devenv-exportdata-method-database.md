@@ -15,7 +15,7 @@ caps.latest.revision: 4
 # EXPORTDATA Method (Database)
 Exports data from the [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] database to a file. The data is not deleted from the database.  
 
- For an example of how to use this method, see page 9901, **Export Data**, in the [!INCLUDE[demolong](includes/demolong_md.md)].  
+ For an example of how to use this method, see page 9901, **Export Data**, in the [!INCLUDE[demolong](../includes/demolong_md.md)].  
 
 ## Syntax  
 
