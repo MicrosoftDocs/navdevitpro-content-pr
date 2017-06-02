@@ -29,7 +29,7 @@ Represents an itemCategories resource type in Dynamics 365 for Financials.
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the itemCategory. Read-Only.|
+|id|GUID|The unique ID of the itemCategory. Non-editable.|
 |code|string|The itemCategory code.|
 |displayName|string|The itemCategories display name.|
 |lastModifiedDateTime|datetime|The last datetime the itemCategory was modified. Read-Only.|  

@@ -29,7 +29,7 @@ Represents a paymentMethods resource type in Dynamics 365 for Financials.
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the paymentMethods. Read-Only.|
+|id|GUID|The unique ID of the paymentMethods. Non-editable.|
 |code|string|Specifies the payment method code. |
 |displayName|string|Specifies the payment method display name.|
 |lastModifiedDateTime|datetime|The last datetime the payment method was modified. Read-Only.|  

@@ -29,7 +29,7 @@ Represents a currencies resource type in Dynamics 365 for Financials.
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the currency. Read-Only.|
+|id|GUID|The unique ID of the currency. Non-editable.|
 |code|string|Specifies the currency code. |
 |displayName|string|Specifies the currency display name.|
 |symbol|string|Specifies the symbol for this currency that appears on checks.|

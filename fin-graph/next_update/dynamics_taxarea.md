@@ -29,7 +29,7 @@ Represents a tax area resource type in Dynamics 365 for Financials.
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the tax area. Read-Only.|
+|id|GUID|The unique ID of the tax area. Non-editable.|
 |code|string, maximum size 20| The code of the tax area.|
 |displayName|string, maximum size 50| The display name of the tax area.|
 |lastModifiedDateTime|datetime|The last datetime the tax area was modified. Read-Only.|

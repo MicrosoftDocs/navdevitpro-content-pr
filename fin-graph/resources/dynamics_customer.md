@@ -29,7 +29,7 @@ Represents a customer resource type in Dynamics 365 for Financials.
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the item. Read-Only.|
+|id|GUID|The unique ID of the item. Non-editable.|
 |number|string|The customer number.|
 |displayName|string|Specifies the customer's name. This name will appear on all sales documents for the customer.|
 |type|string|Specifies the type of customer, can be "Company" or "Person".|

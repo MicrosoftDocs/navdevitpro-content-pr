@@ -29,7 +29,7 @@ Represents a salesInvoice resource type in Dynamics 365 for Financials.
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The invoice ID. Read-Only.|
+|id|GUID|The invoice ID. Non-editable.|
 |number|string, maximum size 20|The invoice number. Read-Only.|
 |invoiceDate|date|The invoice date|
 |customerPurchaseOrderReference|string, maximum size 35|The customer purchase order reference for the invoice|

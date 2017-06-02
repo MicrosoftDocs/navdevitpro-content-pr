@@ -29,7 +29,7 @@ Represents a customerPayment resource type in Dynamics 365 for Financials.
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the customer payment. Read-Only.|
+|id|GUID|The unique ID of the customer payment. Non-editable.|
 |lineNumber|integer|The number of the customer payment.|
 |customerId|GUID|The unique ID of the customer that the payment is related to.|
 |customerNumber|string, maximum size 20|The number of the customer that the payment is related to.|

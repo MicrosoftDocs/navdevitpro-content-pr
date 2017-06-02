@@ -29,7 +29,7 @@ Represents a paymentTerms resource type in Dynamics 365 for Financials.
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the paymentTerms. Read-Only.|
+|id|GUID|The unique ID of the paymentTerms. Non-editable.|
 |code|string|Specifies the payment term code. |
 |displayName|string|Specifies the payment term display name.|
 |dueDateCalculation|string|Specifies the formula that is used to calculate the date that a payment must be made.|

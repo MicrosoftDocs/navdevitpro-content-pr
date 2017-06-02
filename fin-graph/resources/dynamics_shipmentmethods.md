@@ -30,7 +30,7 @@ Represents a shipmentMethod resource type in Dynamics 365 for Financials.
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the shipmentMethod. Read-Only.|
+|id|GUID|The unique ID of the shipmentMethod. Non-editable.|
 |code|string|Specifies the shipment method code.|
 |displayName|string|Specifies the shipment method display name.|
 |lastModifiedDateTime|datetime|The last datetime the shipment method was modified. Read-Only.|  

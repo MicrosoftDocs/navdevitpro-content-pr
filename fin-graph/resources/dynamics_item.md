@@ -29,7 +29,7 @@ Represents an item resource type in Dynamics 365 for Financials.
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the item. Read-Only.|
+|id|GUID|The unique ID of the item. Non-editable.|
 |number|string|The item number.|
 |displayName|string|Specifies a description of the item.|
 |type|numeric|The inventory type for the item. 1 = inventory item, 2 = service item. This is a required property.|

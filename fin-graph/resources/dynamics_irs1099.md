@@ -29,7 +29,7 @@ Represents a irs1099Codes resource type in Dynamics 365 for Financials.
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the IRS 1099 Code. Read-Only.|
+|id|GUID|The unique ID of the IRS 1099 Code. Non-editable.|
 |code|string|Specifies the IRS 1099 Code. |
 |displayName|string|Specifies the IRS 1099 Code display name.|
 |minimumReportable|decimal|Specifies the minimum value for this box that must be reported to the IRS on a 1099 form.|

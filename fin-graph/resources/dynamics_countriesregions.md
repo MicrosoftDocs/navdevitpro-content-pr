@@ -29,7 +29,7 @@ Represents a countriesRegions resource type in Dynamics 365 for Financials.
 ## Properties
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|id|GUID|The unique ID of the country/region. Read-Only.|
+|id|GUID|The unique ID of the country/region. Non-editable.|
 |code|string|Specifies the code of the country/region.|
 |displayName|string|Specifies the display name of the country/region.|
 |addressFormat|string|Specifies the format of the address that is displayed on external-facing documents. You link an address format to a country/region code so that external-facing documents based on cards or documents with that country/region code use the specified address format.|
