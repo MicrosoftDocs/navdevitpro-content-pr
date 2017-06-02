@@ -27,7 +27,7 @@ String := FORMAT(Value[, Length][, FormatStr/FormatNumber])
 
  This is an AL variable \(expression\) of any simple data type, such as Option, Integer, BigInteger, Decimal, Char, Text, Code, Date, Time, DateTime, Boolean, or GUID.  
 
- If, when the system formats *Value*, the result is a value larger than the maximum length [MAXSTRLEN Method \(Code, Text\)](devenv-MAXSTRLEN-Method-Code--Text.md) of *String*, a run-time error occurs.  
+ If, when the system formats *Value*, the result is a value larger than the maximum length [MAXSTRLEN Method \(Code, Text\)](devenv-MAXSTRLEN-Method-Code-Text.md) of *String*, a run-time error occurs.  
 
  *Length*  
  Type: Integer  

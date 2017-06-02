@@ -99,6 +99,6 @@ MESSAGE(Text000, Format(DecimalToRound,0,1), Precision, Direction, Result);
 
 ## See Also  
  [ABS Method \(Decimal, Integer, BigInteger\)](devenv-ABS-Method-Decimal-Integer-BigInteger.md)   
- [POWER Method \(Decimal, Integer, BigInteger\)](devenv-POWER-Method-Decimal--Integer--BigInteger.md)   
+ [POWER Method \(Decimal, Integer, BigInteger\)](devenv-POWER-Method-Decimal-Integer-BigInteger.md)   
  [RANDOM Method \(Integer\)](devenv-RANDOM-Method-Integer.md)   
  [RANDOMIZE Method \(Integer\)](devenv-RANDOMIZE-Method-Integer.md)
