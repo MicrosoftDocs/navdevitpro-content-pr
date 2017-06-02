@@ -56,6 +56,6 @@ MESSAGE(Text000, x, y);
   
 ## See Also  
  [POWER Function \(Decimal, Integer, BigInteger\)](devenv-power-function-decimal-integer-biginteger.md)   
- [RANDOM Function \(Integer\)](devenv-random-function-tnteger-.md)   
+ [RANDOM Function \(Integer\)](devenv-random-function-integer-.md)   
  [RANDOMIZE Function \(Integer\)](devenv-randomize-function-integer.md)   
  [ROUND Function \(Decimal\)](devenv-round-function-decimal.md)

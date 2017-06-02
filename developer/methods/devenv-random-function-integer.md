@@ -67,6 +67,6 @@ MESSAGE(Text000, Number1, Number2, Number3);
 ## See Also  
  [ABS Function \(Decimal, Integer, BigInteger\)](devenv-abs-function-decimal-integer-biginteger.md)  
  [POWER Function \(Decimal, Integer, BigInteger\)](POWER-Function--Decimal--Integer--BigInteger-.md)  
- [RANDOM Function \(Integer\)](devenv-random-function-tnteger-.md)   
+ [RANDOM Function \(Integer\)](devenv-random-function-integer-.md)   
  [RANDOMIZE Function \(Integer\)](devenv-randomize-function-integer.md)   
  [ROUND Function \(Decimal\)](devenv-round-function-decimal.md)
