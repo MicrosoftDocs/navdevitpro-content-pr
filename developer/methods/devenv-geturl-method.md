@@ -34,8 +34,8 @@ Generates a URL for the specified client target that is based on the configurati
 |**ClientType::Windows**|The URL is generated based on a request from the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)].|  
 |**ClientType::Web**|The URL is generated based on a request from the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)].|  
 |**ClientType::Desktop**|The URL is generated based on a request from the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)] running the [!INCLUDE[nav_uni_app](../includes/nav_uni_app_md.md)].|  
-|**ClientType::Tablet**|The URL is generated based on a request from the [!INCLUDE[nav_tablet](../includes/nav_tablet_md.md)].|  
-|**ClientType::Phone**|The URL is generated based on a request from the [!INCLUDE[nav_phone](../includes/nav_phone_md.md)].|  
+|**ClientType::Tablet**|The URL is generated based on a request from the [!INCLUDE[d365fin_tablet_md](../includes/d365fin_tablet_md.md)].|  
+|**ClientType::Phone**|The URL is generated based on a request from the [!INCLUDE[d365fin_phone_md](../includes/d365fin_phone_md.md)].|  
 |**ClientType::SOAP**|The URL is generated based on a request from a SOAP web service.|  
 |**ClientType::OData**|The URL is generated based on a request from an OData web service.|  
   
@@ -84,8 +84,8 @@ Generates a URL for the specified client target that is based on the configurati
 |------------|---------|  
 |[!INCLUDE[nav_windows](../includes/nav_windows_md.md)]|DynamicsNAV://*server*:*port*/*instance*//[!INCLUDE[demoname](../includes/demoname_md.md)]|  
 |[!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)]|https://*server*:*port*/*instance*/WebClient?company='[!INCLUDE[demoname](../includes/demoname_md.md)]'/|  
-|[!INCLUDE[nav_tablet](../includes/nav_tablet_md.md)]|ms-dynamicsnav://*server*:*port*/*instance*?company=’ [!INCLUDE[demoname](../includes/demoname_md.md)]’|  
-|[!INCLUDE[nav_phone](../includes/nav_phone_md.md)]|ms-dynamicsnav://*server*:*port*/*instance*?company=’ [!INCLUDE[demoname](../includes/demoname_md.md)]’|  
+|[!INCLUDE[d365fin_tablet_md](../includes/d365fin_tablet_md.md)]|ms-dynamicsnav://*server*:*port*/*instance*?company=’ [!INCLUDE[demoname](../includes/demoname_md.md)]’|  
+|[!INCLUDE[d365fin_phone_md](../includes/d365fin_phone_md.md)]|ms-dynamicsnav://*server*:*port*/*instance*?company=’ [!INCLUDE[demoname](../includes/demoname_md.md)]’|  
 |[!INCLUDE[d365fin_md](../includes/d365fin_md.md)] Desktop client|ms-dynamicsnav://*server*:*port*/*instance*?company=’ [!INCLUDE[demoname](../includes/demoname_md.md)]’|  
 |OData|https://*server*:*port*/*instance*/OData/Company\('[!INCLUDE[demoname](../includes/demoname_md.md)]'\)/|  
 |SOAP|https://*server*:*port*/*instance*/WS/[!INCLUDE[demoname](../includes/demoname_md.md)]|  
