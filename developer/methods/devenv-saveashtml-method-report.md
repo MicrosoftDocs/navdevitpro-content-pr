@@ -12,7 +12,7 @@ caps.latest.revision: 18
 manager: edupont
 ---
 # SAVEASHTML Method (Report)
-Saves a report as an HTML file. The file is saved on the computer where the [!INCLUDE[nav_server](../includes/nav_server_md.md)] instance is running, and then downloaded to the client when ready.  
+Saves a report as an HTML file. The file is saved on the computer where the [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] instance is running, and then downloaded to the client when ready.  
   
 > [!IMPORTANT]  
 >  This method is only supported when a report uses a Word report layout when it is run.  
@@ -36,7 +36,7 @@ Saves a report as an HTML file. The file is saved on the computer where the [!IN
   
  The folder path and name of the file that you want to save the report as.  
   
- The path must already exist and the service \(login\) account that is used by the [!INCLUDE[nav_server](../includes/nav_server_md.md)] instance must have permission to write to the target folder. Otherwise, you will get errors.  
+ The path must already exist and the service \(login\) account that is used by the [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] instance must have permission to write to the target folder. Otherwise, you will get errors.  
   
  *Record*  
  Type: Record  

@@ -55,15 +55,15 @@ Starts a [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] session without a UI 
  If you omit this optional return value and the session is not started successfully, then a run-time error occurs. If you include the return value, then you must handle any errors.  
 
 ## Remarks  
- The session is started on the same [!INCLUDE[nav_server](../includes/nav_server_md.md)] instance from which the method is called. The session that is started is a background session and therefore has no UI. The session executes using the same user credentials as the calling AL code.  
+ The session is started on the same [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] instance from which the method is called. The session that is started is a background session and therefore has no UI. The session executes using the same user credentials as the calling AL code.  
 
  The following table describes how dialog boxes are handled in a background session, which has no UI.  
 
 |Method that creates the dialog box|Behavior|  
 |------------------------------------------|--------------|  
-|[CONFIRM Method \(Dialog\)](devenv-CONFIRM-Method-Dialog.md)|-   Dialog box is suppressed.<br />-   The following error occurs on the [!INCLUDE[nav_server](../includes/nav_server_md.md)] instance: **[!INCLUDE[nav_server](../includes/nav_server_md.md)] attempted to issue a client callback to show a confirmation dialog box.**|  
-|[ERROR Method \(Dialog\)](devenv-ERROR-Method-Dialog.md)|-   Dialog box is suppressed.<br />-   AL code execution ends.<br />-   The error is logged to the event log of the [!INCLUDE[nav_server](../includes/nav_server_md.md)] instance.<br />-   The error is added to the **Comments** field of the **Session Event** table.|  
-|[MESSAGE Method \(Dialog\)](devenv-MESSAGE-Method-Dialog.md)|-   Dialog box is suppressed.<br />-   The message is recorded in the event log of the computer that is running [!INCLUDE[nav_server](../includes/nav_server_md.md)] instance. The log entry has type Information and includes the context of the message.|  
+|[CONFIRM Method \(Dialog\)](devenv-CONFIRM-Method-Dialog.md)|-   Dialog box is suppressed.<br />-   The following error occurs on the [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] instance: **[!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] attempted to issue a client callback to show a confirmation dialog box.**|  
+|[ERROR Method \(Dialog\)](devenv-ERROR-Method-Dialog.md)|-   Dialog box is suppressed.<br />-   AL code execution ends.<br />-   The error is logged to the event log of the [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] instance.<br />-   The error is added to the **Comments** field of the **Session Event** table.|  
+|[MESSAGE Method \(Dialog\)](devenv-MESSAGE-Method-Dialog.md)|-   Dialog box is suppressed.<br />-   The message is recorded in the event log of the computer that is running [!INCLUDE[d365fin_server](../includes/d365fin_server_md.md)] instance. The log entry has type Information and includes the context of the message.|  
 |[OPEN Method \(Dialog\)](devenv-OPEN-Method-Dialog.md)|-   Dialog box is suppressed.<br />-   Dialog box text is not displayed or logged.|  
 
  Each background session has the same impact on resources as a regular user session. In addition, it takes time and resources to start each background session. Therefore, we recommend that you consider when and how you use background sessions. For example, do not use background sessions for small tasks that occur often because the cost of starting the session for each tasks is high.  

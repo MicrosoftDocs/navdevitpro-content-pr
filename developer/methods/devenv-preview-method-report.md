@@ -29,7 +29,7 @@ IsPreview := PREVIEW
 ## Remarks  
  You must use the return value. A compile error is generated if this value is not used.  
 
- In the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)] or [!INCLUDE[nav_web](../includes/nav_web_md.md)], if you run a client report definition \(RDLC\) report layout in preview mode and then call the CurrReport.PREVIEW method, then the Print icon, Print Layout icon, Page Setup icon, and Save As icon are not displayed.  
+ In the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)] or [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)], if you run a client report definition \(RDLC\) report layout in preview mode and then call the CurrReport.PREVIEW method, then the Print icon, Print Layout icon, Page Setup icon, and Save As icon are not displayed.  
 
  If you run a client report definition \(RDLC\) report layout in preview mode and do not call the CurrReport.PREVIEW method, then you can print from the **Print Preview** window.  
   
