@@ -13,39 +13,39 @@ manager: edupont
 ---
 # VARIANT2DATE Method
 Gets a date from a variant.  
-  
+
 ## Syntax  
-  
+
 ```  
-  
+
 Date := VARIANT2DATE(Variant)  
 ```  
-  
+
 #### Parameters  
  *Variant*  
  Type: Variant  
-  
+
  The input variant.  
-  
+
 ## Property Value/Return Value  
  Type: Date  
-  
+
  The resulting date.  
-  
+
 ## Example  
  This example requires that you create the following variables.  
-  
+
 |Name|DataType|  
 |----------|--------------|  
 |TestDate|Date|  
 |variant1|Variant|  
-  
+
 ```  
 variant1 := TODAY;  
 TestDate := VARIANT2DATE(variant1);  
 ```  
-  
+
 ## See Also  
  [Variant Data Type](Variant-Data-Type.md)   
  [Date and Time Methods](Date-and-Time-Methods.md)   
- [Using COM Technologies in Microsoft Dynamics NAV](Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md)
+ <!--[Using COM Technologies in Microsoft Dynamics NAV](Using-COM-Technologies-in-Microsoft-Dynamics-NAV.md)-->
