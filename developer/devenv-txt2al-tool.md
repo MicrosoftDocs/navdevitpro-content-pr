@@ -23,13 +23,16 @@ The Txt2Al conversion tool allows you to take existing Dynamics NAV objects that
 ## To run the Txt2Al conversion tool
 To run the Txt2Al conversion tool, follow the steps outlined below.
 
-1. Start with a clean Dynamics NAV database and make an export of all the baseline objects in the command line using the following syntax:
+1. Start with a clean Dynamics NAV database and make an export of **all the baseline objects** in the command line using the following syntax:
 ```finsql.exe Command=ExportToNewSyntax, File=<filename.txt>, Database="<databasename>", ServerName=<servername> ,Filter=Type=table;ID=<tableID>```. The following example exports the table **225** from the Demo Database NAV 10-0 database:  
   ```finsql.exe Command=ExportToNewSyntax, File=exportedObjects.txt, Database="Demo Database NAV (10-0)", ServerName=.\NAVDEMO ,Filter=Type=table;ID=225```
-
-2. Go to the *\Program Files(x86)\DynamicsNAV\100\RoleTailored Client* folder and locate the **txt2al.exe** converter tool. 
-3. Run the tool from the command line using the following syntax:  
-```txt2al --source --target --rename --type```
+2. Import your solution into Dynamics NAV.
+3. Export all **new and/or modified** objects using the following syntax:
+```finsql.exe Command=ExportToNewSyntax, File=<filename.txt>, Database="<databasename>", ServerName=<servername> ,Filter=Type=table;ID=<tableID>```. The following example exports the table **225** from the Demo Database NAV 10-0 database:  
+  ```finsql.exe Command=ExportToNewSyntax, File=exportedObjects.txt, Database="Demo Database NAV (10-0)", ServerName=.\NAVDEMO ,Filter=Type=table;ID=225```
+4. Go to the *\Program Files(x86)\DynamicsNAV\100\RoleTailored Client* folder and locate the **txt2al.exe** converter tool. 
+5. Run the tool from the command line using the following syntax:  
+```txt2al --source --target --rename --type --extensionStartId```
 
 |Parameter   |Description|
 |------------|-----------|
@@ -43,10 +46,8 @@ To run the Txt2Al conversion tool, follow the steps outlined below.
 > NOTE: It is recommended to only use the conversion tool for export. Importing objects that have been exported can damage your application.
 
 ## See Also
-[Developing Extensions Using the New Development Environment](newdev-dev-overview.md)  
+[Developing Extensions](newdev-dev-overview.md)  
 [Developer Reference](newdev-reference-overview.md)  
 [Page Extension Object](newdev-page-ext-object.md)  
 [Report Object](newdev-report-object.md)  
-[Pages](pages.md)  
-[Tables](tables.md)  
-[Page Properties](page-properties.md)
+[Page Properties](devenv-page-property-overview.md)
