@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-365-for-financials"
 ms.assetid: 9bd5ad29-12d7-4f24-a7b2-3d4d16198010
 caps.latest.revision: 8
 manager: edupont
 ---
 # ENABLESQLTRACE Method (Debugger)
-Enables or verifies SQL tracing. If you enable SQL tracing, then SQL Server events for selected sessions on the [!INCLUDE[nav_server](../includes/nav_server_md.md)] instance are collected.  
+Enables or verifies SQL tracing. If you enable SQL tracing, then SQL Server events for selected sessions on the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] instance are collected.  
   
 ## Syntax  
   
@@ -26,7 +26,7 @@ Enables or verifies SQL tracing. If you enable SQL tracing, then SQL Server even
   
  The ID of the session for which you want to enable the SQL trace, or for which you want to verify if tracing is enabled.  
   
- If you specify 0 and you specify the *NewIsEnabled* parameter, then tracing is enabled for all existing sessions and all new sessions on the current [!INCLUDE[nav_server](../includes/nav_server_md.md)] instance. If you specify 0 and you omit the *NewIsEnabled* parameter, then the method returns **true** if tracing is enabled for new sessions on the current [!INCLUDE[nav_server](../includes/nav_server_md.md)] instance.  
+ If you specify 0 and you specify the *NewIsEnabled* parameter, then tracing is enabled for all existing sessions and all new sessions on the current [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] instance. If you specify 0 and you omit the *NewIsEnabled* parameter, then the method returns **true** if tracing is enabled for new sessions on the current [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] instance.  
   
  If the session ID that you specify does not exist and you specify the *NewIsEnabled* parameter, then a run-time error occurs. If the session ID that you specify does not exist and you do not specify the *NewIsEnabled* parameter, then the method returns **false**.  
   

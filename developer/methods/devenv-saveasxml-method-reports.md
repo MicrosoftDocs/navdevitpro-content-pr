@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-365-for-financials"
 ms.assetid: 734be992-db50-4100-8c1d-2b09d3b67643
 caps.latest.revision: 3
 manager: edupont
 ---
 # SAVEASXML Method (Reports)
-Saves a report as an .xml file on the computer that is running [!INCLUDE[nav_server](../includes/nav_server_md.md)].  
+Saves a report as an .xml file on the computer that is running [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)].  
 
 ## Syntax  
 
@@ -33,10 +33,10 @@ Saves a report as an .xml file on the computer that is running [!INCLUDE[nav_ser
  *FileName*  
  Type: Text  
 
- The path and the name of the file that you want to save the report as. The path must exist, the file must not be being used, and the [!INCLUDE[nav_server](../includes/nav_server_md.md)] must have permission to write to the file. Otherwise, you will get errors.  
+ The path and the name of the file that you want to save the report as. The path must exist, the file must not be being used, and the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] must have permission to write to the file. Otherwise, you will get errors.  
 
 > [!TIP]  
->  If you call this method from a client, such as from an action on a page, then you can use the [DOWNLOAD Method \(File\)](devenv-DOWNLOAD-Method-File.md) to send the .xml file from the computer that is running [!INCLUDE[nav_server](../includes/nav_server_md.md)] to the computer that is running the client.  
+>  If you call this method from a client, such as from an action on a page, then you can use the [DOWNLOAD Method \(File\)](devenv-DOWNLOAD-Method-File.md) to send the .xml file from the computer that is running [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] to the computer that is running the client.  
 
  *Record*  
  Type: Record  
@@ -66,14 +66,14 @@ Saves a report as an .xml file on the computer that is running [!INCLUDE[nav_ser
 
  **An I/O exception occurred during the operation.**  
 
- If the [!INCLUDE[nav_server](../includes/nav_server_md.md)] does not have permission to write to the file that you specify in *FileName*, then you get the following error:  
+ If the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] does not have permission to write to the file that you specify in *FileName*, then you get the following error:  
 
  **Either the caller does not have the required permission or the specified path is read-only.**  
 
- To resolve this issue, verify that the service account that is running the [!INCLUDE[nav_server](../includes/nav_server_md.md)] instance has write permissions on the path.  
+ To resolve this issue, verify that the service account that is running the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] instance has write permissions on the path.  
 
 ## Example  
- This example shows how to use the SAVEASXML method to save a report as an .xml file on the computer that is running [!INCLUDE[nav_server](../includes/nav_server_md.md)] and then download the file to a different computer that is running the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)]. This example requires that you create the following variables.  
+ This example shows how to use the SAVEASXML method to save a report as an .xml file on the computer that is running [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] and then download the file to a different computer that is running the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)]. This example requires that you create the following variables.  
 
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  

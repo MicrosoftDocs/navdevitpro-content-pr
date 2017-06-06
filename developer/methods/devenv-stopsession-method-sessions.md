@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-365-for-financials"
 ms.assetid: a49c867c-aec4-4d5f-9881-1a2442274a1a
 caps.latest.revision: 11
 manager: edupont
@@ -30,7 +30,7 @@ Stops a [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] session.
   
 -   [!INCLUDE[nav_windows](../includes/nav_windows_md.md)] session  
   
--   [!INCLUDE[nav_web](../includes/nav_web_md.md)] session  
+-   [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)] session  
   
 -   NAS services session  
   
@@ -53,7 +53,7 @@ Stops a [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] session.
  If you omit this optional return value and the session is not stopped successfully, then a run-time error occurs. If you include the return value, then you must handle any errors.  
   
 ## Remarks  
- The session that you want to stop and the session that calls STOPSESSION must be running on the same instance of [!INCLUDE[nav_server](../includes/nav_server_md.md)]. The session is stopped before the next AL statement executes. Open transactions are rolled back.  
+ The session that you want to stop and the session that calls STOPSESSION must be running on the same instance of [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)]. The session is stopped before the next AL statement executes. Open transactions are rolled back.  
   
 > [!NOTE]  
 >  If the current executing statement is the **SLEEP** method, then the session is stopped immediately.  

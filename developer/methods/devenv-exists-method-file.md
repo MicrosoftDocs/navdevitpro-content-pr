@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-365-for-financials"
 ms.assetid: aa5edf16-0e5e-4bd2-bd8b-e7e6f3da3f3c
 caps.latest.revision: 12
 ---

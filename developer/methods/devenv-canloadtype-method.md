@@ -6,14 +6,14 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-365-for-financials"
 ms.assetid: 9b8a593c-0a96-4e09-97c6-00cb4311dbe6
 caps.latest.revision: 2
 ---
 # CANLOADTYPE Method
 Tests if the specified .NET Framework type can be loaded by [!INCLUDE[d365fin_md](../includes/d365fin_md.md)].  
 
- You can use the CANLOADTYPE method to test the availability of assemblies that are expected to be present on the client computer or on the [!INCLUDE[nav_server](../includes/nav_server_md.md)] computer.  
+ You can use the CANLOADTYPE method to test the availability of assemblies that are expected to be present on the client computer or on the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)].  
 
 ## Syntax  
 

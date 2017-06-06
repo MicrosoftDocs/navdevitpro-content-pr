@@ -7,7 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.author: jswymer
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-365-for-financials"
 manager: edupont
 ---
 # IMPORTFILE Method (Media)
@@ -57,7 +57,7 @@ Type: Media
 If you import a media file into a record that already has a media object, and a modify operation is performed, the original media object will be permanently deleted from the database. However, if there are other rows in the same table that reference the original media object from the same field index, the original media object is not deleted from the database. This behavior allows a row to be copied.
 
 ## Example
-This example uses the IMPORTFILE method to import a JPEG image from file to a record in a database table. After the image is imported, it can be displayed on a list page that uses the table, when the page is opened in the [!INCLUDE[nav_web](../includes/nav_web_md.md)] and viewed in a brick layout.
+This example uses the IMPORTFILE method to import a JPEG image from file to a record in a database table. After the image is imported, it can be displayed on a list page that uses the table, when the page is opened in the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)] and viewed in a brick layout.
 
 **Preparation:**
 
@@ -85,7 +85,7 @@ To support the example code that follows, create the following objects:
 
 -   JPEG image files for one or more items in the **My Items** table.
     -   Give each file a name that corresponds to an item number in the table, such as 1.jpg, 2.jpg, 3.jpg, and so on.
-    -   Save the files in the *C:\images* folder on the computer that is running [!INCLUDE[nav_server](../includes/nav_server_md.md)].
+    -   Save the files in the *C:\images* folder on the computer that is running [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)].
 
 **Code:**
 

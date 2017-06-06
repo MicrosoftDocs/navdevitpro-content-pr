@@ -7,7 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.author: jswymer
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-365-for-financials"
 manager: edupont
 ---
 # IMPORTSTREAM Method (Media)
@@ -81,7 +81,7 @@ To support the example code that follows, create the following objects:
 
 -   JPEG image files for one or more items in the **My Items** table.
     -   Give each file a name that corresponds to an item number in the table, such as 1.jpg, 2.jpg, 3.jpg, and so on.
-    -   Save the files in the *C:\images* folder on the computer that is running [!INCLUDE[nav_server](../includes/nav_server_md.md)].
+    -   Save the files in the *C:\images* folder on the computer that is running [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)].
 
 **Code**  
 With the objects in place, you can add and run the following AL code to import the images. For this code example, create a codeunit and add the code to the **OnRun** trigger of the codeunit.

@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-365-for-financials"
 ms.assetid: 68a78e4f-d6f2-4286-8e7b-d5ba27705f9e
 caps.latest.revision: 14
 manager: edupont
@@ -37,7 +37,7 @@ MESSAGE(String [, Value1, …])
   
  The window is automatically sized to hold the longest line of text and the total number of lines.  
   
- For NAS sessions or [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] sessions \(including NAS\) that are started by the [STARTSESSION Method \(Sessions\)](devenv-STARTSESSION-Method-Sessions.md), messages are recorded in the event log of the computer that is running [!INCLUDE[nav_server](../includes/nav_server_md.md)]. The message entries have the ID 100 and type Information.  
+ For NAS sessions or [!INCLUDE[d365fin_md](../includes/d365fin_md.md)] sessions \(including NAS\) that are started by the [STARTSESSION Method \(Sessions\)](devenv-STARTSESSION-Method-Sessions.md), messages are recorded in the event log of the computer that is running [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)]. The message entries have the ID 100 and type Information.  
   
 ## Programming Guidelines  
  We recommend the following guidelines for messages:  

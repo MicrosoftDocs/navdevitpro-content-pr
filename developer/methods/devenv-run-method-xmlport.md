@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-365-for-financials"
 ms.assetid: 1a3b82b8-2f24-4fae-9a45-391cde2de600
 caps.latest.revision: 17
 ---
@@ -35,7 +35,7 @@ XMLport.RUN (Number [, ReqWindow] [, Import] [, Record])
  This parameter overrides the setting of the [UseRequestPage Property](../devenv-UseRequestPage-Property.md) of the XMLPort. If you do not provide a value for the *ReqWindow* parameter, then the setting of the **UseRequestPage** property is used.  
   
 > [!IMPORTANT]  
->  [!INCLUDE[nav_web](../includes/nav_web_md.md)] does not support request pages with XMLports. If the XMLPort will appear in the [!INCLUDE[nav_web](../includes/nav_web_md.md)], you should set the value to **false**; otherwise, you will get an error at runtime.  
+>  [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)] does not support request pages with XMLports. If the XMLPort will appear in the [!INCLUDE[d365fin_web_md](../includes/d365fin_web_md.md)], you should set the value to **false**; otherwise, you will get an error at runtime.  
   
  *Import*  
  Specifies whether the XMLPort imports or exports data. Specify **true** to run the XMLport and import data; specify **false** to export data.  
