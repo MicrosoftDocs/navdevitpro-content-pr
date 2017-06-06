@@ -16,12 +16,12 @@ In this walkthrough, you will install [!INCLUDE[navnowlong](includes/navnowlong_
 
 |Computer|Installed operating system and software|Tier|  
 |--------------|---------------------------------------------|----------|  
-|**NAVSQL**|Microsoft Windows Server 2008 R2 with the 64-bit edition of SQL Server 2008 R2 installed.<br /><br /> You will install [!INCLUDE[navnow](includes/navnow_md.md)] database components on this computer.|Database|  
-|**NAVSERV**|Microsoft Windows Server 2008 R2.<br /><br /> You will install [!INCLUDE[nav_server](includes/nav_server_md.md)] on this computer.|Server \(middle\)|  
-|**NAVCLIENT**|Windows 7.<br /><br /> You will install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] on this computer.|Client|  
+|**NAVSQL**|A supported version of Microsoft Windows Server with a supported version of the 64-bit edition of SQL Server installed.<br /><br /> You will install [!INCLUDE[navnow](includes/navnow_md.md)] database components on this computer.|Database|  
+|**NAVSERV**|A supported version of Microsoft Windows Server.<br /><br /> You will install [!INCLUDE[nav_server](includes/nav_server_md.md)] on this computer.|Server \(middle\)|  
+|**NAVCLIENT**|Windows 10.<br /><br /> You will install the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] on this computer.|Client|  
 
 > [!NOTE]  
->  For information on system requirements for [!INCLUDE[navnowlong](includes/navnowlong_md.md)] components, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).  
+>  For information on system requirements for (and supported versions of) [!INCLUDE[navnowlong](includes/navnowlong_md.md)] components, see [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md).  
 
  The key characteristic of this walkthrough is that the [!INCLUDE[nav_windows](includes/nav_windows_md.md)], [!INCLUDE[nav_server](includes/nav_server_md.md)], and SQL Server are installed on separate computers. In a production environment, you may have multiple computers running SQL Server, multiple computers running [!INCLUDE[nav_server](includes/nav_server_md.md)], and multiple computers running the [!INCLUDE[nav_windows](includes/nav_windows_md.md)]. When any client user is accessing [!INCLUDE[nav_server](includes/nav_server_md.md)] on a remote computer and SQL Server on a different remote computer, the procedures and issues presented in this walkthrough apply.  
 
@@ -48,25 +48,25 @@ In this walkthrough, you will install [!INCLUDE[navnowlong](includes/navnowlong_
 ### Prerequisites  
  To complete this walkthrough, you need three computers that are configured as described in the introduction.  
 
- If SQL Server is not present on the computer where you install the [SQL Server Database Components](SQL-Server-Database-Components.md), then Setup automatically installs the 64-bit edition of SQL Server Express 2008 R2, which you can use for prototyping, developing, and testing. We recommend that you use SQL Server 2008 R2 in production environments. For that reason, this walkthrough assumes that you have installed a non-Express version of SQL Server 2008 R2, and then created a SQL Server instance named NAVDEMO, before you begin. For more information, see [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md).  
+ If SQL Server is not present on the computer where you install the [SQL Server Database Components](SQL-Server-Database-Components.md), then Setup automatically installs a 64-bit edition of SQL Server Express Edition, which you can use for prototyping, developing, and testing. We recommend that you use a non-Express version of SQL Server in production environments. For that reason, this walkthrough assumes that you have installed a non-Express version of SQL Server, and then created a SQL Server instance named NAVDEMO, before you begin. For more information, see [Installation Considerations for Microsoft SQL Server](Installation-Considerations-for-Microsoft-SQL-Server.md).  
 
 ## Story  
  A consultant wants to install [!INCLUDE[navnowlong](includes/navnowlong_md.md)] in a production environment.  
 
--   She installs [!INCLUDE[navnow](includes/navnow_md.md)] database components on a Windows Server 2008 R2 computer \(**NAVSQL**\) where she has already installed Microsoft SQL Server 2008 R2.  
+-   She installs [!INCLUDE[navnow](includes/navnow_md.md)] database components on a server running Windows Server \(**NAVSQL**\) where she has already installed Microsoft SQL Server.  
 
--   She installs [!INCLUDE[nav_server](includes/nav_server_md.md)] on a Windows Server 2008 R2 computer \(**NAVSERV**\).  
+-   She installs [!INCLUDE[nav_server](includes/nav_server_md.md)] on a server running Windows Server \(**NAVSERV**\).  
 
 -   She creates a domain user account in Active Directory and uses [!INCLUDE[nav_admin](includes/nav_admin_md.md)] to configure a [!INCLUDE[nav_server](includes/nav_server_md.md)] instance to run using that account’s credentials.  
 
--   She installs the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] on a Windows 7 computer \(**NAVCLIENT**\) and configures it to communicate with [!INCLUDE[nav_server](includes/nav_server_md.md)].  
+-   She installs the [!INCLUDE[nav_windows](includes/nav_windows_md.md)] on a Windows 10 computer \(**NAVCLIENT**\) and configures it to communicate with [!INCLUDE[nav_server](includes/nav_server_md.md)].  
 
 ## Installing the Microsoft Dynamics NAV Database Components  
  When you run [!INCLUDE[navnowlong](includes/navnowlong_md.md)] Setup, you see a menu of installation options. You configure the **Server Option** to install the SQL Server Database components and the [!INCLUDE[demolong](includes/demolong_md.md)]. When Setup is finished, you start the SQL Browser Service on the SQL Server.  
 
 #### To install the Microsoft Dynamics NAV database components and the demo database  
 
-1.  Insert the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installation media in the drive of **NAVSQL**, which is the computer where SQL Server 2008 R2 is already installed.  
+1.  Insert the [!INCLUDE[navnowlong](includes/navnowlong_md.md)] installation media in the drive of **NAVSQL**, which is the computer where SQL Server is already installed.  
 
 2.  On the introductory pane, choose **Next**.  
 
@@ -145,7 +145,7 @@ In this walkthrough, you will install [!INCLUDE[navnowlong](includes/navnowlong_
 8.  After the installation is complete, choose **Close**.  
 
 ## Configuring [!INCLUDE[nav_server](includes/nav_server_md.md)] to Run Using the Credentials of a Dedicated Domain User Account  
- The steps for creating a domain user account using the Active Directory Users and Computers utility \(dsa.msc\) are available in the Windows Server 2008 and Windows Server 2008 R2 documentation. For more information, see [Create a New User Account](http://go.microsoft.com/fwlink/?LinkId=213723) in the TechNet Library. You must be a network administrator to perform this task.  
+ The steps for creating a domain user account using the Active Directory Users and Computers utility \(dsa.msc\) are available in the Windows Server documentation. For more information, see [Create a New User Account](http://go.microsoft.com/fwlink/?LinkId=213723) in the TechNet Library. You must be a network administrator to perform this task.  
 
  After you create the account, you must give it the necessary permissions and privileges to interact securely with [!INCLUDE[navnow](includes/navnow_md.md)] clients and SQL Server databases. To do this, complete the procedures in [Provisioning the Microsoft Dynamics NAV Server Account](Provisioning-the-Microsoft-Dynamics-NAV-Server-Account.md).  
 
@@ -211,7 +211,8 @@ In this walkthrough, you will install [!INCLUDE[navnowlong](includes/navnowlong_
  The next steps are to upload your license, create users, and integrate them into the [!INCLUDE[navnow](includes/navnow_md.md)] security system. For more information, see [How to: Upload the License File](How-to--Upload-the-License-File.md), [How to: Create Microsoft Dynamics NAV Users](How-to--Create-Microsoft-Dynamics-NAV-Users.md), and [Managing Users](Managing-Users.md).  
 
 ## See Also  
- [Product and Architecture Overview](Product-and-Architecture-Overview.md)   
+ [Product and Architecture Overview](Product-and-Architecture-Overview.md)
+ [System Requirements for Microsoft Dynamics NAV](System-Requirements-for-Microsoft-Dynamics-NAV.md)
  [Configuring Microsoft SQL Server](Configuring-Microsoft-SQL-Server.md)   
  [Configuring Microsoft Dynamics NAV Server](Configuring-Microsoft-Dynamics-NAV-Server.md)   
  [Configuring the Windows Client](Configuring-the-Windows-Client.md)   
