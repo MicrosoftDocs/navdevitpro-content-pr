@@ -12,7 +12,7 @@ caps.latest.revision: 11
 manager: edupont
 ---
 # SAVEASWORD Method (REPORT)
-Saves a report on the computer that is running [!INCLUDE[nav_server](../includes/nav_server_md.md)] as a Microsoft Word \(.doc\) document.  
+Saves a report on the computer that is running [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] as a Microsoft Word \(.doc\) document.  
 
 ## Syntax  
 
@@ -32,7 +32,7 @@ Saves a report on the computer that is running [!INCLUDE[nav_server](../includes
  *FileName*  
  Type: Text  
 
- The path and the name of the file that you want to save the report as. The path must exist, the file must not be being used, and the [!INCLUDE[nav_server](../includes/nav_server_md.md)] process must have permission to write to the file. Otherwise, you will get errors.  
+ The path and the name of the file that you want to save the report as. The path must exist, the file must not be being used, and the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] process must have permission to write to the file. Otherwise, you will get errors.  
 
  *Record*  
  Type: Record  
@@ -62,12 +62,12 @@ Saves a report on the computer that is running [!INCLUDE[nav_server](../includes
 
  **An I/O exception occurred during the operation.**  
 
- If the [!INCLUDE[nav_server](../includes/nav_server_md.md)] process does not have permission to write to the file that you specify in *FileName*, then you get the following error:  
+ If the [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] process does not have permission to write to the file that you specify in *FileName*, then you get the following error:  
 
  **Either the caller does not have the required permission or the specified path is read-only.**  
 
 ## Example  
- This example shows how to use the SAVEASWORD method to save the Word document on the computer that is running [!INCLUDE[nav_server](../includes/nav_server_md.md)] and then download the file to a different computer that is running the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)]. It requires that you create the following variables.  
+ This example shows how to use the SAVEASWORD method to save the Word document on the computer that is running [!INCLUDE[d365fin_server_md](../includes/d365fin_server_md.md)] and then download the file to a different computer that is running the [!INCLUDE[nav_windows](../includes/nav_windows_md.md)]. It requires that you create the following variables.  
 
 |Variable name|DataType|Length|  
 |-------------------|--------------|------------|  
