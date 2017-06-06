@@ -7,7 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.author: jswymer
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-365-for-financials"
 ---
 # EXPORTSTREAM Method (Media)
 Export the current media object \(such as a JPEG image\) that is used on record to an OUTSTREAM object.  

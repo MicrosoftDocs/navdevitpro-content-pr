@@ -8,7 +8,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-365-for-financials"
 ---
 # ISSESSIONACTIVE Method (Session)
 Tests if the specified SessionID is active on the [!INCLUDE[nav_server](../includes/nav_server_md.md)] instance where it was started.  

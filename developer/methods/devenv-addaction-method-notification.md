@@ -7,7 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.author: jswymer
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-365-for-financials"
 ---
 # ADDACTION Method (Notification)
 Specifies an action for the notification.

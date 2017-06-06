@@ -7,7 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.author: jswymer
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-365-for-financials"
 ---
 # GETDATA Method (Notification)
 Retrieves data that was passed to a notification instance as specified by a [SETDATA Method](devenv-method-notificationsetdata.md) call.
