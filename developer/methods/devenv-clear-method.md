@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-365-for-financials"
 ms.assetid: 438b632a-5ba3-4820-b44e-ac0b0433eb33
 caps.latest.revision: 12
 manager: edupont
@@ -46,7 +46,8 @@ CLEAR(Variable)
 
  **CLEAR** can also be used to deselect a company. For more information, see [CHANGECOMPANY Method \(Record\)](devenv-CHANGECOMPANY-Method-Record.md).  
 
- For an Automation object, **CLEAR** releases the Automation object and decreases the reference count. The Automation server determines if this should cause a shutdown. After **CLEAR**, you can use the [CREATE Method \(Automation\)](devenv-CREATE-Method-Automation.md) on the Automation variable to create a new instance of the object.  
+<!-- not relevant in web client/d365
+For an Automation object, **CLEAR** releases the Automation object and decreases the reference count. The Automation server determines if this should cause a shutdown. After **CLEAR**, you can use the [CREATE Method \(Automation\)](devenv-CREATE-Method-Automation.md) on the Automation variable to create a new instance of the object.  -->
 
  If you use **CLEAR** on a codeunit, only the reference to the codeunit is deleted and not the codeunit itself, as with Automation objects. This means that the content of the codeunit stays intact.  
 

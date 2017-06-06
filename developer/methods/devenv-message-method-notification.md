@@ -7,7 +7,7 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 author: jswymer
-ms.prod: "dynamics-nav-2017"
+ms.prod: "dynamics-365-for-financials"
 ---
 # MESSAGE Method (Notification)
 Specifies the content of the notification.
