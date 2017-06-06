@@ -36,4 +36,4 @@ Use this method to test if a session has completed or is still active, for examp
 
 
 ## See Also  
-[STARTSESSION](STARTSESSION-Method-Sessions.md)  
+[STARTSESSION](devenv-STARTSESSION-Method-Sessions.md)  
