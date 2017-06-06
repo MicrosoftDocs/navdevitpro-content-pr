@@ -2,7 +2,7 @@
 title: "Visible Property"
 author: edupont04
 ms.custom: na
-ms.date: 05/02/2017
+ms.date: 06/06/2017
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
@@ -23,7 +23,7 @@ Sets whether to display the page or control.
 -   FactBoxes  
 
 ## Property Value  
- **true** on pages if you want the page or control to be visible; otherwise, **false** on pages. The default is **true** on pages.  
+ **True** on pages if you want the page or control to be visible; otherwise, **false** on pages. The default is **true** on pages.  
 
 ## Remarks  
  Because this property also applies to containers, such as pages and subpages, if the **Visible** property for the container is set to **false**, then controls on the container are also not displayed, even if the **Visible** property is set to **true**.  
